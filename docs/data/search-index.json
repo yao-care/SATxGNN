@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-15",
-  "drug_count": 889,
-  "indication_count": 1128,
+  "generated": "2026-06-16",
+  "drug_count": 1014,
+  "indication_count": 1193,
   "drugs": [
     {
       "name": "Abacavir",
@@ -749,6 +749,885 @@
     {
       "name": "Budesonide",
       "slug": "budesonide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bumetanide",
+      "slug": "bumetanide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bupivacaine",
+      "slug": "bupivacaine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Buprenorphine",
+      "slug": "buprenorphine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Busulfan",
+      "slug": "busulfan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Butenafine",
+      "slug": "butenafine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabazitaxel",
+      "slug": "cabazitaxel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabergoline",
+      "slug": "cabergoline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabozantinib",
+      "slug": "cabozantinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Calcitriol",
+      "slug": "calcitriol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Obsolete vitamin D deficiency *(deprecated term)* | 99.9955% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal Tubular Acidosis | 99.93% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Familial Isolated Hypoparathyroidism (impaired PTH secretion) | 99.81% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acromesomelic Dysplasia, Campailla Martinelli Type | 99.79% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Craniofacial Conodysplasia | 99.78% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dahlberg-Borer-Newcomer Syndrome | 99.76% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Calcium Lactate Gluconate",
+      "slug": "calcium_lactate_gluconate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Canakinumab",
+      "slug": "canakinumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Candesartan Cilexetil",
+      "slug": "candesartan_cilexetil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Capecitabine",
+      "slug": "capecitabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Caplacizumab",
+      "slug": "caplacizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Captopril",
+      "slug": "captopril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carbamazepine",
+      "slug": "carbamazepine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carbetocin",
+      "slug": "carbetocin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carbimazole",
+      "slug": "carbimazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "#1 | Resistance to Thyroid Hormone (RTH-β)",
+          "score": 99.71,
+          "level": "L5"
+        },
+        {
+          "name": "#2 | Neonatal Thyrotoxicosis",
+          "score": 99.41,
+          "level": "L3"
+        },
+        {
+          "name": "#3 | Hyperthyroxinemia",
+          "score": 99.21,
+          "level": "L4"
+        }
+      ]
+    },
+    {
+      "name": "Carboplatin",
+      "slug": "carboplatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carfilzomib",
+      "slug": "carfilzomib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carvedilol",
+      "slug": "carvedilol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Caspofungin",
+      "slug": "caspofungin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Catridecacog",
+      "slug": "catridecacog",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefazolin",
+      "slug": "cefazolin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefoperazone",
+      "slug": "cefoperazone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefpodoxime",
+      "slug": "cefpodoxime",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefprozil",
+      "slug": "cefprozil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ceftazidime",
+      "slug": "ceftazidime",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ceftizoxime",
+      "slug": "ceftizoxime",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ceftriaxone",
+      "slug": "ceftriaxone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Infectious otitis media | 99.26% | L1 | 3 | 19 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Suppurative otitis media | 99.02% | L3 | 0 | 20 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chronic otitis media | 99.01% | L3 | 0 | 19 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hyperamylasemia | 99.39% | L4 | 0 | 3 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Polyclonal hyperviscosity syndrome | 99.39% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital analbuminemia | 99.37% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blood group incompatibility | 99.12% | L5 | 0 | 2 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Celecoxib",
+      "slug": "celecoxib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Centella Asiatica",
+      "slug": "centella_asiatica",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ceritinib",
+      "slug": "ceritinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Certolizumab Pegol",
+      "slug": "certolizumab_pegol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cetrorelix",
+      "slug": "cetrorelix",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cetuximab",
+      "slug": "cetuximab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorambucil",
+      "slug": "chlorambucil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chloramphenicol",
+      "slug": "chloramphenicol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorphenoxamine",
+      "slug": "chlorphenoxamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorprothixene",
+      "slug": "chlorprothixene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorthalidone",
+      "slug": "chlorthalidone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorzoxazone",
+      "slug": "chlorzoxazone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cholecalciferol",
+      "slug": "cholecalciferol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Familial isolated hypoparathyroidism (PTH secretion defect) | 99.79% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acromesomelic dysplasia, Campailla-Martinelli type | 99.78% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Craniofacial conodysplasia | 99.75% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dahlberg-Borer-Newcomer syndrome | 99.73% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypophosphatemic Rickets | 99.20% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal Osteodystrophy | 99.11% | **L2** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal Tubular Acidosis | 99.06% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Ciclesonide",
+      "slug": "ciclesonide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cilastatin",
+      "slug": "cilastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cilazapril",
+      "slug": "cilazapril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Pulmonary hypertension with unclear multifactorial mechanism | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension owing to lung disease and/or hypoxia | L5 | Hold — 20 PubMed hits retrieved are general hypoxia biology papers, not Cilazapril-specific (likely keyword co-occurrence false positives)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant hypertensive renal disease | L4 | Research Question — mechanistically plausible via ACE inhibitor class effect (AASK trial precedent for Ramipril/Lisinopril), but no Cilazapril-specific data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant renovascular hypertension | L5 | Hold — **known contraindication**: bilateral renal artery stenosis risk of AKI with ACE inhibition",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Cimetidine",
+      "slug": "cimetidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cinchocaine",
+      "slug": "cinchocaine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ciprofibrate",
+      "slug": "ciprofibrate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ciprofloxacin",
+      "slug": "ciprofloxacin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cisatracurium",
+      "slug": "cisatracurium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Citalopram",
+      "slug": "citalopram",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cladribine",
+      "slug": "cladribine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clarithromycin",
+      "slug": "clarithromycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clemastine",
+      "slug": "clemastine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clioquinol",
+      "slug": "clioquinol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clobazam",
+      "slug": "clobazam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clobetasol Propionate",
+      "slug": "clobetasol_propionate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clobetasone",
+      "slug": "clobetasone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clofarabine",
+      "slug": "clofarabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clofazimine",
+      "slug": "clofazimine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clomifene",
+      "slug": "clomifene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "46,XY DSD due to testicular steroidogenesis defect | 99.90% | L5 | **Hold** | LH stimulation cannot bypass downstream enzyme defects (StAR/CYP11A1/CYP17A1)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Longitudinal vaginal septum | 99.87% | L5 | **Hold** | Structural Müllerian fusion defect; no pharmacological mechanism exists",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Transverse vaginal septum | 99.87% | L5 | **Hold** | Same as above; assessed as knowledge graph false positive",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Symptomatic fragile X syndrome in female carrier (FXPOI) | 99.69% | L5 | Research Question | Indirect: Clomifene may stimulate residual follicles in FXPOI, but ovarian reserve is already compromised",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blepharophimosis-epicanthus inversus-ptosis (BPES) | 99.61% | L5 | Research Question | FOXL2-related POI subgroup may respond to ovulation induction; eyelid defect itself has no drug target",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "BPES due to 3q23 rearrangement | 99.58% | L5 | Research Question | Same rationale as BPES; rarer genetic subtype with even lower research feasibility",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Partial trisomy/tetrasomy of chromosome 18p | 99.54% | L5 | **Hold** | Chromosomal copy number anomaly; no estrogen receptor or HPG axis target exists",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Partial trisomy/tetrasomy of chromosome 5p | 99.54% | L5 | **Hold** | Structural chromosomal anomaly (includes Cri du Chat region); no mechanism",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Partial trisomy/tetrasomy of chromosome 12p | 99.54% | L5 | **Hold** | Pallister-Killian syndrome area; no pharmacological target for Clomifene",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ovarian remnant syndrome | 99.52% | **L4** | Research Question | Best-supported candidate: 1990 case series reports Clomifene used to stimulate and localize residual ovarian tissue prior to surgery",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Clonazepam",
+      "slug": "clonazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clopidogrel",
+      "slug": "clopidogrel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clotrimazole",
+      "slug": "clotrimazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clozapine",
+      "slug": "clozapine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cobimetinib",
+      "slug": "cobimetinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Colchicine",
+      "slug": "colchicine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Corifollitropin Alfa",
+      "slug": "corifollitropin_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Crizotinib",
+      "slug": "crizotinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyanocobalamin",
+      "slug": "cyanocobalamin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyclopentolate",
+      "slug": "cyclopentolate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyclophosphamide",
+      "slug": "cyclophosphamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyproterone Acetate",
+      "slug": "cyproterone_acetate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cytarabine",
+      "slug": "cytarabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dabigatran Etexilate",
+      "slug": "dabigatran_etexilate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dacarbazine",
+      "slug": "dacarbazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Daclatasvir",
+      "slug": "daclatasvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Danazol",
+      "slug": "danazol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dapoxetine",
+      "slug": "dapoxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Daptomycin",
+      "slug": "daptomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Darolutamide",
+      "slug": "darolutamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Darunavir",
+      "slug": "darunavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dasabuvir",
+      "slug": "dasabuvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dasatinib",
+      "slug": "dasatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Daunorubicin",
+      "slug": "daunorubicin",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -32810,9 +33689,508 @@
           "level": "L5"
         }
       ]
+    },
+    {
+      "name": "Decitabine",
+      "slug": "decitabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Deferasirox",
+      "slug": "deferasirox",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Deferiprone",
+      "slug": "deferiprone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Defibrotide",
+      "slug": "defibrotide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Pseudo-von Willebrand disease | 99.91% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary release disorder of platelets | 99.91% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glanzmann thrombasthenia | 99.88% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Scott syndrome | 99.67% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bleeding diathesis due to collagen receptor defect | 99.43% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hemorrhagic disorder due to constitutional thrombocytopenia | 99.39% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital factor V deficiency | 99.30% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fetal and neonatal alloimmune thrombocytopenia | 99.23% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombocytopenic purpura (broad category) | 99.22% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Degarelix",
+      "slug": "degarelix",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Denosumab",
+      "slug": "denosumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Deoxycholic Acid",
+      "slug": "deoxycholic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Desloratadine",
+      "slug": "desloratadine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Desogestrel",
+      "slug": "desogestrel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexamethasone",
+      "slug": "dexamethasone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexketoprofen",
+      "slug": "dexketoprofen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexlansoprazole",
+      "slug": "dexlansoprazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexmedetomidine",
+      "slug": "dexmedetomidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexpanthenol",
+      "slug": "dexpanthenol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dextromethorphan",
+      "slug": "dextromethorphan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diazepam",
+      "slug": "diazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dienogest",
+      "slug": "dienogest",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diethylcarbamazine",
+      "slug": "diethylcarbamazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diflunisal",
+      "slug": "diflunisal",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Digoxin",
+      "slug": "digoxin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dimenhydrinate",
+      "slug": "dimenhydrinate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diosmin",
+      "slug": "diosmin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dipivefrin",
+      "slug": "dipivefrin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dipyridamole",
+      "slug": "dipyridamole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prinzmetal Angina | 99.99% | L4 | ⚠️ Hold (Safety Concern — Contraindicated)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Stroke Disorder | 99.95% | L1 | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombotic Disease | 99.94% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Sick Sinus Syndrome 2 (AD) | 99.89% | L5 | ⚠️ Hold (Potential Contraindication)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Transient Ischemic Attack | 99.87% | L1 | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Sarcoglycanopathy | 99.82% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Wildervanck Syndrome | 99.78% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Macrocephaly / Dysmorphic Facies / Psychomotor Retardation | 99.77% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cavernous Sinus Thrombosis | 99.72% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lateral Sinus Thrombosis | 99.72% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Dobutamine",
+      "slug": "dobutamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Docetaxel",
+      "slug": "docetaxel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dolutegravir",
+      "slug": "dolutegravir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Domperidone",
+      "slug": "domperidone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doravirine",
+      "slug": "doravirine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doripenem",
+      "slug": "doripenem",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dorzolamide",
+      "slug": "dorzolamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doxazosin",
+      "slug": "doxazosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doxycycline",
+      "slug": "doxycycline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Droperidol",
+      "slug": "droperidol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Duloxetine",
+      "slug": "duloxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dupilumab",
+      "slug": "dupilumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Durvalumab",
+      "slug": "durvalumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prostatic Urethra Urothelial Carcinoma | 99.98% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Kidney Pelvis Sarcomatoid TCC | 99.98% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infiltrating Bladder UC Sarcomatoid Variant | 99.98% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal Pelvis Papillary UC | 99.98% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Uterine Ligament Adenocarcinoma | 99.92% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Adenoid Cystic Carcinoma of Cervix Uteri | 99.91% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Uterine Ligament Serous Adenocarcinoma | 99.91% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Signet Ring Cell Variant Cervical Mucinous Adenocarcinoma | 99.90% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Intestinal Variant Cervical Mucinous Adenocarcinoma | 99.90% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Dutasteride",
+      "slug": "dutasteride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Duvelisib",
+      "slug": "duvelisib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
     }
   ],
   "indications": [
+    {
+      "name": "#1 | Resistance to Thyroid Hormone (RTH-β)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carbimazole",
+          "slug": "carbimazole",
+          "score": 99.71
+        }
+      ]
+    },
+    {
+      "name": "#2 | Neonatal Thyrotoxicosis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carbimazole",
+          "slug": "carbimazole",
+          "score": 99.41
+        }
+      ]
+    },
+    {
+      "name": "#3 | Hyperthyroxinemia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carbimazole",
+          "slug": "carbimazole",
+          "score": 99.21
+        }
+      ]
+    },
+    {
+      "name": "46,XY DSD due to testicular steroidogenesis defect | 99.90% | L5 | **Hold** | LH stimulation cannot bypass downstream enzyme defects (StAR/CYP11A1/CYP17A1)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
     {
       "name": "AH amyloidosis | TxGNN Knowledge Graph",
       "drug_count": 2,
@@ -32949,6 +34327,28 @@
       ]
     },
     {
+      "name": "Acromesomelic Dysplasia, Campailla Martinelli Type | 99.79% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Calcitriol",
+          "slug": "calcitriol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acromesomelic dysplasia, Campailla-Martinelli type | 99.78% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Actinomycetales infectious disease | TxGNN Knowledge Graph",
       "drug_count": 7,
       "drugs": [
@@ -32996,6 +34396,17 @@
         {
           "drug": "TETRACOSACTIDE",
           "slug": "db01284",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Adenoid Cystic Carcinoma of Cervix Uteri | 99.91% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -33099,6 +34510,17 @@
       ]
     },
     {
+      "name": "BPES due to 3q23 rearrangement | 99.58% | L5 | Research Question | Same rationale as BPES; rarer genetic subtype with even lower research feasibility",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Balo concentric sclerosis | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -33132,6 +34554,28 @@
       ]
     },
     {
+      "name": "Bleeding diathesis due to collagen receptor defect | 99.43% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Blepharophimosis-epicanthus inversus-ptosis (BPES) | 99.61% | L5 | Research Question | FOXL2-related POI subgroup may respond to ovulation induction; eyelid defect itself has no drug target",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Blood Group Incompatibility | 99.40% | L5 | Hold | Single case report (PMID [40350274](https://pubmed.ncbi.nlm.nih.gov/40350274/)) describes amoxicillin treating a comorbid infection, not the incompatibility",
       "drug_count": 1,
       "drugs": [
@@ -33149,6 +34593,17 @@
         {
           "drug": "Azithromycin",
           "slug": "azithromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Blood group incompatibility | 99.12% | L5 | 0 | 2 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
           "score": 99.0
         }
       ]
@@ -33245,6 +34700,28 @@
       ]
     },
     {
+      "name": "Cavernous Sinus Thrombosis | 99.72% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chronic otitis media | 99.01% | L3 | 0 | 19 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Clostridium difficile colitis | TxGNN Knowledge Graph",
       "drug_count": 5,
       "drugs": [
@@ -33320,12 +34797,56 @@
       ]
     },
     {
+      "name": "Congenital analbuminemia | 99.37% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Congenital disorder of glycosylation with defective fucosylation | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Bromocriptine",
           "slug": "bromocriptine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital factor V deficiency | 99.30% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Craniofacial Conodysplasia | 99.78% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Calcitriol",
+          "slug": "calcitriol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Craniofacial conodysplasia | 99.75% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
           "score": 99.0
         }
       ]
@@ -33430,6 +34951,28 @@
       ]
     },
     {
+      "name": "Dahlberg-Borer-Newcomer Syndrome | 99.76% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Calcitriol",
+          "slug": "calcitriol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Dahlberg-Borer-Newcomer syndrome | 99.73% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Diamond-Blackfan anemia | TxGNN Knowledge Graph",
       "drug_count": 4,
       "drugs": [
@@ -33524,6 +35067,39 @@
       ]
     },
     {
+      "name": "Familial Isolated Hypoparathyroidism (impaired PTH secretion) | 99.81% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Calcitriol",
+          "slug": "calcitriol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Familial isolated hypoparathyroidism (PTH secretion defect) | 99.79% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fetal and neonatal alloimmune thrombocytopenia | 99.23% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "G6PD deficiency | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -33551,6 +35127,17 @@
         {
           "drug": "ELIGLUSTAT",
           "slug": "db09039",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Glanzmann thrombasthenia | 99.88% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
           "score": 99.0
         }
       ]
@@ -33682,6 +35269,17 @@
         {
           "drug": "Amoxicillin",
           "slug": "amoxicillin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hemorrhagic disorder due to constitutional thrombocytopenia | 99.39% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
           "score": 99.0
         }
       ]
@@ -33828,6 +35426,17 @@
       ]
     },
     {
+      "name": "Hyperamylasemia | 99.39% | L4 | 0 | 3 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hyperamylasemia | 99.63% | L5 | Hold | Amoxicillin is a *cause* of drug-induced pancreatitis — opposite direction",
       "drug_count": 1,
       "drugs": [
@@ -33845,6 +35454,17 @@
         {
           "drug": "Azithromycin",
           "slug": "azithromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypophosphatemic Rickets | 99.20% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
           "score": 99.0
         }
       ]
@@ -33903,6 +35523,39 @@
         {
           "drug": "FUSIDIC ACID",
           "slug": "db02703",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infectious otitis media | 99.26% | L1 | 3 | 19 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infiltrating Bladder UC Sarcomatoid Variant | 99.98% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Intestinal Variant Cervical Mucinous Adenocarcinoma | 99.90% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -33992,6 +35645,17 @@
         {
           "drug": "PROPRANOLOL",
           "slug": "db00571",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Kidney Pelvis Sarcomatoid TCC | 99.98% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -34107,6 +35771,17 @@
       ]
     },
     {
+      "name": "Lateral Sinus Thrombosis | 99.72% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Lennox-Gastaut syndrome | TxGNN Knowledge Graph",
       "drug_count": 8,
       "drugs": [
@@ -34153,12 +35828,56 @@
       ]
     },
     {
+      "name": "Longitudinal vaginal septum | 99.87% | L5 | **Hold** | Structural Müllerian fusion defect; no pharmacological mechanism exists",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Lyme disease | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "CEFUROXIME SODIUM",
           "slug": "db01112",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Macrocephaly / Dysmorphic Facies / Psychomotor Retardation | 99.77% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant hypertensive renal disease | L4 | Research Question — mechanistically plausible via ACE inhibitor class effect (AASK trial precedent for Ramipril/Lisinopril), but no Cilazapril-specific data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cilazapril",
+          "slug": "cilazapril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant renovascular hypertension | L5 | Hold — **known contraindication**: bilateral renal artery stenosis risk of AKI with ACE inhibition",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cilazapril",
+          "slug": "cilazapril",
           "score": 99.0
         }
       ]
@@ -34290,6 +36009,28 @@
       ]
     },
     {
+      "name": "Obsolete vitamin D deficiency *(deprecated term)* | 99.9955% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Calcitriol",
+          "slug": "calcitriol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ovarian remnant syndrome | 99.52% | **L4** | Research Question | Best-supported candidate: 1990 case series reports Clomifene used to stimulate and localize residual ovarian tissue prior to surgery",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Parkinson disease | TxGNN Knowledge Graph",
       "drug_count": 13,
       "drugs": [
@@ -34341,6 +36082,39 @@
         {
           "drug": "BROMOCRIPTINE",
           "slug": "db01200",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Partial trisomy/tetrasomy of chromosome 12p | 99.54% | L5 | **Hold** | Pallister-Killian syndrome area; no pharmacological target for Clomifene",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Partial trisomy/tetrasomy of chromosome 18p | 99.54% | L5 | **Hold** | Chromosomal copy number anomaly; no estrogen receptor or HPG axis target exists",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Partial trisomy/tetrasomy of chromosome 5p | 99.54% | L5 | **Hold** | Structural chromosomal anomaly (includes Cri du Chat region); no mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
           "score": 99.0
         }
       ]
@@ -34532,6 +36306,17 @@
       ]
     },
     {
+      "name": "Polyclonal hyperviscosity syndrome | 99.39% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Prader-Willi syndrome | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -34565,6 +36350,28 @@
       ]
     },
     {
+      "name": "Primary release disorder of platelets | 99.91% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prinzmetal Angina | 99.99% | L4 | ⚠️ Hold (Safety Concern — Contraindicated)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Prinzmetal angina | TxGNN Knowledge Graph",
       "drug_count": 5,
       "drugs": [
@@ -34591,6 +36398,28 @@
         {
           "drug": "NIFEDIPINE",
           "slug": "db01115",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prostatic Urethra Urothelial Carcinoma | 99.98% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudo-von Willebrand disease | 99.91% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
           "score": 99.0
         }
       ]
@@ -34653,6 +36482,28 @@
       ]
     },
     {
+      "name": "Pulmonary hypertension owing to lung disease and/or hypoxia | L5 | Hold — 20 PubMed hits retrieved are general hypoxia biology papers, not Cilazapril-specific (likely keyword co-occurrence false positives)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cilazapril",
+          "slug": "cilazapril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension with unclear multifactorial mechanism | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cilazapril",
+          "slug": "cilazapril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Punctate Epithelial Keratoconjunctivitis | 99.78% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -34700,6 +36551,50 @@
         {
           "drug": "FUSIDIC ACID",
           "slug": "db02703",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Renal Osteodystrophy | 99.11% | **L2** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Renal Pelvis Papillary UC | 99.98% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Renal Tubular Acidosis | 99.06% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cholecalciferol",
+          "slug": "cholecalciferol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Renal Tubular Acidosis | 99.93% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Calcitriol",
+          "slug": "calcitriol",
           "score": 99.0
         }
       ]
@@ -34857,12 +36752,34 @@
       ]
     },
     {
+      "name": "Sarcoglycanopathy | 99.82% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Scheie syndrome | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "LARONIDASE",
           "slug": "db00090",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Scott syndrome | 99.67% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
           "score": 99.0
         }
       ]
@@ -34901,12 +36818,67 @@
       ]
     },
     {
+      "name": "Sick Sinus Syndrome 2 (AD) | 99.89% | L5 | ⚠️ Hold (Potential Contraindication)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Signet Ring Cell Variant Cervical Mucinous Adenocarcinoma | 99.90% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Sjogren syndrome | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "CICLOSPORIN",
           "slug": "db00091",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Stroke Disorder | 99.95% | L1 | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Suppurative otitis media | 99.02% | L3 | 0 | 20 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftriaxone",
+          "slug": "ceftriaxone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Symptomatic fragile X syndrome in female carrier (FXPOI) | 99.69% | L5 | Research Question | Indirect: Clomifene may stimulate residual follicles in FXPOI, but ovarian reserve is already compromised",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
           "score": 99.0
         }
       ]
@@ -34948,6 +36920,28 @@
       ]
     },
     {
+      "name": "Thrombocytopenic purpura (broad category) | 99.22% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Defibrotide",
+          "slug": "defibrotide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombotic Disease | 99.94% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Tourette syndrome | TxGNN Knowledge Graph",
       "drug_count": 2,
       "drugs": [
@@ -34959,6 +36953,28 @@
         {
           "drug": "PIMOZIDE",
           "slug": "db01100",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Transient Ischemic Attack | 99.87% | L1 | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Transverse vaginal septum | 99.87% | L5 | **Hold** | Same as above; assessed as knowledge graph false positive",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Clomifene",
+          "slug": "clomifene",
           "score": 99.0
         }
       ]
@@ -34981,6 +36997,28 @@
         {
           "drug": "HYDROCORTISONE ACETATE",
           "slug": "db14539",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Uterine Ligament Adenocarcinoma | 99.92% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Uterine Ligament Serous Adenocarcinoma | 99.91% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -35025,6 +37063,17 @@
         {
           "drug": "VIGABATRIN",
           "slug": "db01080",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Wildervanck Syndrome | 99.78% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dipyridamole",
+          "slug": "dipyridamole",
           "score": 99.0
         }
       ]
