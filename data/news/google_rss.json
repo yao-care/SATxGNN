@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T21:42:53.052494+00:00",
+  "fetched_at": "2026-07-12T22:41:13.551509+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -101,6 +101,16 @@
       "source": {
         "name": "الجزيرة نت",
         "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "ea1ec493d487",
+      "title": "صحة الشيوخ: منظومة التتبع الرقمي ستحاكي التحذيرات السينمائية لمنع تداول الأدوية المعيبة - البوابة نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBicTItR3BQVDBrcVA0eHNtdVduN1JuLXdueE52blBlZXdIRHNVS1JWYnhIc0dEcHFzSGNqVVI5cldiM2dYUlRIYnNOaTc?oc=5",
+      "published": "2026-07-12T21:36:00+00:00",
+      "source": {
+        "name": "البوابة نيوز",
+        "url": "https://www.albawabhnews.com"
       }
     },
     {
@@ -214,6 +224,16 @@
       }
     },
     {
+      "id": "54ab4e17b758",
+      "title": "«الصحة» تحدد المواعيد المثالية لتناول الفيتامينات والمكملات الغذائية - الوطن",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1adHdTSFBVWDJZajltTWh5V3ZnbmV0UlV4S0drUG5PSllfa3hyMXpFUk1rVUo1V0FKRmV6c3pNVmE4a0N6OGxMT2p3LU5vZFJrQS1JaVBhTXByc05n?oc=5",
+      "published": "2026-07-12T21:39:26+00:00",
+      "source": {
+        "name": "الوطن",
+        "url": "https://www.elwatannews.com"
+      }
+    },
+    {
       "id": "7ea61cd0655f",
       "title": "هل أدوية GLP-1 آمنة لإنقاص الوزن لدى كبار السن؟ - CNN Arabic",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUEFkTmd6UGE5SERna3RGcDcwaXREX2JOd0s4bVFGNlV4Y0xuaFRyUXAwVWF3VHEzb1lzNjRHUF9SS3Mwai1hempGUkRqWEZBMHc4OFNwTmJLaVBkbTBCbzRrT2UyOThEWlBXa1p5b0hoNTFpMENwS2FMMlduaHZPWlZxZUoxZjZjaUxEeEFwMTJEbXBa0gGfAUFVX3lxTE4xMVhPM2F2Z1NESFpDNm42Z0NiMHBITFpTZ1VzRVBGbnJhMmxLVTJjQkFzWUVFbUp5aElld1ZVV183eURQLWZlTURuckZXZ3Bwald6SWQweUphZUM5aXFNZzRLLTlKcVh5WnpFMk9GM0sxcUlsQlhfVjJTa1FTOVZlUUloc2JlVXB1c2RaSDZsZ3ZiSHgxZktjNDA3UEJTUQ?oc=5",
@@ -234,16 +254,6 @@
       }
     },
     {
-      "id": "062bd9c64fbf",
-      "title": "«الصحة» تحذّر المواطنين من أطباء السوشيال: لا تنخدعوا بأدوية السكري والأمراض المزمنة - الوطن",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWOVRLa1VGeE5QTGRiNUNwVUNnakFwMklremxTTlRyNk81TXpOSHdWUnh0LXFEd3dvT090b0taRTdIa1lSUGxueUJ1ZjFleERubmsyb3Jfd0MwYTFK?oc=5",
-      "published": "2026-07-12T06:26:49+00:00",
-      "source": {
-        "name": "الوطن",
-        "url": "https://www.elwatannews.com"
-      }
-    },
-    {
       "id": "762d60c49c98",
       "title": "وكالة أوروبية: وسائل منع حمل قد تزيد قليلا خطر الإصابة بأورام دماغية - اندبندنت عربية",
       "link": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxPZUY1TmxYSUdhTnpPei1seTFNWUtwTWhYRnJQSWlXRjdmUDlpVXdUdzhSNWladENpTGUwZV82Q24wU3BIejVjN1ViVHlNVTZkVlF0S0JFRVJTU3FwVTVvU1QwdHdCQ2NSSWItcWsxZXRBMUtlUzlONnZ5VUtrOU1wOXJ2VnQ2WXJrVmp2MzJwbTdiUHFVNUtqMksxWEVkNXRoYzdNMl9CZGNVa00yVk80RGk1WWduNVQ5TmJ0alZLZ21VU20yLVI1THRCbEtuS1BLUnZFeGVnQVNqLUZHR3Z3U2poZF9WNzNnMEU3NnJ3RGJVekZmNF9DVHQzZGlDRWZJWVUxT3l5UTVndkszTHFxTGJMbVRJd2NnOEpQSHhlU2lPOTVib3lOZ21DVU44MGlIVjNzX3pNTThROXh5VGNCcHYzN3l1TnhWS0RYQVQ1bFRJd0M1LTdkS0ZEaHc2Y29lTk42UkNYdVUyWkl5WkFKUUV3WnZ2bHlyQ0d5TU52OVhGcXl2a29TZ1hhSXQ5aElTZVFzQlZDUGg2UWRJekRURW5mQ2JkNzJmZWlkVmtwQXlEdE03TkJaTUJEcElUZ2xkNlp3T3Y5VDI1YzZsVTF2Z0FLRUUxREh5YVQyYjdOVQ?oc=5",
@@ -251,6 +261,16 @@
       "source": {
         "name": "اندبندنت عربية",
         "url": "https://www.independentarabia.com"
+      }
+    },
+    {
+      "id": "062bd9c64fbf",
+      "title": "«الصحة» تحذّر المواطنين من أطباء السوشيال: لا تنخدعوا بأدوية السكري والأمراض المزمنة - الوطن",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWOVRLa1VGeE5QTGRiNUNwVUNnakFwMklremxTTlRyNk81TXpOSHdWUnh0LXFEd3dvT090b0taRTdIa1lSUGxueUJ1ZjFleERubmsyb3Jfd0MwYTFK?oc=5",
+      "published": "2026-07-12T06:26:49+00:00",
+      "source": {
+        "name": "الوطن",
+        "url": "https://www.elwatannews.com"
       }
     },
     {
@@ -294,16 +314,6 @@
       }
     },
     {
-      "id": "c859a7a240ae",
-      "title": "ضبط 10 أطنان أدوية بيطرية مجهولة المصدر و150 كيلو لحوم فاسدة بالمنوفية.. صور - بوابة أخبار اليوم الإلكترونية",
-      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQYm1xUDBxR0JyTjFVa0lmcFNmSXU3V3lCLWduNGtwUHpJMnJ0TjJZY090V1l0eUs0YVMzeXI5MHFBelYwbkhnSXdlZDRBNUxUTnVUYjB0SGpDcWU5VnM3dG5vMWU5eF9PNHdadkh1M2Y3X0tqV2JDRng5TExrZENyYWMwblJJM0N2TDBwVVdWZksxUHBFYldPZXF1SjRLQkk2d2lXWGtrVExFYmotUXRIU0ZJRU8xOTB4RlZNRmFNTXBnQkMwSVlEeXVZd1FtV2JjdUtwaVpaOGI1VWo2MzVuUHdKS0toU1dTTm40aFdQNmphZXdhb2Q2VWltM1FfblEwR25sc3A1Vjk3azlwdzhvUDBjUjBUb0cxZ1FLWXo2clRDNlMyUWdwbWRfb25jM3dlaDBOZ05lS0pKV3BWWEhaZE1Hb0hBQUZmTW1RQWNTdm9PNi11eDZMV1luYUx5cDVwSFQtQg?oc=5",
-      "published": "2026-07-12T04:35:55+00:00",
-      "source": {
-        "name": "بوابة أخبار اليوم الإلكترونية",
-        "url": "https://m.akhbarelyom.com"
-      }
-    },
-    {
       "id": "5c79852d16fe",
       "title": "مدير منظمة الصحة العالمية يطالب بسرعة دخول الأدوية إلى غزة - alghad.tv",
       "link": "https://news.google.com/rss/articles/CBMirARBVV95cUxQSmFicHhFNkpoUHVjRUpDNXBBX2R3ZXNHZ3FtT0xJVjc4enYtcDhpcy14UUpTS3BCd2ZfYzhOcmhaczZhVTd6SWZwdUtNbkhQOXRyLTNnWjZVVWtKQk9kM0RMSUt0clNOeUswTXBmTVhkc0FaMTRJZTZDU09kQ3NQSDNJTUhNZURibk9XNGUxY3l2R0dCN2VuYUdkV21fRERCRnBvRk9yVHJlQlhxY0FSQkxLRUJuS2piX2RjMmFlbl9BNnItbE9WZnNhSWtudVVPMUZySzdOdmNEWV96Qy04dnA3MzdzaXg4cG83bGtUaTIzTzMtT1JNNnBxM2xYY3hOZl9GOGJSWUdBa2FrY2xxbWcwQWRNLWNYRHRLSnVKcUNQWTB1cktJS2QtUVh6WTNOblEyUWozaThjREgwblhwNjdKWHh4OW5yOGZtekdCLUZOMUF1N1V2SjdZNTlFZmxicVJFcHh0b1dZVHRPcFhHYVFQV2Z5dGR2WXNfQTA1ZE1VbDVNS3VCVmFndHZZTThkRmVWTVdOb2dIUmhqMi13bGN0NnVCd2Y2VWZjZFlTNnlZQ0Z4Q3pZSTVJM0l3ME5MYS1JeGh3aXhHcWhadF9za0FNZXdJV0ZPTnRtSnRYRXhyV2dZVlpsNjJaQnFsMVl6WTNfaWFnUm05RmlUTHlPUUthbGRqc3IxU3U3RXNfT2ZvVTBuV29MNVMxLWZOVG10REpCZC1hUldzZzZC?oc=5",
@@ -314,13 +324,13 @@
       }
     },
     {
-      "id": "7c98f3336b3d",
-      "title": "\"الصيادلة\" تثمن موقف الغذاء والدواء بمنع بيع الأدوية عبر التطبيقات والمنصات الإلكترونية - وكالة عمون الاخبارية",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zbm1PR2J6a3RWOHprX1JxSlZZMGRsTEtMYmFHTkZxbXdkTmt6NmNRT1ZMNHpJdXEwbVRkY2Z2QzQ4eER2aXJXWXJDRlhmcWtPOC1V?oc=5",
-      "published": "2026-07-12T20:27:36+00:00",
+      "id": "c859a7a240ae",
+      "title": "ضبط 10 أطنان أدوية بيطرية مجهولة المصدر و150 كيلو لحوم فاسدة بالمنوفية.. صور - بوابة أخبار اليوم الإلكترونية",
+      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQYm1xUDBxR0JyTjFVa0lmcFNmSXU3V3lCLWduNGtwUHpJMnJ0TjJZY090V1l0eUs0YVMzeXI5MHFBelYwbkhnSXdlZDRBNUxUTnVUYjB0SGpDcWU5VnM3dG5vMWU5eF9PNHdadkh1M2Y3X0tqV2JDRng5TExrZENyYWMwblJJM0N2TDBwVVdWZksxUHBFYldPZXF1SjRLQkk2d2lXWGtrVExFYmotUXRIU0ZJRU8xOTB4RlZNRmFNTXBnQkMwSVlEeXVZd1FtV2JjdUtwaVpaOGI1VWo2MzVuUHdKS0toU1dTTm40aFdQNmphZXdhb2Q2VWltM1FfblEwR25sc3A1Vjk3azlwdzhvUDBjUjBUb0cxZ1FLWXo2clRDNlMyUWdwbWRfb25jM3dlaDBOZ05lS0pKV3BWWEhaZE1Hb0hBQUZmTW1RQWNTdm9PNi11eDZMV1luYUx5cDVwSFQtQg?oc=5",
+      "published": "2026-07-12T04:35:55+00:00",
       "source": {
-        "name": "وكالة عمون الاخبارية",
-        "url": "https://www.ammonnews.net"
+        "name": "بوابة أخبار اليوم الإلكترونية",
+        "url": "https://m.akhbarelyom.com"
       }
     },
     {
@@ -331,6 +341,16 @@
       "source": {
         "name": "الكونسلتو",
         "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "7c98f3336b3d",
+      "title": "\"الصيادلة\" تثمن موقف الغذاء والدواء بمنع بيع الأدوية عبر التطبيقات والمنصات الإلكترونية - وكالة عمون الاخبارية",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zbm1PR2J6a3RWOHprX1JxSlZZMGRsTEtMYmFHTkZxbXdkTmt6NmNRT1ZMNHpJdXEwbVRkY2Z2QzQ4eER2aXJXWXJDRlhmcWtPOC1V?oc=5",
+      "published": "2026-07-12T20:27:36+00:00",
+      "source": {
+        "name": "وكالة عمون الاخبارية",
+        "url": "https://www.ammonnews.net"
       }
     },
     {
@@ -494,16 +514,6 @@
       }
     },
     {
-      "id": "534bbabe012c",
-      "title": "ردا على نظام الطيبات.. استشاري تغذية: لا تتوقفوا عن أدوية السمنة بسبب ”تريند” على السوشيال ميديا.. والمعلومات الطبية يجب أن تستند إلى العلم - جريدة النهار المصرية",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wZVNwaEpoZDBNbzVUMGRIeEtoNUsweTZhZy10dzB5YmF3WmJ4bGFzbTN2clVMb3ZFYWdwTlcxUmVadGliRzFkR0V4VFc?oc=5",
-      "published": "2026-07-12T06:40:17+00:00",
-      "source": {
-        "name": "جريدة النهار المصرية",
-        "url": "https://www.alnaharegypt.com"
-      }
-    },
-    {
       "id": "628e59ed0d74",
       "title": "أزمة دواء تهدد حياة المرضى في السودان - الجزيرة نت",
       "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQLUVjOVcxeTMwR28zSEYwSU9WTEJLRU5XVmhMOUNpWU1sbTRNZEN6NUxsZV9hQnZnLUhxQ1lobG1OY21LREJ3TllLazRfSHFGVlRYejlvbjljT01jckpZMG1VVUJkVkd3NGFhMzJ6RTk5TFprSW5QUktIOEcteXRVNzNuR21vOXU1TzF2Q2x1VmxLZkRNLW1zQWkwa2hCR3N0dEhyTW9NWUd0TTBqeGJNdVNGT0lTU2ZnS29lM1lHUmpQbWxtcktadkt4dTIwTWNhU0t5clpxYjlVUmZzT3dqUFhMUHJlSmFORk1ab2NqcE10azI1MkhlaHVBWEtCTkhlNGEzbGFEV19uVVVEWUJ3MnlOM296Tl9lQngtYnBXYndjQl85MU55U2pVZ3NNaXp6YWlpRXNPcnEzdENFdXN6YmtoNHZTZVRZaHFXVENyRHk1ZXdPZlHSAdsCQVVfeXFMTm1LWjhyZHRTTmM0RU5JUTZjdTFYc2F0WnFYQ294RHhxYVRVeDVfUVd3al92S20yTnoyR1c3aDBWTkZDR1d3N2lGTm1EUTJyNkxycUNCZzFNbE1HbVlOekRjRUt4Vk8xSXRrRUJTYWo3VVpGSDQ0enRjWUtwZHBfeXk2aWJCZTRUSzdZM0x0aWlBdHpBZXJod2IwV1V1cXlOSS1CS0JwVE93RklVSi1tNzBickh2SzF6SFZuNTRXNHJOcnJwMVNXMG12eGVENl9qTm9odW0ydFJOUzNDeW5FOVFHVVFCR29jMC1ZUnNkOGlpZVpialk5T0E2UlpySlM5ZktWU1dJMk14UmtFMnoyZUdKWTh3SzlITTZEaTFjOTVyaVZkS1NhUGloMEJLX3pQYWlVT0t2cTRSSGlkYXgxM2t0aFZ5bkZaaVp1blFxQmYxV3R0RDAtYTFUNHc?oc=5",
@@ -524,6 +534,16 @@
       }
     },
     {
+      "id": "534bbabe012c",
+      "title": "ردا على نظام الطيبات.. استشاري تغذية: لا تتوقفوا عن أدوية السمنة بسبب ”تريند” على السوشيال ميديا.. والمعلومات الطبية يجب أن تستند إلى العلم - جريدة النهار المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wZVNwaEpoZDBNbzVUMGRIeEtoNUsweTZhZy10dzB5YmF3WmJ4bGFzbTN2clVMb3ZFYWdwTlcxUmVadGliRzFkR0V4VFc?oc=5",
+      "published": "2026-07-12T06:40:17+00:00",
+      "source": {
+        "name": "جريدة النهار المصرية",
+        "url": "https://www.alnaharegypt.com"
+      }
+    },
+    {
       "id": "f0f1e14d9d52",
       "title": "الصحة السعودية تحذّر من أدوية إنقاص الوزن غير المرخصة - العربية",
       "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxQX3BSZWVnOUM2V1pKQ2xuOG92eEd4TWZqM3h6Wjc2WGFmX0t0MWZXd1NqWExGbEtObkV1aDBTS2c1YV9fWk00ZXFYWjJsaFZrTzVsb29FZmJOT3pPNlVyQ0RydmpMRjJ3elE0Ylo4N0VGTkFaRnZDV2xSQnZSamRlRGE0N2l4SUNaQ2t4cVY4ZmJoTFRvNnV4M19oWk85MWlBdnpxSEs4ZVdad2NYajFuVk5GTnNJeHBWcURTV3VpV3lLV01MX1FOTWQteGlrNFUxN0lTaDRWbGozLTZ3YVc3TFpQdk1QY2NoY1dMSVhCNkxrc1J5eUNmM0tJN1otMVlHT1pER1BiaVNUdWxWTnpnRnk3eVRSNVpLU1ZrM0pqaHdKYkhJRjZESVJXNURlTThjd2R4VEtHanFhRE1RMWVBNXM2RVdmNV84V0RKajJYSkpmeEFWc3NUVWFZZUk5aENiMWRJQnB1Wjdremwtczl4TjNiZU9TdTE2UE5SNE9qdG84X01MaTVKQlhqZDlieGNRM2hFMFhqLUNVUDhSMXQ2Q2VhcXRWc196X3prYkF2V0VKUnJmRlBtZXRtWkQtbUdPOTM2M1NLa0Z1QdIBzwNBVV95cUxPYzg3TkJHTGN0NVV5WFFxNEY1b3FVTndDcGtPYTIzS2Z4YjRnOHd2Q3I0d1JjakRzQXdLeVpWYlh0eUdPOGR2OGdvLVZJNVpzNEpZdU1jS2VNZVcwd012VWNqRnZBWDRBZG9tX1FMZzMtV1dxdnNjSlQyRVR2YkczR2FoOG1VMHZTeFlEUGJ1ckllV0JwNzVNdjFfdldZSm5ySDRBNGJldFBuYlVfYlZZLUg2VW9ZalpCcUtGWjB3eloxNzd1RnEyaWxWY3g5bGFmcjlSWVhqT0FXX2dzLVU0b0ZUMG9vUldWd05vLXhNaFVuWDhFaFJjeE9fLUdhV1oyM2ZDNWlUTnJvdXFCMWs3X3lkMjVjaXBqMDJzLW5vVkxqdEdESUxBcDFuMHF6OGdzS3V2ZEZ6VHQxc09IcU82ekJ2YUFYSFRWekxSOVQzV05FUDd2eExJWGUxYzlYNEE5VHVqRmZKVEFVTEViUjcyU2RyLU5FOEJTckxvY1FHYTV1MHJtRENrY0FObDBpcU1KSXV3ZWhiMFVGeXZqSzFNZWxhUU5UWEx4Sk5ub3U1MHdVaFdGLWdWZXN6SE1QeEVrX2VRaUVhZHExUWdQbzR3?oc=5",
@@ -534,10 +554,10 @@
       }
     },
     {
-      "id": "5088eab805c9",
-      "title": "ثورة في اكتشاف الأدوية.. الذكاء الاصطناعي يصمم جزيئات تتحكم في الخلايا بدقة غير مسبوقة - جريدة النهار المصرية",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mT25nUEIzQUkyVzVORkUzTUFnb2xHNHo5bDQxS0R4THpiV0h5Y3ZMbEJnV1FVLUZIMlpVbmJyVGpla0g3cExLQ1ZDRjg?oc=5",
-      "published": "2026-07-12T04:27:09+00:00",
+      "id": "45cb6948e167",
+      "title": "اختراق علمي قد يغيّر مستقبل تسكين الألم.. طريقة جديدة تجعل المورفين أكثر فاعلية وأقل خطورة - جريدة النهار المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE40elhFV2d3Q2JaRm9lb0VtSzhKMjZlYm1UN0o2RjZxUHJvRkhxUDl4OUE2QzM5M1BrcWJiTUo2aVljb1lTNnU4QkNkMk0?oc=5",
+      "published": "2026-07-12T19:26:26+00:00",
       "source": {
         "name": "جريدة النهار المصرية",
         "url": "https://www.alnaharegypt.com"
@@ -554,16 +574,6 @@
       }
     },
     {
-      "id": "b4df32224f98",
-      "title": "ضبط 10 أطنان أدوية بيطرية ولحوم مجهولة المصدر في المنوفية | صور - صدى البلد",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04cTdOdEZ0MUdCTW5lQlRJU3hkMG5LNzlHMC05dVFFdzBMMElBbjlicFZhMDg3eXU2dXdzdXpuMHc4UVd4a2VJ?oc=5",
-      "published": "2026-07-12T00:08:00+00:00",
-      "source": {
-        "name": "صدى البلد",
-        "url": "https://www.elbalad.news"
-      }
-    },
-    {
       "id": "707957bab0d2",
       "title": "الصحة المصرية تحذر من دواء \"الكلوزابين\": يهدد الحياة - العربية",
       "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxQcVMtNzNxUFNLbDN5bXNrU1RYYnEzZDNTd2FXM0pUMzdVczdBcUFkcXU5NzJycHNFaENJeExPdW5tUnVlR2tMNkNYelFyVmRvSFo4cXVnc1hkY0l3NlBQUGJ6LVNPM3RMT0VSUDB6bTd4eDdoRVNXOTRmZmU0ZjdHNmdsY1UtMUsySWV4TTg2eTdlWTEtSERha1RJYXZPYzZrZy1FTjc1SkNSeWVtdmtHNEpYVGJnY2ZYeHpfWjRxWVBLZ2NwTjd1UEdQbnR2ZTBFQTNLVGFVUEFzN3lLZWg1RkpYaTdJUnFoSUF5R01BbTMtZWNMM3FzckRqWmp2a0h0Q3RkVjNLU0JBVl8zSzJ3VzBibVExQnFVWURTWndkM0htNldTMldLWGFxa3lsdUxJeDNGSHpDQW9nUnlkNTE2dG51SndaOHJKVE1CWmM5VWRNREprNDBub0FwT1g2SV84VnBNVTg4OGVvNWNlWWFGazQxTDIyR0MwMnUxdGxTOHp6MWUtQUJJcm1Ub25Td3R4dTFvUi1mSllPdWZQVWtQd202aFJOMGVyeC0yWDA4TTNUbU50RTlnTXlUS1g4dUtFRlpPddIBygNBVV95cUxOZ2xlTnFXWjJBX3E0b0xEYnNoenpVMzctVmZkZF9DcFNuQy02eDQwcmZLREN3SGp1WHhrNmVpeVRvZElEUVQ5dVZlbEY5UG1tOE1KV3FoRU9BWTJsbXJpS1pYX21HOFh3QTkzMlF1V0RhZEpkRDFiM2ZVd0FCdHdsWkhmTElxbWkzaExzV1lZUHRBMjdqekJEQnZhcGNCZTZRbWRiOWJEQmFZSjRORy1EUHlRSnRaaE4ycGQ4Vk84SHVTV1lBa1ZhSHJPa3I0R0FSZ2JxYWxodGVDTVlDczRKVDFHQ0NSMS14SWxoSWN5WWp6RFBkd0ZIS0J3YXhEb3hiYVN6MVI1RU5RSmFBWEcwc2hHdW42SkZoYzF6V1VKTUI2YTZBYVRmZmRSMnR6NGtQZDdOaXVfS09NNXk4M2FxRzVqam5rXy1rVnZTcUc5NUgxNUVCZ2xfNU5lamloRmtEUjhsbkMzbnRiQ1d4b0t3LWJsbGJheUNQR0NhMkJxR3BBaVNTSnB1LWQ2WEZ3eFdZZmh2eVRTNmFHNjVNNjE5aS1fYURpMndLSWpERVlOY1MwNnV4T1p4eGdmU29aRWo2VU9mSktMTUprQQ?oc=5",
@@ -571,16 +581,6 @@
       "source": {
         "name": "العربية",
         "url": "https://www.alarabiya.net"
-      }
-    },
-    {
-      "id": "673be69aeb14",
-      "title": "إبرام مجدي يحذر من أدوية السمنة المجهولة: الحقن المغشوشة قد تخلو من المادة الفعالة وتشكل خطرًا على المرضى - جريدة النهار المصرية",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE51YWZXak1vcm5yWVNkTGFvd1dyNk9ob25hODEwVkwzTWtYU0RDYlVwSDNWVW1vaXNlN0s4cUs4RXRYdDc3TFlNaWhoYks?oc=5",
-      "published": "2026-07-12T07:35:04+00:00",
-      "source": {
-        "name": "جريدة النهار المصرية",
-        "url": "https://www.alnaharegypt.com"
       }
     },
     {
@@ -594,6 +594,16 @@
       }
     },
     {
+      "id": "5088eab805c9",
+      "title": "ثورة في اكتشاف الأدوية.. الذكاء الاصطناعي يصمم جزيئات تتحكم في الخلايا بدقة غير مسبوقة - جريدة النهار المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mT25nUEIzQUkyVzVORkUzTUFnb2xHNHo5bDQxS0R4THpiV0h5Y3ZMbEJnV1FVLUZIMlpVbmJyVGpla0g3cExLQ1ZDRjg?oc=5",
+      "published": "2026-07-12T04:27:09+00:00",
+      "source": {
+        "name": "جريدة النهار المصرية",
+        "url": "https://www.alnaharegypt.com"
+      }
+    },
+    {
       "id": "2f9b752107d9",
       "title": "ليس دواءً عادياً.. وزارة الصحة تحذر من تناول عقار «الكلوزابين» دون وصفة طبية - الكونسلتو",
       "link": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxQcy1JVjBlMHloeWVIWlJCUnUzZ3dhTVBuWkdPTWF6ZGtncEZTeFl6OG1Za1A5YkgtVWZJalJ5S2wzQ1Z0WDVYMWtkNFgxSzkzLU53emN5VXRBTjZORDE1MXI1a0sxTGlURkVQRzZHRU5SX0NjZWJRYVhiOUo0d1FMUkNpTXdKVm5tQkJ1LXdOcmU0azFtUE5vRGRhV2FvZHhDTmdzTEU2MWgtUmF2N0ZITU1fRnNadUY2OFFvSWI5MEN4UVh0aHBmRzlIaS1weTVGWUhVa0t4dkRjZ2Z1WVg2amJ3a2ljeE5qWHZ2ZFMxVDJ5VnV1UHdhZlVIbmJmeWNVQno0c0I3dk9laGNvVHVEYnJYYTNQcXdzZ3EzNU95Z0M3SlNnM3YtcG9ya2I4VFZpVnotSDRUT0FmYjh4T0ZCV1NkckRjZDhiRmV2X1lRVkt3SW1wTGxtd25NcnFCSmViT0FsbmJYM2ljdU9NWklOUXptVHJEYUVkQUVqY0ZYbld3NDNBa0hOTjBsU0RWdW1aY1lZVElYazZDMVJNRnFULW4tcnpOQ3V4VUNYaWZTdmE1ajl2SnNzWmlVUXlwTmJsTlBrYzVCNmZaN1hzZ2VRMTdUM094QXlvdFJGakZrNUVLOVIta1VnNG44Tl94WU53U3hqZ2FKYWJOMDI3VktnQ0dEbkhlR291ZjI2eHQ0N2s5Qzdad3IxQm43Q2h5bkN3RFFDdE15N05RdFc2RlJRV2R5d3NLRGMxMGFJQnVFQVRjbG1RX1RFcmRLZGFybUtRRzM5c1M4dld0d9IB3wRBVV95cUxOdlJ4cVltZ0RWd3UwMmJIbmdJTzdUeUFIQldqM1U3UEpUdzFraUdWWUt5N2FyaHo1dVRFb3BoMWNxYlVRVVQ2eTBKOWZ2Z2ZrdHAtVkNGUFAyM0NSTm5kMGF6RGM5YXVYb0ViZi13R2xHcldNSkxXTTdIUl9yUEQ3WnhLNUVpSlAtY0VwcEtHSW9BNElmZGRzT0psSF9EWEV4bEJiM25VbHlmdkhJNHlJTERJcjI5SUxyX0RRZXBIX2drSDBpLUFZdVB3YW5JeDA4eFZRd1ZUa2pqVmlJMEFaTThNdjNmd3NaSDVSS0FzWWtWSEZNZVcycVEwTkVfUkVSdktFX01teUhVMk93TWJhWFF4WVQ5SFZlSk1Ra0dSOXNMdDF1ejRtS0dGa05GUXFkLWpGM1R2S2xKZWZ5cjFLbUZXY0pDUTVMZFd4WUo4NWhDZ2tSTWVXX1BoT1l5Z1BsV3hWWU9rbXRwRVRJelBHWmZkWGQwbEdBQVJ6Y0FOVlQ4QjB2Y2ZybjBKbHNWYkt1VEVGOVBXZ2JPX0pHZlBOdFdIODR1TTR5ZkZzRHNISkNqeTc5N1hrY2hwakdDWmxwZEstNmxfdUt2UzhyUGJrQlROcTgzM21leHdZYWVvU3hQOGhUYWUyd3l6LUR5czJUQUdqWHVGdlV0cHFkNm5PcTZtRnZmMlJxamxtMjhkcDlCMUxwT1ZPVHRNZ3hwNFdEcmp5aVJTWmh3djQwS29OcklwU0pmRUNzU2REYUFwc2xWMzNzUklwVVpTUmg0TjhlV3FGbmJCc0xldXZpZWg0?oc=5",
@@ -601,6 +611,16 @@
       "source": {
         "name": "الكونسلتو",
         "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "673be69aeb14",
+      "title": "إبرام مجدي يحذر من أدوية السمنة المجهولة: الحقن المغشوشة قد تخلو من المادة الفعالة وتشكل خطرًا على المرضى - جريدة النهار المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE51YWZXak1vcm5yWVNkTGFvd1dyNk9ob25hODEwVkwzTWtYU0RDYlVwSDNWVW1vaXNlN0s4cUs4RXRYdDc3TFlNaWhoYks?oc=5",
+      "published": "2026-07-12T07:35:04+00:00",
+      "source": {
+        "name": "جريدة النهار المصرية",
+        "url": "https://www.alnaharegypt.com"
       }
     },
     {
@@ -644,6 +664,16 @@
       }
     },
     {
+      "id": "b4df32224f98",
+      "title": "ضبط 10 أطنان أدوية بيطرية ولحوم مجهولة المصدر في المنوفية | صور - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04cTdOdEZ0MUdCTW5lQlRJU3hkMG5LNzlHMC05dVFFdzBMMElBbjlicFZhMDg3eXU2dXdzdXpuMHc4UVd4a2VJ?oc=5",
+      "published": "2026-07-12T00:08:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
+      }
+    },
+    {
       "id": "7aba607bf113",
       "title": "صحي / وزارة الصحة تواصل حملاتها الرقابية على صرف الأدوية الوصفية أو المقيدة بوصفة طبية - وكالة الأنباء السعودية",
       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1uSkE5MHNfeHpSU2JzRTNhM1l1ajBZU3h5bVhSZDh4WGx1eHJ6MC00b3h1akYxMmY1eGY4OHY4eTFQZ3ZhaHc?oc=5",
@@ -684,16 +714,6 @@
       }
     },
     {
-      "id": "5fa3ac80bc42",
-      "title": "زيادة ملحوظة في استخدام حقن ويجوفي للوقاية من أمراض القلب - جريدة النهار المصرية",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oR2NxNm45ekJpd2plZmZiR1JxajFMMTFaTWdtNGtfVlhleHhCeEVHM3dlZzlhcTdybThRV1pQRUhPeExQeEs1QmFSTTc?oc=5",
-      "published": "2026-07-12T04:33:41+00:00",
-      "source": {
-        "name": "جريدة النهار المصرية",
-        "url": "https://www.alnaharegypt.com"
-      }
-    },
-    {
       "id": "54d19c156474",
       "title": "\"الصحة\" و\"الغذاء والدواء\" تطلقان حملة لضبط بيع الأدوية في محال مستحضرات العناية المخفضة - صحيفة سبق الإلكترونية",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBjVzU4NkZ3S1ZLLXN6cUw2ZTZQLTFvdjJadEU1TEtxTE12QW1oT1NFeVNhX1lwYngtOEctWXg2OE5ORU9MMFJ3?oc=5",
@@ -724,13 +744,13 @@
       }
     },
     {
-      "id": "f2c13004e315",
-      "title": "بارقة أمل لمرضى العقم... دواء للسرطان قد يعيد تنشيط المبايض لدى الشابات - LBCI Lebanon",
-      "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxOU184RG1zcWJfekJiSGdqZUdXWTFtVlhVMlJuazBRQ1E5aExhZFV2TE1JZFJaMUJIbElhRldUakZIU3ptcjV1bi1uYXRvWXF6TnpjWWNGOF9RY2F0b0ZTd0JwejlKYVNJdnBDTmExTHd1QVFIR25tMkRQQ3lQdnN0T2xjMDdYb1FNMlZWWFJXSW1XZzNnUFhrdVhyVFFSUGpXZGRQc0FhWDkwTWczbUxLTHJxM1kyT3pKTmpFUHNRb0p5UXhYZFVRa0lScnNuNXdlNmVIaW5CU0tRUjNHS3UzcUZGd1pfcE0waEdOUHpVWHhBaml2VjBXV1lVekNRazlGdF9YQUF4SFI0d1N2TUVnU2NnM3o3QktvR0t6dHBKbHVfR1drTlNRcWMzaE01NUdhVXN5WE1nZkUyMXJWUENUcGd3a0ZlV1JQaEtWU19sdHpWVXI3YV9aYkd3T1NpVDctaUZlOXhxN3dmcDhsWk1xelo3SUNXZXBxRVVZRFF0VzFhRDN0cml6THdna281RS16cFZvMlY4Q1NfU1cwYUhmX1lVcXU3aGQ4QmREYVB1bEJjQUZyNS1KUXNURGdkZVEzUTdOX0ZhQTE3OTNNZnZrRmQyOGtST0U1akZHOEJjbTk4TElJZHNSNkFsMlBySU5rWGI4M0pGeGh2ejg0UXhLdm9vblpLZ0YzRXRPZE1KMGZkcTR1VDNJTi1mTkFpVTZzckNwcFd4QkdpSkZsWTNwX21GUnVFOWhIWnJVSHhn?oc=5",
-      "published": "2026-07-10T12:01:07+00:00",
+      "id": "5fa3ac80bc42",
+      "title": "زيادة ملحوظة في استخدام حقن ويجوفي للوقاية من أمراض القلب - جريدة النهار المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oR2NxNm45ekJpd2plZmZiR1JxajFMMTFaTWdtNGtfVlhleHhCeEVHM3dlZzlhcTdybThRV1pQRUhPeExQeEs1QmFSTTc?oc=5",
+      "published": "2026-07-12T04:33:41+00:00",
       "source": {
-        "name": "LBCI Lebanon",
-        "url": "https://www.lbcgroup.tv"
+        "name": "جريدة النهار المصرية",
+        "url": "https://www.alnaharegypt.com"
       }
     },
     {
@@ -741,6 +761,16 @@
       "source": {
         "name": "صحيفة سبق الإلكترونية",
         "url": "https://sabq.org"
+      }
+    },
+    {
+      "id": "f2c13004e315",
+      "title": "بارقة أمل لمرضى العقم... دواء للسرطان قد يعيد تنشيط المبايض لدى الشابات - LBCI Lebanon",
+      "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxOU184RG1zcWJfekJiSGdqZUdXWTFtVlhVMlJuazBRQ1E5aExhZFV2TE1JZFJaMUJIbElhRldUakZIU3ptcjV1bi1uYXRvWXF6TnpjWWNGOF9RY2F0b0ZTd0JwejlKYVNJdnBDTmExTHd1QVFIR25tMkRQQ3lQdnN0T2xjMDdYb1FNMlZWWFJXSW1XZzNnUFhrdVhyVFFSUGpXZGRQc0FhWDkwTWczbUxLTHJxM1kyT3pKTmpFUHNRb0p5UXhYZFVRa0lScnNuNXdlNmVIaW5CU0tRUjNHS3UzcUZGd1pfcE0waEdOUHpVWHhBaml2VjBXV1lVekNRazlGdF9YQUF4SFI0d1N2TUVnU2NnM3o3QktvR0t6dHBKbHVfR1drTlNRcWMzaE01NUdhVXN5WE1nZkUyMXJWUENUcGd3a0ZlV1JQaEtWU19sdHpWVXI3YV9aYkd3T1NpVDctaUZlOXhxN3dmcDhsWk1xelo3SUNXZXBxRVVZRFF0VzFhRDN0cml6THdna281RS16cFZvMlY4Q1NfU1cwYUhmX1lVcXU3aGQ4QmREYVB1bEJjQUZyNS1KUXNURGdkZVEzUTdOX0ZhQTE3OTNNZnZrRmQyOGtST0U1akZHOEJjbTk4TElJZHNSNkFsMlBySU5rWGI4M0pGeGh2ejg0UXhLdm9vblpLZ0YzRXRPZE1KMGZkcTR1VDNJTi1mTkFpVTZzckNwcFd4QkdpSkZsWTNwX21GUnVFOWhIWnJVSHhn?oc=5",
+      "published": "2026-07-10T12:01:07+00:00",
+      "source": {
+        "name": "LBCI Lebanon",
+        "url": "https://www.lbcgroup.tv"
       }
     },
     {
@@ -954,16 +984,6 @@
       }
     },
     {
-      "id": "85c8008aa46f",
-      "title": "إعلان وزارة الصحة/ الشركة العامة لتسويق الأدوية رقم 500 – سفارة جمهورية العراق في بوخارست - وزارة الخارجية العراقية",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zcUxMM2FUMVdQMm1QeTJoZDZXS2ptTFpzU3dtcVlBcVdVQlRUTDBEanVYWmM1bWVrZmdpa25ENkZsNjFOYWRITzJVczR1QQ?oc=5",
-      "published": "2026-06-23T11:31:13+00:00",
-      "source": {
-        "name": "وزارة الخارجية العراقية",
-        "url": "https://mofa.gov.iq"
-      }
-    },
-    {
       "id": "909350b7375d",
       "title": "\"الصحة\" تحذر من إيقاف الأدوية واتباع نظام \"الطيبات\" - أخبار 24",
       "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQY1p5TWRWam5XbXVNNWJIQkRDYVdyclBGN1FsSHdGNl95VFh5S3NnY0NtY011UHRNaGxPV1p5NnR0V1hSSzJkV1RqQ3NBNWMxTTJTMVZMSV9sZ0d5Y1ZQUUhKSXozcnM3SThmTVdRNEZnTFNhbmMxa214VXBfMTVXaVc3OE5uNHdwQ0l2OXVialBjeFAxMGFtd2dJeW5yLVpROVFrVk1ES3g3aGQ5V2NXblFNc1REd3U4SXRSVDZJN1FnRVkxRG1zTHdkY2NfQ1gtMDJIVmg1eFBwc3NNeHlad1pzSFo4elBOeUcyRXgzcXA0bHFqb29NNXhGeFA3SG45bVVZVXp2Z0tJLXVKTy1PS25XWUFKRFJSRHNtSy1VazEtRVFLaE9RcE96cUhQRmZzSzhEUXB2UGdkZjB6TVMxOXJjZnFGSTZHbXlka0IxVGFsUDJwbHI0NXQ2ZUNrM1JoT3RvdnJ6b2ZQNW1rc002ejBBSVUzcFRlZm4xNVl0WE5NVlY2UHlvRGJ4TTY2V0ZIaGRWUUlCSzZjNW4tY0JubzA1RQ?oc=5",
@@ -974,33 +994,13 @@
       }
     },
     {
-      "id": "bfb86fb85f87",
-      "title": "الحكومة تتجه لتشديد الرقابة على المكملات الغذائية - الجريدة 24",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUMktZUTBvcDBNaFRtVnZvbWpkN3B6ZEFzX3JHQWVVX2taMzVQbFhmUVBCUk83alc1WUdDcW40RnBxN1hWTFlWaXIwRkh3dFlESG0xUg?oc=5",
-      "published": "2026-07-12T08:33:46+00:00",
+      "id": "85c8008aa46f",
+      "title": "إعلان وزارة الصحة/ الشركة العامة لتسويق الأدوية رقم 500 – سفارة جمهورية العراق في بوخارست - وزارة الخارجية العراقية",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zcUxMM2FUMVdQMm1QeTJoZDZXS2ptTFpzU3dtcVlBcVdVQlRUTDBEanVYWmM1bWVrZmdpa25ENkZsNjFOYWRITzJVczR1QQ?oc=5",
+      "published": "2026-06-23T11:31:13+00:00",
       "source": {
-        "name": "الجريدة 24",
-        "url": "https://aljarida24.ma"
-      }
-    },
-    {
-      "id": "ee7659411b8f",
-      "title": "بيان هام من هيئة الدواء بشأن الأدوية منتهية الصلاحية.. تفاصيل - الكونسلتو",
-      "link": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPU2Q1WTFrVGU3SFA5Z1JDWUIwVmhBbXBtbEd2LU9aNFpOTXRWRk9mNFFsN0NyYzdHTnpOTE5tdFlyWDNZXzRIYzBLYmtTb3c5aUlFOVZnaEdRM0lFN2hLMGVRVkQ5MWxkVC1INE9Ra2hwTGpoT3hUal9TdXZxSkJrREtTM18tZzVfTkFRaU1UQzhJYkd6UEtDRXcyc0dsOUctdVVGejVMQ0NaU0NmWWRXZE9WVWhTYXBEbVlLcDAtS2JpYWpPazQ1MFpWOGt6R3R6TEhtbnJoeVkteWc0Z2I5SWR2bjg5UTVmdHpaOGNFdVVyWlJqMzhmanRNU3lLa0lQNVp4ODhhd0FiQUlkbU03MUJnek5yZWhXcFl5WlR2VTFQV1h2ZDllOWxVbUcxUmlGdU5KVERZd2hZVnNMOGM5OFpENWVQMEpCYjVPamZMQWdvZllHRzVRX2NsUk1HZDIxRVhJcnJla1pqZm90YThmUzhMSTV0U0J6UkJwV3ZHTk9SZGl5ak80QXcxSjF1Y2gzNWtncHIzWlFld1JmSENTUy1KRUZ1RjEwSGFnbkhkSFpOTFRXOVNld2lyanJzVkgxR2h0cUxqSWxKVElWUkp4b2t6VTlIcFJtem5mNjh0ZWNkR09DSVZsT2E0VE1BUGJiVnlNMUFHLWFEYUxDcjlsY3U5ZG9Nc2xPcWVtLW9zTVJVZEh4aFHSAZsEQVVfeXFMTmZDRHNNTWZHWnM3bDJJd2hFVWZsRjBhVnFyOUdDbFBjS3QxQzZGcVpzTC1nQVVFWUpQaHpBYmtuQm1neV9HbWVJVkZRUlJfaThWX0ktV1ZzeENpdHJPZ0VMaTFyNW9OVDM1OUdYUVVWWGRmTUdFVF9NVVZfVGgybUlJSU1zNWY1T1lLc1VtZnNCTF9OcFhSMGdNSzNheExnS2RubEx6eG9JQ3huakcxQ0hnYjRVdm9TMFFRUXFNcGNfMC1rbWFKUlpCVHR6YVZsZl9OQlA0Qm04QlVmbmtKRl9OS20ydV81bzFVenBoaFJuZWFQRkxEX3kzckFyTU1xSWhWS0ZOcmsxbFREbG8zMk85ZGp5U2ZqZVdSUWZZaW5SYmJ1T2ctbFZ0YXQ1QmNoYXFvQkdqVkkxVWtVWmgxLTc0YVkyeGZWRlJKSWNram55M05Tb3Q4Ym85dU51OU1FMHBjZmM4WW1kSFNyRkFWTjN0THdCRHM2ekxwNWhwSE5XN2NzMldnZUxtM200enAxc084Y015R0RBOTBYQU1hcHFaZTRlak1nZmcyRXJ2WjJEYmxjbnpNSDlDWlpid2lobjBjUi1RTzdpNkNVNXRnRlZVTlMxQllUN0Q1RE1mejlJM19mVGw4YVBrZUJURXYtaVhwUXJOM211TXJ4TGhON3dQNUNSa21nM0puMDNxZmZMRVVCTnAxWW5XMlE?oc=5",
-      "published": "2026-05-08T07:00:00+00:00",
-      "source": {
-        "name": "الكونسلتو",
-        "url": "https://www.elconsolto.com"
-      }
-    },
-    {
-      "id": "e3cad4af4141",
-      "title": "الصحة العالمية تعتمد مصر مركزا إقليميا للتصنيع الحيوي - الكونسلتو",
-      "link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxQcUR4ei1XeU02VnE5ckxaWjVualBFbGlJVmRQMDdQS2ZyVGlER3lMemczTGNwZm9RUjkzME90cGZXZVNleU1VYTVBazQtSklBa19SM195cGdlZEFxdF9XQ1JyN29BODBWSGpBdG5SXzRKM3FNRlBUMlNlVHVjRExhNGlGYjNhNUdKQmoxaXBnM0VLVEN0aGZoWkJCQU5pdFNscDZiUHRiOHZHU1ZNcUZ3LXU1OC10XzB6a184aHpUNkRXSHd2dnRYNHJBZHNlcUFPNEFBU2c5X2hhRTNtSUVMQ3k4NWx0Y1NlckFqeVFmZ0s3T1VwTjF5NXBxVWhrTVNydnE2UnZXeDllZ25xOXRRUHZTaE9aYTdNdkFDVmVVY0RuY1EtNUtDbDhScndBemNIRkFKbDhRUFAtWFBXUkw3bUctT0R4N2lQeG41cUV3N3NBUkNwVEFfeWFJc0xrX1ZHM09kWWNHMVdXanU3bTN5eXZsZDdXMXJDVTVqOUF5R05PeGlwRUtaM0VhdUFfdHBfNGNITi0zc2llMUNWVjhQUGJILW5KRGNwNUQyWjJmOGsxMl9KUkRQNldFTURQZWdGSlc4WGtkWkN0TFNYZE9obnBLemFha19PaGloVHhqT0ppSUE1Q3F2RmVTcEJpODk1OE1V0gH4A0FVX3lxTE5HN0FuN2ZCTjdTWUl5N2E2MVVmYTAwQmFHRk5xb2RMc3JlaU53eFNJMHZnSndvZjd1R054bUhhVXpwX0FSb3NSa2JPMHd3VFdKVzVleUNkMFJpTVV4dVZhYXhxRmZ4ZThUcEo3WHNNT2M3UlcwRVFIYUNhbVhMZUw2eFJDOHZtWldGSUlQeFg3MVFXcWoyeng0M3JiS2xaTkpROS1XWTJUNk5LeEVvem9sTW52cVZiZkFxMzY5bEl2TmhfeXowZkNTTUhRZmwxUFRjaFFQS2pxM1JxZXE5NkpmOGhRbGpELUZKVDFqWEJPblljXzdRVWJVWmJRNWFTbElLNXE0QkJaZGVsbHRUNDhZQ1FzZ29mV2l5a2JsMkRVRDVjVDhaNzBINHV4c2FiMDV6bUlWdUlSbnpiQnNNNnhXT2JyYk5XdE16MmhvQTBlSTBmM3ZPLXRLcFQxUVVwUHFQbDJkQ1JIVHFFZk80MVY0emdFUTVDc0RJSjFtTUpicUZqbDJFQzBOblU0WDVWVE1oWWZXa2tqcS1rLXBNZ1llMjBtTDJkZkZDeFZfUzBHZHJGbnRRTUtZUUxWX3NmSUpGUnBzbnVNTERiRjcxNE1JXzNKNDZ2RTBtaEJ5bmFMWWRKSHFnd3FMU29kS3F4a1FNU2phWU5kcA?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
-      "source": {
-        "name": "الكونسلتو",
-        "url": "https://www.elconsolto.com"
+        "name": "وزارة الخارجية العراقية",
+        "url": "https://mofa.gov.iq"
       }
     }
   ]
