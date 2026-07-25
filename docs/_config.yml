@@ -1,6 +1,6 @@
-title: SATxGNN - Drug Repurposing
+title: SATxGNN - إعادة توظيف الأدوية
 lang: ar
-description: Saudi Arabia SFDA-approved Drug Repurposing predictions powered by TxGNN
+description: تنبؤات إعادة توظيف الأدوية المعتمدة من SFDA في المملكة العربية السعودية، بالاعتماد على TxGNN
 remote_theme: just-the-docs/just-the-docs
 url: https://satxgnn.yao.care
 baseurl: ""
