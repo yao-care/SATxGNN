@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T05:26:33.580172+00:00",
+  "fetched_at": "2026-08-21T06:35:57.559625+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "e5c8ad19020e",
-      "title": "مفاجأة علمية: أدوية السكري قد تحميك من الزهايمر - العربية",
-      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQcTVzdTJfeTVCeVBQN1lVOUlQRmVBVHo2LTJVLThDWHBXU3d4YklzalkzaTJwZDluMGJDT0lsQ0U0ajI5SWJxa3FNWWxCdWF2RnQ5Tl9SMmduakNZalBCZFY0ZkFabWQ5MnlNMmdwTDZRSFNuTkJKb2g5aEpjVnR5VEJxbjNsU2dnTXc1a0pLVzYzRWJfRl9ObWRxSHhlS2l4VkpVR0txWXo2ejB0UXV3cFRFeXVpa1FDOWNWbTNIaFBrT2p1Z25YV2RZcDJqb0dWVVRhMHJKQ19kUG5NR1ExbjFqVHdNYlNybmxyd1JkZEJURGQ5QXZRYlpnU1A1NTFDS2JIdTlWdmswbjN6N0lKZy1HdnBWSHJxcUxyRVR4a1Z1dElMOC1ybllsUWs5YVRHc29NQVB1a3c5Y1ZvNXdHeE4ydVZ4dzhLb0dkS05BYUE3TWRLbDI0enRCMGlDME5rUzdiSlpZVFpKdE9DdHQyeXZYSEdydDRtSWhFMUhNU3pkU0t1S2FyUzY1UFhucElVN2UyTVU5My0wbldvcDlZd3BVU21iWDItUmpJ0gGwA0FVX3lxTE9zY3NvTlVpbDlPaFZuNWZsd0NZZ2dJT0ZTcndjYk1MM01IMVZNQ3F0STFYUEJFajJKLXNoU1YyNVNZSjBpc3UyTG9oT2I5eTlPTk5Bd3VQNzB4U1RDUmpCZWxJSGRNY1o1NDVfR1VucDBFS0ZuclFrRENTeE1ZY3JLQlBuU0F6el81UUN0S2dTdllaQzhKYTNXZllCMUtpRlU0TFhIR0hnWWhneTJXcElTTVJoS2YtZ0ViLTV4OUk1U01PRW9SNGRpWGU0SVFXNmRkVFFYYmxmZDFTZkFpbGN2LVk4YnYxMmY0QkFmQzhucjB0MTFzWjVMbktKQVhaRGNHbnNlZTZkWmdhSFc1bi1YbUc3eG9OXzJaZHZMY0dlWEd5YUNTdnY3U1RFeVV6MkVhdFQ5RWNRVktidTVhY1FIdFpEYVlZWE5YcUkzak5hRGZPZHQtaE5rXzJhZjVZOFJmamNTUERnc2JLSGdUTGlNZ0FWV1ZQTDhSWWdtTDhmVmZWZ2VVWVpHWTVjdVU1TVZZUUV0a0FySm9ucnNKV2FfMmoycG5GZ0NZenJpZDY5Qw?oc=5",
-      "published": "2026-08-20T10:12:00+00:00",
-      "source": {
-        "name": "العربية",
-        "url": "https://www.alarabiya.net"
-      }
-    },
-    {
       "id": "f1432ec2bd01",
       "title": "إقامة \"حاجز\" لمنع دخول الأدوية المزيفة إلى السوق. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0tTc3JsMVNDYkpYeER4bE11dzQyMDFuMmlRWFl1S3FOTFVUZGVmSVNONGdjdEhMemJ0dFZFRC1wMXR1S1lCQU0yakFoWTFOQTlGd0xnYWNKRmkwRkhpRTVuVUoyVHljUzFOUnQyUW50TklhcjVMd3pLNWdoOFoxdQ?oc=5",
@@ -51,6 +41,16 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "e5c8ad19020e",
+      "title": "مفاجأة علمية: أدوية السكري قد تحميك من الزهايمر - العربية",
+      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQcTVzdTJfeTVCeVBQN1lVOUlQRmVBVHo2LTJVLThDWHBXU3d4YklzalkzaTJwZDluMGJDT0lsQ0U0ajI5SWJxa3FNWWxCdWF2RnQ5Tl9SMmduakNZalBCZFY0ZkFabWQ5MnlNMmdwTDZRSFNuTkJKb2g5aEpjVnR5VEJxbjNsU2dnTXc1a0pLVzYzRWJfRl9ObWRxSHhlS2l4VkpVR0txWXo2ejB0UXV3cFRFeXVpa1FDOWNWbTNIaFBrT2p1Z25YV2RZcDJqb0dWVVRhMHJKQ19kUG5NR1ExbjFqVHdNYlNybmxyd1JkZEJURGQ5QXZRYlpnU1A1NTFDS2JIdTlWdmswbjN6N0lKZy1HdnBWSHJxcUxyRVR4a1Z1dElMOC1ybllsUWs5YVRHc29NQVB1a3c5Y1ZvNXdHeE4ydVZ4dzhLb0dkS05BYUE3TWRLbDI0enRCMGlDME5rUzdiSlpZVFpKdE9DdHQyeXZYSEdydDRtSWhFMUhNU3pkU0t1S2FyUzY1UFhucElVN2UyTVU5My0wbldvcDlZd3BVU21iWDItUmpJ0gGwA0FVX3lxTE9zY3NvTlVpbDlPaFZuNWZsd0NZZ2dJT0ZTcndjYk1MM01IMVZNQ3F0STFYUEJFajJKLXNoU1YyNVNZSjBpc3UyTG9oT2I5eTlPTk5Bd3VQNzB4U1RDUmpCZWxJSGRNY1o1NDVfR1VucDBFS0ZuclFrRENTeE1ZY3JLQlBuU0F6el81UUN0S2dTdllaQzhKYTNXZllCMUtpRlU0TFhIR0hnWWhneTJXcElTTVJoS2YtZ0ViLTV4OUk1U01PRW9SNGRpWGU0SVFXNmRkVFFYYmxmZDFTZkFpbGN2LVk4YnYxMmY0QkFmQzhucjB0MTFzWjVMbktKQVhaRGNHbnNlZTZkWmdhSFc1bi1YbUc3eG9OXzJaZHZMY0dlWEd5YUNTdnY3U1RFeVV6MkVhdFQ5RWNRVktidTVhY1FIdFpEYVlZWE5YcUkzak5hRGZPZHQtaE5rXzJhZjVZOFJmamNTUERnc2JLSGdUTGlNZ0FWV1ZQTDhSWWdtTDhmVmZWZ2VVWVpHWTVjdVU1TVZZUUV0a0FySm9ucnNKV2FfMmoycG5GZ0NZenJpZDY5Qw?oc=5",
+      "published": "2026-08-20T10:12:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
       }
     },
     {
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "a638597392f5",
-      "title": "مرضى السرطان.. هل يتلقّون جرعات أعلى من اللازم؟ - CNN Arabic",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMFltNEtWc1gxbmRUakhEbVBDWG1sQXhIMnRwR2V6VlBUbFdZTUNxeEFQMjhCa0tROGo4ZFIxcGItWkI5UXNXRkEwVndyQ2NhY2V5Z1U3eHdiaEpYdldTbDNrYnJFdkd1WE93ZlBHYkxiNVp3TThHdW14SEcxQk1NSGlQaHd2NHPSAZIBQVVfeXFMTkdXNTFTZHByVDZwcHJzTGExY0F5Tl92YmhNTlR2QUdMTkFyTHNkMGY0UVFrNzBQNjhfaUNQd0tRdEh1T2JCSjg4cVZxTWFaTE1SaXlVVHBUWHMzMjhEcFFLcUpDaXl2bTV2QjFQSlpxM2xPYVVkRnR4Q0loaG5GeWhiTnFtMVdqbmxCRFdZU2ZHQUE?oc=5",
-      "published": "2026-08-20T07:15:19+00:00",
-      "source": {
-        "name": "CNN Arabic",
-        "url": "https://arabic.cnn.com"
-      }
-    },
-    {
       "id": "d8b6a4acff5e",
       "title": "الباراسيتامول وصحة الكبد.. لماذا لا يجب تناوله إلا بوصفة الطبيب - اليوم السابع",
       "link": "https://news.google.com/rss/articles/CBMihgRBVV95cUxPQjljLWZPVDlKVVhrVVFiSlRLWXdnTzhBeHJpVzFnd05WNWgzVzlDcHFZS3ZPd0JObGI4U3BBbDhEMnBwX2FrZUYxV0xtMHVvVU91XzlyZll5MndEVVRZaldOSU81NFNSTkpGQ2Z2am5QbGdSLXB5a1RRRnRvZjA3VU1rNnMycFUzRVhWQXRyR0d2QWw3d1Zxc2p3Sl9fNUVxMGhCcTdCdjZDYzR5ekxjTDM0N1JaclQybUVTYUVmVFhIQlBXZ3FSYkY3d0xIS2cyQ3JGdWVfcl92VEMwVnZQNmR0djRKblYzWDlVWUwyTjZkOXBSNVdzMGpDNjFvaTc0aVQ4d1JDWWJ6eGZJaWNqYkFySFhScU82TThyelFBNGlYSUQ3Slp6cGllYnFIYklQeGo5OEtMMXZKakx1ZFMxSmtxaTExUW9MclhSVXpVUW43ejRna1dzcGtFSjNQeklTVmxoMlItbUd0RkN4TExJTGlrZ1NQcV9jZkhCNzdLazFFQ0lGVVdUZFB5X1ZTS201NVQ0ZVhTX2FibEZaQjB5eFhuUktET2xRMGNDaURFX20wc2RjZEZrTnpDamRveTZ4dEhGemFNZGYzUzVCMEtvalRkWFNSYUs3ZTVRa3doSlktbURfN1VLQS1SV1d1TGhZMjZMNEhIaU9aLVBXbkVndTB2ZC1rd9IBgARBVV95cUxQaTNPeFB2cHpzMXhzVHEyWjVvMU5IdEVwaDlQMzQybEpuS2N6am9WNEhOZVBQQlZiOHFzaWFUZlk0R01tNzlybHlYbWJMZ09IdW51ZlVhdzlGUkt1YWhja1Myb0ZWLVR2cGo2N3FlT2FlM2tHU1pUSXRsbjJYZ05jSGk5MHRvRjNqWTNDU1N0aGFtd1NxS0d0WTBWaTZJNTMyODQtTy11bVR4TjFlMjFHTi1zZXNMbWZlQnBKN3RnUURMeGpHM2dYVVJFSkpSUmMwWkxZbkxZb1p0TGphZFpGYWZLempkTWl2b0tnWmlqU24tdEQ0Uk5GVnJfbHl6ZllDM0Y0dHZLNWRrVTlOTnhwR2V1Z1EyaE5BREZNeVFSOUVuejlpeVdKUHZwVVQ4RFFfa3JlU3Z4MTBnY1NwNXRiWHBTTDhVTjhXclJKcG51cFZqeENsT2JQWVdkaFMycWlBTFVxeU5OOE5vYURMd2lqaGJ1bndTWUF6UHZTUUNQOU0zU2VfZDZfR0FIZ2dGODdDZGU4YzJLczNxV0gzSjU3THl5WmhmeEN0amdpTlRWMVNCR1k3S1JwVlMwSnlFQURfcm95bHZlRUMtT0xVbVRsYzRkMmZDeVFVdF9JSVExdnRRUmZFWFEtLW1YbTlUX0xzQzZzN2hUaFJfclF4dDlJVg?oc=5",
@@ -84,13 +74,13 @@
       }
     },
     {
-      "id": "db25bb325187",
-      "title": "شعبة الأدوية: الأنسولين المصري متوفر بنفس كفاءة المستورد - Masrawy",
-      "link": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxOdlMwV05MWVlpWjBLOVFtbkphRHBVeHJDcWtQTldQQjdpTWljaHliR1lUQzdFMHRBUmJOaEQwWV9kSXFFSzk1cXJPTmp1SzBtZUhWOXFva1VhYVVQUmYxWDg4YlZPZVlhRVpYQlluMjdoRE9yb2JyRWxCSENrN0pZaGxPeV9jUlFabzZOV2F3eWM1VHEwVHQ4Tng4ZTBpQk5PdldwU3kyel84UlViVGNDc3V5c0JPRFlqR2tyWkJTM2p4RU5EUXFtcmR5RmNuNWJXUFlXdVF0UldzNGRCNjVXTEx2aG1KNHpqam9WdVY4VFBsYV9uU1M2U2Y2dDBzdkpEVlh0SzVxZC1tZlVPQ0xCS2dvVnBydTNSdjNZVldxRmZfTGdyOTNtVjJmV1RGNjBaWmZ2WElMSzdEWEVCZDVfaEJNYm5sRVB5YnFZUldid2xSZ1l2aWNvUUc4UEV6eU5JbWhJYzViNS1semNZbV80QlA1QjhycGhhYlgxaXBNWWpxUUdlMzBDLUVDRjJYU1ZKWmVONjFPZlM4aWk2bmhEZHBxMHZiNDV4djA1LXE4anFlSGc2M05KSGw1ZElTWWVvLVd6Z1V2QWlzLVVlcUdwUG9GSUM2cF9UNzYyXzB6Njh6S3JKa3M4VGpCZG1SRk1JSmV4cVFIeVVaTVNOY2fSAYMEQVVfeXFMUExwNEF2d3dkTnlrRU9wUWZQM1RkNHNWdG56TFFudkIxRlFpYk40Tl9GdWZRa3FMczRBTG5SMEgzQWg5OUtLWElHRGtVbGlzQmpPTVVlb0ZCT2JjTGtPZVZUc1QwMEpMR3Q0YjVZbEVxYUwtYWtaNXhJdnk2cHZDS1laOFB0UXBhX3AyZHBlemJSQjhGa1F5amdWdFlMQXpXZHBkcFBhUkxpZmJ1MWNLRUNmb2lGSlYyZ1FHY044QlBrLUpCZHJkTk1lcW5oV1ZHXzFReUxhYmEzcVFPbjhnZF9nc01qLTgtUkRPWl9sclZGNVdSM1o0eDBOU1Z0YkJpdTg4Si1XaEY3N3dSVEluUk5DdEdYYWNLRXMtTHdxdWVsb1VtU2tmejVRQW1GaGt4bDZRVHVzT2owU1FmQjM5OGFLZVRfLVNfekdIYTBqWFZTeExiQW1TdWhSR2F1OVQ5N2hnTzFRUUdQRURTTkFiUzZ2blhrSXdTcTh5RlFyYUtjZ1dneWFjdE93WVJSNlNUWWlDVUt4d2w0ZFF5anBybkpncldrbm8tRTgyMnFCaC1OamU0LVdVQzFwY1hPOW9kZ0pYN2huQlFsclFpb01xMlpRdUxTZDdTdW9LS08xUldVaEJQSVoyRUFDdFI5cXYyUVMxNHV3S0pOVGVQWm9PRXZvVTQ?oc=5",
-      "published": "2026-08-20T18:22:35+00:00",
+      "id": "a638597392f5",
+      "title": "مرضى السرطان.. هل يتلقّون جرعات أعلى من اللازم؟ - CNN Arabic",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMFltNEtWc1gxbmRUakhEbVBDWG1sQXhIMnRwR2V6VlBUbFdZTUNxeEFQMjhCa0tROGo4ZFIxcGItWkI5UXNXRkEwVndyQ2NhY2V5Z1U3eHdiaEpYdldTbDNrYnJFdkd1WE93ZlBHYkxiNVp3TThHdW14SEcxQk1NSGlQaHd2NHPSAZIBQVVfeXFMTkdXNTFTZHByVDZwcHJzTGExY0F5Tl92YmhNTlR2QUdMTkFyTHNkMGY0UVFrNzBQNjhfaUNQd0tRdEh1T2JCSjg4cVZxTWFaTE1SaXlVVHBUWHMzMjhEcFFLcUpDaXl2bTV2QjFQSlpxM2xPYVVkRnR4Q0loaG5GeWhiTnFtMVdqbmxCRFdZU2ZHQUE?oc=5",
+      "published": "2026-08-20T07:15:19+00:00",
       "source": {
-        "name": "Masrawy",
-        "url": "https://www.masrawy.com"
+        "name": "CNN Arabic",
+        "url": "https://arabic.cnn.com"
       }
     },
     {
@@ -101,6 +91,16 @@
       "source": {
         "name": "الجزيرة نت",
         "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "db25bb325187",
+      "title": "شعبة الأدوية: الأنسولين المصري متوفر بنفس كفاءة المستورد - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxOdlMwV05MWVlpWjBLOVFtbkphRHBVeHJDcWtQTldQQjdpTWljaHliR1lUQzdFMHRBUmJOaEQwWV9kSXFFSzk1cXJPTmp1SzBtZUhWOXFva1VhYVVQUmYxWDg4YlZPZVlhRVpYQlluMjdoRE9yb2JyRWxCSENrN0pZaGxPeV9jUlFabzZOV2F3eWM1VHEwVHQ4Tng4ZTBpQk5PdldwU3kyel84UlViVGNDc3V5c0JPRFlqR2tyWkJTM2p4RU5EUXFtcmR5RmNuNWJXUFlXdVF0UldzNGRCNjVXTEx2aG1KNHpqam9WdVY4VFBsYV9uU1M2U2Y2dDBzdkpEVlh0SzVxZC1tZlVPQ0xCS2dvVnBydTNSdjNZVldxRmZfTGdyOTNtVjJmV1RGNjBaWmZ2WElMSzdEWEVCZDVfaEJNYm5sRVB5YnFZUldid2xSZ1l2aWNvUUc4UEV6eU5JbWhJYzViNS1semNZbV80QlA1QjhycGhhYlgxaXBNWWpxUUdlMzBDLUVDRjJYU1ZKWmVONjFPZlM4aWk2bmhEZHBxMHZiNDV4djA1LXE4anFlSGc2M05KSGw1ZElTWWVvLVd6Z1V2QWlzLVVlcUdwUG9GSUM2cF9UNzYyXzB6Njh6S3JKa3M4VGpCZG1SRk1JSmV4cVFIeVVaTVNOY2fSAYMEQVVfeXFMUExwNEF2d3dkTnlrRU9wUWZQM1RkNHNWdG56TFFudkIxRlFpYk40Tl9GdWZRa3FMczRBTG5SMEgzQWg5OUtLWElHRGtVbGlzQmpPTVVlb0ZCT2JjTGtPZVZUc1QwMEpMR3Q0YjVZbEVxYUwtYWtaNXhJdnk2cHZDS1laOFB0UXBhX3AyZHBlemJSQjhGa1F5amdWdFlMQXpXZHBkcFBhUkxpZmJ1MWNLRUNmb2lGSlYyZ1FHY044QlBrLUpCZHJkTk1lcW5oV1ZHXzFReUxhYmEzcVFPbjhnZF9nc01qLTgtUkRPWl9sclZGNVdSM1o0eDBOU1Z0YkJpdTg4Si1XaEY3N3dSVEluUk5DdEdYYWNLRXMtTHdxdWVsb1VtU2tmejVRQW1GaGt4bDZRVHVzT2owU1FmQjM5OGFLZVRfLVNfekdIYTBqWFZTeExiQW1TdWhSR2F1OVQ5N2hnTzFRUUdQRURTTkFiUzZ2blhrSXdTcTh5RlFyYUtjZ1dneWFjdE93WVJSNlNUWWlDVUt4d2w0ZFF5anBybkpncldrbm8tRTgyMnFCaC1OamU0LVdVQzFwY1hPOW9kZ0pYN2huQlFsclFpb01xMlpRdUxTZDdTdW9LS08xUldVaEJQSVoyRUFDdFI5cXYyUVMxNHV3S0pOVGVQWm9PRXZvVTQ?oc=5",
+      "published": "2026-08-20T18:22:35+00:00",
+      "source": {
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
       }
     },
     {
@@ -124,13 +124,13 @@
       }
     },
     {
-      "id": "8e71ab8ea7c3",
-      "title": "ممثل قطاع الصحة والادوية والتجميل الدكتور \"يونس\" يحذّر من ظاهرة ترويج \"أدوية التنحيف المزوّرة\" عبر مشاهير التواصل الاجتماعي - وكالة عمان جو الاخبارية",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rVEprSFVnc2JyUFZoQnc4bFJubWtwUVJheWhxNTBGT1ZxUHRoOHhiTjAwd0QweEZ0X2E3SzVHRkFkcTktVDgwa0FBZVI2dw?oc=5",
-      "published": "2026-08-20T12:09:11+00:00",
+      "id": "52c7c6e57e0b",
+      "title": "اللوائح المتعلقة بالحالات التي يغطي فيها صندوق التأمين الصحي 100% من مبلغ الاستحقاق. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQXzg4Q1hISGFSSXlSYUd3UVl3b0pTUkZNYWcwdnZpcWJhWFB4bXBYQjZycGdYYWktY3QwbWd2Nnk0a2ZUWW1oeGo5VmtvYU5LM3Y5Q2tBVDZNMXVybUs0MUdvVjVOQndMY0t5aUVmb3JGVVVuZVpMem1qVmRKWFlEMTdwOFcyNkFOa3J1SGpNVEdsdw?oc=5",
+      "published": "2026-08-20T14:27:27+00:00",
       "source": {
-        "name": "وكالة عمان جو الاخبارية",
-        "url": "https://www.ammanjo.co"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -184,13 +184,23 @@
       }
     },
     {
-      "id": "52c7c6e57e0b",
-      "title": "اللوائح المتعلقة بالحالات التي يغطي فيها صندوق التأمين الصحي 100% من مبلغ الاستحقاق. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQXzg4Q1hISGFSSXlSYUd3UVl3b0pTUkZNYWcwdnZpcWJhWFB4bXBYQjZycGdYYWktY3QwbWd2Nnk0a2ZUWW1oeGo5VmtvYU5LM3Y5Q2tBVDZNMXVybUs0MUdvVjVOQndMY0t5aUVmb3JGVVVuZVpMem1qVmRKWFlEMTdwOFcyNkFOa3J1SGpNVEdsdw?oc=5",
-      "published": "2026-08-20T14:27:27+00:00",
+      "id": "bb8971fd974b",
+      "title": "تعمل وزارة الصحة على تعزيز التحسينات في إدارة الأدوية واللقاحات في أعقاب تقييم منظمة الصحة العالمية. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMEFFdzUwTENHSFQwb21DM1A0MXFSbjhaZjdiUWhlNDJZbUpaMi1aU3dZMDdBWjU0S3B3MjRVSlVwaGJ6OUhJOW56Nkk2T0QwUk4wcHMydU5SdjNjengyNmxOaEtiZ0VyVnIwQ0hVQVRiOVNFbF9Fb0kzMHlLSW95R1JmNk5HTnVRRDE0YjdEa3B3R0RxS1RkVHJJTjY?oc=5",
+      "published": "2026-08-18T10:40:17+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "8e71ab8ea7c3",
+      "title": "ممثل قطاع الصحة والادوية والتجميل الدكتور \"يونس\" يحذّر من ظاهرة ترويج \"أدوية التنحيف المزوّرة\" عبر مشاهير التواصل الاجتماعي - وكالة عمان جو الاخبارية",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rVEprSFVnc2JyUFZoQnc4bFJubWtwUVJheWhxNTBGT1ZxUHRoOHhiTjAwd0QweEZ0X2E3SzVHRkFkcTktVDgwa0FBZVI2dw?oc=5",
+      "published": "2026-08-20T12:09:11+00:00",
+      "source": {
+        "name": "وكالة عمان جو الاخبارية",
+        "url": "https://www.ammanjo.co"
       }
     },
     {
@@ -204,16 +214,6 @@
       }
     },
     {
-      "id": "8ab9e8e0a0e9",
-      "title": "اكتشاف نوع جديد من الملاريا المقاومة للأدوية في أوغندا - آخر خبر",
-      "link": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxOSkdJY0I2emROWFExT2syU1duRjd0SUFic3BUWTNLeVZXQVd6WVpya2x3MWNyTTJveXo3ckZneFowYzJ0WXBpRmRZeVF0TjBqSlRhWEJXWmFQeDNMc3dnMmZHWHRPSmY5enltQTdFYUlXbEFLNFZJZ0JDSEdHcm1iWmpUQUNWcHNCSGh1eVA0YUc4OTgxVVYtSFVkaTIyeFNVcGV2blZKQmNSRHNvY0NuUjU5dk1QbUFoWHFRd3lvT3hRQWtsS3REbkNyQWNvZWtfVFZuZTdBRTJPa0pMM0hxa3p0SnVKOFZwLU1TY3gxcWV1anpPZnFLcHkzS1lFQjhlajBfWUVGRDZWN0NwUmt6Z01JLW80T0JVRzludE5IMm1tT19IRGhvVktkYU0tRFJWVE0tNGw3ZVVfR21kRVJkZ1o3ZXpRcG5kTmVIbFRFTDN2ZGFpOWZ6dm92ZEtlSjREWGdWM2dLZjVUelVQZF90Q1o5dFdOTlphbmZySjJjWmltaXlrbXkxWmt5SUFFakhmQ0phbXNjdlpMSHFIN0pjLVJWc2tFVHZfYjI5U2s4OEc2bnRaS1VBNGlpZ09fMnJyWnUzM3lYVlpWRlFrX3dERXpDbm9BV2s?oc=5",
-      "published": "2026-08-21T02:46:14+00:00",
-      "source": {
-        "name": "آخر خبر",
-        "url": "https://a5r5br.net"
-      }
-    },
-    {
       "id": "4860016ada26",
       "title": "شعبة الأدوية: البديل المصري من الأنسولين متوفر بالكامل.. وتقييم الجودة لا تخضع لـ«الانطباعات الشخصية - المصري اليوم",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kcUtpcWdGd3dfeEVFR25VTGxvQmZpMUtVd0c1T3ViRzRGa251ZGJOMTFTc1Qxczh0WnU0OU43V2RNVzh3TG1nUHdGYklYT3RSbUJObnRLTkQzanUxR0hN?oc=5",
@@ -224,13 +224,13 @@
       }
     },
     {
-      "id": "3e01ba5b5496",
-      "title": "لن تختفي من الصيدليات.. هيئة الدواء تحسم الجدل بشأن 6 أدوية للقولون - Masrawy",
-      "link": "https://news.google.com/rss/articles/CBMirARBVV95cUxQZE1oMG9OUWpKOGZRVWNtaWIxSktiSXFZeDRoQTJnNFJPWXZiV0MzTjRvWjNDNEE1akNjbVhHUW9Md2VXTW5pSmFSdXNyQUNqbzBNLWdsSUp4ZlBmMHJTVUtvT2ZrWXNKZ1BuLW5IQW5zRmpmU0VrQkNUSWJCM0JqRHlSdDBHYWxzWWRFNHdTcTU5VU9VcTh3cUJtM0Q5YXB0ZElkUUpNa3JnZjhtLS1jT25kRWZnV0dmNmNPZnJoZHhHZUVtSzU2M3pHek80X0JjZEo4V19Kcmp6UmZDSmV2WmNvalhrZlczWmFfZlVxNFAwd1I5R2tOczRJMmpvVFI1cHI5cXBLdmVaR0VBOVJBX0VJSjZ1Q280SkJJSjJCMUM5NWo2dzNmQmw0ZVI3emlYclI0b1ZOVkdXZy1aZHlDbE9lTHVBZENMYzhYWHY2LUVpY1NfS2dXbVdpSEJ0YnlJaXd2VVJxS1dISGNzU1N2M1dRWjhEcnN3c3ZYbWtkdTQ4aGx5Y2huVTFNdU92SWpYampPV0IwZUJtV2h2N01EUFhuSW5UV2RoVjVrV1MxZklZN3RQakIyTE1fU1FIblNxN3BHMGg1a2otczhKSjRSbllIeFZTZmp1eks3S19obFFneWR2NklQeVhIeUZ5YUExY1VaRm5XcXVDd2ZBdG53aktpTThzNVhaREFLUFdXQTFNMjdrRjA5ekFmMkppakx2Sk9OcnB3NGV6SzJ60gGyBEFVX3lxTE9QaE9Db1h5WWZRRlN0SzBZcEI0ZWlyQXJBZlBLQWFCQmhaWUZBeDZqaXVTRGR6NjdvT2NsY1JWMkxsdUZYd2FqTlgxSS0xOG5ZcWNoVWxMZWx3NEdBUXN5Q0N6Zm9mQVpJSnl2UGFVdmtkNGRyRnNqS2dTaXdLakI2aUgxQ3lBTGtCVno1MmxJWU9zV2lGSzRicm1CVXgzSWZjWTM1T252LTBhMEUxejYtTVRTRGttUHlJczFtTVVjbURsV1RJNUg4c09ncDh1TGVkWllobnVLdWh0eTNuWlVGclhSTjRseHFKOFpzUmhGZUxKbTdZVjBfclVhVFZBQW5kdm5ubW1qVHp6SVhOLWY2d2hKemJDeVAzLXVuQS1JMUtiR25KVVRiTEQ4YnE5VkloRU9fSlRMeFg3T3ZPN2RLZkZXOGZpeXhwVmd2MnU5R3JFd0JfZU5tWUdCdDdpcUxhVlItX0RKNTkyQTJoQllvOTVlNVpjS2I0NGdjc1UtcHB1dW9UT0hQNDZVOGFOeFlQTWpFYkhpTmtoRTU4dmxDUzBteWRoc0UwVllXWTgyM0pySXF5ZmdEdUE4NndPeHVYaHp2S2JJb3FhSEJMQkc5N25rZkFpWS1iS3BUUHhkelEtUFlpOGZOS3k0eEJWeTB5SUdsY2phbTZFUXhNYWEwNThVVU81bFljUGlSb1huUVhRSnFRbXZ1X1gxM3MzWTBRMWhnRm44SElHS1hLY3BSNWc?oc=5",
-      "published": "2026-08-20T18:57:00+00:00",
+      "id": "8ab9e8e0a0e9",
+      "title": "اكتشاف نوع جديد من الملاريا المقاومة للأدوية في أوغندا - آخر خبر",
+      "link": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxOSkdJY0I2emROWFExT2syU1duRjd0SUFic3BUWTNLeVZXQVd6WVpya2x3MWNyTTJveXo3ckZneFowYzJ0WXBpRmRZeVF0TjBqSlRhWEJXWmFQeDNMc3dnMmZHWHRPSmY5enltQTdFYUlXbEFLNFZJZ0JDSEdHcm1iWmpUQUNWcHNCSGh1eVA0YUc4OTgxVVYtSFVkaTIyeFNVcGV2blZKQmNSRHNvY0NuUjU5dk1QbUFoWHFRd3lvT3hRQWtsS3REbkNyQWNvZWtfVFZuZTdBRTJPa0pMM0hxa3p0SnVKOFZwLU1TY3gxcWV1anpPZnFLcHkzS1lFQjhlajBfWUVGRDZWN0NwUmt6Z01JLW80T0JVRzludE5IMm1tT19IRGhvVktkYU0tRFJWVE0tNGw3ZVVfR21kRVJkZ1o3ZXpRcG5kTmVIbFRFTDN2ZGFpOWZ6dm92ZEtlSjREWGdWM2dLZjVUelVQZF90Q1o5dFdOTlphbmZySjJjWmltaXlrbXkxWmt5SUFFakhmQ0phbXNjdlpMSHFIN0pjLVJWc2tFVHZfYjI5U2s4OEc2bnRaS1VBNGlpZ09fMnJyWnUzM3lYVlpWRlFrX3dERXpDbm9BV2s?oc=5",
+      "published": "2026-08-21T02:46:14+00:00",
       "source": {
-        "name": "Masrawy",
-        "url": "https://www.masrawy.com"
+        "name": "آخر خبر",
+        "url": "https://a5r5br.net"
       }
     },
     {
@@ -244,20 +244,20 @@
       }
     },
     {
-      "id": "cc3e5dc04bf6",
-      "title": "هيئة الدواء تحذر من حقن التخسيس المجهولة على السوشيال ميديا - اليوم السابع",
-      "link": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNb095eC1MWGZETVRRa29JRFpLR29JYjhmWkZWREdPM2Z4V1BMMHI1c1QxcWt6TFFzZHd4Rm45NWhKc012VzdNZzRaZkRhdXBaeHQ1WHNXRUVXbkJyNUMtZmNBcUU5d1JMOWxKM0xmcHNvMzI0cnEwMHBKTUFId05hal9XTFhyTjNlTUctOGRRai01RXI5TEJNby1rc1lMNjIwTWpvV1h0TGd4aXEwbldsZ0ltcG5zUnNlY3BPSnpJbzhLWXhrdFhWb01uUmVfaF9OVzRyN2FrU19MbGlmc205VVVicG85NHh4bkU1LUtuNXMyQUcxZzFYa1pwajE4WnJyOF9ROUdwRnNUdWxMVFJITkVhTER2eWR6VkMwR3hBWjZVdklJc2kyUUhuT2ZLZEFnV0g3eFRXTlpPVWxoaVF3SEgtOU10cmRHN0FyOWhKWU4xeWlNUVFVazFIcGhLUTJiSlBNeFlqNEdKSTBBaU40M3ZyRlR5ODNWOXRaNHlQWnc4Q3V1QkthSDNwUjIxN0h5ZTFJRjZZR1dEd09pVVp4UkNtajJNbEFpc25sRERjRDZlWFQyU0d1VmxWYUhGSm41VnFjODFaTHBuRmhjZHhkdGctc1EtZ2Q3WGNfX091bnl6N1VGWWRJd0NicDR3d2gyX0ZiNHZn0gHwA0FVX3lxTE5DLTFBZlQzcURlekdYNkU3b1VXeWdvN3kxenA1UTlUYzJsNERpblZTTkFRbkdMNndNLWZGTTd3Zjg2YlN3Y0o3UnNCSExyeUdrZUhSekQ4a0c3VE03NWlPRjlfTTNhVmw2Z0lSM1lDUW5EQkh4bFpqajhrVE0tcUstQ3BpZXRONDZoRklKdWpjdWhpLWVBTGtoQlJudzVPOHNpUEc4TzRENlFNNERZTHcyUV84clBZLWxvTE9RZFQzQ0s0cmRYQmdiZ3FoV2VuWDVrelNvRExlR21WT0lWZnU4M1lFcnhLaVhieVJJNlRHU0k1VDZYeFBSei1wQUtjcDRyeGNQbmZxUEhrNHBYem5BQnVPMU4yU0xuUnRLRVRNNFZTSlJ1UWVDajd5X2ZtX2J6V1VtQ2NrLXlQdTRuWXFNQ19GWUhnd1BKRzlvSHRXNTFBTGJ4SXlHQ2o4aVU0UExVNkFxUloxLV9UZnZnS2pFSkhra1RyV3l5Z2l0V050RHFvb0Z3bHRHcXR0RnB0emN0WjVtWEJQSDJWOVRzdklJVXNaRjV1M2xDYjl5VGtuMWtjSHNxNUVmS2tnRGl5Mm5jbUNsWDBHdUJDS1VaTmhFUFo2Y2s2UUZZWndpdnpTSjhLaEYxcHdkd2syaWF6clA?oc=5",
-      "published": "2026-08-20T11:54:00+00:00",
+      "id": "e7ee6a10fde5",
+      "title": "هيئة الدواء المصرية تحافظ على مستوى النضج الثالث في تنظيم الأدوية واللقاحات - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxPRXkxOEZLQlp6ZEktcURjbTlhenV2Mmh6S3BNTkJTSlZYUGJiSDYxd3AyMkg5eDBvSnRrV0Iya3lFMTBCd2M2SnJ0ZXBvRVQ2U18wTnJKOVp5M0dRRUlselpHMGtVaVc4a19JVGZ1Q1NKd0ZndWZ0Z01yU1M2a2dBVTVpaUQxeHp5aDhGcy1ZOUR4T2NrUzF6UExnZjNTcXByM2ZoWE5YY3I4NnNLbGx1bFdUSXhxelNqOUFVZkhnYU93dHhNVHpWc3EycWdNY2VHVDRmSm5wM2swNkFrTzlTUDhVUlBBRE56WkI0dGhkWkNsckZSMDV3bnNsVlBGNWxzTnpOLUszd2NFN19FZE9LNVBWOW1mNmFEOUpzd0t4c1JaSFNuQmdFcG1qdHNNRmowUUlaV0w0WHdNcV9HNDNxVGp5ZXg1WERLOWwzZE84eTdicVBOSWlqOEJUdXlwXzgyRl9RVmxMcndJZzdfTmNtTmJQbDZ1LVFzR3gxdTdyVkhhVDRJLTdndHU0SnVmVV9aTHhWeDBJbFBhYWowOFFrcFo3NTNaenhhNVU5TTlYMUk4eHJoYkE0Z1ZQN3VYdGhVZHFMN2lfVUFMVTBSb0IwaGgtNk1CYWxocWd1NUNEZ0FDQU9iOHfSAeADQVVfeXFMUExvUlVCNnVXQl9FbW1oSWs1Y2h5aDNuNjJ1NVdZa1l3Mmx1VUtqODRLbkhueDdYY1BWN2d4dGRreWxhSE9SeTlBYXZSU2F2VFhTRmZnTW5tRHluSW5pNWFLSUE2bVhvRXp2VW4yOUVlZ1hwRUZHajQzZkhyQ0F4V0tSSTlvWF9hbEtlYkRHTlRUV1F4V1BqRERxYVJ0MUhyaF81WHBhZHdVa0E3VGtLZTY1Nk10aXZCNGc2dnVnbHFsY2RjYl9hNEMzLS1DbFliY3g3ZU5jQU1CVUJBTVg1QVhhQUNaS1ZodlJOc0d1a015UkNXYVQxcW52WllSc3Yxa2dmSFF4TmR2eGU4QkhrM0ZYZ1pELS1ORTVDTzNBeHBsYUZsaHRJVTY3Zmptb3hnR240M1pDU2VRcmdqSUM3bnZZaU9YaGNNcGtnYmw1SzBpd1pDVGVNN01mcV8tYm5RS0xqMUlROTdOei1fUnlFaGp4WjRIOE1oSUxqY2JvYlFfRmlsS0g2elBvN0lkbjVoOGNkQmM3MXhybG9NM1BPODRkdzNHYVdRNGI4bWRodUNBN0RFaHhoVFVyTDE1QU5kbGpNRG1WbzRTUncwUVA1cHpUWFkwTUI2TDFsRGlVS09Z?oc=5",
+      "published": "2026-08-19T16:27:42+00:00",
       "source": {
         "name": "اليوم السابع",
         "url": "https://www.youm7.com"
       }
     },
     {
-      "id": "e7ee6a10fde5",
-      "title": "هيئة الدواء المصرية تحافظ على مستوى النضج الثالث في تنظيم الأدوية واللقاحات - اليوم السابع",
-      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxPRXkxOEZLQlp6ZEktcURjbTlhenV2Mmh6S3BNTkJTSlZYUGJiSDYxd3AyMkg5eDBvSnRrV0Iya3lFMTBCd2M2SnJ0ZXBvRVQ2U18wTnJKOVp5M0dRRUlselpHMGtVaVc4a19JVGZ1Q1NKd0ZndWZ0Z01yU1M2a2dBVTVpaUQxeHp5aDhGcy1ZOUR4T2NrUzF6UExnZjNTcXByM2ZoWE5YY3I4NnNLbGx1bFdUSXhxelNqOUFVZkhnYU93dHhNVHpWc3EycWdNY2VHVDRmSm5wM2swNkFrTzlTUDhVUlBBRE56WkI0dGhkWkNsckZSMDV3bnNsVlBGNWxzTnpOLUszd2NFN19FZE9LNVBWOW1mNmFEOUpzd0t4c1JaSFNuQmdFcG1qdHNNRmowUUlaV0w0WHdNcV9HNDNxVGp5ZXg1WERLOWwzZE84eTdicVBOSWlqOEJUdXlwXzgyRl9RVmxMcndJZzdfTmNtTmJQbDZ1LVFzR3gxdTdyVkhhVDRJLTdndHU0SnVmVV9aTHhWeDBJbFBhYWowOFFrcFo3NTNaenhhNVU5TTlYMUk4eHJoYkE0Z1ZQN3VYdGhVZHFMN2lfVUFMVTBSb0IwaGgtNk1CYWxocWd1NUNEZ0FDQU9iOHfSAeADQVVfeXFMUExvUlVCNnVXQl9FbW1oSWs1Y2h5aDNuNjJ1NVdZa1l3Mmx1VUtqODRLbkhueDdYY1BWN2d4dGRreWxhSE9SeTlBYXZSU2F2VFhTRmZnTW5tRHluSW5pNWFLSUE2bVhvRXp2VW4yOUVlZ1hwRUZHajQzZkhyQ0F4V0tSSTlvWF9hbEtlYkRHTlRUV1F4V1BqRERxYVJ0MUhyaF81WHBhZHdVa0E3VGtLZTY1Nk10aXZCNGc2dnVnbHFsY2RjYl9hNEMzLS1DbFliY3g3ZU5jQU1CVUJBTVg1QVhhQUNaS1ZodlJOc0d1a015UkNXYVQxcW52WllSc3Yxa2dmSFF4TmR2eGU4QkhrM0ZYZ1pELS1ORTVDTzNBeHBsYUZsaHRJVTY3Zmptb3hnR240M1pDU2VRcmdqSUM3bnZZaU9YaGNNcGtnYmw1SzBpd1pDVGVNN01mcV8tYm5RS0xqMUlROTdOei1fUnlFaGp4WjRIOE1oSUxqY2JvYlFfRmlsS0g2elBvN0lkbjVoOGNkQmM3MXhybG9NM1BPODRkdzNHYVdRNGI4bWRodUNBN0RFaHhoVFVyTDE1QU5kbGpNRG1WbzRTUncwUVA1cHpUWFkwTUI2TDFsRGlVS09Z?oc=5",
-      "published": "2026-08-19T16:27:42+00:00",
+      "id": "cc3e5dc04bf6",
+      "title": "هيئة الدواء تحذر من حقن التخسيس المجهولة على السوشيال ميديا - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNb095eC1MWGZETVRRa29JRFpLR29JYjhmWkZWREdPM2Z4V1BMMHI1c1QxcWt6TFFzZHd4Rm45NWhKc012VzdNZzRaZkRhdXBaeHQ1WHNXRUVXbkJyNUMtZmNBcUU5d1JMOWxKM0xmcHNvMzI0cnEwMHBKTUFId05hal9XTFhyTjNlTUctOGRRai01RXI5TEJNby1rc1lMNjIwTWpvV1h0TGd4aXEwbldsZ0ltcG5zUnNlY3BPSnpJbzhLWXhrdFhWb01uUmVfaF9OVzRyN2FrU19MbGlmc205VVVicG85NHh4bkU1LUtuNXMyQUcxZzFYa1pwajE4WnJyOF9ROUdwRnNUdWxMVFJITkVhTER2eWR6VkMwR3hBWjZVdklJc2kyUUhuT2ZLZEFnV0g3eFRXTlpPVWxoaVF3SEgtOU10cmRHN0FyOWhKWU4xeWlNUVFVazFIcGhLUTJiSlBNeFlqNEdKSTBBaU40M3ZyRlR5ODNWOXRaNHlQWnc4Q3V1QkthSDNwUjIxN0h5ZTFJRjZZR1dEd09pVVp4UkNtajJNbEFpc25sRERjRDZlWFQyU0d1VmxWYUhGSm41VnFjODFaTHBuRmhjZHhkdGctc1EtZ2Q3WGNfX091bnl6N1VGWWRJd0NicDR3d2gyX0ZiNHZn0gHwA0FVX3lxTE5DLTFBZlQzcURlekdYNkU3b1VXeWdvN3kxenA1UTlUYzJsNERpblZTTkFRbkdMNndNLWZGTTd3Zjg2YlN3Y0o3UnNCSExyeUdrZUhSekQ4a0c3VE03NWlPRjlfTTNhVmw2Z0lSM1lDUW5EQkh4bFpqajhrVE0tcUstQ3BpZXRONDZoRklKdWpjdWhpLWVBTGtoQlJudzVPOHNpUEc4TzRENlFNNERZTHcyUV84clBZLWxvTE9RZFQzQ0s0cmRYQmdiZ3FoV2VuWDVrelNvRExlR21WT0lWZnU4M1lFcnhLaVhieVJJNlRHU0k1VDZYeFBSei1wQUtjcDRyeGNQbmZxUEhrNHBYem5BQnVPMU4yU0xuUnRLRVRNNFZTSlJ1UWVDajd5X2ZtX2J6V1VtQ2NrLXlQdTRuWXFNQ19GWUhnd1BKRzlvSHRXNTFBTGJ4SXlHQ2o4aVU0UExVNkFxUloxLV9UZnZnS2pFSkhra1RyV3l5Z2l0V050RHFvb0Z3bHRHcXR0RnB0emN0WjVtWEJQSDJWOVRzdklJVXNaRjV1M2xDYjl5VGtuMWtjSHNxNUVmS2tnRGl5Mm5jbUNsWDBHdUJDS1VaTmhFUFo2Y2s2UUZZWndpdnpTSjhLaEYxcHdkd2syaWF6clA?oc=5",
+      "published": "2026-08-20T11:54:00+00:00",
       "source": {
         "name": "اليوم السابع",
         "url": "https://www.youm7.com"
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "fefefb65d8ae",
-      "title": "هيئة الدواء تحذر من حقن التخسيس: قد تهدد الحياة في هذه الحالة - Masrawy",
-      "link": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxNb2ZvWEVWOFlCc2l1bmQwOVVZRmZFeWMxUU1pTWJBeWNSQ0ZIY0FkdUhpQXlaWXdvY0cxMGZod3JtYkJmQkZzUHVKeXFoVHhKVzVoM2VBR2VpeWtHd1ViQ05jWXpZS25Ub2FCbmZ2RGkwbkFvMGtzZXJvM1dOYVFWdFM5eVYwVEU1YTZ0d3RITTBHbXJXa1ZTbkRKemg3UHE3MDdfbEx4dTVCR09JcG1ZcUk2OFJrMlY1XzZfNS1WTjNPM0F6OTRMYVc4NDZCaGUxbkFUMnpCakdZYnhtVDBOMXZJSlU2QmRubzUweHotQW5hOWpiY1pYUWc2MWtNcnE0US02aW5LeUpyNEZSZndOa1VMekJxano1YklpbDctWDJIT0NUUHVhRnpDLTdCeGRKN1NySUNvODREUG9zUkdJV2ZKR01jT08yazhWVk1pUWRDRkQxUFhmVFVtSTdLQTJXQnM0MlE0OTl2QTVuSlcwMjl0cDhLTmlYVFlKZ013bFNGdS03bFZQOGtZOUczRURSUU9Nbm84QzFrS2xIZ1FSRXJQTHViajhwcnJGczRvd015ZWVpcHB3TXhiWThyNVk3WE1ta3l2Q3J2RURnemt5OGV6ejdlaVVhcFZ1U3lTTDJsaURTN1hBdUNXdG04NmdEMlRCdEZKN2hmUGluc3c1T1NEU2Rqa00xamMw0gGQBEFVX3lxTE56V2VuWWRvTUxZSDR2NG9jTWFwanBsbTJEbkk1bmJQUTFSSHFSaEVCVmlEQUpNRVo2aFFDV3U2U2hjWjZWRUNmY1NpNDhlUERNNlgyc1l1MzlHVUdYNGw2bjExMVRXRXdOUHhGbWpUTEVQUkJxSTVXRTJyWHkwZ0s3R1R1ZFJPc2tyaGxELVlOaWNYY0trUUN6ZERFVkd2RGJfRGtPWllzYmVpa1Vmbk1qUXBBN3lFbnNfN3ctVXBobTlITzZrRGU0VExSYkdNUWpPRjlZOUh2dExwSmQ5S2dQSlA1OUtETmhoVzhOMTBpWnZZU0c3bDdQVEUtWEFuMS1rVk9mZlFuT01BMnRMU2xUWDJVdEVaRURsZDlqM2theE1yckJzSi14c0dNOGF6SFZtWUNjcEVQWkprdHRtUm5yRng0WFRVcnp4WHRreW1KV182NGVTWWppY3MxY0xVc2RfUTlybHBNeGhhTE83aTR3QWFVek5iQ0xjaEVaRFdaUkZ3b0xYTzREVUh3MlRrY25KcVhOMlg1NGZjS21ici05dXFHU3RURWM4ZFljV2ZQZjFpRGNOa3hHd1RGLTJZNzNwOEZkWS1qWUMwRnhGODNTaldOMkk5akhEYmRjVnpkYnlmSHVtXzdtSnNrMnMtU2pqV2V4bkdaNnNWelpFUWNMZXF2dVRCbTVmSkJuRGY1Vg?oc=5",
-      "published": "2026-08-20T18:00:04+00:00",
-      "source": {
-        "name": "Masrawy",
-        "url": "https://www.masrawy.com"
-      }
-    },
-    {
       "id": "d2d9343ac601",
       "title": "هيئة الدواء تحافظ على مستوي النضج الثالث بعد زيارة \"الصحة العالمية\" - جريدة البورصة",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96dEJZTWhrb2F2dTZELTJtdG5YMjYxeVBfTThOZzcwSHREcGNQLTBuUDl2NWhGZU5NM2dTcGs0dlRGOUl0SGJlOWJEaDBYQWVtWDQyS1N0TE8xRkk?oc=5",
@@ -294,13 +284,13 @@
       }
     },
     {
-      "id": "bb8971fd974b",
-      "title": "تعمل وزارة الصحة على تعزيز التحسينات في إدارة الأدوية واللقاحات في أعقاب تقييم منظمة الصحة العالمية. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMEFFdzUwTENHSFQwb21DM1A0MXFSbjhaZjdiUWhlNDJZbUpaMi1aU3dZMDdBWjU0S3B3MjRVSlVwaGJ6OUhJOW56Nkk2T0QwUk4wcHMydU5SdjNjengyNmxOaEtiZ0VyVnIwQ0hVQVRiOVNFbF9Fb0kzMHlLSW95R1JmNk5HTnVRRDE0YjdEa3B3R0RxS1RkVHJJTjY?oc=5",
-      "published": "2026-08-18T10:40:17+00:00",
+      "id": "fefefb65d8ae",
+      "title": "هيئة الدواء تحذر من حقن التخسيس: قد تهدد الحياة في هذه الحالة - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxNb2ZvWEVWOFlCc2l1bmQwOVVZRmZFeWMxUU1pTWJBeWNSQ0ZIY0FkdUhpQXlaWXdvY0cxMGZod3JtYkJmQkZzUHVKeXFoVHhKVzVoM2VBR2VpeWtHd1ViQ05jWXpZS25Ub2FCbmZ2RGkwbkFvMGtzZXJvM1dOYVFWdFM5eVYwVEU1YTZ0d3RITTBHbXJXa1ZTbkRKemg3UHE3MDdfbEx4dTVCR09JcG1ZcUk2OFJrMlY1XzZfNS1WTjNPM0F6OTRMYVc4NDZCaGUxbkFUMnpCakdZYnhtVDBOMXZJSlU2QmRubzUweHotQW5hOWpiY1pYUWc2MWtNcnE0US02aW5LeUpyNEZSZndOa1VMekJxano1YklpbDctWDJIT0NUUHVhRnpDLTdCeGRKN1NySUNvODREUG9zUkdJV2ZKR01jT08yazhWVk1pUWRDRkQxUFhmVFVtSTdLQTJXQnM0MlE0OTl2QTVuSlcwMjl0cDhLTmlYVFlKZ013bFNGdS03bFZQOGtZOUczRURSUU9Nbm84QzFrS2xIZ1FSRXJQTHViajhwcnJGczRvd015ZWVpcHB3TXhiWThyNVk3WE1ta3l2Q3J2RURnemt5OGV6ejdlaVVhcFZ1U3lTTDJsaURTN1hBdUNXdG04NmdEMlRCdEZKN2hmUGluc3c1T1NEU2Rqa00xamMw0gGQBEFVX3lxTE56V2VuWWRvTUxZSDR2NG9jTWFwanBsbTJEbkk1bmJQUTFSSHFSaEVCVmlEQUpNRVo2aFFDV3U2U2hjWjZWRUNmY1NpNDhlUERNNlgyc1l1MzlHVUdYNGw2bjExMVRXRXdOUHhGbWpUTEVQUkJxSTVXRTJyWHkwZ0s3R1R1ZFJPc2tyaGxELVlOaWNYY0trUUN6ZERFVkd2RGJfRGtPWllzYmVpa1Vmbk1qUXBBN3lFbnNfN3ctVXBobTlITzZrRGU0VExSYkdNUWpPRjlZOUh2dExwSmQ5S2dQSlA1OUtETmhoVzhOMTBpWnZZU0c3bDdQVEUtWEFuMS1rVk9mZlFuT01BMnRMU2xUWDJVdEVaRURsZDlqM2theE1yckJzSi14c0dNOGF6SFZtWUNjcEVQWkprdHRtUm5yRng0WFRVcnp4WHRreW1KV182NGVTWWppY3MxY0xVc2RfUTlybHBNeGhhTE83aTR3QWFVek5iQ0xjaEVaRFdaUkZ3b0xYTzREVUh3MlRrY25KcVhOMlg1NGZjS21ici05dXFHU3RURWM4ZFljV2ZQZjFpRGNOa3hHd1RGLTJZNzNwOEZkWS1qWUMwRnhGODNTaldOMkk5akhEYmRjVnpkYnlmSHVtXzdtSnNrMnMtU2pqV2V4bkdaNnNWelpFUWNMZXF2dVRCbTVmSkJuRGY1Vg?oc=5",
+      "published": "2026-08-20T18:00:04+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
       }
     },
     {
@@ -314,36 +304,6 @@
       }
     },
     {
-      "id": "77b61913787c",
-      "title": "شعبة الأدوية تدعم قرار الوزير: لا داعي لاستيراد الإنسولين طالما المحلي متوفر - بوابة أخبار اليوم الإلكترونية",
-      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPQlpVOGdteWlKYUVlNzNUZE04Y2ZQaURvb014Z19abGpPTkpoUURpZFZPMENiYnBSeWx4NXB6SUh3UWFGeVh3eU5NSTRKVk00TjhDLTJiM05sLVB2MXZycUwxcEhGb01rWDlmYUFaYm5NNVlxTjA3NGUzU0w3OGhPSGlySWxxRUdOaVd6Y3hjcDRwOVA4RWVfTEUzNWh3NF85MU9ObEdTd1ZOR1hUamI4RTc4bWwzUVZzanoyd3BneHEyMHBXRVRHLXpFcm5hMlI0eW1XQWJxNWJGTXVtV0hsTk5zU0dESFVkSnBtZzN0LUR1c1BvTXVOSUY1Z0JBN1dOVnNBTURKamNwcXNZMHJmXzEwN05rd0g2cFRJZC1PY2ZBdVV4M1ZJSlA1U1JuWC00TU9SVzZmV1ZXNy15WC13c2JRaXdxd1hTUGNKYS1lVWxldU1TeGlXUDBmNFRTcDl6akU4YmhLTEQ0MkI4OUV2Mw?oc=5",
-      "published": "2026-08-20T18:59:10+00:00",
-      "source": {
-        "name": "بوابة أخبار اليوم الإلكترونية",
-        "url": "https://akhbarelyom.com"
-      }
-    },
-    {
-      "id": "3d8ac3e36292",
-      "title": "الصحة السودانية: توقف 26 مصنع دواء في الخرطوم جراء الحرب - اخبارك نت",
-      "link": "https://news.google.com/rss/articles/CBMizANBVV95cUxOajNXY0NfLTBmM2dXRnFUYkdqRFd2TmVHRUdLRTA2X3N1N2NLcFVqSE1rR3padlN0a3RqR0RWeGpNVUxzSm1ZWjJnWWtkdVlTOWV6LVdPY05laFBhN2lCRXpiYVBNQnQtM3lxa0xVUGNQMkU3dnotblpBaE9qS0FoclNWaHpJenI0MTZqTTRkVTZHeWJOUDlfMm95OFYyaVl5UDhINl9HbWZCbmJld0NMdHRHWW5LZHJwNFBGXy1xX1RzWW95R3RBMzdxTEFiU1hkcU5wVUNMUFdjVkF3aTFWdWJIMjM4dFdZVXZlaUExUjdQNk84Q2dBRnl1WXE2dWZOVkFGVndLbFVmX19wOVJRZ1dWbmRxemJScm1NNVYyR3dvNkoycHBsRHkwYnhDNTZ5eXYxMm05M1lWcDNwcHgyVl9BT0QzbGRZdXFVV19qc3I0ZE5ibzZNZXZHSU5mMDg5VkJIMjBVSDJkemJCNVlhRndLY21tNGd5RERVS0kxYmVSUk9pZlVwMW1sNGh5VEhiQS1zSXM2RVhuRHdseTJCaVQ2T0RpbFdPQjJxTlF6VUpucllDUFNZZDVaR1hXQmRrZm53Z2dMeld1Qmdr?oc=5",
-      "published": "2026-08-20T18:42:40+00:00",
-      "source": {
-        "name": "اخبارك نت",
-        "url": "https://www.akhbarak.net"
-      }
-    },
-    {
-      "id": "a7558b553509",
-      "title": "هيئة الدواء: حافظنا على مستوى النضج الثالث بعد زيارة الصحة العالمية - Masrawy",
-      "link": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQRlhLVk1ualhzVjh4SzIyWFNuZ1lZUlNid0FvTUE0M0NwQzZQM1NCeHRJdmsxblROMTV3N01QNWoyVk9qdEFFdGN6S19pVFJMeE92Z05RaHdJTjM5WHR0QzFZTm9MNjlnUXdZLTBWb2FtS01JS2pFLTdYRFR2TGZpNng0Rm5EYk5JajRtTnlrdHJWajZobDV6SUUxNWI0VzItWW1nbnJpcTc3dDV5Z0JxbXdoM2JadnNscUc4UXFnNUlpOFJpcHRNN3NZUnBtTnpJNGRJOVdmMjZ5RGh1SUlmNlpyRV82TEhoWWMyY3dxaG5zbkQ3VVlBM25NUlN5dWJBY09wT1pUcG4wRy1mODU2TzFxWng5XzVwdC1kZHpvRVpoWV9JampoUDVHYUNHNVZMa3k5NkZiZ2JWNUhRdnlQeG9namt2NS02T1VZT2pNVGUwM2FmUGZRckNJU201RGM1cjZrZFZvcHBwWVNIQXFMc0NncEdMcEFST2puaDZDU3hDTHIyb0NKUFZfUElVZEhqWWpHSkNrZUVGTlJFYUJBdXl0d0xfcng1LVhlUkI5dkJuZ3ZDbFFOME9hc0xMVzh3ZllKclVwNExxeENiQV93M2EtMFFBdy10TmlvRjNwWlZraHp0ZjlxOVhPcVlUdVBpd3Fuay1fYzJ1THR4VF9VQWRRUjRCMC1xN3BlaDF4dWFIa2xzaC1rYlNPOUVJanBNQTlNQnBDaTZoRlk5VThKRWZOWGtoWV9seG0yOVdMSHJ2QdIBxwRBVV95cUxNMmMwNUFNWlEybU1SUFQwTmtqa3d1cDhIZFUtYW0wSVRNSGI0VnJaRWQxVDZaYjI4S3lNY2dra0hQdVNJcjJrVDZXeU41clA2VElOc3hGcm05S1dTZ1BPNzdmeURUaWVwdzlYMUp6MGxhVVdVcDhaN0ZaaURnaTJMVi1nUjBrSGZaa1RaQ2tLRW9ZN1N1OVY0NXJ6TVFxbzI3eTlqTG5JMFA2T1lxRTlzdkRwWWFmd0ZxdXFpSDk2bGt3M2ZkQmJMLVg3YUVqdVhnVnluUzU1d3RyZDJGMW1fdm1YbEpNOTJ2UEFQaV8tZUg4MlhkTHJuQnBpUTJINmNLbkMyLWY4a1k3MEdKaE9ib0VVd2Y4MGRFRmJybXF4SVJCekJPV3cwbHVURjBfSnFJWjB0WFRjWHZ2Rk1tYmJJeER2V3FFeHdJTmc3Ny0xX04yQThkVF9JVndTSV93Q1Y2YmpVdFNJVE9ZSFM1ODBtekQ2dHd0aG9mY1FzeTJqbmpMb0Nnb2JBbXVuNjVjMENqUC1PRjdPMXhpSk9PRmF2blJmVTM4eHNiOUh0TlduOHN5VHlYZXZPUFl1M3l4LWhLanNuUElqT05rQk84SW1OUGpTbTFGWUkySko2ODdrT05Oa1VYUlNNRUUwNFI4ejhSRjllUGNsOGxaaEZMVnkwVVJjQU56VzZkRWl3bk4xR1RZX1hjS0l6TnNmMzBzeU14MUpEM3c1dUpjVTRNaWlWa19XZHJuT2dzdWp2czJDUUNndHR6M2Jz?oc=5",
-      "published": "2026-08-19T17:27:00+00:00",
-      "source": {
-        "name": "Masrawy",
-        "url": "https://www.masrawy.com"
-      }
-    },
-    {
       "id": "5b140a0e09b5",
       "title": "اعتماد أول علاج فموي للكوليسترول الضار بعد سنوات من الحقن - الجزيرة نت",
       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQZ3lGZHpjWUJXTmR1c2hMT25JVkpOS2w2OUYwTWd1X1VnVDNIWXlUQlhTV1A2ZVpualZYeHNpSFNaZlBvaE1sU3ZUWV9laVRPampDVWFmakpjQVNOU2VtbldCRUZ4MjlBTWxRZ2ZNaTU4YXVfSm5WZFBYaGQ3dEZIaVd4cGhWcF80TFR4b1V3cUR5eEduX19qRTFCTGw5OElhdnVDQTFmbE9HODk5ZHJXdnRFNmxKcnFkUnE5T2F5UWFib0pUVTh5TEFTUUhHMlNnVVhjVF8tTVFkMTZPcE1fdUY5ZGlGSVQ3VDFkMDdXb3k2LTBNanZrS1RLMmx2UmVYbDQ1aklweUhzQURLUkxHSzNCTzFkQ1RFYXZiVGFLUzFKcnhaa1R3VFAzY3V4aUxRVjlNUHczSG8yUFZ5Qm9YWjAweUhmTHRKUDliTHM5WEgyaVUzazlHNVlLdUXSAeICQVVfeXFMUHNkMV9zZzJkY2Qybm91ZXY0STc5QUdyTU1TNTRkcElMWTBqbDNfX0gwa21zZW1UOHpMWmNTX1ltaU92Rjk2QWZ5b2dINnlJeV96dW5Uem9wY055dUI2aUZ6SkRDNkg1UXFIeGNNVzlOcl9zUnFtZ0hpR2FvX0s5OU41SjZ6bmd1ZHN0aDQ5UFlpLTlEWUdxTlFQX3NFR3lpYm93YlFQV0V4QmI4MUR2YXExWTVTYW1LS0JGcUlyLXdkWXNLUW14NGFGWEFLdVlTQmIyNEVMRnhLS2JDVTRmMGFPUjRJQzZMbWRIenlhbjdIdUNqcWRxTXJyQkE1MVB2bEpMNjlyRGw5X3YwdHZzYTFKb1dGWWlKVlhaMEFUS1ZTOUZsSTFnZXh5R3ZOMl82OUs5M250TVFtRm1QazNBNG1Xd3F5dC0yZkpyd2ZzaGpWQ2ZicDJXX3k5dHFXSVQySnpn?oc=5",
@@ -351,6 +311,16 @@
       "source": {
         "name": "الجزيرة نت",
         "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "77b61913787c",
+      "title": "شعبة الأدوية تدعم قرار الوزير: لا داعي لاستيراد الإنسولين طالما المحلي متوفر - بوابة أخبار اليوم الإلكترونية",
+      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPQlpVOGdteWlKYUVlNzNUZE04Y2ZQaURvb014Z19abGpPTkpoUURpZFZPMENiYnBSeWx4NXB6SUh3UWFGeVh3eU5NSTRKVk00TjhDLTJiM05sLVB2MXZycUwxcEhGb01rWDlmYUFaYm5NNVlxTjA3NGUzU0w3OGhPSGlySWxxRUdOaVd6Y3hjcDRwOVA4RWVfTEUzNWh3NF85MU9ObEdTd1ZOR1hUamI4RTc4bWwzUVZzanoyd3BneHEyMHBXRVRHLXpFcm5hMlI0eW1XQWJxNWJGTXVtV0hsTk5zU0dESFVkSnBtZzN0LUR1c1BvTXVOSUY1Z0JBN1dOVnNBTURKamNwcXNZMHJmXzEwN05rd0g2cFRJZC1PY2ZBdVV4M1ZJSlA1U1JuWC00TU9SVzZmV1ZXNy15WC13c2JRaXdxd1hTUGNKYS1lVWxldU1TeGlXUDBmNFRTcDl6akU4YmhLTEQ0MkI4OUV2Mw?oc=5",
+      "published": "2026-08-20T18:59:10+00:00",
+      "source": {
+        "name": "بوابة أخبار اليوم الإلكترونية",
+        "url": "https://akhbarelyom.com"
       }
     },
     {
@@ -364,6 +334,16 @@
       }
     },
     {
+      "id": "fc0a00a8ced0",
+      "title": "«إفسيتورا ألفا».. علاج جديد يخفض حقن السكري من النوع الثاني إلى مرة أسبوعيًا - صحيفة الوئام",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOVGwwQUtLRjNIcjF4ZWZGcTRDYllxaXlCRmtJMjNBb3psWXFRelN0SDNSdDBuaU9SalVOV05JdVBSRG9GUEoySTBqZzdiZllWT09HNFE5TzFmUHNfLUJDTzMzTXVfOEp6cm5yb3dycmZtYUx1Qzh3dG1pZnk0WXJMMlFSM01EUFBBS200S3RvNWw3enZNV0lqNkQyUHBSaEhhSWhPNTZsWFZIT3E3NW1tVmtoRGQyQmNDbksyWWZ0UlRrUDdxYW5JdWw3RUFxcGZkbkMwYk9QdG9nc0xTTXVWa2lQbU1lUXRRbVA1em90M1k0STBFZXVpNENHdnhBTlpKVVdLLV9IamRHMzlVd1E1eWpCSWtyZ0JQN0x3RjNVMU1WUXl2SE53NW5BSElmQy1YWk00QjZQYUJjYXhMQlR0MWd1UGprWU1vOXg0?oc=5",
+      "published": "2026-08-20T16:52:10+00:00",
+      "source": {
+        "name": "صحيفة الوئام",
+        "url": "https://www.alweeam.com.sa"
+      }
+    },
+    {
       "id": "59c2cbf0fd73",
       "title": "هيئة الدواء تكثف حملاتها لمواجهة الأدوية المغشوشة - اليوم السابع",
       "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxOVUx5cUh1ZDdCdkJYYVUtUnlBeUhkb194RFh1QV9CSVlCV016RHZheURiMXplbWcwSC1wS3FKY0s0SFZHT2VUakNsUGVJLTlod0tTX3F5aFQxQmdXMmgyNFpNSnpHVHRxVWhMckhLZzRoSXp6RTltV2FzZG05cnpuZXFoZXFrZ0o5bDVQbVl4Z2JIbEduUkkzZU9rclRuVmVDbGVSdGVPdXpNTmVWbzlaVkxvNkZwNW40ODVBSmFnc0hnVWYzV0pPYWRyZEJMRmFMZHNlWFYzc1JmTHJjNmZGb3Rvdm94NXhYVW4zdnNYR1lTQTgxS3dhVGFsNHpIOEFxOTFGQzk0bFFPREI2SEVjVHM1bXFBZERLeWhIeWp6VWxraXFfNnpBV1ByV3JuZlhLMFNRT2ZiSWJpa1Y4TTdLTkQzdWJvM01ZQkZ4WmhlX1FzQjUyN2tMTkFlRkJLTlJ1NVRQUFBXNXJFZDlBcndxSEEwTHJuR2RSV21yM3AxZVYxSlFDS0twMmtjR05SckxuSGpQWVdYYWY3YlhVYlFHSUFrcllKc21EbFFpcm9LRVhNU1F4Rm5qU1hR0gG0A0FVX3lxTFBTSWVhRDFBbTM2RVFJd3FWeXJCb0xKd1NTWkdBek1wQ2pzd09tYm1vVVJmSndZQ3g0T09TT2RQNkxuVUFfTjFFN0g3b3RIZVFRSVZCQ28tMk5VS21IUk9vOGZBQS1nNVBZQ29LSHNBV1FYQmdJbTlORlpLZVRPV0YtcmgwckJZUXZMTW8zWjkweXY5RVZhTnZNV3VscGhWMUdnZ2lqeDNfa01rNWo3cWNEbk5lbjBRZHpfTWlVRmlHUEZpMGdsajZnN1l3dmRaVlNLV3ZnUDBLYkZlSENjYjc4ZEhqTUxQWk9oMVFjS0RTUm1TdGVJWERxU29RNm90SElWdW82bVNXU0ktOFBaOThXejJLdjg2NnQtYWlSeTgwV1Z6SFhaVjJkdEVRTnFlVDF4cnJjX2ViaTRlNnFMS3NNZGJRYi1wSU5hQ082ZDlBYWN3QjdJY1ZYNnM3REJaei1QdmNuYWdDU0tldEJaMzlxMzhBX21ubWZjN3lJOHBVVjVBdmJlSFlRa2JibHN2cTZxV2RhUV9JRTNVSFVUSjJRd3lzbWhuTHliazFKU1VhTUgxaXU?oc=5",
@@ -371,6 +351,16 @@
       "source": {
         "name": "اليوم السابع",
         "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "a7558b553509",
+      "title": "هيئة الدواء: حافظنا على مستوى النضج الثالث بعد زيارة الصحة العالمية - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQRlhLVk1ualhzVjh4SzIyWFNuZ1lZUlNid0FvTUE0M0NwQzZQM1NCeHRJdmsxblROMTV3N01QNWoyVk9qdEFFdGN6S19pVFJMeE92Z05RaHdJTjM5WHR0QzFZTm9MNjlnUXdZLTBWb2FtS01JS2pFLTdYRFR2TGZpNng0Rm5EYk5JajRtTnlrdHJWajZobDV6SUUxNWI0VzItWW1nbnJpcTc3dDV5Z0JxbXdoM2JadnNscUc4UXFnNUlpOFJpcHRNN3NZUnBtTnpJNGRJOVdmMjZ5RGh1SUlmNlpyRV82TEhoWWMyY3dxaG5zbkQ3VVlBM25NUlN5dWJBY09wT1pUcG4wRy1mODU2TzFxWng5XzVwdC1kZHpvRVpoWV9JampoUDVHYUNHNVZMa3k5NkZiZ2JWNUhRdnlQeG9namt2NS02T1VZT2pNVGUwM2FmUGZRckNJU201RGM1cjZrZFZvcHBwWVNIQXFMc0NncEdMcEFST2puaDZDU3hDTHIyb0NKUFZfUElVZEhqWWpHSkNrZUVGTlJFYUJBdXl0d0xfcng1LVhlUkI5dkJuZ3ZDbFFOME9hc0xMVzh3ZllKclVwNExxeENiQV93M2EtMFFBdy10TmlvRjNwWlZraHp0ZjlxOVhPcVlUdVBpd3Fuay1fYzJ1THR4VF9VQWRRUjRCMC1xN3BlaDF4dWFIa2xzaC1rYlNPOUVJanBNQTlNQnBDaTZoRlk5VThKRWZOWGtoWV9seG0yOVdMSHJ2QdIBxwRBVV95cUxNMmMwNUFNWlEybU1SUFQwTmtqa3d1cDhIZFUtYW0wSVRNSGI0VnJaRWQxVDZaYjI4S3lNY2dra0hQdVNJcjJrVDZXeU41clA2VElOc3hGcm05S1dTZ1BPNzdmeURUaWVwdzlYMUp6MGxhVVdVcDhaN0ZaaURnaTJMVi1nUjBrSGZaa1RaQ2tLRW9ZN1N1OVY0NXJ6TVFxbzI3eTlqTG5JMFA2T1lxRTlzdkRwWWFmd0ZxdXFpSDk2bGt3M2ZkQmJMLVg3YUVqdVhnVnluUzU1d3RyZDJGMW1fdm1YbEpNOTJ2UEFQaV8tZUg4MlhkTHJuQnBpUTJINmNLbkMyLWY4a1k3MEdKaE9ib0VVd2Y4MGRFRmJybXF4SVJCekJPV3cwbHVURjBfSnFJWjB0WFRjWHZ2Rk1tYmJJeER2V3FFeHdJTmc3Ny0xX04yQThkVF9JVndTSV93Q1Y2YmpVdFNJVE9ZSFM1ODBtekQ2dHd0aG9mY1FzeTJqbmpMb0Nnb2JBbXVuNjVjMENqUC1PRjdPMXhpSk9PRmF2blJmVTM4eHNiOUh0TlduOHN5VHlYZXZPUFl1M3l4LWhLanNuUElqT05rQk84SW1OUGpTbTFGWUkySko2ODdrT05Oa1VYUlNNRUUwNFI4ejhSRjllUGNsOGxaaEZMVnkwVVJjQU56VzZkRWl3bk4xR1RZX1hjS0l6TnNmMzBzeU14MUpEM3c1dUpjVTRNaWlWa19XZHJuT2dzdWp2czJDUUNndHR6M2Jz?oc=5",
+      "published": "2026-08-19T17:27:00+00:00",
+      "source": {
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
       }
     },
     {
@@ -384,6 +374,26 @@
       }
     },
     {
+      "id": "5072f67b38fc",
+      "title": "تم توسيع قائمة الأدوية التي يغطيها التأمين الصحي. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YOGZja2pSYnFtVy1RUzdpajJtdW5CSU1JSTdSei1zOWdsMWhheE05S3Q2bGhvajJLcWhXQ3VqUjhUdG1Jb3dCemRWajc4Z0drbF8wd2Q1OFFFbDNGWE5CaV9zdEFxaHRUdF9DVU9hY255M3FlMEZoWjV3?oc=5",
+      "published": "2026-08-19T04:22:03+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "3d8ac3e36292",
+      "title": "الصحة السودانية: توقف 26 مصنع دواء في الخرطوم جراء الحرب - اخبارك نت",
+      "link": "https://news.google.com/rss/articles/CBMizANBVV95cUxOajNXY0NfLTBmM2dXRnFUYkdqRFd2TmVHRUdLRTA2X3N1N2NLcFVqSE1rR3padlN0a3RqR0RWeGpNVUxzSm1ZWjJnWWtkdVlTOWV6LVdPY05laFBhN2lCRXpiYVBNQnQtM3lxa0xVUGNQMkU3dnotblpBaE9qS0FoclNWaHpJenI0MTZqTTRkVTZHeWJOUDlfMm95OFYyaVl5UDhINl9HbWZCbmJld0NMdHRHWW5LZHJwNFBGXy1xX1RzWW95R3RBMzdxTEFiU1hkcU5wVUNMUFdjVkF3aTFWdWJIMjM4dFdZVXZlaUExUjdQNk84Q2dBRnl1WXE2dWZOVkFGVndLbFVmX19wOVJRZ1dWbmRxemJScm1NNVYyR3dvNkoycHBsRHkwYnhDNTZ5eXYxMm05M1lWcDNwcHgyVl9BT0QzbGRZdXFVV19qc3I0ZE5ibzZNZXZHSU5mMDg5VkJIMjBVSDJkemJCNVlhRndLY21tNGd5RERVS0kxYmVSUk9pZlVwMW1sNGh5VEhiQS1zSXM2RVhuRHdseTJCaVQ2T0RpbFdPQjJxTlF6VUpucllDUFNZZDVaR1hXQmRrZm53Z2dMeld1Qmdr?oc=5",
+      "published": "2026-08-20T18:42:40+00:00",
+      "source": {
+        "name": "اخبارك نت",
+        "url": "https://www.akhbarak.net"
+      }
+    },
+    {
       "id": "0bdaeb70df34",
       "title": "هيئة الدواء تحذر من شراء حقن إنقاص الوزن من صفحات التواصل الاجتماعى - اليوم السابع",
       "link": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQd01DMFYwM3loa2pQRGwyZENaeU53SHNsc3pNdE80R3dwS0x6bzhuTVZUcmtHVXJoaVRTTElJeVc4X3pPRGJVVnVFNXZ3SnlwUjZfTmlnTWlJaGdTVnl6cExvczNXZ1lQQ0xWcTBiZ05NM20wZzVxRGZvbURlNUJWLVhWQWdrU2NqOHdRZkU2dVBxcGFsZ0R5NU83SlhEdmRBRFpwcmpSM1p1d0lXUS1CRXQydlJrcVVXU2k1Q3Rjc2FEb1YybXRKRmxSOUpScFpfS0dmTTlLQUtCTWZmeDBZbE52ZldVeXg3RlRnQjV0dm4zd19ZU2ViaEFHTG45RTdqNDhFbm5sWDYtUm81Q0c4ZGtWTXBKNTlhQ3hqb1hFaVoyWVVSVHNRTDIxWmVENlg2dlNkT1NTczNZZlFZblVHaGsycXdEaVZicV9zUEhWdEhhUUkzMi0zSnptZjAtM2pDTHFvUTdxdzBkS0ZlYW5XblMyMW00Z19VdmhjanYyU0Jpdld6U2lXcUdlakZPcFNJTkpmQ191dnB1OG5hMk5YLUtBcTkzQdIBoANBVV95cUxPLWh3TUFoYmdDX0YxaGRxVkFfejNxUnNZNloxM2l1MTluc3htaXd2dTJabjlXWllqWjA1RjJxdVhmMUNkVWlwVmt3OUJlRGx5anBZY2VrbndxM3p1TGxCenZ0XzZKMEYtVTRweFlUT0ZsY0NpSnp5akVKLUQtUWR5T25LMDl4Ml8wdlFDWkU1LUZEVVNOX1BRX0FhT0lNQ3F2c29hYVBuN0UyRUpZOVFLelpoZWNHY2tpVF9fN2pacU4xQVEyUXZQSFNDbzREd0Q5a0ZnWGZfbERmUl90UE9RLUFNRmw1MEVZaUV5NE13VGpSZGc5ZFZPbzRnMldLM1VMdnZOaENsLXZWaVQ3YXRGaGNCRG1hbndjQTRSWmZYVGQ4dEtOSi1OdmJoTzMtUEgtT2lEWllHMXBHWWxabmQwcEhxZXNXYTNOY3VqOU5uSXhvbUNPbzFqRVVHSXFvUnVkSVpRVlhqN2M4aFlPSEdrM3BBSFN4YkVGUHdDRzFSZVpRak9yZmJxcVAtZnB4Ny1NUzZBN1RuR0RfVXBsZEs2Vw?oc=5",
@@ -394,13 +404,13 @@
       }
     },
     {
-      "id": "14d0d7122c23",
-      "title": "مساعد رئيس هيئة الدواء فى حوار لـ«المصرى اليوم»: التسعير الجبرى يحمى حقوق المرضى ويمنع بيع الأدوية بأعلى من «الرسمى» - المصري اليوم",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xSUFJVVRhYmFBaUg3Z05SN3g4aV9mSjhwN21lLWtxQ0xNSUc4NkdmZml3bV8wWk1TRUFwamdIYmVIZ2dNWmtDVm5vOWRYdnprZ3NrYXdiVFZwbkwtNmlV?oc=5",
-      "published": "2026-08-20T19:14:00+00:00",
+      "id": "f459e3f679ba",
+      "title": "وزارة الصحة ترد على اقتراح \"السيطرة على أسعار الخدمات الطبية والأدوية\" لضمان حقوق المرضى المشمولين بالتأمين الصحي. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlZVLUc5UUU3aEhDaklkbUxiVTZqeEoxRU1tcXZmY3hscnZ2U0RGOUJBeVRYT2ZocUhCb3JZTDZjU0NaZmtzUmNzZHVXaC1Ma1F2OE5XZmtPLXkycnY5OURubXVzWjZwYkVGSkpuVi1IZlZWM2xxSjlnSzRIektERWIzaDliTDkzLXI0MDBmTkV6WFFpdFh3Q3EydVVwZl9VUWJDWVczdTRIX1ljTmZYNE5IOUNINk81ekQ4?oc=5",
+      "published": "2026-08-17T07:10:53+00:00",
       "source": {
-        "name": "المصري اليوم",
-        "url": "https://www.almasryalyoum.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -411,6 +421,26 @@
       "source": {
         "name": "وكالة الأنباء السعودية",
         "url": "https://www.spa.gov.sa"
+      }
+    },
+    {
+      "id": "30ce8783b972",
+      "title": "منع تجارة الأعشاب الطبية مجهولة المصدر. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUl6aks1M1Z2WUNzUUtVQWZiN01fbHNuTUZhamw4TGFsVXlqUl91UmNDT3dxUzJwOExnWVkzX2pNWm9KUE9HWEcyQmNSUzZDTS04RkI2cUlZTFdjcGxRRy15VEpyTW5BNDFUNVFlTS04SmNtUWoteEpTcjliajZzV2xjS1lpQUpzT0tOOUVxUQ?oc=5",
+      "published": "2026-08-20T03:12:50+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "14d0d7122c23",
+      "title": "مساعد رئيس هيئة الدواء فى حوار لـ«المصرى اليوم»: التسعير الجبرى يحمى حقوق المرضى ويمنع بيع الأدوية بأعلى من «الرسمى» - المصري اليوم",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xSUFJVVRhYmFBaUg3Z05SN3g4aV9mSjhwN21lLWtxQ0xNSUc4NkdmZml3bV8wWk1TRUFwamdIYmVIZ2dNWmtDVm5vOWRYdnprZ3NrYXdiVFZwbkwtNmlV?oc=5",
+      "published": "2026-08-20T19:14:00+00:00",
+      "source": {
+        "name": "المصري اليوم",
+        "url": "https://www.almasryalyoum.com"
       }
     },
     {
@@ -464,16 +494,6 @@
       }
     },
     {
-      "id": "08f67f3e2c46",
-      "title": "صيدليات السوشيال ميديا .. سوق موازية تهدد صحة المرضي - الوطن",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjOWlGWWYzczBUdlpnZWhsWUJmcFA4dURkZ2xDTVBQMk5fc2N4Wmp2OXl5ZG83ejFTNVJjakN1a0RuelRwSkh0WFdReW9OTUxpakh4SFRBZ1BqenpN?oc=5",
-      "published": "2026-08-20T16:44:33+00:00",
-      "source": {
-        "name": "الوطن",
-        "url": "https://www.elwatannews.com"
-      }
-    },
-    {
       "id": "c20e90c7df32",
       "title": "هل أنت مؤهل لاستخدام الأدوية الخافِضة للكوليسترول؟ - CNN Arabic",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc3oxMEVrMlFnNVJaRWxHUDhDeXQ5OXRNQURwZUtORmdYeVZNRnpfU0pDakZXZ01FOHdvMUlBN3c0a2loLTl4VjhWYWp6NkJ5TVFaV25KTEZsdFFQV2FfQmgtSllXSy1ZX3ZPYXhUX3hZdGE4amw2bTJQUWVOZnk0bGo4XzRNdGpFYjIyTzFqUHk4TVNUWDBQVHNaM2tYaUJyaWF3R19Bdmc0bDFrSWR0dUQ5M0JJUTRWQ3fSAcQBQVVfeXFMTnVZNDVlS1FNX3V1c2VSTTFyT3NwM283bnl4S0I0OXA0WXFMRHltOWtHMk9kYVQ3VnJQYnM3b0ZtODNRWmtxVTZ3bEdlWTRkVG9BM25OMWhBQWI2ODZzUmRpMDVEaVZ6RDBaUE01WkNiSF9tRVlDV0RqZkFndlJUdVBldDJ2OWRyMkJRaElqcFdmYW00Rk1HZVZqYmNJTk1Na3VBWHZ4blFRME5mbWptS0QySWRaN3JaYS1Tak9HNFJ4ckxTRA?oc=5",
@@ -484,13 +504,13 @@
       }
     },
     {
-      "id": "f8fba3bff559",
-      "title": "الصحة المصرية تسحب 6 مستحضرات دوائية شهيرة بشكل عاجل - جريدة الشرق",
-      "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxPYzlNSWZNSGZLbURqWmUwNzZXSTQ0bTJiQWVObWFLbDVneEMtZ3NmeUhxNEUwWkN4c1BsR1AyNGpPaTlWanZiNDRvc3l2U2tPT1R4Zm1jMmozcWdqcTRRUVotY1ZjM09KYUpuWTNNWVVabjJOX1JvVks2OEpKZHhGZlRGc0xsTHFQTVg0WmtkOWVzOTh0U0lHX0FMOFNPaWo1STY2Zm9aM0ppazN4a2pGYjN3cHFDQjhoRFVYWnpBaC14TV9NcHU3aElwR2IzSmFfWVE0NVlxWlNLNF9CRFZZRmRmMVlodUpRV1FiS2F5UTc4MlJpcVdnVTdvcXlKRC1aRkpORkRuamVKYkpRUjFrTGpCeThuaGx6TUxlNzZ0T3lncXFqRjRJTlZPaGFWVmxjMllQZ3RXZkZPVXpNVkVjSVQ0N1lQUGVtVml6NzJnZnJyYTNraFlSRXNDcS1qUHpjcXFmRG5fV3F0dkU3TlVMdVNOMTZuWnBvR2FQdGhVaFhMQkY3WVZJRmVBX29OV3FIeE91LW5rTDA3bnpKbkJ0SmpJRllENjBSRDA2N1o4aTZNQWU5NlE?oc=5",
-      "published": "2026-08-20T15:10:10+00:00",
+      "id": "08f67f3e2c46",
+      "title": "صيدليات السوشيال ميديا .. سوق موازية تهدد صحة المرضي - الوطن",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjOWlGWWYzczBUdlpnZWhsWUJmcFA4dURkZ2xDTVBQMk5fc2N4Wmp2OXl5ZG83ejFTNVJjakN1a0RuelRwSkh0WFdReW9OTUxpakh4SFRBZ1BqenpN?oc=5",
+      "published": "2026-08-20T16:44:33+00:00",
       "source": {
-        "name": "جريدة الشرق",
-        "url": "https://al-sharq.com"
+        "name": "الوطن",
+        "url": "https://www.elwatannews.com"
       }
     },
     {
@@ -504,13 +524,23 @@
       }
     },
     {
-      "id": "c4a82d7ee7b5",
-      "title": "وكيل صحة الجيزة يتفقد وحدة نكلة للتأكد من توافر الأدوية وجاهزية المولد الكهربائي - الوطن",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85TnhQVmZhSFVaNERXXzRhZl9HanJjNHp6NTg2bHBpUUJIZ0NlYVg2ZVNRTlJjbjJLR1lmOENFbVFnT0tCa2prR1BUWGJZR0FtTmdVSkJzcTUzdzNy?oc=5",
-      "published": "2026-08-20T10:14:18+00:00",
+      "id": "f8fba3bff559",
+      "title": "الصحة المصرية تسحب 6 مستحضرات دوائية شهيرة بشكل عاجل - جريدة الشرق",
+      "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxPYzlNSWZNSGZLbURqWmUwNzZXSTQ0bTJiQWVObWFLbDVneEMtZ3NmeUhxNEUwWkN4c1BsR1AyNGpPaTlWanZiNDRvc3l2U2tPT1R4Zm1jMmozcWdqcTRRUVotY1ZjM09KYUpuWTNNWVVabjJOX1JvVks2OEpKZHhGZlRGc0xsTHFQTVg0WmtkOWVzOTh0U0lHX0FMOFNPaWo1STY2Zm9aM0ppazN4a2pGYjN3cHFDQjhoRFVYWnpBaC14TV9NcHU3aElwR2IzSmFfWVE0NVlxWlNLNF9CRFZZRmRmMVlodUpRV1FiS2F5UTc4MlJpcVdnVTdvcXlKRC1aRkpORkRuamVKYkpRUjFrTGpCeThuaGx6TUxlNzZ0T3lncXFqRjRJTlZPaGFWVmxjMllQZ3RXZkZPVXpNVkVjSVQ0N1lQUGVtVml6NzJnZnJyYTNraFlSRXNDcS1qUHpjcXFmRG5fV3F0dkU3TlVMdVNOMTZuWnBvR2FQdGhVaFhMQkY3WVZJRmVBX29OV3FIeE91LW5rTDA3bnpKbkJ0SmpJRllENjBSRDA2N1o4aTZNQWU5NlE?oc=5",
+      "published": "2026-08-20T15:10:10+00:00",
       "source": {
-        "name": "الوطن",
-        "url": "https://www.elwatannews.com"
+        "name": "جريدة الشرق",
+        "url": "https://al-sharq.com"
+      }
+    },
+    {
+      "id": "bbee36e0ada1",
+      "title": "مفاجأة بأسعار الأدوية في 2026.. رئيس الشعبة يكشف حقيقة الزيادات - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA2T2RhNGhYQVN0VFZDMll2R3NYdWdRbWU2S2t6bTVjelZRRmtfT20xcWVRaHhtNGtScXJVclppN2RFUl9HdkVn?oc=5",
+      "published": "2026-08-21T05:54:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
       }
     },
     {
@@ -521,16 +551,6 @@
       "source": {
         "name": "اليوم السابع",
         "url": "https://www.youm7.com"
-      }
-    },
-    {
-      "id": "92cdeff977e9",
-      "title": "دواء السكري الشهير يكشف مفاجأة داخل الدماغ.. ماذا يفعل \"ميتفورمين\"؟ - عربي21",
-      "link": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNSFRuNDVOS0FNWGdEUW5vZDZ0bFB3LXAwV3lzOVp1bWRLQkJkYmMzTjVVeF9uV2w3LTM4ZHJvTWxVeXhybEJXalM1Z2RVQ0NGTHFlNzlJekF3bjk4SVpQajdFQXE2SElreEcyZHR0LWRkamNxbUx5SUprcDQ1RGlWZk5ST29kcFZaTk5OLUppVkNvSDdjeWloTEp0QUxjemdwdnlGWEJ1MDhWYmhmdXhMNGlKbXdfWHJNVWFmU2V4UjRDalhvZjZzYlJxOHBFd2ZVWGxNR0N2U2dDUXZvTmtJVFIyQkt3NWdXMDg1WDhCMUp3Q2Z3RXZNQV9DMG5xWGl2bGNoMjNIU0hMMHBSQ0xrMjRXUUVqbmNqVWMxNXFqcm9DTVd5U0hZZ0RYNE5EVzZtTFh0bzlIVUN1NmVyY3V5MDZudU5sTHI0S3NpeWZ2NUlUS3l1cmZNVmlicVRRdnVNb2ZTMVpTRDYwMTRvNFozaGRES3F1RUZCNWxLZmNzRVRKbWdHX29UZ0dtNEFfanpva3lEMW5GeDlaY1plNzRBaUl4emJ1Y1lURnJWYVB3RnRyUEJsUFNod3gwRU9fT3VVNTl1R2tSbGxPUU4xcUhJOHFTOGNwdXN2NkphcVd5bkJXN2tXRmQ1cEJ1aE1XajdzZktZX2dPLWJXTXljQlHSAYIEQVVfeXFMT0hCZ0pkOFJOTDZfdWdSV0xKY3BlbkJtNlp1Y043NElORjc2aEx2bVIxel96M0ItZnlrSmF4ZTlKR3dhMXk3cWxOemw2NE1ua1lUMWNLSDdWVzNiT3lHb0NDOTJpQlNrckVjcVRUdUJYMGVuRHZ0S0NtNWFWYkNkaFExSUhWNVFGOFJNbElsbkdoSWRjN29KcWpURjM0aDJZRTNpUmxxNzExY2hhNkVXdlAyZWx5VGJlWk5Ta25ld2RWcW5DNHhELWZsbjQzV1N6Y3NHa3QyeFB4YmtBRzBabk1weHNnRFdYOG1idHN0a01zcV9WSHdRM3VMa1VWZ3gxcjNKNzJZZ0dLUFBiVHMzWHVieWl5S2pXc3NaMWVuTUpDOTFBeHJ0RGFvdnByNFhUVjFCM0Z5TVlmdmhRZmJ3LTBxM0g4TTh4TVFfUzhCWUVKM1lCWVVGSWdvcUNXckVOSUVyR3dJNDRUNkpxeDFOQV8tZmtZbmlYQUt0S21KSGFfTkdDc0dIR05VVU52RE9ycGdTSmRiNE9jXzVVclhJYkM5c2hSS1FvRzVBdFEtdFkwa3pGMmRFSTFtWEpjaXVhell0clJ4RmNvVVE0VXZvOWFqNTNKMWd6dF8yUVNjdlNSYTJoU3lNOVlxbDdzWkZzbnE2aDBPUVJiRTVOLXRmd0J5Zw?oc=5",
-      "published": "2026-08-20T12:51:00+00:00",
-      "source": {
-        "name": "عربي21",
-        "url": "https://arabi21.com"
       }
     },
     {
@@ -574,13 +594,23 @@
       }
     },
     {
-      "id": "5072f67b38fc",
-      "title": "تم توسيع قائمة الأدوية التي يغطيها التأمين الصحي. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YOGZja2pSYnFtVy1RUzdpajJtdW5CSU1JSTdSei1zOWdsMWhheE05S3Q2bGhvajJLcWhXQ3VqUjhUdG1Jb3dCemRWajc4Z0drbF8wd2Q1OFFFbDNGWE5CaV9zdEFxaHRUdF9DVU9hY255M3FlMEZoWjV3?oc=5",
-      "published": "2026-08-19T04:22:03+00:00",
+      "id": "92cdeff977e9",
+      "title": "دواء السكري الشهير يكشف مفاجأة داخل الدماغ.. ماذا يفعل \"ميتفورمين\"؟ - عربي21",
+      "link": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNSFRuNDVOS0FNWGdEUW5vZDZ0bFB3LXAwV3lzOVp1bWRLQkJkYmMzTjVVeF9uV2w3LTM4ZHJvTWxVeXhybEJXalM1Z2RVQ0NGTHFlNzlJekF3bjk4SVpQajdFQXE2SElreEcyZHR0LWRkamNxbUx5SUprcDQ1RGlWZk5ST29kcFZaTk5OLUppVkNvSDdjeWloTEp0QUxjemdwdnlGWEJ1MDhWYmhmdXhMNGlKbXdfWHJNVWFmU2V4UjRDalhvZjZzYlJxOHBFd2ZVWGxNR0N2U2dDUXZvTmtJVFIyQkt3NWdXMDg1WDhCMUp3Q2Z3RXZNQV9DMG5xWGl2bGNoMjNIU0hMMHBSQ0xrMjRXUUVqbmNqVWMxNXFqcm9DTVd5U0hZZ0RYNE5EVzZtTFh0bzlIVUN1NmVyY3V5MDZudU5sTHI0S3NpeWZ2NUlUS3l1cmZNVmlicVRRdnVNb2ZTMVpTRDYwMTRvNFozaGRES3F1RUZCNWxLZmNzRVRKbWdHX29UZ0dtNEFfanpva3lEMW5GeDlaY1plNzRBaUl4emJ1Y1lURnJWYVB3RnRyUEJsUFNod3gwRU9fT3VVNTl1R2tSbGxPUU4xcUhJOHFTOGNwdXN2NkphcVd5bkJXN2tXRmQ1cEJ1aE1XajdzZktZX2dPLWJXTXljQlHSAYIEQVVfeXFMT0hCZ0pkOFJOTDZfdWdSV0xKY3BlbkJtNlp1Y043NElORjc2aEx2bVIxel96M0ItZnlrSmF4ZTlKR3dhMXk3cWxOemw2NE1ua1lUMWNLSDdWVzNiT3lHb0NDOTJpQlNrckVjcVRUdUJYMGVuRHZ0S0NtNWFWYkNkaFExSUhWNVFGOFJNbElsbkdoSWRjN29KcWpURjM0aDJZRTNpUmxxNzExY2hhNkVXdlAyZWx5VGJlWk5Ta25ld2RWcW5DNHhELWZsbjQzV1N6Y3NHa3QyeFB4YmtBRzBabk1weHNnRFdYOG1idHN0a01zcV9WSHdRM3VMa1VWZ3gxcjNKNzJZZ0dLUFBiVHMzWHVieWl5S2pXc3NaMWVuTUpDOTFBeHJ0RGFvdnByNFhUVjFCM0Z5TVlmdmhRZmJ3LTBxM0g4TTh4TVFfUzhCWUVKM1lCWVVGSWdvcUNXckVOSUVyR3dJNDRUNkpxeDFOQV8tZmtZbmlYQUt0S21KSGFfTkdDc0dIR05VVU52RE9ycGdTSmRiNE9jXzVVclhJYkM5c2hSS1FvRzVBdFEtdFkwa3pGMmRFSTFtWEpjaXVhell0clJ4RmNvVVE0VXZvOWFqNTNKMWd6dF8yUVNjdlNSYTJoU3lNOVlxbDdzWkZzbnE2aDBPUVJiRTVOLXRmd0J5Zw?oc=5",
+      "published": "2026-08-20T12:51:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "عربي21",
+        "url": "https://arabi21.com"
+      }
+    },
+    {
+      "id": "c4a82d7ee7b5",
+      "title": "وكيل صحة الجيزة يتفقد وحدة نكلة للتأكد من توافر الأدوية وجاهزية المولد الكهربائي - الوطن",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85TnhQVmZhSFVaNERXXzRhZl9HanJjNHp6NTg2bHBpUUJIZ0NlYVg2ZVNRTlJjbjJLR1lmOENFbVFnT0tCa2prR1BUWGJZR0FtTmdVSkJzcTUzdzNy?oc=5",
+      "published": "2026-08-20T10:14:18+00:00",
+      "source": {
+        "name": "الوطن",
+        "url": "https://www.elwatannews.com"
       }
     },
     {
@@ -594,43 +624,23 @@
       }
     },
     {
-      "id": "f459e3f679ba",
-      "title": "وزارة الصحة ترد على اقتراح \"السيطرة على أسعار الخدمات الطبية والأدوية\" لضمان حقوق المرضى المشمولين بالتأمين الصحي. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlZVLUc5UUU3aEhDaklkbUxiVTZqeEoxRU1tcXZmY3hscnZ2U0RGOUJBeVRYT2ZocUhCb3JZTDZjU0NaZmtzUmNzZHVXaC1Ma1F2OE5XZmtPLXkycnY5OURubXVzWjZwYkVGSkpuVi1IZlZWM2xxSjlnSzRIektERWIzaDliTDkzLXI0MDBmTkV6WFFpdFh3Q3EydVVwZl9VUWJDWVczdTRIX1ljTmZYNE5IOUNINk81ekQ4?oc=5",
-      "published": "2026-08-17T07:10:53+00:00",
+      "id": "16591c491e19",
+      "title": "تدرس وزارة الصحة زيادة التغطية التأمينية الصحية وإضافة أدوية بيولوجية جديدة لعلاج السرطان. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3cwM29SQnY2V2lHaU1oNFZJLUNiaFctY3RkdGh2SDFwVlJ4X2R3NjNKaFBRSjRnVm1JeDBER3pScDJnZ2JTTHZIU2RBdmlXeVpOQW1OTGV5ajV1ZXFsVE1sVXNwS1l3bFdkenJaMHB3azZUYlMtSDU2QlBXYWl5bk8tNkN4Y3NzT3VnZjBlUzI2OWllQnFjWXJPellvMm9BTkRMU1VsTUtPQQ?oc=5",
+      "published": "2026-08-14T12:09:55+00:00",
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "2ededc2fbfbe",
-      "title": "فيديو.. هيئة الدواء تحذر من المخاطر الصحية لحقن التخسيس المتداولة بصفحات التواصل الاجتماعي - بوابة الشروق",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0ZaNnJ2bW4tNmhKcTR4LTZUMlhtVV9lbGZJSGVxSkw3TnFiSlVJODRlYlpZcllEcnk2YUFSTEZjM3dXZnpQUVF3eTBTdWpFVWNiRTZDaHVNVUVvTnlOc2RJWFZ1c1R3cGhNY3dwNmVmcEw3TWZWWFluLUt4T2lsT0RramlGWUdhOXNWbnpHYTd5SmxUc3Y2NE1fVUU0T2Y2d19GSHl0VQ?oc=5",
-      "published": "2026-08-20T09:05:59+00:00",
+      "id": "fbe6160c7c20",
+      "title": "أول رد رسمي من هيئة الدواء: الباركود لا يعني إلغاء تسعير الدواء (خاص) - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMizwRBVV95cUxNc2Y3TjY4RlBkR0pEbllQZ1NXbnpEdDJPWTJGZm9QNUgwUldub19odlVfa3F3WHAyWlI2aFd6ZFE2QUVfNG9fSHVFVEdROHo1LVhJRktXNkpXMlBmQkNobG9VVGtUYWFRSE9KU2h5eHlMS0FVLVplOWQxY19XVjhzRkUyTGVmaW5SMWdQNlBFY3hER1VKWXNXQkZJSENwTjAyb0tBWFpsbkJpSmR3WE11ZVZ2bkZpUjgxZ2gzeUpPNlBfSDU1bll0QkFhQlVBV0NxanlOcFhTSXB5cWlhdk9pbEw1c0tKWldQVXBCbEdGd3BWYUg3UzBwaUJMbGtoVTFzWEpyZWw0WTladW5qcE9VdlFsRW8tY3k2SktBdGZJUDViaVhLanh0WElqYWdFRXVMMW8wbUZZSkxlZGNUM2pCRExOMlVGdnAyVjVYTGtTTzRNSXJxRmhnbE9ZVjFKYk41ZER2bWttZkI1ZHd0cGF1RkQxMlVtaUttaTJkRU90TFpaUUgyS3hTelhrQURmZnR6b0ZnbmtVMXlPWW9BbmNjSnV0dFlaTGxxeG5TOU5pU2lBSzFjSDEwbnU4SFo1bTQ4RVpLd2FMTDZTMlBFZzFyNGszMnlFOWp4VzRlOXJUbEtzMHZJbjY0eFpSYjlrcm0wbzBOWWpTWEk5SXdjNnM2Q1lrSk1mVHdhdjlNLWZ2SG12cFc5dTR6dTNaMEI2UHVSN3hVdTJNVm11LWI4anctNDVqX0tzU1ZGR2ZDM3JSUVlkQnkzRjhRR0R3cUdvLWPSAdQEQVVfeXFMUE11ODg1R1RFT3p6cE5Ca2RwVXE4cnRFYWEwYy1hNU1DRFhLc3JkM2QtUWo2clFDcDBrcldLbFhRM2gybWJFc2lya016TXk2TnFidHhsb0ZaQXY0TXgtR3RULUJEYzNYMERDTllRWEUxcTNrZVlCejVmUmFfTWNjdVN5V0hVY2tiUWJGWnpwQ21wWWY1cjZtTExmV1BjMXhBd1VseEp6OGlZWXNnVlNLRGhTajNiYldTODd0ajFHRlNuX2YtOWZqWmdSYjA0VHRuQ3RRa0JOSnA4VDF6a1NOLUdPMHlDRjZ0WFdYVlVjSW9wWTdWNUZVX0wzQUhGTF84d1hVcHB3RGFZLUZEaERFUEdfc2ZvRWkwYjdMZF9wazZUVVR3WmsyU2dJdjZPQXVyOFI0TjRNWEQtNVJPZUlFa3ZfV1ZzTHFkRmFTUnBvLWswc3ZXWlA1QnBFWVgtRk1mQWZha3FkaUFjejRJTXNSVVNydDVPNW9meERldXlqbVNxRjFzVGQwellRNUZZMmxLY3lUVUpYQUh5cUpjbm04OWQwb1pZWGFnLTV0VEMwYTU4a0RybmZfTFFTOXlBalhrNG93QVpKWE9nTmtCajRwdXozdVFpcU1KQjUyVjlmYS1HSlpYTGxxY0ZCM1Y2MHlnRGFTSnBTQXdIS19UVjhERUdNU3ZnWnNyMUROeWduczh6TzJNVC1TTWJvSkQxM1RpZm9qS2ZGMkZIWU42bUYxM05kMnJxWURVOEUydVloUEk5MmtkckhYeVNoTHdMbUVheENydTg?oc=5",
+      "published": "2026-08-01T07:00:00+00:00",
       "source": {
-        "name": "بوابة الشروق",
-        "url": "https://www.shorouknews.com"
-      }
-    },
-    {
-      "id": "30ce8783b972",
-      "title": "منع تجارة الأعشاب الطبية مجهولة المصدر. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUl6aks1M1Z2WUNzUUtVQWZiN01fbHNuTUZhamw4TGFsVXlqUl91UmNDT3dxUzJwOExnWVkzX2pNWm9KUE9HWEcyQmNSUzZDTS04RkI2cUlZTFdjcGxRRy15VEpyTW5BNDFUNVFlTS04SmNtUWoteEpTcjliajZzV2xjS1lpQUpzT0tOOUVxUQ?oc=5",
-      "published": "2026-08-20T03:12:50+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "a4239d5361b3",
-      "title": "رئيس شعبة الأدوية: أزمة الإنسولين مفتعلة بسبب البحث عن الاسم التجاري - صدى البلد",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5zdnI0UHlGZ2R4eGNJZGY2M3NvUFZCOHRwcm9Helo3M1duZ1NMYnRkX0lPOUdsTVFTSUhBZXVEVmJWN2M1ZC1V?oc=5",
-      "published": "2026-08-20T15:55:00+00:00",
-      "source": {
-        "name": "صدى البلد",
-        "url": "https://www.elbalad.news"
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
       }
     },
     {
@@ -644,16 +654,6 @@
       }
     },
     {
-      "id": "e6ed78cb644e",
-      "title": "أزمة مفتعلة بسبب الاسم التجاري .. الأدوية تكشف حقيقة الأنسولين المصري والمستورد - صدى البلد",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBkNkNTd0cyblROUk4yZGg0UUc2ZWlKU3ZfUERBNUpRTFQ4SXlucG1yckxaMVBfNG4xamp0RVk2MFBFQjB6ckg4?oc=5",
-      "published": "2026-08-20T15:45:00+00:00",
-      "source": {
-        "name": "صدى البلد",
-        "url": "https://www.elbalad.news"
-      }
-    },
-    {
       "id": "a64c3c38ccf2",
       "title": "وزير الصحة: آلية جديدة لشراء وتوزيع الأدوية لضمان عدم نقصها - قناة المملكة",
       "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxPeENoaHQ3eFBKQXlrd0NSYjdCTjVydXBZVGU5aXpub1RSYkJUWnRkdjVoYmUzb0JNa2RkYmRpREFHSU9TbnNzN2pPdFBmVDZyekhqdnRaVjM0WHZHYXVuaG0wVXN6THBkemtoOVdEemx6emZmQU9iM3dNUm5HdHFWVERZNXRUMVR4WnZaNENOamhMOVpzYlhzYjdxZFpSZjBnaWNrNW5XWlc5a2hGd3RYV0ZKSFVXdWFIV24wdmpBbXNIQ1VxaC1LN1Z0Um52UmMzMDNTSGl0Ykd1MVVUNE1NbWg0ME1EdTNzWVFNZ3RPSzFFcDlvZUMxSWNMT2w1Q3pCOWZWVHpmU29sbWxqdnN1M2ZSN3VHNF9EY1A1RHFWRVV0aFRFMUlEUXpVeGlhSTNNRXBEUVZ6RlZ2UUVldnVPVnZfYzlSUnRWUjhWNUdQM2dqVEhRTHZDRGRNXzhCUWhWWWZkSmdWQ2pQXzhkV0U1WDlNelpDU2p3akhIT1pab2MybmFQSmFabkdiYW1KQW1yNG5QOXJmN184Q0E4Y21qSi1WRElHWUl3TjlvM2d1a2tWZ1JMWDdyaTZZRnBKYVNNTUZYTjc0dFNQNEVuY2tGelhtUmRKV2Iwd2dKSGxDWlk5UEhPbFE?oc=5",
@@ -661,6 +661,16 @@
       "source": {
         "name": "قناة المملكة",
         "url": "https://www.almamlakatv.com"
+      }
+    },
+    {
+      "id": "7c5900265b7b",
+      "title": "وزارة الصحة ترد على سؤال توسيع قائمة الأدوية لعلاج الأمراض الخطيرة والمهددة للحياة التي يغطيها التأمين الصحي. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNGpmcmJsSjl3ZlNpaGEtdk5vdVdxeUNpLWp0NzEteVRWQlhTSHJXWWlTaEhHNDI0ZGYzY1BKZ1FhY3JpOXA3SGxRSzFFNVgwR1prYWNtU3BFSmo5QmhRYnY0M1J0MnQxV2EzdnQ1eDVYcDhqcnBsLXBqR2ZKc3NNUF9JYU1PcWVyTnRvOXVHUHpiVEc3N3ZLOFZUdnBSSG1BMTY5NndJcUJLdmw0cFR3QjBpdXZuSmxhVkdvOVA0Ty11c1QyY2tyRlFSLV80XzE0UDhGWQ?oc=5",
+      "published": "2026-08-13T08:22:54+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -674,6 +684,16 @@
       }
     },
     {
+      "id": "a4239d5361b3",
+      "title": "رئيس شعبة الأدوية: أزمة الإنسولين مفتعلة بسبب البحث عن الاسم التجاري - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5zdnI0UHlGZ2R4eGNJZGY2M3NvUFZCOHRwcm9Helo3M1duZ1NMYnRkX0lPOUdsTVFTSUhBZXVEVmJWN2M1ZC1V?oc=5",
+      "published": "2026-08-20T15:55:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
+      }
+    },
+    {
       "id": "eb5be063268d",
       "title": "هيئة الدواء: لا صحة لإلغاء تسعير عبوات الأدوية والأسعار ثابتة - اليوم السابع",
       "link": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxQdUVqU0hFTmtkOHRaNVRWclJ2bDZWUGlDYTZUNTgycmptemVWSlA4c1E1akJ1SE91MDFyQXRfTXE4WTFsVmVkWEFsMy15QXpNVDZ6ZlFzdXN5Z1kydkthS3JMMVJWOE04bUEwZzJtM2tmTUN3UEx1SF9mbVZ5M05HVnZONGVJUFUtd0lnRmM4c1k2RHE3a0lVSnRzRjV6UjQySlRRZDZJTF8tY2pZamp5Qy1VTnQwc1ZNRXJLM3ZuMDNfR3BjUlJydzVyUXJTUVNzYTg2NkdneVQ4QU1lOXY4azlTRFVXRVk1azI3bUJfY2taLS11TlVZdmhrLTBLT1BxbTU5STRGNTBTMTU0ZV9NajhlaXQzckFFMEthWC16cUY3U0hPcUhxQnBsWWQ1WTFub0pkNFJaV0c3YXUzcGNUVlVjalg1MVBHaXdndk1oeUMyYlFOQmQzQlQ0Q0RDSHN6azdYWlVxUVQ1dWI1cHZHN0dtZlBOVW5qaWkta1J6RWtyWHpRdURLdm5TclJzVDlfUnBMLWJJcGQwLVc3OVU0dzBTd3JUclExWkFxdE43aWg0TlZNcmdBblQyMDdNOEY2VnU3c1ItZExGbW5SMWpoS2ZfWHFBNG9pQTlJenlhZTQyTFlpUHBHS09mUlh5c3hQLVJ4MHRfWVdZWTIy0gH3A0FVX3lxTE5uOGlGSzZncEtPTllXczRiQk5WZDFidENkekd6Z1pPaUpxd3g2NDByS1VNQzdnbzNtQ25ib0NXOVNQWmVVam1YYk1nVkF6ZllYTXZtRkttY3FVblNtR1gwNXBoYlJ3NWZvU3Q5ek91d1ZXcU96WTBUajVfZ1JQS0pPcGNaUU8ydWJYeElPWVFWcER6dkE2U0h3RDhaV0JUODVzMWZSZ2dCdW1seDZhazB4cGV5Z2ZHbmtfVkxacHZQUy1abkhqMVZSNHlhUU9HelRKZnlpbDlBRzFsaGVCc2otYWFtQk5NeldhUWxyR3pybE1tbXBRMFl0ODB6US1FdXA5aEJZMHItUWRWRks5YXdjSUpwOGJnU3ppMlA2VW14RkgtcnVUTTF4UE1HMk5nY3g5TzNGZGFJYWdhVzk4blVJRmRNS2R3NnlkNDlaWmk5UjZTZm9YSFRSaVZiNzZTZmZqRlAyQ2d5S2N3ekhOa0ZQMk1CdlJtaVRDUjRGOGtnc1poQ3UtNHU1YXk4TkhEX0pFZTZ3b0JMbnpYU3RxZGlCTm5UMlhhOVBGM1JPRnpuVjRReWxNbFJXbEU2WjdoZHMwVVZxdVZ4bzdSNU16ekN3WEtDd193UzVNbmtPblRZMEZsVkFKU3h2LTRIWWRmQ19lakRLZ2Z3?oc=5",
@@ -684,6 +704,16 @@
       }
     },
     {
+      "id": "2ededc2fbfbe",
+      "title": "فيديو.. هيئة الدواء تحذر من المخاطر الصحية لحقن التخسيس المتداولة بصفحات التواصل الاجتماعي - بوابة الشروق",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0ZaNnJ2bW4tNmhKcTR4LTZUMlhtVV9lbGZJSGVxSkw3TnFiSlVJODRlYlpZcllEcnk2YUFSTEZjM3dXZnpQUVF3eTBTdWpFVWNiRTZDaHVNVUVvTnlOc2RJWFZ1c1R3cGhNY3dwNmVmcEw3TWZWWFluLUt4T2lsT0RramlGWUdhOXNWbnpHYTd5SmxUc3Y2NE1fVUU0T2Y2d19GSHl0VQ?oc=5",
+      "published": "2026-08-20T09:05:59+00:00",
+      "source": {
+        "name": "بوابة الشروق",
+        "url": "https://www.shorouknews.com"
+      }
+    },
+    {
       "id": "8a83d281bcd6",
       "title": "\"هيئة الدواء المصرية: ضبط مخازن غير مرخصة لمستحضرات دوائية وتجميلية مجهولة المصدر بـ5 محافظات… وتحريز مضبوطات تُقدَّر بنحو 12 مليون جنيه - هيئة الدواء المصرية",
       "link": "https://news.google.com/rss/articles/CBMi5whBVV95cUxNYm4zRDh2WGNKbVY3dzZxRnlZMVBnRUo5anlWZ3VHNHpvTjZKcjNCNjdpV2NqVFZHM3hCem0yVVlFdUFkSEhJYjdJN0lJRWtiWXBLME9IX3FhVUZxbURlVEtVUGZGZ28xRmpyT2libVVKQi1fVU0wU19ubl92Q0NHbFI2Smd6bVFJaFpPUzh0MFBjVy02WG0yVF9YbVJMRVQxbmRvckh0NU82RGZnMGpfOUlQcmpEcFBMaFVMS3Y5U2RMXzZwT0lBbDBoU3NYbnR1ZUFzVmlJYUd4amgzNExJVk1RRW1OS1pVTGliWTVVbi03ZFFRSjU3ZjFIQnhrUmJnRERlalJUUnFQY3VaSE9Dc0FrLVNKRDZXN1FDYmhMN1N4MVpiZ1V6NF9aZmNSS3BsLWh6VGZGWHlfRzN2NnZyclYxQmxCZVRmNUllSnk2RGtMWU9ldTJlTThQTU9DTVl3VU1KektvT2N1REZIdWVBRDhVNHRyLUFEN3FYR1hST1RNS2RUbXRXb0FJWHZWaWNtTzNtbk5vUkdfWXdBa3JSclRob3J5ZVIxSFhXdXZaTkZ5N3FMZkgzeTY5N0pQbzI5MmV3eG5TYWx6WU9LdVR3emRfWkozcFcwRHhHSEdfeDVBTlZ1NklXbU5US3FDV3VPWHBTTE1tYVhqWl9jU290OUxCT0R1M3BLNTlzLVFCMGM5MERrUUxsM0JwQmpLSmJvTlVjdlhwOWpRWHFNYnpiY0o5OXlmdFhqemN6bEdPSWRMaTZwclVuUXBoRnRwZ2xjc3Q4SGlHdFVSMjdXdndnelNuZVRWWGd0eXlUckY1Y2MwenFxTUd5YXdBZ29xUTVPWEZDT09aV0RlMUlpNmZybjhyeFFsY0MtbUF5REpKbUZkcndjN3ktX2RpOHE3cGFtTVE1ZDRBNlBRbThFdjQ4N2c3TWFPRkJ4ZE5yQUl1ZTNNMVZKeWt5UGZTLXF3aDVkV1hJazk2R0g0aUlfYVN0NGJVQkhvRFh1OFdxTkVmZlpWd2pTTHFkWkZjb3N1THBzeXVPVkZyZXF1V3Z6a29mSy1hUnBlUDRlNm02REVlaDVwSmpQNWNLQU8yZ0FzaHdic3o0RlBRX1l6TVJlRU16Q0hwSXBQUUxSYUx4X1hLbTE5V05UUHBTUXZiZVZ3cGF2ZkJ1Q3V6MXRwT2NOSjYydmF1Yi13QUJVYXhYcGRsS2FrS0p6SEFLQ0wtSUEwUWdlLWlEN0FMRlFtU210d0FWNUJuelg4S05xUmp5a2U0RDhwM01HZDdfNVNYc25VWndTQ2pyb0JUTUpWS3Rldkc3WktfUGxZaG01R1M5eTBqVnc0Qk5FQ2xyV3g3NmtPT1dRbkg5NC1JWVkxUjBZTjljaG9oa2s3YkUwMFZmRlFoRmhsWUttZUJaUlQ5blh0NWN6YzRVVTJWMHV1OEpRX1h3VnJYZ0JqVzAzU1BrYXFxQ2JMbEh1Ym96Q29NaTRYQk1TQm5rQ1NmUQ?oc=5",
@@ -691,6 +721,16 @@
       "source": {
         "name": "هيئة الدواء المصرية",
         "url": "https://edaegypt.gov.eg"
+      }
+    },
+    {
+      "id": "e6ed78cb644e",
+      "title": "أزمة مفتعلة بسبب الاسم التجاري .. الأدوية تكشف حقيقة الأنسولين المصري والمستورد - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBkNkNTd0cyblROUk4yZGg0UUc2ZWlKU3ZfUERBNUpRTFQ4SXlucG1yckxaMVBfNG4xamp0RVk2MFBFQjB6ckg4?oc=5",
+      "published": "2026-08-20T15:45:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
       }
     },
     {
@@ -714,16 +754,6 @@
       }
     },
     {
-      "id": "544742c27573",
-      "title": "شعبة الأدوية: لا تحريك للأسعار في 2026 والدولة وفرت الدولار للقطاع بالكامل - صدى البلد",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE80UHJDNkM5cXE3V3pXZmhpR3lvUEg4MkFxbWVCUVFhSXhLckdCaDBZRHJCSTd6QUJxUExtY010cUUzQTB1QWxz?oc=5",
-      "published": "2026-08-20T15:49:00+00:00",
-      "source": {
-        "name": "صدى البلد",
-        "url": "https://www.elbalad.news"
-      }
-    },
-    {
       "id": "2c72182d559b",
       "title": "«الصحة» تلاحق باعة مستحضرات «العناية» المخفّضة.. وتحذّر من الأدوية المجهولة - عكاظ",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BQ29Vb1BrakxGdUVUc2ZxZXpaOWdVMU1RNS11VmY4SGJrWUNUWG9LRlhUQ014cFFVM2NTZVhncF9WaEdLZzRoeEphYmZ3X0ZIZUHSAVRBVV95cUxNSWQ1dmxiLWRaSDZaVUcySGdVOTU0SHJuNVNkV0JPQm53dEo0cWdoOGhIREJEdUpiQUZKVTZoVTMzR2kzLU9DRkpEakM2Zno4TWVPNkc?oc=5",
@@ -731,6 +761,16 @@
       "source": {
         "name": "عكاظ",
         "url": "https://www.okaz.com.sa"
+      }
+    },
+    {
+      "id": "5cdcf9f2c871",
+      "title": "7 ملايين زيارة لإجراء الفحوصات الطبية والعلاجات باستخدام الطب التقليدي. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GbkpKZ3BOTHcySmtQOEU2d29QUlM4UWU4Z1o1MEQtdFN2czBCZ0dHUkxEd09qaFk3WVdYUGJpSEVMdDhZVnRlZ2tFNVNIWWhoRTZQNDJXQUsyV2o2T0ltX1ZnZXRzekZ5OGRtMWgxZTQ1MVY3ZWpmX2pxYlJjYUk?oc=5",
+      "published": "2026-08-20T18:11:49+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -764,6 +804,16 @@
       }
     },
     {
+      "id": "ad77f4c9e4e3",
+      "title": "هيئة الدواء تحسم الجدل الدائر بشأن تسعير الأدوية ومنظومة التتبع (حوار) - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi7ARBVV95cUxNejN6S2RVNTZMSFBmSHUzeE9QMEc0MHNncFkzN3BQU0Q3RDZDUVpua2U1cVFRMGp4bXJEaFBjUFp0cjhKVmpXMGVVYnlSUHhwY3gyQXFpVmM2LWpHOTlILXpjbDRmMFNfdXV2blA0R1R5U1hwN3BZMHJpMWtPeEgwYk5mUDZwUDhKNDlPNVlib2xXTFRpV2tYMzZNeGozamZ4cEhrTWt2RVJseTF0RVhwclBaRTFRZVRYQUVRWUpkR3ZzbGRNbG4zNm90Mk9GbGxQXzVpaXBhSzlwQW92cEhTeGNwdGo4MUhITV9XbDIyTHZ1VFY3eHhOcHFQUnRCVV9JZGJEY3FxOUFVY2c3MjNhekdObk5aMW5FaUZ4enFrZ0pRaHJ5X2hYcUFnMUlYSU43bVBDMXhLWXR1bDlya1FZZUR5MmNOakdzMXdPR29wTVNzQ3lXc3d0N21vZU4zYzQyOF9NQzR4WTh6Xzd3cHVCcGxuYmRObklXcXh0U1JobE5EV2lSUnNfQksxMWVabzVNSnZCZGRETy1vdUdELXRua2NWQ2Fja2Y1TTNobWM0Mm1UT1BnMW95Xy1ITGlBN1JFbDNNTk1yTTNwbEJVQm4xcEVSU3V3cHBWTnR4M0FKUk81cE9PV3d4WDQ2OThHMFlxLVEyNTk0MFlyakM0M2NKdG53MWtvQkdVWGgtLWRCYjJJSFAxRGwzWDNBWF9hdzdFdDZ5NVk3Uy1ySl9fczBnZ0thcHZUMHloOURoTFNnR0xYWDJZYmdOUVJjdWIydDVCd1dPQi1fYU1WbFZRZUpoclNfWjdfTmZhNThQMtIB8gRBVV95cUxNWjdzNjVmbGEwMWc4MXlsRGMwZW15T0E4UVdJbS1HVE84QmltTklmX2pDVEVqV3VicHZIcFdSNHVZTHlVX21MczVodHc5b0dlN2VjbUhmT3lUTW1nTTNwLWpXdHRTTmFzcHgtSzRzX2RpTndUcWY5NWJ6czIxU084WGljRTNLWklKVzB5VU1LZWhhdmdYWDNBcU1Lb1hfbUFrT1NYY3lacGZyZEJCbmlHa1R5QkxMV09QSXFuMXBFTm5BdFNjQkdWX0d1OHVPaTExTmlHeFBiczZwZ2ZOUGFTbnFhN1lXUUFRbVFRcllzRW5oY2d4NDdWV28xODR3ZEZaVXQ0MktFYWNxejF5WmZhV1VIREM5R3JKdzV2ZEhmMmNfTFNKQ2kxWWRWY2tlMGRfY2RzUnBvbW5PZXc3cUFET1RiY0VUdC0xM0RSOEZWa0xGRl90Q1NlOUwybVQ1YTRmeWNfbklJMjBOZnBPbWNLQzVaOWVsbFBMTmlmUUZZdnNHb0h1NGZrUGxUcl9idzhXRTBHTEJsay1VZWlBMGswTWsxcFRsM2xTWHVBTEM5cUczc05yU0p6eXJfNndfa0NZSmVUY1JZUU8xREo1elB4Z3FqcjVKXzRPMkRiYjZheHJUZS1vLTR4bEtfeXJSLVU5MEtqRjZYTHFEOEVNOUI3WlV2aUZGbHRxcmFBOU42TDNza1pYc25lRHRRcElYdzRXcXB6a2pkYlBvYV9BQkh5UHVMclRmeThzSlNiWkhTanVTNllqS3pXVWNtTVJZWXRmVU56Uy1CbDZtZWUtQXgwakVQcUVEQWZaZnFXZ2FPelJKdw?oc=5",
+      "published": "2026-08-01T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
       "id": "61201963cda0",
       "title": "وزارة الصحة تحذّر من إيقاف الأدوية واتباع أنظمة غذائية غير مثبتة علميًا - جريدة المدينة - جريدة المدينة",
       "link": "https://news.google.com/rss/articles/CBMiywRBVV95cUxOSHh0ZDNNX0VJNkI0Slp0RFhpdjVrOUQzekN1OWZTUXA5SWtfTl85cUZVYmEyNHZhcmQ3NURKLUItUnlEMG00dWhIQWlTYkU3ck8zYmNwbWFqM0FVR0x3dVNmZ1lQTzd4MFA1dTlwQ3Y0a0R4Y00zc2ZXdDZKQ0dHY09rMHZuakdjc2xxN09HSVFialNhY1pfaGxLamJ6NkhTbDdGUmVuV3RoVmMxWVZPWDd1MXgxaVZXMy1zV2EwYWJZMGFMVzI4Q3U3dExxTkdtcDFndkdPa1B3SVI5OVRNWTZOdmVYeHYyZU11cHlnRjFuWTY2RXhTOGFqcTRLVmFpWEozUS1KdlM3eE5wNTdPekwwM25vNXEwWlF1OVZYWm9QaTlyMlpTMlVoNkV5ZEpZOWliTEg4UHRZOEEzUTI4cml3QnlrdFZ6Q0JENWJHU2NYRlhiQmZUMU40TlQxNFIwQkdoeFJwVEhsU05XczBNNktHV1ZFWWRpRjY2VFV1VUw0RlppUXBKWDRTRkxVZUlkT1FxclFKMVc4R2ZXblR3SmhOUEh1LUpYVjFCZklxTHJJc3FpZ1U0RFF4TmtVWlNpQi1xckNmUFM3RDVJUTZTMW1JMmxJMlJ1a1llemx3RVNQSVBLUEg4NndIYlpyVTBpeGszcTFYbEk4bHFvdG5ULXc4WGV4cl9xRThlU0l5RkZSYzNaUjNCbHg0YlpWdWJFbFJnMVJtcGZEc1J2VWRWQno2QzE1VnBwWHlPUWpyWWEzaEV4dzlfQlhrSdIBVkFVX3lxTE9kSTlCLVAzNTBOSXVVRmJZenFxTjZZXy01WlNtUHhIWEV1U3FfeUNDVDBmUXpGVHpEZ2NYYzZVanRXLUphdnNqbVBzaU5ROGVXdHRWVzBB?oc=5",
@@ -784,6 +834,16 @@
       }
     },
     {
+      "id": "544742c27573",
+      "title": "شعبة الأدوية: لا تحريك للأسعار في 2026 والدولة وفرت الدولار للقطاع بالكامل - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE80UHJDNkM5cXE3V3pXZmhpR3lvUEg4MkFxbWVCUVFhSXhLckdCaDBZRHJCSTd6QUJxUExtY010cUUzQTB1QWxz?oc=5",
+      "published": "2026-08-20T15:49:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
+      }
+    },
+    {
       "id": "cfe67dcacd24",
       "title": "البطحاء للرعاية الصحية توقع مذكرة تفاهم استراتيجية مع هيئة الشارقة الصحية لدعم تطوير القطاع الصحي في إمارة الشارقة - Dawaa News MENA",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV2I2aFZkb2lwT2Y2ejByTjd6aFAxMktacEFLZVh5Q2RpdW85WHdHb2tiVFJORUQxNW5IUkV0cjI5ZFUySVZhY0tlc1JpZ094V0NMZklWWDlQUnNFMUJsaG40cnE0SEVLREpQVER1WHFVT2g5MWVNUEE4UDBLLWFieVR1LW5fbDg?oc=5",
@@ -791,16 +851,6 @@
       "source": {
         "name": "Dawaa News MENA",
         "url": "https://dawaanews.com"
-      }
-    },
-    {
-      "id": "fbe6160c7c20",
-      "title": "أول رد رسمي من هيئة الدواء: الباركود لا يعني إلغاء تسعير الدواء (خاص) - الكونسلتو",
-      "link": "https://news.google.com/rss/articles/CBMizwRBVV95cUxNc2Y3TjY4RlBkR0pEbllQZ1NXbnpEdDJPWTJGZm9QNUgwUldub19odlVfa3F3WHAyWlI2aFd6ZFE2QUVfNG9fSHVFVEdROHo1LVhJRktXNkpXMlBmQkNobG9VVGtUYWFRSE9KU2h5eHlMS0FVLVplOWQxY19XVjhzRkUyTGVmaW5SMWdQNlBFY3hER1VKWXNXQkZJSENwTjAyb0tBWFpsbkJpSmR3WE11ZVZ2bkZpUjgxZ2gzeUpPNlBfSDU1bll0QkFhQlVBV0NxanlOcFhTSXB5cWlhdk9pbEw1c0tKWldQVXBCbEdGd3BWYUg3UzBwaUJMbGtoVTFzWEpyZWw0WTladW5qcE9VdlFsRW8tY3k2SktBdGZJUDViaVhLanh0WElqYWdFRXVMMW8wbUZZSkxlZGNUM2pCRExOMlVGdnAyVjVYTGtTTzRNSXJxRmhnbE9ZVjFKYk41ZER2bWttZkI1ZHd0cGF1RkQxMlVtaUttaTJkRU90TFpaUUgyS3hTelhrQURmZnR6b0ZnbmtVMXlPWW9BbmNjSnV0dFlaTGxxeG5TOU5pU2lBSzFjSDEwbnU4SFo1bTQ4RVpLd2FMTDZTMlBFZzFyNGszMnlFOWp4VzRlOXJUbEtzMHZJbjY0eFpSYjlrcm0wbzBOWWpTWEk5SXdjNnM2Q1lrSk1mVHdhdjlNLWZ2SG12cFc5dTR6dTNaMEI2UHVSN3hVdTJNVm11LWI4anctNDVqX0tzU1ZGR2ZDM3JSUVlkQnkzRjhRR0R3cUdvLWPSAdQEQVVfeXFMUE11ODg1R1RFT3p6cE5Ca2RwVXE4cnRFYWEwYy1hNU1DRFhLc3JkM2QtUWo2clFDcDBrcldLbFhRM2gybWJFc2lya016TXk2TnFidHhsb0ZaQXY0TXgtR3RULUJEYzNYMERDTllRWEUxcTNrZVlCejVmUmFfTWNjdVN5V0hVY2tiUWJGWnpwQ21wWWY1cjZtTExmV1BjMXhBd1VseEp6OGlZWXNnVlNLRGhTajNiYldTODd0ajFHRlNuX2YtOWZqWmdSYjA0VHRuQ3RRa0JOSnA4VDF6a1NOLUdPMHlDRjZ0WFdYVlVjSW9wWTdWNUZVX0wzQUhGTF84d1hVcHB3RGFZLUZEaERFUEdfc2ZvRWkwYjdMZF9wazZUVVR3WmsyU2dJdjZPQXVyOFI0TjRNWEQtNVJPZUlFa3ZfV1ZzTHFkRmFTUnBvLWswc3ZXWlA1QnBFWVgtRk1mQWZha3FkaUFjejRJTXNSVVNydDVPNW9meERldXlqbVNxRjFzVGQwellRNUZZMmxLY3lUVUpYQUh5cUpjbm04OWQwb1pZWGFnLTV0VEMwYTU4a0RybmZfTFFTOXlBalhrNG93QVpKWE9nTmtCajRwdXozdVFpcU1KQjUyVjlmYS1HSlpYTGxxY0ZCM1Y2MHlnRGFTSnBTQXdIS19UVjhERUdNU3ZnWnNyMUROeWduczh6TzJNVC1TTWJvSkQxM1RpZm9qS2ZGMkZIWU42bUYxM05kMnJxWURVOEUydVloUEk5MmtkckhYeVNoTHdMbUVheENydTg?oc=5",
-      "published": "2026-08-01T07:00:00+00:00",
-      "source": {
-        "name": "الكونسلتو",
-        "url": "https://www.elconsolto.com"
       }
     },
     {
@@ -834,16 +884,6 @@
       }
     },
     {
-      "id": "b1e7e997b605",
-      "title": "يوفر 4.2 مليار جنيه.. حقيقة جودة الإنسولين المصري وحجم الاعتماد على المستورد - صدى البلد",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5JclRJQnMwcTd0MHpUdzlKazBVN01rZEgtc1NYTFR4RWcxc0xNb2RuYUZ4N2VxMHJ2NzVlN3JlZEhKanJUMExV?oc=5",
-      "published": "2026-08-20T14:24:00+00:00",
-      "source": {
-        "name": "صدى البلد",
-        "url": "https://www.elbalad.news"
-      }
-    },
-    {
       "id": "9e9e0a89e0f7",
       "title": "الأدوية والمكملات الغذائية.. تفاعلات قد تهدد حياتك - الجزيرة نت",
       "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPM0xoZ1dmOE1DV19VeWlnUWNpRm1HNDhOSGJaNDdfZ081X2N2NXZLOWw0RWxtd21uSElKRXRpVEFadmNWbl82UGkwZTNWLXVrQ1lJN1BuOEFhMFVrZllSNmNBX1E2RU8wLW1kZ3NaaVFjSW1YcXNrNHUxbzBLUnJyZ2dLbkZwMC1xNGU5VnFxNGRROG1iSFpvaHdjQXcwOVhXR01DREZGSkotb0pTamhnS2pnR1NSeDdJcGpvd1EyanlzVkFYMlQ4eVNsX3NmblFleW43V2VSOGhSdF9YSXI1ZkRPV3JuYW9mMzJQZmIyMF8wdmk5a3haZnNoeV9RSXo4V0UtT2pNZUFDclBPMWJoTWJVdzg4YW9TazdHb25HZ1NJOEV2VXg0S0JFb2VGWGsxZE1jay04SEI5Rzl4VXZFTFdn0gHHAkFVX3lxTE1LSWd0dmdJU0dvQjlJNGVRRHdBWFpLalZ1dWRBUlR4d1dyM0NtSnhIUUtMN3ZEd1FZNVRkVndXLXVIWmtfenBmODVDSFpSMVpucTF1WWJDcWt3dUREVkNBc3U0R0hDeW1qZG0tcW9Bcm1MOTAxdVpPQ2R2M19jNkF6M2R6VDRxMkN1TEVxcFo4OGlMMVNpVFdpX2lEb2R5bWZCaWI4U0dTdmJpaWI3ZTN6QlVxNUV1OUZnd0R4Rl9FNFMwTkk2bkNhMnVlZlpKaUJhYmRnZ2V1OUNaZTFHdHUzbEZicU9WSGY2SDdLRTIyOWlqd3lDX2JtNUZSV285X1g1djZxdFNfdE1Wc2x6aUFUUy1GQjU5eC1WcWVfRGRWcU9MRU4zSDRySy1jOW43amdzUzBsNi1rVDMxdHJQVGxWc0RGME4xYw?oc=5",
@@ -864,13 +904,13 @@
       }
     },
     {
-      "id": "16591c491e19",
-      "title": "تدرس وزارة الصحة زيادة التغطية التأمينية الصحية وإضافة أدوية بيولوجية جديدة لعلاج السرطان. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3cwM29SQnY2V2lHaU1oNFZJLUNiaFctY3RkdGh2SDFwVlJ4X2R3NjNKaFBRSjRnVm1JeDBER3pScDJnZ2JTTHZIU2RBdmlXeVpOQW1OTGV5ajV1ZXFsVE1sVXNwS1l3bFdkenJaMHB3azZUYlMtSDU2QlBXYWl5bk8tNkN4Y3NzT3VnZjBlUzI2OWllQnFjWXJPellvMm9BTkRMU1VsTUtPQQ?oc=5",
-      "published": "2026-08-14T12:09:55+00:00",
+      "id": "54d19c156474",
+      "title": "\"الصحة\" و\"الغذاء والدواء\" تطلقان حملة لضبط بيع الأدوية في محال مستحضرات العناية المخفضة - صحيفة سبق الإلكترونية",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBjVzU4NkZ3S1ZLLXN6cUw2ZTZQLTFvdjJadEU1TEtxTE12QW1oT1NFeVNhX1lwYngtOEctWXg2OE5ORU9MMFJ3?oc=5",
+      "published": "2026-04-20T07:00:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "صحيفة سبق الإلكترونية",
+        "url": "https://sabq.org"
       }
     },
     {
@@ -884,16 +924,6 @@
       }
     },
     {
-      "id": "f39debe73baf",
-      "title": "ثورة الوقاية من الإيدز مهددة بسبب ارتفاع الأسعار وتراجع التمويل العالمي | أخبار الأمم المتحدة - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ybUpCeE1aY2VvbWlRTllGQ2Q3YkxNRG5CbjlkRVVYTUNXSkNyd2FyTm55T3JoSU9wcm9tZTIwbWhhZGFhUzgtaTN4djNXLXpYTEhuSTZsaw?oc=5",
-      "published": "2026-07-27T07:00:00+00:00",
-      "source": {
-        "name": "UN News",
-        "url": "https://news.un.org"
-      }
-    },
-    {
       "id": "891657bfa964",
       "title": "ترامب يقرر زيادة عدد الأدوية المتاحة على موقعه للبيع بأسعار مخفضة - العربية",
       "link": "https://news.google.com/rss/articles/CBMirgRBVV95cUxQNkJ0NWUwMFNLem1ZS2VRM3Y3VUV2WFpkV0QzWWptaldaV1ZDeGJXREs5SGRNWjVsRHpVNUZTRXIzUnJDQXRMYmJ6eGtUUXJQazhiZG42UWRfVWw2OGdRMHVXQk9hUmdpNi1uUWYzWW5ZZjFDYzlHNm5oVTVKcDFTSThHVFRTaU5DUlhRRzV4WDVrT2dZS2dMME1nN1VnTmJELUNPQTVYVjFLdm1XRS1DUEowN0Zyd0liT1p6MnpFZmV6dGpzVGFsaXRIZ3BqX09YVE53cEw0dWI4b2RKZ3dHakQxUkJQRjRUSkN0cDI0M0VFUkwwZDV2Z1FkNEE3YjZsWnB6cUtvZ0Y5UEhUS1R5aHlGRXByOUlCZlpPdm4xVUVqTEhxQWNmYXVhYUU1enNpbUlvYnpqaHVJVjZpZ0F2YjUzUzkwOUpacWRyekhOWXI2cGRnQ0VRUHAtNUhPMll4ZlZGblpyZERMSDdFRXhiTUZHR3JvUGgtTkhuZGdkbC1uMGxRWTk3c3ZFRHpvVm9xUFJYTHUxM0tTRzJ1SnBIc2NCbkxZMkthYkhJQUVFU2wyNi0yQV8yRnA1by0xcXA3S09GeDVRVEhGTF9neFNTRDFNd0JLMmN6NTdBdFdfOVNkUWJpQjFjVnIzUm94Y1NwRWp3TUhXTzFTTEF2dWNrNnpqVDg2UF9GR3dvdW8zQ0FpZHhyNjdpWUlMX1FGbG80TzMwTkpqRUlMWWRvMnfSAbMEQVVfeXFMTzI1bEJlX2Ntb2VUUDdWcnlqbGdacktMZmtVYmpadEg0M0xvY0JnLVJPMGpTX0xGU3dlb29uNk03RFhneDR0N2RnbV9JTTk2VUkyR0tld3BEUVgtbFhQUzNOZlBiYml5YnRhRmNMb0JpZEN0WFFBWElwaXVoX2Y5UTZEeW81Qjg2eHdzWTdSY1hLblJhb3ZLN05nVlBFRWZ0bzcxa0VRWmVKU3FuWFNuSFBCd1U3SE9ZZVVpTDdwUmZhRkg3Y2FaVjZSMXV4X3M0THVmeTJuNzQ0bjJ1RzNXUlI5am1wb3MyV1ZjTS05dnJXS3MxN1RzTEpFYWM3TG5rRnUzc1l4N29FanVlRFZqQXVWSTdPNC1MLWlzZ0lSOThaSXp2alpqcVk2ZjYxLTRWdVVKWDNDX1U1S3BPaXhLN1VwdlJqWnVnQzhhU1BWanhwM1lFenE5S2hBbkItZ0hpRExVWHZ1R19CdFFGbXpkWlVOT1RaV2d4VjM5MF9vbURZY1RXNUxPMkFnTnBNUHhTYlZZbUx0NTFtUTBuTTYtTkxWTS1LaWUxOUhuYjVEdXRuQ01RRFVpS0VndUU1SUVSV2Q0VF9zM0VXNGEzcFVrN2xsZ3MtVk1KcDAtUnhLWUNuMXRORUU5U2d4dXp0OU5YNXp4bVR4dlJ5NzREOHNydVIyV3dYalRaNzE3RlIyR2cwbGlhdm9lMUlHZTN2aE9MVlE2bWVpbWNybnJNZVo4TTJiNDQ?oc=5",
@@ -904,13 +934,13 @@
       }
     },
     {
-      "id": "54d19c156474",
-      "title": "\"الصحة\" و\"الغذاء والدواء\" تطلقان حملة لضبط بيع الأدوية في محال مستحضرات العناية المخفضة - صحيفة سبق الإلكترونية",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBjVzU4NkZ3S1ZLLXN6cUw2ZTZQLTFvdjJadEU1TEtxTE12QW1oT1NFeVNhX1lwYngtOEctWXg2OE5ORU9MMFJ3?oc=5",
-      "published": "2026-04-20T07:00:00+00:00",
+      "id": "f39debe73baf",
+      "title": "ثورة الوقاية من الإيدز مهددة بسبب ارتفاع الأسعار وتراجع التمويل العالمي | أخبار الأمم المتحدة - UN News",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ybUpCeE1aY2VvbWlRTllGQ2Q3YkxNRG5CbjlkRVVYTUNXSkNyd2FyTm55T3JoSU9wcm9tZTIwbWhhZGFhUzgtaTN4djNXLXpYTEhuSTZsaw?oc=5",
+      "published": "2026-07-27T07:00:00+00:00",
       "source": {
-        "name": "صحيفة سبق الإلكترونية",
-        "url": "https://sabq.org"
+        "name": "UN News",
+        "url": "https://news.un.org"
       }
     },
     {
@@ -921,6 +951,16 @@
       "source": {
         "name": "الجزيرة نت",
         "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "b1e7e997b605",
+      "title": "يوفر 4.2 مليار جنيه.. حقيقة جودة الإنسولين المصري وحجم الاعتماد على المستورد - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5JclRJQnMwcTd0MHpUdzlKazBVN01rZEgtc1NYTFR4RWcxc0xNb2RuYUZ4N2VxMHJ2NzVlN3JlZEhKanJUMExV?oc=5",
+      "published": "2026-08-20T14:24:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
       }
     },
     {
@@ -944,16 +984,6 @@
       }
     },
     {
-      "id": "1af17c0c4721",
-      "title": "الصحة: توفير الدواء المستورد للمريض حال عدم وجود بديل محلي مماثل - المصري اليوم",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01eG5DSVVPakRsNTU5S050Rl9CR0tSbVYwWmRPeThfVzIxNUJsRGpoWW5LT2Uxa2E0clVfbHZBbTZiSXpuUjdBQVFMMzZyQ0xoWjdPdk1hZG9xSjVDWThn?oc=5",
-      "published": "2026-08-17T19:57:00+00:00",
-      "source": {
-        "name": "المصري اليوم",
-        "url": "https://www.almasryalyoum.com"
-      }
-    },
-    {
       "id": "8f1534e0741f",
       "title": "دراسة جديدة: أدوية إنقاص الوزن قد تقلل خطر الكسور لدى مرضى السكري - Euronews",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRkphVDlrWnRsQXE1Nm9vbDU3dWo2bkNHZmpDVTFIbUV0ZHFpQnJmNzdjXzVJSWFPRGI3MXJkR3dyZWtVb2pIZHdxNDBUcDg1MHBuWUM2Tkk5MXZ0Sll0a2lPSmpESGl3cVFjWjZqY2N3ZEhNWHV0MW5EN2w2dXo2ckg5alZEM2dKdFhOenFaTzRla2xzbHlscUdWSG1IcUo0REp4R2lGUkQzdWpyNEtXd005SGVaR3U5aUJiWXB1VVBzOHh1a05J?oc=5",
@@ -964,43 +994,13 @@
       }
     },
     {
-      "id": "c5edc74f9c8c",
-      "title": "الصحة : لا منع لاستيراد الأدوية .. والمستحضر المحلي له الأولوية في التأمين - صدى البلد",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1INVBXUGhFaUxUUDlBTDNWMlNtY0pQTXZzZFRWTEYwa2MxX2xOVk9rMktnY1padkN0c3FRS0FpVVktQnJpNWNv?oc=5",
-      "published": "2026-08-17T19:39:00+00:00",
+      "id": "a299e30d6d4e",
+      "title": "عقار جديد يمنح أملاً لمرضى حمى الوادي المقاومة للعلاج - الشرق للأخبار",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPWVF0cko5X1hwRGlPbmJKNjM2MUI0SW43R2c0Yy1velZjaUF3alpJb00zMGMwb1VieXhiRzJUR3hUNFlWc2xwbkRhSDFZbkZBWWEycTJZaGt4SEtUdFVzYmFuX1J4STdyUUxVQl8xZUswWkFBWVYyR0tSMW1vSzJObFg5czB4cjA2bnZIM1BYNEdTVjg1RDlCdjYzd3JuWXJGMjQ1QUhsemFRam9MWUhkemRvODNBNXc0TkFMZlJldWdzUURQbWFJaUlvOU1PbkpQZUdtSmZWNVZhNEJvSmJtbFpTLUJUcmFWMWc0M2RPV3ltQmhicGJia3NJRmFMa2dwRy1jdGtMMDlndktmcHZpUWgxSEtXUzc2b25QcjhUdUVTZHotOXdrSG5ocWliOGJBZjdBTnlKQnZNX2JCWjg2aEpCVGxmYjRtckpUdU85ZVQxYmZ0bXZwVGk1RGdocGo5Mk0tOVlNWHQ0RHgzeXVvUlVKQmdWNWx3UmNsYXpZUWhBZTBIQ1JNRVJEakVHY2M?oc=5",
+      "published": "2026-07-23T07:00:00+00:00",
       "source": {
-        "name": "صدى البلد",
-        "url": "https://www.elbalad.news"
-      }
-    },
-    {
-      "id": "4a72976c2193",
-      "title": "هيئة الدواء المصرية تحافظ على مستوى النضج الثالث بعد زيارة منظمة الصحة العالمية - بوابة دار الهلال",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyOEtkelFWdVJQTkZQbDdVc05SNXpPY1pBczVza1JpTkE3VVBSRG5aMld4Yk5BbjhuUTJBVFpUMVE3UWFsRlNyWE5PWlRzSG9WLUE?oc=5",
-      "published": "2026-08-19T19:26:51+00:00",
-      "source": {
-        "name": "بوابة دار الهلال",
-        "url": "https://darelhilal.com"
-      }
-    },
-    {
-      "id": "1ef8d32790e4",
-      "title": "وزير الصحة عن نواقص الأدوية: ثقافة مواطن وليست نقصا حقيقيا.. وموجودة في كل دول العالم - بوابة الشروق",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUhtczNGUDhlcFFFYUNOQjFLZGtiYVUwaXFCTDdYQk41cWxqZDM4UzhxWlc3LWF3OGlvbW41d09pdmVvWDd6M05pdW5WbWlqNWJpVVRQcUM1QW5UZUQ1M0hiNkN6bkFYeG1sYl8yMTlIaXU1aTRzNGRCRGQtSmczUUd5a2YtckVCYXJ6QXE3V0RTMFBJWlB4ZG5PcmdQdmJ5NWlJODFuMA?oc=5",
-      "published": "2026-08-10T00:18:08+00:00",
-      "source": {
-        "name": "بوابة الشروق",
-        "url": "https://www.shorouknews.com"
-      }
-    },
-    {
-      "id": "3d41b328b647",
-      "title": "الصحة تضبط مدربين يروّجون لأدوية تنحيف وهرمونات غير مسجلة في صالات رياضية بالرياض - صحيفة سبق الإلكترونية",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5JZUVpZ2w3RC13YVJvQlp4V193Q1YxQUlkWnlFVnhzblhaLXI4NVQ4Nlh6UjBXdEVFTEZiT196dVpEZlR6OG5j?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
-      "source": {
-        "name": "صحيفة سبق الإلكترونية",
-        "url": "https://sabq.org"
+        "name": "الشرق للأخبار",
+        "url": "https://asharq.com"
       }
     }
   ]
