@@ -1,7 +1,7 @@
 {
   "generated": "2026-08-27",
-  "drug_count": 1359,
-  "indication_count": 1382,
+  "drug_count": 1475,
+  "indication_count": 1441,
   "drugs": [
     {
       "name": "Abacavir",
@@ -35941,6 +35941,14 @@
       "indications": []
     },
     {
+      "name": "Lincomycin",
+      "slug": "lincomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "Lindane",
       "slug": "lindane",
       "brands": [],
@@ -37878,6 +37886,1230 @@
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Sacituzumab Govitecan",
+      "slug": "sacituzumab_govitecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Severe nonproliferative diabetic retinopathy | 99.69% | 5,526",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diabetic retinopathy | 99.60% | 6,776",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diabetic cataract | 99.12% | 12,299",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Salbutamol",
+      "slug": "salbutamol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salicylic Acid",
+      "slug": "salicylic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sebelipase Alfa",
+      "slug": "sebelipase_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Secnidazole",
+      "slug": "secnidazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selpercatinib",
+      "slug": "selpercatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selumetinib",
+      "slug": "selumetinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sennosides",
+      "slug": "sennosides",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sertraline",
+      "slug": "sertraline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sevoflurane",
+      "slug": "sevoflurane",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Silodosin",
+      "slug": "silodosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Simeprevir",
+      "slug": "simeprevir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Simvastatin",
+      "slug": "simvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Siponimod",
+      "slug": "siponimod",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sirolimus",
+      "slug": "sirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Stibogluconate",
+      "slug": "sodium_stibogluconate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sofosbuvir",
+      "slug": "sofosbuvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sorafenib",
+      "slug": "sorafenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sorbitol",
+      "slug": "sorbitol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Spironolactone",
+      "slug": "spironolactone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Stavudine",
+      "slug": "stavudine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Streptokinase",
+      "slug": "streptokinase",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Strontium Ranelate",
+      "slug": "strontium_ranelate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sucralfate",
+      "slug": "sucralfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulfacetamide",
+      "slug": "sulfacetamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulfamethoxazole",
+      "slug": "sulfamethoxazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulfasalazine",
+      "slug": "sulfasalazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulindac",
+      "slug": "sulindac",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Brachyolmia-amelogenesis imperfecta syndrome | 99.90% | No mechanistic hypothesis available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brachyolmia | 99.90% | No mechanistic hypothesis available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myosclerosis | 99.89% | No mechanistic hypothesis available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pseudoachondroplasia | 99.85% | COMP-gene chondrodysplasia; no supporting data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brachydactyly-syndactyly syndrome | 99.82% | No mechanistic hypothesis available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.81% | No mechanistic hypothesis available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "WHIM syndrome | 99.74% | Generic NSAID anti-inflammatory rationale only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rheumatoid vasculitis | 99.63% | Generic NSAID anti-inflammatory rationale only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypermobility of coccyx | 99.56% | Structural/mechanical condition; no pharmacologic rationale",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sulpiride",
+      "slug": "sulpiride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sumatriptan",
+      "slug": "sumatriptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sunitinib",
+      "slug": "sunitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tacrolimus",
+      "slug": "tacrolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tadalafil",
+      "slug": "tadalafil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tamoxifen",
+      "slug": "tamoxifen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tazarotene",
+      "slug": "tazarotene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telaprevir",
+      "slug": "telaprevir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telbivudine",
+      "slug": "telbivudine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telithromycin",
+      "slug": "telithromycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telmisartan",
+      "slug": "telmisartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prinzmetal angina | 99.98% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brain stem infarction | 99.98% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "ABri amyloidosis | 99.97% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cerebral artery occlusion | 99.95% | L2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension (lung disease/hypoxia) | 99.93% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension (unclear multifactorial) | 99.93% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant renovascular hypertension | 99.93% | L4 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant hypertensive renal disease | 99.93% | L4 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Intracerebral hemorrhage (recurrence prevention) | 99.93% | L2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Braddock syndrome | 99.92% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Telotristat Ethyl",
+      "slug": "telotristat_ethyl",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temozolomide",
+      "slug": "temozolomide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temsirolimus",
+      "slug": "temsirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenecteplase",
+      "slug": "tenecteplase",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenofovir Alafenamide",
+      "slug": "tenofovir_alafenamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenofovir Disoproxil",
+      "slug": "tenofovir_disoproxil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenoxicam",
+      "slug": "tenoxicam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Terazosin",
+      "slug": "terazosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Terbutaline",
+      "slug": "terbutaline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teriflunomide",
+      "slug": "teriflunomide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teriparatide",
+      "slug": "teriparatide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tetracycline",
+      "slug": "tetracycline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Theophylline",
+      "slug": "theophylline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Thiamine",
+      "slug": "thiamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Thyrotropin Alfa",
+      "slug": "thyrotropin_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tiapride",
+      "slug": "tiapride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tiaprofenic Acid",
+      "slug": "tiaprofenic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.99% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brachyolmia-amelogenesis imperfecta syndrome | 99.99% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acromesomelic dysplasia, Hunter-Thompson type | 99.99% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myosclerosis | 99.99% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Spondyloarthropathy, susceptibility to | 99.99% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brachyolmia | 99.99% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Factor 5 excess with spontaneous thrombosis | 99.98% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heparin cofactor 2 deficiency | 99.98% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pseudoachondroplasia | 99.98% | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Ticagrelor",
+      "slug": "ticagrelor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tildrakizumab",
+      "slug": "tildrakizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tinidazole",
+      "slug": "tinidazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tiotropium",
+      "slug": "tiotropium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tizanidine",
+      "slug": "tizanidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tobramycin",
+      "slug": "tobramycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tocilizumab",
+      "slug": "tocilizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tolfenamic Acid",
+      "slug": "tolfenamic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tolvaptan",
+      "slug": "tolvaptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Topiramate",
+      "slug": "topiramate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Topotecan",
+      "slug": "topotecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trabectedin",
+      "slug": "trabectedin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tranexamic Acid",
+      "slug": "tranexamic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trastuzumab",
+      "slug": "trastuzumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trastuzumab Emtansine",
+      "slug": "trastuzumab_emtansine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Travoprost",
+      "slug": "travoprost",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tretinoin",
+      "slug": "tretinoin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Rheumatoid Nodulosis | 99.84% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "RF-positive Polyarticular JIA | 99.82% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Juvenile Idiopathic Arthritis | 99.80% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Juvenile Chronic Polyarthritis | 99.78% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Spondyloarthropathy, susceptibility to | 99.71% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Juvenile Arthritis (LACC1 defect) | 99.55% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Osteoarthritis | 99.44% | L4 | 20 publications; mechanistically contradictory (protective vs. pathogenic RA signaling)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pseudoachondroplasia | 99.35% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acromesomelic Dysplasia, Hunter-Thompson type | 99.30% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Quinquaud's Folliculitis Decalvans | 99.30% | L4 | 1 case report (disease description only, no tretinoin treatment data)",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Triclocarban",
+      "slug": "triclocarban",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trifarotene",
+      "slug": "trifarotene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trifluoperazine",
+      "slug": "trifluoperazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trihexyphenidyl",
+      "slug": "trihexyphenidyl",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trimebutine",
+      "slug": "trimebutine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trimethoprim",
+      "slug": "trimethoprim",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trioxsalen",
+      "slug": "trioxsalen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Triptorelin",
+      "slug": "triptorelin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tropicamide",
+      "slug": "tropicamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tropisetron",
+      "slug": "tropisetron",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tubocurarine",
+      "slug": "tubocurarine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Turoctocog Alfa",
+      "slug": "turoctocog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Turoctocog Alfa Pegol",
+      "slug": "turoctocog_alfa_pegol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ubrogepant",
+      "slug": "ubrogepant",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Upadacitinib",
+      "slug": "upadacitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Urofollitropin",
+      "slug": "urofollitropin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ursodeoxycholic Acid",
+      "slug": "ursodeoxycholic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ustekinumab",
+      "slug": "ustekinumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Valsartan",
+      "slug": "valsartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vancomycin",
+      "slug": "vancomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vandetanib",
+      "slug": "vandetanib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Varenicline",
+      "slug": "varenicline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vasopressin",
+      "slug": "vasopressin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Venetoclax",
+      "slug": "venetoclax",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Verteporfin",
+      "slug": "verteporfin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vidarabine",
+      "slug": "vidarabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vildagliptin",
+      "slug": "vildagliptin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Viloxazine",
+      "slug": "viloxazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vinblastine",
+      "slug": "vinblastine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Neuroblastoma | 99.14% | **L2** | **Proceed with Guardrails** | Phase 1 vinblastine+sirolimus trial (PMID 23956145), historical CVB (cisplatin/vinblastine/bleomycin) cohort, preclinical antiangiogenic synergy",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Monocytic leukemia | 99.78% | L3 | Research Question | Historical case series (41% remission, pediatric, 1975) plus combination regimens",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Prostate embryonal rhabdomyosarcoma | 99.83% | L4 | Research Question | 2 direct-vinblastine case reports",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Liver sarcoma (heterogeneous label) | 99.81% | L4 | Research Question | Indirect — desmoid tumor MTX-vinblastine regimen, Kaposi's sarcoma use",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Vincristine",
+      "slug": "vincristine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vindesine",
+      "slug": "vindesine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Ganglioneuroblastoma",
+          "score": 99.89,
+          "level": "L5"
+        },
+        {
+          "name": "Vertebral anomalies / variable endocrine and T-cell dysfunction",
+          "score": 99.87,
+          "level": "L5"
+        },
+        {
+          "name": "Retroperitoneal neoplasm",
+          "score": 99.86,
+          "level": "L4"
+        }
+      ]
+    },
+    {
+      "name": "Vinorelbine",
+      "slug": "vinorelbine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vortioxetine",
+      "slug": "vortioxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Neurotic disorder | 99.24% | L3 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neurotic depression | 99.09% | L2 | S2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Melancholia | 99.09% | **L1** | S3 | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign paroxysmal torticollis of infancy | 99.07% | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dysthymic disorder | 99.02% | L4 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Voxelotor",
+      "slug": "voxelotor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Macrothrombocytopenia with mitral valve insufficiency | 99.58% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dense granule disease | 99.58% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Transient neonatal thrombocytopenia | 99.57% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombocytopenia | 99.51% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acquired monoclonal Ig light chain-associated Fanconi syndrome | 99.13% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary release disorder of platelets | 99.00% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Zafirlukast",
+      "slug": "zafirlukast",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zalcitabine",
+      "slug": "zalcitabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zanamivir",
+      "slug": "zanamivir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zanubrutinib",
+      "slug": "zanubrutinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zidovudine",
+      "slug": "zidovudine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zinc Oxide",
+      "slug": "zinc_oxide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zolpidem",
+      "slug": "zolpidem",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zuclopenthixol",
+      "slug": "zuclopenthixol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
     }
   ],
   "indications": [
@@ -37932,6 +39164,17 @@
         {
           "drug": "Clomifene",
           "slug": "clomifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "ABri amyloidosis | 99.97% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
           "score": 99.0
         }
       ]
@@ -38083,6 +39326,17 @@
       ]
     },
     {
+      "name": "Acquired monoclonal Ig light chain-associated Fanconi syndrome | 99.13% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Acromesomelic Dysplasia, Campailla Martinelli Type | 99.79% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -38094,12 +39348,34 @@
       ]
     },
     {
+      "name": "Acromesomelic Dysplasia, Hunter-Thompson type | 99.30% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Acromesomelic dysplasia, Campailla-Martinelli type | 99.78% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Cholecalciferol",
           "slug": "cholecalciferol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acromesomelic dysplasia, Hunter-Thompson type | 99.99% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
           "score": 99.0
         }
       ]
@@ -38398,6 +39674,17 @@
       ]
     },
     {
+      "name": "Benign paroxysmal torticollis of infancy | 99.07% | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vortioxetine",
+          "slug": "vortioxetine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Beta-ketothiolase deficiency | 99.79% | L5 | S0 | Hold | 代謝疾病，與 AMPA/癲癇路徑無直接機轉關聯，判定為雜訊",
       "drug_count": 1,
       "drugs": [
@@ -38492,6 +39779,83 @@
         {
           "drug": "Etoposide",
           "slug": "etoposide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachydactyly-syndactyly syndrome | 99.82% | No mechanistic hypothesis available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachyolmia | 99.90% | No mechanistic hypothesis available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachyolmia | 99.99% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachyolmia-amelogenesis imperfecta syndrome | 99.90% | No mechanistic hypothesis available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachyolmia-amelogenesis imperfecta syndrome | 99.99% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Braddock syndrome | 99.92% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brain stem infarction | 99.98% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
           "score": 99.0
         }
       ]
@@ -38627,6 +39991,17 @@
         {
           "drug": "Insulin Aspart",
           "slug": "insulin_aspart",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cerebral artery occlusion | 99.95% | L2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
           "score": 99.0
         }
       ]
@@ -38779,6 +40154,28 @@
         {
           "drug": "FIDAXOMICIN",
           "slug": "db08874",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.81% | No mechanistic hypothesis available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.99% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
           "score": 99.0
         }
       ]
@@ -39048,6 +40445,17 @@
       ]
     },
     {
+      "name": "Dense granule disease | 99.58% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Dermatofibrosarcoma protuberans | 99.82% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -39065,6 +40473,28 @@
         {
           "drug": "Econazole",
           "slug": "econazole",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Diabetic cataract | 99.12% | 12,299",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacituzumab Govitecan",
+          "slug": "sacituzumab_govitecan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Diabetic retinopathy | 99.60% | 6,776",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacituzumab Govitecan",
+          "slug": "sacituzumab_govitecan",
           "score": 99.0
         }
       ]
@@ -39190,6 +40620,17 @@
         {
           "drug": "Raloxifene",
           "slug": "raloxifene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Dysthymic disorder | 99.02% | L4 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vortioxetine",
+          "slug": "vortioxetine",
           "score": 99.0
         }
       ]
@@ -39362,6 +40803,17 @@
       ]
     },
     {
+      "name": "Factor 5 excess with spontaneous thrombosis | 99.98% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Factor 5 excess with spontaneous thrombosis | 99.98% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -39501,6 +40953,17 @@
           "drug": "PENICILLAMINE",
           "slug": "db00859",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vindesine",
+          "slug": "vindesine",
+          "score": 99.89
         }
       ]
     },
@@ -39734,6 +41197,17 @@
       ]
     },
     {
+      "name": "Heparin cofactor 2 deficiency | 99.98% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Heparin cofactor 2 deficiency | 99.99% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -39947,6 +41421,17 @@
         {
           "drug": "Azithromycin",
           "slug": "azithromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypermobility of coccyx | 99.56% | Structural/mechanical condition; no pharmacologic rationale",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
           "score": 99.0
         }
       ]
@@ -40186,6 +41671,17 @@
       ]
     },
     {
+      "name": "Intracerebral hemorrhage (recurrence prevention) | 99.93% | L2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Isolated genetic hair shaft abnormality | 99.69% | None | Related to keratin genes (KRT, TCHH); no known mechanistic link",
       "drug_count": 1,
       "drugs": [
@@ -40239,6 +41735,39 @@
         {
           "drug": "Lorlatinib",
           "slug": "lorlatinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Juvenile Arthritis (LACC1 defect) | 99.55% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Juvenile Chronic Polyarthritis | 99.78% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Juvenile Idiopathic Arthritis | 99.80% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
           "score": 99.0
         }
       ]
@@ -40563,6 +42092,17 @@
       ]
     },
     {
+      "name": "Liver sarcoma (heterogeneous label) | 99.81% | L4 | Research Question | Indirect — desmoid tumor MTX-vinblastine regimen, Kaposi's sarcoma use",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vinblastine",
+          "slug": "vinblastine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Longitudinal vaginal septum | 99.87% | L5 | **Hold** | Structural Müllerian fusion defect; no pharmacological mechanism exists",
       "drug_count": 1,
       "drugs": [
@@ -40640,6 +42180,17 @@
       ]
     },
     {
+      "name": "Macrothrombocytopenia with mitral valve insufficiency | 99.58% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Majocchi granuloma | 99.97% | L5 | Hold | No trials/literature; deep follicular infection unlikely to respond to topical therapy alone",
       "drug_count": 1,
       "drugs": [
@@ -40673,6 +42224,17 @@
       ]
     },
     {
+      "name": "Malignant hypertensive renal disease | 99.93% | L4 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Malignant hypertensive renal disease | L4 | Research Question — mechanistically plausible via ACE inhibitor class effect (AASK trial precedent for Ramipril/Lisinopril), but no Cilazapril-specific data",
       "drug_count": 1,
       "drugs": [
@@ -40690,6 +42252,17 @@
         {
           "drug": "Famciclovir",
           "slug": "famciclovir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant renovascular hypertension | 99.93% | L4 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
           "score": 99.0
         }
       ]
@@ -40734,6 +42307,17 @@
         {
           "drug": "EVEROLIMUS",
           "slug": "db01590",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Melancholia | 99.09% | **L1** | S3 | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vortioxetine",
+          "slug": "vortioxetine",
           "score": 99.0
         }
       ]
@@ -40789,6 +42373,17 @@
         {
           "drug": "Azithromycin",
           "slug": "azithromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Monocytic leukemia | 99.78% | L3 | Research Question | Historical case series (41% remission, pediatric, 1975) plus combination regimens",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vinblastine",
+          "slug": "vinblastine",
           "score": 99.0
         }
       ]
@@ -40861,6 +42456,28 @@
       ]
     },
     {
+      "name": "Myosclerosis | 99.89% | No mechanistic hypothesis available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myosclerosis | 99.99% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Myositis fibrosa",
       "drug_count": 1,
       "drugs": [
@@ -40894,12 +42511,45 @@
       ]
     },
     {
+      "name": "Neuroblastoma | 99.14% | **L2** | **Proceed with Guardrails** | Phase 1 vinblastine+sirolimus trial (PMID 23956145), historical CVB (cisplatin/vinblastine/bleomycin) cohort, preclinical antiangiogenic synergy",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vinblastine",
+          "slug": "vinblastine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Neurodevelopmental disorder (ataxic gait/absent speech/white matter) | 99.03% | L5 | No trials/literature; rare genetic disorder with no plausible antiviral mechanism link.",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Remdesivir",
           "slug": "remdesivir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neurotic depression | 99.09% | L2 | S2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vortioxetine",
+          "slug": "vortioxetine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neurotic disorder | 99.24% | L3 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vortioxetine",
+          "slug": "vortioxetine",
           "score": 99.0
         }
       ]
@@ -40992,6 +42642,17 @@
         {
           "drug": "Mesalazine",
           "slug": "mesalazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Osteoarthritis | 99.44% | L4 | 20 publications; mechanistically contradictory (protective vs. pathogenic RA signaling)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
           "score": 99.0
         }
       ]
@@ -41613,6 +43274,17 @@
       ]
     },
     {
+      "name": "Primary release disorder of platelets | 99.00% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Primary release disorder of platelets | 99.01% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -41663,6 +43335,17 @@
         {
           "drug": "Isoflurane",
           "slug": "isoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prinzmetal angina | 99.98% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
           "score": 99.0
         }
       ]
@@ -41732,6 +43415,17 @@
       ]
     },
     {
+      "name": "Prostate embryonal rhabdomyosarcoma | 99.83% | L4 | Research Question | 2 direct-vinblastine case reports",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vinblastine",
+          "slug": "vinblastine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Prostatic Urethra Urothelial Carcinoma | 99.98% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -41771,6 +43465,39 @@
         {
           "drug": "Mesalazine",
           "slug": "mesalazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudoachondroplasia | 99.35% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudoachondroplasia | 99.85% | COMP-gene chondrodysplasia; no supporting data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudoachondroplasia | 99.98% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
           "score": 99.0
         }
       ]
@@ -41861,6 +43588,28 @@
         {
           "drug": "Etoposide",
           "slug": "etoposide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension (lung disease/hypoxia) | 99.93% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension (unclear multifactorial) | 99.93% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Telmisartan",
+          "slug": "telmisartan",
           "score": 99.0
         }
       ]
@@ -41962,12 +43711,34 @@
       ]
     },
     {
+      "name": "Quinquaud's Folliculitis Decalvans | 99.30% | L4 | 1 case report (disease description only, no tretinoin treatment data)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "RCC with Xp11.2 translocation/TFE3 fusion | 99.72% | L4 | S1 | Research Question",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Everolimus",
           "slug": "everolimus",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "RF-positive Polyarticular JIA | 99.82% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
           "score": 99.0
         }
       ]
@@ -42050,6 +43821,17 @@
       ]
     },
     {
+      "name": "Retroperitoneal neoplasm",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vindesine",
+          "slug": "vindesine",
+          "score": 99.86
+        }
+      ]
+    },
+    {
       "name": "Reye syndrome | TxGNN Knowledge Graph",
       "drug_count": 3,
       "drugs": [
@@ -42126,12 +43908,34 @@
       ]
     },
     {
+      "name": "Rheumatoid Nodulosis | 99.84% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Rheumatoid arthritis（類風濕性關節炎） | 99.36% | L4 | S1 | Research Question",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Palbociclib",
           "slug": "palbociclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rheumatoid vasculitis | 99.63% | Generic NSAID anti-inflammatory rationale only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
           "score": 99.0
         }
       ]
@@ -42378,6 +44182,17 @@
       ]
     },
     {
+      "name": "Severe nonproliferative diabetic retinopathy | 99.69% | 5,526",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacituzumab Govitecan",
+          "slug": "sacituzumab_govitecan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Sheehan syndrome | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -42450,6 +44265,28 @@
         {
           "drug": "Methylphenidate",
           "slug": "methylphenidate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Spondyloarthropathy, susceptibility to | 99.71% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tretinoin",
+          "slug": "tretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Spondyloarthropathy, susceptibility to | 99.99% | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tiaprofenic Acid",
+          "slug": "tiaprofenic_acid",
           "score": 99.0
         }
       ]
@@ -42590,6 +44427,17 @@
       ]
     },
     {
+      "name": "Thrombocytopenia | 99.51% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Thrombocytopenic purpura (broad category) | 99.22% | L3 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -42705,6 +44553,17 @@
       ]
     },
     {
+      "name": "Transient neonatal thrombocytopenia | 99.57% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Transverse vaginal septum | 99.87% | L5 | **Hold** | Same as above; assessed as knowledge graph false positive",
       "drug_count": 1,
       "drugs": [
@@ -42782,6 +44641,17 @@
       ]
     },
     {
+      "name": "Vertebral anomalies / variable endocrine and T-cell dysfunction",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vindesine",
+          "slug": "vindesine",
+          "score": 99.87
+        }
+      ]
+    },
+    {
       "name": "Vertebral disease | 99.16% | L2 | S2 | Research Question | Disease label is non-specific and largely overlaps with rank 3's evidence base; needs disambiguation before further evaluation",
       "drug_count": 1,
       "drugs": [
@@ -42799,6 +44669,17 @@
         {
           "drug": "Mesalazine",
           "slug": "mesalazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "WHIM syndrome | 99.74% | Generic NSAID anti-inflammatory rationale only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulindac",
+          "slug": "sulindac",
           "score": 99.0
         }
       ]
