@@ -1,6 +1,1007 @@
 {
-  "fetched_at": "2026-09-06T16:39:32.477365+00:00",
+  "fetched_at": "2026-09-06T18:48:08.683883+00:00",
   "source": "Google News Health RSS",
-  "count": 0,
-  "articles": []
+  "count": 100,
+  "articles": [
+    {
+      "id": "2df89de12126",
+      "title": "حبة دواء يومية تساعدك على الحفاظ على رشاقتك مدى الحياة - الشرق الأوسط",
+      "link": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxPVkNZLTNPZEFaaVFIQ09MekFzS2s2N0k2alV0cG16Vnlmd0tjaDB0Z2V0YTA4ZnVrWHhoVEtaY0JZQUx2R3o3S0l2U0YyaGJQbklDUHg3VlpudHU0azJkRFJ3dWVYcmZNa0wxbGNQSUhncFRsY25TZE5MeFVSRE5VOXZicUpJX2dHX0R3WDdGTDQ4dDdCc2UyRlJyTnhiMXpUaV9NZFZYamphamVzWl9wU2FWMTQ5LW9WaXZBTk5nYWFqODdVdzF6ZXdHeE1WNnJON2hWMXU0ZndVVGowbjc1N0VteGxiMDZ3dnhUalFTeGs4aS1KMloyVjRHQS1PZnBZUXdWSV9DZFMyYTY4Vlk3eXFPd1QzY0FhUVZIMUhxMWlHc3RiY1ZDT1I2Q1o4VVJnSG4xOWp5V29wUldEaU1obmQzaVozRjNUSGVuMFN5V2NBbTN3YTVUdWFzWlFTa2xDNy0wOFpZdDRHLWZKMjV6QVhmUThfTTJaQ0k5LXJQWU5JUmtxMkthZDI4QzVsOHVocjlsVXlXZWZZY2FvTi1kZVRRNW1BLU5YSTZ1ZE1BUDJMTzQ5aHlQMVhLZ1hKS2dPUXpHTHhjWWM3VE80b0ROSTczRWM5Zw?oc=5",
+      "published": "2026-09-06T16:57:19+00:00",
+      "source": {
+        "name": "الشرق الأوسط",
+        "url": "https://aawsat.com"
+      }
+    },
+    {
+      "id": "21d705f56982",
+      "title": "حقنة مونجارو في مواجهة أمراض القلب.. ماذا كشفت الدراسات؟ - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxPRnFmSUZyZXllNDd0WXFtSmE0eVo0ZVc3RFhpYTdaYm1hUTRJRFJnYVNBT1RjV1Q4SjdYU0pYYkhMMGxYQWE3eVJGSW1NWXdHYlNaU1VpR3o3SjVVQ0VOTTVxVnhBSU1XZld6QTFNTkhVbFo1c3JDNGZXbTRzdllKcXoxZm1LX3FoMGJmSHZXR2ZMa181UUFlWnZuQVB6NE5vTU1qeWJJRXRpWUhtWnRaTXh0alZyYUlDRVkzUk9rLW00anFlMWc1YUVRTElKcGU0SVF3Z3d3NzV2MDV5TE5TTEtkSmJzc1lsU0NxZEFtaUthOS1Vam1XN0FSS3VHaFVYNlNtMjh3cEJ0RnRfNnRGSHpyVmpPbkloaXFhc3hlTFVaVUJpLUU0NXpZc1BfTjRmWVJJaDg3TWx5M19zaW1YRFlVRXFidTRoczJMbkthSXQ0VjZtTUxTSndqVEtVVC10S21zZWg0WlJSZTFFVXNZVjlNazN4UDlkYkloLWdWeHBGeUsxVVQ3d0VVY1RTaHZqaXBoUTF2b2RxSG5uZjlaa0NVUDhOOTR0ZllleWRJQmxuZnB5cm9GQmhFOWVLYUYwVU9FRFdOcy1ob3VMMW80aUZZVFhuMWp0b1dmRUtxZGk5LVdKd2hIWDMwam9sc1lSbkM5MTBiT0Zxd9IB_wNBVV95cUxQTndBZmR3Tk5PSlR2YXdndHY5dUVZeVhudU9BOXE2aEdib2dNZGtsbVJ0X3VWbDhDMTBXUlJwZTZ0amo5cFQ4VXFGSmJxVzdSemVrMmt2a0ZoQmNlaVhNLWhfLWdFbTV3cmsxWHhBTXlQWWtqbEYwRHItZTAxS1lvREJBOHdxX1Q2ZnA2OURyVXpxSHpEOTBHdXQ1XzFoYWduQjk2aUlERjAxZFNVYzRQTTFHMjVweWRtNlkzNTFjWWZnbmhhZkRiZC1jUklaZnZKNEpSdE5UWnNud214cWFEZmg4VGd3VThjZ0s1RTltc2pUMEFFbm5sSlFFdW02ak5QMVdDX0duOVFJQ1hNYmtoS3dmc3FtNHVibDlzOFJwTmZzQzBIdnU2aXpBd21Wb2t4NklYRWZXTzdFeERNRTBNeFIxMW03Vkh4UXRMTEo3VWE1OWhNRkZSQjZGczlBbTIxdjNwaXNIQ3pURUVwdVh2cDA2TWZBbF9UZl9OYVE3Szd2ZlNnOFJxNEIxVVAyZzZQcHpOTDdVV085bFdPSXBXeG53QUhRNTVUTE5Qc09DdUFDTVBjdDNmLTUtVzNVbWZaMERLTWhSSno4LVdiUHNiaGQ1RnI5eHgySFozaDNWOWRkZnlDU3QtZDR2Nk94YTJOaWNSWjRrNmVJMUNSYklN?oc=5",
+      "published": "2026-09-06T12:24:59+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "9c4627d970c7",
+      "title": "محاكمة ليندسي كلانسي.. هل أسهمت الأدوية النفسية فى مأساة مقتل أطفالها؟ - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxQQlc4R2lyNHQxZzJpUkVfRW5VT2lMNGFnX1gxQ0J0UDh4aVllVk9NdUg4ZzVCNmFLTU0wV3lhUDh3WW52TTM4VHh4c2tJMHdYRzU1MGVNM0JSNzRnbmU2T08weFN0dGJLN0ZneTVWVlFmTXdnYklJVHlxd1RJUndycXNLblRvSVZtb1hSbE1VMjJHRTVFV3VSZFBDNHBia2JTWWtWT2pETlNoUVhoN1E1SlVFZzF1UG1RcG1XU2Z5QnJiSGR3VzdtbVMwS1RWcmNNR3lSMHdKUDhZdW96WVI1eE9qblRYZ2dQdWo5N1daWVkyeHlGSHRsSm1uT0psVEJuaC12OWFfQVZ5UHhWamhpYXM3WXRvd2hyZHJZU0tHd3UzTXVsaFl3RElmY3doenVDNlBsVEdzRDRWel9XYVcyTE5oWG03QmdyUU9oUUNkbkJtZnl3VGZnQk9lb2RWdlhDU1Zaakh6T1FlUUw2ZGNiMml3UmhQSGZod3pILWhETS1aODlpUWo5MUZkR2Z0VzJDRjNpQkZ6ZjZsOXdUcHk3VmFuamk2YS14emFEZ0F6ZVRnLXQ4d0ZXalRQRFhvN1VWdGlzYTFrV2VRNGVQbnJ6ZE14WUNLSzBLdzBkUGJOcWxEc1lEUlVNOUlwb1pRSTNoVUhUMdIB7wNBVV95cUxNRTFmWXBBMG40UWNRUklkSlJPclRpbWlVVWJyTDhwMGFFZkluZEtqdFo3RjZ3bUFlWDMzOENib2pGVEw1U1ZyYm42RGJ2Q2VLYThXdWw0ZEdwM1JZdWV2b0hWYUdqOUZJUE5Gd25Hc1NBYTgtLVhUTWtVYmxuMzdjSE0wbmNVWEk5a1BxV0ZLbnpJbUhCczdiZWVtaXRNbkNyTkJ4RFNVeWxQTWM3a1h1Mklpdk5zcUo5V2YwOFlWZHM2QW4zSkJzbTE2Q3JlTHZiQVJoMWkzd0NkM0Q2MGJ3a2h0TzZxeEFkZTFMREU2clNHY1R2N1VFTFVoQ041UXdlRVhHYjBLM2hkWEtGV2JGazJsd1ktRmNjanZfSUV2TWVHWU9XQkdIVzA1SExteUVBSTdxOEhRUmRzUDR3ZGRNQUthQlhRNXdKTlduMV83N2F6OXhxWWVLcFFCcFJTTTlWbVdndzM3X3RmekVpaXF4UU5yM1dmc2NzQzRyMlJrQWZRVm5PcWdKYVNvbWtaV0JpekRNdnBIeUpGQ0YybVZsVzlMaG9penA5MWN6a2RRWXpYT013QUh3dUhvRGQ2Ulg3LVFuaXpCWDB2d3ZET01lNThQMGlndC1qUXVrX3dLLTBrYlhGbzhXczZGelJQclU?oc=5",
+      "published": "2026-09-06T07:35:00+00:00",
+      "source": {
+        "name": "اليوم السابع",
+        "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "12a87f91553d",
+      "title": "أدوية التخسيس الشهيرة ترتبط بانخفاض خطر السل والالتهابات الشديدة - صحيفة أحوال الإلكترونية",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE02OS1Rb3VOSEIzRWNoX0lLeW5pT28wMGcwZVdQQTVJdGVqSUxwRTV1YVNQbWtJNkxOa2lzZkRJbVFuSEVtNlNv?oc=5",
+      "published": "2026-09-06T07:28:04+00:00",
+      "source": {
+        "name": "صحيفة أحوال الإلكترونية",
+        "url": "https://ahwal.sa"
+      }
+    },
+    {
+      "id": "3621fe6f3083",
+      "title": "آثار جانبية جديدة لأدوية إنقاص الوزن.. تزيد خطر الصلع الوراثي بنسبة 7% - الشرق للأخبار",
+      "link": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxObjZublNFSkhvblR5RXJRN3g1LTlYTERwLTlaeVRhbFJhUUQtUEtiTlpHYnVTRmF2UlJkOWNZcWd1RXdKV1llZEFmS0VUWlEtY3RaMVRSSjFrRFdKVWRhYm90VllvZVJuRDZNd0J2TGVoU0NSdkVPTXoyUzdiWFdxdGhXdGJFSG9RUlR4aF9kdTFqQnFvMUkwTU5qbFN4UzlhNmVQRUYzelRQaV9nQTZtMEczdnJHMHBfVWY2MDNRUURHMDNIYnZ0RnY2aERRMXhJRlVBU29na2hPN0p2RjBHQ2V4M2JmZlZLaGFCSGoxSF9pQVRSQjYwakFtd2haSmJvam9yR2NVZjVGa3NoZWJhQVlvcWQ1RkRBRm92VEZPTFRENUdqYXFaSEljLUZwTmVUTTdVX2lmV0NpMWkwVE9WcnhjX2ozODU2YTI2aEdNb0twcVA5a3lyZm02ZjgyZW1IZkJZbkJuTXUwZ0M0eEFOY1M3VzAwcVlSbkZfaC1SWHBsbThLWDBSVHU1V0hXWnZld2dSV1J4TTRadndwZ2xpZ19DcktwbEVmRUx1Ung4bnM2cmNSc0c3aHNzU0t6XzlyS21RdUtKV3E0MmpGZk9FUTZDVXdJNzBWSDdSVkJyaw?oc=5",
+      "published": "2026-09-03T09:39:41+00:00",
+      "source": {
+        "name": "الشرق للأخبار",
+        "url": "https://asharq.com"
+      }
+    },
+    {
+      "id": "50fc7ad13244",
+      "title": "علماء أستراليون يطوّرون تقنية جديدة لإيصال أدوية السرطان إلى أورام الدماغ - جريدة المدينة - جريدة المدينة",
+      "link": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxQUGZDM2g2cGNiVFdsZF9CNEw5aURyWFotcGRnWnJyWnd0TzJxTG01ZmdheFZXYUp0UG4taGlkRjhOSXdzRWd6MzZLTDI0SWRWMF90Y0kxQ1dVazV2Yno1ZTdmV3RVSkNiVzk4bHhpYl84RjIxUG1Fa0NaWVBjWERjeWNSUEgwZzVDMTZRbEdQazA5ZTl3blFJUmMtb29WYmJGTVBEWFlMNm5CX2U5ZjgxYnVLLWJuUDJuUHltLWFlUHpjVlBzdENFNkozaTBUNWgzXzIxU0NZdHRNQWN2X1l4c0huREROY003TDlmMmRyM2R2blZkQmtmSnVjNEpoS2tWLXJvbGlKTGJqcWhTUHpkOF9CR0JuY1U1NzFZT2t4N0ZVaURocFYxc0g1UG5YRDhmRHN6MnZNRUpxMnZ6N2ExaHZadzVxdEVuLUdVU2U3dmk5UXptWlhkSXFNb2VqOThaWjlPaHMyYUdSWGtkTkp5R2ZFMEVfS2thalEyNjA3UG5qS1lZLVBuaS1pY0t1N2Z4RUlYUllHaTduWU5yM3R3Ql9pYXZaLVprS1BEbjdLa2VDSmtMclcwUFRVa19DRU9xOWJYNkVfOUpQdlhhckx5OVMzalVIRUdJX2pTa096U2oyWmQtWndEekhxLUpycWdYUVk3QUZNZG9EcFZESVVwdktMdmN3RjN0UkdRNFlwQ1ZlYkpfOURqb0xERnBUMXlYTllrS3lZTkctU0NQSXZYdVRMSS1VY05TQUZBNV8zWEp4VEdxdVBhN3ZyZ0V6cUFYWjdIQkw5VVU1MTdSbVVVSHpmRkZ5Sl9yRlRr0gFXQVVfeXFMT3hydUdqMjcxU3doZlBNT1FxSUtBUUVSdllpejUtZFRSM0RFNUlQLTZXLWpGVE01RzlvMERzQzdTVTczdmYwT1VkSmF5NU8tcHNGNE5JWnRn?oc=5",
+      "published": "2026-09-04T10:16:16+00:00",
+      "source": {
+        "name": "جريدة المدينة",
+        "url": "https://www.al-madina.com"
+      }
+    },
+    {
+      "id": "e8c47287d8f5",
+      "title": "باحثون أستراليون يطورون تقنية لإيصال أدوية السرطان مباشرة إلى أورام الدماغ - صحيفة سويفت نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LNC1jQjFoVHVrLWdEdmljM3p1cWlnUGV0bmhiNFE4RURSSy1fZmpGdnhuUU01OFFpMnVyRnlKQWJ2RkI2QjdCOVFkVXNmUQ?oc=5",
+      "published": "2026-09-04T13:50:00+00:00",
+      "source": {
+        "name": "صحيفة سويفت نيوز",
+        "url": "https://swiftnewz.com"
+      }
+    },
+    {
+      "id": "e1eddd99d425",
+      "title": "تبرعت تنزانيا بـ 52 طناً من الأدوية والمستلزمات الطبية لجمهورية الكونغو الديمقراطية للمساعدة في الاستجابة لتفشي فيروس إيبولا. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGlhakEtbGlqZU5YNlQ2Um42RzlIeFVxM2t3Umd0UkRYcUhYUXA2OWkwYTBKZDY0bko5amcyaDNCRzlhN3o3azVqeGlKMEJVdnFISmJoODBGT2FGdm9MV0dIVU9lUU9aUHBVOW10MVRSMlBoXy1QMnJsNzBFYmp5OFlJb0xFSFNyN3VjcnlDMnc4MldGVlJoWmdUSW9KVnlreVJmLWVMT08?oc=5",
+      "published": "2026-09-06T09:23:33+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "a499e87f3b59",
+      "title": "مكون بسيط في مطبخك ينافس أدوية الاكتئاب - العربية",
+      "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQX2luVXgtM3lxM1NZMDRJb2UxOWN0YzRmTklUcTVTeDM1TmpqT1pVeFBXblFEY0M5a3FVSDNwcDhIel9PZVFEM0UwT1VVemhiR2pwWGdQVzhuZ1c1ejYxRl9hN0plSnpSb09kV0NCVkRUMzNiUlZGbjJtWXJsMUtpMG1XV3kwZ0dPVlZnaXQ0MkpVNXRPYlp1ekZHYnEyMjBEdURnZU1JX2c5SWpNSTB6NGFtVUdqRXN5UjV3TzZsZkNNemtXOUdpRi1yVmNvQ291elNfSm1BaDRPV1pJVWFGYkViZFpUbENvX0w4ejRMMWZac1I4SmJ5eEcxU0xxVlp5Yk5CdzlIMzZuTXZpeTJoUklRdlhQdk5GY25SbURqRFNWemo3Ni1KcWIzckJEY3BsY0ZDSkF0VktZTUZBaTh1Y0ZHTjlIZ0FWd2d2YW1HZlh0YWFGSTBoQmNlX1dPR3dLNkJVY3lkc296d0VkVHVHaDBOV0dBVUlF0gH-AkFVX3lxTFBaMUVDNEFDeTNOOERTU2xGZ1JQWXdYMEIxRWxJdjNtdVMtM1NCNVYzS2NJczV3aEszY25Ca0tJemFueGpoYm1manVKWktPRU5xQ3k1MFR1VGVXdkVSNFBQaU1xZVpueng4UVNneEdLVXN5WkhaZHpEYl80QkdDaU9xLWNKUzMybHVOTEItMzVpVGdmaHJ1aDRVT0VvTC01OEdmYzV5MEZVRjRWZVBkYkROM2lJY2ZSRkRnVHAxRXpwa0JQY0NBTzhTN1hFaUxwdkxRR0RqZGZYTVEtM0FLV3BxY0tWbGtyZzJ6Ylk3dG15aTZGYjNUQjdsdVZFMnFLU2dhN0ZqNzBaUXdwUlBQaHlmWWF3Y0FlcU52YTdKUXJMdGdkaVJPUENlaGJyZkgzT1dVeXhZUEhfX2NWTE1pa0t3ZU1qaE8tcHZNYnJJeTFYN05JeXpHUFg3eGRmU3RWTERsTDZZdHJabkNCSnVrcllzT2FEOTQ4MEJ3R0tqdkE?oc=5",
+      "published": "2026-09-01T11:11:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
+      }
+    },
+    {
+      "id": "0f71f45e9af1",
+      "title": "أدوية السمنة الحديثة ترتبط بانخفاض خطر الوفاة لدى المصابين بأمراض نفسية خطيرة - شبكة مصدر الاخبارية",
+      "link": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxOU1lJUEU5RXN2VVZlVWNpSmVTMHlrdVlqNTFXRnB6YURSWmpDSVFIb0F1d1c1SGdHNTV2clZoWnkyRVl5b1NaTlVUcnZhQjBrTXFsaEFodllRTndzNGNIT3ZGR21CTG5kMi0xWGRyUEkyM0MtN09OUEVvakdZOGRYdVRXNGxDSjdlNWRRUWpqc0pWMEJXQ2tWVnJVdDlnellQWjVwSzlMa1h0NWphM0N5c1BhSTItX25WcVZqR2NBOThRZWl2MFV3WWlMTF9UYVVRZjJpTFdWeDVzWUlVb0lkaTl1Tk5ranNpaWNpb1pIaDhSUmtsTmV4eEtRUFFFWF90WDJiYURVSXc1T0J6cDdfbzZnZjFhZ0h2U0VFbFR2XzZxdkl6RlhHWU44M2VOWmRnYjNXMFd1eHhRZlFab2NHQ0hPM0xMYWdDS21qZUlkbzdHRGNLekMyM3NaMHd2QzJIQXFPNTVpcFIyQnBlemRXajAzRm1pRDkxXzVkOUVqWlVKMW9pNFc2VzlJUXpjMVhVMF9WMWdSY1ZiM2JaRnJvNktiYWN6YVlYcU9wbFBpOGdhQUxUZ1UyU2xnM2dsMWN0bDNWd05LRnZ0MzNoS2tCRzBVOHJEdFRRWDF5Z3dsWUVYZzhJZXNMTkI5S09VSTJXSjhsNmExSE01TmdIaFBkZkR1WWtLZDl1Z2F6MlVCN0R0dDAwVnlzMTVpcWJQU1dTazZLSGxDV05fRmlwTjQzU3h4NmthMUxpVGowbjAyYi1VdGp4TC0wV05HcEoza2lISkJiM2E3VjNxQ2hoOFpSbQ?oc=5",
+      "published": "2026-09-06T07:46:33+00:00",
+      "source": {
+        "name": "شبكة مصدر الاخبارية",
+        "url": "https://msdrnews.com"
+      }
+    },
+    {
+      "id": "f8276804de0b",
+      "title": "تحديثات رقابية مشددة لجداول المخدرات والمؤثرات العقلية بالمملكة - جريدة الوطن السعودية",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40ckw3b3BwOVhHMlRhTXBrSGd6N1VEaVphSmNvaUZGbHJQdDJVRUEtYUMzenlIckJia0gxN2VPdzd1X0hXUGY4VnhQc1NrVmp2cUltWdIBWEFVX3lxTE9JLW8yaFRjdy1RbTdJUHl6SXRNQ2NiMWpWcVhKa2NTaVBQaWxlQzd1dlROQl9tRGItbk8zRzdhTDkwNHBubjZHS2taYmN3VWpOVlJPSUVuUWU?oc=5",
+      "published": "2026-09-04T13:46:00+00:00",
+      "source": {
+        "name": "جريدة الوطن السعودية",
+        "url": "https://www.alwatan.com.sa"
+      }
+    },
+    {
+      "id": "1fa136ff4c07",
+      "title": "أبعد من كبح الشهية.. تأثير غير متوقع لأدوية إنقاص الوزن - إرم نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ib1g4TGwxZ3BxU1dsUS1mNXRKZ0taLVBoQTl2NWtMSXlCTjBVSTZJNUg2TVVFa3BQT0x3TFZmRy1NUUo0ckZLR210azJ4SDRy?oc=5",
+      "published": "2026-09-06T09:45:10+00:00",
+      "source": {
+        "name": "إرم نيوز",
+        "url": "https://www.eremnews.com"
+      }
+    },
+    {
+      "id": "27452cbf4f50",
+      "title": "الصحة المستدامة - أدوية إنقاص الوزن... هل تأثيرها يتجاوز خسارة الكيلوغرامات؟ - مونت كارلو الدولية",
+      "link": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxQYjNtSi0wa244XzNLNVVjVFU5c29VNnRfTlF2VWZDQ3QydmlzeTlUVmd2bG1XOXFFdnBTYjNKLXAybWZkUjlQeXVBZmx2LVZ1bWpsWWJ6ZkNFZlRjeEFxTmctb2d2MGtteE5rdm1sSTVrZHpaZXo4UmhzVmo5enlyYlNlVkZNdXVueHU1d1VTN1V2enpXMnBZbFFqcl9OTmdpUU53V2tHMzE3clNRc05DV044Z1IwcUJnY0w0TkZTMlJqaEJvQ0hsWkFNbEJiZXd1QVJFeWRGUXZ5OUZCS1ltN3otVV9HTldWcHRTZVhDXzE2NXhLOHp6SXBJcDZYdFFnRFlUWVpWRUNEaU1IeDdOV2FrSlFVeHkxeEs5Q0tQbmZ4MUphS0JXLV8tdWpLUDBHZ0wtdTBSaFVOYzFUZTdEWmhFNkM2azR5NXpFU0NZZmVyODF3dXVyVlc5dVFVTDZ0V1hqWnpjbG9zWnY4M2YxajNJLVgwUWZYajB1RkJ6dG9KTFVRMDZlUHJ3QmIyd092aVNTX1kxeWlOZXctdXRFMUJPM214bGg1cDJFajZjN3FKQmR5cVhMUzZmTTQ1SG9hTWtaWC1WM1p5anQxMGtselZoLXBOSmZacVZpS1owd0Q1alVtbFp3cmRtbzhFVmcyLXVGLUM0Y0E2clp5UnlaanlvdXZvNmhEYWZEbUpWTkhKbVlOTHY1QmNVT2pLVFFwLUZpdTBsTXpvY1dKN1lmSGpkcjlMN2o3V0xVR2xoR0tZbF9lZXF4OWtWLTJhNXBJbms5VkNMZjMxbEtPZmZMX3JQR1JoWVJBRHAw?oc=5",
+      "published": "2026-08-31T14:50:13+00:00",
+      "source": {
+        "name": "مونت كارلو الدولية",
+        "url": "https://www.mc-doualiya.com"
+      }
+    },
+    {
+      "id": "a2429fb5f581",
+      "title": "تحذير دوائي عاجل.. مستحضر مجهول يثير مخاوف صحية خطيرة - عين ليبيا",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNNkY1MnpvVWV0T0ttSEJtTnV6d3loU3ZCd3Z4dDJRLURtLWZ4QktkVjNGbDFfWnlYS2FzSWg1VG1RU0xMRnZCU3JiNFpVQlNWRjhCbVlNRDFKcUlDVnJucVBHdTF4cGs4clFiaGRTaFFaM09tcElqSGpMY0FjdmpubkgwUG5BVFpEczZUSEs5S0RsbDdtaVdNQ0IxZU44R3dJcjVZMjNLeUUzRVpmN1RScUs5d2F0Ulo4VTZwd1J4YjNGWmJlZWFPc2xYUlc1NE1hV1dYd2VCYS1GRkd6aVlwM2xSTjNibHdiN05YN3g3b3ZUQzlDZEl4bVhrTVNRd2llVlVubWdHN2lhSUNaT1VnRHI4STFGS1hmODM1eTM5aUg5QjdzdXZaZ3EwV1N2NFRJTzFPalJ4U2tyUnMyX3M4NzB3MjlJVUU?oc=5",
+      "published": "2026-09-06T10:25:06+00:00",
+      "source": {
+        "name": "عين ليبيا",
+        "url": "https://www.eanlibya.com"
+      }
+    },
+    {
+      "id": "7de2ba87e93b",
+      "title": "دراسة: أدوية إنقاص الوزن قد ترتبط بتساقط الشعر لدى الرجال - صحيفة الوئام",
+      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOcWQ4cGU5QXQ5M085R0Z6eWNLUlVwZEdqREtKMnY0N1hNR2VvczF0QWYxTENGdFZFRmRZRkJvX2h1Z2xNQ3hXVG0zNjllbmZzYWlrQXN4VU9NUVlPRkRlTEM0Y0FERVNUa25ieFJRNS1ZM0pjTzhOcXZIM3BmTTdRaWZ6TkJCSVVoQVNSY2tHd1otMlJPZzh6MnBWV1Y5SlJkbzRJV3hWOFBya3poMFNnNlVaSC1ZQ3FSaXZkRHR0ZDZtZ0xUTnU2THBTVlU0Q2U4R1dJLVRZd2pONS1ZNXc3ckVka1Z4ZTBfOXRoQ2dwM1Vvb1VueHlOMlpZSm5WX3R1TVR5RHYzVXd6MFFIckxYSDlrRWU3elJteGFwQ1JLOFdwYW9xQ0s1RW9oei1KZHkzWnItYk9FWXpRUm1JdkJPZ0ZOdkM4Qi1mRzJ4YUhVWGRpMVdtTUN5THJ6QQ?oc=5",
+      "published": "2026-09-06T16:35:08+00:00",
+      "source": {
+        "name": "صحيفة الوئام",
+        "url": "https://www.alweeam.com.sa"
+      }
+    },
+    {
+      "id": "20bbdea1f1a6",
+      "title": "نائب: أزمة نقص الأدوية وارتفاع أسعارها مستمرة رغم زيادة مخصصات الدواء بالموازنة - صدى البلد",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3b1hFam5EdWxlZXFPRV9LOWJOZVhua3hsVUdpUDNUU3pIeE52MFMxemZFcFBRMUI1Q2dvMV9wdjY0NHNtOEYw?oc=5",
+      "published": "2026-09-06T11:46:00+00:00",
+      "source": {
+        "name": "صدى البلد",
+        "url": "https://www.elbalad.news"
+      }
+    },
+    {
+      "id": "9bb1ab988d8a",
+      "title": "هل يساعد «أوزيمبيك» على إطالة العمر؟ - الشرق الأوسط",
+      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNcEVvd2pyUUxKLUoyWExPaTlZXzVOVWNtSElEd3dLMDBCLUxfRXdBSU5zNTVvN1FFSDlrNmIwblE2eVRzWlZXSlM4WEU1Uk5yVjNvM2FQN0lVRWRZbHRpZHAwWmdHSEM3SGlaU3Q0UjRxMVFBZDVFN3NvdXlSa1hnWkxfWVBkcFViRmJvakE4Z0xKVGhNQmpjTjVzTUh4cWhzX1JWSThqTVRpMGxHOWc2Q1k3RjlYcElKT2FXYklYUkpHMUdkTVJ0bVVza19KSksxcTI2OGxvM1AtemxmUGxYWFJCdUY3RkpnQ0xHM1J5Ul82S3FBbGc5alBWMHBhdEVPUUdlN3VseVFyYUtnUllNQWg0V05FNDMwRUR4cXlJdXJTS3YtdzhoMC15OUZWTU9pelozeDhBeXNHWnl0dlpSR3ByME5jbWoxZlBrOUxmdTU?oc=5",
+      "published": "2026-09-06T07:33:38+00:00",
+      "source": {
+        "name": "الشرق الأوسط",
+        "url": "https://aawsat.com"
+      }
+    },
+    {
+      "id": "e031e76c991a",
+      "title": "مونجارو.. أدوية للتخسيس تقلل مخاطر القلب والأوعية الدموية لمرضى السكري - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxQdzF4NHl3UDJsUVFadTJuNzQwWTRaN01pMTdXVjc3VTJUVEg4SHI4bm1JSnRJVnZhTTdhUUdJYWRBMFZZTlp1UHNYZ0s3Qjg5Mk8xMHMzRi02d0JLMTNyd1o3amVOX2N0UGhidk5MaUoySjZXdjAySmpkVS05MXlhdjF3V2dINElPQ3lEd3M2V3AxZ3BxVV9ZRE5iQlV5ZVNWSFQzTmFBT3VIX2E1LUZHbUxvX0FtVEpyYlpQNFhSX2ZyVkFYYm1XX1BzU3JjUkt3cGt4MnNWV3ROdVZOQzNJQkVNcTNOOHpBYndXNENHSk95dVhQZGRfd0EwLXZ1R3ZjRjQ2SU1zZlZQWW9od2thZk9IVnlfeFpycEFQbll4YXVVZjZJOUNUTl8xR1F4VWcxSnh1OWwzRk9zUjF4U1ZUaDV5ZnpuQXA0dXpDUXN3ZUtoX3d4bkVNVE0tTGdnN0JBOWFxTS13WDBEOFpFM2h2YkZTdUk1NEdYUHFXa29LMVJuSFdJRXZtQlV4cWxOMkZ0NU5sX0g0M2ZTRkFSa3d0Q1RJcEVKckgyaEh6VlV4ZjBlbjVBNjdMZzdoV2FBa29GbWxpMUZwT01GNVBIYzhVZDBVcnk3OG5QZ0Z2Z3lWUC1iLXJPQktiRVRDU0hMQldsdXhXdmd2Z1Q4dmxnRzA2ZmU1cTQ0d0VfODJlREs2cFNUNGVYVUtPckNuVFdxbi13ejdIY2VBUGktUDlJTXRYZXk3dkZ0S0RFZ2JpU05La1NWMDh6RUlUN2l3OEJjYlF6bFFqNzltc3FLZE44bFpaMzRGYmVKZEhkV3fSAe8EQVVfeXFMTWFPc3p1TVlhVTVkNEpsQ1Bwb25rNmxMTGg0RUpfVG9mOVdueW5lMnlNN3A0aWZ3MUVIVDIzSm1DWWRGaGt2TGQtaExJLWZDLXBtRkRDSmt3OUFvYU5QeTJQbU9lSkpVVVo0Mk9Sa3Bkb3BINmRUOW9DN2hwM0kyNVRqR2NLMTZjNEppRDZoWWRrMjdvb0d1MnNtdDEzczhjS25TVXotUk1yYzdLd3VheGNVWExFTzBGVUdSczcwT085TE53d1NwTzg5RHhYdTV5NkhEVER1RExycThxaEN3d0FLbjUzcU16TktlWkRxNTVZMWJtdUpUUEY1bkU3TjRZYUpZbnA3N3hFSGVNYVlualhSZU9uRUxGa1lvUDkwR2M1aWp6YlVidFoxZDVnZUVwN21qenlZc1JaU1NILU1aTjQwY2pIYUxYNUI1TTRycmhpX2dTaF90V2tNbHk2cktpU2VudDA3VkQwenNvOWNYMzdzb2xHTW4wTDB6NlBIRU1uTkdweXhPS1NZdWJSRFZzVjVhRkFQSjFJRmlEMzhVSERhbDFCdG5fUmhWLTlFT3FrdVBiR1FoTnFlQ0RBVkF5cjgzWUJ0eFVlRmExS2Jha1FHbXBzS0phRVBrOFB3a1ZfSWgya0d5Sm1tRjBLelZLMFBLbU1Zekg0OUFoUVpieTA1YWtTZ2RjTXJpQ0VuY3dIenVlOFFaWG5IN0FsOTlrZlVPaWYyRDRBZUdHZEUxOGhyYUo4aThCTFB5ZExqV0FUVTB4WnpCVUx1N2k2ZFNmWGoxRmRha2pMWU15bEZMSnVMVm5CMTZPSFBjZUFDRms?oc=5",
+      "published": "2026-09-04T11:41:05+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "4a4678587d7a",
+      "title": "فخ الرشاقة السريعة.. حين تتحول \"أدوية التخسيس\" المهربة إلى تهديد لحياة المواطنين - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxPa3AzSjZzQllPR3poTENwRTdqdWFpWXdGOHJqUWJ0UDRSaUlBbWFqNTczdmZkX0RMZFRsWEFfaTF3dWhnZ3E1OUxHWnJSeTBsV21FeTh6ZEZrZ1VIcXdValo1M2VCbU9XQS1EaVJ0SHA2eHE1eTdBdjhJVk5Mem0zSF9qcDItT0liYml2VURRWHZFVUhmME91V21ZenQtSlFJUzYzMHlrMnlVZjY5ZGdJYjcxa3VFYzVfdW5LbDk1dDRiM3BtMXA1TFRNX0l6SkZpR25oaFpNZ2Q3YmtNaWx6Ym9BRmtxWXVGTV9Cd0pRVmtYbXBrWEFxWm94SEM3Rmk0MFRUcW9CSGdNcEI5ekZfOXV5ZFBjUFYxX2ZlZ3dIVHZ0WlJIcWRnSTdySkVYcjRJdVdNOEJ1N1c3U2czdTktbkNfeGVCeTBHLVRLeC1uVGpQLXFmQnpoWXcyTnE0MTdzSV9YZUQzQWZBVWo5V1Bra2daYjl2aTBid1pLeEtiU29UWkhpa1hYVWhsYnNIWlRCU0w3Tnl3N0NvRlBROGZlN1k5ZEU2b2I5XzFwd0xrOE9kazlVemJPeHlJQ3d1NHJyT2hKTEhUNmFJWXI4TXBubFVYUHprcG04WGpqcng5UU5VREJuTmlia0h3djVlY29rQjZDTThWUmRLQXpu0gH3A0FVX3lxTE5URnV4TUUyRk45NGRjWVNMQW82NWl3MVUxT0oyazZMSFlHX1NHczlKcnktUlFIV041U0kydzBVMUdOaElVQlI2Qkk3VVh3S1dnQmZndzQtTFZGdHlQcExUSEdOcGVxamd3eXNWSEd1dTJMT3lFNjhBaXlKcGdIazg1aVY0RWRQY21EUWJqdmZhLVNlYk1BbHhBOHVsZ1kwVTY4NFVVOXp4XzEyTFJULTVNMWtkR09MQjVlVm1JLWNXQmpvYVAyYW1ybS1GTEtBT0I4UkFjZEpNYzRBR0g0WTctcEF4akpKd1dqaVM5akNNVW9CaWhjaEpDN1IwWmVOTHJGUWJsVm1BNmxSZ19TckowSlQ2RUtLZ3p3dk0tR0FuSi1LN0RudlV6eVFnUmZTZDIwaHNDU2NCQjNVcUlQTWpLOWJNQ3hSbkllM0F4SmpuOU91NF9UbzZYZWl2RXhRcTkzMzVvb0ZQcm55Y18wNXNpazBFbmswVFJGRXhybEdIM0dFTnp5T1JDZHl3YU5zUVROdXZRSkhMN1F4SVBDeTMtSU4zSHo5SUdTLVdteV9nUkZnenM5dmZiQVRKWjRwbXdsWC12Vm5jZlk5UXV5MGdvUXh1cWMxOW55TXBlV3pCQ09CSjBYU3RDU3JsazRweTd0SWx4LTln?oc=5",
+      "published": "2026-09-03T17:00:00+00:00",
+      "source": {
+        "name": "اليوم السابع",
+        "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "4e7b58ff3512",
+      "title": "أدوية السرطان تتصدر إيرادات صناعة الأدوية عالميًا.. وتوقعات بنمو أكبر بحلول 2030 - العربية",
+      "link": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxOeVM2MUJfdjBpbXlzbHpXOXE4S0VqNXhTQUU0WFhUT3I4RE45Z3o2RDBDN1BVNUNDV1lmZFZkTFBJcV82OVNxVUZPd2JxRU1RQVdBcnNfbDl4YlpLUTlUR2FOMFVKN3AwTnFFeVpZcmpkV281YlZvOTl2TWktdVI2S3RnMnZHYUdWa2Q5SDZIdERQNFJjMGdPR3VmZ29WZWZtMHdXMTJnZnd6d2J3d2NwUWNuSjV5eHp1Rnlyb2lVbTRycmVxZzExRTh6N3JDYVpvd1dNcUZfQi11bDFHaWswVjh1Qi0wU0tZNkdrcnhCQWlZUURDblFMRkQ3cmFlU3dlM2VpVjhMaGVNTmoyZmtyeXRVNl9jdkVMQUNGcmNPZE92MGIzMmVzczNma1JnZlg1bi1fYnFfOGxPMHZlbmxUX1JFaldVYm5aMXVzTjMyTnlma1J0UThUWG1oYjRNNmFkakI3ZWtSU2lvWHVKSl9KOUxzTERnWGRFUmNGbXdsdTJyOUNXbFN4SjZ5TkZiMFd4aldqMWRSTHI1cE1BaHRkRXRLU2tSNmY3SVFLb2lNM0xzcWUwd2FnYTc4eVJrTmxYZjBEM00tNjRVRTZYVDFaRV9hWXcybEhfeV9YakQ3Y29ZODRQYlBVeDFNWk9NVk16am9Fa1h3bVhxd3NsSFhzQnFnc1FiRmx5UERiSkdFbkRxLUtuUVY4cWJFSlpibXR0LWZrQkdWb3NuRW1JSEFtemV5ZDVIM19oODMtYnNCWHNIOUpJRFdfVWtsdHFRWUFNcTFNS1EwTTBfbEljZTZHSFRsdm81RVFHMG5IM2hn0gHzBEFVX3lxTE1yQ0pUdWxqS29RVUJwalMyTEk3M3gzd1BRTnZsSFBaTGg2dzN6bjNNY1NsZjB6UWl3Y2xpdUI0Y2dLaEVLXzYyQTFoUEhXUmRRZHlhTGpBbl9naWpGNWpWUHdrSVlwemtpR0hlb3ktZ3B3dGE3MGlqVndFbDI2S0JYQlpwZkNIZ2ZXUWN2UWgyaUh3allJdnRiSWtJQ0ExM0pzN0dGX053ejVadjREY01Ldlh0dHF0OHRaU094Nlc0c1BUejVEY1NOQzlYMy1RVjlNYnA0UjZGV2RMWm1fcnB2d0U0LWNKbnhtcUw4Q3dsdlh3dFhvSjRMNXlGbnpBTWJmc1d4eTNiWThjTUsxblVLbXd6TmZUNXozRWdDYjltdWNnRi1sa2ZBNk9aU2pieUFnV2hOSVF6Z3ZyUlZXQkxuczFtQ2RiZHJnN1lfRjJBeGRxZno2R1hIakVOVW5wZzVUcm5iT01XOE9XR0lXNm1LOFBZVHN1M0NIcVZ4VDdYQ3hVdTRBZmlvWlkxcTNLSF91V3ptckJGWGlJdm5wdG1kQ2dTaF9sRmlRMWVuTHFPZzNxaGpUNGhRUHAtR0M4b3RLcHA2QVp3aHRwNkJJWUVnQ09YTjF3alBjOFp5ZWJicjNZN1NtZ1JQZlpfVm5tNXFySTl0N0gyQWcySTZDUjVOZi11VUVraUVsVHVnV0dROVc2aVdydFd3djFXeU1MWjVQTTZzOTVWVmUwcUpNWlQ0MDBkSmxRSXhsVDFLLXg0dmFzM1BzaEVZeU5Mek1wVVVsWkpINlFZVU1LamRSV05JM2lsck0xWXROWkNTVFhhQzJBYw?oc=5",
+      "published": "2026-08-23T07:00:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
+      }
+    },
+    {
+      "id": "52249652c5e6",
+      "title": "فضيحة الأدوية السرطانية... التفاف على المعايير الدولية وأدوية لا تستعمل في إيران ومخاوف من استبدال العيّنات في الخارج - annahar.com",
+      "link": "https://news.google.com/rss/articles/CBMi5wZBVV95cUxOd1hNSTYzTFh6Nnltenl3UVF5T3RDRnZFUVFjU2RLOFZnSUNabU9HcW9WVW9QMG11TTB2OFNmbHFhWE16OUx5SFFIeWdLYS1Kc0JKa3dYUDBKVUZ1d0hGTVFEZTRnOVlrY1hqZ256TGt0cXJIdmtmLWVBYU9hVEhHbDdkUmx6OFZwd0VSN1VFWElTaE1LdGt3TGhMR3p6dUh0ZWt6MEpxTDVKS0tzZHpVM0sycVUzcGI4RjhpeGdrWkhTdlByelQ0RGVvb2RkcHlhd0JNNDQzTm54YVR6OVhtVWhWZ0xNTl9pb3Q2UFoxYzI1bXNrbTdQYWc0MWNNaC05N25GYXVKbXdZMzFWeW8wQTJ1c2dtZTNfUURVNHNWbWhPUXJUU3MtZ1hWSXl0dnQyR3hhNVdNbE9GUlpHb1hvTEZFRUNvbzRYbS1adnlUdHAzR1A3Wnl6OUNiWi1kT3NSTWRLSkc1VmlRa1JfSFgtdGE0R2thZ1I0dUpDcnNEVU1YVlVaZnpiYTJ0T0pOV1BMNkloQlpxV3dZUHg2Z1VKXzBVUFZlTl9WOHZOY3ZIdlduak9uQlZLaWg0azAzYzBjTXJEdUh6Qy16WjZXc0JNNXk0b05tT1FWQjNndFlmWExINmVGYWRkUEpHNVdOS2hUMHI2XzVQNkdUT3NWX3JidmlmMkdab2ViS1lWYjlSM0ZMcU9pUE1EQlZRRzM0bUpVSExlQlFuc0VrOGRjb3ItekFpRFZNT3ZUMlpIVXBrc1ptQlcxd3BEQVlMSzU2VHZRODNUT2ttN3YxTEJnUG5oSzJWTk5ibi1zRktTTndqekEtOU02ZzZuWDBGTkZ1YXNUeTl2b0FxUkd3S1JDVDJqVHVDcVJ0NjR4eHdhcEc2TzBrQm9JV2FISktmWGxqMExkaXE3NmVob0JaT09aM2MwU1RVT0VTV2E5Mi11NXczamo3TWwyS3ByQjZBMk5ONzBpcUF1ZUVHZEdjME54dkMyazAtNXJPVFpWb0NidEJMNWtHZHgwQVBqV3lqNUoyWEw5NDJnLWNLT05kbmlhVmI1akI0NmFzOXpLTnRzNy1WbUVybUFlY2JNQXozbHhKTm9oc0FQXzYwOEJBMEQzTjl2R3dTc1Z2THBYSmllMGlweV9Rb1pXMVVz?oc=5",
+      "published": "2026-09-03T11:29:00+00:00",
+      "source": {
+        "name": "annahar.com",
+        "url": "https://www.annahar.com"
+      }
+    },
+    {
+      "id": "9af3a638d48f",
+      "title": "نائب يطالب بإقالة وزير الصحة والتحقيق في إنفاق 90 مليار جنيه على الدواء - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMizgRBVV95cUxQTUtZLWFmb09sOFkzTzlpTVZPdFRFbW1LbW9Zc0ZyLTk0OUlQNXA1Um5SVXVRallKUDczd2FaRW5QdERQWDVEX1dyenA2MGpYZVE0eGFfZTZhekZvU2lKUF9aTDhVZ2ktSXNkTWxZNF9EMjMtZzN4bWNXRXp5ZWlBZFExSU85d2xCdmFGRllfaURfVkJPSzJKWVhJVFJfZk85aE90bEV1Rm5MU2JzVmRqUFdsRFVKWlRDQXRKeHJBSkdfbjJVcXkxMnZLbjZJcXhjdU9MbDRMMWtDOEFwZE45aV9QR05wUEE5ZUtHTGR3clJZTWFTb1hsSFFNZWYzMVE3YXRUX3RIRFVaM2paVmR0RkViczZLeG90RHVqVlFPRUZVOGJvWkN1RnNJSEhvQzFickt6QjlPNEw0eVRZWElOZEVWS3k2VlpCWEdxOE9ud2F3WWlYaURMUkZsTzd5SnhpRVR1Mm5idmtyLVY5VW1kUUI2YlNmamZHQVFXSDZaaGxZbDl0dkJZcHFJdFpEaXIyNDRWVHBGUHFVREpNazVxUnJ6TlByWXV3WUR2T1B3dlkzTnVzOUlsLWp0SDJpZldhMzFIUDBBbTNUQXM3bjNITW91OUpYemlRczJtcTRVcnhJbGlmdUhaR293eF85blFUTjFZR3lRcGV3LVFLQmpaalpNY2ZwdTNoRnU0NXBGRm83ZDlvbFRWU09zUjJhUC1oUEl4SkJQQlcxRS11cmRVNkVTSk51bzJTbjZUWHE1RDBaOURTRHhoSzVONXZ4QdIB0wRBVV95cUxNTzFOUkVNQXg1d0FRSFhYNnlvWmdMdWVrYkNFeHhIeS1XWGZzczlkWjBUbUk5TlB2UEZDQWQ4OVlZME9yTmw4cDNRb3ctdXhta2FXZE1IUFlRdHRxZlI1bUQ3YkcyVldZZmN5Z0Z1RUZTdlF2c2pjVnlheExrZjl5QnFObFRDd0dZdFc1RlV0ak5pbmV0ZDBSeTJrV0FuRVJOUlM3QlNodkJ5bkR4dDFMdGJ3UXhWYTdHOGNQTVQ2dkU5TEQzcTEybXBPTmdfVW9NWGJDY3lPaVRZUDVQVTV4Z05EQXNJOXZick54UE92clc1eGc2T0Vwczk2eG1KNW5nQ2M1WEFadndfTXRBbXJwbk5rZmVzazdsNXgyOFFCTG4yVnpxRk5HUktiV25sNm51V1lxOFhhOGJXN05VYzZ4bG9QT2wtMUdWTG1lZ0VkbFl4SG1xa0ttVmk5VzFHcTUxbndHUjdoamRiZFRROFFwbXBBczd1Z2FsUHpLclJwcHF6eDZPZjQwcFFMZURZeTdnSV9PRE9iTGktZi1WMzNNNXBVRzhvaGVBOWpRT0duTlgwY282am1RcWJSMzdGenYxeUlTNmVMZUtGRnpxQUVTbW1MUXJoMGc1T1VXZWY5b1NyUFBwb2Yxak9ZcXRPVHFGWXBzWUVJR0pwOVQwZ2c4RlRxTzY2cmR2QjlfZkVwdlJhLUkzWXdtY0lMUzhZdUstNWRjelIyTGt1aUl6ck9tYzZ2Q014bjhySTMwT3RtVTJYdGRLajVBV1RHNTJ3RjRpdEZz?oc=5",
+      "published": "2026-09-05T23:00:00+00:00",
+      "source": {
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
+      }
+    },
+    {
+      "id": "ddb8d1764499",
+      "title": "الرقابة تفتح ملفات «الأدوية والنفط» والحسابات الختامية و500 شركة - عين ليبيا",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNVzBGdWpSWUF3c09pVlN2RzZLM0VmMFVHZ3dIZTJmaUFGaGxJS0JfSzlEejBITkFKUVBybVBseGpEa3djcFNhemFxUmNqelVKNmRRRTUtNUNwUkM2LUhUYnc4Z0ZtRUtua0RCeWF2dWozSDY2NDEzXzdBemNMT004QjZCMlZZSE5TamlQMmpFRXB4RkxGcXdBS0pUSTJib2t0aUJEY01nQTZIWlI5MngzUjlDMDBsMV8tSDV1WnFjTXJxYVRQeWpYYTFQT0J5SXFabTM1dVEwUG1kdEpzWGY2akEyd0tJUEtuaFc0WGJkZFBfYV8zMWFTNzNPand2Vmp5OEdLYVBPQ0tjQzVmdGZ1ZURrQjJOaF9XRy1wcnFzSHVfYVcyZHh4c1d3WVIxek5QUzlOaS1B?oc=5",
+      "published": "2026-09-06T15:55:24+00:00",
+      "source": {
+        "name": "عين ليبيا",
+        "url": "https://www.eanlibya.com"
+      }
+    },
+    {
+      "id": "be5c44780f47",
+      "title": "لماذا يُقبل جيل زد على أدوية القلق بدلاً من الكحول؟ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YVXZrLWdsWFRSUkRteHZwZFY4R1FaOXhCMGswRkRTZ0hBUGxlVzJGeUZHemFpLWNTLWc1V0s1NjIyeG9taFY3NGR1NXR2UUo5ME45Y2JpUWtGaWxt0gFiQVVfeXFMUGJlVklpZmhtdFVzT2plOEdwMUM0SDluVEVlM2FPOVY0elpRTDFJdFcwM0otMGdmR0RxNWtidXktUTB5UHdZb2xlMHhvbEVNNVRrX0dkR3Q3OThudGpnbllCMmc?oc=5",
+      "published": "2026-08-18T07:00:00+00:00",
+      "source": {
+        "name": "BBC",
+        "url": "https://www.bbc.com"
+      }
+    },
+    {
+      "id": "5a66bb011c1f",
+      "title": "ما هي الأدوية التي قد تشكل خطراً على صحتنا في موجات الحر الشديدة؟ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ETno4dTNVT1Etd3J2S1ZkWDJxQkNKQXdHeElNaGdOeEd4Q3pLeE1YZGFkWnl2c1JWX183UzNtR09vTFFqVDFnb0NXbklhYVhpY2t0Nk5RZWFsLTNx0gFiQVVfeXFMUDRtSUpGZ0RqZHJFY3R5SXdSRUVHdGxQRTVpOWxxYmFhLUlCV210NkZuZTQyY0JPZkpDeEpfcjlYdTllYmoyNHhZM2FvaUFEYnJOXzNxTExISHIwZlZyaUJ0Tmc?oc=5",
+      "published": "2026-08-22T07:00:00+00:00",
+      "source": {
+        "name": "BBC",
+        "url": "https://www.bbc.com"
+      }
+    },
+    {
+      "id": "958cf3624702",
+      "title": "رغم فوائدها- لا تتناول هذه الفاكهة مع الأدوية - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxOck9ISDBXQThkMzF1YnJWeWxCQjdBR2ZMeDlQb0VVU2llZnAyaGd0MG04WjZMMkg0Y3Y1VWhlNEROOW5zc2JkOVF1MmQyemhaSk1jUkpJYVl4dzB5Ym1pRkQ1VlFENHBnQ0FyVGI5ckJyUVotQjZ6TXN4ektIdVRaUUY3SFNYakp4QkdqSTJ4bGV2V2psb3pMU0RsM2V1cEtQQUVVXzlOM3l3TmNVRUdTU1M4LURSVG8wM0RVY0ZUVDhscEhuWkQwZTdQbGdLZE5JUWl4MTd5NnE4aG5BQmhWMDZRM0RDUEhYYXVvSmUxY1BBejlZZzhwM0FiakFrdFJBdGhzeEp1SkxURUZvNkttUFM0WTJaLWhWUUNqbnlVRmRyYmthV1Q2dml4YUZJdnJ1cWUzSFpfc0tOUlhwLVNTMHp2cF9TTjBoWWFxTmo3b3NhVjZRM2YzOUppUEZKSVZDbWg3XzVMazZ4RzNNdXdYTlMtbjBaSnExZkk0ejBDOGF2alNKY2ZLZ25TYzlLYlZhaHFlcGVhbzlRNW56MG44OWNaQnVZSy1zeXNaVncwaTdYRnpVLWdtVXRR0gG_A0FVX3lxTE9CY0ZMYlgwT0VneG1xQW96Ymc0LWFUZHF0T2hOTnM5aW9hNUd5R25aTkFfY1kzUklSQkVFSW54RkE4STQ2bzB5bTQ0LXRMQ0hWMF9icFdQU2pONndpSEQ3ODdITVRVYjQ0ZHBwdFFHQnVLZ195dUJ1bHhwckZNaEtMTGlOMUxBTDZZQXZ0QkZ6eVB1NFg4UWs3NW9hcE9aSDMzMklVV3ViN2E2Nm5JbnlTOFNBZ0J5Nlc2MzNIN1VYUFVQTUNkR0NIcUFMZl9iZEFVYmJGdGpxTHJ3V2ZWZllQTTd1WEFGcTd3UHdjVloyVWs2N0h4bTA1SW9QTHZfMmYyc21fNUF3RmRTOEQzMHZmeFRQN25rZXVncUs0cjBnUU41RHh5eEE5a1ZjX05GQjVSVnNfcklHZzZPeEVFUm5kWF9MVjJ5cjJaVFdBX19BUzk0djZmN2k3QmN0Tl9PbTdTcUsyejhaa2RYVUQ1LUphMFJjZjRkc19EQzFBNFRMRXl5ZFItWU1yV0ZpaHNrYUgxWEN2T2E3cVExTE54VUVyZlFkWkdEa2kwSGIyZFlUNTcxd3NZSFN2VFV6eEY1MA?oc=5",
+      "published": "2026-08-24T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "8a2e8a7659c8",
+      "title": "ختام زيارة منظمة الصحة العالمية لهيئة الدواء المصرية - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxPMjh2b0VIZzNVWW1sNU1yLU9SQnVOWS16RzZueXZHbENGZENUTDFYWWRBZ2pEcTM4eFY1VkZqMTEyX0I2TXdQcl9iaUNBTDUtX0g4YTdURXpZbWtEZnpPVEZUcGd1Nlg4UEtkckloUGtxU1lZMWlVVkRxaHlvaUtXLUlMMTRzaXNwLVdFTUEyT0ZpRlJQYmNUUjhISmF0bG96LXpGT2stZkEzTVFNU0pWNmIwY3lsZlM5MnVVRmxSMzhWS0dxeEpCWWlnMTFBZGZSOGdleHY1SDh0dWsyNVlZdVpEenNVYTg5N1JEOXNTLWtMODBNd211QmFOOTRXekVBS3gxdXlJQnlmRHpIbXRHUGFVeldLR1lRdkxfSXRfSUxwY0NiRmJKRk9pZEx5c3BPczNENTNqTnItNzUtQXlhcWhpQ0E4SzdmZG5feFN4dDNMRDNyUmt5RjcxQzhZamxPcHhwR3Ria3pOTzJpUWxfc2xCVmdnc09KeGJyRjVrQ2FUR0xEeDlhcE02cHcyaEpmMG1FUUk4TG5iblJIZjY2MTRkSFZyajA5Q2RqdVhRQXFpTGYyVmNfLVZNaGNGSEFfNUF6UXlfdmY2LUNEUm9ZUFVkOEFqamhTWTRsbWFXUG1hUEYxT21CQ3JQZ2nSAfIDQVVfeXFMT3hhWG5Cd1lMT2wwQUJWOGt1X0llUklaT0FURHpYMXdxcXItQUUtaHVfUHU1R0dJWVdaSkZjbU14Mm9MSkEtZENHRjBkMG9EVWdDWFV2SVAzaWhQNTJYOHMyZDdJZ0p1RkpFWFRlazhhNFpic1A3X01XZjdpNVBmN1VOcmFVYXlJS0pVTlZJWXRKTEpjUk05VHVCV2hBbzg4YXdSYnNETkp6eTFBcUZUVFlveXNXYWdYXzRDNmpYNVE1ZC1fYUJlU2toZ3VnUGc3Qk45S1NCcndYRWlPNUFlS3dreE03blVqN0liOWFPOHJ0QWxCTDRETWIxZkU1cXlSRV9XZ2FZYUV1aTByUXVfX3Vnald2WVkzMzlMOWQ2M3NRMjFCZTlOWlpaZWdHbjFGY2M1MnJaUjY4VUxESV82Tkpxak1HM1hDamxqWE5GaXJmTk5hU3Q1VlJuS1U5UjNndjlIQWFqN1c2dGtWek04WkdfZW8tSkNyYVNBb1ZaSWhhMVNmbUdsSlhxSkZZZkdsMDdpSFdxa2c3Z2o5YmNxRzBnd2ZBallmMVBXSmhnREVCcnpfVnFYam9waTNTUllXZzZjcDdKbWxXOFN3eVBvYmhFcTRTQzFEWjYxblhLVlAzdFVLQUlVTmxVak1MUzVDMTl3?oc=5",
+      "published": "2026-08-19T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "b25e0a0cfb41",
+      "title": "روسيا تسجّل رسميًا عقارًا محليًا جديدًا مضادًا للجدري - صحيفة اليوم السعودية",
+      "link": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNelZJX2VYY1lzaDN4a1FYTGJZUm1ETkVNMzAxa1FtOGdPZ0hZTGYtMWJmQnpVWU9SYXBHbFhyYzJDWHF4bnRvUHQyaDA0Q0x2aGxFX1UyczRmNTBDNnpQTURkdFowWG1HeGdZTUJVdER1TjJFZXNOR0p4YXB0bGFNMUEzNWg1bTU3bjZCaGk4SDM4UnZaaUFuRFRWUnFWNV81UUZKZ1ROaUJnN2F2akZHa1dJMnhhWThqX2czMGhSZ2JldjNoUklXajVQRHI5M0JXN2dDcUo1a0Vic2l4QTR4c3dWY1B0UFNwd0ZjcV9sTVZpWGhSeW9tQ1hWTXJJS3hIVGxnTlVXY3FETU4zeUg2dHRuRVpGV2NCbVM2VEpWWVp2N1ZGQ3NlS3J2N0NNVVVIWm8yWjNJRXdVdkQ4VnVhZ3FVWEtSVzFXdTAxLTlVT2NGSWVKRlllZTFlNHRobXFhWk4zOW9DLTF3QmYweGdNRVk3Y3J1OENiS3VNeS16MlJQaFhYSFhzd1g1Z2ExXzB4ZXYwR2xCa3VsSHZmU1dxNEVsc2c1MXF5WFBaOUJZczhIa0JGV1VWSFhBY0YxVnQ3cUFpTnNCRkVPR3N1N2lZdFJOcjgxYmVfRThrSDFScWtKV3dIRXBwZWZzTzFpUUg0bXJYNnRVaFNDRjFvX2hvZHJ6ZlB4aFFoeGpqVlRjeVR5WHJGdTl30gFTQVVfeXFMUFNFZUROUE1ZaVFocW5Ddm90cnNOWlZ5QXlFMldQcVNGRlZRdlgzN08tYnFOZXpIMHRWbzRZTVJJN1NkVHh2Z3BqbndvWm56c01RX1U?oc=5",
+      "published": "2026-09-05T05:48:00+00:00",
+      "source": {
+        "name": "صحيفة اليوم السعودية",
+        "url": "https://www.alyaum.com"
+      }
+    },
+    {
+      "id": "4bf3fd8a238a",
+      "title": "انخفاض انقطاع النفس النومي لمستخدمي أدوية إنقاص الوزن... - جريدة الغد",
+      "link": "https://news.google.com/rss/articles/CBMirARBVV95cUxPVDBWVEk4VHJfTFJKMDduR3FRd2JieXIzU1lmOTFOdDJwUXZnMlF2ZllyMlU2TjVmdVpjanlIaDY1Skk1UmR0aGx2c0lwZ0VGZWl3Vno1aXIzTElXamhVbTdqc2RPbGVPY3JCaHB1MXR0aXRVV0dkQ0RQaGl0d3lOWFc1Y1pUSmxoVDNJZkdjN0pjYmlrd0Y3bllmWU5SdlJidVBKOUNUY1BET3lWYlpsRUl1T0dyNm1LWnFkQVpBQkl4enRmTGo0ako0b282SFZlQ1R2SmZEbzVhanI4NTdwTjhpVS1rTzgxUGdHZWRmamVoS0ZWNWJ0Z2Vhd3RiQWJoZWxNcG9FUnFkNlYyV3Bya005bm53Rm82Q3RDa0NpcGxyQ1pmMGlzNVpQcDBsWU43NnB1OVhNaFRzRDJrbEpZeks5Ny1jSlJ2TmNNZHJ1Q0FOMkg2VDE2bUtlanNhYlA5OFd5LW90NnMzNWp0azJMRnZfVXc1UkxhaFFYY0YxVHpFdkhqWEJPM09fMGdBVFVhUU5iRUpuUmVOeGtZYXNhbzZQWjNmb3pES25uT01sZDBGMWdDYjh5NEoyYmdCaENNLVdvUFlvQy04ZDZnYzVvX0tibHNLam1hQWpUS1UxVDRtUjdHVUt4SjVhVWQtSkJkTGx1YjBoRUNyZF80MkQ2Nkk1Zk1GZTluOHppWW5tcXpJSE4xdlVMMm1QdExvcWd4eTdFU203UmlVdlRz?oc=5",
+      "published": "2026-09-06T05:55:29+00:00",
+      "source": {
+        "name": "جريدة الغد",
+        "url": "https://alghad.com"
+      }
+    },
+    {
+      "id": "e5c8ad19020e",
+      "title": "مفاجأة علمية: أدوية السكري قد تحميك من الزهايمر - العربية",
+      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQcTVzdTJfeTVCeVBQN1lVOUlQRmVBVHo2LTJVLThDWHBXU3d4YklzalkzaTJwZDluMGJDT0lsQ0U0ajI5SWJxa3FNWWxCdWF2RnQ5Tl9SMmduakNZalBCZFY0ZkFabWQ5MnlNMmdwTDZRSFNuTkJKb2g5aEpjVnR5VEJxbjNsU2dnTXc1a0pLVzYzRWJfRl9ObWRxSHhlS2l4VkpVR0txWXo2ejB0UXV3cFRFeXVpa1FDOWNWbTNIaFBrT2p1Z25YV2RZcDJqb0dWVVRhMHJKQ19kUG5NR1ExbjFqVHdNYlNybmxyd1JkZEJURGQ5QXZRYlpnU1A1NTFDS2JIdTlWdmswbjN6N0lKZy1HdnBWSHJxcUxyRVR4a1Z1dElMOC1ybllsUWs5YVRHc29NQVB1a3c5Y1ZvNXdHeE4ydVZ4dzhLb0dkS05BYUE3TWRLbDI0enRCMGlDME5rUzdiSlpZVFpKdE9DdHQyeXZYSEdydDRtSWhFMUhNU3pkU0t1S2FyUzY1UFhucElVN2UyTVU5My0wbldvcDlZd3BVU21iWDItUmpJ0gGwA0FVX3lxTE9zY3NvTlVpbDlPaFZuNWZsd0NZZ2dJT0ZTcndjYk1MM01IMVZNQ3F0STFYUEJFajJKLXNoU1YyNVNZSjBpc3UyTG9oT2I5eTlPTk5Bd3VQNzB4U1RDUmpCZWxJSGRNY1o1NDVfR1VucDBFS0ZuclFrRENTeE1ZY3JLQlBuU0F6el81UUN0S2dTdllaQzhKYTNXZllCMUtpRlU0TFhIR0hnWWhneTJXcElTTVJoS2YtZ0ViLTV4OUk1U01PRW9SNGRpWGU0SVFXNmRkVFFYYmxmZDFTZkFpbGN2LVk4YnYxMmY0QkFmQzhucjB0MTFzWjVMbktKQVhaRGNHbnNlZTZkWmdhSFc1bi1YbUc3eG9OXzJaZHZMY0dlWEd5YUNTdnY3U1RFeVV6MkVhdFQ5RWNRVktidTVhY1FIdFpEYVlZWE5YcUkzak5hRGZPZHQtaE5rXzJhZjVZOFJmamNTUERnc2JLSGdUTGlNZ0FWV1ZQTDhSWWdtTDhmVmZWZ2VVWVpHWTVjdVU1TVZZUUV0a0FySm9ucnNKV2FfMmoycG5GZ0NZenJpZDY5Qw?oc=5",
+      "published": "2026-08-20T07:00:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
+      }
+    },
+    {
+      "id": "57af9d540a60",
+      "title": "المغرب.. هل يخفض تسعير الأدوية كلفة العلاج أم يهدد توفرها؟ - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOclZhZ3JnOTRBaFA5cWk4d0hEV3VOMDh0VDd2WjZhR0FjRmNNbHhVTXlnczhMNjdVYnlTSDVqOEtmcHdsYTZVOV9nYWNFdi1vZ2tiZVBwa2RnR0JsR1Z2VWRaTnRBOU96aGZRY0JUcUFzdXo2dkdHMk5paVI5REotMXp5bnJ5NlpPNnFHMmYzcFltNWhZS004Q2k2cWQ0M1RVNV9QZEc1UXRteks0NmdlVmxPbGVTYkpmUnBUTFpWWXowTXZldXVyOUJMWXRqb3d3RTM0cmhpUXlXMjNjUTk1OW9qMkR0ZEJxZmRUQ3ZaUXJFZ3NiYzBFdkN5azljOEJPbXVHQ2F1enJtQWVMWUNJOUVwb0tSdWNqeGxlNWZpYUc4LUdFRVJCZFNFU1dJekcyZmdTRzZOOUtWdVdXTHc2UGFOONIByAJBVV95cUxNUXFtV1p4SUhwVl9MRkdUbjR6RkFMbUM5ZWIwdXBlN1ZTR3hsUkhMQkJXMlpvaElqU2V2QTBNYTJGamJETURfODNWXzROeWZtODZlaGpEMG1SQXp1VXhvMVctZlFSX3NvWG5fUXlyS1NtaEFTSF8zSDVnaU96VGZ4R1MwUDhkRHNrVGJ6SWFIMjZwcm5mWkhqb2ZuT3kwWUtRM2g1YTdXQ2RhXzk5WFM2MFk0dkpSdmRqV2V0a0dveTVXUmNWR1BEZ2doZkp2U3ZtNWVwdlJ5cGo1aW1tQTRZc2VfTjBzbEVPM2RuVXpoTVFMaVZ2M0VXdThFdHViUEhZZzFPdlF4QlpnSVBBR0JMdVRxWHpIX1RyLUpwT0RmeHlMQXlfMm82TW1PbW4wV1JxY21CS2dmM2ZXOGRKVFVMNFhJQTJOaDR2?oc=5",
+      "published": "2026-08-09T07:00:00+00:00",
+      "source": {
+        "name": "الجزيرة نت",
+        "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "e6c0751b6ad8",
+      "title": "أدوية إنقاص الوزن قد تحمي قلبك أيضًا.. دراسة جديدة تكشف مفاجأة - العربية",
+      "link": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxOVWltUlFfajNZVHBwa1dGN2w5bS15aTJxRWlQNE1IR2pzdmxxXzBfUHdBR0lRNXRNQ3dfQ0NpbHloUFJ6VUROYWRqWFJaUjZXNERWbVkydnlHOFN5bzhpejgwUVY5cDJwRzEtcjA2YVp1OGh2enFfX3l5cGJvZFpVX216eDJKcVp1T2xWRmtZWGx3dTFwaUFESDczZWsyRkNudGIyZFludWtSVGl3UzZMa09UckVCdlhQanVFLVYzT2ZtaTNRWS1tdElXR3JucEJMSFc4NkxSM1lESFVKYjF5M3c2SHRIX3A2TWRNWk5nQjFUUU5Ba25oRzJfc0cyWnd2WXNQMzhvaWlHQWpOa01KQVlaeE5acERxcWROWUNrSU02TFNfSGhVUEZYWE5XYU1PZmJYdmdpZVljdkREa0k5c21jM2FYQlNBbnoxN0lmLXpzS29sa2VuTWd1bkdEWXJIclE2dXU1TFc0MWh1d1FPUXJ5R1ZLSnBQWmVBeWo3UUgweE14dExyV0J5V096NnlCaS1pbjBYcWROT25IQlYwVG1wdHQ3SWp2Q04xQUxyckYteThFN1BrbnkxR3d1cGlBSmxIREdSY0hXZGR1VTNRcWNiZkE3eHE5ZWJFS1RDZjJCSTg0TWcyTmxocEdmS1JBdHdVemdHeTNMMHA1RFFr0gGEBEFVX3lxTFA3WkROM2VJSHpOUTNRN3VTMUZZUEw1eC1Mc0FTYU5HSDI2bklxakp1THRPNzFmWDg5R3dGUTFqZllhXzdSd0tlRk5SbndEX3ZYbUtXVDd0VEZIQTZEV2tiNWZ2aVdfc1VMcWNKRk0xT1JZR18yTHZKaE5yVFVRQnFyYko0VHJYU1hZUnV4bW9pSU5WUWhEXzBFSms5N2h3cldFcDVjQzVxZFY3NV9Yd0ItbU9CeXpRU3N1NXRJMlEyQjlwVDBMYWwxT3NVUDJvY2k5aHM0cGNubXZWWWhqNWZpUDF5bUhEb0NiYnRKeTNwei1FZ1kwSlpnMjZvSUxwTHhrNWxIdEdEZGJIT0V1QzM5RWRfaDREaDFOUnRiWlJHQ0FwQkV1ckpJNmZyVXNmVTB1b2ZwSENGbFl4Z3Q0Y1pIaU5PMnc5YkhwcUpCS3lhd2NmQnJlMFlCM0diZXVMS0c3ZjV4TTF2T0pkaUVCRWJHNXE1cC1waGFoV210QXlZYlJqU3dyb0ZOd2NOX3hVMWtZYjZETGlDUkJjd1pIM1QwUVh2d202V2xfZXNHTHhKbmxrNUJ3V2xFcGJEcjVqSnd4RUlPMHl0NndSS2xyUjFaRHI4YWE0SHkyRmY5R0ducDg4ZmdNdVNPRHYxVnZHaUl6ckRxM1dfV3ZxQkhUVUZZSnhfcg?oc=5",
+      "published": "2026-08-17T07:00:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
+      }
+    },
+    {
+      "id": "c5d733bcb672",
+      "title": "هدية مصر للعالم.. المونوجراف العشبي المصري يثري مكتبة \"الصحة العالمية\" - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMizwRBVV95cUxPcE9sazFqWHVHRUtScTA0ODFvZHk2dGFRLWV6Q1MydUdLSzdTdmJCY1VMSUdDZFRnSXNITkdIdDJHN2pQNDgxU3BiQ3RWcjdaQVRyQTUta3pwNUZxOUlUZXNHelZERkFJVlRJSkg2Um1xcHRhNV8yTzNDT3JlcEpKVEY5bFBDRHRIYnZDRXlxd3Mya1F4TGhVcXcwQkVUN0lEdGtyd1gtMGVmN0lZV096dTc1NE9ONlg1d2NYb3dBRGR1U3NXZjE0bHNPYzJQeEsyZlIteDdhSll0Z1VjMldNWTZYakp4YTVRSGhGc2pISjVHQmJPeUZuZXFhcDVOVVZCLVc0LWc0MkJaLVBXcWNDNU9MQ2s1Wk12UEliWGs5Z3JLWmJCRmFjV2cxS1czNVp4cDd5LVR5X1JqQjVEazZRcy1QZjhaZjB5Z3lieDVqVlZOT2JjdlM4WnhsSmU4WFl0UzR4WklnX1lOZXlPLXlIN0pqWk9xbmZibmZkRmRmaVpaTF9XWHMwbF9GQktaQlFjSG1CTk1wMDVfbkRXTnl0UUxFSjczMndLdkVkck41WU9sTi1iZWZ2a3lEamxONUxOcXNleVRlNEEtUUpIM1B5UFlrSkxUQmxDdWREdGE4WVpRS1hrRE1DQzAweWRDLXdUYTF4TktGaDBjeXJJaDZPVVRhcC01Uk9yQ2xycGhTNDJOV0VzZ2VjUFBrOVZKNDVwVlZHeUJvWVgtSUg3Z1YzWDIzTVZfZjBRNjBUWjNRa2p6dlU4RWFzVmt4cElERVnSAdQEQVVfeXFMT0VoNFZVekYxMnlKQlZ6NU1oWE1fWWx3OThXQi1hclZRVFJpVU93cmVsck9HeE1BblpLaWxsTFZMRS1IR3FrUU9OSTl5SXAycXpDTVVYQjhTQlk2dFJKYXFFeWVNX1I5ZHIyMTlueVN5TzdTclMycGlDTkhVTjlKVk13RFRpWEJLc2x1dkZvM3A2bFZnajdRLWdTUFpXZ2RHbWJZNkI4a051YmwyaGlteWtFZTV5QWtKS2ZPaDlwcGtiZUJLVkY1d3I1T2twd0psd2ctOUxuMG16MmFsbU1fM19pWDdXVm5NQ1Q2a25mY2hucnRSdGJKVUFtRHVRTVR6MGdFd3BWbE5SbmtObzFoa3BOWFd2QXdzVF9KQzNVVk1rMjJiWW1TMm93TWZZdU5uU3FaVDZneW1pSXZIWV9HUXAwQnNuZm9uUVRMa3lTWGhYMFNqR25reUVZY0w5S244aFVXUEx2TzRqRWtLRGlVUUt2Uk9CaVVkUmE1S1M0Ylo3dmNUQjRZZm9OeldPOGJKWXR5d3hqUGRwOXhfQlk4ZUpyZm14ZGNKN29NQUU4OWlpclpuZ0xpbF9kQThwTmtrWVk0TU04ajlaeWtXYU8zS2xKZXAzZWlsQS1OVUc0ZWc5b3JEZjJWb0pyX0F2MGJFTEdtSTdySDJDSW1mWWpkdGphYXRvenpTMi1ZMFd0LXRyRzJLSXFEaDNXN0xibkJYUlh1VWlNVGRaXzZfbk94ZDVraGdXdHQwaldDZEQwTENoZ19aOTFhT0dvbUhUTk41NjlibXY?oc=5",
+      "published": "2026-08-26T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "c1afe9d30fbd",
+      "title": "فشل عقار قلب تجريبي لشركتي أيونيس ونوفارتس - صحيفة الخليج",
+      "link": "https://news.google.com/rss/articles/CBMizwNBVV95cUxQcDlqVkI0dDFjQ0pJeHB0QUJNdmZ1TjRlN2JyT0JuSDhzeFpybGVmbTFzT295anZZQlpRN2dLMkk4OHlGOUFYa2xNN09hamZPVzVhY01YSzYxMHhZU3VRS3dnTHRUaVhDcXpIeXotSzhBVXNwUUEwOGN4QmZUSWNGcVc2TmVyS0JuWFJGTUp3eng2S29YTlQ4ODE1MFYtM0ZvWHNESkRkamFJaHdOemFxdTdycWtuUmdRQnk3SFk3WmtVY1hISEs4a25uMVdzcmhpYzNjTjRHNVVGdE1FMUNwWWtPeE5CVWxQZGFyY0kxc19xaDlVUnlSWEZnWGM5UXJPTEt4eFkwXzdjMmhfNjU4aVdBOEdhUmd5VTVMcEtORURNcVZGSXczZ1FDUENad1p2ZGE0OVJPakNFSmdEc0p2QnhnWlR3Sk5FNEt2endGeFJvNzBEV3I2S081SlVlUzVicERiVU1Bd1p6UWFlclZCYXJ3eWZxMW1XamlCN0J3MjZoVnVSb29pR1BLUFVhSEdldEVGTTJRRTRDVGtxcWpzOWs3cERXUnM4SDJCNFYxQzJRTE1JR2h4WTdnZWUxMmZjZTkyb3NGOUxvQU1vVF9N?oc=5",
+      "published": "2026-09-05T15:04:37+00:00",
+      "source": {
+        "name": "صحيفة الخليج",
+        "url": "https://www.alkhaleej.ae"
+      }
+    },
+    {
+      "id": "0ed93166887d",
+      "title": "منها القهوة- مساعد رئيس هيئة الدواء يحذر من 10 تداخلات دوائية وغذائية - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi2ARBVV95cUxNYzYzUFJOdmhldlVaVzZCM1g3Rjl6bGJVb2d4V0l5NGVuTDI5cWRKd09vbXdTREdzcjl6UGwySm52X0o5bDB2bmJhRGJVVW42Qjc1Mkk1cXE0VEtNM1NrTnBUd3hnZFNzUXBpRjUwOEdJNDNPbll5Q1RQSTZ0NjJfNmh1Tm9ROFRaUWFIVE5lZXFaSXRGSVZ0bVpfazJ3ZUxxdUxQaTJRMHNFU214Tmp1bld3VkpDaUk2akNBcEpBNTY0NFdsb1d2TFlYcmpaWVdtdW9QUWVySU5PNTZfUDBLUG5OQnc4b004a3NSM1dadnJFcFJZT0E5M0N1TnVGU1d4N3V4eWVpdTdhLXBrcU5VQ2R2cWZRMWdKQVJKLThtdHRqOGZybnplaTVNcmtQWUFvMFN4Rl84VF9oZkg2bnpGUDNod2J2dnk0ZXIzUVZLX2RuUGhockRLRHA1clA4SC16bE5ndTFjVkt4SzNXR1E3aUw5Vk1wMTMxYzducU1mRms1cTZkbGFRZFo4dGluUXBtODlYX3IxMmxHS0dfbkRqcUtiUlluVHFBcW94dGVBcGd6Tzh4Skw3YTNINU1vcEctb2hOSjZNeG4tcUNKamJSVWNZUTU2S00zVUxQT1JxVWc0UHh4cU95N0FrSnpOYXROcmZKdlpjVWJiWUVvR2VZRC1YVUdBam16eDNlYy01UGxCTnlPOGlZdWROQk9EV2pvTm1MLTZRV2N1a1pZMGNFTENzMVN6SzI2a2p5VXhHU0hleE9EbFdJd0NnY0FaZ2hVY2xZM21kYXHSAd4EQVVfeXFMUHVxUWM5bDNjRFRqanN4UWpQdDladnlpN2RtanVyVWlxWEw2MlFyZml3S25SdXFtMFp3THF6WVlRM1E5WDdTU3hPMWhtaVVuR1NySFU4UjJodENBTkc1cXZBaHZwQ0pQY1l3ZENMejRQNU5BZEpvdmdTeHI4VHd3RmJ0UklYRDdFVU5MX0hudWxjYWJQcEg5c1VEUWZyQUFySUhGekkxMERJWF9TYTc0U1JmNTNRZm9nQnlYbjM0NzdSQ0NMRGdMYmp2MWFyenZzMElkY0dUdl9kdWxIWmJqdWVUNFF3N29PRTdIYVBybUlFTDEwRHBNcFZqT3NkZzljMWhEOXBQYTZBTXg3R0ZsdlpuZHRvQ1BRdkg1YnV0WVltRmExbDJlUFp6bmpvNG9QTktRQ2pxTVZpRzg2OUZKOUhoMWs5VlU5V2ZoV1FZQWRrVEFkczJ5VDNiV1hNeFVpRzNvYVplLV9Dci1iNXk2TVg5RG5RNmZZaWxKWEhWSXZ3OVhqYWZjS1V5eXBNaktBTEoxMXBPVDREMERZTEllOVVuT3ZNWHpqNDRHOThQQW9HSS1teXRQamM1RDItM095YVRNdzNZd3lUTDFtbW5EaXRXTkFuYXVoNEhET2oycGdfQ0JvQWpJY3BydjBXZHJuV1R2SlItSkV4d3h4MWkzZ3JCb0QzQVY2RnZPX3FmM19Fb0ItQkoxRGJmSDJkMjdieUQ1cm9jNmphVjk1TW96SnBLcVdUcDdLRVRDd2prNXJ5bU9rSVlkbFg3aUVnYldtN210bEd6Yi1TaVJ1NXZB?oc=5",
+      "published": "2026-08-14T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "4303fb43510a",
+      "title": "الذكاء الاصطناعي يوفر الملايين في تجارب الأدوية - العربية",
+      "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxQWWluOGZCOGE2VVpyazlwMG5rdkVJUzhJQ04zZjFod2Y4NGZIZWdteWpoX0UwcmpxSjlxTW9EaUNpR21XbEZ3ajZfa1RqVHo3aWxDVlFVWHdlNUN4Z3RXam9nTWlqb3R4cHcyOWpwc0ZBa3RyNkRfWC1RYVlfSWhaQ2NkY05vYmVVOERrUFZHR0VTUmRJRXBTdXhySU9NRmRVY1VtbUNrYlpQWEZnenhMUjFUYk5CWjRFQzdLRFNJZXlqMlNIVVRsMXlISlBJLUF1LTBKUTkyVWY3ZjFNc2ZObVZHZXBKUzF0bVJ2OFFReS1UdnBQRXVTZ1pTVG9GUDd5TEk2R2E4cFVQUnBILXBKRzZwYkowREx4bkJPaFN0RXRuSzE3TE50NXlwRXkzZFM1dWlwV2F5aWRSYkp3YTB2YUtpRGZPeTUtMjVKdW1zMjJTXy1PbFV4QnZibHk0NDU3aVh4b19rVWVMMHZkYlMwSmNJWnRKclhwQzZmUjZ2UXpRMHFrajZoM2RHSGxYckdSR2dwUDRSLVNNME9VWTBCZVVmZXFKTXFUUzRNVlNGZDhJVmZaWUJsRG130gG_A0FVX3lxTE9BMXdjSE1VSy1uLUtuNHQzcTRPWUdTWUNwV0JrMmx4NndncnZOOFdsR0czbFE5bzJldnd0Y2tiSzAxY25QdFpiZWdYam9JTGZWenRLWXotcnEyVVF5UHN1MVdZTDNuanIwYUdKdm5MaW1zUkR5WHZrZTFtMGZHc0hjeHEwYVFhcmI3dGxkNUZrWm15djF6ZVk0SDRYaW9VZTN5T2ZSRF80WnE0TW9EQk5wdmJCNkdnVXQybkljV3ZEdlc1c1gwUUxrQWNtLXl1RkZTcHVzVEc4aFRFVGdUMFY2ZlVnU0JTaXJuclVOa1pITlBudzhNb0pkdFFlM2NDanQzZ0NQODlLSVlwMThpUW1JU1U0NkdGaWxUZlZhT2I3ZlpSWmREUG1xXzExVm5sVlJpV19IODlYZEFoQmo5NUwzRC1pekFpNmhmTEJIcEN3WEtZbVhlaFlYS0lVVFJtQ05xX2o1bXNBOFFsemphR21oT2xzbWdvNVFaMG83QVQ4ZVNkMDh2Q1h1V2tQYkNuQXVZZjhWekRMNmg2a1lpOHpIYXRvVjI4MUh6bFcwanl4YXVFQWtEWl9rak50QWVwZw?oc=5",
+      "published": "2026-08-16T07:00:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
+      }
+    },
+    {
+      "id": "65ce25e583ec",
+      "title": "ليبراكس أبرزها- سحب 6 أدوية يثير الجدل.. وهيئة الدواء تكشف التفاصيل (حوار) - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxPUDNOVVRQM0J0WTF1Wno3cjVfLWJ6TUJLbUNrQ2xaajlnQXV3NHkyQWs5Z0NRZGduUl9GMTJuYlJqUlN1NXZhUmNfT2ZqblEyWWNFSEFhOUktWnUyVTdtamp1NHhNY1N3NHJIWVoxblNHZW5PLXBuSHZsRHNyT3BwZjM5NktCSHVmZjM1ZjlEYzB4aHFKdEJLQi1yZUt4b0gwaXNxN2R3UTB5UmQyWm9nczdaaDRVZUZSalAyU3FINXBnNkNSR25IU1pnaWI1cFI4U3lreE1Rajd1TnNxS1JmeHlRbXlIM3FyY3NTZmswMXk3YnhZWmhBLVNGNnc2djhoSVZGWVNrYk5rUlRkNXZVeHl6MmY1Z1FtMnBuczRIZkdSX2x6NUc3VUxFanh4VU9ZekQ5NlV1MTBjMmlzU1U5UmlwX1RPSms1bXd2YlRWck1BTE5PczJkNWtfaklPZ0lCY2VtNEtzMlZZM25DRkQ0Zk1tZ0VseFZYd3dxUjFYTW5TUkZ6eXNPTVVzRDdfbmZjWXpySmhERkRuTk44VFJ0NHNEZXo5ZngxV0xhLW1uSThna2h5ZkhnM3dUYkF6YUxaaHFWejJLY3VDbGZQOUpCMElWRHI5VXNfMUl5aTVUU3p1SWFlcjVwVlJLNjZCdjd6eXRvMWRtMTZPMlNSRGZKYjdsNmMzTWFKZlRvekgwS05LWk5ZYkVhNjZzc2FZMXlYQVIxTEFMRkFpc2lIcERFQnYwbmFoRXZFMVQ1b0dPV1ozWFRyOTJUY2QxWWNsZVh3RmJkTjhSTlItMmtqQ1diMWNRUGVrWTdU0gHuBEFVX3lxTE0zQW81ZEpXNnhfZ3hoZlF0WktvanpMX0Z0TWRNZ1YwZmxheGxGSkxmdk8yc2laQ2hqaE5vUHVjUEM5V3ZyQ0ZLUi1CYS1FbFF0N2laWTNPaHFBdE5jZmRRcUY4emlYclF6aTRjUFNqM1ZlbjA5WVF6VUtxX0VsMl9JUVVYNHJnRDl6Y2ZNZzNHb3Vma0taYVJDTWJVMW1vYzctbnZlNVdoT0Q3aU92TFEzaDRpV3VHbWFnOUxIRlhvOWJ1T3dLOU5mODlqV3Fjd1pNcGdNNzhDanlYVWNJdUlEQnNxR2tUaXBPSkdBRU1VeDVnVGFrOUpRQkRRNWxETmM2R2l2WWlLLWVPNFE4SnJTMkJBWHhmU1VJaF9KaUZSODNwTEdGVDJjM2wzTDZpRUhyUzZDQXE5RnhRY2w5czRtbjVKSkx2QlByeEJ3QmVsa2RUWXhHZGZNdGViMFF0cUc0LWM5VGt3QlVGempQUDFjNzFTYlRFRmFBQTRMcUdLdk1HYndaYW13SEstSDMwSWN6SmU4dGRaUWFGYnBCLWh6OHBRLU9CYWE0QzljOGZWajhzMnBqOVM3d0JudEFydE1TRGt1REt6c1dpMFpRNzJ5bG5mQ21Fa3E5TnM0X3pXN0FGWDM1YWlocWJ6NUJ3aDdhaDY2WmdvMmJSRGVWMDQtUFNHd0Y0Ny1Hcklab2RtT013VEQ5WExXQjdZOWdFOW9odXNRN0RjQXBBWVdsYUc5aVBuYWQtbVNnOGxpRVpoRFhrZHVJYnNwaEY1cWdrQ3RtWVpxUG5ybGN0dlNpMm5IZW9vTElvUEEzaHdESHc?oc=5",
+      "published": "2026-08-20T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "195403d02e69",
+      "title": "\"الصحة\": قرار وزاري لتنظيم تداول الأدوية البيطرية الوصفية وتعزيز الرقابة عليها - السياسة",
+      "link": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxPc0YtcXJwdEpUTDRaNnQ2V1ZCcURKZEF5TUwyRTVVOVg3UEY1d0JoZTBrTWtjRnhQLXVDQVFqTGFGVjJycE5Sa0ZfY0Rsalp1U2htTFhaanA1cFJubHQ2Q0IyeVozY1Boa1ZvaXlteXhPYkpBdUhPS2ZlWjZBRE5TQmxKT25IMEVYZmRpMHlxXzNDZ1pMWmZMckdjWldTTXZEa3RTVk1NV3BKT3M5Y0kwS3BJS05jSkl2M1Z3bWhSLThzTVNDSXo1RWE5NG5GcnRaZ3J5T0dLQ21PS0ZhVHpzRmNwM1VzZjhfRGh1QWF5TWNqQUpraWsxcXpwc2pJejgwdnBQUU8xT2MzQ2RZRFdVY190SlBiWGxMbU51WTlvQVVtTEhBbmF5Q3k5TFFqTmxfLU52cnRJdDFfTTRwTVJGaGFlNFFxRmVCSHQ4TkZOVlhsQUo0SVVBZVhJZ2VDZURDQ2hTajVKTkhmSHk3SnBOOEF0NWhMcW54eTdvdV84ZnZkV3ZUTXUteUkzWGhGTHhEYWtXMlRfZUotTHN0cmlJd2d4SVFOTmRXbmZrR1EzSzNzRTd5ZGJfOUFyNG44U1lkaUVMOXFURzRIMl9Kc2RyUEZuVklZMGZLY2dJNGdtLTUyWmZBMDZCcmg2WUkwZ1J0dUtWb2NrSFpPTzdEbVlUdFVsVWFPRl9OQkpnT0RsUXF3SXlCZWU2MmQ5RnVIamg1U1pXTE1fU3NPRlRaSURPWlY1X0IyaVR5M2xjSDQtek5kaWFGczZLYnNQRnBXNy1RYUR5YS1iVThPSjRRX1BfWHp3VkhwQQ?oc=5",
+      "published": "2026-08-30T14:41:44+00:00",
+      "source": {
+        "name": "السياسة",
+        "url": "https://alseyassah.com"
+      }
+    },
+    {
+      "id": "4b2cc38e9cc4",
+      "title": "فطر خطير مقاوم للأدوية يسبب عدوى جلدية ينتشر حول العالم - ammonnews.net",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96OEd4VjVMbDVLMkVnYm1TLVVrNDJKdGZNOXh5RVA4YmNQVWoyZkFFTGhRZmJhcVlPYmZXTGhxa3ZOaFVqUUZWTXQxQ0xRUDVsUTRN?oc=5",
+      "published": "2026-09-06T10:26:10+00:00",
+      "source": {
+        "name": "ammonnews.net",
+        "url": "https://www.ammonnews.net"
+      }
+    },
+    {
+      "id": "84c4ed9fd144",
+      "title": "الصحة: مجانية العلاج وتوطين الدواء أسهمت في القضاء على فيروس سي - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMioARBVV95cUxPbTg4bFV2ak02REw1REdaWW5kWVZlZHV2LTB3d3BST2RHTktidWVRS3F3eWU2VXJjcHV0SnZ4WUlpaFpaUlMyNnl3RVN3ZktDQW45b2ZOVXotakI2SC1iNTRfNTBCYkVoVTI4c3dhN1ZvbjM1WkhERWZNMkZEaGxqNXpCVm1Ea1VTdE03bFR3ejhGcnNRNmVxbzBpZ0RyRHJpbmxHSGdiMk1pTkI4ZUUxZW44eFF0YnRwZ0QtdWd6UEpQVzNJZ0xfclhIekhmUGk1ZDc3aUctRXUxNzVrYVhvTnpseFloYWdxaWdRc21pdjd2M0tKQ2xFTHpPVHRLWndwZ09oakI4Nzh5bGxvOHIxTFhnNmNKSm5BaHVEYjdQT1JvR190Tm1hQ3ZFakpOeTVYbFJLUUIzYXgzNXB3SlRrQ2JOUUxUd2kzODVuMFJpLUlpTGl4NGRwTmxwVTg2emJ1TXkyb3hjREdlYUktNzhQbEpKc0sxM3poVVRrcThfVnlJenl2Q3RKMnpVVUFhXzFScnJweEdURk5STjRXSXpDS05DV2pnODl2enpGcjRrUnE0NUdQVnJTUWJDd1IzWEFmd0gxT3lxM0VYSTRxR0g5bXNqb3ZOSm1YcEFZZ0tRbG9hWG5ieFZPY2JvdTcxWHFvX2FqVVF1eXczdlFCZHR1VWF3eEpkd09ka0RBYTFRMWVULTRYRERDNG9xTXI5NXNs0gGmBEFVX3lxTE91dnoyMWJzc0FFYUdiSktTcnU3b01aMmNoX0hzTGxkSGVDNl9ueHFIcUwtRzlZUmdKdTBzQTRTTUJyaDlWT0gwVnd5VzlCS19vYnVrV0Q3dEdHZk93MU82LU5lZHpEMDRFcmxHNVRpOWxEZ0oyczNZQVNrUVhnc1RhWjVVTTlwM1NvOWtVd3llSVFld2pqUURIMElObF9LeTk4TWNKZ2ZRRGJQOWhydk9HMlRaWXhyWWUxajlkNFRMcmhTbnM4STJpcEREbTE5d3BRcV9SaWJTQWE3ZzFja1NtbzNZd3p2WkVLTVJ6bUFZRERwUVlzVktiN0ZUZEJ4elo3Zmt2TW5uc3pVbzFNeTNESlluX1NGeURwOW54U3RTLUxmcDB1RG1mbW43RjZ0aGU2NTFFZ3BvUTVDTlhSWEVXOGRmY0hKMG1xSU5mUmxmOGpSMDNoQ096cFlOcFZBbExqLXJpN3kwdldpZjRsSlZtRThhZmJOeHN3WVdZal9HVkhKU0ZGSjRrNV84RXk0VUkzZE1vc2FxOThWVHdrVVVnMFl3NXhFRVZJMFZTRmlnQ253U2tkaWN4Y0ZiQ3RiNkRTZVM1cW5VNVRORFluUy1MQTd1MDc1SFlMTjc3VmpjaEZiWXk2X0FWNlJnRjN1VFFzbFR5eGwzODcwT1hCS3dlSDhuN0ptTEU0bDNEVTMtYkJfbFRucThnaG9MMGxqbEJiN3RKMmc?oc=5",
+      "published": "2026-09-05T16:15:46+00:00",
+      "source": {
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
+      }
+    },
+    {
+      "id": "61d7f290c671",
+      "title": "تعلن وزارة الصحة العراقية / الشركة العامة لتسويق الادوية والمستلزمات الطبية (كيماديا) عن اجراء مناقصةالمفاتحة المرقمة SUP 96/2026/66 والتي موعد غلقها 2026/8/26 – Embassy of the Republic of Iraq in Bern - وزارة الخارجية العراقية",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9QS1dJOEUxR015dWtBT3psQW5XcGFQRzd2NlUyblNYc3E0SHNheEo0VlZpYmRoa092bVU5VnlvUWl3LUc4MWpF?oc=5",
+      "published": "2026-09-01T06:13:53+00:00",
+      "source": {
+        "name": "وزارة الخارجية العراقية",
+        "url": "https://mofa.gov.iq"
+      }
+    },
+    {
+      "id": "c9f8173425eb",
+      "title": "أفالون فارما تواصل الصعود للأسبوع الثاني.. وترتفع 3.24% وتستحوذ على نحو 56% من سيولة أسهم الدواء - Dawaa News MENA",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOc3FFSGhwZWo3a2JGc0hFdXlwU0ZFcnpIOVNQY2JhN2tVa1BaTjVObUIxLW94emNmOUNyXzFVNmRYdWIxYWRzSXpvdlkxUTVLMk5acmJLbEdsSnB4cUVlRTVLY3Q1b09pOGJ2Vi0yVHBkNVpXY0pfajBzcWxzbk5tNVBB?oc=5",
+      "published": "2026-09-05T14:51:58+00:00",
+      "source": {
+        "name": "Dawaa News MENA",
+        "url": "https://dawaanews.com"
+      }
+    },
+    {
+      "id": "b18b705d5d2b",
+      "title": "الصحة تنظم تداول الأدوية البيطرية الوصفية وفق مفهوم الصحة الواحدة «One Health» - aljarida.com",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sUy13VkV6a3ZBcWEtNHplWjB1bkRfeWVfaUtmcXl4VUs5WFJ4NTFFRVB4TlNUN1MtZ3FPOVdXaU9yeXN0dVYxWXZia0tpZmcz0gFWQVVfeXFMUFlNNVkwZGdVVlBLaF96MG1TY2hndHBVbzdrODhlYlB2TC1XeDVHWmlBc1Q5M1locTB1SVJuRVUySEE5SjFYRGNDVC1BOHRXbVdIUkVhdEE?oc=5",
+      "published": "2026-08-30T15:10:00+00:00",
+      "source": {
+        "name": "aljarida.com",
+        "url": "https://www.aljarida.com"
+      }
+    },
+    {
+      "id": "770818b0de10",
+      "title": "مشروب بسيط يخفض ضغط الدم خلال 20 يوماً - البيان",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qTmdLYmxjb1g0LUh1NGNQRWtKYVZQMFhPU1FIb3VNQ3hwN2poUm9KeDRqMl9PNmdPemVGSVpsYVZSRlJXdm9PMmRhdnpfTE9ZeXE3MkkySWNPTS0xYTVNWHQ5WEdwV0VMTXkzSW5oSHBDZnZqTWfSAXtBVV95cUxOY2RQOEFSa0ZnT3E2bFcwbEJUVGhvR0tFN0tZanBoRW41VkprcVdiUnBLVVl4akRuU3BXbmg1bWRyZV9EbV95Q24xaE9hVTFlYzNpMjV3M05NTWVGODlNb1NFQlg5UDktV2ItanlLcDFHY09PNnM4c1lzRFk?oc=5",
+      "published": "2026-09-04T17:16:00+00:00",
+      "source": {
+        "name": "البيان",
+        "url": "https://www.albayan.ae"
+      }
+    },
+    {
+      "id": "b9eece4ba98e",
+      "title": "أزمة الدواء تتفجر من جديد.. ومطالبات برلمانية بإقالة وزير الصحة - أخبار الغد",
+      "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPMFBXMEdMZEhabXFzR0FtQ0FjSWJDaHIyd3MwcTlFWUJZMUJXbVllNVFFTmlBRF9iOEIyZERFekUyclBwdm1IaDRld05CaFlLOXViSV9YdWlmc010UmNObm5rUDk3cDduRWw5ODVVYjh0NGlnSXVqUFRDcERqbjhEOC1WaDdub3lLMUdtYU53Qm1TcFJicUxjdWFCVGh3aGpTbU9EendhckJzWDJHVTEzZHVET3ZGRTI4djdyT291aTZqS3lCTE10Zld3QjVqQ2tHWHhnbG91QVBqWFhUSFUyOWRSQjltZFNkT3Q3SjRZSmZhaVBmSTJWcFpYMmFySkNzOHR6VVVISTdiZGZCXzMtUVY3c2hlR19OODVjY2hpN0FjRWNNUTNNY0Zaal9SdjFhRVQzcW1BcmUtYV9ja3Y3Qi1BZGlZUk9rdVhqQWFBa2RINFA0cGc?oc=5",
+      "published": "2026-09-05T21:41:00+00:00",
+      "source": {
+        "name": "أخبار الغد",
+        "url": "https://www.ghadnews.net"
+      }
+    },
+    {
+      "id": "cfdcb91d79f4",
+      "title": "علاج «القلق قبل الجراحة» يخفض الحاجة لأدوية التخدير 25 % - البيان",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sVTBNNUNvRFhhZDlwY2drS0x4SG93a0V2SE5TUzJpLV9HY3lub2JTZHZKdndsRHNUZnJfeFlrZ2dhUzg3UDhJZ1BUelVxMTlJdEtCMjhXQTlmZ9IBX0FVX3lxTE5HRVpwUkpHbkdGcFlZdVkybzMyOUZUejZtYjQ5a0FNbDJnTUY0bnNzaEhKYjlFZS1UWVY0UXRQQUIyazc4UHVlUHdqcHNabzVqQWtzUG44SnFMMWhmbjFZ?oc=5",
+      "published": "2026-09-05T20:49:00+00:00",
+      "source": {
+        "name": "البيان",
+        "url": "https://www.albayan.ae"
+      }
+    },
+    {
+      "id": "c98fa6c3ec04",
+      "title": "متحدث الصحة: الأولوية في اختيار الأدوية للأكثر أمانًا وفاعلية وكفاءة - almalnews.com",
+      "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNTy0zc2t5RlNJOWlLZUpFLUxjcVEzSUdaNXZJVEJxNTFRNGNMQXUxRjBjM0VsOWNfOU10WGxlWnZ4SzNIcnV5dk0xaGZ0T2FzSmpaNEZ6VDdRTVR5QWp1T3NBNDJ2R0hYZGI4UENQY2tkUk9sYUMxZjIwWkhySGhKWF9fR2xGbThRaXVNR05sVlFLc0Y4WEdlWGw4azBxODZmMjJtNTlsZW9QT1cyTENxSDRUQmdHdWQwVGZlMGhyZjdGMTQwamlGakRna2FPNmRKdUl6UERVUXF5ZGNGZHd0T19RbFdHWlpJay1mbUhLOUNWRTBPSzJTU2V0NlpnVWtsOVdDbGZUd0VWNnpnV0h2NkhOTFF4bkphU0lkV0ExemFQVV9lbUFreTdoeVlUeVFPQVRpODJkSWNyVzdTZE9LYlhBMkdMY3JucVFVTmFwOTlMOTFTUFNBWWY5RHFHWGRsVzRvcnBmZGExd3V2cm1WS0lVMHhjYkJGNUFoNGVSV25XeVQ3S2c?oc=5",
+      "published": "2026-09-04T20:58:09+00:00",
+      "source": {
+        "name": "almalnews.com",
+        "url": "https://almalnews.com"
+      }
+    },
+    {
+      "id": "bf7386edbffa",
+      "title": "ما حقيقة وقف استيراد الأنسولين؟- هيئة الدواء تحسم الجدل - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxPMkdRa1o4eFZYM01QelkyTkRiT005cGZhNnhpWUtSajFIUGlLcVJmdHVYQ1VpNk1FY0p5SWlNMFVwWGFTZzg4bWZQVEdKM0FJMFV4bHdZZlhNbXZNbTNpUzZ0YURVYU9lZy01Mm14bC01aER2WEx5b21oVGQxTFk0UEE2Z18zekV2dTJnaUw4clRrOU4xM0xlWVh4QlN2ajF4MnJILUJjU2hHYnhHaHE1RkQ0ektSaXJNR2pjX1l0bXcwdmYzaThWTWZzVlRqZEtVb0YtaS0wYTNQLXhWVS1UcDBvOXMzb0JMdzVVcG00WUxMRkQtbjFoTVN3RTNaejBRSU1HRmhTSzA3UnlMdEN6UkFqV1ppZnR5V3Q4cHRKLVpkU3JKaU9Ca2hCNHJzSzdncEY5c0RpNWxzMVFRMGd3eDV6UVpJNzVoMlh6N3piTXcyeG55Q1kwT2s2U0xTQUZlM2JPczdsZ1dfV1lVaERxX3UtVmpWaXA0M0Z6end2a0lLVEY4aGoxMDlmSkpiRzdIRWZNM1MzTjVlTE0waGZWVVRZZzRGSDhibUdCMkZVSkRKa2o0YmJhdkx3UzJkdTZHRjBNTjdGczFaRVlJVlUwOFlWLTV5bkt1SEo3TWJ3MF9WTDlkZWdmQm11dTTSAfIDQVVfeXFMTXp6UVZDWTFqeWtodVlZMXdNTHdZTUhUV2NyekVvdzdhTnA4Ry1aRkE5S29nWWM4OEQ1WHJMVkdjVHJFazZnQ0hKc0d5dE1wc3kzR2NCYkZRR2dNejFwdnVrZ0FEWGdILVZxc0VEbDQ3cVdGNUVweEREelhISC1HeXE1Y2pTRlRkeXQwaXBYS1ZiOTlvT1lMSHVRU3c3NkxPcmJob2d5LTdnVnhfenVja0pRZEx1UW91TmpLeVB2M1NLMi1SdDVmQkptWTk4UmprZHR2d1U1NFJYaWhDLUZHaDVsSllob2dBdXZidndPWDdzMnUxaUF0ZzkyNElHa2JBWmRQNmk2MnF4ZTlVdjJvc2V2cHNHQy10VG1NQy1rdXhRNF9EelZVU1RGYS1Ja09BU1VlRG9PcjdHTG5GdlV4a212M2ZfMDRuMGVXaXVWWldXUG1hcm90YVlRU2pMa1NmTHU2cU1oZ1NfaTEwSmtFYmpSZnJEdE1reVJwSXpiMjBwLXhNMU5TaGx4ZmpkWVhjbXYtUWtibnQ4NmtwdUpVZXczWUlEYl9NR0tNNVlKRW1HOUpxZ2xvTjR3MnRQWVRwRXpGVDVVc3h4VWxvSU94eGJoRW1iQ05NcjVrR0gwRzF5YUdRam5mZzZhYXM0YnpWdDd3?oc=5",
+      "published": "2026-08-13T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "1f1420e67e82",
+      "title": "بنتائج تصل إلى 25 بالمئة.. أدوية تجريبية قد تتفوق على \"مونجارو\" في إنقاص الوزن - عربي21",
+      "link": "https://news.google.com/rss/articles/CBMitgRBVV95cUxOVWlJdG55UGQ1OUdIVGR6V25hc3hEMW1hWjl0QUxvRTNfNkwyOVlsQUxmbzEtMDMtb0lYbXZReWZFYWlpZDk0RGJVWm5kR3E0Q0Q0OEdCUm9mek1JU0JDdWpxaWNGN19mR282OWV3OWQtUGhtbWxvTjdodHhxUE5SdVA4Vzk0eXV5SFl3ZDNCcVEtcXc0WWJGSmVYX1RwYll4X0tqLTB4eEpfdkdqZ0t3RGNzbWVCZXU5RjFXNzlOZi1OQmxjdEYxQ2lQcDBmNEptcktIVnd2cDlmbzhIRU9FTG0tNzhfODRFQ0psSHRSZGY1UERPSzZDaXZwckZxYTBwWHBieHktcWVqWDVRLW9QaDJjUUdCY0NoWmMxMk1DMkZFMDdQV0Q4ZVpERVE0Yk5fd2VPbTZSSFJoS1ZSSkpoOE1nM3cwVk9EM1Zyc2pJcEZxSVBtTDRoRzVSRXlIR0dPeWJjRzlFTUxVempqbHFnc2ZMc1k5Uk05anZKck1XdDFlQVdldDUwck5QSGFjQjdsZTZLYXdCSDd1b2hFdFVjZWZGSDZDVmx4QWlpRkRJM3BvcUZ6V2cxSV9tcTRUR1EyOXpGYkwtbGpacDZTOVgzUExORV93ei1OY20tT0FWaVNJNE1YQ0ZlYlVKMzExZm9VSEN3WHBEWEdlX3lTaDVMWjlsU0FjazQ3TTVhcU9CbEJ1U3l0M3p2N0hMWHhYbUJaMzZKTXMxOGN4eFVsWkhhdUVraWloUdIBugRBVV95cUxQWFRzd09QbWh0M0tLS1VMaWFoWHZ3MjNFYkZQNUZYT1lFUW1QTDUwbnlzRWtGV0FBa05FUFZqeVIzU0RIdEZkTDk1Q0dmVFdMc3RNZFFMR1ZPYVJPQzBpZUdJX1dwWVJFOEpTRzcxMXlPcHVlbmkyQ3VTRkRnd3U3LVRTVHlPMS00NXFxS19sTFVEc24yUFFjOWhwSmdueWE3MVhOa2hLWEhjaHJnZWhQSGVsOFV1TWpReXprWWtKWkFhXzZaYV90UTRXSzBFWHdMZUlZMlEzQUZQTXNENExqbDVLNHRqbWItWnpkY3VHcVFwdlNONWcxOUVoSjRmWlR3RWx6Y09Fd054eUxzTU9DQVcwWHJBR180ZWN1OE5oa043OHdpSTI4M3RGanhjSUFRVUUyM19OM1BTTHROUng1NWhQZzh4V0l3WXBpVmdENEJORXZxSUROR0R4eTVaQVUtY1gxei1DYzlBeGkyeURZeWhuangxdjVlYnQwWVpyeFJ5RGVhR2I2Q0MtUGhWTVplWmNFZjBmTzhHazl1UjB2VTRybl81SDdmLUFSQ0RqR2JaX0UzRGhGQnZmemxPVVlfa21qdnpkZlgtRkNoaE1BcWNuRGswdm84M2F3TnRUTi10ajRaTkNSbUxQcENWdm82anZNMUo0M21CUGxRTzV2YTFhRzZkY1RlRDg5a2pZMDI2YVBZQzBsT2xaeWZfakNYQmxWNFhkdGtfM3p4X1FidEVta2l3WE1MaHc?oc=5",
+      "published": "2026-09-03T05:45:00+00:00",
+      "source": {
+        "name": "عربي21",
+        "url": "https://arabi21.com"
+      }
+    },
+    {
+      "id": "c422ddf296fd",
+      "title": "سر مطالبة النائب أحمد عصام عضو تنسيقية شباب الاحزاب بإقالة وزير الصحة فوراً؟ - موقع الصفحة الأولى",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5WZnZVTTg0X2Y3UnB1N2dlcGhaX1BxLXd0SEhRWmt3a3U4RlVpdHpIQUhyMmtfeGhkQ19KSkxrdzNkQQ?oc=5",
+      "published": "2026-09-05T19:23:13+00:00",
+      "source": {
+        "name": "موقع الصفحة الأولى",
+        "url": "https://www.safha1.com"
+      }
+    },
+    {
+      "id": "98e7f39b0ded",
+      "title": "رئيس برلمانية حزب المؤتمر يطالب بإقالة وزير الصحة بسبب استمرار شكاوى نقص الدواء - بوابة الشروق",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYkRhRnJjdUxRcDBBTlZpdmN4Q28yU1VMTkUySjhaQUhmZW9TYS11QVdpTmFheEJMWjhIdGwxNERyVjVzbEVpSkdKOXNTQjl3dUcwNjhBaDBGWWVobkJ0MUctT2s3ZEdZS0JRMDVMY2l2czNLMDFYUHNfcVRscFd4Tm9oTjQxVEtmc2dYdW9NMjBFcFVyMWIwbENWS1E3b04yUEpaQU5Gcw?oc=5",
+      "published": "2026-09-05T12:46:37+00:00",
+      "source": {
+        "name": "بوابة الشروق",
+        "url": "https://www.shorouknews.com"
+      }
+    },
+    {
+      "id": "34735a5cbac0",
+      "title": "تحذير .. أدوية شائعة للسكري قد تزيد خطر الإصابة بحالة تهدد الحياة - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMiowRBVV95cUxOSENSaTF5Qm9pM0VwMWxqQW1KUWtWSlBKYVU3Y0ZPZkRBTEQ5Ymc0X2F3dURuaTBONUdHWkJSczh4Nk1GVV9vVHpDdkV0Q2VxUW9hcW1yTlcwcjBveGNHVVhUOUt4c1R1czQ4Ul81aDVFRFZJcmFqeUQxbzlmOUVXdXcyZzRRQl9MVkE2cWxzTVlYbzVFLXdyQTVNXy1FOUZubm5iNkNOYW5YUWRiUHN2WFVvMWhjYU1BTnpPdU1HcnB6TUlqejFoRG82akhWUjJLbmxMZERIWmJXODV5eE84YTk1bnJKaGxVOEhpSm5FV3RYS2tzT3A1c3RtdXRvaVY1LThZVVhhNzlBT2JMVHh0d0M4NnRGSHlvOGdPQkUteDd1Y1MwU2huU2RXVEFxNTAwc0FlMGNNYUd1M3p4dklOZlo1MXRxdlpibTZYNlVIYURCTEdIVUZqYkJGVG9RcXhRVTVzLW9aWC1pTEJSVzJSeG9IM2xlNDBsSktGdXZ4Uk1aeVhWYUlzXzJuUDdoQXYwYmY5Zm9jV0hiNVVsMDNzS1lmNlRHQzZWUzJqOFItWVBfQzI0MkhjTVV1VnJEbGQ0VmM3ejJJSFdQVkZlbDhGdXNLUDVBZnpjZEFJS28tVVg1cEotcFVwUV96a0Z1NHpVb3hLMktibGx4V09Pbk5vUDc3d29zelByLVNUSFJ5bWdjdkx5YjBvaFNQSHZBU2drMFBV0gGoBEFVX3lxTE0xUXdNb2g0ek5UVWc2c0plTUUwbEYzRlpIVkFvbFlhX1prTDNpdFUwU21jYWRQM2lfUl9xbldWRlNZdXV3Yzdudnkzc3FkMlVCRWw2ZnUyRW9fRUZDODI1MFNYbkNndGEwWHFtNHg3Q29HVWJjbW94NHEwUEhUWWhsdHdSQTZXM3JrcG5QNG8zNU82dGIwenpkVTNKa1F2TVhCZ1k1dzRjVG9QemUtRzNKdzBPR3htSHdreXIwa3AwclZSVW1NMHNiWlQyc2RUTXh2azU0TnNxcU5lVjktVWVCUnpIM0pvMkRzRVJvSS0ybUVhcDBwdTlKTnJVWndHTW16amdIblJVdGJ2eGdqcExqLS1aQ0VabVF5N0hMMlVzRGw2bGJndGUyYTB4Y05BMlNqSFQ5ZGpEUGZUMGV5LXgyWnpiWHZPQVNNOWotM0d4UExKcTBuMnZMNy1zOE4zS1pQUXZxcW5IMGJTTVRvMFhtdVNGS01iclZ0Z2w3dTMxYTVoUDl2NmdLaDU3Rk9mckxUUktVYWlDWnlWUGVXZkdycFZLRlNZZEtDQ1pZTEFWUGtNc2xhYklwNkdXUVJBbHAwRUFLeDlIck5TVmx4ZVNkVHA2UHhjNVlPclMzX3dxZzBHVEdIVllWU19ndUg4OEw2ZUZGX2I0bURka1JSUEU1c2dWNlR0RDJhTUxLV01rQlZvaGs1bDBWVjVueE5wM21jODZmOFk2eQ?oc=5",
+      "published": "2026-09-04T02:00:00+00:00",
+      "source": {
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
+      }
+    },
+    {
+      "id": "5e5a62c71df7",
+      "title": "نيوزيلندا تمنح ترخيصاً لطبيبين نفسيين لوصف عقار «ترفيهي» لعلاج اضطراب ما بعد الصدمة - بوابة الوسط",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1TOG93TDRpNGdJU1hBekNBNlhNRk92UjZnQWg5Z1dOdzFUaHdNQXEtdEVpNm9zY2NUOWZmQnN5YUFHNnRs?oc=5",
+      "published": "2026-09-05T19:40:45+00:00",
+      "source": {
+        "name": "بوابة الوسط",
+        "url": "https://alwasat.ly"
+      }
+    },
+    {
+      "id": "85b26cbf3bbf",
+      "title": "«الغذاء والدواء» الأميركية تجيز استخدام «مونجارو» لخفض مخاطر النوبات القلبية - بوابة الوسط",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4xTWNjaG9ETGlGYkxIVFFHaGhxRTZUQ0IxUUZ5NE1ZUGswMXV1cEY5ak5oUm43RlE3b19JVGg4ZGNrcEth?oc=5",
+      "published": "2026-09-05T11:58:08+00:00",
+      "source": {
+        "name": "بوابة الوسط",
+        "url": "https://alwasat.ly"
+      }
+    },
+    {
+      "id": "0ef0be90a236",
+      "title": "الصحة العالمية: تحقيق السيادة الصحية فى أفريقيا بإنتاج الأدوية واللقاحات محليا - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi1gRBVV95cUxOSDJIcG5lRllGdTZ0cGpDX2h5ZmZnWjByTE1XaE9MeW8yeWJZQ0hxUDdwc2JvdHRNWlVNSWdVcjNXNWV5Q1FCZ3k2ZlBuQmRfNW1ydXBXa05mSlc5UlZtbHV1Rl82X0VFd0FfWXRTTVkzSlY4cW5sRi1tdnhzTE9CWkl5U0t5emlRWHRNR01QZ1g2bk81YVFQTWRXM3ZtbGROVmZFOXpSU2h5M3hIS0dyRmQ5NFdiZ0pUZEFrVl9rdnNuVGlxVWVROFZCZ18yTmhuYjRvWUpFSU1ZQ3BXOWNmTnFTN3ZLRUVnaWFNSGdrQ0dYTlZGSWhOVkZMaldBcFlvNHBuaVdFT0pTOFctcUMwNWhTNmNja2t6M1BZbHlvcUNpeHhEUkV2OGNTRTFrQThvRGZ1bW5ZMi1PbnNzelFGdWhWQkpocDBmeFlBd3VKRDFUTG00dzVwci1hREM2MERVZXEyZFZjbk1TZUdFVHQ4ZXlJMEs0eTk5VHBiaFdOMHBYZVFJSmhkWFZBNTFLaGxJNVJ2TjNaWjFtREZuM2FXRjhoZUJQSTB3Z1o1M2FRZmdpYnlfQTlWM1hZb3d3bjFLWnRvZ2VzbFczcXBSSjA4djRhV0FTV0ZuX3Z0cW9QZGwzYzdnaFRYNHFkZklmVENnY19Nd2RPMG1yLUtsRVFTdXY2dVRDYlp1NVdhMDlrc0tKYnVETVZEUDhkQ3F4bGdQZ253c2hQa0lhNFNjWHd5aVBRNFlPOGJmWXhCNFZ2a2NSamRMUU15bFBiNFRtc3JCQWdNZ2N30gHQBEFVX3lxTE5HNkVkaHp3amx4TWNuNXFsMVp4QzhFZDlCelVhWGNsdEQxZFF1MG0zRUo2Rzl6MVl4R1BsT0xfQ1ZBelRhNzBoakRzQnBGRzB4dkN0MU5EN2ZIUWp0TGhsemYyR1lqTm1FVFNZV3gtZFJGYkFSdWQ5cXM0T0VUUUduQU84MVFxX3FPbm5JdklXbWV1TFJIZkNTM2dmOTQwdXhYMXJjT0Z4S1JjcmZLVk5rQ19oMlRoMmZWZzJFbEluSVdrYWU3U0o5LXljZVNaekVYQ0htdlBwdDdRTWxsNHkxR1hxMXJYR0VQMXBFbGNIZ2c5QkZldzFmQVlhT0hqU3pQU2FsV0hDWno2bW9RYjc3SDYxcVpIRms5WHhiS0hzT2FiQUJsNEFDT0JaeHo3eGdkS3dUUnExX0phWVFOY1p2VEs3VVh5aWlnakMwalUwV0pfMHoyX05YbTVjazB2RHhsRGptZ0tMdnhGdnliOFNuU0FMd2hLaG9EeXkyWTdKdmtPWUcxWjBPd3djU0JGNDUwM1VTSktvd0ZpR2ZYQm51RUhZMGlNTEd3LXB4WVJKdkljaXpydW0ydlJuUktEdEhNVGxkWnBvNkM5MzJRYkpHR1RxS1ptSHZ0SjF5S3h4a2kxNHpIOWNjTVQzdHB0ZklKUWFpeUZLVmJVLTkyNzZ2MEZmYk5VMTk1ZTV4aTJvaFNURFN6M2k2WDlkSmU3aXdXZ2dRQzQ4QkoyODFZTnJ4WDAxT1ZXeFBWT0VRQldEZ1lYOUM2U0VwdWlJc29UaE4?oc=5",
+      "published": "2026-08-25T07:00:00+00:00",
+      "source": {
+        "name": "اليوم السابع",
+        "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "0d0d1668bc40",
+      "title": "معرض الصحة العالمي 2027 بدبي يوسع تركيزه على صناعة الأدوية - وكالة وام",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPbTZvbmIyMFJTQUtBUWFRcW5Tb3AzS2gwZkdDeGZJRXlmTG0zdFk3QTcybFVtX1pFWW9oU3NWTDl0aml5aHRIb0RkUzNlWnMtdFZac3hJdGkzSVZFTEltQ2ctMXpMczFiTzlZdzJ3cHdzbm1tOHJmWW5JWmVJbnpJWXFFVXpIYk5FblBRTXJPQ3VfQXlrSG1TZDVrVldHd1YweUtDSlBsWUZPMy1wUDBwSWF4ZXBvNU5VODROVXppRmNkdWtfZHFnT2dvSGJpeXBLOXJUNkdzSnVkTVpnelhvX2UyNTR6V1I1WnFnY2YxNmw5azNuRURNVGJSTHNKWlZKUU9GYWoxZ0xMNVN0LUU2WHYzb3JhbmpmRzRMYUt3MFhEVmNhaWZ4cEJJMzYyazlyb0U2ZHVJVkdGRHJGaTA1SlhONkJGYS13MkdvNG0xeVFhcEtfZFp4Z285NkdKUFBwbWlnWFFROVBkS1Bzd2NQMW9kZHFKVTBydTNLTEZfSms0YkZ0RTVwRDlMWkFOSEE?oc=5",
+      "published": "2026-08-24T10:48:55+00:00",
+      "source": {
+        "name": "وكالة وام",
+        "url": "https://www.wam.ae"
+      }
+    },
+    {
+      "id": "7be638e0352f",
+      "title": "علماء يطورون تقنية جديدة لإيصال أدوية السرطان إلى أورام الدماغ - جريدة النصر",
+      "link": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxPSUdOeXhYTGNfZTE3QmhzTjItQVRfdVhOdS1ZeGtBTzRndU5rUThNVF9QcEFESWpzLVhPUGJOazBYWEkwTmdXay1aRjNXaEcza1l4NkFDc2NYUTlOdDAwbUt4WW5rdDVmY3Y0N3ByWUJhWXdEVm1uYlhVRXBTdXVXajJ3VjR2djBqcVY5RHNlSEo4LXhxX3RXWlhfa1JFaEJ3QTFzY1FHVHhSQTBTeHo4aUc3c2h2ZlAwQWtjTGpUOEphQVNvLU1sMUpmTVJKNWk5dGpndGo3dVRJTTVCZGpIUzg3LVFRNEctb09Vb1JtSWxoNEF4Mkxxbnc5Zlp6Mk9ZMGYzb3ZlVUNtSU1naU1qQ3gwQTFKaEdqVzk1WXNIQ3ctYk9EdWZsN290eG5EQ1ozeGxVS1pNNW1yUC0yQ0FmZko5YUZPNW5OdEJTVWtrVlBfZHd4U3lNcDAtbDhPbFJFSGNndU9QUjdOQTV6T3c4ZTNMdEZfY01nelVPZi1BSTQ1NEQzZUVONnEtUG5pQzV0Q3BTVXlDQV9GdUx1UGd6T25lRXJoRW5IWXFpY0FDVS1nZTZBa3lMWUc1WW1MQnJFNGVsS08tQVhpU245V1d4YlhSVDBBS2VYdUkwZGxDLUI3ZnpiS2FwRm5EMlM0cEJsdDROM2x3LVZ0Z2cwVVZCLWFtTXZpTHVDanlZU3Vvc2dtWmc2OVlXRVJVT21kWjJkdjY5WGk3TWxBRW13Z3R2d0YwN25jcE1ZRzdfTWlqOXRpeEE?oc=5",
+      "published": "2026-09-04T18:10:08+00:00",
+      "source": {
+        "name": "جريدة النصر",
+        "url": "https://www.annasronline.com"
+      }
+    },
+    {
+      "id": "79b45ee3eeef",
+      "title": "لحماية صحة المستهلك.. هيئة الدواء المصرية تحذر من نزع الأدوية من عبواتها الأصلية - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxQYnk3dXNYamtMU3MwN2ZlcFg3Y0RHR2M2RzY0Y1Zudk16QzVSMU5OSWQwZ2NKeUlsaWFmMXBWSG1wUUZUdEVtTThfNUR4WmVlT0JNWlFjMTdQcG16c1BjSC1xdmVudXhYR2tzeTNxaHptQThvUmJoTk9YcTJZcElNVExpeG4yR0RwNTFyaHB2VEVYMDlFNWt1ZFNnQkstZHhpVTdWTjhkUGV3ekxPZS1rMlNNNFVhcjRwaXhXMHVoaHlVeXZFTFAzNHdfaG9rRXZWZmN4RG44N0s3UUIzZWttSkkzdUdqMXUzQXFZS1BsSFppZ3dGTHlWMVJIQjQ3SXhYRFFySzZHNHBRUnR2SUtUU3hObmh4VDR0M0Z2bHBEdXdXdXZ1Tm1BS0dQX2UyTy1QcjcxcklrY2MzVnVEWEpyOXhJeVo3MEhnWGVkQWdraTR4Vy1ZOGY4ZjVzekVEeExpRzg0S3M5SEF1UEstc3VVOFhScGI1TGFncWVfaDU3UWZ3OVNZdEJWaWxnb245azUyaVR2Z0Z0Z2REQjRkUnhEN2hSVjVtNWpsRTRNQzQ5cm9pQURnX3p5RXFob1R1QUN1VUh0UzB0SVVfVmYxZkU1M3dUQTNOU2pLN0E3ZDRzMEk0MGMteUN5Y2RvUnJyOVFZUy1FS1BB0gHwA0FVX3lxTE9US0FKUlhxbFFkVGNkdWxOdWx4OTVMTUpzcTRxbjRVN2RGNmhZUW1DY19aZEtlYVdlUjN1aENRck1IbjBxZzFTcDNCYVpqU0lHVzBHNF9HOFZZQ21ZcWJtRGxzOV9hWUdmR1lVUzVGZUpjaVRaQjBkRmRvdGgwNUJKU01ZMGxlM0xpUFVTWW5Jc0x3dkFMb1hZY2VlaHZHajljcnk0MnlxRDBVZUkwREZIa3NWOXRfMDgyZkd4d3dUYnR6Nkp3eTJmNnJ2dDB1clFwM3kwTHpqQlplUTlIYWp5cS1zaklETFRld1RNeFVBWnRLakVhUVFFc2swaFRqb3BHTGJOVVlJN0lKRGdCLVh2VDlnVjFMLUI5eWRvVzdaeGZNc1dYdjJfQ18tODJlbHpxUzlJdm5SRlVxOGhDOW9WdkkzeGt2OWk0LVVUdWlCNHF4VG1qVkMtNWFwNk9rSXBYRzk0R0doY3pFdjZ4aS13ZlhELXo0T2ZVTWpBbEgwLUExVEtRWjlkdC1IWUhIb01jVDBlNXg0aVl4M3lXcUx0ekU0T2RmMkF0WmZaX180VjRjYjUyT3Q5N2trX3JjajlKQ3I3MExGaHBGVXZwdC1DcDQ1ZjZXbTlpeTc1MHNCUkZVcmtKTHVQQS11M3JZNVU?oc=5",
+      "published": "2026-08-22T07:00:00+00:00",
+      "source": {
+        "name": "اليوم السابع",
+        "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "5e65a25a94bc",
+      "title": "فشل عقار قلب تجريبي لشركتي أيونيس ونوفارتس خلال التجارب - إرم نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kNEEtSkw5aExLSFdCM2pIRzFnS0VndDhsZXl6SG41WHE5STc2R2ZiazY3dlNkMGtpQ2JmN0FYc0FqeHJGZ0ZJcG11LVdldlJx?oc=5",
+      "published": "2026-09-04T22:15:43+00:00",
+      "source": {
+        "name": "إرم نيوز",
+        "url": "https://www.eremnews.com"
+      }
+    },
+    {
+      "id": "2528522b7303",
+      "title": "نوفارتس تعيّن محمد تمام رئيساً لعملياتها في المجر بعد مسيرة 15 عاماً داخل المجموعة - Dawaa News MENA",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQk03Zm4yOEw3Ulk1NEdtRENkWkQ2cU1nQTZmVGE1SlBjUWxZcGNKT2FBMlgyUWVKX1g1Mmg3a0QxVE1kX1FjZXVBTzVja3Q1WnE3SDJ4SjV4LW9aYkdTZWJJWWt1QlBLV2NmbEFTTnFsd2Q0QzVCWFZRS09DQmNRVHVEUQ?oc=5",
+      "published": "2026-09-06T01:48:11+00:00",
+      "source": {
+        "name": "Dawaa News MENA",
+        "url": "https://dawaanews.com"
+      }
+    },
+    {
+      "id": "4f81e2aaee0e",
+      "title": "هيئة الدواء تصدر دليل قومي استرشادي لترشيد استخدام مضادات الميكروبات - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQU1dydTlKU09TQkJsVS1JSm83eFlOM0RVZWUzQW5CMFdGRGdXaENkN1hzWC0tSjZUdGhXSXI5dFdzeWdqZ3VxUEhnX0hQWVRlVXhUUnZBZnNxSkoycWx6aGlHV2VWNU8xenFESGQwTm1kWmJBODA5OEgwb2QwWmUwMFVQcWlMMXRENlVOTDRzY0xyTzRWb3lVaFNkcFhxM21XWkx3X2tDdVBJOWQ5YnpHZ1BtUnRUU3VySmdFMEc3UVJ4WXg2YmIzUWY5cTlncHdrelY3OTRxRHlSZm1mVmkwMjM0VnV2M0dxOGU5RjZFaXprVWxGR0p0SnVRbDdWUW13UEJ6SXNfR2NNenRLOVFRRENUQ0ZYZHZaanh6NDFpSFM3bGFEYTJPUWh4WlNrN2EzUGtqOFRYZlBTZnhRNmxYdGxkcTduUldIUFBKU3BOWlBmYW15dmk4em9ROElTQXRYOUY2clRub2JkVUZEcHByWDJFcWI3TXQ3TVJfclNRd09rRU9CVmpJWUNJUklDVFRqbzNTM0ZEcXlIVkNFLV9rVUVaUXdwVm16WVB0OUxaWU9aQ3JyVzhjMWpLdVhQSVVTWTgwNzQ2MkJnTjdtUlRILW9sMko0WVJ3aHR4UmJXWmFWN0RFcnh2aUJXZGlVNHBlVGxMT1JITHRrYml6TFBVMDJsYUtFTDBRczdVSlhLSjZxd05GSUFRbEVLNk5DNkNsaFpsMUZUUDZobEJBWG9Gc1N0dGFGcnJrUEd0Uy1LdGJkelg3V1FhX1h6WFpHVTgzOXkzSEFLNjZ1T2VLUmfSAeMEQVVfeXFMTWllT3RGX0Y5SnV4ei0xQ0JDcnBsdU9nLWw1VGlIWjV6NjY0UnFUS0h0Um1WQThxVTh1SEJESXVMc3R0RGVveE9LMW45Z0JRYmo1aFp0MVNoVzRrZzBzaEJKaThIdnVzWVZfNmR0aTB1NUxuNHphUzNTSk1PYzVjQzJtbnJmU3dVaV9jS0d5VVQ1SVpvS25LZWw1b2VqblJIY0p2UThYNHpUOFUtRWpMLU1KenJ1T3I3emlKYTcxMmY2UlgyOUdlbkFQSVY5UmdmTVRWdUVTNnI5a3JUOVZLSWJDLUJGWnctM1FLcFV3V2dnbG8ydThzRFo4Qy1XbVIxVXlwZUpKQ0p0dDh3Ni01LXVRajIzWEJvZkRCSEJfdkpXRDFmQnNXZmNtb3QzNmUwejRfUzEyWGtPT0FUZ1ZwRnAwSGhlb3pBV29FaHdQXzY1VXJHOEZOODRZLVV2QTNTRzFlN3BRa0lrZFBrM2JIeHhJOTI2Vm5HMlEySWlYSVloajBEbUhrRTBCR01HVlBDQTRFUTE0RWJjczltMmhDUnAtdWdveXlwWEtmN0FNdlpkRmhPbmZVT3l2VG13NHFOb05mQTU3Y2F2OXExbVhqbE5icHkwWnhhNzMxZTdaU0tnd3pZSklDTFhkV2FZQ1VyVy1qdzhBS3VQMHFiMWhLdnhJd3NQME9UczJSVWtpeG1zSUdiMHJZRHFlbW9CODJoTkFzZEt0UzJCaHNuQlZYajZHSFBrbjBka2VFdVpKNGxxV0dWSG5Qa0d1LS1rbU93RDM3WFlUQ3pzZzlVV3c1TFVYT00?oc=5",
+      "published": "2026-08-16T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "3c68eae3a270",
+      "title": "سرطان بلا دواء.. الحرب والاقتصاد يخنقان مرضى لبنان - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxORUw2cm5DQnJiVTlmMi1RRTB2bFpwZHZEVG0wLWE3OGExcERYbmxrU1dnMlZTcDkwRnk0U0dtNW9QU19ncUdHZjh1MWI3VTVKblBvYl96emIwWlZ6VFA5bEl4ZDVJT1A4dUV0bjdobk9qNHVnVXA0RlFnYXFjT3B6OGp4UmlsVWppYk10LU5rb3Z1NndFU0NzTlNvNVJrZHdtM0FEQ1JKM1JqbllSZndSZU1lZ2Y0NHVma253cG1rQmFXNHFUN1ItQTczT2g5V1ZLd0cyWW13bmtibEU5NEJUa3lWejBwSTEyN1dQWGtyS2Y4NUc4aVJhc0lKTjJ2YlBsVkJVT3gzamhmNDNxZ25jd1A1cVJyTUJSaGF5NlFxSmRpWjRRR2dVOTktbTRwelhXQUdiOGh0VdIBvAJBVV95cUxQOEpjS2FxSExuazBOVUdVam1xNzZQRDFqRk4zckh3U0ZHTjYxc19jUEtHenJMTzVxYlBUdVhGbUNsY0NlWEsxZm5MSGxYMFdSU2xCbXNfaWxmcUhDcnEycVViM2QwQVpWUXhPY3E3X3lGU0plOFNRdzRqdDRrejllMGFiMHdVQnFJTndpblFKNHFhMHR3WlFFSUVGWTdmQ1k5cEhsUXBob29GeXNDUkNseTdQR2xOTkd5UTNwQkRyZ1EyMXBoUThuamIwbVFSVFBmU1FUSFZvd0VGaDFBV1NyVUMtamxJVkEwcHZ4ZU9GOVk0TEhsNzhGeHF1cDk3cGJVeW1ndlZzZlRNQ1k1dmRKMXlEMU8tdEdodlJqWGIteUJOSXItS2VsT2VXZHA5b1dLTnc2SEItLUlUb292?oc=5",
+      "published": "2026-08-08T07:00:00+00:00",
+      "source": {
+        "name": "الجزيرة نت",
+        "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "eafc34dfcc0a",
+      "title": "الصحة العالمية توضح لـ\"الكونسلتو\" مخاطر الإفراط في المضادات الحيوية - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxQUi0wWjdTLWpZcmViWnJ3UzVmRnZ4YkNzNGRwV2lSY1h1UGhfOUh2UERGTlVsczRTMnJfdWNIbEl1LUd6aXB1TUw4a3VxTXZuakJvdWQ1cEZRUWtTYTU5YjdKWlF2c1BXVUgzeHZfUFV6cThBcGx6TENjQWdPdWV5RS11dF8zWGp1WjJuT2NxQ2FQTk54bGVPcHpDNXZLMmg1YXM2QXpYU3RrVmZSX2dORFRwV2Y4OU1jdlZ3dW5WU2hlUEJxRVBCbmpOQW9wM1ZUV1dId3pxQVFkUGpkZ0RDUHFfbUU2clRGd0RZTWdXMmhaVkNyWGtROEFRZ21BVEgweGRsSzNBYzZEYndNZUF0WHpzQnJfdXlTRXRPNTVDY1VFb1U1TFY2dVBMTmV3WDVIV0VSejljQmhIcXROYTU0bVY3anBQRlFLUGQxdTd2SUtNM3FGNkpIRTY0R0drZ29qT09vbkphZUlFSlhVVFFIamNPU2o1c2JTSjZadzh2U3NxNjNsM3JHcDNnX3lQT3VfOWRtejRmWUxnZUtmdEVua3BYWVFlVHpWOTdkUmZ4dElJSDlBa0xIRkN6Yl9hOFNGSDgxUWZTblNzaEl1ZEZMbmFaUS1Ucjdkbi12YzlnNnhvYkh5NmxaRS01UmZwTGJabTR5ZXktNlhDY1NqWHlNaDJXM01SblR3R2xEYXkwbTVKWmxTbENxc0pIaklkVDc1bEhEWUJCSnVqSE9mS3h5YkhUaFg4RGlITldzMHRyM2ZZLTBFS2hSUEFtemdIR3JUc05tQ3lrUy1RUnVvd3N5NDFRcV_SAeoEQVVfeXFMTVVfcFBKSUNEV2pBRGdyVElzRUh2b0pKQkEtMjU5RWhrbmV1Mnk2Q1hFOEswcGdEOTBpMklIOWhBVkVjY3o0REx5XzF5VTIxWlVOSkNqMFlKM3VrZHhBbldtUk9TU1k3c0UxQWN1WmhiYWM5dVhGMm9YRnRnQnNPUXlsSkFmeWZpTzZoUXBYZHpJb1BjS0htdFV4RFpCOGV0OXJFbkxRUHdsT0YyMGpPTU5UOFJXcENVc05kT1hDa0g1dUt5MWtmUy1GWVJkSEhOTGhwcmRsZ2Q1ekdXZGMyTkhENGoyQlVCckN2T0cwVkJ6eHYzdnNKQ3BwZThBZjZvUXFPZHB1aU1ENFh0VGZiUkJjdzAtWlFEZ0loNk9la3NvSXlyYzBhbmxSRGRUdXZRamJRcXNvenF2bUYyUU42WU1FVExOeWpGRkE3b1gxUzdkTlRFVzRIdXAwU0thS3dEN24wX3dENWRjM2tzQnNuWTlWMC1EaGFyOWhCbXhOcE41U2Znd2pqeDNQNlBycGpDOXJ3WmgzVVJtRWdyOVlxbTU0UWktOVN0WDVSWUJzSEo2dVdxU3RWUHdIUHNTZnVUOTNHN1J1X3c4Z0tlcHhXLXpjNWxMLWtDMktwMktMVERnTVpRTmhkSlR1cGxfUWg0aFQtU0pibW9aUE9fbzExV0cxMVFqaUpOd1dOcnN3TkRvaXp2TVFxOE9abF9BX0EwM0ctenRQVXB3MW5CZm50XzJPLVNNdkNud1hmTUlSSkM2b25fckE2ZWFBdjNaWFdhSUpNamd4MFUxNWFKS2ZfYWtILWV6cDY1QUNn?oc=5",
+      "published": "2026-08-10T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "a5ca2b6bd49b",
+      "title": "السعودية تُحدث قوائم الممنوعات والمؤثرات العقلية.. أدوية شهيرة ونباتات محظورة الآن - مباشر بلس",
+      "link": "https://news.google.com/rss/articles/CBMijwVBVV95cUxQZzUyVXFrVmNzZmdCcFk2SlVRLWlwSHk3U3I2QWd4T21jSFFENERoeWM0aUotbWw2THM0WTRGR05rcVp2aHJ0WVhjUGhfRTRyR01GYmhmVERuSlhCY2FnYWkxVG1kcmdBeS1UMkJvejVmelVPaVBjd2hYYmhwUTFvdFBZeWVOS2dKRk92MEp0VzRpM1BYOXpRbE13WlpqY3dJWFVNenI1NUdSaURHNGFsbUVuSGprcDlJTUNJV3RyOGxOMHc0alEtWDVqRDVlNy1Ic0pQNW1YM2FDcXlrOEZHcGZtcHBHYVFwTHY5Q0t2aGRVTU5rRU1QU2dQcENkWHI3NHBMWGgwb3JoejQtNUdYNHdpd3dma3lUbkI3VGd6aTFoX3pGT3hDdk1zU1dPZE1JZEV3VWI3TnBNUndBTU53N0d2blkxaU8tNmlseTAxNm9GNXNFS1RDdV9XLTBhcERrWjFzLTVsN1ZsaVVrZWxmc0Y2RjdFMjl0Z1BsRXo2Skd3bk1kekdrTjliR3Z5OERnSTZpRjNhcXE1NWtjNTlkZHdELVhwY3RyUWViTkM2QWVxUWRhaHBsSDI3c0Z4a0tDS0J4anprdUhlSG03U2pOR0haTE1rdUpPZjNsWmdHYTlrcnB0QURQaVRkTThFTjdvSTZ3ZW13V3BhTlNVNzZ5aF94eDB6RUpTbS10WHJLLU5zRktDcGZ4aktzUmhDRU44SFk4WGxYX2FSWEJ5M0FGUkZPRHZGem1Dd0hHa1ljVkVIQ3ZHMXdoOFZHbkx1ODdEUDJLRVpsZThMZllCX2llemU2NDVpX2wyRGk0bGNXMDFfNUdUbFVlQkVWY1poVmJ6M1dySU1hLU1yZFlQZ3Nn?oc=5",
+      "published": "2026-09-04T16:47:08+00:00",
+      "source": {
+        "name": "مباشر بلس",
+        "url": "https://pulse.mubasher.info"
+      }
+    },
+    {
+      "id": "87df0c1fa9a5",
+      "title": "صحي / \"الصحة\" و \"الغذاء والدواء\" تنفّذان حملة لضبط تداول الأدوية في محال بيع مستحضرات العناية المخفضة - وكالة الأنباء السعودية",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB0X09hUUxXVEMxa25RY1RXQXdyU3BoSTA5MEF3QzJTb3ZSSFdHbmpLSVBqaHV2X2Q4cmxLSVNFVlpwUEhLa3c?oc=5",
+      "published": "2026-04-20T07:00:00+00:00",
+      "source": {
+        "name": "وكالة الأنباء السعودية",
+        "url": "https://www.spa.gov.sa"
+      }
+    },
+    {
+      "id": "42e8253b14f9",
+      "title": "نتائج واعدة لعقار مهلوس في الوقاية من تلف الأعصاب - إرم نيوز",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2ckhzcTF5eW9oUS1WbXFXbGxHQXZSbGNDZkpQWkZwaFZZeUpvQ2g3RnVaaUhNZWt4aWNxNmhzQVBVeC1HaVhia2FBTlFjVEZB?oc=5",
+      "published": "2026-09-04T17:39:20+00:00",
+      "source": {
+        "name": "إرم نيوز",
+        "url": "https://www.eremnews.com"
+      }
+    },
+    {
+      "id": "660ac3c54bac",
+      "title": "التحذير من مستحضر تخسيس قد يسبب السرطان - بوابة الوسط",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5UMzdPNkVTaWpHTHBzdmd2VV91QlJLNTBlVnJKNUE0Wjk1VE0yME80bnBfRS1DNGF0WU9SYjdnOURBX0hf?oc=5",
+      "published": "2026-09-05T16:18:04+00:00",
+      "source": {
+        "name": "بوابة الوسط",
+        "url": "https://alwasat.ly"
+      }
+    },
+    {
+      "id": "1fa925cba591",
+      "title": "صحي / وزارة الصحة تحذّر من إيقاف الأدوية واتباع أنظمة غذائية غير مثبتة علميًا - وكالة الأنباء السعودية",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE93T1IxZHlJRndWMHVRb3BxWC00c3BIb0dyUDM2RjJVNXJaQ1hjZUZSNGxxeC1weU9rNWtydFNkd2JoUE5ic2c?oc=5",
+      "published": "2026-06-08T07:00:00+00:00",
+      "source": {
+        "name": "وكالة الأنباء السعودية",
+        "url": "https://www.spa.gov.sa"
+      }
+    },
+    {
+      "id": "a56c6a9e2443",
+      "title": "الصحة العالمية: تجارب على 3 لقاحات و3 أدوية لـ إيبولا وإصابة 5000 بالفيروس - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMisANBVV95cUxQRHF6RUR5blkyRVZfbVU1YXhtVU5hQnRweVo1cUZVbHdZZUphck94ZGpXYWo0MjM1SGNyc1lXMlQ5VWNneGRybVREb0d4Ykk0RDhGQmthd2ZxSFJNeEltUXBOdklhOHdJX2JOZ3lWOGVqN0tDS0RGcGlTcFhUbmRZNVhtMXF0VkJZSVJrQnpuWDRob3hrVkVOSDFxS3ZXSmNjeEVNT01BcEdDSjFjSHFLSDVXU2g3ak9GSWJrSTlEY2Zkd3BVUzRQak90a0dLaUN5YXVUNVZSSGI0Mlc5SW9Rdkg1eVdGY2lnR1lRUzg4MTNZamttTkRpeVljT1YtcG1RczIxaGgySmNldzJ1SElwWElaMXk2ZUdOU2ZxWjFXOGhVRkRtT1dwWkZEb2JIVXpuR25TWEVzMUFkRnU4b0xrUGxPcEpWb2N5eUNUZFNtRWVuR0VQNUhVeW4zTDFXMmVnMmJMTkFQc1pwdHFXN1BOVFJLQzllZDhNc05IMGtsZzdJdVY2c1VsVUYtaDZrTy1zNWVSR2VIaWRweUcwSEdzbGxQRVZseU93V1RldHFQb03SAasDQVVfeXFMT0N3Q1NVbXMzTmRyanByNFRqS1VDZUpQa2p6TDVURF9EdTg0WmxvWUNjWFJ0ejJSQzl1c2laUFZPVXZkWXZDcWpkQ3liZ3JHOXZRU296VVlfNm9iR2p3MHktUi1PdUxXOF9ZU0l3V1RJOElpYUUxNXV3aVpOY1JfeFEzRlBZOTBwejI3RThOWWJDTXBNaHJwYWJyamJwSXFhMGVnMzd6eHhLWnd1ZGZKMVRCell6TXAxbmZPd2JIVG1LZU5BSmJyX0hpMmtKTUgwZ2dnU2lWUDNsTXFOb0VadFJPQUJJdDctS1NkTGlEaFNMOVJsUU9qRUFJcFRrN05hdkVnSHlJRGZ5WUhaVGk2N2Z0dElud245NUoyRXdleTlIV0J4NnJEZzkxc2Y0cGRmMklsOGFTd1NPaDFYVWxHandNcVBrTnBIZk5hcmNUOGRxeHk0SDhGRVQyT0RLVXdfRXFWRmh5T3hjOWFFVkI4eHRwdnl1clJOWFBHT0VXSzZTWi15bEZOWjBZWnRGOW51TGJDcjdSQmtNT1Z3ZTM4TDVVUnZ1RGs2emVvVQ?oc=5",
+      "published": "2026-08-25T07:00:00+00:00",
+      "source": {
+        "name": "اليوم السابع",
+        "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "4b1922d9273c",
+      "title": "معرض الصحة العالمي 2027 بدبي يوسع تركيزه على صناعة الأدوية - البيان",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZY1lsUS1NQjd4UlFXN3BpX0lQZ0pILUNuOEVsVDlSTnRYd1BVNVR2SGtHYW9ZWHZweUlzSlRmRVFwNUp1TmpCN1plX0cxOUtMa2dQZnlkcVJ2Z9IBX0FVX3lxTE0xeV9HMmpoSzlNNGpEQ1RQMVFmRW56dTBGaUluZzh3YzJObmV4TWFJVDJySm1Ra201OFRWODRZOTJleXhzWElXX1BSemM4WWZSWDA4YWlVekJKSGxzOE9j?oc=5",
+      "published": "2026-08-24T07:00:00+00:00",
+      "source": {
+        "name": "البيان",
+        "url": "https://www.albayan.ae"
+      }
+    },
+    {
+      "id": "f08940cb509b",
+      "title": "ماذا لو أمكن اعتراض مرض ألزهايمر قبل أن يسرق أول ذكرى؟ - elaph.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GQmxPMGxtTGY2LVhqUlZuUE1hM2lQOEJzSURsOUt6bnVJMTRVbWlnSFQ2VFFDSlJ4c3NZX01sWHZjbDFCcTV6Q3VqM1pMb2VFelpmdG5NTzBIWGFCY2wyRTZNQ0RUREdo?oc=5",
+      "published": "2026-09-05T10:00:00+00:00",
+      "source": {
+        "name": "elaph.com",
+        "url": "https://elaph.com"
+      }
+    },
+    {
+      "id": "6c3fe3d5e41c",
+      "title": "أسباب قيام وزارة الصحة بإلغاء ترخيص شركة أسترازينيكا فيتنام لممارسة أعمال الأدوية. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON2tIX1k2N0xLYWxWYzJmcVFlUXhhQTVnb0tNZ1hsY3dRMnROeXR1WWpWc2ZtRG01ajg4aTFibnV3WFZYSU41bzd2N0VVb3MyeF8wQzNYOWFhT0NNcW5xblpTcE50NElOMDRBdXgxYWIxNVFTMGtnYTRNM2s0NW1oU05hWFN1aWQ3U3ZLQi12T0JvZ2JJbVVyYXExZ2czUjhEeUE?oc=5",
+      "published": "2026-08-23T07:00:00+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "b3e1be2df56f",
+      "title": "هذه فائدة زيت النعناع في خفض ضغط الدم.. دراسة تكتشف علاجا طبيعيا - عربي21",
+      "link": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxOeHM1d3dSUG5Tc3RnOVNSRlF3eEQ0QWN3eUQwMDF2ZHE2RDF1dlFheUpmRUQ3SWowODU3SzROZG54dW5ieXRMMEtxelM0QXlDT0QyUlY0dkMzTm1FcjhVWmN1V2poLU0tdS1Tb0gtam15ekNpV3J3bE1wNHYybWJHSmFiM0UwZkplYllGRHh5Nm1LLS10X0R0RTRMc0ZfTlBvYnZBRzl0bmRPZVJYVmJyOVlXc0szdnhBQklSZUkwMm91QXRjeDFaU3pKSTdwb2RVekRSWU1tRG9qSmZXQmJrbGdYeHlDUi11YkF3TU5OSVUxa2VHX2VTNXF1a0s3ZHpXSDVKeWJleTY0Z1g4UG5CZHM1U0xoUE5KcFJjb0oxWnlXdmFBVmZwSnFPM2xxb2pvZTlKR3h5QXVIR0RUM3R1MzVTcFB3Sm5zSWlmSlhFeFV2QWhNWDZkMWRCVXhSYmtUeEJSby1YUUFYXzBsdnlyNmtMbE1Ed1Z5QjBiYldIV3NROUhZbDRlWFY3ZmpJWGZhcmpEOGJFVU15NUpRN1QxQk9YcDRvYllmNnI1SVBZYmJkWWJxa0ZvN0J3SkRfNVpkQnJmRWZwQ2hWWUxzaUNWeGJyNTliTjZWU09NSnBUbUY0Tzc0S3Q2bF84Z01xNUNk0gH0A0FVX3lxTFBPVXhnR0lVT3d1NEFGOHd3bW05VWVXbnpUcFZmSnBFWHVSdmNZV0k2VzhLX2UxaVA5YjNiZUlwQVlpUTRtRzJXZjBqS1V4UWE5SGdxbnZhc3NlblNHUkpzXzM1VG9kNWpZdnB3Vm5PWmdIOHItLVFFcUREaDRHdG9od1ZaRnVwUzVEdXNCaVV5dng5dmkwampGWV9kVVRxRm5lc3docHkxUTFONV9uUG5YRGRVeDRrQWJVb0tfODNreEk3bzdZY0M5eVRIYnJkWUdLMEdiVVFzNEdkUHJkazZRTFlpamkxYlh5R0REYUdtb0hjOVFxNl9zaU5peHJDWWZxTFJnOEQxNTNHVTJ3cjNUeU1CM1ZxUG1UNDYxckdlMU1menJ1ME9IY0FRY1NLcksxM1lJNWdYNWdpSVlYWlVUREM3S2Z4Rmh3VkRlOWhJdGVCclRmNDhUcDA3VC15N3lISWUyYkVjRF9NLTRuVVhCZGNxSGlqaEhFOUREcGhFc1lBbTZOcUptbFlZTVBaeWZJSm1pMUt5OWpkbFBMUTZyZWNlaFp2XzZJX3NQU0trQnEzT2xTV0FMbWp6dTUwRDdpSGRwSktRY3BwdURNZURIaGZqdDl3Z0Rxdklncy15QzVsc1hlRjV4Zm41bm94RGpSeWtt?oc=5",
+      "published": "2026-09-05T13:00:00+00:00",
+      "source": {
+        "name": "عربي21",
+        "url": "https://arabi21.com"
+      }
+    },
+    {
+      "id": "450a70149d63",
+      "title": "مدينة الدواء المصرية «چبتو فارما» تستقبل وزير خارجية بوركينا فاسو لبحث آفاق التعاون الدوائي - الهيئة العامة للاستعلامات",
+      "link": "https://news.google.com/rss/articles/CBMi2AZBVV95cUxQQ1B5UXBySENwSVNTUmowTVVZNk5nZG1waTYzYXRWOXVXeVd6djR5ZGZCb2hQQjFPdi1oUURvemVOWS14T2ExclhxZG5UY2I1aGhoRWJLSWFTZGhrRXZKSU9Vd01XSDRBbXRLSkxWaDFJQzdyaHp2NFY1Q3pTbmRtSlkzYUJBRFN3T0ZOTDFyYWw0WWFHQi1UZnBHRFlNR0I3NU1MajFycGlLZUg1d2FUVUJCbzRZLXlhWWFkTlMzQVY3a2lCOW40NV9sQ0tyYTZIMExFdWFPYnFJUm1lbG1uaGhNV21hN19Md0dzRTdEVGgtLUh6d3dCckpOLVJ4azlEakpmNHZMdkFBeEx6Nk40c25jRXU3UXpKb2R2VldGN1VXNzE1NFJ3ekxiNUhMeWdjRk9lNE1BRGtOWlVOa2daN2t1TlZiajIwOVdMNjI4cTR3NXF2Uzh1Y3ljTXVUOGtXWmtWNllZNHlJeDA4Y3NjNzRkdFY4Nm5kTVlyNURGSnhrajVUTTh1V3BaLWlvWlhyU2dFRkpXb0hwM3dVcl9kdllELUx3OHhiUmh6WFZ6WWc4U0xOcFNEOWxzUnFfSGEyc2tMVlFyRmJNWEx1XzgxTUxZQTBXNFJpYlZsU0tWcmFablo2Y1FtY0tTMVFpa0N5bTdtbTF4dERCRkJNalQ4eXJRcUZLaWt3bk5qbExHQXFaWWZRZ1lBcG5fZ2RvY0gtWm1oSWVQLVlic2xPaFQ0bUZzeW1vQjhWcm5mck9OWThvUzB5Q3JYZHdITTh2b2RKZERpa3BsZkt3bV9hUnltc1FIQzNvR2hjZHM5MGJGMlZfYmsza0J3WnpHUWNBNzRVUTV1dExMSmk0bDhDazQ2XzZQcVducE1OQXJ3Snp5MHBjM1dxMVpnZzZ6QU96S24wemR4N1IydzFGWUdnZGR5WUpPMDFHTU5jNUc4cVZRRVB3WjBnZnJhNzFzZlJpVnYwVno2cWJOZWkzZlFWTVl6dmR2ellWN2Y3LXp5eW5PUXFPWHZfbXdyVDZCalFPaDdQQU5ncEFhUlRlTlpnbi1hdEF1a05uYUh2NllqeDY1a2k5Z05oTFVmeWlUM0dQSWNlcS1TbkhhYnpCU01CQ2MtSkxmVDRRMThK?oc=5",
+      "published": "2026-09-03T09:11:00+00:00",
+      "source": {
+        "name": "الهيئة العامة للاستعلامات",
+        "url": "https://sis.gov.eg"
+      }
+    },
+    {
+      "id": "1246c7db37e1",
+      "title": "الصحة تحدد 3 أيام لإتلاف الأدوية المخدرة والمؤثرات العقلية - جريدة الشرق",
+      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxPSlR4a1ZoN1pCQnhrZHNHLUZ6THNlOTgzY0paNHd4ZXFWTVo0cHhYQzFmbmdtNk5aRkZ6ckwwWlgzSDc0QUVVOWpHQ01iT1NMMUlrSUhoS1gzTXcyNG1COXBaeEJRU0t6cU9WUzNqdGM2b1FzN0NzOHZTb08teWhNWlZrWkNfWGlOZjJFSENBZGUyYUhqVDlkTFU2a0NadUo4RC1BUWlka2ZuTDNldGhINGEwSXZVM1VXNW9hd25CbE1aWWlGYkxwaEp0S21ua2xUay1QTmZWRFU5S2NLWmtUaWFlM3I0QVVXWEtuem1udGk5NWswZVBjTUkydWQ4VmR4bVlUdmJEZUFXcTAtVTllbHMzR252TkRiWW83RWtLWXB4TzlIQU1qZG9sNC04NGRRdU4tcjBIcEJIQUhlVVNwT0tBMzhnUlh4T25UckNWMTA3blBURlBGbWdFNmhkb1RyVWlEblBSU0VGQU5sei1mR1FzMTBUTEVNdDkxODBpazF5YkRsVzc4dzhXd3NzUk53UnR2ZXVGZ20tbEtkR0VscXZIcEdwMHNPRTZrUC13SmlGZ3BGQ0R2SEtqMlljVThVQUJnNWdnNlVnNVIzVURMTmNPa1BmdmpIZF9OYzhDc0xJZ3puUkE?oc=5",
+      "published": "2026-08-14T07:00:00+00:00",
+      "source": {
+        "name": "جريدة الشرق",
+        "url": "https://al-sharq.com"
+      }
+    },
+    {
+      "id": "169fe14559e6",
+      "title": "دواء لضعف الانتصاب يهدد صحة العين - الشرق الأوسط",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNZWF0TmRqNDB0SklJVGROdUpldWxfQ1ZaNS0zaGhfZEw3a3NYVW5LenFBZzZuTlIyTWJDUzA2SXg2X01pMUZnaEJIVzlpT0NMaXFLNTRQUlR5b3d4MXJCMFhZbUNNd0VJb08tZHZMQ280UktlaFM4OC1ZdGJEUTV2cGozNVpvQ281bmhUMWxzT3RiQkZ3VUJVTHdJZGlFZ3Nfa3RfcDg2NFlXbWVfUXhhTFBqYW55TDQyZUllbWZpOGVpSnNtU3psV3hTd0UyS0w1X1NlaGh2czYwc2IwSHZFMzN1Q282RVlXaDUySlBteHNKX2h4THV5bzVLYmJva3VlQ2pmWjZIUzhwRmg0WFBidUhheUFWbXJ2eU15blRTREJzLV9CWk1ZdEJkVjB4NmdXcm5fOW5aM00yVzkxOXpXMHIxYUcxVkNv?oc=5",
+      "published": "2026-08-04T07:00:00+00:00",
+      "source": {
+        "name": "الشرق الأوسط",
+        "url": "https://aawsat.com"
+      }
+    },
+    {
+      "id": "4776d03ba595",
+      "title": "من النفط إلى الدواء.. كيف فجّرت الحرب أزمة صحية عالمية؟ - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNLUFnTkVyYk1ESVo5TjF1YTdsNk92bGhvY2Z2YmV5d3dSWFAzQlFLaWcxdzMzcF9NR2dOcDM4NGJQbW9UU25XNDgtRVAzYTdvSE50RDZ4OVJzTnF1QnU1WTJZNm9KdDlhRFBkd25rYnNva0R3X3ktR3lRdHpNY3N5TzZfb3Y1V1VDaDJSMHZzQW53VlU1NkllRmNmZXJtQ19ETFhERTRiXzFtTTlFY2c3T1hWTkpvVE5hd1dvd0JBb1gwb18wdk1ia05McVQyekN5Qk9DSGJ3M3JZVkFxWUtKUUtBM3AwbG1qVVFWb083TnU3VDNFTXlRc0RJdDVrVWdBV2tsR2JBR09YZVQxaTJBdGtLbTUzVVpLeXR4VmhZRTczZjhhSkotQzhwcUZBVnVBUE93d3JKQlBhdmpaR1HSAcMCQVVfeXFMTThySnRFcWpKb1hmb1lYNVVJeWtremN3U19VOERrU1dWUURvRERwQXl4NmhfS1pseDN2QXVMaEt3TTktX0dhMGJBZF92N3ZjYlducWhjQTJBSG42OWJTOVlxYzZtdFBhNWExYWlmZkRzekplY0diNzZpZ3NQX0U4cWdxNmQ4VFZnY0ZiWkxfeU1KNmhZek0xRHgtOC1WMG4wTVptczNZQk9kVHltb2VXejJnQUtFTm1MWkF5MW9kOUZOaW5pb29XVUdyODc0bXgzc08wNDVfWGxJOFR3Xy1rRVpoVVJyMVMwMjBwRkZfVXQxUTJzYWpfTkdjVFQxRDZ6cHRWM2hCMjAzQlV1bnJyRVJzdmdMWnU5YjBDY1pwRm0wQ3lWU3A1MzFSd1Bvei1pSmRhX0VIeF8wMlJuc2RIQW11NE0?oc=5",
+      "published": "2026-04-22T07:00:00+00:00",
+      "source": {
+        "name": "الجزيرة نت",
+        "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "f2f54c4bbf42",
+      "title": "الأدوية التي تؤثر على الجهاز الهضمي- 4 أصناف مضرة للأمعاء - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMihARBVV95cUxQNU40SnNXeHFiQ1VmSmR2REFvR0lCU1pMcFF6NExFZ2toZXh5Y0tLM2N3WlhPX0ZiU2dRTy11VGRBakdiRU9MOS05YkRBRFVzdmZjX1QtVDNsTXBQeXVpUVBlRTd0bGRTeDVJYnlrQVNwMWZ3Sl9YeHBFUmF6ZzBBVUNCdURsN2J4QUtfTUNhR1hnSzhfWG1xVjRnWWtnTXZ1VVI5YjBIUHdMNU90dkpwT3U3NUtPcnRfb1ExZm5wck13WGV6eXd1bVl1MzRvVU85bWh3TTRXRnJzeDZ3MmpZWV94ZloxWUJPSENDendsMmlYbFdQU01qbGV0bXQwRWIzdWRtS0Jqakc1dGR5b21maWktYjkyTndYcUtfUlo2dG9pNGxhS25wRFNLdGh4MlA2dVoxVFB0TlBnckxLRXpxWm1DSEVFS2xhR0k2NjZ1N0RrcUd5c04wSzMwdEhqRmJ5RnpDOW9fdmg2WjI0Ni1FYmYwMDN5bFVoNjU2Tnl0Z2dfNkFTWDI3YmNGMVBvUWNJY2VmdUVXNml4QUVSVzBqa0tMdjBRRThXRFdDRF8telB5Nk5Bd3ZkTjJqdlNZZXhXbWdSM3hTMjRFOFA4Ml9adkZwM3ptQ2pWVVFFOGY1Q0FhVW5HNm1xd0h1bE9qUjFBYkNIVGZsTmUxamxfdm1qOFNaYkrSAYoEQVVfeXFMTnhmSlIycUhSMFVkcmxCb1B4alh4WFYtMGkzb3BhRUpkQlpKSDBPak5WNU1lMDlGOE1XeUJOVFhFNWl0R1Q1cndjZjFJenNzTEw0Z1BiX00wNHBpYW5iTS1sNGI0aEdyLS1RVFYxekw4cnV0UmhPUXkwbmJmY3BpSHlPcnUtUy1OOUs2Tl8zWXhRTVRESmJOMFo4dUkwSklCWTViREd0eXgwcDRIMEJlNEpqaW10Y0h3QWtvc3J3dkFqbWxxZXpucjBPbmcxYWtCdDRiOFFZZnhZSld3RlBaelJCQ1BSMDEtX0xDZGVVSUszTE5hQVdPeWpoTTZfUHdROEZRMEFQYTlnSm9WWlRHRW9yWjE3OGxDeGhpSlNwd21BcGVORVAwaHRaMFF1d3BsaWtDVVo3TkZtZE5WNnk1MWVEaWt2UnktTkJIZ18yTXFaMU52ZWFPQUQ3Zi1HTlV3MjMwQ2lxdFBrVXptNWZKUHVsTXB6Q1NtM3BDbWFWUnhiNFc3SmJqWEV4SmE1WVVwQmxtclhmMF81WG13VWhsbTBUdVdsNmFjaE96cmhKUUh1aUhwOFZnVEVoSmotVk51Z2ZZVGNBb1VaMHZjSFVHTnVqUU1NSWNoR3FUQnlpZGxCc3pKbTNnanRxdnNLbWVtUFpGV2YteVg3TzVES1VuSEZJV005RmZTeHVB?oc=5",
+      "published": "2026-07-23T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "0542f7d25982",
+      "title": "النائب أحمد عصام يطالب بإقالة وزير الصحة وفتح تحقيق عاجل في أزمة نقص الأدوية: أين تذهب الـ90 مليار جنيه؟ - جريدة الأهالي المصرية",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0U1lxTTlWNHhlQ21Ed1VVbVUzdk9lMm9OdnVzZkFoODBVaU11NkgyY3J1LUItaHRjZG5EQm9LYnZRU09yWG9TZHgwU3U3U01G?oc=5",
+      "published": "2026-09-05T09:40:32+00:00",
+      "source": {
+        "name": "جريدة الأهالي المصرية",
+        "url": "https://alahalygate.com"
+      }
+    },
+    {
+      "id": "fbe6160c7c20",
+      "title": "أول رد رسمي من هيئة الدواء: الباركود لا يعني إلغاء تسعير الدواء (خاص) - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMizwRBVV95cUxNc2Y3TjY4RlBkR0pEbllQZ1NXbnpEdDJPWTJGZm9QNUgwUldub19odlVfa3F3WHAyWlI2aFd6ZFE2QUVfNG9fSHVFVEdROHo1LVhJRktXNkpXMlBmQkNobG9VVGtUYWFRSE9KU2h5eHlMS0FVLVplOWQxY19XVjhzRkUyTGVmaW5SMWdQNlBFY3hER1VKWXNXQkZJSENwTjAyb0tBWFpsbkJpSmR3WE11ZVZ2bkZpUjgxZ2gzeUpPNlBfSDU1bll0QkFhQlVBV0NxanlOcFhTSXB5cWlhdk9pbEw1c0tKWldQVXBCbEdGd3BWYUg3UzBwaUJMbGtoVTFzWEpyZWw0WTladW5qcE9VdlFsRW8tY3k2SktBdGZJUDViaVhLanh0WElqYWdFRXVMMW8wbUZZSkxlZGNUM2pCRExOMlVGdnAyVjVYTGtTTzRNSXJxRmhnbE9ZVjFKYk41ZER2bWttZkI1ZHd0cGF1RkQxMlVtaUttaTJkRU90TFpaUUgyS3hTelhrQURmZnR6b0ZnbmtVMXlPWW9BbmNjSnV0dFlaTGxxeG5TOU5pU2lBSzFjSDEwbnU4SFo1bTQ4RVpLd2FMTDZTMlBFZzFyNGszMnlFOWp4VzRlOXJUbEtzMHZJbjY0eFpSYjlrcm0wbzBOWWpTWEk5SXdjNnM2Q1lrSk1mVHdhdjlNLWZ2SG12cFc5dTR6dTNaMEI2UHVSN3hVdTJNVm11LWI4anctNDVqX0tzU1ZGR2ZDM3JSUVlkQnkzRjhRR0R3cUdvLWPSAdQEQVVfeXFMUE11ODg1R1RFT3p6cE5Ca2RwVXE4cnRFYWEwYy1hNU1DRFhLc3JkM2QtUWo2clFDcDBrcldLbFhRM2gybWJFc2lya016TXk2TnFidHhsb0ZaQXY0TXgtR3RULUJEYzNYMERDTllRWEUxcTNrZVlCejVmUmFfTWNjdVN5V0hVY2tiUWJGWnpwQ21wWWY1cjZtTExmV1BjMXhBd1VseEp6OGlZWXNnVlNLRGhTajNiYldTODd0ajFHRlNuX2YtOWZqWmdSYjA0VHRuQ3RRa0JOSnA4VDF6a1NOLUdPMHlDRjZ0WFdYVlVjSW9wWTdWNUZVX0wzQUhGTF84d1hVcHB3RGFZLUZEaERFUEdfc2ZvRWkwYjdMZF9wazZUVVR3WmsyU2dJdjZPQXVyOFI0TjRNWEQtNVJPZUlFa3ZfV1ZzTHFkRmFTUnBvLWswc3ZXWlA1QnBFWVgtRk1mQWZha3FkaUFjejRJTXNSVVNydDVPNW9meERldXlqbVNxRjFzVGQwellRNUZZMmxLY3lUVUpYQUh5cUpjbm04OWQwb1pZWGFnLTV0VEMwYTU4a0RybmZfTFFTOXlBalhrNG93QVpKWE9nTmtCajRwdXozdVFpcU1KQjUyVjlmYS1HSlpYTGxxY0ZCM1Y2MHlnRGFTSnBTQXdIS19UVjhERUdNU3ZnWnNyMUROeWduczh6TzJNVC1TTWJvSkQxM1RpZm9qS2ZGMkZIWU42bUYxM05kMnJxWURVOEUydVloUEk5MmtkckhYeVNoTHdMbUVheENydTg?oc=5",
+      "published": "2026-08-01T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "1c21f56f9084",
+      "title": "لماذا سيتم إلغاء النشرة الورقية بعبوات الدواء؟ رئيس شعبة الأدوية يجيب - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxOLXlKQm5TLTZBMWNibUpZT3ltaGdNdGVRQ3pVcnVXaHBMcXI1Rk1ndmN3X0l1VE9vbGhpX2RCeWJHTEdFME52VjFSNEFxYlZhT2VVN1M5eEgzOU1ScGFDaFgxbUxyRHNYV29uZmU4ZlVSS2pUbHlpT2lxVy1aQkZ4cW40N1JSRF9lUWVzU3NJMlFKc2M1X2dJc01aV3VXOThma1hveVc4SEVGcDFsYWQ3SloyQ0tkamp4cjVzYVJFcG1zQ2IxOW9FcUlxaEhWVnJFQUZrUXM3TlJlSU0yNTVqaUpKSTNHVTJKLXhkYjFPSFlTaTdWQkxwNmF3aEVZR1ZwZUp3Z3JBdTQ3TzB0eVptcFhyTXFZeGlranM0YmpmYzRZNFFCM2xaVUJ1NEQ3THZFR21Qeks2eTZWV3FhTlNqa210eU9aNVBaT3FyWnZUQVZjOEpwR3l2RDg2dmt2ck50UDVXdng3cWh1QU5JOWY0WFJHUEx2VXppSC1JbE1jYjBVV1BiYkNsRERPT25PZ2RUMUhPRk53NmVONk1EdzVScU5zQm1JLWhtZmNHcy14WWExMGluTVg1TURsSFBwNk5ad253NFlvbGVnRkRUa1UyTjhQNmNNeUFpZ0xlSzE1dUFtYzNpT3pJS3JBdFJlSWR1VldfcTdJR0R5TGh5WklRVnBkaDc4ckFoUHlvQlpkTDdLcUNZbHVCZFZSZ0NuTFhNcXFlZnl3RlJLakxGZlc2V252ZksyVHRsVkw5ZG1mNUJHUWtvbmtxamJpa0NFTGtvOHJvcFowbWlrNVR1Sm9wX2hlSWpJTkJhaE5V0gHwBEFVX3lxTE9lLW1vdUJYQ2V2d3I3d0ZFMzZRT0xlSV8xSl80MndKYWwyNml1RUdjVk45ZXJyWWF6b3ZNQi1ES2RYSE5GZ3hOem5oNk55YUp6Smw0elVDaVVvcFFvNkZaN1RNeWpFYmNWemxucXBORGVQYVdrc3RIUXUxdWpzVWhNYTFJUWV3X2ZmdVBEd2hIRTc0dGVkX19CN2gtTlBmVnJ5aW9BbVgxM0hBRHVuRk93X2lEamVIQVJ2WnJWMFd1d1M2djhpN2VYQ1Z0QXdMOFhXSFl4M0hRU0ZvNjBSUE8tVGM4eXB4UGxlR2d1Zm93OTVnWk85dXFNMFlqMzJrdHZkQVJ2X3VWRUUyaFpuWUFsQ2oyanh4anp2eFlEOTR1UTRnRGUwMXJ0cnh5WXJ4UnNESzEyQTNCUy1MeE9zZXEwTnppSmpSRFJtcHhSbk9QZ1ViRW9Zc1NISW92RTBZQnZwY2oxak9aT2lfXzRPMUEyX2dOQXgwdXB2Tk50cHNadG1ka3o2RFNwbC1RQ1NXd2FrUlNoS2RQaEljMG5XQW11ck03dlRSUDkwMUFUMV9yWXp6WVZfUk84cGxHTFhmaTNmcnIxeGhqcm5RNWxaOElEM0F2bE1aUnJULThXT0U2UHdkZ2ZBLTVwOVUxTW4yYUVlVGZvWFIyRmNPOFVOMVU4bDI2TWJIRVFidWhvX09ZRFMzeE5pOGZqbV8wR0Y5elRONG1yMVpJcU92TXdWV1V4Q0lpcHhNVUFHemZFTGotMjNreFlMUWg0aEtZWlJkb0p3dGtGV1NsTklZNmdxdDdZaFpZdkg0NGVYaXNQUTZxNg?oc=5",
+      "published": "2026-08-01T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "deacd04153a5",
+      "title": "أزمة دواء تهدد حياة المرضى في السودان - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQLUVjOVcxeTMwR28zSEYwSU9WTEJLRU5XVmhMOUNpWU1sbTRNZEN6NUxsZV9hQnZnLUhxQ1lobG1OY21LREJ3TllLazRfSHFGVlRYejlvbjljT01jckpZMG1VVUJkVkd3NGFhMzJ6RTk5TFprSW5QUktIOEcteXRVNzNuR21vOXU1TzF2Q2x1VmxLZkRNLW1zQWkwa2hCR3N0dEhyTW9NWUd0TTBqeGJNdVNGT0lTU2ZnS29lM1lHUmpQbWxtcktadkt4dTIwTWNhU0t5clpxYjlVUmZzT3dqUFhMUHJlSmFORk1ab2NqcE10azI1MkhlaHVBWEtCTkhlNGEzbGFEV19uVVVEWUJ3MnlOM296Tl9lQngtYnBXYndjQl85MU55U2pVZ3NNaXp6YWlpRXNPcnEzdENFdXN6YmtoNHZTZVRZaHFXVENyRHk1ZXdPZlE?oc=5",
+      "published": "2026-05-29T07:00:00+00:00",
+      "source": {
+        "name": "الجزيرة نت",
+        "url": "https://www.aljazeera.net"
+      }
+    },
+    {
+      "id": "9c91b960a34a",
+      "title": "«الصحة» و«العمل» تتفقان على آلية مشتركة لتغطية أدوية الأمراض السرطانية والمستعصية - Al Akhbar",
+      "link": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPTms2T3VnYnh2ak1od3dfOGw2VUtJN3N5dTJhS0wxLUR5bk1mMlIySWJSOGZBM245RGstRzlDaWRPMmtETzRBYzRjaUJUY1dmQVNUazBWdW5SR3hCZ1hXQ3haT09yVHo4dDUyMEdhVW1VREUxbU5RNTVGYXVfNmkxem1FMUd5WGttVVlEOHF6eTE3UnVFcjNBdHlPSXJzNUtBT0hYeFJLWE9jdjVFMnFCT0V5WVVIem8zRHdYdTM0bC1BUl9IQlZiOXpvTVBtcjQzbDhZOGxLcUZKRGJwcTNUY2Jad3N6VzVCQk5aeVQ4eENaLUM3NmlfVUtLeHhCLWpsYjBKLU9wQ1lTZnRnSC1OSzZObk5kVmJzdkRWdklYTGVDNXNmYWdBZHdCTkhLeERFaF91VC1ReHZZN0pBTEhCdjFVeWdBZzlMRmF0RmZqOGFLRW5TM1luTE40aXdic0NDUGNHOUw1X1FSampzUnNsdFBuYmlFNTJaY09Mb2xRQl9oajNRVEF1OE5qdjd5M0N1d0o1MFNpM0VRNUZTYklpYmRzbXRzdEZBSEd1Sk5FLWZVbC1xV2JZYnZDN1BnbDQ1SXF6UHV1SVU3RU5PeGxVakVSQTQ5YTBNdG9JdXNienV5QS13Y1hCUnFR?oc=5",
+      "published": "2026-08-12T07:00:00+00:00",
+      "source": {
+        "name": "Al Akhbar",
+        "url": "https://www.al-akhbar.com"
+      }
+    },
+    {
+      "id": "ab8ac3616ccf",
+      "title": "إعلان وزارة الصحة/ الشركة العامة لتسويق الأدوية رقم 735 – سفارة جمهورية العراق في بوخارست - وزارة الخارجية العراقية",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tMUxma1NOWjBOZnRGN2J5NmtfMXFDSlZwZnJfSUVDTEFpbUw2SzlkUnBLZDBVZFU4eGRMeWsyMGR3YWUzLUYxZGFWdUhLZw?oc=5",
+      "published": "2026-08-26T08:55:19+00:00",
+      "source": {
+        "name": "وزارة الخارجية العراقية",
+        "url": "https://mofa.gov.iq"
+      }
+    },
+    {
+      "id": "5a4d49e91021",
+      "title": "بيان عاجل من هيئة الدواء بشأن إلغاء تسعير عبوات الأدوية - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxNOWRnanYyWDB4YUpEMmIwQzRYMjh3MTBQb2t3ZThqSWI5T1VpSkhMa3NwMGJ6cFFqaWJWNU1iNENvdXBGZ1lUWFNqYURudVVaU3plblJlZFRXaVVfQS1fWGtmTUFEWU9zN3hsWS1iYXJzcGFtcVVlYURvQnBEamJ3ekN3UnJqVjl1MFpWRkxGc19TTXhIbVVlQ1ptX3J4QVZZa0Z4aDFxb2FuQ0EtRExja2xpN0o0LXk5ZE9sZjlRMGFZVzdyb3JFcXZ6bENiZDlsT05XWU5fZ19ycHRXZXNnSDZjLVZieGdhXzFsTURtZ2pPZkdOZ1J1ZUhGLWJvdGNOaXBfY19nTTQwUWhlMWZJbGxzSXFHUmtYckg0TUdmZlRnWnNwS3RRZFJUNzRXakY5ZDE5LVZZb1VaLTcwZU5lMFlBYklzOW9sZmxxdjQ0cURpUkZfdXBBVUcxOVZ1ZzItdHZwbjFOeFV4X196N3BZcGFEZUM3dFpmOExZUlNwNzNxSEdjSmRxc3RaVktqdjhCQ3FCU0tIcnQ2YndnZVNtM2x0aVE3WFVPNlJ0elpjMEpxYVlxY0xQMG93cks3ZTdnX291ZVREOFEyTDhmODlQbWdJQjJFcTlYWHNuN1RILW1hdDB4ekJuODFTZ2NmczhWVU5keGpB0gH7A0FVX3lxTE50Tmk4S3Z6SDVFWEZTQ2owWDdEQUdGSDgtNHJQWWtyU044aTI3TVdWSVNEXzBjWUJXcUJGREFfUlJhN1VhYXk0QUNVN25pblVqc0Zkd2o1N1ZkWjlGX0xQUDNBYzB0TERjZEg0ZktnbkFTMUljNVpDY0QtNGpQTjQxQm1hUGRkbENtVDZsbUYyRUkyeWx0c2JpV2paS0QzNHYzeWNHWnMwUExXWXBabVlkejFQWVdlR1duUi00SDI0TU1OdVVRNzRHX2dVU0RYejRBT1QtSjQ3MzZrbzVTTXFVM0REQm50d2lKQ3RMQ25QenpYcHhKdDVEVmlzVzIxd0dRb3psakItQUc2Z3JKcDY4OFJlRnJYR1pmTEVoQzgyX0lIT0dack14dDRPYkQxQXRrUGhOdHp0a241MURUdjI5NlZkRGdNRVk2YXVHbmxad0pHUUNBOWItdmZ1T0UtSUtYcW50SU9FYXp6OXFfODc2dVBTSUhvNDMwcmFLenF5dXZxVmVfRzYwN05NbE1ycU1lMmJrcWVDZ1pIOUxQaGpoZnBBQzlQdWUxNXpjYkNXWGpRMUxCUmxmZHNJVUdjaWRObWxvN3VHS0dPUlczM0J0eGhLOENSTFYtYmZWUUZDYVJVQngtUmp0aTdsM252cm1pYUZCVVFkekZmYw?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "376fc72d9fc4",
+      "title": "كيف قد تُسهم أدوية إنقاص الوزن في خفض خطر الإصابة بالسرطان؟ - الشرق الأوسط",
+      "link": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxNWTZGeC14MzFYZWFIVmU4YTJlVUFQcUhEcS04R3ZQZDJkVFZuUkhqemI5dDBaYWllMUttemRTSzNBMGlWa2xmLVYyZ1NYNFM5NlZieTFrdmZlSXBOWF8zRi1Uc3Z1U2lfTlRTeUlmOWphcDVhRFZ3V3MyTnQzdXNsQXYzMzFQMlROaWJCeGQ4UExVRENGdmQ5RVVQNU1jbXRNNmNJY3pXS1djZ2xBWGI0Q0RDUkRvTS1MVWJqekMtV1hsLUR1emdBN3NTbXBtZVRzLS1tejBDenAzSEduR2V6bXUwMDY4eHNyTS13UFhfZThzSWliOGlWc2pCQ0JETXl1Qm9zaHYyQlZBLXdGd2NxS3ppZ3VXOWRFelpBWVI4SzV1cklITGVlRHZ2YTJwQWNCMzlOa0F0dFN2RG55SVZJWDdsVHRlTlZRRVQ0dHNJTE12V1FhaWVTTmR6OS1pTFNoMTZqZkloTDVjUTBEWmZibjN0RjNlT09iQWptNVlZUFBIMWwyRlV3YzVEUkxjUVFuTGtqM1paTmZFSHA2eDRoVHVvbDN5bThxbjU2MkNNRXk1UGFMdjE0cThRMEhTZTdzSVo3SDhEb1RIZVFjQnBfTkhzREJxcVB5V0NYQXpyNTRTNGhmN3BwQWxRUjRZZUNFT3NReDZPWQ?oc=5",
+      "published": "2026-06-22T07:00:00+00:00",
+      "source": {
+        "name": "الشرق الأوسط",
+        "url": "https://aawsat.com"
+      }
+    },
+    {
+      "id": "27e0128f6f57",
+      "title": "بالصور- هيئة الدواء المصرية تسحب 5 أدوية شهيرة: مجهولة المصدر - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMijwRBVV95cUxNM0ZTd0FGZUNqX0pPanp0X1lnVnl2ekNZc0NYS3lDUWFvLXU0Q01Xa3c3RjNIRndkTFNQa19xZGdSTVFCSmdUR2dyUmxkbVc1V2N4NEdsRW1xNndIeDhWa0xSbTdMdXpJclh3TnB4Z3FXV1hVSUxQMTEtdkx6UXRUdkFlMjhKMFY3NlhQNUwtRmZJckk4Z095MV91UURBX0ZUaXZUZzRaenRyYzdxcFYxbjhxNWQ4QzVqME91MmdsVkMyczZuc0JiVTRWOFNNRlhjSUk3bTl3ODhuRlY2WlhNdGxjbUdTdWxoQ1RoTTJnQmdiZEljMVU3aU55QW9adURMQzJrb2F5VWg5akJqclpZcGlyUFNaa1FCM0JGTmRSNWhmelZQd0FncHlxLVdnV0tVWkRTRmQ4SUNMSFhPZWxPOTFraENHa2c4R25oSi16UHdUZ1BZRGlaZ2FjUWRSZW5xTkR5OEY2YnplOFNqZG1uOTlyVEQ5RWU2N2N2Q3VOZGwtTG5LaDNrV0U1NHhISW0xZFVCeWNweW53NWRxWWlyMi1NZ0pBV1pKSkdkWGtteWJuNHNIQzBiQlgtNHdYNlo0RkdhR3FVc2VYWkRpeVpOUmJSVkdQak5zZHBac1hESXc3c0JTNGNlLTc2UG1XaDN4dzVVU2JzSFA1bmdUSXFVU2FOeTZQMW1SQ3V5MGEtMNIBlARBVV95cUxOLTdfNmFUSXE2VjNXcUVSanB6QVoxd29UWUdFR1phWnBDQWxHbndUcGxIQ3NGQjg1aURGcjh4ZnZlUnh0aC0xZl9RYmRudElkVnlTNlJqNWRiRlVfVE5MU1J5NGJmZ2VVOXE5bERXV0trcW1yVGxPc2ZNdTdvRXFGVU1wa1VKczBsRUY3STRVQjJpempTUDJ1TFhYVC1yaTIwN1JPSks0WURqMmcyYVU0Ynp1alZnN3d5ZkdLVmhUUkFXOV9SVklIeU9XZm0xU1MxUWJiMFhSQ2lnYTZ0VHM0VEtMOXZGSkZXQ1pZemI2OVV6RHc2RGF4bkxGekw2bF9ab1F5ZVZWcm01QkNtSDg3MmstWGM5XzNfemluTDR4WGVoZHpJX2lfbnpORXc0ZE0yMjJ1amNvYzlaTko5LXc1N2FGWkw5aDlPb0lFUDhUYjRRRXlNVEtMOVlJRHlvSHlSLWdBR0hlaWlRZG14TnFrUEtfMVJjbzB0Zng0Zm9DSGkzQ29nTjRYSW81VkR2S25zYXNKRUN6YnN5NUVBcVN4UFAzNVh4R2puLXp2ODVvVmJOZU1tUEdEY3RDYi1rSUhLWmcxYTBqaFNKOEVzVktmbmhnVWljU0szMnNMS2pONVpMSjRzLWNPTXNnNWF1V1lJN3lFUVRta09BTVVZbVJLZXlNa3JLMnJ5dHplaTJHN09SNzk3?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "d53900d92b5e",
+      "title": "النشرة الإلكترونية للدواء ليست إلزامية بشكل فوري ومطبقة على 300 صنف (خاص) - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxPZ3FjU29mZjRJRl9RdXpCTFZwaDlOM2g2MUd2MVNRMDYtLUd2QVZzTWhfQVJhd1JLY2RJMEwzT25JdHd6eGlKdzdzaV9McDdVX21iTUh2M3ZhaXJQYTZ2U0UxbF9EWjJVc2dSRW9fQm5ORHFWbDdGYVRXNmxheU1mVDBYVlVDZWVoTzZPWlA1RDFaMFZ2UkQxTGczMjVHdnFOYkc3U3F0RWdjU0tHX0huRkxkUzE3VjFYOHlERmRpblNHT3BMRGFNNkN3NzVTeEVZbGxDck1uamxQTFNpRWVoeGU1NFBzcjZiV251VlUwMHdFdkk4b3hLLUw0T2pSZlJ6ZEpLVlFLX0U0aXg5RHZOUG04RnZHNVJmQS1LNVJqNnRQUDhOc2pvYVhhQ2JiTDcxWkNDbmZaQVluVVZwM0ZzXzFGMjJEN2lwQXliZUdvNVRUS05yRzR2WjF0QUxDdmVRRkNVa3Rad1piTTg3dEJ3Z29GOU5nWjRlYWFHb0hEMy10SlVnWnpmYnZ0TXpaSGNKV0pLd0dqOFliT242SUlfbFA2VVNOeGZNTXJRMGItXzM2LVp5cjB5VThMSk5xWkpIbXJka0JGZWM2dmN1Y3NjSE9LTHVudVljbFMxSXFCU2w2UTA5QjVfcHRUQjY3aHJ1Y3RYS1FSazFxbE9ZZFlnRjZWUVd3MmttNjAzYk1ITVhCM0pDUzMtUTVrbU1nZDYtUUstdUkwZ2RySGtmR2JWYXlJVnpmajluYk1tUlNzU2gzUjdJQnpOWHFseEUtbXBzR01RNTI4ajMtREt0REZrR0VTQ081c2tCNFHSAe8EQVVfeXFMUHVyWXZBNjNaMkdMNC1UU1lKSUlQQzNoWjM1VlNrbEZrV2ZLTTFkOHh6d3pWUDZmU3I3NEVGZWhhR190THY4Y2x6YlhqWlJHY2N3S182cXZTVU1BWS1KbjFCSHc0MHdvZmFKdlA2MGRDSlhiNlNRLXUxSWZsODZocFQ5ZUJoN2ZYQUZRdlR4LU1adDgxUW9QQjVnTmJ4VVNHVC00MVJXWV85TzY4ellNTGhSTkMtZWdhWVh0dFRDQkQtTlBIcl93OS1rMnAwQjFMeWxJaUZhdFFKVTNxZk1NcXBaMkVoNGlpaU9yLUhsckh6V01DaE5XQVVNS2VUTVB5OUlUNy1sb1V2RDFfUmdLUXNrMFJQSk1XWU5ab01WMmRkb21jNXNMWjEzNkxEUzFvUUJxd0wtcWFiZFZvU3RSODFFWHVoZGdzQlNnaDVUWk53ZlBMM0N6WTNnYzlWN3hxb3VZSmh6ZVVZaS1tdW9mcnlZOEs5VWxsa1ZmS3k2cVdGWlBBR1pfN0xqaUFsSVBuZkRDWjFLRkFQSXJpb09nNmdvZk5kekxOaUprcmdjU3JwNjMzYV96RU04cEMwRktiN2RHVGlLQlVNZ1oxOUhEMWFhM0J5bFM0T2J4dnNnQ2o0SEhxblpaQzdNVkZiYkVLdk43ZlFZN29pazZsRmZXaHZQU1pUS1VXTmdteTZTQ1RvTkdfaU1janZXekF5TmppT2RhMjhQWVNqRDB5X3pvcDZvYkNsXzA3TU51Y0NUU1VvOUtVT2tDSlFlN1VxZi1PeW5sYkNUb1M3ZTVpYmVtb2JLZzVQVnQzQVlNanVVQWM?oc=5",
+      "published": "2026-08-01T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "a0eeb43e9206",
+      "title": "هل أنت مؤهل لاستخدام الأدوية الخافِضة للكوليسترول؟ اطلع على الإرشادات المحدثة | CNN Arabic | CNN - CNN Arabic",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc3oxMEVrMlFnNVJaRWxHUDhDeXQ5OXRNQURwZUtORmdYeVZNRnpfU0pDakZXZ01FOHdvMUlBN3c0a2loLTl4VjhWYWp6NkJ5TVFaV25KTEZsdFFQV2FfQmgtSllXSy1ZX3ZPYXhUX3hZdGE4amw2bTJQUWVOZnk0bGo4XzRNdGpFYjIyTzFqUHk4TVNUWDBQVHNaM2tYaUJyaWF3R19Bdmc0bDFrSWR0dUQ5M0JJUTRWQ3c?oc=5",
+      "published": "2026-08-09T07:00:00+00:00",
+      "source": {
+        "name": "CNN Arabic",
+        "url": "https://arabic.cnn.com"
+      }
+    },
+    {
+      "id": "2f9b752107d9",
+      "title": "ليس دواءً عادياً.. وزارة الصحة تحذر من تناول عقار «الكلوزابين» دون وصفة طبية - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxQcy1JVjBlMHloeWVIWlJCUnUzZ3dhTVBuWkdPTWF6ZGtncEZTeFl6OG1Za1A5YkgtVWZJalJ5S2wzQ1Z0WDVYMWtkNFgxSzkzLU53emN5VXRBTjZORDE1MXI1a0sxTGlURkVQRzZHRU5SX0NjZWJRYVhiOUo0d1FMUkNpTXdKVm5tQkJ1LXdOcmU0azFtUE5vRGRhV2FvZHhDTmdzTEU2MWgtUmF2N0ZITU1fRnNadUY2OFFvSWI5MEN4UVh0aHBmRzlIaS1weTVGWUhVa0t4dkRjZ2Z1WVg2amJ3a2ljeE5qWHZ2ZFMxVDJ5VnV1UHdhZlVIbmJmeWNVQno0c0I3dk9laGNvVHVEYnJYYTNQcXdzZ3EzNU95Z0M3SlNnM3YtcG9ya2I4VFZpVnotSDRUT0FmYjh4T0ZCV1NkckRjZDhiRmV2X1lRVkt3SW1wTGxtd25NcnFCSmViT0FsbmJYM2ljdU9NWklOUXptVHJEYUVkQUVqY0ZYbld3NDNBa0hOTjBsU0RWdW1aY1lZVElYazZDMVJNRnFULW4tcnpOQ3V4VUNYaWZTdmE1ajl2SnNzWmlVUXlwTmJsTlBrYzVCNmZaN1hzZ2VRMTdUM094QXlvdFJGakZrNUVLOVIta1VnNG44Tl94WU53U3hqZ2FKYWJOMDI3VktnQ0dEbkhlR291ZjI2eHQ0N2s5Qzdad3IxQm43Q2h5bkN3RFFDdE15N05RdFc2RlJRV2R5d3NLRGMxMGFJQnVFQVRjbG1RX1RFcmRLZGFybUtRRzM5c1M4dld0d9IB3wRBVV95cUxOdlJ4cVltZ0RWd3UwMmJIbmdJTzdUeUFIQldqM1U3UEpUdzFraUdWWUt5N2FyaHo1dVRFb3BoMWNxYlVRVVQ2eTBKOWZ2Z2ZrdHAtVkNGUFAyM0NSTm5kMGF6RGM5YXVYb0ViZi13R2xHcldNSkxXTTdIUl9yUEQ3WnhLNUVpSlAtY0VwcEtHSW9BNElmZGRzT0psSF9EWEV4bEJiM25VbHlmdkhJNHlJTERJcjI5SUxyX0RRZXBIX2drSDBpLUFZdVB3YW5JeDA4eFZRd1ZUa2pqVmlJMEFaTThNdjNmd3NaSDVSS0FzWWtWSEZNZVcycVEwTkVfUkVSdktFX01teUhVMk93TWJhWFF4WVQ5SFZlSk1Ra0dSOXNMdDF1ejRtS0dGa05GUXFkLWpGM1R2S2xKZWZ5cjFLbUZXY0pDUTVMZFd4WUo4NWhDZ2tSTWVXX1BoT1l5Z1BsV3hWWU9rbXRwRVRJelBHWmZkWGQwbEdBQVJ6Y0FOVlQ4QjB2Y2ZybjBKbHNWYkt1VEVGOVBXZ2JPX0pHZlBOdFdIODR1TTR5ZkZzRHNISkNqeTc5N1hrY2hwakdDWmxwZEstNmxfdUt2UzhyUGJrQlROcTgzM21leHdZYWVvU3hQOGhUYWUyd3l6LUR5czJUQUdqWHVGdlV0cHFkNm5PcTZtRnZmMlJxamxtMjhkcDlCMUxwT1ZPVHRNZ3hwNFdEcmp5aVJTWmh3djQwS29OcklwU0pmRUNzU2REYUFwc2xWMzNzUklwVVpTUmg0TjhlV3FGbmJCc0xldXZpZWg0?oc=5",
+      "published": "2026-06-13T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "1d19dd168f7b",
+      "title": "صيادلة القاهرة تطالب وزير الصحة بإلزام الأطباء بكتابة الأدوية بالاسم العلمى - اليوم السابع",
+      "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNN282Zm9Oa3FVamR3NWU1WWYyVFF5V0dCd05rTWNRbWw0YVVKdnd3RGxmMlZxOGRlaUI2YmVENGFxRHp2dzNPak9OMkdMcFRHd0tRcHhZZnJ2VVN6SlNuQy12UW5HeXU0OE1RbjRvamowcmZxZkRucVA3cFlzT1JUV0VmNHM3Rm1JMjU5UE1iOEFIVURMRUEtMXBtM01TX0lnQS1SNzJVVldZdm03T1dwS0tyOHJtUmtUcUpPZmhkdF96TXJ0bXBxRFFhcEpYT1BNSktFYmNmQk9CbTQ4c214U2lkbWZleGZaM3lTdXJXYkZ0M0NObWo2eHJTN0hPOV80ZlRVZlpDQU9lM1o1U0tucVB2Tk5TWUVsNWVfZkh5ZDZvM2hERnBHblcyaTVzbXM0NGY0aFRWYS1KNXVZUmdoVk44dE0tRGpMWDAyczNCQjgxYVNxRTlGakRyc1JoMlZSclNxZUh5RFVFMVc3Q2RuSzFxVVJNallFdVhRQWRmc2lKWDNxYThFdkFkQk02T00xa0M4TkxQZ1BuUzJxMjdFX0dJcjNhT2owc3ZYVnd5RFJjSkNFYUhRQkY4TlFlX2xOZlkzaHRnNEROQlhkZDhrcWVwdTZiMm1SSzBqLUwzYVhkbkxnbVVIaVZwVDVkSl82MFJNU0h1S3pBbzlqMHFvcWJEaFUtTlAyT0hrUVNOUkhURDVvOFg2czE0M1RXczUtcXVlZzlpMjctdWpENWVZUHhGQ2hDRlRpM3VuR1lB0gG4BEFVX3lxTFBYNDh4emVxMzl1TFNMQVctTkk1M1lkMWJ2amd2TUN4bGtzRlJRcmV3QmpBY0tnS1VyRk10WkpSbmlQd2VCRTdaWFRySXE1SlJsR0JlREd4bW9reFNqLXN6MFlDTjBVU0E2RGpTS3Nvc1VrYW5nZFpSTFgtRHE0UzB3MkJWMWhmRy1MUVJGYXNFclhRaWpUek8xcmlSVVFyemF2dFJpZ0x1VTI3OGUyVDJXV2tnem5hcXpPX0JQbkl4VzBhMFNJZXBDdE1OcVdUNWIzQy1TSFY5T0VUOG9JTnQ5S2xHTzVRQ0lNX1BpbFAtLV9iWklLTWc5eXdNVXJoUUR0T1hkUHhnbXhJQ1NXdl9RaFVCSUxHZEpnczNpRFQ3QUV5VlRVQXhQZktNR1FSb0tfWEFLVzFBV0JFSFhGVDl0Mk5obHVYd19uaHBmRHVnWmNnODRlbjVUY0ltUmhzUHYwTDVrcEVxeWFwckRaVnlBUmV4Z3dhM1JfS3JYTzZlcXB5Tk03ZVhYelVkenE1WG1lNjBfQ2VvZXdRcVNXcTQyMld3R19ibGd0ZEFmMjNkdkFFaEp2a3ZQdy1fYXdsRDFSSVNJWW5IV0d0UVd1Z3V5bEliTVFxWWd0SHhpdHZhMFNiVU94MUowbW9hOXhjbHJQcWk1d09vM0lreEZtdGx5ZVpPTDhZUXFFYUdsak1wbldYbkluTG9qSU84aGVXWng0cnFkVkJwM3o5aUNXM2Z2VFFMZWM5a1M?oc=5",
+      "published": "2026-08-14T07:00:00+00:00",
+      "source": {
+        "name": "اليوم السابع",
+        "url": "https://www.youm7.com"
+      }
+    },
+    {
+      "id": "33724a237fb8",
+      "title": "بالصور- هيئة الدواء تسحب 5 أدوية من الأسواق: مغشوشة - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxOVUlQSi1ocFpvWmVjN29tSkNoU1ZzTU5vai11YllvaUVxNjFRSkJfX01kbXZWTER5Rl95N3hfUlpueWc0a1ZLcEpzQnRwZlY3dzR0N1Jyb1R1Q0d2ZjRGajZ0V21uUDZPbHFlYjBFdjZsdkFEN3BPWTBnbmg3alJ3RnFjbXhzMDdNOXhOdFFzUFAtcFBjaDVRNHV6TTFwMkd0Q21jQ0d4Wl9XVWltSlBlcGE1aWpRV1ZJcnUydTJkem52cC1Vcjk5a1VVZklKeVhWQ2RHZDU2NkRqN2JHVmJSWkI4NFFsUndpS2VtOXhsejdvdWRkQkZFU3hlNHl4VXVRMUNvOVJ0cmpTcm81Y1BBUTU0bS1ZbGhHMDNHV1JPeEJSNmljY0lTM2JMVGpaX0VGVV9CcXUwWkt6dGxCY21IRkV3cHpJYkN4MWNQZS03RG9PZ0QxbnppUGJBZGlKRmxISEtIQ1JBMFpDREw2cGwwSHNTM2tYdHNmT09jOXVLUnhMaWVrQkFaVUVIME91eTUwVkpVSU9wNTVFOEFpZnZBamotaS1Ua1pwbDJIRVFhSHRKZTdFZzBUN0djSGtoNEstbjZ2cUxFRnRTSG13ZXdyaDJyOGbSAdoDQVVfeXFMTXgybXlUdUhpVTdvMW91dW54M0pPbHUxWnVZcUhqTWM1X0U0Z0hUTEpra2dWMzdTT0NQRzhjY2dlN0FycjV4LXJPUUNma24zMmNhR0ljRnNFZXMwRExxNE5GdHI2cy1KbEE0QUVRekoyUUxWUTl6a0Vib0QtZm9vX0VpOHRQbVVsRDVCbVlQMHpGUHpMN1pmZlh2X0U0N01ZWVV5VmxCZnpjSzJnVUpXNm5abVllQUVzbkJhY3A1dnVEcmM1aDBhb3NybDRMQloyb2F5SmNaS05ZUDV5YWV0WndhM2ZncUR4VXZFRW9GaU1tZmpjVVZRdnRieHVSSzBPYkx6OEFyckpNMkpOZTUwUldCQWtEd3cxZV9JQ05nelh3VnBfOEtJY2tFMVlrWi1KSGRQMkhRaXo0cDJuUDlFQW52WURIVGhDdkJVNVpmRFkwVEtXMDF3VmZuX2lmM1NJcXFFU2ZiUnNLTkpiQnYtSVJoSGE3M1FORElMRVpGYlp0VXpVMUd6eGRXa01SalJwM09NNWprT2hjXzQ2X2kyRmdFbkJqaGR3VUdIQlZEWDIwM3cwWVhacWZhX1pTYkJyQjNKdkIyNkluOWcxTnBLa3ZXNC0tQm5OeEFB?oc=5",
+      "published": "2026-07-19T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "49e90408478e",
+      "title": "هيئة الدواء المصرية تحافظ على مستوي النضج الثالث بعد زيارة منظمة الصحة العالمية - الهيئة العامة للاستعلامات",
+      "link": "https://news.google.com/rss/articles/CBMijwZBVV95cUxQWTNLdmJUNFpjMXFaUm5adVRBSkVydDhDb1ZwbDBYdkVrQXdNRVBqYU12dWQwMTBEcXFrSklsVXdDaDhnYmxTYnU4Q01UejRuTF93b0xSTTE1bzRONXgzS3c5anB0YzlabDBOem1FbDZNWVV3cFVxMjBLdjRTdFMtSkEwb05DcWVpbVpSTENOQzZ6VnRpRkx0dmVRLTVxX21RblVQWi15NjhENmhLXzByOEFGUGtKQk5SVkhldmhLcV90QkVzV3hvUTZhRlBSX3kyNGkwWV9ScHVNbTdURkVfSFg1YlcwRG5nR2RmTG1ER01rVnhzNVlsR091LWhPRktyU0hMdGx5UE92OTZ4T3V5MVh2bS1aakpyLWFxSTg3TlBMUTNPMExDd214elhqTVZheHBuRWZKMVgxSGxrQXI5WERSWm1CdjFCLVB1UGQxYnhQeDdSQzR4VWtQRTBIcFh2dk15eElBcFB1dXYwTGxpTU5XelI4UnROQmtxcUw0c3Q1aHI0WmVucm5faXpQMUdhWkR4NVhlbC1TQTNmRUF2ZmNac0UydlNKeTFHdVBWUDR5VWdUOGdmWUJJd0dGUFN6NE5WV3BEc2RQM0V6SW5hbXhGdEN0Zm8xVXhQODRNMWpsUXBLM3ExTjZfRUN4UEJvMGZOSENFWlFsZnpNY2d5a0tRUDA2NjFyWjFyRmp3VzVvdl9XOTR2Sk1MLXE2SjIxQzFxY3hsZVhPcm5SSGdoaDZjdkpaYUdENENzd0dIRlBjblhIekhsa0tTRGdrU2tmTk1ValhZTFdMRkhzbDlVb015cjhsRXFDb2VlMU8wSmRfT1ZrMTdIbnQ1dUp1NzJaUWxZV20xLTNCNkFsY0puNGhYVlJYV09JVExGaXZIZWFEbUxOb1NBczNVMGdzTFY1cEdpT3ZTNXBESzVkRGRhS2daanhHczZmb3Z0RGJOUFEzMEk2WUpKOHVFVldxbGVyMzBDU2Z3eURaREFKeG5abktVWEF2dUpfelkxajNEQUwxcnpLU2NzMGlNMVltM3M?oc=5",
+      "published": "2026-08-19T17:28:00+00:00",
+      "source": {
+        "name": "الهيئة العامة للاستعلامات",
+        "url": "https://sis.gov.eg"
+      }
+    },
+    {
+      "id": "3049bfec4be8",
+      "title": "4 عادات يومية تحمي كبدك.. تجنب الأدوية بدون داعي - صحيفة اليوم السعودية",
+      "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxOdHFHTEpTOVMzZkFrTHY0ZmRWbC0wdjFkUlppWExid3JSRDA2Zm5jVUM5ODdYcjBOdWFzMG5yQkpVbmhBTjRNTzBFYURXaXdZS0xseFBsVnh3Q3RQZFBLNFpELUloSDYwcXJHWWtaVi1nRmN5UE1jYUFJMGZSY2F3RHg5MGdIMGNUaHN1dk04Y3dmVjc0RWg4dFFaaTF6QlBIUFN1aTBVQ18wRFNjRDJLeUdJdnhHZktMS0xCUmZZdXU3Vi1UMUktUU1laDIwOF9WX3p6SDJNRm0yeXdRck01em40cDZRRXk5bkhmUE9fVUNORGlpSld2LUJwVUNsOXpTalBhak5ZX2MydUMzWWZVeHVwM1FiQU84Q0NkZmM2OHk2cDJBVU5OanlscFItUWU5OFBFZ05UM1NtVGV3TUw2ZF9KenhPR2Nsa1dPU1l4V012Y1BfV0Z1bHE5b0Rlelc2VmNrb2trT0x4UHM4dWtiVG82YW1fTWVzUFFKTm9EazBGMS1hZWlLaFhQb0VUZlc2ZmcxNnRKT3QwOFRCZGtsdmFyWEFfaHZTNFlULWdPN2NTSW94WmhqRThxTWl1cG9VaFBGaUNacVBVSjA1R21EUDNieGJFZC1QeXktV2I4NEE1NjliNWUwenozaWQzdjVGdWUwWWJLX21xNEJGZ2VyNEFR0gFTQVVfeXFMT3B0V1dsRTB4d0pLMG53UHNvdTZfbm8tRzFEbW9pRVJfWFJ0YUtyQjBzbHVwX2hwdVlCSmNzZE9ybmlBVlYwZ0haZ0FtVUJlUHRNYWs?oc=5",
+      "published": "2026-08-02T07:00:00+00:00",
+      "source": {
+        "name": "صحيفة اليوم السعودية",
+        "url": "https://www.alyaum.com"
+      }
+    },
+    {
+      "id": "817189ca2eb8",
+      "title": "لعلاج الأورام والمعدة.. مصر تحذر من تداول عدد من الأدوية وتقرر سحبها - العربية",
+      "link": "https://news.google.com/rss/articles/CBMioARBVV95cUxPcUZERS1jRzZSME1xbVMySmY5MENoakZrWGVYWlBlQVVaZy0zWW9aY24wamVWNktxRHJjcmFLcWN3NUlia3Y3MEpYT3VLaEc2Zmc2bnJxcDBVRmlyTksyeXZ2Q3RkZlJYTzhYX2hmRjZIaEVEQVJpMWV4SXFtWk1lN0pzZ2I0UFZZRFUwTkFMbTU3Y0JsUDl2Y1ZLTGxiMllTc2ItWDB3WDc4VV9qQ1Vka2NmQkZrTFEtaFh3YmtWUHZLcHF6XzhpU1VHMlZ6Q19UX09iQktXNVo1ZURiVU5YVWJBaGtZZDZZYVNkbVk1M2ZRejBWYlNOQ3BqWmRQeTVGcG8wNjBPcWVVNXM3ZDg5QlB0ZFA3eS1ieDluUGhPOVZ1SHNEMHRYV2lWT1BQT19Fc0cydXZZRG9GVmxnUFoxalpiUWRRZ1Q5QUFOVHhCeFBkLUVyd0VFemdFWldXNlFmQUdIazRtTWRqMjA0QjFXVnRjVk5DbTctWFBiZ25JYjd3MWRzblR3NG1SWEV2djl6Sm5iSE5BTlFoX051TG9udVhrdFdxTFJySEFuMFd0WjczWnIwTGtfZ2o3QmtDMWo5eFplMElQTjNsUG9mNWhYb2JVemx3WUtHNEdyc2pydnJFeDNLYlNPMUg5Um5aWlJkU0xGYlVqeEpYUFhQYTlUaWQxOWxBYk9STEM4SWszZUhRazZmUjFMdXdzanZuVzhp0gGmBEFVX3lxTE1CeDF3dEM1WE9xNHJuMkRJVmk5RGc0dzkybWF4TU5Ebkdfdkx3Rm5oMzdtLWFTb19wRGRYTzlIcmcySVpKT3ZHeW96TGtvOXFvSnN4eXJ4R3BKRWw5SWlrQTdrX21rMDhzbFR1cWk1b0t5TVRKbjA0aDlmdFBlN1NLRGVRUmVWMmFsb3VsclBCRTY4MjNNTE84eTlCcGk2b29zeDlvSUVjSVJ0TGhvY0xnSWhPYTZwS21NRUhDOWhtZ0dLUGFxOFZLTW9QRFlRZ3BBelhxa2VYYkUwTjVHRkQwdmhVU1BfcnZVNU93ZUUxNTR4SnBhMjJ4QU0wSUg3Y3Y1MHl6T3BFWDY4NVZlZjhoOGNPLUpLNFRHS01XaVIwTEdwZXJLOGFVbi1UUE1yM2c2X0NxVkJRWHlpQl9EUTJkeHluRXRPelpQNFBzdlh0R2JMakwyNHFLVEc2c1JXSGgtUVdHNmpTbnI4cm9ELW9JdzR5dTBVaEQ5eXdSRlNPOXVsaUtRLWJudkZQZ3MxMTEwRUpJZGNLdEdseXZVTEtQb3VxbzBHY252a1Y3U2hRa0RlSHFtNE4wVC02d0ZSRTlQZTlNc1d2eXdTelFEWVRaaGZsUFcwRFdzTU01blZUTHVXWXI3aXVJX0Q2NFhFdG5mZUZMTlZ1Y0dlSGJsMEd6VjN1ek9zMFRneGZtM25iQWtRSk9pOGlEMlUwRlp6X1J6ZnU1WFE?oc=5",
+      "published": "2026-05-28T07:00:00+00:00",
+      "source": {
+        "name": "العربية",
+        "url": "https://www.alarabiya.net"
+      }
+    },
+    {
+      "id": "61201963cda0",
+      "title": "وزارة الصحة تحذّر من إيقاف الأدوية واتباع أنظمة غذائية غير مثبتة علميًا - جريدة المدينة - جريدة المدينة",
+      "link": "https://news.google.com/rss/articles/CBMiywRBVV95cUxOSHh0ZDNNX0VJNkI0Slp0RFhpdjVrOUQzekN1OWZTUXA5SWtfTl85cUZVYmEyNHZhcmQ3NURKLUItUnlEMG00dWhIQWlTYkU3ck8zYmNwbWFqM0FVR0x3dVNmZ1lQTzd4MFA1dTlwQ3Y0a0R4Y00zc2ZXdDZKQ0dHY09rMHZuakdjc2xxN09HSVFialNhY1pfaGxLamJ6NkhTbDdGUmVuV3RoVmMxWVZPWDd1MXgxaVZXMy1zV2EwYWJZMGFMVzI4Q3U3dExxTkdtcDFndkdPa1B3SVI5OVRNWTZOdmVYeHYyZU11cHlnRjFuWTY2RXhTOGFqcTRLVmFpWEozUS1KdlM3eE5wNTdPekwwM25vNXEwWlF1OVZYWm9QaTlyMlpTMlVoNkV5ZEpZOWliTEg4UHRZOEEzUTI4cml3QnlrdFZ6Q0JENWJHU2NYRlhiQmZUMU40TlQxNFIwQkdoeFJwVEhsU05XczBNNktHV1ZFWWRpRjY2VFV1VUw0RlppUXBKWDRTRkxVZUlkT1FxclFKMVc4R2ZXblR3SmhOUEh1LUpYVjFCZklxTHJJc3FpZ1U0RFF4TmtVWlNpQi1xckNmUFM3RDVJUTZTMW1JMmxJMlJ1a1llemx3RVNQSVBLUEg4NndIYlpyVTBpeGszcTFYbEk4bHFvdG5ULXc4WGV4cl9xRThlU0l5RkZSYzNaUjNCbHg0YlpWdWJFbFJnMVJtcGZEc1J2VWRWQno2QzE1VnBwWHlPUWpyWWEzaEV4dzlfQlhrSdIBVkFVX3lxTE9kSTlCLVAzNTBOSXVVRmJZenFxTjZZXy01WlNtUHhIWEV1U3FfeUNDVDBmUXpGVHpEZ2NYYzZVanRXLUphdnNqbVBzaU5ROGVXdHRWVzBB?oc=5",
+      "published": "2026-06-08T07:00:00+00:00",
+      "source": {
+        "name": "جريدة المدينة",
+        "url": "https://www.al-madina.com"
+      }
+    },
+    {
+      "id": "a7558b553509",
+      "title": "هيئة الدواء: حافظنا على مستوى النضج الثالث بعد زيارة الصحة العالمية - Masrawy",
+      "link": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQRlhLVk1ualhzVjh4SzIyWFNuZ1lZUlNid0FvTUE0M0NwQzZQM1NCeHRJdmsxblROMTV3N01QNWoyVk9qdEFFdGN6S19pVFJMeE92Z05RaHdJTjM5WHR0QzFZTm9MNjlnUXdZLTBWb2FtS01JS2pFLTdYRFR2TGZpNng0Rm5EYk5JajRtTnlrdHJWajZobDV6SUUxNWI0VzItWW1nbnJpcTc3dDV5Z0JxbXdoM2JadnNscUc4UXFnNUlpOFJpcHRNN3NZUnBtTnpJNGRJOVdmMjZ5RGh1SUlmNlpyRV82TEhoWWMyY3dxaG5zbkQ3VVlBM25NUlN5dWJBY09wT1pUcG4wRy1mODU2TzFxWng5XzVwdC1kZHpvRVpoWV9JampoUDVHYUNHNVZMa3k5NkZiZ2JWNUhRdnlQeG9namt2NS02T1VZT2pNVGUwM2FmUGZRckNJU201RGM1cjZrZFZvcHBwWVNIQXFMc0NncEdMcEFST2puaDZDU3hDTHIyb0NKUFZfUElVZEhqWWpHSkNrZUVGTlJFYUJBdXl0d0xfcng1LVhlUkI5dkJuZ3ZDbFFOME9hc0xMVzh3ZllKclVwNExxeENiQV93M2EtMFFBdy10TmlvRjNwWlZraHp0ZjlxOVhPcVlUdVBpd3Fuay1fYzJ1THR4VF9VQWRRUjRCMC1xN3BlaDF4dWFIa2xzaC1rYlNPOUVJanBNQTlNQnBDaTZoRlk5VThKRWZOWGtoWV9seG0yOVdMSHJ2QdIBxwRBVV95cUxNMmMwNUFNWlEybU1SUFQwTmtqa3d1cDhIZFUtYW0wSVRNSGI0VnJaRWQxVDZaYjI4S3lNY2dra0hQdVNJcjJrVDZXeU41clA2VElOc3hGcm05S1dTZ1BPNzdmeURUaWVwdzlYMUp6MGxhVVdVcDhaN0ZaaURnaTJMVi1nUjBrSGZaa1RaQ2tLRW9ZN1N1OVY0NXJ6TVFxbzI3eTlqTG5JMFA2T1lxRTlzdkRwWWFmd0ZxdXFpSDk2bGt3M2ZkQmJMLVg3YUVqdVhnVnluUzU1d3RyZDJGMW1fdm1YbEpNOTJ2UEFQaV8tZUg4MlhkTHJuQnBpUTJINmNLbkMyLWY4a1k3MEdKaE9ib0VVd2Y4MGRFRmJybXF4SVJCekJPV3cwbHVURjBfSnFJWjB0WFRjWHZ2Rk1tYmJJeER2V3FFeHdJTmc3Ny0xX04yQThkVF9JVndTSV93Q1Y2YmpVdFNJVE9ZSFM1ODBtekQ2dHd0aG9mY1FzeTJqbmpMb0Nnb2JBbXVuNjVjMENqUC1PRjdPMXhpSk9PRmF2blJmVTM4eHNiOUh0TlduOHN5VHlYZXZPUFl1M3l4LWhLanNuUElqT05rQk84SW1OUGpTbTFGWUkySko2ODdrT05Oa1VYUlNNRUUwNFI4ejhSRjllUGNsOGxaaEZMVnkwVVJjQU56VzZkRWl3bk4xR1RZX1hjS0l6TnNmMzBzeU14MUpEM3c1dUpjVTRNaWlWa19XZHJuT2dzdWp2czJDUUNndHR6M2Jz?oc=5",
+      "published": "2026-08-19T07:00:00+00:00",
+      "source": {
+        "name": "Masrawy",
+        "url": "https://www.masrawy.com"
+      }
+    },
+    {
+      "id": "ab0e37851b5d",
+      "title": "تشمل 3 أنواع.. تعميم من وزارة الصحة بشأن إتلاف الأدوية الخاضعة للرقابة - جريدة الشرق",
+      "link": "https://news.google.com/rss/articles/CBMiogRBVV95cUxPc2ZUWm5mYk9pRnF2TzdFbXAtdzdWSkNLTktGOXVFUEtadjNJUUI4NUppc1hhMG1CSVE1NWVOVzd6NVkzQ1pLQkFENlJPTE5aVHRUWWJrZDZYRXpCckpVdXBpTElDMkpONnJKYXhCWnd2dnI5SE13RG0wZDZyRGNfcUJYY2Z0OXhCY0pkRXM2dWZlcTV4cWkzdlJzRTlJM2owdUEtWTZWTUs2ZG1NSTNyR1J6dWlhcFZhZ1d3RWZmOWhIZEpybWdZTzhHcDBQMFY4ekU5QmM4NmRDQzZoVzVvakZPb1dhbTBJb1ZZVG5fc29HTllGWmlFaG85Q3A2OHJYUnJLX0EtejJTU182LW45MWVfRFZCaW1pZEtuLThTaUJMSk4zVm5XazFTRVg4eHFCcVI0em5EaHpDUkpxN1Y2QXNjSTBWYVpJWnFyN1hTNERPTkNocFFXajRjRE1GcTM4cnVPUkwxR1dycERqRmNFemFCb29sUHc1WU5uemRITWdUWG8zd0xoZ2tfSC1FQk5TQ3JldmFkS0VqLUxWX3ZYLTlhWkJkcnVWSFVWc2VNbGhWenRzbllIb19HTWh0cVRpYTlidFRyZUlNRjZfV3N2MmRWZnpMWUloeTdldHVSYWpqWEg2ZGhpUUpXNlVYZi1wTlJRZFA2aGwwcE5tN3RaMVNCWjlfVUloaFllT2JpRVpxM2xNRHQ0bDFVWkVja044cmc?oc=5",
+      "published": "2026-08-13T07:00:00+00:00",
+      "source": {
+        "name": "جريدة الشرق",
+        "url": "https://al-sharq.com"
+      }
+    },
+    {
+      "id": "2c647768d3f5",
+      "title": "أبرزها علاج القولون العصبي.. هيئة الدواء تحذر من 3 مستحضرات مغشوشة - الكونسلتو",
+      "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxPNE5uSkhodGlFV2JNMjMyblpPNXJNN2dWSG40VlFybDB1YjhWU0Z6ZmljM2NGOGJGRktvZVV0TnlzLUVQYnN5NU52bGNwcXV5S1JTV05WWDl1UjZqaTRnU092alNSNFFrTnMyS05oSWdpRENsU1p2SXR4SDlJdHZrWE00VlN0UWFDVVR2ZjdHRG5fUk1ocHg0OC1fODBHS1FZZEc5U2pCWTM1dWdHbFU2Q2paQkdFUDk5bGtfSHRaX0pGZjlnRk1GX0NzZ3BzNFowckwxdXdOLUZNN1ctSjhSY1dXUEtoRzZxN2Q2dWVwbnZ5LVV1b1d0U1p6aHRmRjJPYkxTd3pONjNLWGFjWXQyM1FVbE9lck53cEtyd3VCQllzc2NjRGRUbVRlUjRzaDdTTnZjOW5GNnV4dDZpV2c2MEl0WE8wSm5pajRFbFhxUnBCdjdDc25DYWNqZTBzOFEwbVVQck9tdGpoRXEyb3lqOXNUamFtaE5lNVdJX3BDX3QzbGtpc3lEbzl2SHB2WWRkN0Q4UHNDVGduV2ZCUWFyVzZ2T0ppNTdVN1c1Y25EOTBWMWFVekJUcE00aDhoQ0Z0Y0hVVmMyVjVQZlpraXJfSExtZ2NrNmFQYXV0ajgwM0s0TnlJU0JqSDR0cURfUlItWngyLWdjQzE1VU01Zi1PcDA1RVFsMENoS2dYeEhqQlF6TDFnQTlqTmE4TGRBMkV3M0xUMkJHX2dELW9sRzhrbkk4MGtnYW9IU0pFQ3Zn0gHDBEFVX3lxTE5semxsYnRndWtoTl9DeUxXZXFybDVuUG1UNS1XUFFJNmI2d0VTem43SlIyZkdGaVRndG1mcUliRUJZZU1uRTEtbkdubEJVYllHVTNlT2hjdUs0WEhjdnd6SVB5aE0zVTlna3JVa3ZjSGROT1FrWjRyQWtVNEppaDMzRVZYQXd0YXdpelJYeTRKYjF0SVZCWDZmTVVXN1VjekJLaE1uQnAzY3NIOFZtZDdZcnNCNmV3cUlmdm1JQ2VZWmY5a1AyYTVpVV9xbE5VRGM4emFYTERwMGpOTXlybjRUSmNWOG4zaDJnREp1NVBTaTBuQ2cxQzhlTVZXMk9sbkJJaVl5Q09xR1dYXy1BS2h1NmVUa1ZiYWp0Z0ZwdlRSdXJ1b05wUWROS0NNR2lOOWs1YUQwNTNUT0g2Vkh0NE9ENmo1VnRXSS14dXhBUm5VR0hiXzYwTlJTLVRVYWotczcwZlVOMmZrSjNZT2VPZ1VuVlZ4T0V3U1Uwa1c4Uml6anJKR0dyY2VrOFU3ei1uNzJKYVVyWlhmN1RaR21UbUNNSFYydHc5bGhsRlBzaW9FSm9DWVdQQ3hzczhiOFNRX3lNaDVNZTlWNllrc1hCbVhsNVBCaERzZEdNdTlWdTZFTFhQTnlCR3dXMG5QWFhnUHd4VnU1VjBkcGtPWEI0S2JhQnUyNkZHaHc2bFJRTnN6Qkl3SmdiMVVNQmdQUmphTGN3RG83N0hvVGNUSEc4YjUtWEhRZGVadmRSWlJpcXhZRkhDYw?oc=5",
+      "published": "2026-07-05T07:00:00+00:00",
+      "source": {
+        "name": "الكونسلتو",
+        "url": "https://www.elconsolto.com"
+      }
+    },
+    {
+      "id": "0432162c7d4a",
+      "title": "بالأرقام.. نقص الأدوية والمستلزمات الطبية يقتل الغزيين ببطء - الجزيرة نت",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOVjRzQUk0eHNkZ2tINzVfWFd2OG95bDVLSG13NmpWWmQwUVhwbVNDVHRFT2hqMjN1U0hZaVZOYVRseVg3ZmxHbE9UU0c3cm50bTJ0eWpNdC1ZalJPYndkeTZXQ0U3dTRMWlBvcFdGRU9mZnZiZGI1Nlg5QWNKQTZLZ0xEZjBoQkcxeE1hc08yMVNsV3drRTl1My1ZTVliSHV4azNJanFKZkZFUWJrOFU2RS1qdzZkNlQxTGtwNlRQTG10VUh1WmVBUDRIWEhfQkc4OG1neXcxS2RQd2xnVUVMOUVxOEJRNm9QLTllbmRoc3RMSXBZZUYwZHdjSHNtZXB6VU9mVEZacHdiMko1TDdSUGFtRdIBmAJBVV95cUxOeTRzS0c2bW1KeUpwbVpCVFZrTFo3UlQ4b0ZBUzNGNlNjWUpnS2oyc0twY3M2dGl1aFRqQjhwazU0YjlVTjRlUFpIdjloaW5TcWJNTlFKRlJJYURFODZRYzBPOW9pcDhXeDdkX3pnTlVUTGpJTERHRDlDeEstT2Z1d0lnX0VaY200WVJjOHZkR0NJekd4VUlGUW5pLV80eFNtNzZadFQwa1VaS2tmNXplV1ZnWVc4WVRNUGJuWGJ3QVZaM3lZVHpVZWR6alowbjZmVzZKY0ViOEpDU1d6eVZIUlREN0NmN1ZWcFNDaUJnWjlvS1dlYmFOR2Y2akpuMllXVUR0cVI0dVQ0dVZQbzc1VDhYQmpld2Zz?oc=5",
+      "published": "2026-05-14T07:00:00+00:00",
+      "source": {
+        "name": "الجزيرة نت",
+        "url": "https://www.aljazeera.net"
+      }
+    }
+  ]
 }
