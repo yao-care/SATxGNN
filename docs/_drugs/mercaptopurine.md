@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 408
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,7 +97,7 @@ The TxGNN prediction therefore aligns with an evidence base that already exists 
 
 ## Saudi Arabia Market Information
 
-Mercaptopurine currently has **no marketing authorization on record in Saudi Arabia** (`market_status: 未上市`, 0 licenses). No product-level dosage form or approved indication text is available for this evidence pack.
+Mercaptopurine currently has **no marketing authorization on record in Saudi Arabia** (`market_status: Not marketed`, 0 licenses). No product-level dosage form or approved indication text is available for this evidence pack.
 
 ---
 
@@ -131,10 +131,10 @@ The L1 evidence level is supported by a Phase 3 RCT (NCT00492856) directly evalu
 - Detailed mechanism of action (MOA) documentation from DrugBank or equivalent source
 - Local drug-drug interaction (DDI) data confirmation
 - Regulatory pathway analysis for first-time market entry, given the drug's "not marketed" status in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

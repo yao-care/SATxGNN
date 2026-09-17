@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Triptorelin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 643
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ The rank-1 prediction (hypertrichosis) rests on a single incidental case report 
 - Confirmed mechanism of action documentation from DrugBank (currently a data gap)
 - Correction of the original_indications field upstream — this pack's own rank-8 evidence (9 trials, 20 publications, L1) strongly suggests central precocious puberty is triptorelin's actual core indication, misrecorded as empty
 - Purpose-designed studies evaluating triptorelin specifically for hypertrichosis (none currently exist); the current single case report does not support this indication
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acarbose
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Acarbose
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -93,10 +93,10 @@ There is no clinical, preclinical, or mechanistic evidence connecting acarbose t
 - Complete MOA data from DrugBank (DG002) to fill the mechanistic gap and enable proper target overlap analysis
 - Package insert safety data (DG001) from TFDA or equivalent authority to enable full contraindication and warning review
 - Consideration of higher-ranked predictions with stronger mechanistic plausibility (e.g., Rank 9 — Pancreatic Agenesis, Evidence Level L4) for prioritized follow-up
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

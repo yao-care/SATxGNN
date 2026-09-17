@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rasburicase
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Rasburicase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Rasburicase is a recombinant urate oxidase used to rapidly lower plasma uric aci
 | Predicted New Indication | Renal Hypouricemia (hypouricemia, renal) |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,10 +100,10 @@ The top-ranked prediction (Renal Hypouricemia) has no clinical or literature sup
 - A clinical or preclinical rationale that addresses the directional mismatch between rasburicase's hyperuricemia-lowering effect and a hypouricemic target condition
 - DDI and contraindication data before any safety pre-assessment (S1) can begin
 - If rank 2 (HGPRT partial deficiency) is pursued instead, at minimum case-report or preclinical evidence connecting rasburicase to that indication, since none currently exists
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitroglycerin
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 447
-evidence_level: L5
+evidence_level: L2
 indication_count: 5
 ---
 
 # Nitroglycerin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,11 +43,11 @@ indication_count: 5
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no licenses on file (未上市); NTG is generically known as an organic nitrate vasodilator, but no approved-indication text is present in this evidence pack |
+| Original Indication | Not available — no licenses on file (Not marketed); NTG is generically known as an organic nitrate vasodilator, but no approved-indication text is present in this evidence pack |
 | Predicted New Indication | Pulmonary Hypertension |
 | TxGNN Prediction Score | 99.61% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -115,10 +115,10 @@ The predicted indication is mechanistically plausible (NO/cGMP-mediated pulmonar
 - Confirmation of original approved indication(s), since none are on file in this evidence pack
 - A completed Phase 2/3 RCT in a chronic PAH population before advancing beyond "Research Question" stage
 - Separate evaluation of rank-3 candidate (Prinzmetal angina), which has substantial trial/literature volume (7 trials, 20 publications) but pending relevance scoring not yet assessed in this pack
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

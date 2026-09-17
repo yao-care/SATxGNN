@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 276
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,10 +97,10 @@ Evidence level is L3, and the supporting trials predominantly use fluticasone **
 - Detailed mechanism of action (MOA) data from DrugBank
 - TFDA/SFDA package insert warnings, contraindications, and DDI data (currently unavailable)
 - Note: within this same evidence pack, the "bronchitis" (COPD-spectrum) indication (rank 2, evidence level L2, "Proceed with Guardrails") is directly supported by fluticasone furoate/vilanterol trial data (e.g., NCT02989935, RELVAR) and may warrant separate, more advanced evaluation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

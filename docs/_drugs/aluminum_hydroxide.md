@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Aluminum Hydroxide
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 38
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Aluminum Hydroxide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -111,10 +111,10 @@ Multiple RCTs and mechanistic studies spanning four decades consistently support
 - Positioning assessment relative to current standard-of-care (PPIs + H. pylori eradication), since aluminum hydroxide monotherapy is no longer first-line in most guidelines
 - Long-term safety review: phosphate depletion syndrome risk, bone demineralization potential, and aluminum accumulation in patients with renal impairment
 - Modern dose-finding or comparative effectiveness data to support regulatory submission under contemporary clinical standards
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enflurane
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Enflurane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -85,10 +85,10 @@ The prediction rests entirely on a computational embedding-similarity signal (Ev
 - TFDA/SFDA package insert warnings, contraindications, and drug interaction data (currently blocking per data gap DG001)
 - Any preclinical (in vitro/in vivo) evidence specifically linking enflurane exposure to mood stabilization
 - Reassessment of route feasibility, since a chronic oral or alternative delivery formulation does not currently exist for this inhalational anesthetic
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

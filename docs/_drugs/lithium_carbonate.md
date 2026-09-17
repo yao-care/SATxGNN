@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lithium Carbonate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lithium Carbonate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -98,10 +98,10 @@ The top-ranked predicted indication (pseudoachondroplasia) has evidence level L5
 - SFDA/TFDA package insert (warnings, contraindications) to clear the Blocking gap (DG001) and unblock S1 safety review
 - Verified mechanism of action data (DG002) for lithium carbonate
 - If pursuing repurposing further, consider redirecting attention within this same evidence pack toward **WHIM syndrome** (rank 9, evidence level L4, decision stage S1, "Research Question"), which has a sourced mechanistic rationale (lithium's known granulocyte-stimulating effect via GSK-3β/CXCR4-CXCL12 pathway) — a materially stronger starting point than the top TxGNN-ranked candidate
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

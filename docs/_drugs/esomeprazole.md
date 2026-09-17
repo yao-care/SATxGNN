@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Esomeprazole
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 235
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -110,7 +110,7 @@ By contrast, the mechanistic case for the other two predicted indications is wea
 
 ## Saudi Arabia Market Information
 
-Esomeprazole currently has **no marketing authorization on record in Saudi Arabia** (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No authorization table can be produced.
+Esomeprazole currently has **no marketing authorization on record in Saudi Arabia** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No authorization table can be produced.
 
 ---
 
@@ -148,10 +148,10 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Run a formal drug-drug interaction (DDI) query (current query status: not found)
 - Confirm regulatory pathway for market entry in Saudi Arabia given zero existing authorizations
 - Do not allocate further resources to duodenogastric reflux or duodenal obstruction without new supporting evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

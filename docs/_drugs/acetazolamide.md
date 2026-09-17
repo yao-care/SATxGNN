@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acetazolamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Acetazolamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -99,10 +99,10 @@ Despite a very high TxGNN prediction score (99.95%), exercise-induced malignant 
 ---
 
 > **Broader Landscape Note:** Among all 10 TxGNN predictions evaluated for acetazolamide, **Cardiomyopathy (Rank 7, score 99.83%)** is by far the most evidence-supported candidate — with 3 active Phase 4 RCTs (largest: [NCT06166654](https://clinicaltrials.gov/study/NCT06166654), n=939) and 10 publications, qualifying as **L2 evidence** with a **"Proceed with Guardrails"** recommendation. The post-ADVOR-trial evidence base for acetazolamide augmenting loop-diuretic therapy in acute decompensated heart failure is the most actionable repurposing direction in this evidence set and warrants a dedicated evaluation report.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

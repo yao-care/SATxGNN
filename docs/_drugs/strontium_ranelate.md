@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Strontium Ranelate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Strontium Ranelate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,10 +83,10 @@ There is no clinical trial or literature evidence supporting any of the top five
 - Verified mechanism of action data from DrugBank or equivalent source (DG002, High)
 - Independent biological plausibility assessment for heparin cofactor 2 deficiency, since the current score is model-prediction-only (L5)
 - A safety re-evaluation of the VTE risk profile before considering any of the four thrombosis-adjacent candidates further
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

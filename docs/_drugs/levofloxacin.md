@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levofloxacin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 373
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Levofloxacin 是廣效型第三代 fluoroquinolone 類抗生素，因目前未�
 | Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
 | TxGNN Prediction Score | 99.92%（rank 1853） |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Levofloxacin 是廣效型第三代 fluoroquinolone 類抗生素，因目前未�
 
 請參考仿單獲取安全性資訊。
 
-（註：TFDA 仿單警語/禁忌資料屬 **Blocking** 級數據缺口，目前無法完成安全性初評（S1）。）
+（註：SFDA package insert warnings/contraindications資料屬 **Blocking** 級數據缺口，目前無法完成安全性初評（S1）。）
 
 ---
 
@@ -86,7 +86,7 @@ Levofloxacin 是廣效型第三代 fluoroquinolone 類抗生素，因目前未�
 **Decision: Hold**
 
 **Rationale:**
-唯一支持文獻為描述性群聚感染報告而非療效研究，且 fluoroquinolone 對微孢子蟲缺乏已證實的抗蟲機轉，證據等級僅達 L4；此外藥品目前未於沙烏地阿拉伯上市、仿單安全性資料為 Blocking 級數據缺口，無法進入 S1 安全性初評。
+唯一支持文獻為描述性群聚感染報告而非療效研究，且 fluoroquinolone 對微孢子蟲缺乏已證實的抗蟲機轉，證據等級僅達 L4；此外藥品目前未於沙烏地阿拉伯上市、仿單安全性資料為 Blocking 級數據缺口，Cannot proceed to S1 safety screening。
 
 **To proceed, the following is needed:**
 - TFDA/當地仿單警語與禁忌資料（Blocking，須優先補齊）
@@ -104,10 +104,10 @@ Levofloxacin 是廣效型第三代 fluoroquinolone 類抗生素，因目前未�
 - **Septicemic plague**（rank 9，L2，S3，Proceed with Guardrails）：Levofloxacin 已透過 FDA Animal Rule 核准用於鼠疫治療/預防，機轉關聯明確且已有法規背書（16 篇文獻）。
 
 若欲優先推進老藥新用候選，建議評估上述兩項適應症而非本報告之主題適應症。
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

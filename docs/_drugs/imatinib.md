@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imatinib
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 321
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Imatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -164,10 +164,10 @@ This evidence pack ("TW-DB00619-multi") scored 10 related disease nodes for imat
 | 8 | Autosomal recessive familial Mediterranean fever | 99.86% | L5 | S0 | Hold | No trials or literature; no known mechanistic link to imatinib's targets |
 | 9 | Ovarian myxoid liposarcoma | 99.85% | L5 | S0 | Hold | No trials or literature; likely a rare/ambiguous KG entity |
 | 10 | Familial rhabdoid tumor | 99.83% | L5 | S0 | Hold | No trials or literature; driven by SMARCB1/SMARCA4 loss, unrelated to imatinib's mechanism |
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

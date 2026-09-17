@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foscarnet
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Foscarnet
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -84,10 +84,10 @@ This candidate has an evidence level of L5 — a model prediction with no suppor
 - Independent literature or preclinical data specifically linking foscarnet to a collagen-vasculopathy pathway before any further evaluation is warranted
 
 *Note: three other TxGNN candidates for this drug (rheumatoid arthritis, diabetic nephropathy, brain small vessel disease with ocular anomalies) were also screened in this evidence pack and were similarly assessed as Hold due to keyword-mismatch literature or absent mechanistic rationale — none currently support progression.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Clomifene
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Clomifene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -109,10 +109,10 @@ The top TxGNN prediction scores very high (99.90%) but represents a mechanistica
 - For Ovarian Remnant Syndrome specifically: conduct a targeted literature review to identify whether more recent evidence exists beyond the 1990 case series, then reassess as a potential Research Question candidate
 - For the FOXL2/BPES and FXPOI candidates: consult reproductive endocrinology experts to assess whether Clomifene's SERM mechanism could have meaningful clinical utility in these ultra-rare POI subtypes
 - Do not progress any chromosomal copy number or structural Müllerian anomaly candidates further — these are false positives that do not warrant additional investigation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

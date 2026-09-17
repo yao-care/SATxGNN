@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 155
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -117,10 +117,10 @@ For the specific subtype of **migraine with brainstem aura**, no dedicated clini
 - **MOA documentation:** Formal retrieval of clopidogrel's DrugBank MOA entry and TFDA package insert warnings and contraindications to complete the safety profile
 - **Saudi Arabia regulatory pathway:** Since the drug has zero local authorizations, a new drug application or compassionate use framework would be required before any clinical evaluation in the Kingdom
 - **CYP2C19 pharmacogenomics consideration:** Approximately 14–20% of populations of Middle Eastern descent carry reduced-function CYP2C19 alleles, which may impair clopidogrel bioactivation; pharmacogenomic screening protocols should be defined before any prospective study
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

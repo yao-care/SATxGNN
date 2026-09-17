@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Abacavir
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 11
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Abacavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -107,10 +107,10 @@ The top-ranked prediction (SIV infection) represents a biologically plausible bu
 - **Clarify repurposing intent:** If the goal is human clinical repurposing, SIV and Feline AIDS are veterinary/primate indications; redirect analysis toward Abacavir's potential in human lentiviral or retroviral-associated conditions (e.g., HIV-associated neurocognitive disorders, HTLV-associated myelopathy)
 - **PEP niche assessment:** Evaluate whether the SIV finding strengthens the evidence base for occupational PEP guidelines — a narrowly actionable human clinical context
 - **Saudi Arabia registration pathway:** If market entry is the goal, initiate SFDA regulatory assessment and literature review for HIV-1 indication (the established use), rather than the predicted indications
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

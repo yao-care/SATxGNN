@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Milrinone
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Milrinone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-Milrinone is not currently registered or marketed in this jurisdiction (`market_status`: 未上市, 0 total authorizations, no license records available).
+Milrinone is not currently registered or marketed in this jurisdiction (`market_status`: Not marketed, 0 total authorizations, no license records available).
 
 ---
 
@@ -100,10 +100,10 @@ Despite the very high TxGNN score, this is a purely computational prediction (L5
 - Resolution of DG001 (TFDA/SFDA package insert warnings and contraindications) and DG002 (MOA) before this candidate can even enter safety pre-assessment
 - Confirmation of milrinone's actual original indication and regulatory status, since `original_indications` is empty despite the drug's well-established clinical use in heart failure
 - Note: within this same evidence pack, **congestive heart failure** (rank 6, L1, Proceed with Guardrails) and **acute pulmonary heart disease** (rank 10, L2, Proceed with Guardrails) have substantially stronger evidence bases and may be higher-priority repurposing candidates for this drug than alopecia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

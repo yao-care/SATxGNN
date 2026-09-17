@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Econazole
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 218
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Econazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -127,10 +127,10 @@ These candidates scored highest by raw TxGNN rank but returned no supporting cli
 | 4 | Superficial mycosis | 99.97% | L3 | Research Question | 19 literature hits found, but all concern related imidazoles (sertaconazole, bifonazole, etc.) rather than econazole-specific trial data |
 | 5 | Dermatophytosis of scalp or beard | 99.97% | L5 | Hold | All 20 retrieved publications were false-positive keyword matches (beard transplantation, unrelated topics) — no usable evidence |
 | 6 | Tinea profunda | 99.96% | L5 | Hold | No trials/literature; topical penetration likely insufficient for deep dermatophyte infection |
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

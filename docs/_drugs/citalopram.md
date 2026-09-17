@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Citalopram
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 143
-evidence_level: L5
+evidence_level: L2
 indication_count: 5
 ---
 
 # Citalopram
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -125,10 +125,10 @@ Citalopram's SSRI mechanism directly targets the serotonergic dysregulation unde
 - Review drug-drug interaction profile, particularly with MAO inhibitors (absolute contraindication), other serotonergic agents (serotonin syndrome risk), and CYP2C19 inhibitors/inducers that affect citalopram plasma levels
 - Assess SFDA market entry strategy — citalopram has no current Saudi authorization; a regulatory filing or named-patient program would be required before any clinical deployment
 - Consider a prospective open-label pilot study of citalopram specifically (not escitalopram) in OCD to generate drug-specific Level 1 evidence and close the evidence gap from indirect class extrapolation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

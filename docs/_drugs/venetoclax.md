@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Venetoclax
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Venetoclax
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -113,10 +113,10 @@ While venetoclax's BCL-2-inhibition mechanism is well-supported for CLL/SLL broa
 - A targeted literature/trial search specifically for IGHV-mutation-stratified venetoclax outcomes in CLL/SLL
 
 *Note: This evidence pack also scores nine other candidate indications for venetoclax (ranks 2–10), ranging from strong, standard-of-care-level evidence (e.g., myeloid leukemia, L1) to isolated model predictions with no supporting data (e.g., malignant spiradenoma, L5). Those are outside the scope of this report, which addresses only the top-ranked prediction per evaluation protocol.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

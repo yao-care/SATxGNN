@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Raloxifene
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Raloxifene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ indication_count: 4
 | 預測新適應症 | Duodenal ulcer（十二指腸潰瘍） |
 | TxGNN 預測分數 | 99.72%（模型排名第 5094 位） |
 | 證據等級 | L5（僅模型預測，無臨床試驗、無文獻） |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 核准許可證數 | 0 |
 | 建議決策 | Hold |
 
@@ -80,7 +80,7 @@ Raloxifene 目前**未在台灣上市**，無核准許可證資料（`total_lice
 
 請參考仿單所載安全性資訊。
 
-補充說明：TFDA 仿單警語/禁忌資料為**阻斷性（Blocking）資料缺口**（DG001），目前無法進入 S1 安全性初評；DDI 查詢亦無結果（`not_found`）。此缺口須優先補齊才能進行後續安全性評估。
+補充說明：SFDA package insert warnings/contraindications資料為**阻斷性（Blocking）資料缺口**（DG001），目前Cannot proceed to S1 safety screening；DDI 查詢亦無結果（`not_found`）。此缺口須優先補齊才能進行後續安全性評估。
 
 ## 結論與後續步驟
 
@@ -90,15 +90,15 @@ Raloxifene 目前**未在台灣上市**，無核准許可證資料（`total_lice
 四項預測候選皆為 L5（純模型預測），無任何臨床試驗或文獻佐證；且安全性初評所需的 TFDA 仿單資料為阻斷性缺口，尚無法進行 S1 安全性評估。證據包本身也對第 1、3 名候選的機轉合理性提出保留。
 
 **若要推進，需要補齊：**
-- TFDA 仿單警語/禁忌資料（DG001，阻斷性，需下載並解析原廠仿單 PDF）
-- 作用機轉（MOA）資料（DG002，查詢 DrugBank API）
+- SFDA package insert warnings/contraindications資料（DG001，阻斷性，需下載並解析原廠仿單 PDF）
+- 作用機轉（MOA）資料（DG002，Query the DrugBank API）
 - 原始核准適應症資料（目前完全空缺，無法建立原始–新適應症的比對基礎）
 - 針對排名第 2（hypoalphalipoproteinemia）候選項目優先執行文獻與臨床試驗檢索，其機轉合理性在證據包內部評述中相對較高
 - 排名第 3（duodenal obstruction）建議進一步確認是否為模型偽陽性，必要時自候選清單中排除
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

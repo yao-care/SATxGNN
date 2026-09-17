@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alprostadil
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 36
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ Alprostadil's use in ductal-dependent aortic malformations is one of the most me
 - **Safety dossier completion:** Retrieve and translate the full package insert (warnings, contraindications, dosing for neonates by weight) to address the identified Blocking data gap (DG001).
 - **Indication boundary definition:** Given the breadth of ductal-dependent lesions (IAA, CoA, HLHS, pulmonary atresia), define the specific ICD-10 code scope for the Saudi Arabia indication filing to ensure regulatory precision.
 - **Prospective neonatal pharmacovigilance plan:** Given the vulnerable population (critically ill neonates), a risk management plan addressing apnoea monitoring and prolonged-infusion complications is required.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

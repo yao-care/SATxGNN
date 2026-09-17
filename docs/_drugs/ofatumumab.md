@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ofatumumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Ofatumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ The top-ranked TxGNN prediction is a biomarker-defined subtype of ofatumumab's o
 - IGHV-status subgroup analyses or a prospective biomarker-stratified trial drawing on the existing CLL/SLL evidence base (rank 5: L1, 34 trials, 20 publications) to test whether this specific prediction adds actionable information beyond the parent indication
 - A Saudi Arabia regulatory pathway assessment, given the product currently holds zero local authorizations
 - For context, two other candidates in this same evidence pack carry materially stronger direct evidence and may warrant separate evaluation: follicular lymphoma (rank 3, L2, multiple completed Phase 2 trials) and unstratified CLL/SLL itself (rank 5, L1)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

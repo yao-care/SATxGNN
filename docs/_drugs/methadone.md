@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Methadone
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 411
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Methadone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -89,10 +89,10 @@ Evidence for methadone in Tourette syndrome rests on a single 1992 case report w
 - Confirmed mechanism of action data to substantiate the opioid–basal ganglia–tic rationale
 - A modern case series or pilot trial specifically evaluating methadone in Tourette syndrome, given the single supporting case report is over 30 years old
 - Note: among the other candidates in this evidence pack, **headache disorder** (rank 4) has notably stronger evidence (L3, decision stage S1, a 2021 prospective cohort study on low-dose methadone for refractory chronic migraine) and may warrant separate evaluation ahead of the Tourette syndrome signal.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

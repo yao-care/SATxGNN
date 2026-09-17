@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cefazolin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 115
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Cefazolin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -102,10 +102,10 @@ The sole identified clinical trial was terminated before completion and cannot c
 - **Route feasibility assessment:** Clarify whether IV/IM administration is compatible with the target clinical setting (inpatient ENT vs. outpatient primary care)
 - **Prospective study design:** A protocol targeting Cefazolin as perioperative prophylaxis or adjunct treatment in complicated otitis media cases (e.g., Gradenigo syndrome, post-tympanoplasty) would be the most scientifically justified next step given current evidence
 - **Saudi Arabia regulatory pathway:** Since Cefazolin is not currently marketed in Saudi Arabia (0 authorizations), regulatory submission would require a full dossier prior to any market access strategy
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

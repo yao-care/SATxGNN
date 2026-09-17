@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cimetidine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Cimetidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,10 +97,10 @@ Evidence is at L5 — model prediction only. No clinical trials or publications 
 - Safety profile from the package insert, with emphasis on long-term use risks and CYP450-mediated drug interactions (critical in SSM patients often on multiple agents)
 - An observational registry study or retrospective chart review in SSM patients receiving combined H1 + H2 therapy to quantify symptomatic benefit versus H1 monotherapy
 - Regulatory feasibility assessment for Saudi Arabia market entry, since no current authorisations exist
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

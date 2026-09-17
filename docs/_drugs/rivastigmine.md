@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rivastigmine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Rivastigmine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Rivastigmine is a cholinesterase inhibitor originally used to treat dementia ass
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 99.27% |
 | Evidence Level | L4 (preclinical / mechanistic) |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -84,10 +84,10 @@ Evidence is limited to mechanistic analogy and a single animal (rabbit) IOP stud
 - An ocular/topical formulation and route-compatibility assessment (original product is oral/transdermal for dementia; glaucoma treatment requires ocular delivery — route compatibility currently "pending")
 - Human clinical evidence (Phase 1/2 IOP-lowering trials) to move beyond preclinical-only evidence level
 - Drug interaction (DDI) data, currently "not_found"
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ebastine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Ebastine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ Ebastine (DrugBank DB11742) is a second-generation H1-antihistamine, generally k
 | Predicted New Indication | Coronary Artery Disease |
 | TxGNN Prediction Score | 99.18% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -108,10 +108,10 @@ Please refer to the package insert for safety information.
 - Complete classification/relevance review of PMID 18004755 to confirm whether it actually supports a CAD-related mechanism for ebastine
 - Search for additional preclinical or clinical evidence directly connecting ebastine (or its active metabolite carebastine) to cardiovascular/ischemic outcomes
 - Establish a DDI profile, since the current query returned "not_found"
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

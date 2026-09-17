@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pyrazinamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pyrazinamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -96,10 +96,10 @@ The top-ranked prediction (infectious otitis media) has no supporting clinical t
 - Formal MOA data from DrugBank/TFDA (DG002)
 - TFDA package insert (warnings, contraindications) to clear the Blocking safety gap (DG001)
 - Clarification of disease-ontology mapping — determine whether "infectious otitis media" in this prediction is distinct from the tuberculous-otitis-media cluster (ranks 2, 4, 5, 10) that already has case-report-level support, since conflating the two would misrepresent the evidence strength
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

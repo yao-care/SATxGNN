@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Potassium Acetate
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 507
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Potassium Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Potassium acetate is a potassium salt used clinically as an electrolyte replacem
 | Predicted New Indication | Renal Tubular Acidosis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -107,10 +107,10 @@ The evidence level is L4 (preclinical/mechanistic only), no clinical trials supp
 - Confirmed mechanism of action data from DrugBank (DG002)
 - RTA subtype-stratified evidence (specifically hypokalemic Type 1/2 RTA) rather than mixed hyper-/hypokalemic case series
 - Prospective or controlled clinical evidence in the target population
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

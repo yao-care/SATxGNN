@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Naftifine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 431
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Naftifine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -89,10 +89,10 @@ Naftifine is not currently marketed in Saudi Arabia (0 authorizations), and a Bl
 - Formal mechanism-of-action documentation from DrugBank — DG002
 - Confirmation of Saudi Arabia market entry / registration status for naftifine
 - Updated clinical evidence, as existing supportive trials predate modern GCP standards
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

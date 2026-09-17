@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Roxithromycin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 561
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Roxithromycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,7 +83,7 @@ Currently no related clinical trials registered.
 
 ## Saudi Arabia Market Information
 
-Roxithromycin is not currently marketed in Saudi Arabia (0 authorizations on record; market status: 未上市/Not marketed).
+Roxithromycin is not currently marketed in Saudi Arabia (0 authorizations on record; market status: Not marketed/Not marketed).
 
 ---
 
@@ -107,10 +107,10 @@ Evidence is limited to preclinical/animal and mechanistic studies (L4) with zero
 - Verification of roxithromycin's original approved indication(s), currently unavailable
 
 *Note: Seven additional TxGNN-predicted indications (hypertrichosis, periodontal-related malformation syndrome, Ambras syndrome, Dandy-Walker-associated syndrome, hair shaft abnormality, nephrogenic SIAD, pulmonary hypertension) were also screened. All scored L5/Hold except pulmonary hypertension (L4/Research Question, based on indirect COPD-antibiotic-prophylaxis literature, not disease-specific evidence). None are reported in full here due to absent or non-specific supporting evidence.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

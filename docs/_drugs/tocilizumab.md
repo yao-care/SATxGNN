@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tocilizumab
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 625
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -98,7 +98,7 @@ However, this mechanistic extrapolation has already been **directly tested and r
 
 ## Saudi Arabia Market Information
 
-Tocilizumab is currently **not marketed** in Saudi Arabia — the evidence pack lists 0 authorizations (`taiwan_regulatory.total_licenses = 0`, `market_status = 未上市`), so no product/dosage-form table can be produced.
+Tocilizumab is currently **not marketed** in Saudi Arabia — the evidence pack lists 0 authorizations (`taiwan_regulatory.total_licenses = 0`, `market_status = Not marketed`), so no product/dosage-form table can be produced.
 
 ---
 
@@ -122,10 +122,10 @@ Although the evidence volume nominally meets the L1 threshold (2 Phase 3 RCTs), 
 - Obtain TFDA/SFDA package insert data (warnings, contraindications, DDI) to close Data Gap DG001
 - Obtain confirmed mechanism-of-action documentation to close Data Gap DG002
 - If continuing repurposing work on this drug, consider re-scoping toward **rheumatoid factor-positive polyarticular JIA** (rank 10 in this evidence pack), which shows a more evidence-consistent profile — L2 evidence level with a "Proceed with Guardrails" recommendation, supported by a pivotal completed Phase 3 trial (NCT00988221) in the closely related pJIA population
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

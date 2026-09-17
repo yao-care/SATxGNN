@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Colchicine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Colchicine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -119,10 +119,10 @@ There is no direct clinical or preclinical evidence that colchicine is effective
 
 > **Additional Finding — High Priority:**
 > The second-ranked TxGNN prediction — **Familial Mediterranean Fever (FMF)** — carries **L1 evidence** (multiple review-grade publications, 1 registered trial on second-line therapy implying colchicine as established first-line, PMID [68234](https://pubmed.ncbi.nlm.nih.gov/68234/) dating to 1977) with a recommendation of **Proceed with Guardrails**. Multiple FMF reviews explicitly state that colchicine is the only agent proven to prevent attacks and amyloidosis (e.g., PMID [25649364](https://pubmed.ncbi.nlm.nih.gov/25649364/), [38354004](https://pubmed.ncbi.nlm.nih.gov/38354004/)). The mechanistic link is strong and well-characterised: colchicine suppresses neutrophil chemotaxis and pyrin–microtubule interactions, directly counteracting FMF's inflammasome-driven pathology. **A separate FMF-focused report is recommended as the higher-priority repurposing candidate.**
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

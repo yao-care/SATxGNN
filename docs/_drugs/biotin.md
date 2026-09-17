@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Biotin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 82
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Biotin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -114,10 +114,10 @@ The TxGNN model assigns a high numerical score to biotin–dyspepsia, but the re
 - **Safety data**: Obtain package insert warnings and contraindications (DG001 remediation — currently Blocking)
 - **Targeted literature search**: Re-query PubMed with stricter MeSH terms (Biotin AND functional dyspepsia AND randomized) to rule out missed trials
 - **Proof-of-concept data**: At minimum, a prospective pilot study or mechanistic human study demonstrating biotin's effect on gastric function before advancing to Phase 2 design
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lamivudine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 356
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Lamivudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -113,10 +113,10 @@ Please refer to the package insert for safety information.
 - Confirmed mechanism of action documentation (DG002)
 - A corrected disease-ontology mapping run so genuine human-disease candidates (rather than animal models or mislabeled entities) can be evaluated for this drug
 - If a genuine human indication emerges from re-mapping, dedicated clinical trial and literature searches specific to that indication
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

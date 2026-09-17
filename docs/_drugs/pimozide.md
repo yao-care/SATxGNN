@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pimozide
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 495
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Pimozide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,11 +43,11 @@ indication_count: 10
 
 | Item | Content |
 |------|------|
-| Original Indication | No local licensing data available (未上市); per literature (PMID 15554735), pimozide's established indication is Gilles de la Tourette syndrome |
+| Original Indication | No local licensing data available (Not marketed); per literature (PMID 15554735), pimozide's established indication is Gilles de la Tourette syndrome |
 | Predicted New Indication | Trichotillomania |
 | TxGNN Prediction Score | 99.996% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 
 ## Saudi Arabia Market Information
 
-Pimozide currently has **no marketing authorization in Saudi Arabia** (market status: 未上市 / Not Marketed; 0 licenses on record). No product-level licensing data is available.
+Pimozide currently has **no marketing authorization in Saudi Arabia** (market status: Not marketed / Not Marketed; 0 licenses on record). No product-level licensing data is available.
 
 ---
 
@@ -117,10 +117,10 @@ Evidence for pimozide in trichotillomania rests on a single small 1992 open-labe
 - Formal mechanism-of-action documentation (DrugBank) — currently High-severity gap (DG002)
 - Prospective or controlled trial data specifically in trichotillomania to move beyond the single 1992 open-label study
 - Regulatory pathway assessment given the drug's current unmarketed status in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

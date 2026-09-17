@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Benzylpenicillin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 78
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 ---
 
 # Benzylpenicillin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -111,10 +111,10 @@ The mechanistic basis for benzylpenicillin in pericoronitis is well-established 
 - **Local susceptibility mapping**: Obtain Saudi Arabia–specific antimicrobial susceptibility data for pericoronitis isolates to estimate the prevalence of β-lactamase-producing strains
 - **Combination therapy protocol**: Define whether benzylpenicillin should be paired with metronidazole for adequate anaerobic coverage, based on local resistance profiles
 - **Prospective clinical validation**: Design a registry study or controlled trial in Saudi Arabia to generate local efficacy and safety data before broad formulary adoption
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Isosorbide Dinitrate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Isosorbide Dinitrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -94,10 +94,10 @@ The alopecia prediction has zero clinical trials, zero publications, and a mecha
 - Clarification of whether the "hair-related disease" cluster in this drug's TxGNN output reflects a real biological signal or an embedding-space artifact, before investing further in any candidate in that cluster
 
 **Separately worth flagging:** within this same bundle, the rank-6 "vascular disease" candidate has materially stronger evidence — a completed Phase 3 trial (ACIP) plus multiple RCTs/cohort studies, evidence level L1, decision stage S3, recommendation "Proceed with Guardrails" — consistent with isosorbide dinitrate's known antianginal/vasodilator pharmacology. If the goal is to identify a viable repurposing candidate for this drug rather than to evaluate the single top TxGNN score, that candidate warrants review ahead of alopecia.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Irinotecan
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 341
-evidence_level: L5
+evidence_level: L2
 indication_count: 1
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Irinotecan (DB00762) is a topoisomerase I inhibitor prodrug historically used in
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.08% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -97,7 +97,7 @@ Direct clinical evidence for irinotecan itself in breast cancer does exist (e.g.
 
 ## Saudi Arabia Market Information
 
-No marketing authorizations are currently on record for irinotecan in Saudi Arabia (market status: 未上市 / not marketed; total licenses: 0).
+No marketing authorizations are currently on record for irinotecan in Saudi Arabia (market status: Not marketed / not marketed; total licenses: 0).
 
 ---
 
@@ -132,10 +132,10 @@ The drug is not currently marketed in this jurisdiction, and a blocking data gap
 - Clarification of whether irinotecan-specific evidence (vs. SN-38-ADC evidence) is sufficient on its own to support the indication, or whether this should be reframed as support for an SN-38-conjugate class effect
 - Route-of-administration compatibility assessment (currently pending in evidence pack)
 - Local market/regulatory pathway confirmation given current unmarketed status
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

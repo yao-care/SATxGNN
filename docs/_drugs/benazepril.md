@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Benazepril
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 74
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Benazepril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ with **no registered clinical trials** and **no direct publications** currently 
 | Predicted New Indication | Malignant Renovascular Hypertension |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (未上市) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -105,10 +105,10 @@ The TxGNN model identifies a mechanistically compelling prediction: ACE inhibito
 - Define a mandatory pre-treatment imaging protocol (renal Doppler or MRA) to screen out bilateral RAS patients before any clinical evaluation
 - Conduct a systematic literature review of class-effect ACEi data in renovascular hypertension to formally map transferability to benazepril
 - Design an exploratory case series or single-arm pilot study in confirmed unilateral renovascular hypertension patients with close renal function monitoring
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

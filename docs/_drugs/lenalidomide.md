@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lenalidomide
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 366
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Lenalidomide is an immunomodulatory drug (IMiD) with an established approved ind
 | Predicted New Indication | Myeloid Leukemia (AML) |
 | TxGNN Prediction Score | 99.49% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -97,7 +97,7 @@ The strongest direct evidence is a completed, randomized, open-label Phase 2 tri
 
 ## Saudi Arabia Market Information
 
-Currently no authorizations on record — Lenalidomide has 0 registered licenses and a market status of **未上市 (Not Marketed)** in this evidence pack.
+Currently no authorizations on record — Lenalidomide has 0 registered licenses and a market status of **Not marketed (Not Marketed)** in this evidence pack.
 
 ---
 
@@ -137,10 +137,10 @@ The mechanistic rationale and clinical evidence for AML (one completed randomize
 ---
 
 *Note: This evidence pack also scored five other candidate indications for Lenalidomide. Notably, rank 6 ("partial deletion of the long arm of chromosome 5," L1, two trials including a completed Phase 3 RCT) corresponds to Lenalidomide's already-established del(5q) MDS mechanism rather than a genuinely new indication. Ranks 4–5 (aregenerative anemia; congenital sideroblastic anemia) were assessed as Hold — likely ontology-mapping noise or mechanistically unrelated to Lenalidomide's confirmed CRBN pathway.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

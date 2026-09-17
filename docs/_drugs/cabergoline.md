@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cabergoline
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 98
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Cabergoline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,10 +97,10 @@ Pituitary adenocarcinoma is an ultra-rare condition (globally <500 reported case
 - **MOA documentation:** Formal characterization of cabergoline's mechanism of action (currently a data gap) is required to support any regulatory or clinical development rationale
 - **Safety profile review:** Package insert analysis and Saudi Arabia-specific safety assessment, including evaluation of the known long-term valvular regurgitation risk
 - **Broaden evaluation scope:** The broader **pituitary cancer** category (TxGNN Rank 3, evidence level L2, 20 registered clinical trials including one completed Phase 3 RCT and a 880-patient multi-center trial) represents a substantially more clinically actionable target and warrants a separate, higher-priority evaluation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

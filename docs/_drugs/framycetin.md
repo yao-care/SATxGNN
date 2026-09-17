@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Framycetin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 281
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Framycetin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -46,7 +46,7 @@ indication_count: 7
 | Predicted New Indication | Urinary Tract Infection (TxGNN rank 2; selected over the nominal rank-1 hit, see note below) |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L4 |
-| Market Status (Taiwan) | 未上市 (Not marketed) |
+| Market Status (Taiwan) | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 ## Taiwan Market Information
 
-Framycetin is not currently marketed in Taiwan (未上市); there are no license or product records on file.
+Framycetin is not currently marketed in Taiwan (Not marketed); there are no license or product records on file.
 
 ---
 
@@ -105,10 +105,10 @@ A Blocking data gap (missing TFDA package insert) currently prevents any formal 
 - Contemporary literature/clinical trial search on framycetin (or intravesical aminoglycoside) for urinary tract infection, beyond the single 1976 report
 - Route-of-administration data (available vs. required routes) to assess feasibility of local/intravesical use
 - Re-confirmation that sclerosing cholangitis, congenital prothrombin deficiency, and Ureaplasma urethritis should remain deprioritized as mechanistically implausible TxGNN false positives
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

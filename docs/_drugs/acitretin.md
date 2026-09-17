@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Acitretin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 19
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Acitretin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -119,10 +119,10 @@ Acitretin's nuclear retinoid receptor mechanism directly targets the pathophysio
 - **Safety data retrieval**: Download and parse package insert PDF from TFDA for formal warnings, contraindications, and DDI data (currently Blocking data gap)
 - **Teratogenicity management protocol**: Develop a pregnancy prevention program (PPP) analogous to iPLEDGE (isotretinoin) or Pregnancy Prevention Programme (acitretin, EU), including alcohol abstinence counseling and extended contraception requirements
 - **Market registration assessment**: Evaluate feasibility of Taiwan NDA submission given zero current authorizations and the need for a full teratogenicity risk management strategy
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

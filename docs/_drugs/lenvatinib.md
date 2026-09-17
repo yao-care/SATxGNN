@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lenvatinib
-parent: 中證據等級 (L3-L4)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 367
 evidence_level: L3
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lenvatinib
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
 # Lenvatinib：從已核准腫瘤適應症 到 Liposarcoma（脂肪肉瘤）
 
-> ⚠️ 本證據包 `drug.original_indications` 為空、`original_moa` 標記為 Data Gap，且當地（Saudi Arabia/TFDA）許可資料 `licenses` 為空（`market_status: 未上市`）。以下「原始適應症」為 Lenvatinib（Lenvima）公開已知核准資訊（甲狀腺癌、肝細胞癌、腎細胞癌等），非本證據包來源，僅供背景參考。
+> ⚠️ 本證據包 `drug.original_indications` 為空、`original_moa` 標記為 Data Gap，且當地（Saudi Arabia/TFDA）許可資料 `licenses` 為空（`market_status: Not marketed`）。以下「原始適應症」為 Lenvatinib（Lenvima）公開已知核准資訊（甲狀腺癌、肝細胞癌、腎細胞癌等），非本證據包來源，僅供背景參考。
 
 ## 一句話摘要
 
@@ -45,7 +45,7 @@ Lenvatinib 是已核准用於甲狀腺癌、肝細胞癌、腎細胞癌等多種
 | 預測新適應症 | Liposarcoma（脂肪肉瘤） |
 | TxGNN 預測分數 | 99.51%（rank 7787） |
 | 證據等級 | L3 |
-| 當地市場狀態 | 未上市 |
+| 當地市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Research Question（S2 階段） |
 
@@ -76,7 +76,7 @@ Lenvatinib 是已核准用於甲狀腺癌、肝細胞癌、腎細胞癌等多種
 
 ## 細胞毒性資訊（抗腫瘤藥物專屬）
 
-Lenvatinib 屬多重酪氨酸激酶抑制劑（targeted therapy），符合抗腫瘤藥物認定，故列出本節。惟本證據包未提供 DrugBank 毒性資料或當地仿單（`meta.data_gaps` DG001 標記為 Blocking：TFDA 仿單警語/禁忌缺失），以下為 TKI 藥物類別之一般已知風險，非本地仿單來源：
+Lenvatinib 屬多重酪氨酸激酶抑制劑（targeted therapy），符合抗腫瘤藥物認定，故列出本節。惟本證據包未提供 DrugBank 毒性資料或當地仿單（`meta.data_gaps` DG001 標記為 Blocking：SFDA package insert warnings/contraindications缺失），以下為 TKI 藥物類別之一般已知風險，非本地仿單來源：
 
 | 項目 | 內容 |
 |------|------|
@@ -98,14 +98,14 @@ Lenvatinib 屬多重酪氨酸激酶抑制劑（targeted therapy），符合抗�
 現有證據僅來自 1 篇已完成 Phase 1/2 單臂試驗（n=30）及其延伸文獻，且核心證據為 Lenvatinib+Eribulin 併用方案而非 Lenvatinib 單藥，尚不足以支持進入更高信心的決策階段。值得注意的是，本證據包中排序第 7 的「renal carcinoma」適應症證據等級達 L1（多個 Phase 3 RCT，含 CLEAR 試驗），但該適應症實質上是 Lenvatinib+Pembrolizumab 一線治療晚期腎細胞癌之**既有核准用途延伸**，而非真正的新適應症訊號；相較之下 liposarcoma 訊號證據較弱但屬於較新穎的老藥新用方向。
 
 **後續需要補齊：**
-- TFDA/當地仿單警語與禁忌資料（`DG001`，Blocking，目前無法進入 S1 安全性初評）
+- TFDA/當地仿單警語與禁忌資料（`DG001`，Blocking，目前Cannot proceed to S1 safety screening）
 - Lenvatinib 作用機轉（MOA）正式資料（`DG002`）
 - Lenvatinib 單藥（非併用 Eribulin）於脂肪肉瘤之獨立療效證據
 - 藥物交互作用（DDI）查詢目前為 not_found，需另行查證
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

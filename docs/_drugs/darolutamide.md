@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Darolutamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Darolutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ Despite a high TxGNN score (99.11%), the mechanistic link between AR antagonism 
 - **MOA and safety data**: Formal mechanism of action documentation and complete safety profile (currently absent from this evidence pack)
 - **Differentiation rationale**: Given multiple approved HoFH therapies, a clinical unmet need analysis is required before committing to preclinical investment
 - **Network hypothesis clarification**: Determine whether TxGNN's high score is driven by a true PCSK9/LDLR pathway signal or by non-specific AR–lipid metabolism graph adjacency
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

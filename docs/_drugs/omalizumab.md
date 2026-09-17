@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Omalizumab
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 462
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Omalizumab (DB00043) is an anti-IgE monoclonal antibody originally developed and
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.9992% (rank 43) |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ The link to bronchitis is mechanistically indirect. Bronchitis (acute or chronic
 
 ## Saudi Arabia Market Information
 
-Omalizumab is currently **not marketed** in Saudi Arabia (market status: 未上市), and no product license records are available (total licenses: 0).
+Omalizumab is currently **not marketed** in Saudi Arabia (market status: Not marketed), and no product license records are available (total licenses: 0).
 
 ## Safety Considerations
 
@@ -93,10 +93,10 @@ The TxGNN score is very high, but the underlying evidence is thin and largely in
 - Detailed mechanism-of-action documentation from DrugBank — currently a High-severity data gap (DG002)
 - A dedicated, adequately powered clinical trial in a well-defined bronchitis population (the current small, indirect trial is insufficient)
 - Consider prioritizing other candidates in this evidence pack with stronger direct support — notably **atopic eczema** (Evidence Level L2, direct Phase 4 RCT NCT02300701 in severe pediatric eczema) — before further investment in the bronchitis hypothesis
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

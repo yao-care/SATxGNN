@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oritavancin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Oritavancin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Bacteroidaceae infectious disease |
 | TxGNN Prediction Score | 99.48% |
 | Evidence Level | L5 |
-| Market Status | Not Marketed (未上市) |
+| Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -99,10 +99,10 @@ The top prediction (Bacteroidaceae infectious disease) has no clinical trial or 
 - Verified mechanism-of-action source documentation
 - Confirmed original approved indication(s) for this drug in the target market
 - If pursued further, in vitro susceptibility data for oritavancin against Bacteroidaceae specifically, since no existing evidence supports Gram-negative anaerobic coverage
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

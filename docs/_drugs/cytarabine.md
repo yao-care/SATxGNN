@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cytarabine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 166
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -137,10 +137,10 @@ Despite a high TxGNN prediction score (99.78%) and a historically grounded mecha
 - **Nucleoside transporter profiling**: Confirm hENT1/hCNT1 expression in contemporary SCLC specimens (both treatment-naïve and platinum-refractory), since transporter levels are the primary predictor of Ara-C cellular uptake
 - **Preclinical validation**: Test cytarabine in modern SCLC cell lines (including SCLC-A/N/P/I subtypes) and patient-derived xenograft models to generate contemporary efficacy and resistance data
 - **Regulatory pathway**: If evidence develops favorably, cytarabine would require full product registration in Saudi Arabia from the ground up, as no authorizations currently exist
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

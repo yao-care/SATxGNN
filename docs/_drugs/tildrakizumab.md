@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tildrakizumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Tildrakizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -85,10 +85,10 @@ This is an L5, model-prediction-only signal with zero supporting clinical trials
 - Confirmed mechanism-of-action documentation for tildrakizumab (DG002)
 - Preclinical or mechanistic studies directly linking IL-23p19 inhibition to diabetic retinopathy (not just IL-23/Th17 pathway inference)
 - Any emerging clinical trial or case-report evidence in diabetic retinopathy populations before advancing beyond L5
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

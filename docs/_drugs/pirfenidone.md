@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pirfenidone
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pirfenidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -92,10 +92,10 @@ No clinical trial evidence exists for any of the 10 TxGNN-predicted indications.
 - Verification that the 2003 desmoid-tumor pilot study used pirfenidone (brand "Deskar") and not a related compound
 - If this indication is still considered, a dedicated preclinical tumor-model study addressing the sarcoma/dermatofibroma-aggravation signal before any clinical exploration
 - Independent mechanistic review of the 9 evidence-free predictions before treating any of them as viable leads
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

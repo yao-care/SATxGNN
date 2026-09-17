@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vancomycin
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 655
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vancomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -90,7 +90,7 @@ This distinguishes streptococcal pneumonia from the model's other top-ranked pre
 
 ## Saudi Arabia Market Information
 
-Vancomycin currently has **0 marketing authorizations** on record and is **not marketed** in Saudi Arabia (`taiwan_regulatory.market_status = 未上市`). No product license or approved indication text is available to summarize.
+Vancomycin currently has **0 marketing authorizations** on record and is **not marketed** in Saudi Arabia (`taiwan_regulatory.market_status = Not marketed`). No product license or approved indication text is available to summarize.
 
 ---
 
@@ -113,10 +113,10 @@ Vancomycin's mechanism of action (Gram-positive cell wall synthesis inhibition) 
 - Drug-drug interaction data (current query status: not found)
 - Local marketing authorization / registration pathway assessment, since the drug currently has zero licenses in Saudi Arabia
 - Alignment with local clinical treatment guidelines for resistant or severe pneumococcal pneumonia before formal positioning
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

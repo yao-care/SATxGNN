@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Adefovir Dipivoxil
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 22
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Adefovir Dipivoxil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -129,10 +129,10 @@ The TxGNN prediction score of 99.97% for chronic HCV infection is a high-confide
 - Saudi Arabia SFDA registration and package insert to fulfill the safety assessment pre-requisite (currently a blocking data gap)
 - If HCV investigation were still desired: in vitro evidence of adefovir activity against HCV NS5B RdRp or any validated HCV replication system, and a credible mechanistic hypothesis beyond DNA polymerase inhibition
 - **Alternative and more scientifically grounded paths to consider:** The HBV indication (TxGNN rank 6, Evidence Level L1, "Proceed with Guardrails") represents confirmed efficacy with multiple completed Phase 3 RCTs — if Saudi Arabia market entry is the goal, this established indication is the appropriate starting point; the HIV indication (TxGNN rank 2, Evidence Level L1) has Phase 3 RCT data but was abandoned due to renal toxicity at the required 60 mg dose, and would require a renal safety management plan if revisited
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

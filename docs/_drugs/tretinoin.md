@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tretinoin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tretinoin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Tretinoin (all-trans retinoic acid) is a retinoid classically used systemically 
 | Predicted New Indication | Rheumatoid Nodulosis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -98,10 +98,10 @@ The top-ranked prediction (rheumatoid nodulosis) has no clinical, preclinical, o
 - Confirmed mechanism of action data from DrugBank
 - If pursuing the osteoarthritis lead: resolution of the conflicting retinoic acid signaling data (protective vs. cartilage-degrading) through targeted preclinical work before any clinical hypothesis is formed
 - For the remaining L5 candidates: at minimum, preclinical or case-level evidence before advancing past S0
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

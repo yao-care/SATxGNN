@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ethambutol
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 238
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Ethambutol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -102,10 +102,10 @@ Evidence specific to epiglottitis is weak — both available publications descri
 - Detailed mechanism of action (MOA) data from DrugBank — currently a high-priority gap (DG002)
 - Epiglottitis-specific case reports or trials distinguishing tuberculous from bacterial etiology, to define an appropriate target population
 - Saudi Arabia market authorization pathway, since the product is not currently marketed locally
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Dexketoprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ The mechanistic link between dexketoprofen's COX-inhibitory action and tendiniti
 - Safety data from the package insert (warnings, contraindications) — currently a blocking data gap
 - SFDA registration strategy assessment if Saudi Arabia market entry is planned
 - Note: Migraine disorder (TxGNN rank #6) and headache disorder (rank #7) carry substantially stronger evidence for dexketoprofen (8 and 12 completed clinical trials respectively, plus meta-analyses) and may represent higher-priority repurposing targets for near-term development decisions
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

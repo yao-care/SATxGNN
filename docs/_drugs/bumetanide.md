@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bumetanide
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 92
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Bumetanide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ with **3 clinical trials** and **5 publications** currently supporting this dire
 | Predicted New Indication | Acute Pulmonary Heart Disease (Acute Cor Pulmonale) |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L3 |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -120,10 +120,10 @@ Bumetanide's mechanism of action is directly and logically relevant to the haemo
 - **Clinical trial activation**: NCT07375212 (intranasal bumetanide in HF with haemodynamic sensors) was withdrawn before enrolment — investigate withdrawal reason and consider whether a redesigned interventional pilot trial for acute cor pulmonale is feasible
 - **Comparator evidence**: Benchmark bumetanide against standard-of-care (IV furosemide) in the target indication for differentiation rationale
 - **Special population safety**: Evaluate use in patients with concurrent renal impairment, given the prevalence of cardiorenal syndrome in acute cor pulmonale
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

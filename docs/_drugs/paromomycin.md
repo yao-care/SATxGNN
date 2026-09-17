@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paromomycin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Paromomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,10 +83,10 @@ The top-ranked predicted indication (idiopathic copper-associated cirrhosis) has
 - Confirmed mechanism of action documentation from DrugBank
 - Any direct preclinical or clinical evidence linking paromomycin to copper metabolism or hepatic fibrosis pathways
 - Consider re-evaluating the lower-score but literature-supported candidate (peritonitis, rank 8, L4, 20 publications) as a more grounded alternative repurposing hypothesis, noting most of that literature is indirect (leishmaniasis drug-interaction studies) rather than peritonitis-specific
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

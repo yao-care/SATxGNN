@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nandrolone
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 433
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nandrolone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ with **0 clinical trials** and **3 publications** currently supporting this dire
 | Predicted New Indication | Breast Fibrocystic Disease |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -73,7 +73,7 @@ Currently no related clinical trials registered
 
 ## Saudi Arabia Market Information
 
-No marketing authorizations recorded — nandrolone is currently **未上市 (not marketed)**, with 0 registered licenses.
+No marketing authorizations recorded — nandrolone is currently **Not marketed (not marketed)**, with 0 registered licenses.
 
 ## Safety Considerations
 
@@ -93,10 +93,10 @@ There are no clinical trials and no nandrolone-specific literature supporting ef
 - Confirmed mechanism of action data via DrugBank (DG002)
 - Nandrolone-specific preclinical or clinical studies in breast fibrocystic disease (current evidence is class-analogy only)
 - Drug-drug interaction (DDI) profile, currently not found in queried sources
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

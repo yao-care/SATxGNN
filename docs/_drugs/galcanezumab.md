@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Galcanezumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Galcanezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -110,10 +110,10 @@ All three TxGNN-predicted indications are ultra-rare, genetically-driven coagula
 - Any preclinical or mechanistic study exploring CGRP pathway involvement in coagulation-factor regulation, to justify the prediction beyond the model score
 - Regulatory status confirmation and market-entry pathway assessment for Saudi Arabia, since the drug is not currently marketed there
 - DDI data (currently "not found") before any safety evaluation can proceed
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

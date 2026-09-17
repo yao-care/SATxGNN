@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 402
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 99.9994% |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ Importantly, the rationale attached to this candidate explicitly flags that this
 
 ## Saudi Arabia / Taiwan Market Information
 
-Currently no marketing authorization for MPA in Taiwan — market status is **未上市 (not marketed)** with **0 licenses** on file. No product-level dosage form or approved-indication text is available.
+Currently no marketing authorization for MPA in Taiwan — market status is **Not marketed (not marketed)** with **0 licenses** on file. No product-level dosage form or approved-indication text is available.
 
 ---
 
@@ -121,10 +121,10 @@ The mechanistic link between MPA and amenorrhea is strong and evidence level is 
 - Clarification of regulatory pathway given zero existing Taiwan licenses (new drug application vs. label expansion)
 - Assessment of whether the amenorrhea indication should be reframed as evidence-synthesis/dossier support rather than a true repurposing candidate, given its established off-label/on-label use elsewhere
 - Lower-ranked candidates (breast fibrocystic disease, benign mammary dysplasia, endometriosis-related sites) remain at L3–L5 evidence with Hold/Research Question status and are not ready for further action
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

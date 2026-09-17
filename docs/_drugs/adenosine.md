@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Adenosine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 23
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Adenosine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ The adenosine A1 receptor → cAMP↓ → PKA↓ → RyR2 phosphorylation↓ cas
 - Conduct dose-ranging studies specific to CPVT arrhythmia suppression during standardised exercise stress testing
 - Establish a pharmacokinetic/pharmacodynamic rationale for practical dosing given adenosine's extremely short plasma half-life
 - Submit Saudi Arabia market authorisation application if proceeding with a locally approved formulation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

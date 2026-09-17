@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Orlistat
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Orlistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -94,10 +94,10 @@ This is an L5, model-prediction-only signal with zero supporting clinical trials
 - Confirmation of Orlistat's original approved indication(s), currently absent from the Evidence Pack
 - Clarification of which hypervitaminosis subtype is targeted (fat-soluble vs. water-soluble), since the proposed mechanism only plausibly applies to fat-soluble vitamin excess
 - At minimum, preclinical/mechanistic or case-level evidence before this candidate can move beyond L5
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

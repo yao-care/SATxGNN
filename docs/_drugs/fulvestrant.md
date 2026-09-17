@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fulvestrant
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Fulvestrant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ The top-ranked TxGNN prediction (HIV infectious disease) has no clinical trial s
 - TFDA/SFDA package insert data for warnings, contraindications, and drug interactions (currently flagged as data gaps)
 - Dedicated preclinical or mechanistic studies directly testing estrogen-receptor modulation in HIV models, if this hypothesis is to be pursued further
 - Review of TxGNN's disease-ontology mapping quality: several lower-ranked predictions in this pack (e.g., "multiple endocrine neoplasia," rank 2) returned 50 clinical trials that are, on inspection, all HR+/HER2- breast cancer trials mismapped to an unrelated disease node — suggesting some caution is warranted when interpreting high-score/low-specificity predictions from this pack generally
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

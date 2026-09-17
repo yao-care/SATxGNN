@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trimebutine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 640
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Trimebutine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Trimebutine is a peripheral opioid receptor agonist originally used as a gastroi
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 99.64% |
 | Evidence Level | L3 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -104,10 +104,10 @@ The only clinical evidence (a single small RCT) tested trimebutine as an *adjunc
 - Clarification of trimebutine's approved original indication(s), which were not populated in the source data
 
 **Note:** A second TxGNN prediction for this drug, *migraine with brainstem aura* (score 99.54%), has zero supporting clinical trials or literature (Evidence Level L5, model prediction only) and is separately assessed as **Hold** — not pursued further in this report.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

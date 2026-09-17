@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluorouracil
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 271
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Fluorouracil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Fluorouracil (5-FU) is a long-established fluoropyrimidine antimetabolite chemot
 | Predicted New Indication | Liver Sarcoma |
 | TxGNN Prediction Score | 99.68% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -117,10 +117,10 @@ No trial or publication in this pack directly tests fluorouracil in liver sarcom
 - DrugBank-sourced mechanism of action detail for fluorouracil (High-severity gap, DG002)
 - A dedicated preclinical or early-phase study of fluorouracil specifically in liver sarcoma, rather than indirect CRC/HCC trials or generic sarcoma-180 models
 - Re-evaluation of the 9 lower-tier predicted indications (all S0/Hold, L5) if future TxGNN model updates surface supporting evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

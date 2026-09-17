@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Doxazosin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 209
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Doxazosin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ Evidence for doxazosin in migraine is limited to a single 1997 review/commentary
 - **Systematic literature search expansion:** Search for additional evidence on alpha-1 adrenergic blockers as a drug class in migraine prophylaxis (terazosin, prazosin, alfuzosin), not limited to doxazosin alone
 - **Proof-of-concept study:** A small prospective observational study or retrospective database analysis (e.g. hypertensive patients on doxazosin vs. comparators, migraine incidence as secondary endpoint) would constitute minimum required evidence for escalation to L3
 - **Re-evaluate migraine with brainstem aura (Rank #2):** This predicted sub-indication (TxGNN score 99.19%, L5) currently has zero supporting evidence. It should remain on hold pending any development in the broader migraine indication
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

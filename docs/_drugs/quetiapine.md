@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Quetiapine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 530
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Quetiapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -93,10 +93,10 @@ Evidence is limited to case reports and narrative reviews (no clinical trials, e
 - Confirmed mechanism of action data from DrugBank — currently a High-severity gap
 - At least one controlled (non-case-report) study of quetiapine in trichotillomania before considering progression beyond Hold
 - Drug interaction (DDI) data, currently unavailable
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

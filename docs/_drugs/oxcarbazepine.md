@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Oxcarbazepine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 467
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Oxcarbazepine is a well-established antiepileptic drug for partial-onset seizure
 | Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -90,7 +90,7 @@ Note: none of the above literature directly studies visual/photosensitive epilep
 
 ## Saudi Arabia Market Information
 
-Oxcarbazepine currently holds **no registered marketing authorization in Saudi Arabia** (0 licenses on file; market status: 未上市/Not Marketed).
+Oxcarbazepine currently holds **no registered marketing authorization in Saudi Arabia** (0 licenses on file; market status: Not marketed/Not Marketed).
 
 ---
 
@@ -113,10 +113,10 @@ The mechanistic link is direct — oxcarbazepine's sodium channel-blocking actio
 - Disease-specific clinical evidence (trial or case series) for visual/photosensitive epilepsy, rather than general focal epilepsy extrapolation
 - Drug-drug interaction (DDI) data, currently unavailable (query status: not found)
 - Regulatory pathway assessment, since the drug is not currently marketed in Saudi Arabia (0 licenses)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

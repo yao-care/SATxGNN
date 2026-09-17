@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eplerenone
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Eplerenone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Eplerenone (DrugBank DB00700) is a selective aldosterone (mineralocorticoid rece
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Market Status (this jurisdiction) | ✗ Not marketed (未上市) |
+| Market Status (this jurisdiction) | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Market Information
 
-No marketing authorizations are on record for eplerenone in this jurisdiction (market status: 未上市 / not marketed; total licenses: 0).
+No marketing authorizations are on record for eplerenone in this jurisdiction (market status: Not marketed / not marketed; total licenses: 0).
 
 ---
 
@@ -98,10 +98,10 @@ This prediction currently rests on the TxGNN model score alone (Evidence Level L
 - Run a targeted literature and clinical-trial search combining "eplerenone" specifically with pulmonary hypertension terms, since current hits under the sibling term (rank 2) are generic hypoxia-biology papers rather than drug-specific evidence
 - Re-query the drug-interaction database via an alternate source, since the current query returned "not_found"
 - If pursuing further, evaluate the sibling predicted term (rank 2, same score) in parallel, as ontology-adjacent terms may warrant a combined literature strategy
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

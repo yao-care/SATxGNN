@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Galantamine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Galantamine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked TxGNN prediction (Psychogenic Movement Disorders) has no clinical
 - Confirmed drug-specific mechanism of action data (DG002)
 - If continuing to explore galantamine for the movement-disorder space, re-scope evaluation toward the higher-evidence candidates in this pack (extrapyramidal/movement disease and tardive dyskinesia, both L3/S1), rather than the unsupported top TxGNN rank
 - Independent confirmation of the drug's approved indication and regulatory history, since no license or original-indication data was returned in this evidence pull
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

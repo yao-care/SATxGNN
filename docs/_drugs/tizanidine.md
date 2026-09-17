@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tizanidine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 623
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Tizanidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -51,7 +51,7 @@ Using the drug-repurposing evidence pack for Tizanidine → Migraine Disorder, h
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -120,10 +120,10 @@ The mechanistic rationale is plausible and supported by decades of exploratory h
 - Completion and results of NCT05484349
 - Verified mechanism of action documentation (DG002)
 - Local regulatory pathway assessment given current "Not Marketed" status
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

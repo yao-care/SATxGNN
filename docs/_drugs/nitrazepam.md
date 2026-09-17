@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitrazepam
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 445
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ The TxGNN prediction score is very high (99.89%), the mechanistic link (GABA-A p
 - Assessment of controlled-substance/dependence-liability regulatory pathway, given nitrazepam's benzodiazepine class and no existing local marketing authorization
 
 *Note: TxGNN also surfaced acute encephalopathy with biphasic seizures and late reduced diffusion (AESD) and Wernicke-Korsakoff syndrome as lower-ranked pattern matches, but with no supporting trials or literature (L5, Hold) — these are not pursued further here.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

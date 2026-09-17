@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Perampanel
-parent: 中證據等級 (L3-L4)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 489
 evidence_level: L4
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | 預測新適應症 | Visual Epilepsy（視覺誘發性癲癇） |
 | TxGNN 預測分數 | 99.92%（rank 1794） |
 | 證據等級 | L4 |
-| 沙烏地阿拉伯市場狀態 | 未上市 |
+| 沙烏地阿拉伯市場狀態 | Not marketed |
 | 授權數量 | 0 |
 | 建議決策 | Research Question（研究待啟階段，尚不足以進入 Go/Hold 二選一判斷） |
 
@@ -100,7 +100,7 @@ Perampanel 目前**未在沙烏地阿拉伯上市**，查無任何有效藥證�
 
 請參考藥品仿單以取得安全性資訊。
 
-*（TFDA 仿單警語/禁忌屬 Blocking 級資料缺口，DDI 查詢亦無結果，需先補齊方能進行 S1 安全性初評。）*
+*（SFDA package insert warnings/contraindications屬 Blocking 級資料缺口，DDI 查詢亦無結果，需先補齊方能進行 S1 安全性初評。）*
 
 ---
 
@@ -136,10 +136,10 @@ Perampanel 目前**未在沙烏地阿拉伯上市**，查無任何有效藥證�
 | **10** | **Status epilepticus** | **99.77%** | **L3** | **S2** | **Proceed with Guardrails** | **證據最強：已有專屬 Phase 2 試驗（NCT06401707，心跳停止後重積狀態預防）招募中，加上多篇系統性回顧與世代研究支持** |
 
 **特別提示：** 排名第 10 的 Status Epilepticus 雖 TxGNN 分數略低，但實證強度（L3、S2、Proceed with Guardrails）明顯優於排名第一的 Visual Epilepsy，建議後續資源投入優先評估此候選適應症。
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

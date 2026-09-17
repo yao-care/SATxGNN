@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Deferiprone
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 180
-evidence_level: L5
+evidence_level: L4
 indication_count: 9
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ The mechanistic link between iron chelation and hepatic porphyria is scientifica
 - Retrieval of deferiprone MOA from DrugBank to complete mechanistic scoring
 - Assessment of whether a pilot investigator-initiated trial (IIT) is feasible in CEP or PCT patients with documented iron overload in the target market
 - Market access feasibility analysis for Saudi Arabia registration given zero current approvals in the region
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

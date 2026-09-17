@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ceritinib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ceritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -118,10 +118,10 @@ There is no biologically plausible mechanism linking ALK inhibition to gingival 
 - Retrieval of formal MOA data from DrugBank (currently data gap — DrugBank API query recommended)
 - Full safety profile from the SFDA-approved package insert or EMA/FDA label (TFDA insert parsing currently pending)
 - Re-evaluation against higher-ranked indications with mechanistic plausibility (e.g., Rank 6 — Lung Germ Cell Tumor, which has 1 completed Phase 0 trial and 10 supporting publications, and carries a "Research Question" designation at S1)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

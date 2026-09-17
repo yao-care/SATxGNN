@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Letrozole
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 369
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Letrozole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Letrozole is a third-generation nonsteroidal aromatase inhibitor globally establ
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -99,7 +99,7 @@ By contrast, several lower-ranked predictions in this pack are mechanistically i
 
 ## Taiwan Market Information
 
-Letrozole currently has **no marketing authorizations on file** in this dataset (market status: 未上市 / Not Marketed; total licenses: 0). No product-level licensing table can be generated from `taiwan_regulatory.licenses`. Confirming current registration status directly with TFDA is recommended before any Taiwan-market repurposing action is pursued.
+Letrozole currently has **no marketing authorizations on file** in this dataset (market status: Not marketed / Not Marketed; total licenses: 0). No product-level licensing table can be generated from `taiwan_regulatory.licenses`. Confirming current registration status directly with TFDA is recommended before any Taiwan-market repurposing action is pursued.
 
 ---
 
@@ -135,10 +135,10 @@ The predicted indication (female breast carcinoma) is supported by L1-level evid
 - Formal mechanism-of-action record from DrugBank at the drug level (DG002, high priority)
 - Confirmation of current Taiwan marketing/registration status, given 0 licenses on file
 - Clarification of scope: since rank-1 "female breast carcinoma" is not a genuine new indication, consider whether this evaluation should instead prioritize a lower-ranked, evidence-supported extension (e.g., rank 4, hormone-resistant breast carcinoma, L2/Proceed with Guardrails) as the operative repurposing candidate
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

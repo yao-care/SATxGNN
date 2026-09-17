@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Atezolizumab
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 61
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Atezolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ Atezolizumab has a completed Phase 2 trial in BCG-unresponsive urothelial carcin
 - SFDA/local package insert review for Saudi Arabia-specific contraindications and warnings (DG001 remediation)
 - Patient selection criteria based on PD-L1 expression testing (SP142 assay) and tumor mutational burden profiling
 - Pharmacovigilance and monitoring plan aligned with Saudi Arabia SFDA post-marketing requirements
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

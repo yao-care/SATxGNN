@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iloprost
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Iloprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -48,7 +48,7 @@ Iloprost is a synthetic prostacyclin (PGI2) analogue with an established vasodil
 | Highest-Evidence New Indication | PAH associated with HIV infection |
 | TxGNN Prediction Score (Highest-Evidence Indication) | 99.21% |
 | Evidence Level (Highest-Evidence Indication) | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Overall Recommended Decision | **Mixed** — see per-indication table below |
 
@@ -143,7 +143,7 @@ No registered clinical trials were found for: hypotrichosis simplex of the scalp
 
 ## Saudi Arabia Market Information
 
-Iloprost currently has **no marketing authorization in Saudi Arabia** (market status: 未上市 / Not Marketed; total authorizations: 0). No license records are available to summarize.
+Iloprost currently has **no marketing authorization in Saudi Arabia** (market status: Not marketed / Not Marketed; total authorizations: 0). No license records are available to summarize.
 
 ---
 
@@ -172,10 +172,10 @@ Please refer to the package insert for safety information.
 - For HIV-PAH: seek additional confirmatory (non-crossover) trial data or real-world outcomes data given the small sample size.
 - For chronic hemolytic anemia– and schistosomiasis-associated PAH: commission a targeted literature/trial search before any further evaluation; current absence of evidence may simply reflect these being under-studied rather than truly ineffective.
 - For the three hair/scalp-condition predictions: no further investment recommended without a specific, independently derived mechanistic hypothesis, given the complete absence of supporting data.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

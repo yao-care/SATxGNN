@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guselkumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Guselkumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,11 +45,11 @@ Guselkumab is a monoclonal antibody originally developed and approved for modera
 | Predicted New Indication | Drug-induced Osteoporosis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| Taiwan (TFDA) Market Status | 未上市 (Not marketed) |
+| Taiwan (TFDA) Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
-> Note: `taiwan_regulatory.licenses` is empty and `original_indications` is empty because guselkumab is not currently registered with TFDA (未上市). The original indication above reflects general public drug information, not a Taiwan-specific approval record.
+> Note: `taiwan_regulatory.licenses` is empty and `original_indications` is empty because guselkumab is not currently registered with TFDA (Not marketed). The original indication above reflects general public drug information, not a Taiwan-specific approval record.
 
 ---
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-Guselkumab is not currently marketed in Taiwan (TFDA market status: 未上市, 0 licenses on file). No authorization records are available to summarize.
+Guselkumab is not currently marketed in Taiwan (TFDA market status: Not marketed, 0 licenses on file). No authorization records are available to summarize.
 
 ---
 
@@ -105,10 +105,10 @@ The prediction carries a high TxGNN similarity score but zero clinical or litera
 - **Ulcerative colitis** (rank 6, score 99.70%) — Evidence Level L1, decision stage S3, "Proceed with Guardrails." Supported by the QUASAR Phase 2b/3 program (PMID 39706209, 37659673) and FDA approval for UC in 2024/2025.
 
 If a follow-up report is wanted for either of these, I can generate it using the same template with `predicted_indications[2]` (psoriasis) or `predicted_indications[5]` (UC) as the primary target.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

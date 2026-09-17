@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avelumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Avelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -120,10 +120,10 @@ While the TxGNN prediction score is high (99.97%) and a plausible mechanistic li
 - **MOA data gap:** Full DrugBank MOA extraction to confirm ADCC mechanism and its potential relevance in ADCC-competent vs. ADCC-deficient immune environments
 - **Package insert data gap:** Retrieve SFDA/TFDA-approved package insert warnings and contraindications to complete S1 safety screening
 - **Clinical framework:** If evidence supports proceeding, design as a biomarker-selected basket trial with mandatory HIV/immunosuppression stratification and enhanced irAE monitoring protocol
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

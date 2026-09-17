@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pralatrexate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pralatrexate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Pleural (Malignant) Mesothelioma |
 | TxGNN Prediction Score | 99.85% (rank 3273 of full candidate list) |
 | Evidence Level | L3 (observational/Phase II single-arm + review) |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -81,7 +81,7 @@ Currently no related clinical trials registered for malignant pleural mesothelio
 
 ## Saudi Arabia Market Information
 
-Pralatrexate currently holds **no marketing authorization in Saudi Arabia** (`market_status: 未上市 / Not Marketed`, `total_licenses: 0`). No license, product, or approved-indication records are available in this evidence pack.
+Pralatrexate currently holds **no marketing authorization in Saudi Arabia** (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). No license, product, or approved-indication records are available in this evidence pack.
 
 ---
 
@@ -118,10 +118,10 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Confirmed mechanism-of-action and original approved-indication data (DG002)
 - DDI profile (current query returned no results)
 - If pursuing malignant/epithelioid pleural mesothelioma specifically: updated search for any newer randomized trials beyond the single 2007 Phase II study, and confirmation of activity by histologic subtype (the existing trial did not stratify results by subtype)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

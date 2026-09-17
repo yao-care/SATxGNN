@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alteplase
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 37
-evidence_level: L5
+evidence_level: L4
 indication_count: 9
 ---
 
 # Alteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ Current evidence for alteplase in posterolateral myocardial infarction consists 
 - Assessment of real-world posterior STEMI burden and primary PCI infrastructure availability across Saudi Arabia to establish unmet clinical need
 - Prospective observational cohort study or registry in posterior STEMI (V7–V9 population) specifically evaluating alteplase reperfusion outcomes vs. primary PCI
 - Regulatory pathway assessment for introducing alteplase to the Saudi Arabian market, including SFDA registration requirements and cold-chain logistics for the lyophilized product
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

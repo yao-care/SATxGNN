@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zinc Oxide
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 675
-evidence_level: L5
+evidence_level: L3
 indication_count: 5
 ---
 
 # Zinc Oxide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -102,10 +102,10 @@ Despite a very high TxGNN prediction score (99.86%) and plausible mechanistic ra
 - Clarification of any original approved indication(s) for this DrugBank entry
 - Design of early-phase clinical studies evaluating topical zinc oxide specifically for acne vulgaris
 - No further action recommended on the remaining candidate indications (anorectal stricture, anal polyp, papillary conjunctivitis, postinfectious vasculitis) — all rated L5/S0/Hold with no supporting literature or clinical trials, most likely reflecting knowledge-graph topological noise rather than genuine biological signal
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

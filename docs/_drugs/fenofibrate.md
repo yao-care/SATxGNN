@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fenofibrate
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 256
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Fenofibrate is a fibric-acid derivative internationally used to treat hyperlipid
 | Predicted New Indication | Homozygous Familial Hypercholesterolemia |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -86,7 +86,7 @@ Homozygous Familial Hypercholesterolemia is caused by near-complete loss of LDL-
 
 ## Saudi Arabia Market Information
 
-Fenofibrate is not currently marketed in Saudi Arabia — no authorization records are available (`market_status: 未上市`, 0 licenses on file).
+Fenofibrate is not currently marketed in Saudi Arabia — no authorization records are available (`market_status: Not marketed`, 0 licenses on file).
 
 ---
 
@@ -110,10 +110,10 @@ Evidence for fenofibrate in HoFH is Level L4 — mechanism-based reasoning only,
 - TFDA/Saudi package insert warnings and contraindications (currently Blocking data gap — required before any S1 safety screening)
 - Detailed mechanism of action (MOA) data from DrugBank (currently High-severity data gap)
 - Note: within this same evidence pack, the rank-2 candidate **hyperlipoproteinemia** already carries L1-level evidence (multiple completed Phase 3 fenofibrate RCTs) and a "Proceed with Guardrails" recommendation — if the strategic goal is any lipid-indication expansion for fenofibrate, that candidate is substantially more actionable than HoFH.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

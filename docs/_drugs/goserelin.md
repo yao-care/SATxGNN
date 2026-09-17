@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Goserelin
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 299
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Goserelin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 3
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -98,12 +98,12 @@ Evidence level L1 is met — three completed Phase 3 RCTs (POEMS/NCT00068601, OP
 **To proceed, the following is needed:**
 - Local regulatory label data (warnings, contraindications) — currently a Blocking data gap (DG001)
 - Formal DrugBank mechanism-of-action confirmation (DG002)
-- Local market access / registration pathway assessment given current 未上市 status
+- Local market access / registration pathway assessment given current Not marketed status
 - Drug interaction (DDI) data, currently not found in query
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ciclesonide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Ciclesonide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -99,10 +99,10 @@ TxGNN's prediction is immunologically coherent — corticosteroids are the backb
 - Preclinical efficacy data for des-ciclesonide in validated atopic dermatitis models (e.g., MC903 or DNCB murine models)
 - Complete safety package insert retrieval (TFDA/EMA/FDA labels) before any clinical assessment can proceed
 - Clarification of whether ranks 1 and 3 (atopic eczema / dermatitis atopic) represent duplicate ICD ontology entries; if so, consolidate confidence estimates before advancing either
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

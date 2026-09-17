@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Adalimumab
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 20
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -114,10 +114,10 @@ The mechanistic link between TNF-α inhibition and rheumatoid vasculitis treatme
 - **Biomarker stratification plan**: Given paradoxical vasculitis risk, patient selection should include baseline ANA, ANCA, and immune complex profiling to identify those at risk for adverse vasculitis induction
 - **Saudi Arabia regulatory pathway assessment**: With 0 current authorisations, a market entry strategy and regulatory feasibility analysis would be prerequisite to any local clinical programme
 - **Safety monitoring protocol**: Define rules for early discontinuation (e.g., rising ANA titres, new ANCA positivity, skin biopsy surveillance) before any investigational use
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

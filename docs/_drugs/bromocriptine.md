@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bromocriptine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Bromocriptine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -114,10 +114,10 @@ Among all 10 TxGNN-predicted indications for bromocriptine, **schizophrenia (ran
 | **9** | **Schizophrenia** | **L3** | **3** | **20** | **Hold** |
 
 The schizophrenia evidence is mechanistically coherent (bromocriptine as a D2 agonist influences the dopamine hypothesis of schizophrenia) but carries a critical safety signal: PMID 8120934 documents *bromocriptine-induced schizophrenia* in a susceptible patient, and all three clinical trials target antipsychotic side effects (hyperprolactinemia, metabolic disturbances) rather than core psychiatric symptoms. A separate focused report on the bromocriptine–schizophrenia pair is recommended if further evaluation is desired.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

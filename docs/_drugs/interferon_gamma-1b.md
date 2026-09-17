@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Interferon Gamma-1B
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 334
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Interferon Gamma-1B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -106,10 +106,10 @@ The TxGNN score is high, but no clinical trial or literature evidence directly s
 - Verified mechanism of action data from DrugBank — currently a high-severity data gap (DG002)
 - A hypothesis-driven mechanistic rationale linking Th1/macrophage activation to a specific cardiac disease subtype (the current "heart disease" label is too broad to act on)
 - At least one dedicated preclinical or clinical study testing interferon gamma-1b in a defined cardiac indication
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

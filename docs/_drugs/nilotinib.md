@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nilotinib
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 441
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -111,10 +111,10 @@ Evidence supporting this indication is limited to a single mechanistic review pa
 - Confirmed DrugBank mechanism-of-action and toxicity data
 - DFSP-specific preclinical or clinical evidence (case series, trials) beyond the single mechanistic review
 - Saudi Arabia market authorization status confirmation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

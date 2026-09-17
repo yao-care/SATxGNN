@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nalidixic Acid
-parent: 中證據等級 (L3-L4)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 432
 evidence_level: L4
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Nalidixic Acid
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **4** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -35,7 +35,7 @@ indication_count: 4
 
 Nalidixic Acid 是第一代喹諾酮類（quinolone）抗生素，其藥物分類上的傳統適應症為泌尿道感染。TxGNN 模型預測其可能對**結膜炎（Conjunctivitis）**有效，預測分數達 **99.83%**，但目前僅有 **0 項臨床試驗**與 **6 篇文獻**支持，且文獻內容多為以 nalidixic acid 作為實驗室篩選試劑或抗藥性標記的微生物學研究，並非該藥用於治療結膜炎的直接證據。
 
-> ⚠️ 本候選案的安全性資料（TFDA/SFDA 仿單警語與禁忌）為 **Blocking 等級資料缺口**，尚無法進入 S1 安全性初評。
+> ⚠️ 本候選案的安全性資料（TFDA/SFDA 仿單警語與禁忌）為 **Blocking 等級資料缺口**，尚Cannot proceed to S1 safety screening。
 
 ---
 
@@ -47,7 +47,7 @@ Nalidixic Acid 是第一代喹諾酮類（quinolone）抗生素，其藥物分�
 | 預測新適應症 | 結膜炎（Conjunctivitis） |
 | TxGNN 預測分數 | 99.83% |
 | 證據等級 | L4 |
-| 沙烏地阿拉伯上市狀態 | 未上市 |
+| 沙烏地阿拉伯上市狀態 | Not marketed |
 | 授權許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -102,10 +102,10 @@ Nalidixic Acid 是第一代喹諾酮類（quinolone）抗生素，其藥物分�
 - 完整作用機轉（MOA）資料
 - Nalidixic acid 眼科局部給藥之藥物動力學／組織穿透性資料
 - 直接針對結膜炎適應症之臨床前或臨床研究證據
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

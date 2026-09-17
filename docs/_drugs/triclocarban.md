@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Triclocarban
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Triclocarban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Triclocarban is not an approved systemic pharmaceutical — it is a topical anti
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 99.27% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,7 @@ Currently no related literature available
 
 ## Saudi Arabia Market Information
 
-Triclocarban is not currently marketed as a pharmaceutical product in Saudi Arabia (0 authorizations on record; market status: 未上市).
+Triclocarban is not currently marketed as a pharmaceutical product in Saudi Arabia (0 authorizations on record; market status: Not marketed).
 
 ## Safety Considerations
 
@@ -83,10 +83,10 @@ This is an L5, model-prediction-only signal with no mechanistic rationale, no cl
 - Verified mechanism of action data from DrugBank or primary literature (data gap DG002)
 - Any preclinical or mechanistic evidence linking triclocarban to CNS/migraine-relevant pathways
 - Feasibility assessment for systemic (non-topical) drug development, given no existing pharmaceutical formulation or regulatory pathway
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

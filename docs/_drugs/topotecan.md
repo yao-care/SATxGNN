@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Topotecan
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 629
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Topotecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -92,7 +92,7 @@ However, the mechanistic plausibility is tempered by outcome data: the repurposi
 
 ## Saudi Arabia Market Information
 
-Topotecan currently has no market authorization on file in Saudi Arabia (market status: 未上市 / Not Marketed; 0 licenses recorded), so no product-level licensing table can be produced.
+Topotecan currently has no market authorization on file in Saudi Arabia (market status: Not marketed / Not Marketed; 0 licenses recorded), so no product-level licensing table can be produced.
 
 ---
 
@@ -129,10 +129,10 @@ Please refer to the package insert for safety information. No TFDA warnings, con
 - Detailed, sourced mechanism-of-action documentation (DrugBank) beyond the mechanistic inference drawn from trial/literature text
 - Manual curation of the "adult germ cell tumor" evidence set (rank 2), where much of the automatically collected trial/literature pool is actually neuroblastoma-related rather than adult germ cell tumor, before that candidate can be advanced
 - A defined Saudi Arabia market-entry or licensing pathway assessment, given the current unmarketed status
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Peppermint Oil
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Peppermint Oil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Peppermint oil (DrugBank DB11198) has no approved indication on file for this ev
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (未上市) |
+| Taiwan Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -91,10 +91,10 @@ The leprosy prediction has no clinical trial, literature, or mechanistic support
 - TFDA/official package insert warnings, contraindications, and DDI data (DG001, Blocking)
 - Any preclinical or in vitro antimycobacterial activity data, if this hypothesis is to be pursued further
 - Consider re-scoping evaluation toward the **cardiovascular disease** prediction (rank 9, L2 evidence, 2 completed trials + mechanistic literature), which has materially stronger evidentiary support than the top-ranked leprosy signal
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

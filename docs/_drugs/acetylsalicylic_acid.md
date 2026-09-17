@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 18
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ While no clinical trials are registered specifically for migraine with brainstem
 - Retrieval of complete MOA and safety data from DrugBank (DG002) and the SFDA/FDA package insert (DG001), including key warnings, contraindications, and drug–drug interactions
 - Dose definition: clarify whether prophylactic low-dose (75–100 mg/day) or acute-treatment doses (900–1000 mg) are more appropriate for this indication
 - Clarification of the Saudi Arabia SFDA registration status: aspirin is universally available globally, but the current dataset shows no SFDA registration — a registry cross-check is recommended before any formal submission pathway is planned
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

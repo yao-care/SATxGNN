@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ketamine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 351
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Ketamine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -102,10 +102,10 @@ While the mechanistic rationale (NMDA antagonism → central sensitization) is p
 - Completion and results of the KetHead Study (NCT05306899) and other ongoing Phase 2/3 trials
 - Drug-drug interaction data (currently not found)
 - A market entry / distribution assessment given current "not marketed" status in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

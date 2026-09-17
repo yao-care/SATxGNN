@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Capecitabine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 104
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Capecitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -143,10 +143,10 @@ Capecitabine as part of the CAPOX regimen is supported by multiple Phase 3 RCTs 
 - Safety monitoring plan covering hand-foot syndrome (Grade ≥2 management algorithm), myelosuppression thresholds, and renal function surveillance
 - Saudi Arabia gastric cancer burden and treatment gap analysis to quantify the target patient population
 - Consultation with local oncology centers (e.g., KFMC, KFSH&RC) on feasibility of CAPOX regimen adoption
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

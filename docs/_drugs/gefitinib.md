@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gefitinib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gefitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -44,7 +44,7 @@ The TxGNN model's top-ranked prediction is **Fibromatosis, Gingival** (score 99.
 | Predicted New Indication | Fibromatosis, Gingival |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -94,10 +94,10 @@ The top-ranked predicted indication (gingival fibromatosis) has no mechanistic p
 - Confirmed DrugBank mechanism-of-action record (DG002)
 - If pursuing the NSCLC-subtype candidates (lung hilum carcinoma, pulmonary sulcus neoplasm), targeted trial or case-series data specific to those anatomic presentations rather than general NSCLC or single case reports
 - Re-evaluation of the TxGNN ranking pipeline for the gingival fibromatosis and similarly unrelated candidates, given the absence of any corroborating evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

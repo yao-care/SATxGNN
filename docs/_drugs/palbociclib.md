@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Palbociclib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Palbociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -44,10 +44,10 @@ Palbociclib（DB09073）為 CDK4/6 抑制劑，原始適應症資料在本證據
 | 項目 | 內容 |
 |------|------|
 | 原始適應症 | 證據包未提供結構化資料（`original_indications` 為空）；依已知藥理分類為 CDK4/6 抑制劑，用於乳癌治療 |
-| 作用機轉 (MOA) | [Data Gap] — DrugBank 查詢未取得 |
-| 沙烏地阿拉伯市場狀態 | 未上市 |
+| Mechanism of action (MOA) | [Data Gap] — DrugBank 查詢未取得 |
+| 沙烏地阿拉伯市場狀態 | Not marketed |
 | 授權許可數 | 0 |
-| 資料缺口（阻斷性） | TFDA 仿單警語/禁忌缺失 → **無法進入 S1 安全性初評**（DG001, Blocking） |
+| 資料缺口（阻斷性） | SFDA package insert warnings/contraindications缺失 → **Cannot proceed to S1 safety screening**（DG001, Blocking） |
 
 ### 四項預測適應症比較
 
@@ -123,7 +123,7 @@ Palbociclib（DB09073）為 CDK4/6 抑制劑，原始適應症資料在本證據
 
 ## 沙烏地阿拉伯市場資訊
 
-目前 palbociclib 於沙烏地阿拉伯**未上市**，無任何上市許可紀錄（`total_licenses = 0`）。
+目前 palbociclib 於沙烏地阿拉伯**Not marketed**，無任何上市許可紀錄（`total_licenses = 0`）。
 
 ---
 
@@ -145,7 +145,7 @@ Palbociclib 屬 CDK4/6 抑制劑，依已知藥理分類為腫瘤標靶治療藥
 
 請參考仿單以取得完整安全性資訊。
 
-（`safety.key_warnings`、`safety.contraindications`、`safety.ddi` 於本證據包中均為資料缺口；DG001 已標記為阻斷性缺口，使本候選無法進入 S1 安全性初評。）
+（`safety.key_warnings`、`safety.contraindications`、`safety.ddi` 於本證據包中均為資料缺口；DG001 已標記為阻斷性缺口，使本候選Cannot proceed to S1 safety screening。）
 
 ---
 
@@ -154,7 +154,7 @@ Palbociclib 屬 CDK4/6 抑制劑，依已知藥理分類為腫瘤標靶治療藥
 **決策：Hold**（類風濕性關節炎方向可列為 Research Question 持續追蹤）
 
 **理由：**
-- 阻斷性資料缺口 DG001（TFDA 仿單警語/禁忌缺失）使本候選目前無法進入 S1 安全性初評，任一適應症皆無法往下推進決策階段。
+- 阻斷性資料缺口 DG001（SFDA package insert warnings/contraindications缺失）使本候選目前Cannot proceed to S1 safety screening，任一適應症皆無法往下推進決策階段。
 - 4 項預測中僅類風濕性關節炎有機轉一致的臨床前與個案證據（L4），其餘 3 項證據等級為 L5（純模型預測，無實證支持），其中血栓性疾病方向的既有證據甚至與預測相反，應視為安全性警訊而非治療機會。
 
 **若要繼續推進，需要補充：**
@@ -163,10 +163,10 @@ Palbociclib 屬 CDK4/6 抑制劑，依已知藥理分類為腫瘤標靶治療藥
 - 藥物交互作用（DDI）查詢結果
 - 若欲推進類風濕性關節炎方向：需設計對照性臨床試驗（目前僅個案報告與動物模型等級證據）
 - 若繼續評估血栓性疾病方向：應轉為安全性監測議題，而非療效候選
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

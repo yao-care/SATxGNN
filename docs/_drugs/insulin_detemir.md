@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 327
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -126,10 +126,10 @@ The evidence base for insulin detemir in Type 1 Diabetes Mellitus is extremely s
 - Re-classification of this candidate in the pipeline as "known indication — registry gap" rather than "novel repurposing prediction," to avoid consuming repurposing-review resources on an already-approved use
 - Key warnings, contraindications, and DDI data (currently unavailable) before any safety-related claims can be made
 - Note: predictions ranked #2–10 (autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, focal stiff limb syndrome, classic stiff person syndrome, pancreatic agenesis, and three lipodystrophy/lipoatrophy indications) all carry L4–L5 evidence with no supporting trials or literature, and are appropriately scored **Hold** or **Research Question** — several (the lipodystrophy/lipoatrophy indications) likely represent reversed causality (insulin injection as a cause of the condition, not a treatment), and should not be advanced further without dedicated mechanistic review.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

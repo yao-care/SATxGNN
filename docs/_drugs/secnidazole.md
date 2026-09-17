@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Secnidazole
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 567
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Secnidazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ Secnidazole is a 5-nitroimidazole antimicrobial with no marketing authorization 
 | Predicted New Indication | Vaginal Discharge (Bacterial Vaginosis) |
 | TxGNN Prediction Score | 99.41% (rank 8872) |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -98,7 +98,7 @@ This is further reinforced by real-world regulatory precedent: a single-dose ora
 
 ## Taiwan Market Information
 
-Secnidazole currently holds **no marketing authorization in Taiwan** (0 licenses on record; market status: 未上市/Not Marketed). No product name, dosage form, or approved indication text is available to report.
+Secnidazole currently holds **no marketing authorization in Taiwan** (0 licenses on record; market status: Not marketed/Not Marketed). No product name, dosage form, or approved indication text is available to report.
 
 ---
 
@@ -120,10 +120,10 @@ Vaginal discharge (bacterial vaginosis) and the closely related trichomonal vulv
 - Complete mechanism-of-action documentation from DrugBank (DG002 — high severity)
 - A Taiwan marketing authorization or import registration pathway assessment, since the drug is currently unlicensed
 - The four low-evidence predictions (postmenopausal atrophic vaginitis, ulceration of vulva, vulvar neoplasm, leukoplakia of vagina) should remain at **Hold** pending any clinical or mechanistic evidence — current data suggests these may be knowledge-graph noise rather than true signals
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

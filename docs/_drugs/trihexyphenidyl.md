@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trihexyphenidyl
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 639
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Trihexyphenidyl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Trihexyphenidyl is a classic anticholinergic agent conventionally used for Parki
 | Predicted New Indication | Attention-Deficit/Hyperactivity Disorder |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
-| Market Status | 未上市 (Not Marketed) |
+| Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -93,10 +93,10 @@ The predicted ADHD indication is supported by only one publication that does not
 - Confirmed mechanism-of-action data (High-priority data gap — DG002; source: DrugBank API)
 - Clinical or mechanistic studies directly evaluating trihexyphenidyl in ADHD (current literature is off-target)
 - Confirmed original approved indication and regulatory history to establish a baseline safety/efficacy profile
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Terbutaline
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 610
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Obstructive Lung Disease |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -97,7 +97,7 @@ It is worth noting explicitly, however, that this is not a novel repurposing hyp
 
 ## Saudi Arabia Market Information
 
-Currently not marketed in this jurisdiction — no local authorization records are available (market status: 未上市, 0 licenses).
+Currently not marketed in this jurisdiction — no local authorization records are available (market status: Not marketed, 0 licenses).
 
 ---
 
@@ -119,10 +119,10 @@ Despite strong, extensive efficacy evidence (Evidence Level L1) supporting terbu
 - Confirmed mechanism-of-action / pharmacology documentation from DrugBank or manufacturer — currently High severity (DG002)
 - Clarification of local regulatory/registration pathway given the drug is not currently marketed
 - Note: the two lower-ranked candidate indications in this pack — "respiratory malformation" (L4, weak mechanistic link, Research Question stage) and "Rienhoff syndrome" (L5, no supporting evidence, Hold) — are substantially weaker and should remain deprioritized pending further evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

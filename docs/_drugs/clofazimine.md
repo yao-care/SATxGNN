@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Clofazimine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Clofazimine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ The TxGNN prediction for clofazimine in pneumocystosis is rated L5 — model pre
 - A mechanistic rationale explaining how clofazimine's ROS generation or membrane disruption would affect a fungal (not mycobacterial) pathogen with a distinct cell wall structure
 - Preclinical in vivo data in an immunocompromised animal model of PCP before any clinical investigation is warranted
 - Confirmed MOA data from DrugBank and package insert to close the existing data gaps (DG001, DG002) before any further investment in this prediction direction
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

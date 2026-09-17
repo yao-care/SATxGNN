@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tolfenamic Acid
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 626
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Tolfenamic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -96,10 +96,10 @@ A substantial body of older Nordic RCT evidence (8+ randomized controlled trials
 - Confirmed structured mechanism-of-action data from DrugBank — currently a High-severity data gap
 - Drug interaction (DDI) profile, as none is currently on file
 - Assessment of whether historical (pre-registry) RCT evidence meets current regulatory evidentiary standards, or whether a modern confirmatory trial is needed
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

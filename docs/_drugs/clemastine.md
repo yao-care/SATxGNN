@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clemastine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 146
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Clemastine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -117,10 +117,10 @@ Clemastine has a direct, well-validated mechanistic link to allergic urticaria t
 - **Regulatory pathway scoping**: Determine whether an abbreviated SFDA registration pathway is available based on existing EMA/FDA approvals
 - **Market positioning analysis**: Map the second-generation antihistamine landscape in Saudi Arabia (loratadine, cetirizine, fexofenadine) to define the clinical niche for a first-generation agent
 - **Sedation risk assessment**: Evaluate the CNS sedation profile of first-generation antihistamines in the context of Saudi Arabia prescribing practices and occupational driving guidelines
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

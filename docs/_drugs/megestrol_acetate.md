@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Megestrol Acetate
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 404
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Megestrol Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ The mechanistic rationale (PR agonism on estrogen-driven endometrial tissue) is 
 - Formal mechanism of action documentation from DrugBank or equivalent source (DG002)
 - Confirmatory larger-scale trial data, since the most directly relevant RCT (NCT00503581) was terminated at n=9
 - Saudi Arabia regulatory registration pathway assessment, given zero current authorizations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

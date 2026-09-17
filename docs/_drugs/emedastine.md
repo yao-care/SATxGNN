@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Emedastine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 222
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Emedastine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -126,10 +126,10 @@ Cold urticaria is mechanistically plausible for an H1-antihistamine by analogy w
 - Obtain verified mechanism-of-action documentation (e.g., via DrugBank API) to close the High-severity MOA data gap (DG002)
 - Clarify clinical definition alignment between "chronic idiopathic urticaria" (trial population) and "allergic urticaria" (predicted indication)
 - Continue monitoring for emerging trial/literature evidence on the lower-priority cold urticaria candidate before any action is taken there
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

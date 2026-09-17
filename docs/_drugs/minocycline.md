@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Minocycline
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Minocycline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -92,10 +92,10 @@ Please refer to the package insert for safety information. Key warnings, contrai
 - DrugBank mechanism-of-action data (DG002) to properly assess mechanistic plausibility rather than class-level analogy
 - Preclinical or case-level evidence specific to minocycline in ocular surface disease before pursuing further clinical evidence searches
 - Confirmation of an ophthalmic-compatible dosage form, since both predicted indications require topical/ocular administration and no dosage-form-by-route data is currently available
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Hydroquinone
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 310
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Hydroquinone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -41,7 +41,7 @@ Hydroquinone has no formally registered indication in Saudi Arabia (not currentl
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally registered in Saudi Arabia (未上市, 0 authorizations); evidence pack indicates established use as a topical depigmenting agent for hyperpigmentation/melasma |
+| Original Indication | Not formally registered in Saudi Arabia (Not marketed, 0 authorizations); evidence pack indicates established use as a topical depigmenting agent for hyperpigmentation/melasma |
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L4 |
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 ## Saudi Arabia Market Information
 
-Hydroquinone currently has no marketing authorization in Saudi Arabia (未上市, 0 licenses on file).
+Hydroquinone currently has no marketing authorization in Saudi Arabia (Not marketed, 0 licenses on file).
 
 ---
 
@@ -110,10 +110,10 @@ The top-ranked prediction (seborrheic keratosis) is supported only by an observa
 - DrugBank/pharmacology MOA data to properly assess mechanistic plausibility (resolves DG002)
 - Disease-specific studies (ideally RCTs) of hydroquinone or class agents in seborrheic keratosis or DPN
 - Re-verification of the "exanthem" TxGNN mapping, given the strong mismatch between the predicted disease label and the retrieved trial evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

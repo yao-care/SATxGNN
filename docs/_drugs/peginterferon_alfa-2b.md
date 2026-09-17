@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Peginterferon Alfa-2B
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 483
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Peginterferon Alfa-2B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -120,10 +120,10 @@ The mechanistic rationale is strong (established IFN alfa antiviral/immunomodula
 - Clarification of whether "Hepatitis B Virus Infection" (rank 1) should be merged with "chronic hepatitis B virus infection" (rank 7) as a single candidate, since they appear to reflect the same TxGNN-split disease node
 - Drug-drug interaction data (current query status: not found)
 - A regulatory pathway assessment given the drug has no existing Saudi Arabia market authorization
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

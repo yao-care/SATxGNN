@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Famciclovir
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 250
-evidence_level: L5
+evidence_level: L4
 indication_count: 9
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Famciclovir is the oral prodrug of penciclovir, an antiviral established for var
 | Predicted New Indication | Post-Infectious Neuralgia |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L4 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -120,10 +120,10 @@ The top-ranked candidate indication (post-infectious neuralgia) has a plausible 
 - A dedicated trial or observational study testing famciclovir specifically for PHN prevention/reduction (vs. current indirect pain-management trials)
 - Separate evaluation of the AIDS-related-disorder track (L3, rank 5), which has stronger literature support and may merit its own research pathway
 - Regulatory/market-entry assessment if any candidate advances, given famciclovir currently has zero licenses in Taiwan
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

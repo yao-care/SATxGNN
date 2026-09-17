@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ofloxacin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 457
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ofloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Ofloxacin is a broad-spectrum fluoroquinolone antibiotic used to treat bacterial
 | Predicted New Indication | Septicemic Plague |
 | TxGNN Prediction Score | 99.79% (rank 4125 of model output) |
 | Evidence Level | L3 |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 ## Taiwan Market Information
 
-Ofloxacin currently holds **no marketing authorizations in Taiwan** (market status: 未上市 / not marketed; 0 licenses on record). No product-level dosage form or approved indication text is available from this dataset.
+Ofloxacin currently holds **no marketing authorizations in Taiwan** (market status: Not marketed / not marketed; 0 licenses on record). No product-level dosage form or approved indication text is available from this dataset.
 
 ## Safety Considerations
 
@@ -97,10 +97,10 @@ Septicemic plague has a biologically coherent mechanistic rationale, a direct (t
 - Drug-drug interaction data (current DDI query returned no results)
 - A defined regulatory pathway for Taiwan, since ofloxacin is not currently marketed there
 - If pursued, a nonclinical development plan modeled on the FDA Animal Rule framework, since human RCTs in plague are not ethically feasible
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

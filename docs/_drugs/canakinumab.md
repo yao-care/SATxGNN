@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Canakinumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Canakinumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,7 +104,7 @@ This mechanistic alignment has been formally validated at the highest level of c
 
 Canakinumab (Ilaris®) currently has **no active licenses** in the Saudi Arabia SFDA database as of the data cutoff (2026-06-15). No dosage forms, product names, or approved indications are on record.
 
-> **Important Data Gap Warning:** This almost certainly reflects a database gap rather than a true absence of regulatory authorization. Canakinumab (Ilaris®, Novartis) was approved by the US FDA in June 2009 and by the EMA for CAPS, and subsequently for FMF (colchicine-resistant), TRAPS, HIDS/MKD, sJIA, and adult-onset Still's disease. The repurposing rationale embedded in this evidence pack (rank 6) explicitly flags: *"資料標記「未上市」與實際核准狀態不符，疑為資料庫缺失"* (the "not marketed" label does not match the actual approval status — suspected database gap). A direct SFDA query or Novartis Saudi Arabia affiliate contact is required before concluding the drug is unavailable in the Saudi market.
+> **Important Data Gap Warning:** This almost certainly reflects a database gap rather than a true absence of regulatory authorization. Canakinumab (Ilaris®, Novartis) was approved by the US FDA in June 2009 and by the EMA for CAPS, and subsequently for FMF (colchicine-resistant), TRAPS, HIDS/MKD, sJIA, and adult-onset Still's disease. The repurposing rationale embedded in this evidence pack (rank 6) explicitly flags: *"資料標記「Not marketed」與實際核准狀態不符，疑為資料庫缺失"* (the "not marketed" label does not match the actual approval status — suspected database gap). A direct SFDA query or Novartis Saudi Arabia affiliate contact is required before concluding the drug is unavailable in the Saudi market.
 
 ---
 
@@ -135,10 +135,10 @@ Canakinumab has L1 evidence (5 completed Phase 3 trials, a pivotal NEJM RCT, and
 - **Epidemiological scoping**: Estimate the colchicine-resistant/intolerant FMF patient pool in Saudi Arabia — FMF prevalence in Arab populations is approximately 1:1,000; the ~5–10% colchicine non-responder rate defines the addressable patient population
 - **Health technology assessment**: Conduct pharmacoeconomic analysis; canakinumab carries a high annual cost relative to colchicine (first-line) and anakinra (alternative biologic), which may be the primary barrier to formulary inclusion
 - **Secondary pipeline monitoring (Research Questions)**: Periodic fever-infantile enterocolitis-autoinflammatory syndrome (rank 5, L3) and Blau syndrome (rank 8, L3) share the same inflammasome/IL-1β mechanistic axis and warrant continued literature surveillance as research questions — these may reach actionable evidence thresholds as case series accumulate
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

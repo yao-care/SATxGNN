@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Eletriptan
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 221
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Eletriptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -127,10 +127,10 @@ Please refer to the package insert for safety information.
 - Official Saudi/manufacturer package insert warnings and contraindications (currently a blocking data gap — required before any S1 safety screening)
 - Confirmed DrugBank mechanism-of-action record (currently a data gap; the MOA used above was reconstructed from literature, not from a verified DrugBank field)
 - If this indication is to be reconsidered, a formal risk-benefit assessment specific to vertebrobasilar/brainstem-aura vasoconstriction risk, ideally with cardiology/neurology input, rather than reliance on general migraine efficacy data
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

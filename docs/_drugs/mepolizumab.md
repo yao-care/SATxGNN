@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mepolizumab
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 407
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 5
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -79,7 +79,7 @@ Currently no related clinical trials registered.
 
 ## Saudi Arabia Market Information
 
-Mepolizumab currently holds no marketing authorization in Saudi Arabia (market status: 未上市); no license records are available to summarize.
+Mepolizumab currently holds no marketing authorization in Saudi Arabia (market status: Not marketed); no license records are available to summarize.
 
 ---
 
@@ -101,10 +101,10 @@ Evidence is limited to a single case report describing an indirect, mechanistica
 - Confirmed mechanism of action data from DrugBank (DG002)
 - Preclinical or mechanistic studies directly evaluating IL-5/eosinophil pathway involvement in immune thrombocytopenia
 - At least one prospective clinical study (even small/observational) before advancing beyond S1
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

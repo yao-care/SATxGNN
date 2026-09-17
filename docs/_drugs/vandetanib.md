@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vandetanib
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 656
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Vandetanib is a multi-kinase inhibitor (RET/VEGFR/EGFR) whose established use, p
 | Predicted New Indication | Renal Cell Carcinoma (disease) |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -124,10 +124,10 @@ The VEGFR-driven mechanism plausibly extends to RCC and is backed by one complet
 - Larger, ideally randomized trial data in RCC, prioritizing the hereditary subtypes (VHL, HLRCC/SDH-associated) where the strongest signal exists
 - A defined regulatory pathway for Saudi Arabia market entry, since vandetanib currently has zero local authorizations
 - A safety monitoring plan for known TKI-class risks (e.g., QT prolongation, hepatic and renal function) given the absence of drug-specific safety data in this pack
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

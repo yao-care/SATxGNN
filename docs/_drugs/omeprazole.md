@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Omeprazole
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 463
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -96,10 +96,10 @@ The mechanistic rationale for omeprazole in DGR is weak and partly contradicted 
 - Confirmed mechanism of action data (DG002)
 - A dedicated clinical study testing omeprazole safety/efficacy specifically in DGR patients (not derived from Barrett's esophagus or GERD sub-analyses)
 - Resolution of the preclinical carcinogenesis-promotion signal (PMID 10389684, 33027361) before any further advancement
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

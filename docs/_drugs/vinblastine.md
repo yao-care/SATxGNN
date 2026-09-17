@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vinblastine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 664
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Vinblastine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -88,7 +88,7 @@ Currently no related clinical trials registered for rhabdomyosarcoma specificall
 
 ## Saudi Arabia Market Information
 
-Vinblastine is **not currently marketed** in this jurisdiction (`market_status: 未上市`, `total_licenses: 0`). No product authorization records are available.
+Vinblastine is **not currently marketed** in this jurisdiction (`market_status: Not marketed`, `total_licenses: 0`). No product authorization records are available.
 
 ---
 
@@ -142,10 +142,10 @@ Neuroblastoma carries materially stronger evidence than the top-ranked rhabdomyo
 - Drug-drug interaction data (current query: not found)
 - Vinblastine-specific (not vinorelbine/vincristine) preclinical or clinical evidence in rhabdomyosarcoma
 - Separately, consider prioritizing the **neuroblastoma** indication (L2, Proceed with Guardrails) given its stronger existing evidence base
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

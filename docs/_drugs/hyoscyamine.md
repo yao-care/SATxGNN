@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hyoscyamine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Hyoscyamine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -85,10 +85,10 @@ The prediction is currently supported only by a TxGNN model score and a plausibl
 - Confirmed mechanism of action (MOA) data from DrugBank
 - Confirmed original approved indication text (currently absent, as the drug is not marketed in Saudi Arabia)
 - Targeted clinical or preclinical evidence directly evaluating hyoscyamine (or antispasmodics of its class) in gastroduodenitis
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pefloxacin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pefloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ TxGNN 模型預測其可能對 **Heart Conduction Disease（心臟傳導疾病�
 | 預測新適應症 | Heart Conduction Disease（心臟傳導疾病） |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L5（純模型預測，無試驗或文獻） |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 核准案數量 | 0 |
 | 建議決策 | Hold |
 
@@ -77,7 +77,7 @@ TxGNN 模型預測其可能對 **Heart Conduction Disease（心臟傳導疾病�
 
 ## 台灣市場資訊
 
-Pefloxacin 目前於台灣**未上市**，無核准案號紀錄（核准案數量：0）。
+Pefloxacin 目前於台灣**Not marketed**，無核准案號紀錄（核准案數量：0）。
 
 ---
 
@@ -85,7 +85,7 @@ Pefloxacin 目前於台灣**未上市**，無核准案號紀錄（核准案數�
 
 請參考仿單所載安全性資訊。
 
-（註：TFDA 仿單警語/禁忌與藥物交互作用資料目前均為缺口，已列為 Blocking 等級資料缺口 DG001，阻礙進入 S1 安全性初評。）
+（註：SFDA package insert warnings/contraindications與藥物交互作用資料目前均為缺口，已列為 Blocking 等級資料缺口 DG001，阻礙進入 S1 安全性初評。）
 
 ---
 
@@ -100,10 +100,10 @@ Pefloxacin 目前於台灣**未上市**，無核准案號紀錄（核准案數�
 - TFDA 仿單警語與禁忌資料（DG001，Blocking，阻礙 S1 安全性初評）
 - 作用機轉（MOA）資料，以釐清是否存在生物學合理性（DG002）
 - 針對 QT 間期延長／心臟傳導不良反應之類別效應，進行獨立文獻查證，排除「不良事件訊號被誤判為適應症」的可能性後，才可重新評估此候選是否值得進一步觀察
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

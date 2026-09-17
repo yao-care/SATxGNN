@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Povidone
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Povidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -91,10 +91,10 @@ The prediction rests solely on a TxGNN model score (Evidence Level L5) with no c
 - Confirm or refute the mechanism of action via DrugBank or primary literature (DG002)
 - Independent mechanistic or preclinical evidence linking Povidone (or povidone-iodine) to keratinization/barrier repair pathways before advancing beyond S0
 - Re-evaluate once real-world clinical or observational data become available; without this, the candidate should not progress past model-prediction stage
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

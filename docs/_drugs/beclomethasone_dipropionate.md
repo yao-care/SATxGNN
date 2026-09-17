@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Beclomethasone Dipropionate
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 72
-evidence_level: L5
+evidence_level: L2
 indication_count: 1
 ---
 
 # Beclomethasone Dipropionate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -120,10 +120,10 @@ The mechanistic link between BDP's glucocorticoid receptor agonism and atopic ec
 - **Safety dossier**: Download and parse TFDA/SFDA package insert PDF to complete S1 safety screening, particularly warnings, contraindications, and paediatric dosing limits
 - **Route of administration decision**: Clarify target route (topical cream/ointment vs. nasal vs. oral) for the atopic eczema indication, given the systemic risk profile of oral and intensive topical routes
 - **Paediatric safety monitoring plan**: Given the documented growth and adrenal effects, a structured pharmacovigilance plan (CBC, cortisol, growth charts) is required if oral or high-dose topical BDP is considered
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

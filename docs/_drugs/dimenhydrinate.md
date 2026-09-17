@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 198
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -102,10 +102,10 @@ The TxGNN prediction is mechanistically plausible through the diphenhydramine co
 - Conduct a targeted literature review for diphenhydramine in allergic urticaria to assess whether the H1-blocking evidence can be bridged to dimenhydrinate
 - Evaluate whether a regulatory pathway exists in Saudi Arabia for the urticaria indication, given the current zero-license status
 - If proceeding, a Phase 2 proof-of-concept clinical trial or comparative PK/PD study in humans would be the minimum threshold to advance beyond L4
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

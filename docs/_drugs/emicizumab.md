@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Emicizumab
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 223
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Emicizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -51,7 +51,7 @@ Using the Evidence Pack for EMICIZUMAB (DB13923), I selected **"acquired coagula
 | Predicted New Indication | Acquired Coagulation Factor Deficiency (Acquired Hemophilia A) |
 | TxGNN Prediction Score | 99.90% (rank 2296 among model outputs) |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -98,7 +98,7 @@ By contrast, the other 9 TxGNN candidates for this drug involve mechanistically 
 
 ## Saudi Arabia Market Information
 
-Emicizumab currently has **no marketing authorization in Saudi Arabia** (`market_status: 未上市`, `total_licenses: 0`). No product license records are available to summarize in this pack.
+Emicizumab currently has **no marketing authorization in Saudi Arabia** (`market_status: Not marketed`, `total_licenses: 0`). No product license records are available to summarize in this pack.
 
 ---
 
@@ -123,10 +123,10 @@ Among 10 TxGNN-predicted indications for emicizumab, "acquired coagulation facto
 - Confirm registration pathway/status for Saudi Arabia market entry, since the drug is currently unmarketed (0 licenses)
 - Complete a formal DDI profile (current query returned no data)
 - Evaluate whether AHA use should be pursued as a formal labeled indication vs. continued off-label/consensus-guideline use, given real-world cohort data (PMID 39361769) already exists alongside prospective trial data
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

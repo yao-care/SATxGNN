@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Atazanavir
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 59
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -161,10 +161,10 @@ Key literature for congenital HIV / PMTCT:
 - Neonatal hyperbilirubinaemia risk (UGT1A1 inhibition → indirect bilirubin accumulation)
 - ATV AUC decreases ~17–28% during second/third trimester when co-administered with TDF; dose adjustment to ATV/r 400/100 mg may be required
 - Placental transfer is moderate; neonatal exposure should be monitored
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

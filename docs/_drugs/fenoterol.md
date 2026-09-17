@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fenoterol
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Fenoterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Fenoterol is a β2-adrenergic receptor agonist internationally known as a bronch
 | Predicted New Indication | Multiple System Atrophy |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-No licensed products are currently registered in Saudi Arabia for fenoterol (`total_licenses: 0`, market status: 未上市).
+No licensed products are currently registered in Saudi Arabia for fenoterol (`total_licenses: 0`, market status: Not marketed).
 
 ---
 
@@ -97,10 +97,10 @@ The top-ranked prediction (MSA) carries a mechanistic rationale that points towa
 - Confirmed mechanism of action from DrugBank or other primary source — currently a High-severity data gap
 - Independent pharmacological/clinical review of whether the MSA safety concern can be ruled out, or whether the pipeline should re-rank toward Raynaud's disease or sinoatrial node disease as more mechanistically coherent candidates
 - DDI data (current query status: not found)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

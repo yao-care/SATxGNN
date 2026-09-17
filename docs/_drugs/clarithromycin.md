@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clarithromycin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 145
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ The predicted link between clarithromycin and hyperamylasemia is mechanistically
 - Mechanism of action data (MOA) from DrugBank to complete mechanistic gap analysis (DG002)
 - Saudi Arabia package insert and SFDA label data for safety screening (DG001)
 - If this indication is to be pursued further, a systematic literature review covering macrolide effects on pancreatic amylase secretion is needed as a prerequisite to any research protocol design
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

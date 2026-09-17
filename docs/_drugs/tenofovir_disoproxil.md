@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 607
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -95,7 +95,7 @@ All literature evidence is preclinical/animal-model in nature; there is no human
 
 ## Saudi Arabia Market Information
 
-Tenofovir disoproxil currently has no marketing authorization on record in Saudi Arabia (`total_licenses: 0`, `market_status: 未上市/Not Marketed`); no license entries are available to list.
+Tenofovir disoproxil currently has no marketing authorization on record in Saudi Arabia (`total_licenses: 0`, `market_status: Not marketed/Not Marketed`); no license entries are available to list.
 
 ---
 
@@ -117,10 +117,10 @@ None of the four TxGNN-predicted indications for this candidate is currently act
 - Confirmed mechanism-of-action data via DrugBank API (DG002)
 - Confirmed original indication(s) and regulatory status for tenofovir disoproxil
 - Re-run of the TxGNN prediction excluding non-human disease ontology terms, to surface genuinely translatable human indications
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

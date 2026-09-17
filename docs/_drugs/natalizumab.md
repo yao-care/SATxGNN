@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Natalizumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Natalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,10 +83,10 @@ The predicted indication (bronchitis) has zero clinical-trial or literature supp
 - Verified original MOA and approved indications from DrugBank/regulatory source (DG002)
 - Any clinical or preclinical evidence specifically linking natalizumab to bronchitis, should it emerge
 - Note: among this drug's other predicted indications, rank 3 (psoriasis) has substantially more literature (19 PubMed hits, decision stage S1), but the majority of that evidence describes natalizumab **inducing or aggravating** psoriasis rather than treating it — worth a separate, dedicated evaluation rather than assuming therapeutic benefit
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

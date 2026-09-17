@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cladribine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Cladribine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ All seven TxGNN-predicted indications for Cladribine in this Evidence Pack are r
 - **Safety data gap resolution**: Obtain full warning text and contraindications from TFDA package insert or EMA/FDA prescribing information
 - **Orphan disease context review**: Parameningeal embryonal RMS is a rare pediatric cancer; any repurposing effort should engage pediatric oncology specialists and review current IRS/COG cooperative group trial data to assess unmet need and combinability with standard VAC therapy
 - **Broader RMS literature sweep**: A systematic PubMed search using broader terms (cladribine + sarcoma, 2-CdA + mesenchymal neoplasm) may surface indirect mechanistic clues not captured in the current targeted query
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

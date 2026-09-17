@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nortriptyline
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 451
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -111,10 +111,10 @@ Nortriptyline has a mechanistically plausible, noradrenergically-mediated ration
 - Regulatory pathway assessment, since the drug is not currently marketed in Saudi Arabia
 - Updated/contemporary RCT data — most supporting evidence predates 2005, with the only controlled trial dating to 2000
 - Note: a second predicted indication, "ADHD, inattentive type" (TxGNN score 99.33%), was also flagged but has no supporting clinical trials or literature (Evidence Level L5) and is currently on **Hold**
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

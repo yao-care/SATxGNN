@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Etofenamate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Etofenamate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Etofenamate is a fenamate-class NSAID historically marketed as a topical gel (e.
 | Predicted New Indication | Spondyloarthropathy, susceptibility to |
 | TxGNN Prediction Score | 99.9997% (global rank 28) |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -98,10 +98,10 @@ The top-ranked prediction targets a genetic susceptibility classification rather
 - Confirmed mechanism of action (MOA) data from DrugBank or another authoritative source
 - TFDA/manufacturer package insert for safety, warnings, and contraindications
 - If pursuing the drug class more broadly, drug-specific efficacy evidence in an actual inflammatory spondyloarthropathy (e.g., ankylosing spondylitis) rather than the susceptibility-label prediction
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

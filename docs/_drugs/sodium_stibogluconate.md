@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sodium Stibogluconate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Sodium Stibogluconate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -85,10 +85,10 @@ This prediction is supported only by the TxGNN model (Evidence Level L5), with n
 - Detailed mechanism of action (MOA) data from DrugBank or primary literature (currently a High-severity data gap)
 - Preclinical (animal) or observational evidence directly linking sodium stibogluconate exposure to bone density/osteoclast effects
 - Confirmation of regulatory pathway feasibility given the drug's unmarketed status in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

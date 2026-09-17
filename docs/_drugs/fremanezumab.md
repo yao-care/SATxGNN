@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fremanezumab
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 282
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Fremanezumab is an anti-CGRP monoclonal antibody originally developed for the pr
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -108,10 +108,10 @@ Evidence is currently mechanism-level (L4) — supported mainly by preclinical C
 - Detailed DrugBank mechanism of action record (DG002)
 - A dedicated clinical study or subgroup analysis in migraine-with-brainstem-aura or broader migraine-with-aura populations
 - Clarification of fremanezumab's registration/import pathway status in Saudi Arabia, given it is currently unmarketed
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 
