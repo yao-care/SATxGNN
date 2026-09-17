@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Posaconazole
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 506
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 1
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -111,10 +111,10 @@ Evidence is at the mechanism/preclinical level only (L4) — no clinical trial o
 - Confirmed original indication and regulatory status (drug is currently unmarketed in Saudi Arabia)
 - Direct clinical or in vitro evidence of posaconazole activity against *Pneumocystis jirovecii*, beyond its role as background antifungal prophylaxis in transplant settings
 - Drug-drug interaction (DDI) data, currently not found
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

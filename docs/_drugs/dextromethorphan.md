@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dextromethorphan
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 192
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -100,10 +100,10 @@ DXM's established antitussive mechanism maps plausibly onto nasal cavity disease
 - Obtain Saudi Arabia SFDA package insert or WHO safety summary (Data Gap DG001) to complete contraindication and warning assessment
 - Conduct drug-drug interaction review, particularly for CYP2D6-mediated interactions (DXM is a well-known CYP2D6 substrate)
 - Assess regulatory pathway feasibility in Saudi Arabia, given the drug is currently unregistered (0 SFDA authorizations)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

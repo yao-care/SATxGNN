@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ambrisentan
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 39
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ The evidence base for ambrisentan in pulmonary arteriovenous malformation consis
 - Full mechanism of action documentation and pharmacokinetic profile for the relevant patient population
 - Drug-drug interaction assessment, particularly for patients on concurrent HHT-related treatments
 - Review of the package insert for contraindications relevant to patients with right-to-left shunting physiology
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

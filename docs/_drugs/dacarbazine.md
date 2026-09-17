@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dacarbazine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 168
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -127,10 +127,10 @@ Although TxGNN assigns a high prediction score (99.26%), the mechanistic basis r
 - **Preclinical validation**: Commission or identify in vitro studies of Dacarbazine activity against representative aerodigestive tract tumor cell lines (squamous, neuroendocrine subtypes)
 - **Regulatory pathway**: Given zero Saudi Arabia authorizations, map a compassionate use or import permit framework before any clinical application
 - **Trial differentiation from TMZ**: Clarify whether Dacarbazine offers a distinct clinical advantage over the oral temozolomide route in this setting, given that TMZ trials have already been attempted and showed limited benefit
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Propranolol
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Propranolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -53,7 +53,7 @@ Propranolol is a non-selective β-adrenergic blocker with established use in hyp
 | Item | Content |
 |------|------|
 | Original Indication | Not available (data gap in this pack) — literature references indicate established use in hypertension/arrhythmia and cirrhotic variceal bleeding prophylaxis |
-| Saudi Arabia Market Status | ✗ Not marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Overall Recommended Decision | Proceed with Guardrails (cardiomyopathy), Research Question (cirrhotic cardiomyopathy), Hold (all others) |
 
@@ -120,7 +120,7 @@ Currently no related clinical trials registered.
 
 ## Saudi Arabia Market Information
 
-No marketing authorizations exist — `taiwan_regulatory.market_status` = **未上市 (Not marketed)**, `total_licenses` = 0, `licenses` = empty. Propranolol has no registered product record in this dataset for the Saudi market.
+No marketing authorizations exist — `taiwan_regulatory.market_status` = **Not marketed (Not marketed)**, `total_licenses` = 0, `licenses` = empty. Propranolol has no registered product record in this dataset for the Saudi market.
 
 ---
 
@@ -145,10 +145,10 @@ Please refer to the package insert for safety information. (`key_warnings`, `con
 - Sub-type stratification for "cardiomyopathy" trials (HOCM vs. dilated vs. amyloid) before treating them as one evidence body
 - A defined clinical question and risk-stratification criterion (e.g., ascites severity) before advancing cirrhotic cardiomyopathy past S1
 - A market-entry assessment, since propranolol currently has zero authorizations in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

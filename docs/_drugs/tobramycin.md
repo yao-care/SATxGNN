@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tobramycin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 624
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tobramycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -96,10 +96,10 @@ The top-ranked prediction (exposure keratitis) rests on an indirect mechanistic 
 - Detailed mechanism of action (MOA) data from DrugBank
 - Formal risk-benefit assessment of ocular epithelial toxicity if any ophthalmic use is considered
 - Consider prioritizing other candidates in this evidence pack with stronger support (e.g., **otitis externa**, L3/S2, "Proceed with Guardrails") ahead of exposure keratitis
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

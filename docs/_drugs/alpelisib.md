@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alpelisib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Alpelisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -129,10 +129,10 @@ This prediction is currently at evidence level L5 (model prediction only), with 
 - **ILD and cardiac risk stratification**: A formal risk/benefit assessment addressing whether the known ILD and right ventricular toxicity risks are manageable or disqualifying in a PH patient population
 - **Package insert review**: Retrieve TFDA and FDA package inserts to obtain complete contraindications, warnings, and drug interaction data (flagged as data gap DG001)
 - **Regulatory pathway consultation**: Given 0 existing Saudi Arabia authorisations, an independent regulatory feasibility review is recommended before any further development investment
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

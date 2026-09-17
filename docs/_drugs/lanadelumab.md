@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lanadelumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lanadelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -98,10 +98,10 @@ Efficacy evidence is strong (L2: a pivotal double-blind, placebo-controlled Phas
 - Obtain the SFDA/local package insert (warnings, contraindications, DDI) to close DG001 before any safety pre-assessment
 - Retrieve confirmed mechanism-of-action data from DrugBank to close DG002 and formally validate the mechanistic rationale
 - Pursue local regulatory registration, since this is a market-entry decision for an internationally approved therapy rather than a novel disease-target pairing
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

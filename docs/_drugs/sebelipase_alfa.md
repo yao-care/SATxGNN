@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sebelipase Alfa
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sebelipase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -100,10 +100,10 @@ Despite a high TxGNN prediction score (99.80%), there is no mechanistic plausibi
 - Resolution of the Blocking data gap on TFDA/SFDA package insert warnings and contraindications (DG001) and MOA (DG002), which currently prevent any safety pre-assessment for this drug generally
 
 **Note for portfolio prioritization:** within this same evidence pack, two other candidates show substantially stronger support and warrant separate evaluation — *cholesteryl ester storage disease* (rank 4, 9 trials incl. 2 completed Phase 3 studies, 19 publications) and *Wolman disease* (rank 5, L2/S3, "Proceed with Guardrails") — both of which fall within sebelipase alfa's already-established LAL-D mechanism, unlike Scheie syndrome.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

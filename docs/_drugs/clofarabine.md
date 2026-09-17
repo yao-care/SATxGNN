@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clofarabine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 151
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -129,10 +129,10 @@ Multiple completed Phase 2 trials — including two randomized designs — consi
 - Define the specific AML treatment setting (induction in newly diagnosed patients, salvage for relapsed/refractory disease, or bridge-to-transplant conditioning) to align with the most relevant evidence tier
 - Develop an institutional monitoring protocol addressing myelosuppression management, capillary leak syndrome surveillance, hepatotoxicity monitoring, and infection prophylaxis
 - Evaluate pharmacogenomic factors (e.g., cytarabine sensitivity scores, karyotype risk stratification) where applicable to optimize patient selection
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

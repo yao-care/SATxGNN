@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imiquimod
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 323
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -119,10 +119,10 @@ Two Phase 3 trials (one completed with n=259) and two Cochrane systematic review
 - Drug-drug interaction (DDI) data, which returned no results in the current query
 - A market authorization pathway assessment, since imiquimod is not currently registered in Saudi Arabia
 - Clarification on which specific premalignant subtype(s) (CIN, VIN, AIN, AK, Bowenoid papulosis) the label/protocol would target, since "pre-malignant neoplasm" is a broad TxGNN-predicted category
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

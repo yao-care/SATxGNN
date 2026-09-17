@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab Emtansine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 633
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -128,10 +128,10 @@ The mechanistic link is sound but not novel — PR positivity is a co-existing b
 - Saudi Arabia licensing/market entry status confirmation, since the drug is currently not marketed
 - Confirmation of T-DM1 as the actual study intervention in NCT03726879 (title was truncated in source data)
 - PR-status-stratified outcome data from trials such as NCT01745965 (rank 3 evidence set) to directly test PR-dependence of response, rather than relying on HER2+/PR+ overlap
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

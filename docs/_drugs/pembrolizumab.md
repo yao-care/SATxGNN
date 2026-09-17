@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pembrolizumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pembrolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -111,10 +111,10 @@ The TxGNN score (99.40%) reflects embedding-space proximity rather than validate
 - Formal MOA documentation from DrugBank
 - Local package insert warnings, contraindications, and DDI data
 - If pursuing repurposing research on this drug further, note that within the same evidence pack, **lung hilum carcinoma** (rank 4, L3 evidence, Research Question) and **lung germ cell tumor** (rank 9, L4 evidence, Research Question) carry partial trial/literature support and are better candidates for follow-up — though both still require manual verification of disease-entity matching due to noted ontology mismatches in the retrieved evidence.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

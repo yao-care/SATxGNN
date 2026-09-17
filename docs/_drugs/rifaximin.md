@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rifaximin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 546
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ The only available literature evidence contradicts rather than supports the repu
 - Confirmed mechanism of action via DrugBank API — currently a High-severity gap (DG002)
 - A plausible antifungal or immunomodulatory mechanism to reconcile the prediction with rifaximin's known pharmacology
 - Independent, mechanistically-grounded evidence (not co-occurrence-based) before any further evaluation of oral candidiasis as an indication
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

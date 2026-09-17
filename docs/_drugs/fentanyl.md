@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fentanyl
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Fentanyl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Fentanyl is a potent synthetic opioid, historically used for severe acute/chroni
 | Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
 | TxGNN Prediction Score | 99.46% (rank 8252) |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed (未上市) |
+| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -86,10 +86,10 @@ The TxGNN score is high, but the prediction is unsupported by any clinical trial
 
 ---
 *Note: A second, lower-priority candidate (Tourette syndrome, TxGNN score 99.05%, rank 13027) was also evaluated in this Evidence Pack. It carries the same Hold recommendation (L5/S0) — the proposed mechanistic link (endogenous opioid hypothesis in tic modulation) is weak, direction-uncertain, and mismatched with fentanyl's short-acting, high-abuse-liability profile versus the chronic pediatric/adolescent-onset nature of Tourette syndrome. No clinical trials or literature support this direction either.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

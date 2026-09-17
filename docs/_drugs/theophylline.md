@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theophylline
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Theophylline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -90,10 +90,10 @@ Although the TxGNN score is high (99.62%), the evidence level is L5 — there ar
 - Confirmed original indication and mechanism-of-action (MOA) documentation from DrugBank or equivalent source
 - Preclinical studies (e.g., platelet aggregation assays) directly testing theophylline's antithrombotic activity, rather than inference from cilostazol analogy
 - If preclinical signal emerges, a targeted literature/clinical trial search specifically on "theophylline AND antiplatelet/thrombosis" rather than broad platelet-methodology hits
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

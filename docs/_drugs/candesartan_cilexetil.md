@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Candesartan Cilexetil
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Candesartan Cilexetil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -108,10 +108,10 @@ The mechanistic link between AT1 receptor blockade and attenuation of hypertensi
 - **Safety package completion** (DG001): retrieval of SFDA/TFDA package insert warnings and contraindications, particularly bilateral RAS exclusion criteria, before any clinical feasibility assessment
 - **Clarification of disease scope**: confirm whether "malignant hypertensive renal disease" as used in this model maps to ICD-10 I12/I13 hypertensive CKD subgroups or to the narrower "malignant phase" / hypertensive emergency with acute kidney injury — this determines which trial designs are applicable
 - If literature re-query yields ≥1 relevant observational study or RCT sub-analysis, evidence level may be upgraded to L3/L4 and decision reconsidered as **Proceed with Guardrails**
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

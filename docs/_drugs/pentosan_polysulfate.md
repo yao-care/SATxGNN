@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pentosan Polysulfate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Pentosan Polysulfate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -98,10 +98,10 @@ This prediction sits at Evidence Level L5 (model prediction only, no clinical tr
 - Preclinical or in-vitro evidence clarifying whether PPS's antiplatelet activity would help or harm in a platelet release disorder before any further evaluation
 
 *Note: TxGNN also flagged two related candidates in this same pack — Glanzmann thrombasthenia (99.65%) and pseudo-von Willebrand disease (99.62%) — both similarly at L5/Hold with no supporting trials or literature. These may warrant a combined review once MOA data is available, since a single mechanistic study could inform all three.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

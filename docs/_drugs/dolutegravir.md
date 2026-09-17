@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dolutegravir
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 204
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -114,10 +114,10 @@ The TxGNN prediction is mechanistically well-grounded — SIV and HIV share high
 - **Regulatory pathway**: For NHP research use, confirm whether any institutional IACUC or import/export regulatory framework in Saudi Arabia or the relevant jurisdiction governs off-label antiretroviral use in research animals
 
 > **Note on ranks 2 and 3**: The second-ranked indication — feline acquired immunodeficiency syndrome (FIV; score 99.85%) — is similarly a veterinary application with one direct PK/clinical outcomes study in DTG-treated FIV-infected cats (PMID 37112803) and should be considered alongside rank 1 if the use case expands to veterinary antiretroviral therapy. The third-ranked indication — neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.80%) — has no supporting evidence (L5) and is classified as Hold pending basic mechanistic hypothesis validation.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

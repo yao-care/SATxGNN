@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Plerixafor
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Plerixafor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -86,10 +86,10 @@ The TxGNN score for Indolent Plasma Cell Myeloma is very high, but this dataset 
 - Targeted literature and clinical trial search specifically for Plerixafor in indolent/plasma cell myeloma populations
 - Saudi Arabia market licensing status confirmation (currently unlicensed)
 - Consider prioritizing the Myeloid Leukemia candidate (L2, Research Question) from this same evidence pack for a separate, better-supported evaluation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

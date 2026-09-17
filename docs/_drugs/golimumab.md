@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Golimumab
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 298
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Golimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -126,10 +126,10 @@ No clinical trial or study has evaluated golimumab specifically for rheumatoid v
 - DrugBank-sourced mechanism of action confirmation
 - A dedicated observational or case-series study of golimumab in confirmed rheumatoid vasculitis, given no such trial currently exists
 - Reconciliation of the conflicting paradoxical-vasculitis safety signal (e.g., Takayasu's arteritis case, PMID 22999907) before any clinical exploration
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

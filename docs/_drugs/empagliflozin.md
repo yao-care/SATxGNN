@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Empagliflozin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Empagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -33,7 +33,7 @@ indication_count: 3
 
 ## 一句話總結
 
-Empagliflozin（DrugBank ID: DB09038）目前在沙烏地阿拉伯**未上市**（0 筆許可證），本證據包中亦未提供其原始核准適應症與作用機轉（MOA）資料。TxGNN 模型預測其可能與 **Focal Stiff Limb Syndrome** 相關，預測分數 **99.06%**，但目前**沒有任何臨床試驗、也沒有任何文獻**支持這個方向，證據等級為最低的 **L5（純模型預測）**。
+Empagliflozin（DrugBank ID: DB09038）目前在沙烏地阿拉伯**Not marketed**（0 筆許可證），本證據包中亦未提供其原始核准適應症與作用機轉（MOA）資料。TxGNN 模型預測其可能與 **Focal Stiff Limb Syndrome** 相關，預測分數 **99.06%**，但目前**沒有任何臨床試驗、也沒有任何文獻**支持這個方向，證據等級為最低的 **L5（純模型預測）**。
 
 ---
 
@@ -41,11 +41,11 @@ Empagliflozin（DrugBank ID: DB09038）目前在沙烏地阿拉伯**未上市**�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 資料未提供（藥品在沙烏地阿拉伯未上市，無許可證紀錄可供擷取） |
+| 原始適應症 | 資料未提供（藥品在沙烏地阿拉伯Not marketed，無許可證紀錄可供擷取） |
 | 預測新適應症 | Focal Stiff Limb Syndrome |
 | TxGNN 預測分數 | 99.06% |
 | 證據等級 | L5 |
-| 沙烏地阿拉伯市場狀態 | ✗ 未上市 |
+| 沙烏地阿拉伯市場狀態 | ✗ Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -114,10 +114,10 @@ Please refer to the package insert for safety information.
 - 藥品原始核准適應症之完整清單（目前為空）
 - 藥物交互作用（DDI）資料庫查詢結果
 - 若後續要推進 Focal Stiff Limb Syndrome / Classic Stiff Person Syndrome 方向，建議另行檢索是否有病例報告（case report）等級的文獻，目前 PubMed 查詢完全無結果
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

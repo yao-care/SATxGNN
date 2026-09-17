@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chlorthalidone
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Chlorthalidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ The strongest evidence-supported indication in this full analysis is **Chronic P
 - **For chronic pulmonary heart disease** (Rank #8): Commission a systematic literature review to identify modern evidence building on the 1967 historical data; assess feasibility of a prospective observational study
 - **For glaucoma indications** (Ranks #1–2): Require dedicated preclinical IOP studies with chlorthalidone before any clinical consideration
 - **Regulatory pathway**: Given zero Saudi Arabia market authorizations, any advancement requires a full regulatory strategy for market entry alongside the repurposing program
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

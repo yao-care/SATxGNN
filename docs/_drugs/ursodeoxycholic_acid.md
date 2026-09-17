@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ursodeoxycholic Acid
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Ursodeoxycholic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 1
 | Predicted New Indication | Homozygous Familial Hypercholesterolemia |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| Market Status | 未上市 (Not Marketed) |
+| Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,10 +100,10 @@ Please refer to the package insert for safety information. Note: TFDA package in
 - Original indication/license history to establish a baseline for repurposing comparison
 - Targeted search for preclinical or mechanistic studies linking bile acid metabolism to LDL-receptor pathway/HoFH, since no clinical or observational evidence currently exists
 - Re-evaluation of market entry feasibility given current "not marketed" status
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

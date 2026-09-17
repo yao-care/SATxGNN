@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Glucagon
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 295
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Glucagon
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ This is a decision-stage S0 signal with Evidence Level L4, and the repurposing r
 - Obtain glucagon's confirmed original indication and mechanism of action (DrugBank API query — Data Gap DG002)
 - Obtain TFDA/manufacturer package insert warnings and contraindications (Data Gap DG001, Blocking severity — required before any S1 safety pre-assessment)
 - If a genuine glucagon-specific mechanistic hypothesis for IBS exists (e.g., via its antispasmodic GI effect), source trials/literature that study glucagon directly rather than GLP-1 receptor agonists
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pimecrolimus
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 494
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 4
 | Predicted New Indication | Seborrheic Dermatitis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -106,10 +106,10 @@ A dedicated Phase 2 RCT plus a consistent body of comparative studies and system
 - Structured DrugBank mechanism-of-action data (DG002, High priority — needed to formally validate the mechanistic linkage analysis)
 - A drug-drug interaction (DDI) data source, since the current DDI query returned no results
 - A market-entry/registration pathway assessment, since the product currently has zero local authorizations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

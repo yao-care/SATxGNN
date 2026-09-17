@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Daptomycin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Daptomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -122,10 +122,10 @@ Two 2025 publications (PMID [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/
   - Toxicity profile at anti-inflammatory doses (daptomycin causes dose-dependent myopathy; anti-inflammatory doses may differ from antimicrobial doses)
   - Assessment of route compatibility (daptomycin is IV-only; RA therapy typically requires oral or SC routes for chronic use)
   - Phase 1 safety study before any Phase 2 efficacy evaluation can be designed
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

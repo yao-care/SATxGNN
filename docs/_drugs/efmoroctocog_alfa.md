@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Efmoroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-Efmoroctocog alfa currently holds **no marketing authorizations** in Saudi Arabia (`market_status`: 未上市 / Not marketed; `total_licenses`: 0; `licenses`: empty). No product-level registration data is available to populate a market information table.
+Efmoroctocog alfa currently holds **no marketing authorizations** in Saudi Arabia (`market_status`: Not marketed / Not marketed; `total_licenses`: 0; `licenses`: empty). No product-level registration data is available to populate a market information table.
 
 ---
 
@@ -103,10 +103,10 @@ Please refer to the package insert for safety information.
 - Preclinical or mechanistic studies directly linking Factor VIII-Fc replacement therapy to platelet-type/pseudo-von Willebrand disease pathophysiology
 - Confirmation of the drug's original approved indication(s) against an authoritative regulatory source, since `original_indications` is currently empty in the evidence pack
 - Ongoing surveillance for emerging clinical trial or publication evidence, given the current complete absence of supporting studies
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

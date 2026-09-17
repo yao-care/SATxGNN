@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methoxy Polyethylene Glycol-Epoetin Beta
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Methoxy Polyethylene Glycol-Epoetin Beta
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -66,7 +66,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-This drug is not marketed in Saudi Arabia (market_status: 未上市 / not marketed), with 0 registered authorizations. No license records are available.
+This drug is not marketed in Saudi Arabia (market_status: Not marketed / not marketed), with 0 registered authorizations. No license records are available.
 
 ## Safety Considerations
 
@@ -86,10 +86,10 @@ Evidence level is L5 (model prediction only) with zero clinical trials or litera
 - Mechanism of action (MOA) data (DG002, High)
 - Original indication data (original_indications is currently empty)
 - Preclinical/in-vitro evidence establishing biological plausibility for EPO-receptor signaling in platelet release disorder, given the current mechanistic rationale is unsupportive
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

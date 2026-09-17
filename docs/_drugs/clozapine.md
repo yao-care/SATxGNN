@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clozapine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 157
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Clozapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -126,10 +126,10 @@ A completed Phase 2 double-blind RCT (NCT00029458, N=42) directly confirmed cloz
 - **[Safety Infrastructure]** Design a mandatory hematological monitoring protocol (CBC with differential, minimum weekly for first 6 months then bi-weekly) aligned with clozapine registry requirements
 - **[Monitoring]** Establish metabolic monitoring plan: baseline and periodic fasting glucose, lipid panel, weight/BMI, and ECG
 - **[Evidence Watch]** Track completion of NCT05603104 (Phase 3, N=1,254, expected 2028) — if a clozapine arm is confirmed, results could elevate this indication to L1 evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

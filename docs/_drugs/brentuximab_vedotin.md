@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Brentuximab Vedotin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 84
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Brentuximab Vedotin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -124,10 +124,10 @@ BV has a clear mechanistic basis in CD30+ follicular lymphoma — particularly i
 - Investigation into the cause of the high trial withdrawal/termination rate across FL-directed BV studies (4/6 non-completing) — understanding whether this reflects enrollment difficulty, interim efficacy signals, or regulatory issues
 - Saudi Arabia regulatory pathway assessment for BV importation, named-patient compassionate use, or local trial sponsorship
 - Comprehensive safety monitoring plan addressing peripheral neuropathy, myelosuppression, infusion reactions, and cumulative MMAE toxicity in the FL patient population
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

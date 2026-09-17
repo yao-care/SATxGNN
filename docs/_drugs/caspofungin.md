@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Caspofungin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Caspofungin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -95,10 +95,10 @@ There is no clinical trial, observational, or preclinical literature evidence co
 - **Safety baseline**: Retrieve key warnings, contraindications, and DDI profile from the package insert (currently all flagged as data gaps)
 - **Hypothesis refinement**: If the mycobiome-gastrin axis hypothesis is pursued, conduct a targeted literature search on gut fungi and gastrin regulation as an independent step
 - **Re-evaluation trigger**: Return to this candidate only if preclinical mechanistic evidence emerges; until then, deprioritise in favour of higher-evidence repurposing candidates
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

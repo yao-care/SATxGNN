@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Irbesartan
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Irbesartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Irbesartan is a well-known angiotensin II receptor blocker (ARB), whose establis
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -107,10 +107,10 @@ All four predicted indications are supported only by a TxGNN score (L5), with ze
 - Targeted literature/clinical trial search using "irbesartan" or "ARB" combined with each specific indication term, rather than relying on the current keyword-matched hypoxia literature
 - Clinical assessment of renal artery stenosis prevalence/risk in the malignant renovascular hypertension population before any translational consideration
 - Confirmation of local market/registration pathway, given the drug is currently unmarketed in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

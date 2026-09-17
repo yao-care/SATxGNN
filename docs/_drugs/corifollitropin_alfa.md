@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Corifollitropin Alfa
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Corifollitropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ The top predicted indication (gastroduodenitis) is supported by no clinical tria
 - **Re-triage toward higher-plausibility candidates:** Two predictions in this pack warrant a preliminary mechanistic literature review ahead of this indication:
   - **Pulmonary Hypertension (Rank 6)** — FSH receptor expression has been reported in human pulmonary artery smooth muscle and endothelial cells, with observational data linking post-menopausal FSH elevation to pulmonary vascular remodeling; the net functional direction (pro- vs. anti-proliferative) requires clarification
   - **Migraine Disorder (Rank 2)** — Menstrual cycle FSH fluctuations are associated with menstrual migraine frequency, and FSH receptors have been detected in cerebrovascular tissue; the effect direction of FSH agonism on migraine remains undefined and should be explored via cortical spreading depression (CSD) animal models
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

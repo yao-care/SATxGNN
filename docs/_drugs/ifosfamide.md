@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ifosfamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ifosfamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Ifosfamide is an oxazaphosphorine alkylating agent long established in combinati
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L1 *(as classified in the evidence pack — see caveat below)* |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Research Question** |
 
@@ -140,10 +140,10 @@ Ifosfamide shows a mechanistically plausible and literature-supported signal in 
 - Confirmation/correction of the NCT00954174 disease-population mismatch, and a targeted search for genuinely breast-cancer-specific completed RCTs
 - A fresh drug-drug interaction (DDI) query, since the current lookup returned no data
 - A regulatory pathway assessment given zero existing Saudi Arabia market authorizations for ifosfamide
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Viloxazine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 663
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Viloxazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 10
 | Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -60,7 +60,7 @@ Detailed formal MOA documentation for viloxazine is not yet on file (Data Gap DG
 
 This is not a purely speculative model output: viloxazine extended-release (marketed as SPN-812/Qelbree®) already received FDA approval in 2021 for ADHD in children, adolescents, and adults, making this a **confirmed repurposing case** rather than an untested hypothesis. The TxGNN prediction here effectively recovers a real-world, regulator-validated indication.
 
-The "未上市" (not marketed) status in this dataset reflects a **local regulatory gap**, not an evidence gap — viloxazine has simply not yet been registered or authorized in this market, despite having an established efficacy and safety record elsewhere.
+The "Not marketed" (not marketed) status in this dataset reflects a **local regulatory gap**, not an evidence gap — viloxazine has simply not yet been registered or authorized in this market, despite having an established efficacy and safety record elsewhere.
 
 ---
 
@@ -121,10 +121,10 @@ The predicted ADHD indication is backed by an unusually strong evidence base —
 - TFDA/SFDA package insert warnings, contraindications, and DDI data (blocking gap DG001)
 - Confirmed, sourced mechanism of action documentation (DG002)
 - A local registration/market-entry assessment leveraging the existing FDA approval dossier for viloxazine ER
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

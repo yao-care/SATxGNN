@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ribavirin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 543
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ribavirin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -118,10 +118,10 @@ The TxGNN score is high, but the mechanistic basis is weak — ribavirin's known
 - Verified mechanism-of-action data from DrugBank (DG002 — High)
 - Full-text review of the PARC study (NCT00114361) results to confirm whether ribavirin add-on therapy showed a genuine HBV-specific benefit
 - Clarification of whether the high TxGNN score reflects a true mechanistic signal or a graph co-occurrence artifact from HBV/HCV co-infection literature, before further evidence collection is prioritized
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

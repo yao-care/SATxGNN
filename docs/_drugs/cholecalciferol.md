@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cholecalciferol
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 134
-evidence_level: L5
+evidence_level: L2
 indication_count: 7
 ---
 
 # Cholecalciferol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -170,10 +170,10 @@ Cholecalciferol has an established mechanistic role as the substrate precursor o
 - CKD stage-stratified treatment positioning: define cholecalciferol's role in early CKD (G1–G3, primary supplementation) vs. late CKD/ESRD (adjunctive to calcitriol/paricalcitol)
 - For hypophosphatemic rickets (Rank 5): clarify adjunctive vs. primary role in the burosumab era; a Research Question protocol comparing cholecalciferol + phosphate vs. burosumab monotherapy as adjunct would be the appropriate framing
 - Package insert review from an approved market (EU or Japan) to extract formal contraindications and dosing recommendations for renal impairment populations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

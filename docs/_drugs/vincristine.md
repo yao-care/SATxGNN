@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vincristine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 665
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 ---
 
 # Vincristine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -49,7 +49,7 @@ Using the report format given in the prompt (no separate skill applies — this 
 | Predicted New Indication | Ganglioneuroblastoma |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -127,10 +127,10 @@ The predicted indication is mechanistically coherent — ganglioneuroblastoma si
 - Confirmed mechanism-of-action documentation from DrugBank (currently marked as a gap at the drug level, though class-level pharmacology was used above)
 - Saudi Arabia market registration/licensing pathway, since the drug is currently not marketed locally
 - Histopathological stratification of ganglioneuroblastoma subtype, given the heterogeneity of the neuroblastic tumor spectrum, before designing a dedicated trial
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

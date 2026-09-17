@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Thiamine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 615
-evidence_level: L5
+evidence_level: L3
 indication_count: 4
 ---
 
 # Thiamine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Thiamine (Vitamin B1) is originally used to treat thiamine deficiency states suc
 | Predicted New Indication | Hyperthyroidism |
 | TxGNN Prediction Score | 99.44% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -105,10 +105,10 @@ Evidence supporting thiamine use in hyperthyroidism relies on a single small, no
 - Controlled (ideally randomized) trials evaluating thiamine supplementation outcomes specifically in thyrotoxic/hyperthyroid patients, beyond the single completed pilot study
 - Drug-drug interaction data (currently not found)
 - Confirmation of Saudi Arabia market authorization pathway, given current "not marketed" status
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

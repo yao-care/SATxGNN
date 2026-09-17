@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etanercept
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 236
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -91,7 +91,7 @@ However, the direct evidence in this pack argues the opposite direction. The one
 
 ## Saudi Arabia Market Information
 
-Etanercept is currently **not marketed in Saudi Arabia** per this Evidence Pack (`market_status: 未上市`, 0 total licenses). No authorization records are available to summarize.
+Etanercept is currently **not marketed in Saudi Arabia** per this Evidence Pack (`market_status: Not marketed`, 0 total licenses). No authorization records are available to summarize.
 
 ## Safety Considerations
 
@@ -129,10 +129,10 @@ Because this pack (`TW-DB00005-multi`) evaluated 6 TxGNN predictions for etanerc
 | 6 | Vertebral disease | 99.16% | L2 | S2 | Research Question | Disease label is non-specific and largely overlaps with rank 3's evidence base; needs disambiguation before further evaluation |
 
 **Overall implication:** none of the six TxGNN-predicted indications in this pack currently represent a validated, *novel* repurposing opportunity for etanercept — the highest-evidence hits are already-labeled uses, the top-ranked genuinely new hypothesis (rheumatoid vasculitis) is contradicted by its own key trial and safety literature, and two candidates appear to be model noise.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

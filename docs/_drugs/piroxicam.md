@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Piroxicam
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 500
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Piroxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ Two direct piroxicam RCTs in juvenile (chronic) rheumatoid arthritis plus two re
 - Package insert / TFDA warnings, contraindications, and pediatric dosing safety data (currently a Blocking data gap)
 - Formal drug-drug interaction profile
 - Review of modern pediatric NSAID safety guidance given the age of the primary piroxicam RCTs (1986–1987) and known long-term GI/renal risk profile of piroxicam relative to newer NSAIDs in the same literature set
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

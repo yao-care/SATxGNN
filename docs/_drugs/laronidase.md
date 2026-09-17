@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Laronidase
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ Please refer to the package insert for safety information. Note: the underlying 
 - Confirmed original MOA and original indication text (DG002), currently marked Data Gap
 - Pipeline QA on disease-ontology mapping for the Sanfilippo/MPS III candidate before it is reused
 - If genuine repurposing candidates are sought, re-run prediction excluding disease terms that fall within the MPS I umbrella, since both current candidates collapse back to the drug's known target
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

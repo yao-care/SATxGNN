@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pantoprazole
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 475
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Pantoprazole is a proton pump inhibitor (PPI); this evidence pack does not carry
 | Predicted New Indication | Active Peptic Ulcer Disease |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L1 |
-| Market Status | Not Marketed (未上市) |
+| Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -99,10 +99,10 @@ Evidence level is L1, supported by a completed Phase 3 RCT and multiple addition
 - Confirmation of original approved indications to properly frame this as "known use" vs. "new use" in any filing
 - DDI and contraindication data (current query returned no results)
 - If a genuine repurposing opportunity is the goal, evaluate rank 2 ("peptic ulcer perforation," L2, adjunctive mechanism) instead, since rank 1 largely validates known pharmacology rather than expanding it
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

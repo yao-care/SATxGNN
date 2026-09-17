@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Gemfibrozil
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 291
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -88,10 +88,10 @@ Evidence for gemfibrozil in RA is limited to preclinical/animal studies and one 
 - Clarification of whether Saudi Arabia market entry is planned, given the drug is currently unmarketed there
 
 *Note: This evidence pack also contains 9 other TxGNN-predicted indications for gemfibrozil. Of these, hypoalphalipoproteinemia (rank 4, L2 evidence, multiple comparative clinical studies) and HIV-associated hypertriglyceridemia (rank 3, L2 evidence, including one RCT) are substantially better supported than rheumatoid arthritis and may warrant a separate evaluation report if a stronger repurposing candidate is desired.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

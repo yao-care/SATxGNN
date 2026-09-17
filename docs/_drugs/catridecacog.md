@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catridecacog
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catridecacog
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ All three TxGNN-predicted indications (primary release disorder of platelets, ps
 - **Safety data (DG001)**: Obtain approved package insert (Saudi Arabia / EMA / FDA) to populate key warnings, contraindications, and special population data
 - **Glanzmann thrombasthenia pivot**: Among the three predicted indications, rank 3 (Glanzmann thrombasthenia) carries the strongest biological rationale — FXIII cross-links fibrin–fibronectin to compensate for absent platelet aggregation, and a documented biochemical synergy with rFVIIa exists. This indication should be prioritised as the primary research question over platelet release disorders
 - **Literature scan broadening**: Search for any FXIII use in platelet function disorders under alternate search terms (e.g., storage pool disease, delta-granule deficiency, secretion defects) before a final Hold decision
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Benzocaine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Benzocaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,10 +97,10 @@ This prediction is currently unsupported by any clinical trials or published lit
 - Safety data specifically addressing corneal toxicity thresholds at sub-anesthetic concentrations for a proposed ophthalmic formulation
 - Pharmacological differentiation from currently approved ophthalmic local anesthetics (proparacaine, tetracaine) — a rationale for why benzocaine would be preferred for this indication
 - Mechanism of action (MOA) data gap resolution via DrugBank API query before any further regulatory or clinical planning
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

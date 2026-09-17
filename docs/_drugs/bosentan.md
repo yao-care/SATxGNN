@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bosentan
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 83
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Bosentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -107,10 +107,10 @@ The mechanistic case for Bosentan in rheumatoid arthritis is scientifically cred
 - **Safety monitoring plan**: Establish LFT monitoring protocol (baseline + monthly), CYP interaction screening (particularly with MTX, which is a RA cornerstone therapy), and pregnancy prevention programme prior to any clinical use
 - **Regulatory pathway clarification**: Bosentan is not marketed in Saudi Arabia; import or compassionate use pathway would need to be established before any investigator-initiated trial
 - **Biomarker strategy**: Identify patient subgroups most likely to respond (e.g., RA patients with elevated serum ET-1, concurrent Raynaud's phenomenon, or vasculopathic features) to enrich trial population
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

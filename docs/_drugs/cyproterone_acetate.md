@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cyproterone Acetate
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 165
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -116,10 +116,10 @@ Evidence for CPA in migraine disorder is limited to three publications describin
 
 > **Note on Secondary Indication — Amenorrhea (Rank 8):**
 > While this report focuses on the TxGNN top-ranked prediction, Amenorrhea (rank 8, TxGNN score 99.28%, Evidence Level L3) represents a substantially more actionable repurposing candidate. It is supported by **4 registered clinical trials** (including a Phase 4 randomized double-blind study, NCT01103518, directly evaluating CPA+EE for menstrual irregularity of hyperandrogenic origin) and **14 publications**. CPA+EE (Diane-35) is an internationally established treatment for PCOS-related menstrual disorders with a well-characterized pharmacological rationale. If SFDA registration is being considered, the amenorrhea/PCOS pathway carries a **"Proceed with Guardrails"** recommendation and should be evaluated as a priority track.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

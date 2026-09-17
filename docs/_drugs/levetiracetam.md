@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levetiracetam
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 371
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ with **9 clinical trials** and **20 publications** currently identified, though 
 | Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -108,10 +108,10 @@ The TxGNN score is high, but no identified trial or publication directly studies
 - Saudi Arabia regulatory dossier and marketing authorization data, since the product is not currently marketed there
 
 *Note: within the same evidence pack, a separate predicted indication — status epilepticus (rank 9, TxGNN score 99.91%) — shows substantially stronger direct evidence (L1, multiple completed Phase 3 RCTs including ESETT/NEJM 2019, recommendation "Proceed with Guardrails") and may warrant its own evaluation report.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

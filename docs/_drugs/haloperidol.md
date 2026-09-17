@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Haloperidol
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Haloperidol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -85,10 +85,10 @@ This candidate has an L5 evidence level — a high TxGNN similarity score with n
 - TFDA/SFDA package insert warnings and contraindications (currently a data gap, flagged as Blocking — required before any S1 safety review)
 - A preclinical or mechanistic study proposing a plausible biological pathway linking D2 antagonism (or any other Haloperidol target) to fucosylation/glycosylation defects
 - If no such pathway can be established, this candidate should be deprioritized in favor of higher-evidence predictions in the same evidence pack (e.g., manic bipolar affective disorder, rank 10, which has an L1 evidence level with 9 clinical trials and 20 publications and may warrant its own report)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

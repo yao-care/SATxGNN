@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mirtazapine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Mirtazapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -86,10 +86,10 @@ Despite a high TxGNN similarity score (99.42%), the prediction is Evidence Level
 - Any case-based or observational evidence in this ultra-rare genetic disease population
 
 *Note: Two closely related candidates — blepharophimosis–intellectual disability syndrome, Ohdo type (rank 2) and benign paroxysmal torticollis of infancy (rank 3) — carry the same L5/Hold status with no supporting trials or literature. The torticollis candidate is additionally concerning: it affects infants, a population with no established mirtazapine safety data.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

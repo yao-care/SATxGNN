@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etonogestrel
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 242
-evidence_level: L5
+evidence_level: L3
 indication_count: 5
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ with **1 clinical trial** and **2 publications** currently identified, though th
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (未上市) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -90,10 +90,10 @@ A Blocking data gap (missing local package insert / safety data, DG001) prevents
 - Drug-drug interaction (DDI) data (currently not found)
 
 *Note: Four additional lower-ranked predictions (breast fibrocystic disease, blunt duct/apocrine adenosis, benign mammary dysplasia) were also flagged by TxGNN with similarly high scores but no supporting trials or literature (Evidence Level L5, decision stage S0). These are assessed as likely knowledge-graph clustering artifacts around "hormonal drug–benign breast disease" nodes and are not recommended for further evaluation at this time.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gemcitabine
-parent: 高證據等級 (L1-L2)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 290
 evidence_level: L1
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gemcitabine
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Gemcitabine（健擇）是廣泛使用於多種實體腫瘤的細胞毒性化療
 | 預測新適應症 | Female Breast Carcinoma（乳癌） |
 | TxGNN 預測分數 | 99.98%（rank 683） |
 | 證據等級 | L1 |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Proceed with Guardrails |
 
@@ -123,14 +123,14 @@ Gemcitabine 屬於已知的傳統細胞毒性化療藥物（去氧胞苷類似�
 多項第二/三期臨床試驗（含一項已完成之關鍵第三期 RCT NCT00006459，以及納入 4,894 名患者的大型輔助治療試驗 NCT00093795）支持 gemcitabine 於乳癌治療之臨床活性，證據等級達 L1；但台灣仿單警語/禁忌症資料（DG001，Blocking）尚未取得，無法完成 S1 安全性初評，故不宜逕行放行，須於補齊安全性資料後方可推進。
 
 **推進前需補齊：**
-- TFDA 官網仿單警語與禁忌症資料（DG001，Blocking）
+- SFDA website仿單警語與禁忌症資料（DG001，Blocking）
 - DrugBank 完整 MOA 資料確認（DG002）
 - 藥物交互作用（DDI）資料庫查詢結果（目前 query_status 為 not_found）
-- 台灣上市/引進評估（本品目前於台灣未上市，0 張許可證）
-## Disclaimer
+- 台灣上市/引進評估（本品目前於台灣Not marketed，0 張許可證）
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

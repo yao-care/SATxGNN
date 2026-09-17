@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aliskiren
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Aliskiren
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ Despite a near-maximum TxGNN score (99.98%), the mechanistic connection between 
 - Formal safety screening against renal function and cardiovascular comorbidity profile typical of Group 3 PH patients, given ALTITUDE trial risks
 
 > **Higher-priority indications from this Evidence Pack**: **Malignant Renovascular Hypertension** (rank 4, L4 — strong RAAS mechanistic alignment) and **Cerebrovascular Disorder** (rank 7, L3 — 2 clinical trials including a Phase 2/3 MRI study, 13 publications, and direct animal neuroprotection data) demonstrate substantially better evidence and mechanistic fit. These indications are recommended for prioritization over the top-ranked TxGNN prediction.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

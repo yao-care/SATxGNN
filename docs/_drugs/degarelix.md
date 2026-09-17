@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Degarelix
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Degarelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -109,10 +109,10 @@ There is no clinical trial evidence or published literature connecting Degarelix
 - **Subtype stratification for hypertrichosis**: If further exploration is desired, restrict scope strictly to androgen-dependent forms (e.g., hirsutism in hyperandrogenic women); exclude congenital and genetic subtypes entirely
 - **Prioritize rank 9 — Central Precocious Puberty (CPP)**: Among all 10 predicted indications, CPP (rank 9, evidence L4) has the strongest pharmacological rationale — GnRH antagonists directly interrupt the overactivated hypothalamic-pituitary-gonadal axis that defines CPP pathology, and the class effect is already established through approved GnRH agonists (leuprolide, histrelin, triptorelin). A focused literature review and pediatric dosing/formulation assessment for Degarelix in CPP is the recommended next research question
 - **Exclude mechanistically mismatched predictions**: Rank 2 (Ambras syndrome), rank 3 (Dandy-Walker malformation), rank 5 (genetic hair shaft abnormality), and rank 8 (familial male-limited precocious puberty) all have explicit mechanistic incompatibilities documented in the evidence pack and should be deprioritized with no further investigation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

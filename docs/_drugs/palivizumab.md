@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Palivizumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Palivizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ but currently **0 clinical trials** and **0 publications** support this directio
 | Predicted New Indication | Benign Neoplasm of Tongue |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -67,7 +67,7 @@ Currently no related literature available
 
 ## Saudi Arabia Market Information
 
-Palivizumab is not marketed in Taiwan (`market_status: 未上市`, 0 authorizations). No license or product records are available to summarize.
+Palivizumab is not marketed in Taiwan (`market_status: Not marketed`, 0 authorizations). No license or product records are available to summarize.
 
 ## Safety Considerations
 
@@ -84,10 +84,10 @@ The prediction is supported only by a raw TxGNN similarity score (L5), with zero
 - Confirmed original MOA and indication data from DrugBank/manufacturer sources
 - TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
 - An independent mechanistic hypothesis or preclinical signal connecting antiviral monoclonal antibodies to tongue neoplasia before any further evaluation stage is warranted
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

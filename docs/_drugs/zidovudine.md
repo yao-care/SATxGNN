@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zidovudine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 674
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Zidovudine (AZT, DB00495) was the first antiretroviral approved for human HIV/AI
 | Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV/FAIDS) |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L4 |
-| Market Status | 未上市 (Not Marketed) |
+| Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -108,10 +108,10 @@ The top-ranked TxGNN prediction (feline acquired immunodeficiency syndrome) is a
 - Confirmed mechanism of action documentation from DrugBank (DG002)
 - A genuinely novel, human-relevant predicted indication with supporting clinical evidence, since the current top-ranked candidate is not clinically actionable
 - Clarification of local market/licensing status if repurposing within this jurisdiction is still being considered
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

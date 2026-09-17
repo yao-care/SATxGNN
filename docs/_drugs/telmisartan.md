@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -46,7 +46,7 @@ Telmisartan is an angiotensin II type 1 (AT1) receptor blocker (ARB); the eviden
 | Predicted New Indication (highest model score) | Prinzmetal angina (no supporting evidence) |
 | TxGNN Prediction Score | 99.93% (ICH) / 99.95% (cerebral artery occlusion) / 99.98% (Prinzmetal angina, top rank) |
 | Evidence Level | L2 (ICH and cerebral artery occlusion); L5 for most other candidates |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -139,7 +139,7 @@ Currently no related literature available for Prinzmetal angina, brain stem infa
 
 ## Taiwan Market Information
 
-Telmisartan currently has **no marketing authorization on record in Taiwan** (market status: 未上市 / not marketed; 0 licenses). No product name, dosage form, or approved-indication data is available from this evidence pack.
+Telmisartan currently has **no marketing authorization on record in Taiwan** (market status: Not marketed / not marketed; 0 licenses). No product name, dosage form, or approved-indication data is available from this evidence pack.
 
 ---
 
@@ -161,10 +161,10 @@ A Blocking-severity data gap (missing TFDA package insert / warnings and contrai
 - Formal mechanism-of-action documentation from DrugBank (DG002, High)
 - Confirmation of Taiwan market/licensing status, since no authorizations are currently on record
 - If pursuing cerebral artery occlusion or ICH prevention specifically: a focused review of the TRIDENT trial's actual drug regimen (to confirm telmisartan's specific contribution vs. the combination pill) and DDI data given the renal/hyperkalemia risk relevant to the renovascular/renal hypertension candidates
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Glargine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Glargine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Insulin Glargine (DB00047) is a long-acting basal insulin analog established for
 | Predicted New Indication | Autoimmune Oophoritis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-No license records are available in this evidence pack. `taiwan_regulatory.market_status` indicates the product is **未上市 (not marketed)** with **0 registered authorizations**.
+No license records are available in this evidence pack. `taiwan_regulatory.market_status` indicates the product is **Not marketed (not marketed)** with **0 registered authorizations**.
 
 ---
 
@@ -99,10 +99,10 @@ The top-ranked prediction (autoimmune oophoritis) has no clinical trial or liter
 - DrugBank-confirmed mechanism of action (DG002, High)
 - Targeted literature/trial search specifically for "insulin glargine" + "autoimmune oophoritis" using expanded synonyms, since the current PubMed/ClinicalTrials/ICTRP queries returned zero hits
 - If prioritizing this batch further, the pancreatic agenesis candidate (rank 6, L3/S2, "Proceed with Guardrails") warrants separate evaluation — it reflects an already-established clinical use pattern (insulin for secondary diabetes from pancreatic developmental defects) rather than a novel repurposing hypothesis, and should be scoped as such rather than folded into this report
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

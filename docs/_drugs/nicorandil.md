@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nicorandil
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Nicorandil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -89,10 +89,10 @@ The BPH hypothesis rests entirely on one animal study and two review/mechanistic
 - If pursued, a Phase 2 proof-of-concept trial in BPH/LUTS patients, given no clinical trials currently exist for this indication
 
 *Note: Four additional lower-ranked predictions (alopecia, hypotrichosis simplex, congenital hypotrichosis milia, diffuse alopecia areata, osteoarthritis/osteoarthritis susceptibility) were also flagged by TxGNN but carry Evidence Level L5 (model prediction only, no literature or trials) and are all recommended Hold.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

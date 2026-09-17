@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cinchocaine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Cinchocaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ The top predicted indication (bronchitis) and all six additional predictions car
 - **Preclinical evidence search**: Conduct a targeted PubMed search for Cinchocaine (dibucaine) + inflammation / cytokine / airway to determine whether class-level effects apply specifically to this compound
 - **Comparator benchmark**: Assess whether lidocaine — with a stronger existing evidence base for airway anti-inflammation — is a more appropriate repurposing candidate in this disease area
 - **Regulatory pathway assessment**: If evidence is strengthened, map a Saudi Arabia (SFDA) regulatory pathway for a non-marketed compound before committing development resources
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

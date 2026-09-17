@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Entacapone
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 227
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Entacapone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -134,10 +134,10 @@ No predicted indication for entacapone currently has direct clinical trial or co
 - Formal DrugBank mechanism-of-action and original-indication record for entacapone
 - If pursuing Lewy Body Dementia or early-onset Parkinson's further: a targeted literature/trial search specifically combining "entacapone" with these terms (rather than relying on general antiparkinsonian-agent studies), and clinical input on dosing/safety in early-onset or dementia populations
 - Re-screening of the 7 lowest-evidence candidates (ranks 1, 2, 3, 5, 6, 8, 9) is not recommended — they show no mechanistic or empirical support and should remain deprioritized unless new evidence emerges
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

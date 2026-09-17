@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rimegepant
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 547
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 6
 | Predicted New Indication | Migraine with Brainstem Aura |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -114,10 +114,10 @@ The mechanistic case is strong — rimegepant's non-vasoconstrictive CGRP antago
 - Local regulatory pathway assessment, since the drug is not currently marketed/licensed in this jurisdiction
 
 *Note: TxGNN also flagged five additional candidate indications (atrophoderma vermiculata, ulerythema ophryogenesis, heparin cofactor 2 deficiency, antithrombin deficiency type 2, factor V excess) for rimegepant. All were held (L5, no mechanistic or evidentiary support) and are not discussed further here.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

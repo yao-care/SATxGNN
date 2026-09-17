@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Propofol
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 523
-evidence_level: L5
+evidence_level: L2
 indication_count: 5
 ---
 
 # Propofol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Propofol is a well-established intravenous general anesthetic and sedative agent
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -82,7 +82,7 @@ This mechanistic plausibility is reinforced by real clinical use: emergency depa
 
 ## Saudi Arabia Market Information
 
-Propofol currently has no registered market authorizations in this dataset (0 licenses, market status: 未上市/Not Marketed). No product-level authorization data is available to tabulate.
+Propofol currently has no registered market authorizations in this dataset (0 licenses, market status: Not marketed/Not Marketed). No product-level authorization data is available to tabulate.
 
 ## Safety Considerations
 
@@ -101,10 +101,10 @@ One completed Phase 2/3 RCT (NCT01604785) plus a consistent body of smaller RCTs
 - Saudi Arabia regulatory/market status confirmation for propofol (currently shows 0 authorizations)
 - Adult-population, adequately powered RCT data (existing strongest trial is pediatric; adult evidence is largely case series/small pilot RCTs)
 - Head-to-head comparison against standard first-line abortive migraine therapies to establish relative positioning
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

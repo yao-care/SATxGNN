@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Itraconazole
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 348
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Itraconazole is a triazole antifungal agent, pharmacologically used to treat sys
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -89,10 +89,10 @@ The predicted association conflicts with itraconazole's known mechanism of actio
 - TFDA/SFDA package insert warnings and contraindications (currently a Blocking data gap)
 - Confirmed original indication text and MOA sourced directly from a regulatory or DrugBank record (currently a High-severity data gap)
 - A pharmacology review specifically addressing whether any azole has plausible activity against Pneumocystis before this candidate is reconsidered
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

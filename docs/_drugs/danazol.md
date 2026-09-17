@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Danazol
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 170
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Danazol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ Danazol's amenorrhea-inducing effect is a mechanistically direct, well-establish
 - Establish a safety monitoring plan covering androgenic side effects (voice changes, hirsutism, acne), hepatotoxicity (liver function tests), and lipid profile changes — known class risks for attenuated androgens
 - Initiate Saudi Arabia (SFDA) registration process, as danazol is currently not marketed; registration will be a prerequisite for any clinical use
 - Evaluate whether lower doses (100–200 mg/day) can achieve adequate amenorrhea rates with an improved tolerability profile, given existing dose-response data
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

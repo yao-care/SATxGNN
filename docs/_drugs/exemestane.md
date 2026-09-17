@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exemestane
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Exemestane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Exemestane 是一種芳香酶抑制劑，原始適應症脈絡（依證據包內
 | Predicted New Indication | Antithrombin Deficiency Type 2 |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 |
+| Saudi Arabia Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Antithrombin Deficiency Type 2 是一種因抗凝血酶（Antithrombin III）基
 
 ## Saudi Arabia Market Information
 
-Exemestane 目前於沙烏地阿拉伯**未上市**，無核准授權紀錄可供列表。
+Exemestane 目前於沙烏地阿拉伯**Not marketed**，無核准授權紀錄可供列表。
 
 ---
 
@@ -110,10 +110,10 @@ Exemestane 屬於抗腫瘤藥物（芳香酶抑制劑，用於乳癌荷爾蒙治
 - TFDA/沙國仿單警語與禁忌資料（DG001，Blocking，目前無法進行 S1 安全性初評）
 - Exemestane 正式作用機轉（MOA）資料（DG002，來源：DrugBank API）
 - 若欲追蹤此藥物之老藥新用機會，證據包中排名第 2 之預測適應症 **Amenorrhea**（L4，5 篇文獻支持，decision_stage S1，建議 Research Question）具備較高的證據強度，值得優先於 Antithrombin Deficiency Type 2 進行後續研究規劃
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

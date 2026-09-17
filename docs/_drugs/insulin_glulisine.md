@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 329
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Type 1 Diabetes Mellitus |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -103,7 +103,7 @@ Because `original_moa` in this Evidence Pack is a data gap and no Saudi Arabia l
 
 ## Saudi Arabia Market Information
 
-Insulin glulisine is currently **not marketed** in Saudi Arabia per this Evidence Pack (`market_status: 未上市`, `total_licenses: 0`). No license records are available to summarize in table form.
+Insulin glulisine is currently **not marketed** in Saudi Arabia per this Evidence Pack (`market_status: Not marketed`, `total_licenses: 0`). No license records are available to summarize in table form.
 
 ---
 
@@ -126,10 +126,10 @@ Please refer to the package insert for safety information. No key warnings, cont
 - DrugBank-sourced MOA record to replace the current data gap and confirm the mechanistic narrative independently
 - Clarification of whether this candidate should be reclassified as a **known-indication confirmation** rather than a repurposing opportunity, given the rationale text explicitly states T1DM is Apidra's approved use
 - If reclassified, deprioritize in favor of ranks 2–10, none of which currently have clinical trial or literature support (L5, mostly "Hold")
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vildagliptin
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 662
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -120,10 +120,10 @@ The T1D signal (rank 10) has genuine mechanistic and clinical backing — one co
 - Larger/confirmatory T1D trials evaluating vildagliptin specifically for β-cell preservation or adjunct glycemic control, not just T2DM-labeled trials misattributed by search
 - Drug interaction data specific to T1D adjunct use (e.g., with insulin, closed-loop systems)
 - Clarification on whether ranks 1–9 (stiff person syndrome spectrum, lipodystrophies, opsismodysplasia, pancreatic agenesis) reflect a TxGNN scoring/embedding issue worth flagging to the model team, since none carry any supporting evidence despite near-identical top-tier scores to the one credible prediction
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

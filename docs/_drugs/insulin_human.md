@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Human
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 330
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Insulin Human
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ Insulin human is the foundational exogenous insulin replacement therapy for diab
 | Predicted New Indication | Pancreatic Agenesis |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -108,10 +108,10 @@ A Blocking data gap (DG001: TFDA/SFDA package insert warnings/contraindications)
 - Obtain formal mechanism-of-action documentation (DG002) from DrugBank
 - If pursuing Pancreatic Agenesis further, reframe as "standard-of-care confirmation" rather than a repurposing candidate — no new clinical development pathway is implied
 - Re-examine the lipodystrophy-cluster predictions for causal-direction errors before any further evidence collection is invested in them
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

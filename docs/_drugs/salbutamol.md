@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Salbutamol
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Salbutamol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -87,10 +87,10 @@ The prediction rests entirely on the TxGNN model score with no supporting clinic
 - Mechanism-of-action data from DrugBank — currently High priority (DG002)
 - Targeted preclinical or clinical evidence specifically in papillary conjunctivitis (the adjacent atopic conjunctivitis preclinical data, PMID 3666475 and PMID 2906082, could inform a hypothesis-generating study but is not substitute evidence)
 - Consider that within this same evidence pack, **bronchitis** (rank 4, L2, decision stage S2, "Proceed with Guardrails") and **obstructive lung disease** (rank 10, L1, decision stage S3, "Proceed with Guardrails") have substantially stronger, mechanistically direct evidence and may be more actionable near-term repurposing candidates than papillary conjunctivitis
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

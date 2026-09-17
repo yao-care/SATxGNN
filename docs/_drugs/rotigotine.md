@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rotigotine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 559
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
 | TxGNN Prediction Score | 99.997% |
 | Evidence Level | L4 |
-| Local Market Status | 未上市 (Not marketed) |
+| Local Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,10 +100,10 @@ The mechanistic rationale (shared dopaminergic/α2-adrenergic pharmacology, RLS-
 - Preclinical/animal studies directly testing rotigotine (or its receptor profile) in ADHD models
 - Any case reports or off-label use data in ADHD or comorbid RLS-ADHD pediatric populations
 - Drug-drug interaction profile, since none is currently available (query returned not_found)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

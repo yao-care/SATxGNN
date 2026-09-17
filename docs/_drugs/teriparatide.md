@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Teriparatide
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 612
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -91,7 +91,7 @@ No trials directly studied teriparatide in PLO patients. The following are indir
 
 ## Saudi Arabia Market Information
 
-Teriparatide currently has no marketing authorization on record in this dataset (`market_status: 未上市`, `total_licenses: 0`). No license entries are available to summarize.
+Teriparatide currently has no marketing authorization on record in this dataset (`market_status: Not marketed`, `total_licenses: 0`). No license entries are available to summarize.
 
 ---
 
@@ -114,10 +114,10 @@ Teriparatide's use in PLO is mechanistically coherent (same osteoanabolic pathwa
 - Confirmation of teriparatide's registration and marketing pathway in Saudi Arabia (currently not marketed)
 - A structured clinical protocol or registry-based study design for PLO, given the absence of RCT-level evidence
 - Population-specific safety monitoring plan (pregnancy/lactation exposure, fetal/infant safety data)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

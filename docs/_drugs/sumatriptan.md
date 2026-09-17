@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sumatriptan
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 592
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Sumatriptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ Please refer to the package insert for safety information (key warnings, contrai
 - Confirmed drug-drug interaction (DDI) profile
 - Confirmed original MOA and approved indication text from DrugBank/regulatory source (DG002)
 - Targeted literature or trial search on triptan safety specifically in brainstem-aura/basilar-type migraine populations, given the known theoretical contraindication
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

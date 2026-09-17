@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sertraline
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 571
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 ---
 
 # Sertraline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -117,10 +117,10 @@ Agoraphobia (in the context of panic disorder) is supported by multiple complete
 - Detailed mechanism-of-action documentation from DrugBank
 - Drug-drug interaction (DDI) data, currently returning "not found"
 - A regulatory pathway assessment for first-time market entry in Saudi Arabia, since no existing license or dosage-form record exists
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

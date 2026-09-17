@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dorzolamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Dorzolamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -96,10 +96,10 @@ Dorzolamide's carbonic anhydrase inhibition mechanism is directly applicable to 
 - Complete safety documentation: obtain contraindications, key warnings, and drug interaction profile (DG001 remediation via package insert PDF)
 - Obtain detailed mechanism of action documentation from DrugBank (DG002 remediation)
 - Evaluate whether the extensive evidence base for open-angle glaucoma (41+ clinical trials, 20+ publications at ranks 6–7) could support a broader glaucoma indication registration in Saudi Arabia as a prerequisite step
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

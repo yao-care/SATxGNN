@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pegaspargase
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 480
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ The predicted indication is supported by L1-level evidence (multiple completed P
 - Formal DrugBank mechanism-of-action record (high-priority gap, DG002)
 - Clarification of local market-authorization status (currently 0 licenses / not marketed) and whether an import or special-access pathway is intended
 - Reframing of this candidate as a model-validation result; if the objective is genuine repurposing, prioritize review of the lower-confidence, more novel signals in this evidence pack (e.g., the "Hodgkin's lymphoma" label whose underlying trials/literature actually describe NK/T-cell lymphoma, and CML blast phase)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

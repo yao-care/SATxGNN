@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 529
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Pyridostigmine is a cholinesterase inhibitor whose established use is symptomati
 | Predicted New Indication | Myasthenia Gravis with Thymus Hyperplasia |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L3 |
-| Taiwan Market Status | Not Marketed (未上市) |
+| Taiwan Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -69,7 +69,7 @@ Currently no related clinical trials registered.
 
 ## Saudi Arabia Market Information
 
-No licenses currently registered — Pyridostigmine is not marketed in Taiwan (0 authorizations; `taiwan_regulatory.market_status` = 未上市).
+No licenses currently registered — Pyridostigmine is not marketed in Taiwan (0 authorizations; `taiwan_regulatory.market_status` = Not marketed).
 
 ## Safety Considerations
 
@@ -89,10 +89,10 @@ The predicted "new" indication is mechanistically not a novel hypothesis but an 
 - DrugBank/formal MOA documentation (DG002, High)
 - Route compatibility assessment (currently pending in evidence pack)
 - Taiwan market-access pathway evaluation, given 0 current licenses
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

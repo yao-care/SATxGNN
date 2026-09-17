@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methotrexate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Methotrexate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -253,10 +253,10 @@ Please refer to the package insert for safety information.
 - Route-of-administration and dosage-form compatibility assessment (all 10 candidates show `route_compatibility.status: pending`)
 - For the two Guardrails candidates: a contemporary literature/guideline review to confirm whether MTX still has a defensible clinical role given that ABVD (Hodgkin) and VAC (rhabdomyosarcoma) are now first-line standards
 - Taiwan market/licensing data verification, since the current record shows methotrexate as unmarketed in Taiwan with zero authorizations, which should be re-confirmed given its broad global availability
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

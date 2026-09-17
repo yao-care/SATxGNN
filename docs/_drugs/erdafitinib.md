@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Erdafitinib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Erdafitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -116,10 +116,10 @@ The prediction is supported only by the TxGNN model score (L5 evidence) with zer
 - Drug-drug interaction (DDI) data, currently unavailable (query returned "not_found")
 
 *Note: This evidence pack also lists five other lower-confidence candidates (kyphoscoliotic heart disease, amenorrhea, rheumatoid arthritis, ALS, brachydactyly-syndactyly syndrome). Rheumatoid arthritis and brachydactyly-syndactyly syndrome carry marginally stronger mechanistic plausibility (synovial angiogenesis and FGFR gain-of-function skeletal disorders, respectively) and were flagged as "Research Question" rather than "Hold" — these may warrant a separate, dedicated evaluation if this pulmonary hypertension lead is deprioritized.*
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

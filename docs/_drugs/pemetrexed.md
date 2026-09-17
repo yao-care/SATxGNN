@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pemetrexed
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 485
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ Pemetrexed is a multitargeted antifolate chemotherapy agent whose established us
 | Predicted New Indication | Malignant Peritoneal Mesothelioma |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -99,7 +99,7 @@ Mechanistically, there is no biological reason antifolate cytotoxicity would beh
 
 ## Saudi Arabia Market Information
 
-Pemetrexed is currently **not marketed** in this jurisdiction (`market_status = 未上市`), with **0 registered authorizations** in this evidence pack. No product listings are available to tabulate.
+Pemetrexed is currently **not marketed** in this jurisdiction (`market_status = Not marketed`), with **0 registered authorizations** in this evidence pack. No product listings are available to tabulate.
 
 ---
 
@@ -134,10 +134,10 @@ The mechanistic rationale is strong (shared mesothelial origin, established anti
 - Drug-drug interaction (DDI) data (currently "not found")
 - Confirmation of original approved indication(s) and regulatory/license status (currently blank in `taiwan_regulatory.licenses`)
 - Consideration of whether a peritoneal-mesothelioma-specific Phase 3 RCT is feasible given disease rarity, or whether guideline extrapolation from MPM evidence is accepted as sufficient
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

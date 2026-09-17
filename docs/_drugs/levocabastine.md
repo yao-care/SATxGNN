@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levocabastine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 372
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Levocabastine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -88,10 +88,10 @@ Evidence level is L4 (mechanistic rationale only, no clinical trial or urticaria
 - Confirmed mechanism-of-action data from DrugBank
 - Urticaria-specific clinical or preclinical evidence (current literature only addresses rhinitis and PK review)
 - Assessment of whether existing topical (nasal/ophthalmic) formulations can achieve exposure sufficient for urticaria, or whether new formulation development is required
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Doxycycline
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 210
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Doxycycline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ Evidence is limited to a single 1992 case series reporting post-chlamydial kerat
 - Prospective observational or pilot clinical study evaluating whether sub-antimicrobial dose doxycycline (via MMP inhibition) reduces recurrence of post-chlamydial punctate keratitis
 - Route compatibility assessment: determine whether systemic oral dosing or topical ophthalmic formulation is appropriate for this indication
 - Ophthalmology specialist consultation to distinguish active chlamydial keratitis from immune-mediated post-infectious keratitis, as the treatment rationale differs substantially between the two
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

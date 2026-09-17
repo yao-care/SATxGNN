@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avatrombopag
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Avatrombopag
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ This is an L5 prediction — no clinical trials, no published literature, and no
 - **Thromboembolic risk assessment:** Evaluate whether the presence of mitral valve insufficiency constitutes a contraindication to TPO-RA use in this population
 - **Rare disease expert consultation:** Engage hematology and cardiology specialists to assess feasibility of a prospective case series or registry study
 - **Saudi Arabia regulatory pathway:** Confirm whether an import/compassionate use pathway exists prior to any clinical evaluation, given zero current SFDA authorizations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

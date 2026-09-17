@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lisinopril
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 379
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked prediction (posterolateral myocardial infarction) has no direct c
 - Literature or trial search specifically targeting posterolateral/posteroinferior MI subtypes (not just "myocardial infarction" broadly) to confirm whether subtype-specific evidence exists
 
 **Note on alternative candidate:** Among the other 9 predictions in this pack, "chronic pulmonary heart disease" (rank 9) has materially stronger support — 2 direct lisinopril studies (PMID 17047621, PMID 14524095, L3 evidence) and a "Proceed with Guardrails" recommendation, alongside a flagged DDI risk (lisinopril + tizanidine, PMID 20852161). This may be a more actionable repurposing candidate than the current top-ranked prediction and warrants separate evaluation. Conversely, ranks 3, 6, 8, and 10 are flagged in the source data as low-plausibility or safety-hold cases (including a possible embedding artifact and a relative-contraindication scenario in renovascular hypertension) and should not be pursued further without additional evidence.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

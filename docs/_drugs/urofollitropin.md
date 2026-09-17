@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Urofollitropin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Urofollitropin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ The prediction rests solely on a TxGNN similarity score with no supporting clini
 - Confirmed mechanism of action (MOA) data — currently a High-severity data gap
 - A testable mechanistic hypothesis connecting gonadotropin activity to migraine pathophysiology
 - Preclinical or observational signal (e.g., real-world data on migraine incidence/severity in patients receiving FSH therapy) before any clinical investment is considered
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

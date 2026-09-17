@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Favipiravir
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 252
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Favipiravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -89,10 +89,10 @@ The evidence level is L4 (mechanistic/preclinical inference only) with zero clin
 - Preclinical or case-series evidence directly linking Favipiravir treatment to HLH outcomes in Bunyavirales-associated infection (not just treatment of the underlying viral infection)
 - DDI data, since current query returned "not found"
 - Clarification of Favipiravir's original approved indication(s), currently absent from this evidence pack
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

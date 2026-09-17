@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Erythromycin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 234
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ Although the TxGNN model assigns a high prediction score (99.89%), the supportin
 - Original approved-indication and licensing data for this drug in this market
 - Preclinical or in-vitro evidence specifically demonstrating erythromycin activity against pathogens implicated in punctate epithelial keratoconjunctivitis
 - Note: other TxGNN-predicted indications in this evidence pack — notably **lymphogranuloma venereum** (L3, Proceed with Guardrails) and **necrotizing ulcerative gingivitis** (L3, Proceed with Guardrails) — show stronger direct mechanistic and historical literature support and may warrant separate, higher-priority evaluation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

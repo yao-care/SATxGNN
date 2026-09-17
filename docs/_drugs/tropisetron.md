@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tropisetron
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 645
-evidence_level: L5
+evidence_level: L3
 indication_count: 5
 ---
 
 # Tropisetron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -104,10 +104,10 @@ Evidence rests on one 1991 RCT with mixed/complex results and a small regional c
 - Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
 - A modern, adequately powered RCT evaluating tropisetron specifically for migraine prophylaxis or acute treatment
 - Drug-drug interaction (DDI) data, currently unavailable ("not_found")
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

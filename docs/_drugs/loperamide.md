@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loperamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Loperamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -69,7 +69,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-Loperamide currently holds no marketing authorization on record in this dataset (`total_licenses = 0`, `market_status = 未上市/Not Marketed`), so no license table can be produced.
+Loperamide currently holds no marketing authorization on record in this dataset (`total_licenses = 0`, `market_status = Not marketed/Not Marketed`), so no license table can be produced.
 
 ## Safety Considerations
 
@@ -87,10 +87,10 @@ The top-ranked prediction (acute contagious conjunctivitis) is evidence level L5
 - TFDA/SFDA package insert warnings and contraindications (DG001, Blocking) before any safety pre-assessment (S1) can proceed
 - If repurposing work continues, prioritize re-scoring lower-ranked but evidence-backed candidates in this pack (e.g., gastroduodenitis, L3, flagged "Research Question") over the top TxGNN score alone
 - Flag amebic/infectious diarrhea indications as a **contraindication signal**, not an opportunity, given the fulminant colitis case report (PMID 17241255)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cefpodoxime
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Cefpodoxime
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -99,10 +99,10 @@ Despite a high TxGNN prediction score (99.35%), there is zero empirical support 
 - Mechanistic hypothesis development — ideally identifying a specific molecular target shared between β-lactam activity and OA pathophysiology
 - Full package insert review to obtain MOA details, key warnings, and contraindications (currently data-gapped)
 - Re-evaluation of evidence level once any empirical findings become available to upgrade from L5
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

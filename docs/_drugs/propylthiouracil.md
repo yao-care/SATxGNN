@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Propylthiouracil
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 525
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -96,10 +96,10 @@ The mechanistic pathway — maternal PTU treatment reducing transplacental thyro
 - Confirmed mechanism-of-action documentation (gap DG002)
 - Clarification of whether "neonatal thyrotoxicosis" in scope means maternal-source treatment or direct neonatal administration, since this materially changes the safety profile
 - Note: two other TxGNN-predicted indications for this drug — "resistance to thyroid hormone due to a TRβ mutation" (highest TxGNN score, 99.66%, but scoring/evidence workup still pending) and "hyperthyroxinemia" (L4 evidence, Hold — too etiologically heterogeneous for a single recommendation) — remain in the evaluation pipeline and are not covered by this report's Go/Guardrails decision
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

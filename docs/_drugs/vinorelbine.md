@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vinorelbine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 667
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vinorelbine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -46,7 +46,7 @@ The TxGNN model predicts it may be effective for **Ewing Sarcoma**, with **4 cli
 | Predicted New Indication | Ewing Sarcoma |
 | TxGNN Prediction Score | 99.9990% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (未上市) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -79,7 +79,7 @@ However, the supporting evidence is largely indirect: completed Phase II data (N
 
 ## Saudi Arabia Market Information
 
-Currently no Saudi Arabia market authorization is on record for Vinorelbine (`market_status: 未上市`, 0 licenses).
+Currently no Saudi Arabia market authorization is on record for Vinorelbine (`market_status: Not marketed`, 0 licenses).
 
 ## Cytotoxicity
 
@@ -108,10 +108,10 @@ The Ewing sarcoma signal (L2 evidence) rests on Phase II trials whose clearest e
 - Confirmation of whether NCT05999994 (CAMPFIRE) and NCT06451302 include a vinorelbine-specific treatment arm
 - Follow-up on NCT00180947 (status: Unknown) for unpublished outcome data
 - Regulatory pathway assessment for Saudi Arabia market entry, since the drug is not currently marketed there
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

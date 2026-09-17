@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Azithromycin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Azithromycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -166,10 +166,10 @@ Six of the 10 predictions carry L5 evidence with no clinical or mechanistic supp
 - Clarification of withdrawal reasons for NCT02630394 and NCT02960503 (critical decision point for the sickle cell disease pathway)
 - In vivo myeloma studies to validate the in vitro autophagy/bortezomib sensitisation finding (PMID 23546223)
 - Confirmation of Saudi Arabia regulatory filing status through local channels, given 0 current authorisations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

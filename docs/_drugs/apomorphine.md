@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apomorphine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Apomorphine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -92,10 +92,10 @@ Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis is a co
 
 > **Analyst Note — Other Predicted Indications:**
 > Among the 10 TxGNN predictions in this Evidence Pack, **schizophrenia** (rank 5; score 99.69%) is the only indication reaching **L3 evidence** and a *Research Question* staging recommendation. It is supported by 2 clinical trials (NCT00009048, NCT03911726) and 20 publications spanning dopamine autoreceptor hypothesis studies and neuroendocrine challenge paradigms. The historical "presynaptic autoreceptor" rationale — low-dose Apomorphine preferentially stimulating D2 autoreceptors to suppress dopamine synthesis — provides biological plausibility, though no direct therapeutic RCT exists. A safety caveat applies: as a full dopamine agonist, higher doses risk exacerbating positive psychotic symptoms. This direction warrants a dedicated evidence review separate from the present Hold recommendation for the top-ranked indication.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Aceclofenac
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 14
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Aceclofenac
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -109,10 +109,10 @@ Two direct RCTs from 1996 demonstrate aceclofenac's efficacy in ankylosing spond
 - Safety monitoring plan addressing GI risk, renal function, and cardiovascular profile in line with current NSAID safety frameworks
 - Assessment of whether the 1996 RCT evidence base meets current SFDA regulatory registration requirements, or whether a bridging/new registration study is needed for the Saudi Arabia market
 - Competitive landscape review positioning aceclofenac against currently approved agents in Saudi Arabia for axial spondyloarthritis (e.g., etoricoxib, celecoxib, naproxen) to evaluate market differentiation potential
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

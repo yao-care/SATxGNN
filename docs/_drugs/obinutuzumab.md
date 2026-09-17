@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 454
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -49,7 +49,7 @@ Obinutuzumab (DrugBank DB08935) is a glycoengineered, humanized type II anti-CD2
 | Predicted New Indication | Follicular Lymphoma *(primary; see also two exploratory CLL/SLL subtype predictions below)* |
 | TxGNN Prediction Score | 99.18% (Follicular Lymphoma, model rank 11593) |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -118,7 +118,7 @@ Beyond follicular lymphoma, the model separately flagged two closely related, mo
 
 ## Saudi Arabia Market Information
 
-Obinutuzumab currently has **no marketing authorization on file in Saudi Arabia** — `total_licenses = 0` and market status is recorded as **Not marketed (未上市)**. No product names, dosage forms, or approved-indication text are available in this dataset.
+Obinutuzumab currently has **no marketing authorization on file in Saudi Arabia** — `total_licenses = 0` and market status is recorded as **Not marketed (Not marketed)**. No product names, dosage forms, or approved-indication text are available in this dataset.
 
 ---
 
@@ -158,10 +158,10 @@ Please refer to the package insert for safety information. No key warnings, cont
 - Confirm local market-authorization pathway, since obinutuzumab currently has zero licenses in Saudi Arabia
 - Re-run clinical trial/literature retrieval using the broader "CLL/SLL" term (without IGHV-subtype qualifiers) to determine whether the two exploratory subtype predictions can be upgraded beyond L5
 - Establish a DDI query source, since the current interaction database returned no results (`not_found`)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Teriflunomide
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 611
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 ---
 
 # Teriflunomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -105,10 +105,10 @@ The clinical evidence for teriflunomide in RRMS is exceptionally strong (L1: mul
 - Mechanism of action confirmation from DrugBank (DG002)
 - Drug-drug interaction data (current query returned no results)
 - Local market entry/registration pathway assessment, since the drug is not currently marketed in Saudi Arabia
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

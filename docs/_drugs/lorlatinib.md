@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lorlatinib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lorlatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -132,10 +132,10 @@ The top-ranked prediction (gingival fibromatosis) has no clinical trials, no lit
 - DrugBank MOA data (data gap DG002) to properly assess mechanistic plausibility
 - Correction of the disease-ontology mapping errors identified in ranks 4, 5, 7, 8, and 10 — particularly rank 5 ("lung benign neoplasm"), where the underlying CROWN-trial evidence actually supports the *already-approved* ALK+ NSCLC indication, not a new one
 - If gingival fibromatosis is to be pursued further, preclinical/mechanistic studies establishing any biological link to ALK/ROS1 signaling, since none currently exist
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

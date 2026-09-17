@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Stavudine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 583
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Stavudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -97,10 +97,10 @@ The top-ranked predicted indication (SIV infection) is a non-human primate resea
 - TFDA package insert (warnings/contraindications) to unblock S1 safety review (DG001)
 - Confirmed mechanism of action from DrugBank (DG002)
 - A human-relevant predicted indication with actual clinical trial or human-subject literature support, since all three current predictions are non-human or unsupported
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

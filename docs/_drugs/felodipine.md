@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Felodipine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Felodipine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,10 +83,10 @@ This is a rank-1 TxGNN score with no supporting clinical trials or literature, a
 - Official package insert / regulatory warnings and contraindications (currently a Blocking data gap — required before any S1 safety evaluation)
 - A broader literature/trial search strategy for this indication, since the exact disease term returned zero hits
 - Note: within this same evidence pack, the rank-7 candidate (Prinzmetal angina) shows a substantially stronger signal — 8 relevant publications including 3 RCTs specific to felodipine, evidence level L2, and a "Proceed with Guardrails" recommendation at decision stage S3. If the goal is to identify a viable repurposing candidate for felodipine, that indication warrants separate, prioritized evaluation rather than this rank-1 prediction.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

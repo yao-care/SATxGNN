@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levonorgestrel
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 374
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -100,10 +100,10 @@ The strongest available evidence (PMID 15025547) suggests levonorgestrel's andro
 - Confirmed mechanism of action data from DrugBank (DG002)
 - A direct comparative trial isolating levonorgestrel's contribution to acne outcomes (vs. estrogen component or vs. anti-androgenic progestins)
 - Reassessment of the TxGNN signal given the reversed-direction mechanistic concern identified above
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

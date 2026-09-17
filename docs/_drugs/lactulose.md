@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lactulose
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 355
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Lactulose
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ The strongest evidence supports lactulose for *perioperative renal protection in
 - A dedicated trial (or updated systematic review) confirming benefit specifically for perioperative renal protection in obstructive jaundice, given the conflicting evidence found (PMID 2032107 positive vs. PMID 2614579 negative)
 - Saudi Arabia regulatory pathway assessment, since the drug is not currently marketed there
 - Clarification of the target indication label (perioperative renal protection vs. "obstructive jaundice" as a disease) before any clinical positioning is finalized
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

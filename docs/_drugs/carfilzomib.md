@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Carfilzomib
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Carfilzomib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -122,10 +122,10 @@ CMM7 is a rare cutaneous melanoma subtype with zero direct clinical trial or pub
 - SFDA/TFDA package insert review to resolve safety data gaps (flagged as DG001 — currently Blocking for safety screening)
 - Biomarker strategy to identify patient subpopulations most likely to respond (e.g., baseline proteasome activity, UPR activation markers, MITF expression levels)
 - Cardiotoxicity risk assessment framework given carfilzomib's known cardiac safety signal in myeloma patients, which would require careful monitoring protocol design for any solid tumor trial
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

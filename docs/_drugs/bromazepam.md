@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bromazepam
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Bromazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -107,10 +107,10 @@ The TxGNN model assigns a high prediction score, but the mechanistic basis is co
 - At least one positive clinical signal — a prospective study or case series showing bromazepam *reducing* migraine frequency, not causing rebound headache
 - Full MOA data from DrugBank to identify any off-target effects (e.g., calcium channel modulation) that might independently support migraine prophylaxis
 - Re-evaluation of the TxGNN training data to determine whether the migraine prediction is driven by co-occurrence in headache-disorder patient records (confounding) rather than a true therapeutic signal
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

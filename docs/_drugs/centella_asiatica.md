@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Centella Asiatica
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 123
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Centella Asiatica
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -108,10 +108,10 @@ While the TxGNN model assigns Centella asiatica its highest prediction score for
 - **MOA documentation:** Retrieve formal pharmacology data from DrugBank (DB14256) to complete mechanism characterization
 - **Safety review:** Obtain Saudi SFDA package insert data and assess potential herb-drug interactions, particularly with CNS depressants and anxiolytics
 - **Consider parallel track for Anxiety (L3):** The anxiety indication has substantially stronger evidence — including a human clinical study in generalized anxiety disorder (PMID 20677602) and multiple preclinical models — and may be a more immediately actionable regulatory pathway with a "Proceed with Guardrails" recommendation under the existing evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

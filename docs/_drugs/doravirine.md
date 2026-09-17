@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Doravirine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 206
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Doravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -108,10 +108,10 @@ The evidence base is limited to a model prediction (L4) with no registered clini
 - **Targeted literature search:** Systematic review of any conference abstracts, preprints, or unpublished reports evaluating NNRTI activity (particularly third-generation agents) against SIV isolates
 - **MOA documentation:** Formal retrieval of complete doravirine pharmacology data via DrugBank API to fill the current mechanism-of-action data gap
 - **Safety data retrieval:** Download and parse the originator package insert to populate warning, contraindication, and drug interaction fields required for a complete S1 safety assessment
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

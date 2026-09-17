@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 141
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -102,10 +102,10 @@ Despite a high TxGNN prediction score (99.87%), the current evidence base for ci
 - Regulatory pathway analysis given that ciprofloxacin is currently not marketed in Saudi Arabia (0 SFDA authorizations), requiring a de novo registration strategy if clinical development proceeds
 
 > **Multi-indication note:** This evidence pack evaluated 10 predicted indications. While diffuse scleroderma ranks highest by TxGNN score, two other indications carry substantially stronger clinical evidence: **Septicemic Plague** (L2 — completed Phase 2 RCT + multiple human RCTs, FDA-approved under Animal Rule; recommended: Proceed with Guardrails) and **Monoclonal Gammopathy** (L3 — multiple retrospective cohorts supporting prophylactic use in haematopoietic stem cell transplantation; recommended: Proceed with Guardrails). These should be prioritized in any parallel repurposing development strategy.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

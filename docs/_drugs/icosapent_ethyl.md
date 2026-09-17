@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Icosapent Ethyl
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 317
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Icosapent Ethyl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -93,10 +93,10 @@ The TxGNN prediction score is high, but the only supporting evidence is a single
 - Confirmed mechanism of action for icosapent ethyl specifically (DG002)
 - Direct preclinical or clinical evidence of icosapent ethyl (not analogs) in hemoglobinopathy/sickle cell disease models
 - Confirmation of any regulatory pathway or market status change in Saudi Arabia, since the drug is currently unmarketed there
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

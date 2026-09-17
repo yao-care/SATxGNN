@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Regorafenib
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 540
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Regorafenib is a globally-approved oral multi-kinase inhibitor whose established
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -88,7 +88,7 @@ Critically, this mechanistic weakness is borne out in the actual evidence: the R
 
 ## Saudi Arabia Market Information
 
-Regorafenib is currently **not marketed** in Saudi Arabia (market status: 未上市, 0 authorizations on file). No product license records are available in this Evidence Pack.
+Regorafenib is currently **not marketed** in Saudi Arabia (market status: Not marketed, 0 authorizations on file). No product license records are available in this Evidence Pack.
 
 ---
 
@@ -124,10 +124,10 @@ Although the TxGNN score for liposarcoma is high (99.76%), the direct clinical e
 - Complete DrugBank MOA data (DG002)
 - Full-text verification of REGOSARC and SARC024 liposarcoma cohort results to confirm the magnitude/direction of the negative finding
 - Consider evaluating an alternative predicted indication from the same Evidence Pack instead: **clear cell renal carcinoma** (rank 3, evidence level L2, decision stage S2, "Proceed with Guardrails") has a positive single-arm Phase 2 trial (PMID 22959186) and stronger mechanistic alignment with regorafenib's known anti-angiogenic profile.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

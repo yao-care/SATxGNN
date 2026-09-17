@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methylphenidate
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Methylphenidate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -166,10 +166,10 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Consider as a hypothesis-generating signal only, not for near-term clinical development
 
 **Cross-cutting gap:** TFDA package insert warnings/contraindications (DG001, blocking) and detailed MOA (DG002, high) must be resolved before any candidate in this pack can advance to a formal safety pre-assessment (S1).
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

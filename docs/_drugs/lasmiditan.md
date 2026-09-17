@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lasmiditan
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Lasmiditan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | 預測新適應症 | Migraine with Brainstem Aura |
 | TxGNN 預測分數 | 99.92% |
 | 證據等級 | L4（機轉推論，無臨床試驗/文獻佐證） |
-| 沙烏地阿拉伯市場狀態 | 未上市 |
+| 沙烏地阿拉伯市場狀態 | Not marketed |
 | 核准許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -77,7 +77,7 @@ Migraine with Brainstem Aura（舊稱 basilar-type migraine）在臨床上因涉
 
 ## 沙烏地阿拉伯市場資訊
 
-Lasmiditan 目前在沙烏地阿拉伯**未上市**，無核准許可證資料（`total_licenses = 0`）。
+Lasmiditan 目前在沙烏地阿拉伯**Not marketed**，無核准許可證資料（`total_licenses = 0`）。
 
 ---
 
@@ -94,17 +94,17 @@ Lasmiditan 目前在沙烏地阿拉伯**未上市**，無核准許可證資料�
 **決策：Hold**
 
 **理由：**
-本適應症的證據等級僅為 L4（機轉推論），無任何臨床試驗或文獻直接支持，且藥品在沙烏地阿拉伯尚未上市、仿單安全性資料為 Blocking 等級缺口，尚不足以進入 S1 安全性初評，故暫不建議推進。
+本適應症的證據等級僅為 L4（機轉推論），無任何臨床試驗或文獻直接支持，且藥品在沙烏地阿拉伯尚Not marketed、仿單安全性資料為 Blocking 等級缺口，尚不足以進入 S1 安全性初評，故暫不建議推進。
 
 **後續需補充：**
 - TFDA／原廠仿單警語與禁忌症資料（DG001，Blocking，阻擋 S1 安全性初評）
 - 完整作用機轉（MOA）資料，供機轉關聯性分析（DG002，High）
 - 針對 migraine with brainstem aura 的直接臨床試驗或文獻證據（目前為 0 筆）
 - 若無法取得直接證據，建議改以既有偏頭痛適應症之臨床數據作間接佐證來源
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

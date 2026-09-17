@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sulpiride
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Sulpiride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,10 +97,10 @@ No clinical trials or drug-specific literature support use of Sulpiride in retin
 - Sulpiride's original approved indication(s), to properly assess indication-to-indication rationale
 - Preclinical or mechanistic studies directly linking dopaminergic signaling to retinal/extraocular developmental pathways, if any exist
 - Independent confirmation that the TxGNN score is not an artifact of ophthalmology-node clustering in the knowledge graph before any further investment
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glycerin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Glycerin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Glycerin (DrugBank DB09462) has no recorded original indication or approved lice
 | Predicted New Indication | Cauda Equina Syndrome |
 | TxGNN Prediction Score | 99.60% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-Glycerin currently holds no marketing authorization in Saudi Arabia (market status: 未上市 / Not marketed; total authorizations: 0). No license records are available to summarize.
+Glycerin currently holds no marketing authorization in Saudi Arabia (market status: Not marketed / Not marketed; total authorizations: 0). No license records are available to summarize.
 
 ## Safety Considerations
 
@@ -83,10 +83,10 @@ Despite a high TxGNN prediction score (99.60%), the cauda equina syndrome indica
 - Mechanism of action (MOA) data — High-severity data gap (DG002); query DrugBank API
 - Independent literature/trial search specifically targeting cauda equina syndrome, since current queries returned zero results and should be periodically re-run
 - If continued repurposing interest exists, consider evaluating the pack's better-evidenced candidates instead — notably **open-angle glaucoma** (L3, S2, Research Question) and **irritable bowel syndrome** (L4, S1, Research Question) — as separate candidate reports, since they have actual trial/literature support that cauda equina syndrome lacks
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

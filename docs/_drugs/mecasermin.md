@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mecasermin
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Mecasermin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -93,10 +93,10 @@ The evidence level is L5 — a TxGNN score with zero corroborating clinical tria
 - Confirmed original indication and mechanism of action for mecasermin — High-severity gap, source: DrugBank API
 - At least preclinical or case-level evidence connecting mecasermin to Monosomy X before any trial-design discussion
 - Note: the other 4 candidates in this pack (Wolman disease, GH insensitivity syndrome w/ immune dysregulation 2, esophageal varices with/without bleeding) carry the same L5/Hold status and the same blocking gaps — none are ready for independent evaluation either.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

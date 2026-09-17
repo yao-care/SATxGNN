@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Flupentixol
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Flupentixol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -46,7 +46,7 @@ Flupentixol 是 thioxanthene 類抗精神病藥物，TxGNN 模型預測其可能
 | 預測新適應症 | Retinal dystrophy with or without extraocular anomalies（視網膜失養症，合併或不合併眼外部異常） |
 | TxGNN 預測分數 | 99.99%（原始值 0.9999089，排名第 450） |
 | 證據等級 | L5 |
-| 沙烏地阿拉伯市場狀態 | 未上市（Not Marketed） |
+| 沙烏地阿拉伯市場狀態 | Not marketed（Not Marketed） |
 | 授權數量 | 0 |
 | 建議決策 | Hold |
 
@@ -89,7 +89,7 @@ Flupentixol 是 thioxanthene 類抗精神病藥物，TxGNN 模型預測其可能
 
 ## 沙烏地阿拉伯市場資訊
 
-本品在沙烏地阿拉伯**未上市**，無任何授權紀錄可列出。
+本品在沙烏地阿拉伯**Not marketed**，無任何授權紀錄可列出。
 
 ---
 
@@ -106,17 +106,17 @@ Flupentixol 是 thioxanthene 類抗精神病藥物，TxGNN 模型預測其可能
 **決策：Hold**
 
 **理由：**
-此預測缺乏任何臨床試驗支持，15 篇檢索文獻均與 flupentixol 無直接關聯，僅為疾病背景回顧；evidence pack 自身分析也指出此類預測分數群聚可能來自知識圖譜嵌入相似性而非真實藥理假說。加上原始適應症、MOA、安全性資料（仿單警語、禁忌、DDI）全數缺失，且本品在沙烏地阿拉伯未上市，目前不具備進入下一階段安全性初評（S1）的條件。
+此預測缺乏任何臨床試驗支持，15 篇檢索文獻均與 flupentixol 無直接關聯，僅為疾病背景回顧；evidence pack 自身分析也指出此類預測分數群聚可能來自知識圖譜嵌入相似性而非真實藥理假說。加上原始適應症、MOA、安全性資料（仿單警語、禁忌、DDI）全數缺失，且本品在沙烏地阿拉伯Not marketed，目前不具備進入下一階段安全性初評（S1）的條件。
 
 **若要推進，需要補充：**
 - TFDA/SFDA 官方仿單之警語與禁忌資料（[DG001]，Blocking）
 - Flupentixol 完整作用機轉（MOA）資料，供比對其與視網膜發育路徑之藥理相關性（[DG002]）
 - 直接以「flupentixol AND retinal dystrophy」等關鍵字組合進行文獻與試驗檢索，確認是否存在藥物層級的直接證據
 - 原始核准適應症之官方文字紀錄，以建立完整的適應症轉移邏輯
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

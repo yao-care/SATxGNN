@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Carboplatin
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 110
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Carboplatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -138,10 +138,10 @@ Multiple completed Phase III randomised trials (BCIRG-006: n=3,222; TCHP neoadju
 - **Patient selection criteria**: Define biomarker-driven eligibility — BRCA1/2 germline testing and HRD status assessment are strongly recommended, as carboplatin benefit is most pronounced in HRD-positive TNBC; subtype-specific protocols should be differentiated (TNBC vs HER2-positive)
 - **Haematological monitoring protocol**: Establish pre-treatment baseline CBC, renal function (GFR for Calvert dosing), and electrolytes, with a cycle-by-cycle monitoring schedule and pre-defined dose-reduction thresholds for thrombocytopenia and anaemia
 - **Audiological monitoring plan**: Required if high-dose carboplatin regimens (AUC >6) or salvage regimens with cumulative platinum exposure are considered
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

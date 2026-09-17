@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pregabalin
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 519
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -127,10 +127,10 @@ Migraine disorder is the only predicted indication with a coherent mechanism (CS
 - Drug interaction (DDI) profile (query returned no data)
 - A properly powered, completed Phase 2/3 RCT specifically for migraine prevention, given the prior trial's withdrawal
 - Saudi Arabia regulatory/marketing status confirmation (currently 0 registered licenses)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

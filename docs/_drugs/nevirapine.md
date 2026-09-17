@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nevirapine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 437
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -86,10 +86,10 @@ Please refer to the package insert for safety information.
 - Confirmed mechanism-of-action data (DG002) to properly assess biological plausibility
 - Direct in vivo or in vitro efficacy data for nevirapine specifically against FIV (not just structural comparison) if this indication is to be pursued further
 - Given the disconfirming nature of current evidence, re-ranking or deprioritizing this candidate in favor of other TxGNN predictions should be considered
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

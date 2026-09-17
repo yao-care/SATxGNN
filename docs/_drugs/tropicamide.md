@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tropicamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Tropicamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -80,10 +80,10 @@ All three TxGNN-predicted indications (cauda equina syndrome, neurogenic bladder
 - Confirmed mechanism of action data from DrugBank (DG002)
 - Preclinical or pharmacokinetic data establishing whether systemic exposure sufficient for bladder/GI/neurologic effect is achievable from any feasible route
 - At minimum a mechanistic or case-level study connecting tropicamide (not just the anticholinergic class) to any of the three candidate indications before advancing past S0
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

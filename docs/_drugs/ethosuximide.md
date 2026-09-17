@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ethosuximide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Ethosuximide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -100,10 +100,10 @@ This prediction has Evidence Level L5 — a model score with zero supporting cli
 - Preclinical or mechanistic studies exploring any relationship between T-type calcium channel modulation and vasopressin V2 receptor (AVPR2) signaling or renal water handling
 - Any case reports or observational data on ethosuximide use in patients with SIADH/NSIAD-like presentations, if they exist
 - Reassessment of TxGNN score plausibility once literature/trial evidence (if any) becomes available
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

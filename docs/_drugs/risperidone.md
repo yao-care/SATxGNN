@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Risperidone
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 551
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Risperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,7 +103,7 @@ This is not a purely computational leap — it is supported by a substantial exi
 
 ## Saudi Arabia Market Information
 
-Risperidone currently has **no marketed products on file in Saudi Arabia** (0 authorizations, `market_status: 未上市`). No local approved indication text is available for comparison against the predicted use.
+Risperidone currently has **no marketed products on file in Saudi Arabia** (0 authorizations, `market_status: Not marketed`). No local approved indication text is available for comparison against the predicted use.
 
 ---
 
@@ -139,10 +139,10 @@ Multiple completed Phase 3 RCTs and systematic reviews/meta-analyses support ris
 - Formal mechanism-of-action documentation from DrugBank (currently a High-severity data gap — DG002)
 - A regulatory pathway assessment, since risperidone is not currently marketed in Saudi Arabia (0 authorizations)
 - Drug-drug interaction data (current DDI query returned "not found")
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

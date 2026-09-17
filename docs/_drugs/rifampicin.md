@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rifampicin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 545
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Rifampicin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -106,10 +106,10 @@ Evidence for rifampicin in conjunctivitis is real but dated and indirect — a c
 - Resolution of the DDI query (currently `not_found`)
 - Clarification of Saudi Arabia registration status, since the drug is currently unmarketed with 0 licenses on file
 - Note: rank 4 in this pack ("conjunctivitis (disease)") is a duplicate ontology node of rank 1 with identical evidence — recommend merging these nodes in the underlying database to avoid double-counting this signal
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

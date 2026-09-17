@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ocrelizumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Ocrelizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -85,7 +85,7 @@ None of the five predicted indications in this pack currently has genuine trial 
 
 ## Saudi Arabia Market Information
 
-Ocrelizumab is not currently marketed in Saudi Arabia (`market_status: 未上市`), and no product license records are available (`total_licenses: 0`). No dosage form or route information can be assessed at this time.
+Ocrelizumab is not currently marketed in Saudi Arabia (`market_status: Not marketed`), and no product license records are available (`total_licenses: 0`). No dosage form or route information can be assessed at this time.
 
 ---
 
@@ -110,10 +110,10 @@ The top-ranked prediction (HER2 positive breast carcinoma) has no clinical trial
 - Independent pharmacological review of whether any plausible B-cell/immune-microenvironment link to HER2+ breast carcinoma exists, since none is established in current data
 - Re-run the literature search for "luminal A/B breast tumor" with refined query terms to eliminate the "B" keyword false-positive matches before treating rank 4 as evidence-bearing
 - Confirm whether any genuine clinical trials or case reports exist for ocrelizumab in oncology settings (e.g., off-label or investigational use) that were not captured by the current search parameters
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

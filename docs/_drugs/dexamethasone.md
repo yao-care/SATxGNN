@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dexamethasone
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 187
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -116,10 +116,10 @@ A head-to-head RCT, a 2024 network meta-analysis benchmarking dexamethasone agai
 - Specify the preferred dosing protocol: oral mini-pulse (5 mg on two consecutive days per week) vs. IV pulse regimen, and planned treatment duration
 - Establish a safety monitoring plan covering baseline and periodic assessment of: bone density (DEXA), fasting glucose, morning cortisol (HPA suppression), intraocular pressure, and height/weight in paediatric patients
 - Clarify positioning within the local treatment algorithm relative to baricitinib (FDA-approved for AA) and contact immunotherapy (DPCP), especially in view of cost and access considerations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

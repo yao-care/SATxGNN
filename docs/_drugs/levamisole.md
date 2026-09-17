@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Levamisole
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Levamisole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,10 +83,10 @@ The top-ranked prediction (drug-induced osteoporosis) has no clinical trial or l
 - Confirmed mechanism of action data (DG002)
 - Any preclinical or mechanistic evidence connecting Levamisole to bone metabolism, should this indication be pursued further
 - Note: a materially stronger signal exists elsewhere in this evidence pack — the head & neck (hypopharynx) neoplasm prediction (rank 9) is supported by two RCTs (L2, "Research Question" stage) on Levamisole as post-operative adjuvant immunotherapy in laryngeal/head-neck carcinoma. This warrants a separate, dedicated evaluation rather than being folded into the osteoporosis prediction covered here.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

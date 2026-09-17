@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Amikacin
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 40
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Amikacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -114,10 +114,10 @@ The mechanistic link between amikacin and paratyphoid fever is pharmacologically
 - Saudi Arabia-specific regulatory registration plan (currently no local marketing authorisation)
 - Full safety monitoring protocol covering nephrotoxicity and ototoxicity (therapeutic drug monitoring of amikacin serum concentrations recommended)
 - Clarification of MOA data from DrugBank API (currently flagged as data gap DG002)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

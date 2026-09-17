@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ceftazidime
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 119
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ceftazidime
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -101,10 +101,10 @@ Hyperamylasemia is a biochemical surrogate marker rather than a discrete therape
 - Safety data (key warnings, contraindications) retrieved from the package insert PDF
 - Reconsideration of whether the more appropriate clinical framing is **post-ERCP pancreatitis prevention** rather than hyperamylasemia per se, which would require a dedicated prospective study with amylase level as a co-primary endpoint
 - Assessment of whether the higher-evidence indications in this evidence pack — particularly **urinary tract infection** (L2, Proceed with Guardrails) and **infectious otitis media** (L3, Proceed with Guardrails) — should be prioritized over this rank-1 prediction for regulatory and clinical development purposes
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

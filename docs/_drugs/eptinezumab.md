@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Eptinezumab
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 231
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Eptinezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ Please refer to the package insert for safety information.
 - Confirmed mechanism-of-action documentation from DrugBank or manufacturer labeling — resolves DG002
 - A dedicated clinical trial or prospective subgroup study specifically targeting the migraine-with-brainstem-aura population
 - Evaluation of a Saudi Arabia market-entry/registration pathway, since the product is not currently authorized
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

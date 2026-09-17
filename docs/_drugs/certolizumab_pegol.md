@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 125
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ Evidence for certolizumab pegol in rheumatoid vasculitis sits at L4 (case report
 ---
 
 > **Note on Other High-Evidence Candidates:** While rheumatoid vasculitis (rank 1) is the focus of this report, the TxGNN prediction set also includes **Inflammatory Spondylopathy** (rank 3, L1 evidence, multiple completed Phase 3 RCTs including NCT01087762 and NCT02505542) and **Vertebral Disease** (rank 6, L1 evidence), both of which have substantially stronger clinical trial support for CZP. These candidates warrant priority consideration if the goal is near-term clinical application.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

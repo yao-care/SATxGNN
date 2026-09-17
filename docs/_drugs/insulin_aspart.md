@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 325
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -139,10 +139,10 @@ Please refer to the package insert for safety information.
 - Query DrugBank API to obtain structured mechanism-of-action data (DG002).
 - For permanent neonatal diabetes, TRMA/Rogers syndrome, and pancreatic agenesis (ranks 4, 5, 8): commission a targeted literature search for direct evidence (case series/registry data), since these are rare monogenic diseases unlikely to have registered RCTs.
 - For the 6 "Hold" candidates: no further evidence-gathering is recommended given the mechanistic implausibility or confounding risk identified; these should be deprioritized in favor of higher-yield candidates from other drugs in the pipeline.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

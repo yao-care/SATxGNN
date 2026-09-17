@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sulfasalazine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 589
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -116,10 +116,10 @@ The disease-level evidence (established off-label DMARD use in peripheral spondy
 - Confirmed mechanism of action documentation from DrugBank (DG002)
 - Direct sulfasalazine treatment-efficacy studies in spondyloarthritis/peripheral SpA populations (current literature is mostly genetics/pathogenesis review, not interventional)
 - Saudi Arabia market-authorization pathway assessment, since the drug is not currently marketed there
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

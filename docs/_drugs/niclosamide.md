@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Niclosamide
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 439
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Niclosamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Niclosamide is a classic anthelmintic historically used to treat tapeworm (cesto
 | Predicted New Indication | Heart disease |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L4 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -69,7 +69,7 @@ Currently no related literature available for the "heart disease" prediction.
 
 ## Saudi Arabia Market Information
 
-Niclosamide is not currently marketed in this jurisdiction (market status: 未上市, 0 authorizations on record), so no product licenses are available to list.
+Niclosamide is not currently marketed in this jurisdiction (market status: Not marketed, 0 authorizations on record), so no product licenses are available to list.
 
 ## Safety Considerations
 
@@ -87,10 +87,10 @@ The top-ranked prediction (heart disease) is supported only by Grade-C trials �
 - Verified mechanism-of-action data from DrugBank (DG002, High)
 - Independent confirmation of whether the "heart disease" TxGNN signal reflects real biology or is an artifact of the diltiazem-combination trial, before allocating further evaluation resources
 - If pursuing further, a re-run of the TxGNN mapping/evidence pipeline against a cleaner disease ontology, since several rank 2–10 disease labels appear mismatched or non-standard
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

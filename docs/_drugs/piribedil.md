@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Piribedil
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Piribedil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Piribedil is a dopamine D2/D3 receptor agonist used internationally for Parkinso
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not marketed) |
+| Saudi Arabia Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -83,10 +83,10 @@ The prediction carries a high TxGNN score but is unsupported by any clinical tri
 - Confirmed mechanism of action data via DrugBank API query
 - Confirmed original approved indication(s), since none are currently on file for this drug
 - Consideration of re-prioritizing evaluation toward rank 5 (juvenile onset Parkinson disease 19A), which has a stronger mechanistic rationale given piribedil's established dopaminergic pharmacology, despite it too currently lacking clinical or literature evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

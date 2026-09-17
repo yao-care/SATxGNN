@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imiglucerase
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 322
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -100,10 +100,10 @@ The predicted association between imiglucerase and Hurler syndrome lacks both cl
 - Confirmed mechanism of action (MOA) documentation from DrugBank or equivalent source
 - Any preclinical or in vitro data specifically testing glucocerebrosidase activity or off-target effects relevant to IDUA-substrate accumulation in MPS I
 - Clarification on whether category-level (ERT/LSD) knowledge graph clustering should be down-weighted in future TxGNN scoring, given the same pattern also appears in this drug's other top-ranked predictions (Scheie syndrome, cholesteryl ester storage disease)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

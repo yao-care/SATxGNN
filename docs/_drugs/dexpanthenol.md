@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dexpanthenol
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 191
-evidence_level: L5
+evidence_level: L2
 indication_count: 7
 ---
 
 # Dexpanthenol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -109,10 +109,10 @@ A completed Phase 3 RCT (NCT01136005, n=160) directly tested Bepanthen® cream f
 - Assess Saudi Arabia regulatory pathway for topical dexpanthenol product registration, including applicable dosage forms
 - Evaluate route compatibility for the target indication (topical administration is expected; confirm if systemic formulations are relevant)
 - Note for ophthalmology team: Punctate Epithelial Keratoconjunctivitis (rank 7, L4) is a secondary candidate of interest — Corneregel® 5% ophthalmic gel (dexpanthenol) is approved in Europe for corneal epithelial repair, warranting a dedicated literature search to characterize existing evidence before advancing to clinical trial discussion
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

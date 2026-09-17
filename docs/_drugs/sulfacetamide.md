@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sulfacetamide
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sulfacetamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -85,10 +85,10 @@ Despite a very high TxGNN prediction score, this candidate has zero supporting c
 - Confirmed original indication and MOA data from DrugBank/regulatory sources (currently blocked — DG002)
 
 **Additional note:** This evidence pack contains 10 TxGNN-predicted indications for sulfacetamide. Among them, **otitis externa** (rank 3) is materially better supported — evidence level L2, with two double-blind RCTs (PMID 6269476, PMID 207210) and a "Proceed with Guardrails" recommendation — though it reflects sulfacetamide's known traditional antibacterial use rather than a novel repurposing hypothesis. If a report is needed for a genuinely actionable candidate, otitis externa is recommended as the primary subject instead.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

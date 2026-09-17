@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 468
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 3
 | Predicted New Indication | Nasal Cavity Disease |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L2 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -57,7 +57,7 @@ indication_count: 3
 
 Detailed mechanism-of-action data is not populated in this evidence pack's structured fields (`original_moa` is unavailable). Based on the pharmacological context recorded in the model's own repurposing rationale, oxymetazoline is a selective α1-adrenergic receptor agonist with partial α2 activity. It acts on nasal mucosal vascular smooth muscle to produce vasoconstriction, reducing mucosal congestion and swelling — the standard pharmacological basis for treating nasal congestion/obstruction.
 
-**Important data-quality note:** this evidence pack records no original indication and a Taiwan market status of "未上市" (not marketed), yet oxymetazoline is a decades-old, globally marketed OTC topical nasal decongestant (e.g., Afrin). The model's own rationale explicitly flags this as likely a gap in the source database rather than a genuine drug-repurposing discovery — the "predicted" indication (nasal cavity disease / congestion) essentially overlaps with the drug's already-established real-world use. This should be corrected at the source-data level before this candidate is treated as a novel repurposing opportunity.
+**Important data-quality note:** this evidence pack records no original indication and a Taiwan market status of "Not marketed" (not marketed), yet oxymetazoline is a decades-old, globally marketed OTC topical nasal decongestant (e.g., Afrin). The model's own rationale explicitly flags this as likely a gap in the source database rather than a genuine drug-repurposing discovery — the "predicted" indication (nasal cavity disease / congestion) essentially overlaps with the drug's already-established real-world use. This should be corrected at the source-data level before this candidate is treated as a novel repurposing opportunity.
 
 Setting the data-gap issue aside, the mechanistic rationale itself is sound: α1-agonist–driven vasoconstriction is a well-established treatment approach for nasal mucosal congestion/obstruction, which is consistent with the predicted indication.
 
@@ -92,7 +92,7 @@ Setting the data-gap issue aside, the mechanistic rationale itself is sound: α1
 
 ## Taiwan Market Information
 
-No authorizations are recorded for oxymetazoline in this evidence pack — `taiwan_regulatory.total_licenses` = 0 and `market_status` = "未上市" (not marketed). No license table can be produced from available data.
+No authorizations are recorded for oxymetazoline in this evidence pack — `taiwan_regulatory.total_licenses` = 0 and `market_status` = "Not marketed" (not marketed). No license table can be produced from available data.
 
 ---
 
@@ -114,10 +114,10 @@ The top-ranked predicted indication (nasal cavity disease) has L2-level evidence
 - Obtain TFDA package insert warnings/contraindications (DG001) to complete the S1 safety pre-screen
 - Obtain confirmed MOA data from DrugBank (DG002)
 - Given the apparent overlap between "predicted" and real-world use, confirm with the source team whether this candidate should even be scored as a novel repurposing signal, or reclassified once original-indication data is corrected
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

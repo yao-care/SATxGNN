@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pertuzumab
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 490
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -46,7 +46,7 @@ indication_count: 10
 | Predicted New Indication | Normal breast-like subtype of breast carcinoma |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L2 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -105,10 +105,10 @@ The predicted indication (normal breast-like subtype) lacks a solid mechanistic 
 - TFDA/SFDA package insert data for warnings and contraindications (currently a Blocking data gap — DG001 — required before any S1 safety screening)
 - Verified DrugBank mechanism-of-action data (currently a High-severity data gap — DG002)
 - Consideration of the progesterone-receptor positive/negative breast cancer predictions (ranks 2–3 in this evidence pack), which show materially stronger evidence (L1, multiple completed Phase 3 RCTs) and may represent more actionable near-term repurposing candidates than this rank-1 prediction
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

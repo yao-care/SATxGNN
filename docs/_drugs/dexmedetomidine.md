@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dexmedetomidine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 190
-evidence_level: L5
+evidence_level: L2
 indication_count: 5
 ---
 
 # Dexmedetomidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -127,10 +127,10 @@ A Phase 3 RCT (NCT04910477, n=90) and a 2025 systematic review/meta-analysis est
 - **Population generalizability**: All current evidence is limited to parturients undergoing cesarean section — external validity to general adults or other procedural settings is unconfirmed
 - **Primary headache extension**: Dedicated studies needed before recommending use in migraine, cluster headache, or other primary headache disorders; PDPH evidence does not automatically generalize to these conditions
 - **Nebulization formulation standards**: Route of administration (nebulized vs IV) is non-standard; formulation stability, dosing protocols, and bioavailability data for the nebulized route need review
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

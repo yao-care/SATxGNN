@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simeprevir
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Simeprevir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -97,7 +97,7 @@ Given this, the reasoning for repurposing simeprevir toward HBV is not supported
 
 ## Saudi Arabia Market Information
 
-Simeprevir is **not currently marketed** in Saudi Arabia (market status: 未上市 / Not Marketed; 0 authorizations on file). No product license records are available in this evidence pack.
+Simeprevir is **not currently marketed** in Saudi Arabia (market status: Not marketed / Not Marketed; 0 authorizations on file). No product license records are available in this evidence pack.
 
 ---
 
@@ -122,10 +122,10 @@ Simeprevir's NS3/4A protease target is HCV-specific with no HBV homolog, so ther
 - Preclinical/in vitro evidence of any direct simeprevir activity against HBV targets (polymerase, core, or X protein) — none currently exists
 - Any dedicated HBV-specific clinical trial data (the current 19 trials are HCV trials with incidental HBV-coinfection mentions)
 - If pursuing any coinfected-population use case, a formal safety review of HBV reactivation risk during simeprevir-based HCV therapy
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

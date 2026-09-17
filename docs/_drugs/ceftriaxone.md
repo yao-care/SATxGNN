@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ceftriaxone
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 121
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -140,10 +140,10 @@ Ceftriaxone has robust mechanistic support and L1 clinical evidence for infectio
 - Paediatric dosing and IM formulation protocol review appropriate for Saudi Arabia clinical settings
 - Drug-drug interaction profile assessment (DDI database query returned no results; manual review of package insert required)
 - Institutional antimicrobial stewardship alignment for intramuscular ceftriaxone use in outpatient AOM management
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

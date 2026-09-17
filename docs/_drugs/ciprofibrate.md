@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ciprofibrate
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 140
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ciprofibrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -114,10 +114,10 @@ Ciprofibrate's efficacy in hyperlipoproteinemia is supported by a robust and con
 - Establish a local monitoring protocol: liver function tests (AST/ALT), renal function (eGFR), and creatine kinase (CK) at baseline and at regular intervals
 - Define patient selection criteria aligned with approved European subtypes (Type IIa, IIb, IV hyperlipoproteinemia) and exclusion criteria (severe hepatic or renal impairment, cholelithiasis, pregnancy)
 - Assess post-marketing safety reports from European markets for any emerging signals not captured in the pre-2010 literature base
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

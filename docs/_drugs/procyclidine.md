@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Procyclidine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Procyclidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -83,10 +83,10 @@ The top-ranked prediction (Rasmussen Subacute Encephalitis) is supported only by
 - Procyclidine's mechanism of action via DrugBank API (currently High-severity data gap, DG002)
 - Preclinical or mechanistic studies specifically linking anticholinergic activity to Rasmussen encephalitis, if this indication is to be pursued further
 - Consider redirecting research attention to the mechanistically plausible, higher-evidence-tier candidates in this set (PLA2G6-associated neurodegeneration, PSP-CBS, juvenile parkinsonism), which are already staged as Research Question rather than Hold
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ramipril
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ramipril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Ramipril is a well-established angiotensin-converting enzyme (ACE) inhibitor use
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia (WHO Group 3 PH) |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -110,10 +110,10 @@ The top-ranked predicted indication has no supporting clinical trials, only tang
 - Detailed mechanism of action data from DrugBank (DG002)
 - Disease-specific preclinical or clinical studies of ACE inhibition in WHO Group 3 pulmonary hypertension
 - If pursuing this drug further, consider re-prioritizing toward higher-evidence candidates in the same evidence pack (e.g., rank 10, cerebral artery occlusion, rated L2/Proceed with Guardrails) rather than this L5/Hold candidate
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

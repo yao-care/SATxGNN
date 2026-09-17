@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ezetimibe
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 249
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Ezetimibe is a cholesterol-absorption inhibitor whose established use is lowerin
 | Predicted New Indication | Hyperlipoproteinemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -53,7 +53,7 @@ Ezetimibe is a cholesterol-absorption inhibitor whose established use is lowerin
 
 ## Why is This Prediction Reasonable?
 
-Formal DrugBank mechanism-of-action text is not yet available in this evidence pack (data gap DG002, "作用機轉 (MOA)"). However, the TxGNN mechanistic rationale attached to every predicted indication in this pack consistently describes ezetimibe as a selective inhibitor of the intestinal brush-border transporter NPC1L1 (Niemann-Pick C1-Like 1), which blocks absorption of both dietary and biliary cholesterol and thereby lowers LDL-C.
+Formal DrugBank mechanism-of-action text is not yet available in this evidence pack (data gap DG002, "Mechanism of action (MOA)"). However, the TxGNN mechanistic rationale attached to every predicted indication in this pack consistently describes ezetimibe as a selective inhibitor of the intestinal brush-border transporter NPC1L1 (Niemann-Pick C1-Like 1), which blocks absorption of both dietary and biliary cholesterol and thereby lowers LDL-C.
 
 Hyperlipoproteinemia is a broad diagnostic classification that encompasses hypercholesterolemia and mixed dyslipidemia — the population ezetimibe is already used to treat, generally in combination with a statin (reduced cholesterol synthesis + reduced intestinal absorption). This means the prediction is less a novel repurposing hypothesis and more a confirmation/extension of an already-validated pharmacological role, which is consistent with the pack's own assessment ("非新假說").
 
@@ -97,7 +97,7 @@ Mechanistically, this makes the prediction highly plausible: the trial and liter
 
 ## Taiwan Market Information
 
-Ezetimibe is currently **not marketed in Taiwan** (`market_status = 未上市`), and there are **0 authorization records** on file. No product license table can be produced from this evidence pack.
+Ezetimibe is currently **not marketed in Taiwan** (`market_status = Not marketed`), and there are **0 authorization records** on file. No product license table can be produced from this evidence pack.
 
 ---
 
@@ -121,10 +121,10 @@ The predicted indication is backed by an L1 evidence level — a large, directly
 - Formal DrugBank mechanism-of-action record (DG002)
 - Confirmation of Taiwan regulatory/licensing pathway, given current "not marketed" status
 - Drug-drug interaction database confirmation (currently `not_found`)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

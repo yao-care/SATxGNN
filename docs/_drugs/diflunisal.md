@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Diflunisal
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 196
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -108,10 +108,10 @@ A 1986 double-blind controlled trial directly demonstrated diflunisal's clinical
 - **MOA documentation**: Formal pharmacological dossier to confirm COX-1/2 selectivity profile and distinguish diflunisal from other NSAIDs (DG002)
 - **Comparative positioning**: Evaluate whether diflunisal offers advantages over currently available, better-studied NSAIDs for AS (indomethacin, naproxen, celecoxib, etoricoxib) — the existing evidence is from 1985–1986 and pre-dates biological therapy era
 - **Trial modernisation**: Consider whether a prospective head-to-head comparison with a current standard-of-care NSAID in AS would be feasible and add value, particularly given the absence of any registered clinical trials
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

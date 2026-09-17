@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Brivaracetam
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 87
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -116,10 +116,10 @@ BRV has demonstrated pharmacological plausibility for visual epilepsy through it
 - **Full MOA documentation:** Retrieve complete DrugBank / package insert mechanism-of-action data to formally document SV2A selectivity relevant to visual cortex hyperexcitability (current gap: DG002)
 - **Safety dossier:** Obtain SFDA-format safety data (key warnings, contraindications, drug interactions) to enable S1 safety evaluation — currently a blocking gap (DG001)
 - **Saudi Arabia regulatory pathway assessment:** As BRV is not marketed in Saudi Arabia, a full new drug registration strategy is required prior to any clinical development planning in-country
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

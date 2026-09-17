@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pioglitazone
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Pioglitazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -43,7 +43,7 @@ Pioglitazone is a thiazolidinedione (TZD) / PPAR-γ agonist historically used as
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -67,7 +67,7 @@ Currently no related literature available.
 
 ## Saudi Arabia Market Information
 
-Pioglitazone is not marketed in Saudi Arabia under this Evidence Pack (`market_status: 未上市`, 0 authorizations recorded) — no product authorization records are available.
+Pioglitazone is not marketed in Saudi Arabia under this Evidence Pack (`market_status: Not marketed`, 0 authorizations recorded) — no product authorization records are available.
 
 ## Safety Considerations
 
@@ -86,10 +86,10 @@ The top-ranked predicted indication (opsismodysplasia) has only model-prediction
 - If pursuing a lipodystrophy-related candidate instead (ranks 5–8), preclinical/mechanistic studies directly testing PPAR-γ agonism in that disease context, since current rationale notes the drug's known clinical effect (fat redistribution/hypertrophy) may run counter to the therapeutic direction needed
 - If pursuing pancreatic agenesis (rank 9), disease-specific studies rather than general T2DM/PPAR-γ reviews, since current literature does not address this population
 - Saudi Arabia market/regulatory status confirmation, given the drug is currently unmarketed there
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

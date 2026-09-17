@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Azathioprine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 67
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -134,10 +134,10 @@ The evidence base for azathioprine in IBD is among the strongest in drug repurpo
 - **Mechanistic documentation**: Resolve DrugBank data gap (DG002) to complete MOA documentation for the regulatory dossier
 - **Drug interaction assessment**: Conduct formal DDI review (DG001 resolution) — particularly co-administration with allopurinol (which can increase 6-TGN levels and toxicity) and biologics
 - **Local pharmacist/physician education**: Develop prescriber training on thiopurine metabolite monitoring (6-TGN levels) to optimize dosing and minimize treatment failure
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

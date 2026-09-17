@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ipilimumab
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 339
-evidence_level: L5
+evidence_level: L1
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 2
 | Predicted New Indication | Non-cutaneous melanoma |
 | TxGNN Prediction Score | 99.02% |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | 未上市 (Not Marketed) |
+| Saudi Arabia Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ A second candidate, **choroideremia**, was also scored by TxGNN (99.06%, rank 12
 
 ## Saudi Arabia Market Information
 
-Ipilimumab is currently **not marketed** in Saudi Arabia (`market_status`: 未上市) and has **0 registered authorizations**, so no product-level licensing table is available.
+Ipilimumab is currently **not marketed** in Saudi Arabia (`market_status`: Not marketed) and has **0 registered authorizations**, so no product-level licensing table is available.
 
 ---
 
@@ -133,10 +133,10 @@ Non-cutaneous melanoma is supported by strong overall evidence for ipilimumab in
 - Confirmed mechanism-of-action documentation from DrugBank (High-priority gap, DG002)
 - Subtype-specific (uveal/mucosal/acral melanoma) trial or outcomes data, since current evidence is largely for melanoma broadly rather than non-cutaneous subtypes specifically
 - Saudi Arabia market authorization pathway, given the drug is currently not marketed there
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

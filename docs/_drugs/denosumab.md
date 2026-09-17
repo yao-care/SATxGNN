@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Denosumab
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Denosumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -115,10 +115,10 @@ The TxGNN model identifies a biologically plausible mechanistic hypothesis linki
 - Consider whether the broader **diabetic retinopathy** indication (Rank 2, Evidence Level L4, "Research Question" stage) should be evaluated first as an evidence-building stepping stone
 - Clarify route-of-administration compatibility: Denosumab is a subcutaneous injection — suitability and dosing rationale for a retinal indication requires separate pharmacokinetic analysis
 - If preclinical evidence is favorable, design a Phase 2 exploratory trial in collaboration with ophthalmology to generate direct efficacy data
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

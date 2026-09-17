@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vidarabine
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 661
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Vidarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -109,10 +109,10 @@ All three TxGNN-predicted indications rest on model score alone (L5) or a single
 - Structured drug mechanism-of-action data from DrugBank — currently a High-severity data gap (DG002)
 - Prospective clinical or in vitro mechanistic data specifically linking vidarabine to actinic cheilitis or drug-induced osteoporosis, given no current evidence exists
 - If pursuing angular cheilitis, additional cases beyond the single negative report before drawing conclusions
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

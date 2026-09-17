@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thyrotropin Alfa
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Thyrotropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -44,7 +44,7 @@ The TxGNN model predicts it may be effective for **Migraine Disorder**, but this
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **Migraine Disorder**, but this
 
 Detailed mechanism-of-action data for thyrotropin alfa is not available in the current dataset (data gap DG002). Based on other information captured in this evidence pack, thyrotropin alfa is a recombinant human thyroid-stimulating hormone (rhTSH) analogue whose known pharmacology is to stimulate thyroid follicular cells to synthesize and release thyroid hormone.
 
-No original approved indication is on record locally (0 licenses, market status "未上市"), so no relationship between an original indication and migraine can be established from local regulatory data.
+No original approved indication is on record locally (0 licenses, market status "Not marketed"), so no relationship between an original indication and migraine can be established from local regulatory data.
 
 Importantly, the evidence pack's own rationale for this prediction states there is **no known direct physiological mechanism** linking TSH signaling to migraine pathophysiology. The high TxGNN score (99.98%) appears to reflect knowledge-graph embedding similarity rather than a biologically grounded hypothesis, and should be treated as a pure hypothesis pending independent validation.
 
@@ -84,10 +84,10 @@ The top-ranked prediction (migraine disorder, L5) has zero clinical trial or lit
 - TFDA/local package insert warnings and contraindications (blocking gap DG001) before any S1 safety evaluation can begin
 - Independent mechanistic or preclinical rationale for a TSH–migraine link before further evidence collection is warranted
 - Verification of the hyperthyroidism literature set to rule out drug-entity confusion (interferon-alfa vs. thyrotropin alfa) before treating it as supporting evidence
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

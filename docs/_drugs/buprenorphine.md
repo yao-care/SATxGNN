@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Buprenorphine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 94
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Buprenorphine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -107,10 +107,10 @@ The sole available evidence is a single 1993 perioperative case report that disc
 - **Porphyria drug safety database check:** Cross-reference buprenorphine against established AIP-safe/unsafe drug lists (e.g., drugs-porphyria.org, NAPOS database)
 - **Clarify clinical hypothesis:** Determine whether the target claim is (a) buprenorphine is safe to use for pain in AIP patients, or (b) buprenorphine modifies the AIP disease course — these require entirely different evidence standards and study designs
 - **Systematic literature search:** A targeted search for "buprenorphine AND porphyria" and "opioids AND AIP pain management" may surface additional evidence not captured in this pipeline run
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

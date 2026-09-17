@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Interferon Beta-1B
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 333
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -127,10 +127,10 @@ A blocking data gap (missing TFDA/local package insert) prevents entry into S1 s
 - Drug interaction (DDI) data, currently unavailable
 - If pursuing hairy cell leukemia: contemporary evidence (post-2000) given current standard-of-care has moved to purine analogs/targeted agents
 - If pursuing the CNS autoimmune disease indication: clarify whether this should be pathwayed as a market-registration case (given established global approval as Betaferon®/Betaseron®) rather than a de novo repurposing evaluation
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

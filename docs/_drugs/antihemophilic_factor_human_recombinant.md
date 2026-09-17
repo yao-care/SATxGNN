@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Antihemophilic Factor Human Recombinant
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Antihemophilic Factor Human Recombinant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -100,10 +100,10 @@ The TxGNN high score (99.96%) reflects graph-level proximity among hemophilia-sp
 - **Comparator assessment:** Evaluate whether established rescue therapies for platelet release disorders (e.g., desmopressin, platelet transfusion) leave an unmet need that rFVIII could address
 
 > **Note on a higher-priority candidate:** Among all eight predicted indications, **Acquired Coagulation Factor Deficiency (rank 4, evidence level L2)** carries substantially stronger evidence — 5 clinical trials (including Phase 2/3 completed studies of recombinant porcine FVIII in acquired hemophilia A) and 20 publications, with guideline support from UKHCDO/ISTH for human rFVIII use in low-titer inhibitor patients. This indication warrants a separate **Proceed with Guardrails** evaluation report.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

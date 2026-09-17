@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluoxetine
-parent: 僅模型預測 (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 272
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) whose established 
 | Predicted New Indication | Phobic Disorder |
 | TxGNN Prediction Score | 99.63% (rank 6280 of candidate pool) |
 | Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed (未上市) |
+| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -115,10 +115,10 @@ Phobic Disorder is the best-supported repurposing candidate in this evidence pac
 - Retrieve confirmed mechanism of action (MOA) data from DrugBank
 - Confirm formal original approved indication and license status, since Saudi Arabia license records are empty
 - If pursuing registration, define a route-to-market pathway given current non-marketed status
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

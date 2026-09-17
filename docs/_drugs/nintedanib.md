@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nintedanib
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 443
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -108,10 +108,10 @@ The lead prediction (DFSP) rests on mechanism-only (L4) evidence with no ninteda
 - Confirmed original indication and regulatory approval history for nintedanib
 - DrugBank/verified mechanism-of-action detail — resolves gap DG002
 - Preclinical (e.g., PDGFR-driven xenograft) or case-level evidence of nintedanib activity specifically in DFSP before advancing beyond Research Question stage
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Carbamazepine
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 107
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Carbamazepine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -118,10 +118,10 @@ The TxGNN prediction for "trigeminal nerve neoplasm" most likely reflects a know
 - **Obtain full safety data**: Package insert warnings, contraindications, and DDI profile are currently unavailable and are mandatory before any clinical use.
 - **SFDA registration pathway**: Establish import or registration route for Saudi Arabia if clinical use is planned.
 - **Consider rank-2 indication (startle epilepsy, L3)** as a more scientifically coherent repurposing candidate: case series (PMID 6465864) show direct CBZ efficacy, and the mechanistic link to Nav-dependent reflex seizures is substantially stronger.
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

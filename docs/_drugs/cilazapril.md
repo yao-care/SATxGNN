@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cilazapril
-parent: 僅模型預測 (L5)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Cilazapril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -112,10 +112,10 @@ The TxGNN model assigns a high score (99.20%) based on RAAS pathway graph simila
 - Obtain and parse the package insert (SFDA or equivalent) for complete warnings, contraindications, and DDI profile — currently a blocking data gap
 - Assess whether Rank 3 (malignant hypertensive renal disease) warrants a separate, more focused evidence-gathering effort, given that the ACE inhibitor class has RCT-level support (AASK trial) for hypertensive nephropathy
 - Determine the regulatory pathway for first-time SFDA registration of Cilazapril in Saudi Arabia before any repurposing strategy can be operationalized
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

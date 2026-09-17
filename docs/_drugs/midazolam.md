@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Midazolam
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 420
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -45,7 +45,7 @@ Midazolam is a short-acting benzodiazepine most widely used for procedural sedat
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed (未上市) |
+| Saudi Arabia Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -117,10 +117,10 @@ Midazolam is not currently marketed in Saudi Arabia (0 licenses), and the blocki
 - Assessment of Saudi Arabia regulatory pathway, given the drug currently has no local marketing authorization
 - A modern, phase-classified RCT evaluating midazolam specifically as a primary treatment for insomnia (not merely as a comparator arm)
 - DDI review, particularly for CNS depressant and CYP3A4-interacting co-medications relevant to chronic insomnia populations
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

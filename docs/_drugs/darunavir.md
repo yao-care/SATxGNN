@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Darunavir
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 174
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -103,10 +103,10 @@ The entire evidence base for this prediction consists of non-human primate anima
 - Clarification of the intended clinical context: if the goal is optimizing NHP model fidelity for HIV cure research, this evidence supports continued use; if pursuing a de novo human clinical indication, redirect effort to higher-evidence human disease associations
 - Full MOA and safety profile data (currently unavailable in this dataset) to enable S1 safety screening
 - Package insert review to complete contraindication and warning assessment (DG001 gap, currently blocking S1 entry)
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 

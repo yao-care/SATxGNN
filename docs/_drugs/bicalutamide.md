@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bicalutamide
-parent: 僅模型預測 (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 80
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## جدول المحتويات
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## تقرير التقييم الصيدلاني
 
 </div>
 
@@ -131,10 +131,10 @@ For **Female Breast Carcinoma** (TxGNN rank 9): This is the most clinically sign
 - Obtain bicalutamide SFDA registration in Saudi Arabia (currently no local authorization)
 - Design a safety monitoring plan including liver function surveillance and cardiac monitoring
 - Evaluate combination strategy: bicalutamide + immune checkpoint inhibitor vs. monotherapy based on trial results
-## Disclaimer
+## إخلاء المسؤولية
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
+يلزم التحقق السريري قبل أي تطبيق سريري.
 
 ---
 
