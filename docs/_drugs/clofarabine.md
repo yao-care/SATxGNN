@@ -29,106 +29,107 @@ indication_count: 10
 
 </div>
 
-# Clofarabine: From Pediatric ALL to Myeloid Leukemia
+# Clofarabine: من سرطان الدم الليمفاوي الحاد عند الأطفال إلى سرطان الدم النخاعي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Clofarabine (Clolar/Evoltra) is a second-generation purine nucleoside analog first approved by the FDA in 2004 for the treatment of relapsed or refractory acute lymphoblastic leukemia (ALL) in pediatric patients, marking the first new drug for pediatric leukemia approved in over a decade.
-The TxGNN model predicts it may be effective for **myeloid leukemia**,
-with **50 clinical trials** and **20 publications** currently supporting this direction.
+Clofarabine (Clolar/Evoltra) هو نظير نيوكليوسيد بيورين من الجيل الثاني وافقت عليه إدارة الغذاء والدواء الأمريكية (FDA) لأول مرة في عام 2004 لعلاج سرطان الدم الليمفاوي الحاد المتكرر أو المقاوم (ALL) عند الأطفال، وهو يمثل أول دواء جديد لسرطان الدم عند الأطفال وافقت عليه خلال أكثر من عقد.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **سرطان الدم النخاعي**،
+مع وجود **50 تجربة سريرية** و**20 منشور** يدعمان حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Relapsed/refractory pediatric ALL (FDA 2004 / EMA 2006 approved; not registered in Saudi Arabia) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | سرطان الدم الليمفاوي الحاد المتكرر أو المقاوم عند الأطفال (موافق عليه من FDA في 2004 / EMA في 2006؛ غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | سرطان الدم النخاعي |
+| درجة التنبؤ TxGNN | 99.88% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير موجود بالسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع وضع حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Although formal DrugBank mechanism-of-action data was not retrieved for this report, published literature provides a well-characterized pharmacological profile. Clofarabine is a second-generation purine nucleoside analog engineered to combine the best properties of cladribine and fludarabine while overcoming their limitations (such as enzymatic deamination). It acts through three converging mechanisms: (1) inhibition of ribonucleotide reductase (RNR), depleting the intracellular deoxyribonucleoside triphosphate (dNTP) pool; (2) direct incorporation into DNA, causing strand termination; and (3) disruption of mitochondrial membrane integrity, triggering the intrinsic apoptosis pathway. These mechanisms are selectively potent in rapidly proliferating cells with high nucleotide demand — precisely the biology of leukemic blasts, whether lymphoid or myeloid in origin.
+على الرغم من عدم استرجاع بيانات آلية العمل الكاملة من DrugBank لهذا التقرير، توفر الأدبيات المنشورة ملفاً دوائياً مفصلاً بشكل جيد. clofarabine هو نظير نيوكليوسيد بيورين من الجيل الثاني تم تطويره لجمع أفضل خصائص cladribine و fludarabine مع التغلب على قيودهما (مثل التحطيم الإنزيمي). يعمل من خلال ثلاث آليات متقاربة: (1) تثبيط ribonucleotide reductase (RNR)، مما يستنزف مجموعة deoxyribonucleoside triphosphate (dNTP) داخل الخلية؛ (2) الدمج المباشر في الحمض النووي، مما يسبب إيقاف الخيط؛ و(3) تعطيل سلامة غشاء الميتوكوندريا، مما يؤدي إلى تفعيل مسار الاستماتة الداخلي. تتركز هذه الآليات بشكل انتقائي في الخلايا سريعة الانقسام التي لها احتياج عالي للنيوكليوتيدات - وهي بالضبط بيولوجيا الأرومات اللوكيمية، سواء كانت من أصل ليمفاوي أو نخاعي.
 
-Clofarabine's original approval in pediatric ALL reflects the high sensitivity of lymphoid precursor cells to nucleotide synthesis disruption. Acute myeloid leukemia (AML) shares this fundamental dependency: rapidly cycling myeloid blasts rely heavily on de novo nucleotide biosynthesis, making them equally vulnerable to RNR inhibition and DNA chain termination. This mechanistic overlap explains why researchers began evaluating clofarabine in AML almost simultaneously with its ALL development — NCT00044889 (Phase 2 in adult AML) opened in May 2002, the same period as the pivotal pediatric ALL pivotal trials. The drug's strong immunosuppressive properties, which reduce the risk of graft rejection, also make it a particularly attractive component of reduced-intensity conditioning regimens prior to allogeneic stem cell transplantation in AML.
+يعكس الموافقة الأصلية على clofarabine عند الأطفال المصابين بـ ALL الحساسية العالية لخلايا سلف الخلايا الليمفاوية لتعطيل تخليق النيوكليوتيدات. سرطان الدم النخاعي الحاد (AML) يشارك هذا الاعتماد الأساسي: الأرومات النخاعية سريعة الانقسام تعتمد بشكل كبير على تخليق النيوكليوتيدات الجديد، مما يجعلها معرضة بشكل متساوٍ لتثبيط RNR وإيقاف سلسلة الحمض النووي. يفسر هذا التداخل الآلي لماذا بدأ الباحثون في تقييم clofarabine في AML في نفس الوقت تقريباً مع تطويره في ALL - NCT00044889 (Phase 2 في AML البالغين) فتح في مايو 2002، الفترة نفسها من التجارب المحورية الأساسية في ALL عند الأطفال. الخصائص المثبطة المناعية القوية للدواء، التي تقلل من خطر رفض الطعم، تجعله أيضاً مكوناً جذاباً بشكل خاص في أنظمة التكييف بكثافة منخفضة قبل زراعة الخلايا الجذعية السيطرة عليها في AML.
 
-The TxGNN prediction is further grounded in an extensive body of published evidence. A 2019 Phase 3 sub-analysis (AML08, PMID 31246522) demonstrated that clofarabine can replace conventional anthracycline-etoposide induction in pediatric AML without sacrificing efficacy. Multiple completed Phase 2 trials — including randomized designs (NCT01423175, NCT00932412) and large single-arm salvage studies (NCT01295307, n=86; NCT00373529, n=116) — have consistently shown antileukemic activity across AML subtypes, from newly diagnosed elderly patients to relapsed/refractory disease. A Lancet Oncology systematic review (PMID 31281098, 2019) consolidates these findings into a coherent evidentiary framework, making myeloid leukemia one of the best-supported predicted new indications for clofarabine.
+يستند التنبؤ TxGNN كذلك إلى جسم واسع من الأدلة المنشورة. كشفت تحليل فرعي من Phase 3 في عام 2019 (AML08، PMID 31246522) أن clofarabine يمكنه استبدال حث الأنثراسيكلين التقليدية والإتوبوسيد في AML عند الأطفال دون التضحية بالفعالية. أظهرت عدة تجارب Phase 2 مكتملة - بما في ذلك التصاميم العشوائية (NCT01423175 و NCT00932412) ودراسات الإنقاذ الكبيرة أحادية الذراع (NCT01295307، n=86؛ NCT00373529، n=116) - نشاطاً مضاداً للوكيميا متسقة عبر أنماط AML، من المرضى المسنين المشخصين حديثاً إلى المرض المتكرر/المقاوم. يوحد المراجعة المنهجية من Lancet Oncology (PMID 31281098، 2019) هذه النتائج في إطار عملي متماسك، مما يجعل سرطان الدم النخاعي أحد أفضل المؤشرات الجديدة المتنبأ بها المدعومة لـ clofarabine.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Phase 2 | Completed | 40 | Single-arm open-label study of clofarabine monotherapy in adult relapsed/refractory AML; established proof of concept for single-agent activity in AML |
-| [NCT01423175](https://clinicaltrials.gov/study/NCT01423175) | Phase 2 | Unknown | 60 | Randomized multicenter trial comparing ClAraC (clofarabine + Ara-C × 5 days) vs FLAMSA in high-risk AML/advanced MDS before allogeneic SCT; primary endpoint event-free survival |
-| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Phase 2 | Completed | 735 | Randomized comparison of clofarabine/intermediate-dose Ara-C (CLARA) vs high-dose Ara-C (HDAC) as consolidation in younger newly diagnosed AML patients not receiving allogeneic SCT |
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Large treatment development programme for older AML and high-risk MDS; evaluated multiple combinations including clofarabine alongside gemtuzumab ozogamicin and other agents |
-| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | Completed | 86 | Clofarabine salvage therapy in relapsed/refractory AML; assessed rate of achieving remission sufficient to bridge to allogeneic HCT |
-| [NCT02686593](https://clinicaltrials.gov/study/NCT02686593) | Phase 2 | Completed | 50 | CLAM regimen (clofarabine 30 mg/m²/day + cytarabine 750 mg/m²/day + mitoxantrone 12 mg/m²/day) as first salvage in AML refractory/relapsed after 3+7 induction |
-| [NCT01794702](https://clinicaltrials.gov/study/NCT01794702) | Phase 1/2 | Completed | 65 | Decitabine followed by CIA (clofarabine + idarubicin + cytarabine) in acute leukemia; Phase I determined MTD, Phase II assessed disease control rate and safety |
-| [NCT01188174](https://clinicaltrials.gov/study/NCT01188174) | Phase 2 | Completed | 26 | Prospective sequential strategy combining clofarabine/Ara-C salvage chemotherapy with subsequent reduced-intensity allogeneic SCT for AML in primary treatment failure |
-| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Phase 2 | Completed | 116 | Single-agent clofarabine in previously untreated older AML patients unlikely to benefit from intensive standard chemotherapy; evaluated overall response rate and tolerability |
-| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Phase 2 | Completed | 50 | Clofarabine combined with high-dose cytarabine and G-CSF priming in adults under 65 with newly diagnosed AML or advanced MDS/myeloproliferative neoplasm |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Phase 2 | مكتملة | 40 | دراسة مفتوحة التسمية أحادية الذراع لـ clofarabine مونوثيرابي في البالغين مع AML متكرر/مقاوم؛ أسست دليل إثبات المفهوم للنشاط أحادي العامل في AML |
+| [NCT01423175](https://clinicaltrials.gov/study/NCT01423175) | Phase 2 | غير معروفة | 60 | تجربة عشوائية متعددة المراكز تقارن ClAraC (clofarabine + Ara-C × 5 أيام) مقابل FLAMSA في AML عالي الخطورة/MDS متقدمة قبل زراعة الخلايا الجذعية السيطرة عليها؛ نقطة النهاية الأولية هي البقاء الخالي من الأحداث |
+| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Phase 2 | مكتملة | 735 | مقارنة عشوائية بين clofarabine/Ara-C بجرعة متوسطة (CLARA) مقابل Ara-C بجرعة عالية (HDAC) كدعم في مرضى AML الأصغر سناً المشخصين حديثاً الذين لا يتلقون زراعة خلايا جذعية سيطرة |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | مكتملة | 2000 | برنامج تطوير علاج كبير لـ AML الأكبر سناً و MDS عالي الخطورة؛ تقييم مجموعات متعددة بما في ذلك clofarabine جنباً إلى جنب مع gemtuzumab ozogamicin والعوامل الأخرى |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | مكتملة | 86 | العلاج الإنقاذ بـ clofarabine في AML متكرر/مقاوم؛ قييمت معدل تحقيق الهجوع الكافي للانتقال إلى HCT السيطرة عليها |
+| [NCT02686593](https://clinicaltrials.gov/study/NCT02686593) | Phase 2 | مكتملة | 50 | نظام CLAM (clofarabine 30 mg/m²/day + cytarabine 750 mg/m²/day + mitoxantrone 12 mg/m²/day) كإنقاذ أول في AML المقاوم/المتكرر بعد حث 3+7 |
+| [NCT01794702](https://clinicaltrials.gov/study/NCT01794702) | Phase 1/2 | مكتملة | 65 | ديسيتابين متبوعة بـ CIA (clofarabine + idarubicin + cytarabine) في سرطان الدم الحاد؛ حددت المرحلة الأولى MTD، قيمت المرحلة الثانية معدل السيطرة على المرض والسلامة |
+| [NCT01188174](https://clinicaltrials.gov/study/NCT01188174) | Phase 2 | مكتملة | 26 | إستراتيجية تسلسلية استشرافية تجمع العلاج الإنقاذ بـ clofarabine/Ara-C مع زراعة خلايا جذعية سيطرة متقدمة لاحقة في AML في فشل العلاج الأولي |
+| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Phase 2 | مكتملة | 116 | clofarabine أحادي العامل في مرضى AML الأكبر سناً الذين لم يتم علاجهم سابقاً والذين من غير المحتمل أن يستفيدوا من العلاج الكيميائي المكثف القياسي؛ قييمت معدل الاستجابة الكلي وتحمل الدواء |
+| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Phase 2 | مكتملة | 50 | clofarabine مدمج مع cytarabine بجرعة عالية و G-CSF priming في البالغين تحت 65 سنة مع AML المشخصة حديثاً أو MDS/neoplasm ورمي متقدم |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | Phase 3 RCT sub-analysis | J Clin Oncol | AML08 multicenter randomized trial: clofarabine can replace anthracyclines and etoposide in pediatric AML remission induction with comparable efficacy and potentially reduced late cardiotoxicity |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Retrospective Cohort | Cancer Medicine | CLAM regimen (Phase 2, n=50) in relapsed/refractory AML: high complete remission rates with effective bridge to allogeneic HSCT in patients aged 18–65 |
-| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Prospective Cohort | Transplant Cell Ther | Clofarabine/busulfan myeloablative conditioning (Clo/Bu4) for active myeloid malignancies: antileukemic activity with acceptable non-relapse mortality in patients ≤70 years |
-| [31281098](https://pubmed.ncbi.nlm.nih.gov/31281098/) | 2019 | Systematic Review | Lancet Oncol | Systematic review confirming the clinical utility of clofarabine + cytarabine combination regimens in AML across induction and salvage settings |
-| [31905904](https://pubmed.ncbi.nlm.nih.gov/31905904/) | 2019 | Cohort Analysis | Cancers | CLARA vs HDAC consolidation in younger AML: clofarabine-based CLARA significantly improves relapse-free survival in patients with micro-complex karyotype AML |
-| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | Clinical Study | Hosp Pharmacy | Pharmacist-focused review of the clofarabine + cytarabine regimen — preparation, dispensing, administration protocols, and clinical use in AML |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leuk Lymphoma | Comprehensive review of clofarabine's mechanism (RNR inhibition, DNA polymerase inhibition), pharmacokinetics, and evolving clinical role in AML as monotherapy and in combinations |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Crit Rev Oncol Hematol | Critical appraisal of clofarabine's development in adult AML across first-line and salvage settings; reviews combination strategies and identifies subgroups most likely to benefit |
-| [23526416](https://pubmed.ncbi.nlm.nih.gov/23526416/) | 2013 | Guidelines Review | Am J Hematol | AML 2013 update on risk stratification and management; contextualizes novel nucleoside analogs including clofarabine within contemporary treatment algorithms |
-| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Review | Leuk Lymphoma | Foundational review of clofarabine's design rationale, pharmacology, and early clinical development in acute leukemias including AML; establishes the scientific basis for current use |
+| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | تحليل فرعي تجربة Phase 3 عشوائية | J Clin Oncol | محاكمة AML08 متعددة المراكز العشوائية: يمكن لـ clofarabine أن يحل محل الأنثراسيكلينات والإتوبوسيد في حث الهجوع في AML عند الأطفال مع فعالية مماثلة وربما سمية قلبية متأخرة مخفضة |
+| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | دراسة تحليل الخصائص | Cancer Medicine | نظام CLAM (Phase 2، n=50) في AML متكرر/مقاوم: معدلات هجوع كاملة عالية مع جسر فعال إلى HSCT السيطرة عليها في المرضى بعمر 18-65 |
+| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | دراسة الخصائص الاستشرافية | Transplant Cell Ther | Clofarabine/busulfan تكييف myeloablative (Clo/Bu4) للأورام النخاعية النشطة: نشاط مضاد للوكيميا مع وفيات غير انتكاسة مقبولة في المرضى ≤70 سنة |
+| [31281098](https://pubmed.ncbi.nlm.nih.gov/31281098/) | 2019 | مراجعة منهجية | Lancet Oncol | مراجعة منهجية تأكد الفائدة السريرية لأنظمة clofarabine + cytarabine في AML عبر إعدادات الحث والإنقاذ |
+| [31905904](https://pubmed.ncbi.nlm.nih.gov/31905904/) | 2019 | تحليل الخصائص | Cancers | CLARA مقابل HDAC دعم في AML الأصغر سناً: يحسن CLARA على أساس clofarabine بشكل كبير البقاء الخالي من الانتكاسة في المرضى مع AML الكاريوتايب المعقد الصغير |
+| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | دراسة سريرية | Hosp Pharmacy | مراجعة موجهة للصيدلي لنظام clofarabine + cytarabine - بروتوكولات التحضير والصرف والإعطاء والاستخدام السريري في AML |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | مراجعة | Leuk Lymphoma | مراجعة شاملة لآلية عمل clofarabine (تثبيط RNR، تثبيط DNA polymerase)، الحرائك الدوائية، والدور السريري المتطور في AML كعلاج أحادي وفي مجموعات |
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | مراجعة | Crit Rev Oncol Hematol | تقييم حرج لتطور clofarabine في AML البالغين عبر إعدادات الخط الأول والإنقاذ؛ يستعرض استراتيجيات التجميع وتحديد المجموعات الفرعية التي من المرجح أن تستفيد |
+| [23526416](https://pubmed.ncbi.nlm.nih.gov/23526416/) | 2013 | مراجعة الإرشادات | Am J Hematol | تحديث AML 2013 حول تطبيق المخاطر والإدارة؛ يوضع النيوكليوسيدات الصغيرة الرواية بما في ذلك clofarabine ضمن خوارزميات العلاج المعاصرة |
+| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | مراجعة | Leuk Lymphoma | مراجعة تأسيسية لمنطق تصميم clofarabine والصيدلة والتطور السريري المبكر في سرطان الدم الحاد بما في ذلك AML؛ تؤسس الأساس العلمي للاستخدام الحالي |
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — second-generation purine nucleoside analog (deoxyadenosine analog class) |
-| Myelosuppression Risk | High — clofarabine consistently causes profound bone marrow suppression; febrile neutropenia, severe thrombocytopenia, and anemia are expected consequences of treatment at therapeutic doses |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (at least weekly during active treatment), liver function tests (ALT/AST/bilirubin), renal function (serum creatinine), and fluid balance monitoring (capillary leak syndrome and systemic inflammatory response have been reported) |
-| Handling Protection | Must follow cytotoxic drug handling regulations; intravenous formulation requires preparation in a certified biological safety cabinet with standard chemotherapy PPE; disposal per hazardous waste protocols |
+| تصنيف السمية الخلوية | سام تقليدي - نظير نيوكليوسيد بيورين من الجيل الثاني (فئة نظير ديوكسيأدينوسين) |
+| خطر الكبت النخاعي | عالي - clofarabine يسبب باستمرار كبت نخاع عميق؛ الحمى والعدلات قليلة الخطيرة والقلة الشديدة والفقر الدموي هي عواقب متوقعة للعلاج بجرعات العلاجية |
+| تصنيف الغثيان | منخفض إلى متوسط |
+| بنود المراقبة | عد الدم الكامل مع التفريق (على الأقل أسبوعياً أثناء العلاج النشط)، اختبارات وظائف الكبد (ALT/AST/bilirubin)، وظائف الكلى (creatinine المصل)، ومراقبة توازن السوائل (متلازمة تسرب الشعيرات والاستجابة الالتهابية الجهازية تم الإبلاغ عنها) |
+| الحماية من المناولة | يجب اتباع لوائح معالجة الأدوية السامة؛ الصيغة الوريدية تتطلب التحضير في خزانة سلامة بيولوجية معتمدة مع معدات الوقاية الشخصية الكيميائية العلاجية القياسية؛ التخلص وفقاً لبروتوكولات النفايات الخطرة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع وضع حماية**
 
-**Rationale:**
-Multiple completed Phase 2 trials — including two randomized designs — consistently demonstrate clofarabine's antileukemic activity across AML subtypes, backed by a Phase 3 RCT sub-analysis (AML08) and a Lancet Oncology systematic review (2019); the evidence base is sufficient to justify structured clinical use in myeloid leukemia, provided appropriate monitoring safeguards are in place. However, the drug is not currently registered in Saudi Arabia, and complete local safety data (package insert warnings, contraindications, drug interactions) remain unavailable in this evidence pack.
+**المبرر:**
+عدة تجارب Phase 2 مكتملة - بما في ذلك تصميمان عشوائيان - تظهر باستمرار النشاط المضاد للوكيميا لـ clofarabine عبر أنماط AML، مدعومة بتحليل فرعي Phase 3 RCT (AML08) ومراجعة منهجية من Lancet Oncology (2019)؛ قاعدة الأدلة كافية لتبرير الاستخدام السريري المنظم في سرطان الدم النخاعي، شريطة أن تكون هناك حماية مراقبة مناسبة. ومع ذلك، الدواء لا يُسجل حالياً في المملكة العربية السعودية، وبيانات السلامة المحلية الكاملة (تحذيرات نشرة الحزمة والموانع والتفاعلات الدوائية) تبقى غير متوفرة في مجموعة الأدلة هذه.
 
-**To proceed, the following is needed:**
-- Pursue Saudi Arabia (SFDA) regulatory registration or establish a compassionate use / named-patient access pathway
-- Retrieve complete package insert safety data including key warnings, contraindications, and drug interaction profile
-- Obtain formal DrugBank API mechanistic data (DrugBank ID: DB00631) to complete the pharmacological profile
-- Define the specific AML treatment setting (induction in newly diagnosed patients, salvage for relapsed/refractory disease, or bridge-to-transplant conditioning) to align with the most relevant evidence tier
-- Develop an institutional monitoring protocol addressing myelosuppression management, capillary leak syndrome surveillance, hepatotoxicity monitoring, and infection prophylaxis
-- Evaluate pharmacogenomic factors (e.g., cytarabine sensitivity scores, karyotype risk stratification) where applicable to optimize patient selection
+**للمتابعة، يلزم ما يلي:**
+- السعي للحصول على تسجيل تنظيمي في المملكة العربية السعودية (SFDA) أو إنشاء مسار وصول استخدام رحيم / مريض محدد باسمه
+- استرجاع بيانات السلامة الكاملة في نشرة الحزمة بما في ذلك التحذيرات الرئيسية والموانع وملف تفاعل الدواء
+- الحصول على بيانات آلية عمل DrugBank API الرسمية (DrugBank ID: DB00631) لإكمال الملف الدوائي
+- تحديد إعداد علاج AML المحدد (الحث في المرضى المشخصين حديثاً أو الإنقاذ للمرض المتكرر/المقاوم أو تكييف الجسر قبل الزراعة) للمحاذاة مع مستوى الأدلة الأكثر صلة
+- تطوير بروتوكول مراقبة مؤسسية يعالج إدارة الكبت النخاعي ومراقبة متلازمة تسرب الشعيرات والمراقبة الكبدية ونبؤ العدوى
+- تقييم العوامل الصيدلانية الجينية (مثل درجات حساسية cytarabine وتطبيق المخاطر الكاريوتايبية) حيث ينطبق لتحسين اختيار المريض
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

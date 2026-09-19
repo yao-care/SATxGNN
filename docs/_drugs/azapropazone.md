@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Azapropazone: From Inflammatory Arthritis to Inflammatory Spondylopathy
+# أزابروبازون: من التهاب المفاصل الالتهابي إلى اعتلال الفقار الالتهابي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Azapropazone is a non-steroidal anti-inflammatory drug (NSAID) with additional uricosuric properties, historically used for conditions including rheumatoid arthritis, ankylosing spondylitis (AS), and psoriatic arthritis before being withdrawn from most markets due to safety concerns.
-Among 10 TxGNN-predicted indications, **Inflammatory Spondylopathy** carries the strongest supporting evidence with **2 historical RCTs** and **4 additional publications** — making it the only prediction to reach decision stage S2.
-The top-ranked predictions (Ranks 1–5) are all genetic skeletal dysplasias where COX inhibition has no disease-modifying rationale; Rank 10 (inflammatory spondylopathy, score **99.52%**) represents the clinically actionable signal.
+أزابروبازون هو دواء غير ستيرويدي مضاد للالتهاب (NSAID) بخصائص إضافية خافضة لحمض البوليك، استُخدم تاريخياً لحالات تشمل التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق (AS)، والتهاب المفاصل الصدافي قبل انسحابه من معظم الأسواق بسبب مخاوف تتعلق بالسلامة.
+من بين 10 تنبؤات توقعها TxGNN، **اعتلال الفقار الالتهابي** يحمل أقوى أدلة مدعومة مع **تجربتان عشوائيتان محكومتان تاريخيتان** و**4 منشورات إضافية** — مما يجعلها التنبؤ الوحيد الذي يصل إلى مرحلة القرار S2.
+التنبؤات ذات الترتيب الأعلى (الرتب 1–5) هي جميعها خللاً وراثياً في الهيكل العظمي حيث لا توجد أساس منطقي لتعديل المرض من خلال تثبيط COX؛ الرتبة 10 (اعتلال الفقار الالتهابي، درجة **99.52%**) تمثل الإشارة القابلة للعمل سريرياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No approved license in this region (historically: inflammatory arthritis, AS, gout) |
-| Predicted New Indication | Inflammatory Spondylopathy |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | لا توجد رخصة موافق عليها في هذه المنطقة (تاريخياً: التهاب المفاصل الالتهابي، AS، النقرس) |
+| الاستطباب الجديد المتوقع | اعتلال الفقار الالتهابي |
+| درجة التنبؤ TxGNN | 99.52% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع احترازات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Azapropazone is a non-selective COX (cyclooxygenase) inhibitor — an NSAID class drug — with an additional uricosuric effect that distinguishes it from most other NSAIDs. While detailed DrugBank MOA records are currently unavailable, azapropazone's pharmacological action follows the established NSAID pathway: inhibition of prostaglandin synthesis via COX-1 and COX-2 blockade, reducing the downstream inflammatory cascade that drives pain, swelling, and structural joint damage.
+أزابروبازون هو مثبط غير انتقائي لـ COX (أنزيم الأكسجيناز الحلقي) — دواء من فئة NSAID — مع تأثير إضافي خافض لحمض البوليك يميزه عن معظم مثبطات الالتهاب الأخرى. في حين أن سجلات آلية العمل المفصلة في DrugBank غير متوفرة حالياً، فإن الفعل الدوائي لأزابروبازون يتبع المسار المعروف لمثبطات الالتهاب: تثبيط تخليق البروستاجلاندين عن طريق حصار COX-1 و COX-2، مما يقلل من التسلسل الالتهابي اللاحق الذي يدفع الألم والتورم والضرر الهيكلي بالمفاصل.
 
-Inflammatory spondylopathy — covering ankylosing spondylitis, psoriatic arthritis, and Reiter's disease — is fundamentally driven by prostaglandin-mediated axial and peripheral joint inflammation. NSAIDs are recognized as first-line pharmacological therapy for these conditions in all major rheumatology guidelines. Azapropazone's COX inhibition maps directly onto the principal disease mechanism, making this prediction mechanistically sound rather than speculative.
+اعتلال الفقار الالتهابي — الذي يغطي التهاب الفقار اللاصق والتهاب المفاصل الصدافي وداء رايتر — يُدفع بشكل أساسي بالالتهاب المفصلي المحوري والمحيطي الوسيط بالبروستاجلاندين. تُعترف مثبطات الالتهاب بأنها العلاج الدوائي من الدرجة الأولى لهذه الحالات في جميع إرشادات طب الروماتيزم الرئيسية. يرسم تثبيط COX لأزابروبازون مباشرة على آلية المرض الأساسية، مما يجعل هذا التنبؤ منطقياً من ناحية الآلية بدلاً من أن يكون تخميناً.
 
-Crucially, this is not merely a model prediction: azapropazone was in active clinical use for ankylosing spondylitis during the 1970s–1980s, with at least two randomized controlled trials demonstrating efficacy comparable to indomethacin. The drug was withdrawn from most markets (notably the UK in the 1990s) due to a less favorable gastrointestinal and renal safety profile relative to newer NSAIDs — not due to lack of efficacy. The TxGNN model is therefore identifying a historically validated, mechanistically grounded use case, with the caveat that the drug's safety record creates a meaningful regulatory obstacle.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+بشكل حاسم، هذا ليس مجرد تنبؤ نموذجي: كان أزابروبازون قيد الاستخدام السريري النشط لالتهاب الفقار اللاصق خلال السبعينيات والثمانينيات، مع وجود تجربتين عشوائيتين محكومتين على الأقل تُظهران فعالية قابلة للمقارنة مع الإندوميثاسين. تم سحب الدواء من معظم الأسواق (خاصة المملكة المتحدة في التسعينيات) بسبب ملف أمان معدي معوي وكلوي أقل ملاءمة مقارنة بمثبطات الالتهاب الأحدث — ليس بسبب نقص الفعالية. يقوم نموذج TxGNN بالتالي بتحديد حالة استخدام تاريخية مؤكدة وممرضة من ناحية الآلية، مع ملاحظة أن ملف السلامة للدواء ينشئ عائقاً تنظيمياً ذا مغزى.
 
 ---
 
-## Literature Evidence
+## بيانات التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## بيانات الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [4604141](https://pubmed.ncbi.nlm.nih.gov/4604141/) | 1974 | RCT | Rheumatology and Rehabilitation | Controlled clinical trial of azapropazone in ankylosing spondylitis; earliest formal RCT establishing efficacy in AS |
-| [7282105](https://pubmed.ncbi.nlm.nih.gov/7282105/) | 1980 | RCT | Zeitschrift für Rheumatologie | Double-blind RCT (n=60): azapropazone vs indomethacin in AS over 3 weeks; comparable therapeutic effect, with azapropazone marginally favoured on chest expansion and patient global assessment |
-| [770082](https://pubmed.ncbi.nlm.nih.gov/770082/) | 1976 | Pilot Comparative Study | Current Medical Research and Opinion | Double-blind crossover study (n=50): azapropazone 1200 mg/day vs indomethacin 100 mg/day in psoriatic arthritis and Reiter's disease; no overall efficacy difference; some withdrawals due to side effects on both arms |
-| [369020](https://pubmed.ncbi.nlm.nih.gov/369020/) | 1978 | Narrative Review | Terapevticheskii Arkhiv | Review of drug therapy for ankylosing spondylitis (Bechterew's disease) including azapropazone in historical treatment context |
-| [11208503](https://pubmed.ncbi.nlm.nih.gov/11208503/) | 2001 | Case Series | Medical Science Monitor | AS patient with peripheral arthritis unresponsive to conventional NSAID therapy, successfully managed with cyclosporin; contextualizes the limits of NSAID monotherapy in refractory AS |
-| [6999577](https://pubmed.ncbi.nlm.nih.gov/6999577/) | 1980 | Clinical Trial | Reumatologia | Clinical evaluation of sulindac (another NSAID) in RA and AS; provides comparative class context for NSAID efficacy in inflammatory spondylopathy |
+| [4604141](https://pubmed.ncbi.nlm.nih.gov/4604141/) | 1974 | RCT | Rheumatology and Rehabilitation | تجربة سريرية محكومة لأزابروبازون في التهاب الفقار اللاصق؛ أول RCT رسمية تثبت الفعالية في AS |
+| [7282105](https://pubmed.ncbi.nlm.nih.gov/7282105/) | 1980 | RCT | Zeitschrift für Rheumatologie | RCT معماة مزدوجة (n=60): أزابروبازون مقابل الإندوميثاسين في AS على مدى 3 أسابيع؛ تأثير علاجي قابل للمقارنة، مع تفضيل طفيف لأزابروبازون على توسع الصدر والتقييم العام للمريض |
+| [770082](https://pubmed.ncbi.nlm.nih.gov/770082/) | 1976 | دراسة مقارنة استطلاعية | Current Medical Research and Opinion | دراسة تقاطع معماة مزدوجة (n=50): أزابروبازون 1200 ملغ/يوم مقابل الإندوميثاسين 100 ملغ/يوم في التهاب المفاصل الصدافي وداء رايتر؛ لا يوجد فرق عام في الفعالية؛ بعض الانسحابات بسبب الآثار الجانبية على كلا الفريقين |
+| [369020](https://pubmed.ncbi.nlm.nih.gov/369020/) | 1978 | مراجعة سردية | Terapevticheskii Arkhiv | مراجعة لعلاج الأدوية لالتهاب الفقار اللاصق (مرض بيختيريف) بما فيها أزابروبازون في السياق التاريخي للعلاج |
+| [11208503](https://pubmed.ncbi.nlm.nih.gov/11208503/) | 2001 | سلسلة حالات | Medical Science Monitor | مريض AS مع التهاب مفاصل محيطي لا يستجيب للعلاج الدوائي المعتاد مثبطات الالتهاب، تم علاجه بنجاح بالسيكلوسبورين؛ يسياق حدود العلاج بمثبطات الالتهاب أحادية العامل في AS المتعسر |
+| [6999577](https://pubmed.ncbi.nlm.nih.gov/6999577/) | 1980 | تجربة سريرية | Reumatologia | التقييم السريري للسوليندك (NSAID آخر) في RA و AS؛ يوفر سياق فئة مقارنة لفعالية مثبطات الالتهاب في اعتلال الفقار الالتهابي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Azapropazone has **no approved authorizations** in Saudi Arabia and is not currently marketed in this region. No license table is available.
-
----
-
-## Safety Considerations
-
-**Key Regulatory History (Critical Constraint):**
-Azapropazone was withdrawn from the UK market in the 1990s following post-marketing evidence of a disproportionately high rate of serious gastrointestinal adverse events (bleeding, perforation) compared to other NSAIDs available at the time. Its interaction with warfarin (displacement from plasma protein binding, leading to elevated anticoagulant effect) was identified as a particularly serious drug–drug interaction.
-
-Specific safety data from the DrugBank and TFDA records is not currently available in this Evidence Pack. Please refer to the original package insert and regulatory withdrawal documentation for complete warnings, contraindications, and interaction profiles before any clinical consideration.
+أزابروبازون ليس له **أي تراخيص موافق عليها** في المملكة العربية السعودية ولا يتم تسويقه حالياً في هذه المنطقة. لا توجد جدول الترخيص متاح.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+**التاريخ التنظيمي الرئيسي (قيد حرج):**
+تم سحب أزابروبازون من السوق البريطانية في التسعينيات بعد بيانات ما بعد التسويق التي تثبت معدل مرتفع بشكل غير متناسب من الأحداث الجانبية المعدية المعوية الخطيرة (نزيف، ثقب) مقارنة بمثبطات الالتهاب الأخرى المتاحة في ذلك الوقت. تم تحديد تفاعله مع الوارفارين (الإزاحة من ربط البروتين البلازمي، مما يؤدي إلى تأثير مضاد للتخثر مرتفع) كتفاعل دواء دواء خطير بشكل خاص.
 
-**Rationale:**
-Azapropazone has direct, historical randomized controlled trial evidence specifically in inflammatory spondylopathy (ankylosing spondylitis and psoriatic arthritis), with efficacy comparable to indomethacin established in two RCTs. The mechanistic rationale (COX inhibition as NSAID first-line therapy for AS) is unambiguous. However, the drug's market withdrawal history due to GI toxicity and warfarin interaction creates a high evidentiary bar for any repurposing or market re-entry pathway — these safety concerns must be formally re-assessed against contemporary standards and currently available alternatives.
+بيانات السلامة المحددة من سجلات DrugBank و TFDA غير متوفرة حالياً في هذه حزمة الأدلة. يرجى الرجوع إلى نشرة التعبئة الأصلية ووثائق السحب التنظيمي للحصول على التحذيرات والموانع وملفات التفاعل الكاملة قبل أي اعتبار سريري.
 
-**To proceed, the following is needed:**
-- **Safety re-evaluation package:** Full GI toxicity, renal toxicity, and warfarin DDI profile benchmarked against currently approved NSAIDs (naproxen, diclofenac, celecoxib) and AS biologics (TNF-α inhibitors, IL-17 inhibitors)
-- **Regulatory pathway assessment:** Whether Saudi Arabia SFDA would consider a previously withdrawn compound for re-approval, compassionate use, or named-patient access
-- **MOA documentation:** Formal DrugBank record retrieval to confirm COX selectivity profile (COX-1 vs COX-2 ratio) and uricosuric mechanism
-- **Unmet need analysis:** Whether a clinical scenario exists where azapropazone would offer advantages over currently available and safer NSAID alternatives — particularly in gout complicating AS, given the uricosuric property
-- **Updated PK/PD data** and contemporary monitoring protocol design if clinical re-evaluation is pursued
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع احترازات**
+
+**المبرر:**
+يمتلك أزابروبازون أدلة مباشرة من التجارب العشوائية المحكومة تاريخياً محددة في اعتلال الفقار الالتهابي (التهاب الفقار اللاصق والتهاب المفاصل الصدافي)، مع إثبات الفعالية القابلة للمقارنة مع الإندوميثاسين في تجربتين RCT. التبرير الآلي (تثبيط COX كعلاج من الدرجة الأولى بمثبطات الالتهاب لـ AS) لا لبس فيه. ومع ذلك، فإن تاريخ سحب السوق للدواء بسبب سمية الجهاز الهضمي وتفاعل الوارفارين ينشئ شريط أدلة مرتفع لأي مسار إعادة تركيز أو إعادة دخول السوق — يجب إعادة تقييم هذه المخاوف الأمنية رسمياً مقابل المعايير المعاصرة والبدائل المتاحة حالياً.
+
+**للمتابعة، يلزم ما يلي:**
+- **حزمة إعادة تقييم السلامة:** ملف السمية المعدية المعوية الكامل، والسمية الكلوية، وملف تفاعل الوارفارين المقيس مقابل مثبطات الالتهاب المعتمدة حالياً (نابروكسين، ديكلوفيناك، سيليكوكسيب) وبيولوجيات AS (مثبطات TNF-α، مثبطات IL-17)
+- **تقييم المسار التنظيمي:** ما إذا كان بإمكان SFDA بالمملكة العربية السعودية النظر في مركب سحب سابقاً لإعادة الموافقة عليه أو الاستخدام الرحيم أو الوصول للمريض المسمى
+- **توثيق آلية العمل:** استرجاع سجل DrugBank الرسمي لتأكيد ملف انتقائية COX (نسبة COX-1 مقابل COX-2) وآلية خفض حمض البوليك
+- **تحليل الحاجة غير الملباة:** ما إذا كانت هناك سيناريو سريري يوجد حيث يقدم أزابروبازون مزايا على مثبطات الالتهاب الأخرى المتاحة والأكثر أماناً حالياً — خاصة في النقرس المضاعف لـ AS، بالنظر إلى خاصية خفض حمض البوليك
+- **بيانات PK/PD محدثة** وتصميم بروتوكول المراقبة المعاصرة إذا تمت متابعة إعادة التقييم السريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

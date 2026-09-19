@@ -29,76 +29,77 @@ indication_count: 1
 
 </div>
 
-# Ferric Carboxymaltose: From Iron Deficiency Anemia to Bronchitis
+# Ferric Carboxymaltose: من فقر الدم الناجم عن نقص الحديد إلى التهاب الشعب الهوائية
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Ferric carboxymaltose is an intravenous iron replacement therapy, originally used to correct iron deficiency anemia (including in chronic kidney disease and heart failure patients). The TxGNN model predicts it may be effective for **Bronchitis**, but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on knowledge-graph association alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Iron deficiency anemia (per evidence pack rationale; not confirmed via formal license text — no Taiwan license record available) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.00% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+يُعتبر ferric carboxymaltose من أدوية إعادة تعويض الحديد بالحقن الوريدي، استُخدم في الأصل لتصحيح فقر الدم الناجم عن نقص الحديد (بما في ذلك لدى مرضى أمراض الكلى المزمنة وقصور القلب). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **التهاب الشعب الهوائية**، إلا أن هذا الاتجاه لا يدعمه حالياً أي **0 تجارب سريرية** و**0 منشورات** — التنبؤ يعتمد على ارتباط الرسم البياني للمعرفة وحده.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known information, ferric carboxymaltose is an intravenous iron formulation used to replenish iron stores and support erythropoiesis in iron deficiency anemia; its efficacy in that setting is well established, but no mechanistic or empirical link to bronchitis has been documented.
-
-The evidence pack's own rationale is explicit that this connection is speculative: it notes only an "extremely indirect hypothesis" — that iron deficiency might affect airway mucosal immune function, or that anemia of chronic disease commonly co-occurs with respiratory symptoms — with no experimental or clinical data demonstrating a treatment effect on bronchitis.
-
-A TxGNN score of 0.99 reflects the strength of association within the knowledge graph, not causal or clinical evidence. Given that both the original indication and MOA fields are themselves data gaps, and zero trials or publications exist for this drug-disease pair, the mechanistic plausibility of this prediction cannot currently be substantiated.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|---------|----------|
+| المؤشر الأساسي | فقر الدم الناجم عن نقص الحديد (وفقاً لمنطق مجموعة الأدلة؛ لم يتم تأكيده عن طريق النص الرسمي للترخيص — لا توجد سجلات ترخيص تايوانية متاحة) |
+| المؤشر الجديد المتنبأ به | التهاب الشعب الهوائية |
+| درجة التنبؤ بـ TxGNN | 99.00% |
+| مستوى الأدلة | L5 |
+| حالة السوق التايوانية | غير مُسوقة (غير مُسوقة) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (تم وضع علامة عليها كفجوة بيانات ذات خطورة عالية، DG002). بناءً على المعلومات المعروفة، ferric carboxymaltose هو منتج حديد عن طريق الحقن الوريدي يستخدم لملء احتياطيات الحديد ودعم كريات الدم الحمراء في فقر الدم الناجم عن نقص الحديد؛ فعاليته في هذا المؤشر راسخة جيداً، لكن لم تتم توثيق أي ارتباط آلي أو تجريبي بالتهاب الشعب الهوائية.
 
----
+منطق مجموعة الأدلة ذاتها واضح في أن هذا الارتباط تخميني: فهو يشير فقط إلى "فرضية غير مباشرة للغاية" — أن نقص الحديد قد يؤثر على وظيفة المناعة في الغشاء المخاطي للمسالك الهوائية، أو أن فقر الدم المرتبط بالأمراض المزمنة يحدث بشكل متزامن مع الأعراض التنفسية — دون بيانات تجريبية أو سريرية تثبت تأثير العلاج على التهاب الشعب الهوائية.
 
-## Taiwan Market Information
-
-This product is not currently marketed in Taiwan (0 licenses on record); no authorization or product data is available.
+درجة TxGNN بقيمة 0.99 تعكس قوة الارتباط داخل الرسم البياني للمعرفة، وليس الأدلة السببية أو السريرية. بالنظر إلى أن المؤشر الأساسي ومجالات آلية العمل نفسها هي فجوات بيانات بحد ذاتها، وعدم وجود أي تجارب أو منشورات لهذا الزوج من الدواء والمرض، فإن معقولية آلية العمل الحيوية لهذا التنبؤ لا يمكن التحقق منها حالياً.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are flagged as a Blocking data gap — DG001 — required before any S1 safety pre-assessment can proceed.)*
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا تتوفر أدبيات ذات صلة
 
-**Rationale:**
-There is no clinical trial, literature, or mechanistic evidence connecting ferric carboxymaltose to bronchitis — the prediction is supported only by a TxGNN association score (L5, decision stage S0). A Blocking data gap on TFDA safety labeling also prevents any safety pre-assessment at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — resolves DG001 (Blocking)
-- Confirmed drug mechanism of action from DrugBank — resolves DG002 (High)
-- Confirmed original indication / license text (currently unavailable — 0 Taiwan licenses on record)
-- Any preclinical, observational, or trial data specifically evaluating iron repletion in bronchitis, to move evidence level beyond L5
+## معلومات سوق تايوان
+
+هذا المنتج لا يتم تسويقه حالياً في تايوان (0 ترخيص في السجل)؛ لا توجد بيانات ترخيص أو منتج متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات/موانع استعمال نشرة TFDA تم الإشارة إليها كفجوة بيانات محجوبة — DG001 — مطلوبة قبل إجراء أي تقييم سلامة أولي على S1)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبررات:**
+لا توجد تجارب سريرية أو أدبيات أو أدلة آلية عمل تربط ferric carboxymaltose بالتهاب الشعب الهوائية — التنبؤ يدعمه فقط درجة ارتباط TxGNN (L5، مرحلة القرار S0). وجود فجوة بيانات محجوبة أيضاً على تسميات TFDA الأمنية يمنع إجراء أي تقييم أمان أولي في الوقت الحالي.
+
+**للمتابعة، يلزم الآتي:**
+- نشرة TFDA للحزمة (التحذيرات، موانع الاستعمال) — تحل DG001 (محجوبة)
+- آلية العمل المؤكدة للدواء من DrugBank — تحل DG002 (عالية)
+- المؤشر الأساسي المؤكد / نص الترخيص (غير متاح حالياً — 0 تراخيص تايوانية في السجل)
+- أي بيانات قبل سريرية أو رصدية أو تجريبية تقيّم إعادة تعويض الحديد في التهاب الشعب الهوائية على وجه التحديد، لنقل مستوى الأدلة بعيداً عن L5
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

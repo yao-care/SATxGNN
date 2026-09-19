@@ -29,92 +29,89 @@ indication_count: 10
 
 </div>
 
-The txgnn-pipeline skill covers model training and deployment — it doesn't apply to report generation. Proceeding directly with the evaluation report.
+# دانازول: من بطانة الرحم المهاجرة إلى انقطاع الطمث
+
+## ملخص بجملة واحدة
+
+دانازول هو مشتق أندروجيني اصطناعي معتمد من إدارة الغذاء والدواء الأمريكية لعلاج بطانة الرحم المهاجرة وأمراض الثدي الكيسية الليفية الحميدة والوذمة الوعائية الوراثية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لعلاج **انقطاع الطمث**،
+مع **0 تجارب سريرية** و**20 منشورة** تدعم هذا الاتجاه حالياً.
 
 ---
 
-# Danazol: From Endometriosis to Amenorrhea
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Danazol is a synthetic androgen derivative approved by the U.S. FDA for endometriosis, fibrocystic breast disease, and hereditary angioedema.
-The TxGNN model predicts it may be effective for **Amenorrhea**,
-with **0 clinical trials** and **20 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Endometriosis, benign fibrocystic breast disease, hereditary angioedema (U.S. FDA-approved) |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.9999% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | بطانة الرحم المهاجرة، أمراض الثدي الكيسية الليفية الحميدة، الوذمة الوعائية الوراثية (معتمد من إدارة الغذاء والدواء الأمريكية) |
+| الاستطباب الجديد المتنبأ به | انقطاع الطمث (المرض) |
+| درجة التنبؤ في TxGNN | 99.9999% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مطروح في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع ضمانات الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the data source. Based on known information, danazol is a synthetic androgen derived from 17α-ethinyltestosterone. It suppresses pulsatile LH and FSH secretion from the hypothalamic-pituitary axis, directly inhibiting ovarian steroidogenesis and effectively inducing amenorrhea — a well-documented pharmacological consequence of standard therapeutic doses (400–800 mg/day).
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة من مصدر البيانات. بناءً على المعلومات المعروفة، دانازول هو مشتق أندروجيني اصطناعي من 17α-ethinyl testosterone. يثبط إفراز الهرمون الملوتن والهرمون المحفز للحوصلة بشكل نبضي من محور تحت المهاد والنخامية، ويثبط بشكل مباشر تكوين الستيرويدات المبيضية ويحث على انقطاع الطمث بفعالية — وهو تأثير دوائي موثق جيداً عند الجرعات العلاجية القياسية (400–800 ملغ/يوم).
 
-The relationship between danazol's established indications and amenorrhea is mechanistically direct rather than merely associative. In endometriosis management, amenorrhea is simultaneously a side effect and the therapeutic mechanism: the hypoestrogenic, hypoprogestogenic state induced by danazol causes endometrial tissue regression. Likewise, in fibrocystic breast disease, danazol's suppression of cyclic hormonal fluctuations is central to relieving cyclical mastalgia and nodularity.
+العلاقة بين استطبابات دانازول المعروفة وانقطاع الطمث مباشرة من الناحية الآلية بدلاً من كونها مرتبطة فقط. في إدارة بطانة الرحم المهاجرة، انقطاع الطمث هو في نفس الوقت تأثير جانبي والآلية العلاجية: الحالة منخفضة الإستروجين ومنخفضة البروجسترون التي يحدثها دانازول تسبب انحدار أنسجة بطانة الرحم. وبالمثل، في أمراض الثدي الكيسية الليفية، يكون كبت تقلبات الهرمونات الدورية من دانازول مركزياً في تخفيف ألم الثدي والعقدية الدورية.
 
-A 2024 retrospective multi-site cohort study (PMID 39051650) formally confirms danazol's utility as a deliberate menstrual suppressant in transgender and non-binary individuals — representing a recognized repurposing pathway where an established pharmacological side effect becomes a primary therapeutic goal. This shifts amenorrhea from an incidental finding to a codified clinical endpoint, strongly supporting the TxGNN model's prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+تؤكد دراسة جماعية بأثر رجعي متعددة المواقع في عام 2024 (PMID 39051650) فائدة دانازول كمثبط حيض متعمد لدى الأفراد المتحولين جنسياً وثنائيي الجنس — وهو يمثل مسار إعادة استخدام معترف به حيث يصبح التأثير الجانبي الدوائي المعروف هدفاً علاجياً أساسياً. يحول هذا انقطاع الطمث من نتيجة عرضية إلى نقطة نهاية سريرية مرمزة، مما يدعم بقوة تنبؤ نموذج TxGNN.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | Retrospective Cohort | Women's Health | Danazol effectively induces amenorrhea with reversible androgenic effects in transgender/non-binary individuals seeking menstrual suppression; confirms real-world efficacy as a primary endpoint |
-| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | RCT | Fertility and Sterility | Double-blind RCT (n=82) comparing nafarelin 400 µg/day vs danazol 600 mg/day in endometriosis over 6 months; both agents induced significant disease regression with amenorrhea as part of the treatment mechanism |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J Royal Army Medical Corps | Survey-based review of therapeutic induction of amenorrhea; evaluates danazol alongside GnRH analogues, discussing efficacy, tolerability, and practical considerations including cost |
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based review of pharmacological therapies for abnormal uterine bleeding; positions danazol as a hormonal option with documented efficacy in reducing bleeding and inducing amenorrhea |
-| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | Review | J Reproductive Medicine | Comprehensive mechanistic review of danazol's biological effects; details central inhibition of gonadotropins, direct gonadal suppression, and immunoregulatory actions underpinning amenorrhea induction |
-| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | Article | Prog Clinical & Biological Research | Foundational paper on danazol in endometriosis; describes suppression of ovarian function and establishment of a hypoestrogenic amenorrheic state as the primary therapeutic mechanism |
-| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | Review | Human Reproduction Update | Endometriosis management update; explicitly notes that amenorrhea and menopause states promote lesion regression, contextualizing danazol's mechanism within the broader hormonal suppression paradigm |
-| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | Article | Fertility and Sterility | RCT comparing gestrinone vs danazol (n=39) in endometriosis; amenorrhea at 1 month used as a dose-adjustment criterion, underscoring its role as a measurable pharmacodynamic endpoint |
-| [6210867](https://pubmed.ncbi.nlm.nih.gov/6210867/) | 1982 | Article | Obstetrics and Gynecology | Double-blind dose-response study (100–600 mg/day, n=27); documents dose-dependent amenorrhea induction alongside endometriosis regression, establishing the dose-effect relationship |
-| [2013670](https://pubmed.ncbi.nlm.nih.gov/2013670/) | 1991 | Article | J Allergy and Clinical Immunology | 13-year long-term prophylaxis study in hereditary angioedema (n=56); danazol 200 mg/day effective at minimal doses; irregular menstruation documented as a dose-related hormonal effect |
+| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | دراسة جماعية بأثر رجعي | Women's Health | يحث دانازول على انقطاع الطمث بفعالية مع تأثيرات أندروجينية قابلة للعكس لدى الأفراد المتحولين جنسياً/ثنائيي الجنس الذين يسعون لقمع الحيض؛ يؤكد الفعالية في العالم الحقيقي كنقطة نهاية أولية |
+| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | تجربة معشاة | Fertility and Sterility | تجربة معشاة مزدوجة التعمية (n=82) تقارن ناقارلين 400 ميكروغرام/يوم مقابل دانازول 600 ملغ/يوم في بطانة الرحم المهاجرة على مدى 6 أشهر؛ أحدثت كلا العاملين انحداراً كبيراً للمرض مع انقطاع الطمث كجزء من آلية العلاج |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | مراجعة | J Royal Army Medical Corps | مراجعة قائمة على المسح للحث العلاجي على انقطاع الطمث؛ تقيّم دانازول إلى جانب نظائر هرمون الإفراج عن الموجهة التناسلية، وتناقش الفعالية والتحمل والاعتبارات العملية بما في ذلك التكلفة |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | مراجعة | Menopause | مراجعة قائمة على الدليل للعلاجات الدوائية للنزيف الرحمي غير الطبيعي؛ تضع دانازول كخيار هرموني مع فعالية موثقة في تقليل النزيف وحث انقطاع الطمث |
+| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | مراجعة | J Reproductive Medicine | مراجعة شاملة لآليات العمل البيولوجي لدانازول؛ تفصل التثبيط المركزي للموجهات التناسلية والتثبيط المباشر للغدد التناسلية والتأثيرات التنظيمية المناعية التي تكمن وراء حث انقطاع الطمث |
+| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | مقال | Prog Clinical & Biological Research | ورقة أساسية عن دانازول في بطانة الرحم المهاجرة؛ تصف قمع وظيفة المبيض وتأسيس حالة انقطاع طمث منخفضة الإستروجين كآلية علاجية أولية |
+| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | مراجعة | Human Reproduction Update | تحديث إدارة بطانة الرحم المهاجرة؛ يلاحظ صراحةً أن حالات انقطاع الطمث وانقطاع الطمث تعزز انحدار الآفات، مما يسياق آلية دانازول ضمن نموذج الكبت الهرموني الأوسع |
+| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | مقال | Fertility and Sterility | تجربة معشاة تقارن جسترينون مقابل دانازول (n=39) في بطانة الرحم المهاجرة؛ انقطاع الطمث في الشهر الأول يُستخدم كمعيار تعديل الجرعة، مما يؤكد دوره كنقطة نهاية ديناميكا دوائية قابلة للقياس |
+| [6210867](https://pubmed.ncbi.nlm.nih.gov/6210867/) | 1982 | مقال | Obstetrics and Gynecology | دراسة استجابة الجرعة المعمى مزدوج (100–600 ملغ/يوم، n=27)؛ توثق حث انقطاع الطمث المعتمد على الجرعة إلى جانب انحدار بطانة الرحم المهاجرة، مما يثبت علاقة الجرعة بالتأثير |
+| [2013670](https://pubmed.ncbi.nlm.nih.gov/2013670/) | 1991 | مقال | J Allergy and Clinical Immunology | دراسة الوقاية طويلة الأجل لمدة 13 سنة في الوذمة الوعائية الوراثية (n=56)؛ دانازول 200 ملغ/يوم فعال عند الحد الأدنى من الجرعات؛ توثيق الحيض غير المنتظم كتأثير هرموني متعلق بالجرعة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Danazol is currently **not marketed** in Saudi Arabia. No regulatory authorizations (SFDA) are on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+دانازول حالياً **غير مطروح في السوق** في المملكة العربية السعودية. لا توجد تصاريح تنظيمية (الهيئة السعودية للغذاء والدواء) في السجل.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-Danazol's amenorrhea-inducing effect is a mechanistically direct, well-established pharmacological consequence of its gonadotropin-suppressing action, supported by one RCT, multiple observational studies, and a 2024 retrospective cohort study that formalizes amenorrhea as an intentional primary endpoint. Evidence is at L3 — robust enough to proceed, but without a dedicated Phase 2/3 RCT specifically targeting amenorrhea as the primary indication.
+---
 
-**To proceed, the following is needed:**
-- Retrieve full mechanism of action data from DrugBank (DG002) and complete safety information from the package insert (DG001)
-- Design a prospective clinical protocol with amenorrhea as a formal primary endpoint and prespecified patient populations (e.g., endometriosis-related dysmenorrhea, transgender menstrual suppression, premenstrual disorders)
-- Establish a safety monitoring plan covering androgenic side effects (voice changes, hirsutism, acne), hepatotoxicity (liver function tests), and lipid profile changes — known class risks for attenuated androgens
-- Initiate Saudi Arabia (SFDA) registration process, as danazol is currently not marketed; registration will be a prerequisite for any clinical use
-- Evaluate whether lower doses (100–200 mg/day) can achieve adequate amenorrhea rates with an improved tolerability profile, given existing dose-response data
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات الحماية**
+
+**الأساس المنطقي:**
+تأثير حث انقطاع الطمث من دانازول هو تأثير دوائي معروف جيداً ومباشر من الناحية الآلية لعمل كبت الموجهات التناسلية، مدعوم بتجربة معشاة واحدة ودراسات رصدية متعددة ودراسة جماعية بأثر رجعي من عام 2024 تضفي الطابع الرسمي على انقطاع الطمث كنقطة نهاية أولية مقصودة. الدليل في مستوى L3 — قوي بما يكفي للمتابعة، لكن بدون تجربة معشاة مخصصة في المرحلة 2/3 تستهدف على وجه التحديد انقطاع الطمث كمؤشر أساسي.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع بيانات آلية العمل الكاملة من DrugBank (DG002) والمعلومات الأمنية الكاملة من النشرة الداخلية (DG001)
+- تصميم بروتوكول سريري استباقي مع انقطاع الطمث كنقطة نهاية أولية رسمية وفئات مرضية محددة مسبقاً (مثل عسر الطمث ذات الصلة ببطانة الرحم المهاجرة، قمع الحيض المتحول جنسياً، اضطرابات ما قبل الحيض)
+- وضع خطة مراقبة السلامة تغطي الآثار الجانبية الأندروجينية (تغيرات الصوت، الشعرانية، حب الشباب)، السمية الكبدية (اختبارات وظائف الكبد)، وتغييرات ملف تعريف الدهون — مخاطر فئة معروفة للأندروجينات المخففة
+- بدء عملية التسجيل بالمملكة العربية السعودية (الهيئة السعودية للغذاء والدواء)، حيث أن دانازول غير مطروح في السوق حالياً؛ سيكون التسجيل شرطاً أساسياً لأي استخدام سريري
+- تقييم ما إذا كانت الجرعات الأقل (100–200 ملغ/يوم) يمكنها تحقيق معدلات كافية لانقطاع الطمث مع ملف تعريف تحمل محسّن، نظراً لبيانات استجابة الجرعة الموجودة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

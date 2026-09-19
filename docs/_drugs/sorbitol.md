@@ -29,62 +29,63 @@ indication_count: 1
 
 </div>
 
-# Sorbitol: From Unrecorded Original Indication to Exercise-Induced Malignant Hyperthermia
+# سوربيتول: من المؤشر الأصلي غير المسجل إلى فرط الحرارة الخبيث المحفز بالتمرين
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Sorbitol's original approved indication is not documented in the available evidence, and it currently holds no marketing authorization in Saudi Arabia.
-The TxGNN model predicts a very high association score (**99.40%**) with **Exercise-Induced Malignant Hyperthermia**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a likely false-positive signal.
+المؤشر الأصلي المعتمد لسوربيتول غير موثق في الأدلة المتاحة، وهو حالياً لا يحمل أي ترخيص تسويق في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN برابط ارتباط عالي جداً (**99.40%**) مع **فرط الحرارة الخبيث المحفز بالتمرين**،
+لكن هذا التنبؤ حالياً مدعوم بـ **0 تجربة سريرية** و**0 منشور علمي**، وآلية النموذج ذاتها تشير إليه كإشارة موجبة كاذبة محتملة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in available data |
-| Predicted New Indication | Exercise-Induced Malignant Hyperthermia |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير موثق في البيانات المتاحة |
+| المؤشر الجديد المتنبأ به | فرط الحرارة الخبيث المحفز بالتمرين |
+| درجة تنبؤ TxGNN | 99.40% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data for sorbitol is not available in this evidence pack, and no original indication is on record to compare against. This absence of foundational data already limits how much confidence can be placed in the predicted link.
+بيانات آلية العمل التفصيلية لسوربيتول غير متاحة في حزمة الأدلة هذه، ولا يوجد مؤشر أصلي على السجل للمقارنة معه. هذا الغياب للبيانات الأساسية يحد بالفعل من مقدار الثقة التي يمكن إسنادها للارتباط المتنبأ به.
 
-More importantly, the evidence pack's own mechanistic assessment argues against biological plausibility: malignant hyperthermia (exercise-induced) is driven by dysfunction of the RyR1 (ryanodine) receptor, which causes uncontrolled calcium release from the sarcoplasmic reticulum. The current standard of care, dantrolene, works precisely by antagonizing RyR1. Sorbitol's known pharmacological roles — osmotic/laxative activity and sugar-alcohol metabolism — have no established mechanistic overlap with RyR1-mediated calcium dysregulation.
+والأهم من ذلك، أن التقييم الميكانيكي للحزمة ذاتها يعترض على المعقولية البيولوجية: فرط الحرارة الخبيث (المحفز بالتمرين) يحركه خلل وظيفي في مستقبل RyR1 (الرايانودين)، مما يسبب إطلاق كالسيوم غير المنضبط من الشبكة الساركوبلازمية. معيار الرعاية الحالي، دانترولين، يعمل بدقة من خلال معاداة RyR1. الأدوار الدوائية المعروفة لسوربيتول — النشاط الأسموزي/الملين والتمثيل الغذائي لكحول السكر — ليس لها تداخل ميكانيكي معروف مع اضطراب تنظيم الكالسيوم الوسيط لـ RyR1.
 
-Given the lack of MOA data, the absence of any supporting trials or literature, and the mechanistic mismatch noted above, this high TxGNN score most likely reflects graph-embedding proximity within the knowledge graph rather than genuine pharmacological relevance.
+بالنظر إلى غياب بيانات آلية العمل، وغياب أي تجارب أو أدبيات داعمة، وعدم التوافق الميكانيكي المشار إليه أعلاه، فإن درجة TxGNN المرتفعة جداً على الأرجح تعكس قرب التضمين في الرسم البياني للمعرفة بدلاً من الملاءمة الدوائية الحقيقية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة.
 
-## Literature Evidence
+## أدلة الأدبيات العلمية
 
-Currently no related literature available.
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Sorbitol currently holds no marketing authorization in Saudi Arabia (0 licenses on record; market status: Not Marketed).
+سوربيتول حالياً لا يحمل أي ترخيص تسويق في المملكة العربية السعودية (0 ترخيص على السجل؛ حالة السوق: غير مسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-This is an L5, model-only prediction with zero corroborating clinical trials or literature, no available MOA data, and a mechanistic rationale that actively argues against plausibility (RyR1-driven pathology vs. sorbitol's known osmotic/metabolic roles). There is no basis to advance this candidate at this time.
+**الأساس المنطقي:**
+هذا تنبؤ L5 يعتمد على النموذج فقط مع صفر تجارب سريرية مؤكدة أو أدبيات، لا توجد بيانات آلية عمل متاحة، وأساس ميكانيكي يعترض على المعقولية (مرضية الوسيط RyR1 مقابل الأدوار الأسموزية/الاستقلابية المعروفة لسوربيتول). لا يوجد أساس للمضي قدماً بهذا المرشح في هذا الوقت.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data for sorbitol (DrugBank query currently blocked/incomplete — DG002)
-- TFDA/SFDA package insert data on warnings and contraindications (DG001, marked Blocking)
-- Independent pharmacological or preclinical evidence linking sorbitol to RyR1/calcium-release pathology before this candidate is reconsidered
-- Ongoing monitoring for any newly registered trials or publications on this drug–disease pair
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل المؤكدة لسوربيتول (استعلام DrugBank حالياً محظور/غير مكتمل — DG002)
+- بيانات النشرة الدوائية TFDA/SFDA بشأن التحذيرات وموانع الاستعمال (DG001، موسوم كحاجز)
+- أدلة دوائية أو ما قبل سريرية مستقلة تربط سوربيتول بمرضية RyR1/إطلاق الكالسيوم قبل إعادة النظر في هذا المرشح
+- المراقبة المستمرة لأي تجارب مسجلة حديثاً أو منشورات علمية بشأن هذا الزوج من الدواء والمرض
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

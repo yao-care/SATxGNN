@@ -29,81 +29,81 @@ indication_count: 10
 
 </div>
 
-# Ambrisentan: From Pulmonary Arterial Hypertension to Pulmonary Arteriovenous Malformation
+# أمبريسينتان: من ارتفاع ضغط الدم الرئوي الشرياني إلى التشوه الشرياني الوريدي الرئوي
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Ambrisentan is a selective endothelin A (ETA) receptor antagonist approved in the US and EU for pulmonary arterial hypertension (PAH), though it currently holds no regulatory authorizations in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Pulmonary Arteriovenous Malformation (PAVM)**,
-with **no clinical trials** and **1 case report** currently supporting this direction.
+أمبريسينتان هو مضاد انتقائي لمستقبلات الإندوثيلين إيه (ETA) معتمد في الولايات المتحدة والاتحاد الأوروبي لعلاج ارتفاع ضغط الدم الرئوي الشرياني (PAH)، إلا أنه لا يحمل حالياً أي تراخيص تنظيمية في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التشوه الشرياني الوريدي الرئوي (PAVM)**، مع **عدم وجود أي تجارب سريرية** و**تقرير حالة واحد فقط** يدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البيان | المحتوى |
 |------|---------|
-| Original Indication | Idiopathic / Hereditary Pulmonary Arterial Hypertension (approved in US/EU; not registered in Saudi Arabia) |
-| Predicted New Indication | Pulmonary Arteriovenous Malformation |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | ارتفاع ضغط الدم الرئوي الشرياني مجهول السبب / الموروث (معتمد في US/EU؛ غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | التشوه الشرياني الوريدي الرئوي |
+| درجة التنبؤ في TxGNN | 99.41% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | عدم متابعة |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, ambrisentan is a selective ETA receptor antagonist that blocks the effects of endothelin-1 (ET-1) — a potent vasoconstrictor and smooth muscle mitogen — on pulmonary arterial cells, thereby reducing pulmonary vascular resistance and inhibiting vascular remodeling. This is the mechanism by which it treats idiopathic PAH.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في هذه الحزمة من الأدلة. بناءً على المعارف الدوائية المثبتة، فإن أمبريسينتان هو مضاد انتقائي لمستقبلات ETA الذي يمنع آثار الإندوثيلين-1 (ET-1) — مادة قابضة للأوعية قوية وعامل تحفيز العضلات الملساء — على خلايا الشرايين الرئوية، مما يقلل من مقاومة الأوعية الدموية الرئوية ويمنع إعادة تشكيل الأوعية الدموية. هذه هي الآلية التي يعالج بها ارتفاع ضغط الدم الرئوي الشرياني مجهول السبب.
 
-Pulmonary arteriovenous malformation (PAVM) most commonly arises in patients with hereditary hemorrhagic telangiectasia (HHT), a rare autosomal dominant condition. A small subset of HHT patients develop concurrent PAH, and ET-1 pathway dysregulation has been implicated in HHT-related pulmonary vascular remodeling. In this subpopulation, ETA antagonism could theoretically reduce pulmonary vascular resistance and slow vasculopathy progression.
+التشوه الشرياني الوريدي الرئوي (PAVM) ينشأ غالباً في المرضى الذين يعانون من توسع الشعيرات النزفي الوراثي (HHT)، وهي حالة سائدة جسدية نادرة. يطور عدد صغير من مرضى HHT ارتفاع ضغط الدم الرئوي الشرياني المتزامن، وقد تم ربط اختلال تنظيم مسار ET-1 بإعادة تشكيل الأوعية الدموية الرئوية المرتبطة بـ HHT. في هذه المجموعة السكانية الفرعية، يمكن لمضاد ETA نظرياً أن يقلل من مقاومة الأوعية الدموية الرئوية ويبطئ من تطور الأمراض الوعائية.
 
-However, the mechanistic link is indirect. PAVM is fundamentally a structural arteriovenous fistula — an abnormal direct communication between pulmonary arteries and veins — whose core pathophysiology (intrapulmonary right-to-left shunting) has no established causal relationship with ET-1 signaling. The TxGNN prediction likely reflects the HHT ↔ PAH ↔ ET-1 graph path rather than a tractable pharmacological target for PAVM itself. This connection is considered an indirect inference and does not constitute a validated therapeutic rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الارتباط الآلي غير مباشر. التشوه الشرياني الوريدي الرئوي هو في جوهره ناسور شرياني وريدي هيكلي — اتصال مباشر غير طبيعي بين الشرايين الرئوية والأوردة — الذي لا تمتلك فيزيولوجيا المرضية الأساسية فيه (تحويلة داخل الرئة من اليمين إلى اليسار) ارتباطاً سببياً مثبتاً مع إشارات ET-1. يعكس التنبؤ في TxGNN على الأرجح مسار الرسم البياني HHT ↔ PAH ↔ ET-1 بدلاً من أن يكون هدفاً دوائياً قابلاً للتطبيق لـ PAVM نفسه. يعتبر هذا الارتباط استدلالاً غير مباشر ولا يشكل أساساً علاجياً مثبتاً.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Case Report | World Journal of Clinical Cases | A case of HHT with concurrent PAH; clinical course and treatment described; family genetic analysis performed. Highlights the rare comorbidity of HHT and PAH, but does not evaluate ambrisentan specifically in the setting of PAVM |
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | تقرير حالة | World Journal of Clinical Cases | حالة توسع الشعيرات النزفي الوراثي مع ارتفاع ضغط الدم الرئوي الشرياني المتزامن؛ تم وصف المسار السريري والعلاج؛ تم إجراء تحليل وراثي للعائلة. يسلط الضوء على الاعتلال المشترك النادر بين HHT و PAH، لكنه لا يقيّم أمبريسينتان بشكل محدد في سياق PAVM |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Ambrisentan currently holds no registered authorizations in Saudi Arabia. There are no approved products, dosage forms, or licensed indications available in the local regulatory database.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا يمتلك أمبريسينتان حالياً أي تراخيص مسجلة في المملكة العربية السعودية. لا توجد منتجات معتمدة أو أشكال جرعات أو مؤشرات مرخصة متاحة في قاعدة البيانات التنظيمية المحلية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-The evidence base for ambrisentan in pulmonary arteriovenous malformation consists of a single case report with no direct pharmacological link between ETA antagonism and PAVM pathology. The structural and hemodynamic nature of PAVM (fixed arteriovenous shunting) is not addressable by vasodilatory therapy alone, and no clinical trials have evaluated this indication.
+---
 
-> **Note on broader indication landscape:** While PAVM represents the highest-ranked TxGNN prediction by score, other predicted indications in this evidence pack carry substantially stronger clinical support. PAH associated with congenital heart disease (CHD-PAH, Rank 2) is rated **L1** with a completed Phase 3 study and 18 publications; PAH associated with connective tissue disease (CTD-PAH, Rank 4) is rated **L2** with 3 trials including a completed Phase 4 study; and PAH associated with HIV infection (Rank 6) is rated **L1** with a completed Phase 3 crossover RCT. These three indications carry a **"Proceed with Guardrails"** recommendation and may represent higher-priority candidates for regulatory submission or formulary consideration in Saudi Arabia.
+## الخلاصة والخطوات التالية
 
-**To proceed with PAVM, the following is needed:**
-- Preclinical or mechanistic studies establishing a direct role for ET-1/ETA signaling in PAVM formation or progression (not merely in HHT-associated PAH)
-- Case series or registry data specifically documenting outcomes of PAH-targeted therapies in HHT patients with confirmed PAVM
-- Full mechanism of action documentation and pharmacokinetic profile for the relevant patient population
-- Drug-drug interaction assessment, particularly for patients on concurrent HHT-related treatments
-- Review of the package insert for contraindications relevant to patients with right-to-left shunting physiology
+**القرار: عدم متابعة**
+
+**الأساس المنطقي:**
+تتكون قاعدة الأدلة لاستخدام أمبريسينتان في التشوه الشرياني الوريدي الرئوي من تقرير حالة واحد فقط بدون ارتباط دوائي مباشر بين مضادات ETA وفيزيولوجيا PAVM المرضية. الطبيعة الهيكلية والديناميكية الدموية للتشوه الشرياني الوريدي الرئوي (تحويلة شريانية وريدية ثابتة) لا يمكن معالجتها بالعلاج الموسع للأوعية وحده، ولم تقيّم أي تجارب سريرية هذا المؤشر.
+
+> **ملاحظة عن المنظر الأوسع للمؤشرات:** بينما يمثل التشوه الشرياني الوريدي الرئوي أعلى تنبؤ مصنف في TxGNN من حيث الدرجة، فإن المؤشرات الأخرى المتنبأ بها في هذه الحزمة من الأدلة تحمل دعماً سريرياً أقوى بكثير. ارتفاع ضغط الدم الرئوي الشرياني المرتبط بأمراض القلب الخلقية (CHD-PAH، الترتيب 2) مقيّم بـ **L1** مع دراسة Phase 3 مكتملة و 18 نشرة؛ ارتفاع ضغط الدم الرئوي الشرياني المرتبط بأمراض الأنسجة الضامة (CTD-PAH، الترتيب 4) مقيّم بـ **L2** مع 3 تجارب بما فيها دراسة Phase 4 مكتملة؛ وارتفاع ضغط الدم الرئوي الشرياني المرتبط بعدوى فيروس نقص المناعة البشرية (الترتيب 6) مقيّم بـ **L1** مع تجربة عشوائية متقاطعة من Phase 3 مكتملة. تحمل هذه المؤشرات الثلاثة توصية **"متابعة مع ضمانات"** وقد تمثل مرشحين ذوي أولوية أعلى للتقديم التنظيمي أو الاعتبار في قائمة الأدوية في المملكة العربية السعودية.
+
+**ما يلزم للمتابعة مع التشوه الشرياني الوريدي الرئوي:**
+- دراسات ما قبل السريرية أو دراسات آلية تثبت دوراً مباشراً لإشارات ET-1/ETA في تكوين أو تطور التشوه الشرياني الوريدي الرئوي (وليس فقط في ارتفاع ضغط الدم الرئوي الشرياني المرتبط بـ HHT)
+- سلسلة حالات أو بيانات من السجلات توثق بشكل محدد نتائج العلاجات الموجهة لـ PAH في مرضى HHT مع تشوه شرياني وريدي رئوي مؤكد
+- توثيق كامل لآلية العمل والملف الحركي الدوائي للمجموعة السكانية ذات الصلة
+- تقييم التفاعلات الدوائية، وخاصة لدى المرضى الذين يتلقون معالجات ذات صلة بـ HHT بشكل متزامن
+- مراجعة النشرة الداخلية لموانع الاستعمال ذات الصلة لدى المرضى الذين يعانون من فيزيولوجيا تحويل من اليمين إلى اليسار
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

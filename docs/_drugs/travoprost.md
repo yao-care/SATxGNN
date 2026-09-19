@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Travoprost: From Glaucoma to Visceral Calciphylaxis
+# travoprost: من الجلوكوما إلى الكالسيفيلاكسيس الحشوية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Travoprost is a prostaglandin F2α analog (FP receptor agonist) known from its product class as an ophthalmic agent for glaucoma and ocular hypertension; this evidence pack does not contain a confirmed original indication or MOA record for the drug.
-> The TxGNN model predicts potential efficacy for **Visceral Calciphylaxis**, but this is currently a **pure model prediction with 0 clinical trials and 0 publications** supporting it.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in evidence pack (`original_indications` empty). Known from drug class: glaucoma / ocular hypertension (FP receptor agonist, prostaglandin analog) |
-| Predicted New Indication | Visceral Calciphylaxis |
-| TxGNN Prediction Score | 99.9998% (rank 6 among predictions) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> travoprost هو محاكي البروستاجلاندين F2α (ناهض مستقبل FP) معروف من فئة منتجاته كعامل كحلي للجلوكوما وارتفاع ضغط العين؛ هذه الحزمة الدليلية لا تحتوي على سجل الاستطباب الأصلي المؤكد أو سجل آلية العمل للعقار.
+> يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **الكالسيفيلاكسيس الحشوية**، لكن هذا حالياً **تنبؤ نموذج خالص بدون تجارب سريرية و 0 منشورات** تدعمه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available in this evidence pack (`original_moa` = Data Gap). Based on known product-class information, travoprost is a prostaglandin F2α analog and FP prostanoid receptor agonist, whose proven efficacy is in lowering intraocular pressure (IOP) via increased uveoscleral outflow in glaucoma and ocular hypertension — an indication not itself confirmed by structured data in this pack.
-
-The proposed link to visceral calciphylaxis rests entirely on a theoretical extension of FP-receptor signaling to vascular calcification regulation. No clinical, preclinical, or literature evidence in this pack supports this pathway — the rationale explicitly notes it is "purely theoretical, with no supporting data." Given that travoprost is administered topically as an ophthalmic solution with minimal systemic absorption, a plausible mechanistic path to a systemic vascular calcification disorder is not established.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | لم يتم تقديمه في الحزمة الدليلية (`original_indications` فارغ). معروف من فئة العقار: الجلوكوما / ارتفاع ضغط العين (ناهض مستقبل FP، محاكي البروستاجلاندين) |
+| الاستطباب الجديد المتنبأ به | الكالسيفيلاكسيس الحشوية |
+| درجة تنبؤ TxGNN | 99.9998% (الترتيب 6 بين التنبؤات) |
+| مستوى الأدلة | L5 (تنبؤ نموذج فقط، بدون دراسات داعمة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | وقف |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Travoprost is not marketed in Saudi Arabia — no product authorizations are on record (`total_licenses` = 0, `licenses` empty).
+بيانات آلية العمل التفصيلية غير متاحة في هذه الحزمة الدليلية (`original_moa` = فجوة بيانات). بناءً على معلومات فئة المنتج المعروفة، travoprost هو محاكي البروستاجلاندين F2α وناهض مستقبل البروستانويد FP، وقد ثبتت فعاليته في خفض ضغط العين داخل المقلة (IOP) عبر زيادة التصريف عبر المسار غير التقليدي في الجلوكوما وارتفاع ضغط العين — وهو استطباب لم يتم تأكيده بنفسه من خلال البيانات المنظمة في هذه الحزمة.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA warnings/contraindications data is flagged as a **Blocking** data gap (DG001) — this prevents a formal S1 safety pre-assessment.)*
+ارتباط الوصلة المقترحة بالكالسيفيلاكسيس الحشوية يرتكز بالكامل على امتداد نظري لإشارات مستقبل FP إلى تنظيم تكلس الأوعية الدموية. لا يوجد دليل سريري أو تجريبي أو أدبي في هذه الحزمة يدعم هذا المسار — فالمنطق يلاحظ بوضوح أنه "نظري بحت، بدون بيانات داعمة." نظراً لأن travoprost يُعطى موضعياً كمحلول كحلي مع امتصاص جهازي ضئيل، فإن مسار آلي معقول لاضطراب تكلس الأوعية الدموية الجهازي لم يتم تأسيسه.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-The top-ranked predicted indication (visceral calciphylaxis) has an L5 evidence level — a TxGNN score alone, with zero clinical trials or literature support — and a Blocking data gap on TFDA warnings/contraindications prevents even a baseline safety assessment. There is currently no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, precautions, contraindications) — resolves Blocking gap DG001
-- Confirmed mechanism of action (MOA) data via DrugBank — resolves High-severity gap DG002
-- Confirmed original indication and regulatory approval history for travoprost
-- Preclinical or mechanistic evidence connecting FP receptor signaling to vascular calcification pathways relevant to visceral calciphylaxis
-- If pursuing a vascular-disease angle instead (rank 5 candidate, L4 evidence, 15 trials/20 publications identified but mostly graded as low relevance — ocular hyperemia/side-effect studies rather than therapeutic vascular disease evidence), a dedicated relevance re-grading of that evidence set would be required before advancing.
+## أدلة الأدب العلمي
+
+حالياً لا تتوفر أدلة أدبية ذات صلة.
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+travoprost لا يُسوق في المملكة العربية السعودية — لا توجد تراخيص منتجات في السجل (`total_licenses` = 0, `licenses` فارغ).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملصق العبوة للحصول على معلومات السلامة.
+
+*(ملاحظة: بيانات تحذيرات/موانع الاستعمال TFDA مميزة كفجوة بيانات حاجبة (DG001) — هذا يمنع تقييم السلامة الأساسي الرسمي S1.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقف**
+
+**المنطق:**
+الاستطباب المتنبأ به بأعلى ترتيب (الكالسيفيلاكسيس الحشوية) له مستوى أدلة L5 — درجة TxGNN وحدها، بدون أي تجارب سريرية أو دعم أدبي — وفجوة بيانات حاجبة على تحذيرات/موانع استعمال TFDA تمنع حتى تقييم السلامة الأساسي. لا توجد حالياً أساس لتقدم هذا المرشح.
+
+**للمتابعة، يلزم ما يلي:**
+- حزمة TFDA (تحذيرات، احتياطات، موانع استعمال) — تحل فجوة الحجب DG001
+- بيانات آلية العمل (MOA) المؤكدة عبر DrugBank — تحل فجوة عالية الخطورة DG002
+- استطباب أصلي مؤكد وسجل الموافقة التنظيمية لـ travoprost
+- أدلة تجريبية أو آلية ربط إشارات مستقبل FP بمسارات تكلس الأوعية الدموية ذات الصلة بالكالسيفيلاكسيس الحشوية
+- إذا كان يتم متابعة زاوية مرض الأوعية الدموية بدلاً من ذلك (مرشح الترتيب 5، أدلة L4، تم تحديد 15 تجربة / 20 منشور لكن معظمها تم تقييمه كذي صلة منخفضة — دراسات احمرار العين / الآثار الجانبية بدلاً من أدلة أمراض الأوعية الدموية العلاجية)، ستكون هناك حاجة إلى إعادة تصنيف الصلة المخصصة لمجموعة الأدلة تلك قبل المتابعة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

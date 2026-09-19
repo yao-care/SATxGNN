@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Etodolac: From NSAID Pain/Inflammation Control to Ankylosing Spondylitis
+# Etodolac: من التحكم في الألم/الالتهاب بمثبطات COX غير الستيرويدية إلى التهاب الفقار اللاصق
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Etodolac is a COX-inhibiting NSAID whose formally recorded original indication is not available in this evidence pack (drug is not marketed in Saudi Arabia). Among 10 TxGNN-predicted indications, most are top-ranked but mechanistically implausible graph artifacts (e.g., rare skeletal dysplasias) with no supporting evidence; the one indication with real supporting data is **Ankylosing Spondylitis**, backed by **1 clinical trial** and **10 publications**, though the literature largely reflects etodolac's already-established use in axial spondyloarthritis rather than a genuinely novel signal.
+Etodolac هو عقار غير ستيرويدي مضاد للالتهاب يثبط COX، والذي لم تتوفر مؤشراته الأصلية المسجلة رسمياً في هذه مجموعة الأدلة (الدواء غير مسوق في المملكة العربية السعودية). من بين 10 مؤشرات يتنبأ بها TxGNN، معظمها يحتل مراتب عالية لكنها آثار رسم بياني غير معقولة من الناحية الآلية (مثل اضطرابات هيكلية نادرة جداً) بدون أدلة داعمة؛ المؤشر الوحيد الذي يتمتع بأدلة داعمة حقيقية هو **التهاب الفقار اللاصق**، مدعوم بـ **تجربة سريرية واحدة** و **10 منشورات**، على الرغم من أن الأدبيات تعكس إلى حد كبير الاستخدام المثبت بالفعل لـ etodolac في التهاب المفاصل المحوري بدلاً من إشارة حقيقية جديدة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in this pack (drug not marketed in Saudi Arabia; no license/label data). Literature evidence (PMID 1717225) confirms etodolac as an NSAID established for rheumatoid arthritis and osteoarthritis pain/inflammation. |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متوفر في هذه المجموعة (الدواء غير مسوق في المملكة العربية السعودية؛ لا توجد بيانات الترخيص/الملصقات). يؤكد دليل الأدبيات (PMID 1717225) أن etodolac هو عقار غير ستيرويدي مضاد للالتهاب ثابت لآلام/التهاب التهاب المفاصل الروماتويدي والتهاب المفاصل التنكسي. |
+| المؤشر الجديد المتنبأ به | التهاب الفقار اللاصق |
+| درجة تنبؤ TxGNN | 99.93% |
+| مستوى الدليل | L3 |
+| حالة سوق المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known information, etodolac belongs to the NSAID (non-steroidal anti-inflammatory drug) class and acts through COX enzyme inhibition — literature in this pack (PMID 17694363) further describes it as having a relatively selective COX-2 effect. Its efficacy in inflammatory/degenerative joint pain (osteoarthritis, rheumatoid arthritis) is well documented.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (فجوة في البيانات). بناءً على المعلومات المعروفة، ينتمي etodolac إلى فئة العقاقير غير الستيرويدية المضادة للالتهاب (NSAID) ويعمل من خلال تثبيط إنزيم COX — كما يصف الأدب في هذه المجموعة (PMID 17694363) بشكل إضافي أنه يتمتع بتأثير COX-2 انتقائي نسبياً. إن فعاليته في آلام المفاصل الالتهابية/التنكسية (التهاب المفاصل التنكسي، التهاب المفاصل الروماتويدي) موثقة جيداً.
 
-Ankylosing spondylitis (AS) is, like RA and OA, a condition where NSAIDs are standard symptomatic therapy for pain and inflammation control. The repurposing rationale attached to this candidate explicitly notes that NSAIDs are already the first-line standard treatment for AS symptom control — meaning the TxGNN high score largely reflects an **already-known pharmacological association** rather than a newly discovered mechanism. Several of the cited publications (e.g., PMID 1717225, PMID 2146130) directly state etodolac's efficacy was studied in AS alongside RA/OA as early as the late 1980s–1990s.
+التهاب الفقار اللاصق (AS)، مثل RA و OA، هو حالة حيث تعتبر مثبطات NSAID العلاج العرضي القياسي للتحكم في الألم والالتهاب. تشير النسبة المنطقية لإعادة الاستخدام المرفقة بهذا المرشح بوضوح إلى أن مثبطات NSAID هي بالفعل العلاج القياسي من الخط الأول للتحكم في أعراض AS — مما يعني أن درجة TxGNN العالية تعكس إلى حد كبير ارتباطاً دوائياً معروفاً بالفعل بدلاً من آلية مكتشفة حديثاً. تذكر عدة من المنشورات المستشهد بها (على سبيل المثال، PMID 1717225، PMID 2146130) مباشرة أن فعالية etodolac تمت دراستها في AS جنباً إلى جنب مع RA/OA في وقت مبكر من أواخر الثمانينيات – التسعينيات.
 
-It is worth noting that among the 10 TxGNN-ranked candidates in this pack, the four highest-scoring ones (acromesomelic dysplasia, brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, spondyloarthropathy susceptibility, brachyolmia, pseudoachondroplasia, rheumatoid vasculitis, hypermobility of coccyx) are rare genetic skeletal/structural disorders or conditions where the pack's own mechanistic review flags no plausible NSAID relevance and no supporting trials or literature — these are held (L5/S0/Hold) and are likely graph-embedding artifacts around skeletal-related nodes rather than genuine pharmacological signals. AS (rank 6) is the only candidate with meaningful clinical/literature support and is the focus of this report.
+من الجدير بالملاحظة أن من بين 10 مرشحين مصنفين بواسطة TxGNN في هذه المجموعة، الأربعة ذات أعلى درجات (خلل التنسج acromesomelic، متلازمة brachyolmia-amelogenesis imperfecta، تصلب العضلات، القابلية للإصابة بالتهاب المفاصل، brachyolmia، pseudoachondroplasia، التهاب الأوعية الدموية الروماتويدي، فرط حركة العصعص) هي اضطرابات وراثية هيكلية/هيكلية نادرة أو حالات حيث تشير مراجعة الآلية الخاصة بالمجموعة إلى عدم وجود صلة NSAID معقولة وعدم وجود تجارب أو أدب داعم — يتم الاحتفاظ بهذه (L5/S0/Hold) ومن المحتمل أن تكون آثار تضمين الرسم البياني حول العقد ذات الصلة بالهيكل العظمي بدلاً من إشارات دوائية حقيقية. AS (الترتيب 6) هو المرشح الوحيد الذي يتمتع بدعم سريري/أدب ذي مغزى وهو محور التركيز في هذا التقرير.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05164198](https://clinicaltrials.gov/study/NCT05164198) | Phase 4 | Unknown | 448 | Evaluates TNF-inhibitor dose reduction vs. standard dose in AS patients with stable disease activity. **Does not test etodolac directly** — relevance graded "C" (population/indication overlap only, not direct drug evidence). |
+| [NCT05164198](https://clinicaltrials.gov/study/NCT05164198) | المرحلة 4 | غير معروف | 448 | يقيم تقليل جرعة مثبطات TNF مقابل الجرعة القياسية في مرضى AS مع نشاط المرض المستقر. **لا يختبر etodolac بشكل مباشر** — يتم تصنيف الصلة "C" (تداخل السكان/المؤشرات فقط، وليس دليل الدواء المباشر). |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [2525800](https://pubmed.ncbi.nlm.nih.gov/2525800/) | 1989 | Cohort/Open-label | La Revue de medecine interne | Open trial in 4,947 patients with RA, AS, and OA of the lower limbs; etodolac 400–600mg/day showed efficacy and tolerability across these rheumatic conditions. |
-| [2150569](https://pubmed.ncbi.nlm.nih.gov/2150569/) | 1990 | Cohort/Open-label (safety) | Rheumatology International | Two large French open-label studies (n=4,947 and n=51,355) confirming efficacy/safety of etodolac in RA, AS, and OA. |
-| [2150568](https://pubmed.ncbi.nlm.nih.gov/2150568/) | 1990 | Cohort (postmarketing surveillance) | Rheumatology International | Four postmarketing surveillance studies (n=8,334) across Italy, Switzerland, UK, France; one study included AS patients, confirming favorable safety profile. |
-| [2146130](https://pubmed.ncbi.nlm.nih.gov/2146130/) | 1990 | Review | European Journal of Rheumatology and Inflammation | Randomized, double-blind, parallel-group studies comparing etodolac to naproxen/piroxicam and placebo in RA, OA, and AS; etodolac found comparable to standard NSAIDs. |
-| [1717225](https://pubmed.ncbi.nlm.nih.gov/1717225/) | 1991 | Review | Drugs | Pharmacology reappraisal: etodolac effective in RA, OA, and AS, and in postoperative/gouty/traumatic pain; adverse effect profile similar to other NSAIDs. |
-| [17694363](https://pubmed.ncbi.nlm.nih.gov/17694363/) | 1997 | Review | Inflammopharmacology | Clinical review of etodolac as a multipurpose analgesic; primary anti-inflammatory mechanism via relatively selective COX-2 inhibition; widely applied in RA, AS, and gout. |
-| [22071858](https://pubmed.ncbi.nlm.nih.gov/22071858/) | 2011 | Review (safety, Cochrane) | Cochrane Database of Systematic Reviews | Safety of NSAIDs (including aspirin/paracetamol) combined with methotrexate in inflammatory arthritis including AS. |
-| [20829199](https://pubmed.ncbi.nlm.nih.gov/20829199/) | 2011 | Review/Guideline | Annals of the Rheumatic Diseases | ASAS recommendations for standardized collection/reporting of NSAID intake as an outcome measure in axial spondyloarthritis trials. |
-| [21140116](https://pubmed.ncbi.nlm.nih.gov/21140116/) | 2010 | Cohort (non-etodolac comparator) | Singapore Medical Journal | Open prospective trial of IV pamidronate in NSAID-refractory/intolerant AS patients — supports NSAID as standard first-line comparator, not direct etodolac evidence. |
-| [24449987](https://pubmed.ncbi.nlm.nih.gov/24449987/) | 2013 | Review | The Israel Medical Association Journal | Discussion of diagnostic uncertainty in axial spondyloarthritis (indemonstrable axial SpA); no abstract available. |
+| [2525800](https://pubmed.ncbi.nlm.nih.gov/2525800/) | 1989 | دراسة أترابية/مفتوحة التسمية | La Revue de medecine interne | تجربة مفتوحة في 4,947 مريضاً مصاباً بـ RA و AS و OA من الأطراف السفلية؛ أظهر etodolac 400–600 ملغ/اليوم فعالية وتحملاً في جميع هذه الحالات الروماتيزمية. |
+| [2150569](https://pubmed.ncbi.nlm.nih.gov/2150569/) | 1990 | دراسة أترابية/مفتوحة التسمية (السلامة) | Rheumatology International | دراستان فرنسيتان كبيرتان مفتوحة التسمية (n=4,947 و n=51,355) تؤكدان فعالية/سلامة etodolac في RA و AS و OA. |
+| [2150568](https://pubmed.ncbi.nlm.nih.gov/2150568/) | 1990 | دراسة أترابية (مراقبة ما بعد التسويق) | Rheumatology International | أربع دراسات مراقبة ما بعد التسويق (n=8,334) في جميع أنحاء إيطاليا وسويسرا والمملكة المتحدة وفرنسا؛ تضمنت دراسة واحدة مرضى AS، مما يؤكد ملف السلامة المواتي. |
+| [2146130](https://pubmed.ncbi.nlm.nih.gov/2146130/) | 1990 | مراجعة | European Journal of Rheumatology and Inflammation | دراسات عشوائية، عمياء، ومتوازية المجموعات مقارنة etodolac مع naproxen/piroxicam والعلاج الوهمي في RA و OA و AS؛ وجدت etodolac مماثلة للعقاقير غير الستيرويدية المضادة للالتهاب القياسية. |
+| [1717225](https://pubmed.ncbi.nlm.nih.gov/1717225/) | 1991 | مراجعة | Drugs | إعادة تقييم علم الأدوية: فعالية etodolac في RA و OA و AS، وفي ألم ما بعد الجراحة/النقرس/الرضوض؛ ملف الآثار الضارة مشابه لعقاقير NSAID الأخرى. |
+| [17694363](https://pubmed.ncbi.nlm.nih.gov/17694363/) | 1997 | مراجعة | Inflammopharmacology | مراجعة سريرية لـ etodolac كمسكن متعدد الأغراض؛ آلية مضادة للالتهابات الأولية من خلال تثبيط COX-2 انتقائي نسبياً؛ يتم تطبيقها على نطاق واسع في RA و AS والنقرس. |
+| [22071858](https://pubmed.ncbi.nlm.nih.gov/22071858/) | 2011 | مراجعة (السلامة، Cochrane) | Cochrane Database of Systematic Reviews | سلامة مثبطات NSAID (بما في ذلك الأسبرين/الباراسيتامول) مع الميثوتريكسات في التهاب المفاصل الالتهابي بما في ذلك AS. |
+| [20829199](https://pubmed.ncbi.nlm.nih.gov/20829199/) | 2011 | مراجعة/إرشادات | Annals of the Rheumatic Diseases | توصيات ASAS لجمع/الإبلاغ الموحد عن استهلاك NSAID كمقياس نتيجة في تجارب التهاب المفاصل المحوري. |
+| [21140116](https://pubmed.ncbi.nlm.nih.gov/21140116/) | 2010 | دراسة أترابية (مقارن غير etodolac) | Singapore Medical Journal | تجربة مستقبلية مفتوحة من pamidronate الوريدي في مرضى AS الذين لا يستجيبون/لا يتحملون NSAID — يدعم NSAID كمقارن قياسي من الخط الأول، وليس دليل etodolac مباشر. |
+| [24449987](https://pubmed.ncbi.nlm.nih.gov/24449987/) | 2013 | مراجعة | The Israel Medical Association Journal | مناقشة عدم اليقين التشخيصي في التهاب المفاصل المحوري (التهاب المفاصل المحوري غير قابل للإثبات)؛ لا يوجد ملخص متاح. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Etodolac is not currently marketed in Saudi Arabia; no marketing authorization records are available in this evidence pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا يتم تسويق etodolac حالياً في المملكة العربية السعودية؛ لا توجد سجلات التخويل للتسويق متاحة في هذه المجموعة من الأدلة (0 تراخيص).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-Etodolac's use in ankylosing spondylitis is supported by decades of open-label/cohort evidence and consistent mechanistic plausibility as an NSAID, but no completed randomized controlled trial specifically evaluates etodolac in AS, and the one registered trial in this pack does not test etodolac directly (TNF-inhibitor dosing study). This is an evidence-consistent but not novel signal, warranting cautious, guarded progression rather than a full Go.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety review)
-- Confirmed mechanism of action (MOA) data from DrugBank (currently a **High**-severity data gap)
-- Formal drug-drug interaction (DDI) data (current query returned not_found)
-- A dedicated etodolac-in-AS clinical trial or comparative effectiveness study, since existing evidence is largely legacy open-label/cohort data from the late 1980s–1990s
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الحماية**
+
+**الأساس المنطقي:**
+يدعم استخدام etodolac في التهاب الفقار اللاصق عقود من الأدلة المفتوحة التسمية/الأترابية والمعقولية الآلية المتسقة كعقار غير ستيرويدي مضاد للالتهاب، لكن لا توجد تجربة محكومة عشوائية مكتملة تقيّم بشكل محدد etodolac في AS، والتجربة المسجلة الوحيدة في هذه المجموعة لا تختبر etodolac بشكل مباشر (دراسة جرعة مثبطات TNF). هذه إشارة مدعومة بأدلة لكنها ليست إشارة جديدة، تستدعي تقدماً حذراً محفوظاً بدلاً من موافقة كاملة.
+
+**للمضي قدماً، يلزم الآتي:**
+- تحذيرات وموانع استعمال نشرة TFDA/SFDA (حالياً فجوة بيانات محجوبة — مطلوبة قبل أي مراجعة سلامة S1)
+- تأكيد بيانات آلية العمل (MOA) من DrugBank (حالياً فجوة بيانات عالية الشدة)
+- بيانات التفاعلات الدوائية الرسمية (DDI) (الاستعلام الحالي أرجع not_found)
+- تجربة سريرية مخصصة لـ etodolac-في-AS أو دراسة الفعالية المقارنة، لأن الأدلة الموجودة هي في الغالب بيانات مفتوحة التسمية/أترابية موروثة من أواخر الثمانينيات-التسعينيات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

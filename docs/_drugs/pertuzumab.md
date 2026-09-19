@@ -29,82 +29,83 @@ indication_count: 10
 
 </div>
 
-# Pertuzumab: From HER2-Positive Breast Cancer to Normal Breast-Like Subtype of Breast Carcinoma
+# بيرتوزوماب: من سرطان الثدي موجب HER2 إلى السمة الشبيهة بالثدي الطبيعي لسرطان الثدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Pertuzumab is a HER2-targeted humanized monoclonal antibody, originally developed and approved elsewhere for HER2-positive breast cancer in combination with trastuzumab and chemotherapy; it is not currently marketed in Saudi Arabia.
-> The TxGNN model predicts it may be effective for **normal breast-like subtype of breast carcinoma**,
-> with **6 clinical trials** currently identified and **no dedicated literature** supporting this specific direction.
-> Evidence quality is limited because none of the trials specifically enroll or stratify by this molecular subtype.
+> بيرتوزوماب هو جسم مضاد أحادي النسيلة إنساني موجه ضد HER2، تم تطويره واعتماده في دول أخرى لعلاج سرطان الثدي موجب HER2 بالتزامن مع تراستوزوماب والعلاج الكيميائي؛ وهو غير مسوق حالياً في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **السمة الشبيهة بالثدي الطبيعي من سرطان الثدي**،
+> مع **6 تجارب سريرية** معرّفة حالياً و **لا توجد أدبيات مخصصة** تدعم هذا الاتجاه المحدد.
+> جودة الأدلة محدودة لأن أياً من التجارب لا تقوم بتجنيد أو تطبيق طبقات استراتيجية حسب هذا النمط الجزيئي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | HER2-positive breast cancer (combination therapy with trastuzumab ± chemotherapy) — established elsewhere; not currently licensed in Saudi Arabia |
-| Predicted New Indication | Normal breast-like subtype of breast carcinoma |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | سرطان الثدي موجب HER2 (العلاج المركب مع تراستوزوماب ± العلاج الكيميائي) — مثبت في دول أخرى؛ لم يتم ترخيصه حالياً في المملكة العربية السعودية |
+| المؤشر الجديد المتنبأ به | السمة الشبيهة بالثدي الطبيعي من سرطان الثدي |
+| درجة تنبؤ TxGNN | 99.93% |
+| مستوى الأدلة | L2 |
+| حالة سوق المملكة العربية السعودية | غير مسوق (لم يتم تسويقه) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | التوقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed DrugBank-sourced mechanism-of-action data is not available for this record. Based on established pharmacological knowledge (referenced within the evidence pack's own rationale fields, not the database MOA field), pertuzumab is a humanized monoclonal antibody that binds domain II of the HER2 (ERBB2) extracellular region, blocking HER2–HER3 heterodimerization and downstream PI3K/AKT and MAPK signaling. Its established efficacy in HER2-positive breast cancer is well proven when combined with trastuzumab and taxane chemotherapy.
+بيانات آلية العمل من DrugBank التفصيلية غير متاحة لهذا السجل. استناداً إلى المعرفة الدوائية المثبتة (المشار إليها في حقول المنطق الخاصة بحزمة الأدلة، وليس في حقل قاعدة البيانات MOA)، بيرتوزوماب هو جسم مضاد أحادي النسيلة إنساني يرتبط بالمجال الثاني من المنطقة خارج الخلية لـ HER2 (ERBB2)، مما يحجب تغاير الثنائي HER2–HER3 والإشارات النهائية PI3K/AKT و MAPK. تم إثبات فعاليته المثبتة في سرطان الثدي موجب HER2 بشكل جيد عند دمجه مع تراستوزوماب والعلاج الكيميائي التاكساني.
 
-"Normal-like" is one of the PAM50 intrinsic molecular subtypes of breast cancer. In the literature, it is frequently regarded as a technical artifact reflecting contamination by adjacent normal breast tissue rather than a distinct biological entity, and tumors classified this way typically show low HER2 expression. This weakens the mechanistic rationale: pertuzumab's activity depends on HER2 overexpression, which is not a defining feature of the normal-like subtype.
+"الشبيهة بالطبيعي" هي واحدة من النماذج الجزيئية الجوهرية من PAM50 لسرطان الثدي. في الأدبيات، غالباً ما تعتبر فن البقايا الفنية الناعكسة من تلوث أنسجة الثدي الطبيعية المجاورة بدلاً من كونها كياناً بيولوجياً متميزاً، والأورام المصنفة بهذه الطريقة عادة ما تظهر تعبيراً منخفضاً عن HER2. هذا يضعف الحجة الآلية: يعتمد نشاط بيرتوزوماب على الإفراط في تعبير HER2، وهي ليست ميزة محددة للنمط الشبيه بالطبيعي.
 
-Consistent with this, the six clinical trials associated with this prediction are general HER2-positive neoadjuvant breast cancer studies — none specifically stratify or enrich for the normal-like subtype. This suggests a population-mismatch risk: the prediction may be capturing pertuzumab's broad association with "breast cancer" trials generally, rather than a genuine mechanistic link to this specific subtype. Confirming whether a clinically meaningful HER2-overexpressing sub-population exists within normal-like tumors is a prerequisite before this can be meaningfully advanced.
+متسقة مع ذلك، ست تجارب سريرية مرتبطة بهذا التنبؤ هي دراسات سرطان الثدي ما قبل الجراحي موجبة HER2 عامة — لا أحد منها يطبق طبقات استراتيجية أو يركز بشكل خاص على النمط الشبيه بالطبيعي. يشير هذا إلى خطر عدم تطابق السكان: قد يكون التنبؤ يلتقط الارتباط الواسع لبيرتوزوماب مع تجارب "سرطان الثدي" بشكل عام، بدلاً من ارتباط آلي حقيقي بهذا النمط المحدد. تأكيد ما إذا كانت مجموعة فرعية ذات تعبير HER2 مرتفع ذات مغزى سريري موجودة في الأورام الشبيهة بالطبيعي هو شرط أساسي قبل أن يمكن تقديمها بشكل ذي مغزى.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Phase 2 | Recruiting | 716 | Precision neoadjuvant therapy platform study across operable breast cancer subtypes to verify novel targeted drugs; population is broad, not normal-like-specific |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Phase 2 | Recruiting | 74 | Nigerian cohort evaluating optimal neoadjuvant-to-adjuvant anti-HER2 therapy by HER2 status; regional, small sample |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Phase 2 | Completed | 23 | Paclitaxel + trastuzumab + pertuzumab as preoperative therapy for inflammatory breast cancer |
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Phase 2 | Recruiting | 25 | WOKVAC vaccine combined with neoadjuvant chemotherapy and HER2-targeted antibody therapy; mixed immunotherapy/HER2-targeted mechanism |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Phase 1/2 | Recruiting | 46 | Neoadjuvant therapy guided by in-vitro patient-derived tumor-like cell cluster drug screening in HER2-positive early breast cancer |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Phase 2 | Recruiting | 370 | ARIADNE trial: trastuzumab deruxtecan vs. standard preoperative treatment with biology-driven treatment selection in non-metastatic HER2-positive breast cancer |
+| رقم التجربة | المرحلة | الحالة | التجنيد | الاستنتاجات الرئيسية |
+|---------|-------|------|--------|----------|
+| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | المرحلة 2 | قيد التجنيد | 716 | دراسة منصة العلاج الموجه الجديد عبر نماذج سرطان الثدي القابلة للتشغيل لتحقق من العقاقير الموجهة الجديدة؛ السكان واسعون، وليسوا محددين بشكل خاص لنمط شبيه بالطبيعي |
+| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | المرحلة 2 | قيد التجنيد | 74 | دراسة الدفعة النيجيرية التي تقيّم العلاج الأمثل قبل الجراحي والإضافي الموجه ضد HER2 حسب حالة HER2؛ إقليمية، عينة صغيرة |
+| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | المرحلة 2 | مكتملة | 23 | باكليتاكسيل + تراستوزوماب + بيرتوزوماب كعلاج قبل الجراحي لسرطان الثدي الالتهابي |
+| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | المرحلة 2 | قيد التجنيد | 25 | لقاح WOKVAC مدمج مع العلاج الكيميائي قبل الجراحي وعلاج الأجسام المضادة الموجه ضد HER2؛ آلية مناعة/موجهة ضد HER2 مختلطة |
+| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | المرحلة 1/2 | قيد التجنيد | 46 | العلاج قبل الجراحي الموجه بفحص الحساسية الدوائية خارج الجسم الحي لمجموعات الخلايا الشبيهة بالأورام المشتقة من المريض في سرطان الثدي المبكر موجب HER2 |
+| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | المرحلة 2 | قيد التجنيد | 370 | تجربة ARIADNE: تراستوزوماب ديروكستيكان مقابل العلاج قبل الجراحي القياسي مع اختيار العلاج الموجه بالبيولوجيا في سرطان الثدي موجب HER2 غير النقيلي |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Pertuzumab currently holds no marketing authorization in Saudi Arabia (0 licenses on record; market status: Not Marketed). No product-level licensing details are available for this jurisdiction.
+بيرتوزوماب لا يحتفظ حالياً بأي ترخيص تسويقي في المملكة العربية السعودية (0 رخصة في السجل؛ حالة السوق: لم يتم تسويقه). لا تتوفر تفاصيل ترخيص على مستوى المنتج لهذه الولاية القضائية.
 
-## Cytotoxicity
+## السمية الخلوية
 
-Pertuzumab is classified as an antineoplastic agent (HER2-targeted monoclonal antibody used in breast cancer treatment).
+بيرتوزوماب مصنف كعامل مضاد للورم (جسم مضاد أحادي النسيلة موجه ضد HER2 يُستخدم في علاج سرطان الثدي).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (HER2-directed monoclonal antibody; non-cytotoxic mechanism) |
-| Myelosuppression Risk | Low — monoclonal antibodies are not directly myelosuppressive; hematologic risk in practice is largely driven by concurrent cytotoxic partners (e.g., docetaxel/paclitaxel) in combination regimens |
-| Emetogenicity Classification | Low (minimal intrinsic emetogenic potential for the antibody component) |
-| Monitoring Items | Cardiac function/LVEF (particularly when combined with trastuzumab), infusion-related reactions, CBC and organ function when combined with cytotoxic chemotherapy partners |
-| Handling Protection | Standard biologics/monoclonal antibody handling; cytotoxic drug handling protocols apply to combination chemotherapy agents, not to pertuzumab itself |
+| العنصر | المحتوى |
+|------|---------|
+| تصنيف السمية الخلوية | العلاج الموجه (جسم مضاد موجه ضد HER2؛ آلية غير سامة للخلايا) |
+| خطر قمع النخاع | منخفض — الأجسام المضادة أحادية النسيلة ليست قامعة للنخاع بشكل مباشر؛ خطر الدم في الممارسة العملية يُدفع إلى حد كبير من خلال الشركاء السامين للخلايا المتزامنين (مثل الدوسيتاكسيل / الباكليتاكسيل) في الأنظمة المركبة |
+| تصنيف القيء المحدث | منخفض (الحد الأدنى من الإمكانات القيء المحدثة الجوهرية لمكون الجسم المضاد) |
+| عناصر المراقبة | وظيفة القلب / LVEF (خاصة عند دمجه مع تراستوزوماب)، ردود الفعل المتعلقة بالنقل، CBC وظيفة الأعضاء عند دمجه مع شركاء العلاج الكيميائي السامين للخلايا |
+| حماية التعامل | معالجة الأحياء / الأجسام المضادة أحادية النسيلة القياسية؛ تنطبق بروتوكولات التعامل مع العقاقير السامة للخلايا على عوامل العلاج الكيميائي المركبة، وليس على بيرتوزوماب نفسه |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: التوقف**
 
-**Rationale:**
-The predicted indication (normal breast-like subtype) lacks a solid mechanistic foundation — this subtype is not consistently associated with HER2 overexpression, and none of the identified trials specifically target or stratify by it. Combined with the absence of any supporting literature, the evidence base is too weak and too indirect to proceed, even with guardrails.
+**الأساس المنطقي:**
+المؤشر المتنبأ به (النمط الشبيه بالثدي الطبيعي) يفتقر إلى أساس آلي صلب — هذا النمط ليس مرتبطاً بشكل متسق بالإفراط في تعبير HER2، وأياً من التجارب المحددة لا تستهدف أو تطبق طبقات استراتيجية حسبه. بالاقتران مع عدم وجود أدبيات داعمة، قاعدة الأدلة ضعيفة جداً وغير مباشرة جداً للمتابعة، حتى مع الضمانات.
 
-**To proceed, the following is needed:**
-- Confirmation of HER2-overexpression prevalence within the normal-like breast cancer subtype (biomarker/epidemiological data)
-- TFDA/SFDA package insert data for warnings and contraindications (currently a Blocking data gap — DG001 — required before any S1 safety screening)
-- Verified DrugBank mechanism-of-action data (currently a High-severity data gap — DG002)
-- Consideration of the progesterone-receptor positive/negative breast cancer predictions (ranks 2–3 in this evidence pack), which show materially stronger evidence (L1, multiple completed Phase 3 RCTs) and may represent more actionable near-term repurposing candidates than this rank-1 prediction
+**لكي نتابع، يلزم ما يلي:**
+- تأكيد نسبة انتشار الإفراط في تعبير HER2 في النمط الشبيه بالثدي الطبيعي لسرطان الثدي (بيانات المؤشر الحيوي / الوبائية)
+- بيانات نشرة TFDA / SFDA بشأن التحذيرات وموانع الاستعمال (حالياً فجوة بيانات حجب — DG001 — مطلوبة قبل أي فحص سلامة S1)
+- التحقق من بيانات آلية العمل من DrugBank (حالياً فجوة بيانات عالية الخطورة — DG002)
+- مراعاة التنبؤات بسرطان الثدي الموجب / السالب لمستقبلات البروجسترون (الترتيب 2–3 في حزمة الأدلة هذه)، والتي تظهر أدلة أقوى بشكل ملموس (L1، تجارب عشوائية محكومة من المرحلة 3 مكتملة متعددة) وقد تمثل مرشحي إعادة تخصيص أقرب أكثر قابلية للعمل من هذا التنبؤ الترتيب الأول
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

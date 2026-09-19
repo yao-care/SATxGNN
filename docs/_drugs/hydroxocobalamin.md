@@ -29,77 +29,78 @@ indication_count: 2
 
 </div>
 
-# Hydroxocobalamin: From Cyanide Poisoning / Vasoplegic Shock to Esophageal Varices with Bleeding
+# هيدروكسوكوبالامين: من تسمم الزيانيد / الصدمة الوعائية إلى دوالي المريء النازفة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Hydroxocobalamin is a vitamin B12 precursor whose established clinical uses are cyanide poisoning antidote and nitric oxide (NO) scavenging in vasoplegic shock; it is not currently marketed in Taiwan.
-> The TxGNN model predicts it may be effective for **Esophageal Varices with Bleeding**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-score-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not registered in Taiwan (no licenses on file); known clinical uses are cyanide poisoning antidote and NO-scavenging for vasoplegic shock |
-| Predicted New Indication | Esophageal Varices with Bleeding |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> هيدروكسوكوبالامين هو سلف فيتامين B12 استخداماته السريرية المثبتة هي ترياق تسمم الزيانيد والتقاط أكسيد النيتريك (NO) في الصدمة الوعائية؛ وهو غير مسوق حالياً في تايوان.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **دوالي المريء مع النزيف**،
+> لكن هذا التنبؤ يدعمه حالياً **0 تجربة سريرية** و**0 منشور** — إنها إشارة درجة نموذج فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (original_moa is a data gap, and no Taiwan license/indication record exists for this drug). Based on the known pharmacology captured in this evidence pack, hydroxocobalamin's two established clinical mechanisms are (1) binding cyanide ions to form cyanocobalamin (cyanide detoxification) and (2) scavenging nitric oxide, which is used therapeutically to raise blood pressure in vasoplegic shock.
-
-The rationale for the esophageal varices prediction rests entirely on this NO-scavenging mechanism: bleeding esophageal varices arise from portal hypertension, which is driven in part by NO-mediated splanchnic vasodilation. In theory, hydroxocobalamin's NO-scavenging effect could constrict splanchnic vasculature and lower portal pressure — a mechanistic direction analogous to established vasoactive agents such as terlipressin or octreotide.
-
-However, this is a pharmacological inference only. No preclinical or clinical data link hydroxocobalamin to portal hypertension or variceal bleeding, and hydroxocobalamin's real-world use is limited to acute, short-duration dosing (cyanide poisoning, vasoplegic shock) — quite different from the acute-hemostasis-then-secondary-prophylaxis pattern needed for variceal disease. (TxGNN separately assigns an identical score to "esophageal varices without bleeding," rank 10996, which would require chronic dosing and has even weaker mechanistic support given the drug's short-term-use profile.) The mechanistic link should be regarded as low-strength until independent evidence emerges.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مسجل في تايوان (لا توجد تراخيص في الملف)؛ الاستخدامات السريرية المعروفة هي ترياق تسمم الزيانيد والتقاط NO للصدمة الوعائية |
+| المؤشر الجديد المتنبأ به | دوالي المريء مع النزيف |
+| درجة تنبؤ TxGNN | 99.23% |
+| مستوى الدليل | L5 |
+| حالة سوق تايوان | غير مسوق (غير مسوق) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (original_moa فجوة بيانات، وليس هناك سجل ترخيص/مؤشر تايواني لهذا الدواء). بناءً على الدراسة الدوائية المعروفة الموضحة في حزمة الأدلة هذه، فإن آليات هيدروكسوكوبالامين السريرية المثبتة هي (1) ارتباط أيونات الزيانيد لتشكيل سيانوكوبالامين (إزالة سموم الزيانيد) و(2) التقاط أكسيد النيتريك، والذي يُستخدم علاجياً لرفع ضغط الدم في الصدمة الوعائية.
 
----
+يستند أساس تنبؤ دوالي المريء بالكامل على آلية التقاط NO هذه: تنشأ دوالي المريء النازفة من ارتفاع ضغط الدم البابي، والذي يحركه جزئياً توسع الأوعية الدموية الإحشائية الذي يتوسطه أكسيد النيتريك. نظرياً، يمكن لتأثير التقاط NO للهيدروكسوكوبالامين أن يضيق الأوعية الدموية الإحشائية وينخفض ضغط البابي — اتجاه آلي مشابه للعوامل الفعالة وعائياً المثبتة مثل تيرليبريسين أو أوكتريوتيد.
 
-## Taiwan Market Information
-
-Hydroxocobalamin is not marketed in Taiwan (0 authorizations on file); no product/license data is available.
+ومع ذلك، هذا استدلال دوائي فقط. لا توجد بيانات سابقة للسريرية أو سريرية تربط هيدروكسوكوبالامين بارتفاع ضغط الدم البابي أو نزيف الدوالي، واستخدام هيدروكسوكوبالامين في الحياة الواقعية محدود بالجرعات الحادة قصيرة المدى (تسمم الزيانيد، الصدمة الوعائية) — مختلف تماماً عن نمط الإرقاء الحاد متبوعاً بالوقاية الثانوية المطلوبة لمرض الدوالي. (يخصص TxGNN نفس الدرجة بشكل منفصل لـ "دوالي المريء بدون نزيف"، الرتبة 10996، والتي تتطلب جرعات مزمنة ولها دعم آلي أضعف حتى بالنظر إلى ملف الاستخدام قصير الأجل للدواء.) يجب اعتبار الرابط الآلي ضعيفاً حتى يظهر دليل مستقل.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة
 
-**Rationale:**
-The prediction is evidence level L5 (model score only, no clinical trials, no literature, no preclinical data), and the drug has no Taiwan regulatory footprint or safety profile on file. There is nothing beyond a theoretical mechanistic argument to support advancing this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / label warnings and contraindications (currently blocking — DG001)
-- Verified mechanism of action from DrugBank (currently data gap — DG002)
-- Any preclinical or in-vivo evidence connecting NO-scavenging activity to portal pressure reduction
-- Safety data for repeated/chronic dosing, since variceal disease management is not a single-dose scenario like cyanide poisoning
-- Confirmation of whether this signal should be pursued given the identical, equally unsupported score on the related "without bleeding" indication
+## معلومات سوق تايوان
+
+لا يتم تسويق هيدروكسوكوبالامين في تايوان (0 تراخيص في الملف)؛ لا توجد بيانات المنتج/الترخيص متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+التنبؤ هو مستوى دليل L5 (درجة النموذج فقط، لا توجد تجارب سريرية، لا توجد أدبيات، لا توجد بيانات سابقة للسريرية)، والدواء لا يملك سجل ترخيص تايواني أو ملف أمان موثق. لا يوجد سوى حجة آلية نظرية لدعم تقدم هذا المرشح.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA / تحذيرات العنوان والموانع (يحجب حالياً — DG001)
+- آلية عمل تم التحقق منها من DrugBank (فجوة بيانات حالياً — DG002)
+- أي دليل سابق للسريرية أو في الجسم الحي يربط نشاط التقاط NO بتقليل ضغط البابي
+- بيانات الأمان للجرعات المتكررة/المزمنة، لأن إدارة مرض الدوالي ليست سيناريو جرعة واحدة مثل تسمم الزيانيد
+- تأكيد ما إذا كان يجب متابعة هذه الإشارة بالنظر إلى الدرجة المتطابقة وغير المدعومة بنفس القدر على مؤشر "بدون نزيف" المرتبط
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

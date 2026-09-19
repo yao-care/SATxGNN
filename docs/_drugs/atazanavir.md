@@ -29,138 +29,139 @@ indication_count: 6
 
 </div>
 
-# Atazanavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+# أتازانافير: من عدوى فيروس نقص المناعة البشرية إلى عدوى فيروس نقص المناعة لدى القردة
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Atazanavir is an HIV protease inhibitor used internationally for the treatment of HIV-1 and HIV-2 infection, though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, with **0 clinical trials** and **1 publication** currently supporting this direction.
-Of note, two additional predictions within the HIV disease spectrum — AIDS Related Complex (rank 5) and Congenital HIV Infection (rank 6) — carry **L1 evidence** backed by multiple completed Phase 3 trials, representing substantially more actionable repurposing opportunities.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | HIV-1/HIV-2 infection (internationally approved; not registered in Saudi Arabia) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أتازانافير هو مثبط الأنزيم البروتيني لفيروس نقص المناعة البشرية المستخدم عالمياً لعلاج عدوى فيروس نقص المناعة البشرية من النوع 1 والنوع 2، لكنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **عدوى فيروس نقص المناعة لدى القردة (SIV)**، مع **0 تجربة سريرية** و **منشور واحد** يدعم هذا الاتجاه حالياً.
+وتجدر الإشارة إلى أن تنبؤين إضافيين ضمن طيف أمراض فيروس نقص المناعة البشرية — معقد الإيدز ذات الصلة (الترتيب 5) وعدوى فيروس نقص المناعة البشرية الخلقية (الترتيب 6) — يحملان **دليل L1** مدعوم بعدد من التجارب السريرية المرحلة 3 المكتملة، مما يمثل فرص إعادة توجيه العقاقير الأكثر قابلية للتطبيق.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Atazanavir is an azapeptide-class HIV protease inhibitor (PI). It selectively binds to and inhibits HIV-1/HIV-2 protease — the enzyme responsible for cleaving the Gag-Pol polyprotein precursor into structural proteins and enzymes required for mature, infectious virion assembly. Without active protease, newly budded viral particles remain immature and non-infectious. In clinical practice, atazanavir is pharmacokinetically boosted with ritonavir (300/100 mg once daily) or cobicistat and deployed as part of combination antiretroviral therapy (cART). It carries a distinct metabolic advantage over earlier PIs in that it causes less dyslipidaemia.
-
-SIV (Simian Immunodeficiency Virus) is a lentivirus closely related to HIV that naturally infects non-human primates — chimpanzees, sooty mangabeys, and macaques. The SIV protease shares considerable structural and sequence homology with HIV-1 protease, making it a biologically plausible target for PI-class agents. Indeed, SIV-infected rhesus macaque models are the standard preclinical platform for testing HIV/AIDS therapeutics, and PI-containing HAART regimens have been evaluated in these models to study viral suppression, CNS reservoir dynamics, and immune reconstitution.
-
-However, it is important to contextualise this prediction: SIV is not a human pathogen. Any repurposing application would be confined to veterinary or preclinical research settings rather than a human clinical indication. The TxGNN model likely generated this high-scoring prediction through structural homology propagation within its lentivirus knowledge-graph node cluster. The single supporting publication (a primate HAART model study) confirms biological plausibility but does not establish a human therapeutic pathway.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for simian immunodeficiency virus infection.
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | عدوى فيروس نقص المناعة البشرية 1/2 (معتمد عالمياً؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | عدوى فيروس نقص المناعة لدى القردة |
+| درجة التنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L4 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Animal Study (Primate Model) | The Journal of Infectious Diseases | SIV-infected macaques treated with HAART showed reduced CNS viral replication and neuroinflammation, but viral DNA persisted in the CNS despite effective plasma viremia suppression — highlighting the CNS reservoir problem relevant to both SIV and HIV |
+أتازانافير هو مثبط الأنزيم البروتيني من فئة الأزابببتيد لفيروس نقص المناعة البشرية (PI). يرتبط بشكل انتقائي بالأنزيم البروتيني لفيروس نقص المناعة البشرية 1/2 ويثبطه — الإنزيم المسؤول عن شطر سلائف البروتين المتعدد Gag-Pol إلى البروتينات الهيكلية والإنزيمات المطلوبة لتجميع الجزيئات الفيروسية الناضجة والمعدية. بدون بروتياز نشط، تبقى جزيئات الفيروس المبرعمة حديثاً غير ناضجة وغير معدية. في الممارسة السريرية، يتم تحسين أتازانافير من الناحية الحركية الدوائية باستخدام ريتونافير (300/100 ملغ مرة واحدة يومياً) أو كوبيسيستات وينشر كجزء من العلاج المضاد للفيروسات العكسية المركب (cART). وهو يتمتع بميزة استقلابية مميزة على الأنزيمات البروتينية السابقة في أنه يسبب اختلال دهون أقل.
 
----
+فيروس نقص المناعة لدى القردة (SIV) هو فيروس بطيء الحركة يرتبط ارتباطاً وثيقاً بفيروس نقص المناعة البشرية ويصيب الرئيسيات غير البشرية بشكل طبيعي — الشمبانزي والمنجابي والقردة الماكاك. يتشارك الأنزيم البروتيني SIV تشابهاً هيكلياً وتسلسلياً كبيراً مع بروتياز فيروس نقص المناعة البشرية 1، مما يجعله هدفاً معقولاً بيولوجياً لعوامل PI. في الواقع، نماذج الماكاك الريزيسي المصاب بـ SIV هي المنصة السابقة الإكلينيكية القياسية لاختبار العلاجات لفيروس نقص المناعة البشرية/الإيدز، وتم تقييم أنظمة HAART التي تحتوي على PI في هذه النماذج لدراسة الكبح الفيروسي وديناميات مخزون الجهاز العصبي المركزي وإعادة بناء الجهاز المناعي.
 
-## Saudi Arabia Market Information
-
-Atazanavir has no regulatory authorisations in Saudi Arabia. It is not currently marketed.
+ومع ذلك، من المهم وضع هذا التنبؤ في سياقه الصحيح: فيروس نقص المناعة لدى القردة ليس من مسببات الأمراض البشرية. ستقتصر أي تطبيق إعادة توجيه على بيئات بحثية بيطرية أو سابقة للعيادات بدلاً من استطباب سريري بشري. من المحتمل أن ينتج نموذج TxGNN هذا التنبؤ عالي الدرجة من خلال انتشار التشابه الهيكلي ضمن مجموعة عقدة فيروس بطيء الحركة في الرسم البياني للمعرفة. يؤكد المنشور الداعم الواحد (دراسة نموذج HAART للرئيسيات) المعقولية البيولوجية لكنه لا ينشئ مساراً علاجياً بشرياً.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-Simian immunodeficiency virus infection is a non-human primate disease with no established human clinical indication pathway; the sole supporting publication is a primate animal model study (evidence tier 3, L4), and no clinical trials exist. While the mechanistic extrapolation from HIV to SIV is biologically reasonable, this prediction does not translate into a viable human drug repurposing candidate.
-
-**To proceed with SIV-related research, the following is needed:**
-- Clarify the research question: Is the goal to use atazanavir in SIV macaque models to study CNS penetration and HIV-associated neurocognitive disorders (HAND)?
-- If targeting HAND or CNS reservoir research: redesign as a dedicated CNS-HIV translational study
-- Obtain full mechanism of action data for atazanavir (currently a data gap)
-- Assess regulatory pathway in Saudi Arabia before any clinical application
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لعدوى فيروس نقص المناعة لدى القردة.
 
 ---
 
-### Higher-Priority Predictions Warranting Immediate Attention
+## دليل الأدبيات
 
-Two TxGNN predictions within the HIV disease spectrum carry **L1 evidence** and a **"Proceed with Guardrails"** recommendation — far stronger than the rank-1 SIV prediction:
-
-**AIDS Related Complex (rank 5, score 99.71%, L1)**
-- 2 completed Phase 3 trials directly assessing atazanavir: [NCT00035932](https://clinicaltrials.gov/study/NCT00035932) (n=571, ATV+RTV vs LPV/r) and [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) (n=82, paediatric Phase 3)
-- AIDS Related Complex represents the mid-spectrum stage of HIV infection; atazanavir's direct mechanism (HIV protease inhibition) applies throughout the entire HIV disease continuum, including ARC
-- 3 supporting publications including retrospective cohort and in vitro mechanistic studies
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00035932](https://clinicaltrials.gov/study/NCT00035932) | Phase 3 | Completed | 571 | ATV+RTV or ATV+SQV combined with LPV/r, TDF and nucleoside backbone in treatment-experienced HIV subjects; head-to-head virologic suppression and safety data |
-| [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) | Phase 3 | Completed | 82 | ATV powder boosted with RTV in HIV-infected children ≥3 months to <6 years (PRINCE I); international multicentre PK, safety, and efficacy |
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | Cohort/Observational | AIDS Reviews | Risk factors for GI adverse events in HIV-treated patients; atazanavir-related tolerability profile in ARC/AIDS continuum |
-| [28991888](https://pubmed.ncbi.nlm.nih.gov/28991888/) | 2018 | Retrospective Cohort | J Acquir Immune Defic Syndr | Differential effects of cART regimens including PI-based therapy on AIDS-defining neurological conditions (neuroAIDS) |
-| [34978889](https://pubmed.ncbi.nlm.nih.gov/34978889/) | 2022 | Medicinal Chemistry / In Vitro | Antimicrobial Agents and Chemotherapy | CNS-targeting HIV protease inhibitors with enhanced blood-brain barrier penetration — context for next-generation PI design beyond atazanavir |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | دراسة حيوانية (نموذج الرئيسيات) | The Journal of Infectious Diseases | أظهرت القردة الماكاك المصابة بـ SIV والمعالجة بـ HAART تقليلاً في التضاعف الفيروسي في الجهاز العصبي المركزي والالتهاب العصبي، لكن الحمض النووي الفيروسي ظل موجوداً في الجهاز العصبي المركزي على الرغم من الكبح الفيروسي الفعال في البلازما — مما يسلط الضوء على مشكلة مخزون الجهاز العصبي المركزي ذات الصلة بكل من SIV وفيروس نقص المناعة البشرية |
 
 ---
 
-**Congenital HIV / Prevention of Mother-to-Child Transmission (rank 6, score 99.71%, L1)**
-- 33 clinical trials retrieved; 7 publications covering pregnancy PK, congenital anomaly surveillance, and placental drug transport
+## معلومات سوق المملكة العربية السعودية
 
-Selected key trials (top 10 by relevance):
+لا يحتفظ أتازانافير بأي تصاريح تنظيمية في المملكة العربية السعودية. وهو غير مسوق حالياً.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00272779](https://clinicaltrials.gov/study/NCT00272779) | Phase 3 | Completed | 1,057 | ATV/r vs LPV/r each with TDF/FTC over 96 weeks in treatment-naïve HIV-1 subjects; largest head-to-head PI comparison trial |
-| [NCT02269917](https://clinicaltrials.gov/study/NCT02269917) | Phase 3 | Completed | 1,149 | Switch from boosted PI (including ATV/r) to D/C/F/TAF single-tablet regimen; largest completed randomised switch trial |
-| [NCT01691794](https://clinicaltrials.gov/study/NCT01691794) | Phase 4 | Completed | 108 | ATV capsule + RTV in HIV-infected paediatric patients aged 6–<18 years; dedicated safety data collection in specific paediatric populations |
-| [NCT04518228](https://clinicaltrials.gov/study/NCT04518228) | N/A | Completed | 205 | PK of ARV and anti-TB drugs during pregnancy and postpartum; core dataset for ATV dosing adjustments in pregnancy |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | N/A | Completed | 1,578 | IMPAACT P1026s — the definitive prospective PK study of ARVs including ATV in pregnant women and their infants |
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Active, not recruiting | 618 | ATLAS study — long-acting CAB+RPV vs PI-based (including ATV) regimens in virologically suppressed adults |
-| [NCT00135356](https://clinicaltrials.gov/study/NCT00135356) | Phase 4 | Completed | 219 | REAL study — ATV/r substitution for lipodystrophy management in HIV-infected patients on HAART |
-| [NCT01003990](https://clinicaltrials.gov/study/NCT01003990) | Phase 3 | Completed | 710 | Extended access study providing long-term safety data across ATV clinical trial completers |
-| [NCT01335698](https://clinicaltrials.gov/study/NCT01335698) | Phase 3 | Completed | 160 | PRINCE II — ATV powder + RTV in paediatric patients 3 months to <11 years; safety, efficacy and PK |
-| [NCT01910402](https://clinicaltrials.gov/study/NCT01910402) | Phase 3 | Completed | 499 | DTG/ABC/3TC vs ATV+RTV+TDF/FTC in HIV-1 infected ART-naïve women over 48 weeks |
+---
 
-Key literature for congenital HIV / PMTCT:
+## اعتبارات السلامة
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [27242802](https://pubmed.ncbi.nlm.nih.gov/27242802/) | 2016 | Prospective Cohort (PHACS SMARTT) | Frontiers in Immunology | Comprehensive surveillance of in utero ARV toxicities across >3,500 HIV-exposed uninfected infants; metabolic, cardiac, neurological, and developmental outcomes assessed |
-| [24992294](https://pubmed.ncbi.nlm.nih.gov/24992294/) | 2015 | Prospective PK Study | Antiviral Therapy | ATV exposure remains adequate during pregnancy regardless of tenofovir co-use; informs dosing strategy for PMTCT |
-| [25383770](https://pubmed.ncbi.nlm.nih.gov/25383770/) | 2015 | Prospective Observational | JAMA Pediatrics | Congenital anomaly rates in HIV-exposed uninfected infants with in utero ARV exposure including ATV; safety signal assessment |
-| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Case/Non-case (Pharmacovigilance) | European Journal of Clinical Pharmacology | European congenital anomaly registry analysis of ARV-exposed pregnancies; most recent pharmacovigilance dataset on ATV fetal safety |
-| [29859254](https://pubmed.ncbi.nlm.nih.gov/29859254/) | 2018 | In Vitro / Mechanistic | Reproductive Toxicology | ATV and RTV interactions with placental ABC transporters (ABCB1, ABCG2, ABCC2); explains moderate placental transfer and informs fetal exposure modelling |
-| [28459118](https://pubmed.ncbi.nlm.nih.gov/28459118/) | 2016 | Prospective Observational | Journal of AIDS and Immune Research | Newborn hearing screening outcomes in HIV-exposed uninfected infants from PHACS SMARTT; safety surveillance data |
-| [31595301](https://pubmed.ncbi.nlm.nih.gov/31595301/) | 2020 | Pharmacovigilance Database Analysis | Clinical Infectious Diseases | Pharmacovigilance database analysis of ARV safety signals in pregnancy; comparative context for ATV vs newer agents |
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
 
-**Guardrails for congenital HIV / PMTCT indication:**
-- Monitor for maternal nephrolithiasis (urinary crystal risk elevated in pregnancy)
-- Neonatal hyperbilirubinaemia risk (UGT1A1 inhibition → indirect bilirubin accumulation)
-- ATV AUC decreases ~17–28% during second/third trimester when co-administered with TDF; dose adjustment to ATV/r 400/100 mg may be required
-- Placental transfer is moderate; neonatal exposure should be monitored
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+عدوى فيروس نقص المناعة لدى القردة هي مرض يصيب الرئيسيات غير البشرية بدون مسار استطباب سريري بشري محدد؛ المنشور الداعم الوحيد هو دراسة نموذج حيواني للرئيسيات (المستوى 3 من الدليل، L4)، ولا توجد تجارب سريرية. بينما يكون الاستقراء الميكانيكي من فيروس نقص المناعة البشرية إلى SIV معقولاً بيولوجياً، فإن هذا التنبؤ لا ينتقل إلى مرشح قابل للتطبيق لإعادة توجيه العقاقير البشرية.
+
+**للمتابعة بحثاً عن SIV، يلزم ما يلي:**
+- توضيح السؤال البحثي: هل الهدف هو استخدام أتازانافير في نماذج ماكاك SIV لدراسة اختراق الجهاز العصبي المركزي واضطرابات الإدراك المرتبطة بفيروس نقص المناعة البشرية (HAND)؟
+- إذا كان الهدف هو HAND أو بحث مخزون الجهاز العصبي المركزي: إعادة التصميم كدراسة ترجمة CNS-HIV مكرسة
+- الحصول على بيانات آلية الفعل الكاملة لأتازانافير (حالياً فجوة في البيانات)
+- تقييم المسار التنظيمي في المملكة العربية السعودية قبل أي تطبيق سريري
+
+---
+
+### التنبؤات ذات الأولوية الأعلى التي تستحق الاهتمام الفوري
+
+يحمل تنبؤا TxGNN ضمن طيف أمراض فيروس نقص المناعة البشرية **L1 دليل** وتوصية **"المتابعة مع الحراسة"** — أقوى بكثير من تنبؤ SIV من الترتيب 1:
+
+**معقد الإيدز ذات الصلة (الترتيب 5، الدرجة 99.71%، L1)**
+- تجربتا Phase 3 مكتملتان تقييم مباشر لأتازانافير: [NCT00035932](https://clinicaltrials.gov/study/NCT00035932) (n=571, ATV+RTV مقابل LPV/r) و [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) (n=82, Phase 3 طفلي)
+- يمثل معقد الإيدز ذات الصلة مرحلة منتصف الطيف من عدوى فيروس نقص المناعة البشرية؛ آلية أتازانافير المباشرة (تثبيط البروتياز) تنطبق على كامل طيف أمراض فيروس نقص المناعة البشرية، بما في ذلك ARC
+- 3 منشورات داعمة بما في ذلك دراسات الأتراب الاستعادية والدراسات الميكانيكية في الجسم الحي
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-------------|--------|--------|---------|-----------------|
+| [NCT00035932](https://clinicaltrials.gov/study/NCT00035932) | Phase 3 | مكتملة | 571 | ATV+RTV أو ATV+SQV مع LPV/r, TDF والعمود الفقري للنيوكليوسيد في موضوعات لديها خبرة في العلاج؛ بيانات الكبح الفيروسي والسلامة head-to-head |
+| [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) | Phase 3 | مكتملة | 82 | مسحوق ATV معزز باستخدام RTV في أطفال مصابين بفيروس نقص المناعة البشرية ≥3 أشهر إلى <6 سنوات (PRINCE I)؛ دراسة بحثية عالمية متعددة المراكز PK، السلامة والفعالية |
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | أتراب/رصد بالمراقبة | AIDS Reviews | عوامل الخطر للأحداث المعدية المعوية في مرضى المعالجة بـ HIV؛ ملف تعريف التسامح المرتبط بأتازانافير في سياق ARC/AIDS |
+| [28991888](https://pubmed.ncbi.nlm.nih.gov/28991888/) | 2018 | أتراب استعادي | J Acquir Immune Defic Syndr | الآثار المختلفة لأنظمة cART بما في ذلك العلاج القائم على PI على حالات عصبية معرفة للإيدز (neuroAIDS) |
+| [34978889](https://pubmed.ncbi.nlm.nih.gov/34978889/) | 2022 | كيمياء الأدوية / في الجسم الحي | Antimicrobial Agents and Chemotherapy | مثبطات الأنزيم البروتيني لفيروس نقص المناعة البشرية الموجهة لـ CNS مع اختراق محسّن لحاجز الدم في الدماغ — السياق لتصميم PI من الجيل التالي بعد أتازانافير |
+
+---
+
+**عدوى فيروس نقص المناعة البشرية الخلقية / منع انتقال الفيروس من الأم إلى الطفل (الترتيب 6، الدرجة 99.71%، L1)**
+- 33 تجربة سريرية تم استرجاعها؛ 7 منشورات تغطي PK الحمل والمراقبة الخلقية للعيوب وانتقال الأدوية عبر المشيمة
+
+التجارب الرئيسية المختارة (أفضل 10 حسب الملاءمة):
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-------------|--------|--------|---------|-----------------|
+| [NCT00272779](https://clinicaltrials.gov/study/NCT00272779) | Phase 3 | مكتملة | 1,057 | ATV/r مقابل LPV/r كل منهما مع TDF/FTC على مدار 96 أسبوع في موضوعات علاج جديد لفيروس نقص المناعة البشرية 1؛ أكبر تجربة مقارنة PI head-to-head |
+| [NCT02269917](https://clinicaltrials.gov/study/NCT02269917) | Phase 3 | مكتملة | 1,149 | التبديل من PI معزز (بما في ذلك ATV/r) إلى عقار أحادي الجرعة D/C/F/TAF؛ أكبر تجربة تبديل عشوائية مكتملة |
+| [NCT01691794](https://clinicaltrials.gov/study/NCT01691794) | Phase 4 | مكتملة | 108 | كبسولة ATV + RTV في مرضى أطفال مصابين بفيروس نقص المناعة البشرية تتراوح أعمارهم بين 6–<18 سنة؛ جمع بيانات السلامة المكرس في مجموعات سكانية طفلية محددة |
+| [NCT04518228](https://clinicaltrials.gov/study/NCT04518228) | N/A | مكتملة | 205 | PK من ARV والأدوية المضادة للدرن أثناء الحمل وما بعد الولادة؛ مجموعة البيانات الأساسية لتعديلات جرعة ATV أثناء الحمل |
+| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | N/A | مكتملة | 1,578 | IMPAACT P1026s — دراسة PK الاستشرافية الحاسمة لـ ARVs بما في ذلك ATV في الحوامل والرضع لديهن |
+| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | نشط، لا يتم تجنيد | 618 | دراسة ATLAS — CAB+RPV طويل الأجل مقابل أنظمة قائمة على PI (بما في ذلك ATV) في البالغين المثبط فيروسياً |
+| [NCT00135356](https://clinicaltrials.gov/study/NCT00135356) | Phase 4 | مكتملة | 219 | دراسة REAL — استبدال ATV/r لإدارة lipodystrophy في مرضى HIV على HAART |
+| [NCT01003990](https://clinicaltrials.gov/study/NCT01003990) | Phase 3 | مكتملة | 710 | دراسة الوصول الموسع توفير بيانات السلامة على المدى الطويل عبر مكملي التجارب السريرية ATV |
+| [NCT01335698](https://clinicaltrials.gov/study/NCT01335698) | Phase 3 | مكتملة | 160 | PRINCE II — مسحوق ATV + RTV في مرضى أطفال 3 أشهر إلى <11 سنة؛ السلامة والفعالية و PK |
+| [NCT01910402](https://clinicaltrials.gov/study/NCT01910402) | Phase 3 | مكتملة | 499 | DTG/ABC/3TC مقابل ATV+RTV+TDF/FTC في النساء المصابات بـ HIV-1 العلاج الجديد على مدار 48 أسبوع |
+
+الأدبيات الرئيسية لعدوى فيروس نقص المناعة البشرية الخلقية / PMTCT:
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [27242802](https://pubmed.ncbi.nlm.nih.gov/27242802/) | 2016 | أتراب استشراف (PHACS SMARTT) | Frontiers in Immunology | مراقبة شاملة لسميات ARV في الرحم عبر >3,500 رضيع معرض لـ HIV غير مصاب؛ تم تقييم النتائج الأيضية والقلبية والعصبية والإنمائية |
+| [24992294](https://pubmed.ncbi.nlm.nih.gov/24992294/) | 2015 | دراسة PK استشراف | Antiviral Therapy | التعرض لـ ATV يبقى كافياً أثناء الحمل بغض النظر عن استخدام tenofovir المشارك؛ يوجه استراتيجية الجرعات لـ PMTCT |
+| [25383770](https://pubmed.ncbi.nlm.nih.gov/25383770/) | 2015 | مراقبة استشرافية | JAMA Pediatrics | معدلات العيب الخلقي في الرضع المعرضين لـ HIV غير المصابين مع التعرض لـ ARV في الرحم بما في ذلك ATV؛ تقييم إشارة السلامة |
+| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | حالة/non-case (pharmacovigilance) | European Journal of Clinical Pharmacology | تحليل سجل العيب الخلقي الأوروبي للحمل المعرض لـ ARV؛ أحدث مجموعة بيانات pharmacovigilance على سلامة الأجنة ATV |
+| [29859254](https://pubmed.ncbi.nlm.nih.gov/29859254/) | 2018 | في الجسم الحي / الآلية | Reproductive Toxicology | تفاعلات ATV و RTV مع منقولات ABC المشيمية (ABCB1, ABCG2, ABCC2)؛ يشرح النقل المشيمي المعتدل ويوجه نمذجة التعرض الجنيني |
+| [28459118](https://pubmed.ncbi.nlm.nih.gov/28459118/) | 2016 | مراقبة استشرافية | Journal of AIDS and Immune Research | نتائج الفحص السمعي للأطفال حديثي الولادة في الرضع المعرضين لـ HIV من PHACS SMARTT؛ بيانات مراقبة السلامة |
+| [31595301](https://pubmed.ncbi.nlm.nih.gov/31595301/) | 2020 | تحليل قاعدة بيانات Pharmacovigilance | Clinical Infectious Diseases | تحليل قاعدة بيانات pharmacovigilance لإشارات سلامة ARV أثناء الحمل؛ السياق المقارن لـ ATV مقابل عوامل أحدث |
+
+**الحراسة لاستطباب عدوى فيروس نقص المناعة البشرية الخلقية / PMTCT:**
+- راقب nephrolithiasis الأمومية (ارتفاع خطر البلورات البولية أثناء الحمل)
+- خطر فرط بيليروبين الدم لدى الوليد (تثبيط UGT1A1 → تراكم البيليروبين غير المباشر)
+- يقل ATV AUC بمقدار ~17–28% خلال الثلث الثاني/الثالث من الحمل عند إعطاؤه بشكل متزامن مع TDF؛ قد يكون تعديل الجرعة إلى ATV/r 400/100 ملغ مطلوباً
+- النقل عبر المشيمة معتدل؛ يجب مراقبة التعرض الوليدي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

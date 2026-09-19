@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Hydrocortisone: From Corticosteroid Anti-Inflammatory Therapy to Alopecia Areata
+# hydrocortisone: من العلاج المضاد للالتهاب بالكورتيكوستيرويد إلى داء الثعلبة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Hydrocortisone is a glucocorticoid corticosteroid; detailed original-indication and mechanism-of-action data are not available in this evidence pack (data gaps DG001/DG002).
-The TxGNN model predicts it may be effective for **Alopecia Areata**,
-with **4 clinical trials** and **20 publications** currently identified, including one completed Phase 3 RCT that directly compares topical hydrocortisone to a comparator steroid in this indication.
+hydrocortisone (الهيدروكورتيزون) هو دواء كورتيكوستيرويد جلوكوكورتيكويد؛ لا تتوفر بيانات تفصيلية حول دواعي الاستعمال الأصلية وآلية العمل في حزمة الأدلة هذه (فجوات بيانات DG001/DG002).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً **لداء الثعلبة**،
+مع وجود **4 تجارب سريرية** و **20 منشور** معروف حالياً، بما في ذلك إحدى تجارب المرحلة 3 العشوائية المكتملة التي تقارن hydrocortisone الموضعي مباشرة بستيرويد مقارن لداء الثعلبة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not specified in evidence pack (data gap — see DG001/DG002; hydrocortisone is broadly known as a glucocorticoid used for adrenal insufficiency replacement and anti-inflammatory/anti-allergic therapy) |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 (1 completed Phase 2/3 RCT — NCT01453686/PMID 24226568; historical case-series data support but do not add a second Phase 3 RCT) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| دواعي الاستعمال الأصلية | غير محددة في حزمة الأدلة (فجوة بيانات — انظر DG001/DG002؛ يُعرف hydrocortisone على نطاق واسع بأنه دواء جلوكوكورتيكويد يُستخدم لاستبدال قصور الغدة الكظرية والعلاج المضاد للالتهاب والمضاد للحساسية) |
+| دواعي الاستعمال المتنبأ بها الجديدة | داء الثعلبة |
+| درجة التنبؤ من TxGNN | 99.97% |
+| مستوى الأدلة | L2 (تجربة واحدة المرحلة 2/3 عشوائية مكتملة — NCT01453686/PMID 24226568؛ بيانات سلسلة حالات تاريخية توفر الدعم لكن لا تضيف تجربة مرحلة 3 ثانية) |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات الحماية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism-of-action data for hydrocortisone is not available in this evidence pack. Based on known pharmacology and on the repurposing rationale accompanying this prediction, hydrocortisone is a glucocorticoid; its class exerts local anti-inflammatory and immunosuppressive effects, which is the pharmacologic basis already used clinically for corticosteroids in alopecia areata (AA).
+حالياً، لا تتوفر بيانات تفصيلية حول آلية العمل لـ hydrocortisone في حزمة الأدلة هذه. بناءً على الصيدلة المعروفة والأساس المنطقي لإعادة الاستعمال المصاحب لهذا التنبؤ، يعتبر hydrocortisone دواء جلوكوكورتيكويد؛ تمارس فئته تأثيرات موضعية مضادة للالتهاب ومثبطة للمناعة، وهو الأساس الدوائي المستخدم بالفعل سريرياً للكورتيكوستيرويدات في داء الثعلبة.
 
-AA is understood as a T-cell-mediated autoimmune attack on hair follicles. Topical and intralesional corticosteroids — including hydrocortisone specifically — have a long clinical history in this disease, particularly in children and in mild-to-moderate patches, as reflected in case-series literature dating back to the 1950s–60s alongside a modern randomized comparison against a higher-potency steroid.
+يُفهم داء الثعلبة على أنه هجوم وسيط بخلايا T ذاتي المناعة على بصيلات الشعر. تحتوي الكورتيكوستيرويدات الموضعية والمحقونة داخل الآفة — بما في ذلك hydrocortisone على وجه التحديد — على تاريخ سريري طويل في هذا المرض، خاصة عند الأطفال وفي البقع الخفيفة إلى المتوسطة، كما ينعكس ذلك في أدب سلسلة الحالات يرجع إلى الخمسينيات والستينيات إلى جانب مقارنة عشوائية حديثة ضد ستيرويد ذو فعالية أعلى.
 
-Because the evidence pack does not contain a confirmed original indication or formal MOA record for hydrocortisone (DG002), this section should be read as mechanistically plausible based on drug-class knowledge and the trial/literature evidence below, rather than as a validated regulatory MOA statement.
+نظراً لأن حزمة الأدلة لا تحتوي على دواعي استعمال أصلية مؤكدة أو سجل رسمي لآلية العمل لـ hydrocortisone (DG002)، يجب قراءة هذا القسم على أنه معقول من الناحية الآلية بناءً على معرفة فئة الأدوية وأدلة التجارب/الأدبيات أدناه، بدلاً من بيان MOA الخاضع للتنظيم والمعتمد.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | RCT in children with AA comparing clobetasol propionate 0.05% cream vs hydrocortisone 1% cream; addresses the lack of high-quality evidence on which topical steroid potency is safe and effective for this disorder. |
-| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | Completed | 18 | Evaluated adrenal-axis effects of intralesional triamcinolone acetonide (not hydrocortisone) in AA patients; mechanistically related (corticosteroid class) but different drug and endpoint. |
-| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | N/A | Not yet recruiting | 72 | Planned 4-arm dose-response study of hair growth products vs placebo in androgenic alopecia (not AA); drug identity and steroid content unspecified. |
-| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | N/A | Completed | 380 | Observational study of abnormal cortisol metabolism on bone density/strength in patients with mild autonomous cortisol secretion; not an AA treatment trial, only indirectly relevant via glucocorticoid physiology. |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | مكتملة | 41 | تجربة عشوائية في الأطفال الذين يعانون من داء الثعلبة تقارن كريم clobetasol propionate 0.05% مقابل كريم hydrocortisone 1%؛ توضح الحاجة إلى أدلة عالية الجودة حول أي قوة ستيرويد موضعي آمن وفعال لهذا الاضطراب. |
+| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | مكتملة | 18 | قيمت تأثيرات محور الغدة الكظرية للحقن داخل الآفة من triamcinolone acetonide (وليس hydrocortisone) في مرضى داء الثعلبة؛ مرتبط من الناحية الآلية (فئة الكورتيكوستيرويد) لكن دواء ونقطة نهاية مختلفة. |
+| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | N/A | لم يبدأ بعد | 72 | دراسة استجابة الجرعة المخطط لها لمنتجات نمو الشعر مقابل الدواء الوهمي في تساقط الشعر الأندروجيني (وليس داء الثعلبة)؛ هوية الدواء ومحتوى الستيرويد غير محدد. |
+| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | N/A | مكتملة | 380 | دراسة ملاحظة لاضطراب استقلاب الكورتيزول وتأثيره على كثافة/قوة العظام لدى المرضى الذين يعانون من إفراز الكورتيزول الذاتي الخفيف؛ ليست تجربة علاج داء الثعلبة، ذات صلة بشكل غير مباشر فقط عبر فسيولوجيا الجلوكوكورتيكويد. |
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Randomized clinical trial: clobetasol propionate 0.05% vs hydrocortisone 1% for alopecia areata in children (publication of NCT01453686). |
-| [38501938](https://pubmed.ncbi.nlm.nih.gov/38501938/) | 2024 | Cohort | Clinical and Experimental Dermatology | Retrospective single-center analysis of topical corticosteroid under occlusion for severe AA (alopecia totalis/universalis) in children, a population with few reliable treatment options. |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Case series | Medical Times | Treatment of alopecia areata, partialis, and totalis with cortisone, hydrocortisone, and their analogs prednisone and prednisolone. |
-| [14158891](https://pubmed.ncbi.nlm.nih.gov/14158891/) | 1963 | Case series | Actas Dermo-Sifiliográficas | Treatment of alopecia areata with intradermal injections of hydrocortisone. |
-| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Case series | Vestnik Dermatologii i Venerologii | Treatment of alopecia areata and total alopecia by intracutaneous injections of hydrocortisone. |
-| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Case series | Der Hautarzt | Hair regrowth in alopecia areata and alopecia maligna after intracutaneous hydrocortisone injection. |
-| [36718837](https://pubmed.ncbi.nlm.nih.gov/36718837/) | 2023 | Review | Journal of Cosmetic Dermatology | Systematic review/meta-analysis of fractional laser (alone or combined) for AA, contextualizing the broader AA treatment landscape including corticosteroids. |
-| [28516731](https://pubmed.ncbi.nlm.nih.gov/28516731/) | 2017 | Review | JEADV | Reviews whether hypothalamic-pituitary-adrenal axis hyperactivity and cortisol production are altered in AA patients. |
-| [29227263](https://pubmed.ncbi.nlm.nih.gov/29227263/) | 2017 | Review | Georgian Medical News | Adaptive regulatory mechanisms in AA, assessing cortisol and insulin as adaptive hormones alongside quality-of-life indices. |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | Journal of the American Academy of Dermatology | Describes 4 cases of congenital alopecia areata treated with minoxidil and a range of topical agents, including corticosteroids. |
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | تجربة عشوائية | JAMA Dermatology | تجربة سريرية عشوائية: clobetasol propionate 0.05% مقابل hydrocortisone 1% لداء الثعلبة عند الأطفال (نشر NCT01453686). |
+| [38501938](https://pubmed.ncbi.nlm.nih.gov/38501938/) | 2024 | دراسة استقصائية | Clinical and Experimental Dermatology | تحليل بأثر رجعي لمركز واحد من الكورتيكوستيرويد الموضعي تحت الرطوبة لداء الثعلبة الشديد (داء الثعلبة الكليّة/الشاملة) عند الأطفال، وهو سكان يعاني من خيارات علاج موثوقة قليلة. |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | سلسلة حالات | Medical Times | علاج داء الثعلبة والثعلبة الجزئية والثعلبة الكلية بالكورتيزون و hydrocortisone وتشبيهاتهما prednisone و prednisolone. |
+| [14158891](https://pubmed.ncbi.nlm.nih.gov/14158891/) | 1963 | سلسلة حالات | Actas Dermo-Sifiliográficas | علاج داء الثعلبة بالحقن تحت الجلد من hydrocortisone. |
+| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | سلسلة حالات | Vestnik Dermatologii i Venerologii | علاج داء الثعلبة والثعلبة الكلية بالحقن تحت الجلد من hydrocortisone. |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | سلسلة حالات | Der Hautarzt | إعادة نمو الشعر في داء الثعلبة والثعلبة الخبيثة بعد حقن hydrocortisone تحت الجلد. |
+| [36718837](https://pubmed.ncbi.nlm.nih.gov/36718837/) | 2023 | مراجعة | Journal of Cosmetic Dermatology | مراجعة منهجية/تحليل تلوي لليزر الكسري (وحده أو مدمج) لداء الثعلبة، مع وضع سياق لمنظر علاج داء الثعلبة الأوسع بما في ذلك الكورتيكوستيرويدات. |
+| [28516731](https://pubmed.ncbi.nlm.nih.gov/28516731/) | 2017 | مراجعة | JEADV | يراجع ما إذا كان نشاط محور تحت المهاد-الغدة النخامية-الغدة الكظرية وإنتاج الكورتيزول يتغيران في مرضى داء الثعلبة. |
+| [29227263](https://pubmed.ncbi.nlm.nih.gov/29227263/) | 2017 | مراجعة | Georgian Medical News | الآليات التنظيمية التكيفية في داء الثعلبة، تقييم الكورتيزول والأنسولين كهرمونات تكيفية إلى جانب مؤشرات جودة الحياة. |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | حالة إكلينيكية | Journal of the American Academy of Dermatology | يصف 4 حالات من داء الثعلبة الخلقي تُعالج بـ minoxidil ومجموعة من العوامل الموضعية، بما في ذلك الكورتيكوستيرويدات. |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المعلومات الدوائية لمعلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات الحماية**
 
-**Rationale:**
-One completed Phase 3 RCT (NCT01453686, published as PMID 24226568) directly evaluates hydrocortisone 1% cream against a comparator steroid in AA, supported by decades of case-series evidence on intradermal/intracutaneous hydrocortisone for hair regrowth in AA — establishing biological plausibility (L2). However, TFDA/local safety labeling (DG001, Blocking) and a formal mechanism-of-action record (DG002, High) are both missing, and Saudi Arabia market authorization is currently absent (0 licenses), so this cannot yet clear a full safety review.
+**المنطق:**
+إحدى تجربة المرحلة 3 العشوائية المكتملة (NCT01453686، منشورة باسم PMID 24226568) تقيّم مباشرة كريم hydrocortisone 1% مقابل ستيرويد مقارن في داء الثعلبة، مدعومة بعقود من بيانات سلسلة الحالات على hydrocortisone داخل الجلد/تحت الجلد لإعادة نمو الشعر في داء الثعلبة — مما يثبت الاحتمال البيولوجي (L2). ومع ذلك، تصنيف TFDA/السلامة المحلية (DG001، حجب) وسجل آلية العمل الرسمي (DG002، عالي) كلاهما مفقود، وتفويض سوق المملكة العربية السعودية غير موجود حالياً (0 تراخيص)، لذا لا يمكن بعد أن يفسح المجال الكامل لمراجعة السلامة.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert with warnings, contraindications, and DDI data (DG001, Blocking)
-- Formal DrugBank/MOA documentation for hydrocortisone (DG002)
-- Confirmation of original approved indication(s) and dosage forms actually marketed
-- A pediatric-specific safety and adrenal-suppression monitoring plan, given the primary supporting trial population is children
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة معلومات دوائية محلية من TFDA مع تحذيرات وموانع استعمال وبيانات التفاعلات الدوائية (DG001، حجب)
+- توثيق رسمي من DrugBank/MOA لـ hydrocortisone (DG002)
+- تأكيد دواعي الاستعمال الأصلية المعتمدة والأشكال الجرعانية المسوقة بالفعل
+- خطة سلامة مخصصة للأطفال ومراقبة قمع الغدة الكظرية، نظراً لأن السكان المدعومين الأساسيين للتجربة هم الأطفال
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

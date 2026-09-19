@@ -29,85 +29,86 @@ indication_count: 3
 
 </div>
 
-# CENTELLA ASIATICA: From Wound Healing & Skin Conditions to Insomnia
+# السنتيلا الآسياتيكا: من التئام الجروح وحالات الجلد إلى الأرق
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Centella asiatica (Gotu Kola) is a traditional Ayurvedic and East Asian medicinal herb historically used for wound healing, microcirculatory disorders, and skin conditions, with no formally approved pharmaceutical indications currently on record in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Insomnia**, supported by **2 clinical trials** and **1 preclinical publication** directly targeting this indication — alongside substantially richer evidence for the mechanistically related indication of **Anxiety** (4 trials, 20 publications, Evidence Level L3).
-The current evidence base for insomnia specifically remains at the preclinical stage (L4), placing this candidate in exploratory research territory.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No approved pharmaceutical indication on record; traditional use for wound healing and skin conditions |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+السنتيلا الآسياتيكا (جوتو كولا) عشب طبي تقليدي من الطب الآيورفيدي والآسيوي الشرقي يُستخدم تاريخياً لالتئام الجروح واضطرابات الدورة الدموية الدقيقة والأمراض الجلدية، وليس لديها أي استطبابات دوائية معتمدة رسمياً قيد التسجيل في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنها قد تكون فعالة لـ **الأرق**، مدعومة بـ **تجربتين سريريتين** و**منشور واحد قبل سريري** يستهدفان هذا الاستطباب مباشرة — إلى جانب أدلة أكثر ثراءً بكثير لـ **القلق** (4 تجارب، 20 منشور، مستوى الدليل L3).
+قاعدة الأدلة الحالية للأرق على وجه التحديد تبقى في المرحلة قبل السريرية (L4)، مما يضع هذا المرشح في مجال البحث الاستكشافي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, formal mechanism of action data from regulatory databases is not available for Centella asiatica. Based on published pharmacological research, the herb's primary bioactive constituents are ursane triterpenoids — **asiaticoside**, **asiatic acid**, and **madecassoside** — which are believed to mediate its neuropsychiatric effects through multiple complementary pathways.
-
-The most relevant mechanism for insomnia is **positive modulation of GABA-A receptors**: asiatic acid and madecassic acid have been shown to modulate GABA-A receptor subtypes (PMID 27062315), producing a calming effect mechanistically analogous to benzodiazepines but without the structural dependency risk. Additionally, Centella asiatica extracts suppress **HPA axis hyperactivity**, reducing circulating cortisol and corticosterone — a pathway directly implicated in hyperarousal-type insomnia. A third mechanism involves **Orexin/hypocretin pathway inhibition**: the 2024 zebrafish insomnia model study (PMID 38812527) demonstrated that the ethanol extract prolonged sleep duration and reduced hyperactivity by inhibiting Orexin signaling and downstream ERK1/2, Akt, and p38-MAPK phosphorylation, all of which are key drivers of the arousal system.
-
-Insomnia and anxiety share substantial neurobiological overlap — both involve HPA dysregulation, GABAergic insufficiency, and monoaminergic imbalance — which explains why the TxGNN model simultaneously ranks anxiety (L3, rank 2) and insomnia (L4, rank 1) as top predictions. The human clinical evidence is currently stronger for anxiety (including a small human RCT in generalized anxiety disorder, PMID 20677602) than for insomnia specifically, where evidence has not yet advanced beyond the animal model stage.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT07274371](https://clinicaltrials.gov/study/NCT07274371) | NA | Active, Not Recruiting | 30 | Nightly Brahmi-Gotu Kola oil foot massage (Padabhyanga) vs. organic sesame oil in perimenopausal women (ages 40–55); primary endpoints include sleep quality and mood disturbance — direct relevance to insomnia, but delivery is topical/massage rather than oral, limiting dose-response conclusions |
-| [NCT04872946](https://clinicaltrials.gov/study/NCT04872946) | NA | Completed | 74 | Oral Inner Calm supplement + topical Super Calm regimen for skin health and inner wellness; Centella asiatica is a component ingredient, but primary endpoints are skin redness and sensitivity — sleep relevance is incidental and indirect |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | لا يوجد استطباب دوائي معتمد قيد التسجيل؛ الاستخدام التقليدي لالتئام الجروح والأمراض الجلدية |
+| الاستطباب الجديد المتوقع | الأرق (مرض) |
+| درجة التنبؤ من TxGNN | 99.94% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير معروض في السوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [38812527](https://pubmed.ncbi.nlm.nih.gov/38812527/) | 2024 | Preclinical (Animal Model) | F1000Research | Centella asiatica ethanol extract prolonged sleep duration and reduced hyperactivity in a zebrafish larvae insomnia model; mechanism identified as inhibition of Orexin, ERK1/2, Akt, and p38-MAPK signaling pathways — the most directly relevant mechanistic study for this indication |
+حالياً، بيانات آلية العمل الرسمية من قواعد البيانات التنظيمية غير متاحة للسنتيلا الآسياتيكا. بناءً على البحث الدوائي المنشور، فإن المكونات النشطة الأساسية للعشب هي أورسان تريتيربينويدات — **أسياتيكوسيد**، **حمض أسياتي**، و**ماديكاسوسيد** — والتي يُعتقد أنها توسط تأثيراتها العصبية والنفسية من خلال مسارات متعددة متكاملة.
 
----
+الآلية الأكثر ملاءمة للأرق هي **التعديل الإيجابي لمستقبلات GABA-A**: لقد تم إظهار أن حمض أسياتي وحمض ماديكاسيك يعدلان أنماط مستقبلات GABA-A (PMID 27062315)، مما ينتج تأثير تهدئة يشابه ميكانيكياً البنزوديازيبينات لكن بدون مخاطر الاعتماد الهيكلي. بالإضافة إلى ذلك، تثبط مستخلصات السنتيلا الآسياتيكا **فرط نشاط محور HPA**، مما يقلل كورتيزول وكورتيكوستيرون الدائري — مسار مرتبط مباشرة بالأرق من نوع فرط الاستثارة. آلية ثالثة تتعلق بـ **منع مسار Orexin/hypocretin**: دراسة نموذج الأرق في سمك الزرد لعام 2024 (PMID 38812527) أظهرت أن مستخلص الإيثانول أطال مدة النوم وقلل فرط النشاط من خلال منع إشارات Orexin والفسفرة اللاحقة لـ ERK1/2 و Akt و p38-MAPK، وكل هذه العوامل هي محركات رئيسية لنظام الاستثارة.
 
-## Saudi Arabia Market Information
-
-No products containing Centella asiatica are currently registered with Saudi SFDA. There are 0 product authorizations on record, and the drug has no market presence in Saudi Arabia.
+يتشارك الأرق والقلق تداخلاً عصبياً بيولوجياً كبيراً — كلاهما يتضمن تنظيم HPA خاطئ وقصور GABAergic وعدم توازن أحادي الأمين — مما يفسر سبب ترتيب نموذج TxGNN لكل من القلق (L3، الترتيب 2) والأرق (L4، الترتيب 1) كأفضل تنبؤات. الأدلة السريرية البشرية حالياً أقوى للقلق (بما في ذلك تجربة عشوائية معقودة صغيرة في اضطراب القلق العام، PMID 20677602) منها للأرق على وجه التحديد، حيث لم تتقدم الأدلة بعد إلى ما وراء مرحلة نموذج الحيوان.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-> No drug interaction data was found in the DDI database query. No warning or contraindication data from SFDA is currently available for this candidate.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|----------|--------|--------|---------|-----------------|
+| [NCT07274371](https://clinicaltrials.gov/study/NCT07274371) | NA | نشط، غير مجند | 30 | تدليك قدم زيت البراهمي-جوتو كولا الليلي (Padabhyanga) مقابل زيت السمسم العضوي في النساء حول انقطاع الطمث (أعمار 40–55 سنة)؛ تشمل نقاط النهاية الأولية جودة النوم واضطراب المزاج — ذات صلة مباشرة بالأرق، لكن الإعطاء موضعي/تدليك بدلاً من فموي، مما يحد من استنتاجات علاقة الجرعة بالاستجابة |
+| [NCT04872946](https://clinicaltrials.gov/study/NCT04872946) | NA | مكتمل | 74 | مكمل Inner Calm الفموي + نظام Super Calm موضعي لصحة الجلد والعافية الداخلية؛ السنتيلا الآسياتيكا هي مكون في الصيغة، لكن نقاط النهاية الأولية هي احمرار الجلد والحساسية — الصلة بالنوم عرضية وغير مباشرة |
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|--------|--------|------------------|
+| [38812527](https://pubmed.ncbi.nlm.nih.gov/38812527/) | 2024 | قبل سريري (نموذج حيوان) | F1000Research | أطال مستخلص إيثانول السنتيلا الآسياتيكا مدة النوم وقلل فرط النشاط في نموذج أرق يرقات سمك الزرد؛ تم تحديد الآلية كمنع إشارات Orexin و ERK1/2 و Akt و p38-MAPK — الدراسة الأكثر ارتباطاً مباشرة من حيث الآلية لهذا الاستطباب |
 
-**Rationale:**
-While the TxGNN model assigns Centella asiatica its highest prediction score for insomnia (99.94%), and the mechanistic rationale via GABAergic, Orexin, and HPA axis pathways is scientifically plausible, the evidence base for this specific indication remains entirely preclinical (L4). The only clinical trial with sleep as a direct endpoint (NCT07274371) uses a topical massage delivery method that cannot be equated with oral pharmacological use. No human RCT targeting insomnia as a primary endpoint currently exists.
+---
 
-**To proceed, the following is needed:**
+## معلومات السوق في المملكة العربية السعودية
 
-- **Priority human study:** A small-scale proof-of-concept RCT using standardized oral Centella asiatica extract (defined asiaticoside content) with validated sleep endpoints — Polysomnography (PSG), Pittsburgh Sleep Quality Index (PSQI), or Insomnia Severity Index (ISI)
-- **Dose standardization:** Establish reproducible dosing parameters based on triterpene content (asiaticoside ≥40%, common in TECA preparations)
-- **MOA documentation:** Retrieve formal pharmacology data from DrugBank (DB14256) to complete mechanism characterization
-- **Safety review:** Obtain Saudi SFDA package insert data and assess potential herb-drug interactions, particularly with CNS depressants and anxiolytics
-- **Consider parallel track for Anxiety (L3):** The anxiety indication has substantially stronger evidence — including a human clinical study in generalized anxiety disorder (PMID 20677602) and multiple preclinical models — and may be a more immediately actionable regulatory pathway with a "Proceed with Guardrails" recommendation under the existing evidence
+لا توجد منتجات تحتوي على السنتيلا الآسياتيكا مسجلة حالياً مع الهيئة السعودية للدواء والغذاء. هناك 0 من تصاريح المنتجات قيد التسجيل، والدواء لا يوجد له وجود في السوق في المملكة العربية السعودية.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+> لم يتم العثور على بيانات تفاعل الأدوية في استعلام قاعدة بيانات DDI. لا توجد حالياً بيانات تحذير أو موانع من الهيئة السعودية للدواء والغذاء لهذا المرشح.
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: انتظر**
+
+**المبرر:**
+بينما يعين نموذج TxGNN السنتيلا الآسياتيكا درجة تنبؤ أعلى للأرق (99.94%)، والمبرر الميكانيكي عبر مسارات GABAergic و Orexin ومحور HPA معقول علمياً، فإن قاعدة الأدلة لهذا الاستطباب المحدد تبقى قبل سريرية بالكامل (L4). التجربة السريرية الوحيدة ذات النوم كنقطة نهاية مباشرة (NCT07274371) تستخدم طريقة إعطاء موضعية (تدليك) لا يمكن معادلتها بالاستخدام الدوائي الفموي. لا توجد تجربة عشوائية بشرية تستهدف الأرق كنقطة نهاية أولية حالياً.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **دراسة بشرية ذات أولوية:** تجربة عشوائية صغيرة الحجم لإثبات المفهوم باستخدام مستخلص السنتيلا الآسياتيكا الفموي الموحد (محتوى أسياتيكوسيد محدد) مع نقاط نهاية نوم مدققة — Polysomnography (PSG) أو Pittsburgh Sleep Quality Index (PSQI) أو Insomnia Severity Index (ISI)
+- **توحيد الجرعة:** إنشاء معاملات جرعات قابلة للتكرار بناءً على محتوى التريتيربين (أسياتيكوسيد ≥40%، شائع في تحضيرات TECA)
+- **توثيق آلية العمل:** استرجاع بيانات الصيدلة الرسمية من DrugBank (DB14256) لإكمال توصيف الآلية
+- **مراجعة السلامة:** الحصول على بيانات نشرة المعلومات من الهيئة السعودية للدواء والغذاء وتقييم التفاعلات المحتملة بين العشب والدواء، خاصة مع مثبطات الجهاز العصبي المركزي والأدوية المعالجة للقلق
+- **النظر في مسار متوازي للقلق (L3):** استطباب القلق له أدلة أقوى بكثير — بما في ذلك دراسة سريرية بشرية في اضطراب القلق العام (PMID 20677602) وعدة نماذج قبل سريرية — وقد يكون مسار تنظيمي أكثر قابلية للتطبيق فوراً مع توصية "متابعة مع ضمانات" في إطار الأدلة الموجودة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

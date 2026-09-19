@@ -29,125 +29,126 @@ indication_count: 3
 
 </div>
 
-# Esomeprazole: From Acid-Related Disorders (GERD) to Duodenal Ulcer
+# إيسوميبرازول: من الاضطرابات المرتبطة بالحمض (GERD) إلى قرحة الاثني عشر
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Esomeprazole (DrugBank DB00736) is the S-isomer proton pump inhibitor originally developed for gastro-oesophageal reflux disease (GERD) and other acid-related conditions.
-> Within this evidence pack, the TxGNN model surfaces three candidate indications; the one with genuine actionable evidence is **Duodenal Ulcer**,
-> supported by **50 registered clinical trials** (multiple completed Phase 3 RCTs) and **20 relevant publications**.
-> The other two predicted indications (duodenogastric reflux, duodenal obstruction) carry only weak or no supporting evidence and are flagged separately below.
+> إيسوميبرازول (DrugBank DB00736) هو الإيزومر S من مثبطات مضخة البروتون الذي تم تطويره في الأصل لمرض الارتجاع المريئي المعدي (GERD) والحالات الأخرى المرتبطة بالحمض.
+> ضمن حزمة الأدلة هذه، يسلط نموذج TxGNN الضوء على ثلاث مؤشرات مرشحة؛ المؤشر الذي يتمتع بأدلة قابلة للعمل الحقيقية هو **قرحة الاثني عشر**،
+> يدعمها **50 تجربة سريرية مسجلة** (عدة تجارب عشوائية محكومة (RCTs) في المرحلة 3 مكتملة) و **20 منشورًا ذا صلة**.
+> المؤشرات المتنبأ بها الأخرى (الارتجاع ثنائي المعدة والاثني عشر، انسداد الاثني عشر) تحمل أدلة ضعيفة فقط أو عدم وجود أدلة على الإطلاق وتم تحديد أولويتها بشكل منفصل أدناه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Gastro-oesophageal reflux disease (GERD) / acid-related disorders¹ |
-| Predicted New Indication | Duodenal Ulcer |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | مرض الارتجاع المريئي المعدي (GERD) / الاضطرابات المرتبطة بالحمض¹ |
+| المؤشر الجديد المتنبأ به | قرحة الاثني عشر |
+| درجة التنبؤ من TxGNN | 99.40% |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروضة في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدمًا مع ضمانات |
 
-¹ *Note: `taiwan_regulatory.licenses` and `drug.original_indications` are both empty in this pack (no formal license record exists because esomeprazole is not currently marketed in Saudi Arabia). The original indication above is inferred from supporting literature in this same evidence pack (e.g., PMID 18627213), not from a license record.*
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed structured mechanism-of-action data (`original_moa`) is flagged as a data gap (DG002) in this pack. However, the evidence pack's own repurposing rationale supplies a clear mechanistic explanation: **Esomeprazole is a proton pump inhibitor (PPI) that directly inhibits the H⁺/K⁺-ATPase enzyme on gastric parietal cells, reducing gastric acid secretion.** This is the standard, first-line mechanism for treating acid-related mucosal disease.
-
-Duodenal ulcer is itself an acid-related, often *H. pylori*-associated condition whose healing and recurrence prevention depend heavily on acid suppression. The mechanistic link here is **direct and strong** — unlike the other two candidates in this pack, this is not a speculative cross-disease inference from the knowledge graph, but a pharmacologically expected use of the PPI class. In fact, the evidence pack's own rationale notes that this may represent an "already-known but not formally registered" indication rather than a true novel repurposing hypothesis — consistent with the fact that esomeprazole (as Nexium®) is approved in other markets for duodenal ulcer healing, *H. pylori* eradication regimens, and NSAID-associated ulcer prevention, but has no current license record in Saudi Arabia.
-
-By contrast, the mechanistic case for the other two predicted indications is weak: duodenogastric reflux involves bile/pancreatic reflux pathology that PPIs do not directly address (indirect/adjunctive at best), and duodenal obstruction is a mechanical/structural condition with no plausible pharmacological pathway for acid suppression to resolve. Both are discussed further under "Other Predicted Indications" below.
+¹ *ملاحظة: كل من `taiwan_regulatory.licenses` و`drug.original_indications` فارغة في هذه الحزمة (لا توجد سجلات ترخيص رسمية لأن إيسوميبرازول غير معروض حاليًا في السوق في المملكة العربية السعودية). المؤشر الأصلي أعلاه تم استنتاجه من الأدبيات الداعمة في نفس حزمة الأدلة هذه (على سبيل المثال، PMID 18627213)، وليس من سجل الترخيص.*
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-*(Duodenal Ulcer — top 10 trials by assigned relevance grade)*
+بيانات آلية العمل المنظمة بالتفصيل (`original_moa`) تم تحديدها كفجوة بيانات (DG002) في هذه الحزمة. ومع ذلك، فإن المبرر الخاص بإعادة استخدام حزمة الأدلة يوفر شرحًا ميكانيكيًا واضحًا: **إيسوميبرازول هو مثبط مضخة البروتون الذي يثبط مباشرة إنزيم H⁺/K⁺-ATPase على خلايا الجدار الحامضي في المعدة، مما يقلل من إفراز حمض المعدة.** هذه هي الآلية القياسية من الدرجة الأولى لعلاج أمراض الغشاء المخاطي المرتبطة بالحمض.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+قرحة الاثني عشر هي بحد ذاتها حالة مرتبطة بالحمض، غالبًا ما تكون مرتبطة بـ *H. pylori*، والتي يعتمد شفاؤها والوقاية من انتكاسها بشكل كبير على تثبيط الحمض. الارتباط الميكانيكي هنا **مباشر وقوي** - على عكس المرشحين الآخرين في هذه الحزمة، هذا ليس استدلالًا نظريًا متقاطعًا بين الأمراض من الرسم البياني للمعرفة، بل هو استخدام دوائي متوقع لفئة مثبطات مضخة البروتون. في الواقع، يلاحظ المبرر الخاص بحزمة الأدلة أن هذا قد يمثل مؤشرًا "معروفًا بالفعل ولكن لم يتم تسجيله رسميًا" بدلاً من فرضية إعادة استخدام حقيقية جديدة - متسقة مع حقيقة أن إيسوميبرازول (مثل Nexium®) معتمد في أسواق أخرى لشفاء قرحة الاثني عشر وأنظمة استئصال *H. pylori* والوقاية من قرحة المرتبطة بمضادات الالتهاب غير الستيرويدية، لكن لا توجد سجلات ترخيص حالية في المملكة العربية السعودية.
+
+في المقابل، فإن الحالة الميكانيكية للمؤشرات المتنبأ بها الأخرى ضعيفة: يتضمن الارتجاع ثنائي المعدة والاثني عشر مرضية الارتجاع الصفراوي/البنكرياسي التي لا تعالجها مثبطات مضخة البروتون بشكل مباشر (غير مباشر/مساعد في أحسن الأحوال)، والانسداد ثنائي المعدة هو حالة ميكانيكية/هيكلية بدون مسار دوائي معقول لتثبيط الحمض لحلها. يتم مناقشة كلاهما بشكل أكبر تحت "المؤشرات المتنبأ بها الأخرى" أدناه.
+
+---
+
+## أدلة التجارب السريرية
+
+*(قرحة الاثني عشر — أفضل 10 تجارب حسب درجة الملاءمة المعينة)*
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03553563](https://clinicaltrials.gov/study/NCT03553563) | Phase 3 | Completed | 50 | Maintenance therapy in Japanese paediatric patients with reflux esophagitis; prevention of gastric/duodenal ulcer recurrence with NSAIDs or low-dose aspirin |
-| [NCT00542789](https://clinicaltrials.gov/study/NCT00542789) | Phase 3 | Completed | 343 | Esomeprazole 20 mg qd vs placebo for prevention of gastric and/or duodenal ulcers in daily NSAID users |
-| [NCT00595517](https://clinicaltrials.gov/study/NCT00595517) | Phase 3 | Completed | 395 | Long-term (52-week) safety/efficacy of esomeprazole 20 mg qd for prevention of NSAID-associated gastric/duodenal ulcers |
-| [NCT00251966](https://clinicaltrials.gov/study/NCT00251966) | Phase 3 | Completed | 960 | Large RCT: esomeprazole 20 mg qd vs placebo for prevention of low-dose aspirin-associated gastroduodenal lesions |
-| [NCT05813561](https://clinicaltrials.gov/study/NCT05813561) | Phase 3 | Completed | 332 | Head-to-head comparator trial: DWP14012 vs esomeprazole magnesium enteric-coated tablets for reflux esophagitis |
-| [NCT01538849](https://clinicaltrials.gov/study/NCT01538849) | Phase 2 | Completed | 154 | Randomized double-blind active-controlled trial establishing optimal dose/administration referencing esomeprazole |
-| [NCT01142245](https://clinicaltrials.gov/study/NCT01142245) | Phase 3 | Completed | 263 | IV + oral esomeprazole for prevention of recurrent bleeding after endoscopic therapy for peptic ulcers |
-| [NCT01199328](https://clinicaltrials.gov/study/NCT01199328) | Phase 1 | Completed | 34 | Drug-drug interaction study: effect of esomeprazole on aspirin pharmacodynamics |
-| [NCT00325715](https://clinicaltrials.gov/study/NCT00325715) | Phase 1 | Completed | 150 | AGN201904 vs esomeprazole for prevention of aspirin-induced upper GI damage in healthy volunteers |
-| [NCT00594854](https://clinicaltrials.gov/study/NCT00594854) | Phase 3 | Terminated | 20 | PN400 (esomeprazole/naproxen) vs diclofenac/misoprostol for gastric ulcer incidence — terminated early, small sample |
+| [NCT03553563](https://clinicaltrials.gov/study/NCT03553563) | المرحلة 3 | مكتملة | 50 | العلاج الداعم في المرضى الأطفال اليابانيين مع التهاب المريء الارتجاعي؛ الوقاية من انتكاسة قرحة المعدة/الاثني عشر مع مضادات الالتهاب غير الستيرويدية أو الأسبرين بجرعة منخفضة |
+| [NCT00542789](https://clinicaltrials.gov/study/NCT00542789) | المرحلة 3 | مكتملة | 343 | إيسوميبرازول 20 مغ مرة واحدة يوميًا مقابل الدواء الوهمي للوقاية من قرح المعدة و/أو الاثني عشر عند مستخدمي مضادات الالتهاب غير الستيرويدية اليومية |
+| [NCT00595517](https://clinicaltrials.gov/study/NCT00595517) | المرحلة 3 | مكتملة | 395 | الأمان/الفعالية على المدى الطويل (52 أسبوعًا) لإيسوميبرازول 20 مغ مرة واحدة يوميًا للوقاية من قرح الاثني عشر/المعدة المرتبطة بمضادات الالتهاب غير الستيرويدية |
+| [NCT00251966](https://clinicaltrials.gov/study/NCT00251966) | المرحلة 3 | مكتملة | 960 | تجربة عشوائية محكومة كبيرة: إيسوميبرازول 20 مغ مرة واحدة يوميًا مقابل الدواء الوهمي للوقاية من الآفات المعدية الاثني عشرية المرتبطة بالأسبرين بجرعة منخفضة |
+| [NCT05813561](https://clinicaltrials.gov/study/NCT05813561) | المرحلة 3 | مكتملة | 332 | تجربة مقارنة رأسًا برأس: DWP14012 مقابل أقراص إيسوميبرازول ماغنيزيوم معوية الغلاف لالتهاب المريء الارتجاعي |
+| [NCT01538849](https://clinicaltrials.gov/study/NCT01538849) | المرحلة 2 | مكتملة | 154 | تجربة عشوائية عمياء مزدوجة محكومة بمادة فعالة تقرر الجرعة/الإدارة المثلى بالإشارة إلى إيسوميبرازول |
+| [NCT01142245](https://clinicaltrials.gov/study/NCT01142245) | المرحلة 3 | مكتملة | 263 | إيسوميبرازول وريدي + فموي للوقاية من النزيف المتكرر بعد العلاج بالمنظار لقرحة المعدة والاثني عشر |
+| [NCT01199328](https://clinicaltrials.gov/study/NCT01199328) | المرحلة 1 | مكتملة | 34 | دراسة تفاعل الأدوية: تأثير إيسوميبرازول على ديناميكا الأسبرين الدوائية |
+| [NCT00325715](https://clinicaltrials.gov/study/NCT00325715) | المرحلة 1 | مكتملة | 150 | AGN201904 مقابل إيسوميبرازول للوقاية من الضرر المعوي العلوي المستحث بالأسبرين لدى المتطوعين الأصحاء |
+| [NCT00594854](https://clinicaltrials.gov/study/NCT00594854) | المرحلة 3 | توقفت | 20 | PN400 (إيسوميبرازول/نابروكسين) مقابل ديكلوفيناك/ميزوبروستول لحدوث قرحة المعدة — توقفت مبكرًا، عينة صغيرة |
 
-*(40 additional trials in this indication are registered but not yet graded for relevance; see raw evidence pack for the complete list.)*
+*(40 تجربة إضافية في هذا المؤشر مسجلة لكن لم يتم تصنيفها بعد للملاءمة؛ انظر حزمة الأدلة الخام للحصول على القائمة الكاملة.)*
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-*(Duodenal Ulcer — prioritized by RCT/meta-analysis > cohort > review)*
+*(قرحة الاثني عشر — أولويات حسب RCT/meta-analysis > cohort > review)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [11121908](https://pubmed.ncbi.nlm.nih.gov/11121908/) | 2000 | RCT | Alimentary Pharmacology & Therapeutics | One-week esomeprazole-based triple therapy effectively eradicates *H. pylori* in duodenal ulcer disease |
-| [11742194](https://pubmed.ncbi.nlm.nih.gov/11742194/) | 2001 | RCT | European Journal of Gastroenterology & Hepatology | One week of esomeprazole-based triple therapy eradicates *H. pylori* and heals duodenal ulcer |
-| [21181319](https://pubmed.ncbi.nlm.nih.gov/21181319/) | 2011 | RCT | Advances in Therapy | Safety and tolerability of high-dose IV esomeprazole for prevention of peptic ulcer rebleeding |
-| [18350637](https://pubmed.ncbi.nlm.nih.gov/18350637/) | 2008 | RCT | World Journal of Gastroenterology | Randomized double-blind comparison of esomeprazole formulations in healing active duodenal ulcer |
-| [39412166](https://pubmed.ncbi.nlm.nih.gov/39412166/) | 2024 | Network Meta-Analysis | Clinical and Translational Gastroenterology | Compares dosing of potassium-competitive acid blockers vs PPIs (incl. esomeprazole) across acid-related disorders |
-| [16109574](https://pubmed.ncbi.nlm.nih.gov/16109574/) | 2005 | RCT/Comparative | Academic Journal of the First Medical College of PLA | Compares esomeprazole- vs omeprazole-based triple therapy for *H. pylori*-associated duodenal ulcer |
-| [39319279](https://pubmed.ncbi.nlm.nih.gov/39319279/) | 2024 | Cohort (long-term paediatric) | Pediatric Gastroenterology, Hepatology & Nutrition | Long-term esomeprazole use in Japanese paediatric patients with chronic gastric acid-related disease |
-| [40168383](https://pubmed.ncbi.nlm.nih.gov/40168383/) | 2025 | Cohort/Trial | Journal of Infection in Developing Countries | High-dose dual therapy (esomeprazole + amoxicillin) for *H. pylori* in a high-resistance region |
-| [10983736](https://pubmed.ncbi.nlm.nih.gov/10983736/) | 2000 | Review | Drugs | Overview of esomeprazole's superior intragastric pH control vs omeprazole/lansoprazole/pantoprazole |
-| [12072608](https://pubmed.ncbi.nlm.nih.gov/12072608/) | 2002 | Review/Commentary | European Journal of Gastroenterology & Hepatology | Commentary on esomeprazole-based triple therapy for duodenal ulcer and *H. pylori* |
+| [11121908](https://pubmed.ncbi.nlm.nih.gov/11121908/) | 2000 | تجربة عشوائية محكومة | Alimentary Pharmacology & Therapeutics | العلاج الثلاثي القائم على إيسوميبرازول لمدة أسبوع يقضي بفعالية على *H. pylori* في مرض قرحة الاثني عشر |
+| [11742194](https://pubmed.ncbi.nlm.nih.gov/11742194/) | 2001 | تجربة عشوائية محكومة | European Journal of Gastroenterology & Hepatology | أسبوع واحد من العلاج الثلاثي القائم على إيسوميبرازول يقضي على *H. pylori* ويشفي قرحة الاثني عشر |
+| [21181319](https://pubmed.ncbi.nlm.nih.gov/21181319/) | 2011 | تجربة عشوائية محكومة | Advances in Therapy | الأمان والتحمل لجرعات عالية من إيسوميبرازول الوريدي لمنع نزيف قرحة المعدة المتكرر |
+| [18350637](https://pubmed.ncbi.nlm.nih.gov/18350637/) | 2008 | تجربة عشوائية محكومة | World Journal of Gastroenterology | مقارنة عمياء مزدوجة عشوائية لصيغ إيسوميبرازول المختلفة في شفاء قرحة الاثني عشر النشطة |
+| [39412166](https://pubmed.ncbi.nlm.nih.gov/39412166/) | 2024 | تحليل تلوي للشبكة | Clinical and Translational Gastroenterology | يقارن جرعات حاصرات حمض البوتاسيوم التنافسية مقابل مثبطات مضخة البروتون (بما في ذلك إيسوميبرازول) عبر الاضطرابات المرتبطة بالحمض |
+| [16109574](https://pubmed.ncbi.nlm.nih.gov/16109574/) | 2005 | تجربة عشوائية محكومة/مقارنة | Academic Journal of the First Medical College of PLA | مقارنة العلاج الثلاثي القائم على إيسوميبرازول مقابل أوميبرازول لقرحة الاثني عشر المرتبطة بـ *H. pylori* |
+| [39319279](https://pubmed.ncbi.nlm.nih.gov/39319279/) | 2024 | دراسة متتبعة (طويلة الأجل في الأطفال) | Pediatric Gastroenterology, Hepatology & Nutrition | استخدام إيسوميبرازول على المدى الطويل لدى المرضى الأطفال اليابانيين مع أمراض الحمض المعدي المزمنة |
+| [40168383](https://pubmed.ncbi.nlm.nih.gov/40168383/) | 2025 | دراسة متتبعة/تجربة | Journal of Infection in Developing Countries | العلاج الثنائي بجرعات عالية (إيسوميبرازول + أموكسيسيلين) لـ *H. pylori* في منطقة عالية المقاومة |
+| [10983736](https://pubmed.ncbi.nlm.nih.gov/10983736/) | 2000 | مراجعة | Drugs | نظرة عامة على التحكم المتفوق لـ pH داخل المعدة من إيسوميبرازول مقابل أوميبرازول/لانسوبرازول/بانتوبرازول |
+| [12072608](https://pubmed.ncbi.nlm.nih.gov/12072608/) | 2002 | مراجعة/تعليق | European Journal of Gastroenterology & Hepatology | تعليق على العلاج الثلاثي القائم على إيسوميبرازول لقرحة الاثني عشر و *H. pylori* |
 
-*(An additional 10 publications are registered but not yet classified for study type/tier; see raw evidence pack.)*
-
----
-
-## Saudi Arabia Market Information
-
-Esomeprazole currently has **no marketing authorization on record in Saudi Arabia** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No authorization table can be produced.
+*(10 منشورات إضافية مسجلة لكن لم يتم تصنيفها بعد حسب نوع الدراسة/المستوى؛ انظر حزمة الأدلة الخام.)*
 
 ---
 
-## Other Predicted Indications (Lower Priority — Not Recommended to Advance)
+## معلومات سوق المملكة العربية السعودية
 
-For completeness, this evidence pack also scored two additional indications for esomeprazole, both substantially weaker than duodenal ulcer:
+إيسوميبرازول حاليًا **لا يملك أي تصريح تسويق مسجل في المملكة العربية السعودية** (`market_status`: غير معروضة في السوق / Not Marketed؛ `total_licenses`: 0). لا يمكن إنتاج جدول التصاريح.
 
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+---
+
+## المؤشرات المتنبأ بها الأخرى (أولوية أقل — غير موصى بتقدمها)
+
+للاكتمال، سجلت حزمة الأدلة هذه أيضًا مؤشرين إضافيين لإيسوميبرازول، كلاهما أضعف بشكل كبير من قرحة الاثني عشر:
+
+| المؤشر المتنبأ به | درجة TxGNN | مستوى الأدلة | التوصية | ملاحظة |
 |---|---|---|---|---|
-| Duodenogastric reflux | 99.53% | L4 | Research Question | Only 1 review-level publication, no clinical trials; mechanistic link is indirect (PPI does not act on bile reflux or duodenogastric motility) |
-| Duodenal obstruction | 99.45% | L5 | **Hold** | No clinical trials or literature; duodenal obstruction is a mechanical/structural condition with no pharmacological pathway for acid suppression — likely a knowledge-graph embedding artifact ("duodenal" term proximity), not a real signal |
+| الارتجاع ثنائي المعدة والاثني عشر | 99.53% | L4 | سؤال بحثي | منشور واحد فقط على مستوى المراجعة، لا توجد تجارب سريرية؛ الارتباط الميكانيكي غير مباشر (مثبط مضخة البروتون لا يعمل على ارتجاع الصفراء أو حركة ثنائي المعدة والاثني عشر) |
+| انسداد الاثني عشر | 99.45% | L5 | **تأجيل** | لا توجد تجارب سريرية أو أدبيات؛ انسداد الاثني عشر حالة ميكانيكية/هيكلية بدون مسار دوائي لتثبيط الحمض — على الأرجح تأثير تضمين رسم بياني المعرفة ("اثنا عشر" قرب المصطلح)، وليس إشارة حقيقية |
 
-These two indications should **not** be advanced for further evaluation absent new evidence.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as data gaps in this pack — see DG001, a **Blocking** severity gap requiring TFDA/regulatory package insert retrieval before any S1 safety screening can proceed.)
+هذان المؤشران **لا** يجب أن يتم تقدمهما لمزيد من التقييم في غياب أدلة جديدة.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات الأمان. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية تم تحديدها جميعها كفجوات بيانات في هذه الحزمة — انظر DG001، فجوة شدة **حظر** تتطلب استرجاع نشرة TFDA/نشرة التنظيم قبل أي فحص أمان S1.)*
 
-**Rationale:**
-- For **duodenal ulcer**, evidence is strong (L1: multiple completed Phase 3 RCTs plus supportive literature including RCTs and a network meta-analysis), and the mechanism of action is direct and well established for the PPI class — this is effectively confirming an already-plausible use rather than a speculative repurposing hypothesis.
-- However, the drug has **zero market authorizations in Saudi Arabia** and a **Blocking** safety data gap (no TFDA package insert warnings/contraindications available), so this cannot move past initial safety screening (S1) until that gap is closed.
-- The other two predicted indications (duodenogastric reflux, duodenal obstruction) lack sufficient evidence and should be put on **Hold** / treated as low-priority research questions only.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and parse the official package insert (warnings, precautions, contraindications) — currently Blocking (DG001)
-- Obtain detailed mechanism-of-action documentation from DrugBank to close the High-severity MOA gap (DG002)
-- Run a formal drug-drug interaction (DDI) query (current query status: not found)
-- Confirm regulatory pathway for market entry in Saudi Arabia given zero existing authorizations
-- Do not allocate further resources to duodenogastric reflux or duodenal obstruction without new supporting evidence
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدمًا مع ضمانات**
+
+**المبرر:**
+- بالنسبة لـ **قرحة الاثني عشر**، الأدلة قوية (L1: عدة تجارب عشوائية محكومة مكتملة في المرحلة 3 بالإضافة إلى أدبيات داعمة تشمل تجارب عشوائية محكومة وتحليل تلوي للشبكة)، وآلية العمل مباشرة وراسخة جيدًا لفئة مثبطات مضخة البروتون — هذا يعني فعليًا تأكيد استخدام معقول بالفعل بدلاً من فرضية إعادة استخدام نظرية.
+- ومع ذلك، الدواء لديه **صفر تصاريح تسويق في المملكة العربية السعودية** وفجوة بيانات أمان **حظر** (لا توجد تحذيرات/موانع نشرة TFDA متاحة)، لذا لا يمكن نقل هذا فوق الفحص الأمني الأولي (S1) حتى يتم إغلاق تلك الفجوة.
+- المؤشرات المتنبأ بها الأخرى (الارتجاع ثنائي المعدة والاثني عشر، انسداد الاثني عشر) تفتقر إلى أدلة كافية ويجب وضعها في **تأجيل** / الاعتبار كأسئلة بحثية ذات أولوية منخفضة فقط.
+
+**للمضي قدمًا، ما يلي مطلوب:**
+- استرجاع وتحليل نشرة المعلومات الرسمية (التحذيرات والاحتياطات والموانع) — تحديدًا حظر (DG001)
+- الحصول على توثيق آلية العمل التفصيلي من DrugBank لإغلاق فجوة MOA عالية الشدة (DG002)
+- تشغيل استعلام تفاعل الأدوية الرسمي (DDI) (حالة الاستعلام الحالية: لم يتم العثور عليها)
+- تأكيد مسار التنظيم لدخول السوق في المملكة العربية السعودية نظرًا لصفر التصاريح الحالية
+- عدم تخصيص موارد إضافية لارتجاع ثنائي المعدة والاثني عشر أو انسداد الاثني عشر بدون أدلة داعمة جديدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

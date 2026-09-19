@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Prednisone: From Inflammatory & Autoimmune Conditions to Alopecia Areata
+# بريدنيزون: من الحالات الالتهابية والمناعية الذاتية إلى داء الثعلبة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Prednisone is a synthetic corticosteroid widely used across inflammatory, autoimmune, and oncologic combination regimens. The TxGNN model predicts it may be effective for **Alopecia Areata**, with a query returning **33 clinical trial records and 20 publications**, though most trial hits reference prednisone only as a background regimen in unrelated diseases (SLE, oncology) rather than as a tested intervention for alopecia areata; the disease-specific evidence is anchored by one completed Phase 3 RCT and a multi-decade body of dermatology case series/cohorts.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (drug is not marketed in Saudi Arabia; no approved indication text available) |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+بريدنيزون هو كورتيكوستيرويد اصطناعي يُستخدم على نطاق واسع عبر الأنظمة المرجعية للأمراض الالتهابية والمناعية الذاتية والأورام. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **داء الثعلبة**، مع استعلام يُرجع **33 سجل تجربة سريرية و20 منشوراً علمياً**، غير أن معظم نتائج التجارب تشير إلى بريدنيزون فقط كنظام معالجة خلفي في أمراض غير مرتبطة (الذئبة الحمراء، الأورام) بدلاً من كونه تدخلاً مختبراً لداء الثعلبة؛ والدليل الخاص بالمرض يركز على تجربة عشوائية كبيرة (Phase 3) مكتملة وجسم أبحاث متعدد العقود من حالات الأمراض الجلدية والدراسات الأترابية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack. Based on known pharmacology, prednisone is a synthetic glucocorticoid that acts via the glucocorticoid receptor (GR) to suppress the NF-κB pathway, reducing peri-follicular CD8+ T-cell infiltration and Th1/Th17-driven inflammation — a mechanism that maps directly onto the autoimmune follicular attack underlying alopecia areata (AA).
-
-This is not a novel hypothesis: systemic corticosteroids (alone or combined with methotrexate or JAK inhibitors) are already an established off-label dermatology practice for severe AA. Case reports and cohort studies date back to the 1950s–1970s, and more recent literature (2016–2026) documents combination regimens (methotrexate + low-dose prednisone; baricitinib + low-dose corticosteroids) specifically for the most refractory subtypes (alopecia totalis/universalis).
-
-One caveat: the clinical trial search returned a large number of records (33) tagged to "alopecia areata," but the majority are actually systemic lupus erythematosus (SLE) or oncology trials in which prednisone appears only as a background standard-of-care component, not as a tested AA intervention. Only one trial directly evaluates prednisone in AA.
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير موثق في حزمة الأدلة (الدواء غير مسوق في المملكة العربية السعودية؛ لا توجد نصوص مؤشرات معتمدة متاحة) |
+| الاستطباب الجديد المتنبأ به | داء الثعلبة |
+| درجة التنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع ضوابط حماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل المفصلة غير متوفرة لهذا الدواء في حزمة الأدلة. بناءً على الصيدلة المعروفة، بريدنيزون هو جلوكوكورتيكويد اصطناعي يعمل عبر مستقبل الجلوكوكورتيكويد (GR) لقمع مسار NF-κB، مما يقلل من تسلل الخلايا التائية CD8+ حول الجريبات والالتهاب الذي يقوده Th1/Th17 — وهي آلية تطابق مباشرة الهجوم المناعي الذاتي على الجريبات الكامن وراء داء الثعلبة.
+
+هذا ليس افتراضاً جديداً: الكورتيكوستيرويدات الجهازية (وحدها أو مدمجة مع الميثوتريكسات أو مثبطات JAK) هي بالفعل ممارسة طبية متعارف عليها للاستخدام خارج المؤشرات المعتمدة في طب الأمراض الجلدية لداء الثعلبة الشديد. تعود التقارير الحالة والدراسات الأترابية إلى السنوات 1950–1970، والأدبيات الأحدث (2016–2026) توثق الأنظمة المركبة (الميثوتريكسات + بريدنيزون بجرعة منخفضة؛ باريسيتينيب + كورتيكوستيرويدات بجرعة منخفضة) بشكل خاص للأنماط الأكثر مقاومة (الثعلبة الكلية/العالمية).
+
+ملاحظة واحدة: البحث عن التجارب السريرية أرجع عدداً كبيراً من السجلات (33) موسومة بـ "داء الثعلبة"، لكن الغالبية في الواقع هي تجارب الذئبة الحمراء (SLE) أو الأورام حيث يظهر بريدنيزون فقط كمكون للعناية الحياتية القياسية في الخلفية، وليس كتدخل مختبر لداء الثعلبة. تُقيِّم تجربة واحدة فقط بريدنيزون في داء الثعلبة بشكل مباشر.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02037191](https://clinicaltrials.gov/study/NCT02037191) | Phase 3 | Completed | 90 | RCT testing methotrexate vs. placebo, with secondary treatment by methotrexate + low-dose prednisone, in severe alopecia areata (regrowth rate <10% with standard care) |
+| [NCT02037191](https://clinicaltrials.gov/study/NCT02037191) | Phase 3 | مكتملة | 90 | تجربة عشوائية تختبر الميثوتريكسات مقابل الدواء الوهمي، مع معالجة ثانوية بواسطة الميثوتريكسات + بريدنيزون بجرعة منخفضة، في داء الثعلبة الشديد (معدل إعادة النمو <10% مع الرعاية القياسية) |
 
-**Note:** The remaining 32 trials returned by the search query are for unrelated indications (SLE, lupus nephritis, prostate/breast cancer, lymphoma) where prednisone appears only as a background or comparator regimen component — they were excluded as not directly relevant to alopecia areata and are not listed here.
+**ملاحظة:** التجارب الـ 32 المتبقية التي أرجعتها استعلام البحث مخصصة لمؤشرات غير مرتبطة (SLE، التهاب كبيبات الكلى الذئبي، سرطان البروستاتا/الثدي، الأورام اللمفاوية) حيث يظهر بريدنيزون فقط كمكون نظام خلفي أو مقارن — تم استبعادها لأنها غير ذات صلة مباشرة بداء الثعلبة ولم تُدرج هنا.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [36884234](https://pubmed.ncbi.nlm.nih.gov/36884234/) | 2023 | RCT | JAMA Dermatology | 2-step double-blind RCT: methotrexate alone vs. methotrexate + low-dose prednisone in alopecia totalis/universalis |
-| [4571041](https://pubmed.ncbi.nlm.nih.gov/4571041/) | 1973 | Cohort | Archives of Dermatology | Immunologic studies of AA with prednisone treatment |
-| [38650498](https://pubmed.ncbi.nlm.nih.gov/38650498/) | 2024 | Cohort | Italian J Dermatol Venereol | Real-world evidence: AA comorbidities, treatment patterns, and economic burden in Italy |
-| [26735937](https://pubmed.ncbi.nlm.nih.gov/26735937/) | 2016 | Cohort | Dermatology (Basel) | Efficacy/safety of methotrexate combined with low-to-moderate dose corticosteroids for severe AA |
-| [1444509](https://pubmed.ncbi.nlm.nih.gov/1444509/) | 1992 | Review | Archives of Dermatology | Review of AA therapy efficacy, safety, and mechanism across treatment modalities |
-| [41958306](https://pubmed.ncbi.nlm.nih.gov/41958306/) | 2026 | Review | J Eur Acad Dermatol Venereol | Retrospective case series: baricitinib + low-dose prednisone for very severe AA |
-| [791152](https://pubmed.ncbi.nlm.nih.gov/791152/) | 1976 | Review | Archives of Dermatology | Follow-up report on prednisone therapy for AA; documents long-term relapse and steroid side effects |
-| [37467740](https://pubmed.ncbi.nlm.nih.gov/37467740/) | 2023 | Case Series | Clinical and Experimental Dermatology | 8-case series: baricitinib + low-dose corticosteroids for very severe AA |
-| [20804894](https://pubmed.ncbi.nlm.nih.gov/20804894/) | 2010 | Study | Annales de Dermatologie et Vénéréologie | Efficacy and safety of once-monthly oral pulsed prednisone in AA management |
-| [9732014](https://pubmed.ncbi.nlm.nih.gov/9732014/) | 1998 | Study | International Journal of Dermatology | Severe AA treated with systemic corticosteroids |
+| [36884234](https://pubmed.ncbi.nlm.nih.gov/36884234/) | 2023 | تجربة عشوائية | JAMA Dermatology | تجربة عشوائية ثنائية المراحل مزدوجة التعمية: الميثوتريكسات وحده مقابل الميثوتريكسات + بريدنيزون بجرعة منخفضة في الثعلبة الكلية/العالمية |
+| [4571041](https://pubmed.ncbi.nlm.nih.gov/4571041/) | 1973 | دراسة أترابية | Archives of Dermatology | الدراسات المناعية لداء الثعلبة مع علاج بريدنيزون |
+| [38650498](https://pubmed.ncbi.nlm.nih.gov/38650498/) | 2024 | دراسة أترابية | Italian J Dermatol Venereol | الأدلة من الواقع: الأمراض المرافقة لداء الثعلبة، أنماط المعالجة، والعبء الاقتصادي في إيطاليا |
+| [26735937](https://pubmed.ncbi.nlm.nih.gov/26735937/) | 2016 | دراسة أترابية | Dermatology (Basel) | فعالية/سلامة الميثوتريكسات مدمج مع كورتيكوستيرويدات بجرعة منخفضة إلى معتدلة لداء الثعلبة الشديد |
+| [1444509](https://pubmed.ncbi.nlm.nih.gov/1444509/) | 1992 | مراجعة | Archives of Dermatology | مراجعة لفعالية وسلامة وآلية علاج داء الثعلبة عبر طرائق علاجية متعددة |
+| [41958306](https://pubmed.ncbi.nlm.nih.gov/41958306/) | 2026 | مراجعة | J Eur Acad Dermatol Venereol | سلسلة حالات بأثر رجعي: باريسيتينيب + بريدنيزون بجرعة منخفضة لداء الثعلبة الشديد جداً |
+| [791152](https://pubmed.ncbi.nlm.nih.gov/791152/) | 1976 | مراجعة | Archives of Dermatology | تقرير المتابعة حول علاج بريدنيزون لداء الثعلبة؛ يوثق الانتكاس على المدى الطويل والآثار الجانبية للستيرويد |
+| [37467740](https://pubmed.ncbi.nlm.nih.gov/37467740/) | 2023 | سلسلة حالات | Clinical and Experimental Dermatology | سلسلة من 8 حالات: باريسيتينيب + كورتيكوستيرويدات بجرعة منخفضة لداء الثعلبة الشديد جداً |
+| [20804894](https://pubmed.ncbi.nlm.nih.gov/20804894/) | 2010 | دراسة | Annales de Dermatologie et Vénéréologie | فعالية وسلامة بريدنيزون الفموي النبضي الشهري مرة واحدة في إدارة داء الثعلبة |
+| [9732014](https://pubmed.ncbi.nlm.nih.gov/9732014/) | 1998 | دراسة | International Journal of Dermatology | داء الثعلبة الشديد المعالج بالكورتيكوستيرويدات الجهازية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Prednisone currently has no marketing authorization on record in Saudi Arabia (0 total licenses; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or DDI data were available in the evidence pack; the TFDA package-insert lookup for this candidate is flagged as a **Blocking** data gap that must be resolved before a formal S1 safety assessment can proceed.)
+بريدنيزون حالياً لا يحتوي على ترخيص تسويق معترف به في المملكة العربية السعودية (إجمالي 0 تراخيص؛ حالة السوق: غير مسوق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (لم تكن بيانات التحذيرات المنظمة أو موانع الاستعمال أو تفاعلات الأدوية المتعددة متاحة في حزمة الأدلة؛ يتم وضع علامة على البحث عن نشرة TFDA لهذا المرشح على أنه فجوة بيانات **محظورة** يجب حلها قبل أن تتمكن مراجعة السلامة الرسمية S1 من المضي قدماً.)
 
-**Rationale:**
-TxGNN scores this prediction near-maximal (99.99%), and it is corroborated by a completed Phase 3 RCT plus a multi-decade, mechanistically coherent body of case series and cohort literature — corticosteroids are already established off-label practice for severe AA. However, no dedicated prednisone-monotherapy RCT exists (evidence is combination-based), and this candidate is currently unmarketed in Saudi Arabia with a blocking gap in local safety labeling.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings, contraindications, and DDI data (blocking gap — required before S1 safety review)
-- Detailed mechanism of action documentation (DrugBank MOA currently unavailable)
-- Confirmation of regulatory pathway for a currently unmarketed product (import/registration or off-label use framework)
-- Prednisone-specific (monotherapy or defined combination) efficacy data in AA to strengthen the evidence level beyond L3
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضوابط حماية**
+
+**المنطق:**
+يسجل TxGNN هذا التنبؤ بدرجة قريبة من الأعلى (99.99%)، وهو مؤيد من قبل تجربة عشوائية كبيرة (Phase 3) مكتملة بالإضافة إلى جسم أدبيات متعدد العقود منسجم ميكانيكياً من سلسلات الحالات والدراسات الأترابية — الكورتيكوستيرويدات بالفعل ممارسة معترف بها للاستخدام خارج المؤشرات المعتمدة لداء الثعلبة الشديد. غير أنه لا توجد تجربة عشوائية كبيرة مكرسة لبريدنيزون المفرد (الدليل مبني على الأنظمة المركبة)، وهذا المرشح غير مسوق حالياً في المملكة العربية السعودية مع فجوة محظورة في تسميات السلامة المحلية.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات تحذيرات/موانع استعمال/تفاعلات الأدوية المتعددة TFDA/SFDA (فجوة محظورة — مطلوبة قبل مراجعة السلامة S1)
+- توثيق آلية عمل مفصل (موارد DrugBank الحالية غير متوفرة)
+- تأكيد المسار التنظيمي لمنتج غير مسوق حالياً (استيراد/تسجيل أو إطار استخدام خارج المؤشرات المعتمدة)
+- بيانات فعالية خاصة ببريدنيزون (مفرد أو مدمج محدد) في داء الثعلبة لتعزيز مستوى الدليل خارج L3
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

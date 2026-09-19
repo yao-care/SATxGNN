@@ -29,92 +29,93 @@ indication_count: 10
 
 </div>
 
-# Fluoxetine: From Major Depressive Disorder to Phobic Disorder
+# الفلوكسيتين: من اضطراب الاكتئاب الحاد إلى اضطراب الخوف الرهابي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) whose established therapeutic role is Major Depressive Disorder (MDD). The TxGNN model generated 10 candidate new indications for this drug; most top-ranked candidates (e.g., schizoid, histrionic, paranoid personality disorder) show high raw similarity scores but lack disease-specific clinical support. This report focuses on **Phobic Disorder**, the candidate with the strongest actual evidence base — **6 clinical trials** (including a completed Phase 3 RCT) and **20 publications**, several of them direct fluoxetine RCTs.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Major Depressive Disorder (MDD) — referenced as fluoxetine's core approved indication in the underlying evidence texts; formal Saudi Arabia license/indication text is unavailable (drug not marketed locally) |
-| Predicted New Indication | Phobic Disorder |
-| TxGNN Prediction Score | 99.63% (rank 6280 of candidate pool) |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+الفلوكسيتين هو مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI) دوره العلاجي المثبت هو اضطراب الاكتئاب الحاد (MDD). أنتج نموذج TxGNN 10 مرشحين لمؤشرات جديدة لهذا الدواء؛ معظم المرشحين ذوي التصنيف الأعلى (مثل اضطراب الشخصية الانعزالية والهستيرية والبارانويدية) يظهرون درجات تشابه خام عالية لكنهم يفتقرون إلى الدعم السريري المحدد للمرض. يركز هذا التقرير على **اضطراب الخوف الرهابي**، وهو المرشح ذو أقوى قاعدة أدلة فعلية — **6 تجارب سريرية** (بما في ذلك اختبار المرحلة 3 العشوائي المكتمل) و**20 منشورًا**، عدة منها تجارب عشوائية مباشرة للفلوكسيتين.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacology, fluoxetine is an SSRI that enhances serotonergic neurotransmission by potently and selectively inhibiting neuronal reuptake of serotonin — a mechanism already proven effective in MDD.
-
-Phobic Disorder sits within the same serotonergically-mediated anxiety-spectrum family as MDD, and SSRIs are a standard pharmacological class for panic disorder, agoraphobia, and social phobia. This mechanistic continuity is well supported empirically: fluoxetine has a completed Phase 3 RCT specifically in childhood/adolescent social phobia (NCT00043537), plus a substantial body of direct RCTs and systematic reviews spanning panic disorder, agoraphobia, and generalized social phobia.
-
-Notably, this candidate was selected over the raw top-ranked TxGNN prediction (schizoid personality disorder, score 99.92%), because the evidence pack's own rationale explicitly flags that top score as likely driven by semantic clustering around "personality disorder" terms rather than a disease-specific mechanistic link — no clinical trials and only tangential literature support it. Phobic Disorder, agoraphobia, and melancholia were the only candidates in this pack reaching L1–L2 evidence with an actionable recommendation.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00043537](https://clinicaltrials.gov/study/NCT00043537) | Phase 3 | Completed | 139 | 4-year RCT comparing behavioral therapy, fluoxetine, and placebo for childhood/adolescent social phobia — direct, highest-quality efficacy evidence for this indication |
-| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8800 | Individual patient data meta-analysis on antidepressant (incl. SSRI) efficacy across anxiety-disorder severity strata |
-| [NCT05002309](https://clinicaltrials.gov/study/NCT05002309) | Phase 2 | Recruiting | 100 | RCT comparing CBT vs. optimized pharmacotherapy in early-onset youth depression, relevant to anxiety-spectrum comorbidity |
-| [NCT00004446](https://clinicaltrials.gov/study/NCT00004446) | N/A | Completed | 80 | Fluoxetine efficacy/durability in depersonalization disorder, including comorbid social phobia/panic/anxiety subgroups |
-| [NCT06942494](https://clinicaltrials.gov/study/NCT06942494) | N/A | Recruiting | 88 | Family-based CBT self-help RCT for adolescent OCD — indirect relevance via anxiety-spectrum comorbidity |
-| [NCT05737511](https://clinicaltrials.gov/study/NCT05737511) | Phase 4 | Not yet recruiting | 80 | Hydroxyzine vs. treatment-as-usual pilot RCT for panic disorder — comparator study, not fluoxetine-specific |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | اضطراب الاكتئاب الحاد (MDD) — مذكور كمؤشر أساسي معتمد للفلوكسيتين في نصوص الأدلة الأساسية؛ النص الرسمي للترخيص/المؤشر في المملكة العربية السعودية غير متاح (الدواء لم يُسوّق محليًا) |
+| المؤشر الجديد المتنبأ به | اضطراب الخوف الرهابي |
+| درجة التنبؤ من TxGNN | 99.63% (الترتيب 6280 من مجموع المرشحين) |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق (غير مسوّق) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Literature Evidence
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9812120](https://pubmed.ncbi.nlm.nih.gov/9812120/) | 1998 | RCT | Am J Psychiatry | Fluoxetine vs. placebo RCT in panic disorder; evaluates outcome measures beyond panic-attack frequency |
-| [36519357](https://pubmed.ncbi.nlm.nih.gov/36519357/) | 2023 | Review | Expert Opin Pharmacother | Up-to-date overview of pharmacotherapy, including SSRIs, for social anxiety disorder |
-| [15466674](https://pubmed.ncbi.nlm.nih.gov/15466674/) | 2004 | RCT | Arch Gen Psychiatry | Fluoxetine vs. CBT vs. placebo in generalized social phobia |
-| [11110016](https://pubmed.ncbi.nlm.nih.gov/11110016/) | 2000 | Review | Int Clin Psychopharmacol | SSRIs, including fluoxetine, proven superior to placebo in panic disorder and agoraphobia |
-| [7786880](https://pubmed.ncbi.nlm.nih.gov/7786880/) | 1995 | RCT/Pharmacologic study | J Psychiatry Neurosci | Open fluoxetine trial in panic disorder with platelet binding study |
-| [17092192](https://pubmed.ncbi.nlm.nih.gov/17092192/) | 2006 | Review | J Clin Psychiatry | Evidence review of SSRIs (fluoxetine, paroxetine, etc.) for social anxiety disorder |
-| [10471245](https://pubmed.ncbi.nlm.nih.gov/10471245/) | 1999 | Review | Harvard Rev Psychiatry | SSRI class review including panic disorder as an established indication |
-| [11593305](https://pubmed.ncbi.nlm.nih.gov/11593305/) | 2001 | RCT | Braz J Med Biol Res | Double-blind RCT comparing mirtazapine vs. fluoxetine in panic disorder |
-| [9192539](https://pubmed.ncbi.nlm.nih.gov/9192539/) | 1997 | Open-label trial | J Child Adolesc Psychopharmacol | Open-label pediatric fluoxetine trial for mixed anxiety disorders |
-| [7836341](https://pubmed.ncbi.nlm.nih.gov/7836341/) | 1995 | Short communication | J Clin Psychiatry | Early clinical report on fluoxetine and social phobia |
+حاليًا، لا تتوفر بيانات تفصيلية حول آلية العمل (تم تصنيفها كفجوة بيانات بدرجة خطورة عالية). استنادًا إلى الدراسات الدوائية المعروفة، الفلوكسيتين هو SSRI يعزز النقل العصبي السيروتونيني بمنع قوي وانتقائي لإعادة امتصاص السيروتونين العصبي — وهي آلية ثبت فعاليتها بالفعل في اضطراب الاكتئاب الحاد.
+
+اضطراب الخوف الرهابي يقع ضمن نفس عائلة طيف القلق الموسّطة بالسيروتونين كاضطراب الاكتئاب الحاد، و SSRIs هي فئة دوائية قياسية لاضطراب الهلع والرهاب البسيط والرهاب الاجتماعي. يدعم هذا الاستمرارية الآلية بقوة الأدلة التجريبية: للفلوكسيتين اختبار مرحلة 3 عشوائي مكتمل خصيصًا في الرهاب الاجتماعي لدى الأطفال/المراهقين (NCT00043537)، بالإضافة إلى جسم كبير من الاختبارات العشوائية المباشرة والمراجعات المنهجية تغطي اضطراب الهلع والرهاب البسيط والرهاب الاجتماعي العام.
+
+بشكل ملحوظ، تم اختيار هذا المرشح على التنبؤ الأعلى المرتبة الخام من TxGNN (اضطراب الشخصية الانعزالية، درجة 99.92%)، لأن منطق حزمة الأدلة نفسها يشير بوضوح إلى أن تلك الدرجة العالية ربما تكون مدفوعة بالتجميع الدلالي حول مصطلحات "اضطراب الشخصية" بدلاً من رابط آلي محدد للمرض — لا توجد تجارب سريرية ولا يوجد سوى دعم أدبي هامشي. كان اضطراب الخوف الرهابي والرهاب البسيط والكآبة هي المرشحين الوحيدين في هذه الحزمة الذين يصلان إلى مستوى L1–L2 من الأدلة مع توصية قابلة للتنفيذ.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Fluoxetine currently holds **no marketing authorization in Saudi Arabia** (0 licenses on record). No product/dosage-form/indication data is available to tabulate.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|--------|--------|---------|---------|
+| [NCT00043537](https://clinicaltrials.gov/study/NCT00043537) | المرحلة 3 | مكتملة | 139 | اختبار عشوائي مدة 4 سنوات يقارن العلاج السلوكي والفلوكسيتين والعلاج الوهمي للرهاب الاجتماعي لدى الأطفال/المراهقين — أقوى أدلة فعالية مباشرة وأعلى جودة لهذا المؤشر |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | غير محدد | غير معروفة | 8800 | تحليل تلوي لبيانات المريض الفردية حول فعالية مضادات الاكتئاب (بما في ذلك SSRI) عبر طبقات شدة اضطرابات القلق |
+| [NCT05002309](https://clinicaltrials.gov/study/NCT05002309) | المرحلة 2 | قيد التجنيد | 100 | اختبار عشوائي يقارن العلاج السلوكي مقابل العلاج الدوائي المحسّن في الاكتئاب المبكر لدى الشباب، ذي صلة بالإصابة المشتركة بطيف القلق |
+| [NCT00004446](https://clinicaltrials.gov/study/NCT00004446) | غير محدد | مكتملة | 80 | فعالية الفلوكسيتين والديمومة في اضطراب تبدد الشخصية، بما في ذلك المجموعات الفرعية للرهاب الاجتماعي المشترك/اضطراب الهلع/القلق |
+| [NCT06942494](https://clinicaltrials.gov/study/NCT06942494) | غير محدد | قيد التجنيد | 88 | اختبار عشوائي للعلاج السلوكي القائم على الأسرة والمساعدة الذاتية لاضطراب الوسواس القهري لدى المراهقين — ذي صلة غير مباشرة عبر الإصابة المشتركة بطيف القلق |
+| [NCT05737511](https://clinicaltrials.gov/study/NCT05737511) | المرحلة 4 | لم تبدأ بعد | 80 | اختبار تجريبي للهيدروكسيزين مقابل العلاج المعتاد لاضطراب الهلع — دراسة مقارنة، وليست خاصة بالفلوكسيتين |
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all flagged as data gaps in this evidence pack — SFDA package insert has not yet been retrieved.)
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|---------|
+| [9812120](https://pubmed.ncbi.nlm.nih.gov/9812120/) | 1998 | اختبار عشوائي | Am J Psychiatry | اختبار عشوائي للفلوكسيتين مقابل العلاج الوهمي في اضطراب الهلع؛ يقيّم مقاييس النتائج خارج تكرار نوبات الهلع |
+| [36519357](https://pubmed.ncbi.nlm.nih.gov/36519357/) | 2023 | مراجعة | Expert Opin Pharmacother | نظرة عامة محدثة على العلاج الدوائي، بما في ذلك SSRIs، لاضطراب القلق الاجتماعي |
+| [15466674](https://pubmed.ncbi.nlm.nih.gov/15466674/) | 2004 | اختبار عشوائي | Arch Gen Psychiatry | الفلوكسيتين مقابل العلاج السلوكي مقابل العلاج الوهمي في الرهاب الاجتماعي العام |
+| [11110016](https://pubmed.ncbi.nlm.nih.gov/11110016/) | 2000 | مراجعة | Int Clin Psychopharmacol | SSRIs، بما في ذلك الفلوكسيتين، ثبت أنها أفضل من العلاج الوهمي في اضطراب الهلع والرهاب البسيط |
+| [7786880](https://pubmed.ncbi.nlm.nih.gov/7786880/) | 1995 | اختبار عشوائي/دراسة دوائية | J Psychiatry Neurosci | تجربة مفتوحة للفلوكسيتين في اضطراب الهلع مع دراسة ربط الصفائح الدموية |
+| [17092192](https://pubmed.ncbi.nlm.nih.gov/17092192/) | 2006 | مراجعة | J Clin Psychiatry | مراجعة الأدلة لـ SSRIs (الفلوكسيتين وباروكسيتين وغيرها) لاضطراب القلق الاجتماعي |
+| [10471245](https://pubmed.ncbi.nlm.nih.gov/10471245/) | 1999 | مراجعة | Harvard Rev Psychiatry | مراجعة فئة SSRI بما في ذلك اضطراب الهلع كمؤشر محدد |
+| [11593305](https://pubmed.ncbi.nlm.nih.gov/11593305/) | 2001 | اختبار عشوائي | Braz J Med Biol Res | اختبار عشوائي مزدوج التعمية يقارن الميرتازابين مقابل الفلوكسيتين في اضطراب الهلع |
+| [9192539](https://pubmed.ncbi.nlm.nih.gov/9192539/) | 1997 | تجربة مفتوحة | J Child Adolesc Psychopharmacol | تجربة مفتوحة للفلوكسيتين لدى الأطفال لاضطرابات القلق المختلطة |
+| [7836341](https://pubmed.ncbi.nlm.nih.gov/7836341/) | 1995 | تقرير موجز | J Clin Psychiatry | تقرير سريري مبكر عن الفلوكسيتين والرهاب الاجتماعي |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Proceed with Guardrails**
+الفلوكسيتين حاليًا لا يملك **أي ترخيص تسويق في المملكة العربية السعودية** (0 رخص في السجل). لا تتوفر بيانات المنتج/صيغة الجرعة/المؤشر لتجدول.
 
-**Rationale:**
-Phobic Disorder is the best-supported repurposing candidate in this evidence pack — L1 evidence anchored by a completed Phase 3 pediatric social phobia RCT plus multiple direct fluoxetine RCTs/reviews across the panic/agoraphobia/social phobia spectrum. However, the drug is not currently marketed in Saudi Arabia, and the TFDA/SFDA package insert (warnings/contraindications) is an unresolved **Blocking** data gap that prevents this candidate from formally entering safety pre-assessment (S1).
+---
 
-**To proceed, the following is needed:**
-- Retrieve the SFDA/TFDA package insert (warnings, contraindications, DDI) — currently Blocking
-- Retrieve confirmed mechanism of action (MOA) data from DrugBank
-- Confirm formal original approved indication and license status, since Saudi Arabia license records are empty
-- If pursuing registration, define a route-to-market pathway given current non-marketed status
+## اعتبارات السلامة
+
+يرجى الرجوع إلى الإدراج في الحزمة للحصول على معلومات السلامة. (جميع التحذيرات الرئيسية والموانع الاستعمال وبيانات تفاعلات الأدوية تم تصنيفها كفجوات بيانات في حزمة الأدلة هذه — لم يتم استرجاع إدراج SFDA بعد.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+اضطراب الخوف الرهابي هو أفضل مرشح إعادة توظيف مدعوم في حزمة الأدلة هذه — أدلة L1 مرسومة بواسطة اختبار مرحلة 3 مكتمل للرهاب الاجتماعي لدى الأطفال بالإضافة إلى عدة تجارب عشوائية مباشرة/مراجعات للفلوكسيتين عبر طيف الهلع/الرهاب البسيط/الرهاب الاجتماعي. ومع ذلك، الدواء حاليًا غير مسوّق في المملكة العربية السعودية، و إدراج TFDA/SFDA (التحذيرات/موانع الاستعمال) هو فجوة بيانات **حاجزة** لم يتم حلها والتي تمنع هذا المرشح من دخول قسم تقييم السلامة رسميًا (S1).
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع إدراج SFDA/TFDA (التحذيرات، موانع الاستعمال، DDI) — حاليًا حاجز
+- استرجاع بيانات آلية العمل (MOA) المؤكدة من DrugBank
+- تأكيد المؤشر الأصلي المعتمد رسميًا وحالة الرخصة، لأن سجلات رخصة المملكة العربية السعودية فارغة
+- إذا تم السعي للتسجيل، تحديد مسار دخول السوق نظرًا لحالة عدم التسويق الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

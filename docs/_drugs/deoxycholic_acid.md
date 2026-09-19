@@ -29,75 +29,76 @@ indication_count: 3
 
 </div>
 
-# Deoxycholic Acid: From Submental Fat Reduction to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
+# حمض ديوكسيكوليك: من تقليل دهون تحت الذقن إلى متلازمة الهيماتوريا العائلية الجسمية السائدة-التحدب الشرياني الشبكي-التقفع
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Deoxycholic acid (DCA) is a secondary bile acid approved in the United States, Canada, and Europe as an injectable fat-dissolving treatment for submental contouring (brand name Kybella/Belkyra), and is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome**, an ultra-rare inherited collagen disorder,
-with **no clinical trials and no supporting publications** currently available for this drug-disease pair — making this a model-only prediction.
+حمض ديوكسيكوليك (DCA) هو حمض صفراوي ثانوي معتمد في الولايات المتحدة وكندا وأوروبا كعلاج قابل للحقن لإذابة الدهون في تشكيل تحت الذقن (اسم العلامة التجارية Kybella/Belkyra)، وغير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة الهيماتوريا العائلية الجسمية السائدة مع التحدب الشرياني الشبكي والتقفع**، وهو اضطراب نادر جداً في الكولاجين الموروث،
+**بدون تجارب سريرية وبدون منشورات داعمة** متاحة حالياً لهذا الزوج من الدواء والمرض — مما يجعل هذا تنبؤاً يعتمد على النموذج فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| عنصر | المحتوى |
 |------|---------|
-| Original Indication | Submental fat reduction (Kybella/Belkyra; not registered in Saudi Arabia) |
-| Predicted New Indication | Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | تقليل دهون تحت الذقن (Kybella/Belkyra؛ غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | متلازمة الهيماتوريا العائلية الجسمية السائدة مع التحدب الشرياني الشبكي والتقفع |
+| درجة تنبؤ TxGNN | 99.49% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | التعليق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for deoxycholic acid is not available in this evidence pack. Based on known pharmacological information, DCA is a secondary bile acid synthesised by gut bacteria from primary bile acids. It acts through two main mechanisms: (1) direct cytolytic disruption of adipocyte cell membranes (the basis of its cosmetic use), and (2) agonism at bile acid receptors FXR (farnesoid X receptor) and TGR5, which regulate metabolic, inflammatory, and fibrotic pathways across multiple organ systems.
+حالياً، بيانات آلية العمل المفصلة لحمض ديوكسيكوليك غير متاحة في حزمة الأدلة هذه. بناءً على المعلومات الصيدلانية المعروفة، DCA هو حمض صفراوي ثانوي يتم تصنيعه بواسطة بكتيريا الأمعاء من الأحماض الصفراوية الأساسية. يعمل من خلال آليتين رئيسيتين: (1) التعطيل المباشر المذيب للخلايا لأغشية الخلايا الدهنية (الأساس لاستخدامه التجميلي)، و(2) الناهضية عند مستقبلات الحمض الصفراوي FXR (مستقبل فارنيسويد X) و TGR5، التي تنظم المسارات الأيضية والالتهابية والتليفية عبر أنظمة أعضاء متعددة.
 
-The predicted disease — autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (OMIM #141200) — is an ultra-rare inherited connective tissue disorder caused by mutations in *COL4A3* or *COL4A4* genes encoding type IV collagen α-chains of the glomerular and retinal basement membranes. The clinical triad of glomerular hematuria, retinal arteriolar tortuosity, and joint contractures reflects a structural failure of basement membrane scaffolding throughout the body.
+المرض المتنبأ به — متلازمة الهيماتوريا العائلية الجسمية السائدة مع التحدب الشرياني الشبكي والتقفع (OMIM #141200) — هو اضطراب نسيج ضام موروث نادر جداً يسببه طفرات في جينات *COL4A3* أو *COL4A4* التي تشفر سلاسل الكولاجين من نوع IV في أغشية القاعدة الكبيبية والشبكية. يعكس الثالوث السريري للهيماتوريا الكبيبية والتحدب الشرياني الشبكي والتقفع المفصلي فشلاً هيكلياً في سقالات الغشاء القاعدي عبر الجسم.
 
-There is no identified mechanistic link between DCA's FXR/TGR5 bile acid signalling and the COL4A3/COL4A4 collagen defects underlying this syndrome. The high TxGNN score (0.9949) almost certainly reflects indirect graph proximity in the biomedical knowledge graph — shared vascular and renal node neighbourhood — rather than genuine biological relevance. This is a well-recognised false-positive pattern for ultra-rare Mendelian structural protein diseases, where graph-based models capture phenotypic node proximity but not therapeutic actionability.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+لا توجد صلة آلية محددة بين إشارات FXR/TGR5 للحمض الصفراوي DCA وعيوب COL4A3/COL4A4 الكولاجينية الكامنة وراء هذه المتلازمة. درجة TxGNN العالية (0.9949) تعكس على الأرجح القرب غير المباشر في الرسم البياني بين العقد الوعائية والكلوية في الرسم البياني المعرفي الطبي الحيوي — بدلاً من الملاءمة البيولوجية الحقيقية. هذا هو نمط إيجابي خاطئ معترف به جيداً لأمراض البروتين الهيكلي المندلية النادرة جداً، حيث تلتقط النماذج القائمة على الرسم البياني تقارب العقد الظاهرية لكن ليس إمكانية العمل العلاجي الفعلية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for this drug-disease pair.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** Formal safety data (key warnings, contraindications, drug interactions) could not be retrieved for this evidence pack. The SFDA/TFDA package insert was not available for automated parsing (Data Gap DG001). DCA is known to be cytolytic at higher concentrations; injection-site necrosis and nerve injury are documented adverse effects for the approved injectable formulation.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً لهذا الزوج من الدواء والمرض.
 
-**Rationale:**
-Despite a numerically high TxGNN score (99.49%), the prediction lacks any supporting clinical, preclinical, or mechanistic evidence connecting deoxycholic acid to a collagen IV basement membrane disorder. The high score is best explained by knowledge graph topology artefact rather than biological plausibility, a pattern seen systematically with ultra-rare structural protein Mendelian diseases.
+---
 
-**Additional context — higher-priority repurposing candidate identified:**
-Among the top-3 TxGNN predictions for this drug, **diabetic nephropathy (rank 3, score 99.32%, evidence level L4)** presents a far more compelling opportunity: DCA activates FXR and TGR5, both of which have demonstrated renoprotective effects in animal models of diabetic kidney disease (PMID 29089371, 26655953), and the structurally related bile acid UDCA has shown benefit in multiple preclinical diabetic nephropathy studies (PMID 26999661, 27193377, 22429686). Twenty supporting publications and a developed mechanistic rationale place this on a "Research Question" track rather than a full Hold.
+## اعتبارات السلامة
 
-**To proceed with any indication, the following is needed:**
-- Drug MOA data from DrugBank (Data Gap DG002) — required to complete mechanistic reasoning
-- Saudi Arabia package insert or label text (Data Gap DG001) — required for safety pre-screening
-- For diabetic nephropathy specifically: a dedicated *in vivo* study using DCA directly (not UDCA/TUDCA) in a diabetic kidney model, to confirm class-effect validity before clinical translation
-- Safety risk assessment for DCA's cytolytic properties relative to its therapeutic window in any systemic indication
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+> **ملاحظة:** لم يتمكن من استرجاع بيانات السلامة الرسمية (التحذيرات الرئيسية وموانع الاستعمال والتفاعلات الدوائية) لحزمة الأدلة هذه. نشرة معلومات SFDA/TFDA لم تكن متاحة للتحليل الآلي (ثغرة بيانات DG001). من المعروف أن DCA يكون مذيباً للخلايا بتركيزات أعلى؛ نخر موقع الحقن وإصابة الأعصاب هي آثار جانبية موثقة للصيغة القابلة للحقن المعتمدة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: التعليق**
+
+**الأساس المنطقي:**
+رغم درجة TxGNN عالية رقمياً (99.49%)، فإن التنبؤ يفتقر إلى أي أدلة سريرية أو ما قبل سريرية أو آلية تربط حمض ديوكسيكوليك باضطراب غشاء قاعدي من نوع IV الكولاجين. من الأفضل تفسير الدرجة العالية بأنها حالة شذوذ في طوبولوجيا الرسم البياني المعرفي بدلاً من الصحة البيولوجية الفعلية، وهو نمط يظهر بشكل منهجي مع أمراض البروتين الهيكلي المندلية النادرة جداً.
+
+**سياق إضافي — تحديد مرشح إعادة استخدام ذو أولوية أعلى:**
+من بين أفضل 3 تنبؤات TxGNN لهذا الدواء، **اعتلال الكلية السكري (الترتيب 3، الدرجة 99.32%، مستوى الأدلة L4)** يقدم فرصة أكثر إقناعاً بكثير: DCA ينشط FXR و TGR5، كلاهما أظهر تأثيرات حماية كلوية في نماذج حيوانية من مرض الكلى السكري (PMID 29089371, 26655953)، والحمض الصفراوي ذي الصلة البنيوية UDCA أظهر فائدة في دراسات متعددة ما قبل السريرية لاعتلال الكلية السكري (PMID 26999661, 27193377, 22429686). عشرون منشور داعم والأساس المنطقي الآليّ المطور يضع هذا على مسار "سؤال البحث" بدلاً من التعليق الكامل.
+
+**للمتابعة مع أي مؤشر، يلزم ما يلي:**
+- بيانات آلية عمل الدواء من DrugBank (ثغرة بيانات DG002) — مطلوب لإكمال التفكير الآليّ
+- نشرة معلومات أو نص التسمية في المملكة العربية السعودية (ثغرة بيانات DG001) — مطلوب للفحص الأمني السابق
+- بخصوص اعتلال الكلية السكري تحديداً: دراسة مخصصة في الجسم الحي باستخدام DCA مباشرة (وليس UDCA/TUDCA) في نموذج كلى سكرية، لتأكيد صحة تأثير الفئة قبل الترجمة السريرية
+- تقييم مخاطر السلامة للخصائص المذيبة للخلايا من DCA بالنسبة لنافذة العلاج في أي مؤشر جهازي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

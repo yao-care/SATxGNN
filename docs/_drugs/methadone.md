@@ -29,66 +29,67 @@ indication_count: 7
 
 </div>
 
-# Methadone: From Opioid Use Disorder / Chronic Pain Management to Tourette Syndrome
+# الميثادون: من اضطراب تعاطي الأفيونيات / إدارة الألم المزمن إلى متلازمة توريت
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Methadone is a synthetic opioid best known for its role in opioid maintenance therapy and chronic pain management; no formal original-indication data was returned in this evidence pack. The TxGNN model predicts it may be effective for **Tourette Syndrome**, but this direction is currently supported by only **0 clinical trials** and **5 publications**, the strongest of which is a single 1992 case report.
+> الميثادون هو أفيون صناعي يُعرّف بشكل أساسي بدوره في العلاج بالصيانة للأفيونيات وإدارة الألم المزمن؛ لم يتم إرجاع أي بيانات رسمية للمؤشر الأصلي في حزمة الأدلة هذه. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة توريت**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجارب سريرية** و **5 منشورات** فقط، الأقوى منها هو تقرير حالة واحدة من عام 1992.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in evidence pack (`original_indications` empty; methadone is generally known as a mu-opioid agonist used for opioid use disorder and pain management, unverified against source data here) |
-| Predicted New Indication | Tourette Syndrome |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح في حزمة الأدلة (`original_indications` فارغة؛ يُعرّف الميثادون بشكل عام بأنه ناهض مستقبل الأفيون من النوع mu يُستخدم في اضطراب تعاطي الأفيونيات وإدارة الألم، غير مؤكد ضد بيانات المصدر هنا) |
+| المؤشر الجديد المتنبأ به | متلازمة توريت |
+| درجة تنبؤ TxGNN | 99.76% |
+| مستوى الدليل | L4 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | إيقاف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this evidence pack). Based on general pharmacological knowledge, methadone is a full mu-opioid receptor agonist with additional NMDA receptor antagonist activity and weak serotonin/norepinephrine reuptake inhibition — properties that in theory could modulate basal ganglia dopaminergic transmission, a pathway implicated in tic generation.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (مشار إليها كفجوة بيانات عالية الشدة في حزمة الأدلة هذه). بناءً على المعرفة الدوائية العامة، الميثادون هو ناهض كامل لمستقبل الأفيون من النوع mu مع نشاط إضافي لحجب مستقبل NMDA وإعادة امتصاص ضعيفة للسيروتونين/النوربينفرين — وهي خصائص قد تعدل بشكل نظري نقل الدوبامين في العقد القاعدية، وهي مسار متورط في توليد الحركات اللاإرادية.
 
-The mechanistic rationale linking opioid signaling to Tourette syndrome is largely theoretical. The available literature is indirect: one 1992 case report of methadone specifically used for Tourette's disorder, a 2018 case report describing heroin addiction in a Tourette syndrome patient, a review on opiates in OCD/tic-related 5-HT2A behavior, a review on non-genetic causes of chorea (a differential-diagnosis discussion rather than a treatment study), and a 2024 palliative care review on adjuvant analgesics that only tangentially references opioid mechanisms.
+المنطق الآلي الذي يربط إشارة الأفيون بمتلازمة توريت هو إلى حد كبير نظري. الأدب المتاح غير مباشر: تقرير حالة واحدة من عام 1992 عن استخدام الميثادون تحديداً لاضطراب توريت، تقرير حالة من عام 2018 يصف إدمان الهيروين في مريض مصاب بمتلازمة توريت، مراجعة عن الأفيونات في اضطراب الوسواس القهري/السلوكيات المرتبطة بـ tic-5-HT2A، مراجعة عن الأسباب غير الوراثية للحركات الرقصية (نقاش التشخيص التفريقي وليس دراسة علاج)، ومراجعة من عام 2024 عن الرعاية الملطفة حول المسكنات المساعدة التي تشير فقط بشكل عابر إلى آليات الأفيون.
 
-Overall, the biological plausibility exists but the clinical evidence base is thin and dated. As the repurposing rationale in the evidence pack notes, most supporting literature addresses comorbidity or differential diagnosis rather than direct therapeutic effect.
+بشكل عام، الأساس البيولوجي المعقول موجود لكن قاعدة الأدلة السريرية رقيقة وقديمة. كما يلاحظ الدليل على إعادة استخدام الدواء في حزمة الأدلة، معظم الأدب الداعم يتناول الاعتلال المرضي المصاحب أو التشخيص التفريقي بدلاً من التأثير العلاجي المباشر.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [1728167](https://pubmed.ncbi.nlm.nih.gov/1728167/) | 1992 | Case Report | The American Journal of Psychiatry | Sole direct report of methadone used for Tourette's disorder; earliest and most specific evidence for this indication |
-| [30395551](https://pubmed.ncbi.nlm.nih.gov/30395551/) | 2018 | Case Report | Journal of Psychiatric Practice | Describes heroin addiction in a Tourette syndrome patient; addiction/comorbidity focus, not a treatment study |
-| [17102981](https://pubmed.ncbi.nlm.nih.gov/17102981/) | 2007 | Review | Psychopharmacology | Reviews atypical opiates in OCD via 5-HT2A/C receptor behavior; notes opiates have been explored in treatment-refractory OCD and Tourette syndrome |
-| [15247538](https://pubmed.ncbi.nlm.nih.gov/15247538/) | 2004 | Review | Current Opinion in Neurology | Reviews non-genetic causes of chorea; relevant only as differential-diagnosis context, not methadone efficacy data |
-| [39086469](https://pubmed.ncbi.nlm.nih.gov/39086469/) | 2024 | Review | Palliative Care and Social Practice | Reviews novel adjuvant analgesics (haloperidol, miragabalin, PEA, clonidine) for neuropathic pain; not focused on methadone or Tourette syndrome |
+| [1728167](https://pubmed.ncbi.nlm.nih.gov/1728167/) | 1992 | تقرير حالة | The American Journal of Psychiatry | التقرير المباشر الوحيد لاستخدام الميثادون لاضطراب توريت؛ الدليل الأقدم والأكثر تحديداً لهذا المؤشر |
+| [30395551](https://pubmed.ncbi.nlm.nih.gov/30395551/) | 2018 | تقرير حالة | Journal of Psychiatric Practice | يصف إدمان الهيروين في مريض مصاب بمتلازمة توريت؛ تركيز على الإدمان/الاعتلال المرضي المصاحب، وليس دراسة علاج |
+| [17102981](https://pubmed.ncbi.nlm.nih.gov/17102981/) | 2007 | مراجعة | Psychopharmacology | تراجع الأفيونات غير التقليدية في اضطراب الوسواس القهري عبر سلوك مستقبلات 5-HT2A/C؛ يلاحظ أنه تم استكشاف الأفيونات في اضطراب الوسواس القهري المقاوم للعلاج ومتلازمة توريت |
+| [15247538](https://pubmed.ncbi.nlm.nih.gov/15247538/) | 2004 | مراجعة | Current Opinion in Neurology | تراجع الأسباب غير الوراثية للحركات الرقصية؛ ذات صلة فقط كسياق التشخيص التفريقي، وليس بيانات فعالية الميثادون |
+| [39086469](https://pubmed.ncbi.nlm.nih.gov/39086469/) | 2024 | مراجعة | Palliative Care and Social Practice | تراجع المسكنات المساعدة الجديدة (هالوبيريدول، ميراجابالين، PEA، كلونيدين) لألم الاعتلال العصبي؛ ليست مركزة على الميثادون أو متلازمة توريت |
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Methadone currently has no market authorization on file in Saudi Arabia (0 licenses recorded; market status: Not Marketed).
+الميثادون حالياً لا يوجد لديه موافقة سوقية في الملف بالمملكة العربية السعودية (0 رخص مسجلة؛ حالة السوق: غير مسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data were not available in this evidence pack — a Blocking-severity data gap for TFDA package insert content is flagged, which prevents formal safety pre-assessment.)
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. (لم تتوفر بيانات التحذيرات الرئيسية وموانع الاستعمال وتفاعلات الأدوية في حزمة الأدلة هذه — يتم الإشارة إلى فجوة بيانات ذات شدة حاسمة لمحتوى نشرة معلومات TFDA، مما يمنع التقييم المسبق الرسمي للسلامة.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: إيقاف**
 
-**Rationale:**
-Evidence for methadone in Tourette syndrome rests on a single 1992 case report with no clinical trials and no confirmatory studies in the intervening decades; the TxGNN score is high but not corroborated by clinical evidence (L4 — mechanistic/preclinical-level only).
+**المنطق:**
+الدليل على فعالية الميثادون في متلازمة توريت يستند إلى تقرير حالة واحدة من عام 1992 بدون تجارب سريرية وبدون دراسات تأكيدية في العقود التي تلت ذلك؛ درجة TxGNN عالية لكن لم يتم التحقق منها بالدليل السريري (L4 — مستوى آلي/ما قبل سريري فقط).
 
-**To proceed, the following is needed:**
-- TFDA/local package insert data (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data to substantiate the opioid–basal ganglia–tic rationale
-- A modern case series or pilot trial specifically evaluating methadone in Tourette syndrome, given the single supporting case report is over 30 years old
-- Note: among the other candidates in this evidence pack, **headache disorder** (rank 4) has notably stronger evidence (L3, decision stage S1, a 2021 prospective cohort study on low-dose methadone for refractory chronic migraine) and may warrant separate evaluation ahead of the Tourette syndrome signal.
+**لكي ننمضي قدماً، يلزم ما يلي:**
+- بيانات نشرة معلومات TFDA/المحلية (تحذيرات، موانع استعمال) — حالياً فجوة بيانات حاسمة
+- تأكيد بيانات آلية العمل لتأييد المنطق القائم على الأفيون–العقد القاعدية–الحركات اللاإرادية
+- سلسلة حالات حديثة أو تجربة استكشافية تقيّم تحديداً الميثادون في متلازمة توريت، نظراً لأن تقرير الحالة الداعم الوحيد يعود إلى أكثر من 30 سنة مضت
+- ملاحظة: من بين المرشحين الآخرين في حزمة الأدلة هذه، **اضطراب الصداع** (الترتيب 4) لديه دليل أقوى ملحوظاً (L3، مرحلة القرار S1، دراسة أتراب محتملة من عام 2021 على جرعة منخفضة من الميثادون لحالات الشقيقة المزمنة المستعصية) وقد يستحق تقييماً منفصلاً قبل إشارة متلازمة توريت.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

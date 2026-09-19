@@ -29,73 +29,74 @@ indication_count: 10
 
 </div>
 
-# Pyrazinamide: From Tuberculosis to Infectious Otitis Media
+# Pyrazinamide: من السل إلى التهاب الأذن الوسطى المعدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Pyrazinamide is a first-line antituberculosis prodrug, used within standard combination regimens (e.g., with isoniazid and rifampicin) for tuberculosis treatment. The TxGNN model's top-ranked prediction suggests possible effectiveness for **Infectious Otitis Media**, but currently **no clinical trials and no publications** directly support this specific prediction — it is a model prediction only, with the underlying mechanistic rationale itself noting the link is weak unless the causative organism is *Mycobacterium tuberculosis*.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Tuberculosis (antituberculous combination therapy) |
-| Predicted New Indication | Infectious Otitis Media |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pyrazinamide هو دواء أولي مضاد للسل يُستخدم ضمن أنظمة علاجية قياسية مركبة (مثل الاستخدام مع isoniazid و rifampicin) لعلاج السل. يشير التنبؤ المُصنّف الأول من نموذج TxGNN إلى فعالية محتملة لـ **التهاب الأذن الوسطى المعدي**، لكن حالياً **لا توجد تجارب سريرية ولا منشورات** تدعم مباشرة هذا التنبؤ المحدد — إنه تنبؤ نموذج فقط، مع ملاحظة المنطق الآلي الكامن وراءه أن الارتباط ضعيف ما لم يكن الكائن المسبب هو *Mycobacterium tuberculosis*.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on information present in this evidence pack, Pyrazinamide is a prodrug converted intracellularly by macrophages into its active metabolite, pyrazinoic acid, which is active specifically against *Mycobacterium tuberculosis* in the acidic intracellular environment of infected macrophages.
-
-The mechanistic link to "infectious otitis media" as a general diagnosis category is weak: pyrazinamide has no established activity against the common bacterial pathogens that cause ordinary infectious/suppurative otitis media (e.g., *Streptococcus pneumoniae*, *Haemophilus influenzae*). Its own rationale text explicitly states that if the causative organism is a general pyogenic bacterium rather than *M. tuberculosis*, there is no pharmacological basis for efficacy.
-
-Notably, several lower-ranked but better-evidenced predictions in this candidate set (middle ear disease, chronic otitis media, suppurative otitis media, infectious otitis interna) are supported by literature — but that literature describes **tuberculous otitis media**, a rare extrapulmonary manifestation of TB already treated with standard anti-TB regimens containing pyrazinamide. This represents an extension of the drug's existing indication rather than a genuinely new repurposing opportunity, and it does not extend to non-tuberculous causes of otitis media, which is the specific top-ranked prediction here.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | السل (العلاج المركب المضاد للسل) |
+| المؤشر الجديد المتنبأ به | التهاب الأذن الوسطى المعدي |
+| درجة تنبؤ TxGNN | 99.96% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل (تم وضع علامة عليها كفجوة بيانات بدرجة حدة عالية). بناءً على المعلومات الموجودة في هذه الحزمة الدليلية، Pyrazinamide هو دواء أولي يتم تحويله داخل الخلايا بواسطة البالعات الكبيرة إلى مستقلبه النشط، حمض pyrazinoic، الذي يكون نشطاً بشكل خاص ضد *Mycobacterium tuberculosis* في البيئة الحمضية داخل الخلايا للبالعات المصابة.
 
----
+الارتباط الآلي بـ "التهاب الأذن الوسطى المعدي" كفئة تشخيصية عامة ضعيف: لا يوجد نشاط معروف لـ Pyrazinamide ضد مسببات الأمراض البكتيرية الشائعة التي تسبب التهاب الأذن الوسطى العدوى/التقيحي العادي (مثل *Streptococcus pneumoniae* و *Haemophilus influenzae*). يوضح نصه الخاص بالمنطق بصراحة أنه إذا كان الكائن المسبب هو بكتيريا تقيحية عامة بدلاً من *M. tuberculosis*، فلا توجد أساس دوائي للفعالية.
 
-## Saudi Arabia Market Information
-
-Pyrazinamide is not currently marketed in Saudi Arabia (0 authorizations on record).
+وجدير بالملاحظة أن عدة تنبؤات مصنفة أقل لكن أفضل مدعومة بالأدلة في هذه المجموعة المرشحة (أمراض الأذن الوسطى، التهاب الأذن الوسطى المزمن، التهاب الأذن الوسطى التقيحي، التهاب الأذن الوسطى الداخلي المعدي) يدعمها الأدب — لكن هذا الأدب يصف **التهاب الأذن الوسطى السلي**، وهو تظاهر نادر خارج الرئة للسل يتم علاجه بالفعل بالأنظمة المضادة للسل القياسية التي تحتوي على Pyrazinamide. هذا يمثل تمديداً لمؤشر الدواء الموجود بالفعل وليس فرصة إعادة توظيف حقيقية جديدة، وهو لا يمتد إلى الأسباب غير السلية لالتهاب الأذن الوسطى، وهو التنبؤ المصنف الأول المحدد هنا.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information. (Note: TFDA package insert warnings/contraindications are an unresolved **Blocking** data gap — DG001 — which prevents a formal S1 safety pre-assessment.)
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا تتوفر حالياً أدبيات ذات صلة.
 
-**Rationale:**
-The top-ranked prediction (infectious otitis media) has no supporting clinical trials or literature, and its own mechanistic rationale flags the pharmacological link as weak unless the pathogen is specifically *M. tuberculosis*. Combined with the Blocking data gap on TFDA safety labeling, there is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Formal MOA data from DrugBank/TFDA (DG002)
-- TFDA package insert (warnings, contraindications) to clear the Blocking safety gap (DG001)
-- Clarification of disease-ontology mapping — determine whether "infectious otitis media" in this prediction is distinct from the tuberculous-otitis-media cluster (ranks 2, 4, 5, 10) that already has case-report-level support, since conflating the two would misrepresent the evidence strength
+## معلومات سوق المملكة العربية السعودية
+
+Pyrazinamide غير مسوق حالياً في المملكة العربية السعودية (0 تصريح في السجل).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (ملاحظة: تحذيرات/موانع استخدام نشرة TFDA هي فجوة بيانات **حاجزة** لم يتم حلها — DG001 — مما يمنع التقييم الأولي الرسمي S1 للسلامة.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+التنبؤ المصنف الأول (التهاب الأذن الوسطى المعدي) لا يحتوي على أي تجارب سريرية داعمة أو أدبيات، وآليته الكامنة بذاتها تشير إلى أن الارتباط الدوائي ضعيف ما لم يكن المسبب بشكل محدد هو *M. tuberculosis*. بالاقتران مع فجوة البيانات الحاجزة على وضع العلامات على السلامة في TFDA، لا توجد أساس كافٍ للمضي قدماً في هذا المرشح.
+
+**لكي نتمكن من المضي قدماً، يلزم ما يلي:**
+- بيانات MOA رسمية من DrugBank/TFDA (DG002)
+- نشرة TFDA (التحذيرات، موانع الاستخدام) لتصفية فجوة السلامة الحاجزة (DG001)
+- توضيح المقابلة لتصنيف المرض — تحديد ما إذا كان "التهاب الأذن الوسطى المعدي" في هذا التنبؤ متميزاً عن مجموعة التهاب الأذن الوسطى السلي (بترتيب 2 و4 و5 و10) التي تحتوي بالفعل على دعم على مستوى تقارير الحالات، لأن الخلط بينهما قد يؤدي إلى تمثيل خاطئ لقوة الدليل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

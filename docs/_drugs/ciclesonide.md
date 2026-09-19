@@ -29,76 +29,77 @@ indication_count: 6
 
 </div>
 
-# Ciclesonide: From Asthma to Atopic Eczema
+# سيكليسونيد: من الربو إلى الإكزيما التأتبية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ciclesonide is an inhaled corticosteroid (ICS) developed for asthma and allergic rhinitis, acting via glucocorticoid receptor activation to suppress airway inflammation.
-The TxGNN model predicts it may be effective for **Atopic Eczema**, with a prediction confidence of **99.96%**; however, **no clinical trials or supporting literature** currently exist to validate this specific repurposing direction, and a fundamental route-of-administration barrier remains unresolved.
+سيكليسونيد هو كورتيكوستيرويد مستنشق (ICS) تم تطويره لعلاج الربو والتهاب الأنف التحسسي، يعمل من خلال تفعيل مستقبلات الجلوكوكورتيكويد لقمع الالتهاب في المسالك الهوائية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الإكزيما التأتبية**، مع ثقة تنبؤ تبلغ **99.96%**؛ ومع ذلك، **لا توجد حالياً تجارب سريرية أو أدبيات داعمة** لتثبيت هذا الاتجاه المحدد للاستخدام الجديد، وتبقى عقبة جوهرية متعلقة بمسار الإعطاء بدون حل.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Asthma / Allergic Rhinitis (inhaled corticosteroid; not registered in Taiwan) |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الربو / التهاب الأنف التحسسي (كورتيكوستيرويد مستنشق؛ غير مسجل في تايوان) |
+| الاستطباب الجديد المتنبأ به | الإكزيما التأتبية |
+| درجة تنبؤ TxGNN | 99.96% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, ciclesonide is a prodrug ICS that is converted to its active metabolite **des-ciclesonide** in the airways. Des-ciclesonide binds glucocorticoid receptors (GR), suppresses NF-κB signalling, and reduces the release of pro-inflammatory cytokines — including IL-4, IL-5, and IL-13 — that are the central mediators of Th2-driven inflammation.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة هذه. بناءً على المعلومات الصيدلية المعروفة، سيكليسونيد هو عقار أولي ICS يتم تحويله إلى استقلابه النشط **des-ciclesonide** في المسالك الهوائية. يرتبط des-ciclesonide بمستقبلات الجلوكوكورتيكويد (GR)، ويقمع الإشارات عبر NF-κB، ويقلل من إطلاق السيتوكينات المؤيدة للالتهاب — بما في ذلك IL-4 و IL-5 و IL-13 — التي تمثل الوسطاء المركزيين للالتهاب الموجه بواسطة Th2.
 
-Atopic eczema shares this same Th2-dominant immunological architecture with asthma: IgE sensitization, eosinophilic infiltration, and cytokine dysregulation overlap substantially between the two conditions. Topical corticosteroids are, in fact, the established first-line anti-inflammatory treatment for atopic dermatitis. This mechanistic congruence logically explains why TxGNN scored this indication highly at rank 1.
+تشترك الإكزيما التأتبية مع الربو في نفس البنية المناعية التي يهيمن عليها Th2: حساسية IgE والتسلل الحمضي وعدم تنظيم السيتوكينات تتداخل بشكل كبير بين الحالتين. الكورتيكوستيرويدات الموضعية هي فعلياً العلاج المضاد للالتهابات من الخط الأول المعترف به للإكزيما التأتبية. يشرح هذا التطابق الآلي بشكل منطقي السبب في أن TxGNN أعطى هذا الاستطباب درجة عالية في الترتيب الأول.
 
-The critical obstacle, however, is the **route of administration**. Ciclesonide is engineered as an inhaled aerosol designed to deposit in the airways. Treating atopic eczema requires topical cutaneous delivery — a formulation that does not currently exist for ciclesonide. Without a dedicated topical preparation, the active metabolite cannot reach the target tissue in meaningful concentrations. This is a formulation development challenge rather than a question of mechanistic fit.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+العقبة الحرجة، مع ذلك، هي **مسار الإعطاء**. تم تصميم سيكليسونيد كرذاذ مستنشق موضوع بشكل محدد للترسب في المسالك الهوائية. يتطلب علاج الإكزيما التأتبية توصيلاً موضعياً جلدياً — صيغة لا توجد حالياً لسيكليسونيد. بدون تحضير موضعي مخصص، لا يمكن للاستقلاب النشط الوصول إلى النسيج المستهدف بتركيزات ذات معنى. هذا تحدٍ في تطوير الصيغة بدلاً من كونه مسألة تتعلق بملاءمة آلية العمل.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for atopic eczema.
-
----
-
-## Taiwan Market Information
-
-Ciclesonide is currently **not registered** in Taiwan. No marketing authorizations have been issued by the TFDA.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+حالياً لا توجد أدبيات ذات صلة متاحة للإكزيما التأتبية.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق تايوان
 
-**Decision: Hold**
+سيكليسونيد غير **مسجل** حالياً في تايوان. لم تقم هيئة الغذاء والدواء التايوانية (TFDA) بإصدار أي تفويضات تسويق.
 
-**Rationale:**
-TxGNN's prediction is immunologically coherent — corticosteroids are the backbone of atopic eczema management — but ciclesonide's inhaled-only formulation presents a fundamental route-of-administration barrier, and no clinical or literature evidence exists to support this specific repurposing direction at this time.
+---
 
-**To proceed, the following is needed:**
-- MOA data from DrugBank to formally document the mechanistic link between des-ciclesonide and Th2 cytokine suppression in skin
-- Feasibility study for topical ciclesonide formulation (skin penetration, stability, release kinetics)
-- Preclinical efficacy data for des-ciclesonide in validated atopic dermatitis models (e.g., MC903 or DNCB murine models)
-- Complete safety package insert retrieval (TFDA/EMA/FDA labels) before any clinical assessment can proceed
-- Clarification of whether ranks 1 and 3 (atopic eczema / dermatitis atopic) represent duplicate ICD ontology entries; if so, consolidate confidence estimates before advancing either
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+التنبؤ الذي قدمه TxGNN متسق من الناحية المناعية — الكورتيكوستيرويدات هي الركيزة الأساسية لإدارة الإكزيما التأتبية — لكن صيغة سيكليسونيد المستنشقة فقط تشكل حاجزاً جوهرياً فيما يتعلق بمسار الإعطاء، ولا توجد أدلة سريرية أو أدبية موجودة لدعم هذا الاتجاه المحدد للاستخدام الجديد في الوقت الحالي.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات MOA من DrugBank لتوثيق الارتباط الآلي رسمياً بين des-ciclesonide وقمع السيتوكينات Th2 في الجلد
+- دراسة جدوى لصيغة سيكليسونيد الموضعية (اختراق الجلد والاستقرار وحركية الإطلاق)
+- بيانات الفعالية ما قبل السريرية لـ des-ciclesonide في نماذج الإكزيما التأتبية المصدقة (على سبيل المثال، نماذج الفئران MC903 أو DNCB)
+- استرجاع النشرة الدوائية الكاملة (تسميات TFDA/EMA/FDA) قبل أن تتمكن أي تقييمات سريرية من المتابعة
+- توضيح ما إذا كان الترتيب 1 و 3 (الإكزيما التأتبية / التهاب الجلد التأتبي) يمثلان إدخالات مكررة في أونطولوجيا ICD؛ إذا كان الأمر كذلك، فوحد تقديرات الثقة قبل المتابعة مع أي منهما
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

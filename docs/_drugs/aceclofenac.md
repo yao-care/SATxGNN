@@ -29,86 +29,87 @@ indication_count: 10
 
 </div>
 
-# Aceclofenac: From Musculoskeletal Pain to Inflammatory Spondylopathy
+# أسيكلوفيناك: من ألم الجهاز العضلي الهيكلي إلى اعتلال الفقار الالتهابي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Aceclofenac is an oral non-steroidal anti-inflammatory drug (NSAID) of the phenylacetic acid class, widely established for symptomatic relief of pain and inflammation in musculoskeletal conditions including osteoarthritis and rheumatoid arthritis.
-The TxGNN model predicts it may be effective for **Inflammatory Spondylopathy** (encompassing ankylosing spondylitis and related axial spondyloarthropathies),
-with **3 clinical trials** and **17 publications** currently supporting this direction.
+أسيكلوفيناك دواء غير ستيرويدي مضاد للالتهابات (NSAID) من فئة حمض الفينيل أسيتيك، معروف على نطاق واسع لتخفيف الألم والالتهاب في الحالات العضلية الهيكلية بما في ذلك هشاشة المفاصل والتهاب المفاصل الروماتويدي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اعتلال الفقار الالتهابي** (يشمل التهاب الفقرات اللاصق والتهاب الفقار المحوري المرتبط به)،
+مع **3 تجارب سريرية** و **17 منشور بحثي** يدعمان هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Musculoskeletal pain and inflammatory arthropathy (OA, RA) — no Saudi Arabia regulatory approval on file |
-| Predicted New Indication | Inflammatory Spondylopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | ألم الجهاز العضلي الهيكلي والتهاب المفاصل الالتهابي (هشاشة المفاصل، التهاب المفاصل الروماتويدي) — لا توجد موافقة تنظيمية من هيئة الدواء السعودية |
+| الاستطباب الجديد المتنبأ به | اعتلال الفقار الالتهابي |
+| درجة التنبؤ بنموذج TxGNN | 99.63% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير معروضة في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضوابط احترازية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Aceclofenac is a phenylacetic acid-derived NSAID that inhibits both COX-1 and COX-2 enzymes, reducing prostaglandin synthesis to suppress pain and inflammation. Importantly, aceclofenac's anti-inflammatory profile extends beyond classical COX inhibition: it also downregulates pro-inflammatory cytokines including IL-1β and TNF-α — cytokines that drive the synovial and entheseal inflammation central to spondyloarthropathies. This dual mechanism makes it mechanistically well-suited for inflammatory spinal conditions.
+أسيكلوفيناك عبارة عن دواء NSAID مشتق من حمض الفينيل أسيتيك يثبط إنزيمات COX-1 و COX-2، مما يقلل من تخليق البروستاغلاندين لقمع الألم والالتهاب. بشكل مهم، يتجاوز الملف المضاد للالتهابات لأسيكلوفيناك تثبيط COX الكلاسيكي: فهو يقلل أيضاً من السيتوكينات الالتهابية بما في ذلك IL-1β و TNF-α — السيتوكينات التي تدفع الالتهاب الزليلي والإدراجي المركزي في التهاب الفقار. تجعل هذه الآلية المزدوجة أسيكلوفيناك مناسباً جيداً على المستوى الميكانيكي للحالات الفقرية الالتهابية.
 
-Inflammatory spondylopathy — a category encompassing ankylosing spondylitis (AS), non-radiographic axial spondyloarthritis, and related disorders — is defined by exactly the prostaglandin- and cytokine-mediated inflammatory cascades that aceclofenac directly targets. NSAIDs are in fact the first-line pharmacological recommendation in international ASAS/EULAR guidelines for axial spondyloarthritis. Aceclofenac has been directly evaluated in RCTs involving AS patients since the mid-1990s, and comprehensive reviews consistently list AS alongside OA and RA as established indications.
+اعتلال الفقار الالتهابي — فئة تشمل التهاب الفقرات اللاصق (AS)، والتهاب الفقار المحوري غير الشعاعي، والاضطرابات ذات الصلة — يُعرّف بالضبط بالتسلسلات الالتهابية الوسيطة بالبروستاغلاندين والسيتوكين التي يستهدفها أسيكلوفيناك مباشرة. الأدوية المضادة للالتهابات غير الستيرويدية هي في الواقع التوصية الدوائية من الخط الأول في إرشادات ASAS/EULAR الدولية لالتهاب الفقار المحوري. تم تقييم أسيكلوفيناك مباشرة في التجارب العشوائية المضبوطة التي تشمل مرضى التهاب الفقرات اللاصق منذ منتصف التسعينيات، وتدرج المراجعات الشاملة باستمرار هذا المؤشر جنباً إلى جنب مع هشاشة المفاصل والتهاب المفاصل الروماتويدي كاستطبابات محددة.
 
-The high TxGNN prediction score (99.63%) therefore reflects not a speculative leap, but a documented pharmacological relationship that simply lacks a formal Saudi Arabia (SFDA) registration. The primary open question is whether existing RCT evidence (predominantly from the 1990s) meets current regulatory standards, and how aceclofenac positions against more recently approved agents such as etoricoxib and celecoxib in this indication.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT00647517](https://clinicaltrials.gov/study/NCT00647517) | Phase 4 | Completed | 60 | Pilot RCT evaluating tramadol/APAP add-on to COX-2 NSAID background therapy in patients with ankylosing spondylitis and rheumatoid arthritis (Taiwan). Confirms NSAIDs as backbone therapy in inflammatory spondylitis; BASDAI >3 used as disease activity threshold for enrollment. |
-| [NCT02883569](https://clinicaltrials.gov/study/NCT02883569) | N/A | Completed | 1102 | Comparative effectiveness study of surgical vs. non-surgical treatment for low back pain from herniated intervertebral disc and spinal stenosis. Provides broad context on pharmacological management pathways for spinal disorders; aceclofenac role not specified. |
-| [NCT05164198](https://clinicaltrials.gov/study/NCT05164198) | Phase 4 | Unknown | 448 | Multicenter prospective trial examining standard-dose vs. reduced-dose TNF inhibitor in stable AS patients. NSAIDs likely used as background co-medication; aceclofenac is not the primary investigational agent. |
+لذلك تعكس درجة التنبؤ العالية لـ TxGNN (99.63%) ليس قفزة تكهنية، بل علاقة صيدلانية موثقة تفتقر ببساطة إلى تسجيل رسمي لدى هيئة الدواء السعودية (SFDA). السؤال المفتوح الأساسي هو ما إذا كانت أدلة التجارب العشوائية المضبوطة الموجودة (تاريخها في الغالب من التسعينيات) تلبي المعايير التنظيمية الحالية، وكيف يتمركز أسيكلوفيناك ضد الوكلاء الموافق عليهم مؤخراً مثل إيتوريكوكسيب وسيليكوكسيب في هذا الاستطباب.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [8823692](https://pubmed.ncbi.nlm.nih.gov/8823692/) | 1996 | RCT | The Journal of Rheumatology | 3-month multicenter double-blind trial: aceclofenac 100 mg BID vs. tenoxicam 20 mg QD in active AS patients. Aceclofenac demonstrated equivalent efficacy and safety, establishing direct RCT evidence in inflammatory spondylopathy. |
-| [8823693](https://pubmed.ncbi.nlm.nih.gov/8823693/) | 1996 | RCT | The Journal of Rheumatology | Multicenter controlled trial of aceclofenac efficacy and tolerability specifically in active AS; confirmed therapeutic benefit and acceptable tolerability profile compared to indomethacin. |
-| [34876850](https://pubmed.ncbi.nlm.nih.gov/34876850/) | 2021 | Systematic Review | Journal of Pain Research | Most recent comprehensive review of aceclofenac analgesic and anti-inflammatory effects across musculoskeletal disorders including LBP, scapulohumeral periarthritis, OA, RA, and AS. Concludes aceclofenac is effective and generally well-tolerated. |
-| [15163279](https://pubmed.ncbi.nlm.nih.gov/15163279/) | 2004 | Review | Expert Opinion on Pharmacotherapy | Clinical review of aceclofenac in inflammatory pain management; reports >75 million patients treated worldwide; efficacy comparable to diclofenac, naproxen, and indomethacin across OA, RA, and AS settings. |
-| [11511027](https://pubmed.ncbi.nlm.nih.gov/11511027/) | 2001 | Review | Drugs | Reappraisal of aceclofenac in pain and rheumatic disease; covers effects on multiple inflammatory mediators and cartilage metabolism alongside head-to-head clinical comparison data with other NSAIDs. |
-| [8799688](https://pubmed.ncbi.nlm.nih.gov/8799688/) | 1996 | Pharmacodynamic Review | Drugs | Detailed pharmacodynamic profile; preclinical data suggest lower GI damage potential than diclofenac; double-blind trials confirm equivalent efficacy to ketoprofen, indomethacin, and diclofenac in RA, OA, and AS. |
-| [11548913](https://pubmed.ncbi.nlm.nih.gov/11548913/) | 2001 | Health Economics | PharmacoEconomics | Economic modelling of aceclofenac vs. other NSAIDs in OA, RA, and AS incorporating mild-to-moderate adverse event costs; supports a favourable overall cost-effectiveness profile. |
-| [22350497](https://pubmed.ncbi.nlm.nih.gov/22350497/) | 2012 | Review | Clinical Drug Investigation | Review of NSAID-induced gastropathy and PPI co-prescription strategy in OA, RA, and AS; directly relevant to designing a gastroprotection monitoring plan for aceclofenac use in spondylopathy. |
-| [10081315](https://pubmed.ncbi.nlm.nih.gov/10081315/) | 1999 | Clinical Overview | Revue Médicale de Liège | Clinical overview of aceclofenac (Biofenac) pharmacology and indications covering OA, RA, AS, and post-traumatic inflammation; standard oral dose confirmed at 100 mg twice daily in adults. |
-| [23192419](https://pubmed.ncbi.nlm.nih.gov/23192419/) | 2013 | RCT | Clinical Rheumatology | 12-week double-blind placebo-controlled RCT of tramadol/acetaminophen add-on in AS (Taiwan, n=60); enrolled active AS per Modified New York Criteria with BASDAI >3. Confirms NSAID backbone role in AS management. |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-------------|--------|--------|---------|----------------|
+| [NCT00647517](https://clinicaltrials.gov/study/NCT00647517) | المرحلة 4 | مكتملة | 60 | تجربة عشوائية مضبوطة أولية تقيّم إضافة ترامادول/APAP إلى علاج خلفي NSAID مثبط COX-2 في المرضى الذين يعانون من التهاب الفقرات اللاصق والتهاب المفاصل الروماتويدي (تايوان). تؤكد الأدوية المضادة للالتهابات غير الستيرويدية كعلاج أساسي في اعتلال الفقار الالتهابي؛ تم استخدام BASDAI >3 كعتبة نشاط المرض للتسجيل. |
+| [NCT02883569](https://clinicaltrials.gov/study/NCT02883569) | N/A | مكتملة | 1102 | دراسة فعالية مقارنة للعلاج الجراحي مقابل غير الجراحي لآلام أسفل الظهر الناشئة عن فتق القرص الفقري والتضيق الشوكي. توفر سياقاً واسعاً للمسارات الإدارية الدوائية في اضطرابات العمود الفقري؛ دور أسيكلوفيناك غير محدد. |
+| [NCT05164198](https://clinicaltrials.gov/study/NCT05164198) | المرحلة 4 | غير معروف | 448 | تجربة استشرافية متعددة المراكز تفحص مثبط TNF بجرعة قياسية مقابل جرعة منخفضة في مرضى التهاب الفقرات اللاصق المستقرين. من المحتمل أن تُستخدم الأدوية المضادة للالتهابات غير الستيرويدية كعلاج خلفي مرافق؛ أسيكلوفيناك ليس الوكيل الاستقصائي الأساسي. |
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|---------|----------------|
+| [8823692](https://pubmed.ncbi.nlm.nih.gov/8823692/) | 1996 | تجربة عشوائية مضبوطة | The Journal of Rheumatology | تجربة سريرية متعددة المراكز عمياء لمدة 3 أشهر: أسيكلوفيناك 100 ملغ مرتين يومياً مقابل تينوكسيكام 20 ملغ مرة واحدة يومياً في مرضى التهاب الفقرات اللاصق النشيطين. أثبت أسيكلوفيناك فعالية معادلة وسلامة، مما أسس أدلة مباشرة من التجارب العشوائية المضبوطة في اعتلال الفقار الالتهابي. |
+| [8823693](https://pubmed.ncbi.nlm.nih.gov/8823693/) | 1996 | تجربة عشوائية مضبوطة | The Journal of Rheumatology | تجربة سريرية متعددة المراكز مضبوطة تقيّم فعالية أسيكلوفيناك والتسامح على وجه التحديد في التهاب الفقرات اللاصق النشط؛ أكدت الفائدة العلاجية وملف التسامح المقبول مقارنة بـ الإندوميثاسين. |
+| [34876850](https://pubmed.ncbi.nlm.nih.gov/34876850/) | 2021 | مراجعة منهجية | Journal of Pain Research | أحدث مراجعة شاملة للتأثيرات المسكنة والمضادة للالتهابات لأسيكلوفيناك عبر اضطرابات العضلات الهيكلية بما في ذلك آلام أسفل الظهر والتهاب المحفظة تحت الكتفية وهشاشة المفاصل والتهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق. تخلص إلى أن أسيكلوفيناك فعال وعموماً متسامح جيداً. |
+| [15163279](https://pubmed.ncbi.nlm.nih.gov/15163279/) | 2004 | مراجعة | Expert Opinion on Pharmacotherapy | مراجعة سريرية لأسيكلوفيناك في إدارة الألم الالتهابي؛ يشير إلى >75 مليون مريض يتم علاجهم عالمياً؛ الفعالية قابلة للمقارنة مع ديكلوفيناك والنابروكسين والإندوميثاسين عبر إعدادات هشاشة المفاصل والتهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق. |
+| [11511027](https://pubmed.ncbi.nlm.nih.gov/11511027/) | 2001 | مراجعة | Drugs | إعادة تقييم أسيكلوفيناك في الألم واضطرابات الروماتيزم؛ تغطي التأثيرات على وسطاء الالتهاب المتعددة وأيض الغضروف جنباً إلى جنب مع بيانات المقارنة السريرية رأساً برأس مع أدوية NSAID الأخرى. |
+| [8799688](https://pubmed.ncbi.nlm.nih.gov/8799688/) | 1996 | مراجعة ديناميكا دوائية | Drugs | ملف ديناميكي دوائي مفصل؛ تشير البيانات ما قبل السريرية إلى احتمالية أضرار معدية معوية أقل من ديكلوفيناك؛ تؤكد التجارب العمياء المزدوجة الفعالية المعادلة لـ كيتوبروفين والإندوميثاسين وديكلوفيناك في التهاب المفاصل الروماتويدي وهشاشة المفاصل والتهاب الفقرات اللاصق. |
+| [11548913](https://pubmed.ncbi.nlm.nih.gov/11548913/) | 2001 | الاقتصاد الصحي | PharmacoEconomics | نموذج اقتصادي لأسيكلوفيناك مقابل أدوية NSAID الأخرى في هشاشة المفاصل والتهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق يتضمن تكاليف الأحداث السلبية الخفيفة إلى المعتدلة؛ يدعم ملف فعالية تكلفية مواتي بشكل عام. |
+| [22350497](https://pubmed.ncbi.nlm.nih.gov/22350497/) | 2012 | مراجعة | Clinical Drug Investigation | مراجعة لاعتلال الجهاز الهضمي المستحث بـ NSAID واستراتيجية الإشراف بمثبطات مضخة البروتون في هشاشة المفاصل والتهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق؛ ذات الصلة مباشرة بتصميم خطة مراقبة السلامة لاستخدام أسيكلوفيناك في اعتلال الفقار. |
+| [10081315](https://pubmed.ncbi.nlm.nih.gov/10081315/) | 1999 | نظرة عامة سريرية | Revue Médicale de Liège | نظرة عامة سريرية لصيدلانية وتشير أسيكلوفيناك (Biofenac) والاستطبابات التي تغطي هشاشة المفاصل والتهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق والالتهاب بعد الصدمة؛ الجرعة الفموية القياسية مؤكدة عند 100 ملغ مرتين يومياً في البالغين. |
+| [23192419](https://pubmed.ncbi.nlm.nih.gov/23192419/) | 2013 | تجربة عشوائية مضبوطة | Clinical Rheumatology | تجربة عشوائية مضبوطة بـ الدواء الوهمي لمدة 12 أسبوعاً لإضافة ترامادول/أسيتامينوفين في التهاب الفقرات اللاصق (تايوان، n=60)؛ سجلت التهاب الفقرات اللاصق النشط وفقاً لمعايير نيويورك المعدلة مع BASDAI >3. تؤكد دور العلاج الأساسي NSAID في إدارة التهاب الفقرات اللاصق. |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-Two direct RCTs from 1996 demonstrate aceclofenac's efficacy in ankylosing spondylitis — the primary subtype within inflammatory spondylopathy — and multiple systematic reviews and narrative reviews consistently list this indication alongside OA and RA as established therapeutic territory. The drug's COX/cytokine inhibition mechanism aligns directly with the pathophysiology of inflammatory spondylopathy, making this a pharmacologically sound and evidence-supported candidate. The primary barrier is the absence of Saudi Arabia (SFDA) registration and the age of the foundational RCT data relative to current regulatory expectations.
+---
 
-**To proceed, the following is needed:**
-- Package insert review to obtain full warnings, contraindications, and drug interaction data (currently Blocking gap DG001)
-- Mechanism of action documentation from DrugBank (gap DG002) to complete the mechanistic rationale section
-- Safety monitoring plan addressing GI risk, renal function, and cardiovascular profile in line with current NSAID safety frameworks
-- Assessment of whether the 1996 RCT evidence base meets current SFDA regulatory registration requirements, or whether a bridging/new registration study is needed for the Saudi Arabia market
-- Competitive landscape review positioning aceclofenac against currently approved agents in Saudi Arabia for axial spondyloarthritis (e.g., etoricoxib, celecoxib, naproxen) to evaluate market differentiation potential
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضوابط احترازية**
+
+**الأساس المنطقي:**
+تثبت تجربتان عشوائيتان مضبوطتان من عام 1996 فعالية أسيكلوفيناك في التهاب الفقرات اللاصق — النوع الفرعي الأساسي في اعتلال الفقار الالتهابي — والعديد من المراجعات المنهجية والمراجعات السردية تدرج هذا الاستطباب باستمرار إلى جانب هشاشة المفاصل والتهاب المفاصل الروماتويدي كمناطق علاجية محددة. تتوافق آلية تثبيط COX والسيتوكين للدواء مباشرة مع الفسيولوجيا المرضية لاعتلال الفقار الالتهابي، مما يجعل هذا مرشحاً منطقياً وداعماً على المستوى الصيدلاني. الحاجز الأساسي هو غياب تسجيل لدى هيئة الدواء السعودية (SFDA) وعمر البيانات الأساسية للتجربة العشوائية المضبوطة بالنسبة للتوقعات التنظيمية الحالية.
+
+**للمتابعة، يُطلب ما يلي:**
+- مراجعة نشرة الحزمة للحصول على التحذيرات الكاملة والموانع وبيانات التفاعل الدوائي (الفجوة الحالية DG001 تحجب)
+- توثيق آلية العمل من DrugBank (فجوة DG002) لإكمال قسم الأساس المنطقي الميكانيكي
+- خطة مراقبة السلامة تعالج مخاطر الجهاز الهضمي ووظيفة الكلى والملف القلبي الوعائي بما يتوافق مع أطر سلامة NSAID الحالية
+- تقييم ما إذا كانت قاعدة أدلة التجارب العشوائية المضبوطة لعام 1996 تلبي متطلبات تسجيل هيئة الدواء السعودية التنظيمية الحالية، أو ما إذا كانت دراسة تسجيل جسرية أو جديدة ضرورية للسوق السعودية
+- مراجعة المشهد التنافسي تحدد موضع أسيكلوفيناك مقابل الوكلاء الموافق عليهم حالياً لدى هيئة الدواء السعودية لالتهاب الفقار المحوري (مثل إيتوريكوكسيب وسيليكوكسيب والنابروكسين) لتقييم إمكانية التمايز في السوق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

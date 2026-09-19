@@ -29,114 +29,115 @@ indication_count: 6
 
 </div>
 
-# Lenalidomide: From Deletion 5q Myelodysplastic Syndrome to Myeloid Leukemia
+# لينالدوميد: من متلازمة فقدان الذراع الطويلة للكروموسوم 5 إلى الورم النقوي الحاد
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Lenalidomide is an immunomodulatory drug (IMiD) with an established approved indication in deletion 5q myelodysplastic syndrome (del(5q) MDS) in other markets, but is currently **not marketed in Saudi Arabia**. The TxGNN model predicts it may also be effective for **Myeloid Leukemia (AML)**, supported by **~50 clinical trials** (led by one completed Phase 2 RCT, NCT01358734, n=88) and **20 publications**, including one systematic review/meta-analysis. However, a **Blocking data gap** in TFDA/SFDA safety labelling currently prevents a formal safety evaluation of this candidate.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (drug not marketed in Saudi Arabia; licenses list is empty). The pack's own rank-6 candidate confirms Lenalidomide's established approved mechanism is in **del(5q) myelodysplastic syndrome**. |
-| Predicted New Indication | Myeloid Leukemia (AML) |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+لينالدوميد هو عقار معدِّل للمناعة (IMiD) بمؤشر معتمد مُثبّت في متلازمة فقدان الذراع الطويلة للكروموسوم 5 (del(5q) MDS) في أسواق أخرى، لكنه **غير مسوّق حالياً في المملكة العربية السعودية**. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **الورم النقوي الحاد (AML)**، مدعوماً بـ **~50 تجربة سريرية** (بقيادة تجربة عشوائية محكومة (RCT) من المرحلة 2 المكتملة واحدة، NCT01358734، n=88) و**20 منشور**، بما فيها مراجعة منهجية/تحليل تجميعي واحد. ومع ذلك، فإن **فجوة بيانات حاجبة** في وسم السلامة من TFDA/SFDA تمنع حالياً إجراء تقييم سلامة رسمي لهذا المرشح.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed drug-level mechanism-of-action data is not available in this evidence pack (flagged as data gap DG002, High severity). However, the per-indication analysis in the evidence pack provides substantive mechanistic detail: Lenalidomide is an IMiD (immunomodulatory drug) that binds the cereblon (CRBN)–CUL4A E3 ubiquitin ligase complex, promoting degradation of IKZF1/IKZF3 and producing immunomodulatory and anti-angiogenic effects. This CRBN-dependent mechanism is the same pathway underlying Lenalidomide's approved use in del(5q) MDS, where it selectively degrades CSNK1A1 (a haploinsufficient gene on 5q31) to induce apoptosis in the del(5q) clone — an FDA/EMA-approved targeted mechanism.
-
-Myeloid leukemia (AML) and MDS share overlapping pathophysiology — MDS frequently transforms into AML, and both are clonal myeloid stem-cell disorders. This biological continuity is the basis for the TxGNN prediction and is reflected clinically: Lenalidomide has been extensively studied in combination with hypomethylating agents (notably azacitidine) across the MDS–AML spectrum, including as induction, consolidation, and post-transplant maintenance therapy in AML.
-
-The strongest direct evidence is a completed, randomized, open-label Phase 2 trial (NCT01358734, n=88) comparing lenalidomide-containing regimens against azacitidine alone in older adults with newly diagnosed AML, together with a 2019 systematic review/meta-analysis (PMID 31221030) evaluating azacitidine-plus-lenalidomide across AML/MDS/CMML populations. Evidence specific to AML as a standalone (non-MDS-transformed) entity remains comparatively weaker than for MDS itself.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | غير مسجل في هذه حزمة الأدلة (العقار غير مسوّق في المملكة العربية السعودية؛ قائمة الترخيصات فارغة). تؤكد المرشح من المرتبة 6 الخاص بالحزمة نفسها أن الآلية المعتمدة المقررة للينالدوميد هي في **متلازمة فقدان الذراع الطويلة للكروموسوم 5** |
+| المؤشر الجديد المتنبأ به | الورم النقوي الحاد (AML) |
+| درجة تنبؤ TxGNN | 99.49% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (Not Marketed) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | **تعليق** |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+لم تتوفر بيانات آلية العمل على مستوى العقار بالتفصيل في هذه حزمة الأدلة (مشار إليها كفجوة بيانات DG002، شدة عالية). ومع ذلك، فإن التحليل لكل مؤشر في حزمة الأدلة يوفر تفاصيل آلية كبيرة: لينالدوميد هو معدِّل مناعة (IMiD) يرتبط بمعقد E3 يوبيكويتين لاز cereblon (CRBN)–CUL4A، مما يعزز تدهور IKZF1/IKZF3 وينتج عنه آثار معدلة للمناعة وضد التوعية الوعائية. هذه آلية CRBN-dependent هي نفس المسار الكامن وراء الاستخدام المعتمد للينالدوميد في del(5q) MDS، حيث يؤدي بشكل انتقائي إلى تدهور CSNK1A1 (جين ناقص الجرعة على 5q31) لحث موت الخلايا المبرمج في استنساخ del(5q) — وهي آلية مستهدفة معتمدة من FDA/EMA.
+
+يشترك الورم النقوي الحاد (AML) و MDS في علم أمراض متداخل — يتحول MDS في كثير من الأحيان إلى AML، وكلاهما اضطرابات استنساخية في الخلايا الجذعية النقوية. هذا التسلسل البيولوجي هو أساس تنبؤ TxGNN وينعكس سريرياً: تم دراسة الينالدوميد على نطاق واسع مع عوامل نزع الميثيل (لا سيما أزاسيتيدين) عبر طيف MDS–AML، بما فيها كعلاج حثي وتوطيدي والعلاج الصيانة بعد الزراعة في AML.
+
+أقوى دليل مباشر هو تجربة عشوائية محكومة من المرحلة 2 المكتملة (NCT01358734، n=88) مقارنة الأنظمة التي تحتوي على الينالدوميد مقابل أزاسيتيدين وحده في البالغين الأكبر سناً مع AML المشخص حديثاً، إلى جانب مراجعة منهجية/تحليل تجميعي من عام 2019 (PMID 31221030) تقييم أزاسيتيدين زائد الينالدوميد عبر سكان AML/MDS/CMML. يبقى الدليل الخاص بـ AML كمرض مستقل (non-MDS-transformed) ضعيفاً نسبياً مقارنة بـ MDS نفسه.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01358734](https://clinicaltrials.gov/study/NCT01358734) | Phase 2 | Completed | 88 | Randomized, open-label comparison of lenalidomide, sequential azacitidine+lenalidomide, and azacitidine alone in older adults with newly diagnosed AML — highest-quality randomized evidence in this set. |
-| [NCT00352001](https://clinicaltrials.gov/study/NCT00352001) | Phase 1/2 | Completed | 37 | Lenalidomide + azacitidine (Revlimid + Vidaza) in advanced MDS/AML; directly relevant and complete. |
-| [NCT01442714](https://clinicaltrials.gov/study/NCT01442714) | Phase 2 | Terminated | 33 | Azacitidine + lenalidomide in elderly, previously-treated AML and high-risk MDS; terminated, small sample. |
-| [NCT00867308](https://clinicaltrials.gov/study/NCT00867308) | Phase 2 | Terminated | 32 | High-dose lenalidomide in MDS and AML with trilineage dysplasia; terminated, limits evidence strength. |
-| [NCT00831766](https://clinicaltrials.gov/study/NCT00831766) | Phase 1/2 | Completed | 51 | Sequential idarubicin + cytarabine followed by lenalidomide maintenance in MDS(RAEB-2)/untreated AML. |
-| [NCT01578954](https://clinicaltrials.gov/study/NCT01578954) | Phase 1 | Completed | 20 | Dose-finding of lenalidomide as re-induction/consolidation and maintenance in AML ≥60 years after induction response. |
-| [NCT03118466](https://clinicaltrials.gov/study/NCT03118466) | Phase 2 | Completed | 41 | Lenalidomide + MEC (mitoxantrone/etoposide/cytarabine) in relapsed/refractory AML. |
-| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Phase 2 | Completed | 29 | Lenalidomide maintenance in high-risk AML in remission. |
-| [NCT01016600](https://clinicaltrials.gov/study/NCT01016600) | Phase 1/2 | Completed | 31 | Azacitidine + lenalidomide for AML — toxicity and remission rates. |
-| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | Phase 2 | Completed | 48 | Lenalidomide in older, untreated AML patients without chromosome 5q abnormalities. |
+| [NCT01358734](https://clinicaltrials.gov/study/NCT01358734) | المرحلة 2 | مكتملة | 88 | مقارنة عشوائية مفتوحة الوسم للينالدوميد، أزاسيتيدين + الينالدوميد متسلسل، وأزاسيتيدين وحده في البالغين الأكبر سناً مع AML المشخص حديثاً — أعلى جودة دليل عشوائي في هذه المجموعة. |
+| [NCT00352001](https://clinicaltrials.gov/study/NCT00352001) | المرحلة 1/2 | مكتملة | 37 | الينالدوميد + أزاسيتيدين (Revlimid + Vidaza) في MDS/AML متقدمة؛ وثيق الصلة ومكتمل مباشرة. |
+| [NCT01442714](https://clinicaltrials.gov/study/NCT01442714) | المرحلة 2 | منهية | 33 | أزاسيتيدين + الينالدوميد في AML قديمة تم علاجها سابقاً وMDS عالية المخاطر؛ منهية، عينة صغيرة. |
+| [NCT00867308](https://clinicaltrials.gov/study/NCT00867308) | المرحلة 2 | منهية | 32 | الينالدوميد بجرعة عالية في MDS و AML مع تنسج ثلاثي الخطوط؛ منهية، يحدّ من قوة الأدلة. |
+| [NCT00831766](https://clinicaltrials.gov/study/NCT00831766) | المرحلة 1/2 | مكتملة | 51 | إيدارويسين + سيتارابين متسلسل متبوع بصيانة الينالدوميد في MDS(RAEB-2)/AML غير المعالجة. |
+| [NCT01578954](https://clinicaltrials.gov/study/NCT01578954) | المرحلة 1 | مكتملة | 20 | تحديد الجرعة من الينالدوميد كإعادة حث/توطيد والصيانة في AML ≥60 سنة بعد استجابة الحث. |
+| [NCT03118466](https://clinicaltrials.gov/study/NCT03118466) | المرحلة 2 | مكتملة | 41 | الينالدوميد + MEC (ميتوكسانترون/إيتوبوسيد/سيتارابين) في AML النكسية/المقاومة. |
+| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | المرحلة 2 | مكتملة | 29 | صيانة الينالدوميد في AML عالية المخاطر في الخفقان. |
+| [NCT01016600](https://clinicaltrials.gov/study/NCT01016600) | المرحلة 1/2 | مكتملة | 31 | أزاسيتيدين + الينالدوميد لـ AML — معدلات السمية والخفقان. |
+| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | المرحلة 2 | مكتملة | 48 | الينالدوميد في مرضى AML الأكبر سناً، غير المعالجين بدون شذوذ الكروموسوم 5. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31221030](https://pubmed.ncbi.nlm.nih.gov/31221030/) | 2019 | Systematic Review/Meta-analysis | Hematology (Amsterdam) | Efficacy and adverse events of azacitidine + lenalidomide across AML, high-risk MDS, and CMML. |
-| [34955443](https://pubmed.ncbi.nlm.nih.gov/34955443/) | 2022 | Phase Ib Trial | J Geriatric Oncology | Lenalidomide as post-remission therapy in older AML adults; safety and geriatric functional assessment. |
-| [23644421](https://pubmed.ncbi.nlm.nih.gov/23644421/) | 2013 | Cohort | Leukemia | Combination of azacitidine and lenalidomide in MDS/AML — rationale and outcomes review. |
-| [37259567](https://pubmed.ncbi.nlm.nih.gov/37259567/) | 2023 | Cohort | Haematologica | Azacitidine + lenalidomide + donor lymphocyte infusion for post-transplant relapse (Azalena trial). |
-| [37435080](https://pubmed.ncbi.nlm.nih.gov/37435080/) | 2023 | Cohort | Frontiers in Immunology | Azacitidine + low-dose lenalidomide as relapse-prophylaxis maintenance after allo-HSCT in AML. |
-| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Review | Am J Hematology | 2023 update on MDS diagnosis, risk stratification, and management (background context for MDS→AML). |
-| [37568631](https://pubmed.ncbi.nlm.nih.gov/37568631/) | 2023 | Review | Cancers | Biology and therapeutic landscape of MDS/MPN overlap neoplasms. |
-| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Review | Blood | Clinical decision-making and treatment of MDS. |
-| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Review | Lancet | Overview of MDS pathophysiology and progression to AML. |
-| [23316859](https://pubmed.ncbi.nlm.nih.gov/23316859/) | 2013 | Review | Expert Opin Investig Drugs | Lenalidomide as a novel treatment approach in AML. |
+| [31221030](https://pubmed.ncbi.nlm.nih.gov/31221030/) | 2019 | مراجعة منهجية/تحليل تجميعي | Hematology (Amsterdam) | فعالية والأحداث السلبية من أزاسيتيدين + الينالدوميد عبر AML وMDS عالية المخاطر و CMML. |
+| [34955443](https://pubmed.ncbi.nlm.nih.gov/34955443/) | 2022 | تجربة المرحلة Ib | J Geriatric Oncology | الينالدوميد كعلاج ما بعد الخفقان في البالغين الأكبر سناً مع AML؛ السلامة والتقييم الوظيفي الشيخوخي. |
+| [23644421](https://pubmed.ncbi.nlm.nih.gov/23644421/) | 2013 | تعايش | Leukemia | مزيج من أزاسيتيدين والينالدوميد في MDS/AML — الأساس المنطقي واستعراض النتائج. |
+| [37259567](https://pubmed.ncbi.nlm.nih.gov/37259567/) | 2023 | تعايش | Haematologica | أزاسيتيدين + الينالدوميد + حقن الخلايا اللمفاوية من المتبرع لانتكاسة ما بعد الزراعة (تجربة Azalena). |
+| [37435080](https://pubmed.ncbi.nlm.nih.gov/37435080/) | 2023 | تعايش | Frontiers in Immunology | أزاسيتيدين + الينالدوميد بجرعة منخفضة كصيانة منع النكسة بعد allo-HSCT في AML. |
+| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | استعراض | Am J Hematology | تحديث 2023 لتشخيص MDS وطبقات المخاطر والإدارة (السياق الخلفي لـ MDS→AML). |
+| [37568631](https://pubmed.ncbi.nlm.nih.gov/37568631/) | 2023 | استعراض | Cancers | البيولوجيا والمشهد العلاجي لأورام MDS/MPN المتداخلة. |
+| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | استعراض | Blood | صنع القرار السريري وعلاج MDS. |
+| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | استعراض | Lancet | نظرة عامة على علم أمراض MDS والتطور إلى AML. |
+| [23316859](https://pubmed.ncbi.nlm.nih.gov/23316859/) | 2013 | استعراض | Expert Opin Investig Drugs | الينالدوميد كنهج علاجي جديد في AML. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no authorizations on record — Lenalidomide has 0 registered licenses and a market status of **Not marketed (Not Marketed)** in this evidence pack.
-
----
-
-## Cytotoxicity
-
-Lenalidomide is used across hematologic malignancies (predicted indication: AML; established indication referenced in this pack: del(5q) MDS), so this section is included, though most granular toxicity data is a flagged gap (DG001, Blocking).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — Immunomodulatory drug (IMiD), CRBN-E3 ligase–mediated mechanism (not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+لا توجد ترخيصات مسجلة حالياً — لينالدوميد لديه 0 رخصة مسجلة وحالة سوق **غير مسوّق (Not Marketed)** في هذه حزمة الأدلة.
 
 ---
 
-## Safety Considerations
+## السمية الخلوية
 
-Please refer to the package insert for safety information. Note: TFDA/SFDA package-insert warnings and contraindications are recorded as a **Blocking** data gap (DG001) in this evidence pack, meaning a formal S1 safety pre-evaluation cannot currently be completed. No drug-drug interaction records were found (query status: not_found).
+يُستخدم الينالدوميد عبر الأورام الدموية (المؤشر المتنبأ به: AML؛ المؤشر المثبّت المشار إليه في هذه الحزمة: del(5q) MDS)، لذلك يتم تضمين هذا القسم، على الرغم من أن معظم بيانات السمية الدقيقة جداً هي فجوة مشار إليها (DG001، Blocking).
 
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The mechanistic rationale and clinical evidence for AML (one completed randomized Phase 2 trial plus a systematic review, evidence level L2) are reasonably supportive, but the **Blocking** safety data gap (DG001 — no TFDA/SFDA package insert available) prevents the required S1 safety pre-evaluation, and Lenalidomide currently has zero market authorizations in Saudi Arabia. These two factors together mean the candidate cannot proceed past a Hold at this stage.
-
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) to unblock the S1 safety evaluation (DG001)
-- DrugBank-sourced mechanism of action and toxicity/myelosuppression detail (DG002)
-- Clarification of local regulatory pathway, given the drug is not currently marketed in Saudi Arabia
-- Additional AML-specific (rather than MDS-transformed) efficacy data to strengthen the mechanistic link beyond L2
+| العنصر | المحتوى |
+|--------|---------|
+| تصنيف السمية الخلوية | العلاج الموجه — عقار معدِّل للمناعة (IMiD)، آلية CRBN-E3 ligase الوسيطة (ليس العلاج الكيميائي التقليدي السام للخلايا) |
+| خطر قمع النقى | يرجى الرجوع إلى تحذيرات واحتياطات ملحق الحزمة |
+| تصنيف الغثيان والقيء | يرجى الرجوع إلى تحذيرات واحتياطات ملحق الحزمة |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات ملحق الحزمة |
+| حماية المعالجة | يرجى الرجوع إلى تحذيرات واحتياطات ملحق الحزمة |
 
 ---
 
-*Note: This evidence pack also scored five other candidate indications for Lenalidomide. Notably, rank 6 ("partial deletion of the long arm of chromosome 5," L1, two trials including a completed Phase 3 RCT) corresponds to Lenalidomide's already-established del(5q) MDS mechanism rather than a genuinely new indication. Ranks 4–5 (aregenerative anemia; congenital sideroblastic anemia) were assessed as Hold — likely ontology-mapping noise or mechanistically unrelated to Lenalidomide's confirmed CRBN pathway.*
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملحق الحزمة للحصول على معلومات السلامة. ملاحظة: تحذيرات وموانع الاستعمال من ملحق الحزمة TFDA/SFDA مسجلة كفجوة بيانات **حاجبة** (DG001) في هذه حزمة الأدلة، مما يعني أن تقييم سلامة S1 رسمي قبلي لا يمكن إكماله حالياً. لم يتم العثور على سجلات تفاعل الأدوية (حالة الاستعلام: not_found).
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+الأساس المنطقي الآلي والأدلة السريرية لـ AML (تجربة عشوائية محكومة واحدة مكتملة من المرحلة 2 زائد مراجعة منهجية، مستوى أدلة L2) مدعومة بشكل معقول، لكن فجوة البيانات الحاجبة للسلامة (DG001 — لا يوجد ملحق حزمة TFDA/SFDA متاح) يمنع تقييم السلامة S1 المطلوب، والينالدوميد حالياً لديه صفر ترخيصات سوق في المملكة العربية السعودية. يعني هذان العاملان معاً أن المرشح لا يمكن أن يتقدم بعد تعليق في هذه المرحلة.
+
+**لكي يتقدم، يلزم ما يلي:**
+- ملحق حزمة TFDA/SFDA (التحذيرات، موانع الاستعمال) لفك حجب تقييم السلامة S1 (DG001)
+- آلية العمل من مصدر DrugBank والسمية التفصيل/خطر قمع النقى (DG002)
+- توضيح المسار التنظيمي المحلي، نظراً لأن العقار غير مسوّق حالياً في المملكة العربية السعودية
+- بيانات فعالية AML إضافية محددة (بدلاً من MDS-transformed) لتقوية الرابط الآلي بعد L2
+
+---
+
+*ملاحظة: قيّمت حزمة الأدلة هذه أيضاً خمسة مؤشرات مرشحة أخرى للينالدوميد. جدير بالملاحظة أن المرتبة 6 ("الحذف الجزئي للذراع الطويلة للكروموسوم 5،" L1، تجربتان تشملان RCT من المرحلة 3 المكتملة واحدة) تتوافق مع آلية del(5q) MDS المثبّتة بالفعل للينالدوميد بدلاً من مؤشر جديد حقيقي. تم تقييم الرتب 4–5 (الفشل الكلوي المنتجة؛ فقر الدم الجنين الخلقي) كـ Hold — من المرجح أن تكون ضوضاء رسم الخريطة الأنطولوجيا أو غير مرتبطة آلياً بمسار CRBN المؤكد للينالدوميد.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

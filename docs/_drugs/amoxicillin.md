@@ -29,95 +29,96 @@ indication_count: 8
 
 </div>
 
-# AMOXICILLIN: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+# AMOXICILLIN: من العدوى البكتيرية إلى متلازمة فرط اللزوجة متعددة النسيلة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Amoxicillin is a broad-spectrum β-lactam antibiotic widely used for treating common bacterial infections including respiratory, urinary tract, and skin infections.
-The TxGNN model predicts it may be effective for **Polyclonal Hyperviscosity Syndrome** as its highest-ranked novel indication,
-but currently **0 clinical trials** and **0 publications** directly support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (broad-spectrum aminopenicillin antibiotic; no authorizations found in this market) |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+amoxicillin هو مضاد حيوي β-لاكتام واسع الطيف يُستخدم على نطاق واسع لعلاج العدوى البكتيرية الشائعة بما في ذلك العدوى التنفسية والمسالك البولية والجلدية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة فرط اللزوجة متعددة النسيلة** كأعلى دلالة جديدة مرتبة،
+لكن حالياً **0 تجربة سريرية** و **0 منشورات** تدعم هذا الاتجاه بشكل مباشر.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on well-established pharmacological knowledge, amoxicillin is an aminopenicillin antibiotic that inhibits bacterial cell wall synthesis by irreversibly binding to penicillin-binding proteins (PBPs), preventing peptidoglycan cross-linking, and ultimately causing osmotic lysis of susceptible Gram-positive and selected Gram-negative bacteria.
-
-Polyclonal hyperviscosity syndrome results from the excessive and dysregulated production of immunoglobulins across multiple immunoglobulin classes — an immune-mediated process with no mechanistic intersection with bacterial cell wall inhibition. The underlying pathophysiology (e.g., reactive polyclonal gammopathy from chronic inflammation or autoimmune disease) is wholly unrelated to the antibacterial targets of β-lactam agents.
-
-The high TxGNN prediction score (99.63%) reflects graph-based proximity in the drug-disease knowledge network, not clinical plausibility. Without a demonstrable infectious etiology driving polyclonal immunoglobulin overproduction in a specific clinical context, there is no pharmacological rationale for repurposing amoxicillin in this indication. This prediction is likely a graph topology artefact rather than a genuine therapeutic signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| الدلالة الأصلية | العدوى البكتيرية (مضاد حيوي من فئة الأمينوبنسيلين واسع الطيف؛ لم يتم العثور على تفويضات في هذا السوق) |
+| الدلالة الجديدة المتنبأ بها | متلازمة فرط اللزوجة متعددة النسيلة |
+| درجة التنبؤ لـ TxGNN | 99.63% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | لم يتم تسويقه |
+| عدد التفويضات | 0 |
+| القرار الموصى به | اِنتظر |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في هذه مجموعة الأدلة. بناءً على المعرفة الصيدلية الراسخة جيداً، amoxicillin هو مضاد حيوي من فئة الأمينوبنسيلين يثبط تخليق جدار الخلية البكتيرية بالارتباط بشكل غير قابل للعكس ببروتينات الارتباط بالبنسيلين (PBPs)، مما يمنع الربط المتقاطع للببتيدوجليكان، ويؤدي في النهاية إلى الانحلال الأسموزي للبكتيريا موجبة الجرام المعرضة والبكتيريا سالبة الجرام المختارة.
 
----
+متلازمة فرط اللزوجة متعددة النسيلة تنجم عن الإنتاج المفرط والمنظم بشكل سيئ للغلوبيولينات المناعية عبر فئات غلوبيولين مناعي متعددة — عملية يسيرها الجهاز المناعي بدون تقاطع آلي مع تثبيط جدار الخلية البكتيرية. الفيزيولوجيا المرضية الأساسية (مثل الجامّوباتيا متعددة النسيلة التفاعلية من الالتهاب المزمن أو أمراض المناعة الذاتية) بلا علاقة تماماً بأهداف عوامل β-لاكتام المضادة للبكتيريا.
 
-## Saudi Arabia Market Information
-
-Amoxicillin has no registered marketing authorizations in this market based on available data. No authorization table can be generated.
+درجة التنبؤ العالية لـ TxGNN (99.63%) تعكس القرب القائم على الرسم البياني في شبكة معرفة العقاقير والأمراض، وليس الجدوى السريرية. بدون وجود إيتيولوجيا معدية واضحة تقود الإنتاج المفرط للغلوبيولينات المناعية متعددة النسيلة في سياق سريري محدد، لا توجد نسبة دوائية لإعادة تطبيق amoxicillin في هذه الدلالة. هذا التنبؤ من المرجح أنه اصطناع طوبولوجيا الرسم البياني بدلاً من إشارة علاجية حقيقية.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-Polyclonal hyperviscosity syndrome is an immune-driven condition with no mechanistic link to amoxicillin's antibacterial activity, and the complete absence of supporting clinical trials or published literature means this prediction cannot advance beyond model output.
+---
 
-**Predicted Indications Overview — All 8 Candidates**
+## معلومات السوق في المملكة العربية السعودية
 
-| Rank | Indication | TxGNN Score | Evidence Level | Decision | Key Note |
-|------|-----------|-------------|----------------|----------|----------|
-| 1 | Polyclonal Hyperviscosity Syndrome | 99.63% | L5 | Hold | No mechanistic link; immune-mediated |
-| 2 | Hyperamylasemia | 99.63% | L5 | Hold | Amoxicillin is a *cause* of drug-induced pancreatitis — opposite direction |
-| 3 | Congenital Analbuminemia | 99.59% | L5 | Hold | Genetic disease (ALB mutation); no connection to antibiotics |
-| 4 | Blood Group Incompatibility | 99.40% | L5 | Hold | Single case report (PMID [40350274](https://pubmed.ncbi.nlm.nih.gov/40350274/)) describes amoxicillin treating a comorbid infection, not the incompatibility |
-| 5 | Premalignant Hematological Disease | 99.29% | L5 | Hold | Category too broad; no evidence or mechanistic link |
-| **6** | **Monoclonal Gammopathy** | **99.22%** | **L3** | **Research Question** | **Mechanistic rationale exists for IPSID subtype via H. pylori eradication** |
-| 7 | Hematological Disease with Acquired Peripheral Neuropathy | 99.14% | L5 | Hold | Immune-mediated neuropathy; no antibiotic rationale |
-| 8 | Septicemic Plague | 99.13% | L4 | Hold | In vitro β-lactam activity shown but clinical standard-of-care is aminoglycosides/doxycycline; β-lactamase resistance limits amoxicillin |
+amoxicillin لا يملك تفويضات تسويق مسجلة في هذا السوق بناءً على البيانات المتاحة. لا يمكن إنشاء جدول التفويض.
 
-**Most Actionable Finding — Rank 6: Monoclonal Gammopathy (IPSID Subtype)**
+---
 
-Among all 8 predictions, **rank 6 (monoclonal gammopathy, L3)** contains the only clinically grounded repurposing signal. A specific subtype — Immunoproliferative Small Intestinal Disease (IPSID, also known as Mediterranean lymphoma or alpha heavy-chain disease) — is a *Helicobacter pylori*-driven B-cell marginal zone lymphoma that secretes monoclonal IgA heavy chains, satisfying the definition of monoclonal gammopathy. Multiple retrospective studies and case series demonstrate that H. pylori eradication therapy containing amoxicillin can induce complete remission by removing the antigenic stimulus that drives B-cell clonal proliferation (PMID [20300878](https://pubmed.ncbi.nlm.nih.gov/20300878/), PMID [8988128](https://pubmed.ncbi.nlm.nih.gov/8988128/), PMID [9030995](https://pubmed.ncbi.nlm.nih.gov/9030995/)). **This mechanism does not apply to MGUS, multiple myeloma, or other non-IPSID monoclonal gammopathies.**
+## اعتبارات السلامة
 
-**To proceed, the following is needed:**
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-- **MOA data**: Retrieve amoxicillin pharmacodynamics from DrugBank API (currently a blocking data gap)
-- **Safety data**: Download and parse TFDA/SFDA package insert PDF to obtain warnings and contraindications
-- **For monoclonal gammopathy / IPSID**: Design a prospective study evaluating amoxicillin-containing H. pylori eradication regimens in biopsy-confirmed early-stage IPSID
-- **Regulatory pathway assessment**: Determine whether an antibacterial agent can receive an oncology/haematology indication under applicable regulatory frameworks
-- **Resistance profiling**: In the context of septicemic plague (rank 8), document regional *Y. pestis* β-lactamase prevalence before any clinical consideration
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: اِنتظر**
+
+**الأساس المنطقي:**
+متلازمة فرط اللزوجة متعددة النسيلة هي حالة يسيرها الجهاز المناعي بدون ارتباط آلي مع النشاط المضاد للبكتيريا في amoxicillin، والغياب الكامل للتجارب السريرية أو الأدبيات المنشورة الداعمة يعني أن هذا التنبؤ لا يمكن أن يتقدم إلى ما هو أبعد من ناتج النموذج.
+
+**نظرة عامة على الدلالات المتنبأ بها — جميع 8 المرشحين**
+
+| الترتيب | الدلالة | درجة TxGNN | مستوى الدليل | القرار | الملاحظة الرئيسية |
+|--------|---------|-------------|----------------|---------|-----------|
+| 1 | متلازمة فرط اللزوجة متعددة النسيلة | 99.63% | L5 | اِنتظر | لا يوجد ارتباط آلي؛ يسيرها الجهاز المناعي |
+| 2 | فرط الأميليزيميا | 99.63% | L5 | اِنتظر | amoxicillin هو *سبب* التهاب البنكرياس الناجم عن الأدوية — اتجاه معاكس |
+| 3 | انعدام الزلال الخلقي | 99.59% | L5 | اِنتظر | مرض وراثي (طفرة ALB)؛ لا يوجد ارتباط بالمضادات الحيوية |
+| 4 | عدم توافق فئة الدم | 99.40% | L5 | اِنتظر | تقرير حالة واحدة (PMID [40350274](https://pubmed.ncbi.nlm.nih.gov/40350274/)) يصف amoxicillin علاجاً للعدوى المصاحبة، وليس عدم التوافق |
+| 5 | أمراض الدم السابقة للتحول الخبيث | 99.29% | L5 | اِنتظر | فئة واسعة جداً؛ بدون دليل أو ارتباط آلي |
+| **6** | **جامّوباتيا أحادية النسيلة** | **99.22%** | **L3** | **سؤال بحثي** | **يوجد أساس نطقي آلي لنمط فرعي IPSID عبر استئصال H. pylori** |
+| 7 | أمراض الدم مع اعتلال الأعصاب المحيطي المكتسب | 99.14% | L5 | اِنتظر | اعتلال أعصاب يسيره الجهاز المناعي؛ بدون أساس منطقي للمضاد الحيوي |
+| 8 | الطاعون الإنتاني | 99.13% | L4 | اِنتظر | النشاط β-لاكتام في المختبر ظاهر لكن المعيار العلاجي القياسي هو الأمينوجليكوسيدات/الدوكسيسيكلين؛ مقاومة β-لاكتاماز تحد من amoxicillin |
+
+**الاكتشاف الأكثر قابلية للتنفيذ — الترتيب 6: جامّوباتيا أحادية النسيلة (نمط فرعي IPSID)**
+
+من بين جميع التنبؤات الثمانية، **الترتيب 6 (جامّوباتيا أحادية النسيلة، L3)** يحتوي على الإشارة الوحيدة المتأصلة سريرياً لإعادة التطبيق. نمط فرعي محدد — مرض الأمعاء الصغيرة المناعي التكاثري (IPSID، المعروف أيضاً باسم الليمفوما المتوسطية أو مرض السلسلة الثقيلة ألفا) — هو لمفومة منطقة هامشية من خلايا B مقودة بواسطة H. pylori تفرز سلاسل IgA الثقيلة أحادية النسيلة، مما يستوفي تعريف جامّوباتيا أحادية النسيلة. دراسات بأثر رجعي متعددة وسلاسل حالات توضح أن العلاج الاستئصالي لـ H. pylori الذي يحتوي على amoxicillin يمكن أن يحفز الشفاء الكامل بإزالة المحفز المستضدي الذي يقود تكاثر النسيلة لخلايا B (PMID [20300878](https://pubmed.ncbi.nlm.nih.gov/20300878/), PMID [8988128](https://pubmed.ncbi.nlm.nih.gov/8988128/), PMID [9030995](https://pubmed.ncbi.nlm.nih.gov/9030995/)). **هذه الآلية لا تنطبق على MGUS أو الورم النقوي المتعدد أو جامّوباتيا أحادية النسيلة غير IPSID الأخرى.**
+
+**للمتابعة، يلزم ما يلي:**
+
+- **بيانات آلية العمل**: استرجاع الديناميكا الدوائية لـ amoxicillin من DrugBank API (حالياً فجوة بيانات حجزية)
+- **بيانات السلامة**: تحميل وتحليل ملخص خصائص المنتج من TFDA/SFDA للحصول على التحذيرات والموانع
+- **بخصوص جامّوباتيا أحادية النسيلة / IPSID**: تصميم دراسة مستقبلية لتقييم أنظمة استئصال H. pylori التي تحتوي على amoxicillin في IPSID في المراحل المبكرة المؤكدة بالخزعة
+- **تقييم المسار التنظيمي**: تحديد ما إذا كان يمكن لعامل مضاد للبكتيريا أن يتلقى دلالة أورام/أمراض دم بموجب الأطر التنظيمية المعمول بها
+- **تحديد ملف المقاومة**: في سياق الطاعون الإنتاني (الترتيب 8)، توثيق انتشار β-لاكتاماز في Y. pestis على المستوى الإقليمي قبل أي اعتبار سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

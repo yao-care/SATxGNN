@@ -29,75 +29,76 @@ indication_count: 5
 
 </div>
 
-# LYNESTRENOL: From Oral Contraceptive Component to Migraine Susceptibility (TxGNN Prediction)
+# لينستريتنول: من مكون موانع الحمل الفموية إلى قابلية الإصابة بالصداع النصفي (التنبؤ بـ TxGNN)
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Lynestrenol is an orally active progestin (a prodrug of norethisterone) historically used as a component of combined oral contraceptives; no formal original-indication or Saudi Arabia licensing record is currently on file for this drug. The TxGNN model's top-ranked prediction is **migraine with or without aura, susceptibility to**, but this ranking is supported by **0 clinical trials** and **20 publications** on shared epilepsy–migraine genetic mechanisms — none of which studied Lynestrenol itself — placing it at the lowest evidence tier (**L5**).
+لينستريتنول هو بروجسترين فعّال عن طريق الفم (دواء أولي من نوريثيستيرون) تم استخدامه تاريخياً كمكون في موانع الحمل الفموية المركبة؛ لا يوجد حالياً أي سجل رسمي لمؤشر الاستخدام الأصلي أو ترخيص السعودية في الملف. تنبؤ نموذج TxGNN المصنف في الأعلى هو **الصداع النصفي مع أو بدون هالة، القابلية للإصابة به**، لكن هذا التصنيف يدعمه **0 تجربة سريرية** و **20 منشوراً** حول الآليات الوراثية والجزيئية المشتركة بين الصرع والصداع النصفي — لم تدرس أي منها لينستريتنول نفسه — مما يضعه في أدنى مستوى دليل (**L5**).
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file — drug is not marketed in Saudi Arabia and no license/label data is available |
-| Predicted New Indication | Migraine with or without aura, susceptibility to |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موجود في الملف — الدواء غير مسوّق في المملكة العربية السعودية وبيانات الترخيص/التسمية غير متاحة |
+| المؤشر الجديد المتنبأ به | الصداع النصفي مع أو بدون هالة، القابلية للإصابة به |
+| درجة التنبؤ بـ TxGNN | 99.51% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data is not currently available for Lynestrenol. Based on known information, Lynestrenol is a progestin and prodrug of norethisterone, historically used as a component of early combined oral contraceptive regimens.
+بيانات آلية العمل الصيدلاني المفصلة غير متاحة حالياً لـ لينستريتنول. بناءً على المعلومات المعروفة، لينستريتنول هو بروجسترين ودواء أولي من نوريثيستيرون، تم استخدامه تاريخياً كمكون في أنظمة موانع حمل فموية مركبة مبكرة.
 
-For this top-ranked prediction specifically, the underlying evidence pack is transparent about a key limitation: all 20 supporting publications concern shared genetic and molecular mechanisms between epilepsy and migraine (ion channels, neuroinflammation, GABAergic/glutamatergic signaling) — **none mention Lynestrenol or progestins at all**. The high TxGNN score therefore reflects a knowledge-graph association (disease–disease/gene co-occurrence between migraine-susceptibility and epilepsy) rather than any direct drug-level mechanistic or clinical signal.
+بخصوص هذا التنبؤ المصنف في الأعلى على وجه التحديد، فإن حزمة الدليل الأساسية شفافة بشأن قيد رئيسي: جميع المنشورات الـ 20 المدعومة تتعلق بالآليات الوراثية والجزيئية المشتركة بين الصرع والصداع النصفي (قنوات الأيونات، الالتهاب العصبي، الإشارات الـ GABAergic/glutamatergic) — **لا ذكر لـ لينستريتنول أو البروجستينات على الإطلاق**. درجة TxGNN العالية بالتالي تعكس ارتباط الرسم البياني للمعرفة (حدوث مشترك بين المرض والمرض/الجين بين قابلية الإصابة بالصداع النصفي والصرع) بدلاً من أي إشارة آلية أو سريرية مباشرة على مستوى الدواء.
 
-It is worth noting, for context, that a separate lower-ranked prediction in this same evidence pack ("migraine disorder," rank 2) is associated with an actual historical study of this drug — a 1963 Swedish case series, *"Prophylactic treatment of migraine with Lynestrenol (Organetril)"* (PMID 14091721) — indicating legacy clinical interest in progestin-based migraine prophylaxis. However, modern literature on combined hormonal contraceptives (PMID 41723577) confirms that estrogen/progestin-containing regimens are contraindicated in migraine **with aura** due to elevated stroke risk, which is directly relevant given the top-ranked predicted indication explicitly involves aura.
+من المجدي الإشارة، للسياق، إلى أن تنبؤاً آخر مصنفاً برتبة أقل في نفس حزمة الدليل ("اضطراب الصداع النصفي،" الرتبة 2) يرتبط بدراسة تاريخية فعلية لهذا الدواء — سلسلة حالات سويدية من عام 1963، *"العلاج الوقائي للصداع النصفي بـ لينستريتنول (Organetril)"* (PMID 14091721) — مما يشير إلى اهتمام سريري موروث بالنهج الوقائي للصداع النصفي القائم على البروجسترين. ومع ذلك، تؤكد الأدبيات الحديثة عن موانع الحمل الهرمونية المركبة (PMID 41723577) أن الأنظمة التي تحتوي على الإستروجين/البروجسترين محظورة في الصداع النصفي **مع هالة** بسبب ارتفاع خطر السكتة الدماغية، وهو ما يرتبط مباشرة بالنظر إلى أن المؤشر المتنبأ به الأعلى يتضمن بوضوح هالة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية مرتبطة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17460155](https://pubmed.ncbi.nlm.nih.gov/17460155/) | 2007 | Review | Neurology | Familial occipitotemporal lobe epilepsy linked to migraine with visual aura via chromosome 9q locus |
-| [33856647](https://pubmed.ncbi.nlm.nih.gov/33856647/) | 2021 | Review | Molecular Neurobiology | Epilepsy and migraine share genetic/molecular mechanisms; higher prevalence of each condition in patients with the other |
-| [23294289](https://pubmed.ncbi.nlm.nih.gov/23294289/) | 2013 | Review | Epilepsia | Evidence for shared genetic susceptibility between migraine and epilepsy in the EPGP cohort |
-| [22266888](https://pubmed.ncbi.nlm.nih.gov/22266888/) | 2011 | Unclassified | Seminars in Neurology | Genetic factors likely contribute to most epilepsies, either as primary cause or susceptibility modulator |
-| [34575901](https://pubmed.ncbi.nlm.nih.gov/34575901/) | 2021 | Unclassified | Int J Mol Sci | Reviews molecular targets for antiepileptogenesis; most antiepileptic drugs have weak/no disease-modifying potential |
-| [16201993](https://pubmed.ncbi.nlm.nih.gov/16201993/) | 2005 | Unclassified | Epilepsia | Developmental shifts in GABAergic/glutamatergic receptor composition heighten seizure susceptibility in the immature brain |
-| [34209535](https://pubmed.ncbi.nlm.nih.gov/34209535/) | 2021 | Unclassified | Int J Mol Sci | Explores bidirectional relationship between neuroinflammation and epilepsy |
-| [30267335](https://pubmed.ncbi.nlm.nih.gov/30267335/) | 2018 | Unclassified | Neurological Sciences | Meta-analysis of MTHFR C677T polymorphism as an epilepsy susceptibility risk factor |
-| [36442376](https://pubmed.ncbi.nlm.nih.gov/36442376/) | 2023 | Unclassified | Clinical Neurophysiology | EEG-LORETA study of "epileptic diathesis" — an inherited trait of cortical excitability |
-| [22938964](https://pubmed.ncbi.nlm.nih.gov/22938964/) | 2012 | Unclassified | Handbook of Clinical Neurology | Overview of animal models used to study epilepsy pathophysiology and treatment |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|---------------|
+| [17460155](https://pubmed.ncbi.nlm.nih.gov/17460155/) | 2007 | استعراض | Neurology | ارتبط الصرع الفصي الصدغي العائلي بالصداع النصفي مع هالة بصرية عبر موضع الكروموسوم 9q |
+| [33856647](https://pubmed.ncbi.nlm.nih.gov/33856647/) | 2021 | استعراض | Molecular Neurobiology | الصرع والصداع النصفي يشتركان في الآليات الوراثية/الجزيئية؛ انتشار أعلى لكل حالة في المرضى الذين يعانون من الحالة الأخرى |
+| [23294289](https://pubmed.ncbi.nlm.nih.gov/23294289/) | 2013 | استعراض | Epilepsia | دليل على القابلية الوراثية المشتركة بين الصداع النصفي والصرع في مجموعة EPGP |
+| [22266888](https://pubmed.ncbi.nlm.nih.gov/22266888/) | 2011 | غير مصنف | Seminars in Neurology | من المرجح أن تساهم العوامل الوراثية في معظم حالات الصرع، إما كسبب أساسي أو معدّل قابلية |
+| [34575901](https://pubmed.ncbi.nlm.nih.gov/34575901/) | 2021 | غير مصنف | Int J Mol Sci | يستعرض الأهداف الجزيئية لمنع تطور الصرع؛ معظم أدوية مضادات الصرع لها إمكانية تعديل مرض ضعيفة/معدومة |
+| [16201993](https://pubmed.ncbi.nlm.nih.gov/16201993/) | 2005 | غير مصنف | Epilepsia | التحولات النمائية في تركيب مستقبلات GABAergic/glutamatergic تزيد من قابلية الإصابة بنوبات في الدماغ الناضج |
+| [34209535](https://pubmed.ncbi.nlm.nih.gov/34209535/) | 2021 | غير مصنف | Int J Mol Sci | يستكشف العلاقة ثنائية الاتجاه بين الالتهاب العصبي والصرع |
+| [30267335](https://pubmed.ncbi.nlm.nih.gov/30267335/) | 2018 | غير مصنف | Neurological Sciences | تحليل تلوي لتعدد الأشكال MTHFR C677T كعامل خطر قابلية الإصابة بالصرع |
+| [36442376](https://pubmed.ncbi.nlm.nih.gov/36442376/) | 2023 | غير مصنف | Clinical Neurophysiology | دراسة EEG-LORETA لـ "الاستعداد الصرعي" — سمة موروثة من الاستثارة القشرية |
+| [22938964](https://pubmed.ncbi.nlm.nih.gov/22938964/) | 2012 | غير مصنف | Handbook of Clinical Neurology | نظرة عامة على نماذج حيوانية تُستخدم لدراسة المرضية في الصرع والعلاج |
 
-*Note: None of the above publications evaluate Lynestrenol, progestins, or hormonal contraceptives — all relate generically to migraine–epilepsy shared genetic/mechanistic susceptibility. 10 additional lower-relevance records (total 20) are omitted per the display limit.*
+*ملاحظة: لا يقيّم أي من المنشورات أعلاه لينستريتنول أو البروجستينات أو موانع الحمل الهرمونية — جميعها تتعلق بشكل عام بالقابلية الوراثية/الآلية المشتركة بين الصداع النصفي والصرع. تم حذف 10 سجلات إضافية ذات صلة أقل (إجمالي 20) وفقاً لحد العرض.*
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no marketing authorization on file in Saudi Arabia (market status: Not marketed; 0 licenses).
+لا توجد حالياً أي ترخيص تسويق في الملف في المملكة العربية السعودية (حالة السوق: غير مسوّق؛ 0 تراخيص).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information (no key warnings, contraindications, or drug-interaction data are currently on file for this candidate).
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة (لا توجد حالياً بيانات تحذيرات رئيسية أو موانع استعمال أو تفاعلات الأدوية في الملف لهذا المرشح).
 
-**Literature-derived signal (not from official safety/label data):** Publications on combined hormonal contraceptives in this evidence pack note that estrogen/progestin-containing regimens are contraindicated in patients with migraine **with aura** due to increased stroke risk (PMID 41723577), and describe historical case reports of retinal artery complications associated with oral contraceptive use (PMID 4660718). This class-level signal should be weighed carefully given the predicted indication involves migraine with aura.
+**إشارة مشتقة من الأدبيات (وليس من بيانات الأمان/التسمية الرسمية):** تشير المنشورات حول موانع الحمل الهرمونية المركبة في حزمة الدليل هذه إلى أن الأنظمة التي تحتوي على الإستروجين/البروجسترين محظورة في المرضى الذين يعانون من الصداع النصفي **مع هالة** بسبب زيادة خطر السكتة الدماغية (PMID 41723577)، وتصف تقارير حالات تاريخية عن مضاعفات شرايين الشبكية المرتبطة باستخدام موانع الحمل الفموية (PMID 4660718). يجب مراعاة هذه الإشارة على مستوى الفئة بعناية بالنظر إلى أن المؤشر المتنبأ به يتضمن الصداع النصفي مع هالة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The evidence level is L5 — no clinical trials and no drug-specific literature support this indication; all 20 supporting publications address migraine–epilepsy shared genetics unrelated to Lynestrenol. The drug is also unmarketed in Saudi Arabia with no available safety/label data, so it cannot yet clear a basic safety review.
+**الحجة:**
+مستوى الدليل هو L5 — لا توجد تجارب سريرية ولا أدبيات خاصة بالدواء تدعم هذا المؤشر؛ جميع المنشورات الـ 20 المدعومة تتناول الوراثة المشتركة بين الصداع النصفي والصرع غير المرتبطة بـ لينستريتنول. الدواء أيضاً غير مسوّق في المملكة العربية السعودية مع عدم توفر بيانات الأمان/التسمية، لذا لا يمكنه حتى الآن اجتياز مراجعة سلامة أساسية.
 
-**To proceed, the following is needed:**
-- Original mechanism of action (MOA) and original indication data (currently both data gaps)
-- Official Saudi Arabia (or reference-market) package insert for warnings, contraindications, and drug interactions
-- Drug-specific pharmacological or clinical evidence for Lynestrenol in migraine, rather than class-level or disease-co-occurrence evidence alone
-- A focused literature review of the historical 1963 Lynestrenol-migraine case series (PMID 14091721, under the separate "migraine disorder" prediction) and formal risk assessment of hormonal contraceptive use in migraine with aura before any further evaluation
+**لكي نمضي قدماً، يتطلب الأمر ما يلي:**
+- البيانات الأصلية لآلية العمل (MOA) ومؤشر الاستخدام الأصلي (حالياً كلا الفجوتين في البيانات)
+- ملحق العبوة الرسمي للمملكة العربية السعودية (أو السوق المرجعي) للتحذيرات وموانع الاستعمال والتفاعلات الدوائية
+- دليل صيدلاني أو سريري خاص بالدواء لـ لينستريتنول في الصداع النصفي، بدلاً من الدليل على مستوى الفئة أو دليل حدوث المرض بمفرده
+- مراجعة أدبيات مركزة على سلسلة الحالات التاريخية لـ لينستريتنول-الصداع النصفي من عام 1963 (PMID 14091721، تحت تنبؤ "اضطراب الصداع النصفي" المنفصل) وتقييم مخاطر رسمي لاستخدام موانع الحمل الهرمونية في الصداع النصفي مع هالة قبل أي تقييم إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

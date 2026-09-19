@@ -29,72 +29,71 @@ indication_count: 3
 
 </div>
 
-Using no specific skill — this is a direct report-generation task fully specified by the prompt template; skills like txgnn-pipeline cover pipeline engineering, not report authoring, so I'll follow the template as given.
+# Ubrogepant: من علاج الصداع النصفي الحاد إلى الصداع النصفي مع الهالة الجذعية
 
-# Ubrogepant: From Acute Migraine Treatment to Migraine with Brainstem Aura
+## ملخص الجملة الواحدة
 
-## One-Sentence Summary
+Ubrogepant هو محصور مستقبلات CGRP فموي وافقت عليه (الولايات المتحدة، 2019) لعلاج الصداع النصفي الحاد مع أو بدون هالة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً ضد **الصداع النصفي مع الهالة الجذعية**، وهو نوع فرعي نادر من الصداع النصفي تم استبعاده تاريخياً من تجارب ناهضات التريبتان بسبب مخاوف الانقباض الوعائي، لكن الأدلة الحالية مستمدة من دراسات الصداع النصفي العام وليس من تجارب تستهدف هذا النوع الفرعي المحدد — تم العثور على **0 تجربة سريرية** و **20 منشور** لم يدرس أي منها النوع الفرعي مع الهالة الجذعية بشكل مباشر.
 
-Ubrogepant is an oral CGRP receptor antagonist originally approved (US, 2019) for acute treatment of migraine with or without aura. The TxGNN model predicts it may also be effective for **migraine with brainstem aura**, a rare migraine subtype historically excluded from triptan trials due to vasoconstriction concerns, but current evidence is drawn from general migraine studies rather than trials targeting this specific subtype — **0 clinical trials** and **20 publications** were found, none of which studied the brainstem-aura subtype directly.
+## نظرة عامة سريعة
 
-## Quick Overview
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | العلاج الحاد للصداع النصفي، مع أو بدون هالة (معتمد من قبل إدارة الغذاء والدواء الأمريكية؛ لا يوجد سجل تنظيمي في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | الصداع النصفي مع الهالة الجذعية |
+| درجة التنبؤ بـ TxGNN | 99.85% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الإجراء مع الضمانات |
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute treatment of migraine, with or without aura (FDA-approved; no regulatory record in Saudi Arabia) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+## لماذا هذا التنبؤ معقول؟
 
-## Why is This Prediction Reasonable?
+Ubrogepant هو محصور مستقبلات الببتيد المرتبط بجين الكالسيتونين (CGRP) صغير الجزيء — "جيبانت" — يحجب CGRP، وهو وسيط رئيسي في إشارات ألم الصداع النصفي. حصل على أول موافقة عالمية (الولايات المتحدة) في ديسمبر 2019 لعلاج الصداع النصفي الحاد مع أو بدون هالة، بناءً على تجارب المرحلة 3 العشوائية ACHIEVE I و ACHIEVE II.
 
-Ubrogepant is a small-molecule calcitonin gene-related peptide (CGRP) receptor antagonist — a "gepant" — that blocks CGRP, a key mediator of migraine pain signaling. It received its first global (US) approval in December 2019 for acute treatment of migraine with or without aura, based on the ACHIEVE I and ACHIEVE II Phase 3 randomized trials.
+المؤشر الجديد المتنبأ به، الصداع النصفي مع الهالة الجذعية (سابقاً "الصداع النصفي من نوع القاعدة")، هو نوع فرعي نادر من الصداع النصفي يُعرّف بأعراض الهالة ذات المنشأ الجذعي. لأن هذا النوع الفرعي كان يُعتقد تاريخياً أنه ينطوي على انقباض وعائي داخل الجمجمة، كان المرضى الذين يعانون من هالة جذعية يتم استبعادهم عادة من تجارب ناهضات التريبتان (ناهضات 5-HT1B/1D)، التي تحمل خطر انقباض وعائي. الجيبانتات مثل ubrogepant تعمل من خلال حجب مستقبلات CGRP بدلاً من الانقباض الوعائي، لذا فهي معقولة من الناحية الميكانيكية للاستخدام في هذه الفئة السكانية المستبعدة — هذا هو المنطق الأساسي وراء التنبؤ TxGNN.
 
-The predicted new indication, migraine with brainstem aura (formerly "basilar-type migraine"), is a rare migraine subtype defined by brainstem-origin aura symptoms. Because this subtype was historically thought to involve intracranial vasoconstriction, patients with brainstem aura were typically excluded from triptan (5-HT1B/1D agonist) trials, which carry vasoconstrictive risk. Gepants such as ubrogepant act through CGRP receptor blockade rather than vasoconstriction, so they are mechanistically plausible for use in this excluded population — this is the core logic behind the TxGNN prediction.
+ومع ذلك، هذا يتعلق بشكل كبير باستقراء ميكانيكي بدلاً من اكتشاف مؤكد مباشرة: لم يتم العثور على أي من الأدبيات أو التجارب المسترجعة التي درست بشكل محدد مجموعة فرعية "الصداع النصفي مع الهالة الجذعية". تتكون قاعدة الأدلة بدلاً من ذلك من بيانات فعالية/سلامة الصداع النصفي الحاد العام (بما فيها تحليلات المجموعات الفرعية لمخاطر القلب والأوعية الدموية)، والتي تدعم *معقولية* الاستخدام في السكان الحساسين للانقباض الوعائي لكنها لا تثبت بشكل مباشر الفعالية في هالة جذعية محددة.
 
-However, this is largely a mechanistic extrapolation rather than a directly confirmed finding: none of the retrieved literature or trials specifically enrolled or analyzed a "migraine with brainstem aura" subgroup. The evidence base instead consists of general acute-migraine efficacy/safety data (including cardiovascular-risk subgroup analyses), which supports the *plausibility* of use in a vasoconstriction-sensitive population but does not directly demonstrate efficacy in brainstem aura specifically.
+## دليل التجارب السريرية
 
-## Clinical Trial Evidence
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-Currently no related clinical trials registered
+## دليل الأدبيات
 
-## Literature Evidence
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [37979595](https://pubmed.ncbi.nlm.nih.gov/37979595/) | 2023 | تجربة عشوائية (المرحلة 3) | Lancet | تفوق Ubrogepant 100 ملغ على العلاج الوهمي عند تناوله أثناء المرحلة السابقة للصداع النصفي (قبل ظهور الصداع)، مما يدعم إمكانية التدخل المبكر. |
+| [31742631](https://pubmed.ncbi.nlm.nih.gov/31742631/) | 2019 | تجربة عشوائية (ACHIEVE II) | JAMA | تأكيد تفوق ubrogepant على العلاج الوهمي لتحرر الألم وتخفيف أكثر الأعراض إزعاجاً في الصداع النصفي في ساعتين. |
+| [31913519](https://pubmed.ncbi.nlm.nih.gov/31913519/) | 2020 | تجربة عشوائية (تمديد 52 أسبوع) | Headache | تأكيد السلامة طويلة الأمد والتحمل الجيد لـ ubrogepant تحت الاستخدام المتقطع والمتكرر على مدى 52 أسبوع. |
+| [33874756](https://pubmed.ncbi.nlm.nih.gov/33874756/) | 2021 | تحليل ما بعد التجربة العشوائية | Cephalalgia | تم الحفاظ على الفعالية والسلامة عبر فئات المخاطر القلبية الوعائية في بيانات ACHIEVE I/II المجمعة — وذلك ذو صلة بالنظر إلى افتقار الجيبانتات للتأثير الانقباضي الوعائي. |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | تحليل شبكة | J Headache Pain | قارنت الفعالية النسبية وسرعة ظهور التأثير لـ lasmiditan و rimegepant و ubrogepant لعلاج الصداع النصفي الحاد. |
+| [32020557](https://pubmed.ncbi.nlm.nih.gov/32020557/) | 2020 | مراجعة | Drugs | يلخص أول موافقة عالمية لـ ubrogepant (الولايات المتحدة، ديسمبر 2019) كمحصور CGRP فموي لعلاج الصداع النصفي الحاد مع أو بدون هالة. |
+| [32011192](https://pubmed.ncbi.nlm.nih.gov/32011192/) | 2020 | مراجعة | Expert Opin Pharmacother | تراجع بيولوجيا مسار CGRP وتطور ubrogepant كعلاج إجهاضي متخصص للصداع النصفي. |
+| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | مراجعة | Neurology International | نظرة عامة على دور ubrogepant في علاج الصداع النصفي الحاد عند البالغين، بما في ذلك الجرعات والملف الأمني. |
+| [39569702](https://pubmed.ncbi.nlm.nih.gov/39569702/) | 2025 | دراسة أتراب (دراسة TANDEM) | Headache | قيّمت السلامة والتحمل الجيد لـ ubrogepant للنوبات الحادة لدى المرضى الذين كانوا بالفعل على atogepant للوقاية — لم يتم ملاحظة أي إشارة أمان غير متوقعة. |
+| [39262541](https://pubmed.ncbi.nlm.nih.gov/39262541/) | 2024 | تقرير حالة | Cureus | حالة واحدة من الصداع النصفي المقاوم للعلاج (بدون هالة) أظهرت تحسناً كبيراً مع ubrogepant. |
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37979595](https://pubmed.ncbi.nlm.nih.gov/37979595/) | 2023 | RCT (Phase 3) | Lancet | Ubrogepant 100 mg outperformed placebo when taken during the migraine prodrome (before headache onset), supporting early intervention potential. |
-| [31742631](https://pubmed.ncbi.nlm.nih.gov/31742631/) | 2019 | RCT (ACHIEVE II) | JAMA | Confirmed superiority of ubrogepant vs. placebo for pain freedom and relief of the most bothersome migraine symptom at 2 hours. |
-| [31913519](https://pubmed.ncbi.nlm.nih.gov/31913519/) | 2020 | RCT (52-week extension) | Headache | Long-term safety and tolerability of ubrogepant confirmed under repeated intermittent use over 52 weeks. |
-| [33874756](https://pubmed.ncbi.nlm.nih.gov/33874756/) | 2021 | RCT post-hoc analysis | Cephalalgia | Efficacy and safety maintained across cardiovascular risk categories in pooled ACHIEVE I/II data — relevant given gepants' lack of vasoconstrictive effect. |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | J Headache Pain | Compared relative efficacy/speed of onset of lasmiditan, rimegepant, and ubrogepant for acute migraine treatment. |
-| [32020557](https://pubmed.ncbi.nlm.nih.gov/32020557/) | 2020 | Review | Drugs | Summarizes ubrogepant's first global approval (US, Dec 2019) as an oral CGRP antagonist for acute migraine with or without aura. |
-| [32011192](https://pubmed.ncbi.nlm.nih.gov/32011192/) | 2020 | Review | Expert Opin Pharmacother | Reviews CGRP pathway biology and ubrogepant's development as a migraine-specific abortive treatment. |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurology International | Overview of ubrogepant's role in acute migraine treatment in adults, including dosing and safety profile. |
-| [39569702](https://pubmed.ncbi.nlm.nih.gov/39569702/) | 2025 | Cohort (TANDEM study) | Headache | Evaluated safety/tolerability of ubrogepant for acute attacks in patients already on atogepant for prevention — no unexpected safety signal. |
-| [39262541](https://pubmed.ncbi.nlm.nih.gov/39262541/) | 2024 | Case Report | Cureus | Single case of treatment-resistant migraine (without aura) showing substantial improvement with ubrogepant. |
+## معلومات السوق في المملكة العربية السعودية
 
-## Saudi Arabia Market Information
+غير مسوق في المملكة العربية السعودية؛ لا توجد سجلات موافقات متاحة.
 
-Not marketed in Saudi Arabia; no authorization records available.
+## اعتبارات السلامة
 
-## Safety Considerations
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-Please refer to the package insert for safety information.
+## الخلاصة والخطوات التالية
 
-## Conclusion and Next Steps
+**القرار: الإجراء مع الضمانات**
 
-**Decision: Proceed with Guardrails**
+**المبررات:**
+Ubrogepant لديها سجل فعالية/سلامة المرحلة 3 المثبت جيداً للصداع النصفي الحاد بشكل عام، وآليتها غير الانقباضية الوعائية متسقة من الناحية الميكانيكية مع الاستخدام في هالة جذعية، وهو نوع فرعي حيث يتم تجنب العوامل الانقباضية الوعائية. ومع ذلك، لم تدرس أي تجربة أو منشور هذا النوع الفرعي بشكل مباشر، لذا يتم استقراء الأدلة بدلاً من تأكيدها (L2).
 
-**Rationale:**
-Ubrogepant has a well-established Phase 3 efficacy/safety record for acute migraine in general, and its non-vasoconstrictive mechanism is mechanistically consistent with use in brainstem aura, a subtype where vasoconstrictive agents are avoided. However, no trial or publication has directly studied this subtype, so evidence is extrapolated rather than confirmed (L2).
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات نشرة المعلومات المحلية/TFDA والموانع (حالياً فجوة بيانات محجوبة — DG001)
+- التحقق الرسمي من DrugBank/MOA (DG002)
+- تجربة مخصصة أو تحليل سجل في المرضى الذين يعانون من الصداع النصفي مع الهالة الجذعية لتأكيد الفعالية واستبعاد أي خطر انقباضي وعائي متبقي
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently a blocking data gap — DG001)
-- Formal DrugBank/MOA verification (DG002)
-- A dedicated trial or registry analysis in patients with migraine with brainstem aura to confirm efficacy and rule out any residual vasoconstrictive risk
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,87 +29,88 @@ indication_count: 9
 
 </div>
 
-# Piperacillin: From Bacterial Infections to Rheumatoid Arthritis
+# البيبراسيللين: من الالتهابات البكتيرية إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Piperacillin is a broad-spectrum ureidopenicillin antibiotic used to treat bacterial infections. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with **0 clinical trials** and **18 publications** currently associated with this pairing — however, on review, the literature consists of case reports of RA patients treated with piperacillin for *unrelated comorbid infections*, not evidence of efficacy against RA itself.
+البيبراسيللين هو مضاد حيوي من فئة اليوريدوبينيسيللين واسع الطيف يُستخدم لعلاج الالتهابات البكتيرية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **التهاب المفاصل الروماتويدي**، مع وجود **0 تجارب سريرية** و**18 منشور** مرتبطة حالياً بهذا الجمع — غير أنه عند المراجعة، تتكون الأدبيات من تقارير حالات لمرضى التهاب المفاصل الروماتويدي عُولجوا بالبيبراسيللين لـ *الالتهابات المصاحبة غير الذات صلة*، وليس دليلاً على الفعالية ضد التهاب المفاصل الروماتويدي ذاته.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Bacterial infections (broad-spectrum antibacterial therapy; no formal indication record on file) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | الالتهابات البكتيرية (العلاج المضاد للبكتيريا واسع الطيف؛ لا توجد سجلات دلالة رسمية على الملف) |
+| الدلالة الجديدة المتنبأ بها | التهاب المفاصل الروماتويدي |
+| درجة تنبؤ TxGNN | 99.94% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مُسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | عقد |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed formal mechanism-of-action data is not on file, but based on known pharmacology, piperacillin is a ureidopenicillin-class broad-spectrum antibiotic that acts by binding penicillin-binding proteins (PBPs) to inhibit bacterial cell wall synthesis. This mechanism has no known pharmacological link to the autoimmune/inflammatory pathways that drive rheumatoid arthritis (e.g., TNF-α, IL-6, synovial hyperplasia).
+لا تتوفر بيانات رسمية مفصلة عن آلية العمل على الملف، غير أنه بناءً على علم الأدوية المعروف، البيبراسيللين هو مضاد حيوي من فئة اليوريدوبينيسيللين واسع الطيف يعمل بالارتباط ببروتينات ربط البنسلين (PBPs) لتثبيط تخليق جدار الخلية البكتيرية. هذه الآلية لا علاقة لها بالمسارات المناعية الذاتية/الالتهابية التي تحفز التهاب المفاصل الروماتويدي (مثل عامل نخر الورم ألفا، الإنترلوكين-6، فرط التنسج الغشائي الزليلي).
 
-A line-by-line review of all 18 supporting publications found that none describe piperacillin being used to treat RA or its underlying inflammatory process. Instead, every article describes RA patients who developed a *bacterial infection* — often as a complication of RA immunosuppressive therapy (methotrexate, etanercept, upadacitinib) — and received piperacillin (frequently as piperacillin-tazobactam) to treat that infection. This is a classic case of **co-occurrence confounding**: the drug and disease appear together in the literature because RA patients on immunosuppressants are more prone to infection, not because piperacillin treats RA.
+أسفرت مراجعة سطر تلو الآخر لجميع المنشورات الـ 18 الداعمة عن أن أياً منها لا يصف استخدام البيبراسيللين لعلاج التهاب المفاصل الروماتويدي أو عمليته الالتهابية الأساسية. بدلاً من ذلك، يصف كل مقال مريض التهاب مفاصل روماتويدي طور عدوى *بكتيرية* — غالباً كمضاعفة لعلاج الأمراض المناعية بمثبطات المناعة لالتهاب المفاصل الروماتويدي (الميثوتريكسات، إيتانرسيبت، أوباداسيتينيب) — وتلقى البيبراسيللين (غالباً بصيغة البيبراسيللين-تازوباكتام) لعلاج تلك العدوى. هذه حالة كلاسيكية من **الخلط في التزامن**: يظهر الدواء والمرض معاً في الأدبيات لأن مرضى التهاب المفاصل الروماتويدي على مثبطات المناعة أكثر عرضة للعدوى، وليس لأن البيبراسيللين يعالج التهاب المفاصل الروماتويدي.
 
-Given the absence of any mechanistic rationale and the confounded nature of the literature, this prediction should be treated as a knowledge-graph artifact rather than a genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+نظراً للغياب التام لأي مبرر آلية وللطبيعة المشوشة للأدبيات، يجب معاملة هذا التنبؤ كقطعة من شبكة المعرفة بدلاً من كونه إشارة إعادة استخدام حقيقية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38169875](https://pubmed.ncbi.nlm.nih.gov/38169875/) | 2023 | Case series | Clinical Nephrology Case Studies | Calciphylaxis presenting with ocular ischemia; no piperacillin/RA treatment link |
-| [40119266](https://pubmed.ncbi.nlm.nih.gov/40119266/) | 2025 | Case report | BMC Infectious Diseases | Septic shock from drug-resistant *E. tarda*; antibiotic treatment of infection, not RA |
-| [36945293](https://pubmed.ncbi.nlm.nih.gov/36945293/) | 2023 | Case report | Cureus | RA patient (on sulfasalazine) with recurrent pleural effusion; piperacillin not the RA therapy |
-| [37599303](https://pubmed.ncbi.nlm.nih.gov/37599303/) | 2023 | Case report | Orthopädie (Heidelberg) | *H. influenzae* prosthetic knee infection in RA patient on upadacitinib; treated with IV piperacillin-tazobactam for the infection |
-| [38343452](https://pubmed.ncbi.nlm.nih.gov/38343452/) | 2024 | Case report | Proc (Baylor Univ Med Ctr) | Low-dose methotrexate toxicity causing pancytopenia in RA patient; unrelated to piperacillin |
-| [34178513](https://pubmed.ncbi.nlm.nih.gov/34178513/) | 2021 | Case report | Cureus | Pancytopenia from low-dose methotrexate in RA; unrelated to piperacillin |
-| [33987340](https://pubmed.ncbi.nlm.nih.gov/33987340/) | 2021 | Cohort | Annals of Translational Medicine | Antibiotic-associated drug-induced liver injury prevalence study; not RA-specific |
-| [22605835](https://pubmed.ncbi.nlm.nih.gov/22605835/) | 2012 | Case report | BMJ Case Reports | RA patient on etanercept/methotrexate developed purulent pericarditis; empirical piperacillin-tazobactam used to treat the infection |
-| [1921823](https://pubmed.ncbi.nlm.nih.gov/1921823/) | 1991 | Case report | Medical Journal of Australia | Pancytopenia after accidental methotrexate overdose in RA; unrelated to piperacillin |
-| [29390256](https://pubmed.ncbi.nlm.nih.gov/29390256/) | 2017 | Case report | Medicine | Sjögren's syndrome with pancytopenia and cerebral hemorrhage; not an RA/piperacillin efficacy study |
+| [38169875](https://pubmed.ncbi.nlm.nih.gov/38169875/) | 2023 | سلسلة حالات | Clinical Nephrology Case Studies | تكلس الأوعية الدموية مع نقص التروية البصرية؛ لا توجد علاقة بين البيبراسيللين/التهاب المفاصل الروماتويدي |
+| [40119266](https://pubmed.ncbi.nlm.nih.gov/40119266/) | 2025 | تقرير حالة | BMC Infectious Diseases | صدمة إنتان من *E. tarda* مقاومة للأدوية؛ علاج مضاد حيوي للعدوى، وليس التهاب المفاصل الروماتويدي |
+| [36945293](https://pubmed.ncbi.nlm.nih.gov/36945293/) | 2023 | تقرير حالة | Cureus | مريض التهاب مفاصل روماتويدي (على السلفاسالازين) مع انصباب جنبي متكرر؛ البيبراسيللين ليس علاج التهاب المفاصل الروماتويدي |
+| [37599303](https://pubmed.ncbi.nlm.nih.gov/37599303/) | 2023 | تقرير حالة | Orthopädie (Heidelberg) | عدوى الركبة الاصطناعية بـ *H. influenzae* في مريض التهاب مفاصل روماتويدي على أوباداسيتينيب؛ عُولجت بـ البيبراسيللين-تازوباكتام الوريدي للعدوى |
+| [38343452](https://pubmed.ncbi.nlm.nih.gov/38343452/) | 2024 | تقرير حالة | Proc (Baylor Univ Med Ctr) | سمية الميثوتريكسات بجرعة منخفضة مسببة فقر الدم في مريض التهاب مفاصل روماتويدي؛ غير مرتبط بالبيبراسيللين |
+| [34178513](https://pubmed.ncbi.nlm.nih.gov/34178513/) | 2021 | تقرير حالة | Cureus | فقر الدم من الميثوتريكسات بجرعة منخفضة في التهاب المفاصل الروماتويدي؛ غير مرتبط بالبيبراسيللين |
+| [33987340](https://pubmed.ncbi.nlm.nih.gov/33987340/) | 2021 | دراسة أترابية | Annals of Translational Medicine | دراسة انتشار إصابة الكبد الناجمة عن المضادات الحيوية؛ غير خاصة بالتهاب المفاصل الروماتويدي |
+| [22605835](https://pubmed.ncbi.nlm.nih.gov/22605835/) | 2012 | تقرير حالة | BMJ Case Reports | مريض التهاب مفاصل روماتويدي على إيتانرسيبت/ميثوتريكسات طور حساءً قيحياً في التامور؛ استخدم البيبراسيللين-تازوباكتام بشكل تجريبي لعلاج العدوى |
+| [1921823](https://pubmed.ncbi.nlm.nih.gov/1921823/) | 1991 | تقرير حالة | Medical Journal of Australia | فقر الدم بعد جرعة زائدة عرضية من الميثوتريكسات في التهاب المفاصل الروماتويدي؛ غير مرتبط بالبيبراسيللين |
+| [29390256](https://pubmed.ncbi.nlm.nih.gov/29390256/) | 2017 | تقرير حالة | Medicine | متلازمة شوغرن مع فقر الدم والنزيف الدماغي؛ ليست دراسة فعالية التهاب المفاصل الروماتويدي/البيبراسيللين |
 
-*Note: all 10 listed articles (and the remaining 8 not shown) describe incidental antibiotic use for infections in RA patients or unrelated case reports — none report piperacillin as a treatment for RA itself.*
-
----
-
-## Saudi Arabia Market Information
-
-Piperacillin currently has no marketing authorization on file in Saudi Arabia (market status: not marketed; 0 licenses on record).
+*ملاحظة: جميع المقالات الـ 10 المدرجة (والـ 8 المتبقية غير المعروضة) تصف استخدام مضاد حيوي عرضي لالتهابات في مرضى التهاب المفاصل الروماتويدي أو تقارير حالات غير ذات صلة — لا يوجد أي منها يبلغ عن البيبراسيللين كعلاج لالتهاب المفاصل الروماتويدي ذاته.*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+البيبراسيللين حالياً لا يوجد لديه ترخيص تسويق على الملف في المملكة العربية السعودية (حالة السوق: غير مُسوّق؛ 0 رخص مسجلة).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يُرجى الرجوع إلى ملحق المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-There are no clinical trials and no mechanistic rationale linking piperacillin's antibacterial action to rheumatoid arthritis pathophysiology. All supporting literature reflects confounded co-occurrence (antibiotic treatment of infections in RA patients) rather than genuine therapeutic evidence, and evidence level is L5 (model prediction only).
+---
 
-**To proceed, the following is needed:**
-- A validated mechanism-of-action or preclinical rationale connecting piperacillin to RA-relevant pathways
-- TFDA/official package insert data (warnings, contraindications, DDI) — currently unavailable
-- Purpose-designed studies (not confounded infection-treatment case reports) testing piperacillin in RA
-- Re-evaluation of TxGNN prediction confidence given the literature-support quality issue identified above
+## الخلاصة والخطوات التالية
+
+**القرار: عقد**
+
+**المنطق:**
+لا توجد تجارب سريرية ولا مبرر آلي يربط البيبراسيللين بفسيولوجيا المرض الأساسية لالتهاب المفاصل الروماتويدي. تعكس جميع الأدبيات الداعمة الخلط في التزامن (علاج مضاد حيوي للعدوى في مرضى التهاب المفاصل الروماتويدي) بدلاً من دليل العلاج الحقيقي، ومستوى الأدلة هو L5 (تنبؤ النموذج فقط).
+
+**للمتابعة، يلزم ما يلي:**
+- مبرر آلية عمل مثبت أو أساس سابق إكلينيكي يربط البيبراسيللين بالمسارات ذات الصلة بالتهاب المفاصل الروماتويدي
+- بيانات ملحق المنتج من TFDA/الرسمي (تحذيرات، موانع استعمال، تفاعلات الأدوية) — غير متاحة حالياً
+- دراسات مصممة بقصد (وليس تقارير حالات علاج العدوى المشوشة) لاختبار البيبراسيللين في التهاب المفاصل الروماتويدي
+- إعادة تقييم ثقة التنبؤ بـ TxGNN على ضوء مشكلة جودة الدعم الأدبي المحددة أعلاه
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

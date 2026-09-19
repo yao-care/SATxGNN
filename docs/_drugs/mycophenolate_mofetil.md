@@ -29,88 +29,89 @@ indication_count: 10
 
 </div>
 
-# Mycophenolate Mofetil: From Transplant Rejection Prophylaxis to HIV Infectious Disease
+# Mycophenolate Mofetil: من الوقاية من رفض الزراعة إلى الأمراض المعدية بفيروس نقص المناعة البشرية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Mycophenolate mofetil (MMF, DrugBank DB00688) is an immunosuppressant generally known for preventing organ transplant rejection (this original indication is **not confirmed by the source data** — see note below). The TxGNN model predicts it may be effective for **HIV Infectious Disease**, with **0 registered clinical trials** but **20 supporting publications**, most from exploratory pharmacokinetic and immunologic research conducted in the 2000s on MMF as an adjunct to HAART.
+Mycophenolate mofetil (MMF, DrugBank DB00688) هو عامل مثبط للمناعة معروف بشكل عام بمنع رفض أعضاء الزراعة (هذا المؤشر الأصلي **غير مؤكد من بيانات المصدر** — انظر الملاحظة أدناه). يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **الأمراض المعدية بفيروس نقص المناعة البشرية**، مع **0 تجارب سريرية مسجلة** لكن **20 منشورة داعمة**، معظمها من الأبحاث الاستكشافية للحركية الدوائية والمناعية التي أجريت في العقد الأول من القرن الحادي والعشرين على MMF كعامل مساعد لـ HAART.
 
-> **Note on Original Indication:** `drug.original_indications` and `taiwan_regulatory.licenses` are both empty in the evidence pack, so the original indication cannot be sourced from the data. The statement above reflects general pharmacological background knowledge only, not a verified source in this pack.
+> **ملاحظة حول المؤشر الأصلي:** كل من `drug.original_indications` و `taiwan_regulatory.licenses` فارغة في حزمة الأدلة، لذلك لا يمكن الحصول على المؤشر الأصلي من البيانات. البيان أعلاه يعكس معرفة خلفية صيدلانية عامة فقط، وليس مصدراً تم التحقق منه في هذه الحزمة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available in evidence pack (drug not marketed in this market; commonly known as immunosuppressant for organ transplant rejection prophylaxis — unverified against source data) |
-| Predicted New Indication | HIV Infectious Disease |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L3 (observational/cohort studies; no registered clinical trials) |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح في حزمة الأدلة (الدواء غير مسوق في هذا السوق؛ معروف بشكل عام كعامل مثبط للمناعة لمنع رفض أعضاء الزراعة — غير مؤكد من بيانات المصدر) |
+| المؤشر الجديد المتنبأ به | الأمراض المعدية بفيروس نقص المناعة البشرية |
+| درجة التنبؤ بـ TxGNN | 99.86% |
+| مستوى الأدلة | L3 (الدراسات الرصدية/دراسات المجموعة؛ لا توجد تجارب سريرية مسجلة) |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed original mechanism-of-action data (`drug.original_moa`) is marked as a data gap. However, the repurposing rationale for this indication describes MMF's known mechanism: it inhibits inosine monophosphate dehydrogenase (IMPDH), depleting intracellular guanine nucleotide pools (particularly dGTP) in proliferating lymphocytes, which lack an alternative purine salvage pathway. This is the basis of MMF's antiproliferative, immunosuppressive effect.
+تم وضع علامة على بيانات آلية العمل الأصلية المفصلة (`drug.original_moa`) كفجوة بيانات. ومع ذلك، تصف نسبة إعادة توظيف الأدوية لهذا المؤشر آلية MMF المعروفة: فهو يثبط ديهيدروجيناز أحادي الفوسفات الإينوسين (IMPDH)، مما يستنفد محابر الجوانين النووية داخل الخلايا (خاصة dGTP) في الخلايا اللمفاوية المتكاثرة، والتي تفتقر إلى مسار إنقاذ بديل للبيورين. هذا هو أساس التأثير المثبط للمناعة والمضاد للانتشار لـ MMF.
 
-In the context of HIV infection, this same mechanism has two theoretical points of relevance: (1) dGTP depletion pharmacologically potentiates nucleoside reverse transcriptase inhibitors such as abacavir by favoring incorporation of the active drug triphosphate over competing endogenous nucleotides, and (2) suppression of activated CD4+ T-cell proliferation reduces the pool of cells susceptible to productive HIV infection. This dual rationale drove a wave of exploratory studies in the early-to-mid 2000s testing MMF as an adjunct to HAART, particularly in abacavir-containing regimens and in multidrug-resistant HIV.
+في سياق العدوى بفيروس نقص المناعة البشرية، لهذه الآلية نفسها نقطتا ارتباط نظريتان ذات صلة: (1) استنفاد dGTP يعزز صيدلانياً مثبطات النسخ العكسي للنيوكليوسيد مثل abacavir من خلال تفضيل دمج الدواء النشط ثلاثي الفوسفات على النيوكليوتيدات الداخلية المنافسة، و (2) قمع تكاثر خلايا CD4+ T المنشطة يقلل من عدد الخلايا المعرضة للعدوى الإنتاجية بفيروس نقص المناعة البشرية. دفعت هذه النسبة المزدوجة موجة من الدراسات الاستكشافية في أوائل إلى منتصف العقد الأول من القرن الحادي والعشرين التي تختبر MMF كعامل مساعد لـ HAART، خاصة في الأنظمة التي تحتوي على abacavir والفيروس المقاوم لعدة أدوية.
 
-The supporting literature is consistent with this mechanism (e.g., depletion of intracellular dGTP correlating with decreased plasma HIV-1 RNA, PMID 12352149) but is dated, small in scale (pilot/cohort studies, single digit-to-low double-digit patient numbers), and has not been followed by modern confirmatory trials in the era of current antiretroviral standards of care.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+الأدبيات الداعمة متسقة مع هذه الآلية (على سبيل المثال، استنفاد dGTP داخل الخلايا يرتبط بانخفاض RNA الفيروسي بالبلازما، PMID 12352149) لكنها قديمة، محدودة الحجم (دراسات طيار/مجموعة، أرقام من الأحادي إلى المنخفض من الأرقام الثنائية للمريض)، ولم يتم متابعتها بتجارب تأكيدية حديثة في عصر معايير الرعاية المضادة للفيروسات الحالية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | Randomized pilot study | J Acquir Immune Defic Syndr | MMF added during structured HAART interruption in 17 chronic HIV-1 patients (n=9 MMF vs n=6 control); assessed immune response and plasma/lymphatic tissue viral load |
-| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Cohort/prospective | J Acquir Immune Defic Syndr | Adding MMF to abacavir-containing ART in 5 heavily treatment-experienced patients was associated with depletion of intracellular dGTP and a decrease in plasma HIV-1 RNA |
-| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | Drug interaction/PK study | Clin Pharmacokinet | Evaluated MMF's effect on antiretroviral pharmacokinetics and intracellular nucleoside triphosphate pools, including lamivudine-triphosphate |
-| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | PK/PD clinical study | Clin Pharmacokinet | PK/PD monitoring of low-dose MMF combined with abacavir, efavirenz, and nelfinavir in HIV-infected patients |
-| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Cohort | AIDS Res Hum Retroviruses | No detrimental immunological effects observed combining MMF with HAART in treatment-naive acute/chronic HIV-1 patients |
-| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | Clinical trial (treatment-naive) | AIDS | Assessed effect of MMF on HIV-1 RNA decay rate and the latently infected reservoir in treatment-naive patients starting antiretroviral therapy |
-| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | Pilot study (Phase 1-like) | J Acquir Immune Defic Syndr | Open-label pilot in 7 multidrug-resistant HIV/AIDS patients combining MMF with abacavir, ddI, amprenavir, ritonavir ± efavirenz; well tolerated |
-| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | Pilot combination study | AIDS | Evaluated amdoxovir (DAPD) with or without MMF for safety, tolerability, and antiretroviral activity in extensively treated HIV-1 patients |
-| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | Translational/mechanism study | J Clin Invest | Explored selective targeting of clonally expanded HIV-infected CD4+ T cells via antiproliferative drugs, mechanistically relevant to MMF's antiproliferative activity |
-| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Review | Curr Top Med Chem | Reviewed immunosuppressive drug strategies, including MMF, targeting chronic immune activation in HIV disease progression |
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Not marketed in Saudi Arabia — no product authorizations on record (0 licenses).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | دراسة طيار عشوائية | J Acquir Immune Defic Syndr | MMF مضافة أثناء وقف HAART المنظم في 17 مريضاً مصاباً بفيروس نقص المناعة البشرية المزمن (n=9 MMF مقابل n=6 التحكم)؛ تقييم الاستجابة المناعية والحمل الفيروسي بالبلازما والأنسجة اللمفاوية |
+| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | دراسة مجموعة/محتملة | J Acquir Immune Defic Syndr | إضافة MMF إلى ART التي تحتوي على abacavir في 5 مرضى يعانون من مقاومة عميقة للعلاج ارتبطت باستنفاد dGTP داخل الخلايا وانخفاض RNA الفيروسي بالبلازما لفيروس نقص المناعة البشرية-1 |
+| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | دراسة تفاعل الأدوية/الحركية الدوائية | Clin Pharmacokinet | تقييم تأثير MMF على الحركية الدوائية للمضادات للفيروسات وأحواض ثلاثي فوسفات النيوكليوسيد داخل الخلايا، بما في ذلك ثلاثي فوسفات lamivudine |
+| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | دراسة سريرية للحركية الدوائية/الديناميكا الدوائية | Clin Pharmacokinet | مراقبة الحركية الدوائية/الديناميكا الدوائية لـ MMF بجرعة منخفضة مع abacavir و efavirenz و nelfinavir في المرضى المصابين بفيروس نقص المناعة البشرية |
+| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | دراسة مجموعة | AIDS Res Hum Retroviruses | لم يتم ملاحظة تأثيرات مناعية ضارة عند دمج MMF مع HAART في المرضى الذين لم يسبق لهم تناول العلاج الحاد/المزمن لفيروس نقص المناعة البشرية-1 |
+| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | تجربة سريرية (المرضى الذين لم يسبق لهم تناول العلاج) | AIDS | تقييم تأثير MMF على معدل تحلل RNA الفيروسي لفيروس نقص المناعة البشرية-1 والخزان المصاب بالكمون في المرضى الذين لم يسبق لهم تناول العلاج والذين يبدأون العلاج بمضادات الفيروسات |
+| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | دراسة طيار (النوع الأول) | J Acquir Immune Defic Syndr | دراسة مفتوحة الباب في 7 مرضى يعانون من فيروس نقص المناعة البشرية/الإيدز المقاوم لعدة أدوية يجمعون MMF مع abacavir و ddI و amprenavir و ritonavir ± efavirenz؛ يتحملونه بشكل جيد |
+| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | دراسة دمج طيار | AIDS | تقييم amdoxovir (DAPD) مع أو بدون MMF للسلامة والتحمل والنشاط المضاد للفيروسات في المرضى الذين تم علاجهم على نطاق واسع بفيروس نقص المناعة البشرية-1 |
+| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | دراسة آلية ترجمية | J Clin Invest | استكشاف الاستهداف الانتقائي لخلايا CD4+ T المصابة بفيروس نقص المناعة البشرية المستنسخة عن طريق الأدوية المثبطة للانتشار، ذات صلة آلياً بنشاط MMF المثبط للانتشار |
+| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | مراجعة | Curr Top Med Chem | مراجعة استراتيجيات الأدوية المثبطة للمناعة، بما في ذلك MMF، التي تستهدف الاستجابة المناعية المزمنة في تطور مرض فيروس نقص المناعة البشرية |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (Warnings, contraindications, and drug-interaction data are marked as Blocking data gaps in this evidence pack — see DG001.)
+غير مسوق في المملكة العربية السعودية — لا توجد تفويضات منتجات مسجلة (0 ترخيص).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. (تم وضع علامة على بيانات التحذيرات والموانع والتفاعلات الدوائية كفجوات بيانات حجب في حزمة الأدلة هذه — انظر DG001.)
 
-**Rationale:**
-The IMPDH-inhibition mechanism provides a biologically plausible rationale, and early-2000s pilot/cohort studies suggest a possible synergy with NRTIs like abacavir. However, there are zero registered clinical trials for this indication, the supporting literature is over 15 years old and predates current ART standards, and safety/regulatory data (TFDA warnings, contraindications, DDI) are completely unavailable — a Blocking gap that prevents S1 safety review.
+---
 
-**To proceed, the following is needed:**
-- TFDA/package insert safety data (key warnings, contraindications) — currently Blocking gap (DG001)
-- Confirmed drug-drug interaction profile, particularly with antiretrovirals
-- Contemporary clinical trials evaluating MMF with modern ART regimens
-- Confirmed original indication and MOA from DrugBank (DG002)
-- Confirmation of Saudi Arabia market/regulatory status (currently 0 licenses / not marketed)
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**النسبة:**
+آلية IMPDH-inhibition توفر نسبة معقولة بيولوجياً، ودراسات الطيار/المجموعة في أوائل العقد الأول من القرن الحادي والعشرين تشير إلى تآزر ممكن مع NRTIs مثل abacavir. ومع ذلك، لا توجد تجارب سريرية مسجلة لهذا المؤشر، والأدبيات الداعمة تتجاوز 15 سنة وتسبق معايير ART الحالية، وبيانات السلامة/التنظيمية (تحذيرات TFDA والموانع و DDI) غير متاحة تماماً — فجوة حجب تمنع استعراض أمان S1.
+
+**لمتابعة، يلزم التالي:**
+- بيانات سلامة TFDA/نشرة المعلومات (التحذيرات الرئيسية والموانع) — فجوة حجب حالياً (DG001)
+- ملف تفاعل الأدوية المؤكد، وخاصة مع مضادات الفيروسات
+- تجارب سريرية معاصرة تقيم MMF مع أنظمة ART الحديثة
+- المؤشر الأصلي والآلية المؤكدة من DrugBank (DG002)
+- تأكيد حالة السوق/التنظيمية بالمملكة العربية السعودية (حالياً 0 ترخيص / غير مسوق)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,58 +29,59 @@ indication_count: 2
 
 </div>
 
-# PEGFILGRASTIM: From Febrile Neutropenia Prophylaxis to Severe Nonproliferative Diabetic Retinopathy
+# بيجفيلجراستيم: من الوقاية من الحمى مع قلة العدلات الشديدة إلى اعتلال الشبكية السكري اللاتكاثري الشديد
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Pegfilgrastim is a pegylated granulocyte colony-stimulating factor (G-CSF) analog, originally used to reduce the incidence of febrile neutropenia in patients receiving myelosuppressive chemotherapy. The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy** (and, secondarily, general **Diabetic Retinopathy**), but **no clinical trials or published literature currently support this direction** — the prediction rests on the model score alone.
+بيجفيلجراستيم هو نظير من عامل محفز المستعمرات البيغيلاتي (G-CSF)، استُخدم في الأساس للحد من حدوث الحمى مع قلة العدلات في المرضى الذين يتلقون العلاج الكيميائي المثبط للنخاع. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اعتلال الشبكية السكري اللاتكاثري الشديد** (وثانويًا، **اعتلال الشبكية السكري** بشكل عام)، لكن **لا توجد حاليًا تجارب سريرية أو أدبيات منشورة تدعم هذا الاتجاه** — التنبؤ يعتمد على درجة النموذج وحدها.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Reduction of febrile neutropenia incidence in patients receiving myelosuppressive anticancer chemotherapy |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.89% (rank 2508) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | تقليل حدوث الحمى مع قلة العدلات في المرضى الذين يتلقون العلاج الكيميائي المضاد للسرطان المثبط للنخاع |
+| المؤشر الجديد المتنبأ به | اعتلال الشبكية السكري اللاتكاثري الشديد |
+| درجة التنبؤ من TxGNN | 99.89% (رتبة 2508) |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | إيقاف مؤقت |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, pegfilgrastim is a pegylated G-CSF analog belonging to the hematopoietic growth factor class; its efficacy in reducing chemotherapy-induced neutropenia and febrile neutropenia risk is well established.
+حاليًا، بيانات آلية العمل التفصيلية غير متوفرة في هذه مجموعة الأدلة. بناءً على المعلومات المعروفة، بيجفيلجراستيم هو نظير G-CSF البيغيلاتي ينتمي إلى فئة عوامل النمو المحفزة للدم؛ فعاليته في تقليل قلة العدلات المحتملة بسبب العلاج الكيميائي وخطر الحمى مع قلة العدلات مثبتة جيدًا.
 
-The link between a hematopoietic/immune-modulating growth factor and diabetic retinopathy (a microvascular complication involving inflammation, neovascularization, and ischemia) is not pharmacologically obvious from the original indication. G-CSF has been studied in some contexts for angiogenic and neuroprotective effects, which could plausibly underlie a model-detected association, but this remains speculative without supporting mechanistic or clinical data.
+الارتباط بين عامل نمو محفز للدم/معدِّل للمناعة واعتلال الشبكية السكري (مضاعفة وعائية صغيرة تتضمن الالتهاب والتوعية الجديدة والنقص في الإمداد الدموي) ليس واضحًا من الناحية الصيدلانية من المؤشر الأصلي. تمت دراسة G-CSF في بعض السياقات لتأثيراته المنشطة للتوعية والحامية للأعصاب، والتي قد تكون بمثابة أساس منطقي لارتباط يكتشفه النموذج، لكن هذا يبقى تخمينيًا بدون بيانات ميكانيكية أو سريرية داعمة.
 
-A secondary, closely related prediction — general diabetic retinopathy (score 99.73%, rank 4982) — was also flagged by the model, suggesting internal consistency within the TxGNN output rather than independent corroboration.
+تنبؤ ثانوي وثيق الصلة — اعتلال الشبكية السكري العام (درجة 99.73%، رتبة 4982) — تم الإشارة إليه أيضًا بواسطة النموذج، مما يشير إلى اتساق داخلي في مخرجات TxGNN وليس تأكيدًا مستقلاً.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حاليًا أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى مراجعة نشرة الدواء للحصول على معلومات السلامة.
 
-Note: TFDA package insert data (warnings/contraindications) is flagged as a **Blocking** data gap — this drug cannot proceed past initial safety screening (S1) until package insert data is obtained from the TFDA/SFDA source.
+ملاحظة: بيانات نشرة TFDA (التحذيرات/موانع الاستعمال) يتم وضع علامة عليها بأنها **فجوة بيانات حاجزة** — لا يمكن لهذا الدواء المضي قدمًا بعد فحص السلامة الأولي (S1) حتى يتم الحصول على بيانات النشرة من مصدر TFDA/SFDA.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: إيقاف مؤقت**
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (L5) with zero clinical trials, zero literature, and no mechanistic rationale grounded in verified data. The drug is also not marketed in Saudi Arabia, and a **Blocking**-severity safety data gap (TFDA package insert) prevents even a preliminary safety assessment.
+**الأساس المنطقي:**
+التنبؤ مدعوم فقط بدرجة نموذج TxGNN (L5) مع عدم وجود تجارب سريرية، وعدم وجود أدبيات، وعدم وجود أساس ميكانيكي مثبت على أساس بيانات مؤكدة. الدواء أيضًا غير مسوّق في المملكة العربية السعودية، وفجوة بيانات السلامة ذات الخطورة **الحاجزة** (نشرة TFDA) تمنع حتى تقييم السلامة الأولي.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — blocking gap, required before any safety screening
-- Verified mechanism of action data from DrugBank or equivalent source
-- Targeted literature/preclinical search on G-CSF and diabetic retinopathy to establish or rule out a mechanistic basis
-- Monitoring for emerging clinical trials or case reports on this drug-disease pair
+**لكي يتقدم الأمر، يلزم التالي:**
+- نشرة TFDA/SFDA (التحذيرات، موانع الاستعمال) — فجوة حاجزة، مطلوبة قبل أي فحص سلامة
+- بيانات آلية عمل مؤكدة من DrugBank أو مصدر معادل
+- بحث أدبي/أولي موجه على G-CSF واعتلال الشبكية السكري لإثبات أو استبعاد أساس ميكانيكي
+- المراقبة للتجارب السريرية أو التقارير الطبية الناشئة عن هذا الزوج من الدواء والمرض
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

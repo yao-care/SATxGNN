@@ -29,89 +29,90 @@ indication_count: 9
 
 </div>
 
-# Zuclopenthixol: From Antipsychotic Therapy to Retinal Dystrophy with or without Extraocular Anomalies
+# Zuclopenthixol: من العلاج بمضادات الذهان إلى خلل التنسج الشبكي مع أو بدون شذوذ خارج العينة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Zuclopenthixol is a thioxanthene-class typical antipsychotic, with no confirmed original indication data or approved regulatory license currently available for this drug. The TxGNN model predicts a possible link to **retinal dystrophy with or without extraocular anomalies**, but the supporting literature does not actually discuss zuclopenthixol, and **no clinical trials** exist for this drug-disease pair — the extremely high TxGNN score (99.99%) is very likely a model prediction artifact rather than a genuine signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current data (evidence pack notes drug class: typical antipsychotic, thioxanthene) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Zuclopenthixol هو مضاد ذهان نموذجي من فئة الثيوكسانثين، وليس هناك بيانات موثقة عن الاستطباب الأصلي أو ترخيص تنظيمي معتمد متاح حالياً لهذا الدواء. يتنبأ نموذج TxGNN برابط محتمل إلى **خلل التنسج الشبكي مع أو بدون شذوذ خارج العينة**، لكن الأدبيات الداعمة لا تناقش فعلاً zuclopenthixol، و**لا توجد تجارب سريرية** لهذا الزوج الدواء-المرض — فالنقاط العالية جداً في TxGNN (99.99%) هي على الأرجح تعكس خللاً في التنبؤ بدلاً من إشارة حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (marked as a data gap in the evidence pack). Based on general pharmacological knowledge referenced within the evidence pack's own rationale, zuclopenthixol is a typical (first-generation) antipsychotic of the thioxanthene class, whose primary activity is D1/D2 dopamine receptor antagonism, used in psychotic disorders.
-
-Retinal dystrophy with or without extraocular anomalies is a congenital/hereditary ophthalmic condition, with pathology typically driven by photoreceptor gene mutations and ocular developmental abnormalities. There is no established pharmacological or mechanistic pathway connecting dopamine receptor antagonism to retinal photoreceptor degeneration or ocular developmental biology.
-
-The TxGNN score of 0.9999 is unusually high, but this pattern is consistent with a known behavior of graph neural network predictions on rare-disease nodes with sparse connectivity — very high scores can reflect model noise rather than true biological signal, especially when (as here) no clinical trials exist and the retrieved literature does not mention the drug at all. The same pattern (near-1.0 scores with zero supporting evidence) is seen across all other predicted indications for this drug, reinforcing that these predictions should be treated as hypothesis-generating only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|-------|
+| الاستطباب الأصلي | غير متاح في البيانات الحالية (تذكر حزمة الأدلة فئة الدواء: مضاد ذهان نموذجي، ثيوكسانثين) |
+| الاستطباب الجديد المتوقع | خلل التنسج الشبكي مع أو بدون شذوذ خارج العينة |
+| درجة التنبؤ بـ TxGNN | 99.99% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معروض بالسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-**Note:** None of the retrieved publications below mention zuclopenthixol directly — they were retrieved based on disease-term matching and reflect general ophthalmology literature on congenital/developmental eye disorders, not drug-specific evidence.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (محددة كفجوة بيانات في حزمة الأدلة). بناءً على المعرفة الدوائية العامة المشار إليها في منطق حزمة الأدلة نفسها، فإن zuclopenthixol هو مضاد ذهان نموذجي (من الجيل الأول) من فئة الثيوكسانثين، نشاطه الأساسي هو معاداة مستقبلات الدوبامين D1/D2، ويستخدم في الاضطرابات الذهانية.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections and cellulitis staging secondary to sinusitis |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Diagnostic approach to diplopia from ocular, neurologic, or extraocular muscle disorders |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging features of pediatric congenital/developmental ocular pathologies |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape and associated anterior segment dysgenesis |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Simple vs. complicated congenital ptosis and levator muscle dystrophy |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome: vitreoretinal degeneration with extraocular manifestations |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | Journal of Binocular Vision and Ocular Motility | Congenital cranial dysinnervation disorders causing ophthalmoplegia |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Review | American Journal of Ophthalmology | Pathogenesis and treatment of maculopathy with cavitary optic disc anomalies |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohort | International Journal of Molecular Sciences | Optic nerve/retinal abnormalities in congenital fibrosis of extraocular muscles (KIF21A/TUBB3) |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | American Journal of Ophthalmology | Two cases of unilateral cryptophthalmia with absent extraocular muscles/optic nerve |
+خلل التنسج الشبكي مع أو بدون شذوذ خارج العينة هو حالة عينية خلقية/وراثية، يكون المرضى فيها مدفوعاً عادة بطفرات جينات المستقبلات الضوئية والشذوذ في النمو العيني. لا توجد مسارات دوائية أو ميكانيكية مؤسسة تربط بين معاداة مستقبلات الدوبامين والتنكس في المستقبلات الضوئية الشبكية أو بيولوجيا النمو العيني.
+
+درجة TxGNN البالغة 0.9999 عالية بشكل غير معتاد، لكن هذا النمط متسق مع السلوك المعروف لتنبؤات الشبكات العصبية البيانية على عقد الأمراض النادرة ذات الاتصالية الضعيفة — يمكن أن تعكس الدرجات العالية جداً ضوضاء النموذج بدلاً من إشارة بيولوجية حقيقية، خاصة عندما (كما هنا) لا توجد تجارب سريرية والأدبيات المسترجعة لا تذكر الدواء على الإطلاق. يُلاحظ النمط نفسه (درجات قريبة من 1.0 مع صفر أدلة داعمة) عبر جميع الاستطبابات الأخرى المتوقعة لهذا الدواء، مما يعزز أنه يجب التعامل مع هذه التنبؤات كمولدة فرضيات فقط.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Currently no marketing authorization registered in Saudi Arabia.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) in the evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.)*
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+**ملاحظة:** لا تذكر أي من المنشورات المسترجعة أدناه zuclopenthixol مباشرة — تم استرجاعها بناءً على مطابقة مصطلحات الأمراض وتعكس الأدبيات العينية العامة حول اضطرابات العينة الخلقية/النمائية، وليست أدلة خاصة بالدواء.
 
-**Rationale:**
-The predicted indication has no clinical trial evidence, no drug-specific literature, and no plausible mechanistic link between zuclopenthixol's dopaminergic antipsychotic activity and a congenital retinal developmental disorder. The drug is also not currently marketed in Saudi Arabia (0 authorizations). This pattern — near-maximal TxGNN scores with zero corroborating evidence — repeats across all 9 predicted indications in this candidate set (hydranencephaly, CDG, CMT1G, myopia subtypes, polymicrogyria, glycine encephalopathy), suggesting these are model artifacts rather than actionable repurposing signals.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|-------|-------------|
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | مراجعة | Seminars in Ultrasound, CT, and MR | نظرة عامة على التهابات المدار والتهاب النسيج الخلوي الثانوي للتهاب الجيوب الأنفية |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | مراجعة | Seminars in Neurology | نهج تشخيصي للرؤية المزدوجة من اضطرابات عينية أو عصبية أو في عضلات خارج العينة |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | مراجعة | Pediatric Radiology | ميزات التصوير لأمراض العينة الخلقية/النمائية عند الأطفال |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | مراجعة | Taiwan Journal of Ophthalmology | الشذوذ الخلقية في شكل العدسة والخلل المرتبط في القطاع الأمامي |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | مراجعة | Klinische Monatsblätter für Augenheilkunde | الجفن المتدلي الخلقي البسيط مقابل المعقد وخلل عضلة الرفع |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | مراجعة | Documenta Ophthalmologica | متلازمة Wagner-Stickler: التنكس الزجاجي الشبكي مع التظاهرات خارج العينة |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | مراجعة | Journal of Binocular Vision and Ocular Motility | اضطرابات تعصيب الأعصاب القحفية الخلقية التي تسبب الشلل العيني |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | مراجعة | American Journal of Ophthalmology | الفسيولوجيا المرضية والعلاج من اعتلال الشبكية مع شذوذ القرص البصري الكهفية |
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | دراسة جماعية | International Journal of Molecular Sciences | شذوذ العصب البصري/الشبكية في الثبات الخلقي لعضلات خارج العينة (KIF21A/TUBB3) |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | تقرير حالة | American Journal of Ophthalmology | حالتان من التشفير وحيد الجانب مع غياب عضلات خارج العينة/العصب البصري |
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert with warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action (DrugBank query, currently a High-severity data gap)
-- Original approved indication(s) for zuclopenthixol (not present in current dataset)
-- Drug-disease-specific literature or preclinical mechanistic studies actually linking zuclopenthixol to retinal/ophthalmic pathology, before advancing beyond S0
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+حالياً لا توجد تصاريح تسويق مسجلة في المملكة العربية السعودية.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات نشرة الحزمة TFDA/موانع الاستعمال محددة كفجوة بيانات حاجزة (DG001) في حزمة الأدلة — يجب حل هذا قبل أن يتمكن أي تقييم سلامة مسبق S1 من المضي قدماً.)*
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+الاستطباب المتوقع ليس لديه أدلة على تجارب سريرية، لا أدبيات خاصة بالدواء، ولا رابط ميكانيكي معقول بين نشاط zuclopenthixol المضاد للذهان الدوبامينرجي واضطراب نمائي شبكي خلقي. الدواء أيضاً غير معروض حالياً في السوق السعودي (0 تصاريح). هذا النمط — درجات TxGNN قريبة من الحد الأقصى مع صفر أدلة داعمة — يتكرر عبر جميع الاستطبابات المتوقعة التسعة في هذه المجموعة من المرشحين (hydranencephaly, CDG, CMT1G, myopia subtypes, polymicrogyria, glycine encephalopathy)، مما يشير إلى أن هذه خلل في النموذج بدلاً من إشارات إعادة الاستخدام القابلة للتنفيذ.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة حزمة TFDA/التنظيمية مع التحذيرات وموانع الاستعمال (حالياً فجوة بيانات حاجزة)
+- آلية عمل مؤكدة (استعلام DrugBank، حالياً فجوة بيانات عالية الخطورة)
+- الاستطباب (الاستطبابات) الأصلي (الأصلية) المعتمدة لـ zuclopenthixol (غير موجودة في مجموعة البيانات الحالية)
+- أدبيات خاصة بالزوج دواء-مرض أو دراسات ميكانيكية قبل سريرية تربط فعلاً zuclopenthixol بعلم الأمراض الشبكية/العينية، قبل التقدم بعد S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

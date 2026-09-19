@@ -29,100 +29,101 @@ indication_count: 10
 
 </div>
 
-# Cilastatin: From Carbapenem Adjunct to Staphylococcus Aureus Infection
+# سيلاستاتين: من مساعد الكاربابينيم إلى عدوى المكورات العنقودية الذهبية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Cilastatin is a renal dehydropeptidase-1 (DHP-1) inhibitor with no independent antimicrobial activity; it is always co-administered with imipenem as the fixed combination **imipenem/cilastatin** to prevent renal tubular degradation of imipenem and maintain effective systemic drug concentrations.
-The TxGNN model predicts that the imipenem/cilastatin combination may be effective for **Staphylococcus aureus infection**, with **3 clinical trials** and **20 publications** currently providing supporting context.
-Evidence quality, however, is predominantly observational and historically dated, placing this prediction at the research-question stage rather than ready for direct clinical deployment.
+سيلاستاتين هو مثبط ديهيدروببتيداز الكلى-1 (DHP-1) وليس له نشاط مضاد للميكروبات مستقل؛ يتم دائماً إعطاؤه مع الإيميبينيم كمزيج ثابت **إيميبينيم/سيلاستاتين** لمنع التحلل الأنبوبي الكلوي للإيميبينيم والحفاظ على تركيزات النظام الحراري الفعالة للعقار.
+يتوقع نموذج TxGNN أن مزيج الإيميبينيم/سيلاستاتين قد يكون فعالاً ضد **عدوى المكورات العنقودية الذهبية**، حيث توفر حالياً **3 تجارب سريرية** و**20 منشور** سياقاً داعماً.
+جودة الأدلة، مع ذلك، هي بشكل أساسي رصدية وتاريخية قديمة، مما يضع هذا التنبؤ في مرحلة سؤال البحث وليس جاهزاً للنشر السريري المباشر.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No standalone approved indication; cilastatin functions solely as a DHP-1 inhibitor co-drug within the imipenem/cilastatin combination |
-| Predicted New Indication | Staphylococcus aureus infection |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | لا يوجد مؤشر معتمد مستقل؛ يعمل سيلاستاتين فقط كعقار مساعد مثبط ديهيدروببتيداز ضمن مزيج الإيميبينيم/سيلاستاتين |
+| المؤشر الجديد المتنبأ به | عدوى المكورات العنقودية الذهبية |
+| درجة تنبؤ TxGNN | 99.94% |
+| مستوى الأدلة | L3 |
+| حالة السوق بالمملكة العربية السعودية | غير معروضة في السوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Cilastatin itself has no antimicrobial mechanism — it competitively inhibits renal DHP-1, the enzyme responsible for degrading imipenem in proximal renal tubules. Without cilastatin, imipenem would be rapidly hydrolysed in the kidney, producing nephrotoxic metabolites and failing to achieve therapeutic systemic concentrations. All clinical evidence for "cilastatin" therefore belongs entirely to the **imipenem/cilastatin combination**, and this repurposing assessment must be understood in that context.
+سيلاستاتين نفسه ليس له آلية مضادة للميكروبات — بل يثبط بشكل تنافسي ديهيدروببتيداز الكلى-1 (DHP-1)، الإنزيم المسؤول عن تحطيم الإيميبينيم في الأنابيب الكلوية القريبة. بدون سيلاستاتين، كان الإيميبينيم سيتحلل بسرعة في الكلية، مما ينتج عنه استقلابات سامة للكلى وفشل في الوصول إلى تركيزات نظامية علاجية. لذلك، فإن جميع الأدلة السريرية لـ "سيلاستاتين" تنتمي بالكامل إلى **مزيج الإيميبينيم/سيلاستاتين**، وهذا التقييم إعادة الاستخدام يجب أن يكون مفهوماً في هذا السياق.
 
-Imipenem, the active partner, binds penicillin-binding proteins (PBPs) and inhibits bacterial cell wall synthesis. It has documented in vitro and in vivo activity against methicillin-susceptible *Staphylococcus aureus* (MSSA), and early clinical studies (1986–1994) confirmed clinical cure in soft tissue, bacteraemic, and skeletal MSSA infections. The mechanistic bridge is thus well-founded for MSSA. For methicillin-resistant *S. aureus* (MRSA), however, the picture is considerably more complex: MRSA expresses PBP2a (encoded by *mecA*), which confers intrinsic resistance to all β-lactams including carbapenems. Imipenem is bacteriostatic rather than bactericidal against MRSA at clinically achievable concentrations, substantially limiting monotherapy utility.
+الإيميبينيم، الشريك النشط، يرتبط بروتينات ربط البنسلين (PBPs) ويثبط تخليق جدار الخلية البكتيري. لديه نشاط موثق في المختبر والحيوي ضد المكورات العنقودية الذهبية الحساسة للميثيسيلين (MSSA)، وأكدت الدراسات السريرية المبكرة (1986–1994) الشفاء السريري في عدوى الأنسجة الرخوة والبكتيرية والهيكلية MSSA. الجسر الآلي بالتالي مؤسس بشكل جيد لـ MSSA. بالنسبة للمكورات العنقودية الذهبية المقاومة للميثيسيلين (MRSA)، مع ذلك، الصورة معقدة بشكل كبير: MRSA تعبر عن PBP2a (التي يتم ترميزها بواسطة *mecA*)، مما يمنح مقاومة طبيعية لجميع بيتا-لاكتامات بما في ذلك الكاربابينيمات. الإيميبينيم هو بكتيريا ثابتة وليس بكتيريا قاتلة ضد MRSA بتركيزات قابلة للتحقيق سريرياً، مما يحد بشكل كبير من فائدة العلاج الأحادي.
 
-The residual interest in imipenem/cilastatin for MRSA stems from observed in vitro and in vivo **synergy with partner agents** — particularly arbekacin, fosfomycin, cefotiam, and vancomycin — where adding imipenem reduces MICs and improves killing kinetics. A 2020 case commentary in *Antimicrobial Agents and Chemotherapy* described successful salvage therapy with imipenem/cilastatin + fosfomycin for a refractory MRSA bacteraemic case where both vancomycin and daptomycin had failed, illustrating the niche role of this combination in individualised rescue situations. TxGNN likely captures this relationship through knowledge-graph edges linking imipenem/cilastatin to *S. aureus*-associated infection nodes, but the underlying evidence does not yet support a defined, registrable indication.
+يتعلق الاهتمام المتبقي بالإيميبينيم/سيلاستاتين من أجل MRSA بالتآزر الملاحظ في المختبر والحيوي مع العوامل الشريكة — خاصة أربيكاسين وفوسفوميسين وسيفوتيام وفانكوميسين — حيث يقلل إضافة الإيميبينيم من MICs ويحسن حركيات القتل. قدمت تعليقات حالة عام 2020 في *Antimicrobial Agents and Chemotherapy* العلاج الإنقاذي الناجح بـ الإيميبينيم/سيلاستاتين + فوسفوميسين لحالة بكتيرية MRSA معاندة حيث فشل فانكوميسين ودابتوميسين على حد سواء، مما يوضح الدور المحدد لهذا المزيج في حالات الإنقاذ الفردية. من المحتمل أن يلتقط TxGNN هذه العلاقة من خلال حواف الرسم البياني للمعرفة التي تربط عقد الإيميبينيم/سيلاستاتين بعدوى المكورات العنقودية، لكن الأدلة الأساسية لم تدعم حتى الآن مؤشراً معرفاً وقابلاً للتسجيل.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03583333](https://clinicaltrials.gov/study/NCT03583333) | Phase 3 | Completed | 274 | IMI/cilastatin/relebactam vs piperacillin/tazobactam in HABP/VABP adults; imipenem/cilastatin serves as backbone active comparator, confirming its gold-standard role in serious Gram-positive and Gram-negative infections — indirect support for SA pneumonia coverage |
-| [NCT00707239](https://clinicaltrials.gov/study/NCT00707239) | Phase 2 | Terminated | 108 | Two tigecycline doses vs imipenem/cilastatin for hospital-acquired pneumonia (≥70% VAP); terminated early and results are limited, but trial design validates imipenem/cilastatin as comparator for serious bacterial pneumonia including SA aetiology |
-| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Phase 4 | Unknown | 60 | Linezolid alone vs linezolid + carbapenem in MRSA VAP patients; most directly relevant to SA — investigates whether adding a carbapenem to linezolid improves outcomes in MRSA pneumonia; status unknown reduces confidence |
+| [NCT03583333](https://clinicaltrials.gov/study/NCT03583333) | المرحلة 3 | اكتملت | 274 | مقارنة IMI/سيلاستاتين/رليبكتاسم مقابل بيبيراسيلين/تازوباكتام في HABP/VABP لدى البالغين؛ يعمل الإيميبينيم/سيلاستاتين كعامل نشط عمود فقري، مما يؤكد دوره كمعيار ذهبي في العدوى الموجبة والسالبة جرام الخطيرة — دعم غير مباشر لتغطية الالتهاب الرئوي SA |
+| [NCT00707239](https://clinicaltrials.gov/study/NCT00707239) | المرحلة 2 | تم إيقافها | 108 | جرعتان من تيجيسيكلين مقابل الإيميبينيم/سيلاستاتين للالتهاب الرئوي المكتسب بالمستشفى (≥70% VAP)؛ تم الإيقاف المبكر والنتائج محدودة، لكن تصميم التجربة يؤكد صحة الإيميبينيم/سيلاستاتين كمقارنة للالتهاب الرئوي البكتيري الحاد بما في ذلك أصل SA |
+| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | المرحلة 4 | غير معروف | 60 | لينزوليد وحده مقابل لينزوليد + كاربابينيم في مرضى VAP من MRSA؛ الأكثر صلة مباشرة بـ SA — يتحقق مما إذا كانت إضافة كاربابينيم إلى لينزوليد تحسن النتائج في الالتهاب الرئوي MRSA؛ تقلل حالة غير معروفة الثقة |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | Clinical Study (non-RCT) | Antimicrob Agents Chemother | Imipenem-cilastatin in 23 patients (11 MRSA, 12 MSSA); soft tissue, endovascular, and skeletal infections; MIC90 6.25 μg/mL for MSSA — foundational clinical evidence, now decades old |
-| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | Case Report | Antimicrob Agents Chemother | Commentary on imipenem/cilastatin + fosfomycin for refractory MRSA bacteraemia after vancomycin and daptomycin failure; argues for individualised combination salvage strategies |
-| [8072190](https://pubmed.ncbi.nlm.nih.gov/8072190/) | 1994 | Clinical Study (non-RCT) | Jpn J Antibiotics | Arbekacin + imipenem/cilastatin combination against clinical MRSA isolates; MICs in combination significantly lower than either agent alone; clinical benefit in MRSA infections documented |
-| [10588305](https://pubmed.ncbi.nlm.nih.gov/10588305/) | 1999 | Preclinical | J Antimicrob Chemother | Vancomycin + imipenem synergy against MRSA in vitro (34/36 isolates showed synergy or additivity) and in neutropenic mouse thigh model; supports dual-agent rationale |
-| [3378959](https://pubmed.ncbi.nlm.nih.gov/3378959/) | 1988 | Animal Study | J Antimicrob Chemother | Imipenem-cilastatin vs vancomycin in rabbit MRSA aortic valve endocarditis; imipenem bacteriostatic in vitro (MBC90 32 mg/L) but showed favourable in vivo efficacy by certain criteria — important nuance for MRSA endocarditis |
-| [8514648](https://pubmed.ncbi.nlm.nih.gov/8514648/) | 1993 | Preclinical | J Antimicrob Chemother | Imipenem/cilastatin + cefotiam synergy in mouse MRSA bacteraemia model (ratios 1:5–1:160); effective against both β-lactamase-producing and non-producing MRSA; mechanism explored via in vitro PK system |
-| [22196394](https://pubmed.ncbi.nlm.nih.gov/22196394/) | 2012 | Review | Int J Antimicrob Agents | Comprehensive review of MRSA virulence, key clinical trials, and resistance implications; places carbapenem-based combinations as investigational options for severe refractory MRSA |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label antibiotic use vs formal recommendations for MDR bacteria including MRSA; discusses carbapenem combinations as an option when licensed anti-MRSA agents are unavailable or have failed |
-| [18649613](https://pubmed.ncbi.nlm.nih.gov/18649613/) | 2008 | Review | Am Fam Physician | Diabetic foot infection review; identifies *S. aureus* and β-haemolytic streptococci as dominant pathogens in mild-moderate untreated infections; severe polymicrobial cases may require broad-spectrum coverage including carbapenems |
-| [1771308](https://pubmed.ncbi.nlm.nih.gov/1771308/) | 1991 | Review | Semin Respir Infect | Antibiotic therapy of pleural empyema; notes SA as a relevant nosocomial pathogen; polymicrobial aetiology supports broad-spectrum carbapenem coverage in severe cases |
+| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | دراسة سريرية (غير عشوائية) | Antimicrob Agents Chemother | الإيميبينيم-سيلاستاتين في 23 مريضاً (11 MRSA، 12 MSSA)؛ عدوى الأنسجة الرخوة والداخلية والهيكلية؛ MIC90 6.25 μg/mL لـ MSSA — أدلة سريرية أساسية، الآن قديمة جداً |
+| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | تقرير حالة | Antimicrob Agents Chemother | تعليقات على الإيميبينيم/سيلاستاتين + فوسفوميسين لبكتيرية MRSA معاندة بعد فشل فانكوميسين ودابتوميسين؛ يرافع من أجل استراتيجيات المزيج الفردي والإنقاذ |
+| [8072190](https://pubmed.ncbi.nlm.nih.gov/8072190/) | 1994 | دراسة سريرية (غير عشوائية) | Jpn J Antibiotics | أربيكاسين + مزيج الإيميبينيم/سيلاستاتين ضد عزلات MRSA السريرية؛ MICs في المزيج أقل بكثير من أي عامل بمفرده؛ الفائدة السريرية في عدوى MRSA موثقة |
+| [10588305](https://pubmed.ncbi.nlm.nih.gov/10588305/) | 1999 | ما قبل الإكلينيكي | J Antimicrob Chemother | تآزر فانكوميسين + الإيميبينيم ضد MRSA في المختبر (34/36 عزلة أظهرت تآزر أو إضافة) وفي نموذج فخذ الفأر المحايد؛ يدعم العقل ثنائي العامل |
+| [3378959](https://pubmed.ncbi.nlm.nih.gov/3378959/) | 1988 | دراسة حيوانية | J Antimicrob Chemother | الإيميبينيم-سيلاستاتين مقابل فانكوميسين في التهاب الشغاف الأبهري MRSA في الأرنب؛ الإيميبينيم بكتيريا ثابتة في المختبر (MBC90 32 mg/L) لكن أظهر فعالية حيوية مواتية حسب معايير معينة — نهاية مهمة لالتهاب الشغاف MRSA |
+| [8514648](https://pubmed.ncbi.nlm.nih.gov/8514648/) | 1993 | ما قبل الإكلينيكي | J Antimicrob Chemother | تآزر الإيميبينيم/سيلاستاتين + سيفوتيام في نموذج بكتيرية الفأر MRSA (النسب 1:5–1:160)؛ فعال ضد MRSA المنتج وغير المنتج لبيتا-لاكتاماز؛ آلية استكشفت عبر نظام PK في المختبر |
+| [22196394](https://pubmed.ncbi.nlm.nih.gov/22196394/) | 2012 | مراجعة | Int J Antimicrob Agents | مراجعة شاملة لـ MRSA virulence، والتجارب السريرية الرئيسية، وآثار المقاومة؛ تضع المزيجات القائمة على الكاربابينيم كخيارات استقصائية لـ MRSA المعاندة الشديدة |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | مراجعة | Int J Antimicrob Agents | الاستخدام خارج التعليمات مقابل التوصيات الرسمية للبكتيريا متعددة الأدوية بما في ذلك MRSA؛ يناقش مزيجات الكاربابينيم كخيار عند عدم توفر عوامل مرخصة مضادة لـ MRSA أو فشلت |
+| [18649613](https://pubmed.ncbi.nlm.nih.gov/18649613/) | 2008 | مراجعة | Am Fam Physician | مراجعة عدوى القدم السكرية؛ تحدد المكورات العنقودية والعقديات بيتا-الحالة للدم كممرضات مهيمنة في العدوى الخفيفة المعتدلة غير المعالجة؛ قد تتطلب الحالات متعددة الميكروبات الحادة تغطية واسعة الطيف تشمل الكاربابينيمات |
+| [1771308](https://pubmed.ncbi.nlm.nih.gov/1771308/) | 1991 | مراجعة | Semin Respir Infect | العلاج بالمضادات الحيوية لالتهاب الجنبة الصديدي؛ يلاحظ SA كممرض استشفائي ذي صلة؛ أصل الأمراض المشروطة يدعم تغطية واسعة الطيف الكاربابينيم في الحالات الحادة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Cilastatin (as imipenem/cilastatin combination) is **not currently marketed in Saudi Arabia**. There are no SFDA-registered products and no recorded licenses. Any future use would require a full regulatory submission pathway.
-
----
-
-## Safety Considerations
-
-Formal safety data (key warnings, contraindications, drug–drug interactions) is not available in this evidence pack.
-
-Please refer to the package insert for safety information.
-
-> **Notable adverse events identified in the literature:**
-> - **Leukocytoclastic vasculitis** (PMID [9158321](https://pubmed.ncbi.nlm.nih.gov/9158321/), 1997): First reported case of imipenem/cilastatin-induced vasculitic skin reaction presenting as maculopapular rash progressing to leukocytoclastic pattern.
-> - **Acute eosinophilic pneumonia** (PMID [26944380](https://pubmed.ncbi.nlm.nih.gov/26944380/), 2016): Drug-induced eosinophilic pneumonia one day after initiation, presenting with fever, acute hypoxic respiratory distress, and diffuse ground-glass opacities on CT; resolved on drug withdrawal.
+سيلاستاتين (كمزيج الإيميبينيم/سيلاستاتين) **غير معروض حالياً في السوق السعودية**. لا توجد منتجات مسجلة من هيئة الغذاء والدواء السعودية ولا رخص مسجلة. أي استخدام مستقبلي سيتطلب مسار تقديم تنظيمي كامل.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+لا تتوفر بيانات السلامة الرسمية (التحذيرات الرئيسية والموانع الاستعمال وتفاعلات الأدوية) في حزمة الأدلة هذه.
 
-**Rationale:**
-Evidence for imipenem/cilastatin in *Staphylococcus aureus* infection is confined to small non-RCT clinical studies from 1986–1994, animal models, in vitro synergy experiments, and isolated case reports — none of which constitute a contemporary controlled trial targeting SA as the primary indication. Critically, MRSA's intrinsic PBP2a-mediated resistance limits monotherapy applicability, and combination synergy data, while intriguing, has not been validated in prospective trials.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات الأمان.
 
-**To proceed, the following is needed:**
+> **الأحداث الضائرة البارزة المحددة في الأدبيات:**
+> - **التهاب الأوعية الدموية اللكيوسيتوكلاستي** (PMID [9158321](https://pubmed.ncbi.nlm.nih.gov/9158321/)، 1997): أول حالة مبلغ عنها من التهاب الأوعية الدموية المستحث بـ الإيميبينيم/سيلاستاتين التي تظهر كطفح حطاطي حمامي يتطور إلى نمط اللكيوسيتوكلاستي.
+> - **الالتهاب الرئوي اليوزيني الحاد** (PMID [26944380](https://pubmed.ncbi.nlm.nih.gov/26944380/)، 2016): الالتهاب الرئوي اليوزيني المستحث بالعقاقير في يوم واحد بعد البدء، مع الحمى والضيق التنفسي الحاد فاقع الأكسجين وتعتيم الزجاج الأرضي المنتشر على CT؛ تم حله عند سحب العقاقير.
 
-- **MSSA vs. MRSA stratification**: Clearly separate the two scenarios — MSSA infections represent a mechanistically sound target; MRSA requires combination strategy and should be evaluated as a distinct research question
-- **Modern PK/PD analysis**: Confirm that imipenem achieves >40–50% T>MIC for MSSA isolates at approved dosing regimens in the target patient populations
-- **Phase 2 RCT for MSSA bacteraemia**: Compare imipenem/cilastatin to anti-staphylococcal penicillins (nafcillin/flucloxacillin) or cefazolin, the current first-line agents for MSSA bacteraemia
-- **MRSA combination validation**: A prospective pilot study (Phase 2) testing imipenem/cilastatin + fosfomycin in documented MRSA bacteraemia refractory to vancomycin/daptomycin
-- **SFDA regulatory pathway**: Assess registration requirements for imipenem/cilastatin in Saudi Arabia before any clinical programme is initiated
-- **Full safety profile**: Obtain complete package insert data including contraindications, black-box warnings, and drug interaction profile (currently all are data gaps)
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**المنطق:**
+الأدلة على الإيميبينيم/سيلاستاتين في عدوى المكورات العنقودية الذهبية تقتصر على دراسات سريرية صغيرة غير عشوائية من 1986–1994، نماذج حيوانية، تجارب تآزر في المختبر، وتقارير حالات معزولة — لا شيء منها يشكل تجربة منضبطة معاصرة تستهدف SA كمؤشر أساسي. بشكل حاسم، مقاومة MRSA المضمنة التي يوسطها PBP2a تحد من قابلية تطبيق العلاج الأحادي، وبيانات التآزر المزدوج، بينما تثير الاهتمام، لم يتم التحقق منها في التجارب الاستطلاعية.
+
+**للمتابعة، فإن ما يلي مطلوب:**
+
+- **تقسيم MSSA مقابل MRSA**: فصل واضح بين السيناريوهين — عدوى MSSA تمثل هدفاً سليماً آلياً؛ MRSA تتطلب استراتيجية مزيج ويجب تقييمها كسؤال بحثي منفصل
+- **تحليل PK/PD الحديث**: تأكيد أن الإيميبينيم يحقق >40–50% T>MIC لعزلات MSSA في أنظمة جرعات معتمدة في المجموعات السكانية المستهدفة
+- **RCT المرحلة 2 لبكتيرية MSSA**: مقارنة الإيميبينيم/سيلاستاتين بالبنسلينات المضادة للعنقوديات (نافسيلين/فلوكلوكساسيلين) أو السيفالوثين، العوامل من الخط الأول الحالية لبكتيرية MSSA
+- **التحقق من صحة مزيج MRSA**: دراسة رائدة استطلاعية (المرحلة 2) لاختبار الإيميبينيم/سيلاستاتين + فوسفوميسين في بكتيرية MRSA موثقة معاندة لفانكوميسين/دابتوميسين
+- **مسار تنظيمي هيئة الغذاء والدواء السعودية**: تقييم متطلبات التسجيل الإيميبينيم/سيلاستاتين في المملكة العربية السعودية قبل بدء أي برنامج سريري
+- **ملف السلامة الكامل**: الحصول على بيانات نشرة العبوة الكاملة بما في ذلك موانع الاستعمال والتحذيرات الصندوق الأسود وملف تفاعل الأدوية (حالياً جميعها فجوات بيانات)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

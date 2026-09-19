@@ -29,83 +29,84 @@ indication_count: 7
 
 </div>
 
-# Voxelotor: From Sickle Cell Disease to Hereditary Thrombocytopenia with Normal Platelets
+# Voxelotor: من فقر الدم المنجلي إلى الدوالة الخلقية مع الصفائح الدموية الطبيعية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Voxelotor is an allosteric haemoglobin oxygen-affinity modulator used in sickle cell disease (this original indication is referenced consistently in the evidence pack's rationale text, though the formal `original_indications`/`original_moa` fields are not yet populated). TxGNN predicts a possible link to **hereditary thrombocytopenia with normal platelets** with a very high similarity score, but **zero clinical trials and zero publications** currently support this direction, and the evidence pack's own mechanistic assessment finds no biological rationale connecting the two conditions.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Sickle cell disease (per repurposing_rationale narrative; not yet confirmed in `original_indications`/TFDA licensing data) |
-| Predicted New Indication | Hereditary thrombocytopenia with normal platelets |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Voxelotor هو معدل تقاربي لحنين الهيموغلوبين للأكسجين المستخدم في فقر الدم المنجلي (يتم الإشارة إلى هذا الاستطباب الأصلي بشكل متسق في نصوص الأساس المنطقي لإعادة الاستخدام في حزمة الأدلة، على الرغم من أن حقول `original_indications`/`original_moa` الرسمية لم يتم ملؤها بعد). TxGNN يتنبأ بارتباط محتمل بـ **الدوالة الخلقية مع الصفائح الدموية الطبيعية** برصيد تشابه عالي جداً، لكن **لا توجد تجارب سريرية ولا منشورات** حالياً تدعم هذا الاتجاه، والمقييم الآلي الميكانيكي الخاص بحزمة الأدلة لم يجد أي أساس بيولوجي يربط الحالتين.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the structured `original_moa` field. The repurposing rationale text notes that voxelotor is known to act as an allosteric haemoglobin oxygen-affinity modulator that inhibits haemoglobin polymerisation, the basis for its use in sickle cell disease.
-
-However, this mechanism has no established connection to platelet biology. Hereditary thrombocytopenia with normal platelets is driven by megakaryocyte differentiation and platelet production pathways, which are pharmacologically distinct from haemoglobin oxygen-affinity modulation. The evidence pack's own analysis flags this explicitly: the prediction is attributed to the TxGNN embedding space clustering voxelotor near other haematological disorders (both sickle cell disease and hereditary thrombocytopenias sit in the "blood disorder" region of the model's representation), rather than to any known shared biological pathway.
-
-This same pattern — a very high TxGNN score paired with an explicitly acknowledged absence of mechanistic plausibility — repeats across all 7 ranked predictions in this candidate set (see table below). None have any supporting clinical, literature, or mechanistic evidence; all are classified S0/L5/Hold.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | فقر الدم المنجلي (وفقاً لسرد الأساس المنطقي لإعادة الاستخدام؛ لم يتم التأكيد بعد في بيانات `original_indications`/ترخيص TFDA) |
+| الاستطباب الجديد المتوقع | الدوالة الخلقية مع الصفائح الدموية الطبيعية |
+| رصيد التنبؤ بـ TxGNN | 99.58% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مُسوقة (غير مُسوقة) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | وقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية تفصيلية لآلية العمل غير متاحة في حقل `original_moa` المهيكل. يلاحظ نص الأساس المنطقي لإعادة الاستخدام أن Voxelotor يعمل كمعدل تقاربي لحنين الهيموغلوبين للأكسجين يمنع بلمرة الهيموغلوبين، وهو الأساس لاستخدامه في فقر الدم المنجلي.
 
----
+ومع ذلك، فإن هذه الآلية لا علاقة لها بعلم أحياء الصفائح الدموية المعروفة. الدوالة الخلقية مع الصفائح الدموية الطبيعية يحركها المسارات المتعلقة بتمايز الخلايا العملاقة وإنتاج الصفائح الدموية، وهي مسارات دوائية متميزة عن تعديل تقاربية الهيموغلوبين للأكسجين. يشير تحليل حزمة الأدلة الخاصة بنا بشكل صريح إلى هذا: يُعزى التنبؤ إلى مجموعة فضاء تضمين TxGNN التي تقرب Voxelotor من الاضطرابات الدموية الأخرى (كل من فقر الدم المنجلي والدوالات الخلقية تقع في منطقة "الاضطراب الدموي" من تمثيل النموذج)، وليس لأي مسار بيولوجي معروف مشترك.
 
-## Other Predicted Indications (Same Candidate Set)
-
-All secondary candidates share the same profile — high TxGNN score, no supporting evidence, no mechanistic plausibility, Hold recommendation:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-------------|-----------------|-----------------|
-| 2 | Macrothrombocytopenia with mitral valve insufficiency | 99.58% | L5 | Hold |
-| 3 | Dense granule disease | 99.58% | L5 | Hold |
-| 4 | Transient neonatal thrombocytopenia | 99.57% | L5 | Hold |
-| 5 | Thrombocytopenia | 99.51% | L5 | Hold |
-| 6 | Acquired monoclonal Ig light chain-associated Fanconi syndrome | 99.13% | L5 | Hold |
-| 7 | Primary release disorder of platelets | 99.00% | L5 | Hold |
+يتكرر هذا النمط نفسه — درجة TxGNN عالية جداً مقترنة بغياب معترف به صراحة للمعقولية الميكانيكية — عبر جميع التنبؤات السبعة المصنفة في مجموعة المرشحين هذه (انظر الجدول أدناه). لا يوجد أي منها أي أدلة سريرية أو أدبية أو ميكانيكية داعمة؛ جميعها مصنفة S0/L5/وقف.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-All 7 predicted indications for voxelotor in this candidate set are unsupported by clinical trials or literature and lack a plausible mechanistic link to the drug's known haemoglobin-modulating activity; the evidence pack itself characterises these as likely embedding-space noise rather than genuine repurposing signals. There is also no Saudi Arabia market presence and no TFDA package insert data available, blocking any safety pre-assessment (S1).
+---
 
-**To proceed, the following is needed:**
-- Confirmed `original_moa` and `original_indications` data (DrugBank API query, currently marked High-severity gap)
-- TFDA/regulatory package insert with warnings and contraindications (Blocking-severity gap)
-- DDI query resolution (currently `not_found`)
-- At minimum, preclinical or mechanistic literature establishing a biological pathway between haemoglobin oxygen-affinity modulation and platelet/megakaryocyte biology before any of these 7 candidates can move beyond S0
+## استطبابات متوقعة أخرى (نفس مجموعة المرشحين)
+
+جميع المرشحين الثانويين يشاركون نفس الملف الشخصي — درجة TxGNN عالية، لا أدلة داعمة، لا معقولية ميكانيكية، توصية بالوقف:
+
+| الترتيب | المرض | درجة TxGNN | مستوى الأدلة | التوصية |
+|--------|------|-----------|-------------|----------|
+| 2 | ضخامة الصفيحات مع قصور الصمام التاجي | 99.58% | L5 | وقف |
+| 3 | مرض الحبيبات الكثيفة | 99.58% | L5 | وقف |
+| 4 | قلة الصفيحات الانتقالية الوليدية | 99.57% | L5 | وقف |
+| 5 | قلة الصفيحات | 99.51% | L5 | وقف |
+| 6 | متلازمة فانكوني المرتبطة بـ Ig الخفيفة أحادية النسيلة المكتسبة | 99.13% | L5 | وقف |
+| 7 | اضطراب الإفراج الأساسي للصفائح الدموية | 99.00% | L5 | وقف |
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقف**
+
+**الأساس المنطقي:**
+جميع الاستطبابات السبعة المتوقعة لـ Voxelotor في مجموعة المرشحين هذه غير مدعومة بتجارب سريرية أو أدبيات وتفتقر إلى ارتباط آلية معقول بالنشاط المعروف لتعديل الهيموغلوبين للدواء؛ تصف حزمة الأدلة نفسها هذه على الأرجح بأنها ضوضاء فضاء التضمين بدلاً من إشارات إعادة استخدام حقيقية. لا توجد أيضاً حضور سوق بالمملكة العربية السعودية ولا بيانات حزمة نشرة TFDA المتاحة، مما يحجب أي تقييم أمني مسبق (S1).
+
+**للمتابعة، المطلوب ما يلي:**
+- بيانات `original_moa` و `original_indications` مؤكدة (استعلام API DrugBank، حالياً مع وجود فجوة عالية الخطورة)
+- نشرة TFDA/التنظيمية مع التحذيرات والموانع (فجوة حجب)
+- حل استعلام DDI (حالياً `not_found`)
+- على الحد الأدنى، أدبيات سابقة سريرية أو ميكانيكية تثبت مساراً بيولوجياً بين تعديل تقاربية الهيموغلوبين للأكسجين وعلم الأحياء المتعلق بالصفائح الدموية/الخلايا العملاقة قبل أن تتمكن أي من هذه المرشحين السبعة من التحرك إلى ما بعد S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

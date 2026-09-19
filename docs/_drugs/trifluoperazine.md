@@ -29,69 +29,70 @@ indication_count: 1
 
 </div>
 
-# Trifluoperazine: From Antipsychotic Use to Manic Bipolar Affective Disorder
+# تريفلوبيرازين: من الاستخدام المضاد للذهان إلى اضطراب الأفعالية ثنائي القطب الهوسي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Trifluoperazine is a phenothiazine-class antipsychotic historically used to manage psychotic disorders; the specific approved indication text is not present in the current dataset. The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with **0 clinical trials** and **20 publications** currently identified, though none of the literature has yet been fully classified for study design or direct relevance.
+تريفلوبيرازين هو مضاد ذهان من فئة الفينوثيازين استُخدم تاريخياً لإدارة الاضطرابات الذهانية؛ نص الاستطباب المعتمد المحدد غير موجود في مجموعة البيانات الحالية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الأفعالية ثنائي القطب الهوسي**، مع **صفر تجربة سريرية** و**20 منشوراً علمياً** تم تحديدها حالياً، على الرغم من أن أياً من الأدبيات لم تُصنَّف بعد من حيث تصميم الدراسة أو الصلة المباشرة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in available regulatory data (DrugBank/SFDA license text not returned); literature consistently describes trifluoperazine as a phenothiazine antipsychotic |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير محدد في بيانات التنظيم المتاحة (لم يتم إرجاع نص ترخيص SFDA/DrugBank)؛ تصف الأدبيات باستمرار تريفلوبيرازين بأنه مضاد ذهان من فئة الفينوثيازين |
+| الاستطباب الجديد المتنبأ به | اضطراب الأفعالية ثنائي القطب الهوسي |
+| درجة التنبؤ TxGNN | 99.51% |
+| مستوى الأدلة | L3 |
+| حالة السوق السعودي | غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | وقفة انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the supporting literature, trifluoperazine belongs to the phenothiazine class of antipsychotics, and its dopaminergic antagonism is consistent with mechanisms implicated in mania — one identified study (PMID 970489) directly links dopaminergic activity to manic episodes, providing mechanistic plausibility for antimanic effect.
+حالياً، لا تتوفر بيانات آلية العمل المفصلة (وقد تم تحديدها كفجوة بيانات ذات أهمية كبيرة). بناءً على الأدبيات الداعمة، ينتمي تريفلوبيرازين إلى فئة الفينوثيازين من مضادات الذهان، وتعطيله للنشاط الدوباميني متسق مع الآليات المتورطة في الهوس — تربط إحدى الدراسات المحددة (PMID 970489) مباشرة النشاط الدوباميني بنوبات هوسية، مما يوفر معقولية آلية لتأثير مضاد للهوس.
 
-Historically, trifluoperazine and related phenothiazines have been used clinically to manage agitation and affective symptoms alongside primary antipsychotic use — several older reports in the evidence set (e.g., PMID 14084030, PMID 13761179) describe its use in combination regimens for agitated depression and affective disturbance, and broader reviews (PMID 17017818, PMID 24943390) document antipsychotic use, including phenothiazines, across bipolar disorder treatment settings. This existing precedent of psychiatric use, combined with the class-level mechanistic rationale, supports the biological plausibility of the TxGNN prediction, though no study in the current evidence set directly tests trifluoperazine as a treatment for bipolar mania in a controlled trial.
+تاريخياً، استُخدم تريفلوبيرازين والفينوثيازينات ذات الصلة سريرياً لإدارة الإثارة والأعراض الوجدانية إلى جانب الاستخدام المضاد للذهان الأساسي — تصف عدة تقارير أقدم في مجموعة الأدلة (مثل PMID 14084030، PMID 13761179) استخدامه في أنظمة العلاج المركبة لحالات الاكتئاب الهياج والاضطراب الوجداني، وتوثق المراجعات الأوسع (PMID 17017818، PMID 24943390) الاستخدام المضاد للذهان، بما في ذلك الفينوثيازينات، عبر إعدادات علاج اضطراب ثنائي القطب. يدعم هذا السابقة القائمة من الاستخدام النفسي، مدمجة مع المنطق الآلي على مستوى الفئة، المعقولية البيولوجية للتنبؤ TxGNN، على الرغم من عدم اختبار أي دراسة في مجموعة الأدلة الحالية لتريفلوبيرازين بشكل مباشر كعلاج للهوس ثنائي القطب في تجربة خاضعة للرقابة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدبيات العلمية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [14084030](https://pubmed.ncbi.nlm.nih.gov/14084030/) | 1963 | Double-blind study | Current Therapeutic Research, Clinical and Experimental | Double-blind study of trifluoperazine withdrawal in patients maintained on tranylcypromine + trifluoperazine combination therapy |
-| [17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/) | 2006 | Review | The Journal of Clinical Psychiatry | Reviews efficacy of typical and atypical antipsychotics for anxiety symptoms in bipolar disorder and major depression |
-| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | Journal of Psychiatric Practice | Reviews use and safety of antipsychotic drugs (including phenothiazines) during pregnancy in psychotic and bipolar illness |
-| [40926568](https://pubmed.ncbi.nlm.nih.gov/40926568/) | 2026 | Review | Journal of Applied Toxicology | Reviews phenothiazine derivatives, noting their long-standing use in mania associated with bipolar disorder and psychosis |
-| [24943390](https://pubmed.ncbi.nlm.nih.gov/24943390/) | 2014 | Cross-sectional survey | Journal of Clinical Psychopharmacology | Survey of psychotropic prescription patterns in Ugandan psychiatric inpatients, including bipolar affective disorder cohorts |
-| [6636782](https://pubmed.ncbi.nlm.nih.gov/6636782/) | 1983 | Case series | Wiener Klinische Wochenschrift | Describes MAO-inhibitor plus lithium/neuroleptic regimens in rapid-cycling manic-depressive patients resistant to standard therapy |
-| [970489](https://pubmed.ncbi.nlm.nih.gov/970489/) | 1976 | Mechanistic case study | The American Journal of Psychiatry | Explores dopaminergic mechanisms in mania using dopamine-stimulating and -blocking agents, supporting a dopaminergic model of manic illness |
-| [2544917](https://pubmed.ncbi.nlm.nih.gov/2544917/) | 1989 | Case-control study | Psychiatry Research | Examines platelet adrenergic receptor binding differences across depressive, schizophrenic, and bipolar patient groups |
-| [13761179](https://pubmed.ncbi.nlm.nih.gov/13761179/) | 1961 | Case series | The American Journal of Psychiatry | Reports on combined tranylcypromine-trifluoperazine therapy in patients with agitated depression |
-| [3935307](https://pubmed.ncbi.nlm.nih.gov/3935307/) | 1985 | Case report | Canadian Journal of Psychiatry | Case report of bipolar disorder presenting in an adolescent, discussing diagnostic and treatment considerations |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|--------|---------|---------|
+| [14084030](https://pubmed.ncbi.nlm.nih.gov/14084030/) | 1963 | دراسة عمياء مزدوجة | Current Therapeutic Research, Clinical and Experimental | دراسة عمياء مزدوجة لإيقاف تريفلوبيرازين في المرضى الذين يتلقون العلاج المركب بترانيلسيبرومين + تريفلوبيرازين |
+| [17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/) | 2006 | مراجعة | The Journal of Clinical Psychiatry | تراجع فعالية مضادات الذهان النموذجية وغير النموذجية للأعراض القلقية في اضطراب ثنائي القطب والاكتئاب الشديد |
+| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | مراجعة | Journal of Psychiatric Practice | تراجع الاستخدام والسلامة من أدوية مضادات الذهان (بما في ذلك الفينوثيازينات) أثناء الحمل في الأمراض الذهانية وثنائية القطب |
+| [40926568](https://pubmed.ncbi.nlm.nih.gov/40926568/) | 2026 | مراجعة | Journal of Applied Toxicology | تراجع مشتقات الفينوثيازين، مع الإشارة إلى استخدامها طويل الأمد في الهوس المرتبط باضطراب ثنائي القطب والذهان |
+| [24943390](https://pubmed.ncbi.nlm.nih.gov/24943390/) | 2014 | دراسة استقطاعية | Journal of Clinical Psychopharmacology | مسح أنماط وصف الأدوية النفسية في مرضى العيادات النفسية الأوغندية، بما في ذلك مجموعات اضطراب الأفعالية ثنائي القطب |
+| [6636782](https://pubmed.ncbi.nlm.nih.gov/6636782/) | 1983 | سلسلة حالات | Wiener Klinische Wochenschrift | وصف أنظمة الجمع بين مثبطات أحادي أكسيداز مع ليثيوم/عقاقير عصبية في مرضى الاكتئاب الهوسي سريع الدورات المقاومين للعلاج القياسي |
+| [970489](https://pubmed.ncbi.nlm.nih.gov/970489/) | 1976 | دراسة حالة آلية | The American Journal of Psychiatry | يستكشف الآليات الدوباميني في الهوس باستخدام عوامل منبهة وحاجبة للدوبامين، مما يدعم نموذج دوباميني للمرض الهوسي |
+| [2544917](https://pubmed.ncbi.nlm.nih.gov/2544917/) | 1989 | دراسة حالة-شاهد | Psychiatry Research | فحص الاختلافات في ربط مستقبلات الأدرينالية الصفائحية عبر مجموعات المرضى الاكتئابيين والفصاميين وثنائي القطب |
+| [13761179](https://pubmed.ncbi.nlm.nih.gov/13761179/) | 1961 | سلسلة حالات | The American Journal of Psychiatry | تقارير عن العلاج المركب بترانيلسيبرومين + تريفلوبيرازين في مرضى الاكتئاب الهياج |
+| [3935307](https://pubmed.ncbi.nlm.nih.gov/3935307/) | 1985 | تقرير حالة | Canadian Journal of Psychiatry | تقرير حالة اضطراب ثنائي القطب يظهر في مراهق، مع مناقشة الاعتبارات التشخيصية والعلاجية |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Trifluoperazine currently has no registered market authorizations in Saudi Arabia (market status: Not Marketed; 0 licenses on file).
+لا يمتلك تريفلوبيرازين حالياً أي ترخيصات سوق مسجلة في المملكة العربية السعودية (حالة السوق: غير مسوّق؛ 0 ترخيص في الملف).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this dataset; DG001 flags SFDA package insert retrieval as a Blocking gap for safety evaluation.)
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية غير متوفرة حالياً في مجموعة البيانات هذه؛ تحدد DG001 استرجاع نشرة SFDA كفجوة حجب لتقييم السلامة.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقفة انتظار**
 
-**Rationale:**
-The prediction has a strong TxGNN score and reasonable class-level mechanistic support, but there are no clinical trials directly testing trifluoperazine in bipolar mania, and a Blocking data gap (missing SFDA/package insert safety data) currently prevents even an initial safety (S1) assessment.
+**المبرر:**
+للتنبؤ درجة TxGNN قوية وتأييد آلي معقول على مستوى الفئة، لكن لا توجد تجارب سريرية تختبر تريفلوبيرازين بشكل مباشر في الهوس ثنائي القطب، وفجوة بيانات حجب (بيانات نشرة SFDA المفقودة/التحذيرات والموانع) تمنع حالياً حتى تقييم أماني أولي (S1).
 
-**To proceed, the following is needed:**
-- SFDA package insert data (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action from DrugBank — currently High severity gap (DG002)
-- Drug-drug interaction data (current query returned no results)
-- Prospective or retrospective clinical evidence specifically evaluating trifluoperazine in manic bipolar affective disorder, beyond historical combination-therapy reports
+**للمتابعة، يلزم الآتي:**
+- بيانات نشرة SFDA (التحذيرات والموانع) — حجب حالياً (DG001)
+- آلية عمل مؤكدة من DrugBank — فجوة شدة عالية حالياً (DG002)
+- بيانات التفاعلات الدوائية (الاستعلام الحالي لم يُرجع أي نتائج)
+- أدلة سريرية استشرافية أو بأثر رجعي تقيّم تريفلوبيرازين بشكل خاص في اضطراب الأفعالية ثنائي القطب الهوسي، بما يتجاوز التقارير التاريخية عن العلاج المركب
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

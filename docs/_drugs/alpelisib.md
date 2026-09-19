@@ -29,106 +29,107 @@ indication_count: 1
 
 </div>
 
-# Alpelisib: From PIK3CA-mutated Breast Cancer to Pulmonary Hypertension
+# ألبيليسيب: من سرطان الثدي الطافر PIK3CA إلى ارتفاع ضغط الدم الرئوي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Alpelisib is a selective PI3Kα inhibitor used in the treatment of PIK3CA-mutated, hormone receptor-positive, HER2-negative advanced breast cancer.
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension** with a score of 99.03%;
-however, there are currently **0 directly relevant clinical trials** and **2 publications** — neither of which provides positive treatment evidence, and both actually present opposing safety signals.
+ألبيليسيب هو مثبط انتقائي لـ PI3Kα يُستخدم في علاج سرطان الثدي المتقدم الموجب لمستقبلات الهرمونات والسالب لـ HER2 مع طفرة PIK3CA.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ارتفاع ضغط الدم الرئوي** برقم 99.03%؛
+ومع ذلك، لا توجد حالياً **0 تجارب سريرية مباشرة ذات صلة** و **منشورتان** — لا توفر أي منهما أدلة علاجية إيجابية، وكلاهما يقدم في الواقع إشارات سلامة معاكسة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | PIK3CA-mutated HR+/HER2− advanced or metastatic breast cancer |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | سرطان الثدي المتقدم أو النقيلي الموجب لـ HR+/HER2− مع طفرة PIK3CA |
+| الاستطباب الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي |
+| درجة التنبؤ بنموذج TxGNN | 99.03% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | **إيقاف** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, alpelisib is a PI3Kα (phosphoinositide 3-kinase alpha) inhibitor. The PI3Kα/AKT/mTOR signalling pathway plays a role in vascular smooth muscle cell proliferation and endothelial dysfunction — both of which are implicated in pulmonary arterial remodelling. In theory, inhibiting PI3Kα could slow pathological remodelling of pulmonary vasculature, which is the mechanistic basis for the TxGNN prediction.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في مجموعة الأدلة هذه. بناءً على المعلومات المعروفة، ألبيليسيب هو مثبط PI3Kα (فوسفوريل إينوسيتول 3-كيناز ألفا). يلعب مسار الإشارة PI3Kα/AKT/mTOR دوراً في تكاثر الخلايا العضلية الملساء الوعائية والخلل الوظيفي البطاني — وكلاهما متورط في إعادة تشكيل الشرايين الرئوية. من الناحية النظرية، قد يؤدي منع PI3Kα إلى إبطاء إعادة التشكيل المرضي للأوعية الرئوية، وهو الأساس الآلي لتنبؤ TxGNN.
 
-However, the available clinical and preclinical evidence points in the opposite direction. One published case report documents alpelisib-induced interstitial lung disease (ILD) in a breast cancer patient, indicating that the drug can cause direct pulmonary toxicity. A preclinical study further shows that PI3Kα pathway inhibition combined with doxorubicin leads to biventricular atrophy and right ventricular dysfunction — exactly the cardiac phenotype that is also seen in advanced pulmonary hypertension. These signals suggest that alpelisib may worsen, rather than relieve, the cardiopulmonary burden in this population.
+ومع ذلك، تشير الأدلة السريرية والسابقة للسريرية المتاحة في الاتجاه المعاكس. توثق تقرير حالة واحد منشور مرض الرئة الخلالي (ILD) الناجم عن ألبيليسيب لدى مريض سرطان الثدي، مما يشير إلى أن الدواء يمكن أن يسبب سمية رئوية مباشرة. تُظهر دراسة سابقة للسريرية أيضاً أن منع مسار PI3Kα مع الدوكسوروبيسين يؤدي إلى ضمور ثنائي البطين وخلل وظيفي بطيني أيمن — تماماً النمط الظاهري القلبي الذي يُرى أيضاً في ارتفاع ضغط الدم الرئوي المتقدم. تشير هذه الإشارات إلى أن ألبيليسيب قد يؤدي إلى تفاقم، وليس تخفيف، العبء القلبي الرئوي في هذا السكان.
 
-The mechanistic hypothesis is therefore speculative, and the currently visible clinical signals are contradictory. Until dedicated mechanistic or early-phase clinical data specific to pulmonary hypertension become available, the prediction remains at the level of a model hypothesis only.
+الفرضية الآلية غير مؤكدة إذاً، والإشارات السريرية المرئية حالياً متناقضة. حتى تصبح البيانات الآلية المخصصة أو بيانات المرحلة المبكرة السريرية المحددة لارتفاع ضغط الدم الرئوي متاحة، يبقى التنبؤ على مستوى فرضية النموذج فقط.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-The ClinicalTrials.gov search returned 1 result, but it was assessed as irrelevant (Relevance Grade C):
+عاد البحث في ClinicalTrials.gov نتيجة واحدة، لكن تم تقييمها كغير ذات صلة (درجة الصلة C):
 
-| Trial Number | Phase | Status | Enrollment | Assessment |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | التقييم |
 |-------------|-------|--------|-----------|------------|
-| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | N/A | Completed | 435 | Real-world effectiveness study of ribociclib vs. alpelisib in HR+/HER2− advanced breast cancer. No pulmonary hypertension outcome assessed. Entered the result set due to keyword matching noise — provides no evidence for the predicted indication. |
+| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | غير قابل للتطبيق | مكتملة | 435 | دراسة الفعالية في العالم الحقيقي للريبوسيكليب مقابل ألبيليسيب في سرطان الثدي المتقدم الموجب لـ HR+/HER2−. لم يتم تقييم أي نتيجة لارتفاع ضغط الدم الرئوي. دخلت مجموعة النتائج بسبب الضوضاء الناتجة عن مطابقة الكلمات المفتاحية — لا توفر دلائل على الاستطباب المتنبأ به. |
 
-> **No clinical trials directly evaluating alpelisib in pulmonary hypertension are currently registered.**
+> **لا توجد تجارب سريرية تقيّم مباشرة ألبيليسيب في ارتفاع ضغط الدم الرئوي حالياً مسجلة.**
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Two publications were retrieved. Both are low-tier evidence, and notably, neither supports efficacy in pulmonary hypertension — they present cardiopulmonary safety concerns instead.
+تم استرجاع منشورتان. كلاهما أدلة منخفضة المستوى، وجديراً بالملاحظة، لا يدعمان الفعالية في ارتفاع ضغط الدم الرئوي — يقدمان مخاوف سلامة قلبية رئوية بدلاً من ذلك.
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case Report | J Oncol Pharm Pract | Alpelisib-induced interstitial lung disease (ILD) in a patient with advanced breast cancer. Demonstrates direct pulmonary toxicity as an adverse event of alpelisib — an opposing safety signal for repurposing to pulmonary hypertension. |
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Preclinical | J Am Heart Assoc | PI3Kα inhibition combined with doxorubicin causes biventricular atrophy and right ventricular dysfunction in animal models — a mechanism that may aggravate right heart strain in pulmonary hypertension patients. |
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | تقرير حالة | J Oncol Pharm Pract | مرض الرئة الخلالي (ILD) الناجم عن ألبيليسيب لدى مريض سرطان الثدي المتقدم. يوضح السمية الرئوية المباشرة كحدث عكسي لألبيليسيب — إشارة سلامة معاكسة لإعادة الاستخدام في ارتفاع ضغط الدم الرئوي. |
+| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | سابق للسريرية | J Am Heart Assoc | منع PI3Kα مع الدوكسوروبيسين يسبب ضمور ثنائي البطين وخلل وظيفي بطيني أيمن في نماذج حيوانية — آلية قد تفاقم إجهاد القلب الأيمن في مرضى ارتفاع ضغط الدم الرئوي. |
 
-> ⚠️ **Both publications represent adverse effect evidence, not therapeutic evidence.** They do not support, and may actively undermine, the case for repurposing alpelisib in pulmonary hypertension.
+> ⚠️ **كلا المنشورتان تمثلان أدلة الآثار الضائرة، وليس أدلة العلاجية.** لا تدعمان، وقد تقوضان بشكل نشط، الحالة لإعادة استخدام ألبيليسيب في ارتفاع ضغط الدم الرئوي.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Alpelisib is an antineoplastic drug (targeted kinase inhibitor, original indication: PIK3CA-mutated breast cancer).
+ألبيليسيب دواء مضاد للأورام (مثبط كيناز موجه، الاستطباب الأصلي: سرطان الثدي مع طفرة PIK3CA).
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective PI3Kα inhibitor |
-| Myelosuppression Risk | Low (PI3K inhibitors are not primarily associated with significant myelosuppression; main dose-limiting toxicity is hyperglycaemia) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Fasting blood glucose / HbA1c (hyperglycaemia is the most common dose-limiting toxicity); liver function tests; pulmonary symptoms for ILD surveillance; skin assessment for rash |
-| Handling Protection | Standard cytotoxic handling precautions apply per institutional policy |
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط PI3Kα الانتقائي |
+| خطر كبت النخاع العظمي | منخفض (مثبطات PI3K غير مرتبطة بشكل أساسي بكبت النخاع العظمي الكبير؛ السمية التي تحد الجرعة الرئيسية هي فرط سكر الدم) |
+| تصنيف الغثيان والقيء | منخفض |
+| عناصر المراقبة | نسبة السكر في الدم على معدة فارغة / HbA1c (فرط سكر الدم هو السمية الأكثر شيوعاً التي تحد الجرعة)؛ اختبارات وظائف الكبد؛ الأعراض الرئوية لمراقبة ILD؛ تقييم الجلد للطفح |
+| حماية المناولة | تطبيق احتياطات المناولة السيتوتوكسية القياسية وفقاً لسياسة المؤسسة |
 
-> Note: Detailed toxicity data was not available in the current Evidence Pack. The above is based on drug class knowledge. Refer to the Piqray® (alpelisib) package insert for complete prescribing information.
-
----
-
-## Safety Considerations
-
-Based on the literature retrieved in this Evidence Pack, the following safety signals are relevant to this repurposing hypothesis:
-
-- **Pulmonary Toxicity**: Alpelisib has documented cases of interstitial lung disease (ILD) as an adverse event (PMID 35730191). Repurposing in a population already experiencing pulmonary pathology (pulmonary hypertension) requires careful risk assessment.
-- **Cardiac Risk**: Preclinical data show PI3Kα pathway inhibition may cause right ventricular atrophy and dysfunction (PMID 31039672), which is of particular concern in pulmonary hypertension patients who may already have compromised right heart function.
-
-> Formal drug interaction data and package insert warnings were not available in this Evidence Pack. Please refer to the package insert for complete safety information before any clinical use.
+> ملاحظة: بيانات السمية المفصلة لم تكن متاحة في مجموعة الأدلة الحالية. ما ورد أعلاه يستند إلى معرفة فئة الأدوية. يرجى الرجوع إلى الإدراج الطبي لـ Piqray® (ألبيليسيب) للحصول على معلومات الوصفة الكاملة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+بناءً على الأدبيات المسترجعة في مجموعة الأدلة هذه، إشارات السلامة التالية ذات صلة بفرضية إعادة الاستخدام هذه:
 
-**Rationale:**
-This prediction is currently at evidence level L5 (model prediction only), with no clinical trials targeting pulmonary hypertension, and the only available literature represents opposing safety signals — suggesting alpelisib may cause rather than treat pulmonary and right cardiac pathology.
+- **السمية الرئوية**: ألبيليسيب له حالات موثقة من مرض الرئة الخلالي (ILD) كحدث عكسي (PMID 35730191). إعادة الاستخدام في سكان يعانون بالفعل من أمراض رئوية (ارتفاع ضغط الدم الرئوي) تتطلب تقييم مخاطر دقيق.
+- **خطر القلب**: تُظهر البيانات السابقة للسريرية أن منع مسار PI3Kα قد يسبب ضمور البطين الأيمن وخلل وظيفي (PMID 31039672)، وهو مثير للقلق بشكل خاص في مرضى ارتفاع ضغط الدم الرئوي الذين قد يكون لديهم بالفعل وظيفة قلبية يمنى منخفضة.
 
-**To proceed, the following is needed:**
+> لم تكن بيانات التفاعل الدوائي الرسمية وتحذيرات الإدراج الطبي متاحة في مجموعة الأدلة هذه. يرجى الرجوع إلى الإدراج الطبي للحصول على معلومات السلامة الكاملة قبل أي استخدام سريري.
 
-- **MOA validation**: Obtain and confirm alpelisib's precise mechanism of action in the PI3Kα/AKT/mTOR pathway as it relates specifically to pulmonary vascular biology, not just oncology
-- **Dedicated preclinical data**: Animal model studies evaluating alpelisib in established pulmonary hypertension models (e.g., monocrotaline or Sugen/hypoxia rat models) to determine net direction of effect
-- **ILD and cardiac risk stratification**: A formal risk/benefit assessment addressing whether the known ILD and right ventricular toxicity risks are manageable or disqualifying in a PH patient population
-- **Package insert review**: Retrieve TFDA and FDA package inserts to obtain complete contraindications, warnings, and drug interaction data (flagged as data gap DG001)
-- **Regulatory pathway consultation**: Given 0 existing Saudi Arabia authorisations, an independent regulatory feasibility review is recommended before any further development investment
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**الأساس المنطقي:**
+هذا التنبؤ حالياً على مستوى أدلة L5 (تنبؤ نموذج فقط)، بدون تجارب سريرية تستهدف ارتفاع ضغط الدم الرئوي، والأدبيات المتاحة الوحيدة تمثل إشارات سلامة معاكسة — تشير إلى أن ألبيليسيب قد يسبب بدلاً من معالجة أمراض الرئة والقلب الأيمن.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **التحقق من آلية العمل**: الحصول على والتأكيد من آلية عمل ألبيليسيب الدقيقة في مسار PI3Kα/AKT/mTOR كما تتعلق بشكل محدد بالأحياء الوعائية الرئوية، وليس فقط الأورام
+- **بيانات سابقة للسريرية المخصصة**: دراسات نموذج حيواني تقيّم ألبيليسيب في نماذج ارتفاع ضغط الدم الرئوي المثبتة (مثل نماذج الفئران أحادي الكروتالين أو Sugen/نقص الأكسجين) لتحديد اتجاه التأثير الصافي
+- **تقسيم مخاطر ILD والقلب**: تقييم مخاطر/منافع رسمي يتناول ما إذا كانت مخاطر ILD والسمية البطينية اليمنى المعروفة قابلة للإدارة أو استبعاد في سكان المرضى الذين يعانون من ارتفاع ضغط الدم الرئوي
+- **مراجعة الإدراج الطبي**: استرجاع إدراجات TFDA و FDA الطبية للحصول على البيانات الكاملة حول موانع الاستعمال والتحذيرات والتفاعلات الدوائية (الرايات كفجوة بيانات DG001)
+- **استشارة المسار التنظيمي**: بالنظر إلى عدم وجود تصاريح حالية في المملكة العربية السعودية، يُوصى بمراجعة جدوى تنظيمية مستقلة قبل أي استثمار تطوري إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

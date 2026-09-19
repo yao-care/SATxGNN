@@ -29,68 +29,69 @@ indication_count: 9
 
 </div>
 
-# Topiramate: From Epilepsy to Trigeminal Nerve Neoplasm
+# Topiramate: من الصرع إلى ورم العصب ثلاثي التوائم
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Topiramate is a broad-spectrum antiepileptic drug (AED) with an established pharmacological role in epilepsy and migraine prophylaxis. The TxGNN model's top-ranked prediction for this candidate is **Trigeminal Nerve Neoplasm**, but this signal is currently backed by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale flags it as a likely knowledge-graph artifact rather than a genuine pharmacological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Epilepsy (partial-onset and generalized seizures); migraine prophylaxis — established uses per the literature evidence in this pack, though no formal Saudi Arabia regulatory record is on file |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+التوبيراميت هو عقار مضاد للصرع واسع الطيف (AED) مع دور صيدلاني محدد وراسخ في الصرع والنبؤ بالصداع النصفي. التنبؤ الأعلى ترتيباً من نموذج TxGNN لهذا المرشح هو **ورم العصب ثلاثي التوائم**، لكن هذه الإشارة مدعومة حالياً بـ **0 تجربة سريرية** و **0 منشور علمي**، والنموذج نفسه يشير إلى أن السبب الآلي المحتمل هو قطعة أثرية في الرسم البياني للمعرفة بدلاً من رابط صيدلاني حقيقي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Formal DrugBank MOA data is not on file for this candidate, but the model's own mechanistic rationale describes topiramate's known pharmacology: sodium/calcium channel blockade, GABA-A receptor potentiation, AMPA/kainate glutamate receptor antagonism, and carbonic anhydrase inhibition. Collectively, these mechanisms dampen neuronal excitability — the pharmacological basis for topiramate's established use in seizure disorders.
-
-Trigeminal nerve neoplasm, however, is a structural and proliferative pathology (a tumor), not a disorder of neuronal excitability. There is no known mechanistic pathway by which excitability-modulating or anticonvulsant action would influence tumor growth, and the evidence search returned zero clinical trials and zero publications connecting topiramate to this indication.
-
-The model's own rationale states this directly: the high prediction score most likely arises from the knowledge graph placing "trigeminal neuralgia" and "seizure"-related nodes in close proximity to "trigeminal nerve neoplasm," producing a structural inference bias rather than a real pharmacological signal. This top-ranked prediction should therefore be treated as a hypothesis-generation artifact, not a validated repurposing lead. Notably, within this same prediction batch, rank 2 ("visual epilepsy") is mechanistically coherent — it is simply an extension of topiramate's existing antiepileptic use into a reflex-epilepsy subtype — and is supported by a completed Phase 3 monotherapy RCT (n=750) plus multiple Cochrane reviews, making it a substantially stronger candidate signal than rank 1.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الصرع (نوبات بؤرية وتعميمية)؛ النبؤ بالصداع النصفي — استخدام محدد مدعوم بالأدلة الأدبية في هذه الحزمة، على الرغم من عدم وجود سجل تنظيمي رسمي بالمملكة العربية السعودية |
+| المؤشر الجديد المتنبأ به | ورم العصب ثلاثي التوائم |
+| درجة التنبؤ TxGNN | 99.70% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | وقف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+بيانات آلية العمل الرسمية من DrugBank غير متوفرة لهذا المرشح، لكن السبب الآلي للنموذج نفسه يصف الصيدلة المعروفة للتوبيراميت: حصار قنوات الصوديوم/الكالسيوم، تعزيز مستقبل GABA-A، معاداة مستقبل الغلوتامات AMPA/kainate، وتثبيط الكربونيك أنهيدريز. بشكل جماعي، تقلل هذه الآليات من استثارة الخلايا العصبية — الأساس الصيدلاني لاستخدام التوبيراميت المحدد في اضطرابات الصرع.
 
----
+ورم العصب ثلاثي التوائم، هو مرض مرضي هيكلي وتكاثري (ورم)، وليس اضطراب استثارة الخلايا العصبية. لا توجد مسارات آلية معروفة يمكن من خلالها أن تؤثر الإجراءات المعدلة للاستثارة أو المضادة للصرع على نمو الورم، وعاد البحث عن الأدلة بدون تجارب سريرية وبدون منشورات تربط التوبيراميت بهذا المؤشر.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: retrieval of the official TFDA/SFDA package insert (warnings/contraindications) is currently a **Blocking** data gap (DG001), which independently prevents this candidate from entering a formal S1 safety pre-assessment regardless of the efficacy evidence above.
+تنص نسبة النموذج نفسه على هذا مباشرة: درجة التنبؤ العالية على الأرجح تنشأ من وضع الرسم البياني للمعرفة على عقد "الألم العصبي ثلاثي التوائم" و"الصرع" بالقرب من "ورم العصب ثلاثي التوائم"، مما ينتج عنه انحياز في الاستدلال الهيكلي بدلاً من إشارة صيدلانية حقيقية. يجب معاملة هذا التنبؤ الأعلى ترتيباً كقطعة أثرية لتوليد الفرضيات، وليس كرابط إعادة استخدام معتمد. بشكل ملحوظ، ضمن نفس دفعة التنبؤ هذه، الرتبة 2 ("الصرع البصري") متماسكة من الناحية الآلية — إنها ببساطة امتداد للاستخدام المضاد للصرع الموجود للتوبيراميت في نوع فرعي من الصرع الانعكاسي — ومدعومة بتجربة عشوائية مسيطر عليها من المرحلة 3 مكتملة (n=750) بالإضافة إلى مراجعات كوكران متعددة، مما يجعلها إشارة مرشح أقوى بكثير من الرتبة 1 وحدها.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-**Rationale:**
-The top-ranked predicted indication (trigeminal nerve neoplasm) has zero direct clinical or literature evidence (Evidence Level L5), and the model's own mechanistic reasoning identifies it as a probable knowledge-graph proximity artifact rather than a genuine pharmacological hypothesis. Combined with a Blocking gap on package-insert safety data, there is no basis to advance this specific indication.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 — obtain the official package insert (warnings, contraindications) before any safety pre-assessment can begin
-- Resolve DG002 — obtain a formal DrugBank/structured MOA record for this drug
-- Independent pharmacological or preclinical validation of any topiramate–neoplasm mechanism, if this specific signal is to be pursued further
-- Consider redirecting evaluation effort within this same candidate batch toward rank 2 ("visual epilepsy" — L1 evidence, Phase 3 RCT n=750, multiple Cochrane systematic reviews, Recommendation: Proceed with Guardrails), which represents a mechanistically coherent extension of topiramate's existing antiepileptic use and a far stronger repurposing lead than the top-ranked score alone suggests
+## أدلة الأدبيات
+
+لا توجد أدلة أدبية ذات صلة متاحة حالياً
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملخص البيانات الموجزة للحصول على معلومات السلامة. ملاحظة: استرجاع ملخص البيانات الموجزة الرسمي من الهيئة العامة للغذاء والدواء/TFDA (التحذيرات/موانع الاستعمال) هو حالياً **فجوة بيانات حاظرة** (DG001)، والتي بشكل مستقل تمنع هذا المرشح من دخول تقييم السلامة المسبق الرسمي S1 بغض النظر عن أدلة الفعالية أعلاه.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقف**
+
+**السبب:**
+المؤشر المتنبأ به الأعلى ترتيباً (ورم العصب ثلاثي التوائم) ليس لديه أدلة سريرية أو أدبية مباشرة (مستوى الأدلة L5)، والسبب الآلي للنموذج نفسه يحدد أنها قطعة أثرية محتملة من التقارب في الرسم البياني للمعرفة بدلاً من فرضية صيدلانية حقيقية. بالإضافة إلى فجوة حاظرة على بيانات ملخص البيانات الموجزة، لا يوجد أساس للمضي قدماً بهذا المؤشر المحدد.
+
+**لكي نتقدم، يلزم ما يلي:**
+- حل DG001 — الحصول على ملخص البيانات الموجزة الرسمي (التحذيرات، موانع الاستعمال) قبل أن يبدأ أي تقييم سلامة مسبق
+- حل DG002 — الحصول على سجل آلية عمل رسمي من DrugBank لهذا العقار
+- التحقق الصيدلاني أو قبل السريري المستقل لأي آلية توبيراميت-ورم، إذا كان المراد متابعة هذه الإشارة المحددة
+- فكر في إعادة توجيه جهود التقييم ضمن نفس دفعة المرشح هذه نحو الرتبة 2 ("الصرع البصري" — L1 أدلة، تجربة المرحلة 3 n=750، مراجعات منهجية متعددة من كوكران، التوصية: المضي قدماً مع الضمانات)، التي تمثل امتداداً متماسكاً من الناحية الآلية لاستخدام التوبيراميت المضاد للصرع الموجود ورابط إعادة استخدام أقوى بكثير مما تقترحه الرتبة الأولى وحدها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

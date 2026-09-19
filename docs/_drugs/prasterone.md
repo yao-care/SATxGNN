@@ -29,118 +29,119 @@ indication_count: 10
 
 </div>
 
-# Prasterone (DHEA): From Unrecorded Original Indication to 10 TxGNN-Predicted Candidates
+# بريستيرون (DHEA): من مؤشر أصلي غير مسجل إلى 10 مرشحين متنبأ بهم من TxGNN
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Prasterone (DHEA, DrugBank DB01708) is an endogenous adrenal androgen precursor; no approved original indication or detailed mechanism-of-action data is available in this evidence pack, and the drug is currently **not marketed** in the covered market.
-> The TxGNN model surfaced **10 candidate indications**, topped by **Heparin Cofactor II Deficiency** (score 99.99%), but **9 of the 10 candidates have zero supporting clinical trials or literature**, and several are mechanistically counter-indicated.
-> Only one candidate — **scleroderma (systemic sclerosis)** — is backed by actual literature (6 observational cohort studies) and reaches evidence stage S1.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no approved indication on record in this evidence pack) |
-| Predicted New Indication (top TxGNN rank) | Heparin Cofactor II Deficiency |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only) |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> بريستيرون (DHEA، DrugBank DB01708) هو مقدم أندروجين كظري داخلي المنشأ؛ لا يتوفر مؤشر أصلي معتمد أو بيانات آلية عمل تفصيلية في حزمة الأدلة هذه، والعقار غير **مسوق حالياً** في السوق المغطاة.
+> كشف نموذج TxGNN عن **10 مؤشرات مرشحة**، بقيادة **نقص عامل هيبارين المساعد 2** (درجة 99.99%)، لكن **9 من أصل 10 مرشحين ليس لديهم أي تجارب سريرية أو أدبيات داعمة**، وعدة منها موانع آليًا.
+> مرشح واحد فقط — **تصلب الجلد الجهازي (التهاب الأنسجة الضامة المتصلب)** — مدعوم بأدبيات فعلية (6 دراسات أترابية ملاحظة) ويصل إلى مرحلة دليل S1.
 
 ---
 
-## All 10 TxGNN-Predicted Candidates
+## نظرة عامة سريعة
 
-| Rank | Disease | Score | Evidence Level | Stage | Recommendation |
-|------|---------|-------|-----------------|-------|-----------------|
-| 1 | Heparin cofactor 2 deficiency | 99.99% | L5 | S0 | Hold |
-| 2 | Factor 5 excess with spontaneous thrombosis | 99.98% | L5 | S0 | Hold |
-| 3 | Antithrombin deficiency type 2 | 99.98% | L5 | S0 | Hold |
-| 4 | Thrombophilia | 99.91% | L4 | S0 | Hold |
-| 5 | Severe nonproliferative diabetic retinopathy | 99.25% | L5 | S0 | Hold |
-| 6 | Thrombophilia due to protein S deficiency (AR) | 99.13% | L5 | S0 | Hold |
-| **7** | **Scleroderma (systemic sclerosis)** | 99.11% | **L4** | **S1** | **Research Question** |
-| 8 | Complement component 4a deficiency | 99.05% | L5 | S0 | Hold |
-| 9 | Pseudo-von Willebrand disease | 99.01% | L5 | S0 | Hold |
-| 10 | Primary release disorder of platelets | 99.01% | L5 | S0 | Hold |
-
-**Note:** Rank 7 (scleroderma) is the only candidate that has moved past pure model prediction. It is discussed separately below alongside the top-ranked candidate.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح (لا يوجد مؤشر معتمد مسجل في حزمة الأدلة هذه) |
+| المؤشر الجديد المتنبأ به (أعلى تصنيف TxGNN) | نقص عامل هيبارين المساعد 2 |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الدليل | L5 (تنبؤ نموذج فقط) |
+| حالة السوق السعودية | ✗ غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | اعتمد |
 
 ---
 
-## Why is This Prediction Reasonable?
+## جميع 10 مؤشرات المتنبأ بها من TxGNN
 
-Detailed mechanism-of-action data for prasterone is flagged as a data gap in this evidence pack. Based on the information available, prasterone is an adrenal androgen precursor (endogenous DHEA); no original approved indication is recorded here, so its established efficacy profile cannot be used to anchor the new predictions.
+| الترتيب | المرض | الدرجة | مستوى الدليل | المرحلة | التوصية |
+|--------|-------|--------|--------------|---------|----------|
+| 1 | نقص عامل هيبارين المساعد 2 | 99.99% | L5 | S0 | اعتمد |
+| 2 | الزيادة في العامل 5 مع التجلط التلقائي | 99.98% | L5 | S0 | اعتمد |
+| 3 | نقص الثرومبين من النوع 2 | 99.98% | L5 | S0 | اعتمد |
+| 4 | الجلطات الزائدة | 99.91% | L4 | S0 | اعتمد |
+| 5 | اعتلال الشبكية السكري غير التكاثري الشديد | 99.25% | L5 | S0 | اعتمد |
+| 6 | الجلطات الزائدة الناجمة عن نقص بروتين S (AR) | 99.13% | L5 | S0 | اعتمد |
+| **7** | **تصلب الجلد الجهازي (التهاب الأنسجة الضامة المتصلب)** | **99.11%** | **L4** | **S1** | **سؤال بحثي** |
+| 8 | نقص مكون المكمل 4a | 99.05% | L5 | S0 | اعتمد |
+| 9 | مرض فون ويليبراند الكاذب | 99.01% | L5 | S0 | اعتمد |
+| 10 | اضطراب الإفراز الأساسي للصفائح الدموية | 99.01% | L5 | S0 | اعتمد |
 
-For the top-ranked candidate and the five other thrombophilia/coagulation-factor-deficiency candidates (ranks 1, 2, 3, 4, 6, and 9–10 to a lesser extent), the underlying diseases are hypercoagulable or clotting-factor disorders that would generally require an anticoagulant or factor-replacement mechanism to treat. Androgen compounds such as DHEA are pharmacologically associated with erythropoiesis stimulation and a **procoagulant** tendency rather than an antithrombotic one — a direction supported indirectly by one of the retrieved papers (PMID 24152686), a case report of an ovarian Leydig cell tumor causing extreme hyperandrogenism, erythrocytosis, and recurrent pulmonary embolism. This suggests the TxGNN embedding proximity for these candidates may reflect graph-topology adjacency between "endocrine" and "hemostasis" gene neighborhoods rather than a genuine therapeutic mechanism, and in some cases the direction of effect may run opposite to what treatment would require.
-
-The scleroderma candidate (rank 7) stands apart: six independent cohort studies consistently report that patients with systemic sclerosis have significantly **lower** serum DHEA/DHEA-S levels, correlating with disease severity. This forms a coherent "hormone deficiency → replacement" hypothesis (DHEA's known immunomodulatory and anti-inflammatory properties could plausibly address the HPA-axis/adrenal androgen deficit seen in SSc). However, all six studies are observational associations between endogenous hormone level and disease state — none is an interventional trial of DHEA treatment — so causality and efficacy remain unestablished.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (for the top-ranked candidate, Heparin Cofactor II Deficiency, or for any of the other 9 candidates).
-
----
-
-## Literature Evidence
-
-For the top-ranked candidate (Heparin Cofactor II Deficiency): currently no related literature available.
-
-Literature exists for two lower-ranked candidates and is summarized here for completeness:
-
-**Rank 4 — Thrombophilia**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23683262](https://pubmed.ncbi.nlm.nih.gov/23683262/) | 2013 | Cohort/Case-control | J Chin Med Assoc | Thrombophilia associated with recurrent pregnancy loss in PCOS patients — not a DHEA intervention study |
-| [25531921](https://pubmed.ncbi.nlm.nih.gov/25531921/) | 2015 | Review/Guideline | Hum Fertil | IVF adjuvant practice guideline; may reference DHEA as an ovarian-response adjuvant, not as thrombophilia treatment |
-| [24152686](https://pubmed.ncbi.nlm.nih.gov/24152686/) | 2014 | Case Report | J Clin Endocrinol Metab | Ovarian Leydig cell tumor → extreme hyperandrogenism, erythrocytosis, and recurrent pulmonary embolism — signals androgen-driven thrombotic **risk**, not benefit |
-| [6241118](https://pubmed.ncbi.nlm.nih.gov/6241118/) | 1984 | Review | Clin Obstet Gynecol | Pathophysiology of pregnancy-induced hypertension; no direct DHEA-thrombophilia link |
-
-**Rank 7 — Scleroderma (systemic sclerosis)**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9159534](https://pubmed.ncbi.nlm.nih.gov/9159534/) | 1997 | Cohort | Br J Rheumatol | High prolactin / low DHEA-S in patients with severe systemic sclerosis |
-| [11247320](https://pubmed.ncbi.nlm.nih.gov/11247320/) | 2001 | Cohort | Clin Exp Rheumatol | DHEA-S levels evaluated against SSc disease severity |
-| [12073659](https://pubmed.ncbi.nlm.nih.gov/12073659/) | 2002 | Review | Orvosi Hetilap | Adrenal/gonadal androgens (incl. DHEA) implicated in autoimmune polyarthritis pathogenesis; immunosuppressive effect via IL-6 inhibition |
-| [16855152](https://pubmed.ncbi.nlm.nih.gov/16855152/) | 2006 | Cohort | Ann N Y Acad Sci | Androgen and prolactin levels in SSc relative to disease severity |
-| [17086608](https://pubmed.ncbi.nlm.nih.gov/17086608/) | 2006 | Cohort | J Rheumatol | Blunted adrenocortical/adrenomedullary response to hypoglycemia in premenopausal SSc patients |
-| [25524921](https://pubmed.ncbi.nlm.nih.gov/25524921/) | 2015 | Cohort | Rheumatology (Oxford) | Androgen status in post-menopausal SSc patients |
+**ملاحظة:** الترتيب 7 (تصلب الجلد الجهازي) هو المرشح الوحيد الذي تجاوز التنبؤ النقي للنموذج. يتم مناقشته بشكل منفصل أدناه جنبًا إلى جنب مع المرشح الأعلى تصنيفًا.
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-No product is currently registered or marketed (0 authorizations on file).
+يتم تحديد بيانات آلية العمل التفصيلية للبريستيرون كفجوة بيانات في حزمة الأدلة هذه. بناءً على المعلومات المتاحة، البريستيرون هو مقدم أندروجين كظري (DHEA داخلي المنشأ)؛ لا يتم تسجيل أي مؤشر أصلي معتمد هنا، لذلا لا يمكن استخدام ملف الكفاءة المعروف فيه لتثبيت التنبؤات الجديدة.
 
----
+بالنسبة للمرشح الأعلى ترتيبًا والخمسة مرشحين آخرين لاضطرابات الجلطات الزائدة/نقص عوامل التخثر (الترتيبات 1، 2، 3، 4، 6، و9-10 إلى حد ما أقل)، الأمراض الأساسية هي اضطرابات فرط التخثر أو عوامل التخثر التي ستتطلب بشكل عام آلية مضادة للتخثر أو استبدال عوامل للعلاج. المركبات الأندروجينية مثل DHEA مرتبطة صيدلانيًا بتحفيز كريات الدم الحمراء واتجاه **مؤيد للتخثر** وليس مضاد للجلطات — وهو الاتجاه المدعوم بشكل غير مباشر بواسطة أحد الأوراق المسترجعة (PMID 24152686)، تقرير حالة لورم Leydig المبيضي الذي يسبب فرط الأندروجينية الشديد وكثرة الحمر وانسداد الرئة المتكرر. يشير هذا إلى أن قرب التضمين في TxGNN لهذه المرشحين قد ينعكس عن تجاور طوبولوجيا الرسم البياني بين "الغدد الصماء" و"الهيموستاسيس" في الأحياء الجينية وليس آلية علاجية حقيقية، وفي بعض الحالات قد يعمل اتجاه التأثير في الاتجاه المعاكس لما يتطلبه العلاج.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+يقف المرشح تصلب الجلد الجهازي (الترتيب 7) بمعزل عن الآخرين: ستة دراسات أترابية مستقلة تبلغ باستمرار أن المرضى الذين يعانون من التهاب الأنسجة الضامة المتصلب الجهازي لديهم مستويات مصل DHEA/DHEA-S **أقل بكثير** بشكل ملحوظ، ويرتبط ذلك بشدة المرض. يشكل هذا فرضية متماسكة "نقص الهرمون → الاستبدال" (الخصائص المعروفة للـ DHEA المعدلة للمناعة والمضادة للالتهابات يمكن أن تعالج بشكل معقول نقص محور ما تحت المهاد-الغدة النخامية-الكظرية/الأندروجين الكظري الذي يُرى في SSc). ومع ذلك، جميع الدراسات الستة ارتباطات ملاحظة بين مستوى الهرمون الداخلي وحالة المرض — لا أحد منها تجربة تدخلية لعلاج DHEA — لذلك تبقى السببية والفاعلية غير محددة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold** (top-ranked candidate, Heparin Cofactor II Deficiency) — **with Scleroderma flagged separately as a Research Question**
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة (للمرشح الأعلى ترتيبًا، نقص عامل هيبارين المساعد 2، أو أي من المرشحين التسعة الآخرين).
 
-**Rationale:**
-- The top TxGNN-ranked candidate and 8 of the remaining 9 candidates have no clinical trial or literature support (L5, pure model prediction), and several (thrombophilia-spectrum diseases) run mechanistically counter to DHEA's known procoagulant/androgenic tendency.
-- The one candidate with actual supporting evidence, scleroderma, is based entirely on observational association (low endogenous DHEA-S correlating with disease severity) rather than interventional data, so it warrants tracking as a research question rather than a Go decision.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently a blocking data gap)
-- Detailed original mechanism of action (MOA) data from DrugBank or equivalent source
-- For scleroderma: an interventional trial of exogenous DHEA supplementation in SSc patients to establish causality/efficacy, not just association
-- For the six thrombophilia-spectrum candidates: a targeted pharmacology review to confirm/refute the apparent procoagulant-direction conflict before any further evaluation
+## دليل الأدبيات
+
+بالنسبة للمرشح الأعلى ترتيبًا (نقص عامل هيبارين المساعد 2): لا توجد حالياً أدبيات ذات صلة متاحة.
+
+توجد أدبيات لمرشحين ترتيب أقل وتُلخص هنا للاكتمال:
+
+**الترتيب 4 — الجلطات الزائدة**
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|--------|--------|------------|
+| [23683262](https://pubmed.ncbi.nlm.nih.gov/23683262/) | 2013 | أترابية/حالة-ضابطة | J Chin Med Assoc | الجلطات الزائدة المرتبطة بفقدان الحمل المتكرر في مرضى PCOS — ليست دراسة تدخل DHEA |
+| [25531921](https://pubmed.ncbi.nlm.nih.gov/25531921/) | 2015 | مراجعة/إرشادات | Hum Fertil | إرشادات ممارسة المساعدة على الإنجاب (IVF) المرافقة؛ قد تشير إلى DHEA كعامل مرافق لاستجابة المبيض، وليس لعلاج الجلطات الزائدة |
+| [24152686](https://pubmed.ncbi.nlm.nih.gov/24152686/) | 2014 | تقرير حالة | J Clin Endocrinol Metab | ورم Leydig المبيضي → فرط أندروجينية شديد، كثرة الحمر، وانسداد رئة متكرر — إشارات لخطر مدفوع بالأندروجينية **للجلطات**، وليس الفائدة |
+| [6241118](https://pubmed.ncbi.nlm.nih.gov/6241118/) | 1984 | مراجعة | Clin Obstet Gynecol | الفيزيولوجيا المرضية لارتفاع ضغط الدم الناجم عن الحمل؛ لا توجد علاقة DHEA-جلطات زائدة مباشرة |
+
+**الترتيب 7 — تصلب الجلد الجهازي (التهاب الأنسجة الضامة المتصلب)**
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|--------|--------|------------|
+| [9159534](https://pubmed.ncbi.nlm.nih.gov/9159534/) | 1997 | أترابية | Br J Rheumatol | بروتين ارتفاع البرولاكتين / انخفاض DHEA-S في المرضى الذين يعانون من تصلب الجلد الجهازي الشديد |
+| [11247320](https://pubmed.ncbi.nlm.nih.gov/11247320/) | 2001 | أترابية | Clin Exp Rheumatol | تم تقييم مستويات DHEA-S مقابل شدة مرض SSc |
+| [12073659](https://pubmed.ncbi.nlm.nih.gov/12073659/) | 2002 | مراجعة | Orvosi Hetilap | الأندروجينات الكظرية/الغدد التناسلية (بما فيها DHEA) المضمونة في الفيزيولوجيا المرضية لالتهاب المفاصل المناعي الذاتي متعدد الغدد؛ تأثير مثبط للمناعة عبر منع IL-6 |
+| [16855152](https://pubmed.ncbi.nlm.nih.gov/16855152/) | 2006 | أترابية | Ann N Y Acad Sci | مستويات الأندروجينات والبرولاكتين في SSc مقابل شدة المرض |
+| [17086608](https://pubmed.ncbi.nlm.nih.gov/17086608/) | 2006 | أترابية | J Rheumatol | استجابة قشرية/نخاعية كظرية مكتومة لنقص السكر في الدم في مرضى SSc قبل سن اليأس |
+| [25524921](https://pubmed.ncbi.nlm.nih.gov/25524921/) | 2015 | أترابية | Rheumatology (Oxford) | حالة الأندروجين في مرضى SSc بعد سن اليأس |
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+لا يتم تسجيل أي منتج أو تسويقه حالياً (0 تفويضات على الملف).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: اعتمد** (المرشح الأعلى ترتيبًا، نقص عامل هيبارين المساعد 2) — **مع تصلب الجلد الجهازي المحدد بشكل منفصل كسؤال بحثي**
+
+**المبرر:**
+- المرشح الأعلى ترتيبًا من TxGNN و8 من المرشحين المتبقين التسعة ليس لديهم دعم تجارب سريرية أو أدبيات (L5، تنبؤ نموذج نقي)، وعدة منها (أمراض طيف الجلطات الزائدة) تعمل ضد الاتجاه الآلي المعروف للـ DHEA ذو الميل للتخثر/الأندروجين.
+- المرشح الوحيد ذو الدعم الفعلي من الأدبيات، تصلب الجلد الجهازي، يعتمد بالكامل على الارتباط الملاحظة (انخفاض DHEA-S الداخلي يرتبط بشدة المرض) وليس بيانات التدخل، لذلك يستحق التتبع كسؤال بحثي وليس قرار "انطلاق".
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة حزمة TFDA/SFDA وموانع الاستعمال (حالياً فجوة بيانات محظرة)
+- بيانات آلية عمل أصلية تفصيلية (MOA) من DrugBank أو مصدر معادل
+- بالنسبة لتصلب الجلد الجهازي: تجربة تدخلية لمكملات DHEA الخارجية في مرضى SSc لإثبات السببية/الفاعلية، وليس المجرد الارتباط
+- للمرشحين الستة من طيف الجلطات الزائدة: مراجعة صيدلانية موجهة لتأكيد/دحض الصراع الظاهري ذو الاتجاه المؤيد للتخثر قبل أي تقييم إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

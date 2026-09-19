@@ -29,81 +29,82 @@ indication_count: 9
 
 </div>
 
-# Acetylsalicylic Acid: From Analgesia & Antiplatelet to Migraine with Brainstem Aura
+# حمض الأسيتيل ساليسيليك: من التسكين والتأثير المضاد للصفائح إلى الصداع النصفي مع هالة جذع الدماغ
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Acetylsalicylic acid (Aspirin) is one of the world's most extensively studied medicines, originally established for analgesia, fever reduction, and antiplatelet cardiovascular protection.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**, a rare subtype of migraine with aura involving reversible brainstem symptoms such as dysarthria, vertigo, and diplopia,
-with **0 clinical trials** and **19 publications** currently supporting this specific direction.
+حمض الأسيتيل ساليسيليك (الأسبرين) هو أحد الأدوية الأكثر دراسة على نطاق واسع في العالم، والذي تم تأسيسه في الأصل للتسكين وخفض الحمى والحماية المضادة للصفائح القلبية الوعائية.
+نموذج TxGNN يتنبأ بأنه قد يكون فعالاً للـ **الصداع النصفي مع هالة جذع الدماغ**، وهو نوع نادر من الصداع النصفي مع الهالة يتضمن أعراض برمجية عكسية قابلة للعكس مثل عسر الكلام والدوار والرؤية المزدوجة،
+مع **0 تجربة سريرية** و**19 منشورة** تدعم هذا الاتجاه المحدد حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البيان | المحتوى |
 |------|------|
-| Original Indication | Analgesia, antipyretic, antiplatelet (established uses; no Saudi Arabia SFDA registration in current dataset) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| دواعي الاستخدام الأصلية | التسكين، خافض الحرارة، مضاد للصفائح (استخدامات مثبتة؛ لا توجد تسجيلة لدى الهيئة العامة للغذاء والدواء السعودية في مجموعة البيانات الحالية) |
+| دواعي الاستخدام الجديدة المتنبأ بها | الصداع النصفي مع هالة جذع الدماغ |
+| درجة التنبؤ من TxGNN | 99.94% |
+| مستوى الأدلة | L3 |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Acetylsalicylic acid (ASA) works primarily by irreversibly inhibiting cyclooxygenase enzymes (COX-1 and COX-2), blocking the production of prostaglandins and thromboxane A₂ (TXA₂). Although formal DrugBank MOA data was not retrieved for this report, ASA's pharmacology is among the most well-characterized in medicine. Its analgesic and anti-inflammatory effects come from reduced prostaglandin synthesis at peripheral and central pain pathways, while its antiplatelet action stems from permanent inactivation of COX-1 in platelets — preventing TXA₂-mediated aggregation and vasoconstriction.
+يعمل حمض الأسيتيل ساليسيليك بشكل أساسي من خلال منع إنزيمات الأكسدة الحلقية (COX-1 و COX-2) بشكل غير عكسي، مما يوقف إنتاج البروستاجلاندينات وثرومبوكسان A₂ (TXA₂). على الرغم من أن بيانات آلية العمل الرسمية من DrugBank لم يتم استرجاعها لهذا التقرير، إلا أن الفارماكولوجيا الخاصة بحمض الأسيتيل ساليسيليك من بين الأكثر توصيفاً في الطب. تأتي تأثيراته المسكنة والمضادة للالتهاب من تقليل تخليق البروستاجلاندينات في مسارات الألم المحيطية والمركزية، بينما ينجم عمله المضاد للصفائح عن تعطيل COX-1 بشكل دائم في الصفائح الدموية — مما يمنع تجميع TXA₂ والتضيق الوعائي.
 
-Migraine with brainstem aura (formerly known as basilar-type migraine) is characterized by fully reversible brainstem symptoms — including dysarthria, vertigo, tinnitus, diplopia, and bilateral paresthesias — that develop gradually before the headache phase. The core mechanisms involve cortical spreading depression (CSD) and trigeminovascular system activation with neurogenic inflammation. ASA's COX inhibition reduces prostaglandin synthesis at trigeminal nerve terminals, potentially lowering the neuroinflammatory threshold for aura generation. Critically, ASA's antiplatelet effect may also reduce microemboli that can initiate CSD — a particularly compelling link for the brainstem aura subtype, which shares overlapping vascular and platelet-dependent pathways with conditions such as patent foramen ovale (PFO)-associated migraine.
+الصداع النصفي مع هالة برمجية (المعروف سابقاً بالصداع النصفي من النوع القاعدي) يتميز بأعراض برمجية عكسية قابلة للعكس بالكامل — بما فيها عسر الكلام والدوار والطنين والرؤية المزدوجة والتنمل الثنائي الجانب — التي تتطور تدريجياً قبل مرحلة الصداع. تتضمن الآليات الأساسية الاكتئاب الانتشاري القشري (CSD) وتفعيل نظام التقسيم الثالث من العصب الخماسي مع الالتهاب العصبي. قد يقلل منع COX بواسطة حمض الأسيتيل ساليسيليك من تخليق البروستاجلاندينات على نهايات الأعصاب الثلاثية، مما قد يقلل من عتبة الالتهاب العصبي لتوليد الهالة. بشكل حاسم، قد يقلل التأثير المضاد للصفائح لحمض الأسيتيل ساليسيليك أيضاً من الانصمامات الدقيقة التي يمكن أن تبدأ CSD — وهو ارتباط مقنع بشكل خاص لنوع هالة جذع الدماغ، الذي يشاركه مسارات معتمدة على الأوعية الدموية والصفائح متداخلة مع حالات مثل الصداع النصفي المرتبط بفتحة الأوعية الدموية (PFO).
 
-Clinical plausibility is reinforced by existing evidence: a double-blind RCT (PMID 10448545) demonstrated intravenous ASA efficacy in acute migraine with or without aura, and a retrospective cohort study of 203 migraine-with-aura patients (PMID 25729594) evaluated low-dose ASA specifically for prophylaxis. An observational case series (PMID 29017164) and a 2025 systematic review (PMID 39989443) further explore antithrombotic drugs — including ASA — in migraine prevention. The finding that switching from ASA to clopidogrel (another antiplatelet) reduced migraine-with-aura frequency post-PFO closure (PMID 16103551) also points to platelet-mediated 5-HT dynamics as an active pathway that ASA may modulate in brainstem aura.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+تعزز القابلية الإكلينيكية الأدلة الموجودة: أثبتت تجربة عشوائية مضبوطة بالدواء الوهمي (PMID 10448545) فعالية حمض الأسيتيل ساليسيليك الوريدي في الصداع النصفي الحاد مع أو بدون هالة، وأثبتت دراسة مجموعة استرجاعية لـ 203 مرضى صداع نصفي مع هالة (PMID 25729594) حمض الأسيتيل ساليسيليك بجرعة منخفضة على وجه التحديد للوقاية. يستكشف مسلسل حالات ملاحظة (PMID 29017164) ومراجعة منهجية عام 2025 (PMID 39989443) علاوة على ذلك الأدوية المضادة للتخثر — بما فيها حمض الأسيتيل ساليسيليك — في الوقاية من الصداع النصفي. إن اكتشاف أن التحول من حمض الأسيتيل ساليسيليك إلى كلوبيدوجريل (مضاد صفائح آخر) أقلل من تكرار الصداع النصفي مع الهالة بعد إغلاق PFO (PMID 16103551) يشير أيضاً إلى ديناميات 5-HT التي تعتمد على الصفائح كمسار نشط قد يعدله حمض الأسيتيل ساليسيليك في هالة جذع الدماغ.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT (Double-blind) | Cephalalgia | 278 patients with acute migraine (with or without aura) randomized to IV lysine-ASA (equiv. 1 g ASA), sumatriptan 6 mg SC, or placebo; ASA demonstrated significant efficacy in acute migraine relief compared to placebo |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic Review | Headache | Most up-to-date systematic review exploring antithrombotic drugs — including ASA — as migraine preventive therapy; directly addresses the repurposing question |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective Cohort | Current Health Sciences Journal | 203 migraine with aura (MA) patients; 95 (46.8%) treated with low-dose ASA as antiplatelet prophylaxis; evaluated efficacy and tolerability specifically in MA prevention |
-| [29017164](https://pubmed.ncbi.nlm.nih.gov/29017164/) | 2017 | Observational Case Series | European Neurology | Observational case series directly assessing aspirin prophylaxis outcomes in migraine with aura patients |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline Review (AHS) | Headache | American Headache Society 2015 evidence assessment of acute migraine pharmacotherapies; classifies ASA among evidence-supported acute migraine treatments |
-| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | Review | Revue Neurologique | Comprehensive review of migraine with aura covering CSD as the pivotal aura mechanism, ICHD-III criteria, and pathophysiology — provides mechanistic context for ASA's potential targets |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Clinical Study | Heart | Reports that switching anticoagulation from aspirin to clopidogrel after transcatheter PFO closure significantly reduced migraine with aura episodes; supports platelet-dependent antiplatelet mechanism in migraine with aura |
-| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | Review | Current Pain and Headache Reports | Reviews pathophysiologic, epidemiologic, and clinical differences between migraine with and without aura, including risk implications and management considerations |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA trial: percutaneous PFO closure vs medical therapy in migraine with aura patients refractory to treatment; contextualizes vascular and embolic mechanisms in migraine with aura pathophysiology |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurology International | Reviews pharmacological treatment of migraine; identifies aspirin and caffeine-containing combination analgesics as standard of care for mild-to-moderate migraine attacks, including those with aura |
+لا توجد تجارب سريرية مسجلة ذات صلة حالياً.
 
 ---
 
-## Safety Considerations
+## أدلة الأدب الطبي
 
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | تجربة عشوائية مضبوطة بالدواء الوهمي | Cephalalgia | 278 مريضاً بصداع نصفي حاد (مع أو بدون هالة) تم توزيعهم عشوائياً على حمض الأسيتيل ساليسيليك الليسين الوريدي (معادل 1 غرام من حمض الأسيتيل ساليسيليك)، أو سوماتريبتان 6 ملغ تحت الجلد، أو دواء وهمي؛ أظهر حمض الأسيتيل ساليسيليك فعالية كبيرة في تخفيف الصداع النصفي الحاد مقارنة بالدواء الوهمي |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | مراجعة منهجية | Headache | المراجعة المنهجية الأكثر حداثة لاستكشاف الأدوية المضادة للتخثر — بما فيها حمض الأسيتيل ساليسيليك — كعلاج وقائي للصداع النصفي؛ يعالج مباشرة سؤال إعادة الاستخدام |
+| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | دراسة مجموعة استرجاعية | Current Health Sciences Journal | 203 مريضاً بصداع نصفي مع هالة (MA)؛ 95 (46.8%) عولجوا بحمض الأسيتيل ساليسيليك بجرعة منخفضة كوقاية مضادة للصفائح؛ تقيم الفعالية والتحمل على وجه التحديد في الوقاية من الصداع النصفي مع الهالة |
+| [29017164](https://pubmed.ncbi.nlm.nih.gov/29017164/) | 2017 | مسلسل حالات ملاحظة | European Neurology | مسلسل حالات ملاحظة يقيم مباشرة نتائج الوقاية بحمض الأسيتيل ساليسيليك لدى مرضى الصداع النصفي مع الهالة |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | مراجعة إرشادات (AHS) | Headache | تقييم جمعية الصداع الأمريكية لعام 2015 لأدوية العلاج الحاد للصداع النصفي؛ يصنف حمض الأسيتيل ساليسيليك بين العلاجات المدعومة بالأدلة للصداع النصفي الحاد |
+| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | مراجعة | Revue Neurologique | مراجعة شاملة للصداع النصفي مع الهالة تغطي CSD كآلية محورية للهالة، ومعايير ICHD-III، وأمراض الفيزيولوجيا — توفر سياقاً آليات لأهداف حمض الأسيتيل ساليسيليك المحتملة |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | دراسة سريرية | Heart | تقارير أن التحول من مضادات التخثر من حمض الأسيتيل ساليسيليك إلى كلوبيدوجريل بعد إغلاق PFO عبر الجلد قلل بشكل كبير من نوبات الصداع النصفي مع الهالة؛ يدعم آلية مضادة للصفائح تعتمد على الصفائح في الصداع النصفي مع الهالة |
+| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | مراجعة | Current Pain and Headache Reports | يراجع الفروقات الفيزيولوجية والوبائية والسريرية بين الصداع النصفي مع وبدون هالة، بما فيها آثار الخطر والاعتبارات الإدارية |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | تجربة عشوائية | European Heart Journal | تجربة PRIMA: إغلاق PFO عبر الجلد مقابل العلاج الطبي في مرضى الصداع النصفي مع الهالة المقاومين للعلاج؛ يضع في السياق الآليات الوعائية والانصمامية في أمراض الفيزيولوجيا المرضية للصداع النصفي مع الهالة |
+| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | مراجعة | Neurology International | يراجع العلاج الدوائي للصداع النصفي؛ يحدد حمض الأسيتيل ساليسيليك ومسكنات الألم التي تحتوي على الكافيين كمعيار معايير الرعاية لنوبات الصداع النصفي الخفيفة إلى المتوسطة، بما فيها تلك التي بها هالة |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ورقة معلومات الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-While no clinical trials are registered specifically for migraine with brainstem aura, a 1999 double-blind RCT confirmed ASA efficacy in acute migraine with aura, retrospective and observational data directly support low-dose ASA prophylaxis in migraine with aura, and a 2025 systematic review has explicitly examined antithrombotics in this setting — collectively placing this TxGNN prediction within a biologically plausible and clinically explored framework. Evidence is currently at L3 (observational studies and systematic review), without a completed Phase 2/3 RCT targeting the brainstem aura subtype specifically.
+---
 
-**To proceed, the following is needed:**
-- A prospective RCT or well-powered observational study specifically targeting **migraine with brainstem aura** (ICHD-III defined) rather than migraine with aura broadly
-- Retrieval of complete MOA and safety data from DrugBank (DG002) and the SFDA/FDA package insert (DG001), including key warnings, contraindications, and drug–drug interactions
-- Dose definition: clarify whether prophylactic low-dose (75–100 mg/day) or acute-treatment doses (900–1000 mg) are more appropriate for this indication
-- Clarification of the Saudi Arabia SFDA registration status: aspirin is universally available globally, but the current dataset shows no SFDA registration — a registry cross-check is recommended before any formal submission pathway is planned
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+على الرغم من عدم تسجيل أي تجارب سريرية على وجه التحديد للصداع النصفي مع هالة جذع الدماغ، أكدت تجربة عشوائية مضبوطة بالدواء الوهمي عام 1999 فعالية حمض الأسيتيل ساليسيليك في الصداع النصفي الحاد مع هالة، وتدعم البيانات الاستردادية والملاحظة وقاية حمض الأسيتيل ساليسيليك بجرعة منخفضة مباشرة في الصداع النصفي مع الهالة، وقد فحصت مراجعة منهجية عام 2025 صراحة مضادات التخثر في هذا الإطار — مما يضع تنبؤ TxGNN هذا جماعياً ضمن إطار عمل معقول بيولوجياً وتم استكشافه سريرياً. الأدلة موجودة حالياً في L3 (دراسات ملاحظة ومراجعة منهجية)، بدون تجربة المرحلة 2/3 المكتملة التي تستهدف نوع فرعي من هالة جذع الدماغ على وجه التحديد.
+
+**للمتابعة، يلزم ما يلي:**
+- تجربة عشوائية محتملة أو دراسة ملاحظة قوية الطاقة تستهدف على وجه التحديد **الصداع النصفي مع هالة جذع الدماغ** (معرّف ICHD-III) بدلاً من الصداع النصفي مع الهالة على نطاق واسع
+- استرجاع بيانات الآلية والسلامة الكاملة من DrugBank (DG002) وورقة معلومات الحزمة SFDA/FDA (DG001)، بما فيها التحذيرات الرئيسية والموانع والتفاعلات الدوائية
+- تحديد الجرعة: توضيح ما إذا كانت جرعات الوقاية المنخفضة (75–100 ملغ/يوم) أو جرعات العلاج الحاد (900–1000 ملغ) أكثر ملاءمة لهذا الاستطباب
+- توضيح حالة التسجيل لدى الهيئة العامة للغذاء والدواء السعودية: حمض الأسيتيل ساليسيليك متاح عالمياً بشكل عام، لكن مجموعة البيانات الحالية لا تظهر أي تسجيلة لدى SFDA — يُوصى بفحص السجل التقاطعي قبل التخطيط لأي مسار تقديم رسمي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

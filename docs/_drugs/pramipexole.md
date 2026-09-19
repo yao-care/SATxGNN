@@ -29,91 +29,92 @@ indication_count: 10
 
 </div>
 
-# Pramipexole: From Parkinson's Disease/RLS to Attention-Deficit/Hyperactivity Disorder
+# برامبيكسول: من داء باركنسون / متلازمة تململ الساقين إلى اضطراب نقص الانتباه / فرط النشاط
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Pramipexole is a non-ergot dopamine D2/D3 receptor agonist internationally known for treating Parkinson's disease and restless legs syndrome (this original-indication detail is public knowledge, not present in this evidence pack, since the drug is not licensed in Saudi Arabia).
-> The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**,
-> but only **1 clinical trial** (rated low relevance) and **9 publications** (none a direct ADHD RCT) currently support this direction, and the proposed mechanism runs opposite to standard ADHD pharmacology.
+> برامبيكسول هو ناهض مستقبل الدوبامين D2/D3 غير الإرغوتيني معروف دوليًا لعلاج داء باركنسون ومتلازمة تململ الساقين (هذه تفاصيل الاستطباب الأصلي معرفة عامة، غير موجودة في هذه حزمة الأدلة، لأن الدواء غير مرخص في المملكة العربية السعودية).
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **اضطراب نقص الانتباه / فرط النشاط (ADHD)**،
+> لكن فقط **تجربة سريرية واحدة** (تقييم ذي صلة منخفضة) و**9 منشورات** (لا توجد أي منها دراسة عشوائية محكومة مباشرة لـ ADHD) تدعم هذا الاتجاه حاليًا، والآلية المقترحة تعارض الصيدلة القياسية لـ ADHD.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in evidence pack (drug not marketed in Saudi Arabia, no license records; publicly known for Parkinson's disease / RLS) |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder |
-| TxGNN Prediction Score | 99.99% (model rank 93) |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| الاستطباب الأصلي | لم يتم توثيقه في حزمة الأدلة (الدواء غير مسوق في المملكة العربية السعودية، لا توجد سجلات ترخيص؛ معروف علنًا لداء باركنسون / متلازمة تململ الساقين) |
+| الاستطباب الجديد المتنبأ به | اضطراب نقص الانتباه / فرط النشاط |
+| درجة التنبؤ TxGNN | 99.99% (رتبة النموذج 93) |
+| مستوى الأدلة | L4 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر (سؤال بحثي) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap, DG002). Based on publicly known pharmacology, pramipexole is a non-ergoline dopamine D2/D3 receptor agonist, originally developed for Parkinson's disease and later extended to restless legs syndrome — indications outside the scope of this evidence pack since the drug is not registered in Saudi Arabia.
+حاليًا، بيانات آلية العمل التفصيلية غير متوفرة (مشار إليها كفجوة بيانات عالية الخطورة، DG002). بناءً على الصيدلة المعروفة علنًا، برامبيكسول هو ناهض دوبامين D2/D3 غير الإرغوتيني، تم تطويره في الأصل لداء باركنسون وتم توسيعه لاحقًا إلى متلازمة تململ الساقين - استطبابات خارج نطاق حزمة الأدلة هذه حيث أن الدواء غير مسجل في المملكة العربية السعودية.
 
-The mechanistic rationale for ADHD is genuinely double-edged. ADHD's dopamine hypothesis (reduced prefrontal-striatal dopaminergic transmission) theoretically supports testing a dopamine agonist. However, at low doses pramipexole preferentially activates presynaptic D2/D3 autoreceptors, which can **decrease** rather than increase net dopamine release — the opposite direction from standard ADHD pharmacotherapy (e.g., methylphenidate, a dopamine reuptake inhibitor that increases synaptic dopamine). This makes the mechanistic linkage speculative and directionally uncertain rather than a straightforward extension of known pharmacology.
+الحجة الآلية لـ ADHD حقيقية ثنائية الحدود. فرضية الدوبامين في ADHD (تقليل النقل الدوبامينرجي في المسارات الموضعية بالقشرة المخية) تدعم نظريًا اختبار ناهض الدوبامين. ومع ذلك، في الجرعات المنخفضة، يقوم برامبيكسول بتفعيل المستقبلات الآلية قبل المشبكية D2/D3 بشكل تفضيلي، وهذا قد **يقلل** بدلاً من زيادة إطلاق الدوبامين الصافي - الاتجاه المعاكس من العلاج الصيدلاني القياسي لـ ADHD (على سبيل المثال، methylphenidate، مثبط استرجاع الدوبامين الذي يزيد من الدوبامين المشبكي). هذا يجعل الارتباط الآلي تخمينيًا واتجاهه غير مؤكد بدلاً من امتداد مباشر للصيدلة المعروفة.
 
-Consistent with this, the only clinical trial retrieved (NCT00558766) was conducted in Parkinson's disease patients studying reward signaling, not ADHD patients, and was graded "C" (low relevance, likely a TxGNN noise match). None of the nine associated publications are ADHD-focused RCTs — most concern restless legs syndrome, periodic leg movements, or Tourette's syndrome, conditions that share dopaminergic biology with ADHD but are not equivalent to it.
+في الاتساق مع هذا، كانت التجربة السريرية الوحيدة المسترجعة (NCT00558766) قد أجريت على مرضى داء باركنسون تدرس إشارات المكافآت، وليس مرضى ADHD، وتم تقييمها بـ "C" (صلة منخفضة، ربما ارتباط موجب كاذب من TxGNN مع ADHD). لا توجد أي من المنشورات التسع المرتبطة بها دراسات عشوائية محكومة موجهة نحو ADHD - معظمها يتعلق بمتلازمة تململ الساقين والحركات الدورية للساقين أو متلازمة توريت، وهي حالات تشترك في الأحياء الدوبامينرجية مع ADHD لكنها ليست مكافئة له.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00558766](https://clinicaltrials.gov/study/NCT00558766) | N/A | Completed | 35 | Studied motor cortex reward signaling in Parkinson's disease patients on dopaminergic medications (via TMS); not an ADHD trial — graded low relevance (Grade C), likely a TxGNN false-positive link to ADHD. |
+| [NCT00558766](https://clinicaltrials.gov/study/NCT00558766) | N/A | مكتملة | 35 | درست إشارات المكافآت للقشرة الحركية في مرضى داء باركنسون على أدوية دوبامينرجية (عبر TMS)؛ ليست تجربة ADHD - تم تقييمها بصلة منخفضة (الدرجة C)، وربما تكون ارتباطًا موجب كاذب من TxGNN مع ADHD. |
 
 ---
 
-## Literature Evidence
+## أدلة المرجعيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT | Movement Disorders | Multicenter placebo-controlled trial of pramipexole for Tourette's syndrome, testing whether dopamine normalization affects tic disorders (dopaminergic overlap with ADHD, not a direct ADHD trial). |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | RCT | Clinical Neuropharmacology | 11-week trial comparing piribedil vs. pramipexole/ropinirole on vigilance/cognition in Parkinson's disease with excessive daytime sleepiness. |
-| [15540638](https://pubmed.ncbi.nlm.nih.gov/15540638/) | 2004 | Cohort | Developmental Medicine & Child Neurology | Periodic leg movements in prepubertal children with sleep disturbance; notes dopamine agonist (pramipexole) response in a pediatric population overlapping with ADHD comorbidity. |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | Review of restless-legs syndrome pathophysiology and dopaminergic treatment, a condition frequently comorbid with ADHD. |
-| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatric Disease and Treatment | Review of pramipexole's repurposed use in restless legs syndrome, illustrating precedent for indication expansion via the dopaminergic pathway. |
-| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Case Report | Frontiers in Pain Research | Case of chronic low back pain and oral dysesthesia comorbid with ADHD, treated with atomoxetine plus pramipexole, achieving remission. |
-| [38649244](https://pubmed.ncbi.nlm.nih.gov/38649244/) | 2024 | Case Report | BMJ Case Reports | Hypokalaemia case in a patient with ADHD/autism on pramipexole among other medications; incidental co-mention, not an efficacy study. |
-| [24079375](https://pubmed.ncbi.nlm.nih.gov/24079375/) | 2013 | Animal Model | Journal of Motor Behavior | Spontaneously hypertensive rat model proposed for studying RLS/PLM–ADHD co-occurrence; preclinical, mechanism-oriented. |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Basic Science | Pharmacological Research | Receptor heteromerization study (α2A adrenoceptor–dopamine D4 receptor) relevant to impulsive-control disorders including ADHD; basic pharmacology, not clinical. |
+| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT | Movement Disorders | تجربة متعددة المراكز مراقبة بالعقار الوهمي لبرامبيكسول لمتلازمة توريت، واختبار ما إذا كان تطبيع الدوبامين يؤثر على اضطرابات التشنج الحركي (التداخل الدوبامينرجي مع ADHD، وليست تجربة ADHD مباشرة). |
+| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | RCT | Clinical Neuropharmacology | تجربة لمدة 11 أسبوعًا تقارن piribedil مقابل برامبيكسول / ropinirole على اليقظة / الإدراك في داء باركنسون مع النعاس المفرط أثناء النهار. |
+| [15540638](https://pubmed.ncbi.nlm.nih.gov/15540638/) | 2004 | Cohort | Developmental Medicine & Child Neurology | الحركات الدورية للساقين عند الأطفال ما قبل البلوغ مع اضطراب النوم؛ يلاحظ استجابة ناهض الدوبامين (برامبيكسول) في مجموعة سكانية من الأطفال تتداخل مع الإصابة المتزامنة لـ ADHD. |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | مراجعة لمسببات مرض متلازمة تململ الساقين والعلاج الدوبامينرجي، وهي حالة متزامنة بشكل متكرر مع ADHD. |
+| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatric Disease and Treatment | مراجعة لاستخدام برامبيكسول المعاد تقييمه في متلازمة تململ الساقين، موضحة سابقة لتوسيع الاستطباب عبر المسار الدوبامينرجي. |
+| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Case Report | Frontiers in Pain Research | حالة ألم أسفل الظهر المزمن وخلل الإحساس الفموي المتزامنة مع ADHD، تم علاجها بـ atomoxetine بالإضافة إلى برامبيكسول، مما حقق الخفض الكامل. |
+| [38649244](https://pubmed.ncbi.nlm.nih.gov/38649244/) | 2024 | Case Report | BMJ Case Reports | حالة نقص البوتاسيوم في مريض مصاب بـ ADHD / التوحد على برامبيكسول من بين أدوية أخرى؛ ذكر عارض، وليست دراسة فعالية. |
+| [24079375](https://pubmed.ncbi.nlm.nih.gov/24079375/) | 2013 | Animal Model | Journal of Motor Behavior | نموذج الفئران المصابة بفرط ضغط الدم العفوي المقترح لدراسة حدوث تزامن RLS/PLM–ADHD؛ سابق سريري، موجه نحو الآلية. |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Basic Science | Pharmacological Research | دراسة تغاير المستقبلات (مستقبل α2A الأدرينالي – مستقبل الدوبامين D4) ذات الصلة باضطرابات السيطرة على الاندفاع بما في ذلك ADHD؛ صيدلة أساسية، وليست سريرية. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Pramipexole is currently not marketed in Saudi Arabia — no license records are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as unresolved data gaps in this evidence pack — notably, TFDA package-insert warnings/contraindications are flagged as a **Blocking**-severity gap that prevents a full safety pre-assessment.)
+برامبيكسول لا يُسوق حاليًا في المملكة العربية السعودية - لا توجد سجلات ترخيص متاحة في حزمة الأدلة هذه.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold (Research Question)**
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع الاستعمال والتفاعلات الدوائية جميعها مشار إليها كفجوات بيانات غير محلولة في حزمة الأدلة هذه - وبشكل ملحوظ، يتم تصنيف تحذيرات / موانع الاستعمال في نشرة TFDA كفجوة بيانات **محجوبة** تمنع التقييم المسبق الكامل للسلامة.)
 
-**Rationale:**
-Despite a very high TxGNN prediction score, the supporting evidence is weak and the mechanistic rationale is directionally uncertain — low-dose pramipexole's autoreceptor-preferring action may reduce rather than increase dopamine tone, contrary to established ADHD pharmacology. The single retrieved clinical trial is unrelated to ADHD (Grade C relevance), and no direct ADHD RCT exists in the literature set. This corresponds to Evidence Level L4 / Decision Stage S1 — appropriate for a research question, not for clinical advancement.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank (currently a data gap, DG002, High severity)
-- TFDA/local package insert warnings and contraindications (currently a Blocking-severity data gap, DG001) — required before any S1 safety pre-assessment can proceed
-- A hypothesis-testing preclinical or pilot study clarifying net dopaminergic effect (autoreceptor vs. postsynaptic activation) at ADHD-relevant doses
-- Direct ADHD clinical trial data (none currently exist for this drug-indication pair)
-- Since pramipexole holds zero licenses in Saudi Arabia, a regulatory pathway assessment would be needed before any local development
+## الخلاصة والخطوات التالية
 
-**Note:** Within this same evidence pack, the schizophrenia signal (rank 9; Evidence Level L2, Decision Stage S2, "Proceed with Guardrails") is substantially better supported — including a completed Phase 3 add-on RCT, a positive systematic review/meta-analysis, and multiple positive RCTs — and may warrant prioritization as a nearer-term repurposing candidate over ADHD.
+**القرار: انتظر (سؤال بحثي)**
+
+**الحجة:**
+على الرغم من درجة تنبؤ TxGNN عالية جدًا، فإن الأدلة الداعمة ضعيفة والحجة الآلية غير مؤكدة الاتجاه - قد يقلل عمل برامبيكسول على المستقبلات الآلية بجرعات منخفضة درجة نغمة الدوبامين بدلاً من زيادتها، بعكس الصيدلة المعروفة لـ ADHD. التجربة السريرية الوحيدة المسترجعة غير ذات صلة بـ ADHD (صلة الدرجة C)، ولا توجد دراسة عشوائية محكومة مباشرة لـ ADHD في مجموعة المرجعيات. هذا يتوافق مع مستوى الأدلة L4 / مرحلة القرار S1 - مناسب لسؤال بحثي، وليس للتقدم السريري.
+
+**للمتابعة، يلزم ما يلي:**
+- تأكيد بيانات آلية العمل من DrugBank (حاليًا فجوة بيانات، DG002، عالية الخطورة)
+- تحذيرات / موانع الاستعمال من TFDA / النشرة المحلية (حاليًا فجوة بيانات **محجوبة**، DG001) - مطلوبة قبل أن يتمكن أي تقييم سلامة مسبق لـ S1 من المتابعة
+- دراسة سابق سريرية أو تجريبية افتراضية توضح التأثير الدوبامينرجي الصافي (تفعيل المستقبلات الآلية مقابل بعد المشبك) بجرعات ذات صلة بـ ADHD
+- بيانات التجارب السريرية المباشرة لـ ADHD (لا توجد حاليًا لزوج الدواء / الاستطباب هذا)
+- نظرًا لأن برامبيكسول لا يحمل أي تراخيص في المملكة العربية السعودية، فسيكون تقييم المسار التنظيمي مطلوبًا قبل أي تطوير محلي
+
+**ملاحظة:** ضمن حزمة الأدلة ذات الصلة، فإن إشارة الفصام (الرتبة 9؛ مستوى الأدلة L2، مرحلة القرار S2، "تابع مع الحواجز الوقائية") مدعومة بشكل أفضل بكثير - بما في ذلك تجربة إضافة المرحلة 3 المكتملة، ومراجعة نظامية / تحليل تلوي إيجابي، وتجارب عشوائية محكومة متعددة إيجابية - وقد تستحق الأولوية كمرشح لإعادة تقييم أقرب من ADHD.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

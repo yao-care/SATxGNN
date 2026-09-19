@@ -29,92 +29,93 @@ indication_count: 10
 
 </div>
 
-# Fulvestrant: From HR+/HER2- Metastatic Breast Cancer to HIV Infectious Disease
+# فولفسترانت: من سرطان الثدي النقيلي HR+/HER2- إلى عدوى فيروس نقص المناعة البشرية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Fulvestrant is a selective estrogen receptor degrader (SERD), pharmacologically established for hormone receptor-positive (HR+), HER2-negative metastatic breast cancer. The TxGNN model predicts a possible new application in **HIV infectious disease**, but this direction is currently supported by only **1 loosely related publication** (on HTLV-1, not HIV itself) and **0 clinical trials**, making the evidentiary basis very weak at this time.
+فولفسترانت هو مثبِّط مستقبلات الإستروجين الاختياري (SERD)، مثبت دوائياً لعلاج سرطان الثدي النقيلي موجب مستقبلات الهرمون (HR+) السالب HER2. ينبئ نموذج TxGNN بتطبيق جديد محتمل في **عدوى فيروس نقص المناعة البشرية (HIV)**، لكن هذا الاتجاه مدعوم حالياً بـ **منشور واحد فقط ضعيف الصلة** (حول HTLV-1 وليس HIV نفسه) و **0 تجربة سريرية**، مما يجعل الأساس الإثباتي ضعيفاً جداً في الوقت الحالي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | HR+/HER2- metastatic breast cancer (derived from evidence-pack rationale text; no formal license text available — see note below) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | سرطان الثدي النقيلي موجب مستقبلات الهرمون/سالب HER2 (مستمد من نص منطق حزمة الأدلة؛ لا يتوفر نص ترخيص رسمي - انظر الملاحظة أدناه) |
+| المؤشر الجديد المتنبأ به | عدوى فيروس نقص المناعة البشرية |
+| درجة التنبؤ بـ TxGNN | 99.91% |
+| مستوى الدليل | L5 |
+| حالة التسويق في المملكة العربية السعودية | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تعليق |
 
-**Note:** `taiwan_regulatory.licenses` is empty and `drug.original_moa` is flagged as a data gap in the source pack, so the original indication above is inferred from the mechanistic description embedded in the pack's own repurposing-rationale text (see rank 2 entry), not from a formal label or licensing record.
-
----
-
-## Why is This Prediction Reasonable?
-
-Formal mechanism-of-action data for fulvestrant was not available in this evidence pack (flagged as a data gap). Based on information embedded elsewhere in the pack, fulvestrant is a selective estrogen receptor degrader (SERD) with proven efficacy in HR+/HER2- metastatic breast cancer, acting by binding and degrading the estrogen receptor to block estrogen-driven tumor growth.
-
-There is no established pharmacological or immunological pathway connecting estrogen receptor degradation to HIV viral replication, entry, or immune control. The evidence pack's own rationale for this prediction is explicit on this point: the only literature match is a cross-omics mechanistic study of **HTLV-1-associated myelopathy** (a distinct retrovirus and a distinct neuroinflammatory disease), which does not mention fulvestrant, estrogen receptor signaling, or HIV. The prediction therefore currently rests on the TxGNN model's high similarity score alone, without a supporting mechanistic or clinical narrative.
-
-Given this, the HIV prediction should be treated as a hypothesis-generating signal rather than a validated repurposing candidate at this stage.
+**ملاحظة:** `taiwan_regulatory.licenses` فارغة و `drug.original_moa` تم الإشارة إليها على أنها فجوة بيانات في حزمة المصدر، لذا فإن المؤشر الأصلي أعلاه مستنتج من الوصف الميكانيكي المضمن في نص منطق إعادة التطبيب الخاص بالحزمة (انظر إدخال الترتيب 2)، وليس من سجل ترخيص أو تسمية رسمية.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered.
+بيانات آلية العمل الرسمية للدواء لفولفسترانت لم تكن متاحة في حزمة الأدلة هذه (تم الإشارة إليها على أنها فجوة بيانات). بناءً على المعلومات المضمنة في مكان آخر من الحزمة، فولفسترانت هو مثبِّط مستقبلات إستروجين اختياري (SERD) مع فعالية مثبتة في سرطان الثدي النقيلي HR+/HER2-، يعمل عن طريق الارتباط وتحطيم مستقبل الإستروجين لمنع نمو الورم المدفوع بالإستروجين.
 
----
+لا توجد مسارات دوائية أو مناعية مثبتة تربط تحطيم مستقبل الإستروجين بتكاثر فيروس نقص المناعة البشرية أو الدخول أو المكافحة المناعية. حزمة الأدلة نفسها صريحة جداً في هذه النقطة: المطابقة الأدبية الوحيدة هي دراسة آلية عبر الأوميكس **لاعتلال النخاع المرتبط بـ HTLV-1** (فيروس عكسي مختلف وداء عصبي التهابي مختلف)، والتي لا تذكر فولفسترانت أو إشارة مستقبل الإستروجين أو فيروس نقص المناعة البشرية. لذلك يستند التنبؤ حالياً إلى درجة التشابه العالية لنموذج TxGNN وحدها، بدون سرد ميكانيكي أو سريري داعم.
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Cross-omics/Mechanistic (preprint) | Research Square | Multi-cohort systems-biology study of HTLV-1-associated myelopathy (HAM), a distinct retroviral neuroinflammatory disease; does not evaluate fulvestrant or HIV, and does not establish a mechanistic link to this prediction |
+بالنظر إلى ذلك، يجب معاملة تنبؤ HIV كإشارة توليد فرضيات بدلاً من مرشح إعادة تطبيب مثبت في هذه المرحلة.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Fulvestrant is not currently marketed in Saudi Arabia; no authorization records are available in this evidence pack.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Cytotoxicity
+## دليل الأدب
 
-Fulvestrant's original indication (metastatic breast cancer) qualifies it as an antineoplastic agent, so this section is included.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | عبر الأوميكس/ميكانيكية (طباعة أولية) | Research Square | دراسة متعددة المجموعات في علم الأحياء النظمية لاعتلال النخاع المرتبط بـ HTLV-1 (HAM)، وهو مرض عصبي التهابي فيروسي عكسي مختلف؛ لا تقيّم فولفسترانت أو فيروس نقص المناعة البشرية، ولا تثبت ارتباطاً ميكانيكياً بهذا التنبؤ |
 
-| Item | Content |
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+فولفسترانت غير مسوق حالياً في المملكة العربية السعودية؛ لا توجد سجلات تصريح متاحة في حزمة الأدلة هذه.
+
+---
+
+## السمية الخلوية
+
+المؤشر الأصلي لفولفسترانت (سرطان الثدي النقيلي) يؤهله كعامل مضاد للأورام، لذا يتم تضمين هذا القسم.
+
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted/endocrine therapy (Selective Estrogen Receptor Degrader, SERD) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الموجه/الهرموني (مثبِّط مستقبل الإستروجين الاختياري، SERD) - وليس دواء كيميائي سام خلوي تقليدي |
+| خطر فرط ضغط النخاع | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| بنود المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| حماية التعامل | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-The top-ranked TxGNN prediction (HIV infectious disease) has no clinical trial support and only one tangentially related preprint that does not address fulvestrant, estrogen receptor biology, or HIV directly — this corresponds to evidence level L5 (model prediction only). No plausible mechanistic pathway has been identified linking SERD activity to HIV pathophysiology.
+**المنطق:**
+التنبؤ الأعلى تصنيفاً بـ TxGNN (عدوى فيروس نقص المناعة البشرية) ليس لديه دعم من التجارب السريرية وفقط منشور واحد يتعلق بالموضوع بشكل غير مباشر لم يعالج فولفسترانت أو بيولوجيا مستقبل الإستروجين أو فيروس نقص المناعة البشرية مباشرة - وهذا يتوافق مع مستوى الدليل L5 (التنبؤ بالنموذج فقط). لم يتم تحديد مسار ميكانيكي معقول يربط نشاط SERD بالفيزيولوجيا المرضية لفيروس نقص المناعة البشرية.
 
-**To proceed, the following is needed:**
-- Formal mechanism-of-action (MOA) data for fulvestrant (currently a flagged data gap)
-- TFDA/SFDA package insert data for warnings, contraindications, and drug interactions (currently flagged as data gaps)
-- Dedicated preclinical or mechanistic studies directly testing estrogen-receptor modulation in HIV models, if this hypothesis is to be pursued further
-- Review of TxGNN's disease-ontology mapping quality: several lower-ranked predictions in this pack (e.g., "multiple endocrine neoplasia," rank 2) returned 50 clinical trials that are, on inspection, all HR+/HER2- breast cancer trials mismapped to an unrelated disease node — suggesting some caution is warranted when interpreting high-score/low-specificity predictions from this pack generally
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل الرسمية (MOA) لفولفسترانت (حالياً فجوة بيانات معلمة)
+- بيانات نشرة TFDA/SFDA للتحذيرات والموانع وتفاعلات الأدوية (حالياً معلمة كفجوات بيانات)
+- دراسات سابقة للسريرية أو ميكانيكية مخصصة تختبر مباشرة تعديل مستقبل الإستروجين في نماذج فيروس نقص المناعة البشرية، إذا كانت هذه الفرضية سيجري المتابعة فيها بشكل إضافي
+- مراجعة جودة خريطة تصنيف الأمراض لـ TxGNN: عدة تنبؤات ذات تصنيف أقل في هذه الحزمة (على سبيل المثال، "الأورام الغدية الصماوية المتعددة"، الترتيب 2) أرجعت 50 تجربة سريرية وهي، عند الفحص، جميعها تجارب سرطان الثدي HR+/HER2- تم ربطها بشكل خاطئ بعقدة مرضية غير ذات صلة - مما يشير إلى ضرورة توخي بعض الحذر عند تفسير التنبؤات ذات الدرجات العالية/التخصصية المنخفضة من هذه الحزمة بشكل عام
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

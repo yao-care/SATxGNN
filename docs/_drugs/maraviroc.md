@@ -29,79 +29,80 @@ indication_count: 10
 
 </div>
 
-# Maraviroc: From HIV-1 Infection to HER2-Positive Breast Carcinoma
+# مارافيروك: من عدوى HIV-1 إلى سرطان الثدي موجب HER2
 
-## Note on Candidate Selection
+## ملاحظة حول اختيار المرشحين
 
-This Evidence Pack lists 10 TxGNN-predicted indications for maraviroc. The raw top-ranked hit by score (**multiple endocrine neoplasia**, 99.82%) is explicitly flagged in its own `repurposing_rationale` as model noise — MEN is a RET/MEN1-driven endocrine syndrome with no known link to CCR5 signaling, and no supporting trials or literature exist. Eight of the ten candidates share this pattern: high TxGNN scores with no mechanistic or evidentiary support (L5), or literature that is merely HIV-comorbidity co-occurrence rather than a treatment hypothesis (candidiasis, CMV infection, cutaneous lymphomas via an unrelated receptor, ACKR1).
+توضح هذه مجموعة الأدلة 10 مؤشرات يتوقعها TxGNN لمارافيروك. أعلى ضربة مرتبة حسب الدرجة الخام (**أورام الغدد الصماء المتعددة**، 99.82%) يتم تحديدها بشكل صريح في `repurposing_rationale` الخاص بها على أنها ضوضاء نموذج — MEN هي متلازمة غدد صماء يقودها RET/MEN1 بدون ارتباط معروف بإشارة CCR5، ولا توجد تجارب أو أدبيات داعمة. ثمانية من العشرة مرشحين يتبعون هذا النمط: درجات TxGNN عالية بدون دعم ميكانيكي أو إثباتي (L5)، أو أدبيات تتعلق فقط بالتزامن المرتبط بـ HIV بدلاً من فرضية العلاج (داء المبيضات، عدوى CMV، الأورام اللمفاوية الجلدية عبر مستقبل غير ذي صلة، ACKR1).
 
-Only **rank 10 — HER2-positive breast carcinoma** — has a literature-supported, receptor-correct mechanistic hypothesis (evidence level L3, decision stage S1, "Research Question"). This report focuses on that candidate as the only scientifically defensible one in the set.
-
----
-
-## One-Sentence Summary
-
-Maraviroc is a CCR5 co-receptor antagonist used in combination antiretroviral therapy for HIV-1 infection. Among 10 TxGNN-predicted indications, the only one with a coherent, receptor-correct mechanistic rationale is **HER2-Positive Breast Carcinoma**, where a single in vitro mechanistic study — but **zero clinical trials** — supports the hypothesis that blocking CCR5 could reverse trastuzumab resistance.
+فقط **الترتيب 10 — سرطان الثدي موجب HER2** — له فرضية ميكانيكية مدعومة بالأدبيات وصحيحة على مستوى المستقبل (مستوى الدليل L3، مرحلة القرار S1، "سؤال البحث"). يركز هذا التقرير على هذا المرشح باعتباره الوحيد المدعوم علمياً في المجموعة.
 
 ---
 
-## Quick Overview
+## ملخص في جملة واحدة
 
-| Item | Content |
+مارافيروك هو معيق المستقبل المشترك CCR5 المستخدم في العلاج الفيروسي المركب للعدوى بـ HIV-1. من بين 10 مؤشرات يتوقعها TxGNN، الوحيد الذي يملك نسبة ميكانيكية متماسكة وصحيحة على مستوى المستقبل هو **سرطان الثدي موجب HER2**، حيث تدعم دراسة ميكانيكية واحدة في المختبر — لكن **صفر تجارب سريرية** — الفرضية القائلة بأن حجب CCR5 قد يعكس المقاومة لـ trastuzumab.
+
+---
+
+## نظرة عامة سريعة
+
+| البند | المحتوى |
 |------|------|
-| Original Indication | HIV-1 infection (CCR5 co-receptor antagonist, combination antiretroviral therapy) — not captured in `original_indications`/`original_moa`, which are flagged as data gaps (DG002) in this pack; inferred from drug identity and corroborating HIV/ART context across the literature evidence |
-| Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.22% (global rank 11,167) |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question stage) |
+| المؤشر الأصلي | العدوى بـ HIV-1 (معيق المستقبل المشترك CCR5، العلاج الفيروسي المركب) — لم يتم التقاطه في `original_indications`/`original_moa`، وتم تحديده كفجوات بيانات (DG002) في هذه المجموعة؛ استنتاج من هوية الدواء والسياق المرتبط بـ HIV/ART المؤيد عبر أدلة الأدبيات |
+| المؤشر الجديد المتوقع | سرطان الثدي موجب HER2 |
+| درجة تنبؤ TxGNN | 99.22% (الترتيب العالمي 11,167) |
+| مستوى الدليل | L3 |
+| حالة التسويق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار (مرحلة سؤال البحث) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for maraviroc is flagged as a data gap in this pack (DG002, High severity). Based on known information, maraviroc is a CCR5 co-receptor antagonist that blocks HIV-1 entry into CD4+ T-cells by preventing gp120 binding to CCR5; its efficacy in HIV-1 infection is well established as part of combination antiretroviral therapy.
+يتم تحديد بيانات آلية عمل مارافيروك المفصلة كفجوة بيانات في هذه المجموعة (DG002، خطورة عالية). بناءً على المعلومات المعروفة، مارافيروك هو معيق المستقبل المشترك CCR5 الذي يمنع دخول HIV-1 إلى خلايا CD4+ T بمنع ربط gp120 بـ CCR5؛ تم إثبات فعاليته في العدوى بـ HIV-1 بشكل جيد كجزء من العلاج الفيروسي المركب.
 
-The mechanistic bridge to HER2-positive breast carcinoma comes from a single in vitro study (PMID 32404410): HER2-positive breast cancer cells can autocrine-secrete the chemokine CCL5, which activates CCR5 and drives ERK pathway signaling, and this autocrine loop was shown to mediate resistance to trastuzumab. Since maraviroc directly antagonizes CCR5, it is the only receptor-correct candidate among the 10 predictions — the drug's known target directly matches the receptor implicated in the disease mechanism, unlike the other candidates, which either lack any mechanistic literature or point to a different receptor entirely (e.g., ACKR1 in the cutaneous lymphoma hits).
+الجسر الميكانيكي إلى سرطان الثدي موجب HER2 يأتي من دراسة واحدة في المختبر (PMID 32404410): خلايا سرطان الثدي الموجبة لـ HER2 يمكنها إفراز ذاتي لكيموكين CCL5، الذي ينشط CCR5 ويقود إشارة مسار ERK، وتم إظهار أن هذه الحلقة الذاتية توسط المقاومة لـ trastuzumab. بما أن مارافيروك يعيق بشكل مباشر CCR5، فهو المرشح الوحيد الصحيح على مستوى المستقبل من بين 10 تنبؤات — الهدف المعروف للدواء يطابق بشكل مباشر المستقبل المرتبط بآلية المرض، على عكس المرشحين الآخرين، الذين إما يفتقرون إلى أي أدب ميكانيكي أو يشيرون إلى مستقبل مختلف تماماً (على سبيل المثال، ACKR1 في حالات الأورام اللمفاوية الجلدية).
 
-This remains a preclinical, in vitro hypothesis only. There is no evidence yet that CCR5 blockade with maraviroc restores trastuzumab sensitivity in animal models or patients, and no clinical trials have tested this combination.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يبقى هذا فرضية ما قبل السريرية والمختبر فقط. لا يوجد دليل حتى الآن على أن حجب CCR5 بمارافيروك يستعيد حساسية trastuzumab في نماذج حيوانية أو لدى المرضى، ولم تختبر أي تجارب سريرية هذا المزيج.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | Mechanistic/In vitro | Molecular Cancer Therapeutics | Autocrine CCL5 secretion by HER2-positive breast cancer cells activates CCR5, driving ERK pathway activation and mediating resistance to trastuzumab — the mechanistic basis for testing a CCR5 antagonist in this setting |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | ميكانيكي/في المختبر | Molecular Cancer Therapeutics | يؤدي الإفراز الذاتي لـ CCL5 بواسطة خلايا سرطان الثدي الموجبة لـ HER2 إلى تنشيط CCR5، مما يقود إشارة مسار ERK والوساطة في المقاومة لـ trastuzumab — الأساس الميكانيكي لاختبار معيق المستقبل CCR5 في هذا الإطار |
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold (Research Question stage)**
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-The only mechanistically coherent prediction in this candidate set (HER2-positive breast carcinoma) is supported by a single in vitro study with no in vivo, animal, or clinical validation, and the drug is not currently marketed in Saudi Arabia. This is a research hypothesis, not an evidence base sufficient for clinical consideration.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data on warnings and contraindications (DG001, currently blocking)
-- Drug mechanism-of-action confirmation from DrugBank or equivalent (DG002)
-- In vivo (animal) validation that CCR5 blockade reverses trastuzumab resistance in HER2+ models
-- If preclinical validation succeeds, a Phase 1/2 trial design combining maraviroc with trastuzumab in trastuzumab-resistant HER2+ breast cancer patients
-- Oncology-population safety and drug-interaction data for maraviroc (none currently available; DDI query returned no results)
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار (مرحلة سؤال البحث)**
+
+**المبررات:**
+المرشح الوحيد المتماسك ميكانيكياً في هذه المجموعة (سرطان الثدي موجب HER2) مدعوم بدراسة واحدة في المختبر بدون تحقق في الجسم الحي أو الحيواني أو السريري، والدواء غير مسوق حالياً في المملكة العربية السعودية. هذه فرضية بحثية، وليست قاعدة أدلة كافية للنظر السريري.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات حزمة TFDA/التنظيمية على التحذيرات والموانع (DG001، يحجبها حالياً)
+- تأكيد آلية عمل الدواء من DrugBank أو ما يعادله (DG002)
+- تحقق في الجسم الحي (حيواني) بأن حجب CCR5 يعكس المقاومة لـ trastuzumab في نماذج HER2+
+- إذا نجح التحقق ما قبل السريري، تصميم تجربة المرحلة 1/2 الذي يجمع بين مارافيروك و trastuzumab في مرضى سرطان الثدي موجب HER2 المقاومين لـ trastuzumab
+- بيانات السلامة والتفاعلات الدوائية لمجموعة المرضى الأورام لمارافيروك (لا توجد حالياً؛ استعلام DDI لم يرجع نتائج)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

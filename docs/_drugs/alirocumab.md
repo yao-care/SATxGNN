@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-# Alirocumab: From Hypercholesterolemia to Cholesterol Catabolic Process Disease
+# أليروكوماب: من فرط كوليسترول الدم إلى أمراض عملية استقلاب الكوليسترول
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Alirocumab (Praluent®) is a PCSK9 inhibitor monoclonal antibody, globally approved for reducing LDL-cholesterol in patients with hypercholesterolemia and atherosclerotic cardiovascular disease, though not yet marketed in Taiwan.
-The TxGNN model predicts it may be effective for **Cholesterol Catabolic Process Disease** (encompassing familial hypercholesterolemia, dysbetalipoproteinemia, and related cholesterol metabolism disorders),
-with **1 completed Phase 3 clinical trial** and **19 supporting publications** — a prediction that closely mirrors the drug's established global pharmacology and confirms strong model alignment.
+أليروكوماب (Praluent®) هو جسم أحادي نوعي محرض على PCSK9، معتمد عالمياً لتقليل الكوليسترول LDL لدى المرضى الذين يعانون من فرط كوليسترول الدم وأمراض القلب والأوعية الدموية تصلبية، رغم أنه لم يتم تسويقه بعد في تايوان.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **أمراض عملية استقلاب الكوليسترول** (التي تشمل فرط كوليسترول الدم العائلي، وعدم التوازن بين البروتينات الدهنية، والاضطرابات المرتبطة باستقلاب الكوليسترول)،
+مع **1 تجربة سريرية تم إكمالها من المرحلة 3** و**19 منشور داعم** — وهي تنبؤ يعكس بشكل وثيق الصيدلة العملية المعروفة للدواء عالمياً ويؤكد على محاذاة قوية للنموذج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hypercholesterolemia / Atherosclerotic Cardiovascular Disease (global approval; no Taiwan license) |
-| Predicted New Indication | Cholesterol Catabolic Process Disease |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | فرط كوليسترول الدم / أمراض القلب والأوعية الدموية تصلبية (الموافقة العالمية؛ لا توجد ترخيص تايوان) |
+| المؤشر الجديد المتنبأ به | أمراض عملية استقلاب الكوليسترول |
+| درجة التنبؤ بـ TxGNN | 99.36% |
+| مستوى الأدلة | L1 |
+| حالة السوق في تايوان | غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع تدابير وقائية |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, alirocumab is a fully human monoclonal antibody (IgG1 class) targeting PCSK9 (proprotein convertase subtilisin/kexin type 9). Under normal physiology, circulating PCSK9 binds to LDL receptors on the surface of hepatocytes and directs them to lysosomal degradation, reducing LDL-C clearance capacity. By binding and neutralising PCSK9, alirocumab prevents this receptor degradation and allows LDL receptors to recycle back to the cell surface — increasing hepatic uptake of circulating LDL particles and reducing plasma LDL-C by approximately 50–60%.
+حالياً، بيانات تفصيلية حول آلية العمل غير متوفرة في حزمة الأدلة. بناءً على المعلومات المعروفة، أليروكوماب هو جسم أحادي نوعي بشري بالكامل (فئة IgG1) يستهدف PCSK9 (البروتياز الفرعي من نوع subtilisin/kexin الذي يحول البروتينات السلفة). تحت الفسيولوجيا الطبيعية، يرتبط PCSK9 المتداول بمستقبلات LDL على سطح الخلايا الكبدية ويوجهها إلى تحلل انحلال الخلايا الليزوسومية، مما يقلل من قدرة تصفية LDL. من خلال الارتباط وتحييد PCSK9، يمنع أليروكوماب تحلل هذا المستقبل ويسمح لمستقبلات LDL بالعودة إلى سطح الخلية — مما يزيد من امتصاص LDL الكبدي للجزيئات المتداولة ويقلل LDL-C بمعدل يتراوح بين 50–60% تقريباً.
 
-Cholesterol catabolic process disease encompasses a spectrum of conditions characterised by impaired cholesterol metabolism and clearance, including familial hypercholesterolemia (both heterozygous and homozygous forms), dysbetalipoproteinemia (type 3 hyperlipoproteinemia), and treatment-related dyslipidemia in conditions such as HIV/ART therapy. Because these conditions share the pathological feature of impaired LDL-C clearance — often driven by reduced functional LDL receptor density — alirocumab's mechanism of restoring receptor availability directly addresses the root defect.
+أمراض عملية استقلاب الكوليسترول تشمل مجموعة من الحالات التي تتميز بضعف استقلاب وتصفية الكوليسترول، بما في ذلك فرط كوليسترول الدم العائلي (كل من الأشكال غير المتجانسة والمتجانسة)، وعدم التوازن بين البروتينات الدهنية (فرط الدهنيات من النوع 3)، والخلل الشحمي المرتبط بالعلاج في حالات مثل علاج HIV/ART. لأن هذه الحالات تشترك في الخاصية المرضية المتمثلة في ضعف تصفية LDL-C — غالباً ما تنتج عن كثافة مستقبلات LDL الفعالة المنخفضة — فإن آلية عمل أليروكوماب في استعادة توفر المستقبل تعالج مباشرة العيب الأساسي.
 
-The ODYSSEY clinical programme has generated over 47,000 patient-years of placebo-controlled Phase 3 data confirming alirocumab's cardiovascular outcome benefits. The EPIC-HIV trial (NCT03207945) further extends the evidence base to HIV-infected patients with antiretroviral therapy-induced dyslipidemia, a population with uniquely elevated cardiovascular risk. The biological plausibility of the TxGNN prediction is extremely strong, and the cumulative clinical evidence comfortably meets L1 standards.
+برنامج ODYSSEY السريري أنتج أكثر من 47,000 سنة-مريض من البيانات المتحكم بها بالعقار الصوري في المرحلة 3 تؤكد فوائد نتائج أليروكوماب القلبية الوعائية. تمتد تجربة EPIC-HIV (NCT03207945) قاعدة الأدلة بشكل أكبر إلى المرضى المصابين بفيروس HIV مع خلل شحمي مستحث بعلاج مضادات الفيروسات القهقرية، وهي مجموعة سكانية ذات مخاطر قلبية وعائية عالية بشكل فريد. الإمكانية البيولوجية لتنبؤ TxGNN قوية للغاية، والأدلة السريرية التراكمية تستوفي بسهولة معايير L1.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Completed | 118 | EPIC-HIV: PCSK9 inhibition in treated HIV patients with elevated cardiovascular risk; assessed LDL-C lowering, vascular inflammation, endothelial function, and non-calcified atherosclerotic plaque burden using noninvasive imaging |
+| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | المرحلة 3 | مكتملة | 118 | EPIC-HIV: تثبيط PCSK9 لدى مرضى HIV المعالجين مع ارتفاع مخاطر القلب والأوعية الدموية؛ تقييم خفض LDL-C، والالتهاب الوعائي، والوظيفة البطانية، وعبء اللويحة تصلبة غير المكلسة باستخدام التصوير غير الغازي |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Phase 3 Trial Analysis | Eur Heart J Cardiovasc Pharmacother | ODYSSEY OUTCOMES: alirocumab significantly reduced recurrent ischaemic cardiovascular events and all-cause mortality across 47,296 patient-years; comprehensive safety profile confirmed as favourable throughout follow-up |
-| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | RCT Post-hoc Analysis | Diabetes Care | ODYSSEY OUTCOMES post-hoc: alirocumab simultaneously lowers Lp(a) and LDL-C without increasing new-onset type 2 diabetes risk — important safety reassurance for long-term use |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Systematic Review / Meta-analysis | Kardiologia Polska | PCSK9 inhibitors significantly reduce LDL-C and major adverse cardiovascular events; comprehensive synthesis of biochemical, genomic, and clinical outcome evidence |
-| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | State-of-the-art Review | Pharmacotherapy | Current and emerging PCSK9-directed therapies (mAbs, siRNA, oral inhibitors) for ASCVD risk reduction; alirocumab positioned as cornerstone non-statin lipid-lowering therapy |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Review | Signal Transduct Target Ther | Comprehensive PCSK9 review spanning lipid metabolism, liver disease, infectious disease, autoimmune disorders, and cancer; broadening therapeutic applications beyond cardiovascular disease |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Review | Curr Opin Lipidol | Two landmark PCSK9 mAb outcomes trials confirm marked LDL-C reduction and cardiovascular benefit; update on novel PCSK9 inhibition strategies in clinical development |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Review | Curr Atheroscler Rep | Novel pharmacological therapies for homozygous familial hypercholesterolemia (HoFH); PCSK9 inhibitors remain critical agents in a multimodal treatment strategy |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Review | Medicina (Kaunas) | Familial hypercholesterolemia diagnostics and treatment options; PCSK9 inhibitors indicated for patients unable to achieve LDL targets on maximally tolerated statins |
-| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Review | Int J Mol Sci | Current dyslipidemia treatment advances: PCSK9 inhibitors achieve superior LDL-C reduction vs statins alone with confirmed cardiovascular outcomes improvement |
-| [29526502](https://pubmed.ncbi.nlm.nih.gov/29526502/) | 2018 | Clinical Trial Analysis | Kidney International | Alirocumab effectively and safely lowers LDL-C in chronic kidney disease patients (eGFR 30–59 mL/min/1.73 m²); population-specific pharmacokinetic and safety data from the ODYSSEY programme |
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | تحليل التجربة السريرية من المرحلة 3 | Eur Heart J Cardiovasc Pharmacother | ODYSSEY OUTCOMES: قلل أليروكوماب بشكل كبير الأحداث القلبية الوعائية الإقفارية المتكررة والوفيات من جميع الأسباب عبر 47,296 سنة-مريض؛ تم تأكيد ملف تعريف السلامة الشامل كمؤاتي طوال المتابعة |
+| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | تحليل ما بعد التجربة العشوائية المضبوطة | Diabetes Care | تحليل ما بعد ODYSSEY OUTCOMES: يقلل أليروكوماب Lp(a) و LDL-C بشكل متزامن بدون زيادة خطر النوع 2 الجديد من السكري — تأكيد أمان مهم للاستخدام طويل الأمد |
+| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | مراجعة منهجية / التحليل التلوي | Kardiologia Polska | مثبطات PCSK9 تقلل بشكل كبير LDL-C والأحداث القلبية الوعائية الكبرى؛ التوليف الشامل لأدلة بيوكيميائية وجينومية ونتائج سريرية |
+| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | مراجعة الحالة الراهنة | Pharmacotherapy | العلاجات الموجهة نحو PCSK9 الحالية والناشئة (الأجسام الحادية نوعية، siRNA، المثبطات الفموية) لتقليل مخاطر ASCVD؛ موضع أليروكوماب كعلاج نوعي لتقليل الدهون غير الستاتين |
+| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | مراجعة | Signal Transduct Target Ther | مراجعة شاملة لـ PCSK9 تغطي استقلاب الدهون وأمراض الكبد والأمراض المعدية والاضطرابات المناعية الذاتية والسرطان؛ توسيع التطبيقات العلاجية خارج أمراض القلب والأوعية الدموية |
+| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | مراجعة | Curr Opin Lipidol | تجربتان رئيسيتان لنتائج مAb PCSK9 تؤكدان خفض LDL-C الملحوظ والفائدة القلبية الوعائية؛ تحديث على استراتيجيات تثبيط PCSK9 الجديدة في التطوير السريري |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | مراجعة | Curr Atheroscler Rep | العلاجات الدوائية الجديدة لفرط كوليسترول الدم العائلي المتجانس (HoFH)؛ تبقى مثبطات PCSK9 وكلاء حاسمين في استراتيجية علاج متعددة الأنماط |
+| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | مراجعة | Medicina (Kaunas) | تشخيص فرط كوليسترول الدم العائلي وخيارات العلاج؛ مثبطات PCSK9 مشار إليها للمرضى غير القادرين على تحقيق أهداف LDL على الستاتينات المتحمل عليها بشكل أقصى |
+| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | مراجعة | Int J Mol Sci | التطورات الحالية في علاج الخلل الشحمي: مثبطات PCSK9 تحقق خفض LDL-C أفضل مقابل الستاتينات وحدها مع تحسن نتائج القلب والأوعية الدموية المؤكد |
+| [29526502](https://pubmed.ncbi.nlm.nih.gov/29526502/) | 2018 | تحليل التجربة السريرية | Kidney International | يقلل أليروكوماب LDL-C بشكل فعال وآمن لدى مرضى مرض الكلى المزمن (eGFR 30–59 mL/min/1.73 m²)؛ بيانات حركية الدواء والسلامة المحددة بالسكان من برنامج ODYSSEY |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Alirocumab is currently **not marketed in Taiwan** — zero active TFDA licenses exist as of the data cutoff (2026-06-01).
+أليروكوماب حالياً **غير مسوّق في تايوان** — لا توجد ترخيصات TFDA نشطة في تاريخ قطع البيانات (2026-06-01).
 
-> For reference: Alirocumab (Praluent®) holds regulatory approval from the U.S. FDA (2015), European EMA (2015), and multiple other jurisdictions for hypercholesterolemia and cardiovascular risk reduction, but has not received TFDA approval. No Taiwan-specific dosage, indication, or product labelling data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+> للإشارة: يحمل أليروكوماب (Praluent®) موافقة تنظيمية من FDA الأمريكية (2015)، و EMA الأوروبية (2015)، والعديد من الاختصاصات الأخرى لفرط كوليسترول الدم وتقليل المخاطر القلبية الوعائية، لكنه لم يحصل على موافقة TFDA. لا توجد بيانات محددة لتايوان حول الجرعات أو المؤشرات أو ملصقات المنتجات.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN prediction for "cholesterol catabolic process disease" is fully consistent with alirocumab's established global pharmacology and mechanism of action. The ODYSSEY clinical programme — comprising multiple Phase 3 RCTs with over 47,000 patient-years of observation — provides definitive L1 evidence for LDL-C lowering efficacy and cardiovascular outcome benefit. The barrier to Taiwan market introduction is regulatory, not clinical.
+---
 
-**To proceed, the following is needed:**
-- TFDA New Drug Application (NDA) filing with the complete Phase 3 clinical dossier (ODYSSEY OUTCOMES and supporting trials)
-- Taiwan-specific pharmacovigilance plan and post-marketing surveillance protocol
-- Formal mechanism of action documentation for TFDA submission (filling current DG002 data gap)
-- Safety monitoring framework covering: injection site reactions, neurocognitive adverse event surveillance, and hepatic enzyme monitoring
-- Pricing and reimbursement strategy aligned with Taiwan National Health Insurance (NHI) formulary criteria and cost-effectiveness thresholds
-- Assessment of patient population size in Taiwan with familial hypercholesterolemia or statin-intolerant high-risk cardiovascular disease
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع تدابير وقائية**
+
+**المبررات:**
+تنبؤ TxGNN بـ "أمراض عملية استقلاب الكوليسترول" متسق تماماً مع الصيدلة العملية المعروفة والآلية المعروفة لأليروكوماب عالمياً. برنامج ODYSSEY السريري — الذي يشمل عدة تجارب عشوائية مضبوطة من المرحلة 3 مع أكثر من 47,000 سنة-مريض من الملاحظة — يوفر أدلة L1 حاسمة لفعالية خفض LDL-C والفائدة النتائج القلبية الوعائية. الحاجز أمام إدخال السوق في تايوان تنظيمي وليس سريرياً.
+
+**للمتابعة، يلزم ما يلي:**
+- تقديم طلب الدواء الجديد (NDA) إلى TFDA مع ملف دراسة المرحلة 3 الكامل (ODYSSEY OUTCOMES والتجارب الداعمة)
+- خطة المراقبة الدوائية المحددة لتايوان وبروتوكول المراقبة بعد التسويق
+- توثيق رسمي لآلية العمل لتقديم TFDA (ملء فجوة بيانات DG002 الحالية)
+- إطار عمل مراقبة السلامة يغطي: ردود الفعل في موقع الحقن، والمراقبة المنهجية لأحداث الجهاز العصبي المعرفي، ومراقبة إنزيمات الكبد
+- استراتيجية التسعير والتعويض المتوافقة مع معايير صيغة التأمين الصحي الوطني في تايوان (NHI) وحد التكلفة والفعالية
+- تقييم حجم السكان في تايوان المصابين بفرط كوليسترول الدم العائلي أو أمراض القلب والأوعية الدموية عالية الخطورة غير المتحملة للستاتين
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

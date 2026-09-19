@@ -29,66 +29,67 @@ indication_count: 3
 
 </div>
 
-# Favipiravir: From Antiviral Therapy to Infection-Associated Hemophagocytic Syndrome
+# فافيبيرافير: من العلاج المضاد للفيروسات إلى متلازمة الهيموفاغوسيتوسيس المرتبطة بالعدوى
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Favipiravir is a broad-spectrum RNA-dependent RNA polymerase (RdRp) inhibitor with known antiviral activity against RNA viruses; this evidence pack does not record a specific original indication or formal MOA entry for the drug. The TxGNN model predicts potential relevance to **hemophagocytic syndrome associated with an infection** (secondary HLH driven by RdRp-susceptible pathogens such as SFTS virus and Heartland virus), currently supported by **0 clinical trials** and **2 review-level publications**. Note: two other TxGNN-predicted indications (malignancy-associated HLH; a mitochondrial COX-deficiency disorder) received an equal or similar model score but carry **no supporting evidence and no plausible mechanistic link**, and are excluded from this report's primary recommendation (see rationale below).
+فافيبيرافير هو مثبط عام لبولي ميراز الحمض النووي الريبوسي المعتمد على RNA (RdRp) مع نشاط مضاد للفيروسات ضد فيروسات RNA؛ لا يسجل هذا الملف الدليلي دلالة أصلية محددة أو إدخال آلية عمل رسمية للعقار. يتنبأ نموذج TxGNN بالصلة المحتملة لـ **متلازمة الهيموفاغوسيتوسيس المرتبطة بالعدوى** (HLH ثانوي مدفوع بمسببات أمراض قابلة لـ RdRp مثل فيروس SFTS وفيروس Heartland)، يدعمها حالياً **0 من التجارب السريرية** و **منشورات على مستوى المراجعة 2**. ملاحظة: تلقت مؤشرتان أخرى متنبأ بهما من TxGNN (HLH المرتبطة بالأورام الخبيثة؛ اضطراب نقص السيتوكروم c أكسيديز الميتوكوندري) درجة نموذجية مساوية أو مشابهة لكنهما تحملان **دليلاً داعماً واحداً لا وارتباطاً آلياً معقولاً**، وتم استبعادهما من التوصية الأساسية للتقرير (انظر الأساس المنطقي أدناه).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no `original_indications` on file) |
-| Predicted New Indication | Hemophagocytic syndrome associated with an infection |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الدلالة الأصلية | غير موثقة في هذا الملف الدليلي (لا توجد `original_indications` في الملف) |
+| الدلالة الجديدة المتنبأ بها | متلازمة الهيموفاغوسيتوسيس المرتبطة بالعدوى |
+| درجة التنبؤ من TxGNN | 99.41% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, a structured mechanism-of-action entry is not available for this drug in the evidence pack (`original_moa`: data gap). However, the TxGNN repurposing rationale itself supplies pharmacological context: Favipiravir acts as an RNA-dependent RNA polymerase (RdRp) inhibitor with activity against members of the *Bunyavirales* order, including SFTS virus and Heartland virus.
+حالياً، لا يتوفر إدخال آلية عمل منظم لهذا الدواء في الملف الدليلي (`original_moa`: فجوة بيانات). ومع ذلك، يوفر مبرر إعادة توظيف TxGNN نفسه السياق الصيدلاني: يعمل فافيبيرافير كمثبط لبولي ميراز الحمض النووي الريبوسي المعتمد على RNA (RdRp) مع نشاط ضد أعضاء رتبة *Bunyavirales*، بما في ذلك فيروس SFTS وفيروس Heartland.
 
-These viruses are known triggers of secondary (infection-associated) hemophagocytic lymphohistiocytosis (HLH) — a hyperinflammatory syndrome that can follow severe viral infection. The proposed link is therefore **indirect**: suppressing upstream viral replication could, in principle, remove the infectious trigger that drives the downstream immune-mediated HLH, rather than Favipiravir acting directly on HLH effector pathways (e.g., IFN-γ or JAK-STAT signaling).
+يُعرف أن هذه الفيروسات محفزات لحالة الهيموفاغوسيتوسيس الليمفاوية الثانوية (المرتبطة بالعدوى) (HLH) — متلازمة فرط التهاب قد تتبع عدوى فيروسية حادة. الرابط المقترح هو بالتالي **غير مباشر**: قد يؤدي تثبيط التكاثر الفيروسي إلى إزالة محفز العدوى الذي يدفع HLH الموجود في المصب، بدلاً من أن يعمل فافيبيرافير مباشرة على المسارات الفعالة في HLH (مثل إشارات IFN-γ أو JAK-STAT).
 
-This mechanistic path is biologically plausible but has not been directly tested — no clinical trials exist, and the two supporting publications are both narrative reviews of the underlying viral diseases (SFTS, Heartland virus), not studies of Favipiravir treating HLH itself. By contrast, the model assigned an equal score (0.9941) to "malignant disease-associated HLH," a condition with **no infectious trigger and no mechanistic connection** to an antiviral RdRp inhibitor — the evidence pack's own annotation attributes this to shared disease-ontology labeling rather than a real biological signal, and a third candidate (a mitochondrial cytochrome c oxidase deficiency) is likewise mechanistically unrelated. Both are treated as low-confidence artifacts here.
+هذا المسار الآلي معقول بيولوجياً لكن لم يتم اختباره بشكل مباشر — لا توجد تجارب سريرية، والنشرتان الداعمتان هما كلاهما مراجعات سردية للأمراض الفيروسية الأساسية (SFTS، فيروس Heartland)، وليست دراسات لعلاج فافيبيرافير للـ HLH نفسه. في المقابل، عين النموذج درجة متساوية (0.9941) لـ "HLH المرتبطة بالمرض الخبيث"، وهي حالة **بدون محفز معدي وبدون ارتباط آلي** بمثبط RdRp المضاد للفيروسات — تعزو ملاحظات الملف الدليلي هذا إلى وضع علامات أنطولوجيا المرض المشترك بدلاً من إشارة بيولوجية حقيقية، والمرشح الثالث (نقص السيتوكروم c أكسيديز الميتوكوندري) ليس مرتبطاً آلياً بنفس القدر أيضاً. يتم التعامل مع كليهما كنتائج منخفضة الثقة هنا.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [30098914](https://pubmed.ncbi.nlm.nih.gov/30098914/) | 2018 | Review | Journal of Infection and Chemotherapy | Reviews SFTS virus pathophysiology and the rationale for specific antiviral therapy development in severe fever with thrombocytopenia syndrome, a Bunyavirales infection associated with secondary HLH. |
-| [38399689](https://pubmed.ncbi.nlm.nih.gov/38399689/) | 2024 | Review | Microorganisms | Reviews Heartland virus disease (tick-borne Bunyavirales infection), including its hematologic complications (leukopenia, thrombocytopenia); underscores the underrecognized burden of this infection class. |
+| [30098914](https://pubmed.ncbi.nlm.nih.gov/30098914/) | 2018 | مراجعة | Journal of Infection and Chemotherapy | تراجع الفسيولوجيا المرضية لفيروس SFTS والأساس المنطقي لتطوير علاج مضاد فيروسي محدد في متلازمة الحمى الشديدة مع نقص الصفيحات، وهي عدوى Bunyavirales مرتبطة بـ HLH ثانوي. |
+| [38399689](https://pubmed.ncbi.nlm.nih.gov/38399689/) | 2024 | مراجعة | Microorganisms | تراجع مرض فيروس Heartland (عدوى Bunyavirales المنقولة بالقراد)، بما في ذلك مضاعفاتها الدموية (قلة الكريات البيضاء، نقص الصفيحات)؛ تؤكد الحمل غير المعترف به لهذه فئة العدوى. |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Favipiravir is not currently marketed in Saudi Arabia; no product authorizations are on file.
+فافيبيرافير غير مسوق حالياً في المملكة العربية السعودية؛ لا توجد تفويضات منتجات في الملف.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الملحقة للحصول على معلومات السلامة.
 
-*(Note: TFDA package insert warnings/contraindications and DDI data are marked as a Blocking data gap (DG001) in this evidence pack — this must be resolved before any S1 safety review can proceed.)*
+*(ملاحظة: تحذيرات/موانع استعمال نشرة TFDA وبيانات تفاعلات الأدوية DDI يتم وضع علامة عليها باعتبارها فجوة بيانات حاظرة (DG001) في هذا الملف الدليلي — يجب حل هذا قبل إجراء أي مراجعة سلامة S1.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The evidence level is L4 (mechanistic/preclinical inference only) with zero clinical trials and only two indirect review-level publications describing the underlying viral diseases, not Favipiravir's effect on HLH itself. The mechanistic link is plausible but unproven and indirect (antiviral suppression of an upstream trigger, not direct action on HLH pathology), and a Blocking safety data gap (TFDA label/warnings) prevents any safety evaluation.
+**الأساس المنطقي:**
+مستوى الدليل هو L4 (الاستدلال الآلي/الاستقصائي فقط) مع صفر تجارب سريرية ومنشورات مراجعة غير مباشرة فقط تصف الأمراض الفيروسية الأساسية، وليس تأثير فافيبيرافير على HLH نفسه. الرابط الآلي معقول لكنه غير مثبت وغير مباشر (تثبيط مضاد للفيروسات لمحفز عكسي، وليس عمل مباشر على مرض HLH)، وفجوة بيانات حاظرة للسلامة (تسمية TFDA/التحذيرات) تمنع أي تقييم سلامة.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): TFDA package insert warnings and contraindications
-- Resolve DG002 (High): formal DrugBank-sourced mechanism of action confirmation
-- Preclinical or case-series evidence directly linking Favipiravir treatment to HLH outcomes in Bunyavirales-associated infection (not just treatment of the underlying viral infection)
-- DDI data, since current query returned "not found"
-- Clarification of Favipiravir's original approved indication(s), currently absent from this evidence pack
+**للمتابعة، يلزم ما يلي:**
+- حل DG001 (حاظر): تحذيرات نشرة TFDA وموانع الاستعمال
+- حل DG002 (عالي): تأكيد آلية العمل الرسمية من DrugBank
+- دليل استقصائي أو دليل سلسلة حالات يربط مباشرة بين علاج فافيبيرافير ونتائج HLH في عدوى Bunyavirales المرتبطة (وليس فقط معالجة العدوى الفيروسية الأساسية)
+- بيانات DDI، حيث أن الاستعلام الحالي أرجع "غير موجود"
+- توضيح الدلالات الأصلية المعتمدة لفافيبيرافير، غير موجودة حالياً في هذا الملف الدليلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

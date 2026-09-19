@@ -29,78 +29,79 @@ indication_count: 6
 
 </div>
 
-# Rifaximin: From Undocumented Original Indication to Oral Candidiasis
+# ريفاكسيمين: من دلالة أصلية غير موثقة إلى عدوى المبيضات الفموية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Rifaximin's original indication and mechanism of action are not documented in this evidence pack (drug is not marketed in Saudi Arabia). The TxGNN model predicts potential effectiveness for **Oral Candidiasis**, but this is currently supported by only **0 clinical trials** and **1 publication** — and that publication describes rifaximin as a *risk factor* for candidiasis, not a treatment for it.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — rifaximin is not marketed in Saudi Arabia and no original indication data was provided in this evidence pack |
-| Predicted New Indication | Oral Candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+لا تتوفر وثائق حول الدلالة الأصلية لريفاكسيمين وآليات عمله في هذه حزمة الأدلة (الدواء غير مرخص في المملكة العربية السعودية). يتنبأ نموذج TxGNN بفعالية محتملة لـ **عدوى المبيضات الفموية**، لكن هذا مدعوم حالياً بـ **0 تجربة سريرية** و **منشور واحد فقط** — والمنشور الوحيد يصف ريفاكسيمين كـ *عامل خطر* لعدوى المبيضات، وليس كعلاج لها.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available for rifaximin in this evidence pack (flagged as a High-severity data gap, DG002). Based on the mechanistic rationale that was captured alongside the prediction, rifaximin is a gut-non-absorbed rifamycin-class antibiotic that inhibits bacterial RNA polymerase — it has no known antifungal activity.
-
-This is a critical mismatch: Oral Candidiasis is a fungal infection, and rifaximin's mechanism does not target fungi. The single literature record available (PMID 34180023) does not describe rifaximin treating candidiasis — it describes rifaximin use as **favouring** the emergence of micafungin-resistant *Candida* infections in transplant patients, most likely by disrupting gut bacterial flora and allowing fungal overgrowth. In other words, the available evidence points in the *opposite* direction from the repurposing hypothesis: rifaximin may be a risk factor for candidiasis rather than a therapeutic candidate for it.
-
-The high TxGNN prediction score (99.75%) most likely reflects a statistical co-occurrence pattern in the underlying knowledge graph (drug and disease appearing together in the same clinical contexts) rather than a genuine treatment relationship. This prediction should be treated as a signal requiring mechanistic and clinical scrutiny, not as evidence of therapeutic potential.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الدلالة الأصلية | غير متاحة — ريفاكسيمين غير مرخص في المملكة العربية السعودية ولم تُقدم بيانات الدلالة الأصلية في هذه حزمة الأدلة |
+| الدلالة الجديدة المتنبأ بها | عدوى المبيضات الفموية |
+| درجة تنبؤ TxGNN | 99.75% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مرخص |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort/Case series | Annals of Hematology | In allogeneic HSCT recipients, rifaximin prophylaxis was associated with a higher incidence of micafungin-resistant *Candida* spp. infections — consistent with rifaximin acting as a risk factor for candidiasis via gut flora disruption, not as a treatment |
+بيانات آلية العمل المفصلة لريفاكسيمين غير متاحة في هذه حزمة الأدلة (تم تحديدها كفجوة بيانات عالية الخطورة، DG002). بناءً على المنطق الآلي الذي تم التقاطه جنباً إلى جنب مع التنبؤ، ريفاكسيمين هو مضاد حيوي من فئة الريفامايسين غير المتمتص معوياً يثبط بوليميراز RNA البكتيري — ليس له نشاط مضاد للفطريات معروف.
 
-**Note:** This is a directional contradiction, not supporting evidence. No literature currently supports rifaximin as a treatment for oral candidiasis.
+هذا عدم تطابق حرج: عدوى المبيضات الفموية عدوى فطرية، وآلية عمل ريفاكسيمين لا تستهدف الفطريات. السجل الأدبي الوحيد المتاح (PMID 34180023) لا يصف ريفاكسيمين يعالج عدوى المبيضات — بل يصف استخدام ريفاكسيمين كـ **مفضّل** لظهور عدوى *المبيضات* المقاومة لـ ميكافونجين في مرضى الزراعة، وعلى الأرجح بسبب اضطراب البكتيريا المعوية والسماح بفرط نمو الفطريات. بعبارة أخرى، الأدلة المتاحة تشير في *الاتجاه المعاكس* لفرضية إعادة التوظيف: قد يكون ريفاكسيمين عامل خطر لعدوى المبيضات وليس مرشحاً علاجياً لها.
 
----
-
-## Saudi Arabia Market Information
-
-Rifaximin currently holds no marketing authorizations in Saudi Arabia (market status: Not Marketed; 0 licenses on record).
+درجة تنبؤ TxGNN العالية (99.75%) على الأرجح تعكس نمط التعايش الإحصائي في الرسم البياني المعرفة الأساسي (الدواء والمرض يظهران معاً في نفس السياقات السريرية) بدلاً من علاقة معالجة حقيقية. يجب التعامل مع هذا التنبؤ كإشارة تتطلب فحصاً آلياً وسريرياً، وليس كدليل على إمكانية علاجية.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information. TFDA/SFDA package insert warnings and contraindications for rifaximin are currently unavailable and marked as a **Blocking** data gap (DG001) — this must be resolved before any S1 safety review can proceed.
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|-------|----------|
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | دراسة الأتراب/سلسلة حالات | Annals of Hematology | في متلقي عملية الزراعة السيقانية المخططة الموافقة (allogeneic HSCT)، ارتبط نبض ريفاكسيمين الوقائي بحدوث أعلى من عدوى *المبيضات* spp. المقاومة لـ ميكافونجين — متسقة مع ريفاكسيمين يعمل كعامل خطر لعدوى المبيضات عبر اضطراب البكتيريا المعوية، وليس كعلاج |
 
-**Rationale:**
-The only available literature evidence contradicts rather than supports the repurposing hypothesis — it identifies rifaximin as a factor that *favours* candidiasis rather than treats it. Combined with the absence of antifungal mechanism, zero clinical trials, and the drug's non-marketed status in Saudi Arabia, there is currently no credible basis to advance this candidate.
+**ملحوظة:** هذا تناقض اتجاهي، وليس دليل دعم. لا توجد أدبيات حالياً تدعم ريفاكسيمين كعلاج لعدوى المبيضات الفموية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action via DrugBank API — currently a High-severity gap (DG002)
-- A plausible antifungal or immunomodulatory mechanism to reconcile the prediction with rifaximin's known pharmacology
-- Independent, mechanistically-grounded evidence (not co-occurrence-based) before any further evaluation of oral candidiasis as an indication
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+ريفاكسيمين حالياً لا يحمل أي تراخيص تسويقية في المملكة العربية السعودية (حالة السوق: غير مرخص؛ 0 رخصة في السجل).
+
+---
+
+## اعتبارات السلامة
+
+يرجى مراجعة نشرة المعلومات للحصول على معلومات السلامة. تحذيرات نشرة معلومات TFDA/SFDA وموانع الاستخدام لريفاكسيمين غير متاحة حالياً وتم تصنيفها كفجوة بيانات **حاسمة** (DG001) — يجب حل هذا قبل إجراء أي مراجعة سلامة S1.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+الأدلة الأدبية المتاحة الوحيدة تناقض بدلاً من دعم فرضية إعادة التوظيف — فهي تحدد ريفاكسيمين كعامل يُفضّل *عدوى المبيضات* بدلاً من معالجتها. مقترنة بعدم وجود آلية مضادة للفطريات، وعدم وجود تجارب سريرية، وحالة عدم التسويق للدواء في المملكة العربية السعودية، لا توجد حالياً أساس موثوق به للمضي قدماً في هذا المرشح.
+
+**لكي يتم المضي قدماً، يلزم ما يلي:**
+- نشرة معلومات TFDA/SFDA (التحذيرات، موانع الاستخدام) — تعتبر حالياً فجوة بيانات حاسمة (DG001)
+- آلية عمل مؤكدة عبر DrugBank API — تعتبر حالياً فجوة عالية الخطورة (DG002)
+- آلية معقولة مضادة للفطريات أو معدّلة مناعياً لمصالحة التنبؤ مع الصيدلة الموثوقة لريفاكسيمين
+- أدلة مستقلة ومدعومة آلياً (وليس على أساس التعايش) قبل أي تقييم إضافي لعدوى المبيضات الفموية كدلالة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

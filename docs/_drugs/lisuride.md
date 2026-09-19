@@ -29,57 +29,58 @@ indication_count: 1
 
 </div>
 
-# Lisuride: Original Indication Not on File → Predicted New Indication: Migraine with Brainstem Aura
+# الليسورايد: المؤشر الأصلي غير موجود في الملف → المؤشر الجديد المتوقع: الصداع النصفي مع هالة جذع الدماغ
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-The original approved indication for lisuride is not available in this evidence pack (no license records, and mechanism of action is flagged as a data gap). The TxGNN model predicts potential efficacy for **migraine with brainstem aura**, but this is currently supported by **0 clinical trials** and **0 publications** — the prediction rests solely on the model's score.
+المؤشر المعتمد الأصلي للليسورايد غير متوفر في مجموعة الأدلة هذه (لا توجد سجلات ترخيص، وآلية العمل مؤشرة كفجوة في البيانات). يتنبأ نموذج TxGNN بفعالية محتملة للصداع النصفي مع هالة جذع الدماغ، لكن هذا مدعوم حالياً بـ 0 تجربة سريرية و 0 منشورات — يستند التنبؤ فقط على درجة النموذج.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — no license records or original indication data on file |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متوفر — لا توجد سجلات ترخيص أو بيانات المؤشر الأصلي في الملف |
+| المؤشر الجديد المتوقع | الصداع النصفي مع هالة جذع الدماغ |
+| درجة التنبؤ من TxGNN | 99.27% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط، لا توجد دراسات داعمة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for lisuride is currently a data gap in this evidence pack (DG002, High severity), and no original indication is on file, so the drug's established pharmacological relationship to its current use cannot be verified from this dataset.
+بيانات آلية العمل التفصيلية للليسورايد هي حالياً فجوة في البيانات في مجموعة الأدلة هذه (DG002، درجة الشدة: عالية)، ولا يوجد مؤشر أصلي في الملف، لذا لا يمكن التحقق من العلاقة الدوائية المثبتة للعقار مع استخدامه الحالي من مجموعة البيانات هذه.
 
-Based on general pharmacological background knowledge (not sourced from this evidence pack and not independently verified here), lisuride is an ergot derivative with dopamine D2 receptor agonist and 5-HT2 receptor antagonist activity. Other agents sharing this receptor profile — such as methysergide and pizotifen — have historically been used for migraine prophylaxis, which offers a theoretical rationale for a link between lisuride's pharmacology and migraine-related indications.
+بناءً على المعرفة الدوائية الأساسية العامة (غير المستمدة من مجموعة الأدلة هذه وغير المتحققة منها بشكل مستقل هنا)، الليسورايد هو مشتق الإرغوت بنشاط ناهض مستقبل الدوبامين D2 وناهض مستقبل 5-HT2. العوامل الأخرى التي تشارك هذا الملف الشخصي للمستقبلات — مثل ميثيسرجيد وبيزوتيفين — تم استخدامها تاريخياً للنبوءة الوقائية للصداع النصفي، مما يوفر أساساً نظرياً لرابط بين الدوائية للليسورايد والمؤشرات المرتبطة بالصداع النصفي.
 
-This mechanistic link is unconfirmed: no clinical trial or literature evidence in this evidence pack corroborates it. The prediction should be treated as a hypothesis generated purely by the TxGNN model score, pending confirmed MOA data and independent clinical/literature support.
+هذا الرابط الميكانيكي غير مؤكد: لا توجد أدلة من تجربة سريرية أو أدب في مجموعة الأدلة هذه تؤيده. يجب التعامل مع التنبؤ كفرضية تم إنشاؤها بحتة من درجة نموذج TxGNN، في انتظار تأكيد بيانات MOA والدعم السريري / الأدب المستقل.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Note that TFDA package insert warnings/contraindications are currently a **Blocking** data gap (DG001) — this drug cannot advance past initial safety screening (S1) until this is resolved.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. لاحظ أن تحذيرات / موانع الاستخدام في نشرة المعلومات من TFDA هي حالياً فجوة بيانات **حاجزة** (DG001) — لا يمكن لهذا العقار أن يتقدم أبعد من فحص السلامة الأولي (S1) حتى يتم حل هذا.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-The prediction is currently at evidence level L5 (model score only), with no clinical trials, no literature, no confirmed MOA, and no safety/package-insert data available — insufficient basis to advance beyond the S0 decision stage.
+**الأساس المنطقي:**
+التنبؤ حالياً في مستوى الأدلة L5 (درجة النموذج فقط)، مع عدم وجود تجارب سريرية، وعدم وجود أدب، وعدم وجود MOA مؤكد، وعدم توفر بيانات السلامة / نشرة المعلومات — أساس غير كافٍ للتقدم بعد مرحلة القرار S0.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap (DG001)
-- Confirmed mechanism of action data — High-priority gap (DG002)
-- Original approved indication and regulatory history for lisuride
-- Clinical trial or literature evidence specifically addressing migraine with brainstem aura
-- Drug-drug interaction (DDI) data
+**للمتابعة، يلزم ما يلي:**
+- نشرة المعلومات من TFDA (التحذيرات / موانع الاستخدام) — فجوة حاجزة (DG001)
+- بيانات آلية العمل المؤكدة — فجوة ذات أولوية عالية (DG002)
+- المؤشر المعتمد الأصلي والسجل التنظيمي للليسورايد
+- أدلة من تجربة سريرية أو أدب تعالج بشكل خاص الصداع النصفي مع هالة جذع الدماغ
+- بيانات التفاعل بين الأدوية (DDI)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

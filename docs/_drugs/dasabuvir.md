@@ -29,83 +29,84 @@ indication_count: 5
 
 </div>
 
-# Dasabuvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# داسابوفير: من عدوى فيروس التهاب الكبد سي إلى عدوى فيروس التهاب الكبد بي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Dasabuvir (ABT-333) is a direct-acting antiviral originally used for chronic Hepatitis C Virus (HCV) Genotype 1 infection as part of the Viekira Pak combination regimen (ombitasvir/paritaprevir/ritonavir + dasabuvir). The TxGNN model predicts it may be effective for **Hepatitis B Virus (HBV) infection** with a prediction score of **99.37%** (rank 9,325 overall). However, no clinical trials have directly evaluated dasabuvir for HBV treatment, and available literature only documents HBV as a safety monitoring endpoint during HCV co-infection therapy — yielding an **L5 evidence level** and a **Hold** recommendation.
+داسابوفير (ABT-333) هو مضاد فيروسي مباشر المفعول استُخدم في الأصل لعلاج عدوى فيروس التهاب الكبد سي المزمن (HCV) من النمط الجيني 1 كجزء من نظام تركيبة Viekira Pak (أومبيتاسفير/باريتابريفير/ريتونافير + داسابوفير). يتوقع نموذج TxGNN أنه قد يكون فعالاً ضد **عدوى فيروس التهاب الكبد بي (HBV)** برتبة تنبؤ تبلغ **99.37%** (الرتبة 9,325 بشكل عام). غير أن أي تجارب سريرية لم تقيّم داسابوفير مباشرة لعلاج HBV، والأدبيات المتاحة توثّق فقط HBV كنقطة نهاية لمراقبة السلامة أثناء العلاج المركب لـ HCV/HBV — مما ينتج عنه مستوى **L5 للأدلة** وتوصية **الانتظار**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Chronic HCV Genotype 1 infection (inferred from drug class; no Saudi Arabia regulatory records available) |
-| Predicted New Indication | Hepatitis B Virus (HBV) Infection |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L5 (model prediction only; no direct clinical studies) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | عدوى HCV المزمنة من النمط الجيني 1 (مستدل من فئة الدواء؛ لا توجد سجلات تنظيمية سعودية متاحة) |
+| الدلالة الجديدة المتنبأ بها | عدوى فيروس التهاب الكبد بي (HBV) |
+| درجة التنبؤ من TxGNN | 99.37% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط؛ لا توجد دراسات سريرية مباشرة) |
+| حالة السوق السعودية | ✗ غير مسجل |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available from current regulatory records. Based on known pharmacological information, dasabuvir (development code ABT-333) is a **non-nucleoside NS5B RNA-dependent RNA polymerase (RdRp) inhibitor** that binds the thumb II allosteric pocket of the HCV NS5B protein. It is used exclusively in combination with ombitasvir/paritaprevir/ritonavir (Viekira Pak / Exviera), achieving sustained virological response (SVR12) rates exceeding 95% in HCV Genotype 1b patients.
+بيانات تفاصيل آلية الفعل غير متاحة من السجلات التنظيمية الحالية. بناءً على المعلومات الدوائية المعروفة، داسابوفير (رمز التطوير ABT-333) هو **مثبط غير نيوكليوسيدي لبوليميراز RNA المعتمد على RNA (RdRp) في NS5B** الذي يرتبط بالجيب الأليلوستاتي thumb II لبروتين HCV NS5B. يُستخدم حصراً بالاشتراك مع أومبيتاسفير/باريتابريفير/ريتونافير (Viekira Pak / Exviera)، حيث يحقق معدلات استجابة فيروسية مستدامة (SVR12) تتجاوز 95% لدى المرضى المصابين بـ HCV من النمط الجيني 1b.
 
-The TxGNN model assigns a high score because HCV and HBV share substantial phenotypic overlap — both are hepatotropic viruses causing chronic liver disease, cirrhosis, and hepatocellular carcinoma risk, and they share transmission routes and patient populations. This disease-level proximity in the knowledge graph drives a strong association. Several trials in this evidence pack reflect how commonly patients are co-infected with both viruses.
+يسند نموذج TxGNN درجة عالية لأن HCV و HBV يتشاركان تداخلاً ظاهرياً كبيراً — كلاهما فيروسات كبدية تسبب أمراض الكبد المزمنة والتليف والمخاطر المرتبطة بسرطان الكبد، وهما يتشاركان طرق الانتقال والمجموعات السكانية من المرضى. هذا القرب على مستوى المرض في الرسم البياني للمعرفة يدفع ارتباطاً قوياً. عدة تجارب في حزمة الأدلة هذه تعكس مدى شيوع إصابة المرضى المركبة بكلا الفيروسين.
 
-However, pharmacological mechanism transferability is very limited. HBV replicates through a **reverse transcriptase (RT) pathway** encoded by its DNA polymerase, which is mechanistically and structurally distinct from the HCV NS5B RdRp. The thumb II allosteric binding pocket that dasabuvir occupies has **no structural homologue in HBV reverse transcriptase**. Established HBV antivirals (tenofovir, entecavir) work through nucleoside RT inhibition — a mechanism dasabuvir does not possess. The TxGNN high score reflects graph topology (hepatitis disease clustering), not validated pharmacological applicability to HBV.
+غير أن نقل آلية الفعل الدوائي محدود جداً. يتكاثر HBV عبر **مسار النسخ العكسي (RT)** الذي يشفره بوليميراز DNA الخاص به، وهو يختلف آلياً وهيكلياً عن HCV NS5B RdRp. جيب thumb II الأليلوستاتي الذي يرتبط به داسابوفير **لا يملك نظيراً هيكلياً في بوليميراز HBV العكسي**. تعمل مضادات HBV المثبتة (تينوفوفير، إنتيكافير) عبر مثبطات النيوكليوسيد RT — آلية لا يمتلكها داسابوفير. الدرجة العالية من TxGNN تعكس طوبولوجيا الرسم البياني (تجميع أمراض التهاب الكبد)، وليس القابلية الدوائية المُثبتة والمُراجعة لـ HBV.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-All 14 retrieved trials evaluated dasabuvir in the context of **HCV treatment**. No trial has directly assessed dasabuvir's efficacy against HBV. The single most relevant trial (Grade B) monitored HBV only as a safety endpoint.
+قيّمت جميع التجارب الـ 14 المسترجعة داسابوفير في سياق **علاج HCV**. لم تقيّم أي تجربة فعالية داسابوفير مباشرة ضد HBV. التجربة الوحيدة الأكثر صلة (Grade B) راقبت HBV فقط كنقطة نهاية للسلامة.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | HCV/HBV co-infected patients receiving DAA therapy; primary endpoint was HCV SVR; **HBV reactivation monitored as a safety indicator only** — no anti-HBV efficacy evaluation |
-| [NCT01854697](https://clinicaltrials.gov/study/NCT01854697) | Phase 3 | Completed | 311 | MALACHITE-I: ABT-450/r/ombitasvir + dasabuvir vs telaprevir/pegIFN/RBV in treatment-naïve HCV GT1; no HBV component |
-| [NCT01939197](https://clinicaltrials.gov/study/NCT01939197) | Phase 2/3 | Completed | 318 | TURQUOISE-I: ombitasvir/paritaprevir/r ± dasabuvir ± RBV in HCV GT1/4 + HIV-1 co-infection; HCV SVR12 as primary endpoint, no HBV data |
-| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Phase 3 | Completed | 36 | TURQUOISE-CPB: OBV/PTV/r + dasabuvir + RBV in HCV GT1 decompensated cirrhosis; HCV safety and SVR12 only |
-| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completed | 33,808 | Post-marketing safety surveillance of DAA medications for HCV (including dasabuvir regimens); large observational study, HCV population only |
-| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Phase 2 | Completed | 89 | Dose-ranging study of ABT-493 and ABT-530 in HCV GT1; antiviral activity assessment in HCV, no HBV arm |
-| [NCT01464827](https://clinicaltrials.gov/study/NCT01464827) | Phase 2 | Completed | 580 | ABT-450/r ± ABT-267 ± dasabuvir ± RBV for 8–24 weeks in HCV GT1; evaluates antiviral activity and PK of dasabuvir combination |
-| [NCT01782495](https://clinicaltrials.gov/study/NCT01782495) | Phase 2 | Completed | 129 | CORAL-I: ABT-450/r/ombitasvir + dasabuvir ± RBV in liver or renal transplant recipients with HCV GT1/4; transplant special population, HCV-focused |
-| [NCT02493855](https://clinicaltrials.gov/study/NCT02493855) | Phase 2 | Completed | 46 | Viral load kinetics with OBV/ABT-450/r + dasabuvir ± ribavirin in HCV GT1a treatment-naïve; exploratory PK/PD study, no HBV |
-| [NCT00851890](https://clinicaltrials.gov/study/NCT00851890) | Phase 2 | Completed | 30 | Early dasabuvir (ABT-333) safety, tolerability, PK, and antiviral activity study in HCV GT1 patients; foundational dasabuvir characterization |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
+|-----------|--------|--------|-----------|-------------|
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | المرحلة 2/3 | مكتملة | 23 | مرضى مصابون بعدوى HCV/HBV المركبة يتلقون علاج DAA؛ كانت النقطة النهائية الأساسية هي HCV SVR؛ **تم مراقبة إعادة تنشيط HBV كمؤشر أمان فقط** — لم يتم تقييم فعالية مضادة لـ HBV |
+| [NCT01854697](https://clinicaltrials.gov/study/NCT01854697) | المرحلة 3 | مكتملة | 311 | MALACHITE-I: ABT-450/r/أومبيتاسفير + داسابوفير مقابل تيلابريفير/بيج إنترفيرون/ريبافيرين في HCV GT1 بدون علاج سابق؛ لا توجد مكونة HBV |
+| [NCT01939197](https://clinicaltrials.gov/study/NCT01939197) | المرحلة 2/3 | مكتملة | 318 | TURQUOISE-I: أومبيتاسفير/باريتابريفير/r ± داسابوفير ± ريبافيرين في HCV GT1/4 + العدوى المركبة بـ HIV-1؛ HCV SVR12 كنقطة نهاية أساسية، لا توجد بيانات HBV |
+| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | المرحلة 3 | مكتملة | 36 | TURQUOISE-CPB: OBV/PTV/r + داسابوفير + ريبافيرين في HCV GT1 مع تليف كبدي غير معوض؛ أمان HCV و SVR12 فقط |
+| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | مكتملة | 33,808 | مراقبة السلامة بعد تسويق أدوية DAA (بما فيها أنظمة داسابوفير) لـ HCV؛ دراسة رصدية كبيرة، مجموعة سكانية HCV فقط |
+| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | المرحلة 2 | مكتملة | 89 | دراسة تحديد الجرعة لـ ABT-493 و ABT-530 في HCV GT1؛ تقييم النشاط المضاد للفيروسات في HCV، لا توجد ذراع HBV |
+| [NCT01464827](https://clinicaltrials.gov/study/NCT01464827) | المرحلة 2 | مكتملة | 580 | ABT-450/r ± ABT-267 ± داسابوفير ± ريبافيرين لمدة 8–24 أسبوعاً في HCV GT1؛ يقيّم النشاط المضاد للفيروسات والحرائك الدوائية لتركيبة داسابوفير |
+| [NCT01782495](https://clinicaltrials.gov/study/NCT01782495) | المرحلة 2 | مكتملة | 129 | CORAL-I: ABT-450/r/أومبيتاسفير + داسابوفير ± ريبافيرين في متلقي الكبد أو زراعة الكلى مع HCV GT1/4؛ مجموعة سكانية خاصة لزراعة الأعضاء، موجهة نحو HCV |
+| [NCT02493855](https://clinicaltrials.gov/study/NCT02493855) | المرحلة 2 | مكتملة | 46 | حرائك الحمل الفيروسي مع OBV/ABT-450/r + داسابوفير ± ريبافيرين في HCV GT1a بدون علاج سابق؛ دراسة استكشافية للحرائك الدوائية/الديناميكا، لا توجد HBV |
+| [NCT00851890](https://clinicaltrials.gov/study/NCT00851890) | المرحلة 2 | مكتملة | 30 | دراسة السلامة والتحمل المبكرة للداسابوفير (ABT-333) والحرائك الدوائية والنشاط المضاد للفيروسات في مرضى HCV GT1؛ دراسة تأسيسية لتوصيف داسابوفير |
 
-> **None of the 14 retrieved trials include an HBV treatment arm or endpoint.** Evidence level for dasabuvir in HBV: **L5**.
+> **لا تتضمن أي من التجارب الـ 14 المسترجعة ذراع أو نقطة نهاية لعلاج HBV.** مستوى الأدلة لداسابوفير في HBV: **L5**.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [29397016](https://pubmed.ncbi.nlm.nih.gov/29397016/) | 2018 | Cohort | J Viral Hepatitis | HBV reactivation risk in HBV+HCV co-infected cirrhosis patients (N=2,070 HCV) treated with ombitasvir/paritaprevir/r + dasabuvir + RBV; HBV monitored as safety concern, no anti-HBV efficacy data |
-| [28416221](https://pubmed.ncbi.nlm.nih.gov/28416221/) | 2017 | RCT | Lancet Gastroenterol Hepatol | GARNET Phase 3b: OBV/PTV/r + dasabuvir for 8 weeks in HCV GT1b without cirrhosis; high SVR12 rates confirmed; HCV efficacy only |
-| [28903508](https://pubmed.ncbi.nlm.nih.gov/28903508/) | 2017 | RCT Analysis | Clin Infect Dis | PrOD and ledipasvir/sofosbuvir regimens confer significant mortality benefit vs untreated HCV in a large VA cohort; demonstrates overall clinical value of dasabuvir-containing regimens |
-| [28762541](https://pubmed.ncbi.nlm.nih.gov/28762541/) | 2018 | Real-world Cohort | J Gastroenterol Hepatol | Real-world effectiveness and safety of PrOD in Taiwan HCV GT1b patients; confirms high SVR rates in East Asian population with HCV; no HBV data |
-| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Review | Liver Int | Discusses pathways toward HCV eradication and HBV cure; highlights mechanistic distinctions between HCV DAAs and HBV antivirals and the separate drug development requirements |
-| [36515288](https://pubmed.ncbi.nlm.nih.gov/36515288/) | 2022 | Epidemiology | Voprosy Virusologii | HBV, HCV, and HDV prevalence and molecular genetic characterization in HIV-positive patients; illustrates HBV/HCV co-infection epidemiology relevant to co-infection treatment context |
-| [26043288](https://pubmed.ncbi.nlm.nih.gov/26043288/) | 2015 | Review | Rev Med Virol | Comprehensive review of HCV DAA development targeting NS3/4A, NS5A, and NS5B; explains dasabuvir's non-nucleoside NS5B inhibitor class and mechanism — highlights HCV specificity |
-| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | In vitro/Resistance | Hepatology | HCV protease inhibitor resistance-associated substitutions across major genotypes; resistance mechanisms in HCV context, relevant to understanding dasabuvir combination partner durability |
-| [26139639](https://pubmed.ncbi.nlm.nih.gov/26139639/) | 2015 | Review | Ann Pharmacother | Treatment considerations for special HCV GT1 populations (renal impairment, transplant, HIV co-infection) using dasabuvir-containing regimens; no HBV therapeutic discussion |
-| [28992878](https://pubmed.ncbi.nlm.nih.gov/28992878/) | 2017 | Review | Hepatobiliary Pancreatic Dis Int | Peginterferon alfa-2a role in the DAA era for HCV; contextualizes DAA positioning including dasabuvir regimens in markets with access constraints |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-------------|
+| [29397016](https://pubmed.ncbi.nlm.nih.gov/29397016/) | 2018 | دراسة الأتراب | J Viral Hepatitis | خطر إعادة تنشيط HBV لدى المرضى المصابين بـ HBV+HCV المركب مع تليف الكبد (N=2,070 HCV) يتلقون أومبيتاسفير/باريتابريفير/r + داسابوفير + ريبافيرين؛ تم مراقبة HBV كمصدر قلق أماني، لا توجد بيانات فعالية مضادة لـ HBV |
+| [28416221](https://pubmed.ncbi.nlm.nih.gov/28416221/) | 2017 | تجربة سريرية معشاة | Lancet Gastroenterol Hepatol | GARNET المرحلة 3b: OBV/PTV/r + داسابوفير لمدة 8 أسابيع في HCV GT1b بدون تليف؛ تم تأكيد معدلات SVR12 عالية؛ فعالية HCV فقط |
+| [28903508](https://pubmed.ncbi.nlm.nih.gov/28903508/) | 2017 | تحليل تجربة معشاة | Clin Infect Dis | أنظمة PrOD و لديبازافير/سوفوسبوفير توفر فائدة وفيات كبيرة مقابل HCV غير المعالج في مجموعة VA الكبيرة؛ تثبت القيمة السريرية الكلية لأنظمة داسابوفير الحاوية |
+| [28762541](https://pubmed.ncbi.nlm.nih.gov/28762541/) | 2018 | دراسة أتراب من الواقع العملي | J Gastroenterol Hepatol | الفعالية والسلامة من الواقع العملي لـ PrOD في مرضى HCV GT1b التايوانيين؛ يؤكد معدلات SVR عالية في مجموعة سكانية آسيوية شرقية مع HCV؛ لا توجد بيانات HBV |
+| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | استعراض | Liver Int | يناقش المسارات نحو القضاء على HCV والشفاء من HBV؛ يبرز الفروقات الآلية بين DAAs من HCV ومضادات فيروسات HBV ومتطلبات تطوير الأدوية المنفصلة |
+| [36515288](https://pubmed.ncbi.nlm.nih.gov/36515288/) | 2022 | علم الأوبئة | Voprosy Virusologii | انتشار HBV و HCV و HDV والتوصيف الجيني الجزيئي لدى المرضى الإيجابيين لـ HIV؛ يوضح علم أوبئة العدوى المركبة بـ HBV/HCV ذات الصلة بسياق معالجة العدوى المركبة |
+| [26043288](https://pubmed.ncbi.nlm.nih.gov/26043288/) | 2015 | استعراض | Rev Med Virol | استعراض شامل لتطوير DAA من HCV يستهدف NS3/4A و NS5A و NS5B؛ يشرح فئة مثبط NS5B غير النيوكليوسيدي من داسابوفير والآلية — يبرز اختصاصية HCV |
+| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | In vitro/المقاومة | Hepatology | بدائل مرتبطة بمقاومة مثبط بروتياز HCV عبر الأنماط الجينية الرئيسية؛ آليات المقاومة في سياق HCV، ذات صلة لفهم متانة شريك تركيبة داسابوفير |
+| [26139639](https://pubmed.ncbi.nlm.nih.gov/26139639/) | 2015 | استعراض | Ann Pharmacother | اعتبارات العلاج لمجموعات HCV GT1 الخاصة (ضعف الكلى، زراعة الأعضاء، العدوى المركبة بـ HIV) باستخدام أنظمة تحتوي على داسابوفير؛ لا توجد مناقشة علاجية لـ HBV |
+| [28992878](https://pubmed.ncbi.nlm.nih.gov/28992878/) | 2017 | استعراض | Hepatobiliary Pancreatic Dis Int | دور بيج إنترفيرون ألفا-2a في عصر DAA لـ HCV؛ يسير DAA بما فيها أنظمة داسابوفير في الأسواق ذات قيود الوصول |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Dasabuvir's mechanism of action — inhibiting the HCV NS5B thumb II allosteric pocket — has **no structural equivalent in HBV**, which replicates through a reverse transcriptase pathway that existing nucleoside/nucleotide analogues (tenofovir, entecavir) already address effectively. The TxGNN score of 99.37% reflects graph-based disease proximity between viral hepatitides, not mechanistically supported repurposing potential. With zero relevant clinical trials, no direct literature evidence, no Saudi Arabia market presence, and missing safety data, this candidate does not meet the threshold for further development investment at this time.
+**الأساس المنطقي:**
+آلية فعل داسابوفير — مثبط الجيب الأليلوستاتي thumb II من HCV NS5B — **لا يملك مكافئاً هيكلياً في HBV**، الذي يتكاثر عبر مسار نسخ عكسي تعالجه بالفعل نظائر نيوكليوسيد/نيوكليوتيد المثبتة (تينوفوفير، إنتيكافير) بفعالية. تعكس درجة TxGNN البالغة 99.37% القرب المستند إلى الرسم البياني بين التهابات الكبد الفيروسية، وليس إمكانية إعادة الاستخدام المدعومة آلياً. مع عدم وجود تجارب سريرية ذات صلة، وعدم وجود أدلة أدبية مباشرة، وعدم وجود حضور في السوق السعودي، وبيانات سلامة ناقصة، لا يفي هذا المرشح بعتبة الاستثمار في التطوير الإضافي في الوقت الحالي.
 
-**To proceed, the following is needed:**
+**لكي نتقدم، يلزم ما يلي:**
 
-- **Preclinical mechanistic assessment**: In vitro evaluation of dasabuvir against HBV DNA polymerase/RT activity, and computational docking analysis of the dasabuvir binding pose against HBV RT crystal structures
-- **MOA documentation**: Full DrugBank API retrieval for NS5B binding characterization, selectivity profile, and any reported cross-reactivity data against other viral polymerases
-- **Safety profile**: Obtain full package insert warnings and contraindications (SFDA/EMA/FDA label) to complete S1 safety screening — currently blocking formal safety evaluation
-- **Mechanistic reconsideration**: Given the structural mismatch between HCV NS5B and HBV RT, a formal mechanistic review should determine whether any indirect antiviral pathway (e.g., host immune modulation observed post-SVR) could justify continued investigation, or whether resources should be redirected to better-supported HBV repurposing candidates
+- **تقييم آلي تمهيدي**: التقييم في المختبر لفعالية داسابوفير ضد نشاط HBV DNA polymerase/RT، وتحليل الرسو الحسابي لموضع ارتباط داسابوفير ضد بنى بلورة HBV RT
+- **توثيق آلية الفعل**: استرجاع كامل API من DrugBank لتوصيف ارتباط NS5B والملف الانتقائي وأي بيانات مرتجعة حول التفاعل المتقاطع ضد بوليميرازات فيروسية أخرى
+- **ملف السلامة**: الحصول على تحذيرات النشرة الداخلية الكاملة والموانع (تسميات SFDA/EMA/FDA) لإكمال فحص السلامة S1 — يحجب حالياً تقييم السلامة الرسمي
+- **إعادة النظر الآلية**: بالنظر إلى عدم التطابق الهيكلي بين HCV NS5B و HBV RT، يجب أن تحدد مراجعة آلية رسمية ما إذا كان أي مسار مضاد للفيروسات غير مباشر (مثل تعديل المناعة المضيفة الملحوظ بعد SVR) يمكن أن يبرر المزيد من التحقيق، أم يجب إعادة توجيه الموارد إلى مرشحي إعادة استخدام HBV الأفضل دعماً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,74 +29,75 @@ indication_count: 9
 
 </div>
 
-# Sulpiride: Original Indication Not on File — TxGNN Signal for Retinal Dystrophy with or without Extraocular Anomalies
+# سلبيريد: المؤشر الأصلي غير موجود في الملف — إشارة TxGNN لضمور الشبكية مع أو بدون شذوذات خارج العيني
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-The evidence pack does not record Sulpiride's original approved indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts a possible link to **Retinal Dystrophy with or without Extraocular Anomalies**, but this is supported by **0 clinical trials** and **15 loosely related publications**, none of which studies Sulpiride itself — the evidence pack's own mechanistic analysis flags the prediction as a likely knowledge-graph artifact rather than a real pharmacological connection.
+ملف الأدلة لا يسجل المؤشر المعتمد الأصلي أو آلية عمل سلبيريد (كلاهما تم تحديده كفجوات بيانات). يتنبأ نموذج TxGNN بارتباط محتمل بـ **ضمور الشبكية مع أو بدون شذوذات خارج العيني**، لكن هذا مدعوم بـ **0 تجارب سريرية** و **15 منشورة ضعيفة الصلة**، لا تدرس أي منها سلبيريد نفسه — يشير تحليل الآلية الخاص بملف الأدلة إلى أن التنبؤ هو على الأرجح خطأ في الرسم البياني للمعرفة بدلاً من اتصال دوائي حقيقي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in evidence pack (no licenses / indications on file) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير معروف في ملف الأدلة (بدون تراخيص / مؤشرات موثقة) |
+| المؤشر الجديد المتنبأ به | ضمور الشبكية مع أو بدون شذوذات خارج العيني |
+| درجة التنبؤ TxGNN | 99.95% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for Sulpiride is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the limited information available, Sulpiride is known as a selective D2/D3 dopamine receptor antagonist, typically used in psychiatric/neurological contexts — but the original approved indication itself is not documented here.
+بيانات آلية العمل التفصيلية لسلبيريد غير متوفرة في ملف الأدلة هذا (تم تحديده كفجوة بيانات عالية الشدة، DG002). بناءً على المعلومات المحدودة المتاحة، يُعرّف سلبيريد بأنه مضاد انتقائي لمستقبلات الدوبامين D2/D3، يُستخدم عادةً في السياقات النفسية/العصبية — لكن المؤشر المعتمد الأصلي نفسه لم يتم توثيقه هنا.
 
-The predicted indication, retinal dystrophy with or without extraocular anomalies, is a congenital developmental disorder group typically caused by structural gene defects (e.g., PAX6, SOX2, and other retinal-development genes). There is no established pathogenic connection between dopamine receptor signaling and this disease group.
+المؤشر المتنبأ به، ضمور الشبكية مع أو بدون شذوذات خارج العيني، هو مجموعة اضطرابات نمائية خلقية عادةً ما تنتج عن عيوب جينية هيكلية (مثل PAX6، SOX2، وجينات نمو الشبكية الأخرى). لا يوجد اتصال معروف بين إشارات مستقبل الدوبامين ومجموعة الأمراض هذه.
 
-**This prediction should be treated with caution.** The mechanistic assessment for this candidate explicitly notes that the high TxGNN score most likely reflects "ophthalmology-related node proximity" in the knowledge graph — a structural/statistical artifact — rather than a genuine pharmacological relationship. Eight additional TxGNN-predicted indications for Sulpiride (rare congenital/genetic disorders, including hydranencephaly, polymicrogyria syndromes, CMT type 1G, X-linked myopias, a glycosylation disorder, and glycine encephalopathy) show the same pattern: very high model scores, zero clinical trials, zero or negligible literature, and no plausible mechanistic link to D2/D3 antagonism. This pattern across the full candidate list further supports treating the top prediction as unconfirmed.
+**يجب التعامل مع هذا التنبؤ بحذر.** يلاحظ التقييم الآلي لهذا المرشح بشكل صريح أن درجة TxGNN العالية على الأرجح تعكس "قرب العقد المتعلقة بطب العيون" في الرسم البياني للمعرفة — وهو خطأ هيكلي/إحصائي — بدلاً من علاقة دوائية حقيقية. ثمانية مؤشرات إضافية متنبأ بها من TxGNN لسلبيريد (اضطرابات خلقية نادرة/وراثية، بما في ذلك نقص الدماغ المائي، متلازمات تعدد التلافيف الدقيقة، ضمور العضلات الحركية النوع 1G، قصر النظر المرتبط بالكروموسوم X، اضطراب الجلايكوزيليشن، واعتلال الدماغ بالجليسين) تظهر نفس النمط: درجات نموذج عالية جداً، صفر تجارب سريرية، أدبيات معدومة أو غير كافية، والافتقار إلى رابط آلي معقول لمضادات D2/D3 للدوبامين. يدعم هذا النمط في جميع المرشحين المدرجة معاملة التنبؤ الأول كإشارة بحاجة إلى تأكيد.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-**Note:** None of the publications below study Sulpiride directly — they are general ophthalmology/genetics literature on the disease phenotype (retinal dystrophy, congenital extraocular anomalies) surfaced by topical relevance, not drug-specific evidence.
+**ملاحظة:** لا تدرس أي من المنشورات أدناه سلبيريد مباشرة — وهي أدبيات عامة في طب العيون/الوراثة حول النمط الظاهري للمرض (ضمور الشبكية، الشذوذ الخارج العيني) تم سحبها بسبب الصلة الموضوعية، وليس أدلة خاصة بالعقاقير.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections and cellulitis staging secondary to sinusitis |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Systematic clinical approach to diplopia (ocular/neurologic/muscular causes) |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging features of pediatric congenital ocular pathologies (microphthalmos, coloboma, ROP, etc.) |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape and associated anterior segment dysgenesis |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Congenital ptosis classification and associated extraocular muscle fibrosis |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex: vitreoretinal degeneration with extraocular manifestations |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | Journal of Binocular Vision and Ocular Motility | Ophthalmoplegia within Congenital Cranial Dysinnervation Disorders (CCDDs) |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Review | American Journal of Ophthalmology | Pathogenesis and treatment of maculopathy with cavitary optic disc anomalies |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | American Journal of Ophthalmology | Two cases of unilateral cryptophthalmia with absent extraocular muscles/optic nerve |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohort | International Journal of Molecular Sciences | Optic nerve/retinal abnormalities in Congenital Fibrosis of Extraocular Muscles (KIF21A/TUBB3) |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|------------|
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | مراجعة | Seminars in Ultrasound, CT, and MR | نظرة عامة على العدوى المدارية والتهاب الحجاج الثانوي لالتهاب الجيوب الأنفية |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | مراجعة | Seminars in Neurology | النهج السريري المنظم لازدواج الرؤية (الأسباب العينية/العصبية/العضلية) |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | مراجعة | Pediatric Radiology | ميزات التصوير للأمراض العينية الخلقية عند الأطفال (قصور البصر، الكولوبوما، اعتلال الشبكية الخداجي، إلخ) |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | مراجعة | Taiwan Journal of Ophthalmology | الشذوذات الخلقية لشكل العدسة والخلل الأمامي المقترن |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | مراجعة | Klinische Monatsblätter für Augenheilkunde | تصنيف الارتخاء الخلقي والتليف العضلي الخارج العيني المرتبط به |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | مراجعة | Documenta Ophthalmologica | متلازمة واغنر-ستيكلر: التنكس الزجاجي الشبكي مع المظاهر الخارج عينية |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | مراجعة | Journal of Binocular Vision and Ocular Motility | الشلل العيني في اضطرابات تعصيب الأعصاب القحفية الخلقية (CCDDs) |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | مراجعة | American Journal of Ophthalmology | الفسيولوجيا المرضية والعلاج لاعتلال البقعة مع شذوذات القرص البصري الكهفية |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | تقرير حالة | American Journal of Ophthalmology | حالتان من الكريبتوفثالميا الأحادية الجانب مع غياب العضلات الخارج عينية/العصب البصري |
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | دراسة الأتراب | International Journal of Molecular Sciences | الشذوذات البصرية/الشبكية في تليف العضلات الخارج عينية الخلقي (KIF21A/TUBB3) |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Sulpiride is currently **not marketed** in Saudi Arabia — no product authorizations are on file (0 licenses).
+سلبيريد غير مسوق حالياً في المملكة العربية السعودية — لا توجد تفويضات للمنتج في السجل (0 ترخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all unavailable in this evidence pack — TFDA package insert retrieval is flagged as a Blocking data gap, DG001.)
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة. (جميع بيانات التحذيرات الرئيسية والموانع المطلقة وتفاعلات الأدوية غير متاحة في ملف الأدلة هذا — استرجاع نشرة TFDA تم تحديده كفجوة بيانات حاجبة، DG001.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-No clinical trials or drug-specific literature support use of Sulpiride in retinal dystrophy with or without extraocular anomalies, and the disease's known genetic etiology has no established link to D2/D3 dopamine receptor antagonism. The evidence pack's own mechanistic review flags the TxGNN score as a probable knowledge-graph artifact rather than a real signal, and all other predicted indications for this drug show the identical no-evidence, no-mechanism pattern.
+**الأساس المنطقي:**
+لا توجد تجارب سريرية أو أدبيات خاصة بالعقاقير تدعم استخدام سلبيريد في ضمور الشبكية مع أو بدون شذوذات خارج العيني، والسبب الوراثي المعروف للمرض لا يرتبط بمضادات الدوبامين D2/D3. يشير تقييم الآلية الخاص بملف الأدلة نفسه إلى أن درجة TxGNN هي على الأرجح خطأ في الرسم البياني للمعرفة بدلاً من إشارة حقيقية، وجميع المؤشرات المتنبأ بها الأخرى لهذا الدواء تظهر نفس النمط: عدم وجود أدلة وعدم وجود آلية معقولة.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature — currently a High-severity gap (DG002)
-- Sulpiride's original approved indication(s), to properly assess indication-to-indication rationale
-- Preclinical or mechanistic studies directly linking dopaminergic signaling to retinal/extraocular developmental pathways, if any exist
-- Independent confirmation that the TxGNN score is not an artifact of ophthalmology-node clustering in the knowledge graph before any further investment
+**لكي نتمكن من المضي قدماً، يلزم ما يلي:**
+- نشرة TFDA/التنظيمية (التحذيرات، الموانع المطلقة) — حالياً فجوة بيانات حاجبة (DG001)
+- آلية عمل مؤكدة من DrugBank أو الأدب الأساسي — حالياً فجوة بيانات عالية الشدة (DG002)
+- المؤشرات المعتمدة الأصلية لسلبيريد، لتقييم صحيح للمبرر من مؤشر إلى مؤشر
+- دراسات سابقة سريرية أو ميكانيكية ترتبط مباشرة الإشارات الدوبامينية بالمسارات النمائية الشبكية/الخارج عينية، إن وجدت
+- تأكيد مستقل أن درجة TxGNN ليست نتيجة لتجميع عقد طب العيون في الرسم البياني للمعرفة قبل أي استثمار إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

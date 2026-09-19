@@ -29,95 +29,98 @@ indication_count: 10
 
 </div>
 
-# Chlorprothixene: From Psychosis to Retinal Dystrophy with or without Extraocular Anomalies
+# كلوربروثيكسين: من الذهان إلى ضمور الشبكية مع أو بدون تشوهات خارج العينية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Chlorprothixene is the first thioxanthene-class neuroleptic, introduced in 1959 under the brand names Taractan and Truxal, and has been used historically to treat psychosis, schizophrenia, and acute agitation.
-The TxGNN model's top prediction is that it may be effective for **Retinal Dystrophy with or without Extraocular Anomalies**, with **0 clinical trials** and **15 retrieved publications** — none of which directly study chlorprothixene in this condition, and the mechanistic link is not supported.
-A more clinically plausible secondary prediction exists for **Manic Bipolar Affective Disorder** (rank 10, L4), where historical psychiatric literature and pharmacological rationale are both present.
+كلوربروثيكسين هو أول عقار عصبي من فئة الثيوكسانثين، تم تقديمه عام 1959 تحت الأسماء التجارية Taractan و Truxal، واستُخدم تاريخياً لعلاج الذهان والفصام والإثارة الحادة.
 
----
+أعلى تنبؤ لنموذج TxGNN هو أنه قد يكون فعالاً في **ضمور الشبكية مع أو بدون تشوهات خارج العينية**، مع **0 تجارب سريرية** و **15 منشورة مسترجعة** — لا تدرس أي منها كلوربروثيكسين مباشرة في هذه الحالة، والارتباط الآليالغير مدعوم.
 
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Psychosis / Schizophrenia (thioxanthene-class antipsychotic; no SFDA registration found) |
-| Predicted New Indication | Retinal Dystrophy with or without Extraocular Anomalies |
-| TxGNN Prediction Score | 99.9981% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+توجد نبوءة ثانوية أكثر معقولية سريرية لـ **اضطراب الاكتئاب الثنائي القطب (النوع الهوسي)** (الرتبة 10، L4)، حيث تتوافر الأدبيات النفسية التاريخية والأساس الدوائي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on known information, chlorprothixene is the first marketed neuroleptic of the thioxanthene chemical class. Its primary pharmacological mechanism is dopamine D2 receptor antagonism, which reduces excessive dopaminergic signalling in mesolimbic pathways. Supplementary histamine H1 antagonism contributes to its pronounced sedative effect. These properties made it a first-generation antipsychotic for treating schizophrenia, psychotic agitation, and acute manic episodes in the pre-atypical antipsychotic era.
-
-The predicted indication — retinal dystrophy with or without extraocular anomalies — is a genetically heterogeneous group of inherited photoreceptor and retinal pigment epithelium (RPE) degenerations. There is **no established mechanistic pathway** connecting D2 or H1 receptor antagonism to retinal photoreceptor maintenance or RPE survival. More critically, thioxanthene drugs share structural similarity with phenothiazines, a class definitively known to **cause** drug-induced retinopathy (most notably thioridazine-associated pigmentary retinopathy). This class-level concern inverts the direction of expected drug–disease interaction and substantially undermines the prediction's clinical plausibility.
-
-The high TxGNN score (99.9981%) most likely reflects indirect graph-distance connections between pharmacological class nodes and disease taxonomy nodes in the knowledge graph, rather than a direct pharmacological relationship. The 15 retrieved publications cover general ophthalmological topics — orbital infections, congenital ptosis, cranial dysinnervation disorders, optic disc anomalies — without a single paper examining chlorprothixene as a therapy for retinal dystrophy. This prediction is assessed as **not biologically plausible** at current evidence level.
-
-> **Note on Rank 10 — Manic Bipolar Affective Disorder (Score 99.9583%, L4):** This lower-ranked prediction carries substantially stronger mechanistic credibility. D2 receptor antagonism is the core pharmacological mechanism for acute manic episode control, identical in principle to haloperidol and chlorpromazine. Historical literature from 1963–1980 (PMID 14085189, 7367466, 4471029) documents clinical use of chlorprothixene specifically in manic patients. However, no modern RCTs exist to meet contemporary evidence standards, and the drug is not marketed in Saudi Arabia.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for chlorprothixene in retinal dystrophy with or without extraocular anomalies.
+| البند | المحتوى |
+|------|--------|
+| الإشارة الأصلية | الذهان / الفصام (عقار عصبي من فئة الثيوكسانثين؛ لم يتم العثور على تسجيل SFDA) |
+| الإشارة الجديدة المتنبأ بها | ضمور الشبكية مع أو بدون تشوهات خارج العينية |
+| درجة التنبؤ TxGNN | 99.9981% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-The following publications were retrieved against the search query for chlorprothixene and retinal dystrophy. **None directly study chlorprothixene as a treatment for this condition.** They represent background ophthalmological literature on extraocular anomalies and related conditions retrieved by disease-term matching.
+حالياً، لا تتوافر بيانات مفصلة عن آلية العمل. بناءً على المعلومات المعروفة، كلوربروثيكسين هو أول عقار عصبي مسوّق من الفئة الكيميائية للثيوكسانثين. آليته الدوائية الأساسية هي معارضة مستقبلات الدوبامين D2، مما يقلل الإشارات الدوبامينية الزائدة في المسارات الميزولمبية. تساهم معارضة مستقبلات الهستامين H1 الإضافية في تأثيره المهدئ الواضح. جعلت هذه الخصائص منه عقار عصبي من الجيل الأول لعلاج الفصام والإثارة الذهانية والنوبات الهوسية الحادة في عصر ما قبل مضادات الذهان غير النمطية.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohort/Observational | Int J Mol Sci | Retinal and optic nerve head abnormalities in congenital fibrosis of the extraocular muscles (CFEOM); KIF21A and TUBB3 mutations extend beyond oculomotor dysinnervation to retinal ganglion cells |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Differential diagnosis and imaging features of pediatric ocular pathologies including retinopathy of prematurity, Coats disease, and congenital/developmental anomalies |
-| [36892533](https://pubmed.ncbi.nlm.nih.gov/36892533/) | 2023 | Clinical Genetics | Invest Ophthalmol Vis Sci | Monoallelic MAB21L1 missense mutations causing autosomal dominant BAMD syndrome (blepharophimosis plus anterior segment and macular dysgenesis) |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital lens shape anomalies and their association with anterior segment dysgenesis and persistent fetal vasculature |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Review | Am J Ophthalmol | Unifying pathogenesis theory for maculopathy associated with cavitary optic disc anomalies; proposed surgical approach for durable cure |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | J Binocul Vis Ocul Motil | Classification and diagnostic approach to congenital cranial dysinnervation disorders (CCDDs) including ophthalmoplegia subtypes |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis: levator muscle dystrophy and fibrosis, association with refractive errors and binocular vision disturbance |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex: vitreoretinal degeneration, myopia, retinal detachment, and associated systemic extraocular manifestations |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Orbital infections secondary to sinusitis: five-stage cellulitis classification, systemic predisposing conditions, clinical signs |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Systematic approach to diplopia evaluation: history, examination, and differential diagnosis of ocular motility disorders |
+الإشارة المتنبأ بها — ضمور الشبكية مع أو بدون تشوهات خارج العينية — هي مجموعة متجانسة وراثياً من التنكسات الموروثة للخلايا المستقبلة للضوء والظهارة الصبغية للشبكية (RPE). لا توجد **مسارات آليات محددة** تربط معارضة مستقبلات D2 أو H1 بصيانة المستقبلات الضوئية في الشبكية أو بقاء خلايا RPE. والأهم من ذلك، تشترك أدوية الثيوكسانثين في تشابه هيكلي مع الفينوثيازينات، وهي فئة معروفة بشكل قاطع أنها **تسبب** اعتلال الشبكية المستحث بالدواء (لا سيما اعتلال الشبكية الصبغي المرتبط بالثيوريدازين). ينقلب هذا القلق على مستوى الفئة من اتجاه التفاعل المتوقع بين الدواء والمرض بشكل كبير ويقلل بشكل أساسي من المعقولية السريرية للتنبؤ.
+
+درجة TxGNN العالية (99.9981%) تعكس على الأرجح اتصالات غير مباشرة بمسافات الرسم البياني بين عقد الفئة الدوائية وعقد تصنيف المرض في الرسم البياني المعرفي، بدلاً من علاقة دوائية مباشرة. تغطي 15 منشورة مسترجعة موضوعات طب العيون العام — العدوى المدارية، تدلي الجفن الخلقي، اضطرابات العصب القحفي، تشوهات قرص العصب البصري — دون ورقة واحدة تفحص كلوربروثيكسين كعلاج لضمور الشبكية. يتم تقييم هذا التنبؤ كـ **غير معقول بيولوجياً** عند مستوى الأدلة الحالي.
+
+> **ملاحظة حول الرتبة 10 — اضطراب الاكتئاب الثنائي القطب (النوع الهوسي) (الدرجة 99.9583%، L4):** يحمل هذا التنبؤ ذو الرتبة الأقل مصداقية آلية أقوى بكثير. معارضة مستقبلات D2 هي الآلية الدوائية الأساسية للسيطرة على النوبة الهوسية الحادة، متطابقة من حيث المبدأ مع الهالوبيريدول والكلوربرومازين. توثّق الأدبيات التاريخية من 1963–1980 (PMID 14085189, 7367466, 4471029) الاستخدام السريري لكلوربروثيكسين على وجه التحديد في المرضى الهيوسيين. غير أن لا توجد تجارب سريرية عشوائية حديثة تفي بمعايير الأدلة المعاصرة، والدواء غير مسوق بالمملكة العربية السعودية.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Chlorprothixene has **no regulatory authorizations** in Saudi Arabia. The SFDA query returned zero results. This drug is not marketed and no licensed products exist in the Saudi market.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Class-level safety concern relevant to this prediction:** Thioxanthene and phenothiazine antipsychotics carry established risk of **drug-induced retinal toxicity**. Thioridazine (a structurally related phenothiazine) is a well-documented cause of irreversible pigmentary retinopathy; this risk is shared across the antipsychotic drug class to varying degrees. Using chlorprothixene in a patient with pre-existing retinal dystrophy would require careful ophthalmological monitoring, and the drug's potential to worsen photoreceptor function directly contradicts the premise of treating retinal dystrophy. This safety signal must be resolved before any exploration of this indication proceeds.
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة لكلوربروثيكسين في ضمور الشبكية مع أو بدون تشوهات خارج العينية.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+تم استرجاع المنشورات التالية مقابل استعلام البحث عن كلوربروثيكسين وضمور الشبكية. **لا تدرس أي منها كلوربروثيكسين مباشرة كعلاج لهذه الحالة.** إنها تمثل أدبيات طب العيون الخلفية حول التشوهات خارج العينية والحالات المرتبطة التي تم استرجاعها بواسطة مطابقة مصطلحات المرض.
 
-**Rationale:**
-The top TxGNN prediction (retinal dystrophy) has no mechanistic basis, no clinical trial evidence, and the drug's pharmacological class is associated with causing retinal toxicity rather than treating it — making this prediction not currently actionable. The drug is also not marketed in Saudi Arabia, with zero SFDA authorizations and no available safety dossier.
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
+|------|------|------|-------|-----------------|
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | دراسة أتراب/رصدية | Int J Mol Sci | تشوهات الشبكية وقرص العصب البصري في التليف الخلقي للعضلات خارج العينية (CFEOM)؛ تتجاوز طفرات KIF21A و TUBB3 عدم تعصيب الأعصاب القحفية الثالثة لتشمل خلايا العقد الشبكية |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | مراجعة | Pediatric Radiology | التشخيص التفريقي والميزات التصويرية لأمراض العيون عند الأطفال بما في ذلك اعتلال الشبكية عند الخدج وأمراض كوتس والتشوهات الخلقية والنمائية |
+| [36892533](https://pubmed.ncbi.nlm.nih.gov/36892533/) | 2023 | الوراثة السريرية | Invest Ophthalmol Vis Sci | طفرات MAB21L1 غير المتماثلة التي تسبب متلازمة BAMD السائدة (تضيق الشق الجفني مع عدم تشكل القطاع الأمامي ودسجنيسيا البقعة) |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | مراجعة | Taiwan J Ophthalmol | تشوهات شكل العدسة الخلقية وارتباطها بعدم تشكل القطاع الأمامي والأوعية الدموية الجنينية المستمرة |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | مراجعة | Am J Ophthalmol | نظرية توحيد الإمراضية لاعتلال البقعة المرتبط بتشوهات قرص العصب البصري الحفرية؛ نهج جراحي مقترح للعلاج الدائم |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | مراجعة | J Binocul Vis Ocul Motil | تصنيف والنهج التشخيصي لاضطرابات عدم تعصيب الأعصاب القحفية الخلقية (CCDDs) بما في ذلك أنواع العيوب في حركة العيون |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | مراجعة | Klin Monbl Augenheilkd | تدلي الجفن الخلقي: ضمور عضلة الرافع والتليف، الارتباط بأخطاء الانكسار واضطراب الرؤية ثنائية الصورة |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | مراجعة | Doc Ophthalmol | مجمع متلازمة Wagner-Stickler: تنكس الشبكية والزجاجي وقصر النظر وانفصال الشبكية والمظاهر الجهازية خارج العينية المرتبطة |
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | مراجعة | Semin Ultrasound CT MR | العدوى المدارية الثانوية للتهاب الجيوب الأنفية: تصنيف التهاب الخلايا من خمس مراحل والحالات الجهازية المؤهبة والعلامات السريرية |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | مراجعة | Semin Neurol | نهج منتظم لتقييم الرؤية المزدوجة: السجل والفحص والتشخيص التفريقي لاضطرابات حركة العيون |
 
-**To proceed on any indication, the following is needed:**
+---
 
-- **MOA data**: Obtain full DrugBank pharmacology profile for chlorprothixene (DrugBank ID: DB01239) to verify receptor binding profile and known pharmacodynamic effects
-- **Safety dossier**: Retrieve package insert warnings, contraindications, and DDI data — all currently data gaps; the retinopathy class-effect risk requires formal characterisation before any ophthalmological indication can be considered
-- **For retinal dystrophy (rank 1)**: A biologically plausible mechanistic hypothesis is required before any evidence generation; absent one, this indication should be deprioritised
-- **For manic bipolar affective disorder (rank 10, L4)**: This is the most scientifically defensible repurposing candidate; pursue a retrospective chart review or pharmacoepidemiological study using existing real-world data, then evaluate feasibility of an investigator-initiated trial
-- **Saudi Arabia market pathway**: Any development programme requires establishing a regulatory pathway from zero (no existing SFDA approval); consider alignment with a licensed thioxanthene product already registered in comparable markets (EU, Japan) to leverage bridging data
+## معلومات سوق المملكة العربية السعودية
+
+كلوربروثيكسين **لا يملك أي تصاريح تنظيمية** في المملكة العربية السعودية. أرجعت استعلامات SFDA نتائج صفرية. الدواء غير مسوق وغير توجد منتجات مرخصة في السوق السعودي.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
+
+> **قلق السلامة على مستوى الفئة ذات الصلة بهذا التنبؤ:** تحمل مضادات الذهان من فئة الثيوكسانثين والفينوثيازين خطراً محدداً من **سمية الشبكية المستحثة بالدواء**. الثيوريدازين (فينوثيازين ذو صلة هيكلية) هو سبب موثق جيداً لاعتلال الشبكية الصبغي الدائم الذي لا يمكن عكسه؛ يُشارك هذا الخطر عبر فئة الأدوية المضادة للذهان بدرجات متفاوتة. سيتطلب استخدام كلوربروثيكسين في مريض مصاب بضمور شبكية سابق موجود مراقبة طب عيون دقيقة، وقد يتناقض إمكان تفاقم وظيفة المستقبل الضوئي للدواء مباشرة مع مقدمة علاج ضمور الشبكية. يجب حل هذه الإشارة الأمنية قبل المضي قدماً في أي استكشاف لهذه الإشارة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+يفتقر أعلى تنبؤ TxGNN (ضمور الشبكية) إلى أساس آلي وأدلة تجربة سريرية، والفئة الدوائية للدواء مرتبطة بـ التسبب في سمية الشبكية بدلاً من علاجها — مما يجعل هذا التنبؤ غير قابل للتطبيق حالياً. الدواء أيضاً غير مسوق بالمملكة العربية السعودية مع تصاريح SFDA صفرية وعدم توافر ملف سلامة.
+
+**للمتابعة على أي إشارة، يلزم ما يلي:**
+
+- **بيانات MOA**: الحصول على الملف الشامل لبيانات الأدوية من DrugBank لكلوربروثيكسين (DrugBank ID: DB01239) للتحقق من ملف الارتباط بالمستقبلات والتأثيرات الديناميكية الدوائية المعروفة
+- **ملف السلامة**: استرجاع تحذيرات ملخص خصائص المنتج وموانع الاستعمال وبيانات التفاعلات بين الأدوية — جميع فجوات البيانات الحالية؛ يتطلب خطر تأثير اعتلال الشبكية على مستوى الفئة توصيفاً رسمياً قبل أن تتمكن أي إشارة عينية من النظر فيها
+- **لضمور الشبكية (الرتبة 1)**: يلزم فرضية آلية معقولة بيولوجياً قبل توليد أي أدلة؛ في غياب فرضية، يجب تقليل أولوية هذه الإشارة
+- **لاضطراب الاكتئاب الثنائي القطب (النوع الهوسي) (الرتبة 10، L4)**: هذا هو أفضل مرشح إعادة استخدام قابل للدفاع علمياً؛ متابعة مراجعة السجل الاستعادية أو دراسة الأوبئة الدوائية باستخدام البيانات الموجودة في العالم الحقيقي، ثم تقييم جدوى دراسة بتمويل من الباحثين
+- **مسار سوق المملكة العربية السعودية**: أي برنامج تطوير يتطلب وضع مسار تنظيمي من الصفر (لا توجد موافقة SFDA موجودة)؛ يجب النظر في المحاذاة مع منتج ثيوكسانثين مرخص بالفعل ومسجل في أسواق مقارنة (الاتحاد الأوروبي واليابان) للاستفادة من بيانات الربط
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

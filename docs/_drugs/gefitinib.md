@@ -29,71 +29,72 @@ indication_count: 10
 
 </div>
 
-# Gefitinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+# جيفيتينيب: من سرطان الرئة غير صغير الخلايا إلى الورم الليفي اللثوي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Gefitinib is an EGFR tyrosine kinase inhibitor (EGFR-TKI) established for EGFR-mutation-positive non-small cell lung cancer (NSCLC).
-The TxGNN model's top-ranked prediction is **Fibromatosis, Gingival** (score 99.89%), but this candidate is supported by **zero clinical trials and zero publications**, and the evidence pack's own mechanistic assessment explicitly states no pathological link to the EGFR pathway exists.
+جيفيتينيب هو مثبط تيروسين كيناز EGFR (EGFR-TKI) الموثق سريرياً لسرطان الرئة غير صغير الخلايا (NSCLC) الإيجابي لطفرات EGFR.
+التنبؤ الأفضل تصنيفاً من نموذج TxGNN هو **الورم الليفي اللثوي** (نقاط 99.89%)، لكن هذا المرشح مدعوم بـ **صفر تجربة سريرية وصفر منشور**، وتقييم الآلية الممرضية الخاص بحزمة الأدلة ينص صراحة على عدم وجود ارتباط مرضي لمسار EGFR.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | EGFR-mutated non-small cell lung cancer (NSCLC) — no Saudi Arabia label text available; inferred from cited literature within this evidence pack |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البيان | المحتوى |
+|------|----------|
+| الاستطباب الأصلي | سرطان الرئة غير صغير الخلايا (NSCLC) ذو طفرات EGFR — لا يتوفر نص الملصق السعودي؛ مستدل عليه من الأدبيات المشار إليها ضمن حزمة الأدلة هذه |
+| الاستطباب الجديد المتنبأ به | الورم الليفي اللثوي |
+| نقاط التنبؤ من TxGNN | 99.89% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed DrugBank mechanism-of-action data is flagged as a data gap in this pack (DG002). However, the literature entries captured elsewhere in the pack consistently identify gefitinib as a selective EGFR tyrosine kinase inhibitor, clinically used for chemoresistant/EGFR-mutant NSCLC — this is well-established pharmacology, not a data gap in practice.
+يتم تحديد بيانات آلية العمل التفصيلية من DrugBank كفجوة بيانات ضمن هذه الحزمة (DG002). ومع ذلك، فإن مدخلات الأدبيات المدرجة في مكان آخر بالحزمة تحدد بثبات جيفيتينيب كمثبط انتقائي لتيروسين كيناز EGFR، يُستخدم سريرياً للـ NSCLC المقاوم للعلاج الكيميائي / الإيجابي لطفرات EGFR — هذه صيدلة راسخة وليست فجوة بيانات عملياً.
 
-For the top-ranked prediction, **fibromatosis, gingival**, the evidence pack's own repurposing rationale states this is a reactive/benign fibrous gum overgrowth with no known EGFR-pathway pathology, and that the score reflects the TxGNN model alone — no clinical trials, ICTRP records, or PubMed literature were returned in the corresponding queries. This is consistent with an L5 evidence level (model prediction only) and a Hold recommendation.
+بخصوص التنبؤ الأفضل تصنيفاً، **الورم الليفي اللثوي**، فإن تقرير إعادة تطبيق الاستطباب الخاص بحزمة الأدلة ينص على أن هذا نمو ليفي حميد ارتجاعي في اللثة دون استقلاب مرضي معروف في مسار EGFR، وأن النقاط تعكس نموذج TxGNN وحده — لم تُرجع أي تجارب سريرية أو سجلات ICTRP أو أدبيات PubMed في الاستعلامات المقابلة. هذا متسق مع مستوى أدلة L5 (التنبؤ من النموذج فقط) وتوصية الإيقاف.
 
-Among the ten predicted indications supplied, two — **lung hilum carcinoma** (rank 5) and **pulmonary sulcus neoplasm** (rank 9) — are anatomic subtypes of NSCLC and therefore fall within gefitinib's established mechanistic domain. These reached L4 evidence and an S1 "Research Question" stage, but each is backed by only a single case report or an indirect narrative review, not indication-specific trial data. The remaining candidates (gingival fibromatosis, lung fibroma, IBMPFD, lung hamartoma, benign lung neoplasm, the Leukomelanoderma syndrome, lung germ cell tumor, junctional epidermolysis bullosa) either have no mechanistic rationale, no supporting evidence, or literature that is a keyword-match artifact unrelated to the actual disease (e.g., the one clinical trial retrieved for lung germ cell tumor enrolled head-and-neck/NSCLC patients, not germ cell tumor patients). None of the ten candidates currently meet a bar higher than L4.
+من بين عشرة استطبابات متنبأ بها مُوفرة، اثنان — **سرطان هيلس الرئة** (التصنيف 5) و**ورم أخدود الرئة** (التصنيف 9) — هما نوعا تشريحي لـ NSCLC وبالتالي يقعان ضمن المجال الميكانيكي الراسخ لجيفيتينيب. وصلا إلى مستوى الأدلة L4 ومرحلة "سؤال بحثي" S1، لكن كل منهما مدعوم بحالة واحدة فقط أو مراجعة سردية غير مباشرة، وليس ببيانات تجربة خاصة بالاستطباب. المرشحون المتبقون (الورم الليفي اللثوي، ورم الرئة الليفي، IBMPFD، ورم الرئة الحميد، الورم الحميد الرئوي، متلازمة الابيضاض والإسمرار، ورم الخلايا الجرثومية الرئوي، الفقاع الموضعي الوصلي) إما أنهم لا يملكون منطق ميكانيكي أو لا دعم أدبي أو أدبيات هي نتيجة مطابقة كلمات مفتاحية غير مرتبطة بالمرض الفعلي (مثلاً، التجربة السريرية الواحدة المسترجعة لورم الخلايا الجرثومية الرئوي التحقت بمرضى الرأس والعنق / NSCLC وليس مرضى ورم الخلايا الجرثومية). لا يفي أي من المرشحين العشرة حالياً بمستوى أعلى من L4.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered for Fibromatosis, Gingival.
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة بالورم الليفي اللثوي.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available for Fibromatosis, Gingival.
+لا يتوفر حالياً أدبيات متعلقة بالورم الليفي اللثوي.
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-Gefitinib is not marketed in Saudi Arabia (0 authorizations on record), so no product/license table is available.
+جيفيتينيب غير مسوق في المملكة العربية السعودية (0 تفويضات مسجلة)، لذا لا توجد جدول منتج / ترخيص متاح.
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Liver function, skin toxicity, and QT interval — literature within this evidence pack documents gefitinib-associated interstitial lung disease, QT prolongation, and acneiform skin eruptions as recognized class effects |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| البيان | المحتوى |
+|------|----------|
+| تصنيف السمية الخلوية | العلاج الموجه (مثبط تيروسين كيناز EGFR) — ليس دواءً كيميائياً سامّاً تقليدياً |
+| خطر تثبيط النخاع | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| تصنيف الغثيان | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| بنود المراقبة | وظائف الكبد وسمية الجلد وفترة QT — تتوثق الأدبيات ضمن حزمة الأدلة هذه مرض الرئة الخلالي المرتبط بجيفيتينيب وإطالة QT والطفح الجلدي الشبيه بحب الشباب كآثار جانبية معترف بها للفئة |
+| حماية المناولة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: إيقاف**
 
-**Rationale:**
-The top-ranked predicted indication (gingival fibromatosis) has no mechanistic plausibility, no clinical trials, and no literature support — it is an L5, model-only signal. Even the two mechanistically plausible NSCLC-subtype candidates (lung hilum carcinoma, pulmonary sulcus neoplasm) are backed only by a single case report or indirect review, insufficient to justify progression.
+**المنطق:**
+لا يملك استطباب التنبؤ الأفضل تصنيفاً (الورم الليفي اللثوي) أي معقولية ميكانيكية، ولا تجارب سريرية، ولا دعم أدبي — إنه إشارة L5 من النموذج فقط. حتى المرشحان الاثنان المعقولان ميكانيكياً من نوع NSCLC (سرطان هيلس الرئة، ورم أخدود الرئة) مدعومان فقط بحالة واحدة أو مراجعة غير مباشرة، وهو غير كافٍ لتبرير التقدم.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking data gap (DG001) preventing S1 safety evaluation
-- Confirmed DrugBank mechanism-of-action record (DG002)
-- If pursuing the NSCLC-subtype candidates (lung hilum carcinoma, pulmonary sulcus neoplasm), targeted trial or case-series data specific to those anatomic presentations rather than general NSCLC or single case reports
-- Re-evaluation of the TxGNN ranking pipeline for the gingival fibromatosis and similarly unrelated candidates, given the absence of any corroborating evidence
+**للمتابعة، يلزم الآتي:**
+- نشرة المعلومات / حزمة التنظيم TFDA (التحذيرات والموانع) — حالياً فجوة بيانات حاجزة (DG001) تمنع تقييم السلامة S1
+- تسجيل آلية العمل المؤكد من DrugBank (DG002)
+- إذا كان المقصود متابعة المرشحين من نوع NSCLC (سرطان هيلس الرئة، ورم أخدود الرئة)، بيانات تجربة مستهدفة أو سلسلة حالات خاصة بتلك العروض التشريحية بدلاً من NSCLC العام أو حالات فردية
+- إعادة تقييم خط أنابيب ترتيب TxGNN للورم الليفي اللثوي والمرشحين غير المرتبطين بالمثل، نظراً لعدم وجود أي دعم متوازي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

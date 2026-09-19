@@ -29,83 +29,84 @@ indication_count: 3
 
 </div>
 
-# Selpercatinib: From RET-Driven Cancers to Pulmonary Hypertension
+# سيلبيركاتينيب: من السرطانات المدفوعة بـ RET إلى ارتفاع ضغط الدم الرئوي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Selpercatinib is a RET kinase inhibitor; this evidence pack does not include its formal approved-indication text, but the cited literature references its use in RET fusion-positive NSCLC and RET-mutant medullary thyroid carcinoma.
-> The TxGNN model predicts a possible signal for **Pulmonary Hypertension**, but this is supported by **0 clinical trials** and only **3 tangentially related publications** (none specific to pulmonary hypertension outcomes).
-> Given that other kinase inhibitors are known to *cause* pulmonary hypertension rather than treat it, this prediction should be treated as a signal requiring mechanistic clarification, not a repurposing lead.
+> سيلبيركاتينيب هو مثبط كيناز RET؛ لا تتضمن هذه حزمة الأدلة نصه الرسمي للمؤشر المعتمد، لكن الأدبيات المذكورة تشير إلى استخدامه في NSCLC الإيجابي لـ RET fusion وسرطان الغدة الدرقية النخاعي المتحور RET.
+> يتنبأ نموذج TxGNN بإشارة محتملة لـ **ارتفاع ضغط الدم الرئوي**، لكن هذا مدعوم بـ **0** تجارب سريرية وفقط **3** منشورات ذات صلة هامشية (لا توجد واحدة محددة لنتائج ارتفاع ضغط الدم الرئوي).
+> نظراً لأن مثبطات الكيناز الأخرى معروفة بأنها *تسبب* ارتفاع ضغط الدم الرئوي بدلاً من علاجه، يجب التعامل مع هذا التنبؤ كإشارة تتطلب توضيحاً ميكانيكياً، وليس كفرصة إعادة توظيف.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not provided in this evidence pack (`original_indications` empty, MOA flagged as Data Gap). Cited literature refers to use in RET fusion-positive NSCLC and RET M918T-mutant medullary thyroid carcinoma. |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.18% (rank 11,589) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | لم يتم توفيره في هذه حزمة الأدلة (original_indications فارغة، آلية العمل موضحة كفجوة بيانات). تشير الأدبيات المذكورة إلى الاستخدام في NSCLC الإيجابي لـ RET fusion وسرطان الغدة الدرقية النخاعي المتحور RET M918T. |
+| المؤشر الجديد المتوقع | ارتفاع ضغط الدم الرئوي |
+| درجة التنبؤ بـ TxGNN | 99.18% (الترتيب 11,589) |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). What is known from the cited literature is that selpercatinib is a highly selective RET tyrosine kinase inhibitor, used in RET fusion/mutation-driven cancers such as NSCLC and medullary thyroid carcinoma.
+لا تتوفر بيانات تفصيلية حول آلية العمل في هذه حزمة الأدلة (موضحة كفجوة بيانات بدرجة عالية). ما هو معروف من الأدبيات المذكورة هو أن سيلبيركاتينيب هو مثبط كيناز RET تيروسين عالي الانتقائية، يُستخدم في السرطانات المدفوعة بـ RET fusion/mutation مثل NSCLC وسرطان الغدة الدرقية النخاعي.
 
-There is no established mechanistic link between RET/GDNF signaling and pulmonary vascular remodeling — the pathway underlying pulmonary hypertension. By contrast, several other tyrosine kinase inhibitors (e.g., dasatinib) are well documented to **cause** pulmonary hypertension as an adverse drug reaction. This raises the possibility that the TxGNN network has picked up a class-level "TKI ↔ pulmonary vascular effect" association that reflects a safety signal rather than a therapeutic opportunity — the direction of the relationship needs to be clarified before this is treated as a repurposing candidate.
+لا توجد علاقة ميكانيكية محددة بين إشارة RET/GDNF وإعادة تشكيل الأوعية الرئوية — المسار الأساسي لارتفاع ضغط الدم الرئوي. وعلى النقيض من ذلك، يُعرف عدد من مثبطات كيناز التيروسين الأخرى (مثل dasatinib) بأنها **تسبب** ارتفاع ضغط الدم الرئوي كتفاعل دوائي ضار. وهذا يثير احتمالية أن الشبكة TxGNN قد التقطت ارتباطاً على مستوى الفئة "TKI ↔ تأثير الأوعية الرئوية" يعكس إشارة سلامة بدلاً من فرصة علاجية — يجب توضيح اتجاه العلاقة قبل التعامل مع هذا كمرشح إعادة توظيف.
 
-No clinical trials or disease-specific literature currently support a therapeutic hypothesis. The two supporting publications identified are largely unrelated in focus (a pharmacovigilance comparison of RET inhibitors' adverse events, a real-world NSCLC outcomes study, and a medullary thyroid carcinoma case report) — none evaluate selpercatinib in the context of treating pulmonary hypertension.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية أو أدبيات خاصة بالأمراض تدعم فرضية علاجية. المنشورتان الداعمتان المحددتان تركزان بشكل كبير على موضوعات غير ذات صلة (مقارنة يقظة السلامة لمثبطات RET الضارة، دراسة نتائج NSCLC الواقعية، وتقرير حالة سرطان الغدة الدرقية النخاعي) — لا تقيّم أي منها سيلبيركاتينيب في سياق معالجة ارتفاع ضغط الدم الرئوي.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Real-world/Pharmacovigilance | Frontiers in Pharmacology | FDA FAERS-based comparison of adverse event profiles between pralsetinib and selpercatinib — relevant to safety signal detection, not treatment efficacy for pulmonary hypertension |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospective analysis | Therapeutic Advances in Medical Oncology | Real-world efficacy of selpercatinib in RET fusion-positive NSCLC via an access program (SIREN study) — establishes original oncology use, not pulmonary hypertension relevance |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Case report | Cureus | Long-term management of RET M918T-mutant metastatic medullary thyroid carcinoma (MEN2B) with targeted therapy — again oncology context, not pulmonary hypertension |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | واقعي/يقظة السلامة | Frontiers in Pharmacology | مقارنة قائمة على FAERS للملفات الشخصية للأحداث الضارة بين pralsetinib و selpercatinib — ذات صلة بكشف إشارة السلامة، وليس فعالية العلاج لارتفاع ضغط الدم الرئوي |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | تحليل بأثر رجعي | Therapeutic Advances in Medical Oncology | الفعالية في العالم الحقيقي لـ selpercatinib في NSCLC الإيجابي لـ RET fusion عبر برنامج الوصول (دراسة SIREN) — يؤسس الاستخدام الأصلي في طب الأورام، وليس الصلة بارتفاع ضغط الدم الرئوي |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | تقرير حالة | Cureus | الإدارة طويلة الأمد لسرطان الغدة الدرقية النخاعي النقيلي المتحور RET M918T (MEN2B) مع العلاج الموجه — مرة أخرى في سياق طب الأورام، وليس ارتفاع ضغط الدم الرئوي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No authorizations on record — the drug is not currently marketed (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: DG001 — TFDA/local package insert warnings and contraindications are flagged as a Blocking-severity data gap; safety data could not be pulled into this evidence pack, and no DDI records were found.)*
+لا توجد تصاريح مسجلة — الدواء غير مسوق حالياً (0 ترخيص).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-The pulmonary hypertension signal is TxGNN-prediction-only (L5), with zero supporting clinical trials and no literature directly evaluating this indication. The mechanistic rationale is inconclusive and may even point in the opposite direction (TKI-induced pulmonary hypertension as an adverse effect), so this should not proceed as a repurposing candidate without further clarification. The other two candidates in this pack (migraine disorder, migraine with brainstem aura) have no clinical trial or literature support at all and no plausible mechanistic link to RET inhibition — both are also Hold/L5.
+*(ملاحظة: DG001 — يتم تحديد تحذيرات TFDA/النشرة المحلية وموانع الاستعمال كفجوة بيانات حاجزة؛ لم يتمكن من سحب بيانات السلامة إلى هذه حزمة الأدلة، ولم يتم العثور على سجلات DDI.)*
 
-**To proceed, the following is needed:**
-- TFDA/local package insert (safety warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data via DrugBank — currently a High-severity data gap
-- A directional analysis clarifying whether the RET inhibitor ↔ pulmonary hypertension association reflects a therapeutic effect or an adverse drug reaction signal
-- Preclinical or mechanistic studies linking RET/GDNF signaling to pulmonary vascular remodeling
-- Any prospective clinical evidence in pulmonary hypertension populations (currently none registered)
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+إشارة ارتفاع ضغط الدم الرئوي هي تنبؤ TxGNN فقط (L5)، بدون تجارب سريرية داعمة وبدون أدبيات تقيّم مباشرة هذا المؤشر. الأساس المنطقي الميكانيكي غير حاسم وقد يشير حتى في الاتجاه المعاكس (ارتفاع ضغط الدم الرئوي المستحث بـ TKI كتأثير ضار)، لذا يجب ألا يتقدم كمرشح إعادة توظيف بدون توضيح إضافي. المرشحان الآخران في هذه الحزمة (اضطراب الصداع النصفي، الصداع النصفي مع هالة جذع الدماغ) لا يحتويان على دعم تجربة سريرية أو أدبيات وبدون صلة ميكانيكية معقولة لمثبطات RET — كلاهما أيضاً تأجيل/L5.
+
+**للمتابعة، المطلوب التالي:**
+- نشرة TFDA/المحلية (تحذيرات السلامة، موانع الاستعمال) — حالياً فجوة بيانات حاجزة
+- تأكيد بيانات آلية العمل عبر DrugBank — حالياً فجوة بيانات بدرجة عالية
+- تحليل اتجاهي يوضح ما إذا كان ارتباط مثبط RET ↔ ارتفاع ضغط الدم الرئوي يعكس تأثيراً علاجياً أو إشارة تفاعل دوائي ضار
+- دراسات سابقة سريرية أو ميكانيكية تربط إشارة RET/GDNF بإعادة تشكيل الأوعية الرئوية
+- أي دليل سريري استباقي في مجموعات السكان الذين يعانون من ارتفاع ضغط الدم الرئوي (حالياً لا شيء مسجل)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

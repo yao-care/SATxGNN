@@ -29,74 +29,75 @@ indication_count: 2
 
 </div>
 
-# Isotretinoin: From Severe Nodular Acne to Malignant Hypertensive Renal Disease
+# Isotretinoin: من حب الشباب العقدي الشديد إلى مرض الكلى الارتفاعي الخبيث
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Isotretinoin is a systemic retinoid originally used for severe nodular acne. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no external corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Severe nodular acne (systemic retinoid, oral) — not derivable from Saudi Arabia license data, which is empty |
-| Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+isotretinoin هو ريتينويد نظامي تم تطويره في الأصل لعلاج حب الشباب العقدي الشديد. يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **مرض الكلى الارتفاعي الخبيث**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجارب سريرية** و**0 منشورات** — إنها إشارة من النموذج فقط بدون تأكيد خارجي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for isotretinoin is not available in this Evidence Pack. Based on known pharmacology, isotretinoin (13-cis-retinoic acid) is a retinoic acid receptor (RAR) ligand used systemically for severe, treatment-resistant nodular acne.
-
-The mechanistic link to malignant hypertensive renal disease is indirect and largely theoretical. Preclinical literature on **all-trans retinoic acid (ATRA)** — a different retinoid isomer — shows anti-fibrotic and podocyte-protective effects in glomerulosclerosis animal models, which could plausibly extend to the vascular endothelial injury and fibrinoid necrosis seen in malignant hypertension. However, isotretinoin has different receptor affinity than ATRA, and no isotretinoin-specific pharmacological evidence supports this indication.
-
-Working against this direction, isotretinoin carries known safety signals — hypertriglyceridemia and pseudotumor cerebri (benign intracranial hypertension) — that are mechanistically at odds with treating a hypertensive renal emergency. A second, near-identical prediction (**malignant renovascular hypertension**, TxGNN score 99.01%, rank 13419) shares the same rationale and the same lack of supporting evidence, suggesting this is one broad model signal rather than two independent findings.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | حب الشباب العقدي الشديد (ريتينويد نظامي، فموي) — غير قابل للاشتقاق من بيانات ترخيص المملكة العربية السعودية، وهي فارغة |
+| الاستطباب الجديد المتنبأ به | مرض الكلى الارتفاعي الخبيث |
+| درجة التنبؤ بـ TxGNN | 99.01% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | معلق |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل المفصلة لـ isotretinoin غير متاحة في حزمة الأدلة هذه. بناءً على الصيدلة المعروفة، isotretinoin (13-cis-retinoic acid) هو رابط RAR يُستخدم نظامياً لعلاج حب الشباب العقدي الشديد المقاوم للعلاج.
 
----
+الارتباط الميكانيكي لمرض الكلى الارتفاعي الخبيث غير مباشر وغالباً نظري. تُظهر الأدبيات قبل السريرية لـ **all-trans retinoic acid (ATRA)** — وهو نوع مختلف من الريتينويد — تأثيرات مضادة للتليف وحامية للقرينات في نماذج حيوانية لتليف الكبيبات، والتي قد تمتد بشكل معقول إلى إصابة البطانة الوعائية والنخر الليفيني الذي يُرى في ارتفاع ضغط الدم الخبيث. ومع ذلك، فإن isotretinoin لديه تقاربية مستقبل مختلفة عن ATRA، وعدم وجود دليل صيدلي محدد لـ isotretinoin يدعم هذا الاستطباب.
 
-## Saudi Arabia Market Information
-
-Isotretinoin is not currently marketed in Saudi Arabia (market status: Not Marketed, 0 authorizations on record). No product information is available for this evaluation.
+يعمل ضد هذا الاتجاه أن isotretinoin يحمل إشارات سلامة معروفة — فرط ثلاثي الغليسريدات والورم الدماغي الكاذب (ارتفاع ضغط داخل الجمجمة الحميد) — وهي متضاربة بآلية مع علاج حالة طوارئ كلوية ارتفاعية. يشير التنبؤ الثاني المتطابق تقريباً (**ارتفاع ضغط الدم الوعائي الكلوي الخبيث**، درجة TxGNN 99.01%، الترتيب 13419) إلى نفس الأساس المنطقي وعدم وجود أدلة داعمة، مما يشير إلى أن هذه إشارة نموذج واحدة عريضة بدلاً من نتيجتين مستقلتين.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-This is an L5, model-prediction-only signal with no supporting clinical trials or literature, no original indication/MOA data on file, and a plausible safety conflict (hypertriglyceridemia, pseudotumor cerebri) with the proposed indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action and original approved indication(s) from DrugBank or the manufacturer's labeling
-- Preclinical or mechanistic studies directly linking isotretinoin (not ATRA) to malignant hypertension/renal vasculopathy
-- Reassessment if any clinical trial or literature evidence emerges for either predicted indication
+## معلومات سوق المملكة العربية السعودية
+
+لا يتم تسويق isotretinoin حالياً في المملكة العربية السعودية (حالة السوق: غير مسوق، 0 تصاريح مسجلة). لا توجد معلومات منتج متاحة لهذا التقييم.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: معلق**
+
+**المبرر:**
+هذه إشارة L5 تتعلق بالتنبؤ بالنموذج فقط، بدون أدلة تجارب سريرية أو أدبيات داعمة، وبدون بيانات استطباب أصلي/آلية عمل في الملف، مع ضعف محتمل في السلامة (فرط ثلاثي الغليسريدات، ورم دماغي كاذب) يتعارض مع الاستطباب المقترح.
+
+**للمتابعة، يلزم التالي:**
+- نشرة TFDA/SFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حجزية
+- آلية عمل مؤكدة واستطبابات أصلية معتمدة من DrugBank أو تسميات الشركة المصنعة
+- دراسات قبل سريرية أو ميكانيكية مباشرة تربط isotretinoin (وليس ATRA) بارتفاع ضغط الدم الخبيث/أمراض الأوعية الكلوية
+- إعادة تقييم إذا ظهرت أي أدلة تجارب سريرية أو أدبيات لأي من الاستطبابات المتنبأ بها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

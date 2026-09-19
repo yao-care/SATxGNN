@@ -29,98 +29,99 @@ indication_count: 2
 
 </div>
 
-# Panitumumab: From Metastatic Colorectal Cancer to Drug-Induced Osteoporosis
+# بانيتوموماب: من سرطان القولون المستقيم النقيلي إلى ترقق العظام المستحث بالأدوية
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-> Panitumumab is a fully human anti-EGFR monoclonal antibody, established for treating RAS wild-type metastatic colorectal cancer.
-> The TxGNN model predicts it may be effective for **drug-induced osteoporosis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only hypothesis with no known mechanistic pathway.
+> بانيتوموماب هو جسم مضاد أحادي نوعي ضد EGFR بشري بالكامل، مثبّت لعلاج سرطان القولون المستقيم النقيلي من النوع RAS wild-type.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ترقق العظام المستحث بالأدوية**،
+> لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور** — إنها فرضية تعتمد على النموذج فقط بدون مسار آلي معروف.
 
-*Note: the evidence pack's `original_indications` field was empty and `original_moa` is a data gap. The original indication above reflects panitumumab's publicly known labeled use, not a field extracted from this evidence pack.*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Metastatic colorectal cancer (EGFR-expressing, RAS wild-type) — general drug knowledge; not present in the supplied dataset |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.13% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+*ملاحظة: حقل `original_indications` في حزمة البيانات كان فارغاً و `original_moa` يمثل فجوة في البيانات. المؤشر الأصلي أعلاه يعكس الاستخدام المرخص المعروف علناً لبانيتوموماب، وليس حقلاً تم استخراجه من حزمة البيانات هذه.*
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for panitumumab in this evidence pack. Based on known information, panitumumab is a fully human IgG2 monoclonal antibody that inhibits EGFR (epidermal growth factor receptor) signaling on tumor cells, and its efficacy in metastatic colorectal cancer is well established.
-
-However, the mechanistic link to drug-induced osteoporosis is weak. Panitumumab's known adverse effects — acneiform rash, hypomagnesemia, and infusion reactions — do not point to a known pathway affecting osteoblast/osteoclast balance or bone remodeling. The high TxGNN score (0.991) appears to reflect proximity within the knowledge graph's embedding space rather than any documented biological or clinical relationship between EGFR inhibition and bone loss.
-
-Given the absence of supporting clinical trials, literature, or a plausible mechanism, this prediction should be treated as a graph-similarity-driven hypothesis requiring independent mechanistic validation before further pursuit.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | سرطان القولون المستقيم النقيلي (معبّر عن EGFR، من النوع RAS wild-type) — معرفة عامة عن الدواء؛ غير موجود في مجموعة البيانات المزودة |
+| المؤشر الجديد المتنبأ به | ترقق العظام المستحث بالأدوية |
+| درجة تنبؤ TxGNN | 99.13% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل المفصلة غير متاحة لبانيتوموماب في حزمة البيانات هذه. بناءً على المعلومات المعروفة، بانيتوموماب هو جسم مضاد أحادي نوعي بشري بالكامل من نوع IgG2 يثبط إشارات EGFR (مستقبل عامل النمو البشروي) على الخلايا الورمية، وفعاليته في سرطان القولون المستقيم النقيلي مثبتة جيداً.
 
----
+غير أن الارتباط الآلي بترقق العظام المستحث بالأدوية ضعيف. الآثار الجانبية المعروفة لبانيتوموماب — الطفح الشبيه بحب الشباب، نقص المغنيسيوم، وتفاعلات التسريب — لا تشير إلى مسار معروف يؤثر على توازن بانيات العظم/هوادمات العظم أو إعادة تشكيل العظم. يبدو أن درجة TxGNN العالية (0.991) تعكس القرب داخل مساحة التضمين لرسم المعرفة بدلاً من أي علاقة بيولوجية أو سريرية موثقة بين تثبيط EGFR وفقدان العظم.
 
-## Saudi Arabia Market Information
-
-Panitumumab currently holds no market authorization in Saudi Arabia (0 licenses; market status: not marketed), so no product/authorization data is available.
+نظراً لعدم وجود تجارب سريرية داعمة أو أدبيات أو آلية معقولة، يجب التعامل مع هذا التنبؤ كفرضية مدفوعة بالتشابه الرسومي تتطلب التحقق المستقل من الآلية قبل المتابعة الإضافية.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-Panitumumab is an antineoplastic biologic (anti-EGFR monoclonal antibody used in oncology).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
----
-
-## Additional Predicted Indication (Rank 2)
-
-A second candidate, **severe nonproliferative diabetic retinopathy** (TxGNN score 99.05%, rank 13043), was also predicted, but likewise has 0 supporting trials/literature (evidence level L5, recommendation: Hold). The associated rationale notes that anti-EGFR agents have only sporadic reports of ocular surface toxicity (conjunctivitis, eyelash changes), not the VEGF-driven vascular pathology underlying diabetic retinopathy — so this candidate is even less mechanistically plausible than the primary one.
+لا توجد حالياً أدبيات ذات صلة متاحة
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+بانيتوموماب لا يحمل حالياً أي ترخيص تسويقي في المملكة العربية السعودية (0 تراخيص؛ حالة السوق: غير مسوّق)، لذا لا توجد بيانات منتج/ترخيص متاحة.
 
-**Rationale:**
-This candidate rests solely on a TxGNN embedding score (L5) with zero clinical trials, zero literature, and no plausible mechanistic pathway connecting EGFR inhibition to bone metabolism. A **Blocking** data gap also exists — no TFDA/SFDA package insert safety data is available, precluding even a preliminary S1 safety assessment.
+---
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert data (warnings, contraindications, DDI) — currently blocking
-- Confirmed mechanism of action (MOA) from DrugBank or primary literature
-- Preclinical or mechanistic studies linking EGFR pathway inhibition to bone metabolism
-- At minimum, an observational study or case series supporting biological plausibility before advancing past S0
+## السمية الخلوية
+
+بانيتوموماب هو عامل حيوي مضاد للأورام (جسم مضاد أحادي نوعي ضد EGFR يُستخدم في طب الأورام).
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | العلاج الموجه (جسم مضاد أحادي نوعي ضد EGFR) |
+| خطر قمع النخاع | يرجى الرجوع إلى تحذيرات واحتياطات ورقة المعلومات |
+| تصنيف المقيئية | يرجى الرجوع إلى تحذيرات واحتياطات ورقة المعلومات |
+| بنود المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات ورقة المعلومات |
+| حماية المعالجة | يرجى الرجوع إلى تحذيرات واحتياطات ورقة المعلومات |
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة.
+
+---
+
+## مؤشر متنبأ به إضافي (الترتيب 2)
+
+تم التنبؤ أيضاً بمرشح ثاني، **اعتلال الشبكية السكري غير التكاثري الشديد** (درجة TxGNN 99.05%، الترتيب 13043)، لكنه وبالمثل يتمتع بـ 0 تجارب/أدبيات داعمة (مستوى الأدلة L5، التوصية: توقف). تشير الحجة ذات الصلة إلى أن عوامل مضادات EGFR لديها فقط تقارير متقطعة عن سمية السطح العيني (التهاب الملتحمة، تغييرات الرموش)، وليس الأمراض الوعائية المدفوعة بـ VEGF التي تكمن وراء اعتلال الشبكية السكري — لذا فإن هذا المرشح أقل معقولية من الناحية الآلية من المرشح الأساسي.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الحجة:**
+هذا المرشح يستند فقط على درجة تضمين TxGNN (L5) بدون تجارب سريرية، وبدون أدبيات، وبدون مسار آلي معقول يربط تثبيط EGFR بأيض العظم. توجد أيضاً فجوة بيانات **حاجزة** — لا توجد بيانات سلامة ورقة المعلومات SFDA/TFDA المتاحة، مما يحول دون حتى تقييم السلامة الأولي S1.
+
+**للمتابعة، يتطلب التالي:**
+- بيانات ورقة المعلومات SFDA/TFDA (التحذيرات، الموانع، DDI) — حالياً حاجزة
+- آلية عمل مؤكدة (MOA) من DrugBank أو الأدبيات الأولية
+- دراسات سابقة للسريرية أو ميكانيكية تربط تثبيط مسار EGFR بأيض العظم
+- على الأقل، دراسة رصدية أو سلسلة حالات تدعم المعقولية البيولوجية قبل التقدم بعد S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,81 +29,78 @@ indication_count: 10
 
 </div>
 
-Using the drug-repurposing evidence pack you provided, here is the evaluation report for VARENICLINE.
+# فارينيكلين: من الإقلاع عن التدخين إلى اضطراب الصداع النصفي
+
+## الملخص بجملة واحدة
+
+> فارينيكلين هو ناهض جزئي لمستقبلات النيكوتين أسيتيل كولين (nAChR) تم تطويره واستخدامه في الأصل للإقلاع عن التدخين (الإدمان على التبغ).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع النصفي**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجارب سريرية** و**منشور واحد فقط** — تقرير حالة حول توقف القلب الناجم عن الأدوية، وليس دراسة فعالية.
 
 ---
 
-# Varenicline: From Smoking Cessation to Migraine Disorder
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Varenicline is a nicotinic acetylcholine receptor (nAChR) partial agonist originally developed and used for smoking cessation (tobacco dependence).
-> The TxGNN model predicts it may be effective for **Migraine Disorder**, but this direction is currently supported by **0 clinical trials** and only **1 publication** — a cardiac arrest adverse-event case report, not an efficacy study.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Smoking cessation / tobacco dependence (inferred from literature evidence in this pack; no formal Taiwan/KSA license record available) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | الإقلاع عن التدخين / الإدمان على التبغ (مستنتج من الأدلة الأدبية في هذه الحزمة؛ لا توجد سجلات ترخيص رسمية من تايوان/المملكة العربية السعودية متاحة) |
+| الاستطباب الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ TxGNN | 99.92% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for varenicline is flagged as a data gap in this evidence pack (DG002, High severity). Based on information available in the supporting literature, varenicline acts as a partial agonist at α4β2 nicotinic acetylcholine receptors and a full agonist at α7 nAChRs — this is the pharmacology underlying its approved use in smoking cessation, where it reduces nicotine craving and withdrawal symptoms.
+بيانات آلية الفعل المفصلة لفارينيكلين تم تحديدها كفجوة بيانات في هذه الحزمة من الأدلة (DG002، شدة عالية). بناءً على المعلومات المتاحة في الأدبيات الداعمة، يعمل فارينيكلين كناهض جزئي على مستقبلات النيكوتين أسيتيل كولين α4β2 وكناهض كامل على مستقبلات α7 nAChRs — هذا هو علم الأدوية الكامن وراء استخدامه المعتمد في الإقلاع عن التدخين، حيث يقلل من الرغبة في النيكوتين وأعراض الانسحاب.
 
-However, the repurposing rationale for this specific prediction is explicit that **no established mechanistic link exists** between nAChR partial agonism and migraine pathophysiology (e.g., the trigeminovascular system or CGRP pathway). The single literature record associated with this indication is not an efficacy study at all — it is a case report of cardiac arrest following varenicline use, which is an adverse-event signal rather than evidence of therapeutic benefit.
+ومع ذلك، فإن المنطق الكامن وراء إعادة تطبيق هذا التنبؤ المحدد يوضح بشكل صريح أنه **لا يوجد رابط آلي مؤسس** بين الناهض الجزئي nAChR وفيزيولوجيا مرض الصداع النصفي (على سبيل المثال، النظام ثلاثي التوائم الوعائي أو مسار CGRP). السجل الأدبي الوحيد المرتبط بهذا الاستطباب ليس دراسة فعالية على الإطلاق — إنه تقرير حالة حول توقف القلب بعد استخدام فارينيكلين، وهو إشارة حدث ضار وليس دليلاً على فائدة علاجية.
 
-In short, the high TxGNN score (99.92%, rank 1913) reflects a model-generated association, not corroborating clinical or mechanistic evidence. The only real-world data point associated with this candidate points toward a safety concern rather than a treatment opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+باختصار، فإن درجة TxGNN العالية (99.92%، الترتيب 1913) تعكس ارتباطاً تم إنشاؤه بواسطة النموذج، وليس دليلاً سريرياً أو آلياً مؤيداً. نقطة البيانات الوحيدة من العالم الحقيقي المرتبطة بهذا المرشح تشير إلى مخاوف تتعلق بالسلامة وليس إلى فرصة علاج.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Case Report | Therapie | Case report of cardiac arrest associated with varenicline use — an adverse-event report, not evidence of efficacy in migraine |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-Varenicline is currently **not marketed** and has no license records on file (0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|-------|--------|-----------------|
+| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | تقرير حالة | Therapie | تقرير حالة توقف القلب المرتبط باستخدام فارينيكلين — تقرير حدث ضار، وليس دليلاً على فعالية في الصداع النصفي |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+فارينيكلين حالياً **غير مسوق** ولا يوجد سجلات ترخيص على الملف (0 تفويضات).
 
-**Rationale:**
-The prediction rests solely on the TxGNN model score with no supporting clinical trials and no genuine efficacy literature; the sole associated publication reports a serious cardiac adverse event, which raises a safety flag rather than supporting therapeutic potential. Evidence level is L5 (model prediction only).
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action data confirming or refuting any plausible nAChR–migraine pathway link
-- TFDA/regulatory package insert data on warnings, contraindications, and cardiovascular risk (currently blocking — DG001)
-- Preclinical or mechanistic studies specifically evaluating varenicline in migraine models
-- Systematic review of the cardiac safety signal (e.g., PMID 19585710) before any further development consideration
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+التنبؤ يعتمد فقط على درجة نموذج TxGNN دون أي تجارب سريرية داعمة وبدون أدبيات فعالية حقيقية؛ المنشور الوحيد المرتبط يبلغ عن حدث ضار قلبي خطير، مما يثير تحذيراً من السلامة بدلاً من دعم الإمكانات العلاجية. مستوى الدليل هو L5 (التنبؤ بالنموذج فقط).
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية الفعل التي تؤكد أو تنفي أي رابط معقول بين مسار nAChR والصداع النصفي
+- بيانات نشرة الدواء التنظيمية TFDA بشأن التحذيرات والموانع والمخاطر القلبية الوعائية (حالياً تحجب — DG001)
+- دراسات سابقة للسريرية أو آلية تقيم فارينيكلين على وجه التحديد في نماذج الصداع النصفي
+- مراجعة منهجية لإشارة السلامة القلبية (على سبيل المثال، PMID 19585710) قبل أي اعتبار تطوير إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

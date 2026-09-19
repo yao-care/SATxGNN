@@ -29,74 +29,75 @@ indication_count: 7
 
 </div>
 
-# Clobetasol Propionate: From Inflammatory Dermatoses to Vulvar Inverted Follicular Keratosis
+# clobetasol propionate: من الأمراض الجلدية الالتهابية إلى التقرن الجريبي المقلوب في الفرج
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Clobetasol propionate is an ultra-potent topical corticosteroid (Class I) widely used in clinical practice for chronic inflammatory skin conditions including psoriasis, lichen planus, and lichen sclerosus.
-The TxGNN model predicts it may be effective for **Vulvar Inverted Follicular Keratosis**, a rare benign follicular epithelial tumor,
-with **no clinical trials** and **no publications** currently supporting this specific direction.
+clobetasol propionate هو كورتيكوستيرويد موضعي فائق القوة (الفئة I) يُستخدم على نطاق واسع في الممارسة السريرية لحالات جلدية التهابية مزمنة تشمل الصدفية والحزاز المسطح والحزاز الصلب.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التقرن الجريبي المقلوب في الفرج**، وهو ورم حميد نادر في الظهارة الجريبية،
+مع **عدم وجود تجارب سريرية** و**عدم وجود منشورات** تدعم هذا الاتجاه المحدد حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Not on file — no Saudi Arabia regulatory authorization recorded |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير مسجل - لم يتم تسجيل أي تفويض تنظيمي من هيئة الغذاء والدواء السعودية |
+| المؤشر الجديد المتنبأ به | التقرن الجريبي المقلوب في الفرج |
+| درجة التنبؤ من TxGNN | 99.46% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the data pack (DrugBank MOA query returned no structured result). Based on established pharmacology, clobetasol propionate is a synthetic glucocorticoid that binds intracellular glucocorticoid receptors (GR-α), translocates to the nucleus, and inhibits the NF-κB and AP-1 signaling pathways. This cascade downregulates pro-inflammatory cytokines (IL-1β, IL-6, TNF-α), suppresses T-cell activation, and exerts secondary anti-proliferative effects on keratinocytes — the mechanism underlying its efficacy in hyperproliferative conditions such as plaque psoriasis.
+حالياً، لا توجد بيانات مفصلة حول آلية العمل متاحة في حزمة البيانات (استعلام DrugBank عن آلية العمل لم يعيد نتيجة منظمة). بناءً على الصيدلة الموثوقة، clobetasol propionate هو كورتيكوستيرويد اصطناعي يرتبط بمستقبلات الكورتيكوستيرويد داخل الخلية (GR-α)، وينتقل إلى النواة، ويثبط مسارات الإشارات NF-κB و AP-1. هذه السلسلة تقلل من السيتوكينات الالتهابية (IL-1β و IL-6 و TNF-α)، وتثبط تنشيط الخلايا التائية، وتمارس تأثيرات ثانوية مثبطة للتكاثر على الخلايا الكيراتينية — وهي الآلية التي تكمن وراء فعاليتها في الحالات المفرطة التكاثر مثل الصدفية اللويحية.
 
-Vulvar inverted follicular keratosis is a rare benign follicular proliferative tumor, sometimes associated with Birt-Hogg-Dubé syndrome, characterized by endophytic squamous epithelial proliferation with squamous eddy formation. The theoretical basis for this TxGNN prediction likely rests on clobetasol's documented anti-proliferative effect on epithelial cells, combined with knowledge graph co-localization of "vulvar" anatomy and "follicular keratosis" within the dermatology disease cluster.
+التقرن الجريبي المقلوب في الفرج هو ورم حميد نادر في التكاثر الجريبي، يرتبط أحياناً بمتلازمة Birt-Hogg-Dubé، ويتميز بانتشار ظهاري حرشفي داخلي مع تشكيل دوامة حرشفية. المبدأ النظري لهذا التنبؤ من TxGNN يعتمد على الأرجح على التأثير المثبط للتكاثر الموثق لـ clobetasol propionate على الخلايا الظهارية، مدفوعاً بتعايش معرفة الرسم البياني "الفرج" و "التقرن الجريبي" ضمن مجموعة أمراض الأمراض الجلدية.
 
-However, this mechanistic bridge is extremely tenuous. Benign follicular epithelial tumors are not an established indication for topical corticosteroids, and there is no supporting biological plausibility data, in vitro or animal evidence, or clinical observation in the literature. The high TxGNN score (99.46%) most likely reflects pattern matching at the graph topology level — anatomical overlap with other vulvar conditions where clobetasol is active (e.g., lichen sclerosus) — rather than a mechanistically validated therapeutic relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+غير أن هذا الجسر الآليكي متطرف للغاية. أورام الظهارة الجريبية الحميدة ليست مؤشراً موثوقاً للكورتيكوستيرويدات الموضعية، وليس هناك أي بيانات عن الجدوى البيولوجية الداعمة، ولا دراسات في الجسم الحي أو الحيوان، ولا ملاحظات سريرية في الأدبيات. درجة TxGNN العالية (99.46%) تعكس على الأرجح مطابقة الأنماط على مستوى طوبولوجيا الرسم البياني — التداخل التشريحي مع حالات فرجية أخرى حيث يكون clobetasol propionate نشطاً (مثل الحزاز الصلب) — بدلاً من علاقة علاجية موثقة ميكانيكياً.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: Safety data query (key warnings, contraindications, DDI) returned no results for this drug in the current data pack. SFDA package insert should be consulted prior to any clinical use.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-There is no clinical, preclinical, or mechanistic evidence supporting clobetasol propionate for vulvar inverted follicular keratosis; the elevated TxGNN score (99.46%) appears to reflect knowledge graph topology based on vulvar anatomical proximity to other lichen-type conditions rather than a biologically validated signal, and topical corticosteroids are not a standard or investigational therapy for benign follicular epithelial tumors.
+---
 
-**To proceed, the following is needed:**
-- Basic mechanistic studies (in vitro or animal model) establishing whether glucocorticoid receptor activation influences inverted follicular keratosis growth or regression
-- Case reports or case series documenting any incidental or intentional clinical response
-- Clarification of whether the TxGNN prediction node for this disease is driven by vulvar anatomical overlap or a distinct biological edge
-- Formal MOA data retrieval from DrugBank (currently missing — DG002, High severity)
-- Full safety data from SFDA/package insert (currently missing — DG001, Blocking severity)
-- Saudi Arabia SFDA registration review if repurposing development is pursued, given zero current local authorizations
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+> ملاحظة: استعلام بيانات السلامة (التحذيرات الرئيسية، موانع الاستعمال، التفاعلات الدوائية) لم يعيد نتائج لهذا الدواء في حزمة البيانات الحالية. يجب استشارة نشرة هيئة الغذاء والدواء السعودية قبل أي استخدام سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+لا توجد أدلة سريرية أو ما قبل السريرية أو ميكانيكية تدعم clobetasol propionate للتقرن الجريبي المقلوب في الفرج؛ درجة TxGNN المرتفعة (99.46%) تبدو أنها تعكس طوبولوجيا الرسم البياني المعرفي بناءً على القرب التشريحي الفرجي من حالات أخرى شبيهة بنوع الحزاز بدلاً من إشارة موثقة بيولوجياً، والكورتيكوستيرويدات الموضعية ليست علاجاً قياسياً أو تجريبياً لأورام الظهارة الجريبية الحميدة.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسات ميكانيكية أساسية (في الجسم الحي أو نموذج حيواني) تحدد ما إذا كان تنشيط مستقبل الكورتيكوستيرويد يؤثر على نمو أو تراجع التقرن الجريبي المقلوب
+- تقارير حالات أو سلسلة حالات توثق أي استجابة سريرية عرضية أو مقصودة
+- توضيح ما إذا كانت عقدة التنبؤ من TxGNN لهذا المرض مدفوعة بالتداخل التشريحي الفرجي أو حافة بيولوجية مميزة
+- استرجاع بيانات آلية العمل الرسمية من DrugBank (غير متوفرة حالياً — DG002، درجة عالية من الخطورة)
+- بيانات السلامة الكاملة من SFDA/نشرة الحزمة (غير متوفرة حالياً — DG001، درجة حرجة من الخطورة)
+- مراجعة تسجيل SFDA السعودي إذا تمت متابعة تطوير إعادة الاستخدام، نظراً لعدم وجود أي تفويضات محلية حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

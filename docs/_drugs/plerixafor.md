@@ -29,63 +29,64 @@ indication_count: 7
 
 </div>
 
-# Plerixafor: From Stem Cell Mobilization to Indolent Plasma Cell Myeloma
+# plerixafor: من حشد الخلايا الجذعية إلى الورم النقوي البلازمي الخامل
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Plerixafor (DB06809) is a CXCR4 antagonist internationally used to mobilize hematopoietic stem cells for collection and autologous transplantation in patients with lymphoma or multiple myeloma — this original-use context is background pharmacological knowledge, as the evidence pack itself contains no confirmed original-indication or MOA data. The TxGNN model predicts a possible new application in **Indolent Plasma Cell Myeloma**, with a very high prediction score (**99.97%**), but **zero clinical trials and zero publications** in this dataset currently support that specific link.
+plerixafor (DB06809) هو مضاد CXCR4 يُستخدم عالمياً لحشد الخلايا الجذعية المكونة للدم لجمعها وزراعتها الذاتية في مرضى الأورام اللمفاوية أو الورم النقوي المتعدد — هذا السياق الأصلي للاستخدام هو معرفة صيدلية أساسية، حيث أن حزمة الأدلة ذاتها لا تحتوي على بيانات موثقة عن الإشارة الأصلية أو آلية العمل. يتوقع نموذج TxGNN تطبيقاً محتملاً جديداً في **الورم النقوي البلازمي الخامل**، مع درجة تنبؤ عالية جداً (**99.97%**)، لكن **صفر تجارب سريرية وصفر منشورات** في هذه مجموعة البيانات تدعم هذا الرابط المحدد حالياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file for Saudi Arabia (drug unlicensed, no approved indication text available). Internationally, Plerixafor is approved for peripheral blood stem cell mobilization in non-Hodgkin lymphoma / multiple myeloma patients undergoing autologous transplant (background knowledge, not confirmed within this evidence pack) |
-| Predicted New Indication | Indolent Plasma Cell Myeloma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| الإشارة الأصلية | غير موثقة في المملكة العربية السعودية (الدواء غير مرخص، لا توجد نصوص إشارة معتمدة). عالمياً، يُعتمد plerixafor لحشد الخلايا الجذعية المكونة للدم في مرضى الأورام اللمفاوية غير هودجكين / الورم النقوي المتعدد الذين يخضعون للزراعة الذاتية (معرفة خلفية، غير موثقة في هذه حزمة الأدلة) |
+| الإشارة الجديدة المتوقعة | الورم النقوي البلازمي الخامل |
+| درجة تنبؤ TxGNN | 99.97% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مُسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap, High severity). Based on known background pharmacology, Plerixafor is a CXCR4 antagonist that disrupts the CXCR4/CXCL12 axis, releasing hematopoietic (and malignant) cells from the bone marrow niche into circulation — this is the basis of its established use as a stem cell mobilizing agent ahead of autologous transplantation in multiple myeloma and lymphoma patients.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة هذه (فجوة بيانات، شدة عالية). بناءً على الصيدلة الخلفية المعروفة، plerixafor هو مضاد CXCR4 يعطل محور CXCR4/CXCL12، مما يحرر الخلايا المكونة للدم (والخلايا الخبيثة) من النوى الواقية في النخاع إلى الدورة الدموية — وهذا هو أساس استخدامه الراسخ كعامل حشد الخلايا الجذعية قبل الزراعة الذاتية في مرضى الورم النقوي المتعدد والأورام اللمفاوية.
 
-Indolent plasma cell myeloma sits within the same plasma cell dyscrasia spectrum as multiple myeloma, so a mechanistic hypothesis is plausible: if CXCR4 blockade dislodges malignant plasma cells from protective marrow niches, it could theoretically sensitize them to therapy or alter disease course, similar to the chemosensitization rationale documented for CXCR4 blockade in leukemia (see Myeloid Leukemia note below).
+يقع الورم النقوي البلازمي الخامل ضمن نفس طيف الاختلالات البلازمية مثل الورم النقوي المتعدد، لذا فرضية آلية معقولة: إذا كان حجب CXCR4 يزيح الخلايا البلازمية الخبيثة من النوى الواقية في النخاع، يمكنه نظرياً أن يحسسها للعلاج أو يغير مسار المرض، بشكل مشابه لسبب تحسيس الكيموثيرابيا الموثق لحجب CXCR4 في الابيضاض (انظر ملاحظة الابيضاض النقوي أدناه).
 
-However, this rationale is extrapolated from general CXCR4 biology, not from any direct study of Plerixafor in indolent plasma cell myeloma. No clinical trial or literature record in this dataset examines this specific pairing, so the prediction should be treated as a model-generated hypothesis only, not an evidence-backed relationship.
+ومع ذلك، هذا السبب مستخلص من بيولوجيا CXCR4 العامة، وليس من أي دراسة مباشرة لـ plerixafor في الورم النقوي البلازمي الخامل. لا توجد تجربة سريرية أو سجل أدبي في هذه مجموعة البيانات يفحص هذا الاقتران المحدد، لذا يجب اعتبار التنبؤ مجرد فرضية من النموذج، وليس علاقة مثبتة بالأدلة.
 
-## Clinical Trial Evidence
+## أدلة التجربة السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب الطبي
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Additional Note: Other Candidate Indications in This Evidence Pack
+## ملاحظة إضافية: مؤشرات مرشحة أخرى في هذه الحزمة من الأدلة
 
-This evidence pack (`TW-DB06809-multi`) contains 7 TxGNN-ranked predictions for Plerixafor. Six of them — including the top-ranked Indolent Plasma Cell Myeloma above — have TxGNN scores above 99% but **no supporting clinical trials or literature** (CMM7, pediatric leptomeningeal melanoma, epithelioid cell uveal melanoma, bronchitis, vulvar melanoma), and are all scored L5/Hold.
+تحتوي حزمة الأدلة هذه (`TW-DB06809-multi`) على 7 تنبؤات مصنفة حسب TxGNN لـ plerixafor. ستة منها — بما في ذلك أعلى مصنف للورم النقوي البلازمي الخامل أعلاه — لديها درجات TxGNN أعلى من 99% لكن **بدون تجارب سريرية أو أدبيات داعمة** (CMM7، سرطان الجلد السحائي عند الأطفال، سرطان الميلانوما الظهارية العنبية، التهاب الشعب الهوائية، سرطان الميلانوما الفرجي)، وكل منها مصنف L5/انتظار.
 
-One exception stands out: **Myeloid Leukemia** (rank 7, TxGNN score 99.02%) is supported by ~30 registered clinical trials (multiple completed Phase 1/2 studies combining Plerixafor with G-CSF/chemotherapy for AML chemosensitization and stem cell mobilization/transplant) and ~20 PubMed publications on the CXCR4/CXCL12 axis in AML, reaching **evidence level L2** with a "Research Question" designation — a materially stronger signal than the indication covered in the main body of this report. This candidate warrants its own dedicated evaluation report rather than being treated as a secondary note here.
+يبرز استثناء واحد: **الابيضاض النقوي** (مرتبة 7، درجة TxGNN 99.02%) مدعوم بـ ~30 تجربة سريرية مسجلة (دراسات عديدة مكتملة المرحلة 1/2 تجمع plerixafor مع G-CSF/العلاج الكيميائي لتحسيس AML والحشد/الزراعة الذاتية للخلايا الجذعية) و~20 منشور PubMed حول محور CXCR4/CXCL12 في AML، مما يحقق **مستوى دليل L2** مع تعيين "سؤال بحثي" — إشارة أقوى بشكل جوهري من الإشارة المغطاة في نص هذا التقرير الرئيسي. يستحق هذا المرشح تقرير تقييم مخصص منفصل بدلاً من معاملته كملاحظة ثانوية هنا.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The TxGNN score for Indolent Plasma Cell Myeloma is very high, but this dataset contains no clinical trials, no publications, and no confirmed MOA data linking Plerixafor to this specific indication — it is a pure model prediction (L5, S0). Core drug-level data needed even to begin safety screening (TFDA/SFDA package insert warnings, DG001) is flagged as a **Blocking** gap.
+**الأساس المنطقي:**
+درجة TxGNN للورم النقوي البلازمي الخامل عالية جداً، لكن هذه مجموعة البيانات لا تحتوي على تجارب سريرية، لا منشورات، وبيانات آلية عمل موثقة لا تربط plerixafor بهذه الإشارة المحددة — إنه تنبؤ نموذج محض (L5, S0). بيانات مستوى الدواء الأساسية المطلوبة حتى لبدء فحص السلامة (تحذيرات وموانع استخدام نشرة TFDA/SFDA، DG001) موثقة كفجوة **حاجزة**.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, Blocking — required before any S1 safety review)
-- Confirmed mechanism of action data (DG002, High)
-- Targeted literature and clinical trial search specifically for Plerixafor in indolent/plasma cell myeloma populations
-- Saudi Arabia market licensing status confirmation (currently unlicensed)
-- Consider prioritizing the Myeloid Leukemia candidate (L2, Research Question) from this same evidence pack for a separate, better-supported evaluation
+**للمتابعة، المطلوب ما يلي:**
+- تحذيرات وموانع استخدام نشرة TFDA/SFDA (DG001، حاجز — مطلوب قبل أي مراجعة سلامة S1)
+- بيانات آلية عمل موثقة (DG002، عالية)
+- بحث أدبي وتجربة سريرية موجهة تحديداً لـ plerixafor في السكان البلازميين الخاملين/النقويين
+- تأكيد حالة ترخيص السوق في المملكة العربية السعودية (غير مرخص حالياً)
+- النظر في أولويات مرشح الابيضاض النقوي (L2، سؤال بحثي) من نفس حزمة الأدلة هذه لتقييم منفصل ومدعوم بشكل أفضل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

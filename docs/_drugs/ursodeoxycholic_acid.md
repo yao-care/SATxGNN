@@ -29,77 +29,78 @@ indication_count: 1
 
 </div>
 
-# Ursodeoxycholic Acid: From Cholestatic Liver Disease/Gallstone Dissolution to Homozygous Familial Hypercholesterolemia
+# حمض أورسوديوكسيكوليك: من أمراض الكبد الركودية/ذوبان حصى المرارة إلى فرط الكوليسترول الدموي العائلي المتماثل اللواقح
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Ursodeoxycholic acid (UDCA) is a bile acid drug whose original indications are not recorded in the current evidence pack (the drug is not currently marketed in this jurisdiction; well-established clinical use elsewhere is gallstone dissolution and cholestatic liver disease such as primary biliary cholangitis).
-> The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia**, with a prediction score of **99.86%**,
-> but currently **no clinical trials** and **no published literature** support this specific direction — the prediction is model-generated only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no license records; general clinical use elsewhere: gallstone dissolution, cholestatic liver disease) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> حمض أورسوديوكسيكوليك (UDCA) هو عقار حمضي صفراوي لم تكن مؤشراته الأصلية مسجلة في حزمة الأدلة الحالية (العقار غير مطروح حالياً في هذه الولاية القضائية؛ الاستخدام السريري المثابت في أماكن أخرى هو ذوبان حصى المرارة وأمراض الكبد الركودية مثل التهاب الأقنية الصفراوية الأولي).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فرط الكوليسترول الدموي العائلي المتماثل اللواقح**، بدرجة تنبؤ **99.86%**،
+> لكن حالياً **لا توجد تجارب سريرية** و**لا توجد أدبيات منشورة** تدعم هذا الاتجاه المحدد — التنبؤ مولد من النموذج فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on known information, ursodeoxycholic acid is a hydrophilic bile acid, and its efficacy in cholestatic liver disease and gallstone dissolution has been established through long clinical use, but mechanistic applicability to homozygous familial hypercholesterolemia (HoFH) has not been documented in this evidence pack.
-
-HoFH is characterized by severe LDL-receptor pathway dysfunction and markedly elevated LDL cholesterol. Bile acids such as UDCA are known to interact with hepatic cholesterol and bile acid metabolism, which is a plausible biological rationale for the model's association — but this link is inferred from general pharmacology, not from any trial or literature evidence currently on file.
-
-Given the absence of clinical trials, literature, and MOA data specific to this indication, this prediction should be treated as a hypothesis generated purely by the TxGNN model (rank 3032) and not as evidence-supported repurposing at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح في حزمة الأدلة (لا توجد سجلات ترخيص؛ الاستخدام السريري العام في أماكن أخرى: ذوبان حصى المرارة، أمراض الكبد الركودية) |
+| المؤشر الجديد المتنبأ به | فرط الكوليسترول الدموي العائلي المتماثل اللواقح |
+| درجة تنبؤ TxGNN | 99.86% |
+| مستوى الأدلة | L5 |
+| حالة السوق | غير مطروح (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المعروفة، حمض أورسوديوكسيكوليك هو حمض صفراوي محبب للماء، وقد تم تثبيت فعاليته في أمراض الكبد الركودية وذوبان حصى المرارة من خلال الاستخدام السريري الطويل، لكن الانطباقية الآلية لفرط الكوليسترول الدموي العائلي المتماثل اللواقح (HoFH) لم توثق في حزمة الأدلة هذه.
 
----
+يتميز HoFH بخلل وظيفي شديد في مسار مستقبل LDL وارتفاع ملحوظ في الكوليسترول LDL. من المعروف أن الأحماض الصفراوية مثل UDCA تتفاعل مع استقلاب الكوليسترول والأحماض الصفراوية الكبدية، وهو ما يشكل أساساً بيولوجياً معقولاً لارتباط النموذج — لكن هذا الارتباط مستنتج من الصيدلة العامة، وليس من أي تجربة أو أدبيات ملموسة حالياً في الملف.
 
-## Market Information
-
-The drug is not currently marketed in this jurisdiction (0 authorizations on file), so no product/license table is available.
+نظراً لغياب التجارب السريرية والأدبيات وبيانات آلية العمل الخاصة بهذا المؤشر، يجب التعامل مع هذا التنبؤ كفرضية تم إنشاؤها بحتة من خلال نموذج TxGNN (الرتبة 3032) وليس كإعادة توظيف مدعومة بالأدلة في هذه المرحلة.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information. Note: TFDA package insert warnings/contraindications data collection is currently a **Blocking** data gap (DG001) — this must be resolved before any safety evaluation (S1) can proceed.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-**Rationale:**
-- Evidence level is L5 (model prediction only) — there are no clinical trials or literature supporting UDCA use in homozygous familial hypercholesterolemia, and the drug is not currently marketed in this jurisdiction.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action (MOA) data — currently a High-severity gap (DG002)
-- Original indication/license history to establish a baseline for repurposing comparison
-- Targeted search for preclinical or mechanistic studies linking bile acid metabolism to LDL-receptor pathway/HoFH, since no clinical or observational evidence currently exists
-- Re-evaluation of market entry feasibility given current "not marketed" status
+## معلومات السوق
+
+العقار غير مطروح حالياً في هذه الولاية القضائية (0 تفويضات في الملف)، لذلك لا توجد جدول منتج/ترخيص متاح.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. ملاحظة: جمع بيانات تحذيرات/موانع استخدام نشرة المعلومات TFDA حالياً **فجوة بيانات حاجزة** (DG001) — يجب حل هذا قبل أي تقييم سلامة (S1) يمكن أن يتقدم.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**المنطق:**
+- مستوى الأدلة هو L5 (تنبؤ النموذج فقط) — لا توجد تجارب سريرية أو أدبيات تدعم استخدام UDCA في فرط الكوليسترول الدموي العائلي المتماثل اللواقح، والعقار غير مطروح حالياً في هذه الولاية القضائية.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة المعلومات TFDA/الرسمية (التحذيرات، موانع الاستخدام) — فجوة بيانات حاجزة حالية (DG001)
+- بيانات آلية العمل المؤكدة (MOA) — فجوة بيانات عالية الخطورة حالية (DG002)
+- المؤشر الأصلي/تاريخ الترخيص لإقامة خط أساس لمقارنة إعادة التوظيف
+- البحث الموجه عن الدراسات قبل السريرية أو الآلية التي تربط استقلاب الأحماض الصفراوية بمسار مستقبل LDL/HoFH، حيث لا توجد حالياً أي أدلة سريرية أو رصدية
+- إعادة تقييم جدوى دخول السوق نظراً لحالة "غير مطروح" الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

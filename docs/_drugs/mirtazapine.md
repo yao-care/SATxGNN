@@ -29,63 +29,64 @@ indication_count: 3
 
 </div>
 
-# Mirtazapine: From Depression (NaSSA Antidepressant) to Ohdo Syndrome and Variants
+# ميرتازابين: من الاكتئاب (مضاد الاكتئاب NaSSA) إلى متلازمة Ohdo والمتغيرات
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Mirtazapine is a Noradrenergic and Specific Serotonergic Antidepressant (NaSSA), clinically established for major depressive disorder, though this specific evidence pack does not document its original indication or MOA in structured form.
-The TxGNN model predicts it may be relevant to **Ohdo syndrome and variants**, a rare genetic chromatin-regulation disorder, but **no clinical trials and no literature** currently support this direction — the prediction rests entirely on network inference, not mechanistic or clinical evidence.
+ميرتازابين هو مضاد اكتئاب نوراديرينيرجي وسيروتونينيرجي محدد (NaSSA)، تم تأسيسه سريريًا لاضطراب الاكتئاب الرئيسي، على الرغم من أن هذه الحقيبة الإثباتية المحددة لا توثق المؤشر الأصلي له أو آلية التأثير (MOA) بشكل منظم.
+يتوقع نموذج TxGNN أنه قد يكون ذا صلة **بمتلازمة Ohdo والمتغيرات**، وهي اضطراب نادر وراثي ينطوي على تنظيم الكروماتين، لكن **لا توجد تجارب سريرية ولا أدبيات** تدعم هذا الاتجاه حاليًا — يستند التنبؤ بالكامل على الاستدلال الشبكي وليس على الأدلة الميكانيكية أو السريرية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no license data available); known clinically as a NaSSA antidepressant (major depressive disorder) |
-| Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق في الحقيبة الإثباتية (لا توجد بيانات ترخيص متاحة)؛ معروف سريريًا باسم مضاد اكتئاب NaSSA (اضطراب الاكتئاب الرئيسي) |
+| المؤشر الجديد المتنبأ به | متلازمة Ohdo والمتغيرات |
+| درجة التنبؤ في TxGNN | 99.42% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | ايقاف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in structured form (flagged as a High-severity data gap). Based on the rationale accompanying this prediction, mirtazapine acts as a NaSSA — α2-adrenergic antagonist, 5-HT2/5-HT3 receptor antagonist, and H1 histamine antagonist — with established efficacy in mood and sleep-related conditions.
+حاليًا، بيانات آلية التأثير المفصلة غير متاحة بشكل منظم (تم وضع علم عليها كفجوة بيانات عالية الخطورة). بناءً على الأساس المنطقي المرافق لهذا التنبؤ، يعمل ميرتازابين كـ NaSSA — مضاد α2-أدرينرجي، مضاد مستقبلات 5-HT2/5-HT3، ومضاد هيستامين H1 — مع فعالية ثابتة في الحالات المتعلقة بالمزاج والنوم.
 
-Ohdo syndrome and its variants (including blepharophimosis–intellectual disability syndrome, Ohdo type) are congenital developmental disorders caused by mutations in genes such as KAT6A, KAT6B, or MED12, involving structural chromatin regulation rather than neurotransmitter imbalance. There is no known pathological pathway connecting mirtazapine's receptor pharmacology to the underlying genetic defect.
+متلازمة Ohdo ومتغيراتها (بما فيها متلازمة ضيق الشق الجفني والإعاقة الذهنية، نوع Ohdo) هي اضطرابات نمائية خلقية ناجمة عن طفرات في جينات مثل KAT6A أو KAT6B أو MED12، تتضمن تنظيم الكروماتين الهيكلي بدلاً من عدم التوازن في الناقلات العصبية. لا يوجد مسار مرضي معروف يربط بين صيدلة الأمينات الأحادية لميرتازابين والعيب الجيني الأساسي.
 
-The plausible link is purely symptomatic: patients with Ohdo syndrome commonly experience secondary sleep disturbance or behavioral symptoms, which mirtazapine's sedative/H1-antagonist properties could theoretically address. This would not treat the disease itself, and the connection is explicitly described in the source rationale as a TxGNN network-inferred association without direct mechanistic support.
+الرابط المحتمل بحت عرضي: يعاني المرضى الذين يعانون من متلازمة Ohdo بشكل شائع من اضطراب نوم ثانوي أو أعراض سلوكية، وقد تعالج خصائص ميرتازابين المهدئة ومضادة الهيستامين H1 هذه الأعراض نظريًا. هذا لن يعالج المرض نفسه، وتوصف الصلة بوضوح في الأساس المنطقي للمصدر باعتبارها ارتباطًا مستدلًا عليه من شبكة TxGNN بدون دعم ميكانيكي مباشر.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حاليًا أدبيات ذات صلة متاحة
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Mirtazapine is not currently marketed in Saudi Arabia (0 authorizations on record); no license or product information is available in the evidence pack.
+ميرتازابين غير مسوقة حاليًا في المملكة العربية السعودية (0 تفويضات في السجل)؛ لا توجد معلومات ترخيص أو منتج متاحة في الحقيبة الإثباتية.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: ايقاف**
 
-**Rationale:**
-Despite a high TxGNN similarity score (99.42%), the prediction is Evidence Level L5 — supported by no clinical trials, no literature, and no direct mechanistic pathway between mirtazapine's monoaminergic pharmacology and the chromatin-regulation pathology underlying Ohdo syndrome. Compounding this, the drug is unmarketed in Saudi Arabia and TFDA/SFDA package insert data is a **Blocking** gap (DG001), meaning a basic safety review (S1) cannot even begin.
+**الأساس المنطقي:**
+على الرغم من درجة التشابه العالية في TxGNN (99.42%)، فإن التنبؤ هو مستوى أدلة L5 — مدعوم بعدم وجود تجارب سريرية وعدم وجود أدبيات وعدم وجود مسار ميكانيكي مباشر بين صيدلة الأمينات الأحادية لميرتازابين وأمراض تنظيم الكروماتين الأساسية لمتلازمة Ohdo. مما يزيد من تعقيد الموقف، أن الدواء غير مسوق في المملكة العربية السعودية وبيانات النشرة الإرشادية من TFDA/SFDA تشكل فجوة **حاسمة** (DG001)، مما يعني أنه لا يمكن حتى أن تبدأ مراجعة أمان أساسية (S1).
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert with warnings and contraindications (Blocking gap, DG001)
-- Confirmed original indication and mechanism-of-action data from DrugBank or an authoritative source (High-severity gap, DG002)
-- Preclinical or mechanistic studies directly linking mirtazapine to Ohdo syndrome pathophysiology (none currently exist)
-- Any case-based or observational evidence in this ultra-rare genetic disease population
+**للمتابعة، يلزم ما يلي:**
+- النشرة الإرشادية من TFDA/SFDA مع التحذيرات والموانع (فجوة حاسمة، DG001)
+- تأكيد المؤشر الأصلي وبيانات آلية التأثير من DrugBank أو مصدر موثوق (فجوة عالية الخطورة، DG002)
+- دراسات سابقة سريرية أو ميكانيكية تربط بشكل مباشر ميرتازابين بفسيولوجيا أمراض متلازمة Ohdo (لا توجد حاليًا)
+- أي أدلة قائمة على حالات أو مراقبة في هذه المجموعة السكانية من الأمراض الوراثية النادرة جدًا
 
-*Note: Two closely related candidates — blepharophimosis–intellectual disability syndrome, Ohdo type (rank 2) and benign paroxysmal torticollis of infancy (rank 3) — carry the same L5/Hold status with no supporting trials or literature. The torticollis candidate is additionally concerning: it affects infants, a population with no established mirtazapine safety data.*
+*ملاحظة: يحمل اثنان من المرشحين الوثيقي الصلة — متلازمة ضيق الشق الجفني والإعاقة الذهنية، نوع Ohdo (الترتيب 2) والتواء العنق الحميد الانتيابي في الرضاعة (الترتيب 3) — نفس حالة L5/ايقاف بدون تجارب داعمة أو أدبيات. مرشح التواء العنق مقلق إضافيًا: فهو يؤثر على الرضع، وهي مجموعة سكانية لا توجد لها بيانات أمان ميرتازابين ثابتة.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

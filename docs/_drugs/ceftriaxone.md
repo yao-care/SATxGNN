@@ -29,117 +29,118 @@ indication_count: 7
 
 </div>
 
-# Ceftriaxone: From Systemic Bacterial Infections to Infectious Otitis Media
+# السيفترياكسون: من العدوى البكتيرية الجهازية إلى التهاب الأذن الوسطى المعدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ceftriaxone is a third-generation cephalosporin antibiotic used worldwide for serious systemic bacterial infections including meningitis, sepsis, and community-acquired pneumonia. The TxGNN model predicts it may be effective for **Infectious Otitis Media** — the strongest repurposing signal among 7 predicted indications — with **3 clinical trials** and **19 publications** currently supporting this direction. This multi-indication analysis also identifies **Suppurative Otitis Media** and **Chronic Otitis Media** as secondary research-worthy targets (L3), while three other predicted indications are assessed as Hold due to absent mechanistic rationale.
+السيفترياكسون هو مضاد حيوي من السيفالوسبورينات الجيل الثالث يُستخدم في جميع أنحاء العالم لعلاج العدوى البكتيرية الجهازية الحادة بما فيها التهاب السحايا والإنتان والالتهاب الرئوي المكتسب من المجتمع. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الأذن الوسطى المعدي** — وهو أقوى إشارة إعادة تطبيق بين 7 مؤشرات مُتنبأ بها — مع **3 تجارب سريرية** و **19 منشورة** تدعم حالياً هذا الاتجاه. يحدد هذا التحليل المتعدد الدلالات أيضاً **التهاب الأذن الوسطى القيحي** و **التهاب الأذن الوسطى المزمن** كأهداف بحثية ثانوية (L3)، بينما يتم تقييم ثلاث مؤشرات أخرى مُتنبأ بها كـ "توقف" بسبب غياب المبرر الآلي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Systemic bacterial infections (meningitis, sepsis, pneumonia) — international approvals; no Saudi Arabia license data available |
-| Predicted New Indication | Infectious Otitis Media |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | العدوى البكتيرية الجهازية (التهاب السحايا، الإنتان، الالتهاب الرئوي) — الموافقات الدولية؛ لا توجد بيانات ترخيص متاحة من المملكة العربية السعودية |
+| الدلالة الجديدة المُتنبأ بها | التهاب الأذن الوسطى المعدي |
+| درجة التنبؤ من TxGNN | 99.26% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروضة في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات وقائية |
 
 ---
 
-## All Predicted Indications (Multi-Indication Summary)
+## جميع الدلالات المُتنبأ بها (ملخص متعدد الدلالات)
 
-The following table summarises all 7 TxGNN-predicted indications, re-sorted by evidence quality rather than raw model score:
+يلخص الجدول التالي جميع 7 مؤشرات متنبأ بها من قبل TxGNN، معاد ترتيبها حسب جودة الدليل وليس درجة النموذج الخام:
 
-| Evidence Rank | Disease | TxGNN Score | Evidence Level | Trials | Literature | Recommendation |
+| ترتيب الدليل | المرض | درجة TxGNN | مستوى الدليل | التجارب | المنشورات | التوصية |
 |---|---|---|---|---|---|---|
-| 1 | Infectious otitis media | 99.26% | L1 | 3 | 19 | Proceed with Guardrails |
-| 2 | Suppurative otitis media | 99.02% | L3 | 0 | 20 | Research Question |
-| 3 | Chronic otitis media | 99.01% | L3 | 0 | 19 | Research Question |
-| 4 | Hyperamylasemia | 99.39% | L4 | 0 | 3 | Hold |
-| 5 | Polyclonal hyperviscosity syndrome | 99.39% | L5 | 0 | 0 | Hold |
-| 6 | Congenital analbuminemia | 99.37% | L5 | 0 | 0 | Hold |
-| 7 | Blood group incompatibility | 99.12% | L5 | 0 | 2 | Hold |
+| 1 | التهاب الأذن الوسطى المعدي | 99.26% | L1 | 3 | 19 | المتابعة مع ضمانات وقائية |
+| 2 | التهاب الأذن الوسطى القيحي | 99.02% | L3 | 0 | 20 | سؤال بحثي |
+| 3 | التهاب الأذن الوسطى المزمن | 99.01% | L3 | 0 | 19 | سؤال بحثي |
+| 4 | فرط أميلاز الدم | 99.39% | L4 | 0 | 3 | توقف |
+| 5 | متلازمة فرط اللزوجة متعددة النسيلة | 99.39% | L5 | 0 | 0 | توقف |
+| 6 | نقص الزلب الخلقي | 99.37% | L5 | 0 | 0 | توقف |
+| 7 | عدم توافق فصائل الدم | 99.12% | L5 | 0 | 2 | توقف |
 
-> **Analyst note:** The top three TxGNN-ranked indications by model score (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia) all lack clinical or mechanistic support. Infectious otitis media ranks only 4th by model score yet carries L1 evidence — illustrating that raw TxGNN score alone should not drive prioritisation decisions.
-
----
-
-## Why is This Prediction Reasonable?
-
-Formal mechanism of action data is listed as a data gap in this Evidence Pack. Based on established pharmacological knowledge, ceftriaxone exerts bactericidal activity by irreversibly binding to penicillin-binding proteins (PBPs) on the bacterial cell membrane, inhibiting peptidoglycan cross-linking and causing osmotic lysis. Its extended plasma half-life (~8 hours) enables once-daily dosing, and it achieves therapeutic concentrations in middle ear fluid — a pharmacokinetic property critical for otitis media treatment.
-
-Infectious otitis media (acute otitis media, AOM) is predominantly caused by three bacterial pathogens: *Streptococcus pneumoniae*, *Haemophilus influenzae*, and *Moraxella catarrhalis*. Ceftriaxone demonstrates excellent in vitro activity against all three, including many penicillin-resistant *S. pneumoniae* strains. For patients in whom first-line oral amoxicillin fails, or where oral administration is not feasible (vomiting, poor compliance), intramuscular ceftriaxone (50 mg/kg IM, max 1 g, single or 3-day course) has become a well-established rescue strategy endorsed by multiple international pediatric infectious disease guidelines.
-
-Notably, TxGNN also predicted suppurative otitis media (rank 6, L3) and chronic otitis media (rank 7, L3) as separate targets, all from the same mechanistic branch. This clustering of three closely related middle-ear infection entities reinforces the biological coherence of the prediction. The primary consideration is not clinical plausibility — this is already established — but rather the **regulatory status in Saudi Arabia** (0 current authorisations), which creates both a gap and an actionable registration opportunity.
+> **ملاحظة المحلل:** أفضل ثلاث دلالات معروضة من قبل TxGNN حسب درجة النموذج (متلازمة فرط اللزوجة متعددة النسيلة، فرط أميلاز الدم، نقص الزلب الخلقي) تفتقر جميعها إلى دعم سريري أو آلي. يحتل التهاب الأذن الوسطى المعدي الرتبة الرابعة فقط حسب درجة نموذج TxGNN مع أنه يحمل دليل L1 — مما يوضح أن درجة TxGNN الخام وحدها لا يجب أن تقود قرارات تحديد الأولويات.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+تم ذكر بيانات آلية العمل الرسمية كفجوة بيانات في هذه الحقيبة الإثبات. بناءً على المعرفة الصيدلية الراسخة، يمارس السيفترياكسون نشاطاً بكتيرياً قاتلاً من خلال الارتباط بشكل لا رجعة فيه ببروتينات ربط البنسلين (PBPs) على غشاء الخلية البكتيرية، مما يثبط ربط الببتيدوغليكان والعبور ويسبب تحللاً أسموزياً. يتيح نصف عمره البلازمي المطول (~8 ساعات) الجرعات اليومية الفردية، وهو يحقق تركيزات علاجية في سائل الأذن الوسطى — وهي خاصية حرائك دوائية حرجة لعلاج التهاب الأذن الوسطى.
+
+التهاب الأذن الوسطى المعدي (التهاب الأذن الوسطى الحاد، AOM) يسبب بشكل رئيسي ثلاثة ممرضات بكتيرية: *Streptococcus pneumoniae* و *Haemophilus influenzae* و *Moraxella catarrhalis*. يُظهر السيفترياكسون نشاطاً ممتازاً في الاختبارات بالأنابيب ضد الثلاثة، بما فيها الكثير من سلالات *S. pneumoniae* المقاومة للبنسلين. للمرضى الذين يفشلون فيهم العلاج بالأموكسيسيلين الفموي من الدرجة الأولى، أو حيث لا يكون الفم قابلاً للإدارة (القيء، عدم الامتثال الضعيف)، أصبح السيفترياكسون العضلي (50 ملغ/كغ IM، الحد الأقصى 1 غرام، جرعة واحدة أو مسار 3 أيام) استراتيجية إنقاذ مشهورة مدعومة من قبل إرشادات طب الأطفال المعدية الدولية المتعددة.
+
+جديراً بالملاحظة، تنبأ TxGNN أيضاً التهاب الأذن الوسطى القيحي (الرتبة 6، L3) والتهاب الأذن الوسطى المزمن (الرتبة 7، L3) كأهداف منفصلة، كل منها من نفس الفرع الآلي. يعزز هذا التجميع من ثلاث كيانات معدية وثيقة الصلة بالأذن الوسطى الترابط البيولوجي للتنبؤ. الاعتبار الأساسي ليس المعقولية السريرية — وهذه قد تم إنشاؤها بالفعل — بل بالأحرى **الحالة الرقابية في المملكة العربية السعودية** (0 موافقات حالية)، مما يخلق فجوة وفرصة تسجيل قابلة للتنفيذ.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | Phase 2 | Terminated | 520 | Multicenter double-blind RCT comparing 5-day vs 10-day antibiotic courses in children aged 6–23 months with AOM; evaluates clinical cure rates and antimicrobial resistance impact. Methodologically rigorous design; terminated early (enrollment challenges), reducing evidence weight. |
-| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | N/A | Completed | 250 | Tympanostomy tube placement vs non-surgical management for recurrent AOM in children over 2 years. Not a direct ceftriaxone efficacy trial, but provides disease burden context and benchmark outcomes for AOM episodes. |
-| [NCT01272999](https://clinicaltrials.gov/study/NCT01272999) | N/A | Completed | 391 | Post-marketing observational study of Prevnar 13 vaccine impact on AOM rates in children. Provides epidemiological context on *S. pneumoniae* serotype distribution relevant to ceftriaxone's pathogen coverage. |
+| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | المرحلة الثانية | مُوقفة | 520 | تجربة معشاة عمياء متعددة المراكز تقارن بين مسارات مضادات حيوية لمدة 5 أيام مقابل 10 أيام لدى الأطفال بعمر 6-23 شهراً مع AOM؛ تقيّم معدلات الشفاء السريري وتأثير مقاومة المضادات الحيوية. تصميم صارم منهجياً؛ توقفت مبكراً (تحديات التحاق)، مما يقلل من وزن الدليل. |
+| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | N/A | مكتملة | 250 | وضع أنابيب الطبلة مقابل الإدارة غير الجراحية للـ AOM المتكرر لدى الأطفال فوق سنتين. ليست تجربة فعالية السيفترياكسون المباشرة، لكنها توفر سياق عبء المرض ونتائج معايير لـ AOM حلقات. |
+| [NCT01272999](https://clinicaltrials.gov/study/NCT01272999) | N/A | مكتملة | 391 | دراسة رصدية بعد التسويق لتأثير لقاح Prevnar 13 على معدلات AOM لدى الأطفال. يوفر سياقاً وبائياً على توزيع النمط المصلي *S. pneumoniae* ذي الصلة بتغطية ممرضة السيفترياكسون. |
 
 ---
 
-## Literature Evidence
+## دليل المنشورات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | RCT | *Pediatrics* | Prospective randomised single-blind trial: single IM ceftriaxone dose vs 10-day oral TMP-SMZ for AOM (Greater Boston Otitis Media Study Group). Key head-to-head comparative efficacy data for IM ceftriaxone. |
-| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | RCT | *Pediatric Infectious Disease Journal* | 1-day vs 3-day IM ceftriaxone regimen for non-responsive AOM in children. Three-day course demonstrated superior bacteriologic eradication for drug-resistant *S. pneumoniae*. |
-| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | Review/Guidelines | *JAMA Network Open* | Optimal pediatric outpatient antibiotic prescribing practices in the US; addresses appropriateness of ceftriaxone as rescue therapy for AOM and antimicrobial stewardship considerations. |
-| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | Review | *Otology & Neurotology* | Clinical recommendations for prevention and antimicrobial treatment of AOM and meningitis in children with cochlear implants; ceftriaxone positioned as preferred parenteral agent. |
-| [20660544](https://pubmed.ncbi.nlm.nih.gov/20660544/) | 2010 | Review | *Pediatrics* | Cochlear implant management guideline: pneumococcal AOM prevention via vaccination and ceftriaxone treatment for AOM/meningitis in high-risk paediatric patients. |
-| [38368849](https://pubmed.ncbi.nlm.nih.gov/38368849/) | 2024 | Review | *American Journal of Emergency Medicine* | Acute mastoiditis (serious AOM complication with high morbidity/mortality): ceftriaxone as backbone IV/IM empirical therapy in emergency settings. |
-| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | Cohort | *Int J Pediatric Otorhinolaryngology* | Large US primary care cohort documenting real-world IM ceftriaxone use patterns for AOM; identifies clinical factors associated with prescribing and antimicrobial resistance implications. |
-| [12237596](https://pubmed.ncbi.nlm.nih.gov/12237596/) | 2002 | Cohort | *Pediatric Infectious Disease Journal* | Dynamics of pneumococcal nasopharyngeal carriage in children with non-responsive AOM treated with 1-day vs 3-day IM ceftriaxone; 3-day regimen superior for resistant strains. |
-| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | Clinical Study | *Pediatric Infectious Disease Journal* | Bacteriologic efficacy of 3-day IM ceftriaxone regimen specifically in non-responsive AOM children; establishes eradication rates against key middle ear pathogens. |
-| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | Consensus | *Clinical Pediatrics* | Roundtable consensus recommendations for AOM management integrating MEDLINE evidence; ceftriaxone defined as second-line option for treatment failures and penicillin-allergic patients. |
+| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | تجربة معشاة | *Pediatrics* | تجربة معشاة عشوائية أحادية التعمية محتملة: جرعة واحدة من السيفترياكسون العضلي مقابل TMP-SMZ الفموي لمدة 10 أيام لـ AOM (مجموعة Greater Boston Otitis Media Study Group). بيانات مقارنة الفعالية من رأس إلى رأس مفتاح للسيفترياكسون العضلي. |
+| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | تجربة معشاة | *Pediatric Infectious Disease Journal* | نظام جرعات السيفترياكسون العضلي لمدة يوم واحد مقابل 3 أيام لـ AOM غير المستجيب لدى الأطفال. أثبت المسار لمدة ثلاثة أيام فعالية جرثومية متفوقة لـ *S. pneumoniae* المقاومة للأدوية. |
+| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | مراجعة/إرشادات | *JAMA Network Open* | ممارسات وصفة المضادات الحيوية للعيادات الخارجية لطب الأطفال المثلى في الولايات المتحدة؛ يعالج مناسبة السيفترياكسون كعلاج إنقاذ لـ AOM والاعتبارات الصحية للمضادات الحيوية. |
+| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | مراجعة | *Otology & Neurotology* | التوصيات السريرية لمنع والعلاج بالمضادات الحيوية من AOM والتهاب السحايا لدى الأطفال ذوي الغرسات القوقعية؛ السيفترياكسون موضع اعتبار كعامل حقن مفضل. |
+| [20660544](https://pubmed.ncbi.nlm.nih.gov/20660544/) | 2010 | مراجعة | *Pediatrics* | إرشاد إدارة زراعة القوقعة: منع AOM الرئوي عن طريق التطعيم وعلاج السيفترياكسون لـ AOM/التهاب السحايا لدى مرضى الأطفال عالي الخطورة. |
+| [38368849](https://pubmed.ncbi.nlm.nih.gov/38368849/) | 2024 | مراجعة | *American Journal of Emergency Medicine* | التهاب الخشاء الحاد (مضاعفة AOM الخطيرة ذات معدل الاعتلال/الوفيات العالي): السيفترياكسون كعمود فقري IV/IM العلاج التجريبي في الحالات الطارئة. |
+| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | مجموعة | *Int J Pediatric Otorhinolaryngology* | مجموعة الرعاية الأولية الأمريكية الكبيرة التي توثق أنماط استخدام السيفترياكسون العضلي في العالم الحقيقي لـ AOM؛ يحدد العوامل السريرية المرتبطة بالوصفة الطبية والآثار المترتبة على مقاومة المضادات الحيوية. |
+| [12237596](https://pubmed.ncbi.nlm.nih.gov/12237596/) | 2002 | مجموعة | *Pediatric Infectious Disease Journal* | ديناميكيات حمل الممرضة البلعومية الرئوية لـ *S. pneumoniae* لدى الأطفال الذين يعانون من عدم استجابة AOM المعالجة برنامج جرعات السيفترياكسون العضلي ليوم واحد مقابل 3 أيام؛ النظام لمدة 3 أيام متفوق للسلالات المقاومة. |
+| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | دراسة سريرية | *Pediatric Infectious Disease Journal* | الفعالية الجرثومية لنظام جرعات السيفترياكسون العضلي لمدة 3 أيام على وجه التحديد في أطفال عدم الاستجابة AOM؛ يؤسس معدلات الاستئصال ضد ممرضات الأذن الوسطى الرئيسية. |
+| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | إجماع | *Clinical Pediatrics* | توصيات إجماع الجولة المائدة لإدارة AOM التي تدمج دليل MEDLINE؛ السيفترياكسون المعرّف كخيار من الدرجة الثانية لفشل العلاج والمرضى الذين يعانون من الحساسية من البنسلين. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Ceftriaxone currently has **no registered products in Saudi Arabia** (SFDA authorisations: 0). No authorisation table can be generated from the available data.
+السيفترياكسون حالياً لا يمتلك **منتجات مسجلة في المملكة العربية السعودية** (موافقات SFDA: 0). لا يمكن إنشاء جدول ترخيص من البيانات المتاحة.
 
-This represents a significant regulatory gap for a drug that appears on the WHO Model List of Essential Medicines and is widely marketed across the United States, Europe, and Asia-Pacific. The absence of local registration does not reflect a clinical evidence gap but rather a market access gap — which is the primary barrier to clinical deployment in Saudi Arabia.
-
----
-
-## Safety Considerations
-
-Complete package insert safety data (SFDA/TFDA warnings and contraindications) was not available at the time of this analysis. Please refer to the originator package insert for full safety information.
-
-The following safety signals are well-documented in the published literature and warrant attention:
-
-- **Biliary sludge and pseudocholelithiasis**: Ceftriaxone precipitates calcium salt complexes in bile; particularly relevant at high doses and in paediatric patients. Reversible upon discontinuation.
-- **Neonatal hyperbilirubinemia**: Ceftriaxone displaces bilirubin from albumin binding sites and is **contraindicated** in neonates with hyperbilirubinemia or those receiving calcium-containing IV infusions (fatal cardiopulmonary precipitate cases reported).
-- **Immune-mediated haemolytic anaemia**: Rare but potentially fatal immune haemolysis via hapten mechanism; requires immediate discontinuation if suspected.
+وهذا يمثل فجوة تنظيمية كبيرة لعقار يظهر على قائمة منظمة الصحة العالمية النموذجية للأدوية الأساسية ويتم تسويقه على نطاق واسع عبر الولايات المتحدة وأوروبا وآسيا والمحيط الهادئ. غياب التسجيل المحلي لا يعكس فجوة في الدليل السريري بل فجوة في الوصول إلى السوق — وهي العقبة الأساسية أمام النشر السريري في المملكة العربية السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+لم تكن بيانات سلامة إدراج الحزمة الكاملة (تحذيرات SFDA/TFDA والمضادات الاستطباب) متاحة في وقت هذا التحليل. يرجى الرجوع إلى إدراج الحزمة المنشئ للحصول على معلومات السلامة الكاملة.
 
-**Rationale:**
-Ceftriaxone has robust mechanistic support and L1 clinical evidence for infectious otitis media — including two randomised controlled trials directly evaluating IM ceftriaxone for AOM treatment, reinforced by multiple international consensus guidelines positioning it as the standard rescue antibiotic. The primary barrier to deployment in Saudi Arabia is not clinical uncertainty but the complete absence of local SFDA market authorisation (0 products registered), which requires a regulatory pathway evaluation rather than additional evidence generation.
+إشارات السلامة التالية موثقة بشكل جيد في الأدبيات المنشورة وتستحق الانتباه:
 
-**To proceed, the following is needed:**
-- SFDA regulatory pathway assessment for ceftriaxone registration in Saudi Arabia (standalone submission vs. reference to FDA/EMA approvals as established essential medicine)
-- Complete package insert review to resolve the Blocking data gap on warnings and contraindications (DG001)
-- DrugBank MOA data retrieval to formally document mechanism of action (DG002 — High severity)
-- Paediatric dosing and IM formulation protocol review appropriate for Saudi Arabia clinical settings
-- Drug-drug interaction profile assessment (DDI database query returned no results; manual review of package insert required)
-- Institutional antimicrobial stewardship alignment for intramuscular ceftriaxone use in outpatient AOM management
+- **الحمأة الصفراوية والحصيات الصفراوية الكاذبة**: يترسب السيفترياكسون معقدات الملح الكالسيوم في الصفراء؛ ذات صلة بشكل خاص بالجرعات العالية والمرضى الأطفال. قابل للعكس عند الإيقاف.
+- **فرط بيليروبين الدم الوليدي**: يحل السيفترياكسون البيليروبين من مواقع ربط الزلب و **مضاد استطباب** عند الوليدين الذين يعانون من فرط بيليروبين الدم أو الذين يتلقون معقدات الكالسيوم التي تحتوي على IV (تم الإبلاغ عن حالات قلبية رئوية مميتة). |
+- **فقر الدم الانحلالي الموسوم بالمناعة**: نادر ولكن قد يكون انحلال دم مميت محتمل عبر آلية hapten؛ يتطلب إيقاف فوري إذا تم الاشتباه. |
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات وقائية**
+
+**المبرر:**
+السيفترياكسون لديه دعم آلي قوي وأدلة L1 سريرية لالتهاب الأذن الوسطى المعدي — بما فيها تجربتان عشوائيتان معشاتان تقيمان مباشرة السيفترياكسون العضلي لعلاج AOM، معززة بإرشادات دولية متعددة تحدد موضعه كالمضاد الحيوي القياسي للإنقاذ. العقبة الأساسية أمام النشر في المملكة العربية السعودية ليست عدم اليقين السريري بل الغياب الكامل للترخيص المحلي لسوق SFDA (0 منتجات مسجلة)، مما يتطلب تقييم المسار التنظيمي بدلاً من توليد أدلة إضافية.
+
+**للمتابعة، يلزم ما يلي:**
+- تقييم المسار التنظيمي SFDA لتسجيل السيفترياكسون في المملكة العربية السعودية (تقديم مستقل مقابل الرجوع إلى موافقات FDA/EMA كأدوية أساسية راسخة)
+- مراجعة إدراج الحزمة الكاملة لحل فجوة البيانات المرجعية حول التحذيرات والمضادات الاستطباب (DG001)
+- استرجاع بيانات آلية العمل DrugBank لتوثيق رسمي لآلية العمل (DG002 — خطورة عالية)
+- مراجعة بروتوكول الجرعات والصيغة العضلية للأطفال المناسبة لبيئات المملكة العربية السعودية السريرية
+- تقييم ملف التفاعلات الدوائية (استعلام قاعدة بيانات DDI لم يعد نتائج؛ المراجعة اليدوية لإدراج الحزمة مطلوبة)
+- محاذاة الصحة المؤسسية للمضادات الحيوية لاستخدام السيفترياكسون العضلي في إدارة AOM العيادية الخارجية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,89 +29,90 @@ indication_count: 8
 
 </div>
 
-# Mefenamic Acid: From NSAID Pain Relief to Rheumatoid Arthritis
+# حمض الميفيناميك: من مسكنات الالتهاب اللاستيرويدية لتخفيف الألم إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Mefenamic acid is a fenamate-class NSAID conventionally used for pain and inflammation; a specific SFDA-approved indication text was not retrievable for this evidence pack (data gap, see DG001). The TxGNN model's top-ranked prediction is **Rheumatoid Arthritis**, a use already supported by **9+ literature reports spanning 1966–2014**, including several head-to-head RCTs, though no registered clinical trials currently exist for this pairing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no SFDA/TFDA license or package-insert data retrieved (see DG001, Blocking) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+حمض الميفيناميك هو مسكن ألم من فئة الفيناميت الستيرويدي يُستخدم تقليدياً لتخفيف الألم والالتهاب؛ لم يكن من الممكن استرجاع نص إشارة معتمد من SFDA محدد لهذه مجموعة الأدلة (فجوة بيانات، انظر DG001). التنبؤ الأعلى درجة من نموذج TxGNN هو **التهاب المفاصل الروماتويدي**، وهو استخدام مدعوم بالفعل من خلال **9+ تقارير أدبية تغطي الفترة من 1966–2014**، بما فيها عدة تجارب معشاة ذات شواهد، على الرغم من عدم وجود تجارب سريرية مسجلة حالياً لهذا الدمج.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data for mefenamic acid itself is not present in this evidence pack (DG002). However, the evidence review captured in the prediction rationale identifies mefenamic acid as a **fenamate-class NSAID** — a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin synthesis, producing direct analgesic and anti-inflammatory effects.
-
-This mechanism sits squarely within the drug's known pharmacological class: NSAIDs have historically been used as first-line symptomatic therapy for rheumatoid arthritis, and mefenamic acid itself was studied for this purpose as early as the 1960s–1970s, predating the modern DMARD treatment era. The TxGNN prediction therefore does not represent a novel mechanistic leap so much as a re-identification of a historically documented, mechanistically direct use — COX inhibition targeting the prostaglandin-mediated joint inflammation characteristic of RA.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير متاح — لم يتم استرجاع بيانات ترخيص SFDA/TFDA أو نشرة العبوة (انظر DG001، مانع) |
+| الاستطباب الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة التنبؤ TxGNN | 99.73% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (غير مسوّق) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered
+تفاصيل آلية عمل حمض الميفيناميك نفسه غير موجودة في مجموعة الأدلة هذه (DG002). ومع ذلك، فإن مراجعة الأدلة المدرجة في مبررات التنبؤ تحدد حمض الميفيناميك كـ **مسكن ألم من فئة الفيناميت** — مانع COX-1/COX-2 غير انتقائي يقلل من تخليق البروستاجلاندين، مما ينتج عنه آثار تسكين مباشرة ومضادة للالتهاب.
+
+تقع هذه الآلية مباشرة في الفئة الدوائية المعروفة للعقار: تاريخياً، استُخدمت مسكنات الالتهاب اللاستيرويدية كعلاج عرضي من الخط الأول لالتهاب المفاصل الروماتويدي، وتم دراسة حمض الميفيناميك نفسه لهذا الغرض في وقت مبكر من ستينيات–سبعينيات القرن العشرين، أي قبل عصر علاج DMARD الحديث. بالتالي، فإن التنبؤ TxGNN لا يمثل قفزة ميكانيكية جديدة بقدر ما يمثل إعادة تحديد لاستخدام موثّق تاريخياً وميكانيكياً مباشراً — تثبيط COX الذي يستهدف الالتهاب المفصلي الوسيط بالبروستاجلاندين والمميز لالتهاب المفاصل الروماتويدي.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
+
+---
+
+## أدلة المراجع العلمية
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | RCT | Annals of the Rheumatic Diseases | Early clinical trial establishing efficacy of mefenamic acid in rheumatoid arthritis (abstract not available in source data). |
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover) | Current Medical Research and Opinion | In 24 RA patients, mefenamic acid, flurbiprofen and sulindac were all significantly superior to placebo on pain score, joint tenderness, and morning stiffness. |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT (vs ibuprofen) | The Journal of International Medical Research | Randomized double-blind within-patient study (n=40) found mefenamic acid and ibuprofen had comparable analgesic/anti-inflammatory effect and similar tolerability. |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (vs ibuprofen) | The Medical Journal of Australia | Double-blind crossover trial found mefenamic acid (1500 mg/day) compared favorably with ibuprofen (1200 mg/day); side effects mild, mostly GI. |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | RA comparison trial | British Medical Journal | Mefenamic and flufenamic acid compared with aspirin and phenylbutazone in RA (abstract not available). |
-| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scottish Medical Journal | Reviews the place of mefenamic acid specifically in RA treatment (abstract not available). |
-| [20668](https://pubmed.ncbi.nlm.nih.gov/20668/) | 1977 | Review | Seminars in Arthritis and Rheumatism | General review of anti-inflammatory drugs including mefenamic acid (abstract not available). |
-| [5333309](https://pubmed.ncbi.nlm.nih.gov/5333309/) | 1966 | Review | British Medical Journal | Early review of mefenamic acid (abstract not available). |
-| [23611159](https://pubmed.ncbi.nlm.nih.gov/23611159/) | 2014 | Formulation study (non-clinical) | Pharmaceutical Development and Technology | Developed a triple-concentric, time-controlled release mefenamic acid tablet specifically designed for RA dosing (burst dose + lag + 8h controlled release). |
-| [16223958](https://pubmed.ncbi.nlm.nih.gov/16223958/) | 2006 | Preclinical (off-target) | Molecular Pharmacology | Mefenamic acid showed neuroprotective/cognitive effects in Alzheimer's models — relevant as an off-target signal for long-term NSAID use in RA populations. |
+| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | RCT | Annals of the Rheumatic Diseases | تجربة سريرية مبكرة تثبت فعالية حمض الميفيناميك في التهاب المفاصل الروماتويدي (الملخص غير متاح في بيانات المصدر). |
+| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (تصليب مزدوج التعمية بتبديل متقاطع) | Current Medical Research and Opinion | لدى 24 مريضاً بالتهاب المفاصل الروماتويدي، كان حمض الميفيناميك وفلوربيبروفين وسولندالك جميعها متفوقة بشكل كبير على الدواء الوهمي في درجات الألم، والألم المفصلي، والتيبس الصباحي. |
+| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT (مقابل الإيبوبروفين) | The Journal of International Medical Research | دراسة عشوائية مزدوجة التعمية داخل المريض (n=40) وجدت أن حمض الميفيناميك والإيبوبروفين لهما تأثير تسكين ومضاد التهاب قابل للمقارنة وتحمل مماثل. |
+| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (مقابل الإيبوبروفين) | The Medical Journal of Australia | تجربة تبديل مزدوجة التعمية وجدت أن حمض الميفيناميك (1500 ملغ/يوم) قورنت بشكل ملائم مع الإيبوبروفين (1200 ملغ/يوم)؛ الآثار الجانبية خفيفة، في الغالب معوية. |
+| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | تجربة مقارنة التهاب المفاصل الروماتويدي | British Medical Journal | قورنت الميفيناميك وحمض فلوفيناميك مع الأسبرين والفينيلبيوتازون في التهاب المفاصل الروماتويدي (الملخص غير متاح). |
+| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | مراجعة | Scottish Medical Journal | تراجع مكان حمض الميفيناميك تحديداً في علاج التهاب المفاصل الروماتويدي (الملخص غير متاح). |
+| [20668](https://pubmed.ncbi.nlm.nih.gov/20668/) | 1977 | مراجعة | Seminars in Arthritis and Rheumatism | مراجعة عامة للأدوية المضادة للالتهاب بما فيها حمض الميفيناميك (الملخص غير متاح). |
+| [5333309](https://pubmed.ncbi.nlm.nih.gov/5333309/) | 1966 | مراجعة | British Medical Journal | مراجعة مبكرة لحمض الميفيناميك (الملخص غير متاح). |
+| [23611159](https://pubmed.ncbi.nlm.nih.gov/23611159/) | 2014 | دراسة الصيغة (غير سريرية) | Pharmaceutical Development and Technology | طورت قرص حمض ميفيناميك ثلاثي متحد المركز محكوم الوقت خصيصاً لجرعات التهاب المفاصل الروماتويدي (جرعة انفجارية + تأخير + تحرر محكوم 8 ساعات). |
+| [16223958](https://pubmed.ncbi.nlm.nih.gov/16223958/) | 2006 | أبحاث ما قبل سريرية (خارج الهدف) | Molecular Pharmacology | أظهر حمض الميفيناميك تأثيرات واقية عصبية/معرفية في نماذج الزهايمر — ذات صلة كإشارة هدف ثانوي لاستخدام مسكنات الالتهاب اللاستيرويدية طويلة الأمد في السكان المصابين بالتهاب المفاصل الروماتويدي. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Not currently marketed in Saudi Arabia — 0 authorizations on record. No license or product data available.
-
----
-
-## Safety Considerations
-
-No formal SFDA key-warning, contraindication, or DDI data is available (all flagged as data gaps; DG001 is Blocking for a full safety review).
-
-Supplementary safety signals identified in the literature evidence (not formal labeling data):
-- Increased risk of stroke and acute MI with non-selective NSAID use in RA patients ([PMID 29548675](https://pubmed.ncbi.nlm.nih.gov/29548675/))
-- Case reports of severe NSAID-induced enteropathy with prolonged mefenamic acid use ([PMID 29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/))
-- Case series of autoimmune haemolytic anaemia associated with mefenamic acid therapy ([PMID 5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/))
+غير مسوّق حالياً في المملكة العربية السعودية — 0 ترخيص في السجل. لا تتوفر بيانات الترخيص أو المنتج.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+لا توجد بيانات رسمية عن التحذيرات الرئيسية من SFDA أو موانع الاستعمال أو تفاعلات الأدوية (جميعها مُعلّمة كفجوات بيانات؛ DG001 هو مانع لمراجعة سلامة كاملة).
 
-**Rationale:**
-Multiple historical RCTs (1966–1979) directly demonstrate efficacy of mefenamic acid in rheumatoid arthritis, supporting an L2 evidence level with a mechanistically direct rationale (COX inhibition → reduced prostaglandin-mediated joint inflammation). However, the drug is currently unmarketed in Saudi Arabia with zero license records, and the DG001 blocking gap (no SFDA/TFDA package insert) prevents a complete safety assessment.
+إشارات السلامة الإضافية المحددة في أدلة المراجع العلمية (ليست بيانات تسمية رسمية):
+- زيادة خطر السكتة الدماغية والنوبة القلبية الحادة مع استخدام مسكنات الالتهاب اللاستيرويدية غير الانتقائية في مرضى التهاب المفاصل الروماتويدي ([PMID 29548675](https://pubmed.ncbi.nlm.nih.gov/29548675/))
+- تقارير حالات من اعتلال الأمعاء الناجم عن مسكنات الالتهاب اللاستيرويدية الشديد مع الاستخدام طويل الأمد لحمض الميفيناميك ([PMID 29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/))
+- سلسلة حالات من فقر الدم الانحلالي ذاتي المناعة المرتبط بعلاج حمض الميفيناميك ([PMID 5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/))
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain SFDA-approved package insert/label data (Blocking for safety review)
-- Resolve DG002: obtain formal mechanism-of-action documentation from DrugBank or SFDA sources
-- Collect formal drug-interaction and contraindication data (current DDI query returned no results)
-- Assess regulatory pathway for market entry given current "not marketed" status
-- Consider that existing RA efficacy evidence predates modern DMARD-based standard of care and may need contextualization against current treatment guidelines
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات**
+
+**المبررات:**
+تثبت عدة تجارب معشاة ذات شواهد تاريخية (1966–1979) فعالية حمض الميفيناميك في التهاب المفاصل الروماتويدي مباشرة، مما يدعم مستوى أدلة L2 مع مبرر ميكانيكي مباشر (تثبيط COX → تقليل الالتهاب المفصلي الوسيط بالبروستاجلاندين). ومع ذلك، فإن العقار حالياً غير مسوّق في المملكة العربية السعودية مع سجلات ترخيص صفرية، وتمنع فجوة DG001 المانعة (لا توجد بيانات نشرة/عبوة معتمدة من SFDA) إجراء تقييم سلامة كامل.
+
+**للمتابعة، يلزم ما يلي:**
+- حل DG001: الحصول على بيانات نشرة/عبوة معتمدة من SFDA (مانع لمراجعة السلامة)
+- حل DG002: الحصول على توثيق رسمي لآلية العمل من DrugBank أو مصادر SFDA
+- جمع بيانات رسمية عن تفاعلات الأدوية وموانع الاستعمال (استعلام DDI الحالي لم يرجع نتائج)
+- تقييم المسار التنظيمي لدخول السوق بالنظر إلى حالة "غير مسوّق" الحالية
+- النظر في أن أدلة الفعالية في التهاب المفاصل الروماتويدي الموجودة تسبق معيار الرعاية القائم على DMARD الحديث وقد تحتاج إلى سياق مقابل إرشادات العلاج الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

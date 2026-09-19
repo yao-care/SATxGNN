@@ -29,76 +29,77 @@ indication_count: 4
 
 </div>
 
-# Parecoxib: From Postoperative Pain to Migraine Disorder
+# باراكوكسيب: من الألم بعد العملية الجراحية إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Parecoxib is an injectable, selective COX-2 inhibitor (prodrug of valdecoxib) generally used for short-term management of postoperative pain; detailed original-indication and label data were not returned by the evidence sources for this pack. The TxGNN model predicts it may be effective for **Migraine Disorder**, currently supported by **0 clinical trials** and **1 publication** (a pilot RCT). The drug is not currently marketed in Saudi Arabia, and safety/label data remain a blocking gap.
+باراكوكسيب هو مثبط اختياري لـ COX-2 قابل للحقن (عقار سابق للفالديكوكسيب) يُستخدم عموماً لإدارة قصيرة الأجل للألم بعد العملية الجراحية؛ لم يتم إرجاع بيانات المؤشر الأصلي والتسمية التفصيلية من قبل مصادر الأدلة لهذه الحزمة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الصداع النصفي**، وهو مدعوم حالياً بـ **0 تجارب سريرية** و **1 منشور** (RCT تجريبي). الدواء لا يتم تسويقه حالياً في المملكة العربية السعودية، وبيانات السلامة والتسمية تبقى فجوة حاجزة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not specified in data source (no Saudi Arabia license text available; drug class generally used for short-term postoperative pain) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير محدد في مصدر البيانات (لا توجد نصوص الترخيص المتاحة للمملكة العربية السعودية؛ يتم استخدام فئة الأدوية بشكل عام للإدارة قصيرة الأجل للألم بعد العملية الجراحية) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ من TxGNN | 99.55% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the evidence pack (marked as a High-severity data gap). Based on known pharmacological classification, parecoxib is a selective COX-2 inhibitor and the injectable prodrug of valdecoxib, a class whose efficacy in acute/postoperative pain is well established; mechanistically, this anti-inflammatory and analgesic action may extend to other pain conditions.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة من حزمة الأدلة (تم تحديدها كفجوة بيانات ذات شدة عالية). بناءً على التصنيف الدوائي المعروف، باراكوكسيب هو مثبط اختياري لـ COX-2 وعقار سابق قابل للحقن للفالديكوكسيب، وهي فئة ثبتت فعاليتها في الألم الحاد/بعد العملية الجراحية؛ من الناحية الآلية، قد يمتد هذا العمل المضاد للالتهابات والمسكن إلى حالات ألم أخرى.
 
-For migraine specifically, the rationale is that COX-2 inhibition reduces prostaglandin E2/PGI2 synthesis, which may dampen neurogenic inflammation and pain sensitization in the trigeminovascular system — a pathway directly implicated in acute migraine attacks. NSAIDs and COX inhibitors already have an established pharmacological basis for treating acute migraine, which supports the plausibility of this TxGNN prediction.
+بالنسبة للصداع النصفي بشكل خاص، فإن الأساس المنطقي هو أن تثبيط COX-2 يقلل من تخليق البروستاجلاندين E2/PGI2، مما قد يقلل الالتهابات العصبية وحساسية الألم في النظام الثلاثي التوأم الوعائي — وهي مسار مرتبط بشكل مباشر بنوبات الصداع النصفي الحاد. مثبطات السايكلوكوكسيجيناز وموانع التهابات غير الستيرويدية لديها بالفعل أساس دوائي مثبت لعلاج الصداع النصفي الحاد، مما يدعم معقولية تنبؤ TxGNN هذا.
 
-However, because the drug's confirmed original indication and full safety profile could not be retrieved for this pack, this mechanistic link should be treated as plausible but not yet clinically validated for this specific drug-disease pair.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، نظراً لعدم إمكانية استرجاع المؤشر الأصلي المؤكد للدواء والملف الأمني الكامل لهذه الحزمة، يجب التعامل مع هذا الرابط الآلي كمعقول لكن لم يتم التحقق منه سريرياً بعد لهذا الزوج محدد من الدواء والمرض.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | RCT | Clinical Neuropharmacology | Pilot study comparing oral rizatriptan, IV parecoxib, and subcutaneous sumatriptan for acute migraine attacks; investigates whether a COX-2 inhibitor offers comparable analgesic/anti-inflammatory benefit to triptans. |
+| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | RCT | Clinical Neuropharmacology | دراسة تجريبية تقارن ريزاتريبتان عن طريق الفم، والباراكوكسيب في الوريد، والسوماتريبتان تحت الجلد لنوبات الصداع النصفي الحاد؛ تحقق ما إذا كان مثبط COX-2 يوفر فائدة تسكينية/مضادة للالتهابات قابلة للمقارنة مع التريبتانات. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Parecoxib currently holds no marketing authorization in Saudi Arabia (0 licenses on record; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+باراكوكسيب لا يحمل حالياً أي ترخيص تسويقي في المملكة العربية السعودية (0 تراخيص في السجل؛ حالة السوق: غير مسوق).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-Evidence for the top-ranked prediction (migraine disorder) rests on a single small pilot RCT, and safety/label data (TFDA/SFDA package insert, contraindications, DDI) are a **Blocking** data gap that prevents even an initial safety screen (S1). The drug is also not currently marketed in Saudi Arabia, and the other three predicted indications (migraine with brainstem aura, migraine susceptibility, pulmonary hypertension) are L4–L5 with weak or unfavorable mechanistic support and are separately flagged Hold.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert with warnings, contraindications, and DDI data (currently blocking)
-- Confirmed original indication and DrugBank-sourced mechanism of action (DG002)
-- Additional, larger-scale RCT evidence for parecoxib in acute migraine beyond the single pilot study
-- Route-of-administration and dosage-form compatibility assessment once market/registration status changes
+## الاستنتاج والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+الأدلة على التنبؤ الأول المصنف (اضطراب الصداع النصفي) تستند إلى دراسة RCT تجريبية واحدة صغيرة، وبيانات السلامة والتسمية (TFDA/SFDA، ملحق العبوة، موانع الاستعمال، التفاعلات الدوائية) هي فجوة بيانات **حاجزة** تمنع حتى الفحص الأمني الأولي (S1). الدواء أيضاً لا يتم تسويقه حالياً في المملكة العربية السعودية، والمؤشرات الثلاثة الأخرى المتنبأ بها (الصداع النصفي مع هالة الجذع، القابلية للصداع النصفي، ارتفاع ضغط الدم الرئوي) هي L4–L5 مع دعم آلي ضعيف أو غير مواتٍ وتم تجميعها على حدة كتأجيل.
+
+**للمتابعة، ما يلي مطلوب:**
+- ملحق العبوة المعادل لـ TFDA/SFDA مع التحذيرات وموانع الاستعمال وبيانات التفاعلات الدوائية (حالياً حاجز)
+- المؤشر الأصلي المؤكد وآلية العمل المستمدة من DrugBank (DG002)
+- أدلة RCT إضافية وأكبر حجماً لباراكوكسيب في الصداع النصفي الحاد بعد الدراسة التجريبية الواحدة
+- تقييم توافق مسار الإعطاء وشكل الجرعة مرة واحدة تتغير حالة السوق/الحالة التسجيلية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

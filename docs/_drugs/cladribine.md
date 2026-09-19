@@ -29,89 +29,90 @@ indication_count: 7
 
 </div>
 
-# Cladribine: From Hairy Cell Leukemia to Parameningeal Embryonal Rhabdomyosarcoma
+# كلادريبين: من ابيضاض الدم بالخلايا الشعرية إلى الساركوما الكيسية الجنينية جنب السحايا
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cladribine is a purine nucleoside analogue with established efficacy in hairy cell leukemia, exerting selective cytotoxicity against lymphoid cells via deoxycytidine kinase (dCK)-mediated DNA strand breakage.
-The TxGNN model predicts it may be effective for **parameningeal embryonal rhabdomyosarcoma**,
-however **no clinical trials and no supporting publications** exist for this repurposing direction — the prediction rests entirely on knowledge-graph topology inference.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hairy Cell Leukemia |
-| Predicted New Indication | Parameningeal Embryonal Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+كلادريبين هو نظير نيوكليوسيد البيورين ذو الفعالية المثبتة في ابيضاض الدم بالخلايا الشعرية، يمارس سمية انتقائية ضد الخلايا الليمفاوية عن طريق كسر خيط DNA الوسيط بواسطة كيناز ديوكسيسيتيدين (dCK).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الساركوما الكيسية الجنينية جنب السحايا**،
+غير أنه **لا توجد تجارب سريرية ولا مطبوعات داعمة** لهذا اتجاه إعادة التخصص — التنبؤ يعتمد بالكامل على استدلال طوبولوجيا الرسم البياني للمعرفة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on information embedded in the repurposing rationale, Cladribine is a purine nucleoside analogue (deoxyadenosine analogue) that is phosphorylated intracellularly by deoxycytidine kinase (dCK), accumulating as an active triphosphate that causes DNA strand breaks and induces apoptosis in non-dividing cells. This mechanism confers particularly potent activity in lymphoid malignancies with high dCK expression — hairy cell leukemia being the textbook indication.
-
-Parameningeal embryonal rhabdomyosarcoma is a mesenchymal-origin pediatric tumor arising near the meninges (nasal cavity, paranasal sinuses, middle ear, infratemporal fossa). Standard treatment follows IRS/ARST protocols combining vincristine, actinomycin-D, and cyclophosphamide (VAC) with local irradiation. Cladribine's mechanistic advantage in lymphoid cells does not readily translate to rhabdomyosarcoma: the dCK expression level and purine metabolism enzyme ratios in RMS cell lines are entirely unknown, and no experimental data establish drug sensitivity.
-
-The TxGNN model prediction is driven by knowledge-graph topological similarity — Cladribine's disease-node neighborhood in the KG overlaps with rhabdomyosarcoma subtypes through shared gene and pathway nodes, not through direct mechanistic or pharmacological evidence. While this is a valid signal for hypothesis generation, it does not constitute a plausible biological link without preclinical validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Cladribine in parameningeal embryonal rhabdomyosarcoma.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | ابيضاض الدم بالخلايا الشعرية |
+| المؤشر الجديد المتنبأ به | الساركوما الكيسية الجنينية جنب السحايا |
+| درجة تنبؤ TxGNN | 99.77% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available for Cladribine in parameningeal embryonal rhabdomyosarcoma.
+حالياً، لا تتوفر بيانات آلية العمل المفصلة من حزمة الأدلة. بناءً على المعلومات المدمجة في أساس إعادة التخصص، كلادريبين هو نظير نيوكليوسيد البيورين (نظير ديوكسيأدينوسين) يتم فسفرته داخل الخلايا بواسطة كيناز ديوكسيسيتيدين (dCK)، متراكماً كثلاثي فوسفات نشط يسبب كسور خيط DNA وينجز موت الخلايا المبرمج في الخلايا غير المنقسمة. هذه الآلية تعطي نشاطاً قوياً خاصة في الأورام الخبيثة الليمفاوية ذات تعبير dCK العالي — ابيضاض الدم بالخلايا الشعرية كونه المؤشر النموذجي.
 
----
+الساركوما الكيسية الجنينية جنب السحايا هي ورم منشأه من الأنسجة الضامة ينشأ بالقرب من السحايا (تجويف الأنف، الجيوب الأنفية، الأذن الوسطى، الحفرة جنب الصدغية). يتبع العلاج المعياري بروتوكولات IRS/ARST التي تجمع بين فينكريستين وأكتينوميسين-D والسيكلوفوسفاميد (VAC) مع الإشعاع الموضعي. الميزة الآلية لكلادريبين في الخلايا الليمفاوية لا تنتقل بسهولة إلى الساركوما الكيسية: مستوى تعبير dCK والنسب في إنزيمات استقلاب البيورين في خطوط خلايا RMS غير معروفة تماماً، وبيانات تجريبية لا تثبت حساسية الدواء.
 
-## Cytotoxicity
-
-Cladribine is an antineoplastic purine nucleoside analogue (antimetabolite) used in the treatment of hairy cell leukemia and multiple sclerosis. This section applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Purine nucleoside analogue (antimetabolite) |
-| Myelosuppression Risk | High — severe and prolonged neutropenia, thrombocytopenia, and anaemia are expected on-target effects; nadir typically occurs 2–4 weeks post-infusion |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential (weekly during and after treatment), liver function tests, renal function, CD4+ lymphocyte count (prolonged lymphopenia risk) |
-| Handling Protection | Must be handled according to cytotoxic drug handling regulations; preparation in a biological safety cabinet, PPE required |
+تنبؤ نموذج TxGNN يحركه التشابه الطوبولوجي للرسم البياني للمعرفة — حي العقدة-المرض الخاص بكلادريبين في KG يتداخل مع أنواع الساركوما الكيسية من خلال عقد الجين والمسار المشتركة، وليس من خلال أدلة آلية أو دوائية مباشرة. بينما هذا إشارة صحيحة لتوليد الفرضية، فإنها لا تشكل رابطة بيولوجية معقولة بدون التحقق قبل السريري.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Full warning text and contraindications were not retrievable from the current data sources. Known class-level concerns include severe and prolonged myelosuppression, opportunistic infections secondary to profound CD4+ lymphopenia, fever, and teratogenicity — formal verification against the approved prescribing information is required before any clinical use.)*
+حالياً لا توجد تجارب سريرية مسجلة ذات صلة لكلادريبين في الساركوما الكيسية الجنينية جنب السحايا.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب العلمي
 
-**Decision: Hold**
+حالياً لا توجد مطبوعات علمية متاحة ذات صلة بكلادريبين في الساركوما الكيسية الجنينية جنب السحايا.
 
-**Rationale:**
-All seven TxGNN-predicted indications for Cladribine in this Evidence Pack are rated L5 (model prediction only), with zero registered clinical trials and no relevant literature across any rhabdomyosarcoma or bile duct sarcoma subtype. The mechanistic link between Cladribine's lymphoid-selective, dCK-dependent cytotoxicity and mesenchymal-origin RMS tumors is biologically unestablished — the prediction reflects knowledge-graph topology, not pharmacological plausibility.
+---
 
-**To proceed, the following is needed:**
+## السمية الخلوية
 
-- **Preclinical dCK expression data**: Measure dCK activity and 5′-nucleotidase (dNT) ratios in RMS cell lines (RD, Rh30, RMS-YM) to determine whether Cladribine's selectivity mechanism is operative in mesenchymal tumors
-- **In vitro cytotoxicity assay**: IC₅₀ determination in at least 2–3 RMS cell lines before any animal model investment
-- **Formal MOA documentation**: Retrieve complete DrugBank MOA entry and Taiwan/FDA-approved package insert mechanistic description
-- **Safety data gap resolution**: Obtain full warning text and contraindications from TFDA package insert or EMA/FDA prescribing information
-- **Orphan disease context review**: Parameningeal embryonal RMS is a rare pediatric cancer; any repurposing effort should engage pediatric oncology specialists and review current IRS/COG cooperative group trial data to assess unmet need and combinability with standard VAC therapy
-- **Broader RMS literature sweep**: A systematic PubMed search using broader terms (cladribine + sarcoma, 2-CdA + mesenchymal neoplasm) may surface indirect mechanistic clues not captured in the current targeted query
+كلادريبين هو عامل مضاد للأورام من نوع نظير نيوكليوسيد البيورين (عامل استقلابي منافس) يُستخدم في علاج ابيضاض الدم بالخلايا الشعرية والتهاب المخ والأعصاب المتعدد. ينطبق هذا القسم.
+
+| العنصر | المحتوى |
+|--------|---------|
+| تصنيف السمية الخلوية | سام تقليدي — نظير نيوكليوسيد البيورين (عامل استقلابي منافس) |
+| خطر قمع النخاع | مرتفع — يتوقع حدوث نقص العدلات الحاد والمطول، نقص الصفيحات، وفقر الدم؛ يحدث الحضيض عادة 2–4 أسابيع بعد التسريب |
+| تصنيف الاستفراغ | منخفض |
+| عناصر المراقبة | اختبار الدم الكامل مع التمايز (أسبوعياً أثناء وبعد العلاج)، اختبارات وظائف الكبد، وظائف الكلى، عدد الخلايا الليمفاوية CD4+ (خطر الليمفوبينيا المطولة) |
+| حماية التعامل | يجب التعامل معه وفقاً لتنظيمات التعامل مع الأدوية الخطرة؛ التحضير في خزانة السلامة البيولوجية، معدات الحماية الشخصية مطلوبة |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+*(نصوص التحذير الكاملة والموانع لم تكن قابلة للاسترجاع من مصادر البيانات الحالية. تشمل المخاوف المعروفة على مستوى الفئة قمع النخاع الحاد والمطول، العدوى الانتهازية الثانوية للليمفوبينيا الشديدة، الحمى، والماسخية — التحقق الرسمي من المعلومات الموصوفة الموافقة عليها ضروري قبل أي استخدام سريري.)*
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+جميع المؤشرات السبعة المتنبأ بها بواسطة TxGNN لكلادريبين في حزمة الأدلة هذه مصنفة L5 (تنبؤ النموذج فقط)، مع صفر تجارب سريرية مسجلة ولا مطبوعات علمية ذات صلة عبر أي نوع فرعي من الساركوما الكيسية أو ساركوما القناة الصفراوية. الرابط الآلي بين السمية الانتقائية لكلادريبين للخلايا الليمفاوية والمعتمدة على dCK وأورام RMS ذات المنشأ الضامة غير معروف بيولوجياً — التنبؤ يعكس طوبولوجيا الرسم البياني للمعرفة، وليس الجدوى الدوائية.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **بيانات تعبير dCK قبل السريري**: قياس نشاط dCK ونسب 5′-nucleotidase في خطوط خلايا RMS (RD, Rh30, RMS-YM) لتحديد ما إذا كانت آلية الانتقائية الخاصة بكلادريبين تعمل في الأورام الضامة
+- **فحص السمية في المختبر**: تحديد IC₅₀ في 2–3 خطوط خلايا RMS على الأقل قبل أي استثمار في نموذج حيواني
+- **توثيق آلية العمل الرسمي**: استرجاع دخل DrugBank الكامل لآلية العمل والوصف الآلي في النشرة الموافقة عليها من تايوان/FDA
+- **حل فجوة بيانات السلامة**: الحصول على نصوص التحذير الكاملة وموانع الاستخدام من نشرة TFDA أو معلومات الوصفة الطبية لـ EMA/FDA
+- **مراجعة سياق المرض النادر**: الساركوما الكيسية الجنينية جنب السحايا هي سرطان نادر عند الأطفال؛ أي جهد لإعادة التخصص يجب أن يشارك فيه متخصصو الأورام عند الأطفال وأن يراجع بيانات تجربة التعاون الحالية لـ IRS/COG لتقييم الحاجة غير المقابلة وقابلية الجمع مع العلاج المعياري VAC
+- **مسح أدب الساركوما الكيسية الأوسع**: قد يكشف البحث المنتظم في PubMed باستخدام شروط أوسع (cladribine + sarcoma, 2-CdA + mesenchymal neoplasm) عن أدلة آلية غير مباشرة لم تُلتقط في الاستعلام الموجه الحالي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

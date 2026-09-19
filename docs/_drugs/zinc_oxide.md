@@ -29,79 +29,80 @@ indication_count: 5
 
 </div>
 
-# Zinc Oxide: From No Registered Indication to Acne
+# أكسيد الزنك: من عدم وجود مؤشر مسجل إلى حب الشباب
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Zinc oxide (DrugBank DB09321) currently has no approved indication on record and is not marketed under this entry. The TxGNN model predicts it may be effective for **Acne**, with **0 clinical trials** but **7 supporting publications** (mostly reviews and preclinical studies) currently identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication on record (this DrugBank entry is currently not marketed) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أكسيد الزنك (DrugBank DB09321) ليس له حالياً أي مؤشر معتمد مسجل ولا يتم تسويقه ضمن هذا الإدراج. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ حب الشباب، مع 0 تجارب سريرية لكن 7 منشورات داعمة (في الغالب استعراضات ودراسات ما قبل الإكلينيكية) محددة حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for zinc oxide in this dataset. Based on general pharmacological knowledge, zinc ions have anti-inflammatory, antibacterial (including inhibitory activity against *Cutibacterium acnes*), and sebum-regulating properties, and zinc oxide is a common ingredient in topical dermatologic formulations (antibacterial, astringent, physical UV-blocking agent).
-
-Acne vulgaris pathology involves inflammation, bacterial overgrowth, and excess sebum production — all mechanistic targets that zinc compounds are known to act on. This provides a plausible biological rationale for the TxGNN prediction linking zinc oxide to acne.
-
-However, this specific DrugBank entry (DB09321) has no original indication or regulatory approval on record, so the "repurposing" framing here is more accurately a novel-use hypothesis grounded in the general pharmacology of zinc, rather than an extension from an already-approved use.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا توجد مؤشرات معتمدة مسجلة (هذا الإدراج في DrugBank غير مسوق حالياً) |
+| المؤشر الجديد المتنبأ به | حب الشباب |
+| درجة تنبؤ TxGNN | 99.86% |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً، لا تتوفر بيانات تفصيلية لآلية العمل لأكسيد الزنك في هذه المجموعة البيانات. بناءً على المعرفة الصيدلية العامة، أيونات الزنك لها خصائص مضادة للالتهاب ومضادة للبكتيريا (بما فيها نشاط مثبط ضد Cutibacterium acnes) وتنظيم الزهم، وأكسيد الزنك هو مكون شائع في التركيبات الجلدية الموضعية (مضاد للبكتيريا، قابض، عامل حجب الأشعة فوق البنفسجية الفيزيائي).
+
+يتضمن مرض حب الشباب الشائع التهاباً وفرط نمو بكتيري وإفراطاً في إنتاج الزهم — وكلها أهداف ميكانيكية معروفة بأن مركبات الزنك تعمل عليها. وهذا يوفر أساساً بيولوجياً معقولاً لتنبؤ TxGNN الذي يربط أكسيد الزنك بحب الشباب.
+
+ومع ذلك، فإن هذا الإدراج المحدد في DrugBank (DB09321) ليس له مؤشر أصلي أو موافقة تنظيمية مسجلة، لذا فإن إطار "إعادة توجيه" هنا هو بشكل أكثر دقة فرضية استخدام جديد مستندة إلى الصيدلة العامة للزنك، بدلاً من كونها امتداداً من استخدام معتمد بالفعل.
+
+---
+
+## دليل التجارب السريرية
+
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | الدراسات الرئيسية |
 |------|-----|------|------|---------|
-| [29193602](https://pubmed.ncbi.nlm.nih.gov/29193602/) | 2018 | Review | Dermatologic Therapy | Reviews zinc's therapeutic potential in acne vulgaris, covering topical/systemic use and limitations of current standard-of-care therapies |
-| [21342155](https://pubmed.ncbi.nlm.nih.gov/21342155/) | 2011 | Review | International Journal of Dermatology | Reviews unique physical properties of zinc oxide/titanium dioxide nanoparticles; notes nano-preparations under investigation as novel acne treatments |
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Cohort (small clinical, split-face) | Skin Research and Technology | Split-face clinical and bioinstrumental assessment of management of mild inflammatory catamenial acne |
-| [36888703](https://pubmed.ncbi.nlm.nih.gov/36888703/) | 2023 | Preclinical (microneedle/material engineering) | Science Advances | Ultrasound-triggered zinc-porphyrin metal-organic-framework microneedle patch developed for transdermal treatment of bacterial (P. acnes) acne |
-| [31322532](https://pubmed.ncbi.nlm.nih.gov/31322532/) | 2019 | Preclinical (formulation development) | Georgian Medical News | Development of cosmetic powder formulations for acne treatment |
-| [29284390](https://pubmed.ncbi.nlm.nih.gov/29284390/) | 2018 | Preclinical (material/textile application) | Current Medicinal Chemistry | Reviews ultrasonic functionalization of textiles with nanoparticle (including zinc-based) coatings for antimicrobial wound and acne skin care |
-| [41033952](https://pubmed.ncbi.nlm.nih.gov/41033952/) | 2025 | Preclinical (piezoelectric/photocatalytic mechanism) | Science Bulletin | ZnO-based piezo-phototronic heterojunction material developed to selectively modulate skin microbiota by responding to *C. acnes* respiration activity |
+| [29193602](https://pubmed.ncbi.nlm.nih.gov/29193602/) | 2018 | استعراض | العلاج الجلدي | يراجع الإمكانات العلاجية للزنك في حب الشباب الشائع، يغطي الاستخدام الموضعي والجهازي وقيود العلاجات القياسية الحالية |
+| [21342155](https://pubmed.ncbi.nlm.nih.gov/21342155/) | 2011 | استعراض | المجلة الدولية لأمراض الجلد | يراجع الخصائص الفيزيائية الفريدة لجزيئات أكسيد الزنك/ثاني أكسيد التيتانيوم النانوية؛ يلاحظ الجزيئات النانوية قيد التحقيق كعلاجات حديثة لحب الشباب |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | دراسة أتراب (صغيرة سريرية، انقسام الوجه) | تكنولوجيا أبحاث الجلد | تقييم سريري وحيوي انقسام الوجه لإدارة حب الشباب الالتهابي الخفيف المرتبط بالدورة الشهرية |
+| [36888703](https://pubmed.ncbi.nlm.nih.gov/36888703/) | 2023 | ما قبل الإكلينيكية (رقعة ميكروإبرة/هندسة مواد) | تقدم العلوم | تم تطوير رقعة ميكروإبرة من إطار عضوي معدني من الزنك والبروفيرين المُشغل بالموجات فوق الصوتية لعلاج حب الشباب الجرثومي (P. acnes) عبر الجلد |
+| [31322532](https://pubmed.ncbi.nlm.nih.gov/31322532/) | 2019 | ما قبل الإكلينيكية (تطوير التركيبة) | أنباء جورجيا الطبية | تطوير تركيبات مساحيق تجميل لعلاج حب الشباب |
+| [29284390](https://pubmed.ncbi.nlm.nih.gov/29284390/) | 2018 | ما قبل الإكلينيكية (تطبيق المواد/المنسوجات) | الكيمياء الدوائية الحالية | تأثيل المنسوجات بالموجات فوق الصوتية بطلاءات جزيئات نانوية (بما فيها الجزيئات النانوية على أساس الزنك) لرعاية الجروح المضادة للميكروبات وحب الشباب الجلدي |
+| [41033952](https://pubmed.ncbi.nlm.nih.gov/41033952/) | 2025 | ما قبل الإكلينيكية (آلية كهروضغطية/فوتوحفازية) | نشرة العلوم | تم تطوير مادة متغايرة الوصلة من ZnO على أساس كهروضغطي-ضوئي فوتوني لتعديل ميكروبيوم الجلد بشكل انتقائي بالاستجابة لنشاط التنفس C. acnes |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-*Note: Retrieval of the TFDA/manufacturer package insert (warnings and contraindications) is flagged as a Blocking data gap (DG001) — this must be resolved before a formal safety pre-assessment (S1) can proceed.*
+*ملاحظة: تم الإشارة إلى استرجاع نشرة الحزمة من TFDA/الشركة المصنعة (التحذيرات وموانع الاستعمال) على أنها فجوة بيانات حاجزة (DG001) — يجب حل هذا قبل أن يتمكن تقييم السلامة المسبق الرسمي (S1) من المتابعة.*
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-Despite a very high TxGNN prediction score (99.86%) and plausible mechanistic rationale (zinc's antibacterial/anti-inflammatory activity relevant to acne pathology), the evidence base consists only of reviews and preclinical/materials-science studies with no completed clinical trials — placing this candidate at evidence level L3, decision stage S1 ("Research Question"). Critically, this drug entry has no on-record original indication, is not currently marketed, and safety data (warnings/contraindications) is a Blocking data gap, preventing formal safety pre-assessment.
+**المبرر:**
+بالرغم من درجة تنبؤ TxGNN عالية جداً (99.86%) وأساس ميكانيكي معقول (نشاط الزنك المضاد للبكتيريا والمضاد للالتهاب ذو الصلة بمرض حب الشباب)، فإن قاعدة الأدلة تتكون فقط من استعراضات ودراسات ما قبل الإكلينيكية وعلوم المواد بدون تجارب سريرية مكتملة — مما يضع هذا المرشح عند مستوى الدليل L3، مرحلة القرار S1 ("سؤال البحث"). وبشكل حاسم، هذا الإدراج الدوائي ليس له مؤشر أصلي مسجل، ولا يتم تسويقه حالياً، وبيانات السلامة (التحذيرات وموانع الاستعمال) هي فجوة بيانات حاجزة، مما يمنع تقييم السلامة المسبق الرسمي.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert data (warnings, contraindications) — Blocking gap (DG001)
-- Confirmed mechanism of action (MOA) documentation — High-priority gap (DG002)
-- Clarification of any original approved indication(s) for this DrugBank entry
-- Design of early-phase clinical studies evaluating topical zinc oxide specifically for acne vulgaris
-- No further action recommended on the remaining candidate indications (anorectal stricture, anal polyp, papillary conjunctivitis, postinfectious vasculitis) — all rated L5/S0/Hold with no supporting literature or clinical trials, most likely reflecting knowledge-graph topological noise rather than genuine biological signal
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة الحزمة من TFDA/الشركة المصنعة (التحذيرات، موانع الاستعمال) — فجوة حاجزة (DG001)
+- توثيق آلية العمل المؤكدة (MOA) — فجوة ذات أولوية عالية (DG002)
+- توضيح أي مؤشرات معتمدة أصلية لهذا الإدراج في DrugBank
+- تصميم دراسات سريرية بمرحلة مبكرة تقيم أكسيد الزنك الموضعي بشكل محدد لحب الشباب الشائع
+- لا توصية بمتابعة إجراء إضافي على المؤشرات المرشحة المتبقية (تضيق الشرج والمستقيم، السليلة الشرجية، التهاب الملتحمة الحليمي، التهاب الأوعية الدموية بعد العدوى) — جميعها مُقيّمة بـ L5/S0/توقف بدون أدبيات داعمة أو تجارب سريرية، من المرجح أنها تعكس ضوضاء طوبولوجية في رسم البياني للمعرفة بدلاً من إشارة بيولوجية حقيقية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

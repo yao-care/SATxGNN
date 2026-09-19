@@ -29,102 +29,103 @@ indication_count: 10
 
 </div>
 
-# Daclatasvir: From Hepatitis C to Hepatitis B Virus Infection
+# داكلاتاسفير: من التهاب الكبد الفيروسي سي إلى عدوى التهاب الكبد الفيروسي بي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Daclatasvir (BMS-790052) is a pangenotypic NS5A replication complex inhibitor, approved in multiple countries for the treatment of chronic Hepatitis C virus (HCV) infection in combination with other direct-acting antivirals.
-The TxGNN model predicts it may be effective for **Hepatitis B Virus (HBV) Infection** with a confidence score of **99.80%**, making it the top-ranked repurposing candidate.
-However, this prediction is supported by only **1 partially relevant clinical trial** (n=23) and a handful of observational studies — with the majority of available evidence reflecting HBV reactivation events *during* Daclatasvir therapy, not antiviral suppression of HBV.
+داكلاتاسفير (BMS-790052) هو مثبط معقد النسخ NS5A متعدد الأنماط الجينية، معتمد في دول متعددة لمعالجة عدوى فيروس التهاب الكبد الفيروسي سي (HCV) المزمنة في تركيبة مع مضادات فيروسات أخرى ذات تأثير مباشر.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **عدوى التهاب الكبد الفيروسي بي (HBV)** بدرجة ثقة **99.80%**، مما يجعله المرشح الأول لإعادة توظيف الأدوية.
+ومع ذلك، يتم دعم هذا التنبؤ من خلال **تجربة سريرية واحدة فقط ذات صلة جزئية** (n=23) وعدد قليل من الدراسات الرصدية — حيث تعكس غالبية الأدلة المتاحة حالات إعادة تنشيط HBV *أثناء* العلاج بـ داكلاتاسفير، وليس القمع الفيروسي لـ HBV.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Chronic Hepatitis C virus (HCV) infection |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | عدوى فيروس التهاب الكبد الفيروسي سي المزمنة |
+| المؤشر الجديد المتنبأ به | عدوى التهاب الكبد الفيروسي بي |
+| درجة توقع TxGNN | 99.80% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | قيد الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Daclatasvir binds directly to the NS5A replication complex of HCV, disrupting viral RNA replication, assembly, and virion release. It is active across all HCV genotypes and has demonstrated sustained virologic response (SVR) rates exceeding 90% in combination regimens with sofosbuvir or asunaprevir. Its potent antiviral activity against a hepatotropic RNA virus forms the basis for the TxGNN knowledge graph placing it in proximity to other hepatitis viral infections — including HBV.
+يرتبط داكلاتاسفير بشكل مباشر بمعقد النسخ NS5A الخاص بـ HCV، مما يعطل نسخ الحمض النووي الريبوسي الفيروسي وتجميعه وتحرير الفيريونات. إنه نشط عبر جميع أنماط HCV الجينية وأظهر معدلات استجابة فيروسية مستدامة (SVR) تتجاوز 90% في الأنظمة العلاجية المركبة مع sofosbuvir أو asunaprevir. يشكل نشاطه المضاد للفيروسات القوي ضد فيروس له استهداف كبدي من الحمض النووي الريبوسي أساس وضع TxGNN له في الخريطة المعرفية بالقرب من الأمراض الفيروسية الكبدية الأخرى — بما في ذلك HBV.
 
-The mechanistic connection to HBV is, however, extremely tenuous. HBV is a partially double-stranded DNA virus (*Hepadnaviridae*) that replicates via reverse transcription of a pregenomic RNA (pgRNA) intermediate. It does not encode an NS5A homologous protein. One computational study (PMID 36838792) used in silico virtual screening to identify Daclatasvir as a potential binder to the ε stem-loop of HBV pgRNA — a cis-acting element required for polymerase binding and pgRNA packaging — but this remains entirely speculative with no wet-lab or in vivo validation.
+الاتصال الآلي بـ HBV ضعيف بشكل متطرف. HBV هو فيروس DNA مزدوج الشريط جزئياً (*Hepadnaviridae*) ينسخ عبر النسخ العكسي لحمض نووي ريبوسي وسيط قبل جيني (pgRNA). لا يشفر عن بروتين متماثل NS5A. استخدمت دراسة حاسوبية واحدة (PMID 36838792) المسح الافتراضي في السيليكو لتحديد داكلاتاسفير كرابط محتمل إلى حلقة ε للساق من pgRNA الخاص بـ HBV — وهو عنصر يعمل محلياً مطلوب لربط البوليميراز وتغليف pgRNA — لكن هذا يظل افتراضياً بحتاً مع عدم وجود تحقق تجريبي أو في الجسم الحي.
 
-The clinical evidence available paints a more cautionary picture. Rather than suppressing HBV, Daclatasvir-based DAA therapy in HBV/HCV co-infected patients has been repeatedly associated with **HBV reactivation** (PMID 27329484, 26297529, 29194858). The leading hypothesis is that rapid HCV clearance removes the immunosuppressive competition HCV exerted on HBV, allowing dormant HBV to resurge. This mechanistic inverse — Daclatasvir indirectly *unmasking* HBV rather than suppressing it — fundamentally undermines the repurposing rationale. The TxGNN high score most likely reflects disease ontology proximity (both are hepatotropic viral infections in the same MeSH neighbourhood) rather than true pharmacological activity against HBV.
+الأدلة السريرية المتاحة تقدم صورة أكثر حذراً. بدلاً من قمع HBV، ارتبط العلاج بـ DAA القائم على داكلاتاسفير بشكل متكرر في مرضى HBV/HCV المصابين بعدوى مزدوجة بـ **إعادة تنشيط HBV** (PMID 27329484, 26297529, 29194858). الفرضية الرائدة هي أن إزالة HCV السريعة تزيل التأثير المثبط للمناعة الذي مارسه HCV على HBV، مما يسمح بـ HBV الكامن بالانبثاق. هذا التأثير العكسي — داكلاتاسفير بشكل غير مباشر *يكشف* HBV بدلاً من قمعه — يقوض بشكل أساسي منطق إعادة التوظيف. من المرجح أن تعكس الدرجات العالية لـ TxGNN قرب تصنيف الأمراض (كلاهما عدوى فيروسية كبدية في نفس منطقة MeSH الطبية) بدلاً من النشاط الصيدلاني الحقيقي ضد HBV.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | The only trial directly enrolling HCV/HBV co-infected patients. Study purpose was to determine HBV reactivation incidence during anti-HCV DAA treatment — not to evaluate Daclatasvir's efficacy against HBV. Sample size far too small to draw conclusions on direct anti-HBV activity. |
-| [NCT02098616](https://clinicaltrials.gov/study/NCT02098616) | N/A | Completed | 25 | Pilot HCV elimination trial evaluating DCV/ASV/BMS-791325 ± ribavirin for 4–8 weeks in genotype 1a HCV without cirrhosis. No HBV-specific design. |
-| [NCT03687229](https://clinicaltrials.gov/study/NCT03687229) | N/A | Unknown | 60 | Mechanistic study on miRNA-122 and insulin resistance in chronic HCV patients receiving DAAs. No HBV relevance. |
-| [NCT03572140](https://clinicaltrials.gov/study/NCT03572140) | N/A | Unknown | 297 | Safety and resistance-associated variant assessment for sofosbuvir/daclatasvir in chronic HCV GT-4. No HBV design. |
-| [NCT02565888](https://clinicaltrials.gov/study/NCT02565888) | Phase 1 | Completed | 16 | Drug-drug interaction study between Daclatasvir and antiretrovirals (atazanavir/ritonavir or cobicistat) in healthy volunteers. PK study; no antiviral efficacy assessment. |
-| [NCT01012895](https://clinicaltrials.gov/study/NCT01012895) | Phase 2 | Completed | 215 | Safety, PK, and pharmacodynamics of BMS-790052 + BMS-650032 in HCV genotype 1 null responders to standard of care. HCV-only population. |
-| [NCT03612973](https://clinicaltrials.gov/study/NCT03612973) | N/A | Completed | 80 | Assessment of liver fibrosis, lipid profile, and insulin resistance in chronic HCV patients on DAA therapy. No HBV design. |
-| [NCT00546715](https://clinicaltrials.gov/study/NCT00546715) | Phase 1/2 | Completed | 95 | Early single ascending dose study of daclatasvir in chronic HCV genotype 1 patients; safety and tolerability focus. No HBV relevance. |
-| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Phase 3 | Completed | 506 | Active-controlled comparison of ABT-493/ABT-530 versus SOF+DCV in HCV genotype 3. No HBV patients enrolled. |
-| [NCT02095860](https://clinicaltrials.gov/study/NCT02095860) | Phase 1 | Completed | 24 | Crossover PK study assessing food effect on DCV/ASV/BMS-791325 fixed-dose combination in healthy subjects. No disease-relevance to HBV. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | المرحلة 2/3 | مكتملة | 23 | التجربة الوحيدة التي تسجل مباشرة مرضى HCV/HBV المصابين بعدوى مزدوجة. كان الهدف من الدراسة تحديد معدل حدوث إعادة تنشيط HBV أثناء علاج مضادات DAA المضادة لـ HCV — وليس تقييم فعالية داكلاتاسفير ضد HBV. حجم العينة صغير جداً لاستخلاص استنتاجات حول النشاط المباشر المضاد لـ HBV. |
+| [NCT02098616](https://clinicaltrials.gov/study/NCT02098616) | N/A | مكتملة | 25 | تجربة إزالة HCV التجريبية تقيم DCV/ASV/BMS-791325 ± ribavirin لمدة 4–8 أسابيع في النمط الجيني 1a من HCV بدون تليف. لا يوجد تصميم خاص بـ HBV. |
+| [NCT03687229](https://clinicaltrials.gov/study/NCT03687229) | N/A | غير معروف | 60 | دراسة آلية عن miRNA-122 ومقاومة الأنسولين في مرضى HCV المزمنين الذين يتلقون مثبطات DAA. لا توجد صلة بـ HBV. |
+| [NCT03572140](https://clinicaltrials.gov/study/NCT03572140) | N/A | غير معروف | 297 | تقييم السلامة وحالات البدائل المرتبطة بالمقاومة لـ sofosbuvir/daclatasvir في HCV النمط الجيني 4 المزمن. لا يوجد تصميم خاص بـ HBV. |
+| [NCT02565888](https://clinicaltrials.gov/study/NCT02565888) | المرحلة 1 | مكتملة | 16 | دراسة تفاعل الأدوية بين داكلاتاسفير والأدوية المضادة للفيروسات القهقرية (atazanavir/ritonavir أو cobicistat) في المتطوعين الأصحاء. دراسة PK؛ بدون تقييم فعالية مضادة للفيروسات. |
+| [NCT01012895](https://clinicaltrials.gov/study/NCT01012895) | المرحلة 2 | مكتملة | 215 | السلامة والحركية الدوائية والديناميكا الدوائية لـ BMS-790052 + BMS-650032 في HCV النمط الجيني 1 المستجيبون الفارغون للرعاية القياسية. السكان المصابون بـ HCV فقط. |
+| [NCT03612973](https://clinicaltrials.gov/study/NCT03612973) | N/A | مكتملة | 80 | تقييم تليف الكبد والملف الدهني ومقاومة الأنسولين في مرضى HCV المزمنين الذين يتلقون علاج DAA. لا يوجد تصميم خاص بـ HBV. |
+| [NCT00546715](https://clinicaltrials.gov/study/NCT00546715) | المرحلة 1/2 | مكتملة | 95 | دراسة مبكرة لجرعة تصاعدية واحدة من داكلاتاسفير في مرضى HCV المزمنين من النمط الجيني 1؛ التركيز على السلامة والتحمل. لا توجد صلة بـ HBV. |
+| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | المرحلة 3 | مكتملة | 506 | مقارنة مضبوطة بنشاط لـ ABT-493/ABT-530 مقابل SOF+DCV في HCV النمط الجيني 3. لم يتم تسجيل مرضى HBV. |
+| [NCT02095860](https://clinicaltrials.gov/study/NCT02095860) | المرحلة 1 | مكتملة | 24 | دراسة تقاطع للحركية الدوائية تقيم تأثير الطعام على DCV/ASV/BMS-791325 المركب ذو الجرعة الثابتة في المتطوعين الأصحاء. لا توجد صلة بالمرض بـ HBV. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب المنشور
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [29194858](https://pubmed.ncbi.nlm.nih.gov/29194858/) | 2018 | Cohort | J Viral Hepatitis | Among 25 HBV co-infected patients receiving interferon-free DAA therapy (including asunaprevir + daclatasvir), HBV reactivation occurred in a subset. Confirms Daclatasvir does not suppress HBV replication and may unmask dormant infection. |
-| [27329484](https://pubmed.ncbi.nlm.nih.gov/27329484/) | 2016 | Case Report | Clin J Gastroenterol | An 83-year-old woman developed acute hepatitis B after daclatasvir + asunaprevir therapy cleared her HCV. HBV reactivation directly following Daclatasvir use demonstrates absence of anti-HBV activity. |
-| [26297529](https://pubmed.ncbi.nlm.nih.gov/26297529/) | 2016 | Case Report | Hepatol Res | HBV reactivation (anti-HBe hepatitis) emerged in an HBV/HCV co-infected patient during interferon-free daclatasvir + asunaprevir therapy, requiring tenofovir rescue. |
-| [31722032](https://pubmed.ncbi.nlm.nih.gov/31722032/) | 2020 | Cohort | Trans R Soc Trop Med Hyg | SOF/DCV-based therapy in Egyptian HCV and HCV/HBV co-infected patients confirmed high SVR rates for HCV component; did not evaluate direct antiviral activity of Daclatasvir against HBV. |
-| [36838792](https://pubmed.ncbi.nlm.nih.gov/36838792/) | 2023 | In silico | Molecules | Virtual screening study identifying potential small molecule binders to the HBV pgRNA ε stem-loop (novel therapeutic target). Daclatasvir appeared as a candidate binder — entirely computational, no experimental validation. |
-| [28555436](https://pubmed.ncbi.nlm.nih.gov/28555436/) | 2017 | Cohort | Indian J Gastroenterol | HBV co-infection was associated with higher HCC recurrence rates after DAA therapy in HCV patients; highlights clinical importance of HBV monitoring during DAA treatment. |
-| [27311286](https://pubmed.ncbi.nlm.nih.gov/27311286/) | 2016 | Review | Rinsho Byori | Review of viral hepatitis therapy including DAA-era HCV treatment; discusses HBV reactivation as a recognised complication of interferon-free DAA regimens. |
-| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Review | Acta Pharm Sin B | Review of HCV DAA targets (NS3/4A, NS5A, NS5B); explicitly distinguishes HCV as curable with DAAs while noting HBV and HIV require entirely different treatment approaches. |
-| [30369001](https://pubmed.ncbi.nlm.nih.gov/30369001/) | 2019 | Cohort | Transpl Infect Dis | SOF+DCV achieved high HCV SVR rates in kidney transplant recipients; good tolerability profile. No HBV data; included for drug safety characterisation. |
-| [35248212](https://pubmed.ncbi.nlm.nih.gov/35248212/) | 2022 | Cohort | Lancet Gastroenterol Hepatol | SOF-VEL-VOX re-treatment in patients with prior daclatasvir failure in Rwanda; relevant to understanding limitations and resistance patterns of NS5A inhibitors. No HBV data. |
+| [29194858](https://pubmed.ncbi.nlm.nih.gov/29194858/) | 2018 | دراسة مجموعة | J Viral Hepatitis | بين 25 مريضاً مصاباً بعدوى HBV المشتركة يتلقون علاج DAA الخالي من الإنترفيرون (بما في ذلك asunaprevir + daclatasvir)، حدثت إعادة تنشيط HBV في مجموعة فرعية. يؤكد أن داكلاتاسفير لا يقمع نسخ HBV وقد يكشف عن عدوى كامنة. |
+| [27329484](https://pubmed.ncbi.nlm.nih.gov/27329484/) | 2016 | تقرير حالة | Clin J Gastroenterol | امرأة تبلغ من العمر 83 عاماً أصيبت بالتهاب الكبد الحاد B بعد أن أزال علاج daclatasvir + asunaprevir عدوى HCV لديها. توضح إعادة تنشيط HBV مباشرة بعد استخدام داكلاتاسفير عدم وجود نشاط مضاد لـ HBV. |
+| [26297529](https://pubmed.ncbi.nlm.nih.gov/26297529/) | 2016 | تقرير حالة | Hepatol Res | ظهرت إعادة تنشيط HBV (التهاب الكبد anti-HBe) في مريض مصاب بعدوى HBV/HCV المشتركة أثناء علاج daclatasvir + asunaprevir الخالي من الإنترفيرون، مما تطلب إنقاذ بـ tenofovir. |
+| [31722032](https://pubmed.ncbi.nlm.nih.gov/31722032/) | 2020 | دراسة مجموعة | Trans R Soc Trop Med Hyg | أكد العلاج القائم على SOF/DCV في مرضى HCV والمصابين بعدوى HCV/HBV المشتركة في مصر معدلات SVR عالية لمكون HCV؛ لم يقيم النشاط المضاد للفيروسات المباشر لـ داكلاتاسفير ضد HBV. |
+| [36838792](https://pubmed.ncbi.nlm.nih.gov/36838792/) | 2023 | في السيليكو | Molecules | دراسة المسح الافتراضي تحديد رابطات جزيئية صغيرة محتملة إلى حلقة ε للساق من pgRNA الخاص بـ HBV (هدف علاجي جديد). ظهر داكلاتاسفير كمرشح رابط — بحتة حاسوبية، بدون تحقق تجريبي. |
+| [28555436](https://pubmed.ncbi.nlm.nih.gov/28555436/) | 2017 | دراسة مجموعة | Indian J Gastroenterol | كانت عدوى HBV المشتركة مرتبطة بمعدلات انتكاس HCC أعلى بعد علاج DAA في مرضى HCV؛ يسلط الضوء على الأهمية السريرية لمراقبة HBV أثناء علاج DAA. |
+| [27311286](https://pubmed.ncbi.nlm.nih.gov/27311286/) | 2016 | استعراض | Rinsho Byori | استعراض علاج الالتهاب الفيروسي الكبدي بما في ذلك علاج HCV في عصر DAA؛ يناقش إعادة تنشيط HBV كمضاعفة معروفة للأنظمة العلاجية DAA الخالية من الإنترفيرون. |
+| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | استعراض | Acta Pharm Sin B | استعراض أهداف DAA الخاصة بـ HCV (NS3/4A, NS5A, NS5B)؛ يميز بوضوح HCV كقابل للشفاء مع DAAs بينما يلاحظ أن HBV و HIV يتطلبان نهجاً علاجياً مختلفاً تماماً. |
+| [30369001](https://pubmed.ncbi.nlm.nih.gov/30369001/) | 2019 | دراسة مجموعة | Transpl Infect Dis | حقق SOF+DCV معدلات SVR عالية لـ HCV في مرضى زراعة الكلى؛ ملف تحمل جيد. لا توجد بيانات HBV؛ تم تضمينه لتوصيف سلامة الأدوية. |
+| [35248212](https://pubmed.ncbi.nlm.nih.gov/35248212/) | 2022 | دراسة مجموعة | Lancet Gastroenterol Hepatol | إعادة المعالجة بـ SOF-VEL-VOX في المرضى الذين فشل daclatasvir السابق لديهم في رواندا؛ ذات صلة بفهم حدود وأنماط المقاومة من مثبطات NS5A. لا توجد بيانات HBV. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Daclatasvir is currently **not approved or marketed in Saudi Arabia**. No product registrations or authorisation numbers are on file with the regulatory authority. Any clinical use within Saudi Arabia would require individual patient compassionate access or import exemption procedures.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note for HBV co-infected patients:** Multiple published case reports and cohort data document HBV reactivation during Daclatasvir-containing DAA regimens (PMID 27329484, 26297529, 29194858). Screening for HBsAg and anti-HBc prior to initiating any DAA therapy and appropriate HBV prophylaxis or monitoring are strongly recommended per current international guidelines.
+داكلاتاسفير حالياً **غير معتمد أو مسوق في المملكة العربية السعودية**. لا توجد تسجيلات منتجات أو أرقام تفويض على ملف مع السلطة التنظيمية. أي استخدام سريري في المملكة العربية السعودية سيتطلب إجراءات الوصول الرحيم للمريض الفردي أو إعفاءات الاستيراد.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى مراجعة نشرة الدواء لمعلومات السلامة.
 
-**Rationale:**
-The mechanistic basis for Daclatasvir repurposing in HBV is critically weak — HBV lacks any NS5A homolog, replicates via reverse transcriptase rather than RNA-dependent RNA polymerase, and the available clinical evidence specifically documents that Daclatasvir does not suppress HBV replication. On the contrary, DAA-mediated HCV clearance can trigger HBV reactivation, representing a net safety concern rather than a therapeutic opportunity.
+> **ملاحظة لمرضى HBV المصابين بعدوى مشتركة:** تسجل حالات منشورة متعددة وبيانات مجموعات حدوث إعادة تنشيط HBV أثناء أنظمة DAA التي تحتوي على داكلاتاسفير (PMID 27329484, 26297529, 29194858). يوصى بشدة بفحص HBsAg و anti-HBc قبل البدء في أي علاج DAA والنبوء المناسب لـ HBV أو المراقبة وفقاً للمبادئ التوجيهية الدولية الحالية.
 
-**To proceed, the following would be required:**
+---
 
-- **Wet-lab antiviral activity data**: In vitro HBV inhibition assays (HepG2.2.15, HBV-transfected cells) to experimentally verify or refute the in silico binding prediction (PMID 36838792)
-- **Mechanism validation**: Biophysical binding confirmation of Daclatasvir to HBV pgRNA ε stem-loop (EMSA, ITC, or NMR)
-- **MOA characterisation**: Formal Daclatasvir mechanism-of-action data from DrugBank to assess cross-target potential (currently unavailable)
-- **Safety label review**: Full SFDA prescribing information for contraindications and warnings (currently unavailable)
-- **Regulatory baseline**: Given zero Saudi Arabia market authorisations, any clinical development would require full dossier submission from scratch
+## الخلاصة والخطوات التالية
+
+**القرار: قيد الانتظار**
+
+**المنطق:**
+الأساس الآلي لإعادة توظيف داكلاتاسفير في HBV ضعيف بشكل حرج — HBV يفتقد أي بروتين متماثل NS5A، ينسخ عبر النسخ العكسي بدلاً من بوليميراز الحمض النووي الريبوسي المرتبط بالحمض النووي الريبوسي، والأدلة السريرية المتاحة توثق بشكل محدد أن داكلاتاسفير لا يقمع نسخ HBV. على العكس من ذلك، يمكن لإزالة HCV الوسيطة بـ DAA أن تؤدي إلى إعادة تنشيط HBV، مما يمثل مصدر قلق أمني صافٍ بدلاً من فرصة علاجية.
+
+**للمتابعة، ستكون المتطلبات التالية ضرورية:**
+
+- **بيانات النشاط المضاد للفيروسات في المختبر**: اختبارات منع فيروس HBV في الجسم الحي (HepG2.2.15، خلايا مختلة HBV) للتحقق التجريبي أو دحض تنبؤ الربط في السيليكو (PMID 36838792)
+- **التحقق من الآلية**: تأكيد الربط الفيزيائي الحيوي لـ داكلاتاسفير إلى حلقة ε للساق من pgRNA الخاص بـ HBV (EMSA أو ITC أو NMR)
+- **توصيف آلية العمل**: بيانات آلية عمل داكلاتاسفير الرسمية من DrugBank لتقييم إمكانية التأثير المتقاطع (حالياً غير متاح)
+- **مراجعة التسمية الأمنية**: معلومات الوصفة الطبية الكاملة SFDA لموانع الاستعمال والتحذيرات (حالياً غير متاح)
+- **خط أساس تنظيمي**: نظراً لصفر تفويضات سوق المملكة العربية السعودية، أي تطوير سريري سيتطلب تقديم ملف كامل من الصفر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

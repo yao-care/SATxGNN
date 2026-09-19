@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# CABOZANTINIB: From Renal Cell Carcinoma to Liposarcoma
+# كابوزانتينيب: من سرطان الخلايا الكلوية إلى الورم الشحمي الليفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cabozantinib is a multi-target tyrosine kinase inhibitor (TKI) approved globally for renal cell carcinoma (RCC), hepatocellular carcinoma, and medullary thyroid cancer, but currently not registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Liposarcoma**,
-with **1 clinical trial** and **1 publication** currently supporting this direction.
+كابوزانتينيب مثبط التيروسين كيناز متعدد الأهداف (TKI) معتمد عالمياً لسرطان الخلايا الكلوية (RCC) وسرطان الكبد وسرطان الغدة الدرقية النخاعي، لكنه حالياً غير مسجل في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN أنه قد يكون فعالاً ضد **الورم الشحمي الليفي**،
+مع وجود **تجربة سريرية واحدة** و**منشور واحد** يدعمان هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Renal cell carcinoma (global approval; not registered in Saudi Arabia) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | سرطان الخلايا الكلوية (موافقة عالمية؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | الورم الشحمي الليفي |
+| درجة التنبؤ TxGNN | 99.83% |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, cabozantinib is a small-molecule inhibitor that simultaneously targets multiple receptor tyrosine kinases — primarily VEGFR2, MET, and AXL — and its efficacy in renal cell carcinoma has been extensively validated across multiple Phase 3 trials (METEOR, CheckMate 9ER, COSMIC-313), establishing it as a cornerstone treatment for RCC globally.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في هذه مجموعة الأدلة. بناءً على المعلومات المعروفة، كابوزانتينيب مثبط جزيئي صغير يستهدف في نفس الوقت مستقبلات التيروسين كيناز المتعددة — بشكل أساسي VEGFR2 و MET و AXL — وقد تم التحقق من فعاليته في سرطان الخلايا الكلوية على نطاق واسع عبر تجارب المرحلة الثالثة المتعددة (METEOR وCheckMate 9ER وCOSMIC-313)، مما أرسخه كعلاج أساسي لـ RCC عالمياً.
 
-Liposarcoma is a subtype of soft tissue sarcoma (STS) in which MET overexpression and AXL-driven tumor invasion are recognized oncogenic mechanisms, alongside VEGF-driven tumor angiogenesis. Cabozantinib's simultaneous blockade of MET, VEGFR, and AXL provides a biologically plausible mechanism for activity in liposarcoma: MET inhibition can disrupt tumor growth signals and invasive capacity, VEGFR blockade cuts off tumor blood supply, and AXL inhibition may counter treatment-resistance pathways common in mesenchymal tumors.
+الورم الشحمي الليفي هو نوع فرعي من سرطان الأنسجة الرخوة (STS) حيث يُعتبر فرط التعبير عن MET وغزو الورم الذي يقوده AXL آليات سرطانية معروفة، إلى جانب تنمية الأوعية الدموية التي يقودها VEGF. يوفر الحصار المتزامن لـ MET و VEGFR و AXL من قبل كابوزانتينيب آلية معقولة بيولوجياً للنشاط في الورم الشحمي الليفي: يمكن لمثبط MET أن يعطل إشارات نمو الورم والقدرة على الغزو، ويقطع حصار VEGFR إمدادات الدم للورم، وقد يعارض مثبط AXL مسارات مقاومة العلاج الشائعة في الأورام الوسيطة.
 
-While RCC and liposarcoma differ histologically, both share dependence on VEGF-driven angiogenesis and, in relevant subsets, MET pathway activation. An active Phase 2 randomized trial (NCT05836571) is currently exploring cabozantinib in combination with dual immune checkpoint blockade in advanced soft tissue sarcoma — a broader population that includes liposarcoma — lending translational plausibility to this TxGNN prediction.
+بينما يختلف RCC والورم الشحمي الليفي نسيجياً، فإنهما يشتركان في الاعتماد على تنمية الأوعية الدموية التي يقودها VEGF وفي المجموعات الفرعية ذات الصلة على تنشيط مسار MET. تستكشف تجربة عشوائية نشطة من المرحلة الثانية (NCT05836571) حالياً كابوزانتينيب بالتزامن مع حصار نقاط تفتيش المناعة المزدوج في سرطان الأنسجة الرخوة المتقدم — وهي مجموعة سكانية أوسع تشمل الورم الشحمي الليفي — مما يعطي معقولية ترجمة لهذا التنبؤ TxGNN.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Phase 2 | Active, Not Recruiting | 66 | Randomized comparison of Cabozantinib + Ipilimumab + Nivolumab vs. Ipilimumab + Nivolumab alone in advanced soft tissue sarcoma; liposarcoma is included as a recognized STS subtype, but subgroup-specific liposarcoma outcomes have not yet been reported |
+| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | المرحلة الثانية | نشطة، غير مستقطبة | 66 | مقارنة عشوائية بين كابوزانتينيب + إيبيليموماب + نيفولوماب مقابل إيبيليموماب + نيفولوماب وحدها في سرطان الأنسجة الرخوة المتقدم؛ الورم الشحمي الليفي مدرج كنوع فرعي معروف من STS، لكن نتائج الورم الشحمي الليفي الخاصة بالمجموعة الفرعية لم تُبلّغ عنها حتى الآن |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Phase 1 Neoadjuvant Trial | American Journal of Clinical Oncology | Phase 1 study of concurrent cabozantinib and radiation therapy as neoadjuvant treatment in extremity soft tissue sarcoma; assessed safety profile with particular attention to fistula and perforation risk; cabozantinib demonstrated activity across multiple STS subtypes |
+| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | تجربة المرحلة الأولى الموضعية | American Journal of Clinical Oncology | دراسة المرحلة الأولى للعلاج المتزامن بـ كابوزانتينيب والعلاج الإشعاعي كعلاج موضعي في سرطان الأنسجة الرخوة بالأطراف؛ قيّمت ملف السلامة مع الانتباه الخاص لمخاطر الناسور والثقب؛ أظهر كابوزانتينيب نشاطاً في أنواع STS الفرعية المتعددة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Cabozantinib is currently not approved or registered in Saudi Arabia (0 authorizations on record). Globally, the drug is commercially available under the brand names **Cabometyx** (for RCC and hepatocellular carcinoma) and **Cometriq** (for medullary thyroid cancer). Any use in Saudi Arabia at present would require import authorization, compassionate use, or expanded access mechanisms.
+كابوزانتينيب غير معتمد حالياً أو مسجل في المملكة العربية السعودية (صفر تفويضات موجودة). عالمياً، الدواء متاح تجارياً تحت الأسماء التجارية **Cabometyx** (لـ RCC وسرطان الكبد) و**Cometriq** (لسرطان الغدة الدرقية النخاعي). أي استخدام في المملكة العربية السعودية حالياً سيتطلب تفويض استيراد أو استخدام إنساني أو آليات الوصول الموسع.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — multi-kinase inhibitor (VEGFR2/MET/AXL/RET); not conventional cytotoxic |
-| Myelosuppression Risk | Low to moderate (thrombocytopenia and neutropenia reported but generally less severe than conventional chemotherapy) |
-| Emetogenicity Classification | Low to moderate (oral agent; nausea and vomiting reported in a minority of patients) |
-| Monitoring Items | CBC with differential, liver function (ALT/AST/bilirubin), renal function, thyroid function, blood pressure, urine protein, serum electrolytes |
-| Handling Protection | Standard oral antineoplastic handling precautions apply; classified as a hazardous drug — use appropriate PPE when handling or dispensing |
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط متعدد الكينازات (VEGFR2/MET/AXL/RET)؛ وليس سم خلوي تقليدي |
+| خطر الكبت النخاعي | منخفض إلى معتدل (تم الإبلاغ عن قلة الصفيحات وقلة العدلات لكن بشكل عام أقل حدة من العلاج الكيميائي التقليدي) |
+| تصنيف الغثيانية | منخفض إلى معتدل (عامل فموي؛ تم الإبلاغ عن الغثيان والقيء في نسبة قليلة من المرضى) |
+| بنود المراقبة | تعداد الدم الكامل مع الفرق، وظائف الكبد (ALT/AST/bilirubin)، وظائف الكلى، وظائف الغدة الدرقية، ضغط الدم، بروتين البول، الكهارل في المصل |
+| حماية المناولة | تنطبق احتياطات المناولة المعيارية للعوامل المضادة للأورام؛ مصنفة كدواء خطير — استخدم معدات الوقاية الشخصية المناسبة عند المناولة أو الصرف |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-The TxGNN model assigns a very high prediction score (99.83%), and the mechanistic rationale — MET/VEGFR/AXL multi-target blockade in MET-overexpressing soft tissue sarcoma — is scientifically credible. However, current evidence is limited to one Phase 2 trial in broad soft tissue sarcoma (without liposarcoma-specific outcomes) and a Phase 1 safety study, placing this at L3 evidence. No liposarcoma-specific RCT exists to date.
+**المنطق:**
+يعطي نموذج TxGNN درجة تنبؤ عالية جداً (99.83%)، والمنطق الآلي — حصار MET/VEGFR/AXL متعدد الأهداف في سرطان الأنسجة الرخوة الذي يفرط في التعبير عن MET — معقول علمياً. لكن الأدلة الحالية محدودة بتجربة المرحلة الثانية واحدة في سرطان الأنسجة الرخوة الواسع (بدون نتائج خاصة بالورم الشحمي الليفي) ودراسة سلامة المرحلة الأولى، مما يضع هذا عند L3 من الأدلة. لا توجد تجربة عشوائية محكومة خاصة بالورم الشحمي الليفي حتى الآن.
 
-**To proceed, the following is needed:**
+**للمتابعة، يلزم الآتي:**
 
-- Confirm the proportion of liposarcoma patients enrolled in NCT05836571 and monitor for subgroup efficacy data when the trial completes (expected May 2026)
-- Obtain full MOA data from DrugBank (currently missing from this evidence pack)
-- Review the complete package insert for contraindications, drug interactions, and special population warnings before any clinical application
-- Assess Saudi Arabia regulatory pathway options (registration, compassionate use, or import authorization), as the drug is currently not marketed locally
-- If NCT05836571 soft tissue sarcoma data is supportive, consider proposing a liposarcoma-enriched Phase 1b/2 expansion cohort or an investigator-initiated study
+- تأكيد نسبة مرضى الورم الشحمي الليفي المسجلين في NCT05836571 ومراقبة بيانات فعالية المجموعة الفرعية عند اكتمال التجربة (المتوقع مايو 2026)
+- الحصول على بيانات MOA الكاملة من DrugBank (مفقودة حالياً من هذه مجموعة الأدلة)
+- مراجعة النشرة الداخلية الكاملة للتناقضات والتفاعلات الدوائية وتحذيرات السكان الخاصين قبل أي تطبيق سريري
+- تقييم خيارات المسار التنظيمي بالمملكة العربية السعودية (التسجيل أو الاستخدام الإنساني أو تفويض الاستيراد)، حيث أن الدواء غير مسوّق محلياً حالياً
+- إذا كانت بيانات سرطان الأنسجة الرخوة NCT05836571 داعمة، فكر في اقتراح مجموعة توسع المرحلة 1b/2 المخصبة بالورم الشحمي الليفي أو دراسة بدء من المحقق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

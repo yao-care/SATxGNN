@@ -29,88 +29,88 @@ indication_count: 7
 
 </div>
 
-# Benzylpenicillin: From Bacterial Infections to Pericoronitis
+# البنسيلين البنزيلي: من العدوى البكتيرية إلى التهاب الحوائط حول الأسنان
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Benzylpenicillin (Penicillin G) is one of the oldest natural β-lactam antibiotics, historically used to treat serious bacterial infections caused by susceptible Gram-positive organisms, including streptococcal, pneumococcal, and spirochetal infections.
-The TxGNN model predicts it may be effective for **Pericoronitis** (acute infection around partially erupted wisdom teeth),
-with **no registered clinical trials** but **20 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Serious bacterial infections (streptococcal, pneumococcal, syphilis) |
-| Predicted New Indication | Pericoronitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+يعتبر البنسيلين البنزيلي (Penicillin G) من أقدم المضادات الحيوية β-lactam الطبيعية، والذي استُخدم تاريخياً لعلاج العدوى البكتيرية الحادة التي تسببها الكائنات الحية موجبة الجرام الحساسة، بما في ذلك العدوى العقدية والرئوية والحلزونية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الحوائط حول الأسنان** (عدوى حادة حول أسنان العقل المنطمرة جزئياً)، مع **عدم وجود تجارب سريرية مسجلة** لكن **20 منشورة** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Benzylpenicillin (Penicillin G) is a classic natural penicillin whose β-lactam ring irreversibly binds penicillin-binding proteins (PBPs), inhibiting bacterial cell wall peptidoglycan cross-linking and achieving bactericidal activity. Although detailed MOA data is not captured in the current regulatory dataset, this mechanism is extensively documented in the pharmacological literature and is specific to organisms that rely on peptidoglycan for structural integrity.
-
-Pericoronitis is a mixed bacterial infection arising around partially erupted mandibular third molars. The predominant flora consists of Gram-positive streptococci, peptostreptococci, and strict anaerobes including *Bacteroides* and *Fusobacterium* — organisms that fall squarely within benzylpenicillin's classical spectrum. The mechanistic link is therefore direct and well-grounded: PBP inhibition is bactericidal against the primary pathogens driving pericoronitis, making the TxGNN prediction biologically plausible.
-
-A key limitation documented in the literature (PMID 12789143) is the presence of β-lactamase-producing strains among pericoronitis isolates, which can reduce benzylpenicillin's efficacy. Expert consensus (PMID 1873287) and systematic review evidence (PMID 35959239) recommend that penicillins be used as first-line monotherapy for dental infections, with metronidazole added when strict anaerobic coverage is required. This does not negate the prediction, but suggests that benzylpenicillin may be most appropriate as part of a combination regimen rather than as sole agent.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for benzylpenicillin in pericoronitis.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | عدوى بكتيرية حادة (عقدية، رئوية، زهري) |
+| المؤشر الجديد المتنبأ به | التهاب الحوائط حول الأسنان |
+| درجة التنبؤ من TxGNN | 99.36% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير معروضة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع احتياطات |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39068391](https://pubmed.ncbi.nlm.nih.gov/39068391/) | 2024 | RCT | BMC Oral Health | A combination mouthwash (chlorhexidine + benzydamine + nanosilver + amoxicillin + metronidazole) significantly reduced pain and improved maximum mouth opening in acute pericoronitis |
-| [35959239](https://pubmed.ncbi.nlm.nih.gov/35959239/) | 2022 | Systematic Review | JAC-Antimicrobial Resistance | β-Lactams should be first-line monotherapy for dental infections with systemic involvement; combination with metronidazole reserved for refractory cases |
-| [16781343](https://pubmed.ncbi.nlm.nih.gov/16781343/) | 2006 | Prospective Cohort | J Oral Maxillofac Surg | Prospective series of severe odontogenic infections; characterized causative organisms and antibiotic treatment outcomes across infection stages |
-| [1873287](https://pubmed.ncbi.nlm.nih.gov/1873287/) | 1991 | Expert Survey | Br J Oral Maxillofac Surg | British oral surgeons identified penicillins (including amoxicillin) and metronidazole as effective antimicrobials for acute pericoronitis, which is dominated by anaerobic organisms |
-| [12789143](https://pubmed.ncbi.nlm.nih.gov/12789143/) | 2003 | Microbiological Study | Oral Surg Oral Med Oral Pathol | Characterised pericoronitis flora around mandibular third molars; notable proportion of β-lactamase-producing strains identified as a resistance concern for benzylpenicillin |
-| [40381916](https://pubmed.ncbi.nlm.nih.gov/40381916/) | 2025 | Surveillance Study | J Infect Chemother | Second nationwide antimicrobial susceptibility surveillance of odontogenic infection isolates in Japan, including pericoronitis group; updated resistance profiles reported |
-| [26067725](https://pubmed.ncbi.nlm.nih.gov/26067725/) | 2015 | Retrospective Cohort | J Contemp Dent Pract | Analysed prevalence, demographic patterns, and antibiotic management of odontogenic infections in a university hospital dental emergency service |
-| [36268928](https://pubmed.ncbi.nlm.nih.gov/36268928/) | 2022 | Narrative Review | Eur J Translat Myol | Reviewed antibiotic choices for odontogenic infections during pregnancy; penicillins highlighted as the safest first-line option |
-| [29693642](https://pubmed.ncbi.nlm.nih.gov/29693642/) | 2018 | Narrative Review | Antibiotics (Basel) | Reviewed antibiotic prescribing for oro-facial infections in paediatric patients; documented overuse and misuse patterns; β-lactams recommended as first-line |
-| [21027620](https://pubmed.ncbi.nlm.nih.gov/21027620/) | 1946 | Historical Case Report | Am J Orthod Oral Surg | Early case report of submaxillary abscess secondary to acute pericoronitis successfully treated by aspiration and direct instillation of penicillin; historical proof-of-concept |
+يعتبر البنسيلين البنزيلي (Penicillin G) مضاداً حيوياً طبيعياً كلاسيكياً حيث يرتبط حلقه β-lactam بشكل لا عكسي ببروتينات ربط البنسيلين (PBPs)، مما يثبط تقاطع ببتيدوجليكان جدار الخلية البكتيرية ويحقق نشاطاً مبيداً للبكتيريا. على الرغم من أن بيانات آلية العمل المفصلة لم تُسجل في مجموعة البيانات التنظيمية الحالية، إلا أن هذه الآلية موثقة بشكل مكثف في الأدبيات الصيدلانية وتكون محددة للكائنات الحية التي تعتمد على ببتيدوجليكان لتحقيق السلامة الهيكلية.
+
+التهاب الحوائط حول الأسنان هو عدوى بكتيرية مختلطة تنشأ حول أسنان العقل السفلية المنطمرة جزئياً. تتكون الفلورا السائدة من البكتيريا العقدية موجبة الجرام والبيبتوستربتوكوكس والبكتيريا اللاهوائية الصارمة بما في ذلك *Bacteroides* و*Fusobacterium* — وهي كائنات حية تقع بشكل مباشر ضمن الطيف الكلاسيكي للبنسيلين البنزيلي. وبالتالي، الارتباط الآلي مباشر وقائم على أسس قوية: إن تثبيط PBP مبيد للممرضات الأساسية التي تدفع التهاب الحوائط حول الأسنان، مما يجعل تنبؤ TxGNN معقولاً بيولوجياً.
+
+القيد الرئيسي الموثق في الأدبيات (PMID 12789143) هو وجود سلالات منتجة لـ β-lactamase بين عزلات التهاب الحوائط حول الأسنان، والتي يمكن أن تقلل من فعالية البنسيلين البنزيلي. الإجماع بين الخبراء (PMID 1873287) وأدلة المراجعة المنهجية (PMID 35959239) توصي باستخدام البنسيللينات كعلاج أحادي من الخط الأول، مع إضافة metronidazole عند الحاجة إلى تغطية لاهوائية شاملة. هذا لا ينفي التنبؤ، لكنه يشير إلى أن البنسيلين البنزيلي قد يكون الأكثر ملاءمة كجزء من نظام مركب وليس كعامل وحيد.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Benzylpenicillin currently holds no SFDA authorizations and is not marketed in Saudi Arabia.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة للبنسيلين البنزيلي في التهاب الحوائط حول الأسنان.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Proceed with Guardrails**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [39068391](https://pubmed.ncbi.nlm.nih.gov/39068391/) | 2024 | تجربة عشوائية محكومة | BMC Oral Health | قلل غسول الفم المركب (كلورهيكسيدين + benzydamine + فضة نانوية + amoxicillin + metronidazole) بشكل كبير من الألم وحسّن فتح الفم الأقصى في التهاب الحوائط حول الأسنان الحاد |
+| [35959239](https://pubmed.ncbi.nlm.nih.gov/35959239/) | 2022 | مراجعة منهجية | JAC-Antimicrobial Resistance | يجب أن تكون β-Lactams الخط الأول في الاحتياجات الأساسية للعدوى السنية مع التورط الجهازي؛ الجمع مع metronidazole محفوظ للحالات المقاومة |
+| [16781343](https://pubmed.ncbi.nlm.nih.gov/16781343/) | 2006 | دراسة أفواج مستقبلية | J Oral Maxillofac Surg | سلسلة منظورة من العدوى البكتيرية السنية الحادة؛ توصيف الكائنات المسببة ونتائج العلاج بالمضادات الحيوية عبر مراحل العدوى |
+| [1873287](https://pubmed.ncbi.nlm.nih.gov/1873287/) | 1991 | استطلاع الخبراء | Br J Oral Maxillofac Surg | حدد جراحو الفم البريطانيون البنسيللينات (بما في ذلك amoxicillin) و metronidazole كمواد مضادة للميكروبات فعالة للالتهاب الحاد حول الأسنان، والذي يهيمن عليه الكائنات الحية اللاهوائية |
+| [12789143](https://pubmed.ncbi.nlm.nih.gov/12789143/) | 2003 | دراسة ميكروبيولوجية | Oral Surg Oral Med Oral Pathol | وصفت فلورا التهاب الحوائط حول الأسنان حول أسنان العقل السفلية؛ حدّدت نسبة ملحوظة من السلالات المنتجة لـ β-lactamase كمصدر قلق للمقاومة للبنسيلين البنزيلي |
+| [40381916](https://pubmed.ncbi.nlm.nih.gov/40381916/) | 2025 | دراسة المراقبة | J Infect Chemother | ثاني مراقبة وطنية للحساسية المضادة للميكروبات لعزلات العدوى السنية في اليابان، بما في ذلك مجموعة التهاب الحوائط حول الأسنان؛ تم الإبلاغ عن ملفات المقاومة المحدثة |
+| [26067725](https://pubmed.ncbi.nlm.nih.gov/26067725/) | 2015 | دراسة أفواج بأثر رجعي | J Contemp Dent Pract | حلّلت الانتشار والأنماط الديموغرافية وإدارة المضادات الحيوية للعدوى البكتيرية السنية في خدمة طوارئ طب الأسنان في مستشفى جامعي |
+| [36268928](https://pubmed.ncbi.nlm.nih.gov/36268928/) | 2022 | مراجعة سردية | Eur J Translat Myol | استعرضت اختيارات المضادات الحيوية للعدوى السنية الفموية أثناء الحمل؛ تم تسليط الضوء على البنسيللينات كخيار آمن من الخط الأول |
+| [29693642](https://pubmed.ncbi.nlm.nih.gov/29693642/) | 2018 | مراجعة سردية | Antibiotics (Basel) | استعرضت وصف المضادات الحيوية للعدوى الفموية الوجهية في المرضى الأطفال؛ وثقت أنماط الإفراط والاستخدام الخاطئ؛ توصي β-lactams كخط أول |
+| [21027620](https://pubmed.ncbi.nlm.nih.gov/21027620/) | 1946 | تقرير حالة تاريخي | Am J Orthod Oral Surg | تقرير حالة مبكر عن خراج تحت الفك نتيجة التهاب حوائط حول الأسنان الحادة الذي تمت معالجته بنجاح بسحب الإبرة والتطبيق المباشر للبنسيلين؛ إثبات تاريخي لمبدأ العمل |
 
-**Rationale:**
-The mechanistic basis for benzylpenicillin in pericoronitis is well-established — the primary causative organisms (Gram-positive streptococci, peptostreptococci, and strict anaerobes) lie within the drug's classical spectrum — and is corroborated by microbiological surveillance data, expert consensus, and observational evidence (L3). However, the absence of registered clinical trials, the presence of β-lactamase-producing strains in the pericoronitis flora, and the lack of SFDA market authorization require structured risk management before clinical deployment.
+---
 
-**To proceed, the following is needed:**
-- **Regulatory pathway assessment**: Determine whether benzylpenicillin can be imported or registered via SFDA's standard or expedited pathways for essential medicines
-- **Complete MOA and safety dossier**: Retrieve full mechanism of action data and package insert warnings/contraindications from DrugBank and original regulatory filings
-- **Local susceptibility mapping**: Obtain Saudi Arabia–specific antimicrobial susceptibility data for pericoronitis isolates to estimate the prevalence of β-lactamase-producing strains
-- **Combination therapy protocol**: Define whether benzylpenicillin should be paired with metronidazole for adequate anaerobic coverage, based on local resistance profiles
-- **Prospective clinical validation**: Design a registry study or controlled trial in Saudi Arabia to generate local efficacy and safety data before broad formulary adoption
+## معلومات سوق المملكة العربية السعودية
+
+لا يمتلك البنسيلين البنزيلي حالياً أي تراخيص SFDA وغير معروض في السوق في المملكة العربية السعودية.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع احتياطات**
+
+**المبررات:**
+إن الأساس الآلي للبنسيلين البنزيلي في التهاب الحوائط حول الأسنان راسخ بشكل جيد — الكائنات المسببة الأساسية (بكتيريا عقدية موجبة الجرام، وبيبتوستربتوكوكس، والبكتيريا اللاهوائية الصارمة) تقع ضمن الطيف الكلاسيكي للعقار — ويتم تأكيده بواسطة بيانات المراقبة الميكروبيولوجية والإجماع بين الخبراء والأدلة الرصدية (L3). ومع ذلك، فإن غياب التجارب السريرية المسجلة ووجود سلالات منتجة لـ β-lactamase في فلورا التهاب الحوائط حول الأسنان، وعدم وجود تراخيص سوق SFDA يتطلب إدارة مخاطر منظمة قبل النشر السريري.
+
+**للمضي قدماً، يلزم ما يلي:**
+- **تقييم المسار التنظيمي**: تحديد ما إذا كان يمكن استيراد البنسيلين البنزيلي أو تسجيله عبر مسارات SFDA القياسية أو الموسعة للأدوية الأساسية
+- **ملف آلية العمل والأمان الكامل**: استرجاع بيانات آلية العمل الكاملة وتحذيرات نشرة الدواء/موانع الاستعمال من DrugBank والإيداعات التنظيمية الأصلية
+- **رسم خرائط الحساسية المحلي**: الحصول على بيانات حساسية مضادة للميكروبات خاصة بالمملكة العربية السعودية لعزلات التهاب الحوائط حول الأسنان لتقدير معدل انتشار السلالات المنتجة لـ β-lactamase
+- **بروتوكول العلاج المركب**: تحديد ما إذا كان يجب إقران البنسيلين البنزيلي مع metronidazole لضمان تغطية لاهوائية كافية، بناءً على ملفات المقاومة المحلية
+- **التحقق السريري المستقبلي**: تصميم دراسة تسجيل أو تجربة محكومة في المملكة العربية السعودية لإنتاج بيانات الفعالية والأمان المحلية قبل الاعتماد الواسع على القوائم الدوائية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,113 +29,114 @@ indication_count: 2
 
 </div>
 
-# Trimethoprim: From Antibacterial Agent to Punctate Epithelial Keratoconjunctivitis
+# تريميثوبريم: من عامل مضاد للبكتيريا إلى التهاب القرنية والملتحمة النقطي الظهاري
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Trimethoprim is a dihydrofolate reductase (DHFR)-inhibiting antibacterial agent; detailed mechanism-of-action documentation for this candidate is currently unavailable (data gap). The TxGNN model's top-ranked prediction is efficacy in **Punctate Epithelial Keratoconjunctivitis** (score 99.57%), but this candidate currently has **zero supporting clinical trials or publications** — it is a pure model prediction. A second, closely-scored TxGNN prediction for the same drug, **Conjunctivitis** (score 99.17%), is far better supported, with **3 clinical trials** and **9 relevant publications** (out of 20 retrieved), including a completed Phase 4 RCT of the marketed trimethoprim/polymyxin B combination for bacterial conjunctivitis — this second indication is presented separately below because it materially changes the evidence picture for this drug.
+تريميثوبريم هو عامل مضاد للبكتيريا يثبط ديهيدروفولات ريدكتيز (DHFR)؛ التوثيق التفصيلي لآلية العمل لهذا المرشح غير متاح حالياً (فجوة بيانات). تنبؤ نموذج TxGNN الأعلى تصنيفاً هو الفعالية في **التهاب القرنية والملتحمة النقطي الظهاري** (درجة 99.57%)، لكن هذا المرشح حالياً لديه **صفر من التجارب السريرية أو المنشورات** — وهو تنبؤ نموذج محض. التنبؤ الثاني لنموذج TxGNN، بدرجة قريبة جداً، لنفس الدواء، **التهاب الملتحمة** (درجة 99.17%)، مدعوم بشكل أفضل بكثير، مع **3 تجارب سريرية** و **9 منشورات ذات صلة** (من أصل 20 منشورة تم استرجاعها)، بما في ذلك تجربة عشوائية محكومة من المرحلة الرابعة مكتملة للمنتج المسوق تريميثوبريم/بوليميكسين ب لالتهاب الملتحمة البكتيري — يتم تقديم هذا الاستطباب الثاني بشكل منفصل أدناه لأنه يغير بشكل جوهري صورة الأدلة لهذا الدواء.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available from Taiwan regulatory filings (drug not currently marketed in Taiwan; no license on file). Trimethoprim is internationally established as a synthetic antibacterial (DHFR inhibitor) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير متاح من الملفات التنظيمية التايوانية (الدواء غير مسوق حالياً في تايوان؛ لا توجد رخصة في الملف). تريميثوبريم معروف دولياً كعامل مضاد للبكتيريا الاصطناعي (مثبط DHFR) |
+| الاستطباب الجديد المتنبأ به | التهاب القرنية والملتحمة النقطي الظهاري |
+| درجة تنبؤ TxGNN | 99.57% |
+| مستوى الأدلة | L5 |
+| حالة السوق التايوانية | ✗ غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | تعليق |
 
-*Note: a second TxGNN prediction for this drug — Conjunctivitis — has a materially stronger evidence base (L1, "Proceed with Guardrails"). See the dedicated section below.*
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism-of-action data for trimethoprim is flagged as a data gap (DG002, High severity, source: DrugBank query pending). Based on generally known pharmacology, trimethoprim is a DHFR inhibitor that blocks bacterial folate synthesis and is used as an antibacterial agent; its established efficacy against susceptible bacteria has not been formally linked in this evidence pack to a specific original indication (Taiwan regulatory data returns no licenses).
-
-For **Punctate Epithelial Keratoconjunctivitis** specifically, the TxGNN score is high (0.9957) but the relationship to trimethoprim's known antibacterial mechanism is only theoretical. This condition is more commonly associated with viral (e.g., adenovirus) or atypical (e.g., chlamydial) pathogens for which trimethoprim lacks clear antimicrobial activity. No clinical trials or literature currently support this specific link — it should be treated as a hypothesis-generating signal only, not a validated pharmacological rationale.
+*ملاحظة: يحتوي تنبؤ ثاني لنموذج TxGNN لهذا الدواء — التهاب الملتحمة — على قاعدة أدلة أقوى بشكل جوهري (L1، "المتابعة مع الضمانات"). انظر القسم المخصص أدناه.*
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered.
+حالياً، يتم الإشارة إلى بيانات آلية العمل التفصيلية لتريميثوبريم كفجوة بيانات (DG002، خطورة عالية، المصدر: استعلام DrugBank قيد الانتظار). بناءً على الصيدلة المعروفة عموماً، تريميثوبريم هو مثبط DHFR يمنع تخليق الفولات البكتيري ويُستخدم كعامل مضاد للبكتيريا؛ لم يتم ربط فعاليته المثبتة ضد البكتيريا المعرضة رسمياً في حزمة الأدلة هذه بأي استطباب أصلي محدد (بيانات التنظيم التايواني لا تعيد أي رخص).
 
----
-
-## Literature Evidence
-
-Currently no related literature available.
+بخصوص **التهاب القرنية والملتحمة النقطي الظهاري** تحديداً، درجة TxGNN عالية (0.9957) لكن العلاقة بآلية تريميثوبريم المعروفة المضادة للبكتيريا نظرية فقط. يرتبط هذا الشرط بشكل أكثر شيوعاً بمسببات فيروسية (على سبيل المثال، فيروس الغدانيات) أو غير نمطية (على سبيل المثال، الكلاميديا) التي ينقصها تريميثوبريم النشاط المضاد للميكروبات الواضح. لا توجد تجارب سريرية أو أدبيات تدعم هذا الرابط المحدد حالياً — يجب أن يتم التعامل معه كإشارة توليدة للفرضيات فقط، وليس كأساس صيدلاني مثبت.
 
 ---
 
-## Second TxGNN Prediction: Conjunctivitis (Stronger Evidence Base)
+## أدلة التجارب السريرية
 
-Because this evidence pack contains a second predicted indication for trimethoprim with substantially more support, it is presented here in full for decision-making completeness.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-| Item | Content |
+---
+
+## أدلة الأدبيات
+
+حالياً لا توجد أدبيات ذات صلة متاحة.
+
+---
+
+## التنبؤ الثاني بنموذج TxGNN: التهاب الملتحمة (قاعدة أدلة أقوى)
+
+لأن حزمة الأدلة هذه تحتوي على استطباب ثاني متنبأ به لتريميثوبريم مع دعم أقوى بشكل جوهري، يتم تقديمه هنا بالكامل لاكتمال المقررات.
+
+| البند | المحتوى |
 |------|------|
-| Predicted New Indication | Conjunctivitis (disease) |
-| TxGNN Prediction Score | 99.17% |
-| Evidence Level | L1 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الجديد المتنبأ به | التهاب الملتحمة (المرض) |
+| درجة تنبؤ TxGNN | 99.17% |
+| مستوى الأدلة | L1 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
-**Mechanistic rationale:** Trimethoprim is a DHFR inhibitor with direct antibacterial activity against common conjunctivitis pathogens (*Haemophilus influenzae*, *Staphylococcus* spp., *Streptococcus* spp.). Clinically, the polymyxin B/trimethoprim combination (Polytrim) is already an approved topical treatment for bacterial conjunctivitis — this is a well-established use, not merely a model hypothesis.
+**الأساس الآلي:** تريميثوبريم هو مثبط DHFR بنشاط مضاد للبكتيريا مباشر ضد مسببات التهاب الملتحمة الشائعة (*Haemophilus influenzae*، *Staphylococcus* spp.، *Streptococcus* spp.). سريرياً، يعتبر المزيج بوليميكسين ب/تريميثوبريم (Polytrim) بالفعل معالجة موضعية معتمدة لالتهاب الملتحمة البكتيري — هذا استخدام راسخ جيداً، وليس مجرد فرضية نموذجية.
 
-### Clinical Trials
+### التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم المحاولة | المرحلة | الحالة | التوظيف | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00581542](https://clinicaltrials.gov/study/NCT00581542) | Phase 4 | Completed | 124 | Single-blind RCT directly comparing Polytrim (polymyxin B/trimethoprim) ophthalmic solution vs. moxifloxacin ophthalmic solution for pediatric conjunctivitis ("pink eye"); the most directly relevant efficacy evidence |
-| [NCT00168532](https://clinicaltrials.gov/study/NCT00168532) | Phase 3 | Completed | 218 | Community-based double-blind placebo-controlled RCT of prophylactic antibiotics in measles infection (Guinea-Bissau); evaluates broader complication prevention, only indirectly related to conjunctivitis treatment |
-| [NCT03187834](https://clinicaltrials.gov/study/NCT03187834) | Phase 4 | Completed | 252 | Antibiotic resistance and microbiome surveillance in children (Burkina Faso); background resistance data, not a conjunctivitis efficacy trial |
+| [NCT00581542](https://clinicaltrials.gov/study/NCT00581542) | المرحلة 4 | مكتملة | 124 | تجربة عشوائية محكومة من نوع أعمى واحد تقارن مباشرة محلول Polytrim (بوليميكسين ب/تريميثوبريم) العيني مقابل محلول موكسيفلوكساسين العيني لالتهاب الملتحمة عند الأطفال ("العين الوردية")؛ أكثر الأدلة الموثوقية ذات الصلة المباشرة |
+| [NCT00168532](https://clinicaltrials.gov/study/NCT00168532) | المرحلة 3 | مكتملة | 218 | تجربة عشوائية محكومة بالعقار الوهمي المزدوجة العمى على مستوى المجتمع من المضادات الحيوية الوقائية في عدوى الحصبة (غينيا بيساو)؛ تقيّم الوقاية الأوسع من المضاعفات، ذات صلة فقط بشكل غير مباشر بمعالجة التهاب الملتحمة |
+| [NCT03187834](https://clinicaltrials.gov/study/NCT03187834) | المرحلة 4 | مكتملة | 252 | المراقبة المقاومة للمضادات الحيوية والميكروبيوم عند الأطفال (بوركينا فاسو)؛ بيانات المقاومة الخلفية، ليست تجربة فعالية لالتهاب الملتحمة |
 
-### Literature
+### الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 | RCT (Multicenter) | J Pediatr Ophthalmol Strabismus | Compared speed of clinical efficacy of polymyxin B/trimethoprim vs. 0.5% moxifloxacin for bacterial conjunctivitis |
-| [6204534](https://pubmed.ncbi.nlm.nih.gov/6204534/) | 1984 | Clinical Trial | Am J Ophthalmol | Clinical evaluation of trimethoprim-containing ophthalmic solutions (with sulfacetamide or polymyxin B) for bacterial conjunctivitis/blepharitis |
-| [30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 | Systematic Review/Meta-analysis | J Pediatric Infect Dis Soc | Systematic review of antibiotic treatments, including trimethoprim, for neonatal chlamydial conjunctivitis |
-| [8595639](https://pubmed.ncbi.nlm.nih.gov/8595639/) | 1995 | Case Series/Survey | Clin Therapeutics | Survey of children with acute bacterial conjunctivitis treated with trimethoprim-polymyxin B ophthalmic solution |
-| [21988450](https://pubmed.ncbi.nlm.nih.gov/21988450/) | 2011 | Cohort/Epidemiology | Curr Eye Res | Analysis of nontypeable *S. pneumoniae* in sporadic bacterial conjunctivitis cases across prospective multicenter clinical studies |
-| [34943657](https://pubmed.ncbi.nlm.nih.gov/34943657/) | 2021 | Cohort | Antibiotics (Basel) | Clinical and molecular characteristics of MSSA ocular infection in Taiwan — local epidemiological relevance |
-| [16491721](https://pubmed.ncbi.nlm.nih.gov/16491721/) | 2006 | Review | J Pediatr Ophthalmol Strabismus | Guidance on controlling contagious bacterial conjunctivitis with antimicrobial agents |
-| [20084257](https://pubmed.ncbi.nlm.nih.gov/20084257/) | 2001 | Review | Paediatr Child Health | Review of etiology and management of acute infectious conjunctivitis in children |
-| [24892274](https://pubmed.ncbi.nlm.nih.gov/24892274/) | 2015 | Case Report | Ophthalmic Plast Reconstr Surg | Chronic conjunctivitis due to *Nocardia nova*, isolate sensitive to trimethoprim/sulfamethoxazole |
+| [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 | تجربة عشوائية محكومة (متعددة المراكز) | J Pediatr Ophthalmol Strabismus | قارنت سرعة الفعالية السريرية لبوليميكسين ب/تريميثوبريم مقابل 0.5% موكسيفلوكساسين لالتهاب الملتحمة البكتيري |
+| [6204534](https://pubmed.ncbi.nlm.nih.gov/6204534/) | 1984 | تجربة سريرية | Am J Ophthalmol | التقييم السريري لحلول عينية تحتوي على تريميثوبريم (مع سلفاسيتاميد أو بوليميكسين ب) لالتهاب الملتحمة البكتيري/التهاب الجفن |
+| [30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 | مراجعة منهجية/تحليل تلوي | J Pediatric Infect Dis Soc | مراجعة منهجية لمعالجات المضادات الحيوية، بما في ذلك تريميثوبريم، لالتهاب الملتحمة الكلاميدي الوليدي |
+| [8595639](https://pubmed.ncbi.nlm.nih.gov/8595639/) | 1995 | سلسلة حالات/مسح | Clin Therapeutics | مسح الأطفال الذين يعانون من التهاب الملتحمة البكتيري الحاد الذين عولجوا بمحلول عيني تريميثوبريم-بوليميكسين ب |
+| [21988450](https://pubmed.ncbi.nlm.nih.gov/21988450/) | 2011 | دراسة أتراب/علم الأوبئة | Curr Eye Res | تحليل *S. pneumoniae* غير النمطية في حالات التهاب الملتحمة البكتيري المتفرقة عبر الدراسات السريرية المستقبلية متعددة المراكز |
+| [34943657](https://pubmed.ncbi.nlm.nih.gov/34943657/) | 2021 | دراسة أتراب | Antibiotics (Basel) | الخصائص السريرية والجزيئية لعدوى MSSA العينية في تايوان — الصلة الوبائية المحلية |
+| [16491721](https://pubmed.ncbi.nlm.nih.gov/16491721/) | 2006 | مراجعة | J Pediatr Ophthalmol Strabismus | التوجيهات حول السيطرة على التهاب الملتحمة البكتيري المعدي بالعوامل المضادة للميكروبات |
+| [20084257](https://pubmed.ncbi.nlm.nih.gov/20084257/) | 2001 | مراجعة | Paediatr Child Health | مراجعة لمسببات وإدارة التهاب الملتحمة المعدي الحاد عند الأطفال |
+| [24892274](https://pubmed.ncbi.nlm.nih.gov/24892274/) | 2015 | تقرير حالة | Ophthalmic Plast Reconstr Surg | التهاب الملتحمة المزمن بسبب *Nocardia nova*، عزلة حساسة لتريميثوبريم/سلفاميثوكسازول |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Trimethoprim currently holds no drug license in Taiwan (market status: Not Marketed; 0 authorizations on file). No product/dosage-form data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: TFDA package insert warnings and contraindications are flagged as a **Blocking** data gap (DG001) — this must be resolved before a formal safety review (Stage S1) can be conducted for either predicted indication.
+تريميثوبريم حالياً لا يحتفظ برخصة دواء في تايوان (حالة السوق: غير مسوق؛ 0 تخويلات في الملف). لا توجد بيانات عن المنتج/شكل الجرعة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold** (for the primary prediction, Punctate Epithelial Keratoconjunctivitis)
+يرجى الرجوع إلى ورقة الحزمة للحصول على معلومات الأمان. ملاحظة: تحذيرات وموانع الاستخدام من ورقة الحزمة TFDA يتم الإشارة إليها كفجوة بيانات **حاجزة** (DG001) — يجب حل هذا قبل إجراء مراجعة أمان رسمية (المرحلة S1) لأي من الاستطبابات المتنبأ بها.
 
-**Rationale:**
-This is a pure TxGNN model prediction (L5) with no supporting clinical trials or literature, and only a theoretical mechanistic link to trimethoprim's antibacterial activity. It does not meet the bar for further investment at this time.
+---
 
-**For the secondary prediction (Conjunctivitis), an interim decision of "Proceed with Guardrails" is supportable** given one directly relevant completed Phase 4 RCT and multiple supporting publications — but this cannot advance past initial safety screening until the blocking TFDA data gap (DG001) is resolved.
+## الخلاصة والخطوات التالية
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — blocking gap, required for S1 safety review (DG001)
-- DrugBank-sourced mechanism-of-action confirmation (DG002)
-- If pursuing Punctate Epithelial Keratoconjunctivitis: targeted literature/trial search to establish any real-world basis before further evaluation
-- If pursuing Conjunctivitis: confirm whether existing trimethoprim/polymyxin B ophthalmic products (e.g., Polytrim) are relevant comparators for a Taiwan market entry strategy, since local licenses are currently absent
+**القرار: تعليق** (للتنبؤ الأساسي، التهاب القرنية والملتحمة النقطي الظهاري)
+
+**المبرر:**
+هذا تنبؤ نموذج TxGNN محض (L5) بدون أدلة سريرية داعمة أو أدبيات، وفقط رابط آلي نظري لنشاط تريميثوبريم المضاد للبكتيريا المعروف. لا يستوفي المعيار للاستثمار الإضافي في هذا الوقت.
+
+**بالنسبة للتنبؤ الثانوي (التهاب الملتحمة)، يمكن دعم قرار مؤقت من "المتابعة مع الضمانات"** بالنظر إلى تجربة عشوائية محكومة مكتملة من المرحلة الرابعة ذات صلة مباشرة ومنشورات داعمة متعددة — لكن هذا لا يمكن أن يتقدم بعد فحص الأمان الأولي حتى يتم حل فجوة البيانات الحاجزة TFDA (DG001).
+
+**للمتابعة، يلزم ما يلي:**
+- ورقة الحزمة TFDA (التحذيرات/موانع الاستخدام) — فجوة حاجزة، مطلوبة لمراجعة أمان المرحلة S1 (DG001)
+- تأكيد آلية العمل من مصدر DrugBank (DG002)
+- إذا سعيت إلى التهاب القرنية والملتحمة النقطي الظهاري: بحث أدبي/تجريبي موجه لإنشاء أي أساس في العالم الحقيقي قبل المزيد من التقييم
+- إذا سعيت إلى التهاب الملتحمة: تأكيد ما إذا كانت منتجات تريميثوبريم/بوليميكسين ب العينية الموجودة (على سبيل المثال، Polytrim) هي مقارنات ذات صلة لاستراتيجية دخول سوق تايوان، حيث أن الرخص المحلية غير متوفرة حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

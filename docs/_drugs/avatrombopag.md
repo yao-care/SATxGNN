@@ -29,81 +29,84 @@ indication_count: 10
 
 </div>
 
-# Avatrombopag: From Thrombocytopenia to Marcothrombocytopenia with Mitral Valve Insufficiency
+# أفاتروموبوباج: من قلة الصفيحات الدموية إلى قلة الصفيحات الكبيرة مع قصور الصمام التاجي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Avatrombopag is a thrombopoietin receptor agonist (TPO-RA) approved in multiple markets for thrombocytopenia associated with chronic liver disease and immune thrombocytopenia (ITP), though it is not currently authorized in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Marcothrombocytopenia with Mitral Valve Insufficiency** — a rare condition characterized by large-platelet thrombocytopenia concurrent with cardiac valve disease.
-This prediction is supported by **0 clinical trials** and **0 publications** specific to this indication, making it a pure model-generated hypothesis requiring prospective research.
+أفاتروموبوباج هو ناهض لمستقبل الثروموبويتين (TPO-RA) معتمد في أسواق متعددة لقلة الصفيحات الدموية المرتبطة بأمراض الكبد المزمنة واضطراب الصفيحات المناعي (ITP)، على الرغم من عدم كونه معتمداً حالياً في المملكة العربية السعودية.
 
----
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **قلة الصفيحات الكبيرة مع قصور الصمام التاجي** — حالة نادرة تتميز بنقص الصفيحات ذات الحجم الكبير المتزامن مع أمراض صمام القلب.
 
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Thrombocytopenia (chronic liver disease / immune thrombocytopenia) — no Saudi Arabia authorization on record |
-| Predicted New Indication | Marcothrombocytopenia with Mitral Valve Insufficiency |
-| TxGNN Prediction Score | 99.9954% |
-| Evidence Level | L5 — Model prediction only, no clinical or published studies |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+يتم دعم هذا التنبؤ بـ **0 تجارب سريرية** و **0 منشورات** محددة لهذا الاستطباب، مما يجعله فرضية توليدية نموذجية بحتة تتطلب بحثاً استشرافياً.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, Avatrombopag belongs to the thrombopoietin receptor agonist (TPO-RA) class — the same class as eltrombopag and romiplostim. It acts by binding to and activating the TPO receptor (c-Mpl) on megakaryocytes, stimulating their proliferation and differentiation to increase platelet production. Its efficacy in platelet-count-deficient states has been demonstrated in pivotal trials for chronic liver disease–associated thrombocytopenia and chronic ITP.
-
-Marcothrombocytopenia (macro-thrombocytopenia) refers to a subtype of thrombocytopenia characterized by abnormally large platelets alongside reduced platelet counts. Many forms arise from impaired megakaryocyte maturation or dysregulated thrombopoiesis — precisely the pathway where TPO-RA therapy exerts its effect. This mechanistic overlap provides a biologically plausible rationale for TxGNN's high-confidence score: the model likely identified the shared thrombopoiesis node in the knowledge graph.
-
-However, the co-occurring **mitral valve insufficiency** component of this disease entity has no known mechanistic connection to avatrombopag's pharmacology — it is most likely a comorbidity descriptor rather than a drug target. The prediction should therefore be interpreted narrowly: avatrombopag may address the thrombocytopenic component of this syndrome, but cardiac valve disease would require separate management. Any translational research would need to confirm which molecular subtype of marcothrombocytopenia is involved and whether TPO-RA stimulation is appropriate or potentially harmful (e.g., risk of thromboembolism in valve disease patients).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for avatrombopag in marcothrombocytopenia with mitral valve insufficiency.
+| العنصر | المحتوى |
+|--------|----------|
+| الاستطباب الأصلي | قلة الصفيحات الدموية (أمراض الكبد المزمنة / اضطراب الصفيحات المناعي) — لا توجد تصاريح للمملكة العربية السعودية في السجل |
+| الاستطباب الجديد المتوقع | قلة الصفيحات الكبيرة مع قصور الصمام التاجي |
+| درجة التنبؤ لـ TxGNN | 99.9954% |
+| مستوى الأدلة | L5 — تنبؤ نموذجي فقط، لا توجد دراسات سريرية أو منشورات |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | احجز |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available for avatrombopag in marcothrombocytopenia with mitral valve insufficiency.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في هذه الحزمة الأدلة. بناءً على الصيدلة المعروفة، ينتمي أفاتروموبوباج إلى فئة ناهضات مستقبل الثروموبويتين (TPO-RA) — نفس الفئة من إلتروموباج وروميبلوستيم. يعمل من خلال الارتباط بتفعيل مستقبل الثروموبويتين (c-Mpl) على الخلايا الضخمة النواة، مما يحفز تكاثرها وتمايزها لزيادة إنتاج الصفيحات الدموية. تم إثبات فعاليته في حالات نقص الصفيحات الدموية في التجارب المحورية لقلة الصفيحات المرتبطة بأمراض الكبد المزمنة والـ ITP المزمن.
 
----
+يشير نقص الصفيحات الكبيرة إلى نوع فرعي من قلة الصفيحات الدموية يتميز بصفيحات دموية غير طبيعية كبيرة الحجم إلى جانب تعداد صفيحات منخفض. تنشأ العديد من الأشكال من النضج الضعيف للخلايا الضخمة النواة أو تكوين الدم غير المنتظم — وهي بالضبط المسارات حيث تمارس العلاجات بـ TPO-RA تأثيرها. يوفر هذا التداخل الآلي منطقاً بيولوجياً معقولاً لدرجة الثقة العالية جداً من TxGNN: من المحتمل أن يكون النموذج قد حدد عقدة تكوين الصفيحات المشتركة في الرسم البياني للمعرفة.
 
-## Saudi Arabia Market Information
-
-Avatrombopag has no authorized products registered with the Saudi Food and Drug Authority (SFDA). No license data is available.
+ومع ذلك، فإن مكون **قصور الصمام التاجي** المتزامن لهذا الكيان المرضي لا يوجد له أي اتصال آلي معروف بصيدلة أفاتروموبوباج — من المحتمل جداً أن يكون وصفاً لأمراض مصاحبة بدلاً من هدف دوائي. يجب تفسير التنبؤ بطريقة ضيقة: قد يعالج أفاتروموبوباج المكون الناقص للصفيحات من هذه المتلازمة، لكن أمراض صمام القلب ستتطلب إدارة منفصلة. سيتعين على أي بحث انتقالي تأكيد النوع الفرعي الجزيئي المحدد لنقص الصفيحات الكبيرة وما إذا كان تحفيز TPO-RA مناسباً أم قد يكون ضاراً (مثل خطر الأحداث الخثاروية في مرضى أمراض الصمام).
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-> **Note for clinical teams:** Avatrombopag carries a class-level risk of thromboembolic events common to all TPO-RAs. This concern is particularly relevant for the predicted indication, where the co-existing mitral valve insufficiency may create an elevated baseline thrombotic risk. Any prospective use would require careful benefit-risk assessment and dedicated cardiovascular monitoring.
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة لأفاتروموبوباج في قلة الصفيحات الكبيرة مع قصور الصمام التاجي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات الطبية
 
-**Decision: Hold**
+لا توجد حالياً أدبيات طبية مرتبطة متاحة لأفاتروموبوباج في قلة الصفيحات الكبيرة مع قصور الصمام التاجي.
 
-**Rationale:**
-This is an L5 prediction — no clinical trials, no published literature, and no regulatory approval in Saudi Arabia exist for this indication. While the TPO-RA mechanism has a plausible biological link to the thrombocytopenic component of marcothrombocytopenia, the cardiac comorbidity dimension introduces a safety complexity that has not been studied, and the disease entity itself is extremely rare.
+---
 
-**To proceed, the following is needed:**
+## معلومات سوق المملكة العربية السعودية
 
-- **MOA documentation:** Obtain full DrugBank and package insert data to formally confirm mechanism of action and contraindication profile
-- **Safety data gap resolution:** Retrieve SFDA/FDA package insert to assess key warnings and contraindications (currently all Data Gap — DG001 is Blocking severity)
-- **Disease subtype stratification:** Identify specific molecular subtypes of marcothrombocytopenia where TPO-RA stimulation is biologically appropriate (e.g., MYH9-related disease vs. GPIb deficiency)
-- **Thromboembolic risk assessment:** Evaluate whether the presence of mitral valve insufficiency constitutes a contraindication to TPO-RA use in this population
-- **Rare disease expert consultation:** Engage hematology and cardiology specialists to assess feasibility of a prospective case series or registry study
-- **Saudi Arabia regulatory pathway:** Confirm whether an import/compassionate use pathway exists prior to any clinical evaluation, given zero current SFDA authorizations
+ليس لأفاتروموبوباج منتجات معتمدة مسجلة لدى الهيئة العامة للغذاء والدواء (SFDA). لا تتوفر بيانات الترخيص.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+> **ملاحظة لفرق العمل السريري:** يحمل أفاتروموبوباج خطر الأحداث الخثاروية على مستوى الفئة شائعة بين جميع ناهضات TPO-RA. هذا الاهتمام ذو صلة خاصة للاستطباب المتوقع، حيث قد يخلق قصور الصمام التاجي المتزامن خطراً أساسياً مرتفعاً للأحداث الخثاروية. سيتطلب أي استخدام استشرافي تقييماً دقيقاً للمنفعة والمخاطر ومراقبة قلبية وعائية متخصصة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احجز**
+
+**الأساس المنطقي:**
+هذا تنبؤ من مستوى L5 — لا توجد تجارب سريرية أو منشورات أدبية، ولا موافقة تنظيمية في المملكة العربية السعودية لهذا الاستطباب. بينما يوجد ارتباط بيولوجي معقول لآلية TPO-RA بالمكون الناقص للصفيحات من قلة الصفيحات الكبيرة، فإن بُعد المرض القلبي المصاحب يقدم تعقيداً في السلامة لم يتم دراسته، والكيان المرضي نفسه نادر جداً.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **توثيق آلية العمل:** الحصول على بيانات DrugBank الكاملة والنشرة الداخلية لتأكيد رسمي لآلية العمل وملف موانع الاستخدام (حالياً جميع فجوات البيانات — DG001 ذات شدة حاجبة)
+- **حل فجوة بيانات السلامة:** استرجاع النشرة الداخلية لـ SFDA/FDA لتقييم التحذيرات الرئيسية وموانع الاستخدام
+- **تقسيم نوع المرض:** تحديد الأنواع الفرعية الجزيئية المحددة لنقص الصفيحات الكبيرة حيث يكون تحفيز TPO-RA مناسباً بيولوجياً (مثل أمراض MYH9 مقابل نقص GPIb)
+- **تقييم خطر الأحداث الخثاروية:** تقييم ما إذا كان وجود قصور الصمام التاجي يشكل موانع لاستخدام TPO-RA في هذه الفئة السكانية
+- **استشارة خبير الأمراض النادرة:** التعاون مع متخصصي أمراض الدم وأمراض القلب لتقييم جدوى سلسلة حالات استشرافية أو دراسة السجل
+- **المسار التنظيمي بالمملكة العربية السعودية:** تأكيد ما إذا كان مسار الاستيراد أو الاستخدام الرحيم متاحاً قبل أي تقييم سريري، نظراً لعدم وجود موافقات SFDA حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

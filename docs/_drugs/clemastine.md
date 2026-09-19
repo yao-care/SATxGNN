@@ -29,94 +29,89 @@ indication_count: 6
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline management and deployment — not directly applicable to report generation here. Proceeding with the Evidence Pack report.
+# كليماستين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+
+## ملخص الجملة الواحدة
+
+كليماستين (Tavegyl®) هو مضاد هستامين H₁ من الجيل الأول يُستخدم تقليديًا لالتهاب الأنف التحسسي وردود الفعل التحسسية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للشرى التحسسي بدرجة ثقة قريبة من المثالية، مدعومًا بـ 1 تجربة إكلينيكية من المرحلة Phase 2 مكتملة و 13 منشورًا في هذا الاتجاه.
 
 ---
 
-# Clemastine: From Allergic Rhinitis to Allergic Urticaria
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Clemastine (Tavegyl®) is a first-generation H₁-receptor antihistamine classically used for allergic rhinitis and hypersensitivity reactions.
-The TxGNN model predicts it may be effective for **Allergic Urticaria** with a near-perfect confidence score,
-supported by **1 completed Phase 2 clinical trial** and **13 publications** in this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Allergic rhinitis and hypersensitivity reactions (no Saudi Arabia authorization on record) |
-| Predicted New Indication | Allergic Urticaria |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | التهاب الأنف التحسسي وردود الفعل التحسسية (لا يوجد تفويض من المملكة العربية السعودية في السجلات) |
+| الاستطباب الجديد المتنبأ به | الشرى التحسسي |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | المضي قدمًا مع الضوابط الحمائية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the DrugBank query. Based on known information, clemastine is a first-generation H₁-receptor competitive antagonist — it directly blocks histamine binding to H₁ receptors on vascular endothelium and sensory nerve endings, inhibiting the downstream cascade of mast cell degranulation that produces vasodilation, increased vascular permeability, pruritus, and wheal formation. This is the core pharmacological pathway through which all antihistamines act in urticaria.
+حاليًا، بيانات آلية العمل المفصلة غير متاحة من استعلام DrugBank. بناءً على المعلومات المعروفة، كليماستين هو معارض تنافسي لمستقبلات H₁ من الجيل الأول — يحجب بشكل مباشر ارتباط الهستامين بمستقبلات H₁ على البطانة الوعائية وأطراف الأعصاب الحسية، مما يثبط السلسلة اللاحقة لتنشيط الخلايا البدينة التي تؤدي إلى توسع الأوعية، وزيادة نفاذية الأوعية الدموية، والحكة، وتشكيل الوذمات الجلدية. هذا هو المسار الدوائي الأساسي الذي تعمل من خلاله جميع مضادات الهستامين في الشرى.
 
-Allergic urticaria is driven by IgE-mediated (or occasionally non-immunological) mast cell activation that releases histamine as its primary mediator. The mechanistic link between H₁ antagonism and urticaria symptom control is one of the most well-established relationships in clinical pharmacology, validated across five decades of comparative trials. Clemastine consistently served as the active reference comparator in head-to-head studies against loratadine, acrivastine, astemizole, and terfenadine — confirming it as a benchmark standard of care, not a new experimental agent.
+يُدفع الشرى التحسسي بتنشيط الخلايا البدينة (الموسط بـ IgE أو في بعض الأحيان غير المناعي) الذي يحرر الهستامين كوسيط أساسي. الارتباط الآلي بين معارضة H₁ والتحكم في أعراض الشرى هو أحد أكثر العلاقات المعروفة والموثقة في الصيدلة الإكلينيكية، موثق عبر خمسة عقود من التجارب المقارنة. عمل كليماستين بشكل مستمر كمقارنة مرجعية نشطة في دراسات الرأس برأس ضد لوراتادين، أكريفاستين، أستيميزول، وترفينادين — مما يؤكد أنه معيار رعاية قياسي، وليس عاملاً تجريبيًا جديدًا.
 
-A 2025 review (Soni & Kaur, *Naunyn-Schmiedeberg's Archives of Pharmacology*) further underscores that clemastine is gaining renewed research interest beyond antihistaminergic properties — including remyelination via M1 muscarinic receptor antagonism and potential anti-tumor activity — but for urticaria specifically, the mechanistic rationale is direct, strong, and fully validated by existing literature.
+تؤكد مراجعة 2025 (Soni & Kaur، *Naunyn-Schmiedeberg's Archives of Pharmacology*) بشكل أكبر أن كليماستين يكتسب اهتمامًا بحثيًا متجددًا يتجاوز خصائص مضادات الهستامين — بما في ذلك إعادة التميلن عبر معارضة مستقبلات M1 الموسكارينية والنشاط المضاد للأورام المحتمل — لكن بالنسبة للشرى على وجه التحديد، الأساس الآلي مباشر وقوي وموثق بالكامل من خلال الأدبيات الموجودة.
 
 ---
 
-## Clinical Trial Evidence
+## دليل تجارب الدراسات السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01154361](https://clinicaltrials.gov/study/NCT01154361) | Phase 2 | Completed | N/A | Multicenter, randomized, double-blind proof-of-concept study comparing subcutaneous icatibant versus a historical standard-therapy cohort treated with methylprednisolone 250 mg + **clemastine 2 mg** in ACE inhibitor–induced angioedema with urticaria. Clemastine formed the core of the active standard-of-care comparator arm, directly confirming its frontline clinical role in acute allergic angioedema/urticaria. |
+| [NCT01154361](https://clinicaltrials.gov/study/NCT01154361) | Phase 2 | مكتملة | N/A | دراسة متعددة المراكز، عشوائية، عمياء مزدوجة حول إثبات المفهوم تقارن icatibant تحت الجلد مقابل مجموعة معايير تاريخية تعالج بـ methylprednisolone 250 mg + **clemastine 2 mg** في الوذمة الحادة الناجمة عن مثبطات ACE مع الشرى. شكل كليماستين جزءًا أساسيًا من ذراع مقارنة الرعاية النشطة القياسية، مما يؤكد مباشرة دوره الإكلينيكي في الخط الأول في الوذمة الحادة التحسسية/الشرى. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [40055203](https://pubmed.ncbi.nlm.nih.gov/40055203/) | 2025 | Review | Naunyn-Schmiedeberg's Arch Pharmacol | Patent landscape review (2015–2024) confirming clemastine's established use in allergic rhinitis and urticaria while identifying emerging therapeutic frontiers in neurodegeneration and oncology |
-| [6119852](https://pubmed.ncbi.nlm.nih.gov/6119852/) | 1981 | Clinical / Comparative | Wisconsin Medical Journal | Direct patient evaluation of clemastine fumarate in allergic diseases; comparative assessment against other antihistamines |
-| [2873823](https://pubmed.ncbi.nlm.nih.gov/2873823/) | 1986 | Observational / Cohort | Asian Pac J Allergy Immunol | 142 paediatric urticaria patients; 56.3% had prior urticaria history; antihistamines including clemastine used as standard treatment; half had associated angioedema |
-| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review | Drugs | Acrivastine vs. clemastine RCT data in seasonal allergic rhinitis and chronic urticaria — acrivastine found similar in efficacy to clemastine, confirming clemastine as active benchmark |
-| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | Review | Drugs | Large controlled trials of loratadine vs. clemastine in urticaria; loratadine shown as effective as clemastine — further validates clemastine's established efficacy standard |
-| [2523301](https://pubmed.ncbi.nlm.nih.gov/2523301/) | 1989 | Review | Drugs | Preliminary loratadine review; loratadine (10 mg once daily) found superior to placebo and comparable to clemastine in chronic urticaria |
-| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review | Z Hautkrankheiten | 39-trial analysis (>2,300 patients) showing astemizole superior to classical antihistamines including clemastine, terfenadine, and ketotifen in chronic urticaria — positions clemastine within the urticaria antihistamine hierarchy |
-| [30838475](https://pubmed.ncbi.nlm.nih.gov/30838475/) | 2019 | Case Report | Drug Safety - Case Reports | Anaphylactic reaction with systemic urticaria and facial oedema — patient treated with **clemastine + prednisone**, full recovery documented; confirms clemastine's real-world frontline use |
-| [4152119](https://pubmed.ncbi.nlm.nih.gov/4152119/) | 1971 | Clinical Study | Therapia Hungarica | Early clinical evaluation of clemastine (Tavegyl®) in allergic diseases; one of the foundational efficacy studies |
-| [40456207](https://pubmed.ncbi.nlm.nih.gov/40456207/) | 2025 | Case Report | J Neurosurg Case Lessons | Intraoperative anaphylaxis managed with clemastine; illustrates continued frontline clinical use in acute allergic emergencies as of 2025 |
+| [40055203](https://pubmed.ncbi.nlm.nih.gov/40055203/) | 2025 | مراجعة | Naunyn-Schmiedeberg's Arch Pharmacol | مراجعة المناظر الطبيعية براءات الاختراع (2015–2024) التي تؤكد الاستخدام المعروف لكليماستين في التهاب الأنف التحسسي والشرى مع تحديد المجالات العلاجية الناشئة في التنكس العصبي والأورام |
+| [6119852](https://pubmed.ncbi.nlm.nih.gov/6119852/) | 1981 | إكلينيكي / مقارنة | Wisconsin Medical Journal | التقييم المباشر للمريض لفومارات كليماستين في الأمراض التحسسية؛ التقييم المقارن ضد مضادات الهستامين الأخرى |
+| [2873823](https://pubmed.ncbi.nlm.nih.gov/2873823/) | 1986 | مراقبة / مجموعة | Asian Pac J Allergy Immunol | 142 مريض شرى عند الأطفال؛ 56.3% كان لديهم سجل شرى سابق؛ مضادات الهستامين بما في ذلك كليماستين المستخدمة كعلاج قياسي؛ نصفهم كان لديهم وذمة حادة مرتبطة |
+| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | مراجعة | Drugs | بيانات التجربة العشوائية المضبوطة الأكريفاستين مقابل كليماستين في التهاب الأنف التحسسي الموسمي والشرى المزمن — ثبت أن الأكريفاستين متشابه في الفعالية مع كليماستين، مما يؤكد كليماستين كمرجع نشط |
+| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | مراجعة | Drugs | دراسات محكومة كبيرة للوراتادين مقابل كليماستين في الشرى؛ ثبت أن لوراتادين فعال مثل كليماستين — يعزز بشكل أكبر معيار فعالية كليماستين المعروف |
+| [2523301](https://pubmed.ncbi.nlm.nih.gov/2523301/) | 1989 | مراجعة | Drugs | مراجعة لوراتادين الأولية؛ لوراتادين (10 mg مرة واحدة يوميًا) ثبت أنه أفضل من الدواء الوهمي ومقارن مع كليماستين في الشرى المزمن |
+| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | مراجعة | Z Hautkrankheiten | تحليل 39 تجربة (> 2,300 مريض) يوضح أن أستيميزول أفضل من مضادات الهستامين الكلاسيكية بما في ذلك كليماستين، ترفينادين، وكيتوتيفين في الشرى المزمن — يضع كليماستين ضمن التسلسل الهرمي لمضادات الهستامين في الشرى |
+| [30838475](https://pubmed.ncbi.nlm.nih.gov/30838475/) | 2019 | تقرير حالة | Drug Safety - Case Reports | رد فعل الحساسية المفرطة مع الشرى المنتشر وتورم الوجه — عالج المريض بـ **clemastine + prednisone**، التعافي الكامل موثق؛ يؤكد الاستخدام الواقعي في الخط الأول لكليماستين |
+| [4152119](https://pubmed.ncbi.nlm.nih.gov/4152119/) | 1971 | دراسة إكلينيكية | Therapia Hungarica | التقييم الإكلينيكي المبكر لكليماستين (Tavegyl®) في الأمراض التحسسية؛ واحدة من دراسات الفعالية التأسيسية |
+| [40456207](https://pubmed.ncbi.nlm.nih.gov/40456207/) | 2025 | تقرير حالة | J Neurosurg Case Lessons | الحساسية المفرطة داخل العملية تعالج بـ كليماستين؛ يوضح الاستخدام الإكلينيكي في الخط الأول المستمر في حالات الطوارئ التحسسية الحادة اعتبارًا من 2025 |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Clemastine is currently **not marketed** in Saudi Arabia. No SFDA authorizations are on record as of the data cutoff (2026-06-16). This report therefore evaluates the feasibility of pursuing an initial SFDA registration, with allergic urticaria as the primary target indication.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. SFDA label warnings and contraindication data were not retrievable in this data cycle, representing a blocking gap that must be resolved before a formal safety evaluation can proceed.
+كليماستين غير مسوق حاليًا في المملكة العربية السعودية. لا توجد تفاويضات من الهيئة السعودية للدواءات في السجلات اعتبارًا من قطع البيانات (2026-06-16). يقيّم هذا التقرير بالتالي جدوى متابعة تسجيل أولي من الهيئة السعودية للدواءات، مع الشرى التحسسي كاستطباب هدف أساسي.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. بيانات تحذيرات التسمية من الهيئة السعودية للدواءات وبيانات موانع الاستعمال لم تكن قابلة للاسترجاع في دورة البيانات هذه، مما يمثل فجوة حاجزة يجب حلها قبل أن تتمكن تقييم السلامة الرسمي من المضي قدمًا.
 
-**Rationale:**
-Clemastine has a direct, well-validated mechanistic link to allergic urticaria through H₁ receptor antagonism, confirmed over five decades of comparative clinical trials that consistently used clemastine as the active reference standard. The completed Phase 2 trial (NCT01154361) further documents its use in acute allergic angioedema/urticaria management. While not currently registered in Saudi Arabia, the global efficacy and safety record is extensive.
+---
 
-**To proceed, the following is needed:**
-- **Resolve blocking data gap**: Obtain full SFDA (or equivalent EMA/FDA) package insert to extract warnings, contraindications, and drug–drug interactions
-- **Confirm MOA from DrugBank API**: Retrieve full pharmacodynamic and pharmacokinetic profile to complete mechanism-of-action analysis
-- **Regulatory pathway scoping**: Determine whether an abbreviated SFDA registration pathway is available based on existing EMA/FDA approvals
-- **Market positioning analysis**: Map the second-generation antihistamine landscape in Saudi Arabia (loratadine, cetirizine, fexofenadine) to define the clinical niche for a first-generation agent
-- **Sedation risk assessment**: Evaluate the CNS sedation profile of first-generation antihistamines in the context of Saudi Arabia prescribing practices and occupational driving guidelines
+## الاستنتاج والخطوات التالية
+
+**القرار: المضي قدمًا مع الضوابط الحمائية**
+
+**الأساس المنطقي:**
+يمتلك كليماستين ارتباطًا مباشرًا وموثقًا بشكل جيد من حيث الآلية مع الشرى التحسسي من خلال معارضة مستقبلات H₁، موثق عبر خمسة عقود من التجارب السريرية المقارنة التي استخدمت بشكل مستمر كليماستين كمعيار مرجعي نشط. التجربة المكتملة من المرحلة Phase 2 (NCT01154361) توثق بشكل إضافي استخدامه في إدارة الوذمة الحادة التحسسية/الشرى. بينما غير مسجل حاليًا في المملكة العربية السعودية، السجل العالمي للفعالية والسلامة واسع.
+
+**للمضي قدمًا، يلزم ما يلي:**
+- **حل فجوة البيانات الحاجزة**: الحصول على نشرة الحزمة الكاملة من الهيئة السعودية للدواءات (أو من EMA/FDA المعادلة) لاستخراج التحذيرات وموانع الاستعمال والتفاعلات بين الأدوية
+- **تأكيد آلية العمل من DrugBank API**: استرجاع الملف الصيدلاني الديناميكي والحرائك الدوائي الكامل لإكمال تحليل آلية العمل
+- **تحديد نطاق المسار التنظيمي**: تحديد ما إذا كان مسار تسجيل مختصر من الهيئة السعودية للدواءات متاحًا بناءً على الموافقات الموجودة من EMA/FDA
+- **تحليل تحديد المكان في السوق**: رسم خريطة لمناظر مضادات الهستامين من الجيل الثاني في المملكة العربية السعودية (لوراتادين، سيتيريزين، فيكسوفينادين) لتعريف المكانة الإكلينيكية للعامل من الجيل الأول
+- **تقييم مخاطر الاكتئاب العصبي**: تقييم الملف الشخصي لتثبيط الجهاز العصبي المركزي لمضادات الهستامين من الجيل الأول في سياق ممارسات وصف الأدوية بالمملكة العربية السعودية وإرشادات القيادة المهنية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

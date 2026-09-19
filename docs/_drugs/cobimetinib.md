@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-# Cobimetinib: From BRAF-Mutant Melanoma to Amyotrophic Lateral Sclerosis
+# كوبيميتينيب: من الورم الميلانيني BRAF-Mutant إلى التصلب الجانبي الضموري
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Cobimetinib is an oral MEK1/2 inhibitor approved in the US and EU for BRAF V600E/K-mutant unresectable or metastatic melanoma in combination with vemurafenib.
-The TxGNN model predicts it may have therapeutic potential in **Amyotrophic Lateral Sclerosis (ALS)**, supported by a plausible MEK/ERK pathway neuroprotection hypothesis.
-Currently, **no clinical trials and no published literature** document this repurposing direction, placing evidence at the lowest tier (L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | BRAF V600E/K-mutant unresectable or metastatic melanoma (in combination with vemurafenib) |
-| Predicted New Indication | Amyotrophic Lateral Sclerosis (ALS) |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L5 — Model prediction only, no clinical or preclinical studies retrieved |
-| Saudi Arabia Market Status | Not Marketed (0 registered authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+كوبيميتينيب هو مثبط MEK1/2 فموي معتمد في الولايات المتحدة والاتحاد الأوروبي لعلاج الورم الميلانيني غير القابل للاستئصال أو المنتشر BRAF V600E/K-mutant بالاشتراك مع vemurafenib.
+يتوقع نموذج TxGNN أن يكون له إمكانية علاجية في **التصلب الجانبي الضموري (ALS)**، مدعوماً بفرضية معقولة بيولوجياً لحماية الأعصاب عبر مسار MEK/ERK.
+حالياً، **لا توجد تجارب سريرية ولا أدبيات منشورة** توثق هذا الاتجاه لإعادة توظيف الدواء، مما يضع الأدلة في أدنى مستوى (L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Cobimetinib is a selective, potent inhibitor of MEK1 and MEK2 kinases — core components of the RAS–RAF–MEK–ERK signaling cascade. This pathway governs cell proliferation, survival, and stress response. In BRAF-mutant melanoma, constitutive MEK/ERK hyperactivation drives tumor growth; cobimetinib suppresses this oncogenic signal. Its proven target engagement and favorable oral bioavailability make it pharmacologically attractive as a backbone for repurposing.
-
-The mechanistic case for ALS centers on evidence that dysregulated MEK/ERK signaling contributes to neurodegeneration. TDP-43 proteinopathy — present in ~97% of ALS cases — can pathologically activate MAPK cascades, potentially amplifying neuroinflammation and accelerating motor neuron apoptosis. In this context, MEK inhibition may dampen microglial-mediated inflammatory responses and reduce downstream pro-apoptotic signaling in vulnerable motor neurons, offering a neuroprotective rationale.
-
-However, a critical pharmacological barrier must be prospectively addressed: cobimetinib's blood-brain barrier (BBB) penetration is not well characterized for neurological indications. CNS drug exposure is a prerequisite for any centrally-acting therapy. Without confirmed BBB penetration and adequate target engagement in the spinal cord and motor cortex, the mechanistic hypothesis — however biologically coherent — cannot be assumed to translate into clinical efficacy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Cobimetinib in amyotrophic lateral sclerosis.
+| البند | المحتوى |
+|---|---|
+| المؤشر الأصلي | الورم الميلانيني غير القابل للاستئصال أو المنتشر BRAF V600E/K-mutant (بالاشتراك مع vemurafenib) |
+| المؤشر الجديد المتنبأ به | التصلب الجانبي الضموري (ALS) |
+| درجة تنبؤ TxGNN | 99.73% |
+| مستوى الأدلة | L5 — تنبؤ نموذجي فقط، لم يتم استرجاع أي دراسات سريرية أو سابقة للسريرية |
+| حالة السوق في المملكة العربية السعودية | غير معروّض (0 تصاريح مسجلة) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | سؤال بحثي |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available for Cobimetinib in amyotrophic lateral sclerosis.
+كوبيميتينيب هو مثبط انتقائي وقوي لـ kinases MEK1 و MEK2 — مكونات أساسية في مسار إشارات RAS–RAF–MEK–ERK. يتحكم هذا المسار في تكاثر الخلايا والبقاء والاستجابة للإجهاد. في الورم الميلانيني BRAF-mutant، يؤدي فرط التنشيط المستمر لـ MEK/ERK إلى نمو الورم؛ يثبط كوبيميتينيب هذه الإشارة الورمية. إن الارتباط الهدفي المثبت والتوافر الحيوي الفموي الملائم يجعلها جذابة صيدلانياً كأساس لإعادة التوظيف.
 
----
+تتمركز القضية الآلية لـ ALS حول أدلة على أن الإشارات غير المنظمة لـ MEK/ERK تساهم في التنكس العصبي. تُعتبر بروتينية TDP-43 — الموجودة في ~97% من حالات ALS — قادرة على تنشيط مسارات MAPK بشكل مرضي، مما قد يؤدي إلى تضخيم الالتهاب العصبي وتسريع موت الخلايا العصبية الحركية. في هذا السياق، قد يخفف مثبط MEK من الاستجابات الالتهابية الوسيطة بالخلايا الدبقية وتقليل الإشارات المؤيدة لموت الخلايا المبرمج في الخلايا العصبية الحركية الضعيفة، مما يوفر منطقاً للحماية العصبية.
 
-## Saudi Arabia Market Information
-
-Cobimetinib is not currently registered or marketed in Saudi Arabia. No product authorizations were found in the regulatory query (0 licenses, query date: 2026-03-29).
+ومع ذلك، يجب التعامل مع حاجز صيدلاني حرج بشكل استباقي: لم يتم توصيف اختراق كوبيميتينيب لحاجز الدم الدماغي (BBB) بشكل جيد للمؤشرات العصبية. التعرض الدوائي للجهاز العصبي المركزي (CNS) هو شرط مسبق لأي علاج يعمل بشكل مركزي. بدون تأكيد اختراق BBB والارتباط الهدفي الكافي في الحبل الشوكي والقشرة الحركية، لا يمكن افتراض أن الفرضية الآلية — مهما كانت متماسكة بيولوجياً — ستترجم إلى فعالية سريرية.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-Cobimetinib is classified as an antineoplastic agent (targeted therapy for melanoma); this section applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective MEK1/2 kinase inhibitor (small-molecule; not conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate (anemia is reported; severe neutropenia or thrombocytopenia are uncommon compared to cytotoxic chemotherapy) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential; liver function tests (ALT/AST — hepatotoxicity risk); creatine kinase (CK — myopathy/rhabdomyolysis risk); ophthalmic evaluation (serous retinopathy, retinal vein occlusion); cardiac monitoring (ejection fraction, QT interval); dermatologic assessment |
-| Handling Protection | Standard targeted oral therapy handling applies; full cytotoxic closed-system transfer device (CSTD) protocols are typically not required, though institutional SOPs should be followed |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة لـ cobimetinib في التصلب الجانبي الضموري.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-*(Formal warning and contraindication data from Saudi Arabian and Taiwan regulatory databases were not retrieved in this Evidence Pack cycle. DDI query returned no results.)*
+حالياً لا توجد أدبيات ذات صلة متاحة لـ cobimetinib في التصلب الجانبي الضموري.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Research Question**
+كوبيميتينيب غير مسجل أو معروّض حالياً في المملكة العربية السعودية. لم يتم العثور على أي تصاريح منتجات في الاستعلام التنظيمي (0 تراخيص، تاريخ الاستعلام: 2026-03-29).
 
-**Rationale:**
-TxGNN generates a high prediction score (99.73%) for cobimetinib in ALS via a biologically plausible MEK/ERK neuroprotection mechanism; however, evidence level is L5 — there are zero registered clinical trials and zero indexed publications supporting this specific repurposing hypothesis. Unconfirmed blood-brain barrier penetration represents an unresolved pharmacological prerequisite that must be established before any translational investment is justified.
+---
 
-**To proceed, the following is needed:**
+## السمية الخلوية
 
-- **BBB penetration data**: CNS pharmacokinetic studies (rodent or non-human primate) confirming adequate cobimetinib exposure in spinal cord and motor cortex at clinically tolerable doses
-- **Preclinical ALS proof-of-concept**: Efficacy studies in established ALS models (e.g., SOD1-G93A transgenic mice, TDP-43 mutant models) measuring survival, motor function, and neuroinflammation endpoints
-- **Pathway validation in human tissue**: Confirmation of MEK/ERK hyperactivation in post-mortem ALS spinal cord or iPSC-derived motor neurons from ALS patients
-- **Safety profile review for neurological populations**: Formal assessment of cobimetinib's known toxicities (retinopathy, hepatotoxicity, cardiac effects) in the context of a chronic ALS treatment regimen
-- **Regulatory pathway consultation**: Given non-marketed status in Saudi Arabia, early dialogue with SFDA on the repurposing regulatory framework would be required before any IND-equivalent application
+يُصنف كوبيميتينيب كعامل مضاد للأورام (العلاج الموجه للورم الميلانيني)؛ ينطبق هذا القسم.
+
+| البند | المحتوى |
+|---|---|
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط انتقائي لـ MEK1/2 kinase (جزيء صغير؛ ليس سمياً بالمعنى التقليدي) |
+| خطر قمع نقي العظم | منخفض إلى معتدل (يُبلَّغ عن فقر الدم؛ قلة العدلات الشديدة أو قلة الصفيحات نادرة مقارنة بالعلاج الكيميائي السام) |
+| تصنيف الغثيان المستحث | منخفض |
+| بنود المراقبة | تعداد الدم الكامل (CBC) مع التمييز؛ اختبارات وظائف الكبد (ALT/AST — خطر السمية الكبدية)؛ كرياتين كيناز (CK — خطر اعتلال العضلات/الانحلال العضلي)؛ الفحص العيني (الاعتلال الشبكي المصلي، انسداد الوريد الشبكي)؛ مراقبة القلب (جزء القذف، فترة QT)؛ التقييم الجلدي |
+| حماية المناولة | ينطبق التعامل المعياري للعلاج الفموي الموجه؛ عادة لا تكون بروتوكولات جهاز النقل المغلق السام الكاملة (CSTD) مطلوبة، على الرغم من أنه يجب اتباع SOPs المؤسسية |
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات الأمان.
+*(لم يتم استرجاع بيانات التحذير الرسمية والموانع من قواعد بيانات الهيئة التنظيمية السعودية وتايوان في دورة Evidence Pack هذه. استعلام التفاعل بين الأدوية (DDI) لم يسفر عن أي نتائج.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: سؤال بحثي**
+
+**المنطق:**
+ينتج نموذج TxGNN درجة تنبؤ عالية (99.73%) لـ cobimetinib في ALS عبر آلية حماية عصبية معقولة بيولوجياً لـ MEK/ERK؛ ومع ذلك، مستوى الأدلة هو L5 — لا توجد تجارب سريرية مسجلة وصفر منشورات مفهرسة تدعم هذه الفرضية المحددة لإعادة التوظيف. يمثل اختراق حاجز الدم الدماغي غير المؤكد شرطاً صيدلانياً غير محلول يجب تحديده قبل تبرير أي استثمار في البحث الترجمي.
+
+**للمتابعة، يلزم الآتي:**
+
+- **بيانات اختراق BBB**: دراسات الحرائك الدوائية للجهاز العصبي المركزي (CNS) (القوارض أو الرئيسيات غير البشرية) تؤكد التعرض الكافي لـ cobimetinib في الحبل الشوكي والقشرة الحركية عند جرعات آمنة سريرياً
+- **إثبات المفهوم السابق للسريرية في ALS**: دراسات الفعالية في نماذج ALS الراسخة (مثل الفئران المعدلة وراثياً SOD1-G93A، نماذج TDP-43 mutant) تقيس نقاط النهاية للبقاء والوظيفة الحركية والالتهاب العصبي
+- **التحقق من صحة المسار في أنسجة بشرية**: تأكيد فرط تنشيط MEK/ERK في الحبل الشوكي ALS بعد الوفاة أو الخلايا العصبية الحركية المشتقة من iPSC من مرضى ALS
+- **مراجعة ملف السلامة للسكان العصبيين**: تقييم رسمي لسموم cobimetinib المعروفة (اعتلال الشبكية، السمية الكبدية، التأثيرات القلبية) في سياق نظام علاج ALS المزمن
+- **استشارة المسار التنظيمي**: بالنظر إلى حالة عدم التسويق في المملكة العربية السعودية، سيكون الحوار المبكر مع SFDA حول إطار العمل التنظيمي لإعادة التوظيف مطلوباً قبل أي طلب معادل IND
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

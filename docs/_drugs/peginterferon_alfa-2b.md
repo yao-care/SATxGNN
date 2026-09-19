@@ -29,97 +29,98 @@ indication_count: 7
 
 </div>
 
-# Peginterferon Alfa-2b: From Chronic Hepatitis C to Hepatitis B Virus Infection
+# بيجينترفيرون ألفا-2b: من التهاب الكبد الفيروسي المزمن من النوع C إلى عدوى فيروس التهاب الكبد B
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Peginterferon alfa-2b (DrugBank DB00022) is a pegylated type I interferon internationally known for treating chronic viral hepatitis, though no Saudi Arabia (SFDA) marketing record or approved-indication text is currently on file for it. The TxGNN model's top prediction is **Hepatitis B Virus Infection**, with **50 linked clinical trials** and **19 PubMed publications** in the evidence pool — though it should be noted this predicted use substantially overlaps with the drug's already-established role in **chronic hepatitis B**, which the evidence pack lists separately (rank 7) with the same underlying evidence base.
+بيجينترفيرون ألفا-2b (DrugBank DB00022) هو إنترفيرون معدل بالبولي إيثيلين جليكول من النوع الأول معروف دولياً لعلاج التهاب الكبد الفيروسي المزمن، مع ملاحظة أنه لا يوجد حالياً سجل تسويقي لدى الهيئة العامة للغذاء والدواء السعودية (SFDA) أو نص استطباب معتمد على الملف. التنبؤ الأعلى للنموذج TxGNN هو **عدوى فيروس التهاب الكبد B**، مع **50 تجربة سريرية مرتبطة** و**19 منشوراً في PubMed** في مجموعة الأدلة — مع ملاحظة أن هذا الاستخدام المتنبأ به يتداخل بشكل جوهري مع الدور المعروف للدواء بالفعل في **التهاب الكبد B المزمن**، الذي تدرجه مجموعة الأدلة بشكل منفصل (الرتبة 7) مع نفس قاعدة الأدلة الأساسية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not documented in SFDA licensing data (drug not marketed); internationally recognized use is chronic hepatitis C/B treatment |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير موثق في بيانات ترخيص SFDA (الدواء غير مسوّق)؛ الاستخدام المعروف دولياً هو علاج التهاب الكبد الفيروسي المزمن من النوع C/B |
+| المؤشر الجديد المتنبأ به | عدوى فيروس التهاب الكبد B |
+| درجة التنبؤ TxGNN | 99.84% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع الاحتياطات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for this record is marked as a data gap. However, based on well-established pharmacology captured elsewhere in this evidence pack (see the drug's rank-7 "chronic hepatitis B virus infection" entry), peginterferon alfa-2b is a type I interferon that binds IFNAR1/IFNAR2 receptors to activate the JAK-STAT pathway, inducing interferon-stimulated genes (ISGs) that directly suppress viral replication while also enhancing host immune clearance of cccDNA-infected hepatocytes. This is the accepted standard mechanism behind interferon-based HBV therapy, not a newly hypothesized pathway.
+حالياً، بيانات آلية العمل التفصيلية لهذا السجل تُصنّف كفجوة بيانات. ومع ذلك، بناءً على الصيدلة المرسّخة جيداً المقيّدة في موضع آخر من مجموعة الأدلة هذه (انظر إدراج الدواء "عدوى فيروس التهاب الكبد B المزمن" بالرتبة 7)، فإن بيجينترفيرون ألفا-2b هو إنترفيرون من النوع الأول يرتبط بمستقبلات IFNAR1/IFNAR2 لتفعيل مسار JAK-STAT، مما يحفز الجينات المحفزة بالإنترفيرون (ISGs) التي تثبط مباشرة تكاثر الفيروس بينما تعزز أيضاً إزالة العائل المناعية للخلايا الكبدية المصابة بـ cccDNA. هذا هو آلية العمل المقبولة القياسية وراء العلاج بالإنترفيرون لـ HBV، وليس مساراً جديداً مفترضاً.
 
-Because this mechanism is disease-agnostic within the hepatitis virus family, and because peginterferon alfa-2b already has a substantial evidence base in chronic hepatitis B (see rank 7 in this same evidence pack), the model's prediction of "Hepatitis B Virus Infection" is mechanistically coherent. Importantly, the evidence pack's own rationale flags that TxGNN appears to have split the HBV disease ontology into separate "acute/general" and "chronic" nodes, and that this rank-1 prediction and the rank-7 "chronic hepatitis B virus infection" prediction are, in practice, the same clinical indication. This means the finding should be read less as discovery of a genuinely novel use and more as confirmation of an already well-documented pharmacological role — which strengthens confidence in the underlying biology but reduces its value as a *repurposing* opportunity per se.
+نظراً لأن هذه الآلية غير محددة بالمرض داخل عائلة فيروسات التهاب الكبد، وبما أن بيجينترفيرون ألفا-2b لديه بالفعل قاعدة أدلة كبيرة في التهاب الكبد B المزمن (انظر الرتبة 7 في مجموعة الأدلة ذاتها)، فإن تنبؤ النموذج بـ "عدوى فيروس التهاب الكبد B" متسق آلياً. الأهم من ذلك، منطق مجموعة الأدلة ذاتها يحذّر من أن TxGNN يبدو أنها قسّمت أنطولوجيا مرض HBV إلى عقد "حادة/عامة" و"مزمنة" منفصلة، وأن هذا التنبؤ بالرتبة 1 والتنبؤ بـ "عدوى فيروس التهاب الكبد B المزمن" بالرتبة 7 متطابقان عملياً. هذا يعني أن النتيجة يجب قراءتها بشكل أقل كاكتشاف لاستخدام جديد حقاً وبشكل أكثر كتأكيد لدور صيدلاني معروف بالفعل — وهذا يقوي الثقة بالبيولوجيا الأساسية لكنه يقلل من قيمتها كفرصة **إعادة توظيف** حقيقية.
 
-It is also worth noting that the underlying clinical trial dataset is noisy: a meaningful share of the 50 linked trials (e.g., taribavirin/ribavirin dose-finding studies, boceprevir triple-therapy trials) are HCV-focused rather than HBV-focused and have been graded "C" (low relevance) in the reviewer's own relevance assessment. The trials selected below were filtered toward those explicitly describing HBV-directed regimens.
+من المهم أيضاً الإشارة إلى أن مجموعة التجارب السريرية الأساسية مشوبة بالضوضاء: جزء كبير من التجارب المرتبطة الـ 50 (مثل تجارب تحديد الجرعات taribavirin/ribavirin وتجارب العلاج الثلاثي boceprevir) تركز على HCV بدلاً من HBV وقد صُنّفت كـ "C" (صلة منخفضة) في تقييم الصلة الخاص بالمراجع نفسه. تم تصفية التجارب المختارة أدناه نحو تلك التي تصف بشكل صريح الأنظمة الموجهة ضد HBV.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05182463](https://clinicaltrials.gov/study/NCT05182463) | Phase 4 | Recruiting | 5000 | Real-world "E-Cure" study of peginterferon alfa-2b in inactive chronic hepatitis B patients |
-| [NCT05792761](https://clinicaltrials.gov/study/NCT05792761) | N/A | Unknown | 1900 | "Sprout Project" — antiviral treatment strategies for chronic hepatitis B in children |
-| [NCT06196632](https://clinicaltrials.gov/study/NCT06196632) | N/A | Unknown | 1000 | Logistic regression models to predict durable functional cure after peginterferon alfa-2b-based therapy in CHB |
-| [NCT07071636](https://clinicaltrials.gov/study/NCT07071636) | Phase 4 | Not yet recruiting | 830 | Peginterferon alfa-2b + nucleos(t)ide analogues in CHB with/without MASLD |
-| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | N/A | Completed | 473 | Long-term benefit assessment in HBeAg-positive CHB patients previously treated with standard peginterferon alfa |
-| [NCT01641926](https://clinicaltrials.gov/study/NCT01641926) | Phase 3 | Terminated | 402 | Head-to-head safety/efficacy of PEG-Intron vs. PEGASYS in HBeAg-positive and -negative CHB |
-| [NCT06707922](https://clinicaltrials.gov/study/NCT06707922) | N/A | Enrolling by invitation | 350 | Long-term benefit of peginterferon alfa-2b combined with tenofovir (TDF) in CHB |
-| [NCT07120750](https://clinicaltrials.gov/study/NCT07120750) | N/A | Not yet recruiting | 332 | Evaluates whether peginterferon alfa-2b reduces recurrence of HBV-related liver cancer after radical treatment |
-| [NCT02327416](https://clinicaltrials.gov/study/NCT02327416) | Phase 3 | Unknown | 300 | "Anchor Study" — sequential peginterferon alfa-2b + entecavir + GM-CSF in NA-experienced CHB |
-| [NCT00146705](https://clinicaltrials.gov/study/NCT00146705) | N/A | Completed | 266 | Long-term follow-up of peginterferon alfa-2b with/without lamivudine in chronic HBV infection |
+| [NCT05182463](https://clinicaltrials.gov/study/NCT05182463) | المرحلة 4 | قيد الاستقطاب | 5000 | دراسة "E-Cure" في العالم الحقيقي لبيجينترفيرون ألفا-2b في مرضى التهاب الكبد B المزمن الخامل |
+| [NCT05792761](https://clinicaltrials.gov/study/NCT05792761) | N/A | غير معروف | 1900 | "مشروع Sprout" — استراتيجيات العلاج المضاد للفيروسات لالتهاب الكبد B المزمن لدى الأطفال |
+| [NCT06196632](https://clinicaltrials.gov/study/NCT06196632) | N/A | غير معروف | 1000 | نماذج الانحدار اللوجستي للتنبؤ بالشفاء الوظيفي الدائم بعد العلاج بـ بيجينترفيرون ألفا-2b في CHB |
+| [NCT07071636](https://clinicaltrials.gov/study/NCT07071636) | المرحلة 4 | لم يبدأ الاستقطاب بعد | 830 | بيجينترفيرون ألفا-2b + نظائر النيوكليوسيد (t) في CHB مع/بدون MASLD |
+| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | N/A | مكتمل | 473 | تقييم الفائدة طويلة الأجل في مرضى CHB الموجبي HBeAg الذين عولجوا سابقاً ببيجينترفيرون ألفا القياسي |
+| [NCT01641926](https://clinicaltrials.gov/study/NCT01641926) | المرحلة 3 | تم إيقافه | 402 | مقارنة مباشرة للسلامة والفعالية بين PEG-Intron و PEGASYS في CHB الموجب والسالب HBeAg |
+| [NCT06707922](https://clinicaltrials.gov/study/NCT06707922) | N/A | التسجيل بدعوة | 350 | الفائدة طويلة الأجل لبيجينترفيرون ألفا-2b مع تينوفوفير (TDF) في CHB |
+| [NCT07120750](https://clinicaltrials.gov/study/NCT07120750) | N/A | لم يبدأ الاستقطاب بعد | 332 | يقيّم ما إذا كان بيجينترفيرون ألفا-2b يقلل من تكرار السرطان المرتبط بـ HBV بعد العلاج الجذري |
+| [NCT02327416](https://clinicaltrials.gov/study/NCT02327416) | المرحلة 3 | غير معروف | 300 | دراسة "Anchor" — بيجينترفيرون ألفا-2b المتسلسل + إنتيكافير + GM-CSF في CHB ذي الخبرة السابقة NA |
+| [NCT00146705](https://clinicaltrials.gov/study/NCT00146705) | N/A | مكتمل | 266 | المتابعة طويلة الأجل لبيجينترفيرون ألفا-2b مع/بدون لاميفودين في عدوى HBV المزمنة |
 
 ---
 
-## Literature Evidence
+## دليل الأدب الطبي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [25200354](https://pubmed.ncbi.nlm.nih.gov/25200354/) | 2014 | RCT | Journal of Clinical Virology | Randomized trial of peginterferon alfa-2b in Chinese HBeAg-positive chronic hepatitis B patients |
-| [41366186](https://pubmed.ncbi.nlm.nih.gov/41366186/) | 2026 | RCT | Hepatology International | "Anchor" randomized controlled trial of entecavir + peginterferon alfa-2b ± GM-CSF for HBsAg loss in CHB |
-| [17604363](https://pubmed.ncbi.nlm.nih.gov/17604363/) | 2007 | RCT | Hepatology | Peginterferon alfa-2b (± lamivudine) shown safe and effective in HBeAg-positive CHB with advanced fibrosis |
-| [16167968](https://pubmed.ncbi.nlm.nih.gov/16167968/) | 2005 | Systematic Review | Alimentary Pharmacology & Therapeutics | Systematic review of pegylated interferon for chronic hepatitis B treatment |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Review | Nature Reviews Gastroenterology & Hepatology | Overview of hepatitis B treatment goals and response monitoring |
-| [27190319](https://pubmed.ncbi.nlm.nih.gov/27190319/) | 2016 | Review | Clinical Infectious Diseases | Virus and host biomarker testing to guide chronic HBV management |
-| [40390028](https://pubmed.ncbi.nlm.nih.gov/40390028/) | 2025 | Cohort | Virology Journal | Multicenter pilot study of recurrence risk factors after peginterferon alfa-2b-induced functional cure |
-| [38089868](https://pubmed.ncbi.nlm.nih.gov/38089868/) | 2023 | Cohort | Frontiers in Medicine | Simple scoring system predicting HBsAg clearance with peginterferon alfa-2b in NA-experienced CHB |
-| [24738850](https://pubmed.ncbi.nlm.nih.gov/24738850/) | 2014 | Review | Expert Opinion on Biological Therapy | Review of peginterferon alfa in chronic hepatitis B treatment, including super-/null-responder identification |
-| [39176265](https://pubmed.ncbi.nlm.nih.gov/39176265/) | 2024 | Cohort | Frontiers in Cellular and Infection Microbiology | Peginterferon alfa-2b induces high functional cure rate in postpartum HBeAg-negative women with CHB |
+| [25200354](https://pubmed.ncbi.nlm.nih.gov/25200354/) | 2014 | تجربة عشوائية محكومة | مجلة الأمراض الفيروسية السريرية | تجربة عشوائية محكومة لبيجينترفيرون ألفا-2b في مرضى التهاب الكبد B المزمن الموجبي HBeAg الصينيين |
+| [41366186](https://pubmed.ncbi.nlm.nih.gov/41366186/) | 2026 | تجربة عشوائية محكومة | Hepatology International | تجربة عشوائية محكومة "Anchor" لإنتيكافير + بيجينترفيرون ألفا-2b ± GM-CSF لفقدان HBsAg في CHB |
+| [17604363](https://pubmed.ncbi.nlm.nih.gov/17604363/) | 2007 | تجربة عشوائية محكومة | Hepatology | أثبتت بيجينترفيرون ألفا-2b (± لاميفودين) الأمان والفعالية في CHB الموجب HBeAg مع التليف المتقدم |
+| [16167968](https://pubmed.ncbi.nlm.nih.gov/16167968/) | 2005 | مراجعة منهجية | Alimentary Pharmacology & Therapeutics | مراجعة منهجية للإنترفيرون المعدل بالبولي إيثيلين جليكول لعلاج التهاب الكبد B المزمن |
+| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | مراجعة | Nature Reviews Gastroenterology & Hepatology | نظرة عامة على أهداف علاج التهاب الكبد B ومراقبة الاستجابة |
+| [27190319](https://pubmed.ncbi.nlm.nih.gov/27190319/) | 2016 | مراجعة | Clinical Infectious Diseases | اختبار المؤشرات الحيوية للفيروس والعائل لتوجيه إدارة HBV المزمنة |
+| [40390028](https://pubmed.ncbi.nlm.nih.gov/40390028/) | 2025 | دراسة الأتراب | Virology Journal | دراسة تجريبية متعددة المراكز لعوامل خطر التكرار بعد الشفاء الوظيفي المستحث ببيجينترفيرون ألفا-2b |
+| [38089868](https://pubmed.ncbi.nlm.nih.gov/38089868/) | 2023 | دراسة الأتراب | Frontiers in Medicine | نظام تقييم بسيط للتنبؤ بتصفية HBsAg مع بيجينترفيرون ألفا-2b في CHB ذي الخبرة السابقة NA |
+| [24738850](https://pubmed.ncbi.nlm.nih.gov/24738850/) | 2014 | مراجعة | Expert Opinion on Biological Therapy | مراجعة بيجينترفيرون ألفا في علاج التهاب الكبد B المزمن، بما في ذلك تحديد المستجيبين الفائقين/المنعدمي الاستجابة |
+| [39176265](https://pubmed.ncbi.nlm.nih.gov/39176265/) | 2024 | دراسة الأتراب | Frontiers in Cellular and Infection Microbiology | يحفز بيجينترفيرون ألفا-2b معدل شفاء وظيفي عالياً في النساء السالبات HBeAg في فترة ما بعد الولادة مع CHB |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Peginterferon alfa-2b currently holds no marketing authorization on record in Saudi Arabia (0 licenses; market status "Not Marketed"), so no product/dosage-form table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No SFDA warnings, contraindications, or drug-drug interaction data were available in this evidence pack (DDI query returned "not found").
+بيجينترفيرون ألفا-2b لا يحمل حالياً أي ترخيص تسويقي مسجل في المملكة العربية السعودية (0 تراخيص؛ حالة السوق "غير مسوّق")، لذا لا يتوفر جدول المنتج/شكل الجرعة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة الداخلية للمعلومات المتعلقة بالسلامة. لم تكن هناك تحذيرات SFDA أو موانع استخدام أو بيانات تفاعل الدواء مع الدواء متاحة في مجموعة الأدلة هذه (استعلام DDI أرجع "غير موجود").
 
-**Rationale:**
-The mechanistic rationale is strong (established IFN alfa antiviral/immunomodulatory action against HBV) and is backed by an L1 evidence level, including multiple Phase 3/4 trials and large real-world cohorts (e.g., n=5,000 E-Cure study). However, the prediction largely restates the drug's already-known role in chronic hepatitis B (compare rank 7 in this same evidence pack) rather than identifying a distinct new indication, and the drug is not currently marketed or licensed in Saudi Arabia, so no local safety labeling exists yet.
+---
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent source
-- Clarification of whether "Hepatitis B Virus Infection" (rank 1) should be merged with "chronic hepatitis B virus infection" (rank 7) as a single candidate, since they appear to reflect the same TxGNN-split disease node
-- Drug-drug interaction data (current query status: not found)
-- A regulatory pathway assessment given the drug has no existing Saudi Arabia market authorization
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الاحتياطات**
+
+**المبرر:**
+الحجة الآلية قوية (تأثير الإنترفيرون ألفا المعروف المضاد للفيروسات والمعدل للمناعة ضد HBV) وتدعمها مستوى دليل L1، بما في ذلك عدة تجارب من المرحلة 3/4 وأتراب كبيرة من العالم الحقيقي (مثل دراسة E-Cure بـ n=5,000). ومع ذلك، فإن التنبؤ يعيد بشكل أساسي بيان الدور المعروف للدواء في التهاب الكبد B المزمن (قارن الرتبة 7 في مجموعة الأدلة ذاتها) بدلاً من تحديد مؤشر جديد مميز، والدواء غير مسوّق أو مرخص حالياً في المملكة العربية السعودية، لذا لا يوجد وضع سلامة محلي بعد.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة الداخلية لـ SFDA/TFDA (التحذيرات، موانع الاستخدام) — حالياً فجوة بيانات حاسمة
+- توثيق آلية العمل المؤكد من DrugBank أو مصدر مكافئ
+- توضيح ما إذا كان "عدوى فيروس التهاب الكبد B" (الرتبة 1) يجب أن ينضم مع "عدوى فيروس التهاب الكبد B المزمن" (الرتبة 7) كمرشح واحد، لأنهما يبدو أنهما يعكسان عقدة مرض TxGNN المنقسمة ذاتها
+- بيانات تفاعل الدواء مع الدواء (حالة الاستعلام الحالية: غير موجود)
+- تقييم مسار تنظيمي نظراً لأن الدواء لا يملك أي ترخيص سوق موجود في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

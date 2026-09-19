@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Lornoxicam: From Musculoskeletal and Postoperative Pain to Rheumatoid Arthritis
+# لورنوكسيكام: من الألم العضلي الهيكلي وألم ما بعد العملية الجراحية إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Lornoxicam is an oxicam-class NSAID with established international use for musculoskeletal pain, postoperative pain, and osteoarthritis, but it currently holds no marketing authorization in Saudi Arabia. The TxGNN model's top-ranked prediction is efficacy in **Rheumatoid Arthritis**, a mechanistically plausible extension of its existing anti-inflammatory use, supported by **0 registry-listed clinical trials** but **20 literature references**, including several controlled clinical studies from the early 2000s.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in Saudi regulatory data (drug unlicensed); literature documents established use in musculoskeletal/joint pain, postoperative pain, and lumbar-sciatica conditions (PMID 8706598) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+لورنوكسيكام هو عقار مضاد للالتهاب غير ستيرويدي من فئة الأوكسيكام ذو استخدام دولي معروف لآلام العضلات الهيكلية والألم بعد العمليات الجراحية والتهاب المفاصل العظمي، لكنه لا يمتلك حالياً ترخيص تسويقي في المملكة العربية السعودية. التنبؤ الأول للترتيب من نموذج TxGNN هو الفعالية في **التهاب المفاصل الروماتويدي**، وهو امتداد معقول ميكانيكياً لاستخدامه المضاد للالتهاب الحالي، مدعوم بـ **0 تجربة سريرية مسجلة** لكن **20 مرجع أدبي**، بما في ذلك عدة دراسات سريرية محكومة من أوائل عام 2000.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, lornoxicam belongs to the oxicam class of non-steroidal anti-inflammatory drugs (NSAIDs) and is a potent, non-selective inhibitor of COX-1 and COX-2, distinguished from other oxicams by a comparatively short elimination half-life (3–5 hours).
-
-The relationship between lornoxicam's established uses and rheumatoid arthritis is close rather than novel: published literature already describes lornoxicam as used "in the muscular skeletal and joint disorders such as osteoarthritis and rheumatoid arthritis" (PMID 22469263), and notes the drug is marketed in 31 countries across Europe, the Middle East, the Far East and South America for osteoarthritis, rheumatoid arthritis, acute lumbar-sciatica and postoperative pain (PMID 19821419). This suggests the TxGNN prediction largely reflects an already-validated pharmacological use rather than a mechanistically speculative repurposing — the opportunity here is market entry into Saudi Arabia, where the product is currently unlicensed, rather than discovery of a new biological mechanism.
-
-Mechanistically, RA is an autoimmune inflammatory joint disease driven substantially by prostaglandin-mediated inflammation, which is directly addressed by COX inhibition. This explains why several controlled clinical studies of lornoxicam in RA patients exist from the early 2000s (predating mandatory clinical trial registry requirements introduced around 2007), which is consistent with the absence of entries in ClinicalTrials.gov/ICTRP despite substantial literature support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير موثق في البيانات التنظيمية السعودية (الدواء غير مرخص)؛ تسجل الأدبيات الاستخدام المعروف في آلام العضلات والمفاصل والألم بعد العمليات الجراحية وحالات الفقرات القطنية والعصب الوركي الحادة (PMID 8706598) |
+| المؤشر الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة التنبؤ من TxGNN | 99.90% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع ضمانات احتياطية |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في هذه الحزمة الدليلية. استناداً إلى المعلومات الدوائية المعروفة، ينتمي لورنوكسيكام إلى فئة الأوكسيكام من العقاقير المضادة للالتهاب غير الستيرويدية (NSAIDs) وهو مثبط قوي وغير انتقائي لـ COX-1 و COX-2، يتميز عن مثبطات الأوكسيكام الأخرى برصيد عمر نصفي قصير المقارن (3–5 ساعات).
+
+العلاقة بين الاستخدامات المثبتة للورنوكسيكام والتهاب المفاصل الروماتويدي وثيقة وليست جديدة: تصف الأدبيات المنشورة بالفعل لورنوكسيكام كـ مستخدم "في اضطرابات العضلات الهيكلية والمفاصل مثل التهاب المفاصل العظمي والتهاب المفاصل الروماتويدي" (PMID 22469263)، وتشير إلى أن الدواء مسوق في 31 دولة عبر أوروبا والشرق الأوسط والشرق الأقصى وأمريكا الجنوبية لالتهاب المفاصل العظمي والتهاب المفاصل الروماتويدي والألم الحاد في الفقرات القطنية والعصب الوركي وألم ما بعد العملية الجراحية (PMID 19821419). يشير هذا إلى أن التنبؤ من TxGNN يعكس إلى حد كبير استخدام دوائي معترف به بالفعل بدلاً من إعادة توظيف تخمينية ميكانيكياً - الفرصة هنا هي الدخول إلى السوق السعودي، حيث المنتج غير مرخص حالياً، وليس اكتشاف آلية بيولوجية جديدة.
+
+ميكانيكياً، التهاب المفاصل الروماتويدي هو مرض التهاب مفاصل ذاتي المناعة يحدثه بشكل كبير التهاب وسيط بالبروستاجلاندين، الذي يتم التعامل معه مباشرة من خلال مثبط COX. هذا يشرح سبب وجود عدة دراسات سريرية محكومة للورنوكسيكام لدى مرضى التهاب المفاصل الروماتويدي من أوائل عام 2000 (قبل متطلبات تسجيل التجارب السريرية الإلزامية التي تم تقديمها حول عام 2007)، وهو ما يتسق مع غياب الإدراجات في ClinicalTrials.gov/ICTRP رغم الدعم الأدبي الموثق.
+
+---
+
+## دليل التجارب السريرية
+
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | RCT (crossover, double-blind) | Reumatismo | Lornoxicam 8mg/16mg vs diclofenac 150mg/day in RA patients; dose-finding for analgesic efficacy and safety |
-| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | Clinical study (long-term) | Minerva Medica | Long-term efficacy and safety assessment of lornoxicam in RA |
-| [12087911](https://pubmed.ncbi.nlm.nih.gov/12087911/) | 2002 | Clinical study | Terapevticheskii Arkhiv | Clinical response, safety, and effects on blood pressure/heart rhythm variability in RA patients with hypertension |
-| [19821419](https://pubmed.ncbi.nlm.nih.gov/19821419/) | 2009 | Systematic Review | Cochrane Database of Systematic Reviews | Confirms lornoxicam is prescribed for osteoarthritis, RA, lumbar-sciatica and postoperative pain across 31 countries |
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Review | Drugs | Comprehensive pharmacology review; efficacy comparable to opioid analgesics; short elimination half-life |
-| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | Review | Profiles of Drug Substances, Excipients, and Related Methodology | Comprehensive drug substance profile including mechanism of action and established RA/OA use |
-| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | Preclinical (animal RA model) | International Journal of Nanomedicine | Nanomicellar lornoxicam formulation improves therapeutic efficacy vs free drug in experimental RA models |
-| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | Review | Clinical Therapeutics | Literature review of NSAID dose-effect relationships in RA and osteoarthritis, including lornoxicam |
-| [23567043](https://pubmed.ncbi.nlm.nih.gov/23567043/) | 2013 | Formulation study | Journal of Controlled Release | Transdermal patch delivering lornoxicam + teriflunomide for intra-articular RA treatment |
-| [25553695](https://pubmed.ncbi.nlm.nih.gov/25553695/) | 2015 | Formulation study | Pakistan Journal of Pharmaceutical Sciences | Chronotherapeutic pulsincap delivery of lornoxicam targeting early-morning RA symptom peaks |
+| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | تجربة محكومة عشوائية (تقاطعية، عمياء مزدوجة) | Reumatismo | لورنوكسيكام 8 ملغ/16 ملغ مقابل ديكلوفيناك 150 ملغ/يوم لدى مرضى التهاب المفاصل الروماتويدي؛ تحديد الجرعة للفعالية المسكنة والسلامة |
+| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | دراسة سريرية (طويلة الأجل) | Minerva Medica | تقييم الفعالية والسلامة طويلة الأجل للورنوكسيكام في التهاب المفاصل الروماتويدي |
+| [12087911](https://pubmed.ncbi.nlm.nih.gov/12087911/) | 2002 | دراسة سريرية | Terapevticheskii Arkhiv | الاستجابة السريرية والسلامة والآثار على ضغط الدم وتنوع معدل ضربات القلب لدى مرضى التهاب المفاصل الروماتويدي مع ارتفاع ضغط الدم |
+| [19821419](https://pubmed.ncbi.nlm.nih.gov/19821419/) | 2009 | مراجعة منهجية | Cochrane Database of Systematic Reviews | تأكيد أن لورنوكسيكام موصوف لالتهاب المفاصل العظمي والتهاب المفاصل الروماتويدي والألم الحاد في الفقرات القطنية والعصب الوركي وألم ما بعد العملية الجراحية عبر 31 دولة |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | مراجعة | Drugs | مراجعة شاملة للدوائيات؛ فعالية مماثلة للمسكنات الأفيونية؛ عمر نصفي للقضاء قصير |
+| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | مراجعة | Profiles of Drug Substances, Excipients, and Related Methodology | ملف تعريفي شامل للمادة الدوائية بما فيه آلية العمل والاستخدام المثبت في التهاب المفاصل الروماتويدي والتهاب المفاصل العظمي |
+| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | دراسة ما قبل سريرية (نموذج التهاب مفاصل حيواني) | International Journal of Nanomedicine | صيغة نانو ميسيللية للورنوكسيكام تحسن الفعالية العلاجية مقابل الدواء الحر في نماذج التهاب المفاصل الروماتويدي التجريبية |
+| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | مراجعة | Clinical Therapeutics | مراجعة أدبية لعلاقات تأثير الجرعة من مثبطات COX في التهاب المفاصل الروماتويدي والتهاب المفاصل العظمي، بما فيها لورنوكسيكام |
+| [23567043](https://pubmed.ncbi.nlm.nih.gov/23567043/) | 2013 | دراسة صيغة | Journal of Controlled Release | رقعة جلدية تحمل لورنوكسيكام + تيريفلونوميد للعلاج الموضعي بالمفاصل في التهاب المفاصل الروماتويدي |
+| [25553695](https://pubmed.ncbi.nlm.nih.gov/25553695/) | 2015 | دراسة صيغة | Pakistan Journal of Pharmaceutical Sciences | تحرير نبضي زمني للورنوكسيكام مستهدف لذروات أعراض التهاب المفاصل الروماتويدي في الصباح الباكر |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Lornoxicam currently has no approved marketing authorization in Saudi Arabia (0 licenses on record); no product/authorization data is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لورنوكسيكام لا يمتلك حالياً ترخيص تسويق معتمد في المملكة العربية السعودية (0 تراخيص في السجل)؛ لا تتوفر بيانات المنتج/التصريح للجدولة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-Lornoxicam's efficacy in rheumatoid arthritis is already well-established internationally through COX-inhibiting NSAID pharmacology and multiple early-2000s controlled clinical studies, but Saudi-specific safety labeling, drug interaction data, and local trial evidence are absent, so market entry should proceed only with additional safeguards.
+---
 
-**To proceed, the following is needed:**
-- SFDA-approved package insert with warnings/contraindications (currently a blocking data gap — DG001)
-- Detailed mechanism-of-action data from DrugBank to support the S1 safety review (DG002)
-- Drug-drug interaction data (current DDI query returned no results)
-- A decision on whether existing international RA trial evidence is sufficient for SFDA submission, or whether a local bridging study is required
+## الاستنتاج والخطوات التالية
 
-*Note: this pack also lists "migraine disorder" (rank 3) as a candidate with a completed Phase 2 RCT specifically testing lornoxicam (NCT00293657) — a separate evaluation may be warranted if that indication is of interest.*
+**القرار: المتابعة مع ضمانات احتياطية**
+
+**الأساس المنطقي:**
+الفعالية المثبتة للورنوكسيكام في التهاب المفاصل الروماتويدي معروفة بالفعل دولياً من خلال الدوائيات العضوية لمثبط COX والعديد من الدراسات السريرية المحكومة من أوائل عام 2000، لكن وسم السلامة الخاص بالمملكة العربية السعودية وبيانات تفاعل الأدوية مع الأدوية والدليل المحلي على التجارب السريرية غائبة، لذا يجب المتابعة فقط مع ضمانات إضافية.
+
+**للمتابعة، المطلوب التالي:**
+- ورقة معلومات معتمدة من الهيئة العامة للغذاء والدواء مع تحذيرات/موانع استعمال (حالياً فجوة بيانات حجب - DG001)
+- بيانات آلية العمل التفصيلية من DrugBank لدعم مراجعة السلامة S1 (DG002)
+- بيانات تفاعل الأدوية مع الأدوية (استعلام DDI الحالي لم يرجع نتائج)
+- قرار ما إذا كان دليل التجارب السريرية الدولية المثبتة لالتهاب المفاصل الروماتويدي كافياً لتقديم طلب للهيئة العامة للغذاء والدواء، أم أن دراسة توصيل محلية مطلوبة
+
+*ملاحظة: تسرد هذه الحزمة أيضاً "اضطراب الصداع النصفي" (الترتيب 3) كمرشح مع تجربة عشوائية محكومة في المرحلة 2 المكتملة تختبر لورنوكسيكام بشكل محدد (NCT00293657) - قد يكون تقييم منفصل مبرراً إذا كان هذا المؤشر محل اهتمام.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

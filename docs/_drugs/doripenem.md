@@ -29,80 +29,77 @@ indication_count: 5
 
 </div>
 
-The `txgnn-pipeline` skill covers technical pipeline management; report generation follows the system prompt template directly. Proceeding with the report now.
+# دوريبينم: من العدوى البكتيرية الشديدة إلى تصلب فم الكبد
+
+## ملخص جملة واحدة
+
+دوريبينم هو مضاد حيوي كربابينيم واسع الطيف يُستخدم أصلاً لعلاج العدوى البكتيرية الشديدة، بما في ذلك العدوى البريتونية المعقدة والعدوى البولية المعقدة والالتهاب الرئوي المكتسب من المستشفى.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **تصلب فم الكبد**، لكن حالياً لا توجد **0 تجربة سريرية** و**0 منشورة بحثية** تدعم هذا الاتجاه — مما يضع هذا التنبؤ في أدنى مستوى دليل ممكن.
 
 ---
 
-# Doripenem: From Serious Bacterial Infections to Hepatoportal Sclerosis
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Doripenem is a broad-spectrum carbapenem antibiotic originally used to treat serious hospital-acquired bacterial infections, including complicated intra-abdominal infections, complicated urinary tract infections, and hospital-acquired pneumonia.
-The TxGNN model predicts it may be effective for **Hepatoportal Sclerosis**, but currently **0 clinical trials** and **0 publications** support this direction — placing this prediction at the lowest possible evidence level.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Serious bacterial infections (complicated intra-abdominal infections, complicated urinary tract infections, hospital-acquired pneumonia) |
-| Predicted New Indication | Hepatoportal Sclerosis |
-| TxGNN Prediction Score | 99.00% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| المؤشر الأصلي | العدوى البكتيرية الشديدة (العدوى البريتونية المعقدة، العدوى البولية المعقدة، الالتهاب الرئوي المكتسب من المستشفى) |
+| المؤشر الجديد المتنبأ به | تصلب فم الكبد |
+| درجة تنبؤ TxGNN | 99.00% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودية | ✗ غير مسجل |
+| عدد التصاريح | 0 |
+| القرار الموصى به | **احتفظ** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Doripenem belongs to the carbapenem class of β-lactam antibiotics. It works by covalently binding to penicillin-binding proteins (PBPs) — enzymes essential for bacterial cell wall cross-linking — thereby inhibiting cell wall synthesis and causing bacterial cell death. It is a last-resort antibiotic with broad coverage against gram-negative and gram-positive organisms, including many multidrug-resistant strains.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في هذه الحزمة الإثباتية. بناءً على الصيدلة الموضحة، ينتمي دوريبينم إلى فئة الكربابينيم من المضادات الحيوية بيتا-لاكتام. يعمل بالارتباط المشروط بروتينات الارتباط بالبنسلين (PBPs) — الإنزيمات الأساسية لربط جدار الخلية البكتيرية — مما يثبط تخليق جدار الخلية ويسبب موت الخلية البكتيرية. وهو مضاد حيوي ملاذ أخير بتغطية واسعة ضد الكائنات موجبة وسالبة الجرام، بما في ذلك العديد من السلالات المقاومة للأدوية المتعددة.
 
-Hepatoportal sclerosis (also known as obliterative portal venopathy) is a rare vascular liver disease characterized by non-cirrhotic portal hypertension caused by obliteration of small portal vein branches, without an identifiable infectious trigger. The only theoretical bridge to an antibiotic is through the gut-liver axis: reducing intestinal bacterial load could in principle decrease bacterial translocation into the portal circulation, thereby lowering portal inflammatory burden. Animal model research on selective bowel decontamination (SBD) in hepatopulmonary syndrome has explored adjacent concepts, but nothing directly in hepatoportal sclerosis has ever been studied.
+تصلب فم الكبد (يُعرف أيضاً بحجب الأوردة البابية) هو مرض كبدي وعائي نادر يتميز بارتفاع ضغط البابي غير المتشمع الناجم عن انسداد فروع الوريد البابي الصغيرة، بدون مثير معدٍ معروف. الجسر النظري الوحيد لمضاد حيوي هو عبر محور الأمعاء والكبد: تقليل حمل البكتيريا المعوية قد يقلل من الناحية النظرية من هجرة البكتيريا إلى الدورة الدموية البابية، وبالتالي خفض العبء الالتهابي البابي. بحث نموذج الحيوان حول إزالة الجراثيم المعوية الانتقائية (SBD) في متلازمة الكبد الرئوية استكشف مفاهيم مجاورة، لكن لم يتم دراسة أي شيء مباشرة في تصلب فم الكبد من قبل.
 
-This predicted link is almost certainly non-pharmacological in origin. Hepatoportal sclerosis is not an infection-driven disease, Doripenem has no known vascular, anti-fibrotic, or anti-inflammatory mechanism, and the knowledge graph prediction score most likely reflects non-specific co-morbidity node linkages rather than a genuine drug-disease relationship. The same L5/Hold verdict applies uniformly to all five top-ranked predictions for this drug, all of which are rare hepatic or portal vascular conditions.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+هذا الارتباط المتنبأ به تقريباً بالتأكيد ذو منشأ غير دوائي. تصلب فم الكبد ليس مرضاً قائماً على العدوى، دوريبينم ليس لديه آلية عائية أو مضادة للتليف أو مضادة للالتهاب معروفة، ودرجة تنبؤ الرسم البياني للمعرفة على الأرجح تعكس ارتباطات عقدة المراضة غير النوعية بدلاً من العلاقة الحقيقية بين الدواء والمرض. يسري نفس الحكم L5/الاحتفاظ بشكل موحد على جميع التنبؤات الخمسة ذات الترتيب الأعلى لهذا الدواء، وكلها حالات كبدية أو وعائية بابية نادرة.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Doripenem is not currently approved or marketed in Saudi Arabia. No authorizations were found in the SFDA database.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد حالياً أي أدبيات ذات صلة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودية
 
-**Decision: Hold**
+دوريبينم غير معتمد أو مسجل حالياً في المملكة العربية السعودية. لم يتم العثور على أي تصاريح في قاعدة بيانات الهيئة العامة للغذاء والدواء.
 
-**Rationale:**
-All five TxGNN-predicted indications for Doripenem are uniformly rated L5 (model prediction only, zero supporting clinical or preclinical evidence), and the top prediction — hepatoportal sclerosis — has no mechanistic plausibility beyond a highly speculative gut-liver axis hypothesis that has never been tested for this specific disease. Doripenem is also not registered in Saudi Arabia, adding a substantial regulatory hurdle before any clinical development could begin.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- Retrieve full MOA and toxicity profile from DrugBank (DB06211) and obtain SFDA package insert to assess key warnings and contraindications
-- Commission a preclinical proof-of-concept study (animal model of non-cirrhotic portal hypertension) to test whether systemic carbapenem therapy reduces portal inflammatory markers — without this, there is no scientific basis to advance
-- If the gut-decontamination hypothesis is the intended pathway, compare against orally non-absorbable antibiotics (e.g., rifaximin), which have more appropriate pharmacokinetics and existing hepatology evidence
-- Reassess whether the TxGNN prediction cluster (all portal-vascular/hepatic rare diseases at identical scores) represents a genuine signal or a knowledge-graph artifact — consider flagging this drug for model calibration review
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**الأساس المنطقي:**
+جميع المؤشرات الخمسة المتنبأ بها من TxGNN لدوريبينم يتم تصنيفها بشكل موحد L5 (تنبؤ النموذج فقط، بدون دليل إكلينيكي أو ما قبل الإكلينيكي داعم)، والتنبؤ الأعلى — تصلب فم الكبد — لا يوجد لديه معقولية آلية تتجاوز فرضية محور الأمعاء والكبد المرتفعة جداً التي لم يتم اختبارها أبداً لهذا المرض المحدد. دوريبينم أيضاً غير مسجل في المملكة العربية السعودية، مما يضيف عقبة تنظيمية كبيرة قبل أن تتمكن أي تطورات سريرية من البدء.
+
+**للمتابعة، يلزم ما يلي:**
+
+- استرجاع آلية العمل الكاملة وملف السمية من DrugBank (DB06211) والحصول على نشرة الهيئة العامة للغذاء والدواء لتقييم التحذيرات الرئيسية والموانع
+- تكليف دراسة إثبات مفهوم ما قبل الإكلينيكية (نموذج حيواني لارتفاع ضغط البابي غير المتشمع) لاختبار ما إذا كانت علاجات الكربابينيم الجهازية تقلل من علامات الالتهاب البابي — بدون هذا، لا توجد أساس علمي للمتابعة
+- إذا كانت فرضية إزالة الجراثيم المعوية هي المسار المقصود، قارن مقابل المضادات الحيوية غير القابلة للامتصاص عن طريق الفم (مثل ريفاكسيمين)، التي لها حركات دوائية أكثر ملاءمة وأدلة أمراض كبدية موجودة
+- أعد تقييم ما إذا كانت مجموعة تنبؤ TxGNN (جميع أمراض الأوعية البابية/الكبدية النادرة بدرجات متطابقة) تمثل إشارة حقيقية أو علة في الرسم البياني للمعرفة — ضع علامة على هذا الدواء من أجل مراجعة معايرة النموذج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

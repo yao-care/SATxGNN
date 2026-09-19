@@ -29,86 +29,87 @@ indication_count: 3
 
 </div>
 
-# Vidarabine: From Herpesvirus Infections (HSV/VZV) to Actinic Cheilitis
+# الفيداراباين: من عدوى فيروس الهربس (HSV/VZV) إلى التهاب الشفة الضوئي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Vidarabine is a nucleoside analog antiviral historically used against herpes simplex virus (HSV) and varicella-zoster virus (VZV) infections. The TxGNN model's top-ranked prediction suggests possible efficacy for **Actinic Cheilitis**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with no corroborating evidence. Two secondary candidates from the same screen (angular cheilitis, drug-induced osteoporosis) are summarized below; angular cheilitis has one case report, but it documents a treatment **failure**.
+الفيداراباين هو دواء مضاد للفيروسات من فئة النيوكليوسيد الشبيهة، استخدم تاريخياً ضد عدوى فيروس الهربس البسيط (HSV) وفيروس الحماق الحلقي (VZV). يشير التنبؤ الأفضل ترتيباً من نموذج TxGNN إلى فعالية محتملة ضد **التهاب الشفة الضوئي**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و**0 منشور علمي** — إنه تنبؤ نموذجي بحت بدون أي أدلة داعمة. يتم تلخيص مرشحين ثانويين من نفس الفحص (التهاب الشفة الزاوي، هشاشة العظام الناجمة عن الأدوية) أدناه؛ التهاب الشفة الزاوي لديه تقرير حالة واحد، لكنه يوثق **فشل** العلاج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in structured data (original_indications field empty; original_moa flagged as Data Gap) |
-| Predicted New Indication | Actinic Cheilitis |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح في البيانات المهيكلة (حقل `original_indications` فارغ؛ `original_moa` مشار إليه كفجوة بيانات) |
+| المؤشر الجديد المتنبأ به | التهاب الشفة الضوئي |
+| درجة تنبؤ TxGNN | 99.55% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | معلق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, no structured mechanism-of-action data is available for vidarabine in this evidence pack (DrugBank MOA field flagged as a High-severity data gap, DG002). However, the repurposing rationale notes captured alongside each prediction describe vidarabine as an adenine nucleoside analog that, once phosphorylated intracellularly, competitively inhibits viral DNA polymerase — giving it activity against HSV and VZV. Notably, this activation does not depend on viral thymidine kinase (TK), which theoretically preserves activity against TK-deficient, acyclovir-resistant HSV strains.
+حالياً، لا توجد بيانات آلية عمل منظمة متاحة للفيداراباين في هذه مجموعة الأدلة (حقل `DrugBank MOA` مشار إليه كفجوة بيانات عالية الخطورة، DG002). ومع ذلك، تصف ملاحظات الأساس المنطقي لإعادة الاستخدام التي تم التقاطها بجانب كل تنبؤ الفيداراباين بأنه مشابه نيوكليوسيدي للأدينين الذي، عند فسفرته داخل الخلايا، يثبط بشكل تنافسي بوليميراز الحمض النووي الفيروسي — مما يعطيه نشاطاً ضد HSV و VZV. وجدير بالملاحظة أن هذا التفعيل لا يعتمد على ثيميدين كيناز الفيروسي (TK)، وهو ما يحافظ نظرياً على النشاط ضد سلالات HSV المقاومة للأسيكلوفير والناقصة في TK.
 
-This mechanism has no established connection to the top-ranked prediction, **actinic cheilitis**, which is a UV-induced premalignant keratinocyte dysplasia of the lip unrelated to viral infection. The same is true for **drug-induced osteoporosis**, where no pharmacological link to nucleoside antiviral activity is documented. The one candidate with a plausible mechanistic thread is **angular cheilitis**, since a minority of cases are HSV-1 related — but the only available clinical evidence for this indication is a case report in which vidarabine ointment *failed* to control an acyclovir-resistant HSV-1 infection (treatment ultimately succeeded with amenamevir instead).
+هذه الآلية ليس لها اتصال راسخ بالتنبؤ الأعلى ترتيباً، **التهاب الشفة الضوئي**، وهو خلل التنسج الكيراتيني السابق للتسرطن الناتج عن الأشعة فوق البنفسجية في الشفة غير المرتبط بالعدوى الفيروسية. والأمر نفسه ينطبق على **هشاشة العظام الناجمة عن الأدوية**، حيث لم يتم توثيق أي ارتباط دوائي بالنشاط المضاد للفيروسات النيوكليوسيدي. المرشح الوحيد الذي لديه خيط آلي معقول هو **التهاب الشفة الزاوي**، لأن نسبة أقلية من الحالات مرتبطة بـ HSV-1 — لكن الدليل السريري الوحيد المتاح لهذا المؤشر هو تقرير حالة فشل فيه مرهم الفيداراباين في السيطرة على عدوى HSV-1 المقاومة للأسيكلوفير (نجحت المعالجة في النهاية باستخدام amenamevir بدلاً منه).
 
-Overall, the high TxGNN scores across these three candidates (all >99%) appear to be driven by embedding-level lexical/semantic similarity (e.g., "cheilitis") rather than by a validated pharmacological mechanism, and should be interpreted as hypothesis-generating only.
-
----
-
-## Clinical Trial Evidence
-
-**Actinic Cheilitis:** Currently no related clinical trials registered.
-
-**Angular Cheilitis:** Currently no related clinical trials registered.
-
-**Drug-Induced Osteoporosis:** Currently no related clinical trials registered.
+بشكل عام، تبدو درجات TxGNN العالية عبر هؤلاء المرشحين الثلاثة (كلها >99%) أنها مدفوعة بالتشابه اللفظي/الدلالي على مستوى الدمج (على سبيل المثال، "cheilitis") بدلاً من أن تكون مدفوعة بآلية دوائية مثبتة، وينبغي تفسيرها على أنها توليد فرضيات فقط.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-**Actinic Cheilitis:** Currently no related literature available.
+**التهاب الشفة الضوئي:** حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-**Angular Cheilitis:**
+**التهاب الشفة الزاوي:** حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-| PMID | Year | Type | Journal | Key Findings |
+**هشاشة العظام الناجمة عن الأدوية:** حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+**التهاب الشفة الضوئي:** حالياً لا توجد أدبيات ذات صلة متاحة.
+
+**التهاب الشفة الزاوي:**
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38895086](https://pubmed.ncbi.nlm.nih.gov/38895086/) | 2024 | Case Report | EJHaem | Post-transplant patient with acyclovir-resistant HSV-1 angular cheilitis; vidarabine ointment (along with acyclovir and ganciclovir) **failed** to control the infection; resolved only after switching to amenamevir. |
+| [38895086](https://pubmed.ncbi.nlm.nih.gov/38895086/) | 2024 | تقرير حالة | EJHaem | مريض بعد زراعة مصاب بالتهاب شفة زاوي HSV-1 مقاوم للأسيكلوفير؛ مرهم الفيداراباين (جنباً إلى جنب مع الأسيكلوفير والجانسيكلوفير) **فشل** في السيطرة على العدوى؛ تم حلها فقط بعد التبديل إلى amenamevir. |
 
-**Drug-Induced Osteoporosis:** Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Vidarabine holds no market authorizations in Saudi Arabia (market status: Not Marketed, 0 licenses on file).
+**هشاشة العظام الناجمة عن الأدوية:** حالياً لا توجد أدبيات ذات صلة متاحة.
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+الفيداراباين لا يمتلك أي موافقات سوقية في المملكة العربية السعودية (حالة السوق: غير مسوق، 0 رخصة قيد الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
-**Rationale:**
-All three TxGNN-predicted indications rest on model score alone (L5) or a single negative case report (L4 for angular cheilitis, S1) — none meet the bar of prospective clinical evidence. The one indication with real-world clinical data (angular cheilitis) shows vidarabine failing to achieve therapeutic effect. Combined with the absence of Saudi Arabia market presence and a Blocking-severity data gap on TFDA/package-insert safety information, there is currently no basis to advance any of these candidates past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Structured drug mechanism-of-action data from DrugBank — currently a High-severity data gap (DG002)
-- Prospective clinical or in vitro mechanistic data specifically linking vidarabine to actinic cheilitis or drug-induced osteoporosis, given no current evidence exists
-- If pursuing angular cheilitis, additional cases beyond the single negative report before drawing conclusions
+## الخاتمة والخطوات التالية
+
+**القرار: معلق**
+
+**الأساس المنطقي:**
+جميع المؤشرات الثلاثة التي تنبأ بها TxGNN تستند إما إلى درجة النموذج وحدها (L5) أو إلى تقرير حالة سلبي واحد (L4 للتهاب الشفة الزاوي، S1) — لا أحد منها يستوفي معايير الأدلة السريرية المستقبلية. المؤشر الوحيد الذي يحتوي على بيانات سريرية من العالم الحقيقي (التهاب الشفة الزاوي) يظهر فشل الفيداراباين في تحقيق تأثير علاجي. في الجمع مع غياب وجود سوق المملكة العربية السعودية وفجوة بيانات حاجبة في معلومات السلامة بشأن TFDA/النشرة المرفقة، لا توجد حالياً أساس للمضي قدماً في أي من هؤلاء المرشحين بعد الفحص الأولي.
+
+**للمضي قدماً، يلزم التالي:**
+- النشرة المرفقة من TFDA (التحذيرات، موانع الاستخدام) — حالياً فجوة بيانات حاجبة (DG001)
+- بيانات آلية عمل الدواء المنظمة من DrugBank — حالياً فجوة بيانات عالية الخطورة (DG002)
+- بيانات آلية سريرية أو في المختبر مستقبلية ترتبط بشكل محدد بالفيداراباين بالتهاب الشفة الضوئي أو هشاشة العظام الناجمة عن الأدوية، نظراً لعدم وجود أي أدلة حالية
+- في حالة متابعة التهاب الشفة الزاوي، حالات إضافية تتجاوز التقرير السلبي الوحيد قبل الوصول إلى الاستنتاجات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,78 +29,79 @@ indication_count: 5
 
 </div>
 
-# Clarithromycin: From Bacterial Infections to Hyperamylasemia
+# كلاريثروميسين: من العدوى البكتيرية إلى فرط الأميليز
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Clarithromycin is a macrolide antibiotic widely used for respiratory tract infections, skin and soft tissue infections, and *Mycobacterium avium* complex (MAC) disease, as well as *Helicobacter pylori* eradication regimens.
-The TxGNN model predicts a potential association with **Hyperamylasemia**,
-with **0 clinical trials** and **1 case report** currently available — suggesting the connection is mechanistically indirect rather than a direct therapeutic application.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Bacterial infections (macrolide antibiotic; no Saudi Arabia authorizations on record) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.35% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+كلاريثروميسين هو مضاد حيوي ماكروليدي يستخدم على نطاق واسع لعلاج التهابات الجهاز التنفسي والعدوى الجلدية والأنسجة الرخوة وداء المتفطرة الطيرية (MAC)، وكذلك في أنظمة استئصال *Helicobacter pylori*.
+يتنبأ نموذج TxGNN بوجود ارتباط محتمل مع **فرط الأميليز**،
+مع **عدم وجود تجارب سريرية** و**تقرير حالة واحد** فقط متاح حالياً — مما يشير إلى أن الارتباط غير مباشر بطبيعته الآلية بدلاً من كونه تطبيقاً علاجياً مباشراً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, clarithromycin is a macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit. It is a cornerstone agent in treating *Mycobacterium avium* complex (MAC) and *Mycobacterium abscessus* pulmonary infections, and also exerts immunomodulatory effects by downregulating pro-inflammatory cytokines (IL-6, IL-8, TNF-α).
-
-The predicted link to hyperamylasemia is **indirect and secondary**, not a direct therapeutic effect on serum amylase. TxGNN most likely constructed this connection through a knowledge graph path: clarithromycin → treats MAC/*M. abscessus* infection → mycobacterial infection can trigger infectious pancreatitis → pancreatitis elevates serum amylase (hyperamylasemia). A secondary pathway also exists: clarithromycin itself has been reported in very rare cases to cause drug-induced pancreatitis, which would also produce hyperamylasemia.
-
-The sole supporting publication (PMID 15228140) describes a case of *M. abscessus* pulmonary infection complicated by primary macroamylasemia — illustrating co-occurrence of mycobacterial disease and elevated amylase, not a clarithromycin treatment effect directed at amylase levels. Hyperamylasemia is a laboratory finding rather than a primary disease target, and no evidence supports clarithromycin as a treatment for hyperamylasemia independent of its antimicrobial indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | عدوى بكتيرية (مضاد حيوي ماكروليدي؛ لا توجد تفويضات بالمملكة العربية السعودية في السجلات) |
+| المؤشر الجديد المتنبأ به | فرط الأميليز |
+| درجة التنبؤ TxGNN | 99.35% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروّض |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case Report | Nihon Kokyuki Gakkai zasshi (Japanese Respiratory Society) | *M. abscessus* pulmonary infection in a 76-year-old man complicated with primary macroamylasemia; illustrates co-occurrence of mycobacterial infection and elevated amylase — not a direct clarithromycin treatment effect on amylase levels |
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في هذا الحزمة الدليلية. بناءً على الصيدلة الموثقة، كلاريثروميسين هو مضاد حيوي ماكروليدي يثبط تخليق البروتين البكتيري بالارتباط بالوحدة الفرعية 50S للريبوسوم. وهو عامل أساسي في علاج داء المتفطرة الطيرية (MAC) والعدوى الرئوية بالمتفطرة الصفراء (*Mycobacterium abscessus*)، كما أنه يمارس تأثيرات معدلة للمناعة بتقليل السيتوكينات المؤيدة للالتهاب (IL-6 و IL-8 و TNF-α).
 
----
+الارتباط المتنبأ به مع فرط الأميليز **غير مباشر وثانوي**، وليس تأثيراً علاجياً مباشراً على الأميليز المصلي. من المرجح أن TxGNN قد بنى هذا الارتباط من خلال مسار في الرسم البياني للمعرفة: كلاريثروميسين → يعالج عدوى MAC/المتفطرة الصفراء → العدوى بالمتفطرات يمكن أن تؤدي إلى التهاب البنكرياس المعدي → التهاب البنكرياس يرفع الأميليز المصلي (فرط الأميليز). يوجد أيضاً مسار ثانوي: كلاريثروميسين نفسه تم الإبلاغ عنه في حالات نادرة جداً بأنه يسبب التهاب البنكرياس الناتج عن الأدوية، الأمر الذي سيؤدي أيضاً إلى فرط الأميليز.
 
-## Saudi Arabia Market Information
-
-Clarithromycin is **not currently marketed in Saudi Arabia**. No SFDA product authorizations were found in the regulatory database.
+المنشور الوحيد الداعم (PMID 15228140) يصف حالة عدوى رئوية بالمتفطرة الصفراء معقدة بفرط الأميليز الكبير الأساسي — يوضح التزامن بين مرض المتفطرات والأميليز المرتفع، وليس تأثير علاج كلاريثروميسين الموجه نحو مستويات الأميليز. فرط الأميليز هو إيجادة معملية وليس هدفاً مرضياً أساسياً، ولا توجد أدلة تدعم كلاريثروميسين كعلاج لفرط الأميليز بشكل مستقل عن مؤشره المضاد للميكروبات.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | الدورية | الاستنتاجات الرئيسية |
+|------|------|------|---------|-------------------|
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | تقرير حالة | Nihon Kokyuki Gakkai zasshi (جمعية الجهاز التنفسي اليابانية) | عدوى رئوية بالمتفطرة الصفراء في رجل يبلغ من العمر 76 عاماً معقدة بفرط الأميليز الكبير الأساسي؛ يوضح التزامن بين عدوى المتفطرات والأميليز المرتفع — وليس تأثيراً علاجياً مباشراً لكلاريثروميسين على مستويات الأميليز |
 
-**Rationale:**
-The predicted link between clarithromycin and hyperamylasemia is mechanistically indirect (MAC infection → secondary pancreatitis → elevated amylase) and supported only by a single 2004 case report describing co-occurrence rather than therapeutic benefit. Hyperamylasemia is a laboratory marker, not an actionable treatment target in its own right, making this a low-priority repurposing candidate.
+---
 
-**To proceed, the following is needed:**
-- Clarify the clinical question: if the goal is to treat hyperamylasemia *caused by* MAC/*M. abscessus* infection, clarithromycin's role as the primary antimicrobial is already well-established and no new repurposing study is required; if the goal is to treat hyperamylasemia of *other* etiologies, a mechanistic rationale must first be established
-- Mechanism of action data (MOA) from DrugBank to complete mechanistic gap analysis (DG002)
-- Saudi Arabia package insert and SFDA label data for safety screening (DG001)
-- If this indication is to be pursued further, a systematic literature review covering macrolide effects on pancreatic amylase secretion is needed as a prerequisite to any research protocol design
+## معلومات السوق في المملكة العربية السعودية
+
+كلاريثروميسين **غير معروّض حالياً في المملكة العربية السعودية**. لم يتم العثور على أي تفويضات منتجات من الهيئة العامة للغذاء والدواء في قاعدة البيانات التنظيمية.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+الارتباط المتنبأ به بين كلاريثروميسين وفرط الأميليز غير مباشر بطبيعته الآلية (عدوى MAC → التهاب البنكرياس الثانوي → الأميليز المرتفع) ويدعمه فقط تقرير حالة واحد من عام 2004 يصف التزامن بدلاً من الفائدة العلاجية. فرط الأميليز هو مؤشر معملي وليس هدفاً علاجياً قابلاً للتنفيذ بحد ذاته، مما يجعل هذا مرشحاً لإعادة التوظيف منخفض الأولوية.
+
+**للمتابعة، يلزم ما يلي:**
+- توضيح السؤال السريري: إذا كان الهدف هو علاج فرط الأميليز *الناجم عن* عدوى MAC/المتفطرة الصفراء، فإن دور كلاريثروميسين كعامل مضاد للميكروبات الأساسي مثبت بالفعل ولا تلزم أي دراسة إعادة توظيف جديدة؛ إذا كان الهدف هو علاج فرط الأميليز من *أسباب أخرى*، يجب أن يتم إنشاء أساس آلي أولاً
+- بيانات آلية العمل (MOA) من DrugBank لإكمال تحليل الفجوة الآلية (DG002)
+- بيانات النشرة الداخلية بالمملكة العربية السعودية وبيانات ملصق الهيئة العامة للغذاء والدواء لفحص السلامة (DG001)
+- إذا كان سيتم متابعة هذا المؤشر بشكل أكبر، فإن مراجعة منهجية شاملة لتأثيرات الماكروليدات على إفراز الأميليز البنكرياسي مطلوبة كشرط أساسي لأي تصميم بروتوكول بحثي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Aminocaproic Acid: From Hemorrhage Control to Severe Nonproliferative Diabetic Retinopathy
+# Aminocaproic Acid: من السيطرة على النزيف إلى اعتلال الشبكية السكري غير التكاثري الشديد
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Aminocaproic acid is a synthetic lysine analogue antifibrinolytic agent, clinically used to control excessive bleeding by inhibiting the fibrinolytic system.
-The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**,
-however **no clinical trials** and **no published literature** currently support this direction.
+حمض الأمينوكابروييك هو عامل مضاد للانحلال الليفيني صناعي يشبه اللايسين، يُستخدم سريرياً للسيطرة على النزيف المفرط عن طريق منع نظام الانحلال الليفيني.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اعتلال الشبكية السكري غير التكاثري الشديد**،
+ومع ذلك، **لا توجد تجارب سريرية** و**لا توجد أدبيات منشورة** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Antifibrinolytic agent (hemorrhage control, excessive fibrinolysis) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | عامل مضاد للانحلال الليفيني (السيطرة على النزيف، الانحلال الليفيني المفرط) |
+| المؤشر الجديد المتنبأ به | اعتلال الشبكية السكري غير التكاثري الشديد |
+| درجة تنبؤ TxGNN | 99.27% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Aminocaproic acid is a synthetic lysine analogue that competitively inhibits plasminogen binding to fibrin, thereby suppressing the fibrinolytic system. It is primarily used clinically to manage excessive bleeding in settings such as post-surgical hemorrhage and hyperfibrinolytic states. Formal MOA data is not yet available in the current dataset, but this antifibrinolytic mechanism is well-established in pharmacological literature and provides the basis for evaluating the repurposing hypothesis.
+حمض الأمينوكابروييك هو عامل مضاد للانحلال الليفيني صناعي يشبه اللايسين ويثبط بشكل تنافسي ارتباط البلازمينوجين بالفيبرين، مما يقلل من نظام الانحلال الليفيني. يُستخدم بشكل أساسي سريرياً لإدارة النزيف المفرط في حالات مثل النزيف بعد الجراحة والحالات فرط الانحلال الليفيني. بيانات آلية العمل الرسمية غير متاحة حالياً في مجموعة البيانات الحالية، لكن هذه الآلية المضادة للانحلال الليفيني معروفة جيداً في الأدبيات الصيدلانية وتوفر الأساس لتقييم فرضية إعادة الاستخدام.
 
-In diabetic retinopathy, the coagulation–fibrinolysis balance is disrupted: elevated PAI-1 (plasminogen activator inhibitor-1) and a tPA/PAI-1 imbalance have been associated with retinal microvascular damage. In theory, an antifibrinolytic agent might reduce microhemorrhage by stabilising clot formation at sites of microvascular injury.
+في اعتلال الشبكية السكري، يكون التوازن بين التخثر والانحلال الليفيني مختلاً: ارتفاع PAI-1 (مثبط منشط البلازمينوجين-1) وعدم التوازن بين tPA/PAI-1 ارتبطا بإصابة الأوعية الدقيقة الشبكية. نظرياً، قد يقلل عامل مضاد للانحلال الليفيني من نزيف الأوعية الدقيقة بتثبيت تكوين الجلطة في مواقع إصابة الأوعية الدقيقة.
 
-However, the pathological core of **severe nonproliferative diabetic retinopathy (severe NPDR)** is microvascular occlusion and retinal ischaemia — not excessive fibrinolysis. Further suppression of fibrinolysis risks aggravating microvascular thrombosis and accelerating disease progression. The mechanistic link is therefore weak and directionally questionable, which is consistent with the L5 evidence classification and the Hold recommendation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الأساس الممرض لـ **اعتلال الشبكية السكري غير التكاثري الشديد** هو انسداد الأوعية الدقيقة ونقص التروية الشبكية — وليس الانحلال الليفيني المفرط. قد يؤدي الكبح الإضافي للانحلال الليفيني إلى تفاقم تخثر الأوعية الدقيقة وتسريع تطور المرض. وبالتالي، الصلة الميكانيكية ضعيفة واتجاهياً مريبة، وهو ما يتسق مع تصنيف الدليل L5 وتوصية الانتظار.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This prediction rests entirely on model output with no supporting clinical trials or published literature. More critically, the proposed mechanism — antifibrinolysis — may be directionally harmful in severe NPDR, where the underlying pathology is microvascular occlusion rather than pathological fibrinolysis.
+---
 
-**To proceed, the following is needed:**
-- Formal MOA and safety data (key warnings, contraindications, DDIs) to be retrieved from DrugBank and the package insert
-- Preclinical data in animal models of diabetic retinopathy to assess ocular bioavailability and safety
-- A clear mechanistic hypothesis explaining why antifibrinolytic activity would be beneficial — rather than harmful — in the context of retinal ischaemia
-- At minimum one exploratory observational study or mechanistic study (to reach L4) before any clinical consideration
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+يستند هذا التنبؤ بالكامل على مخرجات النموذج دون دعم من التجارب السريرية أو الأدبيات المنشورة. بشكل أكثر أهمية، الآلية المقترحة — مضادة للانحلال الليفيني — قد تكون مؤذية اتجاهياً في اعتلال الشبكية السكري غير التكاثري الشديد، حيث يكون الأساس الممرض هو انسداد الأوعية الدقيقة وليس الانحلال الليفيني المرضي.
+
+**لكي نتابع، المطلوب التالي:**
+- بيانات آلية العمل الرسمية والسلامة (التحذيرات الرئيسية، موانع الاستخدام، التفاعلات الدوائية) المسترجعة من DrugBank والنشرة المرفقة
+- بيانات ما قبل الإكلينيكية في نماذج حيوانية لاعتلال الشبكية السكري لتقييم التوفر البيولوجي في العين والسلامة
+- فرضية ميكانيكية واضحة تشرح لماذا سيكون النشاط المضاد للانحلال الليفيني مفيداً — وليس ضاراً — في سياق نقص التروية الشبكية
+- دراسة مراقبة استكشافية واحدة على الأقل أو دراسة ميكانيكية (للوصول إلى L4) قبل أي اعتبار سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

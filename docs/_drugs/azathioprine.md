@@ -29,111 +29,112 @@ indication_count: 10
 
 </div>
 
-# Azathioprine: From Organ Transplant Rejection to Inflammatory Bowel Disease
+# الأزاثيوبرين: من رفض الأعضاء المزروعة إلى أمراض الأمعاء الالتهابية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Azathioprine is a thiopurine immunosuppressant historically used to prevent organ transplant rejection and manage systemic autoimmune diseases.
-The TxGNN model predicts it may be effective for **Inflammatory Bowel Disease (IBD)** — encompassing Crohn's disease and ulcerative colitis —
-with **multiple Phase 3 clinical trials** and **Cochrane systematic reviews** (including a 2025 update) providing robust support for this direction.
+الأزاثيوبرين هو عامل قمع مناعي من فئة الثيوبيورين استُخدم تاريخياً لمنع رفض الأعضاء المزروعة وإدارة الأمراض الذاتية الجهازية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **أمراض الأمعاء الالتهابية (IBD)** — التي تشمل مرض كرون والتهاب القولون التقرحي —
+مع **عدة تجارب سريرية من المرحلة الثالثة** و **مراجعات منهجية من Cochrane** (بما فيها تحديث 2025) توفر دعماً قوياً لهذا الاتجاه.
 
-> **Note on TxGNN ranking:** The four highest-ranked TxGNN predictions (ranks 1–4, scores >99.68%) are congenital developmental disorders — colobomatous microphthalmia-rhizomelic dysplasia, brachydactyly-syndactyly syndrome, acromesomelic dysplasia, and WHIM syndrome — none of which have any mechanistic or clinical basis for azathioprine repurposing. These scores likely reflect indirect network connections in the knowledge graph rather than genuine therapeutic relevance, and all carry an evidence level of **L5 / Hold**. The first clinically actionable prediction is **Inflammatory Bowel Disease** (rank 5, score 99.52%), backed by decades of Phase 3 trial evidence and Cochrane-level synthesis.
+> **ملاحظة حول تصنيف TxGNN:** التنبؤات الأربعة الأعلى تصنيفاً من TxGNN (الرتب 1–4، درجات >99.68%) هي اضطرابات نمائية خلقية — وجود colobomatous microphthalmia-rhizomelic dysplasia وbrachydactyly-syndactyly syndrome وacromesomelic dysplasia وWHIM syndrome — وليس لأي منها أي أساس ميكانيكي أو سريري لإعادة استخدام الأزاثيوبرين. ربما تعكس هذه الدرجات اتصالات شبكة غير مباشرة في الرسم البياني المعرفي وليس ملائمة علاجية حقيقية، وجميعها تحمل مستوى أدلة **L5 / Hold**. أول تنبؤ قابل للتصرف سريرياً هو **أمراض الأمعاء الالتهابية** (الرتبة 5، درجة 99.52%)، مدعوم بعقود من أدلة تجارب المرحلة الثالثة وتجميع على مستوى Cochrane.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Organ transplant rejection prevention; autoimmune diseases |
-| Predicted New Indication | Inflammatory Bowel Disease (Crohn's disease & ulcerative colitis) |
-| TxGNN Prediction Score | 99.52% (model rank 5) |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | منع رفض الأعضاء المزروعة؛ الأمراض الذاتية |
+| المؤشر الجديد المتنبأ به | أمراض الأمعاء الالتهابية (مرض كرون والتهاب القولون التقرحي) |
+| درجة التنبؤ من TxGNN | 99.52% (رتبة النموذج 5) |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع إجراءات احترازية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Azathioprine is a prodrug that is non-enzymatically converted to 6-mercaptopurine (6-MP) after oral administration. 6-MP is then further metabolized by TPMT and HPRT into the active 6-thioguanine nucleotides (6-TGNs). These metabolites suppress de novo purine synthesis and incorporate into the DNA of rapidly dividing lymphocytes, triggering apoptosis of activated T and B cells and inhibiting their proliferation. A secondary mechanism involves inhibition of Rac1 GTPase-mediated signalling, which amplifies pro-inflammatory cytokine production.
+الأزاثيوبرين هو دواء أولي يتم تحويله بشكل غير إنزيمي إلى 6-ميركابتوبيورين (6-MP) بعد الإعطاء الفموي. يتم تمثيل 6-MP بعد ذلك بواسطة TPMT و HPRT إلى النيوكليوتيدات النشطة 6-thioguanine (6-TGNs). تقمع هذه المستقلبات تخليق البيورين de novo وتدمج في الحمض النووي للخلايا الليمفاوية سريعة الانقسام، مما يؤدي إلى موت الخلايا المبرمج للخلايا الليمفاوية المنشطة والقمع من تكاثرها. تتضمن الآلية الثانوية تثبيط Rac1 GTPase الوساطة في الإشارات، مما يعزز إنتاج السيتوكينات المؤيدة للالتهاب.
 
-Inflammatory bowel disease is driven by a sustained, dysregulated mucosal immune response. In Crohn's disease, Th1/Th17 T-cell hyperactivation drives transmural granulomatous inflammation; in ulcerative colitis, aberrant mucosal T-cell activity sustains mucosal injury and ulceration. Azathioprine's mechanism directly intercepts these lymphocyte-driven pathways, making it biologically coherent as an IBD maintenance agent. This mechanistic alignment is what the TxGNN knowledge graph captures in its high prediction score.
+يتم تشغيل أمراض الأمعاء الالتهابية من خلال استجابة مناعية مخاطية مستدامة وغير منظمة. في مرض كرون، يدفع فرط نشاط خلايا Th1/Th17 T الالتهاب الحبيبي عبر جدار الأمعاء؛ في التهاب القولون التقرحي، يحافظ نشاط خلايا T المخاطية الشاذ على إصابة الغشاء المخاطي والتقرح. تقطع آلية الأزاثيوبرين بشكل مباشر هذه المسارات المدفوعة بالخلايا الليمفاوية، مما يجعلها متسقة بيولوجياً كعامل صيانة IBD. هذا التوافق الميكانيكي هو ما يعكسه رسم بياني معارف TxGNN في درجة التنبؤ العالية.
 
-The prediction is not merely theoretical — azathioprine is already enshrined in international IBD guidelines as a first-line immunomodulator for steroid-dependent and steroid-refractory disease. The SONIC trial (Phase 3, 508 patients) demonstrated that infliximab plus azathioprine is superior to either agent alone in Crohn's disease. The 2025 updated Cochrane review confirmed its role in ulcerative colitis maintenance. Saudi Arabia's current absence of local registration represents a regulatory opportunity, not an evidence gap. Key caveats include the need for pre-treatment TPMT/NUDT15 pharmacogenomic screening to avoid potentially life-threatening myelosuppression, and careful risk-benefit assessment when combining with biologics (increased lymphoma risk).
+التنبؤ ليس مجرد نظري — الأزاثيوبرين مدرج بالفعل في إرشادات IBD الدولية كمعدِّل مناعي من الخط الأول لمرض يعتمد على الستيرويدات وغير المستجيب للستيرويدات. أثبتت تجربة SONIC (المرحلة الثالثة، 508 مريضاً) أن infliximab بالإضافة إلى الأزاثيوبرين أفضل من أي عامل وحده في مرض كرون. أكدت مراجعة Cochrane المحدثة 2025 دوره في صيانة التهاب القولون التقرحي. يمثل عدم وجود تسجيل محلي في المملكة العربية السعودية فرصة تنظيمية وليس فجوة أدلة. تشمل التحفظات الرئيسية الحاجة إلى فحص الأدوية الوراثية TPMT/NUDT15 قبل المعالجة لتجنب قمع النخاع العظمي الذي قد يهدد الحياة، وتقييم دقيق لنسبة المخاطر والفوائد عند الجمع مع العوامل البيولوجية (زيادة خطر الأورام الليمفاوية).
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Phase 3 | Unknown | 84 | Directly compares low-dose AZA + allopurinol optimization vs standard AZA monotherapy in ulcerative colitis; tests whether allopurinol co-administration improves 6-TGN levels and reduces treatment failures |
-| [NCT00094458](https://clinicaltrials.gov/study/NCT00094458) | Phase 3 | Completed | 508 | Three-arm SONIC-type trial in biologic- and immunomodulator-naïve Crohn's disease: infliximab alone, AZA alone, or infliximab + AZA; established the superiority of combination therapy |
-| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | Phase 4 | Completed | 211 | SPARE trial: patients in sustained steroid-free remission on IFX+AZA randomized to continue combination, IFX monotherapy, or AZA monotherapy — evaluates whether anti-metabolite withdrawal is safe |
-| [NCT02517684](https://clinicaltrials.gov/study/NCT02517684) | Phase 4 | Completed | 100 | Top-down IFX + AZA vs conventional step-up approach (steroids/EEN + AZA) in moderate-to-severe pediatric Crohn's disease; directly evaluates AZA-containing regimens in children |
-| [NCT05584228](https://clinicaltrials.gov/study/NCT05584228) | N/A | Not Yet Recruiting | 150 | SMART trial: AZA + subcutaneous infliximab vs ileocecal resection in symptomatic small bowel Crohn's stricture — positions AZA + biologic combination as the medical management comparator arm |
-| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Phase 4 | Recruiting | 300 | MIRACLE trial: mirikizumab (top-down) vs AZA (standard of care) in newly diagnosed moderate-to-severe UC — reinforces AZA as the current benchmark therapy against which newer biologics are measured |
-| [NCT01015391](https://clinicaltrials.gov/study/NCT01015391) | N/A | Unknown | 100 | Randomized open-label study comparing T2 (plant-derived combination) vs AZA for maintaining clinical and endoscopic remission in Crohn's disease after surgical resection |
-| [NCT03185611](https://clinicaltrials.gov/study/NCT03185611) | Phase 3 | Unknown | 120 | Rifaximin + thiopurine vs thiopurine alone for preventing postoperative endoscopic recurrence in high-risk Crohn's disease; AZA (thiopurine) forms the backbone of both treatment arms |
-| [NCT04304950](https://clinicaltrials.gov/study/NCT04304950) | Phase 4 | Completed | 28 | IBD chronotherapy study: morning vs evening administration of AZA/6-MP in IBD patients — evaluates whether circadian timing influences efficacy and disease outcomes |
-| [NCT00113503](https://clinicaltrials.gov/study/NCT00113503) | Phase 2 | Terminated | 50 | Multi-site trial directly comparing weight-based vs metabolite-guided (6-TGN level) AZA dosing in steroid-dependent Crohn's disease; terminated early but provides dosing optimization data |
+| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | المرحلة الثالثة | غير محدد | 84 | مقارنة مباشرة بين جرعة منخفضة من AZA + تحسين الوبيورينول مقابل علاج AZA أحادي قياسي في التهاب القولون التقرحي؛ اختبار ما إذا كان التعايش مع الوبيورينول يحسن مستويات 6-TGN ويقلل من فشل المعالجة |
+| [NCT00094458](https://clinicaltrials.gov/study/NCT00094458) | المرحلة الثالثة | مكتملة | 508 | تجربة SONIC ثلاثية الأذرع في مرض كرون البكر للعوامل البيولوجية والمعدِّلات المناعية: infliximab وحده، AZA وحده، أو infliximab + AZA؛ أثبتت تفوق العلاج المركب |
+| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | المرحلة الرابعة | مكتملة | 211 | تجربة SPARE: المرضى في هجوع خالٍ من الستيرويدات مستدام على IFX+AZA عشوائياً لمتابعة العلاج المركب أو علاج IFX أحادي أو AZA أحادي — يقيّم ما إذا كان سحب معدِّل مضاد الاستقلاب آمناً |
+| [NCT02517684](https://clinicaltrials.gov/study/NCT02517684) | المرحلة الرابعة | مكتملة | 100 | نهج IFX + AZA من الأعلى إلى الأسفل مقابل النهج التدريجي التقليدي (الستيرويدات/EEN + AZA) في مرض كرون الشديد المعتدل عند الأطفال؛ يقيّم بشكل مباشر أنظمة تحتوي على AZA عند الأطفال |
+| [NCT05584228](https://clinicaltrials.gov/study/NCT05584228) | بدون تحديد | لم يبدأ الاستقطاب بعد | 150 | تجربة SMART: AZA + infliximab تحت الجلد مقابل الاستئصال ileocecal في تضيق الأمعاء الدقيقة العرضي في مرض كرون — يضع مجموعة AZA + الدواء البيولوجي كذراع المقارنة للإدارة الطبية |
+| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | المرحلة الرابعة | قيد الاستقطاب | 300 | تجربة MIRACLE: mirikizumab (من الأعلى إلى الأسفل) مقابل AZA (معيار الرعاية) في التهاب القولون التقرحي الشديد المعتدل المشخص حديثاً — يعزز AZA كعلاج معياري حالي تُقاس ضده الأدوية البيولوجية الأحدث |
+| [NCT01015391](https://clinicaltrials.gov/study/NCT01015391) | بدون تحديد | غير محدد | 100 | دراسة عشوائية مفتوحة تقارن T2 (مجموعة مشتقة من النبات) مقابل AZA للحفاظ على هجوع سريري وبطاني في مرض كرون بعد الاستئصال الجراحي |
+| [NCT03185611](https://clinicaltrials.gov/study/NCT03185611) | المرحلة الثالثة | غير محدد | 120 | Rifaximin + ثيوبيورين مقابل ثيوبيورين وحده لمنع الانتكاس البطاني بعد الجراحة في مرض كرون عالي الخطورة؛ يشكل AZA (ثيوبيورين) العمود الفقري لذراعي المعالجة |
+| [NCT04304950](https://clinicaltrials.gov/study/NCT04304950) | المرحلة الرابعة | مكتملة | 28 | دراسة chronotherapy IBD: الإعطاء في الصباح مقابل المساء من AZA/6-MP في مرضى IBD — يقيّم ما إذا كان توقيت إيقاع الساعة البيولوجية يؤثر على الفعالية والنتائج المرضية |
+| [NCT00113503](https://clinicaltrials.gov/study/NCT00113503) | المرحلة الثانية | أوقفت | 50 | تجربة متعددة المواقع تقارن بشكل مباشر جرعات تعتمد على الوزن مقابل التوجيه بواسطة المستقلبات (مستويات 6-TGN) في مرض كرون يعتمد على الستيرويدات؛ أوقفت مبكراً لكنها توفر بيانات تحسين الجرعات |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | Cochrane SR | Cochrane Database Syst Rev | Updated Cochrane review on AZA and 6-MP for maintenance of remission in UC; most current evidence synthesis confirming thiopurine efficacy for long-term disease management |
-| [39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) | 2025 | RCT | Gut | ACTIVE trial: top-down infliximab + AZA vs AZA alone in acute severe UC responding to IV steroids — directly addresses optimal AZA-based post-hospitalization maintenance strategy |
-| [19392869](https://pubmed.ncbi.nlm.nih.gov/19392869/) | 2009 | Meta-analysis | Aliment Pharmacol Ther | Meta-analysis establishing efficacy of AZA and 6-MP in UC; demonstrated benefit comparable to that seen in Crohn's disease and provided pooled efficacy estimates |
-| [27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) | 2016 | Cochrane SR | Cochrane Database Syst Rev | Cochrane systematic review of AZA/6-MP for remission maintenance in UC — predecessor to the 2025 update, providing longitudinal evidence tracking |
-| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Review | J Crohn's Colitis | State-of-the-art review of thiopurine treatment in IBD; covers current indications, TPMT/NUDT15 pharmacogenomics, metabolite-guided optimization, and long-term safety considerations |
-| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Review | Expert Rev Gastroenterol Hepatol | Updated molecular mechanism of AZA in IBD including Rac1 GTPase inhibition and T-cell apoptosis induction; bridges 45 years of clinical experience with emerging mechanistic insights |
-| [10499471](https://pubmed.ncbi.nlm.nih.gov/10499471/) | 1999 | Review | Scand J Gastroenterol Suppl | Foundational review on AZA long-term clinical efficacy and safety in IBD; documents early regulatory approval context and clinical evidence base |
-| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Basic/Translational | Cell Reports Medicine | Identifies *Blautia wexlerae* gut microbiota as a driver of AZA therapy failure in IBD by reducing 6-MP bioavailability; highlights microbiome as a modifiable factor in treatment response |
-| [36462311](https://pubmed.ncbi.nlm.nih.gov/36462311/) | 2023 | Cohort | Biomed Pharmacother | TPMT gene DNA methylation and AZA pharmacokinetics in very early onset IBD children; demonstrates higher TPMT activity in VEO-IBD compared to adolescent IBD, with implications for dose calibration |
-| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Review | J Gastroenterol Hepatol | Comprehensive review of AZA/6-MP pharmacogenetics and metabolite monitoring in IBD; covers TPMT polymorphisms, 6-TGN therapeutic windows, and strategies to reduce toxicity while maximizing efficacy |
+| [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | مراجعة منهجية Cochrane | Cochrane Database Syst Rev | مراجعة Cochrane المحدثة على AZA و 6-MP للحفاظ على هجوع في التهاب القولون التقرحي؛ أحدث تجميع أدلة يؤكد فعالية ثيوبيورين لإدارة المرض طويلة الأمد |
+| [39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) | 2025 | تجربة عشوائية محكومة | Gut | تجربة ACTIVE: infliximab من الأعلى إلى الأسفل + AZA مقابل AZA وحده في التهاب القولون التقرحي الشديد الحاد الاستجابة لستيرويدات وريدية — يعالج بشكل مباشر استراتيجية الصيانة المثلى القائمة على AZA بعد دخول المستشفى |
+| [19392869](https://pubmed.ncbi.nlm.nih.gov/19392869/) | 2009 | تحليل تلوي | Aliment Pharmacol Ther | تحليل تلوي يثبت فعالية AZA و 6-MP في التهاب القولون التقرحي؛ أظهر فائدة مماثلة لتلك المرئية في مرض كرون وقدم تقديرات فعالية مجمعة |
+| [27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) | 2016 | مراجعة منهجية Cochrane | Cochrane Database Syst Rev | مراجعة منهجية Cochrane لـ AZA/6-MP للحفاظ على الهجوع في التهاب القولون التقرحي — السابقة للتحديث 2025، توفير تتبع أدلة طولي |
+| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | مراجعة | J Crohn's Colitis | مراجعة حالة الفن لعلاج ثيوبيورين في IBD؛ يغطي المؤشرات الحالية وعلم الوراثة الدوائية TPMT/NUDT15 والتحسين الموجه بالمستقلبات والاعتبارات الأمان طويلة الأمد |
+| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | مراجعة | Expert Rev Gastroenterol Hepatol | آلية جزيئية محدثة لـ AZA في IBD بما في ذلك تثبيط Rac1 GTPase واستحثاث موت الخلايا المبرمج في خلايا T؛ يجسد 45 سنة من التجربة السريرية مع رؤى ميكانيكية ناشئة |
+| [10499471](https://pubmed.ncbi.nlm.nih.gov/10499471/) | 1999 | مراجعة | Scand J Gastroenterol Suppl | مراجعة أساسية عن الفعالية السريرية طويلة الأمد والسلامة في IBD؛ توثق سياق الموافقة التنظيمية المبكرة وقاعدة الأدلة السريرية |
+| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | أساسية/ترجمة | Cell Reports Medicine | تحديد *Blautia wexlerae* المجهرية المعوية كمحرك لفشل علاج AZA في IBD بتقليل التوفر البيولوجي 6-MP؛ يبرز المجهرية كعامل قابل للتعديل في استجابة العلاج |
+| [36462311](https://pubmed.ncbi.nlm.nih.gov/36462311/) | 2023 | حالة | Biomed Pharmacother | مثيلة الحمض النووي الجين TPMT وحرائك الأدوية من AZA في أطفال IBD الناشئة جداً؛ توضح نشاط TPMT أعلى في VEO-IBD مقارنة بـ IBD المراهقة، مع آثار لمعايرة الجرعات |
+| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | مراجعة | J Gastroenterol Hepatol | مراجعة شاملة لـ AZA/6-MP علم الوراثة الدوائية ومراقبة المستقلبات في IBD؛ تغطي تعددات TPMT والنوافذ العلاجية 6-TGN والاستراتيجيات لتقليل السمية مع تعظيم الفعالية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Azathioprine is currently **not registered in Saudi Arabia**. The Saudi Food and Drug Authority (SFDA) database contains no active product authorizations as of the data cutoff (June 2026). No local product information, approved indications, or regulatory dossiers are on record.
+الأزاثيوبرين حالياً **غير مسجل في المملكة العربية السعودية**. لا تحتوي قاعدة بيانات الهيئة العامة للغذاء والدواء (SFDA) على أي تصاريح منتجات نشطة اعتباراً من نقطة قطع البيانات (يونيو 2026). لا توجد معلومات منتج محلية أو مؤشرات موافقة أو ملفات تنظيمية في السجل.
 
-This represents a registration gap. The drug has well-established global regulatory approvals for IBD in multiple jurisdictions (US FDA, EMA, Japan PMDA) and could be pursued for local registration using existing international clinical dossiers.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Key monitoring requirements derived from clinical literature:**
-> - **Pharmacogenomics before initiation**: TPMT and NUDT15 genotyping is strongly recommended. The NUDT15 c.415C>T variant is prevalent in East Asian and Southeast Asian populations and predicts severe thiopurine-induced leukopenia at standard doses — dose reduction or avoidance is required in carriers.
-> - **Haematological monitoring**: Regular CBC (with differential) is essential to detect neutropenia and thrombocytopenia, particularly in the first year of treatment.
-> - **Long-term cancer surveillance**: Prolonged thiopurine use is associated with increased risk of non-melanoma skin cancer and lymphoma (especially EBV-associated lymphoma). Annual skin examination and assessment of lymphoma symptoms are recommended.
-> - **Combination therapy caution**: When combined with biologics (e.g., infliximab), the lymphoma risk is further elevated — individual benefit-risk assessment is required before initiating combination therapy.
+هذا يمثل فجوة تسجيل. الدواء لديه موافقات تنظيمية عالمية راسخة لـ IBD في عدة اختصاصات (FDA الأمريكية، EMA، PMDA اليابانية) ويمكن متابعته للتسجيل المحلي باستخدام ملفات سريرية دولية موجودة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-The evidence base for azathioprine in IBD is among the strongest in drug repurposing — it includes four consecutive Cochrane systematic reviews (2007, 2012, 2016, 2025), a meta-analysis, and multiple completed Phase 3 RCTs, with a mechanistic rationale that is thoroughly characterized at the molecular level. The principal challenge is not clinical uncertainty but rather the need for pharmacogenomic safeguards (TPMT/NUDT15 screening) and regulatory registration in Saudi Arabia.
+> **متطلبات المراقبة الرئيسية المستمدة من الأدبيات السريرية:**
+> - **الأدوية الوراثية قبل البدء**: يوصى بشدة بتنميط TPMT و NUDT15. متغير NUDT15 c.415C>T سائد في السكان الآسيويين الشرقيين والآسيويين الجنوبيين ويتنبأ بقمع الدم الناجم عن الثيوبيورين الشديد بالجرعات القياسية — تقليل الجرعات أو تجنبها مطلوب في الناقلات.
+> - **مراقبة الدم**: CBC منتظم (مع الفصل) ضروري للكشف عن نقص الكريات البيضاء والقلة الصفيحات، خاصة في السنة الأولى من العلاج.
+> - **المراقبة طويلة الأمد للسرطان**: الاستخدام المستطيل للثيوبيورين مرتبط بزيادة خطر السرطان غير الميلانيني والأورام الليمفاوية (خاصة الأورام الليمفاوية المرتبطة بـ EBV). يوصى بفحص جلدي سنوي وتقييم أعراض الأورام الليمفاوية.
+> - **تحذير العلاج المركب**: عند الجمع مع العوامل البيولوجية (مثل infliximab)، يزداد خطر الأورام الليمفاوية بشكل إضافي — يلزم تقييم دقيق لنسبة المخاطر والفوائد قبل بدء العلاج المركب.
 
-**To proceed, the following is needed:**
+---
 
-- **SFDA registration**: Submit a New Drug Application or Abridged Application for IBD indication using reference country approvals (FDA/EMA), leveraging the established global clinical dossier
-- **Pharmacogenomic protocol**: Establish pre-treatment TPMT and NUDT15 genotyping pathway for the Saudi patient population, with dose-adjustment guidelines for at-risk genotypes
-- **Safety monitoring plan**: Define CBC and liver function monitoring schedule; implement long-term lymphoma and skin cancer surveillance programme
-- **Mechanistic documentation**: Resolve DrugBank data gap (DG002) to complete MOA documentation for the regulatory dossier
-- **Drug interaction assessment**: Conduct formal DDI review (DG001 resolution) — particularly co-administration with allopurinol (which can increase 6-TGN levels and toxicity) and biologics
-- **Local pharmacist/physician education**: Develop prescriber training on thiopurine metabolite monitoring (6-TGN levels) to optimize dosing and minimize treatment failure
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع إجراءات احترازية**
+
+**الأساس المنطقي:**
+قاعدة الأدلة للأزاثيوبرين في IBD من بين الأقوى في إعادة استخدام الأدوية — فهي تشمل أربع مراجعات منهجية متتالية من Cochrane (2007، 2012، 2016، 2025)، وتحليل تلوي، وعدة تجارب عشوائية محكومة مكتملة من المرحلة الثالثة، مع أساس ميكانيكي تم توصيفه بشكل شامل على المستوى الجزيئي. التحدي الرئيسي ليس عدم اليقين السريري بل بالأحرى الحاجة إلى الحماية الأدوية الوراثية (فحص TPMT/NUDT15) والتسجيل التنظيمي في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **تسجيل SFDA**: تقديم طلب دواء جديد أو طلب مختصر لمؤشر IBD باستخدام الموافقات في دول المرجع (FDA/EMA)، مع الاستفادة من ملف سريري عالمي راسخ
+- **بروتوكول الأدوية الوراثية**: إنشاء مسار فحص TPMT و NUDT15 قبل المعالجة لسكان المملكة العربية السعودية، مع إرشادات تعديل الجرعات للأنماط الجينية المعرضة للخطر
+- **خطة مراقبة السلامة**: تحديد جدول مراقبة CBC وإنزيمات الكبد؛ تطبيق برنامج مراقبة طويل الأمد للأورام الليمفاوية والسرطان الجلدي
+- **توثيق الآلية**: حل فجوة بيانات DrugBank (DG002) لإكمال توثيق MOA للملف التنظيمي
+- **تقييم تفاعلات الأدوية**: إجراء مراجعة رسمية لـ DDI (حل DG001) — خاصة المعايشة مع الوبيورينول (التي يمكن أن تزيد من مستويات 6-TGN والسمية) والعوامل البيولوجية
+- **تثقيف الصيادلة والأطباء المحليين**: تطوير تدريب الموصفين على مراقبة مستقلب الثيوبيورين (مستويات 6-TGN) لتحسين الجرعات وتقليل فشل العلاج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,84 +29,85 @@ indication_count: 5
 
 </div>
 
-# Deferasirox: From Iron Overload to HIV Infectious Disease
+# ديفيراسيروكس: من الحمل الزائد للحديد إلى عدوى HIV
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Deferasirox is a selective oral iron chelator, approved globally for treating chronic iron overload caused by repeated blood transfusions in patients with conditions such as thalassemia and sickle cell disease.
-The TxGNN model predicts it may be effective for **HIV Infectious Disease**,
-with **0 clinical trials** and **2 publications** currently supporting this direction — both limited to basic mechanistic research.
+ديفيراسيروكس هو مخلّب حديد انتقائي فموي معتمد عالمياً لعلاج الحمل الزائد المزمن من الحديد الناجم عن نقل الدم المتكرر لدى المرضى الذين يعانون من حالات مثل الثلاسيميا وفقر الدم المنجلي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **عدوى HIV**،
+مع وجود **0 تجربة سريرية** و**منشورات 2** تدعم هذا الاتجاه حالياً — كلاهما محدود بالأبحاث الأساسية حول الآلية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Chronic iron overload (transfusional hemosiderosis) |
-| Predicted New Indication | HIV Infectious Disease |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الحمل الزائد المزمن من الحديد (الترسب الحديدي الناجم عن نقل الدم) |
+| المؤشر الجديد المتوقع | عدوى HIV |
+| درجة التنبؤ من TxGNN | 99.40% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض |
+| عدد الموافقات | 0 |
+| القرار الموصى به | وقفة |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on published pharmacology, deferasirox is a trivalent-selective oral iron chelator (Fe³⁺) that forms a stable 2:1 complex with iron and promotes its excretion primarily via feces. Its efficacy in reducing systemic iron burden in transfusion-dependent patients is well-established across multiple global regulatory approvals, even though Saudi Arabia has no registered authorization.
+حالياً، لا تتوفر بيانات مفصلة عن آلية العمل في مجموعة البيانات هذه. بناءً على الصيدلة المنشورة، ديفيراسيروكس هو مخلّب حديد ثلاثي التكافؤ انتقائي فموي (Fe³⁺) يشكل معقد مستقر بنسبة 2:1 مع الحديد ويعزز إفراغه بشكل أساسي عن طريق البراز. ثبتت فعاليته في تقليل عبء الحديد الجهازي لدى المرضى المعتمدين على نقل الدم عبر موافقات تنظيمية عالمية متعددة، رغم أن المملكة العربية السعودية ليس لديها تفويض تسجيل.
 
-The mechanistic rationale connecting iron chelation to HIV involves iron's role as an essential cofactor in viral biology. HIV-1 replication depends on adequate intracellular iron availability at multiple steps, and endolysosomal iron specifically regulates the activity of HIV-1 Tat — a key transactivator protein that drives expression of the entire viral genome via the LTR promoter. A 2021 in vitro study demonstrated that higher endolysosomal iron promotes Tat-mediated LTR transactivation, while iron restriction increases Tat oligomerization and β-catenin expression, effectively limiting HIV-1 gene activation. This suggests that by chelating available iron, deferasirox could theoretically disrupt a critical step in the HIV replication cycle.
+الأساس الآلي الذي يربط مخلب الحديد بـ HIV ينطوي على دور الحديد كعامل مساعد أساسي في الأحياء الفيروسية. يعتمد تضاعف HIV-1 على توفر الحديد داخل الخلايا الكافي في عدة خطوات، والحديد في الحيزات الحمضية واللايسوسومية بشكل خاص ينظم نشاط HIV-1 Tat — وهو بروتين منشّط رئيسي يقود التعبير عن الجينوم الفيروسي بأكمله عبر منبئ LTR. أثبتت دراسة اختبار داخل الأنابيب من 2021 أن الحديد الأعلى في الحيزات الحمضية واللايسوسومية يعزز تنشيط LTR بوساطة Tat، بينما تقيد الحديد يزيد من تجمع Tat وتعبير β-catenin، مما يحد بشكل فعال من تنشيط جينات HIV-1. هذا يشير إلى أنه من خلال مخلبة الحديد المتاح، قد يكون ديفيراسيروكس قادراً نظرياً على تعطيل خطوة حرجة في دورة تضاعف HIV.
 
-However, this connection remains a mechanistic hypothesis derived entirely from cell culture experiments. No animal models have been tested, no dose-response data exist for this application, and no clinical trials have evaluated deferasirox as an anti-HIV agent. The prediction is biologically plausible but sits squarely in early exploratory territory.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، تبقى هذه الصلة فرضية آلية مشتقة حصراً من تجارب زراعة الخلايا. لم يتم اختبار أي نماذج حيوانية، لا توجد بيانات استجابة الجرعة لهذا التطبيق، ولم تقيّم أي تجارب سريرية ديفيراسيروكس كعامل مضاد لـ HIV. التنبؤ معقول بيولوجياً لكن يقع بشكل مباشر في منطقة استكشافية مبكرة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Basic Research | Journal of Neurovirology | Endolysosomal iron promotes HIV-1 Tat-mediated LTR transactivation; iron restriction increases Tat oligomerization and β-catenin expression, potentially limiting HIV-1 replication — in vitro mechanism study relevant to HAND pathogenesis |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Drug Review | J Am Pharmacists Assoc | Pharmacist-oriented review of deferasirox at the time of its original approval; documents the drug's properties but does not address HIV |
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | بحث أساسي | Journal of Neurovirology | الحديد في الحيزات الحمضية واللايسوسومية يعزز تنشيط LTR بوساطة Tat لـ HIV-1؛ تقيد الحديد يزيد من تجمع Tat وتعبير β-catenin، مما قد يحد من تضاعف HIV-1 — دراسة آلية اختبار داخل الأنابيب ذات صلة بإمراضية HAND |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | استعراض دوائي | J Am Pharmacists Assoc | استعراض موجه للصيادلة حول ديفيراسيروكس في وقت موافقته الأصلية؛ يوثق خصائص الدواء لكن لا يتناول HIV |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Deferasirox has no registered market authorizations in Saudi Arabia. The drug is marketed in other regions (e.g., Exjade® / Jadenu®) but has not obtained SFDA approval as of the data cutoff date.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** Key warnings, contraindications, and drug interaction data were not available in this evidence pack. The TFDA package insert was retrieved during data collection but its contents were not parsed into the current dataset. Deferasirox is known to carry important renal and hepatic monitoring requirements — these should be reviewed from the originator's approved labeling before any further evaluation.
+لا يوجد لديفيراسيروكس موافقات سوق معروضة في المملكة العربية السعودية. يتم تسويق الدواء في مناطق أخرى (مثل Exjade® / Jadenu®) لكنه لم يحصل على موافقة من SFDA اعتباراً من تاريخ قطع البيانات.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The iron-HIV mechanistic link is biologically plausible — iron availability influences HIV-1 Tat activity and viral replication — but the entire evidence base consists of a single 2021 in vitro study. There are no clinical trials, no animal model data, and no observational studies evaluating deferasirox in HIV patients. This is a hypothesis worth tracking, not a repurposing candidate ready for development planning.
+> **ملاحظة:** لم تكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية متوفرة في مجموعة الأدلة هذه. تم الحصول على نشرة TFDA خلال جمع البيانات لكن محتوياتها لم تُحلّل في مجموعة البيانات الحالية. ديفيراسيروكس معروف بأنه يحمل متطلبات مراقبة كلى وكبدية مهمة — يجب مراجعة هذه من التسمية الموافق عليها الأصلية قبل أي تقييم إضافي.
 
-**To proceed, the following is needed:**
+---
 
-- Full safety profile: package insert warnings, contraindications, and known drug interactions (particularly relevant given HIV patients typically take complex antiretroviral regimens)
-- At least one in vivo (animal) study confirming iron chelation reduces HIV viral load or delays disease progression
-- Pharmacokinetic modeling to establish whether clinically safe deferasirox doses can achieve intracellular iron reduction sufficient to meaningfully inhibit HIV-1 replication
-- Assessment of immune-function trade-offs: iron is also required for T-cell proliferation and innate immunity; chelation in an already immunocompromised population carries theoretical risk
-- Review of deferasirox's potential for drug-drug interactions with antiretrovirals (e.g., via CYP450 or UGT pathways)
-- Consideration of the rank-2 prediction (chronic HCV infection), which has a more established clinical rationale — iron overload management in thalassemia + HCV co-infection — and may represent a nearer-term research opportunity
+## الخلاصة والخطوات التالية
+
+**القرار: وقفة**
+
+**الأساس المنطقي:**
+الارتباط الآلي للحديد بـ HIV معقول بيولوجياً — توفر الحديد يؤثر على نشاط HIV-1 Tat والتضاعف الفيروسي — لكن قاعدة الأدلة بأكملها تتكون من دراسة واحدة فقط اختبار داخل الأنابيب من 2021. لا توجد تجارب سريرية، لا توجد بيانات نماذج حيوانية، ولا توجد دراسات رصدية تقيّم ديفيراسيروكس لدى مرضى HIV. هذه فرضية تستحق المتابعة، وليست مرشحة إعادة توظيف جاهزة لتخطيط التطوير.
+
+**للمتابعة، يلزم الآتي:**
+
+- الملف الآمن الكامل: تحذيرات النشرة، الموانع، والتفاعلات الدوائية المعروفة (ذات صلة بشكل خاص نظراً لأن مرضى HIV عادة ما يتناولون أنظمة مضادات الفيروسات العكسية المعقدة)
+- على الأقل دراسة واحدة في الجسم الحي (حيوانية) تؤكد أن مخلبة الحديد تقلل من الحمل الفيروسي لـ HIV أو تؤخر تطور المرض
+- نمذجة حركية الأدوية لتحديد ما إذا كانت جرعات ديفيراسيروكس الآمنة سريرياً يمكن أن تحقق تقليل الحديد داخل الخلايا الكافي لمنع تضاعف HIV-1 بشكل ذي معنى
+- تقييم المقايضات المتعلقة بوظائف المناعة: الحديد مطلوب أيضاً لتكاثر الخلايا T والمناعة الفطرية؛ مخلبة الحديد في السكان المثبطين مناعياً بالفعل يحمل خطراً نظرياً
+- مراجعة احتمال تفاعلات دوائية لديفيراسيروكس مع مضادات الفيروسات العكسية (مثل عبر CYP450 أو مسارات UGT)
+- النظر في التنبؤ من الرتبة الثانية (عدوى HCV المزمنة)، الذي له أساس سريري أكثر ثباتاً — إدارة الحمل الزائد من الحديد في الثلاسيميا + عدوى HCV المشتركة — وقد تمثل فرصة بحثية قريبة الأجل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

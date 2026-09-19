@@ -29,94 +29,95 @@ indication_count: 9
 
 </div>
 
-# CHLORAMPHENICOL: From Broad-Spectrum Bacterial Infections to Conjunctivitis
+# CHLORAMPHENICOL: من العدوى البكتيرية واسعة الطيف إلى التهاب الملتحمة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Chloramphenicol is a broad-spectrum bacteriostatic antibiotic introduced into clinical practice in 1948, historically used to treat serious bacterial infections including typhoid fever, meningitis, and rickettsial diseases.
-The TxGNN model predicts it may be effective for **Conjunctivitis**,
-with **no registered clinical trials** but **19 publications** — including 4 RCTs and 2 systematic reviews — currently supporting this direction.
+Chloramphenicol هو مضاد حيوي بطيء المفعول واسع الطيف تم إدخاله الممارسة السريرية عام 1948، استُخدم تاريخياً لعلاج العدوى البكتيرية الخطيرة بما فيها حمى التيفود والتهاب السحايا والأمراض الريكتسية.
+نموذج TxGNN يتنبأ بأنه قد يكون فعالاً في **التهاب الملتحمة**،
+مع **عدم وجود تجارب سريرية مسجلة** لكن **19 منشور** — بما فيها 4 تجارب عشوائية محكومة و2 مراجعة منهجية — تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Broad-spectrum bacterial infections (typhoid fever, meningitis, rickettsial infections) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | العدوى البكتيرية واسعة الطيف (حمى التيفود، التهاب السحايا، الأمراض الريكتسية) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة |
+| درجة تنبؤ TxGNN | 99.66% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Chloramphenicol inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit, blocking peptide bond formation during translation. This broad-spectrum bacteriostatic mechanism is effective against a wide range of Gram-positive and Gram-negative organisms — including the most common causative pathogens of bacterial conjunctivitis: *Haemophilus influenzae*, *Staphylococcus aureus*, and *Streptococcus* species. When formulated as ophthalmic drops, chloramphenicol achieves excellent corneal penetration while minimizing systemic absorption, substantially reducing the risk of its most serious systemic toxicity (aplastic anaemia).
+Chloramphenicol يثبط تخليق البروتين البكتيري بالارتباط بالوحدة الجزيئية 50S، مما يمنع تكوين الرابطة ببتيدية أثناء الترجمة. آلية العمل بطيء المفعول واسعة الطيف هذه فعالة ضد نطاق واسع من الكائنات الموجبة والسالبة لصبغة غرام — بما فيها أكثر الممرضات الشائعة المسببة لالتهاب الملتحمة البكتيري: *Haemophilus influenzae*، *Staphylococcus aureus*، و*Streptococcus*. عند تصنيعه كقطرات عينية، يحقق chloramphenicol اختراقاً قرنياً ممتازاً مع تقليل الامتصاص الجهازي إلى الحد الأدنى، مما يقلل بشكل كبير من خطر سميته الجهازية الأكثر خطورة (فقر الدم اللاتنسجي).
 
-Bacterial conjunctivitis shares the same therapeutic target as chloramphenicol's historical indications: a susceptible bacterial infection requiring broad-spectrum coverage. The mechanistic link is straightforward. Topical ophthalmic chloramphenicol is already an established first-line therapy for bacterial conjunctivitis in the United Kingdom and numerous Commonwealth countries, with decades of routine clinical use and multiple head-to-head RCTs establishing its efficacy relative to fusidic acid, norfloxacin, and trimethoprim-polymyxin B.
+التهاب الملتحمة البكتيري يشارك نفس الهدف العلاجي مع مؤشرات chloramphenicol التاريخية: عدوى بكتيرية قابلة للتأثر تتطلب تغطية واسعة الطيف. الربط الآلي واضح ومباشر. Chloramphenicol العيني واسع الطيف معروض بالفعل كعلاج من الدرجة الأولى لالتهاب الملتحمة البكتيري في المملكة المتحدة والعديد من دول الكومنولث، مع عقود من الاستخدام السريري الروتيني وتجارب عشوائية محكومة متعددة تثبت فعاليته مقارنة بحمض الفوسيديك والنورفلوكساسين وتريميثوبريم-بوليميكسين B.
 
-The TxGNN prediction therefore identifies a real, evidence-backed clinical application — not a speculative repurposing. The more relevant framing for Saudi Arabia is a **regulatory gap**: a drug with proven efficacy and a well-characterised safety profile in this indication is simply not currently approved in the local market.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Chloramphenicol in conjunctivitis.
+التنبؤ TxGNN بالتالي يحدد تطبيقاً سريرياً حقيقياً مدعوماً بالأدلة — وليس إعادة استخدام تخمينية. الإطار الأكثر صلة بالمملكة العربية السعودية هو **فجوة تنظيمية**: عقار ثبتت فعاليته وملف تعريف أمان معروّف جيداً في هذا المؤشر ببساطة غير معتمد حالياً في السوق المحلية.
 
 ---
 
-## Literature Evidence
+## الدليل من التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة ل Chloramphenicol في التهاب الملتحمة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative Clinical Study | Curr Ther Res | Moxifloxacin (bactericidal) vs. chloramphenicol (bacteriostatic) for bacterial eye infections; chloramphenicol benchmarked as established comparator for conjunctivitis treatment |
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Cochrane Systematic Review | Cochrane Database Syst Rev | Antibiotic and antiseptic prophylaxis for ophthalmia neonatorum; ophthalmic chloramphenicol included as an intervention arm across multiple trials |
-| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | Systematic Review & Meta-analysis | Br J Gen Pract | Updated Cochrane analysis of topical antibiotics for acute bacterial conjunctivitis; confirms antibiotic treatment (including chloramphenicol) accelerates clinical and microbiological resolution |
-| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | RCT | Acta Ophthalmol | Fusidic acid twice daily vs. chloramphenicol 0.5% six times daily in acute conjunctivitis (N=38 GPs, Norway); no significant difference in bacteriological response or treatment duration |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety Review | Drug Safety | Systematic review of the contested link between topical ocular chloramphenicol and aplastic anaemia; concludes risk is very low but not zero; notes wide use in UK for conjunctivitis vs. avoidance in US |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | RCT | Acta Ophthalmol | Single-blind RCT, fusidic acid 1% vs. chloramphenicol 0.5% eye drops in acute purulent conjunctivitis (N=250); chloramphenicol 81% clinical success rate; more local side effects (stinging) vs. fusidic acid |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Open RCT | Acta Ophthalmol | Fusidic acid vs. chloramphenicol vs. framycetin eye drops for bacterial conjunctivitis in Tanzania; fusidic acid superior (93% success), chloramphenicol 48% due to high in vitro resistance rates in this setting |
-| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | RCT | Br J Ophthalmol | Equivalency RCT comparing 2.5% povidone-iodine vs. ophthalmic chloramphenicol for prevention of neonatal conjunctivitis in a trachoma-endemic region (Mexico); both interventions comparable in efficacy |
-| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | Multi-centre RCT | J Antimicrob Chemother | 230-patient double-blind RCT comparing trimethoprim-polymyxin B, neomycin-polymyxin B-gramicidin, and chloramphenicol ophthalmic solutions for presumptive bacterial conjunctivitis; all preparations effective with few adverse events |
-| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Clinical Study | J Hyg | Chloramphenicol eye drops in 26 infants with chlamydial neonatal conjunctivitis; reduced oedema and discharge but 85% remained culture-positive — confirms chloramphenicol is ineffective against *Chlamydia trachomatis* specifically |
+| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | دراسة سريرية مقارنة | Curr Ther Res | Moxifloxacin (قاتل للبكتيريا) مقابل chloramphenicol (بطيء المفعول) للعدوى العينية؛ chloramphenicol بمثابة معيار مرجعي معروف لعلاج التهاب الملتحمة |
+| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | مراجعة منهجية كوكران | Cochrane Database Syst Rev | الوقاية بالمضادات الحيوية والمطهرات لرمد الأطفال حديثي الولادة؛ chloramphenicol العيني مدرج كذراع تدخل عبر تجارب متعددة |
+| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | مراجعة منهجية وتحليل تلوي | Br J Gen Pract | تحليل كوكران محدث للمضادات الحيوية الموضعية لالتهاب الملتحمة البكتيري الحاد؛ يؤكد أن العلاج بالمضادات الحيوية (بما فيها chloramphenicol) يسرع الحل السريري والميكروبيولوجي |
+| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | تجربة عشوائية محكومة | Acta Ophthalmol | حمض الفوسيديك مرتين يومياً مقابل chloramphenicol 0.5% ست مرات يومياً في التهاب الملتحمة الحاد (N=38 عيادة عام، النرويج)؛ لا فرق كبير في الاستجابة الميكروبيولوجية أو مدة العلاج |
+| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | مراجعة الأمان | Drug Safety | مراجعة منهجية للارتباط المتنازع عليه بين chloramphenicol الموضعي العيني وفقر الدم اللاتنسجي؛ تخلص إلى أن الخطر منخفض جداً لكن ليس صفراً؛ تلاحظ الاستخدام الواسع في المملكة المتحدة لالتهاب الملتحمة مقابل تجنبه في الولايات المتحدة |
+| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | تجربة عشوائية محكومة | Acta Ophthalmol | تجربة عشوائية محكومة عمياء واحدة، حمض الفوسيديك 1% مقابل قطرات chloramphenicol 0.5% العينية في التهاب الملتحمة القيحي الحاد (N=250)؛ معدل نجاح سريري 81% مع chloramphenicol؛ آثار جانبية موضعية أكثر (لسع) مقابل حمض الفوسيديك |
+| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | تجربة عشوائية مفتوحة | Acta Ophthalmol | قطرات حمض الفوسيديك مقابل chloramphenicol مقابل framycetin العينية لالتهاب الملتحمة البكتيري في تنزانيا؛ حمض الفوسيديك أفضل (93% نجاح)، chloramphenicol 48% بسبب معدلات مقاومة عالية في المختبر في هذا السياق |
+| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | تجربة عشوائية محكومة | Br J Ophthalmol | تجربة تكافؤ عشوائية تقارن بين 2.5% povidone-iodine مقابل chloramphenicol العيني للوقاية من التهاب الملتحمة الوليدي في منطقة توطن الرمد (المكسيك)؛ كلا التدخلين متماثلان في الفعالية |
+| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | تجربة عشوائية محكومة متعددة المراكز | J Antimicrob Chemother | تجربة عشوائية محكومة عمياء مزدوجة لـ 230 مريضاً تقارن بين trimethoprim-polymyxin B، neomycin-polymyxin B-gramicidin، و محاليل chloramphenicol العينية للالتهاب الملتحمة البكتيري الافتراضي؛ جميع المستحضرات فعالة مع آثار جانبية قليلة |
+| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | دراسة سريرية | J Hyg | قطرات chloramphenicol العينية في 26 رضيعاً مع التهاب الملتحمة الوليدي الكلاميدي؛ تقليل الوذمة والإفرازات لكن 85% ظلوا إيجابيين للزراعة — يؤكد أن chloramphenicol غير فعال ضد *Chlamydia trachomatis* بشكل محدد |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Chloramphenicol currently has **no active marketing authorizations** in Saudi Arabia. The SFDA database search returned 0 registered licenses. There are no approved products, dosage forms, or registered indications on the local market.
-
----
-
-## Safety Considerations
-
-Detailed safety data (warnings, contraindications, drug interactions) was not available in the current evidence pack.
-
-> Please refer to the package insert for safety information.
-
-**Important safety signal from the evidence:** Published literature (PMID [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/)) specifically reviews the contested association between **topical ocular chloramphenicol and aplastic anaemia** — an idiosyncratic, potentially fatal bone marrow suppression that can occur even after topical use. This is the primary reason chloramphenicol eye drops are avoided in the US despite widespread use in the UK. Any regulatory pathway in Saudi Arabia must include an explicit risk management strategy for this toxicity.
+Chloramphenicol حالياً ليس لديه **أي ترخيصات تسويق نشطة** في المملكة العربية السعودية. بحث قاعدة بيانات SFDA أرجع 0 رخص مسجلة. لا توجد منتجات معتمدة أو أشكال جرعات أو مؤشرات مسجلة في السوق المحلية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Proceed with Guardrails**
+لم تكن بيانات الأمان المفصلة (التحذيرات، موانع الاستعمال، التفاعلات الدوائية) متاحة في مجموعة الأدلة الحالية.
 
-**Rationale:**
-Ophthalmic chloramphenicol has robust evidence for bacterial conjunctivitis — including multiple RCTs, two systematic reviews, and decades of first-line clinical use in the UK — making this a regulatory gap rather than an unproven repurposing. The mechanistic basis is clear and the topical formulation limits systemic exposure. However, the aplastic anaemia safety signal, even if rare with topical use, requires formal risk management before approval.
+> يرجى الرجوع إلى النشرة الداخلية للمنتج للحصول على معلومات الأمان.
 
-**To proceed, the following is needed:**
+**إشارة أمان مهمة من الأدبيات:** الأدبيات المنشورة (PMID [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/)) تستعرض بشكل محدد الارتباط المتنازع عليه بين **chloramphenicol الموضعي العيني وفقر الدم اللاتنسجي** — قمع نخاع العظم غريب الأطوار يمكن أن يحدث حتى بعد الاستخدام الموضعي. هذا هو السبب الرئيسي لتجنب قطرات chloramphenicol العينية في الولايات المتحدة رغم الاستخدام الواسع في المملكة المتحدة. يجب أن تشمل أي مسار تنظيمي في المملكة العربية السعودية استراتيجية إدارة مخاطر صريحة لهذه السمية.
 
-- **Complete safety data**: Retrieve full package insert warnings, contraindications, and drug interactions from a reference market (e.g., UK MHRA SPC for Chloramphenicol 0.5% Eye Drops); these are currently flagged as Data Gap
-- **Route restriction**: Approval should be limited to **topical ophthalmic formulations only**; systemic routes carry unacceptable risk of aplastic anaemia and are not supported by the current evidence review
-- **Reference dossier**: Use UK MHRA or EMA approval as the reference regulatory file for an abridged SFDA submission
-- **Pharmacovigilance plan**: Establish a risk minimisation strategy for aplastic anaemia, including prescriber education, dispensing controls, and mandatory adverse event reporting
-- **Resistance surveillance**: Localise antibiogram data for Saudi Arabia — the Tanzania RCT (PMID 3300139) showed 48% clinical success due to high local resistance, underscoring that regional susceptibility patterns must inform empirical prescribing
-- **Chlamydial coverage clarification**: Label must specify that chloramphenicol is **not effective** against *Chlamydia trachomatis* conjunctivitis (PMID 7153511), which requires systemic azithromycin or oral doxycycline
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+Chloramphenicol العيني يتمتع بأدلة قوية لالتهاب الملتحمة البكتيري — بما فيها تجارب عشوائية محكومة متعددة ومراجعتان منهجيتان وعقود من الاستخدام السريري من الدرجة الأولى في المملكة المتحدة — مما يجعل هذه فجوة تنظيمية بدلاً من إعادة استخدام غير مثبتة. الأساس الآلي واضح والصيغة الموضعية تحد من التعرض الجهازي. ومع ذلك، فإن إشارة أمان فقر الدم اللاتنسجي، حتى لو كانت نادرة مع الاستخدام الموضعي، تتطلب إدارة مخاطر رسمية قبل الموافقة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **بيانات الأمان الكاملة**: استرجع نشرة المنتج الكاملة والتحذيرات وموانع الاستعمال والتفاعلات الدوائية من سوق مرجعية (مثل مواصفات MHRA في المملكة المتحدة لقطرات Chloramphenicol 0.5% العينية)؛ هذه معلمة حالياً كفجوة بيانات
+- **تقييد المسار**: يجب أن تقتصر الموافقة على **الصيغ الموضعية العينية فقط**؛ المسارات الجهازية تحمل خطراً غير مقبول من فقر الدم اللاتنسجي وغير مدعومة بمراجعة الأدلة الحالية
+- **ملف مرجعي**: استخدم موافقة MHRA في المملكة المتحدة أو EMA كملف تنظيمي مرجعي لتقديم مختصر SFDA
+- **خطة اليقظة الدوائية**: ضع استراتيجية تقليل المخاطر لفقر الدم اللاتنسجي، بما فيها تثقيف الموصفين وضوابط الصرف والإبلاغ الإلزامي عن الأحداث الضائرة
+- **مراقبة المقاومة**: قم بتوطين بيانات المخطط المضاد للبكتيريا للمملكة العربية السعودية — أظهرت تجربة تنزانيا (PMID 3300139) معدل نجاح سريري بنسبة 48% بسبب المقاومة المحلية العالية، مما يؤكد أن الأنماط المحلية للقابلية يجب أن توجه الصرف التجريبي
+- **توضيح الغطاء الكلاميدي**: يجب أن توضح النشرة أن chloramphenicol **غير فعال** ضد التهاب الملتحمة الكلاميدي (PMID 7153511)، والذي يتطلب الأزيثروميسين الجهازي أو الدوكسيسيكلين الفموي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

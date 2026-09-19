@@ -29,97 +29,98 @@ indication_count: 7
 
 </div>
 
-# Secnidazole: From Unmarketed Antimicrobial to Vaginal Discharge (Bacterial Vaginosis)
+# السيكنيدازول: من العامل المضاد للميكروبات غير المسجل إلى إفرازات مهبلية (التهاب المهبل الجرثومي)
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Secnidazole is a 5-nitroimidazole antimicrobial with no marketing authorization in Taiwan and no locally recorded original indication. Among TxGNN's seven predicted indications, the strongest evidence-backed candidate is **Vaginal Discharge (Bacterial Vaginosis)**, supported by **5 clinical trials** (including 2 completed Phase 3 RCTs) and **16 publications** — a finding consistent with secnidazole's existing FDA-approved use (Solosec®) for bacterial vaginosis and trichomoniasis in other markets.
+السيكنيدازول هو عامل مضاد للميكروبات من فئة 5-نيتروإيميدازول بدون ترخيص تسويق في تايوان وبدون مؤشر استخدام محلي أصلي مسجل. من بين سبعة مؤشرات استخدام متنبأ بها من TxGNN، المرشح الأقوى مدعوماً بالأدلة هو **إفرازات مهبلية (التهاب المهبل الجرثومي)**، مدعوم بـ **5 تجارب سريرية** (بما فيها تجربتا مرحلة 3 عشوائية خاضعة للسيطرة) و **16 منشورة** — وهي نتيجة متسقة مع استخدام السيكنيدازول المعتمد من إدارة الغذاء والدواء (Solosec®) لالتهاب المهبل الجرثومي وداء المشعرات في أسواق أخرى.
 
-*Note: TxGNN's raw highest-scoring prediction is "postmenopausal atrophic vaginitis" (99.70%), but this candidate has zero supporting trials or literature (L5/Hold) and the evidence pack itself flags it as likely reflecting "vaginal-related" semantic proximity in the knowledge graph rather than a real pharmacological link. This report focuses on the indication with actual clinical support.*
+*ملاحظة: أعلى درجة تنبؤ خام من TxGNN هي "التهاب المهبل الضموري بعد انقطاع الطمث" (99.70%)، لكن هذا المرشح لا يحصل على أي تجارب داعمة أو أدبيات (L5/انتظار) والعبوة الدليلية نفسها تشير إليه على أنه من المرجح أن يعكس "القرب الدلالي المرتبط بالمهبل" في الرسم البياني للمعرفة وليس ارتباطاً دوائياً حقيقياً. يركز هذا التقرير على المؤشر الذي يتمتع بدعم سريري فعلي.*
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — secnidazole holds no marketing license in Taiwan (0 licenses on record) |
-| Predicted New Indication | Vaginal Discharge (Bacterial Vaginosis) |
-| TxGNN Prediction Score | 99.41% (rank 8872) |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متاح — السيكنيدازول لا يحمل ترخيص تسويق في تايوان (0 رخصة مسجلة) |
+| المؤشر المتنبأ به الجديد | إفرازات مهبلية (التهاب المهبل الجرثومي) |
+| درجة التنبؤ من TxGNN | 99.41% (الترتيب 8872) |
+| مستوى الأدلة | L1 |
+| حالة السوق في تايوان | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for secnidazole is not available (DrugBank MOA field is a data gap). Based on known pharmacology, secnidazole is a second-generation 5-nitroimidazole antimicrobial, mechanistically related to metronidazole and tinidazole: the drug is reduced intracellularly under anaerobic conditions in bacteria and protozoa, generating cytotoxic intermediates that damage microbial DNA.
+حالياً، بيانات آلية الفعل التفصيلية للسيكنيدازول غير متاحة (حقل DrugBank للآلية هو فجوة بيانات). بناءً على الصيدلة المعروفة، السيكنيدازول هو عامل مضاد للميكروبات من الجيل الثاني من فئة 5-نيتروإيميدازول، مرتبط ميكانيكياً بالميترونيدازول والتينيدازول: يتم اختزال الدواء داخل الخلايا في ظروف لاهوائية في البكتيريا والأوليات، مما يولد وسطاء سامة للخلايا تضر بالحمض النووي الميكروبي.
 
-Bacterial vaginosis (BV) is the single most common cause of abnormal vaginal discharge, and *Trichomonas vaginalis* infection is a related anaerobic-protozoal cause of the same symptom complex. Because secnidazole's antimicrobial mechanism directly targets the anaerobic bacteria and protozoa responsible for these conditions, the TxGNN prediction of "vaginal discharge" is mechanistically coherent rather than a graph-embedding artifact — unlike several of the other predicted indications in this pack (see note below).
+التهاب المهبل الجرثومي (BV) هو السبب الأكثر شيوعاً للإفرازات المهبلية غير الطبيعية، وعدوى *Trichomonas vaginalis* هي سبب متعلق باللاهوائية والأوليات لنفس مجمع الأعراض. لأن آلية السيكنيدازول المضادة للميكروبات تستهدف بشكل مباشر البكتيريا اللاهوائية والأوليات المسؤولة عن هذه الحالات، فإن التنبؤ من TxGNN بـ "الإفرازات المهبلية" متماسك ميكانيكياً وليس مجرد تشويش من بيانات الرسم البياني — بخلاف عدة من المؤشرات الأخرى المتنبأ بها في هذه العبوة (انظر الملاحظة أدناه).
 
-This is further reinforced by real-world regulatory precedent: a single-dose oral granule formulation of secnidazole (Solosec®, 2g) is already FDA-approved in the United States specifically for bacterial vaginosis and trichomoniasis, meaning the "repurposing" signal here largely reflects an indication secnidazole is already validated for elsewhere, but which has not yet been registered or evaluated for the Taiwan market.
+يتم تعزيز هذا بشكل إضافي من قبل السابقة التنظيمية في العالم الحقيقي: تم بالفعل الموافقة على صيغة حبيبات فموية بجرعة واحدة من السيكنيدازول (Solosec®، 2 جم) من قبل إدارة الغذاء والدواء بشكل محدد لالتهاب المهبل الجرثومي وداء المشعرات، مما يعني أن إشارة "إعادة الاستخدام" هنا تعكس إلى حد كبير مؤشر استخدام تم التحقق من صحته بالفعل في مكان آخر، لكنه لم يتم تسجيله بعد أو تقييمه لسوق تايوان.
 
-**Note on other TxGNN predictions in this pack:** Four of the seven predicted indications (postmenopausal atrophic vaginitis, ulceration of vulva, vulvar neoplasm, leukoplakia of vagina) have no supporting trials or literature (L5, decision stage S0, recommendation Hold) and are plausibly non-infectious or proliferative conditions unrelated to secnidazole's antimicrobial mechanism. Vulvovaginal candidiasis (L4, Research Question) is supported only indirectly — the sole related trial actually tests fluconazole (an antifungal) with secnidazole as a co-treatment for concurrent BV, not as direct antifungal evidence.
+**ملاحظة حول التنبؤات الأخرى من TxGNN في هذه العبوة:** أربعة من المؤشرات السبعة المتنبأ بها (التهاب المهبل الضموري بعد انقطاع الطمث، تقرح الفرج، الأورام الخبيثة بالفرج، فرط تصنع الفرج) لا تحصل على أي تجارب داعمة أو أدبيات (L5، مرحلة القرار S0، التوصية انتظار) وهي من المحتمل أن تكون حالات غير معدية أو تكاثرية غير مرتبطة بآلية السيكنيدازول المضادة للميكروبات. داء المبيضات الفرج المهبلي (L4، سؤال بحثي) مدعوم بشكل غير مباشر فقط — التجربة الوحيدة ذات الصلة تختبر الفلوكونازول (عامل مضاد للفطريات) مع السيكنيدازول كعلاج مشترك لالتهاب المهبل الجرثومي المتزامن، وليس كدليل مباشر على فعالية مضادات الفطريات.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03937869](https://clinicaltrials.gov/study/NCT03937869) | Phase 4 | Completed | 40 | Post-marketing safety study of single 2g oral dose Solosec (secnidazole) in adolescent girls with bacterial vaginosis |
-| [NCT03935217](https://clinicaltrials.gov/study/NCT03935217) | Phase 3 | Completed | 147 | Randomized, placebo-controlled, delayed-treatment, double-blind study of single-dose secnidazole 2g for trichomoniasis/BV-related discharge |
-| [NCT02111629](https://clinicaltrials.gov/study/NCT02111629) | Phase 3 | Completed | 118 | Fluconazole + secnidazole combination for symptomatic vaginal discharge (BV and Candida co-infection) |
-| [NCT02147899](https://clinicaltrials.gov/study/NCT02147899) | Phase 2 | Completed | 215 | Randomized, double-blind, placebo-controlled study of SYM-1219 (secnidazole) single dose for bacterial vaginosis |
-| [NCT05033743](https://clinicaltrials.gov/study/NCT05033743) | Phase 2/3 | Completed | 24 | Pilot study of weekly secnidazole granules (18 weeks) as suppressive therapy to prevent recurrent BV |
+| [NCT03937869](https://clinicaltrials.gov/study/NCT03937869) | مرحلة 4 | مكتملة | 40 | دراسة سلامة ما بعد التسويق لجرعة فموية واحدة 2 جم من Solosec (السيكنيدازول) في الفتيات المراهقات المصابات بالتهاب المهبل الجرثومي |
+| [NCT03935217](https://clinicaltrials.gov/study/NCT03935217) | مرحلة 3 | مكتملة | 147 | دراسة عشوائية خاضعة للسيطرة بالدواء الوهمي، معالجة مؤجلة، معمية مزدوجة لجرعة واحدة من السيكنيدازول 2 جم لداء المشعرات/الإفرازات المرتبطة بـ BV |
+| [NCT02111629](https://clinicaltrials.gov/study/NCT02111629) | مرحلة 3 | مكتملة | 118 | مزيج من الفلوكونازول + السيكنيدازول لإفرازات مهبلية أعراضية (عدوى BV والمبيضات المشتركة) |
+| [NCT02147899](https://clinicaltrials.gov/study/NCT02147899) | مرحلة 2 | مكتملة | 215 | دراسة عشوائية معمية مزدوجة خاضعة للسيطرة بالدواء الوهمي لـ SYM-1219 (السيكنيدازول) بجرعة واحدة لالتهاب المهبل الجرثومي |
+| [NCT05033743](https://clinicaltrials.gov/study/NCT05033743) | مرحلة 2/3 | مكتملة | 24 | دراسة تجريبية لحبيبات السيكنيدازول الأسبوعية (18 أسبوع) كعلاج مانع لمنع التهاب المهبل الجرثومي المتكرر |
 
 ---
 
-## Literature Evidence
+## الأدلة الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [28867602](https://pubmed.ncbi.nlm.nih.gov/28867602/) | 2017 | RCT | American Journal of Obstetrics and Gynecology | Phase 3 double-blind placebo-controlled trial of single-dose oral secnidazole 2g granules for BV |
-| [20885970](https://pubmed.ncbi.nlm.nih.gov/20885970/) | 2010 | RCT | Infectious Diseases in Obstetrics and Gynecology | Multicenter double-dummy Phase 3 study: secnidazole non-inferior to metronidazole for BV |
-| [22529484](https://pubmed.ncbi.nlm.nih.gov/22529484/) | 2012 | RCT | Indian Journal of Pharmacology | Comparative single-dose trial of metronidazole, tinidazole, secnidazole, and ornidazole in BV |
-| [39463760](https://pubmed.ncbi.nlm.nih.gov/39463760/) | 2024 | Systematic Review / Network Meta-analysis | Frontiers in Cellular and Infection Microbiology | Network meta-analysis comparing efficacy/safety of BV drug therapies |
-| [31129560](https://pubmed.ncbi.nlm.nih.gov/31129560/) | 2019 | Systematic Review / Meta-analysis | European Journal of Obstetrics, Gynecology, and Reproductive Biology | Efficacy and safety of single-dose oral secnidazole 2g for BV |
-| [9617020](https://pubmed.ncbi.nlm.nih.gov/9617020/) | 1998 | Cohort/Comparative Trial | Ginecología y Obstetricia de México | Oral itraconazole + secnidazole vs. vaginal ovules for symptomatic vaginitis |
-| [30424704](https://pubmed.ncbi.nlm.nih.gov/30424704/) | 2019 | Review | Postgraduate Medicine | Clinical primer on BV diagnosis and treatment approaches |
-| [29323627](https://pubmed.ncbi.nlm.nih.gov/29323627/) | 2018 | Phase 3 Open-Label Study | Journal of Women's Health | Safety of single-dose oral granule secnidazole 2g in women and adolescents with BV |
-| [31513780](https://pubmed.ncbi.nlm.nih.gov/31513780/) | 2020 | Review | American Journal of Obstetrics and Gynecology | Comprehensive diagnostic/management approach to noncandidal vaginitis |
-| [35863010](https://pubmed.ncbi.nlm.nih.gov/35863010/) | 2022 | In Vitro (Preclinical) | Microbiology Spectrum | In vitro antitrichomonal activity of 5-nitroimidazole drugs including secnidazole |
+| [28867602](https://pubmed.ncbi.nlm.nih.gov/28867602/) | 2017 | تجربة عشوائية | American Journal of Obstetrics and Gynecology | تجربة مرحلة 3 معمية مزدوجة خاضعة للسيطرة بالدواء الوهمي لجرعة واحدة فموية من السيكنيدازول 2 جم حبيبات لـ BV |
+| [20885970](https://pubmed.ncbi.nlm.nih.gov/20885970/) | 2010 | تجربة عشوائية | Infectious Diseases in Obstetrics and Gynecology | دراسة متعددة المراكز بصيغة وهمية مزدوجة مرحلة 3: السيكنيدازول غير أدنى من الميترونيدازول لـ BV |
+| [22529484](https://pubmed.ncbi.nlm.nih.gov/22529484/) | 2012 | تجربة عشوائية | Indian Journal of Pharmacology | تجربة مقارنة بجرعة واحدة للميترونيدازول والتينيدازول والسيكنيدازول والأورنيدازول في BV |
+| [39463760](https://pubmed.ncbi.nlm.nih.gov/39463760/) | 2024 | مراجعة منهجية / تحليل تلوي شبكي | Frontiers in Cellular and Infection Microbiology | تحليل تلوي شبكي يقارن فعالية/سلامة العلاجات الدوائية BV |
+| [31129560](https://pubmed.ncbi.nlm.nih.gov/31129560/) | 2019 | مراجعة منهجية / تحليل تلوي | European Journal of Obstetrics, Gynecology, and Reproductive Biology | فعالية وسلامة جرعة واحدة فموية من السيكنيدازول 2 جم لـ BV |
+| [9617020](https://pubmed.ncbi.nlm.nih.gov/9617020/) | 1998 | دراسة مجموعة/تجربة مقارنة | Ginecología y Obstetricia de México | إيتراكونازول فموي + السيكنيدازول مقابل التحاميل المهبلية لالتهاب المهبل أعراضي |
+| [30424704](https://pubmed.ncbi.nlm.nih.gov/30424704/) | 2019 | مراجعة | Postgraduate Medicine | مقدمة سريرية لتشخيص ومعالجة التهاب المهبل الجرثومي |
+| [29323627](https://pubmed.ncbi.nlm.nih.gov/29323627/) | 2018 | دراسة مفتوحة المرحلة 3 | Journal of Women's Health | سلامة جرعة واحدة فموية من حبيبات السيكنيدازول 2 جم في النساء والمراهقات المصابات بـ BV |
+| [31513780](https://pubmed.ncbi.nlm.nih.gov/31513780/) | 2020 | مراجعة | American Journal of Obstetrics and Gynecology | نهج تشخيصي/إداري شامل لالتهاب المهبل غير الناجم عن المبيضات |
+| [35863010](https://pubmed.ncbi.nlm.nih.gov/35863010/) | 2022 | في المختبر (ما قبل سريري) | Microbiology Spectrum | النشاط المضاد للمشعرات في المختبر لأدوية 5-نيتروإيميدازول بما فيها السيكنيدازول |
 
-*Additional support: [PMID 33768237](https://pubmed.ncbi.nlm.nih.gov/33768237/) (Clinical Infectious Diseases, 2021) is a Phase 3 RCT specifically confirming secnidazole efficacy for trichomoniasis — the closely related indication "Trichomonal Vulvovaginitis" (rank 5) also reaches L1/Proceed with Guardrails on this evidence pack.*
-
----
-
-## Taiwan Market Information
-
-Secnidazole currently holds **no marketing authorization in Taiwan** (0 licenses on record; market status: Not marketed/Not Marketed). No product name, dosage form, or approved indication text is available to report.
+*دعم إضافي: [PMID 33768237](https://pubmed.ncbi.nlm.nih.gov/33768237/) (Clinical Infectious Diseases، 2021) هي تجربة عشوائية مرحلة 3 تؤكد بشكل محدد فعالية السيكنيدازول لداء المشعرات — المؤشر ذي الصلة الوثيقة "التهاب الفرج والمهبل الناجم عن المشعرات" (الترتيب 5) يصل أيضاً إلى L1/المتابعة مع الضمانات على عبوة الأدلة هذه.*
 
 ---
 
-## Safety Considerations
+## معلومات سوق تايوان
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are currently unavailable — TFDA labeling data is an unresolved blocking gap, see Conclusion.)
+السيكنيدازول حالياً لا يحمل **أي ترخيص تسويق في تايوان** (0 رخصة مسجلة؛ حالة السوق: غير مسوق). لا يوجد اسم منتج أو صيغة جرعات أو نص مؤشر استخدام معتمد متاح للإبلاغ عنه.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية وموانع الاستخدام والتفاعلات الدوائية حالياً غير متاحة — بيانات تسمية TFDA هي فجوة حاجزة لم يتم حلها، انظر الخلاصة.)
 
-**Rationale:**
-Vaginal discharge (bacterial vaginosis) and the closely related trichomonal vulvovaginitis are both supported by L1 evidence — multiple completed Phase 2/3/4 RCTs and an existing FDA-approved product (Solosec®) for these exact uses — making this a credible, low-novelty-risk repurposing candidate. However, secnidazole is not currently licensed in Taiwan, and safety labeling data needed for a formal S1 safety review is missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (DG001 — blocking gap; requires PDF retrieval and parsing from TFDA)
-- Complete mechanism-of-action documentation from DrugBank (DG002 — high severity)
-- A Taiwan marketing authorization or import registration pathway assessment, since the drug is currently unlicensed
-- The four low-evidence predictions (postmenopausal atrophic vaginitis, ulceration of vulva, vulvar neoplasm, leukoplakia of vagina) should remain at **Hold** pending any clinical or mechanistic evidence — current data suggests these may be knowledge-graph noise rather than true signals
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات**
+
+**المنطق:**
+الإفرازات المهبلية (التهاب المهبل الجرثومي) والتهاب الفرج والمهبل الناجم عن المشعرات وثيق الصلة مدعومان بأدلة L1 — تجارب عشوائية متعددة مكتملة من المراحل 2/3/4 ومنتج معتمد من إدارة الغذاء والدواء (Solosec®) لهذه الاستخدامات الدقيقة — مما يجعل هذا مرشحاً معقولاً لإعادة الاستخدام برخص منخفضة المخاطر. ومع ذلك، السيكنيدازول غير مرخص حالياً في تايوان، وبيانات سلامة التسمية المطلوبة لمراجعة سلامة رسمية S1 مفقودة.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA / التحذيرات وموانع الاستخدام (DG001 — فجوة حاجزة؛ تتطلب استرجاع PDF وتحليل من TFDA)
+- توثيق آلية الفعل الكاملة من DrugBank (DG002 — شدة عالية)
+- تقييم مسار ترخيص التسويق في تايوان أو التسجيل للاستيراد، حيث أن الدواء غير مرخص حالياً
+- المؤشرات الأربعة منخفضة الأدلة (التهاب المهبل الضموري بعد انقطاع الطمث، تقرح الفرج، الأورام الخبيثة بالفرج، فرط تصنع الفرج) يجب أن تبقى في **انتظار** في انتظار أي أدلة سريرية أو ميكانيكية — البيانات الحالية تشير إلى أن هذه قد تكون تشويشاً من الرسم البياني للمعرفة وليست إشارات حقيقية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

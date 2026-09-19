@@ -29,70 +29,71 @@ indication_count: 8
 
 </div>
 
-# Moroctocog Alfa: From Hemophilia A (Factor VIII Deficiency) to Primary Release Disorder of Platelets
+# moroctocog alfa: من الهيموفيليا أ (نقص العامل الثامن) إلى اضطراب الإفراز الأساسي للصفائح الدموية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Moroctocog alfa is a recombinant Factor VIII (BDD-rFVIII) replacement product, whose established mechanism corrects congenital Factor VIII deficiency (Hemophilia A). The TxGNN model's top-ranked prediction is **Primary Release Disorder of Platelets**, but the 7 supporting clinical trials are all graded "C" (low relevance) — they involve different drugs, different diseases, or unrelated coagulation topics — so **no genuine trial or literature evidence currently supports this specific indication.**
+moroctocog alfa هو منتج بديل لعامل الثامن المؤتلف (BDD-rFVIII)، وآليته المثبتة تصحح نقص عامل الثامن الخلقي (الهيموفيليا أ). التنبؤ ذو الترتيب الأعلى من نموذج TxGNN هو **اضطراب الإفراز الأساسي للصفائح الدموية**، لكن جميع التجارب السريرية السبع الداعمة مصنفة بـ "C" (صلة منخفضة) — فهي تتضمن أدوية مختلفة أو أمراض مختلفة أو موضوعات تخثر غير ذات صلة — لذلك **لا توجد حاليًا أي أدلة تجريبية أو أدبية حقيقية تدعم هذا المؤشر المحدد.**
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Congenital Factor VIII deficiency (Hemophilia A) — inferred from repurposing rationale text; no formal Saudi Arabia license record exists (drug not marketed) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | نقص عامل الثامن الخلقي (الهيموفيليا أ) — مستنتج من نص أساس إعادة الاستخدام؛ لا توجد سجلات ترخيص رسمية في المملكة العربية السعودية (الدواء غير مسوق) |
+| المؤشر الجديد المتنبأ به | اضطراب الإفراز الأساسي للصفائح الدموية |
+| درجة التنبؤ TxGNN | 99.97% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | Hold |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (Data Gap: MOA). Based on the evidence pack's own repurposing rationale, moroctocog alfa is a B-domain-deleted recombinant Factor VIII, used to replace deficient Factor VIII in coagulation-factor–deficiency bleeding disorders such as Hemophilia A.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة (فجوة البيانات: MOA). بناءً على أساس إعادة الاستخدام الخاص بحزمة الأدلة نفسها، moroctocog alfa هو عامل ثامن مؤتلف محذوف مجال B، يُستخدم لاستبدال عامل الثامن الناقص في اضطرابات النزف الناجمة عن نقص عوامل التخثر مثل الهيموفيليا أ.
 
-Primary release disorder of platelets, however, is caused by defective platelet granule secretion, not by a Factor VIII deficiency. The evidence pack's own rationale states that FVIII replacement therapy has **no corrective mechanism** for this condition. This is corroborated by the trial evidence: all 7 retrieved trials are graded "C" (low relevance) — most involve entirely different products (PEGylated rFVIII/BAX855, rFVIIIFc-VWF-XTEN/BIVV001) studied in Hemophilia A, not platelet release disorder, while others (artificial liver support, TIPS hemostasis, post-COVID vaccination syndrome, AML coagulation profiling) are unrelated coagulation-adjacent studies that appear to have been pulled in by disease-label matching rather than genuine relevance.
+غير أن اضطراب الإفراز الأساسي للصفائح الدموية يحدث بسبب عيب في إفراز حبيبات الصفائح الدموية، وليس بسبب نقص عامل الثامن. ينص أساس حزمة الأدلة نفسها على أن العلاج البديل بـ FVIII **لا يملك آلية تصحيحية** لهذه الحالة. يتم تأكيد هذا من خلال أدلة التجارب: جميع التجارب السبع المسترجعة مصنفة بـ "C" (صلة منخفضة) — معظمها يتضمن منتجات مختلفة تماماً (rFVIII المترافق مع PEG/BAX855، rFVIIIFc-VWF-XTEN/BIVV001) تمت دراستها في الهيموفيليا أ وليس اضطراب إفراز الصفائح الدموية، بينما يتضمن البعض الآخر (دعم الكبد الصناعي، استرخاء hemostasis في TIPS، متلازمة ما بعد التطعيم ضد COVID-19، تنميط التخثر في الأورام النقوية الحادة) دراسات مجاورة للتخثر غير ذات صلة التي يبدو أنها تم سحبها من خلال مطابقة تصنيف الأمراض وليس الصلة الحقيقية.
 
-**Note:** Among the 8 TxGNN-predicted indications in this evidence pack, rank 4 ("acquired coagulation factor deficiency") shows a mechanistically more plausible link (congenital→acquired FVIII deficiency) and reached decision stage S1 ("Research Question") with L3 evidence, though the specific trials retrieved there were also confirmed to involve different FVIII products (Obizur/susoctocog alfa, TAK-672), not moroctocog alfa itself.
+**ملاحظة:** من بين المؤشرات الثمانية المتنبأ بها من قبل TxGNN في حزمة الأدلة هذه، يُظهر الترتيب الرابع ("نقص عوامل التخثر المكتسبة") ارتباطًا أكثر معقولية من الناحية الآلية (نقص FVIII الخلقي→المكتسب) وحقق مرحلة القرار S1 ("سؤال البحث") مع أدلة L3، على الرغم من أن التجارب المحددة المسترجعة هناك تم تأكيد أيضًا أنها تتضمن منتجات FVIII مختلفة (Obizur/susoctocog alfa, TAK-672)، وليس moroctocog alfa نفسه.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Phase 3 | Completed | 159 | BIVV001 (rFVIIIFc-VWF-XTEN) prophylaxis trial in severe Hemophilia A ≥12y — different drug and indication; disease-label mismatch |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Phase 3 | Completed | 30 | BAX 855 (PEGylated rFVIII) in severe Hemophilia A patients undergoing surgery — different drug and indication |
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Phase 3 | Completed | 74 | BIVV001 safety trial in pediatric severe Hemophilia A <12y — different drug and indication |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | Recruiting | 25 | Artificial liver support system in acute-on-chronic liver failure, effect on coagulation — not specific to platelet release disorder |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | Recruiting | 45 | Systemic/portal hemostasis during TIPS placement — not specific to platelet release disorder |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | Recruiting | 200 | Coagulation evaluation in Post-COVID-19-Vaccination Syndrome — unrelated |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Not yet recruiting | 80 | Coagulation profile in newly diagnosed AML under induction chemotherapy — unrelated |
+| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Phase 3 | مكتملة | 159 | تجربة الحماية BIVV001 (rFVIIIFc-VWF-XTEN) في الهيموفيليا أ الشديدة ≥12y — دواء ومؤشر مختلفان؛ عدم تطابق في تصنيف المرض |
+| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Phase 3 | مكتملة | 30 | BAX 855 (rFVIII المترافق مع PEG) في مرضى الهيموفيليا أ الشديدة الذين يخضعون لعملية جراحية — دواء ومؤشر مختلفان |
+| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Phase 3 | مكتملة | 74 | تجربة سلامة BIVV001 في الهيموفيليا أ الشديدة عند الأطفال <12y — دواء ومؤشر مختلفان |
+| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | قيد التجنيد | 25 | نظام دعم الكبد الصناعي في الفشل الكبدي الحاد على المزمن، تأثيره على التخثر — غير محدد لاضطراب الإفراز الأساسي للصفائح |
+| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | قيد التجنيد | 45 | hemostasis الجهازية/البابية أثناء وضع TIPS — غير محدد لاضطراب الإفراز الأساسي للصفائح |
+| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | قيد التجنيد | 200 | تقييم التخثر في متلازمة ما بعد التطعيم ضد COVID-19 — غير ذات صلة |
+| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | لم يبدأ التجنيد بعد | 80 | ملف تعريف التخثر في الأورام النقوية الحادة المشخصة حديثًا تحت العلاج الكيميائي الحثي — غير ذات صلة |
 
-All 7 trials are graded "C" (low relevance) in the source data — none directly test moroctocog alfa in this indication.
+جميع التجارب السبع مصنفة بـ "C" (صلة منخفضة) في بيانات المصدر — لا تختبر أي منها moroctocog alfa مباشرة في هذا المؤشر.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد حاليًا أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Moroctocog alfa is not currently marketed in Saudi Arabia; no marketing authorizations are on record (total licenses: 0).
+لا يتم تسويق moroctocog alfa حاليًا في المملكة العربية السعودية؛ لا توجد تصاريح تسويق مسجلة (إجمالي الرخص: 0).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-The mechanistic link between Factor VIII replacement and a platelet granule-secretion defect is not supported, and every retrieved trial is graded low-relevance (wrong drug, wrong disease, or an unrelated coagulation topic). Combined with the drug's unmarketed status in Saudi Arabia and blocking data gaps on labeling and MOA, there is currently no basis to advance this indication.
+**الأساس المنطقي:**
+الارتباط الآلي بين بديل عامل الثامن وعيب إفراز حبيبات الصفائح الدموية غير مدعوم، وكل تجربة مسترجعة مصنفة بصلة منخفضة (دواء خاطئ أو مرض خاطئ أو موضوع تخثر غير ذات صلة). بالإضافة إلى حالة الدواء غير المسوقة في المملكة العربية السعودية وفجوات البيانات الحاجزة في التصنيف وآلية العمل (MOA)، لا توجد حاليًا أساس لتقدم هذا المؤشر.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking data gap
-- Verified mechanism of action data from DrugBank — currently a High-severity data gap
-- A corrected disease-ontology query to rule out label mismatch, followed by a fresh trial/literature search specific to platelet release disorders
-- If pursuing repurposing further, re-evaluate rank 4 ("acquired coagulation factor deficiency") instead, which shows stronger mechanistic plausibility and reached decision stage S1 in this same evidence pack
+**لكي تتقدم، يلزم ما يلي:**
+- نشرة TFDA/التنظيمية (التحذيرات والموانع) — حاليًا فجوة بيانات حاجزة
+- بيانات آلية العمل المتحققة من DrugBank — حاليًا فجوة بيانات شديدة الخطورة
+- استعلام تصنيف المرض المصحح لاستبعاد عدم تطابق التصنيف، متبوعًا ببحث طازج عن التجارب/الأدبيات محدد لاضطرابات الإفراز الأساسي للصفائح
+- إذا كنت تتابع إعادة الاستخدام بشكل أكبر، أعد تقييم الترتيب الرابع ("نقص عوامل التخثر المكتسبة") بدلاً من ذلك، والذي يُظهر معقولية آلية أقوى وحقق مرحلة القرار S1 في حزمة الأدلة نفسها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

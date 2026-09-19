@@ -29,73 +29,74 @@ indication_count: 10
 
 </div>
 
-# Dorzolamide: From Glaucoma / Ocular Hypertension to Primary Hereditary Glaucoma
+# دورزولاميد: من الجلوكوما / ارتفاع ضغط العين إلى الجلوكوما الوراثية الأولية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dorzolamide is a topical carbonic anhydrase inhibitor (CAI) internationally established for reducing intraocular pressure (IOP) in open-angle glaucoma and ocular hypertension, though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**, with **1 completed Phase 2 clinical trial** directly testing dorzolamide in pediatric hereditary glaucoma supporting this direction.
-The same IOP-lowering mechanism underpins both the established use and this prediction, making the model's output pharmacologically consistent.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Open-angle glaucoma / Ocular hypertension (internationally recognized; not registered in Saudi Arabia) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 (1 completed Phase 2 trial) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+دورزولاميد هو مثبط كاربوني أنهيدراز (CAI) موضعي معترف به دولياً لتقليل ضغط داخل العين (IOP) في جلوكوما الزاوية المفتوحة وارتفاع ضغط العين، على الرغم من أنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للجلوكوما الوراثية الأولية، مع وجود تجربة إكلينيكية واحدة مكتملة من المرحلة الثانية تختبر دورزولاميد مباشرة في الجلوكوما الوراثية عند الأطفال تدعم هذا الاتجاه.
+تدعم نفس آلية خفض ضغط داخل العين كل من الاستخدام المعترف به والتنبؤ هذا، مما يجعل مخرجات النموذج متسقة من الناحية الصيدلية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Dorzolamide is a second-generation topical carbonic anhydrase inhibitor (CAI). Its core mechanism of action involves blocking the enzyme carbonic anhydrase II in the ciliary body epithelium of the eye, which reduces bicarbonate and fluid secretion into the anterior chamber. The net result is a lower rate of aqueous humor production and a reduction in intraocular pressure (IOP). Critically, this mechanism is independent of the underlying cause of elevated IOP — it acts upstream of the pathological process itself.
-
-Primary hereditary glaucoma is a genetically determined form of glaucoma, most commonly arising from mutations in genes such as *CYP1B1* or *MYOC*, and typically presents in infancy or early childhood with high IOP, corneal enlargement (buphthalmos), and progressive optic nerve damage. Despite its genetic origin, the fundamental driver of vision loss is the same as in adult open-angle glaucoma: sustained elevated IOP injuring the optic nerve. Since dorzolamide reduces IOP by suppressing aqueous humor secretion rather than by modifying trabecular outflow, it can effectively lower pressure regardless of whether the dysfunction is inherited or acquired.
-
-Dorzolamide is therefore a pharmacologically rational candidate for primary hereditary glaucoma. One completed Phase 2 trial (NCT01527682) directly tested its ocular hypotensive effect in pediatric patients with hereditary glaucoma who were refractory to surgical procedures, providing early clinical support that the prediction is more than theoretical.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|--------------|-------|--------|------------|--------------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Evaluated the ocular hypotensive effect of dorzolamide vs. latanoprost in pediatric patients with primary hereditary glaucoma refractory to surgical procedures; safety was a co-endpoint |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | جلوكوما الزاوية المفتوحة / ارتفاع ضغط العين (معترف به دولياً؛ غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | الجلوكوما الوراثية الأولية |
+| درجة التنبؤ بنموذج TxGNN | 99.99% |
+| مستوى الأدلة | L2 (تجربة إكلينيكية واحدة مكتملة من المرحلة الثانية) |
+| حالة السوق في المملكة العربية السعودية | لم يتم تسويقه |
+| عدد الموافقات | 0 |
+| القرار الموصى به | احتفظ |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+دورزولاميد هو مثبط كاربوني أنهيدراز موضعي من الجيل الثاني (CAI). تتضمن آلية عمله الأساسية حجب إنزيم كاربوني أنهيدراز II في ظهارة الجسم الهدبي في العين، مما يقلل من إفراز البيكربونات والسوائل في الحجرة الأمامية. النتيجة الصافية هي معدل أقل لإنتاج السائل المائي وانخفاض في ضغط داخل العين (IOP). والجدير بالملاحظة أن هذه الآلية مستقلة تماماً عن السبب الأساسي لارتفاع ضغط داخل العين — بل تعمل قبل العملية المرضية نفسها.
 
----
+الجلوكوما الوراثية الأولية هي شكل وراثي من الجلوكوما، ناشئ في الأغلب من طفرات في جينات مثل *CYP1B1* أو *MYOC*، وعادة ما تظهر في مرحلة الرضاعة أو الطفولة المبكرة مع ارتفاع ضغط داخل العين، وتضخم القرنية (buphthalmos)، والضرر التدريجي للعصب البصري. على الرغم من أصله الوراثي، فإن الدافع الأساسي لفقدان البصر هو نفسه كما في جلوكوما الزاوية المفتوحة عند البالغين: ارتفاع ضغط داخل العين المستمر الذي يصيب العصب البصري. نظراً لأن دورزولاميد يقلل ضغط داخل العين عن طريق قمع إنتاج السائل المائي بدلاً من تعديل التصريف عبر الشبكة الليفية، فيمكنه خفض الضغط بفعالية بغض النظر عما إذا كان الخلل وراثياً أو مكتسباً.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+دورزولاميد هو بالتالي مرشح معقول من الناحية الصيدلية للجلوكوما الوراثية الأولية. اختبرت تجربة إكلينيكية واحدة مكتملة من المرحلة الثانية (NCT01527682) مباشرة تأثيره الخافض لضغط داخل العين في المرضى الأطفال الذين يعانون من الجلوكوما الوراثية الذين لم يستجيبوا للإجراءات الجراحية، مما يوفر دعماً إكلينيكياً مبكراً بأن التنبؤ أكثر من مجرد نظري.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب الإكلينيكية
 
-**Decision: Hold**
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
+|------------|--------|--------|-------------|-----------------|
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | المرحلة الثانية | مكتملة | 37 | قيّمت التأثير الخافض لضغط داخل العين للدورزولاميد مقابل لاتانوبروست في المرضى الأطفال الذين يعانون من الجلوكوما الوراثية الأولية الذين لم يستجيبوا للإجراءات الجراحية؛ كانت السلامة نقطة نهاية مشتركة |
 
-**Rationale:**
-Dorzolamide's carbonic anhydrase inhibition mechanism is directly applicable to primary hereditary glaucoma, but evidence is limited to a single small Phase 2 trial (n=37), the drug has no current registration in Saudi Arabia, and essential safety documentation (contraindications, warnings, drug interactions) has not yet been retrieved into the Evidence Pack.
+---
 
-**To proceed, the following is needed:**
-- Clarify the Saudi Arabia regulatory pathway — SFDA registration or named-patient importation — before any clinical deployment
-- Retrieve and review the published results and safety data from NCT01527682
-- Complete safety documentation: obtain contraindications, key warnings, and drug interaction profile (DG001 remediation via package insert PDF)
-- Obtain detailed mechanism of action documentation from DrugBank (DG002 remediation)
-- Evaluate whether the extensive evidence base for open-angle glaucoma (41+ clinical trials, 20+ publications at ranks 6–7) could support a broader glaucoma indication registration in Saudi Arabia as a prerequisite step
+## أدلة الأدبيات
+
+لا توجد أدبيات ذات صلة متاحة حالياً.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**المنطق:**
+آلية مثبط كاربوني أنهيدراز في دورزولاميد قابلة مباشرة للتطبيق على الجلوكوما الوراثية الأولية، لكن الأدلة محدودة لتجربة إكلينيكية واحدة صغيرة من المرحلة الثانية (n=37)، والعقار لم يتم تسجيله حالياً في المملكة العربية السعودية، وتوثيق السلامة الأساسي (موانع الاستعمال والتحذيرات والتفاعلات الدوائية) لم يتم استرجاعه بعد إلى حزمة الأدلة.
+
+**للمتابعة، يلزم ما يلي:**
+- توضيح المسار التنظيمي في المملكة العربية السعودية — تسجيل SFDA أو استيراد مريض مسمى — قبل أي نشر إكلينيكي
+- استرجاع ومراجعة النتائج المنشورة وبيانات السلامة من NCT01527682
+- إكمال توثيق السلامة: الحصول على موانع الاستعمال والتحذيرات الرئيسية وملف التفاعلات الدوائية (تصحيح DG001 عبر ملف PDF النشرة الدوائية)
+- الحصول على وثائق آلية العمل المفصلة من DrugBank (تصحيح DG002)
+- تقييم ما إذا كان يمكن للقاعدة الكبيرة من الأدلة لجلوكوما الزاوية المفتوحة (41+ تجربة إكلينيكية، 20+ منشور عند مراتب 6–7) دعم تسجيل دلالة جلوكوما أوسع في المملكة العربية السعودية كخطوة سابقة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

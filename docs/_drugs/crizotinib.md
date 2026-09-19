@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-# Crizotinib: From ALK-Positive Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+# كريزوتينيب: من سرطان الرئة ذو الخلايا غير الصغيرة الموجب للـ ALK إلى الورم الليفي اللثوي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1, and MET, approved for the treatment of ALK-positive and ROS1-positive advanced non-small cell lung cancer (NSCLC).
-The TxGNN model predicts it may be effective for **Fibromatosis, Gingival**,
-however this direction is currently supported by **0 clinical trials** and **0 publications**.
+كريزوتينيب هو مثبط تنافسي معتمد على ATP لإنزيمات استقبال التيروسين كيناز ALK و ROS1 و MET، معتمد لعلاج سرطان الرئة ذو الخلايا غير الصغيرة (NSCLC) المتقدم الموجب للـ ALK و ROS1.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الورم الليفي اللثوي**،
+ومع ذلك فإن هذا الاتجاه يدعمه حالياً **0 تجربة سريرية** و **0 منشور علمي**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | ALK-positive / ROS1-positive advanced Non-Small Cell Lung Cancer |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | سرطان الرئة ذو الخلايا غير الصغيرة المتقدم الموجب للـ ALK / ROS1 |
+| المؤشر الجديد المتنبأ به | الورم الليفي اللثوي |
+| درجة التنبؤ من TxGNN | 99.81% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معروض في السوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available from the structured data source for this report. Based on published literature referenced within this evidence pack, crizotinib is an ATP-competitive inhibitor of three receptor tyrosine kinases: anaplastic lymphoma kinase (ALK), ROS proto-oncogene 1 receptor tyrosine kinase (ROS1), and MET (c-Met). It was first approved in 2011 for EML4-ALK rearranged advanced NSCLC, and subsequently for ROS1-fused NSCLC, where constitutive kinase activation drives uncontrolled tumor cell proliferation and survival.
+بيانات آلية العمل التفصيلية غير متاحة من مصدر البيانات المنظمة لهذا التقرير. بناءً على الأدبيات المنشورة المرجعية ضمن حزمة الأدلة هذه، كريزوتينيب هو مثبط تنافسي معتمد على ATP لثلاثة إنزيمات استقبال التيروسين كيناز: الكيناز اللمفومي فرط النشاط (ALK)، وكيناز استقبال التيروسين البروتو-أونكوجين 1 (ROS1)، و MET (c-Met). تمت الموافقة عليه لأول مرة عام 2011 لسرطان الرئة ذو الخلايا غير الصغيرة المتقدم المعاد الترتيب EML4-ALK، وبعد ذلك لسرطان الرئة المندمج ROS1، حيث يؤدي تنشيط الكيناز التأسيسي إلى انتشار خلايا الأورام التي لا تخضع للرقابة والبقاء.
 
-Gingival fibromatosis is a rare benign connective tissue disorder characterised by progressive overgrowth of the gingival mucosa. Its known genetic drivers include mutations in *SOS1*, *HRAS*, and other yet-unidentified loci that regulate connective tissue remodelling — none of which intersect with the ALK/ROS1/MET signalling axis that crizotinib targets. Unlike malignant tumours where these kinases are aberrantly activated, gingival fibromatosis does not involve receptor tyrosine kinase-driven oncogenic signalling.
+الورم الليفي اللثوي هو اضطراب نادر وحميد في الأنسجة الضامة يتميز بفرط نمو تدريجي في الغشاء المخاطي اللثوي. تشمل محركاته الوراثية المعروفة الطفرات في *SOS1* و *HRAS* وأماكن وراثية أخرى لم تُحدد بعد تنظم إعادة تشكيل الأنسجة الضامة - بلا تقاطع منها مع محور إشارات ALK/ROS1/MET الذي يستهدفه كريزوتينيب. على عكس الأورام الخبيثة حيث يتم تنشيط هذه الكينازات بشكل غير طبيعي، فإن الورم الليفي اللثوي لا ينطوي على إشارات سرطانية مدفوعة بإنزيم استقبال التيروسين كيناز.
 
-The high TxGNN prediction score (99.81%) therefore cannot be substantiated by any known mechanistic bridge. This signal is most likely attributable to graph topology propagation in the knowledge graph — a known false-positive pattern where nodes that are topologically proximal in the disease network receive high scores independent of true biological plausibility. No clinical or preclinical evidence exists to contradict this assessment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+وبالتالي، فإن درجة التنبؤ العالية من TxGNN (99.81%) لا يمكن إثباتها بأي جسر آلي معروف. يُرجح أن تكون هذه الإشارة نتيجة انتشار طوبولوجيا الرسم البياني في الرسم البياني للمعرفة - وهي حالة إيجابية كاذبة معروفة حيث تتلقى العقد التي تكون قريبة من الناحية الطوبولوجية في شبكة المرض درجات عالية بغض النظر عن المعقولية البيولوجية الحقيقية. لا توجد أدلة سريرية أو سابقة للسريرية لتناقض هذا التقييم.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Crizotinib is currently **not registered** in Saudi Arabia. No marketing authorisations have been issued.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Cytotoxicity
+## أدلة الأدبيات
 
-Crizotinib is an antineoplastic targeted therapy approved for malignant indications. The following safety profile applies.
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-| Item | Content |
+---
+
+## معلومات السوق بالمملكة العربية السعودية
+
+كريزوتينيب غير مسجل حالياً في المملكة العربية السعودية. لم يتم إصدار أي تفويضات تسويق.
+
+---
+
+## السمية الخلوية
+
+كريزوتينيب هو علاج موجه ضد الأورام الخبيثة معتمد. ينطبق الملف الجانبي الأمني التالي.
+
+| العنصر | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — ALK/ROS1/MET receptor tyrosine kinase inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate; hepatotoxicity, cardiotoxicity, and interstitial lung disease are the primary toxicity concerns; haematological adverse events are less pronounced than with conventional cytotoxic chemotherapy |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (ALT, AST, total bilirubin), ECG monitoring for QT prolongation and bradycardia, chest imaging for interstitial lung disease / organising pneumonia, complete blood count |
-| Handling Protection | Standard precautions for oral targeted therapy apply; refer to institutional cytotoxic drug handling guidelines |
+| تصنيف السمية الخلوية | العلاج الموجه - مثبط إنزيم استقبال التيروسين كيناز ALK/ROS1/MET (وليس العلاج السام التقليدي) |
+| خطر فقر الدم | منخفض إلى متوسط؛ السمية الكبدية والقلبية والتهاب الرئة الخلالي هي المخاوف السمية الأساسية؛ الأحداث الضارة الدموية أقل وضوحاً من العلاج الكيميائي السام التقليدي |
+| تصنيف الغثيان | منخفض |
+| عناصر المراقبة | اختبارات وظائف الكبد (ALT و AST والبيليروبين الكلي)، مراقبة تخطيط القلب لإطالة QT والبطء النبضي، التصوير الصدري لالتهاب الرئة الخلالي / الالتهاب الرئوي المنظم، تعداد الدم الكامل |
+| حماية التعامل | تنطبق الاحتياطات القياسية للعلاج الموجه الفموي؛ راجع إرشادات مؤسسة التعامل مع الأدوية السامة للخلايا |
 
-> **Key toxicities identified in the evidence pack:** hepatotoxicity including fatal fulminant liver failure (PMID [26898609](https://pubmed.ncbi.nlm.nih.gov/26898609/)); simultaneous cardiac toxicities including bradycardia, QT prolongation, and ventricular fibrillation (PMID [29717400](https://pubmed.ncbi.nlm.nih.gov/29717400/)); drug-induced organising pneumonia / lung injury (PMID [37062732](https://pubmed.ncbi.nlm.nih.gov/37062732/)).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+> **السميات الرئيسية المحددة في حزمة الأدلة:** السمية الكبدية بما في ذلك قصور الكبد الحاد المميت (PMID [26898609](https://pubmed.ncbi.nlm.nih.gov/26898609/))؛ السميات القلبية المتزامنة بما في ذلك البطء النبضي وإطالة QT والرجفان البطيني (PMID [29717400](https://pubmed.ncbi.nlm.nih.gov/29717400/))؛ التهاب الرئة المنظم / إصابة الرئة الناجمة عن الأدوية (PMID [37062732](https://pubmed.ncbi.nlm.nih.gov/37062732/)).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يرجى الرجوع إلى ملحق الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-Despite a high TxGNN score, gingival fibromatosis is driven by SOS1/HRAS mutations with no established connection to the ALK/ROS1/MET signalling axis. The complete absence of clinical trial or published literature support places this at L5 (model prediction only), and the mechanistic rationale is assessed as negative. This prediction is classified as a likely graph-diffusion false positive.
+---
 
-**To proceed, the following is needed:**
-- Histological or molecular evidence of ALK, ROS1, or MET expression/activation in gingival fibromatosis tissue
-- Preclinical studies (in vitro or in vivo) establishing a biological link between crizotinib's kinase targets and gingival fibromatosis pathogenesis
-- Retrieval of full MOA and safety data via DrugBank API (Data Gap DG002)
-- Retrieval of prescribing information and package insert warnings (Data Gap DG001)
-- Saudi Arabia regulatory filing if clinical development is pursued (drug currently not registered in the market)
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المنطق:**
+على الرغم من درجة TxGNN العالية، فإن الورم الليفي اللثوي يقوده الطفرات SOS1/HRAS بلا اتصال معروف بمحور إشارات ALK/ROS1/MET. يضع الغياب الكامل لدعم التجارب السريرية أو الأدبيات المنشورة هذا في L5 (التنبؤ النموذجي فقط)، ويتم تقييم المنطق الآلي على أنه سلبي. يتم تصنيف هذا التنبؤ على أنه احتمال إيجابي كاذب ناتج عن انتشار الرسم البياني.
+
+**للمتابعة، يلزم ما يلي:**
+- أدلة نسيجية أو جزيئية لتعبير / تنشيط ALK أو ROS1 أو MET في أنسجة الورم الليفي اللثوي
+- الدراسات قبل السريرية (في المختبر أو في الجسم الحي) التي تثبت الارتباط البيولوجي بين أهداف كريزوتينيب الكيناز وأمراض الورم الليفي اللثوي
+- استرجاع بيانات MOA الكاملة والبيانات الأمنية عبر DrugBank API (Data Gap DG002)
+- استرجاع معلومات الوصفات الطبية وتحذيرات ملحق الحزمة (Data Gap DG001)
+- تقديم قانوني للمملكة العربية السعودية إذا تمت متابعة التطوير السريري (الدواء غير مسجل حالياً في السوق)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,92 +29,93 @@ indication_count: 2
 
 </div>
 
-# Diethylcarbamazine: From Lymphatic Filariasis to Primary Lymphedema
+# ديثيل كاربامازين: من داء الخيطيات اللمفاوية إلى الوذمة اللمفاوية الأولية
 
-## One-Sentence Summary
+## ملخص بسطر واحد
 
-Diethylcarbamazine (DEC) is a WHO first-line antifilarial drug with over 70 years of clinical use, targeting the microfilariae and adult worms of *Wuchereria bancrofti* and *Brugia* species that cause lymphatic filariasis. The TxGNN model's top-ranked prediction — syndromic lymphedema (99.59%) — has been evaluated as a knowledge-graph artefact with no plausible mechanistic link; the second-ranked prediction, **primary lymphedema** in the context of filariasis-associated lymphedema (99.25%), is supported by **6 registered clinical trials** (including Phase 3/4 community RCTs enrolling up to 23,789 participants) and **20 publications**, making it the clinically actionable finding of this evaluation.
+ديثيل كاربامازين (DEC) هو دواء مضاد للخيطيات من الخط الأول لمنظمة الصحة العالمية يتمتع باستخدام سريري يتجاوز 70 سنة، ويستهدف الميكروفيلاريا والديدان البالغة لـ *Wuchereria bancrofti* و*Brugia* التي تسبب داء الخيطيات اللمفاوية. تم تقييم التنبؤ الأعلى تصنيفاً من نموذج TxGNN — الوذمة اللمفاوية المتلازمة (99.59%) — على أنه حفرة طوبولوجية في الرسم البياني المعرفي بدون ارتباط آلي معقول؛ التنبؤ الثاني الأعلى تصنيفاً، **الوذمة اللمفاوية الأولية** في سياق الوذمة اللمفاوية المرتبطة بالخيطيات (99.25%)، مدعوم بـ **6 تجارب سريرية مسجلة** (تشمل دراسات مرحلة 3/4 مجتمعية بتجنيد يصل إلى 23,789 مشارك) و**20 منشوراً**، مما يجعله النتيجة القابلة للتطبيق سريرياً من هذا التقييم.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Lymphatic filariasis (WHO first-line antifilarial agent) |
-| Predicted New Indication | Primary Lymphedema (filariasis-associated) |
-| TxGNN Prediction Score | 99.25% (Rank 2; Rank 1 — Syndromic Lymphedema 99.59% — assessed as graph topology artefact, Hold) |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | داء الخيطيات اللمفاوية (عامل مضاد للخيطيات من الخط الأول لمنظمة الصحة العالمية) |
+| الاستطباب الجديد المتنبأ به | الوذمة اللمفاوية الأولية (المرتبطة بالخيطيات) |
+| درجة تنبؤ TxGNN | 99.25% (التصنيف 2؛ التصنيف 1 — الوذمة اللمفاوية المتلازمة 99.59% — تقييمها كحفرة طوبولوجية للرسم البياني، في الانتظار) |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | متابعة مع ضمانات حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Diethylcarbamazine's mechanism of action is well-characterised in the antifilarial literature despite the MOA data gap in this evidence pack. DEC acts primarily as a microfilaricide through three converging pathways: (1) enhancement of host macrophage-mediated oxidative killing via antibody-dependent cellular cytotoxicity (ADCC); (2) disruption of the parasite's arachidonic acid metabolism, impairing microfilarial cell membrane integrity; and (3) partial macrofilaricidal activity against adult worms residing in the lymphatic vessels, reducing ongoing infection and new lymphatic obstruction. WHO has designated DEC as the cornerstone of mass drug administration (MDA) programs, used as the two-drug DEC+albendazole (DA) regimen or the triple-drug ivermectin+DEC+albendazole (IDA) combination.
+آلية عمل ديثيل كاربامازين جيدة التوصيف في الأدبيات المضادة للخيطيات، رغم وجود فجوة في بيانات الآلية في هذه مجموعة الأدلة. يعمل DEC بشكل أساسي كدواء مضاد للميكروفيلاريا عبر ثلاثة مسارات متقاربة: (1) تعزيز القتل المؤكسد بوساطة الالتهام الذاتي للعاملين بالأجسام المضادة (ADCC)؛ (2) تعطيل أيض حمض الأراكيدونيك في الطفيلي، مما يضعف سلامة غشاء الخلية للميكروفيلاريا؛ و(3) النشاط المضاد الجزئي للديدان البالغة ضد الديدان البالغة المقيمة في الأوعية اللمفاوية، مما يقلل العدوى المستمرة والانسداد اللمفاوي الجديد. حددت منظمة الصحة العالمية DEC كحجر الزاوية في برامج الإعطاء الجماعي للعقاقير (MDA)، المستخدمة في نظام DEC+البندازول الثنائي (DA) أو مزيج ivermectin+DEC+albendazole الثلاثي (IDA).
 
-The link between DEC and primary lymphedema in this evaluation specifically targets **filariasis-induced lymphedema** — the chronic, progressive complication in which adult *Wuchereria bancrofti* or *Brugia* worms damage lymphatic vessels, leading to limb swelling, hydrocele, and elephantiasis. Up to 16 million of the 120 million people globally infected with lymphatic filariasis develop clinically significant lymphedema. DEC acts upstream in this pathological cascade by clearing microfilariae from the bloodstream and partially eliminating adult worms, thereby reducing ongoing lymphatic vessel injury. The TxGNN prediction accurately captures this disease-ontology connection.
+يستهدف الارتباط بين DEC والوذمة اللمفاوية الأولية في هذا التقييم على وجه التحديد **الوذمة اللمفاوية المحدثة بالخيطيات** — المضاعفة المزمنة والتقدمية التي تسببها ديدان *Wuchereria bancrofti* أو *Brugia* البالغة من خلال إلحاق الضرر بالأوعية اللمفاوية، مما يؤدي إلى تورم الأطراف والاستسقاء والفيلاريا الفيلة. يصاب ما يصل إلى 16 مليون من 120 مليون شخص مصابين عالمياً بداء الخيطيات اللمفاوية بوذمة لمفاوية سريرية كبيرة. يعمل DEC بشكل تصاعدي في هذه السلسلة المرضية من خلال إزالة الميكروفيلاريا من مجرى الدم والقضاء الجزئي على الديدان البالغة، وبالتالي تقليل إصابة الأوعية اللمفاوية المستمرة. يلتقط التنبؤ TxGNN بدقة هذا الارتباط بين مسببات الأمراض والوصف الطبي.
 
-**Important caveat — TxGNN Rank 1 (Syndromic Lymphedema, 99.59%):** This prediction is assessed as a likely false positive arising from knowledge-graph topology. Syndromic lymphedema refers to primary lymphedema caused by genetic syndromes such as Milroy disease or Turner syndrome — a pathophysiology entirely unrelated to filarial infection. The high TxGNN score most likely reflects the ontological proximity between the "syndromic lymphedema" and "filariasis-induced lymphedema" disease nodes, not a genuine therapeutic connection. DEC has no plausible mechanism for genetic lymphedema. This prediction is held at **L4 / Hold** and should not advance to clinical evaluation.
+**تحذير مهم — تصنيف TxGNN 1 (الوذمة اللمفاوية المتلازمة، 99.59%):** يتم تقييم هذا التنبؤ على أنه إيجابي خاطئ محتمل ناشئ عن طوبولوجيا الرسم البياني المعرفي. تشير الوذمة اللمفاوية المتلازمة إلى الوذمة اللمفاوية الأولية الناجمة عن الأمراض الوراثية مثل مرض ميلروي أو متلازمة تيرنر — وهي حالة مرضية لا علاقة لها تماماً بالعدوى الفطرية. من المحتمل أن تعكس درجة TxGNN الأعلى القرب الأنطولوجي بين عُقد الأمراض "الوذمة اللمفاوية المتلازمة" و"الوذمة اللمفاوية المحدثة بالخيطيات"، وليس ارتباطاً علاجياً حقيقياً. لا توجد آلية معقولة لـ DEC تجاه الوذمة اللمفاوية الوراثية. يتم تصنيف هذا التنبؤ عند **L4 / في الانتظار** ولا ينبغي أن يتقدم إلى التقييم السريري.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02899936](https://clinicaltrials.gov/study/NCT02899936) | — | Completed | 23,789 | Head-to-head community trial across 5 countries comparing DEC+albendazole (DA) vs triple IDA therapy; DEC is the primary antifilarial component in both arms; characterized safety and relative efficacy at the largest scale to date |
-| [NCT03676140](https://clinicaltrials.gov/study/NCT03676140) | Phase 3 | Completed | 20,000 | Cluster-RCT evaluating safety of IDA co-administered with azithromycin for integrated neglected tropical disease treatment; DEC is a core component of the IDA regimen; confirmed safety in large community settings |
-| [NCT03268252](https://clinicaltrials.gov/study/NCT03268252) | — | Completed | 3,200 | MDA optimization trial using DEC+albendazole in Papua New Guinea over 6 years; assessed dose optimization (DEC 6 mg/kg) and community-level microfilarial clearance and transmission interruption |
-| [NCT03036059](https://clinicaltrials.gov/study/NCT03036059) | Phase 4 | Completed | 1,462 | Annual vs biannual ivermectin+albendazole MDA in Ghana (onchocerciasis co-endemic setting where DEC is contraindicated); benchmarks LF elimination strategy and highlights DEC's geographic applicability constraints |
-| [NCT02974049](https://clinicaltrials.gov/study/NCT02974049) | — | Completed | 189 | Evaluation of alternative LF chemotherapy regimens in Côte d'Ivoire including DEC-based combinations in *Loa loa* co-endemic areas; relevant to safety stratification |
-| [NCT07159373](https://clinicaltrials.gov/study/NCT07159373) | Phase 3 | Not Yet Recruiting | 5,100 | Moxidectin+DEC+albendazole vs ivermectin+DEC+albendazole for LF in Fiji; DEC retained in both experimental arms; prospective large-scale trial with results expected 2028 |
+| [NCT02899936](https://clinicaltrials.gov/study/NCT02899936) | — | مكتملة | 23,789 | تجربة مقارنة رأساً برأس مجتمعية عبر 5 دول تقارن DEC+albendazole (DA) مقابل علاج IDA الثلاثي؛ DEC هو المكون المضاد للخيطيات الأساسي في كلا الذراعين؛ توصيف السلامة والفعالية النسبية على أكبر نطاق حتى الآن |
+| [NCT03676140](https://clinicaltrials.gov/study/NCT03676140) | المرحلة 3 | مكتملة | 20,000 | دراسة عنقودية عشوائية لتقييم سلامة IDA الممنوح بالتزامن مع azithromycin للعلاج المتكامل للأمراض الاستوائية المهملة؛ DEC هو المكون الأساسي في نظام IDA؛ أكدت السلامة في بيئات مجتمعية كبيرة |
+| [NCT03268252](https://clinicaltrials.gov/study/NCT03268252) | — | مكتملة | 3,200 | دراسة تحسين MDA باستخدام DEC+albendazole في بابوا غينيا الجديدة على مدى 6 سنوات؛ قيّمت تحسين الجرعة (DEC 6 ملغ/كغ) والتطهير من الميكروفيلاريا على مستوى المجتمع وقطع الانتقال |
+| [NCT03036059](https://clinicaltrials.gov/study/NCT03036059) | المرحلة 4 | مكتملة | 1,462 | سنوي مقابل MDA للإيفرمكتين+albendazole كل سنتين في غانا (موقع متعايش مع داء الأنكلستوما حيث DEC موانع استعمال)؛ معايير استراتيجية التخلص من خيطيات اللمفاوية وتسليط الضوء على قيود الانطباق الجغرافي لـ DEC |
+| [NCT02974049](https://clinicaltrials.gov/study/NCT02974049) | — | مكتملة | 189 | تقييم أنظمة العلاج الكيميائي البديل للـ LF في كوت ديفوار بما في ذلك مزيجات تحتوي على DEC في مناطق *Loa loa* المتعايشة؛ ذات صلة بطبقات السلامة |
+| [NCT07159373](https://clinicaltrials.gov/study/NCT07159373) | المرحلة 3 | لم يبدأ الاستقطاب بعد | 5,100 | Moxidectin+DEC+albendazole مقابل ivermectin+DEC+albendazole للـ LF في فيجي؛ DEC محتفظ به في كلا الذراعين التجريبيين؛ دراسة واعدة بنتائج متوقعة 2028 |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38708851](https://pubmed.ncbi.nlm.nih.gov/38708851/) | 2024 | Review | N Engl J Med | Comprehensive review of lymphatic filariasis pathogenesis, epidemiology, and management; DEC-based MDA presented as standard of care for prevention of filariasis-induced lymphedema |
-| [40345209](https://pubmed.ncbi.nlm.nih.gov/40345209/) | 2025 | RCT | Lancet Infect Dis | Randomised trial of moxidectin combination therapies vs ivermectin for *W. bancrofti* microfilarial clearance in Côte d'Ivoire; DEC included in comparator regimens; informs next-generation LF elimination strategy |
-| [40063867](https://pubmed.ncbi.nlm.nih.gov/40063867/) | 2025 | RCT | PLoS Negl Trop Dis | IDA vs DA MDA in Papua New Guinea; demonstrated broader helminth coverage (hookworm, strongyloidiasis) with IDA vs DA without compromising DEC's primary antifilarial role |
-| [33728462](https://pubmed.ncbi.nlm.nih.gov/33728462/) | 2021 | RCT | Clin Infect Dis | IDA MDA cluster-RCT in Fiji; DEC-containing IDA showed superior sustained microfilarial clearance at 12 months versus DA in a diurnally subperiodic filarial transmission setting |
-| [32511226](https://pubmed.ncbi.nlm.nih.gov/32511226/) | 2020 | Clinical Trial | PLoS Negl Trop Dis | Two-arm community study comparing IDA vs DA in Haiti; IDA demonstrated superior *W. bancrofti* microfilarial clearance; DEC present and active in both arms |
-| [26486704](https://pubmed.ncbi.nlm.nih.gov/26486704/) | 2016 | Clinical Trial | Clin Infect Dis | First formal safety and efficacy data for single-dose DEC+ivermectin+albendazole triple therapy in bancroftian filariasis; established the pharmacological basis for the IDA regimen |
-| [40380307](https://pubmed.ncbi.nlm.nih.gov/40380307/) | 2025 | Systematic Review | BMC Infect Dis | Network meta-analysis of antifilarial MDA strategies; DEC-containing regimens consistently among the most effective for microfilarial clearance; noted DEC's contraindication in onchocerciasis co-endemic settings due to severe ocular adverse events |
-| [35292578](https://pubmed.ncbi.nlm.nih.gov/35292578/) | 2022 | Implementation | Am J Trop Med Hyg | Analysis of WHO IDA guideline adoption pathway; DEC's established safety profile was a key factor in accelerating global LF elimination program scale-up |
-| [20739055](https://pubmed.ncbi.nlm.nih.gov/20739055/) | 2010 | Review | Lancet | Landmark review of lymphatic filariasis and onchocerciasis pathogenesis; DEC mechanism of action, efficacy, and safety profile reviewed in the context of global filarial disease burden |
-| [3297557](https://pubmed.ncbi.nlm.nih.gov/3297557/) | 1987 | Review | Ciba Found Symp | Foundational mechanistic review of antifilarial agents; DEC characterised as predominantly microfilaricidal through immune modulation (ADCC) and disruption of parasite neuromuscular function and arachidonic acid metabolism |
+| [38708851](https://pubmed.ncbi.nlm.nih.gov/38708851/) | 2024 | مراجعة | N Engl J Med | مراجعة شاملة لمسببات المرض وعلم الأوبئة وإدارة داء الخيطيات اللمفاوية؛ تقدم MDA القائم على DEC كمعيار الرعاية لمنع الوذمة اللمفاوية المحدثة بالخيطيات |
+| [40345209](https://pubmed.ncbi.nlm.nih.gov/40345209/) | 2025 | RCT | Lancet Infect Dis | دراسة عشوائية لعلاجات moxidectin الموحدة مقابل ivermectin لتطهير الميكروفيلاريا *W. bancrofti* في كوت ديفوار؛ DEC مدرج في الأنظمة المقارنة؛ يوفر معلومات حول استراتيجية الجيل التالي للتخلص من LF |
+| [40063867](https://pubmed.ncbi.nlm.nih.gov/40063867/) | 2025 | RCT | PLoS Negl Trop Dis | IDA مقابل DA MDA في بابوا غينيا الجديدة؛ أثبت تغطية أوسع للديدان الخيطية (الديدان الخطافية، داء الأسطوانيات) مع IDA مقابل DA دون المساس بالدور المضاد للخيطيات الأساسي لـ DEC |
+| [33728462](https://pubmed.ncbi.nlm.nih.gov/33728462/) | 2021 | RCT | Clin Infect Dis | دراسة عنقودية عشوائية لـ IDA MDA في فيجي؛ أظهر IDA الذي يحتوي على DEC تطهيراً أفضل للميكروفيلاريا المستدام عند 12 شهراً مقابل DA في سياق انتقال فطري ثنائي الدورية |
+| [32511226](https://pubmed.ncbi.nlm.nih.gov/32511226/) | 2020 | دراسة سريرية | PLoS Negl Trop Dis | دراسة مجتمعية بذراعين تقارن IDA مقابل DA في هايتي؛ أظهر IDA تطهيراً أفضل للميكروفيلاريا *W. bancrofti*؛ DEC موجود وفعال في كلا الذراعين |
+| [26486704](https://pubmed.ncbi.nlm.nih.gov/26486704/) | 2016 | دراسة سريرية | Clin Infect Dis | أول بيانات رسمية عن السلامة والفعالية للجرعة الواحدة DEC+ivermectin+albendazole الثلاثية في داء الخيطيات البنكروفتي؛ وضعت الأساس الصيدلاني لنظام IDA |
+| [40380307](https://pubmed.ncbi.nlm.nih.gov/40380307/) | 2025 | مراجعة منهجية | BMC Infect Dis | تحليل الشبكة لاستراتيجيات MDA المضادة للخيطيات؛ الأنظمة التي تحتوي على DEC من بين الأكثر فعالية لتطهير الميكروفيلاريا؛ لوحظ تناقض DEC في المناطق المتعايشة مع داء الأنكلستوما بسبب حوادث عينية ضائرة شديدة |
+| [35292578](https://pubmed.ncbi.nlm.nih.gov/35292578/) | 2022 | تنفيذ | Am J Trop Med Hyg | تحليل مسار اعتماد إرشادات منظمة الصحة العالمية IDA؛ كان ملف السلامة المثبت لـ DEC عاملاً رئيسياً في تسريع توسيع برنامج التخلص من LF على مستوى العالم |
+| [20739055](https://pubmed.ncbi.nlm.nih.gov/20739055/) | 2010 | مراجعة | Lancet | مراجعة علامة فارقة لمسببات داء الخيطيات اللمفاوية والأنكلستوما؛ تم مراجعة آلية عمل DEC وملف الفعالية وملف السلامة في سياق العبء المرضي الفطري العالمي |
+| [3297557](https://pubmed.ncbi.nlm.nih.gov/3297557/) | 1987 | مراجعة | Ciba Found Symp | مراجعة آلية أساسية للعوامل المضادة للخيطيات؛ وصف DEC بأنه مضاد للميكروفيلاريا بشكل أساسي من خلال التعديل المناعي (ADCC) وتعطيل الوظيفة العصبية العضلية للطفيلي وأيض حمض الأراكيدونيك |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Package insert data was not retrievable through the queried sources for this evidence pack. Based on published clinical trial literature, the following safety considerations are known:
+لم تكن بيانات نشرة الحزمة قابلة للاسترجاع من خلال المصادر المستعلم عنها لهذه مجموعة الأدلة. بناءً على أدبيات التجارب السريرية المنشورة، تُعرّف اعتبارات السلامة التالية:
 
-- **Key Warnings**: Mazzotti reaction (fever, urticaria, arthralgias, lymphadenopathy) is the most common adverse effect, caused by immune response to dying microfilariae rather than direct drug toxicity; severity correlates with baseline microfilarial load. Severe ocular adverse events (including risk of blindness) have been reported in patients co-infected with *Onchocerca volvulus* — DEC is **contraindicated** in onchocerciasis-endemic regions for this reason. Serious neurological adverse events are possible in *Loa loa* co-infected individuals with high microfilarial counts.
-- **Drug Interactions**: No DDI data was returned from the queried sources. Interaction profile in the IDA triple-drug combination (with ivermectin and albendazole) has been evaluated in multiple trials listed above without signals of pharmacokinetic interaction at standard MDA doses.
+- **التحذيرات الرئيسية**: تفاعل Mazzotti (حمى، شرى، آلام المفاصل، لمفاdenopathy) هو أكثر الأحداث الضائرة شيوعاً، ناجم عن الاستجابة المناعية لموت الميكروفيلاريا وليس السمية المباشرة للدواء؛ تتناسب الشدة مع حمل الميكروفيلاريا الأساسي. تم الإبلاغ عن حوادث عينية ضائرة شديدة (بما في ذلك خطر العمى) لدى المرضى المصابين بعدوى متزامنة مع *Onchocerca volvulus* — DEC هو **موانع استعمال** في المناطق المتوطنة بالأنكلستوما لهذا السبب. حوادث عصبية ضائرة خطيرة ممكنة لدى الأفراد المصابين بعدوى متزامنة مع *Loa loa* مع عد مرتفع من الميكروفيلاريا.
+- **التفاعلات الدوائية**: لم يتم إرجاع بيانات DDI من المصادر المستعلم عنها. تم تقييم ملف التفاعل في مزيج العقاقير الثلاثية IDA (مع ivermectin و albendazole) في عدة دراسات مدرجة أعلاه بدون إشارات لتفاعل حركية الدواء عند جرعات MDA القياسية.
 
-Please refer to the full package insert for a complete safety profile before any clinical application.
+يرجى الرجوع إلى نشرة الحزمة الكاملة للحصول على ملف السلامة الشامل قبل أي تطبيق سريري.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات حماية**
 
-**Rationale:**
-DEC is the WHO-endorsed first-line agent for lymphatic filariasis elimination with an L1 evidence base — multiple large-scale Phase 3 and Phase 4 community trials (largest: n = 23,789) unambiguously support its efficacy and safety in preventing and reducing filariasis-induced lymphedema. The TxGNN rank 2 prediction for primary lymphedema, in the filariasis-associated context, is scientifically valid and clinically well-supported. However, DEC carries no Saudi Arabia regulatory authorization (0 licenses), and the top-ranked TxGNN prediction (syndromic lymphedema) must be explicitly de-flagged as a graph artefact before this evidence pack is used in any decision workflow.
+**الأساس المنطقي:**
+DEC هو العامل الموصى به من قبل منظمة الصحة العالمية من الخط الأول للتخلص من داء الخيطيات اللمفاوية مع قاعدة دليل L1 — تدعم عدة دراسات مجتمعية كبيرة من المرحلة 3 و4 (الأكبر: n = 23,789) بشكل واضح فعاليته وسلامته في منع والحد من الوذمة اللمفاوية المحدثة بالخيطيات. تنبؤ TxGNN الترتيب 2 للوذمة اللمفاوية الأولية في السياق المرتبط بالخيطيات صحيح علمياً ومدعوم سريرياً بشكل جيد. غير أن DEC لا يحمل أي تفويض ساري في المملكة العربية السعودية (0 تراخيص)، ويجب إلغاء تصنيف تنبؤ TxGNN الأعلى (الوذمة اللمفاوية المتلازمة) بشكل صريح كحفرة طوبولوجية للرسم البياني قبل استخدام مجموعة الأدلة هذه في أي سير عمل قراري.
 
-**To proceed, the following is needed:**
-- Formal package insert review to document warnings and contraindications — **Blocking data gap (DG001)**; without this, S1 safety screening cannot be completed
-- Mechanism of action documentation from DrugBank — **High-severity gap (DG002)**; needed for full mechanistic rationale section
-- Explicit clinical context clarification: if the target population is in an LF-endemic region, the L1 evidence directly applies; if the intended use is for non-filariasis primary lymphedema (genetic/idiopathic subtypes), this evaluation does not apply and the decision should revert to **Hold**
-- Saudi Arabia regulatory pathway assessment: no existing authorization requires a new SFDA registration application or a compassionate use / special access protocol before clinical deployment
-- Formal de-flagging of TxGNN Rank 1 (Syndromic Lymphedema) as a graph topology artefact — this prediction should be annotated as Hold / L4 and excluded from downstream clinical screening
+**للمتابعة، يلزم ما يلي:**
+- مراجعة رسمية لنشرة الحزمة لتوثيق التحذيرات والموانع — **فجوة بيانات حجم (DG001)**؛ بدون هذا، لا يمكن إكمال فحص السلامة S1
+- توثيق آلية العمل من DrugBank — **فجوة عالية الشدة (DG002)**؛ مطلوبة للقسم الكامل للمنطق الآلي
+- توضيح السياق السريري الصريح: إذا كان السكان المستهدفون في منطقة موطونة بـ LF، فإن دليل L1 ينطبق مباشرة؛ إذا كان الاستخدام المقصود للوذمة اللمفاوية الأولية غير الفطرية (الأنواع الوراثية/غير المعروفة الأصل)، فهذا التقييم لا ينطبق والقرار يجب أن ينعكس إلى **في الانتظار**
+- تقييم المسار التنظيمي بالمملكة العربية السعودية: عدم وجود تفويض قائم يتطلب تطبيق تسجيل SFDA جديد أو بروتوكول وصول الاستخدام الرحيم/الخاص قبل النشر السريري
+- إلغاء تصنيف رسمي لـ TxGNN الترتيب 1 (الوذمة اللمفاوية المتلازمة) كحفرة طوبولوجية للرسم البياني — يجب توضيح هذا التنبؤ كـ Hold / L4 واستبعاده من الفحص السريري اللاحق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

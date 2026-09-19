@@ -29,56 +29,57 @@ indication_count: 6
 
 </div>
 
-# Evolocumab: From Hypercholesterolemia to Symptomatic Hemophilia in Female Carriers
+## إيفولوكوماب: من فرط كوليسترول الدم إلى الناعور العرضي لدى الناقلات الإناث
 
-## One-Sentence Summary
+### ملخص الجملة الواحدة
 
-Evolocumab is a PCSK9-inhibitor monoclonal antibody publicly known for lowering LDL cholesterol in hypercholesterolemia/dyslipidemia (this original-indication detail is general background knowledge, not present in the evidence pack, which flags it as a data gap). The TxGNN model predicts it may be effective for **symptomatic form of hemophilia in female carriers**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on a knowledge-graph association with no established mechanistic basis.
+إيفولوكوماب هو جسم مضاد أحادي النسيلة مثبط لـ PCSK9 معروف بخفضه كوليسترول LDL في فرط كوليسترول الدم / اختلال تحمل الدهون (هذا التفصيل للمؤشر الأصلي هو معرفة خلفية عامة وليس موجوداً في مجموعة الأدلة، التي تعتبره فجوة بيانات). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الشكل العرضي من الناعور لدى الناقلات الإناث**، لكن هذا التنبؤ مدعوم حالياً بـ **0 من التجارب السريرية** و **0 من المنشورات** — فهو يستند بالكامل على ارتباط في الرسم البياني للمعرفة بدون أساس آلي محدد.
 
-## Quick Overview
+### نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (MOA and label data flagged as gaps; drug not yet marketed in Saudi Arabia) |
-| Predicted New Indication | Symptomatic form of hemophilia in female carriers |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متوفر في مجموعة الأدلة (بيانات آلية العمل والملصق محددة كفجوات؛ الدواء لم يتم تسويقه بعد في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | الشكل العرضي من الناعور لدى الناقلات الإناث |
+| درجة تنبؤ TxGNN | 99.82% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ لم يتم تسويقه |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+### لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, Evolocumab is a PCSK9-inhibitor monoclonal antibody that blocks PCSK9-mediated degradation of hepatic LDL receptors, increasing LDL clearance — a mechanism whose established efficacy is in lipid metabolism disorders.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في مجموعة الأدلة (محددة كفجوة بيانات عالية الخطورة). بناءً على المعرفة الصيدلانية العامة، إيفولوكوماب هو جسم مضاد أحادي النسيلة مثبط لـ PCSK9 يمنع انحلال مستقبلات LDL الكبدية بوساطة PCSK9، مما يزيد من تصفية LDL — آلية ثبتت فعاليتها في اضطرابات استقلاب الدهون.
 
-The repurposing rationale in this evidence pack explicitly states that this pathway has **no known mechanistic connection** to symptomatic hemophilia in female carriers, which is governed by coagulation factor expression/activity in carriers of hemophilia-causing mutations. The pack characterizes this prediction as a knowledge-graph-level association without biological plausibility evidence.
+تنص نسبة إعادة الاستخدام المذكورة صراحة في مجموعة الأدلة هذه على أن هذا المسار **ليس له ارتباط آلي معروف** بالناعور العرضي لدى الناقلات الإناث، الذي يتحكم فيه التعبير / النشاط من عامل التخثر لدى الناقلات الحاملة لطفرات مسببة للناعور. تصنف المجموعة هذا التنبؤ كارتباط على مستوى الرسم البياني للمعرفة بدون أدلة على المعقولية البيولوجية.
 
-The same caveat applies to all five other candidates in this evidence pack (familial apolipoprotein C-II deficiency, thrombocytopenic purpura, factor XI deficiency, hemophilia A with vascular abnormality, and "disease of catalytic activity" — the last of which is an overly generic ontology category rather than a clinical diagnosis). None have an identified mechanistic link to PCSK9/LDL-receptor biology, and all are scored L5 (model prediction only) with a "Hold" recommendation.
+ينطبق نفس التحذير على جميع المرشحين الخمسة الآخرين في مجموعة الأدلة هذه (نقص أبولبوبروتين C-II الأسري، الفرفرية قليلة الصفيحات، نقص عامل XI، الناعور A مع شذوذ وعائي، و "مرض النشاط الحفزي" — الأخير منها هو فئة أنطولوجيا عامة جداً وليس تشخيصاً سريرياً). لا أحد منهم لديه ارتباط آلي محدد لعلم الأحياء PCSK9 / مستقبل LDL، وجميعهم يحصلون على درجات L5 (تنبؤ النموذج فقط) مع توصية "الانتظار".
 
-## Clinical Trial Evidence
+### أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
-## Literature Evidence
+### أدلة الأدب الطبي
 
-Currently no related literature available.
+لا يوجد حالياً أدب طبي مرتبط متاح.
 
-## Safety Considerations
+### اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+### الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-This candidate — and all five other TxGNN-predicted indications in this evidence pack — are Evidence Level L5 (model prediction only), with zero clinical trials, zero literature, and no identified mechanistic rationale connecting PCSK9/LDL-receptor biology to the predicted disease. There is no basis to advance past S0.
+**الأساس المنطقي:**
+هذا المرشح — وجميع المؤشرات الستة الأخرى المتنبأ بها من TxGNN في مجموعة الأدلة هذه — هي مستوى الأدلة L5 (تنبؤ النموذج فقط)، بدون تجارب سريرية، بدون أدب طبي، وبدون ارتباط آلي محدد يربط علم الأحياء PCSK9 / مستقبل LDL بالمرض المتنبأ به. لا يوجد أساس للمضي قدماً بعد S0.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action via DrugBank or primary literature — currently a High-severity data gap
-- Preclinical or mechanistic studies establishing biological plausibility for any candidate indication
-- Initial exploratory clinical or case-series evidence before any further evaluation
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاجزة
+- آلية العمل المؤكدة عبر DrugBank أو الأدب الأساسي — حالياً فجوة بيانات عالية الخطورة
+- دراسات ما قبل الإكلينيكية أو دراسات الآليات التي تثبت المعقولية البيولوجية لأي مؤشر مرشح
+- أدلة سريرية استكشافية أولية أو سلسلة حالات قبل أي تقييم إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

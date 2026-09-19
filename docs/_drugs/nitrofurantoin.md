@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Nitrofurantoin: From Urinary Tract Infection to Rheumatoid Arthritis
+# النيتروفورانتوين: من التهاب المسالك البولية إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nitrofurantoin is a nitrofuran antibacterial classically used to treat urinary tract infections (UTI); this indication is not present as structured data in this evidence pack but is corroborated by the pack's own literature (bacteriuria screening, UTI treatment references). The TxGNN model predicts a possible link to **Rheumatoid Arthritis**, but the **12 supporting publications** consist almost entirely of case reports and reviews describing nitrofurantoin-induced pulmonary/hepatic toxicity and antibiotic-associated RA flares — the evidence direction points toward **risk, not therapeutic benefit**. No clinical trials support this indication.
+النيتروفورانتوين هو مضاد بكتيري نيتروفوراني الفئة يُستخدم كلاسيكياً لعلاج التهابات المسالك البولية (UTI)؛ هذا الاستطباب غير موجود كبيانات منظمة في هذه مجموعة الأدلة لكن تم التحقق منه من خلال أدبيات المجموعة نفسها (فحص البكتيريا في البول، مراجع علاج UTI). يتنبأ نموذج TxGNN بوجود ارتباط محتمل مع **التهاب المفاصل الروماتويدي**، لكن **12 منشور داعم** يتكون تقريباً بالكامل من تقارير حالات فردية ومراجعات تصف سمية الجهاز التنفسي/الكبدي المستحثة بالنيتروفورانتوين وتفاقم التهاب المفاصل الروماتويدي المرتبط بالمضادات الحيوية — اتجاه الأدلة يشير إلى **المخاطر وليس الفائدة العلاجية**. لا توجد تجارب سريرية تدعم هذا الاستطباب.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Urinary tract infection (UTI) / bacteriuria — inferred from literature context; no structured `original_indications` or license data available in this pack |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | التهاب المسالك البولية (UTI) / البكتيريا البولية — تم استنتاجه من سياق الأدبيات؛ لا توجد بيانات منظمة `original_indications` أو بيانات الترخيص المتاحة في هذه المجموعة |
+| الاستطباب الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة التنبؤ بـ TxGNN | 99.89% |
+| مستوى الأدلة | L4 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known pharmacology, nitrofurantoin is a synthetic nitrofuran antibacterial whose antimicrobial effect comes from bacterial nitroreductase activation, producing reactive intermediates that damage bacterial DNA, ribosomal proteins, and metabolic enzymes. There is no known anti-inflammatory, immunomodulatory, or synovial-targeting pathway that would plausibly extend this mechanism to rheumatoid arthritis.
+حالياً، بيانات الآلية المفصلة للعمل غير متاحة (فجوة بيانات). بناءً على علم الأدوية المعروف، النيتروفورانتوين هو مضاد بكتيري نيتروفوراني اصطناعي يأتي تأثيره المضاد للبكتيريا من تفعيل نيتروريدوكتاز البكتيري، الذي ينتج عنه وسطاء تفاعليين يلحقون الضرر بالحمض النووي البكتيري والبروتينات الريبوسومية والإنزيمات الأيضية. لا توجد آلية معروفة مضادة للالتهابات أو معدلة للمناعة أو موجهة للغشاء الزليلي التي قد تمتد بمعقولية هذه الآلية إلى التهاب المفاصل الروماتويدي.
 
-The literature returned for this pairing does not support a therapeutic rationale. Instead, it clusters around two risk signals: (1) a self-controlled case series (n=31,992 RA patients, CPRD GOLD) examining whether antibiotic exposure is associated with RA flares, and (2) multiple case reports/reviews of nitrofurantoin-induced pulmonary fibrosis and hepatotoxicity — including one report where nitrofurantoin combined with methotrexate (a standard RA drug) caused irreversible pulmonary fibrosis in an RA patient. The TxGNN embedding proximity here most plausibly reflects the frequent literature co-occurrence of "nitrofurantoin" and "rheumatoid arthritis" in adverse-event and drug-interaction reporting, rather than a genuine efficacy signal.
+الأدبيات المستردة لهذا الاقتران لا تدعم أساساً علاجياً. بدلاً من ذلك، تتجمع حول إشارتي خطر: (1) سلسلة حالات ذاتية التحكم المتداخلة (n=31,992 مريض التهاب مفاصل روماتويدي، CPRD GOLD) تفحص ما إذا كان التعرض للمضادات الحيوية مرتبطاً بتفاقم التهاب المفاصل الروماتويدي، و(2) تقارير حالات متعددة/مراجعات لتليف الرئة والسمية الكبدية المستحثة بالنيتروفورانتوين — بما في ذلك تقرير واحد حيث تسبب النيتروفورانتوين مع الميثوتريكسات (دواء قياسي لالتهاب المفاصل الروماتويدي) في تليف رئة لا يمكن عكسه في مريض التهاب مفاصل روماتويدي. قرب الدمج الموجهي بـ TxGNN هنا يعكس على الأرجح التواجد المتكرر في الأدبيات لـ "النيتروفورانتوين" و"التهاب المفاصل الروماتويدي" في الإبلاغ عن الأحداث الضائرة والتفاعلات الدوائية، وليس إشارة فعالية حقيقية.
 
-Given the absence of any mechanistic or clinical-trial support, and the presence of literature actively describing harm in this exact patient population (RA patients on methotrexate who receive nitrofurantoin for UTI), this candidate should be treated as a negative/risk signal rather than a repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+بالنظر إلى غياب أي دعم آلي أو تجارب سريرية، ووجود أدبيات تصف بنشاط الأذى في مجموعة المرضى هذه بالذات (مرضى التهاب المفاصل الروماتويدي على الميثوتريكسات الذين يتلقون النيتروفورانتوين لـ UTI)، يجب التعامل مع هذا المرشح كإشارة سلبية/خطر وليس كفرصة إعادة استخدام.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [31222078](https://pubmed.ncbi.nlm.nih.gov/31222078/) | 2019 | Self-controlled Case Series | Scientific reports | Nested self-controlled case series in 31,992 newly diagnosed RA patients (UK CPRD GOLD); examined association between antibiotic exposure/timing and RA flares |
-| [3335140](https://pubmed.ncbi.nlm.nih.gov/3335140/) | 1988 | Cohort | Chest | 57 RA patients hospitalized for interstitial lung fibrosis; rare but poor-prognosis complication (~1 per 3,500 patient-years) |
-| [15195196](https://pubmed.ncbi.nlm.nih.gov/15195196/) | 2004 | Review | Saudi medical journal | Review of drug-induced pulmonary fibrosis; lists nitrofurantoin among causative drugs and notes RA itself predisposes to fibrosis |
-| [35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/) | 2022 | Case Report | Cureus | 94-year-old RA patient on long-term methotrexate developed irreversible pulmonary fibrosis after starting nitrofurantoin for a UTI — a drug-drug interaction, not a therapeutic use |
-| [25362778](https://pubmed.ncbi.nlm.nih.gov/25362778/) | 2014 | Review | La Revue du praticien | Review of drug-induced interstitial lung disease; nitrofurantoin listed among implicated antibiotics |
-| [41635325](https://pubmed.ncbi.nlm.nih.gov/41635325/) | 2026 | Case Report | Cureus | Differential-diagnosis discussion of autoimmune hepatitis; nitrofurantoin and RA both listed as possible confounding causes, not as treatment |
-| [11937933](https://pubmed.ncbi.nlm.nih.gov/11937933/) | 2002 | Case Report | Annales de dermatologie et de venereologie | Case of phenylbutazone-induced sialadenitis; nitrofurantoin mentioned as another drug associated with sialadenitis, unrelated to RA treatment |
-| [899886](https://pubmed.ncbi.nlm.nih.gov/899886/) | 1977 | Cohort | Acta medica Scandinavica | Screening and short-term nitrofurantoin therapy for bacteriuria in middle-aged women — standard UTI indication, not RA-related |
-| [8104358](https://pubmed.ncbi.nlm.nih.gov/8104358/) | 1993 | Case Report | Revue de pneumologie clinique | Gold-salt-induced pneumonitis with CD4 alveolitis; nitrofurantoin is not the causative drug in this case, only tangentially referenced |
-| [4608019](https://pubmed.ncbi.nlm.nih.gov/4608019/) | 1974 | Review | Der Internist | German-language synopsis on alveolitis and pulmonary fibrosis; no abstract available |
+| [31222078](https://pubmed.ncbi.nlm.nih.gov/31222078/) | 2019 | سلسلة حالات ذاتية التحكم | Scientific reports | سلسلة حالات ذاتية التحكم المتداخلة في 31,992 مريض التهاب مفاصل روماتويدي حديث التشخيص (UK CPRD GOLD)؛ فحصت الارتباط بين التعرض للمضادات الحيوية/التوقيت وتفاقم التهاب المفاصل الروماتويدي |
+| [3335140](https://pubmed.ncbi.nlm.nih.gov/3335140/) | 1988 | دراسة الأتراب | Chest | 57 مريض التهاب مفاصل روماتويدي دخلوا المستشفى لتليف الرئة الخلالي؛ مضاعفة نادرة لكن سيئة التشخيص (~1 لكل 3,500 سنة-مريض) |
+| [15195196](https://pubmed.ncbi.nlm.nih.gov/15195196/) | 2004 | مراجعة | Saudi medical journal | مراجعة تليف الرئة المستحث بالأدوية؛ تسرد النيتروفورانتوين من بين الأدوية المسببة وتلاحظ أن التهاب المفاصل الروماتويدي نفسه يهيئ لتليف الرئة |
+| [35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/) | 2022 | تقرير حالة | Cureus | مريضة بعمر 94 سنة لديها التهاب مفاصل روماتويدي على الميثوتريكسات طويل الأمد طورت تليف رئة لا يمكن عكسه بعد بدء النيتروفورانتوين لـ UTI — تفاعل دواء-دواء، وليس استخدام علاجي |
+| [25362778](https://pubmed.ncbi.nlm.nih.gov/25362778/) | 2014 | مراجعة | La Revue du praticien | مراجعة الأمراض الرئوية الخلالية المستحثة بالأدوية؛ النيتروفورانتوين مسرد من بين المضادات الحيوية المشتبه بها |
+| [41635325](https://pubmed.ncbi.nlm.nih.gov/41635325/) | 2026 | تقرير حالة | Cureus | نقاش التشخيص التفاضلي لالتهاب الكبد المناعي الذاتي؛ النيتروفورانتوين والتهاب المفاصل الروماتويدي كلاهما مسرد كأسباب محتملة محيرة، وليس كعلاج |
+| [11937933](https://pubmed.ncbi.nlm.nih.gov/11937933/) | 2002 | تقرير حالة | Annales de dermatologie et de venereologie | حالة التهاب الغدد اللعابية المستحث بالفينيلبوتازون؛ النيتروفورانتوين مذكور كدواء آخر مرتبط بالتهاب الغدد اللعابية، غير مرتبط بعلاج التهاب المفاصل الروماتويدي |
+| [899886](https://pubmed.ncbi.nlm.nih.gov/899886/) | 1977 | دراسة الأتراب | Acta medica Scandinavica | الفحص والعلاج قصير الأمد بالنيتروفورانتوين للبكتيريا البولية في النساء في منتصف العمر — استطباب UTI قياسي، غير مرتبط بـ RA |
+| [8104358](https://pubmed.ncbi.nlm.nih.gov/8104358/) | 1993 | تقرير حالة | Revue de pneumologie clinique | التهاب الرئة المستحث بأملاح الذهب مع التهاب الحويصلات CD4؛ النيتروفورانتوين ليس الدواء المسبب في هذه الحالة، مذكور فقط بشكل عرضي |
+| [4608019](https://pubmed.ncbi.nlm.nih.gov/4608019/) | 1974 | مراجعة | Der Internist | ملخص باللغة الألمانية عن التهاب الحويصلات وتليف الرئة؛ لا يوجد ملخص متاح |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Nitrofurantoin is not currently marketed in Saudi Arabia — no product authorization records are available in this pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Structured safety data (key warnings, contraindications, drug interactions) is not available for this drug in the current pack (SFDA package insert not retrieved; DDI query returned no results).
-
-Please refer to the package insert for safety information. Separately, the literature reviewed above for this indication surfaces recurring toxicity signals relevant to any repurposing evaluation: nitrofurantoin-induced pulmonary fibrosis (including a clinically significant interaction with methotrexate), drug-induced hepatotoxicity/autoimmune hepatitis, and methemoglobinemia (seen in other predicted-indication branches of this pack, ranks 8 and 10). These should be treated as material risk factors, particularly given overlap with the RA patient population (frequent methotrexate co-therapy).
+النيتروفورانتوين غير موجود حالياً في السوق السعودية — لا توجد سجلات موافقة المنتج المتاحة في هذه المجموعة (0 رخصة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+بيانات السلامة المنظمة (التحذيرات الرئيسية، موانع الاستعمال، التفاعلات الدوائية) غير متاحة لهذا الدواء في المجموعة الحالية (لم يتم استرجاع نشرة الحزمة بـ SFDA؛ استعلام DDI لم يعيد نتائج).
 
-**Rationale:**
-No clinical trials support this indication, no mechanistic pathway links nitrofurantoin to RA treatment, and the available literature describes harm (pulmonary fibrosis, drug interaction with methotrexate, RA-flare association with antibiotic use) rather than benefit. The TxGNN score is high, but the evidence base contradicts rather than supports the prediction.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. بشكل منفصل، الأدبيات المراجعة أعلاه لهذا الاستطباب توضح إشارات السمية المتكررة ذات الصلة بأي تقييم إعادة استخدام: تليف الرئة المستحث بالنيتروفورانتوين (بما في ذلك تفاعل سريري مهم مع الميثوتريكسات)، السمية الكبدية المستحثة بالأدوية/التهاب الكبد المناعي الذاتي، وفرط الميثيموجلوبينيميا (رؤية في فروع الاستطباق المتنبأة بها الأخرى من هذه المجموعة، ترتيب 8 و 10). يجب التعامل مع هذه كعوامل خطر جوهرية، خاصة بالنظر إلى التداخل مع مجموعة مرضى التهاب المفاصل الروماتويدي (العلاج المتزامن المتكرر بالميثوتريكسات).
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings, contraindications) — currently a blocking data gap
-- Verified mechanism of action data from DrugBank
-- Any prospective or mechanistic evidence of anti-inflammatory/immunomodulatory activity, since current literature supports only a risk association
-- Reconciliation of the methotrexate–nitrofurantoin interaction signal before this candidate can be considered for RA patients specifically
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+لا توجد تجارب سريرية تدعم هذا الاستطباب، لا توجد مسار آلي يربط النيتروفورانتوين بعلاج التهاب المفاصل الروماتويدي، والأدبيات المتاحة تصف الأذى (تليف الرئة، تفاعل الدواء مع الميثوتريكسات، الارتباط بتفاقم التهاب المفاصل الروماتويدي مع استخدام المضادات الحيوية) وليس الفائدة. درجة TxGNN عالية، لكن قاعدة الأدلة تتناقض مع التنبؤ بدلاً من دعمه.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة حزمة SFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات معوقة
+- بيانات آلية العمل المحققة من DrugBank
+- أي دليل استباقي أو آلي لنشاط مضاد للالتهابات/معدل للمناعة، لأن الأدبيات الحالية تدعم فقط ارتباط الخطر
+- المصالحة بين إشارة التفاعل بين الميثوتريكسات والنيتروفورانتوين قبل أن يتمكن هذا المرشح من الاعتبار لمرضى التهاب المفاصل الروماتويدي على وجه التحديد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

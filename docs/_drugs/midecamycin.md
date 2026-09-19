@@ -29,56 +29,57 @@ indication_count: 1
 
 </div>
 
-# Midecamycin: From Bacterial Infections to Candidiasis
+# ميديكاميسين: من العدوى البكتيرية إلى داء المبيضات
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Midecamycin is a 16-membered ring macrolide antibiotic, primarily used for infections caused by gram-positive bacteria, Mycoplasma, and Chlamydia. The TxGNN model predicts it may be effective for **Candidiasis**, but this direction is currently supported only by the model's prediction score — **no clinical trials and no published literature** exist to corroborate it.
+> ميديكاميسين هو مضاد حيوي ماكروليدي ذو حلقة من 16 ذرة، يُستخدم بشكل أساسي في العدوى الناجمة عن البكتيريا الموجبة للجرام والميكوبلازما والكلاميديا. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **داء المبيضات**، لكن هذا الاتجاه مدعوم حالياً فقط من خلال درجة التنبؤ في النموذج — **لا توجد تجارب سريرية وليس هناك أدلة أدبية منشورة** لتأكيد ذلك.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available (drug not marketed in Saudi Arabia; known pharmacological class targets gram-positive bacterial, Mycoplasma, and Chlamydia infections) |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 99.02% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح (الدواء غير معتمد في المملكة العربية السعودية؛ الفئة الدوائية المعروفة تستهدف العدوى البكتيرية الموجبة للجرام والميكوبلازما والكلاميديا) |
+| المؤشر الجديد المتنبأ به | داء المبيضات |
+| درجة التنبؤ TxGNN | 99.02% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معتمد في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in structured form. Based on known pharmacological class, midecamycin is a 16-membered ring macrolide antibiotic that inhibits bacterial 50S ribosomal subunit protein synthesis, and is used mainly against gram-positive bacteria, Mycoplasma, and Chlamydia infections.
+حالياً، لا تتوفر بيانات آلية العمل المفصلة في شكل منظم. بناءً على الفئة الدوائية المعروفة، ميديكاميسين هو مضاد حيوي ماكروليدي ذو حلقة من 16 ذرة يثبط تخليق البروتين في الوحدة الفرعية الريبوسومية 50S البكتيرية، ويُستخدم بشكل أساسي ضد العدوى البكتيرية الموجبة للجرام والميكوبلازما والكلاميديا.
 
-Candidiasis, however, is a fungal infection. Its pathogenic mechanisms center on fungal cell wall synthesis (chitin/glucan) and the ergosterol synthesis pathway — targets that do not overlap with bacterial ribosomal protein synthesis inhibition. No published literature or pharmacological data currently demonstrate antifungal activity for midecamycin.
+ومع ذلك، فإن داء المبيضات هو عدوى فطرية. تركز الآليات الإمراضية على تخليق جدار الخلية الفطري (الكيتين/الجلوكان) ومسار تخليق الإرجوستيرول — وهي أهداف لا تتداخل مع تثبيط تخليق البروتين الريبوسومي البكتيري. لا توجد أدلة أدبية منشورة أو بيانات دوائية تثبت حالياً النشاط المضاد للفطريات لميديكاميسين.
 
-Given that both the original indication and MOA fields are data gaps, cross-validation against the drug's known clinical use is not possible. On the evidence available, the high TxGNN score is not well supported by known pharmacology, and the mechanistic link between midecamycin and candidiasis should be assessed as **weak or unclear** rather than a confirmed repurposing rationale.
+نظراً لأن كلاً من المؤشر الأصلي وحقول آلية العمل تمثل فجوات في البيانات، فإن التحقق المتبادل مقابل الاستخدام السريري المعروف للدواء غير ممكن. بناءً على الأدلة المتاحة، فإن درجة TxGNN العالية لا تحظى بدعم كافٍ من الصيدلة المعروفة، وينبغي تقييم الارتباط الآلي بين ميديكاميسين وداء المبيضات على أنه **ضعيف أو غير واضح** وليس كمبرر مؤكد لإعادة التوظيف.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد حالياً أدلة أدبية ذات صلة متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الطبية للدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The TxGNN score is high, but this is an L5-level prediction with no clinical trials, no literature, and no verifiable mechanistic rationale — the proposed antifungal effect conflicts with midecamycin's known antibacterial mechanism. There is currently no basis to advance this candidate.
+**المبرر:**
+درجة TxGNN عالية، لكن هذا تنبؤ على مستوى L5 بدون تجارب سريرية وبدون أدلة أدبية وبدون مبرر آلي يمكن التحقق منه — التأثير المضاد للفطريات المقترح يتعارض مع الآلية المضادة للبكتيريا المعروفة لميديكاميسين. لا يوجد حالياً أساس لتقدم هذا المرشح.
 
-**To proceed, the following is needed:**
-- Structured MOA data confirming (or ruling out) any antifungal activity for midecamycin
-- SFDA/manufacturer package insert data (warnings, contraindications, DDI)
-- In vitro or preclinical evidence of activity against Candida species
-- Any clinical trial or case-report evidence, should it emerge, for candidiasis or related fungal indications
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل المنظمة التي تؤكد (أو تستبعد) أي نشاط مضاد للفطريات لميديكاميسين
+- بيانات النشرة الطبية من SFDA/الشركة المصنعة (التحذيرات وموانع الاستعمال والتفاعلات الدوائية)
+- دليل في المختبر أو قبل سريري على النشاط ضد أنواع المبيضات
+- أي دليل من التجارب السريرية أو تقارير الحالات، إن ظهر، لداء المبيضات أو المؤشرات الفطرية ذات الصلة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

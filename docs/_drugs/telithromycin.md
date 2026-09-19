@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Telithromycin: From Bacterial Infections to Hyperamylasemia
+# تيليثروميسين: من عدوى بكتيرية إلى فرط الأميليز في الدم
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Telithromycin is a ketolide-class antibacterial agent; the evidence pack does not record its originally approved indication or detailed mechanism of action (both flagged as data gaps). The TxGNN model predicts it may be relevant to **Hyperamylasemia**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no licenses on file; telithromycin is classified as a ketolide antibiotic — semi-synthetic erythromycin derivative) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+تيليثروميسين هو عامل مضاد للبكتيريا من فئة الكيتوليد؛ حزمة الأدلة لا تسجل إشارته الموافق عليها أصلاً أو آلية العمل التفصيلية (كلاهما تم تحديده كثغرات في البيانات). يتنبأ نموذج TxGNN بأنه قد يكون ذا صلة بـ **فرط الأميليز في الدم**، لكن هذا التنبؤ يدعمه حالياً **0 تجربة سريرية** و **0 منشور** — وهو مخرجات نموذج بحتة بدون أدلة داعمة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available (DG002, severity: High) — the `original_moa` field is a data gap. Based on information embedded elsewhere in this evidence pack, telithromycin is a ketolide antibiotic that acts by binding the bacterial 50S ribosomal subunit to inhibit protein synthesis, and it has documented activity against atypical respiratory pathogens (e.g., *Chlamydophila*).
-
-The model's own rationale for this specific candidate is explicit and negative: *"There is no known mechanism linking the protein-synthesis-inhibiting action of ketolide antibiotics to pancreatic amylase metabolism; no clinical or literature evidence exists — this is a pure prediction."* Hyperamylasemia is a metabolic/pancreatic finding with no established pharmacological connection to antibacterial protein-synthesis inhibition.
-
-Because both the mechanistic pathway and any supporting evidence are absent, this candidate should be read as an unvalidated model signal rather than a mechanistically grounded repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الإشارة الأصلية | غير متاح (لا توجد تراخيص في الملف؛ يتم تصنيف تيليثروميسين كمضاد حيوي من فئة الكيتوليد — مشتق إريثروميسين شبه اصطناعي) |
+| الإشارة الجديدة المتنبأ بها | فرط الأميليز في الدم |
+| درجة تنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | غير موجود في السوق (غير موجود في السوق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | علّق |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية غير متاحة (DG002، الشدة: عالي) — حقل `original_moa` هو ثغرة في البيانات. بناءً على معلومات مدرجة في أماكن أخرى من هذه الحزمة، تيليثروميسين هو مضاد حيوي من فئة الكيتوليد يعمل بالارتباط بالوحدة الفرعية 50S للريبوسوم البكتيري لمنع تخليق البروتين، وله نشاط موثق ضد العوامل المسببة غير النمطية للجهاز التنفسي (مثل *Chlamydophila*).
 
----
+تبرير النموذج الخاص به لهذا المرشح المحدد واضح وسالب: *"لا توجد آلية معروفة تربط عمل مثبط تخليق البروتين لمضادات الكيتوليد بأيض الأميليز البنكراسي؛ لا توجد أدلة سريرية أو أدبية — هذا تنبؤ بحت."* فرط الأميليز في الدم هو إيجاد استقلابي/بنكراسي بدون ارتباط صيدلي معروف بمثبط تخليق البروتين المضاد للبكتيريا.
 
-## Saudi Arabia Market Information
-
-Telithromycin is not currently registered or marketed in Saudi Arabia (0 authorizations on file; `market_status`: Not marketed).
+لأن كلا من المسار الآلي وأي أدلة داعمة غائبة، يجب قراءة هذا المرشح كإشارة نموذج غير معاد التحقق منها بدلاً من فرضية إعادة تقييم مستندة إلى آلية معروفة.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information. (Note: TFDA package-insert warnings/contraindications are recorded as a **Blocking** data gap — DG001 — meaning no safety pre-screening (S1) can be completed until this is resolved.)
+لا توجد حالياً تجارب سريرية ذات صلة مسجّلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The TxGNN score is high, but there are zero clinical trials or publications connecting telithromycin to hyperamylasemia (Evidence Level L5, decision stage S0) — this is an unvalidated model output. In addition, a Blocking data gap on TFDA labeling (warnings/contraindications) prevents even a baseline safety assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) to clear the Blocking gap and enable S1 safety screening
-- DrugBank/mechanism-of-action data to evaluate biological plausibility for hyperamylasemia
-- Targeted literature or preclinical search specifically on telithromycin (not just the ketolide class) and pancreatic amylase pathways
-- Re-evaluation once any clinical or mechanistic evidence emerges, or consideration of higher-evidence candidates in this same prediction set (e.g., rank 6, septicemic plague, currently at L4/S1) as an alternative priority
+## معلومات السوق السعودي
+
+تيليثروميسين غير مسجل حالياً أو غير موجود في السوق في المملكة العربية السعودية (0 موافقات في الملف؛ `market_status`: غير موجود في السوق).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (ملاحظة: تحذيرات/موانع استخدام نشرة TFDA يتم تسجيلها كثغرة بيانات **محظورة** — DG001 — مما يعني عدم إمكانية إكمال فحص السلامة الأساسي (S1) حتى يتم حل هذا.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: علّق**
+
+**الأساس المنطقي:**
+درجة TxGNN عالية، لكن لا توجد تجارب سريرية أو منشورات تربط تيليثروميسين بفرط الأميليز في الدم (مستوى الأدلة L5، مرحلة القرار S0) — وهذا مخرج نموذج غير معاد التحقق منه. بالإضافة إلى ذلك، ثغرة بيانات محظورة في وسم TFDA (تحذيرات، موانع استخدام) تمنع حتى تقييم السلامة الأساسي.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA (تحذيرات، موانع استخدام) لحل الثغرة المحظورة وتمكين فحص السلامة S1
+- بيانات DrugBank/آلية العمل لتقييم الجدوى البيولوجية لفرط الأميليز في الدم
+- بحث موجّه بشكل محدد على تيليثروميسين (وليس فئة الكيتوليد فقط) ومسارات الأميليز البنكراسية
+- إعادة التقييم بمجرد ظهور أي أدلة سريرية أو آلية، أو النظر في مرشحات ذات أدلة أعلى من نفس مجموعة التنبؤ هذه (مثل الرتبة 6، الطاعون الإنتاني، حالياً عند L4/S1) كأولوية بديلة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

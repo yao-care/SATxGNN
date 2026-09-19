@@ -29,122 +29,123 @@ indication_count: 6
 
 </div>
 
-# Propranolol: From β-Blockade in Cardiovascular/Hepatic Disease to the Cardiomyopathy Spectrum
+# بروبرانولول: من حصار بيتا في أمراض القلب والأوعية الدموية/الكبد إلى طيف اعتلال القلب
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Propranolol is a non-selective β-adrenergic blocker with established use in hypertension, arrhythmia, and (per the supporting literature in this pack) prevention of variceal bleeding in cirrhotic portal hypertension. TxGNN generated **6 predicted indications**, but only two — **cardiomyopathy** and **cirrhotic cardiomyopathy** — are backed by actual clinical trial or literature evidence; the other four (including the two highest TxGNN scores) have zero supporting records and are flagged by the model rationale itself as likely graph noise. The drug is **not currently marketed in Saudi Arabia**, so any next step also requires a market-entry decision, not just a clinical one.
+بروبرانولول هو حاجب β-أدرينرجي غير انتقائي مع استخدام معروف في ارتفاع ضغط الدم واضطرابات النظم (وفقاً للأدبيات الداعمة في هذه المجموعة) الوقاية من نزيف الدوالي في فرط ضغط الدم البابي في تليف الكبد. قَدَّم TxGNN **6 مؤشرات متوقعة**، لكن اثنتين فقط — **اعتلال القلب** و**اعتلال القلب الكبدي التليفي** — مدعومتان بأدلة من تجارب سريرية فعلية أو أدبيات؛ الأربع الأخرى (بما في ذلك الاثنان ذو أعلى درجات TxGNN) ليس لديها سجلات داعمة والنموذج نفسه يشير إليها كضوضاء محتملة في الرسم البياني. الدواء **غير مسوق حالياً في المملكة العربية السعودية**، لذا أي خطوة تالية تتطلب أيضاً قرار دخول السوق، وليس مجرد قرار سريري.
 
-> **Note on data completeness:** `original_moa` and `original_indications` are marked as Data Gaps in the evidence pack, and TFDA package-insert warnings/contraindications are also gaps. The mechanistic description below is reconstructed from the `repurposing_rationale` text embedded in the individual indication records, not from a dedicated MOA field.
+> **ملاحظة حول اكتمال البيانات:** `original_moa` و`original_indications` يتم تعليمها كفجوات في البيانات في حزمة الأدلة، وتحذيرات/موانع استخدام الحزمة من TFDA هي أيضاً فجوات. الوصف الآلي أدناه تم إعادة بناؤه من نص `repurposing_rationale` المضمن في سجلات المؤشرات الفردية، وليس من حقل MOA مخصص.
 
 ---
 
-## Quick Overview — All Predicted Indications
+## نظرة عامة سريعة — جميع المؤشرات المتوقعة
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| الترتيب | المؤشر المتوقع | درجة TxGNN | مستوى الدليل | مرحلة القرار | التوصية |
 |------|----------------------|-------------|-----------------|-----------------|-----------------|
 | 1 | Distal myopathy, Tateyama type | 99.40% | L5 | S0 | Hold |
 | 2 | Congenital myopathy with excess of thin filaments | 99.30% | L5 | S0 | Hold |
 | 3 | Hypertrophic cardiomyopathy due to intensive athletic training | 99.17% | L5 | S0 | Hold |
 | 4 | Chondroma | 99.14% | L5 | S0 | Hold |
-| 5 | Cirrhotic cardiomyopathy | 99.12% | L3 | S1 | Research Question |
-| 6 | Cardiomyopathy | 99.12% | L3 | S2 | **Proceed with Guardrails** |
+| 5 | اعتلال القلب الكبدي التليفي | 99.12% | L3 | S1 | سؤال بحثي |
+| 6 | اعتلال القلب | 99.12% | L3 | S2 | **المضي قدماً مع ضمانات الحماية** |
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available (data gap in this pack) — literature references indicate established use in hypertension/arrhythmia and cirrhotic variceal bleeding prophylaxis |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Overall Recommended Decision | Proceed with Guardrails (cardiomyopathy), Research Question (cirrhotic cardiomyopathy), Hold (all others) |
+| المؤشر الأصلي | غير متاح (فجوة بيانات في هذه المجموعة) — المراجع الأدبية تشير إلى استخدام معروف في ارتفاع ضغط الدم/اضطرابات النظم والنبوءة الوقائية لنزيف الدوالي الكبدية |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به الشامل | المضي قدماً مع ضمانات الحماية (اعتلال القلب)، سؤال بحثي (اعتلال القلب الكبدي التليفي)، Hold (جميع الآخرين) |
 
-**Why 4 of 6 candidates are excluded from further discussion:** Ranks 1–4 have identical evidence — zero clinical trials, zero literature, L5 (model-prediction-only). The rationale text for each explicitly calls these graph-embedding artifacts (e.g., rank 1's TIA1-related rare myopathy has "no known mechanistic overlap" with β-blockade; chondroma is "likely a false positive, unlike propranolol's established mechanism in infantile hemangioma"). These are not carried into the detailed sections below.
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed MOA data is not available in this pack (Data Gap). Based on the mechanistic notes embedded in the evidence records, propranolol is a **non-selective β1/β2-adrenergic receptor antagonist**. Its negative inotropic and negative chronotropic effects reduce myocardial contractility and heart rate, which is the established basis for its use in **hypertrophic obstructive cardiomyopathy (HOCM)** — reducing left ventricular outflow tract pressure gradients and improving symptoms. This is not a novel hypothesis but an extension of a long-standing clinical practice, reflected in decades of literature (earliest identified record from 1972).
-
-For **cirrhotic cardiomyopathy**, the mechanistic link runs through propranolol's well-established role in portal hypertension management (variceal bleeding prophylaxis). The same β-blockade that lowers portal pressure also affects cardiac electrophysiology (QTc correction) and systemic hemodynamics — but the literature is explicitly two-sided: some studies show benefit (QTc correction), while others (e.g., PMID 32446716) raise safety concerns that non-selective β-blockers may impair circulatory homeostasis and renal function in patients with refractory ascites ("window hypothesis"). This bidirectionality is why this candidate sits at L3/S1 (Research Question) rather than further along.
-
-The four excluded candidates (distal myopathy, congenital thin-filament myopathy, athletic hypertrophic cardiomyopathy, chondroma) have no comparable mechanistic story connecting β-adrenergic blockade to their pathology, and no trial or literature evidence — consistent with model noise rather than a genuine signal.
+**لماذا تم استبعاد 4 من 6 مرشحين من النقاش الإضافي:** الرتب 1-4 لها أدلة متطابقة — صفر تجارب سريرية، صفر أدبيات، L5 (تنبؤ النموذج فقط). يسمي نص المنطق لكل منها صراحة عوامل التضمين في الرسم البياني (مثل النص الضخم 1 المرتبط بـ TIA1 النادر لا يحتوي على "تداخل آلي معروف" مع حصار β؛ chondroma هو "على الأرجح إيجابي كاذب، بخلاف آلية بروبرانولول المعروفة في الورم الدموي الرضاعي"). لم يتم حملها في الأقسام التفصيلية أدناه.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-### Cardiomyopathy (Rank 6)
+بيانات MOA التفصيلية غير متاحة في هذه المجموعة (فجوة بيانات). بناءً على الملاحظات الآلية المضمنة في سجلات الأدلة، بروبرانولول هو **حاجب غير انتقائي لمستقبلات β1/β2-أدرينرجية**. تأثيراته السلبية على الانقباضية والتأثيرات السلبية على الإيقاع تقلل من قابلية الانقباض العضلي القلبي ومعدل ضربات القلب، وهو الأساس المعروف استخدامه في **اعتلال عضلة القلب الضخامي الانسدادي (HOCM)** — تقليل تدرجات ضغط المسار الخارجي للبطين الأيسر وتحسين الأعراض. هذا ليس فرضية جديدة ولكنه امتداد لممارسة سريرية طويلة الأمد، منعكسة في عقود من الأدبيات (أقدم سجل محدد من 1972).
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بالنسبة لـ **اعتلال القلب الكبدي التليفي**، يعمل الارتباط الآلي من خلال دور بروبرانولول المعروف جيداً في إدارة فرط ضغط الدم البابي (الوقاية من نزيف الدوالي). نفس حصار β الذي يخفض ضغط البابي يؤثر أيضاً على الكهربائية القلبية (تصحيح QTc) والديناميات الجهازية — لكن الأدبيات واضحة الجانبين: بعض الدراسات تظهر فائدة (تصحيح QTc)، بينما البعض الآخر (مثل PMID 32446716) يثير مخاوف سلامة قد تضعف حاصرات بيتا غير الانتقائية التوازن الدوري ووظيفة الكلى في المرضى الذين لديهم الاستسقاء الدموي المقاوم ("فرضية النافذة"). هذه الثنائية هي السبب في أن هذا المرشح يقف عند L3/S1 (سؤال بحثي) وليس أبعد.
+
+للمرشحين الأربعة المستبعدين (اعتلال عضلي بعيد، اعتلال عضلي خلقي بفائض من خيوط رقيقة، اعتلال القلب الضخامي الناجم عن التدريب الرياضي الشديد، chondroma) لا توجد قصة آلية مقارنة تربط حصار β-أدرينرجي بأمراضهم، وليس هناك دليل على التجارب أو الأدبيات — متسقة مع ضوضاء النموذج وليس إشارة حقيقية.
+
+---
+
+## دليل التجارب السريرية
+
+### اعتلال القلب (الترتيب 6)
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05019027](https://clinicaltrials.gov/study/NCT05019027) | Phase 4 | Enrolling by Invitation | 20 | N-of-1 trials testing whether stopping beta-blockers improves wellbeing in transthyretin cardiac amyloidosis (deprescribing study, not efficacy) |
-| [NCT05427474](https://clinicaltrials.gov/study/NCT05427474) | Phase 3 | Unknown | 90 | Propranolol + gabapentin for paroxysmal sympathetic hyperactivity after traumatic brain injury (not a cardiomyopathy indication; propranolol is adjunct) |
-| [NCT04767061](https://clinicaltrials.gov/study/NCT04767061) | Phase 4 | Completed | 9 | N-of-1 deprescribing trial of beta-blockers in HFpEF; reflects existing safety/functional data in heart failure, not new-indication efficacy |
+| [NCT05019027](https://clinicaltrials.gov/study/NCT05019027) | Phase 4 | Enrolling by Invitation | 20 | تجارب N-of-1 لاختبار ما إذا كان التوقف عن حاصرات بيتا يحسن الرفاهية في اعتلال عضلة القلب بنقل ترانس ثيريتين (دراسة عدم الوصفة، وليس الفعالية) |
+| [NCT05427474](https://clinicaltrials.gov/study/NCT05427474) | Phase 3 | Unknown | 90 | بروبرانولول + جابابنتين للفرط الودي الانقباضي متقطع بعد إصابة الدماغ الرضحية (ليس مؤشراً على اعتلال عضلة القلب؛ بروبرانولول هو مساعد) |
+| [NCT04767061](https://clinicaltrials.gov/study/NCT04767061) | Phase 4 | Completed | 9 | تجربة N-of-1 عدم الوصفة لحاصرات بيتا في HFpEF؛ تعكس بيانات السلامة/الوظيفية الموجودة في قصور القلب، وليس كفاءة المؤشر الجديد |
 
-### Cirrhotic Cardiomyopathy (Rank 5)
+### اعتلال القلب الكبدي التليفي (الترتيب 5)
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Literature Evidence
+## الدليل الأدبي
 
-### Cardiomyopathy (Rank 6)
+### اعتلال القلب (الترتيب 6)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [7200796](https://pubmed.ncbi.nlm.nih.gov/7200796/) | 1982 | Cohort | British Heart Journal | Combined nifedipine + propranolol superior to nifedipine alone in hypertrophic obstructive cardiomyopathy; reduced LV outflow pressure |
-| [7192151](https://pubmed.ncbi.nlm.nih.gov/7192151/) | 1980 | Cohort | British Heart Journal | Propranolol effects on myocardial oxygen consumption and hemodynamics in HOCM |
-| [6686544](https://pubmed.ncbi.nlm.nih.gov/6686544/) | 1983 | Cohort | European Heart Journal | Propranolol and verapamil effects on LV diastolic stiffness in HOCM |
-| [8989641](https://pubmed.ncbi.nlm.nih.gov/8989641/) | 1996 | Cohort | Journal of Cardiac Failure | Hemodynamic predictors of propranolol tolerance and long-term effects in dilated cardiomyopathy |
-| [3189143](https://pubmed.ncbi.nlm.nih.gov/3189143/) | 1988 | Cohort | American Heart Journal | Acute hemodynamic comparison of pindolol vs propranolol in dilated cardiomyopathy |
-| [3673167](https://pubmed.ncbi.nlm.nih.gov/3673167/) | 1987 | Cohort | Zeitschrift für Kardiologie | Combined nifedipine + propranolol in HOCM, 6–24 month follow-up |
-| [2920304](https://pubmed.ncbi.nlm.nih.gov/2920304/) | 1989 | Cohort | Canadian Journal of Cardiology | Disopyramide + propranolol combination in HOCM |
-| [1611637](https://pubmed.ncbi.nlm.nih.gov/1611637/) | 1992 | Cohort | Cardiology | Propranolol vs disopyramide effects on LV function at rest/exercise in HOCM |
-| [11300365](https://pubmed.ncbi.nlm.nih.gov/11300365/) | 2000 | Cohort | Cardiovascular Drugs and Therapy | Verapamil vs propranolol on coronary vasomotion response in symptomatic HOCM |
-| [36104228](https://pubmed.ncbi.nlm.nih.gov/36104228/) | 2022 | Case Report | International Heart Journal | Low-dose propranolol + cibenzoline for infantile mitochondrial cardiomyopathy with LVOT stenosis |
+| [7200796](https://pubmed.ncbi.nlm.nih.gov/7200796/) | 1982 | Cohort | British Heart Journal | نيفيديبين مدمج + بروبرانولول متفوق على نيفيديبين وحده في اعتلال عضلة القلب الضخامي الانسدادي؛ انخفاض ضغط المسار الخارجي للبطين الأيسر |
+| [7192151](https://pubmed.ncbi.nlm.nih.gov/7192151/) | 1980 | Cohort | British Heart Journal | تأثيرات بروبرانولول على استهلاك الأكسجين العضلي القلبي والديناميات في HOCM |
+| [6686544](https://pubmed.ncbi.nlm.nih.gov/6686544/) | 1983 | Cohort | European Heart Journal | تأثيرات بروبرانولول وفيراباميل على صلابة البطين الأيسر الانبساطية في HOCM |
+| [8989641](https://pubmed.ncbi.nlm.nih.gov/8989641/) | 1996 | Cohort | Journal of Cardiac Failure | منبئات ديناميكية لتحمل بروبرانولول والتأثيرات طويلة الأمد في اعتلال عضلة القلب المتوسع |
+| [3189143](https://pubmed.ncbi.nlm.nih.gov/3189143/) | 1988 | Cohort | American Heart Journal | مقارنة ديناميكية حادة لـ pindolol مقابل بروبرانولول في اعتلال عضلة القلب المتوسع |
+| [3673167](https://pubmed.ncbi.nlm.nih.gov/3673167/) | 1987 | Cohort | Zeitschrift für Kardiologie | نيفيديبين مدمج + بروبرانولول في HOCM، متابعة 6-24 شهراً |
+| [2920304](https://pubmed.ncbi.nlm.nih.gov/2920304/) | 1989 | Cohort | Canadian Journal of Cardiology | ديسوبيراميد + مجموعة بروبرانولول في HOCM |
+| [1611637](https://pubmed.ncbi.nlm.nih.gov/1611637/) | 1992 | Cohort | Cardiology | تأثيرات بروبرانولول مقابل ديسوبيراميد على وظيفة البطين الأيسر في الراحة/التمرين في HOCM |
+| [11300365](https://pubmed.ncbi.nlm.nih.gov/11300365/) | 2000 | Cohort | Cardiovascular Drugs and Therapy | فيراباميل مقابل بروبرانولول على استجابة توسع الأوعية التاجية في HOCM عرضية |
+| [36104228](https://pubmed.ncbi.nlm.nih.gov/36104228/) | 2022 | Case Report | International Heart Journal | بروبرانولول منخفض الجرعة + سيبينزولين لاعتلال عضلة القلب الميتوكوندريا الرضاعي مع LVOT stenosis |
 
-*(9 additional cohort/review/case reports on propranolol in HOCM/dilated cardiomyopathy exist in the pack but are omitted here per the 10-record limit.)*
+*(9 تقارير أخرى من النوع cohorte/review/case على بروبرانولول في HOCM/dilated cardiomyopathy موجودة في المجموعة لكن تم حذفها هنا بناءً على حد السجل 10.)*
 
-### Cirrhotic Cardiomyopathy (Rank 5)
+### اعتلال القلب الكبدي التليفي (الترتيب 5)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [25250684](https://pubmed.ncbi.nlm.nih.gov/25250684/) | 2015 | Cohort | J Pediatr Gastroenterol Nutr | Incidence and risk factors of cirrhotic cardiomyopathy in children with portal hypertension |
-| [32446716](https://pubmed.ncbi.nlm.nih.gov/32446716/) | 2020 | Cohort | Journal of Hepatology | Non-selective beta-blockers may impair circulatory homeostasis and renal function in refractory ascites — key safety signal |
-| [38738176](https://pubmed.ncbi.nlm.nih.gov/38738176/) | 2024 | Cohort | Frontiers in Pharmacology | Propranolol corrects prolonged QT intervals in cirrhotic patients |
-| [35763518](https://pubmed.ncbi.nlm.nih.gov/35763518/) | 2022 | Cohort | PLoS ONE | Blunted cardiovascular response to propranolol correlates with cirrhosis severity |
-| [15387011](https://pubmed.ncbi.nlm.nih.gov/15387011/) | 2004 | Cohort | Ugeskrift for Læger | QTc prolongation and electromechanical dyssynchrony in cirrhotic cardiomyopathy |
+| [25250684](https://pubmed.ncbi.nlm.nih.gov/25250684/) | 2015 | Cohort | J Pediatr Gastroenterol Nutr | الإصابة وعوامل الخطر لاعتلال القلب الكبدي التليفي في الأطفال مع فرط ضغط الدم البابي |
+| [32446716](https://pubmed.ncbi.nlm.nih.gov/32446716/) | 2020 | Cohort | Journal of Hepatology | قد تضعف حاصرات بيتا غير الانتقائية التوازن الدوري ووظيفة الكلى في الاستسقاء الدموي المقاوم — إشارة سلامة رئيسية |
+| [38738176](https://pubmed.ncbi.nlm.nih.gov/38738176/) | 2024 | Cohort | Frontiers in Pharmacology | بروبرانولول يصحح فترات QT المطولة في المرضى الكبديين |
+| [35763518](https://pubmed.ncbi.nlm.nih.gov/35763518/) | 2022 | Cohort | PLoS ONE | الاستجابة القلبية الوعائية الكليلة لبروبرانولول تترابط مع شدة تليف الكبد |
+| [15387011](https://pubmed.ncbi.nlm.nih.gov/15387011/) | 2004 | Cohort | Ugeskrift for Læger | إطالة QTc واللاتزامن الكهرميكانيكي في اعتلال القلب الكبدي التليفي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No marketing authorizations exist — `taiwan_regulatory.market_status` = **Not marketed (Not marketed)**, `total_licenses` = 0, `licenses` = empty. Propranolol has no registered product record in this dataset for the Saudi market.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and `ddi` are all Data Gaps in this pack; TFDA insert parsing is a Blocking data gap per `DG001`.)
+لا توجد تفويضات تسويقية — `taiwan_regulatory.market_status` = **Not marketed (غير مسوق)**، `total_licenses` = 0، `licenses` = empty. لا يوجد سجل منتج مسجل لبروبرانولول في هذه مجموعة البيانات للسوق السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails** (for *cardiomyopathy*, specifically the HOCM subtype) · **Research Question** (for *cirrhotic cardiomyopathy*) · **Hold** (for the other 4 candidates)
+يرجى الرجوع إلى الحزمة الموصوفة للحصول على معلومات السلامة. (`key_warnings`، `contraindications`، و`ddi` كلها فجوات بيانات في هذه المجموعة؛ تحليل حزمة TFDA هو فجوة بيانات محظورة لكل `DG001`.)
 
-**Rationale:**
-- The HOCM literature is deep (10+ studies spanning 1972–2022) and consistent with a real, long-established clinical mechanism — this is closer to "already-known off-label use" than a novel discovery, so it can proceed with monitoring guardrails rather than a full new-indication workup.
-- Cirrhotic cardiomyopathy has plausible mechanism and 5 supporting cohort studies, but the evidence is bidirectional (QTc benefit vs. hemodynamic/renal risk in refractory ascites), so it needs a defined research question before any guardrail-based deployment.
-- The remaining 4 candidates (ranks 1–4) have no clinical trial or literature support and are explicitly flagged in their own rationale as likely graph-embedding noise; no further evaluation is warranted without new evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking gap (`DG001`)
-- Confirmed drug-level MOA and original indication list (currently Data Gap)
-- Sub-type stratification for "cardiomyopathy" trials (HOCM vs. dilated vs. amyloid) before treating them as one evidence body
-- A defined clinical question and risk-stratification criterion (e.g., ascites severity) before advancing cirrhotic cardiomyopathy past S1
-- A market-entry assessment, since propranolol currently has zero authorizations in Saudi Arabia
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات الحماية** (لـ *اعتلال القلب*، وتحديداً نوع HOCM الفرعي) · **سؤال بحثي** (لـ *اعتلال القلب الكبدي التليفي*) · **Hold** (للمرشحين الآخرين الأربعة)
+
+**المنطق:**
+- أدبيات HOCM عميقة (10+ دراسات تمتد من 1972-2022) ومتسقة مع آلية سريرية حقيقية طويلة الأجل — هذا أقرب إلى "الاستخدام خارج التسمية المعروف بالفعل" من اكتشاف جديد، لذا يمكنه المضي قدماً مع مراقبة ضمانات الحماية وليس مجموعة كاملة من عمل المؤشر الجديد.
+- اعتلال القلب الكبدي التليفي له آلية معقولة و 5 دراسات cohort داعمة، لكن الأدلة ثنائية الاتجاه (فائدة QTc مقابل مخاطر ديناميكية/كلوية في الاستسقاء الدموي المقاوم)، لذا يحتاج إلى سؤال بحثي محدد قبل أي نشر قائم على ضمانات الحماية.
+- المرشحون الأربعة المتبقيون (الرتب 1-4) ليس لديهم دعم من التجارب السريرية أو الأدبيات والتي يتم الإشارة إليها صراحة في منطقهم الخاص باعتبارها ضوضاء تضمين الرسم البياني؛ لا يلزم تقييم إضافي بدون أدلة جديدة.
+
+**للمضي قدماً، يلزم ما يلي:**
+- حزمة TFDA/SFDA (تحذيرات، موانع الاستخدام) — حالياً فجوة محظورة (`DG001`)
+- قائمة MOA وموانع الاستخدام الأصلية المؤكدة على مستوى الدواء (فجوة بيانات حالياً)
+- تصنيف النوع الفرعي لتجارب "اعتلال القلب" (HOCM مقابل المتوسع مقابل النشواني) قبل معاملتها كهيئة دليل واحدة
+- سؤال سريري محدد ومعيار تقسيم المخاطر (مثل شدة الاستسقاء الدموي) قبل تقدم اعتلال القلب الكبدي التليفي بعد S1
+- تقييم دخول السوق، نظراً لأن بروبرانولول حالياً يحتوي على صفر تفويضات في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

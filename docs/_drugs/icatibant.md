@@ -29,78 +29,79 @@ indication_count: 7
 
 </div>
 
-# Icatibant: From No Registered Indication in Saudi Arabia to C1 Inhibitor Deficiency (Hereditary Angioedema)
+# الإيكاتيبانت: من عدم وجود مؤشر معتمد في المملكة العربية السعودية إلى نقص مثبط C1 (الوذمة الوعائية الوراثية)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Icatibant is not currently marketed in Saudi Arabia, and no approved original indication is on file for it there. The TxGNN model predicts it may be effective for **C1 inhibitor deficiency** (hereditary angioedema, HAE), a use already extensively supported worldwide, with **23 clinical trials** and **20 publications** currently backing this direction.
+الإيكاتيبانت غير معروض حالياً في السوق السعودية، وليس هناك مؤشر معتمد أصلي معروف له هناك. نموذج TxGNN يتنبأ بأنه قد يكون فعالاً في **نقص مثبط C1** (الوذمة الوعائية الوراثية، HAE)، وهو استخدام معروف على نطاق عالمي بدعم واسع، مع **23 تجربة سريرية** و **20 منشور** تدعم هذا الاتجاه حالياً.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — Icatibant is not marketed in Saudi Arabia and no approved indication is on file |
-| Predicted New Indication | C1 inhibitor deficiency (Hereditary Angioedema) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متاح — الإيكاتيبانت غير معروض في السوق السعودية وليس هناك مؤشر معتمد معروف |
+| المؤشر الجديد المتنبأ به | نقص مثبط C1 (الوذمة الوعائية الوراثية) |
+| درجة التنبؤ بـ TxGNN | 99.99% |
+| مستوى الدليل | L1 |
+| حالة سوق المملكة العربية السعودية | ✗ غير معروض |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed DrugBank mechanism-of-action data was not returned for this evidence pack, but the mechanism can be reconstructed directly from the clinical trial descriptions included here: Icatibant is a selective **bradykinin B2 receptor antagonist**. It blocks the B2 receptor, counteracting the vascular permeability and tissue swelling caused by excess bradykinin — the effector molecule that accumulates when C1 esterase inhibitor (C1-INH, gene *SERPING1*) is deficient or dysfunctional. This bradykinin excess is the core pathophysiology of hereditary angioedema.
+لم يتم إرجاع بيانات آلية العمل التفصيلية من قاعدة DrugBank لحزمة الأدلة هذه، لكن يمكن إعادة بناء الآلية مباشرة من وصف التجارب السريرية المضمنة هنا: الإيكاتيبانت هو **مضاد انتقائي لمستقبل براديكينين B2**. يحجب مستقبل B2، مما يعاكس نفاذية الأوعية الدموية والتورم الناسجي الناجم عن براديكينين زائد — الجزيء الفعال الذي يتراكم عندما يكون مثبط إستيراز C1 (C1-INH، الجين *SERPING1*) ناقصاً أو معطوباً. هذا الفائض من براديكينين هو المرضية الأساسية للوذمة الوعائية الوراثية.
 
-Importantly, the "predicted" indication here is not a novel disease association discovered by the model — it is icatibant's own long-established, globally approved indication. Multiple trials in this evidence pack (e.g., NCT00097695, NCT00912093) explicitly describe icatibant as an existing treatment for acute HAE attacks, and the drug is marketed elsewhere under brand names including Firazyr and Icanticure. The gap is regulatory, not scientific: icatibant simply has no market authorization in Saudi Arabia yet.
+من المهم أن نلاحظ أن المؤشر "المتنبأ به" هنا ليس ارتباطاً جديداً بالمرض اكتشفه النموذج — بل هو المؤشر الطويل الأمد المعتمد عالمياً للإيكاتيبانت. تجارب متعددة في حزمة الأدلة هذه (مثل NCT00097695 و NCT00912093) تصف صراحة الإيكاتيبانت كعلاج موجود لنوبات HAE الحادة، والعقار معروض في مكان آخر تحت أسماء تجارية تشمل Firazyr و Icanticure. الفجوة تنظيمية وليست علمية: الإيكاتيبانت ببساطة ليس لديه تفويض تسويقي في المملكة العربية السعودية بعد.
 
-Because the predicted indication and the drug's real-world mechanism are directly aligned (B2 receptor blockade ↔ bradykinin-driven angioedema), the extremely high TxGNN score (99.99%) is consistent with a model correctly recovering a well-validated drug-disease relationship rather than proposing a speculative new use. This strengthens confidence in the prediction but also reframes the decision as one of **market registration/access** rather than novel repurposing risk.
+لأن المؤشر المتنبأ به وآلية العمل الفعلية للعقار متوافقة مباشرة (حجب مستقبل B2 ↔ وذمة وعائية يسببها براديكينين)، فإن درجة TxGNN المرتفعة جداً (99.99%) متسقة مع نموذج يستعيد بشكل صحيح علاقة عقار-مرض معروفة بشكل جيد بدلاً من اقتراح استخدام جديد تخميني. هذا يقوي الثقة في التنبؤ لكن يعيد أيضاً صياغة القرار كواحد من **التسجيل التنظيمي/الوصول** بدلاً من مخاطر إعادة استخدام جديدة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Phase 3 | Completed | 84 | Pivotal double-blind, placebo-controlled RCT of subcutaneous icatibant for acute cutaneous/abdominal HAE attacks |
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Phase 3 | Completed | 98 | Randomized, double-blind, placebo-controlled RCT confirming efficacy/safety of icatibant in acute HAE attacks |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Phase 3 | Completed | 85 | RCT comparing subcutaneous icatibant vs. oral tranexamic acid for HAE attacks |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Phase 3 | Completed | 151 | Open-label study of self-administered subcutaneous icatibant — safety, tolerability, convenience |
-| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | N/A | Completed | 1761 | Icatibant Outcome Survey (IOS) — large prospective observational registry of real-world icatibant/C1-INH use |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Phase 3 | Completed | 8 | Open-label study of icatibant efficacy, PK, and safety in Japanese HAE patients |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Phase 3 | Completed | 32 | PK, tolerability, and safety of single-dose icatibant in children and adolescents with HAE |
-| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Phase 3 | Completed | 2 | Safety, efficacy, and PK of subcutaneous icatibant in Japanese children/adolescents with HAE |
-| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | N/A | Completed | 179 | FIRAZYR post-marketing drug-use survey in Japan — real-world safety/efficacy |
-| [NCT06346899](https://clinicaltrials.gov/study/NCT06346899) | N/A | Completed | 115 | Real-world observational study of icatibant (and lanadelumab) effectiveness/safety in China |
+| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | المرحلة 3 | مكتملة | 84 | تجربة عشوائية محكومة بالعلاج الوهمي مزدوجة التعمية محورية للإيكاتيبانت تحت الجلد لنوبات HAE الجلدية/البطنية الحادة |
+| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | المرحلة 3 | مكتملة | 98 | تجربة عشوائية محكومة بالعلاج الوهمي مزدوجة التعمية تؤكد فعالية/سلامة الإيكاتيبانت في نوبات HAE الحادة |
+| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | المرحلة 3 | مكتملة | 85 | تجربة تقارن الإيكاتيبانت تحت الجلد مقابل حمض الترانيكساميك الفموي لنوبات HAE |
+| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | المرحلة 3 | مكتملة | 151 | دراسة مفتوحة التسمية للإيكاتيبانت تحت الجلد الذي يديره المريض — السلامة والتحمل والراحة |
+| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | غير محدد | مكتملة | 1761 | دراسة نتائج الإيكاتيبانت (IOS) — سجل مراقبة محتمل كبير لاستخدام الإيكاتيبانت/C1-INH في العالم الحقيقي |
+| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | المرحلة 3 | مكتملة | 8 | دراسة مفتوحة التسمية لفعالية الإيكاتيبانت والحرائك الدوائية والسلامة في مرضى HAE اليابانيين |
+| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | المرحلة 3 | مكتملة | 32 | الحرائك الدوائية والتحمل والسلامة من جرعة واحدة من الإيكاتيبانت في الأطفال والمراهقين مع HAE |
+| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | المرحلة 3 | مكتملة | 2 | السلامة والفعالية والحرائك الدوائية للإيكاتيبانت تحت الجلد في الأطفال/المراهقين اليابانيين مع HAE |
+| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | غير محدد | مكتملة | 179 | استقصاء استخدام الأدوية بعد التسويق FIRAZYR في اليابان — السلامة والفعالية في العالم الحقيقي |
+| [NCT06346899](https://clinicaltrials.gov/study/NCT06346899) | غير محدد | مكتملة | 115 | دراسة رصدية في العالم الحقيقي لفعالية/سلامة الإيكاتيبانت (و lanadelumab) في الصين |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematic Review | Pneumonologia i Alergologia Polska | Comparative clinical effectiveness of conestat alfa, C1-INH, and icatibant for acute HAE attacks |
-| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registry Analysis | Clin Exp Allergy | Registry-based analysis of icatibant and C1-inhibitor use for laryngeal HAE attacks |
-| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observational | Allergy | Real-world use of icatibant in acquired C1-inhibitor deficiency (off-label) |
-| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Observational (IOS Registry) | Allergy Asthma Clin Immunol | Real-world icatibant outcomes in Spanish HAE patients from the IOS registry |
-| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospective Study | J Clin Pharmacol | Off-label prescribing patterns of C1-INH concentrates and icatibant in real-life practice |
-| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Case Series | J Clin Immunol | Treatment of HAE attacks with icatibant and recombinant C1 inhibitor during pregnancy |
-| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Review | Expert Rev Clin Immunol | Icatibant use in adolescents and children over 2 years with C1-INH-HAE |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Review | J Investig Allergol Clin Immunol | Overview of current and emerging therapies for C1-INH-HAE, including icatibant |
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | Disease burden and treatment access for C1-INH-HAE in the Asia-Pacific region |
-| [20496014](https://pubmed.ncbi.nlm.nih.gov/20496014/) | 2010 | Review | Intern Emerg Med | Overview of angioedema due to C1 inhibitor deficiency and treatment options |
+| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | مراجعة منهجية | Pneumonologia i Alergologia Polska | الفعالية السريرية المقارنة للـ conestat alfa و C1-INH والإيكاتيبانت لنوبات HAE الحادة |
+| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | تحليل السجل | Clin Exp Allergy | تحليل قائم على السجل لاستخدام الإيكاتيبانت ومثبط C1 لنوبات HAE الحنجرية |
+| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | رصدية | Allergy | استخدام الإيكاتيبانت في العالم الحقيقي في نقص مثبط C1 المكتسب (استخدام خارج التسمية) |
+| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | رصدية (سجل IOS) | Allergy Asthma Clin Immunol | نتائج الإيكاتيبانت في العالم الحقيقي في مرضى HAE الإسبانيين من سجل IOS |
+| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | دراسة بأثر رجعي | J Clin Pharmacol | أنماط الوصفات الطبية خارج التسمية لتركيزات C1-INH والإيكاتيبانت في الممارسة الحقيقية |
+| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | سلسلة حالات | J Clin Immunol | علاج نوبات HAE بالإيكاتيبانت و مثبط C1 المؤتلف أثناء الحمل |
+| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | مراجعة | Expert Rev Clin Immunol | استخدام الإيكاتيبانت في المراهقين والأطفال فوق سنتين مع C1-INH-HAE |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | مراجعة | J Investig Allergol Clin Immunol | نظرة عامة على العلاجات الحالية والناشئة لـ C1-INH-HAE، بما في ذلك الإيكاتيبانت |
+| [37898409](https pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | مراجعة | J Allergy Clin Immunol | عبء المرض وسهولة الوصول للعلاج لـ C1-INH-HAE في منطقة آسيا والمحيط الهادئ |
+| [20496014](https://pubmed.ncbi.nlm.nih.gov/20496014/) | 2010 | مراجعة | Intern Emerg Med | نظرة عامة على الوذمة الوعائية الناجمة عن نقص مثبط C1 وخيارات العلاج |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الاطلاع على نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-The efficacy evidence for icatibant in C1 inhibitor deficiency (HAE) is exceptionally strong — this is icatibant's own established global indication, supported by multiple completed Phase 3 RCTs and a large multinational outcomes registry (>1,700 patients). However, a blocking data gap exists: no SFDA package insert/warnings data is available (DG001), and the drug currently holds no market authorization in Saudi Arabia, so a formal safety review cannot yet be completed.
+**المنطق:**
+أدلة الفعالية للإيكاتيبانت في نقص مثبط C1 (HAE) استثنائية قوية — هذا هو المؤشر المعتمد عالمياً الطويل الأمد للإيكاتيبانت، مدعوم بتجارب عشوائية محكومة بالعلاج الوهمي متعددة مكتملة بالمرحلة 3 وسجل نتائج متعدد الجنسيات كبير (أكثر من 1,700 مريض). ومع ذلك، توجد فجوة بيانات حاجزة: لا تتوفر بيانات نشرة هيئة الغذاء والدواء السعودية (SFDA)/التحذيرات (DG001)، والعقار حالياً لا يحمل تفويضاً تسويقياً في المملكة العربية السعودية، لذا لا يمكن إكمال المراجعة الرسمية للسلامة بعد.
 
-**To proceed, the following is needed:**
-- SFDA package insert warnings, precautions, and contraindications for icatibant (blocking gap, DG001)
-- Confirmed DrugBank mechanism-of-action record (DG002)
-- Saudi Arabia market registration/authorization pathway assessment, since the drug is not currently marketed there
-- Local drug-drug interaction data, as none were found in the current query
+**للمتابعة، يلزم ما يلي:**
+- نشرة هيئة الغذاء والدواء السعودية (SFDA) للتحذيرات والاحتياطات والموانع للإيكاتيبانت (فجوة حاجزة، DG001)
+- سجل آلية العمل المؤكد في قاعدة DrugBank (DG002)
+- تقييم مسار التسجيل/التفويض التسويقي في المملكة العربية السعودية، لأن العقار غير معروض حالياً هناك
+- بيانات تفاعل العقاقير المحلية، حيث لم يتم العثور على أي منها في الاستعلام الحالي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

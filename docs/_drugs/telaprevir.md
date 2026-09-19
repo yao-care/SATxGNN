@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# Telaprevir: From Chronic Hepatitis C to HIV Infectious Disease
+# تيلابريفير: من التهاب الكبد الفيروسي سي المزمن إلى العدوى الانتهازية في فيروس نقص المناعة البشرية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Telaprevir is a first-generation NS3/4A protease inhibitor originally developed and approved for chronic hepatitis C virus (HCV) genotype 1 infection. The TxGNN model predicts it may be effective for **HIV Infectious Disease**, with **18 clinical trials** and **20 publications** currently retrieved — however, essentially all of this evidence describes telaprevir being used to treat **HCV** in patients who are also HIV-positive (drug-interaction and safety studies), not any direct antiviral activity against HIV itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Hepatitis C, Genotype 1 (inferred from clinical trial/literature evidence in this pack; not present in the structured license fields — see Data Gaps) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+تيلابريفير هو مثبط بروتياز NS3/4A من الجيل الأول تم تطويره واعتماده في الأصل لعلاج عدوى فيروس التهاب الكبد الفيروسي سي (HCV) النمط الجيني الأول. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **العدوى الانتهازية في فيروس نقص المناعة البشرية**، مع **18 تجربة سريرية** و**20 منشورًا** تم استرجاعها حالياً — ومع ذلك، فإن كل هذه الأدلة تقريباً تصف استخدام تيلابريفير لعلاج **HCV** في مرضى إيجابيين لفيروس نقص المناعة البشرية (دراسات التفاعل الدوائي والسلامة)، وليس أي نشاط مضاد للفيروسات مباشر ضد فيروس نقص المناعة البشرية نفسه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for telaprevir is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, telaprevir is a first-generation direct-acting antiviral (DAA) — specifically a peptidomimetic inhibitor of the **HCV NS3/4A serine protease**, which is essential for HCV polyprotein processing and replication. It was approved (in combination with peginterferon alfa and ribavirin) for chronic hepatitis C genotype 1.
-
-The TxGNN model links telaprevir to HIV infectious disease at a very high graph-similarity score (99.98%), and the evidence retrieval layer surfaced 18 clinical trials and 20 publications. On closer inspection, however, none of this evidence demonstrates antiviral activity of telaprevir against HIV. Instead, it consists of pharmacokinetic drug-drug interaction (DDI) studies and real-world safety/efficacy studies of telaprevir **treating HCV** in patients co-infected with HIV (e.g., interactions with raltegravir, dolutegravir, etravirine, atazanavir, darunavir/ritonavir, efavirenz/tenofovir). HCV's NS3/4A serine protease has no structural or mechanistic homology to HIV's aspartic protease, and telaprevir has no reported anti-HIV activity.
-
-This is a case where TxGNN's graph-based similarity appears to conflate "co-occurs in HIV/HCV-coinfection literature" with "treats HIV" — the disease-term overlap (HIV and HCV frequently co-occur in coinfection cohorts) likely drove the high score rather than a genuine pharmacological rationale. This is consistent with the evidence pack's own repurposing rationale, which explicitly notes the absence of a mechanistic link.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | التهاب الكبد الفيروسي سي المزمن، النمط الجيني الأول (استنتاج من بيانات التجارب السريرية والأدبيات في هذه الحزمة؛ غير موجود في حقول الترخيص المنظمة — انظر فجوات البيانات) |
+| الاستطباب الجديد المتنبأ به | العدوى الانتهازية في فيروس نقص المناعة البشرية |
+| درجة التنبؤ بنموذج TxGNN | 99.98% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-*Note: the trials below study telaprevir's treatment of HCV in HIV/HCV-coinfected populations, not treatment of HIV itself.*
+حالياً، بيانات آلية العمل التفصيلية لتيلابريفير غير متاحة في هذه الحزمة الدليلية (يتم تحديدها كفجوة بيانات عالية الخطورة). بناءً على الصيدلة المعروفة، تيلابريفير هو مضاد فيروسي بعمل مباشر من الجيل الأول — على وجه التحديد مثبط ببتيدي الشبه لبروتياز السيرين **HCV NS3/4A**، الذي يعتبر ضروريًا لمعالجة وتكاثر بروتين HCV. تم اعتماده (بالاشتراك مع بيج إنترفيرون ألفا وريبافيرين) لالتهاب الكبد الفيروسي سي المزمن النمط الجيني الأول.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+يربط نموذج TxGNN تيلابريفير بالعدوى الانتهازية في فيروس نقص المناعة البشرية بدرجة تشابه رسم بياني عالية جداً (99.98%)، وأسفرت طبقة استرجاع الأدلة عن 18 تجربة سريرية و 20 منشورًا. ومع ذلك، عند الفحص الدقيق، فإن أياً من هذه الأدلة لا يثبت النشاط المضاد للفيروسات لتيلابريفير ضد فيروس نقص المناعة البشرية. بدلاً من ذلك، يتكون من دراسات حركية دوائية للتفاعلات الدوائية (DDI) ودراسات الأمان والفعالية في الواقع لتيلابريفير **لعلاج HCV** في مرضى مصابين بالعدوى المزدوجة لفيروس نقص المناعة البشرية (على سبيل المثال، التفاعلات مع رالتيجرافير، دولوتيجرافير، إترافيرين، أتازانافير، دارونافار/ريتونافار، إفافيرينز/تينوفوفير). بروتياز السيرين HCV NS3/4A لا يحتوي على تجانس هيكلي أو آليات مع بروتياز الأسبارتيك لفيروس نقص المناعة البشرية، وليس لتيلابريفير أي نشاط مبلّغ عنه ضد فيروس نقص المناعة البشرية.
+
+هذه حالة يبدو فيها أن تشابه TxGNN القائم على الرسم البياني يخلط بين "يحدث معاً في أدبيات العدوى المزدوجة HIV/HCV" و "يعالج فيروس نقص المناعة البشرية" — تداخل مصطلح المرض (HCV وفيروس نقص المناعة البشرية يحدثان معاً بشكل متكرر في مجموعات العدوى المزدوجة) ربما دفع الدرجة العالية بدلاً من وجود أساس صيدلي حقيقي. هذا يتوافق مع السبب المنطقي لإعادة استخدام الأدوية في الحزمة الدليلية نفسها، والذي يلاحظ بشكل صريح الغياب لارتباط آلي.
+
+---
+
+## الأدلة من التجارب السريرية
+
+*ملاحظة: الدراسات التالية تدرس معالجة تيلابريفير لـ HCV في السكان المصابين بالعدوى المزدوجة HIV/HCV، وليس علاج فيروس نقص المناعة البشرية نفسه.*
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاكتشافات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01513941](https://clinicaltrials.gov/study/NCT01513941) | Phase 3 | Completed | 163 | Efficacy/safety of telaprevir + peg-IFN-alfa-2a + ribavirin for HCV-1 in HCV/HIV-1-coinfected patients (naïve and experienced) |
-| [NCT01467479](https://clinicaltrials.gov/study/NCT01467479) | Phase 3 | Terminated | 185 | Telaprevir + peg-IFN-alfa-2a + ribavirin to treat HCV in HCV/HIV-1-coinfected subjects |
-| [NCT01500616](https://clinicaltrials.gov/study/NCT01500616) | Phase 3 | Completed | 122 | Telaprevir + peg-IFN + ribavirin in HIV/HCV-1-coinfected patients with severe fibrosis/compensated cirrhosis |
-| [NCT02057003](https://clinicaltrials.gov/study/NCT02057003) | N/A | Unknown | 1000 | Real-life efficacy/tolerability of DAA-based (incl. telaprevir) regimens for HCV in HIV-coinfected patients (HEPAVIR cohort) |
-| [NCT01447446](https://clinicaltrials.gov/study/NCT01447446) | N/A | Completed | 4442 | Observational cohort on utilization/impact of peg-IFN-based dual/triple (incl. telaprevir) therapy for HCV, including HIV/HCV-coinfected |
-| [NCT01332955](https://clinicaltrials.gov/study/NCT01332955) | Phase 2 | Completed | 70 | Telaprevir + peg-IFN + ribavirin in HIV-HCV-coinfected prior treatment failures (ANRS HC26 TelapreVIH) |
-| [NCT02124044](https://clinicaltrials.gov/study/NCT02124044) | Phase 2 | Completed | 30 | Daclatasvir + asunaprevir ± BMS-791325 in HIV-HCV-coinfected subjects (telaprevir referenced as prior standard) |
-| [NCT01563328](https://clinicaltrials.gov/study/NCT01563328) | Phase 1 | Completed | 32 | PK interaction study: effect of boceprevir/telaprevir on dolutegravir (HIV integrase inhibitor) pharmacokinetics |
-| [NCT01253551](https://clinicaltrials.gov/study/NCT01253551) | Phase 1 | Completed | 21 | PK interaction study: telaprevir vs. raltegravir (HIV drug) at steady-state in healthy subjects — confirms no clinically relevant interaction |
-| [NCT00983853](https://clinicaltrials.gov/study/NCT00983853) | Phase 2 | Completed | 62 | Telaprevir + peg-IFN-alfa-2a + ribavirin for HCV in treatment-naïve HCV-1/HIV-1-coinfected subjects |
+| [NCT01513941](https://clinicaltrials.gov/study/NCT01513941) | المرحلة 3 | مكتملة | 163 | الفعالية والأمان لتيلابريفير + بيج إنترفيرون ألفا-2a + ريبافيرين لـ HCV-1 في مرضى العدوى المزدوجة HCV/HIV-1 (خاملين وذوي خبرة) |
+| [NCT01467479](https://clinicaltrials.gov/study/NCT01467479) | المرحلة 3 | متوقفة | 185 | تيلابريفير + بيج إنترفيرون ألفا-2a + ريبافيرين لمعالجة HCV في المواضيع المصابة بالعدوى المزدوجة HCV/HIV-1 |
+| [NCT01500616](https://clinicaltrials.gov/study/NCT01500616) | المرحلة 3 | مكتملة | 122 | تيلابريفير + بيج إنترفيرون + ريبافيرين في مرضى العدوى المزدوجة HIV/HCV-1 مع تليف شديد/تعويضي |
+| [NCT02057003](https://clinicaltrials.gov/study/NCT02057003) | غير مطبق | غير معروف | 1000 | الفعالية والتحمل في الواقع للأنظمة القائمة على DAA (بما في ذلك تيلابريفير) لـ HCV في مرضى العدوى المزدوجة (مجموعة HEPAVIR) |
+| [NCT01447446](https://clinicaltrials.gov/study/NCT01447446) | غير مطبق | مكتملة | 4442 | مجموعة ملاحظة على الاستخدام والتأثير من العلاج الثنائي/الثلاثي القائم على بيج إنترفيرون (بما في ذلك تيلابريفير) لـ HCV، بما في ذلك العدوى المزدوجة HIV/HCV |
+| [NCT01332955](https://clinicaltrials.gov/study/NCT01332955) | المرحلة 2 | مكتملة | 70 | تيلابريفير + بيج إنترفيرون + ريبافيرين في المرضى المصابين بالعدوى المزدوجة HIV-HCV الذين فشل العلاج السابق عندهم (ANRS HC26 TelapreVIH) |
+| [NCT02124044](https://clinicaltrials.gov/study/NCT02124044) | المرحلة 2 | مكتملة | 30 | داكلاتاسفير + أسونابريفير ± BMS-791325 في المواضيع المصابة بالعدوى المزدوجة HIV-HCV (تيلابريفير مرجعي كمعيار سابق) |
+| [NCT01563328](https://clinicaltrials.gov/study/NCT01563328) | المرحلة 1 | مكتملة | 32 | دراسة التفاعل الدوائي: تأثير بوسيبريفير/تيلابريفير على حركيات دولوتيجرافير (مثبط إنتيجراز فيروس نقص المناعة البشرية) |
+| [NCT01253551](https://clinicaltrials.gov/study/NCT01253551) | المرحلة 1 | مكتملة | 21 | دراسة التفاعل الدوائي: تيلابريفير مقابل رالتيجرافير (دواء فيروس نقص المناعة البشرية) في حالة التوازن في الأشخاص الأصحاء — يؤكد عدم وجود تفاعل سريري ذي صلة |
+| [NCT00983853](https://clinicaltrials.gov/study/NCT00983853) | المرحلة 2 | مكتملة | 62 | تيلابريفير + بيج إنترفيرون ألفا-2a + ريبافيرين لـ HCV في المواضيع الخاملة لم تتلق علاجاً من قبل المصابة بالعدوى المزدوجة HCV-1/HIV-1 |
 
 ---
 
-## Literature Evidence
+## الأدلة من الأدبيات
 
-*Note: all publications below discuss telaprevir's role in treating HCV within HIV-coinfected populations (efficacy/safety/DDI), not treatment of HIV itself.*
+*ملاحظة: جميع المنشورات التالية تناقش دور تيلابريفير في علاج HCV ضمن السكان المصابين بالعدوى المزدوجة (الفعالية/الأمان/التفاعلات الدوائية)، وليس علاج فيروس نقص المناعة البشرية نفسه.*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
 |------|-----|------|------|---------|
-| [26416471](https://pubmed.ncbi.nlm.nih.gov/26416471/) | 2015 | Cohort | The Journal of Infection | Early access programme (HPC3005) of telaprevir-based therapy in HIV-1/HCV coinfected patients with severe fibrosis/cirrhosis |
-| [26483516](https://pubmed.ncbi.nlm.nih.gov/26483516/) | 2016 | Clinical trial report | J Antimicrob Chemother | INSIGHT study (NCT01513941): efficacy, safety and PK of telaprevir-based therapy in HCV-1/HIV-1-coinfected patients |
-| [22345334](https://pubmed.ncbi.nlm.nih.gov/22345334/) | 2012 | Review | Annals of Hepatology | Review of DDIs with boceprevir/telaprevir, implications for HIV and transplant patients |
-| [25385188](https://pubmed.ncbi.nlm.nih.gov/25385188/) | 2015 | Review | Liver International | DDIs of telaprevir/boceprevir modify medication adherence in HCV-mono- and HIV/HCV-coinfected patients |
-| [25923540](https://pubmed.ncbi.nlm.nih.gov/25923540/) | 2015 | Cohort | PLoS One | Real-life safety and efficacy of boceprevir/telaprevir triple therapy against HCV in HIV coinfection |
-| [23925383](https://pubmed.ncbi.nlm.nih.gov/23925383/) | 2013 | Cohort | AIDS | Efficacy and tolerance of telaprevir in HIV-HCV genotype 1-coinfected patients failing prior HCV therapy (24-week results) |
-| [24796757](https://pubmed.ncbi.nlm.nih.gov/24796757/) | 2014 | Cohort | AIDS Patient Care and STDs | Real-world therapeutic potential of boceprevir/telaprevir triple therapy in HIV/HCV-coinfected patients |
-| [24063901](https://pubmed.ncbi.nlm.nih.gov/24063901/) | 2013 | Review | Enfermedades Infecciosas y Microbiología Clínica | Safety and efficacy of telaprevir in patients with HIV and HCV coinfection |
-| [25769784](https://pubmed.ncbi.nlm.nih.gov/25769784/) | 2015 | PK study | Int J Antimicrob Agents | PK interactions between telaprevir and antiretrovirals in HIV/HCV-coinfected patients with advanced liver fibrosis |
-| [25845407](https://pubmed.ncbi.nlm.nih.gov/25845407/) | 2015 | Review | Seminars in Dialysis | HIV and HCV medications (incl. boceprevir/telaprevir) in end-stage renal disease |
+| [26416471](https://pubmed.ncbi.nlm.nih.gov/26416471/) | 2015 | مجموعة ملاحظة | مجلة العدوى | برنامج الوصول المبكر (HPC3005) لعلاج قائم على تيلابريفير في مرضى العدوى المزدوجة HIV-1/HCV مع تليف شديد/تليف كبدي |
+| [26483516](https://pubmed.ncbi.nlm.nih.gov/26483516/) | 2016 | تقرير تجربة سريرية | مجلة مضادات الميكروبات | دراسة INSIGHT (NCT01513941): الفعالية والأمان والحركيات الدوائية للعلاج القائم على تيلابريفير في مرضى العدوى المزدوجة HCV-1/HIV-1 |
+| [22345334](https://pubmed.ncbi.nlm.nih.gov/22345334/) | 2012 | مراجعة | حوليات أمراض الكبد | مراجعة التفاعلات الدوائية مع بوسيبريفير/تيلابريفير، الآثار المترتبة على مرضى فيروس نقص المناعة البشرية والزراعة |
+| [25385188](https://pubmed.ncbi.nlm.nih.gov/25385188/) | 2015 | مراجعة | كبد دولي | التفاعلات الدوائية لتيلابريفير/بوسيبريفير تعدّل الالتزام بالأدوية في مرضى HCV الأحادي والعدوى المزدوجة HIV/HCV |
+| [25923540](https://pubmed.ncbi.nlm.nih.gov/25923540/) | 2015 | مجموعة ملاحظة | مجلة بلوس وان | الأمان والفعالية في الواقع لعلاج ثلاثي قائم على بوسيبريفير/تيلابريفير ضد HCV في العدوى المزدوجة |
+| [23925383](https://pubmed.ncbi.nlm.nih.gov/23925383/) | 2013 | مجموعة ملاحظة | الإيدز | الفعالية والتحمل للتيلابريفير في مرضى العدوى المزدوجة HIV-HCV من النمط الجيني 1 الذين فشل لديهم العلاج السابق (نتائج 24 أسبوع) |
+| [24796757](https://pubmed.ncbi.nlm.nih.gov/24796757/) | 2014 | مجموعة ملاحظة | الإيدز رعاية المرضى والأمراض المنقولة جنسياً | الإمكانات العلاجية في الواقع لعلاج ثلاثي قائم على بوسيبريفير/تيلابريفير في مرضى العدوى المزدوجة HIV/HCV |
+| [24063901](https://pubmed.ncbi.nlm.nih.gov/24063901/) | 2013 | مراجعة | الأمراض المعدية وعلم الأحياء الدقيقة الإكلينيكي | أمان وفعالية تيلابريفير في مرضى العدوى المزدوجة HIV و HCV |
+| [25769784](https://pubmed.ncbi.nlm.nih.gov/25769784/) | 2015 | دراسة حركيات دوائية | مجلة دولية لعوامل مضادة للميكروبات | التفاعلات الدوائية للحركيات الدوائية بين تيلابريفير والأدوية المرجعية المضادة لفيروس نقص المناعة البشرية في مرضى العدوى المزدوجة HIV/HCV مع تليف كبدي متقدم |
+| [25845407](https://pubmed.ncbi.nlm.nih.gov/25845407/) | 2015 | مراجعة | ندوات في غسيل الكلى | أدوية فيروس نقص المناعة البشرية و HCV (بما في ذلك بوسيبريفير/تيلابريفير) في أمراض الكلى بمراحلها الأخيرة |
 
 ---
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information. (TFDA/SFDA package insert warnings, contraindications, and drug interaction data are currently unavailable — see Data Gaps below.)
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات الأمان. (بيانات نشرة TFDA/SFDA المتعلقة بالتحذيرات والموانع والبيانات المتعلقة بالتفاعلات الدوائية غير متاحة حالياً — انظر فجوات البيانات أدناه.)
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-No mechanistic basis supports telaprevir's activity against HIV — HCV's NS3/4A serine protease target has no homology to HIV's aspartic protease, and all retrieved clinical/literature evidence documents telaprevir's use in treating **HCV** within HIV/HCV-coinfected cohorts, not efficacy against HIV itself. Combined with the drug's non-marketed status in Saudi Arabia and the absence of TFDA/SFDA safety labeling, this candidate does not meet the threshold to proceed.
+**السبب المنطقي:**
+لا يوجد أساس آلي يدعم نشاط تيلابريفير ضد فيروس نقص المناعة البشرية — لا يمتلك بروتياز السيرين HCV NS3/4A تجانساً مع بروتياز الأسبارتيك في فيروس نقص المناعة البشرية، وجميع الأدلة السريرية والأدبية المسترجعة توثق استخدام تيلابريفير في علاج **HCV** ضمن مجموعات العدوى المزدوجة HIV/HCV، وليس الفعالية ضد فيروس نقص المناعة البشرية نفسه. بالاقتران مع حالة الدواء غير المسوّق في المملكة العربية السعودية وغياب عنونة سلامة TFDA/SFDA، هذا المرشح لا يفي بالحد الأدنى للمتابعة.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently blocking (DG001)
-- Detailed mechanism of action (MOA) data via DrugBank — currently a high-severity gap (DG002)
-- A genuine in vitro/in vivo demonstration of anti-HIV activity, since existing trials only address HCV treatment in HIV-coinfected patients
-- Re-evaluation of whether the TxGNN score reflects a true pharmacological signal or a coinfection-cohort keyword artifact
+**للمتابعة، المطلوب ما يلي:**
+- نشرة TFDA/SFDA (التحذيرات والموانع) — حالياً حاجزة (DG001)
+- بيانات آلية العمل التفصيلية (MOA) عبر DrugBank — حالياً فجوة عالية الخطورة (DG002)
+- عرض توضيحي حقيقي في المختبر/في الجسم الحي لنشاط مضاد لفيروس نقص المناعة البشرية، لأن التجارب الموجودة تتناول فقط علاج HCV في مرضى مصابين بالعدوى المزدوجة
+- إعادة تقييم ما إذا كانت درجة TxGNN تعكس إشارة صيدلية حقيقية أم أن تأثيراً كلامياً لمجموعة العدوى المزدوجة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

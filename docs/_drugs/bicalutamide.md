@@ -29,108 +29,109 @@ indication_count: 10
 
 </div>
 
-# Bicalutamide: From Prostate Cancer to Hypertrichosis
+# بيكالوتاميد: من سرطان البروستاتا إلى الشعرانية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Bicalutamide is a non-steroidal androgen receptor (AR) antagonist widely used for prostate cancer, blocking testosterone and DHT from binding to AR across tissues.
-The TxGNN model ranks **Hypertrichosis** as its top predicted new indication (score 99.69%), currently supported by only **1 publication** (a letter/comment).
-Importantly, among all 10 evaluated indications, **Female Breast Carcinoma** (rank 9) carries far stronger clinical evidence — 1 ongoing Phase 2 trial and 20 publications — and is the most actionable repurposing candidate in this evidence pack.
+بيكالوتاميد هو مضاد مستقبل الأندروجين (AR) غير الستيرويدي يُستخدم على نطاق واسع لعلاج سرطان البروستاتا، ويمنع ارتباط التستوستيرون و DHT بـ AR عبر الأنسجة المختلفة.
+يصنف نموذج TxGNN **الشعرانية** كأهم مؤشر استخدام جديد متنبأ به (بدرجة 99.69%)، مدعوم حالياً بـ **منشور واحد فقط** (رسالة/تعليق).
+والمهم أنه من بين جميع المؤشرات العشرة المقيمة، فإن **سرطان الثدي الأنثوي** (المرتبة 9) يتمتع بدليل سريري أقوى بكثير — تجربة المرحلة 2 جارية واحدة و 20 منشوراً — وهو المرشح الأكثر قابلية للتطبيق لإعادة التوظيف في هذه المجموعة الإثباتية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Prostate cancer (non-steroidal antiandrogen; not marketed in Saudi Arabia) |
-| Predicted New Indication (Top) | Hypertrichosis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Hypertrichosis) / Proceed with Guardrails (Female Breast Carcinoma) |
+| المؤشر الأصلي | سرطان البروستاتا (مضاد أندروجين غير ستيرويدي؛ غير مسوّق في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به (الأعلى) | الشعرانية |
+| درجة توقع TxGNN | 99.69% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | عدم المتابعة (الشعرانية) / المتابعة مع ضمانات (سرطان الثدي الأنثوي) |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Bicalutamide is a competitive AR antagonist that blocks binding of testosterone and dihydrotestosterone (DHT) to the androgen receptor. By occupying AR without activating it, bicalutamide suppresses androgen-driven cellular proliferation and differentiation across a wide range of tissues — this is the basis of its established use in prostate cancer, where tumor growth is androgen-dependent.
+بيكالوتاميد هو مضاد مستقبل أندروجين تنافسي يمنع ارتباط التستوستيرون وديهيدروتستوستيرون (DHT) بمستقبل الأندروجين. بشغل مستقبل الأندروجين دون تفعيله، يقمع بيكالوتاميد الانتشار والتمايز الخلويين المدفوعين بالأندروجين عبر مجموعة واسعة من الأنسجة — وهذا هو أساس استخدامه المثبت في سرطان البروستاتا، حيث يعتمد نمو الورم على الأندروجين.
 
-The connection to hypertrichosis rests on the known role of androgens in promoting hair follicle activity. In androgen-sensitive follicles (such as those on the face and body in women with hyperandrogenism), excess androgen signaling drives excessive hair growth. AR blockade is therefore mechanistically plausible for reducing androgen-dependent hypertrichosis. The sole supporting publication (PMID 35304167) is a letter specifically commenting on bicalutamide's ability to counter **minoxidil-induced hypertrichosis** — a pharmacological side-effect scenario rather than treatment of primary hypertrichosis — which may explain the high TxGNN score via a specific knowledge-graph sub-path.
+يستند الاتصال بالشعرانية على الدور المعروف للأندروجين في تعزيز نشاط بصيلات الشعر. في بصيلات الشعر الحساسة للأندروجين (مثل تلك الموجودة على الوجه والجسم لدى النساء المصابات بفرط الأندروجين)، تدفع الإشارات الأندروجينية الزائدة إلى نمو شعر مفرط. من المعقول إذاً من الناحية الآلية أن يكون حجب AR فعالاً في تقليل الشعرانية المعتمدة على الأندروجين. المنشور الداعم الوحيد (PMID 35304167) هو رسالة تعليق تحديداً على قدرة بيكالوتاميد على مواجهة **الشعرانية المستحثة بالمينوكسيديل** — وهو سيناريو آثار جانبية دوائية وليس علاج الشعرانية الأولية — مما قد يفسر درجة TxGNN العالية عبر مسار فرعي محدد في الرسم البياني للمعرفة.
 
-It is critical to note that hypertrichosis encompasses both androgen-dependent forms (where AR antagonism is theoretically active) and purely genetic forms such as Ambras syndrome (chromosome 8q22-24 rearrangement) and isolated hair shaft abnormalities, where AR blockade would have no effect. The current evidence does not differentiate between these subtypes.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Hypertrichosis.
+من الحتمي ملاحظة أن الشعرانية تشمل كلاً من الأشكال المعتمدة على الأندروجين (حيث يكون تضاد AR نشطاً نظرياً) والأشكال الوراثية البحتة مثل متلازمة أمبراس (إعادة ترتيب الكروموسوم 8q22-24) وشذوذ عمود الشعر المعزول، حيث لن يكون لحجب AR أي تأثير. الدليل الحالي لا يميز بين هذه الأنماط الفرعية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة للشعرانية.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Letter/Comment | Journal of the American Academy of Dermatology | Commentary on bicalutamide's role in improving minoxidil-induced hypertrichosis in female pattern hair loss patients (n=35 retrospective review); supports AR antagonism as a management strategy for drug-induced excess hair growth |
+| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | رسالة/تعليق | Journal of the American Academy of Dermatology | تعليق على دور بيكالوتاميد في تحسين الشعرانية المستحثة بالمينوكسيديل لدى المريضات المصابات بفقدان الشعر الأنثوي (n=35 مراجعة بأثر رجعي)؛ يدعم تضاد AR كاستراتيجية إدارة لنمو الشعر الزائد المستحث بالعقاقير |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Bicalutamide currently holds **no regulatory authorizations in Saudi Arabia** (market status: not marketed). No product-level information is available from local regulatory databases. Any future introduction would require SFDA new drug application.
+حالياً بيكالوتاميد لا يملك **أي تفويضات تنظيمية في المملكة العربية السعودية** (حالة السوق: غير مسوّق). لا تتوفر معلومات على مستوى المنتج من قواعد البيانات التنظيمية المحلية. سيتطلب أي إدخال مستقبلي تقديم طلب دواء جديد إلى الهيئة العامة للغذاء والدواء.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — non-steroidal AR antagonist (antiandrogen); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low (not associated with significant bone marrow suppression) |
-| Emetogenicity Classification | Minimal to low |
-| Monitoring Items | Liver function tests (LFTs: AST, ALT, bilirubin), serum testosterone/PSA (in oncology use), CBC |
-| Handling Protection | Standard pharmaceutical handling; not classified under cytotoxic chemotherapy handling regulations |
+| تصنيف السمية الخلوية | العلاج الموجه — مضاد AR غير ستيرويدي (مضاد أندروجين)؛ ليس عاملاً سمياً خلوياً تقليدياً |
+| خطر قمع نخاع العظم | منخفض (غير مرتبط بقمع كبير لنخاع العظم) |
+| تصنيف الغثيانية | الحد الأدنى إلى منخفض |
+| عناصر المراقبة | اختبارات وظائف الكبد (LFTs: AST، ALT، البيليروبين)، التستوستيرون/PSA في المصل (في الاستخدام الورمي)، CBC |
+| حماية المناولة | المناولة الصيدلانية القياسية؛ غير مصنفة تحت لوائح مناولة العقاقير السامة للخلايا |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Detailed local safety data (warnings, contraindications) was not retrievable for the Saudi Arabia market due to the absence of approved product labels. Based on international prescribing information, the following are known:
+لم تكن بيانات السلامة المحلية التفصيلية (التحذيرات والموانع) قابلة للاسترجاع لسوق المملكة العربية السعودية بسبب عدم وجود تسميات المنتجات الموافق عليها. بناءً على معلومات الوصفات الطبية الدولية، يُعرف ما يلي:
 
-- **Hepatotoxicity**: Rare but serious liver injury (including fatal cases) has been reported. Baseline LFTs and periodic monitoring are recommended; discontinue if ALT rises >2× ULN.
-- **Gynecomastia / breast tenderness**: Common in male patients on prolonged therapy due to peripheral AR blockade with relative estrogen excess.
-- **Cardiovascular**: Androgen deprivation may prolong QT interval; cardiac monitoring warranted in at-risk patients.
-- **Warfarin interaction**: Bicalutamide can potentiate anticoagulant effect of warfarin (CYP-mediated displacement); INR monitoring required if co-administered.
+- **السمية الكبدية**: تم الإبلاغ عن إصابة كبدية نادرة ولكنها خطيرة (بما في ذلك حالات قاتلة). يُنصح بـ LFTs الأساسي والمراقبة الدورية؛ توقف إذا ارتفع ALT >2× ULN.
+- **التثدي / ألم الثدي**: شائع لدى المريضات الذكور على العلاج الطويل الأمد بسبب حجب AR الطرفي مع فائض الإستروجين النسبي.
+- **القلب والأوعية الدموية**: قد يطيل حرمان الأندروجين فترة QT؛ تبرر المراقبة القلبية للمريضات المعرضين للخطر.
+- **تفاعل الوارفارين**: يمكن لبيكالوتاميد أن يعزز التأثير المضاد للتخثر للوارفارين (إزاحة وسيطة بواسطة CYP)؛ مراقبة INR مطلوبة إذا تم تناولهما معاً.
 
-No DDI data was returned by the local drug interaction query system. Refer to the current international package insert for full prescribing information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold (Hypertrichosis) | Proceed with Guardrails (Female Breast Carcinoma)**
-
-**Rationale:**
-
-For **Hypertrichosis** (TxGNN rank 1): Despite the high model score, evidence is limited to a single letter/comment with no clinical trials. The mechanistic case applies only to androgen-dependent subtypes, and the specific context in the publication (minoxidil-induced hypertrichosis) is a niche scenario unlikely to justify a broad repurposing program. Holding pending prospective case series or pilot data.
-
-For **Female Breast Carcinoma** (TxGNN rank 9): This is the most clinically significant finding in the pack. AR is expressed in 10–35% of triple-negative breast cancers (TNBC), particularly the LAR (luminal androgen receptor) subtype. Bicalutamide has demonstrated activity in vitro (proliferation and invasion inhibition in MDA-MB-231 cells), mechanistic studies confirm AR/β-catenin and AR/ERK/FOXC2 pathway involvement, and Phase 2 trial NCT03650894 (nivolumab + bicalutamide + ipilimumab, n=30, completion expected December 2026) is actively running. Multiple reviews (2018–2025) confirm bicalutamide as a lead agent in AR+ TNBC. Evidence level L2 supports advancing to structured evaluation.
+لم يتم إرجاع أي بيانات DDI من نظام استعلام التفاعل الدوائي المحلي. راجع نشرة العبوة الدولية الحالية للحصول على معلومات كاملة عن الوصفات الطبية.
 
 ---
 
-**To proceed with Hypertrichosis, the following is needed:**
-- Prospective case series or pilot study data in androgen-dependent hypertrichosis patients
-- Subtype differentiation: confirm only androgen-sensitive forms are targeted
-- Full safety and MOA documentation (Saudi Arabia package insert or international label)
+## الخلاصة والخطوات التالية
 
-**To proceed with Female Breast Carcinoma (recommended path), the following is needed:**
-- Monitor NCT03650894 primary results (expected end of 2026)
-- Establish AR expression (IHC) as companion diagnostic for LAR-TNBC patient selection
-- Obtain bicalutamide SFDA registration in Saudi Arabia (currently no local authorization)
-- Design a safety monitoring plan including liver function surveillance and cardiac monitoring
-- Evaluate combination strategy: bicalutamide + immune checkpoint inhibitor vs. monotherapy based on trial results
+**القرار: عدم المتابعة (الشعرانية) / المتابعة مع ضمانات (سرطان الثدي الأنثوي)**
+
+**الأساس المنطقي:**
+
+بخصوص **الشعرانية** (رتبة TxGNN 1): رغم درجة النموذج العالية، الدليل مقتصر على رسالة/تعليق واحد فقط بدون تجارب سريرية. الحالة الآلية تنطبق فقط على الأنماط الفرعية المعتمدة على الأندروجين، والسياق المحدد في المنشور (الشعرانية المستحثة بالمينوكسيديل) هو سيناريو متخصص من غير المرجح أن يبرر برنامج إعادة توظيف واسع. عدم المتابعة في انتظار سلسلة حالات استقطاعية أو بيانات دراسة تجريبية.
+
+بخصوص **سرطان الثدي الأنثوي** (رتبة TxGNN 9): هذا هو الاكتشاف الأكثر أهمية من الناحية السريرية في المجموعة. يتم التعبير عن AR في 10-35% من سرطانات الثدي الثلاثية السلبية (TNBC)، خاصة النمط الفرعي LAR (مستقبل الأندروجين الحدي). أظهر بيكالوتاميد نشاطاً في المختبر (قمع الانتشار والغزو في خلايا MDA-MB-231)، تؤكد الدراسات الآلية على تورط مسارات AR/β-catenin و AR/ERK/FOXC2، والتجربة الطورية الثانية NCT03650894 (nivolumab + bicalutamide + ipilimumab، n=30، الانتهاء المتوقع ديسمبر 2026) جارية النشاط. تؤكد مراجعات متعددة (2018-2025) أن بيكالوتاميد هو العامل الرائد في TNBC الإيجابي للـ AR. مستوى الدليل L2 يدعم المضي قدماً في التقييم المنظم.
+
+---
+
+**للمتابعة مع الشعرانية، يلزم ما يلي:**
+- سلسلة حالات استقطاعية أو بيانات دراسة تجريبية لدى المريضات المصابات بالشعرانية المعتمدة على الأندروجين
+- التمايز الفرعي: تأكيد استهداف الأشكال الحساسة للأندروجين فقط
+- التوثيق الكامل للسلامة والآلية (نشرة المملكة العربية السعودية أو التسمية الدولية)
+
+**للمتابعة مع سرطان الثدي الأنثوي (المسار الموصى به)، يلزم ما يلي:**
+- مراقبة النتائج الأولية لـ NCT03650894 (المتوقع في نهاية 2026)
+- تحديد التعبير عن AR (IHC) كأداة تشخيصية مصاحبة لاختيار مريضات LAR-TNBC
+- الحصول على تسجيل الهيئة العامة للغذاء والدواء لبيكالوتاميد في المملكة العربية السعودية (لا توجد حالياً سلطة محلية)
+- تصميم خطة مراقبة السلامة بما في ذلك مراقبة وظائف الكبد والمراقبة القلبية
+- تقييم استراتيجية التركيبة: بيكالوتاميد + مثبط نقطة تفتيش المناعة مقابل العلاج الأحادي بناءً على نتائج التجربة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

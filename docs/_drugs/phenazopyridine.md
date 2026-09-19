@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Phenazopyridine: From Urinary Tract Pain (Dysuria) to Bronchitis
+# فينازوبيريدين: من الألم البولي (عسر التبول) إلى التهاب الشعب الهوائية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Phenazopyridine is an azo-dye urinary tract analgesic traditionally used to relieve burning and pain during urination.
-> The TxGNN model predicts it may be effective for **Bronchitis**, but this is currently a **pure model prediction**
-> with **no clinical trials, no literature, and no mechanistic overlap** identified to support the connection.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally on file (no Saudi Arabia license); known pharmacological use is relief of urinary tract pain/dysuria (azo dye local anesthetic) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.23% (rank 11,012 among predictions) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> فينازوبيريدين هو مسكن موضعي للمسالك البولية قائم على الأصبغة الآزوية يستخدم تقليديًا لتخفيف الحرقة والألم أثناء التبول.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لعلاج **التهاب الشعب الهوائية**، لكن هذا حاليًا **تنبؤ نموذجي بحت**
+> **بدون تجارب سريرية ولا أدبيات ولا تداخل آلي** معروف لدعم الربط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (recorded as a data gap). Based on known pharmacology, phenazopyridine is an azo-dye local anesthetic that acts topically on the urinary tract mucosa to relieve dysuria (burning pain during urination). It has no established action on airway epithelium, respiratory inflammatory pathways, or respiratory pathogens.
-
-Bronchitis is a respiratory tract inflammatory/infectious condition. There is no known pharmacological, anatomical, or mechanistic overlap between phenazopyridine's urinary-tract analgesic action and bronchitis pathophysiology.
-
-The TxGNN score of 0.992 reflects similarity within the model's knowledge-graph embedding space, not a validated mechanistic or clinical relationship. In this case the model's own evidence review explicitly flags the mechanistic link as absent, and this is corroborated by a complete lack of supporting clinical trials or literature. This prediction should be treated as exploratory only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مسجل رسميًا (لا يوجد ترخيص في المملكة العربية السعودية)؛ الاستخدام الدوائي المعروف هو تخفيف ألم/عسر المسالك البولية (مسكن موضعي قائم على الأصبغة الآزوية) |
+| المؤشر الجديد المتنبأ به | التهاب الشعب الهوائية |
+| درجة التنبؤ بنموذج TxGNN | 99.23% (الترتيب 11,012 من بين التنبؤات) |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حاليًا، بيانات الآلية المفصلة للعمل غير متوفرة (مسجلة كفجوة بيانات). بناءً على الصيدلة المعروفة، فينازوبيريدين هو مسكن موضعي قائم على الأصبغة الآزوية يعمل موضعيًا على غشاء المسالك البولية لتخفيف عسر التبول (الألم الحارق أثناء التبول). لا يوجد له عمل معروف على ظهارة المسالك الهوائية أو المسارات الالتهابية التنفسية أو مسببات الأمراض التنفسية.
 
----
+التهاب الشعب الهوائية هو حالة التهابية/معدية في المسالك التنفسية. لا يوجد تداخل دوائي أو تشريحي أو آلي معروف بين عمل فينازوبيريدين المسكن للمسالك البولية وفيزيولوجيا أمراض التهاب الشعب الهوائية.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+درجة TxGNN البالغة 0.992 تعكس التشابه داخل فضاء تضمين الرسم البياني المعرفي للنموذج، وليس علاقة آلية أو سريرية مُثبتة. في هذه الحالة، مراجعة الأدلة الخاصة بالنموذج نفسه تشير بوضوح إلى غياب الربط الآلي، وهذا يؤكده عدم وجود أي تجارب سريرية أو أدبيات داعمة. يجب التعامل مع هذا التنبؤ كمجرد استكشاف فقط.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حاليًا أي تجارب سريرية ذات صلة مسجلة
 
-**Rationale:**
-The prediction rests solely on a TxGNN embedding score (L5) with no clinical trials, no literature, and no plausible mechanistic pathway connecting a urinary-tract analgesic to bronchitis. The drug is also not currently marketed in Saudi Arabia. There is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/original regulatory package insert (warnings, contraindications, DDI)
-- Any preclinical or mechanistic studies establishing a plausible link between phenazopyridine and respiratory tract inflammation
-- Re-evaluation once independent clinical or literature evidence emerges; absent that, this candidate should not proceed past S0
+## أدلة الأدبيات
+
+لا توجد حاليًا أي أدبيات ذات صلة متاحة
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+يعتمد التنبؤ فقط على درجة تضمين TxGNN (L5) بدون تجارب سريرية ولا أدبيات ولا مسار آلي معقول يربط بين مسكن المسالك البولية والتهاب الشعب الهوائية. الدواء أيضًا غير مسوّق حاليًا في المملكة العربية السعودية. لا توجد أساس كافٍ للمتابعة مع هذا المرشح.
+
+**لكي يتم المتابعة، يلزم ما يلي:**
+- بيانات الآلية المؤكدة للعمل (MOA) من DrugBank أو الأدبيات الأولية
+- نشرة الدواء التنظيمية الأصلية من TFDA (التحذيرات والموانع الاستخدام وتفاعلات الأدوية)
+- أي دراسات سابقة للتجارب السريرية أو آلية تثبت وجود ربط معقول بين فينازوبيريدين والتهاب المسالك التنفسية
+- إعادة تقييم بمجرد ظهور أدلة سريرية أو أدبية مستقلة؛ في غياب ذلك، يجب ألا يتقدم هذا المرشح بعد S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

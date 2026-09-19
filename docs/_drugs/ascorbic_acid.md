@@ -29,71 +29,72 @@ indication_count: 10
 
 </div>
 
-# Ascorbic Acid: From Vitamin C Deficiency to Non-Syndromic Esophageal Malformation
+# حمض الأسكوربيك: من نقص فيتامين C إلى تشوه المريء غير المتلازمة
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ascorbic Acid is the active form of Vitamin C, an essential nutrient whose primary classical indication is the prevention and treatment of vitamin C deficiency (scurvy) and nutritional supplementation.
-The TxGNN model ranks **Non-Syndromic Esophageal Malformation** as its top novel repurposing prediction with a model score of **99.96%**,
-yet **no clinical trials and no supporting publications** exist for this specific direction — placing this prediction at the lowest possible evidence tier (L5).
+حمض الأسكوربيك هو الشكل النشط لفيتامين C، وهو عنصر غذائي أساسي مؤشره الكلاسيكي الأساسي هو الوقاية والعلاج من نقص فيتامين C (الإسقربوط) والمكملات الغذائية.
+يصنف نموذج TxGNN **تشوه المريء غير المتلازمة** كأفضل تنبؤ جديد بإعادة توجيه الاستخدام مع درجة نموذج **99.96%**،
+إلا أنه **لا توجد تجارب سريرية ولا منشورات داعمة** لهذا الاتجاه المحدد — مما يضع هذا التنبؤ في أقل مستوى أدلة ممكن (L5).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Vitamin C deficiency (scurvy) and nutritional supplementation |
-| Predicted New Indication | Non-Syndromic Esophageal Malformation |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | نقص فيتامين C (الإسقربوط) والمكملات الغذائية |
+| المؤشر الجديد المتنبأ به | تشوه المريء غير المتلازمة |
+| درجة تنبؤ TxGNN | 99.96% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Ascorbic Acid (Vitamin C) is an obligatory co-factor for prolyl-4-hydroxylase and lysyl hydroxylase — enzymes that catalyze the post-translational modifications essential for collagen triple-helix stability and cross-linking. It also acts as a potent water-soluble antioxidant, an enhancer of non-heme iron absorption, and crucially, a co-factor for TET family dioxygenases that mediate epigenetic DNA demethylation. This last role has growing relevance to developmental biology, as TET-mediated epigenetic reprogramming is critical during early embryogenesis.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في مجموعة الأدلة هذه. بناءً على الصيدلة الموثقة، حمض الأسكوربيك (فيتامين C) هو عامل مساعد إلزامي لإنزيمات prolyl-4-hydroxylase و lysyl hydroxylase — الإنزيمات التي تحفز التعديلات بعد الترجمة الضرورية لاستقرار وترابط حلزون الكولاجين الثلاثي. كما أنه يعمل كمضاد أكسدة قوي قابل للذوبان في الماء، ومعزز لامتصاص الحديد غير الهيمي، والأهم من ذلك، عامل مساعد لعائلة TET dioxygenases التي توسط إزالة الميثيل من DNA اللاجينية. لهذا الدور الأخير أهمية متزايدة في علم الأحياء النمائي، حيث أن إعادة البرمجة اللاجينية التي توسطها TET حاسمة أثناء الجينيز الجنيني المبكر.
 
-Non-syndromic esophageal malformation encompasses congenital structural anomalies of the esophagus — including esophageal atresia and tracheo-esophageal fistula — occurring without associated syndromic features. The theoretical basis for the TxGNN prediction rests on two possible mechanistic threads: first, that Vitamin C's co-factor role in collagen maturation could influence esophageal connective tissue formation during embryonic development; second, that TET-mediated epigenetic programming could modulate foregut progenitor cell differentiation. Supporting the developmental importance of Vitamin C more broadly, knockout studies of the ascorbic acid brain transporter (Slc23a1) in mice confirm that Vitamin C availability is essential for perinatal survival.
+يشمل تشوه المريء غير المتلازمة الشذوذ الهيكلية الخلقية للمريء — بما في ذلك رتق المريء والناسور الرغامي المريئي — والتي تحدث بدون ميزات متلازمة مرتبطة. يستند الأساس النظري للتنبؤ TxGNN على خيطين آليين محتملين: أولاً، أن دور فيتامين C العامل المساعد في نضج الكولاجين قد يؤثر على تكوين نسيج المريء الضام أثناء التطور الجنيني؛ ثانياً، أن البرمجة اللاجينية التي توسطها TET قد تعدل تمايز خلايا السلف المعوية الأمامية. يؤيد أهمية فيتامين C في النمو بشكل أوسع أن دراسات الطرق الخاصة لناقل حمض الأسكوربيك في الدماغ (Slc23a1) في الفئران تؤكد أن توفر فيتامين C ضروري للبقاء في فترة حول الولادة.
 
-However, the link to esophageal malformation specifically is entirely speculative. These structural congenital defects arise from embryological patterning failures governed by genetic programs — principally Shh, Wnt, and Notch signaling cascades — rather than nutritional substrate availability. No esophageal malformation phenotype has been reported in any Vitamin C-deficient animal model, and no human epidemiological data associate maternal Vitamin C status with this condition. The high TxGNN score most likely reflects broad network connectivity between Vitamin C metabolism nodes and esophageal disease nodes in the underlying knowledge graph, rather than a specific pharmacological relationship. This prediction should be treated as a hypothesis-generating signal only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for ascorbic acid in non-syndromic esophageal malformation.
+ومع ذلك، فإن الارتباط بتشوه المريء على وجه التحديد تخميني بحت. تنشأ هذه العيوب الهيكلية الخلقية من فشل الأنماط الجنينية التي تحكمها البرامج الوراثية — بشكل أساسي تسلسلات Shh و Wnt و Notch — بدلاً من توفر المادة المغذية. لم يتم الإبلاغ عن أي نمط ظاهري لتشوه المريء في أي نموذج حيواني لنقص فيتامين C، وبيانات علم الأوبئة البشرية لا تربط حالة فيتامين C للأم بهذه الحالة. ربما تعكس درجة TxGNN العالية الاتصالية الواسعة في الشبكة بين عقد استقلاب فيتامين C وعقد مرض المريء في الرسم البياني للمعرفة الأساسي، بدلاً من العلاقة الصيدلانية المحددة. يجب اعتبار هذا التنبؤ إشارة لتوليد فرضيات فقط.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for this indication.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة لحمض الأسكوربيك في تشوه المريء غير المتلازمة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات العلمية
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة لهذا المؤشر.
 
-**Rationale:**
-Non-syndromic esophageal malformation is a structural congenital defect with genetic and embryological origins that are mechanistically disconnected from the pharmacological actions of Vitamin C supplementation. With zero supporting preclinical or clinical evidence, this repurposing direction cannot progress without fundamental hypothesis validation from the ground up.
+---
 
-**To proceed, the following is needed:**
-- Animal model studies examining whether maternal Vitamin C deficiency or high-dose supplementation during early gestation affects the incidence or severity of esophageal malformations
-- Epidemiological data assessing whether maternal Vitamin C status correlates with non-syndromic esophageal malformation incidence in human cohorts
-- Mechanistic studies clarifying whether esophageal foregut morphogenesis is sensitive to ascorbic acid availability — particularly via collagen maturation or TET-mediated epigenetic pathways
-- Complete drug mechanism of action (MOA) data from DrugBank (currently absent from this dataset)
-- Safety profile, key warnings, and contraindications retrieved from the product package insert
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملصق المنتج للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+تشوه المريء غير المتلازمة هو عيب هيكلي خلقي بأصول وراثية وجنينية منفصلة آلياً عن الإجراءات الصيدلانية لمكملات فيتامين C. مع عدم وجود أي أدلة داعمة سابقة للسريرية أو سريرية، لا يمكن لاتجاه إعادة التوجيه هذا أن يتقدم بدون التحقق الأساسي من الفرضية من البداية.
+
+**لكي نتقدم، المطلوب التالي:**
+- دراسات نموذج حيواني للفحص ما إذا كان نقص فيتامين C عند الأم أو المكملات عالية الجرعة أثناء الحمل المبكر يؤثر على معدل الإصابة أو شدة تشوهات المريء
+- بيانات علم الأوبئة تقيّم ما إذا كانت حالة فيتامين C للأم ترتبط بمعدل الإصابة بتشوه المريء غير المتلازمة في المجموعات البشرية
+- دراسات آلية توضح ما إذا كانت مورفوجينيز المريء المعوي الأمامي حساسة لتوفر حمض الأسكوربيك — خاصة عبر نضج الكولاجين أو مسارات إزالة الميثيل اللاجينية التي توسطها TET
+- بيانات آلية عمل الدواء الكاملة (MOA) من DrugBank (غير موجودة حالياً في مجموعة البيانات هذه)
+- ملف تعريف السلامة والتحذيرات الرئيسية والموانع المسترجعة من ملصق منتج الدواء
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

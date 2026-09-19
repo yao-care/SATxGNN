@@ -29,93 +29,92 @@ indication_count: 10
 
 </div>
 
-# Bevacizumab: From Solid Tumors (Anti-VEGF Therapy) to Epiglottis Neoplasm
+# بيفاسيزوماب: من أورام صلبة (العلاج المضاد لـ VEGF) إلى أورام لسان المزمار
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Bevacizumab is a humanized monoclonal antibody that targets vascular endothelial growth factor-A (VEGF-A), widely used globally for multiple solid tumors including colorectal cancer, non-small cell lung cancer, and ovarian cancer.
-The TxGNN model predicts it may be effective for **Epiglottis Neoplasm**,
-however, **no clinical trials** and **no publications** currently support this direction — this prediction is based on model inference alone.
+بيفاسيزوماب هو جسم مضاد أحادي النسيلة إنساني يستهدف عامل النمو البطاني الوعائي A (VEGF-A)، ويُستخدم على نطاق واسع عالمياً لعلاج أورام صلبة متعددة بما فيها سرطان القولون والمستقيم وسرطان الرئة ذو الخلايا غير الصغيرة وسرطان المبيض. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **أورام لسان المزمار**، إلا أنه لا توجد حالياً **تجارب سريرية** ولا **منشورات** تدعم هذا الاتجاه — هذا التنبؤ يعتمد على الاستدلال الحسابي للنموذج وحده.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in Saudi Arabia regulatory data (globally approved for multiple solid tumors) |
-| Predicted New Indication | Epiglottis Neoplasm |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on publicly known information, bevacizumab (Avastin) is a recombinant humanized monoclonal antibody that binds specifically to VEGF-A, blocking its interaction with VEGF receptors (VEGFR-1 and VEGFR-2) on endothelial cells. This prevents tumor-associated angiogenesis — the formation of new blood vessels that tumors require for growth and metastasis. Its anti-tumor activity has been validated across colorectal cancer, non-small cell lung cancer, glioblastoma, ovarian cancer, cervical cancer, and renal cell carcinoma.
-
-The theoretical link to epiglottis neoplasm rests on the general principle that solid tumors overexpress VEGF to sustain their vasculature. Head and neck squamous cell carcinomas, including those of the supraglottic larynx and epiglottis, do exhibit elevated VEGF expression in published biomarker studies. However, this biological rationale is generic and does not constitute disease-specific evidence.
-
-Critically, the majority of epiglottis neoplasms are either benign (papillomas, commonly HPV-related) or are rare malignant variants. Benign papillomas are managed surgically; they lack the aggressive angiogenic drive seen in carcinomas for which bevacizumab was developed. No preclinical model, case report, or clinical trial has specifically evaluated bevacizumab in epiglottis neoplasm. The TxGNN score reflects graph-network proximity in a disease–drug interaction model, not direct empirical evidence.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير متوفر في البيانات التنظيمية للمملكة العربية السعودية (معتمد عالمياً لأورام صلبة متعددة) |
+| الاستطباب الجديد المتنبأ به | أورام لسان المزمار |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معتمد في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered for epiglottis neoplasm.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه المجموعة من الأدلة. بناءً على المعلومات المتاحة للعموم، بيفاسيزوماب (أفاستين) هو جسم مضاد أحادي النسيلة إنساني معاد التركيب يرتبط بشكل نوعي بـ VEGF-A، مما يحجب تفاعله مع مستقبلات VEGF (VEGFR-1 و VEGFR-2) على الخلايا البطانية. وهذا يمنع تكوين الأوعية الدموية المرتبط بالأورام — تشكيل أوعية دموية جديدة تحتاجها الأورام للنمو والانتشار السرطاني. تم التحقق من نشاطه المضاد للأورام في سرطان القولون والمستقيم وسرطان الرئة ذو الخلايا غير الصغيرة والورم الدبقي والسرطان المبيضي وسرطان عنق الرحم وسرطان الخلايا الكلوية.
 
----
+يستند الربط النظري بأورام لسان المزمار على المبدأ العام بأن الأورام الصلبة تفرط في التعبير عن VEGF للحفاظ على أوعيتها الدموية. سرطانات الخلايا الحرشفية في الرأس والعنق، بما فيها تلك الموجودة في الحنجرة فوق الصوتية ولسان المزمار، تظهر بالفعل تعبيراً مرتفعاً عن VEGF في الدراسات المنشورة للمؤشرات البيولوجية. ومع ذلك، فإن هذا التبرير البيولوجي عام ولا يشكل دليلاً خاصاً بالمرض.
 
-## Literature Evidence
-
-Currently no related literature available for epiglottis neoplasm.
+بشكل حاسم، فإن غالبية أورام لسان المزمار إما حميدة (الحليمات، وغالباً ما تكون مرتبطة بـ HPV) أو متغيرات خبيثة نادرة. تُدار الحليمات الحميدة جراحياً؛ فهي تفتقد إلى الدافع الشديد لتكوين الأوعية الدموية الموجود في السرطانات التي تم تطوير بيفاسيزوماب لعلاجها. لم يقيّم أي نموذج ما قبل سريري أو تقرير حالة أو تجربة سريرية بشكل محدد بيفاسيزوماب في أورام لسان المزمار. تعكس درجة TxGNN القرب من شبكة الرسم البياني في نموذج تفاعل المرض والدواء، وليس الدليل التجريبي المباشر.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Bevacizumab has no approved licenses in Saudi Arabia (SFDA) based on current data. No authorizations on record.
-
----
-
-## Cytotoxicity
-
-Bevacizumab is an antineoplastic biologic agent (anti-VEGF monoclonal antibody) used for cancer treatment; the following cytotoxicity profile applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Anti-angiogenic monoclonal antibody (not conventional cytotoxic) |
-| Myelosuppression Risk | Low (bevacizumab as a single agent does not typically cause clinically significant myelosuppression; risk increases when combined with cytotoxic chemotherapy) |
-| Emetogenicity Classification | Low (monoclonal antibodies carry minimal emetogenic potential per standard classification) |
-| Monitoring Items | Blood pressure (hypertension is a class effect), urinalysis for proteinuria (dipstick and 24-hr urine if ≥2+), CBC if used in combination regimens, renal function, wound assessment |
-| Handling Protection | Standard aseptic biologic preparation required; cytotoxic drug handling regulations (closed-system transfer, PPE) are not mandated for monoclonal antibodies per most institutional policies, though local pharmacy SOPs should be consulted |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لأورام لسان المزمار.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
-> Note: Bevacizumab carries well-characterized class-effect risks including hypertension, proteinuria, gastrointestinal perforation, impaired wound healing, arterial and venous thromboembolic events, and hemorrhage. Saudi Arabia SFDA-specific warning data was not available in this Evidence Pack; consult the approved SmPC or international labeling (EMA/FDA) for full prescribing guidance.
+لا توجد حالياً أدبيات ذات صلة متاحة لأورام لسان المزمار.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق بالمملكة العربية السعودية
 
-**Decision: Hold**
+بيفاسيزوماب ليس له تراخيص معتمدة في المملكة العربية السعودية (الهيئة العامة للغذاء والدواء) بناءً على البيانات الحالية. لا توجد موافقات مسجلة.
 
-**Rationale:**
-This prediction is classified as L5 — model-generated only, with zero supporting clinical trials and zero published literature specifically addressing bevacizumab in epiglottis neoplasm. The biological rationale is indirect and generic (VEGF inhibition in any tumor), and the target disease is predominantly benign (HPV-related papilloma) for which anti-angiogenic therapy has no established role.
+---
 
-**To proceed, the following is needed:**
-- Disease classification clarification: determine whether the target is benign epiglottis papilloma vs. epiglottic squamous cell carcinoma, as the clinical justification and risk-benefit calculus differ substantially
-- Biomarker evidence: VEGF/VEGFR expression data in epiglottis neoplasm tissue samples
-- MOA gap remediation: retrieve full bevacizumab pharmacology from DrugBank API (DG002) and Saudi Arabia package insert warnings/contraindications (DG001) before any safety evaluation can proceed
-- Exploratory literature search: expand search to head and neck carcinoma subtypes with epiglottis/supraglottic involvement using bevacizumab
-- Regulatory pathway: Saudi Arabia SFDA registration of bevacizumab would need to precede any indication expansion work (currently 0 approvals)
+## السمية الخلوية
+
+بيفاسيزوماب هو عامل بيولوجي مضاد للأورام (جسم مضاد أحادي النسيلة المضاد لـ VEGF) يُستخدم لعلاج السرطان؛ يسري الملف الشخصي للسمية الخلوية التالي.
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | العلاج الموجه — جسم مضاد أحادي النسيلة مضاد لتكوين الأوعية الدموية (وليس سمياً تقليدياً) |
+| خطر قمع النخاع | منخفض (بيفاسيزوماب كعامل منفرد عادة لا يسبب قمع نخاع ذا أهمية سريرية؛ تزداد المخاطر عند دمجه مع العلاج الكيميائي السام) |
+| تصنيف القابلية للغثيان | منخفض (الأجسام المضادة أحادية النسيلة تحمل احتمالية غثيانية قليلة جداً وفقاً للتصنيف المعياري) |
+| عناصر المراقبة | ضغط الدم (ارتفاع ضغط الدم هو تأثير فئة)، تحليل البول للزلال (عصا الكشف والبول لمدة 24 ساعة إذا كان ≥2+)، تعداد الدم الكامل إذا استُخدم في أنظمة دمج، وظائف الكلى، تقييم الجرح |
+| حماية المعالجة | تحضير بيولوجي معقم معياري مطلوب؛ لا تُفرض لوائح معالجة الأدوية السامة (النقل بنظام مغلق، معدات الحماية الشخصية) على الأجسام المضادة أحادية النسيلة وفقاً لمعظم سياسات المؤسسات، مع ضرورة استشارة إجراءات التشغيل القياسية للصيدلية المحلية |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+> ملاحظة: بيفاسيزوماب يحمل مخاطر تأثيرات فئة محددة جيداً تشمل ارتفاع ضغط الدم والزلال في البول وثقب الجهاز الهضمي والالتئام ضعيف للجروح والأحداث الجلطية الشرايينية والوريدية والنزيف. بيانات التحذير الخاصة بالهيئة العامة للغذاء والدواء في المملكة العربية السعودية لم تكن متاحة في هذه المجموعة من الأدلة؛ استشير ملخص خصائص المنتج المعتمد أو الملصقات الدولية (EMA/FDA) للحصول على إرشادات وصفية كاملة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**التبرير:**
+يتم تصنيف هذا التنبؤ على أنه L5 — ينتج من النموذج فقط، مع عدم وجود تجارب سريرية داعمة وعدم وجود أدبيات منشورة تتناول على وجه التحديد بيفاسيزوماب في أورام لسان المزمار. التبرير البيولوجي غير مباشر وعام (منع VEGF في أي ورم)، والمرض المستهدف حميد في الغالب (حليمة مرتبطة بـ HPV) لا يوجد دور محدد للعلاج المضاد لتكوين الأوعية الدموية فيها.
+
+**للمتابعة، يلزم ما يلي:**
+- توضيح تصنيف المرض: تحديد ما إذا كان المرض المستهدف حليمة لسان المزمار الحميدة أم سرطان الخلايا الحرشفية في لسان المزمار، حيث يختلف التبرير السريري وحساب نسبة الفوائد إلى المخاطر بشكل كبير
+- أدلة المؤشرات البيولوجية: بيانات تعبير VEGF/VEGFR في عينات أنسجة أورام لسان المزمار
+- إصلاح فجوة آلية العمل: استرجاع علم الأدوية الكامل لبيفاسيزوماب من واجهة برمجة تطبيقات DrugBank (DG002) والتحذيرات/موانع الاستعمال في نشرة الدواء بالمملكة العربية السعودية (DG001) قبل الشروع في أي تقييم سلامة
+- البحث الاستكشافي في الأدبيات: توسيع البحث ليشمل أنواع سرطانات الرأس والعنق مع تورط لسان المزمار/فوق الصوتي باستخدام بيفاسيزوماب
+- المسار التنظيمي: يجب أن يسبق تسجيل بيفاسيزوماب في الهيئة العامة للغذاء والدواء بالمملكة العربية السعودية أي عمل توسيع استطباب (حالياً 0 موافقات)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,87 +29,88 @@ indication_count: 6
 
 </div>
 
-# Belimumab: From Systemic Lupus Erythematosus to Primary Release Disorder of Platelets
+# بيليموماب: من الذئبة الحمراء الجهازية إلى اضطراب الإفراج الأولي للصفائح الدموية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Belimumab is a human monoclonal antibody that inhibits BLyS (B-lymphocyte stimulator)/BAFF, originally approved for Systemic Lupus Erythematosus (SLE) and lupus nephritis. The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, with **1 indirectly related clinical trial** and **0 publications** currently supporting this direction. Evidence remains at the mechanistic hypothesis stage (L4), and no direct clinical data exist for this indication.
+بيليموماب هو جسم مضاد أحادي النسيلة من البشر يثبط BLyS (محفز الخلايا B اللمفاوية)/BAFF، وقد تمت الموافقة عليه في الأصل لعلاج الذئبة الحمراء الجهازية (SLE) والتهاب الكلى الذئبي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الإفراج الأولي للصفائح الدموية**، مع **تجربة سريرية واحدة ذات صلة غير مباشرة** و**0 منشورات** تدعم هذا الاتجاه حالياً. تبقى الأدلة في مرحلة الفرضية الآلية (L4)، ولا توجد بيانات سريرية مباشرة لهذا الاستطباب.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Systemic Lupus Erythematosus (SLE), Lupus Nephritis |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 (Mechanistic hypothesis; no direct clinical data) |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الذئبة الحمراء الجهازية (SLE)، التهاب الكلى الذئبي |
+| الاستطباب الجديد المتنبأ به | اضطراب الإفراج الأولي للصفائح الدموية |
+| درجة التنبؤ TxGNN | 99.96% |
+| مستوى الأدلة | L4 (فرضية آلية؛ بدون بيانات سريرية مباشرة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا تكون هذه التنبؤات معقولة؟
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known information, belimumab is a human IgG1λ monoclonal antibody that selectively blocks soluble BLyS (B-lymphocyte stimulator, also known as BAFF — B-cell activating factor of the TNF family). By neutralizing BLyS, belimumab reduces the survival and differentiation of autoreactive B cells, thereby lowering pathological autoantibody titers. Its established efficacy in SLE — a prototypical B-cell-driven autoimmune disease — provides the conceptual bridge to other autoimmune conditions involving aberrant B-cell activity.
+لا تتوفر حالياً بيانات آلية الفعل المفصلة في هذه الحزمة الإثباتية. بناءً على المعلومات المعروفة، بيليموماب هو جسم مضاد أحادي النسيلة من البشر IgG1λ يثبط بشكل انتقائي BLyS القابل للذوبان (محفز الخلايا B اللمفاوية، المعروف أيضاً باسم BAFF — عامل تنشيط الخلايا B من عائلة TNF). من خلال تحييد BLyS، يقلل بيليموماب من بقاء وتمايز الخلايا B ذاتية التفاعل، وبالتالي يخفض معايير الأجسام المضادة الذاتية المرضية. يوفر فعاليته المثبتة في الذئبة الحمراء الجهازية - وهي مرض مناعي ذاتي نموذجي يقوده الخلايا B - الجسر المفاهيمي للحالات المناعية الذاتية الأخرى التي تتضمن نشاطاً شاذاً للخلايا B.
 
-The mechanistic rationale for primary release disorder of platelets rests on the hypothesis that a subset of cases may involve an immune-mediated component. Analogous to immune thrombocytopenia (ITP), where anti-platelet IgG antibodies targeting GPIb or GPIIb-IIIa impair platelet function, BLyS/BAFF inhibition could theoretically suppress the autoreactive B cells responsible for generating anti-platelet autoantibodies — potentially restoring normal platelet granule release. The only retrieved trial (NCT01610492) demonstrates belimumab's capacity to suppress B-cell-driven autoantibody production in a different autoimmune context (idiopathic membranous glomerulonephropathy), lending indirect mechanistic plausibility.
+يستند الأساس الآلي لاضطراب الإفراج الأولي للصفائح الدموية على الفرضية بأن مجموعة فرعية من الحالات قد تتضمن مكوناً وسيطاً مناعياً. وبشكل مماثل لقلة الصفيحات المناعية (ITP)، حيث تضعف الأجسام المضادة IgG المضادة للصفائح التي تستهدف GPIb أو GPIIb-IIIa من وظيفة الصفائح، قد يثبط تثبيط BLyS/BAFF بشكل نظري الخلايا B ذاتية التفاعل المسؤولة عن توليد الأجسام المضادة الذاتية المضادة للصفائح — مما قد يعيد استعادة الإفراج الطبيعي عن حبيبات الصفائح. تثبت التجربة المسترجعة الوحيدة (NCT01610492) قدرة بيليموماب على قمع إنتاج الأجسام المضادة الذاتية التي تقودها الخلايا B في سياق مناعي ذاتي مختلف (التهاب كبيبات الكلى الغشائي مجهول السبب)، مما يعطي معقولية آلية غير مباشرة.
 
-However, this remains a conditional extrapolation. Primary release disorder of platelets is a heterogeneous category; the majority of cases are hereditary (dense granule deficiency, Hermansky-Pudlak syndrome, Chediak-Higashi syndrome) and driven by structural or genetic defects rather than autoimmune mechanisms. Biological plausibility therefore depends entirely on confirming whether an immune-mediated subtype — with demonstrable anti-platelet autoantibodies — exists in a given patient population. Without this stratification, BLyS/BAFF inhibition lacks a mechanistic anchor.
+ومع ذلك، يبقى هذا استقراءً شرطياً. اضطراب الإفراج الأولي للصفائح الدموية هو فئة غير متجانسة؛ فمعظم الحالات وراثية (نقص الحبيبات الكثيفة، متلازمة Hermansky-Pudlak، متلازمة Chediak-Higashi) وتحدث بسبب عيوب هيكلية أو وراثية بدلاً من الآليات المناعية الذاتية. لذلك تعتمد المعقولية البيولوجية بالكامل على تأكيد ما إذا كان نوع فرعي وسيط مناعياً — مع أجسام مضادة ذاتية مضادة للصفائح قابلة للإثبات — موجود في مجموعة سكانية معينة. بدون هذا التقسيم الطبقي، يفتقر تثبيط BLyS/BAFF إلى مرساة آلية.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Completed | 14 | Open-label study of belimumab 10 mg/kg IV in anti-PLA2R autoantibody-positive idiopathic membranous glomerulonephropathy. Evaluated efficacy, safety and mechanism of B-cell suppression. **Relevance grade C** — targets a different autoimmune renal disease; provides indirect evidence of belimumab's capacity to reduce pathological autoantibody titers, but contains no platelet-specific endpoints or data. |
+| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | المرحلة 2 | مكتملة | 14 | دراسة مفتوحة العلامات لبيليموماب 10 mg/kg IV في التهاب كبيبات الكلى الغشائي مجهول السبب الإيجابي للأجسام المضادة الذاتية anti-PLA2R. قيّمت الفعالية والسلامة وآلية قمع الخلايا B. **درجة الصلة C** — تستهدف مرضاً كلوياً مناعياً ذاتياً مختلفاً؛ توفر أدلة غير مباشرة على قدرة بيليموماب على تقليل معايير الأجسام المضادة الذاتية المرضية، لكنها لا تحتوي على نقاط نهاية أو بيانات خاصة بالصفائح. |
 
-> No clinical trials directly investigating belimumab in primary release disorder of platelets were identified.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+> لم يتم تحديد أي تجارب سريرية تحقق بشكل مباشر في بيليموماب في اضطراب الإفراج الأولي للصفائح الدموية.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Belimumab is currently **not registered** with the Saudi Food and Drug Authority (SFDA). No approved products or marketing authorizations are on record.
-
----
-
-## Safety Considerations
-
-Detailed warning and contraindication data from local regulatory sources are not available in this evidence pack. Please refer to the manufacturer's package insert (Benlysta®) for complete safety information. Key areas to review include:
-
-- **Serious and opportunistic infections** — risk of fatal infections; hold during active severe infections
-- **Hypersensitivity and infusion-related reactions** — acute and delayed reactions reported
-- **Progressive multifocal leukoencephalopathy (PML)** — rare but serious neurological risk
-- **Neuropsychiatric events** — depression and suicidality signals in post-marketing data
-- **Pregnancy** — FDA Category C; animal studies show neonatal B-cell depletion and immunosuppression; use in pregnant women (especially relevant to the FNAIT indication ranked #4) is a hard contraindication
-- **Malignancy risk** — theoretical concern with prolonged B-cell suppression
+لا توجد حالياً أدبيات ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+بيليموماب **غير مسجل حالياً** لدى الهيئة العامة للغذاء والدواء السعودية (SFDA). لا توجد منتجات معتمدة أو تصاريح تسويقية في السجلات.
 
-**Rationale:**
-The sole identified trial (NCT01610492) targets idiopathic membranous glomerulonephropathy — a mechanistically adjacent but clinically distinct autoimmune disease — and provides no direct evidence for primary release disorder of platelets. The high TxGNN score (99.96%) likely reflects topological proximity of platelet-disorder nodes in the knowledge graph rather than indication-specific mechanistic signal. With zero direct clinical data and unconfirmed immune-mediated pathology in the target disease, advancement would be premature.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Subtype confirmation**: Determine whether an autoimmune/anti-platelet-antibody-mediated subtype of primary release disorder of platelets exists and estimate its prevalence; this is the single gating question for biological plausibility
-- **MOA data**: Retrieve complete belimumab mechanism of action from DrugBank to support formal mechanistic linkage analysis
-- **Regulatory safety data**: Obtain full SFDA or TFDA package insert to complete S1 safety screening (currently blocking per DG001)
-- **Comparator landscape**: Assess whether rituximab or other B-cell-depleting agents have been studied in this indication, to inform positioning and avoid duplicating failed attempts
-- **Biomarker strategy**: If the immune-mediated subtype is confirmed, define anti-platelet antibody titer (anti-GPIb/GPIIb-IIIa IgG) as a patient selection biomarker before designing any exploratory study
+لا تتوفر بيانات التحذيرات والموانع المفصلة من المصادر التنظيمية المحلية في هذه الحزمة الإثباتية. يرجى الرجوع إلى نشرة البيانات من الشركة المصنعة (Benlysta®) للحصول على معلومات السلامة الكاملة. تشمل المجالات الرئيسية للمراجعة ما يلي:
+
+- **الأخطار والعدوى الانتهازية الخطيرة** — خطر العدوى المميتة؛ توقف أثناء العدوى الشديدة النشطة
+- **الحساسية المفرطة والتفاعلات المرتبطة بالتسريب** — تم الإبلاغ عن تفاعلات حادة ومتأخرة
+- **اعتلال الدماغ واللمفاويات البؤري المتعدد المترقي (PML)** — خطر عصبي نادر لكن خطير
+- **الأحداث النفسية العصبية** — إشارات الاكتئاب والانتحار في بيانات ما بعد التسويق
+- **الحمل** — فئة FDA C؛ أظهرت الدراسات الحيوانية استنزاف خلايا B والقمع المناعي للأجنة؛ الاستخدام في النساء الحوامل (خاصة ذات الصلة باستطباب FNAIT المصنف رقم #4) هو موانع مطلقة
+- **خطر الأورام الخبيثة** — مخاوف نظرية مع القمع المطول للخلايا B
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+التجربة المحددة الوحيدة (NCT01610492) تستهدف التهاب كبيبات الكلى الغشائي مجهول السبب — وهو مرض مناعي ذاتي مجاور آلياً لكن مختلف سريرياً — ولا توفر أي أدلة مباشرة لاضطراب الإفراج الأولي للصفائح الدموية. من المحتمل أن تعكس درجة TxGNN العالية (99.96%) القرب الطوبولوجي لعقد اضطرابات الصفائح في الرسم البياني للمعرفة بدلاً من إشارة آلية خاصة بالاستطباب. مع عدم وجود بيانات سريرية مباشرة وآلية مرضية وسيطة مناعية غير مؤكدة في المرض المستهدف، فإن التقدم سيكون مبكراً.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **تأكيد النوع الفرعي**: تحديد ما إذا كان نوع فرعي وسيط مناعياً/مضاد للأجسام المضادة للصفائح من اضطراب الإفراج الأولي للصفائح الدموية موجود وتقدير انتشاره؛ هذا هو السؤال الوحيد المتحكم في المعقولية البيولوجية
+- **بيانات آلية الفعل**: استرجاع آلية فعل بيليموماب الكاملة من DrugBank لدعم تحليل الربط الآلي الرسمي
+- **بيانات السلامة التنظيمية**: الحصول على نشرة SFDA أو TFDA الكاملة لإكمال فحص السلامة S1 (يمنع حالياً وفقاً لـ DG001)
+- **منظر المقارنات**: تقييم ما إذا تمت دراسة rituximab أو وكلاء استنزاف خلايا B الآخرين في هذا الاستطباب، لإرشاد التموضع وتجنب تكرار المحاولات الفاشلة
+- **استراتيجية المؤشر الحيوي**: إذا تم تأكيد النوع الفرعي الوسيط المناعي، حدد معيار الأجسام المضادة المضادة للصفائح (anti-GPIb/GPIIb-IIIa IgG) كمؤشر حيوي لاختيار المرضى قبل تصميم أي دراسة استكشافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

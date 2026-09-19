@@ -29,143 +29,144 @@ indication_count: 4
 
 </div>
 
-# Methylphenidate: Evaluation of Four TxGNN-Predicted Indications
+# الميثيلفينيديت: تقييم أربعة مؤشرات معدلة معدة من TxGNN
 
-*Note: This evidence pack (`TW-DB00422-multi`) contains four ranked predicted indications with very different evidence profiles rather than a single new-indication candidate. The report below covers all four, using the standard template sections adapted for a multi-candidate pack.*
+*ملاحظة: تتضمن هذه مجموعة الأدلة (`TW-DB00422-multi`) أربعة مؤشرات معدلة مرتبة بملفات أدلة مختلفة جداً بدلاً من مرشح واحد للمؤشر الجديد. يغطي التقرير أدناه جميع المؤشرات الأربعة، باستخدام أقسام القالب القياسي المكيفة لمجموعة متعددة المرشحين.*
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Methylphenidate is a CNS stimulant (DAT/NET reuptake inhibitor); the evidence pack does not record its original approved indication (data gap), though the underlying trial/literature evidence strongly indicates it is ADHD. TxGNN flags four candidate indications ranging from **near-zero-evidence, mechanistically unsupported hits** (faciodigitogenital syndrome, chondromyxoid fibroma) to a **well-evidenced but likely mislabeled "new" indication** (specific developmental disorder, i.e. ADHD — 16 trials, 18 publications) and one **exploratory augmentation hypothesis** (dysthymic disorder, 6 publications, no trials).
+الميثيلفينيديت محفز للجهاز العصبي المركزي (مثبط إعادة امتصاص ناقل الدوبامين/الناقل النورإبينفرين)؛ لا تسجل مجموعة الأدلة مؤشره الأصلي المعتمد (فجوة في البيانات)، رغم أن أدلة التجارب السريرية/الأدبية الأساسية تشير بقوة إلى أنها اضطراب فرط الحركة ونقص الانتباه. يحدد TxGNN أربعة مؤشرات مرشحة تتراوح بين **نتائج ذات أدلة قريبة من الصفر وغير مدعومة ميكانيكياً** (متلازمة الوجه والأصابع والأعضاء التناسلية، الورم الغضروفي المخاطي) إلى **مؤشر معتمد جيداً لكن على الأرجح خاطئ العنوان "جديد"** (اضطراب نمائي محدد، أي اضطراب فرط الحركة ونقص الانتباه — 16 تجربة سريرية، 18 منشورة) وواحد **فرضية تعزيز استكشافية** (اضطراب الاكتئاب المستمر، 6 منشورات، لا توجد تجارب سريرية).
 
-## Quick Overview
+## نظرة سريعة
 
-**Drug-level**
+**على مستوى الدواء**
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not recorded in source data (data gap); trial/literature content for the top-evidence candidate is entirely ADHD-related |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| المؤشر الأصلي | غير مسجل في البيانات المصدرية (فجوة في البيانات)؛ محتوى التجارب السريرية والأدبية للمرشح الأفضل أدلة هو بالكامل متعلق باضطراب فرط الحركة ونقص الانتباه |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
 
-**Predicted indications (ranked)**
+**المؤشرات المعدلة (مرتبة)**
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Faciodigitogenital syndrome | 99.998% | L5 | S0 | Hold |
-| 2 | Chondromyxoid fibroma | 99.991% | L5 | S0 | Hold |
-| 3 | Specific developmental disorder | 99.988% | L1 | S3 | Proceed with Guardrails |
-| 4 | Dysthymic disorder | 99.11% | L4 | S1 | Research Question |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data is not available at the drug record level (`original_moa: [Data Gap]`). However, the evidence pack's own rationale fields indicate methylphenidate inhibits the dopamine transporter (DAT) and norepinephrine transporter (NET), raising prefrontal cortical dopamine and norepinephrine levels — the standard pharmacological basis for ADHD treatment.
-
-- **Rank 1 (faciodigitogenital syndrome)** and **Rank 2 (chondromyxoid fibroma)**: both are explicitly flagged in the pack's own rationale as having **no identifiable mechanistic link** to methylphenidate's monoamine reuptake-inhibition pathway. Faciodigitogenital syndrome is a congenital AR/GRIPAP1-related disorder; chondromyxoid fibroma is a benign bone/cartilage tumor. Neither pathophysiology intersects with CNS monoamine signaling. Both scores are TxGNN graph-relation artifacts with zero supporting trials or literature.
-- **Rank 3 (specific developmental disorder)**: the DAT/NET mechanism directly matches the mechanism of action of stimulant therapy for ADHD, and the associated trial/literature evidence is entirely ADHD-focused. This strongly suggests the pack is surfacing methylphenidate's **already-established primary indication** under a broader/ambiguous disease-ontology label, rather than a genuine repurposing discovery — this should be treated as a data-completeness issue (see DG002 remediation) rather than a novel finding.
-- **Rank 4 (dysthymic disorder)**: monoamine reuptake inhibition can theoretically enhance mood and motivational drive, and psychostimulant augmentation of antidepressants has real clinical precedent. However, this mechanism is indirect/adjunctive, not a mechanism specific to dysthymia's pathophysiology.
+| الترتيب | المؤشر المعدل | درجة TxGNN | مستوى الأدلة | مرحلة القرار | التوصية |
+|------|------|------|------|------|------|
+| 1 | متلازمة الوجه والأصابع والأعضاء التناسلية | 99.998% | L5 | S0 | احجز |
+| 2 | الورم الغضروفي المخاطي | 99.991% | L5 | S0 | احجز |
+| 3 | اضطراب نمائي محدد | 99.988% | L1 | S3 | تابع مع حواجز وقائية |
+| 4 | اضطراب الاكتئاب المستمر | 99.11% | L4 | S1 | سؤال بحثي |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-### Rank 1 (Faciodigitogenital syndrome) / Rank 2 (Chondromyxoid fibroma)
-Currently no related clinical trials registered.
+البيانات التفصيلية عن آلية العمل غير متاحة على مستوى سجل الدواء (`original_moa: [Data Gap]`). ومع ذلك، تشير حقول المنطق الخاصة بمجموعة الأدلة نفسها إلى أن الميثيلفينيديت يثبط ناقل الدوبامين (DAT) وناقل النورإبينفرين (NET)، مما يزيد الدوبامين والنورإبينفرين في قشرة الفص الجبهي بالجزء الأمامي — الأساس الدوائي القياسي لعلاج اضطراب فرط الحركة ونقص الانتباه.
 
-### Rank 3 — Specific developmental disorder (ADHD-related)
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02167048](https://clinicaltrials.gov/study/NCT02167048) | Phase 1/2 | Active, not recruiting | 52 | Low-dose vs. normal-dose psychostimulants on executive function in ADHD (combined/inattentive type), ages 6–18 |
-| [NCT05974241](https://clinicaltrials.gov/study/NCT05974241) | Phase 4 | Completed | 36 | Methylphenidate vs. aripiprazole for irritability in ADHD children with emotion dysregulation |
-| [NCT00310986](https://clinicaltrials.gov/study/NCT00310986) | N/A | Unknown | 22 | Breathing meditation combined with methylphenidate for ADHD children (RCT) |
-| [NCT01470261](https://clinicaltrials.gov/study/NCT01470261) | N/A | Completed | 1398 | ADDUCE project: chronic effects of methylphenidate on growth, neurological, psychiatric and cardiovascular systems |
-| [NCT05669170](https://clinicaltrials.gov/study/NCT05669170) | Phase 2 | Not yet recruiting | 60 | Methylphenidate for apathy in Parkinson's disease veterans |
-| [NCT04647500](https://clinicaltrials.gov/study/NCT04647500) | N/A | Completed | 45 | Methylphenidate/dopaminergic modulation on memory and executive function in 22q11.2 deletion syndrome |
-| [NCT05185583](https://clinicaltrials.gov/study/NCT05185583) | Phase 2 | Completed | 18 | Double-blind RCT of methylphenidate for childhood apraxia of speech |
-| [NCT07024303](https://clinicaltrials.gov/study/NCT07024303) | Early Phase 1 | Not yet recruiting | 20 | Medication vs. behavioral treatment for challenging behavior in autism |
-| [NCT05916339](https://clinicaltrials.gov/study/NCT05916339) | Phase 4 | Recruiting | 500 | Pragmatic SMART trial comparing methylphenidate, amphetamine, and alpha-2 agonists in ADHD with autism spectrum disorder |
-| [NCT01554046](https://clinicaltrials.gov/study/NCT01554046) | N/A | Completed | 40 | Methylphenidate (Ritalin IR) in familial ADHD — symptom improvement and side effects |
-
-*6 additional lower-relevance trials exist in the source data (general population/off-topic studies) and are omitted here.*
-
-### Rank 4 (Dysthymic disorder)
-Currently no related clinical trials registered.
+- **الترتيب 1 (متلازمة الوجه والأصابع والأعضاء التناسلية)** و **الترتيب 2 (الورم الغضروفي المخاطي)**: يتم الإشارة إلى كليهما بصراحة في منطق المجموعة نفسه على أنه يحتوي على **لا يوجد ارتباط ميكانيكي محدد** لمسار تثبيط إعادة امتصاص أحادي الأمين بالميثيلفينيديت. متلازمة الوجه والأصابع والأعضاء التناسلية هي اضطراب جسمي متنحي مرتبط بـ GRIPAP1؛ الورم الغضروفي المخاطي هو ورم حميد بالعظم/الغضروف. لا يتقاطع علم أمراض أي منهما مع إشارات أحادي الأمين بالجهاز العصبي المركزي. كلا الدرجتين هما قطع أثرية لعلاقات رسم بياني TxGNN ليس لها أي تجارب أو منشورات داعمة.
+- **الترتيب 3 (اضطراب نمائي محدد)**: آلية DAT/NET تطابق مباشرة آلية عمل العلاج المنبه لاضطراب فرط الحركة ونقص الانتباه، وأدلة التجارب السريرية/الأدبية المرتبطة بها بالكامل متعلقة باضطراب فرط الحركة ونقص الانتباه. يشير هذا بقوة إلى أن المجموعة تكشف عن **مؤشر أساسي معروف بالفعل للميثيلفينيديت** تحت تسمية أوسع/غامضة لتصنيف المرض، بدلاً من اكتشاف إعادة استخدام حقيقية — يجب أن يتم التعامل مع هذا كمسألة اكتمال البيانات (انظر تصحيح DG002) بدلاً من اكتشاف جديد.
+- **الترتيب 4 (اضطراب الاكتئاب المستمر)**: يمكن لتثبيط إعادة امتصاص أحادي الأمين نظرياً تحسين الحالة المزاجية والدافع، وزيادة المنبه النفسي للمضادات الحديثة للاكتئاب لها سابقة سريرية حقيقية. ومع ذلك، فإن هذه الآلية غير مباشرة/إضافية، وليست آلية محددة لمعاينة الأمراض الخاصة باضطراب الاكتئاب المستمر.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-### Rank 1 (Faciodigitogenital syndrome) / Rank 2 (Chondromyxoid fibroma)
-Currently no related literature available.
+### الترتيب 1 (متلازمة الوجه والأصابع والأعضاء التناسلية) / الترتيب 2 (الورم الغضروفي المخاطي)
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-### Rank 3 — Specific developmental disorder (ADHD-related)
+### الترتيب 3 — اضطراب نمائي محدد (متعلق باضطراب فرط الحركة ونقص الانتباه)
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19627998](https://pubmed.ncbi.nlm.nih.gov/19627998/) | 2009 | Review | Neuropharmacology | Neurobiology of ADHD — genetic basis, frontal-striatal circuit differences |
-| [40527386](https://pubmed.ncbi.nlm.nih.gov/40527386/) | 2025 | Cohort | Prog Neuropsychopharmacol Biol Psychiatry | Longitudinal MRI: age-dependent effects of cumulative methylphenidate exposure on brain structure and symptoms |
-| [41128391](https://pubmed.ncbi.nlm.nih.gov/41128391/) | 2026 | Cohort | Psychiatry Clin Neurosci | Dual-tracer PET study of extended-release methylphenidate effects on DAT/NET binding in adult ADHD |
-| [22923783](https://pubmed.ncbi.nlm.nih.gov/22923783/) | 2015 | Review | J Atten Disord | Evolution of methylphenidate mechanism-of-action research, adult vs. juvenile brain |
-| [20483462](https://pubmed.ncbi.nlm.nih.gov/20483462/) | 2010 | Cohort | Psychiatry Research | EEG coherence differences between good and poor methylphenidate responders in ADHD children |
-| [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | Cohort | Clin EEG Neurosci | Quantitative EEG in childhood ADHD and learning disabilities |
-| [18309764](https://pubmed.ncbi.nlm.nih.gov/18309764/) | 2007 | Review | Nutrition and Health | ADHD drug vs. nutrition treatment overview, including methylphenidate side effects |
-| [11990715](https://pubmed.ncbi.nlm.nih.gov/11990715/) | 2002 | Animal model | Behavioural Pharmacology | SHRSP rat model of developmental disorder with/without methylphenidate |
-| [11563573](https://pubmed.ncbi.nlm.nih.gov/11563573/) | 2001 | Review | American Family Physician | Evaluation and treatment of ADHD |
-| [20556767](https://pubmed.ncbi.nlm.nih.gov/20556767/) | 2010 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Meditation therapies for ADHD |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
+|------|------|------|------|------|
+| [NCT02167048](https://clinicaltrials.gov/study/NCT02167048) | المرحلة 1/2 | نشطة، غير محتملة الدخول | 52 | منخفضة الجرعة مقابل جرعات عادية من المنبهات النفسية على الوظيفة التنفيذية في اضطراب فرط الحركة ونقص الانتباه (النوع المختلط/غير الانتباهي)، الأعمار 6-18 |
+| [NCT05974241](https://clinicaltrials.gov/study/NCT05974241) | المرحلة 4 | مكتملة | 36 | الميثيلفينيديت مقابل الأريبيبرازول للتهيج لدى أطفال اضطراب فرط الحركة ونقص الانتباه مع اختلال تنظيم الانفعالات |
+| [NCT00310986](https://clinicaltrials.gov/study/NCT00310986) | غير محدد | غير معروف | 22 | التأمل بالتنفس مع الميثيلفينيديت لأطفال اضطراب فرط الحركة ونقص الانتباه (تجربة معشاة) |
+| [NCT01470261](https://clinicaltrials.gov/study/NCT01470261) | غير محدد | مكتملة | 1398 | مشروع ADDUCE: التأثيرات المزمنة للميثيلفينيديت على النمو والأنظمة العصبية والنفسية والقلبية الوعائية |
+| [NCT05669170](https://clinicaltrials.gov/study/NCT05669170) | المرحلة 2 | لم يتم بدء التجنيد بعد | 60 | الميثيلفينيديت لكسل الحركة لدى حاملي أمراض الشلل الرعاشي |
+| [NCT04647500](https://clinicaltrials.gov/study/NCT04647500) | غير محدد | مكتملة | 45 | الميثيلفينيديت/تعديل ناقل الدوبامين على الذاكرة والوظيفة التنفيذية في متلازمة حذف 22q11.2 |
+| [NCT05185583](https://clinicaltrials.gov/study/NCT05185583) | المرحلة 2 | مكتملة | 18 | تجربة معشاة وهمياً للميثيلفينيديت لحالات عسر الكلام الطفولي الكلاسيكي |
+| [NCT07024303](https://clinicaltrials.gov/study/NCT07024303) | المرحلة الأولى المبكرة | لم يتم بدء التجنيد بعد | 20 | الدواء مقابل العلاج السلوكي للسلوك التحدي لدى الأطفال المصابين بالتوحد |
+| [NCT05916339](https://clinicaltrials.gov/study/NCT05916339) | المرحلة 4 | تجنيد جاري | 500 | تجربة SMART عملية تقارن الميثيلفينيديت والأمفيتامين وناهضات ألفا-2 في اضطراب فرط الحركة ونقص الانتباه مع اضطراب طيف التوحد |
+| [NCT01554046](https://clinicaltrials.gov/study/NCT01554046) | غير محدد | مكتملة | 40 | الميثيلفينيديت (Ritalin IR) في اضطراب فرط الحركة ونقص الانتباه العائلي — تحسن الأعراض والآثار الجانبية |
 
-*8 additional lower-priority publications (genetics, drug-interaction reviews, qualitative studies) exist in the source data and are omitted here.*
+*توجد 6 تجارب إضافية ذات صلة أقل في البيانات المصدرية (الدراسات على السكان العام/غير ذات الصلة) وتم حذفها هنا.*
 
-### Rank 4 — Dysthymic disorder
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24045603](https://pubmed.ncbi.nlm.nih.gov/24045603/) | 2013 | Cohort | Clinical Neuropharmacology | Effect of methylphenidate on mood in ADHD with comorbid subsyndromal depression |
-| [9614599](https://pubmed.ncbi.nlm.nih.gov/9614599/) | 1998 | Case series | Depression and Anxiety | Psychostimulant augmentation of second-generation antidepressants |
-| [14609500](https://pubmed.ncbi.nlm.nih.gov/14609500/) | 2003 | Observational | Current Psychiatry Reports | Effects of amphetamine/methylphenidate on interpersonal perception of mood |
-| [1351794](https://pubmed.ncbi.nlm.nih.gov/1351794/) | 1992 | Review | Clinical Therapeutics | Adult ADHD overview |
-| [2225800](https://pubmed.ncbi.nlm.nih.gov/2225800/) | 1990 | Cohort | Comprehensive Psychiatry | Clinical/demographic profile of adults with residual-state ADHD |
-| [16802263](https://pubmed.ncbi.nlm.nih.gov/16802263/) | 2006 | Review | Psychiatrische Praxis | Diagnosis/treatment of adult ADHD with comorbid drug addiction |
+### الترتيب 4 (اضطراب الاكتئاب المستمر)
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## الأدلة الأدبية
 
-Methylphenidate is currently **not marketed** in Saudi Arabia under this evidence pack (0 authorizations, no license records available).
+### الترتيب 1 (متلازمة الوجه والأصابع والأعضاء التناسلية) / الترتيب 2 (الورم الغضروفي المخاطي)
+لا توجد أدلة أدبية ذات صلة متاحة حالياً.
+
+### الترتيب 3 — اضطراب نمائي محدد (متعلق باضطراب فرط الحركة ونقص الانتباه)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|------|
+| [19627998](https://pubmed.ncbi.nlm.nih.gov/19627998/) | 2009 | مراجعة | Neuropharmacology | علم أعصاب اضطراب فرط الحركة ونقص الانتباه — الأساس الجيني، الاختلافات في دائرة الفص الجبهي-المخطط |
+| [40527386](https://pubmed.ncbi.nlm.nih.gov/40527386/) | 2025 | دراسة أتراب | Prog Neuropsychopharmacol Biol Psychiatry | دراسة طولية بالرنين المغناطيسي: التأثيرات المرتبطة بالعمر للتعرض المتراكم للميثيلفينيديت على بنية الدماغ والأعراض |
+| [41128391](https://pubmed.ncbi.nlm.nih.gov/41128391/) | 2026 | دراسة أتراب | Psychiatry Clin Neurosci | دراسة PET بناقلتي للميثيلفينيديت ممتد الإطلاق التأثيرات على ارتباط DAT/NET لدى البالغين بـ اضطراب فرط الحركة ونقص الانتباه |
+| [22923783](https://pubmed.ncbi.nlm.nih.gov/22923783/) | 2015 | مراجعة | J Atten Disord | تطور أبحاث آلية عمل الميثيلفينيديت، الدماغ البالغ مقابل الدماغ الصغير |
+| [20483462](https://pubmed.ncbi.nlm.nih.gov/20483462/) | 2010 | دراسة أتراب | Psychiatry Research | اختلافات الاتساق الكهربائي الدماغي بين المستجيبين الجيدين والسيئين للميثيلفينيديت لدى أطفال اضطراب فرط الحركة ونقص الانتباه |
+| [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | دراسة أتراب | Clin EEG Neurosci | التخطيط الكهربائي الدماغي الكمي لدى أطفال اضطراب فرط الحركة ونقص الانتباه واضطرابات التعلم |
+| [18309764](https://pubmed.ncbi.nlm.nih.gov/18309764/) | 2007 | مراجعة | Nutrition and Health | مقارنة دواء اضطراب فرط الحركة ونقص الانتباه بمعالجة التغذية، بما في ذلك الآثار الجانبية للميثيلفينيديت |
+| [11990715](https://pubmed.ncbi.nlm.nih.gov/11990715/) | 2002 | نموذج حيواني | Behavioural Pharmacology | نموذج فأر SHRSP للاضطراب النمائي مع/بدون الميثيلفينيديت |
+| [11563573](https://pubmed.ncbi.nlm.nih.gov/11563573/) | 2001 | مراجعة | American Family Physician | تقييم ومعالجة اضطراب فرط الحركة ونقص الانتباه |
+| [20556767](https://pubmed.ncbi.nlm.nih.gov/20556767/) | 2010 | مراجعة منهجية (Cochrane) | Cochrane Database Syst Rev | العلاجات التأملية لاضطراب فرط الحركة ونقص الانتباه |
+
+*توجد 8 منشورات إضافية ذات أولوية أقل (الوراثة، المراجعات التفاعلية للدواء، الدراسات النوعية) في البيانات المصدرية وتم حذفها هنا.*
+
+### الترتيب 4 — اضطراب الاكتئاب المستمر
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|------|
+| [24045603](https://pubmed.ncbi.nlm.nih.gov/24045603/) | 2013 | دراسة أتراب | Clinical Neuropharmacology | تأثير الميثيلفينيديت على الحالة المزاجية لدى مرضى اضطراب فرط الحركة ونقص الانتباه مع الاكتئاب دون العتبة المصاحب |
+| [9614599](https://pubmed.ncbi.nlm.nih.gov/9614599/) | 1998 | سلسلة حالات | Depression and Anxiety | زيادة المنبه النفسي للمضادات الحديثة للاكتئاب من الجيل الثاني |
+| [14609500](https://pubmed.ncbi.nlm.nih.gov/14609500/) | 2003 | ملاحظة | Current Psychiatry Reports | تأثير الأمفيتامين/الميثيلفينيديت على الإدراك الشخصي للحالة المزاجية |
+| [1351794](https://pubmed.ncbi.nlm.nih.gov/1351794/) | 1992 | مراجعة | Clinical Therapeutics | نظرة عامة على اضطراب فرط الحركة ونقص الانتباه لدى البالغين |
+| [2225800](https://pubmed.ncbi.nlm.nih.gov/2225800/) | 1990 | دراسة أتراب | Comprehensive Psychiatry | الملف السريري/الديموغرافي للبالغين مع اضطراب فرط الحركة ونقص الانتباه بحالة البقايا |
+| [16802263](https://pubmed.ncbi.nlm.nih.gov/16802263/) | 2006 | مراجعة | Psychiatrische Praxis | تشخيص/معالجة اضطراب فرط الحركة ونقص الانتباه لدى البالغين مع إدمان الأدوية المصاحب |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — DG001 flags this as a **blocking** gap for the safety pre-assessment stage.)
+الميثيلفينيديت غير مسوق حالياً في المملكة العربية السعودية وفقاً لهذه مجموعة الأدلة (0 تفويضات، لا توجد سجلات ترخيص متاحة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Rank 1 (Faciodigitogenital syndrome) — Decision: Hold**
-**Rationale:** No mechanistic plausibility and zero clinical/literature evidence; the TxGNN score reflects a graph-relation artifact, not a biologically grounded signal.
-**To proceed:** Independent mechanistic or preclinical rationale would be required before any further investment; not recommended for active pursuit.
+يُرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية غير متاحة حالياً في هذه مجموعة الأدلة — يتم الإشارة إلى DG001 باعتباره **يحجب** الفجوة للمرحلة قبل تقييم السلامة.)
 
-**Rank 2 (Chondromyxoid fibroma) — Decision: Hold**
-**Rationale:** Same as above — no mechanistic link, no supporting evidence.
-**To proceed:** Not recommended for active pursuit absent new evidence.
+---
 
-**Rank 3 (Specific developmental disorder) — Decision: Proceed with Guardrails**
-**Rationale:** Strong trial (16) and literature (18) base with direct mechanistic support (DAT/NET inhibition), evidence level L1. However, the content of this evidence is essentially ADHD — methylphenidate's known primary indication — while the source record shows `original_indications` as empty and `original_moa` as a data gap.
-**To proceed:**
-- Verify with DrugBank/TFDA whether ADHD is already methylphenidate's approved indication before treating this as a "new" repurposing candidate (remediation for DG002)
-- If confirmed as the existing indication, reclassify this pack entry rather than advancing it through the repurposing pipeline
-- If genuinely unlisted for the target market, proceed with standard regulatory-filing evidence review
+## الخلاصة والخطوات التالية
 
-**Rank 4 (Dysthymic disorder) — Decision: Research Question**
-**Rationale:** Plausible but indirect mechanistic hypothesis (stimulant augmentation of mood), supported only by low-tier literature (case series, observational, reviews) with no clinical trials.
-**To proceed:**
-- Targeted literature review or preclinical work on stimulant augmentation in dysthymia specifically
-- Consider as a hypothesis-generating signal only, not for near-term clinical development
+**الترتيب 1 (متلازمة الوجه والأصابع والأعضاء التناسلية) — القرار: احجز**
+**المنطق:** لا توجد معقولية ميكانيكية وأدلة سريرية/أدبية صفرية؛ تعكس درجة TxGNN قطعة أثرية لعلاقات الرسم البياني، وليس إشارة بيولوجية مؤسسة.
+**للمتابعة:** سيكون هناك حاجة إلى منطق ميكانيكي مستقل أو سبب اختبار أولي قبل أي استثمار إضافي؛ لا يُنصح به للمتابعة النشطة.
 
-**Cross-cutting gap:** TFDA package insert warnings/contraindications (DG001, blocking) and detailed MOA (DG002, high) must be resolved before any candidate in this pack can advance to a formal safety pre-assessment (S1).
+**الترتيب 2 (الورم الغضروفي المخاطي) — القرار: احجز**
+**المنطق:** نفس ما سبق — لا توجد رابطة ميكانيكية، لا توجد أدلة داعمة.
+**للمتابعة:** لا يُنصح به للمتابعة النشطة في غياب أدلة جديدة.
+
+**الترتيب 3 (اضطراب نمائي محدد) — القرار: تابع مع حواجز وقائية**
+**المنطق:** قاعدة تجارب (16) وأدبية (18) قوية مع دعم ميكانيكي مباشر (تثبيط DAT/NET)، مستوى أدلة L1. ومع ذلك، فإن محتوى هذه الأدلة هو بشكل أساسي اضطراب فرط الحركة ونقص الانتباه — المؤشر الأساسي المعروف للميثيلفينيديت — بينما يظهر سجل المصدر `original_indications` كفارغ و `original_moa` كفجوة في البيانات.
+**للمتابعة:**
+- تحقق مع DrugBank/TFDA ما إذا كان اضطراب فرط الحركة ونقص الانتباه مؤشراً معتمداً بالفعل للميثيلفينيديت قبل معاملة مدخل المجموعة هذا كمرشح "جديد" لإعادة الاستخدام (تصحيح DG002)
+- إذا تم تأكيده كمؤشر موجود، أعد تصنيف مدخل المجموعة هذا بدلاً من تقديمه عبر خط أنابيب إعادة الاستخدام
+- إذا كان حقاً غير مدرج في السوق المستهدفة، تابع مع مراجعة الأدلة القياسية لتقديم الملفات التنظيمية
+
+**الترتيب 4 (اضطراب الاكتئاب المستمر) — القرار: سؤال بحثي**
+**المنطق:** فرضية ميكانيكية معقولة لكن غير مباشرة (زيادة المنبه النفسي للحالة المزاجية)، مدعومة فقط بأدلة من الدرجة المنخفضة (سلسلة حالات، ملاحظة، مراجعات) ببدون تجارب سريرية.
+**للمتابعة:**
+- مراجعة أدبية موجهة أو عمل سبق الاختبار على زيادة المنبه النفسي في اضطراب الاكتئاب المستمر على وجه التحديد
+- يُنظر إليه كإشارة توليد فرضيات فقط، وليس للتطوير السريري قريب الأجل
+
+**الفجوة المتقاطعة:** تحذيرات ورقة معلومات TFDA/الموانع (DG001، يحجب) والمعاينة التفصيلية (DG002، عالية) يجب حلها قبل أن يتمكن أي مرشح في هذه المجموعة من التقدم إلى مرحلة ما قبل تقييم السلامة الرسمية (S1).
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

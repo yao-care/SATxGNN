@@ -29,56 +29,57 @@ indication_count: 5
 
 </div>
 
-# Ferrous Gluconate: From Iron-Deficiency Anemia to Plummer-Vinson Syndrome
+# جلوكونات الحديدوز: من فقر الدم بسبب نقص الحديد إلى متلازمة بلمر-فينسون
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ferrous gluconate is an oral iron salt used to treat and prevent iron-deficiency anemia. The TxGNN model predicts it may also be effective for **Plummer-Vinson syndrome**, a condition classically caused by chronic iron deficiency, but no clinical trials or published literature specific to this indication were found in the current evidence pack.
+جلوكونات الحديدوز هو ملح حديد عن طريق الفم يُستخدم لعلاج ومنع فقر الدم بسبب نقص الحديد. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **متلازمة بلمر-فينسون**، وهي حالة تسببها عادةً نقص الحديد المزمن، لكن لم يتم العثور على أي تجارب سريرية أو أدبيات منشورة محددة لهذا الاستطباب في مجموعة الأدلة الحالية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Iron-deficiency anemia (general pharmacological use — not recorded in the regulatory data available for this pack) |
-| Predicted New Indication | Plummer-Vinson syndrome |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | فقر الدم بسبب نقص الحديد (الاستخدام الدوائي العام - غير مسجل في البيانات التنظيمية المتاحة في هذه الحزمة) |
+| الاستطباب الجديد المتنبأ به | متلازمة بلمر-فينسون |
+| درجة التنبؤ بـ TxGNN | 99.94% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, ferrous gluconate is an iron-replacement salt used to correct iron-deficiency anemia by restoring iron stores needed for hemoglobin synthesis.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل. بناءً على المعلومات المعروفة، فإن جلوكونات الحديدوز هو ملح استبدال حديد يُستخدم لتصحيح فقر الدم بسبب نقص الحديد عن طريق استعادة مخازن الحديد اللازمة لتركيب الهيموجلوبين.
 
-Plummer-Vinson syndrome (also known as Paterson-Kelly syndrome or sideropenic dysphagia) is classically defined by the triad of iron-deficiency anemia, esophageal web, and dysphagia. Chronic iron deficiency is considered central to its pathophysiology, and iron repletion is a standard part of its clinical management, often associated with symptomatic improvement or resolution of the esophageal web. This gives the TxGNN prediction a plausible mechanistic basis even though the disease label itself is not primarily a hematologic diagnosis.
+متلازمة بلمر-فينسون (المعروفة أيضاً باسم متلازمة باترسون-كيلي أو عسر البلع الناجم عن نقص الحديد) تتميز كلاسيكياً بالثالوث من فقر الدم بسبب نقص الحديد والشبكة المريئية وعسر البلع. يُعتبر نقص الحديد المزمن محورياً في الفسيولوجيا المرضية للحالة، واستعادة الحديد جزء قياسي من إدارتها السريرية، وغالباً ما يرتبط بتحسن الأعراض أو حل الشبكة المريئية. هذا يعطي التنبؤ بـ TxGNN أساساً معقولاً من حيث الآلية حتى وإن لم يكن تصنيف المرض الأساسي من أمراض الدم.
 
-That said, this evidence pack found zero clinical trials and zero literature entries specifically indexed under "Plummer-Vinson syndrome" combined with ferrous gluconate. The searches may be limited by terminology — literature on this condition is more often indexed under "Paterson-Kelly syndrome" or "sideropenic dysphagia" rather than the disease ontology term used here, so the absence of hits should not be read as absence of clinical precedent.
+ومع ذلك، وجدت مجموعة الأدلة هذه صفر تجارب سريرية وصفر مدخلات أدبية مفهرسة تحديداً تحت "متلازمة بلمر-فينسون" مع جلوكونات الحديدوز. قد تكون البحوث محدودة بسبب المصطلحات - الأدبيات حول هذه الحالة يتم تفهرسها في الغالب تحت "متلازمة باترسون-كيلي" أو "عسر البلع الناجم عن نقص الحديد" بدلاً من مصطلح أنطولوجيا المرض المستخدم هنا، لذا عدم وجود نتائج لا يجب أن يُقرأ كعدم وجود سابقة سريرية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+حالياً لا توجد أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The TxGNN score is very high and the underlying mechanism (correcting the iron deficiency that underlies Plummer-Vinson syndrome) is clinically plausible, but there is currently no clinical trial or literature evidence directly supporting this specific indication, and core safety data (TFDA warnings/contraindications) remain a blocking data gap.
+**المنطق:**
+درجة TxGNN عالية جداً والآلية الأساسية (تصحيح نقص الحديد الذي يكمن وراء متلازمة بلمر-فينسون) معقولة سريرياً، لكن حالياً لا توجد أدلة تجارب سريرية أو أدبية تدعم مباشرة هذا الاستطباب المحدد، وتبقى بيانات السلامة الأساسية (تحذيرات نشرة معلومات TFDA والموانع) فجوة بيانات حاجزة.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings and contraindications (currently blocking — DG001)
-- Confirmed mechanism of action reference from DrugBank (DG002)
-- A repeat literature/trial search using synonyms ("Paterson-Kelly syndrome", "sideropenic dysphagia") in case the disease-ontology term used here under-captures relevant publications
-- Confirmation of Saudi Arabia market/licensing status, given the drug is currently recorded as not marketed with 0 authorizations
+**لكي تتقدم، يلزم الحصول على:**
+- تحذيرات نشرة معلومات TFDA والموانع (حالياً حاجز - DG001)
+- مرجع آلية عمل مؤكد من قاعدة بيانات DrugBank (DG002)
+- بحث أدبي/تجارب متكررة باستخدام المرادفات ("متلازمة باترسون-كيلي" و"عسر البلع الناجم عن نقص الحديد") في حالة أن مصطلح أنطولوجيا المرض المستخدم هنا لا يلتقط بشكل كامل المنشورات ذات الصلة
+- تأكيد حالة السوق والترخيص في المملكة العربية السعودية، بالنظر إلى أن الدواء مسجل حالياً كغير مسوق مع 0 موافقات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

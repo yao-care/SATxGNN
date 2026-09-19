@@ -29,104 +29,101 @@ indication_count: 7
 
 </div>
 
-Using the Evidence Pack provided, here is the evaluation report. Note: I flag one important data quality issue up front — TxGNN's **rank-1 prediction ("active peptic ulcer disease") is not actually a novel indication**; the evidence pack's own rationale text confirms this is Nizatidine's known, already-approved H2-receptor-antagonist use. I've followed the template's extraction rules for rank 1 (as instructed) but flagged this clearly wherever it affects interpretation, and pulled out the one genuinely novel candidate with real (if limited) evidence — gastroduodenitis — so the decision section isn't misleading.
+# نيزاتيدين: من العلاج المُثبت للقرحة الهضمية إلى الحماية الناشئة للمنطقة المعدية-الاثني عشرية
+
+## الملخص بجملة واحدة
+
+> نيزاتيدين هو مضاد الهيستامين من فئة مستقبلات H2-receptor antagonist بدور مُثبت وموثق جيداً في علاج قرحة الجهاز الهضمي والاضطرابات المعدية-المعوية ذات الصلة بحمض الجهاز الهضمي. التنبؤ الأعلى تصنيفاً من نموذج TxGNN — **قرحة هضمية نشطة** (نقاط **99.96%**) — مدعوم بأدلة قوية من تجارب عشوائية محكومة في المرحلة Phase 3، لكن هذا هو استخدام نيزاتيدين *المعروف والمعتمد بالفعل*، وليس هدفاً جديداً لإعادة استخدام الدواء. من بين ستة مرشحين آخرين تم فحصهم، يُظهر فقط **التهاب المنطقة المعدية-الاثني عشرية** (حماية الغشاء المخاطي المعدي-الاثني عشري الناجم عن مثبطات الالتهاب غير الستيرويدية) أدلة سريرية حقيقية، وإن كانت محدودة (**L3**)؛ بينما تفتقر المرشحات المتبقية إلى أي دعم سريري أو أدبي مباشر.
 
 ---
 
-# Nizatidine: From Established Peptic Ulcer Therapy to Emerging Gastroduodenal Protection
+## نظرة عامة سريعة
 
-## One-Sentence Summary
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | قرحة الجهاز الهضمي / الاضطرابات المعدية-المعوية المرتبطة بحمض الجهاز الهضمي (استخدام فئة مضادات مستقبلات H2-receptor antagonist — لا يوجد نص تصنيف رسمي من المملكة العربية السعودية في الملف) |
+| المؤشر الجديد المتنبأ به (الترتيب 1) | قرحة هضمية نشطة *(⚠️ هذا هو الاستخدام المعتمد الموجود لنيزاتيدين، وليس مرشحاً جديداً — انظر الملاحظة أدناه)* |
+| درجة التنبؤ من TxGNN (الترتيب 1) | 99.96% |
+| مستوى الأدلة (الترتيب 1) | L1 |
+| حالة السوق في المملكة العربية السعودية | غير موجود بالسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | **تأجيل** (لخط أنابيب إعادة الاستخدام ككل — انظر الخاتمة) |
 
-> Nizatidine is a histamine H2-receptor antagonist with an established, well-documented role in treating peptic ulcer disease and related acid-related gastrointestinal disorders. The TxGNN model's top-ranked prediction — **active peptic ulcer disease** (score **99.96%**) — is backed by strong Phase 3 RCT evidence, but this is Nizatidine's *own known, already-approved use*, not a novel repurposing target. Among the six other candidates screened, only **gastroduodenitis** (NSAID-induced gastroduodenal mucosal protection) shows genuine, though limited (**L3**), supporting clinical evidence; the remaining candidates lack direct clinical or literature support.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Peptic ulcer disease / acid-related GI disorders (H2-receptor antagonist class use — no formal Saudi Arabia label text on file) |
-| Predicted New Indication (Rank 1) | Active Peptic Ulcer Disease *(⚠️ this is Nizatidine's existing approved use, not a novel candidate — see note below)* |
-| TxGNN Prediction Score (Rank 1) | 99.96% |
-| Evidence Level (Rank 1) | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** (for the repurposing pipeline as a whole — see Conclusion) |
-
-> **Important Note:** Rank 1 ("active peptic ulcer disease") scores highest because it is the drug's known, on-label mechanism — the model is correctly re-identifying existing pharmacology rather than surfacing a new use. It is presented here per the standard extraction rule, but should not be counted as a repurposing opportunity. The most credible *genuine* candidate in this evidence pack is **Rank 6 — gastroduodenitis** (Evidence Level L3, decision stage S2, "Research Question"), discussed further below.
+> **ملاحظة مهمة:** يحقق الترتيب 1 ("قرحة هضمية نشطة") أعلى نقاط لأنه الآلية المعروفة والمرخصة للدواء — يقوم النموذج بإعادة تحديد الدراسات الدوائية الموجودة بشكل صحيح بدلاً من الكشف عن استخدام جديد. يتم تقديمه هنا وفقاً للقاعدة الاستخراجية القياسية، لكن لا ينبغي اعتباره فرصة إعادة استخدام. أكثر المرشحين صدقية *الحقيقيين* في هذه مجموعة الأدلة هو **الترتيب 6 — التهاب المنطقة المعدية-الاثني عشرية** (مستوى الأدلة L3, مرحلة القرار S2, "سؤال بحثي"), والمناقش بمزيد من التفاصيل أدناه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-**Mechanism of action.** A formal structured MOA record (DrugBank field) is not yet on file for this drug (data gap **DG002**, High severity). However, the mechanistic rationale embedded in this evidence pack confirms the well-established pharmacology of H2-receptor antagonists: Nizatidine directly inhibits histamine-stimulated gastric acid secretion at the gastric parietal cell H2 receptor. This is the same mechanism that underlies its original, approved use in peptic ulcer disease — which is exactly why Rank 1 scores so highly; it is a re-statement of known pharmacology rather than an extrapolation.
+**آلية العمل.** لم يتم وضع سجل MOA منظم رسمي (حقل DrugBank) لهذا الدواء بعد (فجوة البيانات **DG002**, ذات شدة عالية). ومع ذلك، فإن المنطق الآلي المضمن في هذه مجموعة الأدلة يؤكد الدراسات الدوائية المُثبتة بشكل جيد لمضادات مستقبلات H2-receptor antagonist: يثبط نيزاتيدين بشكل مباشر إفراز حمض المعدة المحفز بالهيستامين عند مستقبل H2 بخلايا جدار المعدة. هذه هي نفس الآلية التي تكمن وراء استخدامه الأصلي المعتمد في قرحة الجهاز الهضمي — وهذا بالضبط السبب في أن الترتيب 1 يحقق درجات عالية جداً؛ إنه إعادة بيان الدراسات الدوائية المعروفة بدلاً من الاستقراء.
 
-**Relationship between original and predicted use.** Because Rank 1 duplicates the known indication, the more meaningful repurposing question is whether acid suppression generalizes to *adjacent* gastroduodenal pathology. Evidence quality drops sharply once we move away from classic gastric/duodenal ulcer: peptic ulcer perforation and duodenal obstruction are mechanical/surgical problems that acid suppression cannot resolve (no supporting literature at all, L5, judged as prediction noise by the pack's own rationale); duodenogastric reflux is driven by bile/pancreatic (alkaline) reflux rather than acid excess, so the mechanistic fit is weak; and multiple endocrine neoplasia is a genetic tumour syndrome where H2RA relevance is confined to a rare MEN1/Zollinger-Ellison subset, with no direct evidence.
+**العلاقة بين الاستخدام الأصلي والمتنبأ به.** نظراً لأن الترتيب 1 يكرر المؤشر المعروف، فإن سؤال إعادة الاستخدام الأكثر معنى هو ما إذا كان كبت الحمض ينطبق على *المرضية المجاورة* للمنطقة المعدية-الاثني عشرية. تنخفض جودة الأدلة بشكل حاد بمجرد الابتعاد عن قرحة المعدة/الاثني عشر الكلاسيكية: ثقب القرحة الهضمية وانسداد الاثني عشر مشاكل ميكانيكية/جراحية لا يمكن لكبت الحمض حلها (لا توجد أدبيات داعمة على الإطلاق, L5, تم الحكم عليها بأنها ضوضاء التنبؤ من خلال منطق مجموعة الأدلة نفسها)؛ ارتجاع الاثني عشري-المعدي يكون مدفوعاً بارتجاع الصفراء/البنكرياس (القلوي) بدلاً من الزيادة في الحمض، لذا فإن الملاءمة الآلية ضعيفة؛ والأورام الصماء المتعددة هي متلازمة ورم وراثي حيث ينحصر الصلة H2RA في مجموعة نادرة من MEN1/Zollinger-Ellison، بدون أدلة مباشرة.
 
-**Why gastroduodenitis stands out.** The one candidate with a defensible mechanistic and evidentiary basis is **gastroduodenitis**, specifically NSAID-induced gastroduodenal mucosal injury. Acid suppression has a direct, well-understood protective role in NSAID-associated mucosal damage, and two small prospective/cohort studies (PMID 7863248, PMID 1969684) demonstrate that nizatidine reduces NSAID/piroxicam-induced gastroduodenal lesions. This is Phase 1–2-grade evidence (L3), not confirmatory, but it is a real, mechanistically coherent signal — unlike the other five candidates.
-
----
-
-## Clinical Trial Evidence (Rank 1: Active Peptic Ulcer Disease)
-
-Currently no related clinical trials registered.
+**لماذا يبرز التهاب المنطقة المعدية-الاثني عشرية.** المرشح الوحيد الذي يتمتع بأساس آلي وأدلة قابلة للدفاع هو **التهاب المنطقة المعدية-الاثني عشرية**, وتحديداً الإصابة بالغشاء المخاطي المعدي-الاثني عشري الناجمة عن مثبطات الالتهاب غير الستيرويدية. لكبت الحمض دور حماية مباشر ومفهوم جيداً في الأضرار المخاطية المرتبطة بمثبطات الالتهاب غير الستيرويدية، وتظهر دراستان صغيرتان مستقبليتان/قائمة على الأتراب (PMID 7863248, PMID 1969684) أن نيزاتيدين يقلل من الآفات المعدية-الاثني عشرية المحفزة بمثبطات الالتهاب غير الستيرويدية/البيروكسيكام. هذا دليل من درجة Phase 1–2 (L3), وليس تأكيدياً، لكنه إشارة حقيقية متسقة آلياً — على عكس المرشحات الخمسة الأخرى.
 
 ---
 
-## Literature Evidence (Rank 1: Active Peptic Ulcer Disease)
+## أدلة التجارب السريرية (الترتيب 1: قرحة هضمية نشطة)
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT | Clin Pharmacol Ther | 8-week multicenter RCT: nizatidine 150 mg BID or 300 mg qHS vs. placebo in active benign gastric ulcer — evaluated healing and symptom relief |
-| [2570656](https://pubmed.ncbi.nlm.nih.gov/2570656/) | 1989 | RCT | Clin Pharmacol Ther | Two-phase placebo-controlled RCT: nizatidine 150 mg BID for duodenal ulcer healing over 4–8 weeks |
-| [2892259](https://pubmed.ncbi.nlm.nih.gov/2892259/) | 1987 | RCT | Scand J Gastroenterol Suppl | 1-year maintenance RCT (n=513) in healed duodenal ulcer: nizatidine 150 mg qHS cut recurrence to 34% vs. 64% with placebo at 12 months |
-| [9198292](https://pubmed.ncbi.nlm.nih.gov/9198292/) | 1997 | RCT | Zhonghua Yi Xue Za Zhi | Clarithromycin-based combination therapy for H. pylori eradication in peptic ulcer disease (Chinese cohort) |
-| [1982108](https://pubmed.ncbi.nlm.nih.gov/1982108/) | 1990 | RCT | Hepatogastroenterology | 8-week multicenter RCT: nizatidine (150 mg BID or 300 mg qHS) vs. ranitidine 150 mg BID in gastric ulcer healing |
-| [7960687](https://pubmed.ncbi.nlm.nih.gov/7960687/) | 1994 | Cohort | Isr J Med Sci | Double-blind trial (n=55): nizatidine 300 mg qHS vs. placebo on duodenal ulcer healing and mucosal inflammatory mediators |
-| [1974318](https://pubmed.ncbi.nlm.nih.gov/1974318/) | 1990 | Cohort | Medicina (Firenze) | Effects of nizatidine vs. misoprostol on gastric pH, pepsin, and mucus parameters in 20 duodenal ulcer patients |
-| [2905640](https://pubmed.ncbi.nlm.nih.gov/2905640/) | 1988 | Review | Drugs | Preliminary pharmacodynamic/pharmacokinetic review of nizatidine's therapeutic use in peptic ulcer disease |
-| [2184124](https://pubmed.ncbi.nlm.nih.gov/2184124/) | 1990 | Review | Gastroenterol Clin North Am | Overview of medical therapy for peptic ulcer disease, covering H2RAs including nizatidine |
-| [8097411](https://pubmed.ncbi.nlm.nih.gov/8097411/) | 1993 | Review | Bailliere's Clin Gastroenterol | Pharmacology of gastric acid inhibition (neural/hormonal/paracrine regulation) |
-
-### Supplementary Evidence — Genuine Repurposing Candidate: Gastroduodenitis (Rank 6, L3)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [7863248](https://pubmed.ncbi.nlm.nih.gov/7863248/) | 1994 | Cohort | Scand J Gastroenterol Suppl | RCT (n=269) in rheumatic patients on NSAIDs: nizatidine (150–600 mg/day) in therapy/prevention of NSAID-induced gastroduodenal ulcer |
-| [1969684](https://pubmed.ncbi.nlm.nih.gov/1969684/) | 1990 | Cohort | Z Gastroenterol | Single-blind crossover study (n=12): nizatidine prevented piroxicam-induced gastric mucosal lesions vs. placebo |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات (الترتيب 1: قرحة هضمية نشطة)
 
-Nizatidine is currently **not marketed in Saudi Arabia** — no market authorization records are on file (0 licenses).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT | Clin Pharmacol Ther | دراسة تجريبية عشوائية محكومة متعددة المراكز لمدة 8 أسابيع: نيزاتيدين 150 ملغ مرتين يومياً أو 300 ملغ قبل النوم مقابل الدواء الوهمي في قرحة المعدة الحميدة النشطة — قيّم الشفاء وتخفيف الأعراض |
+| [2570656](https://pubmed.ncbi.nlm.nih.gov/2570656/) | 1989 | RCT | Clin Pharmacol Ther | دراسة تجريبية عشوائية محكومة ثنائية المراحل: نيزاتيدين 150 ملغ مرتين يومياً لشفاء قرحة الاثني عشر على مدى 4–8 أسابيع |
+| [2892259](https://pubmed.ncbi.nlm.nih.gov/2892259/) | 1987 | RCT | Scand J Gastroenterol Suppl | دراسة تجريبية عشوائية محكومة لصيانة مدة سنة واحدة (n=513) في قرحة اثني عشر مشفية: قلل نيزاتيدين 150 ملغ قبل النوم الانتكاس إلى 34% مقابل 64% مع الدواء الوهمي في 12 شهراً |
+| [9198292](https://pubmed.ncbi.nlm.nih.gov/9198292/) | 1997 | RCT | Zhonghua Yi Xue Za Zhi | العلاج القائم على كلاريثروميسين لاستئصال الملوية البوابية في قرحة الجهاز الهضمي (مجموعة صينية) |
+| [1982108](https://pubmed.ncbi.nlm.nih.gov/1982108/) | 1990 | RCT | Hepatogastroenterology | دراسة تجريبية عشوائية محكومة متعددة المراكز لمدة 8 أسابيع: نيزاتيدين (150 ملغ مرتين يومياً أو 300 ملغ قبل النوم) مقابل رانيتيدين 150 ملغ مرتين يومياً في شفاء قرحة المعدة |
+| [7960687](https://pubmed.ncbi.nlm.nih.gov/7960687/) | 1994 | Cohort | Isr J Med Sci | دراسة تجريبية عمياء مزدوجة (n=55): نيزاتيدين 300 ملغ قبل النوم مقابل الدواء الوهمي على شفاء قرحة الاثني عشر والوسطاء الالتهابيين المخاطيين |
+| [1974318](https://pubmed.ncbi.nlm.nih.gov/1974318/) | 1990 | Cohort | Medicina (Firenze) | تأثيرات نيزاتيدين مقابل ميسوبروستول على درجة حموضة المعدة والببسين وعوامل المخاط لدى 20 مريضاً بقرحة الاثني عشر |
+| [2905640](https://pubmed.ncbi.nlm.nih.gov/2905640/) | 1988 | Review | Drugs | مراجعة أولية للديناميكا الدوائية/المحرك الحركي لاستخدام نيزاتيدين العلاجي في قرحة الجهاز الهضمي |
+| [2184124](https://pubmed.ncbi.nlm.nih.gov/2184124/) | 1990 | Review | Gastroenterol Clin North Am | نظرة عامة على العلاج الطبي لقرحة الجهاز الهضمي، تغطي مضادات H2RA بما فيها نيزاتيدين |
+| [8097411](https://pubmed.ncbi.nlm.nih.gov/8097411/) | 1993 | Review | Bailliere's Clin Gastroenterol | دراسات الدراسات الدوائية لكبت حمض المعدة (التنظيم العصبي/الهرموني/الموضعي) |
+
+### أدلة إضافية — مرشح إعادة استخدام حقيقي: التهاب المنطقة المعدية-الاثني عشرية (الترتيب 6, L3)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [7863248](https://pubmed.ncbi.nlm.nih.gov/7863248/) | 1994 | Cohort | Scand J Gastroenterol Suppl | RCT (n=269) لدى مرضى الأمراض الروماتيزمية على مثبطات الالتهاب غير الستيرويدية: نيزاتيدين (150–600 ملغ/يوم) في علاج/الوقاية من قرحة المنطقة المعدية-الاثني عشرية الناجمة عن مثبطات الالتهاب غير الستيرويدية |
+| [1969684](https://pubmed.ncbi.nlm.nih.gov/1969684/) | 1990 | Cohort | Z Gastroenterol | دراسة انتقالية عمياء واحدة (n=12): منع نيزاتيدين آفات الغشاء المخاطي المعدي المحفزة بالبيروكسيكام مقابل الدواء الوهمي |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
-
-*(No structured key warnings, contraindications, or drug-interaction data were retrievable — DDI query returned "not found," and the SFDA/Saudi package insert has not yet been obtained; see data gap DG001 below.)*
+نيزاتيدين حالياً **غير موجود بالسوق في المملكة العربية السعودية** — لا توجد سجلات تصريح سوق في الملف (0 تصاريح).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى النشرة الإرشادية لمعلومات السلامة.
 
-**Rationale:**
-- Rank 1's high score reflects Nizatidine's already-known, approved H2RA mechanism rather than a novel indication — it is not a repurposing opportunity and should not drive a "Go" decision.
-- Of the six genuinely novel candidates, only gastroduodenitis (NSAID-induced mucosal protection) has any direct supporting evidence, and it is limited to two small 1990s trials (L3, decision stage S2, "Research Question") — not sufficient for a Go or Guardrails decision. The remaining five candidates (perforation, obstruction, duodenogastric reflux, gastrojejunal ulcer, multiple endocrine neoplasia) are explicitly flagged **Hold** by the evidence pack's own scoring, with weak-to-absent mechanistic fit and no clinical or trial evidence.
-- A **Blocking** data gap (DG001 — missing SFDA/Saudi package insert warnings and contraindications) currently prevents this candidate from even entering the S1 safety pre-assessment stage, independent of efficacy evidence strength.
-- Nizatidine has zero market authorizations in Saudi Arabia (Not Marketed), so there is no existing regulatory foothold to build a repurposing submission on.
+*(لم يكن من الممكن الحصول على تحذيرات رئيسية منظمة أو موانع استخدام أو بيانات التفاعلات الدوائية — أرجعت استعلام DDI `not found`، ولم يتم الحصول على نشرة المملكة العربية السعودية/SFDA الإرشادية بعد؛ انظر فجوة البيانات DG001 أدناه.)*
 
-**To proceed, the following is needed:**
-- Obtain the official Saudi Arabia (SFDA) package insert/label safety data to resolve the Blocking gap (DG001) and unlock S1 safety evaluation
-- Obtain a structured DrugBank/MOA record to formally resolve the High-severity gap (DG002)
-- If gastroduodenitis (NSAID-protection) is pursued as the lead candidate, commission an updated systematic review or new prospective trial, since existing evidence is limited to two small studies from 1990 and 1994
-- Determine a Saudi Arabia market-entry strategy given the current "Not Marketed" status before any repurposing regulatory submission is considered
-- In future evidence-pack generation, exclude the drug's own known/approved indication from the "predicted new indication" ranking to avoid conflating model calibration checks with genuine repurposing signals
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+- يعكس درجة الترتيب 1 العالية آلية H2RA المعروفة والمعتمدة بالفعل لنيزاتيدين بدلاً من مؤشر جديد — إنها ليست فرصة إعادة استخدام ولا يجب أن تدفع قراراً "المضي قدماً".
+- من بين ستة مرشحين جديدين حقيقيين، يتمتع فقط التهاب المنطقة المعدية-الاثني عشرية (حماية الغشاء المخاطي الناجمة عن مثبطات الالتهاب غير الستيرويدية) بأي أدلة داعمة مباشرة، وهي محدودة بتجربتين صغيرتين من التسعينيات (L3, مرحلة القرار S2, "سؤال بحثي") — غير كافية للمضي قدماً أو قرار الحماية. تم تحديد المرشحات الخمسة المتبقية (الثقب، الانسداد، ارتجاع الاثني عشري-المعدي، قرحة المنطقة المعدية-الصائمية، الأورام الصماء المتعددة) بوضوح كـ **تأجيل** بواسطة النقاط الخاصة بمجموعة الأدلة نفسها، مع ملاءمة آلية ضعيفة إلى غائبة وعدم وجود أدلة سريرية أو تجريبية.
+- فجوة بيانات **حاجز** (DG001 — نشرة المملكة العربية السعودية/SFDA الإرشادية المفقودة والتحذيرات وموانع الاستخدام) تمنع حالياً هذا المرشح من الدخول حتى في مرحلة التقييم الأولي للسلامة S1, بغض النظر عن قوة أدلة الفعالية.
+- نيزاتيدين لديه صفر تصاريح سوق في المملكة العربية السعودية (غير موجود بالسوق)، لذا لا يوجد موقع تنظيمي موجود لبناء تقديم إعادة استخدام عليه.
+
+**للمتابعة، يلزم ما يلي:**
+- الحصول على بيانات السلامة الرسمية لنشرة المملكة العربية السعودية (SFDA)/التصنيف لحل فجوة الحاجز (DG001) وفتح تقييم السلامة S1
+- الحصول على سجل DrugBank/MOA منظم لحل رسمياً فجوة الشدة العالية (DG002)
+- إذا تم متابعة التهاب المنطقة المعدية-الاثني عشرية (حماية مثبطات الالتهاب غير الستيرويدية) كمرشح رئيسي، قم بتفويض مراجعة منهجية محدثة أو تجربة مستقبلية جديدة، لأن الأدلة الموجودة محدودة بدراستين صغيرتين من 1990 و 1994
+- حدد استراتيجية دخول سوق المملكة العربية السعودية نظراً للحالة الحالية "غير موجود بالسوق" قبل الموافقة على أي تقديم تنظيمي لإعادة الاستخدام
+- في جيل مجموعة الأدلة المستقبلي، استبعد المؤشر المعروف/المعتمد الخاص بالدواء من ترتيب "المؤشر الجديد المتنبأ به" لتجنب الخلط بين فحوصات معايرة النموذج والإشارات الحقيقية لإعادة الاستخدام
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

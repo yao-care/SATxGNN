@@ -29,103 +29,100 @@ indication_count: 2
 
 </div>
 
-Using the evidence pack provided, here is the drug repurposing evaluation report for Emedastine's top-ranked predicted indication (allergic urticaria), with the second candidate (cold urticaria) noted separately as a lower-confidence signal.
+# إيميداستين: من العلاج المضاد للهستامين إلى الشرى التحسسي
+
+## ملخص جملة واحدة
+
+> إيميداستين هو مضاد انتقائي لمستقبلات H1-الهستامين يُستخدم كعامل مضاد للحساسية؛ السجلات الرسمية للدلالة الأصلية وآلية العمل لهذا السوق معلَّمة حالياً كثغرات بيانية، لكن الأدبيات المنشورة تصف باستمرار استخدامه في التهاب الأنف التحسسي والتهاب الملتحمة التحسسي والشرى والتهاب الجلد التحسسي.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الشرى التحسسي**،
+> مع **0 تجربة سريرية مسجلة** لكن **4 منشورات داعمة** — بما في ذلك تجربة عشوائية مقارنة واحدة — تدعم حالياً هذا الاتجاه.
 
 ---
 
-# Emedastine: From Antihistamine Therapy to Allergic Urticaria
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Emedastine is a selective H1-histamine receptor antagonist used as an antiallergic agent; formal original-indication and mechanism-of-action records for this market are currently on file as data gaps, but published literature consistently describes its use across allergic rhinitis, allergic conjunctivitis, urticaria, and allergic dermatitis.
-> The TxGNN model predicts it may be effective for **Allergic Urticaria**,
-> with **0 registered clinical trials** but **4 supporting publications** — including one head-to-head RCT — currently backing this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not on file (drug is not marketed in this jurisdiction; per literature, emedastine is used as an H1-antihistamine for allergic rhinitis, conjunctivitis, urticaria, and dermatitis) |
-| Predicted New Indication | Allergic Urticaria |
-| TxGNN Prediction Score | 99.96% (rank 1,165) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | غير مسجلة (الدواء غير مُسوّق في هذا السوق؛ حسب الأدبيات، يُستخدم إيميداستين كمضاد H1-هستامين لالتهاب الأنف التحسسي والتهاب الملتحمة التحسسي والشرى والتهاب الجلد التحسسي) |
+| الدلالة المتنبأ بها الجديدة | الشرى التحسسي |
+| درجة التنبؤ TxGNN | 99.96% (ترتيب 1,165) |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مُسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed, source-verified mechanism-of-action data for emedastine is currently flagged as a data gap in this evidence pack (High severity — DG002). However, the supporting literature itself is informative: a 2009 review (PMID 19558341) describes emedastine difumarate as "a selective histamine-H1 receptor antagonist and effective antiallergic agent" that inhibits clinical symptoms across allergic rhinitis, allergic conjunctivitis, **urticaria**, allergic dermatitis, pruritus cutaneous, and prurigo — with the added note that it produces minimal anticholinergic activity and no adverse cardiovascular effects relative to other antihistamines.
+بيانات آلية العمل المفصلة والمُتحقق منها لإيميداستين معلَّمة حالياً كثغرة بيانية في حزمة الأدلة هذه (ذات أهمية عالية — DG002). ومع ذلك، الأدبيات الداعمة نفسها غنية بالمعلومات: مراجعة عام 2009 (PMID 19558341) تصف إيميداستين ديفوميرات باعتباره "مضاداً انتقائياً لمستقبلات الهستامين-H1 وعاملاً مضاداً فعالاً للحساسية" يمنع الأعراض السريرية في التهاب الأنف التحسسي والتهاب الملتحمة التحسسي و**الشرى** والتهاب الجلد التحسسي والحكة الجلدية والحكة — مع الإشارة الإضافية إلى أنه ينتج نشاطاً مضاداً للكولين بحد أدنى وبدون تأثيرات عكسية قلبية وعائية مقارنة بمضادات الهستامين الأخرى.
 
-This is mechanistically direct, not a novel hypothesis: H1-receptor antagonism is the established pharmacological basis for treating urticaria, since mast-cell/basophil-released histamine acting on H1 receptors drives the wheal-and-flare (vascular permeability and pruritus) response that defines the condition. Emedastine's known antiallergic activity therefore maps onto allergic urticaria through the same mechanism already used for its other approved allergic indications.
+هذا تأثير مباشر من الناحية الآلية، وليس فرضية جديدة: تثبيط مستقبلات H1 هو الأساس الدوائي المثبت لعلاج الشرى، لأن الهستامين المُفرج عنه بواسطة الخلايا البدينة والخلايا القاعدية الذي يعمل على مستقبلات H1 يحفز استجابة الوذمة والاحمرار (نفاذية الأوعية والحكة) التي تحدد الحالة. لذا فإن النشاط المضاد للحساسية المعروف لإيميداستين يُحدّد للشرى التحسسي من خلال نفس الآلية المستخدمة بالفعل لدلالاته التحسسية الأخرى المعتمدة.
 
-One caveat worth flagging for downstream review: the strongest human evidence (the RCT below) was conducted in **chronic idiopathic urticaria**, not a strictly-defined "allergic urticaria" subtype. The two conditions share substantial pathophysiological overlap (mast-cell/histamine-mediated), but are not clinically identical, so indication naming should be clarified before advancing to formal clinical planning.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+تحفظ واحد يستحق الإشارة للمراجعة اللاحقة: أقوى دليل بشري (التجربة العشوائية أدناه) أُجريت في **الشرى المزمن مجهول السبب**، وليس في نوع فرعي معرّف بدقة من "الشرى التحسسي". الحالتان تتشاركان تداخلاً مرضياً كبيراً (وساطة الخلايا البدينة والهستامين)، لكنهما ليستا متطابقتين سريرياً، لذا يجب توضيح تسمية الدلالة قبل المضي قدماً نحو التخطيط السريري الرسمي.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [17229605](https://pubmed.ncbi.nlm.nih.gov/17229605/) | 2006 | RCT | European Journal of Dermatology | Randomized, double-blind, multicentre trial (n=192) comparing emedastine difumarate (2mg BID) vs. loratadine (10mg QD) in chronic idiopathic urticaria; emedastine produced significantly greater reduction in body skin involvement (57.1% vs. 38.2% reaching 0–10% involvement, p=0.0019) and total urticaria symptom score (83.3% vs. 64.5% reaching score 0–1, p=0.0134) after 4 weeks. |
-| [19558341](https://pubmed.ncbi.nlm.nih.gov/19558341/) | 2009 | Review | Expert Opinion on Pharmacotherapy | Reviews emedastine difumarate as a selective H1-antihistamine effective against allergic rhinitis, allergic conjunctivitis, urticaria, allergic dermatitis, and pruritus; highlights greater efficacy vs. other antihistamines, minimal anticholinergic activity, no adverse cardiovascular effects, and a possible additional effect on tissue remodeling in allergic disease. |
-| [24720119](https://pubmed.ncbi.nlm.nih.gov/24720119/) | 2013 | Review | Przeglad Lekarski | Polish-language analysis of discrepancies between urticaria treatment guidelines, official drug label indications (SPCs), and the evidence base for antihistamines following 2012 Polish reimbursement policy changes affecting urticaria pharmacotherapy. |
-| [14499249](https://pubmed.ncbi.nlm.nih.gov/14499249/) | 2003 | Other (murine model) | Clinical Immunology | Murine contact-sensitivity study primarily evaluating suplatast tosilate's effect on eosinophil recruitment; emedastine difumarate is included only as a comparator antihistamine, so direct relevance to human urticaria efficacy is limited. |
+| [17229605](https://pubmed.ncbi.nlm.nih.gov/17229605/) | 2006 | تجربة عشوائية | European Journal of Dermatology | تجربة عشوائية مضبوطة بالعمى المزدوج متعددة المراكز (n=192) تقارن إيميداستين ديفوميرات (2mg BID) مقابل لوراتادين (10mg QD) في الشرى المزمن مجهول السبب؛ أسفرت عن انخفاض أكبر بشكل ملحوظ في تأثر الجلد في الجسم (57.1% مقابل 38.2% وصول إلى 0–10% تأثر، p=0.0019) ودرجة إجمالي أعراض الشرى (83.3% مقابل 64.5% وصول إلى درجة 0–1، p=0.0134) بعد 4 أسابيع. |
+| [19558341](https://pubmed.ncbi.nlm.nih.gov/19558341/) | 2009 | مراجعة | Expert Opinion on Pharmacotherapy | مراجعة إيميداستين ديفوميرات كمضاد H1-هستامين انتقائي فعال ضد التهاب الأنف التحسسي والتهاب الملتحمة التحسسي والشرى والتهاب الجلد التحسسي والحكة الجلدية؛ تسلط الضوء على كفاءة أكبر مقارنة بمضادات الهستامين الأخرى والنشاط المضاد للكولين البسيط والتأثيرات القلبية الوعائية السلبية الغائبة وتأثير إضافي محتمل على إعادة تشكيل الأنسجة في الأمراض التحسسية. |
+| [24720119](https://pubmed.ncbi.nlm.nih.gov/24720119/) | 2013 | مراجعة | Przeglad Lekarski | تحليل باللغة البولندية للتناقضات بين إرشادات علاج الشرى والدلالات الرسمية على نشرات الأدوية (SPCs) وقاعدة الأدلة لمضادات الهستامين بعد تغييرات سياسة التعويض البولندية لعام 2012 التي تؤثر على العلاج الدوائي للشرى. |
+| [14499249](https://pubmed.ncbi.nlm.nih.gov/14499249/) | 2003 | أخرى (نموذج فأري) | Clinical Immunology | دراسة حساسية جلدية فأرية تقيّم في الأساس تأثير سوبلاتاست توسيلات على تجنيد الحمضات؛ إيميداستين ديفوميرات مضمَّن فقط كمضاد هستامين للمقارنة، لذا الارتباط المباشر بفعالية الشرى البشرية محدود. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No marketed products are currently on file for this drug (market status: Not Marketed; 0 authorizations recorded).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: Retrieval of the official local package insert (warnings/contraindications) is currently listed as a Blocking data gap (DG001), meaning this candidate cannot yet complete the S1 safety pre-screen. This should be resolved before any clinical advancement.*
+لا توجد منتجات مُسوّقة مسجلة حالياً لهذا الدواء (حالة السوق: غير مُسوّق؛ 0 موافقات مسجلة).
 
 ---
 
-## Additional Predicted Indication (Lower Priority)
+## اعتبارات السلامة
 
-A second TxGNN-predicted indication was identified for the same drug and is noted here for completeness, though it does not currently meet the evidentiary bar for active progression:
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-| Item | Content |
+*ملاحظة: استرجاع نشرة الحزمة الرسمية المحلية (التحذيرات/موانع الاستعمال) معلَّم حالياً كثغرة بيانية حاجزة (DG001)، مما يعني أن هذه المرشحة لم تستكمل بعد فحص السلامة S1 المسبق. يجب حل هذا قبل أي تقدم سريري.*
+
+---
+
+## دلالة منبأ إضافية (أولوية أقل)
+
+تم تحديد دلالة منبأ ثانية من TxGNN للدواء نفسه وتُذكر هنا لتوضيح الحالة، على الرغم من عدم استيفاء معيار الأدلة حالياً للمضي قدماً في الإجراء النشط:
+
+| العنصر | المحتوى |
 |------|------|
-| Predicted Indication | Cold Urticaria |
-| TxGNN Prediction Score | 99.82% (rank 3,649) |
-| Evidence Level | L5 (model prediction only) |
-| Supporting Trials / Literature | 0 / 0 |
-| Recommended Decision | Hold |
+| الدلالة المتنبأ بها | الشرى البارد |
+| درجة التنبؤ TxGNN | 99.82% (ترتيب 3,649) |
+| مستوى الدليل | L5 (تنبؤ نموذج فقط) |
+| التجارب الداعمة / الأدبيات | 0 / 0 |
+| القرار الموصى به | وضع الحجز |
 
-Cold urticaria is mechanistically plausible for an H1-antihistamine by analogy with other agents in the same class (e.g., cetirizine, desloratadine) already used clinically for this condition, but there is currently zero drug-specific clinical or literature evidence for emedastine in this indication — it should remain in monitoring only.
+الشرى البارد معقول من الناحية الآلية لمضاد H1-هستامين بالقياس على عوامل أخرى من نفس الفئة (مثل سيتيريزين وديسلوراتادين) المستخدمة بالفعل سريرياً لهذه الحالة، لكن لا توجد حالياً أدلة سريرية أو أدبية خاصة بالدواء لإيميداستين في هذه الدلالة — يجب أن تبقى في المراقبة فقط.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-- One controlled RCT plus a supportive mechanistic review provide plausible, direct evidence for emedastine in urticaria (L2), but the drug's safety documentation for this market (package insert warnings/contraindications) is a Blocking data gap, and the strongest RCT evidence is in chronic idiopathic urticaria rather than the specific "allergic urticaria" label — both must be resolved before this candidate can move past the current safety pre-screen.
+**المنطق:**
+- تجربة عشوائية مضبوطة واحدة بالإضافة إلى مراجعة آلية داعمة توفر أدلة معقولة ومباشرة لإيميداستين في الشرى (L2)، لكن توثيق سلامة الدواء لهذا السوق (تحذيرات نشرة الحزمة/موانع الاستعمال) عبارة عن ثغرة بيانية حاجزة، وأقوى دليل تجريبي يتعلق بالشرى المزمن مجهول السبب وليس الدلالة المحددة "الشرى التحسسي" — يجب حل كليهما قبل أن تتجاوز هذه المرشحة فحص السلامة S1 الحالي.
 
-**To proceed, the following is needed:**
-- Retrieve the official package insert (warnings, contraindications, DDI) to close the Blocking data gap (DG001) and complete the S1 safety pre-screen
-- Obtain verified mechanism-of-action documentation (e.g., via DrugBank API) to close the High-severity MOA data gap (DG002)
-- Clarify clinical definition alignment between "chronic idiopathic urticaria" (trial population) and "allergic urticaria" (predicted indication)
-- Continue monitoring for emerging trial/literature evidence on the lower-priority cold urticaria candidate before any action is taken there
+**للمتابعة، المطلوب ما يلي:**
+- استرجاع نشرة الحزمة الرسمية (التحذيرات، موانع الاستعمال، التفاعلات الدوائية) لإغلاق ثغرة البيانات الحاجزة (DG001) واستكمال فحص السلامة S1 المسبق
+- الحصول على توثيق آلية عمل مُتحقق منه (مثل عبر واجهة برمجة تطبيقات DrugBank) لإغلاق ثغرة البيانات ذات الأهمية العالية (DG002)
+- توضيح محاذاة التعريف السريري بين "الشرى المزمن مجهول السبب" (مجتمع الدراسة) و"الشرى التحسسي" (الدلالة المتنبأ بها)
+- المتابعة المستمرة للأدلة المتعلقة بالتجارب والأدبيات الناشئة بشأن المرشح ذي الأولوية الأقل (الشرى البارد) قبل اتخاذ أي إجراء في هذا الاتجاه
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

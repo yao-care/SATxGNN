@@ -29,99 +29,100 @@ indication_count: 5
 
 </div>
 
-# Carfilzomib: From Multiple Myeloma to CMM7
+# كارفيلزوميب: من الورم النخاعي المتعدد إلى CMM7
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Carfilzomib is a second-generation, irreversible proteasome inhibitor established for the treatment of relapsed and refractory multiple myeloma. The TxGNN model predicts it may be effective against **CMM7 (Cutaneous Malignant Melanoma type 7)** — the highest-ranked of five distinct melanoma subtypes flagged by the model. No direct clinical trials or literature specific to CMM7 have been identified; however, **5 preclinical publications** support a biologically plausible mechanism for carfilzomib in the broader melanoma indication.
+كارفيلزوميب مثبط بروتياز من الجيل الثاني، لا رجعة فيه، وهو معتمد لعلاج الورم النخاعي المتعدد المتكرر والمقاوم. يتنبأ نموذج TxGNN أنه قد يكون فعالاً ضد **CMM7 (سرطان الجلد الميلانيني الخبيث من النوع 7)** — وهو الأعلى تصنيفاً من بين خمسة أنواع فرعية مختلفة من الميلانوما اكتشفها النموذج. لم يتم تحديد تجارب سريرية مباشرة أو أدبيات محددة لـ CMM7؛ ومع ذلك، تدعم **5 منشورات ما قبل السريرية** آلية بيولوجية معقولة لكارفيلزوميب في دلالة الميلانوما الأوسع.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Multiple myeloma (relapsed/refractory) |
-| Predicted New Indication | CMM7 (Cutaneous Malignant Melanoma type 7) |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L5 (CMM7-specific) / L4 (broader melanoma with preclinical data) |
-| Saudi Arabia Market Status | ✗ Not registered |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | الورم النخاعي المتعدد (متكرر/مقاوم) |
+| الدلالة المتنبأ بها الجديدة | CMM7 (سرطان الجلد الميلانيني الخبيث من النوع 7) |
+| درجة التنبؤ بـ TxGNN | 99.37% |
+| مستوى الدليل | L5 (CMM7 محدد) / L4 (ميلانوما أوسع مع بيانات ما قبل السريرية) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسجل |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not captured in this dataset's formal fields. However, the mechanistic rationale embedded in the evidence pack (from the rank-5 melanoma entry) reveals that carfilzomib acts as an **irreversible inhibitor of the 20S proteasome β5 subunit** (chymotrypsin-like activity). By blocking proteasome-mediated protein degradation, it causes proteotoxic stress accumulation, activates the unfolded protein response (UPR) through the PERK/eIF2α/ATF4/CHOP axis, and ultimately drives tumor cell apoptosis. Unlike the first-generation agent bortezomib, carfilzomib binds covalently and irreversibly, providing more sustained proteasome suppression.
+حالياً، لم يتم التقاط بيانات آلية العمل التفصيلية في حقول مجموعة البيانات الرسمية لهذه الدراسة. ومع ذلك، فإن المنطق الآلي المدمج في مجموعة الأدلة (من دخول الميلانوما من الترتيب 5) يكشف أن كارفيلزوميب يعمل كـ **مثبط لا رجعة فيه للوحدة الفرعية β5 من البروتياز 20S** (نشاط يشابه الكيموتريبسين). من خلال حظر تحطيم البروتين بواسطة البروتياز، يسبب تراكم الإجهاد البروتيني، وينشط استجابة البروتين غير المطوي (UPR) عبر محور PERK/eIF2α/ATF4/CHOP، مما يؤدي في النهاية إلى موت الخلايا السرطانية بالاستماتة. على عكس العامل من الجيل الأول بورتيزوميب، يرتبط كارفيلزوميب بشكل تساهمي ولا رجعة فيه، مما يوفر كبت بروتياز أكثر استدامة.
 
-CMM7 (Cutaneous Malignant Melanoma type 7) is a rare subtype linked to specific germline susceptibility loci. While no CMM7-specific carfilzomib studies exist, the TxGNN model ranked five melanoma subtypes consecutively in the top 13,229 predictions, suggesting a consistent signal across the melanoma disease family. The biological logic is compelling: melanoma cells exhibit high protein synthesis rates driven by MITF-regulated differentiation factors and elevated antigen-presentation demands, creating a heavy proteasome load that theoretically makes them more sensitive to proteasome inhibition than many other solid tumors.
+CMM7 (سرطان الجلد الميلانيني الخبيث من النوع 7) هو نوع فرعي نادر مرتبط بموقع قابلية وراثية محددة. بينما لا توجد دراسات كارفيلزوميب محددة لـ CMM7، صنف نموذج TxGNN خمسة أنواع فرعية من الميلانوما بشكل متتالي في أعلى 13,229 تنبؤ، مما يشير إلى إشارة متسقة عبر عائلة أمراض الميلانوما. المنطق البيولوجي مقنع: تظهر خلايا الميلانوما معدلات تخليق بروتين عالية مدفوعة بعوامل التمايز المنظمة بـ MITF والطلبات العالية لعرض الأنتيجين، مما يخلق حملاً بروتيازياً ثقيلاً يجعلها نظرياً أكثر حساسية لكبت البروتياز من العديد من الأورام الصلبة الأخرى.
 
-The most direct experimental evidence comes from PMID 33671902, in which carfilzomib — alone and in combination with bortezomib — induced synergistic apoptosis in B16-F1 murine melanoma cells, with activation of caspases 3, 8, 9, and 12 confirmed by flow cytometry. This confirms that the mechanistic link between proteasome inhibition and melanoma cell death is biologically real, though clinical validation in human patients is entirely absent.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials investigating carfilzomib in CMM7 or any melanoma subtype have been identified as of the data cutoff (2026-06-15).
+يأتي أكثر الأدلة التجريبية مباشرة من PMID 33671902، حيث حفز كارفيلزوميب — بمفرده وفي تركيبة مع بورتيزوميب — استماتة متآزرة في خلايا الميلانوما B16-F1 من الفئران، مع تأكيد تفعيل الكاسبيز 3 و 8 و 9 و 12 بواسطة قياس التدفق الخلوي. وهذا يؤكد أن الارتباط الميكانيكي بين كبت البروتياز وموت خلايا الميلانوما حقيقي بيولوجياً، على الرغم من أن التحقق السريري في المرضى البشريين غائب تماماً.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-No literature directly linking carfilzomib to CMM7 is available. The following publications address carfilzomib in the broader melanoma context and serve as indirect supporting evidence:
+لم يتم تحديد أي تجارب سريرية تحقق في كارفيلزوميب في CMM7 أو أي نوع فرعي من الميلانوما اعتباراً من تاريخ قطع البيانات (2026-06-15).
 
-| PMID | Year | Type | Journal | Key Findings |
+---
+
+## دليل الأدبيات
+
+لا توجد أدبيات تربط بشكل مباشر كارفيلزوميب بـ CMM7. تعالج المنشورات التالية كارفيلزوميب في سياق الميلانوما الأوسع وتخدم كدليل داعم غير مباشر:
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In vitro preclinical | Biology | Carfilzomib + bortezomib synergistically induces apoptosis in B16-F1 murine melanoma cells via caspase 3, 8, 9, and 12 activation — most directly relevant study |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computational | J Biomol Struct Dyn | Molecular docking and MD simulation across 10 cancer types including melanoma; carfilzomib included as a repurposing candidate against multiple kinase targets |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Basic science | Mol Cancer Res | AIRAP/AIRAPL zinc-finger gene regulates melanoma cell survival via E3-ligase cIAP2 and ubiquitin-proteasome pathway — implicates proteasome dependency in melanoma |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Basic science | Matrix Biology | Carfilzomib activates NF-κB, upregulating heparanase in myeloma tumor cells — identifies a potential resistance mechanism relevant to any solid tumor application |
-| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Preclinical | Leukemia | BET-targeting PROTACs combined with carfilzomib show synergistic activity via proteasomal degradation — supports proteasome pathway as a combinable oncology target |
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | ما قبل السريرية في الجسم الحي | Biology | يحفز كارفيلزوميب + بورتيزوميب استماتة متآزرة في خلايا الميلانوما B16-F1 من الفئران عبر تفعيل الكاسبيز 3 و 8 و 9 و 12 — الدراسة الأكثر ارتباطاً مباشراً |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | حسابي | J Biomol Struct Dyn | الربط الجزيئي والمحاكاة الديناميكية الجزيئية عبر 10 أنواع سرطانية بما فيها الميلانوما؛ كارفيلزوميب مدرج كمرشح لإعادة الاستخدام ضد أهداف كيناز متعددة |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | العلم الأساسي | Mol Cancer Res | جين الإصبع الزنكي AIRAP/AIRAPL ينظم بقاء خلايا الميلانوما عبر E3-ligase cIAP2 ومسار البروتياز-اليوبيكويتين — يشير إلى الاعتماد على البروتياز في الميلانوما |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | العلم الأساسي | Matrix Biology | يفعل كارفيلزوميب NF-κB، مرفقاً بـ heparanase في خلايا ورم النخاع — يحدد آلية مقاومة محتملة ذات صلة بأي تطبيق ورم صلب |
+| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | ما قبل السريرية | Leukemia | تظهر PROTAC الموجهة لـ BET مدمجة مع كارفيلزوميب نشاطاً متآزراً عبر التحطيم البروتيازي — تدعم مسار البروتياز كهدف أورام قابل للدمج |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Carfilzomib is **not registered with the Saudi Food and Drug Authority (SFDA)**. No licenses, approved dosage forms, or approved indications are on record in Saudi Arabia.
+كارفيلزوميب **غير مسجل لدى هيئة الغذاء والدواء السعودية (SFDA)**. لا توجد تراخيص أو أشكال جرعات معتمدة أو دلالات معتمدة في السجل في المملكة العربية السعودية.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Carfilzomib is an antineoplastic agent (proteasome inhibitor used in oncology for multiple myeloma).
+كارفيلزوميب هو عامل مضاد للأورام (مثبط البروتياز المستخدم في الأورام لعلاج الورم النخاعي المتعدد).
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — irreversible proteasome inhibitor (β5 subunit, chymotrypsin-like activity) |
-| Myelosuppression Risk | High — thrombocytopenia and anemia are common class effects; requires regular hematological monitoring |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential and platelets; cardiac function (LVEF — carfilzomib carries known cardiotoxicity risk including heart failure and hypertension); renal function; serum electrolytes |
-| Handling Protection | Must follow cytotoxic drug handling regulations — closed-system transfer devices and appropriate PPE required |
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط بروتياز لا رجعة فيه (وحدة β5، نشاط يشابه الكيموتريبسين) |
+| خطر كبت نقي العظم | مرتفع — قلة الصفيحات والفقر الدموي من تأثيرات الفئة الشائعة؛ يتطلب مراقبة دموية منتظمة |
+| تصنيف الغثيان | منخفض إلى معتدل |
+| عناصر المراقبة | تعداد الدم الكامل مع التفاضل والصفيحات؛ وظيفة القلب (LVEF — كارفيلزوميب يحمل خطر تسمم قلبي معروف بما فيها قصور القلب وارتفاع ضغط الدم)؛ وظائف الكلى؛ الشوارد في المصل |
+| حماية الاستخدام | يجب اتباع لوائح التعامل مع الأدوية السامة للخلايا — تتطلب أجهزة نقل النظام المغلق ومعدات الحماية الشخصية المناسبة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-> **Clinical note:** Local SFDA/TFDA package insert data was not retrieved for this report. Based on the established pharmacological class, carfilzomib (Kyprolis®) carries well-documented risks including **cardiac toxicity** (heart failure, hypertension, cardiomyopathy), **pulmonary complications** (dyspnea, pneumonia), **infusion reactions**, and **thromboembolic events**. Clinicians should consult the full prescribing information before any clinical consideration.
+> **ملاحظة سريرية:** لم يتم استرجاع بيانات نشرة SFDA/TFDA الداخلية لهذا التقرير. بناءً على فئة الدواء الصيدلانية المعروفة، يحمل كارفيلزوميب (Kyprolis®) مخاطر موثقة جيداً بما فيها **تسمم القلب** (قصور القلب وارتفاع ضغط الدم واعتلال عضلة القلب)، **المضاعفات الرئوية** (ضيق التنفس والالتهاب الرئوي)، **تفاعلات التسريب**، و**أحداث الجلطات**. يجب على الأطباء استشارة معلومات الوصفة الكاملة قبل أي اعتبار سريري.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-CMM7 is a rare cutaneous melanoma subtype with zero direct clinical trial or published literature evidence for carfilzomib. While the broader melanoma mechanistic rationale is biologically plausible and supported by in vitro preclinical data, the current evidence base is insufficient (L5 for CMM7 specifically) to justify clinical investment without first establishing preclinical proof-of-concept in human CMM7-representative models.
+**المنطق:**
+CMM7 هو نوع فرعي نادر من سرطان الجلد الميلانيني مع دليل صفر على التجربة السريرية المباشرة أو الأدبيات المنشورة لكارفيلزوميب. بينما يكون المنطق الميكانيكي الأوسع للميلانوما معقولاً بيولوجياً ومدعوماً ببيانات ما قبل السريرية، فإن قاعدة الأدلة الحالية غير كافية (L5 لـ CMM7 على وجه التحديد) لتبرير الاستثمار السريري دون تأسيس أولاً إثبات المفهوم ما قبل السريرية في نماذج CMM7 الممثلة البشرية.
 
-**To proceed, the following is needed:**
-- CMM7-specific in vitro studies (human melanoma cell lines with relevant genetic background) and in vivo xenograft models to confirm proteasome sensitivity in this subtype
-- Formal MOA documentation from DrugBank API query (flagged as DG002 in this pack)
-- SFDA/TFDA package insert review to resolve safety data gaps (flagged as DG001 — currently Blocking for safety screening)
-- Biomarker strategy to identify patient subpopulations most likely to respond (e.g., baseline proteasome activity, UPR activation markers, MITF expression levels)
-- Cardiotoxicity risk assessment framework given carfilzomib's known cardiac safety signal in myeloma patients, which would require careful monitoring protocol design for any solid tumor trial
+**للمضي قدماً، يلزم ما يلي:**
+- دراسات ما قبل السريرية محددة لـ CMM7 (خطوط خلايا الميلانوما البشرية ذات الخلفية الجينية ذات الصلة) ونماذج زراعة خيفية في الجسم الحي لتأكيد حساسية البروتياز في هذا النوع الفرعي
+- توثيق MOA الرسمي من استعلام DrugBank API (محدد باسم DG002 في هذه الحزمة)
+- مراجعة نشرة SFDA/TFDA لحل فجوات بيانات السلامة (محدد باسم DG001 — حالياً يحجب فحص السلامة)
+- استراتيجية البيولوجيات الحيوية لتحديد السكان الفرعيين من المرضى الأكثر احتمالاً للاستجابة (مثل نشاط البروتياز الأساسي وعلامات تفعيل UPR ومستويات التعبير عن MITF)
+- إطار عمل لتقييم خطر تسمم القلب نظراً لإشارة السلامة القلبية المعروفة لكارفيلزوميب في مرضى الورم النخاعي، والتي ستتطلب تصميم بروتوكول مراقبة دقيقة لأي تجربة ورم صلب
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

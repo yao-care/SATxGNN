@@ -29,100 +29,101 @@ indication_count: 4
 
 </div>
 
-# Sacituzumab Govitecan: From Antineoplastic ADC Therapy to Drug-Induced Osteoporosis
+# Sacituzumab Govitecan: من الأجسام المضادة المترافقة بالعقاقير المضادة للأورام إلى هشاشة العظام الناجمة عن الأدوية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Sacituzumab govitecan is a Trop-2-directed antibody-drug conjugate (ADC) that delivers the cytotoxic payload SN-38, a topoisomerase I inhibitor; this evidence pack does not document its original approved indication. The TxGNN model's top prediction is **Drug-Induced Osteoporosis** (score **99.78%**), but this is currently supported by **zero clinical trials** and **zero publications**, and the pack's own mechanistic review finds no plausible biological rationale — cytotoxic chemotherapy is generally associated with worsening, not treating, bone loss.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (drug is an antineoplastic ADC; specific approved indication text unavailable) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Other candidates in this bundle** (all L5, all Hold, all lacking clinical/literature support):
-
-| Rank | Predicted Indication | TxGNN Score | TxGNN Rank |
-|------|----------------------|-------------|-----------|
-| 2 | Severe nonproliferative diabetic retinopathy | 99.69% | 5,526 |
-| 3 | Diabetic retinopathy | 99.60% | 6,776 |
-| 4 | Diabetic cataract | 99.12% | 12,299 |
+Sacituzumab govitecan هو جسم مضاد مترافق بعقار (ADC) موجه نحو Trop-2 يوصل الحمولة السامة للخلايا SN-38، وهو مثبط التوبويسوميراز I؛ هذه حزمة الأدلة لا توثق مؤشره الأصلي الموافق عليه. التنبؤ الأعلى لنموذج TxGNN هو **هشاشة العظام الناجمة عن الأدوية** (درجة **99.78%**)، لكن هذا مدعوم حالياً بـ **صفر تجربة سريرية** و**صفر منشورة**، والمراجعة الآلية الخاصة بالحزمة تجد أنه لا يوجد أساس بيولوجي معقول — العلاج الكيميائي السام للخلايا يرتبط عموماً بتفاقم، وليس معالجة، فقدان العظام.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data for sacituzumab govitecan is not available as a structured field in this evidence pack (Data Gap DG002). However, the pack's own repurposing rationale identifies it as a **Trop-2-targeted ADC** that delivers **SN-38**, a topoisomerase I inhibitor, as its cytotoxic payload — consistent with conventional antineoplastic chemotherapy mechanisms rather than bone- or eye-protective pathways.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لم يتم توثيقه في حزمة الأدلة (الدواء هو جسم مضاد مترافق بعقار مضاد للأورام؛ نص المؤشر الموافق عليه المحدد غير متاح) |
+| المؤشر المتنبأ به الجديد | هشاشة العظام الناجمة عن الأدوية |
+| درجة تنبؤ TxGNN | 99.78% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط، بدون تجارب أو أدبيات داعمة) |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
-Critically, the mechanistic review included in this pack explicitly argues **against** biological plausibility for all four predicted indications:
+**مرشحات أخرى في هذه الحزمة** (جميعها L5، جميعها انتظار، جميعها تفتقر إلى الدعم السريري والأدبي):
 
-- **Drug-induced osteoporosis**: No known osteogenic/anti-resorptive pathway exists for this drug; cytotoxic chemotherapy is more typically a *cause* of bone loss, which is the opposite direction of the predicted therapeutic use.
-- **Diabetic retinopathy / severe nonproliferative diabetic retinopathy**: No VEGF-pathway or retinal vascular-protective activity is known; systemic cytotoxicity (including potential ocular toxicity) runs counter to the mechanism needed to treat retinal microvascular disease.
-- **Diabetic cataract**: No known activity on lens metabolism or polyol pathways; no pharmacological basis for cataract prevention or treatment.
-
-In all four cases, these appear to be graph-proximity associations from the TxGNN model rather than mechanistically grounded hypotheses, and the evidence pack itself flags the mechanistic link as **not established** for each candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| الترتيب | المؤشر المتنبأ به | درجة TxGNN | ترتيب TxGNN |
+|---------|------------------|-----------|------------|
+| 2 | اعتلال الشبكية السكري غير التكاثري الشديد | 99.69% | 5,526 |
+| 3 | اعتلال الشبكية السكري | 99.60% | 6,776 |
+| 4 | إعتام عدسة العين السكري | 99.12% | 12,299 |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Sacituzumab govitecan is **not currently marketed** in Saudi Arabia (0 authorizations on record); no product listings are available to summarize.
+بيانات آلية العمل المفصلة لـ sacituzumab govitecan غير متاحة كحقل منظم في حزمة الأدلة هذه (فجوة البيانات DG002). ومع ذلك، حصافة إعادة الاستخدام الخاصة بالحزمة نفسها تحدده كـ **جسم مضاد مترافق بعقار موجه نحو Trop-2** يوصل **SN-38**، وهو مثبط التوبويسوميراز I، كحمولته السامة للخلايا — وهو متسق مع آليات العلاج الكيميائي المضادة للأورام التقليدية وليس آليات الحماية العظمية أو العينية.
 
----
+بشكل حاسم، المراجعة الآلية المدرجة في هذه الحزمة تجادل بشكل صريح **ضد** الاحتمالية البيولوجية لجميع المؤشرات الأربعة المتنبأ بها:
 
-## Cytotoxicity
+- **هشاشة العظام الناجمة عن الأدوية**: لا توجد مسارات معروفة لتكوين العظام/مثبطة لامتصاصها لهذا الدواء؛ العلاج الكيميائي السام للخلايا هو بشكل أكثر نموذجياً **سبب** فقدان العظام، وهو الاتجاه المعاكس للاستخدام العلاجي المتنبأ به.
+- **اعتلال الشبكية السكري / اعتلال الشبكية السكري غير التكاثري الشديد**: لا توجد نشاطات معروفة في مسار VEGF أو الحماية الوعائية الشبكية؛ السمية الجهازية (بما في ذلك السمية العينية المحتملة) تتعارض مع الآلية المطلوبة لعلاج أمراض الأوعية الدقيقة في الشبكية.
+- **إعتام عدسة العين السكري**: لا توجد نشاطات معروفة على استقلاب العدسة أو مسارات البولييول؛ لا توجد أساس دوائي لمنع إعتام عدسة العين أو معالجته.
 
-Sacituzumab govitecan is an antibody-drug conjugate carrying a cytotoxic chemotherapy payload, meeting the antineoplastic classification criteria.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ADC) delivering a conventional cytotoxic payload (SN-38, topoisomerase I inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+في جميع الحالات الأربع، تبدو هذه بمثابة جمعيات قرب الرسم البياني من نموذج TxGNN بدلاً من أن تكون فرضيات مسنودة بآليات، والحزمة نفسها تشير إلى الارتباط الآلي كـ **غير مُثبَّت** لكل مرشح.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-All four predicted indications rest on TxGNN model scores alone (L5), with no supporting clinical trials or literature, and the pack's own mechanistic analysis argues against biological plausibility for each — in the case of drug-induced osteoporosis, the drug's cytotoxic profile more plausibly works against, not toward, the predicted benefit. The drug is also unmarketed in Saudi Arabia, and core safety/MOA data are marked as blocking gaps.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Verified mechanism-of-action data from DrugBank or primary literature — **High** priority gap (DG002)
-- An independent mechanistic re-evaluation given that internal review already contradicts the top-ranked prediction
-- Any real-world evidence, case reports, or preclinical data specifically linking Trop-2/SN-38 ADCs to bone or ocular endpoints before advancing beyond S0
+## معلومات السوق السعودي
+
+Sacituzumab govitecan **غير مسوق حالياً** في المملكة العربية السعودية (0 تفويضات في السجل)؛ لا توجد قوائم منتجات متاحة للتلخيص.
+
+---
+
+## السمية للخلايا
+
+Sacituzumab govitecan هو جسم مضاد مترافق بعقار يحمل حمولة علاج كيميائي سامة للخلايا، مما يستوفي معايير التصنيف المضاد للأورام.
+
+| العنصر | المحتوى |
+|------|--------|
+| تصنيف السمية للخلايا | العلاج الموجه (ADC) الذي يوصل حمولة سامة للخلايا تقليدية (SN-38، مثبط التوبويسوميراز I) |
+| خطر قلة الخلايا النخاعية | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+جميع المؤشرات الأربعة المتنبأ بها تستند إلى درجات نموذج TxGNN وحدها (L5)، بدون تجارب سريرية أو أدبيات داعمة، والمراجعة الآلية الخاصة بالحزمة تجادل ضد الاحتمالية البيولوجية لكل منها — في حالة هشاشة العظام الناجمة عن الأدوية، ملف السمية للخلايا في الدواء يعمل بشكل معقول ضد، وليس نحو، الفائدة المتنبأ بها. الدواء أيضاً غير مسوق في المملكة العربية السعودية، وبيانات السلامة/آلية العمل الأساسية منسوبة إلى فجوات بيانات حاجزة.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة المنتج من هيئة الغذاء والدواء السعودية / الشركة المصنعة (التحذيرات والموانع) — حالياً فجوة بيانات **حاجزة** (DG001)
+- بيانات آلية العمل المتحققة من DrugBank أو الأدبيات الأولية — فجوة **أولوية عالية** (DG002)
+- إعادة تقييم آلية مستقلة نظراً لأن المراجعة الداخلية تتعارض بالفعل مع التنبؤ الأعلى ترتيباً
+- أي أدلة واقعية أو تقارير حالات أو بيانات ما قبل السريرية مرتبطة بشكل محدد بـ Trop-2 / ADCs SN-38 بنقاط نهاية عظمية أو عينية قبل المتابعة بما يتجاوز S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

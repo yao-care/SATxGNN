@@ -29,109 +29,110 @@ indication_count: 10
 
 </div>
 
-# Defibrotide: From Hepatic Veno-Occlusive Disease to Thrombotic Thrombocytopenic Purpura
+# ديفيبروتيد: من مرض الانسداد الوريدي الكبدي إلى الفرفرية الناعمة الخثرية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Defibrotide is a polydeoxyribonucleotide antithrombotic agent with established international use in hepatic veno-occlusive disease / sinusoidal obstruction syndrome (VOD/SOS) following hematopoietic stem cell transplantation (HSCT), though it is not currently registered in Taiwan.
-The TxGNN model predicts potential efficacy across 10 platelet and vascular disorders; among these, **Thrombotic Thrombocytopenic Purpura (TTP)** carries the strongest evidence base, supported by **11 publications** spanning case reports, case series, reviews, and a 2023 in vitro translational study — though no dedicated clinical trials have been registered for this indication.
-The highest-scoring TxGNN prediction (pseudo-von Willebrand disease, 99.91%) lacks any supporting evidence and remains at Hold stage.
+ديفيبروتيد هو عامل مضاد للتخثر من فئة متعددات ديوكسيريبونوكليوتيد يتمتع باستخدام دولي معروف في مرض الانسداد الوريدي الكبدي / متلازمة انسداد الجيوب الأنفية (VOD/SOS) الذي يلي زراعة الخلايا الجذعية造血 (HSCT)، رغم أنه غير مسجل حالياً في تايوان.
+يتنبأ نموذج TxGNN بفعالية محتملة عبر 10 اضطرابات صفيحية وأوعية دموية؛ من بينها، **الفرفرية الناعمة الخثرية (TTP)** تحمل أقوى قاعدة بيانات إثباتية، مدعومة بـ **11 منشورة** تغطي تقارير الحالات والسلاسل الحالاتية والمراجعات ودراسة ترجمية في المختبر من عام 2023 — رغم أنه لم يتم تسجيل أي تجارب سريرية مكرسة لهذا المؤشر.
+أعلى تنبؤ في TxGNN (شبه نقص عامل فون ويلبراند، 99.91%) يفتقر إلى أي دليل داعم ويبقى في مرحلة الانتظار.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Hepatic Veno-Occlusive Disease / Sinusoidal Obstruction Syndrome (VOD/SOS) post-HSCT (inferred from Phase 3 trial NCT02851407; no Taiwan registration) |
-| Predicted New Indication (Highest Evidence) | Thrombotic Thrombocytopenic Purpura (TTP) — TxGNN Rank #4 |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L3 (case series, observational studies, in vitro translational study) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | مرض الانسداد الوريدي الكبدي / متلازمة انسداد الجيوب الأنفية (VOD/SOS) بعد زراعة الخلايا الجذعية造血 (مستنتج من التجربة المرحلة 3 NCT02851407؛ لا يوجد تسجيل في تايوان) |
+| مؤشر جديد متنبأ به (أعلى إثبات) | الفرفرية الناعمة الخثرية (TTP) — رتبة TxGNN #4 |
+| درجة التنبؤ في TxGNN | 99.71% |
+| مستوى الإثبات | L3 (سلاسل حالاتية، دراسات رصدية، دراسة ترجمية في المختبر) |
+| حالة السوق في تايوان | غير مسوقة |
+| عدد التخويلات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Defibrotide is a single-stranded polydeoxyribonucleotide (derived from porcine intestinal mucosa) whose clinical success in VOD/SOS reflects a multi-modal mechanism centered on restoring endothelial homeostasis under microvascular stress. While detailed MOA data is unavailable in the current data package, its known actions include: stimulating endothelial release of prostacyclin (PGI₂) and tissue plasminogen activator (tPA), downregulating adhesion molecules (E-selectin, VCAM-1), and signaling through adenosine receptors (A1/A2) to dampen platelet activation and microvascular thrombosis.
+ديفيبروتيد هو متعدد ديوكسيريبونوكليوتيد أحادي الشريط (مشتق من الغشاء المخاطي المعوي الخنزيري) حيث يعكس نجاحه السريري في VOD/SOS آلية متعددة الأوجه تتمحور حول استعادة التوازن البطاني تحت الإجهاد الميكروعائي. بينما تفتقد بيانات آلية العمل التفصيلية الحالية في حزمة البيانات، تشمل إجراءاته المعروفة: تحفيز إفراز البطانة للبروستاسيكلين (PGI₂) وفعّال تحلل البلازمين النسيجي (tPA)، وتنظيم سلبي لجزيئات الالتصاق (E-selectin، VCAM-1)، والإشارات عبر مستقبلات الأدينوسين (A1/A2) لتثبيط تفعيل الصفائح الدموية وتخثر الأوعية الدقيقة.
 
-TTP and VOD/SOS share a critical common pathology: widespread microvascular endothelial injury driving platelet-rich microthrombus formation and end-organ ischemia. In TTP, ADAMTS13 deficiency allows ultra-large vWF multimers to accumulate in the circulation, triggering uncontrolled platelet adhesion and consumption — precisely the endothelial–platelet axis that Defibrotide's mechanism opposes through PGI₂ induction and adhesion molecule suppression. This mechanistic overlap creates a biologically plausible rationale for repurposing.
+يشترك TTP و VOD/SOS في علم الأمراض الحرج المشترك: إصابة بطانية واسعة النطاق في الأوعية الدقيقة تدفع تكون جلطات غنية بالصفائح الدموية وفشل الأعضاء الطرفية. في TTP، يسمح نقص ADAMTS13 بتراكم متعددات عامل فون ويلبراند فائقة الحجم في الدوران، مما يثير التصاق صفيحي غير منضبوط واستهلاك — بالضبط المحور البطاني–صفيحي الذي يعارضه آلية ديفيبروتيد من خلال حث PGI₂ وقمع جزيء الالتصاق. يخلق هذا التداخل الآلي سبباً معقولاً بيولوجياً لإعادة الاستخدام.
 
-The strongest contemporary evidence comes from a 2023 translational study (PMID 37001283) that directly demonstrated Defibrotide's ability to mitigate endothelial cell injury caused by plasmas from COVID-19 patients with TTP/aHUS-like thrombotic microangiopathies. This in vitro finding, combined with a coherent series of historical clinical reports dating from 1984 to 2002, provides a consistent mechanistic-to-clinical evidence thread. One important caveat: PMID 7896218 (1994) documents a case of TTP occurring *following* Defibrotide administration — whether causal or coincidental, this signal must be treated as a priority safety monitoring item in any future prospective study.
+يأتي أقوى إثبات معاصر من دراسة ترجمية لعام 2023 (PMID 37001283) التي أظهرت مباشرة قدرة ديفيبروتيد على تخفيف إصابة الخلايا البطانية الناجمة عن البلازما من مرضى COVID-19 الذين يعانون من microangiopathies الخثرية شبيهة بـ TTP/aHUS. يوفر هذا الاكتشاف في المختبر، جنباً إلى جنب مع سلسلة متماسكة من التقارير السريرية التاريخية التي تعود إلى 1984 إلى 2002، خيطاً متسقاً من الإثبات الآلي إلى السريري. تحفظ مهمة واحدة: PMID 7896218 (1994) يوثّق حالة TTP تحدث *بعد* إعطاء ديفيبروتيد — سواء كان السبب أو المصادفة، يجب التعامل مع هذه الإشارة كعنصر مراقبة سلامة ذو أولوية في أي دراسة مستقبلية.
 
 ---
 
-## All Predicted Indications — Summary
+## جميع المؤشرات المتنبأ بها — ملخص
 
-| Rank | Indication | TxGNN Score | Evidence Level | Decision |
+| الرتبة | المؤشر | درجة TxGNN | مستوى الإثبات | القرار |
 |------|-----------|-------------|----------------|----------|
-| 1 | Pseudo-von Willebrand disease | 99.91% | L5 | Hold |
-| 2 | Primary release disorder of platelets | 99.91% | L4 | Research Question |
-| 3 | Glanzmann thrombasthenia | 99.88% | L5 | Hold |
-| **4** | **Thrombotic thrombocytopenic purpura** | **99.71%** | **L3** | **Proceed with Guardrails** |
-| 5 | Scott syndrome | 99.67% | L5 | Hold |
-| 6 | Bleeding diathesis due to collagen receptor defect | 99.43% | L5 | Hold |
-| 7 | Hemorrhagic disorder due to constitutional thrombocytopenia | 99.39% | L5 | Hold |
-| 8 | Congenital factor V deficiency | 99.30% | L5 | Hold |
-| 9 | Fetal and neonatal alloimmune thrombocytopenia | 99.23% | L5 | Hold |
-| 10 | Thrombocytopenic purpura (broad category) | 99.22% | L3 | Research Question |
+| 1 | شبه نقص عامل فون ويلبراند | 99.91% | L5 | انتظار |
+| 2 | اضطراب إفراز أولي للصفائح الدموية | 99.91% | L4 | سؤال بحثي |
+| 3 | رمد غلانزمان | 99.88% | L5 | انتظار |
+| **4** | **الفرفرية الناعمة الخثرية** | **99.71%** | **L3** | **المتابعة مع ضمانات** |
+| 5 | متلازمة سكوت | 99.67% | L5 | انتظار |
+| 6 | اضطراب النزف بسبب خلل في مستقبل الكولاجين | 99.43% | L5 | انتظار |
+| 7 | اضطراب نزفي بسبب نقص صفيحات دم دستوري | 99.39% | L5 | انتظار |
+| 8 | نقص عامل V الخلقي | 99.30% | L5 | انتظار |
+| 9 | فرفرية الأرومات الجنينية والوليدية المناعية | 99.23% | L5 | انتظار |
+| 10 | الفرفرية الناعمة (فئة عريضة) | 99.22% | L3 | سؤال بحثي |
 
-**Note on Hold recommendations:** Ranks 1, 3, 5, 6, 7, 8, 9 are mechanistically incompatible with Defibrotide's known pharmacology (gene-defect disorders, PS-flipase pathway diseases, receptor-deficiency disorders) and should not advance without major new mechanistic evidence.
+**ملاحظة حول توصيات الانتظار:** الرتب 1، 3، 5، 6، 7، 8، 9 غير متوافقة آلياً مع الصيدلة المعروفة لديفيبروتيد (اضطرابات معيبة بالجينات، أمراض مسار PS-flipase، اضطرابات نقص المستقبلات) ولا ينبغي أن تتقدم بدون إثبات آلي رئيسي جديد.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-No clinical trials specifically targeting TTP with Defibrotide are currently registered. The Phase 3 trial below is the primary approved-indication trial and provides the most complete safety database for Defibrotide in an HSCT context, with indirect relevance to platelet and endothelial endpoints shared with TTP.
+لا توجد تجارب سريرية تستهدف TTP مع ديفيبروتيد حالياً مسجلة. التجربة المرحلة 3 أدناه هي تجربة المؤشر الموافق عليه الأساسي وتوفر قاعدة البيانات الأمان الأكثر اكتمالاً لديفيبروتيد في سياق HSCT، مع صلة غير مباشرة لنقاط النهاية للصفيحات الدموية والبطانية المشتركة مع TTP.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاكتشافات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02851407](https://clinicaltrials.gov/study/NCT02851407) | Phase 3 | Completed | 372 | Defibrotide vs best supportive care for VOD/SOS prevention in high-risk adult and pediatric HSCT patients; primary FDA-registration trial for Defibrotide — provides comprehensive safety and tolerability database; HSCT setting overlaps with TTP-adjacent platelet consumption and endothelial injury events |
+| [NCT02851407](https://clinicaltrials.gov/study/NCT02851407) | المرحلة 3 | اكتملت | 372 | ديفيبروتيد مقابل أفضل رعاية داعمة لوقاية VOD/SOS في مرضى HSCT البالغين والأطفال عالي الخطورة؛ تجربة تسجيل FDA الأساسية لديفيبروتيد — توفر قاعدة بيانات أمان وتحمل شاملة؛ إعداد HSCT يتداخل مع أحداث استهلاك الصفائح الدموية والإصابة البطانية المجاورة لـ TTP |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
 |------|-----|------|------|---------|
-| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | Translational/In vitro | Thrombosis Research | Defibrotide directly mitigates microvascular endothelial cell injury induced by COVID-19 plasmas; protective against TTP/aHUS/VOD-associated microangiopathy pathways in vitro — strongest contemporary mechanistic link |
-| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | Case Series | Bone Marrow Transplantation | Defibrotide described as a promising treatment for TTP in bone marrow transplant patients |
-| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | Case Report | Clin Appl Thromb Hemost | Defibrotide induced medium-to-long-term remission in patients with recurrent TTP refractory to standard plasma exchange |
-| [8317470](https://pubmed.ncbi.nlm.nih.gov/8317470/) | 1993 | Case Series | Am J Hematol | Case series demonstrating clinical response to defibrotide treatment in TTP |
-| [6547211](https://pubmed.ncbi.nlm.nih.gov/6547211/) | 1984 | Pilot Study | Nephron | Early pilot study of a new antithrombotic agent (defibrotide) in acute renal failure due to HUS and TTP |
-| [3754836](https://pubmed.ncbi.nlm.nih.gov/3754836/) | 1986 | Observational | Haemostasis | Defibrotide in acute renal failure caused by thrombotic microangiopathy; early evidence of anti-TMA activity |
-| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | Review | Drugs | Comprehensive review of TA-TMA diagnosis and treatment in HSCT; Defibrotide mentioned among therapeutic options for a condition with 60–90% mortality despite treatment |
-| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | Review | Bone Marrow Transplantation | TA-TMA management review: highlights pathophysiological overlap with TTP and endothelial injury shared with Defibrotide's target mechanism |
-| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | Review | Jpn J Clin Hematol | Management of transplant-associated TMA; vascular endothelial insult as central pathogenesis — directly relevant to Defibrotide's endothelial-protective mechanism |
-| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | Adverse Event Report | Haematologica | ⚠️ **Safety Signal**: TTP documented after Defibrotide therapy — causal vs. coincidental relationship unresolved; must be incorporated as a monitoring endpoint in any future prospective study |
+| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | ترجمية/في المختبر | Thrombosis Research | يخفف ديفيبروتيد مباشرة من إصابة الخلايا البطانية الميكروعائية المستحثة ببلازما COVID-19؛ وقائي ضد مسارات microangiopathy المرتبطة بـ TTP/aHUS/VOD في المختبر — أقوى رابط آلي معاصر |
+| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | سلسلة حالات | Bone Marrow Transplantation | يوصف ديفيبروتيد كعلاج واعد لـ TTP في مرضى زراعة نخاع العظم |
+| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | تقرير حالة | Clin Appl Thromb Hemost | استحث ديفيبروتيد هدأة متوسطة إلى طويلة الأمد في مرضى TTP المتكرر المقاوم لتبادل البلازما القياسي |
+| [8317470](https://pubmed.ncbi.nlm.nih.gov/8317470/) | 1993 | سلسلة حالات | Am J Hematol | سلسلة حالات تثبت الاستجابة السريرية لعلاج ديفيبروتيد في TTP |
+| [6547211](https://pubmed.ncbi.nlm.nih.gov/6547211/) | 1984 | دراسة تجريبية | Nephron | دراسة تجريبية مبكرة لعامل مضاد للتخثر جديد (ديفيبروتيد) في الفشل الكلوي الحاد بسبب HUS و TTP |
+| [3754836](https://pubmed.ncbi.nlm.nih.gov/3754836/) | 1986 | رصدي | Haemostasis | ديفيبروتيد في الفشل الكلوي الحاد الناجم عن microangiopathy الخثري؛ إثبات مبكر للنشاط المضاد لـ TMA |
+| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | مراجعة | Drugs | مراجعة شاملة لتشخيص TA-TMA والعلاج في HSCT؛ ذكر ديفيبروتيد من بين خيارات العلاج للحالة ذات معدل الوفيات 60–90% رغم العلاج |
+| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | مراجعة | Bone Marrow Transplantation | مراجعة إدارة TA-TMA: يسلط الضوء على التداخل الباثوفيزيولوجي مع TTP والإصابة البطانية المشتركة مع آلية هدف ديفيبروتيد |
+| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | مراجعة | Jpn J Clin Hematol | إدارة TMA المرتبط بالزراعة؛ الإصابة البطانية الوعائية كمسببات مركزية — مباشرة ذات صلة بآلية ديفيبروتيد الواقية للبطانية |
+| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | تقرير حدث سلبي | Haematologica | ⚠️ **إشارة السلامة**: وثّق TTP بعد العلاج بـ ديفيبروتيد — العلاقة السببية مقابل المصادفة غير محلولة؛ يجب أن تُدرج كنقطة نهاية مراقبة في أي دراسة مستقبلية |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمان
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
 
-> **⚠️ Priority Safety Signal**: PMID 7896218 (1994, *Haematologica*) reports a case of TTP occurring after Defibrotide administration. The causal vs. coincidental nature of this event remains unresolved in the literature. Any prospective investigation of Defibrotide in TTP must include TTP exacerbation as a pre-specified safety monitoring endpoint, with pre-planned stopping rules.
+> **⚠️ إشارة أولوية السلامة**: PMID 7896218 (1994، *Haematologica*) يوثّق حالة TTP تحدث بعد إعطاء ديفيبروتيد. تبقى الطبيعة السببية مقابل المصادفة لهذا الحدث غير محلولة في الأدبيات. يجب أن تتضمن أي تحقيق مستقبلي لديفيبروتيد في TTP تفاقم TTP كنقطة نهاية مراقبة محددة مسبقاً، مع قواعد إيقاف مخطط لها مسبقاً.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-Defibrotide's endothelial-protective and anti-platelet-adhesion mechanisms are mechanistically congruent with TTP pathophysiology, a 2023 in vitro study provides direct experimental support, and multiple historical clinical case reports document clinical use in TTP patients — together constituting L3 evidence sufficient to advance to structured investigation.
+**المبرر:**
+آليات ديفيبروتيد الواقية للبطانية والمضادة لالتصاق الصفائح الدموية متوافقة آلياً مع علم أمراض TTP، توفر دراسة في المختبر عام 2023 دعماً تجريبياً مباشراً، وتوثّق تقارير حالات سريرية تاريخية متعددة استخدام سريري في مرضى TTP — معاً يشكل إثباتاً من L3 كافياً للتقدم إلى التحقيق المنظم.
 
-**To proceed, the following is needed:**
-- Complete MOA documentation (DrugBank API query — data gap DG002 pending)
-- Review of full package insert warnings and contraindications (data gap DG001)
-- Pharmacovigilance adjudication of PMID 7896218 adverse event signal before designing TTP studies
-- Pilot investigator-initiated trial (IIT) or registry study in the HSCT-associated TMA/TTP subpopulation, where Defibrotide is already co-administered for VOD prophylaxis — enabling opportunistic observation of TTP endpoints
-- Drug-drug interaction profile assessment (no DDI data currently available)
-- Pre-IND regulatory consultation on feasibility of an indication expansion from VOD/SOS to TTP
-- Taiwan registration pathway assessment: Defibrotide is not currently marketed in Taiwan; compassionate use or accelerated review eligibility for orphan TTP indication should be explored
+**للمتابعة، يلزم الآتي:**
+- وثائق آلية العمل الكاملة (استعلام DrugBank API — فجوة بيانات DG002 معلقة)
+- مراجعة تحذيرات ملحق العبوة الكاملة والموانع (فجوة بيانات DG001)
+- تقييم pharmacovigilance لإشارة الحدث السلبي PMID 7896218 قبل تصميم دراسات TTP
+- تجربة معينة من الباحث (IIT) أو دراسة سجل في فئة سكانية من HSCT-associated TMA/TTP، حيث يتم بالفعل إعطاء ديفيبروتيد مع VOD prophylaxis — مما يتيح الملاحظة العفوية لنقاط النهاية لـ TTP
+- تقييم ملف تفاعل الدواء مع الدواء (لا توجد بيانات DDI حالياً)
+- استشارة تنظيمية قبل IND حول جدوى توسيع المؤشر من VOD/SOS إلى TTP
+- تقييم مسار التسجيل في تايوان: ديفيبروتيد غير مسوق حالياً في تايوان؛ يجب استكشاف أهلية الاستخدام بدافع الرحمة أو المراجعة المعجلة لمؤشر TTP النادر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

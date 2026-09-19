@@ -29,63 +29,65 @@ indication_count: 2
 
 </div>
 
-# Fentanyl: From Severe Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# الفنتانيل: من إدارة الألم الشديد إلى متلازمة الكلى غير المستجيبة لهرمون مضاد الإدرار
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Fentanyl is a potent synthetic opioid, historically used for severe acute/chronic pain management and as an anesthesia adjunct. The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this direction is currently supported only by the model score — **no clinical trials and no literature** have been found.
+الفنتانيل هو مسكن اصطناعي قوي، يُستخدم تاريخياً في إدارة الألم الحاد/المزمن الشديد وكمساعد في التخدير. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة الكلى غير المستجيبة لهرمون مضاد الإدرار (NSIAD)**، لكن هذا الاتجاه يُدعم حالياً فقط بنقاط النموذج — **لم يتم العثور على أي تجارب سريرية ولا أدبيات**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Severe pain management / anesthesia (opioid analgesic) — not present in this Evidence Pack, based on general drug identity knowledge |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.46% (rank 8252) |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | إدارة الألم الشديد / التخدير (مسكن أفيوني) — غير موجود في هذه الحزمة الدليلية، بناءً على المعرفة العامة بهوية الدواء |
+| الاستطباب الجديد المتنبأ به | متلازمة الكلى غير المستجيبة لهرمون مضاد الإدرار (NSIAD) |
+| درجة تنبؤ TxGNN | 99.46% (الترتيب 8252) |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | ✗ غير مسوّق (غير مسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | عدم المتابعة حالياً |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap — DrugBank MOA query pending). Based on general pharmacological knowledge, fentanyl is a highly potent mu-opioid receptor agonist. Opioids of this class are well known to stimulate non-osmotic release of antidiuretic hormone (ADH), which can produce dilutional hyponatremia and a clinical picture resembling the Syndrome of Inappropriate Antidiuretic Hormone secretion (SIADH).
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (تم الإشارة إليها كفجوة بيانات عالية الخطورة — استعلام DrugBank MOA قيد الانتظار). بناءً على المعرفة الدوائية العامة، الفنتانيل هو ناهض قوي جداً لمستقبلات الأفيون من نوع μ. من المعروف أن الأفيونيات من هذه الفئة تحفز الإفراز غير المرتبط بالضغط الأسموزي لهرمون مضاد الإدرار (ADH)، مما قد يؤدي إلى نقص صوديوم في الدم بسبب التمييع وصورة سريرية تشبه متلازمة الإفراز غير المناسب لهرمون مضاد الإدرار (SIADH).
 
-NSIAD produces an identical clinical and biochemical picture to SIADH, but its underlying cause is a constitutively active vasopressin V2 receptor mutation rather than elevated circulating ADH. This creates only an **indirect mechanistic link**: fentanyl's opioid-driven ADH stimulation could plausibly phenocopy or aggravate an antidiuretic state, but it would not correct — and could theoretically worsen — the receptor-level defect that actually defines NSIAD. There is no original-indication overlap to reinforce this connection (fentanyl has no history of use in water-balance or renal tubular disorders).
+ينتج عن NSIAD نفس الصورة السريرية والكيميائية الحيوية مثل SIADH، لكن السبب الأساسي له هو طفرة مستقبل V2 المضاد للإدرار المنشطة بشكل دائم بدلاً من ارتفاع هرمون ADH المتدول. يؤدي هذا إلى **رابط آلي غير مباشر فقط**: قد يحاكي تحفيز ADH الناجم عن الأفيون حالة مدرة للبول أو يفاقمها، لكنه لن يصحح — وقد يفاقم نظرياً — خلل مستقبل على المستوى الجزيئي الذي يحدد NSIAD بالفعل. لا توجد تداخلات استطباب أصلية لتعزيز هذا الاتصال (الفنتانيل ليس له تاريخ استخدام في اضطرابات التوازن المائي أو أمراض الأنابيب الكلوية).
 
-Given the absence of any supporting clinical trial or literature evidence, this prediction should be treated as a hypothesis generated purely by the TxGNN model, not as a mechanistically validated repurposing candidate.
+نظراً لعدم وجود أي دليل دعم من تجربة سريرية أو أدبيات، يجب التعامل مع هذا التنبؤ كفرضية تم إنشاؤها بحتة بواسطة نموذج TxGNN، وليس كمرشح إعادة استخدام تم التحقق من آليته.
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Fentanyl is currently **not marketed** in this jurisdiction (0 authorizations on file), so no product/license table is available.
+الفنتانيل حالياً **غير مسوّق** في هذه الولاية القضائية (0 تفويضات في الملف)، لذلك لا توجد جدول منتج/ترخيص متاح.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (Note: TFDA package insert warnings/contraindications are marked as a **Blocking** data gap — DG001 — and have not yet been retrieved.)
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (ملاحظة: تحذيرات ومضادات استطباب نشرة حزمة TFDA يتم تصنيفها كفجوة بيانات **حاجزة** — DG001 — ولم يتم استردادها بعد.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: عدم المتابعة حالياً**
 
-**Rationale:**
-The TxGNN score is high, but the prediction is unsupported by any clinical trial or literature evidence, the mechanistic link to NSIAD is indirect and speculative, and the drug is not currently marketed in this jurisdiction. A Blocking-severity safety data gap (TFDA package insert) also precludes even a preliminary safety screen (S1).
+**الأساس المنطقي:**
+درجة TxGNN عالية، لكن التنبؤ غير مدعوم بأي تجربة سريرية أو دليل أدبيات، والرابط الآلي لـ NSIAD غير مباشر وتخميني، والدواء غير مسوّق حالياً في هذه الولاية القضائية. يعيق أيضاً فجوة بيانات سلامة حاجزة (نشرة حزمة TFDA) حتى فحص السلامة الأولي (S1).
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — required before any safety pre-screen
-- Confirmed mechanism of action data from DrugBank
-- Preclinical or case-level evidence directly linking opioid pharmacology to NSIAD/antidiuretic states
-- Regulatory pathway assessment given current non-marketed status
+**للمتابعة، يلزم ما يلي:**
+- نشرة حزمة TFDA (التحذيرات/مضادات الاستطباب) — مطلوب قبل أي فحص سلامة أولي
+- بيانات آلية عمل مؤكدة من DrugBank
+- دليل تجريبي سابق أو دليل على مستوى الحالات يربط مباشرة بين الصيدلة الأفيونية وحالات NSIAD/مدرة للبول
+- تقييم المسار التنظيمي نظراً لحالة عدم التسويق الحالية
 
 ---
-*Note: A second, lower-priority candidate (Tourette syndrome, TxGNN score 99.05%, rank 13027) was also evaluated in this Evidence Pack. It carries the same Hold recommendation (L5/S0) — the proposed mechanistic link (endogenous opioid hypothesis in tic modulation) is weak, direction-uncertain, and mismatched with fentanyl's short-acting, high-abuse-liability profile versus the chronic pediatric/adolescent-onset nature of Tourette syndrome. No clinical trials or literature support this direction either.*
+
+*ملاحظة: تم تقييم مرشح ثانٍ ذو أولوية أقل (متلازمة توريت، نقاط TxGNN 99.05%، الترتيب 13027) أيضاً في هذه الحزمة الدليلية. يحمل نفس توصية عدم المتابعة حالياً (L5/S0) — الرابط الآلي المقترح (فرضية الأفيون الداخلية في تعديل التشنجات) ضعيف واتجاه غير مؤكد وغير متطابق مع ملف الفنتانيل قصير المفعول وعالي إمكانية الإدمان مقابل الطبيعة المزمنة لمتلازمة توريت ذات الظهور في مرحلة الطفولة/المراهقة. لا توجد تجارب سريرية أو أدبيات تدعم هذا الاتجاه أيضاً.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

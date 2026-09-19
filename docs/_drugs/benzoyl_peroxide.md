@@ -29,60 +29,61 @@ indication_count: 4
 
 </div>
 
-# Benzoyl Peroxide: From Acne Vulgaris to Vulvar Inverted Follicular Keratosis
+# بيروكسيد البنزويل: من حب الشباب إلى التقران المقلوب الجريبي بالأعضاء التناسلية الخارجية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Benzoyl peroxide (BPO) is a topical oxidizing agent widely established for the treatment of acne vulgaris, exerting antibacterial and keratolytic effects on follicular units. The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, yet this prediction is currently supported by **no clinical trials** and **no published literature**. Without biological rationale beyond knowledge-graph node proximity, the overall evidence posture is model prediction only (L5).
+بيروكسيد البنزويل (BPO) هو عامل مؤكسد موضعي معروف على نطاق واسع لعلاج حب الشباب الشائع، حيث يمارس تأثيراً مضاداً للبكتيريا وتأثيراً قرنياً على الوحدات الجريبية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **التقران المقلوب الجريبي بالأعضاء التناسلية الخارجية**، إلا أن هذا التنبؤ حالياً لا يدعمه **أي تجربة سريرية** و**لا أي أدب منشور**. بدون تبرير بيولوجي يتجاوز قرب عقدة الرسم البياني للمعرفة، الموقف الإثباتي الكلي هو التنبؤ بالنموذج فقط (L5).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|---------|
-| Original Indication | Acne vulgaris (established use; no formal indication text on record in this dataset) |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | حب الشباب الشائع (استخدام معروف؛ لا يوجد نص استطباب رسمي في السجل في هذه مجموعة البيانات) |
+| الاستطباب الجديد المتنبأ به | التقران المقلوب الجريبي بالأعضاء التناسلية الخارجية |
+| درجة التنبؤ بنموذج TxGNN | 99.92% |
+| مستوى الإثبات | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | إيقاف مؤقت |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Benzoyl peroxide acts as a potent oxidizing agent that releases free-radical oxygen species on contact with skin. This leads to direct bactericidal activity against *Cutibacterium acnes* and secondary keratolytic effects — softening and dissolving the keratin plug that obstructs follicular ostia. These two combined actions explain BPO's long-standing role in acne vulgaris management.
+بيروكسيد البنزويل يعمل كعامل مؤكسد قوي يحرر أنواع أكسجين الجذور الحرة عند التلامس مع الجلد. وهذا يؤدي إلى نشاط جرثومي مباشر ضد *Cutibacterium acnes* وتأثيرات قرنية ثانوية — تليين وإذابة السدادة الكيراتينية التي تسد فتحات الجريب. يشرح هذان الإجراء المدمجان الدور الطويل الأمد لبيروكسيد البنزويل في إدارة حب الشباب.
 
-Vulvar inverted follicular keratosis is a rare benign epithelial neoplasm arising from the follicular infundibulum. It is characterized histologically by squamous eddies, inverted endophytic growth, and acanthotic epithelial proliferation — features that are mechanistically distinct from the inflammatory follicular obstruction seen in acne. The TxGNN model likely derived its high score from shared "keratosis" and "follicular" ontology nodes in the disease knowledge graph, creating a topological link that does not translate into a meaningful biological one.
+التقران المقلوب الجريبي بالأعضاء التناسلية الخارجية هو ورم حميد نادر الظهور في الطبقة الظهارية ينشأ من الجزء السفلي من الجريب. وهو يتميز組織ياً بتجمعات حرشفية، نمو غيرمقلوب داخلي، وتضخم الظهارة الشوكية — ميزات تختلف آلياً عن الانسداد الجريبي الالتهابي الذي يُرى في حب الشباب. من المرجح أن يكون نموذج TxGNN قد اشتق درجته العالية من عقد "التقران" و"الجريبي" المشتركة في رسم البيان المعرفي للمرض، مما يخلق ارتباطاً طوبولوجياً لا يترجم إلى ارتباط بيولوجي ذي مغزى.
 
-In short, while BPO does interact with follicular keratin, the pathological driver of vulvar inverted follicular keratosis is neoplastic epithelial proliferation rather than microbial overgrowth or inflammatory keratinous plugging. BPO has no known anti-proliferative or anti-neoplastic mechanism relevant to this lesion type. This prediction is assessed as a high-risk graph topology false positive.
+باختصار، بينما يتفاعل بيروكسيد البنزويل مع الكيراتين الجريبي، فإن المحرك المرضي للتقران المقلوب الجريبي بالأعضاء التناسلية الخارجية هو التضخم الظهاري الورمي وليس الإفراط في النمو الميكروبي أو الانسداد الكيراتيني الالتهابي. بيروكسيد البنزويل لا يملك أي آلية معروفة مضادة للتضخم أو مضادة للأورام ذات صلة بهذا النوع من الآفات. يُقيّم هذا التنبؤ كإيجابي كاذب عالي المخاطر في طوبولوجيا الرسم البياني.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة.
 
-## Literature Evidence
+## دليل الأدب
 
-Currently no related literature available.
+حالياً لا يوجد أدب مرتبط متاح.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Benzoyl peroxide has no registered authorizations in Saudi Arabia at this time. No license records are available for review.
+بيروكسيد البنزويل ليس لديه تصاريح مسجلة في المملكة العربية السعودية في الوقت الحالي. لا تتوفر سجلات ترخيص للمراجعة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: إيقاف مؤقت**
 
-**Rationale:**
-The TxGNN prediction score is high (99.92%), but this reflects knowledge-graph structural proximity — not clinical or mechanistic evidence. Vulvar inverted follicular keratosis is a benign neoplastic lesion for which BPO has no plausible therapeutic mechanism, and zero supporting trials or publications exist. Proceeding with repurposing development at this stage is not justified.
+**المنطق:**
+درجة التنبؤ بنموذج TxGNN عالية (99.92%)، لكن هذا يعكس القرب الهيكلي لرسم البيان المعرفي — وليس إثبات سريري أو آلي. التقران المقلوب الجريبي بالأعضاء التناسلية الخارجية هو آفة حميدة ورمية لا يملك بيروكسيد البنزويل أي آلية علاجية معقولة لها، وليس هناك أي تجارب أو منشورات داعمة. المتابعة مع تطوير إعادة الاستخدام في هذه المرحلة غير مبررة.
 
-**To proceed, the following is needed:**
-- Formal MOA documentation for BPO, particularly any evidence of anti-proliferative or lesion-modulating activity beyond keratolysis and antibacterial action
-- Systematic literature search broadened to include keratolytic agents (salicylic acid, tretinoin) in inverted follicular keratosis, to assess the class hypothesis
-- Pathology consultation to determine whether any keratolytic intervention has biological rationale in benign follicular neoplasms
-- Saudi Arabia registration pathway assessment should evidence emerge in the future
+**للمتابعة، يلزم ما يلي:**
+- توثيق آلية العمل الرسمية لبيروكسيد البنزويل، خاصة أي دليل على نشاط مضاد للتضخم أو تعديل الآفات يتجاوز التأثير القرني والعمل المضاد للبكتيريا
+- بحث منهجي عن الأدب الموسع ليشمل العوامل القرنية (حمض الساليسيليك، التريتينوين) في التقران المقلوب الجريبي، لتقييم فرضية الفئة
+- استشارة أمراض أنسجة لتحديد ما إذا كان لأي تدخل قرني تبرير بيولوجي في الأورام الجريبية الحميدة
+- تقييم مسار التسجيل بالمملكة العربية السعودية يجب أن يظهر الدليل في المستقبل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

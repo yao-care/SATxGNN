@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Cisatracurium: From Neuromuscular Blockade to Cauda Equina Syndrome
+# سيساتراكوريوم: من الحصار العصبي العضلي إلى متلازمة ذيل الفرس
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cisatracurium is a non-depolarizing neuromuscular blocking agent (NMBA) used perioperatively to facilitate endotracheal intubation and maintain skeletal muscle relaxation during surgery or mechanical ventilation in intensive care.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, yet there are currently **0 clinical trials** and **0 publications** directly supporting this therapeutic direction.
-All 10 predicted indications in this evidence pack are rated L5 (model prediction only), and mechanistic analysis across every candidate condition reveals no plausible biological link to cisatracurium's pharmacology.
+سيساتراكوريوم هو عامل حصار عصبي عضلي غير مزيل الاستقطاب (NMBA) يُستخدم في فترة حول العملية لتسهيل التنبيب الرغامي والحفاظ على استرخاء العضلات الهيكلية أثناء الجراحة أو التهوية الميكانيكية في الرعاية المركزة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة ذيل الفرس**، لكن لا توجد حالياً **0 تجربة سريرية** و**0 منشور** يدعمان هذا الاتجاه العلاجي بشكل مباشر.
+تُصنف جميع 10 مؤشرات استخدام متنبأ بها في هذه الحزمة الثبوتية على أنها L5 (تنبؤ نموذج فقط)، وكشف التحليل الآلي عبر كل حالة مرشحة عدم وجود ارتباط بيولوجي معقول بين سيساتراكوريوم والحالات المتنبأ بها.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Neuromuscular blockade for endotracheal intubation and skeletal muscle relaxation during surgery / ICU mechanical ventilation |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (0 approved licenses) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الحصار العصبي العضلي لتسهيل التنبيب الرغامي واستبقاء استرخاء العضلات الهيكلية أثناء الجراحة / التهوية الميكانيكية في وحدة العناية المركزة |
+| المؤشر الجديد المتنبأ به | متلازمة ذيل الفرس |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | غير مسوَّق (0 رخصة موافق عليها) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | وقِف |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, cisatracurium is a benzylisoquinolinium-type non-depolarizing NMBA that competitively antagonizes nicotinic acetylcholine receptors (nAChR) at the neuromuscular junction, preventing acetylcholine-induced muscle depolarization. Its established clinical role is strictly perioperative: facilitating tracheal intubation and maintaining muscle relaxation during general anesthesia or ICU ventilator management.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في الحزمة الثبوتية. بناءً على المعلومات الدوائية المعروفة، سيساتراكوريوم هو عامل حصار عصبي عضلي غير مزيل الاستقطاب من نوع benzylisoquinolinium يحجب بشكل تنافسي مستقبلات الأسيتيل كولين النيكوتينية (nAChR) عند الوصل العصبي العضلي، مما يمنع إزالة استقطاب العضلات الناجمة عن الأسيتيل كولين. دوره السريري المثبت هو بحتة حول العملية: تسهيل التنبيب الرغامي والحفاظ على استرخاء العضلات أثناء التخدير العام أو إدارة التهوية الميكانيكية في وحدة العناية المركزة.
 
-Cauda equina syndrome is a neurological emergency caused by acute compression of the nerve root bundle (cauda equina) in the lumbar spinal canal, presenting with low back pain, lower-limb weakness, and bladder/bowel dysfunction. The definitive treatment is urgent surgical decompression. There is no established biological pathway by which peripheral nAChR blockade at the motor end plate could relieve compressed lumbar nerve roots or alter the underlying pathophysiology of cauda equina syndrome.
+متلازمة ذيل الفرس حالة عصبية طارئة تسببها الضغط الحاد على حزمة جذور الأعصاب (ذيل الفرس) في القناة الشوكية القطنية، وتحدث مع ألم أسفل الظهر وضعف الأطراف السفلية وخلل وظيفي في المثانة/الأمعاء. العلاج الحاسم هو فك الضغط الجراحي العاجل. لا توجد مسار بيولوجي ثابت يمكن من خلاله أن يخفف حصار nAChR المحيطي عند لوحة النهاية الحركية من جذور الأعصاب القطنية المضغوطة أو يغير الفيزيولوجيا المرضية الأساسية لمتلازمة ذيل الفرس.
 
-The high TxGNN score (99.99%, global rank 334) most likely reflects indirect graph traversal through shared spinal/neural pathway nodes in the knowledge graph rather than a genuine therapeutic signal — what the evidence pack authors themselves characterize as "graph diffusion noise." This prediction should not be interpreted as a clinical repurposing opportunity without substantial preclinical evidence to the contrary.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials specifically investigating cisatracurium for cauda equina syndrome are registered.
+تعكس درجة TxGNN العالية (99.99%، الترتيب العالمي 334) على الأرجح انتقالاً غير مباشر في الرسم البياني عبر عقد مسارات شوكية/عصبية مشتركة في الرسم البياني المعرفي بدلاً من إشارة علاجية حقيقية — ما يميزه مؤلفو الحزمة الثبوتية بأنفسهم باسم "ضوضاء انتشار الرسم البياني". يجب عدم تفسير هذا التنبؤ على أنه فرصة إعادة استخدام سريرية بدون دليل ما قبل سريري كبير على خلاف ذلك.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature directly examining cisatracurium as a treatment for cauda equina syndrome is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note for prescribers:** Although not captured in the current evidence pack, one clinically important drug interaction is well-established in the literature: magnesium sulfate (the standard treatment for preeclampsia/eclampsia) potentiates neuromuscular blockade and requires cisatracurium dose reduction. This is a safety consideration during anesthetic management, not a therapeutic repurposing signal.
+حالياً لا توجد تجارب سريرية تحقق على وجه التحديد في سيساتراكوريوم لعلاج متلازمة ذيل الفرس مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+حالياً لا تتوفر أدبيات ذات صلة تفحص مباشرة سيساتراكوريوم كعلاج لمتلازمة ذيل الفرس.
 
-**Rationale:**
-All 10 TxGNN-predicted indications for cisatracurium are rated L5 with no supporting clinical trials or literature for the top-ranked indication, and mechanistic analysis consistently shows no plausible link between peripheral nAChR blockade and any of the predicted conditions — including cauda equina syndrome, preeclampsia, migraine disorder, irritable bowel syndrome, and thrombotic disease. The predictions most likely represent knowledge-graph diffusion artifacts rather than genuine repurposing signals.
+---
 
-**To proceed further, the following would be needed:**
+## اعتبارات السلامة
 
-- Identification of a biologically plausible mechanism linking cisatracurium to any of the predicted indications
-- At least one preclinical study or case series demonstrating pharmacodynamic activity in the target disease context
-- Complete safety data: package insert warnings, contraindications, and full DDI profile (currently all flagged as data gaps)
-- Re-evaluation using a refined knowledge graph with noise-reduction filters to suppress diffusion artifacts from high-connectivity nodes
-- If any indication is to be prioritized, a formal literature review beyond the automated search should be conducted to rule out indirect evidence (e.g., case reports, secondary analyses)
+يُرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
+
+> **ملاحظة للصيادلة:** على الرغم من أنها لم تُعكس في الحزمة الثبوتية الحالية، فإن تفاعلاً دوائياً مهماً سريرياً واحداً يُثبت جيداً في الأدبيات: كبريتات المغنيسيوم (العلاج القياسي لتسمم الحمل/الاختلاج الحملي) تعزز الحصار العصبي العضلي وتتطلب تقليل جرعة سيساتراكوريوم. هذا اعتبار السلامة أثناء إدارة التخدير، وليست إشارة إعادة استخدام علاجية.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقِف**
+
+**المنطق الأساسي:**
+تُصنف جميع 10 مؤشرات استخدام متنبأ بها بواسطة TxGNN لسيساتراكوريوم على أنها L5 بدون تجارب سريرية أو أدبيات داعمة للمؤشر الأعلى تصنيفاً، ويظهر التحليل الآلي باستمرار عدم وجود ارتباط معقول بين حصار nAChR المحيطي وأي من الحالات المتنبأ بها — بما في ذلك متلازمة ذيل الفرس وتسمم الحمل واضطراب الصداع النصفي ومتلازمة القولون العصبي والمرض الجلطي. تمثل التنبؤات على الأرجح قطع أثار انتشار الرسم البياني المعرفي بدلاً من إشارات إعادة استخدام حقيقية.
+
+**للمتابعة، سيكون مطلوباً ما يلي:**
+
+- تحديد آلية معقولة بيولوجياً تربط سيساتراكوريوم بأي من المؤشرات المتنبأ بها
+- دراسة ما قبل سريرية واحدة على الأقل أو سلسلة حالات توضح النشاط الديناميكي الدوائي في سياق المرض المستهدف
+- بيانات السلامة الكاملة: تحذيرات النشرة المرفقة والموانع والملف الكامل للتفاعلات الدوائية (جميعها محددة حالياً كفجوات بيانات)
+- إعادة تقييم باستخدام رسم بياني معرفي محسّن مع مرشحات تقليل الضوضاء لقمع قطع أثار الانتشار من العقد عالية الاتصالية
+- إذا كان أي مؤشر استخدام سيتم تحديده بالأولوية، يجب إجراء مراجعة أدبية رسمية تتجاوز البحث الآلي لاستبعاد الأدلة غير المباشرة (مثل تقارير الحالات والتحليلات الثانوية)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

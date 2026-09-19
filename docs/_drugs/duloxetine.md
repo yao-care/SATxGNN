@@ -29,79 +29,80 @@ indication_count: 10
 
 </div>
 
-# Duloxetine: From Depression to Benign Paroxysmal Torticollis of Infancy
+# دولوكسيتين: من الاكتئاب إلى التورتيكوليس المتقطعة الحميدة في الرضاعة
 
-## One-Sentence Summary
+## ملخص بسطر واحد
 
-Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI) approved in multiple countries for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, and chronic musculoskeletal pain.
-The TxGNN model predicts it may be effective for **Benign Paroxysmal Torticollis of Infancy (BPTI)**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-Evidence is limited to model prediction only; this indication requires substantial further investigation before any clinical consideration can proceed.
+دولوكسيتين هو مثبط استرجاع السيروتونين والنوريبينفرين (SNRI) معتمد في دول عديدة لعلاج اضطراب الاكتئاب الشديد واضطراب القلق العام والألم العصبي المحيطي الناجم عن السكري والتليف العضلي والألم العضلي الهيكلي المزمن.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالًا ل**التورتيكوليس المتقطعة الحميدة في الرضاعة (BPTI)**، مع وجود **0 تجربة سريرية** و**0 منشور** يدعم هذا الاتجاه حاليًا.
+الأدلة محدودة بالتنبؤ النموذجي فقط؛ تتطلب هذه الدلالة المزيد من التحقيق الشامل قبل أن يمكن المضي قدمًا في أي اعتبار سريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Not registered in Saudi Arabia (globally approved for MDD, GAD, neuropathic pain, fibromyalgia) |
-| Predicted New Indication | Benign Paroxysmal Torticollis of Infancy |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير مسجل في المملكة العربية السعودية (معتمد عالميًا لاضطراب الاكتئاب الشديد واضطراب القلق العام والألم العصبي والتليف العضلي) |
+| الدلالة الجديدة المتنبأ بها | التورتيكوليس المتقطعة الحميدة في الرضاعة |
+| درجة التنبؤ من TxGNN | 99.85% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available in the current regulatory dossier. Based on published pharmacological literature included in this Evidence Pack, duloxetine is a dual-mechanism SNRI whose efficacy in depression, anxiety disorders, and pain conditions is well established globally. Its serotonergic component modulates descending pain pathways, while the noradrenergic component reinforces arousal and attentional circuits.
+بيانات آلية العمل التفصيلية غير متاحة في الملف التنظيمي الحالي. بناءً على الأدبيات الصيدلانية المنشورة المدرجة في هذه مجموعة الأدلة، دولوكسيتين هو مثبط ثنائي الآلية للـ SNRI الذي تم إثبات فعاليته في الاكتئاب واضطرابات القلق والحالات الألمية على الصعيد العالمي. يؤثر المكون السيروتونيني على مسارات الألم الهابطة، بينما يعزز المكون النورادرينالي دوائر الاستيقاظ والانتباه.
 
-Benign Paroxysmal Torticollis of Infancy (BPTI) is classified as a migraine equivalent of early childhood, associated with mutations in the *CACNA1A* calcium channel gene. The serotonergic arm of duloxetine's dual mechanism theoretically could influence trigeminovascular signalling relevant to migraine-spectrum pathophysiology. However, this mechanistic link is highly indirect: BPTI involves voltage-gated calcium channel dysfunction rather than a primary monoamine imbalance, and there is no preclinical model or case-series data to bridge this gap.
+يُصنف التورتيكوليس المتقطعة الحميدة في الرضاعة (BPTI) كمكافئ للصداع النصفي في الطفولة المبكرة، وترتبط بطفرات في جين قناة الكالسيوم *CACNA1A*. يمكن للذراع السيروتونينية لآلية دولوكسيتين المزدوجة نظريًا أن تؤثر على الإشارات الثلاثية الأوعية ذات الصلة بالمسارات الفيزيولوجية للصداع النصفي. ومع ذلك، هذا الارتباط الآلي غير مباشر جدًا: يتضمن BPTI خللاً في وظيفة قناة الكالسيوم الموجهة بالجهد بدلاً من عدم التوازن أحادي الأمين الأساسي، وليس هناك نموذج سابق للإكلينيك أو بيانات سلسلة حالات لسد هذه الفجوة.
 
-Critically, BPTI is a self-limiting condition that typically resolves spontaneously by age 5 without pharmacological intervention. Even if a mechanistic hypothesis were strengthened by future research, the risk-benefit calculus for treating an infant with a dual-reuptake inhibitor would require extraordinary evidentiary justification. The TxGNN score of 99.85% reflects proximity within the disease knowledge graph — driven by shared neurological and migraine-related nodes — rather than direct clinical or preclinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+بشكل حاسم، BPTI هي حالة ذاتية التحديد تتحسن عادةً بشكل عفوي بحلول سن 5 دون تدخل دوائي. حتى إذا تم تقوية فرضية آلية من خلال البحث المستقبلي، فإن حساب المخاطر والفوائد لعلاج رضيع بمثبط استرجاع مزدوج سيتطلب تبريرًا استثنائيًا من الناحية الأدلة. تعكس درجة TxGNN البالغة 99.85% القرب ضمن خريطة معرفة المرض — المدفوعة بعقد الأعصاب والصداع النصفي المشتركة — بدلاً من الأدلة السريرية أو السابقة للإكلينيك المباشرة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Duloxetine has no registered products in Saudi Arabia. No authorization records are available for this market.
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrievable in this Evidence Pack cycle. Full safety review requires the local package insert or SmPC before any clinical planning.
+لا تتوفر حاليًا أدبيات ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+ليس لدولوكسيتين منتجات مسجلة في المملكة العربية السعودية. لا توجد سجلات تفويض متاحة لهذا السوق.
 
-**Rationale:**
-There is no clinical trial or published literature evidence supporting duloxetine for benign paroxysmal torticollis of infancy, and the condition is largely self-limiting — making pharmacological intervention in this infant population difficult to justify without compelling mechanistic and safety data.
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action data (MOA) retrieved from DrugBank API or SmPC
-- Package insert warnings and contraindications (blocking data gap — required before any safety staging)
-- Preclinical data examining SNRI effects on CACNA1A-related calcium channel pathophysiology
-- Expert paediatric neurology opinion on whether any BPTI subgroup warrants pharmacological treatment at all
-- Saudi Arabia regulatory pathway assessment for duloxetine (currently unregistered)
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+> **ملاحظة:** لم تكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية قابلة للاسترجاع في دورة مجموعة الأدلة هذه. يتطلب الاستعراض الشامل للسلامة نشرة المعلومات المحلية أو ملخص خصائص المنتج قبل أي تخطيط سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+لا توجد أدلة على تجربة سريرية أو أدبيات منشورة تدعم دولوكسيتين للتورتيكوليس المتقطعة الحميدة في الرضاعة، والحالة غالبًا ما تكون ذاتية التحديد — مما يجعل التدخل الدوائي في هذه الفئة السكانية من الرضع صعب التبرير بدون بيانات آلية عمل وأمان قنّعة.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل (MOA) المسترجعة من DrugBank API أو SmPC
+- تحذيرات نشرة المعلومات والموانع (فجوة في البيانات — مطلوبة قبل أي تقييم أمان)
+- بيانات سابقة للإكلينيك تفحص تأثيرات SNRI على المسارات المرتبطة بـ CACNA1A
+- رأي متخصص في أعصاب الأطفال حول ما إذا كانت أي مجموعة فرعية من BPTI تستحق العلاج الدوائي على الإطلاق
+- تقييم المسار التنظيمي في المملكة العربية السعودية لدولوكسيتين (حاليًا غير مسجل)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

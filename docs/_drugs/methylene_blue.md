@@ -29,126 +29,127 @@ indication_count: 3
 
 </div>
 
-# Methylene Blue: From Redox/Diagnostic Dye to Three TxGNN-Predicted Indications
+# Methylene Blue: من صبغة الأكسدة الاختزالية/التشخيصية إلى ثلاثة مؤشرات متنبأ بها من TxGNN
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Methylene blue is not currently marketed in Saudi Arabia, and this evidence pack has no data on its original approved indication or mechanism of action (both flagged as data gaps — DG001 Blocking, DG002 High). TxGNN produced three predictions: **bronchitis** (highest score, 0.9997), **methemoglobinemia, alpha type** (0.9936), and **methemoglobinemia due to methemoglobin reductase deficiency** (0.9936). Only the third has credible mechanistic and literature support — the top-ranked bronchitis prediction is explicitly flagged in the evidence as a likely embedding-similarity false positive with no treatment-relevant evidence.
+لا يتم حاليًا تسويق methylene blue في المملكة العربية السعودية، وتفتقر حزمة الأدلة هذه إلى أي بيانات حول مؤشراتها الأصلية المعتمدة أو آلية عملها (يتم وضع علامة على كليهما كفجوات بيانات — DG001 Blocking, DG002 High). أنتج TxGNN ثلاثة تنبؤات: **التهاب الشعب الهوائية** (أعلى درجة، 0.9997)، **الميثيموغلوبينيا من النوع ألفا** (0.9936)، و**الميثيموغلوبينيا الناجمة عن نقص مختزلة الميثيموغلوبين** (0.9936). فقط الثالث لديه دعم آلي وأدبي موثوق به — يتم وضع علامة واضحة على تنبؤ التهاب الشعب الهوائية ذي الرتبة الأعلى في الأدلة كإيجابي كاذب محتمل لتشابه التضمين بدون أي دليل ذي صلة بالعلاج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Bronchitis (Rank 1) | Methemoglobinemia, alpha type (Rank 2) | Methemoglobinemia due to reductase deficiency (Rank 3) |
+| البند | التهاب الشعب الهوائية (الرتبة 1) | الميثيموغلوبينيا من النوع ألفا (الرتبة 2) | الميثيموغلوبينيا الناجمة عن نقص المختزلة (الرتبة 3) |
 |------|------|------|------|
-| TxGNN Prediction Score | 99.97% | 99.36% | 99.36% |
-| Evidence Level | L5 | L4 | L3 |
-| Clinical Trials | 0 | 0 | 0 |
-| Literature | 10 | 2 | 5 |
-| Recommended Decision | Hold | Research Question | Proceed with Guardrails |
+| درجة تنبؤ TxGNN | 99.97% | 99.36% | 99.36% |
+| مستوى الأدلة | L5 | L4 | L3 |
+| التجارب السريرية | 0 | 0 | 0 |
+| الأدبيات | 10 | 2 | 5 |
+| القرار الموصى به | عدم المتابعة | سؤال بحثي | المتابعة مع احتياطات |
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — no approved-indication data in this evidence pack |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| المؤشر الأصلي | غير متاح — لا توجد بيانات مؤشرات معتمدة في حزمة الأدلة هذه |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّقة |
+| عدد التصاريح | 0 |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available for methylene blue in this evidence pack (DG002). The available literature does, however, describe a well-characterized redox mechanism relevant to one of the three predictions: methylene blue is reduced by NADPH-dependent methemoglobin reductase to leucomethylene blue, which in turn non-enzymatically reduces Fe³⁺ methemoglobin back to functional Fe²⁺ hemoglobin — bypassing the deficient NADH–cytochrome b5 reductase (diaphorase I) pathway seen in hereditary methemoglobin reductase deficiency. This is textbook-level, mechanism-matched pharmacology, not a speculative association, and is consistent with methylene blue's known clinical role as a reducing agent.
+بيانات آلية العمل التفصيلية غير متاحة لـ methylene blue في حزمة الأدلة هذه (DG002). ومع ذلك، تصف الأدبيات المتاحة آلية أكسدة اختزالية محددة جيدًا ذات صلة بأحد التنبؤات الثلاثة: يتم اختزال methylene blue بواسطة مختزلة methemoglobin المعتمدة على NADPH إلى leucomethylene blue، والذي بدوره يختزل بدون تحفيز إنزيمي Fe³⁺ methemoglobin إلى Fe²⁺ hemoglobin وظيفي — يتجاوز مسار NADH–cytochrome b5 reductase الناقص (diaphorase I) المشهود في نقص مختزلة methemoglobin الوراثي. هذه صيدلة على مستوى الكتب المدرسية متطابقة الآلية، وليست ارتباطًا تخمينيًا، وهي متسقة مع الدور السريري المعروف لـ methylene blue كعامل مختزل.
 
-**Methemoglobinemia due to reductase deficiency (Rank 3):** Direct mechanistic fit as above. G6PD deficiency must be excluded first, since G6PD-deficient patients lack the NADPH supply this pathway depends on, and methylene blue can be ineffective or precipitate hemolysis in that setting.
+**الميثيموغلوبينيا الناجمة عن نقص المختزلة (الرتبة 3):** توافق آلي مباشر كما هو موضح أعلاه. يجب استبعاد نقص G6PD أولاً، لأن المرضى الذين يعانون من نقص G6PD يفتقرون إلى إمداد NADPH الذي يعتمد عليه هذا المسار، وقد لا يكون methylene blue فعالاً أو قد يسبب انحلال الدم في هذه الحالة.
 
-**Methemoglobinemia, alpha type (Rank 2):** The same reductive mechanism applies only if "alpha type" refers to the erythrocyte-restricted diaphorase deficiency (RCM Type I). If it instead refers to HbM disease (structural globin-chain/heme-pocket mutations), methylene blue cannot reduce the structurally abnormal hemoglobin and is pharmacologically ineffective — a known contraindication-type distinction. The two literature items provided do not resolve which subtype is meant, so this prediction stays a research question rather than an actionable one.
+**الميثيموغلوبينيا من النوع ألفا (الرتبة 2):** تنطبق نفس آلية الاختزال فقط إذا أشار "النوع ألفا" إلى نقص ديابفوريز المقيد بخلايا الدم الحمراء (RCM Type I). إذا أشار بدلاً من ذلك إلى مرض HbM (طفرات سلسلة جلوبين الهيكلية/جيب الهيم)، فإن methylene blue لا يستطيع اختزال hemoglobin غير الطبيعي هيكليًا وهو غير فعال صيدليًا — وهي تفرقة معروفة متعلقة بالموانع الاستطبابية. العناصر الأدبية الاثنتان المقدمتان لا توضحان أي نمط فرعي هو المقصود، لذلك يبقى هذا التنبؤ سؤالاً بحثيًا بدلاً من كونه قابلاً للتنفيذ.
 
-**Bronchitis (Rank 1):** No treatment-relevant mechanistic link exists. Across the 10 retrieved publications, methylene blue appears almost exclusively as a diagnostic/histologic stain (bronchoscopic tumor staining, chromoendofibroscopy) or as a laboratory tracer/reagent (bronchoalveolar lavage fluid quantitation, biosensor/tracer studies), with several other citations unrelated to methylene blue at all (case reports, an unrelated beta-blocker study, unrelated plant extracts). The high TxGNN score here is best explained as an embedding-similarity artifact rather than genuine therapeutic signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for any of the three predicted indications (bronchitis, methemoglobinemia alpha type, or methemoglobinemia due to reductase deficiency).
+**التهاب الشعب الهوائية (الرتبة 1):** لا توجد صلة آلية ذات صلة بالعلاج. عبر المنشورات العشرة المسترجعة، يظهر methylene blue حصريًا تقريبًا كصبغة تشخيصية/نسيجية (صبغ الورم عن طريق منظار الشعب الهوائية، تنظير الجهاز الهضمي بالألوان) أو كمتتبع مخبري/كاشف (تحديد كمية السائل في غسل الشعب الهوائية السنخي، دراسات المستشعرات الحيوية/المتتبعات)، مع عدة اقتباسات أخرى غير مرتبطة بـ methylene blue على الإطلاق (تقارير الحالات، دراسة حاصر بيتا غير ذات صلة، مستخلصات نباتية غير ذات صلة). يتم شرح درجة TxGNN العالية هنا بشكل أفضل كعيب في تشابه التضمين بدلاً من إشارة علاجية حقيقية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-### Methemoglobinemia due to methemoglobin reductase deficiency (strongest evidence, Rank 3)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36638001](https://pubmed.ncbi.nlm.nih.gov/36638001/) | 2023 | Retrospective cohort (veterinary) | Am J Vet Res | Long-term oral methylene blue in dogs with hereditary CYB5R (diaphorase) deficiency reduced methemoglobin levels and characterized the inflammatory phenotype |
-| [35202847](https://pubmed.ncbi.nlm.nih.gov/35202847/) | 2022 | Case report (veterinary) | Top Companion Anim Med | Oral methylene blue corrected elevated methemoglobin (35%) in a CYB5R-deficient dog |
-| [29845943](https://pubmed.ncbi.nlm.nih.gov/29845943/) | 2018 | Case report | Neth J Med | 61-year-old with congenital methemoglobinemia (novel CYB5R3 variant); methylene blue produced transient correction, supporting diagnosis |
-| [14109019](https://pubmed.ncbi.nlm.nih.gov/14109019/) | 1964 | Case report | Arch Intern Med | Classic description of hereditary diaphorase deficiency and methemoglobinemia |
-| [14248326](https://pubmed.ncbi.nlm.nih.gov/14248326/) | 1964 | Case report | Arch Fr Pediatr | Recessive congenital methemoglobinemia linked to diaphorase I deficiency |
-
-### Methemoglobinemia, alpha type (Rank 2)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3537620](https://pubmed.ncbi.nlm.nih.gov/3537620/) | 1986 | Clinical review | Medical Toxicology | General review of drug/chemical-induced methemoglobinemia, including methylene blue as treatment; not subtype-specific |
-| [26950891](https://pubmed.ncbi.nlm.nih.gov/26950891/) | 2016 | Basic science | J Photochem Photobiol B | Biophysical study of methylene blue–protein binding; notes methemoglobinemia among known MB toxicities, background pharmacology only |
-
-### Bronchitis (Rank 1 — evidence assessed as not treatment-relevant)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9387672](https://pubmed.ncbi.nlm.nih.gov/9387672/) | 1996 | Diagnostic technique study | Zhonghua Wai Ke Za Zhi | Methylene blue used as a bronchoscopic stain to distinguish malignant tumors (97% stained) from bronchitis (8% stained) — diagnostic, not therapeutic |
-| [7313968](https://pubmed.ncbi.nlm.nih.gov/7313968/) | 1981 | Diagnostic technique study | Terapevticheskii Arkhiv | Chromoendofibroscopy with methylene blue for differentiating benign/malignant GI and bronchial lesions — diagnostic use |
-| [8420409](https://pubmed.ncbi.nlm.nih.gov/8420409/) | 1993 | Method/technique study | Am Rev Respir Dis | Methylene blue used as one of several tracer dyes to quantify intra-alveolar fluid in lavage — laboratory technique |
-| [2749902](https://pubmed.ncbi.nlm.nih.gov/2749902/) | 1989 | Basic science | Tsitologiia | Methylene blue (chromosmon) used as a reagent in erythrocyte hemoglobin spectrophotometry — lab technique |
-| [6121761](https://pubmed.ncbi.nlm.nih.gov/6121761/) | 1982 | Basic science (unrelated drug) | Int J Clin Pharmacol Ther Toxicol | Beta-blocker study; methylene blue used only as a circulation-time indicator dye |
-| [31419501](https://pubmed.ncbi.nlm.nih.gov/31419501/) | 2020 | Basic science (unrelated compound) | J Ethnopharmacol | Plant essential oil (not methylene blue) with traditional bronchitis use |
-| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Basic science (unrelated, biosensor) | Anal Chim Acta | Aptasensor for theophylline detection — unrelated to methylene blue treatment |
-| [21767626](https://pubmed.ncbi.nlm.nih.gov/21767626/) | 2011 | Basic science (unrelated compound) | J Ethnopharmacol | Plant extract (not methylene blue) with antidepressant/neuroprotective effects |
-| [20084922](https://pubmed.ncbi.nlm.nih.gov/20084922/) | 2009 | Case report (unrelated) | Mikrobiyol Bul | Moraxella catarrhalis endocarditis case; no methylene blue link |
-| [17120034](https://pubmed.ncbi.nlm.nih.gov/17120034/) | 2007 | Case report (unrelated) | Eur J Pediatr | Tracheoesophageal fistula case; no methylene blue link |
+حاليًا لا توجد تجارب سريرية مرتبطة مسجلة لأي من المؤشرات الثلاثة المتنبأ بها (التهاب الشعب الهوائية، الميثيموغلوبينيا من النوع ألفا، أو الميثيموغلوبينيا الناجمة عن نقص المختزلة).
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Methylene blue is currently not marketed in Saudi Arabia (0 authorizations on file).
+### الميثيموغلوبينيا الناجمة عن نقص مختزلة الميثيموغلوبين (أقوى دليل، الرتبة 3)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [36638001](https://pubmed.ncbi.nlm.nih.gov/36638001/) | 2023 | دراسة بأثر رجعي (بيطرية) | Am J Vet Res | methylene blue عن طريق الفم على المدى الطويل في الكلاب التي تعاني من نقص وراثي في CYB5R (ديابفوريز) أقلل مستويات الميثيموغلوبين وميز النمط الالتهابي |
+| [35202847](https://pubmed.ncbi.nlm.nih.gov/35202847/) | 2022 | حالة إكلينيكية (بيطرية) | Top Companion Anim Med | صحح methylene blue عن طريق الفم الميثيموغلوبين المرتفع (35%) في كلب ناقص CYB5R |
+| [29845943](https://pubmed.ncbi.nlm.nih.gov/29845943/) | 2018 | حالة إكلينيكية | Neth J Med | يبلغ العمر 61 سنة مع ميثيموغلوبينيا خلقية (متغير CYB5R3 جديد)؛ أنتج methylene blue تصحيحًا مؤقتًا، يدعم التشخيص |
+| [14109019](https://pubmed.ncbi.nlm.nih.gov/14109019/) | 1964 | حالة إكلينيكية | Arch Intern Med | وصف كلاسيكي للنقص الوراثي في ديابفوريز والميثيموغلوبينيا |
+| [14248326](https://pubmed.ncbi.nlm.nih.gov/14248326/) | 1964 | حالة إكلينيكية | Arch Fr Pediatr | ميثيموغلوبينيا خلقية جسمية متنحية مرتبطة بنقص ديابفوريز I |
+
+### الميثيموغلوبينيا من النوع ألفا (الرتبة 2)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [3537620](https://pubmed.ncbi.nlm.nih.gov/3537620/) | 1986 | مراجعة سريرية | Medical Toxicology | مراجعة عامة لميثيموغلوبينيا الناجمة عن الأدوية/المواد الكيميائية، بما فيها methylene blue كعلاج؛ ليس محددًا للنوع الفرعي |
+| [26950891](https://pubmed.ncbi.nlm.nih.gov/26950891/) | 2016 | دراسة أساسية | J Photochem Photobiol B | دراسة بيوفيزيائية لارتباط methylene blue–البروتين؛ تذكر الميثيموغلوبينيا من بين السميات المعروفة للـ MB، الصيدلة الأساسية فقط |
+
+### التهاب الشعب الهوائية (الرتبة 1 — تم تقييم الأدلة كغير ذات صلة بالعلاج)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [9387672](https://pubmed.ncbi.nlm.nih.gov/9387672/) | 1996 | دراسة تقنية تشخيصية | Zhonghua Wai Ke Za Zhi | استخدم methylene blue كصبغة تنظير الشعب الهوائية للتمييز بين الأورام الخبيثة (97٪ ملطخة) والتهاب الشعب الهوائية (8٪ ملطخة) — تشخيصي، وليس علاجي |
+| [7313968](https://pubmed.ncbi.nlm.nih.gov/7313968/) | 1981 | دراسة تقنية تشخيصية | Terapevticheskii Arkhiv | تنظير الجهاز الهضمي بالألوان مع methylene blue للتمييز بين الآفات الحميدة/الخبيثة في الجهاز الهضمي والشعب الهوائية — الاستخدام التشخيصي |
+| [8420409](https://pubmed.ncbi.nlm.nih.gov/8420409/) | 1993 | دراسة طريقة/تقنية | Am Rev Respir Dis | استخدم methylene blue كصبغة متتبع واحدة من عدة لتحديد كمية السائل داخل السنخ في الغسل — تقنية مخبرية |
+| [2749902](https://pubmed.ncbi.nlm.nih.gov/2749902/) | 1989 | دراسة أساسية | Tsitologiia | استخدم methylene blue (chromosmon) كمادة كاشفة في قياس الطيف الضوئي لخضاب الدم في خلايا الدم الحمراء — تقنية معملية |
+| [6121761](https://pubmed.ncbi.nlm.nih.gov/6121761/) | 1982 | دراسة أساسية (دواء غير ذي صلة) | Int J Clin Pharmacol Ther Toxicol | دراسة حاصر بيتا؛ استخدم methylene blue فقط كصبغة مؤشر الدورة الدموية |
+| [31419501](https://pubmed.ncbi.nlm.nih.gov/31419501/) | 2020 | دراسة أساسية (مركب غير ذي صلة) | J Ethnopharmacol | الزيت العطري للنبات (وليس methylene blue) ذو الاستخدام التقليدي لالتهاب الشعب الهوائية |
+| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | دراسة أساسية (غير ذي صلة، مستشعر حيوي) | Anal Chim Acta | حساس الأبتامر لكشف الثيوفيلين — غير ذي صلة بمعالجة methylene blue |
+| [21767626](https://pubmed.ncbi.nlm.nih.gov/21767626/) | 2011 | دراسة أساسية (مركب غير ذي صلة) | J Ethnopharmacol | مستخلص نبات (وليس methylene blue) بتأثيرات مضادة للاكتئاب/الحماية العصبية |
+| [20084922](https://pubmed.ncbi.nlm.nih.gov/20084922/) | 2009 | حالة إكلينيكية (غير ذي صلة) | Mikrobiyol Bul | حالة التهاب شغاف القلب الناجم عن Moraxella catarrhalis؛ لا توجد صلة methylene blue |
+| [17120034](https://pubmed.ncbi.nlm.nih.gov/17120034/) | 2007 | حالة إكلينيكية (غير ذي صلة) | Eur J Pediatr | حالة ناسور رغامي مريئي؛ لا توجد صلة methylene blue |
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Please refer to the package insert for safety information. A TFDA package-insert warnings/contraindications lookup (DG001) is flagged as a **Blocking** data gap — this must be resolved before any Stage-1 safety evaluation can proceed. Drug-drug interaction data was also not found (query status: not_found).
+methylene blue غير مسوّق حاليًا في المملكة العربية السعودية (0 تصاريح على الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-### Methemoglobinemia due to methemoglobin reductase deficiency
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. يتم تصنيف البحث عن تحذيرات/موانع الاستطبابات في نشرة حزمة TFDA (DG001) كفجوة بيانات **Blocking** — يجب حل هذا قبل أن تتمكن من متابعة أي تقييم سلامة في المرحلة 1. لم يتم العثور على بيانات تفاعل الدواء مع الدواء أيضًا (حالة الاستعلام: not_found).
 
-**Rationale:** The reductive mechanism directly matches this disease's pathophysiology, supported by human and veterinary case literature (L3). This is essentially standard-of-care use rather than a novel repurposing hypothesis.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert with warnings and contraindications (DG001)
-- Confirmation of G6PD-deficiency screening as a mandatory pre-treatment safeguard
-- MOA documentation (DG002)
+## الخلاصة والخطوات التالية
 
-### Methemoglobinemia, alpha type
-**Decision: Research Question**
+### الميثيموغلوبينيا الناجمة عن نقص مختزلة الميثيموغلوبين
+**القرار: المتابعة مع احتياطات**
 
-**Rationale:** Mechanistic plausibility depends entirely on which "alpha type" subtype is meant (enzyme-deficiency vs. structural HbM variant), and the two available citations don't resolve this.
+**المنطق:** آلية الاختزال تتطابق مباشرة مع فيزيولوجيا هذا المرض، مدعومة بالأدبيات الحالية والبيطرية (L3). هذا هو في الأساس استخدام معياري للعناية بدلاً من فرضية إعادة تصنيع جديدة.
 
-**To proceed, the following is needed:**
-- Clarification of the exact disease subtype/ICD mapping behind "methemoglobinemia, alpha type"
-- Subtype-specific clinical or case-series evidence
+**للمتابعة، يلزم ما يلي:**
+- نشرة حزمة TFDA/محلية تتضمن التحذيرات والموانع الاستطبابية (DG001)
+- تأكيد فحص نقص G6PD كحماية إلزامية قبل العلاج
+- توثيق آلية العمل (DG002)
 
-### Bronchitis
-**Decision: Hold**
+### الميثيموغلوبينيا من النوع ألفا
+**القرار: سؤال بحثي**
 
-**Rationale:** No treatment-relevant mechanistic or clinical evidence exists; the high TxGNN score is not corroborated by any of the 10 retrieved publications and is assessed as a likely false positive.
+**المنطق:** يعتمد الاحتمال الآلي بالكامل على النمط الفرعي "ألفا" المقصود (نقص الإنزيم مقابل متغير HbM الهيكلي)، والاقتباسان المتاحان لا يحلان هذا.
 
-**To proceed, the following is needed:**
-- New, treatment-specific evidence (not currently expected to emerge from further literature mining of this signal)
+**للمتابعة، يلزم ما يلي:**
+- توضيح النمط الفرعي الدقيق للمرض/خريطة ICD خلف "الميثيموغلوبينيا من النوع ألفا"
+- أدلة سريرية أو سلسلة حالات محددة للنمط الفرعي
+
+### التهاب الشعب الهوائية
+**القرار: عدم المتابعة**
+
+**المنطق:** لا توجد أدلة آلية أو سريرية ذات صلة بالعلاج؛ درجة TxGNN العالية لا تدعمها أي من المنشورات العشرة المسترجعة ويتم تقييمها كإيجابي كاذب محتمل.
+
+**للمتابعة، يلزم ما يلي:**
+- أدلة جديدة محددة للعلاج (لا يتوقع حاليًا أن تظهر من مزيد من التنقيب عن الأدبيات في هذه الإشارة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

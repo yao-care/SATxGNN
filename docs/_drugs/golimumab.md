@@ -29,103 +29,104 @@ indication_count: 5
 
 </div>
 
-# GOLIMUMAB: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# جوليموماب: من التهاب المفاصل الروماتويدي إلى التهاب الأوعية الدموية الروماتويدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Golimumab is a fully human anti-TNF-α monoclonal antibody approved for rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis. The TxGNN model predicts it may also be effective for **Rheumatoid Vasculitis**, a severe extra-articular complication of RA, but this direction is currently supported by only **3 clinical trials (none targeting vasculitis directly)** and **6 case-level publications**.
+> جوليموماب هو جسم مضاد أحادي النسيلة لمضاد TNF-α بشري بالكامل معتمد لالتهاب المفاصل الروماتويدي والتهاب المفاصل الصدفي والتهاب الفقار اللاصق. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **التهاب الأوعية الدموية الروماتويدي**، وهي مضاعفة حادة غير مفصلية لـ RA، لكن هذا الاتجاه يدعمه حالياً فقط **3 تجارب سريرية (لا توجه أي منها مباشرة لمعالجة التهاب الأوعية)** و **6 منشورات على مستوى الحالات**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis (derived from supplied literature evidence, e.g. PMID 20065639, 28530020 — not from an SFDA license record, as none is on file) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (flagged internally as "Research Question," decision stage S1) |
+| المؤشر الأصلي | التهاب المفاصل الروماتويدي والتهاب المفاصل الصدفي والتهاب الفقار اللاصق (مستمدة من إدلة الأدبيات المقدمة، على سبيل المثال PMID 20065639, 28530020 — وليس من سجل ترخيص SFDA، حيث لا يوجد أي منها في الملف) |
+| المؤشر الجديد المتنبأ به | التهاب الأوعية الدموية الروماتويدي |
+| درجة التنبؤ من TxGNN | 99.73% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | Hold (قُيّمت داخلياً كـ "Research Question،" مرحلة القرار S1) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed structured mechanism-of-action data is not available for golimumab in this evidence pack (DrugBank MOA field returned a data gap). However, the supplied literature consistently describes golimumab as a fully human anti-TNF-α IgG1κ monoclonal antibody, approved for TNF-α-driven inflammatory arthritides.
+بيانات آلية العمل التفصيلية المنظمة غير متاحة لجوليموماب في مجموعة الأدلة هذه (حقل DrugBank MOA أعاد فجوة بيانات). ومع ذلك، تصف الأدبيات المقدمة باستمرار جوليموماب كجسم مضاد أحادي النسيلة لمضاد TNF-α بشري بالكامل من الفئة IgG1κ، معتمد لالتهاب المفاصل الالتهابي الموجه بـ TNF-α.
 
-Rheumatoid vasculitis is a rare but serious extra-articular complication of long-standing, seropositive rheumatoid arthritis, thought to arise from immune-complex-mediated vascular inflammation along shared TNF-α-driven pathways. Because golimumab already treats the underlying RA disease process, there is a plausible mechanistic rationale for benefit in its vasculitic complications — anti-TNF biologics have historically been associated with attenuated incidence of rheumatoid vasculitis compared to the pre-biologic era (as referenced in PMID 29075910).
+يُعتقد أن التهاب الأوعية الدموية الروماتويدي هو مضاعفة غير مفصلية نادرة لكن خطيرة لالتهاب المفاصل الروماتويدي طويل المدى الموجب للأجسام المضادة، وينشأ من الالتهاب الوعائي المعقد المناعي على طول مسارات TNF-α المشتركة. نظراً لأن جوليموماب يعالج بالفعل عملية مرض RA الأساسية، هناك أساس ميكانيكي معقول للفائدة في مضاعفاتها الوعائية — ارتبطت العوامل البيولوجية المضادة لـ TNF تاريخياً بحدوث متناقص من التهاب الأوعية الدموية الروماتويدي مقارنة بعصر ما قبل العوامل البيولوجية (كما هو مذكور في PMID 29075910).
 
-That said, the mechanistic story is not one-directional: the literature also documents paradoxical vasculitis occurring *during* anti-TNF therapy (e.g., Takayasu's arteritis onset under anti-TNF treatment, PMID 22999907), and no retrieved trial uses rheumatoid vasculitis as a primary endpoint. This mixed signal is the main reason evidence strength remains low (L4) despite a very high TxGNN similarity score.
+ومع ذلك، القصة الميكانيكية ليست في اتجاه واحد: تسجل الأدبيات أيضاً التهاب الأوعية الدموية المتناقض الذي يحدث *أثناء* علاج مضاد TNF (على سبيل المثال، بداية التهاب الشرايين في تاكاياسو تحت علاج مضاد TNF، PMID 22999907)، ولم تستخدم أي تجربة تم استردادها التهاب الأوعية الدموية الروماتويدي كنقطة نهائية أساسية. هذه الإشارة المختلطة هي السبب الرئيسي لبقاء قوة الأدلة منخفضة (L4) على الرغم من درجة تشابه TxGNN عالية جداً.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty; not vasculitis-specific |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Registry study on risk of incident immune-mediated inflammatory diseases in patients on biologics; general safety signal, not a vasculitis treatment trial |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab (not golimumab) in RA; included for background only |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | إدارة المثبطات المناعية المحيطة بالعملية الجراحية لدى مرضى الروماتيزم الذين يخضعون لتقويم مفصل الكتف؛ ليس محدداً لالتهاب الأوعية |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | دراسة السجل بشأن خطر الأمراض الالتهابية الموجهة للمناعة الحادثة في المرضى على العوامل البيولوجية؛ إشارة سلامة عامة، وليست تجربة معالجة لالتهاب الأوعية |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | دراسة غير تدخلية لتوسيليزوماب (وليس جوليموماب) في RA؛ مدرجة للخلفية فقط |
 
-None of the retrieved trials enroll or treat rheumatoid vasculitis as a primary population/endpoint.
+لم تقيد أي من التجارب التي تم استردادها التهاب الأوعية الدموية الروماتويدي كمجموعة سكانية أو نقطة نهائية أساسية.
 
 ---
 
-## Literature Evidence
+## الأدلة الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | RCT (network meta-analysis, 36 RCTs) | Int J Mol Sci | Golimumab and other TNF inhibitors similarly reduce radiographic joint destruction in RA vs. methotrexate |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Medicine | Overview of biologic therapies, including anti-TNF agents, across autoimmune/rheumatologic disease |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Cohort | Semin Arthritis Rheum | Frequency and treatment of end-stage renal disease in RA patients; background comorbidity context |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case Report | Rheumatol Int | Severe sepsis (pyoderma gangrenosum, pyogenic arthritis) in an RA patient on golimumab; notes declining rheumatoid vasculitis incidence since anti-TNF introduction |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case Report | Ocul Immunol Inflamm | Behçet-associated uveitis successfully treated with golimumab (off-label anti-TNF use precedent) |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case Report | Joint Bone Spine | Two cases of Takayasu's arteritis (large-vessel vasculitis) occurring *during* anti-TNF therapy — a cautionary signal |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | RCT (تحليل ميتا للشبكة، 36 RCT) | Int J Mol Sci | يقلل جوليموماب والعوامل البيولوجية المثبطة الأخرى للـ TNF من تدمير المفاصل الشعاعي في RA مقابل الميثوتريكسات |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Medicine | نظرة عامة على العلاجات البيولوجية، بما في ذلك عوامل مضادة TNF، عبر الأمراض المناعية والروماتيزمية |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Cohort | Semin Arthritis Rheum | تكرار ومعالجة أمراض الكلى في المرحلة النهائية لدى مرضى RA؛ سياق الأمراض المرافقة في الخلفية |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case Report | Rheumatol Int | تسمم دموي شديد (pyoderma gangrenosum، التهاب مفاصل قيحي) لدى مريض RA على جوليموماب؛ يلاحظ انخفاض معدل التهاب الأوعية الدموية الروماتويدي منذ إدخال مضادات TNF |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case Report | Ocul Immunol Inflamm | التهاب العنبية المرتبط ببهجت تم علاجه بنجاح باستخدام جوليموماب (سابقة استخدام مضاد TNF خارج التسمية) |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case Report | Joint Bone Spine | حالتان من التهاب الشرايين في تاكاياسو (التهاب الأوعية الدموية الكبيرة) يحدثان *أثناء* العلاج بمضادات TNF — إشارة تحذيرية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Golimumab currently has no marketing authorization on file for Saudi Arabia (0 licenses registered); no product/dosage-form data is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA/SFDA warnings, contraindications, and DDI data are not yet available for this drug — this is logged as a Blocking data gap and must be resolved before any S1 safety screening can proceed.)
+لا يوجد حالياً ترخيص تسويقي لجوليموماب في الملف للمملكة العربية السعودية (0 رخصة مسجلة)؛ لا تتوفر بيانات المنتج أو شكل الجرعة لتجدول.
 
 ---
 
-## Other Predicted Indications in This Evidence Pack
+## اعتبارات السلامة
 
-This evidence pack (candidate set TW-DB06674-multi) contains 5 TxGNN-predicted indications for golimumab. For completeness:
+يرجى الرجوع إلى ملحق المعلومات للحصول على معلومات السلامة. (تحذيرات TFDA/SFDA وموانع الاستخدام وبيانات التفاعلات الدوائية لم تكن متاحة بعد لهذا الدواء — وهذا مسجل كفجوة بيانات حجب ويجب حلها قبل أن يتمكن أي فحص سلامة S1 من المتابعة.)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Note |
+---
+
+## مؤشرات أخرى متنبأ بها في مجموعة الأدلة هذه
+
+تحتوي مجموعة الأدلة هذه (مجموعة المرشحين TW-DB06674-multi) على 5 مؤشرات متنبأ بها من TxGNN لجوليموماب. لتكتمل الصورة:
+
+| الترتيب | المرض | درجة TxGNN | مستوى الدليل | التوصية | الملاحظة |
 |------|---------|------|------|------|------|
-| 1 | Rheumatoid vasculitis | 99.73% | L4 | Hold / Research Question | Covered above — primary subject of this report |
-| 2 | Hypermobility of coccyx | 99.67% | L5 | Hold | No trials or literature; structural/mechanical condition with no known TNF-α pathology link — likely embedding false positive |
-| 3 | Inflammatory spondylopathy | 99.66% | L1 | Proceed with Guardrails | Strong evidence (multiple completed Phase 3 RCTs, e.g. NCT00265083, NCT03270501), but this is essentially golimumab's **existing approved indication** (ankylosing spondylitis/axSpA), not a novel repurposing signal |
-| 4 | Kummell disease | 99.61% | L5 | Hold | No trials or literature; vertebral avascular necrosis is not an inflammatory/TNF-driven condition — likely embedding false positive |
-| 5 | Polyarticular juvenile rheumatoid arthritis | 99.59% | L1 | Proceed with Guardrails | Strong evidence (Phase 3 RCTs incl. NCT01230827, NCT02277444), but this is also an **existing approved pediatric indication** for golimumab, not a novel signal |
+| 1 | التهاب الأوعية الدموية الروماتويدي | 99.73% | L4 | Hold / Research Question | مغطى أعلاه — موضوع أساسي لهذا التقرير |
+| 2 | فرط الحركة في العصعص | 99.67% | L5 | Hold | لا توجد تجارب أو أدب؛ حالة هيكلية/ميكانيكية بدون ارتباط معروف بمسار TNF-α — من المحتمل أن يكون إيجابياً كاذباً في التضمين |
+| 3 | الفقار الالتهابي | 99.66% | L1 | Proceed with Guardrails | أدلة قوية (تجارب سريرية من المرحلة 3 المكتملة متعددة، على سبيل المثال NCT00265083, NCT03270501)، لكن هذا هو أساساً **المؤشر المعتمد الحالي** لجوليموماب (التهاب الفقار اللاصق/axSpA)، وليس إشارة إعادة استخدام جديدة |
+| 4 | مرض كوميل | 99.61% | L5 | Hold | لا توجد تجارب أو أدب؛ نخر العظام الفقري ليس حالة التهابية موجهة بـ TNF-α — من المحتمل أن يكون إيجابياً كاذباً في التضمين |
+| 5 | التهاب المفاصل الروماتويدي متعدد المفاصل عند الأطفال | 99.59% | L1 | Proceed with Guardrails | أدلة قوية (تجارب سريرية من المرحلة 3 تشمل NCT01230827, NCT02277444)، لكن هذا أيضاً **مؤشر معتمد حالي لطب الأطفال** لجوليموماب، وليس إشارة جديدة |
 
-Ranks 3 and 5 validate that the TxGNN model correctly recovers golimumab's known label indications with high scores, which lends indirect credibility to the model's rank-1 prediction (rheumatoid vasculitis) even though that one lacks direct trial support.
+يتحقق الترتيب 3 و 5 من أن نموذج TxGNN يسترجع بشكل صحيح مؤشرات جوليموماب المعروفة بنقاط عالية جداً، مما يعطي مصداقية غير مباشرة لتنبؤ الترتيب الأول للنموذج (التهاب الأوعية الدموية الروماتويدي) حتى وإن كان هذا الواحد يفتقد الدعم المباشر للتجارب.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold** (for Rheumatoid Vasculitis)
+**القرار: Hold** (لالتهاب الأوعية الدموية الروماتويدي)
 
-**Rationale:**
-No clinical trial or study has evaluated golimumab specifically for rheumatoid vasculitis; existing evidence is limited to case reports with a mechanistically mixed safety signal (reports of both protective association and paradoxical anti-TNF-induced vasculitis). Combined with missing MOA and safety/package-insert data, the evidence does not yet support progression past S1.
+**المنطق:**
+لم تقيّم أي تجربة سريرية أو دراسة جوليموماب على وجه التحديد لالتهاب الأوعية الدموية الروماتويدي؛ الأدلة الموجودة محدودة بتقارير الحالات التي تحمل إشارة سلامة ميكانيكية مختلطة (تقارير عن كل من الاتجاه الوقائي والتهاب الأوعية المستحث بمضادات TNF المتناقض). مقترناً بفقدان بيانات MOA والسلامة/ملحق المعلومات، الأدلة لا تدعم حالياً التقدم بعد S1.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- DrugBank-sourced mechanism of action confirmation
-- A dedicated observational or case-series study of golimumab in confirmed rheumatoid vasculitis, given no such trial currently exists
-- Reconciliation of the conflicting paradoxical-vasculitis safety signal (e.g., Takayasu's arteritis case, PMID 22999907) before any clinical exploration
+**للمتابعة، يلزم ما يلي:**
+- ملحق معلومات TFDA/SFDA (التحذيرات، موانع الاستخدام) — حالياً فجوة بيانات حجب
+- تأكيد آلية العمل من DrugBank
+- دراسة رصدية مخصصة أو سلسلة حالات لجوليموماب في التهاب الأوعية الدموية الروماتويدي المؤكد، نظراً لعدم وجود مثل هذه التجربة حالياً
+- التوفيق مع إشارة سلامة التهاب الأوعية الدموية المتناقضة (على سبيل المثال، حالة التهاب الشرايين في تاكاياسو، PMID 22999907) قبل أي استكشاف سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

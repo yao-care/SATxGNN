@@ -29,60 +29,61 @@ indication_count: 4
 
 </div>
 
-# Polyvinyl Alcohol: From Excipient Use to Congenital Ichthyosiform Erythroderma
+# كحول البولي فينيل: من الاستخدام كمادة مساعدة إلى التهاب الجلد المحمر الخلقي من نوع الإيكثيوزيس
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Polyvinyl alcohol (PVA) has no formally approved therapeutic indication on record — it is primarily used as a pharmaceutical excipient valued for its film-forming, lubricating, and moisture-retentive properties (e.g., artificial tears, wound dressing components). The TxGNN model predicts potential relevance to **Congenital Ichthyosiform Erythroderma**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it rests solely on the model's score plus an indirect physicochemical rationale.
+كحول البولي فينيل (PVA) ليس له مؤشر علاجي معتمد رسميًا في السجلات - يُستخدم بشكل أساسي كمادة مساعدة صيدلانية موّجهة لخصائصها في تكوين الأغشية والتزليق والاحتفاظ بالرطوبة (مثل القطرات الدمعية الاصطناعية ومكونات ضمادات الجروح). يتنبأ نموذج TxGNN بالصلة المحتملة بـ التهاب الجلد المحمر الخلقي من نوع الإيكثيوزيس، لكن هذا التنبؤ مدعوم حاليًا بصفر تجارب سريرية وصفر منشورات - فهو يعتمد فقط على درجة النموذج بالإضافة إلى منطق كيميائي فيزيائي غير مباشر.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No approved therapeutic indication on record (used as pharmaceutical excipient) |
-| Predicted New Indication | Congenital Ichthyosiform Erythroderma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا يوجد مؤشر علاجي معتمد في السجلات (يُستخدم كمادة مساعدة صيدلانية) |
+| المؤشر الجديد المتنبأ به | التهاب الجلد المحمر الخلقي من نوع الإيكثيوزيس |
+| درجة التنبؤ من TxGNN | 99.90% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, polyvinyl alcohol is a synthetic water-soluble polymer used as a pharmaceutical excipient rather than an active therapeutic agent — its established roles (artificial tears, wound dressing/occlusive film components) derive from physical properties (film formation, lubrication, moisture retention), not receptor- or enzyme-mediated pharmacology.
+حاليًا، البيانات المفصلة عن آلية العمل غير متاحة. بناءً على المعلومات المعروفة، كحول البولي فينيل هو بوليمر قابل للذوبان في الماء يُستخدم كمادة مساعدة صيدلانية وليس كعامل علاجي نشط - إن أدواره المثبتة (القطرات الدمعية الاصطناعية، مكونات ضمادات الجروح/الأغشية المانعة للتسرب) تنتج عن الخصائص الفيزيائية (تكوين الأغشية والتزليق والاحتفاظ بالرطوبة)، وليس من الصيدلة الموسّطة بالمستقبلات أو الإنزيمات.
 
-The rationale linking PVA to congenital ichthyosiform erythroderma is a physical-property analogy: ichthyosiform disorders share a core pathology of stratum corneum barrier defect and increased transepidermal water loss, and PVA's occlusive, film-forming, moisture-retentive characteristics could theoretically provide symptomatic barrier support — similar to how emollients are used adjunctively in these conditions. This is not a disease-modifying mechanism and does not address the underlying keratinization defect.
+المنطق الذي يربط كحول البولي فينيل بالتهاب الجلد المحمر الخلقي من نوع الإيكثيوزيس هو قياس الخصائص الفيزيائية: تشارك اضطرابات الإيكثيوزيس في اضطراب أساسي في حاجز الطبقة القرنية وزيادة فقدان الماء عبر الجلد، وقد توفر خصائص كحول البولي فينيل المانعة للتسرب وتكوين الأغشية والاحتفاظ بالرطوبة نظريًا دعمًا حاجزًا عرضيًا - بشكل مشابه لكيفية استخدام الملطفات بشكل مساعد في هذه الحالات. هذا ليس آلية معدلة للمرض ولا يعالج الخلل التقرني الأساسي.
 
-Notably, all four TxGNN-predicted indications for this drug (congenital ichthyosiform erythroderma, self-healing collodion baby, lamellar ichthyosis, bathing suit ichthyosis) cluster within the same ichthyosis/keratinization-disorder family, showing internal consistency in the model's output. However, consistency of prediction pattern is not a substitute for actual clinical or mechanistic evidence, and none exists for any of the four.
+وجديرٌ بالملاحظة أن جميع المؤشرات الأربعة المتنبأ بها من TxGNN لهذا الدواء (التهاب الجلد المحمر الخلقي من نوع الإيكثيوزيس، طفل الكوليديون الذي يشفي ذاتيًا، الإيكثيوزيس الرقائقية، إيكثيوزيس بدلة السباحة) تتجمع ضمن نفس عائلة اضطرابات الإيكثيوزيس/التقرن، مما يوضح الاتساق الداخلي في مخرجات النموذج. ومع ذلك، فإن اتساق نمط التنبؤ ليس بديلاً عن الدليل السريري أو الآلي الفعلي، ولا يوجد أي منهما لأي من الأربعة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حاليًا لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+حاليًا لا توجد أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No marketed authorizations on record — the drug's market status is "Not Marketed" with 0 total licenses.
+لا توجد تصاريح مسوقة في السجلات - حالة السوق للدواء هي "غير مسوق" مع 0 تصريح إجمالي.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-This prediction is Evidence Level L5 — model score alone, with no clinical trials, no literature, and no mechanism-of-action confirmation. A Blocking data gap (missing TFDA/SFDA package insert warnings and contraindications) also prevents entry into the S1 safety pre-assessment stage.
+**المبررات:**
+هذا التنبؤ هو مستوى الدليل L5 - درجة النموذج وحدها، بدون تجارب سريرية، بدون أدبيات، وبدون تأكيد آلية العمل. تمنع فجوة بيانات حاجزة (نشرة TFDA/SFDA الداخلية المفقودة والتحذيرات والمضادات) أيضًا من دخول مرحلة التقييم الأمني المسبق S1.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Preclinical or case-level evidence connecting PVA to ichthyosis-related barrier pathophysiology
-- Route-of-administration/formulation compatibility assessment (currently marked "pending")
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة الداخلية TFDA/SFDA (التحذيرات والمضادات) - حاليًا فجوة حاجزة
+- بيانات آلية العمل المؤكدة من DrugBank أو الأدبيات الأولية
+- دليل ما قبل السريري أو على مستوى الحالات يربط كحول البولي فينيل بالفسيولوجيا المرضية للحاجز المرتبطة بالإيكثيوزيس
+- تقييم التوافق بين طريقة الإعطاء/الصيغة (حاليًا تم تحديده كـ "قيد الانتظار")
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

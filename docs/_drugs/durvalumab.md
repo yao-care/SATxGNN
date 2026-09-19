@@ -29,163 +29,164 @@ indication_count: 10
 
 </div>
 
-# Durvalumab: From Urothelial Carcinoma to Prostatic Urethra Urothelial Carcinoma and Beyond
+# ديورفالوماب: من سرطان المسالك البولية إلى سرطان الإحليل البروستاتي والمسالك البولية وما بعده
 
 ---
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Durvalumab (IMFINZI) is an anti-PD-L1 monoclonal antibody checkpoint inhibitor approved in multiple markets for urothelial carcinoma and non-small cell lung cancer, though not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **10 rare urothelial and gynecological cancer subtypes** — the highest TxGNN score goes to **Prostatic Urethra Urothelial Carcinoma** (99.98%), while **Endocervical Carcinoma** (Rank #6) carries the strongest clinical evidence with **2 clinical trials and 1 publication**.
-Evidence levels range from **L2 to L5** across predicted indications; most require further investigation before clinical translation, with endocervical carcinoma as the one actionable candidate.
+ديورفالوماب (IMFINZI) هو جسم مضاد أحادي النسيلة موجه ضد PD-L1 مثبط نقطة التفتيش المناعية المعتمد في عدة أسواق لسرطان المسالك البولية وسرطان الرئة ذو الخلايا غير الصغيرة، رغم عدم تسجيله حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **10 أنواع نادرة من سرطانات المسالك البولية والسرطانات النسائية** — أعلى درجة TxGNN تذهب إلى **سرطان الإحليل البروستاتي للمسالك البولية** (99.98%)، بينما يحمل **سرطان بطانة عنق الرحم** (الترتيب رقم 6) أقوى أدلة سريرية مع **تجربتي سريريتين ونشر واحد**.
+تتراوح مستويات الأدلة من **L2 إلى L5** عبر الاستطبابات المتنبأ بها؛ معظمها يتطلب مزيداً من التحقيق قبل الترجمة السريرية، مع سرطان بطانة عنق الرحم كمرشح قابل للتنفيذ الوحيد.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Urothelial carcinoma, NSCLC, biliary tract cancer (approved in other markets; original indication data not captured in this Evidence Pack) |
-| Predicted New Indication (Top TxGNN Score) | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.98% (Rank #746) |
-| Evidence Level (Rank #1 Indication) | L5 — Model prediction only |
-| Best-Evidenced Indication | Endocervical Carcinoma (Rank #6, L2) |
-| Saudi Arabia Market Status | ✗ Not Marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (7 indications) · Research Question (2 indications) · Proceed with Guardrails (Endocervical Carcinoma) |
+| الاستطباب الأصلي | سرطان المسالك البولية، NSCLC، سرطان المجاري الصفراوية (معتمد في أسواق أخرى؛ بيانات الاستطباب الأصلية لم يتم التقاطها في هذه حزمة الأدلة) |
+| استطباب جديد متنبأ به (أعلى درجة TxGNN) | سرطان الإحليل البروستاتي للمسالك البولية |
+| درجة التنبؤ TxGNN | 99.98% (الترتيب رقم 746) |
+| مستوى الأدلة (استطباب رقم 1) | L5 — توقع النموذج فقط |
+| أفضل استطباب موثق بالأدلة | سرطان بطانة عنق الرحم (الترتيب رقم 6، L2) |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوّق (0 تصريح) |
+| عدد التصريحات | 0 |
+| القرار الموصى به | الانتظار (7 استطبابات) · سؤال بحثي (استطبابان) · المتابعة مع الضمانات (سرطان بطانة عنق الرحم) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from this Evidence Pack (Data Gap DG002). Based on known pharmacological information, Durvalumab is a human IgG1 monoclonal antibody that selectively blocks PD-L1 from binding its receptors PD-1 and CD80, thereby restoring T-cell-mediated immune surveillance against tumors. This mechanism — immune checkpoint blockade at the PD-L1 node — has proven effective across multiple solid tumors where PD-L1 upregulation enables immune evasion.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة من هذه حزمة الأدلة (فجوة البيانات DG002). بناءً على المعلومات الدوائية المعروفة، ديورفالوماب هو جسم مضاد أحادي النسيلة من الجلوبيولين المناعي البشري من فئة IgG1 يمنع بشكل انتقائي PD-L1 من الارتباط بمستقبلاته PD-1 و CD80، وبالتالي يستعيد المراقبة المناعية الوسيطة بواسطة الخلايا التائية ضد الأورام. أثبتت هذه الآلية — حصار نقطة التفتيش المناعية عند عقدة PD-L1 — فعاليتها عبر أورام صلبة متعددة حيث يمكّن تنظيم PD-L1 الصعودي الهروب المناعي.
 
-The 10 predicted indications cluster around two biological themes. The first group comprises **urothelial/transitional cell carcinoma subtypes** (prostatic urethra, kidney pelvis sarcomatoid, bladder sarcomatoid variant, renal pelvis papillary), where PD-L1 expression is documented at 30–60% in conventional urothelial carcinoma and is notably higher (>60% in some studies) in sarcomatoid variants due to epithelial-mesenchymal transition (EMT) activation and elevated tumor mutational burden (TMB). The second group comprises **gynecological adenocarcinoma subtypes** (endocervical, uterine ligament variants, cervical mucinous variants), where HPV-driven immune evasion — including PD-L1 upregulation — creates a theoretical basis for checkpoint inhibition. Importantly, the related anti-PD-1 agent pembrolizumab is already FDA-approved for cervical cancer, validating the PD-1/PD-L1 axis as a clinically meaningful target in this tumor class.
+تتجمع الاستطبابات العشرة المتنبأ بها حول موضوعين بيولوجيين. تشمل المجموعة الأولى **أنواع سرطانات المسالك البولية/الخلايا الانتقالية** (الإحليل البروستاتي، حوض الكلية الساركوماتويد، المثانة الساركوماتويد المتغيرة، حوض الكلية الحليمي)، حيث يتم توثيق تعبير PD-L1 بنسبة 30–60% في سرطان المسالك البولية التقليدي وهو أعلى بشكل ملحوظ (>60% في بعض الدراسات) في المتغيرات الساركوماتويدة بسبب تنشيط الانتقال الظهاري-الميزانشيمي (EMT) والعبء الطفري الورمي المرتفع (TMB). تشمل المجموعة الثانية **أنواع سرطانات غدية نسائية** (بطانة عنق الرحم، متغيرات الرباط الرحمي، متغيرات عنق الرحم المخاطية)، حيث يخلق الهروب المناعي المدفوع بـ HPV — بما في ذلك تنظيم PD-L1 الصعودي — أساساً نظرياً لحصار نقطة التفتيش. الأهم من ذلك، أن العامل المضاد للـ PD-1 ذي الصلة pembrolizumab معتمد بالفعل من قبل FDA لسرطان عنق الرحم، مما يؤيد محور PD-1/PD-L1 كهدف ذي معنى سريري في هذه فئة الورم.
 
-The mechanistic rationale is strongest for **sarcomatoid urothelial variants** (EMT, high PD-L1, high TMB) and **HPV-positive endocervical carcinoma** (PD-L1 upregulation in ~30–60% of cases). It is weakest for adenoid cystic carcinoma of the cervix (typically immunologically cold, TMB-low) and signet ring cell/intestinal mucinous cervical variants (immunosuppressive tumor microenvironment unless MSI-H).
+التبرير الآلي أقوى لـ **متغيرات السرطانات البولية الساركوماتويدة** (EMT، PD-L1 مرتفع، TMB مرتفع) و **سرطان بطانة عنق الرحم الإيجابي HPV** (تنظيم PD-L1 في ~30–60% من الحالات). الأضعف بالنسبة لسرطان الغدد اللعابية الخيطي بعنق الرحم (عادة بارد مناعياً، TMB منخفض) ومتغيرات خلايا الخاتم بالختم/الأمعاء المخاطية بعنق الرحم (بيئة ميكروية مثبطة للمناعة ما لم تكن MSI-H).
 
 ---
 
-## All Predicted Indications — Summary
+## جميع الاستطبابات المتنبأ بها — ملخص
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision |
+| الترتيب | المرض | درجة TxGNN | مستوى الأدلة | القرار |
 |------|---------|-------------|----------------|----------|
-| 1 | Prostatic Urethra Urothelial Carcinoma | 99.98% | L5 | Hold |
-| 2 | Kidney Pelvis Sarcomatoid TCC | 99.98% | L4 | Research Question |
-| 3 | Infiltrating Bladder UC Sarcomatoid Variant | 99.98% | L3 | Research Question |
-| 4 | Renal Pelvis Papillary UC | 99.98% | L5 | Hold |
-| 5 | Uterine Ligament Adenocarcinoma | 99.92% | L5 | Hold |
-| **6** | **Endocervical Carcinoma** | **99.91%** | **L2** | **Proceed with Guardrails** |
-| 7 | Adenoid Cystic Carcinoma of Cervix Uteri | 99.91% | L5 | Hold |
-| 8 | Uterine Ligament Serous Adenocarcinoma | 99.91% | L5 | Hold |
-| 9 | Signet Ring Cell Variant Cervical Mucinous Adenocarcinoma | 99.90% | L5 | Hold |
-| 10 | Intestinal Variant Cervical Mucinous Adenocarcinoma | 99.90% | L5 | Hold |
+| 1 | سرطان الإحليل البروستاتي للمسالك البولية | 99.98% | L5 | انتظار |
+| 2 | حوض الكلية الساركوماتويد من الخلايا الانتقالية | 99.98% | L4 | سؤال بحثي |
+| 3 | المثانة المرشحة UC متغير ساركوماتويد | 99.98% | L3 | سؤال بحثي |
+| 4 | حوض الكلية UC الحليمي | 99.98% | L5 | انتظار |
+| 5 | سرطان غدي برباط رحمي | 99.92% | L5 | انتظار |
+| **6** | **سرطان بطانة عنق الرحم** | **99.91%** | **L2** | **المتابعة مع الضمانات** |
+| 7 | سرطان الغدد اللعابية الخيطي بعنق الرحم | 99.91% | L5 | انتظار |
+| 8 | سرطان غدي مصلي برباط رحمي | 99.91% | L5 | انتظار |
+| 9 | متغير خلايا الخاتم بالختم في سرطان عنق الرحم المخاطي الغدي | 99.90% | L5 | انتظار |
+| 10 | متغير الأمعاء في سرطان عنق الرحم المخاطي الغدي | 99.90% | L5 | انتظار |
 
 ---
 
-## Clinical Trial Evidence
+## أدلة الدراسات السريرية
 
-Clinical trial evidence exists for Indications #2, #3, and #6 only. Indications #1, #4, #5, #7, #8, #9, and #10 have no registered clinical trials.
+توجد أدلة من الدراسات السريرية للاستطبابات رقم 2 و 3 و 6 فقط. الاستطبابات رقم 1 و 4 و 5 و 7 و 8 و 9 و 10 ليس لديها دراسات سريرية مسجلة.
 
-### For Indication #3 — Infiltrating Bladder UC Sarcomatoid Variant
+### بالنسبة للاستطباب رقم 3 — المثانة المرشحة UC متغير ساركوماتويد
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03912818](https://clinicaltrials.gov/study/NCT03912818) | Phase 2 | Terminated | 7 | Durvalumab + neoadjuvant chemotherapy in variant histology bladder cancer. **Critical signal**: terminated after enrolling only 7 patients (far below target). Termination reason must be clarified — if due to insufficient efficacy, this is a significant negative signal; if due to accrual/funding difficulties, the indication may warrant re-evaluation. |
-| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | Early Phase 1 | Active, Not Recruiting | 54 | Durvalumab + Tremelimumab (dual checkpoint: anti-PD-L1 + anti-CTLA-4) pre-surgical in muscle-invasive, cisplatin-ineligible high-risk urothelial carcinoma. Covers the broader urothelial population including bladder; dual checkpoint blockade may offer additional synergy for sarcomatoid variants. Indirect relevance only. |
+| [NCT03912818](https://clinicaltrials.gov/study/NCT03912818) | المرحلة 2 | توقفت | 7 | ديورفالوماب + العلاج الكيميائي قبل الجراحي في سرطان المثانة بالنمط النسيجي المتغير. **إشارة حرجة**: توقفت بعد تسجيل 7 مرضى فقط (أقل بكثير من الهدف). يجب توضيح سبب التوقف — إذا كان بسبب عدم كفاية الفعالية، فهذه إشارة سلبية كبيرة؛ إذا كان بسبب صعوبات التجنيد/التمويل، فقد يستحق الاستطباب إعادة تقييم. |
+| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | مرحلة مبكرة 1 | نشطة، لا تجنيد | 54 | ديورفالوماب + tremelimumab (حصار نقطة تفتيش مزدوج: مضاد PD-L1 + مضاد CTLA-4) قبل الجراحة في سرطان المسالك البولية العضلي الغازي، غير الأهل للسيسبلاتين عالي الخطر. يغطي السكان الأوسع من المسالك البولية بما في ذلك المثانة؛ قد يوفر حصار نقطة التفتيش المزدوج تآزراً إضافياً لمتغيرات ساركوماتويد. الصلة غير مباشرة فقط. |
 
-### For Indication #2 — Kidney Pelvis Sarcomatoid TCC
+### بالنسبة للاستطباب رقم 2 — حوض الكلية الساركوماتويد من الخلايا الانتقالية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | Early Phase 1 | Active, Not Recruiting | 54 | Same trial as above — the urothelial carcinoma population may include upper tract (renal pelvis) cases. Not designed for sarcomatoid TCC of the kidney pelvis. Indirect relevance; supports the broader concept of durvalumab in urothelial disease. |
+| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | مرحلة مبكرة 1 | نشطة، لا تجنيد | 54 | نفس التجربة أعلاه — قد تشمل السكان من سرطان المسالك البولية المسار العلوي (حوض الكلية). لم يتم تصميمه لسرطان الخلايا الانتقالية الساركوماتويد بحوض الكلية. الصلة غير مباشرة؛ يدعم المفهوم الأوسع لديورفالوماب في مرض المسالك البولية. |
 
-### For Indication #6 — Endocervical Carcinoma
+### بالنسبة للاستطباب رقم 6 — سرطان بطانة عنق الرحم
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04065269](https://clinicaltrials.gov/study/NCT04065269) | Phase 2 | Active, Not Recruiting | 174 | **ATARI trial**: ceralasertib (ATR inhibitor) alone or combined with olaparib or durvalumab in relapsed gynecological cancers, stratified by ARID1A loss. Largest available dataset (n=174). Key limitation: three-drug combination arms make it difficult to isolate durvalumab's independent contribution; patient selection is biomarker-driven (DDR deficiency). Expected completion August 2026. |
-| [NCT03452332](https://clinicaltrials.gov/study/NCT03452332) | Phase 1 | Completed | 20 | Hypofractionated radiotherapy + durvalumab + tremelimumab in recurrent/metastatic cervical, vaginal, or vulvar cancers. **Completed** — safety profile of durvalumab in the cervical cancer population has been established. Publication status of results should be confirmed. |
+| [NCT04065269](https://clinicaltrials.gov/study/NCT04065269) | المرحلة 2 | نشطة، لا تجنيد | 174 | **تجربة ATARI**: ceralasertib (مثبط ATR) بمفرده أو مع olaparib أو ديورفالوماب في السرطانات النسائية المتكررة، معطلة حسب فقدان ARID1A. أكبر مجموعة بيانات متاحة (n=174). القيد الرئيسي: تجعل أذرع العقاقير الثلاثة من الصعب عزل المساهمة المستقلة لديورفالوماب؛ اختيار المريض موجه بالمؤشرات الحيوية (نقص DDR). الانتهاء المتوقع أغسطس 2026. |
+| [NCT03452332](https://clinicaltrials.gov/study/NCT03452332) | المرحلة 1 | مكتملة | 20 | العلاج الإشعاعي الجزئي + ديورفالوماب + tremelimumab في السرطانات المتكررة/النقيلية في عنق الرحم أو المهبل أو الفرج. **مكتملة** — تم تأسيس ملف سلامة ديورفالوماب في السكان من سرطان عنق الرحم. يجب تأكيد حالة النشر للنتائج. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Literature was found for Indication #6 (Endocervical Carcinoma) only. Indications #1–5 and #7–10 have no related publications in the Evidence Pack search.
+تم العثور على أدبيات بالنسبة للاستطباب رقم 6 (سرطان بطانة عنق الرحم) فقط. الاستطبابات رقم 1–5 و 7–10 ليس لديها منشورات ذات صلة في بحث حزمة الأدلة.
 
-### For Indication #6 — Endocervical Carcinoma
+### بالنسبة للاستطباب رقم 6 — سرطان بطانة عنق الرحم
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | Review | Biomedical Journal | Molecular basis and therapeutic advances in small cell neuroendocrine carcinoma of the cervix (SCNECC). Discusses HPV association, evidence gaps in rare cervical subtypes, and immunotherapy potential. Indirectly informs PD-L1 pathway rationale for endocervical carcinoma; direct evidence for durvalumab not addressed. |
+| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | مراجعة | Biomedical Journal | الأساس الجزيئي والتطورات العلاجية في سرطان الخلايا الصغيرة المصدرة الغدد العصبية بعنق الرحم (SCNECC). يناقش ارتباط HPV، وفجوات الأدلة في الأنواع النادرة من سرطان عنق الرحم، وإمكانية العلاج المناعي. يُعلم بشكل غير مباشر التبرير بمسار PD-L1 لسرطان بطانة عنق الرحم؛ الأدلة المباشرة لديورفالوماب لم يتم معالجتها. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Durvalumab has no registered authorizations in Saudi Arabia (0 licenses, not marketed). No authorization records to display.
+ديورفالوماب ليس له أي تصريحات مسجلة في المملكة العربية السعودية (0 ترخيص، غير مسوّق). لا توجد سجلات تصريح لعرضها.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Durvalumab is an antineoplastic drug (immune checkpoint inhibitor targeting PD-L1 in solid tumors). This section applies.
+ديورفالوماب هو دواء الأورام (مثبط نقطة التفتيش المناعية موجه PD-L1 في الأورام الصلبة). ينطبق هذا القسم.
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy — Immune Checkpoint Inhibitor (anti-PD-L1 IgG1 monoclonal antibody); not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Low — mechanism does not directly suppress bone marrow; immune-mediated cytopenias (e.g., immune thrombocytopenia, hemolytic anemia) are rare but recognized immune-related adverse events (irAEs) |
-| Emetogenicity Classification | Minimal — IV biologic; emetogenic risk is negligible compared to conventional chemotherapy |
-| Monitoring Items | CBC with differential (baseline and periodic), liver function (ALT/AST — immune hepatitis), thyroid function (TSH/fT4 — thyroiditis), creatinine/BUN (immune nephritis), blood glucose (immune endocrinopathy), pulmonary assessment (chest imaging if pneumonitis symptoms) |
-| Handling Protection | Standard biohazard precautions for injectable biologics; specialized cytotoxic handling protocols (closed system, double glove, negative pressure) are **not** required for monoclonal antibodies under most institutional guidelines — verify against local pharmacy SOPs |
+| تصنيف السمية الخلوية | العلاج المناعي الموجه — مثبط نقطة التفتيش المناعية (جسم مضاد أحادي النسيلة مضاد PD-L1 من فئة IgG1)؛ ليس العلاج الكيميائي السام التقليدي |
+| مخاطر قمع النخاع | منخفضة — الآلية لا تثبط مباشرة نخاع العظم؛ قد تحدث نقص الصفيحات والفقر الدم الانحلالي الموسوم بـ المناعة نادرة ولكن معترف بها من الأحداث الضائرة ذات الصلة المناعية (irAEs) |
+| تصنيف الغثيان | ضئيل — دواء حيوي عن طريق IV؛ خطر الغثيان ضئيل مقارنة بالعلاج الكيميائي التقليدي |
+| عناصر المراقبة | تعداد الدم الكامل (CBC) مع التفاضل (الخط الأساسي والدوري)، وظائف الكبد (ALT/AST — التهاب الكبد المناعي)، وظائف الغدة الدرقية (TSH/fT4 — التهاب الغدة الدرقية)، الكرياتينين/BUN (التهاب الكلى المناعي)، نسبة السكر في الدم (الاعتلال المناعي الغدي)، التقييم الرئوي (التصوير الصدري إذا ظهرت أعراض الالتهاب الرئوي) |
+| حماية المناولة | احتياطات الخطر البيولوجي القياسية للعوامل الحيوية القابلة للحقن؛ بروتوكولات المناولة السامة للخلايا المتخصصة (النظام المغلق، القفازات المزدوجة، الضغط السلبي) **ليست** مطلوبة لأجسام مضادة أحادية النسيلة بموجب معظم الإرشادات المؤسسية — تحقق مقابل SOPs الصيدلة المحلية |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-*(Key warnings, contraindications, and drug interaction data were not available in this Evidence Pack. TFDA package insert retrieval is flagged as a **Blocking** data gap [DG001] and must be resolved before safety screening can proceed. No drug-drug interactions were identified in the DDI database query.)*
-
----
-
-## Conclusion and Next Steps
-
-### Endocervical Carcinoma (Rank #6) — **Proceed with Guardrails**
-
-**Rationale:**
-The PD-1/PD-L1 axis is clinically validated in cervical cancer (pembrolizumab holds FDA approval), HPV-driven PD-L1 upregulation provides a strong mechanistic basis, and durvalumab specifically is under active investigation in gynecological cancer clinical trials (Phase 1 completed, Phase 2 active with n=174), placing this indication at evidence Level L2.
-
-**To proceed, the following is needed:**
-- Confirm endocervical carcinoma representation within NCT04065269 and obtain interim efficacy readouts
-- Retrieve published results from completed NCT03452332 (Phase 1 safety data)
-- Define biomarker strategy: PD-L1 IHC (CPS ≥1 or ≥10), HPV status, MSI/MMR, TMB
-- Initiate Saudi Arabia regulatory pathway: durvalumab requires full NDA/BLA submission or compassionate use framework (0 current authorizations)
-- Resolve Blocking data gap DG001: retrieve SFDA/TFDA package insert for safety screening
+*(لم تكن بيانات التحذيرات الرئيسية والمخالفات وتفاعلات الأدوية المتعددة متاحة في هذه حزمة الأدلة. يتم الإشارة إلى استرجاع نشرة TFDA كفجوة بيانات حجب [DG001] ويجب حلها قبل أن تتمكن من المتابعة فحص السلامة. لم تُحدد أي تفاعلات عقاقير من قاعدة بيانات DDI.)*
 
 ---
 
-### Urothelial Sarcomatoid Variants — Indications #2 and #3 — **Research Question**
+## الخلاصة والخطوات التالية
 
-**Rationale:**
-Sarcomatoid variants carry elevated PD-L1 expression and strong immunological rationale, but NCT03912818 (the only Phase 2 trial directly targeting variant histology bladder cancer with durvalumab) was terminated with only 7 patients enrolled — a critical negative signal. The cause of termination is unknown and determines whether this indication warrants further investment.
+### سرطان بطانة عنق الرحم (الترتيب رقم 6) — **المتابعة مع الضمانات**
 
-**To proceed, the following is needed:**
-- Investigate and document termination reason for NCT03912818
-- Biomarker characterization of sarcomatoid TCC: PD-L1 expression, TMB, EMT marker profile
-- Explore basket trial inclusion or investigator-initiated study design for rare sarcomatoid urothelial subtypes
+**التبرير:**
+تم التحقق من صحة محور PD-1/PD-L1 سريرياً في سرطان عنق الرحم (pembrolizumab يحمل موافقة FDA)، وتنظيم PD-L1 المدفوع بـ HPV يوفر أساساً آلياً قوياً، وديورفالوماب على وجه التحديد قيد التحقيق النشط في التجارب السريرية لسرطانات النساء (المرحلة 1 مكتملة، المرحلة 2 نشطة مع n=174)، مما يضع هذا الاستطباب في مستوى الأدلة L2.
+
+**للمتابعة، يلزم ما يلي:**
+- تأكيد تمثيل سرطان بطانة عنق الرحم في NCT04065269 والحصول على قراءات فعالية مؤقتة
+- استرجاع النتائج المنشورة من NCT03452332 المكتملة (بيانات سلامة المرحلة 1)
+- تحديد استراتيجية المؤشرات الحيوية: IHC من PD-L1 (CPS ≥1 أو ≥10)، حالة HPV، MSI/MMR، TMB
+- بدء مسار التنظيم بالمملكة العربية السعودية: يتطلب ديورفالوماب تقديم NDA/BLA كاملاً أو إطار استخدام رحمة (0 تصريح حالياً)
+- حل فجوة البيانات الحجب DG001: استرجاع نشرة SFDA/TFDA لفحص السلامة
 
 ---
 
-### All Other Indications (#1, #4, #5, #7, #8, #9, #10) — **Hold**
+### متغيرات السرطانات البولية الساركوماتويدة — الاستطبابات رقم 2 و 3 — **سؤال بحثي**
 
-**Rationale:**
-These 7 indications have no clinical trials or literature support. TxGNN scores reflect knowledge-graph topological proximity to adjacent cancer nodes — not clinical validation. Specific mechanistic concerns include: adenoid cystic carcinoma of the cervix is typically immunologically cold (TMB-low, PD-L1 negative, poor historical response to ICIs); signet ring cell and intestinal variants respond poorly to ICI unless MSI-H/dMMR; uterine ligament adenocarcinomas have near-zero PD-L1 characterization data.
+**التبرير:**
+تحمل المتغيرات الساركوماتويدة تعبير PD-L1 مرتفع والتبرير المناعي القوي، لكن NCT03912818 (التجربة الوحيدة من المرحلة 2 الموجهة مباشرة نحو سرطان المثانة بالنمط النسيجي المتغير مع ديورفالوماب) توقفت مع تسجيل 7 مرضى فقط — إشارة سلبية حرجة. سبب التوقف غير معروف ويحدد ما إذا كان هذا الاستطباب يستحق مزيداً من الاستثمار.
 
-**Minimum requirements before reconsideration:**
-- Subtype-specific PD-L1 expression and TMB data
-- At least preclinical evidence (cell line or patient-derived xenograft) for direct mechanistic support
-- Biomarker-selected patient identification criteria (MSI-H, TMB-H, PD-L1 CPS) before any prospective study design
+**للمتابعة، يلزم ما يلي:**
+- التحقيق وتوثيق سبب التوقف لـ NCT03912818
+- توصيف المؤشرات الحيوية من سرطان الخلايا الانتقالية الساركوماتويد: تعبير PD-L1، TMB، ملف تعريف علامات EMT
+- استكشاف تضمين تجربة السلة أو تصميم دراسة بدء محقق لأنواع سرطان المسالك البولية الساركوماتويدة النادرة
+
+---
+
+### جميع الاستطبابات الأخرى (#1، #4، #5، #7، #8، #9، #10) — **انتظار**
+
+**التبرير:**
+هذه 7 استطبابات ليس لديها دراسات سريرية أو دعم أدبي. تعكس درجات TxGNN القرب الطوبولوجي من الرسم البياني للمعرفة إلى عقد السرطان المجاورة — ليس التحقق من الصحة السريرية. تشمل المخاوف الآلية المحددة: سرطان الغدد اللعابية الخيطي بعنق الرحم عادة ما يكون بارداً مناعياً (TMB منخفض، PD-L1 سلبي، استجابة تاريخية سيئة للـ ICIs)؛ الاستجابة السيئة متغيرات خلايا الخاتم بالختم والأمعاء لـ ICI ما لم تكن MSI-H/dMMR؛ سرطانات الرباط الرحمي الغدية لديها البيانات قريبة من الصفر من توصيف PD-L1.
+
+**الحد الأدنى من المتطلبات قبل إعادة النظر:**
+- تعبير PD-L1 خاص بالنوع الفرعي وبيانات TMB
+- على الأقل أدلة ما قبل السريرية (خط خلايا أو زراعة نموذجية مشتقة من المريض) للدعم الآلي المباشر
+- معايير تحديد المريض الموجهة بالمؤشرات الحيوية (MSI-H، TMB-H، PD-L1 CPS) قبل أي تصميم دراسة مستقبلية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

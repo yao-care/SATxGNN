@@ -29,94 +29,95 @@ indication_count: 1
 
 </div>
 
-# Midazolam: From Procedural Sedation to Insomnia
+# ميدازولام: من التخدير الإجرائي إلى الأرق
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Midazolam is a short-acting benzodiazepine most widely used for procedural sedation, anesthesia induction, and premedication. The TxGNN model predicts it may also be effective for **Insomnia**, with **32 clinical trials** and **11 publications** currently identified as related evidence — though most of the trials use midazolam only as a comparator arm rather than as the primary intervention being tested for insomnia.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Saudi Arabia licensing data (0 licenses on file). Based on known pharmacology, midazolam is used for procedural sedation, anesthesia premedication/induction, and ICU sedation. |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+ميدازولام هو بنزوديازيبين قصير المفعول يُستخدم على نطاق واسع للتخدير الإجرائي واستحثاث التخدير والتحضير قبل التخدير. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في علاج **الأرق**، حيث تم تحديد **32 تجربة سريرية** و **11 منشورة** حالياً كأدلة ذات صلة — على الرغم من أن معظم التجارب تستخدم ميدازولام فقط في ذراع المقارنة بدلاً من التدخل الأولي الجاري اختباره لعلاج الأرق.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, midazolam is a short-acting benzodiazepine that acts as a positive allosteric modulator at the GABA-A receptor, producing sedative, hypnotic, anxiolytic, and amnestic effects. Its efficacy for procedural sedation and anesthesia has long been established, and mechanistically the same GABAergic sedative-hypnotic activity may be applicable to insomnia — this is the same receptor mechanism exploited by classic hypnotic benzodiazepines (e.g., flurazepam, triazolam) that are already approved for sleep disorders.
-
-Several of the retrieved trials and publications are not testing midazolam as a primary insomnia treatment, but rather use it as an active comparator against newer sedative agents (dexmedetomidine, remimazolam, ketamine) in postoperative or ICU sleep-quality settings. This pattern is consistent with midazolam's established but off-label use as a short-term hypnotic, rather than representing a novel repurposing signal with strong new-indication-specific trial design.
-
-The oldest and most directly relevant evidence — a cluster of double-blind, randomized studies from the 1980s–1990s — evaluated oral midazolam specifically for insomnia and sleep-disorder populations, and found it to be an effective, well-tolerated short-term hypnotic. This gives some historical clinical grounding to the TxGNN prediction, even though these studies predate modern trial registries and are not phase-classified.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متوفر من بيانات الترخيص في المملكة العربية السعودية (0 ترخيص في الملف). بناءً على الدراسات الدوائية المعروفة، يُستخدم ميدازولام للتخدير الإجرائي والتحضير قبل التخدير واستحثاث التخدير والتخدير في وحدات العناية المركزة. |
+| المؤشر المتنبأ به | الأرق |
+| درجة التنبؤ TxGNN | 99.74% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مطروح في السوق (غير مطروح في السوق) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في مجموعة الأدلة هذه. بناءً على المعلومات المعروفة، ميدازولام هو بنزوديازيبين قصير المفعول يعمل كمشرّف إيجابي حلقي على مستقبل GABA-A، مما ينتج عنه تأثيرات مهدئة ومنوّمة وقاهرة للقلق وفاقدة للذاكرة. لقد تم إثبات فعاليته للتخدير الإجرائي والتخدير منذ فترة طويلة، وآلياً قد يكون نفس النشاط المهدئ والمنوّم على مستقبلات GABAergic قابلاً للتطبيق على الأرق — وهذه هي نفس آلية المستقبلات التي تستغلها البنزوديازيبينات الكلاسيكية المنوّمة (مثل فلورازيبام وتريازولام) التي تمت الموافقة عليها بالفعل لاضطرابات النوم.
+
+عدة من التجارب المسترجعة والمنشورات لا تختبر ميدازولام كعلاج أساسي للأرق، بل تستخدمه كمقارن نشط ضد عوامل مهدئة أحدث (ديكسميديتوميدين، ريميمازولام، كيتامين) في إعدادات جودة النوم بعد العمليات الجراحية أو وحدات العناية المركزة. هذا النمط متسق مع الاستخدام المعروف لكن غير المرخص لميدازولام كمنوّم قصير الأجل، بدلاً من تمثيل إشارة إعادة استخدام جديدة بتصميم تجربة قوي محدد لمؤشر جديد.
+
+الأدلة الأقدم والأكثر صلة مباشرة — عنقود من الدراسات العشوائية مزدوجة العمى من الثمانينات إلى التسعينات — قيّمت ميدازولام الفموي على وجه التحديد للأرق واضطرابات النوم، ووجدت أنه منوّم فعال وجيد التحمل على المدى القصير. هذا يعطي بعض الأساس السريري التاريخي للتنبؤ TxGNN، على الرغم من أن هذه الدراسات تسبق تسجيلات التجارب الحديثة ولا يتم تصنيفها حسب المرحلة.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | Recruiting | 280 | Preoperative oral midazolam for postoperative pain in colorectal cancer patients with sleep disturbance/anxiety; states oral midazolam solution is safe and effective for short-term hypnosis |
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | Compares postoperative sleep quality of dexmedetomidine vs. midazolam sedation in TURP patients |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminated | 5 | Compares dexmedetomidine vs. midazolam on sleep quality/quantity via 24-hour polysomnography in ICU patients |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | NA | Completed | 23 | Randomized double-blind study of midazolam vs. dexmedetomidine for facilitating extubation in ICU patients |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnographic comparison of α2 agonist (dexmedetomidine) vs. GABA agonist (midazolam) sedation on sleep stages |
-| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | Not yet recruiting | 195 | Oral melatonin vs. oral midazolam premedication in children undergoing tonsillectomy |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | Unknown | 120 | Sedation efficacy of dexmedetomidine vs. midazolam in critically ill ventilated children |
-| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Phase 4 | Unknown | 285 | Remimazolam besylate (midazolam-class benzodiazepine) for ICU sedation after oral/maxillofacial surgery |
-| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | NA | Completed | 131 | Remimazolam vs. propofol+midazolam general anesthesia, randomized controlled trial |
-| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Phase 2 | Recruiting | 110 | i-CBT plus IV ketamine for suicidality in treatment-resistant depression, midazolam-controlled RCT |
+| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | يتم التجنيد | 280 | ميدازولام الفموي قبل العملية الجراحية لألم ما بعد العملية عند مرضى سرطان القولون والمستقيم الذين يعانون من اضطراب النوم/القلق؛ ينص على أن محلول ميدازولام الفموي آمن وفعال كمنوّم قصير الأجل |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | مكتمل | 111 | يقارن جودة النوم ما بعد العملية الجراحية لتخدير ديكسميديتوميدين مقابل ميدازولام في مرضى TURP |
+| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | تم الإنهاء | 5 | يقارن ديكسميديتوميدين مقابل ميدازولام على جودة/كمية النوم عبر تخطيط النوم لمدة 24 ساعة في مرضى وحدة العناية المركزة |
+| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | NA | مكتمل | 23 | دراسة عشوائية مزدوجة العمى لميدازولام مقابل ديكسميديتوميدين لتسهيل فطام المريض من التنبيب في مرضى وحدة العناية المركزة |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | تم الإنهاء | 6 | مقارنة تخطيط النوم لناهضات α2 (ديكسميديتوميدين) مقابل ناهضات GABA (ميدازولام) على مراحل النوم |
+| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | لم تبدأ بعد | 195 | الميلاتونين الفموي مقابل التحضير قبل التخدير بميدازولام الفموي في الأطفال الذين يخضعون لاستئصال اللوزتين |
+| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | غير معروف | 120 | فعالية التخدير بديكسميديتوميدين مقابل ميدازولام في الأطفال الحرجين على أجهزة التنفس |
+| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Phase 4 | غير معروف | 285 | ريميمازولام بيسيليت (بنزوديازيبين من فئة ميدازولام) للتخدير في وحدة العناية المركزة بعد جراحة الفم والوجه والفكين |
+| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | NA | مكتمل | 131 | ريميمازولام مقابل بروبوفول+ميدازولام للتخدير العام، تجربة محكومة عشوائية |
+| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Phase 2 | يتم التجنيد | 110 | العلاج السلوكي المعرفي i-CBT بالإضافة إلى كيتامين IV للانتحار في الاكتئاب المقاوم للعلاج، تجربة محكومة عشوائية بضابط ميدازولام |
 
-Note: most listed trials use midazolam as a comparator/control arm against newer sedatives, rather than testing midazolam as a primary treatment for insomnia.
+ملاحظة: تستخدم معظم التجارب المدرجة ميدازولام كذراع مقارنة/تحكم ضد المهدئات الأحدث، بدلاً من اختبار ميدازولام كعلاج أساسي للأرق.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Randomized, double-blind, parallel-group, multicenter study of sleep, performance, and plasma levels in chronic insomniacs using flurazepam and midazolam over 14 days |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT (executive summary) | Journal of Clinical Psychopharmacology | Executive summary of the above multicenter 14-day flurazepam vs. midazolam study in chronic insomniacs |
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | British Journal of Clinical Pharmacology | Double-blind study of midazolam 15 mg vs. Vesparax in insomnia secondary to neuromuscular disease; midazolam was effective and better tolerated, without hangover effect |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Dose-finding study | Arzneimittel-Forschung | Multicenter pilot study evaluating oral midazolam (10–30 mg) efficacy and tolerance in 75 hospitalized patients with mild-to-moderate insomnia |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orvosi Hetilap | Review of insomnia pathophysiology, including hyperarousal and cerebral hypoperfusion mechanisms relevant to hypnotic drug use |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | Journal of Clinical Psychopharmacology | دراسة عشوائية مزدوجة العمى متعددة المراكز عن النوم والأداء ومستويات البلازما في الأرق المزمن باستخدام فلورازيبام وميدازولام على مدى 14 يوماً |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | ملخص تنفيذي RCT | Journal of Clinical Psychopharmacology | ملخص تنفيذي لدراسة متعددة المراكز لمدة 14 يوماً بين فلورازيبام وميدازولام في الأرق المزمن |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | British Journal of Clinical Pharmacology | دراسة مزدوجة العمى لميدازولام 15 mg مقابل Vesparax في الأرق الثانوي لأمراض الجهاز العصبي والعضلي؛ كان ميدازولام فعالاً وجيد التحمل بشكل أفضل، دون تأثير احتيالي |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | دراسة تحديد الجرعة | Arzneimittel-Forschung | دراسة تجريبية متعددة المراكز لتقييم فعالية وتحمل ميدازولام الفموي (10–30 mg) في 75 مريضاً مقيماً بالمستشفى يعانون من الأرق الخفيف إلى المتوسط |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | مراجعة | Orvosi Hetilap | مراجعة لفيزيولوجيا الأرق المرضية، بما في ذلك آليات فرط الاستثارة ونقص التروية الدماغية ذات الصلة باستخدام الأدوية المنوّمة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Midazolam currently has no marketing authorization on file in Saudi Arabia (market status: Not Marketed, 0 licenses). No authorization number, product name, or approved indication text is available for this drug in the Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI fields in this Evidence Pack are marked as data gaps; the TFDA/SFDA package-insert warning and contraindication data is flagged as a **Blocking** gap — DG001 — which prevents S1 safety pre-screening.)
+ليس لميدازولام حالياً أي تصريح تسويقي في الملف في المملكة العربية السعودية (حالة السوق: غير مطروح في السوق، 0 ترخيص). لا يتوفر رقم تصريح أو اسم منتج أو نص مؤشر موافق عليه لهذا الدواء في مجموعة الأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (حقول التحذيرات الرئيسية والموانع والتفاعلات الدوائية في مجموعة الأدلة هذه محددة كفجوات في البيانات؛ بيانات نشرة TFDA/SFDA محددة كفجوة **محظورة** — DG001 — مما يمنع فحص الأمان قبل S1.)
 
-**Rationale:**
-Midazolam is not currently marketed in Saudi Arabia (0 licenses), and the blocking data gap on TFDA/SFDA package-insert warnings and contraindications prevents any S1 safety pre-screening. While historical double-blind RCTs from the 1980s–1990s support midazolam's efficacy as a short-term hypnotic, most current registered trials use midazolam only as a comparator rather than as the primary insomnia intervention, so the evidence base for this specific repurposing signal remains indirect.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert with full warnings, contraindications, and drug interaction data (DG001)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Assessment of Saudi Arabia regulatory pathway, given the drug currently has no local marketing authorization
-- A modern, phase-classified RCT evaluating midazolam specifically as a primary treatment for insomnia (not merely as a comparator arm)
-- DDI review, particularly for CNS depressant and CYP3A4-interacting co-medications relevant to chronic insomnia populations
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+ميدازولام غير مطروح حالياً في السوق في المملكة العربية السعودية (0 ترخيص)، وتمنع فجوة البيانات المحظورة بشأن تحذيرات وموانع نشرة TFDA/SFDA أي فحص أمان قبل S1. على الرغم من أن الدراسات العشوائية مزدوجة العمى التاريخية من الثمانينات والتسعينات تدعم فعالية ميدازولام كمنوّم قصير الأجل، فإن معظم التجارب المسجلة الحالية تستخدم ميدازولام فقط كمقارن بدلاً من التدخل الأولي للأرق، لذا فإن قاعدة الأدلة لهذه إشارة إعادة الاستخدام المحددة تبقى غير مباشرة.
+
+**لكي نتقدم، يلزم التالي:**
+- نشرة TFDA/SFDA كاملة مع التحذيرات الكاملة والموانع وبيانات التفاعلات الدوائية (DG001)
+- توثيق آلية العمل المؤكدة من DrugBank (DG002)
+- تقييم المسار التنظيمي في المملكة العربية السعودية، نظراً لأن الدواء حالياً لا يحمل ترخيص تسويقي محلي
+- تجربة عشوائية محكومة حديثة مصنفة حسب المرحلة تقيّم ميدازولام على وجه التحديد كعلاج أساسي للأرق (وليس مجرد ذراع مقارنة)
+- مراجعة التفاعلات الدوائية، خاصة للأدوية المشتركة المكبتة للجهاز العصبي المركزي والمتفاعلة مع CYP3A4 ذات الصلة بسكان الأرق المزمن
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

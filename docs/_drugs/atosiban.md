@@ -29,75 +29,76 @@ indication_count: 10
 
 </div>
 
-# ATOSIBAN: From Preterm Labor to Primary Hereditary Glaucoma
+# أتوسيبان: من المخاض المبكر إلى الزرق الوراثي الأولي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Atosiban is a competitive oxytocin/vasopressin V1A receptor antagonist approved in multiple countries as a tocolytic agent to suppress uterine contractions and delay preterm birth. The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**, a rare genetic eye disease caused by mutations such as *MYOC* and *OPTN*. This prediction is currently supported by **0 clinical trials** and **0 publications** specifically addressing this indication — it remains a model-prediction-only finding with no experimental validation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Preterm labor (tocolysis) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أتوسيبان هو مناهض تنافسي لمستقبلات الأوكسيتوسين/الفازوبريسين V1A معتمد في دول متعددة كعامل مانع للطلق (تولياتي) لقمع التقلصات الرحمية وتأخير المخاض المبكر. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للزرق الوراثي الأولي، وهو مرض وراثي نادر في العين ناجم عن طفرات مثل *MYOC* و*OPTN*. يدعم هذا التنبؤ حالياً 0 تجربة سريرية و 0 منشور يتناول هذا الاستطباب بشكل محدد — وهو يبقى نتيجة تنبؤ نموذجي فقط بدون أي تحقق تجريبي.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Atosiban acts as a competitive antagonist at oxytocin (OT) and vasopressin V1A receptors. In preterm labor, it blocks OT receptors on uterine smooth muscle, suppressing myometrial contractions. Beyond the reproductive system, OT receptors have been identified in ocular tissues including the ciliary body and the trabecular meshwork — structures that govern aqueous humor dynamics and intraocular pressure (IOP). This anatomical finding provides a theoretical foothold for the prediction: if OT signaling influences IOP regulation, an OT receptor antagonist might in principle modulate this pathway.
-
-However, primary hereditary glaucoma is fundamentally a genetic disease. Pathogenic mutations in *MYOC*, *OPTN*, *FOXC1*, and related genes alter trabecular meshwork development and protein homeostasis, driving elevated IOP through structural and molecular mechanisms that are distinct from OT receptor signaling. Whether atosiban's receptor blockade could meaningfully intersect with these genetic pathways is not established, and the directionality of any IOP effect remains entirely unknown.
-
-The high TxGNN score (99.92%) at rank 1805 is most likely attributable to knowledge graph neighborhood effects — a clustering of IOP-related disease nodes near vasopressin/OT pathway nodes — rather than a validated mechanistic connection. The pipeline's own annotation confirms this concern, noting that no data exists to support OT antagonism as a strategy for hereditary glaucoma and that gene-mutation-driven pathogenesis weakens the mechanistic rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Primary Hereditary Glaucoma.
+| البند | المحتوى |
+|-------|---------|
+| الاستطباب الأصلي | المخاض المبكر (مانع للطلق) |
+| الاستطباب الجديد المتنبأ به | الزرق الوراثي الأولي |
+| درجة التنبؤ من TxGNN | 99.92% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available for Primary Hereditary Glaucoma.
+يعمل أتوسيبان كمناهض تنافسي لمستقبلات الأوكسيتوسين (OT) والفازوبريسين V1A. في المخاض المبكر، يحجب مستقبلات OT على العضلات الملساء الرحمية، مما يقمع تقلصات الرحم. بعيداً عن الجهاز التناسلي، تم تحديد مستقبلات OT في الأنسجة العينية بما في ذلك الجسم الهدبي والشبكة الليفية — الهياكل التي تتحكم في ديناميكيات السائل المائي والضغط داخل العين (IOP). يوفر هذا الاكتشاف التشريحي موطئ قدم نظري للتنبؤ: إذا كان إشارة OT تؤثر على تنظيم IOP، فقد يؤثر مناهض مستقبل OT مبدئياً على هذا المسار.
 
----
+ومع ذلك، فإن الزرق الوراثي الأولي هو في الأساس مرض وراثي. الطفرات المسببة للأمراض في *MYOC* و*OPTN* و*FOXC1* والجينات ذات الصلة تغير تطور الشبكة الليفية ووظائف الحفاظ على البروتين، مما يؤدي إلى ارتفاع IOP من خلال آليات هيكلية وجزيئية مختلفة عن إشارة مستقبل OT. ما إذا كان حجب مستقبل أتوسيبان يمكن أن يتقاطع بشكل معنوي مع هذه المسارات الوراثية لم يتم تحديده، واتجاهية أي تأثير IOP تبقى غير معروفة تماماً.
 
-## Saudi Arabia Market Information
-
-Atosiban has not been approved for marketing in Saudi Arabia. No product authorizations are on record.
+درجة TxGNN العالية (99.92%) عند الترتيب 1805 ترجع غالباً إلى تأثيرات حي الرسم البياني المعرفي — عنقود عقد أمراض متعلقة بـ IOP بالقرب من عقد مسار الفازوبريسين/OT — بدلاً من اتصال آلي معتمد. أنابيب البرنامج نفسه تؤكد هذا القلق، مشيرة إلى أنه لا توجد بيانات تدعم خصومة OT كاستراتيجية للزرق الوراثي وأن الإمراضية المدفوعة بالطفرات الجينية تضعف النسبة المعقولة الآلية.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية مسجلة حالياً ذات صلة بالزرق الوراثي الأولي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً للزرق الوراثي الأولي.
 
-**Rationale:**
-There is no clinical, preclinical, or mechanistic evidence directly linking atosiban to primary hereditary glaucoma management. The prediction score reflects knowledge graph topology rather than pharmacological plausibility — and the genetic etiology of hereditary glaucoma (MYOC/OPTN mutations affecting trabecular meshwork architecture) does not align with OT receptor antagonism as a therapeutic strategy.
+---
 
-**To proceed, the following is needed:**
-- Preclinical studies examining whether OT receptor blockade alters intraocular pressure in validated animal models of hereditary glaucoma
-- Molecular characterization of OT receptor expression and function in trabecular meshwork cells carrying MYOC/OPTN mutations
-- Mechanistic studies clarifying the downstream effect of OT signaling on aqueous humor outflow resistance
-- Full MOA and safety data for atosiban (currently unavailable — TFDA package insert parsing and DrugBank API query required)
-- Comparative review of the broader TxGNN glaucoma cluster (ranks 1805–1828) to assess whether the prediction represents a genuine signal or a systematic false-positive arising from graph neighborhood effects
+## معلومات السوق السعودي
+
+لم تتم الموافقة على أتوسيبان للتسويق في المملكة العربية السعودية. لا توجد تصاريح منتجات مسجلة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى معلومات الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+لا توجد أدلة سريرية أو ما قبل الإكلينيكية أو آلية تربط مباشرة أتوسيبان بإدارة الزرق الوراثي الأولي. تعكس درجة التنبؤ طوبولوجيا الرسم البياني المعرفي بدلاً من المعقولية الدوائية — والإمراضية الوراثية للزرق الوراثي (طفرات MYOC/OPTN التي تؤثر على بنية الشبكة الليفية) لا تتوافق مع خصومة مستقبل OT كاستراتيجية علاجية.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسات ما قبل الإكلينيكية تدرس ما إذا كان حجب مستقبل OT يغير ضغط العين داخل العين في نماذج حيوانية معتمدة من الزرق الوراثي
+- التوصيف الجزيئي لتعبير وعمل مستقبل OT في خلايا الشبكة الليفية التي تحمل طفرات MYOC/OPTN
+- دراسات آلية توضح التأثير اللاحق لإشارة OT على مقاومة تصريف السائل المائي
+- بيانات MOA وسلامة كاملة لأتوسيبان (غير متاحة حالياً — يلزم تحليل نشرة TFDA والاستعلام عن API من DrugBank)
+- مراجعة مقارنة لعنقود TxGNN الأوسع للزرق (الترتيبات 1805–1828) لتقييم ما إذا كان التنبؤ يمثل إشارة حقيقية أو إيجابياً خاطئاً منتظماً ناشئاً عن تأثيرات حي الرسم البياني
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

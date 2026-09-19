@@ -29,88 +29,89 @@ indication_count: 10
 
 </div>
 
-# Tiaprofenic Acid: From NSAID (Pain/Inflammation) to Brachydactyly-Syndactyly Syndrome
+# حمض التيابروفينيك: من مثبطات الالتهاب غير الستيرويدية (الألم/الالتهاب) إلى متلازمة قصر الأصابع والالتحام الإصبعي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Tiaprofenic acid is a propionic-acid-class NSAID; the evidence pack does not record its originally approved indication text (not marketed in Saudi Arabia, no license data on file). The TxGNN model's top prediction is **Brachydactyly-Syndactyly Syndrome**, but this is a pure embedding-similarity signal — **0 clinical trials** and **0 publications** support it, and the model's own rationale states there is no known mechanistic overlap between COX-1/2 inhibition and this congenital skeletal disorder.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (drug not marketed in Saudi Arabia) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.99% (rank 344 overall) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Other candidates in this evidence pack** (all rank L5 / Hold, 0 trials, 0 literature):
-
-| Rank | Disease | TxGNN Score | Recommendation |
-|------|---------|-------------|-----------------|
-| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.99% | Hold |
-| 3 | Brachyolmia-amelogenesis imperfecta syndrome | 99.99% | Hold |
-| 4 | Acromesomelic dysplasia, Hunter-Thompson type | 99.99% | Hold |
-| 5 | Myosclerosis | 99.99% | Hold |
-| 6 | Spondyloarthropathy, susceptibility to | 99.99% | Hold |
-| 7 | Brachyolmia | 99.99% | Hold |
-| 8 | Factor 5 excess with spontaneous thrombosis | 99.98% | Hold |
-| 9 | Heparin cofactor 2 deficiency | 99.98% | Hold |
-| 10 | Pseudoachondroplasia | 99.98% | Hold |
+حمض التيابروفينيك هو مثبط التهاب غير ستيرويدي من فئة حمض البروبيونيك؛ لا تتضمن حزمة الأدلة النص الأصلي للمؤشر المعتمد (لم يتم تسويقه في المملكة العربية السعودية، ولا توجد بيانات ترخيص في الملف). التنبؤ الأفضل وفقاً لنموذج TxGNN هو **متلازمة قصر الأصابع والالتحام الإصبعي**، لكن هذه إشارة قائمة على تشابه التضمين البحت — **لا توجد تجارب سريرية** و**لا توجد منشورات** تدعمها، وينص تبرير النموذج نفسه على عدم وجود آلية مرضية معروفة مشتركة بين مثبطات COX-1/2 وهذا الاضطراب الهيكلي الخلقي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for tiaprofenic acid (marked as a data gap in this evidence pack). Based on the drug's own repurposing-rationale text, tiaprofenic acid is understood to act through COX-1/2 inhibition, suppressing prostaglandin synthesis — the standard NSAID mechanism.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح — لا يوجد نص مؤشر معتمد في الملف (الدواء لم يُسوّق في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | متلازمة قصر الأصابع والالتحام الإصبعي |
+| درجة التنبؤ TxGNN | 99.99% (الترتيب 344 بشكل إجمالي) |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | ✗ لم يُسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | احتفظ |
 
-For the top-ranked prediction, Brachydactyly-Syndactyly Syndrome, the model's own rationale is explicit that there is **no known disease-mechanism overlap**: this is a congenital limb-patterning disorder driven by specific developmental gene mutations, unrelated to inflammatory or prostaglandin pathways. The same pattern repeats across most of the other nine candidates — congenital skeletal dysplasias, structural/mineralization gene defects, and coagulation-factor disorders — none of which share a plausible pharmacological link to NSAID activity. Two candidates (spondyloarthropathy susceptibility, myosclerosis) have a theoretically plausible symptomatic-relief rationale (anti-inflammatory effect on joint/muscle symptoms), and two others (Factor V excess, heparin cofactor II deficiency) surface only as a **safety signal** (antiplatelet/bleeding-risk interaction), not a therapeutic one.
+**المرشحون الآخرون في حزمة الأدلة هذه** (جميعهم من مستوى L5 / احتفظ، 0 تجربة، 0 منشورات):
 
-In short, this candidate set is a case where TxGNN's embedding similarity score is uniformly very high (>99.9%) across ten disparate rare diseases, without corresponding mechanistic, clinical, or literature support for any of them — consistent with a model-artifact signal rather than a genuine repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Tiaprofenic acid is currently not marketed in Saudi Arabia; no authorization records exist in this evidence pack (`total_licenses: 0`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: TFDA package-insert warnings/contraindications data collection is flagged as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any S1 safety pre-screening can proceed.
+| الترتيب | المرض | درجة TxGNN | التوصية |
+|--------|-------|-----------|---------|
+| 2 | متلازمة الشرائح الجلدية المفصصة والضمور التقزمي الطرفي | 99.99% | احتفظ |
+| 3 | متلازمة قصر الفقرات وضعف تكون مينا الأسنان | 99.99% | احتفظ |
+| 4 | خلل تكون العضام الطرفي-المحوري، نوع هانتر-تومسون | 99.99% | احتفظ |
+| 5 | تصلب العضلات | 99.99% | احتفظ |
+| 6 | الاستعداد لالتهاب الفقار التصلبي | 99.99% | احتفظ |
+| 7 | قصر الفقرات | 99.99% | احتفظ |
+| 8 | الإفراط في العامل الخامس مع التجلط التلقائي | 99.98% | احتفظ |
+| 9 | نقص عامل تخثر الهيبارين 2 | 99.98% | احتفظ |
+| 10 | الغضروفية الزائفة | 99.98% | احتفظ |
 
 ---
 
-## Conclusion and Next Steps
+## لماذا هذا التنبؤ معقول؟
 
-**Decision: Hold**
+حالياً، بيانات آلية العمل المفصلة غير متوفرة لحمض التيابروفينيك (وتم تحديدها كفجوة بيانات في حزمة الأدلة هذه). بناءً على نص تبرير إعادة استخدام الدواء، يُفهم أن حمض التيابروفينيك يعمل من خلال مثبطات COX-1/2، مما يقمع تخليق البروستاجلاندين — وهي الآلية القياسية لمثبطات الالتهاب غير الستيرويدية.
 
-**Rationale:**
-All ten predicted indications sit at Evidence Level L5 (model prediction only) with zero supporting clinical trials or literature, and the top-ranked candidate's own mechanistic rationale explicitly finds no pathway overlap with the drug's NSAID mechanism. A blocking data gap (TFDA safety labeling) also prevents any formal safety pre-screening at this time.
+بالنسبة للتنبؤ الأعلى ترتيباً — متلازمة قصر الأصابع والالتحام الإصبعي — يؤكد تبرير النموذج بوضوح عدم وجود **آلية مرضية مشتركة معروفة**: فهو اضطراب خلقي في تكوين نمط الأطراف يقوده طفرات جينية نمائية محددة، غير مرتبط بالمسارات الالتهابية أو مسارات البروستاجلاندين. ينكرر نفس النمط عبر معظم المرشحين التسعة الآخرين — خلل تعظم هيكلي خلقي وعيوب جينية هيكلية/تمعدن واضطرابات عوامل التخثر — لا أحد منها يملك ارتباطاً دوائياً معقولاً مع نشاط مثبطات الالتهاب غير الستيرويدية. مرشحان (الاستعداد لالتهاب الفقار التصلبي وتصلب العضلات) لهما تبرير إغاثة عرضية معقول نظرياً (التأثير المضاد للالتهاب على أعراض المفاصل/العضلات)، واثنان آخران (الإفراط في العامل الخامس ونقص عامل تخثر الهيبارين 2) يظهران فقط كـ **إشارة سلامة** (تفاعل مضادات الصفيحات/خطر النزيف)، وليس إشارة علاجية.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA package insert warnings/contraindications) — currently blocking
-- Resolve DG002 (confirmed MOA from DrugBank) to properly assess mechanistic plausibility
-- If pursuing further, prioritize the two candidates with a coherent (if unproven) symptomatic rationale — spondyloarthropathy susceptibility and myosclerosis — over the purely embedding-driven skeletal-dysplasia candidates
-- Independent literature/trial search beyond the current negative pubmed/clinicaltrials/ICTRP queries before any re-scoring
+باختصار، مجموعة المرشحين هذه حالة حيث تكون درجة التشابه التضميني TxGNN عالية بشكل موحد (> 99.9%) عبر عشرة أمراض نادرة متباينة، بدون دعم آلي أو سريري أو أدبي حقيقي لأي منها — وهو متسق مع إشارة قطع نموذج بدلاً من فرصة إعادة استخدام حقيقية.
+
+---
+
+## دليل التجارب السريرية
+
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## دليل الأدبيات
+
+لا توجد منشورات أدبية ذات صلة متاحة حالياً.
+
+---
+
+## معلومات السوق السعودي
+
+حمض التيابروفينيك لم يُسوّق حالياً في المملكة العربية السعودية؛ لا توجد سجلات ترخيص في حزمة الأدلة هذه (`total_licenses: 0`).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة. ملاحظة: جمع بيانات تحذيرات/موانع استعمال ملحق عبوة TFDA موسومة كفجوة بيانات **حاجزة** (DG001) في حزمة الأدلة هذه — يجب حل هذه المشكلة قبل إمكانية إجراء أي فحص أمان أولي من المرحلة S1.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**المبرر:**
+جميع المؤشرات العشرة المتنبأ بها تقع في مستوى دليل L5 (توقع النموذج فقط) مع صفر تجارب سريرية أو منشورات داعمة، والمؤشر الأعلى ترتيباً يجد تصراحة عدم وجود تداخل مسار مع آلية عمل NSAID للدواء. كما أن فجوة البيانات الحاجزة (DG001) تمنع أي فحص أمان أولي رسمي في الوقت الحالي.
+
+**للمضي قدماً، يلزم ما يلي:**
+- حل DG001 (تحذيرات/موانع استعمال ملحق عبوة TFDA) — حالياً حاجز
+- حل DG002 (آلية العمل المؤكدة من DrugBank) لتقييم معقولية الآلية بشكل صحيح
+- عند المتابعة، أعطِ الأولوية للمرشحين الاثنين برأي تبرير عرضي متسق (وإن لم يثبت) — الاستعداد لالتهاب الفقار التصلبي وتصلب العضلات — على مرشحي خلل التعظم الهيكلي المدفوعة بالتشابه التضميني البحت
+- إجراء بحث أدبي/تجارب مستقلة خارج استعلامات pubmed/clinicaltrials/ICTRP السالبة الحالية قبل أي إعادة تقييم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

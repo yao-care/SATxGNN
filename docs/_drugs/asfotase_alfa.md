@@ -29,70 +29,73 @@ indication_count: 10
 
 </div>
 
-# Asfotase Alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
+# ألفوستاز ألفا: من نقص الفوسفاتاز إلى اضطراب الفسفرة التأكسدية للميتوكوندريا الناجم عن شذوذ الحمض النووي النووي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNSALP) fusion protein, originally developed as enzyme replacement therapy for hypophosphatasia (HPP) — a rare inherited metabolic bone disorder caused by ALPL gene loss-of-function mutations.
-The TxGNN model predicts it may have potential for **Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies**, though this prediction is currently supported by **no clinical trials** and **no published literature**.
-The mechanistic rationale for this prediction is assessed as very weak; this finding most likely reflects topological proximity in the disease-gene network rather than a direct biological mechanism.
+ألفوستاز ألفا هو بروتين اندماجي بشري معاد التكوين من الفوسفاتاز القلوي غير المحدد النسج (TNSALP)، تم تطويره في الأصل كعلاج بديل إنزيمي لنقص الفوسفاتاز (HPP) - وهو اضطراب استقلابي عظمي نادر موروث ناجم عن طفرات فقدان الوظيفة في جين ALPL.
 
----
+يتنبأ نموذج TxGNN بأنه قد يكون له احتمالية محتملة لـ **اضطراب الفسفرة التأكسدية للميتوكوندريا الناجم عن شذوذ الحمض النووي النووي**، على الرغم من أن هذا التنبؤ مدعوم حالياً بـ **عدم وجود تجارب سريرية** و **عدم وجود دراسات منشورة**.
 
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hypophosphatasia (HPP) — rare metabolic bone disease (referenced in mechanistic rationale; no Saudi Arabia regulatory approval on file) |
-| Predicted New Indication | Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+الأساس المنطقي الآلي لهذا التنبؤ يتم تقييمه بأنه ضعيف جداً؛ يعكس هذا الاكتشاف على الأرجح القرب الطوبولوجي في شبكة المرض والجين بدلاً من آلية بيولوجية مباشرة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, asfotase alfa is a recombinant human TNSALP-Fc-deca-aspartate fusion protein that functions by hydrolyzing inorganic pyrophosphate (PPi) — a potent natural inhibitor of bone mineralization. By reducing PPi accumulation at sites of bone formation, it restores the conditions necessary for hydroxyapatite crystal deposition. Its established indication is hypophosphatasia (HPP), characterized by defective skeletal and dental mineralization due to insufficient TNSALP enzymatic activity.
-
-The proposed link to mitochondrial oxidative phosphorylation (OXPHOS) disorder rests on an indirect metabolic hypothesis: TNSALP regulates phosphate availability, and inorganic phosphate is a key substrate for ATP synthase (Complex V) in mitochondria, creating a theoretical metabolic bridge to OXPHOS function. However, the mechanistic rationale in this Evidence Pack explicitly states that TNSALP has **no direct functional intersection** with nuclear DNA-encoded OXPHOS proteins (Complexes I–V), placing the mechanistic link in the very weak category. The ALPL enzyme system and the mitochondrial respiratory chain operate in distinct cellular compartments with different regulatory networks.
-
-The high TxGNN score (99.95%) reflects the model's confidence in its graph-based prediction — derived from topological proximity in the disease-gene network — and should not be interpreted as clinical evidence of efficacy. In the absence of any preclinical, observational, or clinical data supporting this indication, this prediction remains purely hypothetical and requires fundamental mechanistic validation before further development consideration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأساسي | نقص الفوسفاتاز (HPP) — مرض عظمي استقلابي نادر (مرجع في الأساس المنطقي الآلي؛ لا توجد موافقة تنظيمية من المملكة العربية السعودية في الملف) |
+| الاستطباب الجديد المتنبأ به | اضطراب الفسفرة التأكسدية للميتوكوندريا الناجم عن شذوذ الحمض النووي النووي |
+| درجة التنبؤ TxGNN | 99.95% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مُسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الدليل هذه. بناءً على المعلومات الدوائية المعروفة، ألفوستاز ألفا هو بروتين اندماجي بشري معاد التكوين من TNSALP-Fc-deca-aspartate يعمل بواسطة تحليل البيروفوسفات غير العضوي (PPi) — وهو مثبط طبيعي قوي لتمعدن العظم. بتقليل تراكم PPi في مواقع تكون العظام، فإنه يستعيد الظروف اللازمة لترسب بلورات هيدروكسيباتيت. مؤشره المعروف هو نقص الفوسفاتاز (HPP)، الذي يتميز بتمعدن هيكلي وسني معيب بسبب نشاط TNSALP الإنزيمي غير الكافي.
 
----
+الارتباط المقترح باضطراب الفسفرة التأكسدية للميتوكوندريا (OXPHOS) يقوم على فرضية استقلابية غير مباشرة: ينظم TNSALP توفر الفوسفات، والفوسفات غير العضوي هو ركيزة رئيسية لـ ATP synthase (Complex V) في الميتوكوندريا، مما يخلق جسراً استقلابياً نظرياً لوظيفة OXPHOS. ومع ذلك، يصرح الأساس المنطقي الآلي في حزمة الدليل هذه بأن TNSALP لديه **لا تقاطع وظيفي مباشر** مع بروتينات OXPHOS المشفرة بواسطة الحمض النووي النووي (Complexes I–V)، مما يضع الارتباط الآلي في فئة الضعف جداً. نظام إنزيم ALPL والسلسلة التنفسية للميتوكوندريا تعمل في حجرات خلوية مختلفة مع شبكات تنظيمية مختلفة.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+درجة TxGNN العالية (99.95%) تعكس ثقة النموذج في تنبؤه القائم على الرسم البياني — مشتق من القرب الطوبولوجي في شبكة المرض والجين — ولا يجب تفسيره على أنه دليل سريري على الفعالية. في غياب أي بيانات بحثية ما قبل سريرية أو رصدية أو سريرية تدعم هذا الاستطباب، يبقى هذا التنبؤ نظرياً بحتاً ويتطلب التحقق الآلي الأساسي قبل مزيد من الدراسة الاستطلاعية.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-This prediction is based solely on model inference (L5 evidence level), with zero clinical trials and zero published literature supporting asfotase alfa in mitochondrial OXPHOS disorders. The mechanistic link between TNSALP phosphate metabolism and OXPHOS complex function is rated very weak, making this a low-priority repurposing candidate that does not warrant clinical investigation at this stage.
+---
 
-**To proceed, the following is needed:**
-- Full mechanism of action documentation from DrugBank or peer-reviewed literature
-- Preclinical data (cell line or animal model) demonstrating any functional interaction between TNSALP activity, phosphate regulation, and mitochondrial respiratory chain function — minimum requirement to upgrade from L5 to L4
-- Saudi Arabia regulatory package insert with formal warnings, contraindications, and dosing information to enable safety pre-screening
-- Expert consultation with a mitochondrial disease specialist to assess biological plausibility before committing to preclinical investment
+## دليل الدراسات
+
+حالياً لا توجد دراسات منشورة ذات صلة متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات الخاصة بالعبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+يعتمد هذا التنبؤ فقط على استدلال النموذج (مستوى دليل L5)، مع عدم وجود تجارب سريرية وعدم وجود دراسات منشورة تدعم ألفوستاز ألفا في اضطرابات OXPHOS للميتوكوندريا. الارتباط الآلي بين استقلاب الفوسفات TNSALP ووظيفة معقد OXPHOS يتم تقييمه بأنه ضعيف جداً، مما يجعل هذا مرشح إعادة توظيف منخفض الأولوية لا يستحق التحقيق السريري في هذه المرحلة.
+
+**للمتابعة، يلزم ما يلي:**
+- وثائق كاملة لآلية العمل من DrugBank أو الدراسات المنشورة بمراجعة النظراء
+- بيانات ما قبل سريرية (خط خلية أو نموذج حيواني) توضح أي تفاعل وظيفي بين نشاط TNSALP وتنظيم الفوسفات ووظيفة السلسلة التنفسية للميتوكوندريا — الحد الأدنى من المتطلبات للترقية من L5 إلى L4
+- حزمة تنظيمية بالمملكة العربية السعودية مع تحذيرات رسمية وموانع استعمال ومعلومات الجرعات لتمكين فحص السلامة الأولي
+- استشارة متخصصة مع متخصص في أمراض الميتوكوندريا لتقييم المعقولية البيولوجية قبل الالتزام بالاستثمار البحثي ما قبل السريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

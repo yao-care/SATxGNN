@@ -29,88 +29,89 @@ indication_count: 1
 
 </div>
 
-# Nilotinib: From Chronic Myeloid Leukemia to Dermatofibrosarcoma Protuberans
+# نيلوتينيب: من اللوكيميا النخاعية المزمنة إلى الورم الليفي الجلدي البارز
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nilotinib is a second-generation tyrosine kinase inhibitor internationally indicated for Philadelphia chromosome-positive chronic myeloid leukemia (CML). The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, with **no registered clinical trials** and **1 supporting publication** currently available. Both the drug's Saudi Arabia regulatory status and its safety profile remain largely undocumented in this evidence pack.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic myeloid leukemia (Philadelphia chromosome-positive, CML) — based on international labeling; not verified against Saudi Arabia regulatory records, as the drug is not currently licensed there |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+نيلوتينيب هو مثبط كيناز التيروسين من الجيل الثاني المرخص دولياً لعلاج اللوكيميا النخاعية المزمنة الإيجابية لصبغة فيلادلفيا (CML). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الورم الليفي الجلدي البارز (DFSP)**، مع **عدم وجود تجارب سريرية مسجلة** و **منشور واحد داعم** متاح حالياً. يظل كل من حالة نيلوتينيب التنظيمية في المملكة العربية السعودية وملفه الأمني إلى حد كبير غير موثقة في حزمة الأدلة هذه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the supporting literature, nilotinib is classified among the small-molecule platelet-derived growth factor receptor (PDGFR) inhibitors — a drug class whose efficacy is well established in Philadelphia chromosome-positive CML via inhibition of the BCR-ABL fusion kinase, alongside activity against KIT and PDGFR.
-
-This mechanistic profile is directly relevant to dermatofibrosarcoma protuberans, a soft-tissue tumour characteristically driven by the COL1A1-PDGFB gene fusion, which causes constitutive PDGFR-beta activation. Because nilotinib's kinase-inhibition spectrum overlaps with this driver pathway, the TxGNN prediction has a plausible mechanistic basis even though the original approved indication (CML) and the predicted indication (DFSP) are histologically unrelated cancers.
-
-That said, this rationale rests on drug-class knowledge rather than confirmed DrugBank MOA data or DFSP-specific efficacy studies, and should be treated as hypothesis-generating rather than established.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | اللوكيميا النخاعية المزمنة (الإيجابية لصبغة فيلادلفيا، CML) - بناءً على التسمية الدولية؛ لم يتم التحقق من ذلك مقابل السجلات التنظيمية السعودية، حيث لا يتم ترخيص الدواء حالياً هناك |
+| المؤشر الجديد المتنبأ به | الورم الليفي الجلدي البارز |
+| درجة توقع TxGNN | 99.31% |
+| مستوى الأدلة | L4 |
+| حالة السوق السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the PDGF ligand/receptor family and the role of small-molecule PDGFR inhibitors (including nilotinib's class) in treating neoplastic disorders driven by PDGFR signaling |
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية في حزمة الأدلة هذه (تم وضع علامة عليها كفجوة بيانات عالية الخطورة). بناءً على الأدبيات الداعمة، يصنف نيلوتينيب ضمن مثبطات مستقبلات عامل النمو المشتق من الصفائح الدموية (PDGFR) من الجزيئات الصغيرة - فئة أدوية ثبتت فعاليتها في اللوكيميا النخاعية المزمنة الإيجابية لصبغة فيلادلفيا من خلال منع كيناز الاندماج BCR-ABL، إلى جانب النشاط ضد KIT و PDGFR.
 
----
+هذا الملف الميكانيكي ذو صلة مباشرة بالورم الليفي الجلدي البارز، وهو ورم أنسجة رخوة يتميز بدقة بالاندماج الجيني COL1A1-PDGFB، الذي يسبب التفعيل المستمر لـ PDGFR-beta. لأن طيف مثبط كيناز نيلوتينيب يتقاطع مع هذا المسار المحرك، فإن توقع TxGNN له أساس ميكانيكي معقول على الرغم من أن المؤشر الأصلي المعتمد (CML) والمؤشر المتنبأ به (DFSP) هما سرطانان نسيجياً غير مترابطين.
 
-## Saudi Arabia Market Information
-
-Nilotinib is not currently marketed in Saudi Arabia — no authorization records are available.
+ومع ذلك، تستند هذه الحجة على معرفة فئة الأدوية بدلاً من بيانات آلية العمل المؤكدة من DrugBank أو دراسات فعالية محددة لـ DFSP، وينبغي اعتبارها مولدة لفرضيات بدلاً من نتائج مثبتة.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor; BCR-ABL/KIT/PDGFR) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | استعراض | Pharmacological Research | يستعرض عائلة PDGF من الليجاند والمستقبلات ودور مثبطات PDGFR من الجزيئات الصغيرة (بما فيها فئة نيلوتينيب) في علاج الأمراض الورمية المدفوعة بتنشيط PDGFR |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+نيلوتينيب غير مسوق حالياً في المملكة العربية السعودية - لا توجد سجلات تفويض متاحة.
 
-**Rationale:**
-Evidence supporting this indication is limited to a single mechanistic review paper, with no clinical trials in either disease-specific or registry sources. Combined with a Blocking-severity gap in TFDA/SFDA labeling data (which prevents any initial safety evaluation) and the drug's unlicensed status in Saudi Arabia, the current evidence base is insufficient to proceed.
+---
 
-**To proceed, the following is needed:**
-- Official Saudi Arabia (SFDA) package insert — warnings, contraindications, and drug interaction data
-- Confirmed DrugBank mechanism-of-action and toxicity data
-- DFSP-specific preclinical or clinical evidence (case series, trials) beyond the single mechanistic review
-- Saudi Arabia market authorization status confirmation
+## السمية الخلوية
+
+| البند | المحتوى |
+|------|---------|
+| تصنيف السمية الخلوية | علاج موجه (مثبط كيناز التيروسين؛ BCR-ABL/KIT/PDGFR) |
+| خطر تثبيط النخاع | يرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الدوائية |
+| تصنيف الغثيان والقيء | يرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الدوائية |
+| عناصر المراقبة | يرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الدوائية |
+| تدابير الحماية عند التعامل | يرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الدوائية |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+الأدلة التي تدعم هذا المؤشر محدودة بورقة استعراض ميكانيكي واحد، بدون تجارب سريرية في قواعد البيانات المتخصصة أو السجلات السريرية. بالإضافة إلى فجوة بدرجة خطورة حاجزة في بيانات تسمية TFDA/SFDA (التي تمنع أي تقييم أمان أولي) والحالة غير المرخصة للدواء في المملكة العربية السعودية، فإن قاعدة الأدلة الحالية غير كافية للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- النشرة الدوائية الرسمية من سلطة الغذاء والدواء السعودية (SFDA) - التحذيرات والموانع وبيانات التفاعلات الدوائية
+- بيانات آلية العمل والسمية المؤكدة من DrugBank
+- أدلة محددة لـ DFSP (سلسلة حالات، تجارب) تتجاوز ورقة الاستعراض الميكانيكي الواحد
+- تأكيد حالة ترخيص الدواء في السوق السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

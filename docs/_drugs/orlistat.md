@@ -29,71 +29,72 @@ indication_count: 1
 
 </div>
 
-# Orlistat: From Obesity Management to Hypervitaminosis
+# Orlistat: من إدارة السمنة إلى فرط الفيتامينات
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Orlistat is a gastric/pancreatic lipase inhibitor generally used for obesity and weight management (original indication/MOA fields are a data gap in this Evidence Pack, so this framing relies on general drug identity, not Evidence Pack data).
-> The TxGNN model predicts it may be relevant to **Hypervitaminosis**,
-> but **0 clinical trials** and **0 publications** currently support this direction — this is a model-only prediction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not returned by Evidence Pack (`original_indications` empty; general knowledge suggests obesity/weight management — unverified against source data) |
-| Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Orlistat هو مثبط ليباز المعدة/البنكرياس المستخدم عادة لعلاج السمنة وإدارة الوزن (حقول المؤشر الأصلي/الآلية الدوائية غير موجودة في حزمة الأدلة هذه، لذا يعتمد هذا الإطار على هوية الدواء العامة، وليس بيانات حزمة الأدلة).
+> يتنبأ نموذج TxGNN بأنه قد يكون ذا صلة بـ **فرط الفيتامينات**،
+> لكن **0 من التجارب السريرية** و**0 من المنشورات** تدعم هذا الاتجاه حالياً — وهذا تنبؤ النموذج وحده.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (`original_moa` = Data Gap, DG002). Based on the rationale text captured for this prediction, Orlistat inhibits gastric/pancreatic lipase, reducing intestinal absorption of dietary fat. Because absorption of the fat-soluble vitamins (A, D, E, K) depends on co-absorption with dietary fat, the same mechanism would theoretically also reduce their uptake.
-
-In current clinical practice, this effect is treated as an **adverse effect** of Orlistat — fat-soluble vitamin deficiency is a known risk of therapy — rather than as a therapeutic mechanism. The prediction here reverses that logic, proposing the same fat-malabsorption effect as a way to *lower* excess fat-soluble vitamin levels (hypervitaminosis A/D/E/K). This is mechanistically self-consistent but has **no supporting clinical or preclinical data** in this Evidence Pack.
-
-A further gap: "hypervitaminosis" is not restricted to fat-soluble vitamins — water-soluble vitamin excess (e.g., B6, niacin) would not be affected by this mechanism at all, and the disease term in this prediction is not specified as fat-soluble-only. Until the target sub-type is clarified, the mechanistic link cannot be considered validated even in principle.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لم يتم إرجاعه بواسطة حزمة الأدلة (`original_indications` فارغة؛ تشير المعرفة العامة إلى السمنة/إدارة الوزن — لم يتم التحقق منها مقابل بيانات المصدر) |
+| المؤشر الجديد المتنبأ به | فرط الفيتامينات |
+| درجة تنبؤ TxGNN | 99.42% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | وقف مؤقت |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (`original_moa` = Data Gap، DG002). بناءً على نص المنطق المسجل لهذا التنبؤ، يثبط Orlistat ليباز المعدة/البنكرياس، مما يقلل امتصاص الدهون الغذائية في الأمعاء. لأن امتصاص الفيتامينات الذائبة في الدهون (A، D، E، K) يعتمد على الامتصاص المشترك مع الدهون الغذائية، فإن نفس الآلية ستقلل أيضاً بشكل نظري من امتصاصها.
 
----
+في الممارسة السريرية الحالية، يتم التعامل مع هذا التأثير كـ **تأثير ضار** من Orlistat — قصور الفيتامينات الذائبة في الدهون هو خطر معروف للعلاج — بدلاً من آلية علاجية. ينقض التنبؤ هنا هذا المنطق، مقترحاً نفس تأثير سوء امتصاص الدهون كطريقة للـ *خفض* مستويات الفيتامينات الزائدة الذائبة في الدهون (فرط فيتامين A/D/E/K). وهذا متسق من الناحية الميكانيكية ولكن **لا توجد بيانات سريرية أو ما قبل السريرية داعمة** في حزمة الأدلة هذه.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) in this Evidence Pack — this must be resolved before any S1 safety review can proceed.
+هناك فجوة إضافية: "فرط الفيتامينات" لا يقتصر على الفيتامينات الذائبة في الدهون — قد لا يتأثر فائض الفيتامينات الذائبة في الماء (على سبيل المثال، B6، النياسين) بهذه الآلية على الإطلاق، وحد المرض في هذا التنبؤ لم يتم تحديده كـ محصور للدهون فقط. حتى يتم توضيح نوع الهدف الفرعي، لا يمكن اعتبار الارتباط الميكانيكي كمؤكد حتى من حيث المبدأ.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-**Rationale:**
-This is an L5, model-prediction-only signal with zero supporting clinical trials or literature. The drug is not marketed in Saudi Arabia (0 licenses), and safety data required for even an initial S1 review (TFDA warnings/contraindications) is a Blocking gap.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — Blocking, DG001
-- Confirmed mechanism of action (MOA) from DrugBank or equivalent — High priority, DG002
-- Confirmation of Orlistat's original approved indication(s), currently absent from the Evidence Pack
-- Clarification of which hypervitaminosis subtype is targeted (fat-soluble vs. water-soluble), since the proposed mechanism only plausibly applies to fat-soluble vitamin excess
-- At minimum, preclinical/mechanistic or case-level evidence before this candidate can move beyond L5
+## أدلة الأدبيات
+
+لا توجد أدبيات ذات صلة متاحة حالياً
+
+---
+
+## اعتبارات السلامة
+
+يرجى مراجعة النشرة الطبية للحصول على معلومات السلامة. ملاحظة: تحذيرات/موانع استعمال نشرة TFDA الطبية يتم الإشارة إليها كـ **حجب** فجوة بيانات (DG001) في حزمة الأدلة هذه — يجب حل هذا قبل أن يتمكن أي فحص سلامة S1 الأولي من المضي قدماً.
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: وقف مؤقت**
+
+**المنطق:**
+هذا إشارة L5، تنبؤ النموذج فقط بدون أي دعم سريري من التجارب أو الأدبيات. الدواء غير مسوق في المملكة العربية السعودية (0 ترخيص)، وبيانات السلامة المطلوبة حتى لمراجعة S1 الأولية (تحذيرات/موانع استعمال TFDA) هي فجوة حجب.
+
+**للمتابعة، ما يلي مطلوب:**
+- نشرة TFDA/الشركة المصنعة الطبية (تحذيرات، موانع استعمال) — حجب، DG001
+- آلية العمل المؤكدة (MOA) من DrugBank أو ما يعادلها — أولوية عالية، DG002
+- تأكيد المؤشرات المعتمدة الأصلية لـ Orlistat، غير الموجودة حالياً في حزمة الأدلة
+- توضيح نوع فرط الفيتامينات المستهدف (الذائب في الدهون مقابل الذائب في الماء)، لأن الآلية المقترحة تنطبق فقط على فائض الفيتامينات الذائبة في الدهون
+- على الأقل، أدلة ما قبل السريرية/ميكانيكية أو على مستوى الحالة قبل أن يتمكن هذا المرشح من الانتقال إلى ما وراء L5
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

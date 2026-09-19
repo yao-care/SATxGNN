@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Gadoxetic Acid: From Liver MRI Contrast Imaging to Hyperthyroidism
+# حمض الجادوكسيتيك: من التصوير بالرنين المغناطيسي للكبد إلى فرط نشاط الغدة الدرقية
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Gadoxetic acid (Gd-EOB-DTPA) is a hepatocyte-specific MRI contrast agent, not a therapeutic drug — it enhances liver imaging via OATP1B1/1B3-mediated hepatocyte uptake rather than exerting pharmacological activity against a disease target. The TxGNN model's top-ranked prediction is **Hyperthyroidism**, with a 99.89% similarity score, but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic rationale explicitly finds no plausible biological link — indicating this is most likely a graph-embedding artifact rather than a genuine repurposing signal.
+حمض الجادوكسيتيك (Gd-EOB-DTPA) هو عامل تباين للرنين المغناطيسي متخصص في الخلايا الكبدية، وليس دواء علاجي — فهو يحسّن التصوير الكبدي من خلال امتصاص الخلايا الكبدية الوسيط بـ OATP1B1/1B3 بدلاً من ممارسة النشاط الدوائي ضد هدف مرض معين. التنبؤ الأعلى درجة لنموذج TxGNN هو **فرط نشاط الغدة الدرقية**، بدرجة تشابه 99.89%، لكن هذا مدعوم بـ **0 تجربة سريرية** و **0 منشور**، وتحليل الآليات الخاص بمجموعة الأدلة يجد بوضوح عدم وجود رابط بيولوجي معقول — مما يشير إلى أن هذا على الأرجح نتيجة قطعة في تضمين الرسم البياني بدلاً من إشارة إعادة استخدام حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Liver-specific MRI contrast enhancement (hepatobiliary imaging); no discrete disease indication recorded in this evidence pack |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.89% (global candidate rank 2480) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | تحسين التباين في الرنين المغناطيسي الخاص بالكبد (التصوير الصفراوي الكبدي)؛ لا يوجد استطباب مرضي منفصل مسجل في مجموعة الأدلة هذه |
+| الاستطباب الجديد المتوقع | فرط نشاط الغدة الدرقية |
+| درجة تنبؤ TxGNN | 99.89% (رتبة المرشح العالمية 2480) |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed pharmacological mechanism-of-action data for gadoxetic acid is not available from DrugBank in this evidence pack. Based on what is known, gadoxetic acid (Gd-EOB-DTPA) is a gadolinium-based contrast agent taken up specifically by hepatocytes via the OATP1B1/1B3 transporters, producing a T1-shortening effect that enhances liver lesion visualization on MRI. It has no established pharmacodynamic activity against any disease target — it is a diagnostic imaging agent, not a treatment.
+بيانات آلية العمل الدوائي المفصلة لحمض الجادوكسيتيك غير متاحة من DrugBank في مجموعة الأدلة هذه. بناءً على ما هو معروف، حمض الجادوكسيتيك (Gd-EOB-DTPA) هو عامل تباين قائم على الجادولينيوم يتم امتصاصه بشكل محدد بواسطة الخلايا الكبدية عبر ناقلات OATP1B1/1B3، مما ينتج عنه تأثير اختصار T1 يحسّن تصور آفات الكبد على الرنين المغناطيسي. لا يمتلك نشاطاً ديناميكياً دوائياً معروفاً ضد أي هدف مرضي — فهو عامل تصوير تشخيصي، وليس علاجاً.
 
-Because gadoxetic acid's only known biological activity is transporter-mediated hepatocyte uptake for imaging contrast, there is no plausible pharmacological pathway connecting it to hyperthyroidism, a condition driven by thyroid hormone synthesis, receptor signaling, or autoimmune thyroid stimulation. The evidence pack's own mechanistic rationale for this prediction states explicitly that there is no known receptor, enzyme, or signaling pathway linking gadoxetic acid to hyperthyroidism, and attributes the score to embedding-space similarity noise.
+لأن النشاط البيولوجي الوحيد المعروف لحمض الجادوكسيتيك هو امتصاص الخلايا الكبدية الوسيط بواسطة الناقل لتباين التصوير، لا توجد مسارات دوائية معقولة تربطه بفرط نشاط الغدة الدرقية، وهي حالة تحركها تخليق هرمون الغدة الدرقية أو إشارات المستقبل أو تحفيز الغدة الدرقية المناعي الذاتي. يصرح التحليل الآلي الخاص بمجموعة الأدلة لهذا التنبؤ بوضوح بأنه لا توجد مستقبلات معروفة أو إنزيمات أو مسارات إشارات تربط حمض الجادوكسيتيك بفرط نشاط الغدة الدرقية، وتنسب الدرجة إلى ضوضاء تشابه فضاء التضمين.
 
-This pattern is not isolated: ranks 2–9 of this candidate list show the same signature — high similarity scores, zero supporting trials or literature, and explicitly disclaimed mechanisms — including two veterinary-only conditions (infectious bovine rhinotracheitis, malignant catarrh) that cannot apply to a human drug. The one candidate with any literature support, thrombotic disease (rank 10), is backed only by two papers describing gadoxetic acid-enhanced MRI as a *diagnostic* tool for distinguishing tumor thrombus from bland thrombus and predicting post-TACE liver failure — not therapeutic evidence of anti-thrombotic activity. Taken together, this candidate set does not support a credible repurposing hypothesis.
+هذا النمط ليس معزولاً: الرتب 2–9 من هذه قائمة المرشحين تظهر نفس التوقيع — درجات تشابه عالية، وعدم وجود تجارب أو أدبيات داعمة، وآليات مرفوضة بوضوح — بما في ذلك شرطان خاصان بالطب البيطري فقط (التهاب الجهاز التنفسي البقري المعدي والإسهال الخبيث) لا يمكن أن ينطبقا على دواء بشري. المرشح الوحيد الذي يتمتع بأي دعم أدبي، مرض الجلطات الدموية (الرتبة 10)، مدعوم فقط بورقتين تصفان الرنين المغناطيسي المحسّن بحمض الجادوكسيتيك كأداة *تشخيصية* للتمييز بين الخثرة الورمية والخثرة العادية والتنبؤ بقصور الكبد بعد TACE — وليس دليلاً علاجياً على النشاط المضاد للجلطات. مجتمعة، لا تدعم مجموعة المرشحين هذه فرضية إعادة استخدام معقولة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً، لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+حالياً، لا توجد أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-Gadoxetic acid is not currently marketed in Saudi Arabia; no drug authorizations are on record (0 licenses).
+حمض الجادوكسيتيك غير مسوق حالياً في المملكة العربية السعودية؛ لا توجد تفويضات دوائية مسجلة (0 ترخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للعبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The predicted indication (hyperthyroidism) is Evidence Level L5 (model prediction only) with no clinical, mechanistic, or literature support, and the evidence pack's own rationale explicitly rules out a plausible biological mechanism. Gadoxetic acid's known pharmacology — a hepatocyte-uptake imaging contrast agent — is inconsistent with any of the top-10 predicted indications.
+**المبررات:**
+الاستطباب المتوقع (فرط نشاط الغدة الدرقية) هو مستوى دليل L5 (تنبؤ النموذج فقط) بدون دعم سريري أو آلي أو أدبي، والتحليل الخاص بمجموعة الأدلة يستبعد بوضوح آلية بيولوجية معقولة. الصيدلة المعروفة لحمض الجادوكسيتيك — عامل تباين تصوير امتصاص الخلايا الكبدية — غير متسقة مع أي من الاستطبابات العشرة الأعلى المتنبأ بها.
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001 (TFDA/SFDA package insert — warnings/contraindications) before any S1 safety screening can occur
-- Resolve high-priority data gap DG002 (confirmed MOA from DrugBank) to properly evaluate mechanistic plausibility
-- Independent pharmacological or preclinical evidence linking gadoxetic acid to thyroid pathophysiology before this candidate advances past S0
-- If pursued further, treat this as a low-priority/exploratory signal only — not a candidate for near-term clinical evaluation
+**لمتابعة الأمر، يلزم ما يلي:**
+- حل الفجوة البيانية المحجوبة DG001 (نشرة العبوة من TFDA/SFDA — التحذيرات/موانع الاستعمال) قبل أن يمكن إجراء أي فحص سلامة S1
+- حل فجوة البيانات ذات الأولوية العالية DG002 (آلية العمل المؤكدة من DrugBank) لتقييم صحة الآلية بشكل صحيح
+- دليل صيدلي أو ما قبل سريري مستقل يربط حمض الجادوكسيتيك بمرض الغدة الدرقية قبل تقدم هذا المرشح بعد S0
+- إذا تمت متابعتها، اعتبر هذا إشارة ذات أولوية منخفضة/استكشافية فقط — وليس مرشحاً لتقييم سريري قريب الأجل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,80 +29,81 @@ indication_count: 10
 
 </div>
 
-# Dexketoprofen: From Acute Musculoskeletal Pain to Tendinitis
+# ديكسكيتوبروفين: من الألم العضلي الهيكلي الحاد إلى التهاب الأوتار
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dexketoprofen is a COX-inhibiting NSAID analgesic used internationally for acute pain and musculoskeletal conditions, though it carries no current Saudi Arabia regulatory approval.
-The TxGNN model predicts it may be effective for **Tendinitis**, with **0 clinical trials** and **1 publication** directly supporting this specific direction.
-The mechanistic rationale is sound, but indication-specific clinical evidence remains insufficient at this stage.
+ديكسكيتوبروفين هو مسكن NSAID مثبط للـ COX يُستخدم دولياً للألم الحاد والحالات العضلية الهيكلية، على الرغم من عدم وجود موافقة تنظيمية حالية في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب الأوتار**، مع **0 تجربة سريرية** و **منشور واحد** يدعمان مباشرة هذا الاتجاه المحدد.
+التبرير الميكانيكي سليم، لكن الأدلة السريرية الخاصة بالمؤشر تبقى غير كافية في هذه المرحلة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No Saudi Arabia authorization; used internationally as an NSAID analgesic for acute pain |
-| Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (mechanism-level; no indication-specific RCT) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question — indication-specific evidence required) |
+| المؤشر الأصلي | لا توجد ترخيص في المملكة العربية السعودية؛ يُستخدم دولياً كمسكن NSAID للألم الحاد |
+| المؤشر الجديد المتنبأ به | التهاب الأوتار |
+| درجة تنبؤ TxGNN | 99.90% |
+| مستوى الدليل | L4 (مستوى الآلية؛ بدون تجربة عشوائية محكومة خاصة بالمؤشر) |
+| حالة السوق في المملكة العربية السعودية | غير متاح في السوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف مؤقت (سؤال بحثي — يلزم دليل خاص بالمؤشر) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not currently available in the dataset. Based on known pharmacological information, dexketoprofen belongs to the NSAID (non-steroidal anti-inflammatory drug) class and acts as a cyclooxygenase (COX) inhibitor. By blocking COX enzymes, it suppresses prostaglandin synthesis, thereby reducing both inflammation and pain — a well-established class effect across musculoskeletal conditions.
+بيانات آلية العمل التفصيلية غير متوفرة حالياً في مجموعة البيانات. بناءً على المعلومات الدوائية المعروفة، ينتمي ديكسكيتوبروفين إلى فئة NSAID (مضادات الالتهاب غير الستيرويدية) ويعمل كمثبط لإنزيم الأكسجين الحلقي (COX). من خلال منع إنزيمات COX، فإنه يقمع تخليق البروستاجلاندين، مما يقلل الالتهاب والألم معاً — وهو تأثير فئة راسخ جيداً عبر الحالات العضلية الهيكلية.
 
-Tendinitis is driven by localized prostaglandin-mediated inflammation within the tendon sheath. This is precisely the pathway targeted by COX inhibition, making the TxGNN prediction mechanistically coherent. NSAIDs as a class are widely used as first-line symptomatic treatment for tendinitis in clinical practice, and dexketoprofen's notable bioavailability and rapid onset of action offer a pharmacokinetic advantage within the class.
+التهاب الأوتار يُدفع بواسطة الالتهاب الموضعي الوسيط للبروستاجلاندين داخل غمد الوتر. هذا هو بالضبط المسار الذي يستهدفه تثبيط COX، مما يجعل تنبؤ TxGNN متسقاً من الناحية الميكانيكية. تُستخدم مضادات الالتهاب غير الستيرويدية كفئة كعلاج أول عرضي للتهاب الأوتار في الممارسة السريرية، وتوفر التوافر البيولوجي الملحوظ والبدء السريع للعمل لـ ديكسكيتوبروفين ميزة حرائك دوائية ضمن الفئة.
 
-That said, no dexketoprofen-specific randomized controlled trial has been registered or published for tendinitis as a primary endpoint. The sole supporting publication addresses broad non-traumatic musculoskeletal pain in the emergency department — a category that includes tendinitis but does not study it as an isolated indication. This limits the evidence level to L4, and a "Hold" decision is appropriate until indication-specific data is generated.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for dexketoprofen in tendinitis.
+ومع ذلك، لم يتم تسجيل أو نشر أي تجربة عشوائية محكومة خاصة بـ ديكسكيتوبروفين لالتهاب الأوتار كنقطة نهاية أساسية. المنشور الوحيد الداعم يتناول الألم العضلي الهيكلي غير الرضحي على نطاق واسع في قسم الطوارئ — وهي فئة تشمل التهاب الأوتار لكنها لا تدرسها كمؤشر معزول. هذا يحد مستوى الدليل إلى L4، وقرار "التوقف المؤقت" مناسب حتى يتم توليد بيانات خاصة بالمؤشر.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ ديكسكيتوبروفين في التهاب الأوتار.
+
+---
+
+## دليل الأدب الطبي
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [30744914](https://pubmed.ncbi.nlm.nih.gov/30744914/) | 2019 | RCT | The American Journal of Emergency Medicine | IV dexketoprofen vs. IV paracetamol for non-traumatic musculoskeletal pain in the ED (causes ranged from tendinitis to muscle spasm and joint injuries); compared analgesic effectiveness between NSAID and paracetamol in an acute setting |
+| [30744914](https://pubmed.ncbi.nlm.nih.gov/30744914/) | 2019 | تجربة عشوائية محكومة | The American Journal of Emergency Medicine | ديكسكيتوبروفين وريدي مقابل أسيتامينوفين وريدي للألم العضلي الهيكلي غير الرضحي في قسم الطوارئ (تراوحت الأسباب بين التهاب الأوتار وتشنج العضلات وإصابات المفاصل)؛ قارنت الفعالية المسكنة بين NSAID والأسيتامينوفين في بيئة حادة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Dexketoprofen has no registered authorizations in Saudi Arabia. No product listings, dosage forms, or approved indications are available in the SFDA database.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+ديكسكيتوبروفين ليس له ترخيصات مسجلة في المملكة العربية السعودية. لا توجد قوائم منتجات أو أشكال جرعات أو مؤشرات معتمدة متاحة في قاعدة بيانات SFDA.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-The mechanistic link between dexketoprofen's COX-inhibitory action and tendinitis is plausible, but the single supporting publication covers a broad musculoskeletal pain category without tendinitis-specific outcomes — insufficient to meet the L3 threshold needed to advance to a "Proceed" recommendation.
+---
 
-**To proceed, the following is needed:**
+## الخلاصة والخطوات التالية
 
-- At least one Phase 2 RCT specifically enrolling tendinitis patients, comparing dexketoprofen against placebo or an active NSAID comparator
-- MOA data retrieval from DrugBank (DB09214) to complete mechanistic analysis and document COX-1/COX-2 selectivity profile
-- Safety data from the package insert (warnings, contraindications) — currently a blocking data gap
-- SFDA registration strategy assessment if Saudi Arabia market entry is planned
-- Note: Migraine disorder (TxGNN rank #6) and headache disorder (rank #7) carry substantially stronger evidence for dexketoprofen (8 and 12 completed clinical trials respectively, plus meta-analyses) and may represent higher-priority repurposing targets for near-term development decisions
+**القرار: توقف مؤقت**
+
+**التبرير:**
+الربط الميكانيكي بين عمل ديكسكيتوبروفين المثبط للـ COX والتهاب الأوتار معقول، لكن المنشور الداعم الوحيد يغطي فئة ألم عضلية هيكلية واسعة بدون نتائج خاصة بالتهاب الأوتار — غير كافٍ للوفاء بحد L3 المطلوب للتقدم نحو توصية "المتابعة".
+
+**لكي نتقدم، يلزم ما يلي:**
+
+- جرعة واحدة على الأقل من تجربة المرحلة الثانية عشوائية محكومة تقيد بشكل محدد مرضى التهاب الأوتار، مقارنة ديكسكيتوبروفين مقابل الدواء الوهمي أو مقارن NSAID نشط
+- استرجاع بيانات آلية العمل من DrugBank (DB09214) لإكمال تحليل الآلية الميكانيكية وتوثيق ملف الانتقائية COX-1/COX-2
+- بيانات السلامة من النشرة الداخلية (التحذيرات والموانع) — حالياً فجوة بيانات حجب
+- تقييم استراتيجية التسجيل SFDA إذا كان دخول السوق بالمملكة العربية السعودية مخطط له
+- ملاحظة: اضطراب الصداع النصفي (ترتيب TxGNN رقم 6) واضطراب الصداع (ترتيب رقم 7) يحملان أدلة قوية بكثير على ديكسكيتوبروفين (8 و 12 تجربة سريرية مكتملة على التوالي، بالإضافة إلى التحليلات التلوية) وقد يمثلان أهدافاً لإعادة تسخير الأولويات الأعلى لقرارات التطوير القريبة الأجل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

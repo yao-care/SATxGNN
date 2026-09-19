@@ -29,82 +29,83 @@ indication_count: 10
 
 </div>
 
-# Guselkumab: From Plaque Psoriasis to Drug-induced Osteoporosis
+# Guselkumab: من الصدفية اللويحية إلى هشاشة العظام الناجمة عن العقاقير
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Guselkumab is a monoclonal antibody originally developed and approved for moderate-to-severe plaque psoriasis (anti-IL-23p19). The TxGNN model's top-ranked prediction is **Drug-induced Osteoporosis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model itself flags the mechanistic rationale as likely a graph-embedding artifact rather than genuine pathophysiological evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Plaque psoriasis (general drug knowledge; not locally verifiable — see note below) |
-| Predicted New Indication | Drug-induced Osteoporosis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Taiwan (TFDA) Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-> Note: `taiwan_regulatory.licenses` is empty and `original_indications` is empty because guselkumab is not currently registered with TFDA (Not marketed). The original indication above reflects general public drug information, not a Taiwan-specific approval record.
+Guselkumab هو جسم مضاد أحادي النسيلة تم تطويره وموافقته في الأصل لعلاج الصدفية اللويحية المتوسطة إلى الشديدة (موجه ضد IL-23p19). التنبؤ الأعلى للنموذج TxGNN هو **هشاشة العظام الناجمة عن العقاقير**، لكن هذا الاتجاه يدعمه حالياً **0 تجربة سريرية** و**0 منشور**، والنموذج نفسه يشير إلى أن المبرر الآلي هو على الأرجح قطعة أثرية في تضمين الرسم البياني بدلاً من أن يكون دليلاً على أمراض الفسيولوجيا المرضية الحقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a Blocking/High-severity data gap). Based on known information, guselkumab is a fully human IgG1 monoclonal antibody that selectively binds the p19 subunit of IL-23, blocking IL-23-driven Th17 cell activation — a mechanism well established in its approved use for plaque psoriasis.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الصدفية اللويحية (معرفة دوائية عامة؛ غير قابلة للتحقق محلياً - انظر الملاحظة أدناه) |
+| المؤشر الجديد المتنبأ به | هشاشة العظام الناجمة عن العقاقير |
+| درجة التنبؤ بـ TxGNN | 99.84% |
+| مستوى الدليل | L5 |
+| حالة سوق تايوان (TFDA) | غير معروض (Not marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | Hold |
 
-For the top-ranked prediction, drug-induced osteoporosis, the evidence pack's own rationale is explicitly skeptical: it notes that the IL-23/Th17 axis has been indirectly linked to osteoclast activation in inflammatory arthritis, but "drug-induced osteoporosis" as a disease entity is defined by direct toxic mechanisms of causative agents (e.g., corticosteroids), which has no established pathophysiological connection to IL-23 inhibition. The model assessment concludes the high similarity score more likely reflects graph-embedding proximity than a credible mechanistic hypothesis. In other words, the strength of the numeric score (99.84%) should not be read as strength of biological plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+> ملاحظة: `taiwan_regulatory.licenses` فارغة و`original_indications` فارغة لأن guselkumab غير مسجل حالياً مع TFDA (Not marketed). يعكس المؤشر الأصلي أعلاه معلومات الدواء العامة للجمهور، وليس سجل الموافقة الخاص بتايوان.
 
 ---
 
-## Taiwan Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Guselkumab is not currently marketed in Taiwan (TFDA market status: Not marketed, 0 licenses on file). No authorization records are available to summarize.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في هذه الحزمة الدليلية (معلمة كفجوة بيانات حاجزة/عالية الخطورة). بناءً على المعلومات المعروفة، Guselkumab هو جسم مضاد أحادي النسيلة IgG1 بشري بالكامل يرتبط بشكل انتقائي بوحدة الفرعية p19 من IL-23، مما يمنع تفعيل خلايا Th17 المدفوعة بـ IL-23 - وهي آلية راسخة في استخدامه المعتمد لعلاج الصدفية اللويحية.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all marked as data gaps or not found in this evidence pack; a TFDA package-insert PDF parse is required — see DG001, Blocking severity.)
+بالنسبة للتنبؤ الأعلى تصنيفاً، هشاشة العظام الناجمة عن العقاقير، يُظهر تقييم حزمة الدليل تشككاً صريحاً: يلاحظ أن محور IL-23/Th17 قد ارتبط بشكل غير مباشر بتفعيل ناقضات العظم في التهاب المفاصل الالتهابي، لكن "هشاشة العظام الناجمة عن العقاقير" كمقولة مرضية تُعرّف بآليات سمية مباشرة للعوامل المسببة (مثل الكورتيكوستيرويدات)، والتي لا تملك أي ارتباط فسيولوجي مرضي راسخ بمنع IL-23. يخلص تقييم النموذج إلى أن درجة التشابه العالية تعكس على الأرجح قرب تضمين الرسم البياني بدلاً من فرضية آلية موثوقة. بعبارة أخرى، لا يجب قراءة قوة درجة الأرقام (99.84%) كمؤشر على قوة الإمكانية البيولوجية.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
-
-**Rationale:**
-The prediction carries a high TxGNN similarity score but zero clinical or literature evidence (L5), and the pack's own mechanistic assessment considers the IL-23-to-osteoporosis link biologically implausible as currently framed. There is no basis to advance this specific indication.
-
-**To proceed, the following is needed:**
-- Confirmed drug MOA data (DrugBank/label-sourced), currently a High-severity data gap
-- TFDA package insert (warnings, contraindications, DDI) — Blocking severity, required before any S1 safety screen
-- Preclinical or mechanistic studies specifically linking IL-23 inhibition to bone metabolism/osteoporosis pathways, not just inflammatory arthritis
-- If Taiwan registration is pursued, local regulatory filing data (license number, approved indication text)
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-**Note on this evidence pack:** two other candidates in the same `predicted_indications` list carry substantially stronger evidence and should be considered separately if the goal is identifying a viable repurposing/expansion candidate rather than following rank order:
-- **Psoriasis** (rank 3, score 99.75%) — Evidence Level L1, decision stage S3, "Proceed with Guardrails." Supported by multiple completed Phase 3 RCTs (e.g., NCT02325219) and is already guselkumab's approved indication elsewhere (Tremfya) — not a novel hypothesis but a validated mechanism.
-- **Ulcerative colitis** (rank 6, score 99.70%) — Evidence Level L1, decision stage S3, "Proceed with Guardrails." Supported by the QUASAR Phase 2b/3 program (PMID 39706209, 37659673) and FDA approval for UC in 2024/2025.
+## دليل الأدبيات
 
-If a follow-up report is wanted for either of these, I can generate it using the same template with `predicted_indications[2]` (psoriasis) or `predicted_indications[5]` (UC) as the primary target.
+لا توجد أدبيات ذات صلة متاحة حالياً.
+
+---
+
+## معلومات سوق تايوان
+
+Guselkumab غير معروض حالياً في تايوان (حالة سوق TFDA: Not marketed، 0 سجلات ترخيص في الملف). لا توجد سجلات تفويض متاحة للتلخيص.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (جميع البيانات الرئيسية للتحذيرات والموانع و DDI معلمة كفجوات بيانات أو غير موجودة في هذه الحزمة الدليلية؛ يلزم تحليل PDF لنشرة حزمة TFDA - انظر DG001، خطورة حاجزة.)
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: Hold**
+
+**المنطق:**
+يحمل التنبؤ درجة تشابه TxGNN عالية لكن دليل سريري أو أدبي صفري (L5)، وتقييم الآلية الخاص به يعتبر رابط IL-23 إلى هشاشة العظام بيولوجياً غير معقول كما هو مصاغ حالياً. لا توجد أساس لتقدم هذا المؤشر المحدد.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية عمل الدواء المؤكدة (DrugBank/label-sourced)، حالياً فجوة بيانات عالية الخطورة
+- نشرة حزمة TFDA (التحذيرات، الموانع، DDI) — خطورة حاجزة، مطلوبة قبل أي فحص سلامة S1
+- دراسات سابقة للإكلينيك أو آليات تربط بشكل محدد منع IL-23 بمسارات استقلاب العظام/هشاشة العظام، وليس فقط التهاب المفاصل
+- إذا تم متابعة التسجيل في تايوان، بيانات الملفات التنظيمية المحلية (رقم الترخيص، نص المؤشر المعتمد)
+
+---
+
+**ملاحظة على حزمة الدليل هذه:** يحمل اثنان من المرشحين الآخرين في نفس قائمة `predicted_indications` دليلاً أقوى بشكل كبير ويجب النظر فيهما بشكل منفصل إذا كان الهدف هو تحديد مرشح إعادة توظيف/توسع قابل للاستخدام بدلاً من متابعة ترتيب الرتبة:
+- **الصدفية** (الرتبة 3، الدرجة 99.75%) — مستوى الدليل L1، مرحلة القرار S3، "المتابعة مع الضمانات." يدعمها عدة تجارب سريرية مرحلة 3 مكتملة (مثل NCT02325219) وهي بالفعل مؤشر guselkumab المعتمد في مكان آخر (Tremfya) — ليست فرضية جديدة بل آلية موثوقة.
+- **التهاب القولون التقرحي** (الرتبة 6، الدرجة 99.70%) — مستوى الدليل L1، مرحلة القرار S3، "المتابعة مع الضمانات." يدعمه برنامج QUASAR Phase 2b/3 (PMID 39706209, 37659673) وموافقة FDA لـ UC في 2024/2025.
+
+إذا كنت تريد تقرير متابعة لأي من هذه، يمكنني إنشاؤه باستخدام نفس القالب مع `predicted_indications[2]` (psoriasis) أو `predicted_indications[5]` (UC) كهدف أساسي.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

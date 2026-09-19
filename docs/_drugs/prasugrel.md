@@ -29,84 +29,85 @@ indication_count: 10
 
 </div>
 
-# Prasugrel: From Antiplatelet Therapy after Acute Coronary Syndrome to Pulmonary Hypertension
+# prasugrel: من العلاج المضاد للصفائح الدموية بعد متلازمة الشرايين التاجية الحادة إلى ارتفاع ضغط الدم الرئوي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Prasugrel is a thienopyridine-class P2Y12 antiplatelet agent used in dual antiplatelet therapy following acute coronary syndrome (ACS) and PCI. The TxGNN model predicts a possible link to **Pulmonary Hypertension** with a very high score (99.88%), but the retrieved **2 clinical trials** and **2 publications** are both graded low relevance and do not directly support this indication — this is flagged in the evidence pack itself as a likely score/evidence mismatch.
+prasugrel عقار مضاد للصفائح من فئة ثيينوبيريدين (P2Y12) يُستخدم في العلاج المضاد للصفائح المزدوج بعد متلازمة الشرايين التاجية الحادة (ACS) والتداخل التاجي الإصلاحي (PCI). يتنبأ نموذج TxGNN برابط محتمل **لارتفاع ضغط الدم الرئوي** برقم عالي جداً (99.88%)، لكن التجارب السريرية الـ 2 المسترجعة والـ 2 منشورات علمية تم تصنيفها بصلة منخفضة ولا تدعم بشكل مباشر هذا الاستطباب — هذا مشار إليه في حزمة الأدلة نفسها على أنه عدم توافق محتمل بين النتيجة والأدلة.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البيان | المحتوى |
 |------|------|
-| Original Indication | Antiplatelet therapy following acute coronary syndrome (ACS) managed with PCI (drug not marketed in Saudi Arabia — no local label text available; inferred from background context in retrieved literature) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | العلاج المضاد للصفائح الدموية بعد متلازمة الشرايين التاجية الحادة (ACS) المعالجة بالتداخل التاجي الإصلاحي (PCI) (الدواء غير مسوّق في المملكة العربية السعودية — لا توجد نصوص التسمية المحلية متاحة؛ استدلال من السياق الخلفي في الأدبيات المسترجعة) |
+| الاستطباب الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي |
+| درجة التنبؤ بـ TxGNN | 99.88% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | وقف مؤقت |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, prasugrel is a thienopyridine-class P2Y12 receptor antagonist used as part of dual antiplatelet therapy; its efficacy in reducing thrombotic cardiovascular events after ACS/PCI has been established. Mechanistically, one could hypothesize that platelet activation and release of serotonin/thromboxane — factors with a theoretical role in pulmonary hypertension (PH) pathophysiology — might be modulated by antiplatelet therapy, providing a loose rationale for the TxGNN association.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المتاحة، prasugrel هو مضاد مستقبل P2Y12 من فئة ثيينوبيريدين يُستخدم كجزء من العلاج المضاد للصفائح المزدوج؛ وقد تم تأسيس فعاليته في تقليل الأحداث القلبية الوعائية الخثرية بعد ACS/PCI. من الناحية الآلية، يمكن افتراض أن تنشيط الصفائح الدموية وإطلاق السيروتونين/الثرومبوكسان — عوامل لها دور نظري في الفسيولوجيا المرضية لارتفاع ضغط الدم الرئوي (PH) — قد يتم تعديلها بواسطة العلاج المضاد للصفائح، مما يوفر حجة ضعيفة لارتباط TxGNN.
 
-However, the evidence retrieved for this candidate does not support the prediction. Both clinical trials returned (cancer-associated thrombosis eligibility criteria; NOAC management in elderly atrial fibrillation) were graded **C (low relevance)** and have no direct bearing on PH or prasugrel's antiplatelet mechanism. Both literature items (a COVID-19 comorbidity registry analysis and a study of clopidogrel/prasugrel adherence after PCI) likewise do not address PH.
+ومع ذلك، الأدلة المسترجعة لهذا المرشح لا تدعم التنبؤ. تم تصنيف كلا التجربتين السريريتين المعادتين (معايير الأهلية لتجارب الخثار الوريدي المرتبط بالسرطان؛ إدارة مضادات التخثر المباشرة الجديدة (NOAC) لدى كبار السن المصابين بالرجفان الأذيني) بـ **C (صلة منخفضة)** وليس لها تأثير مباشر على PH أو آلية prasugrel المضادة للصفائح. وبالمثل، لا تتناول المنشورات الأدبية (تحليل سجل اعتياديات COVID-19 ودراسة الالتزام بـ clopidogrel/prasugrel بعد PCI) موضوع PH.
 
-The evidence pack's own repurposing rationale explicitly characterizes this as a case where the TxGNN score and the retrieved evidence content do not match — the mechanistic link is theoretical only, with no direct study of prasugrel in PH.
+تشير حزمة الأدلة نفسها صراحة إلى أن هذه حالة عدم توافق بين درجة TxGNN والأدلة المسترجعة الفعلية — الارتباط الآلي نظري فقط، بدون دراسة مباشرة لـ prasugrel في PH.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completed | 300 | Retrospective study on eligibility criteria for cancer-associated venous thromboembolism trials; not related to PH or prasugrel (relevance grade C) |
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Cross-sectional observational study of NOAC management in elderly atrial fibrillation patients in Spain; not a PH or antiplatelet drug study (relevance grade C) |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | غير محدد | اكتملت | 300 | دراسة بأثر رجعي حول معايير الأهلية لتجارب الخثار الوريدي المرتبط بالسرطان؛ غير ذات صلة بـ PH أو prasugrel (درجة الصلة C) |
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | غير محدد | اكتملت | 500 | دراسة رصدية قطاعية لإدارة مضادات التخثر المباشرة الجديدة (NOAC) لدى كبار السن المصابين بالرجفان الأذيني في إسبانيا؛ ليست دراسة PH أو دراسة عقار مضاد للصفائح (درجة الصلة C) |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort | Kardiologiia | ACTIV COVID-19 registry analysis of background comorbidity therapy effects on COVID-19 outcome severity; not specific to PH or prasugrel |
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Curr Med Res Opin | Factors associated with clopidogrel/prasugrel adherence after PCI in ACS patients; confirms prasugrel's established ACS/PCI use but does not address PH |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | دراسة الأتراب | Kardiologiia | تحليل سجل ACTIV COVID-19 لتأثيرات العلاج بالأمراض المصاحبة في الخلفية على شدة نتيجة COVID-19؛ غير محدد لـ PH أو prasugrel |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | دراسة الأتراب | Curr Med Res Opin | العوامل المرتبطة بالالتزام بـ clopidogrel/prasugrel بعد PCI لدى مرضى ACS؛ يؤكد استخدام prasugrel الراسخ في ACS/PCI لكنه لا يتناول PH |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Prasugrel is currently not marketed in Saudi Arabia (0 authorizations on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: the TFDA package insert/label data required for initial safety screening (S1) is currently a blocking data gap, and MOA data is a high-priority gap — see Conclusion below.)*
+prasugrel غير مسوّق حالياً في المملكة العربية السعودية (0 تفويضات على السجل).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى الملصق الدوائي (نشرة المعلومات) للحصول على معلومات السلامة.
 
-**Rationale:**
-Despite a high TxGNN prediction score, none of the retrieved clinical trials or literature directly support prasugrel's use in pulmonary hypertension — all evidence items are graded low relevance, and the evidence pack itself identifies this as a likely score/content mismatch. Combined with a blocking data gap in TFDA label/safety data (DG001) and a high-priority gap in MOA data (DG002), this candidate cannot proceed past S0.
+*(ملاحظة: بيانات الملصق الدوائي/التسمية من هيئة الغذاء والدواء السعودية (TFDA) المطلوبة للفحص الأولي للسلامة (S1) تمثل حالياً فجوة بيانات عائقة، وبيانات آلية العمل (MOA) تمثل فجوة ذات أولوية عالية — انظر الخلاصة أدناه.)*
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently blocking
-- Mechanism of action data via DrugBank API
-- Targeted preclinical or mechanistic studies linking P2Y12 inhibition to pulmonary vascular remodeling/thrombosis
-- PH-specific clinical trials or case series involving prasugrel
+---
 
-*For reference: among the other candidates in this evidence pack, migraine disorder (rank 2, L3, decision stage S1, "Research Question") has comparatively stronger class-level human evidence — thienopyridines (clopidogrel/prasugrel) and PFO-associated migraine — and may warrant separate evaluation.*
+## الخلاصة والخطوات التالية
+
+**القرار: وقف مؤقت**
+
+**المنطق:**
+بالرغم من درجة تنبؤ TxGNN عالية، لا تدعم أي من التجارب السريرية المسترجعة أو الأدبيات بشكل مباشر استخدام prasugrel في ارتفاع ضغط الدم الرئوي — جميع عناصر الأدلة مصنفة بصلة منخفضة، وحزمة الأدلة نفسها تحدد هذا على أنه عدم توافق محتمل بين النتيجة والمحتوى. بالاقتران مع فجوة بيانات عائقة في بيانات الملصق/السلامة من هيئة الغذاء والدواء السعودية (DG001) وفجوة ذات أولوية عالية في بيانات آلية العمل (DG002)، لا يمكن لهذا المرشح تجاوز المرحلة S0.
+
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+- ملصق هيئة الغذاء والدواء السعودية (TFDA) الدوائي (التحذيرات، موانع الاستعمال) — حالياً عائق
+- بيانات آلية العمل عبر واجهة برمجة التطبيقات DrugBank
+- دراسات تحضيرية أو آلية موجهة تربط بين تثبيط P2Y12 وإعادة تشكيل الأوعية الرئوية/التخثر
+- تجارب سريرية محددة لـ PH أو سلاسل حالات تتضمن prasugrel
+
+*للمرجعية: من بين المرشحات الأخرى في حزمة الأدلة هذه، اضطراب الصداع النصفي (الترتيب 2، L3، مرحلة القرار S1، "سؤال بحثي") له أدلة بشرية على مستوى الفئة أقوى نسبياً — ثيينوبيريدينات (clopidogrel/prasugrel) والصداع النصفي المرتبط بـ PFO (فتحة الجدار الأذيني الجنيني) — وقد يستحق تقييماً منفصلاً.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

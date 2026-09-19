@@ -29,85 +29,86 @@ indication_count: 10
 
 </div>
 
-# Axitinib: From Advanced Renal Cell Carcinoma to RCC Associated with Neuroblastoma
+# أكسيتينيب: من سرطان الخلايا الكلوية المتقدم إلى سرطان الخلايا الكلوية المرتبط بالورم العصبي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Axitinib (Inlyta®) is a selective VEGFR-1/2/3 tyrosine kinase inhibitor, FDA-approved for second-line treatment of advanced renal cell carcinoma and used in first-line combination regimens with immune checkpoint inhibitors (pembrolizumab+axitinib, avelumab+axitinib).
-The TxGNN model predicts it may be effective for **renal cell carcinoma associated with neuroblastoma**, an extremely rare pediatric overlap syndrome.
-However, **no clinical trials or publications** currently support this specific direction — this prediction is based solely on knowledge graph topology, and should be treated as a hypothesis-generating signal only.
+أكسيتينيب (Inlyta®) هو مثبط انتقائي لتيروزين كيناز مستقبلات عامل نمو بطانة الأوعية الدموية VEGFR-1/2/3، معتمد من قبل إدارة الغذاء والدواء الأمريكية للمعالجة من الخط الثاني في سرطان الخلايا الكلوية المتقدم ويُستخدم في أنظمة الدمج من الخط الأول مع مثبطات نقاط التفتيش المناعية (pembrolizumab+أكسيتينيب، avelumab+أكسيتينيب).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **سرطان الخلايا الكلوية المرتبط بالورم العصبي**، وهو متلازمة تداخل نادرة جداً عند الأطفال.
+ومع ذلك، **لا توجد حالياً تجارب سريرية أو منشورات** تدعم هذا الاتجاه المحدد — هذا التنبؤ يستند فقط على طوبولوجيا الرسم البياني للمعرفة، وينبغي اعتباره إشارة توليد فرضيات فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Advanced renal cell carcinoma (globally approved, second-line; **not registered in Saudi Arabia**) |
-| Predicted New Indication | Renal Cell Carcinoma Associated with Neuroblastoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| المؤشر الأصلي | سرطان الخلايا الكلوية المتقدم (معتمد عالمياً، الخط الثاني؛ **غير مسجل في المملكة العربية السعودية**) |
+| المؤشر الجديد المتنبأ به | سرطان الخلايا الكلوية المرتبط بالورم العصبي |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | **تأجيل** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on published literature included in the evidence dataset, axitinib is an oral second-generation tyrosine kinase inhibitor with potent and highly selective inhibitory activity against VEGFR-1, -2, and -3 — with IC₅₀ values approximately 10-fold lower than sunitinib or sorafenib. Its antitumour effect in clear cell RCC is well established: VHL gene mutation leads to HIF stabilization → VEGF/VEGFR axis overactivation → tumour neoangiogenesis, which axitinib directly suppresses. This mechanism underpins its role in the landmark AXIS trial (second-line mRCC) and the KEYNOTE-426 and JAVELIN Renal 101 first-line combination approvals.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في هذا الملف الإثباتي. بناءً على الأدبيات المنشورة المدرجة في مجموعة البيانات الإثباتية، أكسيتينيب هو مثبط تيروزين كيناز من الجيل الثاني، عن طريق الفم، بنشاط مثبط قوي وانتقائي للغاية لـ VEGFR-1 و-2 و-3 — بقيم IC₅₀ أقل بحوالي 10 أضعاف من sunitinib أو sorafenib. تأثيره المضاد للأورام في سرطان الخلايا الصافية الكلوية راسخ جيداً: طفرة جين VHL تؤدي إلى استقرار HIF → الإفراط في تنشيط محور VEGF/VEGFR → تكون أوعية دموية ورمية جديدة، والتي يثبطها أكسيتينيب بشكل مباشر. هذه الآلية تكمن وراء دوره في تجربة AXIS البارزة (سرطان الكلى النقيلي من الخط الثاني) وموافقات الدمج من الخط الأول KEYNOTE-426 و JAVELIN Renal 101.
 
-Renal cell carcinoma associated with neuroblastoma is an extremely rare paediatric entity, representing co-occurrence or overlapping histology of neuroblastoma and renal malignancy. Both tumour types may harbour VEGF-driven angiogenesis, providing a theoretical basis for VEGFR inhibition. However, the dominant oncogenic driver in neuroblastoma is ALK mutation (or MYCN amplification), not VEGFR, which substantially weakens the mechanistic link. Objective response rates to standard VEGFR-TKIs may be considerably lower in this context compared to clear cell RCC.
+سرطان الخلايا الكلوية المرتبط بالورم العصبي هو كيان نادر جداً عند الأطفال، يمثل التزامن أو تداخل علم الأنسجة للورم العصبي والورم الخبيث الكلوي. قد تحتوي كلا نوعي الأورام على تكون أوعية دموية مدفوعة بـ VEGF، مما يوفر أساساً نظرياً لمثبطات VEGFR. ومع ذلك، المحرك الورمي المهيمن في الورم العصبي هو طفرة ALK (أو تضخيم MYCN)، وليس VEGFR، مما يضعف بشكل كبير الصلة الآلية. قد تكون معدلات الاستجابة الموضوعية لمثبطات VEGFR-TKI القياسية أقل بكثير في هذا السياق مقارنة بسرطان الخلايا الكلوية الصافية.
 
-The TxGNN model assigns a prediction score of 99.90% (rank 2250 among all disease nodes), most likely reflecting topological proximity in the knowledge graph between RCC nodes and neuroblastoma-associated renal tumour nodes — rather than direct biological evidence. Without any specific clinical trial, case series, or mechanistic study for this subtype, the prediction cannot be actioned in a clinical or regulatory context at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يعين نموذج TxGNN درجة تنبؤ 99.90% (الترتيب 2250 بين جميع عُقد الأمراض)، وغالباً ما يعكس القرب الطوبولوجي في الرسم البياني للمعرفة بين عُقد سرطان الخلايا الكلوية وعُقد الأورام الكلوية المرتبطة بالورم العصبي — بدلاً من الدليل البيولوجي المباشر. بدون أي تجربة سريرية محددة، أو سلسلة حالات، أو دراسة آلية لهذا النوع الفرعي، لا يمكن تنفيذ التنبؤ في سياق سريري أو تنظيمي في هذا الوقت.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Cytotoxicity
+## الأدلة الأدبية
 
-Axitinib is an antineoplastic targeted therapy (VEGFR-TKI) for renal cell carcinoma.
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-| Item | Content |
+---
+
+## السمية
+
+أكسيتينيب هو عامل علاجي موجه مضاد للورم (مثبط VEGFR-TKI) لسرطان الخلايا الكلوية.
+
+| العنصر | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective VEGFR tyrosine kinase inhibitor (second-generation TKI) |
-| Myelosuppression Risk | Low (VEGFR-TKIs do not directly suppress bone marrow; haematological toxicity is uncommon compared to conventional cytotoxics) |
-| Emetogenicity Classification | Low (oral TKI; nausea reported but high-grade vomiting is uncommon) |
-| Monitoring Items | Blood pressure (hypertension is the most common class effect — monitor at baseline and regularly), liver function (ALT/AST/bilirubin), thyroid function (TSH), urine protein (proteinuria), CBC, renal function |
-| Handling Protection | Standard oral oncology medication precautions apply; cytotoxic drug handling regulations are not generally mandated for targeted oral TKIs, but institutional policy should be followed |
+| تصنيف السمية | العلاج الموجه — مثبط تيروزين كيناز VEGFR الانتقائي (TKI من الجيل الثاني) |
+| خطر قمع النخاع العظمي | منخفض (لا يثبط مثبطات VEGFR نخاع العظم بشكل مباشر؛ السمية الدموية نادرة مقارنة بالعلاجات الكيميائية التقليدية) |
+| تصنيف الغثيان والقيء | منخفض (TKI عن طريق الفم؛ يتم الإبلاغ عن الغثيان ولكن القيء من الدرجة العالية نادر) |
+| عناصر المراقبة | ضغط الدم (ارتفاع ضغط الدم هو أكثر تأثير فئة شيوعاً — مراقبة خط الأساس بانتظام)، وظائف الكبد (ALT/AST/البيليروبين)، وظائف الغدة الدرقية (TSH)، بروتين البول (البروتينية)، تعداد الدم الكامل، وظائف الكلى |
+| حماية التعامل | تطبق احتياطات الأدوية الورمية الفموية القياسية؛ لا تُطبق عموماً لوائح التعامل مع الأدوية السامة للخلايا بشكل عام لمثبطات TKI الموجهة الفموية، لكن يجب اتباع سياسة المؤسسة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-Renal cell carcinoma associated with neuroblastoma is an extremely rare paediatric entity for which there is currently no clinical trial data, published case reports, or mechanistic studies supporting axitinib use; the TxGNN prediction (L5 — model prediction only) is insufficient to advance to any clinical evaluation stage. Furthermore, axitinib is not registered in Saudi Arabia for any indication, meaning baseline regulatory and safety documentation would need to be established before any repurposing pathway could begin.
+**الأساس المنطقي:**
+سرطان الخلايا الكلوية المرتبط بالورم العصبي هو كيان نادر جداً عند الأطفال لا توجد حالياً بيانات تجارب سريرية، أو تقارير حالات منشورة، أو دراسات آلية تدعم استخدام أكسيتينيب؛ تنبؤ TxGNN (L5 — تنبؤ النموذج فقط) غير كافٍ للمتابعة إلى أي مرحلة تقييم سريري. علاوة على ذلك، أكسيتينيب غير مسجل في المملكة العربية السعودية لأي مؤشر، مما يعني أنه ستكون هناك حاجة إلى تأسيس التوثيق التنظيمي والسلامة الأساسي قبل أن تتمكن أي مسار إعادة استخدام من البدء.
 
-**To proceed, the following is needed:**
-- Natural history data and case series for neuroblastoma-associated RCC to characterise VEGF/VEGFR expression in this subtype
-- Preclinical studies (cell lines or patient-derived tumour models) assessing axitinib activity in neuroblastoma-RCC overlap tissue
-- Paediatric pharmacokinetics and safety characterisation (children have different TKI metabolism; see published narrative review PMID 39326645 on axitinib outcomes across age groups)
-- Detailed MOA data from DrugBank to confirm biological plausibility of VEGFR targeting in this subtype
-- Saudi Arabia (SFDA) registration pathway assessment if clinical evidence accumulates
+**للمتابعة، هناك حاجة إلى ما يلي:**
+- بيانات التاريخ الطبيعي وسلسلة الحالات لسرطان الخلايا الكلوية المرتبط بالورم العصبي لتوصيف تعبير VEGF/VEGFR في هذا النوع الفرعي
+- دراسات ما قبل السريرية (خطوط الخلايا أو نماذج أورام مشتقة من المريض) لتقييم نشاط أكسيتينيب في أنسجة تداخل الورم العصبي وسرطان الخلايا الكلوية
+- علم الأدوية السريري عند الأطفال وتوصيف السلامة (الأطفال لديهم استقلاب TKI مختلف؛ انظر الاستعراض السردي المنشور PMID 39326645 حول نتائج أكسيتينيب عبر مجموعات العمر)
+- بيانات آلية العمل المفصلة من DrugBank لتأكيد المعقولية البيولوجية لاستهداف VEGFR في هذا النوع الفرعي
+- تقييم مسار التسجيل بالهيئة السعودية للمتخصصين الصحيين (SFDA) إذا تراكمت الأدلة السريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

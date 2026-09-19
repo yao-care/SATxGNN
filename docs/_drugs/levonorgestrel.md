@@ -29,77 +29,78 @@ indication_count: 6
 
 </div>
 
-# Levonorgestrel: From Contraception to Acne
+# ليفونوجيستريل: من منع الحمل إلى حب الشباب
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Levonorgestrel is a synthetic progestin widely used in hormonal contraceptives (oral pills, IUS, implants). The TxGNN model predicts it may be effective for **Acne (disease)**, with **5 clinical trials** and **20 publications** returned in the evidence search — but on closer reading, most of this evidence is indirect (acne recorded as a side-effect signal in contraception studies) rather than direct treatment evidence, and the drug's own pharmacology raises a caution flag against this prediction.
+ليفونوجيستريل هو بروجيستين اصطناعي يُستخدم على نطاق واسع في موانع الحمل الهرمونية (حبوب فموية، جهاز ليفونوجيستريل الرحمي، غرسات). ينبئ نموذج TxGNN بأنه قد يكون فعّالاً في **حب الشباب (المرض)**، مع عودة **5 تجارب سريرية** و**20 منشوراً علمياً** في البحث عن الأدلة — لكن عند الفحص الدقيق، معظم هذه الأدلة غير مباشرة (حب الشباب مسجل كإشارة عرض جانبي في دراسات منع الحمل) بدلاً من أدلة العلاج المباشر، والتركيب الدوائي للعقار نفسه يرفع علم تحذير ضد هذا التنبؤ.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available from regulatory data (no Saudi Arabia licenses on file); levonorgestrel is generally known as a contraceptive progestin |
-| Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير متاحة من البيانات التنظيمية (لا توجد تراخيص من المملكة العربية السعودية في السجل)؛ يُعرّف ليفونوجيستريل عموماً كبروجيستين لمنع الحمل |
+| الدلالة الجديدة المتنبأ بها | حب الشباب (المرض) |
+| درجة التنبؤ TxGNN | 99.88% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known information, levonorgestrel is a 19-nortestosterone-derived progestin used in combined oral contraceptives, progestin-only pills, IUS (e.g., Mirena), and subdermal implants (e.g., Norplant). Its contraceptive efficacy is well established through inhibition of ovulation, thickening of cervical mucus, and endometrial changes.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (فجوة في البيانات). بناءً على المعلومات المعروفة، ليفونوجيستريل هو بروجيستين مشتق من 19-nortestosterone يُستخدم في موانع الحمل الفموية المركبة، وحبوب البروجيستين فقط، وجهاز ليفونوجيستريل الرحمي (IUS) (مثل Mirena)، والغرسات تحت الجلد (مثل Norplant). تم إثبات فعاليتها في منع الحمل بشكل جيد من خلال منع الإباضة، وزيادة سماكة المخاط العنقي، والتغييرات في بطانة الرحم.
 
-The link to acne is mechanistically ambiguous rather than straightforwardly supportive. Combined oral contraceptives (estrogen + progestin) are a recognized acne treatment because estrogen suppresses ovarian androgen production and raises sex hormone-binding globulin, lowering free androgen levels. However, levonorgestrel itself is one of the more androgenic progestins in clinical use (literature PMID 7825629 explicitly notes its androgenic activity), and androgenic progestins are generally understood to counteract, not enhance, the anti-acne effect of the estrogen component. One retrieved study (PMID 15025547) directly reports that an anti-androgenic progestin combination (EE/chlormadinone acetate) was **more effective** than EE/levonorgestrel for treating papulopustular acne — evidence pointing against levonorgestrel's own contribution to acne improvement.
+الارتباط بحب الشباب غير واضح آلياً بدلاً من أن يكون داعماً مباشراً. موانع الحمل الفموية المركبة (الإستروجين + البروجيستين) هي علاج معروف لحب الشباب لأن الإستروجين يقمع إنتاج الأندروجين المبيضي ويرفع الجلوبيولين الرابط لهرمون الجنس، مما يخفض مستويات الأندروجين الحرة. ومع ذلك، ليفونوجيستريل نفسه هو أحد البروجيستينات الأندروجينية الأكثر استخداماً سريرياً (الأدبيات PMID 7825629 تلاحظ بشكل صريح نشاطه الأندروجيني)، والبروجيستينات الأندروجينية يُفهم عموماً أنها تقاوم، وليس تعزز، التأثير المضاد لحب الشباب من مكون الإستروجين. دراسة واحدة تم استرجاعها (PMID 15025547) تبلغ مباشرة عن أن مزيج البروجيستين المضاد للأندروجين (EE/chlormadinone acetate) كان **أكثر فعالية بشكل كبير** من EE/levonorgestrel لعلاج حب الشباب الحطاطي-الصديدي — دليل يشير إلى تناقض مساهمة ليفونوجيستريل الخاصة في تحسين حب الشباب.
 
-Taken together, the TxGNN score likely reflects levonorgestrel's frequent co-occurrence with "acne" in contraception literature (where acne appears mainly as an adverse-event or comparator marker), rather than a genuine causal treatment relationship. This should be treated as a weak/uncertain signal, not a validated repurposing lead.
+مجتمعة، من المرجح أن تعكس درجة TxGNN التزامن المتكرر لليفونوجيستريل مع "حب الشباب" في أدبيات منع الحمل (حيث يظهر حب الشباب بشكل أساسي كعلامة حدث سلبي أو علامة مقارنة)، بدلاً من العلاقة السببية الحقيقية للعلاج. يجب التعامل مع هذا كإشارة ضعيفة/غير مؤكدة، وليس كمؤشر معتمد لإعادة الاستخدام.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00161226](https://clinicaltrials.gov/study/NCT00161226) | N/A | Terminated | 44 | LNG-IUS studied for endometrial cancer prevention in obese women; acne is only referenced as a known side effect of oral progestins, not a study endpoint |
-| [NCT01650168](https://clinicaltrials.gov/study/NCT01650168) | N/A | Completed | 101,498 | Large post-marketing safety cohort comparing nomegestrol acetate/estradiol vs. LNG-containing combined oral contraceptives; acne only tracked as an adverse event |
-| [NCT00480532](https://clinicaltrials.gov/study/NCT00480532) | N/A | Completed | 131 | Continuous oral contraceptive + doxycycline for bleeding control; the acne-relevant agent is doxycycline, not levonorgestrel |
-| [NCT05570786](https://clinicaltrials.gov/study/NCT05570786) | Phase 2 | Completed | 100 | Gestrinone implant for endometriosis pelvic pain; drug and indication unrelated to levonorgestrel/acne |
-| [NCT05492487](https://clinicaltrials.gov/study/NCT05492487) | Phase 2 | Unknown | 60 | Mirena (LNG-IUS) vs. megestrol acetate for atypical endometrial hyperplasia fertility preservation; unrelated to acne |
+| [NCT00161226](https://clinicaltrials.gov/study/NCT00161226) | غير متوفر | تم الإيقاف | 44 | تم دراسة LNG-IUS لمنع سرطان بطانة الرحم لدى النساء البدينات؛ يتم الإشارة إلى حب الشباب فقط كأثر جانبي معروف للبروجيستينات الفموية، وليس كنقطة نهاية للدراسة |
+| [NCT01650168](https://clinicaltrials.gov/study/NCT01650168) | غير متوفر | مكتملة | 101,498 | مجموعة سلامة ما بعد التسويق كبيرة تقارن nomegestrol acetate/estradiol مقابل موانع الحمل الفموية المركبة التي تحتوي على LNG؛ يتم تتبع حب الشباب فقط كحدث سلبي |
+| [NCT00480532](https://clinicaltrials.gov/study/NCT00480532) | غير متوفر | مكتملة | 131 | موانع حمل فموية مستمرة + دوكسيسيكلين للتحكم في النزيف؛ الوكيل ذو الصلة بحب الشباب هو دوكسيسيكلين، وليس ليفونوجيستريل |
+| [NCT05570786](https://clinicaltrials.gov/study/NCT05570786) | المرحلة الثانية | مكتملة | 100 | غرسة جيسترينون لألم التهاب بطانة الرحم في الحوض؛ العقار والدلالة غير ذات صلة بليفونوجيستريل/حب الشباب |
+| [NCT05492487](https://clinicaltrials.gov/study/NCT05492487) | المرحلة الثانية | غير معروف | 60 | جهاز ليفونوجيستريل الرحمي مقابل megestrol acetate لفرط تنسج بطانة الرحم غير النمطي الحفاظ على الخصوبة؛ غير ذات صلة بحب الشباب |
 
-None of these trials directly test levonorgestrel as an acne treatment; all are indirect associations.
+لا تختبر أي من هذه التجارب مباشرة ليفونوجيستريل كعلاج لحب الشباب؛ جميعها روابط غير مباشرة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | RCT | J Am Acad Dermatol | Low-dose EE/LNG (20mcg/100mcg) oral contraceptive improved biochemical androgen markers and moderate acne vs. placebo |
-| [10717776](https://pubmed.ncbi.nlm.nih.gov/10717776/) | 1999 | RCT | Contraception | Multicenter randomized comparison of low-dose OCs with different progestins on androgenic markers and acne outcomes |
-| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Comparative trial review | Drugs | EE/chlormadinone acetate was significantly more effective than EE/levonorgestrel for mild-to-moderate papulopustular acne |
-| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Review | Am J Clin Dermatol | Reviews androgen-driven pilosebaceous unit disorders (acne, hirsutism); anti-androgenic progestins favored over androgenic ones |
-| [16796485](https://pubmed.ncbi.nlm.nih.gov/16796485/) | 2006 | Review | J Womens Health | Drospirenone contrasted with MPA, levonorgestrel, and micronized progesterone; androgenic progestins linked to acne occurrence, not reduction |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Review | Am J Med | Establishes levonorgestrel's relatively high androgenic activity among clinically used progestins — the mechanistic basis for caution here |
+| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | تجربة معشاة | J Am Acad Dermatol | موانع حمل فموية منخفضة الجرعة EE/LNG (20mcg/100mcg) حسّنت علامات الأندروجين البيوكيميائية وحب الشباب المعتدل مقابل الغفل |
+| [10717776](https://pubmed.ncbi.nlm.nih.gov/10717776/) | 1999 | تجربة معشاة | Contraception | مقارنة عشوائية متعددة المراكز للموانع الفموية منخفضة الجرعة مع بروجيستينات مختلفة على علامات الأندروجين ونتائج حب الشباب |
+| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | مراجعة تجربة مقارنة | Drugs | EE/chlormadinone acetate كان **أكثر فعالية بشكل كبير** من EE/levonorgestrel لعلاج حب الشباب الحطاطي-الصديدي الخفيف إلى المعتدل |
+| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | مراجعة | Am J Clin Dermatol | يستعرض اضطرابات الوحدة الدهنية الشعرية التي يقودها الأندروجين (حب الشباب، الشعرانية)؛ البروجيستينات المضادة للأندروجين مفضلة على الأندروجينية |
+| [16796485](https://pubmed.ncbi.nlm.nih.gov/16796485/) | 2006 | مراجعة | J Womens Health | Drospirenone مقابل MPA و levonorgestrel والبروجسترون الميكرونايز؛ البروجيستينات الأندروجينية مرتبطة بحدوث حب الشباب، وليس الاختزال |
+| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | مراجعة | Am J Med | يؤسس نشاط ليفونوجيستريل الأندروجيني النسبي العالي بين البروجيستينات المستخدمة سريرياً — الأساس الآلي للحذر هنا |
 
-The remaining literature returned by the search (contraception method reviews, VTE/cardiovascular studies, endometrial hyperplasia trials) mentions levonorgestrel but is not substantively about acne and was excluded as noise.
+الأدبيات المتبقية المعادة من البحث (مراجعات طرق منع الحمل، دراسات VTE/القلب والأوعية الدموية، تجارب فرط تنسج بطانة الرحم) تذكر ليفونوجيستريل لكنها ليست جوهرية حول حب الشباب وتم استثناؤها كضوضاء.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Levonorgestrel is currently **not marketed** in Saudi Arabia per the available regulatory data (0 licenses on file). No product, dosage form, or approved indication text is available.
+ليفونوجيستريل حالياً **غير مسوّق** في المملكة العربية السعودية وفقاً لبيانات التنظيم المتاحة (0 ترخيص في السجل). لا توجد بيانات منتج أو شكل جرعة أو نص دلالة موافق عليه.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The strongest available evidence (PMID 15025547) suggests levonorgestrel's androgenic activity makes it a *weaker* choice for acne compared with anti-androgenic progestins, and no trial directly tests levonorgestrel monotherapy against acne. Combined with the absence of Saudi Arabia market presence and blocking safety data gaps, the evidence does not support advancing this candidate. (Note: the other TxGNN-predicted indications for this drug — Worth syndrome, pregnancy-associated osteoporosis, ADNIV, and two breast adenosis subtypes — returned zero clinical trials or literature and lack any plausible mechanistic link; they are excluded from this report as unsupported model-only predictions, L5.)
+**المبرر:**
+أقوى الأدلة المتاحة (PMID 15025547) تشير إلى أن النشاط الأندروجيني لليفونوجيستريل يجعله **خياراً أضعف** لحب الشباب مقارنة بالبروجيستينات المضادة للأندروجين، ولا توجد تجربة واحدة تختبر مباشرة العلاج بليفونوجيستريل وحده ضد حب الشباب. مقترنة بغياب وجود السوق في المملكة العربية السعودية وفجوات بيانات السلامة المسدودة، الأدلة لا تدعم تقدم هذا المرشح. (ملاحظة: التنبؤات الأخرى من TxGNN لهذا العقار — Worth syndrome وهشاشة العظام المرتبطة بالحمل و ADNIV ونوعين من الأدينوسيس بالثدي — لم تُرجع أي تجارب سريرية أو أدبيات وتفتقر إلى أي ارتباط آلي معقول؛ يتم استثناؤها من هذا التقرير كتنبؤات من النموذج فقط غير مدعومة، L5.)
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- A direct comparative trial isolating levonorgestrel's contribution to acne outcomes (vs. estrogen component or vs. anti-androgenic progestins)
-- Reassessment of the TxGNN signal given the reversed-direction mechanistic concern identified above
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة المعلومات TFDA/SFDA (تحذيرات، موانع الاستعمال) — حالياً محجوب (DG001)
+- بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- تجربة مقارنة مباشرة تعزل مساهمة ليفونوجيستريل في نتائج حب الشباب (مقابل مكون الإستروجين أو مقابل البروجيستينات المضادة للأندروجين)
+- إعادة تقييم إشارة TxGNN في ضوء الاهتمام الآلي ذي الاتجاه العكسي المحدد أعلاه
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,100 +29,101 @@ indication_count: 10
 
 </div>
 
-# Duvelisib: From CLL/SLL to Hodgkin's Lymphoma
+# دوفيليسيب: من سرطان الدم اللمفاوي المزمن/الأورام اللمفاوية الصغيرة إلى لمفومة هودجكين
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Duvelisib (Copiktra) is an FDA-approved oral dual inhibitor of PI3K-δ and PI3K-γ, originally indicated for relapsed/refractory chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) and follicular lymphoma, though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Hodgkin's Lymphoma**, with **11 clinical trials** and **16 publications** retrieved in evidence search — the majority of which pertain to related non-Hodgkin's lymphoma subtypes rather than classical Hodgkin's lymphoma specifically.
+دوفيليسيب (Copiktra) هو مثبط ثنائي الفعل لـ PI3K-δ و PI3K-γ عن طريق الفم معتمد من إدارة الغذاء والدواء الأمريكية (FDA)، موصوف في الأصل لعلاج سرطان الدم اللمفاوي المزمن/الأورام اللمفاوية الصغيرة المتكررة/المقاومة للعلاج (CLL/SLL) والأورام اللمفاوية المسامية، غير أنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **لمفومة هودجكين**، مع استرجاع **11 تجربة سريرية** و **16 منشور بحثي** في البحث عن الأدلة — يتعلق معظمها بأنواع فرعية من الأورام اللمفاوية غير هودجكين المرتبطة بدلاً من لمفومة هودجكين الكلاسيكية تحديداً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Relapsed/refractory CLL/SLL and follicular lymphoma (FDA-approved 2018; not registered in Saudi Arabia) |
-| Predicted New Indication | Hodgkin's Lymphoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | سرطان الدم اللمفاوي المزمن/الأورام اللمفاوية الصغيرة المتكررة/المقاومة للعلاج والأورام اللمفاوية المسامية (معتمد من قبل FDA عام 2018؛ غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | لمفومة هودجكين |
+| درجة التنبؤ من TxGNN | 99.94% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-Duvelisib is the first FDA-approved oral dual inhibitor of phosphatidylinositol-3-kinase delta (PI3K-δ) and gamma (PI3K-γ). PI3K-δ is selectively and highly expressed in hematopoietic cells and serves as a critical downstream mediator of B-cell receptor (BCR) signaling, driving proliferation, survival, and tissue homing of malignant B cells. PI3K-γ acts within the tumor microenvironment, promoting immunosuppressive conditions by sustaining regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs). The dual inhibition strategy simultaneously targets tumor cell intrinsic survival signaling and the immunosuppressive milieu — a mechanistic profile with broad relevance across lymphoid malignancies.
+دوفيليسيب هو أول مثبط ثنائي عن طريق الفم معتمد من FDA لـ PI3K-δ و PI3K-γ (فسفاتيديل إينوسيتول-3-كيناز دلتا وجاما). يتم التعبير عن PI3K-δ بشكل انتقائي وعالي في الخلايا المكونة للدم ويعمل كوسيط حاسم وحيوي لإشارات مستقبلات الخلايا B (BCR)، مما يدفع التكاثر والبقاء والهجرة الموضعية للخلايا البائية الخبيثة. يعمل PI3K-γ داخل البيئة الدقيقة للورم، مما يعزز الظروف المثبطة للمناعة عن طريق استدامة الخلايا التائية المنظمة (Tregs) وخلايا المثبطة المشتقة من نخاع العظم (MDSCs). تستهدف استراتيجية الثنائي المثبط سيجنالات البقاء الجوهرية لخلايا الورم وكذلك بيئة مثبطة للمناعة — ملف آلي الحركة ذو أهمية واسعة عبر الأورام اللمفاوية اللمفاوية.
 
-Hodgkin's lymphoma (HL) is characterized by rare malignant Reed-Sternberg (RS) cells of germinal center B-cell origin, embedded in an extensive immunosuppressive inflammatory infiltrate. The PI3K/AKT/mTOR pathway is constitutively activated in RS cells and contributes to their survival and immune evasion. In approximately 40% of classical HL cases, RS cells harbor Epstein-Barr virus (EBV), which activates PI3K signaling as part of its oncogenic program. Preclinical evidence demonstrates that duvelisib has antitumor activity in EBV-associated B-cell lymphoma models (PMID 29522278, included in the B-cell neoplasm evidence set), providing a mechanistic bridge from the established hematologic indications to HL.
+تتميز لمفومة هودجكين (HL) بخلايا ريد-ستيرنبيرج (RS) الخبيثة النادرة من أصل الخلايا B للمركز الجرثومي، مغمورة في نسيج التهابي مثبط للمناعة واسع. يتم تفعيل مسار PI3K/AKT/mTOR بشكل مستمر في خلايا RS ويساهم في بقائها وتجنبها المناعي. في حوالي 40% من حالات لمفومة هودجكين الكلاسيكية، تحمل خلايا RS فيروس إبشتاين-بار (EBV)، الذي يُنشّط إشارات PI3K كجزء من برنامجه الورمي. يُظهر الدليل ما قبل السريري أن دوفيليسيب له نشاط مضاد للورم في نماذج الأورام اللمفاوية البائية المرتبطة بـ EBV (PMID 29522278، مدرج في مجموعة الأدلة الخاصة بالأورام اللمفاوية البائية)، مما يوفر جسراً آلياً من المؤشرات الدموية المقررة إلى لمفومة هودجكين.
 
-However, a critical caveat must be stated: **all 11 clinical trials retrieved under the Hodgkin's lymphoma query are for non-Hodgkin's lymphoma (NHL) subtypes** — including indolent NHL (follicular lymphoma, marginal zone lymphoma, SLL), T-cell lymphoma, and CLL — not classical Hodgkin's lymphoma. No dedicated clinical trials of duvelisib specifically in HL have been identified. The TxGNN prediction likely reflects shared lymphoid biology and PI3K pathway activation across the lymphoma spectrum, but the clinical translational gap from NHL/CLL to HL remains undemonstrated. Additionally, duvelisib was voluntarily withdrawn from the US market in 2023 for commercial reasons, affecting global supply.
+ومع ذلك، يجب الإشارة إلى تحذير حاسم: **جميع التجارب السريرية الـ 11 المسترجعة تحت استعلام لمفومة هودجكين هي لأنواع فرعية من الأورام اللمفاوية غير هودجكين (NHL)** — بما في ذلك الأورام اللمفاوية الخاملة (الأورام اللمفاوية المسامية، سرطان الغدد اللمفاوية الهامشية، SLL)، الأورام اللمفاوية التائية، وسرطان الدم اللمفاوي المزمن — وليست لمفومة هودجكين الكلاسيكية. لم يتم تحديد أي تجارب سريرية مخصصة لدوفيليسيب في لمفومة هودجكين. من المرجح أن يعكس التنبؤ من TxGNN البيولوجيا اللمفاوية المشتركة وتفعيل مسار PI3K عبر الطيف اللمفومي، لكن الفجوة السريرية للترجمة من NHL/CLL إلى HL تبقى غير موثقة. بالإضافة إلى ذلك، تم سحب دوفيليسيب طواعية من السوق الأمريكي في عام 2023 لأسباب تجارية، مما يؤثر على الإمدادات العالمية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Phase 2 | Completed | 129 | Duvelisib monotherapy in refractory indolent NHL (follicular lymphoma, MZL, SLL); evaluated safety and efficacy in patients refractory to rituximab and prior chemo or radioimmunotherapy |
-| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Phase 2 | Completed | 103 | Randomized comparison of two intermittent duvelisib dosing schedules in iNHL; assessed whether 2-week dose holidays reduce toxicity while maintaining tumor response |
-| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Phase 1 | Completed | 14 | Duvelisib in combination with BMS-986345 in lymphoid malignancy; dose escalation safety and tolerability study |
-| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Phase 1 | Completed | 48 | IPI-145 (duvelisib) combined with rituximab or bendamustine/rituximab in relapsed/refractory lymphoma and CLL; characterized MTD and preliminary efficacy profile |
-| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Phase 1 | Active, not recruiting | 42 | Duvelisib following CAR-T cell therapy in B-cell malignancies; hypothesis that PI3K inhibition enhances CAR-T persistence by promoting less-exhausted T-cell phenotypes |
-| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Phase 2 | Suspended | 170 | Randomized study of CHO(E)P vs duvelisib-CHO(E)P vs CC-486-CHO(E)P in untreated CD30-negative peripheral T-cell lymphomas; currently suspended |
-| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | N/A | Not yet recruiting | 200 | CHANT: multicenter non-interventional real-world prospective study of duvelisib in NHL; efficacy and safety in routine clinical practice |
-| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Phase 2 | Unknown | 140 | YY-20394 (a separate PI3K-δ inhibitor, not duvelisib) in relapsed/refractory follicular NHL; indirect class reference only |
-| [NCT02576275](https://clinicaltrials.gov/study/NCT02576275) | Phase 3 | Withdrawn | 0 | Duvelisib + bendamustine/rituximab vs placebo + BR in previously-treated iNHL; withdrawn before enrollment began |
-| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Phase 1 | Withdrawn | 0 | Duvelisib + acalabrutinib (DUAL Trial) in relapsed/refractory iNHL; withdrawn before enrollment |
+| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | المرحلة 2 | مكتملة | 129 | علاج دوفيليسيب وحيد في الأورام اللمفاوية غير هودجكين الخاملة المقاومة (أورام لمفاوية مسامية، MZL، SLL)؛ تقييم السلامة والفعالية في المرضى المقاومين لـ rituximab والعلاج الكيميائي أو العلاج الإشعاعي المناعي السابق |
+| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | المرحلة 2 | مكتملة | 103 | مقارنة عشوائية لجدولتي جرعات دوفيليسيب المتقطعة في iNHL؛ تقييم ما إذا كانت عطل الجرعات لمدة أسبوعين تقلل السمية مع الحفاظ على استجابة الورم |
+| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | المرحلة 1 | مكتملة | 14 | دوفيليسيب بالاشتراك مع BMS-986345 في الأورام اللمفاوية اللمفاوية؛ دراسة السلامة والتحمل لتصعيد الجرعات |
+| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | المرحلة 1 | مكتملة | 48 | IPI-145 (دوفيليسيب) مع rituximab أو bendamustine/rituximab في الأورام اللمفاوية والـ CLL المتكررة/المقاومة للعلاج؛ تحديد MTD وملف الفعالية الأولية |
+| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | المرحلة 1 | نشطة، غير تجنيد | 42 | دوفيليسيب بعد العلاج بـ CAR-T في الأورام اللمفاوية البائية؛ الفرضية أن تثبيط PI3K يعزز بقاء CAR-T عن طريق تعزيز نمط ظاهري أقل استنزافاً للخلايا التائية |
+| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | المرحلة 2 | معلقة | 170 | دراسة عشوائية لـ CHO(E)P مقابل دوفيليسيب-CHO(E)P مقابل CC-486-CHO(E)P في أورام الخلايا التائية محيطية CD30-سلبية المعالجة الأولية؛ حالياً معلقة |
+| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | غير قابل للتطبيق | لم تبدأ بعد | 200 | CHANT: دراسة استرجاعية غير تدخلية حقيقية متعددة المراكز لدوفيليسيب في NHL؛ الفعالية والسلامة في الممارسة السريرية الروتينية |
+| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | المرحلة 2 | غير معروف | 140 | YY-20394 (مثبط PI3K-δ منفصل، وليس دوفيليسيب) في NHL المسامية المتكررة/المقاومة للعلاج؛ مرجع فئة غير مباشر فقط |
+| [NCT02576275](https://clinicaltrials.gov/study/NCT02576275) | المرحلة 3 | تم الانسحاب | 0 | دوفيليسيب + bendamustine/rituximab مقابل الدواء الوهمي + BR في iNHL المعالجة مسبقاً؛ تم الانسحاب قبل بدء التجنيد |
+| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | المرحلة 1 | تم الانسحاب | 0 | دوفيليسيب + acalabrutinib (تجربة DUAL) في iNHL المتكررة/المقاومة للعلاج؛ تم الانسحاب قبل بدء التجنيد |
 
-> ⚠️ **Important**: All trials above are for non-Hodgkin's lymphoma, CLL/SLL, or T-cell lymphoma. None specifically target classical Hodgkin's lymphoma.
+> ⚠️ **ملاحظة مهمة**: جميع التجارب أعلاه هي لأورام لمفاوية غير هودجكين أو CLL/SLL أو أورام لمفاوية تائية. لا أحد منها يستهدف بشكل خاص لمفومة هودجكين الكلاسيكية.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | الدورية | الاستنتاجات الرئيسية |
 |------|------|------|---------|---------|
-| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systematic Review & Meta-analysis | Frontiers in Immunology | Pooled safety and efficacy analysis of duvelisib across prospective trials in relapsed/refractory lymphoid neoplasms; quantified response rates and grade 3–4 toxicity profiles |
-| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | Phase 1 Trial | Blood | Phase 1 dose-escalation study in 210 patients with advanced hematologic malignancies; MTD 75 mg BID; clinical activity observed across NHL, CLL, and T-cell lymphoma subtypes |
-| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Phase 1 Trial | American Journal of Hematology | Combination trial of duvelisib with rituximab or BR in relapsed/refractory NHL and CLL; evaluated response rates and remission durability of the combination strategy |
-| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Clinical Commentary | The Lancet Oncology | Expert commentary on the clinical significance of duvelisib approval and activity in indolent NHL |
-| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Review | Current Treatment Options in Oncology | Comprehensive review of PI3K inhibitor mechanisms, clinical efficacy across NHL subtypes, and on-target immune-mediated toxicities |
-| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Review | American Journal of Health-System Pharmacy | Summary of approved targeted therapies in B- and T-cell lymphomas, including duvelisib's regulatory approval context |
-| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Review | Drugs | Novel therapeutic approaches to follicular lymphoma with focus on PI3K inhibitors and emerging combination strategies |
-| [33132100](https://pubmed.ncbi.nlm.nih.gov/33132100/) | 2021 | Review | Clinical Lymphoma, Myeloma & Leukemia | Next-generation PI3K inhibitors for relapsed/refractory NHL; discussed approaches to reduce toxicity while maintaining efficacy |
-| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Preclinical | Scientific Reports | Demonstrated PI3Kγ and PI3Kδ roles in mantle cell lymphoma cell proliferation and migration; duvelisib showed preclinical efficacy in lymph-node-resident MCL models |
-| [41920459](https://pubmed.ncbi.nlm.nih.gov/41920459/) | 2026 | Review | American Journal of Clinical Dermatology | Emerging therapies in cutaneous T-cell lymphoma including PI3K inhibition; provides context on the broader lymphoma application landscape |
+| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | مراجعة منهجية وتحليل تلوي | Frontiers in Immunology | تحليل تجميعي للسلامة والفعالية لدوفيليسيب عبر التجارب الاستشرافية في الأورام اللمفاوية اللمفاوية المتكررة/المقاومة للعلاج؛ تحديد معدلات الاستجابة وملفات السمية من الدرجة 3–4 |
+| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | تجربة المرحلة 1 | Blood | دراسة تصعيد الجرعات من المرحلة 1 في 210 مريض مصابين بأورام دموية خبيثة متقدمة؛ MTD 75 mg BID؛ النشاط السريري الملحوظ عبر أنواع NHL و CLL والأورام اللمفاوية التائية |
+| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | تجربة المرحلة 1 | American Journal of Hematology | تجربة الجمع بين دوفيليسيب مع rituximab أو BR في NHL و CLL المتكررة/المقاومة للعلاج؛ تقييم معدلات الاستجابة وديمومة الخمول من استراتيجية الجمع |
+| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | تعليق سريري | The Lancet Oncology | تعليق الخبراء على الأهمية السريرية لموافقة دوفيليسيب والنشاط في NHL الخاملة |
+| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | مراجعة | Current Treatment Options in Oncology | مراجعة شاملة لآليات مثبطات PI3K والفعالية السريرية عبر أنواع NHL وسميات وسيطة مناعية على الهدف |
+| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | مراجعة | American Journal of Health-System Pharmacy | ملخص العلاجات الموجهة المعتمدة في الأورام اللمفاوية البائية والتائية، بما في ذلك سياق الموافقة التنظيمية لدوفيليسيب |
+| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | مراجعة | Drugs | أساليب العلاج الجديدة للأورام اللمفاوية المسامية مع التركيز على مثبطات PI3K واستراتيجيات الجمع الناشئة |
+| [33132100](https://pubmed.ncbi.nlm.nih.gov/33132100/) | 2021 | مراجعة | Clinical Lymphoma, Myeloma & Leukemia | مثبطات PI3K من الجيل التالي للأورام اللمفاوية غير هودجكين المتكررة/المقاومة للعلاج؛ نقاش المناهج لتقليل السمية مع الحفاظ على الفعالية |
+| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | ما قبل السريري | Scientific Reports | وضحت أدوار PI3Kγ و PI3Kδ في تكاثر وهجرة خلايا لمفومة الخلايا المغطاة؛ أظهر دوفيليسيب فعالية ما قبل السريرية في نماذج MCL المقيمة في العقد اللمفاوية |
+| [41920459](https://pubmed.ncbi.nlm.nih.gov/41920459/) | 2026 | مراجعة | American Journal of Clinical Dermatology | العلاجات الناشئة في الأورام اللمفاوية التائية الجلدية بما في ذلك تثبيط PI3K؛ توفر سياق على المشهد الأوسع لتطبيق الأورام اللمفاوية |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Duvelisib is **not registered in Saudi Arabia**. No marketing authorizations have been issued. The drug is currently unavailable through licensed commercial channels in the Kingdom.
+دوفيليسيب **غير مسجل في المملكة العربية السعودية**. لم يتم إصدار أي تصاريح تسويقية. الدواء غير متوفر حالياً من خلال القنوات التجارية المرخصة في المملكة.
 
-> For reference: Duvelisib (brand name Copiktra) was approved by the US FDA in September 2018 for relapsed/refractory CLL/SLL (after ≥2 prior therapies) and received accelerated approval for follicular lymphoma (after ≥2 prior systemic therapies). The manufacturer voluntarily withdrew the product from the US market in 2023 for commercial reasons unrelated to new safety signals.
+> للمرجعية: تمت الموافقة على دوفيليسيب (الاسم التجاري Copiktra) من قبل إدارة الغذاء والدواء الأمريكية (FDA) في سبتمبر 2018 لعلاج CLL/SLL المتكررة/المقاومة للعلاج (بعد ≥2 من العلاجات السابقة) وحصل على موافقة معجلة للأورام اللمفاوية المسامية (بعد ≥2 من العلاجات النظامية السابقة). قام المُصنّع بسحب المنتج طواعية من السوق الأمريكي في عام 2023 لأسباب تجارية غير مرتبطة بإشارات سلامة جديدة.
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — PI3K-δ/γ dual inhibitor (small molecule kinase inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Moderate — neutropenia is the most common hematologic toxicity; thrombocytopenia reported at lower frequency |
-| Emetogenicity Classification | Low (oral targeted agent; not classified as a conventional emetogenic chemotherapy) |
-| Monitoring Items | CBC with differential (neutropenia), ALT/AST (hepatotoxicity), pulmonary symptoms (pneumonitis/pneumonia), stool frequency and consistency (immune-mediated colitis), skin examination (rash) |
-| Handling Protection | Standard antineoplastic oral agent precautions apply; healthcare providers should follow institutional cytotoxic drug handling protocols |
+| تصنيف السمية الخلوية | علاج موجه — مثبط PI3K-δ/γ الثنائي (مثبط كيناز جزيئي صغير؛ وليس عامل سام خلوي تقليدي) |
+| خطر قمع النخاع | متوسط — قلة العدلات هي السمية الدموية الأكثر شيوعاً؛ تم الإبلاغ عن قلة الصفيحات بتكرار أقل |
+| تصنيف الغثيان | منخفض (علاج موجه فموي؛ غير مصنف كعامل كيميائي تقليدي مسبب للغثيان) |
+| عناصر المراقبة | عد الدم الكامل مع التفاضل (قلة العدلات)، ALT/AST (سمية الكبد)، أعراض الرئة (التهاب الرئة/الالتهاب الرئوي بالمتكيسات)، تكرار البراز والاتساق (التهاب القولون الوسيط المناعي)، فحص الجلد (الطفح الجلدي) |
+| حماية المناولة | تنطبق معايير الاحتياطات المعيارية لمعالجة الأدوية المضادة للأورام الفموية؛ يجب على مقدمي الخدمات الصحية اتباع بروتوكولات التعامل مع الأدوية السامة للخلايا المؤسسية |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
-> Based on published clinical trial data, duvelisib carries class-specific immune-mediated toxicities including pneumonitis/Pneumocystis pneumonia (requiring prophylaxis), immune-mediated colitis/diarrhea (the leading cause of dose reduction and discontinuation), skin rash, and neutropenia. Infectious complications — particularly opportunistic infections — are a clinically significant concern. These toxicities contributed to limitations on duvelisib's use even in its approved indications, where better-tolerated alternatives (ibrutinib, venetoclax) became preferred.
+> بناءً على بيانات التجارب السريرية المنشورة، يحمل دوفيليسيب سميات وسيطة مناعية خاصة بالفئة بما في ذلك التهاب الرئة/الالتهاب الرئوي بالمتكيسات (يتطلب الوقاية)، التهاب القولون/الإسهال الوسيط المناعي (السبب الرئيسي لتقليل الجرعات والإيقاف)، الطفح الجلدي، وقلة العدلات. تشكل مضاعفات العدوى — خاصة العدوى الانتهازية — مصدر قلق سريري كبير. ساهمت هذه السميات في القيود على استخدام دوفيليسيب حتى في مؤشراته المعتمدة، حيث أصبحت البدائل الأفضل تحملاً (ibrutinib، venetoclax) مفضلة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-Although duvelisib has a mechanistically plausible connection to Hodgkin's lymphoma via PI3K pathway activation in Reed-Sternberg cells and EBV-associated oncogenesis, no clinical trials specifically addressing HL with duvelisib have been identified. The retrieved evidence base is entirely from non-Hodgkin's lymphoma subtypes, representing an unvalidated clinical extrapolation. The 2023 US market withdrawal further restricts commercial supply and limits the practical pathway for clinical investigation.
+**المنطق:**
+على الرغم من أن دوفيليسيب لديه اتصال آلي معقول بلمفومة هودجكين من خلال تفعيل مسار PI3K في خلايا ريد-ستيرنبيرج وورم فيروس إبشتاين-بار، لم يتم تحديد أي تجارب سريرية تعالج بشكل خاص HL بـ duvelisib. قاعدة الأدلة المسترجعة بالكامل من أنواع فرعية من الأورام اللمفاوية غير هودجكين، وتمثل استقراء سريري غير معتمد. يحد السحب الطواعي من السوق الأمريكي عام 2023 بشكل إضافي من الإمدادات التجارية ويقيد المسار العملي للتحقيق السريري.
 
-**To proceed, the following is needed:**
-- Dedicated preclinical studies confirming duvelisib activity in classical Hodgkin's lymphoma cell lines or patient-derived xenograft models
-- Review of PI3K inhibitor class evidence in HL (e.g., idelalisib or copanlisib, which remain available) to establish class-level proof-of-concept before committing to duvelisib specifically
-- Assessment of supply chain feasibility given the 2023 voluntary US market withdrawal — identify whether duvelisib is accessible through named-patient programs, compassionate use, or alternative manufacturers
-- Acquisition of full safety data: SFDA package insert review (currently a data gap) and assessment of the pneumonitis and colitis risk profile in the intended HL patient population
-- Determination of whether a dedicated Phase 1/2 basket trial or HL-specific expansion cohort can be designed using available drug supply
+**للمتابعة، المطلوب ما يلي:**
+- دراسات ما قبل السريرية مخصصة تؤكد نشاط دوفيليسيب في خطوط خلايا لمفومة هودجكين الكلاسيكية أو نماذج الكسب الحيوي المشتقة من المريض
+- مراجعة أدلة فئة مثبطات PI3K في HL (مثل idelalisib أو copanlisib، التي تبقى متاحة) لإنشاء إثبات مفهوم على مستوى الفئة قبل الالتزام بـ duvelisib تحديداً
+- تقييم جدوى سلسلة التوريد في ضوء السحب الطواعي من السوق الأمريكي عام 2023 — تحديد ما إذا كان duvelisib يمكن الوصول إليه من خلال برامج المرضى المسمى أو الاستخدام الرحيم أو الشركات المصنعة البديلة
+- الحصول على بيانات السلامة الكاملة: مراجعة نشرة SFDA (فجوة بيانات حالية) وتقييم ملف المخاطر من التهاب الرئة والتهاب القولون في مجموعة مرضى HL المقصودة
+- تحديد ما إذا كان يمكن تصميم تجربة سلة مرحلة 1/2 مخصصة أو مجموعة توسع HL باستخدام إمدادات الأدوية المتاحة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

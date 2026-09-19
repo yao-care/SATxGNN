@@ -29,60 +29,61 @@ indication_count: 8
 
 </div>
 
-# Tadalafil: From PDE5 Inhibitor Indications to Ambras Type Hypertrichosis Universalis Congenita
+# تادالافيل: من مؤشرات مثبطات PDE5 إلى فرط الشعر العام الخلقي من نوع أمبراس
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Tadalafil is a phosphodiesterase type 5 (PDE5) inhibitor whose established uses (erectile dysfunction, benign prostatic hyperplasia, pulmonary arterial hypertension) are not captured in this evidence pack (`original_indications` is empty). The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-growth disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale states there is no known mechanistic link between PDE5 inhibition and this disease.
+تادالافيل هو مثبط للفوسفوديستيراز من النوع الخامس (PDE5) وتطبيقاته المثبتة (ضعف الانتصاب، فرط نمو البروستاتا الحميد، ارتفاع ضغط الدم الرئوي) غير مدرجة في هذه حزمة الأدلة (`original_indications` فارغة). التنبؤ الأعلى ترتيباً من نموذج TxGNN هو **فرط الشعر العام الخلقي من نوع أمبراس**، وهو اضطراب نادر خلقي لنمو الشعر، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشورات**، والمنطق الخاص بالنموذج يشير إلى عدم وجود ارتباط آلي معروف بين تثبيط PDE5 وهذا المرض.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack (original_indications empty); tadalafil is generally known as a PDE5 inhibitor class drug |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مسجل في حزمة الأدلة (original_indications فارغة)؛ تادالافيل معروف عموماً بأنه دواء من فئة مثبطات PDE5 |
+| المؤشر الجديد المتنبأ به | فرط الشعر العام الخلقي من نوع أمبراس |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الأدلة | L5 |
+| حالة السوق | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | وقفة |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this evidence pack (`original_moa` = Data Gap, DG002, severity High). Based on general pharmacological knowledge, tadalafil inhibits PDE5, preventing cGMP breakdown and promoting vascular/smooth-muscle relaxation — the basis for its known use in erectile dysfunction, BPH, and pulmonary arterial hypertension.
+بيانات آلية العمل المفصلة غير متاحة في هذه حزمة الأدلة (`original_moa` = ثغرة في البيانات، DG002، الخطورة عالية). بناءً على المعرفة الدوائية العامة، يثبط تادالافيل PDE5، مما يمنع تحطيم cGMP ويعزز استرخاء الأوعية الدموية والعضلات الملساء — وهذا هو الأساس لاستخدامه المعروف في ضعف الانتصاب وفرط نمو البروستاتا وارتفاع ضغط الدم الرئوي.
 
-For the top-ranked prediction, however, this mechanism does not translate into a plausible rationale. Ambras type hypertrichosis universalis congenita is a congenital disorder caused by an 8q chromosomal rearrangement, presenting as developmental/genetic generalized hypertrichosis — it has no established relationship to vascular smooth-muscle tone or NO-cGMP signaling. The evidence pack's own `repurposing_rationale` states explicitly that there is **no mechanistic connection**, and the pairing is corroborated by **zero** clinical trials, ICTRP records, or PubMed literature (confirmed via 3 independent queries, `query_log` ids 5–7).
+بالنسبة للتنبؤ الأعلى ترتيباً، هذه الآلية لا تترجم إلى منطق معقول. فرط الشعر العام الخلقي من نوع أمبراس هو اضطراب خلقي ناجم عن إعادة ترتيب صبغي 8q، يحدث كفرط شعر نمائي/وراثي معمم — ولا علاقة له بأي حال بنبرة الأوعية الدموية الملساء أو إشارات NO-cGMP. تنص `repurposing_rationale` في حزمة الأدلة بصراحة على أن هناك **لا اتصال آلي**، والاقتران مؤيد بـ **صفر** تجارب سريرية أو سجلات ICTRP أو أدبيات PubMed (تم التحقق عبر 3 استعلامات مستقلة، معرّفات `query_log` 5–7).
 
-Among the other 7 candidates in this pack, only two show any biological plausibility worth noting: **kyphoscoliotic heart disease** (rank 7) has a theoretical link via PDE5i's approved role in reducing pulmonary vascular resistance, but zero disease-specific trials or literature exist to support it; and **migraine with brainstem aura** (rank 8) is supported by a single case report (PMID 17059442) describing tadalafil-*induced* aura — this is an adverse-event signal, not a treatment-efficacy signal. All other candidates (hypertrichosis, odontal/periodontal malformation syndrome, Dandy-Walker–related syndrome, hair shaft abnormality, trichomegaly) have no direct drug-disease evidence. This pattern is consistent with a known TxGNN limitation: very high scores can reflect embedding-space proximity rather than a testable biological hypothesis, and should not be read as repurposing evidence on their own.
+من بين المرشحين الآخرين السبعة في هذه الحزمة، فقط اثنان يظهران أي معقولية بيولوجية جديرة بالملاحظة: **مرض القلب الحدبي الحداب** (الترتيب 7) له ارتباط نظري عبر دور PDE5i المعتمد في تقليل مقاومة الأوعية الرئوية، لكن لا توجد تجارب محددة للمرض أو أدبيات تدعمه؛ و**الشقيقة مع الأورة الجذعية** (الترتيب 8) مدعومة بحالة واحدة (PMID 17059442) تصف أورة **يسببها** تادالافيل — هذه إشارة حدث ضار، وليست إشارة فعالية العلاج. جميع المرشحين الآخرين (فرط الشعر، متلازمة سوء تكون الأسنان/دواعم الأسنان، متلازمة ذات الصلة بـ Dandy-Walker، شذوذ جذع الشعر، الشعر الكبير) لا توجد لديهم أدلة مباشرة على الدواء والمرض. هذا النمط متسق مع حد معروف من حدود TxGNN: درجات عالية جداً يمكن أن تعكس القرب في فضاء التضمين بدلاً من فرضية بيولوجية قابلة للاختبار، ولا يجب قراءتها كأدلة إعادة توظيف بمفردها.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-## Market Information
+## معلومات السوق
 
-No marketing authorizations are recorded for tadalafil in this jurisdiction (0 authorizations; market status: Not Marketed).
+لم تُسجَّل تصاريح تسويق لتادالافيل في هذه الولاية القضائية (0 تصريح؛ حالة السوق: غير مسوّق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقفة**
 
-**Rationale:**
-The top-ranked TxGNN prediction (Ambras type hypertrichosis universalis congenita) has zero clinical or literature evidence, and the evidence pack itself documents no plausible mechanistic link to PDE5 inhibition — this is a model score without a supportable biological hypothesis. No candidate in this set reaches beyond L4 evidence, and the drug is not currently marketed in this jurisdiction, so there is no near-term regulatory pathway regardless of indication.
+**المنطق:**
+التنبؤ الأعلى ترتيباً من TxGNN (فرط الشعر العام الخلقي من نوع أمبراس) لا يملك أي أدلة سريرية أو أدبية، وحزمة الأدلة نفسها توثق عدم وجود ارتباط آلي معقول لتثبيط PDE5 — هذه درجة نموذج بدون فرضية بيولوجية مدعومة. لا يصل أي مرشح في هذه المجموعة إلى ما وراء أدلة L4، والدواء لا يُسوّق حالياً في هذه الولاية القضائية، لذا لا توجد مسارات تنظيمية قريبة الأجل بغض النظر عن المؤشر.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (DG001, blocking — required before any S1 safety screening)
-- Confirmed mechanism of action via DrugBank API (DG002, high priority)
-- If pursuing repurposing further, re-scope candidate selection toward mechanistically plausible targets (e.g., pulmonary-hypertension-adjacent conditions such as kyphoscoliotic heart disease) rather than the current top-ranked score alone
-- Clarification/correction of the migraine signal (rank 8) as a safety flag rather than a repurposing opportunity, to avoid downstream misclassification
+**للمتابعة، يلزم التالي:**
+- تحذيرات/موانع استعمال نشرة TFDA (DG001، حاجز — مطلوب قبل أي فحص سلامة S1)
+- آلية عمل مؤكدة عبر DrugBank API (DG002، أولوية عالية)
+- إذا تم متابعة إعادة التوظيف بشكل أكبر، أعد نطاق اختيار المرشحين نحو أهداف معقولة آلياً (مثل الحالات المجاورة لارتفاع ضغط الدم الرئوي مثل مرض القلب الحدبي الحداب) بدلاً من درجة الترتيب الأعلى الحالي وحدها
+- توضيح/تصحيح إشارة الشقيقة (الترتيب 8) كعلم سلامة بدلاً من فرصة إعادة توظيف، لتجنب سوء التصنيف اللاحق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

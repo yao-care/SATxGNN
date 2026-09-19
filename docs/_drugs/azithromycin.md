@@ -29,143 +29,144 @@ indication_count: 10
 
 </div>
 
-# AZITHROMYCIN: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+# ازيثروميسين: من العدوى البكتيرية إلى متلازمة فرط اللزوجة متعددة النسيلة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Azithromycin is a widely used macrolide antibiotic active against a broad spectrum of bacterial pathogens — including atypical organisms — with well-recognised immunomodulatory properties beyond its antimicrobial mechanism.
-The TxGNN model has generated **10 predicted new indications** for this drug; the top-ranked is **Polyclonal Hyperviscosity Syndrome** (score 99.81%), which is currently supported by **no clinical trials or publications** (L5) and has limited mechanistic rationale.
-The best-supported candidate in this pack is **Congenital Hematological Disorder** (specifically sickle cell disease pulmonary complications, rank 10), backed by **4 registered clinical trials** and a **Cochrane systematic review** (L3).
+ازيثروميسين هو مضاد حيوي ماكروليدي يُستخدم على نطاق واسع وفعّال ضد طيف واسع من مسببات الأمراض البكتيرية — بما في ذلك الكائنات الحية غير النمطية — مع خصائص معروفة جيداً معدِّلة للمناعة تتجاوز آلية عمله المضادة للميكروبات.
+نموذج TxGNN قد أنتج **10 تنبؤات علاجية جديدة** لهذا الدواء؛ الأعلى ترتيباً هي **متلازمة فرط اللزوجة متعددة النسيلة** (درجة 99.81%)، وهي حالياً مدعومة بـ **لا توجد تجارب سريرية أو منشورات** (L5) ولديها أساس آلي محدود.
+أفضل مرشح مدعوم في هذه المجموعة هو **الاضطراب الدموي الخلقي** (تحديداً مضاعفات الجهاز التنفسي في مرض فقر الدم المنجلي، الترتيب 10)، مدعوم بـ **4 تجارب سريرية مسجلة** و**مراجعة منهجية Cochrane** (L3).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Bacterial infections (respiratory tract, skin/soft tissue, STIs) |
-| Top Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 (top prediction) |
-| Saudi Arabia Market Status | ✗ Not Marketed (0 authorisations) |
-| Number of Authorisations | 0 |
-| Recommended Decision | Hold (top prediction) / Research Question (ranks 4, 7, 9, 10) |
+| المؤشر الأصلي | العدوى البكتيرية (الجهاز التنفسي، الجلد والأنسجة الرخوة، الأمراض المنقولة بالاتصال الجنسي) |
+| أعلى مؤشر علاجي جديد متنبأ به | متلازمة فرط اللزوجة متعددة النسيلة |
+| درجة توقع TxGNN | 99.81% |
+| مستوى الأدلة | L5 (أعلى توقع) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق (0 تراخيص) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل (أعلى توقع) / سؤال بحثي (الترتيبات 4، 7، 9، 10) |
 
 ---
 
-## All Predicted Indications at a Glance
+## جميع التنبؤات العلاجية في نظرة سريعة
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-------------|----------------|----------------|
-| 1 | Polyclonal Hyperviscosity Syndrome | 99.81% | L5 | Hold |
-| 2 | Hyperamylasemia | 99.81% | L5 | Hold |
-| 3 | Congenital Analbuminemia | 99.79% | L5 | Hold |
-| 4 | Punctate Epithelial Keratoconjunctivitis | 99.78% | L4 | Research Question |
-| 5 | Blood Group Incompatibility | 99.70% | L5 | Hold |
-| 6 | Premalignant Hematological System Disease | 99.64% | L5 | Hold |
-| 7 | Monoclonal Gammopathy | 99.61% | L4 | Research Question |
-| 8 | Haematological Disease with Acquired Peripheral Neuropathy | 99.56% | L5 | Hold |
-| 9 | Septicemic Plague | 99.52% | L3 | Research Question |
-| 10 | Congenital Hematological Disorder | 99.40% | L3 | Research Question |
-
----
-
-## Why Are These Predictions Reasonable?
-
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, azithromycin is a macrolide antibiotic; its established antimicrobial activity derives from binding the 50S bacterial ribosomal subunit and blocking protein synthesis. Beyond bacteriostatic effects, azithromycin is also recognised for immunomodulatory properties — suppression of NF-κB signalling, reduction of pro-inflammatory cytokines (IL-8, TNF-α, IL-6), inhibition of neutrophil extracellular trap formation, and blockade of autophagy flux in eukaryotic cells — which underlie its proven clinical benefits in chronic inflammatory airway diseases such as cystic fibrosis and bronchiectasis.
-
-**Ranks 1, 2, 3, 5, 6, and 8 are likely knowledge-graph artefacts.** Polyclonal immunoglobulin overproduction, congenital albumin deficiency, blood group incompatibility, and acquired peripheral neuropathy have no established pharmacological interface with azithromycin's known mechanisms. The TxGNN model likely generated these predictions through shared plasma cell or protein-synthesis pathway nodes in the knowledge graph rather than genuine pharmacological opportunity. Notably, rank 2 (hyperamylasemia) is particularly concerning: azithromycin itself carries a reported adverse effect of elevated serum amylase, making this a potential safety signal rather than a treatment target.
-
-**Four predictions carry mechanistic plausibility and supporting evidence:**
-
-- **Punctate Epithelial Keratoconjunctivitis (Rank 4):** When caused by intracellular organisms such as *Chlamydia trachomatis* or *Microsporidia*, azithromycin is already an established treatment — it is first-line therapy for trachoma and has in vitro activity against microsporidial species. The single case report in this pack describes microsporidial keratoconjunctivitis where azithromycin was included in the treatment regimen.
-
-- **Monoclonal Gammopathy / Multiple Myeloma (Rank 7):** The most mechanistically compelling link in the pack. Macrolides including azithromycin block autophagy flux and induce ER stress–mediated CHOP expression, sensitising myeloma cell lines (U266, IM-9, RPMI8226) to bortezomib (PMID 23546223). Plasma cells are highly dependent on proteostasis; disrupting autophagy impairs their survival. This is an in vitro finding only — no clinical data yet exist.
-
-- **Septicemic Plague (Rank 9):** Azithromycin concentrates to high levels in macrophages, which is theoretically advantageous for *Yersinia pestis* given its intracellular lifestyle. However, direct in vitro susceptibility data show **poor activity** against Y. pestis strains (PMID 8540736), substantially limiting the actionability of this prediction.
-
-- **Congenital Hematological Disorder / Sickle Cell Disease (Rank 10):** Azithromycin's anti-inflammatory immunomodulation may reduce the frequency and severity of Acute Chest Syndrome (ACS) — the leading cause of death in SCD — and improve pulmonary function (FEV1). Two independent Phase 1 trials were designed to test this hypothesis (NCT02630394, NCT02960503) before withdrawal prior to enrollment, indicating the scientific community has already moved this hypothesis to clinical evaluation. The approach is analogous to proven macrolide prophylaxis in cystic fibrosis and bronchiectasis.
+| الترتيب | المرض | درجة TxGNN | مستوى الأدلة | التوصية |
+|---------|-------|-----------|------------|---------|
+| 1 | متلازمة فرط اللزوجة متعددة النسيلة | 99.81% | L5 | تأجيل |
+| 2 | فرط الأميليز في الدم | 99.81% | L5 | تأجيل |
+| 3 | نقص الألبومين الخلقي | 99.79% | L5 | تأجيل |
+| 4 | التهاب القرنية الظهاري النقطي | 99.78% | L4 | سؤال بحثي |
+| 5 | عدم التوافق في فصائل الدم | 99.70% | L5 | تأجيل |
+| 6 | أمراض نظام الدم ما قبل الخبيثة | 99.64% | L5 | تأجيل |
+| 7 | الغلوبيولين أحادي النسيلة | 99.61% | L4 | سؤال بحثي |
+| 8 | أمراض الدم مع اعتلال الأعصاب المحيطي المكتسب | 99.56% | L5 | تأجيل |
+| 9 | الطاعون الإنتاني | 99.52% | L3 | سؤال بحثي |
+| 10 | الاضطراب الدموي الخلقي | 99.40% | L3 | سؤال بحثي |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذه التنبؤات معقولة؟
 
-### Congenital Hematological Disorder — Sickle Cell Disease (Rank 10)
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في هذه مجموعة الأدلة. بناءً على المعلومات المعروفة، ازيثروميسين هو مضاد حيوي ماكروليدي؛ نشاطه المضاد للميكروبات الثابت ينبع من ارتباطه بالوحدة الريبوسومية 50S البكتيرية وحجب تخليق البروتين. وبعيداً عن التأثيرات المثبطة للنمو، ازيثروميسين معترف به أيضاً بخصائصه معدِّلة للمناعة — قمع إشارات NF-κB، تقليل السيتوكينات الالتهابية (IL-8، TNF-α، IL-6)، منع تشكيل الفخاخ خارج الخلية العدلية، وحجب تدفق الالتقام الذاتي في الخلايا حقيقية النوى — والتي تكمن وراء الفوائد السريرية المثبتة في أمراض المجاري الهوائية الالتهابية المزمنة مثل التليف الكيسي والتوسع الشعبي.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT02630394](https://clinicaltrials.gov/study/NCT02630394) | Phase 1 | Withdrawn | 0 | Azithromycin prophylaxis to reduce Acute Chest Syndrome in SCD — trial withdrawn before enrollment; macrolide anti-inflammatory rationale validated at design stage |
-| [NCT02960503](https://clinicaltrials.gov/study/NCT02960503) | Phase 1/2 | Withdrawn | 0 | Macrolide therapy to improve FEV1 in adult SCD patients — two independent withdrawn trials confirm scientific consensus on hypothesis; withdrawal reason not publicly disclosed |
-| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Recruiting | 5,000 | Paediatric PK/PD of understudied drugs including azithromycin in children managed per standard of care — provides dosing and safety reference for haematological disease populations |
+**الترتيبات 1، 2، 3، 5، 6، و8 هي على الأرجح آثار رسم بياني للمعرفة.** الإفراط في إنتاج الغلوبيولينات متعددة النسيلة، نقص الألبومين الخلقي، عدم توافق فصائل الدم، والاعتلال العصبي المحيطي المكتسب ليس لديهم واجهة دوائية معروفة مع الآليات المعروفة للازيثروميسين. النموذج TxGNN من المحتمل أنه أنتج هذه التنبؤات من خلال عقد مسار خلايا البلازما أو تخليق البروتين المشتركة في رسم البيانات بدلاً من فرصة دوائية حقيقية. وتجدر الإشارة إلى أن الترتيب 2 (فرط الأميليز في الدم) مقلق بشكل خاص: ازيثروميسين نفسه يحمل تأثير سلبي معروف لارتفاع الأميليز في المصل، مما يجعل هذا إشارة أمان محتملة بدلاً من هدف العلاج.
 
-For all other predictions (ranks 1–9), no relevant clinical trials are currently registered.
+**أربعة تنبؤات تحمل معقولية آلية وأدلة داعمة:**
 
----
+- **التهاب القرنية الظهاري النقطي (الترتيب 4):** عندما يكون سببها كائنات حية داخل الخلايا مثل *Chlamydia trachomatis* أو *Microsporidia*، ازيثروميسين هو بالفعل علاج راسخ — هو العلاج من الدرجة الأولى لرمد الرثة وله نشاط في المختبر ضد الأنواع الميكروسبوريدية. تقرير الحالة الوحيد في هذه المجموعة يصف التهاب القرنية الميكروسبوريدية حيث تم تضمين ازيثروميسين في نظام العلاج.
 
-## Literature Evidence
+- **الغلوبيولين أحادي النسيلة / الورم النخاعي المتعدد (الترتيب 7):** الارتباط الأكثر معقولية آلية في المجموعة. الماكروليدات بما فيها ازيثروميسين تحجب تدفق الالتقام الذاتي وتحفز التعبير عن CHOP المرتبط بإجهاد الشبكة الإندوبلازمية، مما يجعل خطوط خلايا الورم النخاعي (U266، IM-9، RPMI8226) أكثر حساسية لـ bortezomib (PMID 23546223). خلايا البلازما تعتمد بشدة على المحافظة على البروتينات؛ تعطيل الالتقام الذاتي يضعف بقاؤها. هذا اكتشاف في المختبر فقط — لا توجد بيانات سريرية حتى الآن.
 
-### Punctate Epithelial Keratoconjunctivitis (Rank 4)
+- **الطاعون الإنتاني (الترتيب 9):** ازيثروميسين يتركز إلى مستويات عالية في الخلايا الكبيرة الآكلة، وهو ما يُعتبر نظرياً مفيداً لـ *Yersinia pestis* نظراً لأسلوب حياتها داخل الخلايا. ومع ذلك، بيانات القابلية المباشرة في المختبر تُظهر **نشاطاً ضعيفاً** ضد سلالات Y. pestis (PMID 8540736)، مما يقلل بشكل كبير من إمكانية تطبيق هذا التنبؤ.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | Case Report | Cornea | *Encephalitozoon hellem* keratoconjunctivitis in an immunocompetent adult, diagnosed by metagenomic deep sequencing and PCR; azithromycin included in the treatment protocol alongside fumagillin |
-
-### Monoclonal Gammopathy (Rank 7)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [23546223](https://pubmed.ncbi.nlm.nih.gov/23546223/) | 2013 | In vitro / Mechanistic | Int J Oncol | **Primary mechanistic rationale:** Azithromycin blocks autophagy flux (LC3B-II and p62 accumulation) and, in combination with bortezomib, enhances cytotoxicity in multiple myeloma cell lines via ER stress–CHOP pathway induction |
-| [22825522](https://pubmed.ncbi.nlm.nih.gov/22825522/) | 2012 | Case Report | Tumori | Bisphosphonate-related osteonecrosis of the jaw in a multiple myeloma patient; azithromycin 500 mg/day used as adjunct antibiotic alongside ozone therapy — indirect evidence |
-| [33389938](https://pubmed.ncbi.nlm.nih.gov/33389938/) | 2020 | Case Report | Turk J Ophthalmol | *Bartonella henselae* neuroretinitis complicating POEMS syndrome; azithromycin used to treat the Bartonella infection, not the underlying monoclonal gammopathy |
-| [18355359](https://pubmed.ncbi.nlm.nih.gov/18355359/) | 2008 | Review | Clin Exp Dermatol | Subcorneal pustular dermatosis (Sneddon-Wilkinson), occasionally associated with IgA monoclonal gammopathy; azithromycin not discussed as a therapeutic option |
-
-### Septicemic Plague (Rank 9)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [8540736](https://pubmed.ncbi.nlm.nih.gov/8540736/) | 1995 | In vitro MIC Study | Antimicrob Agents Chemother | Susceptibility testing of 78 *Y. pestis* strains — azithromycin showed **poor activity** across all strains; ceftriaxone and ciprofloxacin were far superior |
-| [12698575](https://pubmed.ncbi.nlm.nih.gov/12698575/) | 2002 | Animal Model | Antibiotics Chemotherapy | Azithromycin demonstrated high efficacy against intracellular *Brucella* in an experimental animal model, with rapid normalisation of bactericidal systems in peripheral blood — class-level support for intracellular pathogen coverage |
-| [19392866](https://pubmed.ncbi.nlm.nih.gov/19392866/) | 2009 | Systematic Review | Aliment Pharmacol Ther | Epidemiology and clinical features of travellers' diarrhoea — azithromycin cited as an effective treatment for enteric pathogens including *Campylobacter*; indirect relevance to gram-negative intracellular coverage |
-
-### Congenital Hematological Disorder — Sickle Cell Disease (Rank 10)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26408070](https://pubmed.ncbi.nlm.nih.gov/26408070/) | 2015 | Cochrane Systematic Review | Cochrane Database Syst Rev | Antibiotic prophylaxis (including macrolides) for preventing lower respiratory tract infections in high-risk children under 12 — supports the rationale for azithromycin prophylaxis in haematological disease populations with pulmonary vulnerability |
-| [34471086](https://pubmed.ncbi.nlm.nih.gov/34471086/) | 2021 | Case Report | Am J Case Rep | COVID-19–associated immune thrombocytopenia in a 9-month-old infant treated with megadose methylprednisolone; azithromycin used concomitantly for COVID-19 management — indirect evidence only |
+- **الاضطراب الدموي الخلقي / مرض فقر الدم المنجلي (الترتيب 10):** قد يقلل التضديل المعدِّل للمناعة المضاد للالتهابات الذي يقوم به ازيثروميسين من تكرار وشدة متلازمة الصدر الحاد (ACS) — السبب الرئيسي للوفيات في SCD — وتحسين وظائف الرئة (FEV1). تم تصميم تجربتان مستقلتان من المرحلة 1 لاختبار هذه الفرضية (NCT02630394، NCT02960503) قبل الانسحاب قبل التسجيل، مما يشير إلى أن المجتمع العلمي قد نقل بالفعل هذه الفرضية إلى التقييم السريري. النهج مماثل للنبوءة الماكروليدية المثبتة في التليف الكيسي والتوسع الشعبي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+### الاضطراب الدموي الخلقي — مرض فقر الدم المنجلي (الترتيب 10)
 
-> **Note:** Data gaps exist for both TFDA package insert warnings/contraindications (DG001, Blocking severity) and detailed mechanism of action (DG002, High severity). These gaps prevent formal S1 safety screening from being completed. Resolution should be prioritised before advancing any of the Research Question candidates.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-------------|--------|--------|---------|------------------|
+| [NCT02630394](https://clinicaltrials.gov/study/NCT02630394) | المرحلة 1 | انسحب | 0 | النبوءة بـ ازيثروميسين لتقليل متلازمة الصدر الحاد في SCD — تم الانسحاب من التجربة قبل التسجيل؛ تم التحقق من الأساس المنطقي المضاد للالتهابات الماكروليدي في مرحلة التصميم |
+| [NCT02960503](https://clinicaltrials.gov/study/NCT02960503) | المرحلة 1/2 | انسحب | 0 | العلاج الماكروليدي لتحسين FEV1 في مرضى SCD البالغين — تؤكد تجربتان مستقلتتان منسحبتان الإجماع العلمي على الفرضية؛ سبب الانسحاب غير معروض علناً |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | غير متاح | قيد التجنيد | 5,000 | حركية الأدوية والديناميكا الدوائية لدى الأطفال للأدوية قليلة الدراسة بما فيها ازيثروميسين في الأطفال المُدارين وفقاً لمعايير الرعاية القياسية — توفر مرجعاً للجرعات والسلامة لمجموعات أمراض الدم |
+
+لجميع التنبؤات الأخرى (الترتيبات 1-9)، لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold** (Polyclonal Hyperviscosity Syndrome — top-ranked prediction)
+### التهاب القرنية الظهاري النقطي (الترتيب 4)
 
-**Rationale:**
-Six of the 10 predictions carry L5 evidence with no clinical or mechanistic support; the top prediction is most plausibly a knowledge-graph artefact with no pharmacological basis. However, four predictions — particularly sickle cell disease and monoclonal gammopathy — warrant structured follow-up.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | تقرير حالة | Cornea | التهاب القرنية *Encephalitozoon hellem* في بالغ محصّن، تم التشخيص بواسطة التسلسل الفوقي الميتاجينومي وPCR؛ تم تضمين ازيثروميسين في البروتوكول العلاجي إلى جانب fumagillin |
 
-**Prioritised research actions by indication:**
+### الغلوبيولين أحادي النسيلة (الترتيب 7)
 
-| Indication | Recommended Action | Priority |
-|-----------|-------------------|----------|
-| Sickle Cell Disease / ACS (Rank 10) | Investigate reasons for withdrawal of NCT02630394 and NCT02960503; if due to funding or design issues (not safety), design a new feasibility trial with ACS incidence as primary endpoint | **High** |
-| Monoclonal Gammopathy / Myeloma (Rank 7) | Advance to in vivo validation; explore azithromycin + bortezomib combination in xenograft myeloma models; clarify whether MGUS (pre-malignant) or active myeloma is the better target | **Medium** |
-| Punctate Epithelial Keratoconjunctivitis (Rank 4) | Conduct a focused literature review on azithromycin for microsporidial and chlamydial keratoconjunctivitis; consider prospective case series given existing first-line use in trachoma | **Low** |
-| Septicemic Plague (Rank 9) | Relevant only in antibiotic-resistance or special-population (paediatric/obstetric) scenarios; poor in vitro Y. pestis activity substantially limits priority | **Low** |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [23546223](https://pubmed.ncbi.nlm.nih.gov/23546223/) | 2013 | في المختبر / آلي | Int J Oncol | **الأساس المنطقي الآلي الأساسي:** ازيثروميسين يحجب تدفق الالتقام الذاتي (تراكم LC3B-II و p62) وبالاشتراك مع bortezomib، يعزز السمية في خطوط خلايا الورم النخاعي المتعدد عبر حث مسار ER stress–CHOP |
+| [22825522](https://pubmed.ncbi.nlm.nih.gov/22825522/) | 2012 | تقرير حالة | Tumori | نخر العظم المرتبط بثنائي الفوسفونات في مريض بالورم النخاعي المتعدد؛ تم استخدام ازيثروميسين 500 ملغ/يوماً كمضاد حيوي مساعد إلى جانب العلاج بالأوزون — أدلة غير مباشرة |
+| [33389938](https://pubmed.ncbi.nlm.nih.gov/33389938/) | 2020 | تقرير حالة | Turk J Ophthalmol | *Bartonella henselae* التهاب الشبكية العصبي المعقد بـ POEMS syndrome؛ تم استخدام ازيثروميسين لعلاج عدوى Bartonella، وليس الغلوبيولين أحادي النسيلة الأساسي |
+| [18355359](https://pubmed.ncbi.nlm.nih.gov/18355359/) | 2008 | مراجعة | Clin Exp Dermatol | داء الجلد البثري تحت القرني (Sneddon-Wilkinson)، يرتبط أحياناً بالغلوبيولين أحادي النسيلة IgA؛ لم يتم مناقشة ازيثروميسين كخيار علاجي |
 
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from TFDA/equivalent authority (DG001 — currently blocking S1 safety evaluation)
-- Complete MOA documentation from DrugBank (DG002 — required for mechanistic analysis)
-- Clarification of withdrawal reasons for NCT02630394 and NCT02960503 (critical decision point for the sickle cell disease pathway)
-- In vivo myeloma studies to validate the in vitro autophagy/bortezomib sensitisation finding (PMID 23546223)
-- Confirmation of Saudi Arabia regulatory filing status through local channels, given 0 current authorisations
+### الطاعون الإنتاني (الترتيب 9)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [8540736](https://pubmed.ncbi.nlm.nih.gov/8540736/) | 1995 | دراسة MIC في المختبر | Antimicrob Agents Chemother | اختبار القابلية 78 سلالة *Y. pestis* — أظهر ازيثروميسين **نشاطاً ضعيفاً** عبر جميع السلالات؛ كان ceftriaxone و ciprofloxacin متفوقين بكثير |
+| [12698575](https://pubmed.ncbi.nlm.nih.gov/12698575/) | 2002 | نموذج حيواني | Antibiotics Chemotherapy | أظهر ازيثروميسين فعالية عالية ضد *Brucella* داخل الخلايا في نموذج حيواني تجريبي، مع تطبيع سريع لأنظمة الإفناء البكتيري في الدم المحيطي — دعم على مستوى الفئة لتغطية مسببات الأمراض داخل الخلايا |
+| [19392866](https://pubmed.ncbi.nlm.nih.gov/19392866/) | 2009 | مراجعة منهجية | Aliment Pharmacol Ther | علم الأوبئة والميزات السريرية لإسهال المسافرين — تم الاستشهاد بـ ازيثروميسين كعلاج فعال لمسببات الأمراض المعوية بما فيها *Campylobacter*؛ الصلة غير المباشرة لتغطية سالبة الجرام داخل الخلايا |
+
+### الاضطراب الدموي الخلقي — مرض فقر الدم المنجلي (الترتيب 10)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [26408070](https://pubmed.ncbi.nlm.nih.gov/26408070/) | 2015 | مراجعة منهجية Cochrane | Cochrane Database Syst Rev | النبوءة بالمضادات الحيوية (بما فيها الماكروليدات) لمنع عدوى الجهاز التنفسي السفلي في الأطفال عالي الخطورة تحت 12 سنة — تدعم المنطق للنبوءة بـ ازيثروميسين في مجموعات أمراض الدم مع الضعف الرئوي |
+| [34471086](https://pubmed.ncbi.nlm.nih.gov/34471086/) | 2021 | تقرير حالة | Am J Case Rep | قلة الصفيحات المناعية المرتبطة بـ COVID-19 في رضيع بعمر 9 أشهر تم علاجه بـ methylprednisolone بجرعات ضخمة؛ تم استخدام ازيثروميسين بالتزامن مع إدارة COVID-19 — أدلة غير مباشرة فقط |
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+> **ملاحظة:** هناك فجوات في البيانات لكل من تحذيرات وموانع استخدام نشرة معلومات TFDA (DG001، شدة الحجب) وآلية العمل التفصيلية (DG002، الشدة العالية). تمنع هذه الفجوات إكمال فحص الأمان الرسمي S1. يجب إعطاء الأولوية للقرار قبل تطوير أي من المرشحين الذين يطرحون أسئلة بحثية.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل** (متلازمة فرط اللزوجة متعددة النسيلة — أعلى توقع مرتب)
+
+**الأساس المنطقي:**
+ستة من 10 توقعات تحمل أدلة L5 بدون دعم سريري أو آلي؛ أعلى توقع هو الأكثر معقولية من رسم بياني للمعرفة بدون أساس دوائي. ومع ذلك، أربعة توقعات — لا سيما مرض فقر الدم المنجلي والغلوبيولين أحادي النسيلة — تستحق متابعة منهجية.
+
+**الإجراءات البحثية ذات الأولوية حسب المؤشر:**
+
+| المؤشر | الإجراء الموصى به | الأولوية |
+|------|-------------------|---------|
+| مرض فقر الدم المنجلي / متلازمة الصدر الحاد (الترتيب 10) | التحقيق من أسباب الانسحاب من NCT02630394 و NCT02960503؛ إذا كان السبب هو مسائل التمويل أو التصميم (وليس السلامة)، قم بتصميم تجربة جدوى جديدة مع حدوث متلازمة الصدر الحاد كنقطة نهاية أولية | **عالية** |
+| الغلوبيولين أحادي النسيلة / الورم النخاعي (الترتيب 7) | الانتقال إلى التحقق من الصحة في الكائن الحي؛ استكشف مجموعة ازيثروميسين + bortezomib في نماذج الورم النخاعي xenograft؛ وضّح ما إذا كانت MGUS (ما قبل الخبيثة) أو الورم النخاعي النشط هو الهدف الأفضل | **متوسط** |
+| التهاب القرنية الظهاري النقطي (الترتيب 4) | إجراء مراجعة أدبيات موجهة على ازيثروميسين لالتهاب القرنية الميكروسبوريدي والكلاميدي؛ النظر في سلسلة حالات استباقية نظراً للاستخدام من الدرجة الأولى القائم في رمد الرثة | **منخفضة** |
+| الطاعون الإنتاني (الترتيب 9) | ذات صلة فقط في سيناريوهات مقاومة المضادات الحيوية أو المجموعات الخاصة (طب الأطفال/التوليد)؛ النشاط الضعيف في المختبر لـ Y. pestis يقلل بشكل كبير من الأولوية | **منخفضة** |
+
+**للمتابعة، المطلوب ما يلي:**
+- التحذيرات وموانع الاستخدام من نشرة معلومات TFDA/السلطة المكافئة (DG001 — حالياً يحجب تقييم السلامة S1)
+- وثائق آلية العمل الكاملة من DrugBank (DG002 — مطلوبة للتحليل الآلي)
+- توضيح أسباب الانسحاب من NCT02630394 و NCT02960503 (نقطة قرار حاسمة لمسار مرض فقر الدم المنجلي)
+- دراسات الورم النخاعي في الكائن الحي للتحقق من اكتشاف الالتقام الذاتي/حساسية bortezomib في المختبر (PMID 23546223)
+- تأكيد حالة الإيداع التنظيمي في المملكة العربية السعودية من خلال القنوات المحلية، نظراً لـ 0 تراخيص حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

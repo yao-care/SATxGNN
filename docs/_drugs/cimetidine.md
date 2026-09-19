@@ -29,74 +29,75 @@ indication_count: 9
 
 </div>
 
-# Cimetidine: From Peptic Ulcer Disease to Smouldering Systemic Mastocytosis
+# السيميتيدين: من مرض القرحة الهضمية إلى التهاب الخلايا البدينة الجهازي الخامل
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Cimetidine is a first-generation histamine H2-receptor antagonist, established since the 1970s as a foundational treatment for peptic ulcer disease and gastric acid hypersecretion.
-The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis (SSM)**,
-with **no clinical trials** and **no publications** currently identified to directly support this specific application — the prediction rests entirely on mechanistic plausibility derived from knowledge-graph connections.
+السيميتيدين هو مضاد مستقبلات الهيستامين H2 من الجيل الأول، وقد تم تأسيسه منذ السبعينيات كعلاج أساسي لمرض القرحة الهضمية وفرط إفراز حمض المعدة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الخلايا البدينة الجهازي الخامل (SSM)**،
+مع **عدم وجود تجارب سريرية** و**عدم وجود منشورات** محددة حالياً تدعم مباشرة هذا التطبيق المحدد — يعتمد التنبؤ بالكامل على المعقولية الآلية المشتقة من اتصالات الرسم البياني للمعرفة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Peptic Ulcer Disease (H2-receptor antagonist) |
-| Predicted New Indication | Smouldering Systemic Mastocytosis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | مرض القرحة الهضمية (مضاد مستقبلات H2) |
+| الاستطباب الجديد المتنبأ به | التهاب الخلايا البدينة الجهازي الخامل |
+| درجة تنبؤ TxGNN | 99.80% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, cimetidine is the prototype competitive histamine H2-receptor antagonist — it blocks H2 receptors on gastric parietal cells to markedly suppress acid secretion. Importantly, cimetidine also possesses secondary properties beyond acid suppression: it exhibits weak anti-androgenic activity and exerts immunomodulatory effects via H2 receptor blockade on lymphocytes, natural killer cells, and regulatory T cells — properties not shared by newer H2 blockers such as ranitidine.
+حالياً، بيانات آلية الفعل التفصيلية غير متوفرة في هذه مجموعة الأدلة. استناداً إلى الدراسات الدوائية المعروفة، السيميتيدين هو النموذج الأولي لمضاد مستقبلات الهيستامين H2 التنافسي — يحجب مستقبلات H2 على الخلايا الجدارية بالمعدة لتقليل إفراز حمض المعدة بشكل ملحوظ. وبشكل مهم، يمتلك السيميتيدين أيضاً خصائص ثانوية تتجاوز قمع الحمض: فهو يُظهر نشاطاً مضاداً للأندروجين ضعيفاً وله تأثيرات محسّنة للمناعة عبر حجب مستقبل H2 على الخلايا اللمفاوية وخلايا القاتلة الطبيعية والخلايا التنظيمية من نوع T — خصائص لا تشاركها مضادات H2 الأحدث مثل رانيتيدين.
 
-In Smouldering Systemic Mastocytosis (SSM), abnormally accumulating mast cells chronically release excessive histamine, prostaglandins, and tryptase. Histamine acting on both H1 and H2 receptors drives some of the most disabling symptoms in this condition: epigastric pain, peptic ulcer-like disease, diarrhoea, flushing, and nausea. Because of this, combined H1 + H2 antihistamine blockade is already considered standard symptomatic management in systemic mastocytosis broadly — which places cimetidine squarely within a pharmacologically plausible treatment framework for SSM-related symptoms.
+في التهاب الخلايا البدينة الجهازي الخامل (SSM)، تراكم الخلايا البدينة بشكل غير طبيعي يؤدي إلى إطلاق مزمن لكميات زائدة من الهيستامين والبروستاجلاندينات والتريبتاز. الهيستامين الذي يؤثر على مستقبلات H1 و H2 يحفز بعض الأعراض الأكثر تعطيلاً في هذه الحالة: الألم الشرسوفي، مرض يشبه القرحة الهضمية، الإسهال، احمرار الوجه، والغثيان. لهذا السبب، يُعتبر الحجب المشترك لمستقبلات الهيستامين H1 و H2 بالفعل إدارة عرضية معيارية في التهاب الخلايا البدينة الجهازي بشكل عام — مما يضع السيميتيدين مباشرة ضمن إطار عمل علاجي معقول دوائياً لأعراض SSM المرتبطة.
 
-The TxGNN model's high score (99.80%) almost certainly reflects strong knowledge-graph linkages across the mastocytosis → histamine excess → H2-receptor axis. However, no clinical trial or publication specifically addressing cimetidine in SSM was identified in the evidence search. The prediction represents biological plausibility, not demonstrated clinical benefit in this subtype. Cimetidine's potential role here would be purely symptomatic — reducing histamine-mediated gastrointestinal burden — and would not address the underlying mast cell burden or disease progression of SSM.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+درجة نموذج TxGNN العالية (99.80%) تعكس على الأرجح ارتباطات قوية في الرسم البياني للمعرفة عبر محور: التهاب الخلايا البدينة → فائض الهيستامين → مستقبل H2. ومع ذلك، لم يتم تحديد أي تجربة سريرية أو منشور يتناول السيميتيدين في SSM في البحث عن الأدلة. يمثل التنبؤ قابلية بيولوجية، وليس فائدة سريرية مثبتة في هذا النوع الفرعي. الدور المحتمل للسيميتيدين هنا سيكون عرضياً بحتاً — تقليل عبء الجهاز الهضمي الناجم عن الهيستامين — ولن يعالج عبء الخلايا البدينة الأساسي أو تطور المرض في SSM.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** Drug interaction data was not retrievable for this report. Cimetidine is a known CYP450 inhibitor (CYP1A2, CYP2C9, CYP2D6, CYP3A4) and clinically significant interactions with co-administered drugs should be assessed before any clinical use.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-Evidence is at L5 — model prediction only. No clinical trials or publications specifically address cimetidine in Smouldering Systemic Mastocytosis. While H2 blockade is pharmacologically plausible and already incorporated into broad mastocytosis symptom management guidelines, the SSM subtype specifically has not been studied in this context, and the drug is not marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- Systematic review of H2 antagonists (class-level evidence) in broader systemic mastocytosis populations — existing guidelines may already support H2 blocker use, which would upgrade the evidence level
-- Mechanism of action confirmation from DrugBank (DB00501), particularly for immunomodulatory and anti-androgenic properties relevant to SSM
-- Safety profile from the package insert, with emphasis on long-term use risks and CYP450-mediated drug interactions (critical in SSM patients often on multiple agents)
-- An observational registry study or retrospective chart review in SSM patients receiving combined H1 + H2 therapy to quantify symptomatic benefit versus H1 monotherapy
-- Regulatory feasibility assessment for Saudi Arabia market entry, since no current authorisations exist
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+> **ملاحظة:** بيانات التفاعلات الدوائية لم تكن قابلة للاسترجاع لهذا التقرير. السيميتيدين هو مثبط معروف لـ CYP450 (CYP1A2، CYP2C9، CYP2D6، CYP3A4) وينبغي تقييم التفاعلات السريرية ذات الأهمية مع الأدوية المعطاة بالتزامن قبل أي استخدام سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبررات:**
+الأدلة في المستوى L5 — التنبؤ بالنموذج فقط. لا توجد تجارب سريرية أو منشورات تتناول على وجه التحديد السيميتيدين في التهاب الخلايا البدينة الجهازي الخامل. بينما يعتبر حجب H2 معقولاً من الناحية الدوائية وقد تم دمجه بالفعل في إرشادات إدارة أعراض التهاب الخلايا البدينة الجهازي على نطاق أوسع، لم تتم دراسة النوع الفرعي SSM على وجه التحديد في هذا السياق، والدواء غير مسوّق في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+
+- مراجعة منهجية لمضادات H2 (أدلة على مستوى الفئة) في سكان التهاب الخلايا البدينة الجهازي على نطاق أوسع — قد تدعم الإرشادات الموجودة بالفعل استخدام مضادات H2، مما سيرفع مستوى الأدلة
+- تأكيد آلية الفعل من DrugBank (DB00501)، خاصة بالنسبة للخصائص المحسّنة للمناعة والمضادة للأندروجين ذات الصلة بـ SSM
+- ملف تعريف السلامة من النشرة الدوائية، مع التركيز على مخاطر الاستخدام طويل الأمد والتفاعلات الدوائية الوسيطة بـ CYP450 (حرجة في مرضى SSM الذين غالباً ما يتناولون عوامل دوائية متعددة)
+- دراسة ملاحظة قائمة على السجل أو مراجعة السجلات الطبية بأثر رجعي في مرضى SSM الذين يتلقون علاجاً مشتركاً H1 + H2 لتحديد كمية الفائدة العرضية مقابل العلاج بـ H1 وحده
+- تقييم الجدوى التنظيمية لدخول السوق السعودي، حيث لا توجد موافقات حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

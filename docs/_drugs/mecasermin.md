@@ -29,70 +29,71 @@ indication_count: 5
 
 </div>
 
-# Mecasermin: From Severe Primary IGF-1 Deficiency to Monosomy X
+# ميكاسرمين: من نقص IGF-1 الأولي الشديد إلى أحادية الصبغي X
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Mecasermin is recombinant human IGF-1, historically used for severe primary IGF-1 deficiency (per the mechanistic rationale on file; no formal indication record exists in this evidence pack). The TxGNN model's top-ranked prediction is **Monosomy X (Turner syndrome)**, but currently **no clinical trials** and **no published literature** support this direction — the prediction rests on model score alone. Four other candidate indications in this evidence pack show the same pattern (score-only, zero trials/literature) and are noted below for context.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Severe Primary IGF-1 Deficiency (stated in rationale text only — not confirmed by a formal indication or license record in this pack) |
-| Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+ميكاسرمين هو عامل النمو الشبيه بالأنسولين البشري المؤتلف (recombinant human IGF-1)، وقد استُخدم تاريخياً لعلاج نقص IGF-1 الأولي الشديد (وفقاً للأساس المنطقي الآلي المسجل؛ لا يوجد سجل مؤشر رسمي في هذه مجموعة الأدلة). أعلى تنبؤ مصنف من نموذج TxGNN هو **أحادية الصبغي X (متلازمة تيرنر)**، لكن حالياً **لا توجد تجارب سريرية** و**لا يوجد أدب منشور** يدعم هذا الاتجاه — التنبؤ يعتمد على نقاط النموذج فقط. أربعة مؤشرات مرشحة أخرى في هذه مجموعة الأدلة تظهر نفس النمط (النقاط فقط، بدون تجارب/أدب) وملاحظتها أدناه للسياق.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available for mecasermin in this evidence pack (flagged as a High-severity data gap, DG002). Mecasermin is known generally as recombinant human IGF-1, the downstream effector of the growth hormone (GH) axis.
-
-The rationale supplied for this prediction notes that Monosomy X (Turner syndrome) commonly presents with growth failure, and a subset of patients respond poorly to GH therapy — since IGF-1 acts downstream of GH, there is an indirect mechanistic plausibility to using mecasermin in this population.
-
-However, this plausibility is unsupported by any actual study: zero clinical trials and zero publications were found for mecasermin in Monosomy X. The prediction should be read as a hypothesis generated purely from the TxGNN knowledge graph, not as an evidence-backed signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | نقص IGF-1 الأولي الشديد (مذكور في نص الأساس المنطقي فقط — لم يتم تأكيده بسجل مؤشر رسمي أو ترخيص في هذه مجموعة) |
+| المؤشر الجديد المتنبأ به | أحادية الصبغي X |
+| نقاط تنبؤ TxGNN | 99.59% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+لا تتوفر بيانات آلية تفصيلية لعمل ميكاسرمين في هذه مجموعة الأدلة (تم تعليمها كفجوة بيانات عالية الخطورة، DG002). من المعروف أن ميكاسرمين بشكل عام هو عامل النمو الشبيه بالأنسولين البشري المؤتلف، المؤثر النهائي لمحور هرمون النمو (GH).
 
----
+يلاحظ الأساس المنطقي المزود لهذا التنبؤ أن أحادية الصبغي X (متلازمة تيرنر) تظهر عادة مع فشل النمو، وتستجيب مجموعة فرعية من المرضى بشكل سيء لعلاج GH — بما أن IGF-1 يعمل بعد GH، هناك إمكانية آلية غير مباشرة لاستخدام ميكاسرمين في هذه السكان.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Underlying data gap: TFDA/SFDA package insert warnings and contraindications are marked Blocking (DG001) — this drug cannot proceed to the S1 safety pre-screen until that data is obtained.)*
+ومع ذلك، هذه الإمكانية غير مدعومة من قبل أي دراسة فعلية: لم يتم العثور على تجارب سريرية صفرية وصفر منشورات لميكاسرمين في أحادية الصبغي X. يجب قراءة التنبؤ كفرضية مولدة بحتة من رسم بياني معرفة TxGNN، وليس كإشارة مدعومة بالأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-**Rationale:**
-The evidence level is L5 — a TxGNN score with zero corroborating clinical trials or literature — and a Blocking data gap on package-insert safety data (DG001) independently prevents any safety pre-screen. This candidate cannot advance until both gaps close.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — Blocking gap, source: TFDA official site, PDF parse
-- Confirmed original indication and mechanism of action for mecasermin — High-severity gap, source: DrugBank API
-- At least preclinical or case-level evidence connecting mecasermin to Monosomy X before any trial-design discussion
-- Note: the other 4 candidates in this pack (Wolman disease, GH insensitivity syndrome w/ immune dysregulation 2, esophageal varices with/without bleeding) carry the same L5/Hold status and the same blocking gaps — none are ready for independent evaluation either.
+## دليل الأدب
+
+حالياً لا يتوفر أدب ذو صلة
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+*(فجوة البيانات الأساسية: تحذيرات وموانع نشرة TFDA/SFDA محددة كحظر (DG001) — هذا الدواء لا يمكنه المتابعة إلى فحص السلامة المسبق S1 حتى يتم الحصول على تلك البيانات.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+مستوى الدليل هو L5 — نقاط TxGNN بدون تجارب سريرية أو أدب مؤيد — وفجوة بيانات حاظرة على بيانات نشرة السلامة (DG001) تمنع بشكل مستقل أي فحص سلامة مسبق. لا يمكن لهذا المرشح التقدم حتى يتم إغلاق كلا الفجوتين.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA (تحذيرات، موانع) — فجوة حاظرة، المصدر: موقع TFDA الرسمي، تحليل PDF
+- المؤشر الأصلي المؤكد وآلية عمل ميكاسرمين — فجوة عالية الخطورة، المصدر: DrugBank API
+- على الأقل دليل سابق للإكلينيكية أو على مستوى الحالة يربط ميكاسرمين بأحادية الصبغي X قبل أي نقاش حول تصميم التجربة
+- ملاحظة: المرشحات الأربعة الأخرى في هذه مجموعة (داء ولمان، متلازمة عدم الحساسية لـ GH مع خلل المناعة 2، دوالي المريء مع/بدون نزيف) تحمل نفس حالة L5/انتظار والفجوات الحاظرة نفسها — لا واحدة منها جاهزة للتقييم المستقل أيضاً.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

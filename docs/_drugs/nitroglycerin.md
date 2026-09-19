@@ -29,92 +29,93 @@ indication_count: 5
 
 </div>
 
-# Nitroglycerin: From Vasodilator Therapy to Pulmonary Hypertension
+# النيتروجليسرين: من العلاج الموسع للأوعية الدموية إلى ارتفاع ضغط الدم الرئوي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Nitroglycerin (NTG, DB00727) is a classic nitric-oxide-donor vasodilator; this evidence pack does not contain a confirmed original regulatory indication (the drug is currently unmarketed in Saudi Arabia).
-> The TxGNN model predicts it may be effective for **Pulmonary Hypertension**,
-> with **13 clinical trials** and **20 publications** currently supporting this direction, though a critical safety data gap remains unresolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no licenses on file (Not marketed); NTG is generically known as an organic nitrate vasodilator, but no approved-indication text is present in this evidence pack |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> النيتروجليسرين (NTG, DB00727) هو موسع أوعية دموية كلاسيكي متبرع لأكسيد النيتريك؛ لا تحتوي هذه مجموعة الأدلة على مؤشر تنظيمي أصلي مؤكد (الدواء غير مسوق حالياً في المملكة العربية السعودية).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ارتفاع ضغط الدم الرئوي**،
+> مع **13 تجربة سريرية** و **20 منشور علمي** يدعم حالياً هذا الاتجاه، رغم بقاء فجوة حرجة في بيانات السلامة بدون حل.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on known pharmacology, nitroglycerin is a nitric oxide (NO) donor: it is metabolized in the liver and vasculature to release NO, which activates the soluble guanylate cyclase (sGC)/cGMP pathway, relaxing vascular smooth muscle. This is the same core pathway exploited by established pulmonary vasodilators such as inhaled nitric oxide and inhaled prostacyclin (PGI2).
-
-Because the evidence pack contains no confirmed original indication, a direct "original vs. new indication" comparison cannot be drawn from regulatory data. However, the clinical evidence base independently shows that this mechanism already translates to pulmonary vascular effects: nebulized/inhaled NTG is used for acute pulmonary vasoreactivity testing in pulmonary arterial hypertension (PAH) and as adjunct therapy for persistent pulmonary hypertension of the newborn (PPHN), both of which are represented in the trial and literature evidence below.
-
-The gap is that this body of evidence is largely acute, procedural, or small-cohort (vasoreactivity testing, perioperative use, neonatal PPHN) rather than confirmatory trials in a chronic PAH population — consistent with the model-assigned evidence level of L2.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح — لا توجد تراخيص في الملف (غير مسوق)؛ يُعرف NTG عموماً كنترات عضوية موسعة للأوعية، لكن لا توجد نصوص مؤشرات معتمدة في مجموعة الأدلة هذه |
+| المؤشر الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي |
+| درجة التنبؤ من TxGNN | 99.61% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (DG002، شدة عالية). بناءً على الصيدلة المعروفة، فإن النيتروجليسرين هو متبرع بأكسيد النيتريك (NO): يتم استقلابه في الكبد والأوعية الدموية لإطلاق NO، الذي يفعّل مسار الجوانيليت سايكلاز الذائب (sGC)/cGMP، مما يرخي العضلات الملساء الوعائية. هذا هو نفس المسار الأساسي الذي تستغله موسعات الأوعية الرئوية المعتمدة مثل أكسيد النيتريك المستنشق والبروستاسيكلين المستنشق (PGI2).
+
+نظراً لأن مجموعة الأدلة لا تحتوي على مؤشر أصلي مؤكد، لا يمكن استخلاص مقارنة مباشرة "مؤشر أصلي مقابل مؤشر جديد" من البيانات التنظيمية. ومع ذلك، قاعدة الأدلة السريرية تظهر بشكل مستقل أن هذه الآلية تترجم بالفعل إلى تأثيرات وعائية رئوية: يُستخدم NTG المرذوذ/المستنشق لاختبار التفاعل الوعائي الرئوي الحاد في فرط ضغط الدم الشرياني الرئوي (PAH) وكعلاج مساعد لارتفاع ضغط الدم الرئوي المستمر عند الوليد (PPHN)، وكلاهما ممثل في دليل التجارب والمنشورات أدناه.
+
+الفجوة هي أن هذه القاعدة من الأدلة في الغالب حادة أو إجرائية أو ذات مجموعات صغيرة (اختبار التفاعل الوعائي، الاستخدام المحيط بالعملية الجراحية، PPHN عند الوليد) بدلاً من التجارب المؤكدة في مجموعة سكانية مع PAH مزمن — متسق مع مستوى الدليل المخصص من قبل النموذج وهو L2.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07214129](https://clinicaltrials.gov/study/NCT07214129) | NA | Completed | 20 | Safety and efficacy of nebulized nitroglycerin as a vaso-reactive agent in pulmonary arterial hypertension |
-| [NCT05741229](https://clinicaltrials.gov/study/NCT05741229) | NA | Completed | 80 | Nebulized nitroglycerin as adjuvant therapy in persistent pulmonary hypertension of newborns (PPHN) |
-| [NCT04594629](https://clinicaltrials.gov/study/NCT04594629) | Phase 1 | Unknown | 120 | Nebulized PGI2 vs. nebulized nitroglycerin for pulmonary hypertension after valve replacement surgery |
-| [NCT01120964](https://clinicaltrials.gov/study/NCT01120964) | Phase 1/2 | Completed | 22 | IV L-citrulline (NO precursor pathway) vs. placebo in children undergoing cardiopulmonary bypass |
-| [NCT00449059](https://clinicaltrials.gov/study/NCT00449059) | Phase 4 | Completed | 20 | Acute effect of nitroglycerin infusion on cyclosporine-induced hypertension after cardiac transplantation |
-| [NCT06107465](https://clinicaltrials.gov/study/NCT06107465) | Phase 2/3 | Unknown | 60 | High- vs. low-dose nitroglycerin in sympathetic crashing acute pulmonary edema |
-| [NCT03259165](https://clinicaltrials.gov/study/NCT03259165) | Phase 2 | Terminated | 52 | Nitroglycerin vs. furosemide guided by lung ultrasound in acute heart failure (N-FURIOUS pilot) |
-| [NCT05373108](https://clinicaltrials.gov/study/NCT05373108) | Phase 4 | Completed | 19 | Endothelin-1 and vasomotor function in cardiac allograft vasculopathy after heart transplant |
-| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | Recruiting | 420 | Vascular function/rehabilitation in hypertension — skeletal muscle afferent feedback |
+| [NCT07214129](https://clinicaltrials.gov/study/NCT07214129) | غير محدد | مكتملة | 20 | السلامة والفعالية للنيتروجليسرين المرذوذ كعامل توسع الأوعية في فرط ضغط الدم الشرياني الرئوي |
+| [NCT05741229](https://clinicaltrials.gov/study/NCT05741229) | غير محدد | مكتملة | 80 | النيتروجليسرين المرذوذ كعلاج مساعد في ارتفاع ضغط الدم الرئوي المستمر عند الأطفال حديثي الولادة (PPHN) |
+| [NCT04594629](https://clinicaltrials.gov/study/NCT04594629) | المرحلة 1 | غير معروف | 120 | PGI2 المرذوذة مقابل النيتروجليسرين المرذوذ لارتفاع ضغط الدم الرئوي بعد جراحة استبدال الصمام |
+| [NCT01120964](https://clinicaltrials.gov/study/NCT01120964) | المرحلة 1/2 | مكتملة | 22 | L-citrulline الوريدية (مسار سلف NO) مقابل الدواء الوهمي عند الأطفال الخاضعين للالتفافة القلبية الرئوية |
+| [NCT00449059](https://clinicaltrials.gov/study/NCT00449059) | المرحلة 4 | مكتملة | 20 | التأثير الحاد لحقن النيتروجليسرين على ارتفاع ضغط الدم المستحث بالسيكلوسبورين بعد زراعة القلب |
+| [NCT06107465](https://clinicaltrials.gov/study/NCT06107465) | المرحلة 2/3 | غير معروف | 60 | النيتروجليسرين بجرعة عالية مقابل منخفضة في الوذمة الرئوية الحادة الصادمة التعاطفية |
+| [NCT03259165](https://clinicaltrials.gov/study/NCT03259165) | المرحلة 2 | منهية | 52 | النيتروجليسرين مقابل فوروسيميد موجهة بالموجات فوق الصوتية الرئوية في قصور القلب الحاد (تجربة N-FURIOUS التجريبية) |
+| [NCT05373108](https://clinicaltrials.gov/study/NCT05373108) | المرحلة 4 | مكتملة | 19 | الإندوثيلين -1 والوظيفة الحركية الوعائية في اعتلال أوعية الطعم القلبي بعد زراعة القلب |
+| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | المرحلة 1 | يجند | 420 | وظيفة الأوعية الدموية/إعادة التأهيل في ارتفاع ضغط الدم — ردود الفعل الحسية للعضلات الهيكلية |
 
 ---
 
-## Literature Evidence
+## دليل المنشورات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [40888971](https://pubmed.ncbi.nlm.nih.gov/40888971/) | 2025 | RCT | European Journal of Pediatrics | Nebulized nitroglycerin as adjuvant in PPHN — RCT in 80 newborns, improved echocardiographic/clinical parameters |
-| [29880427](https://pubmed.ncbi.nlm.nih.gov/29880427/) | 2018 | RCT | J Cardiothorac Vasc Anesth | Dobutamine + nitroglycerin vs. milrinone for pulmonary hypertension in mitral valve surgery |
-| [6423015](https://pubmed.ncbi.nlm.nih.gov/6423015/) | 1984 | Clinical Trial | Bull Eur Physiopathol Respir | Sublingual NTG/ISDN reduced pulmonary arterial pressure and PVR in COPD-related pulmonary hypertension (n=27×2) |
-| [34082850](https://pubmed.ncbi.nlm.nih.gov/34082850/) | 2021 | Cohort/Review | Cardiology in the Young | Nitroglycerin inhalation for acute PAH in children with congenital heart disease |
-| [31425404](https://pubmed.ncbi.nlm.nih.gov/31425404/) | 2020 | Cohort (animal) | Shock | Pulmonary vasodilation by IV organic mononitrites vs. nitroglycerin in aortic cross-clamp induced acute PH (pigs) |
-| [8689279](https://pubmed.ncbi.nlm.nih.gov/8689279/) | 1996 | Cohort/Review | New Horizons | Calcium blockade in pulmonary hypertension and hypoxic vasoconstriction |
-| [6407380](https://pubmed.ncbi.nlm.nih.gov/6407380/) | 1983 | Clinical study | Annals of Internal Medicine | NTG in 9 chronic pulmonary hypertension patients: cardiac index +40%, PVR −40%, mean PA pressure decreased |
-| [15947535](https://pubmed.ncbi.nlm.nih.gov/15947535/) | 2005 | Retrospective cohort | Congestive Heart Failure | Acute hemodynamic effects of IV nitroglycerin and dipyridamole vs. IV epoprostenol in 59 PAH patients |
-| [14508317](https://pubmed.ncbi.nlm.nih.gov/14508317/) | 2003 | Clinical study | Anesthesiology | Nitroglycerin inhalation improved postoperative hemodynamics in pulmonary hypertension patients after mitral valve replacement |
-| [29096811](https://pubmed.ncbi.nlm.nih.gov/29096811/) | 2017 | Review | J Am Coll Cardiol | Comprehensive review of nitroglycerin/nitrogen oxide mechanisms in cardiovascular therapeutics |
+| [40888971](https://pubmed.ncbi.nlm.nih.gov/40888971/) | 2025 | تجربة عشوائية محكومة | European Journal of Pediatrics | النيتروجليسرين المرذوذ كمساعد في PPHN — تجربة عشوائية محكومة في 80 وليداً، تحسن المعاملات الصدوية والسريرية |
+| [29880427](https://pubmed.ncbi.nlm.nih.gov/29880427/) | 2018 | تجربة عشوائية محكومة | J Cardiothorac Vasc Anesth | الدوبيوتامين + النيتروجليسرين مقابل الميلرينون لارتفاع ضغط الدم الرئوي في جراحة الصمام الميترالي |
+| [6423015](https://pubmed.ncbi.nlm.nih.gov/6423015/) | 1984 | تجربة سريرية | Bull Eur Physiopathol Respir | NTG تحت اللسان/ISDN قللت ضغط الشرايين الرئوية و PVR في ارتفاع ضغط الدم الرئوي المرتبط بالانسداد الرئوي المزمن (n=27×2) |
+| [34082850](https://pubmed.ncbi.nlm.nih.gov/34082850/) | 2021 | مجموعة/استعراض | Cardiology in the Young | استنشاق النيتروجليسرين لـ PAH الحاد عند الأطفال المصابين بأمراض القلب الخلقية |
+| [31425404](https://pubmed.ncbi.nlm.nih.gov/31425404/) | 2020 | مجموعة (حيواني) | Shock | توسع الأوعية الرئوية بالأحادي نيترات عضوي وريدي مقابل النيتروجليسرين في ارتفاع ضغط الدم الحاد المستحث بالربط الأبهري (الخنازير) |
+| [8689279](https://pubmed.ncbi.nlm.nih.gov/8689279/) | 1996 | مجموعة/استعراض | New Horizons | حصار الكالسيوم في ارتفاع ضغط الدم الرئوي والقبض الوعائي الناجم عن نقص الأكسجين |
+| [6407380](https://pubmed.ncbi.nlm.nih.gov/6407380/) | 1983 | دراسة سريرية | Annals of Internal Medicine | NTG في 9 مرضى مصابين بارتفاع ضغط الدم الرئوي المزمن: مؤشر القلب +40%، PVR −40%، متوسط ضغط الشرايين انخفض |
+| [15947535](https://pubmed.ncbi.nlm.nih.gov/15947535/) | 2005 | مجموعة بأثر رجعي | Congestive Heart Failure | التأثيرات الديناميكية الدموية الحادة للنيتروجليسرين الوريدي والديبيريدامول مقابل إيبوبروستينول الوريدي في 59 مريضاً مصاباً بـ PAH |
+| [14508317](https://pubmed.ncbi.nlm.nih.gov/14508317/) | 2003 | دراسة سريرية | Anesthesiology | استنشاق النيتروجليسرين حسّن الديناميكية الدموية بعد العملية الجراحية عند مرضى ارتفاع ضغط الدم الرئوي بعد استبدال الصمام الميترالي |
+| [29096811](https://pubmed.ncbi.nlm.nih.gov/29096811/) | 2017 | استعراض | J Am Coll Cardiol | استعراض شامل لآليات النيتروجليسرين/أكسيد النيتروجين في العلاجات القلبية الوعائية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. **Note:** DG001 (TFDA/SFDA package insert warnings and contraindications) is flagged as a **Blocking** data gap — it must be resolved before this candidate can enter formal safety screening (S1).
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. **ملاحظة:** يتم تعليم DG001 (تحذيرات وموانع استعمال TFDA/SFDA في النشرة الدوائية) كفجوة بيانات **حاجزة** — يجب حلها قبل أن يتمكن هذا المرشح من دخول الفحص الرسمي للسلامة (S1).
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-The predicted indication is mechanistically plausible (NO/cGMP-mediated pulmonary vasodilation) and supported by L2-level evidence — completed trials and RCTs in PPHN, acute vasoreactivity testing, and perioperative pulmonary hypertension — but no Phase 2/3 RCT has reached completion in a chronic PAH population, and the drug is not currently marketed in Saudi Arabia. Critically, DG001 (Blocking) means formal safety screening (S1) cannot proceed until TFDA/SFDA package insert data is obtained.
+**المبرر:**
+المؤشر المتنبأ به معقول من الناحية الآلية (توسع الأوعية الرئوية المتوسط بـ NO/cGMP) ومدعوم بأدلة من مستوى L2 — تجارب مكتملة وتجارب عشوائية محكومة في PPHN واختبار التفاعل الوعائي الحاد وارتفاع ضغط الدم الرئوي المحيط بالعملية الجراحية — لكن لم تكتمل أي تجربة من المرحلة 2/3 العشوائية المحكومة في مجموعة سكانية مع PAH مزمن، والدواء غير مسوق حالياً في المملكة العربية السعودية. بشكل حرج، DG001 (حاجزة) يعني أن الفحص الرسمي للسلامة (S1) لا يمكن أن يتابع حتى يتم الحصول على بيانات النشرة الدوائية TFDA/SFDA.
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings, contraindications, DDI) to resolve DG001 and unblock S1 safety screening
-- Confirmed mechanism of action from DrugBank to resolve DG002
-- Confirmation of original approved indication(s), since none are on file in this evidence pack
-- A completed Phase 2/3 RCT in a chronic PAH population before advancing beyond "Research Question" stage
-- Separate evaluation of rank-3 candidate (Prinzmetal angina), which has substantial trial/literature volume (7 trials, 20 publications) but pending relevance scoring not yet assessed in this pack
+**للمتابعة، يلزم ما يلي:**
+- النشرة الدوائية SFDA (التحذيرات، موانع الاستعمال، التفاعلات الدوائية) لحل DG001 وفتح فحص السلامة S1
+- تأكيد آلية العمل من DrugBank لحل DG002
+- تأكيد المؤشر الأصلي المعتمد (المؤشرات)، حيث لا يوجد أي منها في الملف في مجموعة الأدلة هذه
+- تجربة عشوائية محكومة مكتملة من المرحلة 2/3 في مجموعة سكانية مع PAH مزمن قبل التقدم إلى ما بعد مرحلة "سؤال البحث"
+- تقييم منفصل للمرشح من الرتبة 3 (ذبحة برينزميتال)، الذي لديه حجم كبير من التجارب والمنشورات (7 تجارب، 20 منشور) لكن تصنيف الصلة المعلق لم يتم تقييمه بعد في هذه المجموعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

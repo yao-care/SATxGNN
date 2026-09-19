@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Levamisole: From Antiparasitic Therapy to Drug-Induced Osteoporosis
+# لينيسول: من العلاج الطفيلي إلى هشاشة العظام الناجمة عن العقار
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Levamisole is an anthelmintic/immunomodulatory agent; no original-indication or licensing data for it is on file in Saudi Arabia (0 authorizations, unmarketed). The TxGNN model's top-ranked prediction is **drug-induced osteoporosis**, but this prediction is supported by **0 clinical trials** and **0 publications** — it is model-score-only and, per the evidence pack's own rationale, likely embedding-space noise with no known mechanistic link to bone metabolism.
+لينيسول هو عامل طارد للديدان/معدّل مناعي؛ لا توجد بيانات حول الاستطباب الأصلي أو الترخيص في الملفات في المملكة العربية السعودية (0 تصاريح، غير مسوق). التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **هشاشة العظام الناجمة عن العقار**، لكن هذا التنبؤ مدعوم بـ **0 تجربة سريرية** و **0 منشورات** — وهو نقاط نموذج فقط، وبناءً على منطق حزمة الأدلة ذاتها، من المرجح أنها ضوضاء من فضاء التضمين بدون ارتباط آلي معروف بأيض العظام.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No data on file — Levamisole is not marketed in Saudi Arabia (0 licenses); general pharmacology classes it as an anthelmintic/immunomodulatory agent |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.9993% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | لا توجد بيانات في الملفات — لينيسول غير مسوق في المملكة العربية السعودية (0 تراخيص) ؛ تصنفه الفئات الصيدلانية العامة كعامل طارد للديدان/معدّل مناعي |
+| الاستطباب الجديد المتنبأ به | هشاشة العظام الناجمة عن العقار |
+| درجة التنبؤ من TxGNN | 99.9993% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for Levamisole in this evidence pack (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, Levamisole is an imidazothiazole-class anthelmintic with secondary immunomodulatory activity (T-cell activation, enhancement of phagocyte function); this is background context, not sourced from the evidence pack itself.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة للينيسول في حزمة الأدلة هذه (تم تصنيفها كفجوة بيانات عالية الخطورة، DG002). بناءً على المعرفة الصيدلانية العامة، لينيسول هو عامل طارد للديدان من فئة إيميدازوثيازول بنشاط معدّل مناعي ثانوي (تنشيط الخلايا التائية، تعزيز وظيفة الخلايا البلعمية) ؛ هذا سياق معلومات أساسي، وليس مستمد من حزمة الأدلة نفسها.
 
-There is no established relationship between Levamisole's known pharmacology and bone metabolism. The evidence pack's own repurposing rationale is explicit on this point: no clinical trial or literature evidence exists for this indication, and the drug's known mechanisms (antiparasitic/immunomodulatory) have no known connection to osteoporosis pathophysiology. The evaluators assess this as likely noise from the TxGNN embedding space rather than a genuine mechanistic signal.
+لا توجد علاقة محددة بين الصيدلة المعروفة لـلينيسول وأيض العظام. منطق إعادة توجيه الاستطباب الخاص بحزمة الأدلة واضح تماماً في هذه النقطة: لا توجد أدلة من التجارب السريرية أو الأدبيات لهذا الاستطباب، والآليات المعروفة للعقار (طارد للديدان/معدّل مناعي) ليس لها ارتباط معروف بمسببات هشاشة العظام. يقيّم المقيّمون هذا على أنه ضوضاء محتملة من فضاء تضمين TxGNN بدلاً من إشارة آلية حقيقية.
 
-Given the complete absence of supporting studies, the mechanism cannot currently be considered applicable to this indication, and the prediction should be treated as hypothesis-generating only.
+نظراً للافتقار الكامل للدراسات الداعمة، لا يمكن حالياً اعتبار الآلية قابلة للتطبيق على هذا الاستطباب، ويجب التعامل مع التنبؤ كمولد فرضيات فقط.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا تتوفر أدبيات ذات صلة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No marketing authorizations on file — Levamisole is currently unmarketed in Saudi Arabia (0 licenses).
+لا توجد تصاريح تسويقية في الملفات — لينيسول غير مسوق حالياً في المملكة العربية السعودية (0 تراخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملخص خصائص العقار للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The top-ranked prediction (drug-induced osteoporosis) has no clinical trial or literature support, evidence level L5, and the evidence pack itself flags it as likely model noise with no plausible mechanistic link — there is nothing to act on at this time.
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفاً (هشاشة العظام الناجمة عن العقار) ليس لديه دعم من تجارب سريرية أو أدبيات، مستوى أدلة L5، وتشير حزمة الأدلة ذاتها إلى احتمالية أن تكون ضوضاء نموذجية بدون ارتباط آلي معقول — لا يوجد شيء للتصرف بناءً عليه في الوقت الحالي.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (currently Blocking data gap, DG001)
-- Confirmed mechanism of action data (DG002)
-- Any preclinical or mechanistic evidence connecting Levamisole to bone metabolism, should this indication be pursued further
-- Note: a materially stronger signal exists elsewhere in this evidence pack — the head & neck (hypopharynx) neoplasm prediction (rank 9) is supported by two RCTs (L2, "Research Question" stage) on Levamisole as post-operative adjuvant immunotherapy in laryngeal/head-neck carcinoma. This warrants a separate, dedicated evaluation rather than being folded into the osteoporosis prediction covered here.
+**للمتابعة، يلزم الآتي:**
+- تحذيرات الحزمة الرسمية من الهيئة العامة للغذاء والدواء والموانع والاستطبابات (فجوة بيانات حالياً محظورة، DG001)
+- بيانات آلية العمل المؤكدة (DG002)
+- أي أدلة ما قبل السريرية أو أدلة آلية تربط لينيسول بأيض العظام، إذا تم السعي لمتابعة هذا الاستطباب بشكل أفضل
+- ملاحظة: إشارة أقوى بشكل ملموس موجودة في مكان آخر في حزمة الأدلة هذه — التنبؤ بورم الرأس والرقبة (القنة الفموية) (الرتبة 9) مدعوم بتجريتي عشوائية محكومة (L2، مرحلة "سؤال البحث") حول لينيسول كعلاج مناعي مساعد ما بعد العملية الجراحية في سرطان الحنجرة/الرأس والرقبة. وهذا يستحق تقييماً منفصلاً وموسعاً بدلاً من دمجه في تنبؤ هشاشة العظام المغطى هنا.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

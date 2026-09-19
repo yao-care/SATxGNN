@@ -29,60 +29,61 @@ indication_count: 5
 
 </div>
 
-# Piribedil: From Parkinson's Disease to Retinal Dystrophy with or without Extraocular Anomalies
+# بيريبيديل: من مرض باركنسون إلى الضمور الشبكي مع أو بدون تشوهات خارج العينية
 
-## One-Sentence Summary
+## ملخص سطر واحد
 
-Piribedil is a dopamine D2/D3 receptor agonist used internationally for Parkinson's disease and related motor disorders (per the drug's own mechanistic context in this evidence pack), though no confirmed local regulatory indication data is on file. The TxGNN model predicts a possible link to **retinal dystrophy with or without extraocular anomalies**, but this is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the mechanistic link as weak.
+بيريبيديل هو ناهض مستقبلات الدوبامين D2/D3 يُستخدم عالمياً لعلاج مرض باركنسون والاضطرابات الحركية المرتبطة به (وفقاً للسياق الآلي للعقار الموضح في مجموعة الأدلة هذه)، على الرغم من عدم توفر بيانات مؤشر تنظيمي محلي مؤكد في السجل. يتنبأ نموذج TxGNN برابط محتمل إلى **الضمور الشبكي مع أو بدون تشوهات خارج العينية**، لكن هذا مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور**، وتحليل النموذج ذاته يشير إلى أن الرابط الآلي ضعيف.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (drug not locally registered) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | غير متوفر — لا يوجد نص مؤشر معتمد في السجل (العقار غير مسجل محلياً) |
+| المؤشر الجديد المتنبأ به | الضمور الشبكي مع أو بدون تشوهات خارج العينية |
+| درجة التنبؤ TxGNN | 99.34% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (غير مسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف مؤقت |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap pending DrugBank API query). Based on contextual information present elsewhere in this evidence pack — specifically the rationale text attached to other candidate indications for this same drug — piribedil is understood to be a D2/D3 dopamine receptor agonist already approved in Europe and Asia for idiopathic Parkinson's disease. This is background context only, not a confirmed regulatory data point for this report.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (تم تحديدها كفجوة بيانات عالية الخطورة في انتظار استعلام واجهة برمجة تطبيقات DrugBank). بناءً على المعلومات السياقية الموجودة في موضع آخر من هذه مجموعة الأدلة — تحديداً نص التبرير المرفق بالمؤشرات المرشحة الأخرى لنفس العقار — يُفهم أن بيريبيديل هو ناهض مستقبلات دوبامين D2/D3 معتمد بالفعل في أوروبا وآسيا لعلاج مرض باركنسون مجهول السبب. هذا هو السياق الأساسي فقط، وليس نقطة بيانات تنظيمية مؤكدة لهذا التقرير.
 
-For the top-ranked prediction here, retinal dystrophy with or without extraocular anomalies, the underlying pathology is photoreceptor/retinal pigment epithelium gene defects — a mechanism unrelated to systemic dopaminergic signaling. The evidence pack's own repurposing rationale explicitly notes that while dopaminergic amacrine cells exist in the retina and participate in light adaptation, there is no direct treatment-relevant mechanistic link to piribedil's systemic D2/D3 agonism, and classifies this as a low-relevance prediction with no supporting clinical or mechanistic literature.
+بالنسبة للتنبؤ الأعلى تصنيفاً هنا، الضمور الشبكي مع أو بدون تشوهات خارج العينية، فإن الحالة المرضية الأساسية هي عيوب جينية في خلايا المستقبلات الضوئية وظهارة صبغة الشبكية — وهي آلية غير مرتبطة بإشارة الدوبامين الجهازية. يشير تحليل النموذج في مجموعة الأدلة نفسها إلى أنه بينما توجد خلايا لاموصة دوبامينرجية في الشبكية وتشارك في التكيف الضوئي، فإنه لا يوجد رابط آلي ذو صلة علاجية لناهض D2/D3 الجهازي في بيريبيديل، ويصنفها كتنبؤ منخفض الملاءمة بدون أدبيات سريرية أو آلية داعمة.
 
-Given the absence of any trials or publications and the model's own low-confidence rationale, this pairing should be treated as an unvalidated graph-model signal rather than a mechanistically grounded hypothesis. Notably, among the other four candidates in this pack, rank 5 (juvenile onset Parkinson disease 19A) shows a substantially stronger mechanistic rationale, since it shares the classic nigrostriatal dopamine-deficiency pathology that piribedil is already used to treat.
+بالنظر إلى عدم وجود أي تجارب أو منشورات وانخفاض درجة ثقة النموذج بناءً على تبريره الخاص، يجب التعامل مع هذا الاقتران كإشارة نموذج رسم بياني غير مؤكدة بدلاً من فرضية مبررة آلياً. والجدير بالملاحظة أنه من بين المرشحين الأربعة الآخرين في هذه المجموعة، يُظهر الترتيب 5 (مرض باركنسون ذو البداية المبكرة 19A) تبريراً آلياً أقوى بكثير، لأنه يشاركه المسار المرضي الكلاسيكي لنقص الدوبامين في المسار النيجروسترياتالي — وهو المسار الذي يُستخدم بيريبيديل بالفعل لعلاجه.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Piribedil is not marketed in this jurisdiction (0 authorizations on file); no product or dosage-form records are available.
+بيريبيديل غير مسوّق في هذا الاختصاص (0 تفويضات في السجل)؛ لا توجد سجلات منتجات أو أشكال جرعات متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف مؤقت**
 
-**Rationale:**
-The prediction carries a high TxGNN score but is unsupported by any clinical trials, literature, or robust mechanistic reasoning — the evidence pack's own analysis rates the mechanistic link as low relevance (L5, S0 stage). In addition, a blocking safety data gap (missing TFDA/local package insert warnings and contraindications) prevents this candidate from entering initial safety screening (S1) regardless of predicted-indication strength.
+**التبرير:**
+التنبؤ يحمل درجة TxGNN عالية، لكنه غير مدعوم بأي تجارب سريرية أو أدبيات أو تبرير آلي قوي — يُقيّم تحليل مجموعة الأدلة الخاصة به الرابط الآلي كملاءمة منخفضة (L5, S0 مرحلة). بالإضافة إلى ذلك، فإن فجوة بيانات السلامة الحاجبة (تحذيرات TFDA/المحلية الناقصة والموانع) تمنع هذا المرشح من دخول الفحص الأولي للسلامة (S1) بغض النظر عن قوة المؤشر المتنبأ به.
 
-**To proceed, the following is needed:**
-- Local package insert / regulatory warnings and contraindications (blocking gap — required before any S1 safety screening)
-- Confirmed mechanism of action data via DrugBank API query
-- Confirmed original approved indication(s), since none are currently on file for this drug
-- Consideration of re-prioritizing evaluation toward rank 5 (juvenile onset Parkinson disease 19A), which has a stronger mechanistic rationale given piribedil's established dopaminergic pharmacology, despite it too currently lacking clinical or literature evidence
+**لكي تتقدم، يلزم ما يلي:**
+- نشرة العبوة المحلية / التحذيرات التنظيمية والموانع (فجوة حاجبة — مطلوبة قبل أي فحص سلامة S1)
+- بيانات آلية العمل المؤكدة عبر استعلام واجهة برمجة تطبيقات DrugBank
+- المؤشرات الأصلية المعتمدة المؤكدة، لأنه لا يوجد حالياً أي منها في السجل لهذا العقار
+- إعادة النظر في إعادة تحديد أولويات التقييم نحو الترتيب 5 (مرض باركنسون ذو البداية المبكرة 19A)، الذي يتمتع بتبرير آلي أقوى بكثير نظراً للصيدلة الدوبامينرجية المثبتة لبيريبيديل، على الرغم من أنه أيضاً يفتقد حالياً أدلة سريرية أو أدبية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,104 +29,105 @@ indication_count: 1
 
 </div>
 
-# DACARBAZINE: From Melanoma to Upper Aerodigestive Tract Neoplasm
+# داكاربازين: من الورم الميلاني إلى أورام المسالك الهوائية الهضمية العلوية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dacarbazine is a classic alkylating cytotoxic agent widely established as a first-line reference therapy for advanced melanoma and as part of the ABVD combination regimen for Hodgkin's lymphoma.
-The TxGNN model predicts it may be effective for **Upper Aerodigestive Tract Neoplasm**, with **1 clinical trial** (using the structurally related agent temozolomide, not Dacarbazine directly) and **20 publications** of mixed relevance currently identified.
-Direct clinical evidence supporting Dacarbazine in this specific indication remains sparse, and the current evidence base supports a **Hold** decision.
+داكاربازين هو عامل تألكيل سام للخلايا كلاسيكي، معروف على نطاق واسع كعلاج مرجعي من الخط الأول للورم الميلاني المتقدم وكجزء من نظام ABVD المركب لليمفوما هودجكين.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً **لأورام المسالك الهوائية الهضمية العلوية**، مع **تجربة سريرية واحدة** (باستخدام الوكيل ذي الصلة الهيكلية تيموزولوميد، وليس داكاربازين مباشرة) و**20 منشورة** ذات صلة متفاوتة حالياً.
+الأدلة السريرية المباشرة التي تدعم داكاربازين في هذا الاستطباب المحدد لا تزال نادرة، والقاعدة الحالية من الأدلة تدعم قرار **الانتظار**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Melanoma (confirmed as standard first-line comparator in Phase 3 RCT literature); not formally registered in Saudi Arabia |
-| Predicted New Indication | Upper Aerodigestive Tract Neoplasm |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الورم الميلاني (مؤكد كمقارن مرجعي من الخط الأول في الأدب RCT من المرحلة 3)؛ غير مسجل رسمياً في المملكة العربية السعودية |
+| الاستطباب الجديد المتنبأ به | أورام المسالك الهوائية الهضمية العلوية |
+| درجة تنبؤ TxGNN | 99.26% |
+| مستوى الأدلة | L4 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Dacarbazine (DTIC) is a conventional triazene alkylating agent that undergoes hepatic microsomal oxidation to produce the active intermediate MTIC (5-(3-methyltriazen-1-yl)imidazole-4-carboxamide). MTIC methylates DNA preferentially at the O6-guanine position, resulting in DNA double-strand breaks and downstream apoptosis in rapidly proliferating cells. This mechanism is shared with temozolomide, the oral second-generation analog that spontaneously decomposes to the identical MTIC intermediate — a fact that allows temozolomide clinical data to serve as a mechanistic (though not regulatory) proxy for Dacarbazine.
+داكاربازين (DTIC) هو عامل تألكيل ثلاثي الأزول تقليدي يخضع للأكسدة الميكروسومية الكبدية لإنتاج الوسيط النشط MTIC (5-(3-methyltriazen-1-yl)imidazole-4-carboxamide). يقوم MTIC بميثيل DNA بشكل تفضيلي في موضع O6-guanine، مما ينتج عنه كسور DNA المزدوجة الخيوط وموت الخلايا المبرمج في الخلايا سريعة الانقسام. تُشارك هذه الآلية في تيموزولوميد، النظير الفموي من الجيل الثاني الذي يتحلل تلقائياً إلى وسيط MTIC متطابق — وهي حقيقة تسمح ببيانات تيموزولوميد السريرية بمثابة وسيط ميكانيكي (وإن لم يكن تنظيمياً) لداكاربازين.
 
-Upper aerodigestive tract neoplasms encompass cancers arising from the oral cavity, pharynx, larynx, nasal cavity, and esophagus. These are predominantly fast-dividing epithelial tumors, and in principle the alkylating mechanism of MTIC could confer antiproliferative activity. Historically, Dacarbazine-containing combination regimens (e.g., CYVADIC) have been used in rare head and neck tumor subtypes such as angiosarcoma, and Dacarbazine plus 5-FU has been explored in advanced medullary thyroid carcinoma — a neuroendocrine tumor of the thyroid, anatomically within the aerodigestive region — providing limited but tangible mechanistic precedent.
+تشمل أورام المسالك الهوائية الهضمية العلوية السرطانات التي تنشأ من تجويف الفم والبلعوم والحنجرة والتجويف الأنفي والمريء. هذه هي في الغالب أورام ظهارية سريعة الانقسام، وبالمبدأ فإن آلية التألكيل لـ MTIC يمكن أن توفر نشاطاً مانعاً للانتشار. تاريخياً، استُخدمت أنظمة تركيبية تحتوي على داكاربازين (مثل CYVADIC) في أنواع نادرة من أورام الرأس والعنق مثل الأورام الوعائية، واستُكشف داكاربازين بالإضافة إلى 5-FU في سرطان الغدة الدرقية النخاعي المتقدم — وهو ورم صماوي عصبي بالغدة الدرقية، تشريحياً ضمن منطقة المسالك الهوائية الهضمية — مما يوفر سابقة ميكانيكية محدودة ولكن ملموسة.
 
-However, clinical translation faces significant barriers. The only registered trial in this indication used temozolomide (not Dacarbazine) and was terminated early; published results showed that MGMT promoter methylation did not reliably predict response in aerodigestive tract tumors. Squamous cell carcinomas and adenocarcinomas of this region generally show low sensitivity to alkylating agents compared to melanoma or Hodgkin's lymphoma. The TxGNN prediction is mechanistically plausible through the MTIC pathway, but direct evidence is currently insufficient to move beyond a preclinical/mechanistic rationale.
+ومع ذلك، تواجه الترجمة السريرية حواجز كبيرة. استخدمت التجربة المسجلة الوحيدة في هذا الاستطباب تيموزولوميد (وليس داكاربازين) وتم إيقافها مبكراً؛ أظهرت النتائج المنشورة أن ميثيلة محفز MGMT لم تتنبأ بشكل موثوق الاستجابة في أورام المسالك الهوائية الهضمية. عادة ما يظهر سرطان الخلايا الحرشفية والغدانية بهذه المنطقة حساسية منخفضة لعوامل التألكيل مقارنة بالورم الميلاني أو لمفوما هودجكين. التنبؤ بـ TxGNN قابل للفهم ميكانيكياً من خلال مسار MTIC، لكن الأدلة المباشرة حالياً غير كافية للتقدم خارج الأساس السابق للإكلينيكي/الميكانيكي.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Phase 2 | Terminated | 86 | Evaluated **temozolomide** (SCH 52365) — not Dacarbazine — in patients with MGMT-methylated advanced aerodigestive tract and colorectal cancers (head and neck, esophageal, NSCLC, CRC). Trial was terminated. Published results (PMID 23443801) showed MGMT methylation did not reliably predict response. Indirect evidence only: temozolomide shares Dacarbazine's active MTIC metabolite but is a distinct molecular entity with different pharmacokinetics and regulatory approval profile. |
+| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | المرحلة 2 | تم الإيقاف | 86 | قيمت **تيموزولوميد** (SCH 52365) — وليس داكاربازين — في المرضى الذين يعانون من سرطان المسالك الهوائية الهضمية العلوية والقولون والمستقيم المتقدم مع ميثيلة MGMT (الرأس والعنق والمريء وسرطان الخلايا غير الصغيرة وسرطان القولون والمستقيم). تم إيقاف التجربة. أظهرت النتائج المنشورة (PMID 23443801) أن ميثيلة MGMT لم تتنبأ بشكل موثوق بالاستجابة. دليل غير مباشر فقط: يشارك تيموزولوميد استقلاب MTIC النشط لداكاربازين لكنه كيان جزيئي مختلف بحرائك دوائية وملف الموافقة التنظيمية المختلفة. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | Phase 3 RCT | JAMA Oncology | Toripalimab vs Dacarbazine as first-line therapy for advanced acral melanoma (MELATORCH trial); Dacarbazine serves as the standard-of-care control arm, confirming its role as an established reference treatment |
-| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Pilot clinical study | Annals of Oncology | **Direct use of Dacarbazine + 5-FU** in advanced medullary thyroid carcinoma (MTC), a neuroendocrine tumor of the aerodigestive region; limited activity observed, supporting biological rationale in neuroendocrine subtypes |
-| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | Review / Case series | Cancer & Chemotherapy | CYVADIC regimen (includes **DTIC/Dacarbazine**) used for angiosarcoma of the head and neck in elderly patients; combination chemotherapy with historically poor outcomes |
-| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Phase 2 single-arm trial | Molecular Cancer Therapeutics | Temozolomide in MGMT-methylated aerodigestive tract and colorectal cancers; MGMT status did not predict response reliably; indirect evidence that MTIC-based alkylation has limited single-agent activity in this tumor class |
-| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Retrospective case series | Ear, Nose & Throat Journal | Clinicopathological and genetic features of malignant head and neck paragangliomas in 6 patients; explores treatment options including chemotherapy for this rare aerodigestive neuroendocrine subtype |
-| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | Retrospective cohort | Int J Radiation Oncology Biology Physics | Radiotherapy outcomes for esthesioneuroblastoma (olfactory neuroblastoma); chemotherapy used in combination for intranasal malignancies, providing treatment context for rare upper aerodigestive tract tumors |
-| [3153227](https://pubmed.ncbi.nlm.nih.gov/3153227/) | 1986 | Case report | Pediatric Hematology and Oncology | Olfactory neuroblastoma in a 2-year-old; **DTIC-containing combination chemotherapy** used alongside cyclophosphamide; one of the few direct pediatric case reports implicating Dacarbazine in an upper aerodigestive tract tumor |
-| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Review | Clinical Oncology | Comprehensive review of medullary thyroid carcinoma management including chemotherapy options for advanced/refractory disease; contextualizes Dacarbazine within MTC treatment history |
-| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | Review | Transfusion and Apheresis Science | Hodgkin lymphoma in HIV-infected patients with prominent head and neck lymphadenopathy; ABVD (dacarbazine-containing regimen) discussed; provides context for Dacarbazine's established role in lymphoma |
-| [34705104](https://pubmed.ncbi.nlm.nih.gov/34705104/) | 2022 | Epidemiological review | J Cancer Research & Clinical Oncology | Global burden of EBV-related cancers including nasopharyngeal carcinoma (an upper aerodigestive tumor); epidemiological context for the target tumor class only |
+| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | تجربة عشوائية محكومة المرحلة 3 | JAMA Oncology | Toripalimab مقابل داكاربازين كعلاج من الخط الأول للورم الميلاني الطرفي المتقدم (تجربة MELATORCH)؛ داكاربازين بمثابة ذراع التحكم برعاية معيارية، مما يؤكد دوره كمعالجة مرجعية مثبتة |
+| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | دراسة سريرية تجريبية | Annals of Oncology | **استخدام مباشر لداكاربازين + 5-FU** في سرطان الغدة الدرقية النخاعي المتقدم (MTC)، وهو ورم صماوي عصبي بالمسالك الهوائية الهضمية؛ لاحظت نشاطاً محدوداً، مما يدعم الأساس البيولوجي في الأنواع الصماوية العصبية |
+| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | مراجعة / سلسلة حالات | Cancer & Chemotherapy | نظام CYVADIC (يتضمن **DTIC/داكاربازين**) المستخدم للأورام الوعائية بالرأس والعنق في المرضى المسنين؛ العلاج الكيماوي المركب برائج تاريخية سيئة |
+| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | تجربة المرحلة 2 وحيدة الذراع | Molecular Cancer Therapeutics | تيموزولوميد في أورام المسالك الهوائية الهضمية العلوية والقولون والمستقيم مع ميثيلة MGMT؛ لم يتنبأ وضع MGMT بشكل موثوق بالاستجابة؛ دليل غير مباشر على أن نشاط التألكيل القائم على MTIC وحده محدود في فئة الورم هذه |
+| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | سلسلة حالات بأثر رجعي | Ear, Nose & Throat Journal | الميزات السريرية المرضية والجينية للبارجانجليوما الخبيثة بالرأس والعنق في 6 مرضى؛ استكشاف خيارات العلاج بما فيها العلاج الكيماوي لهذا النوع الفرعي النادر من الأورام الصماوية العصبية بالمسالك الهوائية الهضمية |
+| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | مجموعة بأثر رجعي | Int J Radiation Oncology Biology Physics | نتائج العلاج الإشعاعي للورم الشمي الذاتي (الورم العصبي الشمي)؛ استخدم العلاج الكيماوي بالتركيب لأورام التجويف الأنفي، مما يوفر سياق العلاج لأورام نادرة بالمسالك الهوائية الهضمية العلوية |
+| [3153227](https://pubmed.ncbi.nlm.nih.gov/3153227/) | 1986 | حالة سريرية | Pediatric Hematology and Oncology | الورم العصبي الشمي في طفل يبلغ من العمر سنتين؛ **العلاج الكيماوي المركب الذي يحتوي على DTIC** المستخدم جنباً إلى جنب مع الفوسفاميد؛ أحد التقارير القليلة المباشرة للحالات عند الأطفال التي تشير إلى داكاربازين في ورم بالمسالك الهوائية الهضمية |
+| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | مراجعة | Clinical Oncology | مراجعة شاملة لإدارة سرطان الغدة الدرقية النخاعي بما فيها خيارات العلاج الكيماوي للمرض المتقدم/المقاوم؛ يضع داكاربازين في سياق تاريخ العلاج لـ MTC |
+| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | مراجعة | Transfusion and Apheresis Science | لمفوما هودجكين لدى مرضى فيروس نقص المناعة البشرية مع لمفاdenopathy بارزة بالرأس والعنق؛ ABVD (النظام الذي يحتوي على داكاربازين) تم مناقشته؛ يوفر السياق للدور المثبت لداكاربازين في اللمفوما |
+| [34705104](https://pubmed.ncbi.nlm.nih.gov/34705104/) | 2022 | مراجعة وبائية | J Cancer Research & Clinical Oncology | العبء العالمي للسرطانات المرتبطة بـ EBV بما فيها سرطان الأنف والحلق (ورم بالمسالك الهوائية الهضمية العلوية)؛ السياق الوبائي فقط لفئة الورم المستهدفة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Dacarbazine is currently **not marketed in Saudi Arabia** (0 registered authorizations). No product license data is available. Any clinical use would require compassionate use authorization or an import permit under special circumstances.
+داكاربازين حالياً **غير مسوقة بالمملكة العربية السعودية** (0 من التفويضات المسجلة). لا تتوفر بيانات ترخيص المنتج. أي استخدام سريري سيتطلب ترخيص استخدام رحيم أو تصريح استيراد في ظروف خاصة.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Alkylating agent (triazene class; prodrug activated to MTIC) |
-| Myelosuppression Risk | High — leukopenia and thrombocytopenia are dose-limiting toxicities; bone marrow nadir typically occurs at 3–4 weeks post-infusion |
-| Emetogenicity Classification | Moderate to High — Dacarbazine is considered a highly emetogenic agent at standard doses; 5-HT3 antagonist plus dexamethasone prophylaxis is required |
-| Monitoring Items | CBC with differential (at baseline and before each cycle), liver function tests (ALT/AST/bilirubin), serum creatinine and BUN, electrolytes |
-| Handling Protection | Preparation and administration must follow cytotoxic drug handling regulations; biological safety cabinet required; appropriate PPE (double gloves, closed-front gown, eye protection) mandatory |
+| تصنيف السمية الخلوية | سام خلوي تقليدي — عامل تألكيل (فئة ثلاثي الأزول؛ دواء أولي ينشط إلى MTIC) |
+| خطر قمع نخاع العظم | مرتفع — قلة الكريات البيضاء وقلة الصفيحات هي السميات المحددة للجرعة؛ يحدث الحد الأدنى لنخاع العظم عادة في 3–4 أسابيع بعد التسريب |
+| تصنيف الغثيان | معتدل إلى مرتفع — يُعتبر داكاربازين عاملاً يثير الغثيان بشدة بالجرعات القياسية؛ يُطلب تنبؤ بمضادات 5-HT3 بالإضافة إلى ديكساميثازون |
+| عناصر المراقبة | CBC مع التفاضل (خط الأساس وقبل كل دورة)، اختبارات وظائف الكبد (ALT/AST/البيليروبين)، كرياتينين الدم و BUN، الكهارل |
+| حماية المناولة | يجب أن يتبع التحضير والإدارة لوائح معالجة الأدوية السامة للخلايا؛ خزانة السلامة البيولوجية مطلوبة؛ معدات الحماية الشخصية المناسبة (قفازات مزدوجة، معطف مغلق الأمام، حماية العين) إلزامية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية (SmPC) للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Although TxGNN assigns a high prediction score (99.26%), the mechanistic basis relies on indirect analogy through the shared MTIC metabolite with temozolomide, and the only identified clinical trial for this indication used temozolomide — not Dacarbazine — and was terminated early with limited efficacy signal. Direct evidence for Dacarbazine in upper aerodigestive tract neoplasms is confined to small historical case series in rare subtypes (angiosarcoma, medullary thyroid carcinoma, olfactory neuroblastoma), which is insufficient to support clinical repurposing at this stage.
+**الأساس المنطقي:**
+على الرغم من أن TxGNN يعين درجة تنبؤ عالية (99.26%)، فإن الأساس الميكانيكي يعتمد على تشبيه غير مباشر من خلال استقلاب MTIC المشترك مع تيموزولوميد، والتجربة السريرية المسجلة الوحيدة لهذا الاستطباب استخدمت تيموزولوميد — وليس داكاربازين — وتم إيقافها مبكراً مع إشارة فعالية محدودة. الأدلة المباشرة لداكاربازين في أورام المسالك الهوائية الهضمية العلوية تقتصر على سلسلات حالات تاريخية صغيرة في أنواع نادرة (أورام وعائية، سرطان الغدة الدرقية النخاعي، ورم عصبي شمي)، وهو أمر غير كافٍ لدعم إعادة استخدام سريرية في هذه المرحلة.
 
-**To proceed, the following is needed:**
+**للمتابعة، ما يلي مطلوب:**
 
-- **Formal MOA documentation**: Retrieve complete DrugBank mechanism of action data (currently a data gap) to strengthen the mechanistic rationale narrative
-- **Safety review**: Obtain and parse the package insert (TFDA or EMA SmPC) to populate key warnings and contraindications before any safety assessment can proceed
-- **Biomarker strategy**: Assess whether MGMT promoter methylation or other DNA repair pathway deficiencies can identify an aerodigestive tract subpopulation sensitive to alkylating agents
-- **Preclinical validation**: Commission or identify in vitro studies of Dacarbazine activity against representative aerodigestive tract tumor cell lines (squamous, neuroendocrine subtypes)
-- **Regulatory pathway**: Given zero Saudi Arabia authorizations, map a compassionate use or import permit framework before any clinical application
-- **Trial differentiation from TMZ**: Clarify whether Dacarbazine offers a distinct clinical advantage over the oral temozolomide route in this setting, given that TMZ trials have already been attempted and showed limited benefit
+- **توثيق الآلية (MOA) الرسمي**: استرجاع بيانات آلية العمل الكاملة من DrugBank (حالياً فجوة بيانات) لتقوية السرد الميكانيكي
+- **مراجعة السلامة**: الحصول على وتحليل النشرة الداخلية/SmPC (TFDA أو EMA) لملء التحذيرات الرئيسية والموانع قبل أي تقييم سلامة يمكن أن يتابع
+- **استراتيجية المؤشر البيولوجي**: تقييم ما إذا كانت ميثيلة محفز MGMT أو أوجه القصور الأخرى في مسارات إصلاح DNA يمكنها تحديد مجموعة سكانية من المسالك الهوائية الهضمية العلوية حساسة لعوامل التألكيل
+- **التحقق السابق للإكلينيكي**: تكليف أو تحديد الدراسات في الجسم الحي لنشاط داكاربازين ضد خطوط خلايا أورام المسالك الهوائية الهضمية العلوية الممثلة (حرشفية، أنواع فرعية صماوية عصبية)
+- **المسار التنظيمي**: بالنظر إلى عدم وجود تفويضات بالمملكة العربية السعودية، خريطة إطار عمل الاستخدام الرحيم أو تصريح الاستيراد قبل أي تطبيق سريري
+- **تمييز التجربة عن TMZ**: توضيح ما إذا كان داكاربازين يوفر ميزة سريرية مميزة على مسار تيموزولوميد الفموي في هذا الإعداد، نظراً لأن محاولات TMZ السريرية قد تمت بالفعل وأظهرت فائدة محدودة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

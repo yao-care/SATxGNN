@@ -29,102 +29,103 @@ indication_count: 1
 
 </div>
 
-# Potassium Chloride: From Potassium Replacement Therapy to Renal Tubular Acidosis
+# كلوريد البوتاسيوم: من علاج استبدال البوتاسيوم إلى حماض الأنابيب الكلوية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Potassium chloride is a basic electrolyte agent generally used for potassium replacement/hypokalemia correction; the evidence pack does not contain itemized original-indication or licensing records for this compound.
-> The TxGNN model predicts it may be effective for **Renal Tubular Acidosis (RTA)**,
-> with **9 clinical trials** and **19 publications** retrieved in the search, though most of this evidence is only indirectly related to the drug-disease pair.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not itemized in source data (potassium/electrolyte replacement is the general use of KCl; no `original_indications` or licence records were returned) |
-| Predicted New Indication | Renal Tubular Acidosis |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> كلوريد البوتاسيوم هو عامل إلكتروليت أساسي يُستخدم عموماً لاستبدال البوتاسيوم/تصحيح نقص البوتاسيوم؛ مجموعة الأدلة لا تحتوي على سجلات محددة للإشارة الأصلية أو الترخيص لهذا المركب.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **حماض الأنابيب الكلوية (RTA)**،
+> مع **9 تجارب سريرية** و **19 منشور** تم استرجاعها في البحث، على الرغم من أن معظم هذه الأدلة مرتبطة بشكل غير مباشر فقط بزوج العقار والمرض.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for this drug (data gap). Based on known pharmacology, potassium chloride acts as a direct source of potassium ion, and its general clinical role is correcting or preventing hypokalemia.
-
-RTA (particularly distal Type 1 and proximal Type 2) is frequently accompanied by abnormal renal potassium handling and hypokalemia, so potassium supplementation is a genuine, recurring clinical need in RTA management — this is the mechanistic thread the model is likely picking up on.
-
-However, the underlying pathology of RTA is a hyperchloremic, normal-anion-gap metabolic acidosis. Standard potassium repletion in RTA favors alkalinizing potassium salts (potassium citrate or potassium bicarbonate) rather than potassium chloride, because the additional chloride load from KCl can worsen the acidosis. In other words, the mechanistic link here is the generic "potassium supplementation" action of the drug rather than an RTA-specific mechanism, and the chloride counter-ion is potentially in tension with standard-of-care chemistry for this indication.
+| البند | المحتوى |
+|------|---------|
+| الإشارة الأصلية | غير محددة في بيانات المصدر (استبدال البوتاسيوم/الإلكتروليت هو الاستخدام العام لـ KCl؛ لم يتم إرجاع `original_indications` أو سجلات الترخيص) |
+| الإشارة الجديدة المتنبأ بها | حماض الأنابيب الكلوية |
+| درجة التنبؤ TxGNN | 99.87% |
+| مستوى الأدلة | L4 |
+| حالة السوق | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات تفصيلية عن آلية العمل غير متاحة لهذا الدواء (فجوة بيانات). بناءً على الصيدلة المعروفة، يعمل كلوريد البوتاسيوم كمصدر مباشر لأيون البوتاسيوم، والدور السريري العام له هو تصحيح أو الوقاية من نقص البوتاسيوم.
+
+حماض الأنابيب الكلوية (خاصة النوع البعيد 1 والقريب النوع 2) يرافقه بشكل متكرر اضطراب في معالجة البوتاسيوم الكلوية ونقص البوتاسيوم، لذلك فإن مكملات البوتاسيوم هي احتياج سريري حقيقي ومتكرر في إدارة حماض الأنابيب الكلوية — وهذا هو الخيط الميكانيكي الذي من المحتمل أن يلتقطه النموذج.
+
+ومع ذلك، الأمراض الأساسية لحماض الأنابيب الكلوية هي فرط كلوريديميا وحماض استقلابي طبيعي الفجوة الأنيونية. استبدال البوتاسيوم القياسي في حماض الأنابيب الكلوية يفضل أملاح البوتاسيوم القلوية (سترات البوتاسيوم أو كربونات البوتاسيوم) بدلاً من كلوريد البوتاسيوم، لأن حمل الكلوريد الإضافي من KCl يمكن أن يزيد من تفاقم الحماض. بعبارة أخرى، الرابط الميكانيكي هنا هو الإجراء العام "استبدال البوتاسيوم" للدواء وليس آلية خاصة بحماض الأنابيب الكلوية، والأيون المضاد للكلوريد من المحتمل أن يكون في تنافس مع الكيمياء القياسية للرعاية لهذه الإشارة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT06750172](https://clinicaltrials.gov/study/NCT06750172) | N/A | Recruiting | 33 | Diagnostic methodology study comparing 24-hour urinary aldosterone timing for primary aldosteronism; not an interventional/drug trial. |
-| [NCT01894594](https://clinicaltrials.gov/study/NCT01894594) | Phase 1 | Terminated | 7 | Alkali therapy (oral sodium bicarbonate) for bicarbonate/potassium repletion in sickle cell disease with low serum bicarbonate — not KCl, not RTA. |
-| [NCT01834768](https://clinicaltrials.gov/study/NCT01834768) | Phase 2 | Unknown | 31 | Safety of eplerenone (a potassium-*sparing* agent) in transplant recipients on cyclosporine — mechanistically opposite direction to KCl supplementation. |
-| [NCT07273838](https://clinicaltrials.gov/study/NCT07273838) | Phase 2 | Recruiting | 130 | SGLT2 inhibitor for acute cardiorenal syndrome; overlaps only on "renal," no KCl/RTA link. |
-| [NCT03354507](https://clinicaltrials.gov/study/NCT03354507) | N/A | Unknown | 40 | Oral sodium bicarbonate alkalinization for RTA occurring in pediatric patients on topiramate; mechanistically related (alkali therapy) but tests bicarbonate, not KCl. |
-| [NCT03644706](https://clinicaltrials.gov/study/NCT03644706) | Phase 3 | Terminated | 3 | Randomized, placebo-controlled withdrawal study of ADV7103 for preventing metabolic acidosis in pediatric/adult distal RTA; terminated with only 3 enrolled, drug identity truncated in the title. |
-| [NCT06867471](https://clinicaltrials.gov/study/NCT06867471) | N/A | Recruiting | 43 | Exogenous ketosis effect on proteinuria/renal function in CKD and polycystic kidney disease; no direct KCl/RTA relevance. |
-| [NCT01843309](https://clinicaltrials.gov/study/NCT01843309) | Phase 4 | Terminated | 36 | Spironolactone for preventing electrolyte abnormalities from Amphotericin B; overlaps only on "electrolytes," not RTA. |
-| [NCT00120731](https://clinicaltrials.gov/study/NCT00120731) | N/A | Withdrawn | 0 | Potassium *citrate* (same cation, different salt) for urinary chemistry/acid-base effects in pediatric hypercalciuria and urolithiasis — the conceptually closest trial, but not KCl, not RTA, and withdrawn with zero enrollment. |
+| [NCT06750172](https://clinicaltrials.gov/study/NCT06750172) | N/A | قيد التجنيد | 33 | دراسة منهجية تشخيصية تقارن توقيت ألدوستيرون البول 24 ساعة لفرط الألدوستيرونية الأولية؛ ليست تجربة دواء تداخلية. |
+| [NCT01894594](https://clinicaltrials.gov/study/NCT01894594) | المرحلة 1 | تم إيقافها | 7 | العلاج القلوي (بيكربونات الصوديوم عن طريق الفم) لاستبدال البيكربونات/البوتاسيوم في فقر الدم المنجلي مع انخفاض بيكربونات المصل - ليس KCl، وليس حماض الأنابيب الكلوية. |
+| [NCT01834768](https://clinicaltrials.gov/study/NCT01834768) | المرحلة 2 | غير معروف | 31 | سلامة إبليرينون (عامل حافظ للبوتاسيوم) في متلقي الزراعة على السايكلوسبورين - في الاتجاه الميكانيكي المعاكس لاستبدال KCl. |
+| [NCT07273838](https://clinicaltrials.gov/study/NCT07273838) | المرحلة 2 | قيد التجنيد | 130 | مثبط SGLT2 لمتلازمة القلب والكلى الحادة؛ يتداخل فقط على "الكلى"، لا يوجد ارتباط KCl/حماض الأنابيب الكلوية. |
+| [NCT03354507](https://clinicaltrials.gov/study/NCT03354507) | N/A | غير معروف | 40 | قلونة بيكربونات الصوديوم الفموية لحماض الأنابيب الكلوية الناشئ في المرضى الأطفال على توبيراميت؛ ذات صلة ميكانيكية (العلاج القلوي) لكن تختبر البيكربونات، وليس KCl. |
+| [NCT03644706](https://clinicaltrials.gov/study/NCT03644706) | المرحلة 3 | تم إيقافها | 3 | دراسة الانسحاب العشوائية المضبوطة بالدواء الوهمي لـ ADV7103 للوقاية من الحماض الاستقلابي في حماض الأنابيب الكلوية البعيد لدى الأطفال/البالغين؛ تم إيقافها مع التحاق 3 فقط، هوية الدواء مختصرة في العنوان. |
+| [NCT06867471](https://clinicaltrials.gov/study/NCT06867471) | N/A | قيد التجنيد | 43 | تأثير الكيتوزيس الخارجي على البيلة البروتينية/وظيفة الكلى في CKD وأمراض الكلى متعددة الكيسات؛ لا توجد ارتباطات KCl/حماض الأنابيب الكلوية مباشرة. |
+| [NCT01843309](https://clinicaltrials.gov/study/NCT01843309) | المرحلة 4 | تم إيقافها | 36 | سبيرونولاكتون لمنع شذوذ الكهارل من الأمفوتيريسين B؛ يتداخل فقط على "الكهارل"، وليس حماض الأنابيب الكلوية. |
+| [NCT00120731](https://clinicaltrials.gov/study/NCT00120731) | N/A | تم سحبها | 0 | **سترات** البوتاسيوم (نفس الكاتيون، ملح مختلف) لكيمياء البول/تأثيرات التوازن الحمضي القاعدي في فرط كالسيوم البول لدى الأطفال والحصيات البولية — التجربة الأقرب من الناحية المفهومية، لكنها ليست KCl، وليست حماض الأنابيب الكلوية، وتم سحبها مع التحاق صفر. |
 
-**Note:** None of the retrieved trials directly test potassium chloride as a treatment for renal tubular acidosis. Relevance grading (provided in the evidence pack) rated all nine trials "C" except the potassium citrate trial ("B"), and that one enrolled zero subjects.
+**ملاحظة:** لا توجد أي من التجارب المسترجعة تختبر مباشرة كلوريد البوتاسيوم كعلاج لحماض الأنابيب الكلوية. تصنيف الملاءمة (المقدم في مجموعة الأدلة) صنف جميع التجارب التسع "C" باستثناء تجربة سترات البوتاسيوم ("B")، وتلك التجربة الواحدة حققت التحاق صفر.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33459628](https://pubmed.ncbi.nlm.nih.gov/33459628/) | 2021 | Review | Archivos españoles de urología | Overview of RTA diagnosis and management, including calcium phosphate stone formation from impaired distal acid excretion. |
-| [17297212](https://pubmed.ncbi.nlm.nih.gov/17297212/) | 2007 | Review | Acta Medica Indonesiana | General approach to hypokalemia, covering renal vs. extrarenal potassium loss. |
-| [21314872](https://pubmed.ncbi.nlm.nih.gov/21314872/) | 2011 | Review | International Journal of Clinical Practice | Clinical approach to proximal (Type II) and distal (Type I/IV) RTA in adults. |
-| [33769949](https://pubmed.ncbi.nlm.nih.gov/33769949/) | 2021 | Review | Journal of the American Society of Nephrology | Reassessment of urine anion gap as a surrogate for urinary ammonium excretion in metabolic acidosis. |
-| [3518609](https://pubmed.ncbi.nlm.nih.gov/3518609/) | 1986 | Review | Annual Review of Medicine | Classic review defining proximal RTA and hypokalemic/hyperkalemic distal RTA subtypes. |
-| [8694660](https://pubmed.ncbi.nlm.nih.gov/8694660/) | 1996 | Review | Archives of Internal Medicine | Pathophysiology and diagnostic workup of RTA using urinary pH, electrolytes, and serum potassium. |
-| [14048071](https://pubmed.ncbi.nlm.nih.gov/14048071/) | 1963 | Review | Medical Bulletin (Ann Arbor) | Early historical review of renal tubular acidosis. |
-| [38445406](https://pubmed.ncbi.nlm.nih.gov/38445406/) | 2023 | Cohort | La Tunisie Médicale | Genotype-phenotype correlation of distal RTA (SLC4A1, ATP6V0A1/ATP6V1B1 mutations) with hypokalemia and hypocitraturia. |
-| [783200](https://pubmed.ncbi.nlm.nih.gov/783200/) | 1976 | Cohort | Journal of Clinical Investigation | In classic (Type 1) RTA patients corrected with oral **potassium bicarbonate** (not chloride), sodium conservation was impaired under restricted sodium intake in several patients — directly relevant to the citrate/bicarbonate-vs-chloride salt question. |
-| [34748193](https://pubmed.ncbi.nlm.nih.gov/34748193/) | 2022 | Case Report | Journal of Nephrology | Case of distal RTA presenting with hypokalemic periodic paralysis during pregnancy. |
+| [33459628](https://pubmed.ncbi.nlm.nih.gov/33459628/) | 2021 | مراجعة | Archivos españoles de urología | نظرة عامة على تشخيص وإدارة حماض الأنابيب الكلوية، بما في ذلك تكون حصيات فوسفات الكالسيوم من ضعف إفراز الحمض البعيد. |
+| [17297212](https://pubmed.ncbi.nlm.nih.gov/17297212/) | 2007 | مراجعة | Acta Medica Indonesiana | النهج العام لنقص البوتاسيوم، يغطي فقدان البوتاسيوم الكلوي مقابل خارج الكلية. |
+| [21314872](https://pubmed.ncbi.nlm.nih.gov/21314872/) | 2011 | مراجعة | International Journal of Clinical Practice | المنهج السريري لـ RTA القريب (النوع الثاني) والبعيد (النوع الأول/الرابع) لدى البالغين. |
+| [33769949](https://pubmed.ncbi.nlm.nih.gov/33769949/) | 2021 | مراجعة | Journal of the American Society of Nephrology | إعادة تقييم فجوة الأنيون البولي كبديل لإفراز الأمونيوم البولي في الحماض الاستقلابي. |
+| [3518609](https://pubmed.ncbi.nlm.nih.gov/3518609/) | 1986 | مراجعة | Annual Review of Medicine | المراجعة الكلاسيكية التي تحدد RTA القريب وأنواع حماض الأنابيب الكلوية البعيد نقص البوتاسيوم/فرط البوتاسيوم. |
+| [8694660](https://pubmed.ncbi.nlm.nih.gov/8694660/) | 1996 | مراجعة | Archives of Internal Medicine | الفسيولوجيا المرضية والتقييم التشخيصي لحماض الأنابيب الكلوية باستخدام الرقم الهيدروجيني البولي والكهارل ومصل البوتاسيوم. |
+| [14048071](https://pubmed.ncbi.nlm.nih.gov/14048071/) | 1963 | مراجعة | Medical Bulletin (Ann Arbor) | مراجعة تاريخية مبكرة لحماض الأنابيب الكلوية. |
+| [38445406](https://pubmed.ncbi.nlm.nih.gov/38445406/) | 2023 | دراسة أتراب | La Tunisie Médicale | ارتباط النمط الجيني-الظاهري لحماض الأنابيب الكلوية البعيد (طفرات SLC4A1 و ATP6V0A1/ATP6V1B1) مع نقص البوتاسيوم وقلة السترات. |
+| [783200](https://pubmed.ncbi.nlm.nih.gov/783200/) | 1976 | دراسة أتراب | Journal of Clinical Investigation | في مرضى حماض الأنابيب الكلوية الكلاسيكي (النوع 1) المصححين بـ **بيكربونات البوتاسيوم** الفموية (وليس الكلوريد)، حدث ضعف في تحفظ الصوديوم تحت تناول الصوديوم المقيد في عدة مرضى — ذات صلة مباشرة بسؤال الملح السترات/بيكربونات مقابل الكلوريد. |
+| [34748193](https://pubmed.ncbi.nlm.nih.gov/34748193/) | 2022 | تقرير حالة | Journal of Nephrology | حالة حماض الأنابيب الكلوية البعيد التي تُعرض مع شلل دوري نقص البوتاسيوم أثناء الحمل. |
 
-**Note:** No RCTs were retrieved for this pair; the literature base is exclusively reviews, one cohort study, and case reports, and none evaluate potassium chloride specifically.
-
----
-
-## Market Information
-
-No marketed products or license records are currently available for this compound (market status: Not Marketed, 0 authorizations on file).
+**ملاحظة:** لم يتم استرجاع أي تجارب عشوائية محكومة لهذا الزوج؛ قاعدة الأدبيات تتكون حصرياً من مراجعات، دراسة أتراب واحدة، وتقارير حالات، وليس واحد منها يقيم كلوريد البوتاسيوم بشكل محدد.
 
 ---
 
-## Safety Considerations
+## معلومات السوق
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as data gaps in the evidence pack — notably DG001, a **Blocking**-severity gap on TFDA label warnings/contraindications, which prevents this candidate from entering the S1 safety pre-screen.)
+لا توجد منتجات مسوقة أو سجلات ترخيص متاحة حالياً لهذا المركب (حالة السوق: غير مسوق، 0 تصاريح على الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات لمعلومات السلامة. (جميع البيانات الرئيسية للتحذيرات والمحاذير والتفاعلات الدوائية توضع علامة عليها كفجوات بيانات في مجموعة الأدلة - لا سيما DG001، وهي فجوة بشدة **محجوبة** في تحذيرات تسمية TFDA/المحاذير، التي تمنع هذا المرشح من الدخول في فحص السلامة السابق S1.)
 
-**Rationale:**
-- DG001 (Blocking) — TFDA label warnings/contraindications are missing, so the candidate cannot yet pass initial safety screening (S1).
-- No clinical trial or publication directly evaluates potassium chloride in RTA; the closest analog (potassium citrate) trial was withdrawn with zero enrollment, and the mechanistic rationale itself flags that standard RTA therapy favors citrate/bicarbonate potassium salts over chloride due to acid-load concerns.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert with warnings/contraindications (resolves DG001)
-- Confirmed mechanism of action and original-indication documentation from DrugBank (resolves DG002)
-- A targeted literature/trial search specifically on potassium chloride (not citrate/bicarbonate) use in RTA, to test whether the chloride-load concern is clinically significant
-- Market/licensing assessment if repurposing is pursued, since the product is currently unmarketed with no authorizations on file
+## الاستنتاج والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبررات:**
+- DG001 (محجوب) — تحذيرات ومحاذير تسمية TFDA مفقودة، لذلك لا يمكن للمرشح بعد الآن الخضوع للفحص الأولي للسلامة (S1).
+- لا توجد تجربة سريرية أو منشور يقيم بشكل مباشر كلوريد البوتاسيوم في حماض الأنابيب الكلوية؛ أقرب تماثل (تجربة سترات البوتاسيوم) تم سحبها مع التحاق صفر، والمبررات الميكانيكية نفسها تشير إلى أن العلاج القياسي لحماض الأنابيب الكلوية يفضل أملاح البوتاسيوم السترات/بيكربونات على الكلوريد بسبب مخاوف حمل الحمض.
+
+**لكي نمضي قدماً، يلزم ما يلي:**
+- نشرة معلومات TFDA مع التحذيرات/المحاذير (حل DG001)
+- توثيق آلية العمل الموكدة والإشارة الأصلية من DrugBank (حل DG002)
+- بحث أدبي/تجريبي موجه بشكل محدد حول استخدام كلوريد البوتاسيوم (وليس سترات/بيكربونات) في حماض الأنابيب الكلوية، لاختبار ما إذا كان قلق حمل الكلوريد ذو أهمية سريرية
+- تقييم السوق/الترخيص إذا تم متابعة إعادة الاستخدام، نظراً لأن المنتج غير مسوق حالياً مع عدم وجود تصاريح على الملف
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

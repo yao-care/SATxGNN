@@ -29,78 +29,79 @@ indication_count: 6
 
 </div>
 
-# Sennosides: From Constipation to Hypotrichosis Simplex of the Scalp
+# السنامكيدات: من الإمساك إلى نقص الشعر البسيط في فروة الرأس
 
-## One-Sentence Summary
+## ملخص سريع على سطر واحد
 
-Sennosides is an anthraquinone glycoside stimulant laxative, internationally used to treat constipation by promoting colonic motility. The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale notes no known biological pathway connecting the drug to this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Constipation (stimulant laxative; not currently registered in Saudi Arabia) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | 99.29% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+السنامكيدات هو كوليكوسيد أنثراكينون ملين منبه يستخدم على الصعيد الدولي لعلاج الإمساك بتعزيز الحركة القولونية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **نقص الشعر البسيط في فروة الرأس**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور**، وتشير ملاحظات النموذج ذاته إلى عدم وجود مسار بيولوجي معروف يربط الدواء بهذا المؤشر.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data for sennosides is not available in the DrugBank record queried (flagged as a data gap). However, based on well-established pharmacological knowledge confirmed in the evidence pack's own rationale text, sennosides act as a stimulant laxative: after bacterial conversion in the colon, its active metabolites irritate the colonic mucosa and enteric nerve plexus, increasing peristalsis and bowel evacuation. This mechanism is entirely local to gastrointestinal motility, with negligible systemic absorption.
-
-Hypotrichosis simplex of the scalp is a hereditary hair follicle disorder involving disrupted follicular cycling and keratinization, unrelated to gut motility or enteric neural signaling. There is no known overlap in target pathways, receptor systems, or tissue biology between the two conditions.
-
-The evidence pack's own repurposing rationale for this candidate explicitly states there is no mechanistic support: the prediction is a pure TxGNN knowledge-graph embedding association (rank 10,379 among all drug-disease pairs), not a finding grounded in pharmacology, and no clinical or literature evidence currently exists to support it.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الإمساك (ملين منبه؛ غير مسجل حالياً في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | نقص الشعر البسيط في فروة الرأس |
+| درجة التنبؤ في TxGNN | 99.29% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | وقف التقييم |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية للسنامكيدات غير متوفرة في سجل DrugBank الذي تم الاستعلام عنه (تم تصنيفه كنقص في البيانات). ومع ذلك، بناءً على المعرفة الدوائية المعروفة جيداً والمؤكدة في نص تبرير الحزمة الدليلية نفسه، يعمل السنامكيدات كملين منبه: بعد تحويل بكتيري في القولون، تهيج استقلاباته النشطة الغشاء المخاطي للقولون والضفيرة العصبية المعوية، مما يزيد من التمعج وإفراغ الأمعاء. هذه الآلية محلية تماماً لحركية الجهاز الهضمي، مع امتصاص جهازي ضئيل للغاية.
 
----
+نقص الشعر البسيط في فروة الرأس هو اضطراب وراثي في بصيلات الشعر يتضمن دورة جريبية مضطربة وتقرن، غير مرتبط بحركية الأمعاء أو الإشارات العصبية المعوية. لا يوجد تداخل معروف في أنظمة المسارات أو الأنظمة المستقبلة أو الأحياء الأنسجية بين الحالتين.
 
-## Saudi Arabia Market Information
-
-Sennosides currently has no marketing authorization on record in Saudi Arabia (0 licenses; market status: not marketed).
+يصرح نص تبرير إعادة التوظيف في حزمة الأدلة ذاته بأنه لا يوجد دعم آلي: التنبؤ هو ارتباط تضمين رسم بياني معرفة TxGNN محض (الترتيب 10,379 بين جميع أزواج الأدوية والأمراض)، وليس نتيجة مستندة إلى العلم الدوائي، ولا توجد حالياً أي أدلة سريرية أو أدبية لدعمه.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data were not available in the sources queried — TFDA package insert retrieval and DDI database lookup both returned no results.)*
+لا توجد حالياً أي تجارب سريرية مرتبطة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+لا توجد حالياً أي أدبيات ذات صلة متاحة.
 
-**Rationale:**
-Despite a high TxGNN similarity score, this candidate has zero supporting clinical trials or literature, no plausible mechanistic link between colonic stimulant laxative activity and hereditary hair follicle disorders, and the drug is not currently marketed in the target region. The evidence pack's own scoring already classifies this as L5/S0 with a Hold recommendation.
+---
 
-**To proceed, the following is needed:**
-- Confirmed DrugBank/TFDA mechanism-of-action data for sennosides
-- Saudi Arabia (SFDA) package insert with warnings, contraindications, and DDI profile
-- Preclinical or mechanistic studies linking anthraquinone laxatives to hair follicle biology, if any exist
-- Continued literature/trial surveillance, given current zero-evidence status across PubMed, ClinicalTrials.gov, and ICTRP
+## معلومات سوق المملكة العربية السعودية
 
-*Note: five other TxGNN-predicted indications for sennosides (congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, primary hereditary glaucoma, and alopecia) were also reviewed and share the same L5/S0/Hold status — none have drug-specific clinical or literature evidence to date.*
+السنامكيدات لا يوجد له حالياً تفويض تسويقي مسجل في المملكة العربية السعودية (0 رخصة؛ حالة السوق: غير مسوق).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+*(لم تكن بيانات التحذيرات الرئيسية والموانع وملف تفاعلات الأدوية متوفرة في المصادر التي تم الاستعلام عنها — كل من عملية استرجاع نشرة إدارة الغذاء والدواء السعودية وبحث قاعدة بيانات تفاعلات الأدوية لم تسفر عن نتائج.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقف التقييم**
+
+**التبرير:**
+على الرغم من درجة تشابه عالية في TxGNN، فإن هذا المرشح يفتقر إلى أي تجارب سريرية أو أدبيات داعمة، ولا يوجد رابط آلي معقول بين نشاط الملين المنبه القولوني واضطرابات بصيلات الشعر الوراثية، والدواء غير مسوق حالياً في المنطقة المستهدفة. تصنيف حزمة الأدلة ذاتها لهذا المرشح بالفعل ضمن L5/S0 مع توصية وقف التقييم.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل المؤكدة من DrugBank/إدارة الغذاء والدواء السعودية للسنامكيدات
+- النشرة الطبية لإدارة الغذاء والدواء السعودية مع التحذيرات والموانع وملف تفاعلات الأدوية
+- الدراسات السابقة للتجارب السريرية أو الدراسات الآلية التي تربط ملينات الأنثراكينون ببيولوجيا بصيلات الشعر، إن وجدت
+- المراقبة المستمرة للأدبيات والتجارب، نظراً لحالة الصفر-أدلة الحالية عبر PubMed و ClinicalTrials.gov و ICTRP
+
+*ملاحظة: تمت مراجعة خمسة مؤشرات أخرى متنبأ بها من TxGNN للسنامكيدات (نقص الشعر الخلقي مع الدخينات، الثعلبة المنتشرة، الجلوكوما مفتوحة الزاوية، الجلوكوما الوراثية الأساسية، والثعلبة) وتتشارك جميعها في نفس حالة L5/S0/وقف التقييم — ولا تملك أي منها أدلة سريرية أو أدبية خاصة بالعقار حتى الآن.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

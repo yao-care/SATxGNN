@@ -29,75 +29,76 @@ indication_count: 1
 
 </div>
 
-# Letermovir: From CMV Prophylaxis to Vulvovaginal Candidiasis
+# لترموفير: من الوقاية من الفيروس المضخم للخلايا إلى داء المبيضات المهبلي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Letermovir is an antiviral agent (CMV terminase complex inhibitor) used for cytomegalovirus prophylaxis; no structured original-indication text is available in this evidence pack, but DrugBank and package-insert sources confirm its antiviral (anti-CMV) use.
-> The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the drug's known mechanism (viral terminase inhibition) has no plausible biological link to an antifungal target.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not structured in this data pack; known use is CMV (cytomegalovirus) prophylaxis, per DrugBank/package insert reference cited in the evidence pack |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> لترموفير هو عامل مضاد للفيروسات (مثبط مركب ترمينيز الفيروس المضخم للخلايا) يستخدم للوقاية من الفيروس المضخم للخلايا؛ لا يتوفر نص منظم عن المؤشر الأصلي في هذه الحزمة الإثباتية، لكن مصادر DrugBank والنشرات الدوائية تؤكد استخدامه المضاد للفيروسات (المضاد لفيروس CMV).
+> يتوقع نموذج TxGNN أن يكون فعالاً لـ **داء المبيضات المهبلي**،
+> لكن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و **0 منشورات علمية**، وآلية عمل الدواء المعروفة (تثبيط ترمينيز الفيروسات) ليس لها ارتباط بيولوجي معقول بأي هدف مضاد للفطريات.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in structured form (`original_moa = [Data Gap]`). Based on the evidence pack's own repurposing rationale, letermovir is known to act as an inhibitor of the CMV terminase complex (pUL51/pUL56/pUL89), blocking herpesvirus DNA packaging and cleavage — a virus-specific target with no known homolog in humans or fungi.
-
-Vulvovaginal candidiasis is caused by *Candida* spp., whose pathogenic mechanism involves fungal-specific pathways such as ergosterol synthesis (e.g., CYP51/lanosterol demethylase). There is no known overlap between the CMV terminase complex and any fungal drug target.
-
-**This prediction should be interpreted with caution.** The mechanistic rationale supplied alongside this candidate explicitly concludes there is no plausible biological link between letermovir's known antiviral mechanism and antifungal activity against *Candida*. The signal is driven purely by the TxGNN network prediction score (99.88%) and is not corroborated by any mechanistic, clinical, or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير منظم في هذه الحزمة البيانية؛ الاستخدام المعروف هو الوقاية من CMV (الفيروس المضخم للخلايا)، وفقاً لمصادر DrugBank والنشرة الدوائية المشار إليها في الحزمة الإثباتية |
+| المؤشر الجديد المتنبأ به | داء المبيضات المهبلي |
+| درجة التنبؤ من TxGNN | 99.88% |
+| مستوى الأدلة | L5 (تنبؤ نموذج فقط، بدون دعم سريري أو أدبي) |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | ننتظر |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة بشكل منظم (`original_moa = [Data Gap]`). بناءً على الأساس المنطقي لإعادة تمويل الأدوية في الحزمة الإثباتية، يُعرف أن لترموفير يعمل كمثبط لمركب ترمينيز فيروس CMV (pUL51/pUL56/pUL89)، مما يحجب تغليف الحمض النووي للفيروس الهربسي والانقسام — وهو هدف فيروسي محدد بدون نظير معروف في الإنسان أو الفطريات.
 
----
+داء المبيضات المهبلي ناجم عن *Candida* spp.، حيث تتضمن آليته المرضية مسارات محددة للفطريات مثل تخليق الإرغوستيرول (على سبيل المثال، CYP51/lanosterol demethylase). لا يوجد تداخل معروف بين مركب ترمينيز فيروس CMV وأي هدف عقار مضاد للفطريات.
 
-## Saudi Arabia Market Information
-
-Letermovir is not currently marketed in Saudi Arabia (0 authorizations on file); no product license records are available to summarize.
+**يجب تفسير هذا التنبؤ بحذر.** الأساس المنطقي الآلي المرفق مع هذا المرشح ينصّ صراحة على عدم وجود ارتباط بيولوجي معقول بين آلية عمل لترموفير المضادة للفيروسات المعروفة والنشاط المضاد للفطريات ضد *Candida*. الإشارة يتم تشغيلها بحتة عن طريق درجة التنبؤ من شبكة TxGNN (99.88%) وليست مؤيدة بأي دليل آلي أو سريري أو أدبي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+حالياً لا تتوفر أدبيات ذات صلة
 
-**Rationale:**
-The predicted indication has no clinical trial or literature support (Evidence Level L5), and — more importantly — the mechanistic rationale accompanying this candidate indicates no plausible biological link between letermovir's known antiviral (CMV terminase inhibition) mechanism and antifungal activity against *Candida*. The drug is also not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a Blocking data gap (DG001), required before any S1 safety pre-assessment
-- Confirmed, structured original-indication and MOA data from DrugBank (DG002)
-- New mechanistic or preclinical evidence directly linking letermovir to antifungal activity before further evidence generation is justified — absent such evidence, this candidate is not recommended for prioritization
+## معلومات السوق في المملكة العربية السعودية
+
+لترموفير غير مسوقة حالياً في المملكة العربية السعودية (0 ترخيص على الملف)؛ لا توجد سجلات ترخيص المنتج المتاحة لتلخيصها.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: ننتظر**
+
+**المبرر:**
+المؤشر المتنبأ به لا يوجد له أي دعم تجارب سريرية أو أدبية (مستوى الأدلة L5)، وبالأهم من ذلك — الأساس المنطقي الآلي المرفق مع هذا المرشح يشير إلى عدم وجود ارتباط بيولوجي معقول بين آلية لترموفير المعروفة المضادة للفيروسات (تثبيط ترمينيز CMV) والنشاط المضاد للفطريات ضد *Candida*. الدواء أيضاً غير مسوقة حالياً في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة الدوائية من TFDA/SFDA (التحذيرات، موانع الاستخدام) — حالياً فجوة بيانات حاجزة (DG001)، مطلوبة قبل أي تقييم سلامة S1 أولي
+- بيانات المؤشر الأصلي والآلية المؤكدة والمنظمة من DrugBank (DG002)
+- دليل آلي أو سلف سريري جديد يربط مباشرة لترموفير بالنشاط المضاد للفطريات قبل تبرير توليد أدلة إضافية — في غياب مثل هذه الأدلة، لا يُنصح بأولوية هذا المرشح
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

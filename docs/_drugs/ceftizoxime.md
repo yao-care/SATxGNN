@@ -29,88 +29,89 @@ indication_count: 6
 
 </div>
 
-# Ceftizoxime: From Broad-Spectrum Bacterial Infections to Gonococcal Urethritis
+# Ceftizoxime: من العدوى البكتيرية الواسعة الطيف إلى التهاب الإحليل السيلاني
 
-> **Editorial Note:** The TxGNN model's top-ranked prediction for Ceftizoxime is Ureaplasma urethritis (Rank 1). However, this was deprioritized because beta-lactam antibiotics have no activity against Ureaplasma urealyticum — an organism that lacks a cell wall entirely, the very target of cephalosporin drugs. The first clinically actionable prediction is **Gonococcal Urethritis** (Rank 2, identical TxGNN score), which is supported by strong mechanistic rationale and multiple published clinical trials. This report focuses on that candidate.
-
----
-
-## One-Sentence Summary
-
-Ceftizoxime is a third-generation cephalosporin antibiotic with broad-spectrum bactericidal activity against gram-negative and gram-positive organisms, historically used for a wide range of serious bacterial infections.
-The TxGNN model predicts it may be effective for **Gonococcal Urethritis**, with **no registered clinical trials** but **11 publications** — including at least 4 direct clinical trials demonstrating 100% cure rates — currently supporting this direction.
+> **ملاحظة افتتاحية:** يتنبأ نموذج TxGNN برتبة الأول بأن Ceftizoxime فعال لالتهاب الإحليل بالـ Ureaplasma (الرتبة 1). إلا أن هذا تم تأجيله لأن المضادات الحيوية بيتا-لاكتام ليس لها نشاط ضد Ureaplasma urealyticum — وهو كائن يفتقر تماماً إلى جدار الخلية، وهو الهدف بالذات لأدوية السيفالوسبورين. أول تنبؤ قابل للعمل السريري هو **التهاب الإحليل السيلاني** (الرتبة 2، درجة TxGNN متطابقة)، وهو مدعوم بأساس ميكانيكي قوي وتجارب سريرية منشورة متعددة. يركز هذا التقرير على هذا المرشح.
 
 ---
 
-## Quick Overview
+## ملخص الجملة الواحدة
 
-| Item | Content |
+Ceftizoxime هو مضاد حيوي من السيفالوسبورينات من الجيل الثالث ذو نشاط جرثومي قاتل واسع الطيف ضد الكائنات الموجبة والسالبة لصبغة جرام، استُخدم تاريخياً لمجموعة واسعة من العدوى البكتيرية الخطيرة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الإحليل السيلاني**، مع **عدم وجود تجارب سريرية مسجلة** لكن **11 منشور** — بما فيها على الأقل 4 تجارب سريرية مباشرة تُظهر معدلات شفاء 100% — تدعم حالياً هذا الاتجاه.
+
+---
+
+## نظرة عامة سريعة
+
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Broad-spectrum bacterial infections (third-generation cephalosporin class) |
-| Predicted New Indication | Gonococcal Urethritis |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | العدوى البكتيرية واسعة الطيف (فئة السيفالوسبورينات من الجيل الثالث) |
+| المؤشر الجديد المتنبأ به | التهاب الإحليل السيلاني |
+| درجة تنبؤ TxGNN | 99.91% |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مُسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضوابط |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Formal mechanism of action data is not available in this Evidence Pack for Ceftizoxime. Based on established pharmaceutical knowledge, Ceftizoxime is a third-generation cephalosporin antibiotic that exerts its bactericidal effect by binding to penicillin-binding proteins (PBPs) on the bacterial cell membrane, blocking the final cross-linking step of peptidoglycan cell wall synthesis. This leads to bacterial lysis and death. A key structural advantage of Ceftizoxime is its high stability against bacterial beta-lactamases — enzymes that inactivate older penicillins and first-generation cephalosporins.
+بيانات آلية العمل الرسمية غير متوفرة في هذه الحزمة البحثية لـ Ceftizoxime. بناءً على المعرفة الصيدلانية المؤسسة، Ceftizoxime هو مضاد حيوي من السيفالوسبورينات من الجيل الثالث يُحدِث تأثيره الجرثومي القاتل بالارتباط ببروتينات ربط البنسلين (PBPs) على غشاء الخلية البكتيرية، مما يحجب المرحلة النهائية من الربط المتشابك لتخليق جدار ببتيدوجليكان. وهذا يؤدي إلى تحلل البكتيريا وموتها. ميزة هيكلية أساسية لـ Ceftizoxime هي استقراره العالي ضد بيتا-لاكتاماز البكتيري — الإنزيمات التي تُعطّل البنسلينات الأقدم والسيفالوسبورينات من الجيل الأول.
 
-Gonococcal urethritis is caused by *Neisseria gonorrhoeae*, a gram-negative diplococcus with a peptidoglycan cell wall — precisely the target of Ceftizoxime's mechanism. The drug demonstrates an exceptionally low minimum inhibitory concentration (MIC₉₀ ≈ 0.004 µg/mL) against *N. gonorrhoeae*, well below serum levels achievable with a single 1 g intramuscular dose. Critically, this activity is maintained even against penicillinase-producing *N. gonorrhoeae* (PPNG) strains, which became a major clinical challenge in the 1980s as penicillin-based regimens began to fail. The CDC once listed Ceftizoxime as an acceptable alternative to Ceftriaxone for uncomplicated gonorrhea.
+التهاب الإحليل السيلاني ناتج عن *Neisseria gonorrhoeae*، ثنائي كرة سالب الجرام مع جدار ببتيدوجليكان — هدف Ceftizoxime بالذات. يُظهر الدواء حداً أدنى استثنائياً من تركيز المنع (MIC₉₀ ≈ 0.004 µg/mL) ضد *N. gonorrhoeae*، بعيداً جداً تحت مستويات المصل القابلة للتحقق مع جرعة واحدة 1 جم عضل. بشكل حاسم، يتم الحفاظ على هذا النشاط حتى ضد سلالات *N. gonorrhoeae* المُنتجة لبنسلينيز (PPNG)، والتي أصبحت تحدياً سريرياً رئيسياً في الثمانينيات مع بدء فشل أنظمة البنسلين. قد يسرد مركز السيطرة على الأمراض (CDC) Ceftizoxime كبديل قابل للقبول لـ Ceftriaxone لعلاج السيلان غير المعقد.
 
-The mechanistic link between Ceftizoxime and gonococcal urethritis is among the strongest possible for a drug repurposing candidate: the drug targets the essential biological structure of the causative pathogen with documented in vitro potency confirmed by clinical outcomes. This is not a distant mechanistic extrapolation but a direct pharmacological match. The TxGNN model's high prediction score (99.91%) reflects this tight biological relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered on ClinicalTrials.gov or ICTRP.
-
-*Most clinical evidence for Ceftizoxime in gonococcal urethritis was generated in the pre-registration era (1983–1991), before routine clinical trial registration was adopted globally.*
+الارتباط الآلي بين Ceftizoxime والتهاب الإحليل السيلاني من بين الأقوى الممكنة لمرشح إعادة توظيف دواء: يستهدف الدواء البنية البيولوجية الأساسية للممرض المسبب مع فعالية موثقة تؤكدها النتائج السريرية. ليست هذه استقراءاً ميكانيكياً بعيداً بل تطابقاً صيدلانياً مباشراً. درجة تنبؤ نموذج TxGNN العالية (99.91%) تعكس هذه العلاقة البيولوجية الوثيقة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة على ClinicalTrials.gov أو ICTRP.
+
+*معظم الأدلة السريرية لـ Ceftizoxime في التهاب الإحليل السيلاني تم إنشاؤها في عصر ما قبل التسجيل (1983–1991)، قبل اعتماد تسجيل التجارب السريرية الروتيني على مستوى العالم.*
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [2264006](https://pubmed.ncbi.nlm.nih.gov/2264006/) | 1990 | Clinical Trial | Sex Transm Dis | 175 males with culture-confirmed gonococcal urethritis in Los Angeles (high PPNG prevalence area) treated with single-dose Ceftizoxime; demonstrated efficacy comparable to CDC-recommended Ceftriaxone |
-| [1948517](https://pubmed.ncbi.nlm.nih.gov/1948517/) | 1991 | Comparative Clinical Trial | Sex Transm Dis | Head-to-head comparison of single-dose Ceftizoxime vs. Ceftriaxone for uncomplicated urethral gonorrhea; confirmed comparable efficacy against both beta-lactamase-positive and negative strains of *N. gonorrhoeae* |
-| [6324399](https://pubmed.ncbi.nlm.nih.gov/6324399/) | 1984 | Clinical Trial | Sex Transm Dis | 55 men with culture-proved gonococcal urethritis (47% PPNG) treated with 1 g IM Ceftizoxime; 100% cure rate with no local or systemic adverse effects; established as effective alternative to spectinomycin and cefoxitin |
-| [6325750](https://pubmed.ncbi.nlm.nih.gov/6325750/) | 1983 | Clinical Evaluation | Jpn J Antibiot | 41 Japanese males including 15% PPNG strains; bacteriological and clinical evaluation of Ceftizoxime plus probenecid regimen in gonorrheal urethritis; early evidence of broad strain coverage |
-| [6092006](https://pubmed.ncbi.nlm.nih.gov/6092006/) | 1984 | In vitro + In vivo | Chemotherapy | Susceptibility testing of 102 freshly isolated *N. gonorrhoeae* strains; MIC₉₀ = 0.004 µg/mL — high-potency activity confirmed against penicillin-resistant strains; serum levels after IM dosing far exceed therapeutic threshold |
-| [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | Resistance Surveillance | J Infect Chemother | First documented emergence of cephem- and aztreonam-high-resistant *N. gonorrhoeae* not producing beta-lactamase in Japan; Ceftizoxime MIC monitoring identified as critical surveillance target — relevant to current resistance assessment |
-| [23416957](https://pubmed.ncbi.nlm.nih.gov/23416957/) | 2013 | Case Series | J Antimicrob Chemother | First two extended-spectrum cephalosporin (ESC)-resistant *N. gonorrhoeae* cases in South Africa, one with confirmed cefixime treatment failure; highlights the importance of regional resistance surveillance before deploying any third-generation cephalosporin for gonorrhea |
-| [2122657](https://pubmed.ncbi.nlm.nih.gov/2122657/) | 1990 | Comparative Study | Acta Urol Jpn | Epidemiological and therapeutic study of 109 gonococcal infections using cefetamet pivoxil (a structurally related cephalosporin); supports class-level evidence and highlights co-infection rates with Chlamydia requiring combination therapy |
-| [1416861](https://pubmed.ncbi.nlm.nih.gov/1416861/) | 1992 | Dose-Response Trial | Antimicrob Agents Chemother | Oral cefpodoxime proxetil (expanded-spectrum cephalosporin) achieved 100% *N. gonorrhoeae* eradication across all doses in 50 evaluable patients, including beta-lactamase-producing organisms; supports cephalosporin class efficacy in gonorrhea |
-| [2111660](https://pubmed.ncbi.nlm.nih.gov/2111660/) | 1990 | Dose-Comparison Trial | Antimicrob Agents Chemother | Cefetamet pivoxil single oral dose in gonococcal urethritis; 100% cure rate across dose groups; Chlamydia trachomatis co-infection detected in 3/31 patients — underscores the need for concurrent Chlamydia coverage in any gonorrhea regimen |
+| [2264006](https://pubmed.ncbi.nlm.nih.gov/2264006/) | 1990 | تجربة سريرية | Sex Transm Dis | 175 ذكراً يعانون من التهاب إحليل سيلاني مؤكد بالزراعة في لوس أنجلس (منطقة بانتشار عالٍ من PPNG) تم علاجهم بجرعة واحدة من Ceftizoxime؛ أظهرت فعالية مقارنة بـ Ceftriaxone الموصى به من قِبل CDC |
+| [1948517](https://pubmed.ncbi.nlm.nih.gov/1948517/) | 1991 | تجربة سريرية مقارنة | Sex Transm Dis | مقارنة مباشرة لجرعة واحدة من Ceftizoxime مقابل Ceftriaxone لعلاج السيلان الإحليلي غير المعقد؛ أكدت الفعالية المقارنة ضد كل من السلالات المُنتجة لبيتا-لاكتاماز والسلبية لبيتا-لاكتاماز من *N. gonorrhoeae* |
+| [6324399](https://pubmed.ncbi.nlm.nih.gov/6324399/) | 1984 | تجربة سريرية | Sex Transm Dis | 55 رجلاً يعانون من التهاب إحليل سيلاني مثبت بالزراعة (47% PPNG) تم علاجهم بـ 1 جم عضل من Ceftizoxime؛ معدل شفاء 100% بدون أعراض جانبية موضعية أو جهازية؛ ثُبّتَ كبديل فعّال لـ spectinomycin والـ cefoxitin |
+| [6325750](https://pubmed.ncbi.nlm.nih.gov/6325750/) | 1983 | تقييم سريري | Jpn J Antibiot | 41 ذكراً يابانياً بما فيهم 15% سلالات PPNG؛ التقييم الجرثومي والسريري لنظام Ceftizoxime بالإضافة إلى probenecid في التهاب الإحليل السيلاني؛ دليل مبكر على التغطية الواسعة للسلالات |
+| [6092006](https://pubmed.ncbi.nlm.nih.gov/6092006/) | 1984 | In vitro + In vivo | Chemotherapy | اختبار حساسية 102 سلالة *N. gonorrhoeae* معزولة حديثاً؛ MIC₉₀ = 0.004 µg/mL — نشاط عالي الفعالية مؤكد ضد السلالات المقاومة للبنسلين؛ مستويات المصل بعد الجرعة العضلية تتجاوز بكثير عتبة المعالجة |
+| [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | مراقبة المقاومة | J Infect Chemother | ظهور الأول لـ *N. gonorrhoeae* المقاومة للـ cephem وaztreonam العالية وغير المُنتجة لبيتا-لاكتاماز في اليابان؛ تم تحديد مراقبة MIC لـ Ceftizoxime كهدف مراقبة حرجة — ذو صلة بتقييم المقاومة الحالي |
+| [23416957](https://pubmed.ncbi.nlm.nih.gov/23416957/) | 2013 | سلسلة حالات | J Antimicrob Chemother | أول حالتي *N. gonorrhoeae* مقاومة للسيفالوسبورينات واسعة الطيف (ESC) في جنوب أفريقيا، إحداها مع فشل علاج cefixime مؤكد؛ يبرز أهمية مراقبة المقاومة الإقليمية قبل نشر أي سيفالوسبورين من الجيل الثالث لعلاج السيلان |
+| [2122657](https://pubmed.ncbi.nlm.nih.gov/2122657/) | 1990 | دراسة مقارنة | Acta Urol Jpn | دراسة وبائية وعلاجية لـ 109 عدوى سيلانية باستخدام cefetamet pivoxil (سيفالوسبورين مرتبط هيكلياً)؛ يدعم دليل مستوى الفئة ويبرز معدلات العدوى المشتركة مع Chlamydia التي تتطلب العلاج المشترك |
+| [1416861](https://pubmed.ncbi.nlm.nih.gov/1416861/) | 1992 | تجربة استجابة الجرعة | Antimicrob Agents Chemother | cefpodoxime proxetil الفموي (سيفالوسبورين موسّع الطيف) حقق استئصال *N. gonorrhoeae* بنسبة 100% عبر جميع الجرعات في 50 مريضاً قابلاً للتقييم، بما فيها الكائنات المُنتجة لبيتا-لاكتاماز؛ يدعم فعالية فئة السيفالوسبورين في السيلان |
+| [2111660](https://pubmed.ncbi.nlm.nih.gov/2111660/) | 1990 | تجربة مقارنة الجرعات | Antimicrob Agents Chemother | cefetamet pivoxil الفموي بجرعة واحدة في التهاب الإحليل السيلاني؛ معدل شفاء 100% عبر جميع مجموعات الجرعات؛ تم الكشف عن عدوى Chlamydia trachomatis المشتركة في 3/31 مريضاً — يبرز الحاجة إلى تغطية Chlamydia المتزامنة في أي نظام علاج للسيلان |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضوابط**
 
-**Rationale:**
-Multiple published clinical trials from the 1980s–1990s demonstrate 100% cure rates with a single 1 g intramuscular dose of Ceftizoxime for uncomplicated gonococcal urethritis, including against penicillinase-producing strains (PPNG). The pharmacological mechanism (PBP inhibition with high beta-lactamase stability, MIC₉₀ ≈ 0.004 µg/mL against *N. gonorrhoeae*) is well-characterized and directly applicable. The CDC historically recognized Ceftizoxime as an alternative to Ceftriaxone, providing a regulatory precedent.
+**الأساس المنطقي:**
+تُظهر تجارب سريرية منشورة متعددة من الثمانينيات والتسعينيات معدلات شفاء 100% بجرعة واحدة 1 جم عضل من Ceftizoxime لعلاج التهاب الإحليل السيلاني غير المعقد، بما فيها ضد السلالات المُنتجة لبنسلينيز (PPNG). آلية العمل الصيدلانية (تثبيط PBP مع استقرار عالٍ ضد بيتا-لاكتاماز، MIC₉₀ ≈ 0.004 µg/mL ضد *N. gonorrhoeae*) جيدة التوصيف وقابلة للتطبيق مباشرة. اعترفت CDC تاريخياً بـ Ceftizoxime كبديل لـ Ceftriaxone، توفير سابقة تنظيمية.
 
-**To proceed, the following is needed:**
+**لمتابعة الأمور، ما يلي مطلوب:**
 
-- **Current resistance surveillance**: All supporting studies are from 1983–2001; contemporary *N. gonorrhoeae* resistance data for the target region (Saudi Arabia) must be obtained before clinical use, as resistance patterns have shifted significantly and ESC-resistant strains have emerged globally
-- **Regulatory pathway**: Ceftizoxime is not marketed in Saudi Arabia (0 licenses); a formal import, compassionate use, or registration pathway must be established
-- **Safety documentation**: Package insert warnings, contraindications, and renal dosing adjustments must be retrieved and reviewed (currently a data gap)
-- **Co-infection management protocol**: *Chlamydia trachomatis* co-infection is common in patients presenting with gonococcal urethritis; Ceftizoxime does not cover Chlamydia and must be co-administered with azithromycin or doxycycline — a combination regimen SOP is required
-- **Formulation availability assessment**: Ceftizoxime is an injectable (IM/IV) agent; cold-chain logistics and administration feasibility in the target clinical setting must be confirmed
+- **مراقبة المقاومة الحالية**: جميع الدراسات الداعمة من 1983–2001؛ يجب الحصول على بيانات مقاومة *N. gonorrhoeae* المعاصرة للمنطقة المستهدفة (المملكة العربية السعودية) قبل الاستخدام السريري، حيث تحولت أنماط المقاومة بشكل كبير وظهرت سلالات مقاومة ESC عالمياً
+- **المسار التنظيمي**: Ceftizoxime غير مُسوّق في المملكة العربية السعودية (0 رخصة)؛ يجب تأسيس مسار رسمي للاستيراد أو الاستخدام الرحيم أو التسجيل
+- **توثيق السلامة**: يجب استرجاع واستعراض تحذيرات النشرة الداخلية والموانع والتعديلات في الجرعات الكلوية (فجوة بيانات حالية)
+- **بروتوكول إدارة العدوى المشتركة**: عدوى *Chlamydia trachomatis* المشتركة شائعة لدى المرضى الذين يعانون من التهاب الإحليل السيلاني؛ Ceftizoxime لا يغطي Chlamydia ويجب إدارته بالاشتراك مع azithromycin أو doxycycline — مطلوب SOP نظام علاج مشترك
+- **تقييم توفر الصيغة**: Ceftizoxime هو عامل قابل للحقن (IM/IV)؛ يجب تأكيد لوجستيات السلسلة الباردة والجدوى الإدارية في الإعداد السريري المستهدف
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

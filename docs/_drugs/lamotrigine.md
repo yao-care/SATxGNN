@@ -29,92 +29,93 @@ indication_count: 9
 
 </div>
 
-# Lamotrigine: From Epilepsy to Trigeminal Neuralgia
+# لاموتريجين: من الصرع إلى الألم العصبي ثلاثي التوائم
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Lamotrigine is a sodium-channel-blocking anticonvulsant established for epilepsy and bipolar disorder maintenance therapy.
-> The TxGNN model predicts it may be effective for **Trigeminal Neuralgia**,
-> with **4 clinical trials** (including a completed Phase 2/3 head-to-head trial and a placebo-controlled RCT) and **19 publications** currently supporting this direction.
+> لاموتريجين هو مضاد اختلاج يحجب قنوات الصوديوم الموثقة للصرع والعلاج الصيانة لاضطراب ثنائي القطب.
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **الألم العصبي ثلاثي التوائم**،
+> مع **4 تجارب سريرية** (بما في ذلك تجربة مرحلة 2/3 مكتملة مقارنة مباشرة وتجربة عشوائية مضبوطة بالعلاج الوهمي) و **19 منشوراً** تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Epilepsy (partial/generalized seizures) and bipolar disorder — per literature evidence in this pack; not verified against a Saudi regulatory source, as the drug is not currently marketed there |
-| Predicted New Indication | Trigeminal Neuralgia |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | الصرع (النوبات الجزئية/الموسعة) واضطراب ثنائي القطب — وفقاً لأدلة الأدبيات في هذه المجموعة؛ لم يتم التحقق من مصدر تنظيمي سعودي، حيث أن الدواء غير مسوق حالياً هناك |
+| المؤشر الجديد المتنبأ به | الألم العصبي ثلاثي التوائم |
+| درجة التنبؤ من TxGNN | 99.89% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-The TxGNN model's single highest-scoring prediction for lamotrigine is actually "trigeminal nerve neoplasm" (99.97%), but this candidate has zero clinical trials, zero relevant literature, and its own rationale flags it as a likely ontology mismatch (neuralgia vs. neoplasm confusion in the underlying disease vocabulary) — it is scored L5/Hold. The second-ranked prediction, **trigeminal neuralgia** (99.89%), has a materially stronger evidence base and is the focus of this report.
+التنبؤ ذو الدرجة الأعلى الفردية لنموذج TxGNN للاموتريجين هو في الواقع "ورم العصب ثلاثي التوائم" (99.97%)، لكن هذا المرشح لديه صفر تجارب سريرية وصفر أدبيات ذات صلة، وعلاقته المنطقية بالذات تشير إليه كعدم تطابق محتمل في المعجم (الخلط بين الألم العصبي والورم في المفردات الطبية الأساسية) — يتم تصنيفه L5/Hold. التنبؤ الثاني التصنيف، **الألم العصبي ثلاثي التوائم** (99.89%)، لديه قاعدة أدلة أقوى بشكل ملموس وهو محور هذا التقرير.
 
-Detailed formal mechanism-of-action documentation for lamotrigine was not retrievable in this evidence pack (DrugBank query gap, DG002). Based on the information available across the supporting literature, lamotrigine is a voltage-gated sodium-channel blocker that suppresses abnormal neuronal firing and excessive glutamate release — the same broad mechanistic class as carbamazepine and oxcarbazepine, the first-line drugs for trigeminal neuralgia (TN).
+لم تتمكن من استرجاع التوثيق الرسمي الشامل لآلية عمل لاموتريجين في هذه مجموعة الأدلة (فجوة استعلام DrugBank، DG002). بناءً على المعلومات المتاحة عبر الأدبيات الداعمة، لاموتريجين هو محجب لقنوات الصوديوم المعتمدة على الجهد الكهربائي الذي يقمع إطلاق الخلايا العصبية الشاذة والمفرطة للجلوتامات — نفس الفئة الميكانيكية الموسعة مثل كاربامازيبين وأوكسكاربازيبين، أدوية الخط الأول للألم العصبي ثلاثي التوائم (TN).
 
-This mechanistic overlap explains why lamotrigine has already been trialed clinically as an add-on or alternative TN therapy: a completed Phase 2/3 study (NCT00913107) compared it head-to-head with carbamazepine, and a separate placebo-controlled add-on study (NCT00203229) tested Lamictal specifically in TN patients. Multiple published reviews and a case report of combination therapy (pregabalin + lamotrigine) in refractory TN reinforce the biological plausibility, even though lamotrigine remains an off-label option relative to carbamazepine/oxcarbazepine in most guidelines.
+يفسر هذا التداخل الميكانيكي السبب في أن لاموتريجين قد جرى تجربته سريرياً بالفعل كإضافة أو دواء بديل لعلاج TN: دراسة مكتملة المرحلة 2/3 (NCT00913107) قارنت بينه وبين كاربامازيبين، ودراسة منفصلة مضبوطة بالعلاج الوهمي (NCT00203229) اختبرت Lamictal تحديداً في مرضى TN. تدعم المراجع المنشورة المتعددة وتقرير حالة للعلاج المركب (بريجابالين + لاموتريجين) في حالات TN المقاومة للعلاج الصلاحية البيولوجية، حتى وإن ظل لاموتريجين خياراً خارج المؤشرات الموصوفة بالنسبة إلى كاربامازيبين/أوكسكاربازيبين في معظم الإرشادات.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) | Phase 2/3 | Completed | 21 | Direct comparison of lamotrigine vs. carbamazepine for efficacy and safety in trigeminal neuralgia (TGN). |
-| [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) | N/A | Completed | 20 | Double-blind, placebo-controlled add-on study of Lamictal (lamotrigine) in patients with trigeminal neuralgia (tic douloureux). |
-| [NCT00243152](https://clinicaltrials.gov/study/NCT00243152) | N/A | Completed | 6 | fMRI-based evaluation of lamotrigine's effect on neuropathic facial pain/neuralgia; mechanistic, small-sample, not a primary efficacy endpoint study. |
-| [NCT04996199](https://clinicaltrials.gov/study/NCT04996199) | Phase 4 | Unknown | 132 | Compares carbamazepine vs. oxcarbazepine (first-choice TN drugs); does not include a lamotrigine arm — indirect/competitor-drug relevance only. |
+| [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) | مرحلة 2/3 | مكتملة | 21 | المقارنة المباشرة بين لاموتريجين وكاربامازيبين لتقييم الفعالية والأمان في الألم العصبي ثلاثي التوائم. |
+| [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) | غير محدد | مكتملة | 20 | دراسة عمياء مزدوجة مضبوطة بالعلاج الوهمي لإضافة Lamictal (لاموتريجين) في المرضى الذين يعانون من الألم العصبي ثلاثي التوائم. |
+| [NCT00243152](https://clinicaltrials.gov/study/NCT00243152) | غير محدد | مكتملة | 6 | تقييم قائم على التصوير بالرنين المغناطيسي الوظيفي لتأثير لاموتريجين على الألم الوجهي العصبي/الألم العصبي؛ ميكانيكي، عينة صغيرة، لا يمثل دراسة نقطة نهاية أولية للفعالية. |
+| [NCT04996199](https://clinicaltrials.gov/study/NCT04996199) | مرحلة 4 | غير محدد | 132 | يقارن كاربامازيبين مقابل أوكسكاربازيبين (أدوية الخيار الأول لـ TN)؛ لا يتضمن ذراع لاموتريجين — الارتباط غير المباشر/المنتجات المنافسة فقط. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [21621166](https://pubmed.ncbi.nlm.nih.gov/21621166/) | 2011 | Comparative study | Journal of the Chinese Medical Association | Direct comparison of lamotrigine (LTG) vs. carbamazepine (CBZ) for efficacy and side-effect profile in TN patients. |
-| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | Guideline | European Journal of Neurology | European Academy of Neurology guideline on TN management, covering pharmacological options across specialties. |
-| [30081317](https://pubmed.ncbi.nlm.nih.gov/30081317/) | 2018 | Case report | Multiple Sclerosis and Related Disorders | Refractory TN in an MS patient successfully treated with combination therapy (pregabalin + lamotrigine) after carbamazepine intolerance. |
-| [38246671](https://pubmed.ncbi.nlm.nih.gov/38246671/) | 2024 | Review | No Shinkei Geka (Neurological Surgery) | Reviews TN pharmacotherapy; notes lamotrigine (along with baclofen, IV lidocaine, botulinum toxin) as an effective off-label alternative to carbamazepine. |
-| [30178160](https://pubmed.ncbi.nlm.nih.gov/30178160/) | 2018 | Review | Drugs | Evidence-based review of current and innovative pharmacological options for typical and atypical TN. |
-| [37892981](https://pubmed.ncbi.nlm.nih.gov/37892981/) | 2023 | Systematic Review | Biomedicines | Umbrella review of drugs used for TN, evaluating efficacy and side effects across prior reviews and meta-analyses. |
-| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Review of Neurotherapeutics | Update on TN pharmacotherapy; discusses limitations of carbamazepine/oxcarbazepine and emerging alternatives. |
-| [34108244](https://pubmed.ncbi.nlm.nih.gov/34108244/) | 2021 | Review | Practical Neurology | Practical guide to TN diagnosis, subclassification, and medical/surgical treatment decision-making. |
-| [31908187](https://pubmed.ncbi.nlm.nih.gov/31908187/) | 2020 | Review | Molecular Pain | Overview of TN pathophysiology through to pharmacological treatment approaches. |
-| [34003166](https://pubmed.ncbi.nlm.nih.gov/34003166/) | 2021 | Review | Neurology India | Overview of medical management strategies for trigeminal neuralgia. |
+| [21621166](https://pubmed.ncbi.nlm.nih.gov/21621166/) | 2011 | دراسة مقارنة | مجلة الجمعية الطبية الصينية | المقارنة المباشرة بين لاموتريجين (LTG) وكاربامازيبين (CBZ) لمظهر الفعالية والآثار الجانبية في مرضى TN. |
+| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | إرشادات | المجلة الأوروبية لطب الأعصاب | إرشادات الأكاديمية الأوروبية لطب الأعصاب بشأن إدارة TN، تغطي الخيارات الدوائية عبر التخصصات. |
+| [30081317](https://pubmed.ncbi.nlm.nih.gov/30081317/) | 2018 | تقرير حالة | التصلب المتعدد والاضطرابات ذات الصلة | الألم العصبي ثلاثي التوائم المقاوم للعلاج في مريض التصلب المتعدد عُولج بنجاح بالعلاج المركب (بريجابالين + لاموتريجين) بعد عدم تحمل كاربامازيبين. |
+| [38246671](https://pubmed.ncbi.nlm.nih.gov/38246671/) | 2024 | مراجعة | No Shinkei Geka (جراحة الأعصاب) | يراجع العلاج الدوائي لـ TN؛ يلاحظ لاموتريجين (إلى جانب باكلوفن، ليدوكائين وريدي، سم البوتولينوم) كخيار فعال خارج المؤشرات الموصوفة للاموتريجين/أوكسكاربازيبين. |
+| [30178160](https://pubmed.ncbi.nlm.nih.gov/30178160/) | 2018 | مراجعة | الأدوية | مراجعة قائمة على الأدلة للخيارات الدوائية الحالية والمبتكرة لـ TN النموذجية وغير النموذجية. |
+| [37892981](https://pubmed.ncbi.nlm.nih.gov/37892981/) | 2023 | مراجعة منهجية | Biomedicines | مراجعة شاملة للأدوية المستخدمة في TN، تقييم الفعالية والآثار الجانبية عبر المراجع السابقة والتحليلات التلوية. |
+| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | مراجعة | مراجعة خبيرة في العلاجات العصبية | تحديث العلاج الدوائي للـ TN؛ يناقش القيود على كاربامازيبين/أوكسكاربازيبين والبدائل الناشئة. |
+| [34108244](https://pubmed.ncbi.nlm.nih.gov/34108244/) | 2021 | مراجعة | الممارسة العملية في طب الأعصاب | دليل عملي لتشخيص TN والتصنيف الفرعي واتخاذ قرارات العلاج الطبي/الجراحي. |
+| [31908187](https://pubmed.ncbi.nlm.nih.gov/31908187/) | 2020 | مراجعة | الألم الجزيئي | نظرة عامة على المسببات المرضية لـ TN من خلال نهج العلاج الدوائي. |
+| [34003166](https://pubmed.ncbi.nlm.nih.gov/34003166/) | 2021 | مراجعة | علم الأعصاب الهند | نظرة عامة على استراتيجيات الإدارة الطبية لالتهاب العصب ثلاثي التوائم. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Lamotrigine currently holds no marketing authorization in Saudi Arabia — 0 licenses are on file and market status is recorded as **not marketed**.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data were not retrievable for this candidate — TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap, DG001, that must be resolved before any safety pre-evaluation can proceed.)
+لاموتريجين لا يملك حالياً أي تصريح تسويق في المملكة العربية السعودية — صفر تراخيص موجودة في السجل وحالة السوق مسجلة كـ **غير مسوق**.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية لم تتمكن من استرجاعها لهذا المرشح — تحذيرات/موانع نشرة TFDA الحزمة مرفوعة كفجوة بيانات **Blocking**، DG001، يجب حلها قبل أن تتمكن أي تقييم أمان سابق من المتابعة.)
 
-**Rationale:**
-Two completed lamotrigine-specific studies (a placebo-controlled add-on trial and a Phase 2/3 head-to-head comparison with carbamazepine) plus guideline-level literature support biological plausibility and clinical precedent for lamotrigine in trigeminal neuralgia. However, the drug is unmarketed in Saudi Arabia and safety documentation is currently a blocking gap, so guardrails are required before advancing.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism-of-action documentation via DrugBank (currently a High-severity data gap)
-- Drug-drug interaction data (current query status: not found)
-- A Saudi regulatory pathway assessment, since lamotrigine has no existing marketing authorization there
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**المبرر:**
+دراستان مكتملتان خاصتان بلاموتريجين (تجربة إضافة مضبوطة بالعلاج الوهمي ومقارنة مرحلة 2/3 مع كاربامازيبين) بالإضافة إلى أدبيات على مستوى الإرشادات تدعم الصلاحية البيولوجية والسابقة السريرية للاموتريجين في الألم العصبي ثلاثي التوائم. ومع ذلك، الدواء غير مسوق في المملكة العربية السعودية وتوثيق السلامة يمثل حالياً فجوة حاجزة، لذا يلزم تطبيق ضمانات قبل الإقدام على المتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات وموانع نشرة TFDA/المحلية (حالياً فجوة بيانات Blocking)
+- توثيق آلية العمل المؤكدة عبر DrugBank (حالياً فجوة بيانات عالية الخطورة)
+- بيانات التفاعلات الدوائية (حالة الاستعلام الحالية: لم يتم العثور عليها)
+- تقييم المسار التنظيمي السعودي، نظراً لعدم وجود تصريح تسويق لاموتريجين هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

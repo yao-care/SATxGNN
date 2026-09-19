@@ -29,87 +29,88 @@ indication_count: 3
 
 </div>
 
-# Human Immunoglobulin G: From (Original Indication Not on File) to Severe Nonproliferative Diabetic Retinopathy
+# الغلوبيولين المناعي البشري G: من (المؤشر الأصلي غير مسجل) إلى اعتلال الشبكية السكري غير التكاثري الشديد
 
-## One-Sentence Summary
+## ملخص السطر الواحد
 
-> Human Immunoglobulin G (DB00028)'s original approved indication and mechanism of action are not recorded in this evidence pack (data gap).
-> The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**, with a **99.75%** prediction score,
-> but this is currently supported by only **1 correlational biomarker publication** and **no clinical trials** — evidence is weak and likely reflects a spurious graph connection rather than a therapeutic mechanism.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no licenses or indications on file for this evidence pack) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 (model prediction only, no actual therapeutic studies) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> بيانات أساس الغلوبيولين المناعي البشري G (DB00028) الأصلية ومؤشره المعتمد آلية عمله غير مسجلة في حزمة الأدلة هذه (فجوة بيانات).
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **اعتلال الشبكية السكري غير التكاثري الشديد**، بنسبة توقع **99.75%**،
+> لكن هذا مدعوم حالياً بـ **منشور عامل حيوي واحد فقط ذو علاقة ارتباط** و**لا توجد تجارب سريرية** — الأدلة ضعيفة وربما تعكس اتصالاً زائفاً في الرسم البياني بدلاً من آلية علاجية حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data for Human Immunoglobulin G is not available in this evidence pack (data gap), and no original approved indication is on file, so a mechanistic comparison between an original and new indication cannot be constructed.
-
-More importantly, the single literature source behind this prediction (PMID 40204274) is an observational biomarker study: it measured serum IgG Fc N-glycosylation patterns to distinguish stages of diabetic retinopathy in existing patients. This is a **disease-state association finding** — a diagnostic signature — not evidence that administering exogenous human immunoglobulin G treats or prevents diabetic retinopathy. The TxGNN high score most likely arises because the knowledge graph links the "IgG" node to the "diabetic retinopathy" node through this biomarker literature, rather than through a validated pharmacological or causal pathway. There is no clinical trial, animal treatment model, or dose-response data supporting a therapeutic effect.
-
-Given the absence of MOA data, the absence of an original indication, and a supporting literature base that is correlational rather than interventional, this prediction should be treated as a low-confidence signal requiring substantial further validation before any clinical consideration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح (لا توجد تراخيص أو مؤشرات مسجلة لحزمة الأدلة هذه) |
+| المؤشر المتنبأ به الجديد | اعتلال الشبكية السكري غير التكاثري الشديد |
+| درجة توقع TxGNN | 99.75% |
+| مستوى الأدلة | L5 (توقع نموذج فقط، بدون دراسات علاجية فعلية) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | احجز |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40204274](https://pubmed.ncbi.nlm.nih.gov/40204274/) | 2025 | Cohort/Biomarker | Molecular & Cellular Proteomics | Serum IgG Fc N-glycosylation was tested as a diagnostic biomarker to distinguish nonproliferative vs. proliferative diabetic retinopathy in 160 patients (47 non-DR, 51 NPDR, 62 PDR) — a diagnostic association study, not a treatment study of IVIG. |
+بيانات آلية العمل المفصلة للغلوبيولين المناعي البشري G غير متاحة في حزمة الأدلة هذه (فجوة بيانات)، وليس لدينا أي مؤشر معتمد أصلي مسجل، لذا لا يمكن بناء مقارنة آلية بين مؤشر أصلي وآخر جديد.
 
----
+الأهم من ذلك، المصدر الأدبي الوحيد وراء هذا التنبؤ (PMID 40204274) هو دراسة عامل حيوي قائمة على المراقبة: فقد قياس أنماط N-glycosylation لـ Fc الغلوبيولين المناعي البشري G في المصل لتمييز مراحل اعتلال الشبكية السكري لدى المرضى الموجودين. هذا هو إيجاد **ارتباط حالة المرض** — توقيع تشخيصي — وليس أدلة على أن إعطاء الغلوبيولين المناعي البشري G الخارجي من الخارج يعالج أو يمنع اعتلال الشبكية السكري. من المحتمل جداً أن تنشأ درجة TxGNN العالية لأن الرسم البياني للمعرفة يربط عقدة "IgG" بعقدة "اعتلال الشبكية السكري" من خلال هذا الأدب عامل حيوي، بدلاً من ربط من خلال مسار دوائي أو سببي معتمد. لا توجد تجربة سريرية، أو نموذج علاج حيواني، أو بيانات استجابة الجرعة تدعم تأثيراً علاجياً.
 
-## Saudi Arabia Market Information
-
-Human Immunoglobulin G is not marketed in Saudi Arabia; no authorizations are on file in this evidence pack.
+بالنظر إلى غياب بيانات الآلية، وغياب المؤشر الأصلي، وقاعدة أدبية داعمة ترتباطية بدلاً من كونها تدخلية، يجب اعتبار هذا التنبؤ إشارة ثقة منخفضة تتطلب تحقيقاً كبيراً إضافياً قبل أي اعتبار سريري.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The only supporting evidence is a single correlational biomarker study, with no clinical trials, no MOA data, and no original indication on record. The TxGNN score likely reflects a graph artifact from biomarker literature rather than a genuine therapeutic hypothesis, so this candidate does not meet the bar to advance.
-
-**To proceed, the following is needed:**
-- Mechanism of action data (DrugBank query pending — currently a High-severity data gap)
-- TFDA/SFDA package insert warnings and contraindications (Blocking data gap — required before any S1 safety screening)
-- Interventional (treatment) studies of IVIG in diabetic retinopathy, distinct from the existing biomarker/association literature
-- Confirmation of the drug's original approved indication(s) for mechanistic comparison
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-### Other Candidate Indications Reviewed (Same Evidence Pack)
+## أدلة الأدبيات
 
-Two additional TxGNN-predicted indications were evaluated for this drug and are also rated **Hold**, for transparency:
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|--------|--------|---------|
+| [40204274](https://pubmed.ncbi.nlm.nih.gov/40204274/) | 2025 | دراسة مجموعة سكانية/عامل حيوي | Molecular & Cellular Proteomics | تم اختبار N-glycosylation لـ Fc الغلوبيولين المناعي البشري G في المصل كعامل حيوي تشخيصي للتمييز بين اعتلال الشبكية السكري غير التكاثري مقابل التكاثري لدى 160 مريضاً (47 بدون اعتلال الشبكية السكري، 51 غير تكاثري، 62 تكاثري) — دراسة ارتباط تشخيصي، وليس دراسة علاج IVIG. |
 
-- **Diabetic Retinopathy** (score 99.63%, L4): The 3 retrieved clinical trials all involve unrelated drugs (adalimumab, an investigational agent + liraglutide, aflibercept vs. bevacizumab) matched only by shared indication, not by drug. Literature is dominated by IgG N-glycosylation association/Mendelian-randomization studies — again correlational, not interventional for IVIG itself.
-- **Drug-Induced Osteoporosis** (score 99.37%, L5): No supporting literature; the 2 retrieved trials study unrelated anti-osteoporotic agents, not IVIG. No mechanistic rationale can be built due to the MOA data gap.
+---
+
+## معلومات السوق في المملكة العربية السعودية
+
+الغلوبيولين المناعي البشري G غير مسوّق في المملكة العربية السعودية؛ لا توجد تصاريح مسجلة في حزمة الأدلة هذه.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: احجز**
+
+**الأساس المنطقي:**
+الأدلة الداعمة الوحيدة هي دراسة عامل حيوي ارتباطي واحد فقط، بدون تجارب سريرية، بدون بيانات آلية عمل، وبدون مؤشر أصلي معتمد على السجل. من المحتمل أن تعكس درجة TxGNN قطعة في الرسم البياني من أدبيات العوامل الحيوية بدلاً من فرضية علاجية حقيقية، لذا لا يلبي هذا المرشح المعايير للمضي قدماً.
+
+**لكي نتقدم، يلزم التالي:**
+- بيانات آلية العمل (استعلام DrugBank قيد الانتظار — حالياً فجوة بيانات عالية الخطورة)
+- تحذيرات TFDA/SFDA في نشرة العبوة والموانع (فجوة بيانات حاجزة — مطلوبة قبل أي فحص سلامة S1)
+- دراسات تدخلية (علاجية) لـ IVIG في اعتلال الشبكية السكري، منفصلة عن الأدبيات الموجودة للعوامل الحيوية/الارتباط
+- تأكيد المؤشرات المعتمدة الأصلية للعقار لمقارنة آلية
+
+---
+
+### مؤشرات مرشحة أخرى تمت مراجعتها (حزمة الأدلة ذاتها)
+
+تم تقييم مؤشرين متنبأ بهما إضافياً من TxGNN لهذا العقار وتم تصنيفهما أيضاً **احجز**، لأغراض الشفافية:
+
+- **اعتلال الشبكية السكري** (النسبة 99.63%، L4): جميع التجارب السريرية الثلاث المسترجعة تتضمن عقاقير غير ذات صلة (adalimumab، وكيل تجريبي + liraglutide، aflibercept مقابل bevacizumab) متطابقة فقط حسب المؤشر، وليس حسب العقار. الأدبيات مشبعة بدراسات N-glycosylation للغلوبيولين المناعي البشري G وجمعية Mendelian-randomization — مرة أخرى ارتباطية، وليس تدخلية لـ IVIG نفسه.
+- **هشاشة العظام الناجمة عن الأدوية** (النسبة 99.37%، L5): لا توجد أدبيات داعمة؛ دراستي التجارب المسترجعة تدرسان عقاقير مضادة لهشاشة العظام غير ذات صلة، وليس IVIG. لا يمكن بناء أي منطق آلي بسبب فجوة بيانات الآلية.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

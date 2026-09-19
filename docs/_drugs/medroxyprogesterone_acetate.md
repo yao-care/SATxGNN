@@ -29,98 +29,99 @@ indication_count: 10
 
 </div>
 
-# Medroxyprogesterone Acetate: From Established Hormonal Therapy to Amenorrhea
+# أسيتات الميدروكسي بروجسترون: من العلاج الهرموني المثبت إلى انقطاع الطمث
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Medroxyprogesterone acetate (MPA) is a synthetic progestogen long used as an injectable/oral contraceptive and for hormone-related menstrual disorders, though its own approved-indication text is not captured in this evidence pack and the drug is **not currently marketed in Taiwan**. The TxGNN model's top prediction is **Amenorrhea**, supported by **10 clinical trials** and **20 publications** — but the underlying rationale itself notes this is a textbook, already-established clinical use of MPA rather than a genuinely novel hypothesis.
+> أسيتات الميدروكسي بروجسترون (MPA) هو بروجيستوجين صناعي يُستخدم منذ فترة طويلة كحقنة/دواء فموي للتحكم بالحمل ولاضطرابات الحيض المرتبطة بالهرمونات، لكن نص الاستطبابات المعتمدة للدواء لم يتم التقاطه في هذه الحزمة الإثباتية والدواء **غير مسوّق حالياً في تايوان**. التنبؤ الأعلى للنموذج TxGNN هو **انقطاع الطمث**، وهو مدعوم بـ **10 تجارب سريرية** و**20 منشور** — لكن الأساس المنطقي للدراسة نفسها يشير إلى أن هذا استخدام سريري كلاسيكي وثابت بالفعل لـ MPA بدلاً من فرضية حقيقية جديدة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty; drug not marketed in Taiwan, so no label text is available) |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.9994% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير موثق في هذه الحزمة الإثباتية (`original_indications` فارغة؛ الدواء غير مسوّق في تايوان، لذا لا يتوفر نص المرجع) |
+| الاستطباب الجديد المتنبأ به | انقطاع الطمث (المرض) |
+| درجة التنبؤ من TxGNN | 99.9994% |
+| مستوى الإثبات | L1 |
+| حالة السوق في تايوان | غير مسوّق (غير مسوّق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data (`original_moa`) is not available for this drug (Data Gap DG002). Based on the information present in the evidence pack, MPA is a potent progesterone-receptor agonist. Clinically, oral MPA (Provera®) is already used in the "progesterone withdrawal test" to induce withdrawal bleeding in patients with secondary amenorrhea caused by hormonal imbalance, while depot MPA (DMPA), the long-acting injectable contraceptive, produces amenorrhea as an expected pharmacological effect through ovulation suppression and endometrial atrophy.
+حالياً، بيانات آلية العمل التفصيلية (`original_moa`) غير متوفرة لهذا الدواء (فجوة البيانات DG002). بناءً على المعلومات الموجودة في الحزمة الإثباتية، يعتبر MPA منبهاً قوياً لمستقبلات البروجسترون. سريرياً، يُستخدم MPA الفموي (Provera®) بالفعل في "اختبار سحب البروجسترون" لتحريض نزيف الانسحاب لدى المريضات ذوات انقطاع الطمث الثانوي الناجم عن عدم التوازن الهرموني، بينما ينتج الـ MPA الإيداعي (DMPA)، وهو مانع الحمل الحقني طويل المفعول، انقطاع الطمث كتأثير دوائي متوقع من خلال قمع الإباضة وضمور بطانة الرحم.
 
-Because MPA's contraceptive and menstrual-regulation uses already overlap heavily with amenorrhea management, the mechanistic link between the drug and this predicted indication is direct and pharmacologically well characterized — it is not a speculative cross-disease hypothesis.
+لأن استخدامات MPA لمنع الحمل وتنظيم الحيض تتداخل بالفعل بشكل كبير مع إدارة انقطاع الطمث، فإن الارتباط الآلي بين الدواء والاستطباب المتنبأ به مباشر وموصوف دوائياً بشكل جيد — إنه ليس فرضية عابرة للأمراض.
 
-Importantly, the rationale attached to this candidate explicitly flags that this represents an **established clinical practice, not a new hypothesis**. This should temper how the finding is used: it is best read as evidence consolidation supporting a known use case (useful for a dossier or label-expansion argument) rather than a discovery of previously unrecognized therapeutic activity.
+بشكل مهم، يشير الأساس المنطقي المرفق بهذا المرشح إلى أن هذا يمثل **ممارسة سريرية ثابتة، وليس فرضية جديدة**. يجب أن يعدل هذا من كيفية استخدام النتيجة: يُقرأ بشكل أفضل كتوحيد إثباتي يدعم حالة استخدام معروفة (مفيد لملف أو حجة توسيع المرجع) بدلاً من اكتشاف نشاط علاجي غير معترف به مسبقاً.
 
 ---
 
-## Clinical Trial Evidence
+## إثبات التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التوظيف | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Phase 3 | Terminated | 60 | RCT evaluating post-endometrial-ablation MPA on endometrial amenorrhea rates; direct relevance (Grade A) but terminated early, small sample |
-| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | Phase 4 | Completed | 184 | Timing of postpartum DMPA administration and effect on breastfeeding, contraceptive continuation, and postpartum depression; amenorrhea is a known DMPA side effect rather than the primary endpoint |
-| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | Phase 3 | Completed | 1886 | Large RCT of bazedoxifene/conjugated estrogens on endometrial hyperplasia and osteoporosis prevention; indirect supporting evidence on endometrial/hormonal effects |
-| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | Completed | 42 | Examines whether progesterone-induced endometrial withdrawal bleeding is needed before ovulation induction in women with oligo-/amenorrhea |
-| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | Phase 3 | Recruiting | 120 | Relugolix vs placebo for heavy menstrual bleeding with uterine fibroids; comparator mechanism study, not an MPA intervention |
-| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Phase 2/3 | Completed | 79 | Tualang honey vs HRT safety profile in postmenopausal women; low direct relevance |
-| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | Phase 4 | Completed | 108 | HRT effect on disease activity, menopausal symptoms and bone mineral density in peri/postmenopausal women with SLE |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | Completed | 29 | Vascular and inflammatory markers in young women with functional hypothalamic amenorrhea vs. regularly cycling women |
-| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | N/A | Not yet recruiting | 276 | Traditional Chinese herbal formula for premature ovarian insufficiency; not an MPA intervention trial |
-| [NCT02792153](https://clinicaltrials.gov/study/NCT02792153) | Phase 1 | Withdrawn | 0 | Estradiol and fear extinction for calorie-dense foods in anorexia nervosa; not related to MPA or amenorrhea treatment |
+| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | المرحلة 3 | توقفت | 60 | RCT تقيّم MPA بعد الكي الكهربائي لبطانة الرحم على معدلات انقطاع الطمث ببطانة الرحم؛ الصلة المباشرة (الدرجة A) لكن توقفت مبكراً، عينة صغيرة |
+| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | المرحلة 4 | مكتملة | 184 | توقيت إدارة DMPA بعد الولادة وتأثيره على الرضاعة الطبيعية واستمرار وسائل منع الحمل واكتئاب ما بعد الولادة؛ انقطاع الطمث هو أثر جانبي معروف من DMPA وليس النقطة النهائية الأساسية |
+| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | المرحلة 3 | مكتملة | 1886 | RCT واسعة النطاق لـ bazedoxifene/estrogens مترافقة على فرط تنسج بطانة الرحم والوقاية من هشاشة العظام؛ إثبات داعم غير مباشر على تأثيرات بطانة الرحم/الهرمونية |
+| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | المرحلة 4 | مكتملة | 42 | يفحص ما إذا كان نزيف انسحاب بطانة الرحم المستحث بالبروجسترون ضروري قبل الإباضة في النساء ذوات قلة/انقطاع الطمث |
+| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | المرحلة 3 | يستقطب | 120 | Relugolix مقابل الدواء الوهمي لنزيف الحيض الثقيل مع الأورام الليفية الرحمية؛ دراسة آلية المقارنة، وليست تدخلاً من MPA |
+| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | المرحلة 2/3 | مكتملة | 79 | عسل تولانج مقابل ملف تعريف سلامة العلاج بالهرمونات البديلة في النساء بعد انقطاع الطمث؛ صلة مباشرة منخفضة |
+| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | المرحلة 4 | مكتملة | 108 | تأثير العلاج بالهرمونات البديلة على نشاط المرض والأعراض الحرارية وكثافة المعادن العظمية في النساء حول انقطاع الطمث/بعده ممن لديهنّ ذئبة حمراء |
+| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | المرحلة 2 | مكتملة | 29 | علامات الأوعية الدموية والالتهابية لدى النساء الشابات ذوات انقطاع الطمث الوظيفي الفرضي مقابل النساء ذوات الدورات المنتظمة |
+| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | غير متاح | لم تبدأ بعد | 276 | صيغة عشبية صينية تقليدية لقصور المبايض المبكر؛ ليست تجربة تدخل MPA |
+| [NCT02792153](https://clinicaltrials.gov/study/NCT02792153) | المرحلة 1 | انسحبت | 0 | الإستراديول وإطفاء الخوف من الأطعمة الغنية بالسعرات الحرارية في فقدان الشهية العصبي؛ غير ذات صلة بـ MPA أو علاج انقطاع الطمث |
 
 ---
 
-## Literature Evidence
+## الإثبات من المأدبة العلمية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [9554247](https://pubmed.ncbi.nlm.nih.gov/9554247/) | 1998 | Comparative trial (n=100) | Contraception | Randomized comparison showing DMPA-induced amenorrhea can be reversed by switching to Cyclofem (82% resumed bleeding vs. 10% on continued DMPA) |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT (WHICH trial) | PLoS ONE | Compares DMPA-IM vs. NET-EN effects on estradiol levels and menstrual/psychological/behavioral measures relevant to HIV risk |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Review of combination injectable contraceptives, including bleeding-pattern/amenorrhea outcomes |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Earlier Cochrane review on combination injectable contraceptives |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | J Reprod Med | Counseling and side-effect management for DMPA users, including amenorrhea management strategies |
-| [7139435](https://pubmed.ncbi.nlm.nih.gov/7139435/) | 1982 | Review | Canadian Medical Association Journal | "Should depot medroxyprogesterone acetate be considered for additional uses?" — directly addresses MPA repurposing |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intelligence & Clinical Pharmacy | Review of drug-induced infertility via hypothalamic-pituitary-gonadal axis effects |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Overview of long-acting contraceptive options, including DMPA amenorrhea rates |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | Postpartum contraception review, including postpartum amenorrhea considerations |
-| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review (IARC Monograph) | IARC Monographs | General pharmacological monograph on medroxyprogesterone acetate |
+| [9554247](https://pubmed.ncbi.nlm.nih.gov/9554247/) | 1998 | تجربة مقارنة (n=100) | موانع الحمل | مقارنة عشوائية تُظهر أن انقطاع الطمث المستحث بـ DMPA يمكن عكسه بالتبديل إلى Cyclofem (82% استأنفن النزيف مقابل 10% على استمرار DMPA) |
+| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT (تجربة WHICH) | PLoS ONE | يقارن تأثيرات DMPA-IM مقابل NET-EN على مستويات الإستراديول والمقاييس المرتبطة بالحيض/النفسية/السلوكية ذات الصلة بخطر HIV |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | مراجعة منهجية (Cochrane) | Cochrane Database Syst Rev | مراجعة موانع حمل الحقن المشتركة، بما في ذلك نتائج النمط النزيفي/انقطاع الطمث |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | مراجعة منهجية (Cochrane) | Cochrane Database Syst Rev | مراجعة Cochrane السابقة لموانع حمل الحقن المشتركة |
+| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | مراجعة | J Reprod Med | استشارة وإدارة الآثار الجانبية لمستخدمي DMPA، بما في ذلك استراتيجيات إدارة انقطاع الطمث |
+| [7139435](https://pubmed.ncbi.nlm.nih.gov/7139435/) | 1982 | مراجعة | Canadian Medical Association Journal | "هل يجب اعتبار أسيتات الميدروكسي بروجسترون الإيداعية لاستخدامات إضافية؟" — يتناول مباشرة إعادة توجيه MPA |
+| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | مراجعة | Drug Intelligence & Clinical Pharmacy | مراجعة العقم المستحث بالعقاقير عبر تأثيرات محور الغدة النخامية-تحت المهاد-المبيض |
+| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | مراجعة | Int J Fertil Menopausal Stud | نظرة عامة على خيارات موانع الحمل طويلة المفعول، بما في ذلك معدلات انقطاع الطمث DMPA |
+| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | مراجعة | Int J Gynaecol Obstet | مراجعة موانع الحمل بعد الولادة، بما في ذلك اعتبارات انقطاع الطمث بعد الولادة |
+| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | مراجعة (أحادي IARC) | IARC Monographs | أحادي دوائي عام على أسيتات الميدروكسي بروجسترون |
 
 ---
 
-## Saudi Arabia / Taiwan Market Information
+## معلومات سوق المملكة العربية السعودية / تايوان
 
-Currently no marketing authorization for MPA in Taiwan — market status is **Not marketed (not marketed)** with **0 licenses** on file. No product-level dosage form or approved-indication text is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No TFDA warnings, contraindications, or drug interaction data are currently available in this evidence pack (query status: not found), and TFDA package insert retrieval is flagged as a **Blocking** data gap (DG001) since the drug is not marketed in Taiwan.
+حالياً لا توجد تصريح تسويقي لـ MPA في تايوان — حالة السوق هي **غير مسوّق (غير مسوّق)** مع **0 رخصة** في الملف. لا يتوفر نص دالة الجرعة أو الاستطباب المعتمد على مستوى المنتج.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى ملف الحزمة للحصول على معلومات الأمان. لا توجد تحذيرات TFDA أو موانع استطباب أو بيانات تفاعل الأدوية متاحة حالياً في هذه الحزمة الإثباتية (حالة الاستعلام: لم يتم العثور عليها)، وتم تجميع استرجاع ملف حزمة TFDA بوصفها فجوة بيانات **محجوزة** (DG001) لأن الدواء غير مسوّق في تايوان.
 
-**Rationale:**
-The mechanistic link between MPA and amenorrhea is strong and evidence level is L1, but this reflects consolidation of an already-established clinical use rather than a novel repurposing signal, and the drug currently has no marketing authorization in Taiwan — safety review cannot proceed to S1 until the TFDA package insert gap is closed.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (Blocking gap, DG001)
-- Confirmed original approved indication(s) for MPA, since `original_indications` is currently empty
-- DrugBank-sourced mechanism of action (High-priority gap, DG002)
-- Clarification of regulatory pathway given zero existing Taiwan licenses (new drug application vs. label expansion)
-- Assessment of whether the amenorrhea indication should be reframed as evidence-synthesis/dossier support rather than a true repurposing candidate, given its established off-label/on-label use elsewhere
-- Lower-ranked candidates (breast fibrocystic disease, benign mammary dysplasia, endometriosis-related sites) remain at L3–L5 evidence with Hold/Research Question status and are not ready for further action
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الحماية**
+
+**الأساس المنطقي:**
+الارتباط الآلي بين MPA وانقطاع الطمث قوي وفسمستوى الإثبات هو L1، لكن هذا يعكس توحيد استخدام سريري ثابت بالفعل بدلاً من إشارة إعادة توجيه حقيقية، والدواء حالياً ليس لديه تصريح تسويقي في تايوان — لا يمكن أن ينتقل استعراض الأمان إلى S1 حتى تتم إغلاق فجوة ملف حزمة TFDA.
+
+**للمضي قدماً، يلزم ما يلي:**
+- ملف حزمة TFDA / التحذيرات وموانع الاستطباب (فجوة محجوزة، DG001)
+- تأكيد الاستطباب(ات) الأصلي(ة) المعتمدة لـ MPA، حيث أن `original_indications` فارغة حالياً
+- آلية العمل المستمدة من DrugBank (فجوة عالية الأولوية، DG002)
+- توضيح المسار التنظيمي بالنظر إلى عدم وجود رخص تايوان الحالية (تطبيق دواء جديد مقابل توسيع المرجع)
+- تقييم ما إذا كان ينبغي إعادة صياغة استطباب انقطاع الطمث كدعم توليف الإثبات/الملف بدلاً من كونه مرشح إعادة توجيه حقيقية، بالنظر إلى استخدامه خارج/على المرجع الثابت في أماكن أخرى
+- المرشحون ذوو الترتيب الأقل (مرض الثدي الليفي، عسر الثدي الحميد، مواقع المرتبطة بالانتباذ البطاني الرحمي) يبقون عند مستويات إثبات L3–L5 مع حالة Hold/سؤال البحث وليسوا مستعدين لمزيد من الإجراء
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

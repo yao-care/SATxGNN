@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# Ruxolitinib: From Myelofibrosis to Hemophagocytic Syndrome Associated with an Infection
+# Ruxolitinib: من تليف النخاع العظمي إلى متلازمة فاغوسيتار الدموية المرتبطة بالعدوى
 
-*Note: Ruxolitinib is not marketed in Saudi Arabia and this evidence pack has no captured "original indication" or MOA record (see Data Gaps DG001/DG002). "Myelofibrosis" above reflects Ruxolitinib's well-known global approval as a JAK1/2 inhibitor, not a value extracted from this evidence pack.*
+*ملاحظة: لا يتم تسويق Ruxolitinib في المملكة العربية السعودية وهذه حقيبة الأدلة لا تحتوي على سجل "المؤشر الأصلي" أو آلية العمل (انظر فجوات البيانات DG001/DG002). يعكس "تليف النخاع العظمي" أعلاه الموافقة العالمية المعروفة لـ Ruxolitinib كمثبط JAK1/2، وليس قيمة مستخرجة من حقيبة الأدلة هذه.*
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Ruxolitinib is a JAK1/JAK2 inhibitor with no captured Saudi Arabia market presence in this evidence pack. Among **10 TxGNN-predicted indications** for this drug, **Hemophagocytic Syndrome Associated with an Infection** stands out as the lead candidate — it is the only one backed by real clinical evidence, with **2 clinical trials** (including one Phase 3 RCT) and **20 publications**, while the other 9 candidates (mostly PEComa-family tumours and sarcomas) remain unsupported model predictions.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in this evidence pack (drug not marketed in Saudi Arabia; DrugBank/MOA data pending — DG002) |
-| Predicted New Indication | Hemophagocytic Syndrome Associated with an Infection |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Ruxolitinib هو مثبط JAK1/JAK2 بدون وجود مسجل في السوق السعودية في حقيبة الأدلة هذه. من بين **10 مؤشرات متنبأ بها من قبل TxGNN** لهذا الدواء، تبرز **متلازمة فاغوسيتار الدموية المرتبطة بالعدوى** كمرشح رئيسي — وهي الوحيدة المدعومة بأدلة سريرية حقيقية، مع **تجربتين سريريتين** (بما في ذلك تجربة عشوائية من المرحلة 3) و **20 منشورًا**، بينما تبقى المؤشرات التسعة الأخرى (في الغالب أورام عائلة PEComa والأورام الحميمية) تنبؤات نموذج غير مدعومة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Detailed mechanism-of-action data for Ruxolitinib is not available in this evidence pack (DG002). Based on publicly known information, Ruxolitinib is a JAK1/JAK2 inhibitor; its efficacy in myeloproliferative and inflammatory conditions driven by cytokine signalling is well established, and this same mechanism plausibly extends to Hemophagocytic Syndrome (HLH/HPS).
-
-Infection-associated HLH is driven by an IFN-γ/IL-6 cytokine storm that signals through JAK1/2–STAT1, the exact pathway Ruxolitinib inhibits. The repurposing rationale in this pack notes that this mechanistic link is direct, and is already validated clinically by a downstream-target drug (emapalumab, an anti-IFN-γ antibody) acting on the same axis. This is corroborated by a closely related but weaker candidate in the same pack — "acquired HLH associated with malignant disease" (rank 9, L4) — which shares the identical IFN-γ/JAK-STAT cytokine-storm mechanism but triggered by malignancy rather than infection, reinforcing that the pathway (not just the trigger) is what matters pharmacologically.
-
-By contrast, the top-ranked TxGNN prediction by score alone (uterine PEComa) and several other high-scoring candidates (benign PEComa, lymphangiomyoma, lymphangioleiomyomatosis, lung PEComa) are driven by the TSC1/2–mTORC1 pathway, not JAK-STAT, and have no supporting trial or literature evidence in this pack — they are flagged Hold at evidence level L5 and are not carried forward in this report.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مسجل في حقيبة الأدلة هذه (الدواء غير مسوق في المملكة العربية السعودية؛ بيانات DrugBank/آلية العمل معلقة — DG002) |
+| المؤشر الجديد المتنبأ به | متلازمة فاغوسيتار الدموية المرتبطة بالعدوى |
+| درجة تنبؤ TxGNN | 99.32% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | المضي قدمًا مع الحماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بيانات آلية العمل التفصيلية لـ Ruxolitinib غير متاحة في حقيبة الأدلة هذه (DG002). استنادًا إلى المعلومات المعروفة علنًا، Ruxolitinib هو مثبط JAK1/JAK2؛ ولقد تم إثبات فعاليته في الحالات المرتبطة بالغدد الصماء والالتهابية التي تحركها إشارات السيتوكين، وهذه الآلية نفسها تمتد بشكل معقول إلى متلازمة فاغوسيتار (HLH/HPS).
+
+يتم دفع HLH المرتبطة بالعدوى بواسطة عاصفة السيتوكين IFN-γ/IL-6 التي تشير من خلال JAK1/2–STAT1، المسار الدقيق الذي يثبطه Ruxolitinib. المنطق الخاص بإعادة الاستخدام في هذه الحقيبة يلاحظ أن هذا الربط الميكانيكي مباشر، وقد تم التحقق منه بالفعل سريريًا من خلال دواء هدف فراغي (emapalumab، جسم مضاد مضاد لـ IFN-γ) يعمل على نفس المحور. وهذا مؤيد من قبل مرشح وثيق الصلة لكنه أضعف في نفس الحقيبة — "HLH المكتسبة المرتبطة بأمراض خبيثة" (الرتبة 9، L4) — التي تشارك آلية السيتوكين IFN-γ/JAK-STAT المتطابقة تمامًا ولكن الناجمة عن الحالات الخبيثة وليس العدوى، مما يعزز أن المسار (وليس فقط الزناد) هو ما يهم دوائيًا.
+
+في المقابل، التنبؤ الأعلى من قبل TxGNN بمجرد الدرجة وحدها (ورم PEComa الرحمي) وعدة مرشحات عالية الدرجات الأخرى (ورم PEComa حميد، الورم الليمفاوي العضلي، الخلل الليمفولعضلي، ورم PEComa الرئوي) يتم دفعها بواسطة مسار TSC1/2–mTORC1، وليس JAK-STAT، وليس لديها دليل تجربة أو أدلة أدبية داعمة في هذه الحقيبة — يتم وضع علامة عليها عند مستوى الأدلة L5 وغير محمولة إلى الأمام في هذا التقرير.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04424056](https://clinicaltrials.gov/study/NCT04424056) | Phase 3 | Unknown | 216 | Randomized trial of anakinra, tocilizumab alone or combined with ruxolitinib in severe stage 2b/3 COVID-19-associated hyperinflammatory disease (CRP >200 mg/L); status unconfirmed — completion/results need verification. |
-| [NCT07424222](https://clinicaltrials.gov/study/NCT07424222) | Phase 1 | Not Yet Recruiting | 16 | Pilot study of ruxolitinib for immune effector cell-associated HLH-like syndrome (IEC-HS) after CAR-T therapy; evaluates safety, optimal duration, and biomarkers of response. |
+| [NCT04424056](https://clinicaltrials.gov/study/NCT04424056) | المرحلة 3 | غير معروف | 216 | تجربة عشوائية من anakinra وtocilizumab وحدها أو مدمجة مع ruxolitinib في حالات فرط الالتهاب الحادة المرتبطة بـ COVID-19 من المرحلة 2b/3 (CRP >200 mg/L)؛ الحالة غير مؤكدة — يتطلب التحقق من الإكمال/النتائج. |
+| [NCT07424222](https://clinicaltrials.gov/study/NCT07424222) | المرحلة 1 | لم يتم البدء بعد | 16 | دراسة تجريبية لـ ruxolitinib لمتلازمة HLH-like المرتبطة بخلايا المستجيب المناعي (IEC-HS) بعد علاج CAR-T؛ تقيّم السلامة والمدة المثلى والمؤشرات الحيوية للاستجابة. |
 
 ---
 
-## Literature Evidence
+## أدلة أدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [35344583](https://pubmed.ncbi.nlm.nih.gov/35344583/) | 2022 | Cohort | Blood | Ruxolitinib used as a first-line agent with response-based stratified treatment in pediatric HLH; addresses the lack of robust trials for frontline use. |
-| [40665481](https://pubmed.ncbi.nlm.nih.gov/40665481/) | 2025 | Cohort | British Journal of Haematology | Retrospective comparison of ruxolitinib-based regimen (n=53) vs. adjusted HLH-94 chemotherapy (n=42) in pediatric EBV-associated HLH. |
-| [37787838](https://pubmed.ncbi.nlm.nih.gov/37787838/) | 2023 | Case Series (n=12) | Annals of Hematology | Sintilimab combined with ruxolitinib as compassionate therapy in 12 adults with EBV-associated HLH. |
-| [34605776](https://pubmed.ncbi.nlm.nih.gov/34605776/) | 2022 | Review/Guideline | Critical Care Medicine | Consensus-based guidelines for recognition, diagnosis, and management of HLH in critically ill children and adults. |
-| [37702780](https://pubmed.ncbi.nlm.nih.gov/37702780/) | 2023 | Review | Innere Medizin | Review of HLH treatment in ICU patients, covering hereditary vs. acquired forms and emerging triggers (e.g., CAR-T immunotherapy). |
-| [31943120](https://pubmed.ncbi.nlm.nih.gov/31943120/) | 2020 | Review | QJM | Review of adult HLH, noting high mortality despite diagnostic and treatment advances. |
-| [31015190](https://pubmed.ncbi.nlm.nih.gov/31015190/) | 2019 | Preclinical/Mechanistic | Blood | Foundational mechanistic study showing ruxolitinib dampens T-cell activation and inflammation in a perforin-deficient murine HLH model. |
-| [32530039](https://pubmed.ncbi.nlm.nih.gov/32530039/) | 2020 | Preclinical/Mechanistic | Blood | JAK/STAT pathway inhibition sensitizes CD8 T cells to dexamethasone-induced apoptosis, supporting combination therapy in hyperinflammation. |
-| [36263041](https://pubmed.ncbi.nlm.nih.gov/36263041/) | 2022 | Case Report | Frontiers in Immunology | Ruxolitinib used as first-line therapy for secondary HLH in a patient with AIDS and severe immunodeficiency. |
-| [38691058](https://pubmed.ncbi.nlm.nih.gov/38691058/) | 2024 | Case Series | Journal of Pediatric Hematology/Oncology | Emapalumab combined with ruxolitinib and dexamethasone effectively treated EBV-associated HLH with multiorgan damage and severe infection. |
+| [35344583](https://pubmed.ncbi.nlm.nih.gov/35344583/) | 2022 | دراسة جماعة | Blood | تم استخدام Ruxolitinib كعامل من الخط الأول مع العلاج الموجه للاستجابة في HLH للأطفال؛ يعالج نقص التجارب القوية للاستخدام الأولي. |
+| [40665481](https://pubmed.ncbi.nlm.nih.gov/40665481/) | 2025 | دراسة جماعة | British Journal of Haematology | مقارنة بأثر رجعي للنظام المستند إلى ruxolitinib (n=53) مقابل العلاج الكيميائي المعدل HLH-94 (n=42) في HLH المرتبطة بـ EBV للأطفال. |
+| [37787838](https://pubmed.ncbi.nlm.nih.gov/37787838/) | 2023 | سلسلة حالات (n=12) | Annals of Hematology | Sintilimab مدمج مع ruxolitinib كعلاج رحمي في 12 بالغًا مع HLH المرتبطة بـ EBV. |
+| [34605776](https://pubmed.ncbi.nlm.nih.gov/34605776/) | 2022 | مراجعة/إرشاد | Critical Care Medicine | إرشادات توافقية لتعريف وتشخيص وإدارة HLH في الأطفال والبالغين حرجًا. |
+| [37702780](https://pubmed.ncbi.nlm.nih.gov/37702780/) | 2023 | مراجعة | Innere Medizin | مراجعة لعلاج HLH في مرضى وحدة العناية المكثفة، تغطي الأشكال الوراثية مقابل المكتسبة والزناد الناشئة (مثل علاج CAR-T المناعي). |
+| [31943120](https://pubmed.ncbi.nlm.nih.gov/31943120/) | 2020 | مراجعة | QJM | مراجعة HLH البالغة، مع الإشارة إلى معدل وفيات مرتفع على الرغم من التطورات التشخيصية والعلاجية. |
+| [31015190](https://pubmed.ncbi.nlm.nih.gov/31015190/) | 2019 | ما قبل سريري/ميكانيكي | Blood | دراسة ميكانيكية أساسية تظهر ruxolitinib يثبط تنشيط الخلايا التائية والالتهاب في نموذج HLH للفئران الناقص للبيرفورين. |
+| [32530039](https://pubmed.ncbi.nlm.nih.gov/32530039/) | 2020 | ما قبل سريري/ميكانيكي | Blood | يؤدي تثبيط مسار JAK/STAT إلى حساسية خلايا CD8 التائية لموت الخلايا المستحث بواسطة dexamethasone، مما يدعم العلاج المركب في فرط الالتهاب. |
+| [36263041](https://pubmed.ncbi.nlm.nih.gov/36263041/) | 2022 | تقرير حالة | Frontiers in Immunology | تم استخدام Ruxolitinib كعلاج من الخط الأول لـ HLH الثانوية في مريض مصاب بالإيدز وقصور المناعة الشديد. |
+| [38691058](https://pubmed.ncbi.nlm.nih.gov/38691058/) | 2024 | سلسلة حالات | Journal of Pediatric Hematology/Oncology | عالج emapalumab مدمج مع ruxolitinib وdexamethasone بشكل فعال HLH المرتبطة بـ EBV مع الضرر متعدد الأعضاء والعدوى الشديدة. |
 
-*10 additional case reports/series on ruxolitinib in infection-triggered HLH (EBV, adenovirus, Chlamydia, VEXAS-associated, post-transplant, pregnancy-associated) are available in the source data but omitted here for brevity.*
-
----
-
-## Saudi Arabia Market Information
-
-Ruxolitinib is not currently marketed in Saudi Arabia — no authorization records are available in this evidence pack.
+*10 تقارير حالات/سلسلات إضافية حول ruxolitinib في HLH المحفزة بالعدوى (EBV، الفيروس الغدي، Chlamydia، VEXAS-associated، post-transplant، pregnancy-associated) متاحة في بيانات المصدر ولكن حذفت هنا للإيجاز.*
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data were not available in this evidence pack — this is flagged as a **Blocking** data gap, DG001, that must be resolved before any S1 safety review.)
+لا يتم تسويق Ruxolitinib حاليًا في المملكة العربية السعودية — لا توجد سجلات تخويل متاحة في حقيبة الأدلة هذه.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (البيانات الرئيسية للتحذيرات والموانع والتفاعلات الدوائية لم تكن متاحة في حقيبة الأدلة هذه — وهذا مسجل كفجوة بيانات **محظورة**، DG001، يجب حلها قبل أي مراجعة أمان S1.)
 
-**Rationale:**
-Infection-associated HLH shares a direct, well-characterized IFN-γ/JAK-STAT mechanistic link with Ruxolitinib's known pharmacology, and is supported by one Phase 3 RCT plus a substantial body of cohort, review, and case-series literature (L2) — the strongest evidence base among all 10 TxGNN candidates for this drug.
+---
 
-**To proceed, the following is needed:**
-- Confirm actual status/results of NCT04424056 (currently listed as "Unknown")
-- Obtain SFDA package insert / label data for Ruxolitinib (DG001, Blocking)
-- Obtain DrugBank MOA confirmation (DG002)
-- Obtain drug interaction (DDI) data — current query returned no results
-- Since Ruxolitinib is not marketed in Saudi Arabia, confirm import/named-patient access pathway before clinical use
-- Deprioritize the 8 remaining low-evidence candidates (PEComa family, liposarcoma, familial rhabdoid tumor) pending new trial or literature data
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدمًا مع الحماية**
+
+**المنطق:**
+متلازمة فاغوسيتار الدموية المرتبطة بالعدوى تشارك ربطًا ميكانيكيًا مباشرًا وجيد التوصيف مع الدوائية المعروفة لـ Ruxolitinib، وهي مدعومة بتجربة عشوائية واحدة من المرحلة 3 بالإضافة إلى جسم جوهري من الأدلة الجماعية والمراجعات وسلسلة الحالات (L2) — أقوى قاعدة أدلة بين جميع المرشحات العشرة المتنبأ بها من قبل TxGNN لهذا الدواء.
+
+**للمضي قدمًا، يلزم ما يلي:**
+- تأكيد حالة/نتائج NCT04424056 الفعلية (مدرجة حاليًا كـ "غير معروف")
+- الحصول على بيانات نشرة SFDA / التسمية لـ Ruxolitinib (DG001، محظورة)
+- الحصول على تأكيد DrugBank MOA (DG002)
+- الحصول على بيانات التفاعل الدوائي (DDI) — لم ترجع الاستعلام الحالي أي نتائج
+- نظرًا لأن Ruxolitinib غير مسوق في المملكة العربية السعودية، يرجى تأكيد مسار الاستيراد/الوصول للمرضى المسمى قبل الاستخدام السريري
+- إعادة أولويات المرشحين المنخفضي الأدلة المتبقين (أورام عائلة PEComa، الساركوما الشحمية، الورم الرابدويدي العائلي) في انتظار بيانات تجربة أو أدبية جديدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

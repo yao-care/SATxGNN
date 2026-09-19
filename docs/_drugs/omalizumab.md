@@ -29,70 +29,71 @@ indication_count: 10
 
 </div>
 
-# Omalizumab: From Allergic Asthma to Bronchitis
+# الأوماليزوماب: من الربو التحسسي إلى التهاب الشعب الهوائية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Omalizumab (DB00043) is an anti-IgE monoclonal antibody originally developed and clinically established for **moderate-to-severe allergic asthma** (and, separately, chronic spontaneous urticaria). The TxGNN model predicts it may be effective for **Bronchitis**, but this ranks as the model's top-scoring prediction (rank 43 overall, score 99.9992%) rather than the strongest-evidenced one — supporting data consist of only **2 clinical trials** and **8 publications**, nearly all of which studied asthma populations where "bronchitis" appeared as a comorbid term rather than the primary indication.
+الأوماليزوماب (DB00043) هو جسم مضاد أحادي النسيلة مضاد للـ IgE تم تطويره والتأكد من فعاليته سريريًا في الأصل للـ **الربو التحسسي المعتدل إلى الشديد** (وبشكل منفصل، الأرتيكاريا التلقائية المزمنة الشديدة). يتنبأ نموذج TxGNN بأنه قد يكون فعالًا لـ **التهاب الشعب الهوائية**، لكن هذا يحتل الترتيب الأعلى في تنبؤات النموذج (الترتيب 43 بشكل عام، الدرجة 99.9992%) بدلاً من الأقوى من حيث الأدلة — تتكون البيانات الداعمة من **تجربتين سريريتين فقط** و **8 منشورات**، تقريبًا جميعها درست مجموعات سكانية مصابة بالربو حيث ظهرت **التهاب الشعب الهوائية** كمصطلح مصحوب بأمراض أخرى بدلاً من الدلالة الأساسية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Allergic Asthma (widely documented across the supporting literature/trials in this pack; no formal license record available) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.9992% (rank 43) |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|--------|
+| الدلالة الأصلية | الربو التحسسي (موثق بشكل واسع عبر الأدب المرجعي / التجارب الداعمة في هذه الحزمة؛ لا توجد سجلات ترخيص رسمية متاحة) |
+| الدلالة الجديدة المتنبأ بها | التهاب الشعب الهوائية |
+| درجة تنبؤ TxGNN | 99.9992% (الترتيب 43) |
+| مستوى الدليل | L4 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (DG002 — [Data Gap], flagged High severity). Based on known information reflected throughout the supporting literature in this pack, omalizumab binds free IgE and reduces FcεRI expression on mast cells and basophils, reducing airway inflammation — a mechanism validated in moderate-to-severe persistent allergic asthma and later extended to chronic spontaneous urticaria.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة (DG002 — [فجوة البيانات]، المشار إليها بخطورة عالية). بناءً على المعلومات المعروفة المنعكسة عبر الأدب المرجعي الداعم في هذه الحزمة، يرتبط الأوماليزوماب بـ IgE الحر ويقلل من تعبير FcεRI على الخلايا البدينة والبازوفيلات، مما يقلل من الالتهاب في المسالك الهوائية — وهي آلية تم التحقق من صحتها في الربو التحسسي المستمر المعتدل إلى الشديد وتم توسيعها لاحقًا إلى الأرتيكاريا التلقائية المزمنة الشديدة.
 
-The link to bronchitis is mechanistically indirect. Bronchitis (acute or chronic) is predominantly a non-IgE-mediated inflammatory pathology, and the anti-IgE mechanism does not map cleanly onto its core pathophysiology. Consistent with this, the pack's own repurposing rationale flags that the supporting trials and publications largely originate from asthma or COPD research where "bronchitis" appears as a comorbidity or keyword, rather than studies designed with bronchitis as the primary indication. The single trial evaluating a steroid-sparing effect in eosinophilic bronchitis (NCT02049294) enrolled only 11 patients and was graded "B" relevance (indirect) rather than a direct, adequately powered bronchitis trial — hence the L4 (mechanism/preclinical-level) evidence classification and "Hold" recommendation, despite the very high TxGNN score.
+الارتباط بالتهاب الشعب الهوائية غير مباشر من الناحية الآلية. التهاب الشعب الهوائية (الحاد أو المزمن) هو في الغالب مرض التهابي غير وسيط بـ IgE، والآلية المضادة للـ IgE لا تنطبق بشكل نظيف على المسببات الأساسية لمرضه. تماشيًا مع هذا، فإن منطق إعادة توظيف الحزمة نفسها يشير إلى أن التجارب والمنشورات الداعمة تنشأ إلى حد كبير من أبحاث الربو أو الإصابة الرئوية الانسدادية المزمنة (COPD) حيث يظهر **التهاب الشعب الهوائية** كمصحوب بأمراض أخرى أو كلمة رئيسية، بدلاً من الدراسات المصممة مع التهاب الشعب الهوائية كدلالة أساسية. التجربة الوحيدة التي قيّمت تأثير توفير الستيرويد في التهاب الشعب الهوائية الحمضي (NCT02049294) أدرجت فقط 11 مريضًا وتم تقييمها بأهمية "B" (غير مباشرة) بدلاً من تجربة التهاب الشعب الهوائية المباشرة والقوية بشكل كافٍ — وبالتالي فإن تصنيف الدليل L4 (آلية / مستوى ما قبل السريري) والتوصية "توقف"، على الرغم من درجة TxGNN العالية جدًا.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Randomized, double-blind, placebo-controlled, 3-center trial testing whether add-on omalizumab allows a reduction in prednisone dose in patients with asthma and persistent eosinophilic bronchitis (steroid-sparing effect). Relevance graded "B" — indirect, very small sample. |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2b | Completed | 382 | Dose-finding study of **QGE031 (ligelizumab)**, a different anti-IgE antibody — not omalizumab — as add-on therapy in Chronic Spontaneous Urticaria. No direct link to bronchitis; relevance graded "C" (low). |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
+|------------|--------|--------|--------|---------|
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | المرحلة 2/3 | مكتملة | 11 | تجربة عشوائية، عمياء مزدوجة، محكومة بالعلاج الوهمي، في 3 مراكز تختبر ما إذا كان الأوماليزوماب الإضافي يسمح بتقليل جرعة بريدنيزون في المرضى المصابين بالربو والتهاب الشعب الهوائية الحمضي المستمر (تأثير توفير الستيرويد). تم تقييم الأهمية "B" — غير مباشرة، عينة صغيرة جدًا. |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | المرحلة 2b | مكتملة | 382 | دراسة تحديد الجرعة لـ **QGE031 (ligelizumab)**، وهو جسم مضاد مختلف مضاد للـ IgE — وليس الأوماليزوماب — كعلاج إضافي في الأرتيكاريا التلقائية المزمنة الشديدة. لا يوجد ارتباط مباشر بالتهاب الشعب الهوائية؛ تم تقييم الأهمية "C" (منخفضة). |
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui (Jpn J Anesthesiology) | Preoperative management review for patients with bronchial asthma or chronic bronchitis; notes omalizumab availability for severe allergic asthma per Japanese guidelines. |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Omalizumab approval and post-approval experience; efficacy shown for moderate-to-severe persistent asthma. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case Report | J Investig Allergol Clin Immunol | A rare case of plastic bronchitis following bronchial thermoplasty (procedural complication case, not an omalizumab efficacy study). |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Not yet classified | Curr Med Res Opin | Pooled safety/tolerability analysis of omalizumab in children with allergic (IgE-mediated) asthma. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Not yet classified | Expert Opin Pharmacother | Discusses smoking-induced airway diseases (chronic bronchitis, emphysema, ACO) contributing to chronic respiratory symptoms in asthma; notes uncertainty in drug treatment due to trial exclusions. |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Not yet classified | Allergol Immunopathol | General update on monoclonal antibodies in pediatrics, including allergic disease use. |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Not yet classified | Postepy Dermatol Alergol | Omalizumab in middle-aged/older patients with severe allergic asthma-COPD overlap. |
-| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Not yet classified | Rev Mal Respir | French working-party review on definitions/treatment of adult asthma exacerbations. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|---------|
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | مراجعة | Masui (المجلة اليابانية لتخدير) | مراجعة الإدارة قبل الجراحية للمرضى الذين يعانون من الربو الشعبي أو التهاب الشعب الهوائية المزمن؛ يلاحظ توفر الأوماليزوماب للربو التحسسي الشديد وفقًا للخطوط التوجيهية اليابانية. |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | مراجعة | Clin Rev Allergy Immunol | الموافقة على الأوماليزوماب والتجارب بعد الموافقة؛ أظهرت الفعالية للربو المستمر المعتدل إلى الشديد. |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | حالة سريرية | J Investig Allergol Clin Immunol | حالة نادرة من التهاب الشعب الهوائية البلاستيكي التالي لرأب الشعب الهوائية الحراري (حالة مضاعفة إجرائية، وليست دراسة فعالية الأوماليزوماب). |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | لم يتم تصنيفها بعد | Curr Med Res Opin | تحليل مجمع للسلامة / التحمل للأوماليزوماب في الأطفال المصابين بالربو التحسسي (الوسيط بـ IgE). |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | لم يتم تصنيفها بعد | Expert Opin Pharmacother | يناقش أمراض المسالك الهوائية المستحثة بالتدخين (التهاب الشعب الهوائية المزمن، الإمفيزيما، ACO) التي تساهم في أعراض الجهاز التنفسي المزمنة في الربو؛ يلاحظ عدم اليقين في علاج الأدوية بسبب استبعادات التجارب. |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | لم يتم تصنيفها بعد | Allergol Immunopathol | تحديث عام حول الأجسام المضادة أحادية النسيلة عند الأطفال، بما في ذلك استخدام الحساسية. |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | لم يتم تصنيفها بعد | Postepy Dermatol Alergol | الأوماليزوماب في المرضى في منتصف العمر / الأكبر سنًا المصابين بالربو الشديد والإصابة الرئوية الانسدادية المزمنة المتداخلة. |
+| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | لم يتم تصنيفها بعد | Rev Mal Respir | مراجعة فريق العمل الفرنسي حول تعاريف / علاج نوبات الربو لدى البالغين. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Omalizumab is currently **not marketed** in Saudi Arabia (market status: Not marketed), and no product license records are available (total licenses: 0).
+الأوماليزوماب غير مسوق حاليًا في المملكة العربية السعودية (حالة السوق: غير مسوقة)، وليست هناك سجلات ترخيص منتج متاحة (إجمالي الترخيصات: 0).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all recorded as data gaps in this evidence pack — DG001, flagged Blocking severity, requires retrieval of the TFDA/regulator package insert before any S1 safety assessment can proceed.)
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. (جميع التحذيرات الرئيسية والموانع والبيانات المتعلقة بتفاعلات الأدوية مسجلة جميعها كفجوات بيانات في حزمة الدليل هذه — DG001، المشار إليها بخطورة حجب، يتطلب استرجاع نشرة TFDA / الهيئة الحكومية قبل أي تقييم أمان S1).
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-The TxGNN score is very high, but the underlying evidence is thin and largely indirect — only one small (n=11), non-bronchitis-specific trial and no literature designed around bronchitis as a primary endpoint. The mechanistic case is also weak, since bronchitis is not primarily an IgE-mediated condition. This does not meet the bar to proceed past S0.
+**الأساس المنطقي:**
+درجة TxGNN عالية جدًا، لكن الأدلة الأساسية رقيقة وإلى حد كبير غير مباشرة — فقط تجربة صغيرة واحدة (n=11)، غير محددة لالتهاب الشعب الهوائية، وبدون أدب مصمم حول التهاب الشعب الهوائية كنقطة نهاية أساسية. الحالة الآلية أيضًا ضعيفة، لأن التهاب الشعب الهوائية ليس في المقام الأول حالة وسيط بـ IgE. هذا لا يلبي المعيار للمتابعة بعد S0.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Detailed mechanism-of-action documentation from DrugBank — currently a High-severity data gap (DG002)
-- A dedicated, adequately powered clinical trial in a well-defined bronchitis population (the current small, indirect trial is insufficient)
-- Consider prioritizing other candidates in this evidence pack with stronger direct support — notably **atopic eczema** (Evidence Level L2, direct Phase 4 RCT NCT02300701 in severe pediatric eczema) — before further investment in the bronchitis hypothesis
+**لكي تتقدم، يلزم ما يلي:**
+- نشرة TFDA / الهيئة الحكومية (التحذيرات، الموانع) — حاليًا فجوة بيانات حجب (DG001)
+- توثيق آلية العمل المفصلة من DrugBank — حاليًا فجوة بيانات بخطورة عالية (DG002)
+- تجربة سريرية مكرسة وقوية بشكل كافٍ في مجموعة سكانية محددة بشكل جيد لالتهاب الشعب الهوائية (التجربة الصغيرة والغير مباشرة الحالية غير كافية)
+- ضع في الاعتبار إعطاء الأولوية للمرشحين الآخرين في حزمة الدليل هذه مع دعم مباشر أقوى — ملحوظًا **التهاب الجلد التأتبي** (مستوى الدليل L2، تجربة المرحلة 4 المباشرة RCT NCT02300701 في التهاب الجلد التأتبي الشديد عند الأطفال) — قبل مزيد من الاستثمار في فرضية التهاب الشعب الهوائية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

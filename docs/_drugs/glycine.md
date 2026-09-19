@@ -29,66 +29,67 @@ indication_count: 2
 
 </div>
 
-# Glycine: From No Established Indication to Nasal Cavity Disease
+# Glycine: من عدم وجود استطباب معروف إلى أمراض تجويف الأنف
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Glycine currently has no recorded original indication or approved product in this evidence pack — it is an amino acid known pharmacologically as an inhibitory neurotransmitter and NMDA receptor co-agonist. The TxGNN model predicts potential efficacy for **Nasal Cavity Disease**, but the supporting evidence is weak: the single clinical trial and both literature records were independently graded as irrelevant or only tangentially related to this drug-disease pair.
+الـ Glycine حالياً لا يملك استطباب أصلي معروف أو منتج موافق عليه في مجموعة الأدلة هذه — وهو حمض أميني معروف صيدلانياً كناقل عصبي مثبط وناهض مشارك لمستقبل NMDA. يتنبأ نموذج TxGNN بفعالية محتملة لـ **أمراض تجويف الأنف**، لكن الأدلة الداعمة ضعيفة: التجربة السريرية الوحيدة وكلا السجلات الأدبية تم تقييمها بشكل مستقل كغير ذات صلة أو ذات صلة محدودة فقط بهذا الزوج الدوائي-المرضي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | No original indication data available |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | لا توجد بيانات استطباب أصلي متاحة |
+| الاستطباب الجديد المتنبأ به | أمراض تجويف الأنف |
+| درجة تنبؤ TxGNN | 99.85% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تعليق |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for glycine. Based on known pharmacology, glycine acts as an inhibitory neurotransmitter and as a co-agonist at the NMDA receptor; no established anti-inflammatory or mucosal-repair mechanism is documented that would plausibly connect it to nasal cavity disease.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل للـ Glycine. بناءً على الصيدلة المعروفة، يعمل Glycine كناقل عصبي مثبط وكناهض مشارك لمستقبل NMDA؛ لا توجد آلية موثقة مضادة للالتهاب أو لإصلاح الأغشية المخاطية من شأنها أن تربط بشكل معقول بين استخدامه وأمراض تجويف الأنف.
 
-No original indication is recorded for this drug in the current evidence pack, so a mechanistic bridge between "original use" and "predicted new indication" cannot be constructed. The high TxGNN score (99.85%) reflects graph-embedding similarity within the knowledge graph rather than a validated pharmacological or clinical rationale.
+لم يتم تسجيل استطباب أصلي لهذا الدواء في مجموعة الأدلة الحالية، لذلك لا يمكن بناء جسر آلي بين "الاستخدام الأصلي" و"الاستطباب الجديد المتنبأ به". درجة TxGNN العالية (99.85%) تعكس التشابه في تضمين الرسم البياني داخل الشبكة المعرفية وليس معقولية صيدلانية أو سريرية موثوقة.
 
-Reviewer annotations on the supporting evidence reinforce this caution: the one retrieved clinical trial was graded "C" relevance (an unrelated PET-imaging biomarker study in cancer patients, only coincidentally touching head-and-neck anatomy), and both literature records were classified as low-tier, off-target findings (bovine nasal mucosa histochemistry; polymer-based mucosal vaccine adjuvants). Neither line of evidence actually studies glycine's effect on nasal cavity disease.
+تعليقات المراجعين على الأدلة الداعمة تعزز هذا الحذر: تم تقييم التجربة السريرية المسترجعة الوحيدة بـ "C" من حيث الصلة (دراسة مؤشر حيوي بتصوير PET غير ذات صلة في مرضى السرطان، تلمس تشريح الرأس والرقبة بالمصادفة فقط)، وتم تصنيف كلا السجلات الأدبية كنتائج منخفضة المستوى وخارج الهدف (الهستوكيمياء المخاطية الأنفية البقرية؛ المواد المساعدة على اللقاح المخاطي ذات الأساس البوليمري). لا تدرس أي من خطوط الأدلة فعلياً تأثير Glycine على أمراض تجويف الأنف.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | Evaluated the 18F-FPPRGD2 PET radiopharmaceutical for imaging αvβ3 integrin/angiogenesis in GBM, gynecological cancer, and renal cell carcinoma patients under antiangiogenic therapy. Not a glycine or nasal-disease study; flagged as irrelevant (Grade C), likely surfaced only via incidental head/neck cancer enrollment. |
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | المرحلة 1/2 | مكتملة | 25 | قيّم المستحضر الإشعاعي 18F-FPPRGD2 بتصوير PET لتصوير تكامل αvβ3/التوعية الدموية في مرضى الورم الأرومي الدبقي والسرطانات النسائية وسرطان الكلية تحت العلاج المضاد للتوعية. ليست دراسة Glycine أو أمراض أنفية؛ تم وضع علامة عليها كغير ذات صلة (الدرجة C)، ربما ظهرت فقط من خلال تسجيل عرضي لسرطان الرأس والرقبة. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical | Chemical & Pharmaceutical Bulletin | Investigated oligoarginine-polymer conjugates as nasal mucosal vaccine adjuvants in mice; unrelated to glycine. |
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Other (histochemistry) | Veterinary Pathology | Lectin histochemistry of normal vs. herpesvirus-infected bovine nasal mucosa; a basic veterinary pathology study, not a glycine or human-disease study. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | دراسة ما قبل سريرية | Chemical & Pharmaceutical Bulletin | بحثت في اقترانات بوليمر قليلة الأرجينين كمواد مساعدة لقاح مخاطية أنفية في الفئران؛ غير مرتبطة بـ Glycine. |
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | أخرى (الهستوكيمياء) | Veterinary Pathology | الهستوكيمياء اللاكتين للغشاء المخاطي الأنفي البقري الطبيعي مقابل المصاب بفيروس الهربس؛ دراسة علم أمراض بيطرية أساسية، وليست دراسة Glycine أو أمراض بشرية. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Glycine is not currently marketed in Saudi Arabia; no product authorizations are on record.
+لا يُسوّق Glycine حالياً في المملكة العربية السعودية؛ لا توجد تفويضات منتجات مسجلة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — this is flagged as a blocking data gap, DG001.)
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية وموانع الاستخدام وتفاعلات الأدوية غير متاحة حالياً في مجموعة الأدلة هذه — تم وضع علم عليها كفجوة بيانات حجب، DG001.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-Despite a high TxGNN similarity score, none of the retrieved clinical trial or literature evidence actually supports glycine's use in nasal cavity disease — both were independently graded as off-target. Combined with the absence of MOA and original-indication data, there is no mechanistic or clinical basis to advance this candidate at this time.
+**المبرر:**
+رغم درجة تشابه TxGNN العالية، لا توجد أي من الأدلة المسترجعة من التجارب السريرية أو الأدبيات التي تدعم فعلياً استخدام Glycine في أمراض تجويف الأنف — كلاهما تم تقييمه بشكل مستقل كخارج الهدف. بالاقتران مع غياب بيانات آلية العمل والاستطباب الأصلي، لا توجد أساس ميكانيكي أو سريري لتقدم هذا المرشح في الوقت الحالي.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (blocking gap, DG001)
-- Verified mechanism of action data for glycine (DG002)
-- Literature or trial evidence that directly studies glycine (not incidental keyword matches) in nasal or upper-airway conditions
+**لكي نتقدم، يلزم ما يلي:**
+- تحذيرات نشرة TFDA/SFDA وموانع الاستخدام (فجوة حجب، DG001)
+- بيانات آلية العمل الموثوقة لـ Glycine (DG002)
+- أدلة أدبية أو تجريبية تدرس Glycine مباشرة (وليس المطابقات الكلمات المفتاحية العرضية) في حالات تجويف الأنف أو المسالك الهوائية العليا
 
-*Note: A second, similarly weak candidate was also predicted — **acute laryngopharyngitis** (TxGNN score 99.84%, rank 3409, Evidence Level L5). Its only supporting literature record (PMID 21617577) studies sivelestat, an unrelated neutrophil elastase inhibitor, in acute lung injury — not glycine. This candidate carries the same "Hold" recommendation for the same reasons.*
+*ملاحظة: تم التنبؤ أيضاً بمرشح ثانٍ ضعيف بالمثل — **التهاب الحنجرة والبلعوم الحاد** (درجة TxGNN 99.84%، ترتيب 3409، مستوى الدليل L5). السجل الأدبي الوحيد الداعم لها (PMID 21617577) يدرس sivelestat، مثبط الاستيلاز المحايد غير ذي الصلة، في إصابة الرئة الحادة — وليس Glycine. يحمل هذا المرشح نفس توصية "تعليق" للأسباب نفسها.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

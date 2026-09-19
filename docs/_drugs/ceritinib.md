@@ -29,95 +29,96 @@ indication_count: 10
 
 </div>
 
-# Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# سيريتينيب: من سرطان الرئة غير الصغيرة الموجب لـ ALK إلى التليف اللثوي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ceritinib is a second-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor, approved in multiple jurisdictions for ALK-positive non-small cell lung cancer (NSCLC), but not currently marketed in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Gingival Fibromatosis**, yet there are currently **0 clinical trials** and **0 publications** directly supporting this indication.
-This prediction appears to reflect knowledge graph topological proximity rather than any established biological mechanism, and does not support clinical translation at this stage.
+سيريتينيب هو مثبط كيناز التيروسين من الجيل الثاني لكيناز الليمفوما اللاإرادية (ALK)، معتمد في عدة ولايات قضائية لسرطان الرئة غير الصغيرة الموجب لـ ALK (NSCLC)، لكنه غير موجود حاليًا في السوق السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التليف اللثوي**، إلا أنه لا توجد حاليًا **0** تجربة سريرية و **0** منشور يدعمان مباشرة هذا الاستطباب.
+يبدو أن هذا التنبؤ يعكس القرب الطوبولوجي لرسم البيانات المعرفية بدلاً من أي آلية بيولوجية محددة، ولا يدعم الترجمة السريرية في هذه المرحلة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | ALK-positive Non-Small Cell Lung Cancer (inferred from drug class; no Saudi Arabia authorization on record) |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | سرطان الرئة غير الصغيرة الموجب لـ ALK (مستنبط من فئة الدواء؛ لا توجد موافقة من المملكة العربية السعودية في السجل) |
+| الاستطباب الجديد المتنبأ به | التليف، اللثوي |
+| درجة تنبؤ TxGNN | 99.86% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجود |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on published literature embedded in the Evidence Pack, ceritinib is a potent, selective second-generation ALK (anaplastic lymphoma kinase) inhibitor. It works by blocking ALK tyrosine kinase activity and its downstream oncogenic signaling cascades — including RAS-MAPK and PI3K-AKT pathways — thereby inhibiting the proliferation and survival of cancer cells harboring ALK gene rearrangements. The landmark ASCEND-4 Phase 3 trial (PMID 28126333) established first-line efficacy in ALK-rearranged NSCLC, and ceritinib received FDA Breakthrough Therapy designation for this indication in 2014 (PMID 24980964).
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة في مجموعة البيانات هذه. بناءً على الأدب المنشور المضمن في حزمة الدليل، سيريتينيب هو مثبط ALK (كيناز الليمفوما اللاإرادية) فعال وانتقائي من الجيل الثاني. يعمل بحظر نشاط كيناز التيروسين ALK وآليات الإشارات الجزيئية الورمية اللاحقة — بما في ذلك مسارات RAS-MAPK و PI3K-AKT — وبالتالي تثبيط تكاثر والبقاء على قيد الحياة لخلايا سرطانية تحتوي على إعادة ترتيبات جين ALK. أثبتت تجربة ASCEND-4 من المرحلة 3 البارزة (PMID 28126333) الفعالية في الخط الأول لـ NSCLC المعاد ترتيب ALK، وحصل سيريتينيب على تعيين FDA Breakthrough Therapy لهذا الاستطباب في 2014 (PMID 24980964).
 
-Gingival fibromatosis is a benign fibrous proliferative disorder of the gums, driven primarily by CTGF/TGF-β-mediated fibroblast activation and collagen overproduction. There is no established connection between ALK signaling and the pathogenesis of this condition. The TxGNN model assigns a high score (99.86%), but the repurposing rationale within the Evidence Pack explicitly attributes this to knowledge graph topological proximity rather than direct biological mechanism — no direct pathway link has been identified.
+التليف اللثوي هو اضطراب تنسجي ليفي حميد في اللثة، يحركه بشكل أساسي تفعيل الخلايا الليفية الوسيطة CTGF/TGF-β والإنتاج الزائد للكولاجين. لا توجد صلة محددة بين إشارات ALK وإمراضية هذا المرض. يعطي نموذج TxGNN درجة عالية (99.86%)، لكن المنطق الأساسي لإعادة الاستخدام داخل حزمة الدليل ينسب هذا بوضوح إلى القرب الطوبولوجي لرسم البيانات المعرفية بدلاً من آلية بيولوجية مباشرة — لم يتم تحديد صلة مسار مباشرة.
 
-Beyond the mechanistic disconnect, the risk-benefit calculus is severely unfavorable: ceritinib is a systemic cytotoxic-class targeted therapy with documented GI toxicity, hepatotoxicity, QT prolongation risk, and pulmonary toxicity. Applying such a drug to a benign condition manageable by surgical intervention cannot be justified without compelling mechanistic or preclinical evidence, neither of which currently exists. This prediction is best understood as computational noise.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+بعيدًا عن الانفصال الآلي، فإن حساب المخاطر والفوائد غير مواتي بشدة: سيريتينيب هو علاج موجه من فئة السمية الجهازية مع توثيق سمية الجهاز الهضمي والسمية الكبدية وخطر إطالة QT والسمية الرئوية. لا يمكن تبرير تطبيق مثل هذا الدواء على حالة حميدة يمكن إدارتها بالتدخل الجراحي دون دليل آلي مقنع أو قبل سريري، وكلاهما غير موجود حاليًا. يُفهم أفضل هذا التنبؤ على أنه ضوضاء حسابية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Ceritinib is not currently authorized for marketing in Saudi Arabia. No license records are on file in this dataset.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Cytotoxicity
+## دليل الأدب
 
-Ceritinib is an antineoplastic agent (ALK-positive NSCLC indication; targeted kinase inhibitor class). The following applies:
+لا يوجد أدب ذو صلة متاح حاليًا.
 
-| Item | Content |
+---
+
+## معلومات السوق في المملكة العربية السعودية
+
+سيريتينيب غير معتمد حاليًا للتسويق في المملكة العربية السعودية. لا توجد سجلات ترخيص في ملف مجموعة البيانات هذه.
+
+---
+
+## السمية
+
+سيريتينيب هو عامل مضاد للأورام (استطباب NSCLC الموجب لـ ALK؛ فئة مثبط كيناز موجه). ما يلي ينطبق:
+
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation ALK tyrosine kinase inhibitor (TKI) |
-| Myelosuppression Risk | Low to moderate; less hematologic toxicity than conventional cytotoxics, but anemia and neutropenia have been reported in post-marketing surveillance (PMID 34864500 — FDA FAERS analysis) |
-| Emetogenicity Classification | Moderate to high; nausea, vomiting, and diarrhea are the predominant dose-limiting toxicities at the 750 mg fasted dose; the ASCEND-8 trial demonstrated that 450 mg with food significantly reduces GI adverse events (PMID 35344649) |
-| Monitoring Items | Liver function (ALT/AST/bilirubin), QTc interval (ECG before and during treatment), blood glucose (hyperglycemia risk), complete blood count, pulmonary symptoms (interstitial lung disease / pneumonitis), and bradycardia |
-| Handling Protection | Required — oral targeted antineoplastic; follow institutional cytotoxic drug handling and disposal regulations |
+| تصنيف السمية | علاج موجه — مثبط كيناز ALK التيروسين من الجيل الثاني (TKI) |
+| خطر كبت النخاع | منخفض إلى متوسط؛ سمية أقل للدم من الأدوية السامة للخلايا التقليدية، لكن فقر الدم والعدلات المنخفضة تم الإبلاغ عنها في المراقبة بعد التسويق (PMID 34864500 — تحليل FDA FAERS) |
+| تصنيف القيء والغثيان | متوسط إلى عالي؛ الغثيان والقيء والإسهال هي الأعراض الجانبية الرئيسية المحددة للجرعة عند جرعة 750 ملغ على معدة فارغة؛ أظهرت تجربة ASCEND-8 أن 450 ملغ مع الطعام يقلل بشكل كبير من الأحداث الضائرة في الجهاز الهضمي (PMID 35344649) |
+| عناصر المراقبة | وظائف الكبد (ALT/AST/bilirubin)، فترة QTc (رسم القلب الكهربائي قبل وأثناء العلاج)، نسبة السكر في الدم (خطر ارتفاع السكر)، العد الدموي الكامل، الأعراض الرئوية (مرض الرئة الخلالي / الالتهاب الرئوي)، والبطء القلبي |
+| الحماية أثناء المناولة | مطلوبة — علاج مضاد للأورام عن طريق الفم موجه؛ اتبع لوائح مؤسستك لمناولة والتخلص من أدوية السمية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ورقة المعلومات الدوائية للحصول على معلومات السلامة.
 
-> **Note:** Formal warnings and contraindications data were not retrievable for this dataset (Data Gap: TFDA package insert parsing pending). From published post-marketing evidence, clinically significant signals include QT prolongation (PMID 26008987, PMID 29413968), severe hepatotoxicity, interstitial lung disease, and hypersensitivity reactions including diffuse infiltrative lung disease and pericarditis (PMID 31280988). Drug interaction data were not found in the query log. Prescribers should consult the full approved label before any clinical use.
+> **ملاحظة:** لم يكن من الممكن استرجاع بيانات التحذيرات الرسمية والموانع لمجموعة البيانات هذه (فجوة البيانات: تحليل ورقة المعلومات الدوائية TFDA قيد الانتظار). من الدليل المنشور بعد التسويق، تشمل الإشارات السريرية المهمة إطالة QT (PMID 26008987, PMID 29413968)، والسمية الكبدية الشديدة، ومرض الرئة الخلالي، وردود الفعل فرط الحساسية بما في ذلك مرض الرئة الخلالي المنتشر والتهاب التامور (PMID 31280988). لم يتم العثور على بيانات التفاعلات الدوائية في سجل الاستعلام. يجب على الموصفين استشارة الملصق المعتمد الكامل قبل أي استخدام سريري.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-There is no biologically plausible mechanism linking ALK inhibition to gingival fibromatosis — a benign fibrous condition driven by CTGF/TGF-β rather than ALK signaling — and the Evidence Pack contains zero clinical trials and zero supporting publications for this indication. The TxGNN high score (99.86%) is explicitly attributed to graph topological proximity and should not be interpreted as mechanistic support.
+**المنطق الأساسي:**
+لا توجد آلية بيولوجية معقولة تربط بين كبح ALK والتليف اللثوي — وهي حالة ليفية حميدة يحركها CTGF/TGF-β بدلاً من إشارات ALK — وحزمة الدليل تحتوي على صفر تجارب سريرية وصفر منشورات داعمة لهذا الاستطباب. يُعزى درجة TxGNN العالية (99.86%) بوضوح إلى القرب الطوبولوجي لرسم البيانات المعرفية ولا يجب تفسيرها كدعم آلي.
 
-**To proceed, the following would be needed:**
+**للمتابعة، ستكون هناك حاجة إلى ما يلي:**
 
-- Evidence of ALK expression or activating mutations in gingival fibromatosis tissue (molecular profiling data)
-- Preclinical in vitro or in vivo data demonstrating ceritinib activity in gingival fibroblast proliferation models
-- A proposed mechanistic link connecting ALK signaling to CTGF/TGF-β pathways in gingival fibrosis
-- Retrieval of formal MOA data from DrugBank (currently data gap — DrugBank API query recommended)
-- Full safety profile from the SFDA-approved package insert or EMA/FDA label (TFDA insert parsing currently pending)
-- Re-evaluation against higher-ranked indications with mechanistic plausibility (e.g., Rank 6 — Lung Germ Cell Tumor, which has 1 completed Phase 0 trial and 10 supporting publications, and carries a "Research Question" designation at S1)
+- دليل على تعبير ALK أو الطفرات المفعلة في أنسجة التليف اللثوي (بيانات التنميط الجزيئي)
+- بيانات قبل سريرية في المختبر أو في الجسم الحي تثبت نشاط سيريتينيب في نماذج تكاثر الخلايا الليفية اللثوية
+- صلة آلية مقترحة تربط إشارات ALK بمسارات CTGF/TGF-β في تليف اللثة
+- استرجاع بيانات MOA الرسمية من DrugBank (حاليًا فجوة في البيانات — موصى به الاستعلام عن DrugBank API)
+- الملف الشامل للسلامة من ورقة المعلومات الدوائية المعتمدة من SFDA أو ملصق EMA/FDA (تحليل إدراج TFDA قيد الانتظار حاليًا)
+- إعادة تقييم ضد الاستطبابات ذات الترتيب الأعلى مع القابلية الآلية (على سبيل المثال، الترتيب 6 — ورم الخلايا الجرثومية الرئوية، والذي يحتوي على تجربة Phase 0 مكتملة واحدة و 10 منشورات داعمة، ويحمل تعيين "Research Question" عند S1)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

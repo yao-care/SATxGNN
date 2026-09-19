@@ -29,68 +29,69 @@ indication_count: 1
 
 </div>
 
-# Povidone: From Pharmaceutical Excipient/Antiseptic Carrier to Congenital Ichthyosiform Erythroderma
+# بوفيدون: من سواغ صيدلاني / ناقل مطهر إلى الحمامى الجلدية الخلقية الشبيهة بالسمك
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Povidone (PVP) is not itself a therapeutic agent — it is used as a pharmaceutical excipient (binder, suspending agent) and as the carrier polymer in povidone-iodine topical antiseptics, with no established original indication of its own. The TxGNN model predicts a possible link to **Congenital Ichthyosiform Erythroderma**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanism of action is undocumented.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not applicable — Povidone has no approved therapeutic indication; it functions as an excipient and as the carrier in povidone-iodine antiseptics |
-| Predicted New Indication | Congenital Ichthyosiform Erythroderma |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+بوفيدون (PVP) ليس عاملاً علاجياً بحد ذاته — يُستخدم كسواغ صيدلاني (رابط، عامل معلق) وكبوليمر ناقل في المطهرات الموضعية بوفيدون-اليود، بدون مؤشر أصلي محدد. يتنبأ نموذج TxGNN بارتباط محتمل بـ **الحمامى الجلدية الخلقية الشبيهة بالسمك**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشورات**، وآلية العمل الأساسية غير موثقة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (MOA marked as a data gap). Based on known information, Povidone is a pharmacologically inert polymer used as an excipient and, in the form of povidone-iodine, as a topical antiseptic carrier — it does not have a defined original therapeutic indication to compare against.
-
-Congenital Ichthyosiform Erythroderma is a genetic keratinization disorder involving defects in lipid metabolism and structural/barrier proteins (e.g., transglutaminase, filaggrin). There is no known pharmacological pathway connecting an inert excipient/antiseptic carrier to correction of this underlying genetic and metabolic defect.
-
-The most plausible explanation for this prediction is a non-specific association arising from Povidone's common use as a topical/moisturizing vehicle in dermatologic formulations, rather than a genuine treatment mechanism. Given the absence of MOA data and any corroborating clinical or literature evidence, this candidate should be treated as a likely TxGNN false positive pending further mechanistic justification.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير قابل للتطبيق — بوفيدون ليس له مؤشر علاجي معتمد؛ فهو يعمل كسواغ وكناقل في مطهرات بوفيدون-اليود الموضعية |
+| المؤشر الجديد المتنبأ به | الحمامى الجلدية الخلقية الشبيهة بالسمك |
+| درجة التنبؤ TxGNN | 99.11% |
+| مستوى الدليل | L5 (التنبؤ بالنموذج فقط، بدون الدراسات الداعمة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (آلية العمل تم تحديدها كثغرة في البيانات). بناءً على المعلومات المعروفة، بوفيدون هو بوليمر خامل من الناحية الدوائية يُستخدم كسواغ وفي شكل بوفيدون-اليود كناقل مطهر موضعي — ليس له مؤشر علاجي أصلي محدد للمقارنة به.
 
----
+الحمامى الجلدية الخلقية الشبيهة بالسمك هي اضطراب جيني للتقرن يتضمن عيوباً في استقلاب الدهون والبروتينات الهيكلية/حاجز البشرة (مثل الترانسجلوتاميناز والفيلاجرين). لا يوجد مسار دوائي معروف يربط بين سواغ خامل/ناقل مطهر وتصحيح العيب الجيني والأيضي الأساسي هذا.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+التفسير الأكثر معقولية لهذا التنبؤ هو ارتباط غير محدد ينشأ من الاستخدام الشائع لبوفيدون كناقل موضعي/مرطب في الصيغ الجلدية، بدلاً من آلية علاج حقيقية. بالنظر إلى غياب بيانات آلية العمل وأي دليل سريري أو أدبي مؤيد، يجب اعتبار هذا المرشح موجباً كاذباً محتملاً لـ TxGNN في انتظار مبرر ميكانيكي إضافي.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (Evidence Level L5) with no corroborating clinical trials or literature, no defined mechanism of action, and no biologically plausible link between an inert excipient/antiseptic carrier and a genetic keratinization disorder. Povidone is also not currently marketed in Saudi Arabia, and a blocking safety data gap (TFDA package insert warnings/contraindications) remains unresolved.
+---
 
-**To proceed, the following is needed:**
-- Resolve the blocking data gap: TFDA package insert warnings and contraindications (DG001)
-- Confirm or refute the mechanism of action via DrugBank or primary literature (DG002)
-- Independent mechanistic or preclinical evidence linking Povidone (or povidone-iodine) to keratinization/barrier repair pathways before advancing beyond S0
-- Re-evaluate once real-world clinical or observational data become available; without this, the candidate should not progress past model-prediction stage
+## دليل الأدب
+
+لا توجد أدبيات ذات صلة متاحة حالياً
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**المنطق:**
+يستند التنبؤ فقط على درجة نموذج TxGNN (مستوى الدليل L5) بدون أي تجارب سريرية أو أدب مؤيدة، وبدون آلية عمل محددة، وبدون ارتباط معقول بيولوجياً بين سواغ خامل/ناقل مطهر واضطراب جيني للتقرن. بوفيدون أيضاً غير مسوقة حالياً في المملكة العربية السعودية، وتبقى ثغرة بيانات سلامة حاجزة غير محلولة (تحذيرات ونشرة TFDA وموانع الاستعمال — DG001).
+
+**للمتابعة، يلزم ما يلي:**
+- حل ثغرة البيانات الحاجزة: تحذيرات ونشرة TFDA وموانع الاستعمال (DG001)
+- تأكيد أو دحض آلية العمل عبر DrugBank أو الأدب الأساسي (DG002)
+- دليل ميكانيكي مستقل أو دليل قبل سريري يربط بوفيدون (أو بوفيدون-اليود) بمسارات إصلاح التقرن/حاجز البشرة قبل التقدم بما يتجاوز S0
+- إعادة التقييم بمجرد توفر البيانات السريرية أو الملاحظة الواقعية؛ بدون هذا، يجب ألا يتقدم المرشح بما يتجاوز مرحلة التنبؤ بالنموذج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

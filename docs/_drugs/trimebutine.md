@@ -29,81 +29,82 @@ indication_count: 2
 
 </div>
 
-# Trimebutine: From Irritable Bowel Syndrome to Migraine Disorder
+# Trimebutine: من متلازمة القولون العصبي إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Trimebutine is a peripheral opioid receptor agonist originally used as a gastrointestinal antispasmodic/prokinetic for irritable bowel syndrome (IBS) and related functional GI disorders. The TxGNN model predicts a possible role in **Migraine Disorder**, but this direction is currently supported only by **4 publications and no dedicated clinical trials**, with the proposed mechanism being indirect (improving gastric emptying to enhance absorption of oral migraine drugs) rather than a direct action on migraine pathophysiology.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Irritable Bowel Syndrome / functional gastrointestinal motility disorder (GI antispasmodic-prokinetic; not separately confirmed in structured regulatory data) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Trimebutine (تريميبيوتين) هو ناهض للمستقبلات الأفيونية الطرفية يُستخدم أصلاً كمضاد تقلصات ومنشط حركة معدية معوية لمتلازمة القولون العصبي والاضطرابات الوظيفية في الجهاز الهضمي ذات الصلة. يتنبأ نموذج TxGNN بدور محتمل في **اضطراب الصداع النصفي**، لكن هذا الاتجاه مدعوم حالياً فقط بـ **4 منشورات وبدون تجارب سريرية مخصصة**، والآلية المقترحة غير مباشرة (تحسين إفراغ المعدة لتعزيز امتصاص أدوية الصداع النصفي الفموية) بدلاً من العمل المباشر على الفسيولوجيا المرضية للصداع النصفي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Formal mechanism-of-action data for trimebutine is flagged as a data gap in the evidence pack (not queryable from DrugBank at the time of this pull). However, the supporting literature (PMID 16776704) describes trimebutine as a peripheral **mu/kappa/delta opioid receptor agonist** acting exclusively on the Meissner and Auerbach plexuses throughout the GI tract, with no systemic absorption — consistent with its known clinical use as a GI smooth-muscle antispasmodic and prokinetic agent (e.g., in IBS).
-
-There is no known action of trimebutine on the trigeminovascular system, CGRP signaling, or serotonergic pathways that underlie migraine pathophysiology. The connection identified in the literature is **pharmacokinetic, not pathophysiological**: migraine attacks are frequently accompanied by gastroparesis, which delays absorption of oral abortive therapies such as triptans. Trimebutine's prokinetic effect on gastric emptying may therefore improve the absorption and onset of triptans when co-administered, rather than treat migraine directly.
-
-This means the TxGNN signal likely reflects a genuine but **adjunctive/pharmacokinetic** relationship rather than a disease-modifying one — the mechanistic plausibility is real but indirect, which should temper expectations for trimebutine as a standalone migraine therapy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | متلازمة القولون العصبي / اضطراب الحركة الوظيفي في الجهاز الهضمي (مضاد تقلصات معدية - منشط حركة؛ لم يُؤكد بشكل منفصل في البيانات التنظيمية المنظمة) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ في TxGNN | 99.64% |
+| مستوى الدليل | L3 |
+| حالة السوق في تايوان | غير معروض بالأسواق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [16776704](https://pubmed.ncbi.nlm.nih.gov/16776704/) | 2006 | RCT | Cephalalgia | Double-blind, randomized, cross-over, placebo-controlled study of rizatriptan alone vs. rizatriptan + trimebutine for acute migraine; rationale was that trimebutine's gastrokinetic effect could counter migraine-related gastroparesis and improve triptan absorption/efficacy |
-| [19220673](https://pubmed.ncbi.nlm.nih.gov/19220673/) | 2009 | Review | J Gastroenterol Hepatol | Reviews effectiveness of prokinetic agents (including trimebutine-class drugs) for conditions outside the GI tract, including CNS-related indications |
-| [17046449](https://pubmed.ncbi.nlm.nih.gov/17046449/) | 2006 | Review | Lancet | General review on strategies to increase triptan effectiveness in migraine; relevant context for adjunctive gastrokinetic approaches, though abstract text not available |
-| [16245431](https://pubmed.ncbi.nlm.nih.gov/16245431/) | 2005 | Case Report | Polski Merkuriusz Lekarski | Case of abdominal migraine in a 9-year-old girl; trimebutine (along with other antispasmodics) was tried without improvement — a negative/inconclusive data point, not supportive evidence |
+بيانات آلية العمل الرسمية لـ Trimebutine تُعتبر فجوة في البيانات في حزمة الأدلة (غير قابلة للاستعلام من DrugBank في وقت هذا السحب). مع ذلك، الأدبيات الداعمة (PMID 16776704) تصف Trimebutine كـ **ناهض للمستقبلات الأفيونية mu/kappa/delta الطرفي** يعمل بشكل حصري على ضفائر Meissner و Auerbach في جميع أنحاء الجهاز الهضمي، بدون امتصاص جهازي — وهذا متسق مع استخدامه السريري المعروف كمضاد تقلصات العضلات الملساء والمعدية وعامل منشط الحركة (مثلاً في متلازمة القولون العصبي).
 
----
+لا توجد آلية عمل معروفة لـ Trimebutine على النظام trigeminovascular أو إشارات CGRP أو المسارات السيروتونينية التي تكمن وراء الفسيولوجيا المرضية للصداع النصفي. الارتباط المعرّف في الأدبيات هو **دوائي-حركي، وليس فسيولوجي-مرضي**: نوبات الصداع النصفي يرافقها بشكل متكرر شلل المعدة، الذي يؤخر امتصاص العلاجات الإجهاضية الفموية مثل التريبتانات. تأثير Trimebutine على منشط حركة المعدة قد يحسّن بالتالي امتصاص والبداية السريعة للتريبتانات عند إعطاؤها معاً، بدلاً من معالجة الصداع النصفي بشكل مباشر.
 
-## Taiwan Market Information
-
-Trimebutine currently has no marketing authorization in Taiwan (0 licenses on record); no product or dosage-form data is available.
+هذا يعني أن إشارة TxGNN تعكس على الأرجح علاقة حقيقية لكن **مساعدة / دوائية-حركية** بدلاً من كونها معدّلة للمرض — المعقولية الميكانيكية حقيقية لكن غير مباشرة، مما يجب أن يخفف التوقعات لـ Trimebutine كعلاج منفرد للصداع النصفي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|-------|---------|
+| [16776704](https://pubmed.ncbi.nlm.nih.gov/16776704/) | 2006 | تجربة معايرة عشوائية | Cephalalgia | دراسة عمياء مزدوجة، عشوائية، تقاطع، خاضعة للتحكم بالدواء الوهمي لـ rizatriptan وحده مقابل rizatriptan + Trimebutine لعلاج الصداع النصفي الحاد؛ المنطق كان أن تأثير Trimebutine على منشط حركة المعدة يمكن أن يعاكس شلل المعدة المرتبط بالصداع النصفي ويحسّن امتصاص / فعالية التريبتان |
+| [19220673](https://pubmed.ncbi.nlm.nih.gov/19220673/) | 2009 | مراجعة | J Gastroenterol Hepatol | تراجع فعالية عوامل منشط الحركة (بما فيها أدوية من فئة Trimebutine) للحالات خارج الجهاز الهضمي، بما فيها المؤشرات ذات الصلة بالجهاز العصبي المركزي |
+| [17046449](https://pubmed.ncbi.nlm.nih.gov/17046449/) | 2006 | مراجعة | Lancet | مراجعة عامة عن الاستراتيجيات لزيادة فعالية التريبتان في الصداع النصفي؛ سياق ذو صلة للمقاربات الدوائية-الحركية المساعدة، على الرغم من أن نص الملخص غير متوفر |
+| [16245431](https://pubmed.ncbi.nlm.nih.gov/16245431/) | 2005 | تقرير حالة | Polski Merkuriusz Lekarski | حالة صداع بطني في فتاة عمرها 9 سنوات؛ تمت تجربة Trimebutine (مع مضادات تقلصات أخرى) بدون تحسن — نقطة بيانات سلبية / غير حاسمة، وليست أدلة داعمة |
 
-**Rationale:**
-The only clinical evidence (a single small RCT) tested trimebutine as an *adjunct* to a triptan to improve absorption during gastroparesis — not as a treatment for migraine itself — and a case report found no benefit in a related pediatric syndrome. There is no direct mechanistic pathway linking trimebutine to migraine pathophysiology (trigeminovascular/CGRP/serotonergic systems), and the drug is not currently marketed in Taiwan.
+---
 
-**To proceed, the following is needed:**
-- Confirmed DrugBank/official MOA data for trimebutine (currently a blocking data gap, DG002)
-- TFDA/regulatory package insert with warnings and contraindications (blocking data gap, DG001) before any safety review can begin
-- A dedicated clinical trial evaluating trimebutine's effect on migraine outcomes (not merely triptan pharmacokinetics)
-- Clarification of trimebutine's approved original indication(s), which were not populated in the source data
+## معلومات السوق في تايوان
 
-**Note:** A second TxGNN prediction for this drug, *migraine with brainstem aura* (score 99.54%), has zero supporting clinical trials or literature (Evidence Level L5, model prediction only) and is separately assessed as **Hold** — not pursued further in this report.
+Trimebutine لا يملك حالياً أي تفويض تسويق في تايوان (0 رخصة في السجلات)؛ لا توجد بيانات عن المنتج أو شكل الجرعة متوفرة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+الدليل السريري الوحيد (تجربة معايرة صغيرة واحدة) اختبرت Trimebutine كـ *مساعد* لـ triptan لتحسين الامتصاص أثناء شلل المعدة — وليس كعلاج للصداع النصفي نفسه — وتقرير حالة وجد عدم فائدة في متلازمة الأطفال ذات الصلة. لا توجد مسار ميكانيكي مباشر يربط Trimebutine بالفسيولوجيا المرضية للصداع النصفي (أنظمة trigeminovascular / CGRP / السيروتونينية)، والعقار غير معروض حالياً في تايوان.
+
+**للمتابعة، ما يلي مطلوب:**
+- بيانات آلية العمل المؤكدة من DrugBank / الرسمية لـ Trimebutine (حالياً فجوة بيانات حاجزة، DG002)
+- حزمة TFDA / المدرجة التنظيمية مع التحذيرات والموانع (فجوة بيانات حاجزة، DG001) قبل أن تتمكن أي مراجعة سلامة من البدء
+- تجربة سريرية مخصصة لتقييم تأثير Trimebutine على نتائج الصداع النصفي (وليس فقط على الخصائص الدوائية-الحركية للتريبتان)
+- توضيح المؤشر الأصلي المعتمد لـ Trimebutine، والذي لم يتم ملؤه في بيانات المصدر
+
+**ملاحظة:** تنبؤ TxGNN الثاني لهذا الدواء، *صداع نصفي مع هالة في جذع الدماغ* (درجة 99.54%)، له صفر تجارب سريرية مخصصة أو أدبيات (مستوى الدليل L5، تنبؤ نموذج فقط) ويُقيّم بشكل منفصل كـ **الانتظار** — لم يتم متابعته بشكل أعمق في هذا التقرير.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

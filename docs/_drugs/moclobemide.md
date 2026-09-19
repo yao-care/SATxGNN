@@ -29,87 +29,88 @@ indication_count: 2
 
 </div>
 
-# Moclobemide: From Depression to Agoraphobia
+# موكلوبيميد: من الاكتئاب إلى الأغورافوبيا
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Moclobemide (DrugBank DB01171) is a reversible MAO-A inhibitor (RIMA) with established antidepressant efficacy in double-blind placebo-controlled trials cited in the literature evidence below.
-> The TxGNN model predicts it may be effective for **Agoraphobia**,
-> with **0 registered clinical trials** and **12 publications** — including 2 RCTs studying moclobemide in panic disorder with agoraphobia — currently supporting this direction.
+> موكلوبيميد (DrugBank DB01171) هو مثبط انتقائي قابل للعكس لإنزيم أحادي أمين الأكسيديز A (RIMA) يتمتع بفعالية مثبتة ضد الاكتئاب في التجارب السريرية العشوائية المضبوطة بالعلاج الوهمي كما تُوثّقها الأدلة الأدبية أدناه.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الأغورافوبيا**،
+> مع **0 تجربة سريرية مسجلة** و **12 منشورة** — من بينها تجربتان عشوائيتان تدرسان موكلوبيميد في اضطراب الهلع مع الأغورافوبيا — تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Depression (established antidepressant use, per literature evidence in this pack; no formal Saudi Arabia regulatory indication text is available — see below) |
-| Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الاكتئاب (استخدام مضاد اكتئاب مثبت الفعالية، وفقاً لأدلة الأدبيات في هذه المجموعة؛ لا يتوفر نص مؤشر تنظيمي رسمي للمملكة العربية السعودية — انظر أدناه) |
+| المؤشر الجديد المتنبأ به | الأغورافوبيا |
+| درجة التنبؤ من TxGNN | 99.43% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Moclobemide is a reversible inhibitor of monoamine oxidase A (RIMA). By inhibiting MAO-A, it raises synaptic concentrations of serotonin, norepinephrine, and dopamine — the pharmacological basis of its established antidepressant and anti-anxiety effects. Formal DrugBank/regulatory MOA text was not available in this evidence pack (flagged as a High-severity data gap), but this mechanism is directly documented in the supporting literature (e.g., PMID 7717094, PMID 2248064).
+موكلوبيميد هو مثبط انتقائي قابل للعكس لإنزيم أحادي أمين الأكسيديز A (RIMA). بتثبيطه MAO-A، يرفع تركيزات السيروتونين والنورأدرينالين والدوبامين في المشبك العصبي — وهو الأساس الدوائي لفعاليته المثبتة كمضاد للاكتئاب والقلق. لم تكن نصوص آلية العمل الرسمية من DrugBank أو التنظيمية متاحة في هذه المجموعة من الأدلة (تم تحديدها كفجوة بيانات ذات أهمية عالية)، لكن هذه الآلية موثّقة مباشرة في الأدبيات الداعمة (مثلاً: PMID 7717094, PMID 2248064).
 
-Panic disorder and agoraphobia are clinically highly comorbid — historically classified together as "panic disorder with agoraphobia" under DSM-III-R/IV. Two RCTs in this evidence pack (PMID 10448444, PMID 10361962) directly studied moclobemide in this combined population, and several reviews (PMID 28867934, PMID 32002937) discuss moclobemide within standard anxiety-disorder pharmacotherapy. The mechanistic rationale is therefore plausible and evidence-supported, but note the RCTs used panic disorder — not agoraphobia in isolation — as the primary endpoint, so the link is an extrapolation rather than a direct demonstration.
+اضطراب الهلع والأغورافوبيا يتعايشان بشكل سريري عالي — تم تصنيفهما تاريخياً معاً تحت "اضطراب الهلع مع الأغورافوبيا" وفق DSM-III-R/IV. تجربتان عشوائيتان في هذه مجموعة الأدلة (PMID 10448444, PMID 10361962) درستا موكلوبيميد مباشرة في هذه المجموعة المختلطة، وعدة مراجعات (PMID 28867934, PMID 32002937) تناقش موكلوبيميد ضمن العلاج الدوائي المعياري لاضطرابات القلق. وبالتالي فإن الأساس الآلي معقول ومدعوم بالأدلة، لكن لاحظ أن التجارب العشوائية استخدمت اضطراب الهلع — وليس الأغورافوبيا بمعزل — كنقطة نهاية أولية، لذا فإن الرابط هو استقراء بدلاً من توضيح مباشر.
 
-A second, much lower-confidence TxGNN prediction (benign paroxysmal torticollis of infancy, score 99.30%, L5) was reviewed and excluded from this report: there is no identifiable mechanistic link, no supporting literature or trials, and MAOIs lack safety data in infants — this is assessed as likely embedding-space noise rather than a genuine repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered on ClinicalTrials.gov or ICTRP.
+تم فحص تنبؤ ثانٍ من TxGNN بثقة أقل بكثير (التوتر العضلي الحميد الانتيابي في الرضاعة، درجة 99.30%، L5) وتم استبعاده من هذا التقرير: لا يوجد ارتباط آلي قابل للتحديد، ولا أدبيات أو تجارب داعمة، والمثبطات أحادي أمين الأكسيديز تفتقر إلى بيانات السلامة عند الرضع — يُقيّم هذا على أنه على الأرجح ضوضاء في فضاء التضمين بدلاً من إشارة إعادة استخدام حقيقية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10448444](https://pubmed.ncbi.nlm.nih.gov/10448444/) | 1999 | RCT | Br J Psychiatry | Randomised placebo-controlled trial of moclobemide, CBT, and their combination in panic disorder with agoraphobia |
-| [10361962](https://pubmed.ncbi.nlm.nih.gov/10361962/) | 1999 | RCT | Eur Arch Psychiatry Clin Neurosci | Moclobemide 450mg/day vs. clomipramine 150mg/day in DSM-III-R panic disorder with/without agoraphobia (n=135) |
-| [16850261](https://pubmed.ncbi.nlm.nih.gov/16850261/) | 2006 | Cohort | Metab Brain Dis | Compared effects of citalopram vs. moclobemide on resting brain perfusion (SPECT) in social anxiety disorder |
-| [28867934](https://pubmed.ncbi.nlm.nih.gov/28867934/) | 2017 | Review | Dialogues Clin Neurosci | Treatment guidelines for anxiety disorders including panic disorder/agoraphobia |
-| [32002937](https://pubmed.ncbi.nlm.nih.gov/32002937/) | 2020 | Review | Adv Exp Med Biol | Current and novel psychopharmacological drugs for anxiety disorders, including panic disorder/agoraphobia |
-| [8313401](https://pubmed.ncbi.nlm.nih.gov/8313401/) | 1993 | Review | Clin Neuropharmacol | Reversible MAO-A inhibitors (moclobemide, brofaromine) in panic disorder |
-| [7717094](https://pubmed.ncbi.nlm.nih.gov/7717094/) | 1995 | Review | Acta Psychiatr Scand Suppl | RIMAs in mental disorders; moclobemide's antidepressant activity in 4 placebo-controlled trials |
-| [2248064](https://pubmed.ncbi.nlm.nih.gov/2248064/) | 1990 | Review | Acta Psychiatr Scand Suppl | MAOIs effective in panic disorder with agoraphobia, social phobia, and related disorders |
-| [12006898](https://pubmed.ncbi.nlm.nih.gov/12006898/) | 2002 | Review | J Clin Psychopharmacol | Interactive model of therapeutic response in panic disorder using moclobemide data |
-| [7892341](https://pubmed.ncbi.nlm.nih.gov/7892341/) | 1995 | Case Report | Psychiatr Prax | Treatment-refractory panic disorder with agoraphobia remitted with combined imipramine, moclobemide, and behavior therapy |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة على ClinicalTrials.gov أو ICTRP.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Moclobemide is currently **not marketed** in Saudi Arabia — no authorization records exist in this evidence pack (0 licenses).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [10448444](https://pubmed.ncbi.nlm.nih.gov/10448444/) | 1999 | تجربة عشوائية | Br J Psychiatry | تجربة عشوائية مضبوطة بالعلاج الوهمي لموكلوبيميد والعلاج السلوكي المعرفي ودمجهما في اضطراب الهلع مع الأغورافوبيا |
+| [10361962](https://pubmed.ncbi.nlm.nih.gov/10361962/) | 1999 | تجربة عشوائية | Eur Arch Psychiatry Clin Neurosci | موكلوبيميد 450 ملغ/يوم مقابل كلوميبرامين 150 ملغ/يوم في اضطراب الهلع وفقاً لـ DSM-III-R مع/بدون الأغورافوبيا (n=135) |
+| [16850261](https://pubmed.ncbi.nlm.nih.gov/16850261/) | 2006 | دراسة جماعية | Metab Brain Dis | مقارنة تأثيرات السيتالوبرام مقابل موكلوبيميد على نقل الدم الدماغي أثناء الراحة (SPECT) في اضطراب القلق الاجتماعي |
+| [28867934](https://pubmed.ncbi.nlm.nih.gov/28867934/) | 2017 | مراجعة | Dialogues Clin Neurosci | إرشادات علاج اضطرابات القلق بما في ذلك اضطراب الهلع/الأغورافوبيا |
+| [32002937](https://pubmed.ncbi.nlm.nih.gov/32002937/) | 2020 | مراجعة | Adv Exp Med Biol | الأدوية النفسية الصيدلانية الحالية والجديدة لاضطرابات القلق، بما في ذلك اضطراب الهلع/الأغورافوبيا |
+| [8313401](https://pubmed.ncbi.nlm.nih.gov/8313401/) | 1993 | مراجعة | Clin Neuropharmacol | مثبطات أحادي أمين الأكسيديز القابلة للعكس (موكلوبيميد، بروفاروامين) في اضطراب الهلع |
+| [7717094](https://pubmed.ncbi.nlm.nih.gov/7717094/) | 1995 | مراجعة | Acta Psychiatr Scand Suppl | مثبطات MAO-A القابلة للعكس في الاضطرابات النفسية؛ النشاط المضاد للاكتئاب لموكلوبيميد في 4 تجارب مضبوطة بالعلاج الوهمي |
+| [2248064](https://pubmed.ncbi.nlm.nih.gov/2248064/) | 1990 | مراجعة | Acta Psychiatr Scand Suppl | المثبطات أحادي أمين الأكسيديز فعالة في اضطراب الهلع مع الأغورافوبيا والرهاب الاجتماعي والاضطرابات ذات الصلة |
+| [12006898](https://pubmed.ncbi.nlm.nih.gov/12006898/) | 2002 | مراجعة | J Clin Psychopharmacol | نموذج تفاعلي للاستجابة العلاجية في اضطراب الهلع باستخدام بيانات موكلوبيميد |
+| [7892341](https://pubmed.ncbi.nlm.nih.gov/7892341/) | 1995 | حالة سريرية | Psychiatr Prax | اضطراب الهلع مع الأغورافوبيا المقاوم للعلاج تحسّن مع العلاج المركب من الإيميبرامين والموكلوبيميد والعلاج السلوكي |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data were not available in this evidence pack (flagged as a Blocking-severity data gap — TFDA/SFDA package insert not yet retrieved).
+موكلوبيميد **غير مسوق** حالياً في المملكة العربية السعودية — لا توجد سجلات تفويض في هذه مجموعة الأدلة (0 ترخيص).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة. لم تكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية متاحة في هذه مجموعة الأدلة (تم تحديدها كفجوة بيانات حاسمة — لم يتم الحصول على نشرة TFDA/SFDA حتى الآن).
 
-**Rationale:**
-Supporting evidence (2 RCTs, several reviews) targets panic disorder with agoraphobia as a comorbid diagnosis rather than agoraphobia as an isolated primary endpoint, and no clinical trials are currently registered for agoraphobia specifically. Combined with the product's non-marketed status in Saudi Arabia and a Blocking-severity gap in safety/label data, this candidate is not yet ready to proceed.
+---
 
-**To proceed, the following is needed:**
-- SFDA/regulatory package insert (warnings, contraindications, DDI) — currently a Blocking data gap
-- Confirmed formal MOA/label documentation from DrugBank or regulatory source
-- A trial or systematic review with agoraphobia (not comorbid panic disorder) as the primary endpoint
-- Market entry / registration assessment for Saudi Arabia, given current "not marketed" status
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+الأدلة الداعمة (تجربتان عشوائيتان، عدة مراجعات) تستهدف اضطراب الهلع مع الأغورافوبيا كتشخيص متعايش بدلاً من الأغورافوبيا كنقطة نهاية أولية معزولة، ولا توجد تجارب سريرية مسجلة حالياً للأغورافوبيا على وجه التحديد. بالإضافة إلى حالة عدم التسويق في المملكة العربية السعودية وفجوة البيانات الحاسمة في بيانات السلامة/الملصق، هذا المرشح لم يصل بعد إلى مرحلة الاستعداد للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة SFDA/التنظيمية (التحذيرات والموانع والتفاعلات الدوائية) — فجوة بيانات حاسمة حالياً
+- توثيق رسمي مؤكد لآلية العمل/الملصق من DrugBank أو مصدر تنظيمي
+- تجربة أو مراجعة منهجية مع الأغورافوبيا (وليس اضطراب الهلع المتعايش) كنقطة النهاية الأولية
+- تقييم دخول السوق/التسجيل للمملكة العربية السعودية، نظراً للحالة الحالية "غير مسوق"
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,79 +29,80 @@ indication_count: 9
 
 </div>
 
-# Atenolol: From Hypertension / Angina to Posteroinferior Myocardial Infarction
+# Atenolol: من ارتفاع ضغط الدم / الذبحة الصدرية إلى احتشاء العضلة القلبية السفلي الخلفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Atenolol is a cardioselective beta-1 adrenergic receptor blocker widely used in clinical practice for hypertension and angina pectoris, though it currently holds no marketing authorization in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Posteroinferior Myocardial Infarction** with a score of **99.87%**, backed by **0 clinical trials** and **1 publication** directly supporting this specific sub-indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hypertension / Angina pectoris (no Saudi Arabia regulatory record available) |
-| Predicted New Indication | Posteroinferior Myocardial Infarction |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+atenolol هو حاصر انتقائي لمستقبلات بيتا-1 الأدرينالية في القلب يستخدم على نطاق واسع في الممارسة السريرية لعلاج ارتفاع ضغط الدم والذبحة الصدرية، رغم أنه حالياً لا يملك ترخيص تسويق في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **احتشاء العضلة القلبية السفلي الخلفي** برصيد **99.87%**، مدعوماً بـ **0 تجربة سريرية** و **منشور واحد** يدعم مباشرة هذا الاستطباب الفرعي المحدد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available from the regulatory database. Based on known pharmacological information, atenolol is a selective beta-1 adrenergic receptor blocker. By competitively blocking cardiac beta-1 receptors, it reduces heart rate and myocardial oxygen consumption — two central variables that determine infarct size and arrhythmia risk during acute ischemic events.
-
-Posteroinferior myocardial infarction characteristically involves occlusion of the right coronary artery (RCA), which perfuses the inferior and posterior left ventricular walls and frequently the sinoatrial node. This territory is prone to reflex sinus tachycardia and surges in circulating catecholamines. Atenolol's ability to blunt this sympathoadrenergic response can reduce myocardial oxygen demand, limit infarct extension, and suppress ischemia-driven arrhythmias — effects that form the pharmacological rationale for the TxGNN prediction.
-
-Beta-blockers as a class carry well-established post-MI evidence (mortality reduction, prevention of re-infarction), and atenolol's cardioselectivity (preferential beta-1 over beta-2 blockade) confers a relative advantage over non-selective agents in patients with coexisting airway disease. The TxGNN knowledge graph likely linked atenolol to this prediction through shared cardiovascular and ischemic disease nodes, consistent with this mechanistic reasoning.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered specifically for atenolol in posteroinferior myocardial infarction.
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | ارتفاع ضغط الدم / الذبحة الصدرية (لا توجد سجلات تنظيمية متاحة للمملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | احتشاء العضلة القلبية السفلي الخلفي |
+| درجة تنبؤ TxGNN | 99.87% |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | متوقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | Single-blind Randomized Comparative Study | La Revue de medecine interne | Compared anti-ischemic activity of atenolol (200 mg) vs diltiazem (240 mg) in 23 patients undergoing exercise rehabilitation 4 weeks after limited postero-inferior or anterior MI with residual ischemia; assessed via computerized bicycle ergometer (Case-Marquette system) |
+حالياً، بيانات آلية العمل المفصلة غير متاحة من قاعدة البيانات التنظيمية. بناءً على معلومات الصيدلة المعروفة، atenolol هو حاصر انتقائي لمستقبلات بيتا-1 الأدرينالية. بحجب تنافسي لمستقبلات بيتا-1 القلبية، يقلل معدل ضربات القلب واستهلاك عضلة القلب للأكسجين — وهما متغيران مركزيان يحددان حجم الاحتشاء ومخاطر عدم انتظام ضربات القلب أثناء الأحداث الإقفارية الحادة.
 
----
+يتميز احتشاء العضلة القلبية السفلي الخلفي بانسداد الشريان الإكليلي الأيمن (RCA)، الذي يروي الجدران السفلية والخلفية للبطين الأيسر وغالباً العقدة الجيبية الأذينية. هذا الإقليم عرضة لتسارع القلب الانعكاسي وارتفاعات في الكاتيكولامينات المتداولة. قدرة atenolol على تخفيف هذه الاستجابة التعاطفية-الأدرينالية يمكن أن تقلل الطلب على الأكسجين في عضلة القلب، وتحد من امتداد الاحتشاء، وتثبط عدم انتظام ضربات القلب الناجم عن الإقفار — التأثيرات التي تشكل الأساس الصيدلي لتنبؤ TxGNN.
 
-## Saudi Arabia Market Information
-
-Atenolol is currently **not marketed in Saudi Arabia**. No product authorizations are on record (total licenses: 0). There is no approved indication text available from local regulatory filings.
+حاصرات بيتا كفئة لديها أدلة راسخة بعد احتشاء عضلة القلب (تقليل الوفيات، الوقاية من إعادة الاحتشاء)، والانتقائية القلبية لـ atenolol (حجب بيتا-1 على بيتا-2) تمنح ميزة نسبية على العوامل غير الانتقائية في المرضى الذين يعانون من مرض الشعب الهوائية المتزامن. من المحتمل أن تكون الشبكة المعرفية TxGNN قد ربطت atenolol بهذا التنبؤ عبر عقد الأمراض القلبية والإقفارية المشتركة، وهو ما يتسق مع هذا التفكير الآلي.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة خصيصاً لـ atenolol في احتشاء العضلة القلبية السفلي الخلفي.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|--------|---------|-----------------|
+| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | دراسة عشوائية مقارنة أعمى واحد | La Revue de medecine interne | قارنت النشاط المضاد للإقفار لـ atenolol (200 ملغ) مقابل diltiazem (240 ملغ) في 23 مريضاً يخضعون لإعادة تأهيل تمرين بعد احتشاء محدود في الجزء الخلفي السفلي أو الأمامي مع إقفار متبقي؛ تم التقييم عبر دراجة ergometer محوسبة (نظام Case-Marquette) |
 
-**Rationale:**
-Although the mechanistic basis for atenolol's benefit in posteroinferior MI is pharmacologically coherent and consistent with established beta-blocker use in ischemic heart disease, evidence specific to this MI sub-type is limited to a single small (N=23) single-blind study from 1985, with no registered clinical trials and no Saudi Arabia regulatory footprint to draw from.
+---
 
-**To proceed, the following is needed:**
+## معلومات السوق بالمملكة العربية السعودية
 
-- **MOA data**: Retrieve full mechanism of action from DrugBank (DB00335) to formalize mechanistic justification
-- **Safety dossier**: Obtain SFDA-equivalent package insert covering warnings, contraindications, and major drug interactions (currently all gaps)
-- **Regulatory pathway assessment**: Evaluate whether existing international approvals (e.g., EMA, FDA) for hypertension/angina could support a bridging strategy for Saudi Arabia market entry
-- **Targeted clinical evidence review**: Conduct a systematic literature search for atenolol in acute MI (not limited to posteroinferior sub-type) to determine whether the L3 rating can be upgraded to L2 with broader evidence aggregation
-- **Indication specificity check**: Consider whether "posteroinferior MI" should be evaluated as part of the broader acute MI indication rather than as a standalone repurposing target, given the established class effect of beta-blockers
+atenolol حالياً **غير مسوق في المملكة العربية السعودية**. لا توجد تراخيص منتجات مسجلة (إجمالي الرخص: 0). لا يوجد نص استطباب معتمد متاح من الملفات التنظيمية المحلية.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: متوقف**
+
+**المبرر:**
+رغم أن الأساس الآلي لفائدة atenolol في احتشاء العضلة القلبية السفلي الخلفي متماسك صيدلياً ومتسق مع الاستخدام الراسخ لحاصرات بيتا في أمراض القلب الإقفارية، فإن الأدلة المحددة لهذا النوع الفرعي من احتشاء عضلة القلب محدودة في دراسة صغيرة أعمى واحد (N=23) من 1985، بدون تجارب سريرية مسجلة ودون وجود آثار تنظيمية للمملكة العربية السعودية للاستخلاص منها.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **بيانات آلية العمل**: استرجاع آلية العمل الكاملة من DrugBank (DB00335) لتشكيل التبرير الآلي
+- **ملف السلامة**: الحصول على نشرة معادلة SFDA تغطي التحذيرات والموانع والتفاعلات الدوائية الرئيسية (حالياً جميع الفجوات)
+- **تقييم المسار التنظيمي**: تقييم ما إذا كانت الموافقات الدولية الموجودة (مثل EMA و FDA) لارتفاع ضغط الدم / الذبحة الصدرية يمكن أن تدعم استراتيجية الجسر لدخول السوق بالمملكة العربية السعودية
+- **مراجعة الأدلة السريرية الموجهة**: إجراء بحث منهجي في الأدبيات عن atenolol في احتشاء عضلة القلب الحاد (غير محدود بالنوع الفرعي السفلي الخلفي) لتحديد ما إذا كان يمكن ترقية تصنيف L3 إلى L2 مع تجميع الأدلة الأوسع
+- **فحص التخصص الاستطبابي**: النظر فيما إذا كان "احتشاء العضلة القلبية السفلي الخلفي" يجب تقييمه كجزء من استطباب احتشاء عضلة القلب الحاد الأوسع بدلاً من كونه هدفاً قائماً بذاته للاستخدام الجديد، بالنظر إلى تأثير الفئة الراسخ لحاصرات بيتا
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

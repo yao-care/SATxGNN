@@ -29,61 +29,62 @@ indication_count: 10
 
 </div>
 
-# Palivizumab: From RSV Prophylaxis to Benign Neoplasm of Tongue
+# بالفاليزوماب: من الوقاية من فيروس الجهاز التنفسي المخلوي إلى الورم الحميد للسان
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Palivizumab is a monoclonal antibody against the RSV fusion (F) protein, used to prevent respiratory syncytial virus infection in high-risk infants.
-The TxGNN model predicts it may be effective for **Benign Neoplasm of Tongue**,
-but currently **0 clinical trials** and **0 publications** support this direction, and the model's own rationale text identifies no plausible biological mechanism linking the two.
+بالفاليزوماب هو جسم مضاد أحادي النسيلة موجه ضد بروتين الاندماج (F) لفيروس الجهاز التنفسي المخلوي، ويُستخدم لمنع عدوى فيروس الجهاز التنفسي المخلوي في الرضع عالي الخطورة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في علاج **الورم الحميد للسان**،
+لكن حالياً **0 تجربة سريرية** و **0 منشورات** تدعم هذا الاتجاه، وويحدد نص التبرير الخاص بالنموذج نفسه أي آلية بيولوجية معقولة تربط بين الاثنين.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | RSV (respiratory syncytial virus) infection prophylaxis (inferred from mechanism-of-action text in the evidence pack; no Taiwan license data exists) |
-| Predicted New Indication | Benign Neoplasm of Tongue |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | الوقاية من عدوى فيروس الجهاز التنفسي المخلوي (مستنتجة من نص آلية العمل في حزمة الأدلة؛ لا توجد بيانات ترخيص تايوانية) |
+| المؤشر الجديد المتنبأ به | الورم الحميد للسان |
+| درجة التنبؤ بـ TxGNN | 99.94% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data from DrugBank is marked as a data gap. However, the evidence pack's own repurposing-rationale notes consistently describe palivizumab as an anti-RSV F-protein monoclonal antibody that neutralizes respiratory syncytial virus — a purely antiviral, receptor-blocking mechanism with no known role in cell proliferation, oncogenesis, or tumour biology.
+بيانات آلية العمل التفصيلية من DrugBank محددة كفجوة بيانات. ومع ذلك، فإن ملاحظات إعادة الاستخدام الخاصة بحزمة الأدلة تصف بشكل ثابت بالفاليزوماب كجسم مضاد أحادي النسيلة مضاد لبروتين F لفيروس الجهاز التنفسي المخلوي الذي يحيد فيروس الجهاز التنفسي المخلوي — وهي آلية مضادة للفيروسات بحتة تعمل على حجب المستقبلات دون أي دور معروف في انتشار الخلايا أو التسرطن أو بيولوجيا الأورام.
 
-The original indication (RSV prophylaxis in infants) and the predicted new indication (a benign tongue neoplasm) belong to entirely different disease domains — infectious disease prevention versus a head-and-neck proliferative lesion. There is no shared pathway, receptor, or tissue tropism connecting RSV fusion-protein neutralization to tongue tissue overgrowth.
+المؤشر الأصلي (الوقاية من فيروس الجهاز التنفسي المخلوي في الرضع) والمؤشر الجديد المتنبأ به (ورم حميد في اللسان) ينتميان إلى مجالات مرضية مختلفة تماماً — منع الأمراض المعدية مقابل آفة تكاثرية في الرأس والرقبة. لا توجد مسارات مشتركة أو مستقبلات أو استقطاب نسيجي يربط بين تحييد بروتين الاندماج لفيروس الجهاز التنفسي المخلوي وفرط النمو في نسيج اللسان.
 
-The rationale text supplied alongside this prediction explicitly states that no causal hypothesis can be constructed, given the missing original MOA data and the absence of any biological overlap. This prediction should therefore be treated as a raw model output (TxGNN embedding similarity) rather than a mechanistically grounded hypothesis. The same pattern holds across all ten ranked predictions for this drug (ranks 1–10, scores 99.94%–99.94%), none of which are supported by trial or literature evidence.
+يذكر نص التبرير المرفق مع هذا التنبؤ بوضوح أنه لا يمكن بناء أي فرضية سببية، نظراً لعدم وجود بيانات MOA الأصلية والغياب الكامل لأي تداخل بيولوجي. لذلك يجب التعامل مع هذا التنبؤ كمخرجات نموذج خام (تشابه التضمين في TxGNN) بدلاً من كونه فرضية مدعومة ميكانيكياً. ينطبق نفس النمط على جميع التنبؤات العشرة المصنفة لهذا الدواء (الرتب 1-10، الدرجات 99.94%-99.94%)، وليس لأي منها دعم من تجارب أو أدلة أدبية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## الأدلة الأدبية
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Palivizumab is not marketed in Taiwan (`market_status: Not marketed`, 0 authorizations). No license or product records are available to summarize.
+لم يتم تسويق بالفاليزوماب في تايوان (`market_status: Not marketed`، 0 تراخيص). لا توجد سجلات ترخيص أو منتجات متاحة للتلخيص.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة التعبئة والتغليف للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The prediction is supported only by a raw TxGNN similarity score (L5), with zero clinical trials and zero publications, and the drug's own documented mechanism (RSV F-protein neutralization) offers no plausible link to a tongue neoplasm. The drug is also unmarketed in Taiwan, blocking any local safety review.
+**التبرير:**
+يتم دعم التنبؤ فقط من خلال درجة تشابه TxGNN الخام (L5)، مع صفر تجارب سريرية وصفر منشورات، وآلية العمل الموثقة للدواء (تحييد بروتين F لفيروس الجهاز التنفسي المخلوي) لا توفر ارتباطاً معقولاً بورم اللسان. الدواء غير مسوق أيضاً في تايوان، مما يعيق أي مراجعة سلامة محلية.
 
-**To proceed, the following is needed:**
-- Confirmed original MOA and indication data from DrugBank/manufacturer sources
-- TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- An independent mechanistic hypothesis or preclinical signal connecting antiviral monoclonal antibodies to tongue neoplasia before any further evaluation stage is warranted
+**للمتابعة، هناك حاجة إلى الإجراءات التالية:**
+- بيانات MOA الأصلية المؤكدة والمؤشر من مصادر DrugBank/الشركة المصنعة
+- نشرة TFDA (التحذيرات والموانع) — حالياً فجوة بيانات حجب (DG001)
+- فرضية آلية مستقلة أو إشارة ما قبل السريرية تربط بين الأجسام المضادة أحادية النسيلة المضادة للفيروسات والأورام الحميدة في اللسان قبل أن تكون أي مرحلة تقييم إضافية مبررة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

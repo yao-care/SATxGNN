@@ -29,89 +29,90 @@ indication_count: 4
 
 </div>
 
-# Cilazapril: From Hypertension to Pulmonary Hypertension with Unclear Multifactorial Mechanism
+# سيلازابريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cilazapril is an ACE (angiotensin-converting enzyme) inhibitor belonging to the RAAS drug class, classically used for the treatment of hypertension and heart failure.
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension with Unclear Multifactorial Mechanism (Group 5 PH)**,
-with **no clinical trials** and **no direct publications** currently supporting this specific indication.
+سيلازابريل هو مثبط إنزيم تحويل الأنجيوتنسين (ACE) ينتمي إلى فئة أدوية نظام رينين-أنجيوتنسين-ألدوستيرون (RAAS)، يُستخدم تقليدياً لعلاج ارتفاع ضغط الدم وقصور القلب.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ارتفاع ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة (المجموعة 5 من ارتفاع ضغط الدم الرئوي)**،
+مع **عدم وجود تجارب سريرية** و**عدم وجود منشورات مباشرة** تدعم حالياً هذا الاستطباب المحدد.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Hypertension / Heart Failure (ACE inhibitor class; no Saudi Arabia registration on file) |
-| Predicted New Indication | Pulmonary Hypertension with Unclear Multifactorial Mechanism |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | ارتفاع ضغط الدم / قصور القلب (فئة مثبطات ACE؛ لا توجد تسجيلات في المملكة العربية السعودية على الملف) |
+| المؤشر الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة |
+| درجة التنبؤ TxGNN | 99.20% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, Cilazapril is an ACE inhibitor that blocks the conversion of angiotensin I to angiotensin II (Ang II), thereby reducing systemic vasoconstriction, lowering blood pressure, and decreasing aldosterone secretion. It belongs to the same drug class as Ramipril and Lisinopril, which have well-documented cardiovascular and renal protective effects.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في حزمة الدليل هذه. بناءً على المعرفة الدوائية المثبتة، سيلازابريل هو مثبط ACE يمنع تحويل الأنجيوتنسين الأول إلى الأنجيوتنسين الثاني (Ang II)، مما يقلل من تضيق الأوعية الكلي، وينخفض ضغط الدم، وينخفض إفراز الألدوستيرون. ينتمي إلى نفس فئة الأدوية مثل ramipril و lisinopril، والتي لها تأثيرات وقائية في القلب والأوعية الدموية والكلى موثقة جيداً.
 
-The mechanistic connection to pulmonary hypertension with unclear multifactorial mechanism (Group 5 PH) runs through the RAAS pathway: Ang II promotes pulmonary vasoconstriction and vascular remodeling, so ACE inhibition could theoretically reduce pulmonary vascular resistance. This pathway-level similarity is likely what drove the high TxGNN score, as the model operates on biological network topology rather than direct clinical endpoints.
+الاتصال الآلي الكامن في ارتفاع ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة (المجموعة 5 من ارتفاع ضغط الدم الرئوي) يمر عبر مسار RAAS: Ang II يعزز تضيق الأوعية الرئوية وإعادة تشكيل الأوعية الدموية، لذا قد يقلل منع ACE من مقاومة الأوعية الدموية الرئوية. هذا التشابه على مستوى المسار هو ما دفع على الأرجح درجة TxGNN العالية، حيث يعمل النموذج على طوبولوجيا الشبكة البيولوجية بدلاً من نقاط النهاية السريرية المباشرة.
 
-However, this theoretical plausibility does not translate to clinical practice. ACE inhibitors are **not** included in any current guideline as treatment for pulmonary arterial hypertension or Group 5 PH. The TxGNN score almost certainly reflects RAAS graph-topology similarity rather than a genuine therapeutic signal. There are currently no clinical trials or disease-specific publications to support this prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، هذه المعقولية النظرية لا تترجم إلى الممارسة السريرية. مثبطات ACE **لا تُدرج** في أي إرشادات حالية لعلاج ارتفاع ضغط الدم الشرياني الرئوي أو المجموعة 5 من ارتفاع ضغط الدم الرئوي. درجة TxGNN تعكس على الأرجح تشابه طوبولوجيا رسم مسار RAAS البياني بدلاً من إشارة علاجية حقيقية. لا توجد حالياً تجارب سريرية أو منشورات متخصصة بالأمراض لدعم هذا التنبؤ.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Cilazapril has **no registered authorizations** in Saudi Arabia (SFDA). There are no approved products, licensed indications, or dosage forms on record. Any future use would require a new regulatory filing.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
-
-> **Note — Critical Safety Signal for Rank 4 Prediction:** Although the primary focus of this report is the top-ranked indication, the evidence pack flags a clinically important contraindication for the rank 4 prediction (malignant renovascular hypertension): in patients with bilateral renal artery stenosis or stenosis of a solitary kidney, GFR maintenance depends on Ang II–mediated efferent arteriolar tone. ACE inhibition removes this compensatory mechanism and can precipitate **acute kidney injury**. This is a known absolute contraindication for ACE inhibitors in renovascular hypertension and must be factored into any clinical evaluation.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودية
 
-**Decision: Hold**
+سيلازابريل ليس له **تصاريح تسجيل** في المملكة العربية السعودية (SFDA). لا توجد منتجات معتمدة، أو مؤشرات مرخصة، أو أشكال جرعات مسجلة. أي استخدام مستقبلي سيتطلب تقديماً تنظيمياً جديداً.
 
-**Rationale:**
-The TxGNN model assigns a high score (99.20%) based on RAAS pathway graph similarity, but there is zero clinical trial evidence, zero disease-specific literature, and no regulatory precedent supporting Cilazapril for pulmonary hypertension with unclear multifactorial mechanism. An L5 evidence level is insufficient to justify advancement toward clinical evaluation without foundational data.
+---
 
-**Summary of All Four Predicted Indications:**
+## اعتبارات السلامة
 
-| Rank | Indication | Evidence Level | Recommendation |
-|------|-----------|---------------|----------------|
-| 1 | Pulmonary hypertension with unclear multifactorial mechanism | L5 | Hold |
-| 2 | Pulmonary hypertension owing to lung disease and/or hypoxia | L5 | Hold — 20 PubMed hits retrieved are general hypoxia biology papers, not Cilazapril-specific (likely keyword co-occurrence false positives) |
-| 3 | Malignant hypertensive renal disease | L4 | Research Question — mechanistically plausible via ACE inhibitor class effect (AASK trial precedent for Ramipril/Lisinopril), but no Cilazapril-specific data |
-| 4 | Malignant renovascular hypertension | L5 | Hold — **known contraindication**: bilateral renal artery stenosis risk of AKI with ACE inhibition |
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-**To proceed, the following is needed:**
+> **ملاحظة — إشارة السلامة الحرجة للتنبؤ الترتيب 4:** على الرغم من أن التركيز الأساسي لهذا التقرير هو الاستطباب الأعلى ترتيباً، تشير حزمة الدليل إلى موانع سريرية مهمة للتنبؤ الترتيب 4 (ارتفاع ضغط الدم الوعائي الكلوي الخبيث): لدى المرضى الذين يعانون من تضيق الشريان الكلوي الثنائي أو تضيق الكلية الوحيدة، يعتمد الحفاظ على معدل الترشيح الكبيبي على الحفاظ على توتر الشرينات الصادرة الوسيط بـ Ang II. يزيل منع ACE هذه الآلية التعويضية ويمكن أن يؤدي إلى **إصابة كلى حادة**. هذا موانع مطلقة معروفة لمثبطات ACE في ارتفاع ضغط الدم الوعائي الكلوي ويجب أن تؤخذ في الاعتبار في أي تقييم سريري.
 
-- Retrieve full MOA documentation from DrugBank to formally confirm mechanistic plausibility
-- Conduct a systematic review of ACE inhibitor class-level evidence across PH subtypes (Group 1–5) before concluding on Cilazapril
-- Obtain and parse the package insert (SFDA or equivalent) for complete warnings, contraindications, and DDI profile — currently a blocking data gap
-- Assess whether Rank 3 (malignant hypertensive renal disease) warrants a separate, more focused evidence-gathering effort, given that the ACE inhibitor class has RCT-level support (AASK trial) for hypertensive nephropathy
-- Determine the regulatory pathway for first-time SFDA registration of Cilazapril in Saudi Arabia before any repurposing strategy can be operationalized
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**التبرير:**
+يعين نموذج TxGNN درجة عالية (99.20%) بناءً على تشابه رسم مسار RAAS، لكن لا توجد تجارب سريرية، وليس هناك أدبيات متخصصة بالأمراض، ولا يوجد سابقة تنظيمية تدعم سيلازابريل لارتفاع ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة. مستوى الدليل L5 غير كافٍ لتبرير التقدم نحو التقييم السريري دون البيانات الأساسية.
+
+**ملخص جميع التنبؤات الأربعة:**
+
+| الترتيب | المؤشر | مستوى الدليل | التوصية |
+|--------|--------|-----------|---------|
+| 1 | ارتفاع ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة | L5 | الانتظار |
+| 2 | ارتفاع ضغط الدم الرئوي الناجم عن مرض الرئة و/أو نقص الأكسجين | L5 | الانتظار — تم استرجاع 20 نتيجة PubMed عبارة عن أوراق بيولوجيا نقص الأكسجين العامة، وليست محددة لسيلازابريل (إيجابيات كاذبة محتملة للتعايش مع الكلمات الرئيسية) |
+| 3 | أمراض الكلى الخبيثة من ارتفاع ضغط الدم | L4 | سؤال بحثي — معقول آلياً عبر تأثير فئة مثبط ACE (سابقة تجربة AASK لـ ramipril/lisinopril)، لكن لا توجد بيانات محددة لسيلازابريل |
+| 4 | ارتفاع ضغط الدم الوعائي الكلوي الخبيث | L5 | الانتظار — **موانع معروفة**: خطر تضيق الشريان الكلوي الثنائي والإصابة بـ AKI مع منع ACE |
+
+**للمتابعة، يلزم ما يلي:**
+
+- استرجاع وثائق MOA الكاملة من DrugBank لتأكيد المعقولية الآلية بشكل رسمي
+- إجراء مراجعة منهجية للدليل على مستوى فئة مثبط ACE عبر الفئات الفرعية من ارتفاع ضغط الدم الرئوي (المجموعة 1-5) قبل الاستنتاج بشأن سيلازابريل
+- الحصول على نشرة العبوة (SFDA أو ما يعادلها) وتحليلها للحصول على تحذيرات كاملة وموانع وملف التفاعلات الدوائية — حالياً فجوة بيانات محظورة
+- تقييم ما إذا كان الترتيب 3 (أمراض الكلى الخبيثة من ارتفاع ضغط الدم) يستحق جهد جمع أدلة منفصل وأكثر تركيزاً، نظراً لأن فئة مثبطات ACE لديها دعم على مستوى RCT (تجربة AASK) لاعتلال الكلى الناجم عن ارتفاع ضغط الدم
+- تحديد المسار التنظيمي لتسجيل سيلازابريل الأول مع SFDA في المملكة العربية السعودية قبل تشغيل أي استراتيجية إعادة استخدام الأدوية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

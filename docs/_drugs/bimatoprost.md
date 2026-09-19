@@ -29,99 +29,98 @@ indication_count: 10
 
 </div>
 
-# Bimatoprost: From Glaucoma / Eyelash Hypotrichosis to Alopecia
+# بيماتوبروست: من الجلوكوما / قلة شعر الرموش إلى الثعلبة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Bimatoprost is a synthetic prostamide F2α analogue originally approved for reducing intraocular pressure in open-angle glaucoma and ocular hypertension, and subsequently FDA-approved as Latisse for eyelash hypotrichosis.
-The TxGNN model predicts it may be effective for **Alopecia** (scalp hair loss), with **11 clinical trials** and **20 publications** currently supporting this direction.
-Evidence from multiple completed Phase 2 RCTs in androgenetic alopecia — collectively enrolling over 850 subjects — provides a substantive clinical basis for this prediction.
+بيماتوبروست هو نظير بروستاميد F2α الاصطناعي الذي تمت الموافقة عليه في الأصل لتقليل ضغط العين داخل الكرة في الجلوكوما مفتوحة الزاوية وفرط التوتر العيني، وتمت الموافقة عليه لاحقًا من قبل إدارة الغذاء والدواء الأمريكية باسم Latisse لقلة شعر الرموش. يتنبأ نموذج TxGNN بأنه قد يكون فعالًا للـ **الثعلبة** (تساقط الشعر في فروة الرأس)، مع **11 تجربة سريرية** و **20 منشور** يدعمان حاليًا هذا الاتجاه. تقدم الأدلة من عدة تجارب معشاة مزدوجة التعمية مكتملة من المرحلة الثانية في الثعلبة الأندروجينية - التي تضم مجتمعة أكثر من 850 مشارك - أساسًا سريريًا جوهريًا لهذا التنبؤ.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|---------|
-| Original Indication | Open-angle glaucoma / ocular hypertension; eyelash hypotrichosis (Latisse) |
-| Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
-
-## Why is This Prediction Reasonable?
-
-Bimatoprost is a synthetic prostamide / prostaglandin F2α (FP) receptor agonist. Its primary pharmacological action involves activating FP receptors on the ciliary body to reduce intraocular pressure in glaucoma. A striking side effect observed in patients using prostaglandin analogue eyedrops — hypertrichosis, darkening, and lengthening of eyelashes — redirected research attention toward hair loss. This led directly to FDA approval of bimatoprost 0.03% solution (Latisse) for eyelash hypotrichosis, providing regulatory-grade confirmation that FP receptor activation promotes hair follicle growth in humans.
-
-The mechanistic link to scalp alopecia is biologically coherent: FP receptor activation prolongs the anagen (active growth) phase of the hair follicle cycle and suppresses catagen (regression) induction. This same mechanism that lengthens and thickens eyelashes applies to scalp hair follicles, irrespective of the alopecia subtype — whether androgenetic (DHT-driven follicle miniaturisation), areata (autoimmune T-cell attack on hair follicle immune privilege), or chemotherapy-induced. The prostaglandin pathway's role in regulating hair follicle cycling is well-supported in the mechanistic literature.
-
-Multiple Phase 2 clinical trials have now tested topical bimatoprost for androgenetic alopecia (AGA) in men and women (three trials, combined n > 850), with additional completed studies in alopecia areata. The Latisse approval provides an anchored L1 proof of concept that validates the FP receptor hypothesis in humans, making the extrapolation to scalp alopecia pharmacologically credible.
+| العنصر | المحتوى |
+|--------|---------|
+| الإشارة الأصلية | جلوكوما مفتوحة الزاوية / فرط التوتر العيني؛ قلة شعر الرموش (Latisse) |
+| الإشارة الجديدة المتنبأ بها | الثعلبة |
+| درجة التنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع حواجز حماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | Phase 2 | Completed | 307 | Large double-blind RCT comparing 3 doses of bimatoprost solution vs vehicle and OTC minoxidil 5% in men with androgenic alopecia; one of three pivotal Phase 2 trials |
-| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | Phase 2 | Completed | 306 | Large double-blind RCT of 3 doses of bimatoprost solution vs vehicle and OTC minoxidil 2% in women with female pattern hair loss (FPHL) |
-| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | Phase 2 | Completed | 244 | Safety and efficacy of bimatoprost in male androgenic alopecia; third major Phase 2 trial bringing combined Phase 2 enrolment to >850 subjects |
-| [NCT02170662](https://clinicaltrials.gov/study/NCT02170662) | Phase 2 | Completed | 33 | Mechanistic validation study — effect of bimatoprost 0.03% ophthalmic solution on androgen-dependent scalp hair follicle growth |
-| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | Phase 1/2 | Completed | 30 | CO2 fractional laser combined with bimatoprost 0.03% for alopecia areata — evaluates synergistic immune modulation and follicle stimulation |
-| [NCT01189279](https://clinicaltrials.gov/study/NCT01189279) | Phase 1 | Completed | 42 | Safety, tolerability, and pharmacokinetics of new bimatoprost formulations following topical scalp application in alopecia patients |
-| [NCT02848300](https://clinicaltrials.gov/study/NCT02848300) | Phase 1 | Completed | 11 | Local pharmacokinetics and tolerability after 14 days of once-daily topical application of two bimatoprost formulations to the scalp in male AGA |
-| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | Phase 4 | Completed | 71 | Safety and efficacy of bimatoprost 0.03% vs vehicle on upper eyelid margins in paediatric eyelash hypotrichosis — corroborates the safety profile across age groups |
-| [NCT02676310](https://clinicaltrials.gov/study/NCT02676310) | Phase 1 | Terminated | 53 | Dose escalation safety and PK study for male AGA — terminated early before reaching target enrolment; termination reason requires clarification to rule out safety signals |
-| [NCT00187577](https://clinicaltrials.gov/study/NCT00187577) | N/A | Completed | 14 | Randomised investigator-masked study comparing latanoprost vs bimatoprost ophthalmic solutions for eyelash regrowth in alopecia areata |
+بيماتوبروست هو ناهض بروستاميد / البروستاجلاندين F2α (FP) المستقبل الاصطناعي. يتضمن العمل الدوائي الأساسي له تنشيط مستقبلات FP على الجسم الهدبي لتقليل ضغط العين داخل الكرة في الجلوكوما. أدى تأثير جانبي ملحوظ لوحظ لدى المرضى الذين يستخدمون نقاط العين التناظرية بروستاجلاندين - فرط الشعرية وتغميق وإطالة الرموش - إلى إعادة توجيه جهود الأبحاث نحو فقدان الشعر. أسفر هذا مباشرة عن موافقة إدارة الغذاء والدواء على محلول بيماتوبروست 0.03% (Latisse) لقلة شعر الرموش، مما يوفر تأكيدًا بمستوى تنظيمي على أن تنشيط مستقبل FP يعزز نمو بصيلات الشعر لدى الإنسان.
+
+الارتباط الآلي لثعلبة فروة الرأس متسق بيولوجيًا: يعمل تنشيط مستقبل FP على إطالة مرحلة النمو النشط (anagen) من دورة بصيلة الشعر ويثبط استحثاث الانحدار (catagen). تنطبق هذه الآلية نفسها التي تطيل وتزيد سمك الرموش على بصيلات الشعر في فروة الرأس، بغض النظر عن نوع الثعلبة - سواء كانت أندروجينية (تصغير البصيلة مدفوع بـ DHT)، أو الثعلبة البقعية (هجوم الخلايا التائية الذاتية المناعية على امتياز المناعة في بصيلة الشعر)، أو الثعلبة الناجمة عن العلاج الكيميائي. يحظى دور مسار البروستاجلاندين في تنظيم دورة بصيلة الشعر بدعم قوي في الأدبيات الآلية.
+
+لقد اختبرت الآن عدة تجارب سريرية في المرحلة الثانية بيماتوبروست الموضعي للثعلبة الأندروجينية (AGA) لدى الرجال والنساء (ثلاث تجارب، مجموع n > 850)، مع دراسات مكتملة إضافية في الثعلبة البقعية. توفر موافقة Latisse مفهوم إثبات L1 مثبت يؤكد فرضية مستقبل FP لدى البشر، مما يجعل الاستقراء لثعلبة فروة الرأس قائمًا على أساس فارماكولوجي صحيح.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [40252129](https://pubmed.ncbi.nlm.nih.gov/40252129/) | 2025 | RCT / Clinical Study | Archives of Dermatological Research | CO2 fractional laser combined with bimatoprost 0.03% in alopecia areata — evaluates synergistic hair regrowth via immune modulation and FP receptor activation |
-| [37089845](https://pubmed.ncbi.nlm.nih.gov/37089845/) | 2023 | Prospective Non-Randomised Trial | Indian Dermatology Online Journal | Bimatoprost vs clobetasol propionate in scalp alopecia areata — positions bimatoprost as a viable newer treatment modality in clinical comparison |
-| [35278027](https://pubmed.ncbi.nlm.nih.gov/35278027/) | 2022 | Prospective Cohort | Dermatologic Therapy | Topical bimatoprost for eyelash loss in alopecia totalis and universalis — 16 of 19 subjects achieved eyelash regrowth at mean 30.6 weeks |
-| [32250713](https://pubmed.ncbi.nlm.nih.gov/32250713/) | 2022 | Systematic Review | Journal of Dermatological Treatment | Network meta-analysis of non-surgical AGA monotherapies in men and women — places bimatoprost within the comparative evidence landscape |
-| [28264599](https://pubmed.ncbi.nlm.nih.gov/28264599/) | 2017 | Review | Expert Opinion on Investigational Drugs | Comprehensive bimatoprost-specific review covering mechanism, clinical trial evidence, and applications across eyelash, eyebrow, and scalp alopecia subtypes |
-| [29854658](https://pubmed.ncbi.nlm.nih.gov/29854658/) | 2018 | Review | Indian Dermatology Online Journal | Bimatoprost in dermatology — traces the pathway from glaucoma side effect to alopecia and vitiligo applications |
-| [29863806](https://pubmed.ncbi.nlm.nih.gov/29863806/) | 2018 | Clinical Guideline | The Journal of Dermatology | Japanese 2017 evidence-based guideline for male-pattern and female-pattern hair loss — updated framework for evaluating AGA treatments |
-| [30865404](https://pubmed.ncbi.nlm.nih.gov/30865404/) | 2019 | Clinical Case / Review | Dermatology Online Journal | Laser-assisted delivery of bimatoprost, PRP, and minoxidil for androgenetic alopecia — explores enhanced topical penetration via ablative fractional photothermolysis channels |
-| [35040730](https://pubmed.ncbi.nlm.nih.gov/35040730/) | 2022 | Formulation Study | Drug Delivery | Optimised topical bimatoprost formulation achieving 4.6-fold higher human skin flux and 529% increase in dermal deposition — supports scalp delivery feasibility |
-| [38577618](https://pubmed.ncbi.nlm.nih.gov/38577618/) | 2024 | Drug Delivery Research | International Journal of Pharmaceutics: X | Spanlastic vesicular nanocarrier for bimatoprost scalp delivery — superior cutaneous deposition and hair regrowth efficacy demonstrated in androgenic alopecia model |
-
----
-
-## Saudi Arabia Market Information
-
-Bimatoprost is currently not registered or marketed in Saudi Arabia. No product licences have been issued by the Saudi Food and Drug Authority (SFDA) for bimatoprost in any dosage form or indication. This represents a regulatory gap: while the drug carries FDA approval in two indications (Lumigan for glaucoma; Latisse for eyelash hypotrichosis) and is marketed in multiple international markets, a de novo SFDA registration would be required before any commercial or clinical programme could proceed in Saudi Arabia.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-------------|--------|--------|---------|-----------------|
+| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | المرحلة 2 | مكتملة | 307 | تجربة معشاة مزدوجة التعمية واسعة النطاق تقارن 3 جرعات من محلول بيماتوبروست مقابل المركبة والمينوكسيديل OTC بنسبة 5% لدى الرجال الذين يعانون من الثعلبة الأندروجينية؛ واحدة من ثلاث تجارب محورية في المرحلة 2 |
+| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | المرحلة 2 | مكتملة | 306 | تجربة معشاة مزدوجة التعمية واسعة النطاق لـ 3 جرعات من محلول بيماتوبروست مقابل المركبة والمينوكسيديل OTC بنسبة 2% لدى النساء المصابات بتساقط الشعر ذي النمط الأنثوي (FPHL) |
+| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | المرحلة 2 | مكتملة | 244 | السلامة والفعالية من بيماتوبروست في الثعلبة الأندروجينية عند الذكور؛ ثالث تجربة محورية كبرى في المرحلة 2 تحقق إجمالي التسجيل في المرحلة 2 حوالي > 850 مشارك |
+| [NCT02170662](https://clinicaltrials.gov/study/NCT02170662) | المرحلة 2 | مكتملة | 33 | دراسة التحقق الآلي - تأثير محلول بيماتوبروست 0.03% الكافي على نمو بصيلة الشعر المعتمد على الأندروجين في فروة الرأس |
+| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | المرحلة 1/2 | مكتملة | 30 | ليزر CO2 الجزئي مجتمعًا مع بيماتوبروست 0.03% للثعلبة البقعية - يقيّم التأثير المتضافر للتعديل المناعي وتحفيز البصيلة |
+| [NCT01189279](https://clinicaltrials.gov/study/NCT01189279) | المرحلة 1 | مكتملة | 42 | السلامة والقابلية للتحمل والحركية الدوائية لصيغ بيماتوبروست الجديدة بعد التطبيق الموضعي على فروة الرأس لدى مرضى الثعلبة |
+| [NCT02848300](https://clinicaltrials.gov/study/NCT02848300) | المرحلة 1 | مكتملة | 11 | الحركية الدوائية المحلية والقابلية للتحمل بعد 14 يوم من التطبيق الموضعي مرة واحدة يوميًا لصيغتي بيماتوبروست على فروة الرأس لدى الذكور المصابين بـ AGA |
+| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | المرحلة 4 | مكتملة | 71 | السلامة والفعالية من بيماتوبروست 0.03% مقابل المركبة على هوامش الجفن العلوي في قلة شعر الرموش عند الأطفال - يثبت الملف الأمني عبر المجموعات العمرية |
+| [NCT02676310](https://clinicaltrials.gov/study/NCT02676310) | المرحلة 1 | تم إيقافه | 53 | دراسة تصعيد الجرعة والسلامة والحركية الدوائية للذكور AGA - تم الإيقاف المبكر قبل الوصول إلى التسجيل المستهدف؛ يتطلب سبب الإيقاف توضيحًا لاستبعاد إشارات السلامة المتعلقة بفروة الرأس |
+| [NCT00187577](https://clinicaltrials.gov/study/NCT00187577) | N/A | مكتملة | 14 | دراسة عشوائية مقنعة للمحقق تقارن محاليل العين لاتانوبروست مقابل بيماتوبروست لإعادة نمو الرموش في الثعلبة البقعية |
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|------|---------|-----------------|
+| [40252129](https://pubmed.ncbi.nlm.nih.gov/40252129/) | 2025 | تجربة معشاة / دراسة سريرية | Archives of Dermatological Research | ليزر CO2 الجزئي مجتمعًا مع بيماتوبروست 0.03% في الثعلبة البقعية - يقيّم إعادة نمو الشعر المتضافر عبر التعديل المناعي وتنشيط مستقبل FP |
+| [37089845](https://pubmed.ncbi.nlm.nih.gov/37089845/) | 2023 | تجربة محتملة غير معشاة | Indian Dermatology Online Journal | بيماتوبروست مقابل بروبيونات كلوبيتاسول في الثعلبة البقعية لفروة الرأس - يضع بيماتوبروست كطريقة علاج أحدث قابلة للمقارنة السريرية |
+| [35278027](https://pubmed.ncbi.nlm.nih.gov/35278027/) | 2022 | دراسة مجموعة محتملة | Dermatologic Therapy | بيماتوبروست الموضعي لفقدان الرموش في الثعلبة الكاملة والشاملة - حقق 16 من 19 مشارك إعادة نمو الرموش بمتوسط 30.6 أسبوع |
+| [32250713](https://pubmed.ncbi.nlm.nih.gov/32250713/) | 2022 | مراجعة منهجية | Journal of Dermatological Treatment | تحليل شبكة العلاجات الأحادية غير الجراحية لـ AGA لدى الرجال والنساء - يضع بيماتوبروست ضمن مشهد الأدلة المقارنة |
+| [28264599](https://pubmed.ncbi.nlm.nih.gov/28264599/) | 2017 | مراجعة | Expert Opinion on Investigational Drugs | مراجعة شاملة محددة لبيماتوبروست تغطي الآلية والأدلة السريرية للتجارب والتطبيقات عبر الرموش والحاجب والثعلبة في فروة الرأس |
+| [29854658](https://pubmed.ncbi.nlm.nih.gov/29854658/) | 2018 | مراجعة | Indian Dermatology Online Journal | بيماتوبروست في الأمراض الجلدية - يتتبع المسار من التأثير الجانبي للجلوكوما إلى تطبيقات الثعلبة والبهاق |
+| [29863806](https://pubmed.ncbi.nlm.nih.gov/29863806/) | 2018 | إرشادات سريرية | The Journal of Dermatology | الإرشاد الياباني لعام 2017 القائم على الأدلة لتساقط الشعر ذي النمط الذكري والأنثوي - إطار عمل محدث لتقييم علاجات AGA |
+| [30865404](https://pubmed.ncbi.nlm.nih.gov/30865404/) | 2019 | حالة سريرية / مراجعة | Dermatology Online Journal | إيصال بمساعدة الليزر لبيماتوبروست وPRP والمينوكسيديل للثعلبة الأندروجينية - يستكشف الاختراق الموضعي المحسّن عبر قنوات الليزر الجزئي الاستئصالي |
+| [35040730](https://pubmed.ncbi.nlm.nih.gov/35040730/) | 2022 | دراسة الصيغة | Drug Delivery | صيغة بيماتوبروست الموضعية المُحسّنة التي تحقق تدفقًا عبر جلد الإنسان أعلى بـ 4.6 مرات وزيادة بنسبة 529% في الترسب الجلدي - يدعم جدوى إيصال فروة الرأس |
+| [38577618](https://pubmed.ncbi.nlm.nih.gov/38577618/) | 2024 | بحث إيصال الأدوية | International Journal of Pharmaceutics: X | حامل حويصلي spanlastic لإيصال بيماتوبروست في فروة الرأس - فعالية ترسب جلدي متفوقة وإعادة نمو الشعر مبينة في نموذج الثعلبة الأندروجينية |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Proceed with Guardrails**
+بيماتوبروست غير مسجل أو مسوق حاليًا في المملكة العربية السعودية. لم تصدر هيئة الغذاء والدواء السعودية (SFDA) أي تراخيص منتجات لبيماتوبروست بأي شكل جرعة أو مؤشر. يمثل هذا فجوة تنظيمية: بينما يتمتع الدواء بموافقة إدارة الغذاء والدواء في مؤشرين (Lumigan للجلوكوما؛ Latisse لقلة شعر الرموش) ويتم تسويقه في عدة أسواق دولية، فإن تسجيلًا جديدًا من قبل SFDA يكون مطلوبًا قبل أن تتمكن أي برنامج تجاري أو سريري من المتابعة في المملكة العربية السعودية.
 
-**Rationale:**
-Three large Phase 2 RCTs (combined n > 850) have evaluated topical bimatoprost for androgenetic alopecia in both men and women, with additional completed studies in alopecia areata. The FDA-approved eyelash indication (Latisse) provides regulatory-grade proof of concept for the prostaglandin FP receptor mechanism in human hair follicles, anchoring the scalp alopecia hypothesis in validated pharmacology.
+---
 
-**To proceed, the following is needed:**
-- **Phase 3 RCT data for scalp alopecia** — this is the critical evidence gap; no Phase 3 trial has been completed for any scalp alopecia subtype
-- **SFDA registration pathway assessment** — bimatoprost is not marketed in Saudi Arabia and a new marketing authorisation application would be required
-- **Clarification of NCT02676310 early termination** — the Phase 1 dose escalation study was stopped before full enrolment; the reason must be reviewed to rule out scalp-specific safety signals at higher doses
-- **Formal MOA documentation** — DrugBank mechanism of action data should be retrieved to support pharmacological dossier preparation
-- **Validated scalp delivery formulation** — ophthalmic formulations are not directly transferable to the scalp; multiple formulation optimisation studies exist but require regulatory-grade validation before clinical use
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: المتابعة مع حواجز حماية**
+
+**الأساس المنطقي:**
+لقد قيمت ثلاث تجارب معشاة مزدوجة التعمية كبرى في المرحلة الثانية (مجموع n > 850) بيماتوبروست الموضعي للثعلبة الأندروجينية لدى الرجال والنساء، مع دراسات مكتملة إضافية في الثعلبة البقعية. توفر مؤشر إدارة الغذاء والدواء الموافقة عليها (Latisse) مفهوم إثبات بمستوى تنظيمي لآلية مستقبل البروستاجلاندين FP في بصيلات الشعر البشرية، مما يثبت فرضية ثعلبة فروة الرأس في علم الأدوية المُتحقق منه.
+
+**للمتابعة، يتطلب ما يلي:**
+- **بيانات تجربة معشاة مزدوجة التعمية المرحلة 3 لثعلبة فروة الرأس** - هذه هي الفجوة الحرجة في الأدلة؛ لم تكتمل أي تجربة مرحلة 3 لأي نوع فرعي من ثعلبة فروة الرأس
+- **تقييم مسار تسجيل SFDA** - بيماتوبروست غير مسوق في المملكة العربية السعودية وسيكون طلب ترخيص تسويق جديد مطلوبًا
+- **توضيح إيقاف NCT02676310 المبكر** - تم إيقاف دراسة تصعيد الجرعة في المرحلة 1 قبل الوصول إلى التسجيل المستهدف؛ يجب مراجعة سبب الإيقاف لاستبعاد إشارات السلامة المتعلقة بفروة الرأس
+- **توثيق آلية العمل الرسمي** - يجب استرجاع بيانات آلية العمل من DrugBank لدعم إعداد ملف الأدوية الفارماكولوجي
+- **صيغة إيصال فروة الرأس المُثبّتة والمعتمدة** - لا يمكن نقل الصيغ الكافية مباشرة إلى فروة الرأس؛ توجد دراسات تحسين صيغة متعددة لكنها تتطلب التحقق من الصحة على المستوى التنظيمي قبل الاستخدام السريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

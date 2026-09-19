@@ -29,76 +29,77 @@ indication_count: 6
 
 </div>
 
-# Pantoprazole: From Acid-Related GI Disorders to Active Peptic Ulcer Disease
+# بانتوبرازول: من اضطرابات الجهاز الهضمي ذات الصلة بالحمض إلى مرض القرحة الهضمية النشط
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Pantoprazole is a proton pump inhibitor (PPI); this evidence pack does not carry a formal local original-indication record (drug is not currently marketed under a local license). TxGNN's top-ranked prediction is **Active Peptic Ulcer Disease**, but the model's own rationale flags this as an *existing core indication* rather than a novel repurposing target, with **3 clinical trials** and **19 publications** currently supporting the mechanism-disease link.
+بانتوبرازول هو مثبط مضخة البروتون (PPI)؛ لا يتضمن ملف الأدلة هذا سجلاً رسميًا محليًا للمؤشر الأصلي (الدواء غير معروض حاليًا بموجب ترخيص محلي). التنبؤ الأعلى رتبة من TxGNN هو **مرض القرحة الهضمية النشط**، لكن منطق النموذج الخاص به يشير إلى أن هذا **مؤشر أساسي موجود بالفعل** بدلاً من هدف استخدام جديد للدواء، مع وجود **3 تجارب سريرية** و **19 منشورًا** يدعمان حاليًا الارتباط بين الآلية والمرض.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication on file locally (0 licenses); TFDA label and MOA data are pending (Data Gap DG001, DG002) |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | لا يوجد مؤشر معتمد محليًا في الملف (0 تراخيص)؛ بيانات عنوان TFDA وبيانات آلية العمل معلقة (فجوة البيانات DG001، DG002) |
+| المؤشر الجديد المتنبأ به | مرض القرحة الهضمية النشط |
+| درجة التنبؤ من TxGNN | 99.69% |
+| مستوى الأدلة | L1 |
+| حالة السوق | غير معروض |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed local mechanism-of-action documentation is not on file for this evidence pack (Data Gap DG002). However, the accompanying model rationale identifies Pantoprazole as an **irreversible proton pump inhibitor (H+/K+-ATPase inhibitor)**: it binds covalently to the gastric parietal cell proton pump, blocking the final step of acid secretion — the first-line mechanism for treating acid-peptic disease.
+الوثائق التفصيلية لآلية العمل المحلية غير متوفرة لملف الأدلة هذا (فجوة البيانات DG002). ومع ذلك، يحدد منطق النموذج المرفق بانتوبرازول كـ **مثبط مضخة البروتون غير القابل للعودة (مثبط H+/K+-ATPase)**: فهو يرتبط بشكل تساهمي بمضخة البروتون في خلايا جدار المعدة، مما يحجب المرحلة الأخيرة من إفراز الحمض — الآلية الأساسية الأولى لعلاج أمراض القرحة الهضمية.
 
-Importantly, the model's own reasoning for this top-ranked prediction states explicitly that acid suppression via H+/K+-ATPase inhibition **is not a repurposing mechanism but the drug's core, already-established indication** for peptic ulcer disease — making it the strongest possible mechanistic link in the dataset, but also the least "new."
+من المهم الإشارة إلى أن منطق النموذج الخاص به بشأن هذا التنبؤ الأعلى رتبة ينص بوضوح على أن تثبيط الحمض عبر تثبيط H+/K+-ATPase **ليس آلية استخدام جديد للدواء بل المؤشر الأساسي المعروف بالفعل** لمرض القرحة الهضمية — مما يجعله أقوى ارتباط آلي ممكن في مجموعة البيانات، لكنه أيضًا الأقل "جدة".
 
-Practically, this means the TxGNN score here should be read as a **validation signal** (the model correctly recovers a known drug-disease relationship) rather than a genuine repurposing discovery. For an actual novel-use case, later-ranked candidates in this evidence pack (e.g., peptic ulcer perforation, L2 evidence) may be more informative, since Pantoprazole's role there is explicitly noted as adjunctive/indirect rather than core.
+عمليًا، هذا يعني أن درجة TxGNN هنا يجب قراءتها كـ **إشارة التحقق** (النموذج يستعيد بشكل صحيح علاقة معروفة بين الدواء والمرض) بدلاً من اكتشاف استخدام جديد حقيقي للدواء. بالنسبة لحالة استخدام جديد فعلي، قد تكون المرشحات ذات الرتب الأقل في ملف الأدلة هذا (مثل ثقب القرحة الهضمية، L2، أدلة) أكثر فائدة، لأن دور بانتوبرازول هناك ملاحظ بشكل صريح كدعم/غير مباشر بدلاً من الأساسي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Multicenter, randomized, double-blind, active-controlled comparison of Ilaprazole vs. Pantoprazole triple therapy (7 days) for H. pylori eradication in gastric/duodenal ulcer patients |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Evaluated influence of statins and PPIs (including pantoprazole) on clopidogrel antiplatelet effect in patients on dual antiplatelet therapy after PCI — a safety/DDI study, not an ulcer-efficacy endpoint |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Completed | 316 | Prospective study identifying risk factors for poor SRH fading or early rebleeding after endoscopic hemostasis + high-dose PPI infusion, to define selection criteria for second-look endoscopy |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|----------|------|------|------|---------|
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | المرحلة 3 | مكتملة | 323 | دراسة متعددة المراكز، عشوائية، عمياء مزدوجة، مضبوطة نشطة تقارن العلاج الثلاثي إيلابرازول مقابل بانتوبرازول (7 أيام) لاستئصال الملوية البوابية في مرضى قرحة المعدة/الاثني عشر |
+| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | المرحلة 4 | مكتملة | 320 | قيّمت تأثير الستاتينات وأدوية PPI (بما في ذلك بانتوبرازول) على التأثير المضاد للصفيحات للكلوبيدوجريل في المرضى على العلاج المضاد للصفيحات المزدوج بعد التدخل الإكليلي — دراسة أمان/تفاعل دوائي، وليس نقطة نهاية فعالية القرحة |
+| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | غير محدد | مكتملة | 316 | دراسة استباقية تحدد عوامل الخطر لفشل الشفاء أو نزيف مبكر متكرر بعد الإرقاء بالمنظار + تسريب وريدي عالي الجرعة من PPI، لتحديد معايير الاختيار للتنظير الثاني |
 
-## Literature Evidence
+## أدلة من الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | RCT | Hepato-gastroenterology | Compared lansoprazole vs. pantoprazole efficacy in active duodenal ulcer treatment and H. pylori eradication |
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospective RCT: intermittent vs. continuous pantoprazole infusion for peptic ulcer bleeding/rebleeding prevention |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Aliment Pharmacol Ther | Compared three pantoprazole-based triple therapy regimens for H. pylori eradication and gastric ulcer healing |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | J Gastroenterol Hepatol | Prospective RCT: pantoprazole infusion as adjuvant to endoscopic therapy reduced rebleeding after peptic ulcer bleeding |
-| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | RCT | Aliment Pharmacol Ther | Two-week pantoprazole + amoxicillin/clarithromycin effective for H. pylori eradication and duodenal ulcer healing |
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Review | Am J Gastroenterol | Network meta-analysis comparing P-CAB vs. PPI (including pantoprazole) efficacy/safety in healing Grade C/D esophagitis |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clin Drug Investig | Overview of pantoprazole pharmacology; notes no significant drug-drug interactions identified across interaction studies |
-| [9017763](https://pubmed.ncbi.nlm.nih.gov/9017763/) | 1997 | Review | Pharmacotherapy | Reviews PPI mechanism (H+/K+-ATPase inhibition) and comparative efficacy vs. H2-receptor antagonists in acid-related disease |
-| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | Clinical | Aliment Pharmacol Ther | Pantoprazole + amoxicillin + azithromycin/clarithromycin regimens for H. pylori eradication in duodenal ulcer |
-| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclinical | Inflammopharmacology | Pantoprazole + mesenchymal stem cells accelerated healing of experimentally induced gastric ulcer in rats (oxidative stress/inflammation/apoptosis pathways) |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | تجربة عشوائية محكومة | Hepato-gastroenterology | قارنت فعالية لانسوبرازول مقابل بانتوبرازول في علاج قرحة الاثني عشر النشطة واستئصال الملوية البوابية |
+| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | تجربة عشوائية محكومة | Digestion | تجربة استباقية عشوائية: تسريب بانتوبرازول متقطع مقابل مستمر لمنع نزيف/إعادة نزيف القرحة الهضمية |
+| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | تجربة عشوائية محكومة | Aliment Pharmacol Ther | قارنت ثلاثة أنظمة علاج ثلاثي قائمة على بانتوبرازول لاستئصال الملوية البوابية وشفاء قرحة المعدة |
+| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | تجربة عشوائية محكومة | J Gastroenterol Hepatol | تجربة استباقية عشوائية: تسريب بانتوبرازول كعلاج مساعد للإرقاء بالمنظار قلل من إعادة النزيف بعد نزيف القرحة الهضمية |
+| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | تجربة عشوائية محكومة | Aliment Pharmacol Ther | بانتوبرازول لمدة أسبوعين + أموكسيسيلين/كلاريثروميسين فعال في استئصال الملوية البوابية وشفاء قرحة الاثني عشر |
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | مراجعة | Am J Gastroenterol | تحليل شبكي يقارن فعالية/أمان مثبطات مضخة البروتون الجديدة (P-CAB) مقابل PPI (بما في ذلك بانتوبرازول) في شفاء التهاب المريء من الدرجة C/D |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | مراجعة | Clin Drug Investig | نظرة عامة على الصيدلية السريرية للبانتوبرازول؛ يلاحظ عدم تحديد تفاعلات دواء-دواء كبيرة عبر الدراسات |
+| [9017763](https://pubmed.ncbi.nlm.nih.gov/9017763/) | 1997 | مراجعة | Pharmacotherapy | يراجع آلية مثبطات مضخة البروتون (تثبيط H+/K+-ATPase) والفعالية النسبية مقابل حاصرات مستقبل H2 في أمراض الحمضية |
+| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | سريري | Aliment Pharmacol Ther | أنظمة بانتوبرازول + أموكسيسيلين + أزيثروميسين/كلاريثروميسين لاستئصال الملوية البوابية في قرحة الاثني عشر |
+| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | ما قبل سريري | Inflammopharmacology | بانتوبرازول + الخلايا الجذعية الوسيطة سرعت شفاء قرحة المعدة المحدثة تجريبيًا في الفئران (مسارات الإجهاد التأكسدي/الالتهاب/الاستماتة) |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Pantoprazole is not currently marketed under any local license — 0 authorizations on record.
+لم يتم تسويق بانتوبرازول حاليًا بموجب أي ترخيص محلي — 0 تراخيص مسجلة.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-Evidence level is L1, supported by a completed Phase 3 RCT and multiple additional RCTs on pantoprazole in peptic ulcer/H. pylori treatment. However, the mechanistic rationale itself confirms this is Pantoprazole's established core indication, not a novel repurposing finding — the guardrail requirement stems from the missing local regulatory and safety record, not from evidentiary uncertainty about efficacy.
+**الأساس المنطقي:**
+مستوى الأدلة هو L1، مدعوم بتجربة سريرية مكتملة من المرحلة 3 وعدة تجارب سريرية إضافية حول بانتوبرازول في علاج القرحة الهضمية/استئصال الملوية البوابية. ومع ذلك، فإن الأساس الميكانيكي نفسه يؤكد أن هذا هو المؤشر الأساسي المعروف لبانتوبرازول، وليس اكتشافًا جديدًا لاستخدام الدواء المجدد — متطلب الضمانات ينبع من نقص السجل التنظيمي والأمان المحلي، وليس من عدم اليقين بشأن الفعالية.
 
-**To proceed, the following is needed:**
-- TFDA package insert / local label data (Data Gap DG001, blocking — required before any S1 safety review)
-- Formal DrugBank/MOA record for this evidence pack (Data Gap DG002)
-- Confirmation of original approved indications to properly frame this as "known use" vs. "new use" in any filing
-- DDI and contraindication data (current query returned no results)
-- If a genuine repurposing opportunity is the goal, evaluate rank 2 ("peptic ulcer perforation," L2, adjunctive mechanism) instead, since rank 1 largely validates known pharmacology rather than expanding it
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA المرفقة بالعبوة / بيانات العنوان المحلية (فجوة البيانات DG001، مانع — مطلوب قبل أي مراجعة سلامة S1)
+- سجل DrugBank/آلية العمل الرسمي لملف الأدلة هذا (فجوة البيانات DG002)
+- تأكيد المؤشرات الأصلية المعتمدة لتأطير هذا بشكل صحيح كـ "استخدام معروف" مقابل "استخدام جديد" في أي تقديم
+- بيانات تفاعل الأدوية والموانع (الاستعلام الحالي لم يُرجع نتائج)
+- إذا كان الهدف هو فرصة استخدام جديد حقيقي للدواء، قيّم المرشح من الرتبة الثانية ("ثقب القرحة الهضمية،" L2، آلية مساعدة) بدلاً من ذلك، لأن الرتبة الأولى تتحقق في الغالب من الصيدلية المعروفة بدلاً من توسيعها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,86 +29,87 @@ indication_count: 2
 
 </div>
 
-# Sucralfate: From Peptic Ulcer Disease to Duodenogastric Reflux
+# سوكرالفات: من قرحة الاثني عشر والمعدة إلى الارتجاع المعدي الاثني عشري
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Sucralfate is a mucosal-protective agent classically used for gastric and duodenal ulcer treatment (formal Saudi registry indication text is not available in this evidence pack — the product is not currently marketed in Saudi Arabia). The TxGNN model predicts it may be effective for **Duodenogastric Reflux** (bile/alkaline reflux gastritis), a prediction reinforced by a body of older clinical literature rather than by any registered clinical trials — **0 registered clinical trials** and **13 publications**, including several small randomized controlled trials, currently support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in the Saudi registry (drug not marketed); sucralfate is broadly known as a gastric/duodenal ulcer cytoprotective agent |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سوكرالفات هو عامل واقٍ للغشاء المخاطي يُستخدم تقليدياً في علاج قرحة المعدة والاثني عشر (نص المؤشرات الرسمي في السجل السعودي غير متاح في هذه مجموعة الأدلة — المنتج غير مرخص حالياً في المملكة العربية السعودية). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الارتجاع المعدي الاثني عشري** (التهاب المعدة الارتجاعي الصفراوي/القلوي)، وهو تنبؤ يعزز بمجموعة من الأدبيات السريرية القديمة بدلاً من أي تجارب سريرية مسجلة — **0 تجارب سريرية مسجلة** و **13 منشور**، بما في ذلك عدة تجارب عشوائية مضبوطة صغيرة، تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة عامة
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, sucralfate is an aluminum sucrose sulfate complex that, in an acidic environment, forms a viscous, adherent barrier over ulcerated or inflamed gastric mucosa. This barrier binds proteinaceous exudate at the injury site, adsorbs bile acids and pepsin, and stimulates local prostaglandin and mucus/bicarbonate production — a cytoprotective effect that is largely independent of acid suppression.
-
-Duodenogastric reflux (bile reflux gastritis) causes mucosal injury through a mechanism distinct from acid-peptic ulcer disease but converging on the same target tissue: bile and duodenal alkaline content damage the gastric mucosal barrier in a manner analogous to acid/pepsin injury in classic peptic ulcer disease. Because sucralfate's barrier-forming and bile-acid-adsorbing action is not acid-dependent, it is mechanistically plausible that a drug proven effective for acid-related mucosal injury would also mitigate bile-induced mucosal injury.
-
-This is not a purely theoretical extrapolation — the literature evidence below shows sucralfate has already been directly studied in duodenogastric/alkaline reflux gastritis for decades (e.g., post-gastrectomy and post-cholecystectomy alkaline reflux gastritis), which substantially strengthens the TxGNN prediction beyond a pure mechanism-of-action inference.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح في السجل السعودي (الدواء غير مرخص حالياً)؛ سوكرالفات معروف عموماً كعامل حامٍ للمعدة والاثني عشر |
+| المؤشر الجديد المتنبأ به | الارتجاع المعدي الاثني عشري |
+| درجة التنبؤ من TxGNN | 99.37% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مرخص |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | RCT | Eur J Gastroenterol Hepatol | Randomized trial of sucralfate vs. rabeprazole vs. no treatment for post-cholecystectomy alkaline reactive gastritis |
-| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | RCT | Minerva Gastroenterol Dietol | Sucralfate vs. cisapride in dyspepsia associated with duodenogastric reflux gastritis (n=18) |
-| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | RCT | Scand J Gastroenterol Suppl | Prospective randomized trial of sucralfate vs. placebo in symptomatic/macroscopic gastritis with duodenogastric reflux |
-| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | RCT | Am J Med | Randomized double-blind study: sucralfate 6g/day vs. placebo in alkaline reflux gastritis post-Billroth I/II/vagotomy (n=23) |
-| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | Review | J Chir | Review of duodenogastric/gastroesophageal bile reflux pathophysiology, diagnosis (24h bile monitoring), and therapeutic management |
-| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Review | Curr Treat Options Gastroenterol | Review of duodenogastric reflux-induced (alkaline) esophagitis; notes PPIs as best medical treatment, difficulty of DGER management |
-| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Review | Annu Rev Med | Review of alkaline reflux (bile) gastritis and esophagitis pathophysiology and diagnostic features |
-| [10228771](https://pubmed.ncbi.nlm.nih.gov/10228771/) | 1999 | Review | Hepatogastroenterology | Review of indications, technique, and outcomes of duodenal switch surgery for pathologic duodenogastric reflux |
-| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | Review | Gastroenterol Clin Biol | Pharmacologic basis for medical treatment of duodenogastric reflux (abstract not available) |
-| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Review | Am J Gastroenterol | ACG committee review of sucralfate's nonulcer uses, including gastritis; notes efficacy not yet clearly established, needs further study |
+بيانات آلية العمل المفصلة غير متاحة حالياً في هذه مجموعة الأدلة. بناءً على الصيدلة المعروفة، سوكرالفات هو معقد كبريتات السكروز الألومنيومي الذي يشكل، في بيئة حمضية، حاجزاً لزجاً ملتصقاً على المخاطية المعدية المقرحة أو الملتهبة. يرتبط هذا الحاجز بالإفراز البروتيني في موقع الإصابة، يمتز الأحماض الصفراوية والببسين، ويحفز إنتاج البروستاجلاندين المحلي والمخاط وإفراز البيكربونات — تأثير حامٍ لا يعتمد بشكل أساسي على تثبيط الحمض.
+
+يسبب الارتجاع المعدي الاثني عشري (التهاب المعدة الصفراوي الارتجاعي) إصابة المخاطية من خلال آلية مختلفة عن قرحة الجهاز الهضمي الحمضي-الببسيني ولكن متقاربة على نفس النسيج المستهدف: تتضرر مخاطية المعدة من محتوى الاثني عشر القلوي والصفراوي بطريقة تشبه إصابة الحمض/الببسين في قرحة الجهاز الهضمي الكلاسيكية. لأن تأثير تكوين الحاجز وامتزاز الأحماض الصفراوية للسوكرالفات لا يعتمد على الحمض، فمن الممكن آلياً أن يكون الدواء الذي ثبت فعاليته في إصابة المخاطية المرتبطة بالحمض قادراً أيضاً على تخفيف إصابة المخاطية الناجمة عن الصفراء.
+
+هذا ليس استقراءً نظرياً بحتاً — دليل الأدبيات أدناه يُظهر أن سوكرالفات درس بالفعل بشكل مباشر في التهاب المعدة الارتجاعي المعدي الاثني عشري/القلوي لعقود من الزمن (مثل التهاب المعدة الارتجاعي القلوي بعد استئصال المعدة واستئصال المرارة)، مما يعزز بقوة كبيرة التنبؤ من TxGNN خارج استدلال آلية العمل البحت.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Sucralfate currently holds no marketing authorization in Saudi Arabia (0 registered products).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|-------|--------|-----------------|
+| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | تجربة عشوائية مضبوطة | Eur J Gastroenterol Hepatol | تجربة عشوائية بين سوكرالفات مقابل رابيبرازول مقابل عدم العلاج لالتهاب المعدة التفاعلي القلوي بعد استئصال المرارة |
+| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | تجربة عشوائية مضبوطة | Minerva Gastroenterol Dietol | سوكرالفات مقابل سيسابريد في عسر الهضم المرتبط بالتهاب المعدة الارتجاعي المعدي الاثني عشري (n=18) |
+| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | تجربة عشوائية مضبوطة | Scand J Gastroenterol Suppl | تجربة عشوائية استباقية بين سوكرالفات مقابل الدواء الغفل في التهاب المعدة العياني/العرضي مع الارتجاع المعدي الاثني عشري |
+| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | تجربة عشوائية مضبوطة معماة مزدوجة | Am J Med | دراسة عشوائية معماة مزدوجة: سوكرالفات 6 غ/يوم مقابل الدواء الغفل في التهاب المعدة الارتجاعي القلوي بعد Billroth I/II/قطع المبهم (n=23) |
+| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | مراجعة | J Chir | مراجعة لإمراضية الارتجاع الصفراوي المعدي الاثني عشري/المريئي، التشخيص (مراقبة الصفراء 24 ساعة)، والإدارة العلاجية |
+| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | مراجعة | Curr Treat Options Gastroenterol | مراجعة التهاب المريء الناجم عن الارتجاع المعدي الاثني عشري (القلوي)؛ يلاحظ مثبطات البروتون كأفضل علاج طبي، صعوبة إدارة الارتجاع المعدي الاثني عشري |
+| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | مراجعة | Annu Rev Med | مراجعة لإمراضية التهاب المعدة والمريء الارتجاعي القلوي (الصفراوي) والميزات التشخيصية |
+| [10228771](https://pubmed.ncbi.nlm.nih.gov/10228771/) | 1999 | مراجعة | Hepatogastroenterology | مراجعة المؤشرات والتقنية والنتائج لجراحة تحويل الاثني عشر في الارتجاع المعدي الاثني عشري المرضي |
+| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | مراجعة | Gastroenterol Clin Biol | الأساس الصيدلاني للعلاج الطبي للارتجاع المعدي الاثني عشري (الملخص غير متاح) |
+| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | مراجعة | Am J Gastroenterol | مراجعة لجنة جمعية أمراض الجهاز الهضمي الأمريكية لاستخدامات سوكرالفات غير المتعلقة بالقرحة، بما في ذلك التهاب المعدة؛ تلاحظ أن الفعالية لم تُثبت بوضوح بعد، تحتاج إلى مزيد من الدراسة |
 
-**Rationale:**
-The TxGNN score is high and is corroborated by decades of literature — including several small RCTs — directly testing sucralfate in duodenogastric/alkaline reflux gastritis, but there are no registered clinical trials, no confirmed MOA record, and the drug has no current marketing authorization or safety/labeling data in Saudi Arabia, making a "Go" or "Proceed with Guardrails" premature.
+---
 
-**To proceed, the following is needed:**
-- SFDA-approved package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed DrugBank/mechanism-of-action data for sucralfate
-- A formal DDI review, since the current query returned no results
-- Assessment of Saudi Arabia market-entry pathway, since the product is not currently marketed
-- Ideally, a contemporary, adequately powered RCT or systematic review, since existing trials are small and decades old
+## معلومات السوق في المملكة العربية السعودية
+
+سوكرالفات لا يحمل حالياً أي ترخيص تسويقي في المملكة العربية السعودية (0 منتجات مسجلة).
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى النشرة الداخلية للمعلومات الأمنية.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+درجة TxGNN عالية وتُعزز بعقود من الأدبيات — بما في ذلك عدة تجارب عشوائية مضبوطة صغيرة — تختبر بشكل مباشر سوكرالفات في التهاب المعدة الارتجاعي المعدي الاثني عشري/القلوي، لكن لا توجد تجارب سريرية مسجلة، لا يوجد سجل آلية عمل مؤكد، والدواء لا يحمل حالياً ترخيصاً تسويقياً أو بيانات أمان/تسمية في المملكة العربية السعودية، مما يجعل "تقدم" أو "المتابعة مع الضمانات" متسرعاً.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة داخلية معتمدة من الهيئة العامة للغذاء والدواء (تحذيرات، موانع الاستعمال) — تشكل فجوة بيانات حالية حاجزة
+- بيانات آلية العمل المؤكدة من DrugBank لسوكرالفات
+- مراجعة رسمية للتفاعلات الدوائية، حيث أن الاستعلام الحالي لم يُرجع نتائج
+- تقييم مسار دخول السوق السعودية، حيث أن المنتج غير مرخص حالياً
+- يفضل، تجربة عشوائية معاصرة أو مراجعة منهجية مع قوة إحصائية كافية، حيث أن التجارب الموجودة صغيرة وقديمة جداً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

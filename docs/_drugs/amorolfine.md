@@ -29,80 +29,81 @@ indication_count: 10
 
 </div>
 
-# Amorolfine: From Onychomycosis to Drug-Induced Osteoporosis
+# أمورولفين: من فطار الأظافر إلى هشاشة العظام المستحثة بالأدوية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Amorolfine is a morpholine-class topical antifungal, primarily used for the treatment of onychomycosis (fungal nail infection) by inhibiting ergosterol biosynthesis in fungal cell membranes.
-The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis**,
-however, **0 clinical trials** and **0 publications** currently support this direction — this prediction is based solely on the graph neural network model output.
+أمورولفين هو عامل مضاد للفطريات موضعي من فئة المورفولين، يُستخدم بشكل أساسي لعلاج فطار الأظافر (عدوى فطرية في الأظافر) من خلال تثبيط تخليق الإرغوسترول في أغشية الخلايا الفطرية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **هشاشة العظام المستحثة بالأدوية**،
+ومع ذلك، لا توجد حالياً **تجارب سريرية** و**لا منشورات** تدعم هذا الاتجاه — هذا التنبؤ يستند فقط على مخرجات نموذج الشبكة العصبية الرسومية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Onychomycosis (fungal nail infection) — topical antifungal use |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | فطار الأظافر (عدوى فطرية في الأظافر) — الاستخدام الموضعي للعامل المضاد للفطريات |
+| المؤشر الجديد المتنبأ به | هشاشة العظام المستحثة بالأدوية |
+| درجة التنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological information, Amorolfine belongs to the morpholine class of antifungals and works by inhibiting two key enzymes (Δ14-reductase and Δ7-8-isomerase) in the ergosterol biosynthesis pathway — a mechanism specific to fungal cell membranes. Its clinical use is confined to topical application for onychomycosis, with minimal systemic absorption.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في حزمة الأدلة. بناءً على المعلومات الدوائية المعروفة، ينتمي أمورولفين إلى فئة المورفولين من مضادات الفطريات ويعمل من خلال تثبيط إنزيمين رئيسيين (Δ14-reductase و Δ7-8-isomerase) في مسار تخليق الإرغوسترول — وهي آلية خاصة بأغشية الخلايا الفطرية. يقتصر الاستخدام السريري على التطبيق الموضعي لفطار الأظافر، مع امتصاص جهازي ضئيل جداً.
 
-The mechanistic bridge between antifungal activity and drug-induced osteoporosis is extremely tenuous. Some azole-class antifungals (e.g., fluconazole, itraconazole) have been investigated for indirect effects on bone metabolism through CYP3A4 inhibition, which can alter corticosteroid levels. However, amorolfine is a morpholine — a structurally and mechanistically distinct class — with no known CYP3A4 interaction profile and no reported involvement in bone remodeling pathways.
+الجسر الآلي بين النشاط المضاد للفطريات وهشاشة العظام المستحثة بالأدوية ضعيف جداً. تم التحقيق في بعض مضادات الفطريات من فئة الأزول (على سبيل المثال، فلوكونازول وإتراكونازول) لتأثيراتها غير المباشرة على استقلاب العظام من خلال تثبيط CYP3A4، والذي يمكن أن يغير مستويات الكورتيكوستيرويد. ومع ذلك، أمورولفين هو مورفولين — فئة مختلفة من حيث الهيكل والآلية — بدون ملف تفاعل معروف مع CYP3A4 وبدون مشاركة معروفة في مسارات إعادة تشكيل العظام.
 
-The repurposing rationale provided in the dataset acknowledges this gap directly: there is no known direct or indirect mechanistic intersection between amorolfine's ergosterol-targeting pathway and bone metabolism. The TxGNN model likely captured a distant node connection in the disease–drug knowledge graph, but biological plausibility for this prediction is very low. This should be treated as a model artifact rather than a clinically actionable signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+إن المنطق المقدم لإعادة الاستخدام في مجموعة البيانات يعترف مباشرة بهذه الفجوة: لا يوجد تقاطع مباشر أو غير مباشر معروف بين مسار المورفولين الذي يستهدف الإرغوسترول واستقلاب العظام. من المحتمل أن يكون نموذج TxGNN قد التقط اتصال عقدة بعيدة في الرسم البياني للمعرفة بالمرض والأدوية، لكن الاعتقادية البيولوجية لهذا التنبؤ منخفضة جداً. يجب التعامل معه كنتيجة نموذجية بدلاً من إشارة قابلة للعمل من الناحية السريرية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Amorolfine is not currently registered or marketed in Saudi Arabia. No authorization records were found in the regulatory database query (SFDA). This means there is no existing approval pathway, local safety data, or market precedent to draw upon for any potential repurposing evaluation.
+لا توجد حالياً تجارب سريرية ذات صلة مسجّلة.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
-No drug interaction data was identified in the DDI query. No key warnings or contraindications data were available in this Evidence Pack. Given that amorolfine is applied topically with very low systemic bioavailability, systemic safety risks are generally considered low — but this should be formally verified against the full prescribing information before any repurposing consideration proceeds.
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+أمورولفين غير مسجّل أو مُسوّق حالياً في المملكة العربية السعودية. لم يتم العثور على سجلات تفويض في استعلام قاعدة البيانات التنظيمية (SFDA). هذا يعني عدم وجود مسار موافقة قائم أو بيانات سلامة محلية أو سابقة سوقية للاستفادة منها لأي تقييم محتمل لإعادة الاستخدام.
 
-**Rationale:**
-All 10 TxGNN-predicted indications for amorolfine are rated L5 (model prediction only), with zero supporting clinical trials or peer-reviewed literature across every disease target searched. The top prediction — drug-induced osteoporosis — has no credible mechanistic basis linking morpholine antifungal activity to bone metabolism, making this a likely false-positive arising from graph network topology rather than biological relevance.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- Obtain amorolfine's full pharmacokinetic profile (systemic absorption, Cmax, protein binding) to assess whether any systemic exposure could theoretically produce off-target effects
-- Commission a formal mechanistic review to determine whether any morpholine-class antifungal has demonstrated activity relevant to bone remodeling (osteoclast/osteoblast biology, calcium metabolism, Wnt/RANK-L pathways)
-- If systemic formulations of amorolfine exist in any market, obtain those package inserts to evaluate whether bone-related adverse events have been reported
-- Re-evaluate lower-ranked TxGNN predictions for signals with stronger mechanistic plausibility (e.g., fungal infections of specific anatomical sites where amorolfine could realistically be reformulated for systemic or regional delivery)
-- Consider whether amorolfine is even the appropriate drug to evaluate for repurposing given: (a) it has no Saudi Arabia regulatory footprint, (b) all predicted indications are L5, and (c) the drug class has no biological rationale for the predicted targets
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+لم يتم تحديد بيانات تفاعل الأدوية في استعلام DDI. لم تتوفر بيانات عن التحذيرات الرئيسية أو موانع الاستخدام في حزمة الأدلة هذه. نظراً لأن أمورولفين يُطبّق موضعياً مع توافر بيولوجي جهازي منخفض جداً، تُعتبر مخاطر السلامة الجهازية منخفضة بشكل عام — لكن يجب التحقق رسمياً من هذا مقابل معلومات الوصفة الطبية الكاملة قبل متابعة أي اعتبار لإعادة الاستخدام.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+جميع المؤشرات العشرة المتنبأ بها من TxGNN لأمورولفين يتم تصنيفها L5 (تنبؤ نموذج فقط)، مع عدم وجود تجارب سريرية داعمة أو منشورات تمت مراجعتها من قبل النظراء عبر كل هدف مرض تم البحث عنه. التنبؤ الأعلى ترتيباً — هشاشة العظام المستحثة بالأدوية — يفتقد إلى أساس آلي موثوق يربط نشاط المورفولين المضاد للفطريات باستقلاب العظام، مما يجعل هذا إيجابياً كاذباً محتملاً ناشئاً عن طوبولوجيا الشبكة الرسومية بدلاً من الصلة البيولوجية.
+
+**للمتابعة، يلزم ما يلي:**
+
+- الحصول على ملف الحرائك الدوائية الكامل لأمورولفين (الامتصاص الجهازي، Cmax، ارتباط البروتين) لتقييم ما إذا كان أي تعرض جهازي يمكن أن يؤدي نظرياً إلى تأثيرات خارج النطاق المقصود
+- إجراء مراجعة آلية رسمية لتحديد ما إذا كان أي مضاد فطري من فئة المورفولين قد أظهر نشاطاً ذا صلة بإعادة تشكيل العظام (بيولوجيا الخلايا الناقضة للعظام/خلايا بناء العظام، استقلاب الكالسيوم، مسارات Wnt/RANK-L)
+- إذا كانت هناك تركيبات جهازية من أمورولفين في أي سوق، الحصول على نشرات معلومات تلك التركيبات لتقييم ما إذا تم الإبلاغ عن أحداث ضائرة متعلقة بالعظام
+- إعادة تقييم التنبؤات ذات الترتيب الأقل من TxGNN للبحث عن إشارات ذات معقولية آلية أقوى (على سبيل المثال، العدوى الفطرية في مواقع تشريحية محددة حيث قد يكون من الممكن إعادة صياغة أمورولفين بشكل واقعي للتسليم الجهازي أو الإقليمي)
+- الاعتبار ما إذا كان أمورولفين هو حتى الدواء المناسب لتقييمه لإعادة الاستخدام بالنظر إلى: (أ) عدم وجود قدم تنظيمي له في المملكة العربية السعودية، (ب) جميع المؤشرات المتنبأ بها هي L5، و(ج) فئة الأدوية لا توجد لها أساس بيولوجي للأهداف المتنبأ بها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

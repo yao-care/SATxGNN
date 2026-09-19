@@ -29,75 +29,76 @@ indication_count: 3
 
 </div>
 
-# Pentosan Polysulfate: Original Indication Not Yet Documented → Primary Release Disorder of Platelets
+# بنتوسان بوليسولفات: المؤشر الأصلي لم يتم توثيقه بعد → اضطراب الإفراز الأولي للصفائح الدموية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Pentosan Polysulfate's original indication and mechanism of action are currently a **data gap** in this Evidence Pack (pending TFDA package insert and DrugBank MOA extraction). The TxGNN model predicts potential relevance to **primary release disorder of platelets**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a model-only prediction with no external corroboration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (blocking data gap, DG001 — pending TFDA package insert) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+المؤشر الأصلي لـ بنتوسان بوليسولفات وآلية عمله حاليًا **فجوة بيانات** في هذه حزمة الأدلة (في انتظار نشرة عبوة TFDA واستخراج آلية العمل من DrugBank). يتنبأ نموذج TxGNN بالصلة المحتملة باضطراب **الإفراز الأولي للصفائح الدموية**، لكن هذه الإشارة مدعومة حاليًا بـ **0 تجارب سريرية** و **0 منشورات** — إنها تنبؤ يقتصر على النموذج فقط بدون تأكيد خارجي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (DG002 — pending DrugBank MOA query), and the original approved indication is also not recorded in this Evidence Pack. What is available is the TxGNN rationale note itself: Pentosan Polysulfate (PPS) is a heparinoid (heparin-like polysaccharide) with weak anticoagulant/antiplatelet activity, theorized to interfere with platelet granule release pathways.
-
-However, this mechanistic link is explicitly flagged as uncertain in the source rationale — it is derived purely from TxGNN graph-embedding similarity, without any supporting experimental or mechanistic literature to establish directionality. A weak antiplatelet/anticoagulant compound could plausibly *worsen* rather than correct a platelet release disorder, since it could compound the underlying bleeding tendency instead of treating it. Without the original indication, MOA, and confirmatory evidence, the mechanistic plausibility of this prediction cannot be meaningfully assessed at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متوفر (فجوة بيانات حاجزة، DG001 — في انتظار نشرة عبوة TFDA) |
+| المؤشر الجديد المتنبأ به | اضطراب الإفراز الأولي للصفائح الدموية |
+| درجة تنبؤ TxGNN | 99.71% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Pentosan Polysulfate is not currently marketed in Saudi Arabia (0 product authorizations recorded).
+حاليًا، بيانات آلية العمل التفصيلية غير متوفرة (DG002 — في انتظار استعلام DrugBank عن آلية العمل)، والمؤشر الأصلي المعتمد أيضًا لم يتم تسجيله في هذه حزمة الأدلة. ما هو متاح هو ملاحظة الأساس المنطقي لـ TxGNN نفسها: بنتوسان بوليسولفات (PPS) هو هيبارينويد (عديد سكاريد شبيه بالهيبارين) بنشاط مضاد للتجلط/مضاد للصفائح الدموية ضعيف، يُفترض أن يتداخل مع مسارات إفراز حبيبات الصفائح الدموية.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+ومع ذلك، هذا الارتباط الميكانيكي يتم الإشارة إليه بوضوح كغير مؤكد في الأساس المنطقي للمصدر — فهو مشتق بحتة من تشابه TxGNN في الرسم البياني المدمج، بدون أي أدبيات تجريبية أو ميكانيكية داعمة لتحديد الاتجاهية. قد يكون المركب الضعيف المضاد للصفائح/المضاد للتجلط بشكل معقول *يزيد الأمر سوءًا* بدلاً من تصحيح اضطراب الإفراز في الصفائح الدموية، حيث يمكن أن يفاقم الميل النزفي الأساسي بدلاً من معالجته. بدون المؤشر الأصلي وآلية العمل والأدلة التأكيدية، لا يمكن تقييم المعقولية الميكانيكية لهذا التنبؤ بشكل ذي مغزى في هذا الوقت.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة
 
-**Rationale:**
-This prediction sits at Evidence Level L5 (model prediction only, no clinical trials or literature), and two blocking/high-severity data gaps remain unresolved — the TFDA package insert (safety) and DrugBank MOA data. The rationale text accompanying this prediction itself notes that PPS's antiplatelet properties could plausibly worsen rather than treat a platelet release disorder, so the direction of effect is unconfirmed.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) to clear the S1 safety gate (DG001, blocking)
-- DrugBank-confirmed mechanism of action (DG002)
-- Confirmation of the drug's original approved indication(s), currently missing from this pack
-- Targeted literature/trial search using broader platelet-disorder and heparinoid search terms, since current queries returned zero hits
-- Preclinical or in-vitro evidence clarifying whether PPS's antiplatelet activity would help or harm in a platelet release disorder before any further evaluation
+## أدلة الأدبيات
 
-*Note: TxGNN also flagged two related candidates in this same pack — Glanzmann thrombasthenia (99.65%) and pseudo-von Willebrand disease (99.62%) — both similarly at L5/Hold with no supporting trials or literature. These may warrant a combined review once MOA data is available, since a single mechanistic study could inform all three.*
+لا تتوفر حاليًا أدبيات ذات صلة
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+بنتوسان بوليسولفات غير مسوق حاليًا في المملكة العربية السعودية (0 تفويضات منتج مسجلة).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+يقع هذا التنبؤ عند مستوى الأدلة L5 (تنبؤ النموذج فقط، بدون تجارب سريرية أو أدبيات)، وتظل فجوتا بيانات حاجزة/عالية الشدة دون حل — نشرة عبوة TFDA (السلامة) وبيانات DrugBank عن آلية العمل. يلاحظ نص الأساس المنطقي المصاحب لهذا التنبؤ أن خصائص PPS المضادة للصفائح الدموية قد تزيد الأمر سوءًا بشكل معقول بدلاً من معالجة اضطراب إفراز الصفائح الدموية، لذا فإن اتجاه التأثير غير مؤكد.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة عبوة TFDA (التحذيرات/موانع الاستخدام) لمسح بوابة السلامة S1 (DG001، حاجز)
+- آلية عمل مؤكدة من DrugBank (DG002)
+- تأكيد المؤشر الأصلي المعتمد للدواء، غير المدرج حاليًا في هذه الحزمة
+- البحث المستهدف في الأدبيات/التجارب باستخدام مصطلحات بحث أوسع عن اضطرابات الصفائح الدموية والهيبارينويد، حيث أن الاستعلامات الحالية أسفرت عن صفر نتائج
+- أدلة ما قبل السريرية أو في المختبر توضح ما إذا كان نشاط PPS المضاد للصفائح الدموية سيساعد أو يضر في اضطراب الإفراز في الصفائح الدموية قبل أي تقييم آخر
+
+*ملاحظة: TxGNN أيضًا وضع علامة على مرشحين ذوي صلة في هذه الحزمة ذاتها — ثرومباستينيا غلانزمان (99.65%) واضطراب فون ويلبراند الكاذب (99.62%) — كلاهما بالمثل في L5/تعليق بدون تجارب أو أدبيات داعمة. قد تستحق هذه مراجعة مجمعة بمجرد توفر بيانات آلية العمل، حيث يمكن لدراسة ميكانيكية واحدة أن توضح جميع الثلاثة.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

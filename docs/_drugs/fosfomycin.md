@@ -29,68 +29,69 @@ indication_count: 10
 
 </div>
 
-# Fosfomycin: From Broad-Spectrum Antibacterial Therapy to Gonococcal Urethritis
+# فوسفوميسين: من العلاج المضاد للبكتيريا واسع الطيف إلى التهاب الإحليل السيلاني
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Fosfomycin is a broad-spectrum antibacterial agent whose established clinical role (per the evidence gathered, including complicated UTI/pyelonephritis trials) is treating gram-negative bacterial infections of the urinary tract.
-The TxGNN model predicts it may be effective for **Gonococcal Urethritis**, with **0 registered clinical trials** but **6 supporting publications** (including 1 RCT) currently backing this direction — evidence that is real but dated, and complicated by current antimicrobial resistance trends.
+فوسفوميسين هو عامل مضاد للبكتيريا واسع الطيف؛ دوره السريري المثبت (حسب الأدلة المجمعة، بما في ذلك تجارب التهاب المسالك البولية المعقد والتهاب الحويضة والكلى) هو علاج العدوى البكتيرية سالبة الجرام في المسالك البولية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب الإحليل السيلاني**، مع **0 تجربة سريرية مسجلة** و**6 منشورات داعمة** (بما فيها تجربة عشوائية محكومة واحدة) تدعم هذا الاتجاه حالياً — أدلة حقيقية لكن قديمة، ومعقدة باتجاهات مقاومة المضادات الحيوية الحالية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — no Saudi Arabia market authorization on file to extract an approved indication text from |
-| Predicted New Indication | Gonococcal Urethritis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متوفر — لا توجد موافقة تسويق في المملكة العربية السعودية في السجل لاستخراج نص مؤشر معتمد منها |
+| المؤشر الجديد المتنبأ به | التهاب الإحليل السيلاني |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (data gap, severity High). Based on the information available in the evidence pack, fosfomycin is a bactericidal antibiotic that inhibits an early, distinct step in bacterial cell wall synthesis — blocking the MurA enzyme and thereby peptidoglycan precursor formation. This mechanism is referenced in the supporting clinical trial literature for related indications (e.g., the ZEUS Phase 2/3 trial for complicated UTI, PMID 30861061), and it is the same target that underlies fosfomycin's established antibacterial spectrum.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية (فجوة البيانات، الخطورة عالية). بناءً على المعلومات المتاحة في حزمة الأدلة، فإن فوسفوميسين هو مضاد حيوي قاتل للبكتيريا يثبط خطوة مبكرة ومميزة في تخليق جدار الخلية البكتيرية — بحجب إنزيم MurA وبالتالي تكوين مقدمات الببتيدوجليكان. تم الإشارة إلى هذه الآلية في الأدبيات السريرية التجريبية الداعمة للمؤشرات ذات الصلة (على سبيل المثال، تجربة ZEUS من المرحلة 2/3 لالتهاب المسالك البولية المعقد، PMID 30861061)، وهي نفس الهدف الذي يكمن وراء الطيف المضاد للبكتيريا المثبت لفوسفوميسين.
 
-*Neisseria gonorrhoeae* is a gram-negative diplococcus with a typical peptidoglycan cell wall, making MurA a mechanistically valid target for this organism. Fosfomycin's broad gram-negative coverage — already demonstrated in genitourinary infections such as complicated UTI and pyelonephritis — extends plausibly to gonococcal urethritis on the same structural basis.
+*Neisseria gonorrhoeae* هي ثنائية الكوكس سالبة الجرام بجدار ببتيدوجليكان نموذجي، مما يجعل MurA هدفاً صحيحاً آلياً لهذا الكائن. تمتد التغطية الواسعة سالبة الجرام لفوسفوميسين — والمثبتة بالفعل في العدوى التناسلية البولية مثل التهاب المسالك البولية المعقد والتهاب الحويضة والكلى — بشكل معقول إلى التهاب الإحليل السيلاني على نفس الأساس الهيكلي.
 
-That said, the mechanistic rationale comes with an important caveat: under current global antimicrobial resistance trends, most treatment guidelines no longer list fosfomycin as first-line therapy for gonorrhea. Any repurposing pathway would need to be paired with local susceptibility/resistance monitoring rather than treated as a straightforward mechanism-driven extension.
+ومع ذلك، فإن المنطق الآلي يأتي مع تحذير مهم: تحت اتجاهات مقاومة المضادات الحيوية العالمية الحالية، لا تعود معظم الإرشادات العلاجية تسرد فوسفوميسين كعلاج من الخط الأول لمرض السيلان. أي مسار لإعادة توظيف الدواء سيحتاج إلى اقترانه بمراقبة القابلية/المقاومة المحلية بدلاً من التعامل معه كامتداد مدفوع بآلية مباشرة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | RCT | Clinical Microbiology and Infection | Open-label RCT in 126 men with uncomplicated gonococcal urethritis; fosfomycin trometamol 3g given on days 1, 3, and 5 was evaluated against comparator therapy |
-| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | Clinical study | Chemotherapy | 70 patients with acute/subacute gonococcal urethritis treated with IM fosfomycin; 86–92% bacteriological and clinical cure rates depending on dosing regimen |
-| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | Clinical/Bacteriological study | Chemotherapy | 959 patients across multiple Spanish hospitals treated for various infections, including gonococcal urethritis, confirming broad-spectrum in vitro and clinical activity |
-| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | Cohort (secondary analysis) | Sexually Transmitted Infections | Secondary analysis of the NABOGO trial assessing spontaneous clearance of asymptomatic anogenital and pharyngeal *N. gonorrhoeae* infections (not a fosfomycin efficacy study) |
-| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | Review | Zhonghua Nan Ke Xue (National Journal of Andrology) | Review of diagnosis and treatment of male genitourinary infection involving non-gonococcal *Neisseria* species |
-| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | Case report | Journal Français d'Ophtalmologie | Case of gonococcal conjunctivitis with corneal perforation following urethritis, resistant to penicillins/tetracyclines/fluoroquinolones, managed with parenteral antibiotics |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | RCT | Clinical Microbiology and Infection | تجربة عشوائية محكومة مفتوحة في 126 رجلاً مصاباً بالتهاب إحليل سيلاني غير معقد؛ تم تقييم فوسفوميسين تروميتامول 3 غ في الأيام 1 و 3 و 5 مقابل العلاج المقارن |
+| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | دراسة سريرية | Chemotherapy | 70 مريضاً يعانون من التهاب إحليل سيلاني حاد/تحت الحاد تم علاجهم بـ فوسفوميسين بالحقن العضلي؛ معدلات الشفاء البكتيريولوجي والسريري من 86–92% حسب نظام الجرعات |
+| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | دراسة سريرية/بكتيريولوجية | Chemotherapy | 959 مريضاً في مستشفيات إسبانية متعددة تم علاجهم من أجل عدوى مختلفة، بما في ذلك التهاب الإحليل السيلاني، مؤكداً النشاط الواسع الطيف في الاختبارات الحيوية والسريرية |
+| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | دراسة استقصائية (تحليل ثانوي) | Sexually Transmitted Infections | تحليل ثانوي لتجربة NABOGO يقيّم التطهر التلقائي للعدوى اللاعرضية التناسلية والبلعومية بـ *N. gonorrhoeae* (ليست دراسة فعالية فوسفوميسين) |
+| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | مراجعة | Zhonghua Nan Ke Xue (National Journal of Andrology) | مراجعة التشخيص والعلاج من عدوى الجهاز التناسلي البولي الذكري التي تنطوي على أنواع *Neisseria* غير السيلانية |
+| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | حالة سريرية | Journal Français d'Ophtalmologie | حالة التهاب ملتحمة السيلاني مع ثقب القرنية بعد التهاب الإحليل، مقاوم للبنسلينات/التتراسيكلينات/الفلوروكينولونات، تم إدارته بمضادات حيوية حقنية |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No market authorizations on file — fosfomycin is not currently marketed in Saudi Arabia (0 registered licenses).
+لا توجد موافقات تسويق في السجل — فوسفوميسين غير مسوق حالياً في المملكة العربية السعودية (0 رخصة مسجلة).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. Note that TFDA/SFDA package insert warnings and contraindications are currently a blocking data gap (DG001) that prevents completion of the S1 safety pre-assessment for this candidate.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات الأمان. لاحظ أن تحذيرات نشرة المنتج TFDA/SFDA والموانع الاستعمال هي حالياً فجوة بيانات مسدودة (DG001) التي تمنع إكمال التقييم الأولي للأمان S1 لهذا المرشح.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-One RCT plus several older clinical studies support fosfomycin's efficacy against gonococcal urethritis, and the mechanistic rationale (MurA inhibition against a peptidoglycan-walled organism) is sound. However, evidence is dated (most studies from the 1970s–2016), current resistance trends limit fosfomycin's standing as first-line gonorrhea therapy, and there is no existing market authorization in Saudi Arabia.
+**المنطق:**
+تدعم تجربة عشوائية محكومة واحدة بالإضافة إلى عدة دراسات سريرية أقدم فعالية فوسفوميسين ضد التهاب الإحليل السيلاني، والمنطق الآلي (تثبيط MurA ضد كائن له جدار ببتيدوجليكان) سليم. ومع ذلك، الأدلة قديمة (معظم الدراسات من السبعينات–2016)، وتحد اتجاهات المقاومة الحالية من مكانة فوسفوميسين كعلاج من الخط الأول لمرض السيلان، ولا توجد موافقة تسويق قائمة في المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (blocking S1 safety assessment — DG001)
-- Detailed mechanism of action data (DG002)
-- Local/regional antimicrobial susceptibility data for *N. gonorrhoeae* against fosfomycin
-- Regulatory pathway assessment, since the drug currently has zero market authorizations in Saudi Arabia
+**لمتابعة العملية، يلزم ما يلي:**
+- تحذيرات نشرة المنتج TFDA/SFDA والموانع الاستعمال (تقييم الأمان المسدود S1 — DG001)
+- بيانات آلية العمل التفصيلية (DG002)
+- بيانات القابلية للتأثر بالمضادات الحيوية المحلية/الإقليمية لـ *N. gonorrhoeae* ضد فوسفوميسين
+- تقييم المسار التنظيمي، حيث أن الدواء حالياً لديه صفر موافقات تسويق في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

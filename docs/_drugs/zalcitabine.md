@@ -29,78 +29,77 @@ indication_count: 3
 
 </div>
 
-Using the report template above (no additional skill applies — this is a direct content-generation task with the format fully specified in the prompt). I'll flag one substantive issue before the table: the evidence pack's top-ranked prediction is a **veterinary** disease (feline AIDS), not a human indication, which materially changes the "reasonableness" and decision framing — I've called this out explicitly rather than glossing over it.
+# زالسيتابين: من الإيدز البشري إلى متلازمة نقص المناعة المكتسب لدى القطط
 
-# Zalcitabine: From HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+## ملخص في جملة واحدة
 
-## One-Sentence Summary
+زالسيتابين (ddC) هو مثبط للنسخ العكسي النيوكليوسيدي (NRTI) طُوّر تاريخياً لعلاج عدوى فيروس نقص المناعة البشرية/الإيدز. التنبؤ الأول من نموذج TxGNN هو **متلازمة نقص المناعة المكتسب لدى القطط** — وهي مرض بيطري وليس مؤشراً بشرياً — مدعوم بـ **1 تجربة سريرية** (عقار غير ذات صلة/نوع غير ذات صلة، ملاءمة منخفضة) و**8 منشورات**، كلها دراسات على الحيوان أو خارج الجسم الحي. لأن المؤشر المتنبأ به بحد ذاته غير بشري، فإن هذا المرشح غير قابل للتطبيق مباشرة لإعادة استخدام العقاقير البشرية على الرغم من درجة TxGNN العالية.
 
-Zalcitabine (ddC) is a nucleoside reverse transcriptase inhibitor (NRTI) historically developed for HIV/AIDS treatment. The TxGNN model's top prediction is **Feline Acquired Immunodeficiency Syndrome** — a veterinary disease in cats, not a human indication — supported by **1 clinical trial** (unrelated drug/species, low relevance) and **8 publications**, all animal or in vitro studies. Because the predicted indication itself is non-human, this candidate is not directly actionable for human drug repurposing despite the high TxGNN score.
+## نظرة عامة سريعة
 
-## Quick Overview
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | عدوى فيروس نقص المناعة البشرية/الإيدز — معرفة تصنيف العقار العام؛ غير موجودة في بيانات الجهات التنظيمية في مجموعة الأدلة (العقار غير مسوق، 0 ترخيص في الملف) |
+| المؤشر الجديد المتنبأ به | متلازمة نقص المناعة المكتسب لدى القطط (مؤشر بيطري) |
+| درجة تنبؤ TxGNN | 99.73% |
+| مستوى الأدلة | L3 |
+| حالة السوق السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تعليق |
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV/AIDS (HIV-1 infection) — general drug classification knowledge; not present in the evidence pack's regulatory data (drug is unmarketed, 0 licenses on file) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (veterinary indication) |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## لماذا هذا التنبؤ معقول؟
 
-## Why is This Prediction Reasonable?
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (تم الإشارة إليها كفجوة بيانات في مصادر DrugBank). بناءً على المعلومات المعروفة، زالسيتابين (ddC) هو مثبط للنسخ العكسي النيوكليوسيدي المستخدم في علاج عدوى فيروس نقص المناعة البشرية/الإيدز؛ تم إثبات فعاليته المضادة للفيروسات القهقرية ضد فيروس نقص المناعة البشرية-1، وآلياً نفس نشاط تثبيط النسخ العكسي معقول ضد الفيروسات القهقرية الأخرى.
 
-Currently, detailed mechanism of action data is not available (flagged as a data gap in DrugBank sourcing). Based on known information, zalcitabine (ddC) is a nucleoside reverse transcriptase inhibitor used for HIV/AIDS treatment; its antiretroviral efficacy against HIV-1 has been established, and mechanistically the same reverse-transcriptase-inhibition activity is plausible against other retroviruses.
+فيروس نقص المناعة لدى القطط (FIV) وفيروس ابيضاض الدم لدى القطط (FeLV) هما فيروسات عدسية/قهقرية تسبب مرضاً يشبه الإيدز لدى القطط، والنسخ العكسي لديهما هو هدف معتمد لنفس فئة نظائر النيوكليوسيد (AZT، 3TC/lamivudine) المستخدمة في علاج فيروس نقص المناعة البشرية. هذا التوازي الآلي بين الأنواع هو على الأرجح ما يلتقطه TxGNN، واثنتان من الدراسات المذكورة (PMID 2544137، PMID 2540111) تختبران ddC مباشرة في نماذج الفيروسات القهقرية السنورية.
 
-Feline immunodeficiency virus (FIV) and feline leukemia virus (FeLV) are lentiviruses/retroviruses that cause an AIDS-like disease in cats, and their reverse transcriptase is a validated target for the same class of nucleoside analogues (AZT, 3TC/lamivudine) used in HIV. This cross-species mechanistic parallel is almost certainly what TxGNN is capturing, and two of the cited studies (PMID 2544137, PMID 2540111) do test ddC directly in feline retroviral models.
+**تحفظ مهم:** المؤشر المتنبأ به هو مرض بيطري وليس مرضاً بشرياً. حتى مع وجود أساس آلي سليم، فإن هذا التنبؤ المحدد لا يمكن أن يترجم إلى مؤشر سريري بشري جديد — تقتصر قيمته على تأكيد أن نشاط NRTI لزالسيتابين يعمم عبر الفيروسات القهقرية (نمط يُرى أيضاً في التنبؤ من الترتيب 2، عدوى فيروس نقص المناعة في قرود المكاك، وهو مرض يُدرس في نماذج حيوانية). لا يشير أي من التنبؤات حالياً إلى مؤشر بشري جديد قابل للتنفيذ.
 
-**Important caveat:** the predicted indication is a veterinary disease, not a human one. Even with a mechanistically sound rationale, this specific prediction cannot translate into a human clinical indication — its value is limited to confirming that zalcitabine's NRTI activity generalizes across retroviruses (a pattern also seen in the rank 2 prediction, simian immunodeficiency virus infection, an animal-model disease in macaques). Neither prediction currently points to an actionable new human indication.
+## أدلة التجارب السريرية
 
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Compared boosted darunavir + lamivudine vs. boosted darunavir + emtricitabine/tenofovir in ARV-naïve HIV-1 patients. **Low relevance**: tests darunavir/lamivudine, not zalcitabine, in humans, not cats — same broad antiretroviral field only. |
+| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | المرحلة 4 | مكتملة | 145 | قارنت darunavir معزز + lamivudine مقابل darunavir معزز + emtricitabine/tenofovir في مرضى فيروس نقص المناعة البشرية-1 الخاليين من العلاج السابق. **ملاءمة منخفضة**: تختبر darunavir/lamivudine وليس زالسيتابين، في البشر وليس القطط — نفس مجال العلاج المضاد للفيروسات العكسية العريض فقط. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Review | Vet Immunol Immunopathol | Reviews AZT/3TC efficacy against FIV infection in vitro and in vivo |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Cohort | J Feline Med Surg | Long-term antiretroviral therapy (AZT) follow-up in FIV-infected cats over 5–6 years |
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Cohort | Viruses | Compared ZDV, ZDV+IFN-α, ZDV+3TC, ZDV+valproic acid protocols in naturally FIV-infected cats |
-| [2540109](https://pubmed.ncbi.nlm.nih.gov/2540109/) | 1989 | Animal | Intervirology | FeLV-FAIDS model established for evaluating antiretroviral therapy in cats |
-| [2544137](https://pubmed.ncbi.nlm.nih.gov/2544137/) | 1989 | Animal | Antiviral Research | **Zalcitabine (ddC) directly tested** — controlled-release capsular implant in FeLV-FAIDS cats |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Animal | Antiviral Research | ZDV+3TC+abacavir combination suppresses FIV replication in vitro |
-| [2540111](https://pubmed.ncbi.nlm.nih.gov/2540111/) | 1989 | Animal | Intervirology | **Zalcitabine (ddC) directly tested** — nucleoside analogues (AZT, ddC, ddI, ddA) evaluated against FeLV in vitro and in FeLV-infected cats |
-| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In vitro | Am J Vet Res | Characterized FIV-pPPR clone and 3TC-resistant mutants; nucleoside analogue susceptibility profiling |
+| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | مراجعة | Vet Immunol Immunopathol | تستعرض فعالية AZT/3TC ضد عدوى FIV خارج الجسم الحي وفي الجسم الحي |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | دراسة الجماعة | J Feline Med Surg | المتابعة طويلة الأجل للعلاج المضاد للفيروسات العكسية (AZT) في القطط المصابة بـ FIV على مدى 5–6 سنوات |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | دراسة الجماعة | Viruses | مقارنة بروتوكولات ZDV، ZDV+IFN-α، ZDV+3TC، ZDV+حمض الفالبروات في القطط المصابة طبيعياً بـ FIV |
+| [2540109](https://pubmed.ncbi.nlm.nih.gov/2540109/) | 1989 | حيواني | Intervirology | تم إنشاء نموذج FeLV-FAIDS لتقييم العلاج المضاد للفيروسات العكسية في القطط |
+| [2544137](https://pubmed.ncbi.nlm.nih.gov/2544137/) | 1989 | حيواني | Antiviral Research | **زالسيتابين (ddC) تم اختباره مباشرة** — كبسولة إطلاق محكوم في قطط FeLV-FAIDS |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | حيواني | Antiviral Research | مزيج ZDV+3TC+abacavir يثبط تضاعف FIV خارج الجسم الحي |
+| [2540111](https://pubmed.ncbi.nlm.nih.gov/2540111/) | 1989 | حيواني | Intervirology | **زالسيتابين (ddC) تم اختباره مباشرة** — تم تقييم نظائر النيوكليوسيد (AZT، ddC، ddI، ddA) ضد FeLV خارج الجسم الحي والقطط المصابة بـ FeLV |
+| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | خارج الجسم الحي | Am J Vet Res | تم توصيف استنساخ FIV-pPPR والطفرات المقاومة لـ 3TC؛ تحديد ملف تعريف قابلية نظائر النيوكليوسيد |
 
-Only two of the eight publications (PMID 2544137, 2540111) test zalcitabine itself; the remainder use related NRTIs (AZT/3TC/abacavir) as mechanistic analogues.
+فقط اثنتان من المنشورات الثمانية (PMID 2544137، 2540111) تختبران زالسيتابين نفسه؛ الباقي يستخدم NRTIs ذات الصلة (AZT/3TC/abacavir) كنظائر آلية.
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودية
 
-Zalcitabine is not marketed in Saudi Arabia — 0 authorizations are on file, so no product table can be produced.
+زالسيتابين غير مسوق في المملكة العربية السعودية — لا توجد تصاريح في الملف، لذلك لا يمكن إنتاج جدول المنتجات.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all unavailable in the current evidence pack; DDI lookup returned "not found.")
+يرجى الرجوع إلى نشرة التعليمات للحصول على معلومات السلامة. (جميع البيانات الرئيسية للتحذيرات والموانع والتفاعلات الدوائية غير متوفرة في مجموعة الأدلة الحالية؛ بحث DDI أرجع "غير موجود".)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-- The rank-1 predicted indication (feline AIDS) is a veterinary, not human, disease — it cannot be pursued as a human repurposing candidate regardless of evidence strength. The rank-2 prediction (SIV) is likewise a non-human animal-model disease, and rank-3 has no supporting evidence at all (likely model noise).
-- All available evidence for the top prediction is preclinical (animal/in vitro/cohort in cats); the one registered clinical trial is unrelated (different drug, different species).
-- A Blocking-severity data gap exists on TFDA/SFDA package insert data (warnings, contraindications), which must be resolved before this candidate can even enter S1 safety screening.
+**المنطق:**
+- المؤشر المتنبأ به للترتيب الأول (الإيدز السنوري) هو مرض بيطري وليس بشري — لا يمكن متابعته كمرشح إعادة استخدام بشري بغض النظر عن قوة الأدلة. التنبؤ للترتيب الثاني (SIV) هو أيضاً مرض يُدرس في نماذج حيوانية غير بشرية، والترتيب الثالث لا يحتوي على أي دلائل داعمة على الإطلاق (على الأرجح ضوضاء النموذج).
+- جميع الأدلة المتاحة للتنبؤ الأول ما قبل سريرية (حيواني/خارج الجسم الحي/دراسة جماعة في القطط)؛ التجربة السريرية المسجلة الوحيدة غير ذات صلة (عقار مختلف، نوع مختلف).
+- توجد فجوة بيانات ذات خطورة حجب في بيانات نشرة التعليمات TFDA/SFDA (التحذيرات والموانع)، والتي يجب حلها قبل أن يدخل هذا المرشح حتى إلى فحص S1 للسلامة.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the SFDA package insert for warnings/contraindications before any S1 safety evaluation
-- Resolve DG002 (High): confirm mechanism of action via DrugBank API
-- Re-run the TxGNN/evidence pipeline filtered to human-only disease ontologies, since the current top 3 predictions are either veterinary (feline AIDS), an animal-model-only disease (SIV), or unsupported (rare pediatric neurodevelopmental disorder)
-- Re-query DDI database (current status: not found)
-- Verify zalcitabine's current global regulatory status, since it is a legacy antiretroviral largely withdrawn from major markets
+**للمتابعة، يلزم ما يلي:**
+- حل DG001 (حجب): الحصول على نشرة التعليمات SFDA وتحليل التحذيرات والموانع الواردة فيها قبل أي تقييم S1 للسلامة
+- حل DG002 (عالي): تأكيد آلية العمل عبر DrugBank API
+- إعادة تشغيل خط أنابيب TxGNN/الأدلة مع تصفية الأمراض البشرية فقط، لأن أفضل 3 تنبؤات حالية هي إما بيطرية (الإيدز السنوري)، أو مرض يُدرس في نماذج حيوانية فقط (SIV)، أو غير مدعومة (اضطراب نيوروتطوري نادر في الأطفال)
+- إعادة الاستعلام من قاعدة بيانات DDI (الحالة الحالية: غير موجودة)
+- التحقق من الحالة التنظيمية الحالية العالمية لزالسيتابين، لأنه عقار مضاد للفيروسات العكسية من الأدوية القديمة تم سحبه بشكل كبير من الأسواق الرئيسية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

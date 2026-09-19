@@ -29,104 +29,105 @@ indication_count: 5
 
 </div>
 
-# Dexmedetomidine: From ICU Sedation to Headache Disorder (Post-Dural Puncture Headache)
+# ديكسميديتوميدين: من التهدئة في وحدة العناية المركزة إلى اضطراب الصداع (الصداع بعد البزل الجافي)
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Dexmedetomidine is a highly selective α2-adrenergic agonist approved for ICU and procedural sedation in adults.
-The TxGNN model predicts it may be effective for **Headache Disorder**, and current evidence specifically supports its nebulized use in **Post-Dural Puncture Headache (PDPH)** following cesarean section, backed by **10 clinical trials** (including 1 Phase 3 RCT) and a **2025 systematic review and meta-analysis**.
-Dexmedetomidine is not currently marketed in Saudi Arabia, and a full safety data package is still pending.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | ICU and procedural sedation in adults |
-| Predicted New Indication | Headache Disorder (Post-Dural Puncture Headache) |
-| TxGNN Prediction Score | 99.30% (rank 4 of 5; highest evidence-supported prediction) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on TxGNN rankings:** The highest-scoring prediction (rank 1: nephrogenic syndrome of inappropriate antidiuresis, 99.60%) has zero supporting evidence (L5, Hold). This report focuses on **rank 4 (headache disorder)**, which carries the strongest clinical evidence base and an actionable recommendation.
+ديكسميديتوميدين هو ناهض α2-أدرينرجي انتقائي جداً موافق عليه للتهدئة في وحدة العناية المركزة والإجراءات لدى البالغين.
+يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **اضطراب الصداع**، والأدلة الحالية تدعم على وجه التحديد استخدامه المرذوذ في **الصداع بعد البزل الجافي (PDPH)** بعد العملية القيصرية، مدعوماً بـ **10 تجارب سريرية** (تشمل تجربة عشوائية محكومة من المرحلة 3) و**مراجعة منهجية وتحليل تلوي من عام 2025**.
+ديكسميديتوميدين غير مسوق حالياً في المملكة العربية السعودية، وحزمة بيانات السلامة الكاملة لا تزال في الانتظار.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة عامة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on information embedded in the clinical trial records, Dexmedetomidine is a potent and highly selective α2-adrenergic agonist. Its sympatholytic, analgesic, and anxiolytic properties form the basis for its repurposing hypothesis in headache disorders.
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | التهدئة في وحدة العناية المركزة والإجراءات لدى البالغين |
+| الاستطباب الجديد المتنبأ به | اضطراب الصداع (الصداع بعد البزل الجافي) |
+| درجة التنبؤ بـ TxGNN | 99.30% (المرتبة 4 من 5؛ أعلى تنبؤ مدعوم بالأدلة) |
+| مستوى الدليل | L2 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
-Post-Dural Puncture Headache (PDPH) arises from CSF leakage through a dural puncture site, causing intracranial hypotension and compensatory cerebrovascular vasodilation. When administered by nebulization, Dexmedetomidine is hypothesized to be absorbed through the nasal or pulmonary mucosa, entering the bloodstream or CSF circulation where it may: (1) suppress CSF production rate via α2-receptor signaling, and (2) reduce pathological cerebrovascular vasodilation through central sympatholytic action.
-
-For broader headache disorders, α2-agonist activity can suppress trigeminal nociceptive transmission and lower norepinephrine release — mechanisms that partially overlap with migraine and cluster headache pathophysiology. However, all current clinical evidence is specific to procedural PDPH in obstetric patients, not primary headache disorders. The treatment route (nebulization rather than intravenous) is also a novel and clinically noteworthy aspect of this repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Trials listed in order of relevance grade (A → B → C), then by study size.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04910477](https://clinicaltrials.gov/study/NCT04910477) | Phase 3 | Completed | 90 | Double-blind RCT comparing nebulized DEX vs neostigmine/atropine vs saline placebo for PDPH after cesarean section; highest-quality design in this set, results published (PMID 36651373) |
-| [NCT04327726](https://clinicaltrials.gov/study/NCT04327726) | NA | Completed | 43 | RCT evaluating nebulized DEX for PDPH efficacy and cerebral hemodynamic effects via transcranial Doppler in parturients; results published (PMID 33993346) |
-| [NCT06470854](https://clinicaltrials.gov/study/NCT06470854) | NA | Completed | 50 | Case-control study comparing nebulized DEX vs bilateral greater occipital nerve block for PDPH |
-| [NCT06514040](https://clinicaltrials.gov/study/NCT06514040) | NA | Completed | 48 | Nebulized DEX vs oral sumatriptan for PDPH after cesarean section; the use of a migraine-specific agent as comparator provides indirect mechanistic relevance |
-| [NCT03513757](https://clinicaltrials.gov/study/NCT03513757) | Phase 4 | Completed | 40 | Propofol infusion vs bolus DEX + propofol for pediatric MRI sedation; headache not a primary endpoint |
-| [NCT03319511](https://clinicaltrials.gov/study/NCT03319511) | NA | Completed | 70 | Thoracic paravertebral block vs thoracic spinal anesthesia in breast cancer surgery; DEX used as adjunct, headache a secondary measure |
-| [NCT05742438](https://clinicaltrials.gov/study/NCT05742438) | NA | Completed | 114 | DEX infusion vs lidocaine vs intrathecal morphine on cancer-recurrence biomarkers in colorectal surgery; headache not a primary endpoint |
-| [NCT06404983](https://clinicaltrials.gov/study/NCT06404983) | NA | Recruiting | 200 | Opioid-free anesthesia (including DEX) vs conventional technique in breast cancer surgery; headache not a primary endpoint |
-| [NCT07460310](https://clinicaltrials.gov/study/NCT07460310) | NA | Not Yet Recruiting | 200 | Total IV vs balanced vs spinal anesthesia for ankle arthroscopy; headache assessed as adverse event only |
-| [NCT06824025](https://clinicaltrials.gov/study/NCT06824025) | Early Phase 1 | Not Yet Recruiting | 111 | Nebulized neostigmine/atropine vs lignocaine for PDPH after cesarean section; DEX is not the primary intervention in this trial |
+> **ملاحظة حول تصنيفات TxGNN:** أعلى تنبؤ في التصنيف (المرتبة 1: متلازمة نفروجينية بالإفراز الغير المناسب للهرمون المضاد لإدرار البول، 99.60%) لا يوجد عليه أي دليل داعم (L5، التوقف). يركز هذا التقرير على **المرتبة 4 (اضطراب الصداع)**، التي تحمل أقوى قاعدة أدلة سريرية وتوصية قابلة للعمل.
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Excluded: PMID 23757186 (ADHD overdose review — no relevance to dexmedetomidine or headache) and PMID 41700262 (PRES case report — adverse neurological event, not repurposing evidence). Listed by study type tier.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه حزمة الأدلة. بناءً على المعلومات المضمنة في سجلات التجارب السريرية، ديكسميديتوميدين هو ناهض α2-أدرينرجي فعال وانتقائي جداً. تشكل خصائصه الودية الأثر، المسكنة، والقاللقة الأساس لفرضيته بإعادة الاستخدام في اضطرابات الصداع.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [41120897](https://pubmed.ncbi.nlm.nih.gov/41120897/) | 2025 | Systematic Review / Meta-analysis | BMC Anesthesiology | Pooled efficacy and safety of nebulized dexmedetomidine for PDPH after cesarean delivery; most comprehensive synthesis of current evidence |
-| [36651373](https://pubmed.ncbi.nlm.nih.gov/36651373/) | 2023 | RCT (Phase 3) | Minerva Anestesiologica | Double-blind RCT comparing nebulized DEX vs neostigmine/atropine for conservative PDPH management; directly supports efficacy claim |
-| [33993346](https://pubmed.ncbi.nlm.nih.gov/33993346/) | 2021 | RCT | Journal of Anesthesia | Nebulized DEX added to conservative PDPH management; cerebral hemodynamic effects measured by transcranial Doppler, supporting proposed mechanism |
-| [31345663](https://pubmed.ncbi.nlm.nih.gov/31345663/) | 2019 | Pilot Study | Int J Obstetric Anesthesia | Early proof-of-concept for nebulized dexmedetomidine in PDPH treatment; first signal prompting subsequent RCTs |
-| [39799300](https://pubmed.ncbi.nlm.nih.gov/39799300/) | 2025 | Case Report | BMC Anesthesiology | Two refractory obstetric PDPH cases resolved with nebulized dexmedetomidine; supports utility in cases unresponsive to standard conservative management |
+الصداع بعد البزل الجافي (PDPH) ينشأ من تسرب السائل الدماغي الشوكي عبر موقع بزل جافي، مما يسبب انخفاض الضغط داخل الجمجمة والتوسع الدماغي الوعائي التعويضي. عند إعطاؤه بطريقة الرذاذ، يُفترض أن يتم امتصاص ديكسميديتوميدين من خلال الغشاء المخاطي الأنفي أو الرئوي، حيث يدخل مجرى الدم أو دوران السائل الدماغي الشوكي حيث قد يؤدي إلى: (1) قمع معدل الإنتاج في السائل الدماغي الشوكي عبر إشارات المستقبل α2، و(2) تقليل التوسع الدماغي الوعائي المرضي من خلال الفعل الودية المركزي المثبط.
+
+بالنسبة لاضطرابات الصداع الأوسع، يمكن لنشاط الناهضات α2 أن تقمع انتقال الألم ثلاثي التوزيع والتقليل من إطلاق النوريبينفرين — آليات تتداخل جزئياً مع المسببات المرضية للصداع النصفي وصداع العنقودي. ومع ذلك، فإن جميع الأدلة السريرية الحالية تقتصر على PDPH الإجرائي لدى مريضات التوليد، وليس اضطرابات الصداع الأولية. طريق العلاج (الرذاذ بدلاً من الوريدي) هو أيضاً جانب جديد وسريرياً جدير بالملاحظة من هذه إشارة إعادة الاستخدام.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Dexmedetomidine is **not currently registered or marketed in Saudi Arabia**. No SFDA authorization records are available. A formal regulatory submission would be required before this drug could be used in Saudi Arabia.
+التجارب المذكورة بترتيب درجة الملاءمة (A → B → C)، ثم حسب حجم الدراسة.
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-------------|--------|--------|----------|------------------|
+| [NCT04910477](https://clinicaltrials.gov/study/NCT04910477) | المرحلة 3 | مكتملة | 90 | تجربة عشوائية محكومة عمياء تقارن ديكسميديتوميدين المرذوذ مقابل النيوستيغمين/الأتروبين مقابل العلاج الوهمي بالمحلول الملحي لـ PDPH بعد العملية القيصرية؛ أعلى جودة تصميم في هذه المجموعة، النتائج منشورة (PMID 36651373) |
+| [NCT04327726](https://clinicaltrials.gov/study/NCT04327726) | NA | مكتملة | 43 | تجربة عشوائية محكومة تقيم ديكسميديتوميدين المرذوذ لفعالية PDPH والتأثيرات الدماغية الوعائية عبر دوبلر الجمجمة عند الحوامل؛ النتائج منشورة (PMID 33993346) |
+| [NCT06470854](https://clinicaltrials.gov/study/NCT06470854) | NA | مكتملة | 50 | دراسة تحكم الحالات تقارن ديكسميديتوميدين المرذوذ مقابل الحصار العصبي القذالي الأكبر الثنائي لـ PDPH |
+| [NCT06514040](https://clinicaltrials.gov/study/NCT06514040) | NA | مكتملة | 48 | ديكسميديتوميدين المرذوذ مقابل سوماتريبتان الفموي لـ PDPH بعد العملية القيصرية؛ استخدام عامل مقارن خاص بالصداع النصفي يوفر علاقة آلية غير مباشرة |
+| [NCT03513757](https://clinicaltrials.gov/study/NCT03513757) | المرحلة 4 | مكتملة | 40 | ضخ البروبوفول مقابل ديكسميديتوميدين + البروبوفول للتهدئة عند الأطفال من أجل التصوير بالرنين المغناطيسي؛ الصداع ليس نقطة النهاية الأساسية |
+| [NCT03319511](https://clinicaltrials.gov/study/NCT03319511) | NA | مكتملة | 70 | كتلة فقرية صدرية جنباً إلى جنب مقابل تخدير شوكي صدري في جراحة سرطان الثدي؛ ديكسميديتوميدين مستخدم كإضافة، الصداع مقياس ثانوي |
+| [NCT05742438](https://clinicaltrials.gov/study/NCT05742438) | NA | مكتملة | 114 | ديكسميديتوميدين مقابل ليدوكايين مقابل المورفين داخل الشوكي على المؤشرات الحيوية لتكرار السرطان في جراحة القولون؛ الصداع ليس نقطة النهاية الأساسية |
+| [NCT06404983](https://clinicaltrials.gov/study/NCT06404983) | NA | يجند الآن | 200 | تخدير خالٍ من المسكنات (بما في ذلك ديكسميديتوميدين) مقابل التقنية التقليدية في جراحة سرطان الثدي؛ الصداع ليس نقطة النهاية الأساسية |
+| [NCT07460310](https://clinicaltrials.gov/study/NCT07460310) | NA | لم يبدأ بعد | 200 | تخدير وريدي كامل مقابل متوازن مقابل تخدير شوكي لمنظار المفاصل في الكاحل؛ الصداع يُقيّم كحدث سلبي فقط |
+| [NCT06824025](https://clinicaltrials.gov/study/NCT06824025) | مرحلة مبكرة 1 | لم يبدأ بعد | 111 | نيوستيغمين/أتروبين مرذوذ مقابل ليجنوكايين لـ PDPH بعد العملية القيصرية؛ ديكسميديتوميدين ليس التدخل الأساسي في هذه التجربة |
 
 ---
 
-## Safety Considerations
+## دليل الأدب
 
-Please refer to the package insert for safety information.
+تم استبعاد: PMID 23757186 (مراجعة جرعة زائدة من ADHD — لا علاقة لها بـ ديكسميديتوميدين أو الصداع) و PMID 41700262 (تقرير حالة PRES — حدث عصبي سلبي، وليس دليل إعادة استخدام). المذكورة حسب نوع الدراسة.
 
-*(Key warnings, contraindications, and drug interactions were not retrievable from available data sources at the time of this evaluation. A package insert review is a prerequisite before any clinical use.)*
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|-------|---------|------------------|
+| [41120897](https://pubmed.ncbi.nlm.nih.gov/41120897/) | 2025 | مراجعة منهجية / تحليل تلوي | BMC Anesthesiology | الفعالية والسلامة المجمعة للديكسميديتوميدين المرذوذ لـ PDPH بعد الولادة القيصرية؛ أشمل تجميع للأدلة الحالية |
+| [36651373](https://pubmed.ncbi.nlm.nih.gov/36651373/) | 2023 | تجربة عشوائية محكومة (المرحلة 3) | Minerva Anestesiologica | تجربة عشوائية محكومة عمياء تقارن ديكسميديتوميدين المرذوذ مقابل النيوستيغمين/الأتروبين للإدارة المحافظة على PDPH؛ تدعم بشكل مباشر ادعاء الفعالية |
+| [33993346](https://pubmed.ncbi.nlm.nih.gov/33993346/) | 2021 | تجربة عشوائية محكومة | Journal of Anesthesia | ديكسميديتوميدين المرذوذ مضافاً إلى إدارة PDPH المحافظة؛ تأثيرات الدماغية الوعائية المقاسة بواسطة دوبلر الجمجمة، تدعم الآلية المقترحة |
+| [31345663](https://pubmed.ncbi.nlm.nih.gov/31345663/) | 2019 | دراسة تجريبية | Int J Obstetric Anesthesia | دليل مبكر على المفهوم لديكسميديتوميدين المرذوذ في علاج PDPH؛ أول إشارة تحفز التجارب اللاحقة |
+| [39799300](https://pubmed.ncbi.nlm.nih.gov/39799300/) | 2025 | تقرير حالة | BMC Anesthesiology | حالتا PDPH التوليدي المقاوم للعلاج تم حلهما مع ديكسميديتوميدين المرذوذ؛ تدعم الفائدة في الحالات المقاومة للإدارة المحافظة القياسية |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Proceed with Guardrails**
+ديكسميديتوميدين **غير مسجل أو مسوق حالياً في المملكة العربية السعودية**. لا توجد سجلات تصريح من الهيئة العامة للغذاء والدواء. ستكون هناك حاجة إلى تقديم نظامي رسمي قبل أن يتمكن هذا الدواء من الاستخدام في المملكة العربية السعودية.
 
-**Rationale:**
-A Phase 3 RCT (NCT04910477, n=90) and a 2025 systematic review/meta-analysis establish nebulized dexmedetomidine as an evidence-supported, non-invasive treatment for post-dural puncture headache after cesarean section — a clinically significant unmet need in obstetric anesthesia where invasive epidural blood patching is currently the main escalation option.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Safety data package**: Package insert review (warnings, contraindications, DDI) is a blocking prerequisite (DG001 — Severity: Blocking)
-- **Mechanism of action (MOA) data**: DrugBank query needed to formalize mechanistic rationale (DG002 — Severity: High)
-- **Saudi Arabia regulatory pathway**: Assess SFDA import/registration requirements; dexmedetomidine currently has 0 authorizations in Saudi Arabia
-- **Population generalizability**: All current evidence is limited to parturients undergoing cesarean section — external validity to general adults or other procedural settings is unconfirmed
-- **Primary headache extension**: Dedicated studies needed before recommending use in migraine, cluster headache, or other primary headache disorders; PDPH evidence does not automatically generalize to these conditions
-- **Nebulization formulation standards**: Route of administration (nebulized vs IV) is non-standard; formulation stability, dosing protocols, and bioavailability data for the nebulized route need review
+يُرجى الرجوع إلى النشرة الداخلية للمعلومات المتعلقة بالسلامة.
+
+*(لم تكن التحذيرات الرئيسية، موانع الاستعمال، والتفاعلات الدوائية قابلة للاسترجاع من مصادر البيانات المتاحة وقت هذا التقييم. مراجعة النشرة الداخلية شرط أساسي قبل أي استخدام سريري.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات**
+
+**المبررات:**
+تثبت تجربة عشوائية محكومة من المرحلة 3 (NCT04910477، n=90) ومراجعة منهجية وتحليل تلوي من عام 2025 أن ديكسميديتوميدين المرذوذ هو علاج مدعوم بالأدلة وغير الغازي للصداع بعد البزل الجافي بعد العملية القيصرية — احتياج طبي غير مُلباه ذو أهمية سريرية في تخدير التوليد حيث إن الحقن الدموي فوق الجافية الغازي هو خيار التصعيد الرئيسي الحالي.
+
+**لكي نمضي قدماً، يلزم ما يلي:**
+
+- **حزمة بيانات السلامة**: مراجعة النشرة الداخلية (التحذيرات، موانع الاستعمال، التفاعلات الدوائية) شرط أساسي حاجز (DG001 — الخطورة: حاجز)
+- **بيانات آلية العمل (MOA)**: استعلام DrugBank مطلوب لتعميم المبررات الآلية (DG002 — الخطورة: عالية)
+- **مسار المملكة العربية السعودية التنظيمي**: تقيّم متطلبات الاستيراد/التسجيل لدى الهيئة العامة للغذاء والدواء؛ ديكسميديتوميدين لديه حالياً 0 تصريح في المملكة العربية السعودية
+- **قابلية التعميم على المجموعة السكانية**: جميع الأدلة الحالية مقتصرة على الحوامل اللواتي يخضعن للعملية القيصرية — صحة الأدلة الخارجية للبالغين العموميين أو الإعدادات الإجرائية الأخرى غير مؤكدة
+- **امتداد الصداع الأولي**: هناك حاجة إلى دراسات مخصصة قبل التوصية باستخدامه في الصداع النصفي أو الصداع العنقودي أو اضطرابات الصداع الأولية الأخرى؛ دليل PDPH لا ينقل تلقائياً إلى هذه الحالات
+- **معايير صيغة الرذاذ**: طريق الإعطاء (مرذوذ مقابل وريدي) غير قياسي؛ بيانات استقرار الصيغة، بروتوكولات الجرعات، وبيانات التوافر البيولوجي للمسار المرذوذ تحتاج إلى مراجعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

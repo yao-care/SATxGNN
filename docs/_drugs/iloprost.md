@@ -29,149 +29,150 @@ indication_count: 9
 
 </div>
 
-# Iloprost: From Pulmonary Arterial Hypertension to HIV-Associated and Other PAH-Subtype Extensions
+# إيلوبروست: من ارتفاع ضغط الدم الرئوي إلى توسعات PAH المرتبطة بفيروس نقص المناعة والمؤشرات الأخرى
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Iloprost is a synthetic prostacyclin (PGI2) analogue with an established vasodilatory/antiplatelet mechanism used to treat **Pulmonary Arterial Hypertension (PAH)**. This evidence pack evaluates **9 TxGNN-predicted indications** simultaneously; the strongest signal is **PAH associated with HIV infection**, supported by **1 completed Phase 3 RCT** and **4 publications**, while several other PAH-etiology subtypes (congenital heart disease, connective tissue disease) show moderate support and two dermatologic predictions (hypotrichosis, alopecia areata) have **no corroborating evidence whatsoever**.
+إيلوبروست هو محاكي البروستاسيكلين الاصطناعي (PGI2) بآلية توسيع الأوعية الدموية/مضادة للصفيحات المعروفة يُستخدم لعلاج **ارتفاع ضغط الدم الرئوي (PAH)**. تقيّم هذه الحزمة الإثباتية **9 مؤشرات متنبأ بها من TxGNN** في وقت واحد؛ أقوى الإشارات هو **PAH المرتبط بعدوى فيروس نقص المناعة البشرية**، مدعوم بـ **دراسة المرحلة الثالثة العشوائية المكتملة 1** و**4 منشورات**، بينما تُظهر عدة مؤشرات أخرى من الأنواع المختلفة لـ PAH (أمراض القلب الخلقية، أمراض النسيج الضام) دعماً معتدلاً وتنبؤان جلديان (قلة الشعر، الثعلبة البقعية) لا توجد لهما **أي دليل إثباتي على الإطلاق**.
 
-> ⚠️ Note: This is a **multi-indication candidate pack** (`TW-DB01088-multi`). Rather than reporting a single prediction, this report ranks all 9 candidates by evidence strength so reviewers can triage which are worth pursuing.
+> ⚠️ ملاحظة: هذه **حزمة مرشح متعدد المؤشرات** (`TW-DB01088-multi`). بدلاً من الإبلاغ عن تنبؤ واحد، يرتب هذا التقرير جميع المرشحين التسعة حسب قوة الإثبات بحيث يمكن للمراجعين تصنيفها حسب الأولويات.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original / Established Indication | Pulmonary Arterial Hypertension (idiopathic/primary) — established use; **not derivable from Saudi Arabia licensing data**, as no local authorizations exist |
-| Predicted New Indications Assessed | 9 (TxGNN model outputs) |
-| Highest-Evidence New Indication | PAH associated with HIV infection |
-| TxGNN Prediction Score (Highest-Evidence Indication) | 99.21% |
-| Evidence Level (Highest-Evidence Indication) | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Overall Recommended Decision | **Mixed** — see per-indication table below |
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي / المعمول به | ارتفاع ضغط الدم الرئوي (مجهول السبب/أولي) — الاستخدام المعمول به؛ **غير قابل للاشتقاق من بيانات الترخيص السعودي**، حيث لا توجد تخويلات محلية |
+| المؤشرات الجديدة المتنبأ بها المقيّمة | 9 (مخرجات نموذج TxGNN) |
+| المؤشر الجديد الأقوى من حيث الإثبات | PAH المرتبط بعدوى فيروس نقص المناعة البشرية |
+| درجة التنبؤ من TxGNN (المؤشر الأقوى من حيث الإثبات) | 99.21% |
+| مستوى الإثبات (المؤشر الأقوى من حيث الإثبات) | L1 |
+| حالة السوق السعودي | ✗ غير مُسوّق (غير مُسوّق) |
+| عدد التخويلات | 0 |
+| القرار الموصى به الشامل | **مختلط** — انظر جدول كل مؤشر أدناه |
 
-### Predicted Indications Ranked by Evidence Strength
+### المؤشرات المتنبأ بها مرتبة حسب قوة الإثبات
 
-| Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| المؤشر المتنبأ به | درجة TxGNN | مستوى الإثبات | مرحلة القرار | التوصية |
 |---|---|---|---|---|
-| PAH associated with HIV infection | 99.21% | L1 | S3 | Proceed with Guardrails |
-| PAH associated with congenital heart disease | 99.32% | L2 | S2 | Proceed with Guardrails |
-| PAH associated with connective tissue disease | 99.21% | L2 | S2 | Proceed with Guardrails |
-| PAH associated with chronic hemolytic anemia | 99.21% | L4 | S1 | Research Question |
-| PAH associated with schistosomiasis | 99.21% | L4 | S1 | Research Question |
-| Pulmonary arteriovenous malformation (disease) | 99.31% | L4 | S0 | Hold |
-| Hypotrichosis simplex of the scalp | 99.45% | L5 | S0 | Hold |
-| Congenital hypotrichosis milia | 99.33% | L5 | S0 | Hold |
-| Diffuse alopecia areata | 99.10% | L5 | S0 | Hold |
+| PAH المرتبط بعدوى فيروس نقص المناعة البشرية | 99.21% | L1 | S3 | المضي قدماً مع الضمانات |
+| PAH المرتبط بأمراض القلب الخلقية | 99.32% | L2 | S2 | المضي قدماً مع الضمانات |
+| PAH المرتبط بأمراض النسيج الضام | 99.21% | L2 | S2 | المضي قدماً مع الضمانات |
+| PAH المرتبط بفقر الدم الانحلالي المزمن | 99.21% | L4 | S1 | سؤال بحثي |
+| PAH المرتبط بالبلهارسيا | 99.21% | L4 | S1 | سؤال بحثي |
+| التشوه الشرياني الوريدي الرئوي (المرض) | 99.31% | L4 | S0 | وقف |
+| قلة الشعر البسيطة في فروة الرأس | 99.45% | L5 | S0 | وقف |
+| قلة الشعر الخلقية مع الحويصلات | 99.33% | L5 | S0 | وقف |
+| الثعلبة البقعية المنتشرة | 99.10% | L5 | S0 | وقف |
 
-Note: TxGNN score alone (all ≥99%) is **not a reliable differentiator** here — every candidate scores similarly high, but actual clinical/mechanistic support ranges from a completed Phase 3 RCT down to zero literature or trial hits. Evidence level and recommendation, not raw score, should drive triage.
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed DrugBank mechanism-of-action text is not available in this evidence pack (flagged as Data Gap DG002, severity High). Based on known pharmacology, Iloprost belongs to the **prostacyclin (PGI2) analogue class**; its efficacy in treating Pulmonary Arterial Hypertension is well established through IP-receptor–mediated pulmonary vasodilation, antiplatelet activity, and anti-proliferative effects on pulmonary vascular smooth muscle.
-
-**PAH-subtype extensions (HIV, congenital heart disease, connective tissue disease) are mechanistically sound.** All three belong to WHO Group 1 PAH — the same disease category already treated by Iloprost — differing only in etiology (viral endothelial injury, congenital shunt physiology, or autoimmune vasculopathy) rather than in the final common pathway of pulmonary vascular remodeling and vasoconstriction that Iloprost targets. This is best understood as **extending an existing approved drug class to specific etiological subgroups**, not as a novel indication hypothesis. The chronic hemolytic anemia and schistosomiasis-associated PAH predictions (WHO Group 5/mixed Group 4-5) are more speculative: the pathophysiology (hemolysis-driven endothelial dysfunction, granulomatous vascular obstruction) is only partially analogous to classic PAH, and no direct trial or literature evidence exists for these specific subgroups.
-
-**The hypotrichosis, congenital hypotrichosis milia, and diffuse alopecia areata predictions are not mechanistically supported** and should be treated as likely model artifacts. Hair-loss conditions are driven by follicular/immune biology (autoimmune T-cell attack in alopecia areata; developmental/genetic defects in congenital hypotrichosis) that has no established connection to prostacyclin-receptor vasodilation. The evidence pack itself flags these as "推測性連結" (speculative association) with zero supporting trials or publications.
+ملاحظة: درجة TxGNN وحدها (جميعها ≥99%) **ليست عامل تمييز موثوق** هنا — كل مرشح يسجل درجات متشابهة عالية جداً، لكن الدعم السريري/الآلي الفعلي يتراوح من دراسة عشوائية مكتملة في المرحلة الثالثة إلى عدم وجود أي نتائج أدبية أو تجارب. يجب أن يحكم مستوى الإثبات والتوصية، وليس الدرجة الخام، تصنيف الأولويات.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Predicted Indication | Trial Number | Phase | Status | Enrollment | Key Findings |
+لا يتوفر نص آلية عمل DrugBank التفصيلي في حزمة الإثبات هذه (مُميّز كفجوة بيانات DG002، خطورة عالية). بناءً على الصيدلة المعروفة، ينتمي إيلوبروست إلى **فئة محاكي البروستاسيكلين (PGI2)**؛ تم تأسيس فعاليته في علاج ارتفاع ضغط الدم الرئوي من خلال توسيع الأوعية الرئوية الوسيط IP-receptor، والنشاط المضاد للصفيحات، والتأثيرات المضادة للتكاثر على العضلة الملساء الرئوية الوعائية.
+
+**توسعات المؤشرات من نوع PAH (فيروس نقص المناعة البشرية، أمراض القلب الخلقية، أمراض النسيج الضام) معقولة من الناحية الآلية.** جميع الثلاثة تنتمي إلى PAH من المجموعة 1 لمنظمة الصحة العالمية — نفس فئة المرض التي يتم علاجها بالفعل بواسطة إيلوبروست — تختلف فقط من حيث الأسباب الأساسية (الإصابة الفيروسية للغشاء البطاني، فسيولوجيا الرجفان الخلقية، أو الوعائية المناعية الذاتية) وليس في المسار النهائي المشترك لإعادة تشكيل الأوعية الرئوية والتضيق الوعائي الذي يستهدفه إيلوبروست. يُفهم هذا بشكل أفضل على أنه **توسيع فئة دواء معتمدة موجودة إلى مجموعات أسباب محددة**، وليس كفرضية مؤشر جديدة. تنبؤات PAH المرتبطة بفقر الدم الانحلالي المزمن والبلهارسيا (مجموعة منظمة الصحة العالمية 5/المختلطة المجموعة 4-5) أكثر تكهناً: الفسيولوجيا المرضية (الخلل الوظيفي للغشاء البطاني الناجم عن الانحلال، انسداد الأوعية الحبيبومي) مشابهة جزئياً فقط لـ PAH الكلاسيكي، ولا توجد أي دراسة تجريبية مباشرة أو دليل أدبي لهذه المجموعات الفرعية المحددة.
+
+**تنبؤات الحالة الصحية للشعر والفروة الثلاثة والثعلبة البقعية المنتشرة لا تحظى بدعم آلي** ويجب أن تُعامل كحالات اصطناعية نموذجية محتملة. تُحرّك حالات فقدان الشعر بواسطة بيولوجيا الجريبات/المناعة (هجوم خلايا T المناعي الذاتي في الثعلبة البقعية؛ عيوب الارتقاء/الوراثية في قلة الشعر الخلقية) التي لا يوجد لها اتصال معروف بتوسيع الأوعية الوسيط بروستاسيكلين. تُحدد حزمة الإثبات نفسها هذه كـ "推測性連結" (ارتباط تكهني) بدون أي محاكمات أو منشورات داعمة.
+
+---
+
+## دليل التجارب السريرية
+
+| المؤشر المتنبأ به | رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---|---------|------|------|------|---------|
-| PAH – congenital heart disease | [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) | N/A | Unknown | 42 | Evaluated safety, tolerability, and hemodynamic effects of Iloprost in adults with PAH related to congenital systemic-to-pulmonary shunts (Eisenmenger physiology); likely observational/prospective design rather than confirmatory RCT. |
-| PAH – HIV infection | [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Phase 3 | Completed | 64 | Multicenter, double-blind, randomized, placebo-controlled crossover study (PROWESS 15) of a single Iloprost dose on exercise capacity in symptomatic PAH patients, including idiopathic, familial, HIV-associated, and drug/toxin-induced PAH. Crossover design limits long-term outcome interpretation but provides solid acute efficacy/safety data. |
+| PAH – أمراض القلب الخلقية | [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) | غير محدد | غير معروف | 42 | قيّمت السلامة والقدرة على التحمل والتأثيرات الديناميكية الدموية لإيلوبروست عند البالغين مع PAH المرتبط بالعيوب الخلقية من النظام إلى الرئة (فسيولوجيا آيزنمينجر)؛ التصميم المرجح أن يكون استرجاعياً/استطلاعياً بدلاً من دراسة تأكيدية عشوائية. |
+| PAH – عدوى فيروس نقص المناعة البشرية | [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | المرحلة الثالثة | مكتملة | 64 | دراسة متعددة المراكز، عمياء مزدوجة، عشوائية، ومضبوطة بالعلاج الوهمي بتصميم تقاطعي (PROWESS 15) لجرعة واحدة من إيلوبروست على سعة التمرين في مرضى PAH الذين يعانون من أعراض، بما في ذلك PAH مجهول السبب والعائلي والمرتبط بفيروس نقص المناعة البشرية والمؤشرات المرتبطة بالعقاقير/السموم. يحد التصميم التقاطعي من تفسير النتائج طويلة الأجل لكنه يوفر بيانات فعالية/سلامة حادة قوية. |
 
-No registered clinical trials were found for: hypotrichosis simplex of the scalp, congenital hypotrichosis milia, pulmonary arteriovenous malformation, PAH associated with connective tissue disease, PAH associated with chronic hemolytic anemia, PAH associated with schistosomiasis, or diffuse alopecia areata.
+لم يتم العثور على أي تجارب سريرية مسجلة لـ: قلة الشعر البسيطة في فروة الرأس، قلة الشعر الخلقية مع الحويصلات، التشوه الشرياني الوريدي الرئوي، PAH المرتبط بأمراض النسيج الضام، PAH المرتبط بفقر الدم الانحلالي المزمن، PAH المرتبط بالبلهارسيا، أو الثعلبة البقعية المنتشرة.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-### PAH associated with congenital heart disease (top 10 of 20 identified)
+### PAH المرتبط بأمراض القلب الخلقية (أفضل 10 من 20 محددة)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | Cohort | Clin Exp Pharmacol Physiol | Investigated endothelial dysfunction biomarkers (NO, ET-1, ADMA, Gal-3, BNP, UA) in CHD-PAH and the effect of Iloprost on their regulation. |
-| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | Cohort | Pediatric Cardiology | Evaluated acute safety and hemodynamic effects of inhaled Iloprost in children with PAH associated with simple CHD during catheterization. |
-| [36010107](https://pubmed.ncbi.nlm.nih.gov/36010107/) | 2022 | Case Series | Children (Basel) | 5 Eisenmenger syndrome (CHD) patients treated long-term with combination sildenafil + bosentan + Iloprost; describes clinical course. |
-| [25316472](https://pubmed.ncbi.nlm.nih.gov/25316472/) | 2014 | Case Report | Saudi Medical Journal | Unrepaired VSD with severe PAH showed dramatic clinical improvement (SpO2 60%→90%) after intensive inhaled Iloprost + sildenafil. |
-| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | Cohort | Pediatric Pulmonology | Retrospective study of long-term inhaled Iloprost effects in children with pulmonary hypertension (including CHD etiology). |
-| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | Review | Vasc Health Risk Manag | Reviews inhaled Iloprost use for pediatric PAH control, including CHD-associated cases. |
-| [16919006](https://pubmed.ncbi.nlm.nih.gov/16919006/) | 2006 | Review | Eur J Clin Invest | Reviews treatment options in pediatric PAH, noting CHD as a leading etiology alongside idiopathic PAH. |
-| [27053694](https://pubmed.ncbi.nlm.nih.gov/27053694/) | 2016 | Cohort/Consensus | Heart | Expert consensus on hemodynamic assessment and acute vasoreactivity testing in pediatric pulmonary vascular disease. |
-| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | Cohort | Prog Pediatr Cardiol | Discusses non-CHD-associated pediatric PAH, providing differential context for CHD-PAH management. |
-| [30719004](https://pubmed.ncbi.nlm.nih.gov/30719004/) | 2018 | Cohort | Front Pharmacol | Cardiac MRI study showing acute inhaled Iloprost improves right ventricular function in PAH patients. |
+| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | دراسة المجموعة | Clin Exp Pharmacol Physiol | تحقّقت من مؤشرات الخلل الوظيفي بطاني (NO, ET-1, ADMA, Gal-3, BNP, UA) في CHD-PAH وتأثير إيلوبروست على تنظيمها. |
+| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | دراسة المجموعة | Pediatric Cardiology | قيّمت السلامة الحادة والتأثيرات الديناميكية الدموية للإيلوبروست المستنشق عند الأطفال مع PAH المرتبط بـ CHD البسيطة أثناء القسطرة. |
+| [36010107](https://pubmed.ncbi.nlm.nih.gov/36010107/) | 2022 | سلسلة الحالات | Children (Basel) | 5 مرضى بمتلازمة Eisenmenger (CHD) تمّ علاجهم على المدى الطويل بمزيج سيلدينافيل + بوسينتان + إيلوبروست؛ يصف المسار السريري. |
+| [25316472](https://pubmed.ncbi.nlm.nih.gov/25316472/) | 2014 | حالة سريرية | Saudi Medical Journal | VSD غير مصحح مع PAH شديد أظهر تحسناً سريرياً درامياً (SpO2 60%→90%) بعد إيلوبروست مستنشق مكثف + سيلدينافيل. |
+| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | دراسة المجموعة | Pediatric Pulmonology | دراسة استرجاعية لتأثيرات إيلوبروست المستنشق طويل الأجل عند الأطفال الذين يعانون من ارتفاع ضغط الدم الرئوي (بما في ذلك أسباب CHD). |
+| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | مراجعة | Vasc Health Risk Manag | يراجع استخدام إيلوبروست المستنشق لتحكم PAH عند الأطفال، بما في ذلك حالات CHD المرتبطة. |
+| [16919006](https://pubmed.ncbi.nlm.nih.gov/16919006/) | 2006 | مراجعة | Eur J Clin Invest | يراجع خيارات العلاج في PAH عند الأطفال، مع الإشارة إلى CHD كأسباب رائدة إلى جانب PAH مجهول السبب. |
+| [27053694](https://pubmed.ncbi.nlm.nih.gov/27053694/) | 2016 | دراسة المجموعة/الإجماع | Heart | إجماع الخبراء حول التقييم الديناميكي الدموي والاختبار الحاد لمفاعلية الأوعية في أمراض الأوعية الرئوية عند الأطفال. |
+| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | دراسة المجموعة | Prog Pediatr Cardiol | يناقش PAH عند الأطفال غير المرتبط بـ CHD، مما يوفر سياق تفاضلي لإدارة CHD-PAH. |
+| [30719004](https://pubmed.ncbi.nlm.nih.gov/30719004/) | 2018 | دراسة المجموعة | Front Pharmacol | دراسة التصوير بالرنين المغناطيسي القلبي تظهر أن إيلوبروست المستنشق الحاد يحسّن وظيفة البطين الأيمن في مرضى PAH. |
 
-### PAH associated with connective tissue disease (top 10 of 20 identified)
+### PAH المرتبط بأمراض النسيج الضام (أفضل 10 من 20 محددة)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [27651181](https://pubmed.ncbi.nlm.nih.gov/27651181/) | 2017 | Cohort | Respirology | Long-term outcomes of domiciliary IV Iloprost in idiopathic and CTD-associated PAH from a large UK referral center. |
-| [21925064](https://pubmed.ncbi.nlm.nih.gov/21925064/) | 2011 | Cohort | Eur J Intern Med | Long-term effects of intermittent IV Iloprost infusion on pulmonary arterial pressure in CTD patients. |
-| [26155616](https://pubmed.ncbi.nlm.nih.gov/26155616/) | 2015 | Cohort | Terapevticheskii Arkhiv | Evaluated efficacy of IV Iloprost in FC IV PAH associated with diffuse connective tissue disease. |
-| [29718009](https://pubmed.ncbi.nlm.nih.gov/29718009/) | 2018 | Cohort | Rev Invest Clin | Characterized pulmonary vasoreactivity phenotypes in CTD-associated PAH. |
-| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Recent advances in treatment of PAH associated with connective tissue disease. |
-| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | Reviews PAH treatment in CTD, including prostanoid therapy. |
-| [11936539](https://pubmed.ncbi.nlm.nih.gov/11936539/) | 2002 | Review | Eur Respir J | Reviews pulmonary hypertension in collagen vascular disease, noting prostacyclin therapy improves exercise capacity/hemodynamics. |
-| [14583573](https://pubmed.ncbi.nlm.nih.gov/14583573/) | 2003 | Cohort/Registry | Ann Rheum Dis | Registry study of prevalence and outcome in systemic sclerosis-associated PAH. |
-| [37728697](https://pubmed.ncbi.nlm.nih.gov/37728697/) | 2023 | Real-World Cohort | Adv Ther | US claims-based analysis of real-world treatment patterns in CTD-related PAH. |
-| [19487219](https://pubmed.ncbi.nlm.nih.gov/19487219/) | 2009 | Review | Rheumatology (Oxford) | Reviews PAH as the most devastating vascular complication of systemic sclerosis. |
+| [27651181](https://pubmed.ncbi.nlm.nih.gov/27651181/) | 2017 | دراسة المجموعة | Respirology | النتائج طويلة الأجل للإيلوبروست الوريدي المحلي في PAH مجهول السبب والمرتبط بأمراض النسيج الضام من مركز إحالة كبير في المملكة المتحدة. |
+| [21925064](https://pubmed.ncbi.nlm.nih.gov/21925064/) | 2011 | دراسة المجموعة | Eur J Intern Med | التأثيرات طويلة الأجل لحقن إيلوبروست الوريدي المتقطع على ضغط الشرايين الرئوية لدى مرضى أمراض النسيج الضام. |
+| [26155616](https://pubmed.ncbi.nlm.nih.gov/26155616/) | 2015 | دراسة المجموعة | Terapevticheskii Arkhiv | قيّمت فعالية إيلوبروست الوريدي في PAH من الفئة الوظيفية الرابعة المرتبطة بأمراض النسيج الضام المنتشرة. |
+| [29718009](https://pubmed.ncbi.nlm.nih.gov/29718009/) | 2018 | دراسة المجموعة | Rev Invest Clin | توصيف النمط الظاهري لمفاعلية الأوعية الرئوية في PAH المرتبط بأمراض النسيج الضام. |
+| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | مراجعة | Pharmaceuticals (Basel) | التطورات الأخيرة في علاج PAH المرتبط بأمراض النسيج الضام. |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | مراجعة | Drugs | يراجع علاج PAH في أمراض النسيج الضام، بما في ذلك العلاج بالبروستانويد. |
+| [11936539](https://pubmed.ncbi.nlm.nih.gov/11936539/) | 2002 | مراجعة | Eur Respir J | يراجع ارتفاع ضغط الدم الرئوي في أمراض الأنسجة الضامة، مع الإشارة إلى أن العلاج بالبروستاسيكلين يحسّن سعة التمرين/الديناميكية الدموية. |
+| [14583573](https://pubmed.ncbi.nlm.nih.gov/14583573/) | 2003 | دراسة المجموعة/السجل | Ann Rheum Dis | دراسة تسجيل الانتشار والنتيجة في PAH المرتبط بتصلب الجلد الجهازي. |
+| [37728697](https://pubmed.ncbi.nlm.nih.gov/37728697/) | 2023 | دراسة المجموعة في العالم الحقيقي | Adv Ther | تحليل قائم على المطالبات الأمريكية لأنماط العلاج في العالم الحقيقي في PAH المرتبط بأمراض النسيج الضام. |
+| [19487219](https://pubmed.ncbi.nlm.nih.gov/19487219/) | 2009 | مراجعة | Rheumatology (Oxford) | يراجع PAH كأكثر المضاعفات الوعائية مروعة لتصلب الجلد الجهازي. |
 
-### PAH associated with HIV infection
+### PAH المرتبط بعدوى فيروس نقص المناعة البشرية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | Review | Mt Sinai J Med | Reviews HIV-related pulmonary arterial hypertension, noting ~0.5% incidence in HIV-infected individuals and unclear pathogenesis. |
-| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | Review | Am J Respir Med | Reviews prostanoid therapy across PAH etiologies, explicitly including HIV-associated PAH. |
-| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Registry/Cohort | Terapevticheskii Arkhiv | Six-year National Registry analysis of PAH prevalence, clinical course, and therapy (multi-etiology, includes HIV). |
-| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | Review | Kardiologiia | Reviews controlled trials of prostacyclin/analogues across PAH etiologies including HIV infection. |
+| [17195895](https://pubmed.ncbi.nlm.nih.gov/17195895/) | 2006 | مراجعة | Mt Sinai J Med | يراجع ارتفاع ضغط الدم الرئوي المرتبط بـ HIV، مع الإشارة إلى حدوث تقريبي بنسبة ~0.5% لدى الأفراد المصابين بـ HIV وعدم وضوح الفسيولوجيا المرضية. |
+| [14720012](https://pubmed.ncbi.nlm.nih.gov/14720012/) | 2003 | مراجعة | Am J Respir Med | يراجع العلاج بالبروستانويد عبر أسباب PAH المختلفة، مع التطرق صراحةً إلى PAH المرتبط بـ HIV. |
+| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | السجل/دراسة المجموعة | Terapevticheskii Arkhiv | تحليل السجل الوطني لمدة ستة سنوات لانتشار PAH والمسار السريري والعلاج (متعدد الأسباب، يشمل HIV). |
+| [18260882](https://pubmed.ncbi.nlm.nih.gov/18260882/) | 2007 | مراجعة | Kardiologiia | يراجع التجارب الخاضعة للرقابة للبروستاسيكلين/المحاكيات عبر أسباب PAH المختلفة بما في ذلك عدوى HIV. |
 
-### Other predicted indications
+### المؤشرات المتنبأ بها الأخرى
 
-- **Pulmonary arteriovenous malformation (disease):** 1 tangential publication ([PMID 15929019](https://pubmed.ncbi.nlm.nih.gov/15929019/), 2005, case report on pulmonary hypertension in hereditary hemorrhagic telangiectasia) — addresses secondary hypertension, not the structural malformation itself.
-- **PAH associated with chronic hemolytic anemia:** Currently no related literature available.
-- **PAH associated with schistosomiasis:** 1 tangentially related publication ([PMID 24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/)) on pediatric inhaled Iloprost in general PH, not schistosomiasis-specific.
-- **Hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata:** Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Iloprost currently has **no marketing authorization in Saudi Arabia** (market status: Not marketed / Not Marketed; total authorizations: 0). No license records are available to summarize.
+- **التشوه الشرياني الوريدي الرئوي (المرض):** 1 منشور عرضي ([PMID 15929019](https://pubmed.ncbi.nlm.nih.gov/15929019/), 2005, تقرير حالة عن ارتفاع ضغط الدم الرئوي في الورم الوعائي النزفي الوراثي) — يعالج ارتفاع ضغط الدم الثانوي، وليس التشوه الهيكلي نفسه.
+- **PAH المرتبط بفقر الدم الانحلالي المزمن:** لا توجد أدبيات ذات صلة حالياً متاحة.
+- **PAH المرتبط بالبلهارسيا:** 1 منشور ذو صلة عرضية ([PMID 24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/)) عن إيلوبروست مستنشق عام عند الأطفال مع PH، وليس خاص بالبلهارسيا.
+- **قلة الشعر البسيطة في فروة الرأس، قلة الشعر الخلقية مع الحويصلات، الثعلبة البقعية المنتشرة:** لا توجد أدبيات ذات صلة حالياً متاحة.
 
 ---
 
-## Safety Considerations
+## معلومات السوق السعودي
 
-Please refer to the package insert for safety information.
-
-> ⚠️ Critical data gap: TFDA/SFDA package insert warnings and contraindications for Iloprost could not be retrieved (Data Gap DG001, severity **Blocking**). This directly prevents this candidate from entering the S1 safety pre-assessment stage for **any** of the predicted indications above, regardless of clinical/mechanistic evidence strength.
+إيلوبروست لا يحصل حالياً على **أي تخويل تسويقي في المملكة العربية السعودية** (حالة السوق: غير مُسوّق / Not Marketed؛ إجمالي التخويلات: 0). لا تتوفر سجلات الترخيص لتلخيصها.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Mixed — Proceed with Guardrails (PAH-subtype indications) / Research Question (hemolytic anemia, schistosomiasis) / Hold (AVM, hypotrichosis, alopecia)**
+يرجى الرجوع إلى ورقة المعلومات الفنية للحصول على معلومات السلامة.
 
-**Rationale:**
-- **PAH associated with HIV infection** has the strongest support (completed Phase 3 RCT, consistent mechanism with an already-approved drug class) and can proceed with guardrails around the crossover trial design and small sample size (n=64).
-- **PAH associated with congenital heart disease** and **PAH associated with connective tissue disease** are supported by consistent cohort/registry evidence and a shared, well-understood mechanism (WHO Group 1 PAH), justifying guarded progression.
-- **Chronic hemolytic anemia– and schistosomiasis-associated PAH** have plausible but unproven mechanistic rationale and no direct evidence — these remain open research questions, not repurposing candidates ready for action.
-- **Pulmonary arteriovenous malformation, hypotrichosis simplex, congenital hypotrichosis milia, and diffuse alopecia areata** lack mechanistic plausibility, clinical trials, or literature support and should be held pending stronger justification or dismissed as low-value model outputs.
-- **No indication can advance past S1** until the blocking safety data gap (TFDA/SFDA package insert) is resolved.
+> ⚠️ فجوة بيانات حرجة: تحذيرات وموانع استعمال TFDA/SFDA لإيلوبروست في ورقة المعلومات الفنية لم يتمكن من استرجاعها (فجوة بيانات DG001، خطورة **حاجزة**). هذا يمنع مباشرة هذا المرشح من الدخول إلى مرحلة التقييم الأمني S1 لـ **أي** من المؤشرات المتنبأ بها أعلاه، بغض النظر عن قوة الإثبات السريري/الآلي.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the Iloprost package insert (warnings, contraindications, DDI) from TFDA/SFDA — this is a **blocking** prerequisite for all candidates (DG001).
-- Obtain confirmed DrugBank mechanism-of-action data to strengthen the mechanistic case for PAH-subtype extensions (DG002).
-- For HIV-PAH: seek additional confirmatory (non-crossover) trial data or real-world outcomes data given the small sample size.
-- For chronic hemolytic anemia– and schistosomiasis-associated PAH: commission a targeted literature/trial search before any further evaluation; current absence of evidence may simply reflect these being under-studied rather than truly ineffective.
-- For the three hair/scalp-condition predictions: no further investment recommended without a specific, independently derived mechanistic hypothesis, given the complete absence of supporting data.
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: مختلط — المضي قدماً مع الضمانات (مؤشرات نوع PAH) / سؤال بحثي (فقر الدم الانحلالي والبلهارسيا) / وقف (AVM، قلة الشعر، الثعلبة)**
+
+**المبرر:**
+- **PAH المرتبط بعدوى فيروس نقص المناعة البشرية** يتمتع بأقوى دعم (دراسة عشوائية مكتملة في المرحلة الثالثة، آلية ثابتة مع فئة دواء معتمد بالفعل) ويمكنه المضي قدماً مع ضمانات حول تصميم الدراسة التقاطعي وحجم العينة الصغير (n=64).
+- **PAH المرتبط بأمراض القلب الخلقية** و**PAH المرتبط بأمراض النسيج الضام** مدعومة بأدلة ثابتة من المجموعة/السجل وآلية مشتركة وجيدة الفهم (PAH من مجموعة منظمة الصحة العالمية 1)، ما يبرر التطور الحذر.
+- **PAH المرتبط بفقر الدم الانحلالي المزمن والبلهارسيا** لديها نسبة آلية معقولة لكن غير مثبتة وبدون دليل مباشر — تبقى هذه أسئلة بحثية مفتوحة، وليست مرشحات إعادة توظيف جاهزة للعمل.
+- **التشوه الشرياني الوريدي الرئوي وقلة الشعر البسيطة وقلة الشعر الخلقية مع الحويصلات والثعلبة البقعية المنتشرة** تفتقر إلى القابلية الآلية والتجارب السريرية أو دعم الأدبيات ويجب إيقافها في انتظار تبرير أقوى أو الاستغناء عنها كمخرجات نموذج منخفضة القيمة.
+- **لا يمكن لأي مؤشر أن يتقدم عن S1** حتى يتم حل فجوة البيانات الأمنية الحاجزة (ورقة المعلومات الفنية TFDA/SFDA).
+
+**للمضي قدماً، يلزم ما يلي:**
+- استرجاع وتحليل ورقة المعلومات الفنية لإيلوبروست (التحذيرات، موانع الاستعمال، التفاعلات الدوائية) من TFDA/SFDA — هذا **مطلب حاجز** لجميع المرشحات (DG001).
+- الحصول على بيانات آلية عمل DrugBank المؤكدة لتعزيز قضية الآلية لتوسعات نوع PAH (DG002).
+- لـ HIV-PAH: السعي للحصول على بيانات تجربة تأكيدية إضافية (غير تقاطعية) أو بيانات النتائج في العالم الحقيقي بسبب حجم العينة الصغير.
+- لـ PAH المرتبط بفقر الدم الانحلالي المزمن والبلهارسيا: تكليف بحث أدبي/تجريبي موجه قبل أي تقييم إضافي؛ الغياب الحالي للدليل قد يعكس ببساطة أن هذه المجالات غير مدروسة بشكل جيد بدلاً من أن تكون فعلاً غير فعالة.
+- لتنبؤات الشعر/فروة الرأس الثلاثة: لا استثمار إضافي موصى به بدون فرضية آلية محددة مشتقة بشكل مستقل، بسبب الغياب الكامل للبيانات الداعمة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

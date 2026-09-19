@@ -29,77 +29,78 @@ indication_count: 2
 
 </div>
 
-# Larotrectinib: From NTRK Fusion-Positive Solid Tumors to Multiple Endocrine Neoplasia
+# لاروتريكتينيب: من الأورام الصلبة الموجبة لـ NTRK إلى التكاثر الغدي الصماوي المتعدد
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Larotrectinib is a first-in-class, tumor-agnostic TRK inhibitor whose globally recognized approved use is for NTRK gene fusion–positive solid tumors (Saudi Arabia–specific approval status is not confirmed in this evidence pack). The TxGNN model predicts possible efficacy in **Multiple Endocrine Neoplasia**, currently supported by **1 clinical trial** (a genotype-matched basket trial, not disease-specific) and **2 publications**. Evidence for this specific indication remains preliminary and largely mechanistic rather than confirmatory.
+لاروتريكتينيب هو أول مثبط TRK من نوعه، مستقل عن نوع الورم، واستخدامه المعتمد عالمياً هو علاج الأورام الصلبة الموجبة لاندماج جين NTRK (لم يتم تأكيد حالة الموافقة الخاصة بالمملكة العربية السعودية في هذه مجموعة الأدلة). ينبئ نموذج TxGNN بفعالية محتملة في **التكاثر الغدي الصماوي المتعدد**، وهو مدعوم حالياً بـ **تجربة سريرية واحدة** (تجربة سلة متطابقة النمط الجيني وليست خاصة بالمرض) و**منشورين**. الدليل على هذا المؤشر المحدد لا يزال أولياً وبشكل أساسي ميكانيكياً بدلاً من كونه تأكيدياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | NTRK gene fusion-positive solid tumors (general/global knowledge; no Saudi Arabia license record found in this evidence pack) |
-| Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L4 (mechanism/case-level evidence; the one registered trial is an active, not-completed basket study not specific to this indication) |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الأورام الصلبة الموجبة لاندماج جين NTRK (معرفة عامة/عالمية؛ لم يتم العثور على سجل ترخيص المملكة العربية السعودية في هذه مجموعة الأدلة) |
+| المؤشر الجديد المتنبأ به | التكاثر الغدي الصماوي المتعدد |
+| درجة التنبؤ من TxGNN | 99.24% |
+| مستوى الدليل | L4 (ميكانيكي/دليل مستوى الحالة؛ التجربة المسجلة الوحيدة هي دراسة سلة نشطة غير مكتملة وليست خاصة بهذا المؤشر) |
+| حالة السوق في المملكة العربية السعودية | غير مُسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for larotrectinib is not available in this evidence pack (Data Gap DG002). Based on known information, larotrectinib is a selective, ATP-competitive inhibitor of the tropomyosin receptor kinases (TRKA/B/C, encoded by NTRK1/2/3), and its efficacy in NTRK fusion–driven solid tumors is well established internationally as a tissue-agnostic therapy.
+حالياً، بيانات آلية العمل التفصيلية للاروتريكتينيب غير متاحة في هذه مجموعة الأدلة (فجوة البيانات DG002). بناءً على المعلومات المعروفة، لاروتريكتينيب هو مثبط انتقائي منافس للـ ATP لكيناز مستقبلات التروبوميوسين (TRKA/B/C، المشفرة بواسطة NTRK1/2/3)، وفعاليته في الأورام الصلبة الموجهة بانجرافات NTRK راسخة جيداً على المستوى الدولي كعلاج مستقل عن نوع الأنسجة.
 
-Multiple endocrine neoplasia (particularly the MEN2/medullary thyroid carcinoma phenotype) is primarily driven by activating mutations in the RET proto-oncogene rather than NTRK fusions. The mechanistic link proposed here is therefore indirect: RET and TRK are both receptor tyrosine kinases that converge on overlapping downstream signaling (RAS/MAPK, PI3K/AKT) pathways, and the supporting literature (e.g., PMID 38438731) specifically discusses RET-driven thyroid cancer and resistance mechanisms relevant to TRK/RET inhibitor class effects rather than larotrectinib efficacy in MEN itself.
+التكاثر الغدي الصماوي المتعدد (خاصة ظاهرة MEN2/سرطان الغدة الدرقية النخاعي) يحركه بشكل أساسي الطفرات المفعلة في جين RET proto-oncogene وليس انجرافات NTRK. الرابط الميكانيكي المقترح هنا هو بالتالي غير مباشر: RET و TRK كلاهما كيناز مستقبلة التيروسين يتقارب على إشارات هبوط متداخلة (RAS/MAPK، PI3K/AKT)، والأدبيات الداعمة (على سبيل المثال، PMID 38438731) تناقش بشكل خاص سرطان الغدة الدرقية المدفوع بـ RET وآليات المقاومة ذات الصلة بتأثيرات فئة مثبطات TRK/RET بدلاً من فعالية لاروتريكتينيب في MEN نفسه.
 
-Because this rationale rests on shared pathway biology rather than a direct target match, it should be regarded as hypothesis-generating. The single registered trial (MATCH) is a broad genotype-matched screening study across many tumor types, not a MEN-specific trial, which further limits how much can be concluded at this stage.
+لأن هذا الأساس يستند إلى بيولوجيا المسار المشترك وليس تطابق الهدف المباشر، يجب اعتباره منطقة توليد الفرضيات. التجربة المسجلة الوحيدة (MATCH) هي دراسة فحص سلة واسعة عبر أنواع أورام عديدة وليست تجربة خاصة بـ MEN، مما يحد بشكل إضافي من كمية ما يمكن استنتاجه في هذه المرحلة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاكتشافات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6,452 | MATCH basket trial assigning genotype-directed targeted therapy to refractory advanced solid tumors/lymphomas/myelomas; not specific to multiple endocrine neoplasia |
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | نشطة، غير متمكنة من التجنيد | 6,452 | تجربة سلة MATCH تعين علاجاً موجهاً موجهاً بالنمط الجيني للأورام الصلبة المتقدمة المقاومة/الأورام اللمفاوية/الورم النخاعي؛ غير خاصة بالتكاثر الغدي الصماوي المتعدد |
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Overview of kinase-inhibitor therapy for advanced thyroid cancer, including mutation-specific (RET/NTRK-directed) agents |
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Case Report | NPJ Precision Oncology | Case of RET-driven medullary thyroid carcinoma developing resistance to RET-selective TKI therapy; informs cross-kinase resistance mechanisms relevant to TRK-pathway inhibitors |
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
+|------|------|------|------|---------|
+| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | مراجعة | Endocrine Reviews | نظرة عامة على علاج مثبطات الكيناز للسرطان المتقدم في الغدة الدرقية، بما في ذلك الوكلاء الموجهين بالطفرات (RET/NTRK-موجهة) |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | تقرير حالة | NPJ Precision Oncology | حالة سرطان الغدة الدرقية النخاعي المدفوع بـ RET يطور مقاومة لعلاج TKI الانتقائي للـ RET؛ يعلم آليات المقاومة عبر الكيناز ذات الصلة بمثبطات مسار TRK |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Larotrectinib is currently not marketed in Saudi Arabia, and no authorization records are available in this evidence pack.
+لاروتريكتينيب غير مُسوّق حالياً في المملكة العربية السعودية، وليست هناك سجلات تصاريح متاحة في هذه مجموعة الأدلة.
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (TRK kinase inhibitor; not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Low, based on the internationally known drug-class profile of TRK inhibitors; not confirmed against local (Saudi) toxicity data (see Data Gap DG001) |
-| Emetogenicity Classification | Low, typical for oral targeted kinase inhibitors |
-| Monitoring Items | Liver function tests, CBC, and (in pediatric patients) growth and neurodevelopmental monitoring, per internationally published prescribing information |
-| Handling Protection | Standard oral oncology drug handling; formal hazardous-drug handling classification should follow local institutional policy pending Saudi package insert confirmation |
+| تصنيف السمية الخلوية | علاج موجه (مثبط كيناز TRK؛ ليس وكيل العلاج الكيميائي السام التقليدي) |
+| خطر قمع النخاع العظمي | منخفض، بناءً على الملف الشخصي المعروف دولياً لفئة مثبطات TRK؛ لم يتم تأكيده ضد بيانات السمية المحلية (السعودية) (انظر فجوة البيانات DG001) |
+| تصنيف الغثيان | منخفض، نموذجي للمثبطات الفموية لكيناز الموجهة |
+| بنود المراقبة | اختبارات وظائف الكبد وعد الدم الكامل، و(عند المرضى الأطفال) مراقبة النمو والتطور العصبي، وفقاً للمعلومات الموصوفة المنشورة دولياً |
+| حماية المعالجة | معالجة قياسية لأدوية الأورام الفموية الموجهة؛ يجب أن يتبع تصنيف معالجة الأدوية الخطرة الرسمي السياسة المؤسسية المحلية في انتظار تأكيد ورقة معلومات المملكة العربية السعودية |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data for this drug are not yet available in this evidence pack (Data Gap DG001, severity: Blocking) — this must be resolved before any S1 safety screening can proceed.
+يرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة. المحاذير الرئيسية والموانع وبيانات التفاعل الدوائي لهذا الدواء غير متاحة حالياً في هذه مجموعة الأدلة (فجوة البيانات DG001، الخطورة: حجب) — يجب حل هذا قبل أن يتمكن أي فحص سلامة S1 من المضي قدماً.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The mechanistic link between larotrectinib and multiple endocrine neoplasia is indirect (RET-driven biology, not direct NTRK fusion overlap), the only registered trial is a non-disease-specific basket study, and a Blocking-severity safety data gap (TFDA/SFDA package insert) prevents initial safety screening.
+**المبرر:**
+الرابط الميكانيكي بين لاروتريكتينيب والتكاثر الغدي الصماوي المتعدد غير مباشر (بيولوجيا موجهة بـ RET وليس تطابق الانجراف المباشر للـ NTRK)، والتجربة المسجلة الوحيدة هي دراسة سلة غير خاصة بالمرض، وفجوة بيانات السلامة ذات الخطورة البالغة (ورقة معلومات TFDA/SFDA) تمنع الفحص الأولي للسلامة.
 
-**To proceed, the following is needed:**
-- Saudi Arabia (SFDA) package insert warnings/contraindications (resolves DG001, Blocking)
-- Confirmed DrugBank mechanism-of-action and categorization data (resolves DG002)
-- A disease-specific (not basket-design) trial or observational study in multiple endocrine neoplasia
-- Confirmation of Saudi Arabia regulatory/market status for larotrectinib
+**للمضي قدماً، يلزم ما يلي:**
+- ورقة معلومات المملكة العربية السعودية (SFDA) التحذيرات/الموانع (يحل DG001، حجب)
+- تأكيد بيانات DrugBank آلية العمل والتصنيف (يحل DG002)
+- تجربة خاصة بالمرض (وليست تصميم سلة) أو دراسة رصدية في التكاثر الغدي الصماوي المتعدد
+- تأكيد حالة التنظيم/السوق في المملكة العربية السعودية للاروتريكتينيب
 
-*Note:* TxGNN also flagged **HER2-positive breast carcinoma** (score 99.14%) as a secondary candidate for this drug, but evidence is currently thinner — zero registered trials and only one preclinical publication (PMID 38852701, combination TrkA/JAK2 inhibition study) — and would need independent evaluation if pursued.
+*ملاحظة:* TxGNN أشارت أيضاً إلى **سرطان الثدي الموجب للـ HER2** (درجة 99.14%) كمرشح ثانوي لهذا الدواء، لكن الدليل حالياً أقل سمكاً — لا توجد تجارب مسجلة وواحد فقط من المنشورات السابقة للعيادة السريرية (PMID 38852701، دراسة مثبط تجميع TrkA/JAK2) — وسيحتاج إلى تقييم مستقل إذا تم متابعته.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

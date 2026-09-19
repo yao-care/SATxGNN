@@ -29,70 +29,71 @@ indication_count: 10
 
 </div>
 
-# Nandrolone: From Androgen Therapy to Breast Fibrocystic Disease
+# نادرولون: من العلاج الأندروجيني إلى مرض الثدي الليفي الكيسي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Nandrolone is an anabolic androgenic steroid (androgen receptor agonist); its specific original approved indications are not documented in the available evidence pack.
-The TxGNN model predicts it may be effective for **Breast Fibrocystic Disease**,
-with **0 clinical trials** and **3 publications** currently supporting this direction — none of which directly test nandrolone in this indication.
+نادرولون هو ستيرويد أندروجيني منشط (ناهض مستقبل الأندروجين)؛ لا توثيق متاح في حزمة الأدلة المتوفرة للمؤشرات الأصلية المعتمدة محددة له.
+يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **مرض الثدي الليفي الكيسي**،
+مع **0 تجربة سريرية** و **3 منشورات** تدعم هذا الاتجاه حالياً — لا يختبر أي منها نادرولون بشكل مباشر في هذا المؤشر.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in source data (nandrolone is an anabolic androgenic steroid; specific approved indications not documented) |
-| Predicted New Indication | Breast Fibrocystic Disease |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متوفر في بيانات المصدر (نادرولون هو ستيرويد أندروجيني منشط؛ لا توثيق للمؤشرات المعتمدة المحددة) |
+| المؤشر الجديد المتوقع | مرض الثدي الليفي الكيسي |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L4 |
+| حالة التسويق في المملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data for nandrolone is not available (Data Gap). Based on the mechanistic rationale included with the prediction, nandrolone is an androgen receptor (AR) agonist. AR activation is thought to suppress estrogen-driven proliferation of mammary epithelial tissue — a mechanism historically exploited by other androgenic agents (e.g., danazol, testosterone derivatives) for treating mastopathy/mastodynia and fibrocystic breast changes.
+حالياً، لا تتوفر بيانات آلية الفعل التفصيلية لنادرولون (فجوة البيانات). بناءً على الأساس الآلي المرفق مع التنبؤ، نادرولون هو ناهض مستقبل الأندروجين (AR). يُعتقد أن تفعيل AR يثبط تكاثر الإستروجين للنسيج الظهاري الثديي — آلية تم استغلالها تاريخياً بواسطة عوامل أندروجينية أخرى (مثل دانازول ومشتقات التستوسترون) لمعالجة المستودع/الألم الثديي والتغييرات الثديية الليفية الكيسية.
 
-The supporting literature is indirect: one 2009 review examines dienogest (a different progestogen, not nandrolone) and shows regression of mastopathic breast changes under high-dose progestogen therapy in endometriosis patients — offering a class-analogy rather than direct evidence. The remaining two references (a 1964 descriptive review and a 1980 basic immunology study on steroid effects on lymphocytes) predate modern clinical trial standards and do not evaluate nandrolone specifically in this indication.
+الأدبيات الداعمة غير مباشرة: إحدى المراجعات من 2009 تفحص ديينوجيست (بروجستوجين مختلف، وليس نادرولون) وتظهر انحدار التغييرات الثديية المسطحة تحت العلاج بالبروجستوجين عالي الجرعة في مرضى بطانة الرحم — مما يوفر قياس فئة بدلاً من الأدلة المباشرة. المراجع المتبقيتان (مراجعة وصفية من 1964 ودراسة علم المناعة الأساسية من 1980 حول تأثيرات الستيرويد على الخلايا اللمفاوية) تسبق معايير التجارب السريرية الحديثة ولا تقيّم نادرولون بشكل محدد في هذا المؤشر.
 
-In short, the mechanistic hypothesis (AR agonism antagonizing estrogen-driven breast proliferation) is biologically plausible and consistent with historical use of androgens in benign breast disease, but there is currently no nandrolone-specific interventional study confirming efficacy or safety in this population.
+باختصار، الفرضية الآلية (ناهضية AR التي تعارض تكاثر الثدي الذي يعتمد على الإستروجين) معقولة بيولوجياً ومتسقة مع الاستخدام التاريخي للأندروجينات في أمراض الثدي الحميدة، لكن لا يوجد حالياً أي دراسة تدخلية خاصة بنادرولون تؤكد الفعالية أو السلامة في هذه المجموعة السكانية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19499407](https://pubmed.ncbi.nlm.nih.gov/19499407/) | 2009 | Review | Gynecological Endocrinology | High-dose progestogen (dienogest, not nandrolone) treatment in endometriosis patients produced significant mammary gland size reduction and regression of mastopathic changes over 24 weeks — class-analogy evidence only |
-| [14150264](https://pubmed.ncbi.nlm.nih.gov/14150264/) | 1964 | Review/Descriptive | Revista de la Asociación Médica Argentina | Historical descriptive review on medical treatment of mammary dysplasias; abstract not available |
-| [7421218](https://pubmed.ncbi.nlm.nih.gov/7421218/) | 1980 | Basic (Immunology) | Journal of Steroid Biochemistry | Basic research on steroid effects on phytohaemagglutinin-induced lymphoblastogenesis; abstract not available, not nandrolone-specific |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|-----------|
+| [19499407](https://pubmed.ncbi.nlm.nih.gov/19499407/) | 2009 | مراجعة | Gynecological Endocrinology | أنتج العلاج بالبروجستوجين عالي الجرعة (ديينوجيست، وليس نادرولون) في مريضات بطانة الرحم تقليل كبير في حجم الغدة الثديية وانحدار التغييرات المسطحة على مدى 24 أسبوعاً — أدلة قياس الفئة فقط |
+| [14150264](https://pubmed.ncbi.nlm.nih.gov/14150264/) | 1964 | مراجعة/وصفية | Revista de la Asociación Médica Argentina | مراجعة وصفية تاريخية حول المعالجة الطبية لعسر الثدي؛ الخلاصة غير متوفرة |
+| [7421218](https://pubmed.ncbi.nlm.nih.gov/7421218/) | 1980 | أساسي (علم المناعة) | Journal of Steroid Biochemistry | بحث أساسي حول تأثيرات الستيرويد على الخلايا الليمفاوية المستحثة بالفيتوهيماجلوتينين؛ الخلاصة غير متوفرة، ليس خاصاً بنادرولون |
 
-*Note: none of the above studies directly test nandrolone in breast fibrocystic disease.*
+*ملاحظة: لا تختبر أي من الدراسات المذكورة أعلاه نادرولون بشكل مباشر في مرض الثدي الليفي الكيسي.*
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No marketing authorizations recorded — nandrolone is currently **Not marketed (not marketed)**, with 0 registered licenses.
+لا توجد تفويضات تسويقية مسجلة — نادرولون حالياً **غير مسوقة (غير مسوقة)**، مع 0 تراخيص مسجلة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-*Note: the TFDA package insert warnings/contraindications (DG001) are flagged as a **Blocking** data gap in the source evidence pack, meaning the drug currently cannot proceed to a formal S1 safety pre-assessment until this is resolved.*
+*ملاحظة: تحذيرات نشرة TFDA الداخلية/موانع الاستعمال (DG001) تم تصنيفها كفجوة بيانات **حاجزة** في حزمة الأدلة المصدرية، مما يعني أن الدواء حالياً لا يمكنه المتابعة إلى تقييم سلامة S1 رسمي حتى يتم حل هذه المشكلة.*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-There are no clinical trials and no nandrolone-specific literature supporting efficacy in breast fibrocystic disease — existing publications are decades-old, non-RCT, and largely indirect (class-analogy or basic science). Combined with a blocking data gap on TFDA safety/label information and the drug's unmarketed status, the evidence is insufficient to proceed beyond a research question at this time.
+**الأساس المنطقي:**
+لا توجد تجارب سريرية وليس هناك أدبيات خاصة بنادرولون تدعم الفعالية في مرض الثدي الليفي الكيسي — المنشورات الموجودة قديمة الأمد (عقود من الزمن)، غير RCT، وغالباً غير مباشرة (قياس الفئة أو العلوم الأساسية). بالإضافة إلى فجوة البيانات الحاجزة حول معلومات TFDA الأمان/التسمية وحالة الدواء غير المسوقة، الأدلة غير كافية للمتابعة إلى ما وراء سؤال بحثي في هذا الوقت.
 
-**To proceed, the following is needed:**
-- TFDA package insert / label data (warnings, contraindications) to clear the blocking safety gap (DG001)
-- Confirmed mechanism of action data via DrugBank (DG002)
-- Nandrolone-specific preclinical or clinical studies in breast fibrocystic disease (current evidence is class-analogy only)
-- Drug-drug interaction (DDI) profile, currently not found in queried sources
+**للمتابعة، مطلوب ما يلي:**
+- بيانات نشرة TFDA الداخلية / معلومات التسمية (التحذيرات، موانع الاستعمال) لحل فجوة البيانات الحاجزة (DG001)
+- بيانات آلية الفعل المؤكدة عبر DrugBank (DG002)
+- دراسات تقدمية أو سريرية خاصة بنادرولون في مرض الثدي الليفي الكيسي (الأدلة الحالية هي قياس الفئة فقط)
+- ملف التفاعلات بين الأدوية (DDI)، غير موجود حالياً في المصادر المستعلم عنها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

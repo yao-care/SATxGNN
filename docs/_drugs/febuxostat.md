@@ -29,78 +29,79 @@ indication_count: 3
 
 </div>
 
-# Febuxostat: From Hyperuricemia (Gout) to Renal Hypouricemia
+# فيبوكسوستات: من فرط حمض اليوريك (النقرس) إلى نقص حمض اليوريك الكلوي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Febuxostat is a xanthine oxidase inhibitor generally used to lower uric acid in gout/hyperuricemia (its Taiwan license data itself is not available in this evidence pack). TxGNN predicts a possible link to **renal hypouricemia**, but the model score is not supported by good evidence — only **1 low-quality clinical trial** and **2 review-level publications** exist, and the underlying pharmacology may actually run in the opposite direction.
+febuxostat هو مثبط أكسيداز الزانثين يُستخدم بشكل عام لخفض حمض اليوريك في النقرس/فرط حمض اليوريك (لا تتوفر بيانات ترخيصه في تايوان في هذه حزمة الأدلة). يتنبأ TxGNN برابط محتمل إلى **نقص حمض اليوريك الكلوي**، لكن درجة النموذج لا تحظى بدعم أدلة جيدة — فقط **تجربة سريرية واحدة منخفضة الجودة** و**منشوران على مستوى المراجعة** موجودان، وقد تسير الصيدلة الأساسية في الواقع في الاتجاه المعاكس.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Hyperuricemia/gout (based on known drug class — xanthine oxidase inhibitor; no Taiwan license record found, see data gap below) |
-| Predicted New Indication | Renal Hypouricemia (hypouricemia, renal) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supportive trial/mechanism confirmation) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | فرط حمض اليوريك/النقرس (بناءً على فئة الدواء المعروفة — مثبط أكسيداز الزانثين؛ لم يتم العثور على سجل ترخيص تايوان، انظر الفجوة في البيانات أدناه) |
+| المؤشر الجديد المتنبأ به | نقص حمض اليوريك الكلوي (نقص حمض اليوريك، كلوي) |
+| درجة التنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L5 (التنبؤ بالنموذج فقط، بدون تجربة داعمة/تأكيد الآلية) |
+| حالة السوق في تايوان | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data from DrugBank is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the information present in the evidence itself, febuxostat is known to work as a **xanthine oxidase inhibitor**, reducing uric acid production — this is the basis of its established gout/hyperuricemia use.
+بيانات آلية العمل التفصيلية من DrugBank غير متاحة في هذه حزمة الأدلة (تم تصنيفها كفجوة بيانات عالية الشدة، DG002). بناءً على المعلومات الموجودة في الأدلة نفسها، يُعرف أن febuxostat يعمل كـ **مثبط أكسيداز الزانثين**، ويقلل من إنتاج حمض اليوريك — هذا هو أساس استخدامه المعروف في النقرس/فرط حمض اليوريك.
 
-The prediction pairs this drug with **renal hypouricemia**, a condition of *abnormally low* serum urate. This is mechanistically the opposite of what febuxostat does: excessive lowering of uric acid (i.e., drug-induced hypouricemia) is a known **adverse effect** of febuxostat, not a therapeutic target. The evidence pack's own rationale flags this directly as a likely false positive — TxGNN's embedding may be confusing "a side effect the drug causes" with "a disease the drug treats."
+يقترن هذا التنبؤ بهذا الدواء مع **نقص حمض اليوريك الكلوي**، وهي حالة من انخفاض غير طبيعي في معدل حمض اليوريك في المصل. هذا هو عكس ما يفعله febuxostat من الناحية الآلية: الخفض المفرط لحمض اليوريك (أي نقص حمض اليوريك الناجم عن الدواء) هو **عرض جانبي معروف** لـ febuxostat، وليس هدفاً علاجياً. تشير مبررات حزمة الأدلة نفسها مباشرة إلى أن هذا إيجابي كاذب محتمل — قد يخلط التضمين TxGNN بين "عرض جانبي يسببه الدواء" و"مرض يعالجه الدواء".
 
-Two lower-ranked but mechanistically more coherent candidates appear in the same evidence pack — HPRT partial deficiency (Kelley-Seegmiller syndrome) and Lesch-Nyhan syndrome — where xanthine oxidase inhibition (allopurinol-class) is already used clinically to manage the resulting hyperuricemia. These may be worth tracking separately as research questions, even though they scored lower and currently have only case-report-level evidence.
+يظهر مرشحان أقل تصنيفاً لكنهما أكثر اتساقاً من الناحية الآلية في نفس حزمة الأدلة — نقص HPRT الجزئي (متلازمة Kelley-Seegmiller) ومتلازمة Lesch-Nyhan — حيث يتم استخدام مثبط أكسيداز الزانثين (فئة allopurinol) بالفعل سريرياً لإدارة فرط حمض اليوريك الناتج. قد تستحق هذه المتابعة بشكل منفصل كأسئلة بحثية، على الرغم من أنها سجلت درجات أقل وحالياً لديها فقط دليل على مستوى تقرير الحالة.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unknown | 100 | Studied uric acid control's effect on stone recurrence and renal function in hyperuricemia-related calculi. Relevance graded **C**: the "title" field is only an institution name (Dept. of Urology, Shanghai Xu-hui Central Hospital), not an actual study title, and trial status is Unknown — insufficient to confirm relevance to febuxostat/renal hypouricemia. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unknown | 100 | درس تأثير السيطرة على حمض اليوريك على تكرار الحصوات والوظائف الكلوية في الحصوات المرتبطة بفرط حمض اليوريك. تم تقييم الصلة **C**: حقل "العنوان" هو فقط اسم مؤسسة (قسم المسالك البولية، مستشفى Shanghai Xu-hui المركزية)، وليس عنوان دراسة فعلي، وحالة التجربة غير معروفة — غير كافٍ لتأكيد الصلة بـ febuxostat/نقص حمض اليوريك الكلوي. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical rheumatology | Narrative review of hypouricemia etiology for rheumatologists; not specific to febuxostat as treatment. |
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Review | Internal Medicine (Tokyo) | Case discussion of a renal hypouricemia (RHUC) patient in whom febuxostat is mentioned in the context of managing exercise-induced acute kidney injury risk — not as a treatment for hypouricemia itself. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | مراجعة | الروماتيزم السريري | مراجعة سردية لمسببات نقص حمض اليوريك لأطباء الروماتيزم؛ غير محددة لـ febuxostat كعلاج. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | مراجعة | الطب الداخلي (طوكيو) | نقاش حالة لمريض نقص حمض اليوريك الكلوي (RHUC) يتم ذكر febuxostat في سياق إدارة خطر إصابة الكلى الحادة الناجمة عن الإجهاد — وليس كعلاج لنقص حمض اليوريك نفسه. |
 
 ---
 
-## Taiwan Market Information
+## معلومات السوق في تايوان
 
-Febuxostat currently holds **no marketing authorization in Taiwan** (0 licenses on record). TFDA package insert data could not be retrieved (data gap DG001, Blocking severity) — this alone prevents any safety pre-assessment (S1 stage) for this drug.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all unavailable in the current evidence pack — TFDA package insert retrieval is a blocking data gap, DG001.)
+لا يحتفظ febuxostat حالياً بـ **أي تفويض تسويقي في تايوان** (0 تراخيص مسجلة). لم يتمكن من استرجاع بيانات ورقة معلومات TFDA (فجوة البيانات DG001، شدة حجب) — هذا وحده يمنع أي تقييم أمان مسبق (مرحلة S1) لهذا الدواء.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى ورقة معلومات الدواء للحصول على معلومات السلامة. (التحذيرات الرئيسية وموانع الاستعمال وبيانات التفاعلات الدوائية كلها غير متاحة في حزمة الأدلة الحالية — استرجاع ورقة معلومات TFDA هو فجوة بيانات حجب، DG001.)
 
-**Rationale:**
-The predicted indication (renal hypouricemia) is mechanistically inconsistent with febuxostat's known pharmacology — the drug lowers uric acid, and hypouricemia is documented as an adverse effect, not a treatable target. Combined with L5 evidence (model prediction only), a single grade-C clinical trial, and review-level-only literature, this candidate does not warrant advancement past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (DG001, Blocking — currently prevents any S1 safety pre-assessment)
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- If pursuing repurposing research for febuxostat at all, consider redirecting to the mechanistically stronger candidates in this same pack (HPRT partial deficiency, Lesch-Nyhan syndrome), which align with febuxostat's actual uric-acid-lowering action — though both currently rest on case-report-level evidence only
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبررات:**
+المؤشر المتنبأ به (نقص حمض اليوريك الكلوي) غير متسق من الناحية الآلية مع الصيدلة المعروفة لـ febuxostat — الدواء يخفض حمض اليوريك، وتم توثيق نقص حمض اليوريك كعرض جانبي، وليس هدفاً قابلاً للعلاج. مع الدليل L5 (التنبؤ بالنموذج فقط)، وتجربة سريرية واحدة من الدرجة C، والأدبيات على مستوى المراجعة فقط، لا يستحق هذا المرشح التقدم بعد S0.
+
+**للمتابعة، يلزم ما يلي:**
+- ورقة معلومات TFDA / التحذيرات وموانع الاستعمال (DG001، حجب — يمنع حالياً أي تقييم أمان مسبق S1)
+- بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- إذا كنت تتابع بحثاً عن إعادة توجيه الاستخدام لـ febuxostat على الإطلاق، فيجب عليك التفكير في إعادة التوجيه إلى المرشحين الأقوى من الناحية الآلية في نفس الحزمة (نقص HPRT الجزئي، متلازمة Lesch-Nyhan)، والتي تتوافق مع إجراء febuxostat الفعلي لخفض حمض اليوريك — على الرغم من أن كليهما يستند حالياً إلى دليل على مستوى تقرير الحالة فقط
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

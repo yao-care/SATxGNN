@@ -29,80 +29,79 @@ indication_count: 10
 
 </div>
 
-# Doxycycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# الدوكسيسيكلين: من الالتهابات البكتيرية إلى التهاب القرنية والملتحمة الظهاري النقطي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Doxycycline is a broad-spectrum tetracycline antibiotic and a WHO-recommended first-line treatment for Chlamydia trachomatis infections, Rocky Mountain spotted fever, Lyme disease, and malaria prophylaxis.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-with **no registered clinical trials** and **1 publication** currently supporting this direction.
+الدوكسيسيكلين هو مضاد حيوي واسع الطيف من فئة التتراسيكلين وعلاج موصى به من منظمة الصحة العالمية كخط أول لالتهابات المتدثرة الرمية، وحمى روكي ماونتن المرقطة، ومرض لايم، والوقاية من الملاريا. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب القرنية والملتحمة الظهاري النقطي**، مع عدم وجود **تجارب سريرية مسجلة** و**منشور واحد فقط** يدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|---------|
-| Original Indication | No Saudi Arabia registration on file; known for broad-spectrum bacterial infections (chlamydia, Lyme disease, rickettsia, malaria prophylaxis) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available from this Evidence Pack. Based on known information, doxycycline is a tetracycline-class antibiotic; its efficacy against a wide range of intracellular and extracellular bacteria — including Chlamydia trachomatis — has been well established clinically, and it additionally exhibits anti-inflammatory activity through inhibition of matrix metalloproteinases (MMPs).
-
-The mechanistic link to punctate epithelial keratoconjunctivitis is indirect. Chlamydia trachomatis infection causes follicular conjunctivitis; one recognised sequela of this infection is persistent superficial punctate epithelial keratitis (SPEK), which can persist even after the conjunctival follicles resolve. In this scenario, doxycycline acts by eliminating the infectious trigger rather than by directly targeting the corneal epithelial lesions.
-
-The sole supporting publication (PMID 1424659, 1992) describes exactly this sequence in two patients — chlamydial follicular conjunctivitis treated with oral tetracycline or doxycycline, followed by recurrent bilateral punctate corneal epithelial lesions despite pathogen clearance. This underscores that the keratitis may represent a post-infectious immune phenomenon rather than active infection, meaning antibiotic treatment alone may be insufficient, and no interventional study has specifically evaluated doxycycline for the keratitis itself.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا توجد تسجيلات في المملكة العربية السعودية في الملف؛ معروف بالالتهابات البكتيرية واسعة الطيف (المتدثرة، مرض لايم، الريكتسيا، الوقاية من الملاريا) |
+| المؤشر الجديد المتنبأ به | التهاب القرنية والملتحمة الظهاري النقطي |
+| درجة التنبؤ من TxGNN | 99.94% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار التقييم |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered.
+لا تتوفر حالياً بيانات تفصيلية عن آلية العمل من هذا ملف الدليل. بناءً على المعلومات المعروفة، الدوكسيسيكلين هو مضاد حيوي من فئة التتراسيكلين؛ وقد ثبت سريرياً فعاليته ضد مجموعة واسعة من البكتيريا داخل الخلايا وخارجها — بما في ذلك المتدثرة الرمية — وله أيضاً نشاط مضاد للالتهاب من خلال تثبيط معادن المصفوفات الإنزيمية (MMPs).
 
----
+الربط الآلي بالتهاب القرنية والملتحمة الظهاري النقطي غير مباشر. عدوى المتدثرة الرمية تسبب التهاب الملتحمة الجريبي؛ وأحد المضاعفات المعروفة لهذه العدوى هو التهاب القرنية الظهاري المنتشر المستمر (SPEK)، الذي قد يستمر حتى بعد تراجع الجريبات الملتحمية. في هذا السيناريو، يعمل الدوكسيسيكلين على القضاء على المحفز المعدي وليس على استهداف آفات القرنية الظهارية بشكل مباشر.
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case Series | Cornea | Two patients with Chlamydia trachomatis follicular conjunctivitis developed persistent bilateral punctate epithelial keratitis after initial resolution with tetracycline or doxycycline; corneal lesions at various epithelial levels with fluorescein staining and anterior stromal oedema, suggesting a post-infectious immune-mediated process |
+المنشور الداعم الوحيد (PMID 1424659، 1992) يصف بالضبط هذا التسلسل لدى مريضين — التهاب الملتحمة الجريبي بسبب المتدثرة الرمية تم علاجه بالتتراسيكلين الفموي أو الدوكسيسيكلين، متبوعاً بآفات قرنية ظهارية نقطية متكررة ثنائية الجانب رغم القضاء على العامل الممرض. هذا يؤكد أن التهاب القرنية قد يمثل ظاهرة مناعية بعد الإصابة بدلاً من العدوى النشطة، مما يعني أن العلاج بالمضادات الحيوية وحده قد يكون غير كافٍ، ولم تقيّم أي دراسة تدخلية الدوكسيسيكلين لالتهاب القرنية نفسه.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Doxycycline currently has no registered products in the Saudi Arabia drug database. No authorization records are available for review.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | الدراسات الرئيسية |
+|------|------|-------|--------|-----------------|
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | سلسلة حالات | Cornea | مريضان مصابان بالتهاب الملتحمة الجريبي بسبب المتدثرة الرمية طوّرا التهاب قرنية ظهاري نقطي ثنائي الجانب مستمراً بعد الحل الأولي بالتتراسيكلين أو الدوكسيسيكلين؛ آفات قرنية على مستويات ظهارية مختلفة مع تلطيخ الفلوريسين وذمة سدوية أمامية، مما يشير إلى عملية بعد الإصابة بوساطة مناعية |
 
-**Rationale:**
-Evidence is limited to a single 1992 case series reporting post-chlamydial keratitis as a sequela after doxycycline treatment; no clinical trials have directly evaluated doxycycline for punctate epithelial keratoconjunctivitis itself, and the available case report actually demonstrates that antibiotic treatment did not prevent subsequent corneal disease, raising questions about the drug's direct therapeutic value for this indication.
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action (MOA) data retrieval from DrugBank API to confirm anti-inflammatory properties relevant to corneal epithelium
-- Saudi Arabia package insert (download and parse PDF) for key warnings and contraindications
-- Drug interaction (DDI) profile review before any clinical application
-- Prospective observational or pilot clinical study evaluating whether sub-antimicrobial dose doxycycline (via MMP inhibition) reduces recurrence of post-chlamydial punctate keratitis
-- Route compatibility assessment: determine whether systemic oral dosing or topical ophthalmic formulation is appropriate for this indication
-- Ophthalmology specialist consultation to distinguish active chlamydial keratitis from immune-mediated post-infectious keratitis, as the treatment rationale differs substantially between the two
+## معلومات السوق في المملكة العربية السعودية
+
+الدوكسيسيكلين لا يحتوي حالياً على منتجات مسجلة في قاعدة بيانات الأدوية بالمملكة العربية السعودية. لا توجد سجلات تصاريح متاحة للمراجعة.
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار التقييم**
+
+**المبرر:**
+الدليل محدود لسلسلة حالات واحدة من عام 1992 تقرر عن التهاب قرنية بعد المتدثرة كمضاعفة بعد العلاج بالدوكسيسيكلين؛ لم تقيّم أي تجارب سريرية الدوكسيسيكلين لالتهاب القرنية والملتحمة الظهاري النقطي نفسه بشكل مباشر، والتقرير الحالة المتاح في الواقع يوضح أن العلاج بالمضادات الحيوية لم يمنع المرض القرني اللاحق، مما يثير تساؤلات حول القيمة العلاجية المباشرة للدواء لهذا المؤشر.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع بيانات آلية العمل (MOA) من واجهة برمجة تطبيقات DrugBank لتأكيد الخصائص المضادة للالتهاب ذات الصلة بالقرنية الظهارية
+- نشرة المملكة العربية السعودية الدوائية (تحميل وتحليل ملف PDF) للتحذيرات الرئيسية والموانع
+- مراجعة ملف التفاعلات الدوائية (DDI) قبل أي تطبيق سريري
+- دراسة رصدية استشرافية أو تجربة سريرية أولية تقيّم ما إذا كان الدوكسيسيكلين بجرعة تحت الفعل المضاد للميكروبات (من خلال تثبيط MMP) يقلل من تكرار التهاب القرنية النقطي بعد المتدثرة
+- تقييم توافق المسار: تحديد ما إذا كان الفموي الجهازي أو صيغة العين الموضعية مناسبة لهذا المؤشر
+- استشارة متخصص طب العيون للتمييز بين التهاب القرنية الناشئ عن المتدثرة النشط والتهاب القرنية بعد الإصابة بوساطة مناعية، حيث يختلف المبرر العلاجي بشكل كبير بين الاثنين
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

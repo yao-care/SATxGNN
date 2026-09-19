@@ -29,95 +29,96 @@ indication_count: 4
 
 </div>
 
-# Captopril: From Hypertension to Malignant Hypertensive Renal Disease
+# كابتوبريل: من ارتفاع ضغط الدم إلى أمراض الكلى الارتفاعية الخبيثة
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Captopril is the first oral ACE (angiotensin-converting enzyme) inhibitor, globally established for the treatment of hypertension and heart failure, but currently carrying no registered product license in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease** (rank 1) and **Malignant Renovascular Hypertension** (rank 2), with **0 clinical trials** but **1 and 20 publications** respectively supporting these directions.
-Evidence quality is limited (L4 for rank 1, L3 for rank 2), and two data gaps — including a Blocking gap on safety data — prevent advancement to full evaluation at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hypertension, heart failure (globally established; no Saudi Arabia product registration found) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.28% |
-| Evidence Level | L4 (rank 1: malignant hypertensive renal disease) / L3 (rank 2: malignant renovascular hypertension) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+كابتوبريل هو أول مثبط ACE (إنزيم تحويل الأنجيوتنسين) فموي على مستوى العالم، وهو راسخ في علاج ارتفاع ضغط الدم وقصور القلب، لكنه حاليًا لا يحمل ترخيص منتج مسجل في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **أمراض الكلى الارتفاعية الخبيثة** (الترتيب 1) و**ارتفاع ضغط الدم الوعائي الكلوي الخبيث** (الترتيب 2)، مع **0 تجارب سريرية** لكن **1 و 20 منشورًا** على التوالي يدعم هذه الاتجاهات.
+جودة الأدلة محدودة (L4 للترتيب 1، L3 للترتيب 2)، وهناك فجوتا بيانات — تشمل فجوة حاجبة بشأن بيانات الأمان — تمنع التقدم إلى التقييم الكامل في الوقت الحالي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Captopril is the first clinically approved ACE inhibitor. Although detailed MOA data is not available in this Evidence Pack, Captopril's mechanism is well-established in the pharmacological literature: it competitively inhibits angiotensin-converting enzyme, blocking the conversion of Angiotensin I to Angiotensin II. This lowers systemic vascular resistance, reduces aldosterone secretion, and decreases efferent arteriolar tone in the kidney — directly targeting the renin-angiotensin-aldosterone system (RAAS).
-
-For **malignant hypertensive renal disease** (rank 1), the RAAS is typically hyperactivated, driving severe end-organ damage including hypertensive nephropathy. Blocking Angiotensin II production has direct mechanistic relevance. However, the single literature citation retrieved (PMID 28902735) describes captopril renography as a **diagnostic procedure** rather than a therapeutic intervention, and does not constitute efficacy evidence for treatment. This is an important distinction: the TxGNN model appears to have matched on the term "captopril" in a diagnostic context, not a therapeutic one.
-
-For **malignant renovascular hypertension** (rank 2), the mechanistic link is far stronger and clinically well-recognized. Renovascular hypertension arises when renal artery stenosis reduces renal perfusion, triggering excess renin release and downstream Angiotensin II elevation — exactly the pathway that Captopril blocks. Multiple observational studies and cohort data (see Literature Evidence below) support this use. One critical safety constraint applies: Captopril is pharmacologically contraindicated in **bilateral renal artery stenosis or stenosis of a solitary functioning kidney**, where ACE inhibition eliminates the efferent arteriolar tone needed to maintain glomerular filtration, risking acute renal failure. Vascular imaging to exclude bilateral stenosis must precede any clinical use.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Captopril in Malignant Hypertensive Renal Disease.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | ارتفاع ضغط الدم، قصور القلب (راسخ عالميًا؛ لم يتم العثور على تسجيل منتج في المملكة العربية السعودية) |
+| المؤشر الجديد المتوقع | أمراض الكلى الارتفاعية الخبيثة |
+| درجة تنبؤ TxGNN | 99.28% |
+| مستوى الأدلة | L4 (الترتيب 1: أمراض الكلى الارتفاعية الخبيثة) / L3 (الترتيب 2: ارتفاع ضغط الدم الوعائي الكلوي الخبيث) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-The single paper retrieved for rank 1 describes captopril renography as a diagnostic tool, not a treatment. Because it offers no therapeutic evidence, the more substantive literature base for rank 2 (**Malignant Renovascular Hypertension**, L3) is presented below as the primary evidence table.
+كابتوبريل هو أول مثبط ACE موافق عليه سريريًا. على الرغم من عدم توفر بيانات آلية الفعل التفصيلية في هذه مجموعة الأدلة، فإن آلية كابتوبريل راسخة جيدًا في الأدب الدوائي: فهو يثبط إنزيم تحويل الأنجيوتنسين بشكل تنافسي، ويحجب تحويل أنجيوتنسين I إلى أنجيوتنسين II. هذا يخفض المقاومة الوعائية الجهازية، ويقلل من إفراز الألدوستيرون، وينخفض توتر الشرايين الستيني في الكلية — موجهًا مباشرة نحو نظام رينين-أنجيوتنسين-ألدوستيرون (RAAS).
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Clinical Study | Clinical Science | Captopril and saralasin induced PRA increases >14 ng/h/ml in 43/44 patients with renovascular hypertension; response absent in normal-renin essential hypertension — establishes captopril as a pharmacological probe and antihypertensive in renin-dependent states |
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical Observational Study | Bulletin of All-Union Cardiology Centre | Direct clinical use of captopril in arterial hypertension with both stable and malignant course |
-| [3894732](https://pubmed.ncbi.nlm.nih.gov/3894732/) | 1985 | Cohort Study | Japanese Journal of Medicine | Evaluated captopril challenge test in diagnosis of renovascular hypertension; emphasized role of sodium balance; supports captopril's pivotal RAAS-targeting role |
-| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | Experimental/Mechanistic Study | Japanese Heart Journal | Characterized neurohormonal changes (PRA, Ang I/II, catecholamines) in benign and malignant phases of Goldblatt (2K2C) hypertension; confirms RAAS hyperactivation in malignant phase |
-| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Review | Journal of Pediatrics | Review of malignant hypertension including pathophysiology and treatment options in pediatric context |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinology & Metabolism Clinics of North America | Renin-secreting (JGC) tumors cause severe hypertension and hypokalemia; blood pressure drops with ACE inhibition (captopril), demonstrating renin-dependence |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Case Series | Pediatric Nephrology | 27 NF1 patients; captopril challenge test used to assess renovascular involvement; secondary hypertension profile documented |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case Report + Review | Clinical Nephrology | Two cases of renovascular hypertension with NF1; captopril stimulation test showed marked PRA rise (2.8 → 12.6 ng/ml/h), confirming renin-mediated mechanism |
-| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Review | Minerva Medica | Clinical concepts of renovascular hypertension; treatment strategies targeting renal ischemia including RAAS blockade |
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case Report | Clinical Nuclear Medicine | Positive captopril renography in a patient with chromophobe renal cell carcinoma (no renal artery stenosis); renin-dependent hypertension resolved after nephrectomy — illustrates renin-dependency mechanism but is diagnostic, not therapeutic evidence |
+بالنسبة **لأمراض الكلى الارتفاعية الخبيثة** (الترتيب 1)، عادةً ما يكون نظام RAAS مفرط النشاط، مما يؤدي إلى إلحاق أضرار شديدة بالأعضاء في النهاية بما في ذلك اعتلال الكلية الارتفاعي. يوجد ارتباط مباشر على الصعيد الآلي لحجب إنتاج أنجيوتنسين II. ومع ذلك، فإن الاستشهاد الأدبي الوحيد الذي تم استرجاعه (PMID 28902735) يصف تصوير كابتوبريل الكلوي كـ **إجراء تشخيصي** وليس تدخلاً علاجيًا، ولا يشكل دليلاً على الفعالية العلاجية. هذا تمييز مهم: يبدو أن نموذج TxGNN قد طابق على مصطلح "كابتوبريل" في سياق تشخيصي، وليس في سياق علاجي.
+
+بالنسبة **لارتفاع ضغط الدم الوعائي الكلوي الخبيث** (الترتيب 2)، فإن الارتباط الآلي أقوى كثيرًا وموثق سريريًا. ينشأ ارتفاع ضغط الدم الوعائي الكلوي عندما يقلل تضيق الشرايين الكلوية من تروية الكلية، مما يؤدي إلى إطلاق فائض من الرينين والارتفاع اللاحق في أنجيوتنسين II — وهي بالضبط المسار الذي يحجبه كابتوبريل. تدعم هذا الاستخدام عدة دراسات رصدية وبيانات الأتراب (انظر الأدلة الأدبية أدناه). يوجد قيد أمان حرج واحد: كابتوبريل محظور دوائيًا في **تضيق الشرايين الكلوية الثنائي أو تضيق الشريان في الكلية الوحيدة الوظيفية**، حيث يلغي مثبط ACE التوتر الستيني اللازم للحفاظ على الترشيح الكبيبي، مما يخاطر بالقصور الكلوي الحاد. يجب أن يسبق أي استخدام سريري تصوير الأوعية الكلوية لاستبعاد تضيق ثنائي الجانب.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Captopril is currently **not registered** with the Saudi Food and Drug Authority (SFDA). No product licenses, approved dosage forms, or indication texts were found in the regulatory database.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Critical clinical note from mechanistic knowledge**: ACE inhibitors including captopril carry a well-established contraindication in bilateral renal artery stenosis or stenosis of a solitary functioning kidney — conditions that are directly relevant given the two primary predicted indications. Use in these scenarios can precipitate acute renal failure by abolishing angiotensin II-mediated efferent arteriolar tone. Renal vascular imaging to exclude bilateral stenosis is mandatory before any clinical application. This concern must be formally captured once the SFDA package insert is retrieved (Data Gap DG001, Blocking severity).
+لا توجد حاليًا تجارب سريرية مرتبطة مسجلة لكابتوبريل في أمراض الكلى الارتفاعية الخبيثة.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+يصف الورقة الواحدة المسترجعة للترتيب 1 تصوير كابتوبريل الكلوي كأداة تشخيصية وليس كعلاج. نظرًا لعدم توفير أي أدلة علاجية، فإن قاعدة الأدب الأكثر جوهرية للترتيب 2 (**ارتفاع ضغط الدم الوعائي الكلوي الخبيث**، L3) يتم تقديمها أدناه كجدول الأدلة الأساسي.
 
-**Rationale:**
-A Blocking data gap (SFDA/TFDA package insert and formal contraindication data, DG001) prevents entry into S1 safety pre-screening, and the primary TxGNN-predicted indication (malignant hypertensive renal disease, rank 1) is supported by only one publication describing a diagnostic procedure rather than a therapeutic effect. The mechanistically stronger indication (malignant renovascular hypertension, rank 2) has observational support (L3) and sound pharmacological rationale, but also carries a critical safety constraint — bilateral renal artery stenosis contraindication — that cannot be formally evaluated without the full package insert.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | دراسة سريرية | Clinical Science | أدى كابتوبريل والساريلاسين إلى زيادات PRA > 14 ng/h/ml في 43/44 مريضًا مصابًا بارتفاع ضغط الدم الوعائي الكلوي؛ لم تكن الاستجابة موجودة في ارتفاع ضغط الدم الأساسي الطبيعي الرينين — يؤسس كابتوبريل كمسبار دوائي وخافض ضغط في الحالات المعتمدة على الرينين |
+| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | دراسة مراقبة سريرية | Bulletin of All-Union Cardiology Centre | الاستخدام السريري المباشر لكابتوبريل في ارتفاع ضغط الدم الشرياني مع المسار المستقر والخبيث |
+| [3894732](https://pubmed.ncbi.nlm.nih.gov/3894732/) | 1985 | دراسة الأتراب | Japanese Journal of Medicine | تقييم اختبار تحدي كابتوبريل في التشخيص التفريقي لارتفاع ضغط الدم الوعائي الكلوي؛ شدد على دور توازن الصوديوم؛ يدعم دور كابتوبريل المحوري الموجه نحو RAAS |
+| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | دراسة تجريبية/آلية | Japanese Heart Journal | توصيف التغييرات العصبية الهرمونية (PRA، Ang I/II، الكاتيكول أمينات) في المراحل الحميدة والخبيثة من ارتفاع ضغط الدم Goldblatt (2K2C)؛ يؤكد فرط نشاط RAAS في المرحلة الخبيثة |
+| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | مراجعة | Journal of Pediatrics | مراجعة ارتفاع ضغط الدم الخبيث بما في ذلك المسببات المرضية والعلاجات في السياق طب الأطفال |
+| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | مراجعة | Endocrinology & Metabolism Clinics of North America | أورام الخلايا الحبيبية الكابية (JGC) التي تفرز الرينين تسبب ارتفاع ضغط الدم الشديد وقلة بوتاسيوم الدم؛ ينخفض ضغط الدم مع مثبط ACE (كابتوبريل)، مما يثبت الاعتماد على الرينين |
+| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | سلسلة حالات | Pediatric Nephrology | 27 مريضًا مصابًا بـ NF1؛ تم استخدام اختبار تحدي كابتوبريل لتقييم الانخراط الوعائي الكلوي؛ تم توثيق ملف ارتفاع ضغط الدم الثانوي |
+| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | تقرير حالة + مراجعة | Clinical Nephrology | حالتان من ارتفاع ضغط الدم الوعائي الكلوي مع NF1؛ أظهر اختبار تحفيز كابتوبريل ارتفاع PRA ملحوظ (2.8 → 12.6 ng/ml/h)، مما يؤكد الآلية الوسيطة للرينين |
+| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | مراجعة | Minerva Medica | المفاهيم السريرية لارتفاع ضغط الدم الوعائي الكلوي؛ استراتيجيات العلاج الموجهة نحو نقص التروية الكلوية بما في ذلك حجب RAAS |
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | تقرير حالة | Clinical Nuclear Medicine | تصوير كابتوبريل الكلوي إيجابي في مريض مصاب بورم الخلايا الكلوية الكروموفوب (بدون تضيق الشرايين الكلوية)؛ حُلّ ارتفاع ضغط الدم الوسيط للرينين بعد استئصال الكلية — يوضح آلية الاعتماد على الرينين لكنه تشخيصي وليس دليلاً علاجيًا |
 
-**To proceed, the following is needed:**
+---
 
-- **[DG001 — Blocking]** Retrieve SFDA or TFDA package insert to capture formal contraindications, warnings, and special population data before advancing to S1 safety evaluation
-- **[DG002 — High]** Confirm mechanism of action details via DrugBank API to support mechanistic linkage analysis
-- Bilateral renal artery stenosis exclusion protocol must be defined before any clinical use in renovascular indications
-- Dedicated prospective registry or controlled study data for Captopril in malignant hypertensive renal disease is needed to elevate rank 1 beyond L4
-- Evaluate SFDA registration pathway for Captopril — currently unregistered, requiring a full market authorization application before any Saudi Arabia deployment
-- Renal function monitoring protocol (serum creatinine, serum potassium, GFR) to be specified for the target population
-- Indications ranked 3 and 4 (pulmonary hypertension, both L5, S0) are **not recommended for further investigation**: current ESC/ERS 2022 guidelines do not support ACE inhibitor use in any pulmonary arterial hypertension category, and the retrieved literature for these indications contains no captopril-specific therapeutic evidence
+## معلومات سوق المملكة العربية السعودية
+
+كابتوبريل **غير مسجل** حاليًا لدى الهيئة السعودية للغذاء والدواء (SFDA). لم يتم العثور على أي تراخيص منتجات أو أشكال جرعات موافق عليها أو نصوص دواعي الاستعمال في قاعدة البيانات التنظيمية.
+
+---
+
+## اعتبارات الأمان
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات الأمان.
+
+> **ملاحظة سريرية حرجة من المعرفة الآلية**: تحمل مثبطات ACE بما في ذلك كابتوبريل موانع استعمال راسخة جيدًا في تضيق الشرايين الكلوية الثنائي أو تضيق الشريان في الكلية الوحيدة الوظيفية — وهي حالات ذات صلة مباشرة نظرًا للدواعي الأساسية المتنبأ بها. قد يؤدي الاستخدام في هذه السيناريوهات إلى قصور كلوي حاد عن طريق إلغاء توتر الشرايين الستيني الوسيط أنجيوتنسين II. يعتبر تصوير الأوعية الكلوية لاستبعاد تضيق ثنائي الجانب إلزاميًا قبل أي تطبيق سريري. يجب أن يتم التقاط هذا القلق بشكل رسمي بمجرد استرجاع نشرة SFDA (فجوة البيانات DG001، شدة حاجبة).
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**المنطق:**
+تمنع فجوة بيانات حاجبة (نشرة SFDA/TFDA الداخلية وبيانات موانع الاستعمال الرسمية، DG001) الدخول إلى الفحص الأمني السابق S1، والمؤشر الذي تنبأ به TxGNN الأساسي (أمراض الكلى الارتفاعية الخبيثة، الترتيب 1) مدعوم فقط بمنشور واحد يصف إجراءً تشخيصيًا بدلاً من التأثير العلاجي. والمؤشر الآلي الأقوى (ارتفاع ضغط الدم الوعائي الكلوي الخبيث، الترتيب 2) له دعم رصدي (L3) ومنطق دوائي سليم، لكنه يحمل أيضًا قيد أمان حرج — موانع استعمال تضيق الشرايين الكلوية الثنائي — لا يمكن تقييمها رسميًا بدون النشرة الداخلية الكاملة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **[DG001 — حاجبة]** استرجاع نشرة SFDA أو TFDA لالتقاط موانع الاستعمال الرسمية والتحذيرات وبيانات السكان الخاصة قبل التقدم إلى تقييم الأمان S1
+- **[DG002 — عالية]** تأكيد تفاصيل آلية الفعل عبر واجهة برمجية DrugBank لدعم تحليل الارتباط الآلي
+- يجب تحديد بروتوكول استبعاد تضيق الشرايين الكلوية الثنائي قبل أي استخدام سريري في دواعي الاستعمال الوعائية الكلوية
+- بيانات السجل المخصص أو الدراسة المضبوطة لكابتوبريل في أمراض الكلى الارتفاعية الخبيثة لتعزيز الترتيب 1 بما يتجاوز L4
+- تقييم مسار تسجيل SFDA لكابتوبريل — حاليًا غير مسجل، مما يتطلب تطبيق ترخيص سوق كامل قبل أي نشر في المملكة العربية السعودية
+- يجب تحديد بروتوكول مراقبة وظيفة الكلى (كرياتينين المصل، بوتاسيوم المصل، معدل الترشيح الكبيبي) للسكان المستهدفين
+- الدواعي المصنفة 3 و 4 (ارتفاع ضغط الدم الرئوي، كلاهما L5، S0) **غير مرجح للمزيد من التحقيق**: لا تدعم إرشادات ESC/ERS 2022 الحالية استخدام مثبط ACE في أي فئة من فئات ارتفاع ضغط الدم الشرياني الرئوي، والأدب المسترجع لهذه الدواعي لا يحتوي على دليل علاجي محدد لكابتوبريل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

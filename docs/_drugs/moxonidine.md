@@ -29,59 +29,60 @@ indication_count: 10
 
 </div>
 
-# Moxonidine: From Hypertension to Hypotrichosis Simplex of the Scalp
+# موكسونيدين: من ارتفاع ضغط الدم إلى تساقط الشعر البسيط في فروة الرأس
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Moxonidine is a centrally-acting antihypertensive, established for the treatment of essential hypertension. The TxGNN model's top-ranked prediction is **Hypotrichosis Simplex of the Scalp**, but this direction currently has **0 clinical trials** and **0 publications** supporting it, and the accompanying mechanistic review explicitly finds no biological link between the drug and this rare genetic hair-follicle disorder.
+موكسونيدين هو خافض ضغط دم مركزي المفعول، موثّق لعلاج ارتفاع ضغط الدم الأساسي. التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **تساقط الشعر البسيط في فروة الرأس**، لكن هذا الاتجاه يحتوي حالياً على **صفر تجارب سريرية** و**صفر منشورات** تدعمه، والمراجعة الآلية المرفقة تجد صراحة عدم وجود ارتباط بيولوجي بين الدواء واضطراب الشعر الوراثي النادر هذا.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (per known clinical use; not documented via Saudi label text in this evidence pack) |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | ارتفاع ضغط الدم (حسب الاستخدام السريري المعروف؛ غير موثّق عبر نصّ التسمية السعودية في هذه حزمة الأدلة) |
+| الاستطباب الجديد المتوقع | تساقط الشعر البسيط في فروة الرأس |
+| درجة التنبؤ من TxGNN | 99.95% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (غير مسوّق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تعليق |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data for moxonidine is flagged as a data gap in this evidence pack. Based on general pharmacological knowledge, moxonidine is a centrally-acting antihypertensive that stimulates imidazoline I1 receptors in the rostral ventrolateral medulla, reducing sympathetic outflow and lowering blood pressure.
+بيانات آلية العمل التفصيلية لموكسونيدين تم الإشارة إليها كفجوة بيانات في هذه حزمة الأدلة. بناءً على المعرفة الصيدلانية العامة، موكسونيدين هو خافض ضغط دم مركزي المفعول يحفّز مستقبلات الإيميدازولين I1 في المنطقة الظهرية البطنية الوحشية الرئيسية، مما يقلل من التدفق الودّي ويخفض ضغط الدم.
 
-Hypotrichosis simplex of the scalp is a hereditary disorder of hair follicle development, pathophysiologically unrelated to central sympathetic tone or blood pressure regulation. The evidence pack's own mechanistic review for this candidate states explicitly that there is no known link between moxonidine's antihypertensive/central-sympatholytic action and this condition, and no clinical or literature evidence exists to support one.
+تساقط الشعر البسيط في فروة الرأس هو اضطراب وراثي في تطور بصيلات الشعر، وليس له ارتباط فسيولوجي بنشاط الجهاز العصبي الودّي المركزي أو تنظيم ضغط الدم. مراجعة آلية العمل في حزمة الأدلة لهذا المرشح تنصّ صراحة على عدم وجود ارتباط معروف بين الفعل الخافض لضغط الدم أو التأثير المركزي الودّي لموكسونيدين وهذه الحالة، وعدم وجود أي دليل سريري أو أدبي يدعم ذلك.
 
-In short, this top-ranked TxGNN output is a high similarity-score prediction without biological plausibility or empirical support, which is why it is scored L5 (model prediction only) rather than being escalated to a research hypothesis.
+باختصار، هذا الناتج الأعلى تصنيفاً من TxGNN هو تنبؤ برجة تشابه عالية بدون معقولية بيولوجية أو دعم تجريبي، وهذا هو السبب في أنه تم تصنيفه كـ L5 (تنبؤ من النموذج فقط) بدلاً من تصعيده إلى فرضية بحثية.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجّلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Moxonidine is not currently marketed in Saudi Arabia (0 authorizations on file), so no product/license records are available.
+موكسونيدين غير مسوّق حالياً في المملكة العربية السعودية (0 موافقات في السجل)، لذلك لا توجد سجلات منتج/ترخيص متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى معلومات الحزمة للحصول على بيانات الأمان.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-The top-ranked prediction (hypotrichosis simplex of the scalp) has a very high TxGNN similarity score but no mechanistic plausibility, no clinical trials, and no supporting literature — it is an L5, model-only signal that should not proceed without independent biological validation.
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفاً (تساقط الشعر البسيط في فروة الرأس) لديه درجة تشابه عالية جداً من TxGNN لكن بدون معقولية فسيولوجية، بدون تجارب سريرية، وبدون أدبيات داعمة — إنه إشارة من المستوى L5 ونموذج فقط لا يجب أن تتابع بدون التحقق البيولوجي المستقل.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a **Blocking** data gap
-- Confirmed mechanism-of-action data from DrugBank — currently a **High**-severity data gap
-- If pursuing repurposing for this molecule, prioritize the mechanistically-grounded, higher-evidence candidates already flagged in this same evidence pack instead of this prediction — notably **malignant renovascular hypertension / malignant hypertensive renal disease** (L4, direct extension of moxonidine's proven antihypertensive mechanism) and **primary hereditary glaucoma** (L4, plausible via shared imidazoline/alpha-2 agonist pharmacology with brimonidine), both currently at decision stage S1 ("Research Question")
+**للمتابعة، يلزم ما يلي:**
+- بيانات معلومات الحزمة من TFDA/SFDA (التحذيرات والموانع) — حالياً فجوة بيانات **محجوزة**
+- بيانات آلية العمل المؤكدة من DrugBank — حالياً فجوة بيانات بدرجة **عالية**
+- في حالة المتابعة مع إعادة استخدام هذا الجزيء، حدّد أولويات المرشحين الأساسيين الآليين الأعلى دليلاً المدرجة بالفعل في هذه حزمة الأدلة نفسها بدلاً من هذا التنبؤ — وتحديداً **ارتفاع ضغط الدم الكلوي الخبيث / داء الكلى من ارتفاع ضغط الدم الخبيث** (L4، امتداد مباشر للآلية الخافضة لضغط الدم المثبتة لموكسونيدين) و**الجلوكوما الوراثية الأولية** (L4، معقول عبر علم الأدوية المشترك للإيميدازولين / ناهضات ألفا-2 مع بريمونيدين)، وكلاهما حالياً في مرحلة القرار S1 ("مسألة بحثية")
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,88 +29,89 @@ indication_count: 10
 
 </div>
 
-# Nystatin: From Fungal Infections (Candidiasis) to Vulvovaginitis
+# نيستاتين: من العدوى الفطرية (داء المبيضات) إلى التهاب المهبل والفرج
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Nystatin is a polyene antifungal antibiotic historically used to treat *Candida* infections; Taiwan-specific approved-indication text is not currently on file, and the drug holds **no marketing authorization in Taiwan** (0 licenses, market status: not marketed). The TxGNN model predicts it may be effective for **Vulvovaginitis**, with **no registered clinical trials** but **20 supporting publications** currently available, giving a moderate (L3) evidence base built on observational and review-level data.
+نيستاتين هو مضاد حيوي مضاد للفطريات من فئة البولينات يُستخدم تاريخياً لعلاج عدوى *المبيضات*؛ لا يتوفر حالياً نص مؤشر معتمد خاص بتايوان في الملف، والعقار لا يحمل **أي تصريح تسويق في تايوان** (0 ترخيص، حالة السوق: غير مسوق). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب المهبل والفرج**، مع **عدم وجود تجارب سريرية مسجلة** لكن **20 منشوراً داعماً** متاحة حالياً، مما يوفر قاعدة أدلة معتدلة (L3) مبنية على بيانات مستوى الملاحظة والمراجعة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Fungal infections (Candidiasis) — no Taiwan-specific approved-indication text on file (drug not marketed) |
-| Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | العدوى الفطرية (داء المبيضات) — لا يوجد نص مؤشر معتمد خاص بتايوان في الملف (العقار غير مسوق) |
+| المؤشر الجديد المتنبأ به | التهاب المهبل والفرج |
+| درجة التنبؤ بـ TxGNN | 99.92% |
+| مستوى الأدلة | L3 |
+| حالة السوق في تايوان | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع تدابير الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ منطقي؟
 
-Detailed drug-level mechanism-of-action data (DrugBank `original_moa`) is currently a data gap (flagged as High severity in this Evidence Pack, remediation pending via DrugBank API query). However, the evidence pack's repurposing rationale supplies pharmacologically grounded reasoning: Nystatin is a polyene-class antifungal that binds ergosterol in the fungal cell membrane, forming pores that cause cell death, giving it direct fungicidal/fungistatic activity against *Candida* species.
+بيانات آلية العمل على مستوى العقار الكامل (DrugBank `original_moa`) تُعتبر حالياً فجوة بيانات (مرفّلة كخطورة عالية في هذه مجموعة الأدلة، جاري معالجتها عبر استعلام DrugBank API). ومع ذلك، تزود مجموعة الأدلة المنطق الصيدلاني للإعادة الاستخدام: نيستاتين هو مضاد فطري من فئة البولينات يرتبط بإرغوستيرول في الغشاء الخلوي الفطري، ويشكل مسامات تسبب موت الخلية، مما يعطيه نشاطاً فطرياً مباشراً مثبطاً للنمو ضد أنواع *المبيضات*.
 
-Vulvovaginitis is frequently caused by *Candida albicans* (vulvovaginal candidiasis accounts for an estimated 85–90% of *Candida*-related vaginitis per the literature below), which is mechanistically identical to the target organism Nystatin was originally developed against. Nystatin has, in fact, been used topically (vaginal tablets/creams) for decades as a first- or second-line agent for vulvovaginal candidiasis before azoles became dominant — this is corroborated by multiple historical and recent reviews in the literature table below (e.g., PMID 1436934, PMID 39771534).
+التهاب المهبل والفرج يكون في كثير من الأحيان ناجماً عن *C. albicans* (داء المبيضات في الفرج والمهبل يمثل ما يُقدّر بـ 85–90% من التهاب المهبل المرتبط بالمبيضات حسب الأدبيات أدناه)، وهو مطابق آلياً للكائن المستهدف الذي تم تطوير نيستاتين ضده في الأصل. نيستاتين، في الواقع، تم استخدامه موضعياً (أقراص/كريمات مهبلية) لعقود كعامل من الدرجة الأولى أو الثانية لداء المبيضات في الفرج والمهبل قبل أن تصبح الأزولات سائدة — وهذا مؤكد بواسطة عدة مراجعات تاريخية وحديثة في جدول الأدبيات أدناه (مثل PMID 1436934، PMID 39771534).
 
-Because the causative pathogen (Candida) and the drug's mechanism (membrane disruption via ergosterol binding) map directly onto this indication, the TxGNN prediction is biologically plausible and is further supported by a substantial, if largely observational/review-level, published literature base — rather than being a purely graph-distance-driven prediction (contrast with several other ranked predictions in this pack, e.g., "disease of orbital region," which have no mechanistic or evidentiary support).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+لأن الكائن المسبب للمرض (*المبيضات*) وآلية العمل الخاصة بالعقار (تعطيل الغشاء عبر ارتباط الإرغوستيرول) تُعيّن مباشرة على هذا المؤشر، فإن تنبؤ TxGNN قابل للتصديق بيولوجياً وتدعمه أيضاً قاعدة أدبيات كبيرة، وإن كانت في الغالب على مستوى الملاحظة/المراجعة — بدلاً من كونها تنبؤاً محتّاً بالكامل بواسطة مسافة الرسم البياني (تناقض مع عدة تنبؤات مصنّفة أخرى في هذه المجموعة، مثل "مرض المنطقة المدارية"، التي لا توجد لها دعم آلي أو دليلي).
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Reviews current management of fluconazole-resistant vulvovaginal candidiasis (FRVVC); identifies nystatin, boric acid, oteseconazole, and ibrexafungerp as alternative antifungal options for resistant cases |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Cohort | Mycoses | 287 *Candida* isolates from 283 patients with complicated VVC tested for fluconazole and nystatin susceptibility; correlated in vitro susceptibility with clinical treatment outcome |
-| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | Cohort | Ceska gynekologie | Evaluated combined/miscellaneous vulvovaginal infections and their treatment with vaginal nystatin + nifuratel combination products |
-| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | Preclinical (rat model) | BMC Microbiology | Nystatin enhanced mucosal immune response against *C. albicans* and protected vaginal epithelial ultrastructure in a rat VVC model |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstetrics and Gynecology Clinics of North America | Reviews topical antifungal agents; notes nystatin was the original 1950s treatment for VVC before being surpassed by imidazoles/triazoles |
-| [37023426](https://pubmed.ncbi.nlm.nih.gov/37023426/) | 2023 | Comparative in vitro study | J Infection in Developing Countries | Compared inhibition zones of tea tree oil (5%, 10%) vs. nystatin against vaginal *Candida* isolates from pregnant women |
-| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | Laboratory study | Infection and Drug Resistance | Compared antifungal activity of ZnO nanoparticles and nystatin, and their effect on virulence gene (SAP1-3) expression in fluconazole-resistant *C. albicans* from VVC |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | Journal of Women's Health | Reviews boric acid for recurrent VVC in the context of rising azole resistance, positioning nystatin among alternative therapies |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | Overview of vulvovaginal candidiasis; *C. albicans* accounts for 85–90% of cases, establishing the fungal pathophysiology nystatin targets |
-| [12228137](https://pubmed.ncbi.nlm.nih.gov/12228137/) | 2002 | Review | BMJ | General clinical review of vulvovaginal candidiasis diagnosis and management |
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة.
 
 ---
 
-## Taiwan Market Information
+## دليل الأدبيات
 
-Nystatin currently has no marketing authorization on file in Taiwan (0 licenses; market status: not marketed). No product/authorization data is available to tabulate.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | مراجعة | Pharmaceutics | تراجع الإدارة الحالية لداء المبيضات في الفرج والمهبل المقاوم للفلوكونازول (FRVVC)؛ يحدد نيستاتين وحمض البوريك و oteseconazole و ibrexafungerp كخيارات مضادة للفطريات البديلة للحالات المقاومة |
+| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | دراسة الأتراب | Mycoses | اختبر 287 عزلة *المبيضات* من 283 مريضاً مع VVC معقد حساسية الفلوكونازول والنيستاتين؛ ارتبط الحساسية الحيوية في الاختبار مع نتيجة العلاج السريري |
+| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | دراسة الأتراب | Ceska gynekologie | قيّم العدوى المهبلية والفرجية المختلطة/المتنوعة وعلاجها بمنتجات مجموعة نيستاتين + nifuratel المهبلية |
+| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | دراسة ما قبل السريرية (نموذج الفئران) | BMC Microbiology | عزّز نيستاتين الاستجابة المناعية المخاطية ضد *C. albicans* وحمى البنية فائقة الدقة للظهارة المهبلية في نموذج VVC في الفئران |
+| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | مراجعة | Obstetrics and Gynecology Clinics of North America | تراجع العوامل المضادة للفطريات الموضعية؛ لاحظ أن نيستاتين كانت العلاج الأصلي في الخمسينات لـ VVC قبل أن يتم التفوق عليها بواسطة imidazoles/triazoles |
+| [37023426](https://pubmed.ncbi.nlm.nih.gov/37023426/) | 2023 | دراسة مقارنة في الاختبار | J Infection in Developing Countries | قارن مناطق التثبيط من زيت شجرة الشاي (5%، 10%) مقابل نيستاتين ضد عزلات المبيضات المهبلية من الحوامل |
+| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | دراسة معملية | Infection and Drug Resistance | قارن النشاط المضاد للفطريات لجزيئات ZnO النانوية ونيستاتين، وتأثيرهما على تعبير جين الفوعة (SAP1-3) في *C. albicans* المقاومة للفلوكونازول من VVC |
+| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | مراجعة | Journal of Women's Health | تراجع حمض البوريك لـ VVC المتكررة في سياق مقاومة الأزول المتزايدة، وضع نيستاتين بين العلاجات البديلة |
+| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | مراجعة | BMJ Clinical Evidence | نظرة عامة على التهاب المهبل والفرج بسبب المبيضات؛ *C. albicans* تمثل 85–90% من الحالات، مما يؤسس المسببات الفطرية التي يستهدفها نيستاتين |
+| [12228137](https://pubmed.ncbi.nlm.nih.gov/12228137/) | 2002 | مراجعة | BMJ | مراجعة سريرية عامة لتشخيص وإدارة التهاب المهبل والفرج بسبب المبيضات |
 
 ---
 
-## Safety Considerations
+## معلومات السوق في تايوان
 
-Please refer to the package insert for safety information.
-
-*(Note: this Evidence Pack flags TFDA package-insert warnings/contraindications as a Blocking data gap (DG001) — this must be resolved before any Stage 1 safety assessment can proceed.)*
+نيستاتين حالياً ليس لديه تصريح تسويق في تايوان (0 ترخيص؛ حالة السوق: غير مسوق). لا توجد بيانات منتج/تصريح متاحة للجدولة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ورقة معلومات المستحضر للحصول على معلومات السلامة.
 
-**Rationale:**
-The mechanistic rationale is strong (direct antifungal activity against the likely causative organism) and is backed by 20 publications, including a sizeable susceptibility/outcome cohort (n=283) and an animal mechanistic study — sufficient to warrant continued interest (L3, evidence level). However, there are no registered clinical trials testing nystatin specifically for vulvovaginitis, and the drug currently has no marketing authorization in Taiwan, so guardrails (formulation/route confirmation, safety data completion) are required before advancing further.
+*(ملاحظة: تحدد هذه مجموعة الأدلة تحذيرات ورقة معلومات المستحضر لـ TFDA / موانع الاستعمال كفجوة بيانات حجاب (DG001) — يجب حل هذا قبل أن تتمكن من المتابعة مع أي تقييم سلامة من المرحلة 1.)*
 
-**To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: obtain TFDA/manufacturer package-insert warnings and contraindications
-- Resolve High-severity data gap DG002: confirm detailed mechanism of action via DrugBank API
-- Confirm route/formulation availability (vaginal tablet/cream) since the drug is not currently marketed in Taiwan
-- Consider a prospective RCT comparing vaginal nystatin against azole therapy specifically for vulvovaginitis/VVC to upgrade the evidence level beyond L3
-- Complete drug-interaction (DDI) query, currently returning "not found"
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع تدابير الحماية**
+
+**المنطق:**
+المنطق الآلي قوي (النشاط المضاد للفطريات المباشر ضد الكائن المسبب المحتمل) وتدعمه 20 منشوراً، بما في ذلك دراسة أتراب حساسية/نتيجة كبيرة الحجم (n=283) ودراسة آلية حيوية للحيوان — كاف لتبرير الاهتمام المستمر (L3، مستوى الأدلة). ومع ذلك، لا توجد تجارب سريرية مسجلة تختبر نيستاتين بشكل خاص لالتهاب المهبل والفرج، والعقار حالياً لا يحمل تصريح تسويق في تايوان، لذلك تدابير الحماية (تأكيد الصيغة/الطريق، إكمال بيانات السلامة) مطلوبة قبل التقدم لاحقاً.
+
+**للمتابعة، يلزم ما يلي:**
+- حل فجوة البيانات الحجاب DG001: الحصول على تحذيرات/موانع استعمال ورقة معلومات المستحضر TFDA/المصنع
+- حل فجوة البيانات عالية الخطورة DG002: تأكيد آلية العمل التفصيلية عبر استعلام DrugBank API
+- تأكيد توفر الطريق/الصيغة (قرص مهبلي/كريم) حيث أن العقار غير مسوق حالياً في تايوان
+- النظر في تجربة عشوائية محكومة محتملة تقارن نيستاتين المهبلية مقابل العلاج بالأزول تحديداً لالتهاب المهبل والفرج/VVC لترقية مستوى الأدلة إلى ما وراء L3
+- إكمال استعلام تفاعلات العقاقير الدوائية (DDI)، والذي يعود حالياً بـ "غير موجود"
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

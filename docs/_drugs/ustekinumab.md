@@ -29,80 +29,81 @@ indication_count: 10
 
 </div>
 
-# Ustekinumab: From Plaque Psoriasis to Dermatitis (Atopic Dermatitis)
+# استيكينوماب: من الصدفية اللويحية إلى التهاب الجلد (التهاب الجلد التأتبي)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ustekinumab is a human IgG1 monoclonal antibody targeting the shared p40 subunit of IL‑12/IL‑23, originally developed for moderate-to-severe plaque psoriasis (also approved for psoriatic arthritis, Crohn's disease and ulcerative colitis).
-The TxGNN model predicts it may be effective for **dermatitis** (primarily atopic dermatitis, based on the supporting evidence), with **7 clinical trials** and **20 publications** currently supporting this direction, including two completed placebo-controlled Phase 2 RCTs specifically in atopic dermatitis.
+استيكينوماب هو جسم مضاد أحادي النسيلة من الفئة IgG1 بشري يستهدف الوحدة الفرعية المشتركة p40 من IL‑12/IL‑23، وقد تم تطويره في الأصل لعلاج الصدفية اللويحية المتوسطة إلى الشديدة (وقد تمت الموافقة عليه أيضاً لالتهاب المفاصل الصدفوي وداء كرون والتهاب القولون التقرحي).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لعلاج **التهاب الجلد** (بشكل أساسي التهاب الجلد التأتبي، بناءً على الأدلة الداعمة)، مع **7 تجارب سريرية** و**20 منشور** تدعم حالياً هذا الاتجاه، بما في ذلك دراستا تجربة عشوائية مضبوطة بالعقار الوهمي في المرحلة 2 مكتملتان بشكل خاص في التهاب الجلد التأتبي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Moderate-to-severe plaque psoriasis, psoriatic arthritis, Crohn's disease, ulcerative colitis (per literature evidence; not confirmed via Saudi Arabia licensing data, as the product is not yet marketed there) |
-| Predicted New Indication | Dermatitis (evidence concentrates on atopic dermatitis) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الصدفية اللويحية المتوسطة إلى الشديدة، والتهاب المفاصل الصدفوي، وداء كرون، والتهاب القولون التقرحي (بناءً على الأدلة من الأدبيات؛ لم يتم تأكيده عن طريق بيانات الترخيص في المملكة العربية السعودية، حيث أن المنتج لم يتم تسويقه هناك بعد) |
+| الاستطباب الجديد المتنبأ به | التهاب الجلد (تركز الأدلة على التهاب الجلد التأتبي) |
+| درجة التنبؤ TxGNN | 99.99% |
+| مستوى الأدلة | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ لم يتم تسويقه |
+| عدد الموافقات | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Based on literature evidence within the pack (PMID 27304428), ustekinumab is an IL-12/IL-23p40 antagonist that suppresses Th1, Th17 and Th22 activation, and is commonly used in psoriasis. A separate study (PMID 27745907) directly demonstrates that ustekinumab treatment in severe atopic dermatitis down-regulates Th2/Th22 expression, providing direct mechanistic evidence for activity in dermatitis beyond psoriasis.
+بناءً على الأدلة من الأدبيات الواردة في الملف (PMID 27304428)، استيكينوماب هو مضاد IL-12/IL-23p40 يثبط تنشيط Th1 و Th17 و Th22، ويُستخدم بشكل شائع في الصدفية. تُظهر دراسة منفصلة (PMID 27745907) بشكل مباشر أن العلاج باستيكينوماب في التهاب الجلد التأتبي الحاد ينظم بشكل سلبي تعبير Th2/Th22، مما يوفر أدلة مباشرة على الفعالية في التهاب الجلد بما يتجاوز الصدفية.
 
-Psoriasis and atopic dermatitis are both chronic inflammatory skin diseases with overlapping — though not identical — cytokine pathways (Th17/Th22 axis shared, Th2 axis more dominant in AD). This partial mechanistic overlap is why a drug developed for psoriasis has plausible, though not guaranteed, activity in atopic dermatitis, and explains why multiple independent research groups (including a Japanese Phase 2 program, PMID 28338223) have tested ustekinumab in AD populations.
+الصدفية والتهاب الجلد التأتبي هما أمراض جلدية التهابية مزمنة مع مسارات السيتوكين المتداخلة - وإن لم تكن متطابقة - (محور Th17/Th22 مشترك، محور Th2 أكثر هيمنة في AD). إن هذا التداخل الآلي الجزئي هو السبب في أن الدواء المطور للصدفية له نشاط معقول، وإن لم يكن مضموناً، في التهاب الجلد التأتبي، ويشرح السبب في أن عدة مجموعات بحثية مستقلة (بما في ذلك برنامج المرحلة 2 الياباني، PMID 28338223) اختبرت استيكينوماب في السكان المصابين بـ AD.
 
-Detailed original mechanism-of-action data from DrugBank was not available in this evidence pack (flagged as data gap DG002), so the above rationale is derived from the clinical/literature evidence rather than a formal MOA record.
+لم تكن بيانات آلية العمل الأصلية المفصلة من DrugBank متاحة في هذا الملف (تم الإشارة إليها كفجوة بيانات DG002)، لذا فإن الأساس المنطقي أعلاه مشتق من الأدلة السريرية/الأدبيات بدلاً من سجل MOA الرسمي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | Completed | 32 | Randomized pilot study of ustekinumab in chronic atopic dermatitis with sub-optimal response to prior therapy |
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | Completed | 79 | Randomized, double-blind, placebo-controlled study of ustekinumab in adult Japanese subjects with severe atopic dermatitis |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | Recruiting | 45 | Contact dermatitis suction-blistering model to study biologic effects on skin inflammation |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Cutaneous microdevice testing FDA-approved atopic dermatitis/psoriasis drugs directly on skin |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | Completed | 676 | CLEAR study: secukinumab vs. ustekinumab efficacy (PASI-16wk) in moderate-to-severe plaque psoriasis |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Completed | 126 | Cardiovascular risk assessment in severe psoriasis patients treated with biologic agents |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completed | 1000 | Pharmacogenetic observational study of 10-year biologic therapy survival in cutaneous psoriasis/PsA |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | المرحلة 2 | مكتملة | 32 | دراسة تجريبية عشوائية للاستيكينوماب في التهاب الجلد التأتبي المزمن مع استجابة دون المستوى الأمثل للعلاج السابق |
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | المرحلة 2 | مكتملة | 79 | دراسة عشوائية عمياء مضبوطة بالعقار الوهمي للاستيكينوماب في البالغين اليابانيين الذين يعانون من التهاب الجلد التأتبي الحاد |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | المرحلة 2/3 | جاري التجنيد | 45 | نموذج تقرح الشفط لالتهاب الجلد التماسي لدراسة التأثيرات البيولوجية على التهاب الجلد |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | المرحلة 4 | لم يبدأ التجنيد بعد | 10 | اختبار جهاز ميكروي جلدي للأدوية المعتمدة من إدارة الغذاء والدواء للالتهاب الجلد التأتبي / الصدفية مباشرة على الجلد |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | المرحلة 3 | مكتملة | 676 | دراسة CLEAR: فعالية سيكوكينوماب مقابل استيكينوماب (PASI-16wk) في الصدفية اللويحية المتوسطة إلى الشديدة |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | غير محدد | مكتملة | 126 | تقييم مخاطر القلب والأوعية الدموية في مرضى الصدفية الحادة الذين يعالجون بالعوامل البيولوجية |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | غير محدد | مكتملة | 1000 | دراسة رصدية الصيدلانية الجينية لبقاء العلاج البيولوجي لمدة 10 سنوات في الصدفية الجلدية / التهاب المفاصل الصدفوي |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Phase 2) | Experimental Dermatology | Efficacy and safety of ustekinumab in adults with moderate-to-severe atopic dermatitis |
-| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Phase 2) | British Journal of Dermatology | Randomized, double-blind, placebo-controlled trial of ustekinumab in Japanese patients with severe atopic dermatitis |
-| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | Clinical study | Journal of the American Academy of Dermatology | Ustekinumab in severe atopic dermatitis down-regulates Th2/Th22 expression, supporting mechanistic plausibility |
-| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematic Review / Meta-analysis | Allergy | Evidence base for EAACI guideline on systemic treatments for moderate-to-severe atopic dermatitis |
-| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematic Review | Journal of Dermatological Treatment | Systematic review of ustekinumab efficacy and safety in atopic dermatitis |
-| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematic Review / Meta-analysis | American Journal of Clinical Dermatology | Are biologics efficacious in atopic dermatitis? |
-| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Real-world evidence | Journal of Dermatological Treatment | Real-world effectiveness analysis of ustekinumab in atopic dermatitis patients |
-| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatologic Therapy | Review of off-label uses of ustekinumab, including atopic dermatitis and other inflammatory conditions |
-| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | Real-world safety analysis | International Immunopharmacology | FAERS-based real-world safety analysis of ustekinumab in psoriasis/PsA |
-| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | Case report | Australasian Journal of Dermatology | Combination dupilumab + ustekinumab for concurrent severe atopic dermatitis and Crohn's disease |
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | تجربة عشوائية مضبوطة (المرحلة 2) | Experimental Dermatology | فعالية وسلامة الاستيكينوماب في البالغين الذين يعانون من التهاب الجلد التأتبي المتوسط إلى الشديد |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | تجربة عشوائية مضبوطة (المرحلة 2) | British Journal of Dermatology | تجربة عشوائية عمياء مضبوطة بالعقار الوهمي للاستيكينوماب في المرضى اليابانيين الذين يعانون من التهاب الجلد التأتبي الحاد |
+| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | دراسة سريرية | Journal of the American Academy of Dermatology | الاستيكينوماب في التهاب الجلد التأتبي الحاد ينظم بشكل سلبي تعبير Th2/Th22، مما يدعم الجدوى الآلية |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | مراجعة منهجية / تحليل تلوي | Allergy | قاعدة الأدلة لإرشادات EAACI حول العلاجات الجهازية لالتهاب الجلد التأتبي المتوسط إلى الشديد |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | مراجعة منهجية | Journal of Dermatological Treatment | مراجعة منهجية لفعالية الاستيكينوماب وسلامته في التهاب الجلد التأتبي |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | مراجعة منهجية / تحليل تلوي | American Journal of Clinical Dermatology | هل العوامل البيولوجية فعالة في التهاب الجلد التأتبي؟ |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | أدلة من الواقع | Journal of Dermatological Treatment | تحليل فعالية الاستيكينوماب في الواقع بين مرضى التهاب الجلد التأتبي |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | مراجعة | Dermatologic Therapy | مراجعة الاستخدامات خارج المؤشرات المعتمدة للاستيكينوماب، بما في ذلك التهاب الجلد التأتبي والحالات الالتهابية الأخرى |
+| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | تحليل سلامة من الواقع | International Immunopharmacology | تحليل السلامة من الواقع بناءً على FAERS للاستيكينوماب في الصدفية / التهاب المفاصل الصدفوي |
+| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | تقرير حالة | Australasian Journal of Dermatology | مزيج من ديبيلوماب + استيكينوماب لالتهاب الجلد التأتبي الحاد المتزامن وداء كرون |
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Ustekinumab is currently not marketed in Saudi Arabia — no authorization records are available in the evidence pack.
+استيكينوماب لا يتم تسويقه حالياً في المملكة العربية السعودية — لا توجد سجلات موافقات متاحة في الملف.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. Key warnings, contraindications and drug-drug interaction data were not available at the time of this evaluation (TFDA package insert data collection is flagged as a **blocking** data gap — DG001).
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة. لم تكن البيانات الرئيسية عن التحذيرات والموانع والتفاعلات بين الأدوية متاحة في وقت هذا التقييم (تم الإشارة إلى جمع بيانات نشرة TFDA كفجوة بيانات **حاجزة** - DG001).
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-Two completed placebo-controlled Phase 2 RCTs plus multiple systematic reviews support biological plausibility and preliminary efficacy of ustekinumab in atopic dermatitis, but the drug is not yet marketed in Saudi Arabia and the TFDA package insert (warnings/contraindications) has not been obtained — this is a blocking gap that prevents entry into the S1 safety pre-assessment stage.
+**الأساس المنطقي:**
+تدعم دراستا تجربة عشوائية مضبوطة بالعقار الوهمي في المرحلة 2 المكتملتان بالإضافة إلى عدة مراجعات منهجية الجدوى البيولوجية والفعالية الأولية للاستيكينوماب في التهاب الجلد التأتبي، لكن الدواء لم يتم تسويقه بعد في المملكة العربية السعودية ولم يتم الحصول على نشرة TFDA (التحذيرات / الموانع) - وهي فجوة حاجزة تمنع الدخول إلى مرحلة التقييم الأولي للسلامة S1.
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/regulatory package insert warnings and contraindications (DG001, blocking)
-- Obtain confirmed DrugBank mechanism-of-action record (DG002)
-- Confirm drug-drug interaction profile (currently "not found")
-- Assess local regulatory pathway given current "not marketed" status in Saudi Arabia
+**للمضي قدماً، يلزم ما يلي:**
+- الحصول على تحذيرات نشرة TFDA / التنظيمية والموانع (DG001، حاجزة)
+- الحصول على سجل آلية العمل المؤكد من DrugBank (DG002)
+- تأكيد ملف التفاعلات بين الأدوية (حالياً "لم يتم العثور عليه")
+- تقييم المسار التنظيمي المحلي نظراً لحالة "عدم التسويق" الحالية في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

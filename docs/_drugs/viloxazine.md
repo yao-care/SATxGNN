@@ -29,98 +29,99 @@ indication_count: 10
 
 </div>
 
-# Viloxazine: From an Unlicensed Legacy Drug to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# فيلوكسازين: من عقار إرثي غير مرخص إلى اضطراب نقص الانتباه/فرط النشاط (ADHD)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Viloxazine (DB09185) is not currently marketed in this jurisdiction, and no locally approved indication is on file.
-> The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)** —
-> a prediction already validated abroad, since viloxazine ER (Qelbree®/SPN-812) received FDA approval for pediatric and adult ADHD in 2021.
-> **14 clinical trials** and **20 publications** currently support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication on file (0 local licenses; drug not marketed locally) |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> فيلوكسازين (DB09185) غير مسوق حالياً في هذه الولاية القضائية، وليس هناك أي مؤشر معتمد محلياً في الملف.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب نقص الانتباه/فرط النشاط (ADHD)** —
+> تنبؤ تم التحقق منه بالفعل في الخارج، حيث حصل فيلوكسازين إي آر (Qelbree®/SPN-812) على موافقة FDA لـ ADHD عند الأطفال والبالغين في عام 2021.
+> **14 تجربة سريرية** و **20 منشور علمي** يدعمان هذا الاتجاه حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed formal MOA documentation for viloxazine is not yet on file (Data Gap DG002). However, the evidence pack's own mechanistic analysis indicates viloxazine is a selective norepinephrine reuptake inhibitor (NRI) with weak 5-HT2C antagonist / 5-HT2B agonist activity — a pharmacological profile that directly targets the prefrontal cortex noradrenergic/dopaminergic dysregulation implicated in ADHD pathology.
-
-This is not a purely speculative model output: viloxazine extended-release (marketed as SPN-812/Qelbree®) already received FDA approval in 2021 for ADHD in children, adolescents, and adults, making this a **confirmed repurposing case** rather than an untested hypothesis. The TxGNN prediction here effectively recovers a real-world, regulator-validated indication.
-
-The "Not marketed" (not marketed) status in this dataset reflects a **local regulatory gap**, not an evidence gap — viloxazine has simply not yet been registered or authorized in this market, despite having an established efficacy and safety record elsewhere.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا يوجد مؤشر معتمد في الملف (0 ترخيصات محلية؛ العقار غير مسوق محلياً) |
+| المؤشر الجديد المتنبأ به | اضطراب نقص الانتباه/فرط النشاط (ADHD) |
+| درجة تنبؤ TxGNN | 99.95% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not Marketed) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع الحماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+لم يتم توثيق آلية العمل الرسمية المفصلة لفيلوكسازين بعد (الفجوة في البيانات DG002). غير أن تحليل آلية العمل الخاص بحزمة الأدلة يشير إلى أن فيلوكسازين هو مثبط انتقائي لإعادة امتصاص النوريبينفرين (NRI) مع نشاط ضعيف في منع/تنشيط مستقبل 5-HT2C / 5-HT2B — ملف دوائي يستهدف بشكل مباشر خلل تنظيم النورادرينالين/الدوبامين في القشرة الجبهية المرتبط بمرضية ADHD.
+
+هذا ليس ناتجاً عن نموذج بحتة تخميني: فيلوكسازين الممتدة المفعول (المسوقة باسم SPN-812/Qelbree®) حصلت بالفعل على موافقة FDA في عام 2021 لـ ADHD عند الأطفال والمراهقين والبالغين، مما يجعل هذا **حالة إعادة استخدام مؤكدة** وليس فرضية غير مختبرة. التنبؤ الذي أصدره TxGNN هنا يستعيد بشكل فعلي مؤشراً معتمداً من المنظمين في العالم الحقيقي.
+
+يعكس وضع "غير مسوق" في مجموعة البيانات هذه **فجوة تنظيمية محلية** وليس فجوة في الأدلة — فيلوكسازين ببساطة لم يتم تسجيله أو تصريحه في هذا السوق بعد، رغم أن لديه سجل فعالية وسلامة منشور في مكان آخر.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03247556](https://clinicaltrials.gov/study/NCT03247556) | Phase 3 | Completed | 297 | Pivotal trial of viloxazine ER 400/600 mg in adolescents (12–17) with ADHD |
-| [NCT03247517](https://clinicaltrials.gov/study/NCT03247517) | Phase 3 | Completed | 310 | Pivotal trial of viloxazine ER 200/400 mg in adolescents with ADHD |
-| [NCT03247530](https://clinicaltrials.gov/study/NCT03247530) | Phase 3 | Completed | 477 | Pivotal trial of viloxazine ER 100/200 mg in children (6–11) with ADHD |
-| [NCT03247543](https://clinicaltrials.gov/study/NCT03247543) | Phase 3 | Completed | 313 | Pivotal trial of viloxazine ER 200/400 mg (high dose) in children with ADHD |
-| [NCT04016779](https://clinicaltrials.gov/study/NCT04016779) | Phase 3 | Completed | 374 | Randomized, double-blind, placebo-controlled flexible-dose trial in adults (18–65) with ADHD |
-| [NCT02633527](https://clinicaltrials.gov/study/NCT02633527) | Phase 2 | Completed | 222 | Dose-ranging proof-of-concept study in children with ADHD, basis for Phase 3 design |
-| [NCT04786990](https://clinicaltrials.gov/study/NCT04786990) | Phase 4 | Completed | 96 | Open-label safety trial of viloxazine combined with psychostimulants in children/adolescents |
-| [NCT02736656](https://clinicaltrials.gov/study/NCT02736656) | Phase 3 | Active, not recruiting | 1400 | Long-term open-label extension study of safety/efficacy in pediatric ADHD |
-| [NCT06185985](https://clinicaltrials.gov/study/NCT06185985) | Phase 4 | Completed | 161 | Decentralized real-world trial in adults with ADHD and mood symptoms |
-| [NCT04143217](https://clinicaltrials.gov/study/NCT04143217) | Phase 3 | Completed | 159 | Long-term open-label extension study of safety/efficacy in adult ADHD |
+| [NCT03247556](https://clinicaltrials.gov/study/NCT03247556) | Phase 3 | مكتملة | 297 | تجربة محورية لفيلوكسازين ER 400/600 ملغ في المراهقين (12–17) مع ADHD |
+| [NCT03247517](https://clinicaltrials.gov/study/NCT03247517) | Phase 3 | مكتملة | 310 | تجربة محورية لفيلوكسازين ER 200/400 ملغ في المراهقين مع ADHD |
+| [NCT03247530](https://clinicaltrials.gov/study/NCT03247530) | Phase 3 | مكتملة | 477 | تجربة محورية لفيلوكسازين ER 100/200 ملغ في الأطفال (6–11) مع ADHD |
+| [NCT03247543](https://clinicaltrials.gov/study/NCT03247543) | Phase 3 | مكتملة | 313 | تجربة محورية لفيلوكسازين ER 200/400 ملغ (جرعة عالية) في الأطفال مع ADHD |
+| [NCT04016779](https://clinicaltrials.gov/study/NCT04016779) | Phase 3 | مكتملة | 374 | تجربة عشوائية معماة مزدوجة، مرنة الجرعة في البالغين (18–65) مع ADHD |
+| [NCT02633527](https://clinicaltrials.gov/study/NCT02633527) | Phase 2 | مكتملة | 222 | دراسة تحديد جرعات إثبات المفهوم عند الأطفال مع ADHD، أساس التصميم Phase 3 |
+| [NCT04786990](https://clinicaltrials.gov/study/NCT04786990) | Phase 4 | مكتملة | 96 | تجربة سلامة مفتوحة لفيلوكسازين مع منبهات نفسية في الأطفال/المراهقين |
+| [NCT02736656](https://clinicaltrials.gov/study/NCT02736656) | Phase 3 | نشطة، لا يتم التجنيد | 1400 | دراسة امتداد مفتوحة طويلة الأجل للسلامة/الفعالية في ADHD عند الأطفال |
+| [NCT06185985](https://clinicaltrials.gov/study/NCT06185985) | Phase 4 | مكتملة | 161 | تجربة لامركزية في العالم الحقيقي في البالغين مع ADHD وأعراض مزاجية |
+| [NCT04143217](https://clinicaltrials.gov/study/NCT04143217) | Phase 3 | مكتملة | 159 | دراسة امتداد مفتوحة طويلة الأجل للسلامة/الفعالية في ADHD عند البالغين |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [35896943](https://pubmed.ncbi.nlm.nih.gov/35896943/) | 2022 | RCT | CNS Drugs | Phase III RCT confirming efficacy and safety of viloxazine ER in adults with ADHD |
-| [40203844](https://pubmed.ncbi.nlm.nih.gov/40203844/) | 2025 | Cohort/Network Meta-analysis | Lancet Psychiatry | Comparative cardiovascular safety of ADHD medications across age groups |
-| [37166701](https://pubmed.ncbi.nlm.nih.gov/37166701/) | 2023 | Systematic Review/Meta-analysis | CNS Drugs | Systematic review of nonstimulant medications, including viloxazine, for adult ADHD |
-| [38137075](https://pubmed.ncbi.nlm.nih.gov/38137075/) | 2023 | Systematic Review/Meta-analysis | Brain Sciences | Efficacy and safety meta-analysis of SPN-812 (viloxazine ER) in children/adolescents |
-| [35615643](https://pubmed.ncbi.nlm.nih.gov/35615643/) | 2022 | Systematic Review/Meta-analysis | J Cent Nerv Syst Dis | Systematic review and meta-analysis of RCTs on viloxazine for ADHD |
-| [38950507](https://pubmed.ncbi.nlm.nih.gov/38950507/) | 2024 | Bayesian Network Meta-analysis | J Psychiatr Res | Efficacy/safety of monoamine reuptake inhibitors (including viloxazine) in ADHD |
-| [41123831](https://pubmed.ncbi.nlm.nih.gov/41123831/) | 2025 | Review | CNS Drugs | Review of viloxazine ER pharmacology and use in adult ADHD |
-| [34975586](https://pubmed.ncbi.nlm.nih.gov/34975586/) | 2021 | Review | Frontiers in Psychiatry | Review of viloxazine's FDA approval basis: four Phase 3 studies in >1,000 pediatric patients |
-| [36168642](https://pubmed.ncbi.nlm.nih.gov/36168642/) | 2022 | Review | Health Psychology Research | Review of viloxazine as a nonstimulant ADHD treatment option |
-| [38502148](https://pubmed.ncbi.nlm.nih.gov/38502148/) | 2024 | Review | Expert Rev Neurother | Review of viloxazine ER as an emerging treatment for pediatric/adolescent ADHD |
+| [35896943](https://pubmed.ncbi.nlm.nih.gov/35896943/) | 2022 | RCT | CNS Drugs | تجربة عشوائية Phase III تؤكد فعالية وسلامة فيلوكسازين ER في البالغين مع ADHD |
+| [40203844](https://pubmed.ncbi.nlm.nih.gov/40203844/) | 2025 | دراسة مقطعية/تحليل شبكة | Lancet Psychiatry | السلامة القلبية الوعائية المقارنة للأدوية ADHD عبر فئات العمر |
+| [37166701](https://pubmed.ncbi.nlm.nih.gov/37166701/) | 2023 | مراجعة منهجية/تحليل شامل | CNS Drugs | مراجعة منهجية للأدوية غير المنبهة، بما في ذلك فيلوكسازين، لـ ADHD عند البالغين |
+| [38137075](https://pubmed.ncbi.nlm.nih.gov/38137075/) | 2023 | مراجعة منهجية/تحليل شامل | Brain Sciences | تحليل شامل للفعالية والسلامة لـ SPN-812 (فيلوكسازين ER) في الأطفال/المراهقين |
+| [35615643](https://pubmed.ncbi.nlm.nih.gov/35615643/) | 2022 | مراجعة منهجية/تحليل شامل | J Cent Nerv Syst Dis | مراجعة منهجية وتحليل شامل للتجارب العشوائية على فيلوكسازين لـ ADHD |
+| [38950507](https://pubmed.ncbi.nlm.nih.gov/38950507/) | 2024 | تحليل شبكة بايزي | J Psychiatr Res | فعالية/سلامة مثبطات إعادة امتصاص أحادي الأمين (بما في ذلك فيلوكسازين) في ADHD |
+| [41123831](https://pubmed.ncbi.nlm.nih.gov/41123831/) | 2025 | مراجعة | CNS Drugs | مراجعة الديناميكا الدوائية لفيلوكسازين ER والاستخدام في ADHD عند البالغين |
+| [34975586](https://pubmed.ncbi.nlm.nih.gov/34975586/) | 2021 | مراجعة | Frontiers in Psychiatry | مراجعة أساس موافقة FDA لفيلوكسازين: أربع دراسات Phase 3 في >1,000 مريض بالغ |
+| [36168642](https://pubmed.ncbi.nlm.nih.gov/36168642/) | 2022 | مراجعة | Health Psychology Research | مراجعة فيلوكسازين كخيار علاج ADHD غير منبه |
+| [38502148](https://pubmed.ncbi.nlm.nih.gov/38502148/) | 2024 | مراجعة | Expert Rev Neurother | مراجعة فيلوكسازين ER كعلاج ناشئ لـ ADHD عند الأطفال/المراهقين |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No marketing authorizations are currently on file — viloxazine has 0 registered licenses and is not marketed in this jurisdiction, despite FDA approval in the United States (as Qelbree®/SPN-812) for the same predicted indication.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تصاريح تسويقية حالية في الملف — فيلوكسازين لديه 0 ترخيصات مسجلة وغير مسوق في هذه الولاية القضائية، رغم الموافقة من قبل FDA في الولايات المتحدة (باسم Qelbree®/SPN-812) للمؤشر المتنبأ به نفسه.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-The predicted ADHD indication is backed by an unusually strong evidence base — 5 completed pivotal Phase 3 RCTs plus multiple systematic reviews/meta-analyses — and is already an FDA-approved use (Qelbree®). The main barrier is not clinical evidence but the complete absence of local regulatory and safety documentation (0 licenses, no package insert data on file).
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings, contraindications, and DDI data (blocking gap DG001)
-- Confirmed, sourced mechanism of action documentation (DG002)
-- A local registration/market-entry assessment leveraging the existing FDA approval dossier for viloxazine ER
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الحماية**
+
+**المنطق:**
+المؤشر المتنبأ به من ADHD يدعمه قاعدة أدلة غير عادية قوية — 5 تجارب عشوائية محورية Phase 3 مكتملة بالإضافة إلى مراجعات منهجية/تحليلات شاملة متعددة — وهو بالفعل استخدام معتمد من FDA (Qelbree®). العائق الرئيسي ليس الدليل السريري بل الغياب الكامل للتوثيق التنظيمي والسلامة المحلية (0 ترخيصات، لا توجد بيانات ملخص خصائص المنتج في الملف).
+
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات ملخص خصائص المنتج TFDA/SFDA والموانع والتفاعلات الدوائية (فجوة حجزية DG001)
+- توثيق آلية عمل مؤكد ومصدر (DG002)
+- تقييم تسجيل/دخول السوق المحلي يستفيد من ملف موافقة FDA الموجود لفيلوكسازين ER
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

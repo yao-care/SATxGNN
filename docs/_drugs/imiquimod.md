@@ -29,96 +29,97 @@ indication_count: 10
 
 </div>
 
-# Imiquimod: From External Genital Warts to Pre-malignant Neoplasm
+# إيميكويمود: من الثآليل التناسلية الخارجية إلى الأورام السابقة للتحول الخبيث
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Imiquimod is a topical Toll-like receptor 7 (TLR7) agonist internationally approved for external genital/perianal warts, superficial basal cell carcinoma, and actinic keratosis. The TxGNN model predicts it may also be effective for **Pre-malignant Neoplasm** (a broad category encompassing HPV-related intraepithelial lesions), with **19 clinical trials** and **9 publications** currently identified in support of this direction, though the drug is not currently marketed in Saudi Arabia.
+إيميكويمود هو ناهض موضعي لمستقبلات Toll-like 7 (TLR7) مصرح به دولياً لعلاج الثآليل التناسلية والعجانية الخارجية والسرطانة الكاذبة السطحية والتقران الشمسي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لعلاج **الأورام السابقة للتحول الخبيث** (فئة واسعة تشمل الآفات داخل الجلد المرتبطة بفيروس الورم الحليمي البشري)، مع **19 تجربة سريرية** و**9 منشورات** محددة حالياً لدعم هذا الاتجاه، على الرغم من أن الدواء غير مسوق حالياً في المملكة العربية السعودية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not formally recorded in the Saudi Arabia regulatory dataset (drug unmarketed); internationally, imiquimod is approved for external genital/perianal warts, superficial basal cell carcinoma, and actinic keratosis |
-| Predicted New Indication | Pre-malignant Neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسجل رسمياً في مجموعة البيانات التنظيمية بالمملكة العربية السعودية (الدواء غير مسوق)؛ دولياً، يصرح إيميكويمود لعلاج الثآليل التناسلية والعجانية الخارجية وسرطانة الخلايا القاعدية السطحية والتقران الشمسي |
+| المؤشر المتنبأ به الجديد | الأورام السابقة للتحول الخبيث |
+| درجة التنبؤ بـ TxGNN | 99.92% |
+| مستوى الدليل | L1 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed, formally sourced mechanism-of-action data for imiquimod is not available in this evidence pack. Based on well-established pharmacological knowledge, imiquimod is a TLR7 agonist that activates plasmacytoid dendritic cells and macrophages, inducing local secretion of IFN-α and TNF-α. This drives a Th1-skewed immune response that clears HPV-infected and dysplastic epithelial cells at the site of topical application.
+بيانات آلية العمل المفصلة والمصدر الرسمي لإيميكويمود غير متاحة في حزمة الأدلة هذه. بناءً على المعرفة الصيدلية الراسخة جيداً، إيميكويمود هو ناهض TLR7 يفعّل الخلايا المغصبة البلازماوية والضاعفات البلعمية، مما يحفز على إفراز موضعي لـ IFN-α و TNF-α. يدفع هذا استجابة مناعية متحيزة نحو Th1 تزيل خلايا الجلد المصابة بفيروس الورم الحليمي البشري والخلايا خللية الشكل في موقع التطبيق الموضعي.
 
-The predicted indication, "pre-malignant neoplasm," is mechanistically continuous with imiquimod's already-established uses. HPV-driven intraepithelial dysplasias — including cervical intraepithelial neoplasia (CIN), vulvar intraepithelial neoplasia (VIN), anal intraepithelial neoplasia (AIN), actinic keratosis (AK), and Bowenoid papulosis — share the same underlying biology as external genital warts: localized epithelial proliferation susceptible to TLR7-mediated immune clearance. This class of premalignant lesion is already a recognized, widely used application area for imiquimod in clinical practice, which supports a high degree of mechanistic consistency for this prediction.
+المؤشر المتنبأ به، "الورم السابق للتحول الخبيث"، يتواصل ميكانيكياً مع الاستخدامات المثبتة بالفعل لإيميكويمود. الخللية داخل الجلد التي يسببها فيروس الورم الحليمي البشري — بما في ذلك الخللية داخل عنق الرحم (CIN) والخللية داخل الفرج (VIN) والخللية داخل الشرج (AIN) والتقران الشمسي (AK) وحليمات الورم الجسم — تشارك نفس البيولوجيا الأساسية للثآليل التناسلية الخارجية: فرط تنسج جلدي موضعي عرضة لإزالة مناعة وسيطة TLR7. هذه فئة من الآفات السابقة للتحول الخبيث معترف بها بالفعل وتطبيق واسع الاستخدام لإيميكويمود في الممارسة السريرية، وهذا يدعم درجة عالية من الاتساق الآلي لهذا التنبؤ.
 
-Where the evidence is weaker is in extrapolating this mechanism to anatomically distinct or deep-tissue sites (e.g., oral mucosa, salivary gland, inner ear) — these are addressed separately in lower-ranked predictions not covered by this lead indication.
+حيث يكون الدليل أضعف هو في استقراء هذه الآلية إلى مواقع تشريحية مختلفة أو أنسجة عميقة (مثل الغشاء المخاطي الفموي، الغدة اللعابية، الأذن الداخلية) — يتم معالجة هذه بشكل منفصل في تنبؤات بتصنيف أقل لا تغطيها هذه المؤشرات الرئيسية.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Terminated | 9 | RCT of topical imiquimod for high-grade cervical intraepithelial neoplasia (CIN 2-3) as a non-invasive alternative to LLETZ excision; directly targets the predicted indication but stopped early, limiting statistical power |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Phase 3 | Completed | 259 | Imiquimod as neoadjuvant treatment for lentigo maligna (a premalignant melanocytic lesion) to reduce surgical excision margins; largest completed Phase 3 trial directly on a premalignant lesion |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Phase 2 | Completed | 90 | Brazilian RCT evaluating topical imiquimod efficacy in high-grade cervical intraepithelial lesions caused by persistent HPV infection |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Phase 2 | Completed | 5 | Explorative study of immune escape mechanisms in HPV-associated VIN 2/3 and anogenital warts, and imiquimod treatment efficiency; small sample, mechanism-focused |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Phase 3 | Unknown | 145 | Non-inferiority RCT comparing surgical excision to curettage plus imiquimod for nodular basal cell carcinoma; related skin-tumor immunotherapy mechanism |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Early Phase 1 | Completed | 16 | Neoadjuvant TLR7 agonist (imiquimod/Aldara) immunotherapy pilot in early-stage oral squamous cell carcinoma |
-| [NCT03057340](https://clinicaltrials.gov/study/NCT03057340) | Phase 1 | Unknown | 30 | Imiquimod used as a vaccine adjuvant in advanced lung cancer immunotherapy; disease setting differs substantially from premalignant lesions |
-| [NCT01792505](https://clinicaltrials.gov/study/NCT01792505) | Phase 1 | Completed | 71 | Surgical resection followed by dendritic-cell vaccine plus imiquimod in malignant glioma; imiquimod plays an adjuvant, not primary, role |
-| [NCT03872947](https://clinicaltrials.gov/study/NCT03872947) | Phase 1b | Active, not recruiting | 138 | Dose/safety/PK study combining multiple anticancer regimens (including imiquimod cream) in advanced solid tumors; imiquimod's specific role is not well defined |
-| [NCT04072900](https://clinicaltrials.gov/study/NCT04072900) | Phase 1 | Unknown | 30 | Personalized neoantigen vaccine combined with anti-PD-1 in metastatic melanoma; metastatic setting, not premalignant disease |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | المرحلة 3 | توقفت | 9 | تجربة محكومة معشاة لإيميكويمود الموضعي لخللية عنق الرحم عالية الدرجة (CIN 2-3) كبديل غير جراحي لاستئصال LLETZ؛ تستهدف مباشرة المؤشر المتنبأ به لكن توقفت مبكراً مما يحد من القوة الإحصائية |
+| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | المرحلة 3 | مكتملة | 259 | إيميكويمود كعلاج neoadjuvant لـ lentigo maligna (آفة ميلانينية سابقة للتحول الخبيث) لتقليل هوامش الاستئصال الجراحي؛ أكبر تجربة المرحلة 3 مكتملة مباشرة على آفة سابقة للتحول الخبيث |
+| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | المرحلة 2 | مكتملة | 90 | تجربة محكومة معشاة برازيلية تقيم فعالية إيميكويمود الموضعي في آفات عنق الرحم داخل الجلد عالية الدرجة الناجمة عن عدوى فيروس الورم الحليمي البشري المستمرة |
+| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | المرحلة 2 | مكتملة | 5 | دراسة استكشافية لآليات الهروب المناعي في VIN 2/3 والثآليل العجانية المرتبطة بفيروس الورم الحليمي البشري وكفاءة علاج إيميكويمود؛ عينة صغيرة تركز على الآلية |
+| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | المرحلة 3 | غير معروف | 145 | تجربة محكومة معشاة غير دونية تقارن الاستئصال الجراحي بالكشط بالإضافة إلى إيميكويمود لسرطانة الخلايا القاعدية العقدية؛ آلية مناعة سرطان الجلد ذات صلة |
+| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | المرحلة المبكرة 1 | مكتملة | 16 | neoadjuvant TLR7 agonist (إيميكويمود/Aldara) العلاج المناعي التجريبي في سرطانة الخلايا الحرشفية الفموية مبكرة المرحلة |
+| [NCT03057340](https://clinicaltrials.gov/study/NCT03057340) | المرحلة 1 | غير معروف | 30 | إيميكويمود المستخدم كمساعد لقاح في العلاج المناعي لسرطان الرئة المتقدم؛ إعداد المرض يختلف بشكل جوهري عن الآفات السابقة للتحول الخبيث |
+| [NCT01792505](https://clinicaltrials.gov/study/NCT01792505) | المرحلة 1 | مكتملة | 71 | الاستئصال الجراحي متبوعاً بلقاح الخلايا المغصبة بالإضافة إلى إيميكويمود في الورم الدبقي الخبيث؛ إيميكويمود يلعب دوراً مساعداً وليس أساسياً |
+| [NCT03872947](https://clinicaltrials.gov/study/NCT03872947) | المرحلة 1b | نشطة، غير مسجلة | 138 | دراسة الجرعة/السلامة/PK تدمج أنظمة علاجية سرطانية متعددة (بما في ذلك كريم إيميكويمود) في الأورام الصلبة المتقدمة؛ الدور المحدد لإيميكويمود غير محدد بشكل جيد |
+| [NCT04072900](https://clinicaltrials.gov/study/NCT04072900) | المرحلة 1 | غير معروف | 30 | لقاح حتمي شخصي مع مضادات PD-1 في الورم الميلانيني النقيلي؛ الإعداد النقيلي وليس المرض السابق للتحول الخبيث |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Review of interventions, including imiquimod, for anal canal intraepithelial neoplasia (AIN), a premalignant HPV-associated condition |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Review of medical interventions, including imiquimod, for high-grade vulval intraepithelial neoplasia (VIN) |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | International Journal of Molecular Sciences | Overview of combined photodynamic therapy approaches for non-melanoma skin cancer, contextualizing topical immunomodulators like imiquimod |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Letter | Current management review of actinic keratosis, a premalignant cutaneous lesion, including topical imiquimod as a field therapy |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Seminars in Cutaneous Medicine and Surgery | Review of topical treatment strategies, including imiquimod, for non-melanoma skin cancer and precursor (premalignant) lesions |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preclinical/Animal PK-PD | Urologic Oncology | Pharmacokinetic/pharmacodynamic comparison of TLR7 agonists (related class) for premalignant skin lesions and investigational bladder cancer use |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Case Report | International Journal of STD & AIDS | Successful treatment of high-grade VIN with topical imiquimod 5% in an immunosuppressed renal transplant recipient |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Case Report/Imaging | Der Hautarzt | OCT imaging case of disseminated superficial actinic porokeratosis with coexisting premalignant actinic keratoses resistant to topical treatment |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case Report | International Journal of STD & AIDS | Bowenoid papulosis of the penis (a premalignant HPV-related condition) successfully treated with topical imiquimod 5% cream |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | مراجعة منهجية (Cochrane) | Cochrane Database of Systematic Reviews | مراجعة التدخلات، بما في ذلك إيميكويمود، لخللية قناة الشرج (AIN) وهي حالة سابقة للتحول الخبيث مرتبطة بفيروس الورم الحليمي البشري |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | مراجعة منهجية (Cochrane) | Cochrane Database of Systematic Reviews | مراجعة التدخلات الطبية، بما في ذلك إيميكويمود، لخللية الفرج عالية الدرجة (VIN) |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | مراجعة | International Journal of Molecular Sciences | نظرة عامة على نهج العلاج بالضوء الديناميكي المدمج لسرطان الجلد غير الميلانيني، مما يوضح موضع المعدلات المناعية الموضعية مثل إيميكويمود |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | مراجعة | Skin Therapy Letter | مراجعة الإدارة الحالية للتقران الشمسي وهي آفة جلدية سابقة للتحول الخبيث، بما في ذلك إيميكويمود الموضعي كعلاج ميداني |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | مراجعة | Seminars in Cutaneous Medicine and Surgery | مراجعة استراتيجيات العلاج الموضعي، بما في ذلك إيميكويمود، لسرطان الجلد غير الميلانيني والآفات السابقة (السابقة للتحول الخبيث) |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | ما قبل السريري/حيواني PK-PD | Urologic Oncology | مقارنة الحرائك الدوائية/الديناميكية للناهضات TLR7 ذات الصلة (فئة مرتبطة) للآفات الجلدية السابقة للتحول الخبيث والاستخدام البحثي لسرطان المثانة |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | حالة سريرية | International Journal of STD & AIDS | العلاج الناجح لـ VIN عالية الدرجة مع إيميكويمود الموضعي 5% في متلقي زراعة كلوية معطلة المناعة |
+| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | حالة سريرية/التصوير | Der Hautarzt | حالة تصوير OCT لـ porokeratosis الشمسي المنتشر السطحي مع coexisting actinic keratoses سابقة للتحول الخبيث مقاومة للعلاج الموضعي |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | حالة سريرية | International Journal of STD & AIDS | حليمات الورم الجسم من القضيب (حالة سابقة للتحول الخبيث مرتبطة بفيروس الورم الحليمي البشري) تم علاجها بنجاح مع كريم إيميكويمود الموضعي 5% |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Imiquimod currently holds no market authorization in Saudi Arabia (0 licenses on file; market status: Not Marketed). No product listings are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+إيميكويمود حالياً لا يحمل أي تصريح سوقي في المملكة العربية السعودية (0 ترخيص في الملف؛ حالة السوق: غير مسوق). لا توجد قوائم منتجات متاحة للتلخيص.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-Two Phase 3 trials (one completed with n=259) and two Cochrane systematic reviews directly support imiquimod's use in HPV-related and other premalignant epithelial lesions, and this mechanism is already part of imiquimod's established, widely used clinical practice pattern outside this specific indication label. However, the drug is not currently marketed in Saudi Arabia, and two blocking/high-severity data gaps (formal safety labeling and MOA documentation) remain unresolved, so proceeding requires structured risk management rather than an unconditional go.
+---
 
-**To proceed, the following is needed:**
-- Official SFDA/manufacturer package insert (warnings, precautions, and contraindications) — currently a blocking data gap for the safety pre-assessment (S1)
-- Formal DrugBank/manufacturer-sourced mechanism of action documentation to confirm the mechanistic linkage used above
-- Drug-drug interaction (DDI) data, which returned no results in the current query
-- A market authorization pathway assessment, since imiquimod is not currently registered in Saudi Arabia
-- Clarification on which specific premalignant subtype(s) (CIN, VIN, AIN, AK, Bowenoid papulosis) the label/protocol would target, since "pre-malignant neoplasm" is a broad TxGNN-predicted category
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات**
+
+**المبرر:**
+تجربتان من المرحلة 3 (واحدة مكتملة مع n=259) ومراجعتان منهجيتان من Cochrane تدعمان بشكل مباشر استخدام إيميكويمود في الآفات الجلدية السابقة للتحول الخبيث المرتبطة بفيروس الورم الحليمي البشري وآفات أخرى، وهذه الآلية بالفعل جزء من نمط الممارسة السريرية المثبت والمستخدم على نطاق واسع لإيميكويمود خارج هذا التسميات المؤشر المحدد. ومع ذلك، الدواء غير مسوق حالياً في المملكة العربية السعودية، واثنان من الفجوات البيانات الحجب/عالية الخطورة (وضع العلامات الرسمي على السلامة وتوثيق آلية العمل) تبقى دون حل، لذا المضي قدماً يتطلب إدارة مخاطر منظمة بدلاً من الموافقة غير المشروطة.
+
+**للمضي قدماً، المطلوب ما يلي:**
+- ملحق العبوة الرسمي من SFDA/الشركة المصنعة (التحذيرات والاحتياطات والمضادات الاستطباب) — حالياً فجوة بيانات حجب لتقييم السلامة المسبق (S1)
+- توثيق رسمي لآلية العمل من DrugBank/المصنع لتأكيد الربط الآلي المستخدم أعلاه
+- بيانات تفاعل الدواء بالدواء (DDI)، التي لم تعيد أي نتائج في الاستعلام الحالي
+- تقييم مسار التصريح السوقي، حيث أن إيميكويمود غير مسجل حالياً في المملكة العربية السعودية
+- توضيح حول النوع الفرعي المحدد السابق للتحول الخبيث (CIN، VIN، AIN، AK، حليمات الورم الجسم) الذي ستستهدفه التسميات/البروتوكول، لأن "الورم السابق للتحول الخبيث" هو فئة واسعة متنبأ بها من TxGNN
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,77 +29,78 @@ indication_count: 10
 
 </div>
 
-# Rotigotine: From Restless Legs Syndrome to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# Rotigotine: من متلازمة تململ الساقين إلى اضطراب نقص الانتباه وفرط الحركة (ADHD)
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Rotigotine is a non-ergot dopamine receptor agonist approved for Parkinson's disease and restless legs syndrome (RLS).
-> The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**,
-> currently supported only by **0 clinical trials** and **3 mechanistic/review publications** — no direct human evidence exists yet.
+> Rotigotine هو ناهض مستقبلات الدوبامين غير المشتق من الإرجوت المعتمد لعلاج مرض باركنسون ومتلازمة تململ الساقين (RLS).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب نقص الانتباه وفرط الحركة (ADHD)**،
+> وهو مدعوم حالياً فقط بـ **0 تجربة سريرية** و **3 منشورات آليات/مراجعة** — لا توجد أدلة بشرية مباشرة حتى الآن.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Parkinson's disease / Restless legs syndrome (RLS) — not captured in the current evidence pack; local (this-market) license data is unavailable since the drug is not marketed here |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L4 |
-| Local Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | مرض باركنسون / متلازمة تململ الساقين (RLS) — غير مشمول في حزمة الأدلة الحالية؛ بيانات الترخيص المحلية (السوق هذا) غير متاحة لأن الدواء غير مسوق هنا |
+| المؤشر الجديد المتنبأ به | اضطراب نقص الانتباه وفرط الحركة (ADHD) |
+| درجة تنبؤ TxGNN | 99.997% |
+| مستوى الدليل | L4 |
+| حالة السوق المحلية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | وقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for rotigotine is flagged as a data gap in this evidence pack. Based on established pharmacological knowledge referenced in the repurposing rationale, rotigotine is a non-ergot dopamine receptor agonist with affinity D3 > D2 > D1, and it also carries partial α2-adrenergic agonist activity. It is approved as a transdermal patch for Parkinson's disease and RLS.
+بيانات آلية العمل المفصلة لـ Rotigotine محددة كفجوة بيانات في حزمة الأدلة هذه. بناءً على المعرفة الصيدلانية المنشورة المشار إليها في منطق إعادة الاستخدام، Rotigotine هو ناهض مستقبلات الدوبامين غير المشتق من الإرجوت مع توافق D3 > D2 > D1، وله أيضاً نشاط ناهض جزئي لمستقبلات α2-الأدرينية. تم اعتماده كرقعة جلدية عابرة للجلد لعلاج مرض باركنسون و RLS.
 
-The link to ADHD rests on two threads rather than a direct clinical precedent. First, RLS and ADHD frequently co-occur in pediatric populations, giving an epidemiological (not causal) bridge between the drug's approved indication and the candidate indication. Second, ADHD pathophysiology is widely attributed to prefrontal-striatal dopaminergic hypofunction, with the dopamine D4 receptor polymorphism (DRD4) specifically implicated — and drugs acting on the α2A adrenoceptor (e.g., guanfacine) are already used clinically in ADHD.
+يستند الربط مع ADHD على خيطين وليس على سابقة سريرية مباشرة. أولاً، RLS و ADHD يحدثان بشكل متكرر في السكان الأطفال، مما يوفر جسراً وبائياً (وليس سببياً) بين المؤشر المعتمد للدواء والمؤشر المرشح. ثانياً، تُنسب الفيزيولوجيا المرضية لـ ADHD على نطاق واسع إلى نقص الدوبامينين في المسار القشري-المخطط، حيث يُعتبر تعدد أشكال مستقبلات الدوبامين D4 (DRD4) محدداً بشكل خاص — والأدوية التي تعمل على مستقبلات α2A الأدرينية (مثل غوانفاسين) مستخدمة بالفعل سريرياً في ADHD.
 
-One literature source (PMID 34182128) shows that α2A adrenoceptors heteromerize with polymorphic variants of the D4 receptor, altering pharmacological/functional response in a way relevant to impulsive-control disorders including ADHD. Since rotigotine engages both dopamine receptors and α2-adrenergic sites, this provides a plausible — but entirely theoretical — mechanistic rationale. No study has tested rotigotine directly in ADHD patients or animal models; the connection is inferred from receptor pharmacology, not empirical outcome data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يُظهر مصدر أدبي واحد (PMID 34182128) أن مستقبلات α2A الأدرينية تتغاير مع متغيرات متعددة الأشكال من مستقبلات D4، مما يغير الاستجابة الصيدلانية/الوظيفية بطريقة ذات صلة باضطرابات التحكم بالاندفاع بما في ذلك ADHD. نظراً لأن Rotigotine يرتبط بمستقبلات الدوبامين والمواقع الأدرينية α2، فهذا يوفر منطقاً آلياً معقولاً — لكن نظري بالكامل. لم تختبر أي دراسة Rotigotine مباشرة في مرضى ADHD أو نماذج حيوانية؛ الاتصال مستنتج من صيدلة المستقبلات وليس من بيانات النتيجة التجريبية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Basic/Receptor Pharmacology | Pharmacological Research | α2A adrenoceptor–dopamine D4 receptor heteromerization shapes pharmacological/functional differences relevant to impulsive-control disorders including ADHD |
-| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current Pharmaceutical Design | Review of RLS in children and pharmacological treatment options; notes clinical overlap between pediatric RLS and ADHD |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | General overview of RLS pathophysiology and diagnostic criteria; background context for RLS-ADHD comorbidity, no direct ADHD treatment data |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | أساسي/صيدلة المستقبلات | Pharmacological Research | يشكل التغاير بين مستقبلات α2A الأدرينية ومستقبلات الدوبامين D4 الفروقات الصيدلانية/الوظيفية ذات الصلة باضطرابات التحكم بالاندفاع بما في ذلك ADHD |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | مراجعة | Current Pharmaceutical Design | مراجعة لـ RLS عند الأطفال وخيارات العلاج الصيدلاني؛ تلاحظ التداخل السريري بين RLS الأطفالي و ADHD |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | مراجعة | Revue Neurologique | نظرة عامة على الفيزيولوجيا المرضية لـ RLS والمعايير التشخيصية؛ السياق الأساسي لتعايش RLS-ADHD، بدون بيانات علاج ADHD مباشرة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-*(Note: key warnings, contraindications, and drug-drug interaction data are all marked as data gaps in this evidence pack — one of which, local package-insert warnings/contraindications, is flagged as a **Blocking** gap that must be resolved before any safety pre-assessment can proceed.)*
+*(ملاحظة: جميع التحذيرات الرئيسية والموانع الاستعمال وبيانات تفاعلات الأدوية محددة كفجوات بيانات في حزمة الأدلة هذه — أحدها، تحذيرات/موانع النشرة الدوائية المحلية، محددة كفجوة **حاجزة** يجب حلها قبل أن يتمكن أي تقييم أمان أولي من المتابعة.)*
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقف**
 
-**Rationale:**
-The mechanistic rationale (shared dopaminergic/α2-adrenergic pharmacology, RLS-ADHD comorbidity) is biologically plausible but remains purely theoretical — there are zero clinical trials, case reports, or even preclinical studies testing rotigotine directly in ADHD. Combined with a Blocking safety data gap (no local package-insert warnings/contraindications available) and the fact that rotigotine is not currently marketed in this jurisdiction, the evidence does not support advancing past the research-question stage.
+**المبرر:**
+المنطق الآلي (الصيدلة الدوبامينية/α2-الأدرينية المشتركة، تعايش RLS-ADHD) معقول بيولوجياً لكنه يبقى نظرياً بحتاً — لا توجد تجارب سريرية أو تقارير حالات أو حتى دراسات ما قبل السريرية تختبر Rotigotine مباشرة في ADHD. جنباً إلى جنب مع فجوة بيانات الأمان الحاجزة (لا توجد بيانات تحذيرات/موانع النشرة الدوائية المحلية) وحقيقة أن Rotigotine غير مسوق حالياً في هذا الاختصاص القضائي، الأدلة لا تدعم التقدم بعد مرحلة السؤال البحثي.
 
-**To proceed, the following is needed:**
-- Local regulatory package-insert data (warnings, contraindications) — currently a Blocking data gap
-- Confirmed, structured MOA data from DrugBank or equivalent source
-- Preclinical/animal studies directly testing rotigotine (or its receptor profile) in ADHD models
-- Any case reports or off-label use data in ADHD or comorbid RLS-ADHD pediatric populations
-- Drug-drug interaction profile, since none is currently available (query returned not_found)
+**للمتابعة، يُطلب ما يلي:**
+- بيانات النشرة الدوائية المحلية (تحذيرات، موانع استعمال) — حالياً فجوة بيانات حاجزة
+- تأكيد بيانات آلية العمل المهيكلة من DrugBank أو مصدر مكافئ
+- دراسات ما قبل السريرية/حيوانية تختبر مباشرة Rotigotine (أو ملفه الشخصي للمستقبلات) في نماذج ADHD
+- أي تقارير حالات أو بيانات استخدام خارج التسمية في ADHD أو السكان الأطفال المصابين بـ RLS-ADHD المتعايشين
+- ملف تفاعل الأدوية، لأنه غير متاح حالياً (الاستعلام أعاد not_found)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

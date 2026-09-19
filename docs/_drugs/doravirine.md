@@ -29,85 +29,86 @@ indication_count: 3
 
 </div>
 
-# Doravirine: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# دوراڤيرين: من عدوى فيروس نقص المناعة البشرية-١ إلى عدوى فيروس نقص المناعة لدى القردة
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Doravirine is a third-generation Non-Nucleoside Reverse Transcriptase Inhibitor (NNRTI) originally developed for the treatment of HIV-1 infection in adults.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection** — a primate lentiviral disease closely related to HIV-1 —
-with **0 clinical trials** and **1 indirectly related publication** currently available to support this direction.
-The mechanistic rationale is plausible given phylogenetic similarities between SIV and HIV-1 reverse transcriptases, though known species-specific divergence in the NNRTI binding pocket is a key scientific concern that has not yet been empirically resolved for doravirine.
+دوراڤيرين هو مثبط معكوس النسخ غير النيوكليوسيدي من الجيل الثالث (NNRTI) تم تطويره في الأصل لعلاج عدوى فيروس نقص المناعة البشرية-١ لدى البالغين.
+ويتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **عدوى فيروس نقص المناعة لدى القردة (SIV)** — وهي عدوى فيروسية قردية وثيقة الصلة بـ HIV-1 —
+مع **0 تجارب سريرية** و **1 منشور غير مباشر الصلة** متاح حالياً لدعم هذا الاتجاه.
+والنظرية الآلية معقولة نظراً للتشابهات التطورية بين معكوس النسخ من SIV و HIV-1، رغم أن الاختلاف المعروف الخاص بالأنواع في جيب ربط NNRTI يمثل مصدر قلق علمي رئيسي لم يتم حله تجريبياً بعد بالنسبة لدوراڤيرين.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | HIV-1 infection (not registered in Saudi Arabia regulatory data) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | عدوى HIV-1 (غير مسجلة في بيانات الهيئة التنظيمية بالمملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | عدوى فيروس نقص المناعة لدى القردة (SIV) |
+| درجة تنبؤ TxGNN | 99.93% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروضة في السوق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | توقيف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data could not be retrieved from the queried sources. Based on known pharmacological class information embedded in the repurposing rationale, doravirine is a third-generation NNRTI that targets HIV-1 reverse transcriptase (RT). It binds to the NNRTI binding pocket (NNIBP) — a region adjacent to the polymerase active site — and allosterically inhibits viral RNA-to-DNA reverse transcription. Compared to earlier NNRTIs, doravirine was designed with an improved resistance barrier against common mutations such as K103N and Y188L.
+حالياً، لم يتمكن من استرجاع بيانات آلية العمل التفصيلية من المصادر المستقصاة. بناءً على معلومات الفئة الدوائية المعروفة المدرجة في منطق إعادة الاستخدام، دوراڤيرين هو NNRTI من الجيل الثالث يستهدف معكوس النسخ من HIV-1 (RT). يرتبط بجيب ربط NNRTI (NNIBP) — وهي منطقة مجاورة لموقع البلمرة النشط — ويثبط بشكل توافقي النسخ العكسي من الحمض النووي الريبوسي الفيروسي إلى DNA. مقارنة بـ NNRTIs الأقدم، تم تصميم دوراڤيرين مع حاجز مقاومة محسّن ضد الطفرات الشائعة مثل K103N و Y188L.
 
-SIV and HIV-1 are both members of the primate lentivirus family, sharing similar reverse transcriptase architecture and replication strategies. This phylogenetic proximity is the primary basis for the TxGNN prediction: if doravirine potently inhibits HIV-1 RT, a structurally analogous target in SIV may respond similarly. SIV infection in non-human primates is also the leading animal model for HIV pathogenesis and vaccine/therapeutic research, giving this repurposing question additional translational relevance.
+SIV و HIV-1 كلاهما من فيروسات العائلة القردية العكوسة البطيئة، يشتركان في معمارية معكوس النسخ المماثلة واستراتيجيات النسخ. هذا القرب التطوري هو الأساس الأساسي لتنبؤ TxGNN: إذا كان دوراڤيرين يثبط بقوة HIV-1 RT، فقد يستجيب الهدف المشابه الهيكليً في SIV بطريقة مماثلة. عدوى SIV في الرئيسيات غير البشرية هي أيضاً النموذج الحيواني الرائد لأبحاث الإمراضية والقاحات/العلاجات لـ HIV، مما يعطي هذا سؤال إعادة الاستخدام ملاءمة ترجمية إضافية.
 
-However, there is a well-documented mechanistic caveat. The NNIBP is highly species-specific in its three-dimensional conformation. Studies on earlier NNRTIs — including nevirapine and efavirenz — have consistently demonstrated substantially reduced or absent activity against SIV reverse transcriptase due to differences in pocket geometry. As a third-generation NNRTI, doravirine is subject to the same structural constraint. No direct in vitro or in vivo data evaluating doravirine against any SIV strain are currently available, leaving this prediction mechanistically plausible but empirically unverified.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Doravirine in Simian Immunodeficiency Virus Infection.
+ومع ذلك، هناك حذر آلي موثق جيداً. جيب NNIBP يتسم بخصوصية عالية للأنواع في بنيته ثلاثية الأبعاد. الدراسات على NNRTIs الأقدم — بما في ذلك nevirapine و efavirenz — أثبتت باستمرار نشاط مخفض بشكل كبير أو غائب ضد معكوس النسخ من SIV بسبب الاختلافات في هندسة الجيب. كـ NNRTI من الجيل الثالث، دوراڤيرين يخضع لنفس القيد الهيكلي. لا توجد بيانات مباشرة في المختبر أو في الجسم الحي تقيّم دوراڤيرين ضد أي سلالة من SIV متاحة حالياً، مما يترك هذا التنبؤ معقول من الناحية الآلية لكن غير مدعوم تجريبياً.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Review of islatravir (ISL), a novel reverse transcriptase translocation inhibitor (NRTTI), for HIV-1 treatment and prevention — provides context on the RT-inhibitor class landscape but does not evaluate doravirine or SIV activity directly |
-
-> **Note:** The single retrieved publication covers islatravir — a mechanistically distinct antiretroviral in a different drug class — not doravirine. No publications directly evaluating doravirine against SIV reverse transcriptase were identified. The relevance of this reference to the current repurposing question is indirect at best.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً لدوراڤيرين في عدوى فيروس نقص المناعة لدى القردة.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-Doravirine is currently **not registered or marketed in Saudi Arabia**. No authorization records were found in the regulatory database query (query date: 2026-03-29, result count: 0).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-------------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | مراجعة | Current Opinion in HIV and AIDS | مراجعة لـ islatravir (ISL)، وهو مثبط ترجمة معكوس النسخ الجديد (NRTTI)، لعلاج ووقاية HIV-1 — توفر سياقاً حول مشهد فئة مثبطات معكوس النسخ ولكن لا تقيّم دوراڤيرين أو نشاط SIV بشكل مباشر |
 
----
-
-## Safety Considerations
-
-Please refer to the originator's global prescribing information for safety data.
-
-> Warning and contraindication data were not retrievable from the sources queried for this market context. Clinicians and researchers should consult the full prescribing information for Pifeltro® (doravirine, MSD/Merck) for comprehensive guidance on warnings, contraindications, drug interactions, and special population considerations.
+> **ملاحظة:** المنشور الوحيد المسترجع يغطي islatravir — وهو عامل مضاد للفيروسات آلياً مختلفاً في فئة دوائية مختلفة — وليس دوراڤيرين. لم يتم تحديد أي منشورات تقيّم دوراڤيرين بشكل مباشر ضد معكوس النسخ من SIV. وملاءمة هذا المرجع للسؤال الحالي لإعادة الاستخدام غير مباشرة في أفضل الأحوال.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+دوراڤيرين حالياً **غير مسجل أو معروض في السوق في المملكة العربية السعودية**. لم يتم العثور على سجلات التصريح في استقصاء قاعدة البيانات التنظيمية (تاريخ الاستقصاء: 2026-03-29، عدد النتائج: 0).
 
-**Rationale:**
-The evidence base is limited to a model prediction (L4) with no registered clinical trials and only a single tangentially related publication covering a different drug. While the mechanistic rationale connecting NNRTI activity to SIV reverse transcriptase inhibition is scientifically coherent, well-established species-specific limitations of NNRTIs at the SIV binding pocket — documented for multiple earlier agents in the same class — represent a substantive scientific risk that cannot be dismissed without empirical data.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **In vitro RT inhibition assay:** Evaluate doravirine against purified SIV RT (ideally SIVmac239 or SIVcpz strains) to establish whether measurable inhibitory activity exists before committing to animal studies
-- **Structural analysis:** Conduct computational docking or obtain crystallographic data comparing doravirine binding at HIV-1 RT vs. SIV RT to quantify binding pocket divergence and predict activity loss
-- **Targeted literature search:** Systematic review of any conference abstracts, preprints, or unpublished reports evaluating NNRTI activity (particularly third-generation agents) against SIV isolates
-- **MOA documentation:** Formal retrieval of complete doravirine pharmacology data via DrugBank API to fill the current mechanism-of-action data gap
-- **Safety data retrieval:** Download and parse the originator package insert to populate warning, contraindication, and drug interaction fields required for a complete S1 safety assessment
+يرجى الرجوع إلى معلومات الوصفة الطبية العالمية للمنتج الأصلي للحصول على بيانات السلامة.
+
+> لم تكن بيانات التحذير والموانع قابلة للاسترجاع من المصادر المستقصاة لهذا السياق السوقي. يجب على الأطباء والباحثين استشارة معلومات الوصفة الطبية الكاملة لـ Pifeltro® (دوراڤيرين، MSD/Merck) للحصول على إرشادات شاملة حول التحذيرات والموانع والتفاعلات الدوائية والاعتبارات السكانية الخاصة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقيف**
+
+**الأساس المنطقي:**
+قاعدة الأدلة محدودة بتنبؤ نموذج (L4) بدون تجارب سريرية مسجلة ومنشور واحد فقط غير مباشر الصلة يغطي دواء مختلف. بينما النظرية الآلية التي تربط نشاط NNRTI لتثبيط معكوس النسخ من SIV معقول علمياً، فإن القيود المعروفة الخاصة بالأنواع لـ NNRTIs عند جيب ربط SIV — موثقة لعدة عوامل أقدم في نفس الفئة — تمثل مخاطرة علمية موضوعية لا يمكن تجاهلها بدون بيانات تجريبية.
+
+**للمتابعة، ما يلي مطلوب:**
+
+- **مقايسة تثبيط RT في المختبر:** قيّم دوراڤيرين ضد RT من SIV النقي (يفضل سلالات SIVmac239 أو SIVcpz) لتحديد ما إذا كان هناك نشاط تثبيط قابل للقياس قبل الالتزام بالدراسات الحيوية
+- **التحليل الهيكلي:** أجرِ محاكاة الإرساء الحاسوبية أو احصل على بيانات حيود الأشعة السينية مقارنة ربط دوراڤيرين عند HIV-1 RT مقابل SIV RT لتحديد كمي لاختلاف جيب الربط والتنبؤ بفقدان النشاط
+- **بحث أدبي موجه:** مراجعة منهجية لأي ملخصات مؤتمرات أو نسخ أولية أو تقارير غير منشورة تقيّم نشاط NNRTI (خاصة العوامل من الجيل الثالث) ضد عزلات SIV
+- **توثيق MOA:** استرجاع رسمي لبيانات دوراڤيرين الدوائية الكاملة عبر DrugBank API لملء الفجوة الحالية في بيانات آلية العمل
+- **استرجاع بيانات السلامة:** تنزيل وتحليل ورقة المنتج من الشركة الأصلية لملء حقول التحذير والموانع والتفاعلات الدوائية المطلوبة لتقييم السلامة S1 الكامل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

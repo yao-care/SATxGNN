@@ -29,68 +29,69 @@ indication_count: 10
 
 </div>
 
-# Peppermint Oil: From No Registered Indication to Leprosy
+# زيت النعناع: من عدم وجود مؤشر معتمد إلى الجذام
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Peppermint oil (DrugBank DB11198) has no approved indication on file for this evaluation and is not currently marketed in Taiwan. The TxGNN model's top-ranked prediction is **Leprosy**, but this signal is currently supported by **zero clinical trials** and **zero publications** — it is a pure model-score prediction with no biological plausibility evidence identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — product not marketed in Taiwan; no approved indication text on file |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+زيت النعناع (DrugBank DB11198) ليس له مؤشر معتمد موجود في الملف لهذا التقييم وغير مسوق حالياً في تايوان. أعلى توقع مرتبة من نموذج TxGNN هو **الجذام**، لكن هذا المؤشر مدعوم حالياً بـ **صفر تجربة سريرية** و**صفر منشورات** — وهو توقع نموذج بحت بدون أدلة معقولية بيولوجية محددة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not currently available for peppermint oil (flagged as a High-severity data gap). No original indication is on record in this evidence pack either, so there is no established pharmacology-to-pharmacology bridge to evaluate against leprosy.
-
-The evidence pack's own rationale for this prediction is explicit: peppermint oil has no reported antimycobacterial activity, and no mechanistic, preclinical, trial, or literature data connect it to leprosy. This appears to be a high-confidence TxGNN score (rank 4012, score 0.998) unsupported by any real-world evidence — the kind of signal that requires independent biological validation before any further investment.
-
-Notably, elsewhere in this same evidence pack, a *different* predicted indication for peppermint oil — **cardiovascular disease** (rank 9, score 99.13%) — does have supporting data: 2 completed trials (n=40 and n=36) on cardiometabolic/blood pressure outcomes, plus a menthol/TRPM8-mediated parasympathetic mechanism reported in the physiology literature (PMID 30070742), rated evidence level L2. That signal is mechanistically and evidentially far stronger than the leprosy prediction reviewed here.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متوفر — المنتج غير مسوق في تايوان؛ لا يوجد نص مؤشر معتمد في الملف |
+| المؤشر المتوقع الجديد | الجذام |
+| درجة توقع TxGNN | 99.80% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التوقع معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية غير متوفرة حالياً لزيت النعناع (تم وضع علامة عليها كفجوة بيانات عالية الخطورة). لا يوجد أيضاً مؤشر أصلي مسجل في هذا ملف الدليل، لذلك لا توجد جسور محددة من الصيدلة إلى الصيدلة لتقييمها مقابل الجذام.
 
----
+الأساس المنطقي لهذا التوقع من ملف الدليل نفسه واضح جداً: زيت النعناع لم يُبلغ عن أي نشاط مضاد للميكوبكتيريا، وبيانات آلية العمل والتجارب السريرية والأدبيات لا تربط أي منها بالجذام. يبدو أن هذا مؤشر TxGNN عالي الثقة (الترتيب 4012، الدرجة 0.998) غير مدعوم بأي أدلة من العالم الحقيقي — المؤشر الذي يتطلب التحقق البيولوجي المستقل قبل أي استثمار إضافي.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+وملاحظة جديرة بالاهتمام: في موضع آخر من ملف الدليل نفسه، مؤشر متوقع *مختلف* لزيت النعناع — **أمراض القلب والأوعية الدموية** (الترتيب 9، الدرجة 99.13%) — بالفعل له بيانات داعمة: تجربتان مكتملتان (n=40 و n=36) على النتائج الأيضية القلبية / ضغط الدم، بالإضافة إلى آلية الآنثول / TRPM8 الوسيطة للعصب السمبتاوي المُبلغ عنها في أدبيات الفسيولوجيا (PMID 30070742)، تقييم مستوى الدليل L2. هذا المؤشر أقوى بكثير من حيث الآلية والأدلة من توقع الجذام المراجع هنا.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة.
 
-**Rationale:**
-The leprosy prediction has no clinical trial, literature, or mechanistic support, and the drug's original MOA and indication data are both missing (DG001 is a Blocking-severity gap that prevents even an initial safety assessment). There is no basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- Original indication and MOA data for peppermint oil (currently absent from this evidence pack)
-- TFDA/official package insert warnings, contraindications, and DDI data (DG001, Blocking)
-- Any preclinical or in vitro antimycobacterial activity data, if this hypothesis is to be pursued further
-- Consider re-scoping evaluation toward the **cardiovascular disease** prediction (rank 9, L2 evidence, 2 completed trials + mechanistic literature), which has materially stronger evidentiary support than the top-ranked leprosy signal
+## أدلة الأدبيات
+
+لا توجد حالياً أدلة أدبيات متوفرة ذات صلة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+توقع الجذام ليس له أي دعم تجربة سريرية أو أدبيات أو آلية عمل، وبيانات الآلية الأصلية والمؤشر الأصلي للدواء مفقودة (DG001 هي فجوة خطيرة الحجب التي تمنع حتى التقييم الأولي للسلامة). لا توجد أساس للمضي قدماً في هذا المرشح في هذا الوقت.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات المؤشر الأصلي وآلية العمل لزيت النعناع (غير موجودة حالياً في ملف الدليل هذا)
+- تحذيرات نشرة تصريح TFDA / الرسمية والموانع والتفاعلات الدوائية (DG001، حجب)
+- أي بيانات نشاط مضاد للميكوبكتيريا سابقة للتطور أو في الجسم الحي، إذا كان سيتم متابعة هذه الفرضية
+- ضع في الاعتبار إعادة تحديد النطاق للتقييم نحو توقع **أمراض القلب والأوعية الدموية** (الترتيب 9، L2 دليل، تجربتان مكتملتان + أدبيات آلية العمل)، والتي لديها دعم أدلة أقوى بشكل كبير من مؤشر الجذام ذو الترتيب الأعلى
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

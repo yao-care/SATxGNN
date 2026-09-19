@@ -29,86 +29,86 @@ indication_count: 10
 
 </div>
 
-# Dexlansoprazole: From Erosive Esophagitis to Active Peptic Ulcer Disease
+# دكسلانسوبرازول: من التهاب المريء التآكلي إلى قرحة الجهاز الهضمي النشطة
 
-## One-Sentence Summary
+## ملخص من جملة واحدة
 
-Dexlansoprazole is a dual delayed-release proton pump inhibitor (PPI), originally approved for healing erosive esophagitis and managing gastroesophageal reflux disease (GERD).
-The TxGNN model predicts it may be effective for **Active Peptic Ulcer Disease**, with **20 clinical trials** and **4 publications** currently supporting this direction.
+دكسلانسوبرازول هو مثبط مضخة البروتون ثنائي التحرير المتأخر (PPI)، تمت الموافقة عليه في الأصل لشفاء التهاب المريء التآكلي وإدارة داء الارتجاع المريئي المعدي (GERD). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **قرحة الجهاز الهضمي النشطة**، حيث يوجد حالياً **20 تجربة سريرية** و **4 منشورات** تدعم هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Erosive esophagitis / Gastroesophageal reflux disease (GERD) |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.999% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | التهاب المريء التآكلي / داء الارتجاع المريئي المعدي (GERD) |
+| المؤشر المتوقع الجديد | قرحة الجهاز الهضمي النشطة |
+| درجة تنبؤ TxGNN | 99.999% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع الاحتياطات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on well-established pharmacological knowledge, dexlansoprazole irreversibly inhibits the H⁺/K⁺-ATPase proton pump in gastric parietal cells, dramatically raising intragastric pH to create the acid-suppressed environment necessary for mucosal healing. Its distinguishing feature is a **dual delayed-release (DDR) formulation** that produces two plasma concentration peaks (Tmax at ~1–2 h and ~4–5 h), extending acid suppression beyond what conventional once-daily PPIs can achieve.
+بيانات آلية العمل المفصلة غير متوفرة في مجموعة الأدلة الحالية. بناءً على المعرفة الصيدلانية الراسخة، يثبط دكسلانسوبرازول بشكل لا رجعة فيه مضخة H⁺/K⁺-ATPase في خلايا المعدة الجدارية، مما يرفع الأس الهيدروجيني داخل المعدة بشكل كبير لإنشاء البيئة المثبطة للحمض الضرورية لشفاء الغشاء المخاطي. تتميز بـ **صيغة تحرير متأخر ثنائي (DDR)** التي تنتج ذروتي تركيز بلازما (Tmax في ~1-2 ساعة و ~4-5 ساعات)، مما يطيل من مفعول تثبيط الحمض بما يتجاوز ما تحققه مثبطات مضخة البروتون التقليدية التي تُعطى مرة واحدة يومياً.
 
-Both erosive esophagitis and peptic ulcer disease share the same root pathophysiology: gastric acid eroding a mucosal surface that has lost its protective barriers — whether through NSAID use, *H. pylori* infection, or other insults. This mechanistic overlap means that sustained, high-level acid suppression directly addresses peptic ulcer healing in the same way it heals esophageal erosions. Two pivotal Phase 3 registration trials of dexlansoprazole itself (NCT00251693 and NCT00251719, enrolling over 2,000 patients each) have already demonstrated its efficacy in acid-related mucosal healing, establishing the pharmacological foundation.
+تشارك كل من التهاب المريء التآكلي وقرحة الجهاز الهضمي نفس الفيزيولوجيا المرضية الأساسية: تآكل حمض المعدة لسطح مخاطي فقد حواجزه الواقية — سواء من خلال استخدام مثبطات NSAIDs أو عدوى *H. pylori* أو إصابات أخرى. يعني هذا التداخل الآلي أن تثبيط الحمض المستدام والعالي المستوى يعالج بشكل مباشر شفاء قرحة الجهاز الهضمي بنفس الطريقة التي يشفي بها تآكل المريء. أثبتت تجربتان محوريتان من المرحلة 3 لدكسلانسوبرازول نفسه (NCT00251693 و NCT00251719، تضمان أكثر من 2,000 مريض لكل منهما) بالفعل فعاليتها في شفاء الغشاء المخاطي المرتبط بالحمض، مما يرسي الأساس الصيدلاني.
 
-Furthermore, dexlansoprazole's parent compound lansoprazole (AG-1749) holds established global approvals for both gastric and duodenal ulcer treatment and is widely used as an active comparator in peptic ulcer trials worldwide. The TxGNN model's high-confidence prediction (rank #42 globally) therefore reflects a pharmacologically coherent and clinically well-supported extrapolation rather than a speculative leap.
+علاوة على ذلك، يمتلك الدواء الأم لدكسلانسوبرازول لانسوبرازول (AG-1749) موافقات عالمية مثبتة لعلاج قرح المعدة والاثنا عشر ويُستخدم على نطاق واسع كمادة مقارنة نشطة في تجارب قرحة الجهاز الهضمي في جميع أنحاء العالم. يعكس تنبؤ نموذج TxGNN عالي الثقة (الترتيب #42 عالمياً) بالتالي استقراء دوائي متماسك وموثق سريرياً بشكل جيد وليس قفزة تخمينية.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00251693](https://clinicaltrials.gov/study/NCT00251693) | Phase 3 | Completed | 2,038 | Dexlansoprazole (TAK-390MR) 60 mg/90 mg vs lansoprazole 30 mg — 8-week healing of endoscopically confirmed erosive esophagitis; pivotal registration trial directly establishing dexlansoprazole efficacy in acid-related mucosal healing |
-| [NCT00251719](https://clinicaltrials.gov/study/NCT00251719) | Phase 3 | Completed | 2,054 | Parallel pivotal study: dexlansoprazole MR 60 mg and 90 mg vs lansoprazole 30 mg for erosive esophagitis healing; together with NCT00251693 constitutes the core registration evidence package |
-| [NCT05010954](https://clinicaltrials.gov/study/NCT05010954) | Phase 3 | Completed | 400 | LXI-15028 50 mg vs lansoprazole 30 mg in Chinese patients with duodenal ulcer over 6 weeks; active comparator (lansoprazole class) efficacy directly demonstrated in peptic ulcer |
-| [NCT05813561](https://clinicaltrials.gov/study/NCT05813561) | Phase 3 | Completed | 332 | DWP14012 (P-CAB) 40 mg vs esomeprazole — modern head-to-head PPI/P-CAB comparison for acid-related mucosal disease; benchmark for class-level effectiveness |
-| [NCT04784910](https://clinicaltrials.gov/study/NCT04784910) | Phase 3 | Completed | 423 | DWP14012 20 mg vs lansoprazole 15 mg for NSAID-induced peptic ulcer prevention; non-inferiority of newer acid blocker to lansoprazole confirmed |
-| [NCT04840550](https://clinicaltrials.gov/study/NCT04840550) | Phase 3 | Unknown | 390 | Tegoprazan 25 mg vs lansoprazole 15 mg for prevention of gastroduodenal ulcers in long-term NSAID users; lansoprazole serves as benchmark active comparator |
-| [NCT01506986](https://clinicaltrials.gov/study/NCT01506986) | Phase 4 | Completed | 30,024 | HEAT trial — *H. pylori* eradication vs placebo in aspirin users; large-scale landmark trial validating the PPI-based strategy in ulcer prevention and demonstrating role of acid suppression class |
-| [NCT03675672](https://clinicaltrials.gov/study/NCT03675672) | Phase 4 | Recruiting | 154 | Misoprostol + lansoprazole vs lansoprazole alone for prevention of recurrent idiopathic gastroduodenal ulcer bleeding; evaluates long-term PPI maintenance in active ulcer management |
-| [NCT07533266](https://clinicaltrials.gov/study/NCT07533266) | Phase 4 | Not Yet Recruiting | 360 | Fexuprazan 20 mg vs lansoprazole 15 mg for NSAID-induced peptic ulcer prevention; upcoming trial reaffirming lansoprazole class as the reference standard |
-| [NCT07479056](https://clinicaltrials.gov/study/NCT07479056) | N/A | Recruiting | 400 | Fexuprazan vs lansoprazole 30 mg for upper GI bleeding prevention in high-risk patients on dual antiplatelet therapy post-PCI; indirect comparative data relevant to PPI gastric protection |
+| [NCT00251693](https://clinicaltrials.gov/study/NCT00251693) | المرحلة 3 | مكتملة | 2,038 | دكسلانسوبرازول (TAK-390MR) 60 ملغ/90 ملغ مقابل لانسوبرازول 30 ملغ — شفاء التهاب المريء التآكلي المؤكد بالمنظار لمدة 8 أسابيع؛ تجربة تسجيل محورية تثبت بشكل مباشر فعالية دكسلانسوبرازول في شفاء الغشاء المخاطي المرتبط بالحمض |
+| [NCT00251719](https://clinicaltrials.gov/study/NCT00251719) | المرحلة 3 | مكتملة | 2,054 | دراسة محورية متوازية: دكسلانسوبرازول MR 60 ملغ و 90 ملغ مقابل لانسوبرازول 30 ملغ لشفاء التهاب المريء التآكلي؛ تشكل معاً مع NCT00251693 حزمة الأدلة الأساسية للتسجيل |
+| [NCT05010954](https://clinicaltrials.gov/study/NCT05010954) | المرحلة 3 | مكتملة | 400 | LXI-15028 50 ملغ مقابل لانسوبرازول 30 ملغ في المرضى الصينيين الذين يعانون من قرحة الاثنا عشر لمدة 6 أسابيع؛ ثبت الفعالية المقارنة النشطة (فئة لانسوبرازول) مباشرة في قرحة الجهاز الهضمي |
+| [NCT05813561](https://clinicaltrials.gov/study/NCT05813561) | المرحلة 3 | مكتملة | 332 | DWP14012 (P-CAB) 40 ملغ مقابل إيسوميبرازول — مقارنة رأساً برأس حديثة بين مثبط مضخة البروتون/P-CAB لمرض الغشاء المخاطي المرتبط بالحمض؛ معيار فعالية مستوى الفئة |
+| [NCT04784910](https://clinicaltrials.gov/study/NCT04784910) | المرحلة 3 | مكتملة | 423 | DWP14012 20 ملغ مقابل لانسوبرازول 15 ملغ لمنع قرحة الجهاز الهضمي المستحثة بمثبطات NSAIDs؛ أكدت عدم الدنو من لانسوبرازول لمثبط الحمض الأحدث |
+| [NCT04840550](https://clinicaltrials.gov/study/NCT04840550) | المرحلة 3 | غير معروف | 390 | تيغوبرازان 25 ملغ مقابل لانسوبرازول 15 ملغ للوقاية من قرح المعدة والاثنا عشر في مستخدمي مثبطات NSAIDs طويل الأجل؛ يعمل لانسوبرازول كمادة مقارنة نشطة معيارية |
+| [NCT01506986](https://clinicaltrials.gov/study/NCT01506986) | المرحلة 4 | مكتملة | 30,024 | تجربة HEAT — استئصال *H. pylori* مقابل الدواء الوهمي في مستخدمي الأسبرين؛ تجربة علامية واسعة النطاق تصادق على استراتيجية مثبط مضخة البروتون في الوقاية من القرحة وتثبت دور فئة تثبيط الحمض |
+| [NCT03675672](https://clinicaltrials.gov/study/NCT03675672) | المرحلة 4 | تجند | 154 | ميسوبروستول + لانسوبرازول مقابل لانسوبرازول وحده للوقاية من نزيف القرحة المعدية الاثنا عشرية المتكررة الأساسية؛ يقيّم الحفاظ على مثبط مضخة البروتون طويل الأجل في إدارة القرحة النشطة |
+| [NCT07533266](https://clinicaltrials.gov/study/NCT07533266) | المرحلة 4 | لم تبدأ بعد | 360 | فيكسوبرازان 20 ملغ مقابل لانسوبرازول 15 ملغ للوقاية من قرحة الجهاز الهضمي المستحثة بمثبطات NSAIDs؛ تجربة قادمة تؤكد من جديد لانسوبرازول كمعيار مرجعي للفئة |
+| [NCT07479056](https://clinicaltrials.gov/study/NCT07479056) | غير محدد | تجند | 400 | فيكسوبرازان مقابل لانسوبرازول 30 ملغ لمنع نزيف الجهاز الهضمي العلوي في المرضى عالي الخطورة الذين يتناولون العلاج المزدوج المضاد للصفيحات بعد التدخل التاجي؛ بيانات مقارنة غير مباشرة ذات صلة بالحماية المعدية لمثبط مضخة البروتون |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematic Review / Network Meta-analysis | The American Journal of Gastroenterology | Compares P-CAB vs all PPI agents for healing severe (Grade C/D) esophagitis; provides the highest level of comparative evidence for PPI class effectiveness across acid-related mucosal diseases |
-| [41809210](https://pubmed.ncbi.nlm.nih.gov/41809210/) | 2026 | Expert Consensus | World Journal of Gastrointestinal Pharmacology and Therapeutics | Indian multidisciplinary expert consensus on comprehensive management of acid peptic disorders (GERD, peptic ulcer disease, functional dyspepsia); addresses overlapping pathophysiology and appropriate acid suppressant use including risks of unsupervised PPI consumption |
-| [18821474](https://pubmed.ncbi.nlm.nih.gov/18821474/) | 2008 | Drug Review | Current Opinion in Investigational Drugs | Early clinical overview of dexlansoprazole as a modified-release enantiomer of lansoprazole; summarizes NDA filing for gastric acid-related diseases and Phase 2 GERD data, establishing the regulatory scope of the drug's intended indications |
-| [36150104](https://pubmed.ncbi.nlm.nih.gov/36150104/) | 2022 | Basic Science / Mechanistic Study | Journal of the Chinese Medical Association | Investigates PPI-mediated vacuolar-type ATPase suppression and ER stress induction, explicitly naming dexlansoprazole; provides mechanistic context for understanding PPI pharmacological effects beyond proton pump inhibition |
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | المراجعة المنهجية / تحليل شبكي | The American Journal of Gastroenterology | يقارن P-CAB مقابل جميع عوامل مثبط مضخة البروتون لشفاء التهاب المريء الشديد (الدرجة C/D)؛ يوفر أعلى مستوى من الأدلة المقارنة لفعالية فئة مثبط مضخة البروتون عبر أمراض الغشاء المخاطي المرتبطة بالحمض |
+| [41809210](https://pubmed.ncbi.nlm.nih.gov/41809210/) | 2026 | إجماع الخبراء | World Journal of Gastrointestinal Pharmacology and Therapeutics | إجماع متعدد التخصصات للخبراء الهنود حول الإدارة الشاملة لاضطرابات حمض الببسين (GERD وقرحة الجهاز الهضمي وعسر الهضم الوظيفي)؛ يعالج الفيزيولوجيا المرضية المتداخلة والاستخدام الملائم لمثبطات الحمض بما فيها مخاطر استهلاك مثبط مضخة البروتون بدون إشراف |
+| [18821474](https://pubmed.ncbi.nlm.nih.gov/18821474/) | 2008 | مراجعة الدواء | Current Opinion in Investigational Drugs | نظرة عامة سريرية مبكرة لدكسلانسوبرازول كمركب محرر معدل من لانسوبرازول؛ يلخص تقديم طلب NDA لأمراض الجهاز الهضمي المرتبطة بالحمض وبيانات GERD المرحلة 2، مما يثبت النطاق التنظيمي للمؤشرات المقصودة للعقار |
+| [36150104](https://pubmed.ncbi.nlm.nih.gov/36150104/) | 2022 | العلوم الأساسية / دراسة الآلية | Journal of the Chinese Medical Association | يبحث في قمع V-ATPase الناجم عن مثبط مضخة البروتون واستحثاث إجهاد ER، مع تسمية دكسلانسوبرازول بشكل صريح؛ يوفر السياق الآلي لفهم التأثيرات الصيدلانية لمثبط مضخة البروتون بما يتجاوز تثبيط مضخة البروتون |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملحق الحزمة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الاحتياطات**
 
-**Rationale:**
-Dexlansoprazole's dual delayed-release design provides mechanistically superior and sustained acid suppression that is directly relevant to peptic ulcer healing. Two large-scale Phase 3 registration trials of dexlansoprazole itself (>4,000 patients combined) and numerous completed Phase 3 trials of the PPI class in peptic ulcer disease collectively support Level L1 evidence. The prediction represents a pharmacologically coherent extension of an established drug class into a closely related acid-related indication, with minimal mechanistic uncertainty.
+**المبرر:**
+يوفر تصميم دكسلانسوبرازول ثنائي التحرير المتأخر تثبيطاً أكثر تفوقاً من الناحية الآلية واستدامة للحمض يرتبط بشكل مباشر بشفاء قرحة الجهاز الهضمي. تدعم تجربتان محوريتان من المرحلة 3 لدكسلانسوبرازول نفسه (أكثر من 4,000 مريض مجتمعة) والعديد من التجارب المكتملة من المرحلة 3 لفئة مثبط مضخة البروتون في قرحة الجهاز الهضمي بشكل جماعي دليلاً من المستوى L1. يمثل التنبؤ استقراء دوائي متماسك لدواء مثبت في مؤشر حمضي قريب ذي صلة، مع عدم يقين آلي ضئيل.
 
-**To proceed, the following is needed:**
-- **Saudi Arabia registration pathway:** Dexlansoprazole is not currently approved or marketed in Saudi Arabia (SFDA); a registration dossier or import approval application must be initiated
-- **Complete safety documentation:** Full package insert warnings, contraindications, and drug-drug interaction data are required before clinical use — particularly the clopidogrel interaction (addressed in NCT00942175 Phase 1 data but not yet structured in this evidence pack)
-- **Regulatory strategy clarification:** Determine whether peptic ulcer constitutes a new indication requiring a separate clinical trial or whether PPI class evidence plus dexlansoprazole PK/PD data suffice for a label extension
-- **MOA documentation:** Obtain formal DrugBank or prescribing information MOA data to complete the evidence pack (currently flagged as DG002 — High severity data gap)
-- **Local pharmacoeconomic analysis:** Compare dexlansoprazole against already-available PPIs and emerging P-CABs in the Saudi market to support formulary positioning
+**للمتابعة، يلزم ما يلي:**
+- **مسار التسجيل بالمملكة العربية السعودية:** دكسلانسوبرازول غير موافق عليه أو موجود بالسوق حالياً في المملكة العربية السعودية (SFDA)؛ يجب بدء ملف التسجيل أو تقديم طلب موافقة الاستيراد
+- **التوثيق الكامل للسلامة:** بيانات ملحق الحزمة الكاملة والتحذيرات والموانع والتفاعلات الدوائية المهمة مطلوبة قبل الاستخدام السريري — خاصة تفاعل كلوبيدوغريل (الموثق في بيانات المرحلة 1 NCT00942175 لكن لم يتم تنظيمه بعد في مجموعة الأدلة هذه)
+- **توضيح الإستراتيجية التنظيمية:** حدد ما إذا كانت قرحة الجهاز الهضمي تشكل مؤشراً جديداً يتطلب تجربة سريرية منفصلة أو ما إذا كانت أدلة فئة مثبط مضخة البروتون بالإضافة إلى بيانات PK/PD لدكسلانسوبرازول تكفي لتمديد التسمية
+- **توثيق آلية العمل:** احصل على بيانات DrugBank الرسمية أو معلومات وصف الأدوية لآلية العمل لإكمال مجموعة الأدلة (مرجوعة حالياً كـ DG002 — فجوة بيانات عالية الخطورة)
+- **تحليل اقتصادي دوائي محلي:** قارن دكسلانسوبرازول مقابل مثبطات مضخة البروتون المتاحة بالفعل و P-CABs الناشئة في سوق المملكة العربية السعودية لدعم موضع قائمة الأدوية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

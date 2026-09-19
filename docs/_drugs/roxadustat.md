@@ -29,66 +29,67 @@ indication_count: 4
 
 </div>
 
-# Roxadustat: From Renal Anemia to Dry Eye Syndrome
+# روكسادوستات: من فقر الدم الكلوي إلى متلازمة جفاف العين
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Roxadustat is a HIF prolyl-hydroxylase inhibitor (HIF-PHI) used to treat anemia associated with chronic kidney disease.
-> The TxGNN model predicts it may be effective for **Dry Eye Syndrome**,
-> but this is currently supported by only **1 observational clinical trial** (not an interventional efficacy study) and **no published literature**.
+> روكسادوستات هو مثبط منتج هيدروكسيليز البرولين المحفز بنقص الأكسجين (HIF-PHI) يُستخدم لعلاج فقر الدم المصاحب لأمراض الكلى المزمنة.
+> نموذج TxGNN يتنبأ بأنه قد يكون فعالاً ل**متلازمة جفاف العين**،
+> لكن هذا مدعوم حالياً بتجربة سريرية واحدة فقط **قائمة على الملاحظة** (وليس دراسة فعالية تدخلية) و**لا توجد أدبيات منشورة**.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Renal anemia (CKD-associated) — noted in trial context; not formally recorded in Saudi Arabia licensing data (drug is unmarketed) |
-| Predicted New Indication | Dry eye syndrome |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الإشارة الأصلية | فقر الدم الكلوي (المرتبط بأمراض الكلى المزمنة) — مذكور في سياق التجربة؛ لم يتم تسجيله رسمياً في بيانات الترخيص في المملكة العربية السعودية (الدواء غير موجود في السوق) |
+| الإشارة الجديدة المتنبأ بها | متلازمة جفاف العين |
+| درجة التنبؤ بـ TxGNN | 99.51% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مُسوّق (غير مُسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for roxadustat is currently a data gap in this evidence pack. Based on information available within the evidence pack itself, roxadustat is a HIF-PHI (HIF prolyl-hydroxylase inhibitor) that stabilizes HIF-1α/2α to promote endogenous erythropoietin (EPO) production, and is used to treat renal anemia in patients with chronic kidney disease.
+بيانات آلية العمل التفصيلية لروكسادوستات تمثل حالياً فجوة بيانات في هذه مجموعة الأدلة. بناءً على المعلومات المتاحة ضمن مجموعة الأدلة نفسها، روكسادوستات هو مثبط HIF-PHI (HIF prolyl-hydroxylase inhibitor) الذي يثبت HIF-1α/2α لتعزيز إنتاج الإريثروبويتين (EPO) الذاتي، ويُستخدم لعلاج فقر الدم الكلوي لدى مرضى أمراض الكلى المزمنة.
 
-The proposed link to dry eye syndrome is mechanistic rather than clinical: the HIF pathway is involved in the hypoxic response and wound-repair processes of corneal and meibomian gland epithelium, so theoretically HIF stabilization could affect meibomian gland function. However, the only related study identified is an **observational** trial examining meibomian gland morphology/function in renal anemia patients — it does not administer roxadustat as an intervention nor evaluate dry eye as a treatment endpoint. It reflects a comorbidity association (renal anemia patients are themselves a population at elevated risk of dry eye) rather than causal drug evidence.
+الارتباط المقترح بمتلازمة جفاف العين هو آلي وليس سريري: مسار HIF متورط في الاستجابة لنقص الأكسجين وعمليات إصلاح الجروح في ظهارة القرنية وغدة الميبوم، لذا نظرياً قد يؤثر تثبيت HIF على وظيفة غدة الميبوم. ومع ذلك، الدراسة الوحيدة ذات الصلة المحددة هي تجربة **قائمة على الملاحظة** تفحص مورفولوجيا/وظيفة غدة الميبوم لدى مرضى فقر الدم الكلوي — فإنها لا تدير روكسادوستات كتدخل ولا تقيّم جفاف العين كنقطة نهاية للعلاج. إنها تعكس ارتباط المراضة المشتركة (مرضى فقر الدم الكلوي هم أنفسهم مجموعة سكانية معرضة لخطر أعلى من جفاف العين) وليس دليلاً على السببية الدوائية.
 
-Three other TxGNN-predicted indications (bone Paget disease, dentinogenesis imperfecta, squamous cell carcinoma) were also flagged in this evidence pack, all at evidence level L5 with no supporting trials or literature. Notably, the squamous cell carcinoma prediction is explicitly framed in the evidence as a potential **safety risk signal** (HIF pathway activation is linked to tumor angiogenesis) rather than a therapeutic opportunity — a reminder that high TxGNN similarity scores do not by themselves indicate treatment benefit.
+تم أيضاً إشارة ثلاث مؤشرات أخرى يتنبأ بها TxGNN (مرض باجيت العظمي، تعسر تكوّن العاج، سرطان الخلايا الحرشفية) في هذه مجموعة الأدلة، جميعها عند مستوى دليل L5 بدون تجارب أو أدبيات داعمة. ومن الملحوظ أن التنبؤ بسرطان الخلايا الحرشفية يتم صياغته بشكل صريح في الأدلة كإشارة محتملة **لخطر السلامة** (يرتبط تنشيط مسار HIF بتكون الأوعية الدموية الورمية) بدلاً من كونه فرصة علاجية — تذكير بأن درجات تشابه TxGNN العالية لا تشير بحد ذاتها إلى فائدة العلاج.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | أهم النتائج |
 |---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | N/A | Unknown | 50 | Observational study of meibomian gland function/morphology in renal anemia patients (treated with EPO or roxadustat); does not test roxadustat as a dry eye treatment — relevance graded **C** (comorbidity observation, not causal drug evidence) |
+| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | غير متاح | غير معروفة | 50 | دراسة قائمة على الملاحظة لوظيفة/مورفولوجيا غدة الميبوم لدى مرضى فقر الدم الكلوي (يتم العلاج بـ EPO أو roxadustat)؛ لا تختبر روكسادوستات كعلاج لجفاف العين — تم تقييم الصلة **C** (ملاحظة المراضة المشتركة، وليس دليل السببية الدوائية) |
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Roxadustat currently has no marketing authorization in Saudi Arabia (0 licenses on record; market status: Not marketed/Not marketed).
+روكسادوستات حالياً لا تحتوي على تفويض تسويقي في المملكة العربية السعودية (0 تراخيص مسجلة؛ حالة السوق: غير مُسوّق/غير مُسوّق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات الأمان.
 
-*(Key warnings, contraindications, and drug interaction data for roxadustat are currently unavailable in this evidence pack — including the TFDA package insert, which is flagged as a blocking data gap for safety pre-screening.)*
+*(البيانات الرئيسية حول التحذيرات والموانع والتفاعلات الدوائية لروكسادوستات غير متاحة حالياً في هذه مجموعة الأدلة — بما في ذلك نشرة TFDA، التي تم تحديدها كفجوة بيانات حاجزة لفحص السلامة المسبق.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The only clinical evidence for the top-ranked indication (dry eye syndrome) is a single observational trial with no interventional or efficacy data (relevance grade C), and the drug itself is not currently marketed in Saudi Arabia. Combined with a blocking gap in TFDA safety data, there is insufficient basis to advance past initial safety screening.
+**الأساس المنطقي:**
+الدليل السريري الوحيد للإشارة ذات التصنيف الأعلى (متلازمة جفاف العين) هو تجربة ملاحظة واحدة بدون بيانات تدخلية أو فعالية (درجة الصلة C)، والدواء نفسه غير مُسوّق حالياً في المملكة العربية السعودية. بالتزامن مع فجوة حاجزة في بيانات سلامة TFDA، لا توجد أساس كافٍ للمضي قدماً بعد فحص السلامة الأولي.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism-of-action documentation (DrugBank query)
-- An interventional study directly testing roxadustat for dry eye syndrome (current evidence is comorbidity-only)
-- Reassessment of the squamous cell carcinoma signal as a potential safety concern rather than a repurposing candidate
+**المتطلبات للمضي قدماً:**
+- نشرة TFDA/التنظيمية (التحذيرات والموانع) — حالياً فجوة بيانات حاجزة
+- وثائق آلية العمل المؤكدة (استعلام DrugBank)
+- دراسة تدخلية مباشرة تختبر roxadustat لمتلازمة جفاف العين (الدليل الحالي هو مراضة مشتركة فقط)
+- إعادة تقييم إشارة سرطان الخلايا الحرشفية كمصدر قلق سلامة محتملة بدلاً من كونها مرشحة إعادة توجيه
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

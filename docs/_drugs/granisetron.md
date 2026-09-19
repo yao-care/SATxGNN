@@ -29,56 +29,57 @@ indication_count: 10
 
 </div>
 
-# Granisetron: From Chemotherapy-Induced Nausea and Vomiting to Manic Bipolar Affective Disorder
+# جرانيسيترون: من الغثيان والقيء المستحثين بالعلاج الكيميائي إلى اضطراب نوبة هوس من الاضطراب ثنائي القطب
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Granisetron is a 5-HT3 receptor antagonist, originally used to prevent chemotherapy- and radiotherapy-induced nausea and vomiting (CINV/RINV). The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags no known direct pharmacological mechanism connecting 5-HT3 antagonism to mania.
+جرانيسيترون هو معاكس لمستقبلات 5-HT3، يُستخدم في الأصل للوقاية من الغثيان والقيء المستحثين بالعلاج الكيميائي والإشعاعي (CINV/RINV). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب نوبة هوس من الاضطراب ثنائي القطب**، لكن هذا الاتجاه يحظى حالياً بدعم من **0 تجربة سريرية** و **0 منشور**، والنموذج نفسه يشير إلى عدم وجود آلية صيدلانية معروفة مباشرة تربط معاكسة 5-HT3 بالهوس.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Chemotherapy/radiotherapy-induced nausea and vomiting (inferred from drug class in evidence pack; no Saudi Arabia license record on file) |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | الغثيان والقيء المستحثين بالعلاج الكيميائي/الإشعاعي (مُستنتج من فئة الدواء في حزمة الأدلة؛ لا توجد سجلات ترخيص TFDA بالملف) |
+| المؤشر الجديد المتنبأ به | اضطراب نوبة هوس من الاضطراب ثنائي القطب |
+| درجة التنبؤ بـ TxGNN | 99.62% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقّف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (marked as a data gap in the evidence pack). Based on known pharmacology, granisetron is a 5-HT3 (serotonin) receptor antagonist that acts on peripheral vagal afferents and the chemoreceptor trigger zone (CTZ) to block chemotherapy-induced emesis. Its efficacy in this original indication is well established.
+حالياً، بيانات آلية العمل المفصلة غير متاحة (تم تحديدها كفجوة في البيانات في حزمة الأدلة). بناءً على الصيدلانية المعروفة، جرانيسيترون هو معاكس لمستقبلات 5-HT3 (السيروتونين) يعمل على الألياف المبهمة الطرفية ومنطقة الزناد الكيميائي (CTZ) لمنع القيء المستحث بالعلاج الكيميائي. تثبت فعاليته في هذا المؤشر الأصلي بشكل جيد.
 
-For the top-ranked prediction, manic bipolar affective disorder, the model's own repurposing rationale is explicitly cautious: while the serotonergic system is theoretically linked to mood regulation, the primary pharmacological targets for mania are dopaminergic, glutamatergic, and ion-channel pathways (e.g., lithium, anticonvulsants, antipsychotics). No established direct mechanism connects 5-HT3 receptor antagonism to bipolar mania — this association is described as a knowledge-graph-derived inference rather than an evidence-backed hypothesis.
+بالنسبة للتنبؤ الأعلى تصنيفاً، اضطراب نوبة هوس من الاضطراب ثنائي القطب، فإن تبرير إعادة استخدام النموذج نفسه يتسم بالحذر: بينما يُفترض أن الجهاز السيروتونيني مرتبط نظرياً بتنظيم المزاج، فإن الأهداف الصيدلانية الأساسية للهوس هي الدوبامينية والجلوتاماتيرجية وقنوات الأيونات (مثل الليثيوم والأدوية المضادة للنوبات والمضادات النفسية). لا توجد آلية معروفة مباشرة تربط معاكسة مستقبلات 5-HT3 بهوس الاضطراب ثنائي القطب — يوصف هذا الارتباط كاستدلال مشتق من رسم بياني المعرفة بدلاً من فرضية مدعومة بالأدلة.
 
-Among the other nine candidates, two show comparatively more plausible (though still unproven) theoretical links: **Tourette syndrome** (rank 2) — central 5-HT3 receptors modulate striatal dopamine release, and the related drug ondansetron has been explored in small tic-symptom trials — and **trichotillomania** (rank 7), an OCD-spectrum disorder where 5-HT3 antagonists have been theoretically discussed as adjuncts to impulse-control treatment. The remaining candidates (conjunctivitis, urticaria, angioedema, bronchitis, NSIAD) are flagged in the source rationale as likely spurious correlations in the embedding space, with no plausible mechanistic basis.
+من بين المرشحين التسعة الآخرين، يُظهر اثنان صلات نظرية أكثر معقولية (وإن لم تُثبت بعد): **متلازمة توريت** (المرتبة 2) — تعديل مستقبلات 5-HT3 المركزية لإفراز الدوبامين المخطط، والدواء ذو الصلة أوندانسيترون تم استكشافه في تجارب صغيرة لأعراض الحركات اللاإرادية — و **اضطراب نتف الشعر** (المرتبة 7)، وهو اضطراب من طيف الوسواس القهري حيث تمت مناقشة معاكسات 5-HT3 نظرياً كمساعدات للتحكم الاندفاعي. يتم تحديد المرشحين المتبقيين (التهاب الملتحمة والأرتيكاريا والوذمة الوعائية والتهاب الشعب الهوائية وNSIAD) في التبرير المصدري بأنها ارتباطات ربما تكون حقيقية في فضاء التضمين، بدون أساس آلي معقول.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-Currently no related literature available.
+لا توجد أدلة أدبية متاحة حالياً.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقّف**
 
-**Rationale:**
-All 10 predicted indications sit at evidence level L5 (model prediction only) with zero clinical trials or literature identified, and the top-ranked candidate (manic bipolar affective disorder) lacks a plausible pharmacological mechanism per the model's own rationale. This is compounded by a **Blocking** data gap (DG001: TFDA/local package insert warnings and contraindications not yet retrieved), which prevents even an initial S1 safety screen, and the drug currently has zero registrations in Saudi Arabia.
+**التبرير:**
+جميع المؤشرات العشرة المتنبأ بها تقع في مستوى أدلة L5 (التنبؤ بالنموذج فقط) بدون تجارب سريرية أو أدلة أدبية محددة، والمرشح الأعلى تصنيفاً (اضطراب نوبة هوس من الاضطراب ثنائي القطب) يفتقر إلى آلية صيدلانية معقولة وفقاً لتبرير النموذج نفسه. يؤدي هذا إلى تفاقم الحالة بسبب فجوة بيانات **مانعة** (DG001: تحذيرات وموانع استخدام TFDA/الحزمة المحلية لم يتم استردادها بعد)، مما يمنع حتى فحص السلامة الأولي S1، والدواء حالياً به صفر تسجيل في المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve and parse official package insert warnings/contraindications before any S1 safety evaluation
-- Resolve DG002 (High): obtain confirmed mechanism-of-action data from DrugBank/literature to properly assess mechanistic plausibility
-- Targeted literature/clinical trial search for the mechanistically better-supported candidates (Tourette syndrome, trichotillomania) rather than the top-ranked but mechanistically unsupported manic bipolar affective disorder
-- Preclinical or observational evidence before advancing any candidate past decision stage S0
+**لمتابعة العمل، يلزم ما يلي:**
+- حل DG001 (مانع): استرجاع وتحليل تحذيرات/موانع الاستخدام الرسمية من النشرة قبل أي تقييم أمان S1
+- حل DG002 (عالي): الحصول على بيانات آلية عمل مؤكدة من DrugBank/الأدب العلمي لتقييم المعقولية الآلية بشكل صحيح
+- البحث المستهدف عن الأدب العلمي/التجارب السريرية للمرشحين الأفضل دعماً آلياً (متلازمة توريت، اضطراب نتف الشعر) بدلاً من المؤشر الأعلى تصنيفاً لكن الخالي آلياً من الدعم اضطراب نوبة هوس من الاضطراب ثنائي القطب
+- أدلة ما قبل السريرية أو ملاحظاتية قبل تقدم أي مرشح بعد مرحلة القرار S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

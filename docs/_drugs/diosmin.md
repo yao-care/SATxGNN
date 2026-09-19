@@ -29,78 +29,79 @@ indication_count: 1
 
 </div>
 
-# DIOSMIN: From Chronic Venous Insufficiency to Amenorrhea
+# ديوسمين: من القصور الوريدي المزمن إلى انقطاع الطمث
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-DIOSMIN is a flavonoid glycoside best known as a component of Daflon® (diosmin + hesperidin), approved in Europe for the treatment of chronic venous insufficiency.
-The TxGNN model predicts it may be effective for **Amenorrhea**,
-with a prediction score of **99.42%** — however, **no clinical trials and no published literature** currently support this specific direction.
+ديوسمين هو جليكوسيد فلافونويد معروف بشكل أساسي كمكون في دافلون® (ديوسمين + هسبريدين)، المعتمد في أوروبا لعلاج القصور الوريدي المزمن.
+ينبئ نموذج TxGNN بأنه قد يكون فعالاً في **انقطاع الطمث**،
+بدرجة توقع **99.42%** — لكن **لا توجد تجارب سريرية ولا أدبيات منشورة** تدعم هذا الاتجاه المحدد حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Chronic venous insufficiency (Daflon®, Europe) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | القصور الوريدي المزمن (دافلون®، أوروبا) |
+| المؤشر الجديد المتنبأ به | انقطاع الطمث |
+| درجة توقع TxGNN | 99.42% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | التأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-DIOSMIN is a flavonoid glycoside (phytochemical) with known phytoestrogenic properties. It can weakly bind to estrogen receptors (ERα/ERβ) and inhibit COX-mediated prostaglandin E2 synthesis, which in turn affects uterine endometrial vascular permeability. These properties provide a plausible, if indirect, biological bridge to menstrual cycle regulation.
+ديوسمين هو جليكوسيد فلافونويد (مادة كيميائية نباتية) ذو خصائص فيتوإستروجينية معروفة. يمكنه أن يرتبط بضعف بمستقبلات الإستروجين (ERα/ERβ) ويثبط تخليق البروستاجلاندين E2 الوسيط بـ COX، مما يؤثر بدوره على نفاذية الأوعية الدموية في بطانة الرحم. توفر هذه الخصائص جسراً بيولوجياً معقولاً، وإن كان غير مباشر، لتنظيم دورة الحيض.
 
-The TxGNN model likely derived this association through one of two hypothetical pathways: (1) **venous tone modulation → endometrial blood flow → menstrual cycle**, or (2) **antioxidant activity → hypothalamic-pituitary-ovarian (HPO) axis protection**. Both are mechanistically plausible at a theoretical level, as disrupted HPO axis signaling and poor uterine perfusion are recognized contributors to amenorrhea.
+من المحتمل أن يكون نموذج TxGNN قد اشتق هذا الترابط من خلال أحد مسارين فرضيين: (1) **تعديل نبرة الأوردة → تدفق الدم في بطانة الرحم → دورة الحيض**، أو (2) **النشاط المضاد للأكسدة → حماية محور الوطاء-النخامية-المبيضي (HPO)**. كلاهما معقول آلياً على المستوى النظري، حيث يُعترف بكل من اضطراب إشارات محور HPO وسوء التروية الرحمية كمساهمين معترف بهما في انقطاع الطمث.
 
-However, it is critical to note that these remain **speculative mechanistic pathways**. DIOSMIN's primary approved use — chronic venous insufficiency — has no established pharmacological link to menstrual disorders. This prediction is driven entirely by the graph neural network model and has not been validated by any clinical study or published research to date.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، من المهم جداً ملاحظة أن هذه تبقى **مسارات آلية تكهنية**. الاستخدام الموافق عليه الأساسي لديوسمين — القصور الوريدي المزمن — ليس له رابط دوائي محدد بوضوح للاضطرابات الحيضية. يتم دفع هذا التنبؤ بالكامل من خلال نموذج الشبكة العصبية الرسومية ولم يتم التحقق من صحته من قبل أي دراسة سريرية أو بحث منشور حتى الآن.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-DIOSMIN is currently not marketed in Saudi Arabia and holds no regulatory authorizations. No license records are available.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+ديوسمين غير مسوق حالياً في المملكة العربية السعودية ولا يحمل أي موافقات تنظيمية. لا توجد سجلات رخص متاحة.
 
-**Rationale:**
-This prediction is based solely on the TxGNN graph model (Evidence Level L5) with no supporting clinical trials or published literature. The mechanistic link between DIOSMIN and amenorrhea remains entirely theoretical, and DIOSMIN is not even marketed in Saudi Arabia, making clinical deployment premature.
+---
 
-**To proceed, the following is needed:**
-- Systematic literature review for DIOSMIN (or Daflon®) in menstrual disorders, HPO axis modulation, or gynecological conditions
-- Preclinical studies (animal models) demonstrating estrogenic or menstrual-cycle effects of DIOSMIN
-- Mechanistic validation: confirm ERα/ERβ binding affinity and functional relevance at therapeutic doses
-- Safety data: obtain full package insert warnings, contraindications, and drug interaction profile
-- Regulatory pathway assessment: determine whether DIOSMIN can be registered in Saudi Arabia and under what indication framework
-- If preclinical data is favorable, design a Phase 2 pilot study before any clinical decision
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: التأجيل**
+
+**المبرر:**
+يستند هذا التنبؤ حصراً على نموذج الرسم البياني TxGNN (مستوى الدليل L5) مع عدم وجود دراسات سريرية أو أدبيات منشورة داعمة. يبقى الرابط الآلي بين ديوسمين وانقطاع الطمث نظرياً بالكامل، وديوسمين غير مسوق حتى في المملكة العربية السعودية، مما يجعل التطبيق السريري مبكراً جداً.
+
+**للمتابعة، يلزم ما يلي:**
+- مراجعة منهجية للأدبيات حول ديوسمين (أو دافلون®) في اضطرابات الحيض أو تعديل محور HPO أو الحالات النسائية
+- دراسات ما قبل السريرية (نماذج حيوانية) توضح التأثيرات الإستروجينية أو تأثيرات دورة الحيض لديوسمين
+- التحقق الآلي: تأكيد تقاربية الارتباط ERα/ERβ والملاءمة الوظيفية عند الجرعات العلاجية
+- بيانات السلامة: الحصول على التحذيرات الكاملة في النشرة والموانع وملف التفاعلات الدوائية
+- تقييم المسار التنظيمي: تحديد ما إذا كان يمكن تسجيل ديوسمين في المملكة العربية السعودية وتحت أي إطار مؤشر
+- إذا كانت البيانات ما قبل السريرية مشجعة، صمم دراسة المرحلة الثانية قبل أي قرار سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,62 +29,63 @@ indication_count: 1
 
 </div>
 
-# Hyoscyamine: From Antispasmodic Use to Gastroduodenitis
+# الهيوسيامين: من الاستخدام المضاد للتشنج إلى التهاب المعدة والاثني عشر
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Hyoscyamine is a muscarinic acetylcholine receptor antagonist (antispasmodic) commonly used for gastrointestinal and genitourinary smooth muscle spasm; its specific Saudi-approved indication text is not available because the drug is currently not marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Gastroduodenitis**, but this is currently supported by **0 clinical trials** and only **1 tangentially related publication**, so the evidence base is essentially prediction-only.
+الهيوسيامين هو مضاد لمستقبلات الأسيتيل كولين الموسكاريني (مضاد للتشنج) يُستخدم بشكل شائع لتشنج العضلات الملساء في الجهاز الهضمي والبولي التناسلي؛ النص المحدد للمؤشر المعتمد من السعودية غير متاح لأن الدواء غير مُسوّق حالياً في المملكة العربية السعودية. نموذج TxGNN يتنبأ بأنه قد يكون فعالاً في **التهاب المعدة والاثني عشر**، لكن هذا مدعوم حالياً بـ **0 تجربة سريرية** و**منشور واحد فقط ذو صلة محدودة**، لذا فإن القاعدة الإثباتية هي في الأساس قائمة على التنبؤ فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in the Saudi regulatory dataset (drug not marketed); generally known as a GI/GU antispasmodic |
-| Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير موثّق في مجموعة البيانات التنظيمية السعودية (الدواء غير مُسوّق)؛ معروف بشكل عام كمضاد تشنج في الجهاز الهضمي والبولي التناسلي |
+| المؤشر الجديد المتنبأ به | التهاب المعدة والاثني عشر |
+| درجة التنبؤ بـ TxGNN | 99.59% |
+| مستوى الإثبات | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | عدم المتابعة |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for hyoscyamine in this Evidence Pack (DrugBank MOA query returned a data gap). Based on general pharmacological knowledge, hyoscyamine is a muscarinic acetylcholine receptor antagonist (anticholinergic/antispasmodic) that reduces gastrointestinal smooth muscle spasm and secretion.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة للهيوسيامين في هذه المجموعة الإثباتية (استعلام DrugBank MOA أرجع فجوة بيانات). بناءً على المعرفة الصيدلانية العامة، الهيوسيامين هو مضاد لمستقبلات الأسيتيل كولين الموسكاريني (مضاد كوليني/مضاد للتشنج) الذي يقلل من تشنج العضلات الملساء في الجهاز الهضمي والإفراز.
 
-The predicted new indication, gastroduodenitis, involves gastric/duodenal mucosal inflammation (e.g., from H. pylori infection or other irritant causes) that is often accompanied by spasmodic abdominal pain. Hyoscyamine's antispasmodic action could theoretically relieve the pain component of gastroduodenitis, but this is a symptomatic/mechanistic inference rather than evidence of a disease-modifying effect on the underlying mucosal inflammation itself.
+المؤشر الجديد المتنبأ به، وهو التهاب المعدة والاثني عشر، يتضمن التهاب الغشاء المخاطي المعدي/الاثني عشري (مثلاً من عدوى H. pylori أو أسباب تهيج أخرى) التي غالباً ما تكون مصحوبة بآلام البطن التشنجية. يمكن لفعل الهيوسيامين المضاد للتشنج أن يخفف نظرياً من مكون الألم في التهاب المعدة والاثني عشر، لكن هذا استدلال أعراضي/آلي بدلاً من الإثبات على تأثير معدِّل للمرض على الالتهاب المخاطي الكامن بحد ذاته.
 
-The single retrieved publication (a 2000 review on endoscopy premedication and sedation practice) does not directly address hyoscyamine's efficacy in gastroduodenitis — it is only broadly related to gastrointestinal endoscopic procedures. Combined with the absence of any clinical trials, the prediction currently rests on TxGNN's model score and a plausible but unproven mechanistic rationale.
+المنشور الوحيد المسترجع (استعراض من عام 2000 حول التخدير الاستباقي وممارسات التخدير في التنظير) لا يعالج مباشرة فعالية الهيوسيامين في التهاب المعدة والاثني عشر — فهو يرتبط فقط على نطاق واسع بإجراءات التنظير في الجهاز الهضمي. بالاقتران مع غياب أي تجارب سريرية، يستند التنبؤ حالياً على درجة نموذج TxGNN والأساس المنطقي الآلي المعقول لكن غير المثبت.
 
-## Clinical Trial Evidence
+## الإثبات من التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## الإثبات من الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10696836](https://pubmed.ncbi.nlm.nih.gov/10696836/) | 2000 | Review | Endoscopy | General review of endoscopy premedication and IV sedation practice (e.g., propofol use); does not specifically evaluate hyoscyamine in gastroduodenitis |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [10696836](https://pubmed.ncbi.nlm.nih.gov/10696836/) | 2000 | استعراض | Endoscopy | استعراض عام لممارسات التخدير الاستباقي والتخدير الوريدي في التنظير (مثل استخدام بروبوفول)؛ لا يقيّم بشكل محدد الهيوسيامين في التهاب المعدة والاثني عشر |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Hyoscyamine is currently **not marketed** in Saudi Arabia (0 authorizations on record), so no product/authorization data is available.
+الهيوسيامين غير مُسوّق حالياً في المملكة العربية السعودية (0 تراخيص في السجل)، لذا لا توجد بيانات منتج/ترخيص متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للمنتج للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: عدم المتابعة**
 
-**Rationale:**
-The prediction is currently supported only by a TxGNN model score and a plausible but unconfirmed mechanistic rationale (L5, evidence stage S0) — there are no clinical trials and the single literature hit is not directly relevant to hyoscyamine's use in gastroduodenitis. In addition, TFDA package insert warnings/contraindications are a **blocking** data gap that prevents even a preliminary safety assessment (S1).
+**الأساس المنطقي:**
+التنبؤ مدعوم حالياً فقط بدرجة نموذج TxGNN والأساس المنطقي الآلي المعقول لكن غير المؤكد (L5، مرحلة الإثبات S0) — لا توجد تجارب سريرية والمرجع الأدبي الوحيد ليس ذا صلة مباشرة باستخدام الهيوسيامين في التهاب المعدة والاثني عشر. بالإضافة إلى ذلك، تحذيرات وموانع استخدام النشرة الداخلية من TFDA هي فجوة بيانات **حاجزة** تمنع حتى المراجعة الأمنية الأولية (S1).
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) to unblock the S1 safety review
-- Confirmed mechanism of action (MOA) data from DrugBank
-- Confirmed original approved indication text (currently absent, as the drug is not marketed in Saudi Arabia)
-- Targeted clinical or preclinical evidence directly evaluating hyoscyamine (or antispasmodics of its class) in gastroduodenitis
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة الداخلية من TFDA (التحذيرات، موانع الاستخدام) لفتح مراجعة الأمان S1
+- بيانات آلية العمل المؤكدة (MOA) من DrugBank
+- نص المؤشر الأصلي المعتمد المؤكد (غير موجود حالياً، لأن الدواء غير مُسوّق في المملكة العربية السعودية)
+- إثبات سريري أو ما قبل سريري موجه مباشرة يقيّم الهيوسيامين (أو مضادات التشنج من فئته) في التهاب المعدة والاثني عشر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

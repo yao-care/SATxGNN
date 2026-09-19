@@ -29,67 +29,68 @@ indication_count: 7
 
 </div>
 
-# Theophylline: From Bronchodilator Therapy to Thrombotic Disease
+# الثيوفيللين: من العلاج القصبي إلى أمراض الجلطات
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Theophylline is a methylxanthine historically used as a bronchodilator for asthma and COPD, though Saudi Arabia-specific licensing and mechanism-of-action records are currently unavailable in this dataset. The TxGNN model predicts it may also be effective for **Thrombotic Disease**, but this direction is currently supported by **0 clinical trials** and **19 publications**, nearly all of which are only tangentially related (platelet-detection methodology or unrelated drugs) rather than direct evidence.
+الثيوفيللين عبارة عن ميثيل زانثين يستخدم تاريخياً كموسع قصبي لعلاج الربو والانسداد الرئوي المزمن، على الرغم من عدم توفر سجلات الترخيص الخاصة بالمملكة العربية السعودية وآلية العمل حالياً في هذه مجموعة البيانات. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **أمراض الجلطات**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجارب سريرية** و **19 منشورة**، معظمها ذات صلة هامشية فقط (منهجية الكشف عن الصفائح الدموية أو أدوية غير ذات صلة) بدلاً من الأدلة المباشرة.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Bronchodilator therapy for asthma/COPD (well-established pharmacological use; no Saudi Arabia-specific approved indication text on file) |
-| Predicted New Indication | Thrombotic Disease |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الدلالة الأصلية | العلاج القصبي لالتهاب الشعب الهوائية/الانسداد الرئوي المزمن (الاستخدام الدوائي المؤسس جيداً؛ لا توجد نصوص الدلالة المعتمدة الخاصة بالمملكة العربية السعودية في الملف) |
+| الدلالة الجديدة المتنبأ بها | أمراض الجلطات |
+| درجة تنبؤ TxGNN | 99.62% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the regulatory record (Data Gap). Based on known pharmacology, theophylline is a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist of the methylxanthine class; its bronchodilator and anti-inflammatory efficacy in asthma and COPD is well established.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في السجل التنظيمي (فجوة بيانات). بناءً على الدراسات الدوائية المعروفة، الثيوفيللين عبارة عن مثبط غير انتقائي لفسفوديستيراز (PDE) ومضاد مستقبلات الأدينوسين من فئة الميثيل زانثين؛ فعاليته القصبية والمضادة للالتهابات في الربو والانسداد الرئوي المزمن راسخة جيداً.
 
-The proposed link to thrombotic disease rests on a shared second-messenger pathway: PDE inhibition raises intracellular cAMP, which relaxes airway smooth muscle in the respiratory context but, in platelets, elevated cAMP is associated with reduced platelet activation and aggregation — a mechanism analogous to cilostazol, an approved PDE3 inhibitor used for antiplatelet therapy. This makes the hypothesis mechanistically plausible in principle.
+يستند الرابط المقترح إلى مرض الجلطات على مسار ثاني الرسول المشترك: يؤدي تثبيط PDE إلى رفع cAMP داخل الخلايا، مما يرخي عضلات المسالك الهوائية الملساء في السياق التنفسي لكن، في الصفائح الدموية، يرتبط ارتفاع cAMP بتقليل تنشيط وتجمع الصفائح الدموية — وهي آلية مشابهة لـ cilostazol، مثبط PDE3 المعتمد المستخدم للعلاج بمضادات الصفائح الدموية. هذا يجعل الفرضية معقولة من الناحية الآلية من حيث المبدأ.
 
-However, the retrieved literature does not actually substantiate this specific hypothesis. The 19 publications are largely methodological (platelet activation marker assays, sample-processing studies) or concern unrelated drugs/diseases, with no study directly evaluating theophylline's antithrombotic efficacy. As the underlying rationale itself notes, this remains a model-score-driven hypothesis (L5, no direct clinical or preclinical confirmation) rather than an evidence-backed candidate.
+ومع ذلك، لا تدعم الأدبيات المسترجعة بالفعل هذه الفرضية المحددة. الـ 19 منشورة تتعلق بالأساس بالمنهجية (اختبارات علامات تنشيط الصفائح الدموية، ودراسات معالجة العينات) أو تتعلق بأدوية/أمراض غير ذات صلة، بدون أي دراسة تقيم مباشرة فعالية الثيوفيللين المضادة للجلطات. كما يشير الأساس المنطقي الأساسي نفسه، يبقى هذا فرضية مدفوعة بنقاط النموذج (L5، بدون تأكيد سريري أو قبل سريري مباشر) بدلاً من كونها مرشحة مدعومة بالأدلة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clinical Pharmacokinetics | Review of ticlopidine's antiplatelet pharmacokinetics; does not address theophylline |
-| [21719422](https://pubmed.ncbi.nlm.nih.gov/21719422/) | 2011 | Cohort | Rheumatology (Oxford) | Platelet/neutrophil activation by age and gender in Behçet's disease; no theophylline intervention |
-| [32824700](https://pubmed.ncbi.nlm.nih.gov/32824700/) | 2020 | Methodology | Cells | Effect of anticoagulation/sample processing on blood-derived microRNA signatures |
-| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Crit Rev Biochem | Review of prostaglandins/thromboxane/prostacyclin in platelet aggregation and atherosclerosis |
-| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Methodology | British Journal of Haematology | Radioimmunoassay for platelet factor 4; theophylline used only as an anticoagulant reagent additive |
-| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | Methodology | Platelets | Measurement of soluble CLEC-2 as a platelet activation marker for thrombotic risk detection |
-| [197665](https://pubmed.ncbi.nlm.nih.gov/197665/) | 1977 | Review | Stroke | Review of brain edema classification and imaging in stroke; unrelated to theophylline |
-| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | Cohort | Inflammatory Bowel Diseases | Platelet-leukocyte aggregate formation in IBD; no theophylline treatment arm |
-| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Other | Analytica Chimica Acta | Electrochemical aptasensor for detecting theophylline concentration (analytical chemistry, not therapeutic) |
-| [29956444](https://pubmed.ncbi.nlm.nih.gov/29956444/) | 2018 | Methodology | Journal of Thrombosis and Haemostasis | Differential exocytic cargo release from endothelial Weibel-Palade bodies; no theophylline intervention |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|------------|
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | مراجعة | Clinical Pharmacokinetics | مراجعة الحركية الدوائية المضادة للصفائح الدموية لتيكلوبيدين؛ لا تتناول الثيوفيللين |
+| [21719422](https://pubmed.ncbi.nlm.nih.gov/21719422/) | 2011 | دراسة مجموعة | Rheumatology (Oxford) | تنشيط الصفائح الدموية/العدلات حسب العمر والجنس في داء بهجت؛ بدون تدخل الثيوفيللين |
+| [32824700](https://pubmed.ncbi.nlm.nih.gov/32824700/) | 2020 | منهجية | Cells | تأثير مضادات التخثر/معالجة العينات على بصمات الحمض النووي الريبوسومي الدقيقة المشتقة من الدم |
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | مراجعة | CRC Crit Rev Biochem | مراجعة البروستاغلاندينات/الثرومبوكسان/البروستاسيكلين في تجمع الصفائح الدموية وتصلب الشرايين |
+| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | منهجية | British Journal of Haematology | فحص المناعة الشعاعي لعامل الصفائح الدموية 4؛ الثيوفيللين المستخدم فقط كمادة مضافة في محلول مضاد للتخثر |
+| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | منهجية | Platelets | قياس CLEC-2 القابل للذوبان كعلامة تنشيط الصفائح الدموية لكشف خطر الجلطات |
+| [197665](https://pubmed.ncbi.nlm.nih.gov/197665/) | 1977 | مراجعة | Stroke | مراجعة تصنيف وتصوير وذمة الدماغ في السكتة الدماغية؛ غير ذات صلة بالثيوفيللين |
+| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | دراسة مجموعة | Inflammatory Bowel Diseases | تكوين مركبات الصفائح الدموية مع الكريات البيضاء في أمراض الأمعاء الالتهابية؛ بدون ذراع علاج الثيوفيللين |
+| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | أخرى | Analytica Chimica Acta | مستشعر aptasensor كهروكيميائي للكشف عن تركيز الثيوفيللين (الكيمياء التحليلية، وليس العلاجية) |
+| [29956444](https://pubmed.ncbi.nlm.nih.gov/29956444/) | 2018 | منهجية | Journal of Thrombosis and Haemostasis | الإفراز التفاضلي للحمولة من أجسام Weibel-Palade في الخلايا البطانية؛ بدون تدخل الثيوفيللين |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Although the TxGNN score is high (99.62%), the evidence level is L5 — there are no registered clinical trials, and the retrieved literature does not directly support a theophylline–thrombotic disease link (it is largely methodological or concerns unrelated drugs). A blocking data gap (SFDA/TFDA package insert warnings and contraindications unavailable) also prevents even a baseline safety review.
+**الأساس المنطقي:**
+على الرغم من أن درجة TxGNN عالية (99.62%)، فإن مستوى الأدلة هو L5 — لا توجد تجارب سريرية مسجلة، والأدبيات المسترجعة لا تدعم بشكل مباشر رابط الثيوفيللين–أمراض الجلطات (إنها تتعلق بالأساس بالمنهجية أو بأدوية غير ذات صلة). فجوة بيانات حاجزة (بيانات نشرة SFDA/TFDA — تحذيرات واحتياطات وموانع استعمال غير متاحة) تمنع أيضاً حتى مراجعة السلامة الأساسية.
 
-**To proceed, the following is needed:**
-- SFDA package insert data — warnings, precautions, and contraindications (Blocking gap, required before any S1 safety assessment)
-- Confirmed original indication and mechanism-of-action (MOA) documentation from DrugBank or equivalent source
-- Preclinical studies (e.g., platelet aggregation assays) directly testing theophylline's antithrombotic activity, rather than inference from cilostazol analogy
-- If preclinical signal emerges, a targeted literature/clinical trial search specifically on "theophylline AND antiplatelet/thrombosis" rather than broad platelet-methodology hits
+**للمتابعة، مطلوب ما يلي:**
+- بيانات نشرة SFDA — تحذيرات، احتياطات، وموانع استعمال (فجوة حاجزة، مطلوبة قبل أي تقييم سلامة S1)
+- توثيق الدلالة الأصلية المؤكدة وآلية العمل (MOA) من DrugBank أو مصدر معادل
+- دراسات قبل سريرية (مثل اختبارات تجمع الصفائح الدموية) تختبر بشكل مباشر النشاط المضاد للجلطات للثيوفيللين، بدلاً من الاستدلال من نموذج cilostazol
+- إذا ظهرت إشارة قبل سريرية، بحث مستهدف في الأدبيات والتجارب السريرية محدد على "theophylline AND antiplatelet/thrombosis" بدلاً من النتائج الواسعة ذات الصلة بمنهجية الصفائح الدموية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

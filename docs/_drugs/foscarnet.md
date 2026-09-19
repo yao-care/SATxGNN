@@ -29,61 +29,62 @@ indication_count: 4
 
 </div>
 
-# Foscarnet: From Antiviral Therapy to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
+# فوسكارنيت: من العلاج المضاد للفيروسات إلى متلازمة الهيماتوريا الأسرية السائدة الجسيسومية مع التواء الأوعية الشبكية والتقفعات
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Foscarnet is a pyrophosphate analog antiviral agent that inhibits viral DNA polymerase/reverse transcriptase (per mechanism notes on file; formal original-indication data is not recorded in this dataset). The TxGNN model predicts a possible link to **autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome**, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and has been internally flagged as likely graph-embedding noise.
+فوسكارنيت هو عامل مضاد للفيروسات من فئة نظائر البيروفوسفات يثبط بوليميراز DNA الفيروسي/النسخ العكسي (وفقاً لملاحظات الآلية المسجلة في الملف؛ لا توجد بيانات الاستطباب الأصلي الرسمية مسجلة في هذه المجموعة البيانات). يتنبأ نموذج TxGNN بوجود ارتباط محتمل بـ **متلازمة الهيماتوريا الأسرية السائدة الجسيسومية مع التواء الأوعية الشبكية والتقفعات**، لكن هذا التنبؤ يدعمه حالياً **عدد صفر من التجارب السريرية** و**عدد صفر من المنشورات**، وتم تحديده داخلياً كضوضاء محتملة في التضمين البياني.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current dataset (no approved indication text on file; known mechanistically as an antiviral) |
-| Predicted New Indication | Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome |
-| TxGNN Prediction Score | 99.56% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير متوفر في مجموعة البيانات الحالية (لا توجد نصوص استطباب معتمدة في الملف؛ معروف من الناحية الآلية كعامل مضاد للفيروسات) |
+| الاستطباب الجديد المتنبأ به | متلازمة الهيماتوريا الأسرية السائدة الجسيسومية مع التواء الأوعية الشبكية والتقفعات |
+| درجة التنبؤ بواسطة TxGNN | 99.56% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التخاويل | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the structured MOA field. Based on the mechanistic notes recorded alongside this candidate, foscarnet inhibits viral DNA polymerase/reverse transcriptase — a mechanism used clinically against herpesviruses such as CMV and HSV/VZV.
+حالياً، لا تتوفر بيانات مفصلة عن آلية العمل في حقل MOA المنظم. بناءً على الملاحظات الآلية المسجلة مع هذا المرشح، يثبط فوسكارنيت بوليميراز DNA الفيروسي/النسخ العكسي - وهي آلية تُستخدم سريرياً ضد الفيروسات الهربسية مثل CMV و HSV/VZV.
 
-The predicted indication, autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome, is a hereditary vascular disorder caused by defects in the COL4A1/COL4A2 collagen genes. There is no known mechanistic overlap between a collagen-structural disorder and an antiviral polymerase-inhibition pathway.
+الاستطباب المتنبأ به، متلازمة الهيماتوريا الأسرية السائدة الجسيسومية مع التواء الأوعية الشبكية والتقفعات، هي اضطراب وعائي وراثي يسببه خلل في جينات الكولاجين COL4A1/COL4A2. لا يوجد تداخل آلي معروف بين اضطراب البنية الكولاجينية وآلية تثبيط بوليميراز مضاد للفيروسات.
 
-The TxGNN score is high (0.9956), but this appears to be a graph-embedding artifact rather than a biologically grounded signal: no clinical trials, literature, or ICTRP records connect foscarnet to this disease. The reviewing rationale attached to this candidate explicitly characterizes it as embedding noise. The prediction should not be interpreted as mechanistically plausible without independent corroborating evidence.
+درجة TxGNN مرتفعة (0.9956)، لكن يبدو أن هذا هو تشويش في التضمين البياني بدلاً من كون إشارة مستندة بيولوجياً: لا توجد تجارب سريرية أو أدبيات أو سجلات ICTRP تربط فوسكارنيت بهذا المرض. تميز المنطق المراجع المرفق بهذا المرشح بشكل صريح ضوضاء التضمين. لا يجب تفسير التنبؤ على أنه معقول من الناحية الآلية بدون دليل مستقل يؤيده.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+حالياً لا تتوفر أدبيات ذات صلة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Foscarnet currently holds no marketing authorization in Saudi Arabia (0 licenses on file; market status: not marketed).
+لا يحمل فوسكارنيت حالياً أي ترخيص تسويقي في المملكة العربية السعودية (0 تخاويل في الملف؛ حالة السوق: غير مسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-This candidate has an evidence level of L5 — a model prediction with no supporting clinical trials or literature — and the internal review explicitly flags it as likely embedding noise with no plausible mechanistic link. Additionally, a **Blocking** data gap (TFDA package insert warnings/contraindications, DG001) prevents this candidate from entering the S1 safety pre-assessment stage regardless of prediction strength.
+**المنطق الأساسي:**
+هذا المرشح له مستوى دليل L5 — تنبؤ نموذجي بدون تجارب سريرية أو أدبيات داعمة — والمراجعة الداخلية تحدده بوضوح كضوضاء تضمين محتملة بدون ارتباط آلي معقول. بالإضافة إلى ذلك، فجوة بيانات **محظورة** (بيانات نشرة الدواء من TFDA بشأن التحذيرات/موانع الاستخدام، DG001) تمنع هذا المرشح من دخول مرحلة S1 لتقييم السلامة المسبق بغض النظر عن قوة التنبؤ.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) to unblock S1 safety review
-- Confirmed original indication and mechanism of action (MOA) from DrugBank or regulatory source
-- Independent literature or preclinical data specifically linking foscarnet to a collagen-vasculopathy pathway before any further evaluation is warranted
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة الدواء من TFDA (التحذيرات/موانع الاستخدام) لإلغاء حظر مراجعة السلامة S1
+- الاستطباب الأصلي المؤكد وآلية العمل (MOA) من DrugBank أو مصدر تنظيمي
+- أدبيات مستقلة أو بيانات ما قبل الإكلينيكية تربط بشكل محدد فوسكارنيت بمسار الاعتلال الوعائي الكولاجيني قبل الشروع في أي تقييم إضافي
 
-*Note: three other TxGNN candidates for this drug (rheumatoid arthritis, diabetic nephropathy, brain small vessel disease with ocular anomalies) were also screened in this evidence pack and were similarly assessed as Hold due to keyword-mismatch literature or absent mechanistic rationale — none currently support progression.*
+*ملاحظة: تم أيضاً فحص ثلاثة مرشحين آخرين TxGNN لهذا الدواء (التهاب المفاصل الروماتويدي، اعتلال الكلى السكري، أمراض الأوعية الدموية الدقيقة في الدماغ مع شذوذ عينية) في مجموعة الأدلة هذه وتم تقييمهم بالمثل على أنهم انتظار بسبب عدم تطابق الكلمات الرئيسية في الأدبيات أو غياب المنطق الآلي — لا أحد منهم يدعم حالياً التقدم.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

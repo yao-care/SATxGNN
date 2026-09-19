@@ -29,81 +29,82 @@ indication_count: 5
 
 </div>
 
-# Tropisetron: From Antiemetic Use (CINV/PONV) to Migraine Disorder
+# التروبيسيترون: من الاستخدام المضاد للغثيان (CINV/PONV) إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Tropisetron is a selective 5-HT3 receptor antagonist established as an antiemetic for chemotherapy-induced and postoperative nausea and vomiting.
-> The TxGNN model predicts it may be effective for **Migraine Disorder**,
-> with **no clinical trials** and **4 publications** currently supporting this direction.
+> التروبيسيترون هو مضاد انتقائي لمستقبل 5-HT3 وقد تم إثبات فعاليته كمضاد للغثيان في الغثيان والقيء الناجمين عن العلاج الكيميائي والعمليات الجراحية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع النصفي**،
+> مع **عدم وجود تجارب سريرية** و**4 منشورات** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Antiemetic (chemotherapy-induced and postoperative nausea/vomiting) — no formal Saudi Arabia label text on file (drug not marketed) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | مضاد للغثيان (الغثيان والقيء الناجمان عن العلاج الكيميائي والعمليات الجراحية) - لا توجد نصوص رسمية لوسم المملكة العربية السعودية في الملف (الدواء غير مسوق) |
+| الاستطباب الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة تنبؤ TxGNN | 99.84% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for tropisetron is not available in the evidence pack. Based on known pharmacological information (and corroborated by the literature retrieved, e.g. PMID 7959407), tropisetron belongs to the 5-HT3 receptor antagonist class alongside ondansetron and granisetron, and its efficacy in chemotherapy-induced and postoperative nausea and vomiting is well established.
+حالياً، بيانات آلية العمل المفصلة للتروبيسيترون غير متاحة في مجموعة الأدلة. استناداً إلى المعلومات الصيدلانية المعروفة (والمؤيدة من خلال الأدبيات المسترجعة، مثل PMID 7959407)، ينتمي التروبيسيترون إلى فئة مضادات مستقبل 5-HT3 إلى جانب الأوندانسيترون والغرانيسيترون، وتم إثبات فعاليته جيداً في الغثيان والقيء الناجمين عن العلاج الكيميائي والعمليات الجراحية.
 
-Migraine and chemotherapy-induced nausea share serotonergic pathophysiology in a broad sense — 5-HT3 receptors are involved in central pain and emetic signaling — but the dominant pharmacology of migraine treatment (triptans) acts through 5-HT1B/1D receptor agonism, not 5-HT3 antagonism. This is a distinct receptor subtype and mechanism.
+يشترك الصداع النصفي والغثيان الناجم عن العلاج الكيميائي في الفيزيولوجيا المرضية السيروتونينية بالمعنى الواسع — حيث تشارك مستقبلات 5-HT3 في الألم المركزي والإشارات المقيئة — لكن الصيدلانية السائدة لعلاج الصداع النصفي (التريبتانات) تعمل من خلال الناهضات لمستقبل 5-HT1B/1D، وليس من خلال مضادات 5-HT3. هذا نوع مستقبل وآلية عمل مختلفة.
 
-The strongest direct evidence is a 1991 two-arm randomized, double-blind, placebo-controlled study (PMID 1876437) of ICS 205-930 (tropisetron) in 204 migraine patients, plus a small regional comparative study (PMID 12924226) evaluating tropoxin (tropisetron) against other antimigraine agents. Both suggest a possible but modest and mechanistically indirect antimigraine effect, distinct from and weaker than the mainstream triptan mechanism. No contemporary or large-scale trials have replicated or extended these findings.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+أقوى دليل مباشر هو دراسة عشوائية ثنائية المجموعات عمياء مزدوجة مضبوطة بالعقار الوهمي من سنة 1991 (PMID 1876437) لـ ICS 205-930 (التروبيسيترون) في 204 مرضى صداع نصفي، بالإضافة إلى دراسة مقارنة إقليمية صغيرة (PMID 12924226) تقيّم التروبوكسين (التروبيسيترون) مقابل عوامل مضادة أخرى للصداع النصفي. كلاهما يشير إلى تأثير محتمل لكن متواضع وغير مباشر آلياً لمضادات الصداع النصفي، مختلف عن وأضعف من آلية التريبتان السائدة. لم تقم أي تجارب معاصرة أو واسعة النطاق بتكرار أو توسيع هذه الاكتشافات.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1876437](https://pubmed.ncbi.nlm.nih.gov/1876437/) | 1991 | RCT | Pain | Two parallel-group, randomized, double-blind, placebo-controlled trials (total 204 patients) of ICS 205-930 (tropisetron) for migraine attack prevention; results were mixed/complex rather than clearly positive |
-| [7959407](https://pubmed.ncbi.nlm.nih.gov/7959407/) | 1994 | Review | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Overview of 5-HT3 receptor antagonists (tropisetron, ondansetron, granisetron, etc.) and their pharmacological profiles |
-| [8832453](https://pubmed.ncbi.nlm.nih.gov/8832453/) | 1996 | Review | Journal of Clinical Anesthesia | General review of serotonin receptor pharmacology relevant to anesthesia, covering 5-HT3 antagonist class |
-| [12924226](https://pubmed.ncbi.nlm.nih.gov/12924226/) | 2003 | Cohort | Eksperimental'naia i Klinicheskaia Farmakologiia | Comparative study of tropoxin (tropisetron) vs. other antimigraine drugs; tropoxin attenuated and altered cerebrovascular constriction responses to serotonin without adrenergic, cholinergic, or antihistamine activity |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Saudi Arabia Market Information
+## الأدلة الأدبية
 
-Tropisetron is currently not marketed in Saudi Arabia and has zero registered authorizations, so no product/dosage-form/indication table can be produced from the available regulatory data.
+| PMID | السنة | نوع الدراسة | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [1876437](https://pubmed.ncbi.nlm.nih.gov/1876437/) | 1991 | تجربة عشوائية | Pain | دراستان بمجموعات متوازية، عشوائيتان، عمياوتان، مضبوطتان بالعقار الوهمي (إجمالي 204 مرضى) من ICS 205-930 (التروبيسيترون) لمنع نوبات الصداع النصفي؛ كانت النتائج مختلطة/معقدة بدلاً من أن تكون إيجابية بوضوح |
+| [7959407](https://pubmed.ncbi.nlm.nih.gov/7959407/) | 1994 | مراجعة | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | نظرة عامة على مضادات مستقبل 5-HT3 (التروبيسيترون، الأوندانسيترون، الغرانيسيترون، وغيرها) والملفات الصيدلانية الخاصة بها |
+| [8832453](https://pubmed.ncbi.nlm.nih.gov/8832453/) | 1996 | مراجعة | Journal of Clinical Anesthesia | مراجعة عامة لصيدلانية مستقبل السيروتونين ذات الصلة بالتخدير، تغطي فئة مضادات 5-HT3 |
+| [12924226](https://pubmed.ncbi.nlm.nih.gov/12924226/) | 2003 | دراسة حالة تتابعية | Eksperimental'naia i Klinicheskaia Farmakologiia | دراسة مقارنة للتروبوكسين (التروبيسيترون) مقابل عوامل مضادة أخرى للصداع النصفي؛ أضعف التروبوكسين واستحثّ تغييرات في استجابات تضيق الأوعية الدماغية للسيروتونين بدون نشاط أدرينالي أو كوليني أو مضاد للهيستامين |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+التروبيسيترون غير مسوق حالياً في المملكة العربية السعودية وليس لديه أي تفاويض مسجلة، لذا لا يمكن إنتاج جدول منتج/شكل جرعة/استطباب من بيانات اللوائح المتاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-Evidence rests on one 1991 RCT with mixed/complex results and a small regional comparative study, with no active or completed contemporary trials, no established mechanistic rationale beyond a general 5-HT3/serotonergic connection, and the drug is not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a blocking data gap for safety review
-- Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
-- A modern, adequately powered RCT evaluating tropisetron specifically for migraine prophylaxis or acute treatment
-- Drug-drug interaction (DDI) data, currently unavailable ("not_found")
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+يستند الدليل على تجربة عشوائية واحدة من سنة 1991 ذات نتائج مختلطة/معقدة ودراسة مقارنة إقليمية صغيرة، بدون تجارب معاصرة نشطة أو مكتملة، بدون أساس منطقي آلي معروف يتجاوز الارتباط السيروتونيني العام 5-HT3، والدواء غير مسوق حالياً في المملكة العربية السعودية.
+
+**يلزم ما يلي للمتابعة:**
+- بيانات نشرة TFDA/SFDA (التحذيرات، موانع الاستعمال) — فجوة بيانات مسدة حالياً لمراجعة السلامة
+- بيانات آلية العمل المؤكدة (MOA) من DrugBank أو مصدر معادل
+- تجربة عشوائية حديثة كافية الطاقة تقيّم التروبيسيترون على وجه التحديد لنبوءة الصداع النصفي أو العلاج الحاد
+- بيانات تفاعل الدواء مع الدواء (DDI)، غير متاحة حالياً (`not_found`)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

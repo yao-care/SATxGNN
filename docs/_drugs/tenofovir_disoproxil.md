@@ -29,94 +29,95 @@ indication_count: 4
 
 </div>
 
-# Tenofovir Disoproxil: From HIV-1/Chronic Hepatitis B Infection to Simian Immunodeficiency Virus Infection
+# تينوفوفير ديسوبروكسيل: من عدوى فيروس نقص المناعة البشرية 1 / التهاب الكبد المزمن من النوع B إلى عدوى فيروس نقص المناعة في الرئيسيات
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Tenofovir disoproxil is a nucleotide reverse transcriptase inhibitor prodrug whose evidence pack does not contain confirmed original-indication or mechanism-of-action data.
-The TxGNN model's top-ranked prediction is **Simian Immunodeficiency Virus (SIV) Infection**, an animal-model lentiviral disease, supported by only **2 clinical trials (both graded low relevance/noise)** and **20 publications (almost entirely animal studies in macaques)**.
-Because the predicted "new indication" is not a human disease, this candidate does **not** represent an actionable drug-repurposing opportunity in its current form.
+تينوفوفير ديسوبروكسيل هو دواء أولي مثبط للناسخ العكسي النيوكليوتيدي حزمة الأدلة الخاصة به لا تحتوي على بيانات مؤكدة حول الاستطبابات الأصلية أو آلية العمل.
+التنبؤ الأعلى تصنيفاً لنموذج TxGNN هو **عدوى فيروس نقص المناعة في الرئيسيات (SIV)**، وهي مرض فيروسي عكسي في نموذج حيواني، مدعوم بـ **تجربتين سريريتين فقط (كلتاهما درجتا برصة منخفضة/ضوضاء)** و **20 منشوراً (تقريباً كلها دراسات حيوانية على الرئيسيات)**.
+لأن الاستطباب "الجديد" المتنبأ به ليس مرضاً بشرياً، فإن هذا المرشح **لا يمثل** فرصة قابلة للتطبيق لإعادة استخدام الأدوية في شكلها الحالي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not provided in evidence pack (`original_indications` empty) — see note below |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection (animal-model disease, not a human indication) |
-| TxGNN Prediction Score | 99.95% (global rank 1239) |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | لم يتم توفيره في حزمة الأدلة (`original_indications` فارغة) — انظر الملاحظة أدناه |
+| الاستطباب الجديد المتنبأ به | عدوى فيروس نقص المناعة في الرئيسيات (مرض نموذج حيواني، وليس استطباب بشري) |
+| نقاط التنبؤ من TxGNN | 99.95% (الرتبة العالمية 1239) |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | إرجاء |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on established pharmacological knowledge outside this evidence pack, tenofovir disoproxil is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor (NRTI) used against HIV-1 and chronic hepatitis B — this classification is **not sourced from the evidence pack itself** and should be independently confirmed once the MOA data gap (DG002) is resolved.
+بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة هذه (`original_moa: [Data Gap]`). بناءً على المعرفة الصيدلانية الراسخة خارج حزمة الأدلة هذه، تينوفوفير ديسوبروكسيل هو دواء أولي لتينوفوفير، وهو مثبط للناسخ العكسي النيوكليوتيدي (NRTI) يُستخدم ضد فيروس نقص المناعة البشرية 1 والتهاب الكبد المزمن من النوع B — هذا التصنيف **لم يتم الحصول عليه من حزمة الأدلة نفسها** وينبغي التأكد منه بشكل مستقل بمجرد حل فجوة بيانات MOA (DG002).
 
-Mechanistically, the prediction is explainable: SIV is a lentivirus closely related to HIV, and reverse transcriptase structure is highly conserved across the lentivirus family, so tenofovir's antiretroviral activity plausibly extends to SIV — this is well documented in decades of macaque pre-exposure-prophylaxis (PrEP) research (see literature below).
+من الناحية الميكانيكية، التنبؤ قابل للتفسير: SIV هو فيروس عكسي وثيق الصلة بـ HIV، وهيكل الناسخ العكسي محفوظ بشكل كبير عبر عائلة الفيروسات العكسية، لذا من المعقول أن يمتد النشاط المضاد للفيروسات العكسية لتينوفوفير إلى SIV — هذا موثق بشكل جيد في عقود من أبحاث الوقاية قبل التعرض (PrEP) في الرئيسيات (انظر الأدبيات أدناه).
 
-However, this mechanistic plausibility does **not** constitute a novel repurposing hypothesis. SIV infects macaques, not humans; it is a laboratory/veterinary disease ontology term, not a condition tenofovir could be prescribed for in a human patient. The evidence collected essentially re-confirms tenofovir's known antiretroviral mechanism in an animal PrEP model rather than identifying a new human therapeutic use. The two associated clinical trials are both graded "C" (low relevance/noise — one tests raltegravir, not tenofovir; the other tests vedolizumab in human HIV, unrelated to SIV) and were matched on string similarity alone. The remaining three ranked predictions (feline AIDS, a rare neurodevelopmental disorder, and an obsolete hyperlipidemia term) are similarly not viable human indications — see Conclusion below.
+ومع ذلك، هذا التوافق الميكانيكي **لا يشكل** فرضية إعادة استخدام جديدة. SIV يصيب الرئيسيات وليس البشر؛ وهو مصطلح أنطولوجيا مرض معملي/بيطري وليس حالة يمكن وصف تينوفوفير لها لمريض بشري. الأدلة المجمعة تؤكد بشكل أساسي النشاط المضاد للفيروسات العكسية المعروف لتينوفوفير في نموذج PrEP حيواني بدلاً من تحديد استخدام علاجي بشري جديد. التجربتان المرتبطتان كلتاهما درجتا "C" (رصة منخفضة/ضوضاء — إحداهما تختبر raltegravir وليس tenofovir؛ والأخرى تختبر vedolizumab في HIV البشري، غير مرتبطة بـ SIV) وتم مطابقتهما على التشابه النصي وحده. التنبؤات الثلاث المتبقية ذات الرتبة الأعلى (الإيدز القطي، واضطراب نمائي نادر، وعبارة فرط شحميات الدم القديمة) لا تمثل بالمثل استطبابات بشرية قابلة للتطبيق — انظر الخلاصة أدناه.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Withdrawn | 0 | HIV/SIV viral decay kinetics study using raltegravir, not tenofovir; withdrawn with zero enrollment. Graded low relevance (noise match). |
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab + antiretroviral therapy in human HIV-infected subjects; does not involve tenofovir or SIV specifically. Graded low relevance (noise match). |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | انسحاب | 0 | دراسة حركيات تحلل الفيروسات HIV/SIV باستخدام raltegravir وليس tenofovir؛ انسحبت مع عدم تسجيل أحد. درجة رصة منخفضة (مطابقة ضوضاء). |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | المرحلة 1/2 | غير معروفة | 12 | Vedolizumab + العلاج المضاد للفيروسات العكسية لدى الأشخاص المصابين بـ HIV؛ لا يشمل tenofovir أو SIV بشكل محدد. درجة رصة منخفضة (مطابقة ضوضاء). |
 
-Neither trial provides direct evidence for tenofovir in SIV infection.
+لا تقدم أي من التجربتين أدلة مباشرة على تينوفوفير في عدوى SIV.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | RCT (human) | Pharmacotherapy | Review/evaluation of systemic HIV pre-exposure prophylaxis strategies |
-| [18216122](https://pubmed.ncbi.nlm.nih.gov/18216122/) | 2008 | Observational (African green monkeys) | Journal of Virology | SIVagm dynamics and antiretroviral (tenofovir + emtricitabine) effect in natural-host monkeys |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Animal Study (infant macaques) | J Acquir Immune Defic Syndr | Oral TDF and topical GS-7340 protect infant macaques against repeated oral SIV challenge |
-| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Animal Study (macaques) | J Infect Dis | TDF chemoprophylaxis provides partial protection against SHIV in macaques with multiple viral challenges |
-| [22072766](https://pubmed.ncbi.nlm.nih.gov/22072766/) | 2012 | Animal Study (macaques) | J Virol | Tenofovir vaginal gel provides durable protection against vaginal SHIV infection in macaques |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Animal Study (macaques) | J Infect Dis | Oral FTC/TDF prevents transmission of tenofovir-resistant (K65R) SHIV in macaques |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal Study (macaques) | J Infect Dis | Oral FTC/tenofovir alafenamide protects macaques from rectal SHIV infection |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal Study (macaques) | J Infect Dis | FTC/TDF prevents vaginal SHIV infection in macaques co-infected with Chlamydia/Trichomonas |
-| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | Animal Study (macaques) | JCI Insight | Hypo-osmolar rectal douche tenofovir formulation prevents SHIV acquisition in macaques |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Animal Study (macaques) | J Infect Dis | Tenofovir alafenamide/elvitegravir vaginal inserts give extended post-exposure protection against SHIV in macaques |
+| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | تجربة عشوائية محكومة (بشر) | Pharmacotherapy | مراجعة وتقييم استراتيجيات الوقاية قبل التعرض لنقص المناعة على الصعيد الجهازي |
+| [18216122](https://pubmed.ncbi.nlm.nih.gov/18216122/) | 2008 | ملاحظة (قرود أفريقية خضراء) | Journal of Virology | ديناميكيات SIVagm والتأثير المضاد للفيروسات (tenofovir + emtricitabine) في الرئيسيات المضيفة الطبيعية |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | دراسة حيوانية (رئيسيات رضع) | J Acquir Immune Defic Syndr | يوفر TDF الفموي و GS-7340 الموضعي حماية لرئيسيات رضع ضد تحديات SIV الفموية المتكررة |
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | دراسة حيوانية (رئيسيات) | J Infect Dis | العلاج الكيميائي الوقائي بـ TDF يوفر حماية جزئية ضد SHIV لدى الرئيسيات مع تحديات فيروسية متعددة |
+| [22072766](https://pubmed.ncbi.nlm.nih.gov/22072766/) | 2012 | دراسة حيوانية (رئيسيات) | J Virol | جل تينوفوفير المهبلي يوفر حماية دائمة ضد عدوى SHIV المهبلية لدى الرئيسيات |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | دراسة حيوانية (رئيسيات) | J Infect Dis | FTC/TDF الفموي يمنع انتقال SHIV المقاوم لتينوفوفير (K65R) لدى الرئيسيات |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | دراسة حيوانية (رئيسيات) | J Infect Dis | FTC/tenofovir alafenamide الفموي يحمي الرئيسيات من عدوى SHIV الشرجية |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | دراسة حيوانية (رئيسيات) | J Infect Dis | FTC/TDF يمنع عدوى SHIV المهبلية لدى الرئيسيات المصابة بعدوى مزدوجة مع Chlamydia/Trichomonas |
+| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | دراسة حيوانية (رئيسيات) | JCI Insight | الحقنة الشرجية منخفضة التوتر من تينوفوفير تمنع اكتساب SHIV لدى الرئيسيات |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | دراسة حيوانية (رئيسيات) | J Infect Dis | أغشية مهبلية من tenofovir alafenamide/elvitegravir توفر حماية موسعة ما بعد التعرض ضد SHIV لدى الرئيسيات |
 
-All literature evidence is preclinical/animal-model in nature; there is no human clinical evidence for tenofovir in SIV infection (which by definition cannot occur in humans). An additional 10 literature records in the evidence pack were unclassified ("pending") and are not included above.
-
----
-
-## Saudi Arabia Market Information
-
-Tenofovir disoproxil currently has no marketing authorization on record in Saudi Arabia (`total_licenses: 0`, `market_status: Not marketed/Not Marketed`); no license entries are available to list.
+جميع أدلة الأدبيات ذات طبيعة ما قبل سريرية/حيوانية؛ لا توجد أدلة سريرية بشرية على تينوفوفير في عدوى SIV (التي بطبيعة الحال لا يمكن أن تحدث عند البشر). سجلات أدبيات إضافية 10 في حزمة الأدلة كانت غير مصنفة ("قيد الانتظار") وغير مدرجة أعلاه.
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+تينوفوفير ديسوبروكسيل حالياً لا يوجد لديه ترخيص تسويقي مسجل في المملكة العربية السعودية (`total_licenses: 0`, `market_status: Not Marketed`); لا توجد إدخالات ترخيص متاحة للقائمة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-**Rationale:**
-None of the four TxGNN-predicted indications for this candidate is currently actionable. The top-ranked prediction, SIV infection, is a macaque-only lentiviral disease rather than a human indication — the supporting evidence, though mechanistically coherent, only reconfirms tenofovir's known antiretroviral activity in animal PrEP models. The remaining ranked predictions are similarly non-viable: feline AIDS is a veterinary disease with no supporting literature, the neurodevelopmental disorder shows no mechanistic link and is likely an embedding-similarity artifact, and the hyperlipidemia term is flagged obsolete in its source ontology. In addition, drug-level data (original indications, MOA, Taiwan/Saudi regulatory status, safety warnings) are all missing from this evidence pack, blocking any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — this is a **Blocking** data gap (DG001) that must be resolved before any S1 safety review
-- Confirmed mechanism-of-action data via DrugBank API (DG002)
-- Confirmed original indication(s) and regulatory status for tenofovir disoproxil
-- Re-run of the TxGNN prediction excluding non-human disease ontology terms, to surface genuinely translatable human indications
+## الخلاصة والخطوات التالية
+
+**القرار: إرجاء**
+
+**المبرر:**
+لا يوجد من بين الاستطبابات الأربعة المتنبأ بها من TxGNN لهذا المرشح ما هو قابل للتطبيق حالياً. التنبؤ الأعلى تصنيفاً، عدوى SIV، هو مرض فيروسي عكسي خاص بالرئيسيات وليس استطباب بشري — الأدلة الداعمة، على الرغم من أنها متسقة من الناحية الميكانيكية، تؤكد فقط النشاط المضاد للفيروسات العكسية المعروف لتينوفوفير في نماذج PrEP الحيوانية بدلاً من تحديد استخدام علاجي بشري جديد. التنبؤات المتبقية ذات الرتبة الأعلى غير قابلة للتطبيق بالمثل: الإيدز القطي هو مرض بيطري بدون أدلة أدبيات داعمة، واضطراب النمائي يظهر عدم وجود صلة ميكانيكية ومن المحتمل أن يكون قطعة تشابه تضمين، ومصطلح فرط شحميات الدم يُرمز إليه كقديم في أنطولوجيا مصدره. بالإضافة إلى ذلك، بيانات مستوى الدواء (الاستطبابات الأصلية، MOA، الحالة التنظيمية في تايوان/السعودية، تحذيرات السلامة) كلها مفقودة من حزمة الأدلة هذه، مما يحجب أي تقييم سلامة مسبق.
+
+**لكي نتقدم، يلزم ما يلي:**
+- نشرة TFDA (تحذيرات/موانع الاستعمال) — هذه فجوة بيانات **محظورة** (DG001) يجب حلها قبل أي مراجعة سلامة S1
+- بيانات آلية العمل المؤكدة عبر DrugBank API (DG002)
+- تأكيد الاستطباب (الاستطبابات) الأصلية والحالة التنظيمية لتينوفوفير ديسوبروكسيل
+- إعادة تشغيل التنبؤ من TxGNN مع استبعاد مصطلحات أنطولوجيا الأمراض غير البشرية، لتسطيح استطبابات بشرية حقيقية قابلة للترجمة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

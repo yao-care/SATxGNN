@@ -29,78 +29,79 @@ indication_count: 5
 
 </div>
 
-# Propofol: From General Anesthesia to Migraine Disorder
+# بروبوفول: من التخدير العام إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Propofol is a well-established intravenous general anesthetic and sedative agent, used for induction/maintenance of general anesthesia and procedural sedation. The TxGNN model predicts it may be effective for **Migraine Disorder** at sub-anesthetic doses, with **5 clinical trials** and **19 publications** currently supporting this direction, including one completed Phase 2/3 RCT.
+بروبوفول عامل مخدر عام وريدي وعامل مهدئ راسخ الاستخدام، يُستخدم في تحريض/الحفاظ على التخدير العام والتهدئة الإجرائية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع النصفي** عند جرعات تحت التخدير، مع **5 تجارب سريرية** و **19 منشور** يدعمان هذا الاتجاه حالياً، بما في ذلك تجربة عشوائية محكومة واحدة مكتملة من المرحلة 2/3.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | General anesthesia induction/maintenance and procedural sedation (well-established use; no formal approved-indication text available — drug is not marketed in this jurisdiction) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | تحريض/الحفاظ على التخدير العام والتهدئة الإجرائية (استخدام راسخ؛ لا يوجد نص مؤشر معتمد رسمي متاح - الدواء غير مسوق في هذه الولاية القضائية) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ بنموذج TxGNN | 99.69% |
+| مستوى الدليل | L2 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Formal mechanism-of-action data for this candidate is currently a data gap (DrugBank MOA field not populated). Based on known pharmacology and the evidence-pack rationale, propofol is a **GABA-A receptor positive modulator** with central sedative effects, and it has been shown to suppress **cortical spreading depression (CSD)** — the neurophysiological correlate of migraine aura. This mechanism could interrupt cortical hyperexcitability and trigeminovascular activation that drive a migraine attack.
+بيانات آلية العمل الرسمية لهذا المرشح حالياً فجوة في البيانات (حقل DrugBank MOA غير مملوء). بناءً على الصيدلة المعروفة ومبررات حزمة الأدلة، بروبوفول هو **معدل موجب لمستقبل GABA-A** مع تأثيرات مهدئة مركزية، وقد ثبت أنه يثبط **انتشار الاكتئاب القشري (CSD)** — الارتباط الفسيولوجي العصبي لهالة الصداع النصفي. يمكن لهذه الآلية أن تقاطع فرط الإثارة القشرية وتنشيط الجهاز ثلاثي الأوعية الدموية الذي يدفع نوبة الصداع النصفي.
 
-The link between propofol's original use (general anesthesia/sedation) and the predicted new indication (migraine) is not disease-similarity based but mechanism-based: sub-anesthetic ("low-dose") propofol infusion has been used off-label as an abortive agent for refractory migraine since at least 2000, well outside its anesthetic dose range. This gives a 20+ year track record of clinical observation layered on top of the CSD-suppression mechanism.
+الارتباط بين الاستخدام الأصلي للبروبوفول (التخدير العام/التهدئة) والمؤشر الجديد المتنبأ به (الصداع النصفي) لا يعتمد على التشابه في المرض بل على الآلية: تسريب البروبوفول تحت التخدير ("جرعة منخفضة") تم استخدامه خارج التسمية كعامل إجهاضي للصداع النصفي المقاوم منذ عام 2000 على الأقل، بعيداً عن نطاق جرعته المخدرة. هذا يعطي سجل تتبع سريري لأكثر من 20 سنة يتراكم على آلية قمع CSD.
 
-This mechanistic plausibility is reinforced by real clinical use: emergency departments (particularly pediatric EDs) have piloted low-dose propofol as second-line abortive therapy when first-line agents (NSAIDs, triptans, dopamine antagonists) fail, and the 2025 American Headache Society parenteral-therapy guideline update (PMID 41321235) now discusses propofol in this context — indicating the idea has moved from anecdote toward guideline-level discussion, though not yet to first-line recommendation.
+تعزز معقولية الآلية هذه الاستخدام السريري الحقيقي: أقسام الطوارئ (خاصة أقسام طوارئ الأطفال) قامت بتجريب بروبوفول منخفض الجرعة كعلاج إجهاضي من الخط الثاني عندما تفشل أدوية الخط الأول (مضادات الالتهاب غير الستيرويدية والتريبتان وحاصرات الدوبامين)، وتحديث إرشادات العلاج الحقني لجمعية الصداع الأمريكية 2025 (PMID 41321235) يناقش الآن البروبوفول في هذا السياق — مما يشير إلى أن الفكرة انتقلت من القصص المنعزلة نحو نقاش مستوى الإرشادات، على الرغم من أنها لم تصل بعد إلى توصية الخط الأول.
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Phase 2/3 | Completed | 74 | Low-dose propofol as abortive therapy for pediatric migraine in the ED; core evidence for this indication, directly tests dose regimen in target population |
-| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | NA | Completed | 40 | Low-dose propofol infusion as abortive treatment for pediatric migraine; evaluates efficacy, safe dosing limits, and duration of effect |
-| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | NA | Terminated | 12 | Low-dose propofol for severe refractory migraine in the ED; terminated early, small sample limits conclusions but supports feasibility |
-| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | NA | Unknown | 130 | Compares propofol vs. sevoflurane anesthesia maintenance and postoperative headache incidence; indirect relevance (anesthesia side-effect study, not a migraine-treatment trial) |
-| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | NA | Completed | 315 | Electroacupuncture vs. propofol-based anesthesia in cardiac surgery; propofol is background anesthetic only, low relevance to migraine indication |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-----------|--------|------|---------|-----------------|
+| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | المرحلة 2/3 | مكتملة | 74 | بروبوفول منخفض الجرعة كعلاج إجهاضي للصداع النصفي عند الأطفال في قسم الطوارئ؛ الدليل الأساسي لهذا المؤشر، يختبر مباشرة نطاق الجرعة في السكان المستهدفين |
+| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | NA | مكتملة | 40 | تسريب بروبوفول منخفض الجرعة كعلاج إجهاضي للصداع النصفي عند الأطفال؛ يقيم الفعالية وحدود الجرعات الآمنة ومدة التأثير |
+| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | NA | ملغاة | 12 | بروبوفول منخفض الجرعة للصداع النصفي الشديد المقاوم في قسم الطوارئ؛ ملغاة مبكراً، العينة الصغيرة تحد من الاستنتاجات لكنها تدعم الجدوى |
+| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | NA | غير معروفة | 130 | مقارنة بين البروبوفول وسيفوفلوران في الحفاظ على التخدير ودخول الصداع بعد العملية؛ صلة غير مباشرة (دراسة تأثيرات جانبية للتخدير، وليست تجربة علاج الصداع النصفي) |
+| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | NA | مكتملة | 315 | الوخز بالإبر الكهربائية مقابل التخدير القائم على البروبوفول في جراحة القلب؛ البروبوفول هو مخدر خلفي فقط، الصلة المنخفضة بمؤشر الصداع النصفي |
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Review/Guideline | Headache | 2025 AHS guideline update on parenteral migraine pharmacotherapy in the ED, includes propofol in evidence assessment |
-| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Systematic Review | Acad Emerg Med | Systematic review of propofol safety/efficacy for acute migraine treatment in the ED |
-| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | J Emerg Med | Prospective RCT: low-dose propofol for pediatric migraine, favorable side-effect profile, potentially shorter ED length of stay |
-| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Arch Acad Emerg Med | Double-blind RCT comparing propofol+granisetron vs. propofol+metoclopramide for acute migraine symptom management |
-| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Arch Acad Emerg Med | RCT: sumatriptan+propofol combination vs. sumatriptan+placebo for acute migraine |
-| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | Pilot RCT | Emerg Med Australas | Pilot RCT: IV propofol at procedural sedation dose vs. standard therapy for ED migraine |
-| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | Systematic Review/Network Analysis | Headache | Compares parenteral agents (including propofol) for reducing relapse after acute migraine treatment |
-| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Systematic Review | Cephalalgia | Canadian Headache Society systematic review and recommendations on migraine treatment in emergency settings |
-| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Retrospective/Case series | Expert Rev Neurother | Full drug profile of propofol for management of refractory ("super-refractory") migraine |
-| [10759925](https://pubmed.ncbi.nlm.nih.gov/10759925/) | 2000 | Case series | Headache | Original report describing unique effectiveness of IV propofol in treating intractable migraine |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | مراجعة/إرشادات | Headache | تحديث إرشادات جمعية الصداع الأمريكية 2025 حول العلاج الدوائي الحقني للصداع النصفي في قسم الطوارئ، يتضمن البروبوفول في تقييم الدليل |
+| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | مراجعة منهجية | Acad Emerg Med | مراجعة منهجية لسلامة/فعالية البروبوفول لعلاج الصداع النصفي الحاد في قسم الطوارئ |
+| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | تجربة عشوائية محكومة | J Emerg Med | تجربة عشوائية محكومة استباقية: بروبوفول منخفض الجرعة للصداع النصفي عند الأطفال، ملف تأثيرات جانبية مواتية، مدة إقامة محتملة أقصر في قسم الطوارئ |
+| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | تجربة عشوائية محكومة | Arch Acad Emerg Med | تجربة عشوائية محكومة عمياء مزدوجة تقارن البروبوفول+جرانيسيترون مقابل البروبوفول+ميتوكلوبراميد لإدارة أعراض الصداع النصفي الحاد |
+| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | تجربة عشوائية محكومة | Arch Acad Emerg Med | تجربة عشوائية محكومة: مزيج سوماتريبتان+بروبوفول مقابل سوماتريبتان+دواء وهمي للصداع النصفي الحاد |
+| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | تجربة عشوائية محكومة تجريبية | Emerg Med Australas | تجربة عشوائية محكومة تجريبية: البروبوفول الوريدي عند جرعة التهدئة الإجرائية مقابل العلاج القياسي للصداع النصفي في قسم الطوارئ |
+| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | مراجعة منهجية/تحليل الشبكة | Headache | مقارنة الأدوية الحقنية (بما في ذلك البروبوفول) لتقليل الانتكاسة بعد العلاج الحاد للصداع النصفي |
+| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | مراجعة منهجية | Cephalalgia | مراجعة منهجية من جمعية الصداع الكندية وتوصيات حول علاج الصداع النصفي في بيئات الطوارئ |
+| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | دراسة بأثر رجعي/سلسلة حالات | Expert Rev Neurother | الملف الطبي الكامل للبروبوفول لإدارة الصداع النصفي المقاوم ("المقاوم جداً") |
+| [10759925](https://pubmed.ncbi.nlm.nih.gov/10759925/) | 2000 | سلسلة حالات | Headache | التقرير الأصلي الذي يصف الفعالية الفريدة للبروبوفول الوريدي في علاج الصداع النصفي العنيد |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Propofol currently has no registered market authorizations in this dataset (0 licenses, market status: Not marketed/Not Marketed). No product-level authorization data is available to tabulate.
+البروبوفول حالياً لا يملك تفويضات سوق مسجلة في هذه مجموعة البيانات (0 تراخيص، حالة السوق: غير مسوق). لا توجد بيانات تفويض على مستوى المنتج متاحة للجدولة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are currently a documented data gap — TFDA/SFDA package insert extraction is flagged as a **Blocking** gap in this evidence pack, meaning formal safety review cannot proceed until resolved.)
+يرجى الرجوع إلى ملصق الدواء للحصول على معلومات السلامة. (تحذيرات المفتاح والموانع والبيانات DDI حالياً فجوة بيانات موثقة — يتم وضع علم على استخراج ملصق الدواء TFDA/SFDA كفجوة محجوبة في حزمة الأدلة هذه، مما يعني أن المراجعة الرسمية للسلامة لا يمكن أن تتقدم حتى يتم حلها.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع الضمانات**
 
-**Rationale:**
-One completed Phase 2/3 RCT (NCT01604785) plus a consistent body of smaller RCTs, systematic reviews, and a 2026 professional-society guideline discussion support low-dose propofol as an abortive migraine therapy — sufficient to justify continued evaluation, but the evidence base remains ED/pediatric-skewed with small sample sizes and one terminated trial, so guardrails are warranted rather than an unconditional Go.
+**المبرر:**
+تجربة عشوائية محكومة واحدة مكتملة من المرحلة 2/3 (NCT01604785) بالإضافة إلى مجموعة متسقة من التجارب العشوائية المحكومة الأصغر والمراجعات المنهجية ومناقشة الإرشادات على مستوى المجتمع المهني لعام 2026 تدعم بروبوفول منخفض الجرعة كعلاج إجهاضي للصداع النصفي — كافية لتبرير الاستمرار في التقييم، لكن قاعدة الأدلة تبقى منحازة نحو قسم الطوارئ/طب الأطفال مع أحجام عينات صغيرة وتجربة واحدة ملغاة، لذا فإن الضمانات مبررة بدلاً من موافقة بلا شروط.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently a Blocking data gap — required before any S1 safety review)
-- Formal DrugBank MOA confirmation (currently a data gap)
-- Saudi Arabia regulatory/market status confirmation for propofol (currently shows 0 authorizations)
-- Adult-population, adequately powered RCT data (existing strongest trial is pediatric; adult evidence is largely case series/small pilot RCTs)
-- Head-to-head comparison against standard first-line abortive migraine therapies to establish relative positioning
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات ملصق الدواء TFDA/SFDA والموانع (حالياً فجوة بيانات محجوبة — مطلوب قبل أي مراجعة سلامة S1)
+- تأكيد رسمي من DrugBank MOA (حالياً فجوة بيانات)
+- تأكيد حالة التنظيم/السوق في المملكة العربية السعودية للبروبوفول (يُظهر حالياً 0 تفويض)
+- بيانات التجارب العشوائية المحكومة للسكان البالغين بقوة كافية (أقوى تجربة موجودة هي لطب الأطفال؛ الدليل عند البالغين هو بشكل كبير سلسلة حالات/تجارب عشوائية محكومة تجريبية صغيرة)
+- مقارنة وجهاً لوجه مقابل علاجات الصداع النصفي الإجهاضية القياسية من الخط الأول لتحديد الموضع النسبي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

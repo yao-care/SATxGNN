@@ -29,86 +29,87 @@ indication_count: 10
 
 </div>
 
-# Hydroxyprogesterone Caproate: From Progestogen Therapy to Endometrial Cancer
+# هايدروكسي بروجسترون كابروات: من العلاج بالبروجستوجين إلى سرطان بطانة الرحم
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Hydroxyprogesterone caproate is a synthetic progestin (17α-hydroxyprogesterone ester) historically used as a progestogen therapy agent; no approved indication or license record exists in the current Saudi Arabia registry for this product. The TxGNN model predicts it may be effective for **Endometrial Cancer**, supported by a **Cochrane systematic review**, multiple historical cohort studies, and **20 literature citations** in total, though a directly matched contemporary clinical trial is lacking.
+هايدروكسي بروجسترون كابروات هو بروجستين اصطناعي (إستر 17α-هايدروكسي بروجسترون) تاريخياً يُستخدم كعامل علاج بالبروجستوجين؛ لا توجد مؤشرات معتمدة أو سجل ترخيص في السجل الحالي للمملكة العربية السعودية لهذا المنتج. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان بطانة الرحم**، يدعمه **مراجعة منهجية من Cochrane**، وعدة دراسات أتراب تاريخية، و **20 مرجعاً أدبياً** في المجموع، على الرغم من غياب التجربة السريرية المعاصرة المطابقة مباشرة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | No approved indication on file — product is not marketed in Saudi Arabia; internationally known for progestogen replacement/insufficiency use |
-| Predicted New Indication | Endometrial Cancer |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | لا توجد مؤشرات معتمدة في الملف — المنتج غير مسوق في المملكة العربية السعودية؛ معروف دولياً باستخدامه في الاستبدال الهرموني بالبروجستوجين / قصور البروجستوجين |
+| المؤشر الجديد المتنبأ به | سرطان بطانة الرحم |
+| درجة التنبؤ بـ TxGNN | 99.96% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع تدابير الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, hydroxyprogesterone caproate is a synthetic progestin acting as a progesterone receptor agonist. Progesterone-receptor activation suppresses estrogen-driven endometrial proliferation and promotes secretory differentiation of endometrial tissue — the same mechanism underlying decades of progestogen-based hormonal therapy in gynecologic oncology.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في مجموعة الأدلة هذه (محددة كفجوة بيانات عالية الخطورة). بناءً على علم الأدوية المعروف، هايدروكسي بروجسترون كابروات هو بروجستين اصطناعي يعمل كناهض مستقبل البروجسترون. يؤدي تفعيل مستقبل البروجسترون إلى قمع تكاثر بطانة الرحم المدفوع بالإستروجين ويعزز التمايز الإفرازي لأنسجة بطانة الرحم — نفس الآلية الكامنة وراء عقود من العلاج الهرموني على أساس البروجسترون في الأورام السرطانية النسائية.
 
-Endometrial cancer arises from unopposed estrogenic stimulation of the endometrium, making it a biologically plausible target for a progestin. This mechanistic link is not speculative: it was clinically explored between the 1960s and 1990s, with hydroxyprogesterone caproate specifically studied as adjuvant and palliative hormonal therapy in endometrial carcinoma (e.g., Reifenstein 1971/1974; Onsrud 1982/1985; Vishnevsky et al. 1989/1990/1993), and a Cochrane systematic review (Martin-Hirsch et al., 2000) formally assessed adjuvant progestogen therapy for this indication.
+ينشأ سرطان بطانة الرحم من التحفيز بالإستروجين غير المعاكس لبطانة الرحم، مما يجعله هدفاً بيولوجياً معقولاً لبروجستين. هذا الربط الآلي ليس تخميناً: تم استكشافه سريرياً بين الستينيات والتسعينيات، مع دراسة هايدروكسي بروجسترون كابروات على وجه التحديد كعلاج هرموني إضافي وملطف في سرطان الرحم الغدي (على سبيل المثال، Reifenstein 1971/1974; Onsrud 1982/1985; Vishnevsky et al. 1989/1990/1993)، وقيّمت مراجعة منهجية من Cochrane (Martin-Hirsch et al., 2000) العلاج بالبروجستوجين الإضافي لهذا المؤشر.
 
-It is worth noting that this evidence pack also flags several weaker, lower-confidence predictions for the same drug — including endometriosis of uterus, uterine corpus cancer (a closely related disease label), and rare aggregation-only hits such as renal hypoplasia — most scored at L4/L5 with sparse or no supporting literature and a "Hold"/"Research Question" recommendation. Endometrial cancer stands out as the strongest-evidenced candidate in this set (L2, decision stage S3), which is why it is the focus of this report.
-
----
-
-## Clinical Trial Evidence
-
-One trial was returned by the automated search (NCT01812161), but it was flagged in the evidence pack as a pipeline mismatch: it studies low-frequency electroacupuncture for polycystic ovary syndrome and has no relevance to endometrial cancer treatment. Excluding this false match, there are currently no related clinical trials registered for hydroxyprogesterone caproate in endometrial cancer.
+من الجدير بالملاحظة أن مجموعة الأدلة هذه تشير أيضاً إلى عدة تنبؤات أضعف وأقل ثقة للعقار ذاته — بما في ذلك بطانة الرحم المهاجرة في الرحم، سرطان جسم الرحم (تصنيف مرض ذو صلة وثيقة)، وضربات تجميع نادرة فقط مثل نقص تنسج الكلى — معظمها مُسجل في L4/L5 مع أدلة قليلة أو غير موجودة وتوصية "توقف"/"سؤال بحث". يبرز سرطان بطانة الرحم كمرشح ذو أقوى أدلة في هذه المجموعة (L2، مرحلة القرار S3)، وهذا هو السبب في أنه محور هذا التقرير.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10796737](https://pubmed.ncbi.nlm.nih.gov/10796737/) | 2000 | Cochrane systematic review (RCTs) | Cochrane Database Syst Rev | Assessed adjuvant progestogen therapy after primary surgery for endometrial cancer to reduce recurrence risk |
-| [21154390](https://pubmed.ncbi.nlm.nih.gov/21154390/) | 2010 | Review | Cochrane Database Syst Rev | Evaluated hormonal therapy in advanced or recurrent endometrial cancer |
-| [22245711](https://pubmed.ncbi.nlm.nih.gov/22245711/) | 2012 | Systematic review | Gynecologic Oncology | Reviewed oncologic and reproductive outcomes with progestin therapy in endometrial hyperplasia and grade 1 adenocarcinoma |
-| [8500499](https://pubmed.ncbi.nlm.nih.gov/8500499/) | 1993 | Prospective randomized study | Eur J Gynaecol Oncol | In 540 primary endometrial carcinoma patients, adjuvant hydroxyprogesterone caproate (± tamoxifen) improved 5-year corrected survival vs. surgery/combined therapy alone |
-| [4616884](https://pubmed.ncbi.nlm.nih.gov/4616884/) | 1974 | Cohort/uncontrolled clinical study | Gynecologic Oncology | Early foundational study of hydroxyprogesterone caproate treatment in advanced endometrial cancer |
-| [5549492](https://pubmed.ncbi.nlm.nih.gov/5549492/) | 1971 | Cohort/uncontrolled clinical study | Cancer | Companion study establishing hydroxyprogesterone caproate therapy in advanced endometrial cancer |
-| [6983994](https://pubmed.ncbi.nlm.nih.gov/6983994/) | 1982 | Cohort (adjuvant treatment) | Gynecologic Oncology | Adjuvant hydroxyprogesterone caproate in stage I endometrial carcinoma; assessed immune subpopulation changes |
-| [2932883](https://pubmed.ncbi.nlm.nih.gov/2932883/) | 1985 | Cohort (pharmacokinetics) | Acta Obstet Gynecol Scand | Characterized IM pharmacokinetics and adrenal function effects during long-term adjuvant HPC treatment |
-| [6985833](https://pubmed.ncbi.nlm.nih.gov/6985833/) | 1980 | Prospective comparative trial | Cancer | Compared Depo-Provera vs. hydroxyprogesterone caproate (Delalutin) in 114 women with metastatic endometrial adenocarcinoma; no significant difference in response or survival |
-| [8565696](https://pubmed.ncbi.nlm.nih.gov/8565696/) | 1995 | Comparative cohort | Zhonghua Fu Chan Ke Za Zhi | Compared aminoglutethimide vs. progesterone caproate (alone/combined) on hormone receptor levels and histopathology in endometrial cancer |
+تم إرجاع تجربة واحدة من خلال البحث الآلي (NCT01812161)، لكنها تم تحديدها في مجموعة الأدلة كعدم توافق في خط الأنابيب: تدرس تحفيز كهربائي بتردد منخفض للوخز بالإبر لمتلازمة المبيض المتعدد الكيسات وليس لها صلة بعلاج سرطان بطانة الرحم. باستثناء هذا التطابق الكاذب، لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ هايدروكسي بروجسترون كابروات في سرطان بطانة الرحم.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Hydroxyprogesterone caproate has no license record in the Saudi Arabia registry queried for this evidence pack (market status: not marketed, 0 authorizations). No market authorization table can be produced from current data.
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [10796737](https://pubmed.ncbi.nlm.nih.gov/10796737/) | 2000 | مراجعة منهجية من Cochrane (RCTs) | Cochrane Database Syst Rev | قيّمت العلاج بالبروجستوجين الإضافي بعد الجراحة الأولية لسرطان بطانة الرحم لتقليل مخاطر الانتكاس |
+| [21154390](https://pubmed.ncbi.nlm.nih.gov/21154390/) | 2010 | مراجعة | Cochrane Database Syst Rev | قيّمت العلاج الهرموني في سرطان بطانة الرحم المتقدم أو المتكرر |
+| [22245711](https://pubmed.ncbi.nlm.nih.gov/22245711/) | 2012 | مراجعة منهجية | Gynecologic Oncology | استعرضت النتائج الورمية والإنجابية مع العلاج بالبروجستين في فرط تنسج بطانة الرحم وسرطان الغدية من الدرجة 1 |
+| [8500499](https://pubmed.ncbi.nlm.nih.gov/8500499/) | 1993 | دراسة عشوائية محتملة | Eur J Gynaecol Oncol | في 540 مريضة بسرطان بطانة الرحم الأولي، حسّن هايدروكسي بروجسترون كابروات الإضافي (± التاموكسيفين) معدل البقاء المصحح لمدة 5 سنوات مقابل الجراحة/العلاج المدمج وحده |
+| [4616884](https://pubmed.ncbi.nlm.nih.gov/4616884/) | 1974 | دراسة أتراب / دراسة سريرية غير منضبطة | Gynecologic Oncology | دراسة تأسيسية مبكرة لعلاج هايدروكسي بروجسترون كابروات في سرطان بطانة الرحم المتقدم |
+| [5549492](https://pubmed.ncbi.nlm.nih.gov/5549492/) | 1971 | دراسة أتراب / دراسة سريرية غير منضبطة | Cancer | دراسة مساعدة تثبت علاج هايدروكسي بروجسترون كابروات في سرطان بطانة الرحم المتقدم |
+| [6983994](https://pubmed.ncbi.nlm.nih.gov/6983994/) | 1982 | أتراب (علاج إضافي) | Gynecologic Oncology | هايدروكسي بروجسترون كابروات الإضافي في سرطان بطانة الرحم من المرحلة الأولى؛ قيّم تغييرات المجموعات المناعية |
+| [2932883](https://pubmed.ncbi.nlm.nih.gov/2932883/) | 1985 | أتراب (علم الأدوية) | Acta Obstet Gynecol Scand | وصفت الحرائك الدوائية للحقن العضلي وتأثيرات وظيفة الغدة الكظرية خلال العلاج الإضافي طويل الأمد بـ HPC |
+| [6985833](https://pubmed.ncbi.nlm.nih.gov/6985833/) | 1980 | محاكمة مقارنة محتملة | Cancer | قارنت Depo-Provera مقابل هايدروكسي بروجسترون كابروات (Delalutin) في 114 امرأة مصابة بسرطان الغدية النقيلي لبطانة الرحم؛ لا فرق ملحوظ في الاستجابة أو البقاء |
+| [8565696](https://pubmed.ncbi.nlm.nih.gov/8565696/) | 1995 | أتراب مقارن | Zhonghua Fu Chan Ke Za Zhi | قارنت aminoglutethimide مقابل بروجسترون كابروات (منفردة/مدمجة) على مستويات مستقبلات الهرمون والفحص النسيجي المرضي في سرطان بطانة الرحم |
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack (SFDA package insert retrieval is flagged as a Blocking data gap — required before any S1 safety assessment).
+هايدروكسي بروجسترون كابروات ليس لديه سجل ترخيص في سجل المملكة العربية السعودية الذي تم الاستعلام عنه لمجموعة الأدلة هذه (حالة السوق: غير مسوق، 0 تفويضات). لا يمكن إنتاج جدول معلومات السوق من البيانات الحالية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. بيانات التحذيرات الرئيسية، موانع الاستعمال، وملف التفاعلات الدوائية غير متوفرة حالياً في مجموعة الأدلة هذه (يتم تحديد استرجاع نشرة SFDA كفجوة بيانات حاجزة — مطلوبة قبل أي تقييم سلامة S1).
 
-**Rationale:**
-A Cochrane systematic review plus multiple historical cohort/prospective studies (1970s–1990s, including one randomized study of 540 patients) support a mechanistically coherent and clinically explored role for hydroxyprogesterone caproate as adjuvant/palliative hormonal therapy in endometrial cancer, but the evidence base is dated, dominated by non-contemporary trial designs, and lacks a matched modern clinical trial — insufficient for an unconditional "Go."
+---
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings, contraindications) — currently Blocking
-- Confirmed mechanism of action data from DrugBank
-- Contemporary RCT or guideline-level evidence specific to hydroxyprogesterone caproate (as opposed to related progestins like medroxyprogesterone acetate)
-- Drug interaction profile, since current DDI query returned no data
-- Clarification of the drug's originally approved indication(s), which are not populated in the current regulatory record
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع تدابير الحماية**
+
+**الأساس المنطقي:**
+تدعم مراجعة منهجية من Cochrane بالإضافة إلى عدة دراسات أتراب تاريخية/محتملة (السبعينيات-التسعينيات، بما في ذلك دراسة عشوائية لـ 540 مريضة) دوراً آلياً متماسكاً وتم استكشافه سريرياً لهايدروكسي بروجسترون كابروات كعلاج هرموني إضافي/ملطف في سرطان بطانة الرحم، لكن قاعدة الأدلة قديمة، يهيمن عليها تصاميم تجارب غير معاصرة، وتفتقد تجربة سريرية عشوائية حديثة مطابقة — غير كافية لـ "انطلاق" غير مشروط.
+
+**للمتابعة، يتم احتياج الآتي:**
+- نشرة SFDA (تحذيرات، موانع الاستعمال) — حالياً حاجزة
+- بيانات آلية العمل المؤكدة من DrugBank
+- أدلة معاصرة من RCT أو على مستوى الإرشادات خاصة بـ هايدروكسي بروجسترون كابروات (بدلاً من بروجستينات ذات صلة مثل خلات ميدروكسي بروجسترون)
+- ملف التفاعلات الدوائية، حيث لم يُرجع الاستعلام الحالي أي بيانات
+- توضيح المؤشر المعتمد أصلاً للعقار، والذي لم يتم تعبئته في سجل التنظيم الحالي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

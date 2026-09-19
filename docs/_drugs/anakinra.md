@@ -29,70 +29,71 @@ indication_count: 10
 
 </div>
 
-# Anakinra: From Autoinflammatory Disorders to Extracutaneous Mastocytoma
+# أناكينرا: من الاضطرابات الالتهابية الذاتية إلى ورم الخلايا البدينة خارج الجلدي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Anakinra is a recombinant human interleukin-1 receptor antagonist (IL-1Ra), globally recognized as a treatment for rheumatoid arthritis and hereditary autoinflammatory syndromes. The TxGNN model assigns its highest-ranked prediction to **Extracutaneous Mastocytoma** with a score of **99.93%**; however, **no clinical trials and no published literature** currently support this direction, making this a model-only signal.
+أناكينرا هو مناهض استقبال الإنترلوكين-1 البشري المؤتلف (IL-1Ra)، ويُعترف به عالمياً كعلاج التهاب المفاصل الروماتويدي والمتلازمات الالتهابية الذاتية الموروثة. يخصص نموذج TxGNN أعلى تنبؤ له لـ **ورم الخلايا البدينة خارج الجلدي** بدرجة **99.93%**؛ ومع ذلك، **لا توجد تجارب سريرية ولا أدب منشور** يدعم هذا الاتجاه حالياً، مما يجعل هذا إشارة من النموذج فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Not available from local registration (no Saudi Arabia authorization on file) |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح من التسجيل المحلي (لا توجد موافقة من المملكة العربية السعودية في الملف) |
+| المؤشر الجديد المتنبأ به | ورم الخلايا البدينة خارج الجلدي |
+| درجة تنبؤ TxGNN | 99.93% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Anakinra (Kineret) functions as a recombinant human IL-1 receptor antagonist — competitively blocking both IL-1α and IL-1β from binding to the IL-1 type I receptor. This mechanism underlies its proven efficacy in IL-1-driven conditions such as rheumatoid arthritis, systemic juvenile idiopathic arthritis (sJIA), neonatal-onset multisystem inflammatory disease (NOMID), and hereditary periodic fever syndromes.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه حقيبة الأدلة. بناءً على المعرفة الصيدلانية المثبتة، يعمل أناكينرا (Kineret) كمناهض استقبال الإنترلوكين-1 البشري المؤتلف — يحجب بشكل تنافسي كل من IL-1α و IL-1β من الارتباط بمستقبل IL-1 من النوع الأول. تكمن هذه الآلية وراء فعاليته المثبتة في الحالات المدفوعة بـ IL-1 مثل التهاب المفاصل الروماتويدي والتهاب المفاصل مجهول السبب الشبابي الجهازي (sJIA) والمرض الالتهابي متعدد الأجهزة بداية الولادة (NOMID) ومتلازمات الحمى الدورية الموروثة.
 
-Extracutaneous mastocytoma is a rare soft-tissue neoplasm characterized by clonal proliferation of mast cells outside the skin. The dominant pathogenic driver is a **KIT gain-of-function mutation** (most commonly D816V), which causes constitutive activation of the KIT receptor tyrosine kinase — an oncogenic mechanism entirely distinct from IL-1–mediated inflammation. While mast cells do secrete IL-1 and participate in inflammatory networks, IL-1 signaling is a secondary environmental feature rather than the core oncogenic event.
+ورم الخلايا البدينة خارج الجلدي هو ورم نسيجي لين نادر يتميز بالتكاثر النسيلي للخلايا البدينة خارج الجلد. المحرك الممرضي السائد هو **طفرة اكتساب الوظيفة KIT** (الأكثر شيوعاً D816V)، والتي تسبب التنشيط المستمر لكيناز تيروسين مستقبل KIT — آلية ورمية تختلف تماماً عن الالتهاب الوسيط بـ IL-1. بينما تفرز الخلايا البدينة IL-1 وتشارك في الشبكات الالتهابية، فإن إشارات IL-1 هي ميزة بيئية ثانوية وليست الحدث الورمي الأساسي.
 
-The TxGNN model's high prediction score (0.999) for this pairing most plausibly reflects **disease network topological proximity** — extracutaneous mastocytoma sits near other mast cell activation and autoinflammatory nodes in the biological knowledge graph — rather than a direct pharmacological rationale. Without any preclinical, translational, or clinical evidence to support IL-1 blockade in mastocytoma, this prediction should be treated as a hypothesis-generating signal only, not an actionable repurposing candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+درجة التنبؤ العالية لنموذج TxGNN (0.999) لهذا الاقتران تعكس بشكل معقول **القرب الطوبولوجي لشبكة المرض** — يجلس ورم الخلايا البدينة خارج الجلدي بالقرب من عقد تنشيط الخلايا البدينة والعقد الالتهابية الذاتية الأخرى في الرسم البياني المعرفي البيولوجي — بدلاً من الأساس الصيدلاني المباشر. بدون أي دليل ما قبل سريري أو انتقالي أو سريري لدعم حصار IL-1 في ورم الخلايا البدينة، يجب التعامل مع هذا التنبؤ كإشارة توليد فرضية فقط، وليس مرشح إعادة استخدام قابل للتنفيذ.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدب العلمي
 
-**Decision: Hold**
+حالياً لا يوجد أدب علمي ذات صلة متاح.
 
-**Rationale:**
-Despite the TxGNN model's high prediction score, the mechanistic link between anakinra's IL-1Ra activity and extracutaneous mastocytoma (a KIT-mutation-driven neoplasm) is indirect at best. The complete absence of any supporting clinical trial or published literature means there is no empirical basis to advance this indication at this time.
+---
 
-**To proceed, the following is needed:**
-- Preclinical evidence establishing a functional role of IL-1 signaling in extracutaneous mastocytoma tumor biology or microenvironment
-- Mechanistic data (MOA) for anakinra retrieved from DrugBank API or an approved product monograph
-- Safety profile review from SFDA, EMA, or FDA package insert (currently a blocking data gap)
-- Re-evaluation of whether TxGNN network topology proximity correlates with any known mast cell–IL-1 co-regulatory axis
+## اعتبارات السلامة
 
-> **Note:** While the top TxGNN prediction (rank 1) warrants a Hold, higher-quality evidence exists for other predicted indications in this pack — notably **autosomal recessive familial Mediterranean fever** (rank 3, L3, Proceed with Guardrails) and **pyogenic autoinflammatory syndrome / PAPA spectrum** (rank 9, L3, Proceed with Guardrails) — both of which have direct mechanistic alignment with anakinra's IL-1Ra activity and are supported by published literature including at least one systematic review. Those indications may be more actionable for follow-on evaluation.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+على الرغم من درجة التنبؤ العالية لنموذج TxGNN، فإن الربط الآلي بين نشاط IL-1Ra لأناكينرا وورم الخلايا البدينة خارج الجلدي (ورم موجه بطفرة KIT) غير مباشر في أحسن الأحوال. الغياب التام لأي تجربة سريرية داعمة أو أدب منشور يعني عدم وجود أساس تجريبي للمضي قدماً في هذا المؤشر في هذا الوقت.
+
+**المطلوب للمضي قدماً:**
+- دليل ما قبل سريري يؤسس دوراً وظيفياً لإشارات IL-1 في بيولوجيا ورم الخلايا البدينة خارج الجلدي أو البيئة الدقيقة
+- بيانات آلية العمل (MOA) لأناكينرا المسترجعة من واجهة برمجة تطبيقات DrugBank أو من نشرة منتج معتمدة
+- مراجعة ملف تعريف السلامة من SFDA أو EMA أو نشرة FDA (حالياً فجوة بيانات حجزية)
+- إعادة تقييم ما إذا كان القرب الطوبولوجي لشبكة TxGNN يرتبط بأي محور مشترك تنظيمي معروف بين الخلايا البدينة و IL-1
+
+> **ملاحظة:** بينما يستحق أعلى تنبؤ TxGNN (الترتيب 1) انتظاراً، توجد أدلة بجودة أعلى لمؤشرات مختلفة أخرى في هذه الحقيبة — وبشكل ملحوظ **حمى البحر الأبيض المتوسط العائلية الموروثة الجسمية الدنيا** (الترتيب 3، L3، المضي قدماً مع الحواجز) و **متلازمة الالتهاب الذاتي المقيح / طيف PAPA** (الترتيب 9، L3، المضي قدماً مع الحواجز) — وكلاهما لديه محاذاة آلية مباشرة مع نشاط IL-1Ra لأناكينرا ويدعمهما أدب منشور بما في ذلك على الأقل مراجعة منهجية واحدة. قد تكون هذه المؤشرات أكثر قابلية للتنفيذ لتقييم المتابعة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

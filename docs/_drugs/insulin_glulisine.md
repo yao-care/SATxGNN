@@ -29,103 +29,104 @@ indication_count: 10
 
 </div>
 
-# Insulin Glulisine: From Diabetes Mellitus (Insulin Therapy) to Type 1 Diabetes Mellitus
+# إنسولين غلوليسين: من داء السكري (العلاج بالإنسولين) إلى داء السكري من النوع الأول
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Insulin glulisine is a rapid-acting recombinant human insulin analogue (marketed globally as Apidra) used for glycemic control in diabetes mellitus.
-> The TxGNN model's top prediction — **Type 1 Diabetes Mellitus** — is supported by **50 clinical trials** and **19 publications**, but this is not a novel repurposing signal: it corresponds to glulisine's already-established, on-label indication.
-> The candidate's own repurposing rationale flags this explicitly, and a **blocking data gap** (no Saudi Arabia/TFDA package insert on file) currently prevents a formal safety review.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not extractable from this Evidence Pack — no Saudi Arabia license records and `original_indications` is empty. Based on drug class, insulin glulisine is generically used for glycemic control in diabetes mellitus (insulin therapy). |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> إنسولين غلوليسين هو نظير إنسولين بشري معاد التركيب سريع المفعول (يُسوق عالمياً باسم Apidra) يُستخدم للتحكم في مستويات الجلوكوز في الدم لدى مرضى السكري.
+> التنبؤ الأفضل لنموذج TxGNN — **داء السكري من النوع الأول** — يدعمه **50 تجربة سريرية** و **19 منشوراً**، لكن هذا ليس إشارة إعادة توظيف جديدة: فهو يتوافق مع دواعي استعمال غلوليسين المعروفة والموافق عليها بالفعل.
+> ينص منطق إعادة التوظيف الخاص بالمرشح نفسه على هذا بوضوح، وهناك **فجوة بيانات حاجزة** (عدم توفر ملخص الخصائص السعودي/TFDA) تمنع حالياً إجراء مراجعة السلامة الرسمية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Insulin glulisine is a recombinant rapid-acting human insulin analogue produced by substituting two amino acids in the insulin B-chain (B3 Lys→Glu, B29 Lys→Glu). This modification accelerates absorption and onset of action compared to regular human insulin, while the molecule retains full affinity for the insulin receptor. Mechanistically, it acts identically to endogenous insulin: receptor binding drives cellular glucose uptake and suppresses hepatic glucose output, replacing the absolute insulin deficiency that defines Type 1 Diabetes Mellitus.
-
-Unlike most TxGNN candidates in this pipeline, this is **not a case of mechanistic extrapolation from a distant original indication**. The repurposing rationale for this candidate states directly that Type 1 Diabetes Mellitus is already an approved indication for glulisine (marketed as Apidra), and that the high TxGNN score reflects a genuine, well-established pharmacological relationship rather than a newly discovered one. In other words, the model has correctly reconstructed known clinical pharmacology rather than surfaced a novel therapeutic hypothesis.
-
-Because `original_moa` in this Evidence Pack is a data gap and no Saudi Arabia license/package-insert text is available, the on-label indication cannot be independently confirmed from local regulatory sources — this should be treated as an open item rather than an assumption, even though the mechanistic story is internally consistent and well documented in the trial/literature evidence below.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Phase 3 | Completed | 224 | Multicenter RCT comparing biosimilar GP40321 to Apidra® (glulisine) in T1DM; assessed non-inferior immunogenicity, efficacy, and safety. |
-| [NCT01194258](https://clinicaltrials.gov/study/NCT01194258) | Phase 2 | Completed | 132 | Double-blind crossover comparing PH20-accelerated lispro/aspart formulations to insulin lispro for prandial control in basal-bolus therapy. |
-| [NCT02509429](https://clinicaltrials.gov/study/NCT02509429) | Phase 2 | Completed | 24 | Closed-loop artificial pancreas vs. insulin pump + threshold-suspend CGM to reduce nocturnal hypoglycemia in children with T1DM. |
-| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | Completed | 142 | 26-week open-label study of glulisine + glargine in T1DM; evaluated HbA1c change and safety (adverse events, hematology, lipids). |
-| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Completed | 485 | Randomized comparison of glulisine vs. lispro (both with glargine) in T1/T2DM; compared efficacy and hypoglycemia frequency. |
-| [NCT00135941](https://clinicaltrials.gov/study/NCT00135941) | Phase 3 | Completed | 582 | Glargine + glulisine MDI vs. premixed insulin in T1/T2DM; evaluated patient-reported outcomes. |
-| [NCT00174668](https://clinicaltrials.gov/study/NCT00174668) | Phase 3 | Completed | 311 | 52-week trial of intensified glulisine + glargine regimen vs. conventional two-injection therapy in poorly controlled T2DM. |
-| [NCT01768559](https://clinicaltrials.gov/study/NCT01768559) | Phase 3 | Completed | 894 | 26-week RCT comparing lixisenatide to once-daily and three-times-daily glulisine, add-on to glargine ± metformin in T2DM. |
-| [NCT01203111](https://clinicaltrials.gov/study/NCT01203111) | Phase 4 | Completed | 207 | Intensive glargine + glulisine regimen in T2DM inadequately controlled on basal insulin and oral agents; HbA1c and hypoglycemia endpoints. |
-| [NCT01159353](https://clinicaltrials.gov/study/NCT01159353) | Phase 1 | Completed | 37 | Randomized PK/PD study comparing postprandial glucose excursion with glulisine vs. aspart in obese T2DM subjects. |
-
-*40 additional registered trials exist in the Evidence Pack (mostly closed-loop/pump-technology and comparator studies) but are not listed here per the 10-trial display limit.*
+| العنصر | المحتوى |
+|------|--------|
+| الاستخدام الأصلي | غير قابل للاستخراج من هذه حزمة الأدلة — لا توجد سجلات ترخيص سعودية و`original_indications` فارغ. بناءً على فئة الدواء، يُستخدم إنسولين غلوليسين بشكل عام للتحكم في مستويات الجلوكوز في الدم لدى مرضى السكري (العلاج بالإنسولين). |
+| المؤشر الطبي المتنبأ به | داء السكري من النوع الأول |
+| درجة التنبؤ TxGNN | 99.55% |
+| مستوى الأدلة | L1 |
+| حالة السوق السعودي | غير مسوّق (غير مسوّق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع التدابير الحماية |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Hormone and Metabolic Research | Multinational RCT (n=683) comparing glulisine to lispro in adults with T1DM; established comparable efficacy/safety. |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | RCT (PK/PD, pediatric) | Diabetes Care | PK, postprandial glucose control, and safety of glulisine vs. regular human insulin in pediatric T1DM patients. |
-| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | Phase III RCT | Diabetes, Obesity & Metabolism | Biosimilar insulin glulisine (T-Glu) vs. originator (R-Glu) in adults with T1DM; immunogenicity, efficacy, and safety. |
-| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technology & Therapeutics | Three-way crossover RCT: glulisine vs. aspart vs. lispro via CSII in T1DM; glulisine trended toward fewer catheter occlusions. |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Cohort (CSII pediatric) | Pediatrics International | 1-year cohort of glulisine via CSII in 20 children with T1DM; significant improvement in post-meal glucose. |
-| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | Review (clinical pharmacology) | Clinical Pharmacokinetics | Review of glulisine PK/PD: faster absorption and onset, shorter duration than regular human insulin. |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Review | Drugs | Review of glulisine's role in diabetes management; comparable glucose-lowering effect to lispro. |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Comparative study | Acta Diabetologica | Real-world comparison of glulisine, lispro, and aspart in T1DM patients on CSII; effectiveness and hypoglycemia/DKA rates. |
-| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT (pediatric) | Diabetes Technology & Therapeutics | 26-week basal-bolus trial comparing glulisine to lispro in pediatric T1DM; comparable efficacy and safety. |
-| [29159123](https://pubmed.ncbi.nlm.nih.gov/29159123/) | 2016 | PK/PD study | Journal of Clinical & Translational Endocrinology | PK/PD of glargine-glulisine basal-bolus vs. premixed analog insulin across standardized meals in T1DM. |
+إنسولين غلوليسين هو نظير إنسولين بشري معاد التركيب سريع المفعول ينتج عن طريق استبدال حمضي أمينيات في سلسلة الإنسولين B (B3 Lys→Glu, B29 Lys→Glu). يؤدي هذا التعديل إلى تسريع الامتصاص والبدء الفعال مقارنة بالإنسولين البشري العادي، بينما يحتفظ الجزيء بتقاربٍ كامل لمستقبل الإنسولين. من الناحية الآلية، يعمل بشكل متطابق للإنسولين الداخلي: يؤدي ربط المستقبل إلى امتصاص الجلوكوز الخلوي وقمع إنتاج الجلوكوز الكبدي، مما يعوض النقص الكامل في الإنسولين الذي يحدد داء السكري من النوع الأول.
 
-*9 additional publications exist in the Evidence Pack but are not listed here per the 10-item display limit.*
+على عكس معظم مرشحي TxGNN في هذا الخط الأنابيب، هذا **ليس حالة من الاستقراء الآلي من دواعي استعمال أصلي بعيد**. ينص منطق إعادة التوظيف لهذا المرشح مباشرة على أن داء السكري من النوع الأول هو بالفعل دواعي استعمال موافق عليه من قبل غلوليسين (يُسوق باسم Apidra)، وأن درجة TxGNN العالية تعكس علاقة دوائية حقيقية وراسخة بدلاً من واحدة مكتشفة حديثاً. بمعنى آخر، قام النموذج بإعادة بناء علم الأدوية السريري المعروف بشكل صحيح بدلاً من الكشف عن فرضية علاجية جديدة.
+
+لأن `original_moa` في هذه حزمة الأدلة هو فجوة بيانات ولا توجد نصوص ترخيص/ملخص خصائص محلية سعودية متاحة، لا يمكن تأكيد دواعي الاستعمال الموافق عليه بشكل مستقل من مصادر تنظيمية محلية — يجب التعامل مع هذا كعنصر مفتوح بدلاً من افتراض، على الرغم من أن القصة الآلية داخلية متسقة وموثقة جيداً في أدلة التجارب/الأدب أدناه.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Insulin glulisine is currently **not marketed** in Saudi Arabia per this Evidence Pack (`market_status: Not marketed`, `total_licenses: 0`). No license records are available to summarize in table form.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|------|------|---------|---------|
+| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | المرحلة 3 | مكتملة | 224 | تجربة عشوائية محكومة متعددة المراكز تقارن محاكي biosimilar GP40321 مع Apidra® (غلوليسين) في T1DM؛ تقييم عدم دنوية المناعية والفعالية والسلامة. |
+| [NCT01194258](https://clinicaltrials.gov/study/NCT01194258) | المرحلة 2 | مكتملة | 132 | دراسة crossover عمياء مزدوجة تقارن تركيبات lispro/aspart المعجلة بـ PH20 مع insulin lispro لتحكم الطعم في العلاج القاعدي-الحد الأقصى. |
+| [NCT02509429](https://clinicaltrials.gov/study/NCT02509429) | المرحلة 2 | مكتملة | 24 | بنكرياس صناعي ذو حلقة مغلقة مقابل مضخة إنسولين + مراقبة الجلوكوز المستمرة مع عتبة التوقف لتقليل نقص السكر الليلي عند الأطفال مع T1DM. |
+| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | المرحلة 3 | مكتملة | 142 | دراسة مفتوحة المدة 26 أسبوعاً لغلوليسين + glargine في T1DM؛ تقييم التغيير في HbA1c والسلامة (الأحداث الضارة وعلم الدم والدهون). |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | المرحلة 3 | مكتملة | 485 | مقارنة عشوائية بين غلوليسين مقابل lispro (كلاهما مع glargine) في T1/T2DM؛ مقارنة الفعالية وتكرار نقص السكر. |
+| [NCT00135941](https://clinicaltrials.gov/study/NCT00135941) | المرحلة 3 | مكتملة | 582 | Glargine + غلوليسين MDI مقابل الإنسولين المخلوط في T1/T2DM؛ تقييم النتائج المبلغ عنها من قبل المريض. |
+| [NCT00174668](https://clinicaltrials.gov/study/NCT00174668) | المرحلة 3 | مكتملة | 311 | تجربة لمدة 52 أسبوعاً لنظام غلوليسين + glargine مكثف مقابل العلاج التقليدي بحقنتين في T2DM المنضبط بشكل سيء. |
+| [NCT01768559](https://clinicaltrials.gov/study/NCT01768559) | المرحلة 3 | مكتملة | 894 | تجربة عشوائية لمدة 26 أسبوعاً تقارن lixisenatide مع غلوليسين مرة واحدة يومياً وثلاث مرات يومياً، كإضافة إلى glargine ± metformin في T2DM. |
+| [NCT01203111](https://clinicaltrials.gov/study/NCT01203111) | المرحلة 4 | مكتملة | 207 | نظام glargine + غلوليسين مكثف في T2DM غير المنضبط بشكل كاف على الإنسولين القاعدي والعوامل الفموية؛ نقاط نهاية HbA1c ونقص السكر. |
+| [NCT01159353](https://clinicaltrials.gov/study/NCT01159353) | المرحلة 1 | مكتملة | 37 | دراسة PK/PD عشوائية تقارن الارتفاع اللاحق للطعام في الجلوكوز مع غلوليسين مقابل aspart في مواضيع T2DM السمنة. |
+
+*توجد 40 تجربة مسجلة إضافية في حزمة الأدلة (في الغالب حلقة مغلقة/تكنولوجيا المضخة والدراسات المقارنة) لكن لم يتم إدراجها هنا وفقاً لحد عرض 10 تجارب.*
 
 ---
 
-## Safety Considerations
+## أدلة الأدب العلمي
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-interaction data were retrievable in this Evidence Pack — this is flagged as a **Blocking** data gap (DG001: TFDA/local package insert not yet obtained), which currently prevents a formal safety (S1) evaluation.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|---------|
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Hormone and Metabolic Research | تجربة عشوائية محكومة دولية متعددة (n=683) تقارن غلوليسين مع lispro عند البالغين مع T1DM؛ أثبتت الفعالية والسلامة المقارنة. |
+| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | RCT (PK/PD، طب الأطفال) | Diabetes Care | الحرائك الدوائية وتحكم الجلوكوز بعد الطعام وسلامة غلوليسين مقابل الإنسولين البشري العادي عند أطفال T1DM. |
+| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | RCT المرحلة الثالثة | Diabetes, Obesity & Metabolism | محاكي الإنسولين غلوليسين (T-Glu) مقابل الأصلي (R-Glu) عند البالغين مع T1DM؛ المناعية والفعالية والسلامة. |
+| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technology & Therapeutics | تجربة crossover ثلاثية الاتجاهات: غلوليسين مقابل aspart مقابل lispro عبر CSII في T1DM؛ اتجاه غلوليسين نحو انسداد أقل للقسطرة. |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | مجموعة دراسة (CSII طب الأطفال) | Pediatrics International | مجموعة دراسة لمدة سنة واحدة لغلوليسين عبر CSII عند 20 طفلاً مع T1DM؛ تحسن كبير في الجلوكوز بعد الوجبة. |
+| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | مراجعة (علم الأدوية السريري) | Clinical Pharmacokinetics | مراجعة لـ PK/PD غلوليسين: امتصاص أسرع وبدء أسرع ومدة أقصر من الإنسولين البشري العادي. |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | مراجعة | Drugs | مراجعة دور غلوليسين في إدارة السكري؛ تأثير خفض الجلوكوز المقارن مع lispro. |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | دراسة مقارنة | Acta Diabetologica | مقارنة في العالم الحقيقي لغلوليسين و lispro و aspart عند مرضى T1DM على CSII؛ الفعالية ومعدلات نقص السكر/DKA. |
+| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT (طب الأطفال) | Diabetes Technology & Therapeutics | تجربة قاعدية-حد أقصى لمدة 26 أسبوعاً تقارن غلوليسين مع lispro عند أطفال T1DM؛ فعالية وسلامة مقارنة. |
+| [29159123](https://pubmed.ncbi.nlm.nih.gov/29159123/) | 2016 | دراسة PK/PD | Journal of Clinical & Translational Endocrinology | PK/PD لنظام glargine-غلوليسين القاعدي-الحد الأقصى مقابل نظير الإنسولين المخلوط عبر وجبات موحدة في T1DM. |
+
+*يوجد 9 منشورات إضافية في حزمة الأدلة لكن لم يتم إدراجها هنا وفقاً لحد عرض 10 عناصر.*
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودي
 
-**Decision: Proceed with Guardrails**
+إنسولين غلوليسين غير مسوّق حالياً في المملكة العربية السعودية وفقاً لهذه حزمة الأدلة (`market_status: Not marketed`, `total_licenses: 0`). لا توجد سجلات ترخيص متاحة لتلخيصها في شكل جدول.
 
-**Rationale:**
-- Clinical trial and literature evidence for glulisine in Type 1 Diabetes Mellitus is extensive and consistent (L1: multiple completed Phase 3 RCTs), but the candidate's own repurposing rationale indicates this is glulisine's known, already-approved indication rather than a novel repurposing opportunity — this materially limits its value as a *new* indication candidate.
-- A **Blocking** data gap (no local package insert/regulatory warning data) means the safety initial screen (S1) cannot yet be completed, and the drug is not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- Local package insert / TFDA-equivalent regulatory documentation (warnings, contraindications, DDI) to close the Blocking gap and enable S1 safety screening
-- DrugBank-sourced MOA record to replace the current data gap and confirm the mechanistic narrative independently
-- Clarification of whether this candidate should be reclassified as a **known-indication confirmation** rather than a repurposing opportunity, given the rationale text explicitly states T1DM is Apidra's approved use
-- If reclassified, deprioritize in favor of ranks 2–10, none of which currently have clinical trial or literature support (L5, mostly "Hold")
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملخص الخصائص للحصول على معلومات السلامة. لم تتمكن أي تحذيرات رئيسية أو موانع استخدام أو بيانات تفاعل الأدوية من الاسترجاع في هذه حزمة الأدلة — وهذا مشار إليه كـ **فجوة بيانات حاجزة** (DG001: لم يتم الحصول على ملخص الخصائص أو المراجع المحلية حتى الآن)، والتي تمنع حالياً تقييم السلامة الأولي (S1).
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع التدابير الحماية**
+
+**الأساس المنطقي:**
+- أدلة التجارب السريرية والأدب العلمي لغلوليسين في داء السكري من النوع الأول واسعة ومتسقة (L1: تجارب عشوائية محكومة متعددة مكتملة في المرحلة 3)، لكن منطق إعادة التوظيف الخاص بالمرشح نفسه يشير إلى أن هذا هو الاستخدام المعروف والموافق عليه بالفعل من قبل غلوليسين بدلاً من فرصة استخدام جديدة — هذا يحد بشكل كبير من قيمتها كدواعي استعمال *جديدة*.
+- **فجوة بيانات حاجزة** (لا يوجد ملخص خصائص محلي/بيانات التحذير التنظيمي) تعني أن الفحص الأولي للسلامة (S1) لا يمكن إكماله حتى الآن، والعقار غير مسوّق حالياً في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+- ملخص الخصائص المحلي / وثائق TFDA المعادلة التنظيمية (التحذيرات وموانع الاستخدام وتفاعلات الأدوية) لإغلاق الفجوة الحاجزة وتفعيل فحص السلامة S1
+- سجل MOA المستخلص من DrugBank لاستبدال فجوة البيانات الحالية وتأكيد السرد الآلي بشكل مستقل
+- توضيح ما إذا كان يجب إعادة تصنيف هذا المرشح كـ **تأكيد دواعي استعمال معروفة** بدلاً من فرصة استخدام جديدة، بالنظر إلى أن نص المنطق ينص بوضوح على أن T1DM هو الاستخدام الموافق عليه من قبل Apidra
+- إذا تمت إعادة التصنيف، قم بإلغاء الأولوية لصالح الترتيبات 2-10، وليس لأي منها حالياً دعم تجارب سريرية أو أدبية (L5، في الغالب "انتظر")
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

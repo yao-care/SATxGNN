@@ -29,103 +29,104 @@ indication_count: 10
 
 </div>
 
-# Budesonide: From Inflammatory Airway & Gut Disease to Atopic Eczema
+# Budesonide: من أمراض الجهاز التنفسي والأمعاء الالتهابية إلى التهاب الجلد التأتبي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Budesonide is a synthetic glucocorticoid widely used globally to manage chronic inflammatory diseases of the airways (asthma, COPD) and gastrointestinal mucosa (Crohn's disease, microscopic colitis), though it is currently not registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Atopic Eczema**, ranking it as the top repurposing candidate with a prediction score of 99.96%.
-Currently **2 clinical trials** and **20 publications** have been identified in this direction, though the evidence is largely indirect — a critical contact-sensitization safety paradox must be resolved before clinical advancement.
+Budesonide هو كورتيكوستيرويد تركيبي يستخدم على نطاق واسع عالمياً لإدارة الأمراض الالتهابية المزمنة في الجهاز التنفسي (الربو، داء الانسداد الرئوي المزمن) والغشاء المخاطي المعدي المعوي (مرض كرون، التهاب القولون المجهري)، على الرغم من عدم تسجيله حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأن له فعالية محتملة لـ **التهاب الجلد التأتبي**، حيث يصنفه كأفضل مرشح لإعادة توظيف الدواء برصيد تنبؤ بنسبة 99.96%.
+حالياً تم تحديد **تجربتان سريريتان** و **20 منشورة بحثية** تتجه نحو هذا الاستخدام، على الرغم من أن الأدلة غير مباشرة في معظمها — يجب حل مفارقة أمان حساسية التلامس الحرجة هذه قبل المضي في التطور السريري.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Asthma, COPD, Crohn's disease, microscopic colitis (established global uses; no Saudi Arabia registration on record) |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستخدام الأصلي | الربو، داء الانسداد الرئوي المزمن، مرض كرون، التهاب القولون المجهري (الاستخدامات المعروفة عالمياً؛ لا يوجد تسجيل في المملكة العربية السعودية) |
+| الاستخدام الجديد المتنبأ به | التهاب الجلد التأتبي |
+| رصيد التنبؤ TxGNN | 99.96% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Formal mechanism of action data is not available in the current records. Based on information embedded in the evidence pack's mechanistic rationale and supporting literature, budesonide is a synthetic glucocorticoid receptor (GR) agonist. It activates the nuclear GR to suppress the TSLP/IL-33–driven Th2 immune axis, downregulating IL-4, IL-5, and IL-13, reducing eosinophilic infiltration of mucosal tissues, and blunting IgE-mediated inflammatory cascades. Its established efficacy across airway and gastrointestinal mucosal inflammation is built on this same mechanism.
+بيانات آلية العمل الرسمية غير متاحة في السجلات الحالية. بناءً على المعلومات المدمجة في الأساس المنطقي الآلي لحزمة الأدلة والأدبيات الداعمة، فإن budesonide هو ناهض مستقبل الجلوكوكورتيكويد النووي (GR). يقوم بتنشيط GR النووي لقمع محور Th2 الذي يحركه TSLP/IL-33، مما يسفر عن تقليل IL-4 و IL-5 و IL-13، وتقليل الارتشاح اليزوفيلي للأنسجة المخاطية، وإضعاف الاستجابات الالتهابية الوسيطة بـ IgE. تستند فعاليته المعروفة عبر الالتهاب المخاطي للجهاز التنفسي والمعدي المعوي إلى نفس آلية العمل.
 
-Atopic eczema (atopic dermatitis) is characterized by Th2-dominant skin barrier dysfunction, eosinophil and mast cell infiltration, and elevated IgE — the exact immunological axis that budesonide targets in the airways and gut. The predicted repurposing therefore has a sound mechanistic basis. Importantly, topical corticosteroids are already a backbone of standard atopic dermatitis management globally, making this prediction an extension of a recognized pharmacological principle rather than a speculative leap.
+يتميز التهاب الجلد التأتبي (التهاب الجلد الأتوبي) بـ Th2 مهيمنة واختلال الحاجز الجلدي، وارتشاح اليزوفيلات والخلايا البدينة، و IgE المرتفع — وهو المحور المناعي الدقيق بالضبط الذي يستهدفه budesonide في الجهاز التنفسي والأمعاء. وبالتالي فإن التنبؤ بإعادة التوظيف له أساس آلي معقول. والأهم من ذلك، أن الكورتيكوستيرويدات الموضعية تشكل بالفعل ركيزة أساسية لإدارة التهاب الجلد التأتبي المعترف بها عالمياً، مما يجعل هذا التنبؤ امتداداً لمبدأ صيدلاني معترف به بدلاً من قفزة استكشافية.
 
-The key limiting factor for budesonide specifically is dermal delivery: its physicochemical properties restrict skin penetration compared to conventional topical corticosteroids. A 2024 preclinical study (PMID 38275852) directly addressed this by formulating budesonide into pH-sensitive Eudragit L 100 nanoparticles embedded in a hydrogel, exploiting the characteristic acidic pH shift in atopic lesions to achieve targeted local release. This formulation innovation provides proof-of-concept that the delivery barrier is tractable, but clinical validation is entirely absent.
+العامل المحدد الرئيسي لـ budesonide على وجه التحديد هو التوصيل الجلدي: تقيد خصائصه الفيزيائية الكيميائية اختراق الجلد مقارنة بالكورتيكوستيرويدات الموضعية التقليدية. تناولت دراسة ما قبل الإكلينيكية في عام 2024 (PMID 38275852) هذه المسألة مباشرة من خلال صياغة budesonide في جزيئات نانوية Eudragit L 100 حساسة للـ pH مدمجة في هيدروجل، واستغلال تحول الـ pH الحمضي المميز في الآفات التأتبية لتحقيق إطلاق محلي موجه. يوفر هذا الابتكار الصياغي إثباتاً على مبدأ أن عائق التوصيل قابل للتجاوز، لكن التحقق السريري غير موجود تماماً.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد الملتحقين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | N/A | Unknown | 150 | Characterises endotypes of severe paediatric asthma (0–12 yr) using phenotypic, immunological, metabolomic and microbiota analyses; atopic comorbidity is included but budesonide treatment of eczema is not a study objective |
-| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Phase 1/2 | Completed | 58 | Allergy immunotherapy in atopic wheezing children (18 mo–3 yr) at high risk of asthma; eczema is an inclusion criterion but not a primary endpoint — budesonide would serve only as background therapy |
+| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | N/A | Unknown | 150 | توصيف النماذج الأولية للربو الحاد عند الأطفال (0–12 سنة) باستخدام التحليلات الظاهرية والمناعية والأيضية والميكروبيوتا؛ التعايش التأتبي مشمول ولكن علاج budesonide للإكزيما ليس هدفاً من أهداف الدراسة |
+| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Phase 1/2 | Completed | 58 | العلاج المناعي للحساسية عند الأطفال التأتبيين الصاخبين (18 شهراً–3 سنوات) المعرضين لخطر مرتفع من الربو؛ الإكزيما معيار دخول ولكن ليست نقطة نهاية أولية — سيعمل budesonide فقط كعلاج خلفي |
 
-> Neither trial directly evaluates budesonide as a treatment for atopic eczema. No Grade A or B trials are available for this indication.
+> لا تقيّم أي من التجربتين budesonide كعلاج لالتهاب الجلد التأتبي بشكل مباشر. لا توجد تجارب من الدرجة A أو B متاحة لهذا الاستخدام.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Preclinical / Formulation | Gels (Basel) | Budesonide-loaded Eudragit L 100 nanoparticles in pH-sensitive hydrogel improve dermal penetration and targeted release at atopic lesion sites; provides formulation feasibility basis for topical AD therapy |
-| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Clinical Study | Pediatric Dermatology | Knemometry in 14 children (5–12 yr) with AD using topical budesonide: measurable short-term lower-leg growth suppression observed, confirming clinically significant systemic absorption through inflamed skin |
-| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Clinical Study | Dermatology (Basel) | Topical glucocorticosteroids in AD children suppressed IGF axis and reduced bone/collagen turnover markers; underscores systemic endocrine risk of topical budesonide in paediatric populations |
-| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | Veterinary RCT | J Vet Pharmacol Ther | Randomised, blinded, placebo-controlled crossover trial (29 dogs): 0.025% budesonide leave-on conditioner (Barazone) significantly reduced skin lesion scores and pruritus in canine AD, providing species-parallel efficacy signal |
-| [30053491](https://pubmed.ncbi.nlm.nih.gov/30053491/) | 2018 | Clinical Study | J Am Acad Dermatol | Allergic contact dermatitis to topical medications in 337 AD adults: budesonide identified as a sensitising allergen — skin barrier disruption in AD heightens contact sensitisation risk |
-| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | Cross-sectional Cohort | Contact Dermatitis | Asian dermatology centre: AD patients showed similar or higher positive patch-test rates versus non-AD; corticosteroid hypersensitivity including budesonide documented in this population |
-| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | Clinical Study | Dermatitis | Contact hypersensitivity to corticosteroid series in AD adolescents and adults: budesonide in European standard series elicited positive reactions, challenging its safe use in this patient group |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Registry / Epidemiology | Contact Dermatitis | Italian SIDAPA baseline series (2018–2019): budesonide is the European standard marker for corticosteroid hypersensitivity; a decreasing allergy trend observed over two decades, but sensitisation remains clinically relevant |
-| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Case Report | Cureus | 81-year-old with history of AD developed Type I hypersensitivity (facial angioedema, urticaria) to corticosteroids; illustrates rare but serious immediate hypersensitivity risk in atopic individuals |
-| [16925687](https://pubmed.ncbi.nlm.nih.gov/16925687/) | 2006 | Observational | Pediatr Allergy Immunol | Exhaled breath condensate pH in atopic children with asthma, rhinitis, and AD: confirms the atopic march — AD patients receiving background budesonide therapy tracked in same cohort, providing contextual safety data |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | ما قبل الإكلينيكية / الصياغة | Gels (Basel) | جزيئات نانوية Eudragit L 100 المحملة بـ budesonide وحساسة للـ pH مدمجة في هيدروجل تحسّن اختراق الجلد والإطلاق الموجه في مواقع الآفات التأتبية؛ توفر أساساً لجدوى الصياغة لعلاج AD الموضعي |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | دراسة سريرية | Pediatric Dermatology | قياس كنيموميتري في 14 طفلاً (5–12 سنة) مصابين بـ AD باستخدام budesonide موضعي: لوحظ قمع نمو الساق السفلية قصير الأجل قابل للقياس، مما يؤكد امتصاصاً جهازياً ذا دلالة سريرية عبر الجلد الملتهب |
+| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | دراسة سريرية | Dermatology (Basel) | الكورتيكوستيرويدات الموضعية عند أطفال AD قمعت محور IGF وقللت من علامات دوران العظام والكولاجين؛ يؤكد الخطر الغدي الجهازي لـ budesonide الموضعي في السكان الأطفال |
+| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | تجربة عشوائية بيطرية | J Vet Pharmacol Ther | تجربة عشوائية معماة محكومة بالعلاج الوهمي ذات تصميم تقاطعي (29 كلباً): conditioner leave-on budesonide 0.025% (Barazone) قلل بشكل كبير من درجات الآفات الجلدية والحكة في AD الكلبية، مما يوفر إشارة فعالية متوازية الأنواع |
+| [30053491](https://pubmed.ncbi.nlm.nih.gov/30053491/) | 2018 | دراسة سريرية | J Am Acad Dermatol | التهاب الجلد التحسسي من التلامس للأدوية الموضعية في 337 بالغاً مصاباً بـ AD: تم تحديد budesonide كمادة مسببة للحساسية — اختلال الحاجز الجلدي في AD يزيد من خطر حساسية التلامس |
+| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | دراسة مقطعية | Contact Dermatitis | مركز الأمراض الجلدية الآسيوي: أظهر مرضى AD معدلات اختبار الرقعة الإيجابية مماثلة أو أعلى مقابل غير AD؛ فرط حساسية الكورتيكوستيرويد بما في ذلك budesonide موثق في هذا السكان |
+| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | دراسة سريرية | Dermatitis | فرط حساسية التلامس لسلسلة الكورتيكوستيرويد عند مراهقي وبالغي AD: budesonide في السلسلة الأساسية الأوروبية أثار تفاعلات إيجابية، مما يطعن في سلامة استخدامه في هذه المجموعة المريضة |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | سجل / علم أوبئة | Contact Dermatitis | السلسلة الأساسية SIDAPA الإيطالية (2018–2019): budesonide هو المؤشر القياسي الأوروبي لفرط حساسية الكورتيكوستيرويد؛ لوحظ اتجاه حساسية متناقص على مدى عقدين، لكن الحساسية تبقى ذات صلة سريرية |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | تقرير حالة | Cureus | امرأة بعمر 81 سنة بتاريخ من AD طورت فرط حساسية من النوع الأول (وذمة وعائية، شرى) للكورتيكوستيرويدات؛ يوضح خطراً نادراً لكن خطيراً من فرط الحساسية الفوري عند الأفراد التأتبيين |
+| [16925687](https://pubmed.ncbi.nlm.nih.gov/16925687/) | 2006 | دراسة ملاحظة | Pediatr Allergy Immunol | درجة الحموضة في تكثيف التنفس الزفيري عند الأطفال التأتبيين المصابين بالربو والتهاب الأنف و AD: يؤكد المسيرة التأتبية — تم تتبع مرضى AD الذين يتلقون علاج budesonide خلفي في نفس المجموعة، يوفر بيانات أمان السياق |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Budesonide is currently not registered in Saudi Arabia. No marketing authorisations were identified in the regulatory database query conducted on 2026-03-29. This means there is no locally approved label, no authorised indication text, and no Saudi-specific prescribing data available.
-
----
-
-## Safety Considerations
-
-**Key Safety Signal — Contact Sensitisation Paradox:**
-
-A recurring and clinically important finding across multiple independent studies is that budesonide can act as a **contact allergen in the very patients it is intended to treat**. Atopic dermatitis patients have compromised skin barriers and heavy exposure to topical medications, placing them at disproportionately elevated risk. Specific concerns:
-
-- Multiple studies (PMID 30053491, 35133669, 24603519, 33931866) document budesonide-induced allergic contact dermatitis in AD patients
-- Budesonide has been included in the European Baseline Patch Test Series since 2000 specifically because of this sensitisation potential
-- Topical budesonide in paediatric AD patients causes measurable HPA axis suppression and growth inhibition from percutaneous absorption through inflamed skin (PMID 9496795, 8864369)
-- A documented case of Type I hypersensitivity reaction (angioedema, urticaria) in an AD patient receiving corticosteroid therapy (PMID 37927648)
-
-For full prescribing contraindications and warnings, please refer to the package insert.
+Budesonide غير مسجل حالياً في المملكة العربية السعودية. لم يتم تحديد أي تفويضات تسويقية في استعلام قاعدة البيانات التنظيمية الذي تم إجراؤه في 2026-03-29. يعني هذا عدم وجود نص تسميات محلي معتمد، ولا نصوص استخدام معتمدة، ولا بيانات وصفات سعودية محددة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold**
+**إشارة الأمان الرئيسية — مفارقة حساسية التلامس:**
 
-**Rationale:**
-Although budesonide's Th2-suppressing mechanism is directly relevant to atopic eczema pathophysiology, no clinical trials exist that evaluate it as an eczema treatment in humans, and a substantial contact-sensitisation safety signal — a pharmacological paradox where the drug may worsen the very condition it targets — must be systematically addressed before clinical advancement is justified.
+إن اكتشافاً متكرراً وذا أهمية سريرية عبر عدة دراسات مستقلة هو أن budesonide يمكن أن يعمل كـ **مادة مسببة لحساسية التلامس لدى المرضى الذين يُقصد علاجهم بالضبط**. يعاني مرضى التهاب الجلد التأتبي من حواجز جلدية مختلة وتعرض ثقيل للأدوية الموضعية، مما يضعهم في خطر متزايد بشكل غير متناسب. المخاوف المحددة:
 
-**To proceed, the following is needed:**
-- Systematic evaluation of the contact-sensitisation paradox: prospective patch-testing to determine the prevalence of pre-existing budesonide hypersensitivity in the target AD patient population
-- Preclinical in vivo efficacy studies using novel delivery systems (e.g., pH-responsive nanoparticle hydrogels as described in PMID 38275852) to confirm therapeutic benefit outweighs sensitisation risk
-- Formal MOA documentation from DrugBank to support regulatory-grade mechanism review
-- HPA axis and growth monitoring protocol for paediatric subgroups
-- Comparative positioning against already-approved topical corticosteroids for AD (e.g., mometasone, triamcinolone) to justify a budesonide-specific development path
-- Saudi Arabia regulatory registration pathway assessment before any local clinical evaluation
+- توثق عدة دراسات مستقلة (PMID 30053491, 35133669, 24603519, 33931866) التهاب الجلد التحسسي من التلامس الناجم عن budesonide عند مرضى AD
+- تم إدراج budesonide في السلسلة الأساسية لاختبار الرقعة الأوروبية منذ عام 2000 وذلك بسبب هذه القدرة على الحساسية
+- budesonide الموضعي عند أطفال AD يسبب قمعاً قابلاً للقياس لمحور HPA وتثبيطاً للنمو من الامتصاص عبر الجلد الملتهب (PMID 9496795, 8864369)
+- توثق حالة واحدة لتفاعل فرط حساسية من النوع الأول (وذمة وعائية، شرى) عند مريض AD يتلقى علاج الكورتيكوستيرويد (PMID 37927648)
+
+للحصول على قائمة شاملة لموانع الاستخدام والتحذيرات، يرجى الرجوع إلى نشرة الحزمة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+على الرغم من أن آلية عمل budesonide في قمع Th2 ذات صلة مباشرة بفيزيولوجيا المرض في التهاب الجلد التأتبي، لا توجد تجارب سريرية تقيّمه كعلاج للإكزيما عند البشر، وإشارة أمان كبيرة — مفارقة صيدلانية حيث قد يسوء الدواء الحالة التي يقصد علاجها — يجب معالجتها بشكل منهجي قبل تبرير التطور السريري.
+
+**للمتابعة، يلزم ما يلي:**
+- تقييم منهجي لمفارقة حساسية التلامس: اختبار الرقعة الاستكشافي لتحديد انتشار فرط الحساسية المسبق لـ budesonide في مجموعة مرضى AD المستهدفة
+- دراسات الفعالية في الجسم الحي ما قبل الإكلينيكية باستخدام أنظمة توصيل جديدة (مثل هيدروجلات جزيئات نانوية حساسة للـ pH كما هو موصوف في PMID 38275852) لتأكيد أن الفائدة العلاجية تفوق خطر الحساسية
+- توثيق رسمي لآلية العمل من DrugBank لدعم مراجعة آلية العمل من الدرجة التنظيمية
+- بروتوكول مراقبة محور HPA والنمو للمجموعات الفرعية للأطفال
+- وضع تنافسي مقابل الكورتيكوستيرويدات الموضعية المعتمدة بالفعل لـ AD (مثل mometasone, triamcinolone) لتبرير مسار تطور محدد لـ budesonide
+- تقييم مسار التسجيل التنظيمي في المملكة العربية السعودية قبل أي تقييم سريري محلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

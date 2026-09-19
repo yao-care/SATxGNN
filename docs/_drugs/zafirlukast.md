@@ -29,87 +29,88 @@ indication_count: 2
 
 </div>
 
-# Zafirlukast: From Asthma to Obstructive Lung Disease
+# الزافيرلوكاست: من الربو إلى أمراض الرئة الانسدادية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Zafirlukast is a cysteinyl leukotriene receptor (CysLT1) antagonist internationally indicated for the prophylaxis and maintenance treatment of chronic asthma. The TxGNN model predicts it may also be effective for **Obstructive Lung Disease (including COPD)**, a direction already supported by **0 clinical trials formally registered under this indication label** but **20 relevant publications**, including two dedicated clinical studies testing zafirlukast directly in COPD patients.
+الزافيرلوكاست هو مضاد لمستقبلات الليكوترين السيستيئيلي (CysLT1) مرخص بشكل دولي للوقاية والعلاج الدائم للربو المزمن. يتنبأ نموذج TxGNN أنه قد يكون فعالاً أيضاً في **أمراض الرئة الانسدادية (بما في ذلك الداء الانسدادي الرئوي المزمن)**، وهو اتجاه يدعمه بالفعل **0 تجربة سريرية مسجلة رسمياً تحت هذا المؤشر** لكن **20 منشور ذات صلة**، بما في ذلك دراستان سريريتان موجهتان خصيصاً لاختبار الزافيرلوكاست مباشرة في مرضى الداء الانسدادي الرئوي المزمن.
 
-*(Note: A second, much weaker signal — "bronchitis," TxGNN score 99.93%, rank 1742 — was also predicted, but currently has zero supporting trials or literature and is scored L5/Hold. It is not the focus of this report.)*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in local regulatory records (drug not marketed in Saudi Arabia); internationally labeled for chronic asthma prophylaxis and treatment |
-| Predicted New Indication | Obstructive Lung Disease |
-| TxGNN Prediction Score | 99.17% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+*(ملاحظة: كانت هناك إشارة ثانية أضعف كثيراً — "التهاب الشعب الهوائية"، درجة TxGNN 99.93%، الترتيب 1742 — تم التنبؤ بها أيضاً، لكنها حالياً تحتوي على صفر تجارب داعمة أو أدبيات وتُصنف L5/Hold. هذا التقرير لا يركز عليها.)*
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Formal mechanism-of-action data from DrugBank is currently a data gap. However, the supporting literature consistently and specifically describes zafirlukast's pharmacology: it is a selective, competitive antagonist of the cysteinyl leukotriene 1 (CysLT1) receptor, blocking LTD4/LTC4/LTE4-mediated bronchoconstriction, mucus hypersecretion, increased vascular permeability, and eosinophilic airway inflammation.
-
-Asthma and obstructive lung disease (including COPD) share overlapping airway pathophysiology — bronchoconstriction, mucus hypersecretion, and inflammatory cell infiltration — and cysteinyl leukotrienes contribute to both, though their relative role is smaller in COPD than in asthma. This shared mechanistic basis is why leukotriene receptor antagonists have long been studied as an extension beyond asthma.
-
-Critically, this is not a purely theoretical extrapolation: dedicated clinical studies have already tested zafirlukast directly in COPD patients. A randomised, double-blind, placebo-controlled crossover study (PMID 12877822) found zafirlukast improved airway function within 1–3 hours in severe COPD, and a separate clinical study (PMID 23741166) evaluated its effect on lung function in COPD. This existing direct evidence is why the prediction reaches L2 rather than remaining at a model-only L5 level.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق في السجلات التنظيمية المحلية (الدواء غير مسوق في المملكة العربية السعودية)؛ مرخص بشكل دولي للوقاية والعلاج الدائم للربو المزمن |
+| المؤشر الجديد المتنبأ به | أمراض الرئة الانسدادية |
+| درجة التنبؤ TxGNN | 99.17% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع احتياطات |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11694805](https://pubmed.ncbi.nlm.nih.gov/11694805/) | 2001 | RCT | Respiration | Compared salmeterol + zafirlukast combination vs. monotherapy in asthma and COPD; bronchodilator effects were additive |
-| [12877822](https://pubmed.ncbi.nlm.nih.gov/12877822/) | 2003 | RCT (crossover) | Pulm Pharmacol Ther | Randomised, double-blind, placebo-controlled crossover trial: zafirlukast improved airway function within 1–3h in severe COPD patients |
-| [23741166](https://pubmed.ncbi.nlm.nih.gov/23741166/) | 2013 | Clinical study | Med J Islamic Repub Iran | Evaluated zafirlukast's effect on improving lung function in COPD patients |
-| [10421833](https://pubmed.ncbi.nlm.nih.gov/10421833/) | 1999 | Review | Clin Exp Allergy | Reviews leukotriene pathway inhibitors, including zafirlukast, in asthma and COPD; leukotrienes drive bronchoconstriction, mucus production, and eosinophil recruitment |
-| [10023966](https://pubmed.ncbi.nlm.nih.gov/10023966/) | 1999 | Review | Lancet | Overview of leukotriene-receptor antagonists (zafirlukast, montelukast); good antiasthma activity across severity spectrum |
-| [9463793](https://pubmed.ncbi.nlm.nih.gov/9463793/) | 1998 | Review | Drugs | Comprehensive review of zafirlukast pharmacology and therapeutic potential in chronic asthma |
-| [31544544](https://pubmed.ncbi.nlm.nih.gov/31544544/) | 2019 | Review | Expert Rev Respir Med | Update on LTRA treatments in asthma, summarizing cysteinyl leukotriene-driven airway inflammation mechanisms |
-| [11888331](https://pubmed.ncbi.nlm.nih.gov/11888331/) | 2002 | PK Study | Clin Pharmacokinet | Characterizes the pharmacokinetic profile of zafirlukast, a CysLT1 antagonist with bronchodilator and anti-inflammatory action |
-| [27826703](https://pubmed.ncbi.nlm.nih.gov/27826703/) | 2017 | Review | Handb Exp Pharmacol | Reviews LTRAs, including zafirlukast, for long-term asthma management, allergic rhinitis, and exercise-induced asthma |
-| [33446622](https://pubmed.ncbi.nlm.nih.gov/33446622/) | 2020 | Review | Med Lett Drugs Ther | Concise practice guidance on asthma drugs, including leukotriene receptor antagonists |
+بيانات آلية العمل الرسمية من DrugBank تمثل حالياً فجوة بيانات. ومع ذلك، تصف الأدبيات ذات الصلة بشكل ثابت وتفصيلي الخصائص الصيدلانية للزافيرلوكاست: إنه مضاد انتقائي تنافسي لمستقبل الليكوترين السيستيئيلي 1 (CysLT1)، يحجب تضيق الشعب الهوائية الوسيط بـ LTD4/LTC4/LTE4، وزيادة إفراز المخاط، وزيادة نفاذية الأوعية الدموية، والتهاب مجرى الهواء الحمضي.
+
+يتشارك الربو وأمراض الرئة الانسدادية (بما في ذلك الداء الانسدادي الرئوي المزمن) في فيزيولوجيا مرضية متشابهة في مجرى الهواء — تضيق الشعب الهوائية وزيادة إفراز المخاط والتسرب الخلوي الالتهابي — والليكوترينات السيستيئيلية تساهم في كليهما، على الرغم من أن دورها النسبي أقل أهمية في الداء الانسدادي الرئوي المزمن منه في الربو. هذا الأساس الميكانيكي المشترك يفسر لماذا تتم دراسة مضادات مستقبلات الليكوترين منذ فترة طويلة كامتداد خارج الربو.
+
+والأهم من ذلك، هذا ليس استقراء نظري بحت: الدراسات السريرية المتخصصة قد اختبرت بالفعل الزافيرلوكاست مباشرة في مرضى الداء الانسدادي الرئوي المزمن. أظهرت دراسة عشوائية مزدوجة التعمية خاضعة للعقار الوهمي متقاطعة (PMID 12877822) أن الزافيرلوكاست حسّن وظيفة مجرى الهواء في غضون 1–3 ساعات في مرضى الداء الانسدادي الرئوي المزمن الشديد، وقيّمت دراسة سريرية منفصلة (PMID 23741166) تأثيره على وظيفة الرئة في الداء الانسدادي الرئوي المزمن. هذا الدليل المباشر الموجود بالفعل هو السبب في وصول التنبؤ إلى مستوى L2 بدلاً من البقاء على مستوى L5 الذي يقتصر على النموذج وحده.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجربة السريرية
 
-Zafirlukast is currently not marketed in Saudi Arabia — no authorization records are available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Proceed with Guardrails**
+| PMID | السنة | النوع | المجلة | الملاحظات الرئيسية |
+|------|------|------|------|---------|
+| [11694805](https://pubmed.ncbi.nlm.nih.gov/11694805/) | 2001 | RCT | Respiration | قارنت توليفة سالميتيرول + الزافيرلوكاست مقابل العلاج الأحادي في الربو والداء الانسدادي الرئوي المزمن؛ كانت تأثيرات موسع الشعب الهوائية إضافية |
+| [12877822](https://pubmed.ncbi.nlm.nih.gov/12877822/) | 2003 | RCT (متقاطعة) | Pulm Pharmacol Ther | دراسة عشوائية مزدوجة التعمية خاضعة للعقار الوهمي متقاطعة: حسّن الزافيرلوكاست وظيفة مجرى الهواء في غضون 1–3 ساعات في مرضى الداء الانسدادي الرئوي المزمن الشديد |
+| [23741166](https://pubmed.ncbi.nlm.nih.gov/23741166/) | 2013 | دراسة سريرية | Med J Islamic Repub Iran | قيّمت تأثير الزافيرلوكاست على تحسين وظيفة الرئة في مرضى الداء الانسدادي الرئوي المزمن |
+| [10421833](https://pubmed.ncbi.nlm.nih.gov/10421833/) | 1999 | مراجعة | Clin Exp Allergy | استعرضت مثبطات مسار الليكوترين، بما في ذلك الزافيرلوكاست، في الربو والداء الانسدادي الرئوي المزمن؛ الليكوترينات تدفع تضيق الشعب الهوائية وإنتاج المخاط وتجنيد الخلايا الحمضية |
+| [10023966](https://pubmed.ncbi.nlm.nih.gov/10023966/) | 1999 | مراجعة | Lancet | نظرة عامة على مضادات مستقبلات الليكوترين (الزافيرلوكاست، مونتيلوكاست)؛ نشاط فعال ضد الربو عبر طيف الشدة |
+| [9463793](https://pubmed.ncbi.nlm.nih.gov/9463793/) | 1998 | مراجعة | Drugs | مراجعة شاملة لصيدلة وإمكانيات علاجية الزافيرلوكاست في الربو المزمن |
+| [31544544](https://pubmed.ncbi.nlm.nih.gov/31544544/) | 2019 | مراجعة | Expert Rev Respir Med | تحديث لعلاجات LTRA في الربو، ملخص آليات الالتهاب بمجرى الهواء المدفوعة بالليكوترينات السيستيئيلية |
+| [11888331](https://pubmed.ncbi.nlm.nih.gov/11888331/) | 2002 | دراسة حرائك دوائي | Clin Pharmacokinet | يميز الملف الحرائكي الدوائي للزافيرلوكاست، وهو مضاد CysLT1 مع تأثير موسع الشعب الهوائية ومضاد للالتهاب |
+| [27826703](https://pubmed.ncbi.nlm.nih.gov/27826703/) | 2017 | مراجعة | Handb Exp Pharmacol | مراجعة LTRAs، بما في ذلك الزافيرلوكاست، للإدارة طويلة الأجل للربو والتهاب الأنف التحسسي والربو المحفز بالممارسة الرياضية |
+| [33446622](https://pubmed.ncbi.nlm.nih.gov/33446622/) | 2020 | مراجعة | Med Lett Drugs Ther | توجيهات ممارسة موجزة حول أدوية الربو، بما في ذلك مضادات مستقبلات الليكوترين |
 
-**Rationale:**
-Zafirlukast's anti-leukotriene mechanism is already directly supported by two dedicated placebo-controlled/comparative clinical studies conducted specifically in COPD patients, plus multiple reviews describing the shared CysLT-driven pathophysiology between asthma and obstructive lung disease — placing this candidate at evidence level L2 rather than a pure model prediction. However, the drug is not currently marketed in Saudi Arabia, and formal MOA and safety documentation remain outstanding, so guardrails are warranted before further advancement.
+---
 
-**To proceed, the following is needed:**
-- Official DrugBank/regulatory-sourced mechanism of action data (currently unavailable)
-- SFDA-issued package insert warnings, contraindications, and drug-drug interaction (DDI) profile
-- Regulatory pathway assessment given the drug's "not marketed" status in Saudi Arabia
-- Larger, confirmatory trials in obstructive lung disease/COPD specifically, as existing supporting studies are small-sample and short-duration
+## معلومات سوق المملكة العربية السعودية
+
+الزافيرلوكاست غير مسوق حالياً في المملكة العربية السعودية — لا توجد سجلات ترخيص متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع احتياطات**
+
+**التبرير:**
+آلية عمل الزافيرلوكاست المضادة للليكوترين مدعومة بالفعل بدراستين سريريتين متقاطعتين خاضعتين للعقار الوهمي/المقارنة أجريت على وجه التحديد في مرضى الداء الانسدادي الرئوي المزمن، بالإضافة إلى عدة مراجعات تصف الفيزيولوجيا المرضية المشتركة المدفوعة بـ CysLT بين الربو وأمراض الرئة الانسدادية — مما يضع هذا المرشح على مستوى أدلة L2 بدلاً من التنبؤ النقي بالنموذج. ومع ذلك، الدواء غير مسوق حالياً في المملكة العربية السعودية، وتوثيق آلية العمل الرسمي والسلامة يبقى معلقاً، لذا فإن احتياطات الحماية مبررة قبل التقدم الإضافي.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات رسمية لآلية العمل من DrugBank/التنظيمية (غير متاحة حالياً)
+- النشرة الطبية الصادرة عن الهيئة العامة للغذاء والدواء لتحذيرات وموانع الاستعمال وملف التفاعلات الدوائية
+- تقييم المسار التنظيمي بالنظر إلى حالة "غير مسوق" للدواء في المملكة العربية السعودية
+- تجارب أكبر وتأكيدية في الداء الانسدادي الرئوي المزمن/أمراض الرئة الانسدادية على وجه التحديد، لأن الدراسات الداعمة الموجودة صغيرة الحجم وقصيرة المدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

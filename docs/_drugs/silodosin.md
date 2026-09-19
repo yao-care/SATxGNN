@@ -29,76 +29,77 @@ indication_count: 6
 
 </div>
 
-# Silodosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+# سيلودوسين: من تضخم البروستاتا الحميد إلى فرط الشعر الشامل الخلقي من نوع أمبراس
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Silodosin is a selective α1A-adrenergic receptor antagonist used clinically for benign prostatic hyperplasia (BPH); this specific detail is general clinical knowledge and is **not** contained in the evidence pack (`original_indications` and `original_moa` are both empty/Data Gap here). The TxGNN model's top prediction is **Ambras type hypertrichosis universalis congenita** (score 99.99%), but this is supported by **zero clinical trials and zero literature**, and the evidence pack's own mechanistic-rationale field explicitly flags the score as likely knowledge-graph noise from a sparsely-connected rare-disease node rather than a real biological signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Benign Prostatic Hyperplasia (general clinical knowledge — not present in evidence pack) |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سيلودوسين هو مناهض انتقائي لمستقبلات α1A الأدرينالينية يُستخدم سريرياً في تضخم البروستاتا الحميد؛ هذه التفاصيل المحددة تمثل معرفة سريرية عامة و**لا تُوجد** في حزمة الأدلة (`original_indications` و `original_moa` كلاهما فارغ/Data Gap هنا). التنبؤ الأعلى لنموذج TxGNN هو **فرط الشعر الشامل الخلقي من نوع أمبراس** (درجة 99.99%)، لكن هذا مدعوم بـ **صفر تجارب سريرية وصفر مراجع أدبية**، وحقل المبرر الآلي الخاص بحزمة الأدلة نفسها يشير بوضوح إلى أن الدرجة هي على الأرجح ضوضاء في الشبكة المعرفية ناشئة من عقدة مرض نادرة ضعيفة الاتصال بدلاً من أن تكون إشارة بيولوجية حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa: "[Data Gap]"`). Based on well-established public pharmacology, silodosin is a uroselective α1A-adrenoceptor antagonist that relaxes smooth muscle in the bladder neck/prostate to relieve BPH symptoms.
-
-For the top-ranked prediction, however, the pack's own `repurposing_rationale` concludes there is **no plausible mechanistic link**: Ambras syndrome is a rare autosomal-dominant condition tied to 8q22 chromosomal rearrangements and hair-follicle growth-cycle regulatory genes, with no known intersection with α1A-adrenoceptor blockade. The rationale explicitly states the high TxGNN score is likely an artifact of sparse graph connectivity around this rare-disease node rather than a genuine biological signal.
-
-The same pattern repeats across all six predicted indications in this pack — hypertrichosis, a periodontal/odontal malformation syndrome (whose 20 literature hits are all general periodontitis background papers with no mention of silodosin or α1-blockers), Dandy-Walker malformation, hair-shaft abnormality, and familial trichomegaly — every one is scored L5 (model prediction only) with a "Hold" recommendation and an explicit statement of no mechanistic plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | تضخم البروستاتا الحميد (معرفة سريرية عامة — غير موجودة في حزمة الأدلة) |
+| المؤشر الجديد المتنبأ به | فرط الشعر الشامل الخلقي من نوع أمبراس |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مُسوَّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل المفصلة غير متاحة في حزمة الأدلة هذه (`original_moa: "[Data Gap]"`). استناداً إلى علم العقاقير العام المعروف، سيلودوسين هو مناهض انتقائي لمستقبلات α1A الأدرينالينية يعمل على ارتخاء العضلات الملساء في عنق المثانة والبروستاتا لتخفيف أعراض تضخم البروستاتا الحميد.
 
-*(Note: rank-3 candidate, "malformation syndrome with odontal and/or periodontal component," returned 20 PubMed hits, but all are general periodontitis pathophysiology/treatment-guideline papers unrelated to silodosin — they do not constitute drug-disease evidence and are therefore not listed here.)*
+بخصوص التنبؤ الأعلى تصنيفاً، فإن المبرر الوارد في الحزمة يشير إلى أنه **لا توجد صلة آلية معقولة**: متلازمة أمبراس هي حالة نادرة جسمية سائدة مرتبطة بإعادة ترتيب الكروموسوم 8q22 والجينات المنظمة لدورة نمو بصيلة الشعر، مع عدم وجود تقاطع معروف مع حجب مستقبلات α1A الأدرينالينية. ينص المبرر بوضوح على أن درجة TxGNN العالية هي على الأرجح حاصل اتصال ضعيف للرسم البياني المعرفي حول عقدة مرض نادرة بدلاً من أن تكون إشارة بيولوجية حقيقية.
 
----
-
-## Saudi Arabia Market Information
-
-Silodosin is not marketed in Saudi Arabia (`total_licenses = 0`, no license records available).
+ينتشر النمط ذاته عبر جميع المؤشرات الستة المتنبأ بها في هذه الحزمة — فرط الشعر، متلازمة التشوه السنية وحول السنية (التي تُعيد 20 نتيجة من PubMed وهي جميعها أوراق خلفية عن فيزيولوجيا التهاب اللثة العامة ومعايير علاجية عامة لا تذكر سيلودوسين أو حاصرات α1)، تشوه دندي-ووكر، شذوذ عمود الشعر، وضخامة الرموش العائلية — كل واحد منها مصنّف L5 (تنبؤ النموذج فقط) مع توصية "الانتظار" وبيان واضح لعدم وجود جدوى آلية.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد مراجع أدبية ذات صلة متاحة حالياً.
 
-**Rationale:**
-Every predicted indication in this pack is L5 (model score only), with no clinical trials, no drug-relevant literature, and no plausible mechanistic link — the evidence pack itself assesses the top signal as likely knowledge-graph noise rather than a real biological effect. Silodosin is also unmarketed in Saudi Arabia, and a **Blocking** data gap (TFDA package insert / warnings & contraindications) prevents even entering the S1 safety pre-assessment stage.
+*(ملاحظة: المرشح بالترتيب الثالث، "متلازمة تشوه بمكون سني و/أو حول سني"، أرجع 20 نتيجة PubMed، لكن جميعها أوراق أساسية عن علم أمراض التهاب اللثة العامة ومعايير علاجية عامة لا علاقة لها بسيلودوسين — فهي لا تشكل دليلاً على العلاقة بين الدواء والمرض وبالتالي لا تُدرج هنا.)*
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- Confirmed original indication/label text (currently absent from this evidence pack)
-- A rerun of literature/trial searches specifically pairing "silodosin" with each candidate disease term, since existing hits are background disease literature rather than drug-linked evidence
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+سيلودوسين غير مُسوَّق في المملكة العربية السعودية (`total_licenses = 0`، لا توجد سجلات ترخيص متاحة).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى مراجعة نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+كل مؤشر متنبأ به في هذه الحزمة هو L5 (درجة النموذج فقط)، مع عدم وجود تجارب سريرية، وعدم وجود مراجع أدبية ذات صلة بالدواء، وعدم وجود صلة آلية معقولة — حزمة الأدلة نفسها تقيّم الإشارة الأعلى كضوضاء محتملة في الشبكة المعرفية بدلاً من تأثير بيولوجي حقيقي. سيلودوسين أيضاً غير مُسوَّق في المملكة العربية السعودية، وفجوة بيانات **محظورة** (نشرة TFDA للعبوة / التحذيرات والموانع الاستطبابية) تحول دون دخول حتى مرحلة التقييم الأمني السابق S1.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA للعبوة (تحذيرات، موانع استطبابية) — حالياً محظورة (DG001)
+- بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- نص المؤشر الأصلي أو الملصق المؤكد (غير موجود حالياً من حزمة الأدلة هذه)
+- إعادة إجراء البحث عن المراجع الأدبية والتجارب بشكل محدد بدمج "سيلودوسين" مع كل مصطلح مرض مرشح، نظراً لأن النتائج الموجودة هي مراجع أساسية عن المرض بدلاً من مراجع مرتبطة بالدواء
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

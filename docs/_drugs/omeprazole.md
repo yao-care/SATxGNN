@@ -29,73 +29,74 @@ indication_count: 2
 
 </div>
 
-# Omeprazole: From Peptic Ulcer Disease to Duodenogastric Reflux
+# أوميبرازول: من قرحة الجهاز الهضمي إلى الارتجاع المعدي الاثني عشر
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Omeprazole is a proton pump inhibitor originally used for peptic ulcer disease, GERD, and H. pylori eradication (a well-established indication not captured in this Evidence Pack's Saudi licensing data, since the drug is currently unmarketed there). The TxGNN model predicts it may be effective for **Duodenogastric Reflux (DGR)**, but the supporting evidence is limited to **1 non-therapeutic clinical trial** and **20 publications**, several of which raise a mechanistic safety concern rather than confirm benefit.
+أوميبرازول هو مثبط مضخة البروتون يُستخدم أصلاً لقرحة الجهاز الهضمي وحموضة المريء والمعدة والتهاب المريء الارتجاعي ولاستئصال جرثومة المعدة (مؤشر طبي معروف وراسخ لا تعكسه بيانات الترخيص السعودي في هذه الحزمة الثبوتية، حيث أن الدواء حالياً غير مصرح به في السعودية). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الارتجاع المعدي الاثني عشري (DGR)**، غير أن الأدلة الداعمة محدودة ب**1 تجربة سريرية غير علاجية** و**20 منشورة بحثية**، العديد منها يثير مخاوف آلية السلامة بدلاً من تأكيد الفائدة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Peptic ulcer disease / GERD / *H. pylori* eradication *(general knowledge — not present in the Saudi licensing data, which shows no authorizations)* |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | قرحة الجهاز الهضمي / حموضة المريء والمعدة / استئصال جرثومة *المعدة* *(معرفة عامة — غير موجودة في بيانات الترخيص السعودي، الذي لا يوضح أي تصاريح)* |
+| المؤشر الجديد المتنبأ به | الارتجاع المعدي الاثني عشري |
+| درجة التنبؤ من TxGNN | 99.64% |
+| مستوى الدليل | L4 |
+| حالة السوق السعودي | غير مصرح به |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (DG002, High severity). Based on known pharmacology, omeprazole irreversibly inhibits the gastric H⁺/K⁺-ATPase to suppress acid secretion — a mechanism proven effective for acid-related disorders such as peptic ulcer disease and GERD.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في هذه الحزمة الثبوتية (DG002، شدة عالية). بناءً على الصيدلة المعروفة، يثبط أوميبرازول بشكل لا عكوس مضخة الهيدروجين-البوتاسيوم (H⁺/K⁺-ATPase) في المعدة لقمع إفراز الحمض — آلية ثبتت فعاليتها في الأمراض ذات الصلة بالحمض مثل قرحة الجهاز الهضمي وحموضة المريء والمعدة.
 
-However, the core pathology of duodenogastric reflux is not acid excess but reflux of alkaline duodenal content (bile acids, pancreatic enzymes, lysolecithin) into the stomach. Omeprazole does not act directly on this mechanism. The repurposing rationale extracted from this Evidence Pack is explicitly cautious: several preclinical studies (PMID 33027361, PMID 10389684) suggest that acid suppression with omeprazole may *prolong* mucosal exposure to bile reflux and has been associated with promotion of gastric carcinogenesis in DGR animal models. Some clinical cohort studies in Barrett's esophagus (PMID 10994616, PMID 9824338) do suggest omeprazole can reduce measured duodenogastric/duodenogastroesophageal reflux parameters, but this is a secondary physiological effect rather than a validated treatment indication for DGR itself.
+غير أن الأمراض الأساسية في الارتجاع المعدي الاثني عشري لا تتعلق بفرط حموضة بل برجوع المحتوى القلوي للاثني عشر (أحماض صفراوية وإنزيمات البنكرياس والليزوليسيثين) إلى المعدة. أوميبرازول لا يعمل مباشرة على هذه الآلية. كما أن المبرر العلمي لإعادة استخدام الدواء المستخلص من هذه الحزمة الثبوتية واضح وحذر: عدة دراسات تجريبية ما قبل سريرية (PMID 33027361، PMID 10389684) تشير إلى أن قمع الحمض بأوميبرازول قد *يطيل* تعرض الغشاء المخاطي للارتجاع الصفراوي وقد يرتبط بتعزيز سرطنة المعدة في نماذج حيوانية من الارتجاع المعدي الاثني عشري. تشير بعض الدراسات السريرية الحثولية في مريء باريت (PMID 10994616، PMID 9824338) إلى أن أوميبرازول قد يقلل من معاملات الارتجاع المعدي الاثني عشري / المعدي المريئي المقاسة، إلا أن هذا تأثير فسيولوجي ثانوي وليس مؤشراً طبياً معتمداً لعلاج الارتجاع المعدي الاثني عشري نفسه.
 
-In short, the mechanistic link is weak and directionally ambiguous — plausible symptomatic modulation is counterbalanced by an unresolved preclinical safety signal, which is why this candidate sits at Evidence Level L4 with a Hold recommendation rather than proceeding further.
+باختصار، الصلة الآلية ضعيفة وموجهة بطريقة غامضة — التعديل العرضي المعقول يقابله إشارة سلامة ما قبل سريرية غير محسومة، وهذا هو السبب في أن هذا المرشح يجلس عند مستوى دليل L4 مع توصية توقف بدلاً من المتابعة الإضافية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | Phase NA | Completed | 157 | Evaluated endoscopic tri-modal imaging (NBI/AFI/WLI) to distinguish functional dyspepsia from reflux disease (acid or bile). This is a diagnostic imaging study, not a treatment trial of omeprazole for DGR. |
+| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | مرحلة غير محددة | مكتملة | 157 | قيّمت التصوير ثلاثي الأنماط بالمنظار (NBI/AFI/WLI) للتمييز بين عسر الهضم الوظيفي وأمراض الارتجاع (حمضي أو صفراوي). هذه دراسة تشخيصية بالتصوير وليست تجربة علاجية بأوميبرازول لعلاج الارتجاع المعدي الاثني عشري. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Review | European Journal of Pediatrics | Describes primary duodenogastric reflux in children/adolescents, refractory to classical antacid therapy. |
-| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Cohort | Scandinavian Journal of Gastroenterology | Long-term omeprazole therapy in Barrett's esophagus was associated with reduced antral duodenogastric reflux. |
-| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Cohort | Gut | Omeprazole 20mg twice daily assessed for effect on duodenogastric and duodenogastro-oesophageal bile reflux in Barrett's esophagus. |
-| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Cohort | Acta Cirúrgica Brasileira | Rat model of DGR; investigated whether omeprazole and nitrites have a protective or promoting effect on gastric mucosa/adenocarcinoma risk. |
-| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Cohort | Digestive Diseases and Sciences | Rat model: gastric acid blockade with omeprazole promoted gastric carcinogenesis induced by DGR — a safety signal. |
-| [8076761](https://pubmed.ncbi.nlm.nih.gov/8076761/) | 1994 | Cohort | Gastroenterology | Examined relationship of pH and duodenogastroesophageal reflux to esophageal mucosal damage and Barrett's esophagus. |
-| [11552908](https://pubmed.ncbi.nlm.nih.gov/11552908/) | 2001 | Cohort | Alimentary Pharmacology & Therapeutics | PPI therapy (pantoprazole) reduced acid reflux but effect on biliary reflux and esophageal motility was less clear. |
-| [9841990](https://pubmed.ncbi.nlm.nih.gov/9841990/) | 1998 | Cohort | Journal of Gastrointestinal Surgery | Assessed bile reflux in Barrett's esophagus and effect of medical acid suppression vs. Nissen fundoplication. |
-| [21916229](https://pubmed.ncbi.nlm.nih.gov/21916229/) | 2011 | Cohort | Experimental & Clinical Gastroenterology | Characterized DGR in duodenal ulcer patients and its dynamics after *H. pylori* eradication. |
-| [11232672](https://pubmed.ncbi.nlm.nih.gov/11232672/) | 2001 | Cohort | American Journal of Gastroenterology | Compared acid/bile reflux in Barrett's esophagus vs. reflux esophagitis and the effect of PPI therapy. |
+| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | مراجعة | European Journal of Pediatrics | يصف الارتجاع المعدي الاثني عشري الأولي عند الأطفال والمراهقين، والمقاوم للعلاج الكلاسيكي بمضادات الحموضة. |
+| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | دراسة حثولية | Scandinavian Journal of Gastroenterology | ارتبطت العلاجات طويلة الأجل بأوميبرازول في مريء باريت بتقليل الارتجاع المعدي الاثني عشري في الجزء القريب من المعدة. |
+| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | دراسة حثولية | Gut | تقييم أوميبرازول 20 ملغ مرتين يومياً لتأثيره على الارتجاع المعدي الاثني عشري والمعدي المريئي الصفراوي في مريء باريت. |
+| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | دراسة حثولية | Acta Cirúrgica Brasileira | نموذج فئراني لـ DGR؛ تحقق فيما إذا كان لأوميبرازول والنتريتات تأثير وقائي أو معزز على الغشاء المخاطي في المعدة / مخاطر الأورام الغدية. |
+| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | دراسة حثولية | Digestive Diseases and Sciences | نموذج فئراني: قمع حمض المعدة بأوميبرازول عزز سرطنة المعدة المستحثة بـ DGR — إشارة سلامة. |
+| [8076761](https://pubmed.ncbi.nlm.nih.gov/8076761/) | 1994 | دراسة حثولية | Gastroenterology | بحث العلاقة بين الرقم الهيدروجيني والارتجاع المعدي المريئي الاثني عشري مع إصابة الغشاء المخاطي المريئي ومريء باريت. |
+| [11552908](https://pubmed.ncbi.nlm.nih.gov/11552908/) | 2001 | دراسة حثولية | Alimentary Pharmacology & Therapeutics | قلل العلاج بمثبطات مضخة البروتون (بانتوبرازول) من الارتجاع الحمضي لكن التأثير على الارتجاع الصفراوي وحركة المريء كان أقل وضوحاً. |
+| [9841990](https://pubmed.ncbi.nlm.nih.gov/9841990/) | 1998 | دراسة حثولية | Journal of Gastrointestinal Surgery | قيّم الارتجاع الصفراوي في مريء باريت وتأثير العلاج الطبي بقمع الحمض مقابل جراحة نيسن الأساسية. |
+| [21916229](https://pubmed.ncbi.nlm.nih.gov/21916229/) | 2011 | دراسة حثولية | Experimental & Clinical Gastroenterology | وصف الارتجاع المعدي الاثني عشري عند مرضى قرحة الاثني عشر وديناميكيته بعد استئصال جرثومة *المعدة*. |
+| [11232672](https://pubmed.ncbi.nlm.nih.gov/11232672/) | 2001 | دراسة حثولية | American Journal of Gastroenterology | قارن الارتجاع الحمضي / الصفراوي في مريء باريت مقابل التهاب المريء الارتجاعي وتأثير العلاج بمثبطات مضخة البروتون. |
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-Omeprazole currently has no marketing authorization records in Saudi Arabia (0 authorizations; market status: Not Marketed).
+أوميبرازول حالياً لا يحتوي على أي تصاريح تسويقية في السعودية (0 تصاريح؛ حالة السوق: غير مصرح به).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and drug interaction data are not available in this Evidence Pack — TFDA/SFDA package insert extraction (DG001) is flagged as a Blocking data gap.)*
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. *(بيانات التحذيرات الرئيسية والمضادات والتفاعلات الدوائية غير متوفرة في هذه الحزمة الثبوتية — يتم تحديد استخراج نشرة TFDA/SFDA الدوائية (DG001) كفجوة بيانات حجزية.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-The mechanistic rationale for omeprazole in DGR is weak and partly contradicted by preclinical evidence suggesting acid suppression may promote gastric carcinogenesis under DGR conditions; the only registered trial is a diagnostic imaging study, not a treatment trial, and no evidence directly tests omeprazole's efficacy against DGR as a primary endpoint.
+**المبرر:**
+المبرر الآلي لاستخدام أوميبرازول في الارتجاع المعدي الاثني عشري ضعيف ويتناقض جزئياً مع الأدلة ما قبل السريرية التي تشير إلى أن قمع الحمض قد يعزز سرطنة المعدة في ظروف الارتجاع المعدي الاثني عشري؛ والتجربة المسجلة الوحيدة هي دراسة تشخيصية بالتصوير وليست تجربة علاجية، وليس هناك دليل يختبر مباشرة فعالية أوميبرازول ضد الارتجاع المعدي الاثني عشري كنقطة نهائية أساسية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, Blocking — required before any S1 safety review)
-- Confirmed mechanism of action data (DG002)
-- A dedicated clinical study testing omeprazole safety/efficacy specifically in DGR patients (not derived from Barrett's esophagus or GERD sub-analyses)
-- Resolution of the preclinical carcinogenesis-promotion signal (PMID 10389684, 33027361) before any further advancement
+**للمتابعة، يلزم الآتي:**
+- تحذيرات وموانع نشرة TFDA/SFDA الدوائية (DG001، حجزي — مطلوب قبل أي مراجعة سلامة S1)
+- بيانات آلية العمل المؤكدة (DG002)
+- دراسة سريرية مكرسة تختبر سلامة/فعالية أوميبرازول تحديداً في مرضى الارتجاع المعدي الاثني عشري (غير مشتقة من تحليلات فرعية لمريء باريت أو حموضة المريء والمعدة)
+- حل إشارة سرطنة ما قبل السريرية (PMID 10389684، 33027361) قبل أي مزيد من التقدم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

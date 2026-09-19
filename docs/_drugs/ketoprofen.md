@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Ketoprofen: From Unspecified Original Indication to Acromesomelic Dysplasia, Hunter-Thompson Type
+# كيتوبروفين: من مؤشر أصلي غير محدد إلى خلل النمو الأكروميزومي من نوع هنتر-طومسون
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ketoprofen (DrugBank DB01009) has no original indication or mechanism-of-action data on file in this evidence pack, and it is not currently marketed in Saudi Arabia. The TxGNN model's top prediction, **Acromesomelic Dysplasia, Hunter-Thompson Type**, is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags this specific prediction as likely graph-embedding noise rather than a genuine signal.
+لا يحتوي كيتوبروفين (DrugBank DB01009) على أي بيانات عن المؤشر الأصلي أو آلية العمل في مجموعة الأدلة هذه، وهو غير مسوق حالياً في المملكة العربية السعودية. التنبؤ الأعلى للنموذج TxGNN، **خلل النمو الأكروميزومي من نوع هنتر-طومسون**، يدعمه **0 تجربة سريرية** و**0 منشور**، وتشير نسبة المنطق الخاصة بالنموذج إلى أن هذا التنبؤ المحدد يُحتمل أن يكون ضوضاء تضمين الرسم البياني بدلاً من إشارة حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (0 Saudi licenses; original_indications empty) |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح — لا توجد نصوص مؤشرات معتمدة في الملف (0 ترخيص سعودي؛ `original_indications` فارغ) |
+| المؤشر الجديد المتوقع | خلل النمو الأكروميزومي من نوع هنتر-طومسون |
+| درجة التنبؤ TxGNN | 99.98% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for ketoprofen in this evidence pack. Based on general pharmacological knowledge, ketoprofen is a propionic-acid-derivative NSAID that inhibits COX-1/COX-2 and prostaglandin synthesis — a mechanism relevant to inflammatory and pain conditions.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية لكيتوبروفين في مجموعة الأدلة هذه. بناءً على المعرفة الدوائية العامة، كيتوبروفين هو مثبط COX-1/COX-2 من مشتقات حمض البروبيونيك يثبط تخليق البروستاجلاندينات — وهي آلية ذات صلة بالأمراض الالتهابية وحالات الألم.
 
-However, for the top-ranked prediction, Acromesomelic Dysplasia, Hunter-Thompson Type, no such link applies. Per the evidence pack's own repurposing rationale, this is a GDF5/BMP signaling-pathway skeletal developmental disorder with no known relationship to COX inhibition or prostaglandin synthesis. The rationale explicitly attributes the high TxGNN score to likely graph-embedding noise, driven by the drug node's data sparsity (no original indication, no MOA, zero DDI records). The same caveat applies to ranks 2–7 and 9 in this evidence pack, which are all congenital/structural or genetic disorders without a plausible NSAID mechanism.
+ومع ذلك، بالنسبة للتنبؤ الأعلى مرتبة، خلل النمو الأكروميزومي من نوع هنتر-طومسون، لا تنطبق أي من هذه الصلات. وفقاً لنسبة المنطق الخاصة بإعادة استخدام الأدوية في مجموعة الأدلة، هذا هو اضطراب تطور هيكلي يتعلق بمسار إشارات GDF5/BMP بدون أي علاقة معروفة بمثبطات COX أو تخليق البروستاجلاندينات. تعزو النسبة صراحةً درجة TxGNN العالية إلى ضوضاء تضمين الرسم البياني المحتملة، مدفوعة بندرة البيانات على مستوى عقدة الدواء (لا مؤشر أصلي، لا MOA، صفر سجلات DDI). ينطبق التحفظ نفسه على الرتب 2-7 و9 في مجموعة الأدلة هذه، وهي جميعاً اضطرابات خلقية/هيكلية أو اضطرابات وراثية بدون آلية مضادات الالتهاب غير الستيرويدية (NSAIDs) معقولة.
 
-Two lower-ranked predictions are mechanistically more defensible: **spondyloarthropathy, susceptibility to** (rank 8) and **juvenile arthritis due to defect in LACC1** (rank 10) are both inflammatory joint diseases, a category where NSAIDs are an established symptomatic treatment class. These carry L4 evidence (mechanism-level plausibility, "Research Question" stage) rather than direct trial support, but represent a more scientifically grounded direction than the current top-ranked prediction.
+اثنان من التنبؤات الأقل ترتيباً أكثر قابلية للدفاع من الناحية الآلية: **قابلية الإصابة بالتهاب الفقار المفصلي** (الرتبة 8) و**التهاب المفاصل اليفعي الناجم عن عيب في LACC1** (الرتبة 10) هما معاً أمراض التهاب المفاصل، وهي فئة يكون فيها العقاقير غير الستيرويدية المضادة للالتهابات علاجاً عرضياً معروفاً. تحمل هذه الأدلة L4 (معقولية على مستوى الآلية، مرحلة "سؤال البحث") بدلاً من دعم التجربة المباشر، لكنها تمثل اتجاهاً أكثر سلامة من الناحية العلمية مقارنةً بالتنبؤ الأعلى الحالي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا تتوفر حالياً أدبيات ذات صلة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Ketoprofen is not currently marketed in Saudi Arabia under this evidence pack (0 authorizations on file; `taiwan_regulatory.licenses` is empty).
+كيتوبروفين غير مسوق حالياً في المملكة العربية السعودية بموجب مجموعة الأدلة هذه (0 تراخيص في الملف؛ `taiwan_regulatory.licenses` فارغ).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The top-ranked prediction has zero supporting clinical trials or literature (L5), and the model's own mechanistic rationale identifies it as likely embedding noise rather than a real signal, driven by sparse underlying drug data (no original indication, no MOA, no DDI records). This does not meet the bar to advance to safety screening (S1).
+**المنطق:**
+التنبؤ الأعلى مرتبة يفتقر إلى أي تجارب سريرية أو أدبيات داعمة (L5)، وتحذر نسبة المنطق الآلية الخاصة بالنموذج من أنه محتمل أن يكون ضوضاء تضمين بدلاً من إشارة حقيقية، مدفوعة ببيانات نادرة أساسية (لا مؤشر أصلي، لا MOA، لا سجلات DDI). هذا لا يفي بمعايير المتابعة إلى فحص السلامة (S1).
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Ketoprofen mechanism of action from DrugBank — currently a High-severity data gap (DG002)
-- Original indication and Saudi Arabia licensing records, currently entirely absent from this evidence pack
-- If pursuing repurposing research for ketoprofen, consider redirecting attention to the mechanistically plausible candidates in this same batch — **spondyloarthropathy, susceptibility to** and **juvenile arthritis due to defect in LACC1** — and seek targeted clinical/preclinical evidence for those indications rather than the current top-ranked prediction
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+- نشرة الحزمة TFDA/SFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاجزة (DG001)
+- آلية عمل كيتوبروفين من DrugBank — حالياً فجوة بيانات عالية الأهمية (DG002)
+- المؤشر الأصلي وسجلات الترخيص في المملكة العربية السعودية، وهي غير موجودة حالياً تماماً في مجموعة الأدلة هذه
+- في حالة السعي لأبحاث إعادة استخدام الأدوية لكيتوبروفين، فكر في تحويل الانتباه إلى المرشحين ذوي المعقولية الآلية في هذه الدفعة نفسها — **قابلية الإصابة بالتهاب الفقار المفصلي** و**التهاب المفاصل اليفعي الناجم عن عيب في LACC1** — والسعي للحصول على أدلة سريرية/ما قبل السريرية موجهة لتلك المؤشرات بدلاً من التنبؤ الأعلى الحالي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

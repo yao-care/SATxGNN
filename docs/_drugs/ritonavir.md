@@ -29,87 +29,88 @@ indication_count: 3
 
 </div>
 
-# Ritonavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# ريتونافير: من عدوى فيروس نقص المناعة البشرية من النوع الأول إلى عدوى فيروس نقص المناعة لدى الرئيسيات
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Ritonavir is a well-known HIV-1 protease inhibitor used in antiretroviral therapy; original indication data and mechanism-of-action data are not available in this evidence pack, and the drug is not currently marketed in Saudi Arabia.
-> The TxGNN model's top-ranked prediction is **simian immunodeficiency virus (SIV) infection** — an animal-model disease, not a human condition — supported by **0 clinical trials** and **12 publications**.
-> The evidence pack's own analysis flags this as confirmation of ritonavir's known antiretroviral mechanism in a primate research model, **not** a genuine new human indication, and all three predicted indications are recommended **Hold**.
+> ريتونافير هو مثبط بروتيز معروف لفيروس نقص المناعة البشرية من النوع الأول يُستخدم في العلاج المضاد للفيروسات العكوسة؛ وبيانات المؤشر الأصلي وبيانات آلية العمل غير متاحة في هذه مجموعة الأدلة، والدواء غير مسوّق حالياً في المملكة العربية السعودية.
+> التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **عدوى فيروس نقص المناعة لدى الرئيسيات (SIV)** — وهي مرض نموذج حيواني وليست حالة بشرية — مدعومة بـ **0** تجارب سريرية و **12** منشور.
+> تحليل مجموعة الأدلة ذاتها يشير إلى هذا كتأكيد على آلية ريتونافير المضادة للفيروسات المعروفة في نموذج بحثي للرئيسيات، **وليس** مؤشراً إنساني جديداً حقيقياً، وجميع المؤشرات الثلاثة المتنبأ بها يُوصى بـ **تأجيل**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | HIV-1 infection (antiretroviral therapy) — inferred from evidence-pack context; no license-based confirmation available (0 authorizations on file) |
-| Predicted New Indication | Simian immunodeficiency virus infection (non-human primate disease model) |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | عدوى فيروس نقص المناعة البشرية من النوع الأول (العلاج المضاد للفيروسات العكوسة) — مستنتج من سياق مجموعة الأدلة؛ لا توجد تأكيدات مستندة إلى الترخيص (0 تفويضات في الملف) |
+| المؤشر الجديد المتنبأ به | عدوى فيروس نقص المناعة لدى الرئيسيات (نموذج مرض الرئيسيات غير البشرية) |
+| درجة التنبؤ بـ TxGNN | 99.92% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism-of-action data is not available (Data Gap DG002 — DrugBank MOA field query pending). Based on information available within this evidence pack, ritonavir is an HIV-1 protease inhibitor and potent CYP3A4 inhibitor, with well-established antiretroviral efficacy in human HIV-1 infection. SIV shares a highly homologous protease structure with HIV-1, and direct in vitro susceptibility studies confirm ritonavir inhibits SIV protease at nanomolar potency comparable to HIV-1 (PMID 12709355, 15040537) — this is the mechanistic basis for the TxGNN association.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (فجوة البيانات DG002 — استعلام حقل DrugBank MOA قيد الانتظار). بناءً على المعلومات المتاحة في مجموعة الأدلة هذه، ريتونافير هو مثبط بروتيز فيروس نقص المناعة البشرية من النوع الأول ومثبط قوي لـ CYP3A4، مع فعالية مضادة للفيروسات العكوسة مثبتة جيداً في عدوى فيروس نقص المناعة البشرية من النوع الأول لدى الإنسان. يشاركSIV بنية بروتيز متماثلة جداً مع فيروس نقص المناعة البشرية من النوع الأول، وتؤكد دراسات القابلية المباشرة في المختبر أن ريتونافير يثبط بروتيز SIV بقوة نانومولارية مقارنة بـ HIV-1 (PMID 12709355, 15040537) — هذا هو الأساس الآلي لارتباط TxGNN.
 
-However, SIV infection is an experimental non-human primate disease model used in HIV/AIDS research (typically in macaques), not a human clinical indication. The evidence pack's own repurposing rationale explicitly notes this represents an extension/validation of ritonavir's already-known antiretroviral mechanism within an animal research system, rather than a novel therapeutic indication suitable for drug repurposing evaluation.
+ومع ذلك، فإن عدوى SIV هي نموذج مرض الرئيسيات غير البشرية التجريبي المستخدم في البحث عن فيروس نقص المناعة البشرية/الإيدز (عادة في القرود الماكاك)، وليس مؤشراً سريرياً بشرياً. يلاحظ السبب الخاص بمجموعة الأدلة لإعادة الاستخدام بشكل صريح أن هذا يمثل امتداداً/تحققاً من آلية ريتونافير المضادة للفيروسات المعروفة بالفعل داخل نظام البحث الحيواني، بدلاً من كونه مؤشراً علاجياً جديداً مناسباً لتقييم إعادة استخدام الأدوية.
 
-The rank-2 prediction (feline acquired immunodeficiency syndrome) follows a similar pattern — a veterinary disease of cats caused by FIV, another lentivirus with partial protease homology — but its single supporting "trial" (NCT02770508) is a human Phase 4 darunavir/lamivudine study, judged in the evidence pack to be a disease-ontology mismatch (feline AIDS vs. human AIDS name collision), not genuine supporting evidence. The rank-3 prediction (a rare neurodevelopmental white-matter disorder) has no mechanistic link, no trials, and no literature — a pure model-score artifact (L5).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يتبع التنبؤ بالترتيب الثاني (متلازمة نقص المناعة المكتسبة لدى القطط) نمطاً مشابهاً — مرض بيطري في القطط ناجم عن FIV، وهو فيروس بطيء آخر مع تماثل بروتيز جزئي — لكن "التجربة" الوحيدة الداعمة له (NCT02770508) هي دراسة داروناڤير/لاميڤودين المرحلة الرابعة البشرية، حكمت عليها مجموعة الأدلة بأنها عدم تطابق في أنطولوجيا المرض (متلازمة نقص المناعة المكتسبة لدى القطط مقابل اصطدام أسماء الإيدز البشري)، وليس دليلاً داعماً حقيقياً. التنبؤ بالترتيب الثالث (اضطراب نادر في نمو الأعصاب في المادة البيضاء) لا يحتوي على أي ارتباط آلي، ولا توجد تجارب، ولا أدبيات — مجرد منتج نقاء من درجات النموذج (L5).
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro susceptibility | Antimicrobial Agents and Chemotherapy | Ritonavir inhibited SIVmac239 in vitro (EC50 ≈13 nM), comparable to its potency against HIV-1 (EC50 ≈25 nM) |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility | Antiviral Therapy | Evaluated 16 approved anti-HIV-1 drugs, including ritonavir, against HIV-2, SIV and SHIV strains for treatment/PEP guidance |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal model (macaque) | Journal of Virology | Quadruple antiretroviral therapy produced rapid viral decay in SIVmac251-infected macaques |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Animal model | mBio | Lentivirus (HIV/SIV) persisted in brain tissue despite effective ART, highlighting CNS reservoirs |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal model (macaque) | PLoS ONE | Combination ART plus HDAC inhibitor SAHA tested in SIV-infected rhesus macaques to probe latent reservoirs |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal model (macaque) | Journal of Virological Methods | Oral HAART including lopinavir/ritonavir assessed for effect on CD8+ T-cell subsets in SHIV89.6P-infected macaques |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro mechanism | Antiviral Chemistry & Chemotherapy | Fluoroquinolone derivative K-12 active against AZT- and ritonavir-resistant HIV-1 strains and SIV |
-| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | In vitro mechanism | Journal of Virology | Studied protease-dependent processing of HIV-1 Vif protein, relevant to protease inhibitor mechanism |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Animal model construction | Microbes and Infection | Constructed chimeric SHIV bearing HIV-1 protease for in vivo testing of protease inhibitors in macaques |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal ART study | PLoS Pathogens | Highly intensified multidrug ART achieved long-term viral suppression and reduced viral reservoir in SIVmac251-infected macaques |
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | قابلية في المختبر | Antimicrobial Agents and Chemotherapy | ثبط ريتونافير SIVmac239 في المختبر (EC50 ≈13 nM)، مقارنة بقوته ضد فيروس نقص المناعة البشرية من النوع الأول (EC50 ≈25 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | قابلية في المختبر | Antiviral Therapy | تقييم 16 دواء موافق عليه لفيروس نقص المناعة البشرية من النوع الأول، بما في ذلك ريتونافير، ضد سلالات HIV-2 و SIV و SHIV للإرشادات بشأن العلاج/الوقاية بعد التعرض |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | نموذج حيواني (قرود الماكاك) | Journal of Virology | أنتج العلاج المضاد للفيروسات الرباعي انحداراً فيروسياً سريعاً في قرود الماكاك المصابة بـ SIVmac251 |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | نموذج حيواني | mBio | استمر الفيروس البطيء (HIV/SIV) في أنسجة الدماغ على الرغم من العلاج المضاد للفيروسات الفعال، مما يسلط الضوء على خزانات الجهاز العصبي المركزي |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | نموذج حيواني (قرود الماكاك) | PLoS ONE | تم اختبار العلاج المركب المضاد للفيروسات بالإضافة إلى مثبط ديأسيتيلاز الهستون SAHA في قرود الماكاك الرزاس المصابة بـ SIV لاستكشاف الخزانات الكامنة |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | نموذج حيواني (قرود الماكاك) | Journal of Virological Methods | تم تقييم العلاج المضاد للفيروسات الفموي بما في ذلك لوبينافير/ريتونافير لتأثيره على مجموعات فرعية CD8+ T في قرود الماكاك المصابة بـ SHIV89.6P |
+| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | آلية في المختبر | Antiviral Chemistry & Chemotherapy | مشتق فلوروكينولون K-12 نشط ضد سلالات HIV-1 المقاومة لـ AZT وريتونافير و SIV |
+| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | آلية في المختبر | Journal of Virology | درس المعالجة المعتمدة على البروتيز لبروتين Vif لفيروس نقص المناعة البشرية من النوع الأول، ذات الصلة بآلية مثبطات البروتيز |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | بناء نموذج حيواني | Microbes and Infection | تم بناء SHIV كيميري يحمل بروتيز فيروس نقص المناعة البشرية من النوع الأول لاختبار في المختبر لمثبطات البروتيز في قرود الماكاك |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | دراسة علاج مضاد للفيروسات حيواني | PLoS Pathogens | حقق العلاج المضاد للفيروسات شديد الكثافة متعدد الأدوية قمعاً فيروسياً طويل الأمد وتقليل خزان الفيروسات في قرود الماكاك المصابة بـ SIVmac251 |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Ritonavir currently holds no Saudi Arabia market authorizations (0 licenses on file; market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA/SFDA package insert warnings and contraindications are a blocking data gap — DG001 — pending PDF retrieval and parsing; DDI query returned no results.)
+ريتونافير حالياً لا يحتفظ بأي تصاريح تسويقية في المملكة العربية السعودية (0 رخصة في الملف؛ حالة السوق: غير مسوّق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الحزمية للحصول على معلومات السلامة. (تحذيرات/موانع استخدام نشرة TFDA/SFDA الحزمية هي فجوة بيانات محظورة — DG001 — استرجاع وتحليل ملف PDF قيد الانتظار؛ استعلام DDI لم يعيد أي نتائج.)
 
-**Rationale:**
-All three TxGNN-predicted indications for ritonavir lack an actionable human clinical pathway: the top prediction (SIV infection) and rank-2 (feline AIDS) are non-human/veterinary disease models rather than genuine new human indications — the latter's only "supporting" trial is a likely disease-ontology database mismatch — and rank-3 has zero supporting evidence (L5, model score only). No clinical trials support the top indication, and evidence is limited to preclinical/mechanistic and animal-model literature (L4).
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (Blocking gap DG001)
-- Verified mechanism-of-action data from DrugBank (High-priority gap DG002)
-- Re-run TxGNN disease mapping/QC to filter out non-human disease ontologies (SIV, FIV) and database mismatches before further evaluation
-- If a genuine human-indication candidate emerges from re-screening, re-open evaluation at S1
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+جميع المؤشرات الثلاثة المتنبأ بها من TxGNN لريتونافير تفتقر إلى مسار سريري بشري قابل للتنفيذ: التنبؤ الأعلى (عدوى SIV) والمرتبة الثانية (الإيدز لدى القطط) هي نماذج مرض غير بشرية/بيطرية وليست مؤشرات إنسانية جديدة حقيقية — والأخير تجربته الوحيدة "الداعمة" هي على الأرجح عدم تطابق قاعدة بيانات أنطولوجيا المرض — والمرتبة الثالثة لا توجد فيها أدلة داعمة (L5، درجة النموذج فقط). لا توجد تجارب سريرية تدعم المؤشر الأعلى، والأدلة محدودة بالأدبيات السابقة للإكلينيكية/الآلية والحيوانية (L4).
+
+**لكي يتمكن من المتابعة، يلزم ما يلي:**
+- تحذيرات/موانع استخدام نشرة TFDA/SFDA الحزمية (فجوة حظر DG001)
+- بيانات آلية العمل المتحققة من DrugBank (فجوة أولوية عالية DG002)
+- إعادة تشغيل تخطيط مرض TxGNN/ضمان الجودة لتصفية أنطولوجيات المرض غير البشرية (SIV، FIV) وعدم تطابقات قاعدة البيانات قبل إجراء مزيد من التقييم
+- إذا ظهر مرشح مؤشر بشري حقيقي من إعادة الفحص، أعد فتح التقييم في S1
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

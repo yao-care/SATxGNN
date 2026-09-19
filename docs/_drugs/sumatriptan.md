@@ -29,89 +29,84 @@ indication_count: 1
 
 </div>
 
-Using the evidence pack as provided (no external lookups), here is the report:
+# سوماتريبتان: من الصداع النصفي إلى الصداع النصفي مع الهالة الجذعية الدماغية
+
+## ملخص في جملة واحدة
+
+> سوماتريبتان هو ناهض مستقبل 5-HT1B/1D يُستخدم أصلاً لعلاج الصداع النصفي الحاد. يتنبأ نموذج TxGNN برابط محتمل إلى **الصداع النصفي مع الهالة الجذعية الدماغية**، لكن هذا يدعمه حالياً فقط **0 تجارب سريرية** و **18 منشور**، لا أحد منها يدرس هذا النوع الفرعي المحدد مباشرة. بشكل حاسم، الآلية المقترحة للدواء (تضيق الأوعية الدموية القحفية) تعتبر **مخاوف أمان** معروفة - وليس دليلاً داعماً - لهذا الاستطباب المحدد بالذات.
 
 ---
 
-# Sumatriptan: From Migraine to Migraine with Brainstem Aura
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Sumatriptan is a 5-HT1B/1D receptor agonist originally used for acute migraine treatment.
-> The TxGNN model predicts a possible link to **migraine with brainstem aura**, but this is currently supported only by **0 clinical trials** and **18 publications**, none of which directly studies this specific subtype.
-> Critically, the drug's own proposed mechanism (cranial vasoconstriction) is a recognized **safety concern** — not a supportive rationale — for this particular indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acute migraine treatment (without aura / typical aura) — inferred from the mechanistic rationale text; not confirmed by local license data (none on file) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | علاج الصداع النصفي الحاد (بدون هالة / هالة نموذجية) — مستنتج من نص المنطق الآلي؛ لم يتم تأكيده ببيانات الترخيص المحلية (لا توجد بيانات في الملف) |
+| الاستطباب الجديد المتنبأ به | الصداع النصفي مع الهالة الجذعية الدماغية |
+| درجة تنبؤ TxGNN | 99.74% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير معروض |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data (DrugBank MOA field) is marked as a data gap. Based on the mechanistic rationale available in the evidence pack, sumatriptan is a selective 5-HT1B/1D receptor agonist that constricts intracranial blood vessels and inhibits the release of vasoactive neuropeptides from perivascular trigeminal axons — a mechanism well established for typical migraine (with or without classic aura).
+حالياً، بيانات آلية العمل المفصلة (حقل DrugBank MOA) تُعتبر فجوة بيانات. بناءً على المنطق الآلي المتاح في حزمة الدليل، سوماتريبتان هو ناهض مستقبل 5-HT1B/1D انتقائي يقيد الأوعية الدموية داخل الجمجمة ويثبط إطلاق الببتيدات العصبية الوعائية النشطة من المحاور السحائية القريبة من الأوعية - آلية راسخة بشكل جيد لعلاج الصداع النصفي النموذجي (مع أو بدون هالة كلاسيكية).
 
-However, **migraine with brainstem aura** (formerly "basilar-type migraine") involves posterior-circulation/brainstem dysfunction. A vasoconstrictive agent is theoretically capable of *worsening* posterior-circulation ischemia in this subtype, which is why major headache societies (including AHS/IHS) have long listed it as a relative-to-absolute contraindication for triptans.
+ومع ذلك، **الصداع النصفي مع الهالة الجذعية الدماغية** (سابقاً "الصداع النصفي من النوع القاعدي") ينطوي على اختلال وظيفي في الدوران الخلفي والجذع الدماغي. يمكن لعامل مضيق للأوعية الدموية نظرياً أن **يزيد سوءاً** من نقص التروية في الدوران الخلفي في هذا النوع الفرعي، وهذا هو السبب في أن جمعيات الصداع الرئيسية (بما في ذلك AHS/IHS) طالما أدرجته كموانع نسبية إلى مطلقة لاستخدام التريبتانات.
 
-In other words, the mechanistic link here is a **warning signal**, not supportive evidence. The TxGNN prediction reflects a graph-level association between sumatriptan and this disease term, but it does not — and cannot — capture this well-documented directional safety concern. This is the central reason the evidence level is capped at L4 (mechanism-only) and the recommendation defaults to Hold rather than any form of proceed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+بعبارة أخرى، الرابط الآلي هنا هو **إشارة تحذير**، وليس دليل داعم. يعكس التنبؤ TxGNN ارتباطاً على مستوى الرسم البياني بين سوماتريبتان ومصطلح هذا المرض، لكنه لا يستطيع - ولا يمكنه - التقاط مخاوف الأمان الاتجاهية الموثقة جيداً. هذا هو السبب المركزي الذي يجعل مستوى الدليل مقتصراً على L4 (آلية فقط) والتوصية الافتراضية هي الانتظار بدلاً من أي شكل من أشكال المتابعة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | RCT | Phytotherapy Research | Double-blind RCT comparing ginger powder vs. sumatriptan in acute treatment of common migraine (without aura) — not aura-specific |
-| [33567890](https://pubmed.ncbi.nlm.nih.gov/33567890/) | 2021 | RCT | Cephalalgia | Early sumatriptan treatment tested for preventing PACAP38-induced migraine attacks |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review/Guideline | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies, including triptans |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohort/Comparative | Neurology | Found reduced efficacy of sumatriptan in migraine **with aura** compared to migraine without aura |
-| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | RCT (double-blind, placebo-controlled) | Cephalalgia | Assessed oral sumatriptan (200mg) efficacy specifically in acute migraine **with aura** |
-| [31135819](https://pubmed.ncbi.nlm.nih.gov/31135819/) | 2019 | Mechanistic study | JAMA Neurology | Investigated whether sumatriptan crosses into CNS and binds central 5-HT1B receptors during an attack |
-| [21469920](https://pubmed.ncbi.nlm.nih.gov/21469920/) | 2011 | Regulatory note | Expert Rev Neurother | Needle-free subcutaneous sumatriptan approved for migraine with or without aura, and cluster headache |
-| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Review | Cephalalgia | Critical review of clinical experience managing migraine and cluster headache with sumatriptan |
-| [11801805](https://pubmed.ncbi.nlm.nih.gov/11801805/) | 2001 | Review/Case | Clinical Neuropharmacology | Case-based review of a patient with classic migraine with visual aura |
-| [7816788](https://pubmed.ncbi.nlm.nih.gov/7816788/) | 1994 | Review | Pharmacology & Toxicology | Diagnostic criteria and pathophysiology of migraine with and without aura |
-
-*Note: none of the 18 retrieved publications directly studies sumatriptan in "migraine with brainstem aura" specifically; the most relevant items (25841032, 1313746) address migraine with aura broadly, and one (25841032) reports **reduced** triptan efficacy in aura patients.*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Safety Considerations
+## دليل الأدب
 
-Please refer to the package insert for safety information (key warnings, contraindications, and drug interaction data are all currently unavailable — flagged as a **Blocking** data gap, DG001).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | تجربة معشاة مضبوطة | Phytotherapy Research | دراسة عشوائية معشاة مقارنة بين مسحوق الزنجبيل مقابل سوماتريبتان في العلاج الحاد للصداع النصفي العام (بدون هالة) - غير متعلقة بالهالة الجذعية الدماغية |
+| [33567890](https://pubmed.ncbi.nlm.nih.gov/33567890/) | 2021 | تجربة معشاة مضبوطة | Cephalalgia | اختبر العلاج المبكر بسوماتريبتان لمنع هجمات الصداع النصفي المستحثة بـ PACAP38 |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | مراجعة/إرشادات | Headache | تقييم جمعية الصداع الأمريكية للدليل على العقاقير الحادة للصداع النصفي، بما في ذلك التريبتانات |
+| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | دراسة بالمجموعات/مقارنة | Neurology | وجدت فعالية مخفضة من سوماتريبتان في الصداع النصفي **مع هالة** مقارنة بالصداع النصفي بدون هالة |
+| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | تجربة معشاة مضبوطة بالدواء الوهمي | Cephalalgia | قيّمت فعالية سوماتريبتان عن طريق الفم (200 ملغ) على وجه التحديد في الصداع النصفي الحاد **مع هالة** |
+| [31135819](https://pubmed.ncbi.nlm.nih.gov/31135819/) | 2019 | دراسة آلية | JAMA Neurology | بحثت ما إذا كان سوماتريبتان يعبر إلى الجهاز العصبي المركزي ويرتبط بمستقبلات 5-HT1B المركزية أثناء النوبة |
+| [21469920](https://pubmed.ncbi.nlm.nih.gov/21469920/) | 2011 | ملاحظة تنظيمية | Expert Rev Neurother | موافقة على سوماتريبتان تحت الجلد بدون إبرة للصداع النصفي مع أو بدون هالة، والصداع العنقودي |
+| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | مراجعة | Cephalalgia | مراجعة حاسمة للخبرة السريرية في إدارة الصداع النصفي والصداع العنقودي مع سوماتريبتان |
+| [11801805](https://pubmed.ncbi.nlm.nih.gov/11801805/) | 2001 | مراجعة/حالة | Clinical Neuropharmacology | مراجعة حالات لمريض مصاب بالصداع النصفي الكلاسيكي مع الهالة البصرية |
+| [7816788](https://pubmed.ncbi.nlm.nih.gov/7816788/) | 1994 | مراجعة | Pharmacology & Toxicology | معايير التشخيص وفيزيولوجيا الصداع النصفي مع وبدون هالة |
 
-**Mechanism-based caution (from repurposing rationale, not formal safety data):** Vasoconstrictive 5-HT1 agonists are conventionally considered contraindicated or requiring caution in patients with brainstem/basilar-type aura due to theoretical risk of worsening posterior-circulation ischemia. This should be explicitly verified against the official package insert before any further evaluation.
+*ملاحظة: لا أحد من المنشورات الـ 18 المسترجعة يدرس سوماتريبتان في "الصداع النصفي مع الهالة الجذعية الدماغية" على وجه التحديد؛ العناصر الأكثر صلة (25841032، 1313746) تتناول الصداع النصفي مع الهالة بشكل عام، وواحدة (25841032) تبلغ عن فعالية **مخفضة** من التريبتانات في مرضى الهالة.*
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى ملحق المنتج للحصول على معلومات السلامة (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية كلها غير متاحة حالياً - تم وضع علامة عليها كفجوة بيانات **محظورة**، DG001).
 
-**Rationale:**
-- No clinical trials or disease-specific literature support this exact indication, evidence is mechanism-level only (L4), and the proposed mechanism itself raises a plausible safety concern (posterior-circulation vasoconstriction) rather than supporting efficacy — combined with a Blocking data gap on TFDA/SFDA warnings and contraindications, this candidate cannot pass initial (S1) safety screening.
+**تحذير قائم على الآلية (من منطق إعادة الاستخدام، وليس من بيانات السلامة الرسمية):** تُعتبر ناهضات 5-HT1 المقيدة للأوعية الدموية بشكل تقليدي موانع أو تتطلب حذراً في المرضى الذين يعانون من هالة جذعية دماغية / صداع من نوع القاعدي نظراً للخطر النظري لتفاقم نقص التروية في الدوران الخلفي. يجب التحقق صراحة من هذا مقابل ملحق المنتج الرسمي قبل أي تقييم إضافي.
 
-**To proceed, the following is needed:**
-- Official package insert data — key warnings and contraindications (DG001, Blocking)
-- Confirmed drug-drug interaction (DDI) profile
-- Confirmed original MOA and approved indication text from DrugBank/regulatory source (DG002)
-- Targeted literature or trial search on triptan safety specifically in brainstem-aura/basilar-type migraine populations, given the known theoretical contraindication
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المنطق:**
+- لا توجد تجارب سريرية أو أدب متخصص بالمرض يدعم هذا الاستطباب المحدد، الدليل على مستوى الآلية فقط (L4)، والآلية المقترحة نفسها تثير مخاوف أمان معقولة (تضيق الأوعية الدموية في الدوران الخلفي) بدلاً من دعم الفعالية - مدمجة مع فجوة بيانات محظورة حول تحذيرات TFDA/SFDA والموانع، هذا المرشح لا يمكنه اجتياز فحص السلامة الأولي (S1).
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات ملحق المنتج الرسمي - التحذيرات الرئيسية والموانع (DG001، محظور)
+- ملف التفاعلات الدوائية (DDI) المؤكد
+- نص MOA والاستطباب الموافق عليه الأصلي المؤكد من DrugBank/المصدر التنظيمي (DG002)
+- بحث موجه عن الأدب أو التجارب حول سلامة التريبتانات على وجه التحديد في مجموعات الصداع النصفي مع الهالة الجذعية الدماغية / من النوع القاعدي، نظراً للموانع النظرية المعروفة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

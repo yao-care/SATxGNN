@@ -29,72 +29,73 @@ indication_count: 2
 
 </div>
 
-# Pentoxyverine: From Cough Suppression to Acute Laryngopharyngitis
+# pentoxyverine: من تثبيط السعال إلى التهاب البلعوم والحنجرة الحاد
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Pentoxyverine is a centrally-acting, non-opioid antitussive traditionally used to relieve cough associated with the common cold and upper respiratory tract infections.
-> The TxGNN model predicts it may be effective for **Acute Laryngopharyngitis** (and, as a secondary candidate, **Nasal Cavity Disease**),
-> but currently **no clinical trials and no published literature** support either direction — the signal is model-prediction only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in structured regulatory data (no licenses on file); per known pharmacology, used symptomatically for cough associated with common cold/upper respiratory infection |
-| Predicted New Indication | Acute Laryngopharyngitis |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> pentoxyverine هو عامل مثبط للسعال يعمل بشكل مركزي وغير أفيوني، يُستخدم تقليدياً لتخفيف السعال المرتبط بالزكام والتهابات الجهاز التنفسي العلوي.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب البلعوم والحنجرة الحاد** (وكمرشح ثانوي، **أمراض تجويف الأنف**)،
+> لكن حالياً **لا توجد تجارب سريرية ولا أدلة منشورة** تدعم أياً من الاتجاهين — الإشارة من التنبؤ بالنموذج فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacological information, pentoxyverine is a centrally-acting, non-opioid cough suppressant with weak local-anesthetic and anticholinergic/antispasmodic properties, long used for symptomatic relief of cough in colds and upper respiratory tract infections.
-
-Acute laryngopharyngitis commonly presents with cough and mucosal irritation, which gives a plausible — though indirect — pharmacological link to pentoxyverine's cough-reflex suppression and local-anesthetic action. The second candidate, nasal cavity disease, has a weaker rationale: any effect would rely on the drug's mild anticholinergic action reducing secretions, which is speculative rather than mechanistically direct.
-
-Both links are theoretical inferences from general drug class knowledge, not findings from the evidence pack itself. No clinical trials, literature, or original-indication/MOA data are available to cross-validate either connection, and the TxGNN score (0.996) reflects model prediction strength only — it is not clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مسجل في البيانات التنظيمية المنظمة (لا توجد تراخيص في الملف)؛ بناءً على الصيدلة المعروفة، يُستخدم بشكل عرضي لتخفيف السعال المرتبط بالزكام/التهاب الجهاز التنفسي العلوي |
+| المؤشر الجديد المتنبأ به | التهاب البلعوم والحنجرة الحاد |
+| درجة التنبؤ TxGNN | 99.59% |
+| مستوى الدليل | L5 |
+| حالة السوق التايوانية | غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل المفصلة غير متاحة (تم وضع علامة عليها كفجوة بيانات عالية الخطورة). بناءً على المعلومات الصيدلية المعروفة، pentoxyverine هو عامل مثبط للسعال يعمل بشكل مركزي وغير أفيوني مع خصائص مخدرة محلية ضعيفة وخصائص مضادة للكولين/مضادة للتشنج، استُخدم لفترة طويلة لتخفيف السعال بشكل عرضي في الزكام والتهابات الجهاز التنفسي العلوي.
 
----
+التهاب البلعوم والحنجرة الحاد يظهر عادة مع السعال وتهيج الغشاء المخاطي، مما يعطي ارتباطاً صيدلولوجياً معقولاً — وإن كان غير مباشر — لتثبيط منعكس السعال بواسطة pentoxyverine وعمله المخدر محلياً. المرشح الثاني، أمراض تجويف الأنف، له أساس منطقي أضعف: أي تأثير سيعتمد على العمل المضاد للكولين الضعيف للدواء في تقليل الإفرازات، وهو ما هو تخميني بدلاً من كونه مباشراً من الناحية الآلية.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are marked as a Blocking data gap — this must be resolved before any S1 safety review can proceed.)*
+كلا الارتباطين نظريان ينتجان من معرفة عامة بفئة الأدوية، وليسا نتائج من حزمة الأدلة نفسها. لا توجد تجارب سريرية أو أدبيات أو بيانات الاستخدام الأصلي/آلية العمل متاحة للتحقق الصليبي من أي من الارتباطين، وتعكس درجة TxGNN (0.996) قوة التنبؤ بالنموذج فقط — وليست دليلاً سريرياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-**Rationale:**
-- The prediction rests entirely on TxGNN model output (L5, no clinical trials or literature), and the drug is not currently marketed in Taiwan (0 authorizations) with a Blocking gap on TFDA safety labeling — there is no basis yet for S1 safety screening or clinical prioritization.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — required to clear the Blocking gap before any safety evaluation
-- Confirmed mechanism of action (MOA) data via DrugBank API
-- Confirmed original indication(s) from a regulatory source (current summary is based on general pharmacology, not license records)
-- Any clinical trial or literature evidence specific to acute laryngopharyngitis or nasal cavity disease, since none currently exist
+## دليل الأدبيات
+
+لا توجد حالياً أي أدبيات ذات صلة متاحة
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات ونشرة TFDA الخاصة بموانع الاستخدام مسجلة كفجوة بيانات حجزية — يجب حل هذه المشكلة قبل أن يتمكن أي استعراض سلامة S1 من المتابعة.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+- يقتصر التنبؤ بالكامل على مخرجات نموذج TxGNN (L5، لا توجد تجارب سريرية أو أدبيات)، والدواء غير مسوق حالياً في تايوان (0 موافقات) مع فجوة بيانات حجزية بشأن تحذيرات السلامة من TFDA — لا يوجد أساس حتى الآن لفحص السلامة S1 أو تحديد الأولويات السريرية.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA (التحذيرات، موانع الاستخدام) — مطلوبة لإزالة الفجوة الحجزية قبل أي تقييم سلامة
+- تأكيد بيانات آلية العمل عبر DrugBank API
+- تأكيد المؤشر(ات) الأصلي(ة) من مصدر تنظيمي (الملخص الحالي مستند إلى الصيدلة العامة، وليس سجلات الترخيص)
+- أي دليل تجربة سريرية أو أدب متخصص لالتهاب البلعوم والحنجرة الحاد أو أمراض تجويف الأنف، حيث لا يوجد حالياً أي منها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,67 +29,68 @@ indication_count: 2
 
 </div>
 
-# Potassium Iodide: From Unlisted Indication (Not Marketed in Taiwan) to Nasal Cavity Disease
+# يوديد البوتاسيوم: من استطباب غير مدرج (غير مسوّق في تايوان) إلى مرض تجويف الأنف
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Potassium iodide (KI, DrugBank DB06715) is not currently marketed in Taiwan and has no approved indication on record in this evidence pack.
-> The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **0 clinical trials** and **4 case-report publications**
-> (mostly veterinary, one human) currently supporting this direction.
+> يوديد البوتاسيوم (KI, DrugBank DB06715) غير مسوّق حالياً في تايوان ولا توجد استطبابات معتمدة مسجلة في مجموعة الأدلة هذه.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **مرض تجويف الأنف**، مع **0 تجربة سريرية** و **4 منشورات تقارير حالات**
+> (معظمها بيطري، واحد بشري) تدعم هذا الاتجاه حالياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not on record — potassium iodide is not currently marketed in Taiwan |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير مسجل — يوديد البوتاسيوم غير مسوّق حالياً في تايوان |
+| الاستطباب الجديد المتنبأ به | مرض تجويف الأنف |
+| درجة التنبؤ بـ TxGNN | 99.95% |
+| مستوى الدليل | L4 |
+| حالة السوق في تايوان | غير مسوّق (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | Hold |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action (MOA) data for potassium iodide is not available in this evidence pack, and no original indication or Taiwan marketing history could be retrieved either — KI currently holds zero authorizations in Taiwan.
+بيانات آلية العمل (MOA) المفصلة ليوديد البوتاسيوم غير متاحة في مجموعة الأدلة هذه، كما لم يتمكن من استرجاع أي استطباب أصلي أو سجل تسويق تايواني — يحتفظ KI حالياً بصفر تفويضات في تايوان.
 
-Based on the literature that was found, KI has known antifungal and anti-oomycete activity, thought to work by enhancing neutrophil fungicidal activity, disrupting pathogen cell membranes, and immunomodulation. All four supporting publications describe successful KI (or a closely related iodide salt) treatment of fungal/oomycete infections localized to the nasal cavity: rhinofacial pythiosis in sheep, mycotic rhinitis (*Aspergillus fumigatus*) in a horse, *Pseudallescheria boydii* nasal infection in a horse, and nasofacial zygomycosis in a human patient. This gives a mechanistically coherent link between KI's antifungal activity and the TxGNN-predicted indication.
+بناءً على الأدبيات التي تم العثور عليها، يمتلك KI نشاطاً معروفاً مضاداً للفطريات ومضاداً لـ oomycete، يُعتقد أنه يعمل من خلال تعزيز النشاط الفطري للخلايا العدلة، وتعطيل أغشية خلايا الممرضات، والتعديل المناعي. تصف جميع المنشورات الأربعة الداعمة معالجة ناجحة بـ KI (أو ملح iodide ذي صلة وثيقة) لعدوى فطرية/oomycete محلية في تجويف الأنف: داء rhinofacial pythiosis في الأغنام، التهاب الأنف الفطري (*Aspergillus fumigatus*) في الحصان، عدوى الأنف *Pseudallescheria boydii* في الحصان، وداء zygomycosis الأنفي في مريض بشري. يعطي هذا ارتباطاً متماسكاً آلياً بين النشاط المضاد للفطريات KI والاستطباب المتنبأ به بـ TxGNN.
 
-However, "nasal cavity disease" is a broad diagnostic category, while the actual evidence is narrowly confined to specific fungal/oomycete infection subtypes — three of four cases are veterinary rather than human, and one case used sodium iodide rather than potassium iodide. The prediction should be read as applying to fungal/oomycete nasal infections specifically, not to nasal cavity disease in general.
+ومع ذلك، فإن "مرض تجويف الأنف" هو فئة تشخيصية واسعة، بينما الدليل الفعلي محصور بشكل ضيق في أنواع فرعية محددة من عدوى فطرية/oomycete — ثلاث من أربع حالات بيطرية وليست بشرية، وإحدى الحالات استخدمت sodium iodide بدلاً من يوديد البوتاسيوم. يجب قراءة التنبؤ على أنه ينطبق على عدوى الأنف الفطرية/oomycete على وجه التحديد، وليس على مرض تجويف الأنف بشكل عام.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case report (veterinary) | Veterinary Research Communications | Oral potassium iodide combined with topical clotrimazole successfully treated *Aspergillus fumigatus* mycotic rhinitis in a horse with nasal obstruction, discharge, and bleeding |
-| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case report (veterinary) | Journal de Mycologie Médicale | KI treatment successfully resolved rhinofacial pythiosis (*Pythium insidiosum*, an oomycete) in sheep, presenting with nasal masses and facial deformity |
-| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case report (veterinary) | Journal of the American Veterinary Medical Association | Horse with *Pseudallescheria boydii* nasal cavity infection treated with intranasal miconazole plus IV sodium iodide (related iodide compound, not potassium iodide) |
-| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case report (human, Portuguese) | Revista do Instituto de Medicina Tropical de São Paulo | Human case of nasofacial zygomycosis (mucormycosis) that responded rapidly to potassium iodide therapy — the only human case among the four |
+| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | تقرير حالة (بيطري) | Veterinary Research Communications | نجح يوديد البوتاسيوم الفموي مع clotrimazole الموضعي في معالجة التهاب الأنف الفطري *Aspergillus fumigatus* في الحصان مع انسداد أنفي وإفرازات ونزيف |
+| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | تقرير حالة (بيطري) | Journal de Mycologie Médicale | عالج علاج KI بنجاح داء rhinofacial pythiosis (*Pythium insidiosum*، oomycete) في الأغنام، يظهر مع كتل أنفية وتشوه وجهي |
+| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | تقرير حالة (بيطري) | Journal of the American Veterinary Medical Association | حصان مصاب بعدوى تجويف الأنف *Pseudallescheria boydii* تم علاجه بـ miconazole داخل الأنف بالإضافة إلى sodium iodide الوريدي (مركب iodide ذو صلة، ليس يوديد البوتاسيوم) |
+| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | تقرير حالة (بشري، برتغالي) | Revista do Instituto de Medicina Tropical de São Paulo | حالة بشرية من داء zygomycosis الأنفي (داء الغشاء المخاطي) استجابت بسرعة لعلاج يوديد البوتاسيوم — الحالة البشرية الوحيدة من بين الأربع |
 
-## Taiwan Market Information
+## معلومات السوق في تايوان
 
-Potassium iodide is not currently marketed in Taiwan; no authorization records are available in this evidence pack.
+يوديد البوتاسيوم غير مسوّق حالياً في تايوان؛ لا توجد سجلات تفويض متاحة في مجموعة الأدلة هذه.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات الأمان.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-Evidence is limited to four case reports (L4, mostly veterinary, one using a related but different iodide salt) with no clinical trials, and potassium iodide is not currently marketed in Taiwan. Critically, TFDA package insert data (warnings/contraindications) is a **Blocking** data gap that prevents any S1 safety pre-assessment.
+**المنطق:**
+الدليل محصور بأربع تقارير حالات (L4، معظمها بيطري، واحد يستخدم ملح iodide مرتبط لكن مختلف) بدون تجارب سريرية، ويوديد البوتاسيوم غير مسوّق حالياً في تايوان. من حيث الأهمية، بيانات نشرة الدواء TFDA (التحذيرات/موانع الاستطباب) هي **فجوة بيانات حاجزة** تمنع أي تقييم سلامة سابق S1.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings & contraindications (Blocking gap — required before S1 safety review)
-- Confirmed mechanism of action (MOA) data from DrugBank
-- Original approved indication(s) and any prior Taiwan regulatory history
-- Human clinical evidence beyond isolated case reports, ideally targeting fungal/oomycete nasal infections specifically rather than "nasal cavity disease" broadly
+**للمتابعة، يلزم ما يلي:**
+- نشرة الدواء TFDA / التحذيرات وموانع الاستطباب (فجوة حاجزة — مطلوبة قبل مراجعة السلامة S1)
+- بيانات آلية العمل (MOA) المؤكدة من DrugBank
+- الاستطباب(ات) المعتمد(ة) الأصلية وأي سجل تنظيمي تايواني سابق
+- دليل سريري بشري يتجاوز تقارير الحالات المعزولة، يستهدف بشكل مثالي عدوى الأنف الفطرية/oomycete على وجه التحديد بدلاً من "مرض تجويف الأنف" بشكل عام
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

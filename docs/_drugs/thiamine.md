@@ -29,82 +29,83 @@ indication_count: 4
 
 </div>
 
-# Thiamine: From Thiamine Deficiency to Hyperthyroidism
+# الثيامين: من نقص الثيامين إلى فرط نشاط الغدة الدرقية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Thiamine (Vitamin B1) is originally used to treat thiamine deficiency states such as beriberi and Wernicke's encephalopathy. The TxGNN model predicts it may also have supportive benefit in **Hyperthyroidism**, with **1 clinical trial** and **20 publications** currently associated with this direction — though most of the literature is case-report level rather than controlled trial evidence.
+يُستخدم الثيامين (فيتامين B1) في الأصل لعلاج حالات نقص الثيامين مثل البريبيري واعتلال فيرنيك الدماغي. يتنبأ نموذج TxGNN بأنه قد يكون له فائدة داعمة أيضاً في **فرط نشاط الغدة الدرقية**، مع ارتباط **تجربة سريرية واحدة** و**20 منشور** بهذا الاتجاه حالياً — على الرغم من أن معظم الأدبيات على مستوى تقارير الحالات وليس أدلة تجارب مضبوطة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Thiamine (Vitamin B1) deficiency (e.g., beriberi, Wernicke's encephalopathy) — no formal approved-indication text available in this evidence pack |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | نقص الثيامين (فيتامين B1) (مثل البريبيري واعتلال فيرنيك الدماغي) — لا توجد نصوص مؤشر معتمدة رسمية متاحة في هذه الحقيبة الإثباتية |
+| المؤشر الجديد المتنبأ به | فرط نشاط الغدة الدرقية |
+| درجة تنبؤ TxGNN | 99.44% |
+| مستوى الإثبات | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, thiamine is an essential cofactor for enzymes central to carbohydrate and energy metabolism (e.g., pyruvate dehydrogenase, α-ketoglutarate dehydrogenase, transketolase). Deficiency impairs cellular energy production, with the highest clinical impact on tissues with high metabolic demand — namely cardiac and neural tissue.
+حالياً، بيانات آلية العمل المفصلة غير متاحة. بناءً على الصيدلة المعروفة، الثيامين هو عامل مساعد أساسي للإنزيمات المركزية لعملية الأيض الكربوهيدراتي والطاقة (مثل pyruvate dehydrogenase و α-ketoglutarate dehydrogenase و transketolase). يضعف النقص إنتاج الطاقة الخلوية، مع أعلى تأثير سريري على الأنسجة ذات الطلب الأيضي العالي — أي أنسجة القلب والعصب.
 
-Hyperthyroidism (thyrotoxicosis) creates a hypermetabolic state that increases tissue thiamine turnover and utilization, predisposing patients to relative or absolute thiamine deficiency even without classic risk factors like alcoholism or malnutrition. This relationship is well documented in case literature: thyrotoxic patients — particularly those with hyperemesis gravidarum-associated gestational hyperthyroidism — have developed Wernicke's encephalopathy and high-output cardiac failure ("wet beriberi") attributable to thiamine depletion.
+فرط نشاط الغدة الدرقية (الحالة الدرقية السمية) يخلق حالة فرط أيضية تزيد من معدل استهلاك واستخدام الثيامين في الأنسجة، مما يجعل المرضى عرضة للنقص النسبي أو المطلق للثيامين حتى بدون عوامل الخطر الكلاسيكية مثل الكحول أو سوء التغذية. هذه العلاقة موثقة بشكل جيد في أدبيات الحالات: المرضى الذين يعانون من التسمم الدرقي — خاصة أولئك الذين يعانون من فرط نشاط الغدة الدرقية الحملي المرتبط بالقيء الحملي الشديد — قد طوروا اعتلال فيرنيك وقصور القلب عالي الإنتاج ("بريبيري رطب") يُعزى إلى استنزاف الثيامين.
 
-Mechanistically, this suggests thiamine's plausible role is **adjunctive/supportive** rather than disease-modifying: it would not treat the underlying thyroid overactivity but could correct or prevent the metabolic and neurological complications caused by it. This is consistent with the design of the one registered pilot trial (NCT02767245), which evaluated thiamine deficiency prevalence and cardiovascular function improvement in severe hyperthyroidism, rather than testing thiamine as a treatment for hyperthyroidism itself.
+من حيث الآلية الدقيقة، يشير هذا إلى أن الدور المحتمل للثيامين هو **داعم/مساعد** بدلاً من تعديل المرض: لن يعالج فرط نشاط الغدة الدرقية الأساسي ولكن يمكنه تصحيح أو منع المضاعفات الأيضية والعصبية الناجمة عنه. هذا متسق مع تصميم التجربة الطيارة المسجلة الوحيدة (NCT02767245)، التي قيّمت انتشار نقص الثيامين وتحسن وظيفة القلب والأوعية الدموية بعد مكملات الثيامين لدى المرضى الذين يعانون من فرط نشاط الغدة الدرقية الشديد، بدلاً من اختبار الثيامين كعلاج لفرط نشاط الغدة الدرقية نفسه.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | Phase NA | Completed | 12 | Pilot study evaluating prevalence of thiamine deficiency and cardiovascular function improvement after thiamine supplementation in patients with severe hyperthyroidism (thyrotoxicosis increases thiamine utilization). |
+| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | المرحلة غير محددة | مكتملة | 12 | دراسة تجريبية تقيّم انتشار نقص الثيامين وتحسن وظيفة القلب والأوعية الدموية بعد مكملات الثيامين لدى المرضى الذين يعانون من فرط نشاط الغدة الدرقية الشديد (يزيد فرط نشاط الدرقية من استخدام الثيامين). |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | Review | Critical Care Nursing Clinics of North America | Reviews high-output heart failure caused by thyrotoxicosis and beriberi, both profoundly affecting cardiovascular hemodynamics. |
-| [7416185](https://pubmed.ncbi.nlm.nih.gov/7416185/) | 1980 | Case series (n=23) | American Journal of Medicine | 23 Japanese cases of beriberi heart disease, illustrating clinical presentation of thiamine deficiency-related cardiac disease. |
-| [9704251](https://pubmed.ncbi.nlm.nih.gov/9704251/) | 1998 | Review | Drug Safety | Reviews treatment of nausea/vomiting in pregnancy, a setting where hyperemesis and thyrotoxicosis can precipitate thiamine deficiency. |
-| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | Case report | Journal of General Internal Medicine | Thyrotoxicosis-associated Wernicke's encephalopathy, reversible with thiamine. |
-| [18369677](https://pubmed.ncbi.nlm.nih.gov/18369677/) | 2008 | Case report/Correspondence | Journal of General Internal Medicine | Further discussion of thyrotoxicosis-associated Wernicke's encephalopathy. |
-| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | Case report | Cureus | Wernicke's encephalopathy associated with transient gestational hyperthyroidism and hyperemesis gravidarum. |
-| [25148818](https://pubmed.ncbi.nlm.nih.gov/25148818/) | 2014 | Case report | Endocrine Practice | Gestational thyrotoxicosis associated with Wernicke's encephalopathy. |
-| [36593922](https://pubmed.ncbi.nlm.nih.gov/36593922/) | 2023 | Case report | Radiology Case Reports | Uncommon presentation of Wernicke-Korsakoff syndrome in a pregnant patient with pre-gestational hyperthyroidism. |
-| [34017792](https://pubmed.ncbi.nlm.nih.gov/34017792/) | 2021 | Case report | Journal of Family Medicine and Primary Care | Seizure as the presenting manifestation of Wernicke's encephalopathy induced by hyperemesis gravidarum. |
-| [22436368](https://pubmed.ncbi.nlm.nih.gov/22436368/) | 2013 | Case report | Neurologia | Wernicke's encephalopathy secondary to hyperthyroidism and ingestion of thiaminase-rich products. |
+| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | مراجعة | Critical Care Nursing Clinics of North America | تستعرض قصور القلب عالي الإنتاج الناجم عن التسمم الدرقي والبريبيري، كلاهما يؤثر بشكل عميق على ديناميكا الدورة الدموية القلبية. |
+| [7416185](https://pubmed.ncbi.nlm.nih.gov/7416185/) | 1980 | سلسلة حالات (n=23) | American Journal of Medicine | 23 حالة يابانية من مرض قلب البريبيري، توضح الإظهار السريري لأمراض القلب المرتبطة بنقص الثيامين. |
+| [9704251](https://pubmed.ncbi.nlm.nih.gov/9704251/) | 1998 | مراجعة | Drug Safety | تستعرض علاج الغثيان والقيء في الحمل، وهي حالة يمكن فيها لفرط القيء وفرط نشاط الدرقية أن يؤديا إلى نقص الثيامين. |
+| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | تقرير حالة | Journal of General Internal Medicine | اعتلال فيرنيك المرتبط بفرط نشاط الغدة الدرقية، قابل للعكس مع الثيامين. |
+| [18369677](https://pubmed.ncbi.nlm.nih.gov/18369677/) | 2008 | تقرير حالة/مراسلة | Journal of General Internal Medicine | نقاش إضافي حول اعتلال فيرنيك المرتبط بفرط نشاط الغدة الدرقية. |
+| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | تقرير حالة | Cureus | اعتلال فيرنيك المرتبط بفرط نشاط الغدة الدرقية الحملي العابر والقيء الحملي الشديد. |
+| [25148818](https://pubmed.ncbi.nlm.nih.gov/25148818/) | 2014 | تقرير حالة | Endocrine Practice | التسمم الدرقي الحملي المرتبط باعتلال فيرنيك. |
+| [36593922](https://pubmed.ncbi.nlm.nih.gov/36593922/) | 2023 | تقرير حالة | Radiology Case Reports | عرض غير شائع لمتلازمة فيرنيك-كورساكوف في مريضة حامل مصابة بفرط نشاط الغدة الدرقية السابق للحمل. |
+| [34017792](https://pubmed.ncbi.nlm.nih.gov/34017792/) | 2021 | تقرير حالة | Journal of Family Medicine and Primary Care | النوبة الصرعية كمظهر أولي لاعتلال فيرنيك الناجم عن القيء الحملي الشديد. |
+| [22436368](https://pubmed.ncbi.nlm.nih.gov/22436368/) | 2013 | تقرير حالة | Neurologia | اعتلال فيرنيك الثانوي لفرط نشاط الغدة الدرقية وتناول المنتجات الغنية بـ thiaminase. |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Evidence supporting thiamine use in hyperthyroidism relies on a single small, non-randomized pilot trial (n=12) and predominantly case-report-level literature — no RCT confirms clinical benefit, and the mechanistic rationale supports thiamine only as adjunctive/supportive therapy for deficiency-related complications, not as a treatment for hyperthyroidism itself. In addition, TFDA safety data (warnings, contraindications) is a **blocking** data gap (DG001) that prevents completion of the S1 safety review, and thiamine is not currently marketed in Saudi Arabia.
+**الأساس المنطقي:**
+الأدلة الداعمة لاستخدام الثيامين في فرط نشاط الغدة الدرقية تعتمد على تجربة طيارة صغيرة وحيدة وغير عشوائية (n=12) وأدبيات تقارير الحالات في المقام الأول — لا توجد تجربة عشوائية محكومة تؤكد الفائدة السريرية، والأساس المنطقي الآلي يدعم الثيامين فقط كعلاج داعم/مساعد لمضاعفات النقص، وليس كعلاج لفرط نشاط الغدة الدرقية نفسه. بالإضافة إلى ذلك، بيانات سلامة TFDA (التحذيرات والموانع) هي **فجوة بيانات محجوبة** (DG001) تمنع إكمال مراجعة السلامة S1، والثيامين لم يتم تسويقه حالياً في المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
-- TFDA package insert / full prescribing information (warnings, contraindications) — blocking gap DG001
-- Confirmed mechanism of action documentation — DG002
-- Controlled (ideally randomized) trials evaluating thiamine supplementation outcomes specifically in thyrotoxic/hyperthyroid patients, beyond the single completed pilot study
-- Drug-drug interaction data (currently not found)
-- Confirmation of Saudi Arabia market authorization pathway, given current "not marketed" status
+**للمتابعة، يلزم ما يلي:**
+- نشرة المعلومات TFDA / معلومات وصفية كاملة (التحذيرات والموانع) — فجوة محجوبة DG001
+- توثيق آلية العمل المؤكدة — DG002
+- التجارب المضبوطة (يفضل عشوائية) التي تقيّم نتائج مكملات الثيامين على وجه التحديد لدى المرضى الذين يعانون من فرط نشاط الدرقية/التسمم الدرقي، بما يتجاوز التجربة الطيارة المكتملة الوحيدة
+- بيانات التفاعلات الدوائية (لم يتم العثور عليها حالياً)
+- تأكيد مسار التفويض بالسوق في المملكة العربية السعودية، نظراً للحالة الحالية "غير مسوقة"
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

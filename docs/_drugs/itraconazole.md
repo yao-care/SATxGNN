@@ -29,66 +29,67 @@ indication_count: 1
 
 </div>
 
-# Itraconazole: From Systemic Fungal Infections to Pneumocystosis
+# Itraconazole: من العدوى الفطرية الجهازية إلى الالتهاب الرئوي بالمتكيسات
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Itraconazole is a triazole antifungal agent, pharmacologically used to treat systemic fungal infections (specific approved-indication text is not available in this evidence pack, and the drug is not currently marketed in Saudi Arabia). The TxGNN model predicts a possible association with **Pneumocystosis**, but the underlying evidence base is thin — **0 clinical trials** and **20 publications**, none of which directly test itraconazole against Pneumocystis jirovecii/carinii — and the drug's own mechanism argues against efficacy in this disease.
+Itraconazole هو عامل مضاد للفطريات من فئة التريازول، يُستخدم دوائياً في علاج العدوى الفطرية الجهازية (نص المؤشر المعتمد المحدد غير متاح في مجموعة الأدلة هذه، والدواء غير مسوق حالياً في المملكة العربية السعودية). يتنبأ نموذج TxGNN بارتباط محتمل مع **الالتهاب الرئوي بالمتكيسات**، لكن قاعدة الأدلة الأساسية ضعيفة جداً — **0 تجارب سريرية** و**20 منشورة**، ولا توجد منها تختبر Itraconazole مباشرة ضد Pneumocystis jirovecii/carinii — والآلية الخاصة به تعارض الفعالية في هذا المرض.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Systemic fungal infections (antifungal agent class; specific indication text not available in evidence pack — no Saudi license records exist) |
-| Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | العدوى الفطرية الجهازية (فئة الأدوية المضادة للفطريات؛ نص المؤشر المحدد غير متاح في مجموعة الأدلة — لا توجد سجلات ترخيص سعودية) |
+| المؤشر الجديد المتنبأ به | الالتهاب الرئوي بالمتكيسات |
+| درجة توقع TxGNN | 99.34% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Itraconazole is an azole-class antifungal. Its mechanism of action, as captured in the repurposing rationale, is inhibition of lanosterol 14α-demethylase, which blocks ergosterol biosynthesis in the fungal cell membrane. This mechanism underlies its efficacy against organisms such as Aspergillus, Candida, and Histoplasma species.
+Itraconazole هو مضاد فطري من فئة الأزولات. تعتمد آلية عمله، كما انعكست في الأساس المنطقي لإعادة الاستخدام، على تثبيط لانوستيرول 14α-ديميثيلاز، مما يحجب بيوسينتيز الإرجوستيرول في غشاء الخلية الفطري. تكمن هذه الآلية وراء فعاليته ضد كائنات مثل أنواع Aspergillus و Candida و Histoplasma.
 
-Pneumocystis jirovecii (the causative organism of pneumocystosis), however, has an atypical cell membrane that contains cholesterol rather than ergosterol, and it lacks the azole drug target altogether. This is consistent with well-established clinical practice: azoles, including itraconazole, are not first-line or standard therapy for Pneumocystis pneumonia — that role belongs to trimethoprim-sulfamethoxazole (TMP-SMX).
+غير أن Pneumocystis jirovecii (الكائن المسبب للالتهاب الرئوي بالمتكيسات) يتمتع بغشاء خلوي غير نمطي يحتوي على الكوليسترول بدلاً من الإرجوستيرول، وليس لديه هدف دواء الأزول على الإطلاق. هذا يتسق مع الممارسة السريرية المعروفة جيداً: الأزولات، بما في ذلك Itraconazole، ليست الخط الأول ولا العلاج القياسي للالتهاب الرئوي بالمتكيسات — يقع هذا الدور على trimethoprim-sulfamethoxazole (TMP-SMX).
 
-Given this mechanistic mismatch, the high TxGNN score most likely reflects the model picking up a semantic/network proximity between itraconazole and Pneumocystis within a broader "immunocompromised host / opportunistic infection" cluster (both concepts co-occur heavily in HIV, transplant, and immunodeficiency literature), rather than a genuine pharmacological link. This prediction should be treated as a probable false positive rather than a credible repurposing candidate.
+بالنظر إلى عدم التوافق الآلي هذا، فإن درجة TxGNN المرتفعة جداً تعكس على الأرجح أن النموذج يلتقط قرباً دلالياً وشبكياً بين Itraconazole و Pneumocystis ضمن مجموعة أوسع من "المضيف المثبط المناعة / العدوى الانتهازية" (يحدث كلا المفهومين بكثافة في أدب HIV والزراعة ونقص المناعة)، وليس ارتباطاً دوائياً حقيقياً. يجب التعامل مع هذا التنبؤ باعتباره موجب خاطئ محتمل بدلاً من مرشح إعادة استخدام موثوق.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT | HIV Medicine | Double-blind, placebo-controlled Phase III trial of itraconazole capsules for prevention of deep fungal infections in HIV-infected patients; not specific to Pneumocystis. |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | Summarizes therapy/prophylaxis for Pneumocystis carinii, Toxoplasma, Leishmania and trypanosome infections, covering mechanism, dosing and efficacy of each agent class. |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clinical Evidence | Overview of primary/secondary prophylaxis for HIV-related opportunistic infections; notes OIs occur in up to 40% of patients with CD4 <250/mm³. |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Current Clinical Topics in Infectious Diseases | Reviews prophylaxis and treatment strategies for infections, including fungal, in bone marrow transplant recipients. |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review | Seminars in Respiratory Infections | Discusses infection (bacterial, fungal, viral) as a leading cause of morbidity/mortality after lung transplantation. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review (PK) | Clinical Pharmacokinetics | Reviews penetration of antifungal, antitubercular and other anti-infective agents into pulmonary epithelial lining fluid. |
-| [11362422](https://pubmed.ncbi.nlm.nih.gov/11362422/) | 1995 | Review | PI Perspective | General review on strategies for preventing opportunistic infections. |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohort (retrospective) | Transplantation Proceedings | Single-center study of invasive fungal infections after kidney transplantation, associated with increased mortality and graft dysfunction. |
-| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohort | Indian Journal of Medical Microbiology | Compares respiratory fungal pathogen profile and susceptibility between immunocompetent and immunocompromised hosts, correlated with CD4+ T-cell counts. |
-| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | Cohort | Allergologia et Immunopathologia | 25-year experience of chronic granulomatous disease in pediatric patients, including associated fungal infection risk. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|---------|
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | تجربة عشوائية محكومة | HIV Medicine | تجربة مرحلة III مزدوجة التعمية الخاضعة للتحكم بالعقار الوهمي لكبسولات Itraconazole لمنع العدوى الفطرية العميقة لدى المرضى المصابين بـ HIV؛ ليست محددة للمتكيسات. |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | مراجعة | Drugs | يلخص العلاج والوقاية من Pneumocystis carinii و Toxoplasma و Leishmania والعدوى بالمثقوبات، ويغطي الآلية والجرعات والفعالية لكل فئة من الأدوية. |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | مراجعة | BMJ Clinical Evidence | نظرة عامة على الوقاية الأولية والثانوية من العدوى الانتهازية المرتبطة بـ HIV؛ تشير إلى أن العدوى الانتهازية تحدث في حتى 40% من المرضى بعدد CD4 <250/mm³. |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | مراجعة | Current Clinical Topics in Infectious Diseases | تراجع استراتيجيات الوقاية والعلاج من العدوى، بما في ذلك الفطرية، لدى مستقبلي زراعة نخاع العظام. |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | مراجعة | Seminars in Respiratory Infections | تناقش العدوى (البكتيرية والفطرية والفيروسية) كسبب رئيسي للمراضة والوفيات بعد زراعة الرئة. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | مراجعة (PK) | Clinical Pharmacokinetics | تراجع اختراق الأدوية المضادة للفطريات والمضادة للدرن والأدوية المضادة للعدوى الأخرى إلى السائل المبطن لرئة الظهارة. |
+| [11362422](https://pubmed.ncbi.nlm.nih.gov/11362422/) | 1995 | مراجعة | PI Perspective | مراجعة عامة عن استراتيجيات الوقاية من العدوى الانتهازية. |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | دراسة أتراب (بأثر رجعي) | Transplantation Proceedings | دراسة مركز واحد للعدوى الفطرية الغازية بعد زراعة الكلية، مرتبطة بزيادة الوفيات وضعف وظيفة الطعم. |
+| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | دراسة أتراب | Indian Journal of Medical Microbiology | تقارن الملف الشخصي لممرضات الجهاز التنفسي الفطري والحساسية بين المضيفين المختصين والمثبطين مناعياً، المرتبطة بعدد خلايا CD4+ T. |
+| [17594870](https://pubmed.ncbi.nlm.nih.gov/17594870/) | 2007 | دراسة أتراب | Allergologia et Immunopathologia | خبرة 25 سنة من مرض الحبيبي المزمن في المرضى الأطفال، بما في ذلك خطر العدوى الفطرية المرتبطة به. |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The predicted association conflicts with itraconazole's known mechanism of action — Pneumocystis lacks the ergosterol-based drug target azoles require — and no clinical trials or itraconazole-specific literature support use in pneumocystosis. The high TxGNN score is best explained by semantic clustering around "immunocompromised host / opportunistic infection" rather than a true mechanistic signal.
+**الأساس المنطقي:**
+يتضارب التنبؤ بالارتباط مع آلية عمل Itraconazole المعروفة — تفتقر المتكيسات إلى هدف الدواء القائم على الإرجوستيرول الذي تتطلبه الأزولات — ولا توجد تجارب سريرية أو أدبيات خاصة بـ Itraconazole تدعم الاستخدام في الالتهاب الرئوي بالمتكيسات. يتم شرح درجة TxGNN المرتفعة جداً على أفضل وجه من خلال التجميع الدلالي حول "المضيف المثبط المناعة / العدوى الانتهازية" بدلاً من إشارة آلية حقيقية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently a Blocking data gap)
-- Confirmed original indication text and MOA sourced directly from a regulatory or DrugBank record (currently a High-severity data gap)
-- A pharmacology review specifically addressing whether any azole has plausible activity against Pneumocystis before this candidate is reconsidered
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات وموانع استعمال نشرة منتج الهيئة العامة للغذاء والدواء (حالياً فجوة بيانات محجوبة)
+- تأكيد نص المؤشر الأصلي وآلية العمل المصدرة مباشرة من سجل تنظيمي أو DrugBank (حالياً فجوة بيانات عالية الشدة)
+- مراجعة صيدلانية تعالج بشكل محدد ما إذا كان لأي مركب أزول نشاط معقول ضد Pneumocystis قبل إعادة النظر في هذا المرشح
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

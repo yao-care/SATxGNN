@@ -29,65 +29,66 @@ indication_count: 10
 
 </div>
 
-# Romiplostim: From Immune Thrombocytopenia (ITP) to Primary Release Disorder of Platelets
+# رومبلوستيم: من فرفرية نقص الصفيحات المناعي (ITP) إلى اضطراب الإفراز الأولي للصفيحات
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Romiplostim is a thrombopoietin (TPO) receptor agonist whose established clinical role, per the evidence in this pack, is treating immune thrombocytopenia (ITP)-related platelet deficiency. The TxGNN model predicts it may also be effective for **Primary Release Disorder of Platelets**, but this specific prediction is currently supported by only **1 clinical trial** (observational, not an interventional drug trial) and **2 publications** (mechanistic/background literature).
+رومبلوستيم هو ناهض مستقبل الثرومبوبويتين (TPO) دوره السريري المثبت، وفقاً للأدلة في هذه الحزمة، هو علاج نقص الصفيحات المرتبط بفرفرية نقص الصفيحات المناعي (ITP). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **اضطراب الإفراز الأولي للصفيحات**، لكن هذا التنبؤ المحدد مدعوم حالياً بـ **1** تجربة سريرية فقط (مراقبة، وليست تجربة دوائية تدخلية) و**2** منشور (أدبيات ميكانيكية/خلفية).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not documented in Saudi Arabia licensing (drug not marketed); evidence pack rationale identifies romiplostim's actual approved-use category as **Immune Thrombocytopenia (ITP)** |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.9998% (rank 8 among all predictions) |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| الاستطباب الأصلي | غير موثق في الترخيص السعودي (الدواء غير مسوق)؛ تحدد نسبة حزمة الأدلة الفئة الفعلية للاستخدام المعتمد لرومبلوستيم باعتباره **فرفرية نقص الصفيحات المناعي (ITP)** |
+| الاستطباب الجديد المتنبأ به | اضطراب الإفراز الأولي للصفيحات |
+| درجة التنبؤ بـ TxGNN | 99.9998% (الترتيب 8 بين جميع التنبؤات) |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | سؤال بحثي |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, a formal MOA record for romiplostim is not available in the structured drug data. However, the evidence pack's own mechanistic rationale describes romiplostim as a thrombopoietin (TPO) receptor agonist that directly stimulates megakaryocyte production and platelet release — the same mechanism underlying its established use in ITP.
+حالياً، لا يتوفر سجل آلية عمل رسمي لرومبلوستيم في البيانات الدوائية المنظمة. ومع ذلك، فإن النسبة الميكانيكية الخاصة بحزمة الأدلة نفسها تصف رومبلوستيم كناهض مستقبل الثرومبوبويتين (TPO) الذي يحفز مباشرة إنتاج الخلايا الضخمة والإفراز عن الصفيحات — نفس الآلية الكامنة وراء استخدامه المثبت في ITP.
 
-"Primary release disorder of platelets" describes a defect in the release of platelets from megakaryocytes into circulation. Since romiplostim's core pharmacology acts precisely at this step of thrombopoiesis, the mechanistic link to this predicted indication is direct and biologically coherent — which is consistent with the very high TxGNN score (99.9998%).
+"اضطراب الإفراز الأولي للصفيحات" يصف عيباً في إفراز الصفيحات من الخلايا الضخمة إلى الدورة الدموية. بما أن الفارماكولوجيا الأساسية لرومبلوستيم تعمل بدقة في هذه المرحلة من تكوين الصفيحات، فإن الارتباط الميكانيكي لهذا الاستطباب المتنبأ به مباشر وسليم بيولوجياً — وهو ما يتسق مع درجة TxGNN العالية جداً (99.9998%).
 
-That said, the supporting evidence currently available is indirect: the one linked clinical trial (NCT03820960) is an observational cohort study of thrombosis risk factors in ITP patients, not a trial testing romiplostim's efficacy in a platelet-release disorder. The two literature references describe megakaryocytopoiesis/thrombopoiesis biology and antibody-mediated impairment of proplatelet formation in ITP, rather than direct romiplostim intervention data for this exact disease label. Notably, a closely related indication category in this same evidence pack — "platelet-type bleeding disorder" (which the rationale explicitly ties to ITP, romiplostim's real-world approved use) — is supported by much stronger evidence, including a completed Phase 3 RCT (RECITE, NCT03362177). This suggests the mechanistic hypothesis is sound, but direct evidence for the specific "primary release disorder of platelets" label still needs to be built out.
+مع ذلك، فإن الأدلة الداعمة المتاحة حالياً غير مباشرة: التجربة السريرية المرتبطة الوحيدة (NCT03820960) هي دراسة أترابية مراقبة لعوامل خطر تجلط الدم في مرضى ITP، وليست تجربة تختبر فعالية رومبلوستيم في اضطراب إفراز الصفيحات. المرجعان الأدبيان يصفان بيولوجيا تكوين الخلايا الضخمة/تكوين الصفيحات والضعف الوسيط بالأجسام المضادة لتكوين الصفيحات الأولية في ITP، وليس بيانات التدخل المباشر لرومبلوستيم لهذا العنوان المرضي المحدد. وتجدر الإشارة إلى أن فئة استطباب وثيقة الصلة في نفس حزمة الأدلة — "اضطراب النزف من نوع الصفيحات" (الذي تربطه النسبة بوضوح إلى ITP، والاستخدام المعتمد الفعلي لرومبلوستيم) — مدعومة بأدلة أقوى بكثير، بما في ذلك تجربة عشوائية منضبطة من المرحلة 3 المكتملة (RECITE, NCT03362177). هذا يشير إلى أن الفرضية الميكانيكية سليمة، لكن الأدلة المباشرة على عنوان "اضطراب الإفراز الأولي للصفيحات" المحدد تحتاج لا تزال إلى بنائها.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completed | 10,039 | Observational cohort study on thrombosis risk factors in immune thrombocytopenia (ITP); did not test romiplostim efficacy — provides indirect epidemiological data on the relevant patient population only. |
+| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | غير متاح | مكتملة | 10,039 | دراسة أترابية مراقبة على عوامل خطر تجلط الدم في فرفرية نقص الصفيحات المناعي (ITP)؛ لم تختبر فعالية رومبلوستيم — توفر بيانات وبائية غير مباشرة على السكان المرضى ذوي الصلة فقط. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Review | British Journal of Haematology | Reviews megakaryocytopoiesis and thrombopoiesis biology, including thrombopoietin (TPO) as the primary growth factor for the megakaryocyte lineage — the mechanistic basis for TPO receptor agonists like romiplostim. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Cohort/Mechanistic | Haematologica | Shows that antiplatelet autoantibodies in ITP inhibit proplatelet formation by megakaryocytes and impair platelet release in vitro — directly relevant to the "platelet release disorder" mechanism, though not a romiplostim intervention study. |
+| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | استعراض | British Journal of Haematology | يستعرض بيولوجيا تكوين الخلايا الضخمة وتكوين الصفيحات، بما في ذلك الثرومبوبويتين (TPO) كعامل النمو الأساسي لسلالة الخلايا الضخمة — الأساس الميكانيكي لناهضات مستقبل TPO مثل رومبلوستيم. |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | أترابية/ميكانيكية | Haematologica | يظهر أن الأجسام المضادة الذاتية المضادة للصفيحات في ITP تثبط تكوين الصفيحات الأولية بواسطة الخلايا الضخمة وتضعف إفراز الصفيحات في الاختبار في الأنابيب — ذات صلة مباشرة بآلية "اضطراب إفراز الصفيحات"، على الرغم من أنها ليست دراسة تدخل رومبلوستيم. |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Romiplostim is not currently marketed in Saudi Arabia (0 authorizations on file).
+رومبلوستيم غير مسوق حالياً في المملكة العربية السعودية (لا توجد تصاريح على الملف).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Research Question**
+**القرار: سؤال بحثي**
 
-**Rationale:**
-The mechanistic case is strong — romiplostim's TPO receptor agonism directly targets the platelet-release pathway relevant to this indication — but the current evidence base consists only of an observational cohort study and background mechanistic literature, not an interventional trial of romiplostim in this specific disease. This warrants further investigation before advancing to a Go/Hold/Guardrails decision.
+**التبرير:**
+الحالة الميكانيكية قوية — ناهضية مستقبل TPO لرومبلوستيم تستهدف مباشرة مسار إفراز الصفيحات ذا الصلة بهذا الاستطباب — لكن قاعدة الأدلة الحالية تتكون فقط من دراسة أترابية مراقبة وأدبيات ميكانيكية خلفية، وليس تجربة تدخلية لرومبلوستيم في هذا المرض المحدد. هذا يستحق مزيداً من التحقيق قبل الانتقال إلى قرار Go/Hold/Guardrails.
 
-**To proceed, the following is needed:**
-- Formal MOA and drug classification data from DrugBank (flagged as a High-severity data gap)
-- TFDA/regulatory package insert data — warnings, contraindications, DDI (flagged as a Blocking data gap for safety review)
-- An interventional trial or case series testing romiplostim specifically in patients with a primary platelet-release defect (rather than ITP generally)
-- Clarification of how "primary release disorder of platelets" is diagnostically distinguished from ITP in the target population, to determine whether existing ITP trial data (e.g., the Phase 3 RECITE trial) can be extrapolated
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات آلية العمل الرسمية وتصنيف الأدوية من DrugBank (تم وضع علامة عليها كفجوة بيانات عالية الخطورة)
+- بيانات ملحق TFDA/الجهات التنظيمية — التحذيرات والموانع والتفاعلات الدوائية (تم وضع علامة عليها كفجوة بيانات حجب لمراجعة السلامة)
+- تجربة تدخلية أو سلسلة حالات تختبر رومبلوستيم بشكل محدد في المرضى الذين يعانون من عيب إفراز صفيحات أولي (بدلاً من ITP بشكل عام)
+- توضيح كيفية تمييز "اضطراب الإفراز الأولي للصفيحات" تشخيصياً عن ITP في السكان المستهدفين، لتحديد ما إذا كان يمكن استقراء بيانات تجارب ITP الموجودة (على سبيل المثال، تجربة RECITE من المرحلة 3)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

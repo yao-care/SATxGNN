@@ -29,91 +29,92 @@ indication_count: 10
 
 </div>
 
-# Etravirine: From HIV-1 Infection to Congenital HIV Infection (Perinatal Transmission)
+# الإتراڤرين: من عدوى فيروس نقص المناعة البشرية من النوع الأول إلى عدوى فيروس نقص المناعة البشرية الخلقية (الانتقال من الأم للجنين)
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Etravirine (DrugBank DB06414) is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally approved for treatment-experienced HIV-1 infection. Among TxGNN's top-ranked candidates, the two highest-scoring predictions (simian and feline immunodeficiency virus infection) are non-human veterinary disease entities with no supporting evidence and are excluded from this evaluation. The most clinically substantive prediction is **congenital/perinatal HIV infection**, supported by **13 clinical trials** and **1 publication**, representing a population extension of etravirine's existing antiretroviral indication rather than a novel mechanistic hypothesis.
+الإتراڤرين (DrugBank DB06414) هو مثبط لإنزيم النسخ العكسي غير النيوكليوسيدي (NNRTI) معتمد أصلاً لعلاج عدوى فيروس نقص المناعة البشرية من النوع الأول لدى مرضى لديهم خبرة علاجية سابقة. من بين أفضل المرشحين المتوقعين من TxGNN، التنبؤان الأعلى تصنيفاً (عدوى فيروس نقص المناعة في القرود وعدوى نقص المناعة في القطط) هما كيانات أمراض بيطرية غير بشرية بدون أدلة داعمة ويتم استبعادهما من هذا التقييم. التنبؤ الأكثر أهمية سريرياً هو **عدوى فيروس نقص المناعة البشرية الخلقية/من الأم للجنين**، مدعوم بـ **13 تجربة سريرية** و **1 منشور علمي**، يمثل امتداداً سكانياً لمؤشر الإتراڤرين الحالي بدلاً من فرضية آلية عمل جديدة.
 
-> **Note on prediction selection:** TxGNN's rank 1–2 hits ("simian immunodeficiency virus infection," "feline acquired immunodeficiency syndrome") are animal-model disease ontology terms, not human indications — the evidence pack's own rationale flags them as lacking cross-species RT binding evidence. Rank 3 is a rare neurodevelopmental disorder with a purely speculative NRTI-class analogy (etravirine is an NNRTI) and zero supporting studies. This report therefore focuses on **rank 4 — congenital human immunodeficiency virus** — the highest-ranked prediction with actual clinical trial and literature support.
+> **ملاحظة حول اختيار التنبؤ:** نتائج TxGNN الترتيب 1-2 ("عدوى فيروس نقص المناعة في القرود"، "متلازمة نقص المناعة المكتسبة في القطط") هي مصطلحات أنطولوجيا المرض الحيواني وليست مؤشرات بشرية — حزمة الأدلة الخاصة تشير إلى أنها تفتقر إلى أدلة الارتباط العكسي في الأنواع المختلفة. الترتيب 3 هو اضطراب نمائي عصبي نادر مع قياس نظري محض للفئة NRTI (الإتراڤرين هو NNRTI) وصفر دراسات داعمة. يركز هذا التقرير لذلك على **الترتيب 4 — عدوى فيروس نقص المناعة البشرية الخلقية** — وهو أعلى تنبؤ مرتب مع دعم تجربة سريرية وأدب فعلي.
 
 ---
 
-## Quick Overview
+## لمحة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | HIV-1 infection in treatment-experienced patients (publicly known approved use; no Taiwan license record available — drug is not marketed locally) |
-| Predicted New Indication | Congenital / perinatal HIV infection |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | عدوى فيروس نقص المناعة البشرية من النوع الأول لدى المرضى ذوي الخبرة العلاجية (استخدام معتمد معروف علناً؛ لا توجد سجلات ترخيص تايوان المتاحة — الدواء غير مسوق محلياً) |
+| المؤشر الجديد المتنبأ به | عدوى فيروس نقص المناعة البشرية الخلقية / من الأم للجنين |
+| نقاط تنبؤ TxGNN | 99.79% |
+| مستوى الأدلة | L2 |
+| حالة السوق في تايوان | غير مسوق (غير مسوق) |
+| عدد التصريحات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data from the evidence pack is marked as a data gap (DG002, pending DrugBank API lookup). Based on the drug's known pharmacology and the repurposing rationale captured in this evidence pack, etravirine is an NNRTI that non-competitively binds HIV-1 reverse transcriptase to block viral replication, and is an already-approved antiretroviral agent.
+تم وضع علامة على بيانات آلية العمل التفصيلية من حزمة الأدلة كفجوة في البيانات (DG002، قيد البحث في DrugBank API). بناءً على الحركيات الدوائية المعروفة للدواء والمنطق المعاد استخدام الأدوية المسجل في حزمة الأدلة هذه، الإتراڤرين هو NNRTI يرتبط بشكل غير تنافسي بإنزيم النسخ العكسي لفيروس نقص المناعة البشرية من النوع الأول لمنع التضاعف الفيروسي، وهو عامل مضاد للفيروسات معتمد بالفعل.
 
-Congenital/perinatal HIV infection is not a mechanistically distinct disease from etravirine's core indication — it is the same virus (HIV-1) in a different patient population (infants and children infected via mother-to-child transmission, and pregnant women being treated to prevent transmission). The mechanistic link is therefore direct rather than speculative: etravirine's RT-inhibition activity applies identically in this population, and the prediction represents a population/label extension rather than a novel biological hypothesis.
+عدوى فيروس نقص المناعة البشرية الخلقية/من الأم للجنين ليست مرضاً مختلفاً آلياً عن المؤشر الأساسي للإتراڤرين — إنه نفس الفيروس (HIV-1) في سكان مختلفين (الرضع والأطفال المصابين عن طريق انتقال العدوى من الأم للطفل، والنساء الحوامل اللواتي يتم علاجهن لمنع الانتقال). الارتباط الآلي هو بالتالي مباشر بدلاً من أن يكون تخميناً: نشاط مثبط RT للإتراڤرين ينطبق بنفس الطريقة في هذا السكان، والتنبؤ يمثل امتداد السكان / التسمية بدلاً من فرضية بيولوجية جديدة.
 
-This is reflected in the supporting evidence: several trials and the one literature report directly address etravirine use in pregnant HIV-1-infected women and pediatric/perinatal contexts (e.g., PK studies, case reports on antiretroviral-experienced pregnant patients), rather than exploring an unrelated disease mechanism.
+يعكس هذا في الأدلة الداعمة: عدة تجارب والتقرير الأدبي الواحد يتناول مباشرة استخدام الإتراڤرين في النساء الحوامل المصابات بفيروس نقص المناعة البشرية من النوع الأول والسياقات الأطفال/من الأم للجنين (مثل دراسات الحركيات الدوائية، والتقارير الحالات حول المرضى الحوامل ذوي الخبرة المضادة للفيروسات)، بدلاً من استكشاف آلية مرض غير ذات صلة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | Phase 1 | Completed | 54 | Direct etravirine drug-drug interaction study with darunavir/ritonavir and GSK3640254 in healthy adults |
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Completed | 77 | Single-arm PK study of etravirine (alone or with darunavir/ritonavir or rilpivirine) specifically in HIV-1-infected **pregnant women** |
-| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | Phase 2b | Terminated | 30 | Open-label etravirine 200mg BID used as the control arm in NNRTI-resistant, treatment-experienced HIV-1 adults |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4 | Completed | 1578 | IMPAACT P1026s — PK of antiretroviral and TB drugs in pregnant and postpartum women and their infants |
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Active, not recruiting | 618 | Switch to long-acting cabotegravir + rilpivirine from INI/NNRTI/PI-based regimens in virologically suppressed HIV-1 adults; drug arm not confirmed as etravirine |
-| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Phase 3 | Completed | 510 | Switch to dolutegravir + rilpivirine from current regimen in virologically suppressed HIV-1 adults; drug arm not confirmed |
-| [NCT02422797](https://clinicaltrials.gov/study/NCT02422797) | Phase 3 | Completed | 518 | Same design as above (parallel study cohort); drug arm not confirmed |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3b | Active, not recruiting | 1049 | Long-acting cabotegravir + rilpivirine dosing interval (Q8W vs Q4W) in suppressed HIV-1 adults |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Active, not recruiting | 631 | Long-acting IM cabotegravir + rilpivirine for maintenance after switching from an integrase-inhibitor regimen |
-| [NCT01458132](https://clinicaltrials.gov/study/NCT01458132) | N/A | Completed | 19 | GSK observational drug-exposure registry for long-term follow-up; possible etravirine-adjacent GSK/ViiV cohort, not confirmed |
+| [NCT04630002](https://clinicaltrials.gov/study/NCT04630002) | المرحلة 1 | اكتملت | 54 | دراسة تفاعل الأدوية المباشر للإتراڤرين مع داروناڤير/ريتونافير و GSK3640254 لدى البالغين الأصحاء |
+| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | المرحلة 3 | اكتملت | 77 | دراسة حركية دوائية بذراع واحد للإتراڤرين (وحده أو مع داروناڤير/ريتونافير أو ريلپيفيرين) بشكل خاص لدى **النساء الحوامل** المصابات بـ HIV-1 |
+| [NCT01199731](https://clinicaltrials.gov/study/NCT01199731) | المرحلة 2b | تم إيقافها | 30 | دراسة مفتوحة الإتراڤرين 200 ملغ مرتين يومياً تم استخدامه كذراع تحكم في البالغين ذوي الخبرة العلاجية والمقاومين لـ NNRTI مع HIV-1 |
+| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | المرحلة 4 | اكتملت | 1578 | IMPAACT P1026s — حركية الأدوية المضادة للفيروسات والسل لدى النساء الحوامل والنفاس والرضع |
+| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | المرحلة 3 | نشطة، لا تجند | 618 | التبديل إلى كابوتيجرافير طويل المفعول + ريلپيفيرين من الأنظمة القائمة على INI/NNRTI/PI لدى البالغين المصابين بـ HIV-1 المثبط فيروسياً؛ ذراع الدواء لم يتم تأكيدها كإتراڤرين |
+| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | المرحلة 3 | اكتملت | 510 | التبديل إلى دولوتيجرافير + ريلپيفيرين من النظام الحالي لدى البالغين المصابين بـ HIV-1 المثبط فيروسياً؛ ذراع الدواء لم يتم تأكيدها |
+| [NCT02422797](https://clinicaltrials.gov/study/NCT02422797) | المرحلة 3 | اكتملت | 518 | نفس تصميم ما سبق (فئة دراسة متوازية)؛ ذراع الدواء لم يتم تأكيدها |
+| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | المرحلة 3b | نشطة، لا تجند | 1049 | جرعة كابوتيجرافير طويل المفعول + ريلپيفيرين (Q8W مقابل Q4W) لدى البالغين المصابين بـ HIV-1 المثبط |
+| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | المرحلة 3 | نشطة، لا تجند | 631 | كابوتيجرافير IM طويل المفعول + ريلپيفيرين للصيانة بعد التبديل من نظام مثبط الإنتيجراز |
+| [NCT01458132](https://clinicaltrials.gov/study/NCT01458132) | N/A | اكتملت | 19 | سجل تعرض الأدوية الملاحظة من GSK للمتابعة طويلة الأجل؛ فئة GSK/ViiV المحتملة المجاورة للإتراڤرين، غير مؤكدة |
 
-Two additional registered records (NCT04273165, a Friedreich Ataxia trial flagged as a likely data-matching error, and NCT07412977, a not-yet-recruiting French pregnancy cohort with no drug specified) were excluded as not relevant to this indication.
+تم استبعاد سجلين إضافيين مسجلين (NCT04273165، تجربة Friedreich Ataxia المشار إليها على أنها خطأ محتمل في مطابقة البيانات، و NCT07412977، فئة حمل فرنسية لم تبدأ بعد بدون دواء محدد) لأنها غير ذات صلة بهذا المؤشر.
 
 ---
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | Review/Clinical Practice | Antiviral Therapy | Case report of darunavir and etravirine (with/without raltegravir) use in two highly treatment-experienced pregnant women, discussing management options where standard regimens are inadequate |
+| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | مراجعة/الممارسة السريرية | Antiviral Therapy | تقرير حالة استخدام داروناڤير والإتراڤرين (مع أو بدون رالتيجرافير) في امرأتين حاملتين ذات خبرة علاجية عالية، يناقش خيارات الإدارة حيث الأنظمة القياسية غير كافية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Etravirine is currently **not marketed in Taiwan** — no product licenses or authorization records exist in the evidence pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are marked as data gaps in this evidence pack — TFDA package insert retrieval, DG001, is flagged as Blocking for safety pre-screening.)
+الإتراڤرين **غير مسوق حالياً في تايوان** — لا توجد تراخيص منتجات أو سجلات ترخيص في حزمة الأدلة (0 تراخيص).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة. (البيانات الرئيسية للتحذيرات والموانع الاستعمال وبيانات التفاعلات الدوائية تم وضع علامة عليها كفجوات في البيانات في حزمة الأدلة هذه — استرجاع نشرة TFDA، DG001، تم وضع علامة عليه كحظر للفحص الأمني المسبق للسلامة.)
 
-**Rationale:**
-Congenital/perinatal HIV represents a population extension of etravirine's already-approved mechanism, supported by direct pregnancy-specific PK and case-report data (L2 evidence) — this is fundamentally different in risk profile from the top TxGNN-ranked but non-human/unsupported predictions (SIV, FIV, rare neurodevelopmental disorder), which should be held with no further action.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert retrieval (DG001, Blocking) — required before any S1 safety pre-screening can proceed
-- DrugBank MOA confirmation (DG002)
-- Confirmation of which switch/maintenance trials (NCT02951052, NCT02429791, NCT02422797, NCT03299049, NCT02938520, NCT01458132) actually included an etravirine treatment arm, since current grading only infers population relevance
-- Pediatric/perinatal dosing and safety data specific to congenital HIV, since Taiwan has no existing marketing authorization or label to reference
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**المنطق:**
+عدوى فيروس نقص المناعة البشرية الخلقية/من الأم للجنين تمثل امتداد السكان لآلية عمل الإتراڤرين المعتمدة بالفعل، مدعوم بحركية دوائية محددة للحمل البيانات ودراسات الحالات (أدلة L2) — هذا يختلف بشكل أساسي في ملف المخاطر عن التنبؤات الأعلى ترتيباً في TxGNN لكن غير البشرية/غير المدعومة (SIV، FIV، اضطراب نمائي عصبي نادر)، والتي يجب الاحتفاظ بها بدون إجراءات إضافية.
+
+**للمتابعة، ما يلي مطلوب:**
+- استرجاع نشرة TFDA (DG001، حظر) — مطلوب قبل أي فحص سلامة S1 يمكن أن يتقدم
+- تأكيد MOA DrugBank (DG002)
+- تأكيد أي من تجارب التبديل/الصيانة (NCT02951052، NCT02429791، NCT02422797، NCT03299049، NCT02938520، NCT01458132) تضمنت فعلاً ذراع معالجة بالإتراڤرين، لأن التقييم الحالي يستنتج فقط أهمية السكان
+- بيانات الجرعات والسلامة الخاصة بالأطفال/من الأم للجنين المحددة لعدوى فيروس نقص المناعة البشرية الخلقية، حيث أن تايوان ليس لديها تصريح تسويق موجود أو تسمية للرجوع إليها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

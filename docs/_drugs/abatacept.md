@@ -29,98 +29,99 @@ indication_count: 10
 
 </div>
 
-# Abatacept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# عبتاسبت: من التهاب المفاصل الروماتويدي إلى التهاب الأوعية الدموية الروماتويدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Abatacept (Orencia) is a selective T-cell costimulation modulator approved globally for rheumatoid arthritis (RA), blocking the CD28–CD80/86 co-stimulatory signal required for full T-cell activation.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis** — a severe extraarticular complication of RA —
-with **1 clinical trial registration** and **20 associated publications** identified, though evidence is predominantly case reports and narrative reviews rather than controlled trials.
+عبتاسبت (Orencia) هو منظم انتقائي لتحفيز الخلايا التائية معتمد عالمياً لعلاج التهاب المفاصل الروماتويدي (RA)، ويعيق الإشارة المساعدة CD28–CD80/86 المطلوبة لتفعيل الخلايا التائية بشكل كامل.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الأوعية الدموية الروماتويدي** — وهو مضاعفة خارج مفصلية خطيرة لـ RA —
+مع **تسجيل تجربة سريرية واحدة** و **20 منشور مرتبط** محددة، رغم أن الأدلة تتكون أساساً من تقارير حالات ومراجعات سردية بدلاً من التجارب المنضبطة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Rheumatoid Arthritis (globally approved; not registered in Saudi Arabia) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| الدلالة الأصلية | التهاب المفاصل الروماتويدي (معتمد عالمياً؛ غير مسجل في المملكة العربية السعودية) |
+| الدلالة الجديدة المتنبأ بها | التهاب الأوعية الدموية الروماتويدي |
+| درجة التنبؤ من TxGNN | 99.91% |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معروض |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | سؤال بحثي |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Abatacept is a fusion protein composed of the Fc region of IgG1 linked to the extracellular domain of CTLA-4. By binding CD80 and CD86 on antigen-presenting cells, it competitively blocks the CD28 co-stimulatory signal that T cells require for full activation. This selectively suppresses Th1 and Th17 pro-inflammatory subsets and indirectly reduces B-cell help and autoantibody production — the mechanism underlying its established efficacy in RA synovitis. Detailed MOA data from DrugBank was not available in this pack; the above is reconstructed from published case report descriptions (PMID 29930884, PMID 22124545).
+عبتاسبت هو بروتين اندماجي يتألف من منطقة Fc من IgG1 مرتبطة بالمجال خارج الخلوي لـ CTLA-4. بربط CD80 و CD86 على الخلايا المقدمة للمستضد، يعيق بشكل تنافسي الإشارة المساعدة CD28 التي تحتاجها الخلايا التائية للتفعيل الكامل. يثبط هذا بشكل انتقائي مجموعات Th1 و Th17 الالتهابية المؤيدة ويقلل بشكل غير مباشر من دعم الخلايا البائية وإنتاج الأجسام المضادة الذاتية — وهي الآلية الكامنة وراء فعاليته المثبتة في التهاب المفاصل الروماتويدي المفصلي. لم تتوفر بيانات آلية العمل التفصيلية من DrugBank في هذه المجموعة؛ ما ورد أعلاه تم إعادة بناؤه من أوصاف تقارير الحالات المنشورة (PMID 29930884, PMID 22124545).
 
-Rheumatoid vasculitis (RV) is a serious extraarticular manifestation of long-standing seropositive RA. Its pathology centers on immune-complex deposition and T-cell-mediated vascular wall inflammation — the same CD28-driven adaptive immune axis that drives joint destruction in RA. Because RV and RA share this T-cell activation backbone, abatacept's mechanism maps plausibly onto RV. Multiple case reports describe clinical improvement or rapid symptom resolution following abatacept administration in biopsy-confirmed RV patients who had failed TNF inhibitors, IL-6 inhibitors, and steroids.
+التهاب الأوعية الدموية الروماتويدي (RV) هو مظهر خارج مفصلي خطير لـ RA سيروبوزيتيف مزمن. يتمحور المرضه حول ترسب معقدات المناعة والتهاب جدران الأوعية الدموية الذي تسببه الخلايا التائية — وهو نفس محور المناعة التكيفية المعتمد على CD28 الذي يقود تدمير المفاصل في RA. لأن RV و RA يتشاركان هذا العمود الفقري لتفعيل الخلايا التائية، فإن آلية عبتاسبت تنطبق بشكل معقول على RV. تصف تقارير حالات متعددة تحسناً سريرياً أو حلاً سريعاً للأعراض بعد إعطاء عبتاسبت في مرضى RV مؤكد بالخزعة فشل لديهم علاجات سابقة متعددة بما فيها مثبطات عامل نخر الورم (TNF) ومثبطات IL-6 والستيرويدات.
 
-One important pharmacovigilance caveat must be highlighted: PMID 27052429 documents *new-onset* RV emerging **during** abatacept therapy, with subsequent improvement only after switching to rituximab. This paradoxical signal, combined with a separate case of ANCA-associated nephritis developing during abatacept treatment (PMID 36418100), underscores that the immunological relationship is not straightforward. ANCA-associated vasculitis in particular depends less on CD28 co-stimulation, meaning abatacept's benefit may be restricted to purely T-cell-driven RV subtypes. No prospective or controlled trial has tested abatacept specifically for this indication.
+يجب إبراز تنبيه مراقبة السلامة المهم: توثق PMID 27052429 ظهور **جديد** لـ RV **خلال** العلاج بـ عبتاسبت، مع تحسن لاحق فقط بعد الانتقال إلى ريتوكسيماب. هذه الإشارة المتناقضة، بالإضافة إلى حالة منفصلة من التهاب الكبيبات المرتبط بـ ANCA الذي تطور أثناء العلاج بـ عبتاسبت (PMID 36418100)، تؤكد أن العلاقة المناعية ليست مباشرة. التهاب الأوعية الدموية المرتبط بـ ANCA بشكل خاص يعتمد بشكل أقل على التحفيز المساعد CD28، مما يعني أن فائدة عبتاسبت قد تقتصر على أنواع فرعية محددة من RV تعتمد على الخلايا التائية. لم تقم أي تجربة استشرافية أو منضبطة باختبار عبتاسبت بشكل مباشر لهذه الدلالة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الحجم | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing elective shoulder arthroplasty; compares standard vs. shortened hold times for immunosuppressants including abatacept — not a vasculitis efficacy study |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | إدارة العلاج المثبط للمناعة في فترة العملية الجراحية لدى مرضى الروماتيزم الذين يخضعون لجراحة استبدال الكتف الاختيارية؛ يقارن بين فترة التوقف القياسية مقابل فترات التوقف المختصرة للعلاجات المثبطة للمناعة بما فيها عبتاسبت — لا تعتبر دراسة فعالية محددة لالتهاب الأوعية الدموية |
 
-> No clinical trials directly evaluating abatacept as a treatment for rheumatoid vasculitis are currently registered.
+> لا توجد تجارب سريرية تقيّم عبتاسبت مباشرة كعلاج لالتهاب الأوعية الدموية الروماتويدي مسجلة حالياً.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Case series / Narrative review | *Cureus* | Abatacept used as therapeutic alternative for RV in a patient where rituximab (standard of care) was contraindicated due to common variable immunodeficiency; describes CTLA4-Ig mechanism rationale |
-| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Case report | *Modern Rheumatology* | Rapid clinical improvement of biopsy-confirmed RV with abatacept after sequential failure of methotrexate, TNF inhibitors, steroids, plasmapheresis, and IL-6 inhibitor |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | *Journal of Clinical Medicine* | Comprehensive overview of RA-associated episcleritis and scleritis; discusses management escalation to biologics including abatacept in refractory cases |
-| [31174819](https://pubmed.ncbi.nlm.nih.gov/31174819/) | 2018 | Review | *Best Practice & Research Clinical Rheumatology* | CNS vasculitis, rheumatoid nodules, and meningitis in RA; examines biological agent implications for neurological and vascular extraarticular disease |
-| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Case series / Review | *Ophthalmic Plastic & Reconstructive Surgery* | Bilateral orbital vasculitis with eosinophilic infiltrate occurring in a patient already on abatacept; disease progressed despite cyclophosphamide, illustrating treatment complexity |
-| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Case report | *Joint Bone Spine* | ⚠️ **Negative signal**: New-onset RV developing *during* abatacept therapy; improvement achieved only after switching to rituximab |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case report | *Internal Medicine (Tokyo)* | ANCA-associated nephritis with MPO-ANCA elevation emerging during concurrent abatacept + adalimumab treatment; subsequently attenuated by tocilizumab |
-| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohort / Review | *Annals of the Rheumatic Diseases* | Serial ANA testing utility for predicting bDMARD-induced lupus and vasculitis in RA patients; includes signal data from abatacept-treated cohort |
-| [41117362](https://pubmed.ncbi.nlm.nih.gov/41117362/) | 2026 | Commentary / Review | *European Journal of Clinical Investigation* | Early diagnostic and therapeutic approaches for inflammatory/autoimmune rheumatic diseases; addresses large-vessel vasculitis in the context of RA spectrum diseases |
-| [24493331](https://pubmed.ncbi.nlm.nih.gov/24493331/) | 2015 | Case-based review | *Clinical Rheumatology* | Off-label abatacept use in myositis; reviews T-cell co-stimulation blockade rationale for autoimmune rheumatic conditions beyond RA |
+| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | سلسلة حالات / مراجعة سردية | *Cureus* | عبتاسبت المستخدم كبديل علاجي لـ RV في مريض كان فيه ريتوكسيماب (معيار الرعاية) موانع بسبب نقص المناعة الشامل المتغير؛ يصف المنطق الميكانيكي لـ CTLA4-Ig |
+| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | تقرير حالة | *Modern Rheumatology* | تحسن سريري سريع لـ RV مؤكد بالخزعة مع عبتاسبت بعد فشل متسلسل للميثوتريكسات ومثبطات TNF والستيرويدات والفصادة ومثبط IL-6 |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | مراجعة | *Journal of Clinical Medicine* | نظرة عامة شاملة على التهاب الملتحمة والتهاب الصلبة المرتبطين بـ RA؛ يناقش تصعيد الإدارة للعلاجات البيولوجية بما فيها عبتاسبت في الحالات العنيدة |
+| [31174819](https://pubmed.ncbi.nlm.nih.gov/31174819/) | 2018 | مراجعة | *Best Practice & Research Clinical Rheumatology* | التهاب الأوعية الدموية في الجهاز العصبي المركزي والعقيدات الروماتويدية والتهاب السحايا في RA؛ يفحص آثار العوامل البيولوجية على أمراض الأوعية الدموية والعصبية خارج المفصلية |
+| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | سلسلة حالات / مراجعة | *Ophthalmic Plastic & Reconstructive Surgery* | التهاب الأوعية الدموية ثنائي الجانب في المدار مع تسلل حمضي الفم يحدث لدى مريض بالفعل على عبتاسبت؛ تطورت المرض على الرغم من السيكلوفوسفاميد، مما يوضح تعقيد العلاج |
+| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | تقرير حالة | *Joint Bone Spine* | ⚠️ **إشارة سلبية**: ظهور جديد لـ RV خلال **أثناء** العلاج بـ عبتاسبت؛ تحقق التحسن فقط بعد الانتقال إلى ريتوكسيماب |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | تقرير حالة | *Internal Medicine (Tokyo)* | التهاب الكبيبات المرتبط بـ ANCA مع ارتفاع MPO-ANCA الذي ظهر أثناء العلاج المتزامن بـ عبتاسبت + أداليموماب؛ خفف لاحقاً بـ توسيليزوماب |
+| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | دراسة أفواج / مراجعة | *Annals of the Rheumatic Diseases* | فائدة اختبار ANA التسلسلي للتنبؤ بالذئبة المستحثة بـ bDMARD والتهاب الأوعية الدموية في مرضى RA؛ يتضمن بيانات الإشارة من مجموعة تحت العلاج بـ عبتاسبت |
+| [41117362](https://pubmed.ncbi.nlm.nih.gov/41117362/) | 2026 | تعليق / مراجعة | *European Journal of Clinical Investigation* | النهج التشخيصي والعلاجي المبكر لأمراض الروماتيزم الالتهابية / الموجهة ذاتياً؛ يتناول التهاب الأوعية الدموية الكبيرة في سياق أمراض طيف RA |
+| [24493331](https://pubmed.ncbi.nlm.nih.gov/24493331/) | 2015 | مراجعة قائمة على حالات | *Clinical Rheumatology* | الاستخدام خارج النشرة لـ عبتاسبت في التهاب العضل؛ يراجع المنطق الميكانيكي لحجب التحفيز المساعد للخلايا التائية لحالات الروماتيزم الموجهة ذاتياً بما يتجاوز RA |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Abatacept is **not currently registered** with the Saudi Food and Drug Authority (SFDA). No product authorizations were identified in the regulatory database query (query date: 2026-03-29). Market entry would require a new SFDA registration dossier.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Pharmacovigilance signals identified in this evidence review:**
-> - **Paradoxical vasculitis**: One case report (PMID 27052429) describes new-onset rheumatoid vasculitis emerging during abatacept treatment, resolving only after switching to rituximab.
-> - **ANCA-associated nephritis**: One case (PMID 36418100) documents MPO-ANCA elevation and pauci-immune crescentic glomerulonephritis developing during abatacept therapy.
-> These events suggest that immune dysregulation under CD28 blockade may occasionally precipitate rather than suppress vascular inflammation in susceptible individuals.
+عبتاسبت **غير مسجل حالياً** لدى الهيئة العامة للغذاء والدواء (SFDA). لم يتم تحديد أي ترخيصات منتجات في الاستعلام عن قاعدة البيانات التنظيمية (تاريخ الاستعلام: 2026-03-29). سيتطلب دخول السوق ملف تسجيل جديد مع SFDA.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Research Question**
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
-**Rationale:**
-The mechanistic basis for abatacept in rheumatoid vasculitis is biologically plausible — both conditions share a CD28-driven T-cell activation mechanism — and isolated case reports confirm clinical responses in patients who had failed multiple prior therapies. However, the entire evidence base consists of case reports and reviews (Evidence Level L3), no controlled trials exist for this specific indication, and at least one paradoxical worsening signal has been documented. This combination places abatacept in the research hypothesis stage, not ready for clinical implementation without further prospective data.
+> **إشارات مراقبة السلامة المحددة في هذه المراجعة الأدبية:**
+> - **التهاب الأوعية الدموية المتناقض**: يصف تقرير حالة واحد (PMID 27052429) ظهور جديد لالتهاب الأوعية الدموية الروماتويدي خلال العلاج بـ عبتاسبت، مع تحسن فقط بعد الانتقال إلى ريتوكسيماب.
+> - **التهاب الكبيبات المرتبط بـ ANCA**: توثق حالة واحدة (PMID 36418100) ارتفاع MPO-ANCA والتهاب كبيبات الهلالات قليل المناعة الذي يتطور أثناء العلاج بـ عبتاسبت.
+> توحي هذه الأحداث بأن الخلل المناعي تحت حجب CD28 قد يستثير أحياناً بدلاً من قمع الالتهاب الوعائي لدى الأفراد الحساسين.
 
-**To proceed, the following is needed:**
-- Prospective observational cohort or registry-based study specifically enrolling patients with biopsy-confirmed rheumatoid vasculitis
-- Comparative effectiveness data versus rituximab (current de facto standard of care for RV) — head-to-head or propensity-matched registry data
-- Patient stratification criteria to distinguish T-cell-driven RV (where abatacept may help) from ANCA-associated or immune-complex-dominant subtypes (where benefit is uncertain)
-- Full MOA and pharmacology data from DrugBank to complete the mechanistic analysis
-- SFDA registration strategy for the foundational RA indication as a prerequisite for any Saudi Arabia development pathway
-- Safety monitoring plan addressing paradoxical vasculitis exacerbation and ANCA-associated renal events
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: سؤال بحثي**
+
+**المنطق:**
+الأساس الميكانيكي لـ عبتاسبت في التهاب الأوعية الدموية الروماتويدي معقول بيولوجياً — كلا الحالتين تتشاركان آلية تفعيل الخلايا التائية المعتمدة على CD28 — وتؤكد تقارير الحالات المعزولة الاستجابات السريرية في المرضى الذين فشل لديهم علاجات سابقة متعددة. غير أن قاعدة الأدلة بأكملها تتكون من تقارير حالات ومراجعات (مستوى الدليل L3)، ولا توجد تجارب منضبطة لهذه الدلالة المحددة، وتم توثيق إشارة سلبية واحدة على الأقل عن تفاقم متناقض. هذا المزيج يضع عبتاسبت في مرحلة الفرضية البحثية، وليس جاهزاً للتطبيق السريري بدون بيانات استشرافية إضافية.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسة أتراب استشرافية أو دراسة قائمة على السجل تسجل على وجه التحديد المرضى الذين لديهم التهاب الأوعية الدموية الروماتويدي مؤكد بالخزعة
+- بيانات الفعالية النسبية مقابل ريتوكسيماب (معيار الرعاية الفعلي الحالي لـ RV) — بيانات رأس برأس أو بيانات سجل معايرة الأرجحية
+- معايير تصنيف المريض للتمييز بين RV المعتمد على الخلايا التائية (حيث قد يساعد عبتاسبت) من الأنواع الفرعية المهيمنة لـ ANCA أو معقدات المناعة (حيث الفائدة غير مؤكدة)
+- بيانات آلية العمل والدواعيات الكاملة من DrugBank لإكمال التحليل الميكانيكي
+- استراتيجية تسجيل SFDA للدلالة الأساسية (RA) كشرط أساسي لأي مسار تطور بالمملكة العربية السعودية
+- خطة مراقبة السلامة تتناول تفاقم التهاب الأوعية الدموية المتناقض وأحداث أمراض الكلى المرتبطة بـ ANCA
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

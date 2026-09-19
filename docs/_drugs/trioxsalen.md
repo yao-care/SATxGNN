@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Trioxsalen: From Vitiligo (PUVA Photochemotherapy) to Vaginitis
+# ترايوكسالين (Trioxsalen): من البهاق (العلاج الضوئي PUVA) إلى التهاب المهبل
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Trioxsalen is a psoralen photosensitizer traditionally used with UVA light (PUVA therapy) for vitiligo repigmentation and psoriasis; it has no marketing authorization in Saudi Arabia. The TxGNN model predicts it may be effective for **Vaginitis**, but this is a pure graph-embedding prediction with **0 clinical trials** and **0 publications** currently supporting it. Nine additional vulvovaginal-tract conditions (leukoplakia of vagina, vaginal discharge, bacterial vaginosis, etc.) scored similarly (~99.5–99.8%) and share the same evidence gap.
+ترايوكسالين (Trioxsalen) هو مادة حساسة ضوئية من فئة psoralen تُستخدم تقليدياً مع ضوء UVA (العلاج الضوئي PUVA) لإعادة تصبغ البهاق والصدفية؛ وليس لديها ترخيص تسويقي في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **التهاب المهبل**، لكن هذا تنبؤ بحت قائم على تضمين الرسم البياني بدون **0 تجارب سريرية** و**0 منشورات** تدعمه حالياً. تسع حالات إضافية تصيب منطقة الفرج والمهبل (اللويحة البيضاء في المهبل، الإفرازات المهبلية، التهاب المهبل البكتيري، إلخ) حصلت على درجات مماثلة (~99.5–99.8%) وتشترك في نفس فجوة الأدلة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in structured regulatory data (drug not marketed); per the evidence pack's mechanistic notes, trioxsalen is a psoralen used with UVA (PUVA) for vitiligo repigmentation and psoriasis |
-| Predicted New Indication | Vaginitis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only, no trials or literature) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|--------|
+| الاستخدام الأصلي | غير مسجل في البيانات التنظيمية المنظمة (الدواء غير مسوق)؛ وفقاً لملاحظات المسوغ الميكانيكي في حزمة الأدلة، ترايوكسالين (Trioxsalen) هو psoralen يُستخدم مع UVA (العلاج الضوئي PUVA) لإعادة تصبغ البهاق والصدفية |
+| الاستخدام الجديد المتنبأ به | التهاب المهبل |
+| درجة التنبؤ من TxGNN | 99.78% |
+| مستوى الدليل | L5 (تنبؤ نموذج فقط، بدون تجارب سريرية أو دراسات أدبية) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is flagged as a Data Gap in this evidence pack. What is available comes from the repurposing rationale itself: trioxsalen is a photo-activated DNA cross-linking agent, used clinically as part of PUVA therapy to induce pigmentation changes and apoptosis of hyperproliferative cells in vitiligo and psoriasis.
+تُشار بيانات آلية العمل التفصيلية كفجوة في البيانات في حزمة الأدلة هذه. ما هو متاح يأتي من المسوغ نفسه لإعادة الاستخدام: ترايوكسالين (Trioxsalen) هو عامل تفاعل cross-linking DNA منشط ضوئياً، يُستخدم سريرياً كجزء من العلاج الضوئي PUVA لتحفيز تغييرات التصبغ واستماتة الخلايا المفرطة التكاثر في البهاق والصدفية.
 
-Critically, the evidence pack's own mechanistic analysis states there is **no known link** between this mechanism and vaginitis pathophysiology — vaginitis is typically infectious or inflammatory in origin, whereas trioxsalen's activity is photochemical DNA cross-linking that requires UVA exposure at the treatment site. The rationale explicitly labels this connection "無" (none), noting the prediction is driven purely by TxGNN graph-embedding similarity rather than any pharmacological rationale.
+بشكل حاسم، يوضح التحليل الميكانيكي لحزمة الأدلة نفسها أنه **لا توجد علاقة معروفة** بين هذه الآلية وفيزيولوجيا مرض التهاب المهبل — عادة ما يكون التهاب المهبل معدياً أو التهابياً في الأصل، بينما نشاط ترايوكسالين (Trioxsalen) هو تفاعل cross-linking DNA ضوئي كيميائي يتطلب تعرضاً لـ UVA في موقع العلاج. تشير المسوغات صراحة إلى أن هذا الارتباط "無" (لا شيء)، مشيرة إلى أن التنبؤ يقوده تشابه تضمين الرسم البياني من TxGNN بحتاً بدلاً من أي مسوغ دوائي.
 
-The one biologically plausible cluster among the 10 predictions is proliferative/keratotic epithelial lesions (e.g., leukoplakia of vagina, vulvar inverted follicular keratosis, vulvar neoplasm), where PUVA's apoptosis-inducing effect on hyperproliferative tissue has a loose theoretical parallel — but even there, no local gynecological application precedent or supporting data exists, and systemic/local photosensitization carries its own safety concerns (e.g., photo-toxicity risk noted for atrophic and ulcerated mucosa in ranks 6 and 9).
+التجمع الوحيد المعقول بيولوجياً من بين التنبؤات الـ 10 هو الآفات الظهارية المتكاثرة/المتقرنة (مثل اللويحة البيضاء في المهبل، التقرن الجريبي المقلوب للفرج، ورم الفرج)، حيث يكون لتأثير العلاج الضوئي PUVA المحفز للاستماتة على الأنسجة المتكاثرة توازٍ نظري فضفاض — لكن حتى هناك، لا توجد سابقة لتطبيق موضعي في أمراض النساء ولا بيانات داعمة موجودة، والتحسس الضوئي الجهازي/الموضعي يحمل مخاطره الأمنية الخاصة (مثل خطر السمية الضوئية المذكور للغشاء المخاطي الضموري والقرحي في المراتب 6 و9).
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الدراسات الأدبية
 
-Currently no related literature available.
+لا توجد حالياً دراسات أدبية ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Trioxsalen has no marketing authorizations in Saudi Arabia (0 licenses on record); no product/dosage-form data is available to tabulate.
+ترايوكسالين (Trioxsalen) ليس لديه أي تراخيص تسويقية في المملكة العربية السعودية (0 رخصة في السجل)؛ لا توجد بيانات منتج/شكل جرعة متاحة للعرض الجدولي.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملحق معلومات الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The TxGNN score is high, but this is offset by L5 evidence (no clinical trials, no literature, no established mechanistic link — the pack's own analysis states "無" mechanistic connection to vaginitis) and the drug's complete absence from the Saudi Arabian market. There is nothing here to act on beyond the model signal itself.
+**المسوغ:**
+درجة TxGNN عالية، لكن هذا يُقابل بدليل L5 (لا توجد تجارب سريرية، لا دراسات أدبية، لا ارتباط ميكانيكي محدد — حزمة الأدلة نفسها تنص على "無" ارتباط ميكانيكي بالتهاب المهبل) وغياب الدواء الكامل من السوق السعودي. لا يوجد شيء يمكن التصرف فيه إلى ما وراء إشارة النموذج نفسه.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently blocking even a baseline safety review
-- Confirmed original indication and MOA data (DrugBank query for MOA text)
-- Preclinical or mechanistic studies exploring any plausible link between psoralen photochemistry and vulvovaginal conditions, particularly the proliferative-lesion subgroup (leukoplakia, inverted follicular keratosis, vulvar neoplasm) if this candidate is revisited
-- If pursued, an assessment of route feasibility, since PUVA requires site-directed UVA exposure not compatible with standard vaginal/vulvar administration
+**ما يلزم المتابعة به:**
+- TFDA/ملحق معلومات الدواء من الشركة المصنعة (تحذيرات، موانع استخدام) — يحجب حالياً حتى إجراء مراجعة سلامة خط الأساس
+- تأكيد بيانات الاستخدام الأصلي وآلية العمل (استعلام DrugBank لنص آلية العمل)
+- دراسات ما قبل الإكلينيكية أو دراسات ميكانيكية تستكشف أي ارتباط معقول بين الكيمياء الضوئية psoralen والحالات الجنسية الوعائية، خاصة تجمع الآفات المتكاثرة (اللويحة البيضاء، التقرن الجريبي المقلوب، ورم الفرج) إذا تمت مراجعة هذا المرشح مرة أخرى
+- إذا تمت المتابعة، تقييم جدوى المسار، لأن العلاج الضوئي PUVA يتطلب تعريضاً موجهاً نحو الموقع لـ UVA غير متوافق مع الإدارة القياسية للمهبل/الفرج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

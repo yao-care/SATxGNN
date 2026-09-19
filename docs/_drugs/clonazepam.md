@@ -29,92 +29,93 @@ indication_count: 3
 
 </div>
 
-# Clonazepam: From Epilepsy/Panic Disorder to Restless Legs Syndrome
+# كلونازيبام: من الصرع واضطراب الذعر إلى متلازمة تملك الساقين
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Clonazepam is a long-established high-potency benzodiazepine, widely used for epilepsy, panic disorder, and anxiety through enhancement of GABA-A receptor-mediated inhibition.
-The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**,
-with **no registered clinical trials** and **20 publications** currently supporting this direction — including a 2017 Cochrane systematic review and the 2025 AASM Clinical Practice Guideline.
+كلونازيبام هو بنزوديازيبين قوي جداً ثابت الاستخدام منذ زمن، يُستخدم على نطاق واسع لعلاج الصرع واضطراب الذعر واضطرابات القلق من خلال تعزيز الثبط الوسيط بواسطة مستقبلات GABA-A.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة تملك الساقين (RLS)**،
+مع **عدم وجود تجارب سريرية مسجلة** و**20 منشور** يدعم هذا الاتجاه حالياً — بما في ذلك مراجعة Cochrane المنهجية لعام 2017 و دليل الممارسة السريرية AASM لعام 2025.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Epilepsy, Panic Disorder, Anxiety Disorders (no registered products in Saudi Arabia) |
-| Predicted New Indication | Restless Legs Syndrome (RLS) |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L3 (Systematic reviews & authoritative clinical guidelines) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الإشارة الأصلية | الصرع، اضطراب الذعر، اضطرابات القلق (لا توجد منتجات مسجلة في المملكة العربية السعودية) |
+| الإشارة الجديدة المتوقعة | متلازمة تملك الساقين (RLS) |
+| درجة تنبؤ TxGNN | 99.65% |
+| مستوى الدليل | L3 (المراجعات المنهجية والإرشادات السريرية الموثوقة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Clonazepam is a high-potency, long-acting benzodiazepine that acts by potentiating GABA-A receptor-mediated chloride ion influx, thereby enhancing CNS inhibitory neurotransmission. This mechanism reduces neuronal hyperexcitability across spinal and supraspinal circuits, including those governing motor control during sleep. While detailed MOA data is not currently available from the structured data source (DrugBank query gap), clonazepam's pharmacological class and receptor target are well established in the clinical literature.
+كلونازيبام هو بنزوديازيبين قوي جداً وطويل المفعول يعمل على تعزيز الثبط الوسيط بواسطة مستقبلات GABA-A، مما يعزز تدفق أيونات الكلوريد المثبطة في الجهاز العصبي المركزي، وبالتالي تقليل فرط الاستثارة العصبية عبر الدوائر الشوكية والقشرية العليا، بما في ذلك تلك التي تحكم التحكم الحركي أثناء النوم. في حين أن بيانات آلية العمل التفصيلية غير متاحة حالياً من المصدر المنظم للبيانات (فجوة استعلام DrugBank)، فإن الفئة الدوائية لكلونازيبام والمستقبل الهدف معروفة جيداً في الأدبيات السريرية.
 
-Restless Legs Syndrome is characterised by an irresistible urge to move the legs at rest, often accompanied by unpleasant sensory dysaesthesias and Periodic Limb Movements during Sleep (PLMS). The primary pathophysiology involves dysfunction of dopaminergic and iron-metabolism pathways, making dopamine agonists the first-line standard of care. However, GABAergic circuits play a modulatory role in motor suppression during sleep — and clonazepam's capacity to suppress PLMS and consolidate sleep through sedation and motor inhibition provides a mechanistically rational, albeit symptomatic (second-line), basis for its use in RLS.
+يتميز متلازمة تملك الساقين برغبة لا تقاوم في تحريك الساقين أثناء الراحة، غالباً ما يصحبها شعور حسي غير سار وحركات الطرف الدوري أثناء النوم (PLMS). تتضمن المسببات الأساسية الأولية خللاً في المسارات الدوبامينرجية ومسارات استقلاب الحديد، مما يجعل ناهضات الدوبامين معياراً للعلاج من الدرجة الأولى. ومع ذلك، تلعب الدوائر الغابا (GABAergic) دوراً معدِّلاً في القمع الحركي أثناء النوم — وتوفر قدرة كلونازيبام على قمع PLMS وتوطيد النوم من خلال التخدير والقمع الحركي أساساً عقلانياً من الناحية الآلية، وإن كان عَرَضياً (من الدرجة الثانية)، لاستخدامه في RLS.
 
-Historically, clonazepam has been one of the most commonly employed benzodiazepines in RLS management. A 2024 historical review (PMID 38708125) covering a survey of 16,694 RLS patients found that approximately 25% were treated with benzodiazepines — with clonazepam being the most studied agent within this class for this indication. The 2025 AASM Clinical Practice Guideline and the 2017 Cochrane Systematic Review both formally acknowledge the role of clonazepam in RLS and PLMD treatment, providing strong guideline-level endorsement that directly supports the TxGNN prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no registered clinical trials (ClinicalTrials.gov or ICTRP) specifically evaluating clonazepam for restless legs syndrome have been identified.
+تاريخياً، كان كلونازيبام أحد أكثر البنزوديازيبينات استخداماً في إدارة RLS. وجدت مراجعة تاريخية عام 2024 (PMID 38708125) تغطي مسحاً لـ 16,694 مريضاً بـ RLS أن حوالي 25% تم علاجهم بالبنزوديازيبينات — مع أن كلونازيبام كان العامل الأكثر درساً ضمن هذه الفئة لهذه الإشارة. يعترف دليل الممارسة السريرية AASM لعام 2025 والمراجعة المنهجية Cochrane لعام 2017 رسمياً بدور كلونازيبام في علاج RLS و PLMD، مما يوفر موافقة قوية على مستوى الإرشادات تدعم مباشرة تنبؤ TxGNN.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Clinical Practice Guideline | J Clin Sleep Med | AASM 2025 guideline for RLS and PLMD treatment in adults and children; formally establishes evidence-based recommendations covering the role of benzodiazepines alongside dopaminergic agents |
-| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Cochrane review of benzodiazepines for RLS; found limited high-quality RCT evidence but confirmed clonazepam is widely used (~25% of treated patients) with demonstrated sleep-quality benefit |
-| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | Prospective RCT | J Mid-Life Health | Directly compared clonazepam vs nortriptyline in women >40 with RLS; evaluated rate, frequency, and severity of RLS symptoms as primary endpoints |
-| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | Randomised Double-Blind Crossover | Acta Neurol Scand | Earliest controlled trial: clonazepam significantly improved subjective sleep quality and leg dysaesthesia vs placebo in 6 RLS patients; concluded it is "safe and effective" for RLS, pending long-term confirmation |
-| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Historical Review | Tremor Other Hyperkinetic Mov | Reviewed 17 articles on clonazepam use in RLS/PLMS; survey of 16,694 patients confirmed ~25% benzodiazepine use; most comprehensive historical synthesis to date |
-| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Systematic Review & Meta-analysis | J Clin Sleep Med | Assessed pharmacological efficacy across drug classes in suppressing PLMS; clonazepam identified as an effective suppressor with quantified effect size |
-| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Evidence-Based Review | Mov Disord | Movement Disorder Society task force evidence-based review classifying therapeutic efficacy of each RLS drug; provides standardised classification of clonazepam's evidence status |
-| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Narrative Review | Neurotherapeutics | Comprehensive RLS treatment review discussing evolving standard of care; contextualises clonazepam among dopaminergic agents, alpha-2-delta ligands, and opioids |
-| [17876423](https://pubmed.ncbi.nlm.nih.gov/17876423/) | 2007 | Expert Consensus | Arq Neuropsiquiatr | Brazilian Study Group expert consensus on RLS; identifies Class I evidence agents (dopamine agonists) and places clonazepam in the secondary treatment tier |
-| [12531130](https://pubmed.ncbi.nlm.nih.gov/12531130/) | 2002 | Narrative Review | Sleep Med Rev | Global therapeutic considerations for RLS and PLMS; reviews clonazepam alongside dopaminergic, opioid, and anticonvulsant options in the pre-alpha-2-delta era |
+لم يتم تحديد أي تجارب سريرية مسجلة حالياً (ClinicalTrials.gov أو ICTRP) تقيّم بشكل خاص كلونازيبام لمتلازمة تملك الساقين.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Clonazepam currently has **no registered products** with the SFDA in Saudi Arabia. There are 0 active authorisations on record. This represents a significant regulatory gap that would need to be addressed before any clinical deployment in the Saudi Arabia market.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | دليل الممارسة السريرية | J Clin Sleep Med | دليل AASM لعام 2025 لعلاج RLS و PLMD لدى البالغين والأطفال؛ يؤسس رسمياً التوصيات القائمة على الأدلة التي تغطي دور البنزوديازيبينات جنباً إلى جنب مع عوامل الدوبامينرجية |
+| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | مراجعة منهجية (Cochrane) | Cochrane Database Syst Rev | مراجعة Cochrane للبنزوديازيبينات لـ RLS؛ وجدت أدلة محدودة من التجارب العشوائية عالية الجودة لكن أكدت أن كلونازيبام يُستخدم على نطاق واسع (~25% من المرضى المعالجين) مع فائدة نوم موثقة |
+| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | تجربة عشوائية محتملة | J Mid-Life Health | قارنت مباشرة كلونازيبام مقابل نورتريبتيلين لدى النساء > 40 سنة مع RLS؛ قيّمت معدل وتكرار وشدة أعراض RLS كنقاط نهاية أولية |
+| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | تبديل عشوائي معاشي مزدوج التعمية | Acta Neurol Scand | أقدم تجربة خاضعة للرقابة: حسّن كلونازيبام بشكل كبير جودة النوم الذاتية وعسر الساقين مقابل الدواء الوهمي لدى 6 مرضى RLS؛ خلُص إلى أنه "آمن وفعال" لـ RLS، في انتظار التأكيد على المدى الطويل |
+| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | مراجعة تاريخية | Tremor Other Hyperkinetic Mov | راجعت 17 مقالة عن استخدام كلونازيبام في RLS/PLMS؛ مسح 16,694 مريضاً أكد ~25% استخدام البنزوديازيبينات؛ أشمل تجميع تاريخي إلى الآن |
+| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | مراجعة منهجية وتحليل تلوي | J Clin Sleep Med | قيّمت الفعالية الدوائية عبر فئات الأدوية في قمع PLMS؛ تم تحديد كلونازيبام كمثبط فعال مع حجم تأثير كمي |
+| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | مراجعة قائمة على الأدلة | Mov Disord | مراجعة قوة المهمة بناءً على الأدلة لجمعية اضطرابات الحركة تصنف الفعالية العلاجية لكل عقار RLS؛ توفر تصنيفاً موحداً لحالة أدلة كلونازيبام |
+| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | مراجعة سردية | Neurotherapeutics | مراجعة شاملة لعلاج RLS تناقش المعيار المتطور للعناية؛ توضع كلونازيبام ضمن عوامل الدوبامينرجية وليغاندات ألفا-2-دلتا والمواد الأفيونية |
+| [17876423](https://pubmed.ncbi.nlm.nih.gov/17876423/) | 2007 | إجماع الخبراء | Arq Neuropsiquiatr | إجماع مجموعة الدراسة البرازيلية حول RLS؛ تحديد عوامل الدليل من الفئة الأولى (ناهضات الدوبامين) وتصنيف كلونازيبام في الطبقة الثانوية للعلاج |
+| [12531130](https://pubmed.ncbi.nlm.nih.gov/12531130/) | 2002 | مراجعة سردية | Sleep Med Rev | الاعتبارات العلاجية العالمية لـ RLS و PLMS؛ مراجعة كلونازيبام جنباً إلى جنب مع خيارات دوبامينرجية وأفيونية ومضادات تشنج في العصر السابق للفا-2-دلتا |
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Formal safety data (package insert warnings, contraindications, and DDI profile) is not available in the current evidence pack. Please refer to the package insert for safety information.
-
-> **Clinical note for pharmacist review:** Clonazepam belongs to the benzodiazepine class. Key safety considerations documented in the broader clinical literature include: physical dependence and tolerance risk with long-term use; next-day residual sedation due to long half-life (18–60 hours); cognitive impairment, particularly in elderly patients; increased fall risk; and Schedule IV controlled substance status in many jurisdictions. These characteristics classify it as a second-line agent for RLS and necessitate a structured monitoring protocol for any repurposing pathway.
+كلونازيبام حالياً **لا يحتوي على منتجات مسجلة** لدى SFDA في المملكة العربية السعودية. لا توجد تفاويضات نشطة على السجل. يمثل هذا فجوة تنظيمية كبيرة ستحتاج إلى معالجة قبل أي نشر سريري في سوق المملكة العربية السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Proceed with Guardrails**
+لا تتوفر بيانات الأمان الرسمية (تحذيرات الملصق، موانع الاستعمال، وملف التفاعلات الدوائية) في حزمة الأدلة الحالية. يرجى الرجوع إلى الملصق للحصول على معلومات الأمان.
 
-**Rationale:**
-The 2025 AASM Clinical Practice Guideline and the 2017 Cochrane Systematic Review — both Tier 1 evidence sources — formally acknowledge clonazepam as a recognised second-line treatment for RLS and PLMD. At least one prospective RCT (PMID 31942156) directly evaluated clonazepam in RLS patients, and the earliest randomised double-blind crossover trial dates to 1984. GABAergic suppression of PLMS provides a mechanistically coherent basis. However, no large Phase 3 RCTs exist, no registered clinical trials are currently active for this indication, clonazepam is not marketed in Saudi Arabia, and its dependence and cognitive-impairment liability impose meaningful guardrails.
+> **ملاحظة سريرية لمراجعة الصيدلي:** ينتمي كلونازيبام إلى فئة البنزوديازيبينات. تشمل اعتبارات الأمان الرئيسية الموثقة في الأدبيات السريرية الأوسع: خطر الاعتماد البدني والتسامح مع الاستخدام طويل الأمد؛ التخدير الناتج عن المتبقيات من اليوم التالي بسبب نصف العمر الطويل (18–60 ساعة)؛ الضعف المعرفي، خاصة لدى المرضى المسنين؛ زيادة خطر السقوط؛ وحالة المادة المنظمة من الجدول الرابع في العديد من الولايات القضائية. تصنف هذه الخصائص أنه عامل علاج من الدرجة الثانية لـ RLS وتتطلب بروتوكول مراقبة منظم لأي مسار إعادة توظيف.
 
-**To proceed, the following is needed:**
+---
 
-- **Regulatory pathway assessment:** Confirm the SFDA registration strategy and controlled substance scheduling classification in Saudi Arabia before any clinical use
-- **Full safety profile:** Obtain and review the complete package insert (warnings, contraindications, black-box warnings if applicable), which is currently a Blocking data gap (DG001)
-- **MOA documentation:** Retrieve structured MOA data from DrugBank to complete the mechanistic linkage analysis (DG002)
-- **DDI profile:** Conduct a targeted DDI review — particularly relevant for RLS patients who may be co-administered dopamine agonists, iron supplements, or CNS depressants
-- **Population-specific risk stratification:** Establish monitoring protocols for elderly patients (fall risk, cognitive effects) and patients with substance-use history (dependence risk), given that RLS is prevalent in older adults
-- **Comparative effectiveness positioning:** Define the intended place-in-therapy (e.g., for patients refractory or intolerant to dopamine agonists and alpha-2-delta ligands) to guide target population selection and benefit-risk framing
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات**
+
+**المبرر:**
+يعترف دليل الممارسة السريرية AASM لعام 2025 والمراجعة المنهجية Cochrane لعام 2017 — كلاهما من مصادر الدليل من المستوى الأول — رسمياً بكلونازيبام كعلاج معترف به من الدرجة الثانية لـ RLS و PLMD. تقيّم تجربة عشوائية محتملة واحدة على الأقل (PMID 31942156) كلونازيبام مباشرة لدى مرضى RLS، وتعود أقدم تجربة عشوائية معاشية مزدوجة التعمية إلى عام 1984. يوفر قمع الغابا (GABAergic) لـ PLMS أساساً متسقاً آلياً. ومع ذلك، لا توجد تجارب سريرية كبيرة من المرحلة الثالثة، لا توجد تجارب سريرية مسجلة حالياً نشطة لهذه الإشارة، كلونازيبام لم يُسوق في المملكة العربية السعودية، وتفرض مسؤولياته المتعلقة بالاعتماد والضعف المعرفي ضمانات ذات مغزى.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **تقييم المسار التنظيمي:** تأكيد استراتيجية تسجيل SFDA وتصنيف المادة المنظمة في المملكة العربية السعودية قبل أي استخدام سريري
+- **الملف الأمني الكامل:** الحصول على ومراجعة ملصق شامل (التحذيرات، موانع الاستعمال، تحذيرات الصندوق الأسود إن وجدت)، وهو حالياً فجوة بيانات حرجة (DG001)
+- **توثيق آلية العمل:** استرجاع بيانات آلية العمل المنظمة من DrugBank لإكمال تحليل الارتباط الآلي (DG002)
+- **ملف التفاعلات الدوائية:** إجراء مراجعة مستهدفة للتفاعلات الدوائية — ذات صلة بشكل خاص لمرضى RLS الذين قد يُعطون ناهضات الدوبامين أو مكملات الحديد أو مثبطات الجهاز العصبي المركزي
+- **تقسيم المخاطر الخاص بالسكان:** إنشاء بروتوكولات مراقبة للمرضى المسنين (خطر السقوط والتأثيرات المعرفية) والمرضى الذين لديهم تاريخ من تعاطي المواد (خطر الاعتماد)، بالنظر إلى أن RLS منتشرة لدى البالغين الأكبر سناً
+- **توضيح الفعالية المقارنة:** تحديد المكان المقصود في العلاج (مثلاً، للمرضى المقاومين أو غير المتحملين لناهضات الدوبامين وليغاندات ألفا-2-دلتا) لتوجيه اختيار السكان المستهدفين وتقديم العلاقة بين المنفعة والضرر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

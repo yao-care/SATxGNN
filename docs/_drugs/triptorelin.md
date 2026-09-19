@@ -29,80 +29,79 @@ indication_count: 10
 
 </div>
 
-Using the given report prompt template directly (no additional skill applies — this is a self-contained content-generation task per explicit spec already provided).
+# التيبتوريلين: من البلوغ المبكر المركزي (مستنتج) إلى فرط الشعر
 
-# Triptorelin: From Central Precocious Puberty (Inferred) to Hypertrichosis
+## ملخص بجملة واحدة
 
-## One-Sentence Summary
-
-Triptorelin is a long-acting GnRH agonist; this evidence pack does not record its original approved indication(s), but the pack's own analysis of a lower-ranked prediction (precocious puberty, L1 evidence) strongly suggests central precocious puberty is its actual core, already-approved use — a data gap that should be corrected upstream. The TxGNN model's top-ranked new prediction is **Hypertrichosis (disease)**, but this is currently supported by only **1 incidental case report** and **no clinical trials**, where triptorelin was a background medication rather than the studied intervention.
+التيبتوريلين هو ناهض طويل المفعول لمستقبلات الهرمون المحرر للموجهات السينية؛ هذه مجموعة الدليل لا تسجل دواعي الاستعمال المعتمدة الأصلية لها، لكن تحليل المجموعة نفسها لتنبؤ مصنف أقل درجة (البلوغ المبكر، L1) يقترح بقوة أن البلوغ المبكر المركزي هو استخدامه الأساسي الفعلي المعتمد بالفعل — وهي فجوة بيانات يجب تصحيحها في المصدر. أفضل تنبؤ جديد من نموذج TxGNN هو **فرط الشعر (disease)**، لكنه يدعمه حالياً فقط **تقرير حالة واحد عرضي** و**لا توجد تجارب سريرية**، حيث كان التيبتوريلين دواءً في الخلفية وليس التدخل المدروس.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not recorded in source data. The pack's rank-8 analysis (precocious puberty, L1 evidence) indicates this is likely triptorelin's true core indication — flagged as an upstream data gap needing correction, not a confirmed label. |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير مسجل في بيانات المصدر. تحليل المجموعة من الترتيب 8 (البلوغ المبكر، L1) يشير إلى أن هذا هو على الأرجح الاستطباب الأساسي الحقيقي للتيبتوريلين — تم تصنيفه كفجوة بيانات في المصدر تحتاج إلى تصحيح، وليس دواعي استعمال مؤكدة. |
+| الاستطباب الجديد المتوقع | فرط الشعر (disease) |
+| درجة تنبؤ TxGNN | 99.997% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | احتفظ بها |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, triptorelin is a GnRH agonist that, through continuous receptor stimulation, desensitizes pituitary GnRH receptors and suppresses downstream gonadotropin (LH/FSH) and sex-steroid output. This axis-suppression mechanism is the basis for its well-established, heavily trial-supported use in conditions like central precocious puberty (see rank 8 in this same pack).
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في مجموعة الدليل هذه (تم تصنيفها كفجوة بيانات ذات درجة خطورة عالية). بناءً على الصيدلة المعروفة، التيبتوريلين هو ناهض للهرمون المحرر للموجهات السينية الذي، من خلال تحفيز المستقبلات المستمر، يجعل مستقبلات الهرمون المحرر للموجهات السينية في الغدة النخامية غير حساسة ويقمع إنتاج هرمونات الغدد التناسلية (LH/FSH) والستيرويدات الجنسية. هذه آلية قمع المحور هي أساس استخدامه المعروف جيداً والمدعوم كثيراً بالتجارب في حالات مثل البلوغ المبكر المركزي (انظر الترتيب 8 في هذه المجموعة نفسها).
 
-Hair growth is partly androgen-dependent, so in theory suppressing testosterone via triptorelin could reduce androgen-driven hair growth — the rationale behind ranking hypertrichosis highly. However, the only literature identified (PMID 41822646) is a case report of a transgender woman on testosterone-blocking therapy (including triptorelin) who developed generalised hypertrichosis attributed specifically to **concurrent ciclosporin**, not to triptorelin or androgen suppression. Triptorelin appears only as background/unrelated concomitant medication, and the direction of any real triptorelin effect on hypertrichosis (protective, neutral, or irrelevant) is not established. This is indirect, non-designed evidence and does not constitute mechanistic validation of the prediction.
+نمو الشعر يعتمد جزئياً على الأندروجين، لذا من حيث المبدأ قد يقلل قمع هرمون التستوستيرون عبر التيبتوريلين من نمو الشعر المعتمد على الأندروجين — وهي الأساس المنطقي لترتيب فرط الشعر بدرجة عالية. ومع ذلك، فإن المحتوى الوحيد المحدد (PMID 41822646) هو تقرير حالة لامرأة عابرة جنس تتناول علاج محصر للأندروجين (بما فيه التيبتوريلين) أصيبت بفرط شعر معمم يُنسب تحديداً إلى **الحلقة (ciclosporin) المصاحبة المتزامنة**، وليس إلى التيبتوريلين أو قمع الأندروجين. يظهر التيبتوريلين فقط كدواء في الخلفية/دواء غير ذي صلة، ولم يتم إثبات اتجاه أي تأثير حقيقي للتيبتوريلين على فرط الشعر (وقائي أو محايد أو غير ذي صلة). هذا دليل غير مباشر وغير مصمم بشكل مقصود ولا يشكل التحقق من الآلية من التنبؤ.
 
-Separately, note that the original_indications field is empty in the source data — a data gap, not a "no indications" finding. The pack's own rank-8 rationale explicitly flags that precocious puberty is likely triptorelin's existing core indication (supported by 9 clinical trials, several completed Phase 3, and 20 literature items) rather than a true repurposing opportunity, and recommends the upstream data pipeline be corrected accordingly.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+بشكل منفصل، لاحظ أن حقل original_indications فارغ في بيانات المصدر — فجوة بيانات وليس اكتشاف "بدون دواعي استعمال". يوضح تبرير المجموعة من الترتيب 8 بشكل صريح أن البلوغ المبكر هو على الأرجح دواعي الاستعمال الأساسية الموجودة للتيبتوريلين (مدعومة بـ 9 تجارب سريرية، عدة منها أكملت المرحلة 3، و 20 عنصر أدبي) وليس فرصة إعادة استخدام حقيقية، وتوصي بأن يتم تصحيح خط أنابيب البيانات المصدر وفقاً لذلك.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report (adverse effect of a different drug) | Cureus | Transgender woman on testosterone-blocking therapy (incl. triptorelin) developed generalised hypertrichosis attributed to concurrent ciclosporin, not to triptorelin or androgen suppression; triptorelin was background medication only, not the studied intervention. |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-No marketing authorizations recorded. Per this evidence pack, triptorelin is not currently marketed in Saudi Arabia (0 authorizations).
-
----
-
-## Safety Considerations
-
-Key safety data (warnings, contraindications, DDI) are unavailable in this evidence pack. Notably, the TFDA package insert lookup is flagged as a **Blocking**-severity data gap — safety data cannot be resolved by internal query and requires manual retrieval (download and parse the TFDA package insert PDF) before this candidate can enter S1 safety pre-assessment.
-
-Please refer to the package insert for safety information once available.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | تقرير حالة (تأثير سلبي لدواء مختلف) | Cureus | امرأة عابرة جنس تتناول علاج محصر للأندروجين (بما فيه التيبتوريلين) أصيبت بفرط شعر معمم يُنسب إلى الحلقة (ciclosporin) المصاحبة المتزامنة، وليس إلى التيبتوريلين أو قمع الأندروجين؛ كان التيبتوريلين دواءً في الخلفية فقط، وليس التدخل المدروس. |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+لا توجد ترخيصات تسويقية مسجلة. وفقاً لمجموعة الدليل هذه، التيبتوريلين غير مسوقة حالياً في المملكة العربية السعودية (0 ترخيص).
 
-**Rationale:**
-The rank-1 prediction (hypertrichosis) rests on a single incidental case report in which triptorelin was not the intervention under study, with no supporting clinical trials — evidence level L4 at best, insufficient for progression. A Blocking-severity safety data gap (no TFDA label available) also prevents even an initial safety screen (S1).
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently Blocking; requires manual PDF retrieval and parsing
-- Confirmed mechanism of action documentation from DrugBank (currently a data gap)
-- Correction of the original_indications field upstream — this pack's own rank-8 evidence (9 trials, 20 publications, L1) strongly suggests central precocious puberty is triptorelin's actual core indication, misrecorded as empty
-- Purpose-designed studies evaluating triptorelin specifically for hypertrichosis (none currently exist); the current single case report does not support this indication
+## اعتبارات السلامة
+
+بيانات السلامة الرئيسية (تحذيرات، موانع الاستعمال، التفاعلات الدوائية) غير متاحة في مجموعة الدليل هذه. بشكل ملحوظ، تم تصنيف البحث في نشرة الدواء الصادرة عن إدارة الغذاء والدواء التايلاندية كفجوة بيانات ذات درجة خطورة حجب — لا يمكن حل بيانات السلامة من خلال الاستعلام الداخلي وتتطلب استرجاع يدوي (تحميل وتحليل ملف PDF لنشرة الدواء) قبل أن يتمكن هذا المرشح من الدخول إلى التقييم الأولي للسلامة S1.
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة بمجرد توفرها.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ بها**
+
+**الأساس المنطقي:**
+التنبؤ من الترتيب الأول (فرط الشعر) يعتمد على تقرير حالة واحد عرضي فقط كان فيه التيبتوريلين ليس التدخل المدروس، بدون تجارب سريرية داعمة — مستوى دليل L4 على الأفضل، غير كاف للمتابعة. كما يحول دون حتى فحص السلامة الأولي (S1) فجوة بيانات حجب ذات درجة خطورة (لا يوجد تسمية من إدارة الغذاء والدواء التايلاندية متاحة).
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة الدواء الصادرة عن إدارة الغذاء والدواء التايلاندية (تحذيرات/موانع استعمال) — حالياً حجب؛ تتطلب استرجاع يدوي وتحليل ملف PDF
+- توثيق آلية العمل المؤكدة من DrugBank (حالياً فجوة بيانات)
+- تصحيح حقل original_indications في المصدر — دليل المجموعة من الترتيب 8 (9 تجارب، 20 منشور، L1) يقترح بقوة أن البلوغ المبكر المركزي هو دواعي الاستعمال الأساسية الحقيقية للتيبتوريلين، تم تسجيله بشكل خاطئ كفارغ
+- دراسات مصممة بشكل مقصود تقيّم التيبتوريلين تحديداً لفرط الشعر (لا توجد حالياً)؛ تقرير الحالة الواحد الحالي لا يدعم هذا الاستطباب
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

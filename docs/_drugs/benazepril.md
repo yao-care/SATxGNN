@@ -29,82 +29,83 @@ indication_count: 5
 
 </div>
 
-# Benazepril: From Hypertension to Malignant Renovascular Hypertension
+# البينازيبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الخبيث
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Benazepril is an ACE (angiotensin-converting enzyme) inhibitor, a drug class established for treating hypertension and cardiovascular-renal conditions, though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**,
-with **no registered clinical trials** and **no direct publications** currently identified for this specific drug-disease pair — however, the prediction is strongly supported by ACE inhibitor class-effect mechanistic evidence, as renovascular hypertension is driven by the very pathway this drug class blocks.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hypertension / cardiovascular-renal protection (ACE inhibitor class; not registered in Saudi Arabia) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+البينازيبريل هو مثبط الإنزيم المحول للأنجيوتنسين (ACE)، وهي فئة من الأدوية المعروفة لعلاج ارتفاع ضغط الدم والحالات القلبية الكلوية، على الرغم من أنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ارتفاع ضغط الدم الكلوي الخبيث**،
+مع **عدم وجود تجارب سريرية مسجلة** و**عدم وجود منشورات مباشرة** تم تحديدها حالياً لزوج الدواء-المرض المحدد هذا — ومع ذلك، يدعم التنبؤ بقوة دليل الآلية الحيوية لتأثير فئة مثبطات ACE، حيث أن ارتفاع ضغط الدم الكلوي يحركه المسار نفسه الذي تعطله هذه الفئة من الأدوية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## لمحة سريعة
 
-Benazepril belongs to the ACE inhibitor (ACEi) drug class. Although formal DrugBank MOA data is currently unavailable, ACE inhibitors work by blocking the renin-angiotensin system (RAS): they inhibit the enzymatic conversion of angiotensin I to angiotensin II, thereby reducing systemic vasoconstriction, lowering blood pressure, and suppressing aldosterone-mediated sodium retention.
-
-Malignant renovascular hypertension is mechanistically defined by pathological overactivation of the renin-angiotensin system — typically triggered by renal artery stenosis causing ischemia-driven renin hypersecretion. This creates an angiotensin II surge that drives severe, rapidly progressive hypertension with end-organ damage (retinopathy, encephalopathy, renal failure). ACE inhibitors directly interrupt this disease-driving pathway at its effector step, making the TxGNN prediction biologically compelling and consistent with established pharmacology.
-
-There is, however, a critical safety paradox that governs clinical applicability: ACE inhibitors are **contraindicated** in bilateral renal artery stenosis (bilateral RAS) and in stenosis of a solitary functioning kidney. In these anatomical configurations, glomerular filtration is maintained by angiotensin II-mediated efferent arteriolar constriction — blocking this compensatory mechanism with an ACEi precipitates acute renal failure. Careful pre-treatment anatomical screening (renal Doppler ultrasound or MR angiography) to confirm unilateral disease is therefore a non-negotiable prerequisite before any clinical use.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Benazepril in malignant renovascular hypertension.
+| العنصر | المحتوى |
+|-------|---------|
+| الاستطباب الأصلي | ارتفاع ضغط الدم / الحماية القلبية الكلوية (فئة مثبطات ACE؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | ارتفاع ضغط الدم الكلوي الخبيث |
+| درجة تنبؤ TxGNN | 99.65% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع ضمانات أمان |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no direct publications linking Benazepril specifically to malignant renovascular hypertension are available.
+ينتمي البينازيبريل إلى فئة مثبطات الإنزيم المحول للأنجيوتنسين (ACEi). على الرغم من عدم توفر بيانات آلية العمل الرسمية من DrugBank حالياً، تعمل مثبطات ACE بحجب نظام الرينين-أنجيوتنسين (RAS): فهي تمنع التحويل الإنزيمي للأنجيوتنسين الأول إلى أنجيوتنسين الثاني، مما يقلل بالتالي من انقباض الأوعية الجهازي وخفض ضغط الدم وتثبيط احتباس الصوديوم الوسيط للدوستيرون.
 
-> **Note on class-effect evidence:** Large RCTs with other ACE inhibitors provide indirect mechanistic support. The REIN trial (ramipril) demonstrated significant renoprotection in hypertensive nephropathy, and multiple studies confirm ACEi as first-line therapy for non-bilateral renovascular hypertension. Transferability of this class evidence to benazepril requires evaluation but is pharmacologically plausible.
+يتم تعريف ارتفاع ضغط الدم الكلوي الخبيث من الناحية الآلية بالتنشيط المرضي المفرط لنظام الرينين-أنجيوتنسين — عادة ما يثيره تضيق الشرايين الكلوية مسبباً نقص التروية والإفراط في إفراز الرينين. هذا يخلق فيضان أنجيوتنسين الثاني الذي يحرك ارتفاع ضغط الدم الشديد والسريع التطور مع إلحاق الضرر بالأعضاء النهائية (اعتلال الشبكية، الاعتلال الدماغي، الفشل الكلوي). تقطع مثبطات ACE مباشرة هذا المسار الذي يحرك المرض في خطوة مؤثرة، مما يجعل تنبؤ TxGNN مقنعاً بيولوجياً ومتسقاً مع الأدوية المعترف بها.
 
----
-
-## Saudi Arabia Market Information
-
-Benazepril is not currently registered or marketed in Saudi Arabia. No authorization records are on file. Any clinical use would require regulatory pathway assessment via the Saudi Food and Drug Authority (SFDA) prior to deployment.
+ومع ذلك، هناك مفارقة أمان حرجة تحكم التطبيق السريري: مثبطات ACE **ممنوع استخدامها** في تضيق الشرايين الكلوية الثنائي (RAS ثنائي الجانب) وفي تضيق شرايين كلية وحيدة نافعة. في هذه التشكيلات التشريحية، يتم الحفاظ على الترشيح الكبيبي عن طريق انقباض الشريان الناشر الوسيط للأنجيوتنسين الثاني — منع هذه الآلية التعويضية مع ACEi يؤدي إلى الفشل الكلوي الحاد والذي قد يكون غير قابل للرجوع. بالتالي فإن الفحص التشريحي الدقيق قبل العلاج (الموجات فوق الصوتية دوبلر الكلوية أو تصوير الأوعية بالرنين المغناطيسي) لتأكيد المرض أحادي الجانب هو شرط أساسي لا يمكن تجاهله قبل أي استخدام سريري.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-> **Critical class-level warning:** ACE inhibitors (including benazepril) are contraindicated in bilateral renal artery stenosis and in renal artery stenosis of a solitary kidney. Administering an ACEi in these patients can precipitate acute, potentially irreversible renal failure. In the clinical context of renovascular hypertension evaluation, pre-treatment vascular imaging to exclude bilateral stenosis is mandatory before any ACEi therapy is considered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة للبينازيبريل في ارتفاع ضغط الدم الكلوي الخبيث.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Proceed with Guardrails**
+لا تتوفر حالياً أي منشورات مباشرة تربط البينازيبريل على وجه التحديد بارتفاع ضغط الدم الكلوي الخبيث.
 
-**Rationale:**
-The TxGNN model identifies a mechanistically compelling prediction: ACE inhibitors directly block the renin-angiotensin system that drives malignant renovascular hypertension, and class-effect evidence from RCTs (e.g., ramipril REIN trial) provides credible indirect biological support. The prediction is not speculative — it reflects established cardiovascular pharmacology. However, no benazepril-specific clinical trials or literature exist for this indication, the drug is unregistered in Saudi Arabia, and the bilateral RAS contraindication introduces a safety-critical patient selection requirement that must be operationalized before any trial or clinical use.
+> **ملاحظة حول دليل تأثير الفئة:** تقدم التجارب العشوائية المضبوطة الكبرى مع مثبطات ACE أخرى دعماً آلياً غير مباشر. أظهرت تجربة REIN (رامبريل) حماية كلوية كبيرة في اعتلال الكلى الارتفاعي الضغطي، وتؤكد دراسات متعددة أن ACEi هي علاج الخط الأول لارتفاع ضغط الدم الوعائي الكلوي غير الثنائي. إن نقل دليل فئة هذا إلى البينازيبريل يتطلب التقييم لكنه محتمل دوائياً.
 
-**To proceed, the following is needed:**
-- Retrieve formal MOA data from DrugBank (resolves data gap DG002) to confirm class membership and receptor binding profile
-- Download and parse the benazepril package insert to document contraindications and warnings (resolves data gap DG001)
-- Assess SFDA regulatory pathway for a currently unregistered drug (market access prerequisite)
-- Define a mandatory pre-treatment imaging protocol (renal Doppler or MRA) to screen out bilateral RAS patients before any clinical evaluation
-- Conduct a systematic literature review of class-effect ACEi data in renovascular hypertension to formally map transferability to benazepril
-- Design an exploratory case series or single-arm pilot study in confirmed unilateral renovascular hypertension patients with close renal function monitoring
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+البينازيبريل غير مسجل حالياً أو مسوق في المملكة العربية السعودية. لا توجد سجلات ترخيص على الملف. أي استخدام سريري سيتطلب تقييم المسار التنظيمي عبر الهيئة السعودية للغذاء والدواء (SFDA) قبل النشر.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+> **تحذير حرج على مستوى الفئة:** مثبطات ACE (بما فيها البينازيبريل) ممنوع استخدامها في تضيق الشرايين الكلوية الثنائي وفي تضيق شرايين كلية وحيدة نافعة. إعطاء ACEi في هؤلاء المرضى يمكن أن يؤدي إلى الفشل الكلوي الحاد والذي قد يكون غير قابل للرجوع. في السياق السريري لتقييم ارتفاع ضغط الدم الوعائي الكلوي، فإن تصوير الأوعية قبل العلاج لاستبعاد تضيق ثنائي الجانب هو إجراء إلزامي قبل النظر في أي علاج ACEi.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات أمان**
+
+**المبررات:**
+يحدد نموذج TxGNN تنبؤاً مقنعاً من الناحية الآلية: تقطع مثبطات ACE مباشرة نظام الرينين-أنجيوتنسين الذي يحرك ارتفاع ضغط الدم الكلوي الخبيث، ويوفر دليل تأثير الفئة من التجارب العشوائية المضبوطة (مثل تجربة REIN مع رامبريل) دعماً بيولوجياً غير مباشر معقول. التنبؤ ليس تخميناً — فهو يعكس أدوية القلب المعترف بها. ومع ذلك، لا توجد تجارب سريرية محددة للبينازيبريل أو أدبيات لهذا الاستطباب، والدواء غير مسجل في المملكة العربية السعودية، وتحذير RAS الثنائي يقدم متطلب اختيار مريض حرج من حيث السلامة يجب تفعيله قبل أي تجربة أو استخدام سريري.
+
+**للمتابعة، ما يلي مطلوب:**
+- استرجاع بيانات آلية العمل الرسمية من DrugBank (يحل فجوة البيانات DG002) لتأكيد عضوية الفئة وملف تعريف الارتباط بالمستقبل
+- تحميل وتحليل نشرة البينازيبريل لتوثيق الموانع والتحذيرات (يحل فجوة البيانات DG001)
+- تقييم المسار التنظيمي SFDA لدواء غير مسجل حالياً (شرط وصول السوق)
+- تحديد بروتوكول تصوير إلزامي قبل العلاج (دوبلر كلوي أو تصوير الأوعية بالرنين المغناطيسي) لفحص مرضى RAS الثنائي قبل أي تقييم سريري
+- إجراء مراجعة منهجية للأدبيات لبيانات تأثير فئة ACEi في ارتفاع ضغط الدم الوعائي الكلوي لرسم قابلية النقل إلى البينازيبريل رسمياً
+- تصميم سلسلة حالات استكشافية أو دراسة تجريبية أحادية الذراع في مرضى تضيق وعائي كلوي أحادي الجانب مؤكد مع مراقبة وظائف كلوية عن كثب
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

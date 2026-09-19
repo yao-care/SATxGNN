@@ -29,101 +29,102 @@ indication_count: 10
 
 </div>
 
-# Brentuximab Vedotin: From Hodgkin Lymphoma / Systemic ALCL to Follicular Lymphoma
+# بريتوكسيماب فيدوتين: من لمفومة هودجكين/سرطان الخلايا اللاإلتهابية الكبيرة الجهازي إلى لمفومة الجريبات
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Brentuximab Vedotin (BV, Adcetris®) is an anti-CD30 antibody-drug conjugate approved globally for Classical Hodgkin Lymphoma and Systemic Anaplastic Large Cell Lymphoma, though not yet registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Follicular Lymphoma**, with **6 clinical trials** and **20 publications** currently supporting this direction.
-Evidence sits at the L3 level — driven by exploratory Phase 2 data and a biomarker-selected (CD30+) patient rationale, with a concerning pattern of trial withdrawals and terminations that warrants careful interpretation.
+بريتوكسيماب فيدوتين (BV، Adcetris®) هو مُترافق جسم مضاد-دواء موجه ضد CD30 معتمد عالمياً لعلاج لمفومة هودجكين الكلاسيكية وسرطان الخلايا اللاإلتهابية الكبيرة الجهازي، غير أنه لم يتم تسجيله بعد في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بقد يكون فعالاً في **لمفومة الجريبات**، مع **6 تجارب سريرية** و**20 منشوراً** تدعم حالياً هذا الاتجاه.
+مستوى الأدلة هو L3 — مدفوع ببيانات المرحلة الثانية الاستكشافية ومنطق المريض المحدد بالمؤشر الحيوي (CD30+)، مع نمط مثير للقلق من انسحابات وإنهاءات التجارب يستحق تفسيراً دقيقاً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Classical Hodgkin Lymphoma / Systemic Anaplastic Large Cell Lymphoma (global approvals; not registered in Saudi Arabia) |
-| Predicted New Indication | Follicular Lymphoma |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | لمفومة هودجكين الكلاسيكية / سرطان الخلايا اللاإلتهابية الكبيرة الجهازي (الموافقات العالمية؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | لمفومة الجريبات |
+| درجة تنبؤ TxGNN | 99.89% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data was not returned from the database query. Based on known pharmacology, Brentuximab Vedotin is an antibody-drug conjugate in which the anti-CD30 monoclonal antibody brentuximab is covalently linked to monomethyl auristatin E (MMAE), a potent microtubule-disrupting agent. When BV binds to a CD30-expressing cancer cell, the conjugate is internalized, MMAE is released intracellularly, and the resulting microtubule disruption leads to G2/M cell-cycle arrest and apoptosis. This mechanism is well-characterized in CD30-high malignancies — Classical Hodgkin Lymphoma and sALCL — where BV is an established standard of care.
+لم تُرجع البيانات التفصيلية لآلية العمل من استعلام قاعدة البيانات. بناءً على الصيدلة المعروفة، بريتوكسيماب فيدوتين هو مُترافق جسم مضاد-دواء يتم فيه الربط التساهمي بين الجسم المضاد أحادي النسيلة المضاد لـ CD30 (بريتوكسيماب) وحمض monomethyl auristatin E (MMAE)، وهو عامل قوي لتثبيط الأنابيب الدقيقة. عند ارتباط BV بخلية سرطانية معبّرة عن CD30، يحدث امتصاص المُترافق، ويتم تحرير MMAE داخل الخلية، مما يؤدي إلى تعطل الأنابيب الدقيقة وتوقف دورة الخلية في المرحلة G2/M والاستماتة. هذه الآلية موثقة بشكل جيد في الأورام الخبيثة عالية CD30 — لمفومة هودجكين الكلاسيكية وسرطان الخلايا اللاإلتهابية الكبيرة الجهازي — حيث يعتبر BV معياراً موضوعاً للعناية.
 
-Follicular lymphoma (FL) is a B-cell indolent lymphoma in which CD30 expression is typically low or absent on standard disease cells. However, a clinically meaningful subset undergoes histological transformation — most notably transformation to CD30+ Anaplastic Large Cell Lymphoma — where the mechanistic rationale for BV becomes direct and compelling. A published case report (PMID 32476657) documents complete response to BV in a patient with Grade I FL that transformed to CD30+ ALK1-negative ALCL, providing proof-of-concept at the patient level. Even outside of overt transformation, some FL tumors express CD30 on a proportion of cells, and CD30 IHC can prospectively identify candidates.
+لمفومة الجريبات (FL) هي لمفومة من خلايا B-المسترخية التي يكون فيها تعبير CD30 منخفضاً عادةً أو غائباً على خلايا المرض المعيارية. ومع ذلك، فإن مجموعة ذات دلالة سريرية تخضع لتحول نسيجي — وأبرزها التحول إلى سرطان الخلايا اللاإلتهابية الكبيرة CD30+ — حيث يصبح المبرر الآلي لـ BV مباشراً وقوياً. تُوثّق تقارير حالات منشورة (PMID 32476657) استجابة كاملة لـ BV عند مريض مصاب بـ Grade I FL تحول إلى CD30+ ALK1-negative ALCL، مما يوفر إثبات المفهوم على مستوى المريض. حتى خارج التحول الواضح، تعبّر بعض أورام FL عن CD30 على نسبة من الخلايا، وبإمكان CD30 IHC تحديد المرشحين بشكل استقرائي.
 
-The TxGNN prediction is biologically plausible within the context of a biomarker-selected population. The key constraint is that CD30-positive FL represents a small fraction of all FL patients, making mandatory pre-treatment CD30 IHC screening (typically ≥10% positive threshold) a prerequisite for any treatment application. The currently recruiting trial NCT04587687 — specifically designed for BV + Bendamustine in relapsed/refractory FL — provides the most direct signal of clinical feasibility, though results are not yet mature.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Phase 2 | Recruiting | 23 | BV + Bendamustine directly targeting R/R FL; the most relevant ongoing trial, providing a direct feasibility signal for this indication |
-| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Phase 2 | Terminated | 25 | Rituximab + Bendamustine ± BV for R/R CD30+ DLBCL; early termination may reflect enrollment difficulty in CD30+ B-cell NHL or insufficient efficacy signal |
-| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Phase 1/2 | Terminated | 20 | BV + Rituximab as frontline for CD30+/EBV+ lymphomas including FL subset; small terminated trial providing safety data for FL subgroup |
-| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Phase 2 | Withdrawn | 0 | RBv induction followed by RBvB for newly diagnosed post-transplant lymphoproliferative disorders with CD20/CD30 expression; withdrawn before enrollment |
-| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Phase 2 | Withdrawn | 0 | BV + Pembrolizumab for recurrent systemic PTCL; withdrawn before enrollment — conceptually interesting combination, no execution data |
-| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Phase 2 | Withdrawn | 0 | BV + Bendamustine + Rituximab for R/R CD30+ B-cell NHL; withdrawn before enrollment — multiple FL-adjacent trial withdrawals represent a warning signal |
+التنبؤ بـ TxGNN معقول من الناحية البيولوجية ضمن سياق سكان محددين بالمؤشرات الحيوية. القيد الرئيسي هو أن FL الموجب لـ CD30 يمثل جزءاً صغيراً من جميع مرضى FL، مما يجعل فحص CD30 IHC الإلزامي المسبق (عادة ≥10% عتبة إيجابية) شرطاً أساسياً قبل أي قرار معالجة. التجربة المستقطبة حالياً NCT04587687 — المصممة خصيصاً لـ BV + Bendamustine في FL المتكرر/المقاوم — توفر أقوى إشارة لجدوى سريرية، على الرغم من أن النتائج لم تصل بعد لمرحلة النضج.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Clinical Study | Blood Advances | LYSA Phase 2: BV + gemcitabine (GBV) followed by BV maintenance in R/R PTCL with ≥5% CD30+; establishes BV combination activity even in CD30-low settings |
-| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | Prospective/Observational | Advances in Therapy | Real-world BV + CEP as frontline for CD30+ NHL (PTCL subtypes); high ORR in CD30+ settings supports BV's breadth across lymphoma types |
-| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | Cohort | European Journal of Haematology | BV + ICE in R/R PTCL; demonstrates BV salvage combination feasibility and safety |
-| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Current and upcoming treatments for common PTCL subtypes; BV + CHP established as frontline for CD30+ PTCL, informing CD30-targeting strategy |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leukemia Research Reports | Immunotherapy landscape in indolent NHL including FL; contextualizes the role of targeted agents in FL treatment evolution |
-| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Review | Hematology (ASH Education Program) | BV integration and novel agents in PTCL management; reviews BV's expanding scope |
-| [40517441](https://pubmed.ncbi.nlm.nih.gov/40517441/) | 2025 | Review | Hematological Oncology | PTCL treatment landscape: what's next; discusses BV's frontline role and emerging combinations |
-| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Review | Bone Marrow Transplantation | Post-ASCT maintenance strategies in lymphoma including FL; BV's consolidation role in high-risk lymphomas |
-| [41409526](https://pubmed.ncbi.nlm.nih.gov/41409526/) | 2025 | Case Report | Skin Appendage Disorders | Extensive alopecia mucinosa (folliculotropic mycosis fungoides, CTCL) achieving response to BV; demonstrates BV activity in follicular-pattern T-cell disease |
-| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case Report | Gulf Journal of Oncology | **Grade I FL transformation to CD30+ ALK1-negative ALCL achieving complete response to BV + high-dose methotrexate** — the most directly relevant case demonstrating BV's mechanistic proof-of-concept in transformed FL |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
+|-------------|--------|--------|---------|-----------------|
+| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | المرحلة 2 | مستقطبة | 23 | BV + Bendamustine موجهة مباشرة لـ R/R FL؛ أكثر تجربة صلة جارية حالياً، توفر إشارة جدوى مباشرة لهذا الاستطباب |
+| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | المرحلة 2 | منهية | 25 | Rituximab + Bendamustine ± BV لـ R/R CD30+ DLBCL؛ الإنهاء المبكر قد يعكس صعوبة التسجيل في CD30+ B-cell NHL أو إشارة فعالية غير كافية |
+| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | المرحلة 1/2 | منهية | 20 | BV + Rituximab كعلاج موالٍ لـ CD30+/EBV+ lymphomas بما فيها مجموعة فرعية من FL؛ تجربة صغيرة منهية توفر بيانات السلامة لمجموعة فرعية من FL |
+| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | المرحلة 2 | منسحبة | 0 | استقراء RBv متبوعة بـ RBvB للاضطرابات اللمفاوية المشخصة حديثاً بعد الزراعة مع تعبير CD20/CD30؛ منسحبة قبل التسجيل |
+| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | المرحلة 2 | منسحبة | 0 | BV + Pembrolizumab للـ PTCL الجهازي المتكرر؛ منسحبة قبل التسجيل — مزيج مثير للاهتمام من حيث المفهوم، بلا بيانات تنفيذ |
+| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | المرحلة 2 | منسحبة | 0 | BV + Bendamustine + Rituximab لـ R/R CD30+ B-cell NHL؛ منسحبة قبل التسجيل — انسحابات تجارب متعددة مجاورة لـ FL تمثل إشارة تحذيرية |
 
 ---
 
-## Cytotoxicity
+## أدلة المؤلفات
 
-| Item | Content |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | دراسة سريرية | Blood Advances | المرحلة 2 من LYSA: BV + gemcitabine (GBV) متبوعة بـ BV صيانة في R/R PTCL مع ≥5% CD30+؛ تؤسس نشاط مزيج BV حتى في بيئات CD30-low |
+| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | استقرائية/ملاحظة | Advances in Therapy | BV + CEP كعلاج موالٍ لـ CD30+ NHL (فئات فرعية من PTCL)؛ معدل ORR عالي في بيئات CD30+ يدعم اتساع BV عبر أنواع اللمفومة |
+| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | مجموعة | European Journal of Haematology | BV + ICE في R/R PTCL؛ يوضح جدوى ودعامة مزيج إنقاذ BV |
+| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | مراجعة | Blood | العلاجات الحالية والقادمة للفئات الشائعة من PTCL؛ BV + CHP كعلاج موالٍ لـ CD30+ PTCL، يرشد استراتيجية استهداف CD30 |
+| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | مراجعة | Leukemia Research Reports | منظر المناعة في indolent NHL بما فيها FL؛ يضع في السياق دور العوامل الموجهة في تطور علاج FL |
+| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | مراجعة | Hematology (ASH Education Program) | تكامل BV والعوامل الجديدة في إدارة PTCL؛ يستعرض النطاق الموسع لـ BV |
+| [40517441](https://pubmed.ncbi.nlm.nih.gov/40517441/) | 2025 | مراجعة | Hematological Oncology | منظر علاج PTCL: ما هو التالي؛ يناقش الدور الموالي لـ BV والمزيجات الناشئة |
+| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | مراجعة | Bone Marrow Transplantation | استراتيجيات الصيانة بعد ASCT في اللمفومة بما فيها FL؛ دور تعزيز BV في اللمفومات عالية الخطورة |
+| [41409526](https://pubmed.ncbi.nlm.nih.gov/41409526/) | 2025 | تقرير حالة | Skin Appendage Disorders | alopecia mucinosa الواسعة (mycosis fungoides folliculotropic، CTCL) تحقق استجابة لـ BV؛ توضح نشاط BV في مرض T-cell بنمط جريبي |
+| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | تقرير حالة | Gulf Journal of Oncology | **تحول Grade I FL إلى CD30+ ALK1-negative ALCL يحقق استجابة كاملة لـ BV + methotrexate بجرعة عالية** — تقرير الحالة الأكثر صلة مباشرة يوضح إثبات المفهوم الآلي لـ BV في FL المحول |
+
+---
+
+## السمية الخلوية
+
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — Antibody-Drug Conjugate (ADC); anti-CD30 antibody conjugated to MMAE (microtubule inhibitor/auristatin class) |
-| Myelosuppression Risk | Moderate to High — MMAE payload causes neutropenia and thrombocytopenia; neutropenia is the most common Grade ≥3 adverse event reported in BV clinical trials |
-| Emetogenicity Classification | Low to Moderate |
-| Monitoring Items | CBC with differential (prior to each cycle), peripheral neuropathy assessment (cumulative MMAE neurotoxicity is dose-limiting), liver function tests, renal function, infusion reaction monitoring |
-| Handling Protection | Must follow cytotoxic drug handling regulations; ADC biohazard precautions required for preparation and administration of MMAE-containing conjugate |
+| تصنيف السمية الخلوية | علاج موجه — مُترافق جسم مضاد-دواء (ADC)؛ جسم مضاد مضاد لـ CD30 مترافق مع MMAE (عامل لتثبيط الأنابيب الدقيقة/فئة auristatin) |
+| خطر قلة النخاع | معتدل إلى مرتفع — حمولة MMAE تسبب قلة العدلات وقلة الصفيحات؛ قلة العدلات هو أكثر الأحداث السلبية شيوعاً بدرجة ≥3 المُبلَّغ عنها في التجارب السريرية لـ BV |
+| تصنيف الدوار الحثل على القيء | منخفض إلى معتدل |
+| عناصر المراقبة | تعداد الدم الكامل مع التفريق (قبل كل دورة)، تقييم الاعتلال العصبي المحيطي (سمية MMAE التراكمية هي العامل المحدد للجرعة)، اختبارات وظائف الكبد، وظائف الكلى، مراقبة تفاعلات التسريب |
+| حماية المناولة | يجب الامتثال لقوانين مناولة الأدوية السامة للخلايا؛ احتياطات ADC الخطر الحيوي مطلوبة لتحضير وإعطاء المُترافق الذي يحتوي على MMAE |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Specific warnings and contraindications data were not available in the current evidence pack; drug interaction data returned no results in this dataset.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. لم تكن بيانات التحذيرات والموانع المحددة متاحة في مجموعة الأدلة الحالية؛ كما أسفرت الاستعلامات عن بيانات تفاعلات الدواء عن أي نتائج في مجموعة البيانات هذه.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الضمانات**
 
-**Rationale:**
-BV has a clear mechanistic basis in CD30+ follicular lymphoma — particularly in the transformation-to-ALCL subpopulation — and there is an active dedicated trial (NCT04587687), but 4 of 6 FL-adjacent trials were terminated or withdrawn before meaningful enrollment, overall evidence remains at L3, and the eligible CD30+ FL population is inherently small and requires prospective biomarker selection.
+**المبرر:**
+لـ BV أساس آلي واضح في CD30+ follicular lymphoma — خاصة في مجموعة سكان التحول إلى ALCL — وهناك تجربة مخصصة نشطة (NCT04587687)، لكن 4 من 6 تجارب مجاورة لـ FL تم إنهاؤها أو الانسحاب منها قبل التسجيل ذي المعنى، وتبقى الأدلة الإجمالية عند مستوى L3، والسكان FL الموجب لـ CD30 المؤهلون صغار بطبيعتهم ويتطلبون اختيار المؤشر الحيوي الاستقرائي.
 
-**To proceed, the following is needed:**
-- Mandatory CD30 IHC screening (≥10% tumor cell positivity threshold) to identify the eligible FL patient subset before any treatment decision
-- Mature efficacy and safety results from NCT04587687 (BV + Bendamustine in R/R FL; currently recruiting, target n=23)
-- Investigation into the cause of the high trial withdrawal/termination rate across FL-directed BV studies (4/6 non-completing) — understanding whether this reflects enrollment difficulty, interim efficacy signals, or regulatory issues
-- Saudi Arabia regulatory pathway assessment for BV importation, named-patient compassionate use, or local trial sponsorship
-- Comprehensive safety monitoring plan addressing peripheral neuropathy, myelosuppression, infusion reactions, and cumulative MMAE toxicity in the FL patient population
+**للمتابعة، يلزم ما يلي:**
+- فحص CD30 IHC إلزامي (≥10% عتبة خلايا الورم الإيجابية) لتحديد مجموعة سكان FL المؤهلة قبل أي قرار علاجي
+- نتائج ناضجة للفعالية والسلامة من NCT04587687 (BV + Bendamustine في R/R FL؛ مستقطبة حالياً، عدد الهدف = 23)
+- التحقيق في سبب معدل الانسحاب والإنهاء المرتفع للتجارب عبر الدراسات الموجهة لـ FL من BV (4/6 غير مكتملة) — فهم ما إذا كان هذا يعكس صعوبة التسجيل أو إشارات فعالية وسيطة أو مسائل تنظيمية
+- تقييم المسار التنظيمي بالمملكة العربية السعودية لاستيراد BV أو الاستخدام برحمة المريض المأذون به أو رعاية تجريبية محلية
+- خطة مراقبة سلامة شاملة تعالج الاعتلال العصبي المحيطي وقلة النخاع وتفاعلات التسريب والسمية MMAE التراكمية في سكان مرضى FL
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

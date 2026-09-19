@@ -29,69 +29,70 @@ indication_count: 4
 
 </div>
 
-# Brolucizumab: From Neovascular Age-Related Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
+# بروليوسيزوماب: من الضمور البقعي الرطب المرتبط بالعمر إلى اضطراب الفسفرة المؤكسدة الميتوكوندرية الناجم عن شذوذ الحمض النووي النووي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Brolucizumab is a VEGF-A–targeting single-chain antibody fragment, globally approved for neovascular age-related macular degeneration (nAMD) and diabetic macular edema (DME), but not currently marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, yet **0 clinical trials** and **0 publications** currently support this direction. The mechanistic connection between VEGF-A inhibition and mitochondrial respiratory chain dysfunction remains highly indirect and unvalidated in the literature.
+بروليوسيزوماب هو شظية أجسام مضادة أحادية السلسلة تستهدف VEGF-A، معتمدة عالمياً لعلاج الضمور البقعي الرطب المرتبط بالعمر (nAMD) والوذمة البقعية السكرية (DME)، لكنها غير معتمدة حالياً في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنها قد تكون فعالة لعلاج **اضطراب الفسفرة المؤكسدة الميتوكوندرية الناجم عن شذوذ الحمض النووي النووي**، مع ذلك **0 تجربة سريرية** و **0 منشور** تدعم حالياً هذا الاتجاه. يبقى الارتباط الآلي بين منع VEGF-A والخلل الوظيفي في السلسلة التنفسية الميتوكوندرية غير مباشر جداً وغير محقق في الأدبيات الطبية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Neovascular age-related macular degeneration (nAMD); diabetic macular edema (DME) — global approvals; not approved in Saudi Arabia |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الضمور البقعي الرطب المرتبط بالعمر (nAMD)؛ الوذمة البقعية السكرية (DME) — معتمدة عالمياً؛ غير معتمدة في المملكة العربية السعودية |
+| الاستطباب الجديد المتنبأ به | اضطراب الفسفرة المؤكسدة الميتوكوندرية الناجم عن شذوذ الحمض النووي النووي |
+| درجة التنبؤ TxGNN | 99.67% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ لم تُطرح بالسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known information, Brolucizumab is a humanized single-chain antibody fragment (scFv) that selectively binds and neutralizes all isoforms of VEGF-A (vascular endothelial growth factor A), thereby blocking pathological neovascularization and vascular permeability in the retina. Its approved indications rely entirely on local intravitreal delivery, resulting in very limited systemic bioavailability.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة من حزمة الأدلة. بناءً على المعلومات المعروفة، بروليوسيزوماب هو شظية أجسام مضادة أحادية السلسلة إنسانية (scFv) تتحد بشكل انتقائي وتحيد جميع متغايرات VEGF-A (عامل نمو الأوعية الدموية A)، مما يمنع التوعية الدموية الجديدة المرضية والنفاذية الوعائية المرضية في الشبكية. تعتمد استطباباتها المعتمدة بالكامل على التسليم داخل الجسم الزجاجي، مما ينتج عنه توفر حيوي جهازي محدود جداً.
 
-Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies is a genetically heterogeneous group of diseases caused by mutations in nuclear-encoded subunits or assembly factors of the mitochondrial respiratory chain (Complexes I–V). The primary pathology centers on impaired ATP synthesis and electron transport chain dysfunction — a disease mechanism that has no established intersection with VEGF signaling pathways. Some literature has noted that VEGF can indirectly influence mitochondrial biogenesis via PGC-1α upregulation, but this link is highly indirect, remains unverified in mitochondrial disease models, and has not been demonstrated in this specific disease category.
+اضطراب الفسفرة المؤكسدة الميتوكوندرية الناجم عن شذوذ الحمض النووي النووي هو مجموعة متغايرة جينياً من الأمراض الناجمة عن طفرات في الوحدات المشفرة نووياً أو عوامل التجميع للسلسلة التنفسية الميتوكوندرية (المجمعات I–V). يتمركز الباثولوجيا الأولية حول ضعف تخليق ATP وخلل سلسلة نقل الإلكترونات — وهي آلية مرض ليس لها تقاطع معروف مع مسارات إشارات VEGF. لاحظت بعض الأدبيات أن VEGF يمكن أن يؤثر بشكل غير مباشر على تكوين الميتوكوندريا عبر زيادة تنظيم PGC-1α، لكن هذا الارتباط غير مباشر جداً، ويبقى غير محقق في نماذج أمراض الميتوكوندريا، ولم يتم إثباته في فئة هذا المرض المحددة.
 
-The TxGNN high score (99.67%) most likely reflects distant co-morbidity network relationships within the knowledge graph rather than a direct or validated therapeutic mechanism. Given the complete absence of clinical or preclinical evidence and the lack of a plausible direct mechanistic rationale, this prediction warrants significant skepticism before any downstream investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+درجة TxGNN العالية (99.67%) تعكس على الأرجح علاقات شبكة الأمراض المصاحبة البعيدة داخل الرسم البياني للمعرفة بدلاً من آلية علاجية مباشرة أو محققة. بالنظر إلى الغياب الكامل للأدلة السريرية أو قبل السريرية والافتقار إلى أساس آلي معقول مباشر، يستحق هذا التنبؤ شكوكاً كبيرة قبل أي استثمار لاحق.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This prediction rests entirely on model inference (L5 evidence) with zero supporting clinical trials or publications. The proposed therapeutic pathway — VEGF-A inhibition applied to nuclear DNA–encoded mitochondrial complex deficiency — lacks established mechanistic grounding, and the drug has no Saudi Arabia regulatory approval, adding a further barrier to any clinical pathway.
+---
 
-**To proceed, the following is needed:**
-- Identification of a biologically plausible mechanistic link between VEGF-A inhibition and nuclear-encoded mitochondrial dysfunction (e.g., PGC-1α–mediated mitochondrial biogenesis, VEGF–mitochondria crosstalk in relevant cell types)
-- Preclinical evidence in validated mitochondrial disease models (cell lines with Complex I/IV mutations, animal knockouts) showing any functional benefit
-- Pharmacokinetic data for systemic administration of brolucizumab, given that its current approved route is exclusively intravitreal
-- Retrieval and review of SFDA/TFDA package insert warnings and contraindications (currently flagged as a blocking data gap) before any safety evaluation can proceed
-- Consideration of whether the anti-VEGF class as a whole has any signal in mitochondrial disease literature before investing in brolucizumab specifically
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+يستند هذا التنبؤ بالكامل على استدلال النموذج (L5) مع عدم وجود أي تجارب سريرية أو منشورات داعمة. المسار العلاجي المقترح — منع VEGF-A المطبق على نقص المجمع الميتوكوندري المشفر نووياً — يفتقر إلى أساس آلي معروف، والعقار غير معتمد في المملكة العربية السعودية، مما يضيف حاجزاً إضافياً لأي مسار سريري.
+
+**للمتابعة، المطلوب التالي:**
+- تحديد ارتباط آلي معقول بيولوجياً بين منع VEGF-A والخلل الوظيفي الميتوكوندري المشفر نووياً (مثل تكوين الميتوكوندريا الموسط بـ PGC-1α، التقاطع VEGF-ميتوكوندريا في أنواع الخلايا ذات الصلة)
+- أدلة قبل سريرية في نماذج أمراض الميتوكوندريا المحققة (خطوط خلوية بها طفرات Complex I/IV، النماذج الحيوانية knockout) توضح أي فائدة وظيفية
+- بيانات الحرائك الدوائية للتسليم الجهازي لـ بروليوسيزوماب، نظراً لأن مساره المعتمد حالياً هو حصراً داخل الجسم الزجاجي
+- استرجاع ومراجعة تحذيرات النشرة الطبية SFDA/TFDA والموانع (محددة حالياً كفجوة بيانات حاجزة) قبل أن يتمكن أي تقييم للسلامة من المتابعة
+- النظر فيما إذا كانت فئة مضادات VEGF بأكملها تحمل أي إشارات في أدبيات أمراض الميتوكوندريا قبل الاستثمار البحثي في بروليوسيزوماب على وجه التحديد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

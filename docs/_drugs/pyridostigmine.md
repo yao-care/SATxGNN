@@ -29,66 +29,67 @@ indication_count: 7
 
 </div>
 
-# Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+# البيريدوستيغمين: من الوهن العضلي الشديد إلى الوهن العضلي الشديد مع تضخم الغدة الصعترية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Pyridostigmine is a cholinesterase inhibitor whose established use is symptomatic control of myasthenia gravis (MG); formal Taiwan license/indication records are not available in this evidence pack, but the drug's core pharmacology is already directed at this disease. The TxGNN model predicts it may be effective for **Myasthenia Gravis with Thymus Hyperplasia** — a common AChR-antibody-positive MG subtype rather than a distinct disease — supported by **0 clinical trials** and **3 publications** currently indexed for this specific term.
+البيريدوستيغمين هو مثبط إنزيم الكولينستيراز تكون الاستخدامات المعروفة له التحكم بأعراض الوهن العضلي الشديد (MG)؛ سجلات الترخيص الرسمية لتايوان والمؤشرات الطبية غير متوفرة في حزمة الأدلة هذه، لكن الصيدلة الأساسية للدواء موجهة بالفعل نحو هذا المرض. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الوهن العضلي الشديد مع تضخم الغدة الصعترية** — نوع فرعي شائع من الوهن العضلي الشديد الإيجابي لأجسام مضادة AChR بدلاً من كونه مرضاً مميزاً — مدعوماً بـ **0 تجربة سريرية** و **3 منشورات** حالياً مفهرسة لهذا المصطلح المحدد.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available from license records (data gap); known pharmacology indicates established use in myasthenia gravis symptom control |
-| Predicted New Indication | Myasthenia Gravis with Thymus Hyperplasia |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متوفر من سجلات الترخيص (فجوة بيانات)؛ الصيدلة المعروفة تشير إلى استخدام معروف في التحكم بأعراض الوهن العضلي الشديد |
+| المؤشر المتنبأ به الجديد | الوهن العضلي الشديد مع تضخم الغدة الصعترية |
+| درجة التنبؤ من TxGNN | 99.76% |
+| مستوى الأدلة | L3 |
+| حالة السوق في تايوان | غير مسوق (Not marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on known information, Pyridostigmine is an acetylcholinesterase inhibitor that increases acetylcholine concentration at the neuromuscular junction — this is the core pharmacological mechanism already used for symptomatic treatment of myasthenia gravis (MG).
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (DG002، شدة عالية). بناءً على المعلومات المعروفة، البيريدوستيغمين هو مثبط إنزيم أسيتيل الكولينستيراز يزيد من تركيز أسيتيل كولين عند تقاطع العضلة العصبية — وهذه هي الآلية الصيدلانية الأساسية المستخدمة بالفعل للعلاج الأعراضي للوهن العضلي الشديد (MG).
 
-Thymus hyperplasia is not a separate disease process from a pharmacological standpoint — it is a common histological finding in AChR-antibody-positive MG. The neuromuscular junction defect that pyridostigmine treats is present regardless of whether thymus hyperplasia is also observed. As stated in the model's rationale: *"Pyridostigmine 抑制乙醯膽鹼酯酶，提升神經肌肉接合處 ACh 濃度，此為 MG 症狀治療的核心藥理機轉，與是否合併胸腺增生無關"* (the mechanism is independent of thymus status).
+تضخم الغدة الصعترية ليس عملية مرضية منفصلة من وجهة نظر صيدلانية — إنه إيجاد نسيجي شائع في الوهن العضلي الشديد الإيجابي لأجسام مضادة AChR. العيب في تقاطع العضلة العصبية الذي يعالجه البيريدوستيغمين موجود بغض النظر عما إذا كان تضخم الغدة الصعترية أيضاً قد تم ملاحظته. كما هو موضح في منطق النموذج: *"Pyridostigmine 抑制乙醯膽鹼酯酶，提升神經肌肉接合處 ACh 濃度，此為 MG 症狀治療的核心藥理機轉，與是否合併胸腺增生無關"* (الآلية مستقلة عن حالة الغدة الصعترية).
 
-Consequently, this prediction largely reflects an **already-established clinical practice** rather than a novel hypothesis — pyridostigmine is the standard symptomatic agent for AChR-antibody-positive MG, of which thymus hyperplasia is a frequent subtype, not a new pharmacological target.
+وبالتالي، فإن هذا التنبؤ يعكس إلى حد كبير **ممارسة سريرية معروفة بالفعل** بدلاً من فرضية جديدة — البيريدوستيغمين هو العامل الأعراضي المعياري للوهن العضلي الشديد الإيجابي لأجسام مضادة AChR، والذي يكون تضخم الغدة الصعترية نوعاً فرعياً متكرراً فيه، وليس هدفاً صيدلانياً جديداً.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort | Journal of Neurology | Retrospective analysis of 39 non-thymomatous, AChR-antibody-positive, late-onset MG patients showing 2-year post-thymectomy outcomes, relevant to the thymus-hyperplasia MG population that relies on pyridostigmine for symptom control. |
-| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Reviews MG pathology, autoantibody-driven neuromuscular junction dysfunction, and disease heterogeneity across MG subtypes including those with thymic involvement. |
-| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case Report | Neuromuscular Disorders | Case of MuSK-positive MG with thymus hyperplasia presenting as dropped head syndrome; illustrates the clinical link between thymus hyperplasia and MG subtypes, though MuSK-positive disease responds less predictably to cholinesterase inhibitors than AChR-positive disease. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | دراسة أتراب | مجلة طب الأعصاب | تحليل بأثر رجعي لـ 39 مريضاً بالوهن العضلي الشديد الإيجابي لأجسام مضادة AChR بدون ورم غدة صعترية، بدء متأخر، يظهر نتائج 2 سنة بعد استئصال الغدة الصعترية، ذات صلة بمجموعة الوهن العضلي الشديد مع تضخم الغدة الصعترية التي تعتمد على البيريدوستيغمين للتحكم الأعراضي. |
+| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | مراجعة | تقارير الطب الجزيئي | يراجع مسببات الوهن العضلي الشديد، خلل تقاطع العضلة العصبية الناتج عن أجسام مضادة، وتنوع الأمراض عبر الأنواع الفرعية من الوهن العضلي الشديد بما في ذلك تلك التي تشارك فيها الغدة الصعترية. |
+| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | حالة سريرية | الاضطرابات العصبية العضلية | حالة من الوهن العضلي الشديد الإيجابي MuSK مع تضخم الغدة الصعترية يظهر كمتلازمة الرأس المنخفض؛ يوضح الارتباط السريري بين تضخم الغدة الصعترية وأنواع الوهن العضلي الشديد، على الرغم من أن الوهن العضلي الشديد الإيجابي MuSK يستجيب بشكل أقل قابلية للتنبؤ لمثبطات الكولينستيراز من المرض الموجب لـ AChR. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No licenses currently registered — Pyridostigmine is not marketed in Taiwan (0 authorizations; `taiwan_regulatory.market_status` = Not marketed).
+لا توجد تراخيص مسجلة حالياً — البيريدوستيغمين غير مسوق في تايوان (0 تفويضات؛ `taiwan_regulatory.market_status` = غير مسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-*(Note: TFDA package insert warnings/contraindications are a Blocking data gap — DG001 — and must be resolved before any S1 safety review can proceed.)*
+*(ملاحظة: تحذيرات وموانع استعمال النشرة الداخلية من هيئة تنظيم الغذاء والدواء التايوانية (TFDA) هي فجوة بيانات حاجزة — DG001 — ويجب حلها قبل أن تتمكن أي مراجعة سلامة S1 من المتابعة.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الضمانات**
 
-**Rationale:**
-The predicted "new" indication is mechanistically not a novel hypothesis but an established use pattern (AChE inhibition for MG symptom control) applied to a common MG subtype; evidence level is L3 (cohort/review-level, no dedicated RCTs for this specific subtype term), and the drug is currently unmarketed in Taiwan, so guardrails around access and safety documentation are required before advancing.
+**المنطق:**
+المؤشر المتنبأ به "الجديد" ليس فرضية جديدة من ناحية الآلية لكن نمط الاستخدام المعروف (تثبيط AChE للتحكم بأعراض الوهن العضلي الشديد) المطبق على نوع فرعي شائع من الوهن العضلي الشديد؛ مستوى الأدلة هو L3 (مستوى الأتراب/المراجعة، لا توجد تجارب عشوائية محكومة مخصصة لهذا المصطلح الفرعي المحدد)، والدواء غير مسوق حالياً في تايوان، لذلك الضمانات المتعلقة بالوصول والتوثيق الأماني مطلوبة قبل المتابعة.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (DG001, Blocking) — required for S1 safety review
-- DrugBank/formal MOA documentation (DG002, High)
-- Route compatibility assessment (currently pending in evidence pack)
-- Taiwan market-access pathway evaluation, given 0 current licenses
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات وموانع استعمال النشرة الداخلية من هيئة تنظيم الغذاء والدواء التايوانية (TFDA) (DG001، حاجز) — مطلوب لمراجعة السلامة S1
+- وثائق DrugBank/آلية العمل الرسمية (DG002، عالية)
+- تقييم توافق المسار (معلق حالياً في حزمة الأدلة)
+- تقييم مسار الوصول إلى السوق في تايوان، نظراً إلى 0 تفويضات حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

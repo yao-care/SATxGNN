@@ -29,83 +29,84 @@ indication_count: 10
 
 </div>
 
-# Interferon Gamma-1b: From Chronic Granulomatous Disease to Heart Disease
+# إنترفيرون جاما-1b: من مرض الحبيبومة المزمنة إلى أمراض القلب
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Interferon gamma-1b is a recombinant Th1 immune activator approved for chronic granulomatous disease (CGD) and severe malignant osteopetrosis. The TxGNN model predicts it may be effective for **Heart Disease**, but this is currently a **model-only prediction (L4)** — none of the 50 retrieved clinical trials directly test interferon gamma-1b in heart disease, and the 5 literature hits are indirect (mostly CGD-related cardiac complication case reports).
+إنترفيرون جاما-1b هو منشط مناعي Th1 معاد التركيب معتمد لمرض الحبيبومة المزمنة (CGD) وتعظم العظام الخبيث الشديد. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً **لأمراض القلب**، لكن هذا حالياً **تنبؤ يقتصر على النموذج فقط (L4)** — لا توجد أي من التجارب السريرية الـ 50 المسترجعة التي تختبر إنترفيرون جاما-1b مباشرة في أمراض القلب، والنتائج الأدبية الـ 5 غير مباشرة (في الغالب تقارير حالات مضاعفات قلبية متعلقة بمرض الحبيبومة المزمنة).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Chronic Granulomatous Disease (CGD) / Severe Malignant Osteopetrosis |
-| Predicted New Indication | Heart Disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | مرض الحبيبومة المزمنة (CGD) / تعظم العظام الخبيث الشديد |
+| المؤشر المتنبأ به | أمراض القلب |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed DrugBank MOA data for interferon gamma-1b is currently a data gap (DG002). Based on the evidence pack's mechanistic notes, interferon gamma-1b is a Th1 immune activator whose approved uses (CGD, malignant osteopetrosis) rely on macrophage activation and anti-infective/anti-inflammatory signaling.
+بيانات آلية العمل التفصيلية من DrugBank لإنترفيرون جاما-1b تمثل حالياً فجوة بيانات (DG002). بناءً على الملاحظات الآلية في حزمة الأدلة، إنترفيرون جاما-1b هو منشط مناعي Th1 تعتمد استخداماته المعتمدة (مرض الحبيبومة المزمنة، تعظم العظام الخبيث) على تنشيط الخلايا البالعة والإشارات المضادة للعدوى والمضادة للالتهاب.
 
-There is no established pathophysiological pathway connecting this macrophage-activation mechanism to "heart disease" as a broad category. The retrieved literature largely consists of case reports describing cardiac infectious or inflammatory complications (endocarditis, pericarditis) occurring in immunodeficient or CGD patients — these describe complications arising *in* patients who might receive the drug for their primary immune condition, not evidence that interferon gamma-1b treats cardiac disease itself.
+لا توجد مسارات فيزيولوجية مرضية معروفة تربط هذه آلية تنشيط الخلايا البالعة بـ "أمراض القلب" كفئة عريضة. الأدب المسترجع يتألف في الغالب من تقارير حالات تصف مضاعفات القلب المعدية أو الالتهابية (التهاب الشغاف، التهاب التامور) التي تحدث في مرضى نقص المناعة أو مرضى الحبيبومة المزمنة — هذه تصف المضاعفات التي تنشأ *لدى* المرضى الذين قد يتلقون الدواء حالتهم الأساسية المرتبطة بالمناعة، وليست دليلاً على أن إنترفيرون جاما-1b يعالج مرض القلب نفسه.
 
-Given that "heart disease" is also an extremely broad, non-specific disease label, and the associated clinical trials in this evidence pack are predominantly unrelated exercise/rehabilitation or other-drug studies (graded "C" — not relevant), this prediction should be treated as a hypothesis generated purely by the TxGNN model rather than one supported by targeted evidence.
+نظراً لأن "أمراض القلب" أيضاً تمثل تصنيفاً مرضياً عريضاً وغير محدد جداً، والتجارب السريرية المرتبطة بها في حزمة الأدلة هذه تتعلق في الأساس بالتمارين الرياضية/إعادة التأهيل أو دراسات أدوية أخرى (تم تصنيفها بـ "C" — غير ذات صلة)، يجب التعامل مع هذا التنبؤ على أنه فرضية يتم توليدها بشكل حصري من خلال نموذج TxGNN وليس واحد مدعوماً بأدلة موجهة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Of the 50 retrieved trials, none directly evaluate interferon gamma-1b for heart disease. The trials below (first 10 in retrieval order) were graded by the pipeline's relevance assessment; most (Grade C) were judged unrelated to this drug–indication pair, and the remainder are ungraded ("pending") but do not involve interferon gamma-1b either.
+من التجارب الـ 50 المسترجعة، لا توجد أي تقيّم مباشر لإنترفيرون جاما-1b في أمراض القلب. التجارب أدناه (أول 10 في ترتيب الاسترجاع) تم تصنيفها من خلال تقييم الأهمية النسبية في خط الأنابيب؛ معظمها (الدرجة C) تم الحكم عليه على أنه غير ذي صلة بهذا الزوج من الدواء-المؤشر، والبقية غير مصنفة ("قيد الانتظار") لكن لا تتضمن إنترفيرون جاما-1b أيضاً.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03652519](https://clinicaltrials.gov/study/NCT03652519) | NA | Completed | 72 | Grade C – exercise/immune-signalling trial in MS; does not use interferon gamma-1b |
-| [NCT04356248](https://clinicaltrials.gov/study/NCT04356248) | NA | Completed | 106 | Grade C – exercise training trial in MS; not a drug study |
-| [NCT03672812](https://clinicaltrials.gov/study/NCT03672812) | Phase 3 | Completed | 50 | Grade C – studies liraglutide in brain-death organ donors; unrelated drug |
-| [NCT07099911](https://clinicaltrials.gov/study/NCT07099911) | NA | Recruiting | 20 | Ungraded – neuromuscular electrical stimulation for glucose control, no drug arm |
-| [NCT05650333](https://clinicaltrials.gov/study/NCT05650333) | Phase 1 | Completed | 15 | Grade C – studies ritlecitinib (JAK3 inhibitor) in alopecia areata; unrelated drug |
-| [NCT05027958](https://clinicaltrials.gov/study/NCT05027958) | Early Phase 1 | Completed | 17 | Ungraded – mycobacterial antigen instillation immune-response study |
-| [NCT02489383](https://clinicaltrials.gov/study/NCT02489383) | NA | Unknown | 60 | Ungraded – aerobic exercise training in asthma patients |
-| [NCT00974142](https://clinicaltrials.gov/study/NCT00974142) | Phase 1/2 | Completed | 43 | Ungraded – oral cyclosporine A in advanced COPD |
-| [NCT03904277](https://clinicaltrials.gov/study/NCT03904277) | N/A | Completed | 28 | Ungraded – patent foramen ovale physiology study, no drug intervention |
-| [NCT02799095](https://clinicaltrials.gov/study/NCT02799095) | Phase 1/2 | Completed | 243 | Grade C – studies ALKS 4230 (IL-2 variant) in solid tumors; unrelated drug |
+| [NCT03652519](https://clinicaltrials.gov/study/NCT03652519) | NA | مكتملة | 72 | الدرجة C – تجربة التمارين/الإشارات المناعية في MS؛ لا تستخدم إنترفيرون جاما-1b |
+| [NCT04356248](https://clinicaltrials.gov/study/NCT04356248) | NA | مكتملة | 106 | الدرجة C – تجربة التدريب على التمارين في MS؛ ليست دراسة دواء |
+| [NCT03672812](https://clinicaltrials.gov/study/NCT03672812) | المرحلة 3 | مكتملة | 50 | الدرجة C – يدرس liraglutide في متبرعي الأعضاء بموت الدماغ؛ دواء غير ذي صلة |
+| [NCT07099911](https://clinicaltrials.gov/study/NCT07099911) | NA | يستقطب المشاركين | 20 | غير مصنفة – التحفيز الكهربائي العصبي العضلي للتحكم في الجلوكوز، بدون ذراع دواء |
+| [NCT05650333](https://clinicaltrials.gov/study/NCT05650333) | المرحلة 1 | مكتملة | 15 | الدرجة C – يدرس ritlecitinib (مثبط JAK3) في الثعلبة الندبية؛ دواء غير ذي صلة |
+| [NCT05027958](https://clinicaltrials.gov/study/NCT05027958) | المرحلة الأولى المبكرة | مكتملة | 17 | غير مصنفة – دراسة استجابة مناعية لتلقيح مستضد الميكوبكتيريا |
+| [NCT02489383](https://clinicaltrials.gov/study/NCT02489383) | NA | غير معروف | 60 | غير مصنفة – التدريب على التمارين الهوائية في مرضى الربو |
+| [NCT00974142](https://clinicaltrials.gov/study/NCT00974142) | المرحلة 1/2 | مكتملة | 43 | غير مصنفة – السيكلوسبورين A عن طريق الفم في COPD المتقدمة |
+| [NCT03904277](https://clinicaltrials.gov/study/NCT03904277) | N/A | مكتملة | 28 | غير مصنفة – دراسة فسيولوجيا الثقب البيضاوي الشرياني، بدون تدخل دواء |
+| [NCT02799095](https://clinicaltrials.gov/study/NCT02799095) | المرحلة 1/2 | مكتملة | 243 | الدرجة C – يدرس ALKS 4230 (متغير IL-2) في الأورام الصلبة؛ دواء غير ذي صلة |
 
-**No clinical trial in this evidence pack tests interferon gamma-1b for heart disease.**
+**لا توجد تجربة سريرية في حزمة الأدلة هذه تختبر إنترفيرون جاما-1b لأمراض القلب.**
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [37180421](https://pubmed.ncbi.nlm.nih.gov/37180421/) | 2022 | Systematic Review | Therapeutic Advances in Rare Disease | Reviews therapeutic interventions in Friedreich ataxia; not specific to heart disease or interferon gamma-1b efficacy |
-| [31020218](https://pubmed.ncbi.nlm.nih.gov/31020218/) | 2018 | Case Report | European Heart Journal – Case Reports | Case of prosthetic valve infective endocarditis from Mycobacterium chimaera after cardiac surgery; does not involve interferon gamma-1b treatment |
-| [29456196](https://pubmed.ncbi.nlm.nih.gov/29456196/) | 2018 | Case Report | Journal of Cystic Fibrosis | Fungal airway infection responding to interferon-gamma therapy in a cystic fibrosis patient; respiratory, not cardiac |
-| [21131468](https://pubmed.ncbi.nlm.nih.gov/21131468/) | 2011 | Cohort/Validation Study | American Journal of Respiratory and Critical Care Medicine | Validates the 6-minute-walk test in idiopathic pulmonary fibrosis; no drug intervention |
-| [28990950](https://pubmed.ncbi.nlm.nih.gov/28990950/) | 2017 | Case Report | Turk Kardiyoloji Dernegi Arsivi | Constrictive Aspergillus pericarditis in a child with chronic granulomatous disease and congestive heart failure; describes a cardiac complication of CGD, not a treatment trial |
+| [37180421](https://pubmed.ncbi.nlm.nih.gov/37180421/) | 2022 | مراجعة منهجية | Therapeutic Advances in Rare Disease | يراجع التدخلات العلاجية في ضمور فريدريخ؛ غير محدد لأمراض القلب أو فعالية إنترفيرون جاما-1b |
+| [31020218](https://pubmed.ncbi.nlm.nih.gov/31020218/) | 2018 | تقرير حالة | European Heart Journal – Case Reports | حالة التهاب الشغاف المعدي للصمام الاصطناعي من Mycobacterium chimaera بعد جراحة القلب؛ لا يتضمن معالجة بإنترفيرون جاما-1b |
+| [29456196](https://pubmed.ncbi.nlm.nih.gov/29456196/) | 2018 | تقرير حالة | Journal of Cystic Fibrosis | عدوى فطرية في المسالك الهوائية تستجيب لمعالجة الإنترفيرون جاما في مريض يعاني من التليف الكيسي؛ تنفسية وليست قلبية |
+| [21131468](https://pubmed.ncbi.nlm.nih.gov/21131468/) | 2011 | دراسة المجموعة/التحقق من الصحة | American Journal of Respiratory and Critical Care Medicine | يتحقق من اختبار المشي لمدة 6 دقائق في التليف الرئوي مجهول السبب؛ بدون تدخل دواء |
+| [28990950](https://pubmed.ncbi.nlm.nih.gov/28990950/) | 2017 | تقرير حالة | Turk Kardiyoloji Dernegi Arsivi | التهاب التامور المقيد من Aspergillus في طفل يعاني من مرض الحبيبومة المزمنة وقصور القلب الاحتقاني؛ يصف مضاعفة قلبية لمرض الحبيبومة المزمنة وليست تجربة معالجة |
 
-**None of these publications report interferon gamma-1b being used to treat heart disease; the cardiac-related items describe complications occurring in immunocompromised/CGD patients.**
+**لا تذكر أي من هذه المنشورات أن إنترفيرون جاما-1b يتم استخدامه لعلاج أمراض القلب؛ العناصر المرتبطة بالقلب تصف المضاعفات التي تحدث في مرضى نقص المناعة/الحبيبومة المزمنة.**
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Interferon gamma-1b is currently **not marketed** in Saudi Arabia — no authorization records are available.
+إنترفيرون جاما-1b غير مسوّق حالياً في المملكة العربية السعودية — لا تتوفر سجلات تصاريح.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (TFDA/SFDA package insert warnings and contraindications are a blocking data gap — DG001 — and drug interaction data was not found in the queried database.)
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة. (تحذيرات ومضادات استطباب نشرة TFDA/SFDA المرفقة تمثل فجوة بيانات محظورة — DG001 — وبيانات التفاعلات الدوائية لم يتم العثور عليها في قاعدة البيانات المسؤولة.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The TxGNN score is high, but no clinical trial or literature evidence directly supports interferon gamma-1b as a treatment for heart disease — the retrieved trials are predominantly unrelated studies, and the literature only shows indirect cardiac complications in immunodeficient patients. Combined with the drug's absence from the Saudi Arabian market, the evidence base does not support proceeding beyond hypothesis generation.
+**المبرر:**
+درجة TxGNN عالية، لكن لا توجد تجربة سريرية أو دليل أدبي يدعم بشكل مباشر إنترفيرون جاما-1b كعلاج لأمراض القلب — التجارب المسترجعة هي بشكل أساسي دراسات غير ذات صلة، والأدب يُظهر فقط مضاعفات قلبية غير مباشرة في مرضى نقص المناعة. في الاقتران مع غياب الدواء من السوق السعودي، قاعدة الأدلة لا تدعم المتابعة بما يتجاوز توليد الفرضيات.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- Verified mechanism of action data from DrugBank — currently a high-severity data gap (DG002)
-- A hypothesis-driven mechanistic rationale linking Th1/macrophage activation to a specific cardiac disease subtype (the current "heart disease" label is too broad to act on)
-- At least one dedicated preclinical or clinical study testing interferon gamma-1b in a defined cardiac indication
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA المرفقة (التحذيرات، مضادات الاستطباب) — حالياً فجوة بيانات محظورة (DG001)
+- بيانات آلية العمل المتحققة من DrugBank — حالياً فجوة بيانات عالية الخطورة (DG002)
+- مبرر آلي معرّف موجه نحو فرضية يربط تنشيط Th1/الخلايا البالعة بنوع فرعي محدد من مرض القلب (التصنيف الحالي "أمراض القلب" عريض جداً للعمل عليه)
+- على الأقل دراسة تخطيطية أو سريرية واحدة مخصصة تختبر إنترفيرون جاما-1b في مؤشر قلبي محدد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

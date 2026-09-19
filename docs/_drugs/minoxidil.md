@@ -29,66 +29,67 @@ indication_count: 10
 
 </div>
 
-# Minoxidil: From Hypertension to Hypotrichosis Simplex of the Scalp
+# Minoxidil: من ارتفاع ضغط الدم إلى قلة الشعر البسيطة في فروة الرأس
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Minoxidil is best known as an oral vasodilator for severe hypertension, later repurposed into a topical treatment for androgenetic alopecia (a use not captured in this Taiwan evidence pack, where the drug is currently unmarketed). The TxGNN model's top prediction is efficacy in **hypotrichosis simplex of the scalp**, a rare hereditary non-scarring hair disorder, currently supported by **0 clinical trials** and **3 case-report publications**.
+Minoxidil معروف في الأساس كموسع أوعية دموية فموي لعلاج ارتفاع ضغط الدم الشديد، وأعيد تطويره لاحقاً كعلاج موضعي لتساقط الشعر الأندروجيني (وهو استخدام لم يتم التقاطه في حزمة البيانات المتعلقة بتايوان، حيث الدواء غير موجود حالياً في السوق). يتنبأ نموذج TxGNN بأن أفضل نتيجة له هي فعاليته في **قلة الشعر البسيطة في فروة الرأس**، وهي اضطراب وراثي نادر بدون تندب، يدعمه حالياً **0 تجارب سريرية** و**3 منشورات حالات فردية**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Taiwan licensing data (0 licenses on file); internationally, minoxidil's original approved use is oral treatment of severe/refractory hypertension |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.9999% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| البند | المحتوى |
+|------|--------|
+| الاستخدام الأصلي | غير متوفر من بيانات الترخيص في تايوان (0 ترخيص على الملف)؛ على الصعيد الدولي، الاستخدام الموافق عليه الأصلي للـ minoxidil هو العلاج الفموي لارتفاع ضغط الدم الشديد/المقاوم للعلاج |
+| الاستخدام المتنبأ به الجديد | قلة الشعر البسيطة في فروة الرأس |
+| درجة التنبؤ من TxGNN | 99.9999% |
+| مستوى الدليل | L4 |
+| حالة السوق في تايوان | غير موجود في السوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | سؤال بحثي |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for minoxidil was not retrievable from DrugBank in this pack (marked as a data gap). However, the evidence pack's own mechanistic assessment for this candidate provides the relevant rationale: hypotrichosis simplex of the scalp is a hereditary non-scarring hair disorder in which hair follicles are structurally present but the growth cycle is disrupted. It shares a core pathological feature with androgenetic alopecia — prolonged telogen (resting) phase and shortened anagen (growth) phase.
+لم تكن بيانات آلية العمل التفصيلية للـ minoxidil قابلة للاسترجاع من DrugBank في هذه الحزمة (تم وضع علامة عليها كفجوة في البيانات). ومع ذلك، تقييم آلية العمل الخاص بحزمة البيانات لهذا المرشح يوفر النسبة المنطقية ذات الصلة: قلة الشعر البسيطة في فروة الرأس هي اضطراب وراثي نادر بدون تندب حيث تكون بصيلات الشعر موجودة من الناحية البنيوية لكن دورة النمو معطلة. تشارك ميزة مرضية أساسية مع تساقط الشعر الأندروجيني — مرحلة تيلوجين (الراحة) المطولة ومرحلة أناجين (النمو) المختصرة.
 
-Minoxidil's established mechanism in hair disorders is to prolong the anagen phase and promote vascularization of the dermal papilla. Because this mechanism acts on the hair cycle itself rather than on a specific etiology, it is plausible that it extends to hypotrichosis simplex, even though the underlying cause (mutations in the *CDSN* gene, encoding corneodesmosin) differs from androgenetic alopecia.
+آلية عمل الـ minoxidil المثبتة في اضطرابات الشعر هي إطالة مرحلة أناجين وتعزيز الأوعية الدموية للحليمة الجلدية. نظراً لأن هذه الآلية تعمل على دورة الشعر نفسها بدلاً من العمل على سبب محدد، فمن المعقول أن تمتد إلى قلة الشعر البسيطة، على الرغم من أن السبب الكامن وراء ذلك (الطفرات في جين *CDSN*، الذي يشفر corneodesmosin) يختلف عن تساقط الشعر الأندروجيني.
 
-This theoretical basis is supported, at a preliminary level, by three case reports in which oral or topical minoxidil — usually combined with other therapies (growth factors, botanic extracts, or platelet-rich plasma) — produced clinical improvement in patients with hereditary hypotrichosis simplex.
+يدعم هذا الأساس النظري، على مستوى أولي، ثلاث حالات فردية حيث أنتج الـ minoxidil الفموي أو الموضعي — عادة ما يتم دمجه مع علاجات أخرى (عوامل النمو أو المستخلصات النباتية أو البلازما الغنية بالصفائح الدموية) — تحسناً سريرياً في المرضى الذين يعانون من قصور الشعر الوراثي البسيط.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case Report | Dermatologic Therapy | Treatment of hereditary hypotrichosis simplex of the scalp with oral minoxidil combined with growth factors |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case Report | Frontiers in Genetics | Familial case (8-year-old male, *CDSN* mutation) treated with a combination of botanic extracts and minoxidil; notes lack of definitive effective treatments for this rare monogenic disorder |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case Report | Journal of Dermatological Treatment | 14-year-old patient with hypotrichosis simplex successfully treated with combined platelet-rich plasma injection and topical minoxidil 2% |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|-------------|
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | تقرير حالة | Dermatologic Therapy | علاج قصور الشعر البسيط الوراثي في فروة الرأس باستخدام الـ minoxidil الفموي مع عوامل النمو |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | تقرير حالة | Frontiers in Genetics | حالة عائلية (ذكر يبلغ من العمر 8 سنوات، طفرة *CDSN*) تم علاجها بمزيج من المستخلصات النباتية والـ minoxidil؛ يلاحظ الافتقار إلى العلاجات الفعالة المحددة لهذا الاضطراب أحادي الجين النادر |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | تقرير حالة | Journal of Dermatological Treatment | مريضة بعمر 14 سنة تعاني من قصور الشعر البسيط تم علاجها بنجاح بحقن البلازما الغنية بالصفائح الدموية المدمجة والـ minoxidil الموضعي 2% |
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Minoxidil is not currently marketed in Taiwan, and no product authorizations are on file (0 licenses).
+الـ minoxidil غير موجود حالياً في السوق في تايوان، ولا توجد تصاريح منتج على الملف (0 ترخيص).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات الأمان.
 
-*(Note: DG001 — TFDA package insert warnings/contraindications — is flagged as a **Blocking** data gap in the evidence pack, meaning safety review (S1) cannot formally proceed until this is resolved.)*
+*(ملاحظة: DG001 — تحذيرات نشرة TFDA والموانع — تم وضع علامة عليها كفجوة بيانات **حاجزة** في حزمة البيانات، مما يعني أنه لا يمكن المضي قدماً رسمياً في مراجعة الأمان (S1) حتى يتم حل هذه المشكلة.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Research Question**
+**القرار: سؤال بحثي**
 
-**Rationale:**
-The mechanistic rationale is plausible and internally consistent (anagen-phase prolongation applies regardless of the underlying cause of follicular dysfunction), but the supporting evidence base is limited to three low-tier case reports (Tier 3) with no registered clinical trials. This corresponds to Evidence Level L4 — sufficient to justify a formal research question, not yet a development or guardrailed-use decision.
+**النسبة المنطقية:**
+النسبة المنطقية الآلية معقولة ومتسقة داخلياً (إطالة مرحلة أناجين تنطبق بغض النظر عن السبب الكامن وراء الخلل الوظيفي للبصيلة)، لكن قاعدة الأدلة الداعمة محدودة بثلاث تقارير حالات منخفضة المستوى (المستوى 3) بدون تجارب سريرية مسجلة. هذا يتطابق مع مستوى الدليل L4 — كافٍ لتبرير سؤال بحثي رسمي، وليس بعد قرار تطوير أو استخدام محفوظ.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (DG001, Blocking — required before any S1 safety screening)
-- DrugBank mechanism-of-action data (DG002, High priority)
-- A prospective case series or small trial in genetically confirmed hypotrichosis simplex patients, rather than reliance on case reports
-- Taiwan regulatory pathway assessment, since the drug currently holds no local marketing authorization
+**للمتابعة، يتطلب ما يلي:**
+- بيانات نشرة TFDA / التحذيرات وموانع الاستعمال (DG001، حاجزة — مطلوبة قبل أي فحص أمان S1)
+- بيانات آلية العمل من DrugBank (DG002، أولوية عالية)
+- سلسلة حالات استشرافية أو تجربة صغيرة في مرضى قلة الشعر البسيط المؤكدة وراثياً، بدلاً من الاعتماد على تقارير الحالات
+- تقييم المسار التنظيمي في تايوان، حيث أن الدواء لا يحمل حالياً أي ترخيص تسويق محلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

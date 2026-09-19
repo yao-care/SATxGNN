@@ -29,80 +29,81 @@ indication_count: 9
 
 </div>
 
-# Deferiprone: From Transfusional Iron Overload to Hepatic Porphyria
+# ديفيروبرون: من الحمل الحديدي الناجم عن نقل الدم إلى البورفيريا الكبدية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Deferiprone is an oral iron chelator approved by the FDA (2011) for transfusional iron overload in thalassemia patients, though it is not currently registered in Saudi Arabia. The TxGNN model predicts it may be effective for **Hepatic Porphyria**, with **0 clinical trials** and **2 publications** currently supporting this direction. The mechanistic rationale is scientifically coherent — hepatic iron accumulation is a key driver of porphyrin toxicity — but formal clinical validation is absent.
+ديفيروبرون هو عامل خالب حديد فموي معتمد من إدارة الغذاء والدواء (2011) لعلاج الحمل الحديدي الناجم عن نقل الدم لدى مرضى الثلاسيميا، رغم أنه غير مسجل حالياً في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **البورفيريا الكبدية**، مع **0 تجربة سريرية** و**2 منشور** يدعمان هذا الاتجاه حالياً. الأساس الآلي معقول من الناحية العلمية — تراكم الحديد الكبدي هو محرك رئيسي لسمية البورفيرين — لكن التحقق السريري الرسمي غائب.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Transfusional iron overload (thalassemia) — FDA-approved 2011; not registered in Saudi Arabia |
-| Predicted New Indication | Hepatic Porphyria |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| المؤشر الأصلي | الحمل الحديدي الناجم عن نقل الدم (الثلاسيميا) — معتمد من إدارة الغذاء والدواء منذ 2011؛ غير مسجل في المملكة العربية السعودية |
+| المؤشر المتنبأ به الجديد | البورفيريا الكبدية |
+| درجة التنبؤ بنموذج TxGNN | 99.20% |
+| مستوى الدليل | L4 |
+| حالة سوق المملكة العربية السعودية | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | سؤال البحث |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known information, deferiprone is an orally active bidentate hydroxypyridinone iron chelator that binds ferric iron (Fe³⁺) with high affinity and promotes its excretion via urine and feces. A key property distinguishing it from other chelators is its ability to cross cell membranes, enabling removal of intracellular iron stores — including from hepatocytes and erythroid precursors.
+بيانات آلية العمل المفصلة غير متوفرة في مجموعة الأدلة هذه. بناءً على المعلومات المعروفة، ديفيروبرون هو عامل خالب حديد فموي ثنائي الأسنان من الهيدروكسيبيريدينون يرتبط بحديد فيريك (Fe³⁺) برتباط عالي التقاربية ويعزز إفرازه عن طريق البول والبراز. الخاصية الرئيسية التي تميزه عن العوامل الخالبة الأخرى هي قدرته على عبور أغشية الخلايا، مما يتيح إزالة مخزون الحديد داخل الخلايا — بما في ذلك من الخلايا الكبدية والخلايا السلفية الحمراء.
 
-Hepatic porphyrias — including porphyria cutanea tarda (PCT) and congenital erythropoietic porphyria (CEP) — share a critical pathophysiological feature: excess free iron in the liver catalyzes oxidative conversion of porphyrinogens to toxic porphyrin isomers, driving both skin photosensitivity and hemolytic anemia. Iron removal by phlebotomy is already standard care for PCT precisely because reducing hepatic iron content is therapeutic. Deferiprone, as an oral chelator, offers the same depletion mechanism in patients who cannot tolerate phlebotomy.
+البورفيريات الكبدية — بما في ذلك البورفيريا الجلدية الكبدية (PCT) والبورفيريا الكريات الحمراء الخلقية (CEP) — تتشارك في ميزة مسببة للمرض حرجة: الحديد الحر الزائد في الكبد يحفز التحويل الأكسدي للبورفيرينوجين إلى أيزومرات البورفيرين السامة، مما يدفع كل من حساسية الجلد الضوئية وفقر الدم الانحلالي. إزالة الحديد عن طريق البزل هي بالفعل العلاج القياسي لـ PCT على وجه التحديد لأن تقليل محتوى الحديد الكبدي علاجي. يقدم ديفيروبرون، كعامل خالب حديد فموي، نفس آلية الاستنزاف لدى المرضى الذين لا يستطيعون تحمل البزل.
 
-Two supporting publications reinforce this rationale. Blouin et al. (*Blood*, 2020) demonstrated in a clinical case series that oral iron chelation rescued hemolytic anemia and skin photosensitivity in CEP patients, directly validating the therapeutic concept. Gorman et al. (*Hepatology*, 2007) confirmed in an Hfe⁻/⁻ murine PCT model that deferiprone reduced hepatic uroporphyrin accumulation to a degree comparable to iron-deficient diets. The mechanistic link is clear; the gap is the absence of prospective clinical trials.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+منشوران داعمان يعززان هذا الأساس. أظهر Blouin et al. (*Blood*، 2020) في سلسلة حالات سريرية أن العلاج الفموي بخالب الحديد أنقذ فقر الدم الانحلالي وحساسية الجلد الضوئية لدى مرضى CEP، مما يثبت مباشرة المفهوم العلاجي. أكد Gorman et al. (*Hepatology*، 2007) في نموذج Hfe⁻/⁻ من الفأر لـ PCT المستحثة بـ ALA أن ديفيروبرون قلل بشكل كبير من تراكم اليوروبورفيرين الكبدي بدرجة قابلة للمقارنة مع الحميات الفقيرة بالحديد. الارتباط الآلي واضح؛ الفجوة هي غياب التجارب السريرية الاستشرافية.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Clinical Case Study | Blood | Oral iron chelation rescued hemolytic anemia and skin photosensitivity in congenital erythropoietic porphyria (CEP); reduction in pathological uroporphyrin isomer I accumulation demonstrated in patients with UROS deficiency |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal Model | Hepatology | Deferiprone (L1) significantly reduced hepatic uroporphyrin accumulation in Hfe⁻/⁻ mice with ALA-induced PCT; effect was comparable to iron-deficient diet, supporting iron chelation as a mechanistic surrogate for phlebotomy |
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-Deferiprone is not currently registered in Saudi Arabia and holds no active product authorizations. For reference, the drug is approved by the FDA (since 2011) and EMA for transfusional iron overload in thalassemia major patients. No locally approved products are on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note for reviewers:** Although in-scope safety data was not available in this evidence pack, global regulatory labels carry a **Black Box Warning for agranulocytosis and neutropenia** requiring weekly absolute neutrophil count (ANC) monitoring. This is a critical safety consideration for any clinical development plan and should be formally reviewed before advancing this candidate.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|---------|----------------|
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | دراسة حالة سريرية | Blood | أنقذ العلاج الفموي بخالب الحديد فقر الدم الانحلالي وحساسية الجلد الضوئية لدى البورفيريا الكريات الحمراء الخلقية (CEP)؛ تم توثيق تقليل تراكم أيزومرات اليوروبورفيرين المرضية I لدى المرضى الذين يعانون من نقص UROS |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | نموذج حيواني | Hepatology | قلل ديفيروبرون (L1) بشكل كبير من تراكم اليوروبورفيرين الكبدي في فئران Hfe⁻/⁻ مع PCT المستحثة بـ ALA؛ كان التأثير قابلاً للمقارنة مع الحمية الفقيرة بالحديد، مما يدعم خلب الحديد كبديل آلي للبزل |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Research Question**
+ديفيروبرون غير مسجل حالياً في المملكة العربية السعودية ولا يحمل أي تصاريح منتجات نشطة. للمرجعية، الدواء معتمد من إدارة الغذاء والدواء (منذ 2011) و EMA لعلاج الحمل الحديدي الناجم عن نقل الدم لدى مرضى الثلاسيميا الكبرى. لا توجد منتجات معتمدة محلياً مسجلة.
 
-**Rationale:**
-The mechanistic link between iron chelation and hepatic porphyria is scientifically sound and supported by analogous clinical practice (phlebotomy in PCT), but current evidence is limited to one case series and one murine model (Evidence Level L4), with no registered clinical trials. This is a hypothesis worth pursuing — not a candidate ready for formulary evaluation.
+---
 
-**To proceed, the following is needed:**
-- Systematic literature review covering iron chelation in PCT, CEP, and related hepatic porphyrias to identify additional preclinical or observational evidence not captured in this evidence pack
-- Review of full package insert warnings and contraindications (particularly agranulocytosis risk) before any clinical protocol is drafted
-- Retrieval of deferiprone MOA from DrugBank to complete mechanistic scoring
-- Assessment of whether a pilot investigator-initiated trial (IIT) is feasible in CEP or PCT patients with documented iron overload in the target market
-- Market access feasibility analysis for Saudi Arabia registration given zero current approvals in the region
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملصق العبوة للحصول على معلومات السلامة.
+
+> **ملاحظة للمراجعين:** رغم أن بيانات السلامة ذات الصلة لم تكن متوفرة في مجموعة الأدلة هذه، فإن التسميات التنظيمية العالمية تحمل **تحذير صندوق أسود للحبيبات البيضاء والعدلات المنخفضة** يتطلب مراقبة عدد الخلايا المحببة المطلقة (ANC) الأسبوعية. هذا اعتبار سلامة حرج لأي خطة تطوير سريري ويجب أن تتم مراجعته رسمياً قبل التقدم بهذا المرشح.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: سؤال البحث**
+
+**المنطق:**
+الارتباط الآلي بين خلب الحديد والبورفيريا الكبدية سليم من الناحية العلمية ويدعمه الممارسة السريرية المماثلة (البزل في PCT)، لكن الأدلة الحالية تقتصر على سلسلة حالة واحدة ونموذج حيواني واحد فقط (مستوى الدليل L4)، مع عدم وجود تجارب سريرية مسجلة. هذه فرضية تستحق المتابعة — وليست مرشحة جاهزة لتقييم قائمة الأدوية.
+
+**للمضي قدماً، يلزم ما يلي:**
+- مراجعة منهجية للأدبيات تغطي خلب الحديد في PCT و CEP والبورفيريات الكبدية المرتبطة بها لتحديد أدلة ما قبل السريرية أو الرصدية إضافية لم تتم ملتقطتها في مجموعة الأدلة هذه
+- مراجعة ملصق العبوة الكاملة للتحذيرات والموانع الاستعمال (خاصة مخاطر الحبيبات البيضاء) قبل صياغة أي بروتوكول سريري
+- استرجاع آلية عمل ديفيروبرون من DrugBank لإكمال تسجيل الآليات
+- تقييم ما إذا كانت تجربة موجهة من قبل الباحثين (IIT) قابلة للجدوى في مرضى CEP أو PCT مع حمل حديدي موثق في سوق الهدف
+- تحليل جدوى توفر السوق لتسجيل المملكة العربية السعودية بالنظر إلى عدم وجود موافقات حالية في المنطقة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

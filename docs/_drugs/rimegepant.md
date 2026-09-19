@@ -29,91 +29,92 @@ indication_count: 6
 
 </div>
 
-# Rimegepant: From Migraine to Migraine with Brainstem Aura
+# ريمجيبانت: من الصداع النصفي إلى الصداع النصفي مع هالة جذع الدماغ
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Rimegepant is a CGRP receptor antagonist originally developed and marketed globally (as Nurtec® ODT / Vydura®) for the acute and preventive treatment of migraine.
-> The TxGNN model predicts it may also be effective for **migraine with brainstem aura**, a subtype in which vasoconstrictive triptans are typically avoided,
-> with **0 clinical trials** but **14 supporting publications** currently available — all on general migraine populations rather than this specific subtype.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Migraine — acute treatment (with or without aura) and preventive treatment of episodic migraine (based on literature/known global approval; no formal local license record found) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> ريمجيبانت هو مضاد لمستقبل CGRP تم تطويره وتسويقه في الأصل على الصعيد العالمي (باسم Nurtec® ODT / Vydura®) لمعالجة الصداع النصفي الحاد والوقائية.
+> يتوقع نموذج TxGNN أنه قد يكون فعالاً أيضاً في **الصداع النصفي مع هالة جذع الدماغ**، وهو نوع فرعي يتم عادة تجنب التريبتانات المضيقة للأوعية الدموية فيه،
+> مع **0 تجربة سريرية** و**14 منشور داعم** متاح حالياً — جميعها تتعلق بمجموعات الصداع النصفي العام وليس هذا النوع الفرعي المحدد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-No structured mechanism-of-action record is available in the drug database (DrugBank MOA field flagged as a data gap). Based on the literature reviewed below, however, rimegepant is a small-molecule, highly-selective calcitonin gene-related peptide (CGRP) receptor antagonist. It blocks CGRP-mediated vasodilation and neurogenic inflammation — the core pathological mechanism of migraine — and is already approved for both acute and preventive treatment of migraine.
-
-Migraine with brainstem aura (formerly "basilar-type migraine") is a subtype of migraine, not a distinct disease, so the pharmacological rationale carries over directly from the approved indication. What makes this subtype distinct clinically is that triptans — the conventional acute treatment, which act via vasoconstriction — are generally avoided in this population due to concerns about ischemic risk in brainstem/posterior-circulation territory. Because rimegepant's mechanism is non-vasoconstrictive, it is theoretically well-suited as an alternative for exactly this population. A 2026 longitudinal MRA study (PMID 41574090) supports this by directly characterizing rimegepant's effect on cerebral and extracerebral arteries during migraine attacks.
-
-The key caveat is that all 14 publications identified concern the general migraine population; none specifically enrolled or analyzed patients with the brainstem aura subtype. The mechanistic case is sound, but subtype-specific clinical evidence is currently absent.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | الصداع النصفي — المعالجة الحادة (مع أو بدون هالة) والمعالجة الوقائية من الصداع النصفي الدوري (بناءً على الأدبيات والموافقة العالمية المعروفة؛ لم يتم العثور على سجل ترخيص محلي رسمي) |
+| الاستطباب الجديد المتنبأ به | الصداع النصفي مع هالة جذع الدماغ |
+| درجة التنبؤ TxGNN | 99.94% |
+| مستوى الدليل | L2 |
+| حالة السوق السعودي | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع حواجز حماية |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Regulatory Approval Summary | Drugs | FDA approval summary for rimegepant ODT as acute migraine treatment; conventional tablet under review for acute treatment/prevention and trigeminal neuralgia |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | The Journal of Headache and Pain | Compares onset of efficacy of lasmiditan vs. rimegepant vs. ubrogepant for acute migraine treatment |
-| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Longitudinal MRA study | Brain Communications | Prospective study of rimegepant's effect on cerebral/extracerebral arteries during spontaneous migraine attacks; supports non-vasoconstrictive mechanism (directly relevant to brainstem aura's triptan-avoidance rationale) |
-| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Phase 4 open-label safety/tolerability study | The Journal of Headache and Pain | 24-week study of once-daily 75mg rimegepant for episodic migraine prevention; evaluates long-term safety/tolerability |
-| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Phase 3 open-label long-term safety study | Cephalalgia | Long-term safety, tolerability and effectiveness of rimegepant ODT for acute migraine treatment in Chinese adults |
-| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Review | CNS Drugs | Comprehensive review of rimegepant in acute and preventive migraine treatment; phase III trials show superiority over placebo |
-| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Review | Handbook of Clinical Neurology | Review of second-generation gepants (rimegepant, ubrogepant) as CGRP-mediated antimigraine drugs |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Management | Review of rimegepant within the broader landscape of new acute/preventive migraine treatments |
-| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospective cohort | Headache | Tolerability and effectiveness of off-label rimegepant use for acute migraine treatment in adolescents |
-| [41133671](https://pubmed.ncbi.nlm.nih.gov/41133671/) | 2026 | Phase 1 PK study | Headache | Pharmacokinetics, safety and tolerability of single-dose rimegepant in children aged 6–<12 with migraine history |
+لا يتوفر سجل منظم لآلية العمل في قاعدة بيانات الأدوية (تم تحديد حقل DrugBank MOA كفجوة بيانات). استناداً إلى الأدبيات المراجعة أدناه، فإن ريمجيبانت هو مضاد انتقائي جداً وصغير الحجم الجزيئي لمستقبل ببتيد مرتبط بجين كالسيتونين (CGRP). يمنع توسع الأوعية الدموية الناجم عن CGRP والالتهاب العصبي الأصلي — آليات المرض الأساسية للصداع النصفي — وهو معتمد بالفعل للمعالجة الحادة والوقائية من الصداع النصفي.
+
+الصداع النصفي مع هالة جذع الدماغ (الذي يطلق عليه سابقاً "الصداع النصفي من النوع القاعدي") هو نوع فرعي من الصداع النصفي وليس مرضاً مختلفاً، لذا ينطبق المبرر الصيدلاني مباشرة على الاستطباب المعتمد. ما يجعل هذا النوع الفرعي متميزاً سريرياً هو أن التريبتانات — العلاج الحاد التقليدي الذي يعمل عن طريق تضيق الأوعية الدموية — يتم تجنبها بشكل عام في هذه المجموعة السكانية بسبب المخاوف المتعلقة بالإقفار في منطقة جذع الدماغ والدوران الخلفي. نظراً لأن آلية عمل ريمجيبانت غير مضيقة للأوعية الدموية، فهي مناسبة نظرياً كبديل لهذه المجموعة السكانية تحديداً. دراسة طولية بـ MRA نُشرت عام 2026 (PMID 41574090) تدعم ذلك من خلال توصيف تأثير ريمجيبانت على الشرايين الدماغية والخارجية مباشرة أثناء نوبات الصداع النصفي التلقائية.
+
+التحفظ الرئيسي هو أن جميع المنشورات الـ 14 المحددة تتعلق بمجموعة الصداع النصفي العام؛ لا يوجد منشور يتضمن أو يحلل على وجه التحديد المرضى الذين يعانون من النوع الفرعي للهالة الجذعية. المبرر الآلي سليم، لكن الدليل السريري الخاص بالنوع الفرعي غائب حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Not marketed; no product authorizations on file (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-interaction data are marked as a Blocking data gap — see Next Steps.)*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Proceed with Guardrails**
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|--------|------|--------|--------|
+| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | ملخص الموافقة التنظيمية | Drugs | ملخص موافقة FDA على rimegepant ODT كمعالجة حادة للصداع النصفي؛ الصيغة اللوحية التقليدية قيد المراجعة للمعالجة الحادة/الوقائية والألم العصبي ثلاثي التوائم |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | تحليل تجميع الشبكة | The Journal of Headache and Pain | مقارنة بداية فعالية lasmiditan مقابل rimegepant مقابل ubrogepant لمعالجة الصداع النصفي الحاد |
+| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | دراسة طولية بـ MRA | Brain Communications | دراسة مستقبلية لتأثير rimegepant على الشرايين الدماغية والخارجية أثناء نوبات الصداع النصفي التلقائية؛ تدعم آلية العمل غير المضيقة للأوعية الدموية (ذات صلة مباشرة بمبرر تجنب التريبتانات في هالة جذع الدماغ) |
+| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | دراسة مفتوحة المرحلة 4 للأمان والتحمل | The Journal of Headache and Pain | دراسة استمرت 24 أسبوعاً لـ rimegepant 75 ملغ مرة واحدة يومياً للوقاية من الصداع النصفي الدوري؛ تقيم الأمان والتحمل على المدى الطويل |
+| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | دراسة مفتوحة المرحلة 3 للأمان على المدى الطويل | Cephalalgia | الأمان والتحمل والفعالية على المدى الطويل لـ rimegepant ODT لمعالجة الصداع النصفي الحاد لدى البالغين الصينيين |
+| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | استعراض | CNS Drugs | استعراض شامل لـ rimegepant في معالجة الصداع النصفي الحاد والوقائية؛ تظهر تجارب المرحلة الثالثة تفوقاً على الدواء الوهمي |
+| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | استعراض | Handbook of Clinical Neurology | استعراض gepants من الجيل الثاني (rimegepant و ubrogepant) كأدوية مضادة للصداع النصفي الوسيطة بـ CGRP |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | استعراض | Pain Management | استعراض ريمجيبانت ضمن المشهد الأوسع لعلاجات الصداع النصفي الحادة والوقائية الجديدة |
+| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | دراسة بأثر رجعي على مجموعة سكانية | Headache | التحمل والفعالية لاستخدام rimegepant خارج الاستطباب لمعالجة الصداع النصفي الحاد لدى المراهقين |
+| [41133671](https://pubmed.ncbi.nlm.nih.gov/41133671/) | 2026 | دراسة حركة دوائية المرحلة 1 | Headache | الحركة الدوائية والأمان والتحمل لـ rimegepant بجرعة واحدة لدى الأطفال بعمر 6–<12 سنة مع تاريخ من الصداع النصفي |
 
-**Rationale:**
-The mechanistic case is strong — rimegepant's non-vasoconstrictive CGRP antagonism is plausible for the brainstem aura subtype specifically because it avoids the triptan-related ischemic concern — and it is supported by an extensive general-migraine evidence base (14 publications, including Phase 3/4 studies and a vascular-mechanism MRA study). However, zero trials or publications directly address the brainstem aura subtype, and a Blocking-severity data gap exists on local package-insert warnings/contraindications, so this cannot proceed to full evaluation without guardrails.
+---
 
-**To proceed, the following is needed:**
-- Local package insert / label data (warnings, contraindications, DDI) — currently a Blocking gap preventing S1 safety review
-- Detailed original mechanism-of-action documentation from DrugBank (currently a data gap)
-- Subtype-specific clinical evidence (trial or observational data) for migraine with brainstem aura, rather than general migraine extrapolation
-- Local regulatory pathway assessment, since the drug is not currently marketed/licensed in this jurisdiction
+## معلومات السوق السعودي
 
-*Note: TxGNN also flagged five additional candidate indications (atrophoderma vermiculata, ulerythema ophryogenesis, heparin cofactor 2 deficiency, antithrombin deficiency type 2, factor V excess) for rimegepant. All were held (L5, no mechanistic or evidentiary support) and are not discussed further here.*
+غير مسوق؛ لا توجد ترخيصات منتج في الملف (0 ترخيص).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+*(ملاحظة: تم تحديد التحذيرات الرئيسية وموانع الاستعمال وبيانات التفاعلات الدوائية كفجوة بيانات حجب — انظر الخطوات التالية.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع حواجز حماية**
+
+**المبرر:**
+المبرر الآلي قوي — معارضة ريمجيبانت غير المضيقة للأوعية الدموية لـ CGRP معقولة للنوع الفرعي هالة جذع الدماغ تحديداً لأنها تتجنب مخاوف الإقفار المرتبطة بالتريبتان — وتدعمها قاعدة دليل عامة واسعة للصداع النصفي (14 منشور، بما فيها دراسات المرحلة 3/4 ودراسة آلية الأوعية الدموية بـ MRA). ومع ذلك، لا توجد تجارب أو منشورات تتناول النوع الفرعي هالة جذع الدماغ بشكل مباشر، وتوجد فجوة بيانات حجب على تحذيرات/موانع استعمال الملصق المحلي، لذا لا يمكن أن تمضي إلى التقييم الكامل دون حواجز حماية.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة المحلية / بيانات الملصق (التحذيرات وموانع الاستعمال والتفاعلات الدوائية) — حالياً فجوة بيانات حجب تمنع مراجعة الأمان من S1
+- توثيق آلية العمل الأصلية المفصلة من DrugBank (حالياً فجوة بيانات)
+- دليل فعالية سريري خاص بالنوع الفرعي (تجربة أو بيانات مرصودة) للصداع النصفي مع هالة جذع الدماغ، وليس استقراء من الصداع النصفي العام
+- تقييم المسار التنظيمي المحلي، حيث أن الدواء غير مسوق/مرخص حالياً في هذه الولاية القضائية
+
+*ملاحظة: حدد TxGNN أيضاً خمس استطبابات مرشحة إضافية (atrophoderma vermiculata و ulerythema ophryogenesis و heparin cofactor 2 deficiency و antithrombin deficiency type 2 و factor V excess) لـ rimegepant. تم الاحتفاظ بها جميعاً (L5، بدون دعم آلي أو دليل) ولم يتم مناقشتها بشكل أكبر هنا.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

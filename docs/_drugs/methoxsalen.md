@@ -29,61 +29,62 @@ indication_count: 10
 
 </div>
 
-# Methoxsalen: From Psoriasis/Vitiligo (Photochemotherapy) to Localized Pagetoid Reticulosis
+# ميثوكسالين: من الصدفية والبهاق (العلاج الضوئي) إلى الحثل الجلدي الصفائحي الموضعي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Methoxsalen (8-MOP) is a psoralen photosensitizer that, combined with UVA exposure (PUVA) or extracorporeal photopheresis (ECP), has an established role in treating T-cell-driven skin conditions such as psoriasis and vitiligo. The TxGNN model predicts it may be effective for **localized pagetoid reticulosis**, a rare cutaneous T-cell lymphoma (CTCL) subtype, but this specific prediction currently has **no direct clinical trial or literature support** — the rationale rests on extrapolation from a closely related CTCL indication rather than dedicated evidence.
+ميثوكسالين (8-MOP) هو مصيّر ضوئي من عائلة البسوريلين، يُستخدم بالتزامن مع التعريض للأشعة فوق البنفسجية من نوع A (PUVA) أو تحت جلد الكريات البيضاء بالعلاج الضوئي خارج الجسم (ECP)، وله دور محدد القائم في علاج الحالات الجلدية التي تعتمد على الخلايا اللمفاوية T مثل الصدفية والبهاق. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الحثل الجلدي الصفائحي الموضعي**، وهي نوعية نادرة من اللمفومات الجلدية من الخلايا التائية (CTCL)، لكن هذا التنبؤ المحدد لا يحتوي حالياً على **أي دعم تجريبي سريري أو أدبي مباشر** — المنطق يستند على استنباط من استطباب CTCL ذو صلة وثيقة بدلاً من الأدلة المخصصة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available from this evidence pack (Saudi regulatory/TFDA package insert data blocked — see Data Gap DG001); known pharmacologically as a psoralen used in PUVA photochemotherapy for psoriasis and vitiligo |
-| Predicted New Indication | Localized pagetoid reticulosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (mechanism-based extrapolation; no direct trials or literature for this specific indication) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير متوفر من هذه الحزمة الأدلة (بيانات الحزمة الجنسية السعودية/TFDA محجوبة — انظر الفجوة في البيانات DG001)؛ معروف دوائياً كبسوريلين يستخدم في العلاج الضوئي PUVA للصدفية والبهاق |
+| الاستطباب الجديد المتنبأ به | الحثل الجلدي الصفائحي الموضعي |
+| درجة التنبؤ من TxGNN | 99.97% |
+| مستوى الدليل | L4 (استقراء قائم على الآلية؛ لا توجد تجارب أو أدب مباشر لهذا الاستطباب المحدد) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for methoxsalen is not available in this evidence pack (Data Gap DG002). Based on known pharmacology, methoxsalen is a psoralen (furocoumarin) photosensitizer: upon UVA activation it intercalates into DNA and forms crosslinks, which suppresses proliferation of activated lymphocytes. This mechanism underlies its established clinical use in PUVA photochemotherapy and, more specifically, extracorporeal photopheresis (ECP) — a therapy already used in practice for cutaneous T-cell lymphomas such as Sézary syndrome and early mycosis fungoides.
+حالياً، بيانات تفصيلية عن آلية العمل لميثوكسالين غير متوفرة في هذه الحزمة الأدلة (فجوة البيانات DG002). بناءً على الصيدلية المعروفة، ميثوكسالين هو مصيّر ضوئي من البسوريلين (فوروكومارين): عند التفعيل بالأشعة فوق البنفسجية من نوع A فإنه يندمج في الحمض النووي ويشكل تقاطعات، مما يثبط انتشار الخلايا اللمفاوية المنشطة. تكمن هذه الآلية وراء استخدامه السريري المحدد القائم في العلاج الضوئي PUVA وبشكل أخص في تحت جلد الكريات البيضاء بالعلاج الضوئي خارج الجسم (ECP) — وهو علاج يُستخدم بالفعل في الممارسة السريرية لاللمفومات الجلدية من الخلايا التائية مثل متلازمة سيزاري والفطار الفطراني المبكر.
 
-Localized pagetoid reticulosis is a rare, indolent localized subtype of mycosis fungoides, and therefore belongs to the same T-cell lymphoma spectrum as "indolent primary cutaneous T-cell lymphoma" (rank 2 in this prediction set, evidence level L3, supported by 2 publications on photopheresis in CTCL). The mechanistic rationale for methoxsalen in localized pagetoid reticulosis is therefore biologically plausible by class extension — but it is an indirect inference, not evidence specific to this exact disease entity. No clinical trials, ICTRP registrations, or PubMed literature were found querying methoxsalen against "localized pagetoid reticulosis" directly.
+الحثل الجلدي الصفائحي الموضعي هو نوعية نادرة وخاملة موضعياً من الفطار الفطراني، وبالتالي ينتمي إلى نفس طيف اللمفومات اللمفاوية T مثل "اللمفومة الجلدية الأولية من الخلايا التائية الخاملة" (الترتيب 2 في هذه مجموعة التنبؤات، مستوى الدليل L3، مدعومة بـ 2 منشور عن الرحبة الضوئية في CTCL). المبرر الميكانيكي لميثوكسالين في الحثل الجلدي الصفائحي الموضعي معقول بيولوجياً بواسطة امتداد الفئة — لكنه استنباط غير مباشر، وليس دليل محدد لهذا الكيان المرضي بالضبط. لم يتم العثور على تجارب سريرية أو تسجيلات ICTRP أو أدب PubMed عند الاستعلام عن ميثوكسالين مقابل "الحثل الجلدي الصفائحي الموضعي" بشكل مباشر.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الدراسات المنشورة
 
-Currently no related literature available.
+لا توجد دراسات منشورة ذات صلة متوفرة حالياً.
 
-*(Note: related literature exists for the closely related indication "indolent primary cutaneous T-cell lymphoma" — Crovetti et al. 2000, PMID [12118838](https://pubmed.ncbi.nlm.nih.gov/12118838/), a 5-year photopheresis cohort in CTCL; and an Ontario HTA review, PMID [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) — but neither addresses localized pagetoid reticulosis specifically.)*
+*(ملاحظة: الدراسات ذات الصلة موجودة للاستطباب ذو الصلة الوثيقة "اللمفومة الجلدية الأولية من الخلايا التائية الخاملة" — Crovetti et al. 2000, PMID [12118838](https://pubmed.ncbi.nlm.nih.gov/12118838/), دراسة تتبع طويلة المدى لمدة 5 سنوات للرحبة الضوئية في CTCL؛ واستعراض حقق أونتاريو (HTA) بـ PMID [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) — لكن لا أحد منهما يعالج الحثل الجلدي الصفائحي الموضعي بشكل محدد.)*
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Methoxsalen has no marketing authorizations currently registered in Saudi Arabia (market status: not marketed; 0 licenses on file).
+ميثوكسالين لا يحتوي على تصاريح تسويق مسجلة حالياً في المملكة العربية السعودية (حالة السوق: غير مسوق؛ 0 ترخيص في الملف).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة البيانات للحصول على معلومات أمنية.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The top-ranked prediction (localized pagetoid reticulosis) has no direct clinical trial or literature evidence — support is limited to mechanistic extrapolation from a related, better-evidenced CTCL indication. Combined with the drug's unmarketed status in Saudi Arabia and blocking safety data gaps, this does not meet the bar to proceed.
+**المبرر:**
+التنبؤ ذو الترتيب الأعلى (الحثل الجلدي الصفائحي الموضعي) لا يحتوي على أي دليل تجريبي سريري أو أدبي مباشر — الدعم محدود بالاستقراء الآلي من استطباب CTCL ذو صلة وثيقة وأفضل إثباتاً. بالإضافة إلى حالة عدم تسويق الدواء في المملكة العربية السعودية وفجوات البيانات الأمنية المحجوبة، فإن هذا لا يرقى إلى مستوى المتابعة.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings/contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action documentation from DrugBank or equivalent source — currently a High-severity gap (DG002)
-- Targeted literature/trial search specifically for methoxsalen in localized pagetoid reticulosis (rather than the broader CTCL category)
-- Drug interaction (DDI) profile, currently unresolved ("not_found")
-- If pursued, consider prioritizing the better-evidenced related indication (indolent primary cutaneous T-cell lymphoma, L3/S2) as the more defensible research question
+**للمتابعة، يلزم ما يلي:**
+- نشرة بيانات TFDA/SFDA (التحذيرات/موانع الاستعمال) — حالياً فجوة بيانات حجب (DG001)
+- توثيق آلية العمل المؤكدة من DrugBank أو مصدر مكافئ — حالياً فجوة شدة عالية (DG002)
+- بحث أدبي/تجريبي موجه بشكل محدد عن ميثوكسالين في الحثل الجلدي الصفائحي الموضعي (بدلاً من فئة CTCL الأوسع)
+- ملف تفاعل الدواء (DDI)، حالياً غير محلول ("not_found")
+- في حالة المتابعة، فكر في إعطاء الأولوية للاستطباب ذو الصلة الأفضل إثباتاً (لمفومة جلدية أولية من الخلايا التائية خاملة، L3/S2) كسؤال البحث الأكثر دفاعاً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

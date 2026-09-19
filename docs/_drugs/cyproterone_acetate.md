@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-# Cyproterone Acetate: From Hyperandrogenism to Migraine Disorder
+# أسيتات سيبروتيرون: من فرط الأندروجين إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Cyproterone Acetate (CPA) is an internationally established synthetic antiandrogen and progestogen, primarily used for hyperandrogenism conditions such as hirsutism, acne, and polycystic ovary syndrome (PCOS) — though it currently holds no marketing authorization in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, with **0 clinical trials** and **3 publications** currently supporting this direction.
-The mechanistic link is indirect and theoretical; evidence sits at Level L4, and the recommended decision is **Hold** pending further preclinical and clinical investigation.
+أسيتات سيبروتيرون (CPA) هو مضاد أندروجين وبروجستوجين صنعي معروف دولياً، يُستخدم بشكل أساسي لحالات فرط الأندروجين مثل الشعرانية والعد الشبابي ومتلازمة تكيس المبايض (PCOS) — على الرغم من أنه لا يحمل حالياً أي ترخيص تسويق في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع النصفي**، مع وجود **0 تجربة سريرية** و**3 منشورات** تدعم حالياً هذا الاتجاه.
+الارتباط الآلي غير مباشر ونظري؛ الدليل يقع في المستوى L4، والقرار الموصى به هو **الانتظار** في انتظار مزيد من التحقيق السابق للسريري والسريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hyperandrogenism (hirsutism, acne, PCOS); hormonal therapy for prostate cancer — not registered in Saudi Arabia |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | فرط الأندروجين (الشعرانية، العد الشبابي، PCOS)؛ العلاج الهرموني لسرطان البروستاتا — غير مسجل في المملكة العربية السعودية |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة توقع TxGNN | 99.66% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for Cyproterone Acetate is not available in this Evidence Pack. Based on known pharmacological information, CPA is a synthetic C21-steroid progestogen with potent anti-androgenic properties. It functions primarily by competitively blocking androgen receptors and centrally suppressing LH and FSH secretion through anti-gonadotropic effects. As a progestogen, CPA also engages neurosteroid pathways: C21-steroids have been shown to act as activators of GABA-A receptor subtypes, stimulate dopamine release in striatal tissue, and modulate opioid receptor binding (PMID 14670648).
+بيانات آلية العمل التفصيلية لأسيتات سيبروتيرون غير متاحة في هذه الحزمة الإثباتية. استناداً إلى المعلومات الدوائية المعروفة، CPA هو بروجستوجين ستيرويدي C21 صنعي بخصائص مضادة للأندروجين قوية. يعمل بشكل أساسي عن طريق حجب مستقبلات الأندروجين بشكل تنافسي وقمع LH و FSH مركزياً من خلال التأثيرات المضادة للموجهات التناسلية. كبروجستوجين، يندمج CPA أيضاً في مسارات نيوروستيرويد: يُظهر الستيرويدات C21 أنها تعمل كمنشطات لأنواع مستقبلات GABA-A وتحفز إطلاق الدوبامين في النسيج المخطط وتعدّل ارتباط مستقبلات الأفيون (PMID 14670648).
 
-The theoretical connection to migraine builds on this neurosteroid-GABAergic framework. Progesterone-related neurosteroids are known to influence cortical excitability and migraine threshold, and a 2002 clinical study (PMID 12390622) observed that different progestogen regimens in hormone replacement therapy differentially affect migraine frequency in postmenopausal women — suggesting that progestogenic pharmacology, which CPA shares, may intersect with migraine biology.
+الارتباط النظري بالصداع النصفي يبني على هذا الإطار العصبي-GABAergic. يُعرف أن الستيرويدات العصبية المتعلقة بالبروجستيرون تؤثر على إثارة القشرة الدماغية وعتبة الصداع النصفي، ودراسة سريرية من عام 2002 (PMID 12390622) لاحظت أن أنظمة بروجستوجين مختلفة في العلاج البديل بالهرمونات تؤثر بشكل مختلف على تكرار الصداع النصفي في النساء بعد انقطاع الطمث — مما يشير إلى أن صيدلة البروجستوجين، التي يشاركها CPA، قد تتقاطع مع بيولوجيا الصداع النصفي.
 
-However, no study has directly evaluated CPA as a migraine treatment. The TxGNN prediction reflects knowledge graph topological proximity between CPA's pharmacological nodes and migraine disease nodes, not a validated clinical relationship. A critical countervailing safety signal must also be noted: migraine with aura — a closely related phenotype — is explicitly contraindicated in CPA-containing products (Diane-35) under European clinical guidelines due to elevated cerebrovascular risk. This substantially limits the realistic scope of any repurposing effort targeting migraine.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Cyproterone Acetate in migraine disorder.
+ومع ذلك، لم تقيّم أي دراسة مباشرة CPA كعلاج للصداع النصفي. يعكس التنبؤ بـ TxGNN القرب الطوبوغرافي لرسم المعرفة بين عُقد الصيدلة الدوائية لـ CPA وعُقد أمراض الصداع النصفي، وليس علاقة سريرية مُحققة. يجب ملاحظة أيضاً إشارة سلامة حرجة معارضة: الصداع النصفي مع الهالة — ظاهرة وثيقة الصلة — مضادة بشكل واضح في منتجات تحتوي على CPA (Diane-35) بموجب الإرشادات السريرية الأوروبية بسبب خطر الأوعية الدموية المخية المرتفع. هذا يحد بشكل كبير من النطاق الواقعي لأي جهد إعادة استخدام يستهدف الصداع النصفي.
 
 ---
 
-## Literature Evidence
+## الدليل من التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Clinical Study | Headache | Three oral HRT regimens evaluated for migraine course in postmenopausal women; progestogen type and delivery scheme differentially affect migraine frequency — indirect basis for progestogen-migraine interaction |
-| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Mechanistic review of progestin-brain interactions; CPA specifically demonstrated to increase dopaminergic responses, bind opiate receptors, and activate GABA-A receptors via C21-steroid mechanism — theoretical neurological basis for migraine threshold modulation |
-| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Observational | Zentralblatt für Gynäkologie | Multicentre safety cohort (2,506 patients, 7,971 patient-years) on long-term CPA-containing therapy; addresses mutagenicity concerns but not migraine efficacy — peripherally relevant to safety profile only |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً لأسيتات سيبروتيرون في اضطراب الصداع النصفي.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-Cyproterone Acetate currently holds **no marketing authorization** in Saudi Arabia (SFDA). There are no approved products, registered dosage forms, or licensed indications on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-**Critical signals identified across the broader evidence review for this drug:**
-
-- **Thromboembolism Risk**: Multiple cohort and case-control studies consistently document that CPA-containing combined oral contraceptives significantly elevate venous thromboembolism (VTE) risk, including deep vein thrombosis (DVT), pulmonary embolism (PE), and cerebral venous sinus thrombosis (CVST). Risk is amplified in patients with inherited thrombophilias such as Factor V Leiden mutation, protein S deficiency, and antithrombin deficiency — conditions that appear as separate TxGNN-predicted "indications" in this pack but are in fact documented contraindications.
-
-- **Contraindication in Migraine with Aura**: European clinical guidelines (CNGOF 2018, PMID 30389542) explicitly list migraine with brainstem aura as a contraindication to Diane-35 (CPA + ethinyl estradiol) due to elevated stroke risk. Any repurposing effort in migraine must rigorously stratify by subtype and exclude aura-positive patients.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|-------|--------|------------------|
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | دراسة سريرية | Headache | تم تقييم ثلاث أنظمة HRT عن طريق الفم لسير الصداع النصفي في النساء بعد انقطاع الطمث؛ نوع البروجستوجين وخطة الإيصال تؤثر بشكل مختلف على تكرار الصداع النصفي — أساس غير مباشر لتفاعل البروجستوجين والصداع النصفي |
+| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | مراجعة | Maturitas | مراجعة آلية لتفاعلات البروجستين والدماغ؛ ثبت أن CPA بشكل خاص يزيد من الاستجابات الدوبامينية، ويرتبط بمستقبلات الأفيون، وينشط مستقبلات GABA-A عبر آلية الستيرويد C21 — أساس عصبي نظري لتعديل عتبة الصداع النصفي |
+| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | ملاحظة | Zentralblatt für Gynäkologie | مجموعة سلامة متعددة المراكز (2,506 مريضة، 7,971 سنة-مريضة) على العلاج طويل الأمد الذي يحتوي على CPA؛ يعالج المخاوف من الطفرات ولكن ليس فعالية الصداع النصفي — ذات صلة محيطية بملف تعريف السلامة فقط |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
-
-**Rationale:**
-Evidence for CPA in migraine disorder is limited to three publications describing indirect mechanistic connections via GABA-A receptor modulation and progestogen-HRT interactions — none of which directly evaluate CPA as a migraine therapy. More critically, the closely related indication "migraine with brainstem aura" (TxGNN rank 2) is an established contraindication for CPA-containing products under major clinical guidelines, and CPA's well-documented prothrombotic profile adds further safety complexity to any potential migraine development program.
-
-**To proceed, the following is needed:**
-
-- Preclinical evidence directly evaluating CPA's effect on cortical spreading depression or migraine threshold in validated animal models
-- Migraine subtype stratification plan: explicit exclusion of migraine with aura before any clinical protocol is designed
-- MOA documentation from DrugBank (currently a data gap) to validate or refute the GABA-A/neurosteroid hypothesis
-- Comprehensive thrombovascular risk-benefit analysis addressing CPA's known VTE risk in the migraine patient population
-- Saudi Arabia regulatory pathway assessment for a compound with no current SFDA authorization
+لا يحمل أسيتات سيبروتيرون حالياً أي ترخيص تسويق في المملكة العربية السعودية (SFDA). لا توجد منتجات معتمدة أو أشكال جرعات مسجلة أو مؤشرات مرخصة في السجل.
 
 ---
 
-> **Note on Secondary Indication — Amenorrhea (Rank 8):**
-> While this report focuses on the TxGNN top-ranked prediction, Amenorrhea (rank 8, TxGNN score 99.28%, Evidence Level L3) represents a substantially more actionable repurposing candidate. It is supported by **4 registered clinical trials** (including a Phase 4 randomized double-blind study, NCT01103518, directly evaluating CPA+EE for menstrual irregularity of hyperandrogenic origin) and **14 publications**. CPA+EE (Diane-35) is an internationally established treatment for PCOS-related menstrual disorders with a well-characterized pharmacological rationale. If SFDA registration is being considered, the amenorrhea/PCOS pathway carries a **"Proceed with Guardrails"** recommendation and should be evaluated as a priority track.
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للمنتج للحصول على معلومات السلامة.
+
+**إشارات حرجة تم تحديدها عبر مراجعة الأدلة الأوسع لهذا الدواء:**
+
+- **مخاطر الخثار الدموي**: تُثبت دراسات جماعية متعددة ودراسات الحالات الشاهدة بشكل متسق أن موانع الحمل الفموية المركبة التي تحتوي على CPA تزيد بشكل كبير من خطر الخثار الدموي الوريدي (VTE)، بما في ذلك جلطة الأوردة العميقة (DVT) والانصمام الرئوي (PE) والخثار الوريدي الجيبي الدماغي (CVST). يتضاعف الخطر في المرضى الذين يعانون من اضطرابات التخثر الموروثة مثل طفرة عامل V Leiden ونقص البروتين S ونقص الأنتيثرومبين — حالات تظهر كـ "مؤشرات" منفصلة متنبأ بها من TxGNN في هذه الحزمة لكنها في الواقع موثقة كموانع استعمال.
+
+- **موانع الاستعمال في الصداع النصفي مع الهالة**: تسرد الإرشادات السريرية الأوروبية (CNGOF 2018, PMID 30389542) الصداع النصفي مع هالة جذع الدماغ كموانع استعمال لـ Diane-35 (CPA + إيثينيل استراديول) بسبب خطر السكتة الدماغية المرتفع. يجب على أي جهد إعادة استخدام في الصداع النصفي أن يقسم بدقة حسب النوع الفرعي وأن يستبعد المرضى الإيجابيين بالهالة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+الدليل على فعالية CPA في اضطراب الصداع النصفي يقتصر على ثلاث منشورات تصف اتصالات آلية غير مباشرة عبر تعديل مستقبلات GABA-A وتفاعلات البروجستوجين-HRT — ولا أحد منها يقيّم CPA مباشرة كعلاج للصداع النصفي. بشكل أكثر أهمية، المؤشر الوثيق الصلة "الصداع النصفي مع هالة جذع الدماغ" (تصنيف TxGNN 2) هو موانع استعمال معروفة لمنتجات تحتوي على CPA بموجب إرشادات سريرية رئيسية، وملف سلامة CPA المعروف بأنه يزيد من خطر الجلطات يضيف تعقيداً إضافياً لسلامة أي برنامج محتمل لتطوير الصداع النصفي.
+
+**للمتابعة، يلزم ما يلي:**
+
+- دليل ما قبل السريري يقيّم مباشرة تأثير CPA على انتشار الاكتئاب القشري أو عتبة الصداع النصفي في نماذج حيوانية معتمدة
+- خطة تقسيم الصداع النصفي حسب النوع الفرعي: الاستبعاد الصريح للصداع النصفي مع الهالة قبل تصميم أي بروتوكول سريري
+- توثيق MOA من DrugBank (حالياً فجوة بيانات) للتحقق من أو دحض فرضية GABA-A/neurosteroid
+- تحليل شامل لمعادلة مخاطر/فوائد الأوعية الدموية يعالج خطر VTE المعروف لـ CPA في السكان المصابين بالصداع النصفي
+- تقييم المسار التنظيمي في المملكة العربية السعودية لمركب لا يحمل حالياً ترخيص SFDA
+
+---
+
+> **ملاحظة حول المؤشر الثانوي — انقطاع الطمث (الترتيب 8):**
+> في حين أن هذا التقرير يركز على أعلى تنبؤ معروّف من TxGNN، فإن انقطاع الطمث (الترتيب 8، درجة TxGNN 99.28%، مستوى الدليل L3) يمثل مرشح إعادة استخدام قابل للتنفيذ بشكل كبير. يدعمه **4 تجارب سريرية مسجلة** (بما في ذلك دراسة عشوائية مزدوجة التعمية من المرحلة 4، NCT01103518، تقيّم مباشرة CPA+EE لعدم انتظام الدورة الشهرية من أصل فرط الأندروجين) و**14 منشور**. يُعتبر CPA+EE (Diane-35) علاجاً معروفاً دولياً لاضطرابات الدورة الشهرية المتعلقة بـ PCOS مع مبررات صيدلانية مميزة. إذا كان يتم النظر في تسجيل SFDA، فإن مسار انقطاع الطمث/PCOS يحمل توصية **"المتابعة مع الحفاظ على الضمانات"** ويجب تقييمه كمسار أولوي.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

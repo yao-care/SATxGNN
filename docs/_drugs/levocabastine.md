@@ -29,65 +29,66 @@ indication_count: 2
 
 </div>
 
-# Levocabastine: From Allergic Rhinitis/Conjunctivitis to Allergic Urticaria
+# ليفوكابستين: من التهاب الأنف التحسسي/التهاب الملتحمة التحسسي إلى الشرى التحسسي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Levocabastine is a selective H1-antihistamine currently formulated only as a nasal spray (allergic rhinitis) and eye drops (allergic conjunctivitis).
-> The TxGNN model predicts it may be effective for **allergic urticaria**,
-> but this direction is currently supported by only **0 clinical trials** and **2 publications**, neither of which directly studies urticaria.
+> ليفوكابستين هو مضاد H1 انتقائي للهستامين يُصاغ حالياً فقط كبخاخ أنفي (التهاب الأنف التحسسي) وقطرات عينية (التهاب الملتحمة التحسسي).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الشرى التحسسي**،
+> إلا أن هذا الاتجاه يدعمه حالياً فقط **0 تجربة سريرية** و**منشوران**، لا يدرس أي منهما الشرى بشكل مباشر.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Allergic rhinitis (intranasal) / allergic conjunctivitis (ophthalmic) — topical formulations only; no formal Saudi Arabia license record available |
-| Predicted New Indication | Allergic Urticaria |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | التهاب الأنف التحسسي (موضعي أنفي) / التهاب الملتحمة التحسسي (موضعي عيني) — صيغ موضعية فقط؛ لا توجد سجلات ترخيص رسمية متاحة بالمملكة العربية السعودية |
+| الاستطباب الجديد المتوقع | الشرى التحسسي |
+| درجة التنبؤ بـ TxGNN | 99.18% |
+| مستوى الأدلة | L4 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | وقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA: data gap). Based on known information, levocabastine is a selective H1-receptor antagonist, marketed only in topical intranasal and ophthalmic forms for allergic rhinitis and allergic conjunctivitis, both IgE/mast-cell–mediated conditions.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (DrugBank MOA: فجوة بيانية). بناءً على المعلومات المعروفة، ليفوكابستين هو مضاد انتقائي لمستقبلات H1، يُسوق فقط بأشكال موضعية أنفية وعينية لالتهاب الأنف التحسسي والتهاب الملتحمة التحسسي، وكلاهما حالات وسيطة IgE/خلايا بدينة.
 
-Allergic urticaria shares the same core pathophysiology — mast-cell degranulation releasing histamine that activates H1 receptors in the skin — so the pharmacological rationale for cross-applicability is plausible in principle.
+يشترك الشرى التحسسي في نفس الفيزيولوجيا المرضية الأساسية — تحلل خلايا بدينة يؤدي إلى إطلاق الهستامين الذي ينشط مستقبلات H1 في الجلد — لذا فإن التبرير الدوائي لقابلية التطبيق المتقاطع معقول من حيث المبدأ.
 
-However, the two supporting publications do not directly study urticaria: one is a nasal-allergen-challenge RCT in allergic rhinitis, and the other is a pharmacokinetic review of H1-antihistamines as a class. There is also an unresolved route-of-administration gap — it is unclear whether a topical (nasal/ophthalmic) formulation can achieve the systemic exposure needed to treat urticaria, or whether a new formulation would be required. The evidence therefore supports the mechanism indirectly, not the indication directly.
+ومع ذلك، فإن المنشورين الداعمين لا يدرسان الشرى بشكل مباشر: أحدهما تجربة عشوائية محكومة باستخدام تحدي الحساسية الأنفي في التهاب الأنف التحسسي، والآخر مراجعة حركية/ديناميكية دوائية لمضادات H1 كفئة دوائية. هناك أيضاً فجوة غير محسومة في طريق الإعطاء — من غير الواضح ما إذا كانت صيغة موضعية (أنفية/عينية) يمكنها تحقيق التعرض الجهازي اللازم لعلاج الشرى، أم أن تطوير صيغة جديدة سيكون مطلوباً. وبالتالي فإن الأدلة تدعم الآلية بشكل غير مباشر، وليس الاستطباب بشكل مباشر.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## الأدلة من الأدبيات العلمية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8938880](https://pubmed.ncbi.nlm.nih.gov/8938880/) | 1996 | RCT | Rhinology | Double-blind, placebo-controlled, cross-over trial in 22 allergic rhinitis patients; intranasal levocabastine significantly reduced sneezing severity (p<0.001) in a nasal allergen challenge model. Not urticaria-specific. |
-| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | Review | Clinical Pharmacokinetics | Reviews pharmacokinetics/pharmacodynamics of second-generation H1-antihistamines (including levocabastine) used for allergic rhinoconjunctivitis and chronic urticaria as a drug class; no urticaria-specific data on levocabastine itself. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [8938880](https://pubmed.ncbi.nlm.nih.gov/8938880/) | 1996 | تجربة عشوائية محكومة | Rhinology | تجربة عشوائية محكومة مزدوجة التعمية ومقابلة للدواء الوهمي بتصميم متقاطع في 22 مريضاً بالتهاب الأنف التحسسي؛ قلّل ليفوكابستين الأنفي بشكل كبير من شدة العطس (p<0.001) في نموذج تحدي حساسية أنفي. ليس الشرى محدداً. |
+| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | مراجعة | Clinical Pharmacokinetics | مراجعة للخصائص الحركية والديناميكية الدوائية لمضادات H1 من الجيل الثاني (بما في ذلك ليفوكابستين) المستخدمة لالتهاب الأنف والملتحمة التحسسي والشرى المزمن كفئة دوائية؛ لا توجد بيانات محددة للشرى على ليفوكابستين نفسه. |
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Levocabastine is not currently marketed in Saudi Arabia; no authorization records are available.
+ليفوكابستين غير مسوق حالياً بالمملكة العربية السعودية؛ لا توجد سجلات موافقة متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات القادمة
 
-**Decision: Hold**
+**القرار: وقف**
 
-**Rationale:**
-Evidence level is L4 (mechanistic rationale only, no clinical trial or urticaria-specific literature), and a Blocking data gap on TFDA warnings/contraindications prevents the candidate from clearing the S1 safety pre-screen.
+**المبرر:**
+مستوى الأدلة هو L4 (التبرير الآلي فقط، بدون تجربة سريرية أو أدبيات محددة للشرى)، وفجوة بيانية حاجبة بشأن تحذيرات/موانع استعمال TFDA تمنع المرشح من اجتياز الفحص الأمني المسبق S1.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) to clear the S1 safety review
-- Confirmed mechanism-of-action data from DrugBank
-- Urticaria-specific clinical or preclinical evidence (current literature only addresses rhinitis and PK review)
-- Assessment of whether existing topical (nasal/ophthalmic) formulations can achieve exposure sufficient for urticaria, or whether new formulation development is required
+**للمتابعة، يلزم ما يلي:**
+- بيانات الحزمة التنظيمية TFDA/الرسمية (التحذيرات، موانع الاستعمال) لاجتياز مراجعة السلامة S1
+- بيانات آلية العمل المؤكدة من DrugBank
+- أدلة سريرية أو سابقة للتجارب محددة للشرى (تتناول الأدبيات الحالية فقط التهاب الأنف والمراجعة الحركية الدوائية)
+- تقييم ما إذا كانت الصيغ الموضعية الموجودة (أنفية/عينية) يمكنها تحقيق التعرض الكافي للشرى، أم أن تطوير صيغة جديدة مطلوب
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

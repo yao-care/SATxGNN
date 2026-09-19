@@ -29,104 +29,105 @@ indication_count: 6
 
 </div>
 
-# Pregabalin: From Neuropathic Pain to Migraine Prevention
+# pregabalin: من الألم العصبي إلى الوقاية من الصداع النصفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Pregabalin is a gabapentinoid originally used for neuropathic pain, epilepsy (adjunctive), generalized anxiety disorder, and fibromyalgia. The TxGNN model's top mechanistically-supported prediction is **Migraine Disorder** (prevention), backed by **3 clinical trials** and **19 publications**, though the only registered Phase 3 trial for this indication was withdrawn before completion. TxGNN also flagged five other candidates (tendinitis and four musculoskeletal/migraine-subtype indications), but none of these carry meaningful clinical evidence — they are summarized separately below.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (licenses list is empty, MOA marked Data Gap). Pregabalin's globally approved indications are neuropathic pain, epilepsy (adjunctive therapy), generalized anxiety disorder, and fibromyalgia. |
-| Predicted New Indication | Migraine Disorder (prevention) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Priority) |
+pregabalin هو عقار من فئة الجابابنتينويد يُستخدم أصلاً لعلاج الألم العصبي والصرع (العلاج المساعد) واضطراب القلق المعمم والألم العضلي الليفي. أهم تنبؤ مدعوم آلياً من نموذج TxGNN هو **اضطراب الصداع النصفي** (الوقاية)، مدعوم بـ **3 تجارب سريرية** و **19 منشور**، على الرغم من أن المحاولة الوحيدة المسجلة من المرحلة الثالثة لهذا المؤشر تم سحبها قبل اكتمالها. كما حدد TxGNN خمسة مرشحين آخرين (التهاب الأوتار وأربع حالات عضلية/أنواع فرعية من الصداع النصفي)، لكن لا يحمل أي منها أدلة سريرية ذات مغزى — وهي موجزة بشكل منفصل أدناه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for pregabalin is not available in this evidence pack (flagged as a High-severity data gap). Based on well-established pharmacology, pregabalin is a gabapentinoid that binds the α2δ subunit of voltage-gated calcium channels, reducing excitatory neurotransmitter release and dampening central sensitization. Preclinical work (PMID 28223480, published in PNAS, and PMID 37924146) shows pregabalin raises the threshold for cortical spreading depression (CSD) and suppresses its propagation to subcortical structures — CSD is considered a core driver of migraine aura and attack initiation.
-
-This mechanistic link connects pregabalin's proven neuropathic-pain/central-sensitization activity to migraine pathophysiology, which shares central sensitization as a key feature. Consistent with this, gabapentin — a closely related gabapentinoid — has a longer history of exploration in migraine prophylaxis, and several small RCTs and cohort studies (below) have tested pregabalin directly in both pediatric and adult migraine prevention.
-
-The main caveat: the single Phase 3 RCT registered specifically for migraine prevention (NCT00447369) was **withdrawn** before generating results, so the L2 evidence level rests on smaller RCTs, cohort studies, and Cochrane-level reviews rather than a completed pivotal trial.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) | Phase 3 | Withdrawn | 70 | Designed as a randomized, blinded crossover study comparing pregabalin vs. sodium valproate for migraine prevention; withdrawn before enrollment completion, no efficacy data generated. |
-| [NCT02747940](https://clinicaltrials.gov/study/NCT02747940) | Phase 4 | Completed | 200 | Studied fMRI-based "brain signatures" of chronic pain in chronic migraine and fibromyalgia patients; mechanistic/biomarker study, not a pregabalin efficacy trial. |
-| [NCT02670161](https://clinicaltrials.gov/study/NCT02670161) | Phase 4 | Enrolling by invitation | 3300 | Pragmatic EMR-based quality-improvement study across 10 neurological disorders; observational, not a dedicated efficacy trial. |
+| العنصر | المحتوى |
+|---|---|
+| المؤشر الأصلي | غير متاح في هذه مجموعة الأدلة (قائمة الرخص فارغة، آلية العمل محددة كفجوة بيانات). المؤشرات المعتمدة عالمياً لـ pregabalin هي الألم العصبي والصرع (العلاج المساعد) واضطراب القلق المعمم والألم العضلي الليفي. |
+| المؤشر المتوقع الجديد | اضطراب الصداع النصفي (الوقاية) |
+| درجة توقع TxGNN | 99.47% |
+| مستوى الأدلة | L2 |
+| حالة السوق السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | احتفظ (أولوية البحث) |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | RCT | Iranian J Child Neurology | Compared pregabalin vs. sodium valproate for pediatric migraine prophylaxis. |
-| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | RCT | Acta Medica Iranica | Randomized trial comparing propranolol vs. pregabalin in childhood migraine prophylaxis. |
-| [23797675](https://pubmed.ncbi.nlm.nih.gov/23797675/) | 2013 | Cochrane Review | Cochrane Database Syst Rev | Systematic review of gabapentin/pregabalin for episodic migraine prophylaxis in adults. |
-| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network Meta-analysis | JAMA Network Open | Compares preventive medications (including pregabalin) for pediatric migraine. |
-| [19935409](https://pubmed.ncbi.nlm.nih.gov/19935409/) | 2010 | Open-label study | Clinical Neuropharmacology | Open-label study assessing pregabalin for chronic migraine prevention. |
-| [21479703](https://pubmed.ncbi.nlm.nih.gov/21479703/) | 2011 | Cohort | J Headache Pain | 3-month follow-up on efficacy and tolerability of pregabalin as preventive migraine treatment. |
-| [25669613](https://pubmed.ncbi.nlm.nih.gov/25669613/) | 2015 | Cohort | Int J Clin Pharmacol Ther | Evaluated pregabalin's effect on central sensitization/allodynia in migraine patients. |
-| [28476535](https://pubmed.ncbi.nlm.nih.gov/28476535/) | 2017 | Review | Drug Discovery Today | Reviews animal pain/migraine models used in analgesic drug discovery, including pregabalin. |
-| [37924146](https://pubmed.ncbi.nlm.nih.gov/37924146/) | 2023 | Preclinical | Molecular Brain | Chronic pregabalin protects against spreading depolarization in a familial hemiplegic migraine model. |
-| [28223480](https://pubmed.ncbi.nlm.nih.gov/28223480/) | 2017 | Preclinical | PNAS | In vivo imaging shows pregabalin inhibits cortical spreading depression and its subcortical propagation. |
+حالياً، بيانات آلية العمل المفصلة لـ pregabalin غير متاحة في هذه مجموعة الأدلة (مشار إليها كفجوة بيانات عالية الخطورة). بناءً على الصيدلة المعروفة جيداً، pregabalin هو عقار من فئة الجابابنتينويد يرتبط بوحدة α2δ لقنوات الكالسيوم الحساسة للجهد، مما يقلل من إفراز الناقلات العصبية الاستثارية ويخفف من الحساسية المركزية. أظهرت الدراسات السابقة للإكلينيكية (PMID 28223480، منشورة في PNAS، و PMID 37924146) أن pregabalin يرفع العتبة لانتشار الاستقطاب القشري (CSD) ويمنع انتشاره إلى الهياكل تحت القشرية — يُعتبر CSD محركاً أساسياً لهالة الصداع النصفي وبدء النوبة.
+
+هذا الارتباط الآلي يربط نشاط pregabalin المثبت في الألم العصبي/الحساسية المركزية بفيزيولوجيا الصداع النصفي، والتي تشاطر الحساسية المركزية كميزة رئيسية. وبما يتسق مع هذا، فإن gabapentin - عقار جابابنتينويد وثيق الصلة - له تاريخ أطول من الاستكشاف في الوقاية من الصداع النصفي، وقد اختبرت عدة تجارب معشاة محكومة صغيرة ودراسات مجموعات (أدناه) pregabalin مباشرة في الوقاية من الصداع النصفي عند الأطفال والبالغين.
+
+التحفظ الرئيسي: تجربة المرحلة الثالثة المسجلة الوحيدة خصيصاً للوقاية من الصداع النصفي (NCT00447369) تم سحبها قبل إنتاج النتائج، لذا فإن مستوى الأدلة L2 يستند إلى تجارب معشاة محكومة أصغر ودراسات مجموعات ومراجعات Cochrane بدلاً من تجربة محورية مكتملة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Pregabalin currently has no marketing authorization registered in this evidence pack (0 licenses, market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA/SFDA warnings, contraindications, and DDI queries all returned no data in this evidence pack — see data gaps below.)
-
----
-
-## Other TxGNN-Predicted Indications (Screened, Lower Priority)
-
-The same evidence pack screened five additional candidates for pregabalin. None currently warrant active investment:
-
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
+| رقم المحاولة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---|---|---|---|---|
-| Tendinitis | 99.71% | L4 | Hold | Highest raw TxGNN score, but supporting literature is limited to pregabalin's opioid-sparing use in post-arthroscopic analgesia — not treatment of tendon pathology itself. Mechanistic link is weak. |
-| Idiopathic granulomatous myositis | 99.71% | L5 | Hold | No clinical trials or literature; likely a knowledge-graph proximity artifact. |
-| Myositis fibrosa | 99.71% | L5 | Hold | No clinical trials or literature; same as above. |
-| Inclusion body myositis | 99.52% | L5 | Hold | No clinical trials or literature; pregabalin's calcium-channel target has no known link to inflammatory myopathy pathology. |
-| Migraine with brainstem aura | 99.43% | L5 | Hold | Same CSD-suppression hypothesis as migraine disorder, but no dedicated trials or case evidence for this subtype specifically. |
+| [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) | المرحلة الثالثة | تم السحب | 70 | صُممت كدراسة معشاة عشوائية مقفلة لعبور تقارن pregabalin مع sodium valproate للوقاية من الصداع النصفي؛ تم سحبها قبل اكتمال التسجيل، لم يتم توليد بيانات الفعالية. |
+| [NCT02747940](https://clinicaltrials.gov/study/NCT02747940) | المرحلة الرابعة | مكتملة | 200 | درست توقيعات الدماغ القائمة على التصوير بالرنين المغناطيسي الوظيفي للألم المزمن لدى مرضى الصداع النصفي المزمن والألم العضلي الليفي؛ دراسة آلية/علامات حيوية، وليست دراسة فعالية pregabalin. |
+| [NCT02670161](https://clinicaltrials.gov/study/NCT02670161) | المرحلة الرابعة | تسجيل بالدعوة | 3300 | دراسة قائمة على السجل الطبي الإلكتروني لتحسين الجودة عبر 10 اضطرابات عصبية؛ رصدية، وليست دراسة فعالية مخصصة. |
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold (Research Priority)**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|---|---|---|---|---|
+| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | تجربة معشاة محكومة | Iranian J Child Neurology | قارنت pregabalin مع sodium valproate للوقاية من الصداع النصفي عند الأطفال. |
+| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | تجربة معشاة محكومة | Acta Medica Iranica | تجربة معشاة عشوائية تقارن propranolol مع pregabalin في الوقاية من الصداع النصفي في الطفولة. |
+| [23797675](https://pubmed.ncbi.nlm.nih.gov/23797675/) | 2013 | مراجعة Cochrane | Cochrane Database Syst Rev | مراجعة منهجية لـ gabapentin/pregabalin للوقاية من الصداع النصفي المتقطع عند البالغين. |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | تحليل شبكة تلوي | JAMA Network Open | يقارن الأدوية الوقائية (بما فيها pregabalin) للصداع النصفي عند الأطفال. |
+| [19935409](https://pubmed.ncbi.nlm.nih.gov/19935409/) | 2010 | دراسة مفتوحة | Clinical Neuropharmacology | دراسة مفتوحة تقيم pregabalin للوقاية من الصداع النصفي المزمن. |
+| [21479703](https://pubmed.ncbi.nlm.nih.gov/21479703/) | 2011 | دراسة مجموعات | J Headache Pain | متابعة لمدة 3 أشهر حول فعالية وتحمل pregabalin كعلاج وقائي للصداع النصفي. |
+| [25669613](https://pubmed.ncbi.nlm.nih.gov/25669613/) | 2015 | دراسة مجموعات | Int J Clin Pharmacol Ther | قيمت تأثير pregabalin على الحساسية المركزية/الألم المستحث باللمس في مرضى الصداع النصفي. |
+| [28476535](https://pubmed.ncbi.nlm.nih.gov/28476535/) | 2017 | مراجعة | Drug Discovery Today | تستعرض نماذج الألم الحيوانية/الصداع النصفي المستخدمة في اكتشاف عقاقير مسكنة، بما فيها pregabalin. |
+| [37924146](https://pubmed.ncbi.nlm.nih.gov/37924146/) | 2023 | ما قبل الإكلينيكية | Molecular Brain | يحمي pregabalin المزمن من انتشار الاستقطاب في نموذج الصداع النصفي النصفي العائلي. |
+| [28223480](https://pubmed.ncbi.nlm.nih.gov/28223480/) | 2017 | ما قبل الإكلينيكية | PNAS | التصوير الحي في الجسم الحي يُظهر أن pregabalin يثبط انتشار الاستقطاب القشري وانتشاره إلى الهياكل تحت القشرية. |
 
-**Rationale:**
-Migraine disorder is the only predicted indication with a coherent mechanism (CSD suppression, central sensitization) and a body of supporting RCTs/cohort studies (L2), but the sole registered Phase 3 trial was withdrawn without results, so no confirmatory pivotal trial exists. The remaining five predicted indications lack clinical or mechanistic support and should not be prioritized.
+---
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert warnings and contraindications (Blocking data gap — currently unavailable)
-- Confirmed mechanism of action documentation from DrugBank (High-severity data gap)
-- Drug interaction (DDI) profile (query returned no data)
-- A properly powered, completed Phase 2/3 RCT specifically for migraine prevention, given the prior trial's withdrawal
-- Saudi Arabia regulatory/marketing status confirmation (currently 0 registered licenses)
+## معلومات السوق السعودية
+
+حالياً لا توجد ترخيص تسويقي مسجل لـ pregabalin في هذه مجموعة الأدلة (0 رخص، حالة السوق: غير مسوقة).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة. (استعلامات تحذيرات TFDA/SFDA وموانع الاستعمال والتفاعلات الدوائية جميعها لم ترجع بيانات في هذه مجموعة الأدلة — انظر فجوات البيانات أدناه).
+
+---
+
+## مؤشرات TxGNN المتوقعة الأخرى (تم الفحص، أولوية أقل)
+
+تم فحص نفس مجموعة الأدلة لخمسة مرشحين إضافيين لـ pregabalin. لا يستحق أي منها حالياً استثماراً نشطاً:
+
+| المؤشر المتوقع | درجة TxGNN | مستوى الأدلة | التوصية | ملاحظة |
+|---|---|---|---|---|
+| التهاب الأوتار | 99.71% | L4 | احتفظ | أعلى درجة TxGNN الأولية، لكن الأدب الداعم يقتصر على استخدام pregabalin للتوفير من الأفيونيات في تسكين ما بعد التنظير المفصلي — وليس علاج مرض الأوتار نفسه. الارتباط الآلي ضعيف. |
+| التهاب العضل الحبيبي مجهول السبب | 99.71% | L5 | احتفظ | لا توجد تجارب سريرية أو أدبيات؛ على الأرجح قطعة من رسم بياني المعرفة. |
+| التهاب العضل الليفي | 99.71% | L5 | احتفظ | لا توجد تجارب سريرية أو أدبيات؛ نفس ما سبق. |
+| التهاب العضل الشامل | 99.52% | L5 | احتفظ | لا توجد تجارب سريرية أو أدبيات؛ هدف pregabalin لقنوات الكالسيوم ليس له ارتباط معروف بفيزيولوجيا مرض العضلات الالتهابي. |
+| الصداع النصفي مع هالة جذع الدماغ | 99.43% | L5 | احتفظ | نفس فرضية قمع CSD كاضطراب الصداع النصفي، لكن لا توجد تجارب مخصصة أو أدلة حالات لهذا النوع الفرعي على وجه التحديد. |
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ (أولوية البحث)**
+
+**التبرير:**
+اضطراب الصداع النصفي هو المؤشر المتوقع الوحيد الذي يحتوي على ارتباط متماسك (قمع CSD، الحساسية المركزية) وجسم من الدراسات المعشاة المحكومة/مجموعات الداعمة (L2)، لكن محاولة المرحلة الثالثة المسجلة الوحيدة تم سحبها بدون نتائج، لذا لا توجد تجربة محورية تأكيدية. مؤشرات TxGNN المتوقعة الخمسة المتبقية تفتقر إلى الدعم السريري أو الآلي ولا يجب إعطاؤها الأولوية.
+
+**للمتابعة، المطلوب ما يلي:**
+- نشرة TFDA/SFDA التحذيرات/موانع الاستعمال (فجوة بيانات حاجزة — حالياً غير متاح)
+- توثيق آلية العمل المؤكدة من DrugBank (فجوة بيانات عالية الخطورة)
+- ملف تفاعل الأدوية (DDI) (الاستعلام لم يرجع بيانات)
+- تجربة معشاة محكومة مدعومة بشكل صحيح من المرحلة الثانية/الثالثة خصيصاً للوقاية من الصداع النصفي، بالنظر إلى سحب المحاولة السابقة
+- تأكيد حالة التسويق/التنظيم السعودية (حالياً 0 رخص مسجلة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

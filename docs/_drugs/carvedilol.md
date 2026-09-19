@@ -29,79 +29,80 @@ indication_count: 5
 
 </div>
 
-# Carvedilol: From Hypertension / Heart Failure to Malignant Hypertensive Renal Disease
+# كارفيديلول: من ارتفاع ضغط الدم / قصور القلب إلى مرض الكلى الارتفاعي الخبيث
 
-## One-Sentence Summary
+## الملخص الموجز في جملة واحدة
 
-Carvedilol is a non-selective β-blocker and α1-blocker well established in the treatment of hypertension and heart failure; its original approved indications were not captured in the current dataset.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease** — a severe, hypertension-driven form of acute kidney injury — based on its antihypertensive and renoprotective pharmacological profile.
-Currently, **no clinical trials** and **no published literature** specifically supporting this repurposing direction were identified, placing this prediction at evidence level **L5 (model prediction only)**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not documented in dataset (established use: hypertension, heart failure) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L5 (model prediction only, no empirical studies) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+كارفيديلول هو حاصر بيتا غير انتقائي وحاصر ألفا 1 راسخ في علاج ارتفاع ضغط الدم وقصور القلب؛ الاستطبابات الأصلية المعتمدة له لم تتم التقاطها في مجموعة البيانات الحالية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **مرض الكلى الارتفاعي الخبيث** — شكل شديد مرتبط بارتفاع ضغط الدم من الإصابة الحادة للكلى — بناءً على ملفه الدوائي الخافض لضغط الدم والحامي للكلى.
+حالياً، لم يتم تحديد **أي تجارب سريرية** و**لم يتم العثور على أي أدبيات منشورة** تدعم بشكل خاص هذا الاتجاه في إعادة الاستخدام، مما يضع هذا التنبؤ على مستوى الدليل **L5 (تنبؤ النموذج فقط)**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the dataset. Based on well-established pharmacological knowledge, carvedilol is a third-generation, non-selective β1/β2/α1-adrenoceptor antagonist. Its antihypertensive effect arises from two complementary mechanisms: β1-blockade reduces cardiac output and suppresses renin release from juxtaglomerular cells, while α1-blockade lowers peripheral vascular resistance by relaxing arterial smooth muscle — including renal afferent arterioles. In addition, carvedilol possesses unique antioxidant properties attributed to its carbazole moiety, which may confer supplementary cytoprotection beyond pure adrenergic blockade.
-
-Malignant hypertensive renal disease (malignant hypertensive nephropathy) is defined by severe, rapidly progressive hypertension causing fibrinoid necrosis of renal arterioles, glomerular ischemia, and microangiopathic injury. The pathophysiology is driven by extreme glomerular hyperperfusion and activation of the renin-angiotensin-aldosterone system (RAAS). Rapid blood pressure reduction is the cornerstone of treatment. Carvedilol's dual adrenergic blockade directly addresses both the systemic pressure load and the renal RAAS hyperactivation, providing a mechanistically coherent rationale for potential benefit.
-
-That said, carvedilol's role in this specific disease context remains hypothetical. The TxGNN model's high score (99.55%) most likely reflects the strong structural and pharmacological overlap between blood pressure control and hypertensive nephropathy in the knowledge graph, rather than disease-specific clinical evidence. No clinical trial or targeted literature was identified. This prediction should be treated as a hypothesis-generating signal requiring prospective validation before any clinical consideration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | غير موثق في مجموعة البيانات (الاستخدام الراسخ: ارتفاع ضغط الدم، قصور القلب) |
+| الاستطباب الجديد المتنبأ به | مرض الكلى الارتفاعي الخبيث |
+| درجة التنبؤ بـ TxGNN | 99.55% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، بدون دراسات تجريبية) |
+| حالة السوق في تايوان | غير معروض بالسوق (غير معروض بالسوق) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية حالياً غير متاحة في مجموعة البيانات. بناءً على المعرفة الدوائية الراسخة جيداً، كارفيديلول هو حاصر أدرينرجي من الجيل الثالث غير انتقائي لمستقبلات β1/β2/α1. يأتي تأثيره الخافض لضغط الدم من آليتين متكاملتين: حجب β1 يقلل من النتاج القلبي ويثبط إفراز الرينين من خلايا تحت الكبيبية الكبيبية، بينما حجب α1 يخفض المقاومة الوعائية الطرفية من خلال استرخاء العضلات الملساء الشرايينية — بما في ذلك الشرينات الكلوية الواردة. بالإضافة إلى ذلك، يمتلك كارفيديلول خصائص مضادة للأكسدة فريدة تُنسب إلى مجموعة الكاربازول فيه، والتي قد توفر حماية خلوية إضافية تتجاوز حجب الأدرينرجي البحت.
 
----
+يتم تعريف مرض الكلى الارتفاعي الخبيث (اعتلال الكلى الارتفاعي الخبيث) بارتفاع ضغط الدم السريع والشديد والمتقدم بسرعة الذي يسبب نخر الفيبرين في الشرينات الكلوية والنقص الكبيبي وإصابة الأوعية الدقيقة. الإمراضية يقودها فرط التروية الكبيبية الشديد وتنشيط نظام الرينين-أنجيوتنسين-الدوستيرون (RAAS). الحد السريع من ضغط الدم هو حجر الأساس في العلاج. يعالج الحجب الثنائي الأدرينرجي لكارفيديلول بشكل مباشر كل من حمل الضغط الجهازي فرط نشاط RAAS الكلوي، مما يوفر حجة آلية متماسكة لفائدة محتملة.
 
-## Taiwan Market Information
-
-Carvedilol is not approved or marketed in Taiwan; no product authorizations are on record (0 licenses).
+ومع ذلك، فإن دور كارفيديلول في سياق المرض هذا يبقى افتراضياً. درجة نموذج TxGNN العالية (99.55%) على الأرجح تعكس التداخل الهيكلي والدوائي القوي بين التحكم في ضغط الدم واعتلال الكلى الارتفاعي في الرسم البياني للمعرفة، بدلاً من الدليل السريري الخاص بالمرض. لم يتم العثور على تجربة سريرية أو أدبيات موجهة. يجب معاملة هذا التنبؤ كإشارة توليد فرضية تتطلب التحقق المستقبلي قبل أي اعتبار سريري.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This prediction rests entirely on the TxGNN model output (L5) with zero supporting clinical trials or targeted literature. While the mechanistic rationale connecting carvedilol's dual adrenergic blockade to malignant hypertensive renal disease is pharmacologically plausible, the complete absence of empirical evidence precludes any advancement toward clinical application at this stage. Notably, the four remaining top-ranked predictions — malignant renovascular hypertension, pulmonary hypertension due to hypoxia (WHO Group 3), pulmonary hypertension with multifactorial mechanism (WHO Group 5), and Braddock syndrome — are all also at L5 with no supporting evidence, and two of the pulmonary hypertension indications carry active safety concerns (β-blockade may be relatively contraindicated).
+---
 
-**To proceed, the following is needed:**
+## معلومات سوق تايوان
 
-- Broaden literature search using alternative MeSH terms (e.g., "hypertensive emergency," "hypertensive nephropathy," "malignant hypertension kidney") to confirm no relevant studies were missed
-- Retrieve complete carvedilol MOA documentation from DrugBank (DB01136) to formally characterize the mechanistic link
-- Obtain Taiwan package insert (仿單) to assess contraindications and key warnings — currently a blocking data gap (DG001)
-- Assess whether published guidelines for malignant hypertension mention β/α-blocker use, to determine if carvedilol occupies any adjunctive role
-- Evaluate safety of carvedilol in severe renal impairment (GFR < 30 mL/min) before any renal disease repurposing study design
-- If the mechanistic rationale is confirmed by domain experts, initiate a scoping review protocol before committing to preclinical or clinical study design
+كارفيديلول غير معتمد أو معروض بالسوق في تايوان؛ لا توجد تراخيص منتجات في السجل (0 ترخيص).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+يستند هذا التنبؤ بالكامل على إخراج نموذج TxGNN (L5) بدون دعم تجارب سريرية أو أدبيات موجهة. بينما النسب المنطقية الآلية التي تربط الحجب الثنائي الأدرينرجي لكارفيديلول بمرض الكلى الارتفاعي الخبيث معقولة من الناحية الدوائية، فإن الغياب الكامل للأدلة التجريبية يمنع أي تقدم نحو التطبيق السريري في هذه المرحلة. وجدير بالملاحظة أن التنبؤات الأربعة المتبقية في الترتيب الأعلى — ارتفاع ضغط الدم الكلوي الوعائي الخبيث، وارتفاع ضغط الدم الرئوي الناجم عن نقص الأكسجة (مجموعة منظمة الصحة العالمية 3)، وارتفاع ضغط الدم الرئوي مع آلية متعددة العوامل (مجموعة منظمة الصحة العالمية 5)، ومتلازمة برادوك — جميعها أيضاً عند L5 بدون دعم، واثنان من استطبابات ارتفاع ضغط الدم الرئوي تحمل مخاوف سلامة نشطة (قد يكون حجب β نسبياً مناقضاً للاستطباب).
+
+**لكي يتقدم، يلزم ما يلي:**
+
+- توسيع بحث الأدبيات باستخدام مصطلحات MeSH بديلة (مثل "أزمة ارتفاع ضغط الدم"، "اعتلال الكلى الارتفاعي"، "ارتفاع ضغط الدم الخبيث الكلى") للتأكد من عدم تفويت أي دراسات ذات صلة
+- الحصول على وثائق آلية عمل كارفيديلول الكاملة من DrugBank (DB01136) لتوصيف الارتباط الآلي بشكل رسمي
+- الحصول على نشرة تايوان (仿單) لتقييم موانع الاستعمال والتحذيرات الرئيسية — حالياً فجوة بيانات حاجزة (DG001)
+- تقييم ما إذا كانت الإرشادات المنشورة لارتفاع ضغط الدم الخبيث تذكر استخدام حاصر بيتا/ألفا، لتحديد ما إذا كان كارفيديلول يحتل أي دور مساعد
+- تقييم سلامة كارفيديلول في ضعف كلوي شديد (GFR < 30 mL/min) قبل أي تصميم دراسة إعادة استخدام كلوي
+- إذا تم تأكيد النسبة المنطقية الآلية من قبل خبراء المجال، فيجب بدء بروتوكول المراجعة الشاملة قبل الالتزام بتصميم الدراسة قبل السريرية أو السريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

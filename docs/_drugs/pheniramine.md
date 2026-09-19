@@ -29,89 +29,90 @@ indication_count: 3
 
 </div>
 
-# Pheniramine: From Allergic Symptom Relief to Allergic Urticaria
+# فينيرامين: من تخفيف أعراض الحساسية إلى الشرى التحسسي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Pheniramine is a first-generation alkylamine H1-antihistamine; no specific original indication record or marketing license exists in this dataset, but the drug class is classically used for allergic symptom relief (rhinitis, pruritus, urticaria). The TxGNN model predicts it may be effective for **Allergic Urticaria**, with only **1 clinical trial (low relevance, likely a database mismatch)** and **20 publications** — mostly case reports and reviews of the related compound chlorpheniramine — currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (drug not licensed in Saudi Arabia); class-level use is allergic symptom relief |
-| Predicted New Indication | Allergic Urticaria |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 (preclinical/mechanistic and case-level evidence only) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+فينيرامين هو مضاد هستامين من الجيل الأول من فئة الألكيلامينات الموجه لمستقبلات H1؛ لا توجد سجلات محددة للدلالة الأصلية أو ترخيص تسويقي في مجموعة البيانات هذه، لكن الفئة الدوائية يتم استخدامها تقليديًا لتخفيف أعراض الحساسية (التهاب الأنف التحسسي والحكة والشرى). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للشرى التحسسي، مع وجود تجربة سريرية واحدة فقط (ذات صلة منخفضة، على الأرجح عدم توافق قاعدة البيانات) و20 منشورًا — في الغالب تقارير حالات واستعراضات للمركب ذي الصلة chlorpheniramine — تدعم هذا الاتجاه حاليًا.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data for pheniramine itself is not available in this dataset (Data Gap DG002). Based on known pharmacology, pheniramine belongs to the alkylamine class of first-generation H1-receptor antagonists — the same class as chlorpheniramine and dexchlorpheniramine. H1 blockade inhibits histamine-driven vasodilation and vascular permeability, the core pathophysiology of urticarial wheal-and-flare reactions.
-
-Because allergic urticaria and other histamine-mediated allergic conditions (e.g. allergic rhinitis, angioedema) share the same H1-receptor pathway, a class-level mechanistic link to urticaria is pharmacologically plausible. This is reinforced by the literature base returned for this prediction, which is dominated by chlorpheniramine (a close structural analog) studies explicitly covering chronic urticaria, and by two case reports involving pheniramine itself in acute allergic/hypersensitivity settings.
-
-However, this mechanistic plausibility is class-level reasoning, not drug-specific confirmation. The one clinical trial returned (NCT02082054) was flagged by the evidence review as a likely atropine/chlorpheniramine database mismatch rather than a genuine pheniramine trial, and no RCT or systematic review directly evaluates pheniramine in allergic urticaria.
+| البند | المحتوى |
+|------|---------|
+| الدلالة الأصلية | غير متوفرة — لا يوجد نص دلالة معتمد في الملف (الدواء غير مرخص في المملكة العربية السعودية)؛ يتم استخدام الفئة على مستوى الفئة لتخفيف أعراض الحساسية |
+| الدلالة الجديدة المتنبأ بها | الشرى التحسسي |
+| نقاط التنبؤ TxGNN | 99.67% |
+| مستوى الدليل | L4 (الدليل قبل السريري/الميكانيكي والذي على مستوى الحالة فقط) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بيانات آلية العمل التفصيلية الخاصة بفينيرامين نفسه غير متوفرة في مجموعة البيانات هذه (فجوة البيانات DG002). بناءً على الصيدلة المعروفة، ينتمي فينيرامين إلى فئة الألكيلامينات من مضادات مستقبلات H1 من الجيل الأول — الفئة نفسها مثل chlorpheniramine و dexchlorpheniramine. يمنع حصار H1 الوساطة بالهستامين لتوسع الأوعية الدموية وزيادة نفاذية الأوعية الدموية، وهي الآليات المرضية الأساسية لتفاعلات الشرى والحمراء الجلدية.
+
+لأن الشرى التحسسي والحالات التحسسية الأخرى الموسطة بالهستامين (مثل التهاب الأنف التحسسي والوذمة الوعائية) تشترك في نفس مسار مستقبلات H1، فإن الرابط الميكانيكي على مستوى الفئة للشرى معقول من الناحية الصيدلانية. يتم تعزيز هذا من خلال قاعدة الأدبيات المسترجعة لهذا التنبؤ، والتي تهيمن عليها دراسات chlorpheniramine (نظير هيكلي وثيق الصلة) التي تغطي بصراحة الشرى المزمن، وتقريري حالة يتعلقان بـ فينيرامين نفسه في سياق تفاعلات فرط الحساسية الحادة.
+
+لكن هذا التوافق الميكانيكي هو استدلال على مستوى الفئة، وليس تأكيد خاص بالدواء. تم تحديد التجربة السريرية الواحدة المسترجعة (NCT02082054) من قبل فريق المراجعة الدليلية كعدم توافق محتمل في قاعدة البيانات بين الأتروبين/chlorpheniramine بدلاً من أن تكون تجربة حقيقية على فينيرامين، ولا توجد تجربة عشوائية خاضعة للرقابة أو مراجعة منهجية تقيم فينيرامين مباشرة في الشرى التحسسي.
+
+---
+
+## الدليل التجريبي السريري
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02082054](https://clinicaltrials.gov/study/NCT02082054) | Phase 2 | Unknown | 125 | Dose-ranging study of atropine combined with pseudoephedrine/chlorpheniramine in seasonal allergic rhinitis. **Relevance: Grade C** — title centers on atropine dosing, not pheniramine; likely a drug-class/database mismatch rather than direct trial evidence for this candidate. |
+| [NCT02082054](https://clinicaltrials.gov/study/NCT02082054) | المرحلة 2 | غير معروفة | 125 | دراسة معايرة الجرعة للأتروبين مع pseudoephedrine/chlorpheniramine في التهاب الأنف التحسسي الموسمي. **الصلة: الدرجة C** — يركز العنوان على معايرة جرعات الأتروبين، وليس فينيرامين؛ على الأرجح عدم توافق فئة دواء/قاعدة بيانات بدلاً من أدلة تجربة مباشرة لهذا المرشح. |
 
 ---
 
-## Literature Evidence
+## الدليل الأدبي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Randomised comparative study | Eur J Pharm Sci | Randomised Phase 1 trial comparing oral bilastine and parenteral dexchlorpheniramine (a pheniramine analog) on histamine-induced wheal-and-flare response |
-| [35652393](https://pubmed.ncbi.nlm.nih.gov/35652393/) | 2024 | Review | Curr Rev Clin Exp Pharmacol | Comprehensive review of chlorpheniramine (close analog), covering use in chronic urticaria, asthma, and other allergic conditions |
-| [18597008](https://pubmed.ncbi.nlm.nih.gov/18597008/) | 2008 | Surveillance/Cohort | Methods Find Exp Clin Pharmacol | Large-scale surveillance (n=1,742) of sedative profiles across H1-antihistamines, disease-dependent |
-| [40125237](https://pubmed.ncbi.nlm.nih.gov/40125237/) | 2025 | Case report | Cureus | Immediate hypersensitivity reaction to pheniramine itself, in a patient with multiple drug hypersensitivity syndrome |
-| [40324831](https://pubmed.ncbi.nlm.nih.gov/40324831/) | 2025 | Case report | Indian J Pharmacol | Serious adverse event (loss of consciousness) following concurrent IV pheniramine and hydrocortisone for an allergic reaction |
-| [31852144](https://pubmed.ncbi.nlm.nih.gov/31852144/) | 2019 | Case report/Pharmacovigilance review | Medicine | Two cases of chlorpheniramine-induced anaphylaxis plus retrospective pharmacovigilance review; notes chlorpheniramine's common use across urticaria and rhinitis |
-| [28601540](https://pubmed.ncbi.nlm.nih.gov/28601540/) | 2017 | Review/Case series | Am J Med | Atrial fibrillation as a cardiovascular complication of anaphylaxis |
-| [32641443](https://pubmed.ncbi.nlm.nih.gov/32641443/) | 2020 | Case report | BMJ Case Rep | Urticaria and angioedema as a prodromal cutaneous sign of COVID-19 |
-| [26179134](https://pubmed.ncbi.nlm.nih.gov/26179134/) | 2015 | Case report | Contact Dermatitis | Palpebral angioedema and allergic contact dermatitis from a cerumenolytic agent |
-| [25372261](https://pubmed.ncbi.nlm.nih.gov/25372261/) | 2014 | Case report | Cutis | Flurbiprofen-induced unilateral eyelid angioedema |
+| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | دراسة مقارنة عشوائية | Eur J Pharm Sci | تجربة المرحلة الأولى العشوائية مقارنة bilastine الفموي و dexchlorpheniramine الحقني (نظير pheniramine) على استجابة الشرى والحمراء المستحثة بالهستامين |
+| [35652393](https://pubmed.ncbi.nlm.nih.gov/35652393/) | 2024 | استعراض | Curr Rev Clin Exp Pharmacol | استعراض شامل لـ chlorpheniramine (نظير وثيق الصلة)، يغطي الاستخدام في الشرى المزمن والربو والحالات التحسسية الأخرى |
+| [18597008](https://pubmed.ncbi.nlm.nih.gov/18597008/) | 2008 | المراقبة/الدراسة المتماسكة | Methods Find Exp Clin Pharmacol | المراقبة على نطاق واسع (n=1,742) للملفات الموصدة عبر مضادات H1 للهستامين، تعتمد على المرض |
+| [40125237](https://pubmed.ncbi.nlm.nih.gov/40125237/) | 2025 | تقرير حالة | Cureus | تفاعل فرط حساسية فوري لـ pheniramine نفسه، في مريض يعاني من متلازمة فرط الحساسية تجاه الأدوية المتعددة |
+| [40324831](https://pubmed.ncbi.nlm.nih.gov/40324831/) | 2025 | تقرير حالة | Indian J Pharmacol | حدث ضار خطير (فقدان الوعي) بعد إعطاء pheniramine الوريدي المتزامن والهيدروكورتيزون لتفاعل تحسسي |
+| [31852144](https://pubmed.ncbi.nlm.nih.gov/31852144/) | 2019 | تقرير حالة/استعراض الحراسة الصيدلانية | Medicine | حالتان من الحساسية المفرطة المستحثة بـ chlorpheniramine بالإضافة إلى استعراض الحراسة الصيدلانية بأثر رجعي؛ يلاحظ الاستخدام الشائع لـ chlorpheniramine عبر الشرى والتهاب الأنف |
+| [28601540](https://pubmed.ncbi.nlm.nih.gov/28601540/) | 2017 | استعراض/سلسلة حالات | Am J Med | الرجفان الأذيني كمضاعفة قلبية وعائية للحساسية المفرطة |
+| [32641443](https://pubmed.ncbi.nlm.nih.gov/32641443/) | 2020 | تقرير حالة | BMJ Case Rep | الشرى والوذمة الوعائية كعلامة جلدية استباقية لـ كوفيد-19 |
+| [26179134](https://pubmed.ncbi.nlm.nih.gov/26179134/) | 2015 | تقرير حالة | Contact Dermatitis | الوذمة الجفنية والتهاب الجلد التماسي التحسسي من عامل تذويب الشمع |
+| [25372261](https://pubmed.ncbi.nlm.nih.gov/25372261/) | 2014 | تقرير حالة | Cutis | وذمة جفنية أحادية الجانب مستحثة بـ flurbiprofen |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Pheniramine currently has no marketing authorization on file in Saudi Arabia (market status: Not Marketed, 0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug interaction data are currently on file — TFDA package insert data is flagged as a Blocking data gap, DG001.)
+حاليًا، pheniramine لا يوجد لديه تفويض تسويق مسجل في المملكة العربية السعودية (حالة السوق: غير مسوق، 0 رخصة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات الخاصة بالدواء للحصول على معلومات السلامة. (لا توجد بيانات تحذيرات رئيسية أو موانع أو تفاعلات دوائية حاليًا في الملف — يتم تحديد بيانات نشرة TFDA كفجوة بيانات حجب، DG001.)
 
-**Rationale:**
-Evidence for pheniramine specifically in allergic urticaria is limited to case reports and analog (chlorpheniramine/dexchlorpheniramine)-based studies (L4); the one clinical trial identified is likely an unrelated database match. Combined with the absence of Saudi Arabia market presence and a Blocking safety data gap (no package insert warnings/contraindications on file), this candidate does not yet meet the bar to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action data specific to pheniramine — currently High priority gap (DG002)
-- A pheniramine-specific clinical trial or controlled study in urticaria/allergic skin conditions (current trial evidence is not usable)
-- Drug interaction (DDI) database entry, currently not found
+## الخلاصة والخطوات التالية
 
-*Note: Two additional TxGNN predictions for this drug (nasal cavity disease, acute laryngopharyngitis) were also reviewed and scored L4/L5 with Hold recommendations — animal-model-only or no supporting evidence respectively — and are not advanced further at this stage.*
+**القرار: الانتظار**
+
+**المبرر:**
+الدليل الخاص بـ pheniramine تحديدًا في الشرى التحسسي محدود لتقارير الحالات والدراسات القائمة على النظائر (chlorpheniramine/dexchlorpheniramine) (L4)؛ التجربة السريرية الواحدة المحددة من المحتمل أن تكون مطابقة قاعدة بيانات غير ذات صلة. بالاقتران مع غياب الوجود في سوق المملكة العربية السعودية وفجوة بيانات السلامة الحجب (لا توجد تحذيرات/موانع نشرة على الملف)، هذا المرشح لم يحقق بعد الحد الأدنى للتقدم خارج الفحص الأولي.
+
+**للمتابعة، يلزم الحصول على ما يلي:**
+- نشرة TFDA/SFDA (التحذيرات والموانع) — حاليًا حجب (DG001)
+- تأكيد بيانات آلية العمل الخاصة بـ pheniramine — حاليًا فجوة ذات أولوية عالية (DG002)
+- تجربة سريرية خاصة بـ pheniramine أو دراسة خاضعة للرقابة في الشرى/الحالات الجلدية التحسسية (بيانات التجربة الحالية غير قابلة للاستخدام)
+- إدخال قاعدة بيانات التفاعل الدوائي (DDI)، غير مكتشف حاليًا
+
+*ملاحظة: تم أيضًا مراجعة تنبؤات TxGNN الإضافية لهذا الدواء (مرض تجويف الأنف والتهاب الحنجرة الحاد) وحصلت على درجات L4/L5 مع توصيات الانتظار — نماذج حيوانية فقط أو لا دليل داعم على التوالي — ولم يتم التقدم بها بشكل أكبر في هذه المرحلة.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

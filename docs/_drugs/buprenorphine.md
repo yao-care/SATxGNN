@@ -29,84 +29,81 @@ indication_count: 6
 
 </div>
 
-以下是根據 Evidence Pack 生成的評估報告：
+# بوبرينورفين: من اضطراب استخدام الأفيونيات والألم إلى البورفيريا الحادة المتقطعة
+
+## ملخص في جملة واحدة
+
+بوبرينورفين هو ناهض جزئي لمستقبلات الأفيون μ (mu) وقد ثبت سريريًا استخدامه في علاج اضطراب استخدام الأفيونيات (OUD) وتسكين الآلام. يتنبأ نموذج TxGNN بأنه قد يكون له صلة بـ **البورفيريا الحادة المتقطعة (AIP)**، مع توفر **0 تجربة سريرية** و **منشور واحد** (تقرير حالة حول الإجراءات الجراحية من عام 1993) لدعم هذا الاتجاه حاليًا. يبقى مستوى الدليل الإجمالي في مرحلة فرضية آلية حيوية مبكرة قبل سريرية.
 
 ---
 
-# Buprenorphine: From Opioid Dependence & Pain to Acute Intermittent Porphyria
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Buprenorphine is a partial mu-opioid receptor agonist clinically established for opioid use disorder (OUD) management and pain relief. The TxGNN model predicts it may be relevant for **Acute Intermittent Porphyria (AIP)**, with **0 clinical trials** and **1 publication** (a 1993 perioperative case report) currently available to support this direction. Overall evidence remains at an early preclinical/mechanistic hypothesis stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Opioid use disorder / Analgesia (original indication data not available in this dataset; derived from drug class) |
-| Predicted New Indication | Acute Intermittent Porphyria |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Taiwan (TFDA) Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | اضطراب استخدام الأفيونيات / تسكين الآلام (بيانات المؤشر الأصلي غير متاحة في مجموعة البيانات هذه؛ مشتقة من فئة الدواء) |
+| المؤشر الجديد المتوقع | البورفيريا الحادة المتقطعة |
+| درجة التنبؤ في TxGNN | 99.41% |
+| مستوى الدليل | L4 |
+| حالة السوق في تايوان (TFDA) | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المراقبة |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on known information, buprenorphine is a partial mu-opioid receptor agonist (and kappa-opioid antagonist), whose analgesic and OUD treatment efficacy has been extensively established. Its metabolic pathway primarily involves CYP3A4-mediated glucuronidation rather than pathways that heavily intersect with porphyrin biosynthesis.
+حاليًا، بيانات آلية العمل المفصلة غير متاحة في مجموعة البيانات هذه. بناءً على المعلومات المعروفة، بوبرينورفين هو ناهض جزئي لمستقبلات الأفيون μ (وحاجب مستقبلات الأفيون κ)، وقد تم إثبات فعاليته على نطاق واسع في تسكين الآلام وعلاج اضطراب استخدام الأفيونيات. يتم استقلابه بشكل أساسي عن طريق الجلوكورونيدات المحفزة بـ CYP3A4 بدلاً من المسارات التي تتقاطع بكثافة مع تخليق البورفيرين.
 
-Acute Intermittent Porphyria is a rare metabolic disorder caused by defects in the heme biosynthesis pathway. During acute attacks, patients can suffer from severe neuropathic abdominal pain, autonomic dysfunction, and neurological complications. A key clinical challenge in AIP is that many commonly used analgesics and anesthetic agents — particularly barbiturates and certain inducers of CYP enzymes — can trigger or worsen porphyric crises by upregulating ALA-synthase.
+البورفيريا الحادة المتقطعة هي اضطراب استقلابي نادر ناجم عن عيوب في مسار تخليق الهيم. أثناء النوبات الحادة، قد يعاني المرضى من ألم شديد مركبة عصبية في البطن واضطراب لاإرادي ومضاعفات عصبية. التحدي السريري الرئيسي في البورفيريا الحادة المتقطعة هو أن العديد من المسكنات الشائعة والعوامل التخديرية - خاصة الباربيتورات والمحرضات الأخرى لإنزيمات CYP - يمكن أن تؤدي إلى تفاقم أو إثارة نوبات البورفيريا من خلال زيادة نشاط ALA-synthase.
 
-The mechanistic link here is therefore not that buprenorphine treats AIP itself, but that it may be **relatively safe to use for pain management in AIP patients**: its CYP3A4 glucuronidation pathway theoretically poses less risk of triggering porphyrinogenic enzyme induction compared to barbiturates or other hazardous agents. This is an important clinical distinction — the prediction reflects safety-in-indication rather than disease-modifying efficacy — and substantially limits the translational scope.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for buprenorphine in acute intermittent porphyria.
+الرابط الآلي هنا ليس أن بوبرينورفين يعالج البورفيريا الحادة المتقطعة نفسها، بل أنه قد يكون **آمنًا نسبيًا للاستخدام في إدارة الألم لدى مرضى البورفيريا الحادة المتقطعة**: فمساره الاستقلابي عبر الجلوكورونيدات CYP3A4 يشكل نظريًا مخاطر أقل لتحفيز الإنزيمات البورفيريا مقارنة بالباربيتورات أو العوامل الخطرة الأخرى. وهذا تمييز سريري مهم - يعكس التنبؤ الأمان ضمن المؤشر بدلاً من الفعالية المعدلة للمرض - وبالتالي يحد بشكل كبير من نطاق الاستفادة الانتقالية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case Report | Masui (Japanese Journal of Anesthesiology) | Perioperative anesthetic management of a 40-year-old female with AIP undergoing radical hysterectomy; describes the challenge of selecting safe agents before AIP was confirmed — buprenorphine noted as a candidate in this context |
+حاليًا لا توجد تجارب سريرية ذات صلة مسجلة لبوبرينورفين في البورفيريا الحادة المتقطعة.
 
 ---
 
-## Taiwan Market Information
+## دليل الأدبيات العلمية
 
-No TFDA-approved products registered for buprenorphine in Taiwan. This drug is not currently marketed in Taiwan.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were available in this dataset.
-
-> **Note for AIP context:** Although formal safety data is unavailable in this Evidence Pack, clinicians should be aware that in AIP patients, drug selection is critical. Agents known to be porphyrinogenic (e.g., barbiturates, certain anticonvulsants) are contraindicated. Buprenorphine's relative safety in AIP should be verified against a porphyria drug safety database (e.g., the European Porphyria Network safe/unsafe drug list at [drugs-porphyria.org](https://www.drugs-porphyria.org)) before clinical use.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|------|--------|---------|
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | تقرير حالة | Masui (مجلة التخدير اليابانية) | إدارة التخدير حول العملية الجراحية لامرأة تبلغ 40 سنة مصابة بالبورفيريا الحادة المتقطعة تخضع لاستئصال الرحم الجذري؛ يصف تحدي اختيار عوامل آمنة قبل تأكيد التشخيص - تم ملاحظة بوبرينورفين كخيار مرشح في هذا السياق |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في تايوان
 
-**Decision: Hold**
+لا توجد منتجات موافقة عليها من إدارة الغذاء والدواء التايوانية (TFDA) مسجلة لبوبرينورفين في تايوان. هذا الدواء غير مسوّق حاليًا في تايوان.
 
-**Rationale:**
-The sole available evidence is a single 1993 perioperative case report that discusses AIP anesthetic management without directly evaluating buprenorphine as a therapeutic agent for AIP. The mechanistic link is indirect — buprenorphine's potential role is as a pain management option that is *safer to use in AIP patients* rather than as a treatment targeting the underlying metabolic defect. No clinical trials exist, and the evidence level (L4) does not support advancing to a formal repurposing program at this time.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **MOA data (DG002):** Confirm buprenorphine's full receptor pharmacology and metabolic pathway via DrugBank API; verify porphyrinogenic risk classification
-- **TFDA/package insert safety data (DG001):** Download and parse the full prescribing information for warnings and contraindications
-- **Porphyria drug safety database check:** Cross-reference buprenorphine against established AIP-safe/unsafe drug lists (e.g., drugs-porphyria.org, NAPOS database)
-- **Clarify clinical hypothesis:** Determine whether the target claim is (a) buprenorphine is safe to use for pain in AIP patients, or (b) buprenorphine modifies the AIP disease course — these require entirely different evidence standards and study designs
-- **Systematic literature search:** A targeted search for "buprenorphine AND porphyria" and "opioids AND AIP pain management" may surface additional evidence not captured in this pipeline run
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. لم تكن بيانات التحذيرات الرئيسية أو موانع الاستعمال أو التفاعلات الدوائية متاحة في مجموعة البيانات هذه.
+
+> **ملاحظة للسياق العملي في البورفيريا الحادة المتقطعة:** على الرغم من عدم توفر بيانات السلامة الرسمية في حزمة الأدلة هذه، يجب أن يكون الأطباء على علم بأنه في مرضى البورفيريا الحادة المتقطعة، يكون اختيار الدواء حاسمًا. العوامل المعروفة بأنها محرّضة للبورفيريا (مثل الباربيتورات وبعض مضادات الاختلاج) محظورة. يجب التحقق من السلامة النسبية لبوبرينورفين في البورفيريا الحادة المتقطعة مقابل قواعد بيانات سلامة أدوية البورفيريا المعتمدة (مثل قائمة الأدوية الآمنة/غير الآمنة من الشبكة الأوروبية للبورفيريا على [drugs-porphyria.org](https://www.drugs-porphyria.org)) قبل الاستخدام السريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المراقبة**
+
+**المبرر:**
+الدليل الوحيد المتاح هو تقرير حالة واحد من عام 1993 يتناول إدارة التخدير حول العملية في البورفيريا الحادة المتقطعة دون تقييم مباشر لبوبرينورفين كعامل علاجي للبورفيريا الحادة المتقطعة. الرابط الآلي غير مباشر - يتعلق دور بوبرينورفين المحتمل باستخدامه كخيار لإدارة الألم *يكون آمنًا بشكل نسبي للاستخدام في مرضى البورفيريا الحادة المتقطعة* بدلاً من كونه علاجًا يستهدف العيب الاستقلابي الأساسي. لا توجد تجارب سريرية، وعليه فإن مستوى الدليل (L4) لا يدعم الانتقال إلى برنامج إعادة توظيف رسمي في هذا الوقت.
+
+**للمتابعة، المطلوب ما يلي:**
+
+- **بيانات آلية العمل (DG002):** التحقق من الصيدلة العصبية الكاملة لبوبرينورفين ومساره الاستقلابي عبر DrugBank API؛ التحقق من تصنيف مخاطر البورفيريا
+- **بيانات السلامة من TFDA/نشرة المعلومات (DG001):** تنزيل وتحليل المعلومات الموصوفة الكاملة للتحذيرات وموانع الاستعمال
+- **فحص قاعدة بيانات سلامة أدوية البورفيريا:** مقارنة بوبرينورفين مقابل قوائم الأدوية الآمنة/غير الآمنة المعتمدة في البورفيريا الحادة المتقطعة (مثل drugs-porphyria.org وقاعدة بيانات NAPOS)
+- **توضيح الفرضية السريرية:** تحديد ما إذا كان المطلب الهدف هو (أ) بوبرينورفين آمن للاستخدام لتسكين الألم في مرضى البورفيريا الحادة المتقطعة، أو (ب) بوبرينورفين يعدل مسار المرض للبورفيريا الحادة المتقطعة - حيث تتطلب هذه معايير أدلة وتصاميم دراسات مختلفة تمامًا
+- **بحث منهجي في الأدبيات:** قد ينتج عن بحث مستهدف عن "buprenorphine AND porphyria" و "opioids AND AIP pain management" أدلة إضافية لم يتم التقاطها في هذا التشغيل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

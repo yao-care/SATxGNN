@@ -29,68 +29,69 @@ indication_count: 7
 
 </div>
 
-# Mogamulizumab: From Cutaneous T-Cell Lymphoma to Prostatic Urethra Urothelial Carcinoma
+# Mogamulizumab: من لمفوما الجلد من خلايا T إلى سرطان الخلايا الانتقالية في المجرى البولي البروستاتي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Mogamulizumab is an anti-CCR4 monoclonal antibody; the evidence pack's own rationale notes it is known to be used for cutaneous T-cell lymphoma (mycosis fungoides/Sézary syndrome), though this is not formally recorded in the structured indication field. The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**, but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction stands entirely on the model score.
+Mogamulizumab هو جسم مضاد أحادي النسيلة موجه ضد CCR4؛ تشير وثيقة الأدلة ذاتها إلى أنه معروف استخدامه لعلاج لمفوما الجلد من خلايا T (داء المتفطرة الفطري/متلازمة سيزاري)، على الرغم من عدم تسجيل هذا رسمياً في حقل المؤشر المهيكل. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان الخلايا الانتقالية في المجرى البولي البروستاتي**، لكن هذا الاتجاه يدعمه حالياً **0** تجربة سريرية و **0** منشور — التنبؤ يعتمد بالكامل على درجة النموذج.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Cutaneous T-cell lymphoma (mycosis fungoides/Sézary syndrome) — referenced only in the evidence pack's rationale text; the formal `original_indications` field is empty and `original_moa` is a data gap |
-| Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لمفوما الجلد من خلايا T (داء المتفطرة الفطري/متلازمة سيزاري) — مذكورة فقط في نص التبرير في وثيقة الأدلة؛ حقل `original_indications` الرسمي فارغ و `original_moa` هو فجوة بيانات |
+| المؤشر الجديد المتنبأ به | سرطان الخلايا الانتقالية في المجرى البولي البروستاتي |
+| درجة تنبؤ TxGNN | 99.44% |
+| مستوى الأدلة | L5 (تنبؤ نموذج فقط، بدون دعم سريري أو أدبي) |
+| حالة السوق في تايوان | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data (`original_moa`) is marked as a data gap in this evidence pack. Based on the rationale accompanying the predictions, mogamulizumab is a monoclonal antibody targeting CCR4, which depletes CCR4-positive regulatory T cells (Tregs) via antibody-dependent cellular cytotoxicity (ADCC). This is described in the pack as general pharmacological knowledge, not a dataset-verified fact, and it is explicitly *not* tied to any CCR4 expression or Treg-infiltration data for urothelial cancers.
+يتم تحديد بيانات آلية العمل التفصيلية (`original_moa`) كفجوة بيانات في وثيقة الأدلة هذه. بناءً على التبرير المصاحب للتنبؤات، Mogamulizumab هو جسم مضاد أحادي النسيلة موجه ضد CCR4، والذي يستنزف الخلايا المنظمة (Tregs) الموجبة لـ CCR4 عن طريق السمية المعتمدة على الأجسام المضادة (ADCC). يُوصف هذا في الحزمة بأنه معرفة دوائية عامة، وليس حقيقة تم التحقق منها في مجموعة البيانات، وهو صراحة *لم يتم* ربطه بأي بيانات تعبير CCR4 أو تسلل Treg خاصة بسرطانات المسالك البولية.
 
-The proposed link to prostatic urethra urothelial carcinoma is a broad immuno-oncology inference: depleting Tregs could, in theory, relieve tumor-microenvironment immune suppression and enhance anti-tumor immunity across many solid tumors. No tumor-specific evidence — CCR4 expression levels, Treg infiltration patterns, or preclinical models in urothelial carcinoma — is provided to support this specific pairing.
+الارتباط المقترح بسرطان الخلايا الانتقالية في المجرى البولي البروستاتي هو استدلال علم الأورام المناعي الواسع: قد يؤدي استنزاف Tregs، من الناحية النظرية، إلى تخفيف الكبت المناعي في بيئة الورم وتعزيز المناعة المضادة للأورام عبر العديد من الأورام الصلبة. لا توجد أدلة خاصة بالورم — مستويات تعبير CCR4، أنماط تسلل Treg، أو نماذج ما قبل الإكلينيكية في سرطان المسالك البولية — مقدمة لدعم هذا الاقتران المحدد.
 
-Because the drug's established use (cutaneous T-cell lymphoma) is a hematologic malignancy with well-characterized CCR4 biology, while the predicted indication is a solid-tumor, epithelial malignancy of a different lineage, the mechanistic distance between the two is substantial. The high TxGNN score reflects network-level similarity in the model's embedding space, not a validated biological pathway between the two conditions.
+نظراً لأن الاستخدام المعروف للعقار (لمفوما الجلد من خلايا T) هو ورم خبيث في الدم مع علم الأحياء CCR4 المميز جيداً، بينما المؤشر المتنبأ به هو ورم خبيث من الخلايا الظهارية الصلبة من سلالة مختلفة، فإن المسافة الآلية بين الاثنين كبيرة. تعكس درجة TxGNN العالية التشابه على مستوى الشبكة في فضاء التضمين للنموذج، وليس مسار بيولوجي تم التحقق منه بين الحالتين.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Cytotoxicity
+## السمية
 
-Mogamulizumab is an antineoplastic monoclonal antibody (immunotherapy class, per its known use in T-cell lymphoma and its ADCC-based Treg-depletion mechanism described in the evidence pack).
+Mogamulizumab هو جسم مضاد أحادي النسيلة مضاد للأورام (فئة العلاج المناعي، وفقاً لاستخدامه المعروف في لمفوما الجلد من خلايا T وآلية استنزاف Treg الوسيطة بـ ADCC الموصوفة في وثيقة الأدلة).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CCR4 monoclonal antibody, ADCC-mediated Treg depletion) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| العنصر | المحتوى |
+|------|--------|
+| تصنيف السمية | العلاج المناعي (جسم مضاد أحادي النسيلة موجه ضد CCR4، استنزاف Treg الوسيط بـ ADCC) — ليس عاملاً كيميائياً سام خلوياً تقليدياً |
+| خطر قمع نخاع العظام | يرجى الرجوع إلى تحذيرات وتحفظات النشرة الداخلية |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات وتحفظات النشرة الداخلية |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات وتحفظات النشرة الداخلية |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات وتحفظات النشرة الداخلية |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (L5, no clinical trials or literature), and the drug is not marketed in Taiwan. There is no tumor-specific mechanistic, preclinical, or clinical evidence connecting mogamulizumab to prostatic urethra urothelial carcinoma (or the other six ranked candidates, all similarly at L5/Hold).
+**التبرير:**
+يستند التنبؤ فقط على درجة نموذج TxGNN (L5، بدون تجارب سريرية أو أدبيات)، والعقار غير مسوق في تايوان. لا توجد أدلة آلية أو ما قبل إكلينيكية أو سريرية خاصة بالورم تربط Mogamulizumab بسرطان الخلايا الانتقالية في المجرى البولي البروستاتي (أو المرشحين الستة المصنفين الآخرين، الذين هم جميعهم بالمثل في L5/الانتظار).
 
-**To proceed, the following is needed:**
-- TFDA-approved package insert (warnings, contraindications) — currently a Blocking data gap preventing any safety pre-assessment
-- Confirmed mechanism-of-action and formal original-indication record from DrugBank or a regulatory source
-- CCR4 expression / Treg-infiltration data specific to urothelial carcinoma to test the mechanistic hypothesis
-- A broader literature/trial search (including off-label case reports) before any further development consideration
+**للمتابعة، ما يلي مطلوب:**
+- النشرة الداخلية المعتمدة من قبل TFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حجب تمنع أي تقييم أولي للسلامة
+- آلية عمل مؤكدة وتسجيل مؤشر أصلي رسمي من DrugBank أو مصدر تنظيمي
+- بيانات تعبير CCR4 / تسلل Treg خاصة بسرطان المسالك البولية لاختبار الفرضية الآلية
+- بحث أدبي/تجريبي أوسع (بما في ذلك تقارير الحالات خارج المؤشرات المرخصة) قبل أي اعتبار تطوير إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

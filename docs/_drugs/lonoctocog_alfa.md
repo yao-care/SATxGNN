@@ -29,80 +29,81 @@ indication_count: 4
 
 </div>
 
-# Lonoctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# لونوكتوكوج ألفا: من الهيموفيليا أ إلى مرض فون ويلبراند الكاذب
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Lonoctocog alfa is a recombinant Factor VIII replacement product, conventionally used for Hemophilia A (bleeding prophylaxis/treatment) — though this evidence pack does not contain a confirmed approved-indication text, since the drug is not marketed in this jurisdiction.
-> The TxGNN model's top prediction is **Pseudo-von Willebrand Disease**, with three other rare platelet/coagulation disorders also flagged in the same batch.
-> **No clinical trials and no publications** support any of the four candidates, and the drug's own mechanistic rationale explicitly argues each link is weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Taiwan license records; drug not marketed here) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.85% (rank 3117) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-### Other TxGNN-Predicted Indications in This Batch
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision |
-|------|---------|-------------|-----------------|----------|
-| 2 | Primary release disorder of platelets | 99.84% | L5 | Hold |
-| 3 | Glanzmann thrombasthenia | 99.76% | L5 | Hold |
-| 4 | Scott syndrome | 99.44% | L5 | Hold |
+> لونوكتوكوج ألفا هو منتج استبدال العامل الثامن المعاد الهندسة الحيوية، يُستخدم تقليدياً للهيموفيليا أ (الوقاية من النزيف/العلاج) — على الرغم من عدم توفر نص المؤشر المعتمد الرسمي في هذه مجموعة الأدلة، حيث أن الدواء غير موجود في السوق في هذه المنطقة.
+> تنبؤ نموذج TxGNN الأعلى هو **مرض فون ويلبراند الكاذب**، مع ثلاثة اضطرابات نادرة أخرى للصفائح الدموية/التخثر مسجلة أيضاً في نفس الدفعة.
+> **لا توجد تجارب سريرية ولا منشورات** تدعم أياً من المرشحين الأربعة، والأساس المنطقي الميكانيكي الخاص بالدواء نفسه يجادل بشكل صريح بأن كل ارتباط ضعيف.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as data gap DG002, High severity). Based on known pharmacology, lonoctocog alfa belongs to the recombinant Factor VIII class, replacing deficient coagulation factor VIII to restore the intrinsic clotting cascade (forming the tenase complex with activated Factor IX).
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق في هذه مجموعة الأدلة (لا توجد سجلات ترخيص تايوان؛ الدواء غير موجود في السوق هنا) |
+| المؤشر الجديد المتنبأ به | مرض فون ويلبراند الكاذب |
+| درجة تنبؤ TxGNN | 99.85% (المرتبة 3117) |
+| مستوى الأدلة | L5 |
+| حالة سوق المملكة العربية السعودية | غير موجود في السوق (غير موجود في السوق) |
+| عدد التخويلات | 0 |
+| القرار الموصى به | انتظر |
 
-All four predicted indications, however, are disorders of **platelet receptor or membrane function** rather than coagulation-factor deficiency — pseudo-von Willebrand disease (GPIb gain-of-function), primary platelet release disorder (granule secretion defect), Glanzmann thrombasthenia (GPIIb/IIIa deficiency), and Scott syndrome (phospholipid scramblase deficiency). The evidence pack's own repurposing rationale for each candidate explicitly states the mechanistic link is weak or absent: Factor VIII supplementation raises circulating clotting-factor concentration but does not correct platelet receptor expression, granule secretion, or membrane phospholipid externalization.
+### مؤشرات TxGNN المتنبأ بها الأخرى في هذه الدفعة
 
-In short, this is a case where TxGNN's network-similarity score is high, but the underlying biology argues against a plausible mechanism. This pattern — strong statistical prediction paired with an explicitly weak mechanistic rationale — is a signal to treat the prediction with caution rather than as a promising lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are flagged as a Blocking data gap (DG001) — this absence by itself prevents the candidate from entering the S1 safety pre-screen stage.)*
+| المرتبة | المرض | درجة TxGNN | مستوى الأدلة | القرار |
+|--------|-------|-----------|------------|--------|
+| 2 | اضطراب الإفراز الأولي للصفائح الدموية | 99.84% | L5 | انتظر |
+| 3 | ثرومباستينيا جلانزمان | 99.76% | L5 | انتظر |
+| 4 | متلازمة سكوت | 99.44% | L5 | انتظر |
 
 ---
 
-## Conclusion and Next Steps
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-**Decision: Hold**
+حالياً، بيانات آلية العمل المفصلة غير متاحة (محددة كفجوة بيانات DG002، شدة عالية). بناءً على الصيدلة المعروفة، ينتمي لونوكتوكوج ألفا إلى فئة العامل الثامن المعاد الهندسة الحيوية، والذي يستبدل العامل الثامن الناقص لاستعادة مسار التخثر الجوهري (تشكيل مجمع التينيز مع العامل التاسع المنشط).
 
-**Rationale:**
-All four candidates sit at Evidence Level L5 (model prediction only — zero clinical trials, zero literature), and the drug's own mechanistic rationale for every candidate explicitly describes the biological link as weak or absent. Combined with a Blocking-severity gap in TFDA safety data (DG001), there is currently no basis to advance past S0.
+إلا أن جميع المؤشرات الأربعة المتنبأ بها هي اضطرابات **في وظائف مستقبلات الصفائح الدموية أو الغشاء** وليست عيوباً في عوامل التخثر — مرض فون ويلبراند الكاذب (كسب وظيفة GPIb)، اضطراب الإفراز الأولي للصفائح الدموية (عيب إفراز الحبيبات)، ثرومباستينيا جلانزمان (نقص GPIIb/IIIa)، ومتلازمة سكوت (نقص scramblase الفوسفوليبيد). مذكرة إعادة الاستخدام الخاصة بمجموعة الأدلة تنص بوضوح على أن الارتباط الميكانيكي لكل مرشح ضعيف أو غير موجود: إن إضافة العامل الثامن تزيد من تركيز عوامل التخثر في الدم، لكنها لا تصحح تعبير مستقبلات الصفائح الدموية أو إفراز الحبيبات أو التعريض الخارجي للفوسفوليبيد.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap, required before any S1 safety review
-- Confirmed mechanism of action from DrugBank — High-severity gap, needed to properly assess mechanistic plausibility
-- Preclinical or mechanistic studies directly testing FVIII supplementation in platelet receptor/granule/membrane disorders, given the current rationale argues against relevance
-- Reassessment of whether these four candidates merit further evidence-generation investment at all, given the explicit mechanistic mismatch noted for each
+باختصار، هذه حالة حيث تكون درجة التشابه في الشبكة TxGNN عالية، لكن الأحياء الأساسية تجادل ضد آلية معقولة. هذا النمط — تنبؤ إحصائي قوي مقترن بنسبة ميكانيكية ضعيفة أو غير موجودة — هو إشارة لمعاملة التنبؤ بحذر بدلاً من اعتباره خياداً واعداً.
+
+---
+
+## أدلة التجارب السريرية
+
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
+
+---
+
+## أدلة الأدب العلمي
+
+لا توجد أدبيات ذات صلة متاحة حالياً
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملصق الحزمة للحصول على معلومات الأمان.
+
+*(ملاحظة: تحذيرات ملصق حزمة TFDA/موانع الاستعمال محددة كفجوة بيانات حاجب (DG001) — يمنع هذا الغياب وحده المرشح من الدخول إلى مرحلة الفحص السابق للسلامة S1)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المنطق:**
+جميع المرشحين الأربعة يقعون في مستوى الأدلة L5 (تنبؤ النموذج فقط — لا توجد تجارب سريرية، لا توجد أدبيات)، والأساس المنطقي الميكانيكي الخاص بالدواء يصف بوضوح الارتباط البيولوجي لكل مرشح بأنه ضعيف أو غير موجود. مقترناً بفجوة بيانات TFDA ذات شدة حاجبة (DG001)، لا يوجد حالياً أساس للمتابعة بعد S0.
+
+**للمتابعة، يلزم التالي:**
+- ملصق حزمة TFDA (التحذيرات/موانع الاستعمال) — فجوة حاجبة، مطلوبة قبل أي مراجعة أمان S1
+- آلية العمل المؤكدة من DrugBank — فجوة عالية الشدة، مطلوبة لتقييم جدوى الآلية بشكل صحيح
+- دراسات سابقة للسريرية أو ميكانيكية تختبر مباشرة إضافة FVIII في اضطرابات مستقبلات/حبيبات/غشاء الصفائح الدموية، نظراً لأن الأساس المنطقي الحالي يجادل ضد الصلة
+- إعادة تقييم ما إذا كان هؤلاء المرشحون الأربعة يستحقون المزيد من استثمار توليد الأدلة على الإطلاق، بالنظر إلى عدم التطابق الميكانيكي الصريح المشار إليه لكل واحد منهم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,72 +29,71 @@ indication_count: 1
 
 </div>
 
-# Caspofungin: From Invasive Fungal Infections to Gastrin Secretion Abnormality
+# كاسبوفنجين: من الالتهابات الفطرية الغازية إلى خلل إفراز جاسترين
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Caspofungin is an echinocandin-class antifungal agent used for the treatment of invasive fungal infections, including candidiasis and aspergillosis, acting by inhibiting fungal cell wall synthesis.
-The TxGNN model predicts it may be effective for **Gastrin Secretion Abnormality**, with a prediction score of 99.44%; however, currently there are **0 clinical trials** and **0 publications** directly supporting this direction.
-The mechanistic link between the two conditions is highly speculative, and this prediction should be treated with caution.
+كاسبوفنجين هو عامل مضاد للفطريات من فئة الإيكينوكاندين يُستخدم لعلاج الالتهابات الفطرية الغازية، بما في ذلك داء المبيضات والرشاشيات، حيث يعمل بتثبيط تخليق جدار الخلية الفطرية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **خلل إفراز جاسترين**، برصيد التنبؤ 99.44%؛ ومع ذلك، توجد حالياً **0 تجربة سريرية** و **0 منشورات** تدعم هذا الاتجاه مباشرة. الارتباط الميكانيكي بين الحالتين تخميني جداً، وينبغي التعامل مع هذا التنبؤ بحذر.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Invasive fungal infections (candidiasis, aspergillosis) — based on known pharmacological class; not registered in Taiwan |
-| Predicted New Indication | Gastrin Secretion Abnormality |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| المؤشر الأصلي | الالتهابات الفطرية الغازية (داء المبيضات، الرشاشيات) - بناءً على الفئة الدوائية المعروفة؛ غير مسجل في تايوان |
+| المؤشر الجديد المتنبأ به | خلل إفراز جاسترين |
+| درجة التنبؤ TxGNN | 99.44% |
+| مستوى الأدلة | L5 |
+| حالة السوق في تايوان | ✗ غير مسوق (0 تصاريح) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | **انتظار** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Caspofungin belongs to the echinocandin class of antifungal agents. Its mechanism of action is the inhibition of β-1,3-glucan synthase (encoded by the *FKS1/FKS2* genes), an enzyme essential for fungal cell wall integrity. By disrupting cell wall synthesis, caspofungin exerts fungicidal or fungistatic effects against *Candida* and *Aspergillus* species. Detailed MOA documentation from a regulatory source is currently unavailable, which limits confidence in any downstream mechanistic inference.
+ينتمي كاسبوفنجين إلى فئة الإيكينوكاندين من الأدوية المضادة للفطريات. آلية عمله هي تثبيط β-1,3-glucan synthase (المشفر بواسطة جينات *FKS1/FKS2*)، وهو إنزيم ضروري لسلامة جدار الخلية الفطرية. بتعطيل تخليق جدار الخلية، يُحدث كاسبوفنجين تأثيراً فاتكاً أو مثبطاً ضد أنواع *Candida* و*Aspergillus*. التوثيق التفصيلي لآلية العمل من مصدر تنظيمي غير متاح حالياً، الأمر الذي يحد من الثقة في أي استدلال ميكانيكي لاحق.
 
-The predicted new indication — gastrin secretion abnormality — involves the gastrin signalling axis: G-cells in the gastric antrum secrete gastrin, which stimulates enterochromaffin-like (ECL) cells to release histamine, ultimately driving gastric acid secretion. There is no established direct biological intersection between β-1,3-glucan synthase inhibition and the gastrin pathway. Two indirect hypotheses exist: (①) gut mycobiome dysbiosis caused by fungal overgrowth or eradication may indirectly alter enteroendocrine cell signalling; (②) systemic fungal infections can provoke gastrointestinal inflammation that secondarily disrupts gastrin secretion. Both hypotheses are highly speculative and lack supporting preclinical or animal study data.
+المؤشر الجديد المتنبأ به - خلل إفراز جاسترين - يتضمن محور إشارات جاسترين: تُفرز الخلايا G في الجزء البوابي من المعدة جاسترين، الذي يحفز الخلايا المشابهة للكروموفين (ECL) لتحرير الهستامين، مما يؤدي في نهاية المطاف إلى تحفيز إفراز حمض المعدة. لا توجد نقطة التقاء بيولوجية مباشرة معروفة بين تثبيط β-1,3-glucan synthase ومسار جاسترين. توجد فرضيتان غير مباشرتان: (①) قد يؤدي خلل التوازن الفطري في الأمعاء الناجم عن الإفراط الفطري أو القضاء على الفطريات بشكل غير مباشر إلى تغيير إشارات خلايا الغدد الصماء المعوية؛ (②) قد تثير الالتهابات الفطرية الجهازية التهاباً في الجهاز الهضمي قد يؤثر بشكل ثانوي على إفراز جاسترين. كلا الفرضيتين تخمينية جداً وتفتقران إلى بيانات الدراسات قبل السريرية أو الدراسات الحيوانية الداعمة.
 
-In summary, while the TxGNN model assigns a high numerical score to this prediction, the biological rationale is weak and the evidentiary base is entirely absent. This prediction is most plausibly a statistical artefact rather than a clinically actionable hypothesis at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+باختصار، على الرغم من أن نموذج TxGNN يعطي درجة رقمية عالية لهذا التنبؤ، فإن الأساس البيولوجي ضعيف والقاعدة الدلائلية غائبة تماماً. هذا التنبؤ هو على الأرجح أكثر احتمالاً أن يكون قطعة أثرية إحصائية بدلاً من فرضية قابلة للتطبيق السريري في هذه المرحلة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-There is no clinical trial, observational, or preclinical literature evidence connecting caspofungin to gastrin secretion abnormality, and the mechanistic link is highly speculative. Proceeding without foundational evidence would not represent responsible drug repurposing practice.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات الأمان
 
-- **Mechanistic plausibility study**: Identify whether any in vitro or animal models demonstrate an effect of echinocandins on gastrin secretion or G-cell function before considering further clinical translation
-- **MOA documentation**: Obtain complete DrugBank MOA data and Taiwan/international package insert to properly characterise the drug's pharmacological profile
-- **Safety baseline**: Retrieve key warnings, contraindications, and DDI profile from the package insert (currently all flagged as data gaps)
-- **Hypothesis refinement**: If the mycobiome-gastrin axis hypothesis is pursued, conduct a targeted literature search on gut fungi and gastrin regulation as an independent step
-- **Re-evaluation trigger**: Return to this candidate only if preclinical mechanistic evidence emerges; until then, deprioritise in favour of higher-evidence repurposing candidates
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+لا توجد تجارب سريرية أو بيانات مراقبة أو أدلة أدبية قبل سريرية تربط بين كاسبوفنجين وخلل إفراز جاسترين، والارتباط الميكانيكي تخميني جداً. المتابعة بدون أدلة أساسية لن تمثل ممارسة مسؤولة لإعادة استخدام الأدوية.
+
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+
+- **دراسة معقولية آلية العمل**: تحديد ما إذا كانت أي نماذج في المختبر أو نماذج حيوانية تُظهر تأثير الإيكينوكاندين على إفراز جاسترين أو وظيفة خلايا G قبل النظر في مزيد من الترجمة السريرية
+- **توثيق آلية العمل**: الحصول على بيانات DrugBank الكاملة لآلية العمل ونشرة العبوة في تايوان والدول الأخرى لتوصيف الملف الدوائي للدواء بشكل صحيح
+- **خط الأساس للأمان**: الحصول على التحذيرات الرئيسية والموانع الاستعمال وملف تفاعلات الأدوية من نشرة العبوة (حالياً جميعها محددة كفجوات في البيانات)
+- **تحسين الفرضية**: إذا تمت متابعة فرضية محور الفطريات المعوية-جاسترين، فأجرِ بحثاً أدبياً موجهاً عن الفطريات المعوية وتنظيم جاسترين كخطوة مستقلة
+- **مؤشر إعادة التقييم**: عُد إلى هذا المرشح فقط إذا ظهر دليل آلي قبل سريري؛ حتى ذلك الحين، قلل الأولوية لصالح مرشحي إعادة الاستخدام ذات الأدلة الأعلى
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

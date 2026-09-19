@@ -29,75 +29,76 @@ indication_count: 5
 
 </div>
 
-# Eplerenone: From Hypertension/Heart Failure to Pulmonary Hypertension (Unclear Multifactorial Mechanism)
+# إبليرينون: من ارتفاع ضغط الدم/قصور القلب إلى فرط ضغط الدم الرئوي (آلية متعددة العوامل غير واضحة)
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Eplerenone (DrugBank DB00700) is a selective aldosterone (mineralocorticoid receptor) antagonist generally used for hypertension and chronic heart failure; however, this evidence pack contains no confirmed original-indication or regulatory license record for the drug in this jurisdiction. The TxGNN model predicts potential efficacy for **pulmonary hypertension with unclear multifactorial mechanism** (score **99.50%**), but currently **0 clinical trials** and **0 disease-specific publications** directly support this prediction — the association is based on the computational model alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this dataset (no market license record); generally known as hypertension / chronic heart failure post-MI |
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Market Status (this jurisdiction) | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إبليرينون (DrugBank DB00700) هو مضاد ألدوسترون انتقائي (مستقبل معادن القشرة) يُستخدم عموماً لارتفاع ضغط الدم وقصور القلب المزمن؛ غير أن هذه مجموعة الأدلة لا تحتوي على أي سجل ترخيص أصلي أو تنظيمي محكم للدواء في هذه الولاية القضائية. يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **فرط ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة** (نسبة **99.50%**)، لكن حالياً **0 تجربة سريرية** و **0 منشور متخصص بالمرض** يدعم هذا التنبؤ مباشرة — الارتباط يستند على نموذج الحوسبة وحده.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data is not available in this evidence pack (data gap DG002, High severity). Based on generally known pharmacology, eplerenone is a selective mineralocorticoid receptor (aldosterone) antagonist, structurally related to spironolactone but with greater receptor selectivity and fewer anti-androgenic effects. It is conventionally used for hypertension and chronic heart failure following myocardial infarction.
-
-Mechanistically, chronic aldosterone/mineralocorticoid receptor activation is implicated in vascular remodeling, perivascular fibrosis, and endothelial dysfunction — processes that also feature in the pathogenesis of several pulmonary hypertension subtypes. This offers a biologically plausible, but currently unverified, rationale for TxGNN linking eplerenone to "pulmonary hypertension with unclear multifactorial mechanism."
-
-It is worth noting that a closely related predicted term — "pulmonary hypertension owing to lung disease and/or hypoxia" (rank 2) — received an identical TxGNN score (99.50%) and returned 20 PubMed hits, whereas the rank-1 indication above returned none. On review, however, those 20 papers are general hypoxia-biology/neuroscience/oncology articles retrieved by keyword overlap ("hypoxia") rather than studies specifically evaluating eplerenone in pulmonary hypertension — none of the abstracts mention eplerenone. This tied-score, sibling-disease pattern is typical of TxGNN's ontology structure and should not be read as independent confirmation. As such, no indication in this cluster currently has genuine drug-specific evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير موثق في مجموعة البيانات هذه (لا يوجد سجل ترخيص سوق)؛ معروف عموماً باسم ارتفاع ضغط الدم / قصور القلب المزمن بعد احتشاء عضلة القلب |
+| المؤشر الجديد المتنبأ به | فرط ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة |
+| درجة التنبؤ بـ TxGNN | 99.50% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط، بدون دراسات داعمة) |
+| حالة السوق (هذه الولاية القضائية) | ✗ غير مسوّق (غير مسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية غير متوفرة في مجموعة الأدلة هذه (فجوة البيانات DG002، شدة عالية). بناءً على الصيدلة المعروفة عموماً، إبليرينون هو مضاد مستقبل معادن القشرة الانتقائي (الألدوسترون)، مرتبط هيكلياً بـ spironolactone لكن بانتقائية مستقبل أعلى وتأثيرات مضادة للأندروجين أقل. يُستخدم بشكل تقليدي لارتفاع ضغط الدم وقصور القلب المزمن بعد احتشاء عضلة القلب.
 
----
+من الناحية الآلية، يشارك تنشيط مستقبل ألدوسترون/معادن القشرة المزمن في إعادة تشكيل الأوعية الدموية والتليف المحيط بالأوعية وضعف الوظيفة البطانية — عمليات تحدث أيضاً في الفيزيولوجيا المرضية لعدة أنواع فرعية من فرط ضغط الدم الرئوي. وهذا يوفر عقلانية بيولوجية معقولة، لكنها غير موثوقة حالياً، لربط TxGNN بين إبليرينون و "فرط ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة."
 
-## Market Information
-
-No marketing authorizations are on record for eplerenone in this jurisdiction (market status: Not marketed / not marketed; total licenses: 0).
+تجدر الإشارة إلى أن مصطلح متنبأ به وثيق الصلة — "فرط ضغط الدم الرئوي الناجم عن مرض الرئة و/أو نقص الأكسجة" (الترتيب 2) — تلقى درجة TxGNN متطابقة (99.50%) وأرجع 20 نتيجة PubMed، بينما المؤشر من الرتبة 1 أعلاه لم يرجع أي نتيجة. عند المراجعة، مع ذلك، تلك الأوراق الـ 20 هي مقالات عامة عن بيولوجيا نقص الأكسجة/علم الأعصاب/الأورام تم استرجاعها بسبب التداخل بالكلمات الرئيسية ("hypoxia") وليس دراسات تقيّم بشكل محدد إبليرينون في فرط ضغط الدم الرئوي — لا يذكر أي من الملخصات إبليرينون. هذا النمط ذو الدرجة المرتبطة والمرض الشقيق نموذجي لهيكل عنطولوجيا TxGNN ولا يجب تفسيره كتأكيد مستقل. وعليه، لا يوجد أي مؤشر في هذه المجموعة يحتوي حالياً على أدلة محددة للعقار.
 
 ---
 
-## Safety Considerations
+## أدلة التجربة السريرية
 
-Please refer to the package insert for safety information. (Note: retrieval of the official TFDA package insert warnings/contraindications is flagged as a **Blocking** data gap — DG001 — meaning this candidate cannot yet pass initial safety screening (S1) until that document is obtained. The drug interaction database query also returned no results (`not_found`).)
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا يوجد حالياً أدب متعلق متاح.
 
-**Rationale:**
-This prediction currently rests on the TxGNN model score alone (Evidence Level L5) — there are no clinical trials or eplerenone-specific literature supporting efficacy in pulmonary hypertension, the drug has no market presence in this jurisdiction, and a Blocking-severity safety data gap prevents initial safety screening.
+---
 
-**To proceed, the following is needed:**
-- Obtain the official TFDA/manufacturer package insert (warnings, contraindications) to resolve the Blocking gap (DG001) and enable S1 safety screening
-- Obtain confirmed original indication and mechanism-of-action documentation from DrugBank/regulatory sources (DG002)
-- Run a targeted literature and clinical-trial search combining "eplerenone" specifically with pulmonary hypertension terms, since current hits under the sibling term (rank 2) are generic hypoxia-biology papers rather than drug-specific evidence
-- Re-query the drug-interaction database via an alternate source, since the current query returned "not_found"
-- If pursuing further, evaluate the sibling predicted term (rank 2, same score) in parallel, as ontology-adjacent terms may warrant a combined literature strategy
+## معلومات السوق
+
+لا توجد تفويضات تسويقية مسجلة لـ إبليرينون في هذه الولاية القضائية (حالة السوق: غير مسوّق / غير مسوّق؛ التراخيص الإجمالية: 0).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملصق العبوة للحصول على معلومات السلامة. (ملاحظة: يتم الإشارة إلى استرجاع تحذيرات/موانع الاستعمال الرسمية من TFDA كـ **عائق** في فجوة البيانات — DG001 — مما يعني أن هذا المرشح لا يمكنه النجاح في الفحص الأولي للسلامة (S1) حتى يتم الحصول على هذا المستند. استعلام قاعدة بيانات التفاعلات الدوائية أيضاً لم يُرجع أي نتائج (`not_found`).)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس:**
+هذا التنبؤ يستند حالياً على درجة نموذج TxGNN وحدها (مستوى الأدلة L5) — لا توجد تجارب سريرية أو أدب محدد لـ إبليرينون يدعم الفعالية في فرط ضغط الدم الرئوي، والعقار ليس له وجود سوقي في هذه الولاية القضائية، وفجوة بيانات السلامة ذات الشدة العالية تمنع الفحص الأولي للسلامة (S1).
+
+**للمتابعة، يلزم الآتي:**
+- الحصول على ملصق TFDA/الشركة المصنعة الرسمي (التحذيرات، موانع الاستعمال) لحل فجوة البيانات ذات الشدة العالية (DG001) وتفعيل الفحص الأولي للسلامة (S1)
+- الحصول على توثيق المؤشر الأصلي وآلية العمل المؤكدة من DrugBank/المصادر التنظيمية (DG002)
+- إجراء بحث أدبي وسريري مستهدف يجمع "eplerenone" على وجه التحديد مع مصطلحات فرط ضغط الدم الرئوي، حيث أن النتائج الحالية تحت المصطلح الشقيق (الترتيب 2) هي أوراق عامة عن بيولوجيا نقص الأكسجة وليس أدلة محددة للعقار
+- إعادة الاستعلام عن قاعدة بيانات التفاعلات الدوائية من خلال مصدر بديل، حيث أرجع الاستعلام الحالي "not_found"
+- إذا كانت المتابعة مطلوبة، قيّم المصطلح المتنبأ به الشقيق (الترتيب 2، نفس الدرجة) بالتوازي، حيث قد تستدعي المصطلحات المجاورة للعنطولوجيا استراتيجية بحثية أدبية مشتركة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

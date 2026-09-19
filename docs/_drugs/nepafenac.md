@@ -29,98 +29,99 @@ indication_count: 10
 
 </div>
 
-# Nepafenac: From Post-Cataract-Surgery Ocular Inflammation to Eye Disease
+# نيبافينك: من التهاب العين بعد جراحة الكاتاركت إلى أمراض العين
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Nepafenac is a topical ophthalmic NSAID whose established clinical use is controlling pain and inflammation after cataract and other ocular surgeries.
-> The TxGNN model predicts high relevance for **eye disease** (a broad category), with **41 clinical trials** and **20 publications** currently available as supporting evidence.
-> Notably, the evidence itself indicates this "prediction" largely reconfirms the drug's already-established use rather than identifying a genuinely novel indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally on file for this market (drug unmarketed); trial evidence confirms established use in post-cataract-surgery ocular inflammation/pain |
-| Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> نيبافينك هو عامل NSAID قطري للعيون أسس استخدامه السريري هو السيطرة على الألم والالتهاب بعد جراحات الكاتاركت والجراحات العينية الأخرى.
+> يتنبأ نموذج TxGNN بصلة عالية لـ **أمراض العين** (فئة واسعة)، مع **41 تجربة سريرية** و **20 منشورًا علميًا** متاحة حاليًا كأدلة داعمة.
+> بشكل ملحوظ، الأدلة نفسها تشير إلى أن هذا "التنبؤ" يعيد تأكيد الاستخدام المعروف للعقار بالفعل بدلاً من تحديد إشارة جديدة حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Nepafenac is a prodrug that, after topical ocular administration, is hydrolyzed by intraocular esterases into its active metabolite, amfenac. Amfenac inhibits COX-1 and COX-2, reducing prostaglandin synthesis and thereby producing ocular anti-inflammatory, analgesic, and anti-cystoid-macular-edema (CME) effects.
-
-"Eye disease" is a broad TxGNN category, and the underlying clinical trial and literature evidence overwhelmingly concerns nepafenac's use around cataract surgery (postoperative pain, inflammation, and CME prevention) — which is the drug's well-established, already-approved application in multiple markets. The evidence pack's own repurposing rationale flags this explicitly: this is not a novel repurposing target but an existing, proven use being surfaced by the model.
-
-This matters for interpretation: the very high evidence level (L1) reflects the depth of evidence behind nepafenac's *known* ophthalmic anti-inflammatory role, not a new mechanistic hypothesis. Any regulatory value here lies in confirming and formally registering an already-supported use in this market, rather than pursuing a novel therapeutic hypothesis.
+| البند | المحتوى |
+|------|--------|
+| الإشارة الأصلية | غير مسجلة رسميًا في هذا السوق (العقار غير مسوق)؛ أدلة التجارب السريرية تؤكد الاستخدام المعروف في التهاب العين وآلام ما بعد جراحة الكاتاركت |
+| الإشارة الموقع تنبؤ | أمراض العين |
+| درجة التنبؤ TxGNN | 99.85% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | المضي قدمًا مع الضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+نيبافينك هو مقدم حيوي يتم، بعد الإعطاء الموضعي القطري للعين، تحويله بواسطة إستراز داخل العين إلى ناتجه الفعال، أمفيناك. يثبط أمفيناك COX-1 و COX-2، مما يقلل من تركيب البروستاغلاندين وبالتالي ينتج عنه تأثيرات مضادة للالتهاب والألم والوذمة البقعية الكيسية (CME) في العين.
+
+"أمراض العين" فئة TxGNN واسعة، والأدلة الأساسية من التجارب السريرية والأدبيات تتعلق بشكل غالب باستخدام نيبافينك حول جراحة الكاتاركت (ألم ما بعد الجراحة والالتهاب ومنع CME) — وهو الاستخدام المعروف والمثبت للعقار بالفعل والمعتمد في أسواق متعددة. تشير نسبة إعادة التوظيف الخاصة بحزمة الأدلة إلى هذا بشكل صريح: هذا ليس هدف إعادة توظيف جديد بل هو استخدام موجود ومثبت يتم طرحه من قبل النموذج.
+
+هذا مهم للتفسير: مستوى الدليل العالي جدًا (L1) يعكس عمق الأدلة خلف الدور المعروف للنيبافينك في العين المضاد للالتهاب *المعروف*، وليس فرضية آلية جديدة. تقتصر أي قيمة تنظيمية هنا على تأكيد وتسجيل رسمي لاستخدام مدعوم بالفعل في هذا السوق، بدلاً من متابعة فرضية علاجية جديدة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02084576](https://clinicaltrials.gov/study/NCT02084576) | Phase 4 | Completed | 40 | Nepafenac 0.1% vs ketorolac 0.4% for prevention of cystoid macular edema after phacoemulsification (direct efficacy endpoint) |
-| [NCT00347204](https://clinicaltrials.gov/study/NCT00347204) | Phase 4 | Completed | 40 | Head-to-head RCT vs Acular LS for postoperative pain control after PRK |
-| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Phase 2 | Completed | 1342 | Large comparison of nepafenac 0.3% vs 0.1% vs vehicle for prevention/treatment of post-cataract-surgery inflammation and pain |
-| [NCT00818844](https://clinicaltrials.gov/study/NCT00818844) | Phase 4 | Completed | 40 | Nepafenac 0.1% reduced macular volume after epiretinal membrane surgery vs placebo |
-| [NCT01939691](https://clinicaltrials.gov/study/NCT01939691) | Phase 4 | Terminated | 9 | Nepafenac vs difluprednate for uveitic macular edema; terminated early, underpowered |
-| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Phase 3 | Completed | 2120 | Large pivotal study of nepafenac 0.3% for prevention/treatment of post-cataract-surgery inflammation and pain |
-| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Phase 3 | Completed | 819 | Nepafenac 0.3% QD superior to vehicle in diabetic patients following cataract surgery |
-| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Phase 3 | Completed | 881 | Nepafenac 0.3% QD demonstrated superiority over vehicle in diabetic subjects post-cataract surgery |
-| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | N/A | Completed | 662 | Adjunctive nepafenac 0.3% vs placebo for prevention of pseudophakic cystoid macular edema |
-| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Phase 3 | Completed | 448 | Bioequivalence study of generic nepafenac 0.3% vs Ilevro for post-cataract-surgery pain/inflammation |
+| [NCT02084576](https://clinicaltrials.gov/study/NCT02084576) | Phase 4 | مكتملة | 40 | نيبافينك 0.1% مقابل كيتورولاك 0.4% لمنع الوذمة البقعية الكيسية بعد استحلاب العدسة (نقطة نهاية فعالية مباشرة) |
+| [NCT00347204](https://clinicaltrials.gov/study/NCT00347204) | Phase 4 | مكتملة | 40 | تجربة معايرة مقابلة Acular LS للسيطرة على ألم ما بعد الجراحة بعد PRK |
+| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Phase 2 | مكتملة | 1342 | مقارنة كبيرة بين نيبافينك 0.3% مقابل 0.1% مقابل الناقل لمنع/علاج التهاب وآلام ما بعد جراحة الكاتاركت |
+| [NCT00818844](https://clinicaltrials.gov/study/NCT00818844) | Phase 4 | مكتملة | 40 | نيبافينك 0.1% قلل من حجم البقعة بعد جراحة غشاء الشبكية فوق المركزي مقابل الدواء الوهمي |
+| [NCT01939691](https://clinicaltrials.gov/study/NCT01939691) | Phase 4 | توقفت | 9 | نيبافينك مقابل ديفلوبريدنات لوذمة البقعة الأمامية؛ توقفت مبكرًا، قوة إحصائية منخفضة |
+| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Phase 3 | مكتملة | 2120 | دراسة محورية كبيرة لنيبافينك 0.3% لمنع/علاج التهاب وآلام ما بعد جراحة الكاتاركت |
+| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Phase 3 | مكتملة | 819 | نيبافينك 0.3% QD متفوق على الناقل لدى المرضى السكريين بعد جراحة الكاتاركت |
+| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Phase 3 | مكتملة | 881 | أثبت نيبافينك 0.3% QD تفوقًا على الناقل في الأشخاص السكريين بعد جراحة الكاتاركت |
+| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | N/A | مكتملة | 662 | نيبافينك 0.3% الإضافي مقابل الدواء الوهمي لمنع الوذمة البقعية الكيسية الكاذبة |
+| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Phase 3 | مكتملة | 448 | دراسة التكافؤ البيولوجي لنيبافينك العام 0.3% مقابل Ilevro لآلام والتهاب ما بعد جراحة الكاتاركت |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات العلمية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | Nepafenac 0.1% vs prednisolone acetate 1% for postoperative inflammation control after micro-incisional cataract surgery |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmology. Glaucoma | Nepafenac 0.1% vs prednisolone acetate 1% for inflammation control after laser peripheral iridotomy |
-| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | Systematic Review/Meta-analysis | Eur J Ophthalmol | Nepafenac's effect on macular swelling and visual outcomes after cataract surgery |
-| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | Review | Drugs | Review of diagnostic and therapeutic agents, including topical NSAIDs, for non-infectious corneal injury |
-| [29199864](https://pubmed.ncbi.nlm.nih.gov/29199864/) | 2018 | Cohort | Curr Eye Res | Intracameral nepafenac safety and efficacy in inhibiting prostaglandin synthesis during phacoemulsification |
-| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | Cohort | Acta Ophthalmol | Nepafenac vs preservative-free diclofenac for postoperative management after cataract surgery |
-| [24345529](https://pubmed.ncbi.nlm.nih.gov/24345529/) | 2014 | Phase 3 RCT | J Cataract Refract Surg | Once-daily nepafenac 0.3% to prevent/treat ocular inflammation and pain after cataract surgery |
-| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | RCT | J Cataract Refract Surg | Prophylactic nepafenac vs ketorolac vs placebo for postoperative macular edema after phacoemulsification |
-| [30046541](https://pubmed.ncbi.nlm.nih.gov/30046541/) | 2018 | Comparative study | Int J Ophthalmol | Bromfenac vs nepafenac vs diclofenac for prevention of cystoid macular edema after phacoemulsification |
-| [19040348](https://pubmed.ncbi.nlm.nih.gov/19040348/) | 2008 | RCT | J Ocul Pharmacol Ther | Nepafenac dosing frequency (QD/BID/TID) for ocular pain and inflammation after cataract surgery |
+| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | تجربة معايرة عشوائية | Korean J Ophthalmol | نيبافينك 0.1% مقابل بريدنيزولون أسيتات 1% للسيطرة على التهاب ما بعد الجراحة بعد جراحة الكاتاركت الصغرى |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | تجربة معايرة عشوائية | Ophthalmology. Glaucoma | نيبافينك 0.1% مقابل بريدنيزولون أسيتات 1% للسيطرة على الالتهاب بعد العملية الجراحية الطرفية بالليزر |
+| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | مراجعة منهجية/تحليل تلوي | Eur J Ophthalmol | تأثير نيبافينك على تورم البقعة والنتائج البصرية بعد جراحة الكاتاركت |
+| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | مراجعة | Drugs | مراجعة العوامل التشخيصية والعلاجية، بما في ذلك مثبطات الالتهاب اللاستيرويدية القطرية، لإصابات القرنية غير المعدية |
+| [29199864](https://pubmed.ncbi.nlm.nih.gov/29199864/) | 2018 | دراسة أترابية | Curr Eye Res | سلامة وفعالية نيبافينك داخل الحجرة الأمامية في منع تركيب البروستاغلاندين أثناء استحلاب العدسة |
+| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | دراسة أترابية | Acta Ophthalmol | نيبافينك مقابل ديكلوفيناك الخالي من الحافظات لإدارة ما بعد الجراحة بعد جراحة الكاتاركت |
+| [24345529](https://pubmed.ncbi.nlm.nih.gov/24345529/) | 2014 | تجربة معايرة عشوائية Phase 3 | J Cataract Refract Surg | نيبافينك 0.3% مرة واحدة يوميًا لمنع/علاج الالتهاب والألم في العين بعد جراحة الكاتاركت |
+| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | تجربة معايرة عشوائية | J Cataract Refract Surg | نيبافينك وقائي مقابل كيتورولاك مقابل الدواء الوهمي لوذمة البقعة ما بعد الجراحة بعد استحلاب العدسة |
+| [30046541](https://pubmed.ncbi.nlm.nih.gov/30046541/) | 2018 | دراسة مقارنة | Int J Ophthalmol | بروميفيناك مقابل نيبافينك مقابل ديكلوفيناك لمنع الوذمة البقعية الكيسية بعد استحلاب العدسة |
+| [19040348](https://pubmed.ncbi.nlm.nih.gov/19040348/) | 2008 | تجربة معايرة عشوائية | J Ocul Pharmacol Ther | تكرار جرعات نيبافينك (QD/BID/TID) لألم والتهاب العين بعد جراحة الكاتاركت |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Nepafenac currently has no marketing authorizations registered in Saudi Arabia (0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+النيبافينك حاليًا لا يملك أي تفاويض تسويقية مسجلة في المملكة العربية السعودية (0 رخصة على الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The predicted indication is backed by an unusually deep evidence base (multiple large completed Phase 3 RCTs, e.g. NCT01109173 with n=2120), but this evidence supports nepafenac's already-established use in post-cataract-surgery ocular inflammation and pain rather than a novel therapeutic hypothesis — the "eye disease" prediction should be understood as a confirmation, not a discovery.
+---
 
-**To proceed, the following is needed:**
-- Local package insert / label data (warnings, contraindications) — currently a Blocking data gap
-- Verified mechanism-of-action documentation from DrugBank or equivalent source
-- Confirmation of local marketing/registration status and pathway, given the drug is currently unmarketed in this jurisdiction
-- Narrowing of the broad "eye disease" prediction to a specific, registrable indication (e.g., post-surgical ocular inflammation/pain) before regulatory submission
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدمًا مع الضمانات**
+
+**المبرر:**
+الإشارة المتوقع تنبؤ النموذج بها مدعومة بقاعدة أدلة غير عادية من حيث العمق (عدة تجارب معايرة عشوائية Phase 3 مكتملة كبيرة، مثل NCT01109173 مع n=2120)، لكن هذه الأدلة تدعم الاستخدام المعروف للنيبافينك في التهاب العين وآلام ما بعد جراحة الكاتاركت بدلاً من فرضية علاجية جديدة — يجب فهم تنبؤ "أمراض العين" كتأكيد، وليس كاكتشاف.
+
+**للمضي قدمًا، يلزم ما يلي:**
+- بيانات نشرة الحزمة/البطاقة المحلية (تحذيرات، موانع استطباب) — فجوة بيانات حاليًا حاجزة
+- توثيق آلية العمل المحققة من DrugBank أو مصدر معادل
+- تأكيد حالة التسويق/التسجيل المحلية والمسار، بالنظر إلى أن العقار غير مسوق حاليًا في هذا الاختصاص
+- تضييق تنبؤ "أمراض العين" الواسع إلى إشارة محددة وقابلة للتسجيل (مثل التهاب العين/الألم ما بعد الجراحة) قبل التقديم التنظيمي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

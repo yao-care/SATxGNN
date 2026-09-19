@@ -29,94 +29,95 @@ indication_count: 8
 
 </div>
 
-# Clopidogrel: From Atherothrombotic Disease Prevention to Migraine with Brainstem Aura
+# كلوبيدوجريل: من الوقاية من أمراض التخثر الشرياني إلى الشقيقة مع الهالة في جذع الدماغ
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Clopidogrel is a P2Y12 ADP receptor antagonist antiplatelet drug, widely used globally for preventing thrombotic events in patients with acute coronary syndrome, ischemic stroke, and peripheral artery disease.
-The TxGNN model ranks **Migraine with Brainstem Aura** as its top predicted new indication (score 99.44%), with the closely related **Migraine Disorder** indication supported by **8 clinical trials** and **20 publications**.
-While no clinical trials have specifically enrolled migraine with brainstem aura patients, indirect evidence from observational studies, pilot RCTs, one completed Phase 4 trial (CANOA, n=220), and a 2025 systematic review provides a mechanistically coherent rationale.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Atherothrombotic event prevention (ACS, ischemic stroke, PAD) — global approved use; no Saudi Arabia authorization on record |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+كلوبيدوجريل هو مثبط لمستقبل P2Y12 للأدينوسين ثنائي الفوسفات (ADP) من مضادات التجلط الصفيحي، يُستخدم على نطاق واسع عالمياً لمنع الأحداث الخثرية لدى المرضى الذين يعانون من متلازمة التاج الحادة، والسكتة الدماغية الإقفاريّة، وأمراض الأوعية الدموية الطرفية.
+يصنف نموذج TxGNN **الشقيقة مع الهالة في جذع الدماغ** كأعلى دلالة مستنبطة جديدة متوقعة (درجة 99.44%)، مع دعم **دلالة الشقيقة** الوثيقة الصلة بـ **8 تجارب سريرية** و **20 منشورة**.
+على الرغم من عدم وجود تجارب سريرية تضم على وجه التحديد مرضى الشقيقة مع الهالة في جذع الدماغ، فإن الأدلة غير المباشرة من الدراسات الرصدية، والتجارب العشوائية التجريبية، وتجربة Phase 4 مكتملة واحدة (CANOA، n=220)، ومراجعة منهجية عام 2025 توفر أساساً معقولاً ومتسقاً من الناحية الآلية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data was not retrievable in this evidence pack. Based on well-established published pharmacology, clopidogrel is a thienopyridine prodrug that, after hepatic bioactivation via CYP2C19, irreversibly blocks the P2Y12 ADP receptor on platelet surfaces. This inhibits ADP-dependent platelet aggregation, reduces platelet-derived release of serotonin (5-HT) and thromboxane A2 (TXA2), and suppresses pro-thrombotic platelet activity. These effects are the basis of its approved cardiovascular and cerebrovascular indications.
-
-The mechanistic bridge to migraine with brainstem aura centers on the **patent foramen ovale (PFO) / right-to-left shunt (RLS) hypothesis**. A PFO allows venous microemboli and vasoactive substances — including platelet-derived 5-HT and TXA2 — to bypass the pulmonary filter and enter the cerebral arterial circulation. Once in the brain, these mediators can trigger cortical spreading depression (CSD), the neurophysiological substrate of migraine aura. By inhibiting platelet activation, clopidogrel may simultaneously reduce paradoxical microembolism and curtail release of the vasoactive triggers that initiate CSD, thereby preventing migraine attacks. Preclinical data further show that P2Y12 receptors are expressed on microglia in the trigeminal nucleus caudalis, and P2Y12-mediated microglial activation via the RhoA/ROCK pathway contributes to chronic migraine sensitization (PMID 31722730), suggesting a central nervous system target beyond the platelet.
-
-Migraine with brainstem aura is the subtype with the strongest epidemiological association with PFO and RLS, making the embolic-platelet hypothesis particularly compelling for this specific phenotype. However, a dedicated RCT for the brainstem aura subtype does not yet exist; all current clinical evidence is extrapolated from broader migraine with aura cohorts and post-cardiac-procedure settings. The TxGNN prediction leverages graph-level proximity between platelet biology, PFO pathophysiology, and the brainstem aura disease node — which is mechanistically defensible but clinically unconfirmed.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials specifically targeting **migraine with brainstem aura** with clopidogrel are currently registered. The following trials, retrieved for the closely related **Migraine Disorder** indication (TxGNN Rank #2, 99.43%), provide the most proximate indirect evidence:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|------------|------|--------|-----------|-------------|
-| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) | Phase 4 | Completed | 220 | CANOA trial: Clopidogrel + aspirin vs aspirin alone to prevent new-onset migraine following transcatheter ASD closure; primary analysis (JAMA 2015) and 12-month follow-up (JAMA Cardiology 2021) both published |
-| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) | Phase 4 | Unknown | 1,000 | COMPETE trial: Three-arm RCT comparing anticoagulation vs antiplatelet therapy (including clopidogrel) vs migraine-specific medication in PFO patients; largest ongoing study in this field |
-| [NCT04946734](https://clinicaltrials.gov/study/NCT04946734) | Phase 3 | Active, not recruiting | 440 | SPRING trial: PFO closure vs medication (including antiplatelet) for migraine relief; multicenter RCT, completion expected September 2025 |
-| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Phase 4 | Unknown | 50 | Prospective trial evaluating clopidogrel prophylaxis specifically for migraineurs with confirmed right-to-left shunt |
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Completed | 664 | PFO closure vs anticoagulants vs antiplatelet (clopidogrel arm included) for stroke recurrence; migraine episodes captured as secondary outcome |
-| [NCT02777359](https://clinicaltrials.gov/study/NCT02777359) | Phase 2 | Unknown | 100 | High-risk PFO percutaneous closure for migraine: multicenter RCT; clopidogrel used as post-procedure adjunct therapy |
+| البند | المحتوى |
+|------|--------|
+| الدلالة الأصلية | منع حدوث الأحداث الخثرية الشرية (متلازمة التاج الحادة، السكتة الدماغية الإقفاريّة، أمراض الأوعية الدموية الطرفية) — استخدام معتمد عالمياً؛ لا توجد تصريحات للمملكة العربية السعودية |
+| الدلالة الجديدة المتنبأ بها | الشقيقة مع الهالة في جذع الدماغ |
+| درجة التنبؤ TxGNN | 99.44% |
+| مستوى الأدلة | L3 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصريحات | 0 |
+| القرار الموصى به | انتظر (سؤال بحثي) |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Publications retrieved for **Migraine with Brainstem Aura** (predicted_indications[0]), prioritized by study tier and direct relevance to clopidogrel in migraine:
+حالياً، لم يكن من الممكن الحصول على بيانات آلية العمل المفصلة في هذه المجموعة الإثباتية. بناءً على الصيدلانية المنشورة الراسخة جيداً، كلوبيدوجريل هو دواء أولي من الثينوبيريدين الذي، بعد التنشيط البيولوجي الكبدي عبر CYP2C19، يمنع بشكل لا رجعة فيه مستقبل P2Y12 ADP على أسطح الصفيحات الدموية. يثبط هذا تجميع الصفيحات الدموية المعتمد على ADP، ويقلل من إطلاق المشتقات الصفيحية للسيروتونين (5-HT) وثرومبوكسان A2 (TXA2)، ويقمع نشاط الصفيحات الدموية المؤيد للتخثر. هذه التأثيرات هي أساس دلالاته القلبية الوعائية والدماغية الوعائية المعتمدة.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic Review | *Headache* | Comprehensive review of antithrombotic drugs (including clopidogrel) as migraine preventive medication; most current synthesis of the evidence base |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | *European Heart Journal* | PRIMA trial: Multicenter RCT of percutaneous PFO closure in migraine with aura refractory to medical treatment; establishes PFO–migraine with aura link in a controlled design |
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | Pilot RCT | *Cephalalgia* | First pilot randomized controlled trial of clopidogrel as prophylactic treatment for migraine; anecdotal observations prompted this controlled assessment |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohort | *J Investigative Medicine* | Clopidogrel 75 mg/day added to existing regimen over 3–6 months reduced attack frequency in drug-refractory migraineurs with PFO; 56.8% PFO prevalence confirmed in cohort |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Prospective Observational | *Heart* | Seminal report: clopidogrel reduced migraine with aura after transcatheter PFO/ASD closure, triggering regimen changes in clinical practice |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospective Cohort | *Neurology* | Real-world clinical experience of thienopyridines (clopidogrel and prasugrel) in migraineurs with PFO; supports class-level antiplatelet effect on migraine |
-| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Retrospective Cohort | *Cephalalgia* | Clopidogrel as primary (not post-procedure) therapy for migraineurs with right-to-left shunt lesions; proposes platelet activation–paradoxical embolization–migraine mechanism |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Open-label Pilot | *Neurology* | TRACTOR study: Ticagrelor (non-thienopyridine P2Y12 inhibitor) tested in refractory migraine/PFO, showing similar effects; supports P2Y12 class-level mechanism rather than thienopyridine-specific effect |
-| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Observational | *Cephalalgia* | De novo migraine after ASD closure ameliorated by antiplatelet therapy; clopidogrel specifically cited as migraine-modifying agent in post-procedure setting |
-| [33815258](https://pubmed.ncbi.nlm.nih.gov/33815258/) | 2021 | Case Report | *Frontiers in Neurology* | New migraine-like headache with visual aura after posterior cerebral artery aneurysm coiling; illustrates vascular procedure–aura relationship relevant to the brainstem subtype |
+يتمركز الجسر الآلي للشقيقة مع الهالة في جذع الدماغ على **فرضية الثقب البيضاوي السالب (PFO) / التحويل من اليمين إلى اليسار (RLS)**. يسمح PFO للجلطات الصغيرة الوريدية والمواد الفعالة الأوعية الدموية — بما في ذلك 5-HT و TXA2 المشتقة من الصفيحات — بتجاوز مرشح الرئة والدخول إلى الدورة الدموية الدماغية. مرة واحدة في الدماغ، يمكن لهذه الوسطاء أن تحفز الاكتئاب الانتشار القشري (CSD)، وهو الركيزة الفسيولوجية العصبية لهالة الشقيقة. من خلال تثبيط تنشيط الصفيحات، قد يقلل كلوبيدوجريل في نفس الوقت من المحاكاة المفارقة والحد من إطلاق المحفزات الفعالة للأوعية التي تبدأ CSD، مما يمنع نوبات الشقيقة. تظهر البيانات قبل السريرية الإضافية أن مستقبلات P2Y12 يتم التعبير عنها على الخلايا الدبقية الصغيرة في النواة الثلاثية التوائم الذنبية، وأن التنشيط الدبقي الوسيط بـ P2Y12 عبر مسار RhoA/ROCK يساهم في حساسية الشقيقة المزمنة (PMID 31722730)، مما يشير إلى هدف الجهاز العصبي المركزي بخلاف الصفيحة.
+
+الشقيقة مع الهالة في جذع الدماغ هي النوع الفرعي الذي يحتوي على أقوى ارتباط وبائي مع PFO و RLS، مما يجعل فرضية المحاكاة الصفيحية مقنعة بشكل خاص لهذا النمط الظاهري المحدد. ومع ذلك، لا توجد بعد تجربة معشاة ذات شواهد مخصصة للنوع الفرعي من الهالة في جذع الدماغ؛ يتم استقراء جميع الأدلة السريرية الحالية من مجموعات أوسع من الشقيقة مع الهالة والإعدادات بعد الإجراءات القلبية. يستفيد التنبؤ TxGNN من القرب على مستوى الرسم البياني بين علم أحياء الصفيحات، والمرضية الفسيولوجية PFO، وعقدة مرض الهالة في جذع الدماغ — وهو قابل للدفاع من الناحية الآلية ولكن لم يتم تأكيده سريرياً.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية تستهدف بشكل خاص **الشقيقة مع الهالة في جذع الدماغ** مع كلوبيدوجريل مسجلة حالياً. توفر التجارب التالية، المسترجعة لدلالة **اضطراب الشقيقة** الوثيقة الصلة (ترتيب TxGNN #2، 99.43%)، أقرب دليل غير مباشر:
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-----------|--------|--------|--------|-----------------|
+| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) | Phase 4 | مكتملة | 220 | تجربة CANOA: كلوبيدوجريل + aspirin مقابل aspirin وحده لمنع الشقيقة الناشئة حديثاً بعد إغلاق ASD عبر الجلد؛ تم نشر التحليل الأساسي (JAMA 2015) والمتابعة لمدة 12 شهراً (JAMA Cardiology 2021) كلاهما |
+| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) | Phase 4 | غير محدد | 1,000 | تجربة COMPETE: تجربة معشاة ذات ثلاث أذرع تقارن مضادات التجلط مقابل العلاج المضاد للصفيحات (بما في ذلك كلوبيدوجريل) مقابل الأدوية المحددة للشقيقة لدى مرضى PFO؛ أكبر دراسة جارية في هذا المجال |
+| [NCT04946734](https://clinicaltrials.gov/study/NCT04946734) | Phase 3 | نشطة، لا تقبل المشاركات | 440 | تجربة SPRING: إغلاق PFO مقابل الأدوية (بما في ذلك مضادات الصفيحات) لتخفيف الشقيقة؛ تجربة معشاة ذات مراكز متعددة، من المتوقع انتهاؤها في سبتمبر 2025 |
+| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Phase 4 | غير محدد | 50 | تجربة استباقية تقيم الوقاية من كلوبيدوجريل بشكل خاص لدى مرضى الشقيقة مع تحويل من اليمين إلى اليسار مؤكد |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | مكتملة | 664 | إغلاق PFO مقابل مضادات التجلط مقابل مضادات الصفيحات (يتضمن ذراع كلوبيدوجريل) لتكرار السكتة الدماغية؛ تم التقاط نوبات الشقيقة كنتيجة ثانوية |
+| [NCT02777359](https://clinicaltrials.gov/study/NCT02777359) | Phase 2 | غير محدد | 100 | إغلاق PFO عالي الخطورة عبر الجلد للشقيقة: تجربة معشاة ذات مراكز متعددة؛ كلوبيدوجريل يُستخدم كعلاج مساعد بعد الإجراء |
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold (Research Question)**
+المنشورات المسترجعة لـ **الشقيقة مع الهالة في جذع الدماغ** (predicted_indications[0])، مرتبة حسب مستوى الدراسة والصلة المباشرة بـ كلوبيدوجريل في الشقيقة:
 
-**Rationale:**
-For the specific subtype of **migraine with brainstem aura**, no dedicated clinical trials exist and all current evidence is indirect — extrapolated from broader migraine with aura cohorts and post-cardiac-procedure populations. While the mechanistic hypothesis (P2Y12 inhibition → reduced microembolism and platelet-derived 5-HT → CSD prevention) is well-grounded, it remains unconfirmed in this subtype. Furthermore, clopidogrel is not currently approved or marketed in Saudi Arabia, which adds a significant regulatory barrier. Notably, the closely related **Migraine Disorder** indication (TxGNN Rank #2) carries stronger evidence (Level L2, "Proceed with Guardrails") anchored by the completed CANOA trial (NCT00799045, JAMA 2015, n=220), making that indication a more actionable near-term target.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | مراجعة منهجية | *Headache* | مراجعة شاملة للأدوية المضادة للتخثر (بما في ذلك كلوبيدوجريل) كدواء وقائي للشقيقة؛ الخلاصة الحالية الأكثر لقاعدة الأدلة |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | تجربة معشاة | *European Heart Journal* | تجربة PRIMA: تجربة معشاة ذات مراكز متعددة لإغلاق PFO عبر الجلد في الشقيقة مع الهالة المقاومة للعلاج الطبي؛ تؤسس ارتباط PFO-الشقيقة مع الهالة في تصميم خاضع للسيطرة |
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | تجربة معشاة تجريبية | *Cephalalgia* | أول تجربة معشاة تجريبية لكلوبيدوجريل كعلاج وقائي للشقيقة؛ دفعت الملاحظات الحكائية هذا التقييم الخاضع للسيطرة |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | دراسة مجموعة | *J Investigative Medicine* | أضيف كلوبيدوجريل 75 ملغ/يوم إلى النظام الحالي على مدى 3–6 أشهر وقلل من تكرار النوبات لدى مرضى الشقيقة المقاومين للعلاج بـ PFO؛ تأكيد انتشار PFO بنسبة 56.8% في المجموعة |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | دراسة رصدية استباقية | *Heart* | تقرير أساسي: قلل كلوبيدوجريل من الشقيقة مع الهالة بعد إغلاق PFO/ASD عبر الجلد، مما أثار تغييرات في النظام في الممارسة السريرية |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | دراسة مجموعة بأثر رجعي | *Neurology* | الخبرة السريرية الواقعية للثينوبيريدينات (كلوبيدوجريل و prasugrel) لدى مرضى الشقيقة مع PFO؛ يدعم تأثير مضاد للصفيحات على مستوى الفئة على الشقيقة |
+| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | دراسة مجموعة بأثر رجعي | *Cephalalgia* | كلوبيدوجريل كعلاج أساسي (وليس بعد الإجراء) لمرضى الشقيقة مع آفات التحويل من اليمين إلى اليسار؛ يقترح آلية تنشيط الصفيحات والمحاكاة المفارقة والشقيقة |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | دراسة تجريبية مفتوحة العلامة | *Neurology* | دراسة TRACTOR: اختبار Ticagrelor (مثبط P2Y12 غير الثينوبيريدين) في الشقيقة المقاومة/PFO، مما يظهر تأثيرات مماثلة؛ يدعم آلية P2Y12 على مستوى الفئة بدلاً من التأثير المحدد للثينوبيريدين |
+| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | دراسة رصدية | *Cephalalgia* | الشقيقة الجديدة بعد إغلاق ASD تحسنت بالعلاج المضاد للصفيحات؛ تم الاستشهاد بـ كلوبيدوجريل بشكل خاص كعامل معدل للشقيقة في الإعداد بعد الإجراء |
+| [33815258](https://pubmed.ncbi.nlm.nih.gov/33815258/) | 2021 | تقرير حالة | *Frontiers in Neurology* | صداع جديد يشبه الشقيقة مع هالة بصرية بعد لف الشريان الدماغي الخلفي؛ يوضح علاقة الإجراء الوعائي والهالة ذات الصلة بالنوع الفرعي من جذع الدماغ |
 
-**To advance the brainstem aura indication specifically, the following is needed:**
+---
 
-- **Subtype-specific clinical trial:** Enroll migraine with brainstem aura patients with confirmed PFO/RLS as a dedicated cohort, distinct from general migraine with aura populations
-- **COMPETE trial results (NCT05546320, n=1,000):** Completion of this large three-arm RCT will provide the most definitive comparative data on antiplatelet therapy vs alternatives in PFO-associated migraine
-- **MOA documentation:** Formal retrieval of clopidogrel's DrugBank MOA entry and TFDA package insert warnings and contraindications to complete the safety profile
-- **Saudi Arabia regulatory pathway:** Since the drug has zero local authorizations, a new drug application or compassionate use framework would be required before any clinical evaluation in the Kingdom
-- **CYP2C19 pharmacogenomics consideration:** Approximately 14–20% of populations of Middle Eastern descent carry reduced-function CYP2C19 alleles, which may impair clopidogrel bioactivation; pharmacogenomic screening protocols should be defined before any prospective study
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر (سؤال بحثي)**
+
+**المبرر:**
+للنوع الفرعي المحدد من **الشقيقة مع الهالة في جذع الدماغ**، لا توجد تجارب سريرية مخصصة وجميع الأدلة الحالية غير مباشرة — يتم استقراؤها من مجموعات أوسع من الشقيقة مع الهالة والسكان بعد الإجراءات القلبية. في حين أن فرضية الآلية (تثبيط P2Y12 → تقليل المحاكاة الجزيئية وتقليل 5-HT المشتقة من الصفيحات → منع CSD) مبنية على أسس قوية، فإنها تبقى غير مؤكدة في هذا النوع الفرعي. علاوة على ذلك، كلوبيدوجريل غير معتمد حالياً أو مسوق في المملكة العربية السعودية، مما يضيف حاجزاً تنظيمياً كبيراً. بشكل ملحوظ، دلالة **اضطراب الشقيقة** الوثيقة الصلة (ترتيب TxGNN #2) تحمل أدلة أقوى (المستوى L2، "المضي قدماً مع الضمانات") مثبتة بـ تجربة CANOA المكتملة (NCT00799045، JAMA 2015، n=220)، مما يجعل تلك الدلالة هدفاً قابلاً للعمل على المدى القريب.
+
+**لتقدم مؤشر الهالة في جذع الدماغ بشكل خاص، يلزم ما يلي:**
+
+- **تجربة سريرية محددة النوع الفرعي:** تسجيل مرضى الشقيقة مع الهالة في جذع الدماغ مع PFO/RLS مؤكد كمجموعة مخصصة، مختلفة عن السكان العام من الشقيقة مع الهالة
+- **نتائج تجربة COMPETE (NCT05546320، n=1,000):** انتهاء هذه التجربة الكبيرة ذات الثلاث أذرع سيوفر البيانات المقارنة الأكثر قطعية حول العلاج المضاد للصفيحات مقابل البدائل في الشقيقة المرتبطة بـ PFO
+- **وثائق MOA:** استرجاع رسمي لدخول DrugBank MOA الخاص بـ كلوبيدوجريل وتحذيرات النشرة الداخلية TFDA والمؤشرات الموانع لإكمال ملف تعريف السلامة
+- **المسار التنظيمي للمملكة العربية السعودية:** نظراً لأن الدواء ليس له تصريحات محلية، ستكون هناك حاجة إلى تطبيق عقار جديد أو إطار عمل استخدام الرحمة قبل أي تقييم سريري في المملكة
+- **اعتبار الصيدلانيات الجينية CYP2C19:** تقريباً 14–20% من السكان من أصول الشرق الأوسط يحملون أليلات CYP2C19 ذات الوظائف المنخفضة، والتي قد تضعف تنشيط كلوبيدوجريل؛ يجب تحديد بروتوكولات الفحص الصيدلاني الجيني قبل أي دراسة استباقية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

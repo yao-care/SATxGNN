@@ -29,78 +29,79 @@ indication_count: 6
 
 </div>
 
-# Amodiaquine: From Malaria to Pulmonary Hypertension
+# أموديايكين: من الملاريا إلى ارتفاع ضغط الدم الرئوي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Amodiaquine is an aminoquinoline antimalarial agent with known anti-inflammatory properties, originally used in the treatment and prophylaxis of malaria.
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, with a prediction score of **99.25%**;
-however, currently **no clinical trials** and **no supporting literature** directly link amodiaquine to this indication — this prediction rests entirely on computational modeling.
+أموديايكين هو عامل مضاد للملاريا من فئة أمينوكينولين معروف بخصائصه المضادة للالتهابات، وكان يستخدم في الأصل في علاج والوقاية من الملاريا.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ارتفاع ضغط الدم الرئوي**، مع درجة تنبؤ **99.25%**؛
+ومع ذلك، حالياً **لا توجد تجارب سريرية** و**لا يوجد دعم أدبي** يربط مباشرة بين أموديايكين وهذا الاستطباب — هذا التنبؤ يعتمد بالكامل على النمذجة الحسابية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No registered indication in Saudi Arabia (antimalarial agent) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.25% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | لا توجد استطبابات مسجلة في المملكة العربية السعودية (عامل مضاد للملاريا) |
+| الاستطباب الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي |
+| درجة تنبؤ TxGNN | 99.25% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological literature, amodiaquine belongs to the 4-aminoquinoline class — the same structural family as chloroquine and hydroxychloroquine. These drugs are established for their anti-inflammatory properties, primarily through suppression of pro-inflammatory cytokines including TNF-α and IL-6, as well as inhibition of lysosomal activity and Toll-like receptor signaling.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في مجموعة الأدلة هذه. بناءً على الأدبيات الدوائية المعروفة، ينتمي أموديايكين إلى فئة 4-aminoquinoline — نفس الأسرة البنيوية لـ chloroquine و hydroxychloroquine. تُعرّف هذه الأدوية بخصائصها المضادة للالتهابات، أساساً من خلال قمع السيتوكينات المؤيدة للالتهاب بما فيها TNF-α و IL-6، وكذلك منع النشاط الليسوسومي وإشارات مستقبل Toll-like.
 
-The proposed link to pulmonary hypertension rests on the hypothesis that aminoquinolines could attenuate pulmonary vascular inflammation — a recognized contributor to vascular remodeling in PAH (pulmonary arterial hypertension). Chloroquine, a close structural analog, has appeared in sporadic preclinical and in vitro reports exploring PAH-related pathways. However, no studies have directly examined amodiaquine's effects on pulmonary vascular biology or right heart function.
+يعتمد الارتباط المقترح بارتفاع ضغط الدم الرئوي على فرضية أن الأمينوكينولينات قد تخفف من التهاب الأوعية الدموية الرئوية — وهي مساهم معروف في إعادة تشكيل الأوعية الدموية في فرط ضغط الدم الشرياني الرئوي (PAH). ظهر الكلوروكين، وهو نظير بنيوي قريب، في تقارير نادرة قبل سريرية وفي دراسات في الجسم الحي تستكشف مسارات PAH. ومع ذلك، لم تفحص أي دراسات تأثيرات أموديايكين على علم الأحياء الوعائية الرئوية أو وظيفة القلب الأيمن.
 
-The mechanistic basis connecting amodiaquine specifically to pulmonary hypertension remains thin. The TxGNN prediction likely derives from shared knowledge graph pathways (aminoquinoline class → anti-inflammatory → vascular inflammation → PAH), rather than any direct experimental evidence. This makes the prediction biologically plausible but experimentally unvalidated.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يبقى الأساس الآلي الذي يربط أموديايكين خاصة بارتفاع ضغط الدم الرئوي ضعيفاً. من المحتمل أن ينشأ تنبؤ TxGNN من مسارات خريطة المعرفة المشتركة (أسرة الأمينوكينولين → مضادة للالتهاب → التهاب الأوعية الدموية → PAH)، بدلاً من أي دليل تجريبي مباشر. هذا يجعل التنبؤ معقولاً من الناحية البيولوجية لكن غير مثبت تجريبياً.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for amodiaquine in pulmonary hypertension.
-
----
-
-## Saudi Arabia Market Information
-
-Amodiaquine is not currently marketed in Saudi Arabia. No product authorizations are on record.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## أدلة أدبية
 
-Please refer to the package insert for safety information.
+حالياً لا تتوفر أدبيات ذات صلة لأموديايكين في ارتفاع ضغط الدم الرئوي.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+أموديايكين غير مسوقة حالياً في المملكة العربية السعودية. لا توجد تصاريح منتجات مسجلة.
 
-**Rationale:**
-This prediction is at Evidence Level L5 — generated solely by the TxGNN computational model with no supporting clinical trials or literature. Amodiaquine is not marketed in Saudi Arabia, and critical safety data (warnings, contraindications, drug interactions) are absent from this pack. The mechanistic link to pulmonary hypertension is indirect and class-inferred rather than drug-specific. Proceeding without foundational evidence would not meet any responsible repurposing threshold.
+---
 
-**To proceed, the following is needed:**
+## الاعتبارات الأمنية
 
-- **MOA data**: Retrieve full DrugBank pharmacology entry (DB00613) to confirm mechanism, targets, and known off-target effects
-- **Safety data**: Obtain full prescribing information (package insert) including black-box warnings, hepatotoxicity risk profile, and known drug interactions — amodiaquine has historical agranulocytosis and hepatotoxicity concerns that must be characterized before any repurposing evaluation
-- **Preclinical evidence search**: Targeted literature search for amodiaquine (or its active metabolite desethylamodiaquine) in pulmonary vascular models, PAH animal studies, or hypoxia-induced vascular remodeling
-- **Class evidence review**: Systematic review of chloroquine/hydroxychloroquine data in PAH to establish aminoquinoline class plausibility before committing resources to amodiaquine-specific studies
-- **Regulatory pathway assessment**: Since the drug is not marketed in Saudi Arabia, a full import/registration feasibility analysis is required before any clinical development can be considered
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+هذا التنبؤ في مستوى الأدلة L5 — مُولّد فقط من خلال نموذج TxGNN الحسابي بدون أي دعم من التجارب السريرية أو الأدبيات. أموديايكين غير مسوقة في المملكة العربية السعودية، وبيانات السلامة الحرجة (تحذيرات، موانع استعمال، تفاعلات الأدوية) غائبة عن هذه المجموعة. الارتباط الآلي بارتفاع ضغط الدم الرئوي غير مباشر ويُستدل عليه من الفئة بدلاً من أن يكون خاص بالدواء. المضي قدماً بدون أدلة أساسية لن يفي بأي حد من حدود إعادة التوجيه المسؤولة.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **بيانات آلية العمل**: استرجاع مدخل الصيدلة الكامل في DrugBank (DB00613) لتأكيد الآلية والأهداف والتأثيرات خارج المستهدفة المعروفة
+- **بيانات السلامة**: الحصول على معلومات الوصفة الطبية الكاملة (نشرة المنتج) بما فيها تحذيرات الصندوق الأسود وملف الخطر من السمية الكبدية والتفاعلات الدوائية المعروفة — أموديايكين لديها مخاوف تاريخية من نقص الكريات البيضاء والسمية الكبدية يجب توضيحها قبل أي تقييم لإعادة التوجيه
+- **بحث الأدلة قبل السريرية**: بحث مستهدف في الأدبيات عن أموديايكين (أو استقلابها النشط desethylamodiaquine) في نماذج الأوعية الدموية الرئوية أو دراسات حيوان PAH أو إعادة تشكيل الأوعية الدموية المستحثة بنقص الأكسجين
+- **استعراض أدلة الفئة**: استعراض منهجي لبيانات chloroquine/hydroxychloroquine في PAH لإثبات معقولية فئة الأمينوكينولين قبل الالتزام بموارد لدراسات خاصة بأموديايكين
+- **تقييم المسار التنظيمي**: نظراً لأن الدواء غير مسوقة في المملكة العربية السعودية، يلزم تحليل جدوى الاستيراد/التسجيل الكامل قبل أن يمكن النظر في أي تطوير سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

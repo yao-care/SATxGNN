@@ -29,70 +29,71 @@ indication_count: 10
 
 </div>
 
-# Quetiapine: From Psychiatric Disorders to Trichotillomania (Hair-Pulling Disorder)
+# كويتيابين: من الاضطرابات النفسية إلى اضطراب نتف الشعر
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Quetiapine is an atypical antipsychotic (5-HT2A/D2 receptor antagonist), though no Saudi Arabia regulatory or original-indication data is available in this evidence pack. Among TxGNN's ten highest-ranked predictions, only **Trichotillomania** is supported by actual drug-specific evidence — **7 publications**, including case reports and reviews directly discussing quetiapine's use in this condition — while the model's single highest-scoring prediction was screened out as a false positive (see note below).
+كويتيابين هو مضاد ذهان غير تقليدي (حاصر لمستقبلات 5-HT2A/D2)، على الرغم من عدم توفر أي بيانات تنظيمية سعودية أو بيانات الاستطبابات الأصلية في هذه حزمة الأدلة. من بين أعلى عشر توقعات صنفتها TxGNN، فقط **اضطراب نتف الشعر** يدعمه أدلة فعلية خاصة بالدواء — **7 منشورات**، تتضمن تقارير حالات وتقييمات تناقش مباشرة استخدام كويتيابين في هذا الاضطراب — بينما تم فحص أعلى توقع حسب النموذج كإيجابية كاذبة (انظر الملاحظة أدناه).
 
-> **Screening note:** TxGNN's #1-ranked candidate, *retinal dystrophy with or without extraocular anomalies* (score 99.57%), was reviewed against its 15 supporting publications. None of these papers mention quetiapine — they are general pediatric ophthalmology/orbital-disease literature that co-occurs with the disease term only by name-matching. The evidence pack itself flags this as a spurious pairing with "no mechanistic link" and stage **S0/Hold**. It is therefore excluded from this report, which instead focuses on **Trichotillomania (rank 8)**, the only candidate with genuine drug-specific support.
+> **ملاحظة الفحص:** تم مراجعة المرشح الأول في تصنيف TxGNN، *الضمور الشبكي مع أو بدون تشوهات خارج العينة* (درجة 99.57%)، مقابل 15 منشور داعم له. لا يذكر أي من هذه الأوراق كويتيابين — إنها أدبيات طب العيون لدى الأطفال العامة/أمراض المدار التي تتزامن مع مصطلح المرض فقط من خلال مطابقة الأسماء. تشير حزمة الأدلة نفسها إلى هذا كزوج وهمي بـ "لا توجد رابطة آلية" والمرحلة **S0/Hold**. وبالتالي يتم استبعادها من هذا التقرير، الذي يركز بدلاً من ذلك على **اضطراب نتف الشعر (المرتبة 8)**، المرشح الوحيد الذي يتمتع بدعم فعلي خاص بالدواء.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — drug is not marketed in Saudi Arabia (0 licenses on file); no approved-indication text in this evidence pack |
-| Predicted New Indication | Trichotillomania (hair-pulling disorder) |
-| TxGNN Prediction Score | 99.38% (rank 9206 of TxGNN's ranked list) |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير متوفر — الدواء غير مسوق في المملكة العربية السعودية (0 ترخيص في الملفات)؛ لا توجد نصوص للاستطبابات المعتمدة في حزمة الأدلة هذه |
+| الاستطباب الجديد المتنبأ به | اضطراب نتف الشعر |
+| درجة توقع TxGNN | 99.38% (المرتبة 9206 من قائمة TxGNN المصنفة) |
+| مستوى الأدلة | L4 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | Hold |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from DrugBank/regulatory sources for this drug (flagged as a High-severity data gap in this evidence pack). Based on known pharmacology, quetiapine acts as a 5-HT2A/D2 receptor antagonist, a mechanism shared by several atypical antipsychotics that are used off-label as augmentation agents for obsessive-compulsive and impulse-control spectrum disorders.
+في الوقت الحالي، بيانات آلية العمل التفصيلية غير متاحة من مصادر DrugBank/التنظيمية لهذا الدواء (تم وضع علامة عليها كفجوة بيانات عالية الشدة في حزمة الأدلة هذه). بناءً على الصيدلة المعروفة، يعمل كويتيابين كحاصر لمستقبلات 5-HT2A/D2، آلية يشاركها عدة مضادات ذهان غير تقليدية تُستخدم خارج التعليمات كعوامل تعزيز لاضطرابات الوسواس القهري والتحكم بالدوافع.
 
-Trichotillomania is now classified within the OCD-spectrum of disorders, characterized by repetitive hair-pulling behavior with an impulse-control component. The mechanistic rationale for quetiapine is that its serotonergic/dopaminergic antagonism may modulate the same circuitry implicated in compulsive/impulsive symptom generation — a plausible but indirect link, since no publication in the evidence pack demonstrates this mechanism directly in trichotillomania patients.
+يتم تصنيف اضطراب نتف الشعر الآن ضمن طيف اضطرابات الوسواس القهري، يتميز بسلوك نتف الشعر المتكرر مع عنصر التحكم بالدوافع. الأساس الآلي لكويتيابين هو أن معارضته للناقلات العصبية السيروتونينية/الدوبامينية قد تعدل نفس الدارة المنطوية في توليد الأعراض القهرية/الاندفاعية — وهي رابطة معقولة لكن غير مباشرة، حيث لا يوضح أي منشور في حزمة الأدلة هذه الآلية بشكل مباشر لدى مرضى اضطراب نتف الشعر.
 
-The supporting literature consists mainly of case reports and narrative reviews describing favorable responses to quetiapine in individual patients, plus one report of quetiapine *exacerbating* obsessive-compulsive symptoms in a patient with comorbid trichotillomania — indicating the relationship is not uniformly positive and warrants controlled study before any clinical inference is drawn.
+تتكون الأدبيات الداعمة في الغالب من تقارير حالات وتقييمات سردية تصف استجابات إيجابية لكويتيابين لدى مرضى فراديين، بالإضافة إلى تقرير واحد عن كويتيابين *يفاقم* أعراض الوسواس القهري لدى مريض مصاب بالوسواس القهري واضطراب نتف الشعر واضطراب ثنائي القطب — مما يشير إلى أن العلاقة ليست موحدة إيجابية وتستحق دراسة منضبطة قبل استخلاص أي استنتاج سريري.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## الأدلة الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | Review/Case series | Psychiatry | Overview of trichotillomania pharmacotherapy; case report of a favorable clinical response to quetiapine in a 33-year-old patient |
-| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | Case Report | Rev Bras Psiquiatr | Quetiapine reported as treatment for trichotillomania (abstract not available) |
-| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | Case Report | J Psychiatry Neurosci | Report of quetiapine exacerbating obsessive-compulsive symptoms in a patient with comorbid OCD, trichotillomania, and bipolar disorder — a cautionary counter-example |
-| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Review | Int J Dermatol | Notes lack of consensus/guidelines for trichotillomania pharmacotherapy; calls for better clinician education |
-| [17484394](https://pubmed.ncbi.nlm.nih.gov/17484394/) | 2006 | Review | J Practical Nursing | General treatment overview of trichotillomania |
-| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | Case Report/Review | Psychosomatics | Case report of recurrent Rapunzel syndrome (trichobezoar) secondary to trichotillomania, with literature review |
-| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | Case Report | Case Rep Psychiatry | Trichotillomania presenting as a manifestation of early-onset dementia; not specific to quetiapine treatment |
+| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | تقييم/سلسلة حالات | Psychiatry | نظرة عامة على علاج اضطراب نتف الشعر الدوائي؛ تقرير حالة عن استجابة سريرية إيجابية لكويتيابين في مريض يبلغ من العمر 33 سنة |
+| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | تقرير حالة | Rev Bras Psiquiatr | تم الإبلاغ عن كويتيابين كعلاج لاضطراب نتف الشعر (الملخص غير متوفر) |
+| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | تقرير حالة | J Psychiatry Neurosci | تقرير عن كويتيابين يفاقم أعراض الوسواس القهري لدى مريض مصاب بالوسواس القهري واضطراب نتف الشعر واضطراب ثنائي القطب — مثال توضيحي تحذيري |
+| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | تقييم | Int J Dermatol | يلاحظ نقص الإجماع/الإرشادات لعلاج اضطراب نتف الشعر الدوائي؛ يدعو إلى تعليم أفضل للأطباء السريريين |
+| [17484394](https://pubmed.ncbi.nlm.nih.gov/17484394/) | 2006 | تقييم | J Practical Nursing | نظرة عامة على العلاج العام لاضطراب نتف الشعر |
+| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | تقرير حالة/تقييم | Psychosomatics | تقرير حالة عن متلازمة رابونزيل المتكررة (trichobezoar) الثانوية لاضطراب نتف الشعر، مع استعراض أدبي |
+| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | تقرير حالة | Case Rep Psychiatry | اضطراب نتف الشعر يظهر كتجلي لخرف مبكر البداية؛ غير محدد لعلاج كويتيابين |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Quetiapine currently holds no valid marketing authorization in Saudi Arabia (0 licenses on file; market status: not marketed).
+لا يحمل كويتيابين حالياً أي تفويض تسويق صحيح في المملكة العربية السعودية (0 ترخيص في الملفات؛ حالة السوق: غير مسوق).
 
-## Safety Considerations
+## الاعتبارات المتعلقة بالسلامة
 
-Please refer to the package insert for safety information. (No TFDA warnings, contraindications, or drug-interaction data were retrievable for this compound — flagged as a Blocking-severity data gap.)
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة. (لم يتمكن من استرجاع أي تحذيرات TFDA أو موانع استعمال أو بيانات التفاعلات الدوائية لهذا المركب — تم وضع علامة عليها كفجوة بيانات شديدة الحظر.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-Evidence is limited to case reports and narrative reviews (no clinical trials, evidence level L4), and includes at least one report of symptom exacerbation rather than benefit — the signal is not yet strong or consistent enough to advance. The model's top-ranked candidate (retinal dystrophy) was already excluded as a screening artifact, underscoring the need for careful evidence review before any repurposing decision on this drug.
+**الأساس المنطقي:**
+الأدلة محدودة بتقارير الحالات والتقييمات السردية (لا توجد تجارب سريرية، مستوى الأدلة L4)، وتشمل تقرير واحد على الأقل لتفاقم الأعراض بدلاً من الفائدة — الإشارة ليست قوية أو متسقة بما يكفي للمضي قدماً. تم بالفعل استبعاد أعلى مرشح في نموذج النموذج (الضمور الشبكي) كقطعة عمل فحص، مما يؤكد الحاجة إلى مراجعة دقيقة للأدلة قبل أي قرار إعادة استخدام على هذا الدواء.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action data from DrugBank — currently a High-severity gap
-- At least one controlled (non-case-report) study of quetiapine in trichotillomania before considering progression beyond Hold
-- Drug interaction (DDI) data, currently unavailable
+**للمضي قدماً، يلزم الآتي:**
+- بيانات نشرة TFDA/التنظيمية (التحذيرات، موانع الاستعمال) — حالياً فجوة حظر
+- بيانات آلية العمل المؤكدة من DrugBank — حالياً فجوة عالية الشدة
+- دراسة واحدة على الأقل منضبطة (غير تقرير حالة) لكويتيابين في اضطراب نتف الشعر قبل النظر في التقدم بعد Hold
+- بيانات التفاعلات الدوائية (DDI)، غير متوفرة حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

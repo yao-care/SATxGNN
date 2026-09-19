@@ -29,85 +29,86 @@ indication_count: 10
 
 </div>
 
-# Dobutamine: From Acute Heart Failure to Alopecia
+# دوبوتامين: من قصور القلب الحاد إلى الثعلبة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dobutamine is a synthetic catecholamine and selective β₁-adrenergic receptor agonist, widely used clinically for acute heart failure and cardiogenic shock — though no regulatory records were found in the Saudi Arabia licensing database for this review.
-The TxGNN model predicts it may be effective for **Alopecia**, with **0 clinical trials** and **2 publications** currently retrieved for this indication.
-However, neither publication directly supports dobutamine as a treatment for hair loss; the evidence base is purely model-derived.
+يعتبر دوبوتامين كاتيكولامين صناعي وناهض مستقبلات β₁-الأدرينالية الانتقائي، يستخدم على نطاق واسع سريرياً لمعالجة قصور القلب الحاد والصدمة القلبية — مع ذلك، لم يتم العثور على سجلات تنظيمية في قاعدة بيانات ترخيص المملكة العربية السعودية لهذا الاستعراض.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الثعلبة**، مع **0 تجربة سريرية** و**2 منشور** قيد الاسترجاع حالياً لهذا الاستطباب.
+ومع ذلك، لا يدعم أي من المنشورين بشكل مباشر دوبوتامين كعلاج لتساقط الشعر؛ قاعدة الأدلة مشتقة بالكامل من النموذج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Acute heart failure / cardiogenic shock (established clinical use; no Saudi Arabia regulatory record found) |
-| Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | قصور القلب الحاد / الصدمة القلبية (استخدام سريري راسخ؛ لم يتم العثور على سجل تنظيمي في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | الثعلبة |
+| درجة التنبؤ من نموذج TxGNN | 99.85% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Dobutamine is a synthetic catecholamine that acts primarily as a β₁-adrenergic receptor agonist, increasing cardiac contractility and output. It is used intravenously in acute settings — cardiogenic shock, acute decompensated heart failure, and dobutamine stress echocardiography. Its mechanism of action data was not available in the linked DrugBank record at the time of this review, but its pharmacological class and clinical role are well established.
+دوبوتامين هو كاتيكولامين صناعي يعمل بشكل أساسي كناهض مستقبلات β₁-الأدرينالية، مما يزيد من انقباضية القلب والنتاج القلبي. يُستخدم عن طريق الحقن الوريدي في الحالات الحادة — الصدمة القلبية وقصور القلب الحاد المنفصل وتخطيط صدى القلب بالإجهاد بالدوبوتامين. لم تكن بيانات آلية عمله متاحة في سجل DrugBank المرتبط في وقت هذا الاستعراض، لكن فئته الدوائية ودوره السريري راسخة بشكل جيد.
 
-The KG (Knowledge Graph) prediction path reconstructed from the evidence is: **minoxidil (a hair-loss treatment drug) → cardiovascular side effects → dobutamine (supportive inotropic therapy for those side effects)**. This is an indirect, triangulated graph link — it reflects the fact that minoxidil intoxication can cause heart failure requiring dobutamine support, not that dobutamine itself acts on hair follicles.
+يعكس مسار التنبؤ (KG) المعاد بناؤه من الأدلة: **minoxidil (عقار لعلاج تساقط الشعر) → الآثار الجانبية القلبية الوعائية → دوبوتامين (العلاج الداعم ذو التأثير الإنتروبي لهذه الآثار الجانبية)**. هذا رابط رسم بياني غير مباشر ومثلث — يعكس حقيقة أن التسمم بـ minoxidil يمكن أن يسبب قصور القلب الذي يتطلب دعماً دوبوتامينياً، وليس أن دوبوتامين نفسه يؤثر على بصيلات الشعر.
 
-No direct biological mechanism links β₁-adrenergic stimulation to hair follicle biology. The β-adrenergic system does interact with dermal papilla cells to some degree, but the evidence for β₁ agonism as a driver of hair growth is absent from the literature. The prediction is most likely a graph artifact from disease-node co-clustering rather than a pharmacologically meaningful signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+لا توجد آلية بيولوجية مباشرة تربط تحفيز β₁-الأدرينالي بعلم أحياء بصيلات الشعر. يتفاعل النظام الأدرينالي بيتا بدرجة ما مع خلايا الحليمة الجلدية، لكن الأدلة على أن تحفيز β₁ هو محرك لنمو الشعر غائبة عن الأدبيات. التنبؤ هو على الأرجح شذوذ في الرسم البياني ناتج عن التجميع المشترك لعقدة المرض بدلاً من إشارة دوائية ذات معنى.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [41046802](https://pubmed.ncbi.nlm.nih.gov/41046802/) | 2025 | Case Report (Veterinary) | Journal of Veterinary Cardiology | Cat with minoxidil intoxication-induced congestive heart failure; dobutamine used for hemodynamic support, not for alopecia treatment |
-| [17505274](https://pubmed.ncbi.nlm.nih.gov/17505274/) | 2007 | Case Report | Pediatric Emergency Care | Pediatric colchicine poisoning; hair loss described as a phase-3 recovery symptom, dobutamine not mentioned as a hair treatment |
-
-> ⚠️ **Note:** Neither publication supports dobutamine as a treatment for alopecia. Both were retrieved incidentally due to co-occurrence of hair-related terms and dobutamine in the context of toxicological emergencies.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-No registered products found in the Saudi Arabia licensing database for Dobutamine.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|--------------|
+| [41046802](https://pubmed.ncbi.nlm.nih.gov/41046802/) | 2025 | تقرير حالة (بيطري) | Journal of Veterinary Cardiology | قط يعاني من قصور القلب الاحتقاني الناجم عن التسمم بـ minoxidil؛ استُخدم دوبوتامين للدعم الهيموديناميكي، وليس كعلاج لتساقط الشعر |
+| [17505274](https://pubmed.ncbi.nlm.nih.gov/17505274/) | 2007 | تقرير حالة | Pediatric Emergency Care | التسمم بالكولشيسين في الأطفال؛ تم وصف تساقط الشعر كعرض تعافي في المرحلة الثالثة، لم يتم ذكر دوبوتامين كعلاج للشعر |
 
-> Dobutamine is nonetheless used clinically worldwide as an intravenous inotropic agent, typically dispensed in hospital/ICU settings under generic formulations. The absence of a formal Saudi Arabia license record may reflect that registration was not pursued or that it is supplied via hospital procurement channels without retail registration.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were available in this Evidence Pack.
-
-> ⚠️ **Known clinical context (for reviewer reference):** Dobutamine is a potent cardiovascular agent. Common risks include tachyarrhythmia, hypertension, and increased myocardial oxygen demand. It is contraindicated in hypertrophic obstructive cardiomyopathy and should be used with caution in patients with atrial fibrillation. Detailed package insert review is essential before any repurposing evaluation proceeds.
+> ⚠️ **ملاحظة:** لا أحد من المنشورين يدعم دوبوتامين كعلاج للثعلبة. تم استرجاع كلا المنشورين بشكل عرضي بسبب التعايش بين المصطلحات ذات الصلة بالشعر ودوبوتامين في سياق حالات التسمم الطارئة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+لم يتم العثور على منتجات مسجلة في قاعدة بيانات ترخيص المملكة العربية السعودية لدوبوتامين.
 
-**Rationale:**
-The TxGNN prediction for dobutamine → alopecia is a spurious Knowledge Graph artifact, arising from an indirect path through minoxidil's cardiovascular side effects rather than any direct mechanistic link between dobutamine and hair follicle biology. No clinical trials, no disease-relevant literature, and no pharmacological rationale support this repurposing candidate. Furthermore, the β₁-agonist mechanism of dobutamine is theoretically antagonistic to the vasodilatory mechanism by which minoxidil is thought to promote hair growth.
+> يُستخدم دوبوتامين مع ذلك سريرياً في جميع أنحاء العالم كعامل إنتروبي بالحقن الوريدي، وعادة يتم توفيره في إعدادات المستشفى/وحدة العناية المركزة بموجب صيغ عامة. قد يعكس غياب سجل الترخيص الرسمي في المملكة العربية السعودية أن التسجيل لم يتم السعي إليه أو أنه يتم توفيره عبر قنوات التوريد والمشتريات بالمستشفيات دون تسجيل البيع بالتجزئة.
 
-**To proceed (if further evaluation is desired despite Hold recommendation):**
-- Obtain DrugBank MOA data to confirm absence of any hair follicle receptor interactions
-- Search primary literature for any β-adrenergic agonist effects on dermal papilla or hair cycle regulation
-- Review the full KG edge path in the TxGNN model to confirm and document the indirect minoxidil → dobutamine routing as a model limitation
-- Consider flagging this candidate as a **KG false positive** in the pipeline's triage log, to improve future prediction filtering
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة. لم تتوفر سجلات تحذيرات أو موانع استعمال أو تفاعلات أدوية في هذه مجموعة الأدلة.
+
+> ⚠️ **السياق السريري المعروف (للمراجعة المرجعية):** دوبوتامين هو عامل قلبي وعائي قوي. تشمل المخاطر الشائعة عدم انتظام ضربات القلب السريع وارتفاع ضغط الدم وزيادة الطلب على الأكسجين في عضلة القلب. يُعتبر مضادة للاستطباب في اعتلال عضلة القلب الضخامي الانسدادي وينبغي استخدامه بحذر في المرضى الذين يعانون من الرجفان الأذيني. من الضروري مراجعة شاملة للنشرة الطبية قبل متابعة أي تقييم لإعادة توظيف العقار.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+يعتبر تنبؤ TxGNN بـ دوبوتامين → الثعلبة شذوذاً زائفاً في الرسم البياني للمعرفة، ينشأ من مسار غير مباشر عبر الآثار الجانبية القلبية الوعائية لـ minoxidil بدلاً من أي رابط آلي مباشر بين دوبوتامين وعلم أحياء بصيلات الشعر. لا توجد تجارب سريرية، ولا أدبيات ذات صلة بالمرض، ولا أساس دوائي يدعم هذا المرشح لإعادة التوظيف الدوائي. علاوة على ذلك، فإن آلية ناهض β₁ لدوبوتامين نظرياً معادية لآلية توسيع الأوعية الدموية التي يُعتقد أن minoxidil يعزز من خلالها نمو الشعر.
+
+**للمضي قدماً (إذا كان تقييم إضافي مرغوباً فيه رغم التوصية بالتأجيل):**
+- الحصول على بيانات آلية العمل من DrugBank لتأكيد غياب أي تفاعلات مستقبلات بصيلات الشعر
+- البحث في الأدبيات الأساسية عن أي آثار لناهضات β-الأدرينالية على الحليمة الجلدية أو تنظيم دورة الشعر
+- مراجعة مسار الحافة الكامل في KG ضمن نموذج TxGNN للتأكيد وتوثيق الاتجاه غير المباشر لـ minoxidil → دوبوتامين باعتباره حداً من حدود النموذج
+- النظر في وضع علم على هذا المرشح باعتباره **إيجابياً كاذباً من الرسم البياني للمعرفة** في سجل الفرز الخاص بخط الأنابيب، لتحسين تصفية التنبؤ في المستقبل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

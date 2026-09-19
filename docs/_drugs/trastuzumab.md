@@ -29,112 +29,113 @@ indication_count: 10
 
 </div>
 
-# Trastuzumab: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# تراستوزوماب: من سرطان الثدي الإيجابي HER2 إلى سرطان الثدي الإيجابي بالمستقبلات البروجسترونية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Trastuzumab is a HER2-targeted humanized monoclonal antibody whose established use is in HER2-overexpressing breast cancer.
-> The TxGNN model predicts it may also be effective for **progesterone-receptor (PR) positive breast cancer**,
-> with **36 clinical trials** and **20 publications** currently supporting this direction — though most of this evidence targets HER2-positive/PR-positive co-expressing tumors rather than PR status independent of HER2.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HER2-positive breast cancer *(established use, evident throughout the trial/literature base; Saudi Arabia-specific approved indication text is not available because the drug is not currently marketed there — data gap)* |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> تراستوزوماب هو جسم مضاد أحادي النسيلة إنسانية موجهة ضد HER2 واستخدامه المثبت هو في سرطان الثدي الذي يفرط في التعبير عن HER2.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لسرطان الثدي الإيجابي بالمستقبلات البروجسترونية (PR)،
+> حيث يوجد حالياً **36 تجربة سريرية** و **20 منشورة بحثية** تدعم هذا الاتجاه — على الرغم من أن معظم هذه الأدلة تستهدف الأورام الإيجابية المشتركة HER2/PR بدلاً من حالة PR المستقلة عن HER2.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed formal mechanism-of-action documentation (e.g., DrugBank MOA text) is flagged as a data gap in this evidence pack. However, the underlying pharmacology is well established across the trial and literature evidence itself: trastuzumab is a humanized IgG1 monoclonal antibody directed against the extracellular domain of HER2/ERBB2. It blocks HER2-mediated proliferative signaling and mediates antibody-dependent cellular cytotoxicity (ADCC) against HER2-overexpressing tumor cells.
-
-Progesterone-receptor status is not itself a drug target — PR positivity is a hormone-receptor biomarker that commonly co-occurs with HER2 overexpression in a recognized clinical subgroup ("triple-positive," ER+/PR+/HER2+ breast cancer). As the repurposing rationale for this candidate notes, this prediction largely represents an extension within trastuzumab's existing core indication space (HER2-positive disease) rather than a mechanistically novel repurposing signal: PR positivity is a frequently co-assessed biomarker used to guide combination with endocrine therapy (e.g., aromatase inhibitors, tamoxifen, fulvestrant) alongside anti-HER2 blockade, as seen in trials such as NEOADAPT (letrozole/AI + pertuzumab/trastuzumab) and the WSG-ADAPT/WSG-TP-II program.
-
-Because efficacy depends on HER2 co-expression rather than PR status alone, the mechanistic plausibility is strong specifically for the ER/PR+, HER2+ subgroup, and weaker as a general claim about PR-positive breast cancer irrespective of HER2 status. This distinction should guide any downstream biomarker-stratified protocol design.
+| البيان | المحتوى |
+|------|---------|
+| المؤشر الأصلي | سرطان الثدي الإيجابي HER2 *(استخدام مثبت، واضح في قاعدة التجارب/الأدبيات؛ نص المؤشر المعتمد الخاص بالمملكة العربية السعودية غير متوفر لأن الدواء غير مسوق حالياً هناك — فجوة بيانات)* |
+| المؤشر الجديد المتنبأ به | سرطان الثدي الإيجابي بالمستقبلات البروجسترونية |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L1 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات حماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+توثيق آلية العمل الشامل الرسمي (مثل نص DrugBank MOA) يتم تحديده كفجوة بيانات في هذه مجموعة الأدلة. ومع ذلك، فإن الصيدلة الأساسية راسخة جيداً عبر أدلة التجارب والأدبيات نفسها: تراستوزوماب هو جسم مضاد أحادي النسيلة إنسانية من فئة IgG1 موجه ضد المجال خارج الخلوي لـ HER2/ERBB2. يحجب الإشارات المنتشرة بوساطة HER2 ويتوسط السمية الخلوية المعتمدة على الأجسام المضادة (ADCC) ضد خلايا الورم الإيجابية المفرطة لـ HER2.
+
+حالة المستقبلات البروجسترونية ليست في حد ذاتها هدفاً دوائياً — إيجابية PR هي علامة حيوية لمستقبلات الهرمون توجد بشكل شائع بالتزامن مع فرط التعبير عن HER2 في مجموعة سريرية معترف بها ("ثلاثية الإيجابية"، ER+/PR+/HER2+ سرطان الثدي). كما تلاحظ نسبة إعادة الاستخدام لهذا المرشح، يمثل هذا التنبؤ إلى حد كبير امتداداً ضمن مساحة المؤشر الأساسي الموجودة لتراستوزوماب (مرض HER2 الإيجابي) بدلاً من إشارة إعادة استخدام ميكانيكية جديدة: إيجابية PR هي علامة حيوية يتم تقييمها بشكل متكرر لتوجيه الجمع مع العلاج الهرموني (مثل مثبطات الأروماتاز، تاموكسيفين، فولفيسترانت) جنباً إلى جنب مع حصار مضاد HER2، كما هو موضح في تجارب مثل NEOADAPT (letrozole/AI + pertuzumab/trastuzumab) وبرنامج WSG-ADAPT/WSG-TP-II.
+
+لأن الفعالية تعتمد على التعبير المشترك عن HER2 بدلاً من حالة PR وحدها، فإن الإمكانية الميكانيكية قوية على وجه التحديد للمجموعة الفرعية ER/PR+, HER2+، وأضعف كمطالبة عامة حول سرطان الثدي الإيجابي للـ PR بغض النظر عن حالة HER2. يجب أن يوجه هذا التمييز أي تصميم بروتوكول معني بالعلامات الحيوية في المرحلة اللاحقة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Completed | 517 | Equivalence study of trastuzumab + QL1209 (pertuzumab biosimilar) + docetaxel vs. trastuzumab + pertuzumab + docetaxel in HER2+/ER-PR-negative early/locally advanced breast cancer neoadjuvant treatment. |
-| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Phase 2 | Completed | 33 | Letrozole + trastuzumab in ErbB2-overexpressing, ER and/or PR-positive metastatic breast cancer — direct PR+ population. |
-| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) (NEOADAPT) | Phase 2 | Unknown | 7 | Neoadjuvant aromatase inhibitor + pertuzumab/trastuzumab without chemotherapy in HR+ (ER+/PR+), HER2+ localized breast cancer. |
-| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Completed | 417 | Neoadjuvant Herceptin + docetaxel ± pertuzumab; compared pathological complete response rates across 4 arms in HER2+ breast cancer. |
-| [NCT05905939](https://clinicaltrials.gov/study/NCT05905939) | N/A (retrospective) | Completed | 774 | Real-world multicenter retrospective study of treatment patterns and outcomes in Russian HER2-positive metastatic breast cancer patients on anti-HER2 therapy. |
-| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | Phase 3 | Completed | 3436 | Landmark adjuvant trial: AC followed by weekly paclitaxel with or without trastuzumab in HER2-overexpressing node-positive/high-risk node-negative breast cancer. |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Completed | 3270 | Adjuvant chemotherapy with or without trastuzumab in node-positive/high-risk node-negative HER2-low invasive breast cancer. |
-| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Completed | 652 | Taxane-based chemotherapy plus lapatinib vs. trastuzumab as first-line therapy for HER2-positive metastatic breast cancer. |
-| [NCT01785420](https://clinicaltrials.gov/study/NCT01785420) | Phase 3 | Recruiting | 1100 | Double-blind, placebo-controlled study of short-duration preoperative trastuzumab in HER2-positive operable breast cancer. |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) (IMpassion050) | Phase 3 | Completed | 454 | Atezolizumab vs. placebo combined with neoadjuvant dose-dense AC → paclitaxel + trastuzumab + pertuzumab in early HER2-positive breast cancer. |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | المرحلة 3 | مكتملة | 517 | دراسة التكافؤ لـ تراستوزوماب + QL1209 (biosimilar بيرتوزوماب) + دوسيتاكسل مقابل تراستوزوماب + بيرتوزوماب + دوسيتاكسل في العلاج الجديد لسرطان الثدي المبكر/محلي الانتشار الإيجابي HER2+/ER-PR-. |
+| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | المرحلة 2 | مكتملة | 33 | لتروزول + تراستوزوماب في سرطان الثدي النقيلي الذي يفرط في التعبير عن ErbB2 والإيجابي ER و/أو PR — مجموعة سكان PR+ مباشرة. |
+| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) (NEOADAPT) | المرحلة 2 | غير معروفة | 7 | مثبط أروماتاز ما قبل الجراحة + بيرتوزوماب/تراستوزوماب بدون العلاج الكيميائي في سرطان الثدي المحلي الموجود HR+ (ER+/PR+), HER2+. |
+| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | المرحلة 2 | مكتملة | 417 | Herceptin + دوسيتاكسل ± بيرتوزوماب ما قبل الجراحة؛ مقارنة معدلات الاستجابة الكاملة الموضعية عبر 4 أذرع في سرطان الثدي الإيجابي HER2+. |
+| [NCT05905939](https://clinicaltrials.gov/study/NCT05905939) | N/A (بأثر رجعي) | مكتملة | 774 | دراسة بأثر رجعي متعددة المراكز في العالم الحقيقي لأنماط العلاج والنتائج في مرضى سرطان الثدي النقيلي الإيجابي HER2 الروسيين على العلاج المضاد HER2. |
+| [NCT00005970](https://clinicaltrials.gov/study/NCT00005970) | المرحلة 3 | مكتملة | 3436 | تجربة مساعدة حديثة: AC تتبعها باكليتاكسيل أسبوعي مع أو بدون تراستوزوماب في سرطان الثدي المفرط للتعبير عن HER2 مع عقد إيجابية/عقد سلبية عالية الخطورة. |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | المرحلة 3 | مكتملة | 3270 | العلاج الكيميائي المساعد مع أو بدون تراستوزوماب في سرطان الثدي الغزو ذو HER2 المنخفض الموجب العقدة/عقد سالبة عالية الخطورة. |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | المرحلة 3 | مكتملة | 652 | العلاج الكيميائي القائم على التاكسان بالإضافة إلى لابتينيب مقابل تراستوزوماب كعلاج من الخط الأول لسرطان الثدي النقيلي الإيجابي HER2. |
+| [NCT01785420](https://clinicaltrials.gov/study/NCT01785420) | المرحلة 3 | قيد التجنيد | 1100 | دراسة عمياء مزدوجة محكومة بالعقار الوهمي لفترة قصيرة ما قبل الجراحة من تراستوزوماب في سرطان الثدي الإيجابي HER2 القابل للتشغيل. |
+| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) (IMpassion050) | المرحلة 3 | مكتملة | 454 | أتيزوليزوماب مقابل العقار الوهمي مدمج مع جرعة قبل الجراحة AC → باكليتاكسيل + تراستوزوماب + بيرتوزوماب في سرطان الثدي المبكر الإيجابي HER2. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT (5-yr follow-up) | Lancet Oncology | NeoSphere trial: 5-year PFS, DFS, and safety of neoadjuvant pertuzumab + trastuzumab + docetaxel vs. trastuzumab + docetaxel in HER2+ breast cancer. |
-| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | RCT (Phase 2) | Lancet Oncology | monarcHER trial: abemaciclib + trastuzumab ± fulvestrant vs. standard chemotherapy + trastuzumab in HR+/HER2+ advanced breast cancer. |
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (Phase 3) | Lancet Oncology | ExteNET trial: neratinib after trastuzumab-based adjuvant therapy reduces recurrence in HER2+ early breast cancer. |
-| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Meta-analysis (EBCTCG) | Lancet | Overview of randomized trials assessing chemotherapy/hormonal therapy effects on 15-year recurrence and survival in early breast cancer. |
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT (Phase 2) | JAMA Oncology | WSG-TP-II trial: endocrine therapy + trastuzumab + pertuzumab vs. de-escalated chemotherapy in HR+/HER2+ early breast cancer. |
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | RCT (Phase 2) | Annals of Oncology | WSG-ADAPT HER2+/HR- trial: efficacy/safety of 12-week neoadjuvant trastuzumab + pertuzumab ± paclitaxel de-escalation. |
-| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Translational/Cohort | Theranostics | Multi-omics landscape and trastuzumab responsiveness of ER+/PR+/HER2+ ("triple-positive") breast cancer across 5 cohorts. |
-| [26253814](https://pubmed.ncbi.nlm.nih.gov/26253814/) | 2015 | Review | Breast (Edinburgh) | Clinical implications of intrinsic molecular subtypes (Luminal A/B, HER2-enriched, Basal-like) relevant to biomarker-guided treatment. |
-| [34983437](https://pubmed.ncbi.nlm.nih.gov/34983437/) | 2022 | Retrospective cohort | BMC Cancer | Single-center retrospective study of trastuzumab + fulvestrant in HR+/HER2+ advanced breast cancer. |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | Journal of Clinical Oncology | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer. |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT (متابعة 5 سنوات) | Lancet Oncology | تجربة NeoSphere: مقاييس PFS و DFS والسلامة لمدة 5 سنوات من بيرتوزوماب + تراستوزوماب + دوسيتاكسل ما قبل الجراحة مقابل تراستوزوماب + دوسيتاكسل في سرطان الثدي الإيجابي HER2+. |
+| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | RCT (المرحلة 2) | Lancet Oncology | تجربة monarcHER: ابيماسيكليب + تراستوزوماب ± فولفيسترانت مقابل العلاج الكيميائي القياسي + تراستوزوماب في سرطان الثدي المتقدم HR+/HER2+. |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (المرحلة 3) | Lancet Oncology | تجربة ExteNET: نيراتينيب بعد العلاج المساعد القائم على تراستوزوماب يقلل من الانتكاس في سرطان الثدي المبكر الإيجابي HER2+. |
+| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | تحليل تلوي (EBCTCG) | Lancet | نظرة عامة على التجارب العشوائية تقيم تأثيرات العلاج الكيميائي/العلاج الهرموني على الانتكاس و البقاء على قيد الحياة لمدة 15 سنة في سرطان الثدي المبكر. |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT (المرحلة 2) | JAMA Oncology | تجربة WSG-TP-II: العلاج الهرموني + تراستوزوماب + بيرتوزوماب مقابل العلاج الكيميائي منخفض المستوى في سرطان الثدي المبكر HR+/HER2+. |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | RCT (المرحلة 2) | Annals of Oncology | تجربة WSG-ADAPT HER2+/HR-: الفعالية/السلامة من 12 أسبوع ما قبل الجراحة من تراستوزوماب + بيرتوزوماب ± منخفض الدرجة باكليتاكسيل. |
+| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | ترجمة/الدراسة الاستقصائية | Theranostics | المشهد متعدد الأوميكس والاستجابة لتراستوزوماب من سرطان الثدي ER+/PR+/HER2+ ("ثلاثي الإيجابية") عبر 5 مجموعات سكان. |
+| [26253814](https://pubmed.ncbi.nlm.nih.gov/26253814/) | 2015 | مراجعة | Breast (Edinburgh) | الآثار السريرية للنماذج الفرعية الجزيئية الجوهرية (Luminal A/B، HER2-enriched، Basal-like) ذات الصلة بالعلاج الموجه بالعلامات الحيوية. |
+| [34983437](https://pubmed.ncbi.nlm.nih.gov/34983437/) | 2022 | دراسة استقصائية بأثر رجعي | BMC Cancer | دراسة استقصائية بأثر رجعي في مركز واحد لتراستوزوماب + فولفيسترانت في سرطان الثدي المتقدم HR+/HER2+. |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | مبدأ إرشادي | Journal of Clinical Oncology | تحديث مبدأ ASCO الإرشادي حول العلاج الجهازي لسرطان الثدي المتقدم الإيجابي HER2. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Trastuzumab currently has **0 registered authorizations** and is marked as **Not Marketed** in Saudi Arabia in this evidence pack, so no product/authorization table is available.
-
----
-
-## Cytotoxicity
-
-Trastuzumab is an antineoplastic agent (HER2-targeted monoclonal antibody used across breast cancer indications throughout this evidence pack), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-HER2 humanized monoclonal antibody, not a conventional cytotoxic chemotherapeutic) |
-| Myelosuppression Risk | Low as monotherapy; when combined with a chemotherapy backbone (e.g., docetaxel, paclitaxel), myelosuppression risk follows the chemotherapy partner rather than trastuzumab itself |
-| Emetogenicity Classification | Low as monotherapy; combination-regimen emetogenicity is driven by the co-administered chemotherapy agent |
-| Monitoring Items | Baseline and periodic LVEF/cardiac function (cardiotoxicity is a recognized class effect, reflected in cardiac-safety trials in this evidence base), infusion-related reaction monitoring, CBC and organ function if combined with chemotherapy |
-| Handling Protection | Standard biologic/monoclonal antibody handling precautions and infusion monitoring; does not require conventional cytotoxic (DNA-damaging) drug handling protocols |
+تراستوزوماب حالياً لديه **0 تخويلات مسجلة** وهو مسجل كـ **غير مسوق** في المملكة العربية السعودية في هذه مجموعة الأدلة، لذا لا توجد جدول المنتج/التخويل.
 
 ---
 
-## Safety Considerations
+## السمية الخلوية
 
-Please refer to the package insert for safety information.
+تراستوزوماب هو عامل مضاد للأورام (جسم مضاد أحادي النسيلة موجه ضد HER2 يستخدم عبر مؤشرات سرطان الثدي في جميع أنحاء هذه مجموعة الأدلة)، لذا ينطبق هذا القسم.
+
+| البيان | المحتوى |
+|------|---------|
+| تصنيف السمية الخلوية | العلاج الموجه (جسم مضاد أحادي النسيلة المضاد HER2 الإنساني، وليس علاج كيميائي سام تقليدي للخلايا) |
+| خطر قلة الكريات البيضاء | منخفض كعلاج أحادي؛ عند الجمع مع عمود العلاج الكيميائي (مثل دوسيتاكسل، باكليتاكسيل)، يتبع خطر قلة الكريات البيضاء شريك العلاج الكيميائي بدلاً من تراستوزوماب نفسه |
+| تصنيف الغثيان والقيء | منخفض كعلاج أحادي؛ الغثيان والقيء من النظام المركب يتم تحديده بواسطة عامل العلاج الكيميائي المعطى بالمصاحبة |
+| عناصر المراقبة | وظيفة LVEF/القلب الأساسية والدورية (سمية القلب هي تأثير فئة معترف به، ينعكس في التجارب سلامة القلب في هذه قاعدة الأدلة)، مراقبة رد فعل الحقن بالتسريب، CBC ووظائف الأعضاء إذا تم الجمع مع العلاج الكيميائي |
+| حماية المعالجة | احتياطات التعامل القياسية البيولوجية/أحادية النسيلة والمراقبة بالتسريب؛ لا تتطلب بروتوكولات معالجة الأدوية السامة للخلايا التقليدية (التالفة للحمض النووي) |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملخص خصائص المنتج (Packaqge Insert) للحصول على معلومات السلامة.
 
-**Rationale:**
-- The PR-positive breast cancer prediction is supported by L1-level evidence (36 trials, 20 publications), including multiple completed Phase 3 trastuzumab-based trials, but almost all of this evidence targets the HER2-positive/PR-positive co-expressing subgroup rather than PR status independent of HER2 — this distinction should be reflected in any protocol eligibility criteria. Other TxGNN-predicted indications for trastuzumab in this candidate set (ranks 5–10: e.g., malignant granular cell skin tumor, ectomesenchymoma, HHV-8-related tumor) have no supporting trials or literature (L5) and are correctly scored "Hold."
+---
 
-**To proceed, the following is needed:**
-- Official TFDA/regulatory package insert warnings, contraindications, and drug-drug interaction data (currently flagged as Blocking data gaps)
-- Confirmed drug mechanism-of-action documentation from DrugBank or equivalent source
-- Saudi Arabia market authorization status confirmation, since the drug is currently listed as not marketed
-- Biomarker-stratified analysis confirming whether efficacy signal depends on HER2 co-positivity rather than PR status alone
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات حماية**
+
+**الأساس المنطقي:**
+- يدعم التنبؤ بسرطان الثدي الإيجابي للـ PR بأدلة من مستوى L1 (36 تجربة، 20 منشورة بحثية)، بما في ذلك تجارب تراستوزوماب المتعددة المكتملة من المرحلة 3، لكن تقريباً جميع هذه الأدلة تستهدف المجموعة الفرعية الإيجابية المشتركة HER2/PR بدلاً من حالة PR المستقلة عن HER2 — يجب أن ينعكس هذا التمييز في أي معايير أهلية بروتوكول في المرحلة اللاحقة. التنبؤات TxGNN الأخرى لتراستوزوماب في هذه المجموعة المرشحة (الرتب 5–10: مثل ورم الجلد الحبيبي الخبيث، ectomesenchymoma، ورم مرتبط HHV-8) ليس لديها تجارب أو أدبيات داعمة (L5) وتم تقييمها بشكل صحيح "انتظر".
+
+**للمضي قدماً، ما يلي مطلوب:**
+- تحذيرات الحزمة الرسمية TFDA/التنظيمية، موانع الاستعمال، وبيانات التفاعل الدوائي (حالياً مسجلة كفجوات بيانات حجب)
+- توثيق آلية العمل المؤكد للدواء من DrugBank أو مصدر مكافئ
+- تأكيد حالة تخويل السوق بالمملكة العربية السعودية، منذ الدواء مسجل حالياً كغير مسوق
+- تحليل معني بالعلامات الحيوية يؤكد ما إذا كانت إشارة الفعالية تعتمد على التعبير المشترك HER2 بدلاً من حالة PR وحدها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

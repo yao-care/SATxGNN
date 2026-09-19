@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Agomelatine: From Major Depressive Disorder to Melancholia
+# أجوميلاتين: من الاكتئاب الشديد إلى الميلانخوليا
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Agomelatine (Valdoxan) is a melatonin receptor agonist and 5-HT2C receptor antagonist approved by the EMA for the treatment of major depressive disorder in adults, though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Melancholia** — the most severe, endogenous subtype of depression defined by profound anhedonia and circadian rhythm disruption — the two core targets of agomelatine's dual mechanism.
-With **0 dedicated clinical trials** but **20 publications** supporting this direction, and given EMA approval for MDD (the parent diagnosis), the evidence base is substantial.
+أجوميلاتين (Valdoxan) هو ناهض مستقبلات الميلاتونين وحاجب مستقبلات السيروتونين 5-HT2C المعتمد من قِبل الهيئة الأوروبية للأدوية (EMA) لعلاج الاكتئاب الشديد لدى البالغين، رغم أنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لعلاج **الميلانخوليا** — النوع الأشد والأكثر ذاتية من الاكتئاب والذي يتميز بفقدان المتعة الشامل واضطراب إيقاع الساعة البيولوجية — وهما الهدفان الأساسيان لآلية عمل أجوميلاتين الثنائية.
+مع **صفر تجربة سريرية مكرسة** لكن **20 منشور** يدعمان هذا الاتجاه، وبالنظر إلى الموافقة من EMA لاضطراب الاكتئاب الشديد (التشخيص الأساسي)، فإن قاعدة الأدلة جوهرية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Major Depressive Disorder (MDD) — EMA-approved (Valdoxan); not registered in Saudi Arabia |
-| Predicted New Indication | Melancholia |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | اضطراب الاكتئاب الشديد (MDD) — معتمد من EMA (Valdoxan)؛ غير مسجل في المملكة العربية السعودية |
+| المؤشر الجديد المتنبأ به | الميلانخوليا |
+| درجة تنبؤ TxGNN | 99.88% |
+| مستوى الدليل | L2 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع تدابير وقائية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Agomelatine acts through a uniquely dual mechanism with no monoamine reuptake inhibition. It is a full agonist at melatonin MT1 and MT2 receptors — synchronising the suprachiasmatic nucleus (the brain's master clock) and restoring disrupted sleep architecture — and simultaneously an antagonist at serotonin 5-HT2C receptors, which disinhibits the release of dopamine and noradrenaline in the prefrontal cortex, improving motivational drive and hedonic tone. This places it in a pharmacological class of its own among antidepressants.
+يعمل أجوميلاتين من خلال آلية ثنائية فريدة بدون كبح استرجاع أحاديات الأمين. وهو ناهض كامل لمستقبلات الميلاتونين MT1 و MT2 — مما يزامن النواة فوق الكيسمائية (الساعة الرئيسية للدماغ) ويستعيد بنية النوم المضطربة — وفي نفس الوقت حاجب لمستقبلات السيروتونين 5-HT2C، مما يلغي تثبيط إطلاق الدوبامين والنورإدرينالين في القشرة الدماغية الحديثة، مما يحسن الدافع التحفيزي والنغمة الاستمتاعية. هذا يضعه في فئة دوائية فريدة من نوعها بين مضادات الاكتئاب.
 
-Melancholia (ICD-10: F32.2/F33.3) is defined precisely by the two features that agomelatine targets: profound anhedonia (loss of pleasure, directly addressed by dopaminergic disinhibition) and early morning awakening with diurnal mood variation (the biological hallmark of circadian rhythm disturbance, directly addressed by MT1/MT2 agonism). No other approved antidepressant addresses both of these cardinal symptoms through a single, integrated mechanism.
+الميلانخوليا (ICD-10: F32.2/F33.3) تُعرّف بدقة من خلال السمتين اللتين يستهدفهما أجوميلاتين: فقدان المتعة الشامل (فقدان الاستمتاع، يُعالج مباشرة بواسطة إزالة تثبيط الدوبامين) والاستيقاظ المبكر في الصباح مع تباين المزاج اليومي (العلامة البيولوجية للاضطراب في إيقاع الساعة البيولوجية، يُعالج مباشرة بواسطة ناهضات MT1/MT2). لا يوجد أي مضاد اكتئاب معتمد آخر يعالج كلاً من هذه الأعراض الأساسية من خلال آلية واحدة متكاملة.
 
-Multiple landmark studies — including the Cipriani 2018 *Lancet* network meta-analysis synthesising 522 trials of 21 antidepressants, and the Kishi 2023 *Molecular Psychiatry* systematic review of MDD maintenance trials — confirm agomelatine's efficacy across the MDD spectrum. Melancholia is the most severe endogenous subtype of MDD; the EMA approved agomelatine (Valdoxan 25–50 mg) for MDD in February 2009 on the basis of multiple Phase 3 placebo-controlled RCTs. The TxGNN prediction therefore reflects a mechanistically sound and clinically well-grounded sub-indication extension.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials specifically targeting agomelatine in melancholia are registered. The evidence base derives from Phase 3 RCTs conducted for the MDD indication (EMA approval basis), with melancholia patients included within the broader MDD populations studied.
+تؤكد دراسات عديدة حديثة — بما فيها تحليل شبكة Cipriani 2018 في *Lancet* الذي اصطناع 522 تجربة من 21 مضاد اكتئاب، وتقييم Kishi 2023 المنهجي في *Molecular Psychiatry* لتجارب الصيانة في اضطراب الاكتئاب الشديد — فعالية أجوميلاتين عبر طيف اضطراب الاكتئاب الشديد. الميلانخوليا هي أشد أنواع الاكتئاب الذاتية؛ وافقت هيئة EMA على أجوميلاتين (Valdoxan 25–50 ملغ) لعلاج اضطراب الاكتئاب الشديد في فبراير 2009 على أساس تجارب عشوائية محكومة بالغفل متعددة من المرحلة 3. وبالتالي فإن تنبؤ TxGNN يعكس تمديد مؤشر فرعي سليم آليّاً وقائم على أساس سريري قوي.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً أي تجارب سريرية ذات صلة محددة تستهدف أجوميلاتين في الميلانخوليا. تُشتق قاعدة الأدلة من تجارب المرحلة 3 العشوائية المحكومة بالغفل التي أجريت للمؤشر الأصلي اضطراب الاكتئاب الشديد (أساس الموافقة من EMA)، مع إدراج مرضى الميلانخوليا ضمن مجموعات اضطراب الاكتئاب الشديد الأوسع التي تمت دراستها.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network Meta-Analysis | *Lancet* | Among 21 antidepressants in acute MDD treatment (522 trials, 116,477 participants), agomelatine ranked among the top for both efficacy and acceptability |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematic Review | *Molecular Psychiatry* | Agomelatine demonstrated superior efficacy vs placebo in MDD maintenance phase across enrichment-design double-blind RCTs |
-| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systematic Review | *Lancet* | Comparative physiological side-effect profiling across antidepressants from RCTs; agomelatine distinguished by cardiometabolic neutrality |
-| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systematic Review / Meta-Analysis | *Int J Mol Sci* | Agomelatine effective and safe in MDD patients with comorbid type 2 diabetes, supporting use in medically complex populations |
-| [40129874](https://pubmed.ncbi.nlm.nih.gov/40129874/) | 2025 | Review | *PCN Reports* | Agomelatine identified among agents with promising anti-anhedonic effects alongside vortioxetine and ketamine — directly targeting the cardinal symptom of melancholia |
-| [37424409](https://pubmed.ncbi.nlm.nih.gov/37424409/) | 2023 | Review | *Clin Psychopharmacol Neurosci* | Anhedonia as a core transdiagnostic domain with reward-processing deficits; mechanistically aligns with agomelatine's dopaminergic disinhibition via 5-HT2C blockade |
-| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Review | *Expert Opin Drug Discov* | Preclinical discovery of agomelatine; described as the first antidepressant extending beyond monoaminergic neurotransmission, with circadian resynchronisation as its key differentiator |
-| [34419186](https://pubmed.ncbi.nlm.nih.gov/34419186/) | 2021 | Review | *Lancet Psychiatry* | Circadian rhythm sleep-wake disturbances as a causal pathway in depressive disorders in young people; supports melatonin-based interventions for early intervention |
-| [37960759](https://pubmed.ncbi.nlm.nih.gov/37960759/) | 2023 | Meta-Analysis | *Medicine* | Systematic meta-analysis confirming agomelatine's superior efficacy and safety profile in depressive disorder patients |
-| [23484857](https://pubmed.ncbi.nlm.nih.gov/23484857/) | 2013 | Review | *Expert Opin Investig Drugs* | Agomelatine's dual action on melatonin receptors and circadian system reviewed in the context of MDD subtypes; pineal-SCN nexus central to antidepressant effect |
+| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | تحليل شبكة | *Lancet* | من بين 21 مضاد اكتئاب في العلاج الحاد لاضطراب الاكتئاب الشديد (522 تجربة، 116,477 مشاركاً)، احتل أجوميلاتين مركزاً بين الأفضل من حيث الفعالية والقبول |
+| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | مراجعة منهجية | *Molecular Psychiatry* | أظهر أجوميلاتين فعالية متفوقة مقابل الدواء الوهمي في مرحلة الصيانة من اضطراب الاكتئاب الشديد عبر تجارب عشوائية محكومة بالغفل بتصميم إثراء |
+| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | مراجعة منهجية | *Lancet* | ملف الآثار الجانبية الفيزيولوجية المقارن عبر مضادات الاكتئاب من التجارب العشوائية المحكومة بالغفل؛ أجوميلاتين يتميز بالحيادية القلبية الأيضية |
+| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | مراجعة منهجية / تحليل تلوي | *Int J Mol Sci* | أجوميلاتين فعال وآمن في مرضى اضطراب الاكتئاب الشديد مع مرض السكري من النوع 2 المصاحب، مما يدعم الاستخدام في السكان الطبيين المعقدة |
+| [40129874](https://pubmed.ncbi.nlm.nih.gov/40129874/) | 2025 | مراجعة | *PCN Reports* | تم تحديد أجوميلاتين من بين العوامل الواعدة ذات التأثيرات المضادة للانهدام إلى جانب vortioxetine والكيتامين — استهداف مباشر للأعراض الأساسية للميلانخوليا |
+| [37424409](https://pubmed.ncbi.nlm.nih.gov/37424409/) | 2023 | مراجعة | *Clin Psychopharmacol Neurosci* | فقدان المتعة كمجال عبر تشخيصي أساسي بخلل في معالجة المكافأة؛ متسق آليّاً مع إزالة تثبيط الدوبامين من أجوميلاتين عبر حجب 5-HT2C |
+| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | مراجعة | *Expert Opin Drug Discov* | الاكتشاف قبل السريري لأجوميلاتين؛ وصف بأنه أول مضاد اكتئاب يتجاوز النقل العصبي أحادي الأمين، مع إعادة مزامنة الإيقاع اليومي باعتباره الفارق الرئيسي |
+| [34419186](https://pubmed.ncbi.nlm.nih.gov/34419186/) | 2021 | مراجعة | *Lancet Psychiatry* | اضطرابات دورة النوم واليقظة في الإيقاع اليومي كمسار سببي في الاضطرابات الاكتئابية لدى الشباب؛ يدعم التدخلات القائمة على الميلاتونين للتدخل المبكر |
+| [37960759](https://pubmed.ncbi.nlm.nih.gov/37960759/) | 2023 | تحليل تلوي | *Medicine* | تحليل تلوي منهجي يؤكد فعالية أجوميلاتين المتفوقة وملف الأمان في مرضى الاضطراب الاكتئابي |
+| [23484857](https://pubmed.ncbi.nlm.nih.gov/23484857/) | 2013 | مراجعة | *Expert Opin Investig Drugs* | تمت مراجعة العمل الثنائي لأجوميلاتين على مستقبلات الميلاتونين والنظام الإيقاعي في سياق أنواع الاكتئاب الشديد؛ النقطة المركزية الدبية-SCN مركزية للتأثير المضاد للاكتئاب |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Agomelatine is not currently registered in Saudi Arabia. No SFDA authorisation records were found (total licences: 0). The drug is approved and marketed in the EU (Valdoxan, Servier) and is available in a number of other markets, but has not entered the Saudi Arabia regulatory pathway.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert (EMA SmPC for Valdoxan) for complete safety information. Note that the local SFDA package insert data was not available in the current evidence pack.
+أجوميلاتين غير مسجل حالياً في المملكة العربية السعودية. لم يتم العثور على سجلات ترخيص SFDA (إجمالي التراخيص: 0). الدواء معتمد ومسوق في الاتحاد الأوروبي (Valdoxan، Servier) وهو متاح في عدد من الأسواق الأخرى، لكنه لم يدخل مسار تنظيم المملكة العربية السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى ملصق العبوة (SmPC الأوروبي لـ Valdoxan) للحصول على معلومات السلامة الكاملة. لاحظ أن بيانات ملصق عبوة SFDA المحلي لم تكن متاحة في مجموعة الأدلة الحالية.
 
-**Rationale:**
-Agomelatine's dual mechanism maps directly onto the core pathophysiology of melancholia — circadian rhythm disruption addressed by MT1/MT2 agonism, and anhedonia addressed by dopaminergic disinhibition via 5-HT2C blockade. The drug holds EMA approval for MDD (the parent diagnosis of melancholia) supported by multiple Phase 3 RCTs, and is ranked highly in the most comprehensive antidepressant network meta-analysis to date. The primary barrier is the absence of Saudi Arabia registration rather than a lack of clinical evidence.
+---
 
-**To proceed, the following is needed:**
+## الخلاصة والخطوات التالية
 
-- **Regulatory pathway**: Initiate SFDA registration filing using the EMA dossier as the primary basis; clarify whether Saudi Arabia has an expedited review pathway for EMA-approved drugs
-- **MOA documentation**: Retrieve full DrugBank/EMA SmPC MOA data (currently marked as data gap) to complete the mechanistic analysis for the regulatory submission
-- **Hepatotoxicity monitoring protocol**: Agomelatine carries a well-documented risk of transaminase elevation (a class-specific concern); a liver function monitoring plan (ALT/AST at baseline, 3 weeks, 6 weeks, 12 weeks, then periodically) must be formalised before clinical use
-- **Drug interaction assessment**: Formal DDI profiling for CYP1A2 interactions (agomelatine is a CYP1A2 substrate; co-administration with potent CYP1A2 inhibitors such as fluvoxamine or ciprofloxacin is contraindicated per EMA label) — DDI data was not retrieved in the current evidence pack
-- **Melancholia-specific trial**: Dedicated prospective study in melancholia (using validated melancholia rating instruments such as the CORE or HDRS melancholia subscale) to generate sub-indication specific data beyond the extrapolation from broad MDD trials
+**القرار: المتابعة مع تدابير وقائية**
+
+**الأساس المنطقي:**
+تعكس آلية عمل أجوميلاتين الثنائية بشكل مباشر المرض الفيزيولوجي الأساسي للميلانخوليا — اضطراب إيقاع الساعة البيولوجية يعالجه ناهض MT1/MT2، وفقدان المتعة يعالجه إزالة تثبيط الدوبامين عبر حجب 5-HT2C. يحمل الدواء موافقة من EMA لاضطراب الاكتئاب الشديد (التشخيص الأساسي للميلانخوليا) مدعومة بتجارب عشوائية محكومة بالغفل متعددة من المرحلة 3، وهو مرتبة عالياً في أشمل تحليل شبكة لمضادات الاكتئاب حتى الآن. الحاجز الأساسي هو غياب تسجيل المملكة العربية السعودية وليس نقص الأدلة السريرية.
+
+**لكي يتابع، ما يلي مطلوب:**
+
+- **المسار التنظيمي**: ابدأ تقديم تسجيل SFDA باستخدام ملف EMA كأساس أساسي؛ وضح ما إذا كانت المملكة العربية السعودية لديها مسار مراجعة معجل للأدوية المعتمدة من EMA
+- **توثيق آلية العمل**: استرجع بيانات MOA الكاملة من DrugBank/EMA SmPC (علامة حالياً كفجوة بيانات) لإكمال التحليل الآلي لتقديم التنظيمي
+- **بروتوكول مراقبة السمية الكبدية**: أجوميلاتين يحمل خطراً موثق جيداً برفع ترانساميناز (مصدر قلق خاص بالفئة)؛ يجب إضفاء الطابع الرسمي على خطة مراقبة وظائف الكبد (ALT/AST في الأساس، 3 أسابيع، 6 أسابيع، 12 أسبوعاً، ثم بشكل دوري) قبل الاستخدام السريري
+- **تقييم التفاعلات الدوائية**: ملف تعريف DDI رسمي لتفاعلات CYP1A2 (أجوميلاتين هو ركيزة CYP1A2؛ الإعطاء المشترك مع مثبطات CYP1A2 القوية مثل fluvoxamine أو ciprofloxacin مضاد استطباب وفقاً لملصق EMA) — لم يتم استرجاع بيانات DDI في مجموعة الأدلة الحالية
+- **تجربة محددة للميلانخوليا**: دراسة مستقبلية مكرسة في الميلانخوليا (باستخدام أدوات تصنيف الميلانخوليا المؤكدة مثل CORE أو HDRS melancholia subscale) لتوليد بيانات محددة للمؤشر الفرعي بما يتجاوز الاستقراء من تجارب اضطراب الاكتئاب الشديد الموسعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

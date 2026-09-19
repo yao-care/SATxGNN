@@ -29,75 +29,76 @@ indication_count: 10
 
 </div>
 
-# Etofenamate: From Topical Anti-Inflammatory Use to Spondyloarthropathy, Susceptibility To
+# إتوفيناميت: من الاستخدام الموضعي المضاد للالتهاب إلى التهاب الفقار اللاقحفي والقابلية له
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Etofenamate is a fenamate-class NSAID historically marketed as a topical gel (e.g., Rheumon) for musculoskeletal and rheumatic pain, though this pack contains no confirmed original-indication record. TxGNN's top-ranked prediction, **Spondyloarthropathy, susceptibility to**, scores **99.9997%** but is a genetic-risk label rather than a treatable disease, and is supported by **zero clinical trials and zero publications** — this looks like a knowledge-graph artifact, not a real signal. A secondary candidate, **ankylosing spondylitis** (rank 2), is mechanistically far more plausible and has one relevant PK study, but still no efficacy evidence specific to this drug.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed for Saudi Arabia (drug not marketed there); literature references topical use (Rheumon gel) for musculoskeletal/soft-tissue pain |
-| Predicted New Indication | Spondyloarthropathy, susceptibility to |
-| TxGNN Prediction Score | 99.9997% (global rank 28) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إتوفيناميت هو مسكن ألم من فئة الفيناميت (NSAID)، تم تسويقه تاريخياً كجل موضعي (مثل ريومون) لآلام العضلات والعظام والألم الروماتويدي، رغم أن هذه الحزمة لا تحتوي على سجل مؤكد للاستخدام الأصلي. التنبؤ الأفضل ترتيباً من TxGNN، **التهاب الفقار اللاقحفي والقابلية له**، يحصل على نسبة **99.9997%** لكنه تصنيف خطر وراثي وليس مرضاً قابلاً للعلاج، وهو مدعوم بـ **صفر تجارب سريرية وصفر منشورات علمية** — يبدو أن هذا أثر من أثار الرسم البياني المعرفي وليس إشارة حقيقية. المرشح الثانوي، **التهاب الفقار اللاصق** (الترتيب 2)، أكثر معقولية من الناحية الميكانيكية الحيوية وله دراسة واحدة ذات صلة عن الحرائك الدوائية، لكن لا توجد أيضاً أدلة فعالية محددة لهذا الدواء.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for etofenamate in this pack. Based on known information, etofenamate belongs to the fenamate class of NSAIDs (COX-1/COX-2 inhibition), typically formulated as a topical gel; a cited study (PMID 11455681) describes it as "Rheumon gel" used for low back pain and knee synovitis, indicating an anti-inflammatory/analgesic profile applied to musculoskeletal soft-tissue and joint conditions.
-
-The top-ranked predicted indication, "spondyloarthropathy, susceptibility to," is not a disease state — it is a genetic-risk classification. A drug cannot treat susceptibility itself, so this prediction has no direct clinical operational meaning. The most likely explanation is that the TxGNN knowledge graph conflated this susceptibility node with related inflammatory arthropathy nodes, producing a high but clinically non-actionable score.
-
-By contrast, rank 2 — ankylosing spondylitis, an actual inflammatory spondyloarthropathy — is mechanistically coherent: NSAIDs are established first-line symptomatic therapy for AS as a class effect. The associated literature (PMID 11455681) shows etofenamate reaches detectable concentrations in both serum and synovial fluid after iontophoretic application, supporting adequate joint-tissue penetration. However, this is a pharmacokinetic study, not an efficacy trial, so it cannot substantiate therapeutic benefit in AS.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| الاستخدام الأصلي | غير مؤكد للمملكة العربية السعودية (الدواء غير مسوّق هناك)؛ تشير مراجع الأدبيات إلى الاستخدام الموضعي (جل ريومون) لآلام العضلات والعظام والأنسجة الرخوة |
+| الاستخدام الجديد المتنبأ به | التهاب الفقار اللاقحفي والقابلية له |
+| نسبة التنبؤ من TxGNN | 99.9997% (ترتيب عالمي 28) |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (Not marketed) |
+| عدد التفاويض | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يبدو هذا التنبؤ معقولاً؟
 
-Currently no related literature available for "Spondyloarthropathy, susceptibility to."
+حالياً، بيانات آلية العمل التفصيلية لإتوفيناميت غير متاحة في هذه الحزمة. بناءً على المعلومات المعروفة، ينتمي إتوفيناميت إلى فئة الفيناميت من مسكنات الألم (تثبيط COX-1/COX-2)، وعادة ما يكون موضعياً على شكل جل؛ تصف إحدى الدراسات المستشهد بها (PMID 11455681) استخدام "جل ريومون" لآلام الظهر السفلية والتهاب الغشاء الزليلي في الركبة، مما يشير إلى ملف تعريف مضاد للالتهاب/تسكيني يُطبق على حالات العضلات والعظام والمفاصل.
 
-*(For context only — not applicable to the rank-1 prediction above: rank 2, ankylosing spondylitis, is supported by one PK study, [PMID 11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/), 2001, Arzneimittel-Forschung, showing etofenamate is detectable in serum and synovial fluid after iontophoresis — not an efficacy study.)*
+الاستخدام المتنبأ به الأفضل ترتيباً، "التهاب الفقار اللاقحفي والقابلية له"، ليس حالة مرضية — بل هو تصنيف خطر وراثي. لا يمكن للدواء أن يعالج القابلية بحد ذاتها، لذا هذا التنبؤ لا معنى سريري مباشر له. الشرح الأرجح هو أن رسم TxGNN المعرفي خلط بين عقدة القابلية هذه وعقد أمراض التهاب المفاصل ذات الصلة، مما أنتج نسبة عالية لكن غير صالحة سريرياً.
 
----
-
-## Saudi Arabia Market Information
-
-Etofenamate is not currently marketed in Saudi Arabia; no product authorizations are on record.
+على النقيض من ذلك، الترتيب 2 — التهاب الفقار اللاصق، وهو مرض التهابي حقيقي في الفقار — أكثر اتساقاً من الناحية الميكانيكية الحيوية: مسكنات الألم NSAIDs هي الخط العلاجي الأول المعروف للعلاج الإعراضي لالتهاب الفقار اللاصق كتأثير فئة. تُظهر الأدبيات المرتبطة (PMID 11455681) أن إتوفيناميت يصل إلى تركيزات قابلة للكشف في كل من السيرم والسائل الزليلي بعد التطبيق الأيوني، مما يدعم اختراق أنسجة المفاصل الكافي. ومع ذلك، هذه دراسة حرائك دوائية وليست تجربة فعالية، لذا لا يمكنها إثبات الفائدة العلاجية في التهاب الفقار اللاصق.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة عن "التهاب الفقار اللاقحفي والقابلية له".
 
-**Rationale:**
-The top-ranked prediction targets a genetic susceptibility classification rather than a treatable disease, has zero supporting trials or literature, and lacks a coherent mechanistic pathway — evidence level L5, model prediction only. This candidate should not advance.
+*(لأغراض سياقية فقط — غير قابل للتطبيق على التنبؤ الأول من حيث الترتيب أعلاه: الترتيب 2، التهاب الفقار اللاصق، مدعوم بدراسة حرائك دوائية واحدة، [PMID 11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/)، 2001، Arzneimittel-Forschung، تُظهر أن إتوفيناميت قابل للكشف في السيرم والسائل الزليلي بعد التأين الكهربائي — وليست دراسة فعالية.)*
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or another authoritative source
-- TFDA/manufacturer package insert for safety, warnings, and contraindications
-- If pursuing the drug class more broadly, drug-specific efficacy evidence in an actual inflammatory spondyloarthropathy (e.g., ankylosing spondylitis) rather than the susceptibility-label prediction
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+إتوفيناميت غير مسوّق حالياً في المملكة العربية السعودية؛ لا توجد تفاويض منتج مسجلة.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+يستهدف التنبؤ الأفضل ترتيباً تصنيف قابلية وراثية وليس مرضاً قابلاً للعلاج، ويفتقر إلى تجارب داعمة أو أدبيات، وينقصه مسار ميكانيكي حيوي متناسق — مستوى دليل L5، تنبؤ نموذجي فقط. هذا المرشح لا يجب أن يتقدم.
+
+**لكي نتقدم، فإن ما يلي مطلوب:**
+- بيانات آلية العمل (MOA) المؤكدة من DrugBank أو مصدر موثوق آخر
+- نشرة TFDA/المصنع للسلامة والتحذيرات والموانع
+- إذا تم السعي نحو فئة الدواء بشكل أوسع، دليل فعالية محدد للعقار في مرض التهابي فقار حقيقي فعلي (مثل التهاب الفقار اللاصق) بدلاً من تنبؤ تصنيف القابلية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

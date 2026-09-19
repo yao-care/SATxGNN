@@ -29,79 +29,82 @@ indication_count: 5
 
 </div>
 
-# Dabigatran Etexilate: From Anticoagulation to Sclerosing Cholangitis
+# ديابيجاتران إيتكسيلات: من مضادات التخثر إلى التهاب الأقنية الصفراوية المتصلب
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dabigatran etexilate is an oral direct thrombin inhibitor (DTI) prodrug, approved globally (as Pradaxa) for prevention of stroke in non-valvular atrial fibrillation and treatment/prevention of venous thromboembolism, though it is currently not registered in Taiwan.
-The TxGNN model predicts it may be effective for **Sclerosing Cholangitis** (TxGNN rank #1 among 5 predicted indications), with **0 clinical trials** and **1 tangentially related publication** currently available to support this direction.
-Evidence is limited to model prediction level only, and a **Hold** decision is recommended pending mechanistic and clinical validation.
+ديابيجاتران إيتكسيلات دواء أولي من مثبطات الثرومبين المباشرة (DTI)، معتمد عالمياً (تحت اسم Pradaxa) لمنع السكتة الدماغية في الرجفان الأذيني غير الصمامي وعلاج/منع الخثار الوريدي، رغم عدم تسجيله حالياً في تايوان.
+
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً **لالتهاب الأقنية الصفراوية المتصلب** (ترتيب TxGNN #1 من بين 5 مؤشرات متنبأ بها)، مع **0 تجربة سريرية** و **1 منشور ذو صلة طفيفة** متاح حالياً لدعم هذا المسار.
+
+الأدلة محدودة بمستوى التنبؤ بالنموذج فقط، و**التوقف** هو القرار الموصى به في انتظار التحقق من الآلية البيولوجية والتطبيق السريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Not available in Taiwan regulatory database; globally approved for stroke prevention in atrial fibrillation and VTE treatment/prevention |
-| Predicted New Indication | Sclerosing Cholangitis |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متوفر في قاعدة بيانات التنظيم التايوانية؛ معتمد عالمياً لمنع السكتة الدماغية في الرجفان الأذيني وعلاج/منع الخثار الوريدي |
+| المؤشر الجديد المتنبأ به | التهاب الأقنية الصفراوية المتصلب |
+| درجة التنبؤ من TxGNN | 99.82% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معروض في السوق |
+| عدد التخويلات/الموافقات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacology, dabigatran etexilate is a prodrug converted in vivo to dabigatran — a potent, competitive, and reversible direct inhibitor of thrombin (Factor IIa). Beyond its role in coagulation, thrombin also activates protease-activated receptors (PARs), particularly PAR-1 and PAR-2, which are expressed on hepatic stellate cells and cholangiocytes.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة المرفقة. بناءً على علم الأدوية المثبت، ديابيجاتران إيتكسيلات دواء أولي يتم تحويله داخل الجسم إلى ديابيجاتران - وهو مثبط قوي وتنافسي وعكوس مباشر للثرومبين (العامل IIa). بالإضافة إلى دوره في عملية التخثر، ينشّط الثرومبين أيضاً مستقبلات البروتياز المنشطة (PARs)، خاصة PAR-1 و PAR-2، والتي يتم التعبير عنها على خلايا النجوم الكبدية والخلايا الصفراوية.
 
-The TxGNN prediction for sclerosing cholangitis appears to be grounded in the thrombin–PAR-2–stellate cell fibrosis axis: thrombin signaling through PAR-2 may accelerate collagen deposition and biliary fibrosis, which is the defining pathological feature of primary sclerosing cholangitis (PSC) and secondary sclerosing cholangitis (SSC). By blocking thrombin, dabigatran could theoretically interrupt this pro-fibrotic cascade and slow disease progression.
+يبدو أن التنبؤ من TxGNN بشأن التهاب الأقنية الصفراوية المتصلب مبني على محور الثرومبين-PAR-2-تليف الخلايا النجمية: قد يؤدي تنشيط الثرومبين عبر PAR-2 إلى تسريع ترسب الكولاجين والتليف الصفراوي، وهو السمة المرضية المميزة لالتهاب الأقنية الصفراوية المتصلب الأساسي (PSC) والتهاب الأقنية الصفراوية المتصلب الثانوي (SSC). من خلال منع الثرومبين، يمكن لديابيجاتران من الناحية النظرية أن يقاطع هذه السلسلة المؤيدة للتليف وتباطؤ تطور المرض.
 
-However, this mechanistic link remains entirely hypothetical. No published preclinical or clinical studies have directly investigated dabigatran in any form of sclerosing cholangitis. The only retrieved literature item relates to cilofexor — an FXR agonist being developed for PSC — and was retrieved due to pharmacokinetic DDI methodology rather than any shared mechanism with dabigatran. The TxGNN model likely captured an indirect knowledge-graph path between the DTI class and biliary fibrosis nodes, but biological plausibility at the treatment level is currently unestablished.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+غير أن هذا الارتباط الآلي يبقى افتراضياً بالكامل. لم تجر أي دراسات سابقة سريرية أو بشرية مباشرة تحقيقاً في ديابيجاتران بأي صيغة للعلاج من التهاب الأقنية الصفراوية المتصلب من أي نوع. العنصر الأدبي الوحيد المسترجع يتعلق بـ cilofexor - وهو ناهض FXR الانتقائي قيد التطوير لـ PSC و NASH - وتم استرجاعه بسبب منهجية تفاعل الأدوية الدوائية وليس أي آلية مشتركة مع ديابيجاتران. من المحتمل أن يكون نموذج TxGNN قد التقط مساراً غير مباشر في الرسم البياني للمعرفة بين عقد فئة DTI وعقد التليف الصفراوي، إلا أن المعقولية البيولوجية على مستوى العلاج لم تثبت حتى الآن.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | DDI Pharmacokinetic Study | Clinical Pharmacokinetics | Evaluated cilofexor (a selective FXR agonist under development for PSC and NASH) as a DDI victim and perpetrator via CYP450 and transporter pathways; not directly relevant to dabigatran efficacy in sclerosing cholangitis |
+| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | دراسة تفاعل الأدوية الدوائية | Clinical Pharmacokinetics | قيمت cilofexor (ناهض FXR الانتقائي قيد التطوير لـ PSC و NASH) كمادة ضحية وفاعل في تفاعل الأدوية عبر مسارات CYP450 والناقلات؛ ليست ذات صلة مباشرة بفعالية ديابيجاتران في التهاب الأقنية الصفراوية المتصلب |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Dabigatran etexilate is not currently registered or marketed. No authorization records are available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لم يتم تسجيل ديابيجاتران إيتكسيلات أو تسويقه حالياً في المملكة العربية السعودية. لا توجد سجلات موافقة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-Evidence is limited exclusively to TxGNN model prediction (L5); no clinical trials, no preclinical mechanistic studies, and no direct clinical literature support dabigatran in sclerosing cholangitis. While the thrombin → PAR-2 → biliary fibrosis hypothesis provides a conceptually accessible rationale, it has not been tested in any PSC/SSC model system, and the drug carries known bleeding risk that would require careful benefit–risk assessment in a hepatic disease context.
+---
 
-**To proceed, the following is needed:**
-- Preclinical validation in bile duct ligation or Mdr2-knockout mouse models to test whether DTI treatment reduces biliary fibrosis markers
-- Mechanism of action profile retrieval from DrugBank (DG002) to formally document PAR signaling and off-target interactions
-- Complete safety data acquisition: TFDA package insert warnings and contraindications (DG001) and a DDI assessment against ursodeoxycholic acid, immunosuppressants, and biologics commonly co-prescribed in cholangitis
-- Regulatory pathway assessment — dabigatran is marketed globally as Pradaxa but holds zero Taiwan registrations; market entry feasibility must be evaluated before any indication expansion
-- Clarification on whether the sclerosing cholangitis target is PSC (autoimmune/idiopathic, high unmet need) or SSC (secondary, potentially preventable) — the mechanistic and clinical development pathway differs substantially between the two subtypes
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**المنطق:**
+الأدلة محصورة حصراً في التنبؤ بنموذج TxGNN (L5)؛ لا توجد تجارب سريرية ولا دراسات سابقة سريرية لآلية العمل ولا أدلة أدبية سريرية مباشرة تدعم استخدام ديابيجاتران في التهاب الأقنية الصفراوية المتصلب. بينما توفر فرضية الثرومبين → PAR-2 → تليف الصفراوية منطقاً مفهوماً بسهولة، لم يتم اختبارها في أي نموذج PSC/SSC، والدواء ينطوي على خطر نزف معروف يتطلب تقييماً دقيقاً للفائدة مقابل المخاطر في سياق أمراض الكبد.
+
+**للمتابعة، يلزم ما يلي:**
+- التحقق من صحة سابقة سريرية في نماذج ربط القناة الصفراوية أو الفئران Mdr2-knockout لاختبار ما إذا كان علاج DTI يقلل من علامات تليف الصفراوية
+- استرجاع ملف آلية العمل من DrugBank (DG002) لتوثيق تنشيط PAR والتفاعلات خارج الهدف رسمياً
+- استكمال بيانات السلامة: تحذيرات موانع الاستعمال من ملخص خصائص المنتج TFDA (DG001) وتقييم تفاعل الأدوية مقابل ursodeoxycholic acid والعوامل المثبطة للمناعة والعوامل البيولوجية الموصوفة بشكل شائع في التهاب الأقنية
+- تقييم المسار التنظيمي - يُسوّق ديابيجاتران عالمياً باسم Pradaxa ولكنه لا يحمل أي تسجيلات في تايوان؛ يجب تقييم جدوى الدخول إلى السوق قبل أي توسيع للمؤشرات
+- توضيح ما إذا كان هدف التهاب الأقنية الصفراوية المتصلب هو PSC (مناعي ذاتي/مجهول السبب، احتياجات طبية غير مستوفاة عالية) أو SSC (ثانوي، قد يكون قابلاً للوقاية) - يختلف المسار الآلي وتطوير الدواء السريري بشكل كبير بين النوعين الفرعيين
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

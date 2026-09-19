@@ -29,58 +29,59 @@ indication_count: 4
 
 </div>
 
-# Naproxen: From Pain and Inflammation (NSAID) to Brachydactyly-Syndactyly Syndrome
+# نابروكسين: من الألم والالتهاب (مضاد التهاب غير ستيرويدي) إلى متلازمة قصر الأصابع والالتحام
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Naproxen is a propionic-acid-derivative NSAID; no product-specific original indication text is available in this evidence pack, and it is not currently marketed in Saudi Arabia.
-The TxGNN model's top prediction is **Brachydactyly-Syndactyly Syndrome**, a rare genetic limb-development disorder,
-but this is supported by **0 clinical trials** and **0 publications** — the score is a knowledge-graph output only, with no confirmatory evidence of any kind.
+نابروكسين هو مضاد التهاب غير ستيرويدي مشتق من حمض البروبيونيك؛ لا توجد نصوص أصلية خاصة بالمنتج لمؤشر الاستخدام الأول في هذه حزمة الأدلة، وهو غير مرخص حالياً في المملكة العربية السعودية.
+التنبؤ الأول للنموذج TxGNN هو **متلازمة قصر الأصابع والالتحام**، وهي اضطراب نادر وراثي في نمو الأطراف،
+لكن هذا مدعوم بـ **0 تجارب سريرية** و **0 منشورات** — النقاط هي مخرجات قاعدة معارف فقط، دون أي دليل تأكيدي من أي نوع.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no license records; naproxen is a known NSAID used for pain/inflammation/arthritis) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.35% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| مؤشر الاستخدام الأول | غير موثق في هذه حزمة الأدلة (لا توجد سجلات ترخيص؛ نابروكسين مضاد التهاب غير ستيرويدي معروف يستخدم للألم/الالتهاب/التهاب المفاصل) |
+| مؤشر الاستخدام الجديد المتنبأ به | متلازمة قصر الأصابع والالتحام |
+| درجة التنبؤ TxGNN | 99.35% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مرخص |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for this candidate. Based on known information, naproxen is a propionic acid derivative NSAID that inhibits COX-1/COX-2 to block prostaglandin synthesis, and its efficacy in pain and inflammatory conditions is well established.
+حالياً، بيانات آلية العمل المفصلة غير متاحة لهذه الحالة المرشحة. بناءً على المعلومات المعروفة، نابروكسين هو مضاد التهاب غير ستيرويدي مشتق من حمض البروبيونيك يثبط COX-1/COX-2 لمنع تخليق البروستاجلاندين، وفعاليته في حالات الألم والالتهابات مثبتة بشكل جيد.
 
-However, the evidence pack's own mechanistic assessment for this prediction is explicitly negative: brachydactyly-syndactyly syndrome is a rare skeletal/limb developmental disorder driven by genetic defects, with **no known relationship** to naproxen's anti-inflammatory/prostaglandin-inhibition pathway. The high TxGNN score is noted to likely reflect topological similarity between skeletal/limb-related nodes in the knowledge graph rather than genuine pharmacological plausibility, and no supporting animal or in vitro studies exist.
+ومع ذلك، فإن تقييم آلية العمل الخاص بحزمة الأدلة لهذا التنبؤ سالب بشكل واضح: متلازمة قصر الأصابع والالتحام هي اضطراب نادر في النمو الهيكلي/الأطراف يقوده عيوب وراثية، مع **عدم وجود أي علاقة معروفة** بمسار نابروكسين المضاد للالتهابات/مثبط البروستاجلاندين. تم الإشارة إلى أن درجة TxGNN المرتفعة تعكس على الأرجح التشابه الطوبولوجي بين العقد المتعلقة بالهيكل العظمي/الأطراف في قاعدة المعارف بدلاً من الجدوى الصيدلانية الحقيقية، ولا توجد دراسات حيوانية أو دراسات في المختبر داعمة.
 
-The same pattern holds across all four ranked predictions in this evidence pack (brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, acromesomelic dysplasia Hunter-Thompson type, brachyolmia-amelogenesis imperfecta syndrome) — all are rare genetic developmental syndromes, all lack a credible mechanistic link to NSAID pharmacology, and all are scored L5/S0/Hold.
+ينطبق نفس النمط على جميع التنبؤات الأربعة المرتبة في حزمة الأدلة هذه (متلازمة قصر الأصابع والالتحام، متلازمة الرؤية الناقصة مع الخلل في النمو - تقزم الجذع، الخلل في النمو الأطراف البشري- نوع تومسون، متلازمة قصر العظام وعدم تكون المينا) — جميعها متلازمات نادرة وراثية نمائية، جميعها تفتقر إلى ارتباط آلي معقول بالصيدلة NSAID، وجميعها حاصلة على تقييم L5/S0/توقف.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-This candidate has no clinical trials, no literature, no confirmed mechanism of action, and no market presence in Saudi Arabia. The predicted indication itself is explicitly flagged in the evidence pack as mechanistically implausible (likely a graph-topology artifact rather than a pharmacologically grounded signal), placing it firmly at evidence stage S0/L5.
+**المنطق:**
+هذه الحالة المرشحة ليس لديها تجارب سريرية، ولا أدبيات، ولا آلية عمل مؤكدة، ولا وجود في السوق في المملكة العربية السعودية. المؤشر المتنبأ به نفسه تم الإشارة إليه بوضوح في حزمة الأدلة على أنه غير معقول آلياً (ربما يكون اصطناع طوبولوجيا الرسم البياني بدلاً من إشارة مدعومة صيدلانياً)، مما يضعه بحزم في مرحلة الدليل S0/L5.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data (DG002)
-- Preclinical or mechanistic studies connecting NSAID/prostaglandin pathways to the relevant skeletal-dysplasia gene targets
-- Any real-world or case-level evidence for brachydactyly-syndactyly syndrome (or the other three ranked candidates) before this leaves model-prediction-only status
+**للمتابعة، يلزم الآتي:**
+- نشرة TFDA/SFDA الدوائية (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاسمة (DG001)
+- بيانات آلية العمل المؤكدة (DG002)
+- دراسات ما قبل السريرية أو آليات تربط مسارات NSAID/البروستاجلاندين بأهداف الجينات ذات الصلة بخلل النمو الهيكلي
+- أي دليل من العالم الحقيقي أو على مستوى الحالة لمتلازمة قصر الأصابع والالتحام (أو المرشحين الثلاثة الآخرين) قبل أن يترك هذا حالة التنبؤ بالنموذج فقط
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

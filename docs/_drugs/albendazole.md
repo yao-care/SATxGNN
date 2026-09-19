@@ -29,102 +29,103 @@ indication_count: 3
 
 </div>
 
-# Albendazole: From Helminth Infections to Alveolar Echinococcosis
+# الألبندازول: من الالتهابات الديدية إلى داء الرئية الحويصلية السنخية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Albendazole is a broad-spectrum benzimidazole antiparasitic drug with established global efficacy against a wide range of helminth infections, currently not registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Alveolar Echinococcosis** with a confidence score of 99.97%,
-supported by **5 clinical trials** and **20 publications** — including a completed Phase 2 RCT (n=194) directly testing albendazole in early-stage alveolar echinococcosis — making this the highest-priority repurposing candidate in the current dataset.
+الألبندازول هو دواء مضاد طفيليات من فئة البنزيميدازول ذو الطيف الواسع مع فعالية عالمية مثبتة ضد مجموعة واسعة من الالتهابات الديدية، وغير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **داء الرئية الحويصلية السنخية** بدرجة ثقة قدرها 99.97%،
+مدعوماً بـ **5 تجارب سريرية** و **20 منشور** — بما فيها تجربة عشوائية منضبطة Phase 2 مكتملة (n=194) اختبرت الألبندازول مباشرة في المراحل المبكرة من داء الرئية الحويصلية السنخية — مما يجعل هذا أعلى مرشح لإعادة توظيف الأدوية في مجموعة البيانات الحالية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Helminth infections (broad-spectrum antiparasitic; no Saudi Arabia market authorization on record) |
-| Predicted New Indication | Alveolar Echinococcosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الإشارة الأصلية | الالتهابات الديدية (مضاد طفيليات واسع الطيف؛ لا يوجد تسجيل لتفويض سوق بالمملكة العربية السعودية في السجلات) |
+| الإشارة الجديدة المتنبأ بها | داء الرئية الحويصلية السنخية |
+| درجة التنبؤ TxGNN | 99.97% |
+| مستوى الدليل | L2 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التفاويض | 0 |
+| قرار التوصية | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Albendazole belongs to the benzimidazole class of anthelmintics. It acts by selectively binding to parasite β-tubulin with high affinity — an interaction far more potent than binding to human tubulin — thereby inhibiting microtubule polymerization. This disrupts the parasite's cytoskeletal integrity and blocks GLUT-mediated glucose uptake, leading to progressive glycogen depletion and energy starvation that ultimately paralyzes and kills the worm. The active metabolite, albendazole sulfoxide, is able to penetrate alveolar echinococcal cyst walls, ensuring therapeutic concentrations reach the *Echinococcus multilocularis* metacestode directly.
+ينتمي الألبندازول إلى فئة البنزيميدازول من الأدوية المضادة للديدان. يعمل عن طريق الارتباط الاختياري ببروتين β-tubulin الطفيلي بتقارب عالي جداً — وهو تفاعل أقوى بكثير من الارتباط بـ tubulin البشري — مما يثبط تعدد الأنابيب الدقيقة. هذا يعطل تكامل الهيكل الخلوي للطفيل ويثبط امتصاص الجلوكوز بوساطة GLUT، مما يؤدي إلى استنزاف تدريجي للجليكوجين واستنزاف الطاقة الذي يشل الديدان وينهيها في النهاية. يمكن للمستقلب النشط، سلفوكسيد الألبندازول، أن يخترق جدران كيس الرئية الحويصلية، مما يضمن وصول التركيزات العلاجية إلى *Echinococcus multilocularis* مباشرة.
 
-Alveolar echinococcosis (AE) is caused by the larval stage of *E. multilocularis*, a tapeworm (class Cestoda) that invades the liver with a pseudotumoral, infiltrative growth pattern. Without treatment, AE is nearly universally fatal within 10–15 years. Because *E. multilocularis* shares the same β-tubulin vulnerability as other cestode species, the mechanistic rationale for albendazole's anti-AE activity is well-founded. Albendazole functions as a **parasitostatic** agent in this context — it halts disease progression and suppresses cyst viability but does not achieve complete parasiticidal eradication — which is why surgical resection combined with long-term albendazole chemotherapy remains the standard of care.
+داء الرئية الحويصلية السنخية (AE) يسببها المرحلة اليرقية من *E. multilocularis*، وهي دودة شريطية (فئة Cestoda) تغزو الكبد بنمط نمو شبه ورمي متسلل. بدون العلاج، فإن AE قاتل بشكل شبه عالمي خلال 10-15 سنة. لأن *E. multilocularis* تشارك نفس ضعف β-tubulin مثل الأنواع الشريطية الأخرى، فإن الحجة الآلية لفعالية الألبندازول المضادة لـ AE راسخة جيداً. يعمل الألبندازول كعامل **مثبط للطفيليات** في هذا السياق — فهو يوقف تقدم المرض ويثبط حيوية الكيس لكنه لا يحقق القضاء الطفيلي الكامل — وهذا هو السبب في أن الاستئصال الجراحي المدمج مع العلاج الكيميائي طويل الأمد بالألبندازول يبقى معيار الرعاية.
 
-Critically, the WHO has already listed albendazole as the **first-line continuous chemotherapy for inoperable AE** (administered in 28-day on / 14-day off cycles), and this use is endorsed by the WHO Informal Working Group on Echinococcosis (WHO-IWGE) expert consensus guidelines. This is therefore an **established, guideline-supported use** rather than a speculative repurposing hypothesis. However, since albendazole is not currently marketed in Saudi Arabia, accessing this treatment requires a formal import authorization or compassionate-use pathway — making the TxGNN prediction clinically and regulatorily actionable in this market context.
+بشكل حاسم، أدرجت منظمة الصحة العالمية الألبندازول بالفعل كـ **أول خط علاجي مستمر لـ AE غير القابل للجراحة** (يُعطى بدورات 28 يوماً من الاستخدام تتبعها 14 يوماً من التوقف)، وهذا الاستخدام يؤيده إجماع خبراء مجموعة منظمة الصحة العالمية غير الرسمية حول الرئية الحويصلية (WHO-IWGE). هذا بالتالي **استخدام راسخ مدعوم بالإرشادات** بدلاً من فرضية إعادة توظيف مضاربة. ومع ذلك، نظراً لأن الألبندازول غير مسوق حالياً في المملكة العربية السعودية، فإن الوصول إلى هذا العلاج يتطلب تفويض استيراد رسمي أو مسار استخدام إنساني — مما يجعل التنبؤ TxGNN قابلاً للتطبيق سريرياً وتنظيمياً في سياق السوق هذا.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Completed | 194 | Direct RCT testing albendazole for early-stage AE in an endemic region of Kyrgyzstan (Osh province). Most prior evidence focused on late or inoperable cases; this trial specifically addresses early-stage intervention. Highest-quality direct clinical evidence for this indication to date. |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | N/A | Completed | 50 | Prospective observational cohort (EchinoVISTA) of AE patients on albendazole, evaluating parasite viability markers and imaging-based criteria to guide treatment withdrawal decisions. Supports development of a structured monitoring framework for long-term therapy. |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | N/A | Unknown | 24 | RCT evaluating adjuvant albendazole vs. placebo after pulmonary hydatid cyst (cystic echinococcosis, CE) surgical resection to reduce 6-month recurrence. CE and AE share the same drug mechanism; findings can be indirectly extrapolated to adjuvant AE scenarios. |
-| [NCT05824442](https://clinicaltrials.gov/study/NCT05824442) | N/A | Recruiting | 43 | Evaluation of a new multiplex qPCR diagnostic technique for echinococcosis. Not a treatment efficacy trial; albendazole is mentioned as the standard of care backdrop. No direct contribution to albendazole efficacy assessment. |
-| [NCT07176598](https://clinicaltrials.gov/study/NCT07176598) | N/A | Completed | 1 | Case report of a rare intramuscular (deltoid) hydatid cyst initially misdiagnosed as a synovial cyst. Lowest-grade evidence; useful only for reference in rare extra-hepatic anatomical presentations. |
+| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | مكتملة | 194 | تجربة عشوائية منضبطة مباشرة اختبرت الألبندازول للمراحل المبكرة من AE في منطقة موطورة بقيرغيزستان (إقليم أوش). معظم الأدلة السابقة ركزت على الحالات المتأخرة أو غير القابلة للجراحة؛ تعالج هذه التجربة بشكل خاص التدخل في المرحلة المبكرة. أعلى جودة من الأدلة السريرية المباشرة لهذه الإشارة حتى الآن. |
+| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | N/A | مكتملة | 50 | مجموعة معاينة بروسبكتيفية (EchinoVISTA) لمرضى AE على الألبندازول، تقييم العلامات الحيوية للطفيليات ومعايير قياس التصوير لتوجيه قرارات سحب العلاج. يدعم تطوير إطار عمل منظم للمراقبة على المدى الطويل. |
+| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | N/A | Unknown | 24 | تجربة عشوائية منضبطة تقيّم الألبندازول المساعد مقابل الدواء الوهمي بعد استئصال كيس المشوكة الرئوية الجراحي (تمدد المشوكات الكيسية، CE) لتقليل الانتكاس في 6 أشهر. CE و AE تشاركان نفس آلية الدواء؛ يمكن استقراء النتائج بشكل غير مباشر إلى سيناريوهات AE المساعدة. |
+| [NCT05824442](https://clinicaltrials.gov/study/NCT05824442) | N/A | Recruiting | 43 | تقييم تقنية qPCR المتعددة الجديدة لتشخيص الرئية الحويصلية. ليست تجربة فعالية العلاج؛ يُذكر الألبندازول كمعيار الرعاية. لا إسهام مباشر في تقييم فعالية الألبندازول. |
+| [NCT07176598](https://clinicaltrials.gov/study/NCT07176598) | N/A | مكتملة | 1 | دراسة حالة من كيس مشوكة عضلي نادر (دالتويدي) تم تشخيصه في البداية بشكل خاطئ كـ كيس زليلي. أقل درجة دليل؛ مفيد فقط للمرجعية في عروض تشريحية خارج الكبد النادرة. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|------|---------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Expert Consensus Guidelines | *Acta Tropica* | WHO-IWGE consensus on diagnosis and treatment of cystic and alveolar echinococcosis; formally establishes albendazole as the standard of care for inoperable AE with 28-day on/14-day off cycling regimen. Foundational reference for all clinical practice. |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Review | *Tidsskrift for Den Norske Lægeforening* | Contemporary review of AE epidemiology, diagnosis, and management; highlights the pseudotumoral liver presentation, the role of prolonged albendazole therapy, and emerging risk in previously non-endemic regions, relevant to Saudi Arabia import risk assessment. |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Review | *Clinical Microbiology Reviews* | Comprehensive overview of 21st-century advances in echinococcosis including genetics, diagnostics, and treatment. Discusses albendazole bioavailability limitations, resistance concerns, and emerging alternatives. Widely cited benchmark review. |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Review | *World Journal of Gastroenterology* | Current management of hepatic echinococcosis; emphasizes surgery as the cornerstone with albendazole chemotherapy as adjuvant or sole option when surgical cure is not achievable. Affirms continued dependence on albendazole in 2025. |
-| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Review | *Seminars in Liver Disease* | Focused review of hepatic AE: pathophysiology, staging, and treatment outcomes. Reports that the combination of earlier diagnosis, improved surgery, and prolonged albendazole use has transformed the AE prognosis since the 1990s. |
-| [39311470](https://pubmed.ncbi.nlm.nih.gov/39311470/) | 2024 | Review | *Parasite (Paris)* | Status review of chemotherapy for AE: identifies that benzimidazoles remain the only recommended class but highlights limitations — parasitostatic only, potential hepatotoxicity with prolonged use, and variable bioavailability. Points to unmet need for parasiticidal options. |
-| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Drug Repurposing Review | *Parasitology* | Identifies pyronaridine (an approved antimalarial) via drug repurposing as a promising candidate to supplement or replace albendazole in hard-to-treat AE. Confirms that albendazole is currently the **exclusive** standard pharmacological treatment, underscoring the therapeutic gap. |
-| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Pharmacological Study | *Antimicrobial Agents and Chemotherapy* | Develops and evaluates bioavailability-enhancing albendazole formulations (crystalline dispersion, hydrochloride, and hydroxyethyl sulfonate composites) in a hepatic AE rat model. Addresses low oral bioavailability as a key barrier to optimal therapeutic outcomes. |
-| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Review | *Acta Tropica* | Review of novel treatment options for CE and AE; confirms that no licensed non-surgical alternative to albendazole or mebendazole currently exists, reinforcing the continued clinical necessity of albendazole access. |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Review | *Chinese Journal of Schistosomiasis Control* | Progress summary of albendazole use for AE treatment; documents the parasitostatic mechanism, long-term treatment outcomes, and emerging research on improved dosing strategies and potential combination therapies to overcome treatment failure in >20% of patients. |
+| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | إرشادات الإجماع الخبير | *Acta Tropica* | إجماع WHO-IWGE حول تشخيص وعلاج داء الرئية الحويصلية السنخي والكيسي؛ يؤسس رسمياً الألبندازول كمعيار الرعاية لـ AE غير القابل للجراحة بنظام دورة 28 يوماً من الاستخدام تتبعها 14 يوماً من التوقف. المرجع الأساسي لكل ممارسة سريرية. |
+| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | مراجعة | *Tidsskrift for Den Norske Lægeforening* | مراجعة معاصرة لوبائيات AE والتشخيص والإدارة؛ تسلط الضوء على عرض الكبد شبه الورمي والمتسلل، دور العلاج الكيميائي طويل الأمد بالألبندازول، والمخاطر الناشئة في المناطق غير الموطورة سابقاً، ذات الصلة بتقييم مخاطر الاستيراد بالمملكة العربية السعودية. |
+| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | مراجعة | *Clinical Microbiology Reviews* | لمحة شاملة عن تطورات القرن الحادي والعشرين في داء الرئية الحويصلية بما فيها الوراثيات والتشخيصات والعلاج. يناقش قيود التوافر البيولوجي للألبندازول والمخاوف المتعلقة بالمقاومة والبدائل الناشئة. مراجعة معيارية على نطاق واسع مستشهد بها. |
+| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | مراجعة | *World Journal of Gastroenterology* | إدارة داء الرئية الحويصلية الكبدي الحالية؛ يؤكد الجراحة كحجر الزاوية مع العلاج الكيميائي بالألبندازول كمساعد أو الخيار الوحيد عندما لا يكون العلاج الجراحي الشامل ممكناً. يؤكد الاعتماد المستمر على الألبندازول في 2025. |
+| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | مراجعة | *Seminars in Liver Disease* | مراجعة موجهة لـ AE الكبدي: الفيزيولوجيا المرضية والتصنيف والنتائج العلاجية. يشير إلى أن مزيج التشخيص المبكر والجراحة المحسّنة والاستخدام الطويل الأمد للألبندازول قد حول توقعات AE منذ التسعينيات. |
+| [39311470](https://pubmed.ncbi.nlm.nih.gov/39311470/) | 2024 | مراجعة | *Parasite (Paris)* | مراجعة الحالة للعلاج الكيميائي لـ AE: تحدد أن البنزيميدازولات تبقى الفئة الموصى بها الوحيدة لكن تسلط الضوء على القيود — مثبط للطفيليات فقط، احتمال السمية الكبدية مع الاستخدام الطويل الأمد، والتوافر البيولوجي المتغير. تشير إلى فجوة علاجية غير محققة للخيارات القاتلة للطفيليات. |
+| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | مراجعة إعادة توظيف الدواء | *Parasitology* | تحدد pyronaridine (مضاد ملاريا معتمد) عبر إعادة توظيف الدواء كمرشح واعد لتكميل أو استبدال الألبندازول في AE الصعب العلاج. تؤكد أن الألبندازول هو **الوحيد** معيار العلاج الدوائي حالياً، مما يؤكد الفجوة العلاجية. |
+| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | دراسة صيدلانية | *Antimicrobial Agents and Chemotherapy* | تطوير وتقييم صيغ تعزيز التوافر البيولوجي للألبندازول (تشتت متبلور، هيدروكلوريد، وتركيبات سلفونات هيدروكسيل الإيثيل) في نموذج فئران AE كبدي. يعالج التوافر البيولوجي المنخفض الفموي كحاجز رئيسي للنتائج العلاجية المثلى. |
+| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | مراجعة | *Acta Tropica* | مراجعة للخيارات العلاجية الجديدة لـ CE و AE؛ تؤكد أن لا يوجد بديل غير جراحي مرخص حالياً للألبندازول أو الميبندازول، مما يعزز الضرورة السريرية المستمرة لوصول الألبندازول. |
+| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | مراجعة | *Chinese Journal of Schistosomiasis Control* | ملخص التقدم في استخدام الألبندازول لعلاج AE؛ يوثق آلية مثبط الطفيليات، نتائج العلاج طويل الأمد، والأبحاث الناشئة حول استراتيجيات الجرعات المحسّنة والعلاجات المدمجة المحتملة للتغلب على فشل العلاج في >20% من المرضى. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Albendazole currently has **no registered authorizations with the Saudi Food and Drug Authority (SFDA)**. There are no licensed products available on the Saudi market. Patients in Saudi Arabia who require albendazole therapy for alveolar echinococcosis must access the drug through one of the following pathways:
+الألبندازول حالياً لا يحتوي على أي تفاويض مسجلة لدى هيئة الدواء والغذاء السعودية (SFDA). لا توجد منتجات مرخصة متاحة في سوق المملكة العربية السعودية. يجب على المرضى في المملكة العربية السعودية الذين يحتاجون إلى العلاج بالألبندازول لداء الرئية الحويصلية السنخية الوصول إلى الدواء من خلال أحد المسارات التالية:
 
-- **Compassionate use / named-patient import** from a country where the drug is registered (e.g., United Kingdom, France, United States)
-- **Unlicensed import authorization** via SFDA Special Access Scheme
-- **Procurement through international humanitarian/WHO channels** (albendazole is on the WHO Essential Medicines List)
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Notice:** Formal safety data including specific warnings, contraindications, and drug interaction profiles were not available in the current dataset. Albendazole has an established global safety profile and is a WHO Essential Medicine; however, prolonged high-dose use (as required for AE) carries hepatotoxicity risk. Clinicians should consult the manufacturer's current prescribing information, WHO treatment guidelines, and the WHO-IWGE expert consensus before initiating therapy. Baseline and periodic liver function monitoring is standard practice in AE treatment protocols.
+- **الاستخدام الإنساني / استيراد المريض المسمى** من دولة حيث يكون الدواء مسجلاً (على سبيل المثال، المملكة المتحدة وفرنسا والولايات المتحدة)
+- **تفويض الاستيراد غير المرخص** عبر مخطط SFDA للوصول الخاص
+- **المشتريات عبر القنوات الإنسانية الدولية / منظمة الصحة العالمية** (الألبندازول موجود على قائمة منظمة الصحة العالمية للأدوية الأساسية)
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملصق الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-A completed Phase 2 RCT (NCT07182305, n=194) directly testing albendazole in early-stage alveolar echinococcosis, combined with WHO designation as first-line therapy for inoperable AE, robust mechanistic evidence (selective β-tubulin binding → parasite energy depletion), and broad international guideline support, constitutes L2-level evidence sufficient to support use. The primary barrier in Saudi Arabia is not efficacy or safety uncertainty — both are well-characterized globally — but rather **regulatory access**, since the drug is not currently marketed in the Kingdom.
+> **إشعار:** لم تتوفر بيانات السلامة الرسمية بما فيها التحذيرات المحددة والموانع الاستعمال وملفات تفاعل الأدوية في مجموعة البيانات الحالية. الألبندازول له ملف سلامة عالمي راسخ وهو دواء أساسي من منظمة الصحة العالمية؛ ومع ذلك، الاستخدام المرتفع الجرعة الطويل الأمد (كما هو مطلوب لـ AE) يحمل مخاطر السمية الكبدية. يجب على الأطباء استشارة المعلومات الحالية لوصف الدواء من قبل الشركة المصنعة وإرشادات معاملة منظمة الصحة العالمية وإجماع خبراء WHO-IWGE قبل بدء العلاج. مراقبة وظائف الكبد الأساسية والدورية هي ممارسة قياسية في بروتوكولات علاج AE.
 
-**To proceed, the following is needed:**
+---
 
-- **Regulatory pathway**: Initiate SFDA special access or compassionate use application; identify a registered-country supplier for importation
-- **Safety data package**: Obtain the current manufacturer's package insert to formally document warnings, contraindications, and drug-drug interactions (particularly with CYP enzyme inducers/inhibitors that affect albendazole sulfoxide plasma levels)
-- **Long-term monitoring plan**: Establish a protocol for liver function tests (ALT/AST, total bilirubin), CBC (including differential), and renal function at baseline and at regular intervals throughout extended therapy — AE typically requires months to years of continuous treatment
-- **Multidisciplinary team**: Engage hepatology, infectious disease, and/or parasitology specialists for staging, treatment decision-making, and surgical consultation (R0 resection with adjuvant albendazole offers the best outcome when feasible)
-- **Imaging infrastructure**: Confirm access to MRI/CT (and ideally PET-CT) for baseline staging and treatment response assessment per WHO-IWGE criteria (PNM staging system)
-- **Patient counseling**: Inform patients that albendazole is parasitostatic — not parasiticidal — in AE; indefinite or lifelong therapy may be required in inoperable cases
+## الخاتمة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات**
+
+**المنطق:**
+تجربة عشوائية منضبطة Phase 2 مكتملة (NCT07182305, n=194) اختبرت الألبندازول مباشرة في المراحل المبكرة من داء الرئية الحويصلية السنخية، مدمجة مع تعيين منظمة الصحة العالمية كأول علاج خطي للـ AE غير القابل للجراحة، دليل آلي قوي (الارتباط الاختياري بـ β-tubulin → استنزاف طاقة الطفيل)، وحماية إرشاديات عالمية واسعة، يشكل دليلاً L2 كافياً لدعم الاستخدام. الحاجز الأساسي في المملكة العربية السعودية ليس عدم اليقين من الفعالية أو السلامة — كلاهما معروف جيداً عالمياً — بل **الوصول التنظيمي**، حيث أن الدواء غير مسوق حالياً في المملكة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **مسار تنظيمي**: بدء تطبيق وصول خاص SFDA أو استخدام إنساني؛ تحديد مورد من دولة مسجلة للاستيراد
+- **حزمة بيانات السلامة**: الحصول على ملصق الدواء الحالي من الشركة المصنعة لتوثيق التحذيرات والموانع الاستعمال والتفاعلات الدوائية رسمياً (خاصة مع محرضات / مثبطات CYP التي تؤثر على مستويات plasma سلفوكسيد الألبندازول)
+- **خطة المراقبة طويلة الأمد**: وضع بروتوكول لاختبارات وظائف الكبد (ALT/AST, bilirubin الكلي), CBC (بما فيها الفحص التفريقي)، ووظائف كلوية عند الخط الأساسي وعلى فترات منتظمة طوال العلاج الممتد — يتطلب AE عادة أشهراً إلى سنوات من العلاج المستمر
+- **فريق متعدد التخصصات**: إشراك متخصصين في أمراض الكبد والأمراض المعدية و / أو الطفيليات للتصنيف وصنع القرار العلاجي والاستشارة الجراحية (استئصال R0 مع ألبندازول مساعد يوفر أفضل نتيجة عند كونها ممكنة)
+- **البنية التحتية للتصوير**: تأكيد الوصول إلى MRI / CT (ويفضل PET-CT) للتصنيف الأساسي وتقييم استجابة العلاج وفقاً لمعايير WHO-IWGE (نظام تصنيف PNM)
+- **استشارة المريض**: إبلاغ المرضى بأن الألبندازول هو مثبط للطفيليات — وليس قاتل للطفيليات — في AE؛ قد يكون العلاج غير محدود أو مدى الحياة مطلوباً في الحالات غير القابلة للجراحة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,117 +29,118 @@ indication_count: 10
 
 </div>
 
-# Everolimus: From Renal Cell Carcinoma to Liposarcoma
+# إفيرولايمس: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Everolimus is an mTOR inhibitor originally developed for advanced renal cell carcinoma, pancreatic/GI neuroendocrine tumours, tuberous sclerosis-associated tumours, and prevention of organ transplant rejection. The TxGNN model's top-ranked new signal is **Liposarcoma**, supported by **1 active Phase 2 clinical trial** and **5 publications**, though the drug's overall evidence portfolio is strongest for a different candidate — **unclassified renal cell carcinoma** — which has two completed head-to-head Phase 2 RCTs (see Portfolio Overview below).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in local (Saudi Arabia) regulatory data — drug is not marketed there. Internationally, everolimus is approved for advanced renal cell carcinoma, pancreatic/GI/lung neuroendocrine tumours, tuberous sclerosis-associated SEGA/renal angiomyolipoma, HR+/HER2- breast cancer (with exemestane), and prevention of organ transplant rejection. |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question (Hold pending trial readout) |
+إفيرولايمس هو مثبط mTOR تم تطويره في الأصل لعلاج سرطان الخلايا الكلوية المتقدم وأورام الجهاز العصبي الصماوية البنكرياسية والجهاز الهضمي والرئوية والأورام المرتبطة بالتصلب الحدبي ومنع رفض الأعضاء المزروعة. الإشارة الجديدة ذات الترتيب الأعلى من نموذج TxGNN هي **الساركوما الشحمية**، مدعومة بـ **تجربة سريرية واحدة مرحلة 2 نشطة** و **5 منشورات**، على الرغم من أن محفظة أدلة الدواء الشاملة تكون أقوى لمرشح مختلف — **سرطان الخلايا الكلوية غير المصنف** — الذي يحتوي على تجربتي RCT مرحلة 2 مكتملة ومستقلة (انظر نظرة عامة المحفظة أدناه).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this evidence pack, remediation: query DrugBank API). Based on known pharmacology, everolimus is an mTOR (mammalian target of rapamycin) inhibitor, a class already validated in oncology for tumours driven by PI3K/Akt/mTOR pathway activation.
-
-Dedifferentiated liposarcoma has documented activation of the Akt-mTOR and MAPK pathways, which provides a mechanistic rationale for mTOR-directed therapy. This is consistent with everolimus's known activity in other mTOR-pathway-driven cancers (e.g., renal cell carcinoma, neuroendocrine tumours).
-
-The strongest direct evidence is an ongoing Phase 2 trial combining everolimus with the CDK4/6 inhibitor ribociclib in advanced dedifferentiated liposarcoma and leiomyosarcoma, based on preclinical synergy between CDK4 and mTOR inhibition. However, this trial is single-arm, still active (not yet reporting final efficacy), and evaluates a combination rather than everolimus monotherapy — so the mechanistic rationale is more mature than the direct clinical evidence at this time.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح في البيانات التنظيمية المحلية (المملكة العربية السعودية) — الدواء غير مسوق هناك. على الصعيد الدولي، تم اعتماد إفيرولايمس لعلاج سرطان الخلايا الكلوية المتقدم وأورام الجهاز العصبي الصماوية البنكرياسية والجهاز الهضمي والرئوية والساركوما الدماغية المرتبطة بالتصلب الحدبي والورم الوعائي العضلي الكلوي وسرطان الثدي HR+/HER2- (مع إكسيميستان) ومنع رفض الأعضاء المزروعة. |
+| المؤشر الجديد المتنبأ به | الساركوما الشحمية |
+| درجة تنبؤ TxGNN | 99.88% |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | سؤال بحثي (عقد قيد انتظار نتائج التجربة) |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة (تم وضع علامة عليها كفجوة بيانات عالية الخطورة في هذه مجموعة الأدلة، العلاج: الاستعلام عن DrugBank API). بناءً على الصيدلة المعروفة، إفيرولايمس هو مثبط mTOR (الهدف الثديي للرابامايسين)، وهي فئة تم التحقق من صحتها بالفعل في علم الأورام للأورام التي يسببها تنشيط مسار PI3K/Akt/mTOR.
+
+تحتوي الساركوما الشحمية غير المتمايزة على تنشيط موثق لمسارات Akt-mTOR و MAPK، مما يوفر المنطق الآلي لعلاج موجه إلى mTOR. هذا متسق مع النشاط المعروف لإفيرولايمس في أورام أخرى يسيطر عليها مسار mTOR (مثل سرطان الخلايا الكلوية وأورام الجهاز العصبي الصماوية).
+
+أقوى دليل مباشر هو تجربة مرحلة 2 جارية تجمع بين إفيرولايمس ومثبط CDK4/6 ريبوسيكليب في الساركوما الشحمية غير المتمايزة المتقدمة والساركوما العضلية الملساء، استنادًا إلى التآزر السابق للسريرية بين تثبيط CDK4 و mTOR. غير أن هذه التجربة أحادية الذراع، لا تزال نشطة (لم تُعلن النتائج النهائية بعد)، وتقيّم مزيجًا بدلاً من أحادية إفيرولايمس — لذا فإن المنطق الآلي أكثر نضجًا من الدليل السريري المباشر في الوقت الحالي.
+
+---
+
+## دليل التجربة السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Two-arm study of ribociclib + everolimus in advanced dedifferentiated liposarcoma (Arm A) and leiomyosarcoma (Arm B); evaluates anti-tumour activity of the doublet in patients with ≥1 prior systemic therapy; estimated completion 2025-12, no final results reported yet. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | المرحلة 2 | نشطة، غير قبول تسجيلات جديدة | 48 | دراسة ذات ذراعين من ريبوسيكليب + إفيرولايمس في الساركوما الشحمية غير المتمايزة المتقدمة (الذراع أ) والساركوما العضلية الملساء (الذراع ب)؛ تقيّم النشاط المضاد للأورام من المزيج لدى المرضى الذين لديهم ≥1 علاج جهازي سابق؛ الانتهاء المقدر 2025-12، لم يتم الإبلاغ عن النتائج النهائية حتى الآن. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase 2 trial report | Clinical Cancer Research | Reports on the SAR-096 trial: ribociclib (CDK4/6 inhibitor) + everolimus (mTOR inhibitor) shows synergistic growth inhibition in preclinical tumour models, rationale for the combination in DDL/LMS. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | Review of CDK inhibitor (palbociclib) combination therapies identified via patient-derived orthotopic xenograft (PDOX) sarcoma models. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mechanistic/preclinical | Tumour Biology | Demonstrates activation of the Akt-mTOR and MAPK pathways in dedifferentiated liposarcoma specimens, with in vitro antitumor effects of an mTOR inhibitor. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical (not everolimus-based) | Anticancer Research | Eribulin combined with mechanistically different anticancer agents in liposarcoma xenograft models; everolimus not the study drug. |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Preclinical (not everolimus-based) | Oncogene | XPO1 inhibitor selinexor disrupts transcriptional regulatory circuitry in dedifferentiated liposarcoma; everolimus not the study drug. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | تقرير تجربة المرحلة 2 | Clinical Cancer Research | يُبلّغ عن تجربة SAR-096: ريبوسيكليب (مثبط CDK4/6) + إفيرولايمس (مثبط mTOR) يُظهر تثبيطًا تآزريًا للنمو في نماذج الأورام السابقة للسريرية، والمنطق الداعم للمزيج في الساركوما الشحمية غير المتمايزة والساركوما العضلية الملساء. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | مراجعة | Frontiers in Oncology | مراجعة علاجات مزيج مثبطات CDK (بالبوسيكليب) تم تحديدها عبر نماذج زينوغراف الساركوما المشتقة من المريض في الموقع (PDOX). |
+| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | آلية/سابقة للسريرية | Tumour Biology | يوضح تنشيط مسارات Akt-mTOR و MAPK في العينات الشحمية غير المتمايزة، مع تأثيرات مضادة للأورام في الفحص أنبوبي لمثبط mTOR. |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | سابقة للسريرية (لا تعتمد على إفيرولايمس) | Anticancer Research | إيريبولين مع وكلاء مختلفة ميكانيكيًا في نماذج زينوغراف الساركوما الشحمية؛ إفيرولايمس ليس دواء الدراسة. |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | سابقة للسريرية (لا تعتمد على إفيرولايمس) | Oncogene | مثبط XPO1 سيلينيكسور يعطل دوائر التنظيم النسخي في الساركوما الشحمية غير المتمايزة؛ إفيرولايمس ليس دواء الدراسة. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Everolimus is currently **not marketed** in Saudi Arabia per this evidence pack (0 authorizations on file), so no product/dosage-form table is available.
-
----
-
-## Cytotoxicity
-
-Everolimus is an antineoplastic agent (oncology indications include renal cell carcinoma and neuroendocrine tumours), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+إفيرولايمس غير مسوق حاليًا في المملكة العربية السعودية وفقًا لهذه مجموعة الأدلة (0 تراخيص في الملف)، لذا لا توجد جدول منتج/شكل جرعة متاح.
 
 ---
 
-## Safety Considerations
+## السمية الخلوية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all flagged as data gaps in this evidence pack — TFDA/local package insert retrieval is listed as a **Blocking** gap, DG001.)
+إفيرولايمس هو عامل مضاد للأورام (المؤشرات الورمية تشمل سرطان الخلايا الكلوية وأورام الجهاز العصبي الصماوية)، لذا ينطبق هذا القسم.
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | علاج موجه (مثبط mTOR) — لا يوجد عامل كيماوي سام خلوي تقليدي |
+| خطر قمع نخاع العظم | يرجى الرجوع إلى تحذيرات واحتياطات الوثيقة الإرشادية |
+| تصنيف الغثيان الاستحثائي | يرجى الرجوع إلى تحذيرات واحتياطات الوثيقة الإرشادية |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات الوثيقة الإرشادية |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات واحتياطات الوثيقة الإرشادية |
 
 ---
 
-## Other Candidate Indications (Portfolio Overview)
+## اعتبارات السلامة
 
-This evidence pack scored 10 candidate indications for everolimus. Liposarcoma ranks #1 by TxGNN score, but **unclassified renal cell carcinoma (#9)** has the most mature clinical evidence — two independent, completed, head-to-head Phase 2 RCTs (ESPN, ASPEN) directly testing everolimus — and is the only candidate reaching decision stage S3 / "Proceed with Guardrails."
+يرجى الرجوع إلى الوثيقة الإرشادية للحصول على معلومات السلامة. (يتم وضع علامة على جميع بيانات التحذيرات والموانع وتفاعلات الأدوية كفجوات بيانات في هذه مجموعة الأدلة — يتم إدراج استرجاع الوثيقة الإرشادية TFDA/المحلية كفجوة **حاجزة**، DG001.)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+---
+
+## مؤشرات مرشح أخرى (نظرة عامة المحفظة)
+
+سجلت هذه مجموعة الأدلة 10 مؤشرات مرشح لإفيرولايمس. تحتل الساركوما الشحمية المرتبة الأولى بدرجة TxGNN، لكن **سرطان الخلايا الكلوية غير المصنف (#9)** يمتلك أقوى الأدلة السريرية — تجربتي RCT مرحلة 2 مستقلة ومكتملة (ESPN و ASPEN) تختبران إفيرولايمس مباشرة — وهي الوحيدة بين المؤشرات المرشحة التي تصل إلى مرحلة القرار S3 / "تابع مع الضمانات".
+
+| الترتيب | المرض | درجة TxGNN | مستوى الدليل | مرحلة القرار | التوصية |
 |------|---------|-------------|-----------------|-----------------|-----------------|
-| 1 | Liposarcoma | 99.88% | L2 | S2 | Research Question |
-| 2 | Ovarian myxoid liposarcoma | 99.84% | L5 | S0 | Hold |
-| 3 | Dermatofibrosarcoma protuberans | 99.82% | L5 | S0 | Hold |
-| 4 | Parameningeal embryonal rhabdomyosarcoma | 99.77% | L3 | S1 | Research Question |
-| 5 | Botryoid-type embryonal rhabdomyosarcoma (vagina) | 99.76% | L3 | S1 | Research Question |
-| 6 | Embryonal extrahepatic bile duct rhabdomyosarcoma | 99.75% | L3 | S1 | Research Question |
-| 7 | Rhabdomyosarcoma (disease) | 99.74% | L2 | S2 | Research Question |
-| 8 | Prostate embryonal rhabdomyosarcoma | 99.74% | L3 | S1 | Research Question |
-| **9** | **Unclassified renal cell carcinoma** | **99.72%** | **L2** | **S3** | **Proceed with Guardrails** |
-| 10 | RCC with Xp11.2 translocation/TFE3 fusion | 99.72% | L4 | S1 | Research Question |
+| 1 | الساركوما الشحمية | 99.88% | L2 | S2 | سؤال بحثي |
+| 2 | الساركوما الشحمية المخاطية المبيضية | 99.84% | L5 | S0 | عقد |
+| 3 | الورم الليفي الجلدي الناتئ | 99.82% | L5 | S0 | عقد |
+| 4 | الساركوما الجنينية العضلية جنب السحايا | 99.77% | L3 | S1 | سؤال بحثي |
+| 5 | الساركوما الجنينية العضلية نوع بوتريويد (المهبل) | 99.76% | L3 | S1 | سؤال بحثي |
+| 6 | الساركوما الجنينية العضلية لقناة الصفراء خارج الكبد | 99.75% | L3 | S1 | سؤال بحثي |
+| 7 | الساركوما الجنينية العضلية (المرض) | 99.74% | L2 | S2 | سؤال بحثي |
+| 8 | الساركوما الجنينية العضلية البروستاتية | 99.74% | L3 | S1 | سؤال بحثي |
+| **9** | **سرطان الخلايا الكلوية غير المصنف** | **99.72%** | **L2** | **S3** | **تابع مع الضمانات** |
+| 10 | سرطان الخلايا الكلوية مع ترجمة Xp11.2/اندماج TFE3 | 99.72% | L4 | S1 | سؤال بحثي |
 
-For unclassified RCC, mTOR pathway activation underlies non-clear-cell RCC (especially papillary subtype) tumour biology. ESPN and ASPEN (both Phase 2 RCTs, everolimus vs. sunitinib) generally favoured sunitinib on PFS, so everolimus is best positioned as a guardrailed option for specific pathological subtypes or poor-risk patients rather than a first-line recommendation.
+بالنسبة لسرطان الخلايا الكلوية غير المصنف، يكمن تنشيط مسار mTOR في قاعدة علم أورام سرطان الخلايا الكلوية غير الشفاف (وخاصة النوع الحليمي). فضلت تجارب ESPN و ASPEN (كلاهما RCTs مرحلة 2، إفيرولايمس مقابل سونيتينيب) عمومًا سونيتينيب على البقاء الخالي من التقدم، لذا يتم وضع إفيرولايمس بشكل أفضل كخيار مضمون لأنماط مسارات محددة أو مرضى عالي الخطورة بدلاً من توصية من الخط الأول.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Research Question (Liposarcoma) / Proceed with Guardrails (Unclassified RCC — recommended parallel track)**
+**القرار: سؤال بحثي (الساركوما الشحمية) / تابع مع الضمانات (سرطان الخلايا الكلوية غير المصنف — المسار الموصى به الموازي)**
 
-**Rationale:**
-For the top TxGNN-ranked indication, liposarcoma, the mechanistic rationale (Akt-mTOR pathway activation) is sound but direct clinical evidence is limited to one ongoing, single-arm combination trial with no reported results — insufficient to move beyond a research question at this time. Within the same evidence pack, unclassified renal cell carcinoma has a substantially stronger base (two completed Phase 2 RCTs testing everolimus directly) and already warrants guardrailed consideration.
+**المنطق:**
+بالنسبة للمؤشر الأعلى ترتيبًا من قبل TxGNN، الساركوما الشحمية، يكون المنطق الآلي (تنشيط مسار Akt-mTOR) سليمًا لكن الدليل السريري المباشر محدود لتجربة مزيج واحدة جارية أحادية الذراع بدون نتائج مبلغ عنها — غير كافٍ للمضي قدمًا إلى أبعد من سؤال بحثي في هذا الوقت. ضمن نفس مجموعة الأدلة، يمتلك سرطان الخلايا الكلوية غير المصنف قاعدة أقوى بكثير (تجربتي RCT مرحلة 2 مستقلة ومكتملة تختبران إفيرولايمس مباشرة) وتستحق بالفعل اعتبار مضمون.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert data (Blocking gap — required before any S1 safety assessment)
-- Confirmed mechanism of action detail from DrugBank (High-severity gap)
-- Final results of NCT03114527 (est. completion 2025-12) before advancing the liposarcoma indication
-- If pursuing unclassified RCC: subtype/risk-stratification criteria to define the "guardrails" for use, given sunitinib's generally favourable head-to-head PFS
+**للمضي قدمًا، ما يلي مطلوب:**
+- بيانات الوثيقة الإرشادية TFDA/المحلية (فجوة **حاجزة** — مطلوبة قبل أي تقييم S1 للسلامة)
+- تفصيل آلية العمل المؤكدة من DrugBank (فجوة عالية الخطورة)
+- النتائج النهائية لـ NCT03114527 (الانتهاء المقدر 2025-12) قبل الترقية من مؤشر الساركوما الشحمية
+- إذا كنت تسعى إلى سرطان الخلايا الكلوية غير المصنف: معايير النمط الفرعي/تقسيم المخاطر لتحديد "الضمانات" للاستخدام، نظراً للبقاء الخالي من التقدم الموات عمومًا من سونيتينيب.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,136 +29,137 @@ indication_count: 3
 
 </div>
 
-# Clotrimazole: From Topical Antifungal to Vulvovaginitis
+# كلوتريمازول: من مضاد الفطريات الموضعي إلى التهاب المهبل
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Clotrimazole is a broad-spectrum azole antifungal widely used globally for superficial fungal and yeast infections, including vulvovaginal candidiasis.
-The TxGNN model predicts it may be effective for **Vulvovaginitis** (ranked #2 by score; ranked #1 by actionable evidence), supported by **22 clinical trials** and **20 publications** — making it the most evidence-backed repurposing candidate in this pack.
-A secondary prediction for **Acne** (ranked #1 by TxGNN score) and **Postmenopausal Atrophic Vaginitis** (ranked #3) carry insufficient evidence at this time and are both recommended **Hold**.
+كلوتريمازول هو مضاد فطريات من فئة الأزول واسع الطيف يُستخدم على نطاق واسع عالمياً للعدوى الفطرية والخميرة السطحية، بما في ذلك التهاب المهبل بالمبيضات.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب المهبل** (مرتبة رقم 2 حسب النقاط؛ مرتبة رقم 1 حسب الأدلة القابلة للتطبيق)، مدعوماً بـ **22 تجربة سريرية** و**20 منشوراً** — مما يجعله المرشح الأكثر دعماً بالأدلة لإعادة توظيف الأدوية في هذه المجموعة.
+يحمل التنبؤ الثانوي لـ **حب الشباب** (مرتبة رقم 1 حسب نقاط TxGNN) و**التهاب المهبل الضموري بعد انقطاع الطمث** (مرتبة رقم 3) أدلة غير كافية في الوقت الحالي وكلاهما موصى به بـ **الانتظار**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Topical antifungal (tinea, oropharyngeal candidiasis, vulvovaginal candidiasis — established global use; not yet registered in Saudi Arabia) |
-| Predicted New Indication | Vulvovaginitis (Vulvovaginal Candidiasis) |
-| TxGNN Prediction Score | 99.59% (rank #6790 among all disease–drug pairs) |
-| Evidence Level | L1 (multiple completed Phase 3/4 RCTs) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | مضاد فطريات موضعي (سعفة، داء المبيضات الفموي البلعومي، التهاب المهبل بالمبيضات — استخدام عالمي معروف؛ لم يتم تسجيله بعد في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | التهاب المهبل (التهاب المهبل بالمبيضات) |
+| درجة التنبؤ TxGNN | 99.59% (مرتبة رقم 6790 بين جميع أزواج المرض والعقار) |
+| مستوى الأدلة | L1 (تجارب سريرية عشوائية متحكم بها متعددة في المرحلة 3/4) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات وقائية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Clotrimazole is a synthetic imidazole antifungal that inhibits the fungal enzyme **CYP51A1 (lanosterol 14α-demethylase)**, blocking ergosterol biosynthesis. Without ergosterol, the fungal cell membrane loses structural integrity and becomes permeable, leading to cell death. This mechanism is direct and well-established against *Candida* species — including *C. albicans*, *C. glabrata*, and *C. tropicalis* — which are responsible for the overwhelming majority of vulvovaginal candidiasis (VVC) cases.
+كلوتريمازول هو مضاد فطريات إيميدازول اصطناعي يثبط الإنزيم الفطري **CYP51A1 (لانوستيرول 14α-ديميثيليز)**، مما يحجب تخليق الإرغوسترول. بدون الإرغوسترول، يفقد الغشاء الخلوي الفطري تكامله البنيوي ويصبح نفاذاً، مما يؤدي إلى موت الخلية. هذه الآلية مباشرة وراسخة جيداً ضد أنواع *المبيضات* — بما في ذلك *C. albicans* و*C. glabrata* و*C. tropicalis* — وهي مسؤولة عن الغالبية العظمى من حالات التهاب المهبل بالمبيضات (VVC).
 
-Vulvovaginitis is not a new predicted use in the true sense: vulvovaginal candidiasis accounts for 20–25% of all vulvovaginitis and is one of the most important globally approved indications for clotrimazole. The TxGNN model correctly identifies this mechanistic alignment, and the evidence base (multiple Phase 4 RCTs, a post-marketing study of 1,033 patients, and >20 publications) confirms that this prediction is well-grounded in established pharmacology.
+التهاب المهبل ليس استخداماً جديداً متوقعاً بالمعنى الحقيقي: يمثل التهاب المهبل بالمبيضات 20–25% من جميع حالات التهاب المهبل وهو أحد أهم المؤشرات المعتمدة عالمياً لـ كلوتريمازول. يحدد نموذج TxGNN بشكل صحيح هذا التوافق الآلي، والقاعدة الدليلية (تجارب سريرية عشوائية متحكم بها متعددة في المرحلة 4، ودراسة بعد التسويق لـ 1,033 مريضة، وأكثر من 20 منشوراً) تؤكد أن هذا التنبؤ مستند بقوة إلى الصيدلة الراسخة.
 
-The key repurposing opportunity here is not mechanism discovery but **market authorization**: clotrimazole carries a decades-long global safety record for vulvovaginal candidiasis and is currently absent from the Saudi Arabian (SFDA) market. Registering it would fill an existing therapeutic gap in gynecological fungal infection management.
-
----
-
-## Clinical Trial Evidence
-
-*Primary indication: Vulvovaginitis / Vulvovaginal Candidiasis — top 10 trials by relevance and quality*
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02180828](https://clinicaltrials.gov/study/NCT02180828) | Phase 4 | Completed | 240 | Head-to-head RCT: Clotrimazole vaginal tablet vs Fluconazole oral for severe vulvovaginal candidiasis — core direct efficacy and safety evidence |
-| [NCT03599323](https://clinicaltrials.gov/study/NCT03599323) | N/A | Completed | 1,033 | Post-marketing non-interventional safety study of Empecid L Cream (Clotrimazole 1%) in vaginal yeast infection under pharmacist guidance; large real-world safety dataset |
-| [NCT00755053](https://clinicaltrials.gov/study/NCT00755053) | Phase 3 | Completed | 466 | Investigator-blinded active-controlled study: Clotrimazole ovule 500 mg vs Clotrimazole vaginal tablet 500 mg; demonstrated non-inferiority of new formulation |
-| [NCT00313131](https://clinicaltrials.gov/study/NCT00313131) | Phase 3 | Completed | 1,524 | Large RCT in West Africa comparing single-dose tinidazole + fluconazole vs metronidazole + vaginal clotrimazole (3 days) for syndromic vaginal discharge management |
-| [NCT03562156](https://clinicaltrials.gov/study/NCT03562156) | Phase 3 | Completed | 438 | Double-blind, placebo-controlled Phase 3 evaluating oteseconazole for recurrent VVC; large-scale, rigorous design confirming the burden of RVVC and standard of care context |
-| [NCT04699240](https://clinicaltrials.gov/study/NCT04699240) | Phase 4 | Completed | 140 | RCT: Clotrimazole vaginal tablets ± oral Lactobacillus for prevention of recurrent VVC; Clotrimazole used as active comparator/backbone treatment |
-| [NCT02242695](https://clinicaltrials.gov/study/NCT02242695) | Phase 4 | Completed | 150 | Head-to-head: 10 mg dequalinium chloride vs 100 mg clotrimazole vaginal tablet in VVC; evaluated clinical efficacy, safety, and patient satisfaction |
-| [NCT06835361](https://clinicaltrials.gov/study/NCT06835361) | Phase 2/3 | Recruiting | 264 | International open-label RCT comparing Clotrimazole + Lactulose vaginal suppositories vs Clotrimazole monotherapy (Canesten®) in candidal vulvovaginitis |
-| [NCT01230814](https://clinicaltrials.gov/study/NCT01230814) | Phase 2 | Completed | 234 | Double-blind RCT of monthly metronidazole + miconazole suppositories vs placebo for preventing recurrent VVC; same-class comparator context |
-| [NCT04292704](https://clinicaltrials.gov/study/NCT04292704) | N/A | Unknown | 205 | Protocol for RCT of fractional CO2 laser as consolidation treatment in recurrent VVC; antifungal treatment (including azoles) serves as standard backbone |
+فرصة إعادة التوظيف الرئيسية هنا ليست اكتشاف آلية بل **التفويض السوقي**: يتمتع كلوتريمازول بسجل سلامة عالمي طويل الأمد لالتهاب المهبل بالمبيضات وهو غائب حالياً عن السوق السعودي (SFDA). سيملأ تسجيله فجوة علاجية موجودة في إدارة العدوى الفطرية النسائية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-*Top 10 publications by study type priority — RCT first, then reviews, then mechanistic*
+*المؤشر الأساسي: التهاب المهبل / التهاب المهبل بالمبيضات — أفضل 10 تجارب حسب الصلة والجودة*
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [2644595](https://pubmed.ncbi.nlm.nih.gov/2644595/) | 1989 | RCT | Obstetrics and Gynecology | Prospective double-blind RCT (n=42): Clotrimazole 500 mg vaginal suppositories once weekly × 2 weeks achieved 90.4% clinical remission in recurrent VVC; monthly prophylaxis thereafter significantly reduced recurrence |
-| [3895960](https://pubmed.ncbi.nlm.nih.gov/3895960/) | 1985 | RCT | Am J Obstet Gynecol | Open randomized study (n=199): single vaginal tablet 500 mg vs 6-day 100 mg clotrimazole in candidal vulvovaginitis; both regimens achieved equivalent mycologic cure rates |
-| [39824974](https://pubmed.ncbi.nlm.nih.gov/39824974/) | 2025 | RCT | Scientific Reports | Triple-blinded equivalence RCT (n=126): Mycozin vs Clotrimazole 1% cream for vaginal candidiasis; confirmed clotrimazole as effective standard comparator for symptom relief |
-| [41765149](https://pubmed.ncbi.nlm.nih.gov/41765149/) | 2026 | RCT | Complementary Therapies in Medicine | RCT comparing Prangos ferulacea vaginal cream vs clotrimazole for VVC; clotrimazole arm demonstrated robust clinical and laboratory cure — used as active gold-standard comparator |
-| [30565745](https://pubmed.ncbi.nlm.nih.gov/30565745/) | 2019 | RCT | Mycoses | Randomised trial in recurrent VVC: probiotics + lactoferrin vs maintenance clotrimazole; supports clotrimazole's role as maintenance therapy standard in RVVC management |
-| [24863842](https://pubmed.ncbi.nlm.nih.gov/24863842/) | 2014 | Review | J Applied Microbiology | Comprehensive review: "Clotrimazole as a pharmaceutical — past, present and future." Covers antifungal mechanism (ergosterol pathway), established indications (tinea, VVC, oropharyngeal candidiasis), and emerging pharmacological targets (IK1 potassium channel) |
-| [39362128](https://pubmed.ncbi.nlm.nih.gov/39362128/) | 2024 | Meta-analysis | Eur J Obstet Gynecol Reprod Biol | Bayesian network meta-analysis of pharmacological maintenance therapy for RVVC; synthesizes evidence for oral/topical agents including clotrimazole at 24- and 48-week endpoints |
-| [39419780](https://pubmed.ncbi.nlm.nih.gov/39419780/) | 2024 | Cohort/Mechanistic | J Applied Microbiology | Prospective study: clotrimazole treatment of VVC shifts vaginal bacteriome and lipid metabolism; mechanistic insight into how clotrimazole restores vaginal microecological balance |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Women's Health | Review of boric acid for recurrent VVC (resistant to azoles including clotrimazole); contextualizes non-albicans Candida resistance as a gap where clotrimazole alone may be insufficient |
-| [7482105](https://pubmed.ncbi.nlm.nih.gov/7482105/) | 1995 | Clinical Trial | Sexually Transmitted Diseases | Comparative study: fluconazole vs clotrimazole for VVC; addresses compliance advantage of oral route, while confirming comparable antifungal efficacy of topical clotrimazole |
-
----
-
-## Saudi Arabia Market Information
-
-Clotrimazole is currently **not registered** with the Saudi Food and Drug Authority (SFDA). No licenses or approved products are on record.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | Not applicable | — | No registered products in Saudi Arabia |
-
-> **Note:** Clotrimazole holds regulatory approvals in over 100 countries, including multiple formulations (vaginal tablets, creams, ovules, topical cream) for vulvovaginal candidiasis and dermatophyte infections. The absence of SFDA registration represents a market gap rather than a safety or efficacy concern.
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
+|-------------|--------|--------|-------------|-----------------|
+| [NCT02180828](https://clinicaltrials.gov/study/NCT02180828) | Phase 4 | Completed | 240 | تجربة عشوائية متحكم بها مقارنة مباشرة: قرص كلوتريمازول المهبلي مقابل فلوكونازول عن طريق الفم لالتهاب المهبل بالمبيضات الشديد — دليل الفعالية والسلامة المباشر الأساسي |
+| [NCT03599323](https://clinicaltrials.gov/study/NCT03599323) | N/A | Completed | 1,033 | دراسة سلامة غير تدخلية بعد التسويق لكريم إمبسيد إل (كلوتريمازول 1%) في عدوى الخميرة المهبلية تحت إشراف الصيدلاني؛ مجموعة بيانات سلامة حقيقية كبيرة |
+| [NCT00755053](https://clinicaltrials.gov/study/NCT00755053) | Phase 3 | Completed | 466 | دراسة مراقب معمى للباحث مقارنة نشطة: قرص كلوتريمازول المهبلي 500 ملغ مقابل كلوتريمازول المهبلي 500 ملغ؛ أثبتت عدم الدنوية لصيغة جديدة |
+| [NCT00313131](https://clinicaltrials.gov/study/NCT00313131) | Phase 3 | Completed | 1,524 | تجربة عشوائية متحكم بها كبيرة في غرب إفريقيا تقارن تينيدازول جرعة واحدة + فلوكونازول مقابل ميترونيدازول + كلوتريمازول مهبلي (3 أيام) لإدارة الإفرازات المهبلية بدون أعراض |
+| [NCT03562156](https://clinicaltrials.gov/study/NCT03562156) | Phase 3 | Completed | 438 | مضاعف التعمية، مقارنة بالعلاج الوهمي المرحلة 3 تقيم أوتيسيكونازول للمبيضات المتكررة؛ تصميم صارم واسع النطاق يؤكد عبء VVC المتكرر وسياق معيار الرعاية |
+| [NCT04699240](https://clinicaltrials.gov/study/NCT04699240) | Phase 4 | Completed | 140 | تجربة عشوائية متحكم بها: أقراص كلوتريمازول المهبلية ± اللاكتوباسيلس الفموي للوقاية من التهاب المهبل بالمبيضات المتكرر؛ استخدم كلوتريمازول كمقارن نشط/علاج العمود الفقري |
+| [NCT02242695](https://clinicaltrials.gov/study/NCT02242695) | Phase 4 | Completed | 150 | مقارنة مباشرة: ديكوالينيوم كلوريد 10 ملغ مقابل قرص كلوتريمازول المهبلي 100 ملغ في التهاب المهبل بالمبيضات؛ قيمت الفعالية السريرية والسلامة ورضا المريض |
+| [NCT06835361](https://clinicaltrials.gov/study/NCT06835361) | Phase 2/3 | Recruiting | 264 | تجربة دولية مفتوحة عشوائية متحكم بها تقارن فترات كلوتريمازول + لاكتيولوز المهبلية مقابل أحادية العلاج بـ كلوتريمازول (كانيستين®) في التهاب المهبل الفطري |
+| [NCT01230814](https://clinicaltrials.gov/study/NCT01230814) | Phase 2 | Completed | 234 | تجربة عشوائية متحكم بها مضاعفة التعمية لتحاميل ميترونيدازول شهرياً + ميكونازول مقابل العلاج الوهمي للوقاية من التهاب المهبل بالمبيضات المتكرر؛ سياق المقارن من نفس الفئة |
+| [NCT04292704](https://clinicaltrials.gov/study/NCT04292704) | N/A | Unknown | 205 | بروتوكول لتجربة عشوائية متحكم بها لليزر CO2 الكسري كعلاج توطيدي في التهاب المهبل بالمبيضات المتكرر؛ يخدم العلاج المضاد للفطريات (بما في ذلك الأزول) كعمود فقري معياري |
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Detailed package insert data (warnings, contraindications) was not available through the data sources queried for this Evidence Pack. Please refer to the package insert for full safety information.
+*أفضل 10 منشورات حسب أولوية نوع الدراسة — التجربة العشوائية أولاً، ثم الاستعراضات، ثم الدراسات الآلية*
 
-> **Known drug class context (from published literature):** Clotrimazole is a topically applied agent with minimal systemic absorption, contributing to its favorable safety profile. The Empecid L post-marketing study (n=1,033; NCT03599323) confirmed no unexpected safety signals in real-world community use. Azole-class resistance in non-*albicans Candida* species (e.g., *C. glabrata*) is an acknowledged clinical limitation.
-
----
-
-## Additional TxGNN Predictions — Supporting Information
-
-### Prediction #1 (TxGNN Rank): Acne — **Hold**
-
-| Item | Detail |
-|------|--------|
-| TxGNN Score | 99.86% |
-| Evidence Level | L4 (preclinical/mechanistic only) |
-| Clinical Trials | 1 (SUSPENDED, combination product, no usable data) |
-| Literature | 0 publications identified |
-| Mechanistic Link | Indirect: Clotrimazole may suppress *Malassezia furfur* (a comorbid pathogen in some acne presentations) and has minor anti-inflammatory activity via IK1 potassium channel blockade. However, the primary drivers of acne (*P. acnes* infection, sebaceous gland obstruction, androgens) are outside Clotrimazole's pharmacological target range. |
-
-### Prediction #3 (TxGNN Rank): Postmenopausal Atrophic Vaginitis — **Hold**
-
-| Item | Detail |
-|------|--------|
-| TxGNN Score | 99.46% |
-| Evidence Level | L5 (model prediction only) |
-| Clinical Trials | 1 (UNKNOWN status, unrelated CO2 laser study) |
-| Literature | 0 publications identified |
-| Mechanistic Link | Very weak: Postmenopausal atrophic vaginitis (GSM) is driven by estrogen deficiency, not fungal overgrowth. Clotrimazole cannot address the root cause. High TxGNN score likely reflects disease feature overlap with vulvovaginitis. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [2644595](https://pubmed.ncbi.nlm.nih.gov/2644595/) | 1989 | تجربة عشوائية | Obstetrics and Gynecology | تجربة عشوائية مراقبة مضاعفة التعمية (ن=42): تحاميل كلوتريمازول المهبلية 500 ملغ مرة واحدة أسبوعياً × أسبوعين حققت 90.4% هجوع سريري للمبيضات المتكررة؛ أدى العلاج الوقائي الشهري اللاحق إلى تقليل كبير في الانتكاس |
+| [3895960](https://pubmed.ncbi.nlm.nih.gov/3895960/) | 1985 | تجربة عشوائية | Am J Obstet Gynecol | دراسة عشوائية مفتوحة (ن=199): قرص مهبلي واحد 500 ملغ مقابل كلوتريمازول 100 ملغ × 6 أيام في التهاب المهبل الفطري؛ حققت كلا النظاميين معدلات شفاء فطرية متكافئة |
+| [39824974](https://pubmed.ncbi.nlm.nih.gov/39824974/) | 2025 | تجربة عشوائية | Scientific Reports | تجربة عشوائية متحكم بها متكافئة ثلاثية التعمية (ن=126): Mycozin مقابل كريم كلوتريمازول 1% للمبيضات المهبلية؛ أكدت كلوتريمازول كمقارن معياري فعال لتخفيف الأعراض |
+| [41765149](https://pubmed.ncbi.nlm.nih.gov/41765149/) | 2026 | تجربة عشوائية | Complementary Therapies in Medicine | تجربة عشوائية متحكم بها تقارن كريم Prangos ferulacea المهبلي مقابل كلوتريمازول للمبيضات المهبلية؛ أثبت ذراع كلوتريمازول شفاء سريري وآلي قوي — استخدم كمقارن نشط معياري ذهبي |
+| [30565745](https://pubmed.ncbi.nlm.nih.gov/30565745/) | 2019 | تجربة عشوائية | Mycoses | تجربة عشوائية في التهاب المهبل بالمبيضات المتكرر: بروبيوتيك + لاكتوفيرين مقابل كلوتريمازول الصيانة؛ يدعم دور كلوتريمازول كمعيار عناية صيانة في إدارة VVC المتكررة |
+| [24863842](https://pubmed.ncbi.nlm.nih.gov/24863842/) | 2014 | استعراض | J Applied Microbiology | استعراض شامل: "كلوتريمازول كعامل صيدلاني — الماضي والحاضر والمستقبل". يغطي آلية مضادة للفطريات (مسار الإرغوسترول)، المؤشرات الراسخة (السعفة، التهاب المهبل بالمبيضات، داء المبيضات الفموي البلعومي)، والأهداف الصيدلانية الناشئة (حجب قناة البوتاسيوم IK1) |
+| [39362128](https://pubmed.ncbi.nlm.nih.gov/39362128/) | 2024 | تحليل تلوي | Eur J Obstet Gynecol Reprod Biol | تحليل تلوي بايزياني لعلاج الصيانة الدوائي للمبيضات المتكررة؛ يُجمع الأدلة للعوامل الفموية/الموضعية بما في ذلك كلوتريمازول عند نقاط نهاية 24 و48 أسبوع |
+| [39419780](https://pubmed.ncbi.nlm.nih.gov/39419780/) | 2024 | دراسة قطاعية/آلية | J Applied Microbiology | دراسة استشرافية: يزيح علاج كلوتريمازول للمبيضات المهبلية من البكتيريا المهبلية والأيض الدهني؛ رؤية آلية حول كيف يستعيد كلوتريمازول التوازن الإيكولوجي المهبلي |
+| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | استعراض | J Women's Health | استعراض لحمض البوريك للمبيضات المهبلية المتكررة (مقاومة للأزول بما في ذلك كلوتريمازول)؛ يضع مقاومة المبيضات غير البيضاء كفجوة حيث قد يكون كلوتريمازول وحده غير كافٍ |
+| [7482105](https://pubmed.ncbi.nlm.nih.gov/7482105/) | 1995 | تجربة سريرية | Sexually Transmitted Diseases | دراسة مقارنة: فلوكونازول مقابل كلوتريمازول للمبيضات المهبلية؛ تعالج ميزة الامتثال للطريق الفموي، مع تأكيد الفعالية المضادة للفطريات المماثلة لكلوتريمازول الموضعي |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Proceed with Guardrails** *(for Vulvovaginitis / Vulvovaginal Candidiasis)*
+كلوتريمازول **غير مسجل** حالياً لدى هيئة الغذاء والدواء السعودية (SFDA). لا توجد تراخيص أو منتجات معتمدة مسجلة.
 
-**Rationale:**
-Clotrimazole has one of the most robust evidence bases among azole antifungals for vulvovaginal candidiasis, backed by multiple completed Phase 3/4 RCTs (including head-to-head comparisons with fluconazole), a 1,033-patient post-marketing safety study, and over 35 years of published clinical trial literature — fully meeting L1 criteria. Its absence from the Saudi Arabian market represents a registration gap, not a safety or efficacy unknown.
+| رقم التفويض | اسم المنتج | شكل الجرعة | المؤشر المعتمد |
+|-------------|-----------|-----------|-------------|
+| — | غير قابل للتطبيق | — | لا توجد منتجات مسجلة في المملكة العربية السعودية |
 
-**To proceed, the following is needed:**
+> **ملاحظة:** يتمتع كلوتريمازول بتفويضات تنظيمية في أكثر من 100 دولة، بما في ذلك صيغ متعددة (أقراص مهبلية، كريمات، تحاميل، كريم موضعي) لالتهاب المهبل بالمبيضات والعدوى الجلدية الخيطية. يمثل غياب التسجيل لدى SFDA فجوة سوقية بدلاً من مخاوف السلامة أو الفعالية.
 
-- **SFDA registration dossier:** Compile CMC data, clinical efficacy dossier (existing global RCTs are sufficient), and local pharmacovigilance plan for submission
-- **Package insert localization:** Obtain and translate official warnings, contraindications, and dosing information for Saudi patient population (data gap DG001)
-- **Formulation decision:** Confirm preferred registration route — vaginal tablet (500 mg single dose or 100 mg × 6 days), cream (1%), or ovule (500 mg) — based on SFDA preference and supply chain considerations
-- **Resistance monitoring plan:** Establish surveillance for non-*albicans Candida* species resistant to azoles, as these represent the main clinical limitation of clotrimazole therapy
-- **MOA documentation (DG002):** Formally document CYP51A1 inhibition mechanism in submission package for SFDA scientific review
+---
+
+## اعتبارات السلامة
+
+لم تتوفر بيانات نشرة الحزمة التفصيلية (التحذيرات، موانع الاستعمال) من خلال مصادر البيانات التي تم الاستعلام عنها لهذه مجموعة الأدلة. يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة الكاملة.
+
+> **السياق المعروف لفئة الأدوية (من الأدبيات المنشورة):** كلوتريمازول عبارة عن عامل يُطبق موضعياً مع امتصاص جهازي ضئيل، مما يساهم في ملف السلامة المواتي. أكدت دراسة ما بعد التسويق Empecid L (ن=1,033؛ NCT03599323) عدم وجود إشارات أمان غير متوقعة في الاستخدام المجتمعي الحقيقي. تُعتبر مقاومة فئة الأزول في أنواع المبيضات غير البيضاء (مثل *C. glabrata*) محدودية سريرية معترف بها.
+
+---
+
+## تنبؤات TxGNN الإضافية — معلومات داعمة
+
+### التنبؤ رقم 1 (رتبة TxGNN): حب الشباب — **الانتظار**
+
+| البند | التفاصيل |
+|------|---------|
+| درجة TxGNN | 99.86% |
+| مستوى الأدلة | L4 (سابقة للإكلينيك/آلية فقط) |
+| التجارب السريرية | 1 (موقوفة، منتج مركب، لا توجد بيانات قابلة للاستخدام) |
+| الأدبيات | 0 منشورات محددة |
+| الصلة الآلية | غير مباشرة: قد يقلل كلوتريمازول من *Malassezia furfur* (مسبب أمراض مصاحب في بعض عروض حب الشباب) وله نشاط مضاد للالتهابات طفيف عبر حجب قناة البوتاسيوم IK1. ومع ذلك، فإن المحركات الأساسية لحب الشباب (عدوى *P. acnes*، انسداد الغدد الدهنية، الأندروجينات) تقع خارج نطاق الهدف الصيدلاني لكلوتريمازول. |
+
+### التنبؤ رقم 3 (رتبة TxGNN): التهاب المهبل الضموري بعد انقطاع الطمث — **الانتظار**
+
+| البند | التفاصيل |
+|------|---------|
+| درجة TxGNN | 99.46% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
+| التجارب السريرية | 1 (حالة غير معروفة، دراسة ليزر CO2 غير ذات صلة) |
+| الأدبيات | 0 منشورات محددة |
+| الصلة الآلية | ضعيفة جداً: التهاب المهبل الضموري بعد انقطاع الطمث (GSM) يسبب بنقص الإستروجين وليس الإفراط في نمو الفطريات. لا يستطيع كلوتريمازول معالجة السبب الجذري. ربما ينعكس درجة TxGNN العالية على تداخل ميزات المرض مع التهاب المهبل. |
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات وقائية** *(لالتهاب المهبل / التهاب المهبل بالمبيضات)*
+
+**المبرر:**
+يتمتع كلوتريمازول بواحد من أقوى قواعد الأدلة بين مضادات الفطريات من فئة الأزول لالتهاب المهبل بالمبيضات، مدعوماً بتجارب سريرية عشوائية متحكم بها متعددة مكتملة في المرحلة 3/4 (بما في ذلك المقارنات المباشرة مع الفلوكونازول)، ودراسة ما بعد التسويق لـ 1,033 مريضة، وأكثر من 35 سنة من الأدبيات المنشورة — مما يستوفي معايير L1 بالكامل. يمثل غيابه من السوق السعودي فجوة تسجيل وليس نقصاً في السلامة أو الفعالية.
+
+**للمضي قدماً، يتطلب ما يلي:**
+
+- **ملف تسجيل SFDA:** جمع بيانات CMC، ملف الفعالية السريرية (تجارب RCTs العالمية الموجودة كافية)، وخطة مراقبة سلامة محلية للتقديم
+- **تحديث نشرة الحزمة:** الحصول على ترجمة التحذيرات الرسمية وموانع الاستعمال والجرعات لمجموعة المرضى السعودية (فجوة البيانات DG001)
+- **قرار الصيغة:** تأكيد طريق التسجيل المفضل — قرص مهبلي (500 ملغ جرعة واحدة أو 100 ملغ × 6 أيام)، كريم (1%)، أو تحميلة (500 ملغ) — بناءً على تفضيل SFDA واعتبارات سلسلة التوريد
+- **خطة مراقبة المقاومة:** إنشاء مراقبة لأنواع المبيضات غير البيضاء المقاومة للأزول، حيث تمثل هذه القيد السريري الرئيسي لعلاج كلوتريمازول
+- **توثيق آلية العمل (DG002):** توثيق رسمي لآلية تثبيط CYP51A1 في ملف التقديم لمراجعة SFDA العلمية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

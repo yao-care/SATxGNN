@@ -29,71 +29,72 @@ indication_count: 1
 
 </div>
 
-# Interferon Alfa-2b: From Chronic Viral Hepatitis/Oncology to Relapsing-Remitting Multiple Sclerosis
+# إنترفيرون ألفا-2b: من التهاب الكبد الفيروسي المزمن/الأورام إلى التصلب اللويحي المتعدد الانتكاسي-الخافت
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Interferon alfa-2b is a Type I interferon historically used in viral hepatitis and certain hematologic/oncologic malignancies, though it is not currently marketed in Taiwan and no Taiwan-approved indication data is available in this evidence pack. The TxGNN model predicts it may be effective for **Relapsing-Remitting Multiple Sclerosis (RRMS)**, supported by **0 registered clinical trials** but **13 publications**, several of which are older randomized controlled trials (1988–2003) directly testing interferon alfa in RRMS.
+إنترفيرون ألفا-2b هو إنترفيرون من النوع الأول تم استخدامه تاريخياً في التهاب الكبد الفيروسي وبعض الأورام الخبيثة الدموية والسرطانية، على الرغم من أنه لا يتم تسويقه حالياً في تايوان ولا توجد بيانات عن مؤشرات معتمدة من قبل تايوان في هذه الحزمة الإثباتية. يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **التصلب اللويحي المتعدد الانتكاسي-الخافت (RRMS)**، مدعوماً بـ **0 من التجارب السريرية المسجلة** ولكن **13 منشورات**، عدد منها تجارب عشوائية محكومة أقدم (1988–2003) تختبر مباشرة إنترفيرون ألفا في RRMS.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — drug is not marketed in Taiwan and no license records exist in this data pack (historically used for chronic viral hepatitis and select oncologic indications) |
-| Predicted New Indication | Relapsing-Remitting Multiple Sclerosis |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح — الدواء لا يتم تسويقه في تايوان ولا توجد سجلات ترخيص في هذه الحزمة البيانية (تم استخدامه تاريخياً في التهاب الكبد الفيروسي المزمن والمؤشرات الورمية المختارة) |
+| المؤشر الجديد المتنبأ به | التصلب اللويحي المتعدد الانتكاسي-الخافت |
+| درجة التنبؤ TxGNN | 99.81% |
+| مستوى الدليل | L2 |
+| حالة سوق تايوان | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, interferon alfa-2b is part of the Type I interferon class, which signals through the IFNAR1/IFNAR2 receptor complex and the downstream JAK-STAT pathway.
+حالياً، البيانات التفصيلية عن آلية العمل غير متاحة. بناءً على المعلومات المعروفة، إنترفيرون ألفا-2b هو جزء من فئة إنترفيرون النوع الأول، الذي يشير إلى معقد المستقبل IFNAR1/IFNAR2 ومسار JAK-STAT اللاحق.
 
-The mechanistic rationale for repurposing rests on interferon alfa's close relationship to interferon beta, an already-approved class of MS therapy. Both share the same Type I interferon receptor and downstream JAK-STAT signaling, and both are theorized to rebalance Th1/Th2 cytokine responses, suppress T-cell activation, and reduce blood-brain barrier permeability — the proposed mechanism underlying interferon beta's efficacy in RRMS.
+المبرر الآلي لإعادة الاستخدام يقوم على العلاقة الوثيقة بين إنترفيرون ألفا وإنترفيرون بيتا، وهي فئة معتمدة بالفعل من علاجات التصلب اللويحي المتعدد. كلاهما يشارك نفس مستقبل إنترفيرون النوع الأول وإشارات JAK-STAT اللاحقة، وكلاهما مفترض نظرياً أنه يعيد توازن استجابات السيتوكين Th1/Th2، وتثبيط تنشيط الخلايا T، وتقليل نفاذية حاجز الدم في الدماغ — الآلية المقترحة الكامنة وراء فعالية إنترفيرون بيتا في RRMS.
 
-However, interferon alfa induces a stronger pro-inflammatory cytokine response than interferon beta, resulting in comparatively worse clinical tolerability (flu-like symptoms, depression, hepatotoxicity). This is the likely reason interferon alfa was not further developed for MS after the 1990s, with the market instead consolidating around interferon beta-1a/1b. The prediction is mechanistically plausible but reflects a pathway that was already explored and superseded in clinical practice.
+ومع ذلك، يحفز إنترفيرون ألفا استجابة سيتوكين موالية للالتهاب أقوى من إنترفيرون بيتا، مما يؤدي إلى تحمل سريري أسوأ نسبياً (أعراض تشبه الإنفلونزا، اكتئاب، سمية الكبد). هذا هو السبب المحتمل لعدم تطوير إنترفيرون ألفا بشكل أكبر لـ التصلب اللويحي المتعدد بعد التسعينيات، حيث توطدت السوق بدلاً من ذلك حول إنترفيرون بيتا-1a/1b. التنبؤ معقول من الناحية الآلية ولكنه يعكس مسار تم استكشافه بالفعل وتجاوزه في الممارسة السريرية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الدراسات المنشورة
 
-| PMID | Year | Type | Journal | Key Findings |
+| معرف PubMed | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [8145906](https://pubmed.ncbi.nlm.nih.gov/8145906/) | 1994 | RCT | Neurology | Double-blind, placebo-controlled pilot trial (n=20); high-dose IFN-alfa reduced exacerbations and MRI disease activity vs. placebo (p<0.005) |
-| [10516774](https://pubmed.ncbi.nlm.nih.gov/10516774/) | 1999 | RCT | Multiple Sclerosis | Randomized, double-blind trial (n=97) evaluating IFN-alfa's effect on MRI activity and patient quality of life |
-| [8710065](https://pubmed.ncbi.nlm.nih.gov/8710065/) | 1996 | RCT | Neurology | Follow-up of the 1994 trial cohort; disease activity resumed after treatment discontinuation, supporting a treatment (not curative) effect |
-| [10102427](https://pubmed.ncbi.nlm.nih.gov/10102427/) | 1999 | RCT | Neurology | Norwegian Study Group trial evaluating efficacy/safety of IFN-alfa2a in RRMS, showing reduced MRI disease activity |
-| [12938052](https://pubmed.ncbi.nlm.nih.gov/12938052/) | 2003 | RCT | Revista de Neurología | Cuban Phase II/III data suggesting IFN-alfa2b improved cognitive dysfunction in RRMS patients |
-| [11027103](https://pubmed.ncbi.nlm.nih.gov/11027103/) | 2000 | RCT | Revista de Neurología | National Cuban cooperative trial report on recombinant IFN-alfa2b in multiple sclerosis |
-| [3045033](https://pubmed.ncbi.nlm.nih.gov/3045033/) | 1988 | RCT | Int J Neuroscience | Early double-blind placebo trial examining immunological (NK cell activity) and clinical effects of IFN-alfa2 |
-| [31720848](https://pubmed.ncbi.nlm.nih.gov/31720848/) | 2020 | Cohort | Journal of Neurology | Post-marketing propensity-matched comparison of switching strategies (including pegylated IFN) for "needle fatigue" in MS |
-| [8981304](https://pubmed.ncbi.nlm.nih.gov/8981304/) | 1996 | Mechanistic/Immunology | J Neurol Sci | High-dose IFN-alfa2a modulates lymphokine production, proposed as the immunologic basis for clinical efficacy in RRMS |
-| [24556656](https://pubmed.ncbi.nlm.nih.gov/24556656/) | 2014 | Review | J Neurosci Nursing | Nursing-focused review of pegylated interferons as an MS therapy class |
+| [8145906](https://pubmed.ncbi.nlm.nih.gov/8145906/) | 1994 | RCT | Neurology | تجربة تجريبية عمياء مزدوجة يسيطر عليها الدواء الوهمي (n=20)؛ أنتجت جرعة عالية من IFN-alfa تقليل التفاقمات ونشاط المرض على التصوير بالرنين المغناطيسي مقابل الدواء الوهمي (p<0.005) |
+| [10516774](https://pubmed.ncbi.nlm.nih.gov/10516774/) | 1999 | RCT | Multiple Sclerosis | تجربة عشوائية عمياء مزدوجة (n=97) تقيم تأثير IFN-alfa على نشاط التصوير بالرنين المغناطيسي وجودة حياة المريض |
+| [8710065](https://pubmed.ncbi.nlm.nih.gov/8710065/) | 1996 | RCT | Neurology | متابعة مجموعة التجربة لعام 1994؛ عاد نشاط المرض بعد إيقاف العلاج، مما يدعم تأثير العلاج (وليس الشفاء) |
+| [10102427](https://pubmed.ncbi.nlm.nih.gov/10102427/) | 1999 | RCT | Neurology | تجربة فريق الدراسة النرويجي يقيم فعالية/سلامة IFN-alfa2a في RRMS، مما يظهر تقليل نشاط المرض على التصوير بالرنين المغناطيسي |
+| [12938052](https://pubmed.ncbi.nlm.nih.gov/12938052/) | 2003 | RCT | Revista de Neurología | البيانات الكوبية المرحلة II/III تشير إلى أن IFN-alfa2b حسنت الخلل الإدراكي لدى مرضى RRMS |
+| [11027103](https://pubmed.ncbi.nlm.nih.gov/11027103/) | 2000 | RCT | Revista de Neurología | تقرير التجربة التعاونية الوطنية الكوبية حول IFN-alfa2b المؤتلف في التصلب اللويحي المتعدد |
+| [3045033](https://pubmed.ncbi.nlm.nih.gov/3045033/) | 1988 | RCT | Int J Neuroscience | تجربة الدواء الوهمي العمياء المزدوجة المبكرة التي تفحص التأثيرات المناعية (نشاط خلايا NK) والسريرية لـ IFN-alfa2 |
+| [31720848](https://pubmed.ncbi.nlm.nih.gov/31720848/) | 2020 | Cohort | Journal of Neurology | مقارنة ما بعد التسويق متطابقة الميل للاستراتيجيات التبديلية (بما في ذلك IFN المبغيلة) لـ "إرهاق الإبرة" في التصلب اللويحي المتعدد |
+| [8981304](https://pubmed.ncbi.nlm.nih.gov/8981304/) | 1996 | Mechanistic/Immunology | J Neurol Sci | تعدل جرعة عالية من IFN-alfa2a إنتاج الليمفوكين، المقترح كأساس مناعي للفعالية السريرية في RRMS |
+| [24556656](https://pubmed.ncbi.nlm.nih.gov/24556656/) | 2014 | Review | J Neurosci Nursing | مراجعة موجهة للتمريض للإنترفيرونات المبغيلة كفئة من علاجات التصلب اللويحي المتعدد |
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Interferon alfa-2b is not currently marketed in Taiwan; no product license records exist in this evidence pack (0 authorizations on file).
+إنترفيرون ألفا-2b لا يتم تسويقه حالياً في تايوان؛ لا توجد سجلات رخصة منتج في هذه الحزمة الإثباتية (0 تفويضات على الملف).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The literature base is limited to small, methodologically dated RCTs (1988–2003) with no ongoing or recently registered clinical trials, and interferon alfa's known tolerability disadvantage relative to the already-approved interferon beta class weakens the practical case for pursuing this indication. The drug is also not currently marketed in Taiwan, and blocking-level safety data (TFDA package insert) is missing.
+**المبرر:**
+قاعدة الأدبيات محدودة بتجارب عشوائية محكومة صغيرة ومتقادمة من الناحية المنهجية (1988–2003) مع عدم وجود تجارب سريرية جارية أو مسجلة مؤخراً، وعيب التحمل المعروف لإنترفيرون ألفا بالنسبة لفئة إنترفيرون بيتا المعتمدة بالفعل يضعف الحالة العملية للمضي قدماً في هذا المؤشر. الدواء أيضاً غير مسوق حالياً في تايوان، وبيانات السلامة على مستوى الحجب (نشرة TFDA) مفقودة.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (DG001, currently blocking)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Assessment of why interferon beta superseded interferon alfa in MS, to determine if any residual clinical niche remains
-- Contemporary trial or real-world evidence, given the youngest RRMS-specific study is from 2003
+**للمضي قدماً، يتطلب ما يلي:**
+- نشرة TFDA / التحذيرات والموانع (DG001، حالياً حجب)
+- بيانات آلية عمل مؤكدة من DrugBank (DG002)
+- تقييم السبب في تفوق إنترفيرون بيتا على إنترفيرون ألفا في التصلب اللويحي المتعدد، لتحديد ما إذا بقي أي فراغ سريري متبقٍ
+- أدلة تجربة معاصرة أو من العالم الحقيقي، بالنظر إلى أن الدراسة الأصغر الخاصة بـ RRMS من عام 2003
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

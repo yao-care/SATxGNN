@@ -29,80 +29,81 @@ indication_count: 10
 
 </div>
 
-# Efmoroctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# إيفموروكتوكوج ألفا: من الهيموفيليا أ إلى مرض فون ويلبراند الكاذب
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Efmoroctocog alfa (recombinant Factor VIII Fc-fusion protein) is a factor replacement product; public drug information indicates it is used for **Hemophilia A** (congenital Factor VIII deficiency), though this original indication is not documented in the current evidence pack. The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**, but **no clinical trials and no literature** currently support this direction — the prediction is model-only at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (`drug.original_indications` is empty). Per public drug information, efmoroctocog alfa is a recombinant Factor VIII Fc-fusion protein used for Hemophilia A — **unconfirmed against source data, flagged as data gap** |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.99% (rank 107 among all predictions) |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> إيفموروكتوكوج ألفا (بروتين اندماج العامل الثامن معاد الاتحاد) هو منتج لاستبدال العامل؛ تشير المعلومات العامة عن الأدوية إلى أنه يُستخدم لـ **الهيموفيليا أ** (نقص العامل الثامن الخلقي)، على الرغم من أن هذا الاستطباب الأصلي غير موثق في حزمة الأدلة الحالية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **مرض فون ويلبراند الكاذب**، لكن **لا توجد تجارب سريرية ولا أدب علمي** يدعم هذا الاتجاه حالياً — التنبؤ هو نموذجي فقط في هذه المرحلة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available in the evidence pack (`original_moa` = "[Data Gap]", flagged as **DG002, High severity**). Based on publicly available drug information, efmoroctocog alfa is a recombinant human Factor VIII Fc-fusion protein, replacing deficient or dysfunctional coagulation Factor VIII in patients with Hemophilia A. This background is **not confirmed by the structured evidence pack** and should be verified via the DrugBank API remediation noted in DG002 before being relied upon.
-
-Pseudo-von Willebrand disease (platelet-type von Willebrand disease) is mechanistically distinct from Hemophilia A: it is caused by a gain-of-function mutation in the platelet GPIbα receptor, which leads to excessive binding and clearance of high-molecular-weight von Willebrand factor (VWF) multimers, producing a bleeding phenotype that resembles VWD type 2B. Critically, efmoroctocog alfa as a Fc-fusion recombinant Factor VIII product **does not itself contain VWF** (unlike plasma-derived FVIII/VWF concentrates). This means the mechanistic rationale connecting a pure Factor VIII replacement product to a primarily platelet-receptor-driven disorder is **not obviously strong** and is not substantiated by any data in this evidence pack (`repurposing_rationale` fields are all marked "pending").
-
-Given the absence of a validated mechanistic link, absence of clinical/literature evidence, and the fact that this pattern (zero trials, zero literature) repeats across **all 10** TxGNN-predicted indications for this drug (per query log entries querying pseudo-von Willebrand disease, primary release disorder of platelets, Glanzmann thrombasthenia, Scott syndrome, and others — all returning 0 results), this prediction should currently be treated as a hypothesis-generating signal only, not a validated repurposing candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير موثق في حزمة الأدلة (`drug.original_indications` فارغ). وفقاً لمعلومات الأدوية العامة، إيفموروكتوكوج ألفا هو بروتين اندماج العامل الثامن معاد الاتحاد يُستخدم لـ الهيموفيليا أ — **غير مؤكد مقابل بيانات المصدر، موضح كفجوة بيانات** |
+| الاستطباب الجديد المتنبأ به | مرض فون ويلبراند الكاذب |
+| درجة التنبؤ بـ TxGNN | 99.99% (الترتيب 107 من بين جميع التنبؤات) |
+| مستوى الأدلة | L5 (تنبؤ نموذجي فقط — لم يتم تحديد أي تجارب سريرية أو أدب علمي) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة (`original_moa` = "[Data Gap]"، موضح كـ **DG002, High severity**). بناءً على معلومات الأدوية المتاحة للعامة، إيفموروكتوكوج ألفا هو بروتين اندماج العامل الثامن البشري معاد الاتحاد، يحل محل العامل الثامن الناقص أو المختل وظيفياً لدى المرضى المصابين بالهيموفيليا أ. هذه الخلفية **غير مؤكدة من قبل حزمة الأدلة المنظمة** ويجب التحقق منها عبر إصلاح DrugBank API المشار إليه في DG002 قبل الاعتماد عليها.
 
----
+يختلف مرض فون ويلبراند الكاذب (مرض فون ويلبراند من نوع الصفائح الدموية) من الناحية الآلية عن الهيموفيليا أ: فهو ناجم عن طفرة اكتسابية في مستقبل الصفائح الدموية GPIbα، مما يؤدي إلى ارتباط وتخليص مفرط لـ عامل فون ويلبراند متعدد الوحدات عالي الوزن الجزيئي (VWF)، مما ينتج عنه مظهر نزفي يشبه نوع VWD 2B. بشكل حاسم، إيفموروكتوكوج ألفا كمنتج استبدال العامل الثامن معاد الاتحاد النقي **لا يحتوي على VWF بحد ذاته** (على عكس التركيزات المشتقة من البلازما FVIII/VWF). هذا يعني أن الأساس الآلي الذي يربط منتج استبدال العامل الثامن النقي باضطراب يقوده المستقبل الصفيحي بشكل أساسي **ليس قوياً بشكل واضح** وليس مدعوماً بأي بيانات في حزمة الأدلة هذه (جميع حقول `repurposing_rationale` موضحة كـ "pending").
 
-## Saudi Arabia Market Information
-
-Efmoroctocog alfa currently holds **no marketing authorizations** in Saudi Arabia (`market_status`: Not marketed / Not marketed; `total_licenses`: 0; `licenses`: empty). No product-level registration data is available to populate a market information table.
+نظراً لغياب الارتباط الآلي المثبت، وغياب الأدلة السريرية/الأدب العلمي، وحقيقة أن هذا النمط (صفر تجارب، صفر أدب علمي) يتكرر عبر **جميع 10** استطبابات متنبأ بها من قبل TxGNN لهذا الدواء (وفقاً لإدخالات سجل الاستعلام عن مرض فون ويلبراند الكاذب، اضطراب الإفراز الأولي للصفائح الدموية، الثرومباستينيا جلانزمان، متلازمة سكوت، وغيرها — جميعها يعود صفر نتائج)، يجب حالياً التعامل مع هذا التنبؤ كإشارة توليد فرضية فقط، وليس كمرشح إعادة استخدام معتمد.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and drug interaction data are all marked as data gaps in the evidence pack. The DDI query returned `not_found`. Additionally, DG001 — TFDA/SFDA package insert warnings and contraindications — is flagged as a **Blocking** severity gap, meaning this candidate cannot yet proceed to initial safety screening (S1).)*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدب العلمي
 
-**Decision: Hold**
+لا يوجد أدب علمي ذو صلة متاح حالياً.
 
-**Rationale:**
-- This candidate cannot proceed past initial safety screening because DG001 (package insert warnings/contraindications) is a **Blocking**-severity data gap, and no substitute safety data exists in this evidence pack.
-- The predicted indication has **zero supporting clinical trials or literature** (evidence level L5), and this lack of evidence is consistent across all 10 TxGNN-predicted indications for this drug — none returned any trial or publication hits.
-- The proposed mechanistic link between a Factor VIII replacement product and a platelet-receptor-driven disorder (pseudo-von Willebrand disease) is not well established and is unconfirmed by any source data.
-- The drug is not currently marketed in Saudi Arabia, so there is no local regulatory or utilization foothold to build on.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings, precautions, and contraindications (resolves DG001, Blocking)
-- Verified mechanism of action data via DrugBank API (resolves DG002, High)
-- Preclinical or mechanistic studies directly linking Factor VIII-Fc replacement therapy to platelet-type/pseudo-von Willebrand disease pathophysiology
-- Confirmation of the drug's original approved indication(s) against an authoritative regulatory source, since `original_indications` is currently empty in the evidence pack
-- Ongoing surveillance for emerging clinical trial or publication evidence, given the current complete absence of supporting studies
+## معلومات سوق المملكة العربية السعودية
+
+لا يحمل إيفموروكتوكوج ألفا حالياً **أي ترخيصات تسويقية** في المملكة العربية السعودية (`market_status`: Not marketed / Not marketed; `total_licenses`: 0; `licenses`: empty). لا توجد بيانات تسجيل على مستوى المنتج متاحة لملء جدول معلومات السوق.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+*(ملاحظة: `key_warnings` و `contraindications` وبيانات تفاعل الأدوية جميعها موضحة كفجوات بيانات في حزمة الأدلة. استعلام DDI أعاد `not_found`. بالإضافة إلى ذلك، DG001 — تحذيرات نشرة TFDA/SFDA والموانع — موضح كفجوة بيانات **Blocking** severity، مما يعني أن هذا المرشح لا يمكنه المتابعة إلى فحص السلامة الأولي (S1).)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+- لا يمكن لهذا المرشح المتابعة بعد فحص السلامة الأولي لأن DG001 (تحذيرات نشرة المنتج/الموانع) هو فجوة بيانات **Blocking**-severity، ولا توجد بيانات سلامة بديلة في حزمة الأدلة هذه.
+- التنبؤ بـ الاستطباب لديه **صفر تجارب سريرية داعمة أو أدب علمي** (مستوى الأدلة L5)، وهذا الافتقار إلى الأدلة متسق عبر جميع 10 استطبابات متنبأ بها من قبل TxGNN لهذا الدواء — لم تعيد أي منها أي ضربة تجربة أو منشور.
+- الارتباط الآلي المقترح بين منتج استبدال العامل الثامن واضطراب يقوده المستقبل الصفيحي (مرض فون ويلبراند الكاذب) ليس راسخاً بشكل جيد وغير مؤكد بأي بيانات مصدر.
+- الدواء غير مسوّق حالياً في المملكة العربية السعودية، لذلك لا يوجد موطئ قدم تنظيمي أو استخدام محلي للبناء عليه.
+
+**للمتابعة، ما يلي مطلوب:**
+- تحذيرات نشرة TFDA/SFDA والاحتياطات والموانع (يحل DG001, Blocking)
+- بيانات آلية عمل مثبتة عبر DrugBank API (يحل DG002, High)
+- دراسات قبل سريرية أو آلية تربط مباشرة استبدال العامل الثامن-Fc بـ الصفائح الدموية/مرض فون ويلبراند الكاذب الفيزيولوجيا المرضية
+- تأكيد الاستطباب الموافق الأصلي للدواء مقابل مصدر تنظيمي سلطة، حيث أن `original_indications` غير محدد حالياً في حزمة الأدلة
+- المراقبة المستمرة للأدلة السريرية الناشئة أو منشورات الأدب، بالنظر إلى الغياب الكامل الحالي للدراسات الداعمة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

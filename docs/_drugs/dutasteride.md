@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Dutasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+# ديوتاستيريد: من فرط تصنع البروستاتا الحميد إلى الشعرانية الكلية الخلقية من نوع أمبراس
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Dutasteride is a dual 5α-reductase inhibitor globally approved for benign prostatic hyperplasia (BPH) and androgenetic alopecia, but it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital generalised hair-overgrowth syndrome.
-Currently **no clinical trials** and **no publications** specifically support this repurposing direction, placing the evidence at the lowest possible grade (L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | BPH and androgenetic alopecia (global approvals; no Saudi Arabia registration) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.998% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+ديوتاستيريد هو مثبط ثنائي الفعل لإنزيم الفا-5 اختزالة معتمد عالمياً لعلاج فرط تصنع البروستاتا الحميد (BPH) والثعلبة الذكورية، إلا أنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **الشعرانية الكلية الخلقية من نوع أمبراس**، وهي متلازمة نادرة خلقية تتميز بفرط نمو الشعر المعمم.
+حالياً **لا توجد تجارب سريرية** و**لا توجد منشورات** تدعم بشكل مباشر هذا الاتجاه لإعادة توظيف الدواء، مما يضع الأدلة في أدنى درجة ممكنة (L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Dutasteride inhibits both type 1 and type 2 isoforms of 5α-reductase, blocking the conversion of testosterone to dihydrotestosterone (DHT). By reducing systemic and local DHT levels, it suppresses androgen-driven hair follicle miniaturisation — which underpins its established use in androgenetic alopecia and BPH. Detailed mechanism of action data was not retrievable from the current data sources; the above summary is based on published pharmacology.
-
-Ambras syndrome arises from chromosomal rearrangements at 8q22–24 that disrupt the TRPS1/EXT1 genomic region. The resulting generalised hypertrichosis is driven by dysregulation of TGF-β/BMP developmental signalling pathways that govern hair follicle morphogenesis in early embryonic life — a pathway entirely distinct from the androgen (DHT/5α-R) axis. There is no established mechanistic node at which dutasteride could intervene in Ambras syndrome pathobiology.
-
-The exceptionally high TxGNN score (99.998%) most likely reflects a **knowledge graph neighbourhood artifact**: Ambras syndrome, other hypertrichoses, and androgenetic alopecia all share adjacency in the "hair follicle disorder" node cluster of the biomedical knowledge graph, making dutasteride appear relevant by graph proximity rather than genuine shared biology. This pattern is well recognised in graph-based repurposing models and should not be interpreted as evidence of therapeutic efficacy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Dutasteride in Ambras Type Hypertrichosis Universalis Congenita.
+| العنصر | المحتوى |
+|--------|----------|
+| المؤشر الأصلي | فرط تصنع البروستاتا الحميد والثعلبة الذكورية (موافقات عالمية؛ بدون موافقة في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | الشعرانية الكلية الخلقية من نوع أمبراس |
+| درجة توقع TxGNN | 99.998% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | إيقاف الدراسة |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available for Dutasteride in Ambras Type Hypertrichosis Universalis Congenita.
+يثبط ديوتاستيريد كلا الشكلين من إنزيم الفا-5 اختزالة (النوع الأول والنوع الثاني)، مما يوقف تحويل التستوستيرون إلى ديهيدروتستوستيرون (DHT). بتقليل مستويات DHT الجهازية والموضعية، يثبط تصغر جريب الشعر الذي يقوده الأندروجين — وهي الآلية التي تدعم استخدامه المعروف في الثعلبة الذكورية وفرط تصنع البروستاتا الحميد. لم يكن من الممكن الحصول على بيانات آلية الفعل التفصيلية من مصادر البيانات الحالية؛ يستند الملخص أعلاه إلى الدراسات المنشورة.
 
----
+ينشأ متلازمة أمبراس من إعادات ترتيب كروموسومية في المنطقة 8q22–24 التي تعطل المنطقة الجينومية TRPS1/EXT1. يؤدي خلل التنظيم الناتج للشعرانية الموضعية إلى اضطراب مسارات إشارة النمو TGF-β/BMP التي تحكم تكون جريب الشعر في الحياة الجنينية المبكرة — وهي مسار مختلفة تماماً عن محور الأندروجين (DHT/الفا-5 اختزالة). لا توجد عقدة آلية محددة يمكن لديوتاستيريد أن يتدخل عندها في الأمراضية الأساسية لمتلازمة أمبراس.
 
-## Saudi Arabia Market Information
-
-Dutasteride has no approved products registered in Saudi Arabia. No authorisation records are available in the current dataset.
+من المرجح أن درجة TxGNN العالية جداً (99.998%) تعكس **تحف القرب في الرسم البياني المعرفي**: متلازمة أمبراس والشعرانيات الأخرى والثعلبة الذكورية جميعها تشترك في الاقتراب من عقدة "اضطرابات جريب الشعر" في الرسم البياني المعرفي الطبي الحيوي، مما يجعل ديوتاستيريد يبدو ذا صلة بسبب القرب البياني بدلاً من الارتباط البيولوجي الحقيقي. هذا النمط معروف جيداً في نماذج إعادة التوظيف القائمة على الرسوم البيانية ولا ينبغي تفسيره كدليل على الفعالية العلاجية.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة لديوتاستيريد في الشعرانية الكلية الخلقية من نوع أمبراس.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متوفرة لديوتاستيريد في الشعرانية الكلية الخلقية من نوع أمبراس.
 
-**Rationale:**
-Although TxGNN assigns dutasteride a near-perfect score for Ambras Type Hypertrichosis Universalis Congenita, all 10 predicted indications across this evaluation sit at Evidence Level L5 (model prediction only, no clinical data). The mechanistic connection between dutasteride's DHT-suppressing action and the TGF-β/BMP-driven pathology of Ambras syndrome is absent; the high model score is attributable to knowledge graph proximity among hair follicle diseases, not plausible biology.
+---
 
-**To proceed, the following is needed:**
+## معلومات سوق المملكة العربية السعودية
 
-- Retrieve formal MOA documentation from DrugBank (currently unavailable)
-- Investigate whether 5α-reductase expression is relevant in the TRPS1/EXT1 regulatory network or its downstream TGF-β/BMP signalling cascade
-- Commission preclinical studies (e.g., hair follicle cell models or Ambras mouse models) to test any androgenic contribution to phenotype severity
-- Separately review indication **Rank 8 (Diffuse Alopecia Areata / AGA overlap)**, which carries a "Research Question" recommendation and has at least one supporting AGA narrative review (PMID 41714473) — this is a more mechanistically defensible candidate for further exploration
-- Confirm Saudi Arabia registration pathway requirements before any clinical development planning
+لا يوجد أي منتج معتمد من ديوتاستيريد مسجل في المملكة العربية السعودية. لا توجد سجلات موافقة متاحة في مجموعة البيانات الحالية.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملخص البيانات الأساسية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف الدراسة**
+
+**المنطق:**
+على الرغم من أن TxGNN يعطي ديوتاستيريد درجة قريبة جداً من الكاملة للشعرانية الكلية الخلقية من نوع أمبراس، إلا أن جميع المؤشرات الـ 10 المتنبأ بها في هذا التقييم تقع في مستوى دليل L5 (توقع النموذج فقط، بدون بيانات سريرية). الارتباط الآلي بين فعل قمع DHT لديوتاستيريد والأمراضية التي يقودها مسار TGF-β/BMP لمتلازمة أمبراس غائب؛ درجة النموذج العالية تعزى إلى القرب البياني بين اضطرابات جريب الشعر، وليس إلى البيولوجيا المعقولة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- استرجاع وثائق آلية الفعل الرسمية من DrugBank (غير متاحة حالياً)
+- التحقيق فيما إذا كان تعبير إنزيم الفا-5 اختزالة ذا صلة في شبكة تنظيم TRPS1/EXT1 أو مسار الإشارة النزولي TGF-β/BMP
+- تكليف دراسات سابقة للسريرية (مثل نماذج خلايا جريب الشعر أو نماذج فئران أمبراس) لاختبار أي مساهمة أندروجينية في شدة المظهر
+- استعراض المؤشر **الرتبة 8 (الثعلبة الموضعية المنتشرة / تداخل الثعلبة الذكورية)** بشكل منفصل، والذي يحمل توصية "سؤال بحثي" ويحتوي على مراجعة سردية داعمة واحدة على الأقل للثعلبة الذكورية (PMID 41714473) — وهذا مرشح أكثر قابلية للدفاع من الناحية الآلية للاستكشاف الإضافي
+- تأكيد متطلبات مسار التسجيل في المملكة العربية السعودية قبل أي تخطيط لتطوير سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

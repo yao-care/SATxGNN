@@ -29,69 +29,70 @@ indication_count: 10
 
 </div>
 
-# Apomorphine: From Parkinson's Disease to Perisylvian Polymicrogyria with Cerebellar Hypoplasia and Arthrogryposis
+# ابوموروفين: من داء الشلل الرعاش إلى تعدد التلافيف حول الشق السيلفي مع نقص تنسج المخيخ والتقفع
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Apomorphine is a direct-acting dopamine receptor agonist with established clinical use in the acute management of "off" episodes in Parkinson's disease.
-The TxGNN model's top prediction suggests potential activity in **Polymicrogyria, Perisylvian, with Cerebellar Hypoplasia and Arthrogryposis** (OMIM#618798),
-however **0 clinical trials** and **0 publications** currently support this direction, and biological plausibility is low.
+ابوموروفين هو ناهض مستقبلات الدوبامين المباشر الذي له استخدام سريري معروف في الإدارة الحادة لنوبات "الإيقاف" في داء الشلل الرعاش.
+يشير التنبؤ الأعلى لنموذج TxGNN إلى نشاط محتمل في **تعدد التلافيف حول الشق السيلفي مع نقص تنسج المخيخ والتقفع** (OMIM#618798)،
+ومع ذلك **0 تجربة سريرية** و **0 منشور** يدعمان هذا الاتجاه حالياً، والمعقولية البيولوجية منخفضة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's disease (off-episodes); no Saudi Arabia regulatory record available |
-| Predicted New Indication | Polymicrogyria, Perisylvian, with Cerebellar Hypoplasia and Arthrogryposis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | داء الشلل الرعاش (نوبات الإيقاف)؛ لا توجد سجلات تنظيمية في المملكة العربية السعودية |
+| المؤشر الجديد المتوقع | تعدد التلافيف حول الشق السيلفي مع نقص تنسج المخيخ والتقفع |
+| درجة التنبؤ في TxGNN | 99.75% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معروضة في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | وقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for Apomorphine is not available in the current dataset. Based on established pharmacological knowledge, Apomorphine is a potent, non-selective dopamine receptor agonist acting across D1–D5 receptor subtypes. It is administered subcutaneously or sublingually and is best known for reversing motor off-episodes in Parkinson's disease by bypassing the striatal dopaminergic deficit.
+لا تتوفر بيانات آلية العمل التفصيلية لابوموروفين في مجموعة البيانات الحالية. بناءً على المعرفة الدوائية الراسخة، ابوموروفين هو ناهض مستقبلات دوبامين قوي وغير انتقائي يعمل عبر مستقبلات D1–D5 الفرعية. يتم إعطاؤه تحت الجلد أو تحت اللسان وهو معروف بشكل أفضل لعكس نوبات الإيقاف الحركية في داء الشلل الرعاش من خلال تجاوز القصور الدوبامينرجي في النواة المخططة.
 
-Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis (OMIM#618798) is an extremely rare congenital structural brain malformation arising from defective neuronal migration during embryonic cortical development. The pathogenesis involves disrupted radial glial scaffolding and cortical laminar organization — processes that are not regulated by dopaminergic signaling. There is no established molecular link between D1–D5 receptor agonism and the correction of neuronal migration defects.
+تعدد التلافيف حول الشق السيلفي مع نقص تنسج المخيخ والتقفع (OMIM#618798) هو تشوه دماغي بنيوي خلقي نادر للغاية ينشأ من هجرة عصبية معيبة أثناء نمو القشرة الدماغية الجنيني. يتضمن الإمراض تعطل السقالات الدبقية الشعاعية وتنظيم الطبقية القشرية — وهي عمليات لا تنظمها الإشارات الدوبامينرجية. لا يوجد ارتباط جزيئي معروف بين ناهضات مستقبلات D1–D5 وتصحيح عيوب هجرة الخلايا العصبية.
 
-The TxGNN model's high score (99.75%) most likely reflects indirect co-disease or co-gene connections within the knowledge graph (e.g., shared comorbidity nodes or phenotypic overlap with other dopamine-related disorders) rather than a direct mechanistic basis. Without biological plausibility and with zero supporting clinical or preclinical evidence, this prediction should be interpreted with caution and is not suitable for further development at this stage.
+يعكس الدرجة العالية للنموذج TxGNN (99.75%) على الأرجح اتصالات غير مباشرة للأمراض المصاحبة أو الجينات المشتركة داخل الرسم البياني للمعرفة (مثلاً، عقد الأمراض المصاحبة المشتركة أو التداخل الظاهري مع اضطرابات أخرى مرتبطة بالدوبامين) بدلاً من أساس ميكانيكي مباشر. بدون معقولية بيولوجية وبدون أي دليل سريري أو قبل سريري داعم، يجب تفسير هذا التنبؤ بحذر وليس مناسباً للتطوير الإضافي في هذه المرحلة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب الطبي
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Apomorphine is not currently registered or marketed in Saudi Arabia. No authorization records are available in the regulatory database.
+ابوموروفين غير مسجل ولا يتم تسويقه حالياً في المملكة العربية السعودية. لا توجد سجلات موافقة متاحة في قاعدة البيانات التنظيمية.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-> **Note for reviewers:** Key warnings and contraindications data were identified as a Blocking data gap (DG001) during this evaluation. The SFDA/TFDA package insert should be retrieved and reviewed before any clinical planning proceeds. Known class-level concerns for dopamine agonists include nausea, vomiting (often requiring antiemetic pre-treatment with domperidone), hypotension, somnolence, and impulse control disorders.
+> **ملاحظة للمراجعين:** تم تحديد بيانات التحذيرات الرئيسية والمضادات بأنها فجوة بيانات حاجزة (`DG001`) خلال هذا التقييم. يجب استرجاع النشرة الداخلية لـ SFDA/TFDA ومراجعتها قبل المضي قدماً في أي تخطيط سريري. تشمل المخاوف المعروفة على مستوى الفئة لناهضات الدوبامين الغثيان والقيء (غالباً ما يتطلب معالجة مضادة للغثيان مسبقة بـ دومبيريدون)، وانخفاض ضغط الدم، والنعاس، واضطرابات التحكم في الاندفاع.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقف**
 
-**Rationale:**
-Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis is a congenital structural brain malformation with a disease mechanism (neuronal migration defect) that has no established connection to the dopamine receptor system. There is no clinical or preclinical evidence supporting Apomorphine in this condition, and the biological rationale is absent.
+**المبرر:**
+تعدد التلافيف حول الشق السيلفي مع نقص تنسج المخيخ والتقفع هو تشوه دماغي بنيوي خلقي تمثل آليته المرضية (عيب في هجرة الخلايا العصبية) ولا يملك اتصالاً معروفاً بنظام مستقبلات الدوبامين. لا يوجد دليل سريري أو قبل سريري يدعم ابوموروفين في هذه الحالة، والمبرر البيولوجي غائب.
 
-**To proceed, the following is needed:**
-- Retrieve and review the SFDA/package insert for Apomorphine to address the Blocking data gap (DG001: key warnings and contraindications)
-- Obtain detailed mechanism of action data from DrugBank (DG002) to enable mechanistic plausibility analysis
-- Review the TxGNN knowledge graph paths to understand which graph edges generated this high-score prediction
-- Evaluate whether any upstream neurological or developmental pathway intersects with dopaminergic signaling before considering any exploratory study design
+**للمتابعة، يلزم ما يلي:**
+- استرجاع ومراجعة النشرة الداخلية لـ SFDA للابوموروفين للتعامل مع فجوة البيانات الحاجزة (`DG001`: التحذيرات الرئيسية والمضادات)
+- الحصول على بيانات آلية العمل التفصيلية من DrugBank (`DG002`) لتمكين تحليل المعقولية الميكانيكية
+- مراجعة مسارات الرسم البياني للمعرفة في TxGNN لفهم حواف الرسم البياني التي أنتجت هذا التنبؤ ذو الدرجة العالية
+- تقييم ما إذا كان أي مسار عصبي أو نمائي في المنبع يتقاطع مع الإشارات الدوبامينرجية قبل النظر في أي تصميم دراسة استكشافي
 
 ---
 
-> **Analyst Note — Other Predicted Indications:**
-> Among the 10 TxGNN predictions in this Evidence Pack, **schizophrenia** (rank 5; score 99.69%) is the only indication reaching **L3 evidence** and a *Research Question* staging recommendation. It is supported by 2 clinical trials (NCT00009048, NCT03911726) and 20 publications spanning dopamine autoreceptor hypothesis studies and neuroendocrine challenge paradigms. The historical "presynaptic autoreceptor" rationale — low-dose Apomorphine preferentially stimulating D2 autoreceptors to suppress dopamine synthesis — provides biological plausibility, though no direct therapeutic RCT exists. A safety caveat applies: as a full dopamine agonist, higher doses risk exacerbating positive psychotic symptoms. This direction warrants a dedicated evidence review separate from the present Hold recommendation for the top-ranked indication.
+> **ملاحظة المحلل — المؤشرات المتوقعة الأخرى:**
+> من بين 10 تنبؤات TxGNN في حزمة الأدلة هذه، **انفصام الشخصية** (الترتيب 5؛ درجة 99.69%) هو المؤشر الوحيد الذي يصل إلى **أدلة L3** وتوصية مرحلة *سؤال البحث*. يدعمه تجربتان سريريتان (NCT00009048, NCT03911726) و 20 منشوراً تغطي دراسات فرضية مستقبلات الدوبامين الذاتية ونماذج التحدي الغدي العصبي. يوفر المبرر التاريخي "مستقبل ذاتي قبل مشبكي" — ابوموروفين بجرعات منخفضة يحفز بشكل تفضيلي مستقبلات D2 الذاتية لقمع تخليق الدوبامين — معقولية بيولوجية، على الرغم من عدم وجود تجربة عشوائية محكومة علاجية مباشرة. يوجد تحذير أمان: كناهض دوبامين كامل، قد تؤدي الجرعات الأعلى إلى تفاقم الأعراض الذهانية الإيجابية. يستحق هذا الاتجاه مراجعة أدلة مخصصة منفصلة عن توصية الوقف الحالية للمؤشر ذو الترتيب الأعلى.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

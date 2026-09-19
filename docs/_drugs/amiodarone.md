@@ -29,82 +29,83 @@ indication_count: 10
 
 </div>
 
-# Amiodarone: From Ventricular Arrhythmias to Catecholaminergic Polymorphic Ventricular Tachycardia
+# Amiodarone: من اضطرابات نظم البطيني إلى عدم انتظام ضربات القلب متعدد الأشكال الحساس للكاتيكولامينات
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Amiodarone is a Class III antiarrhythmic agent with broad multichannel-blocking properties, widely used in clinical practice for the management of life-threatening ventricular and supraventricular arrhythmias.
-The TxGNN model predicts it may be effective for **Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)**,
-with **0 clinical trials** and **10 publications** currently supporting this direction.
+Amiodarone هو عامل مضاد لاضطرابات النظم من الفئة الثالثة بخصائص حصار متعددة القنوات، يُستخدم على نطاق واسع في الممارسة السريرية لعلاج اضطرابات النظم البطينية والأذينية المهددة للحياة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **عدم انتظام ضربات القلب متعدد الأشكال الحساس للكاتيكولامينات (CPVT)**،
+مع **0 تجارب سريرية** و **10 منشورات** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Ventricular arrhythmias (Class III antiarrhythmic; no Saudi Arabia registration on file) |
-| Predicted New Indication | Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 (Mechanistic rationale only; no clinical trials identified) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | اضطرابات النظم البطينية (عامل مضاد لاضطرابات النظم من الفئة الثالثة؛ لا يوجد تسجيل في المملكة العربية السعودية في الملف) |
+| المؤشر الجديد المتنبأ به | عدم انتظام ضربات القلب متعدد الأشكال الحساس للكاتيكولامينات (CPVT) |
+| درجة تنبؤ TxGNN | 99.78% |
+| مستوى الدليل | L4 (المنطق الآلي فقط؛ لم يتم تحديد تجارب سريرية) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Amiodarone is a broad-spectrum antiarrhythmic agent with properties spanning multiple Vaughan-Williams classes: it blocks voltage-gated sodium channels (Nav), potassium channels (Kv), and calcium channels (Cav), and exerts non-competitive beta-adrenergic receptor (β-AR) blockade. Detailed DrugBank MOA data was not available for this evaluation, but the drug's electrophysiological profile is well documented in the clinical literature and is central to understanding its potential in CPVT.
+Amiodarone هو عامل مضاد لاضطرابات النظم عريض الطيف بخصائص تمتد عبر فئات Vaughan-Williams المتعددة: يحصر قنوات الصوديوم الحساسة للجهد (Nav)، وقنوات البوتاسيوم (Kv)، وقنوات الكالسيوم (Cav)، ويمارس حصار مستقبلات بيتا الأدرينرجية غير التنافسي (β-AR). لم تكن بيانات آلية العمل من DrugBank متاحة لهذا التقييم، لكن الملف الكهربائي الفسيولوجي للدواء موثق جيداً في الأدبيات السريرية وهو محوري لفهم إمكاناته في CPVT.
 
-CPVT is a rare inherited channelopathy caused by mutations in the RYR2 (ryanodine receptor type 2) or CASQ2 (calsequestrin-2) genes. These mutations cause spontaneous calcium release from the sarcoplasmic reticulum during adrenergic stimulation, producing delayed afterdepolarizations (DADs) that trigger ventricular tachycardia. Amiodarone's β-AR blockade can attenuate catecholamine-driven calcium dysregulation, while its Nav and Kv channel-blocking effects may suppress the resulting triggered activity. However, amiodarone does not directly stabilize the RYR2 channel — the primary pathological mechanism — making its mechanistic fit less optimal than flecainide, which has a direct RYR2-blocking effect.
+CPVT هو اضطراب قنوي نادر وراثي يسببه طفرات في جينات RYR2 (مستقبل رايانودين من النوع 2) أو CASQ2 (كالسيكويسترين-2). تسبب هذه الطفرات إطلاق كالسيوم تلقائي من الشبكة الساركوبلازمية أثناء التحفيز الأدرينرجي، مما ينتج عن تأخر إزالة الاستقطاب (DADs) التي تشعل عدم انتظام ضربات البطين. يمكن لحصار β-AR الخاص بـ Amiodarone أن يخفف من عدم انتظام الكالسيوم المدفوع بالكاتيكولامين، بينما قد تكبح تأثيرات حصار Nav و Kv القنوية النشاط المحفز الناتج. ومع ذلك، لا يثبت Amiodarone مباشرة قناة RYR2 — الآلية المرضية الأساسية — مما يجعل ملاءمته الآلية أقل مثالية من flecainide، الذي له تأثير حصار RYR2 مباشر.
 
-The TxGNN prediction likely reflects amiodarone's broad antiarrhythmic efficacy across ventricular arrhythmia subtypes. Available evidence consists entirely of case reports, case series, and general arrhythmia reviews; no studies are specifically designed to evaluate amiodarone in CPVT. Its clinical role in CPVT is best understood as a bridging or add-on therapy in refractory cases where first-line agents (beta-blockers, flecainide) have failed, or in acute hemodynamic crises where parenteral antiarrhythmic control is urgently needed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for amiodarone in catecholaminergic polymorphic ventricular tachycardia.
+على الأرجح يعكس تنبؤ TxGNN الفعالية المضادة لاضطرابات النظم على نطاق واسع من Amiodarone عبر أنواع فرعية من اضطرابات النظم البطينية. تتكون الأدلة المتاحة بالكامل من تقارير الحالات وسلسلة الحالات والمراجعات العامة لاضطرابات النظم؛ لا توجد دراسات مصممة خصيصاً لتقييم Amiodarone في CPVT. يُفهم دوره السريري في CPVT بشكل أفضل كعلاج جسري أو إضافي في الحالات المقاومة حيث فشلت الأدوية من الخط الأول (حاصرات بيتا، flecainide)، أو في الأزمات الديناميكية الدموية الحادة حيث يكون التحكم في مضادات النظم الحقني مطلوباً بشكل عاجل.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ Amiodarone في عدم انتظام ضربات القلب متعدد الأشكال الحساس للكاتيكولامينات.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Review | Expert Opin Pharmacother | Comprehensive review of pharmacologic treatment of ventricular arrhythmias; contextualizes amiodarone among antiarrhythmic options |
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Cohort/Registry | Life (Basel) | Systematic review of CPVT clinical characteristics, genetic findings (RYR2/CASQ2), and arrhythmic outcomes in Chinese patients |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Retrospective Cohort | Rev Cardiovasc Med | CPVT clinical characteristics, genetic basis, and healthcare resource utilization in a retrospective Chinese cohort |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Case Series | PACE | Flecainide — not amiodarone — suppressed ICD-induced arrhythmic storm in a CPVT patient with CASQ2 mutation; highlights the comparative limitations of amiodarone |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Case Report | BMJ Case Reports | Child with cardiac arrest due to CPVT; refractory pulseless VT required 40 defibrillation shocks; multimodal antiarrhythmic therapy including amiodarone was administered |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Case Report | Front Cardiovasc Med | CPVT in a teenager finally resolved by right cardiac sympathetic denervation after failure of pharmacotherapy including amiodarone |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Case Report | Turk Pediatri Arsivi | CPVT presenting as sudden cardiac arrest in a 2-year-old; illustrates the diagnostic challenge and acute management needs |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Case Report | Medicine | Delayed CPVT diagnosis (6 years) in a child with RYR2 c.7580T>G mutation; underlines the importance of early genetic testing |
-| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | Case Report | Rev Esp Cardiol | Arrhythmic storm triggered by ICD discharge in a CPVT patient; amiodarone mentioned in the acute management context |
-| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Case Report | Anesth Analg | Neonate with long QT syndrome and refractory ventricular tachycardia; amiodarone was used as part of multimodal pharmacotherapy alongside lidocaine and esmolol |
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | مراجعة | Expert Opin Pharmacother | مراجعة شاملة للعلاج الدوائي لاضطرابات النظم البطينية؛ تضع Amiodarone في السياق بين خيارات مضادات النظم |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | مجموعة سكانية/سجل | Life (Basel) | مراجعة منهجية للخصائص السريرية لـ CPVT والنتائج الجينية (RYR2/CASQ2) والنتائج المرضية في المرضى الصينيين |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | مجموعة سكانية بأثر رجعي | Rev Cardiovasc Med | الخصائص السريرية لـ CPVT والأساس الجيني واستخدام الموارد الصحية في مجموعة صينية بأثر رجعي |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | سلسلة حالات | PACE | Flecainide — وليس Amiodarone — قمع عاصفة اضطرابات النظم المستحثة بـ ICD في مريض CPVT مع طفرة CASQ2؛ يسلط الضوء على القيود المقارنة لـ Amiodarone |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | تقرير حالة | BMJ Case Reports | طفل يعاني من توقف القلب بسبب CPVT؛ تطلب VT بدون نبض مقاوم للعلاج 40 صدمة تحطيم؛ تم إعطاء العلاج المضاد لاضطرابات النظم متعدد الأشكال بما في ذلك Amiodarone |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | تقرير حالة | Front Cardiovasc Med | CPVT في مراهق تم حله أخيراً بإزالة الحساسية بالتعاطف القلبي الأيمن بعد فشل العلاج الدوائي بما في ذلك Amiodarone |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | تقرير حالة | Turk Pediatri Arsivi | CPVT يظهر كتوقف قلبي مفاجئ في طفل عمره سنتان؛ يوضح التحدي التشخيصي واحتياجات الإدارة الحادة |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | تقرير حالة | Medicine | تشخيص CPVT المتأخر (6 سنوات) في طفل مع طفرة RYR2 c.7580T>G؛ يؤكد أهمية الاختبار الجيني المبكر |
+| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | تقرير حالة | Rev Esp Cardiol | عاصفة اضطرابات النظم التي تحفزها تفريغ ICD في مريض CPVT؛ تم ذكر Amiodarone في سياق الإدارة الحادة |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | تقرير حالة | Anesth Analg | حديث الولادة مع متلازمة QT طويلة وعدم انتظام ضربات البطين المقاوم للعلاج؛ تم استخدام Amiodarone كجزء من العلاج الدوائي متعدد الأشكال جنباً إلى جنب مع الليدوكايين والإسموللول |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Evidence for amiodarone in CPVT is limited to indirect case reports and general arrhythmia reviews, with no dedicated clinical trials. While a plausible mechanistic pathway exists via β-AR blockade, amiodarone does not address the primary RYR2/CASQ2 pathophysiology and is mechanistically inferior to established CPVT therapies such as beta-blockers and flecainide.
+**المنطق:**
+الدليل على فعالية Amiodarone في CPVT محدود بتقارير الحالات غير المباشرة والمراجعات العامة لاضطرابات النظم، بدون تجارب سريرية مخصصة. بينما يوجد مسار آلي معقول عبر حصار β-AR، لا يعالج Amiodarone المرضية الأساسية لـ RYR2/CASQ2 ويكون أقل أفضلية من الناحية الآلية مقارنة بعلاجات CPVT المعمول بها مثل حاصرات بيتا و flecainide.
 
-**To proceed, the following is needed:**
-- Prospective observational studies or registries specifically evaluating amiodarone as adjunctive therapy in refractory CPVT
-- Complete DrugBank MOA data to formally assess target engagement relevant to RYR2/CASQ2 signaling pathways
-- Pediatric safety data for chronic amiodarone use, as CPVT predominantly presents in children and young adults
-- Saudi Arabia regulatory pathway assessment, given zero market authorizations and the absence of any local safety or pharmacovigilance data
-- Comparative efficacy data positioning amiodarone relative to flecainide and nadolol/propranolol in the CPVT treatment algorithm
+**لكي تتقدم، يلزم ما يلي:**
+- دراسات المراقبة الاستشرافية أو السجلات التي تقيّم بشكل خاص Amiodarone كعلاج إضافي في CPVT المقاوم للعلاج
+- بيانات آلية العمل الكاملة من DrugBank لتقييم الارتباط الهدف ذو الصلة بمسارات إشارات RYR2/CASQ2
+- بيانات السلامة في الأطفال لاستخدام Amiodarone المزمن، حيث تظهر CPVT بشكل أساسي في الأطفال والبالغين الشباب
+- تقييم المسار التنظيمي في المملكة العربية السعودية، نظراً لعدم وجود تفويضات سوقية وغياب أي بيانات محلية للسلامة أو اليقظة الدوائية
+- بيانات الفعالية المقارنة لتحديد موضع Amiodarone بالنسبة إلى flecainide و nadolol/propranolol في خوارزمية معالجة CPVT
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,62 +29,63 @@ indication_count: 1
 
 </div>
 
-# Sodium Stibogluconate: From Leishmaniasis to Drug-Induced Osteoporosis
+# Sodium Stibogluconate: من الليشمانيا إلى هشاشة العظام المستحثة بالعقاقير
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Sodium stibogluconate is a pentavalent antimonial compound, clinically used exclusively for the treatment of leishmaniasis.
-The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis**,
-but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational prediction with no empirical evidence.
+Sodium stibogluconate عبارة عن مركب أنتيموني خماسي التكافؤ، يستخدم سريريًا حصريًا لعلاج الليشمانيا.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لهشاشة العظام المستحثة بالعقاقير،
+لكن هذا الاتجاه يدعمه حاليًا 0 من التجارب السريرية و 0 من المنشورات — إنها تنبؤ حسابي خالص بدون أدلة تجريبية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Leishmaniasis |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.56% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | الليشمانيا |
+| الاستطباب الجديد المتوقع | هشاشة العظام المستحثة بالعقاقير |
+| درجة التنبؤ من TxGNN | 99.56% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | على الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, sodium stibogluconate is a pentavalent antimonial compound whose efficacy in leishmaniasis has been clinically proven; mechanistically, its relevance to drug-induced osteoporosis remains a theoretical hypothesis rather than an established link.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المعروفة، sodium stibogluconate هو مركب أنتيموني خماسي التكافؤ ثبتت فعاليته سريريًا في الليشمانيا؛ من حيث الآلية، لا تزال صلته بهشاشة العظام المستحثة بالعقاقير فرضية نظرية بدلاً من رابط مثبت.
 
-The drug's most-discussed pharmacological activity in the literature is inhibition of protein tyrosine phosphatases (notably SHP-1/PTP1B). These phosphatases do play a regulatory role in osteoclast differentiation signaling (the RANKL/c-Fms pathway), which offers a plausible mechanistic rationale for a connection to bone metabolism. However, this is a mechanism-level inference only — no animal or human data currently link sodium stibogluconate to bone density, osteoclast activity, or drug-induced osteoporosis.
+النشاط الدوائي الأكثر نقاشًا للعقار في الأدبيات هو منع بروتين تيروسين فوسفاتاز (لا سيما SHP-1/PTP1B). تلعب هذه الفوسفاتاز دورًا تنظيميًا في إشارات تمايز الناقضات العظمية (مسار RANKL/c-Fms)، مما يوفر منطقًا آليًا معقولاً للربط بين عملية استقلاب العظام. ومع ذلك، هذا استدلال على مستوى الآلية فقط — لا توجد حاليًا بيانات على الحيوانات أو البشر تربط sodium stibogluconate بكثافة العظام أو نشاط الناقضات العظمية أو هشاشة العظام المستحثة بالعقاقير.
 
-This candidate should be regarded as a purely computational TxGNN prediction (score 0.9956, rank 7177), unsupported by any clinical trial or published literature at this time.
+يجب اعتبار هذا المرشح بمثابة تنبؤ TxGNN حسابي بحت (الدرجة 0.9956، الترتيب 7177)، بدون دعم من أي تجربة سريرية أو منشورات أدبية في الوقت الحالي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حاليًا
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Sodium stibogluconate is not currently marketed in Saudi Arabia; no product authorizations are on record.
+Sodium stibogluconate غير مسوق حاليًا في المملكة العربية السعودية؛ لا توجد موافقات منتجات مسجلة.
 
-## Safety Considerations
+## الاعتبارات الأمانية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات الدوائية للحصول على معلومات الأمان.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: على الانتظار**
 
-**Rationale:**
-This prediction is supported only by the TxGNN model (Evidence Level L5), with no clinical trials or literature confirming a link between sodium stibogluconate and drug-induced osteoporosis; the drug is also unmarketed in Saudi Arabia, and both its original MOA and safety profile remain undocumented.
+**المبرر:**
+هذا التنبؤ مدعوم فقط بنموذج TxGNN (مستوى الدليل L5)، بدون تجارب سريرية أو أدبيات تؤكد وجود رابط بين sodium stibogluconate وهشاشة العظام المستحثة بالعقاقير؛ العقار أيضًا غير مسوق في المملكة العربية السعودية، وتبقى آليته الأصلية وملفه الأماني بدون توثيق.
 
-**To proceed, the following is needed:**
-- SFDA-equivalent package insert warnings/contraindications (currently a Blocking data gap)
-- Detailed mechanism of action (MOA) data from DrugBank or primary literature (currently a High-severity data gap)
-- Preclinical (animal) or observational evidence directly linking sodium stibogluconate exposure to bone density/osteoclast effects
-- Confirmation of regulatory pathway feasibility given the drug's unmarketed status in Saudi Arabia
+**للمتابعة، المطلوب ما يلي:**
+- تحذيرات/موانع استخدام من نشرة معلومات ما يعادل SFDA (فجوة بيانات حاجزة حاليًا)
+- بيانات آلية العمل (MOA) التفصيلية من DrugBank أو الأدبيات الأولية (فجوة بيانات عالية الخطورة حاليًا)
+- أدلة ما قبل الإكلينيكية (على الحيوانات) أو رصدية تربط بشكل مباشر التعرض لـ sodium stibogluconate بتأثيرات كثافة العظام/نشاط الناقضات العظمية
+- تأكيد جدوى المسار التنظيمي بالنظر إلى حالة عدم تسويق العقار في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

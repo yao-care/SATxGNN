@@ -29,83 +29,85 @@ indication_count: 5
 
 </div>
 
-# Butenafine: From Dermatophytosis to Cutaneous Candidiasis
+# بوتينافين: من العدوى الجلدية الفطرية إلى داء المبيضات الجلدي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Butenafine is a topical benzylamine-class antifungal internationally approved (e.g., by the FDA) for dermatophyte infections including tinea pedis, tinea cruris, and tinea corporis, though it currently holds no Taiwan market authorization.
-The TxGNN model predicts it may be effective for **Cutaneous Candidiasis**,
-with **0 clinical trials** and **3 publications** currently supporting this direction.
+butenafine هو عامل مضاد للفطريات موضعي من فئة البنزيلامين معتمد دولياً (على سبيل المثال، من قبل إدارة الغذاء والدواء الأمريكية) لعلاج العدوى الجلدية الفطرية بما في ذلك سعفة القدمين وسعفة الإربية وسعفة الجسم، لكنه حالياً لا يحمل أي موافقة تسويقية في تايوان.
+
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **داء المبيضات الجلدي**،
+مع وجود **صفر تجارب سريرية** و **3 منشورات** تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No Taiwan registration; internationally used for dermatophytosis (tinea pedis / tinea cruris / tinea corporis) |
-| Predicted New Indication | Cutaneous Candidiasis |
-| TxGNN Prediction Score | 99.33% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| المؤشر الأصلي | غير مسجل في تايوان؛ يُستخدم دولياً لعلاج العدوى الجلدية الفطرية (سعفة القدمين / سعفة الإربية / سعفة الجسم) |
+| المؤشر الجديد المتنبأ به | داء المبيضات الجلدي |
+| درجة التنبؤ بنموذج TxGNN | 99.33% |
+| مستوى الأدلة | L4 |
+| حالة السوق التايوانية | ✗ غير متاح في السوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | سؤال بحثي |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on published pharmacological literature, butenafine is a synthetic benzylamine antifungal that inhibits squalene epoxidase — an enzyme essential for ergosterol biosynthesis in fungal cell membranes. This is structurally and mechanistically related to the allylamine class (e.g., terbinafine), and the ergosterol synthesis pathway is shared across both dermatophytes and *Candida* species, providing a theoretical basis for cross-indication activity.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة. بناءً على الأدبيات الدوائية المنشورة، butenafine هو عامل مضاد للفطريات من فئة benzylamine الاصطناعية يثبط إنزيم سكوالين إبوكسيديز — وهو إنزيم ضروري لتخليق الإرغوستيرول في أغشية خلايا الفطريات. يرتبط هذا بشكل هيكلي وآلي بفئة allylamine (على سبيل المثال، terbinafine)، وتتشارك مسار تخليق الإرغوستيرول بين الفطريات الجلدية والمبيضات، مما يوفر أساساً نظرياً لنشاط عابر للمؤشرات.
 
-Dermatophytosis and cutaneous candidiasis are both superficial skin mycoses caused by fungi that depend on ergosterol for membrane integrity. Butenafine's high lipophilicity and demonstrated skin penetration profile support its potential to reach concentrations adequate to inhibit *Candida* at the cutaneous level. In animal models (guinea pig), butenafine has shown activity against superficial candidiasis when evaluated alongside other antifungals.
+العدوى الجلدية الفطرية وداء المبيضات الجلدي كلاهما عدوى فطرية سطحية تسببها فطريات تعتمد على الإرغوستيرول لسلامة الغشاء. تدعم الذوبانية العالية في الدهون لـ butenafine وملف الاختراق الجلدي المثبت إمكانيته للوصول إلى تركيزات كافية لتثبيط المبيضات على المستوى الجلدي. في نماذج حيوانية (خنزير غينيا)، أظهر butenafine نشاطاً ضد داء المبيضات السطحي عند تقييمه جنباً إلى جنب مع عوامل مضادة للفطريات أخرى.
 
-However, the clinical evidence gap is significant. Butenafine's validated spectrum is primarily against dermatophytes (*Trichophyton*, *Microsporum*, *Epidermophyton*). In vitro data against *Candida* species shows variable minimum inhibitory concentrations, and no dedicated clinical trial for cutaneous candidiasis has been registered. The TxGNN score (99.33%) reflects disease graph proximity and mechanistic plausibility, not confirmed clinical efficacy. This prediction should be treated as a hypothesis-generating signal requiring prospective validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الفجوة في الأدلة السريرية كبيرة. الطيف المثبت لـ butenafine هو في المقام الأول ضد الفطريات الجلدية (*Trichophyton*, *Microsporum*, *Epidermophyton*). توضح البيانات في المختبر ضد أنواع المبيضات تركيزات مثبطة دنيا متغيرة، ولم يتم تسجيل أي تجربة سريرية مكرسة لداء المبيضات الجلدي. درجة TxGNN (99.33%) تعكس القرب من الرسم البياني للمرض والمعقولية الآلية، وليس الفعالية السريرية المؤكدة. يجب معاملة هذا التنبؤ كإشارة توليد الفرضيات التي تتطلب التحقق الاستشرافي.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | Review | Journal of Drugs in Dermatology | Reviews topical antifungal agents for superficial cutaneous fungal infections including dermatophytosis and yeast infections; discusses butenafine's role and activity spectrum among available topical agents |
-| [11893219](https://pubmed.ncbi.nlm.nih.gov/11893219/) | 2002 | Review | Am J Clin Dermatology | Narrative review of six novel antimycotics including butenafine; describes its potential applications across cutaneous and mucosal fungal diseases, though primary evidence cited is for dermatophytes |
-| [11302816](https://pubmed.ncbi.nlm.nih.gov/11302816/) | 2001 | In Vitro Study | Antimicrobial Agents and Chemotherapy | Evaluated KP-103 triazole against dermatomycosis pathogens including *Candida* species and dermatophytes in guinea pig models of tinea pedis and cutaneous candidiasis; butenafine referenced as a comparator antifungal in MIC assays |
+| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | مراجعة | Journal of Drugs in Dermatology | يراجع العوامل المضادة للفطريات الموضعية للعدوى الفطرية الجلدية السطحية بما في ذلك العدوى الجلدية الفطرية والعدوى الفطرية الخمائرية؛ يناقش دور butenafine وطيف نشاطه بين العوامل المتاحة |
+| [11893219](https://pubmed.ncbi.nlm.nih.gov/11893219/) | 2002 | مراجعة | Am J Clin Dermatology | مراجعة سردية لستة عوامل مضادة للفطريات الحديثة بما فيها butenafine؛ تصف تطبيقاته المحتملة عبر الأمراض الفطرية الجلدية والمخاطية، على الرغم من أن الأدلة الأساسية المذكورة هي للفطريات الجلدية |
+| [11302816](https://pubmed.ncbi.nlm.nih.gov/11302816/) | 2001 | دراسة في المختبر | Antimicrobial Agents and Chemotherapy | قيّم KP-103 ترايزول ضد أمراض الجلد الفطرية بما في ذلك أنواع المبيضات والفطريات الجلدية في نماذج خنزير غينيا من سعفة القدمين وداء المبيضات الجلدي؛ تمت الإشارة إلى butenafine كعامل مضاد للفطريات للمقارنة في اختبارات التركيز المثبط الأدنى |
 
 ---
 
-## Taiwan Market Information
+## معلومات السوق التايوانية
 
-Butenafine currently holds no approved drug license in Taiwan. No registered products or authorized indications are available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+butenafine لا يحمل حالياً أي ترخيص دواء معتمد في تايوان. لا توجد منتجات مسجلة أو مؤشرات معتمدة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Research Question**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The three identified publications are indirect reviews and one in vitro comparator study — none constitute direct clinical evidence for butenafine in cutaneous candidiasis; the TxGNN prediction reflects mechanistic and disease-graph plausibility only, and no registered clinical trial exists to date.
+---
 
-**To proceed, the following is needed:**
+## الخلاصة والخطوات التالية
 
-- Dedicated in vitro susceptibility studies (MIC determination by CLSI/EUCAST method) for butenafine against key cutaneous *Candida* species (*C. albicans*, *C. tropicalis*, *C. parapsilosis*)
-- Animal model proof-of-concept (e.g., guinea pig cutaneous candidiasis model) to confirm in vivo fungicidal activity
-- Mechanism of action data retrieval from DrugBank API to formally document the squalene epoxidase inhibition pathway
-- Taiwan package insert and TFDA warning database review to identify safety contraindications prior to any trial initiation
-- Pilot clinical study (open-label or Phase 2 RCT) comparing topical butenafine 1% cream vs. standard-of-care (e.g., clotrimazole) in patients with confirmed cutaneous candidiasis
-- Consider bridging from the stronger L1 evidence base for **Superficial Mycosis** (TxGNN rank 2, score 99.02%, supported by 3 RCTs) as the primary regulatory registration pathway; cutaneous candidiasis can be explored as a label extension thereafter
+**القرار: سؤال بحثي**
+
+**الأساس المنطقي:**
+المنشورات الثلاثة المحددة هي مراجعات غير مباشرة ودراسة مقارن في المختبر واحدة — لا تشكل أي منها أدلة سريرية مباشرة على butenafine في داء المبيضات الجلدي؛ يعكس التنبؤ بـ TxGNN معقولية الآلية والرسم البياني للمرض فقط، ولا توجد تجربة سريرية مسجلة حتى الآن.
+
+**للمتابعة، يلزم ما يلي:**
+
+- دراسات حساسية في المختبر مكرسة (تحديد التركيز المثبط الأدنى بطريقة CLSI/EUCAST) لـ butenafine ضد أنواع المبيضات الجلدية الرئيسية (*C. albicans*, *C. tropicalis*, *C. parapsilosis*)
+- إثبات مفهوم نموذج حيواني (على سبيل المثال، نموذج داء المبيضات الجلدي في خنزير غينيا) للتأكيد على نشاط الفطريات في الجسم الحي
+- استرجاع بيانات آلية العمل من واجهة برنامج التطبيقات DrugBank لتوثيق مسار تثبيط سكوالين إبوكسيديز رسمياً
+- استعراض نشرة الحزمة التايوانية وقاعدة بيانات تحذيرات TFDA لتحديد موانع السلامة قبل بدء أي تجربة
+- دراسة سريرية تجريبية (مفتوحة التسمية أو تجربة عشوائية مضبوطة المرحلة الثانية) تقارن كريم butenafine الموضعي 1% مقابل المعيار الذهبي (على سبيل المثال، clotrimazole) في المرضى الذين يعانون من داء المبيضات الجلدي المؤكد
+- النظر في الجسر من قاعدة الأدلة الأقوى L1 لـ **الأمراض الفطرية السطحية** (ترتيب TxGNN 2، درجة 99.02%، مدعوم بـ 3 تجارب عشوائية مضبوطة) كمسار التسجيل التنظيمي الأساسي؛ يمكن استكشاف داء المبيضات الجلدي كامتداد تسمية لاحقاً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

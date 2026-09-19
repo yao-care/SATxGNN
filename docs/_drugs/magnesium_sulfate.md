@@ -29,92 +29,93 @@ indication_count: 10
 
 </div>
 
-# Magnesium Sulfate: From No Registered Indication to Preeclampsia/Eclampsia
+# كبريتات المغنيسيوم: من عدم وجود مؤشر مسجل إلى تسمم الحمل/الإكلامبسيا
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Magnesium sulfate (MgSO₄) currently has no marketing authorization or documented approved indication in Saudi Arabia.
-> The TxGNN model assigns near-maximal confidence (**99.9992%**) to **Preeclampsia/Eclampsia**,
-> an association backed by **50 clinical trials** and **20 publications**, including the landmark Magpie Trial and multiple completed Phase 2/3 RCTs — evidence that reflects MgSO4's globally established role as the WHO-recommended standard anticonvulsant, rather than a genuinely novel repurposing signal.
+> كبريتات المغنيسيوم (MgSO₄) لا تملك حالياً تصريحاً بالتسويق أو مؤشراً معتمداً موثقاً في المملكة العربية السعودية.
+> يخصص نموذج TxGNN ثقة قريبة من الحد الأقصى (**99.9992%**) إلى **تسمم الحمل/الإكلامبسيا**،
+> وهي ارتباط مدعوم بـ **50 تجربة سريرية** و **20 منشوراً**، بما فيها تجربة Magpie الرئيسية والعديد من التجارب العشوائية المضبوطة المكتملة من المرحلة 2/3 — أدلة تعكس الدور المعترف به عالمياً لـ MgSO₄ كمضادات تشنج معياري موصى به من منظمة الصحة العالمية، وليس كإشارة إعادة توظيف جديدة حقيقية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not on file — drug is not currently marketed in Saudi Arabia (no license/indication record) |
-| Predicted New Indication | Preeclampsia/Eclampsia |
-| TxGNN Prediction Score | 99.9992% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسجل — الدواء غير مسوق حالياً في المملكة العربية السعودية (لا يوجد رخصة أو سجل مؤشر) |
+| المؤشر الجديد المتنبأ به | تسمم الحمل/الإكلامبسيا |
+| درجة التنبؤ في TxGNN | 99.9992% |
+| مستوى الدليل | L1 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, magnesium sulfate acts as an NMDA-receptor antagonist with cerebral vasodilatory and anticonvulsant properties, and it is internationally recognized (WHO, ACOG, and other major guidelines) as the standard-of-care agent for preventing and treating seizures in preeclampsia and eclampsia.
+حالياً، بيانات آلية التأثير التفصيلية غير متاحة في هذه مجموعة الأدلة. استناداً إلى الصيدلة المعروفة، يعمل كبريتات المغنيسيوم كمعادل لمستقبلات NMDA مع خصائص توسع الأوعية الدماغية ومضادات التشنج، وهو معترف به دولياً (منظمة الصحة العالمية، ACOG، والإرشادات الرئيسية الأخرى) كعامل الرعاية القياسي لمنع ومعالجة النوبات في تسمم الحمل والإكلامبسيا.
 
-Because this established indication is not reflected in the drug's `original_indications` or Saudi licensing records, the TxGNN prediction here functions less as a discovery of a *new* use and more as a confirmation of an *existing, well-documented* clinical role that has simply not been captured in the structured registry data.
+نظراً لأن هذا المؤشر المعترف به لم ينعكس في `original_indications` الخاصة بالدواء أو سجلات الترخيص السعودية، فإن التنبؤ بـ TxGNN هنا يعمل بشكل أقل كاكتشاف لـ *استخدام جديد* وأكثر كتأكيد لـ *دور سريري موجود وموثق جيداً* لم يتم التقاطه في بيانات السجل المنظمة.
 
-The clinical trial and literature evidence — spanning dosing-regimen optimization (12h vs 24h, Pritchard regimen comparisons), large pragmatic trials (the CLIP cluster-RCT with n=87,500), and mechanistic/pharmacokinetic studies — consistently supports this indication, reinforcing that the mechanistic rationale is sound even though formal MOA documentation is currently a data gap.
+تتعلق البيانات الدليل من التجارب السريرية والأدب — التي تمتد عبر تحسين النظام الدوائي (12 ساعة مقابل 24 ساعة، مقارنات نظام بريتشارد)، والتجارب العملية الكبيرة (تجربة عنقود CLIP مع n=87,500)، والدراسات الآلية / الدوائية — باستمرار تدعم هذا المؤشر، مما يعزز أن الأساس الآلي سليم حتى لو كان توثيق آلية التأثير الرسمية حالياً فجوة بيانات.
 
 ---
 
-## Clinical Trial Evidence
+## بيانات التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01492608](https://clinicaltrials.gov/study/NCT01492608) | Phase 3 | Completed | 560 | Antenatal MgSO4 vs placebo in women at risk of preterm birth, assessing neuroprotection against cerebral palsy/death in preterm infants (MASP study) |
-| [NCT01801410](https://clinicaltrials.gov/study/NCT01801410) | Phase 3 | Completed | 602 | Compared Foley balloon catheter vs oral misoprostol for labor induction in preeclamptic women receiving standard MgSO4 anticonvulsant therapy |
-| [NCT01911494](https://clinicaltrials.gov/study/NCT01911494) | NA (cluster-RCT) | Completed | 87,500 | CLIP trial: community-level package of care, including MgSO4 protocols, for hypertensive disorders of pregnancy across multiple low-resource countries |
-| [NCT03412552](https://clinicaltrials.gov/study/NCT03412552) | N/A | Completed | 1,238 | Risk analysis of ICU management, including MgSO4 seizure control, on maternal/fetal outcomes in severe preeclampsia/eclampsia |
-| [NCT02307201](https://clinicaltrials.gov/study/NCT02307201) | Phase 2/3 | Completed | 1,114 | Multicenter RCT testing whether postpartum MgSO4 can be safely discontinued after ≥8 hours of pre-delivery treatment |
-| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | Phase 2/3 | Completed | 280 | RCT comparing 6-hour vs 24-hour postpartum MgSO4 duration when <8 hours given before delivery |
-| [NCT04501289](https://clinicaltrials.gov/study/NCT04501289) | NA | Completed | 114 | RCT comparing low-dose MgSO4 vs standard Pritchard regimen for seizure prevention/treatment in severe preeclampsia/eclampsia |
-| [NCT06126068](https://clinicaltrials.gov/study/NCT06126068) | NA | Completed | 120 | RCT comparing loading-dose MgSO4 vs Pritchard regimen in a resource-poor Nigerian setting |
-| [NCT04576364](https://clinicaltrials.gov/study/NCT04576364) | NA | Completed | 280 | RCT comparing 12-hour vs 24-hour postpartum MgSO4 duration to balance anticonvulsant efficacy against side-effect exposure |
-| [NCT01030627](https://clinicaltrials.gov/study/NCT01030627) | Phase 4 | Completed | 85 | Pilot study of MgSO4 delivery via Springfusor pump for preeclampsia treatment in low-resource settings |
+| [NCT01492608](https://clinicaltrials.gov/study/NCT01492608) | المرحلة 3 | مكتملة | 560 | كبريتات المغنيسيوم السابقة للولادة مقابل الدواء الوهمي في النساء المعرضات لخطر الولادة المبكرة، تقيم الحماية العصبية ضد الشلل الدماغي / الموت في الأطفال الخدج (دراسة MASP) |
+| [NCT01801410](https://clinicaltrials.gov/study/NCT01801410) | المرحلة 3 | مكتملة | 602 | قارنت بين قسطرة بالون فولي مقابل ميزوبروستول الفموي لتحريض المخاض في النساء المصابات بتسمم الحمل الذين يتلقون علاج كبريتات المغنيسيوم المضاد للتشنج القياسي |
+| [NCT01911494](https://clinicaltrials.gov/study/NCT01911494) | NA (عنقود عشوائي) | مكتملة | 87,500 | تجربة CLIP: حزمة رعاية على مستوى المجتمع، بما في ذلك بروتوكولات كبريتات المغنيسيوم، لاضطرابات فرط ضغط الدم في الحمل عبر دول منخفضة الموارد متعددة |
+| [NCT03412552](https://clinicaltrials.gov/study/NCT03412552) | N/A | مكتملة | 1,238 | تحليل المخاطر للإدارة في وحدة العناية المكثفة، بما في ذلك السيطرة على التشنج بكبريتات المغنيسيوم، على النتائج الأمومية / الجنينية في تسمم الحمل الشديد / الإكلامبسيا |
+| [NCT02307201](https://clinicaltrials.gov/study/NCT02307201) | المرحلة 2/3 | مكتملة | 1,114 | تجربة عشوائية متعددة المراكز اختبار ما إذا كان يمكن إيقاف كبريتات المغنيسيوم بعد الولادة بأمان بعد ≥8 ساعات من العلاج السابق للولادة |
+| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | المرحلة 2/3 | مكتملة | 280 | تجربة عشوائية تقارن مدة كبريتات المغنيسيوم بعد الولادة 6 ساعات مقابل 24 ساعة عند إعطاء <8 ساعات قبل الولادة |
+| [NCT04501289](https://clinicaltrials.gov/study/NCT04501289) | NA | مكتملة | 114 | تجربة عشوائية تقارن كبريتات المغنيسيوم بجرعة منخفضة مقابل نظام بريتشارد القياسي لمنع / علاج النوبات في تسمم الحمل الشديد / الإكلامبسيا |
+| [NCT06126068](https://clinicaltrials.gov/study/NCT06126068) | NA | مكتملة | 120 | تجربة عشوائية تقارن كبريتات المغنيسيوم بجرعة تحميل مقابل نظام بريتشارد في بيئة نيجيرية محدودة الموارد |
+| [NCT04576364](https://clinicaltrials.gov/study/NCT04576364) | NA | مكتملة | 280 | تجربة عشوائية تقارن مدة كبريتات المغنيسيوم بعد الولادة 12 ساعة مقابل 24 ساعة لتحقيق التوازن بين فعالية مضادات التشنج مقابل تعرض الآثار الجانبية |
+| [NCT01030627](https://clinicaltrials.gov/study/NCT01030627) | المرحلة 4 | مكتملة | 85 | دراسة تجريبية لتوصيل كبريتات المغنيسيوم عبر مضخة Springfusor لعلاج تسمم الحمل في البيئات محدودة الموارد |
 
 ---
 
-## Literature Evidence
+## بيانات الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12576241](https://pubmed.ncbi.nlm.nih.gov/12576241/) | 2003 | RCT | Obstetrics and Gynecology | Livingston et al. RCT testing whether MgSO4 prevents disease progression in women with mild preeclampsia |
-| [38865319](https://pubmed.ncbi.nlm.nih.gov/38865319/) | 2024 | RCT | PLoS ONE | Randomized trial comparing Springfusor pump vs standard IM administration for MgSO4 acceptability in preeclampsia/eclampsia |
-| [9794688](https://pubmed.ncbi.nlm.nih.gov/9794688/) | 1998 | Review | Obstetrics and Gynecology | Witlin & Sibai review of efficacy, benefits, and risks of MgSO4 seizure prophylaxis in preeclampsia/eclampsia |
-| [41054655](https://pubmed.ncbi.nlm.nih.gov/41054655/) | 2025 | Review | Cureus | Consolidated review of MgSO4 pharmacology and clinical evidence across obstetric and pediatric emergency applications |
-| [2288560](https://pubmed.ncbi.nlm.nih.gov/2288560/) | 1990 | Review | Am J Obstet Gynecol | Sibai's classic review establishing MgSO4 as the anticonvulsant of choice in preeclampsia-eclampsia |
-| [2672428](https://pubmed.ncbi.nlm.nih.gov/2672428/) | 1989 | Mechanistic review | Stroke | Analysis of MgSO4 action via relief of cerebral vasospasm in eclampsia |
-| [16978425](https://pubmed.ncbi.nlm.nih.gov/16978425/) | 2006 | Review | Obstet Gynecol Surv | Belfort et al. on cerebral hemodynamics in preeclampsia and the rationale for MgSO4 use |
-| [490496](https://pubmed.ncbi.nlm.nih.gov/490496/) | 1979 | Historical review | J Reprod Med | Pritchard's foundational paper establishing the MgSO4 dosing regimen still used today |
-| [36413336](https://pubmed.ncbi.nlm.nih.gov/36413336/) | 2023 | Observational study | Biol Trace Elem Res | Incidence and risk factors for critical hypermagnesemia during MgSO4 therapy in severe preeclampsia |
-| [25353716](https://pubmed.ncbi.nlm.nih.gov/25353716/) | 2015 | Review | Acta Obstet Gynecol Scand | Evaluation of interventions, including MgSO4 protocols, to reduce preeclampsia/eclampsia-related maternal mortality in low-income countries |
+| [12576241](https://pubmed.ncbi.nlm.nih.gov/12576241/) | 2003 | تجربة عشوائية | Obstetrics and Gynecology | تجربة Livingston et al. العشوائية لاختبار ما إذا كانت كبريتات المغنيسيوم تمنع تطور المرض في النساء ذوات تسمم الحمل الخفيف |
+| [38865319](https://pubmed.ncbi.nlm.nih.gov/38865319/) | 2024 | تجربة عشوائية | PLoS ONE | تجربة عشوائية تقارن قبول مضخة Springfusor مقابل الإعطاء داخل العضل القياسي لكبريتات المغنيسيوم في تسمم الحمل / الإكلامبسيا |
+| [9794688](https://pubmed.ncbi.nlm.nih.gov/9794688/) | 1998 | مراجعة | Obstetrics and Gynecology | مراجعة Witlin & Sibai لفعالية وفوائد وأخطار نبوءة التشنج بكبريتات المغنيسيوم في تسمم الحمل / الإكلامبسيا |
+| [41054655](https://pubmed.ncbi.nlm.nih.gov/41054655/) | 2025 | مراجعة | Cureus | مراجعة موحدة لصيدلة كبريتات المغنيسيوم والأدلة السريرية عبر التطبيقات الولادة والطوارئ طب الأطفال |
+| [2288560](https://pubmed.ncbi.nlm.nih.gov/2288560/) | 1990 | مراجعة | Am J Obstet Gynecol | مراجعة Sibai الكلاسيكية التي تؤسس كبريتات المغنيسيوم كمضادات التشنج المختارة في تسمم الحمل - الإكلامبسيا |
+| [2672428](https://pubmed.ncbi.nlm.nih.gov/2672428/) | 1989 | مراجعة الآلية | Stroke | تحليل عمل كبريتات المغنيسيوم عبر تخفيف تشنج الأوعية الدماغية في الإكلامبسيا |
+| [16978425](https://pubmed.ncbi.nlm.nih.gov/16978425/) | 2006 | مراجعة | Obstet Gynecol Surv | Belfort et al. حول ديناميات الدم الدماغية في تسمم الحمل والأساس المنطقي لاستخدام كبريتات المغنيسيوم |
+| [490496](https://pubmed.ncbi.nlm.nih.gov/490496/) | 1979 | مراجعة تاريخية | J Reprod Med | ورقة بريتشارد التأسيسية التي تؤسس نظام جرعات كبريتات المغنيسيوم الذي لا يزال مستخدماً اليوم |
+| [36413336](https://pubmed.ncbi.nlm.nih.gov/36413336/) | 2023 | دراسة رصدية | Biol Trace Elem Res | معدل الإصابة وعوامل الخطر لحالة فرط المغنيسيوم الحرجة أثناء العلاج بكبريتات المغنيسيوم في تسمم الحمل الشديد |
+| [25353716](https://pubmed.ncbi.nlm.nih.gov/25353716/) | 2015 | مراجعة | Acta Obstet Gynecol Scand | تقييم التدخلات، بما في ذلك بروتوكولات كبريتات المغنيسيوم، لتقليل وفيات الأمومة المرتبطة بتسمم الحمل / الإكلامبسيا في الدول منخفضة الدخل |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات**
 
-**Rationale:**
-Evidence level L1 is supported by multiple completed Phase 2/3 RCTs and a very large pragmatic cluster trial (n=87,500), and MgSO4 is already a WHO-recognized standard-of-care anticonvulsant for preeclampsia/eclampsia globally. However, the drug has no current Saudi Arabia market authorization, and TFDA-equivalent safety labeling (warnings/contraindications) is a **Blocking** data gap.
+**الأساس المنطقي:**
+مستوى الدليل L1 مدعوم بتجارب عشوائية مضبوطة متعددة مكتملة من المرحلة 2/3 وتجربة عملية عملاقة على مستوى العنقود (n=87,500)، وكبريتات المغنيسيوم بالفعل عامل رعاية قياسي معترف به من قبل منظمة الصحة العالمية لمنع ومعالجة النوبات في تسمم الحمل والإكلامبسيا عالمياً. ومع ذلك، الدواء لا يملك تصريحاً بالسوق الحالي في المملكة العربية السعودية، والتسمية الأمنية المكافئة لـ TFDA (تحذيرات / موانع الاستعمال) هي فجوة بيانات **حاجز**.
 
-**To proceed, the following is needed:**
-- Official Saudi Arabia package insert / regulatory safety labeling (warnings and contraindications) — currently a Blocking gap
-- Confirmed mechanism of action documentation from DrugBank or equivalent source — currently a High-severity gap
-- Drug-drug interaction (DDI) data (current query status: not found)
-- Formal regulatory pathway assessment for market entry, given the drug is not currently licensed in Saudi Arabia
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة العبوة الرسمية للمملكة العربية السعودية / التسمية الأمنية التنظيمية (تحذيرات وموانع الاستعمال) — حالياً فجوة حاجز
+- توثيق آلية التأثير المؤكدة من DrugBank أو مصدر معادل — حالياً فجوة عالية الخطورة
+- بيانات التفاعلات الدوائية المتبادلة (DDI) (حالة الاستعلام الحالية: غير مكتشفة)
+- تقييم المسار التنظيمي الرسمي لدخول السوق، نظراً لأن الدواء غير مرخص حالياً في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

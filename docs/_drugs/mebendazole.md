@@ -29,64 +29,65 @@ indication_count: 1
 
 </div>
 
-# Mebendazole: From Intestinal Nematode Infections to Acne
+# ميبندازول: من العدوى بالديدان المعوية إلى حب الشباب
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Mebendazole is a benzimidazole anthelmintic historically used for intestinal nematode (worm) infections.
-> The TxGNN model predicts it may be effective for **Acne**,
-> but this direction is currently supported only by the model score itself — **no clinical trials** and only **1 tangentially related publication** exist.
+> ميبندازول هو عامل طارد للديدان من فئة البنزيميدازول يُستخدم تاريخياً لعلاج العدوى بالديدان المعوية (الطفيليات).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **حب الشباب**،
+> لكن هذا الاتجاه مدعوم حالياً فقط بدرجة النموذج ذاته — **لا توجد تجارب سريرية** و**منشور واحد فقط ذو صلة غير مباشرة**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Intestinal nematode (helminth) infections |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | العدوى بالديدان المعوية (الطفيليات الديدانية) |
+| المؤشر الجديد المتنبأ به | حب الشباب |
+| درجة تنبؤ TxGNN | 99.20% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معتمد |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | معَلّق |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action documentation for mebendazole has not yet been obtained. Based on known pharmacology, mebendazole belongs to the benzimidazole class of anthelmintics, acting by inhibiting β-tubulin polymerization and blocking microtubule formation in parasites — this is the basis of its established efficacy in intestinal nematode infections.
+لم يتم الحصول على وثائق آلية العمل التفصيلية لميبندازول حتى الآن. استناداً إلى الصيدلة المعروفة، ينتمي ميبندازول إلى فئة البنزيميدازول من عوامل طرد الديدان، حيث يعمل من خلال منع بلمرة β-tubulin وحجب تكوين الأنابيب الدقيقة في الطفيليات — وهذا هو أساس فعاليته المثبتة في العدوى بالديدان المعوية.
 
-There is currently no known or documented mechanistic pathway connecting this microtubule-disrupting action to acne pathophysiology (sebum overproduction, *Cutibacterium acnes* proliferation, follicular hyperkeratosis, or local inflammation). The TxGNN score (99.20%) is a pure model output with no supporting mechanistic rationale or corroborating evidence identified to date.
+لا توجد حالياً مسارات ميكانيكية معروفة أو موثقة تربط هذا التأثير المُعطِّل للأنابيب الدقيقة بفيزيولوجيا حب الشباب (الإفراط في إفراز الزهم، وتكاثر *Cutibacterium acnes*، والتقرن الجريبي، أو الالتهاب الموضعي). درجة TxGNN (99.20%) هي مخرجات نموذج نقية بدون أي حجة ميكانيكية داعمة أو بيانات تأييدية تم تحديدها حتى الآن.
 
-Given the absence of both a plausible mechanistic bridge and confirmatory clinical/preclinical data, this prediction should be treated as an early-stage hypothesis only, not as a validated repurposing signal.
+نظراً لغياب كل من جسر ميكانيكي معقول وبيانات سريرية/تجريبية تأكيدية، يجب التعامل مع هذا التنبؤ كفرضية مرحلة مبكرة فقط، وليس كإشارة إعادة توظيف معتمدة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case Report | The American Journal of Tropical Medicine and Hygiene | Case report of human proliferative sparganosis (a parasitic infection) presenting with acne-like nodular/papular skin lesions; acne is mentioned only as a descriptive lesion morphology, not as a treatment outcome. Does not evaluate mebendazole efficacy in acne. |
+| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | تقرير حالة | The American Journal of Tropical Medicine and Hygiene | تقرير حالة لداء الإسبارجانم التكاثري البشري (عدوى طفيلية) يظهر بآفات جلدية عقدية/حطاطية تشبه حب الشباب؛ يتم ذكر حب الشباب فقط كوصف مورفولوجي للآفة، وليس كنتيجة علاجية. لا يقيّم فعالية ميبندازول في حب الشباب. |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Mebendazole is not currently registered in the Saudi Arabia market (0 authorizations on file).
+ميبندازول غير معتمد حالياً في السوق السعودي (0 ترخيص على الملف).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة معلومات الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: معَلّق**
 
-**Rationale:**
-This is a pure TxGNN model prediction (L5) with no clinical trials and no literature that actually supports mebendazole's efficacy in acne — the one available publication references "acne-like lesions" only as a symptom of an unrelated parasitic disease. There is also no confirmed mechanistic link between the drug's anthelmintic action and acne pathophysiology.
+**الأساس المنطقي:**
+هذا تنبؤ نموذج TxGNN نقي (L5) بدون تجارب سريرية وبدون أدبيات تدعم فعالية ميبندازول في حب الشباب بالفعل — المنشور الوحيد المتاح يشير فقط إلى "آفات تشبه حب الشباب" كعرض من أعراض مرض طفيلي غير ذي صلة. كما لا يوجد رابط ميكانيكي مؤكد بين عمل الدواء كطارد للديدان وفيزيولوجيا مرض حب الشباب.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert data (warnings, contraindications) — currently unobtained and blocking any safety evaluation
-- Confirmed mechanism-of-action documentation (e.g., via DrugBank) to assess biological plausibility for acne
-- Preclinical or mechanistic studies specifically linking mebendazole (or the benzimidazole class) to dermatologic/acne-relevant pathways
-- Dedicated clinical or observational evidence in acne populations before advancing beyond hypothesis stage
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات نشرة معلومات هيئة الغذاء والدواء (TFDA)/الهيئة العامة للغذاء والدواء (SFDA) (التحذيرات والموانع) — لم يتم الحصول عليها حالياً وتحجب أي تقييم أمان
+- توثيق آلية العمل المؤكدة (مثل DrugBank) لتقييم المعقولية البيولوجية لحب الشباب
+- دراسات تجريبية أو ميكانيكية محددة تربط ميبندازول (أو فئة البنزيميدازول) بالمسارات ذات الصلة بالأمراض الجلدية/حب الشباب
+- بيانات سريرية أو رصدية مخصصة في مجموعات مرضى حب الشباب قبل المضي بما يتجاوز مرحلة الفرضية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

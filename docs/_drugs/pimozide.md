@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# PIMOZIDE: From Tourette Syndrome to Trichotillomania
+# بيموزيد: من متلازمة توريت إلى هوس نتف الشعر
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Pimozide is a diphenylbutylpiperidine antipsychotic whose established indication (per literature) is Gilles de la Tourette syndrome.
-> The TxGNN model predicts it may be effective for **Trichotillomania**,
-> with **0 registered clinical trials** and **10 publications** currently supporting this direction — most of which are reviews or case-level reports rather than controlled studies.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No local licensing data available (Not marketed); per literature (PMID 15554735), pimozide's established indication is Gilles de la Tourette syndrome |
-| Predicted New Indication | Trichotillomania |
-| TxGNN Prediction Score | 99.996% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-*Note: The evidence pack evaluated 10 TxGNN-predicted indications for pimozide. Trichotillomania (rank 1, this report's focus) has the strongest evidence support of the set; manic bipolar affective disorder (rank 2, L3) has moderate mechanistic support; the remaining 8 candidates are L4–L5 with weak or no supporting evidence and are recommended Hold.*
+> بيموزيد هو دواء مضاد للذهان من فئة ثنائي الفينيل بوتيل بيبريدين (diphenylbutylpiperidine) وله مؤشر معروف (وفقاً للدراسات الأدبية) هو متلازمة جيل دولا توريت.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **هوس نتف الشعر**،
+> مع **0 تجارب سريرية مسجلة** و **10 منشورات** يدعم هذا الاتجاه حالياً — معظمها استعراضات أدبية أو تقارير على مستوى الحالات الفردية بدلاً من الدراسات المضبوطة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed DrugBank-sourced mechanism-of-action data is currently a data gap for pimozide. However, the literature captured in this evidence pack consistently describes it as a diphenylbutylpiperidine-class antipsychotic and potent D2 dopamine receptor antagonist, used since the 1960s–70s for schizophrenia and, in the US, FDA-approved specifically as a backup treatment for Gilles de la Tourette syndrome (PMID 15554735).
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | لا توجد بيانات ترخيص محلية متاحة (غير مسوق)؛ وفقاً للدراسات الأدبية (PMID 15554735)، المؤشر المعروف لبيموزيد هو متلازمة جيل دولا توريت |
+| المؤشر الجديد المتنبأ به | هوس نتف الشعر |
+| درجة التنبؤ بنموذج TxGNN | 99.996% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تعليق |
 
-Trichotillomania is clinically grouped within the obsessive-compulsive/tic-spectrum disorders, the same spectrum as Tourette syndrome, for which pimozide has an established treatment effect. The repurposing rationale in this evidence pack notes that D2 antagonism may reduce cortico-striatal circuit hyperactivity implicated in both tic disorders and compulsive hair-pulling, providing a mechanistic basis for pimozide as an SSRI-augmentation strategy in trichotillomania.
-
-This is supported by one direct clinical data point: PMID 1532960 (Stein & Hollander, 1992), a small open-label study of low-dose pimozide augmentation of serotonin reuptake inhibitors in trichotillomania — the only study in this evidence pack that actually tests pimozide in this indication. The remaining literature consists of reviews and case reports on trichotillomania/psychodermatologic disorders in general, or case series testing other agents (e.g., risperidone), which support the disease-spectrum rationale but not pimozide's efficacy directly.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36802832](https://pubmed.ncbi.nlm.nih.gov/36802832/) | 2023 | Evidence mapping / Systematic review | J Cutan Med Surg | Maps RCT evidence for pharmacological treatment of primary psychodermatologic disorders; highlights the lack of clinical guidelines and controlled trial data in this space |
-| [1532960](https://pubmed.ncbi.nlm.nih.gov/1532960/) | 1992 | Open-label augmentation study | J Clin Psychiatry | Low-dose pimozide added to SRI treatment in trichotillomania — the only study directly testing pimozide in this indication |
-| [15554735](https://pubmed.ncbi.nlm.nih.gov/15554735/) | 2004 | Review | Am J Clin Dermatol | Comprehensive review of pimozide in dermatologic practice, including use for monosymptomatic hypochondriacal psychosis and related disorders |
-| [30446201](https://pubmed.ncbi.nlm.nih.gov/30446201/) | 2018 | Review | Clin Dermatol | Reviews antipsychotic drug use in dermatology, including D2-receptor and other CNS/peripheral mechanisms relevant to skin-picking/hair-pulling behaviors |
-| [27320510](https://pubmed.ncbi.nlm.nih.gov/27320510/) | 2016 | Review | Tijdschr Psychiatr | Treatment options for pediatric trichotillomania; notes limited pharmacotherapy research investment |
-| [11475941](https://pubmed.ncbi.nlm.nih.gov/11475941/) | 2001 | Review | CNS Drugs | Clinical features, diagnostic criteria, and treatment approaches for psychogenic excoriation (related compulsive skin condition) |
-| [10497682](https://pubmed.ncbi.nlm.nih.gov/10497682/) | 1999 | Review | Ann Acad Med Singap | Overview of trichotillomania as an under-diagnosed psychiatric syndrome |
-| [28225970](https://pubmed.ncbi.nlm.nih.gov/28225970/) | 2017 | Case report | An Bras Dermatol | Trichotillomania case with dermatoscopic differential diagnosis vs. alopecia areata (treated with N-acetylcysteine, not pimozide) |
-| [10900563](https://pubmed.ncbi.nlm.nih.gov/10900563/) | 2000 | Case series | Int J Psychiatry Med | Clinical profile of delusional parasitosis (related monosymptomatic hypochondriacal psychosis, not trichotillomania specifically) |
-| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | Case series | J Child Adolesc Psychopharmacol | Risperidone (not pimozide) augmentation in SRI-resistant trichotillomania, three cases |
+*ملاحظة: تم تقييم حزمة الأدلة 10 مؤشرات متنبأ بها من TxGNN لبيموزيد. هوس نتف الشعر (الترتيب 1، موضوع هذا التقرير) لديه أقوى دعم أدلة من بين المجموعة؛ اضطراب المزاج ثنائي القطب الهوسي (الترتيب 2، L3) لديه دعم ميكانيكي معتدل؛ المرشحون المتبقيون الثمانية هم L4–L5 مع أدلة ضعيفة أو بدون دعم ويوصى بتعليقهم.*
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Pimozide currently has **no marketing authorization in Saudi Arabia** (market status: Not marketed / Not Marketed; 0 licenses on record). No product-level licensing data is available.
+بيانات آلية العمل الصادرة عن DrugBank مفصلة حالياً تمثل فجوة بيانات لبيموزيد. ومع ذلك، تصف الدراسات الأدبية التي تم التقاطها في حزمة الأدلة هذه بشكل متسق بيموزيد كمضاد للذهان من فئة ثنائي الفينيل بوتيل بيبريدين (diphenylbutylpiperidine) وعامل حجب D2 قوي لمستقبلات الدوبامين، يُستخدم منذ 1960s–70s للفصام وفي الولايات المتحدة، موافق عليه من قبل FDA بشكل محدد كعلاج بديل لمتلازمة جيل دولا توريت (PMID 15554735).
 
----
+يتم تجميع هوس نتف الشعر سريرياً ضمن اضطرابات الوسواس القهري/طيف الحركات اللاإرادية، نفس الطيف الذي توجد فيه متلازمة توريت، والتي لبيموزيد تأثير العلاج المثبت له. تشير أساس التبرير لإعادة الاستخدام في حزمة الأدلة هذه إلى أن حجب D2 قد يقلل من فرط نشاط الدائرة القشرية-المخططة (cortico-striatal) المرتبطة بكل من اضطرابات الحركات اللاإرادية والسحب القهري للشعر، مما يوفر أساساً ميكانيكياً لبيموزيد كإستراتيجية تعزيز مثبطات استرجاع السيروتونين (SSRI-augmentation) في هوس نتف الشعر.
 
-## Safety Considerations
-
-- **Outstanding regulatory gap**: TFDA package insert warnings/contraindications retrieval is flagged as a **Blocking** data gap (DG001) — this must be resolved before any S1 safety assessment can proceed.
-- **Drug interaction data**: DDI query returned no results (not_found); interaction profile is currently unverified.
-- **Contextual flag from this evidence pack**: in the broader candidate analysis, reviewers noted pimozide carries a known QT-prolongation risk profile (cited when evaluating an unrelated candidate indication), which should be factored into any future cardiac safety monitoring plan for new-indication use.
-
-Beyond these points, please refer to the package insert for full safety information once retrieved.
+وهذا مدعوم بنقطة بيانات سريرية واحدة مباشرة: PMID 1532960 (Stein & Hollander, 1992)، دراسة مفتوحة التسمية صغيرة لتعزيز بيموزيد بجرعة منخفضة من مثبطات استرجاع السيروتونين في هوس نتف الشعر — الدراسة الوحيدة في حزمة الأدلة هذه التي تختبر فعلياً بيموزيد في هذا المؤشر. تتكون الدراسات الأدبية المتبقية من استعراضات وتقارير حالات عن هوس نتف الشعر/الاضطرابات النفسجلدية بشكل عام، أو سلسلة حالات تختبر عوامل أخرى (مثل ريسبيريدون)، والتي تدعم أساس طيف المرض ولكن ليس فعالية بيموزيد بشكل مباشر.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية مرتبطة بها مسجلة حالياً.
 
-**Rationale:**
-Evidence for pimozide in trichotillomania rests on a single small 1992 open-label augmentation study and general disease-spectrum literature, with zero registered clinical trials. Combined with the drug's unmarketed status in Saudi Arabia and an unresolved Blocking safety data gap (TFDA package insert), the evidence does not yet support progression beyond a research question.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert data (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed drug interaction (DDI) profile, particularly regarding QT-prolonging co-medications
-- Formal mechanism-of-action documentation (DrugBank) — currently High-severity gap (DG002)
-- Prospective or controlled trial data specifically in trichotillomania to move beyond the single 1992 open-label study
-- Regulatory pathway assessment given the drug's current unmarketed status in Saudi Arabia
+## دليل الدراسات الأدبية
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|------------|
+| [36802832](https://pubmed.ncbi.nlm.nih.gov/36802832/) | 2023 | تجميع الأدلة / استعراض منهجي | J Cutan Med Surg | يجمع دليل RCT للعلاج الدوائي للاضطرابات النفسجلدية الأولية؛ يسلط الضوء على الافتقار إلى الإرشادات السريرية وبيانات التجارب المضبوطة في هذا الفضاء |
+| [1532960](https://pubmed.ncbi.nlm.nih.gov/1532960/) | 1992 | دراسة تعزيز مفتوحة التسمية | J Clin Psychiatry | بيموزيد بجرعة منخفضة مضافة إلى علاج SRI في هوس نتف الشعر — الدراسة الوحيدة التي تختبر بيموزيد مباشرة في هذا المؤشر |
+| [15554735](https://pubmed.ncbi.nlm.nih.gov/15554735/) | 2004 | استعراض | Am J Clin Dermatol | استعراض شامل لبيموزيد في الممارسة الجلدية، بما في ذلك الاستخدام لنمط الهذيان أحادي الأعراض والاضطرابات ذات الصلة |
+| [30446201](https://pubmed.ncbi.nlm.nih.gov/30446201/) | 2018 | استعراض | Clin Dermatol | يراجع استخدام الأدوية المضادة للذهان في الجلدية، بما في ذلك مستقبلات D2 والآليات الأخرى ذات الصلة بالجهاز العصبي المركزي/المحيطي لسلوكيات قشط الجلد/سحب الشعر |
+| [27320510](https://pubmed.ncbi.nlm.nih.gov/27320510/) | 2016 | استعراض | Tijdschr Psychiatr | خيارات العلاج لهوس نتف الشعر عند الأطفال؛ يلاحظ استثمار البحث في العلاج الدوائي المحدود |
+| [11475941](https://pubmed.ncbi.nlm.nih.gov/11475941/) | 2001 | استعراض | CNS Drugs | الميزات السريرية والمعايير التشخيصية وأساليب العلاج للالتهاب الجلدي النفسي (حالة الجلد القهري ذات الصلة) |
+| [10497682](https://pubmed.ncbi.nlm.nih.gov/10497682/) | 1999 | استعراض | Ann Acad Med Singap | نظرة عامة على هوس نتف الشعر كمتلازمة نفسية يتم تشخيصها بشكل ناقص |
+| [28225970](https://pubmed.ncbi.nlm.nih.gov/28225970/) | 2017 | تقرير حالة | An Bras Dermatol | حالة هوس نتف الشعر مع التشخيص التفاضلي بواسطة الجلد الدقيق مقابل حالة فقدان الشعر الدائري (معالج بـ N-acetylcysteine، وليس بيموزيد) |
+| [10900563](https://pubmed.ncbi.nlm.nih.gov/10900563/) | 2000 | سلسلة حالات | Int J Psychiatry Med | الملف الشخصي السريري لهذيان الطفيليات (نمط الهذيان أحادي الأعراض المرتبط ذو الصلة، وليس هوس نتف الشعر بشكل محدد) |
+| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | سلسلة حالات | J Child Adolesc Psychopharmacol | تعزيز ريسبيريدون (وليس بيموزيد) في هوس نتف الشعر المقاوم لـ SRI، ثلاث حالات |
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+بيموزيد حالياً ليس لديه **ترخيص تسويق في المملكة العربية السعودية** (حالة السوق: غير مسوق / غير مسوق؛ 0 رخصة في السجل). لا توجد بيانات ترخيص على مستوى المنتج متاحة.
+
+---
+
+## اعتبارات السلامة
+
+- **فجوة تنظيمية معلقة**: استرجاع تحذيرات/موانع النشرة الدوائية TFDA يتم توضيحه كفجوة بيانات **حاجزة** (DG001) — يجب حل هذا قبل أي تقييم أمان S1 يمكن المتابعة.
+- **بيانات تفاعل العقار**: استعلام DDI أرجع عدم وجود نتائج (not_found)؛ ملف التفاعل حالياً غير متحقق منه.
+- **العلم السياقي من حزمة الأدلة هذه**: في تحليل المرشح الأوسع، لاحظ المراجعون أن بيموزيد يحمل ملف تعريف خطر معروف لإطالة QT (مذكور عند تقييم مؤشر غير ذي صلة)، والذي يجب أن يؤخذ في الاعتبار في أي خطة مراقبة أمان قلبي مستقبلية لاستخدام المؤشر الجديد.
+
+بخلاف هذه النقاط، يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة الكاملة بمجرد استرجاعها.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+يعتمد الدليل على بيموزيد في هوس نتف الشعر على دراسة تعزيز مفتوحة التسمية صغيرة من عام 1992 وأدبيات عامة عن طيف المرض، مع صفر تجارب سريرية مسجلة. مقترناً بحالة عدم تسويق الدواء في المملكة العربية السعودية وفجوة بيانات أمان حاجزة معلقة (نشرة TFDA الدوائية)، الأدلة لا تدعم حالياً التقدم خارج سؤال بحثي.
+
+**للمتابعة، فيما يلي المطلوب:**
+- بيانات نشرة TFDA/الشركة المصنعة (تحذيرات، موانع) — حالياً حاجزة (DG001)
+- ملف تفاعل دوائي (DDI) مؤكد، خاصة بخصوص الأدوية المشتركة التي تطيل QT
+- توثيق آلية العمل الرسمية (DrugBank) — حالياً فجوة عالية الخطورة (DG002)
+- بيانات التجارب الاستشرافية أو المضبوطة بشكل محدد في هوس نتف الشعر للتقدم خارج دراسة 1992 المفتوحة التسمية الواحدة
+- تقييم المسار التنظيمي نظراً لحالة عدم تسويق الدواء الحالية في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

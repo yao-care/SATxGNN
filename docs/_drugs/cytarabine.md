@@ -29,114 +29,115 @@ indication_count: 9
 
 </div>
 
-# Cytarabine: From Acute Leukemia to Small Cell Lung Carcinoma
+# السيتارابين: من سرطان الدم الحاد إلى سرطان الرئة صغير الخلايا
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Cytarabine (Ara-C) is a pyrimidine analog antimetabolite with decades of established use in acute leukemia, working by blocking DNA synthesis specifically during the S phase of cell division.
-The TxGNN model predicts it may be effective for **Small Cell Lung Carcinoma (SCLC)**, a finding supported by **3 registered clinical trials** (all indirect) and **20 publications** that together establish historical precedent but limited modern evidence.
-This is best characterized as an early research hypothesis — the historical signal exists, but the evidence base requires prospective validation before clinical advancement.
+السيتارابين (Ara-C) هو نظير البيريميدين من مضادات الاستقلاب الذي يتمتع بعقود من الاستخدام المثبت في سرطان الدم الحاد، ويعمل عن طريق منع تخليق DNA بشكل محدد خلال طور S من انقسام الخلية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **سرطان الرئة صغير الخلايا (SCLC)**، وهو اكتشاف مدعوم بـ **3 تجارب سريرية مسجلة** (جميعها غير مباشرة) و**20 منشورة** تؤسس معاً سابقة تاريخية ولكن دليل حديث محدود.
+يُفضل تمييز هذا كفرضية بحثية مبكرة — الإشارة التاريخية موجودة، لكن قاعدة الأدلة تتطلب التحقق من صحتها بشكل استقرائي قبل التقدم السريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| المقالة | المحتوى |
 |------|------|
-| Original Indication | Acute leukemia (AML / ALL) |
-| Predicted New Indication | Small Cell Lung Carcinoma |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not marketed (0 registered products) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| الدلالة الأصلية | سرطان الدم الحاد (AML / ALL) |
+| الدلالة المتنبأ بها الجديدة | سرطان الرئة صغير الخلايا |
+| درجة تنبؤ TxGNN | 99.78% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق (0 منتجات مسجلة) |
+| عدد التخويلات | 0 |
+| القرار الموصى به | إيقاف (سؤال بحثي) |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on established pharmacology, cytarabine (cytosine arabinoside, Ara-C) is a nucleoside analog that is phosphorylated intracellularly to ara-CTP, which competes with dCTP for incorporation into DNA and inhibits DNA polymerase α. This mechanism is strictly S-phase specific — cells actively replicating DNA are selectively targeted.
+بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة الحالية. بناءً على الصيدلة المثبتة، السيتارابين (سيتيدين أرابينوسيد، Ara-C) هو نظير نيوكليوسيد يتم فسفرته داخل الخلايا إلى ara-CTP، والذي ينافس dCTP للدمج في DNA ويثبط DNA بوليميراز α. هذه الآلية محددة تماماً لطور S — الخلايا التي تتكاثر بنشاط يتم استهدافها بشكل انتقائي.
 
-Small cell lung carcinoma is one of the most proliferative solid tumors in oncology, typically presenting with Ki-67 indices exceeding 50–80%. This biological characteristic directly aligns with cytarabine's mode of action: the higher the fraction of cells in S phase at any given moment, the greater the theoretical susceptibility to Ara-C. The same logic underlies cytarabine's dominance in acute leukemia, where blast cells proliferate rapidly.
+سرطان الرئة صغير الخلايا هو أحد أكثر الأورام الصلبة انتشاراً في الأورام الخبيثة، وعادة ما يحتوي على مؤشرات Ki-67 تتجاوز 50–80%. هذه الخاصية البيولوجية تتوافق مباشرة مع طريقة عمل السيتارابين: كلما زاد جزء الخلايا في طور S في أي لحظة معينة، كان القابلية النظرية للعرضة لـ Ara-C أكبر. نفس المنطق يكمن وراء هيمنة السيتارابين في سرطان الدم الحاد، حيث تتكاثر الخلايا الأرومية بسرعة.
 
-Historically, cytarabine did appear in SCLC treatment protocols. A 1979 study combined cytosine arabinoside with cyclophosphamide, doxorubicin, and concurrent radiotherapy in 20 previously untreated SCLC patients, achieving a 78% combined response rate. Subsequent work evaluated VP-16 plus infusional Ara-C in relapsed SCLC (1988), and cytarabine has been used intrathecally for SCLC leptomeningeal metastases — a recognized complication of the disease. In vitro data further demonstrate collateral sensitivity to cytarabine in doxorubicin/VM-26-resistant SCLC cell lines, suggesting a potential niche in drug-resistant disease. These data points explain why the TxGNN graph-based model, which captures biological similarity relationships, scored this prediction highly — yet the absence of modern prospective trials reflects that this combination was ultimately displaced by etoposide-platinum regimens without rigorous Phase 3 comparison.
+تاريخياً، ظهر السيتارابين في بروتوكولات علاج SCLC. درجة عام 1979 جمعت سيتوسين أرابينوسيد مع السيكلوفوسفاميد والدوكسوروبيسين والعلاج الإشعاعي المتزامن في 20 مريضاً بـ SCLC لم يعالجوا سابقاً، محققة معدل استجابة مجموعة 78%. أعمال لاحقة قيّمت VP-16 إضافة إلى Ara-C الدسم في SCLC المنكوب (1988)، والسيتارابين استُخدم داخل النسيج الأخيل لنقائل SCLC السحائية — وهي مضاعفة معروفة للمرض. علاوة على ذلك، تُظهر البيانات في الحيوب حساسية حاشية للسيتارابين في خطوط SCLC مقاومة للدوكسوروبيسين/VM-26، مما يشير إلى وجود نافذة محتملة في المرض المقاوم للأدوية. تشرح نقاط البيانات هذه سبب تقييم نموذج TxGNN القائم على الرسم البياني، الذي يلتقط العلاقات المشابهة بيولوجياً، لهذا التنبؤ بدرجة عالية — ومع ذلك، غياب التجارب المستقبلية الحديثة يعكس أن هذه المجموعة تم نزوحها في النهاية بواسطة أنظمة الإيتوبوسيد-البلاتين دون مقارنة صارمة بـ Phase 3.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-The three registered trials identified for this drug-disease pair do not directly evaluate cytarabine in SCLC. All three involve intrathecal pemetrexed for lung cancer-related leptomeningeal metastases, providing only conceptual support for intrathecal chemotherapy as a delivery route.
+التجارب الثلاث المسجلة المحددة لهذا الزوج من الدواء والمرض لا تقيّم مباشرة السيتارابين في SCLC. جميع الثلاثة تتضمن البيمتريكسيد الداخل النسيج لنقائل السحايا المتعلقة بسرطان الرئة، مما يوفر فقط دعماً مفاهيمياً للعلاج الكيميائي الداخل النسيج كمسار إيصال.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03507244](https://clinicaltrials.gov/study/NCT03507244) | Phase 1/2 | Completed | 34 | Intrathecal pemetrexed + involved-field radiotherapy for leptomeningeal metastasis from solid tumors; mentions cytarabine as the existing intrathecal standard, indirectly validating intrathecal route feasibility |
-| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Phase 1 | Completed | 13 | Intrathecal pemetrexed for recurrent NSCLC leptomeningeal metastasis; background explicitly references cytarabine and liposomal cytarabine as current standards for intrathecal use |
-| [NCT00863512](https://clinicaltrials.gov/study/NCT00863512) | Phase 3 | Terminated | 34 | NSCLC adjuvant chemotherapy (vinorelbine, cisplatin, pemetrexed); terminated early due to insufficient enrollment, cytarabine not a study agent — minimal relevance |
+| [NCT03507244](https://clinicaltrials.gov/study/NCT03507244) | Phase 1/2 | مكتملة | 34 | البيمتريكسيد الداخل النسيج + العلاج الإشعاعي المركز للنقائل السحائية من الأورام الصلبة؛ يشير إلى السيتارابين كمعيار النسيج الموجود، التحقق غير المباشر من جدوى المسار الداخل النسيج |
+| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Phase 1 | مكتملة | 13 | البيمتريكسيد الداخل النسيج لنقائل سرطان الرئة ذات الخلايا غير الصغيرة المتكررة السحائية؛ الخلفية تشير بوضوح إلى السيتارابين والسيتارابين الشحمي كمعايير حالية للاستخدام الداخل النسيج |
+| [NCT00863512](https://clinicaltrials.gov/study/NCT00863512) | Phase 3 | أُوقفت | 34 | العلاج الكيميائي المساعد لسرطان الرئة ذات الخلايا غير الصغيرة (فينوريلبين، سيسبلاتين، بيمتريكسيد)؛ أُوقفت مبكراً بسبب عدم كفاية التسجيل، السيتارابين ليس عاملاً في الدراسة — حد أدنى من الملاءمة |
 
-> No clinical trials directly evaluating systemic cytarabine for SCLC are currently registered on ClinicalTrials.gov.
+> لا توجد تجارب سريرية تقيّم مباشرة السيتارابين الجهازي لـ SCLC مسجلة حالياً على ClinicalTrials.gov.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | Pilot Clinical Study | Medical and Pediatric Oncology | Cytosine arabinoside + cyclophosphamide + doxorubicin + concurrent radiotherapy in 20 untreated SCLC patients; 78% combined response rate reported |
-| [6095640](https://pubmed.ncbi.nlm.nih.gov/6095640/) | 1984 | Clinical Study | American Journal of Clinical Oncology | Ara-C 100 mg/m²/day continuous infusion in SCLC: no responses as monotherapy in 10 heavily pretreated patients; added to CAV regimen in 25 extensive-stage patients with exploratory activity |
-| [2841844](https://pubmed.ncbi.nlm.nih.gov/2841844/) | 1988 | Clinical Study | American Journal of Clinical Oncology | VP-16 (etoposide) + infusional Ara-C (45 mg/m²/day × 72h) in 17 refractory SCLC patients; assessed response to this salvage combination regimen |
-| [11331076](https://pubmed.ncbi.nlm.nih.gov/11331076/) | 2001 | Basic Science | Biochemical Pharmacology | MDR SCLC cell lines (daunorubicin/VM-26-resistant) show collateral sensitivity to cytarabine and gemcitabine; provides mechanistic rationale for Ara-C in drug-resistant SCLC |
-| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | Basic Science | Cancer Chemotherapy and Pharmacology | Doxorubicin-sensitive and resistant SCLC cell lines evaluated for cross-sensitivity; Ara-C sensitivity pattern correlates with etoposide and vincristine sensitivity |
-| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Case Report | Cancer & Chemotherapy | Stage IV SCLC with meningeal carcinomatosis treated with multidisciplinary approach including intrathecal chemotherapy; illustrates clinical role of intrathecal Ara-C in SCLC CNS metastases |
-| [6264785](https://pubmed.ncbi.nlm.nih.gov/6264785/) | 1981 | Case Series | American Journal of Medicine | Meningeal carcinomatosis in 60 evaluable SCLC patients; establishes CNS/meningeal involvement patterns and chemotherapy response landscape |
-| [9363869](https://pubmed.ncbi.nlm.nih.gov/9363869/) | 1997 | RCT | Journal of Clinical Oncology | CALGB randomized trial of chemotherapy + radiotherapy ± warfarin in limited-stage SCLC; cytarabine-containing consolidation was part of the treatment backbone |
-| [18600541](https://pubmed.ncbi.nlm.nih.gov/18600541/) | 2008 | Basic Science | Nucleosides, Nucleotides & Nucleic Acids | hENT1 and hCNT1 nucleoside transporter expression confirmed in NSCLC cell lines and patient samples; these transporters are required for cytarabine cellular entry and efficacy |
-| [348088](https://pubmed.ncbi.nlm.nih.gov/348088/) | 1978 | Review | Antibiotics and Chemotherapy | Foundational review of Ara-C analogs; covers cytidine deaminase-mediated inactivation, resistance mechanisms, and structural derivatives with implications for solid tumor applications |
+| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | دراسة سريرية طيارة | Medical and Pediatric Oncology | سيتوسين أرابينوسيد + السيكلوفوسفاميد + الدوكسوروبيسين + العلاج الإشعاعي المتزامن في 20 مريضاً بـ SCLC لم يعالجوا؛ معدل استجابة مجموعة 78% تم الإبلاغ عنه |
+| [6095640](https://pubmed.ncbi.nlm.nih.gov/6095640/) | 1984 | دراسة سريرية | American Journal of Clinical Oncology | Ara-C 100 mg/m²/day في حقنة دسمة مستمرة في SCLC: لا استجابات كعامل واحد في 10 مرضى يعانون من الإرهاق الشديد؛ تمت إضافته إلى نظام CAV في 25 مريضاً في المرحلة الموسعة مع نشاط استكشافي |
+| [2841844](https://pubmed.ncbi.nlm.nih.gov/2841844/) | 1988 | دراسة سريرية | American Journal of Clinical Oncology | VP-16 (إيتوبوسيد) + Ara-C الدسم (45 mg/m²/day × 72h) في 17 مريضاً بـ SCLC مقاوماً؛ تقييم الاستجابة لهذا النظام الإنقاذي المجموعة |
+| [11331076](https://pubmed.ncbi.nlm.nih.gov/11331076/) | 2001 | بحث أساسي | Biochemical Pharmacology | خطوط خلايا SCLC MDR (مقاومة للدانوروبيسين/VM-26) تُظهر حساسية جانبية للسيتارابين والجيمسيتابين؛ توفر العقلانية الآلية لـ Ara-C في SCLC مقاوم للأدوية |
+| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | بحث أساسي | Cancer Chemotherapy and Pharmacology | خطوط خلايا SCLC حساسة ومقاومة للدوكسوروبيسين يتم تقييمها للحساسية المتقاطعة؛ نمط حساسية Ara-C يرتبط بحساسية الإيتوبوسيد والفينكريستين |
+| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | حالة سريرية | Cancer & Chemotherapy | سرطان الرئة صغير الخلايا المرحلة IV مع التهاب السحايا الورمي تم علاجه بنهج متعدد التخصصات بما في ذلك العلاج الكيميائي الداخل النسيج؛ يوضح الدور السريري لـ Ara-C الداخل النسيج في نقائل SCLC CNS |
+| [6264785](https://pubmed.ncbi.nlm.nih.gov/6264785/) | 1981 | سلسلة حالات | American Journal of Medicine | التهاب السحايا الورمي في 60 مريضاً بـ SCLC قابلين للتقييم؛ يؤسس أنماط الإصابة الجهاز العصبي المركزي/السحائية وشفافية الاستجابة للعلاج الكيميائي |
+| [9363869](https://pubmed.ncbi.nlm.nih.gov/9363869/) | 1997 | تجربة عشوائية | Journal of Clinical Oncology | تجربة CALGB عشوائية من العلاج الكيميائي + العلاج الإشعاعي ± الوارفارين في SCLC محدودة المرحلة؛ كان التوحيد المحتوي على السيتارابين جزءاً من العمود الفقري للعلاج |
+| [18600541](https://pubmed.ncbi.nlm.nih.gov/18600541/) | 2008 | بحث أساسي | Nucleosides, Nucleotides & Nucleic Acids | تأكيد التعبير عن hENT1 و hCNT1 ناقل النيوكليوسيد في خطوط خلايا NSCLC والعينات من المرضى؛ ناقلات الناقل هذه مطلوبة لدخول السيتارابين الخلوي والفعالية |
+| [348088](https://pubmed.ncbi.nlm.nih.gov/348088/) | 1978 | استعراض | Antibiotics and Chemotherapy | استعراض تأسيسي لنظائر Ara-C؛ يغطي المثبط cytidine deaminase-متوسط، آليات المقاومة، والمشتقات الهيكلية ذات الآثار على تطبيقات الأورام الصلبة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Cytarabine currently has **no registered drug products** in Saudi Arabia. No regulatory authorizations exist, and the drug is not commercially available through standard market channels. Any clinical use would require importation under a named-patient or compassionate-use framework, subject to Saudi Food and Drug Authority (SFDA) approval.
+السيتارابين حالياً يحتوي على **لا توجد منتجات أدوية مسجلة** في المملكة العربية السعودية. لا توجد تخويلات تنظيمية، والدواء غير متاح تجارياً من خلال قنوات السوق القياسية. أي استخدام سريري يتطلب الاستيراد ضمن إطار المريض المسمى أو الاستخدام الإنساني، مع الخضوع لموافقة هيئة الغذاء والدواء السعودية (SFDA).
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Cytarabine is a conventional cytotoxic antineoplastic agent. It meets all criteria for this section: it is a fluoropyrimidine-class antimetabolite used as backbone chemotherapy in hematologic malignancies, with well-characterized cytotoxic properties.
+السيتارابين هو عامل كيميائي سام للأورام التقليدي. يستوفي جميع معايير هذا القسم: وهو مضاد استقلاب من فئة البيريميدين الفلوري المستخدم كعمود فقري للعلاج الكيميائي في الأمراض الخبيثة الدموية، مع خصائص السمية الخلوية المثبتة جيداً.
 
-| Item | Content |
+| المقالة | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — Pyrimidine analog / Antimetabolite |
-| Myelosuppression Risk | High — leukopenia, thrombocytopenia, and anemia are the dose-limiting toxicities; Grade IV myelosuppression reported in ~32% of patients at high-dose regimens (3 g/m²) |
-| Emetogenicity Classification | Low to moderate at standard doses; moderate at intermediate/high doses |
-| Monitoring Items | CBC with differential (mandatory, frequent); liver function tests; renal function; cerebellar function assessment for high-dose protocols (cerebellar syndrome is a recognized neurotoxicity) |
-| Handling Protection | Must follow cytotoxic drug handling regulations — closed-system drug transfer devices, appropriate PPE required throughout preparation and administration |
+| تصنيف السمية الخلوية | السمية الخلوية التقليدية — نظير البيريميدين / مضاد الاستقلاب |
+| خطر قمع نقي العظم | عالي — الكريات البيضاء، قلة الصفيحات، وفقر الدم هي السميات المحددة للجرعة؛ تم الإبلاغ عن قمع نقي العظم من الدرجة الرابعة في ~32% من المرضى في البروتوكولات عالية الجرعة (3 g/m²) |
+| تصنيف الإقياء | منخفض إلى معتدل بجرعات معيارية؛ معتدل بجرعات وسيطة/عالية |
+| عناصر المراقبة | تعداد الدم الكامل مع التفاضل (إلزامي، متكرر)؛ اختبارات وظائف الكبد؛ وظائف الكلى؛ تقييم الوظيفة المخيخية لبروتوكولات الجرعات العالية (متلازمة المخيخ هي سمية عصبية معروفة) |
+| حماية التعامل | يجب اتباع لوائح التعامل بالأدوية السامة — أجهزة نقل الأدوية بنظام مغلق، معدات الحماية الشخصية المناسبة مطلوبة طوال التحضير والإعطاء |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for full safety information. Formal warning and contraindication data are not available in the current Evidence Pack.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة الكاملة. بيانات التحذير الرسمي والمضادات غير متوفرة في حزمة الأدلة الحالية.
 
-> The absence of local SFDA labeling data represents a blocking gap for safety pre-screening. The known cytotoxic profile includes severe myelosuppression, hepatotoxicity at high doses, and cerebellar neurotoxicity (high-dose syndrome). Drug-drug interaction data could not be retrieved in this evidence cycle.
+> غياب بيانات وضع العلامات SFDA المحلية يمثل فجوة حجب لفحص السلامة المسبق. الملف الجانبي السام المعروف يشمل قمع نقي العظم الشديد، السمية الكبدية عند جرعات عالية، وسمية الأعصاب المخيخية (متلازمة الجرعات العالية). لم تتمكن بيانات التفاعل الدوائي-الدوائي من الاسترجاع في دورة الأدلة هذه.
 
 ---
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Hold (Research Question)**
+**القرار: إيقاف (سؤال بحثي)**
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.78%) and a historically grounded mechanistic rationale — SCLC's extreme proliferative nature aligns with cytarabine's S-phase specificity — the available clinical evidence is entirely retrospective, dated (1979–1997), and small in scale. Cytarabine was tested in SCLC decades ago but was not adopted into standard practice, likely displaced by more active etoposide-platinum combinations. No modern prospective trials exist to confirm or refute its efficacy against current SCLC biology. This remains a hypothesis worthy of structured investigation rather than direct clinical application.
+**العقل:**
+على الرغم من درجة تنبؤ TxGNN عالية (99.78%) وعقلانية آلية مؤسسة تاريخياً — طبيعة SCLC القصوى الانتشار تتوافق مع تخصص S-phase للسيتارابين — يكون الدليل السريري المتاح بالكامل بأثر رجعي، قديم (1979–1997)، وصغير في الحجم. تم اختبار السيتارابين في SCLC قبل عقود من الزمن ولكن لم يتم اعتماده في الممارسة القياسية، ربما نزوحه بواسطة مجموعات إيتوبوسيد-بلاتين أكثر نشاطاً. لا توجد تجارب استقرائية حديثة لتأكيد أو دحض فعاليته ضد بيولوجيا SCLC الحالية. يبقى هذا فرضية جديرة بالتحقيق المنظم بدلاً من التطبيق السريري المباشر.
 
-**To proceed, the following is needed:**
+**للمتابعة، يكون المطلوب التالي:**
 
-- **Safety data package**: Obtain and review SFDA package insert or international labeling (e.g., EMA/FDA) to fulfill the blocking DG001 gap before any clinical safety evaluation
-- **MOA clarification**: Retrieve full DrugBank MOA entry (DG002) to formally document DNA polymerase α inhibition and S-phase specificity for the mechanistic dossier
-- **Historical failure analysis**: Systematically review why cytarabine was not retained in SCLC protocols — was it toxicity, lack of additive benefit over CAV/EP, or simply lack of Phase 3 investment?
-- **Nucleoside transporter profiling**: Confirm hENT1/hCNT1 expression in contemporary SCLC specimens (both treatment-naïve and platinum-refractory), since transporter levels are the primary predictor of Ara-C cellular uptake
-- **Preclinical validation**: Test cytarabine in modern SCLC cell lines (including SCLC-A/N/P/I subtypes) and patient-derived xenograft models to generate contemporary efficacy and resistance data
-- **Regulatory pathway**: If evidence develops favorably, cytarabine would require full product registration in Saudi Arabia from the ground up, as no authorizations currently exist
+- **حزمة بيانات السلامة**: الحصول على واستعراض نشرة SFDA أو وضع العلامات الدولية (مثل EMA/FDA) لتحقيق الفجوة DG001 الحجب قبل أي تقييم سلامة سريري
+- **توضيح MOA**: استرجاع إدخال DrugBank MOA الكامل (DG002) لتوثيق بيضاء DNA بوليميراز α المثبطة وتخصص S-phase رسمياً للملف الميكانيكي
+- **تحليل الفشل التاريخي**: استعراض منظم لسبب عدم الاحتفاظ بالسيتارابين في بروتوكولات SCLC — أكانت السمية، عدم الفائدة الإضافية على CAV/EP، أم ببساطة عدم استثمار Phase 3؟
+- **تنميط ناقل النيوكليوسيد**: تأكيد تعبير hENT1/hCNT1 في عينات SCLC المعاصرة (سواء معالجة-جديدة وبلاتين مقاومة)، حيث أن مستويات الناقل هي المنبئ الأساسي للامتصاص الخلوي Ara-C
+- **التحقق الدراق**: اختبار السيتارابين في خطوط خلايا SCLC الحديثة (بما في ذلك أنواع فرعية SCLC-A/N/P/I) ونماذج xenograft المشتقة من المريض لتوليد بيانات الفعالية والمقاومة المعاصرة
+- **المسار التنظيمي**: إذا تطورت الأدلة بشكل مواتٍ، يتطلب السيتارابين تسجيل منتج كامل في المملكة العربية السعودية من الصفر، حيث لا توجد تخويلات حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

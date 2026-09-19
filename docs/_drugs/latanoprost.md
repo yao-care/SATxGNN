@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Latanoprost: From Primary Open-Angle Glaucoma to Primary Hereditary Glaucoma
+# لاتانوبروست: من الزرق مفتوح الزاوية الأولي إلى الزرق الوراثي الأولي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Latanoprost is a prostaglandin F2α analogue originally used to lower intraocular pressure in primary open-angle glaucoma and ocular hypertension.
-> The TxGNN model predicts it may also be effective for **Primary Hereditary Glaucoma**,
-> with **1 clinical trial** currently supporting this direction and no published literature yet identified.
+> لاتانوبروست هو تناظر بروستاغلاندين F2α يُستخدم أصلاً لخفض ضغط داخل العين في الزرق مفتوح الزاوية الأولي وارتفاع ضغط العين.
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً أيضاً في **الزرق الوراثي الأولي**،
+> مع **1 تجربة سريرية** تدعم هذا الاتجاه حالياً وعدم التعرف على أدب منشور حتى الآن.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Primary open-angle glaucoma / ocular hypertension (per repurposing rationale; not separately confirmed via a Saudi label, as none is on file) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | الزرق مفتوح الزاوية الأولي / ارتفاع ضغط العين (وفقاً للمنطق الأساسي لإعادة الاستخدام؛ لم يتم تأكيده بشكل منفصل عبر تسمية سعودية، حيث لا توجد نسخة في الملفات) |
+| المؤشر الجديد المتنبأ به | الزرق الوراثي الأولي |
+| درجة تنبؤ TxGNN | 99.88% |
+| مستوى الدليل | L2 |
+| حالة السوق السعودي | غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع الحواجز الواقية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for latanoprost is flagged as a data gap (DG002) in this evidence pack. Based on the mechanistic rationale accompanying the top prediction, latanoprost is a prostaglandin F2α analogue that lowers intraocular pressure by increasing uveoscleral (uveal-scleral) outflow of aqueous humor — the standard mechanism underlying its established first-line role in primary open-angle glaucoma.
+يُشار إلى بيانات آلية العمل التفصيلية للاتانوبروست كفجوة بيانات (DG002) في مجموعة الأدلة هذه. بناءً على المنطق الآلي المرافق للتنبؤ الأفضل، لاتانوبروست هو تناظر بروستاغلاندين F2α يخفض ضغط داخل العين من خلال زيادة تصريف الرطوبة المائية عبر مسار uveoscleral — وهي الآلية المعيارية التي تقف وراء دوره المعروف في الخط الأول للعلاج في الزرق مفتوح الزاوية الأولي.
 
-Primary hereditary glaucoma (which includes congenital/childhood-onset forms) shares the same core pathophysiology as open-angle glaucoma: increased resistance to aqueous humor outflow leading to elevated intraocular pressure. This mechanistic overlap makes pharmacological extrapolation biologically plausible.
+يشارك الزرق الوراثي الأولي (الذي يشمل أشكالاً خلقية/بداية الطفولة) نفس المرضية الأساسية مع الزرق مفتوح الزاوية: زيادة المقاومة لتصريف الرطوبة المائية مما يؤدي إلى ارتفاع ضغط داخل العين. يجعل هذا التداخل الآلي الاستقراء الدوائي معقولاً من الناحية البيولوجية.
 
-However, hereditary/congenital glaucoma is clinically managed primarily with surgery (goniotomy/trabeculotomy), with pharmacologic agents such as latanoprost typically used as pre-surgical pressure control or post-surgical adjunct rather than as monotherapy or a curative treatment. This distinguishes the predicted indication from a straightforward label extension and supports a guarded rather than unconditional "Go" recommendation.
+ومع ذلك، يتم إدارة الزرق الوراثي/الخلقي سريرياً بشكل أساسي بالجراحة (goniotomy/trabeculotomy)، مع استخدام العوامل الدوائية مثل لاتانوبروست عادةً للتحكم في ضغط ما قبل الجراحة أو كعامل مساعد بعد الجراحة بدلاً من العلاج أحادي الدواء أو علاج علاجي. يميز هذا المؤشر المتنبأ به عن امتداد بسيط للتسمية ويدعم توصية حذرة بدلاً من توصية "المتابعة" غير المشروطة.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assessed the ocular hypotensive effect and safety of latanoprost combined with dorzolamide in pediatric glaucoma patients refractory to surgery. |
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | المرحلة 2 | مكتملة | 37 | قيّمت التأثير المخفّض لضغط داخل العين وسلامة لاتانوبروست مع dorzolamide في الأطفال المصابين بالزرق غير المستجيبين للعلاج الجراحي. |
 
 ---
 
-## Literature Evidence
+## دليل الأدب
 
-Currently no related literature available
-
----
-
-## Saudi Arabia Market Information
-
-Latanoprost is not currently marketed in Saudi Arabia (0 authorizations on file); no product/license data is available.
+لا يتوفر حالياً أدب ذو صلة
 
 ---
 
-## Safety Considerations
+## معلومات السوق السعودي
 
-Please refer to the package insert for safety information.
+لاتانوبروست غير مسوّق حالياً في المملكة العربية السعودية (0 تفويضات في الملفات)؛ لا توجد بيانات منتج/ترخيص متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-A single completed Phase 2 trial (n=37) in pediatric glaucoma directly supports the mechanistic plausibility of latanoprost in hereditary glaucoma, but the trial is small, non-Phase 3, and limited to a surgery-refractory subpopulation — insufficient alone to support unconditional approval, while too promising to hold entirely.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert warnings and contraindications (currently blocking — DG001)
-- Formal DrugBank-sourced mechanism-of-action confirmation (DG002)
-- Additional Phase 2/3 evidence specifically in primary hereditary/congenital glaucoma populations beyond the surgery-refractory subgroup
-- Clarification of latanoprost's role relative to surgical first-line treatment in this population (adjunct vs. monotherapy)
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الحواجز الواقية**
+
+**المنطق:**
+تدعم تجربة مرحلة 2 واحدة مكتملة (n=37) في الزرق عند الأطفال بشكل مباشر معقولية الاتانوبروست من الناحية الآلية في الزرق الوراثي، لكن التجربة صغيرة، غير المرحلة 3، ومحدودة بمجموعة فرعية مقاومة للجراحة — غير كافية وحدها لدعم الموافقة غير المشروطة، بينما واعدة جداً للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة معلومات TFDA/SFDA المكافئة والموانع (حالياً حجب — DG001)
+- تأكيد آلية العمل الرسمي من DrugBank (DG002)
+- دليل إضافي من المرحلة 2/3 على وجه التحديد في سكان الزرق الوراثي الأولي/الخلقي خارج المجموعة الفرعية المقاومة للجراحة
+- توضيح دور لاتانوبروست بالنسبة للعلاج الجراحي في الخط الأول لدى هذا السكان (عامل مساعد مقابل العلاج أحادي الدواء)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

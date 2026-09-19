@@ -29,64 +29,65 @@ indication_count: 10
 
 </div>
 
-# Niclosamide: From Tapeworm Infection to Heart Disease
+# نيكلوسامايد: من عدوى الديدان الشريطية إلى أمراض القلب
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Niclosamide is a classic anthelmintic historically used to treat tapeworm (cestode) infections. The TxGNN model predicts a possible link to **Heart Disease**, but the only three supporting clinical trials are graded low-relevance (two withdrawn with zero enrollment, one terminated), and the evidence review itself concludes this signal is most likely a knowledge-graph mapping artifact rather than a genuine mechanistic finding.
+نيكلوسامايد هو دواء مضاد للديدان طفيلي كلاسيكي استخدم تاريخياً لعلاج عدوى الديدان الشريطية (السيستودا). يتنبأ نموذج TxGNN برابط محتمل بـ **أمراض القلب**، لكن التجارب السريرية الثلاث الوحيدة الداعمة مصنفة كمنخفضة الصلة (اثنتان موقوفة بدون تسجيل، وواحدة منتهية)، واستعراض الأدلة نفسه يخلص إلى أن هذه الإشارة على الأرجح هي خطأ في تعيين رسم بياني المعرفة بدلاً من اكتشاف حقيقي آلي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Tapeworm infection (Taeniasis) — traditional anthelmintic use; no locally approved indication text is available (drug is not marketed in this jurisdiction) |
-| Predicted New Indication | Heart disease |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | عدوى الديدان الشريطية (التينياسيس) — استخدام تقليدي كمضاد للديدان؛ لا يتوفر نص مؤشر معتمد محلياً (الدواء غير مسوق في هذا الاختصاص القضائي) |
+| المؤشر الجديد المتنبأ به | أمراض القلب |
+| درجة التنبؤ TxGNN | 99.88% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed, source-verified mechanism-of-action data is not available (DrugBank MOA field: Data Gap). Based on the information collected during evidence review, niclosamide is known to uncouple mitochondrial oxidative phosphorylation and to inhibit the STAT3, Wnt/β-catenin, and mTORC1 signaling pathways — mechanisms studied mainly in antiparasitic, antiviral, and antifibrotic contexts, not in cardiovascular disease.
+البيانات المفصلة والموثوقة من المصدر حول آلية العمل غير متاحة (حقل DrugBank MOA: فجوة بيانات). بناءً على المعلومات المجمعة أثناء استعراض الأدلة، يُعرّف نيكلوسامايد بأنه يفك ارتباط الفسفرة الأكسدية في الميتوكوندريا ويمنع مسارات الإشارات STAT3 و Wnt/β-catenin و mTORC1 — آليات تم دراستها بشكل أساسي في السياقات المضادة للطفيليات والمضادة للفيروسات والمضادة للتليف، وليس في أمراض القلب والأوعية الدموية.
 
-Niclosamide has no established cardiac indication and no direct cardiovascular mechanism of action reported in the literature reviewed. The three clinical trials linked to "heart disease" in this evidence pack are, on closer inspection, COVID-19 (non-severe) treatment studies — one of which combined niclosamide with **diltiazem**, a calcium-channel blocker used in cardiac indications. The evidence review's own assessment is that this combination-drug artifact most likely caused the TxGNN knowledge graph to erroneously associate niclosamide with the "heart disease" node, rather than reflecting a genuine pharmacological relationship.
+لا يتمتع نيكلوسامايد بمؤشر قلبي معترف به ولا توجد آلية عمل قلبية وعائية مباشرة مبلغ عنها في الأدبيات المراجعة. التجارب السريرية الثلاث المرتبطة بـ "أمراض القلب" في هذه العبوة الدليلية هي، عند فحصها عن كثب، دراسات لعلاج كوفيد-19 (غير الحاد) — إحداها جمعت نيكلوسامايد مع **ديلتيازيم**، وهو حاصر قنوات الكالسيوم المستخدم في المؤشرات القلبية. التقييم الخاص به في استعراض الأدلة هو أن خطأ الدواء المركب هذا تسبب على الأرجح في ربط رسم بياني معرفة TxGNN نيكلوسامايد بشكل خاطئ مع عقدة "أمراض القلب"، بدلاً من عكس علاقة دوائية حقيقية.
 
-Given this, the mechanistic plausibility of niclosamide for heart disease is currently weak, and the prediction should be treated as a hypothesis-generating signal requiring independent mechanistic confirmation, not as an evidence-backed repurposing candidate.
+نظراً لهذا، فإن المعقولية الآلية لنيكلوسامايد في أمراض القلب ضعيفة حالياً، وينبغي التعامل مع التنبؤ كإشارة لتوليد الفرضيات تتطلب تأكيداً آلياً مستقلاً، وليس كمرشح لإعادة استخدام مدعوم بالأدلة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04372082](https://clinicaltrials.gov/study/NCT04372082) | Phase 3 | Withdrawn | 0 | Planned trial of hydroxychloroquine + diltiazem-niclosamide combination vs. standard of care for non-severe COVID-19 in patients with comorbidities (incl. cardiovascular disease); withdrawn before enrollment, no data generated. Graded C — not a cardiac-disease trial per se. |
-| [NCT04542434](https://clinicaltrials.gov/study/NCT04542434) | Phase 2 | Withdrawn | 0 | Planned placebo-controlled safety/efficacy study of niclosamide in moderate COVID-19 with GI symptoms; withdrawn before enrollment, no data generated. Graded C — target population not cardiac. |
-| [NCT03521232](https://clinicaltrials.gov/study/NCT03521232) | Phase 1/2a | Terminated | 27 | Safety, efficacy, and pharmacokinetics of niclosamide enema in ulcerative proctitis/procto-sigmoiditis; terminated early. Exploratory GI safety trial, not cardiac-disease-directed. Graded C. |
+| [NCT04372082](https://clinicaltrials.gov/study/NCT04372082) | Phase 3 | Withdrawn | 0 | تجربة مخطط لها لمقارنة هيدروكسيكلوروكوين + مركب ديلتيازيم-نيكلوسامايد مقابل الرعاية المعيارية لكوفيد-19 غير الحاد لدى المرضى الذين يعانون من أمراض مصاحبة (بما فيها أمراض القلب والأوعية الدموية)؛ توقفت قبل التسجيل، لم يتم توليد بيانات. مصنفة C — ليست تجربة لأمراض القلب بالمعنى الدقيق. |
+| [NCT04542434](https://clinicaltrials.gov/study/NCT04542434) | Phase 2 | Withdrawn | 0 | دراسة مخطط لها خاضعة للتحكم بالعلاج الوهمي لسلامة وفعالية نيكلوسامايد في كوفيد-19 المتوسط مع أعراض الجهاز الهضمي؛ توقفت قبل التسجيل، لم يتم توليد بيانات. مصنفة C — السكان المستهدفة ليسوا من أمراض القلب. |
+| [NCT03521232](https://clinicaltrials.gov/study/NCT03521232) | Phase 1/2a | Terminated | 27 | السلامة والفعالية والحركية الدوائية لحقنة نيكلوسامايد في التهاب المستقيم القرحي/التهاب القولون السيني؛ منتهية مبكراً. تجربة استطلاعية لسلامة الجهاز الهضمي، وليست موجهة نحو أمراض القلب. مصنفة C. |
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available for the "heart disease" prediction.
+لا تتوفر حالياً أدبيات ذات صلة للتنبؤ بـ "أمراض القلب".
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Niclosamide is not currently marketed in this jurisdiction (market status: Not marketed, 0 authorizations on record), so no product licenses are available to list.
+نيكلوسامايد غير مسوق حالياً في هذا الاختصاص القضائي (حالة السوق: غير مسوق، 0 تفويضات في السجل)، لذلك لا توجد تراخيص منتجات متاحة للإدراج.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The top-ranked prediction (heart disease) is supported only by Grade-C trials — two withdrawn with zero enrollment and one terminated — and the evidence review assesses the underlying signal as a likely TxGNN knowledge-graph mapping artifact (traced to a COVID-19 combination trial that paired niclosamide with the cardiac drug diltiazem) rather than a genuine drug–disease mechanistic link. All lower-ranked predictions (ranks 2–9) have zero supporting trials or literature and largely correspond to rare congenital/chromosomal syndromes with no plausible biological connection to niclosamide's known pharmacology; rank 10's literature set discusses niclosamide's general pharmacology (antifungal, antiviral, antifibrotic, oncology) but none of it addresses the named "disorder of fucoglycosan synthesis." Additionally, TFDA label data (warnings/contraindications) is a Blocking data gap that prevents any S1 safety evaluation from starting.
+**الأساس المنطقي:**
+يتم دعم التنبؤ الأعلى تصنيفاً (أمراض القلب) فقط بواسطة تجارب Grade-C — اثنتان موقوفة بدون تسجيل وواحدة منتهية — وتقييم استعراض الأدلة الخاص به للإشارة الأساسية كخطأ محتمل في تعيين رسم بياني معرفة TxGNN (يُرجع إلى تجربة مركبة لكوفيد-19 دمجت نيكلوسامايد مع عقار القلب ديلتيازيم) بدلاً من رابط حقيقي بين الدواء والمرض. جميع التنبؤات المصنفة أقل (الرتب 2–9) ليس لديها أي تجارب أو أدبيات داعمة وتتوافق إلى حد كبير مع متلازمات خلقية/كروموسومية نادرة بدون اتصال بيولوجي معقول بصيدلة نيكلوسامايد المعروفة؛ مجموعة الأدبيات بالرتبة 10 تناقش الصيدلة العامة لنيكلوسامايد (مضادة للفطريات، مضادة للفيروسات، مضادة للتليف، الأورام) لكن أياً منها لا يعالج "اضطراب تخليق فوكوجليكوسان" المسمى. بالإضافة إلى ذلك، بيانات تسمية TFDA (التحذيرات/موانع الاستعمال) تمثل فجوة بيانات حجب تمنع بدء أي تقييم سلامة S1.
 
-**To proceed, the following is needed:**
-- TFDA (or equivalent) package insert to unblock the S1 safety initial assessment (DG001, Blocking)
-- Verified mechanism-of-action data from DrugBank (DG002, High)
-- Independent confirmation of whether the "heart disease" TxGNN signal reflects real biology or is an artifact of the diltiazem-combination trial, before allocating further evaluation resources
-- If pursuing further, a re-run of the TxGNN mapping/evidence pipeline against a cleaner disease ontology, since several rank 2–10 disease labels appear mismatched or non-standard
+**ما يلزم لكي يتم المسير قدماً:**
+- نشرة عبوة TFDA (أو ما يعادلها) لفتح تقييم السلامة الأولي S1 (DG001, Blocking)
+- بيانات آلية العمل المعترف بها من DrugBank (DG002, High)
+- تأكيد مستقل حول ما إذا كانت إشارة "أمراض القلب" من TxGNN تعكس بيولوجيا حقيقية أم أنها خطأ في تجربة مركبة ديلتيازيم، قبل تخصيص موارد تقييم إضافية
+- إذا تمت المتابعة، إعادة تشغيل خط أنابيب تعيين/أدلة TxGNN مقابل تصنيف أمراض أنظف، حيث يبدو أن عدة تسميات أمراض بالرتب 2–10 غير متطابقة أو غير معيارية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

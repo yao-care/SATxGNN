@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-Using the report structure from the drug-repurposing prompt. One judgment call up front, stated transparently: `predicted_indications[0]` (brachydactyly-syndactyly syndrome) and ranks 2/3/4/6/7/9/10 are explicitly flagged in their own `repurposing_rationale` as ultra-rare genetic syndromes with **zero** clinical/literature evidence ("model noise" / "high risk false positive"). The only two candidates with real evidence are rank 5 (osteoarthritis, L3/S1/Research Question) and rank 8 (spondyloarthropathy susceptibility, L3/**S2/Proceed with Guardrails** — the highest decision stage in the whole pack, and clinically grounded since sulfasalazine is an established DMARD for peripheral spondyloarthritis). I built the report around rank 8 rather than blindly following array index 0, since a report on a zero-evidence rare-disease node would not be useful.
+# Sulfasalazine (سلفاسالازين): من التهاب المفاصل الروماتويدي / أمراض الأمعاء الالتهابية إلى التهاب الفقار
+
+استخدام هيكل التقرير من موجه إعادة استهداف الدواء. حكم واحد مقدماً، موضح بشفافية: `predicted_indications[0]` (متلازمة قصر الأصابع مع تضاعف الأصابع) والرتب 2/3/4/6/7/9/10 مميزة صراحة في `repurposing_rationale` الخاصة بها كمتلازمات وراثية نادرة جداً بدون **أي** أدلة سريرية/أدبية ("ضوضاء نموذج" / "إيجابي كاذب عالي الخطورة"). المرشحان الوحيدان اللذان لهما أدلة حقيقية هما الرتبة 5 (هشاشة المفاصل، L3/S1/سؤال بحثي) والرتبة 8 (قابلية التهاب الفقار، L3/**S2/المضي قدماً مع الضمانات** — أعلى مرحلة قرار في الحزمة الكاملة، وقائمة على أسس سريرية حيث أن sulfasalazine هو عامل DMARD راسخ للالتهاب الفقار المحيطي). بنيت التقرير حول الرتبة 8 بدلاً من اتباع فهرس المصفوفة 0 بعمى، لأن التقرير عن عقدة مرض نادر بدون أدلة لن يكون مفيداً.
 
 ---
 
-# Sulfasalazine: From Rheumatoid Arthritis / Inflammatory Bowel Disease to Spondyloarthropathy
+## ملخص في جملة واحدة
 
-## One-Sentence Summary
+> sulfasalazine عبارة عن عامل تعديل لسير المرض (DMARD) راسخ منذ فترة طويلة يُستخدم سريرياً في التهاب المفاصل الروماتويدي وأمراض الأمعاء الالتهابية (التهاب القولون التقرحي).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **التهاب الفقار (عقدة القابلية الوراثية)**،
+> وهو امتداد معقول نظراً للاستخدام الفعلي الحالي لـ sulfasalazine في التهاب الفقار المحيطي، على الرغم من أن **13 منشورة** محددة هي في الغالب مراجعات آليات المرض/الوراثة بدلاً من التجارب العلاجية المباشرة، و**لم يتم العثور على أي تجارب سريرية** لهذا المؤشر المحدد.
 
-> Sulfasalazine is a long-established DMARD used clinically for rheumatoid arthritis and inflammatory bowel disease (ulcerative colitis).
-> The TxGNN model predicts it may be effective for **Spondyloarthropathy (genetic susceptibility node)**,
-> a plausible extension given sulfasalazine's existing real-world use in peripheral spondyloarthritis, though the **13 publications** identified are mostly disease-mechanism/genetics reviews rather than direct treatment trials, and **no clinical trials** for this specific indication were found.
-
-*(Note: TxGNN's highest-ranked outputs — rank 1–4, 6, 7, 9, 10 — are all ultra-rare congenital syndromes with no supporting evidence and are annotated in the source data itself as likely model noise; they are not discussed further here.)*
+*(ملاحظة: نتائج TxGNN الأعلى تصنيفاً — الرتب 1–4، 6، 7، 9، 10 — هي جميعها متلازمات خلقية نادرة جداً بدون أدلة داعمة وتتميز في بيانات المصدر نفسها على أنها "ضوضاء نموذج" محتملة؛ لا يتم مناقشتها بشكل أعمق هنا.)*
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Rheumatoid arthritis / ulcerative colitis (established clinical use; not present in this evidence pack — see Data Gaps) |
-| Predicted New Indication | Spondyloarthropathy (susceptibility) |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | التهاب المفاصل الروماتويدي / التهاب القولون التقرحي (الاستخدام السريري الراسخ؛ غير موجود في حزمة الأدلة هذه — انظر الثغرات البيانية) |
+| المؤشر الجديد المتوقع | التهاب الفقار (القابلية) |
+| درجة التنبؤ TxGNN | 99.53% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, sulfasalazine is metabolized into 5-aminosalicylic acid (5-ASA) and sulfapyridine, and acts as an NF-κB and prostaglandin/leukotriene inhibitor with combined local (gut) and systemic anti-inflammatory effects. It is already a first-line, guideline-supported DMARD for peripheral forms of spondyloarthritis — including reactive arthritis, psoriatic arthritis, and inflammatory-bowel-disease-associated arthritis — which are clinically and mechanistically part of the same spondyloarthropathy disease family being predicted here.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في حزمة الأدلة هذه. بناءً على الصيدلة المعروفة، يتم استقلاب sulfasalazine إلى حمض 5-أمينوساليسيليك (5-ASA) وسلفابيريدين، ويعمل كمثبط لـ NF-κB والبروستاجلاندين/اللوكوترين مع تأثيرات مضادة للالتهاب موضعية (معوية) وجهازية مدمجة. إنه بالفعل عامل DMARD من الخط الأول المدعوم بالمبادئ التوجيهية للأشكال المحيطية من التهاب الفقار — بما في ذلك التهاب المفاصل التفاعلي والتهاب المفاصل الصدافي والتهاب المفاصل المرتبط بأمراض الأمعاء الالتهابية — وهي تشكل سريرياً وآلياً جزءاً من عائلة أمراض التهاب الفقار نفسها المتنبأ بها هنا.
 
-The TxGNN node in question, "spondyloarthropathy, susceptibility to," represents a genetic-predisposition concept rather than the disease itself, which explains why the literature returned is dominated by pathogenesis, genetic-association, and disease-classification reviews rather than sulfasalazine treatment trials. Still, one directly relevant genetic-pharmacology study (PMID 25413361) examines NAT2 polymorphisms and their correlation with sulfasalazine-induced adverse reactions specifically in ankylosing spondylitis patients — indicating the drug is already used in this population.
+عقدة TxGNN المعنية، "القابلية لالتهاب الفقار"، تمثل مفهوماً للاستعداد الوراثي بدلاً من المرض نفسه، مما يشرح سبب هيمنة الأدبيات المرجعة على مراجعات الفيزيولوجيا المرضية والارتباط الوراثي وتصنيف الأمراض بدلاً من تجارب علاج sulfasalazine. ومع ذلك، دراسة واحدة مباشرة ذات صلة بالصيدلة الوراثية (PMID 25413361) تفحص تعدد الأشكال NAT2 وارتباطها بالتفاعلات الضائرة الناجمة عن sulfasalazine على وجه التحديد في مرضى التهاب الفقار اللاصق — مما يشير إلى أن الدواء يُستخدم بالفعل في هذه السكان.
 
-Overall, the prediction is mechanistically reasonable and consistent with existing off-label/guideline practice, but the evidence base here is indirect (genetics/epidemiology of susceptibility, not treatment efficacy), so it should be read as reinforcing an already-known clinical use rather than establishing a genuinely novel indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+بشكل عام، التنبؤ معقول آلياً ومتسق مع الممارسة الحالية الخارج عن التسمية/موجهة بالمبادئ التوجيهية، لكن قاعدة الأدلة هنا غير مباشرة (الوراثة/الوبائيات للقابلية، وليس فعالية العلاج)، لذا يجب قراءتها كتعزيز الاستخدام السريري المعروف بالفعل بدلاً من تأسيس مؤشر جديد بحق.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً، لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## الأدلة الأدبية
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [25413361](https://pubmed.ncbi.nlm.nih.gov/25413361/) | 2014 | Genetic association | BMC Pharmacology & Toxicology | NAT2 polymorphisms in Han Chinese ankylosing spondylitis patients correlate with sulfasalazine-induced adverse drug reactions |
-| [20436080](https://pubmed.ncbi.nlm.nih.gov/20436080/) | 2010 | Cohort | The Journal of Rheumatology | Long-term follow-up of undifferentiated spondyloarthritis patients |
-| [10910178](https://pubmed.ncbi.nlm.nih.gov/10910178/) | 2000 | Review | Current Opinion in Rheumatology | Overview of juvenile spondyloarthropathies, cytokine and imaging findings |
-| [19938189](https://pubmed.ncbi.nlm.nih.gov/19938189/) | 2009 | Review | World Journal of Gastroenterology | Rheumatic manifestations of IBD, including shared immune pathways relevant to sulfasalazine's dual GI/joint use |
-| [18166219](https://pubmed.ncbi.nlm.nih.gov/18166219/) | 2008 | Review | Seminars in Arthritis and Rheumatism | Classification, genetic susceptibility, pathology and treatment response across the spondyloarthritis spectrum |
-| [15922688](https://pubmed.ncbi.nlm.nih.gov/15922688/) | 2005 | Review | The American Journal of Medicine | Update on spondyloarthritis pathogenesis and management, including HLA-B27 |
-| [1419506](https://pubmed.ncbi.nlm.nih.gov/1419506/) | 1992 | Review | Current Opinion in Rheumatology | Juvenile spondyloarthropathies and immunogenetic associations |
-| [34599048](https://pubmed.ncbi.nlm.nih.gov/34599048/) | 2022 | Review (tangential) | The Journal of Rheumatology | Interplay between COVID-19 and spondyloarthritis or its treatment |
-| [26061056](https://pubmed.ncbi.nlm.nih.gov/26061056/) | 2015 | Review (tangential) | Puerto Rico Health Sciences Journal | Rheumatic manifestations in Chikungunya infection, differential relevance to reactive/spondyloarthritis |
-| [8105815](https://pubmed.ncbi.nlm.nih.gov/8105815/) | 1993 | Review | APMIS | Role of antibiotics (not sulfasalazine) in reactive arthritis pathogenesis |
+| [25413361](https://pubmed.ncbi.nlm.nih.gov/25413361/) | 2014 | ارتباط وراثي | BMC Pharmacology & Toxicology | تعدد الأشكال NAT2 في مرضى التهاب الفقار اللاصق من الصينيين من أصول هان يرتبط بالتفاعلات الضائرة الناجمة عن sulfasalazine |
+| [20436080](https://pubmed.ncbi.nlm.nih.gov/20436080/) | 2010 | دراسة الأتراب | The Journal of Rheumatology | المتابعة طويلة الأجل لمرضى التهاب الفقار غير المتمايز |
+| [10910178](https://pubmed.ncbi.nlm.nih.gov/10910178/) | 2000 | مراجعة | Current Opinion in Rheumatology | نظرة عامة على التهاب الفقار عند الأطفال والسيتوكين والنتائج التصويرية |
+| [19938189](https://pubmed.ncbi.nlm.nih.gov/19938189/) | 2009 | مراجعة | World Journal of Gastroenterology | المظاهر الروماتيزمية لأمراض الأمعاء الالتهابية، بما في ذلك مسارات المناعة المشتركة ذات الصلة بالاستخدام المزدوج للـ GI/المفاصل لـ sulfasalazine |
+| [18166219](https://pubmed.ncbi.nlm.nih.gov/18166219/) | 2008 | مراجعة | Seminars in Arthritis and Rheumatism | التصنيف والقابلية الوراثية والفيزيولوجيا المرضية واستجابة العلاج عبر طيف التهاب الفقار |
+| [15922688](https://pubmed.ncbi.nlm.nih.gov/15922688/) | 2005 | مراجعة | The American Journal of Medicine | تحديث على الفيزيولوجيا المرضية لالتهاب الفقار والإدارة، بما في ذلك HLA-B27 |
+| [1419506](https://pubmed.ncbi.nlm.nih.gov/1419506/) | 1992 | مراجعة | Current Opinion in Rheumatology | التهاب الفقار عند الأطفال والارتباطات المناعية الوراثية |
+| [34599048](https://pubmed.ncbi.nlm.nih.gov/34599048/) | 2022 | مراجعة (عرضية) | The Journal of Rheumatology | التفاعل بين COVID-19 والتهاب الفقار أو علاجه |
+| [26061056](https://pubmed.ncbi.nlm.nih.gov/26061056/) | 2015 | مراجعة (عرضية) | Puerto Rico Health Sciences Journal | المظاهر الروماتيزمية في العدوى بفيروس تشيكنغونيا، الصلة التفاضلية لالتهاب المفاصل التفاعلي/التهاب الفقار |
+| [8105815](https://pubmed.ncbi.nlm.nih.gov/8105815/) | 1993 | مراجعة | APMIS | دور المضادات الحيوية (وليس sulfasalazine) في الفيزيولوجيا المرضية لالتهاب المفاصل التفاعلي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Sulfasalazine currently has no marketing authorization on file in Saudi Arabia (0 authorizations; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. TFDA package-insert warnings/contraindications data (DG001) is flagged as a **Blocking** data gap in this evidence pack — it must be resolved before this candidate can enter the S1 safety screening stage.
+لا يوجد حالياً لـ sulfasalazine تصريح تسويق في المملكة العربية السعودية (0 تصاريح؛ حالة السوق: غير مسوق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. بيانات تحذيرات/موانع استعمال نشرة معلومات TFDA (DG001) مميزة كفجوة بيانات **حاجبة** في حزمة الأدلة هذه — يجب حلها قبل أن يتمكن هذا المرشح من دخول مرحلة الفحص الأمني S1.
 
-**Rationale:**
-The disease-level evidence (established off-label DMARD use in peripheral spondyloarthritis, one direct pharmacogenetic study) supports moving toward "Proceed with Guardrails," but the pack's own Blocking-severity gap (DG001 — no TFDA package insert data) means safety screening (S1) has not been completed. A recommendation cannot be finalized without it.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) to unblock S1 safety evaluation (DG001)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Direct sulfasalazine treatment-efficacy studies in spondyloarthritis/peripheral SpA populations (current literature is mostly genetics/pathogenesis review, not interventional)
-- Saudi Arabia market-authorization pathway assessment, since the drug is not currently marketed there
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**الأساس المنطقي:**
+أدلة المستوى المرضي (الاستخدام الراسخ لـ DMARD الخارج عن التسمية في التهاب الفقار المحيطي، دراسة واحدة مباشرة للصيدلة الوراثية) تدعم الانتقال نحو "المضي قدماً مع الضمانات"، لكن الفجوة الخاصة بالحزمة نفسها ذات الشدة الحاجبة (DG001 — لا توجد بيانات نشرة معلومات TFDA) تعني أن الفحص الأمني (S1) لم يكتمل. لا يمكن إنهاء التوصية بدونه.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة معلومات TFDA (التحذيرات، موانع الاستعمال) لفتح قفل تقييم السلامة S1 (DG001)
+- توثيق آلية العمل المؤكدة من DrugBank (DG002)
+- دراسات فعالية العلاج المباشرة لـ sulfasalazine في مجموعات التهاب الفقار/التهاب الفقار المحيطي (الأدبيات الحالية هي في الغالب مراجعة الوراثة/الفيزيولوجيا المرضية، وليست تدخلية)
+- تقييم مسار التفويض السوقي في المملكة العربية السعودية، حيث أن الدواء غير مسوق حالياً هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

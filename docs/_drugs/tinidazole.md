@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Tinidazole: From Protozoal & Anaerobic Infections to AIDS (HIV Acquisition-Risk Reduction)
+# تينيدازول: من الالتهابات الطفيلية واللاهوائية إلى الإيدز (تقليل مخاطر الإصابة بفيروس نقص المناعة البشرية)
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-> Tinidazole is a second-generation 5-nitroimidazole antimicrobial, established for anaerobic bacterial and protozoal infections (trichomoniasis, bacterial vaginosis, amebiasis, giardiasis). The TxGNN model's top-scored predictions (postmenopausal atrophic vaginitis, vulvar ulceration, vulvar/breast lesions) show no supporting evidence and are most likely knowledge-graph embedding artifacts. The one indication with real supporting data — **AIDS** — is supported not by direct antiretroviral activity, but by **1 clinical trial** and **17 publications** on treating genital-tract infections that increase HIV susceptibility, making it the only candidate in this evidence pack worth carrying forward.
+> تينيدازول هو عامل مضاد للميكروبات من الجيل الثاني، من فئة النيترويميدازولات الخماسية، موثق الاستخدام للالتهابات البكتيرية اللاهوائية والالتهابات الطفيلية (داء المشعرات، التهاب المهبل الجرثومي، داء الأميبات، جيارديا الأمعاء). التنبؤات ذات الدرجات الأعلى من نموذج TxGNN (التهاب المهبل الضموري لدى النساء بعد انقطاع الطمث، القرح الفرجي، الآفات الفرجية/الثديية) لا تحتمل أدلة داعمة وهي على الأرجح تحف من الرسوم البيانية المعرفية. المؤشر الوحيد الذي يتمتع بيانات داعمة حقيقية - **الإيدز** - يدعمه ليس بالنشاط المضاد للفيروسات العكوسة المباشر، بل بـ **تجربة سريرية واحدة** و**17 منشورًا علميًا** حول معالجة الالتهابات في الجهاز التناسلي التي تزيد من قابلية الإصابة بفيروس نقص المناعة البشرية، مما يجعلها المؤشر الوحيد في هذه الحقيبة الإثباتية الذي يستحق المتابعة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Anaerobic bacterial & protozoal infections (trichomoniasis, bacterial vaginosis, amebiasis, giardiasis) |
-| Predicted New Indication | AIDS (via indirect infection-control pathway, not direct antiretroviral effect) |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الالتهابات البكتيرية اللاهوائية والالتهابات الطفيلية (داء المشعرات، التهاب المهبل الجرثومي، داء الأميبات، جيارديا الأمعاء) |
+| المؤشر الجديد المتنبأ به | الإيدز (عبر المسار غير المباشر لمكافحة الالتهابات، وليس تأثير مضاد للفيروسات مباشر) |
+| درجة تنبؤ TxGNN | 99.69% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير معروض في السوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for tinidazole is not available in this evidence pack (MOA: Data Gap). Based on the information that is available, tinidazole belongs to the 5-nitroimidazole class and is clinically used for trichomonal vaginitis, bacterial vaginosis, amebiasis, and giardiasis — efficacy that is well established.
+لا تتوفر بيانات تفصيلية عن آلية العمل لتينيدازول في هذه الحقيبة الإثباتية (آلية العمل: فجوة بيانات). بناءً على المعلومات المتاحة، ينتمي تينيدازول إلى فئة النيترويميدازولات الخماسية ويُستخدم سريريًا لالتهاب المهبل بالمشعرات والتهاب المهبل الجرثومي وداء الأميبات وجيارديا الأمعاء - فاعلية موثقة بشكل جيد.
 
-The mechanistic link to AIDS is **not** a direct antiviral or antiretroviral effect — tinidazole has no known anti-HIV activity. Instead, the rationale is indirect: infections such as *Trichomonas vaginalis* and bacterial vaginosis-related dysbiosis are known to increase mucosal permeability and inflammation, which in turn raises the risk of HIV acquisition and transmission. By treating these underlying infections, tinidazole may plausibly reduce HIV susceptibility as part of a combined infection-control strategy — not as a treatment for AIDS itself. This is reflected in the supporting literature, which centers on trichomoniasis/amebiasis management in HIV-positive or HIV-at-risk populations rather than on antiretroviral endpoints.
+الرابط الآلي للإيدز **ليس** تأثيرًا مضادًا للفيروسات مباشرًا أو نشاطًا مضادًا للفيروسات العكوسة - ليس لتينيدازول نشاط معروف ضد فيروس نقص المناعة البشرية. بدلاً من ذلك، يكون المنطق غير مباشر: الالتهابات مثل *Trichomonas vaginalis* والخلل المرتبط بالتهاب المهبل الجرثومي معروف أنها تزيد من نفاذية الأغشية المخاطية والالتهاب، مما يزيد بدوره من خطر الإصابة بفيروس نقص المناعة البشرية والانتقال. من خلال معالجة هذه الالتهابات الأساسية، قد يقلل تينيدازول بشكل معقول من قابلية الإصابة بفيروس نقص المناعة البشرية كجزء من استراتيجية مكافحة الالتهابات المدمجة - وليس كعلاج للإيدز نفسه. يظهر هذا في الأدبيات الداعمة، التي تركز على إدارة داء المشعرات/الأميبات في السكان الإيجابيين أو المعرضين لخطر فيروس نقص المناعة البشرية بدلاً من نقاط النهاية المضادة للفيروسات العكوسة.
 
-**Note on other predicted indications:** Nine of the ten TxGNN-predicted indications in this evidence pack (postmenopausal atrophic vaginitis, vulvar ulceration, vulvar neoplasm, breast fibrocystic disease, blunt duct/apocrine adenosis of breast, AIDS-related complex, congenital HIV, benign mammary dysplasia) returned **zero clinical trials and zero literature hits** across ClinicalTrials.gov, ICTRP, and PubMed. Their own rationale text flags them as likely token-level embedding proximity artifacts (e.g. "vaginitis" clustering) with no plausible biological mechanism. These are excluded from further evaluation (Evidence Level L5, Hold, Decision Stage S0) and are not carried into the sections below.
+**ملاحظة حول المؤشرات المتنبأ بها الأخرى:** تسعة من عشرة مؤشرات متنبأ بها من قبل TxGNN في هذه الحقيبة الإثباتية (التهاب المهبل الضموري لدى النساء بعد انقطاع الطمث، القرح الفرجي، الورم الخبيث الفرجي، مرض الثدي الكيسي الليفي، القناة المحصورة/تنسج الغدة الدهنية للثدي، مجمع الإيدز، فيروس نقص المناعة البشرية الخلقي، التنسج الثديي الحميد) أسفرت عن **صفر تجارب سريرية وصفر نتائج أدبية** عبر ClinicalTrials.gov و ICTRP و PubMed. يشير نص المنطق الخاص بهم إلى أنها على الأرجح تحف من القرب على مستوى الرموز (مثل تجميع "التهاب الفرج") بدون آلية بيولوجية معقولة. يتم استبعادها من التقييم الإضافي (مستوى الدليل L5، انتظار، مرحلة القرار S0) وليس نقلها إلى الأقسام أدناه.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03412071](https://clinicaltrials.gov/study/NCT03412071) | NA | Unknown | 125 | Pilot study assessing four antimicrobial products (3 topical, 1 systemic) on foreskin microbiome and HIV susceptibility of foreskin-derived CD4+ T cells in HIV-uninfected Ugandan men undergoing elective circumcision. Tinidazole is not explicitly named as the study drug and the endpoint is HIV susceptibility, not AIDS treatment — relevance graded C (indirect, low certainty). |
+| [NCT03412071](https://clinicaltrials.gov/study/NCT03412071) | NA | غير معروفة | 125 | دراسة تجريبية لتقييم أربعة منتجات مضادة للميكروبات (3 موضعية، 1 جهازية) على ميكروبيوم الجلد والقابلية للإصابة بفيروس نقص المناعة البشرية لخلايا CD4+ المشتقة من الجلد لدى رجال أوغنديين غير مصابين بفيروس نقص المناعة البشرية يخضعون للختان الاختياري. تينيدازول لم يُذكر صراحة باعتباره الدواء في الدراسة ونقطة النهاية هي قابلية الإصابة بفيروس نقص المناعة البشرية، وليس علاج الإيدز - يتم تصنيف الصلة بـ C (غير مباشرة، يقين منخفض). |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [31996095](https://pubmed.ncbi.nlm.nih.gov/31996095/) | 2020 | Cohort/Screening | Int J STD AIDS | Prenatal screening for chlamydia, gonorrhea, and trichomonas in DR Congo; trichomonas treatment relevant to reducing adverse birth/transmission outcomes. |
-| [21931875](https://pubmed.ncbi.nlm.nih.gov/21931875/) | 2011 | Cohort | PLoS Negl Trop Dis | Retrospective analysis of 170 HIV-1/amebiasis co-infected Japanese men; describes clinical features and treatment response in this high-risk population. |
-| [34794678](https://pubmed.ncbi.nlm.nih.gov/34794678/) | 2022 | Review | Pediatr Clin North Am | Review of amebiasis/amebic liver abscess; notes people with AIDS/HIV as a high-risk group requiring heightened suspicion. |
-| [19632225](https://pubmed.ncbi.nlm.nih.gov/19632225/) | 2010 | Review | Exp Parasitol | Review of Cryptosporidium/Giardia treatment options, including nitroimidazole-class drugs, with focus on immunocompromised/HIV-positive patients. |
-| [30789955](https://pubmed.ncbi.nlm.nih.gov/30789955/) | 2019 | Review | PLoS One | Epidemiological and clinical review of amoebic colitis in a non-endemic (Barcelona) setting. |
-| [35863010](https://pubmed.ncbi.nlm.nih.gov/35863010/) | 2022 | In vitro | Microbiol Spectr | Comparative in vitro anti-trichomonal activity of tinidazole and other 5-nitroimidazoles against clinical *T. vaginalis* isolates. |
-| [31324206](https://pubmed.ncbi.nlm.nih.gov/31324206/) | 2019 | Trial Protocol | Trials | Protocol for the RCT (matches NCT03412071) examining systemic/topical antimicrobial effects on penile microbiota and HIV susceptibility in Ugandan men. |
-| [8442923](https://pubmed.ncbi.nlm.nih.gov/8442923/) | 1993 | Preliminary study | AIDS (London) | Study of combined tinidazole + thiabendazole + cotrimoxazole vs. placebo for AIDS-related diarrhea in Zambia — most direct tinidazole/AIDS link in this dataset. |
-| [29393008](https://pubmed.ncbi.nlm.nih.gov/29393008/) | 2018 | Case report | Int J STD AIDS | Refractory *T. vaginalis* infection treated with combined IV metronidazole, oral tinidazole, and intravaginal boric acid after gastric bypass surgery. |
-| [21097745](https://pubmed.ncbi.nlm.nih.gov/21097745/) | 2010 | Case report | Int J STD AIDS | *T. vaginalis* presenting atypically as vulval ulceration, resolved with oral tinidazole. |
+| [31996095](https://pubmed.ncbi.nlm.nih.gov/31996095/) | 2020 | دراسة أتراب/الفحص | Int J STD AIDS | الفحص ما قبل الولادة للعدوى بالمتدثرة والسيلان والمشعرات في جمهورية الكونغو الديمقراطية؛ علاج المشعرات ذو صلة بتقليل نتائج الولادة/الانتقال العكسي. |
+| [21931875](https://pubmed.ncbi.nlm.nih.gov/21931875/) | 2011 | دراسة أتراب | PLoS Negl Trop Dis | التحليل بأثر رجعي لـ 170 رجلاً يابانياً مصاباً بفيروس نقص المناعة البشرية-1/داء الأميبات؛ يصف الخصائص السريرية واستجابة العلاج في هذه السكان المعرضة للخطر. |
+| [34794678](https://pubmed.ncbi.nlm.nih.gov/34794678/) | 2022 | استعراض | Pediatr Clin North Am | استعراض داء الأميبات/خراج الكبد الأميبي؛ يلاحظ الأشخاص المصابين بالإيدز/فيروس نقص المناعة البشرية كمجموعة عالية الخطورة تتطلب يقظة معززة. |
+| [19632225](https://pubmed.ncbi.nlm.nih.gov/19632225/) | 2010 | استعراض | Exp Parasitol | استعراض خيارات علاج Cryptosporidium/Giardia، بما في ذلك الأدوية من فئة النيترويميدازولات، مع التركيز على المرضى المثبطين للمناعة/الإيجابيين لفيروس نقص المناعة البشرية. |
+| [30789955](https://pubmed.ncbi.nlm.nih.gov/30789955/) | 2019 | استعراض | PLoS One | استعراض وبائي وسريري للتهاب القولون الأميبي في بيئة غير متوطنة (برشلونة). |
+| [35863010](https://pubmed.ncbi.nlm.nih.gov/35863010/) | 2022 | في الاختبار | Microbiol Spectr | النشاط المضاد للمشعرات المقارن في الاختبار من تينيدازول وأدوية نيترويميدازول أخرى ضد عزلات *T. vaginalis* السريرية. |
+| [31324206](https://pubmed.ncbi.nlm.nih.gov/31324206/) | 2019 | بروتوكول التجربة | Trials | بروتوكول التجربة العشوائية المضبوطة (يطابق NCT03412071) يدرس التأثيرات المضادة للميكروبات النظامية/الموضعية على ميكروبيوم القضيب وقابلية الإصابة بفيروس نقص المناعة البشرية لدى الرجال الأوغنديين. |
+| [8442923](https://pubmed.ncbi.nlm.nih.gov/8442923/) | 1993 | دراسة أولية | AIDS (London) | دراسة لمزيج من تينيدازول + ثيابندازول + كوتريموكسازول مقابل الدواء الوهمي لإسهال الإيدز في زامبيا - الارتباط الأكثر مباشرة بين تينيدازول/الإيدز في مجموعة البيانات هذه. |
+| [29393008](https://pubmed.ncbi.nlm.nih.gov/29393008/) | 2018 | تقرير حالة | Int J STD AIDS | عدوى *T. vaginalis* المقاومة تم علاجها بمزيج من الميترونيدازول عن طريق الوريد، وتينيدازول عن طريق الفم، وحمض البوريك داخل المهبل بعد جراحة المعدة. |
+| [21097745](https://pubmed.ncbi.nlm.nih.gov/21097745/) | 2010 | تقرير حالة | Int J STD AIDS | *T. vaginalis* التي تظهر بشكل غير نمطي كقرح فرجي، تم حلها بتينيدازول عن طريق الفم. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Tinidazole currently has **no marketing authorization on record in Saudi Arabia** (market status: not marketed; 0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data were not retrievable for this evaluation — see Conclusion for remediation.)
+تينيدازول حالياً ليس لديه تصريح تسويق في السجل في المملكة العربية السعودية (حالة السوق: غير معروض في السوق؛ 0 رخصة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى ملحق المنتج للحصول على معلومات السلامة. (لم تتمكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية من استرجاعها لهذا التقييم - انظر الخلاصة للتدارك).
 
-**Rationale:**
-The AIDS-related evidence is exploratory (Evidence Level L3: cohort/review-grade only, no completed RCT with a HIV/AIDS endpoint, and one Phase NA trial of unknown status). More importantly, the mechanistic link is indirect (infection control lowering HIV acquisition risk) rather than a treatment effect on AIDS itself, and a **Blocking** data gap (no TFDA/SFDA package insert or safety data) currently prevents this candidate from clearing the S1 safety screen at all.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — required before any S1 safety review can proceed
-- Confirmed mechanism-of-action data from DrugBank
-- A completed, adequately powered trial with an HIV-acquisition or AIDS-related endpoint (the current NCT03412071 is status "Unknown" and only indirectly linked to tinidazole)
-- Clarification of the drug-interaction profile (currently "not found")
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبررات:**
+الدليل المتعلق بالإيدز استكشافي (مستوى الدليل L3: أدلة على مستوى الأتراب/الاستعراض فقط، لا توجد تجربة عشوائية مضبوطة مكتملة مع نقطة نهاية فيروس نقص المناعة البشرية/الإيدز، وتجربة واحدة في مرحلة NA بحالة غير معروفة). والأهم من ذلك، أن الرابط الآلي غير مباشر (مكافحة الالتهابات لتقليل خطر الإصابة بفيروس نقص المناعة البشرية) بدلاً من تأثير العلاج على الإيدز نفسه، وفجوة بيانات **محظورة** (لا توجد ملحقات TFDA/SFDA أو بيانات السلامة) تمنع هذا المرشح من التخليص من شاشة السلامة S1 على الإطلاق في الوقت الحالي.
+
+**للمتابعة، المطلوب ما يلي:**
+- ملحق TFDA/SFDA (التحذيرات والموانع) - مطلوب قبل أن يتمكن أي مراجعة سلامة S1 من المتابعة
+- تأكيد بيانات آلية العمل من DrugBank
+- تجربة مكتملة وذات قوة كافية مع نقطة نهاية الإصابة بفيروس نقص المناعة البشرية أو الإيدز (التجربة الحالية NCT03412071 بحالة "غير معروفة" وليست مرتبطة بشكل مباشر بتينيدازول)
+- توضيح ملف تفاعل الأدوية (حالياً "لم يتم العثور عليه")
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,64 +29,63 @@ indication_count: 9
 
 </div>
 
-# Ivermectin: From Parasitic Infections to Vulvovaginal Candidiasis
+# Ivermectin: من العدوى الطفيلية إلى داء المبيضات الفرجي المهبلي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Ivermectin is an antiparasitic agent (avermectin class); no approved-indication data is on file in this market and detailed mechanism-of-action data has not yet been retrieved.
-> The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis**, but this is currently supported by **0 clinical trials** and **0 publications**,
-> and the model's own rationale states there is no known antifungal mechanism for ivermectin — this is a model-only prediction with no supporting evidence.
+> Ivermectin هو عامل مضاد للطفيليات (من فئة الأفيرمكتينات)؛ لا توجد بيانات عن استطبابات معتمدة موجودة في هذا السوق ولم تتم استرجاع بيانات تفصيلية عن آلية العمل حتى الآن. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **داء المبيضات الفرجي المهبلي**، لكن هذا مدعوم حالياً بـ **0 تجارب سريرية** و**0 منشور**، وتنص نسخة النموذج الخاصة به على عدم وجود آلية معروفة مضادة للفطريات لـ ivermectin — هذا تنبؤ يعتمد على النموذج فقط بدون أي أدلة داعمة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No approved-indication text on file (drug not marketed here; MOA is a data gap) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | لا يوجد نص استطباب معتمد على الملف (الدواء غير مسوق هنا؛ آلية العمل هي فجوة بيانات) |
+| الاستطباب الجديد المتنبأ به | داء المبيضات الفرجي المهبلي |
+| درجة التنبؤ في TxGNN | 99.95% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | Hold |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for ivermectin is currently a data gap (DG002, High severity). Based on general pharmacological knowledge, ivermectin is an avermectin-class antiparasitic that acts on invertebrate glutamate-gated chloride channels, causing paralysis and death of parasites (nematodes, arthropods). It has no established antifungal mechanism.
+بيانات آلية العمل المفصلة لـ ivermectin تمثل حالياً فجوة بيانات (DG002, High severity). واستناداً إلى المعرفة الدوائية العامة، ivermectin هو عامل مضاد للطفيليات من فئة الأفيرمكتينات يعمل على قنوات الكلوريد المبوابة بالجلوتامات في اللافقاريات، مما يسبب الشلل والموت للطفيليات (الديدان الأسطوانية والمفصليات). ليس له آلية معروفة مضادة للفطريات.
 
-Critically, the evidence pack's own rationale for this prediction states there is **no plausible biological link** between ivermectin and vulvovaginal candidiasis: candidiasis is a fungal infection, and ivermectin has no known antimycotic activity. The same caveat applies to all 9 of the drug's top-ranked predicted indications in this pack — they cluster around Candida species and vaginal/vulvar conditions, and each carries an identical "no known mechanism" rationale.
+والمهم أنّ نسخة حزمة الأدلة الخاصة بهذا التنبؤ تنص على **عدم وجود صلة بيولوجية معقولة** بين ivermectin وداء المبيضات الفرجي المهبلي: داء المبيضات هو عدوى فطرية، و ivermectin ليس له نشاط معروف مضاد للفطريات. يسري التحفظ ذاته على جميع 9 استطبابات متنبأ بها برتبة عالية للدواء في هذه الحزمة — فهي تتجمع حول أنواع المبيضات والحالات المهبلية/الفرجية، وتحمل كل منها نسخة متطابقة من تبرير "لا توجد آلية معروفة".
 
-The two literature items found for other (lower-ranked) predictions in this pack — a case report on disseminated strongyloidiasis and a case report on ivermectin treating crusted scabies in immunocompromised children — do not concern Candida infections at all. They most likely surfaced through knowledge-graph co-occurrence (immunocompromised-host opportunistic infections) rather than a genuine antifungal signal. This pattern suggests the high raw TxGNN score reflects a graph-topology artifact rather than pharmacological plausibility, and should be weighted accordingly.
+عنصرا الأدب المكتشفان للتنبؤات الأخرى (الأقل رتبة) في هذه الحزمة — تقرير حالة عن داء الاسترونجيلويديس المنتشر وتقرير حالة عن ivermectin لعلاج الجرب المُقشر لدى الأطفال المصابين بنقص المناعة — لا يتعلقان بعدوى المبيضات على الإطلاق. من المرجح أنهما ظهرا من خلال التزامن في الرسم البياني للمعرفة (العدوى الانتهازية للعائلين المصابين بنقص المناعة) بدلاً من إشارة حقيقية مضادة للفطريات. يشير هذا النمط إلى أن درجة TxGNN الخام العالية تعكس تصنيفاً هندسياً للرسم البياني بدلاً من المعقولية الدوائية، وينبغي أن تُرجح وفقاً لذلك.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدب
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-*(Note: literature retrieved for other, lower-ranked predicted indications for this drug — e.g., a strongyloidiasis case report and a crusted-scabies case report — do not pertain to candidiasis and are not counted as supporting evidence here.)*
+*(ملاحظة: الأدبيات المسترجعة للاستطبابات الأخرى الأقل رتبة المتنبأ بها لهذا الدواء — على سبيل المثال، تقرير حالة داء الاسترونجيلويديس وتقرير حالة جرب مُقشر — لا تتعلق بداء المبيضات ولا تُحسب كأدلة داعمة هنا.)*
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Currently not marketed; no product authorizations on file (total_licenses = 0).
+غير مسوق حالياً؛ لا توجد تصاريح منتج على الملف (total_licenses = 0).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all unavailable — DG001, Blocking severity, requires SFDA package-insert retrieval before any S1 safety review can proceed.)
+يُرجى الرجوع إلى النشرة المرفقة للحصول على معلومات الأمان. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية غير متاحة جميعها — DG001, Blocking severity، يتطلب استرجاع نشرة SFDA قبل أن تتمكن أي مراجعة أمان S1 من المتابعة.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-Despite a high raw TxGNN score, this prediction has zero clinical trials, zero directly relevant literature, and no known antifungal mechanism — the model's own rationale explicitly flags the biological link as implausible. Evidence level is L5 (model prediction only), and this pattern is shared across all 9 top-ranked predictions for this drug in this pack, suggesting a systematic knowledge-graph artifact rather than a genuine repurposing signal.
+**المنطق:**
+رغم درجة TxGNN الخام العالية، هذا التنبؤ لا يحتوي على تجارب سريرية، وصفر أدبيات ذات صلة مباشرة، وآلية معروفة مضادة للفطريات — نسخة النموذج نفسه تشير بوضوح إلى أن الصلة البيولوجية غير معقولة. مستوى الأدلة هو L5 (تنبؤ النموذج فقط)، وهذا النمط مشترك عبر جميع 9 تنبؤات برتبة عالية لهذا الدواء في هذه الحزمة، مما يشير إلى تصنيف هندسي منهجي للرسم البياني بدلاً من إشارة حقيقية لإعادة استخدام الدواء.
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings/contraindications) — currently Blocking (DG001)
-- DrugBank mechanism-of-action data (DG002)
-- In vitro or preclinical evidence of anti-*Candida* activity for ivermectin
-- Independent pharmacology/mycology expert review before any further evidence-collection resources are allocated to this candidate
+**للمتابعة، ما يلي ضروري:**
+- نشرة SFDA (التحذيرات/الموانع) — حالياً Blocking (DG001)
+- بيانات آلية العمل في DrugBank (DG002)
+- أدلة في المختبر أو قبل السريرية لنشاط مضاد *للمبيضات* لـ ivermectin
+- مراجعة مستقلة من خبراء الأدوية/علم الفطريات قبل تخصيص أي موارد إضافية لجمع الأدلة لهذا المرشح
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

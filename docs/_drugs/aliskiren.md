@@ -29,89 +29,90 @@ indication_count: 7
 
 </div>
 
-# Aliskiren: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+# الإليسكيرين: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي بسبب أمراض الرئة و/أو نقص الأكسجين
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Aliskiren is the first oral direct renin inhibitor (DRI), originally indicated for the treatment of primary hypertension in adults by blocking the rate-limiting enzyme of the renin-angiotensin-aldosterone system (RAAS).
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia**,
-with **0 clinical trials** and **20 publications** retrieved — however, none of the publications directly address aliskiren for this specific indication, placing this prediction at model-only (L5) evidence.
+الإليسكيرين هو أول مثبط رينين مباشر عن طريق الفم (DRI)، وكان مؤشراً له في الأصل لعلاج ارتفاع ضغط الدم الأولي لدى البالغين عن طريق حجب الإنزيم الذي يحدد معدل نظام الرينين-أنجيوتنسين-الألدوستيرون (RAAS).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ارتفاع ضغط الدم الرئوي بسبب أمراض الرئة و/أو نقص الأكسجين**،
+مع **0 تجربة سريرية** و **20 منشور** تم الحصول عليهما — ومع ذلك، لا أي من المنشورات يتناول الإليسكيرين لهذا المؤشر المحدد، مما يضع هذا التنبؤ على مستوى نموذج فقط (L5) دليل.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Hypertension (not registered in Saudi Arabia) |
-| Predicted New Indication | Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 — Model prediction only, no targeted studies |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | ارتفاع ضغط الدم (غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي بسبب أمراض الرئة و/أو نقص الأكسجين |
+| درجة التنبؤ بـ TxGNN | 99.98% |
+| مستوى الدليل | L5 — تنبؤ نموذج فقط، لا دراسات موجهة |
+| حالة السوق في المملكة العربية السعودية | غير متاح في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available from the regulatory database for this report. Based on established pharmacology, aliskiren is a direct renin inhibitor — it binds to the active site of renin, blocking its cleavage of angiotensinogen to angiotensin I, and thereby reducing the downstream production of angiotensin II and aldosterone. This upstream blockade of the entire RAAS cascade distinguishes it from ACE inhibitors and ARBs, which act at later steps in the same pathway. Its approved use in hypertension reflects this mechanism.
+بيانات آلية العمل التفصيلية غير متاحة من قاعدة البيانات التنظيمية لهذا التقرير. بناءً على الصيدلة المرسخة، الإليسكيرين هو مثبط رينين مباشر — إنه يرتبط بالموقع النشط للرينين، مما يحجب انقسامه للأنجيوتنسينوجين إلى أنجيوتنسين I، وبالتالي يقلل الإنتاج اللاحق للأنجيوتنسين II والألدوستيرون. يميز هذا الحجب الذي يحدث في أعلى المصب للنظام RAAS بأكمله عن مثبطات ACE و ARBs، التي تعمل في مراحل لاحقة من نفس المسار. يعكس استخدامه المعتمد في ارتفاع ضغط الدم هذه الآلية.
 
-The theoretical connection between aliskiren and pulmonary hypertension owing to lung disease and/or hypoxia (WHO Group 3 PH) is, however, weak. The dominant pathophysiological drivers in Group 3 PH are hypoxic pulmonary vasoconstriction (HPV), HIF-1α pathway activation, endothelin-1/nitric oxide imbalance, and progressive pulmonary vascular remodeling — pathways in which RAAS plays a peripheral rather than central role. While angiotensin II does exert some vasoconstrictive effect in the pulmonary vasculature, it is not the rate-limiting driver of hypoxia-induced right-sided pressure elevation. RAAS blockade alone is unlikely to meaningfully reverse HIF-1α–driven remodeling.
+الاتصال النظري بين الإليسكيرين وارتفاع ضغط الدم الرئوي بسبب أمراض الرئة و/أو نقص الأكسجين (مجموعة منظمة الصحة العالمية 3 PH) ضعيف جداً. المحركات المرضية الفسيولوجية السائدة في مجموعة 3 PH هي تضيق الأوعية الرئوية الناجم عن نقص الأكسجين (HPV)، وتفعيل مسار HIF-1α، واختلال التوازن بين الإندوثيلين-1 وأكسيد النيتريك، وإعادة تشكيل الأوعية الدموية الرئوية التدريجية — المسارات التي يلعب فيها RAAS دوراً محيطياً وليس مركزياً. في حين أن الأنجيوتنسين II يمارس بالفعل تأثيراً مضيقاً للأوعية في الأوعية الدموية الرئوية، إلا أنه ليس المحرك الذي يحدد معدل ارتفاع الضغط على الجانب الأيمن الناجم عن نقص الأكسجين. من غير المحتمل أن يؤدي حجب RAAS وحده إلى عكس إعادة التشكيل التي يحركها HIF-1α.
 
-The 20 publications retrieved from PubMed were identified via broad keyword association with "hypoxia" and represent general background literature on hypoxia biology in neurological, oncological, and physiological contexts. None specifically investigates aliskiren in pulmonary hypertension. The high TxGNN score therefore reflects graph-network inference from disease-drug structural similarity rather than direct experimental evidence, and should be interpreted as a hypothesis-generating signal only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+تم تحديد 20 منشور تم استرجاعه من PubMed من خلال ارتباط الكلمات الرئيسية الواسع مع "hypoxia" ويمثلون أدب خلفي عام حول بيولوجيا نقص الأكسجين في السياقات العصبية والورمية والفسيولوجية. لا أحد يحقق بشكل محدد في الإليسكيرين في ارتفاع ضغط الدم الرئوي. لذلك تعكس درجة TxGNN العالية الاستدلال من الشبكة البيانية من تشابه الهياكل المرضية والدوائية بدلاً من الأدلة التجريبية المباشرة، وينبغي تفسيرها كإشارة توليد فرضيات فقط.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-> ⚠️ The publications below were retrieved by hypoxia-related keyword matching. None directly investigates aliskiren for pulmonary hypertension owing to lung disease and/or hypoxia — they provide general mechanistic background on hypoxia pathophysiology only.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-| PMID | Year | Type | Journal | Key Findings |
+---
+
+## دليل الأدب
+
+> ⚠️ تم استرجاع المنشورات أدناه من خلال مطابقة الكلمات الرئيسية المتعلقة بنقص الأكسجين. لا أحد يحقق بشكل مباشر في الإليسكيرين لارتفاع ضغط الدم الرئوي بسبب أمراض الرئة و/أو نقص الأكسجين — فهي توفر خلفية آلية عامة حول فسيولوجيا المرض لنقص الأكسجين فقط.
+
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|------|------|------|------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | Describes the four core mechanisms of hypoxemia (V/Q mismatch, shunt, hypoventilation, low FiO₂); foundational reference for understanding Group 3 PH pathophysiology |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | Journal of Cellular Biochemistry | Summarizes how hypoxia drives angiogenesis, metabolic reprogramming, pH homeostasis, and vascular disease; contextualizes HPV and downstream remodeling |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | Reviews therapeutic strategies modifying tumor hypoxia; discusses why HIF-1α activation confers resistance — applicable reasoning for Group 3 PH mechanisms |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Review | Annual Review of Immunology | Explores the HIF axis in innate immunity and inflammatory hypoxia; relevant to pulmonary vascular inflammatory remodeling in chronic lung disease |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | Reviews dual protective/injurious role of hypoxia across organ systems; discusses systemic consequences of pulmonary hypoxemia |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | Molecular mechanisms of acute and chronic hypoxia-induced dysfunction; provides biochemical context for chronic hypoxia sequelae |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | Deubiquitinases regulate HIF-1α stability; discusses ubiquitin-proteasome control of hypoxia signaling — background for HIF-driven pulmonary remodeling |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | Hypoxia-vascular dysfunction interplay in multiple sclerosis; highlights how inflammatory hypoxia differs from ischemic hypoxia — relevant distinction for PH subtypes |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Commentary | Revista Médica del IMSS | Physiological acclimatization to hypobaric hypoxia at altitude; discusses morphological and genetic adaptations relevant to chronic hypoxemia models |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Basic Science | Advanced Science | NAT10/HIF-1α positive feedback drives glycolysis in hypoxic cancer cells; illustrates how HIF-1α creates self-sustaining hypoxia tolerance — applicable to vascular cell biology |
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | مراجعة | Respiratory Care Clinics of North America | يصف آليات نقص الأكسجين الأساسية الأربع (عدم توافق V/Q، التحويل، الإقلال في التهوية، انخفاض FiO₂)؛ مرجع أساسي لفهم فسيولوجيا المرض لمجموعة 3 PH |
+| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | مراجعة | Journal of Cellular Biochemistry | يلخص كيف يحرك نقص الأكسجين تكوين الأوعية الدموية وإعادة البرمجة الأيضية واستتباب الرقم الهيدروجيني وأمراض الأوعية الدموية؛ يسياق HPV وإعادة التشكيل اللاحقة |
+| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | مراجعة | Clinical Oncology | يراجع الاستراتيجيات العلاجية لتعديل نقص الأكسجين في الأورام؛ يناقش السبب في أن تفعيل HIF-1α يمنح المقاومة — المنطق المنطبق على آليات مجموعة 3 PH |
+| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | مراجعة | Annual Review of Immunology | يستكشف محور HIF في المناعة الفطرية والنقص الالتهابي للأكسجين؛ ذو صلة بإعادة تشكيل الأوعية الرئوية الالتهابية في أمراض الرئة المزمنة |
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | مراجعة | Ageing Research Reviews | يراجع الدور الثنائي الوقائي/الضار لنقص الأكسجين عبر الأجهزة؛ يناقش العواقب الجهازية لنقص الأكسجين الرئوي |
+| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | مراجعة | Metabolic Brain Disease | الآليات الجزيئية لاختلال الوظائف الحاد والمزمن الناجم عن نقص الأكسجين؛ يوفر السياق البيوكيميائي لعواقب نقص الأكسجين المزمن |
+| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | مراجعة | Trends in Cancer | تنظم الأديبوبيتاديزات استقرار HIF-1α؛ يناقش التحكم في اليوبيكويتين-البروتيازوم للإشارات عند نقص الأكسجين — خلفية لإعادة تشكيل الرئة التي يحركها HIF |
+| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | مراجعة | Redox Biology | التفاعل بين نقص الأكسجين واختلال وظائف الأوعية الدموية في التصلب المتعدد؛ يسلط الضوء على كيف يختلف نقص الأكسجين الالتهابي عن نقص الأكسجين الإقفاري — تمييز ذو صلة لأنواع PH |
+| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | تعليق | Revista Médica del IMSS | التكيف الفسيولوجي مع نقص الأكسجين hyperbaric على الارتفاع؛ يناقش التكيفات المورفولوجية والوراثية ذات الصلة بنماذج نقص الأكسجين المزمن |
+| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | العلوم الأساسية | Advanced Science | يدفع تغذية ردود فعل NAT10/HIF-1α الإيجابية الجلايكوليز في خلايا السرطان تحت نقص الأكسجين؛ يوضح كيف ينشئ HIF-1α تحملاً ذاتياً مستدام لنقص الأكسجين — قابل للتطبيق على بيولوجيا الخلايا الوعائية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
-> **Critical safety signal from published evidence**: The ALTITUDE trial (aliskiren in type 2 diabetes with cardiovascular or renal disease) was terminated early due to excess non-fatal strokes, hypotension, hyperkalemia, and acute kidney injury in patients receiving aliskiren combined with an ACE inhibitor or ARB. This combination is now contraindicated. Any repurposing study in patients with pulmonary disease and likely comorbid cardiovascular or renal conditions must explicitly evaluate dual RAAS blockade risk and screen for bilateral renal artery stenosis.
+> **إشارة السلامة الحرجة من الأدلة المنشورة**: تم إنهاء تجربة ALTITUDE (الإليسكيرين لدى مرضى داء السكري من النوع 2 مع أمراض القلب والأوعية الدموية أو الكلى) مبكراً بسبب زيادة السكتات الدماغية غير المميتة وانخفاض ضغط الدم وفرط بوتاسيوم الدم والإصابة الحادة بالكلى في المرضى الذين يتلقون الإليسكيرين مع مثبط ACE أو ARB. هذا المزيج محظور الآن. يجب على أي دراسة إعادة استخدام في المرضى الذين يعانون من أمراض الرئة والحالات المرضية المرافقة المحتملة للقلب والأوعية الدموية أو الكلى أن تقيم بشكل صريح خطر حجب RAAS المزدوج وتفحص ضيق الشرايين الكلويين الثنائي.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-Despite a near-maximum TxGNN score (99.98%), the mechanistic connection between RAAS inhibition and Group 3 pulmonary hypertension is weak — the dominant pathology (HPV, HIF-1α, endothelin/NO imbalance) is not RAAS-driven — and no clinical trials or targeted literature support this specific indication, confirming L5 evidence status.
+**الأساس المنطقي:**
+على الرغم من درجة TxGNN القريبة من الحد الأقصى (99.98%)، فإن الاتصال الآلي بين حجب RAAS وارتفاع ضغط الدم الرئوي بمجموعة 3 ضعيف — المرض السائد (HPV، HIF-1α، عدم التوازن endothelin/NO) ليس مدفوعاً بـ RAAS — ولا توجد تجارب سريرية أو أدبيات موجهة تدعم هذا المؤشر المحدد، مما يؤكد حالة L5 دليل.
 
-**To proceed, the following is needed:**
+**للمتابعة، ما يلي مطلوب:**
 
-- Preclinical proof-of-concept in established Group 3 PH animal models (e.g., SU5416/hypoxia rat model or MCT model) to test whether renin inhibition modulates pulmonary vascular pressure
-- Mechanistic studies clarifying whether RAAS contributes to HIF-1α activation or endothelin upregulation in chronic hypoxic lung disease
-- Full MOA documentation from DrugBank to complete mechanistic gap analysis (DG002)
-- SFDA/package insert safety data retrieval to complete S1 safety screening (DG001)
-- Formal safety screening against renal function and cardiovascular comorbidity profile typical of Group 3 PH patients, given ALTITUDE trial risks
+- إثبات مفهوم ما قبل الإكلينيكي في نماذج حيوانية معروفة لمجموعة 3 PH (على سبيل المثال، نموذج الفئران SU5416/hypoxia أو نموذج MCT) للاختبار ما إذا كان حجب الرينين يعدل ضغط الأوعية الدموية الرئوية
+- دراسات آلية توضح ما إذا كان RAAS يساهم في تفعيل HIF-1α أو تصعيد الإندوثيلين في أمراض الرئة المزمنة بنقص الأكسجين
+- توثيق MOA الكامل من DrugBank لإكمال تحليل الفجوة الآلية (DG002)
+- استرجاع بيانات سلامة SFDA/النشرة المرفقة لإكمال فحص السلامة S1 (DG001)
+- فحص سلامة رسمي ضد وظيفة الكلى وملف المراضة المشتركة لأمراض القلب والأوعية الدموية النموذجي لمرضى مجموعة 3 PH، في ضوء مخاطر تجربة ALTITUDE
 
-> **Higher-priority indications from this Evidence Pack**: **Malignant Renovascular Hypertension** (rank 4, L4 — strong RAAS mechanistic alignment) and **Cerebrovascular Disorder** (rank 7, L3 — 2 clinical trials including a Phase 2/3 MRI study, 13 publications, and direct animal neuroprotection data) demonstrate substantially better evidence and mechanistic fit. These indications are recommended for prioritization over the top-ranked TxGNN prediction.
+> **المؤشرات ذات الأولوية الأعلى من هذه مجموعة الأدلة**: **ارتفاع ضغط الدم الكلوي الخبيث** (الترتيب 4، L4 — محاذاة RAAS الآلية القوية) و **اضطراب الأوعية الدموية الدماغية** (الترتيب 7، L3 — 2 تجربة سريرية تشمل دراسة MRI من المرحلة 2/3، و13 منشور، وبيانات نيوروحماية حيوانية مباشرة) توضح أدلة وملاءمة آلية أفضل بشكل كبير. يُوصى بإعطاء الأولوية لهذه المؤشرات على التنبؤ الأعلى ترتيباً بـ TxGNN.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

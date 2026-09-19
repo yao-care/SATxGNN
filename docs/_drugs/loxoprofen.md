@@ -29,60 +29,61 @@ indication_count: 2
 
 </div>
 
-# Loxoprofen: From NSAID Pain/Inflammation Therapy to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# لوكسوبروفين: من علاج الألم/الالتهاب NSAIDs إلى متلازمة الشذوذ البصري الكوبوماتي مع خلل النمو الريزوميلي
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Loxoprofen is a non-selective COX-1/COX-2 inhibitor NSAID; a formally approved indication text is not available because the drug is currently **not marketed in Saudi Arabia**. The TxGNN model's top prediction is **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental/chromosomal syndrome, but this is supported by **zero clinical trials and zero publications**, and the evidence pack itself flags the prediction as a likely knowledge-graph artifact rather than a biologically plausible signal.
+لوكسوبروفين هو مثبط غير انتقائي لـ COX-1/COX-2 NSAID؛ النص الدلالي المعتمد رسمياً للمؤشر الطبي غير متاح لأن العقار حالياً **غير مسوق في المملكة العربية السعودية**. التنبؤ الأعلى للنموذج TxGNN هو **متلازمة الشذوذ البصري الكوبوماتي مع خلل النمو الريزوميلي**، وهي متلازمة نمائية/صبغية نادرة، لكن هذا مدعوم بـ **صفر تجربة سريرية وصفر منشورات**، وحزمة الأدلة نفسها تُشير إلى التنبؤ على أنه حالة اصطناعية محتملة في الرسم البياني للمعرفة بدلاً من إشارة بيولوجية معقولة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not formally documented (drug not marketed in Saudi Arabia); drug class is NSAID (pain/inflammation) |
-| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.80% (rank 4030) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق رسمياً (العقار غير مسوق في المملكة العربية السعودية)؛ فئة العقار هي NSAID (الألم/الالتهاب) |
+| المؤشر الجديد المتنبأ به | متلازمة الشذوذ البصري الكوبوماتي مع خلل النمو الريزوميلي |
+| درجة التنبؤ TxGNN | 99.80% (الترتيب 4030) |
+| مستوى الأدلة | L5 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available in the evidence pack (marked as Data Gap). Based on known drug classification, Loxoprofen is a non-selective COX-1/COX-2 inhibitor NSAID, and its pharmacological action is suppression of prostaglandin synthesis to relieve pain and inflammation.
+بيانات آلية العمل المفصلة غير متاحة في حزمة الأدلة (تم تحديدها كفجوة بيانات). بناءً على تصنيف العقار المعروف، لوكسوبروفين هو مثبط غير انتقائي لـ COX-1/COX-2 NSAID، والعمل الدوائي له هو كبح تخليق البروستاجلاندين لتخفيف الألم والالتهاب.
 
-The predicted new indication, colobomatous microphthalmia-rhizomelic dysplasia syndrome, is a rare developmental/chromosomal syndrome (coloboma-associated small eye malformation combined with proximal limb dysplasia) caused by embryonic gene regulatory abnormalities. There is **no known pathogenic mechanism linked to the prostaglandin pathway**.
+المؤشر الجديد المتنبأ به، متلازمة الشذوذ البصري الكوبوماتي مع خلل النمو الريزوميلي، هي متلازمة نمائية/صبغية نادرة (تشوه العين الصغيرة المرتبط بالكوبوما مقترناً بخلل النمو في الأطراف القريبة) ناجمة عن الشذوذ التنظيمي الجيني الجنيني. لا توجد **آلية إمراضية معروفة مرتبطة بمسار البروستاجلاندين**.
 
-The evidence pack's own repurposing rationale is explicit on this point: the high TxGNN score (0.998) most likely reflects sparse node connectivity and embedding-similarity distortion for this rare-disease node in the knowledge graph, rather than genuine biological plausibility. The same caveat applies to the rank-2 candidate, brachydactyly-syndactyly syndrome (score 99.75%, also a congenital skeletal disorder tied to developmental gene pathways such as HOX, with no COX-pathway link and no supporting trials or literature). Both candidates carry the same L5 evidence level and Hold recommendation.
+النسبة المنطقية للتمديد الدوائي في حزمة الأدلة واضحة في هذه النقطة: درجة TxGNN العالية (0.998) تعكس على الأرجح الاتصال النادر للعقدة وتشوه التشابه الموجه للرسم البياني المعرفي لهذه العقدة النادرة الأمراض، بدلاً من الحسن البيولوجي الحقيقي. يسري نفس التحذير على المرشح الثاني، متلازمة قصر الأصابع والالتحام (درجة 99.75%، أيضاً اضطراب هيكلي خلقي مرتبط بمسارات الجينات النمائية مثل HOX، بدون ارتباط مسار COX وبدون تجارب أو أدبيات داعمة). كلا المرشحين يحملان نفس مستوى الأدلة L5 والتوصية بالانتظار.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No authorizations on record — Loxoprofen currently has 0 registered licenses and is not marketed in Saudi Arabia.
+لا توجد تراخيص في السجل — لوكسوبروفين حالياً لديه 0 تراخيص مسجلة وغير مسوق في المملكة العربية السعودية.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Note: retrieval of the TFDA/SFDA package insert (warnings and contraindications) is currently a **blocking data gap**, which prevents this candidate from entering the S1 safety pre-screening stage.
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. ملاحظة: استرجاع النشرة الداخلية TFDA/SFDA (التحذيرات والموانع) حالياً عبارة عن **فجوة بيانات حاجزة**، مما يمنع هذا المرشح من دخول مرحلة الفحص السابق للسلامة S1.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The prediction sits at evidence level L5 (model prediction only) with no clinical trials or literature support, and the evidence pack itself assesses the mechanistic link as implausible (likely a sparse-node artifact in the knowledge graph). Combined with the blocking data gap on TFDA/SFDA package insert safety data and the drug's current non-marketed status in Saudi Arabia, there is no basis to advance past S0.
+**المبرر:**
+التنبؤ يقع على مستوى أدلة L5 (تنبؤ النموذج فقط) بدون دعم من تجارب سريرية أو أدبيات، وحزمة الأدلة نفسها تقيّم الارتباط الآلي على أنه غير معقول (حالة اصطناعية محتملة لعقدة نادرة في الرسم البياني المعرفي). بالاقتران مع فجوة البيانات الحاجزة على بيانات السلامة الخاصة بـ TFDA/SFDA في النشرة الداخلية وحالة عدم تسويق العقار حالياً في المملكة العربية السعودية، لا توجد أساس للمضي قدماً بعد S0.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — required to clear the S1 safety pre-screen (currently blocking)
-- Confirmed mechanism of action (MOA) data from DrugBank or another authoritative source
-- Independent mechanistic or preclinical evidence connecting COX inhibition to either candidate syndrome, given the current rationale assesses the link as absent
-- Re-evaluation if future clinical trials, case reports, or literature emerge for either indication
+**للمضي قدماً، يلزم ما يلي:**
+- النشرة الداخلية TFDA/SFDA (التحذيرات، الموانع) — مطلوبة لتجاوز فحص سلامة S1 السابق (حاجز حالياً)
+- آلية العمل (MOA) المؤكدة من DrugBank أو مصدر موثوق آخر
+- أدلة آلية أو ما قبل سريرية مستقلة تربط تثبيط COX بأي من متلازمات المرشح، بالنظر إلى أن النسبة المنطقية الحالية تقيّم الارتباط على أنه غائب
+- إعادة التقييم إذا ظهرت تجارب سريرية أو تقارير حالات أو أدبيات مستقبلية لأي من المؤشرات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

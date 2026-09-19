@@ -29,95 +29,96 @@ indication_count: 10
 
 </div>
 
-# Ribavirin: From Antiviral Therapy to Chronic Hepatitis B Virus Infection
+# ريبافيرين: من العلاج المضاد للفيروسات إلى عدوى فيروس التهاب الكبد B المزمن
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ribavirin is a guanosine nucleoside analog historically used in combination antiviral regimens (e.g., with peginterferon) against RNA viral infections such as hepatitis C. The TxGNN model predicts it may be effective for **Chronic Hepatitis B Virus Infection**, but the supporting evidence base is weak: the drug is not currently marketed in Saudi Arabia, its original approved indication is not on record, and the clinical trials/literature retrieved are predominantly about hepatitis C or HBV/HCV co-infection rather than HBV monotherapy efficacy.
+ريبافيرين هو نظير نوكليوسيد جوانوسين تم استخدامه تاريخياً في أنظمة علاجية مضادة للفيروسات بالمشاركة (مثلاً مع بيجينترفيرون) ضد العدوى الفيروسية الحمضية مثل التهاب الكبد C. يتنبأ نموذج TxGNN أنه قد يكون فعالاً ضد **عدوى فيروس التهاب الكبد B المزمن**، لكن قاعدة الأدلة الداعمة ضعيفة: الدواء غير مسوق حالياً في المملكة العربية السعودية، والمؤشر المعتمد الأصلي غير مسجل، والدراسات السريرية والمراجع التي تم استرجاعها تتعلق بشكل أساسي بالتهاب الكبد C أو العدوى المشتركة B/C بدلاً من فعالية العلاج الأحادي لفيروس B.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | No approved-indication record on file (drug is unmarketed; regulatory/label data not available) |
-| Predicted New Indication | Chronic Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | لا توجد سجلات مؤشرات معتمدة في الملف (الدواء غير مسوق؛ البيانات التنظيمية/الملصقة غير متاحة) |
+| المؤشر الجديد المتنبأ به | عدوى فيروس التهاب الكبد B المزمن |
+| درجة التنبؤ TxGNN | 99.86% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed, sourced mechanism-of-action data is not currently available for ribavirin in this evidence pack (flagged as a High-severity data gap). Based on the repurposing rationale generated alongside the prediction, ribavirin is a guanosine nucleoside analog that acts mainly through IMPDH inhibition and RNA mutagenesis, mechanisms that target **RNA viruses** such as hepatitis C virus (HCV).
+لا تتوفر حالياً بيانات آلية العمل المفصلة والموثقة بمصادر لريبافيرين في هذه مجموعة الأدلة (تم وضع علامة عليها كفجوة بيانات عالية الخطورة). بناءً على منطق إعادة التوظيف الذي تم توليده جنباً إلى جنب مع التنبؤ، فإن ريبافيرين هو نظير نوكليوسيد جوانوسين يعمل بشكل أساسي من خلال تثبيط IMPDH والطفرات الحمضية، وهي آليات تستهدف **الفيروسات الحمضية** مثل فيروس التهاب الكبد C (HCV).
 
-Hepatitis B virus (HBV), by contrast, is a partially double-stranded DNA virus that replicates via reverse transcription. Direct mechanistic support for ribavirin's antiviral activity against HBV is weak. The very high TxGNN score most likely reflects the extensive literature and knowledge-graph co-occurrence of HBV and HCV in "dual infection" / "co-infection" contexts — where ribavirin is a standard component of anti-HCV therapy administered to patients who also carry HBV — rather than evidence that ribavirin directly suppresses HBV replication.
+فيروس التهاب الكبد B (HBV)، على النقيض من ذلك، هو فيروس حمض نووي مزدوج الاتجاه جزئياً ينسخ نفسه عبر النسخ العكسي. الدعم الآلي المباشر لنشاط ريبافيرين المضاد للفيروسات ضد HBV ضعيف. درجة TxGNN العالية جداً تعكس على الأرجح الأدب الشامل والتكافل المشترك لـ HBV و HCV في سياقات العدوى المزدوجة / المشتركة - حيث يكون ريبافيرين مكوناً معيارياً في العلاج المضاد لـ HCV الموصوف للمرضى الذين يحملون HBV أيضاً - بدلاً من أدلة على أن ريبافيرين يثبط مباشرة نسخ HBV.
 
-In other words, the prediction is plausible as a graph-embedding artifact of shared clinical contexts (HBV/HCV co-infection management, shared risk populations, shared literature) rather than as a direct pharmacological signal. This distinction matters for interpreting the clinical trial and literature evidence below, most of which addresses ribavirin's role in treating HCV in patients who happen to also have HBV, not ribavirin's efficacy against HBV itself.
+بعبارة أخرى، التنبؤ معقول كمصنوع من الرسم البياني المضمن للسياقات السريرية المشتركة (إدارة العدوى المشتركة HBV/HCV، السكان المعرضين للخطر المشترك، الأدب المشترك) بدلاً من إشارة دوائية مباشرة. هذا التمييز مهم لتفسير أدلة التجارب السريرية والأدب أدناه، معظمها يتناول دور ريبافيرين في معالجة HCV لدى المرضى الذين يحدث أن يكون لديهم HBV أيضاً، وليس فعالية ريبافيرين ضد HBV نفسه.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Phase 3 | Completed | 138 | PARC Study: peginterferon alfa-2a + ribavirin vs. peginterferon monotherapy in HBeAg-negative chronic HBV — tested whether adding ribavirin enhances virologic response (HBV DNA suppression) over interferon alone. Most directly relevant trial to this indication hypothesis. |
-| [NCT01401400](https://clinicaltrials.gov/study/NCT01401400) | N/A | Completed | 1350 | GIANT-B Study: genetic determinants of response to peginterferon-based treatment in chronic hepatitis B patients; background antiviral context, not a ribavirin efficacy trial per se. |
-| [NCT02339337](https://clinicaltrials.gov/study/NCT02339337) | Phase 4 | Completed | 203 | Pioneer pilot study: tailored peginterferon alfa + ribavirin regimen in patients with chronic hepatitis C/hepatitis B co-infection (HBeAg-negative), guided by viral kinetics — evaluates HCV response, not HBV efficacy directly. |
-| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Phase 3 | Unknown | 320 | Peginterferon alfa-2a + ribavirin in HCV/HBV co-infected vs. HCV mono-infected patients — designed around treating the HCV component in co-infected patients. |
-| [NCT00630084](https://clinicaltrials.gov/study/NCT00630084) | Phase 4 | Completed | 120 | Peginterferon + ribavirin outcomes in chronic hepatitis C patients with concomitant malignancy — graded as possibly relevant but title/summary center on HCV, not HBV; relevance uncertain. |
+| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Phase 3 | مكتملة | 138 | دراسة PARC: بيجينترفيرون ألفا-2a + ريبافيرين مقابل مونوثيرابي البيجينترفيرون في HBV المزمن HBeAg-negative — اختبرت ما إذا كان إضافة ريبافيرين يعزز الاستجابة الفيروسية (قمع DNA لـ HBV) على المعالجة بالإنترفيرون وحده. التجربة الأكثر صلة مباشرة بفرضية هذا المؤشر. |
+| [NCT01401400](https://clinicaltrials.gov/study/NCT01401400) | N/A | مكتملة | 1350 | دراسة GIANT-B: المحددات الجينية للاستجابة للعلاج القائم على بيجينترفيرون لدى مرضى التهاب الكبد B المزمن؛ سياق مضاد للفيروسات خلفي، وليست تجربة فعالية ريبافيرين في حد ذاتها. |
+| [NCT02339337](https://clinicaltrials.gov/study/NCT02339337) | Phase 4 | مكتملة | 203 | دراسة تجريبية رائدة: نظام بيجينترفيرون ألفا + ريبافيرين مخصص لدى المرضى الذين يعانون من العدوى المشتركة بـ التهاب الكبد C/التهاب الكبد B (HBeAg-negative)، موجهة بحركية الفيروس — تقيّم الاستجابة لـ HCV، وليس فعالية HBV مباشرة. |
+| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Phase 3 | غير معروفة | 320 | بيجينترفيرون ألفا-2a + ريبافيرين في مرضى HCV/HBV المعديين بشكل مشترك مقابل مرضى HCV الموحدين العدوى — تم تصميمها حول معالجة مكون HCV في المرضى المعديين بشكل مشترك. |
+| [NCT00630084](https://clinicaltrials.gov/study/NCT00630084) | Phase 4 | مكتملة | 120 | نتائج البيجينترفيرون + ريبافيرين في مرضى التهاب الكبد C المزمن مع الخباثة المصاحبة — تم تقييمها على أنها ربما تكون ذات صلة لكن العنوان/الملخص يركز على HCV، وليس HBV؛ الصلة غير مؤكدة. |
 
-**Note:** The full evidence pack returned 50 clinical trials for this indication query, but the large majority (graded "C" — indirect/possibly mislabeled) are standard peginterferon + ribavirin trials for chronic hepatitis C, HCV-related conditions, or unrelated antivirals, not HBV-specific studies. Only the trials above have a title/summary directly referencing hepatitis B. No trial tests ribavirin as HBV monotherapy or against an HBV-specific endpoint as a primary objective.
+**ملاحظة:** أرجعت مجموعة الأدلة الكاملة 50 تجربة سريرية لاستعلام هذا المؤشر، لكن الأغلبية الكبيرة (مصنفة "C" — غير مباشرة/ربما تم وضع تسمية خاطئة عليها) هي تجارب بيجينترفيرون + ريبافيرين المعيارية لالتهاب الكبد C المزمن أو الحالات المرتبطة بـ HCV أو مضادات فيروسات غير ذات صلة، وليست دراسات محددة لـ HBV. فقط التجارب أعلاه لديها عنوان/ملخص يشير مباشرة إلى التهاب الكبد B. لا توجد تجربة تختبر ريبافيرين كمونوثيرابي HBV أو ضد نقطة نهاية محددة لـ HBV كهدف أساسي.
 
 ---
 
-## Literature Evidence
+## أدلة من الأدب الطبي
 
-| PMID | Year | Type | Journal | Key Findings |
+| معرّف PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [10832679](https://pubmed.ncbi.nlm.nih.gov/10832679/) | 2000 | Commentary | Journal of Gastroenterology | "Is ribavirin treatment really effective for chronic hepatitis B?" — directly interrogates the efficacy question underlying this prediction. |
-| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | Reviews HCV/HBV co-infection management, including peginterferon + ribavirin regimens for the HCV component. |
-| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World Journal of Gastroenterology | Updates on treatment and outcomes of dual chronic HCV/HBV infection. |
-| [19669238](https://pubmed.ncbi.nlm.nih.gov/19669238/) | 2009 | Review | Hepatology International | Dual chronic HBV and HCV infection — viral interaction dynamics and treatment considerations. |
-| [27433078](https://pubmed.ncbi.nlm.nih.gov/27433078/) | 2016 | — | World Journal of Gastroenterology | Notes that while HCV can be eliminated with combination DAA therapy, HBV persists even after treatment and requires lifelong therapy — underscores that interferon/ribavirin-based regimens are not curative for HBV. |
-| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | — | Annual Review of Medicine | Current treatment strategies for chronic hepatitis B and C — describes interferon and lamivudine (not ribavirin) as HBV treatment mainstays. |
-| [18804888](https://pubmed.ncbi.nlm.nih.gov/18804888/) | 2008 | Review | Journal of Hepatology | Treatment of HBV/HCV co-infection — still a challenge for the hepatologist. |
-| [21538279](https://pubmed.ncbi.nlm.nih.gov/21538279/) | 2011 | Review | Seminars in Liver Disease | Host genetics of chronic hepatitis B and C outcomes. |
-| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | — | World Journal of Gastroenterology | IL28B genetic polymorphism and its association with peginterferon/ribavirin response in HCV, and its uncertain relationship to HBV outcomes. |
-| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | — | Expert Review of Anti-infective Therapy | Treatment options for chronic hepatitis B and C infection in children. |
+| [10832679](https://pubmed.ncbi.nlm.nih.gov/10832679/) | 2000 | تعليق | Journal of Gastroenterology | "هل العلاج بريبافيرين فعال حقاً لالتهاب الكبد B المزمن؟" — يفحص مباشرة سؤال الفعالية الكامن وراء هذا التنبؤ. |
+| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | مراجعة | Viruses | يراجع إدارة العدوى المشتركة HCV/HBV، بما في ذلك أنظمة بيجينترفيرون + ريبافيرين لمكون HCV. |
+| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | مراجعة | World Journal of Gastroenterology | تحديثات حول العلاج والنتائج للعدوى المزدوجة المزمنة HCV/HBV. |
+| [19669238](https://pubmed.ncbi.nlm.nih.gov/19669238/) | 2009 | مراجعة | Hepatology International | العدوى المزدوجة المزمنة HBV و HCV — ديناميات التفاعل الفيروسي والاعتبارات العلاجية. |
+| [27433078](https://pubmed.ncbi.nlm.nih.gov/27433078/) | 2016 | — | World Journal of Gastroenterology | تلاحظ أنه بينما يمكن القضاء على HCV بالعلاج المركب DAA، يستمر HBV حتى بعد العلاج ويتطلب علاجاً مدى الحياة — تؤكد أن الأنظمة القائمة على الإنترفيرون/ريبافيرين لا تشفي HBV. |
+| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | — | Annual Review of Medicine | استراتيجيات العلاج الحالية لالتهاب الكبد B و C المزمن — يصف الإنترفيرون واللاميفودين (وليس ريبافيرين) كعناصر أساسية لعلاج HBV. |
+| [18804888](https://pubmed.ncbi.nlm.nih.gov/18804888/) | 2008 | مراجعة | Journal of Hepatology | علاج العدوى المشتركة HBV/HCV — لا يزال تحدياً للاختصاصي في أمراض الكبد. |
+| [21538279](https://pubmed.ncbi.nlm.nih.gov/21538279/) | 2011 | مراجعة | Seminars in Liver Disease | الوراثة المضيفة لنتائج التهاب الكبد B و C المزمن. |
+| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | — | World Journal of Gastroenterology | تعدد الأشكال الجيني IL28B وارتباطه باستجابة بيجينترفيرون/ريبافيرين في HCV، وعلاقته غير المؤكدة بنتائج HBV. |
+| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | — | Expert Review of Anti-infective Therapy | خيارات العلاج لعدوى التهاب الكبد B و C المزمن عند الأطفال. |
 
-**Note:** None of the retrieved literature is a randomized controlled trial specifically testing ribavirin efficacy against HBV. The most directly on-topic item (Kakumu 2000) poses the efficacy question rather than demonstrating a positive result.
-
----
-
-## Saudi Arabia Market Information
-
-Ribavirin currently has no marketing authorization on record (market status: **Not Marketed**, 0 licenses). No product, dosage form, or approved-indication data is available to tabulate.
+**ملاحظة:** لا يوجد في الأدب المسترجع أي تجربة سريرية عشوائية مضبوطة تختبر بشكل محدد فعالية ريبافيرين ضد HBV. العنصر الأكثر صلة مباشرة بالموضوع (Kakumu 2000) يطرح سؤال الفعالية بدلاً من إثبات نتيجة إيجابية.
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data are currently available in this evidence pack (TFDA package insert retrieval is flagged as a Blocking data gap, DG001).
+ريبافيرين حالياً ليس لديه ترخيص تسويق مسجل (حالة السوق: **غير مسوق**، 0 رخصة). لا توجد بيانات منتج أو شكل جرعة أو مؤشر معتمد متاحة للجدول.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold**
+يرجى الرجوع إلى ملصق المنتج للحصول على معلومات الأمان. لا توجد بيانات عن التحذيرات الرئيسية أو موانع الاستعمال أو تفاعلات الأدوية المتاحة حالياً في هذه مجموعة الأدلة (استرجاع ملصق TFDA تم وضع علامة عليه كفجوة بيانات حجب، DG001).
 
-**Rationale:**
-The TxGNN score is high, but the mechanistic basis is weak — ribavirin's known antiviral activity targets RNA viruses, while HBV is a DNA virus, and the retrieved trials/literature are almost entirely about ribavirin's established role in HCV treatment (including in HBV/HCV co-infected patients) rather than direct evidence of anti-HBV efficacy. The one directly relevant Phase 3 trial (PARC) tested ribavirin as an *add-on* to interferon rather than as a therapy in its own right, and no literature confirms a positive HBV-specific outcome. Combined with the Blocking data gap on safety labeling and the drug's unmarketed status in Saudi Arabia, this candidate does not meet the bar to proceed at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert with warnings and contraindications (DG001 — Blocking)
-- Verified mechanism-of-action data from DrugBank (DG002 — High)
-- Full-text review of the PARC study (NCT00114361) results to confirm whether ribavirin add-on therapy showed a genuine HBV-specific benefit
-- Clarification of whether the high TxGNN score reflects a true mechanistic signal or a graph co-occurrence artifact from HBV/HCV co-infection literature, before further evidence collection is prioritized
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الحجة:**
+درجة TxGNN عالية، لكن الأساس الآلي ضعيف — نشاط ريبافيرين المضاد للفيروسات المعروف يستهدف الفيروسات الحمضية، بينما HBV هو فيروس حمض نووي، والدراسات/الأدب المسترجع يتعلق بشكل حصري تقريباً بدور ريبافيرين المثبت في علاج HCV (بما في ذلك لدى المرضى المعديين بشكل مشترك HBV/HCV) بدلاً من الأدلة المباشرة على فعالية مضادة لـ HBV. التجربة Phase 3 ذات الصلة المباشرة الوحيدة (PARC) اختبرت ريبافيرين كـ *إضافة* للإنترفيرون بدلاً من كعلاج في حد ذاته، ولا يوجد أدب يؤكد نتيجة إيجابية محددة لـ HBV. مع الجمع بين فجوة البيانات الحاجبة على ملصقات الأمان وحالة الدواء غير المسوق في المملكة العربية السعودية، فإن هذا المرشح لا يستوفي المعيار للمتابعة في الوقت الحالي.
+
+**للمتابعة، المطلوب ما يلي:**
+- ملصق TFDA/محلي مع التحذيرات وموانع الاستعمال (DG001 — حجب)
+- بيانات آلية العمل المتحققة من DrugBank (DG002 — عالية)
+- مراجعة النص الكامل لنتائج دراسة PARC (NCT00114361) للتأكد من ما إذا أظهر العلاج الإضافي بريبافيرين فائدة حقيقية محددة لـ HBV
+- توضيح ما إذا كانت درجة TxGNN العالية تعكس إشارة آلية حقيقية أم مصنوع تكافل رسم بياني من أدب العدوى المشتركة HBV/HCV، قبل أن يتم تحديد أولويات جمع المزيد من الأدلة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

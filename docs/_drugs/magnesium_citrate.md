@@ -29,65 +29,66 @@ indication_count: 2
 
 </div>
 
-# Magnesium Citrate: From Unknown Original Indication to a Speculative Signal in Calcium-Alkali Syndrome
+# سيترات المغنيسيوم: من استطباب أصلي غير معروف إلى إشارة تخمينية في متلازمة فرط كالسيوم الدم والقلاء
 
-## One-Sentence Summary
+## ملخص سطر واحد
 
-> Magnesium Citrate (DrugBank DB11110) has no recorded original indication and no documented mechanism of action in this evidence pack, and the product is not currently marketed in Saudi Arabia.
-> The TxGNN model predicts a possible link to **calcium-alkali syndrome**,
-> but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a model-only prediction with no external validation.
+> سيترات المغنيسيوم (DrugBank DB11110) لا تملك استطباباً أصلياً مسجلاً ولا آلية عمل موثقة في هذه مجموعة الأدلة، والمنتج غير مسوّق حالياً في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN برابط محتمل إلى **متلازمة فرط كالسيوم الدم والقلاء**،
+> لكن هذه الإشارة مدعومة حالياً بـ **0 تجارب سريرية** و **0 منشورات** — فهي توقع نموذج فقط بدون تحقق خارجي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No data available (no approved indication on record; product not marketed) |
-| Predicted New Indication | Calcium-alkali syndrome |
-| TxGNN Prediction Score | 99.51% (knowledge-graph rank 7,772) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | لا توجد بيانات متاحة (لا يوجد استطباب معتمد مسجل؛ المنتج غير مسوّق) |
+| الاستطباب الجديد المتنبأ به | متلازمة فرط كالسيوم الدم والقلاء |
+| درجة توقع TxGNN | 99.51% (رتبة الرسم البياني المعرفي 7,772) |
+| مستوى الأدلة | L5 |
+| حالة سوق المملكة العربية السعودية | غير مسوّق (غير مسوّق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for Magnesium Citrate, and no original indication is on record in this evidence pack — the product is not marketed in Saudi Arabia and carries zero authorizations. This means the prediction cannot be anchored to any demonstrated original clinical use.
+حالياً، بيانات تفصيلية حول آلية العمل غير متاحة لسيترات المغنيسيوم، ولا يوجد استطباب أصلي مسجل في مجموعة الأدلة هذه — المنتج غير مسوّق في المملكة العربية السعودية ولديه صفر موافقات. هذا يعني أن التنبؤ لا يمكن أن يكون مدعوماً بأي استخدام سريري أصلي موضح.
 
-The TxGNN rationale rests entirely on a generic magnesium–calcium metabolic relationship: magnesium and calcium interact in renal tubular reabsorption and PTH secretion, and in principle magnesium could influence calcium balance. However, calcium-alkali syndrome (formerly milk-alkali syndrome) is itself a toxicity state driven by excess calcium/vitamin D intake, diuretic use, and renal impairment — whether magnesium would be protective or would instead promote the same disturbance cannot be determined from the available data. The TxGNN score reflects proximity in the knowledge graph, not a validated causal or therapeutic relationship.
+يستند منطق TxGNN بالكامل على علاقة استقلاب عامة بين المغنيسيوم والكالسيوم: يتفاعل المغنيسيوم والكالسيوم في امتصاص الأنابيب الكلوية وإفراز PTH، وبالمبدأ قد يؤثر المغنيسيوم على توازن الكالسيوم. ومع ذلك، فإن متلازمة فرط كالسيوم الدم والقلاء (تاريخياً متلازمة الحليب والقلاء) هي بحد ذاتها حالة سمية تحركها الإفراط في تناول الكالسيوم وفيتامين D، واستخدام مدرات البول، وضعف الكلى — ما إذا كان المغنيسيوم سيكون وقائياً أم سيعزز الاضطراب ذاته لا يمكن تحديده من البيانات المتاحة. تعكس درجة TxGNN القرب في الرسم البياني المعرفي، وليس علاقة سببية أو علاجية موثقة.
 
-A second, lower-ranked prediction — primary bone dysplasia with defective bone mineralization — has somewhat more physiological plausibility, since magnesium is a known cofactor in bone mineralization and the PTH–vitamin D axis. But this is a heterogeneous group of largely genetic disorders (collagen, growth-plate signaling, mineralization-enzyme defects), and there is no mechanistic or clinical evidence that magnesium supplementation corrects an underlying genetic mineralization defect. Neither candidate indication has any supporting clinical trial or literature evidence.
+التنبؤ الثاني الأقل تصنيفاً — خلل العظام الأولي مع عيب تمعدن العظام — له معقولية فسيولوجية أكثر إلى حد ما، لأن المغنيسيوم عامل معروف في تمعدن العظام والمحور PTH-فيتامين D. لكن هذه مجموعة غير متجانسة من الاضطرابات غالبها وراثية (الكولاجين، إشارات لوحة النمو، عيوب إنزيمات التمعدن)، وليس هناك دليل ميكانيكي أو سريري على أن مكملات المغنيسيوم تصحح عيباً وراثياً أساسياً. لا يملك أي من الاستطبابات المرشحة أي دليل تجربة سريرية أو أدبية داعمة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Magnesium Citrate is not currently marketed in Saudi Arabia (0 product authorizations on record); no dosage form or approved-indication data is available.
+سيترات المغنيسيوم غير مسوّقة حالياً في المملكة العربية السعودية (0 موافقة منتج مسجلة)؛ لا توجد بيانات شكل جرعي أو استطباب معتمد متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-*(Note: TFDA/SFDA package-insert warnings and contraindications are flagged as a blocking data gap (DG001) and have not yet been reviewed — this must be resolved before any safety assessment can proceed.)*
+*(ملاحظة: تحذيرات نشرة المعلومات والموانع من TFDA/SFDA تم تصنيفها كفجوة بيانات حاجزة (DG001) ولم يتم استعراضها بعد — يجب حل هذا قبل أي تقييم سلامة يمكن أن يتقدم.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-This candidate has no original-indication data, no mechanism of action, no clinical trial or literature support, and is not marketed in Saudi Arabia. Evidence level is L5 (model prediction only), and the safety data gap (DG001) is classified as blocking — there is currently no basis to advance either candidate indication beyond model output.
+**المنطق:**
+هذا المرشح لا يملك بيانات استطباب أصلية، ولا آلية عمل، ولا دعم تجربة سريرية أو أدبية، وغير مسوّق في المملكة العربية السعودية. مستوى الأدلة هو L5 (توقع نموذج فقط)، وفجوة بيانات السلامة (DG001) تصنف كحاجزة — لا توجد حالياً أساس لتعزيز أي من الاستطبابات المرشحة بعيداً عن ناتج النموذج.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, blocking)
-- Confirmed mechanism of action from DrugBank or another authoritative source (DG002)
-- Clarification of directionality for the calcium-alkali syndrome hypothesis (protective vs. causative)
-- Preclinical or mechanistic studies linking magnesium supplementation to either candidate indication
-- Confirmation of the drug's actual original/approved indication(s), if any exist in another jurisdiction
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة معلومات TFDA/SFDA والموانع (DG001، حاجز)
+- آلية عمل موثقة من DrugBank أو مصدر سلطة آخر (DG002)
+- توضيح الاتجاهية لفرضية متلازمة فرط كالسيوم الدم والقلاء (وقائي مقابل سببي)
+- دراسات ما قبل السريرية أو ميكانيكية تربط مكملات المغنيسيوم بأي من الاستطبابات المرشحة
+- تأكيد الاستطباب الأصلي الفعلي/المعتمد للعقار، إن كان موجوداً في اختصاص قضائي آخر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

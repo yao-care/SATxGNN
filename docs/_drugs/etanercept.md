@@ -29,106 +29,101 @@ indication_count: 6
 
 </div>
 
-Using the drug-repurposing evaluation report template (v5) supplied in this task to structure the output from the Evidence Pack.
+# إيتانرسبت: من التهاب المفاصل الروماتويدي إلى التهاب الأوعية الدموية الروماتويدي
 
-A note on scope before the report: this Evidence Pack (`TW-DB00005-multi`) contains **6** TxGNN-predicted indications for etanercept, not one. Per the template's extraction rules, the primary title/overview must be built from `predicted_indications[0]` (rheumatoid vasculitis). I have followed that rule for the main body, but because two of the other five candidates (`inflammatory spondylopathy`, `polyarticular juvenile rheumatoid arthritis`) turn out to already be **approved indications** for etanercept rather than novel repurposing hypotheses, and because the rank‑1 candidate's own evidence argues against efficacy, I've added a closing comparison table so this isn't lost. This deviates slightly from the letter of the template but is necessary for the report not to mislead.
+## ملخص بجملة واحدة
 
----
+إيتانرسبت هو بروتين اندماجي لمستقبل TNF-α (p75 TNFR:Fc)، واستخدامه المثبت هو في التهاب المفاصل الروماتويدي والتهابات المفاصل الالتهابية ذات الصلة (التهاب مفاصل الأطفال الجنيسي، التهاب المفاصل الصدفي، التهاب الفقار اللاصق).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الأوعية الدموية الروماتويدي**، وهو تجلي خارج مفصلي شديد للالتهاب المفاصل الروماتويدي، مع تحديد **6 تجارب سريرية** و**20 منشور**.
+ومع ذلك، كانت تجربة عشوائية مضبوطة من المرحلة الأولى/الثانية ذات صلة **سلبية**، وتوثق كمية كبيرة من الأدبيات أن إيتانرسبت **يحتث** أحداث تشبه التهاب الأوعية الدموية بدلاً من معالجتها — تشير قاعدة الأدلة هذه نحو إشارة سلامة وليس فرصة علاجية.
 
-# Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Etanercept is a TNF-α receptor fusion protein (p75 TNFR:Fc) whose established use is in rheumatoid arthritis and related inflammatory arthritides (JIA, psoriatic arthritis, ankylosing spondylitis).
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**, an extra-articular, severe manifestation of RA, with **6 clinical trials** and **20 publications** identified.
-However, the directly relevant Phase 1/2 RCT was **negative**, and a substantial body of the literature instead documents etanercept **inducing** vasculitis-like events rather than treating them — this evidence base points toward a safety signal, not a therapeutic opportunity.
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available from Saudi Arabia licensing data (drug not marketed); literature in this pack indicates original approved use in Rheumatoid Arthritis and related inflammatory arthritides (JIA, psoriatic arthritis, ankylosing spondylitis) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح من بيانات الترخيص السعودية (الدواء غير مسوق)؛ تشير الأدبيات في هذه الحزمة إلى أن الاستخدام الأصلي المعتمد هو في التهاب المفاصل الروماتويدي والتهابات المفاصل الالتهابية ذات الصلة (التهاب مفاصل الأطفال الجنيسي، التهاب المفاصل الصدفي، التهاب الفقار اللاصق) |
+| المؤشر الجديد المتنبأ به | التهاب الأوعية الدموية الروماتويدي |
+| درجة التنبؤ TxGNN | 99.71% |
+| مستوى الأدلة | L3 |
+| حالة السوق السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, a structured mechanism-of-action record is not available for etanercept in this Evidence Pack (marked as a data gap). Based on the literature captured in this pack, etanercept is a dimeric fusion protein combining the p75 TNF receptor with the Fc portion of human IgG1; it binds circulating TNF-α and blocks its pro-inflammatory activity. This mechanism underlies its approved efficacy in rheumatoid arthritis and other TNF-α–driven inflammatory arthritides.
+حالياً، لا يتوافر سجل آلية عمل منظم لإيتانرسبت في حزمة الأدلة هذه (موضح كفجوة بيانات). بناءً على الأدبيات المجمعة في هذه الحزمة، إيتانرسبت هو بروتين اندماجي ثنائي يجمع مستقبل TNF من النوع p75 مع جزء Fc من الغلوبيولين المناعي البشري من النوع 1؛ يرتبط بـ TNF-α المتداول ويحجب نشاطه الالتهابي. تكمن هذه الآلية في أساس فعاليته المعتمدة في التهاب المفاصل الروماتويدي والتهابات المفاصل الالتهابية الأخرى المدفوعة بـ TNF-α.
 
-Rheumatoid vasculitis (RV) is recognized in the literature as one of the most severe extra-articular manifestations of rheumatoid arthritis, arising from the same underlying autoimmune/inflammatory process, and TNF-α is implicated in the vascular endothelial inflammation and immune-complex deposition seen in systemic vasculitides such as ANCA-associated vasculitis. On paper, this gives biological plausibility to the idea that a drug already effective against RA's joint disease could also help control RA's vascular complications.
+يُعترف بالتهاب الأوعية الدموية الروماتويدي (RV) في الأدبيات كأحد أشد المظاهر خارج المفصلية للالتهاب المفاصل الروماتويدي، والناشئة من نفس العملية الكامنة الالتهابية/المناعية الذاتية، و TNF-α مرتبط بالتهاب الغلاف الباطني الوعائي والترسب المعقد المناعي المرى في الالتهابات الجهازية الوعائية مثل التهاب الأوعية المرتبط بـ ANCA. من حيث المبدأ، هذا يوفر معقولية بيولوجية لفكرة أن الدواء الفعال بالفعل ضد مرض المفصل في التهاب المفاصل الروماتويدي يمكن أيضاً أن يساعد في السيطرة على مضاعفات الأوعية الدموية في التهاب المفاصل الروماتويدي.
 
-However, the direct evidence in this pack argues the opposite direction. The one trial that tested etanercept specifically in a vasculitis population — NCT00001901 (the WGET trial, Phase 1/2, etanercept + standard therapy in Wegener's granulomatosis/ANCA-associated vasculitis) — found **no significant benefit** and an increased risk of solid tumors. More strikingly, at least six literature entries in this pack (PMIDs 15853915, 12209493, 11792895, 15801034, 25544845, 41327089) describe etanercept **inducing or being temporally associated with** cutaneous or systemic vasculitis, lupus-like disease, and nodulosis — a recognized class effect of anti-TNF agents ("paradoxical vasculitis"). This mechanistic ambiguity means the prediction should be treated as a signal to investigate rather than a validated therapeutic hypothesis.
+ومع ذلك، تجادل الأدلة المباشرة في هذه الحزمة الاتجاه المعاكس. التجربة الوحيدة التي اختبرت إيتانرسبت تحديداً في مجموعة من مرضى التهاب الأوعية الدموية — NCT00001901 (تجربة WGET، المرحلة 1/2، إيتانرسبت + العلاج القياسي في الحبيبية Wegener/التهاب الأوعية المرتبط بـ ANCA) — وجدت **لم تحقق فائدة ملحوظة** وزيادة في خطر الأورام الصلبة. والأكثر إثارة للقلق، ستة مدخلات أدبية على الأقل في هذه الحزمة (PMIDs 15853915, 12209493, 11792895, 15801034, 25544845, 41327089) تصف إيتانرسبت **يحتث أو مرتبط زمنياً مع** التهاب الأوعية الجلدي أو الجهازي ومرض يشبه الذئبة الحمراء وتكون العقد المتسارع — وهو تأثير فئة معروف لعوامل مضادة TNF ("التهاب الأوعية الدموية المتناقض"). هذا الغموض الميكانيكي يعني أن التنبؤ يجب أن يُعامل كإشارة للتحقيق بدلاً من فرضية علاجية مثبتة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 1/2 | Completed | 60 | WGET trial — etanercept + standard therapy in Wegener's granulomatosis (ANCA-associated vasculitis); direct test of the hypothesis but a **key negative result**, with increased solid-tumor risk noted |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large observational study of the risk of new immune-mediated inflammatory disease developing in patients on biologics/immunosuppressants for an existing IMID — relevant to the "induced vasculitis" safety signal |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty; not vasculitis-specific |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completed | 1,754 | Real-world treatment pathways/outcomes in moderate RA patients starting etanercept vs. non-biologic therapy; not vasculitis-specific |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of treatment patterns for biologic DMARDs in RA in China; not vasculitis-specific |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab (not etanercept) in RA; provides background only |
+| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | المرحلة 1/2 | مكتملة | 60 | تجربة WGET — إيتانرسبت + العلاج القياسي في الحبيبية Wegener (التهاب الأوعية المرتبط بـ ANCA)؛ اختبار مباشر للفرضية لكنها **نتيجة سلبية رئيسية**، مع ملاحظة زيادة في خطر الأورام الصلبة |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | غير محدد | غير معروف | 750,000 | دراسة رصدية كبيرة لخطر تطور مرض التهابي مدفوع بالمناعة جديد لدى المرضى على الأدوية البيولوجية/مثبطات المناعة للإصابة الموجودة بـ IMID — ذات صلة بإشارة السلامة الناجمة عن إيتانرسبت |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | المرحلة الثانية | لم تبدأ بعد | 80 | إدارة مثبطات المناعة حول الجراحة لدى مرضى أمراض الروماتيزم الخاضعين لعملية إصلاح مفصل الكتف؛ ليست محددة للالتهاب الأوعية الدموية |
+| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | غير محدد | مكتملة | 1,754 | مسارات العلاج والنتائج الفعلية لدى مرضى التهاب المفاصل الروماتويدي المتوسط الذين بدأوا إيتانرسبت مقابل العلاج غير البيولوجي؛ ليست محددة للالتهاب الأوعية الدموية |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | غير محدد | مكتملة | 808 | دراسة مستعرضة لأنماط العلاج بأدوية معدِّلة لمسار الأمراض الروماتويدية البيولوجية في التهاب المفاصل الروماتويدي في الصين؛ ليست محددة للالتهاب الأوعية الدموية |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | غير محدد | مكتملة | 184 | دراسة غير تدخلية لتوسيليزوماب (وليس إيتانرسبت) في التهاب المفاصل الروماتويدي؛ توفر خلفية فقط |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical Rheumatology | Systematic review of biological therapy (including TNF inhibitors) for rheumatoid vasculitis; frames current evidence base for the indication |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrology, Dialysis, Transplantation | Explicitly questions whether TNFα blockade has a role in ANCA-associated vasculitis and glomerulonephritis |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort (BSRBR-RA) | RMD Open | Compares risk of lupus-like and vasculitis-like events in TNF-inhibitor-treated RA patients vs. non-biologic DMARDs — a pharmacovigilance-grade safety signal |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Review | The Journal of Rheumatology | TNF-α blockade and the risk of (induced) vasculitis |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Case series / immunology study | Scandinavian Journal of Immunology | Cutaneous vasculitis associated with both etanercept and infliximab |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case report | Arthritis and Rheumatism | Accelerated nodulosis and vasculitis following etanercept therapy for RA |
-| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Case report | Rheumatology (Oxford) | Etanercept and infliximab associated with cutaneous vasculitis |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Case report | The Journal of Rheumatology | Proliferative lupus nephritis and leukocytoclastic vasculitis during etanercept treatment |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Case report | Case Reports in Medicine | Large vessel vasculitis occurring in an RA patient under anti-TNF therapy |
-| [41327089](https://pubmed.ncbi.nlm.nih.gov/41327089/) | 2025 | Case report | BMC Nephrology | RA patient developing membranous nephropathy and ANCA-associated vasculitis successively |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | مراجعة منهجية | Clinical Rheumatology | مراجعة منهجية للعلاج البيولوجي (بما في ذلك مثبطات TNF) للالتهاب الأوعية الدموية الروماتويدي؛ تؤطر قاعدة الأدلة الحالية للمؤشر |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | مراجعة | Nephrology, Dialysis, Transplantation | تتساءل بشكل صريح عما إذا كان لحصار TNFα دور في التهاب الأوعية المرتبط بـ ANCA والتهاب كبيبات الكلى |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | دراسة متتبعة (BSRBR-RA) | RMD Open | يقارن خطر أحداث تشبه الذئبة الحمراء والتهاب الأوعية الدموية لدى مرضى التهاب المفاصل الروماتويدي المعالجين بمثبطات TNF مقابل أدوية معدِّلة لمسار الأمراض الروماتويدية غير البيولوجية — إشارة سلامة بحثية الصيدلة |
+| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | مراجعة | The Journal of Rheumatology | حصار TNF-α وخطر التهاب الأوعية الدموية (المحتث) |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | سلسلة حالات / دراسة مناعية | Scandinavian Journal of Immunology | التهاب الأوعية الجلدي المرتبط بـ إيتانرسبت وإنفليكسيماب |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | تقرير حالة | Arthritis and Rheumatism | تسارع تكون العقد والتهاب الأوعية الدموية التالي لعلاج إيتانرسبت لالتهاب المفاصل الروماتويدي |
+| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | تقرير حالة | Rheumatology (Oxford) | إيتانرسبت وإنفليكسيماب مرتبط بالتهاب الأوعية الجلدي |
+| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | تقرير حالة | The Journal of Rheumatology | اعتلال الكلى الذئبي المتكاثر والتهاب الأوعية leukocytoclastic أثناء العلاج بـ إيتانرسبت |
+| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | تقرير حالة | Case Reports in Medicine | التهاب الأوعية الدموية كبير الأوعية الذي يحدث في مريض التهاب المفاصل الروماتويدي تحت العلاج المضاد لـ TNF |
+| [41327089](https://pubmed.ncbi.nlm.nih.gov/41327089/) | 2025 | تقرير حالة | BMC Nephrology | مريض التهاب المفاصل الروماتويدي يطور الاعتلال الكلوي الغشائي والتهاب الأوعية المرتبط بـ ANCA على التوالي |
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودية
 
-Etanercept is currently **not marketed in Saudi Arabia** per this Evidence Pack (`market_status: Not marketed`, 0 total licenses). No authorization records are available to summarize.
+إيتانرسبت حالياً **غير مسوق في المملكة العربية السعودية** وفقاً لحزمة الأدلة هذه (`market_status: Not marketed`, 0 إجمالي الرخص). لا توجد سجلات ترخيص متاحة للتلخيص.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-No structured TFDA/SFDA package-insert warnings, contraindications, or DDI records are available for etanercept in this Evidence Pack (DG001, flagged as a **Blocking** data gap — package-insert PDF has not yet been retrieved/parsed; DDI query returned `not_found`).
+لا توجد تحذيرات رسمية في حزمة الأدلة هذه لـ إيتانرسبت (DG001، موضحة كفجوة بيانات **حاجزة** — لم يتم استرجاع/تحليل ملف نشرة الدواء)، ولا توجد موانع أو سجلات تفاعل الدواء مع الدواء، وعاد استعلام تفاعل الدواء مع الدواء `not_found`.
 
-**Literature-derived safety signal (from the evidence collected above, not from a formal label source):** Multiple independent case reports and a UK national cohort (BSRBR-RA, PMID 28123776) in this pack describe etanercept being temporally associated with **inducing** cutaneous and systemic vasculitis, lupus-like syndrome, and accelerated nodulosis in RA patients — a recognized class effect of TNF inhibitors. This is directly material to evaluating the rank-1 predicted indication and should be treated as an active safety consideration, separate from and in addition to the missing formal label data.
+**إشارة السلامة المستمدة من الأدبيات (من الأدلة المجمعة أعلاه، وليس من مصدر رسمي):** وثقت تقارير حالات مستقلة متعددة وتجمع وطني بريطاني (BSRBR-RA, PMID 28123776) في هذه الحزمة إيتانرسبت كونه مرتبطاً زمنياً **بإحداث** التهاب الأوعية الجلدي والجهازي ومتلازمة تشبه الذئبة الحمراء وتكون العقد المتسارع لدى مرضى التهاب المفاصل الروماتويدي — وهو تأثير فئة معروف لمثبطات TNF. هذا مادي مباشرة لتقييم المؤشر المتنبأ به ذي الرتبة الأولى ويجب أن يُعامل كاعتبار سلامة نشط، منفصل عن وبالإضافة إلى بيانات التسمية الرسمية المفقودة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-The only direct clinical trial testing etanercept in a vasculitis population (NCT00001901, WGET) was **negative** and showed increased solid-tumor risk, while multiple case reports and a comparative cohort study suggest etanercept may **induce** rather than treat vasculitis — a known anti-TNF class effect. The mechanistic hypothesis is biologically plausible in principle, but the weight of directly relevant evidence in this pack points against pursuing rheumatoid vasculitis as a repurposing candidate.
+**المبرر:**
+التجربة السريرية الوحيدة التي اختبرت إيتانرسبت في مجموعة التهاب الأوعية الدموية (NCT00001901، WGET) كانت **سلبية** وأظهرت زيادة في خطر الأورام الصلبة، بينما تشير تقارير حالات متعددة ودراسة متتبعة مقارنة إلى أن إيتانرسبت قد **يحتث** بدلاً من معالجة التهاب الأوعية الدموية — وهو تأثير فئة معروف لمثبطات TNF. الفرضية الميكانيكية معقولة من حيث المبدأ، لكن وزن الأدلة ذات الصلة المباشرة في هذه الحزمة يشير ضد السعي وراء التهاب الأوعية الدموية الروماتويدي كمرشح لإعادة الاستخدام.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings, contraindications, and DDI data (DG001, Blocking — currently prevents entry into S1 safety pre-screening)
-- Structured mechanism-of-action data from DrugBank (DG002)
-- Detailed efficacy/safety results of the WGET trial (NCT00001901), not just the summary
-- A formal pharmacovigilance assessment of the etanercept-induced-vasculitis signal before any further repurposing evaluation
-- Clarification of whether the TxGNN knowledge-graph edge reflects a "treats" relationship or is picking up "co-occurs with / induces" signal from the adverse-event literature — this distinction changes the entire interpretation of the prediction
+**للمتابعة، المطلوب ما يلي:**
+- تحذيرات نشرة TFDA/SFDA والموانع وبيانات تفاعل الدواء مع الدواء (DG001، حاجزة — تمنع حالياً الدخول إلى الفحص الأمني المسبق S1)
+- بيانات آلية عمل منظمة من DrugBank (DG002)
+- نتائج الفعالية والسلامة التفصيلية لتجربة WGET (NCT00001901)، وليس فقط الملخص
+- تقييم بحثي الصيدلة رسمي لإشارة etanercept-induced-vasculitis قبل أي تقييم إعادة استخدام إضافي
+- توضيح ما إذا كان حافة رسم بياني المعرفة TxGNN تعكس علاقة "treats" أم تختار إشارة "co-occurs with / induces" من أدبيات الأحداث الضارة — يغير هذا التمييز التفسير الكامل للتنبؤ
 
 ---
 
-### Other Predicted Indications in This Evidence Pack
+### مؤشرات تنبأ بها أخرى في حزمة الأدلة هذه
 
-Because this pack (`TW-DB00005-multi`) evaluated 6 TxGNN predictions for etanercept, the table below summarizes the remaining candidates for completeness. Notably, two of the strongest-evidence candidates (rank 3, rank 5) are **not novel** — they are reconfirmations of etanercept's existing approved indications, not new repurposing opportunities.
+لأن هذه الحزمة (`TW-DB00005-multi`) قيمت 6 تنبؤات TxGNN لـ إيتانرسبت، يلخص الجدول أدناه المرشحين المتبقين لاكتمال. بشكل ملحوظ، اثنان من أقوى المرشحين من حيث الأدلة (الرتبة 3، الرتبة 5) **ليسا جديدا** — إنهما تأكيدات لمؤشرات إيتانرسبت المعتمدة الموجودة، وليس فرص إعادة استخدام جديدة.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
+| الرتبة | المرض | درجة TxGNN | مستوى الأدلة | مرحلة القرار | التوصية | ملاحظة |
 |------|---------|------------|-----------------|-----------------|------------------|------|
-| 1 | Rheumatoid vasculitis | 99.71% | L3 | S1 | Hold | Covered above — negative RCT, induction signal |
-| 2 | Hypermobility of coccyx | 99.63% | L5 | S0 | Hold | No clinical/literature evidence; structural/mechanical condition with no plausible TNF-α mechanism — likely knowledge-graph noise |
-| 3 | Inflammatory spondylopathy | 99.57% | L1 | S3 | Proceed with Guardrails | **Already an approved indication** (ankylosing spondylitis); this is a reconfirmation of existing evidence, not a new hypothesis |
-| 4 | Kummell disease | 99.55% | L5 | S0 | Hold | No clinical/literature evidence; post-traumatic avascular necrosis, non-inflammatory — no plausible mechanism, likely noise |
-| 5 | Polyarticular juvenile rheumatoid arthritis | 99.50% | L1 | S3 | Proceed with Guardrails | **Already an approved indication** (JIA, approved since 1999); reconfirmation, not novel |
-| 6 | Vertebral disease | 99.16% | L2 | S2 | Research Question | Disease label is non-specific and largely overlaps with rank 3's evidence base; needs disambiguation before further evaluation |
+| 1 | التهاب الأوعية الدموية الروماتويدي | 99.71% | L3 | S1 | انتظر | المغطاة أعلاه — تجربة عشوائية مضبوطة سلبية، إشارة الحث |
+| 2 | فرط نقل فقرة الذيل | 99.63% | L5 | S0 | انتظر | لا توجد أدلة سريرية/أدبية؛ حالة هيكلية/ميكانيكية بدون آلية TNF-α معقولة — من المرجح أن تكون ضوضاء رسم بياني المعرفة |
+| 3 | التهاب الفقار الالتهابي | 99.57% | L1 | S3 | تابع مع الحماية | **مؤشر معتمد بالفعل** (التهاب الفقار اللاصق)؛ هذا تأكيد للأدلة الموجودة وليس فرضية جديدة |
+| 4 | مرض Kummell | 99.55% | L5 | S0 | انتظر | لا توجد أدلة سريرية/أدبية؛ نخر عظمي بعد الصدمة، غير التهابي — لا آلية معقولة، من المرجح أن تكون ضوضاء |
+| 5 | التهاب مفاصل الأطفال الروماتويدي متعدد المفاصل | 99.50% | L1 | S3 | تابع مع الحماية | **مؤشر معتمد بالفعل** (التهاب مفاصل الأطفال، معتمد منذ 1999)؛ تأكيد وليس جديد |
+| 6 | مرض الفقرات | 99.16% | L2 | S2 | سؤال بحثي | تسمية المرض غير محددة وتتداخل بشكل كبير مع قاعدة أدلة الرتبة 3؛ تحتاج إلى توضيح قبل التقييم الإضافي |
 
-**Overall implication:** none of the six TxGNN-predicted indications in this pack currently represent a validated, *novel* repurposing opportunity for etanercept — the highest-evidence hits are already-labeled uses, the top-ranked genuinely new hypothesis (rheumatoid vasculitis) is contradicted by its own key trial and safety literature, and two candidates appear to be model noise.
+**الآثار الإجمالية:** لا يمثل أي من التنبؤات الستة المتنبأ بها من TxGNN في هذه الحزمة حالياً فرصة إعادة استخدام صالحة و*جديدة* لـ إيتانرسبت — أقوى النتائج من حيث الأدلة هي استخدامات موضحة بالفعل، وأعلى فرضية جديدة مرتبة (التهاب الأوعية الدموية الروماتويدي) تناقضها تجربتها الرئيسية وأدبيات السلامة، واثنان من المرشحين يبدو أنهما ضوضاء النموذج.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

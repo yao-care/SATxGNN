@@ -29,74 +29,74 @@ indication_count: 5
 
 </div>
 
-# Cabergoline: From Hyperprolactinemia/Prolactinoma to Pituitary Adenocarcinoma
+# كابيرجولين: من فرط برولاكتين الدم / البرولاكتينوما إلى سرطان الغدة النخامية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Cabergoline is a selective dopamine D2 receptor agonist established as the first-line medical treatment for hyperprolactinemia and prolactin-secreting pituitary adenomas (prolactinomas).
-The TxGNN model predicts it may be effective for **Pituitary Adenocarcinoma** (malignant pituitary tumor with distant metastases), with **no registered clinical trials** and **3 case-report-level publications** providing only indirect supporting evidence.
+كابيرجولين هو ناهض انتقائي لمستقبل الدوبامين D2 المعتمد كعلاج طبي من الخط الأول لفرط برولاكتين الدم والأورام النخامية المفرزة للبرولاكتين (البرولاكتينوما). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **سرطان الغدة النخامية** (ورم نخامي خبيث مع انتقالات بعيدة)، مع **عدم وجود تجارب سريرية مسجلة** و**3 منشورات على مستوى تقارير الحالات** توفر فقط أدلة داعمة غير مباشرة.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hyperprolactinemia / Prolactinoma (established clinical use; not approved in Saudi Arabia) |
-| Predicted New Indication | Pituitary Adenocarcinoma |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | فرط برولاكتين الدم / البرولاكتينوما (الاستخدام السريري المعتمد؛ غير معتمد في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | سرطان الغدة النخامية |
+| درجة التنبؤ من TxGNN | 99.06% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير موجود في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | حجز |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Cabergoline is a long-acting ergoline derivative that selectively activates dopamine D2 receptors expressed on pituitary adenohypophyseal cells—particularly lactotrophs (prolactin-producing cells). By stimulating D2 receptors, cabergoline suppresses prolactin secretion, inhibits tumor cell proliferation, and induces apoptosis, producing the clinically observed tumor shrinkage characteristic of prolactinoma treatment. Beyond this established mechanism, recent research has revealed additional anti-tumor pathways: cabergoline can trigger autophagy-mediated cell death, and in non-functioning pituitary adenomas the HTR2B receptor pathway may sensitize tumor cells to cabergoline treatment (PMID 38989697).
+كابيرجولين هو مشتق إرغولين طويل المفعول ينشط بشكل انتقائي مستقبلات الدوبامين D2 الموجودة على الخلايا الغدية النخامية الأمامية—خاصة الخلايا اللبنية (الخلايا المفرزة للبرولاكتين). من خلال تحفيز مستقبلات D2، يثبط كابيرجولين إفراز البرولاكتين ويمنع تكاثر الخلايا الورمية ويحفز الموت المبرمج للخلايا، مما ينتج عنه تقلص الورم الذي يُلاحظ سريرياً والمميز لعلاج البرولاكتينوما. بما يتجاوز هذه الآلية المثبتة، كشفت الأبحاث الحديثة عن مسارات إضافية مضادة للأورام: يمكن لكابيرجولين أن يحفز الموت بوساطة الالتهام الذاتي، وفي الأورام النخامية غير الفعالة قد يزيد مسار مستقبل HTR2B من حساسية الخلايا الورمية لعلاج كابيرجولين (PMID 38989697).
 
-Pituitary adenocarcinoma is the rare malignant end of the pituitary tumor spectrum, defined strictly by the presence of craniospinal or systemic metastases, with fewer than 500 confirmed cases reported globally. Since pituitary adenocarcinoma arises from the same adenohypophyseal cell lineages as benign adenomas—which are the well-established targets of cabergoline's D2 agonism—the mechanistic extrapolation is biologically plausible. If malignant cells retain functional D2 receptor expression, the same anti-proliferative and pro-apoptotic pathways exploited in adenoma treatment could theoretically apply.
+سرطان الغدة النخامية هو النهاية الخبيثة النادرة من طيف أورام النخامية، المحدد بدقة بوجود انتقالات في الجهاز العصبي المركزي أو النظامية، مع حوالي 500 حالة مؤكدة فقط تم الإبلاغ عنها عالمياً. بما أن سرطان الغدة النخامية ينشأ من نفس السلالات الخلوية الغدية النخامية الأمامية الحميدة—التي تمثل الأهداف المثبتة جيداً لنشاط D2 من كابيرجولين—فإن الاستقراء الميكانيكي معقول بيولوجياً. إذا احتفظت الخلايا الخبيثة بتعبير وظيفي لمستقبل D2، يمكن أن تنطبق نفس المسارات المضادة للتكاثر والمحفزة للموت المبرمج المستغلة في علاج الورم الحميد.
 
-In practice, this extrapolation faces a major clinical hurdle: dopamine agonist resistance is common in pituitary carcinomas and may itself be a contributing factor in malignant transformation. D2 receptor expression tends to be lower or functionally impaired in carcinomas compared to adenomas. Scattered case reports document only transient or partial responses to cabergoline in confirmed pituitary carcinomas, with no sustained disease control demonstrated. The overall prognosis for pituitary carcinoma remains poor regardless of treatment, and the distinction from the benign adenoma—where cabergoline has well-established efficacy—must be maintained rigorously.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered specifically for pituitary adenocarcinoma.
+في الممارسة العملية، يواجه هذا الاستقراء عقبة سريرية رئيسية: المقاومة لناهضات الدوبامين شائعة في سرطانات النخامية وقد تكون هي نفسها عاملاً مساهماً في التحول الخبيث. يميل تعبير مستقبل D2 إلى أن يكون أقل أو معيباً وظيفياً في السرطانات مقارنة بالأورام الحميدة. تسجل تقارير الحالات المتناثرة فقط استجابات عابرة أو جزئية لكابيرجولين في سرطانات النخامية المؤكدة، مع عدم إظهار أي السيطرة على المرض بشكل مستدام. يبقى التشخيص الإجمالي لسرطان النخامية سيئاً بغض النظر عن العلاج، والتمييز عن الورم الحميد—حيث يتمتع كابيرجولين بفعالية معتمدة بشكل جيد—يجب الحفاظ عليه بدقة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية مسجلة حالياً بشكل محدد لسرطان الغدة النخامية.
+
+---
+
+## أدلة المنشورات الطبية
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [41760078](https://pubmed.ncbi.nlm.nih.gov/41760078/) | 2026 | Case Report | Medicine | MEN1 patient with atypical multi-gland neoplasia and a MEN1 variant of uncertain pathogenicity; pituitary tumor was part of the presentation, illustrating the overlap of hereditary neoplasia syndromes with pituitary malignancy risk—not a direct cabergoline efficacy study |
-| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | Case Report | Endocrine Practice | Patient with ectopic ACTH hypersecretion managed long-term with octreotide or cabergoline following bilateral adrenalectomy; cabergoline demonstrated utility in corticotroph-related ectopic secretion, an adjacent indication to corticotroph carcinoma, though ectopic ACTH is not pituitary adenocarcinoma |
-| [33569966](https://pubmed.ncbi.nlm.nih.gov/33569966/) | 2021 | Case Report | Rev Esp Enferm Dig | Patient with known pituitary adenoma receiving cabergoline developed duodenal lymphangiectasias as the first presenting sign of pancreatic adenocarcinoma; cabergoline was incidental background therapy and was not being evaluated as anticancer treatment |
+| [41760078](https://pubmed.ncbi.nlm.nih.gov/41760078/) | 2026 | تقرير حالة | Medicine | مريض MEN1 مع أورام غددية غير نمطية متعددة الغدد وعامل MEN1 غير محدد الضراوة؛ كان الورم النخامي جزءاً من التقديم، مما يوضح تداخل متلازمات الأورام الموروثة مع خطر الإصابة بسرطان النخامية—ليست دراسة فعالية كابيرجولين مباشرة |
+| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | تقرير حالة | Endocrine Practice | مريض تم علاجه على المدى الطويل بالأوكتريوتايد أو كابيرجولين بعد الاستئصال الثنائي للغدة الكظرية لفرط إفراز ACTH؛ أظهر كابيرجولين فائدة في فرط الإفراز المرتبط بالخلايا القشرانية، وهو مؤشر مجاور لسرطان القشرانية، على الرغم من أن فرط إفراز ACTH خارج النخامية لا يعتبر سرطان النخامية |
+| [33569966](https://pubmed.ncbi.nlm.nih.gov/33569966/) | 2021 | تقرير حالة | Rev Esp Enferm Dig | مريض مع ورم نخامي معروف يتلقى كابيرجولين طور لمفاوية الاثني عشر كأول علامة لسرطان البنكرياس؛ كان كابيرجولين علاجاً عرضياً في الخلفية ولم يتم تقييمه كعلاج مضاد للسرطان |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: حجز**
 
-**Rationale:**
-Pituitary adenocarcinoma is an ultra-rare condition (globally <500 reported cases), and the available evidence for cabergoline consists solely of incidental case observations rather than any direct therapeutic studies. Frequent dopamine agonist resistance in carcinomas—often more pronounced than in adenomas—and the absence of D2 receptor expression data in malignant tissue further weaken the immediate clinical case.
+**الأساس المنطقي:**
+سرطان الغدة النخامية هو حالة نادرة للغاية (عالمياً <500 حالة معروفة)، والأدلة المتاحة لكابيرجولين تتكون فقط من الملاحظات العرضية للحالات بدلاً من أي دراسات علاجية مباشرة. تكرار مقاومة ناهضات الدوبامين في السرطانات—غالباً ما تكون أكثر وضوحاً منها في الأورام الحميدة—وعدم وجود بيانات تعبير مستقبل D2 في الأنسجة الخبيثة تضعف بشكل إضافي الحالة السريرية الفورية.
 
-**To proceed, the following is needed:**
-- **Systematic case registry data:** Collection of confirmed pituitary carcinoma cases treated with dopamine agonists to establish a minimal evidence base before any prospective study design
-- **D2 receptor expression profiling:** Tumor tissue studies to confirm whether pituitary carcinomas retain sufficient D2 receptor density and function to be therapeutically targeted by cabergoline
-- **MOA documentation:** Formal characterization of cabergoline's mechanism of action (currently a data gap) is required to support any regulatory or clinical development rationale
-- **Safety profile review:** Package insert analysis and Saudi Arabia-specific safety assessment, including evaluation of the known long-term valvular regurgitation risk
-- **Broaden evaluation scope:** The broader **pituitary cancer** category (TxGNN Rank 3, evidence level L2, 20 registered clinical trials including one completed Phase 3 RCT and a 880-patient multi-center trial) represents a substantially more clinically actionable target and warrants a separate, higher-priority evaluation
+**للمضي قدماً، يلزم ما يلي:**
+- **بيانات سجل الحالات المنتظمة:** جمع حالات سرطان النخامية المؤكدة المعالجة بناهضات الدوبامين لإنشاء حد أدنى من قاعدة الأدلة قبل أي تصميم دراسة مستقبلي
+- **تحليل تعبير مستقبل D2:** دراسات أنسجة الورم لتأكيد ما إذا كانت سرطانات النخامية تحتفظ بكثافة ووظيفة كافية لمستقبل D2 ليتم استهدافها علاجياً بكابيرجولين
+- **توثيق آلية العمل:** توصيف رسمي لآلية عمل كابيرجولين (حالياً فجوة بيانات) مطلوب لدعم أي أساس تطوير تنظيمي أو سريري
+- **مراجعة ملف تعريف السلامة:** تحليل النشرة الدوائية والتقييم الخاص بالمملكة العربية السعودية للسلامة، بما في ذلك تقييم خطر قصور الصمام طويل الأمد المعروف
+- **توسيع نطاق التقييم:** فئة **سرطان النخامية** الأوسع (تصنيف TxGNN 3، مستوى دليل L2، 20 تجربة سريرية مسجلة بما في ذلك تجربة مرحلة 3 عشوائية مكتملة وتجربة متعددة المراكز بـ 880 مريض) تمثل هدفاً أكثر قابلية للعمل سريرياً بشكل ملموس وتستحق تقييماً منفصلاً بأولوية أعلى
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

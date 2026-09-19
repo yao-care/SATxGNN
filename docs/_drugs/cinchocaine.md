@@ -29,78 +29,79 @@ indication_count: 7
 
 </div>
 
-# Cinchocaine: From Local Anesthesia to Bronchitis
+# سينكوكاين: من التخدير الموضعي إلى التهاب الشعب الهوائية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cinchocaine (dibucaine) is a potent amide-type local anesthetic globally recognized for topical pain relief in conditions such as hemorrhoids and minor skin procedures, though it holds no registered approvals in Saudi Arabia.
-The TxGNN model predicts it may be effective for **bronchitis**, based on indirect class-level mechanistic reasoning linking sodium channel blockade to airway anti-inflammation.
-Currently, there are **no clinical trials** and **no publications** directly supporting this repurposing direction.
+سينكوكاين (ديبوكاين) هو دواء موضعي تخديري قوي من نوع الأميد معروف عالمياً لتسكين الألم الموضعي في حالات مثل البواسير والإجراءات الجلدية البسيطة، على الرغم من أنه لا يحمل أي موافقات مسجلة في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب الشعب الهوائية**، بناءً على التفكير الآلي غير المباشر على مستوى الفئة الذي يربط حصار قنوات الصوديوم بخصائص مضادة للالتهاب في مجرى الهواء.
+حالياً، لا توجد **تجارب سريرية** و**لا منشورات** تدعم بشكل مباشر هذا الاتجاه لإعادة الاستخدام.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Local anesthesia (hemorrhoids, skin/mucous membrane pain) — no Saudi Arabia authorization on record |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | التخدير الموضعي (البواسير، ألم الجلد/الأغشية المخاطية) — بدون ترخيص في المملكة العربية السعودية |
+| المؤشر الجديد المتنبأ به | التهاب الشعب الهوائية |
+| درجة التنبؤ بـ TxGNN | 99.77% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacological knowledge, Cinchocaine (dibucaine) is one of the most potent and longest-acting amide-type local anesthetics. Its primary mechanism involves blockade of voltage-gated sodium channels (Nav), which prevents membrane depolarization and nerve impulse conduction. It has historically been applied topically for hemorrhoid-associated pain, pruritus ani, and minor mucosal/skin procedures.
+حالياً، بيانات آلية العمل المفصلة غير متاحة من حزمة الأدلة. استناداً إلى المعرفة الدوائية المعروفة، سينكوكاين (ديبوكاين) هو أحد أقوى الأدوية التخديرية الموضعية من نوع الأميد وذات التأثير الأطول. تتضمن آليته الأساسية حصار قنوات الصوديوم المنظمة بالجهد (Nav)، مما يمنع إزالة الاستقطاب من الغشاء ونقل النبضات العصبية. تم تطبيقه تاريخياً موضعياً لألم البواسير والحكة الشرجية والإجراءات البسيطة على الأغشية المخاطية والجلد.
 
-The TxGNN model's prediction for bronchitis appears to draw on a broader class-level observation: amide-type local anesthetics — particularly lidocaine — have shown systemic anti-inflammatory properties in airway inflammation models. Proposed mechanisms include inhibition of neutrophil chemotaxis, suppression of pro-inflammatory cytokines (notably IL-6 and TNF-α), and downregulation of TLR-mediated signaling cascades. These properties have generated academic interest in intravenous lidocaine as an adjunct in COPD exacerbations and asthmatic bronchitis.
+يبدو أن تنبؤ نموذج TxGNN بالتهاب الشعب الهوائية يستند إلى ملاحظة أوسع على مستوى الفئة: الأدوية التخديرية الموضعية من نوع الأميد — خاصة الليدوكايين — أظهرت خصائص مضادة للالتهاب جهازية في نماذج التهاب مجرى الهواء. تشمل الآليات المقترحة تثبيط جذب العدلات، وقمع السيتوكينات الموالية للالتهاب (خاصة IL-6 و TNF-α)، وتقليل تنظيم مسارات الإشارة الموسطة بـ TLR. أنتجت هذه الخصائص اهتماماً أكاديمياً بالليدوكايين الوريدي كعامل مساعد في تفاقمات الانسداد الرئوي المزمن والتهاب الشعب الهوائية الربوي.
 
-However, this prediction must be interpreted with caution. The mechanistic link relies entirely on class-level extrapolation from lidocaine research; there is no direct preclinical or clinical evidence demonstrating that Cinchocaine specifically suppresses airway inflammation. The TxGNN model may be reflecting a topological proximity in the knowledge graph between "amide local anesthetic" nodes and "airway inflammatory disease" nodes, rather than a Cinchocaine-specific biological signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، يجب تفسير هذا التنبؤ بحذر. يعتمد الربط الآلي بالكامل على الاستقراء على مستوى الفئة من أبحاث الليدوكايين؛ لا توجد أدلة سابقة للإكلينيكية أو إكلينيكية مباشرة تثبت أن سينكوكاين على وجه التحديد يقلل التهاب مجرى الهواء. قد يعكس نموذج TxGNN القرب الطوبولوجي في الرسم البياني للمعرفة بين عقد "دواء موضعي تخديري من نوع الأميد" وعقد "مرض التهابي في مجرى الهواء"، بدلاً من إشارة بيولوجية خاصة بسينكوكاين.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Cinchocaine currently holds no product authorizations in Saudi Arabia. The drug is not marketed in the Saudi market, and no approved dosage forms or indications are on record.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## أدلة الأدب العلمي
 
-Please refer to the package insert for safety information.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+سينكوكاين لا يحمل حالياً أي موافقات منتجات في المملكة العربية السعودية. الدواء غير مسوق في السوق السعودي، وليس هناك أي شكل جرعة معتمد أو مؤشرات مسجلة.
 
-**Rationale:**
-The top predicted indication (bronchitis) and all six additional predictions carry L5 evidence — model output only, with zero supporting clinical trials or publications. The drug is not registered in Saudi Arabia, and both the mechanism of action and safety profile remain formally undocumented in the Evidence Pack.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **MOA documentation**: Retrieve full mechanism of action from DrugBank API (DG002) to enable formal mechanistic plausibility analysis
-- **Safety profile**: Download and parse the package insert (DG001) to populate warnings, contraindications, and DDI data before any S1 safety evaluation
-- **Preclinical evidence search**: Conduct a targeted PubMed search for Cinchocaine (dibucaine) + inflammation / cytokine / airway to determine whether class-level effects apply specifically to this compound
-- **Comparator benchmark**: Assess whether lidocaine — with a stronger existing evidence base for airway anti-inflammation — is a more appropriate repurposing candidate in this disease area
-- **Regulatory pathway assessment**: If evidence is strengthened, map a Saudi Arabia (SFDA) regulatory pathway for a non-marketed compound before committing development resources
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+المؤشر العلوي المتنبأ به (التهاب الشعب الهوائية) وجميع ستة تنبؤات إضافية تحمل مستوى أدلة L5 — مخرجات النموذج فقط، بدون أي تجارب سريرية أو منشورات داعمة. الدواء غير مسجل في المملكة العربية السعودية، وتبقى آلية العمل وملف السلامة رسمياً غير موثقة في حزمة الأدلة.
+
+**للمتابعة، يكون التالي مطلوباً:**
+
+- **توثيق آلية العمل**: استرجاع آلية العمل الكاملة من DrugBank API (DG002) لتمكين تحليل الوجاهة الآلية الرسمية
+- **ملف السلامة**: تحميل ومعالجة نشرة الدواء (DG001) لملء بيانات التحذيرات والمضادات والتفاعلات الدوائية قبل أي تقييم S1 للسلامة
+- **بحث الأدلة السابقة للإكلينيكية**: إجراء بحث منظم في PubMed عن Cinchocaine (dibucaine) + التهاب / السيتوكين / مجرى الهواء لتحديد ما إذا كانت تأثيرات مستوى الفئة تنطبق بشكل خاص على هذا المركب
+- **تقييم المقارنة المرجعية**: تقييم ما إذا كان الليدوكايين — مع قاعدة أدلة أقوى موجودة بالفعل لخصائص مضادة للالتهاب في مجرى الهواء — هو مرشح إعادة استخدام أكثر ملاءمة في مجال المرض هذا
+- **تقييم مسار التنظيم**: إذا تم تقوية الأدلة، وضع خطة مسار تنظيمي لدى الهيئة السعودية للغذاء والدواء (SFDA) لمركب غير مسوق قبل الالتزام بموارد التطوير
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

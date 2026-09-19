@@ -29,89 +29,90 @@ indication_count: 1
 
 </div>
 
-# Ketoconazole: From Fungal Infections to Acne Vulgaris
+# كيتوكونازول: من العدوى الفطرية إلى حب الشباب
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Ketoconazole (DrugBank DB01026) is a broad-spectrum imidazole antifungal, historically used to treat fungal infections such as dermatophytosis, candidiasis, and seborrheic dermatitis. The TxGNN model predicts it may also be effective for **Acne (Acne Vulgaris)**, with **1 clinical trial** and **15 publications** currently identified, though most literature evidence is mechanistic/preclinical rather than clinical. The drug is not currently marketed in Saudi Arabia, which limits immediate actionability of this signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Fungal infections (antifungal, imidazole class) — no Saudi Arabia–specific approved indication text available; drug not marketed |
-| Predicted New Indication | Acne (Acne Vulgaris) |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 (mechanistic/preclinical evidence predominant; one small trial still active, not yet completed) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+كيتوكونازول (DrugBank DB01026) هو مضاد فطري واسع الطيف من فئة الإيميدازول، كان يُستخدم تاريخياً لعلاج العدوى الفطرية مثل العدوى الجلدية الفطرية والعدوى بالمبيضات والتهاب الجلد الدهني. يتنبأ نموذج TxGNN أنه قد يكون فعالاً أيضاً في علاج **حب الشباب (حب الشباب الشائع)**، مع تحديد **تجربة سريرية واحدة** و**15 منشور علمي**، لكن معظم الأدلة الأدبية ذات طبيعة آلية/تجريبية بدلاً من كونها سريرية. الدواء غير معروّض حالياً في المملكة العربية السعودية، مما يحد من قابلية تطبيق هذه الإشارة فوراً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data for ketoconazole is not available in this Evidence Pack (data gap). Based on known pharmacology, ketoconazole is an imidazole antifungal that inhibits fungal cytochrome P450-dependent 14α-demethylase, and at higher concentrations also inhibits mammalian steroidogenic P450 enzymes — the basis for its historical off-label use in Cushing's syndrome.
-
-The link to acne is supported by two mechanistic in vitro studies identified in the literature evidence: ketoconazole inhibits *Propionibacterium (Cutibacterium) acnes* lipase activity (PMID 28111792) and shows in vitro activity against *P. acnes* comparable to other azole antifungals (PMID 20045949). Since *P. acnes* lipase-driven sebum metabolism is a key contributor to acne inflammation, an antimicrobial/anti-lipase mechanism distinct from ketoconazole's original antifungal indication offers a plausible biological rationale for repurposing.
-
-A currently active (not yet recruiting-complete) trial (NCT07237763) is directly testing topical ketoconazole 2% cream against topical adapalene 2% cream in mild acne, suggesting this hypothesis is already being tested clinically, though results are not yet available.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | NA (topical) | Active, not recruiting | 52 | Randomized comparison of topical ketoconazole 2% cream vs. topical adapalene 2% cream in mild comedonal and papulopustular acne, evaluating ketoconazole as a lower-side-effect alternative to topical retinoids |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | العدوى الفطرية (مضاد فطري، فئة الإيميدازول) — لا توجد نصوص معتمدة محددة للمؤشرات في المملكة العربية السعودية؛ الدواء غير معروّض |
+| المؤشر الجديد المتوقع | حب الشباب (حب الشباب الشائع) |
+| درجة تنبؤ TxGNN | 99.80% |
+| مستوى الدليل | L4 (الدليل الآلي/التجريبي هو المهيمن؛ محاكمة صغيرة واحدة لا تزال نشطة، لم تكتمل بعد) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معروّض |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | In vitro / mechanistic study | Microbiology and Immunology | Ketoconazole inhibits *P. acnes* lipase activity, supporting a possible anti-acne mechanism distinct from its antifungal action |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biological & Pharmaceutical Bulletin | Azole antifungals, including ketoconazole, show in vitro activity against *P. acnes* isolated from acne patients |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Case series / therapeutic trial | Clinical and Experimental Dermatology | Pityrosporum (Malassezia) folliculitis in Saudi Arabia, often misdiagnosed as acne vulgaris; discusses azole-based diagnosis and treatment |
-| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Review | The Keio Journal of Medicine | Reviews Pityrosporum (Malassezia) ovale's role in skin diseases including folliculitis resembling acne |
-| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Review | Dermatology (Basel) | Overview of systemic acne treatment options, contextualizing where antimicrobial approaches fit alongside antibiotics |
-| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Case report | Archives of Dermatology | Neonatal *Malassezia furfur* pustulosis presenting similarly to neonatal acne, linking fungal pathogens to acneiform eruptions |
-| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Review | BMJ Clinical Evidence | PCOS review noting acne as an associated hyperandrogenic symptom |
-| [8090657](https://pubmed.ncbi.nlm.nih.gov/8090657/) | 1993 | Review / clinical | Polski Tygodnik Lekarski | Hyperandrogenic PCOS treatment reduces acne and hirsutism, relevant to antiandrogenic mechanisms shared with azoles |
-| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | Review | Pharmaceuticals (Basel) | Reviews adapalene, the active comparator used in NCT07237763, for first-line acne treatment |
-| [23600337](https://pubmed.ncbi.nlm.nih.gov/23600337/) | 2013 | Review | FP Essentials | Overview of common infant skin rashes including neonatal acne, relevant to differential diagnosis |
+بيانات تفصيلية عن آلية عمل كيتوكونازول غير متاحة في هذه الحقيبة الدليل (فجوة بيانات). بناءً على الصيدلة المعروفة، كيتوكونازول هو مضاد فطري من فئة الإيميدازول يثبط إنزيم السيتوكروم P450 المعتمد على 14α-demethylase الفطري، وبتركيزات أعلى يثبط أيضاً إنزيمات السيتوكروم P450 الستيرويدية في الثدييات — الأساس لاستخدامه خارج المؤشر المعتمد في متلازمة كوشينج.
+
+الارتباط بحب الشباب مدعوم بدراستين آليتين في المختبر تم تحديدهما في الأدلة الأدبية: كيتوكونازول يثبط نشاط الليباز في *Propionibacterium (Cutibacterium) acnes* (PMID 28111792) ويظهر نشاطاً في المختبر ضد *P. acnes* قابلاً للمقارنة مع مضادات الأزول الفطرية الأخرى (PMID 20045949). نظراً لأن استقلاب الدهون الذي يحركه ليباز *P. acnes* يعتبر عاملاً رئيسياً في التهاب حب الشباب، فإن آلية مضادة للميكروبات/مضادة للليباز متميزة عن المؤشر الأصلي المضاد للفطريات لكيتوكونازول توفر أساساً بيولوجياً معقولاً لإعادة استخدام الدواء.
+
+تختبر محاكمة نشطة حالياً (لم تكتمل مرحلة التجنيد) (NCT07237763) مباشرة كريم كيتوكونازول الموضعي 2% مقابل كريم أداباليين الموضعي 2% في حب الشباب الخفيف، مما يشير إلى أن هذه الفرضية تخضع بالفعل للاختبار السريري، على الرغم من عدم توفر النتائج بعد.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Ketoconazole is not currently marketed in Saudi Arabia (0 authorizations on record) — no product license information is available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: A **Blocking** data gap (DG001) exists — TFDA/SFDA package insert warnings and contraindications have not been retrieved, which by policy prevents this candidate from entering the S1 safety pre-screening stage.
+| رقم المحاكمة | المرحلة | الحالة | التجنيد | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | لا ينطبق (موضعي) | نشطة، لا تجنيد | 52 | مقارنة عشوائية لكريم كيتوكونازول الموضعي 2% مقابل كريم أداباليين الموضعي 2% في حب الشباب الخفيف الكوميدوني والحطاطي الصديدي، يقيّم كيتوكونازول كبديل ذي آثار جانبية أقل من الرتينويدات الموضعية |
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | دراسة في المختبر / آلية | Microbiology and Immunology | كيتوكونازول يثبط نشاط الليباز في *P. acnes*، مما يدعم آلية محتملة مضادة لحب الشباب متميزة عن عمله المضاد للفطريات |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | دراسة في المختبر | Biological & Pharmaceutical Bulletin | مضادات الأزول، بما فيها كيتوكونازول، تظهر نشاطاً في المختبر ضد *P. acnes* المعزول من مرضى حب الشباب |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | سلسلة حالات / محاكمة علاجية | Clinical and Experimental Dermatology | التهاب البصيلات بسبب Pityrosporum (Malassezia) في المملكة العربية السعودية، غالباً ما يتم تشخيصه بشكل خاطئ كحب شباب شائع؛ يناقش التشخيص والعلاج القائم على الأزول |
+| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | استعراض | The Keio Journal of Medicine | يستعرض دور Pityrosporum (Malassezia) ovale في الأمراض الجلدية بما فيها التهاب البصيلات الذي يشبه حب الشباب |
+| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | استعراض | Dermatology (Basel) | نظرة عامة على خيارات العلاج المضادة لحب الشباب الشائع، توضح مكان المناهج المضادة للميكروبات إلى جانب المضادات الحيوية |
+| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | تقرير حالة | Archives of Dermatology | قيح حديثي الولادة بسبب *Malassezia furfur* يتشابه مع حب الشباب حديثي الولادة، مما يربط الممرضات الفطرية بالطفح الشبيه بحب الشباب |
+| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | استعراض | BMJ Clinical Evidence | استعراض متلازمة تكيس المبايض يشير إلى حب الشباب كعرض مرتبط بفرط الأندروجين |
+| [8090657](https://pubmed.ncbi.nlm.nih.gov/8090657/) | 1993 | استعراض / سريري | Polski Tygodnik Lekarski | يقلل علاج متلازمة تكيس المبايض المفرطة للأندروجين من حب الشباب والشعرانية، ذات صلة بالآليات المضادة للأندروجين المشتركة مع الأزولات |
+| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | استعراض | Pharmaceuticals (Basel) | يستعرض أداباليين، المقارن النشط المستخدم في NCT07237763، لعلاج حب الشباب من الخط الأول |
+| [23600337](https://pubmed.ncbi.nlm.nih.gov/23600337/) | 2013 | استعراض | FP Essentials | نظرة عامة على الطفح الجلدي الشائع لدى الرضع بما فيها حب الشباب حديثي الولادة، ذات صلة بالتشخيص التفريقي |
 
-**Rationale:**
-- The mechanistic rationale (anti-*P. acnes* lipase activity) is plausible and one relevant trial is underway, but no completed clinical trial or systematic evidence yet confirms efficacy in acne. More critically, a **Blocking** safety data gap (package insert warnings/contraindications not retrieved) and the drug's non-marketed status in Saudi Arabia prevent any safety pre-screening or regulatory pathway assessment at this time.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse TFDA/SFDA package insert for warnings and contraindications
-- Resolve DG002 (High): obtain confirmed mechanism of action data from DrugBank
-- Await completion of NCT07237763 for direct clinical efficacy/safety data in acne
-- Assess regulatory pathway feasibility given ketoconazole's current non-marketed status in Saudi Arabia
+## معلومات سوق المملكة العربية السعودية
+
+كيتوكونازول غير معروّض حالياً في المملكة العربية السعودية (0 موافقات مسجلة) — لا توجد معلومات ترخيص منتج متاحة لتلخيصها.
+
+---
+
+## اعتبارات الأمان
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات الأمان.
+
+> ملاحظة: توجد فجوة بيانات حاجزة (DG001) — لم يتم استرجاع تحذيرات وموانع استعمال نشرة TFDA/SFDA، مما يمنع وفقاً للسياسة هذا المرشح من دخول مرحلة الفحص الأولي للأمان S1.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+- الأساس الآلي (نشاط ليباز مضاد لـ *P. acnes*) معقول وتجربة واحدة ذات صلة جارية، لكن لا توجد بعد محاكمة سريرية مكتملة أو دليل منهجي يؤكد الفعالية في حب الشباب. الأهم من ذلك، فجوة بيانات أمان حاجزة (تحذيرات/موانع استعمال النشرة لم يتم استرجاعها) وحالة عدم تسويق الدواء في المملكة العربية السعودية تمنع أي فحص أمان أولي أو تقييم مسار تنظيمي في الوقت الحالي.
+
+**للمتابعة، يلزم ما يلي:**
+- حل DG001 (حاجز): الحصول على نشرة TFDA/SFDA وتحليلها للتحذيرات وموانع الاستعمال
+- حل DG002 (High): الحصول على بيانات آلية عمل مؤكدة من DrugBank
+- انتظار اكتمال NCT07237763 للحصول على بيانات سريرية مباشرة عن الفعالية والأمان في حب الشباب
+- تقييم جدوى المسار التنظيمي في ضوء حالة كيتوكونازول الحالية غير المعروضة في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

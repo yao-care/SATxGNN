@@ -29,63 +29,64 @@ indication_count: 10
 
 </div>
 
-# Nitisinone: From Hereditary Tyrosinemia Type 1 to Renal Tubular Acidosis
+# Nitisinone: من التيروسينيميا الوراثية من النوع الأول إلى الحماض الأنبوبي الكلوي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nitisinone (NTBC) is an HPD-enzyme inhibitor established for treating Hereditary Tyrosinemia Type 1 (HT-1), a rare inborn error of tyrosine metabolism. The TxGNN model predicts it may also address **Renal Tubular Acidosis**, reflecting the drug's known renoprotective effect in HT-1 patients, with **0 clinical trials** and **2 publications** currently supporting this direction.
+Nitisinone (NTBC) هو مثبط إنزيمي HPD تم تطويره لعلاج التيروسينيميا الوراثية من النوع الأول (HT-1)، وهي اضطراب وراثي نادر في استقلاب التيروسين. يتنبأ نموذج TxGNN بأنه قد يعالج أيضاً **الحماض الأنبوبي الكلوي**، مما يعكس التأثير الواقي الكلوي المعروف للعقار لدى مرضى HT-1، مع **0 تجربة سريرية** و**منشورين علميين** يدعمان هذا الاتجاه حالياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Hereditary Tyrosinemia Type 1 (inferred from supporting literature; not present in structured regulatory data) |
-| Predicted New Indication | Renal Tubular Acidosis |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | التيروسينيميا الوراثية من النوع الأول (مستدل عليها من الأدبيات الداعمة؛ غير موجودة في البيانات التنظيمية المهيكلة) |
+| الاستطباب الجديد المتنبأ به | الحماض الأنبوبي الكلوي |
+| درجة التنبؤ TxGNN | 99.96% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسجل |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Nitisinone (NTBC) inhibits 4-hydroxyphenylpyruvate dioxygenase (HPD), blocking an upstream step of the tyrosine degradation pathway and preventing accumulation of toxic metabolites such as succinylacetone. This is the mechanistic basis of its established use in Hereditary Tyrosinemia Type 1 (HT-1).
+يثبط Nitisinone (NTBC) إنزيم 4-hydroxyphenylpyruvate dioxygenase (HPD)، مما يوقف خطوة سابقة من مسار تحطم التيروسين ويمنع تراكم المستقلبات السامة مثل succinylacetone. هذا هو الأساس الميكانيكي لاستخدامه المعروف في التيروسينيميا الوراثية من النوع الأول (HT-1).
 
-In HT-1, these toxic metabolites directly damage the renal proximal tubule, producing a Fanconi-syndrome-like renal tubular acidosis (RTA). Because NTBC therapy addresses the root metabolic defect driving HT-1, it plausibly resolves this secondary renal tubular dysfunction as well — which is what the supporting literature describes.
+في HT-1، تسبب هذه المستقلبات السامة مباشرة ضرراً للأنبوب الكلوي القريب، مما ينتج عنه حماض أنبوبي كلوي يشبه متلازمة فانكوني (RTA). نظراً لأن العلاج بـ NTBC يعالج الخلل الأيضي الجذري الذي يسبب HT-1، فمن المعقول أن يحل هذا الخلل الكلوي الثانوي أيضاً - وهذا ما تصفه الأدبيات الداعمة.
 
-This predicted indication should therefore be understood as a **renoprotective effect secondary to treating HT-1**, not evidence that NTBC treats RTA of other etiologies (e.g., primary distal/proximal RTA, autoimmune-associated RTA). Any use of this prediction should be scoped strictly to RTA occurring in the context of HT-1.
+يجب فهم هذا الاستطباب المتنبأ به على أنه **تأثير واقي كلوي ثانوي لمعالجة HT-1**، وليس دليل على أن NTBC يعالج RTA من مسببات أخرى (على سبيل المثال، الحماض الأنبوبي البعيد/القريب الأساسي، الحماض الأنبوبي المرتبط بأمراض المناعة الذاتية). يجب أن ينحصر أي استخدام لهذا التنبؤ بدقة في RTA الذي يحدث في سياق HT-1.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Cohort | Molecular genetics and metabolism | Describes early effect of NTBC on renal tubular dysfunction in HT-1 patients; NTBC therapy improves renal tubular parameters alongside its established hepatic benefit. |
-| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Case series | Indian journal of gastroenterology | Case series of 4 children with tyrosinemia treated with NTBC; those on long-term therapy showed normal liver function, undetectable urine succinylacetone, and no renal tubular complications. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | دراسة أفواج | Molecular genetics and metabolism | يصف التأثير المبكر لـ NTBC على الخلل الأنبوبي الكلوي لدى مرضى HT-1؛ يحسّن العلاج بـ NTBC معاملات الأنبوب الكلوي جنباً إلى جنب مع فائدته الكبدية المعروفة. |
+| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | سلسلة حالات | Indian journal of gastroenterology | سلسلة من 4 أطفال مصابين بالتيروسينيميا تم علاجهم بـ NTBC؛ أولئك الذين تلقوا علاجاً طويل المدى أظهروا وظيفة كبدية طبيعية، وعدم اكتشاف succinylacetone في البول، وعدم وجود مضاعفات أنبوبية كلوية. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Nitisinone currently holds no marketing authorization in Saudi Arabia (0 licenses on record).
+Nitisinone حالياً لا يحمل أي تصريح تسويق في المملكة العربية السعودية (0 تراخيص في السجل).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات**
 
-**Rationale:**
-The mechanistic link is biologically well-grounded — NTBC's role in halting toxic tyrosine metabolite accumulation directly explains the observed renal tubular benefit — but the supporting evidence is limited to one cohort study and one case series (L3), with no dedicated trials, and the effect is documented specifically in HT-1 patients rather than in a general RTA population.
+**الأساس المنطقي:**
+الارتباط الميكانيكي قائم على أساس بيولوجي متين - يشرح دور NTBC في إيقاف تراكم المستقلبات السامة من التيروسين مباشرة الفائدة الكلوية المرصودة - لكن الأدلة الداعمة محدودة بدراسة أفواج واحدة وسلسلة حالات واحدة (L3)، بدون دراسات سريرية مخصصة، والتأثير موثق على وجه التحديد لدى مرضى HT-1 بدلاً من السكان العام المصابين بـ RTA.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert with warnings and contraindications (currently a Blocking data gap)
-- Formal DrugBank/mechanism-of-action confirmation (currently a High-severity data gap)
-- Clarification that any repurposing indication be scoped to "RTA secondary to HT-1," not general RTA
-- Saudi Arabia regulatory and market-access assessment, since the drug is not currently marketed there
+**لكي نمضي قدماً، فإن ما يلي مطلوب:**
+- نشرة المعلومات TFDA مع التحذيرات والموانع (حالياً فجوة بيانات حاجزة)
+- تأكيد رسمي لآلية العمل من DrugBank (حالياً فجوة بيانات عالية الخطورة)
+- توضيح أن أي استطباب إعادة استخدام يجب أن يقتصر على "الحماض الأنبوبي الكلوي الثانوي لـ HT-1" وليس RTA العام
+- تقييم المسار التنظيمي والوصول إلى السوق في المملكة العربية السعودية، نظراً لأن العقار غير مسجل حالياً هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

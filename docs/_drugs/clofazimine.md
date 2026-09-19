@@ -29,89 +29,89 @@ indication_count: 3
 
 </div>
 
-# Clofazimine: From Leprosy to Pneumocystosis
+# كلوفازيمين: من الجذام إلى المتكيسة الرئوية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Clofazimine (Lamprene) is an antimycobacterial agent used in the treatment of leprosy and drug-resistant tuberculosis as part of multidrug regimens.
-The TxGNN model predicts it may be effective for **Pneumocystosis** (Pneumocystis jirovecii pneumonia, PCP),
-with **1 clinical trial** and **4 publications** retrieved — however, none directly study clofazimine as a treatment for Pneumocystosis.
+كلوفازيمين (لامبرين) هو عامل مضاد للمتفطرات يُستخدم في علاج الجذام والسل المقاوم للأدوية كجزء من الأنظمة الدوائية المتعددة.
+يتوقع نموذج TxGNN أنه قد يكون فعالاً للـ **المتكيسة الرئوية** (الالتهاب الرئوي بـ Pneumocystis jirovecii، PCP)، مع **تجربة سريرية واحدة** و **4 منشورات** تم الحصول عليها — لكن لا واحدة منها تدرس كلوفازيمين كعلاج للمتكيسة الرئوية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Leprosy; drug-resistant tuberculosis (no Saudi Arabia approval on record) |
-| Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الجذام؛ السل المقاوم للأدوية (لا توجد موافقة مسجلة في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | المتكيسة الرئوية |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, clofazimine is a riminophenazine dye with established antimycobacterial activity. It is understood to exert its effects by generating reactive oxygen species (ROS), disrupting mycobacterial cell membranes, and interfering with microbial electron transport chains. These mechanisms are specifically targeted against mycobacterial pathogens — primarily *Mycobacterium leprae* (leprosy), *M. tuberculosis* complex, and *M. avium* complex (MAC).
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في حزمة الأدلة هذه. بناءً على المعلومات الدوائية المعروفة، كلوفازيمين هو صبغة ريمينوفينازين ذات نشاط مضاد للمتفطرات مثبت. يُفهم أنه يمارس تأثيراته من خلال توليد أنواع الأكسجين التفاعلية (ROS)، واضطراب أغشية الخلايا المتفطرية، والتدخل في سلاسل نقل الإلكترونات الميكروبية. هذه الآليات موجهة بشكل خاص ضد العوامل الممرضة المتفطرية — بشكل أساسي *Mycobacterium leprae* (الجذام)، و *M. tuberculosis* complex، و *M. avium* complex (MAC).
 
-Pneumocystosis, however, is caused by *Pneumocystis jirovecii*, an atypical fungus. The known pharmacological targets of clofazimine have no established cross-reactivity with the cell wall architecture, sterol composition, or metabolic pathways of Pneumocystis. There is no preclinical or clinical evidence that riminophenazines possess anti-Pneumocystis activity at clinically achievable concentrations.
+المتكيسة الرئوية، مع ذلك، سببها *Pneumocystis jirovecii*، وهو فطر غير نمطي. الأهداف الدوائية المعروفة لكلوفازيمين لا تملك تفاعل متقاطع مثبت مع بنية جدار الخلية أو تركيب الستيرول أو المسارات الأيضية للمتكيسة. لا توجد أدلة سابقة للعلاج السريري أو سريرية تشير إلى أن الريمينوفينازينات تملك نشاطاً مضاداً للمتكيسة بتركيزات قابلة للتحقيق سريرياً.
 
-The most plausible explanation for this TxGNN prediction is an epidemiological co-morbidity artefact: both MAC infection and PCP are common opportunistic infections in advanced AIDS/HIV patients, and the knowledge graph likely captured this co-occurrence as a shared disease association with clofazimine. The model appears to have constructed a spurious link through shared patient populations rather than a true pharmacological signal. This prediction should be treated as a hypothesis-generating artefact, not a biological finding.
+أكثر التفسيرات المعقولة لهذا التنبؤ TxGNN هي قطعة أثرية من الاعتلال المشترك الوبائي: عدوى MAC والمتكيسة الرئوية كلاهما عدوى انتهازية شائعة في المرضى المصابين بنقص المناعة البشرية/الإيدز المتقدم، وربما التقط الرسم البياني للمعرفة هذا الحدوث المشترك كارتباط مرض مشترك مع كلوفازيمين. يبدو أن النموذج قد بنى ارتباطاً مزيفاً من خلال مجموعات المرضى المشتركة بدلاً من إشارة دوائية حقيقية. يجب معاملة هذا التنبؤ كقطعة أثرية توليد فرضية، وليس كاكتشاف بيولوجي.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | الطور | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00002058](https://clinicaltrials.gov/study/NCT00002058) | N/A | Completed | N/A | Randomized prophylaxis study evaluating clofazimine for **MAC infection** in HIV-infected individuals; a prior episode of *Pneumocystis carinii* pneumonia was used as an **enrollment criterion**, not a treatment target — no data on clofazimine efficacy against Pneumocystosis |
+| [NCT00002058](https://clinicaltrials.gov/study/NCT00002058) | غير متاح | اكتملت | غير متاح | دراسة الوقاية العشوائية التي تقيّم كلوفازيمين لـ **عدوى MAC** في الأفراد المصابين بفيروس نقص المناعة البشرية؛ تم استخدام حلقة سابقة من **التهاب رئوي Pneumocystis carinii** كـ **معيار التحاق**، وليس هدف العلاج — لا توجد بيانات عن فعالية كلوفازيمين ضد المتكيسة الرئوية |
 
-> **Assessment:** The single retrieved trial (NCT00002058) concerns MAC prophylaxis in AIDS patients. PCP history is mentioned only as an eligibility criterion for a high-risk HIV population. This trial provides **no direct evidence** of clofazimine activity against Pneumocystosis.
+> **التقييم:** التجربة الوحيدة المسترجعة (NCT00002058) تتعلق بالوقاية من MAC في مرضى الإيدز. يُذكر تاريخ المتكيسة الرئوية فقط كمعيار أهلية لمجموعة سكانية عالية الخطر المصابة بفيروس نقص المناعة البشرية. توفر هذه التجربة **لا دليل مباشر** على نشاط كلوفازيمين ضد المتكيسة الرئوية.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | RCT | *J Infect Dis* | Clofazimine 50 mg as MAC prophylaxis in 110 HIV patients (enrollment included patients with prior PCP episode or CD4 ≤100/mm³); study endpoint was MAC infection — PCP was a patient characteristic, not an outcome measure |
-| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case Report | *Infection* | Swiss AIDS patient with *M. kansasii* lung disease complicated by PCP; clofazimine was used as part of the anti-mycobacterial regimen — TMP-SMX was the agent used for PCP; clofazimine not implicated in PCP treatment |
-| [6299154](https://pubmed.ncbi.nlm.nih.gov/6299154/) | 1983 | Case Report | *Ann Intern Med* | Hemophiliac AIDS patient presenting with PCP followed by disseminated MAC-intracellulare; clofazimine role is in MAC management — no data on Pneumocystosis treatment |
-| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Review | *PI Perspective* | General opportunistic infections update for AIDS patients; contextual document with no specific clofazimine-vs-PCP data |
+| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | RCT | *J Infect Dis* | كلوفازيمين 50 ملغ كوقاية MAC في 110 مريض بفيروس نقص المناعة البشرية (كان الالتحاق يشمل المرضى الذين لديهم حلقة سابقة من المتكيسة الرئوية أو CD4 ≤100/ملم³)؛ كانت نقطة نهاية الدراسة عدوى MAC — كانت المتكيسة الرئوية خاصية للمريض، وليست مقياس نتيجة |
+| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | تقرير حالة | *Infection* | مريض سويسري مصاب بالإيدز مع مرض *M. kansasii* الرئوي معقد بالمتكيسة الرئوية؛ تم استخدام كلوفازيمين كجزء من نظام مضاد للمتفطرات — TMP-SMX كان العامل المستخدم للمتكيسة الرئوية؛ كلوفازيمين غير متورط في علاج المتكيسة الرئوية |
+| [6299154](https://pubmed.ncbi.nlm.nih.gov/6299154/) | 1983 | تقرير حالة | *Ann Intern Med* | مريض إيدز مصاب بالناعور يحضر مع المتكيسة الرئوية متبوعة بـ MAC-intracellulare المنتشرة؛ دور كلوفازيمين في إدارة MAC — لا توجد بيانات عن علاج المتكيسة الرئوية |
+| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | مراجعة | *PI Perspective* | تحديث عام للعدوى الانتهازية لمرضى الإيدز؛ وثيقة سياقية بدون بيانات محددة عن كلوفازيمين مقابل المتكيسة الرئوية |
 
-> **Assessment:** None of the 4 retrieved publications evaluate clofazimine as treatment or prophylaxis for Pneumocystosis. PCP appears consistently as a co-morbidity marker in advanced AIDS patients enrolled for MAC studies. The literature supports clofazimine's anti-mycobacterial role only.
-
----
-
-## Saudi Arabia Market Information
-
-Clofazimine is **not approved or marketed in Saudi Arabia**. No regulatory licenses are on record. Availability would require importation through special access or compassionate use channels.
+> **التقييم:** لا واحد من المنشورات الأربعة المسترجعة يقيّم كلوفازيمين كعلاج أو وقاية للمتكيسة الرئوية. تظهر المتكيسة الرئوية بشكل ثابت كعلامة اعتلال مشترك في مرضى الإيدز المتقدم المسجلين في دراسات MAC. تدعم الأدبيات دور كلوفازيمين المضاد للمتفطرات فقط.
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Safety data (package insert warnings, contraindications, and drug interaction profile) were not available in this Evidence Pack.
-
-Please refer to the official package insert for safety information. Known class-level concerns for clofazimine include irreversible red-brown skin and body fluid discoloration, gastrointestinal toxicity (nausea, abdominal pain, enteropathy), QT interval prolongation (of particular concern in AIDS patients on other QT-prolonging agents), and rare crystal deposition in intestinal tissues. These require confirmation from the current prescribing information before clinical application.
+كلوفازيمين **غير معتمد أو مسوق في المملكة العربية السعودية**. لا توجد رخص تنظيمية مسجلة. سيتطلب التوفر الاستيراد من خلال قنوات الوصول الخاصة أو الاستخدام الرحيم.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold**
+بيانات الأمان (تحذيرات النشرة الداخلية، والموانع، وملف التفاعل الدوائي) لم تكن متاحة في حزمة الأدلة هذه.
 
-**Rationale:**
-The TxGNN prediction for clofazimine in pneumocystosis is rated L5 — model prediction only, with no direct mechanistic, preclinical, or clinical evidence supporting this repurposing hypothesis. Every retrieved study involves clofazimine in a MAC/mycobacterial treatment context within an AIDS population where PCP co-occurs as a background infection; none tested clofazimine against *Pneumocystis jirovecii*. The prediction is most likely a knowledge-graph co-morbidity artefact and does not reflect a true pharmacological signal.
+يرجى الرجوع إلى النشرة الداخلية الرسمية للحصول على معلومات الأمان. الاهتمامات المعروفة على مستوى الفئة لكلوفازيمين تشمل تغير لون الجلد والسوائل في الجسم الأحمر-البني الذي لا يمكن عكسه، والسمية المعدية المعوية (الغثيان، الألم البطني، الإنتيروباثيا)، وإطالة فترة QT (مصدر قلق خاص في مرضى الإيدز على عوامل أخرى تطيل QT)، والترسب النادر للبلورات في الأنسجة المعوية. تتطلب هذه التأكيد من معلومات الوصفة الحالية قبل التطبيق السريري.
 
-**To proceed, the following would be required:**
-- In vitro activity data demonstrating clofazimine or riminophenazine analogues have activity against *Pneumocystis jirovecii* at clinically relevant concentrations
-- A mechanistic rationale explaining how clofazimine's ROS generation or membrane disruption would affect a fungal (not mycobacterial) pathogen with a distinct cell wall structure
-- Preclinical in vivo data in an immunocompromised animal model of PCP before any clinical investigation is warranted
-- Confirmed MOA data from DrugBank and package insert to close the existing data gaps (DG001, DG002) before any further investment in this prediction direction
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+تقييم التنبؤ TxGNN لكلوفازيمين في المتكيسة الرئوية هو L5 — التنبؤ بالنموذج فقط، بدون أدلة مباشرة آلية، سابقة للعلاج السريري، أو سريرية تدعم فرضية إعادة الاستخدام هذه. كل دراسة تم استرجاعها تتضمن كلوفازيمين في سياق العلاج MAC/المتفطري داخل مجموعة سكانية الإيدز حيث المتكيسة الرئوية تحدث بشكل متزامن كعدوى خلفية؛ لم تختبر أي منها كلوفازيمين ضد *Pneumocystis jirovecii*. التنبؤ هو في أغلب الأحوال قطعة أثرية من الاعتلال المشترك للرسم البياني للمعرفة ولا يعكس إشارة دوائية حقيقية.
+
+**للمضي قدماً، سيكون المطلوب التالي:**
+- بيانات النشاط في الجسم الحي توضح أن كلوفازيمين أو النظائر ريمينوفينازين لديها نشاط ضد *Pneumocystis jirovecii* بتركيزات ذات صلة سريرية
+- أساس آلي شارح لكيفية تأثير توليد ROS أو اضطراب الغشاء بكلوفازيمين على عامل ممرض فطري (وليس متفطري) بهيكل جدار خلية مميز
+- بيانات سابقة للعلاج السريري في الجسم الحي في نموذج حيوان معرض للخطر من المتكيسة الرئوية قبل أن يكون أي تحقيق سريري مبررا
+- بيانات MOA مؤكدة من DrugBank والنشرة الداخلية لإغلاق فجوات البيانات الموجودة (DG001, DG002) قبل أي استثمار إضافي في اتجاه التنبؤ هذا
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

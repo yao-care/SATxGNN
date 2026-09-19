@@ -29,75 +29,76 @@ indication_count: 10
 
 </div>
 
-# Lanadelumab: From No Registered Indication to C1 Inhibitor Deficiency (Hereditary Angioedema)
+# لانادولوماب: من عدم وجود مؤشر مسجل إلى نقص مثبط C1 (الوذمة الوعائية الوراثية)
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Lanadelumab (DrugBank DB14597) has no recorded original indication or market authorization on file for this jurisdiction — it is currently **not marketed** here. The TxGNN model's top-ranked prediction is **C1 Inhibitor Deficiency** (the molecular basis of Hereditary Angioedema Type I/II), the condition lanadelumab is already approved for internationally, supported by **22 clinical trials** and **20 publications**, including one pivotal placebo-controlled Phase 3 RCT.
+lanadelumab (DrugBank DB14597) لا يحتوي على أي مؤشر أصلي مسجل أو ترخيص تسويق في السجل لهذه الولاية القضائية — وهو حالياً **غير مسوق** هنا. التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **نقص مثبط C1** (الأساس الجزيئي للوذمة الوعائية الوراثية من النوع الأول/الثاني)، وهي الحالة التي تمت الموافقة على lanadelumab لها بالفعل دولياً، مدعومة بـ **22 تجربة سريرية** و **20 منشوراً**، بما في ذلك تجربة عشوائية محكومة بدواء وهمي واحدة رئيسية من المرحلة 3.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not on file — no approved indication or license record exists locally for this drug |
-| Predicted New Indication | C1 Inhibitor Deficiency (Hereditary Angioedema Type I/II) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 (1 completed pivotal Phase 3 RCT — HELP Study, NCT02586805) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير مسجل — لا يوجد سجل موافقة أو ترخيص محلي لهذا الدواء |
+| المؤشر الجديد المتنبأ به | نقص مثبط C1 (الأساس الجزيئي للوذمة الوعائية الوراثية من النوع الأول/الثاني) |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الأدلة | L2 (تجربة عشوائية محكومة بدواء وهمي واحدة رئيسية من المرحلة 3 مكتملة — دراسة HELP، NCT02586805) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | التأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data is not available in the drug-level record for this evidence pack (DrugBank MOA field flagged as a data gap). However, the literature evidence attached to the top prediction does describe the mechanism: lanadelumab is a fully human monoclonal antibody that inhibits plasma kallikrein (PMID 30267321). In hereditary angioedema, mutations in the *SERPING1* gene cause a deficiency or dysfunction of C1-esterase inhibitor (C1-INH), which normally restrains plasma kallikrein activity. Loss of this restraint drives excessive bradykinin production, the vasodilator responsible for HAE's characteristic swelling attacks. By directly inhibiting plasma kallikrein downstream of the C1-INH defect, lanadelumab addresses the disease mechanism regardless of the specific C1-INH mutation.
+بيانات آلية العمل التفصيلية غير متاحة في السجل على مستوى الدواء لهذه مجموعة الأدلة (حقل DrugBank MOA محدد كفجوة بيانات). ومع ذلك، فإن الأدلة الأدبية المرفقة بالتنبؤ الأعلى تصف الآلية: lanadelumab هو جسم مضاد أحادي النسيلة بشري كامل يثبط كاليكرين البلازما (PMID 30267321). في الوذمة الوعائية الوراثية، تسبب الطفرات في جين *SERPING1* نقصاً أو خللاً في مثبط الإستيراز 1 من المكمل (C1-INH)، الذي يكبح عادة نشاط كاليكرين البلازما. فقدان هذا الكبح يؤدي إلى إنتاج مفرط من بريديكينين، وهو موسع الأوعية المسؤول عن نوبات الانتفاخ المميزة للوذمة الوعائية الوراثية. من خلال تثبيط كاليكرين البلازما بشكل مباشر في اتجاه مجرى النهر من خلل C1-INH، يعالج lanadelumab آلية المرض بغض النظر عن الطفرة المحددة في C1-INH.
 
-This is not a conventional "repurposing" signal in the usual sense: C1 Inhibitor Deficiency is not a new indication distinct from the drug's known mechanism — it is the disease lanadelumab (Takhzyro) is already approved to treat in numerous other markets (US, EU, Japan, China, South Korea, etc.), as reflected by the extensive multinational trial and real-world evidence portfolio. Because this evidence pack's regulatory record shows zero local licenses and no original indication, the practical interpretation is that TxGNN has correctly identified the drug's established therapeutic use, but local registration and safety documentation are absent. Notably, one Phase 3 trial (NCT04444895) also explored lanadelumab in a mechanistically related but distinct condition — non-histaminergic angioedema with *normal* C1-INH — indicating the kallikrein-inhibition mechanism may have utility beyond classic C1-INH deficiency as well.
+هذا ليس إشارة "إعادة استخدام" تقليدية بالمعنى المعتاد: نقص مثبط C1 ليس مؤشراً جديداً مختلفاً عن الآلية المعروفة للدواء — إنها المرض الذي تمت الموافقة على lanadelumab (Takhzyro) بالفعل لعلاجه في عدد من الأسواق الأخرى (الولايات المتحدة، الاتحاد الأوروبي، اليابان، الصين، كوريا الجنوبية، إلخ)، كما ينعكس في مجموعة التجارب المتعددة الجنسيات والأدلة من العالم الحقيقي الممتدة. لأن السجل التنظيمي لمجموعة الأدلة هذه يوضح صفر رخص محلية وعدم وجود مؤشر أصلي، فإن التفسير العملي هو أن TxGNN قد حدد بشكل صحيح الاستخدام العلاجي المنشأ للدواء، لكن التسجيل المحلي وتوثيق السلامة غائبة. بشكل ملحوظ، استكشفت تجربة واحدة من المرحلة 3 (NCT04444895) أيضاً lanadelumab في حالة مرتبطة ميكانيكياً لكن مختلفة — الوذمة الوعائية غير الهستامينية مع C1-INH *طبيعي* — مما يشير إلى أن آلية تثبيط كاليكرين قد تكون لها فائدة خارج نقص C1-INH الكلاسيكي أيضاً.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Phase 3 | Completed | 125 | Pivotal double-blind, placebo-controlled trial (HELP Study) establishing lanadelumab's efficacy and safety for long-term prophylaxis against HAE attacks |
-| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Phase 3 | Completed | 212 | Open-label extension (HELP Study Extension) confirming long-term safety and efficacy of continued prophylaxis |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | Completed | 12 | Open-label study confirming efficacy and safety in Japanese HAE Type I/II patients, supporting Japan approval |
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | Completed | 20 | Open-label study of safety, PK and efficacy in Chinese HAE patients over 26 weeks |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | Completed | 21 | SPRING Study: open-label PK/PD and prophylactic efficacy in pediatric patients aged 2 to <12 years |
-| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Phase 3 | Completed | 73 | Long-term safety/efficacy in non-histaminergic angioedema with normal C1-inhibitor — a distinct but mechanistically related condition |
-| [NCT07263685](https://clinicaltrials.gov/study/NCT07263685) | N/A | Not yet recruiting | 50 | REFLEQT-KSA: retrospective chart review of real-world effectiveness and quality-of-life impact of lanadelumab prophylaxis specifically in the Kingdom of Saudi Arabia |
-| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | Completed | 140 | ENABLE: 3-year prospective real-world study comparing HAE attack rates before and after lanadelumab initiation |
-| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | Completed | 168 | EMPOWER: US/Canada observational study comparing HAE attack rates pre- and post-lanadelumab treatment |
-| [NCT04687137](https://clinicaltrials.gov/study/NCT04687137) | Phase 3 | Completed | 12 | Japan expanded access program providing lanadelumab to Japanese HAE patients ahead of local licensure |
+| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | المرحلة 3 | مكتملة | 125 | تجربة عشوائية محكومة بدواء وهمي رئيسية مزدوجة التعمية (دراسة HELP) لإثبات فعالية وسلامة lanadelumab للوقاية طويلة الأجل من نوبات الوذمة الوعائية الوراثية |
+| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | المرحلة 3 | مكتملة | 212 | امتداد مفتوح التسمية (امتداد دراسة HELP) يؤكد السلامة طويلة الأجل والفعالية المستمرة للوقاية |
+| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | المرحلة 3 | مكتملة | 12 | دراسة مفتوحة التسمية تؤكد الفعالية والسلامة لدى مرضى الوذمة الوعائية الوراثية من النوع الأول/الثاني اليابانيين، مدعومة بالموافقة اليابانية |
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | المرحلة 3 | مكتملة | 20 | دراسة مفتوحة التسمية للسلامة والحرائك الدوائية والفعالية لدى مرضى الوذمة الوعائية الوراثية الصينيين على مدى 26 أسبوع |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | المرحلة 3 | مكتملة | 21 | دراسة SPRING: الحرائك الدوائية/الديناميكا الدوائية مفتوحة التسمية والفعالية الوقائية لدى مرضى الأطفال الذين تتراوح أعمارهم بين 2 إلى <12 سنة |
+| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | المرحلة 3 | مكتملة | 73 | السلامة/الفعالية طويلة الأجل في الوذمة الوعائية غير الهستامينية مع مثبط C1 طبيعي — حالة مرتبطة ميكانيكياً لكن مختلفة |
+| [NCT07263685](https://clinicaltrials.gov/study/NCT07263685) | N/A | لم يبدأ التجنيد بعد | 50 | REFLEQT-KSA: مراجعة الرسائل الطبية بأثر رجعي لفعالية العالم الحقيقي والتأثير على جودة الحياة للوقاية من lanadelumab على وجه التحديد في المملكة العربية السعودية |
+| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | مكتملة | 140 | ENABLE: دراسة عالم حقيقي محتملة لمدة 3 سنوات تقارن معدلات نوبات الوذمة الوعائية الوراثية قبل وبعد بدء lanadelumab |
+| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | مكتملة | 168 | EMPOWER: دراسة قائمة على الملاحظة من الولايات المتحدة/كندا تقارن معدلات نوبات الوذمة الوعائية الوراثية قبل وبعد علاج lanadelumab |
+| [NCT04687137](https://clinicaltrials.gov/study/NCT04687137) | المرحلة 3 | مكتملة | 12 | برنامج الوصول الموسع اليابان الذي يوفر lanadelumab لمرضى الوذمة الوعائية الوراثية اليابانيين قبل الترخيص المحلي |
 
-## Literature Evidence
+## أدلة الدراسات الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Pivotal randomized, placebo-controlled trial (HELP Study) showing lanadelumab significantly reduces HAE attack rates vs placebo |
-| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Drug Review | Drugs | First global approval profile: fully human mAb inhibiting plasma kallikrein; describes SERPING1/C1-INH deficiency mechanism |
-| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Review | New England Journal of Medicine | Overview of HAE pathophysiology, diagnosis, and treatment |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematic Review | Clinical Reviews in Allergy & Immunology | Review of breakthrough HAE attacks occurring in patients already on long-term prophylaxis |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Network Meta-Analysis | Drugs in R&D | Indirect comparison of efficacy, safety, and QoL impact across HAE prophylactic therapies (lanadelumab, garadacimab, C1INH, berotralstat) |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Open-label Extension Study | Allergy | HELP OLE: long-term effectiveness and safety follow-up in patients ≥12 years old |
-| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Observational Study | J Allergy Clin Immunol Pract | INTEGRATED multicountry real-world study of lanadelumab effectiveness in reducing HAE attack rates |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Review | BioDrugs | Review of preclinical and Phase I data supporting the prophylactic mechanism in C1-INH-HAE |
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | Journal of Allergy and Clinical Immunology | Review of HAE disease burden and treatment access across the Asia-Pacific region |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Review | J Investig Allergol Clin Immunol | Review of current and emerging treatments for C1-esterase inhibitor deficiency HAE |
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | تجربة عشوائية محكومة | JAMA | تجربة عشوائية محكومة بدواء وهمي رئيسية (دراسة HELP) تظهر أن lanadelumab يقلل بشكل كبير من معدلات نوبات الوذمة الوعائية الوراثية مقابل الدواء الوهمي |
+| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | مراجعة الدواء | Drugs | ملف الموافقة العالمي الأول: جسم مضاد أحادي النسيلة بشري كامل يثبط كاليكرين البلازما؛ يصف آلية نقص SERPING1/C1-INH |
+| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | مراجعة | New England Journal of Medicine | نظرة عامة على الفيزيولوجيا المرضية والتشخيص والعلاج للوذمة الوعائية الوراثية |
+| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | مراجعة منهجية | Clinical Reviews in Allergy & Immunology | مراجعة نوبات الوذمة الوعائية الوراثية الاختراقية التي تحدث لدى المرضى الذين يتلقون بالفعل وقاية طويلة الأجل |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | تحليل شبكي | Drugs in R&D | المقارنة غير المباشرة للفعالية والسلامة والتأثير على جودة الحياة عبر العلاجات الوقائية للوذمة الوعائية الوراثية (lanadelumab, garadacimab, C1INH, berotralstat) |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | دراسة امتداد مفتوحة التسمية | Allergy | HELP OLE: متابعة الفعالية والسلامة طويلة الأجل لدى المرضى ≥12 سنة |
+| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | دراسة قائمة على الملاحظة | J Allergy Clin Immunol Pract | دراسة عالم حقيقي متكاملة متعددة الدول لفعالية lanadelumab في تقليل معدلات نوبات الوذمة الوعائية الوراثية |
+| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | مراجعة | BioDrugs | مراجعة البيانات قبل السريرية والمرحلة الأولى لدعم آلية الوقاية في الوذمة الوعائية الوراثية من نقص C1-INH |
+| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | مراجعة | Journal of Allergy and Clinical Immunology | مراجعة عبء المرض والوصول للعلاج للوذمة الوعائية الوراثية عبر منطقة آسيا والمحيط الهادئ |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | مراجعة | J Investig Allergol Clin Immunol | مراجعة العلاجات الحالية والناشئة للوذمة الوعائية الوراثية من نقص مثبط الإستيراز 1 من المكمل |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: التأجيل**
 
-**Rationale:**
-Efficacy evidence is strong (L2: a pivotal double-blind, placebo-controlled Phase 3 RCT plus a broad multinational Phase 3/real-world program, including a Saudi Arabia–specific study already underway), and the predicted "new" indication is in fact the drug's established global use. However, the local safety data gap (DG001, marked *Blocking*) means the drug cannot yet clear an S1 safety pre-assessment, and there is no local regulatory record (0 authorizations, not marketed).
+**المنطق:**
+أدلة الفعالية قوية (L2: تجربة عشوائية محكومة بدواء وهمي مزدوجة التعمية رئيسية من المرحلة 3 بالإضافة إلى برنامج متعدد الجنسيات واسع من المرحلة 3/واقعي، بما في ذلك دراسة خاصة بالمملكة العربية السعودية قيد الإجراء بالفعل)، والمؤشر "الجديد" المتنبأ به هو في الواقع الاستخدام العلاجي المنشأ عالمياً للدواء. ومع ذلك، فإن فجوة البيانات الأمنية المحلية (DG001، محددة كـ *حظر*) تعني أن الدواء لا يمكنه الآن أن يمر بتقييم السلامة S1، وليس هناك سجل تنظيمي محلي (0 ترخيص، غير مسوق).
 
-**To proceed, the following is needed:**
-- Obtain the SFDA/local package insert (warnings, contraindications, DDI) to close DG001 before any safety pre-assessment
-- Retrieve confirmed mechanism-of-action data from DrugBank to close DG002 and formally validate the mechanistic rationale
-- Pursue local regulatory registration, since this is a market-entry decision for an internationally approved therapy rather than a novel disease-target pairing
+**للمتابعة، يتطلب ما يلي:**
+- الحصول على نشرة الحزمة من SFDA/المحلية (التحذيرات والموانع والتفاعلات الدوائية) لإغلاق DG001 قبل أي تقييم سلامة
+- استرجاع بيانات آلية العمل المؤكدة من DrugBank لإغلاق DG002 والتحقق الرسمي من المنطق الميكانيكي
+- السعي لتحقيق التسجيل التنظيمي المحلي، لأن هذا قرار دخول السوق لعلاج موافق عليه دولياً وليس لزوج مرض-هدف جديد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

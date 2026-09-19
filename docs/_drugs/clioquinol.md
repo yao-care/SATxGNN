@@ -29,86 +29,86 @@ indication_count: 7
 
 </div>
 
-# Clioquinol: From Topical Antiseptic to Cutaneous Candidiasis
+# الكليوكينول: من مطهر موضعي إلى داء المبيضات الجلدي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Clioquinol (iodochlorhydroxyquin, brand name Vioform) is a halogenated hydroxyquinoline compound with a long clinical history as a topical antiseptic and antifungal agent, widely used in combination dermatological preparations.
-The TxGNN model predicts it may be effective for **Cutaneous Candidiasis**, with **0 registered clinical trials** and **6 publications** currently supporting this direction.
+الكليوكينول (iodochlorhydroxyquin، الاسم التجاري Vioform) هو مركب هيدروكسيكينولين مهلوجن له سجل سريري طويل كعامل مطهر وفطري موضعي، يُستخدم على نطاق واسع في تركيبات أمراض جلدية مركبة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **داء المبيضات الجلدي**، مع وجود **0 تجربة سريرية مسجلة** و **6 منشورات** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Not on record in current dataset (not marketed in Saudi Arabia) |
-| Predicted New Indication | Cutaneous Candidiasis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| مؤشر الاستخدام الأصلي | لا يوجد في السجل في مجموعة البيانات الحالية (غير مسوق في المملكة العربية السعودية) |
+| مؤشر الاستخدام الجديد المتنبأ به | داء المبيضات الجلدي |
+| درجة تنبؤ TxGNN | 99.84% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Clioquinol is a halogenated 8-hydroxyquinoline derivative. While formal MOA documentation is not available in the current dataset, published mechanistic research indicates that clioquinol exerts antifungal activity primarily through **metal ion chelation**: it binds Zn²⁺ and Cu²⁺, disrupting essential fungal metalloenzymes including alcohol dehydrogenase and superoxide dismutase. A secondary mechanism involves direct disruption of the fungal cell membrane, creating a dual antifungal mode of action that does not overlap with conventional azoles or polyenes.
+الكليوكينول هو مشتق مهلوجن من 8-هيدروكسيكينولين. بينما لا توجد وثائق رسمية لآلية العمل في مجموعة البيانات الحالية، تشير الأبحاث الميكانيكية المنشورة إلى أن clioquinol يمارس النشاط المضاد للفطريات بشكل أساسي من خلال **استخلاب أيونات المعادن**: يرتبط بـ Zn²⁺ و Cu²⁺، مما يعطل الإنزيمات المعدنية الأساسية للفطريات بما في ذلك الكحول ديهيدروجيناز وديسموتاز الفائق للأكسيد. تتضمن آلية ثانوية تعطيلاً مباشراً لغشاء الخلية الفطرية، مما ينتج عنه وسيلة ثنائية المفعول لمكافحة الفطريات لا تتداخل مع الأزولات التقليدية أو الأدوية متعددة الينات.
 
-Cutaneous candidiasis is caused by *Candida* species that are critically dependent on zinc and copper availability for growth, virulence factor expression, and oxidative stress defence. Chelating these metals directly undermines *Candida*'s ability to survive in host tissue, making the biological rationale for clioquinol use in this indication mechanistically compelling.
+داء المبيضات الجلدي ناجم عن أنواع *Candida* التي تعتمد بشكل حرج على توفر الزنك والنحاس للنمو والتعبير عن عوامل الضراوة والدفاع ضد الإجهاد التأكسدي. يؤدي استخلاب هذه المعادن مباشرة إلى تقويض قدرة *Candida* على البقاء في أنسجة العائل، مما يجعل الأساس البيولوجي لاستخدام clioquinol في هذا المؤشر قابلاً للدفاع من الناحية الآلية.
 
-Importantly, clinical practice has already validated this connection: the combination product **Locacorten-Vioform** (flumetasone 0.02% + clioquinol 3%) was widely used as a standard topical treatment for inflamed dermatoses with secondary candidal or bacterial superinfection across multiple countries during the 1970s–1980s. Multiple comparative clinical studies from this era directly documented its efficacy against cutaneous candidiasis, lending historical clinical plausibility to the TxGNN model's prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+والجدير بالملاحظة أن الممارسة السريرية قد تحققت بالفعل من هذا الرابط: المنتج المركب **Locacorten-Vioform** (flumetasone 0.02% + clioquinol 3%) كان يُستخدم على نطاق واسع كعلاج موضعي معياري للأمراض الجلدية الملتهبة ذات الإصابة الثانوية بالمبيضات أو البكتيريا عبر دول متعددة خلال السبعينيات والثمانينيات. وثقت عدة دراسات سريرية مقارنة من هذه الفترة فعاليتها بشكل مباشر ضد داء المبيضات الجلدي، مما يضفي معقولية سريرية تاريخية على تنبؤ نموذج TxGNN.
 
 ---
 
-## Literature Evidence
+## أدلة التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Randomized comparative study | J International Medical Research | Randomized parallel study (n=154, including 67 cutaneous candidiasis patients): betamethasone-gentamicin-iodochlorhydroxyquin-tolnaftate cream showed equivalent therapeutic response to comparator combination cream; confirms clioquinol formulation activity in candidal skin infection |
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Double-blind comparative study | Dermatologica | Double-blind study (n=430): Locacorten-Vioform (flumetasone 0.02% + clioquinol 3%) produced significantly greater microbiological conversion and clinical improvement than Vioform alone, Locacorten alone, or placebo in dermatoses with secondary microbial infection (*S. aureus* most prevalent pathogen) |
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Non-randomized comparative trial | Current Medical Research and Opinion | Parallel comparison of HNA cream vs. iodochlorhydroxyquin-hydrocortisone (I-HC) in 80 patients with cutaneous candidiasis and inflammatory dermatoses; I-HC (clioquinol-based) achieved 43% excellent response in candidiasis vs. 95% for HNA — confirms clioquinol component activity while identifying superior combinations |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Non-randomized clinical evaluation | Current Therapeutic Research | Clinical evaluation of halcinonide combined with antifungal (including iodochlorhydroxyquin) in cutaneous fungal infections; supports combination approach in candidal dermatoses |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Case series | Zeitschrift fur Haut- und Geschlechtskrankheiten | Describes role of *Candida* yeasts in acrodermatitis enteropathica (a zinc-deficiency dermatosis); contextualises the zinc–Candida relationship that underpins clioquinol's chelation mechanism |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | In vitro preventive study | Przeglad Dermatologiczny | In vitro screening of soap additives against clinical *C. albicans* isolates; hydroxyquinoline-based compounds including clioquinol analogues among agents with strongest fungicidal activity in alkaline soap solutions |
+| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | دراسة مقارنة عشوائية | J International Medical Research | دراسة متوازية عشوائية (n=154، تشمل 67 مريضاً بداء المبيضات الجلدي): أظهر كريم البيتاميثازون-جنتاميسين-iodochlorhydroxyquin-tolnaftate استجابة علاجية معادلة لكريم المقارنة المركب؛ يؤكد نشاط صيغة clioquinol في العدوى الفطرية الجلدية |
+| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | دراسة مقارنة عمياء مزدوجة | Dermatologica | دراسة عمياء مزدوجة (n=430): أنتج Locacorten-Vioform (flumetasone 0.02% + clioquinol 3%) تحولاً ميكروبيولوجياً أكبر بكثير وتحسناً سريرياً مقارنة مع Vioform وحده أو Locacorten وحده أو الدواء الوهمي في الأمراض الجلدية ذات الإصابة الميكروبية الثانوية (*S. aureus* الممرض الأكثر انتشاراً) |
+| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | تجربة مقارنة غير عشوائية | Current Medical Research and Opinion | مقارنة متوازية لكريم HNA مقابل iodochlorhydroxyquin-hydrocortisone (I-HC) في 80 مريضاً بداء المبيضات الجلدي والأمراض الجلدية الالتهابية؛ حققت I-HC (القائمة على clioquinol) 43% استجابة ممتازة في داء المبيضات مقابل 95% لـ HNA - يؤكد نشاط مكون clioquinol مع تحديد تركيبات أفضل |
+| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | تقييم سريري غير عشوائي | Current Therapeutic Research | تقييم سريري لـ halcinonide مدمج مع مضادات الفطريات (بما في ذلك iodochlorhydroxyquin) في الالتهابات الفطرية الجلدية؛ يدعم النهج المركب في الأمراض الفطرية الجلدية |
+| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | سلسلة حالات | Zeitschrift fur Haut- und Geschlechtskrankheiten | يصف دور خمائر *Candida* في التهاب الجلد الناجم عن نقص الزنك؛ يسياق علاقة الزنك-Candida التي تدعم آلية استخلاب clioquinol |
+| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | دراسة وقائية في المختبر | Przeglad Dermatologiczny | الفحص في المختبر لمضافات الصابون ضد عزلات *C. albicans* السريرية؛ المركبات القائمة على هيدروكسيكينولين بما في ذلك نظائر clioquinol من بين العوامل ذات أقوى نشاط فطري في محاليل الصابون القلوية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Clioquinol is currently **not marketed in Saudi Arabia** and holds no registered pharmaceutical licenses. No authorization data is available for this market.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Important historical safety note**: Systemic absorption of clioquinol, particularly via oral or large-area topical use, has been associated with **subacute myelo-optic neuropathy (SMON)** — a serious neurological syndrome documented in Japan in the 1950s–1970s. Topical formulations on limited skin areas carry substantially lower risk, but restrictions on application area, duration, and use on broken skin are essential safeguards. Formal safety data from the current dataset is unavailable and must be obtained from the package insert and regulatory sources before clinical use.
+الكليوكينول غير مسوق حالياً في المملكة العربية السعودية ولا يحتفظ بأي تراخيص صيدلانية مسجلة. لا تتوفر بيانات التفويض لهذا السوق.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الاطلاع على النشرة المرفقة للحصول على معلومات السلامة.
 
-**Rationale:**
-Historical clinical evidence from combination products (Locacorten-Vioform and related formulations) establishes that topical clioquinol has documented activity against cutaneous candidiasis, and the metal-chelation mechanism is biologically well-supported. An L3 evidence level from multiple comparative clinical studies — including one randomized study — provides sufficient scientific foundation to advance to a structured evaluation, provided that safety risks (particularly SMON) are rigorously addressed and confined to topical-only use.
+> **ملاحظة أمان تاريخية مهمة**: ارتبط الامتصاص الجهازي لـ clioquinol، خاصة عبر الاستخدام الفموي أو الموضعي على مساحة واسعة، بـ **اعتلال النخاع البصري تحت الحاد (SMON)** - وهي متلازمة عصبية خطيرة موثقة في اليابان في السنوات 1950s–1970s. تحمل الصيغ الموضعية على مناطق جلدية محدودة خطراً أقل بكثير، لكن القيود على منطقة التطبيق والمدة والاستخدام على الجلد المكسور ضروريات حماية أساسية. بيانات السلامة الرسمية من مجموعة البيانات الحالية غير متاحة ويجب الحصول عليها من النشرة المرفقة والمصادر التنظيمية قبل الاستخدام السريري.
 
-**To proceed, the following is needed:**
-- Formal MOA documentation from DrugBank API or primary pharmacology literature
-- SMON risk mitigation plan: define maximum application area, treatment duration, and patient selection criteria (exclude large BSA, broken skin, paediatric patients)
-- Package insert review for complete contraindications and warnings (TFDA insert identified as existing but data not yet parsed)
-- Modern comparative RCT against current standard-of-care antifungals (topical azoles, nystatin) to establish non-inferiority or superiority
-- Regulatory pathway assessment for Saudi Arabia market entry, given current zero-license status
-- Drug interaction screening (DDI data not found in current dataset)
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+تؤسس الأدلة السريرية التاريخية من المنتجات المركبة (Locacorten-Vioform والتركيبات ذات الصلة) أن clioquinol الموضعي له نشاط موثق ضد داء المبيضات الجلدي، وآلية استخلاب المعادن مدعومة بشكل متين بيولوجياً. يوفر مستوى L3 من الأدلة من عدة دراسات سريرية مقارنة - بما في ذلك دراسة عشوائية واحدة - أساساً علمياً كافياً للمضي قدماً في تقييم منظم، بشرط معالجة مخاطر السلامة (خاصة SMON) بدقة وقصرها على الاستخدام الموضعي فقط.
+
+**للمتابعة، يلزم ما يلي:**
+- وثائق آلية العمل الرسمية من DrugBank API أو أدبيات الصيدلة الأولية
+- خطة تخفيف مخاطر SMON: تحديد الحد الأقصى لمنطقة التطبيق ومدة العلاج ومعايير اختيار المريض (استبعد مساحة سطح الجسم الكبيرة والجلد المكسور والمرضى الأطفال)
+- مراجعة النشرة المرفقة للحصول على موانع الاستخدام والتحذيرات كاملة (تم تحديد نشرة هيئة الدواء السعودية كموجودة لكن البيانات لم تُفسر بعد)
+- تجربة عشوائية معاصرة مقارنة ضد العلاج المعياري الموضعي الحالي لأدوية مضادات الفطريات (أزولات موضعية، نيستاتين) لإثبات عدم الدونية أو التفوق
+- تقييم المسار التنظيمي لدخول السوق في المملكة العربية السعودية، نظراً لحالة الترخيص الصفرية الحالية
+- فحص التفاعلات الدوائية (بيانات التفاعلات الدوائية لم يتم العثور عليها في مجموعة البيانات الحالية)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

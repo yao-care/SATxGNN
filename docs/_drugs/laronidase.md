@@ -29,81 +29,82 @@ indication_count: 2
 
 </div>
 
-# Laronidase: From Mucopolysaccharidosis I (MPS I) to Lysosomal Storage Disease with Skeletal Involvement
+# لارونيديز: من معاناة تعدد السكريات المخزنة من نوع I (MPS I) إلى أمراض الاختزان الليسوسومي مع تضمن الهيكل العظمي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Laronidase (recombinant human α-L-iduronidase) is an established enzyme replacement therapy for Mucopolysaccharidosis I (MPS I). The TxGNN model's top prediction, **"lysosomal storage disease with skeletal involvement,"** is not an independent new indication — it is a clinical description of MPS I itself, the disease laronidase already treats. Supporting evidence is limited to **4 literature items and 0 clinical trials**, and a second candidate (Sanfilippo syndrome) appears to be a disease-ontology mapping artifact rather than a real signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in Taiwan regulatory data (drug not marketed, no license records); internationally the drug's approved use is Mucopolysaccharidosis I (MPS I) |
-| Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L3 (observational cohort + review literature; no registered clinical trials) |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+لارونيديز (إنزيم α-L-iduronidase البشري المؤتلف) هو علاج قياسي بديل للإنزيم لمعاناة تعدد السكريات المخزنة من نوع I (MPS I). التنبؤ الأول للنموذج TxGNN، **"أمراض الاختزان الليسوسومي مع تضمن الهيكل العظمي"**، ليس مؤشراً جديداً مستقلاً — بل هو وصف سريري لمعاناة MPS I نفسها، وهو المرض الذي يعالجه لارونيديز بالفعل. الدليل الداعم محدود بـ 4 مقالات أدبية و 0 تجارب سريرية، وقد يكون المرشح الثاني (متلازمة سانفيليبو) خطأ في رسم خريطة قاموس الأمراض بدلاً من أن تكون إشارة حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism-of-action data is not available in the source record (`original_moa` = Data Gap). Based on known pharmacology, laronidase is a recombinant form of α-L-iduronidase, the lysosomal enzyme deficient in MPS I. It is administered to break down accumulated glycosaminoglycans (dermatan sulfate, heparan sulfate), and its efficacy in MPS I — including the disease's skeletal manifestations — is well established in the literature (e.g., PMID 18758061 on uptake by cultured osteoblasts; PMID 23127271 on 6.5-year follow-up including skeletal radiographs and joint range-of-motion).
-
-The critical caveat: "lysosomal storage disease with skeletal involvement" is not a distinct disease outside MPS I — it describes the skeletal phenotype of MPS I itself (the disease the drug already treats). The mechanistic link is therefore not a repurposing hypothesis but a restatement of the drug's known, approved use. This should be treated as **confirmation of existing activity**, not a new repurposing opportunity.
-
-A second, lower-confidence prediction (Sanfilippo syndrome / MPS III, score 99.22%) was also generated but does not survive scrutiny: MPS III results from deficiency of different enzymes (SGSH, NAGLU, HGSNAT, or GNS) in the heparan sulfate degradation pathway, not α-L-iduronidase, and its pathology is primarily CNS-driven — a compartment a large IV-administered enzyme is unlikely to reach. All 8 literature items retrieved for this candidate, including the pivotal Phase 3 RCT (PMID 15126990), actually discuss laronidase in MPS I, not Sanfilippo syndrome. This strongly suggests a disease-ontology mislabeling issue in the evidence-retrieval pipeline (likely triggered by shared "mucopolysaccharidosis" keyword overlap) rather than a genuine biological signal, and should be flagged for pipeline QA rather than advanced as a candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | غير موثق في البيانات التنظيمية في تايوان (الدواء غير مسوق، لا توجد سجلات ترخيص)؛ دولياً الاستخدام المعتمد للدواء هو معاناة تعدد السكريات المخزنة من نوع I (MPS I) |
+| المؤشر الجديد المتنبأ به | أمراض الاختزان الليسوسومي مع تضمن الهيكل العظمي |
+| درجة التنبؤ TxGNN | 99.31% |
+| مستوى الدليل | L3 (الدراسات الملاحظة للمجموعة + مراجعة الأدبيات؛ لا توجد تجارب سريرية مسجلة) |
+| حالة سوق تايوان | غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Cohort | Pediatric Neurology | 6.5-year ERT follow-up in attenuated MPS I (Scheie syndrome); tracked joint range of motion and skeletal radiographs, but noted disease progression despite treatment |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In vitro mechanistic | Biological & Pharmaceutical Bulletin | Laronidase is taken up by MPS I fibroblasts and osteoblasts mainly via mannose-6-phosphate receptors, supporting a mechanistic basis for skeletal tissue delivery |
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | Overview of MPS I pathophysiology (IDUA deficiency, GAG accumulation) across the Hurler/Hurler-Scheie/Scheie spectrum |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Early development overview of laronidase as recombinant α-L-iduronidase ERT for MPS I, including orphan drug and fast-track status |
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في السجل المصدر (`original_moa` = فجوة بيانات). بناءً على الصيدلة المعروفة، لارونيديز هو شكل مؤتلف من إنزيم α-L-iduronidase، الإنزيم الليسوسومي الناقص في MPS I. يتم إعطاؤه لتكسير الجليكوسامينوجليكان المتراكم (كبريتات الجلد، كبريتات الهيبارين)، وفعاليته في MPS I — بما في ذلك التظاهرات الهيكلية للمرض — محددة جيداً في الأدبيات (مثل PMID 18758061 عن الالتقاط بواسطة الخلايا البانية للعظم المزروعة؛ PMID 23127271 عن المتابعة لمدة 6.5 سنة بما في ذلك الأشعات الهيكلية ونطاق حركة المفاصل).
 
----
+تحذير حاسم: "أمراض الاختزان الليسوسومي مع تضمن الهيكل العظمي" ليست مرضاً متميزاً خارج MPS I — بل تصف النمط الظاهري الهيكلي لـ MPS I نفسه (المرض الذي يعالجه الدواء بالفعل). الارتباط الآلي بالتالي ليس فرضية إعادة توجيه بل إعادة صياغة للنشاط المعروف والمعتمد للدواء. يجب معاملة هذا **كتأكيد للنشاط الموجود**، وليس كفرصة إعادة توجيه جديدة.
 
-## Taiwan Market Information
-
-Laronidase currently holds no marketing authorization in Taiwan (0 licenses on file; market status: Not Marketed).
+تم إنتاج تنبؤ ثان بثقة أقل (متلازمة سانفيليبو / MPS III، درجة 99.22%) لكنه لا يقاوم التحليل الدقيق: ينتج MPS III عن نقص إنزيمات مختلفة (SGSH, NAGLU, HGSNAT, أو GNS) في مسار تحلل الهيبارين، وليس α-L-iduronidase، وأمراضيته مدفوعة بالجهاز العصبي المركزي بشكل أساسي — وهي حجرة يصعب على إنزيم كبير يتم إعطاؤه بالحقن الوريدي أن يصل إليها. جميع 8 مقالات أدبية تم استرجاعها لهذا المرشح، بما في ذلك تجربة RCT المحورية من المرحلة 3 (PMID 15126990)، تناقش بالفعل لارونيديز في MPS I، وليس متلازمة سانفيليبو. هذا يشير بقوة إلى خطأ في رسم خريطة قاموس الأمراض في خط أنابيب استرجاع الدليل (من المحتمل أن يكون مشغلاً بواسطة التداخل الكلمة الأساسية المشتركة "mucopolysaccharidosis") بدلاً من إشارة بيولوجية حقيقية، وينبغي الإشارة إليه لفحص جودة خط الأنابيب بدلاً من تقديمه كمرشح.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information. Note: the underlying data pack flags TFDA package insert / label data as a **Blocking** data gap (DG001), meaning safety pre-assessment (S1) cannot currently be completed for this drug.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|--------|--------|--------|------------------|
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | دراسة مجموعة | طب الأطفال العصبي | متابعة ERT لمدة 6.5 سنة في MPS I الضعيف (متلازمة شاي)؛ تتبع نطاق حركة المفاصل والأشعات الهيكلية، لكن لاحظت تقدم المرض رغم العلاج |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | آلية في المختبر | النشرة البيولوجية والصيدلانية | يتم التقاط لارونيديز بواسطة خلايا MPS I والخلايا البانية للعظم بشكل أساسي عبر مستقبلات الفوسفات-6-مانوز، مما يدعم الأساس الآلي لتوصيل الأنسجة الهيكلية |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | مراجعة | استعراضات طب الأطفال الغدد الصماء | نظرة عامة على أمراضية MPS I (نقص IDUA، تراكم GAG) عبر طيف هيرلر/هيرلر-شاي/شاي |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | مراجعة | BioDrugs | نظرة عامة على التطور المبكر لارونيديز كـ إنزيم α-L-iduronidase البشري المؤتلف ERT لـ MPS I، بما في ذلك حالة الدواء اليتيم والمسار السريع |
 
-**Rationale:**
-- The top-ranked "new" indication is clinically synonymous with MPS I, the drug's known approved use — this is not a genuine repurposing signal, and the automated pipeline's "Proceed with Guardrails" recommendation should be discounted accordingly.
-- The secondary candidate (Sanfilippo syndrome) shows a mechanistic mismatch and its supporting literature appears misattributed (all retrieved papers concern MPS I, not MPS III), indicating a likely disease-ontology error in the evidence pipeline.
-- A Blocking-severity safety data gap (no TFDA label data) prevents a proper S1 safety assessment, and the drug is not currently marketed in Taiwan.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / label data to resolve the Blocking safety gap (DG001)
-- Confirmed original MOA and original indication text (DG002), currently marked Data Gap
-- Pipeline QA on disease-ontology mapping for the Sanfilippo/MPS III candidate before it is reused
-- If genuine repurposing candidates are sought, re-run prediction excluding disease terms that fall within the MPS I umbrella, since both current candidates collapse back to the drug's known target
+## معلومات سوق تايوان
+
+لا يملك لارونيديز حالياً أي ترخيص تسويق في تايوان (0 ترخيص في الملف؛ حالة السوق: غير مسوق).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة. ملاحظة: تشير بيانات الحزمة الأساسية إلى بيانات نشرة TFDA / الملصق كـ **فجوة بيانات حاجزة** (DG001)، مما يعني أن التقييم الأولي للسلامة (S1) لا يمكن إكماله حالياً لهذا الدواء.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبررات:**
+- المؤشر الجديد "المرتفع الأول" مرادف سريرياً لـ MPS I، الاستخدام المعروف والمعتمد للدواء — هذه ليست إشارة إعادة توجيه حقيقية، وينبغي خصم توصية خط الأنابيب الآلي "المتابعة مع الضمانات" وفقاً لذلك.
+- يُظهر المرشح الثاني (متلازمة سانفيليبو) عدم تطابق آلي وتبدو أدلته المرجعية منسوبة بشكل خاطئ (جميع الأوراق المستردة تتعلق بـ MPS I، وليس MPS III)، مما يشير إلى خطأ محتمل في رسم خريطة قاموس الأمراض في خط الأنابيب.
+- فجوة بيانات سلامة حاجزة الشدة (لا توجد بيانات نشرة TFDA) تمنع تقييم S1 السلامة المناسب، والدواء غير مسوق حالياً في تايوان.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA / الملصق لحل فجوة البيانات الحاجزة (DG001)
+- موجز MOA الأصلي والمؤشر الأصلي المؤكد (DG002)، حالياً يتم تحديده كفجوة بيانات
+- فحص جودة خط الأنابيب لرسم خريطة قاموس الأمراض لمرشح سانفيليبو/MPS III قبل إعادة استخدامه
+- إذا تم البحث عن مرشحين حقيقيين لإعادة التوجيه، أعد تشغيل التنبؤ مستبعداً شروط الأمراض التي تقع ضمن مظلة MPS I، حيث ينهار كلا المرشحين الحاليين إلى الهدف المعروف للدواء
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

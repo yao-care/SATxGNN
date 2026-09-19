@@ -29,69 +29,70 @@ indication_count: 10
 
 </div>
 
-# Bacampicillin: From Bacterial Infections to Epiglottitis
+# باكامبيسيللين: من العدوى البكتيرية إلى التهاب لسان المزمار
 
-## One-Sentence Summary
+## ملخص السطر الواحد
 
-Bacampicillin is an oral prodrug of ampicillin — a beta-lactam antibiotic used to treat susceptible bacterial infections — that rapidly releases ampicillin upon absorption. The TxGNN model predicts it may be effective for **Epiglottitis** with a prediction score of **99.92%**; however, currently **no clinical trials and no published literature** directly support this specific repurposing direction.
+باكامبيسيللين هو عقار مقدماتي فموي للأمبيسيللين — وهو مضاد حيوي من فئة بيتا لاكتام يُستخدم لعلاج العدوى البكتيرية الحساسة — يحرر الأمبيسيللين بسرعة عند امتصاصه. يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **التهاب لسان المزمار** بدرجة تنبؤ تبلغ **99.92%**؛ ومع ذلك، حالياً **لا توجد تجارب سريرية ولا أدبيات منشورة** تدعم بشكل مباشر هذا الاتجاه المحدد لإعادة استخدام العقار.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Bacterial infections (via ampicillin prodrug mechanism) |
-| Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | العدوى البكتيرية (عبر آلية العقار المقدماتي للأمبيسيللين) |
+| المؤشر الجديد المتنبأ به | التهاب لسان المزمار |
+| درجة التنبؤ من نموذج TxGNN | 99.92% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معروض في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا تكون هذه التنبؤات معقولة؟
 
-Currently, detailed mechanism of action data is not available for bacampicillin in this dataset. Based on known pharmacological information, bacampicillin is an ester prodrug of ampicillin — after oral administration, it is rapidly hydrolyzed in the gastrointestinal wall to release free ampicillin, which then exerts antibacterial activity by inhibiting bacterial cell wall synthesis through binding to penicillin-binding proteins (PBPs). This mechanism is shared across the beta-lactam class.
+حالياً، لا تتوفر بيانات آلية العمل المفصلة لباكامبيسيللين في مجموعة البيانات هذه. بناءً على المعلومات الصيدلانية المعروفة، باكامبيسيللين هو عقار مقدماتي إستر للأمبيسيللين — بعد الإعطاء الفموي، يتم تحليله بسرعة في جدار المعدة والأمعاء لتحرير الأمبيسيللين الحر، الذي يمارس بعد ذلك نشاطاً مضاداً للبكتيريا عن طريق منع تخليق جدار الخلية البكتيرية من خلال الارتباط ببروتينات الارتباط بالبنسلين (PBPs). تُشاع هذه الآلية عبر فئة بيتا لاكتام.
 
-Epiglottitis is an acute, potentially life-threatening infection of the epiglottis, most commonly caused by *Haemophilus influenzae* type b (Hib), Group A *Streptococcus*, and *Staphylococcus aureus*. Ampicillin is recognized as one of the standard treatment agents for Hib-associated epiglottitis, making the mechanistic bridge between bacampicillin and this indication biologically coherent — the drug simply delivers ampicillin to achieve the intended antibacterial effect. The TxGNN high score (0.9992) likely reflects this established knowledge-graph connection between the ampicillin class and Hib-related upper airway infections.
+التهاب لسان المزمار هو عدوى حادة وقد تهدد الحياة للسان المزمار، تسببها في أغلب الأحيان *Haemophilus influenzae* من النوع b (Hib)، والمكورات العقدية من المجموعة A *Streptococcus*، و*Staphylococcus aureus*. يُعترف بالأمبيسيللين كأحد العوامل العلاجية القياسية لالتهاب لسان المزمار المرتبط بـ Hib، مما يجعل الجسر الآلي بين باكامبيسيللين وهذا المؤشر متسقاً بيولوجياً — العقار ببساطة يوصل الأمبيسيللين لتحقيق التأثير المضاد للبكتيريا المقصود. من المرجح أن تعكس درجة TxGNN العالية (0.9992) هذا الاتصال المُثبت في رسم المعرفة بين فئة الأمبيسيللين والعدوى المرتبطة بـ Hib في المسالك الهوائية العليا.
 
-An important practical caveat must be noted: epiglottitis is a medical emergency requiring airway management, and the clinical standard of care favors intravenous antibiotics (e.g., ceftriaxone, ampicillin-sulbactam). Bacampicillin is an oral formulation. Any legitimate role would be limited to post-acute step-down therapy, significantly narrowing the repurposing opportunity compared to what the TxGNN score might suggest.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يجب الإشارة إلى تحفظ عملي مهم: التهاب لسان المزمار هو حالة طوارئ طبية تتطلب إدارة المسالك الهوائية، والمعيار السريري للعناية يفضل المضادات الحيوية عن طريق الوريد (مثل السيفتريازون وأمبيسيللين-سلبكتام). باكامبيسيللين هو صيغة فموية. أي دور مشروع سيكون محصوراً في العلاج المرحلي بعد الحالة الحادة، مما يضيق بشكل كبير من فرصة إعادة الاستخدام مقارنة بما قد تشير إليه درجة TxGNN.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+حالياً لا تتوفر أدبيات ذات صلة.
 
-**Rationale:**
-Bacampicillin's mechanism as an ampicillin prodrug provides genuine biological plausibility for epiglottitis (ampicillin is a recognized Hib treatment), but the evidence base is entirely model-driven (L5 — no clinical trials, no published literature). Furthermore, the oral route of administration is fundamentally mismatched with acute epiglottitis management, which requires IV antibiotics and immediate airway monitoring.
+---
 
-**To proceed, the following is needed:**
-- Clarify clinical role scope: determine whether an oral beta-lactam has any place as step-down therapy in post-acute epiglottitis before pursuing formal study
-- Obtain mechanism of action data (MOA) from DrugBank (DG002 — currently a data gap)
-- Obtain package insert warnings, contraindications, and drug interaction data (DG001 — currently blocking S1 safety evaluation)
-- Identify at least one case report or retrospective cohort demonstrating bacampicillin (or oral ampicillin) use in upper respiratory bacterial infections as a prerequisite for escalating to hypothesis-driven research
-- Assess regulatory pathway for Saudi Arabia market entry, given zero current authorization status
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+آلية عمل باكامبيسيللين كعقار مقدماتي للأمبيسيللين توفر معقولية بيولوجية حقيقية لالتهاب لسان المزمار (الأمبيسيللين هو علاج معترف به لـ Hib)، لكن أساس الدليل يعتمد بالكامل على النموذج (L5 — لا توجد تجارب سريرية، لا أدبيات منشورة). علاوة على ذلك، طريق الإعطاء الفموي غير متوافق بشكل أساسي مع إدارة التهاب لسان المزمار الحاد، الذي يتطلب مضادات حيوية عن طريق الوريد ومراقبة فورية للمسالك الهوائية.
+
+**للمتابعة، يلزم ما يلي:**
+- توضيح نطاق الدور السريري: تحديد ما إذا كان لمضاد حيوي بيتا لاكتام فموي أي مكان كعلاج مرحلي في فترة ما بعد الحالة الحادة من التهاب لسان المزمار قبل متابعة الدراسة الرسمية
+- الحصول على بيانات آلية العمل (MOA) من DrugBank (DG002 — فجوة بيانات حالياً)
+- الحصول على تحذيرات نشرة المنتج والموانع والمضادات وبيانات التفاعلات الدوائية (DG001 — تحجب حالياً تقييم السلامة S1)
+- تحديد تقرير حالة واحد على الأقل أو مجموعة دراسية بأثر رجعي تُظهر استخدام باكامبيسيللين (أو أمبيسيللين فموي) في العدوى البكتيرية في المسالك التنفسية العليا كشرط أساسي للتصعيد إلى البحث الموجه بفرضيات
+- تقييم مسار التنظيم لدخول سوق المملكة العربية السعودية، نظراً لعدم وجود أي حالة تفويض حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

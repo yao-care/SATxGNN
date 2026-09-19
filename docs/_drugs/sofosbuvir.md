@@ -29,96 +29,97 @@ indication_count: 8
 
 </div>
 
-# Sofosbuvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# سوفوسبوفير: من عدوى فيروس الكبد الفيروسي C إلى عدوى فيروس الكبد الفيروسي B
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Sofosbuvir (DrugBank DB08934) is an NS5B RNA-dependent RNA polymerase (RdRp) inhibitor originally developed and marketed for chronic hepatitis C virus (HCV) infection. The TxGNN model's top prediction for this compound is **Hepatitis B Virus Infection**, drawing on **50 clinical trial records and 19 publications** retrieved for this pairing — but on closer reading, the strongest and most consistent signal in that evidence is not therapeutic benefit, it is **HBV reactivation as an adverse event** during HCV treatment, which points the opposite direction from the predicted indication.
+سوفوسبوفير (DrugBank DB08934) هو مثبط NS5B المعتمد على الحمض النووي الريبوسي (RdRp) تم تطويره أصلاً وتسويقه لعدوى فيروس الكبد الفيروسي C المزمنة (HCV). التنبؤ الأفضل من نموذج TxGNN لهذا المركب هو **عدوى فيروس الكبد الفيروسي B**، استناداً إلى **50 سجل تجربة سريرية و 19 منشوراً** تم استرجاعها لهذا الجمع — لكن عند القراءة الأقرب، الإشارة الأقوى والأكثر اتساقاً في تلك الأدلة ليست الفائدة العلاجية، بل **تنشيط فيروس الكبد الفيروسي B كحدث سلبي** أثناء علاج HCV، وهو ما يشير إلى الاتجاه المعاكس للدلالة المتنبأ بها.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Chronic Hepatitis C Virus (HCV) infection |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | عدوى فيروس الكبد الفيروسي C المزمنة (HCV) |
+| الدلالة الجديدة المتنبأ بها | عدوى فيروس الكبد الفيروسي B |
+| درجة التنبؤ من TxGNN | 99.77% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Formal DrugBank mechanism-of-action data was not returned for this compound (data gap, severity: High). Based on the pharmacological information present throughout the evidence pack itself, sofosbuvir is a nucleotide analogue prodrug that is metabolized intracellularly to its active triphosphate and inhibits the HCV NS5B RNA-dependent RNA polymerase (RdRp), terminating viral RNA chain synthesis. This mechanism is well validated for HCV, a positive-strand ssRNA virus that depends on RdRp for genome replication.
+لم يتم إرجاع بيانات آلية العمل الرسمية من DrugBank لهذا المركب (فجوة البيانات، الخطورة: مرتفعة). بناءً على المعلومات الدوائية الموجودة في جميع أنحاء مجموعة الأدلة نفسها، سوفوسبوفير هو دواء مسبق نوكليوتيد يتم استقلابه داخل الخلايا إلى الشكل الثلاثي الفوسفات النشط ويثبط RdRp NS5B الخاص بـ HCV، مما ينهي تخليق سلسلة الحمض النووي الريبوسي الفيروسي. آلية العمل هذه مثبتة جيداً لـ HCV، وهو فيروس ssRNA موجب الاتجاه يعتمد على RdRp لنسخ الجينوم.
 
-Hepatitis B virus, however, is a partially double-stranded DNA virus that replicates via an RNA intermediate using a viral reverse transcriptase, not an RdRp. Sofosbuvir's validated target is therefore not directly present in the HBV replication cycle, which weakens the mechanistic rationale for repurposing relative to other TxGNN candidates in this evidence pack (e.g., HEV, which — like HCV — is a (+)ssRNA RdRp-dependent virus and shows better mechanistic alignment).
+فيروس الكبد الفيروسي B، مع ذلك، هو فيروس DNA مزدوج الخيط جزئياً يتضاعف عن طريق وسيط RNA باستخدام نسخة عكسية فيروسية، وليس RdRp. الهدف المثبت من سوفوسبوفير غير موجود مباشرة في دورة تضاعف HBV، مما يضعف المنطق الآلي للاستخدام الجديد مقارنة بالمرشحين الآخرين لـ TxGNN في مجموعة الأدلة هذه (على سبيل المثال، HEV، الذي — مثل HCV — هو فيروس RdRp معتمد على (+)ssRNA ويظهر محاذاة آلية أفضل).
 
-The evidence base for this specific ranking is dominated by studies of **HCV/HBV-coinfected patients receiving sofosbuvir for their HCV infection**, in which HBV virological activity was monitored as a secondary safety outcome rather than a treatment target. Several of these reports describe HBV reactivation following sofosbuvir-based DAA therapy — a safety signal, not an efficacy signal. The one genuine efficacy hypothesis in this evidence set (a modest HBsAg decline observed in coinfected patients, explored prospectively in a small HBV-monoinfection pilot study) is real but very preliminary (n=21).
+تهيمن مجموعة الأدلة لهذا المرشح المحدد للاستخدام الجديد على دراسات **مرضى HCV/HBV المصابين بعدوى مزدوجة يتلقون سوفوسبوفير لعدوى HCV**، حيث تم مراقبة نشاط فيروس الكبد الفيروسي B الفيروسي كنتيجة ثانوية للسلامة وليس كهدف علاجي. تصف عدة من هذه التقارير تنشيط فيروس الكبد الفيروسي B بعد العلاج بمضادات الفيروسات المباشرة القائمة على سوفوسبوفير — إشارة أمان وليست إشارة فعالية. الفرضية الوحيدة للفعالية الحقيقية في مجموعة الأدلة هذه (انخفاض متواضع في HBsAg لوحظ في المرضى المصابين بعدوى مزدوجة، تم استكشافه بشكل استكشافي في دراسة تجريبية صغيرة لعدوى HBV وحيدة) حقيقي لكن أولي جداً (n=21).
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Open-label pilot in HBV-monoinfected subjects testing whether ledipasvir/sofosbuvir (12 weeks) reduces HBsAg and HBV DNA, based on a retrospective signal of modest HBsAg decline seen in HBV/HCV-coinfected patients previously treated for HCV. |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Completed | 111 | Evaluated antiviral efficacy and safety of ledipasvir/sofosbuvir in Taiwanese patients with genotype 1/2 HCV and HBV coinfection; primary endpoint was HCV clearance, HBV status monitored as safety outcome. |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Prospective study of incidence, morbidity, mortality and predisposing factors for HBV reactivation during direct-acting antiviral treatment of HCV in HCV/HBV coinfected patients — a safety/reactivation study, not an HBV efficacy trial. |
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | اكتملت | 21 | دراسة تجريبية مفتوحة التسمية في المواضيع المصابة بـ HBV وحيدة تختبر ما إذا كان ledipasvir/sofosbuvir (12 أسبوعاً) يقلل من HBsAg و HBV DNA، استناداً إلى إشارة رجعية لانخفاض متواضع في HBsAg شوهد سابقاً في المرضى المصابين بعدوى HBV/HCV المزدوجة الذين تم علاجهم من أجل HCV. |
+| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | اكتملت | 111 | قيّمت الفعالية المضادة للفيروسات والسلامة من ledipasvir/sofosbuvir في المرضى التايوانيين المصابين بـ HCV من النوع 1/2 والعدوى المزدوجة بـ HBV؛ كان الهدف الأساسي هو التطهر من HCV، وتم مراقبة حالة HBV كنتيجة أمان. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | اكتملت | 23 | دراسة استكشافية لحدوث التنشيط المرضي والوفيات والعوامل المهيئة لتنشيط فيروس الكبد الفيروسي B أثناء علاج الفيروسات المضادة للفيروسات المباشرة لـ HCV في المرضى المصابين بعدوى HCV/HBV المزدوجة — دراسة أمان/تنشيط وليست تجربة فعالية HBV. |
 
-*Note: The remaining trials returned for this query (mostly HCV monoinfection genotype/regimen studies) were graded low relevance (TxGNN co-occurrence artifacts) and are excluded from this table.*
+*ملاحظة: التجارب المتبقية المرجعة لهذا الاستعلام (في الغالب دراسات HCV وحيدة النوع/النظام) تم تصنيفها بأهمية منخفضة (صنعها TxGNN المشترك) وتم استبعادها من هذا الجدول.*
 
 ---
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | RCT (Phase 2) | Journal of Medical Virology | Open-label pilot of ledipasvir/sofosbuvir (12 weeks) in HBV-monoinfected subjects; primary/secondary endpoints were decline in HBsAg and HBV DNA at Week 12 — the main prospective efficacy evidence for this indication. |
-| [31722032](https://pubmed.ncbi.nlm.nih.gov/31722032/) | 2020 | Cohort | Trans. R. Soc. Trop. Med. Hyg. | Sofosbuvir/daclatasvir-based therapy in chronic HCV and HCV/HBV-coinfected patients in Egypt; describes generic DAA efficacy and safety in the coinfected subgroup. |
-| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | Case report (safety signal) | Medicine | HBV reactivation following successful HCV treatment with sofosbuvir and ribavirin — reported as a rare but clinically significant adverse event. |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort/case series | Journal of Clinical Gastroenterology | Examined risk of HBV reactivation among patients treated with ledipasvir-sofosbuvir for HCV in actively infected or previously exposed individuals. |
-| [31632097](https://pubmed.ncbi.nlm.nih.gov/31632097/) | 2019 | Cohort | Infection and Drug Resistance | Management of HBV reactivation post-DAA treatment of HCV in HCV/HBV coinfected patients with pretreatment HBeAg seroconversion. |
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | Journal of Medical Case Reports | HBV reactivation sustained by an HBsAg immune-escape mutant in an anti-HBc-positive patient during sofosbuvir/velpatasvir treatment for HCV. |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Cohort | Journal of Viral Hepatitis | Prospective observational study of HBV reactivation in cancer patients receiving DAAs (including sofosbuvir-based regimens) for HCV, in HBV/HCV coinfection. |
-| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | Review (ADR surveillance) | Hospital Pharmacy | Includes a reported case of hepatitis B reactivation associated with HCV treatment using simeprevir and sofosbuvir. |
-| [37517414](https://pubmed.ncbi.nlm.nih.gov/37517414/) | 2023 | Modelling study | Lancet Gastroenterology & Hepatology | Global prevalence, care cascade, and prophylaxis coverage of HBV — background epidemiological context, not drug-specific. |
-| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Review | Journal of Hepatology | Reviews HCV treatment scale-up (2014–2023) and draws applicable lessons for the rollout of future HBV and HDV therapies. |
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | RCT (Phase 2) | Journal of Medical Virology | دراسة تجريبية مفتوحة التسمية من ledipasvir/sofosbuvir (12 أسبوعاً) في المواضيع المصابة بـ HBV وحيدة؛ كانت النقاط النهائية الأساسية والثانوية هي انخفاض HBsAg و HBV DNA في الأسبوع 12 — أقوى أدلة الفعالية الاستكشافية لهذه الدلالة. |
+| [31722032](https://pubmed.ncbi.nlm.nih.gov/31722032/) | 2020 | Cohort | Trans. R. Soc. Trop. Med. Hyg. | العلاج القائم على sofosbuvir/daclatasvir في المرضى المصابين بـ HCV المزمن والعدوى المزدوجة HCV/HBV في مصر؛ يصف فعالية وسلامة DAA في المجموعة الفرعية المصابة بالعدوى المزدوجة. |
+| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | Case report (safety signal) | Medicine | تنشيط فيروس الكبد الفيروسي B بعد العلاج الناجح لـ HCV بـ sofosbuvir والريبافيرين — تم الإبلاغ عنه كحدث سلبي نادر لكن سريرياً مهماً. |
+| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort/case series | Journal of Clinical Gastroenterology | فحص مخاطر تنشيط فيروس الكبد الفيروسي B بين المرضى الذين تم علاجهم بـ ledipasvir-sofosbuvir لـ HCV في الأفراد المصابين بعدوى نشطة أو المعرضين سابقاً. |
+| [31632097](https://pubmed.ncbi.nlm.nih.gov/31632097/) | 2019 | Cohort | Infection and Drug Resistance | إدارة تنشيط فيروس الكبد الفيروسي B بعد علاج DAA لـ HCV في المرضى المصابين بعدوى HCV/HBV المزدوجة مع تحول HBeAg السلبي قبل العلاج. |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | Journal of Medical Case Reports | تنشيط فيروس الكبد الفيروسي B الذي يستمر بسبب طفرة هروب HBsAg مناعي في مريض إيجابي الأجسام المضادة للـ HBc أثناء علاج sofosbuvir/velpatasvir لـ HCV. |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Cohort | Journal of Viral Hepatitis | دراسة رصدية استكشافية لتنشيط فيروس الكبد الفيروسي B في مرضى السرطان الذين يتلقون DAAs (بما في ذلك الأنظمة القائمة على sofosbuvir) لـ HCV، في عدوى HBV/HCV. |
+| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | Review (ADR surveillance) | Hospital Pharmacy | يتضمن حالة موثقة لتنشيط التهاب الكبد B المرتبطة بـ علاج HCV باستخدام simeprevir و sofosbuvir. |
+| [37517414](https://pubmed.ncbi.nlm.nih.gov/37517414/) | 2023 | Modelling study | Lancet Gastroenterology & Hepatology | الانتشار العالمي ومسار الرعاية وتغطية الوقاية من فيروس الكبد الفيروسي B — السياق الوبائي الخلفي وليس محدد الدواء. |
+| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Review | Journal of Hepatology | يراجع توسع نطاق علاج HCV (2014–2023) ويستخلص الدروس الجديرة بالتطبيق لنشر العلاجات المستقبلية لـ HBV و HDV. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Sofosbuvir currently has **no marketing authorization on record** for this market (market status: Not Marketed; 0 authorizations). No product license data is available to summarize in table form.
-
----
-
-## Safety Considerations
-
-No formal package-insert warnings, contraindications, or drug-interaction records were returned for this compound in the safety database (query status: not found).
-
-However, the evidence review for this specific repurposing candidate surfaced a recurring **safety signal not captured in the formal safety fields**: multiple case reports and cohort studies describe **HBV reactivation** in HBV/HCV-coinfected patients during or after sofosbuvir-based direct-acting antiviral therapy for HCV (PMIDs 33031326, 29334502, 31632097, 31542053, 33523503, 27621502). This is a clinically important consideration specifically *because* it runs counter to the predicted new indication, and should be treated as a screening/monitoring flag — not a therapeutic rationale — for any HBV-related use of this drug.
-
-For all other safety information, please refer to the package insert.
+سوفوسبوفير لا يملك حالياً **أي ترخيص تسويق مسجل** في هذا السوق (حالة السوق: غير مسوق؛ 0 ترخيص). لا توجد بيانات ترخيص المنتج المتاحة لتلخيصها في شكل جدول.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+لم يتم إرجاع تحذيرات رسمية من ملصق العبوة أو موانع استخدام أو سجلات تفاعلات الأدوية لهذا المركب في قاعدة بيانات السلامة (حالة الاستعلام: لم يتم العثور عليها).
 
-**Rationale:**
-The mechanistic basis is weak — sofosbuvir's validated target (HCV RdRp) is not the primary replication enzyme of HBV (reverse transcriptase) — and the bulk of the retrieved evidence describes HBV reactivation as an *adverse* event during HCV treatment rather than therapeutic effect on HBV. The one direct efficacy signal (a Phase 2 pilot, n=21, testing HBsAg/HBV DNA decline) is real but far too small and preliminary to support advancement, consistent with the assigned evidence level (L3) and decision stage (S1).
+مع ذلك، كشف الاستعراض الدليلي لهذا المرشح المحدد للاستخدام الجديد عن **إشارة أمان متكررة لم يتم التقاطها في الحقول الرسمية للسلامة**: تصف حالات متعددة وسلاسل حالات التنشيط **فيروس الكبد الفيروسي B** في المرضى المصابين بعدوى HBV/HCV المزدوجة أثناء أو بعد العلاج بـ العلاجات المضادة للفيروسات المباشرة القائمة على sofosbuvir لـ HCV (PMIDs 33031326, 29334502, 31632097, 31542053, 33523503, 27621502). هذه إشارة سريرية مهمة وخاصة *لأنها* تعاكس الدلالة الجديدة المتنبأ بها، وينبغي أن تعامل كعلم فحص/مراقبة — لا علاج — لأي استخدام متعلق بـ HBV لهذا الدواء.
 
-**To proceed, the following is needed:**
-- Full published results of NCT03312023 (currently only pilot-level data via PMID 36045503)
-- A dedicated, adequately powered RCT in HBV-monoinfected patients to confirm or refute the HBsAg-reduction signal
-- Formal DrugBank/TFDA mechanism-of-action and package-insert data (currently blocking gaps DG001/DG002)
-- A structured pharmacovigilance review specifically weighing the HBV reactivation signal against any purported antiviral benefit before any S1 safety review proceeds
-- Confirmation of local (Saudi Arabia) regulatory and market status, given the drug is currently unmarketed with zero authorizations on file
+للحصول على جميع معلومات السلامة الأخرى، يرجى الرجوع إلى ملصق العبوة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+المنطق الآلي ضعيف — الهدف المثبت من سوفوسبوفير (HCV RdRp) لا يشكل الإنزيم الأساسي لنسخ HBV (النسخة العكسية) — والجزء الأكبر من الأدلة المسترجعة يصف تنشيط فيروس الكبد الفيروسي B كحدث *سلبي* أثناء علاج HCV وليس التأثير العلاجي على HBV. الإشارة المباشرة الوحيدة للفعالية (دراسة تجريبية Phase 2، n=21، تختبر انخفاض HBsAg/HBV DNA) حقيقية لكن أولية جداً وصغيرة جداً لدعم التقدم، متسقة مع مستوى الدليل المعين (L3) ومرحلة القرار (S1).
+
+**للمتابعة، يلزم ما يلي:**
+- النتائج المنشورة الكاملة لـ NCT03312023 (حالياً فقط بيانات مستوى تجريبي عبر PMID 36045503)
+- تجربة عشوائية محكومة مخصصة وكافية الحجم في المرضى المصابين بـ HBV وحيد لتأكيد أو دحض إشارة انخفاض HBsAg
+- بيانات DrugBank/TFDA الرسمية لآلية العمل وملصق العبوة (حالياً حظر الفجوات DG001/DG002)
+- استعراض يقظة دوائية منظم بشكل خاص لموازنة إشارة تنشيط فيروس الكبد الفيروسي B ضد أي فائدة مضادة للفيروسات مزعومة قبل أي استعراض أمان S1 ينطلق
+- تأكيد الحالة التنظيمية والسوقية المحلية (المملكة العربية السعودية)، نظراً لأن الدواء غير مسوق حالياً مع عدم وجود ترخيص على الملف
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

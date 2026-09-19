@@ -29,77 +29,78 @@ indication_count: 1
 
 </div>
 
-# Sulfamethoxazole: From Bacterial Infections to Acute Contagious Conjunctivitis
+# سلفاميثوكسازول: من العدوى البكتيرية إلى التهاب الملتحمة المعدي الحاد
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Sulfamethoxazole is a sulfonamide antibacterial, traditionally used to treat susceptible bacterial infections. The TxGNN model predicts it may be effective for **Acute Contagious Conjunctivitis**, but this direction is currently supported by only **1 publication** and **0 clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Bacterial infections (general sulfonamide antibacterial use; not currently licensed in Saudi Arabia) |
-| Predicted New Indication | Acute Contagious Conjunctivitis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سلفاميثوكسازول هو مضاد بكتيري من فئة السلفوناميدات، يُستخدم تقليديًا لعلاج العدوى البكتيرية القابلة للحساسية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في علاج **التهاب الملتحمة المعدي الحاد**، لكن هذا الاتجاه مدعوم حاليًا بـ **منشور واحد فقط** و **لا توجد تجارب سريرية**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for sulfamethoxazole is not available in this evidence pack. Based on known pharmacology, sulfamethoxazole is a sulfonamide antibiotic that inhibits dihydropteroate synthase, blocking the bacterial folate synthesis pathway and producing a bacteriostatic effect.
-
-Acute contagious conjunctivitis is frequently caused by pathogens such as *Haemophilus influenzae*, *Streptococcus pneumoniae*, and *Staphylococcus* spp., some of which remain susceptible to sulfonamides in certain populations. Mechanistically, this represents an extension of sulfamethoxazole's established antibacterial spectrum rather than a novel repurposing hypothesis.
-
-However, the only supporting literature is a bacteriology/antibiotic-susceptibility surveillance study — it does not directly test sulfamethoxazole's clinical efficacy against conjunctivitis. The prediction should be treated as a plausible but largely unvalidated mechanistic extrapolation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | العدوى البكتيرية (الاستخدام العام لمضادات السلفوناميدات البكتيرية؛ غير مرخص حاليًا في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | التهاب الملتحمة المعدي الحاد |
+| درجة التنبؤ بنموذج TxGNN | 99.63% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | Cross-sectional/Surveillance | Medical Hypothesis, Discovery & Innovation Ophthalmology Journal | Retrospective bacteriology and antimicrobial susceptibility survey of childhood acute bacterial conjunctivitis in Western Greece; characterizes pathogen susceptibility patterns but does not directly test sulfamethoxazole treatment efficacy. |
+حاليًا، بيانات آلية العمل التفصيلية لسلفاميثوكسازول غير متاحة في هذه مجموعة الأدلة. بناءً على علم الأدوية المعروف، سلفاميثوكسازول هو مضاد حيوي من فئة السلفوناميدات يثبط dihydropteroate synthase، مما يحجب مسار تخليق الفولات البكتيري وينتج عنه تأثير مثبط للنمو البكتيري.
 
----
+التهاب الملتحمة المعدي الحاد يُسبب بشكل متكرر من قبل مسببات مثل *Haemophilus influenzae* و *Streptococcus pneumoniae* و *Staphylococcus* spp.، بعضها لا يزال حساساً للسلفوناميدات في مجموعات سكانية معينة. من ناحية آلية العمل، هذا يمثل امتداداً للطيف البكتيري المعروف لسلفاميثوكسازول وليس فرضية إعادة توظيف جديدة.
 
-## Saudi Arabia Market Information
-
-Sulfamethoxazole is currently not marketed in Saudi Arabia; no authorization records are available.
+ومع ذلك، فإن الأدبيات الداعمة الوحيدة هي دراسة مراقبة بكتيريولوجية واختبار حساسية المضادات الحيوية — فهي لا تختبر بشكل مباشر الفعالية السريرية لسلفاميثوكسازول ضد التهاب الملتحمة. يجب التعامل مع التنبؤ على أنه استقراء ميكانيكي معقول لكن غير مُتحقق بشكل كبير.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|--------|
+| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | دراسة مقطعية/مراقبة | Medical Hypothesis, Discovery & Innovation Ophthalmology Journal | دراسة استرجاعية للبكتيريولوجيا والحساسية للمضادات الحيوية في التهاب الملتحمة البكتيري الحاد لدى الأطفال في غرب اليونان؛ توصف أنماط حساسية مسببات الأمراض لكن لا تختبر بشكل مباشر فعالية سلفاميثوكسازول. |
 
-**Rationale:**
-Evidence is currently insufficient to support progression — there are no clinical trials and only one indirectly relevant surveillance-type publication (decision stage S0), and a blocking data gap prevents even initial safety screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (Blocking data gap — required before initial safety assessment)
-- Confirmed mechanism of action data via DrugBank (High-priority gap affecting mechanistic-link analysis)
-- Direct clinical or preclinical evidence testing sulfamethoxazole efficacy in acute contagious conjunctivitis
-- Drug-drug interaction (DDI) data, currently not found
-- Saudi Arabia market/licensing status confirmation if commercial availability is pursued
+## معلومات سوق المملكة العربية السعودية
+
+سلفاميثوكسازول غير مسوّق حاليًا في المملكة العربية السعودية؛ لا توجد سجلات تصريح متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة معلومات الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+الدليل غير كافٍ حاليًا لدعم التطور — لا توجد تجارب سريرية ومنشور واحد فقط غير مباشر من نوع المراقبة (مرحلة القرار S0)، وفجوة بيانات حاجزة تمنع حتى الفحص الأولي للسلامة.
+
+**للمتابعة، يلزم الآتي:**
+- تحذيرات نشرة معلومات TFDA/SFDA والموانع (فجوة بيانات حاجزة — مطلوبة قبل تقييم السلامة الأولي)
+- تأكيد بيانات آلية العمل عبر DrugBank (فجوة ذات أولوية عالية تؤثر على تحليل الربط الميكانيكي)
+- دليل سريري أو قبل سريري مباشر يختبر فعالية سلفاميثوكسازول في التهاب الملتحمة المعدي الحاد
+- بيانات التفاعل بين الأدوية (DDI)، غير موجودة حاليًا
+- تأكيد حالة السوق والترخيص في المملكة العربية السعودية إذا تم السعي لتحقيق توفر تجاري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

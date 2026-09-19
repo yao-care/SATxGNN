@@ -29,97 +29,98 @@ indication_count: 1
 
 </div>
 
-# Beclomethasone Dipropionate: From Asthma / Allergic Rhinitis to Atopic Eczema
+# ديبروبيونات بيكلوميثازون: من الربو والتهاب الأنف التحسسي إلى الأكزيما التأتبية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Beclomethasone dipropionate (BDP) is a potent synthetic corticosteroid widely established for the treatment of asthma (inhaled) and allergic rhinitis (nasal spray), and used topically for inflammatory skin conditions.
-The TxGNN model predicts it may be effective for **Atopic Eczema**, with a prediction score of **99.41%**, currently supported by **1 RCT** and **18 publications** in the literature.
-While no formal SFDA registration exists in Saudi Arabia, mechanistic alignment is strong and early clinical evidence is promising.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Asthma (inhaled), Allergic Rhinitis (intranasal), Inflammatory skin conditions (topical) |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+ديبروبيونات بيكلوميثازون (BDP) هو كورتيكوستيرويد اصطناعي فعال راسخ التطبيق في علاج الربو (استنشاقي) والتهاب الأنف التحسسي (بخاخ أنفي)، ويُستخدم موضعياً لعلاج الحالات الجلدية الالتهابية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الأكزيما التأتبية**، بنسبة تنبؤ قدرها **99.41%**، يدعمها حالياً **1 تجربة عشوائية محكومة** و**18 منشور** في الأدبيات الطبية.
+بينما لا توجد موافقة SFDA رسمية في المملكة العربية السعودية، إلا أن التوافق الآلي قوي والأدلة السريرية المبكرة واعدة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Beclomethasone dipropionate is a synthetic glucocorticoid receptor (GR) agonist with well-characterised, broad-spectrum anti-inflammatory activity. Its mechanistic fit with atopic eczema is strong and multi-layered: BDP suppresses the Th2 cytokine axis (IL-4, IL-13, IL-31) that drives the core pathology of atopic eczema; downregulates TSLP and IL-33 expression to interrupt the itch–scratch cycle; inhibits mast cell degranulation and eosinophil cutaneous infiltration; blocks phospholipase A2, thereby reducing downstream prostaglandin and leukotriene synthesis; and upregulates filaggrin expression to restore the compromised skin barrier characteristic of atopic eczema.
-
-Atopic eczema and the allergic conditions for which BDP is already established (asthma, rhinitis) share a common Th2-polarised immune background, meaning BDP's anti-inflammatory pharmacology is directly applicable across these disease states. As a topical corticosteroid, BDP is already used clinically in inflammatory dermatoses, and published literature describes its use — both topical and oral — specifically in atopic dermatitis patients, lending practical as well as mechanistic plausibility to the TxGNN prediction.
-
-A randomised controlled trial from 1984 demonstrated that combined oral and nasal BDP produced statistically significant improvement in severe childhood atopic eczema compared to placebo over a four-week crossover period. Subsequent open-label clinical studies confirm that oral BDP achieved stable disease control in the majority of treated children with refractory atopic dermatitis. The prediction is therefore not speculative — it is supported by foundational clinical evidence, albeit ageing and limited in scale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (ClinicalTrials.gov and ICTRP search date: 2026-04-20, 0 results for BDP + atopic eczema).
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | الربو (استنشاقي)، التهاب الأنف التحسسي (أنفي)، الحالات الجلدية الالتهابية (موضعي) |
+| المؤشر الجديد المتنبأ به | الأكزيما التأتبية |
+| نسبة التنبؤ من نموذج TxGNN | 99.41% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات الأمنية |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [6434024](https://pubmed.ncbi.nlm.nih.gov/6434024/) | 1984 | RCT | British Medical Journal | Double-blind, placebo-controlled crossover RCT in 26 children with severe atopic eczema: combined oral + nasal BDP for 4 weeks produced significantly greater improvement than placebo; mild reduction in 24-hour urinary cortisol noted |
-| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | Clinical Study | Acta Derm Venereol Suppl | Oral BDP (mean 1,000 µg/day) in 14 children with severe atopic dermatitis; stable control achieved in 10/14; evidence of linear growth deceleration at maintenance dose warrants monitoring |
-| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | Prospective Study | J Dermatol Treatment | Wet-wrap steroid therapy in 8 prepubertal children with atopic eczema; 2-week intervals measured lower leg length velocity and bone collagen turnover; useful safety benchmark for intensive corticosteroid use |
-| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | Clinical Study | J Allergy Clin Immunol | Topical steroids in atopic dermatitis found to enhance in vitro IgE production; highlights a mechanism of relapse that warrants consideration when designing long-term BDP regimens |
-| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | Review | Jpn J Pharmacology | Comprehensive review of pharmacological agents for allergic diseases; BDP and fluticasone cited as the inhaled glucocorticoids degraded rapidly after systemic absorption, supporting a favourable local-to-systemic safety ratio |
-| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | Formulation / Preclinical | AAPS PharmSciTech | Development and optimisation of BDP-loaded mixed polymeric micelles incorporated into biocompatible hydrogel; validated in a sub-chronic dermatitis animal model; demonstrates active formulation research for dermal BDP delivery |
-| [19874229](https://pubmed.ncbi.nlm.nih.gov/19874229/) | 2009 | Preclinical | Immunopharmacol Immunotoxicol | Mouse ear-edema model comparison of BDP vs. mometasone furoate; mometasone showed superior local anti-inflammatory potency with lower systemic effects (thymolysis, corticosterone suppression) than BDP — relevant to route selection |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Review of intranasal corticosteroids and HPA axis suppression; discusses cumulative adrenal risk in patients co-treated for rhinitis and atopic dermatitis — relevant safety consideration for multi-route BDP use |
-| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Review | Allergy | Survey of corticosteroid contact allergy in asthma patients using inhaled corticosteroids; BDP included; relevant to safety screening in atopic patients who may have sensitisation |
-| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | Clinical Study | Nihon Hifuka Gakkai Zasshi | Comparative systemic effects of topical BDP vs. betamethasone 17-valerate ointment and fluocinonide cream; one of the earliest dermatological pharmacokinetic comparisons for BDP |
+ديبروبيونات بيكلوميثازون هو ناهض مستقبل الجلوكوكورتيكويد (GR) اصطناعي مع نشاط مضاد للالتهاب موثق بشكل جيد وعام. توافقه الآلي مع الأكزيما التأتبية قوي ومتعدد الطبقات: BDP يثبط محور السيتوكين Th2 (IL-4 و IL-13 و IL-31) الذي يعزز الأمراض الأساسية للأكزيما التأتبية؛ ينظم بشكل سلبي تعبير TSLP و IL-33 لمقاطعة دورة الحكة والخدش؛ يثبط تحرر الخلايا البدينة وتسلل الحمضات إلى الجلد؛ يحجب الفسفوليباز A2، وبالتالي يقلل من تخليق البروستاجلاندينات واللوكوترينات في المصب؛ وينظم لأعلى تعبير الفيلاجرين لاستعادة حاجز الجلد المعيب الذي يميز الأكزيما التأتبية.
+
+تشترك الأكزيما التأتبية والحالات التحسسية التي تم تأسيس استخدام BDP فيها بالفعل (الربو والتهاب الأنف) في خلفية مناعية مستقطبة نحو Th2 المشتركة، مما يعني أن الصيدلة الدوائية المضادة للالتهاب في BDP تنطبق بشكل مباشر عبر هذه الحالات المرضية. كعامل كورتيكوستيرويد موضعي، يُستخدم BDP بالفعل سريرياً في الأمراض الجلدية الالتهابية، وتصف الأدبيات المنشورة استخدامه - سواء الموضعي أو الفموي - بشكل خاص في مرضى التهاب الجلد التأتبي، مما يعطي قابلية عملية وكذلك آلية للتنبؤ بـ TxGNN.
+
+أظهرت تجربة عشوائية محكومة من عام 1984 أن BDP عن طريق الفم والأنف المدمج أنتج تحسناً ذا دلالة إحصائية في الأكزيما التأتبية الشديدة عند الأطفال مقارنة بالعلاج الوهمي على مدى فترة تقاطع مدتها أربعة أسابيع. تؤكد الدراسات السريرية المفتوحة اللاحقة أن BDP عن طريق الفم حقق السيطرة على المرض المستقر في غالبية الأطفال المعالجين مع التهاب الجلد التأتبي المقاوم للعلاج. لذلك فإن التنبؤ لا يقتصر على التخمين - بل يدعمه أدلة سريرية أساسية، وإن كانت قديمة ومحدودة في الحجم.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Beclomethasone dipropionate currently has **no SFDA-approved products** in Saudi Arabia (0 authorizations, market status: Not Marketed). There are no registered product entries to display.
-
----
-
-## Safety Considerations
-
-Formal SFDA/TFDA package insert data was not retrieved for this report. Based on the known class profile of inhaled and topical corticosteroids:
-
-- **HPA Axis Suppression**: Dose-dependent adrenal suppression is a recognised risk, particularly with oral or high-dose topical administration in children. Urinary cortisol monitoring was flagged in the 1984 RCT and growth deceleration was documented in the 1992 clinical study.
-- **Growth Effects in Children**: Linear growth deceleration at maintenance oral BDP doses (≥1,000 µg/day) has been observed; knemometry-based monitoring is recommended in paediatric patients.
-- **Local Skin Effects**: Prolonged topical corticosteroid use is associated with skin atrophy, striae, and telangiectasia; wet-wrap therapy amplifies systemic absorption.
-- **Corticosteroid Contact Sensitisation**: Atopic patients may develop delayed hypersensitivity to corticosteroids themselves; patch testing is advisable in non-responders.
-
-Please refer to the full package insert for comprehensive warnings, contraindications, and prescribing information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة (تاريخ البحث في ClinicalTrials.gov و ICTRP: 2026-04-20، 0 نتائج لـ BDP + الأكزيما التأتبية).
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات الطبية
 
-**Decision: Proceed with Guardrails**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|-------|-----------------|
+| [6434024](https://pubmed.ncbi.nlm.nih.gov/6434024/) | 1984 | تجربة عشوائية محكومة | British Medical Journal | تجربة عشوائية محكومة مزدوجة التعمية مع الدواء الوهمي على 26 طفلاً مصاباً بأكزيما تأتبية شديدة: BDP فموي + أنفي مدمج لمدة 4 أسابيع أنتج تحسناً أكبر ذا دلالة إحصائية من الدواء الوهمي؛ انخفاض طفيف في الكورتيزول البولي لمدة 24 ساعة |
+| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | دراسة سريرية | Acta Derm Venereol Suppl | BDP فموي (متوسط 1,000 µg/يوم) في 14 طفلاً مصاباً بالتهاب الجلد التأتبي الشديد؛ تحقق السيطرة المستقرة عند 10/14؛ دليل على تباطؤ النمو الخطي عند جرعة الصيانة يبرر المراقبة |
+| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | دراسة استشرافية | J Dermatol Treatment | علاج الضمادات الرطبة بالستيرويد عند 8 أطفال قبل البلوغ مع أكزيما تأتبية؛ قيست في فترات أسبوعين سرعة نمو الساق السفلى وتحول الكولاجين العظمي؛ معيار سلامة مفيد لاستخدام كورتيكوستيرويد مكثف |
+| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | دراسة سريرية | J Allergy Clin Immunol | وجدت الستيرويدات الموضعية في التهاب الجلد التأتبي أنها تعزز إنتاج IgE في المختبر؛ يسلط الضوء على آلية الانتكاس التي تبرر الاعتبار عند تصميم أنظمة BDP طويلة الأمد |
+| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | مراجعة | Jpn J Pharmacology | مراجعة شاملة للعوامل الدوائية للأمراض التحسسية؛ يُذكر BDP وفلوتيكازون كالكورتيكوستيرويدات المستنشقة التي تتحلل بسرعة بعد الامتصاص الجهازي، مما يدعم نسبة سلامة محلية إلى جهازية مواتية |
+| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | التركيبات / قبل الإكلينيكية | AAPS PharmSciTech | تطوير وتحسين البشرات المتعددة البوليمر المحملة بـ BDP المدمجة في الهيدروجيل المتوافق حيويًا؛ التحقق من الصحة في نموذج التهاب جلد شبه مزمن للحيوان؛ يُظهر أبحاث تركيب نشطة لتسليم BDP عن طريق الجلد |
+| [19874229](https://pubmed.ncbi.nlm.nih.gov/19874229/) | 2009 | قبل الإكلينيكية | Immunopharmacol Immunotoxicol | مقارنة نموذج وذمة أذن الفأر لـ BDP مقابل الموميتازون فيوريت؛ أظهر الموميتازون قوة محلية مضادة للالتهاب أعلى مع تأثيرات جهازية أقل (موت الغدة الصعترية، قمع الكورتيكوستيرون) من BDP - وثيقة الصلة باختيار المسار |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | مراجعة | Neuroimmunomodulation | مراجعة كورتيكوستيرويدات الأنف وقمع محور الوطاء-النخامية-الكظرية؛ تناقش المخاطر الكظرية التراكمية في المرضى المعالجين بشكل مشترك لالتهاب الأنف والتهاب الجلد التأتبي - اعتبار سلامة وثيق الصلة لاستخدام BDP متعدد المسارات |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | مراجعة | Allergy | مسح حساسية الاتصال بالكورتيكوستيرويد في مرضى الربو الذين يستخدمون كورتيكوستيرويدات مستنشقة؛ BDP مدرج؛ وثيق الصلة بغربلة السلامة في المرضى التأتبيين الذين قد يكون لديهم حساسية |
+| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | دراسة سريرية | Nihon Hifuka Gakkai Zasshi | التأثيرات الجهازية المقارنة لـ BDP الموضعي مقابل 17-فاليرات بيتاميثازون وكريم fluocinonide؛ واحدة من أوائل المقارنات الحرائك الدوائية الجلدية لـ BDP |
 
-**Rationale:**
-The mechanistic link between BDP's glucocorticoid receptor agonism and atopic eczema pathophysiology is strong (Grade A mechanistic alignment), and a 1984 placebo-controlled RCT provides proof-of-concept clinical evidence — though this evidence is decades old and based on a small paediatric cohort. The high TxGNN prediction score (99.41%) and an active formulation research pipeline (2019 preclinical study) further support this direction, but the complete absence of modern registered clinical trials and Saudi Arabia market entry represents a significant gap before clinical deployment.
+---
 
-**To proceed, the following is needed:**
+## معلومات السوق في المملكة العربية السعودية
 
-- **Regulatory pathway**: Assessment of import/registration options for BDP topical formulations under SFDA, given current zero-authorization status in Saudi Arabia
-- **Modern clinical evidence**: Search for and commission updated clinical trials or systematic reviews specific to topical BDP in adult atopic eczema — the existing RCT is 40+ years old and paediatric-only
-- **MOA documentation**: Retrieve full DrugBank pharmacology entry (DB00394) to complete mechanistic analysis and support regulatory dossier
-- **Safety dossier**: Download and parse TFDA/SFDA package insert PDF to complete S1 safety screening, particularly warnings, contraindications, and paediatric dosing limits
-- **Route of administration decision**: Clarify target route (topical cream/ointment vs. nasal vs. oral) for the atopic eczema indication, given the systemic risk profile of oral and intensive topical routes
-- **Paediatric safety monitoring plan**: Given the documented growth and adrenal effects, a structured pharmacovigilance plan (CBC, cortisol, growth charts) is required if oral or high-dose topical BDP is considered
+ديبروبيونات بيكلوميثازون حالياً لا يحتوي على **منتجات موافق عليها من SFDA** في المملكة العربية السعودية (0 موافقات، حالة السوق: غير مسوّق). لا توجد إدخالات منتجات مسجلة لعرضها.
+
+---
+
+## اعتبارات السلامة
+
+لم يتم استرجاع بيانات نشرة الحزمة SFDA/TFDA الرسمية لهذا التقرير. بناءً على ملف الفئة المعروف للكورتيكوستيرويدات المستنشقة والموضعية:
+
+- **قمع محور الوطاء-النخامية-الكظرية**: قمع الغدة الكظرية المعتمد على الجرعة هو خطر معترف به، خاصة مع إعطاء فموي أو موضعي عالي الجرعة عند الأطفال. تم تسليط الضوء على مراقبة الكورتيزول البولي في تجربة 1984 وتم توثيق تباطؤ النمو في الدراسة السريرية لعام 1992.
+- **تأثيرات النمو عند الأطفال**: تم ملاحظة تباطؤ النمو الخطي في جرعات BDP الفموية للصيانة (≥1,000 µg/يوم)؛ يُوصى بمراقبة قياس سرعة النمو بدقة في المرضى الأطفال.
+- **التأثيرات الجلدية الموضعية**: يرتبط الاستخدام الطويل للكورتيكوستيرويد الموضعي بضمور الجلد والخطوط البيضاء والتوسع الشعري؛ تُضخم العلاج بالضمادات الرطبة الامتصاص الجهازي.
+- **حساسية الاتصال بالكورتيكوستيرويد**: قد يطور المرضى التأتبيون فرط حساسية متأخر تجاه الكورتيكوستيرويد نفسه؛ يُنصح باختبار الرقعة في غير المستجيبين.
+
+يرجى الرجوع إلى نشرة الحزمة الكاملة للحصول على معلومات شاملة عن التحذيرات والموانع والمعلومات الموصوفة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات الأمنية**
+
+**الأساس المنطقي:**
+الارتباط الآلي بين ناهض مستقبل الجلوكوكورتيكويد في BDP وفيزيولوجيا أمراض الأكزيما التأتبية قوي (توافق آلي من الدرجة أ)، وتجربة عشوائية محكومة من عام 1984 توفر دليل إثبات مفهوم سريري - لكن هذا الدليل قديم جداً (أكثر من 40 سنة) ويستند إلى مجموعة أطفال صغيرة. درجة التنبؤ العالية من نموذج TxGNN (99.41%) وخط بحث صيغة نشط (دراسة قبل إكلينيكية من 2019) يدعمان هذا الاتجاه بشكل إضافي، لكن غياب تجارب سريرية مسجلة حديثة كاملة وعدم دخول السوق في المملكة العربية السعودية يمثل فجوة كبيرة قبل النشر السريري.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **المسار التنظيمي**: تقييم خيارات الاستيراد والتسجيل لتركيبات BDP الموضعية بموجب SFDA، نظراً لحالة الصفر موافقات الحالية في المملكة العربية السعودية
+- **دليل سريري حديث**: البحث عن وتكليف تجارب سريرية أو مراجعات منهجية محدثة خاصة بـ BDP الموضعي في التهاب الجلد التأتبي عند البالغين - تعود التجربة الموجودة إلى 40+ سنة مضت وخاصة بالأطفال فقط
+- **توثيق MOA**: استرجاع إدخال الدوائيات الكامل من DrugBank (DB00394) لإكمال التحليل الآلي ودعم ملف التسجيل التنظيمي
+- **ملف السلامة**: تنزيل وتحليل نشرة حزمة TFDA/SFDA PDF لإكمال فحص السلامة S1، خاصة التحذيرات والموانع وحدود الجرعات عند الأطفال
+- **قرار مسار الإعطاء**: توضيح المسار المستهدف (كريم/مرهم موضعي مقابل أنفي مقابل فموي) للمؤشر الأكزيما التأتبية، نظراً لملف المخاطر الجهازية للمسارات الفموية والموضعية المكثفة
+- **خطة مراقبة السلامة عند الأطفال**: بالنظر إلى التأثيرات الموثقة على النمو ومحور الوطاء-النخامية-الكظرية، يلزم وضع خطة مراقبة آثار جانبية منظمة (عد الدم الكامل، الكورتيزول، مخططات النمو) إذا تم التفكير في BDP فموي أو موضعي بجرعات عالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

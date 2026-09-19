@@ -29,70 +29,71 @@ indication_count: 2
 
 </div>
 
-# Spironolactone: From Diuretic/Antihypertensive Use to Hypotrichosis Simplex of the Scalp
+# Spironolactone: من مدر البول/خافض ضغط الدم إلى نقص الشعر البسيط في فروة الرأس
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Spironolactone is a mineralocorticoid receptor antagonist with well-established use as a potassium-sparing diuretic and antihypertensive agent, though detailed original-indication and mechanism-of-action data are not available in the current evidence pack.
-The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, a hair-thinning disorder, but this prediction is currently supported by **no clinical trials and no published literature**.
+Spironolactone هو مضاد لمستقبلات المعادن القشرية مع استخدام راسخ كمدر بول يحافظ على البوتاسيوم وعامل خافض لضغط الدم، على الرغم من عدم توفر البيانات الأصلية المفصلة عن الاستخدام الأول والآلية المحددة للعمل في مجموعة الأدلة الحالية.
+نموذج TxGNN يتنبأ بأنه قد يكون فعالاً في **نقص الشعر البسيط في فروة الرأس**، وهي اضطراب تساقط شعر، لكن هذا التنبؤ حالياً مدعوم بـ **عدم وجود تجارب سريرية وعدم وجود أدبيات منشورة**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in evidence pack (spironolactone is classically known for edema, hypertension, and primary hyperaldosteronism management) |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستخدام الأصلي | غير موثق في مجموعة الأدلة (spironolactone معروف كلاسيكياً لإدارة الوذمة وارتفاع ضغط الدم وفرط الألدوستيرونية الأولية) |
+| الاستخدام الجديد المتنبأ به | نقص الشعر البسيط في فروة الرأس |
+| درجة التنبؤ من TxGNN | 99.26% |
+| مستوى الأدلة | L5 |
+| حالة السوق في تايوان | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, spironolactone belongs to the mineralocorticoid receptor antagonist (potassium-sparing diuretic) class, and it is also recognized to have antiandrogenic activity — a property that has led to off-label use in androgen-related dermatologic conditions such as acne and female-pattern hair thinning.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في مجموعة الأدلة. بناءً على المعلومات المعروفة، ينتمي spironolactone إلى فئة مضادات مستقبلات المعادن القشرية (مدر البول الذي يحافظ على البوتاسيوم)، وهو معروف أيضاً بأنه يتمتع بنشاط مضاد للأندروجين — وهي خاصية أدت إلى استخدام خارج التسمية في الحالات الجلدية المرتبطة بالأندروجين مثل حب الشباب وتساقط الشعر النمطي عند النساء.
 
-Hypotrichosis simplex of the scalp is a hair-loss disorder that can have an androgen-mediated component in some presentations. Spironolactone's antiandrogenic activity offers a plausible mechanistic rationale for the TxGNN prediction, and a second, closely related indication (congenital hypotrichosis milia, score 99.04%) was also flagged by the model, which may reflect a consistent underlying signal around hair-follicle/androgen pathways rather than an isolated artifact.
+نقص الشعر البسيط في فروة الرأس هو اضطراب تساقط شعر قد يكون له مكون وسيط الأندروجين في بعض الحالات. النشاط المضاد للأندروجين في spironolactone يوفر أساساً آلياً معقولاً لتنبؤ TxGNN، واستخدام ثانٍ وثيق الصلة (نقص الشعر الخلقي مع الدخن، درجة 99.04%) تم تجنيده أيضاً بواسطة النموذج، والذي قد يعكس إشارة متسقة حول مسارات بصيلة الشعر/الأندروجين بدلاً من عيب معزول.
 
-However, this rationale is inferred from general pharmacological knowledge rather than the drug's documented original indication or MOA, both of which are marked as data gaps (DG001, DG002) in this evidence pack. The mechanistic link should be treated as hypothesis-generating only until confirmed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، هذا المنطق هو استدلالي من المعرفة الصيدلانية العامة بدلاً من الاستخدام الأصلي الموثق للعقار أو آلية العمل، كلاهما يُشار إليه كفجوات البيانات (DG001, DG002) في هذه مجموعة الأدلة. يجب معاملة الرابط الآلي على أنه توليد فرضيات فقط حتى يتم تأكيده.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متوفرة حالياً.
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (L5 evidence) with zero clinical trials or literature for either candidate indication. Additionally, a Blocking data gap exists for TFDA package-insert warnings/contraindications (DG001), which prevents the drug from clearing the S1 safety pre-screen, and the drug is currently not marketed in Taiwan.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (resolve DG001 — Blocking)
-- Documented mechanism of action data (resolve DG002)
-- Confirmed original indication(s) for this drug from a regulatory or DrugBank source
-- Preclinical or observational evidence linking spironolactone's antiandrogenic activity to hypotrichosis simplex of the scalp
-- Drug interaction (DDI) data, currently unresolved (query status: not_found)
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+التنبؤ مدعوم فقط بدرجة نموذج TxGNN (L5 أدلة) مع عدم وجود تجارب سريرية أو أدبيات لأي من المؤشرات المرشحة. بالإضافة إلى ذلك، توجد فجوة بيانات حاجزة بشأن تحذيرات/موانع استخدام ملحق TFDA (DG001)، مما يمنع الدواء من مسح الفحص الأمني المسبق S1، والدواء غير مسوق حالياً في تايوان.
+
+**لكي يتم المضي قدماً، ما يلي ضروري:**
+- تحذيرات/موانع استخدام ملحق TFDA (حل DG001 — حاجز)
+- بيانات آلية العمل الموثقة (حل DG002)
+- استخدام أصلي مؤكد للدواء من مصدر تنظيمي أو DrugBank
+- أدلة قبل سريرية أو ملاحظة تربط النشاط المضاد للأندروجين في spironolactone بنقص الشعر البسيط في فروة الرأس
+- بيانات التفاعل بين الأدوية (DDI)، حالياً غير محلولة (حالة الاستعلام: not_found)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,78 +29,81 @@ indication_count: 5
 
 </div>
 
-# Griseofulvin: From Dermatophyte Infection to Myiasis
+# جريزيوفولفين: من العدوى الفطرية الجلدية إلى داء الذباب الجلدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Griseofulvin is a long-established oral antifungal historically used for dermatophyte (ringworm-type) infections of skin, hair, and nails.
-> The TxGNN model predicts it may be effective for **Myiasis** (a parasitic skin infestation by fly larvae),
-> but this prediction is currently supported by **0 clinical trials** and only **1 loosely related publication**, with no mechanistic or experimental confirmation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Taiwan license/indication records in the evidence pack (see MOA note below) |
-| Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> جريزيوفولفين هو عامل مضاد للفطريات عن طريق الفم معروف منذ فترة طويلة، تم استخدامه تاريخياً لعلاج عدوى فطرية من نوع الديرماتوفيت (داء السعفة) التي تصيب الجلد والشعر والأظافر.
+> يتوقع نموذج TxGNN أنه قد يكون فعالاً لعلاج **داء الذباب الجلدي** (عدوى جلدية طفيلية بسبب يرقات الذباب)،
+> لكن هذا التنبؤ حالياً مدعوم فقط بـ **0 تجارب سريرية** و**منشور واحد فقط ضعيف الصلة**، مع عدم وجود أي تأكيد آلي أو تجريبي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, griseofulvin is an oral antifungal agent that binds fungal microtubule protein and disrupts mitotic spindle formation, inhibiting fungal cell division — its established use is for dermatophyte infections of skin, hair, and nails.
-
-Myiasis, however, is not a fungal disease. It is an entomological condition caused by fly (Diptera) larvae infesting skin or wounds, and griseofulvin has no known insecticidal or larvicidal activity. The only theoretical bridge between the two is that some antiparasitic agents (e.g., benzimidazoles such as albendazole/mebendazole) also act via tubulin binding — but this is a class-level analogy, not evidence specific to griseofulvin itself.
-
-The repurposing rationale supplied with this evidence pack explicitly flags this as a purely model-derived association: there is no experimental or clinical data showing griseofulvin has activity against fly larvae or related parasites (this same caveat applies to the other four predicted indications — creeping myiasis, furuncular myiasis, wound myiasis, and echinococcosis — all of which share the same unsupported mechanistic gap).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح — لا توجد سجلات ترخيص/مؤشر من تايوان في حزمة الأدلة (انظر ملاحظة آلية العمل أدناه) |
+| المؤشر الجديد المتنبأ به | داء الذباب الجلدي |
+| درجة تنبؤ TxGNN | 99.41% |
+| مستوى الأدلة | L5 |
+| حالة سوق تايوان | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | إرجاء |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً، بيانات آلية العمل المفصلة غير متاحة في حزمة الأدلة. بناءً على الصيدلة المعروفة، جريزيوفولفين هو عامل مضاد للفطريات عن طريق الفم يرتبط ببروتين الأنابيب الدقيقة الفطري ويعطل تكوين المغزل الانقسامي، مما يمنع انقسام الخلايا الفطرية — استخدامه المعروف هو لعلاج عدوى الديرماتوفيت في الجلد والشعر والأظافر.
+
+ومع ذلك، داء الذباب الجلدي ليس مرضاً فطرياً. إنها حالة حشرية سببها يرقات الذباب (رتبة Diptera) التي تصيب الجلد أو الجروح، وجريزيوفولفين لا يملك أي نشاط مبيد حشري أو قاتل يرقات معروف.
+
+الجسر النظري الوحيد بين الاثنين هو أن بعض العوامل المضادة للطفيليات (مثل البنزيميدازولات مثل ألبندازول/ميبندازول) تعمل أيضاً عبر ارتباط التوبيولين — لكن هذا هو تشبيه على مستوى الفئة، وليس أدلة خاصة بجريزيوفولفين نفسه.
+
+يوضح الأساس المنطقي لإعادة الاستخدام المرفق بحزمة الأدلة هذه بوضوح أنه ارتباط مشتق من النموذج بحتة: لا توجد بيانات تجريبية أو سريرية تُظهر أن جريزيوفولفين له نشاط ضد يرقات الذباب أو الطفيليات ذات الصلة (ينطبق نفس التحفظ على المؤشرات الأربعة الأخرى المتنبأ بها — داء الذباب الجلدي الزاحف وداء الذباب الجلدي الخراجي وداء الذباب الجلدي الجرحي وداء الإكينوكوكس — وكلها تشترك في نفس الفجوة الآلية غير المدعومة).
+
+---
+
+## أدلة التجارب السريرية
+
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة
+
+---
+
+## أدلة الأدب العلمي
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | Review | The Veterinary Record | General review of parasitic skin diseases in dogs and cats; abstract not available, relevance to griseofulvin-myiasis link not yet assessed |
+| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | مراجعة | The Veterinary Record | مراجعة عامة لأمراض الجلد الطفيلية في الكلاب والقطط؛ الملخص غير متاح، لم يتم تقييم الصلة بين جريزيوفولفين وداء الذباب الجلدي بعد |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Griseofulvin currently has no marketing authorization or license records in Taiwan.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+جريزيوفولفين حالياً ليس لديه تصريح تسويق أو سجلات ترخيص في تايوان.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-Despite a high TxGNN similarity score, none of the top-5 predicted indications (myiasis subtypes and echinococcosis) have any clinical trials or drug-specific literature support, and the proposed mechanistic link relies on a broad tubulin-binding class analogy rather than evidence for griseofulvin itself. The drug is also unmarketed in Taiwan and lacks basic safety documentation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- In vitro/in vivo evidence of griseofulvin activity against myiasis-causing larvae or *Echinococcus granulosus*
-- Dedicated clinical or case-report evidence before any further evaluation stage
+## الاستنتاج والخطوات التالية
+
+**القرار: إرجاء**
+
+**الأساس المنطقي:**
+على الرغم من درجة تشابه TxGNN عالية، لا يوجد لأي من المؤشرات الخمسة الأولى المتنبأ بها (أنواع داء الذباب الجلدي وداء الإكينوكوكس) أي تجارب سريرية أو دعم من الأدب العلمي محدد للدواء، ويعتمد الارتباط الآلي المقترح على تشبيه طبقة ارتباط التوبيولين العريضة بدلاً من الأدلة على جريزيوفولفين نفسه. الدواء أيضاً غير مسوق في تايوان ويفتقر إلى التوثيق الأساسي للسلامة.
+
+**لكي نمضي قدماً، يلزم الآتي:**
+- نشرة منتج هيئة الغذاء والدواء في تايوان/الشركة المصنعة (تحذيرات، موانع الاستخدام) — حالياً يعيق (DG001)
+- بيانات آلية عمل مؤكدة من DrugBank أو الأدب الأولي (DG002)
+- أدلة في المختبر/في الجسم الحي على نشاط جريزيوفولفين ضد يرقات مسببة لداء الذباب الجلدي أو *Echinococcus granulosus*
+- أدلة سريرية مخصصة أو تقارير حالات قبل أي مرحلة تقييم إضافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

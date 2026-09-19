@@ -29,86 +29,87 @@ indication_count: 6
 
 </div>
 
-# Ivabradine: From Sinoatrial Rate Control to Hypertrichosis (Disease)
+# إيفابرادين: من التحكم في معدل العقدة الجيبية إلى فرط الشعر (المرض)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ivabradine (DrugBank DB09083) is a selective If (HCN-channel) inhibitor acting on the sinoatrial node, used clinically for cardiac rate control. The TxGNN model's top prediction proposes potential relevance to **Hypertrichosis (disease)**, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review finds no known biological link between HCN-channel inhibition and hair follicle growth regulation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indications or licenses are recorded in the evidence pack; known mechanism (see below) is sinoatrial rate control |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيفابرادين (DrugBank DB09083) هو مثبط انتقائي لتيار If (قنوات HCN) يعمل على العقدة الجيبية، ويُستخدم سريرياً للتحكم في معدل ضربات القلب. يقترح نموذج TxGNN في توقعاته الأعلى ارتباطاً محتملاً بـ **فرط الشعر (المرض)**، لكن هذه الإشارة مدعومة حالياً بـ **0 تجارب سريرية** و **0 منشورات**، وتُظهر مراجعة الآلية الحيوية للمجموعة الدليلية عدم وجود ارتباط بيولوجي معروف بين تثبيط قنوات HCN وتنظيم نمو بصيلات الشعر.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action documentation for ivabradine is not available in the evidence pack (marked as a High-severity data gap). Based on the mechanistic notes attached to each predicted indication, ivabradine is described as a selective inhibitor of the cardiac If current (HCN channel), with its pharmacology confined to sinoatrial node rate control.
-
-The evidence pack's own repurposing rationale explicitly states that this mechanism has **no known intersection** with hair-follicle growth regulation pathways (e.g., androgen signaling, WNT/Hedgehog). No biological hypothesis is offered to explain the high TxGNN similarity score, and no clinical, preclinical, or case-level literature currently exists linking ivabradine to hypertrichosis. This prediction should therefore be treated as a graph-embedding similarity signal rather than a mechanistically grounded hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح — لا توجد مؤشرات معتمدة أو تراخيص مسجلة في مجموعة الأدلة؛ الآلية المعروفة (انظر أدناه) هي التحكم في معدل العقدة الجيبية |
+| المؤشر المتنبأ به | فرط الشعر (المرض) |
+| درجة التنبؤ بـ TxGNN | 99.79% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، بدون دراسات داعمة) |
+| حالة السوق السعودي | غير مسوق (غير مسوق) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Ivabradine is not marketed and has no recorded authorizations (0 licenses) in the current dataset; no product/dosage-form information is available.
+لا توجد وثائق مفصلة عن آلية العمل لإيفابرادين في مجموعة الأدلة (محددة كفجوة بيانات عالية الخطورة). بناءً على ملاحظات الآلية الحيوية المرفقة بكل مؤشر متنبأ به، يُوصف إيفابرادين بأنه مثبط انتقائي لتيار If القلبي (قناة HCN)، مع اقتصار دوائيته على التحكم في معدل العقدة الجيبية.
 
----
-
-## Other TxGNN Predictions for Ivabradine (Lower Priority)
-
-The candidate pack contains five additional TxGNN-ranked predictions beyond the top hit. All carry L5 evidence and a Hold recommendation, and the mechanistic review found no plausible biological link for any of them:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence | Note |
-|------|----------------------|-------------|----------|------|
-| 2 | Ambras type hypertrichosis universalis congenita | 99.72% | None | Rare genetic syndrome (8q22 locus); no mechanistic overlap with HCN inhibition |
-| 3 | Malformation syndrome with odontal/periodontal component | 99.72% | 20 publications (periodontology, unrelated to ivabradine) | Literature hits are keyword co-occurrence artifacts, not drug-specific evidence |
-| 4 | Syndrome with Dandy-Walker malformation as major feature | 99.70% | None | Neurodevelopmental disorder (e.g., ZIC1/ZIC4); no known mechanistic link |
-| 5 | Isolated genetic hair shaft abnormality | 99.69% | None | Related to keratin genes (KRT, TCHH); no known mechanistic link |
-| 6 | Nephrogenic syndrome of inappropriate antidiuresis | 99.08% | None | AVPR2 gain-of-function disorder; no overlap with sinoatrial HCN pathway |
+تُشير نسبة إعادة توجيه الاستخدام الخاصة بمجموعة الأدلة بوضوح إلى أن هذه الآلية **لا تتقاطع** مع مسارات تنظيم نمو بصيلات الشعر (مثل إشارات الأندروجين، WNT/Hedgehog). لم يتم تقديم أي فرضية بيولوجية لشرح درجة التشابه العالية في TxGNN، وليست هناك أي أدبيات سريرية أو ما قبل سريرية أو على مستوى الحالات الفردية ربطت إيفابرادين بفرط الشعر حالياً. يجب بالتالي التعامل مع هذا التنبؤ كإشارة تشابه تضمين الرسم البياني بدلاً من فرضية مدعومة بآلية حيوية.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا تتوفر حالياً أدبيات ذات صلة.
 
-**Rationale:**
-All six TxGNN-predicted indications for ivabradine are L5 (model prediction only), with no supporting clinical trials and either no literature or literature that is unrelated on closer review. The evidence pack's own mechanistic analysis finds no biological rationale connecting ivabradine's known HCN-channel/sinoatrial mechanism to any of the predicted diseases, and core regulatory/safety data (TFDA labeling, MOA, contraindications, DDI) are marked as gaps.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and full MOA documentation (currently missing)
-- TFDA package insert data (warnings, contraindications) — flagged as Blocking in the evidence pack
-- A testable mechanistic hypothesis linking HCN-channel inhibition to hair-follicle biology, ideally supported by preclinical data
-- Case reports, pharmacovigilance signals, or exploratory studies specifically evaluating ivabradine in hypertrichosis before advancing beyond S0
+## معلومات السوق السعودي
+
+لا يتم تسويق إيفابرادين ولا توجد تراخيص مسجلة (0 ترخيص) في مجموعة البيانات الحالية؛ لا تتوفر معلومات المنتج/صيغة الجرعة.
+
+---
+
+## توقعات TxGNN الأخرى لإيفابرادين (أولوية أقل)
+
+تحتوي مجموعة المرشحين على خمسة توقعات إضافية مصنفة بـ TxGNN فوق الترتيب الأول. جميعها تحمل دليل L5 وتوصية بالتعليق، وخلصت مراجعة الآلية الحيوية إلى عدم وجود ارتباط بيولوجي معقول لأي منها:
+
+| الترتيب | المؤشر المتنبأ به | درجة TxGNN | الدليل | ملاحظة |
+|---------|-----------------|----------|--------|--------|
+| 2 | فرط الشعر العام الخلقي من نوع أمبراس | 99.72% | بدون دليل | متلازمة نادرة وراثية (موضع 8q22)؛ بدون تقاطع آلي مع تثبيط HCN |
+| 3 | متلازمة تشوه مع مكون سني/دواعم | 99.72% | 20 منشور (طب اللثة، غير مرتبط بإيفابرادين) | نتائج الأدبيات هي قطع ذات صلة بالكلمات الأساسية، وليست أدلة خاصة بالعقار |
+| 4 | متلازمة مع عيب دندي-والكر كسمة رئيسية | 99.70% | بدون دليل | اضطراب التطور العصبي (مثل ZIC1/ZIC4)؛ بدون ارتباط آلي معروف |
+| 5 | شذوذ جيني معزول في عمود الشعرة | 99.69% | بدون دليل | مرتبط بجينات الكيراتين (KRT، TCHH)؛ بدون ارتباط آلي معروف |
+| 6 | متلازمة كلوية لحبس مضاد للإدرار غير الملائم | 99.08% | بدون دليل | اضطراب AVPR2 اكتساب الوظيفة؛ بدون تقاطع مع مسار العقدة الجيبية HCN |
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+جميع المؤشرات الستة المتنبأ بها بـ TxGNN لإيفابرادين هي L5 (تنبؤ النموذج فقط)، بدون دراسات داعمة سريرية، وإما بدون أدبيات أو أدبيات غير ذات صلة عند إجراء مراجعة أقرب. تجد مراجعة الآلية الحيوية الخاصة بمجموعة الأدلة عدم وجود أساس بيولوجي يربط آلية قنوات HCN/العقدة الجيبية المعروفة لإيفابرادين بأي من الأمراض المتنبأ بها، وتُحدد بيانات التنظيم/السلامة الأساسية (وسم TFDA، آلية العمل، موانع الاستعمال، تفاعلات العقاقير المتبادلة) كفجوات.
+
+**للمتابعة، يلزم ما يلي:**
+- تأكيد المؤشر الأصلي والتوثيق الكامل لآلية العمل (غير متاح حالياً)
+- بيانات ملخص خصائص المنتج TFDA (التحذيرات، موانع الاستعمال) — محددة كعائق حاسم في مجموعة الأدلة
+- فرضية آلية قابلة للاختبار تربط تثبيط قنوات HCN بنمو بصيلات الشعر، ويفضل أن تكون مدعومة ببيانات ما قبل السريرية
+- تقارير حالات أو إشارات مراقبة الأدوية أو دراسات استكشافية تقيّم بشكل خاص إيفابرادين في فرط الشعر قبل التقدم بما يتجاوز S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

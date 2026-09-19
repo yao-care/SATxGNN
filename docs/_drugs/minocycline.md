@@ -29,69 +29,70 @@ indication_count: 2
 
 </div>
 
-# Minocycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Minocycline: من العدوى البكتيرية إلى التهاب الملتحمة والقرنية النقطي الظهاري
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Minocycline is a broad-spectrum tetracycline-class antibiotic; this evidence pack does not contain a documented original indication or mechanism-of-action record (both flagged as data gaps). The TxGNN model predicts potential efficacy for **Punctate Epithelial Keratoconjunctivitis** (score 99.63%) and, secondarily, **Exposure Keratitis** (score 99.20%), but currently **zero clinical trials and zero publications** support either prediction — this is a model-prediction-only signal (L5).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in current data pack (original_indications empty; see DG002) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Minocycline هو مضاد حيوي واسع الطيف من فئة التتراسيكلين؛ هذه مجموعة الأدلة لا تحتوي على مؤشر أصلي موثق أو سجل آلية العمل (كلاهما مسجل كفجوة في البيانات). يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **التهاب الملتحمة والقرنية النقطي الظهاري** (درجة 99.63%) وثانياً، **التهاب القرنية الناتج عن التعرض** (درجة 99.20%)، لكن حالياً **لا توجد تجارب سريرية ولا مطبوعات** تدعم أياً من التنبؤات — هذه إشارة تنبؤ نموذجي فقط (L5).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for minocycline in this data pack. Based on general pharmacological knowledge, minocycline is part of the tetracycline class of antibiotics, and its antibacterial efficacy is well established; mechanistically it may be applicable to ocular surface conditions through anti-inflammatory and matrix metalloproteinase (MMP-9) inhibitory activity shared across the tetracycline class.
-
-For both predicted indications, no direct literature on minocycline was found. The mechanistic rationale is derived by analogy to doxycycline (a related tetracycline), which has documented use in ocular surface disease for its anti-inflammatory, anti-MMP-9, and anti-angiogenic properties that may support corneal epithelial repair and inflammation control. This is a pharmacological class-level extrapolation, not direct evidence for minocycline itself, and the TxGNN scores (99.63% / 99.20%) reflect model prediction only.
-
-Given the absence of any clinical trial or publication data specific to minocycline in either indication, the biological plausibility should be treated as a hypothesis-generating signal requiring preclinical or early clinical confirmation before further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered. Searches of ClinicalTrials.gov and ICTRP for minocycline in both punctate epithelial keratoconjunctivitis and exposure keratitis (query date 2026-04-21) each returned 0 results.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق في مجموعة البيانات الحالية (original_indications فارغة؛ انظر DG002) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة والقرنية النقطي الظهاري |
+| درجة التنبؤ TxGNN | 99.63% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف مؤقت |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available. PubMed searches for minocycline in both punctate epithelial keratoconjunctivitis and exposure keratitis (query date 2026-04-21) each returned 0 results.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة لـ minocycline في مجموعة البيانات هذه. بناءً على المعرفة الدوائية العامة، minocycline جزء من فئة التتراسيكلين من المضادات الحيوية، وفعاليته المضادة للبكتيريا راسخة؛ آلياً قد يكون قابلاً للتطبيق على حالات السطح العيني من خلال النشاط المضاد للالتهاب والنشاط المثبط لـ MMP-9 المشتركة عبر فئة التتراسيكلين.
 
----
+بالنسبة لكلا المؤشرين المتنبأ بهما، لم يتم العثور على أدب مباشر حول minocycline. الأساس الميكانيكي مشتق بالقياس إلى doxycycline (تتراسيكلين ذات صلة)، التي لها استخدام موثق في أمراض السطح العيني لنشاطها المضاد للالتهاب والمضاد لـ MMP-9 والمضاد للتوعية الجديدة الذي قد يدعم إصلاح ظهارة القرنية والتحكم في الالتهاب. هذا استقراء على مستوى فئة الأدوية، وليس دليل مباشر على minocycline نفسه، وتعكس درجات TxGNN (99.63% / 99.20%) التنبؤ النموذجي فقط.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this data pack (blocking gap DG001 — TFDA/SFDA package insert not yet retrieved), which precludes an initial safety screen (S1).
+بالنظر إلى عدم وجود أي بيانات تجربة سريرية أو منشورة محددة لـ minocycline في أي من المؤشرين، يجب التعامل مع الجدوى البيولوجية كإشارة مولدة للفرضيات تتطلب تأكيداً سابقاً سريرياً أو سريرياً مبكراً قبل إجراء تقييم إضافي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً. عمليات البحث في ClinicalTrials.gov و ICTRP عن minocycline في كل من التهاب الملتحمة والقرنية النقطي الظهاري والتهاب القرنية الناتج عن التعرض (تاريخ الاستعلام 2026-04-21) أسفرت كل منهما عن 0 نتيجة.
 
-**Rationale:**
-- Evidence level is L5 (model prediction only) — no clinical trials, no publications, and no direct mechanistic data support either predicted indication for minocycline specifically.
-- A blocking data gap (DG001: TFDA/SFDA package insert warnings and contraindications) prevents even an initial safety screen, and the drug is not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert retrieval and parsing (DG001, blocking) to enable S1 safety screening
-- DrugBank mechanism-of-action data (DG002) to properly assess mechanistic plausibility rather than class-level analogy
-- Preclinical or case-level evidence specific to minocycline in ocular surface disease before pursuing further clinical evidence searches
-- Confirmation of an ophthalmic-compatible dosage form, since both predicted indications require topical/ocular administration and no dosage-form-by-route data is currently available
+## أدلة المطبوعات
+
+لا توجد مطبوعات ذات صلة متاحة حالياً. عمليات البحث في PubMed عن minocycline في كل من التهاب الملتحمة والقرنية النقطي الظهاري والتهاب القرنية الناتج عن التعرض (تاريخ الاستعلام 2026-04-21) أسفرت كل منهما عن 0 نتيجة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية غير متوفرة حالياً في مجموعة البيانات هذه (فجوة مسدودة DG001 — لم تسترجع نشرة معلومات TFDA/SFDA حتى الآن)، مما يمنع حتى فحص السلامة الأولي (S1).
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: توقف مؤقت**
+
+**الأساس المنطقي:**
+- مستوى الأدلة هو L5 (التنبؤ النموذجي فقط) — لا توجد تجارب سريرية، لا منشورات، ولا بيانات آلية عمل مباشرة تدعم أياً من المؤشرات المتنبأ بها لـ minocycline على وجه التحديد.
+- فجوة بيانات مسدودة (DG001: تحذيرات ونشرة معلومات TFDA/SFDA وموانع) تمنع حتى فحص السلامة الأولي، والعقار غير مسوق حالياً في المملكة العربية السعودية.
+
+**لكي نتقدم، يلزم ما يلي:**
+- استرجاع ومعالجة نشرة معلومات TFDA/SFDA (DG001، مسدودة) لتمكين فحص السلامة S1
+- بيانات آلية العمل DrugBank (DG002) لتقييم الجدوى الميكانيكية بشكل صحيح بدلاً من القياس على مستوى الفئة
+- أدلة سابقة سريرية أو سريرية مبكرة محددة على minocycline في أمراض السطح العيني قبل السعي لإجراء عمليات بحث إضافية عن الأدلة السريرية
+- تأكيد وجود صيغة دوائية متوافقة مع العيون، حيث يتطلب كلا المؤشرين الموصى بهما إعطاء موضعياً/عينياً وبيانات الصيغة الدوائية حسب طريق الإعطاء غير متوفرة حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

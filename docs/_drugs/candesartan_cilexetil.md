@@ -29,85 +29,86 @@ indication_count: 5
 
 </div>
 
-# Candesartan Cilexetil: From Hypertension to Malignant Hypertensive Renal Disease
+# كانديسارتان سيليكستيل: من ارتفاع ضغط الدم إلى أمراض الكلى بفرط ضغط الدم الخبيث
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Candesartan Cilexetil is an angiotensin II receptor blocker (ARB) widely used to treat hypertension and to provide cardiorenal protection in chronic kidney disease and heart failure.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease** with a prediction score of **99.68%**,
-however there are currently **0 clinical trials** and **0 publications** directly supporting this specific indication — the mechanistic rationale is strong, but clinical evidence is entirely absent.
+كانديسارتان سيليكستيل هو حاصر مستقبلات الأنجيوتنسين II (ARB) يستخدم على نطاق واسع لعلاج ارتفاع ضغط الدم وللحماية القلبية الكلوية في مرض الكلى المزمن وقصور القلب.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **أمراض الكلى بفرط ضغط الدم الخبيث** بدرجة تنبؤ **99.68%**،
+ومع ذلك لا توجد حالياً **0 تجربة سريرية** و **0 منشورات** تدعم هذا الاستطباب المحدد بشكل مباشر — الأساس الآلي قوي، لكن الأدلة السريرية غائبة تماماً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hypertension / Cardiorenal protection (general ARB class indication; no SFDA-registered license on file) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| الاستطباب الأصلي | ارتفاع ضغط الدم / الحماية القلبية الكلوية (استطباب عام لفئة ARB؛ لا توجد رخصة مسجلة لدى SFDA في الملف) |
+| الاستطباب الجديد المتنبأ به | أمراض الكلى بفرط ضغط الدم الخبيث |
+| درجة التنبؤ TxGNN | 99.68% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | سؤال بحثي |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the structured DrugBank fields in this Evidence Pack. Based on known pharmacology and the mechanistic context provided in the repurposing rationale, Candesartan Cilexetil is a prodrug that is hydrolysed to its active form, Candesartan, which selectively blocks the angiotensin II type 1 (AT1) receptor. This inhibits angiotensin II-mediated vasoconstriction, aldosterone secretion, and TGF-β-driven renal fibrosis, resulting in renal afferent and efferent arteriolar dilation, reduced intraglomerular pressure, and attenuation of tubular fibrosis.
+حالياً، بيانات آلية التأثير التفصيلية غير متاحة من الحقول المنظمة لـ DrugBank في هذه الحزمة الأدلة. بناءً على الصيدلة المعروفة والسياق الآلي المقدم في المبرر لإعادة الاستخدام، كانديسارتان سيليكستيل هو منتج دوائي يتم تحويله بالحلمهة إلى شكله النشط، كانديسارتان، الذي يحجب بشكل انتقائي مستقبل الأنجيوتنسين II من النوع الأول (AT1). يؤدي هذا إلى منع تضيق الأوعية الناجم عن الأنجيوتنسين II وإفراز الألدوستيرون وتليف الكلى الناجم عن TGF-β، مما ينتج عنه توسع الأوعية الكبيبية الواردة والصادرة، وتقليل الضغط داخل الكبيبات، وتخفيف تليف الأنابيب.
 
-Malignant hypertensive renal disease is a severe end-organ complication in which sustained, extreme blood pressure elevation causes fibrinoid necrosis of renal arterioles, rapidly progressive nephrosclerosis, and loss of GFR. The renin–angiotensin–aldosterone system (RAAS) is highly activated in this condition, making AT1 receptor blockade a mechanistically well-matched intervention. Landmark RCTs such as IDNT and RENAAL have demonstrated that ARBs reduce the rate of renal function decline and proteinuria in hypertensive nephropathy and diabetic nephropathy — conditions that share substantial pathophysiological overlap with malignant hypertensive renal disease.
+مرض الكلى بفرط ضغط الدم الخبيث هو مضاعفة شديدة في الأعضاء الطرفية حيث يسبب ارتفاع ضغط الدم المستمر والشديد التغييرات الليفينية في الأوعية الكلوية، وتصلب الكلى المتدهور بسرعة، وفقدان معدل الترشيح الكبيبي. نظام الرينين-الأنجيوتنسين-الألدوستيرون (RAAS) مفعل بشدة في هذه الحالة، مما يجعل حجب مستقبل AT1 تدخلاً متطابقاً آلياً. أظهرت التجارب العشوائية الحاكمة مثل IDNT و RENAAL أن حاصرات الأنجيوتنسين تقلل من معدل انخفاض وظائف الكلى والبروتينية في أمراض الكلى الارتفاعية وأمراض الكلى السكرية — الحالات التي تشترك في تداخل مرضي كبير مع مرض الكلى بفرط ضغط الدم الخبيث.
 
-The gap between mechanistic plausibility and clinical evidence is the central challenge here. No trial or publication with the precise ICD diagnostic code for "malignant hypertensive renal disease" has been indexed. This likely reflects a classification and coding gap rather than genuine absence of biological rationale: most real-world evidence is embedded within broader hypertensive nephropathy or CKD trials, not coded to this specific entity. A focused literature re-query using alternate MeSH terms (hypertensive nephrosclerosis, malignant nephrosclerosis) and review of IDNT/RENAAL sub-analyses may recover relevant evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Candesartan Cilexetil in Malignant Hypertensive Renal Disease.
-
-> **Note:** The absence of indexed trials reflects the specificity of the disease label. Broader hypertensive nephropathy trials (e.g., IDNT for irbesartan, RENAAL for losartan) provide class-level evidence for ARBs and may inform feasibility planning for a candesartan-specific study.
+الفجوة بين الاحتمالية الآلية والأدلة السريرية هي التحدي الأساسي هنا. لم تتم فهرسة أي تجربة أو منشور برمز التشخيص الدقيق لـ "مرض الكلى بفرط ضغط الدم الخبيث". هذا يعكس على الأرجح فجوة في التصنيف والترميز بدلاً من الغياب الحقيقي للمبرر البيولوجي: معظم الأدلة من العالم الحقيقي مضمنة ضمن تجارب أمراض الكلى الارتفاعية الأوسع أو تجارب أمراض الكلى المزمنة، وليست مرمزة لهذا الكيان المحدد. قد يؤدي الاستعلام المركز عن الأدبيات باستخدام مصطلحات MeSH البديلة (تصلب الكلى الارتفاعي، تصلب الكلى الخبيث) واستعراض التحليلات الفرعية IDNT/RENAAL إلى استرجاع الأدلة ذات الصلة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature directly linking Candesartan Cilexetil to Malignant Hypertensive Renal Disease is available.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لكانديسارتان سيليكستيل في أمراض الكلى بفرط ضغط الدم الخبيث.
 
-> **Note:** Twenty publications were retrieved for the adjacent indication "pulmonary hypertension owing to lung disease and/or hypoxia" (Rank 4), but all were classified as non-relevant (general hypoxia reviews covering brain aging, oncology, and multiple sclerosis with no direct connection to candesartan or pulmonary hypertension). They are excluded here per relevance standards.
-
----
-
-## Saudi Arabia Market Information
-
-Candesartan Cilexetil is **not currently registered** with the Saudi Food and Drug Authority (SFDA). No active licenses or approved indications are on file as of the data cutoff (2026-06-15).
+> **ملاحظة:** يعكس الغياب من التجارب المفهرسة تحديد علامة المرض. توفر تجارب أمراض الكلى الارتفاعية الأوسع (على سبيل المثال، IDNT لـ irbesartan، RENAAL لـ losartan) أدلة على مستوى الفئة لحاصرات الأنجيوتنسين وقد تفيد في تخطيط جدوى دراسة محددة لكانديسارتان.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد حالياً أدبيات ذات صلة مباشرة تربط كانديسارتان سيليكستيل بأمراض الكلى بفرط ضغط الدم الخبيث.
 
-> **Data Status:** Key warnings, contraindications, and drug-drug interaction data were not retrievable from the structured sources queried. A known class-level safety concern relevant to this evaluation: **ARBs are contraindicated in bilateral renal artery stenosis**, which can present similarly to malignant renovascular hypertension. Renal function (serum creatinine, eGFR) and potassium levels require close monitoring when initiating therapy in any hypertensive nephropathy patient.
+> **ملاحظة:** تم استرجاع عشرين منشوراً للاستطباب المجاور "فرط ضغط الدم الرئوي بسبب أمراض الرئة و/أو نقص الأكسجين" (الترتيب 4)، لكن تم تصنيف جميعها كغير ذات صلة (مراجعات عامة لنقص الأكسجين تغطي شيخوخة الدماغ والأورام والتصلب المتعدد بدون اتصال مباشر بكانديسارتان أو فرط ضغط الدم الرئوي). تم استبعادها هنا وفقاً لمعايير الصلة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Research Question**
+كانديسارتان سيليكستيل **غير مسجل حالياً** لدى الهيئة العامة للغذاء والدواء (SFDA). لا توجد رخص نشطة أو استطبابات موافق عليها في الملف اعتباراً من تاريخ القطع البيانات (2026-06-15).
 
-**Rationale:**
-The mechanistic link between AT1 receptor blockade and attenuation of hypertensive renal injury is scientifically sound and supported by class-level RCT evidence (IDNT, RENAAL), but no clinical trial or publication has been indexed specifically for candesartan cilexetil in malignant hypertensive renal disease under this diagnostic code, placing this prediction at Evidence Level L5. A Research Question designation is appropriate — this is a hypothesis worth investigating, not a candidate ready for development.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Broader literature re-query** using MeSH terms "hypertensive nephrosclerosis," "malignant nephrosclerosis," and "accelerated hypertension renal failure" combined with "candesartan" or "ARB" to surface evidence miscoded under alternate labels
-- **Sub-analysis review** of IDNT (irbesartan) and RENAAL (losartan) for malignant-phase or rapidly progressive subgroups — provides class evidence that may anchor a candesartan research proposal
-- **MOA data retrieval** from DrugBank API (DG002) to formally document AT1 antagonism and support mechanistic write-up
-- **Safety package completion** (DG001): retrieval of SFDA/TFDA package insert warnings and contraindications, particularly bilateral RAS exclusion criteria, before any clinical feasibility assessment
-- **Clarification of disease scope**: confirm whether "malignant hypertensive renal disease" as used in this model maps to ICD-10 I12/I13 hypertensive CKD subgroups or to the narrower "malignant phase" / hypertensive emergency with acute kidney injury — this determines which trial designs are applicable
-- If literature re-query yields ≥1 relevant observational study or RCT sub-analysis, evidence level may be upgraded to L3/L4 and decision reconsidered as **Proceed with Guardrails**
+يرجى الرجوع إلى ورقة البيانات للحصول على معلومات السلامة.
+
+> **حالة البيانات:** لم تكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية قابلة للاسترجاع من المصادر المنظمة المستعلم عنها. مخاوف تتعلق بسلامة معروفة على مستوى الفئة ذات صلة بهذا التقييم: **حاصرات الأنجيوتنسين موانع في تضيق الشرايين الكلوية الثنائي**، الذي قد يظهر بشكل مشابه لارتفاع ضغط الدم الكلوي الوعائي الخبيث. تتطلب وظائف الكلى (كرياتينين المصل، eGFR) ومستويات البوتاسيوم المراقبة الدقيقة عند بدء العلاج في أي مريض بحمل كلوي ارتفاعي.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: سؤال بحثي**
+
+**المبرر:**
+الارتباط الآلي بين حجب مستقبل AT1 وتخفيف إصابة الكلى الناجمة عن فرط ضغط الدم سليم علمياً وممدوح بأدلة RCT على مستوى الفئة (IDNT, RENAAL)، لكن لم تتم فهرسة أي تجربة سريرية أو منشور لكانديسارتان سيليكستيل في أمراض الكلى بفرط ضغط الدم الخبيث تحت هذا الرمز التشخيصي، مما يضع هذا التنبؤ في مستوى أدلة L5. تعيين سؤال بحثي مناسب — هذه فرضية تستحق التحقيق، وليست مرشحة جاهزة للتطوير.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **إعادة استعلام أدبيات أوسع** باستخدام مصطلحات MeSH "تصلب الكلى الارتفاعي"، "تصلب الكلى الخبيث"، و "قصور الكلى بسبب فرط الضغط المتسارع" مشاركة مع "كانديسارتان" أو "ARB" لاسترجاع الأدلة المرمزة تحت علامات بديلة
+- **استعراض التحليلات الفرعية** من IDNT (irbesartan) و RENAAL (losartan) للمجموعات الخبيثة أو المتدهورة بسرعة — توفير أدلة على مستوى الفئة قد تدعم اقتراح بحث كانديسارتان
+- **استرجاع بيانات MOA** من DrugBank API (DG002) لتوثيق حجب AT1 رسمياً ودعم كتابة الآلية
+- **استكمال الحزمة الأمنية** (DG001): استرجاع تحذيرات/موانع ورقة بيانات SFDA/TFDA، خاصة معايير استبعاد RAS الثنائي، قبل أي تقييم جدوى سريري
+- **توضيح نطاق المرض**: التأكد من ما إذا كان "مرض الكلى بفرط ضغط الدم الخبيث" كما هو مستخدم في هذا النموذج يرسم خريطة إلى مجموعات فرعية من ICD-10 I12/I13 مرض الكلى المزمن الارتفاعي أو إلى "مرحلة خبيثة" أضيق / قصور كلى حاد من طوارئ ارتفاع ضغط الدم — يحدد هذا ما هي تصاميم التجارب المعمول بها
+- إذا أسفرت إعادة الاستعلام عن الأدبيات عن ≥1 دراسة رصدية ذات صلة أو تحليل فرعي RCT، قد يتم ترقية مستوى الأدلة إلى L3/L4 وإعادة النظر في القرار كـ **المضي قدماً مع الحواجز**
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

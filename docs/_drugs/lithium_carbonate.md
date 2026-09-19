@@ -29,75 +29,76 @@ indication_count: 10
 
 </div>
 
-# Lithium Carbonate: From Undocumented Original Indication to Pseudoachondroplasia
+# كربونات الليثيوم: من دلالة أصلية غير موثقة إلى الاعتلال الغضروفي الكاذب
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Lithium Carbonate (DrugBank DB14509) is not currently marketed in Saudi Arabia, and its original approved indication and mechanism of action are not documented in this evidence pack. The TxGNN model predicts it may be effective for **Pseudoachondroplasia**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, with the evidence pack's own rationale stating there is no known pharmacological pathway linking lithium to this disease.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack |
-| Predicted New Indication | Pseudoachondroplasia |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+كربونات الليثيوم (DrugBank DB14509) لا تُسوّق حالياً في المملكة العربية السعودية، والدلالة الموثوقة أصلاً وآلية عملها غير موثقة في هذه الحزمة الإثباتية. يتنبأ نموذج TxGNN بأنها قد تكون فعالة للـ **الاعتلال الغضروفي الكاذب**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و **0 منشورات علمية**، مع توضيح الحزمة الإثباتية نفسها بأنه لا توجد مسارات دوائية معروفة تربط الليثيوم بهذا المرض.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Detailed mechanism of action data for lithium carbonate is not available in this evidence pack (flagged as a High-severity data gap, DG002). No original indication is recorded either, so a mechanistic comparison between the original and predicted use cannot be constructed from the supplied data.
-
-For the top-ranked prediction itself, the evidence pack's own rationale is explicit that there is **no mechanistic support**: pseudoachondroplasia arises from COMP gene mutations causing misfolded cartilage oligomeric matrix protein to accumulate in the endoplasmic reticulum, and no known lithium pharmacology (e.g., GSK-3β inhibition) is described as correcting protein misfolding or ER stress. The TxGNN score is very high (99.98%), but this reflects graph-embedding similarity in the model's knowledge graph, not a validated or even hypothesized biological pathway.
-
-Worth noting for context: several lower-ranked predictions in this same evidence pack (notably WHIM syndrome, rank 9, L4/S1) reference lithium's **established** psychiatric-care pharmacology — its known effect of stimulating granulocyte production and raising peripheral neutrophil counts — as a plausible mechanistic bridge. That established, sourced pharmacological signal is absent from the rationale for pseudoachondroplasia, reinforcing that this top-ranked candidate is a pure model artifact rather than a mechanism-supported hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| الدلالة الأصلية | غير موثقة في الحزمة الإثباتية |
+| الدلالة المتنبأ بها الجديدة | الاعتلال الغضروفي الكاذب |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الإثبات | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | قيد الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+بيانات آلية العمل المفصلة لكربونات الليثيوم غير متاحة في هذه الحزمة الإثباتية (مشار إليها كفجوة بيانات عالية الخطورة، DG002). لا توجد دلالة أصلية مسجلة أيضاً، لذا لا يمكن بناء مقارنة ميكانيكية بين الاستخدام الأصلي والمتنبأ به من البيانات المرفقة.
 
----
+بخصوص التنبؤ ذي الترتيب الأعلى نفسه، فإن تبرير الحزمة الإثباتية الخاصة به واضح في أنه **لا يوجد دعم ميكانيكي**: ينشأ الاعتلال الغضروفي الكاذب من طفرات جين COMP التي تسبب تراكم بروتين مصفوفة الغضروف قليل الحجم ذي الطي الخاطئ في الشبكة الإندوبلازمية، ولا توجد أي علم أدوية الليثيوم المعروفة (مثل تثبيط GSK-3β) توصف بأنها تصحح إساءة طي البروتين أو إجهاد الشبكة الإندوبلازمية. درجة TxGNN عالية جداً (99.98%)، لكن هذا يعكس التشابه في المعرفة الموجودة في الرسم البياني للنموذج، وليس مساراً بيولوجياً محقق الصحة أو حتى افتراضياً.
 
-## Saudi Arabia Market Information
-
-Lithium carbonate is not marketed in Saudi Arabia (0 authorizations on record); no license or product data is available.
+من المجدي ملاحظته في السياق: عدة تنبؤات برتبة أقل في هذه الحزمة الإثباتية ذاتها (وأبرزها متلازمة WHIM، الترتيب 9، L4/S1) تشير إلى علم أدوية الليثيوم **المُثبّت** في الرعاية النفسية — تأثيره المعروف على تحفيز إنتاج المحببات وزيادة عدد خلايا الدم البيضاء المحيطية — كجسر ميكانيكي معقول. هذه الإشارة الدوائية المثبتة والموثقة غائبة عن تبرير الاعتلال الغضروفي الكاذب، مما يؤكد أن هذا المرشح ذو الترتيب الأعلى هو مجرد قطعة نموذج وليس فرضية مدعومة بآلية.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/SFDA package insert warnings and contraindications are flagged as a Blocking data gap, DG001 — this prevents the candidate from entering the S1 safety pre-assessment stage regardless of predicted-indication evidence strength. Drug interaction query also returned no results.)*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الدراسات الأدبية
 
-**Decision: Hold**
+لا توجد دراسات أدبية ذات صلة متاحة حالياً
 
-**Rationale:**
-The top-ranked predicted indication (pseudoachondroplasia) has evidence level L5 (model prediction only) and decision stage S0, with the evidence pack itself stating no mechanistic pathway supports the link. Independently, a Blocking data gap (missing SFDA package insert) prevents this candidate from reaching safety pre-assessment regardless of indication-level evidence.
+---
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert (warnings, contraindications) to clear the Blocking gap (DG001) and unblock S1 safety review
-- Verified mechanism of action data (DG002) for lithium carbonate
-- If pursuing repurposing further, consider redirecting attention within this same evidence pack toward **WHIM syndrome** (rank 9, evidence level L4, decision stage S1, "Research Question"), which has a sourced mechanistic rationale (lithium's known granulocyte-stimulating effect via GSK-3β/CXCR4-CXCL12 pathway) — a materially stronger starting point than the top TxGNN-ranked candidate
+## معلومات سوق المملكة العربية السعودية
+
+كربونات الليثيوم غير مسوّقة في المملكة العربية السعودية (0 تصاريح مسجلة)؛ لا تتوفر بيانات الترخيص أو المنتج.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات نشرة الحزمة الصادرة من TFDA/SFDA والموانع موضحة كفجوة بيانات حاجزة، DG001 — وهذا يمنع المرشح من الدخول إلى مرحلة التقييم الأولي للسلامة S1 بغض النظر عن قوة دليل الدلالة المتنبأ به. استعلام التفاعل الدوائي لم يعد أي نتائج أيضاً.*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: قيد الانتظار**
+
+**التبرير:**
+الدلالة المتنبأ بها ذات الترتيب الأعلى (الاعتلال الغضروفي الكاذب) لها مستوى إثبات L5 (تنبؤ نموذج فقط) ومرحلة قرار S0، مع توضيح الحزمة الإثباتية ذاتها بأنه لا يوجد مسار ميكانيكي يدعم الربط. بشكل مستقل، فجوة بيانات حاجزة (نشرة حزمة SFDA مفقودة) تمنع هذا المرشح من الوصول إلى التقييم الأولي للسلامة بغض النظر عن قوة دليل مستوى الدلالة.
+
+**لكي نتقدم، يلزم ما يلي:**
+- نشرة حزمة SFDA/TFDA (التحذيرات، موانع الاستعمال) لإزالة الفجوة الحاجزة (DG001) وفتح مرحلة التقييم الأولي للسلامة S1
+- بيانات آلية العمل المُحققة (DG002) لكربونات الليثيوم
+- إذا كنت ستتابع إعادة التوظيف، فكر في إعادة توجيه الاهتمام داخل هذه الحزمة الإثباتية ذاتها نحو **متلازمة WHIM** (الترتيب 9، مستوى إثبات L4، مرحلة القرار S1، "سؤال البحث")، التي لها تبرير ميكانيكي موثق (التأثير المعروف للليثيوم على تحفيز المحببات عبر مسار GSK-3β/CXCR4-CXCL12) — نقطة انطلاق أقوى بشكل ملموس من المرشح ذو الترتيب الأعلى في TxGNN
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

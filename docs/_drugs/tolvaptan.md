@@ -29,71 +29,72 @@ indication_count: 10
 
 </div>
 
-# Tolvaptan: Original Indication Not on File — Evaluated for Autosomal Dominant Polycystic Kidney Disease (ADPKD)
+# توليفابتان: المؤشر الأصلي غير مدرج — يتم تقييمه لمرض الكلى المتعدد الأكياس السائد الصبغي الجسدي (ADPKD)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-This evidence pack does not record tolvaptan's original approved indication (data gap). The TxGNN model's top prediction is **polycystic kidney disease 3 with or without polycystic liver disease (ADPKD/PLD spectrum)**, and the evidence pack itself notes this is not a novel repurposing — tolvaptan, a selective vasopressin V2-receptor antagonist, is already an established treatment for ADPKD elsewhere, supported here by **2 pivotal Phase 3 RCTs** and **20 publications**, though it remains unmarketed in this jurisdiction (Taiwan, 0 authorizations on file).
+لم تسجل هذه الحزمة المؤشر الأصلي المعتمد لتوليفابتان (فجوة بيانات). يتنبأ نموذج TxGNN بأعلى درجة بـ **مرض الكلى المتعدد الأكياس 3 مع أو بدون مرض الكبد المتعدد الأكياس (طيف ADPKD/PLD)**، وتشير هذه الحزمة نفسها إلى أن هذا ليس إعادة توظيف جديدة — توليفابتان هو مضاد انتقائي لمستقبلات الفاسوبريسين V2 وهو بالفعل علاج معروف لـ ADPKD في أماكن أخرى، مدعوماً هنا بـ **تجريتا سريريتان عشوائيتان من المرحلة 3** و **20 منشوراً علمياً**، رغم أنه يبقى غير موجود في السوق في هذا الاختصاص القضائي (تايوان، 0 تراخيص).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available — no license records or original indication text on file |
-| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease (ADPKD/PLD) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متاح — لا توجد سجلات ترخيص أو نصوص مؤشرات أصلية في الملف |
+| المؤشر المتنبأ به | مرض الكلى المتعدد الأكياس 3 مع أو بدون مرض الكبد المتعدد الأكياس (ADPKD/PLD) |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L1 |
+| حالة السوق في تايوان | غير موجود في السوق (Not Marketed) |
+| عدد التراخيص | 0 |
+| قرار التوصية | المضي قدماً مع تدابير الحماية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed formal MOA documentation (DrugBank field) is flagged as a data gap. However, the repurposing rationale attached to this prediction supplies the mechanistic basis: tolvaptan is a selective vasopressin V2-receptor (AVPR2) antagonist that blocks cAMP signaling, thereby inhibiting renal tubular epithelial proliferation and cyst fluid secretion — a mechanism that maps directly onto ADPKD's cystogenesis pathway.
+التوثيق الرسمي الشامل لآلية العمل الدوائية (حقل DrugBank) مشار إليه كفجوة بيانات. ومع ذلك، فإن مبرر إعادة التوظيف المرفق بهذا التنبؤ يوفر الأساس الميكانيكي: توليفابتان هو مضاد انتقائي لمستقبلات الفاسوبريسين V2 (AVPR2) يحجب إشارات cAMP، مما يمنع تكاثر الخلايا الظهارية الكلوية وإفراز السوائل الكيسية — وهي آلية ترتبط مباشرة بمسار التكيس في ADPKD.
 
-Importantly, the evidence pack explicitly flags this as **not a novel repurposing signal**: ADPKD is tolvaptan's known, already-approved indication in other markets, and the high TxGNN score reflects a correct recovery of a known positive association rather than a new hypothesis. The clinical value of this report is therefore less about mechanistic plausibility and more about **local market-entry status** — tolvaptan is not currently marketed or authorized in this jurisdiction (0 licenses on file), so this candidate represents a registration/access opportunity rather than a discovery.
+بشكل مهم، تشير الحزمة الدليلية صراحة إلى أن هذا **ليس إشارة إعادة توظيف جديدة**: ADPKD هو المؤشر المعروف والمعتمد بالفعل لتوليفابتان في أسواق أخرى، والدرجة العالية جداً لـ TxGNN تعكس استرجاع صحيح لارتباط إيجابي معروف وليس فرضية جديدة. القيمة السريرية لهذا التقرير بالتالي أقل تعلقاً بالمعقولية الميكانيكية وأكثر تعلقاً بـ **حالة دخول السوق المحلي** — توليفابتان ليس موجوداً حالياً في السوق أو معتمداً في هذا الاختصاص القضائي (0 ترخيص في الملف)، لذلك يمثل هذا المرشح فرصة تسجيل/وصول بدلاً من اكتشاف.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered (ClinicalTrials.gov/ICTRP queries for this indication returned zero results; the pivotal trials below are captured only as published literature).
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة (طلبات البحث في ClinicalTrials.gov/ICTRP عن هذا المؤشر لم تعطِ نتائج؛ يتم التقاط التجارب المحورية أدناه فقط كأدبيات منشورة).
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| معرّف PubMed (PMID) | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT | New England Journal of Medicine | TEMPO 3:4: tolvaptan slowed total kidney volume growth and eGFR decline vs. placebo in early ADPKD |
-| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT | New England Journal of Medicine | REPRISE: tolvaptan preserved kidney function in later-stage ADPKD but caused more aminotransferase/bilirubin elevations |
-| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | RCT | Pediatric Nephrology | Randomized trial (NCT02964273) of tolvaptan safety/pharmacodynamics in children (5–17y) with ADPKD |
-| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Consensus Statement | Nephrology Dialysis Transplantation | ERA/ERKNet/PKD International consensus on when and how to initiate tolvaptan in ADPKD |
-| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Systematic Review/Meta-analysis | Nefrologia | Confirms efficacy and summarizes safety profile of tolvaptan across pooled ADPKD trials |
-| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Evaluates disease-modifying agents, including tolvaptan, for slowing ADPKD progression |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Guideline (EASL) | Journal of Hepatology | Clinical practice guideline on cystic liver disease management, covering PLD treatment |
-| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Review | JAMA | Comprehensive review of ADPKD epidemiology, genetics, and disease-modifying treatment |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clinics in Liver Disease | Reviews ADPKD/PLD; notes tolvaptan slows renal function deterioration and cyst growth |
-| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Review | Current Opinion in Nephrology and Hypertension | Reviews emerging ADPKD therapies; confirms tolvaptan as the only currently approved disease-modifying agent |
+| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | تجربة عشوائية محكومة | New England Journal of Medicine | TEMPO 3:4: خفّف توليفابتان نمو حجم الكلى الكلي وانحدار eGFR مقارنة بالدواء الوهمي |
+| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | تجربة عشوائية محكومة | New England Journal of Medicine | REPRISE: حافظ توليفابتان على وظائف الكلى في ADPKD بمرحلة متقدمة لكنه تسبب في ارتفاعات أكثر في aminotransferase/bilirubin |
+| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | تجربة عشوائية | Pediatric Nephrology | تجربة عشوائية (NCT02964273) لسلامة وديناميكا الدواء الحركية لتوليفابتان عند الأطفال (5–17 سنة) مع ADPKD |
+| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | بيان إجماع | Nephrology Dialysis Transplantation | إجماع ERA/ERKNet/PKD International حول متى وكيفية بدء توليفابتان في ADPKD |
+| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | مراجعة منهجية/تحليل فوقي | Nefrologia | يؤكد الفعالية ويلخص ملف السلامة لتوليفابتان عبر تجارب ADPKD المجمعة |
+| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | مراجعة منهجية (Cochrane) | Cochrane Database of Systematic Reviews | يقيم عوامل تعديل المرض، بما في ذلك توليفابتان، لإبطاء تطور ADPKD |
+| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | إرشاد (EASL) | Journal of Hepatology | إرشادات الممارسة السريرية بشأن إدارة أمراض الكبد الكيسية، وتغطي علاج PLD |
+| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | استعراض | JAMA | استعراض شامل لوبائيات ADPKD والوراثة والعلاج المعدّل للمرض |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | استعراض | Clinics in Liver Disease | يستعرض ADPKD/PLD؛ يلاحظ أن توليفابتان يبطئ تدهور وظائف الكلى ونمو الأكياس |
+| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | استعراض | Current Opinion in Nephrology and Hypertension | يستعرض العلاجات الناشئة لـ ADPKD؛ يؤكد توليفابتان كالعامل الوحيد المعتمد حالياً لتعديل المرض |
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-No authorization records are on file. `taiwan_regulatory` reports 0 licenses and market status "Not marketed" (not marketed) — tolvaptan currently has no registered product in this jurisdiction.
+لا توجد سجلات ترخيص في الملف. تقارير `taiwan_regulatory` حول 0 ترخيص وحالة السوق "غير موجود في السوق" (Not Marketed) — توليفابتان حالياً ليس لديه منتج مسجل في هذا الاختصاص القضائي.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-No structured safety data (warnings, contraindications, DDI) is on file for this jurisdiction. Please refer to the package insert for safety information.
+لم تكن هناك بيانات سلامة منظمة (تحذيرات، موانع استعمال، تفاعلات الأدوية) في الملف لهذا الاختصاص القضائي. يرجى مراجعة النشرة الدوائية للحصول على معلومات السلامة.
 
-For context, one of the pivotal trials captured in the literature evidence above (REPRISE, PMID 29105594) reports that tolvaptan use was associated with more elevations in aminotransferase and bilirubin levels than placebo — a hepatotoxicity signal that should inform any local safety monitoring plan even though it is not sourced from this pack's dedicated safety fields.
+للسياق، تقارير إحدى التجارب المحورية الملتقطة في دليل الأدبيات أعلاه (REPRISE، PMID 29105594) أن استخدام توليفابتان كان مرتبطاً بارتفاعات أكثر في مستويات aminotransferase و bilirubin من الدواء الوهمي — وهي إشارة سمية كبدية يجب أن تؤثر على أي خطة مراقبة السلامة المحلية حتى لو لم تكن مستمدة من حقول السلامة المخصصة لهذه الحزمة.
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع تدابير الحماية**
 
-**Rationale:**
-Evidence strength is high (L1: two completed Phase 3 RCTs plus multi-society consensus guidance), but this reflects confirmation of tolvaptan's already-established ADPKD indication elsewhere rather than a novel discovery, and the drug has zero market presence or regulatory documentation in this jurisdiction.
+**المبرر:**
+قوة الدليل عالية (L1: تجريتان سريريتان عشوائيتان متكاملتان من المرحلة 3 بالإضافة إلى إرشادات إجماع متعددة الجمعيات)، لكن هذا يعكس تأكيد مؤشر ADPKD المعروف بالفعل لتوليفابتان في أماكن أخرى بدلاً من اكتشاف جديد، والدواء ليس لديه وجود سوقي أو توثيق تنظيمي في هذا الاختصاص القضائي.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert (warnings, contraindications) — currently a **blocking** data gap (DG001) preventing S1 safety pre-assessment
-- Verified DrugBank mechanism-of-action record (DG002)
-- Local registration/market-entry pathway assessment, given 0 current authorizations
-- A hepatic-monitoring protocol addressing the aminotransferase/bilirubin signal observed in REPRISE
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA/محلية (تحذيرات، موانع استعمال) — حالياً **فجوة بيانات محجوبة** (DG001) تمنع تقييم السلامة السابق لـ S1
+- سجل آلية عمل DrugBank المتحقق منه (DG002)
+- تقييم مسار التسجيل/دخول السوق المحلي، نظراً لعدم وجود أي تراخيص حالية
+- بروتوكول مراقبة الكبد يتناول إشارة aminotransferase/bilirubin التي لوحظت في REPRISE
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

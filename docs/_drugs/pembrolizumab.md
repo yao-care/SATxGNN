@@ -29,88 +29,89 @@ indication_count: 10
 
 </div>
 
-# Pembrolizumab: From Oncology Indications to Fibromatosis, Gingival
+# بيمبروليزوماب: من دواعي الاستخدام في علم الأورام إلى التليف اللثوي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Pembrolizumab is a PD-1 immune checkpoint inhibitor used in oncology; the specific original approved indication is not recorded in this evidence pack (data gap).
-> The TxGNN model predicts it may be effective for **Fibromatosis, Gingival**,
-> but currently **0 clinical trials** and **0 publications** support this specific pairing, and the model's own mechanistic rationale finds no plausible biological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in this evidence pack (drug class context indicates oncology / PD-1 immune checkpoint inhibitor) |
-| Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> بيمبروليزوماب هو مثبط نقطة تفتيش PD-1 المناعي المستخدم في علم الأورام؛ لم يتم تسجيل دواعي الاستخدام الأصلية المحددة في هذه حزمة الأدلة (فجوة في البيانات).
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **التليف اللثوي**،
+> لكن حالياً **0 تجربة سريرية** و**0 منشور** يدعمان هذا الاقتران المحدد، والمنطق البيولوجي الخاص بالنموذج نفسه لا يجد أي ارتباط بيولوجي معقول.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action (MOA) data is not formally available in this evidence pack (data gap). Based on the supporting rationale text that accompanies this candidate, pembrolizumab is a PD-1 immune checkpoint inhibitor that acts on T-cell exhaustion within the tumor microenvironment, restoring anti-tumor T-cell activity — a mechanism broadly applied across immuno-oncology indications.
-
-Gingival fibromatosis, however, is a benign connective-tissue overgrowth condition (typically hereditary or drug-induced by agents such as phenytoin, cyclosporine, or calcium channel blockers). It is not driven by tumor-associated immune evasion, and there is no known intersection with the PD-1/PD-L1 axis.
-
-Based on the evidence pack's own assessment, this prediction is **not mechanistically supported**: the pipeline's rationale explicitly states "無合理機轉關聯" (no reasonable mechanistic link) between pembrolizumab's checkpoint-inhibition activity and gingival fibromatosis pathophysiology. This is a case where a high TxGNN embedding-similarity score does not correspond to biological plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| دواعي الاستخدام الأصلية | غير محددة في هذه حزمة الأدلة (سياق فئة الأدوية يشير إلى علم الأورام / مثبط نقطة تفتيش PD-1 المناعي) |
+| دواعي الاستخدام المتنبأ بها | التليف اللثوي |
+| درجة التنبؤ بـ TxGNN | 99.40% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودية | غير مسجل في السوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية (MOA) غير متوفرة رسمياً في هذه حزمة الأدلة (فجوة في البيانات). بناءً على المنطق الداعم الذي يرافق هذا المرشح، بيمبروليزوماب هو مثبط نقطة تفتيش PD-1 المناعي الذي يعمل على عكس استنزاف الخلايا التائية في الميكروبيئة الورمية، مما يستعيد نشاط الخلايا التائية المضادة للأورام — وهي آلية يتم تطبيقها على نطاق واسع في دواعي الاستخدام في مجال العلاج المناعي للأورام.
 
----
+ومع ذلك، فإن التليف اللثوي هو حالة تضخم نسيج ضام حميد (عادة ما يكون وراثياً أو ناجماً عن الأدوية مثل الفينيتوين والسيكلوسبورين أو حاصرات قنوات الكالسيوم). إنها ليست مدفوعة بتجنب المناعة المرتبط بالأورام، وليس هناك تقاطع معروف مع محور PD-1/PD-L1.
 
-## Saudi Arabia Market Information
-
-Pembrolizumab is currently not marketed in the tracked jurisdiction, and no authorization records are available in this evidence pack (0 licenses).
+بناءً على تقييم حزمة الأدلة نفسها، هذا التنبؤ **لا يدعمه منطق آلية معقولة**: ينص المنطق الخاص بـ pipeline صراحة على عدم وجود "ارتباط آلية معقول" بين نشاط مثبط نقطة التفتيش الخاص بـ pembrolizumab وفيزيولوجيا المرض التليفي اللثوي. هذه حالة حيث لا يتوافق درجة التشابه العالية في فضاء الفهرسة من TxGNN مع المعقولية البيولوجية.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 immune checkpoint inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد أدبيات ذات صلة متاحة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+بيمبروليزوماب غير مسجل حالياً في الاختصاص المتتبع، ولا توجد سجلات ترخيص متاحة في هذه حزمة الأدلة (0 رخصة).
 
-**Rationale:**
-The TxGNN score (99.40%) reflects embedding-space proximity rather than validated efficacy — there are zero clinical trials and zero publications for this specific drug-disease pairing, and the pack's own mechanistic rationale confirms no biologically plausible link between PD-1 blockade and gingival fibromatosis, a benign, non-immune-driven condition.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and regulatory approval history for pembrolizumab (currently a data gap)
-- Formal MOA documentation from DrugBank
-- Local package insert warnings, contraindications, and DDI data
-- If pursuing repurposing research on this drug further, note that within the same evidence pack, **lung hilum carcinoma** (rank 4, L3 evidence, Research Question) and **lung germ cell tumor** (rank 9, L4 evidence, Research Question) carry partial trial/literature support and are better candidates for follow-up — though both still require manual verification of disease-entity matching due to noted ontology mismatches in the retrieved evidence.
+## السمية
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية | العلاج المناعي (مثبط نقطة تفتيش PD-1 المناعي) |
+| خطر نقص الكريات البيضاء | يرجى مراجعة تحذيرات واحتياطات نشرة الدواء |
+| تصنيف الغثيان | يرجى مراجعة تحذيرات واحتياطات نشرة الدواء |
+| عناصر المراقبة | يرجى مراجعة تحذيرات واحتياطات نشرة الدواء |
+| حماية التعامل | يرجى مراجعة تحذيرات واحتياطات نشرة الدواء |
+
+---
+
+## اعتبارات السلامة
+
+يرجى مراجعة نشرة الدواء للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+تعكس درجة TxGNN (99.40%) القرب في فضاء الفهرسة بدلاً من الفعالية المدققة — لا توجد تجارب سريرية ولا منشورات لهذا الاقتران الدوائي-المرضي المحدد، والمنطق البيولوجي الخاص بـ pack نفسه يؤكد عدم وجود ارتباط معقول بيولوجياً بين حصار PD-1 والتليف اللثوي، وهي حالة حميدة غير مدفوعة بالمناعة.
+
+**للمتابعة، يلزم ما يلي:**
+- تأكيد دواعي الاستخدام الأصلية وسجل الموافقة التنظيمية لـ pembrolizumab (حالياً فجوة في البيانات)
+- توثيق MOA رسمي من DrugBank
+- بيانات نشرة الدواء المحلية بشأن التحذيرات والموانع والتفاعلات الدوائية
+- إذا كنت تسعى إلى متابعة أبحاث إعادة توظيف الأدوية على هذا الدواء، لاحظ أنه داخل نفس حزمة الأدلة، **سرطان جذر الرئة** (الترتيب 4، أدلة L3، سؤال بحثي) و**ورم خلايا جرثومية بالرئة** (الترتيب 9، أدلة L4، سؤال بحثي) يحمل دعماً جزئياً من التجارب / الأدبيات وهي مرشحات أفضل للمتابعة — على الرغم من أن كليهما لا يزال يتطلب التحقق اليدوي من مطابقة كيان المرض نظراً للأخطاء الأنطولوجية المحددة في الأدلة المسترجعة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

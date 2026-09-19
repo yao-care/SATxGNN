@@ -29,65 +29,66 @@ indication_count: 10
 
 </div>
 
-# MEROPENEM: From Unspecified Indication to Bacterial Arthritis
+# MEROPENEM: من مؤشر غير محدد إلى التهاب المفاصل البكتيري
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-MEROPENEM is a broad-spectrum carbapenem antibiotic; the evidence pack does not record its original approved indication or Saudi Arabia licensing history (0 licenses on file, market status: not marketed). The TxGNN model predicts it may be effective for **Bacterial Arthritis**, but this is currently supported by only **1 clinical trial** (in a different drug and population) and **no literature**.
+MEROPENEM هو مضاد حيوي كاربابينيم واسع الطيف؛ لا تسجل حزمة الأدلة مؤشره المعتمد الأصلي أو السجل التاريخي للترخيص في المملكة العربية السعودية (0 رخص في الملف، حالة السوق: غير مسوق). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب المفاصل البكتيري**، لكن هذا يدعمه حالياً فقط **1 تجربة سريرية** واحدة (في دواء مختلف وسكان مختلفين) و **لا توجد أدبيات**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available — the evidence pack contains no original indication or license data for this drug |
-| Predicted New Indication | Bacterial Arthritis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح — حزمة الأدلة لا تحتوي على مؤشر أصلي أو بيانات ترخيص لهذا الدواء |
+| المؤشر الجديد المتوقع | التهاب المفاصل البكتيري |
+| درجة تنبؤ TxGNN | 99.92% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | وقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for MEROPENEM (flagged as a High-severity data gap in the source data). Based on the information available in the evidence pack, MEROPENEM is a broad-spectrum carbapenem antibiotic that acts by inhibiting bacterial penicillin-binding proteins (PBPs), thereby blocking cell wall synthesis — this mechanism is referenced consistently across all ten TxGNN-predicted indications in this pack, not just bacterial arthritis.
+حالياً، لا تتوفر بيانات مفصلة عن آلية عمل MEROPENEM (تم تمييزها كفجوة بيانات عالية الخطورة في البيانات المصدرية). بناءً على المعلومات المتاحة في حزمة الأدلة، MEROPENEM هو مضاد حيوي كاربابينيم واسع الطيف يعمل عن طريق منع بروتينات ربط البنسلين البكتيرية (PBPs)، وبالتالي حجب تخليق جدار الخلية — تُشار إلى هذه الآلية بشكل متسق عبر جميع عشرة مؤشرات متوقعة من TxGNN في هذه الحزمة، وليس فقط التهاب المفاصل البكتيري.
 
-For bacterial arthritis specifically, the pathogens most commonly implicated (S. aureus, streptococci, and gram-negative bacilli) generally fall within meropenem's known antimicrobial spectrum, and carbapenems are used clinically as empirical therapy in immunocompromised or multidrug-resistant patients. However, the mechanistic plausibility is not yet backed by indication-specific trial or literature evidence — the one linked trial studies a different drug (levofloxacin) in a different population (pediatric leukemia/HSCT bacteremia prevention), which the evidence pack itself grades as only "C" relevance (no direct connection to bacterial arthritis treatment).
+بالنسبة لالتهاب المفاصل البكتيري على وجه التحديد، فإن مسببات الأمراض الأكثر شيوعاً (S. aureus والعقديات والعصيات سالبة الجرام) تندرج عموماً ضمن نطاق الفعالية المضادة للميكروبات الذي يغطيه meropenem، ويتم استخدام الكاربابينيمات سريرياً كعلاج تجريبي لدى المرضى المثبطين مناعياً أو المصابين بعدوى مقاومة للأدوية المتعددة. ومع ذلك، فإن المعقولية الآلية لم تدعم بعد بأدلة من التجارب أو الأدبيات الخاصة بالمؤشر — التجربة المرتبطة الوحيدة تدرس دواء مختلف (levofloxacin) في مجموعة سكانية مختلفة (الوقاية من بكتيريا الدم في الأطفال المصابين باللوكيميا الحادة أو الخاضعين لـ HSCT)، والتي تصنفها حزمة الأدلة ذاتها بأنها ذات صلة "C" فقط (لا توجد صلة مباشرة بعلاج التهاب المفاصل البكتيري).
 
-It is also worth noting that among the ten TxGNN-predicted indications in this pack, **urinary tract infection** (rank 6) has substantially stronger evidence (L1, multiple completed Phase 3 RCTs directly involving meropenem or meropenem-vaborbactam) than bacterial arthritis (rank 1, L4). The rank-1 prediction reflects the highest TxGNN model score, not the strongest clinical evidence.
+من الجدير بالملاحظة أيضاً أنه من بين المؤشرات العشرة المتوقعة من TxGNN في هذه الحزمة، **التهاب المسالك البولية** (الترتيب 6) لديها أدلة أقوى بكثير (L1، تجارب عشوائية محكومة من المرحلة 3 المكتملة متعددة تتضمن meropenem أو meropenem-vaborbactam مباشرة) من التهاب المفاصل البكتيري (الترتيب 1، L4). يعكس التنبؤ بالترتيب الأول أعلى درجة نموذج TxGNN، وليس أقوى الأدلة السريرية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Phase 3 | Completed | 624 | Evaluated levofloxacin (not meropenem) to prevent bacteremia in children with acute leukemia or undergoing HSCT; graded "C" relevance — different drug and different clinical question than bacterial arthritis treatment |
+| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | المرحلة 3 | مكتملة | 624 | قيمت levofloxacin (وليس meropenem) لمنع بكتيريا الدم في الأطفال المصابين باللوكيميا الحادة أو الخاضعين لـ HSCT؛ درجة صلة "C" — دواء مختلف وسؤال سريري مختلف عن علاج التهاب المفاصل البكتيري |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No authorizations on file — MEROPENEM is not currently marketed in Saudi Arabia under this evidence pack (0 licenses recorded).
+لا توجد تفاويض في الملف — لم يتم تسويق MEROPENEM حالياً في المملكة العربية السعودية بموجب هذه حزمة الأدلة (0 رخص مسجلة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-*(Note: TFDA/SFDA package insert warnings and contraindications are flagged as a Blocking data gap (DG001) in the source data — this must be resolved before any safety evaluation can proceed.)*
+*(ملاحظة: تحذيرات ودواعي عدم الاستخدام في نشرة عبوة TFDA/SFDA تم تمييزها كفجوة بيانات حاجزة (DG001) في البيانات المصدرية — يجب حل هذا قبل متابعة أي تقييم أمان.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقف**
 
-**Rationale:**
-The predicted indication (bacterial arthritis) is supported only by L4-level evidence — a single Phase 3 trial that studied a different drug in an unrelated population — with no supporting literature. Combined with a Blocking-severity data gap on safety (no TFDA/SFDA warnings or contraindications available), the evidence base is insufficient to proceed past a research-question stage.
+**المبرر:**
+المؤشر المتوقع (التهاب المفاصل البكتيري) مدعوم فقط بأدلة من المستوى L4 — تجربة واحدة من المرحلة 3 درست دواءً مختلفاً في مجموعة سكانية غير مرتبطة — بدون أدلة داعمة من الأدبيات. بالاقتران مع فجوة بيانات حاجزة بشأن السلامة (لا توجد تحذيرات أو موانع استخدام TFDA/SFDA)، فإن قاعدة الأدلة غير كافية للمتابعة بعد مرحلة السؤال البحثي.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action (MOA) data from DrugBank
-- Original approved indication(s) and Saudi Arabia licensing history for MEROPENEM
-- Indication-specific clinical trials or literature directly evaluating meropenem in bacterial arthritis
-- If pursuing a repurposing candidate from this pack, consider prioritizing **urinary tract infection** (rank 6, L1 evidence, multiple completed Phase 3 RCTs) as a stronger starting point than bacterial arthritis
+**للمتابعة، يلزم ما يلي:**
+- نشرة عبوة TFDA/SFDA (تحذيرات، موانع الاستخدام) — حالياً فجوة حاجزة
+- بيانات آلية العمل (MOA) المؤكدة من DrugBank
+- المؤشرات المعتمدة الأصلية وسجل ترخيص المملكة العربية السعودية لـ MEROPENEM
+- التجارب السريرية أو الأدبيات الخاصة بالمؤشر التي تقيّم meropenem مباشرة في التهاب المفاصل البكتيري
+- إذا كنت تتابع مرشحاً لإعادة التوظيف من هذه الحزمة، فكّر في إعطاء الأولوية لـ **التهاب المسالك البولية** (الترتيب 6، أدلة L1، تجارب عشوائية محكومة من المرحلة 3 المكتملة متعددة) كنقطة انطلاق أقوى من التهاب المفاصل البكتيري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

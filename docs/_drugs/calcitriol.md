@@ -29,111 +29,112 @@ indication_count: 7
 
 </div>
 
-# Calcitriol: From Metabolic Bone Disease to Hereditary Hypophosphatemic Rickets
+# الكالسيتريول: من أمراض العظام الأيضية إلى الكساح نقص الفوسفات الوراثي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Calcitriol (1,25-dihydroxyvitamin D3) is the biologically active hormonal form of vitamin D, traditionally used for hypocalcemia management in chronic kidney disease, hypoparathyroidism, and renal osteodystrophy.
-The TxGNN model's highest-evidenced actionable prediction is **Hereditary Hypophosphatemic Rickets** (Rank #7), supported by **7 clinical trials** and **20 publications** — including an active Phase 4 dose-optimization study (NCT03820518, n=100) and a Lancet 2024 disease review.
+الكالسيتريول (1,25-ثنائي هيدروكسي فيتامين D3) هو الشكل الهرموني النشط بيولوجياً من فيتامين D، يُستخدم تقليدياً لإدارة نقص الكالسيوم في أمراض الكلى المزمنة وقصور الغدد جار الدرقية وخلل العظام الكلوي.
+يُقدّم نموذج TxGNN أعلى توقع قابل للتنفيذ بدعم علمي هو **الكساح نقص الفوسفات الوراثي** (الترتيب #7)، مدعوماً بـ **7 تجارب سريرية** و **20 منشورة علمية** — بما فيها دراسة تحسين الجرعات النشطة من المرحلة 4 (NCT03820518، n=100) ومراجعة لمرض في دورية Lancet 2024.
 
-> **Note on ranking:** The top-ranked prediction (#1, "obsolete vitamin D deficiency") uses a deprecated disease ontology term no longer recognized by Orphanet/OMIM, carries no supporting trials or literature (L5, Hold), and represents a direct indication rather than a repurposing opportunity. This report therefore focuses on the highest-evidence, clinically actionable prediction: **Hereditary Hypophosphatemic Rickets** (Rank #7, L2, Proceed with Guardrails).
+> **ملاحظة حول الترتيب:** يستخدم التنبؤ الأعلى ترتيباً (#1، "نقص فيتامين D القديم") مصطلح تصنيف مرضي قديم لم تعد تعترف به Orphanet/OMIM، لا يحمل أي تجارب سريرية أو أدبيات داعمة (L5, Hold)، ويمثل إشارة مباشرة وليس فرصة إعادة توظيف. تركز هذه الالتقرير بالتالي على أعلى توقع قابل للتنفيذ سريرياً بدعم علمي: **الكساح نقص الفوسفات الوراثي** (الترتيب #7, L2، المضي قدماً مع الحماية).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hypocalcemia, hypoparathyroidism, renal osteodystrophy (traditional use; no SFDA authorization on record) |
-| Predicted New Indication (Focus) | Hereditary Hypophosphatemic Rickets (TxGNN Rank #7) |
-| TxGNN Prediction Score | 99.28% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | نقص الكالسيوم وقصور الغدد جار الدرقية وخلل العظام الكلوي (الاستخدام التقليدي؛ لا توجد رخصة SFDA مسجلة) |
+| المؤشر الجديد المتنبأ به (التركيز) | الكساح نقص الفوسفات الوراثي (TxGNN الترتيب #7) |
+| درجة التنبؤ TxGNN | 99.28% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الرخص | 0 |
+| القرار الموصى به | المضي قدماً مع الحماية |
 
 ---
 
-## Predicted Indication Overview (All Ranks)
+## نظرة عامة على المؤشرات المتنبأ بها (جميع الترتيبات)
 
-| Rank | Disease | TxGNN Score | Evidence | Recommendation |
-|------|---------|-------------|----------|----------------|
-| 1 | Obsolete vitamin D deficiency *(deprecated term)* | 99.9955% | L5 | Hold |
-| 2 | Renal Tubular Acidosis | 99.93% | L4 | Research Question |
-| 3 | Familial Isolated Hypoparathyroidism (impaired PTH secretion) | 99.81% | L4 | Research Question |
-| 4 | Acromesomelic Dysplasia, Campailla Martinelli Type | 99.79% | L5 | Hold |
+| الترتيب | المرض | درجة TxGNN | الدليل | التوصية |
+|--------|-------|-----------|-------|---------|
+| 1 | نقص فيتامين D القديم *(مصطلح قديم)* | 99.9955% | L5 | Hold |
+| 2 | حموضة الكلى الأنبوبية الكلوية | 99.93% | L4 | سؤال بحثي |
+| 3 | قصور الغدد جار الدرقية العائلي المعزول (ضعف إفراز PTH) | 99.81% | L4 | سؤال بحثي |
+| 4 | خلل التنسج Acromesomelic، نوع Campailla Martinelli | 99.79% | L5 | Hold |
 | 5 | Craniofacial Conodysplasia | 99.78% | L5 | Hold |
-| 6 | Dahlberg-Borer-Newcomer Syndrome | 99.76% | L4 | Research Question |
-| **7** | **Hereditary Hypophosphatemic Rickets** | **99.28%** | **L2** | **Proceed with Guardrails** |
+| 6 | متلازمة Dahlberg-Borer-Newcomer | 99.76% | L4 | سؤال بحثي |
+| **7** | **الكساح نقص الفوسفات الوراثي** | **99.28%** | **L2** | **المضي قدماً مع الحماية** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Calcitriol is the final active metabolite in the vitamin D activation cascade: dietary/sun-derived vitamin D3 is hydroxylated first in the liver (to 25-OH-D3) and then in the kidney by CYP27B1 (25-hydroxyvitamin D-1α-hydroxylase) to produce 1,25-dihydroxyvitamin D3 (calcitriol). Calcitriol binds to the vitamin D receptor (VDR), a nuclear transcription factor expressed in the intestine, kidney, bone, parathyroid gland, and numerous other tissues. Its core physiological actions include stimulating intestinal calcium and phosphate absorption, facilitating renal calcium reabsorption, and regulating bone mineralization through osteoblast differentiation.
+الكالسيتريول هو المستقلب النشط النهائي في سلسلة تنشيط فيتامين D: يتم هيدروكسيل فيتامين D3 المشتق من الغذاء/الشمس أولاً في الكبد (إلى 25-OH-D3) ثم في الكلية بواسطة CYP27B1 (25-هيدروكسي فيتامين D-1α-هيدروكسيليز) لإنتاج 1,25-ثنائي هيدروكسي فيتامين D3 (الكالسيتريول). يرتبط الكالسيتريول بـ vitamin D receptor (VDR)، وهو عامل نسخ نووي معبّر عنه في الأمعاء الدقيقة والكلى والعظام والغدة جار الدرقية وأنسجة أخرى عديدة. تشمل إجراءاته الفسيولوجية الأساسية تحفيز امتصاص الكالسيوم والفوسفات المعوي، وتسهيل إعادة امتصاص الكالسيوم الكلوي، وتنظيم تمعدن العظام من خلال تمايز الخلايا العظمية الناتجة.
 
-In **hereditary hypophosphatemic rickets** — most commonly X-linked hypophosphatemia (XLH), caused by loss-of-function mutations in the *PHEX* gene — excess production of the phosphaturic hormone FGF23 by osteocytes actively suppresses renal CYP27B1 activity. This creates a dual deficit: renal phosphate wasting (leading to hypophosphatemia) combined with inappropriately low calcitriol synthesis, which further impairs intestinal phosphate absorption. The result is defective growth plate and bone mineralization, presenting as rickets in children and osteomalacia in adults. Supplementing exogenous calcitriol directly bypasses FGF23-mediated suppression of CYP27B1 and restores the intestinal calcium/phosphate absorptive capacity, while oral phosphate supplementation corrects the renal wasting component.
+في **الكساح نقص الفوسفات الوراثي** — الأكثر شيوعاً هو الفرط الفوسفاتي المرتبط بـ X (XLH)، الناجم عن طفرات بفقدان الوظيفة في جين *PHEX* — ينتج الإفراط في إنتاج الهرمون المفرز للفوسفات FGF23 بواسطة الخلايا العظمية قمع نشط لنشاط CYP27B1 الكلوي. يؤدي هذا إلى عجز مزدوج: هدر الفوسفات الكلوي (يؤدي إلى نقص الفوسفات) مقترناً بتركيب كالسيتريول منخفض بشكل غير لائق، مما يزيد من ضعف امتصاص الفوسفات المعوي. النتيجة هي تمعدن ناقص في لوحة النمو والعظام، يظهر كساح في الأطفال وهشاشة عظام لينة في البالغين. إضافة كالسيتريول خارجي مباشرة يتجاوز قمع FGF23 لـ CYP27B1 ويستعيد القدرة الامتصاصية المعوية للكالسيوم/الفوسفات، بينما يصحح ملحق الفوسفات عن طريق الفم مكون الهدر الكلوي.
 
-This dual-therapy approach (calcitriol + phosphate) has been the standard of care for XLH for over four decades, confirmed by a Phase 4 dose-optimization study (NCT03820518, n=100) and documented in major clinical guidelines including a 2024 Lancet review and a 2025 Calcified Tissue International clinical guideline. It is worth noting that the newer anti-FGF23 biologic burosumab (Crysvita) has demonstrated superior efficacy by targeting the upstream hormonal driver and is now the preferred first-line therapy where available. Calcitriol retains a clinically relevant role in resource-limited or burosumab-contraindicated settings, and as adjunctive therapy in ENPP1 and ADHR subtypes.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | Early Phase 1 | Active, Not Recruiting | 20 | **Calcitriol monotherapy for XLH** — evaluates calcitriol alone (without phosphate) over 12 months with dose escalation in first 3 months; primary endpoint: serum phosphate and skeletal mineralization without increasing nephrocalcinosis |
-| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | Phase 4 | Unknown | 100 | **High vs. low-dose calcitriol + neutral phosphate in children with XLH** — dose-optimization study to establish evidence-based weight-adjusted calcitriol dosing in pediatric XLH |
-| [NCT04846647](https://clinicaltrials.gov/study/NCT04846647) | N/A (observational) | Completed | 260 | FGF23 hypersecretion characterization in hypophosphatemia — provides mechanistic basis for why calcitriol levels are insufficient in XLH and FGF23-excess conditions |
-| [NCT06046820](https://clinicaltrials.gov/study/NCT06046820) | Phase 3 | Active, Not Recruiting | 27 | INZ-701 in children with ENPP1 deficiency — evaluates emerging alternative for phosphate dysregulation disorders in the XLH disease family |
-| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | N/A | Not Yet Recruiting | 65 | ATP 31P-NMR spectroscopy in phosphate diabetes (XLH and acquired forms) — diagnostic biomarker study |
+تم تأكيد هذا النهج العلاجي الثنائي (الكالسيتريول + الفوسفات) كمعيار الرعاية القياسي لـ XLH لأكثر من أربعة عقود، بتأكيد دراسة تحسين جرعات المرحلة 4 (NCT03820518، n=100) وتوثيقها في إرشادات سريرية رئيسية تشمل مراجعة Lancet 2024 وإرشاد سريري لـ Calcified Tissue International 2025. من الجدير بالملاحظة أن الدواء البيولوجي المضاد لـ FGF23 الأحدث بوروسوماب (Crysvita) أثبت فعالية متفوقة باستهداف السائق الهرموني الأساسي وهو الآن العلاج المفضل من الدرجة الأولى حيث يكون متاحاً. يحتفظ الكالسيتريول بدور ذي صلة سريرياً في الإعدادات محدودة الموارد أو التي لا تستطيع استخدام بوروسوماب، وكعلاج مساعد في الأنواع الفرعية ENPP1 و ADHR.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40295317](https://pubmed.ncbi.nlm.nih.gov/40295317/) | 2025 | Clinical Guideline | *Calcified Tissue Int.* | Current XLH diagnosis and therapy; calcitriol + phosphate as established first-line therapy; burosumab as preferred option where available |
-| [39181153](https://pubmed.ncbi.nlm.nih.gov/39181153/) | 2024 | Review | *Lancet* | Comprehensive XLH review: PHEX mutations → FGF23 excess → renal phosphate wasting + reduced calcitriol synthesis; traditional therapy and burosumab comparative outcomes |
-| [38044258](https://pubmed.ncbi.nlm.nih.gov/38044258/) | 2024 | Review | *Best Pract Res Clin Endocrinol Metab* | Inherited FGF23 excess syndromes including XLH, ADHR, ARHR; calcitriol's therapeutic role across all FGF23-mediated subtypes |
-| [36446330](https://pubmed.ncbi.nlm.nih.gov/36446330/) | 2022 | Review | *Hormone Res Paediatrics* | History of rickets treatment; vitamin D activation pathway and calcitriol's role in correcting defective mineralization |
-| [35226335](https://pubmed.ncbi.nlm.nih.gov/35226335/) | 2022 | Retrospective Cohort | *J Endocrinol Invest* | Growth and body proportion from birth to adulthood in hereditary hypophosphatemic rickets — documents long-term outcomes of treated vs. untreated patients |
-| [31863781](https://pubmed.ncbi.nlm.nih.gov/31863781/) | 2020 | Review | *Metabolism* | XLH management in adults: calcitriol + phosphate for osteomalacia, bone pain, enthesopathy, pseudofractures, and dental anomalies |
-| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | Multicenter Study | *Pediatr Endocrinol Rev* | Early calcitriol + phosphate therapy effects on spontaneous growth in 127 XLH patients from 49 centres across multiple countries |
-| [17117305](https://pubmed.ncbi.nlm.nih.gov/17117305/) | 2006 | Review | *Arq Bras Endocrinol Metab* | All hereditary hypophosphatemic conditions cause inappropriately normal or low calcitriol; calcitriol supplementation rationale across subtypes |
-| [3839245](https://pubmed.ncbi.nlm.nih.gov/3839245/) | 1985 | Clinical Study | *J Clin Investigation* | High-dose calcitriol (68 ng/kg/day) heals XLH-associated osteomalacia in 5 patients where conventional vitamin D alone failed |
-| [6252463](https://pubmed.ncbi.nlm.nih.gov/6252463/) | 1980 | Clinical Study | *NEJM* | Calcitriol + phosphate vs. phosphate alone vs. ergocalciferol in 11 children with vitamin D-resistant rickets; calcitriol increased intestinal phosphate absorption and reduced phosphate requirements |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|----------|--------|--------|---------|---------|
+| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | المرحلة الأولى المبكرة | نشطة، غير مجندة حالياً | 20 | **العلاج بالكالسيتريول وحده لـ XLH** — يقيّم الكالسيتريول وحده (بدون فوسفات) على مدى 12 شهراً مع صعود الجرعة في أول 3 أشهر؛ النقطة الأساسية: الفوسفات في الدم وتمعدن الهيكل العظمي دون زيادة التكلس الكلوي |
+| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | المرحلة 4 | غير معروف | 100 | **جرعات كالسيتريول عالية مقابل منخفضة + فوسفات محايد عند الأطفال المصابين بـ XLH** — دراسة تحسين الجرعات لتحديد الجرعات المعايرة حسب الوزن للكالسيتريول المثبتة بالأدلة عند الأطفال المصابين بـ XLH |
+| [NCT04846647](https://clinicaltrials.gov/study/NCT04846647) | غير محدد (رصدية) | مكتملة | 260 | توصيف فرط إفراز FGF23 في نقص الفوسفات — توفر أساساً آلياً لسبب عدم كفاية مستويات الكالسيتريول في XLH والحالات الزائدة لـ FGF23 |
+| [NCT06046820](https://clinicaltrials.gov/study/NCT06046820) | المرحلة 3 | نشطة، غير مجندة حالياً | 27 | INZ-701 عند الأطفال المصابين بنقص ENPP1 — يقيّم بديلاً ناشئاً لاضطرابات تنظيم الفوسفات في عائلة أمراض XLH |
+| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | غير محدد | لم تبدأ بعد | 65 | ATP 31P-NMR spectroscopy في مرض الفوسفات السكري (XLH والأشكال المكتسبة) — دراسة المؤشر البيولوجي التشخيصي |
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Detailed safety data (package insert warnings, contraindications, and drug interaction profile) were not available in this evidence pack. Key risks known from calcitriol's mechanism include:
-
-- **Hypercalcemia and hypercalciuria**: The most important monitoring parameters; excess calcitriol drives increased intestinal calcium absorption that can lead to hypercalciuria, nephrocalcinosis, and renal stones — particularly relevant in XLH where calcitriol is used at relatively high doses combined with phosphate
-- **Nephrocalcinosis**: A recognized long-term complication of calcitriol + phosphate therapy in XLH, requiring periodic renal ultrasound monitoring
-
-Please refer to the full package insert and treating specialist guidance for complete safety information.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|---------|
+| [40295317](https://pubmed.ncbi.nlm.nih.gov/40295317/) | 2025 | إرشاد سريري | *Calcified Tissue Int.* | تشخيص وعلاج XLH الحالي؛ الكالسيتريول + الفوسفات كعلاج من الخط الأول المثبت؛ بوروسوماب كخيار مفضل حيث يكون متاحاً |
+| [39181153](https://pubmed.ncbi.nlm.nih.gov/39181153/) | 2024 | مراجعة | *Lancet* | مراجعة شاملة لـ XLH: طفرات PHEX → فرط FGF23 → هدر فوسفات كلوي + تركيب كالسيتريول منخفض؛ الخيارات العلاجية التقليدية والمقارنة بـ بوروسوماب |
+| [38044258](https://pubmed.ncbi.nlm.nih.gov/38044258/) | 2024 | مراجعة | *Best Pract Res Clin Endocrinol Metab* | متلازمات فرط إفراز FGF23 الموروثة بما فيها XLH و ADHR و ARHR؛ الدور العلاجي للكالسيتريول عبر جميع الأنواع الفرعية الموسومة بـ FGF23 |
+| [36446330](https://pubmed.ncbi.nlm.nih.gov/36446330/) | 2022 | مراجعة | *Hormone Res Paediatrics* | تاريخ علاج الكساح؛ مسار تنشيط فيتامين D ودور الكالسيتريول في تصحيح تمعدن العظام الناقص |
+| [35226335](https://pubmed.ncbi.nlm.nih.gov/35226335/) | 2022 | دراسة رجعية | *J Endocrinol Invest* | النمو والنسب الجسدية من الولادة إلى البلوغ في الكساح نقص الفوسفات الوراثي — توثق النتائج طويلة الأمد للمرضى المعالجين مقابل غير المعالجين |
+| [31863781](https://pubmed.ncbi.nlm.nih.gov/31863781/) | 2020 | مراجعة | *Metabolism* | إدارة XLH عند البالغين: الكالسيتريول + الفوسفات لهشاشة العظام وآلام العظام والتهاب الأوتار والكسور الكاذبة وتشوهات الأسنان |
+| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | دراسة متعددة المراكز | *Pediatr Endocrinol Rev* | تأثير العلاج المبكر بالكالسيتريول + الفوسفات على النمو التلقائي في 127 مريضاً XLH من 49 مركزاً عبر دول متعددة |
+| [17117305](https://pubmed.ncbi.nlm.nih.gov/17117305/) | 2006 | مراجعة | *Arq Bras Endocrinol Metab* | جميع حالات نقص الفوسفات الهيبوفوسفاتيمية الوراثية تسبب كالسيتريول عادياً غير كافٍ أو منخفضاً؛ الأساس المنطقي لإضافة الكالسيتريول عبر الأنواع الفرعية |
+| [3839245](https://pubmed.ncbi.nlm.nih.gov/3839245/) | 1985 | دراسة سريرية | *J Clin Investigation* | كالسيتريول عالي الجرعة (68 ng/kg/day) يشفي هشاشة العظام المرتبطة بـ XLH في 5 مرضى حيث فشل فيتامين D التقليدي وحده |
+| [6252463](https://pubmed.ncbi.nlm.nih.gov/6252463/) | 1980 | دراسة سريرية | *NEJM* | الكالسيتريول + الفوسفات مقابل الفوسفات وحده مقابل ergocalciferol في 11 طفلاً مصابين بكساح مقاوم فيتامين D؛ زاد الكالسيتريول من امتصاص الفوسفات المعوي وقلل احتياجات الفوسفات |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+لم تكن بيانات السلامة التفصيلية (تحذيرات ورقة العبوة والموانع والملف الجانبي لتفاعل الأدوية) متاحة في حزمة الأدلة هذه. تشمل المخاطر المعروفة من آلية الكالسيتريول:
 
-**Rationale:**
-Calcitriol combined with phosphate supplementation represents the established, four-decade standard of care for hereditary hypophosphatemic rickets, supported by Phase 1 and Phase 4 clinical trials, multiple high-quality reviews, and 2024–2025 international clinical guidelines. The mechanistic rationale — bypassing FGF23-mediated CYP27B1 suppression — is well-understood and directly supported by calcitriol's pharmacology. Evidence level L2 is sufficient to support a regulated, monitored repurposing pathway.
+- **فرط الكالسيوم وفرط الكالسيوم البولي**: معاملات المراقبة الأكثر أهمية؛ يدفع الكالسيتريول الزائد امتصاص الكالسيوم المعوي المتزايد الذي يمكن أن يؤدي إلى فرط الكالسيوم البولي والتكلس الكلوي وحصوات الكلى — بصلة خاصة في XLH حيث يُستخدم الكالسيتريول بجرعات نسبياً عالية مقترناً بملحق الفوسفات
+- **التكلس الكلوي**: مضاعفة معروفة طويلة الأمد للعلاج بالكالسيتريول + الفوسفات في XLH، يتطلب مراقبة دورية بالموجات فوق الصوتية للكلى
 
-**To proceed, the following is needed:**
+يرجى الرجوع إلى ورقة العبوة الكاملة والإرشادات المتخصصة للمعالجين للحصول على معلومات السلامة الكاملة.
 
-- **Regulatory filing**: Calcitriol has no SFDA authorization in Saudi Arabia; a new marketing authorization application (MAA) or bibliographic/well-established use application is required before clinical deployment
-- **MOA documentation**: A formal mechanism-of-action dossier is needed for regulatory submission (currently flagged as a data gap)
-- **Competitive positioning vs. burosumab**: Define the patient population where calcitriol offers a viable alternative — e.g., cost constraints, burosumab unavailability, ENPP1/ADHR subtypes, or adjunctive use — and document this in the clinical development rationale
-- **Safety monitoring protocol**: Standardize monitoring for hypercalcemia, hypercalciuria, urinary calcium/creatinine ratio, and nephrocalcinosis (renal ultrasound at 6–12 month intervals) before initiating any clinical program
-- **Dose optimization data**: Await or obtain results from NCT03820518 (Phase 4, n=100) to establish evidence-based weight-adjusted dosing; monitor NCT03748966 for calcitriol monotherapy data
-- **Pediatric formulation**: XLH primarily affects children; age-appropriate oral formulation (solution or dispersible tablet) and pediatric pharmacokinetic data are required
-- **Genetic subtype stratification**: Confirm applicability across all hereditary hypophosphatemic rickets subtypes (XLH, ADHR, ARHR, HHRH) and document response variability by mutation type
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الحماية**
+
+**الأساس المنطقي:**
+يمثل الكالسيتريول مقترناً بملحق الفوسفات معيار الرعاية المثبت منذ أربعة عقود للكساح نقص الفوسفات الوراثي، مدعوماً بتجارب سريرية من المرحلة الأولى والمرحلة 4، ومراجعات عالية الجودة متعددة، وإرشادات سريرية دولية 2024–2025. الأساس الآلي — تجاوز قمع FGF23 لـ CYP27B1 — مفهوم جيداً ومدعوم بشكل مباشر من قبل دوائية الكالسيتريول. مستوى الدليل L2 كافٍ لدعم مسار إعادة توظيف منظم ومراقب.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **تقديم تنظيمي**: لا يملك الكالسيتريول ترخيصاً SFDA في المملكة العربية السعودية؛ يُطلب تقديم تطبيق ترخيص تسويقي جديد (MAA) أو تطبيق استخدام ببليوجرافي/مثبت جيداً قبل النشر السريري
+- **توثيق الآلية**: مطلوب ملف آلية عمل رسمي لتقديم تنظيمي (حالياً مشار إليه كفجوة بيانات)
+- **الموضع التنافسي مقابل بوروسوماب**: تحديد مجموعة السكان حيث يقدم الكالسيتريول بديلاً قابلاً للحياة — مثل قيود التكاليف أو عدم توفر بوروسوماب أو الأنواع الفرعية ENPP1/ADHR أو الاستخدام المساعد — وتوثيق هذا في الأساس المنطقي لتطوير اللقاح
+- **بروتوكول المراقبة الأمنية**: توحيد المراقبة لفرط الكالسيوم وفرط الكالسيوم البولي ونسبة الكالسيوم/الكرياتينين البولي والتكلس الكلوي (الموجات فوق الصوتية للكلى بفترات 6–12 شهراً) قبل بدء أي برنامج سريري
+- **بيانات تحسين الجرعات**: انتظار أو الحصول على نتائج NCT03820518 (المرحلة 4، n=100) لتحديد جرعات الكالسيتريول المعايرة حسب الوزن المثبتة بالأدلة؛ رصد NCT03748966 لبيانات العلاج بالكالسيتريول وحده
+- **الصيغة للأطفال**: يؤثر XLH بشكل أساسي على الأطفال؛ صيغة فموية مناسبة للعمر (محلول أو قرص قابل للتشتت) وبيانات الحرائك الدوائية عند الأطفال مطلوبة
+- **تقسيم النوع الفرعي الجيني**: تأكيد إمكانية التطبيق عبر جميع أنواع الكساح نقص الفوسفات الوراثية (XLH و ADHR و ARHR و HHRH) وتوثيق تباين الاستجابة حسب نوع الطفرة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

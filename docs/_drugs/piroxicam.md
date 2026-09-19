@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Piroxicam: From Adult Rheumatic/Musculoskeletal Disorders to Juvenile Idiopathic Arthritis
+# بيروكسيكام: من الاضطرابات الروماتيزمية/العضلية الهيكلية لدى البالغين إلى التهاب المفاصل مجهول السبب لدى الأطفال
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Piroxicam is a classic oxicam-class NSAID used for inflammatory and musculoskeletal pain conditions in adults. Among the TxGNN model's top-ranked candidates for this drug, **Juvenile Idiopathic Arthritis (JIA)** is the only prediction supported by real-world clinical evidence — including two historical randomized controlled trials of piroxicam itself in juvenile arthritis and two modern network meta-analyses of NSAIDs in JIA (13 publications total). The model's top 8 raw-score predictions (rare skeletal dysplasia syndromes, WHIM syndrome, etc.) were reviewed and assessed as likely embedding artifacts with no pharmacological plausibility, so they are not carried forward as the featured candidate — see the note below.
+بيروكسيكام هو عامل مضاد للالتهابات غير الستيرويدية من فئة أوكسيكام الكلاسيكية، يستخدم لحالات الألم الالتهابي والعضلي الهيكلي لدى البالغين. من بين أفضل المرشحين الذين صنفتهم نموذج TxGNN لهذا الدواء، **التهاب المفاصل مجهول السبب لدى الأطفال (JIA)** هو التنبؤ الوحيد المدعوم بأدلة سريرية من العالم الحقيقي — بما فيها تجربتان عشوائيتان منضبطتان تاريخيتان لبيروكسيكام نفسه في التهاب المفاصل لدى الأطفال وتحليلان شبكيان حديثان (2021 و2024) لمضادات الالتهابات غير الستيرويدية في JIA (13 منشور إجمالاً). تم مراجعة التنبؤات الثمانية الأولى بالنقاط الخام للنموذج (متلازمات خلل العظام الهيكلي النادرة وغيرها) وتقييمها على أنها قد تكون أخطاء في التضمين (embedding artifacts) بدون معقولية دوائية، لذا لا يتم نقلها إلى الأمام كمرشح مميز — انظر الملاحظة أدناه.
 
-> **Note on TxGNN ranking:** This evidence pack contains 10 TxGNN predictions. Ranks 1–8 (colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, acromesomelic dysplasia, brachyolmia variants, pseudoachondroplasia, myosclerosis, WHIM syndrome) each score higher than JIA but have **zero clinical trials and zero literature hits**, and the pack's own mechanistic rationale for each explicitly labels them as probable model false positives (disease-node clustering by skeletal/genetic pathway, unrelated to COX inhibition). Rank 9 (rheumatoid nodulosis) has one weak, indirect case report about methotrexate rather than piroxicam. Rank 10, **Juvenile Idiopathic Arthritis**, is the only candidate with an actual evidence base and is used as the featured indication for this report.
+> **ملاحظة حول ترتيب TxGNN:** تحتوي هذه مجموعة الأدلة على 10 تنبؤات من TxGNN. تحقق الرتب 1–8 (متلازمات الرؤية الخرقاء مع خلل العظام الريزوميلي، وقصور الأصابع مع الالتحام، وخلل العظام الأكروميزوميلي، ومتغيرات براخيولميا، وشبه الأكوندروبلازيا، وتصلب العضل، ومتلازمة WHIM) على درجات أعلى من JIA لكن لديها **صفر تجارب سريرية وصفر نتائج أدبية**، وتصنيف النموذج الخاص بالمجموعة لكل منها بشكل صريح يسميها احتمالاً إيجابيات كاذبة للنموذج (تجميع عقدة المرض حسب المسار الهيكلي/الجيني، غير مرتبط بتثبيط COX). الرتبة 9 (عُقيدات الروماتويد) لها تقرير حالة واحد ضعيف وغير مباشر عن ميثوتريكسيت بدلاً من بيروكسيكام. الرتبة 10، **التهاب المفاصل مجهول السبب لدى الأطفال**، هو المرشح الوحيد الذي يحتوي على أساس أدلة فعلي ويُستخدم كمؤشر مميز لهذا التقرير.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not specified in the available regulatory data (Saudi Arabia: not marketed, no license text on file); piroxicam is pharmacologically an NSAID used for adult rheumatic/musculoskeletal inflammatory pain |
-| Predicted New Indication | Juvenile Idiopathic Arthritis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير محدد في بيانات التنظيم المتاحة (المملكة العربية السعودية: غير مسوق، لا توجد نصوص ترخيص في الملف)؛ بيروكسيكام هو صيدلانياً عامل مضاد للالتهابات غير الستيرويدية يستخدم لألم الروماتيزمي/العضلي الهيكلي الالتهابي لدى البالغين |
+| المؤشر الجديد المتنبأ به | التهاب المفاصل مجهول السبب لدى الأطفال |
+| درجة تنبؤ TxGNN | 99.93% |
+| مستوى الأدلة | L1 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed drug-level mechanism-of-action data (DrugBank MOA field) was not available for this drug. However, the evidence pack's own repurposing rationale for the JIA candidate describes the mechanism directly: piroxicam is an oxicam-class, non-selective COX-1/COX-2 inhibitor that suppresses prostaglandin synthesis, producing anti-inflammatory, analgesic, and antipyretic effects — the standard pharmacological basis for NSAID use in inflammatory arthritis.
+لم تكن بيانات آلية عمل الدواء على مستوى الدواء المفصلة (حقل DrugBank MOA) متاحة لهذا الدواء. ومع ذلك، فإن مبررات إعادة الاستخدام الخاصة بمجموعة الأدلة للمرشح JIA تصف الآلية بشكل مباشر: بيروكسيكام هو عامل مضاد للالتهابات غير الستيرويدية من فئة أوكسيكام، وهو مثبط غير انتقائي لـ COX-1/COX-2 يقمع تخليق البروستاجلاندين، مما ينتج تأثيرات مضادة للالتهابات وتسكين للألم وخافض للحرارة — الأساس الدوائي القياسي لاستخدام مضادات الالتهابات غير الستيرويدية في التهاب المفاصل الالتهابي.
 
-Juvenile Idiopathic Arthritis is mechanistically continuous with adult inflammatory arthritis (rheumatoid arthritis, osteoarthritis), where NSAIDs are a well-established first-line symptomatic therapy. Other oxicam/propionic-acid class NSAIDs referenced in the same literature set (naproxen, oxaprozin, nabumetone, pirprofen) are already used across this disease spectrum, supporting the plausibility of piroxicam's applicability to JIA specifically.
+التهاب المفاصل مجهول السبب لدى الأطفال متصل آلياً مع التهاب المفاصل الالتهابي لدى البالغين (التهاب المفاصل الروماتويدي، هشاشة العظام)، حيث تعتبر مضادات الالتهابات غير الستيرويدية علاجاً عرضياً معترفاً به في الخطوط الأولى. تدعم مضادات الالتهابات غير الستيرويدية الأخرى من فئة أوكسيكام/بروبيونات المشار إليها في نفس مجموعة الأدبيات (نابروكسين، أوكسابروزين، نابوميتون، بيربروفين) استخدامها عبر هذا الطيف المرضي، مما يدعم معقولية تطبيق بيروكسيكام على JIA بشكل محدد.
 
-Critically, this is not a purely computational prediction: piroxicam itself was directly studied in children with juvenile (chronic) rheumatoid arthritis in two head-to-head RCTs against naproxen in the 1980s, and two recent (2021, 2024) systematic reviews/network meta-analyses re-evaluate NSAID comparative efficacy and safety in JIA. This combination of historical direct trial evidence and current systematic-review context is what distinguishes this candidate from the model's other high-score-but-unsupported predictions.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (ClinicalTrials.gov / ICTRP both returned 0 results for this drug-disease pair).
-
-*(Note: two relevant randomized trials exist but are only indexed as PubMed literature, not as registered trial records — see Literature Evidence below.)*
+بشكل حاسم، هذا ليس تنبؤاً حسابياً بحتاً: تمت دراسة بيروكسيكام نفسه بشكل مباشر في أطفال يعانون من التهاب المفاصل الروماتويدي المزمن في تجربتي RCT موجهة ضد نابروكسين في الثمانينات، وأعادت تقييمان حديثان (2021، 2024) لمراجعات منهجية / تحليلات شبكية فعالية مضادات الالتهابات غير الستيرويدية المقارنة والسلامة في JIA. هذا المزيج من أدلة التجارب المباشرة التاريخية وسياق المراجعة المنهجية الحالية هو ما يميز هذا المرشح عن تنبؤات النموذج الأخرى ذات النقاط العالية لكن غير المدعومة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة (ClinicalTrials.gov / ICTRP كلاهما أرجعا 0 نتائج لهذا الزوج دواء-مرض).
+
+*(ملاحظة: توجد تجربتان عشوائيتان منضبطتان ذات صلة لكن يتم فهرستهما فقط كأدب PubMed، وليس كسجلات تجارب مسجلة — انظر أدلة الأدب أدناه.)*
+
+---
+
+## أدلة الأدب
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/) | 1987 | RCT | European Journal of Rheumatology and Inflammation | 26 children with juvenile rheumatoid arthritis randomized to piroxicam vs naproxen; painful/swollen joint counts decreased significantly with piroxicam |
-| [3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/) | 1986 | RCT | British Journal of Rheumatology | Multicentre 8-week double-blind crossover trial in 47 children with juvenile chronic arthritis comparing piroxicam vs naproxen; no significant difference between treatments |
-| [38680254](https://pubmed.ncbi.nlm.nih.gov/38680254/) | 2024 | Review | World Journal of Clinical Cases | Systematic review and network meta-analysis of NSAIDs (including piroxicam-class agents) for JIA, comparing relative efficacy |
-| [33632948](https://pubmed.ncbi.nlm.nih.gov/33632948/) | 2021 | Review | Indian Pediatrics | Systematic review and network meta-analysis comparing efficacy and safety of nine NSAIDs in JIA patients |
-| [1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/) | 1991 | PK Study | European Journal of Clinical Pharmacology | Steady-state pharmacokinetics of piroxicam in 10 children with rheumatic disease; Cmax and half-life characterized for pediatric dosing |
-| [9890680](https://pubmed.ncbi.nlm.nih.gov/9890680/) | 1998 | Review | Clinical Rheumatology | Long-term toxicity study of antirheumatic/anti-inflammatory drugs (including NSAIDs) in a pediatric rheumatology cohort |
-| [7797387](https://pubmed.ncbi.nlm.nih.gov/7797387/) | 1994 | Cohort | International Ophthalmology | Frequency/complications of chronic iridocyclitis in ANA-positive pauciarticular JCA, an extra-articular manifestation relevant to disease management |
-| [15456329](https://pubmed.ncbi.nlm.nih.gov/15456329/) | 2004 | Review | Drugs | Review of nabumetone (related NSAID) therapeutic use and safety in osteoarthritis and rheumatoid arthritis |
-| [1617910](https://pubmed.ncbi.nlm.nih.gov/1617910/) | 1992 | Review | Clinical Pharmacy | Review of oxaprozin (related NSAID), pharmacology and clinical efficacy in inflammatory joint disease |
-| [21175420](https://pubmed.ncbi.nlm.nih.gov/21175420/) | 2010 | Review | Critical Reviews in Therapeutic Drug Carrier Systems | Review of microencapsulated NSAID drug-delivery systems for arthritis, including juvenile idiopathic arthritis |
+| [2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/) | 1987 | RCT | European Journal of Rheumatology and Inflammation | 26 طفلاً مصاباً بالتهاب المفاصل الروماتويدي قسموا عشوائياً إلى بيروكسيكام مقابل نابروكسين؛ انخفضت عدد المفاصل المؤلمة والمتورمة بشكل كبير مع بيروكسيكام |
+| [3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/) | 1986 | RCT | British Journal of Rheumatology | تجربة تقاطعية عمياء مزدوجة متعددة المراكز لمدة 8 أسابيع في 47 طفلاً مصاباً بالتهاب المفاصل المزمن لدى الأطفال تقارن بيروكسيكام مقابل نابروكسين؛ لا فرق كبير بين العلاجات |
+| [38680254](https://pubmed.ncbi.nlm.nih.gov/38680254/) | 2024 | مراجعة | World Journal of Clinical Cases | مراجعة منهجية وتحليل شبكي لمضادات الالتهابات غير الستيرويدية (بما فيها عوامل فئة بيروكسيكام) للـ JIA، مقارنة الفعالية النسبية |
+| [33632948](https://pubmed.ncbi.nlm.nih.gov/33632948/) | 2021 | مراجعة | Indian Pediatrics | مراجعة منهجية وتحليل شبكي يقارنان فعالية وسلامة تسعة مضادات التهاب غير ستيرويدية في مرضى JIA |
+| [1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/) | 1991 | دراسة دوائية حركية | European Journal of Clinical Pharmacology | الحركية الدوائية في حالة الاستقرار لبيروكسيكام في 10 أطفال مصابين بمرض روماتيزمي؛ تم توصيف Cmax والعمر النصفي للجرعات الصيدلانية لدى الأطفال |
+| [9890680](https://pubmed.ncbi.nlm.nih.gov/9890680/) | 1998 | مراجعة | Clinical Rheumatology | دراسة السمية طويلة الأجل للعقاقير المضادة للروماتيزم والمضادة للالتهابات (بما فيها مضادات الالتهابات غير الستيرويدية) في مجموعة طب الروماتيزم لدى الأطفال |
+| [7797387](https://pubmed.ncbi.nlm.nih.gov/7797387/) | 1994 | دراسة جماعية | International Ophthalmology | تكرار ومضاعفات التهاب القزحية المزمن في التهاب مفاصل الأطفال قلة المفاصل الإيجابية ANA، وهو التظاهر خارج المفصلي ذو الصلة بإدارة المرض |
+| [15456329](https://pubmed.ncbi.nlm.nih.gov/15456329/) | 2004 | مراجعة | Drugs | مراجعة الاستخدام العلاجي والسلامة لنابوميتون (عامل مضاد التهاب ذو صلة) في هشاشة العظام والتهاب المفاصل الروماتويدي |
+| [1617910](https://pubmed.ncbi.nlm.nih.gov/1617910/) | 1992 | مراجعة | Clinical Pharmacy | مراجعة أوكسابروزين (عامل مضاد التهاب ذو صلة)، الصيدلة والفعالية السريرية في مرض المفاصل الالتهابي |
+| [21175420](https://pubmed.ncbi.nlm.nih.gov/21175420/) | 2010 | مراجعة | Critical Reviews in Therapeutic Drug Carrier Systems | مراجعة أنظمة توصيل أدوية مضادات الالتهابات غير الستيرويدية الممغنطة في التهاب المفاصل، بما فيها التهاب المفاصل مجهول السبب لدى الأطفال |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Piroxicam is not currently marketed in Saudi Arabia — 0 product authorizations on file.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-interaction data were available in this evidence pack — TFDA package insert and DDI queries returned no usable data.)
+بيروكسيكام غير مسوق حالياً في المملكة العربية السعودية — 0 تفويضات منتجات في الملف.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المعلومات الجزئية للحصول على معلومات السلامة. (لم تكن هناك بيانات منظمة عن التحذيرات أو موانع الاستعمال أو بيانات التفاعل بين الأدوية متاحة في هذه مجموعة الأدلة — كانت استفسارات نشرة المعلومات الجزئية TFDA وDDI تُرجع لا بيانات قابلة للاستخدام.)
 
-**Rationale:**
-Two direct piroxicam RCTs in juvenile (chronic) rheumatoid arthritis plus two recent NSAID-class systematic reviews/network meta-analyses in JIA give this candidate an L1 evidence level with a plausible, well-established mechanism (COX-1/2 inhibition). However, the drug is not currently marketed in Saudi Arabia and formal safety/labeling data are absent, so guardrails are needed before advancing.
+---
 
-**To proceed, the following is needed:**
-- Saudi Arabia (SFDA) regulatory pathway assessment for a pediatric JIA indication, since piroxicam has no current market authorization
-- Package insert / TFDA warnings, contraindications, and pediatric dosing safety data (currently a Blocking data gap)
-- Formal drug-drug interaction profile
-- Review of modern pediatric NSAID safety guidance given the age of the primary piroxicam RCTs (1986–1987) and known long-term GI/renal risk profile of piroxicam relative to newer NSAIDs in the same literature set
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات**
+
+**المبرر:**
+تجربتا RCT مباشرة لبيروكسيكام في التهاب المفاصل الروماتويدي المزمن لدى الأطفال بالإضافة إلى تحليلان شبكيان حديثان لمضادات الالتهابات غير الستيرويدية في JIA يمنحان هذا المرشح مستوى أدلة L1 مع آلية معقولة وراسخة (تثبيط COX-1/2). ومع ذلك، فإن الدواء غير مسوق حالياً في المملكة العربية السعودية وتغيب بيانات السلامة والوسم الرسمية، لذا يلزم وضع ضمانات قبل المضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+- تقييم المسار التنظيمي بالمملكة العربية السعودية (SFDA) لمؤشر طب الأطفال JIA، حيث أن بيروكسيكام لا يحتوي على تفويض سوق حالي
+- نشرة المعلومات الجزئية / تحذيرات TFDA وموانع الاستعمال وبيانات سلامة الجرعات لدى الأطفال (حالياً فجوة بيانات حاجزة)
+- ملف تفاعل دواء-دواء رسمي
+- مراجعة إرشادات السلامة الحديثة لمضادات الالتهابات غير الستيرويدية لدى الأطفال نظراً لعمر التجارب الأولية لبيروكسيكام (1986–1987) وملف المخاطر المعروفة طويلة الأجل من جهة الجهاز الهضمي والكلى لبيروكسيكام نسبة إلى مضادات الالتهابات غير الستيرويدية الأحدث في نفس مجموعة الأدبيات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

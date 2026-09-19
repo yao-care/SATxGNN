@@ -29,111 +29,112 @@ indication_count: 5
 
 </div>
 
-# Cyclophosphamide: From Broad-Spectrum Alkylating Chemotherapy to Myeloid Leukemia
+# السيكلوفوسفاميد: من العلاج الكيميائي القالب الواسع إلى الابيضاض النخاعي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Cyclophosphamide is a classical nitrogen mustard alkylating agent used globally across oncology and immunology settings, though it holds no current SFDA registration in Saudi Arabia.
-The TxGNN model predicts it may be particularly effective for **Myeloid Leukemia** — spanning both myeloablative conditioning for allogeneic HSCT and post-transplant GVHD prevention —
-with **multiple completed Phase 2/3 clinical trials** and **20 publications** currently supporting this direction.
+السيكلوفوسفاميد هو عامل قلويل كلاسيكي من نوع الخردل النيتروجيني يُستخدم عالميًا في مجالات الأورام وعلم المناعة، على الرغم من عدم وجود تسجيل حالي من هيئة الغذاء والدواء السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً بشكل خاص لـ **الابيضاض النخاعي** — يشمل كلاً من تكييف الاستئصال النخاعي لزراعة الخلايا الجذعية المكونة للدم المخصصة (allo-HSCT) ومنع مرض الكسب غير المشروع بعد الزراعة —
+مع **تجارب سريرية متعددة مكتملة من المرحلة 2/3** و **20 منشورًا** يدعم هذا الاتجاه حاليًا.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No SFDA-approved indication on record (not currently marketed in Saudi Arabia) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | لا توجد مؤشرات معتمدة من هيئة الغذاء والدواء السعودية في السجل (غير متوفر حاليًا في السوق السعودية) |
+| المؤشر الجديد المتنبأ به | الابيضاض النخاعي |
+| درجة التنبؤ TxGNN | 99.47% |
+| مستوى الأدلة | L2 |
+| حالة السوق السعودي | غير متوفر في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع تدابير احترازية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the DrugBank record retrieved for this analysis. Based on known clinical information, cyclophosphamide is an alkylating agent (nitrogen mustard class) whose active metabolites — primarily 4-hydroxycyclophosphamide and phosphoramide mustard — form DNA inter- and intra-strand crosslinks, triggering apoptosis in rapidly proliferating cells such as leukemic blasts. At myeloablative doses it eliminates residual disease and creates marrow space for donor engraftment; at lower doses it selectively depletes proliferating alloreactive T cells while sparing quiescent regulatory T cells (Tregs).
+حاليًا، لا تتوفر بيانات آلية عمل مفصلة في سجل DrugBank المسترجع لهذا التحليل. بناءً على المعلومات السريرية المعروفة، السيكلوفوسفاميد هو عامل قلويل (من فئة الخردل النيتروجيني) تشكل استقلباته النشطة — بشكل أساسي 4-hydroxycyclophosphamide و phosphoramide mustard — حلقات حمض نووي بين الحبلا وداخلها، مما يؤدي إلى الاستماتة في الخلايا سريعة الانقسام مثل الانفجارات اللوكيمية. عند جرعات مسحقة للنخاع، تقضي على المرض المتبقي وتوفر مساحة نخاع للخلايا المزروعة؛ عند جرعات أقل، تقضي بشكل انتقائي على خلايا T المتفاعلة سريعة التكاثر مع الحفاظ على خلايا T المنظمة الخاملة (Tregs).
 
-Myeloid leukemia involves clonal expansion of malignant myeloid progenitors in the bone marrow. Cyclophosphamide's myeloablative properties have made it a cornerstone of conditioning regimens for allogeneic HSCT in AML: the BuCy (busulfan + cyclophosphamide) protocol has been a reference-standard myeloablative conditioning regimen for decades, and remains in active use as shown by Phase 3 data (NCT01191957, n=252). A completed Phase 3 trial also demonstrated its role in high-dose intensification prior to autologous SCT in adult myeloid leukemia (NCT00002945).
+يتميز الابيضاض النخاعي بالتوسع المنسوخ للسلائف النخاعية الخبيثة في نخاع العظم. جعلت الخصائص المسحقة للنخاع لدى السيكلوفوسفاميد حجر الأساس في أنظمة التكييف لـ allo-HSCT في AML: بروتوكول BuCy (busulfan + cyclophosphamide) كان نظام تكييف مسحق مرجعياً معيارياً لعقود، ويبقى قيد الاستخدام النشط كما هو موضح في بيانات المرحلة 3 (NCT01191957, n=252). أظهرت أيضًا تجربة مرحلة 3 مكتملة دوره في المعالجة المكثفة عالية الجرعات قبل الزراعة الذاتية للخلايا الجذعية (autologous SCT) في الابيضاض النخاعي لدى البالغين (NCT00002945).
 
-A second, more contemporary mechanistic rationale centers on post-transplant cyclophosphamide (PTCy): administered at 50 mg/kg on days +3 and +4 following allo-HSCT, PTCy eliminates alloreactive T cells that have proliferated in response to donor-host MHC mismatches, thereby preventing graft-versus-host disease (GVHD) while preserving graft-versus-leukemia (GVL) activity. PTCy has emerged as the preferred GVHD prophylaxis strategy across haploidentical, matched-related, and matched-unrelated donor settings in AML, accumulating registry-level cohort evidence exceeding 1,800 patients (PMID 39939431). The TxGNN prediction is therefore strongly supported by both mechanistic plausibility and clinical validation.
+تتركز النسبة الآلية الثانية والأحدث على السيكلوفوسفاميد بعد الزراعة (PTCy): يُعطى بجرعة 50 mg/kg في الأيام +3 و +4 بعد allo-HSCT، يزيل PTCy خلايا T المتفاعلة التي تكون قد تكاثرت استجابة لعدم توافقية HLA بين المتبرع والمستقبل، وبالتالي يمنع مرض الكسب غير المشروع (GVHD) مع الحفاظ على نشاط الكسب غير المشروع (GVL). برز PTCy باعتباره استراتيجية الاختيار للنبوة من GVHD عبر إعدادات haploidentical والمتطابقة والمرتبطة والمتطابقة وغير المرتبطة في AML، حيث تراكمت أدلة السجل على مستوى المجموعة تتجاوز 1,800 مريض (PMID 39939431). التنبؤ TxGNN مدعوم بقوة من خلال معقولية الآلية والتحقق السريري.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المرضى | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01191957](https://clinicaltrials.gov/study/NCT01191957) | Phase 3 | Completed | 252 | Prospective randomized comparison of IV BuFlu vs BuCy2 as conditioning for AML patients ≥40 years in complete remission undergoing allo-HSCT; primary endpoints transplant-related mortality at 1 year and anti-leukemic efficacy — the pivotal dataset for Cy-based conditioning in older AML |
-| [NCT00002945](https://clinicaltrials.gov/study/NCT00002945) | Phase 3 | Completed | 61 | High-dose cytarabine + idarubicin induction followed by high-dose etoposide + cyclophosphamide intensification, autologous SCT, and IL-2 immune modulation in previously untreated adult myeloid leukemia; evaluates Cy as a key intensification component |
-| [NCT00003868](https://clinicaltrials.gov/study/NCT00003868) | Phase 2 | Completed | 40 | Radiolabeled BC8 (anti-CD45) antibody combined with cyclophosphamide and TBI followed by HLA-matched related or unrelated HSCT in advanced AML and MDS; directly tests Cy as part of targeted radioimmuno-conditioning, with long-term survival data |
-| [NCT00005892](https://clinicaltrials.gov/study/NCT00005892) | N/A | Completed | N/A | Moderate-dose cyclophosphamide plus radiotherapy before allogeneic BMT in AML and MDS related to Fanconi's anemia; determines whether dose-attenuated Cy-containing conditioning can reduce morbidity while maintaining efficacy |
-| [NCT07108530](https://clinicaltrials.gov/study/NCT07108530) | Phase 2 | Recruiting | 50 | Multicenter single-arm study evaluating an integrated induction-consolidation-transplantation protocol in adult AML (excluding M3 subtype); two modern induction options (IAV and DAV regimens), representing current standard-of-care transplant trajectory |
-| [NCT03602898](https://clinicaltrials.gov/study/NCT03602898) | Phase 2 | Withdrawn | 0 | Randomized design comparing ATG vs post-transplant cyclophosphamide (PTCy) vs calcineurin inhibitor + methotrexate as GVHD prophylaxis after myeloablative unrelated donor PBSC transplantation; withdrawn before enrolment, but the scientific question remains clinically active and unanswered |
-| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Phase 2 | Completed | 213 | Cyclophosphamide/fludarabine/TBI myeloablative preparative regimen for unrelated umbilical cord blood transplantation in hematological malignancies including myeloid leukemia; largest UCB-conditioning dataset with explicit Cy dosing |
-| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | Phase 1 | Terminated | 35 | Dose-escalation study of clofarabine followed by escalating fractionated cyclophosphamide in children with relapsed or refractory acute leukemias; provides MTD and safety data for Cy in the pediatric leukemia context |
-| [NCT01338987](https://clinicaltrials.gov/study/NCT01338987) | Phase 2 | Completed | 76 | Lupron to enhance lymphocyte immune reconstitution following allogeneic BMT (Cy as preparative regimen component); 9-year enrolment period with molecular imaging evaluation, offering long-term safety and immune reconstitution data |
-| [NCT04835519](https://clinicaltrials.gov/study/NCT04835519) | Phase 1/2 | Completed | 5 | CD33 CAR-T cells in relapsed/refractory AML; cyclophosphamide (250 mg/m²) used as lymphodepletion pretreatment alongside fludarabine, confirming its enabling role for next-generation cellular immunotherapy in AML |
+| [NCT01191957](https://clinicaltrials.gov/study/NCT01191957) | المرحلة 3 | مكتملة | 252 | مقارنة عشوائية محتملة بين IV BuFlu مقابل BuCy2 كتكييف لمرضى AML ≥40 سنة في ركود كامل يخضعون لـ allo-HSCT؛ النقاط النهائية الأولية تشمل وفيات الزراعة المرتبطة بالعامل في السنة الأولى والفعالية المضادة للابيضاض — مجموعة البيانات المحورية لتكييف يعتمد على السيكلوفوسفاميد في AML الأكبر سناً |
+| [NCT00002945](https://clinicaltrials.gov/study/NCT00002945) | المرحلة 3 | مكتملة | 61 | حث بالسيتارابين عالي الجرعة + الإيداروبيسين يليه التكثيف بـ etoposide + cyclophosphamide بجرعات عالية، ثم SCT ذاتي، والتعديل المناعي بـ IL-2 في الابيضاض النخاعي البالغ السابق غير المعالج؛ يقيّم السيكلوفوسفاميد كمكون تكثيف رئيسي |
+| [NCT00003868](https://clinicaltrials.gov/study/NCT00003868) | المرحلة 2 | مكتملة | 40 | جسم BC8 المشع (anti-CD45) مجموع مع السيكلوفوسفاميد و TBI يليه HSCT متطابق مرتبط بـ HLA أو غير متطابق في AML متقدمة و MDS؛ يختبر مباشرة السيكلوفوسفاميد كجزء من تكييف مناعي إشعاعي موجه، مع بيانات البقاء على المدى الطويل |
+| [NCT00005892](https://clinicaltrials.gov/study/NCT00005892) | غير محدد | مكتملة | غير محدد | السيكلوفوسفاميد بجرعة معتدلة بالإضافة إلى العلاج الإشعاعي قبل BMT ذاتي في AML و MDS المرتبطة بفقر الدم Fanconi؛ يحدد ما إذا كان التكييف المخفف الجرعة الذي يحتوي على السيكلوفوسفاميد يمكن أن يقلل الاعتلال مع الحفاظ على الفعالية |
+| [NCT07108530](https://clinicaltrials.gov/study/NCT07108530) | المرحلة 2 | قيد الاستقطاب | 50 | دراسة متعددة المراكز بذراع واحدة تقيّم بروتوكول حث-توطيد-زراعة متكامل في AML البالغة (باستثناء النمط M3)؛ خياران حثيان حديثان (أنظمة IAV و DAV)، يمثلان مسار الزراعة الحالي المعياري للعناية |
+| [NCT03602898](https://clinicaltrials.gov/study/NCT03602898) | المرحلة 2 | منسحبة | 0 | تصميم عشوائي مقارنة ATG مقابل السيكلوفوسفاميد بعد الزراعة (PTCy) مقابل مثبط كالسينيورين + ميثوتريكسات كنبوة GVHD بعد زراعة PBSC غير المرتبطة المسحقة للنخاع؛ انسحبت قبل التسجيل، لكن السؤال العلمي يبقى نشطًا سريريًا وبدون إجابة |
+| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | المرحلة 2 | مكتملة | 213 | نظام تحضيري مسحق نخاعي بـ cyclophosphamide/fludarabine/TBI لزراعة الحبل السري من متبرع غير متطابق في الأورام الخبيثة الدموية بما فيها الابيضاض النخاعي؛ أكبر مجموعة بيانات تكييف بحبل سري مع جرعة السيكلوفوسفاميد المعروضة بوضوح |
+| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | المرحلة 1 | منسحبة | 35 | دراسة تصعيد جرعة من clofarabine يليه السيكلوفوسفاميد المقسّم بجرعة متصاعدة في الأطفال الذين يعانون من الابيضاضات الحادة الانتكاسة أو المقاومة للعلاج؛ توفر بيانات الجرعة القصوى المسموح بها والسلامة للسيكلوفوسفاميد في السياق الابيضاض الحاد عند الأطفال |
+| [NCT01338987](https://clinicaltrials.gov/study/NCT01338987) | المرحلة 2 | مكتملة | 76 | Lupron لتحسين إعادة تكوين الخلايا اللمفاوية المناعية بعد BMT ذاتي (السيكلوفوسفاميد كمكون نظام التحضير)؛ فترة تسجيل 9 سنوات مع تقييم التصوير الجزيئي، توفر بيانات السلامة على المدى الطويل وإعادة التكوين المناعي |
+| [NCT04835519](https://clinicaltrials.gov/study/NCT04835519) | المرحلة 1/2 | مكتملة | 5 | خلايا CAR-T لـ CD33 في AML الانتكاسة/المقاومة للعلاج؛ السيكلوفوسفاميد (250 mg/m²) يُستخدم كمعالجة نضح لمفاوي استهلالية جنباً إلى جنب مع fludarabine، يؤكد دوره الممكِّن للعلاج الخلوي من الجيل التالي في AML |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Systematic Review / NMA | Bone Marrow Transplantation | Bayesian network meta-analysis of myeloablative conditioning regimens for AML undergoing allo-HSCT in complete remission; Bu/Cy (oral 16 mg/kg or IV 12.8 mg/kg) benchmarked against all major alternatives — defines relative efficacy and toxicity positioning |
-| [39939431](https://pubmed.ncbi.nlm.nih.gov/39939431/) | 2025 | Retrospective Cohort | Bone Marrow Transplantation | 1,823 AML patients in CR1 receiving first allo-HSCT with PTCy; analyzed impact of conditioning intensity stratified by cytogenetic/molecular risk — largest published PTCy dataset in AML to date |
-| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohort / Registry | Haematologica | 217 AML patients receiving MAC + PTCy-based GVHD prophylaxis; 2-year OS 77%, EFS 72%; assesses prognostic significance of ELN 2022 genetic risk categories in the PTCy era |
-| [40437709](https://pubmed.ncbi.nlm.nih.gov/40437709/) | 2025 | Retrospective Cohort | European Journal of Haematology | MAC vs RIC conditioning in AML patients <65 years receiving ATG + PTCy-based GVHD prophylaxis; demonstrates that conditioning intensity modulation within a PTCy backbone impacts disease control without proportional toxicity increase |
-| [38499049](https://pubmed.ncbi.nlm.nih.gov/38499049/) | 2024 | Prospective Phase 2 | Transplant Immunology | Cladribine + BuCy as intensive conditioning prior to allo-HSCT in relapsed/refractory AML; directly evaluates an augmented Cy-containing conditioning regimen for the most difficult-to-treat AML patients |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Retrospective Cohort | Future Oncology | Head-to-head comparison of BuCy vs FluBu myeloablative conditioning for allo-HSCT in AML; confirms BuCy as an active comparator with similar efficacy and a distinct toxicity profile |
-| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Retrospective Cohort | Cytotherapy | Prognostic factors in haploidentical HSCT with PTCy for AML; identifies disease status, donor-recipient CMV serostatus, and conditioning intensity as key outcome predictors in the PTCy paradigm |
-| [32428903](https://pubmed.ncbi.nlm.nih.gov/32428903/) | 2021 | Retrospective Cohort | Acta Haematologica | PTCy (50 mg/kg, days +3/+4) + ATG (4.5 mg/kg) as GVHD prophylaxis for high-risk AML and MDS undergoing allo-HCT; compared to alternative prophylaxis regimens, demonstrating the combination's feasibility in very high-risk disease |
-| [33325761](https://pubmed.ncbi.nlm.nih.gov/33325761/) | 2021 | Retrospective Series | Leukemia & Lymphoma | High-dose cyclophosphamide (HDCy, 60 mg/kg) as emergency cytoreduction in 27 AML patients with hyperleukocytosis or leukostasis; demonstrates direct anti-leukemic efficacy outside the transplant setting |
-| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | Retrospective Cohort | Int'l J Molecular Sciences | PTCy as GVHD prophylaxis in pediatric AML after matched related and unrelated donor HSCT; first published pediatric AML dataset in this context, addressing an important gap in the evidence base |
+| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | مراجعة منهجية / تحليل شبكة | Bone Marrow Transplantation | تحليل شبكة بايزي لأنظمة التكييف المسحقة للنخاع في AML يخضع لـ allo-HSCT في ركود كامل؛ تم قياس Bu/Cy (فموي 16 mg/kg أو عن طريق الوريد 12.8 mg/kg) مقابل جميع البدائل الرئيسية — يحدد الفعالية النسبية وموضع السمية |
+| [39939431](https://pubmed.ncbi.nlm.nih.gov/39939431/) | 2025 | مجموعة بأثر رجعي | Bone Marrow Transplantation | 1,823 مريض AML في CR1 يتلقون أول allo-HSCT مع PTCy؛ حلّل تأثير كثافة التكييف المقسّم حسب خطر السيتوجينتية/الجزيئية — أكبر مجموعة بيانات PTCy منشورة في AML حتى الآن |
+| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | مجموعة / سجل | Haematologica | 217 مريض AML يتلقون MAC + نبوة GVHD القائمة على PTCy؛ معدل البقاء الكلي 2 سنة 77%، معدل خلو الأمراض 72%؛ يقيّم الأهمية الإنذارية لفئات خطر الجينات ELN 2022 في عصر PTCy |
+| [40437709](https://pubmed.ncbi.nlm.nih.gov/40437709/) | 2025 | مجموعة بأثر رجعي | European Journal of Haematology | MAC مقابل RIC في مرضى AML <65 سنة يتلقون نبوة GVHD القائمة على ATG + PTCy؛ يوضح أن تعديل كثافة التكييف داخل عمود PTCy يؤثر على السيطرة على الأمراض بدون زيادة تناسبية في السمية |
+| [38499049](https://pubmed.ncbi.nlm.nih.gov/38499049/) | 2024 | المرحلة 2 الاستشرافية | Transplant Immunology | Cladribine + BuCy كتكييف كثيف قبل allo-HSCT في AML الانتكاسة/المقاومة للعلاج؛ يقيّم مباشرة نظام تكييف معزز يحتوي على السيكلوفوسفاميد لمرضى AML الأصعب معالجة |
+| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | مجموعة بأثر رجعي | Future Oncology | مقارنة مباشرة بين BuCy و FluBu تكييف مسحق نخاع لـ allo-HSCT في AML؛ يؤكد BuCy كمقارِن نشط مع فعالية مماثلة وملف سمية متميز |
+| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | مجموعة بأثر رجعي | Cytotherapy | العوامل الإنذارية في HSCT haploidentical مع PTCy للـ AML؛ يحدد حالة المرض، حالة CMV بين المتبرع والمستقبل، وكثافة التكييف كعوامل نتيجة رئيسية في نموذج PTCy |
+| [32428903](https://pubmed.ncbi.nlm.nih.gov/32428903/) | 2021 | مجموعة بأثر رجعي | Acta Haematologica | PTCy (50 mg/kg, الأيام +3/+4) + ATG (4.5 mg/kg) كنبوة GVHD لـ AML و MDS عالية الخطورة يخضعون لـ allo-HCT؛ مقارنة مع أنظمة نبوة بديلة، توضح جدوى المجموعة في المرض عالي الخطورة جداً |
+| [33325761](https://pubmed.ncbi.nlm.nih.gov/33325761/) | 2021 | سلسلة بأثر رجعي | Leukemia & Lymphoma | السيكلوفوسفاميد بجرعة عالية (HDCy, 60 mg/kg) كتقليل سيتولوجي طارئ في 27 مريض AML مع فرط الكريات البيضاء أو الورم الكريمي الدموي؛ يوضح الفعالية المضادة للابيضاض المباشرة خارج إعداد الزراعة |
+| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | مجموعة بأثر رجعي | Int'l J Molecular Sciences | PTCy كنبوة GVHD في AML الأطفال بعد allo-HSCT من متبرع مرتبط متطابق وغير متطابق؛ أول مجموعة بيانات AML أطفال منشورة في هذا السياق، تعالج فجوة مهمة في قاعدة الأدلة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-Cyclophosphamide is currently not registered with the Saudi Food and Drug Authority (SFDA). No product licenses, approved dosage forms, or approved indications are on record. Formal market authorization would be required before clinical use under Saudi Arabia regulatory jurisdiction.
+السيكلوفوسفاميد غير مسجل حاليًا لدى هيئة الغذاء والدواء السعودية (SFDA). لا توجد تراخيص منتجات أو أشكال جرعات معتمدة أو مؤشرات معتمدة في السجل. يُطلب الحصول على موافقة سوقية رسمية قبل الاستخدام السريري تحت الاختصاص القانوني للمملكة العربية السعودية.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic (Nitrogen mustard alkylating agent) |
-| Myelosuppression Risk | High — leukopenia, thrombocytopenia, and anemia are expected dose-dependent effects; nadir typically occurs 8–14 days post-administration; high-dose regimens used in AML conditioning carry severe myeloablation by design |
-| Emetogenicity Classification | Moderate (standard doses) to High (high-dose conditioning ≥600 mg/m²); prophylactic anti-emetic regimens including NK1-receptor antagonists are required at conditioning doses |
-| Monitoring Items | CBC with differential (daily during conditioning, then per protocol), serum creatinine and LFTs, urinalysis and urine microscopy (hemorrhagic cystitis surveillance), electrolytes, and SIADH monitoring at high doses |
-| Handling Protection | Required — cytotoxic drug handling protocols mandatory, including closed-system drug transfer devices, biological safety cabinet preparation, and appropriate PPE |
+| تصنيف السمية الخلوية | سمية خلوية تقليدية (عامل قلويل من نوع الخردل النيتروجيني) |
+| مخاطر قمع النخاع | عالية — نقص الكريات البيضاء والقلة الصفيحات وفقر الدم هي آثار متوقعة تعتمد على الجرعة؛ عادة يحدث الحضيض خلال 8–14 يوم بعد الإعطاء؛ الأنظمة ذات الجرعات العالية المستخدمة في تكييف AML تحمل الاستئصال النخاعي الشديد بالتصميم |
+| تصنيف الغثيان | معتدل (الجرعات القياسية) إلى عالي (تكييف بجرعات عالية ≥600 mg/m²)؛ تُطلب أنظمة الوقاية من الغثيان الاستباقية بما فيها حاصرات مستقبل NK1 عند جرعات التكييف |
+| بنود المراقبة | عد الدم الكامل مع التفريق (يوميًا أثناء التكييف، ثم حسب البروتوكول)، الكرياتينين وإنزيمات الكبد في المصل، تحليل وفحص البول المجهري (مراقبة التهاب المثانة النزفي)، الشوارد الكهربائية، ومراقبة SIADH عند الجرعات العالية |
+| حماية المعالجة | مطلوبة — بروتوكولات معالجة العقاقير السامة للخلايا إلزامية، بما فيها أجهزة نقل العقاقير نظام مغلق، تحضير خزانة السلامة البيولوجية، و معدات الحماية الشخصية المناسبة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع تدابير احترازية**
 
-**Rationale:**
-Cyclophosphamide's role in myeloid leukemia is supported by decades of clinical evidence, including completed Phase 3 randomized trials of BuCy conditioning in AML (n=252), prospective Phase 2 data in relapsed/refractory AML, and registry-scale retrospective cohorts encompassing over 1,800 AML patients receiving PTCy-based GVHD prophylaxis. The mechanistic rationale — myeloablation of leukemic blasts and selective elimination of alloreactive T cells — is well-characterized in the transplant literature. The TxGNN prediction at 99.47% is consistent with this established body of evidence.
+**المنطق:**
+يدعم دور السيكلوفوسفاميد في الابيضاض النخاعي عقود من الأدلة السريرية، بما فيها تجارب عشوائية مكتملة من المرحلة 3 لتكييف BuCy في AML (n=252)، وبيانات المرحلة 2 الاستشرافية في AML الانتكاسة/المقاومة للعلاج، ومجاميع بأثر رجعي على مستوى السجل تشمل أكثر من 1,800 مريض AML يتلقون نبوة GVHD القائمة على PTCy. يتم توضيح المنطق الآلي — استئصال النخاع من الانفجارات اللوكيمية والقضاء الانتقائي على خلايا T المتفاعلة — بشكل جيد في أدبيات الزراعة. التنبؤ TxGNN بـ 99.47% متسق مع هذا الجسم المؤسس من الأدلة.
 
-**To proceed, the following is needed:**
-- Saudi Arabia SFDA registration pathway assessment and market access strategy for an unregistered cytotoxic agent
-- Formal package insert (SmPC) retrieval to document official warnings, contraindications, and drug-drug interactions
-- DrugBank MOA record completion to support regulatory submission documentation
-- Mesna co-administration protocol specification for hemorrhagic cystitis prevention in high-dose conditioning regimens
-- Mapping to local Saudi Arabia AML transplant practice guidelines to identify the specific clinical niche (BuCy conditioning vs. PTCy GVHD prophylaxis) where registration adds greatest value
+**للمتابعة، يلزم ما يلي:**
+- تقييم مسار تسجيل هيئة الغذاء والدواء السعودية واستراتيجية الوصول إلى السوق لعامل سام للخلايا غير مسجل
+- استرجاع نشرة رسمية (SmPC) لتوثيق التحذيرات الرسمية والموانع والتفاعلات بين الأدوية
+- استكمال سجل آلية عمل DrugBank لدعم توثيق التقدم إلى الهيئات التنظيمية
+- مواصفات بروتوكول إعطاء Mesna المشترك لمنع التهاب المثانة النزفي في أنظمة التكييف ذات الجرعات العالية
+- التعيين على إرشادات ممارسة AML المحلية بالمملكة العربية السعودية لتحديد الدقة السريرية المحددة (تكييف BuCy مقابل نبوة GVHD PTCy) حيث يضيف التسجيل أكبر قيمة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

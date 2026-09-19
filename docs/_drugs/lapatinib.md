@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Lapatinib: From HER2-Positive Breast Cancer to Dermatofibrosarcoma Protuberans
+# لابتينيب: من سرطان الثدي الإيجابي لـ HER2 إلى الورم الليفي الجلدي البارز
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Lapatinib is a dual EGFR/HER2 tyrosine kinase inhibitor used clinically for HER2-overexpressing breast cancer (based on general pharmacological knowledge; Saudi regulatory records show no approved indication text since the drug is not marketed there). The TxGNN model predicts a possible effect in **Dermatofibrosarcoma Protuberans (DFSP)**, but this prediction is currently **unsupported by any clinical trial or literature evidence** and is mechanistically discordant with the drug's known target profile.
+لابتينيب هو مثبط ثنائي التأثير لتيروسين كيناز (EGFR/HER2) يُستخدم سريرياً لسرطان الثدي الإيجابي لـ HER2 (بناءً على المعرفة الدوائية العامة؛ السجلات التنظيمية السعودية لا تُظهر أي نص إشارة موافق عليها حيث أن الدواء غير مسوّق هناك). يتنبأ نموذج TxGNN بتأثير محتمل في **الورم الليفي الجلدي البارز (DFSP)**، لكن هذا التنبؤ غير مدعوم حالياً بأي دليل تجريبي سريري أو أدبي وهو غير متوافق آلياً مع ملف التأثير المستهدف المعروف للدواء.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | HER2-positive breast cancer (based on general drug knowledge; no Saudi regulatory record exists) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.30% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| الإشارة الأصلية | سرطان الثدي الإيجابي لـ HER2 (بناءً على معرفة الدواء العامة؛ لا يوجد سجل تنظيمي سعودي) |
+| الإشارة الجديدة المتنبأ بها | الورم الليفي الجلدي البارز |
+| درجة التنبؤ بـ TxGNN | 99.30% |
+| مستوى الدليل | L5 |
+| حالة سوق المملكة العربية السعودية | غير مسوّق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | تعليق |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on general pharmacological knowledge, lapatinib is a dual tyrosine kinase inhibitor targeting **EGFR and HER2 (ERBB2)**, and its efficacy in HER2-positive breast cancer is well established.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة هذه. بناءً على المعرفة الدوائية العامة، لابتينيب هو مثبط ثنائي تيروسين كيناز يستهدف **EGFR و HER2 (ERBB2)**، وثبتت فعاليته في سرطان الثدي الإيجابي لـ HER2.
 
-DFSP, however, is molecularly driven by a **COL1A1-PDGFB fusion gene** that causes constitutive **PDGFRB** activation — a distinct pathway from EGFR/HER2. The clinical standard-of-care targeted therapy for DFSP is **imatinib**, a PDGFR inhibitor, not an EGFR/HER2 inhibitor.
+الورم الليفي الجلدي البارز، مع ذلك، يتم تحفيزه جزيئياً بواسطة **جين الاندماج COL1A1-PDGFB** الذي يسبب **تفعيل PDGFRB** المستمر — مسار مختلف عن EGFR/HER2. العلاج المستهدف بمعيار الرعاية السريرية القياسي للورم الليفي الجلدي البارز هو **إماتينيب**، مثبط PDGFR، وليس مثبط EGFR/HER2.
 
-Because lapatinib does not target PDGFR, there is **no direct mechanistic link** between its known pharmacology and the DFSP driver pathway. The high TxGNN score (99.30%) most likely reflects structural or embedding-space similarity among tyrosine kinase inhibitors in the knowledge graph, rather than target-specific evidence. This prediction should be treated as a hypothesis-generating signal only, not as mechanistically validated.
+نظراً لأن لابتينيب لا يستهدف PDGFR، لا توجد **ارتباط آلي مباشر** بين الصيدلة المعروفة للدواء ومسار محرك الورم الليفي الجلدي البارز. درجة TxGNN العالية (99.30%) ربما تعكس التشابه الهيكلي أو الشبيه بالفضاء بين مثبطات تيروسين كيناز في الرسم البياني المعرفي، وليس دليل محدد الهدف. يجب التعامل مع هذا التنبؤ كإشارة لتوليد فرضية فقط، وليس كآلية تم التحقق من صحتها.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Lapatinib is not marketed in Saudi Arabia (0 authorizations on record); no product license information is available.
+لابتينيب غير مسوّق في المملكة العربية السعودية (0 تخويل في السجل)؛ لا توجد معلومات ترخيص منتج متاحة.
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (EGFR/HER2 tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| العنصر | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | علاج موجه (مثبط تيروسين كيناز EGFR/HER2) |
+| خطر كبت النخاع | يُرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الداخلية |
+| تصنيف الغثيان والقيء | يُرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الداخلية |
+| بنود المراقبة | يُرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الداخلية |
+| تدابير الحماية أثناء المعالجة | يُرجى الرجوع إلى التحذيرات والاحتياطات في النشرة الداخلية |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-The prediction rests solely on the TxGNN model score (L5, no clinical trials or literature), and the drug's known EGFR/HER2 mechanism is mechanistically discordant with the PDGFR-driven pathology of DFSP. Combined with a Blocking data gap on TFDA safety/label information, this candidate cannot advance to safety review at this time.
+**المبرر:**
+يستند التنبؤ فقط على درجة نموذج TxGNN (L5، بدون تجارب سريرية أو أدبيات)، والآلية المعروفة لـ EGFR/HER2 للدواء غير متوافقة آلياً مع المسار المدفوع بـ PDGFR في الورم الليفي الجلدي البارز. مع ثغرة بيانات معيقة في معلومات TFDA/النسبة المئوية، لا يمكن لهذا المرشح التقدم إلى مراجعة السلامة في الوقت الحالي.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications, DDI) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Preclinical or case-level evidence of lapatinib activity in PDGFR-driven or imatinib-resistant DFSP models
-- Literature or trial search re-run after data gaps are resolved to reassess evidence level
+**للمتابعة، يُطلب ما يلي:**
+- النشرة الداخلية من TFDA/الشركة المصنعة (التحذيرات والموانع والتفاعلات الدوائية) — حالياً ثغرة معيقة (DG001)
+- بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- دليل سابق للعلاج أو دليل على مستوى الحالة لنشاط لابتينيب في نماذج الورم الليفي الجلدي البارز المدفوع بـ PDGFR أو المقاوم لإماتينيب
+- إعادة تشغيل البحث في الأدبيات أو التجارب بعد حل الثغرات البيانية لإعادة تقييم مستوى الدليل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,79 +29,79 @@ indication_count: 8
 
 </div>
 
-# CEFAZOLIN: From Surgical Prophylaxis to Infectious Otitis Media
+# السيفازولين: من الوقاية من العدوى الجراحية إلى التهاب الأذن الوسطى العدوى
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Cefazolin is a first-generation cephalosporin antibiotic, widely recognized as the gold-standard agent for perioperative surgical prophylaxis and treatment of gram-positive bacterial infections per ASHP and IDSA guidelines.
-The TxGNN model predicts it may be effective for **Infectious Otitis Media** (prediction score: 99.44%), with **1 clinical trial** and **3 publications** currently identified in support of this direction — though the clinical trial was terminated before completion and evidence remains at an observational level.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Surgical prophylaxis; gram-positive bacterial infections (skin, soft tissue, urinary tract) |
-| Predicted New Indication | Infectious Otitis Media |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+السيفازولين هو مضاد حيوي من فئة السيفالوسبورينات من الجيل الأول، معترف به على نطاق واسع كعامل المعيار الذهبي للوقاية الجراحية حول العملية ومعالجة العدوى البكتيرية موجبة الجرام وفقاً لإرشادات ASHP و IDSA. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في التهاب الأذن الوسطى العدوى (درجة التنبؤ: 99.44%)، مع تحديد 1 تجربة سريرية و 3 منشورات حتى الآن تدعم هذا الاتجاه — على الرغم من أن التجربة السريرية تم إيقافها قبل إكمالها والأدلة لا تزال على مستوى ملاحظة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not captured in this dataset. Based on established pharmacological knowledge, Cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), disrupting peptidoglycan cross-linking and triggering bacterial lysis. Its antimicrobial spectrum is strongest against gram-positive organisms — particularly *Staphylococcus aureus* and *Streptococcus pyogenes* — with limited activity against gram-negative species.
-
-The connection to infectious otitis media is mechanistically partial. Acute otitis media is most commonly caused by *Streptococcus pneumoniae*, *Haemophilus influenzae*, and *Moraxella catarrhalis*, for which Cefazolin has significant coverage gaps. However, in cases where *S. aureus* or *S. pyogenes* are the predominant pathogens (a recognized minority of presentations), Cefazolin's spectrum aligns well. A 2025 case report (PMID 39567876) documents Cefazolin's use in Gradenigo syndrome — a rare, severe complication of petrous apicitis secondary to acute otitis media — as part of an empiric combination regimen targeting gram-positive organisms in a serious ENT infection.
-
-The TxGNN model's high confidence score (99.44%) likely reflects the pathogen-level mechanistic overlap rather than a direct indication match. Clinically, Cefazolin's IV/IM-only route of administration and incomplete pathogen coverage reduce its practicality as a primary therapy for typical community-acquired otitis media, though there may be a niche role in inpatient or post-surgical ENT contexts.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | Phase 2 | Terminated | 520 | Evaluated short-course (5-day) vs. standard-duration (10-day) antimicrobial therapy in children aged 6–23 months with acute otitis media; designed as a randomized, double-blind, placebo-controlled trial. Trial was terminated before completion. The specific antibiotic studied is not confirmed to be Cefazolin, and no efficacy results are available. The termination is an important caution signal. |
+| العنصر | المحتوى |
+|-------|---------|
+| العلاج الأصلي | الوقاية الجراحية؛ العدوى البكتيرية موجبة الجرام (الجلد والأنسجة الرخوة والمسالك البولية) |
+| العلاج الجديد المتنبأ به | التهاب الأذن الوسطى العدوى |
+| درجة التنبؤ بـ TxGNN | 99.44% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ لم يتم تسويقه |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case Report | Ann Otol Rhinol Laryngol | Ceftazidime + Cefazolin empiric combination therapy for pediatric Gradenigo syndrome (a rare, severe complication of otitis media with petrous apicitis); supports Cefazolin's contribution as gram-positive coverage in complicated ENT infections where *S. aureus* and *Streptococcus* spp. are implicated |
-| [877649](https://pubmed.ncbi.nlm.nih.gov/877649/) | 1977 | Review | Southern Med J | Overview of cephalosporin antibiotics in pediatric practice; notes the class's efficacy against gram-positive cocci and selected gram-negative bacilli, with potential application in pediatric ear infections, particularly in penicillin-allergic patients |
-| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Case Series/Review | Clinical Pharmacy | Case review of Stevens-Johnson syndrome in a child who received Cefazolin during management of otitis media and febrile seizures; provides indirect evidence of historical Cefazolin use in the otitis media clinical context, and also raises awareness of hypersensitivity risk |
+بيانات آلية العمل التفصيلية لم يتم التقاطها في هذه المجموعة من البيانات. بناءً على المعرفة الصيدلانية الراسخة، السيفازولين هو سيفالوسبورين من الجيل الأول يثبط تخليق جدار الخلية البكتيرية بالارتباط ببروتينات ربط البنسلين (PBPs)، مما يعطل الترابط المتصالب للببتيدوجليكان ويؤدي إلى انحلال البكتيريا. طيفه المضاد للميكروبات قوي بشكل أساسي ضد الكائنات الحية موجبة الجرام — خاصة *Staphylococcus aureus* و *Streptococcus pyogenes* — مع نشاط محدود ضد الأنواع سالبة الجرام.
 
----
+الاتصال بالتهاب الأذن الوسطى العدوى ميكانيكي جزئي. يحدث التهاب الأذن الوسطى الحاد بشكل شائع بسبب *Streptococcus pneumoniae* و *Haemophilus influenzae* و *Moraxella catarrhalis*، والتي يتمتع السيفازولين بفجوات تغطية كبيرة ضدها. ومع ذلك، في الحالات التي تكون فيها *S. aureus* أو *S. pyogenes* هي الممرضات السائدة (أقلية معترف بها من العروض)، يتوافق طيف السيفازولين جيداً. تم توثيق حالة لعام 2025 (PMID 39567876) استخدام السيفازولين في متلازمة جراديينيجو — وهي مضاعفة نادرة وشديدة من التهاب قمة الهرم الصخري الثانوي لالتهاب الأذن الوسطى الحاد — كجزء من نظام علاج تجريبي مشترك يستهدف الكائنات الحية موجبة الجرام في عدوى الأنف والأذن والحنجرة الخطيرة.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** One literature item (PMID 3742953) documents Stevens-Johnson syndrome in a patient receiving Cefazolin for an otitis media episode, and the mechanistic rationale for Rank 8 (allergic otitis media) explicitly flags that beta-lactam antibiotics — including Cefazolin — are known triggers for severe hypersensitivity reactions including anaphylaxis and SJS. This cross-sensitivity risk (approximately 1–2% with penicillin-allergic patients) warrants standard beta-lactam allergy screening before use.
+درجة الثقة العالية لنموذج TxGNN (99.44%) تعكس على الأرجح التداخل الميكانيكي على مستوى الممرض بدلاً من تطابق العلاج المباشر. من الناحية السريرية، فإن مسار التوصيل الوريدي/العضلي فقط للسيفازولين وعدم اكتمال التغطية الممرضة يقللان من جدواه كعلاج أساسي للتهاب الأذن الوسطى المكتسب من المجتمع، على الرغم من أنه قد يكون هناك دور متخصص في سياقات الأنف والأذن والحنجرة المتعلقة بالمرضى الداخليين أو بعد الجراحة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-----------|--------|--------|---------|-----------------|
+| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | المرحلة 2 | تم الإيقاف | 520 | قيّمت مسار قصير (5 أيام) مقابل علاج قياسي المدة (10 أيام) بالعوامل المضادة للميكروبات عند الأطفال الذين تتراوح أعمارهم بين 6–23 شهراً مع التهاب الأذن الوسطى الحاد؛ تم تصميمها كتجربة عشوائية مزدوجة التعمية خاضعة للسيطرة بالعقاقير الوهمية. تم إيقاف التجربة قبل اكتمالها. المضاد الحيوي المحدد المدروس لم يتم تأكيده أنه السيفازولين، وليست هناك نتائج فعالية متاحة. الإيقاف هو إشارة تحذير مهمة. |
 
-**Rationale:**
-The sole identified clinical trial was terminated before completion and cannot confirm Cefazolin as the study agent, leaving the highest available evidence at the observational/case report level (L3). More fundamentally, Cefazolin's antimicrobial spectrum has insufficient coverage of the three most common pathogens in infectious otitis media (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*), making it unsuitable as a first-line empiric monotherapy for this indication without further subgroup stratification.
+---
 
-**To proceed, the following is needed:**
-- **Pathogen subtype stratification:** Identify patient populations with *S. aureus*- or *S. pyogenes*-predominant otitis media, where Cefazolin's spectrum is most relevant
-- **Safety data gap (DG001):** Retrieve full warnings and contraindications from the package insert before any clinical use assessment
-- **MOA documentation (DG002):** Formal DrugBank MOA data to complete the mechanistic linkage analysis
-- **Route feasibility assessment:** Clarify whether IV/IM administration is compatible with the target clinical setting (inpatient ENT vs. outpatient primary care)
-- **Prospective study design:** A protocol targeting Cefazolin as perioperative prophylaxis or adjunct treatment in complicated otitis media cases (e.g., Gradenigo syndrome, post-tympanoplasty) would be the most scientifically justified next step given current evidence
-- **Saudi Arabia regulatory pathway:** Since Cefazolin is not currently marketed in Saudi Arabia (0 authorizations), regulatory submission would require a full dossier prior to any market access strategy
+## أدلة الأدب
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|-----------------|
+| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | تقرير حالة | Ann Otol Rhinol Laryngol | العلاج التجريبي المشترك للسيفتازيديم والسيفازولين لمتلازمة جراديينيجو عند الأطفال (مضاعفة نادرة وشديدة لالتهاب الأذن الوسطى مع التهاب قمة الهرم الصخري)؛ يدعم مساهمة السيفازولين كتغطية موجبة الجرام في العدوى المعقدة بالأنف والأذن والحنجرة حيث يكون *S. aureus* و *Streptococcus* spp. متورطة |
+| [877649](https://pubmed.ncbi.nlm.nih.gov/877649/) | 1977 | مراجعة | Southern Med J | نظرة عامة على المضادات الحيوية من فئة السيفالوسبورينات في الممارسة الطبية للأطفال؛ يشير إلى فعالية الفئة ضد الكوكي موجبة الجرام والعصيات سالبة الجرام المختارة، مع تطبيق محتمل في عدوى الأذن عند الأطفال، خاصة عند المرضى الذين يعانون من حساسية البنسلين |
+| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | سلسلة حالات/مراجعة | Clinical Pharmacy | مراجعة حالات متلازمة ستيفنس-جونسون عند طفل تلقى السيفازولين أثناء إدارة التهاب الأذن الوسطى والنوبات الحموية؛ يوفر أدلة غير مباشرة على الاستخدام التاريخي للسيفازولين في السياق السريري لالتهاب الأذن الوسطى، ويثير أيضاً الوعي بمخاطر فرط الحساسية |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+> **ملاحظة:** يوثق أحد عناصر الأدب (PMID 3742953) متلازمة ستيفنس-جونسون لدى مريض تلقى السيفازولين أثناء نوبة التهاب الأذن الوسطى، والأساس المنطقي الميكانيكي لـ Rank 8 (التهاب الأذن الوسطى التحسسي) يوضح صراحة أن المضادات الحيوية من فئة بيتا لاكتام — بما في ذلك السيفازولين — هي محفزات معروفة لردود الفعل التحسسية الشديدة بما في ذلك التأق والـ SJS. تستحق هذه مخاطر التحاطي الصليبي (تقريباً 1–2% مع المرضى الذين يعانون من حساسية البنسلين) فحص حساسية بيتا لاكتام القياسي قبل الاستخدام.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+التجربة السريرية الوحيدة المحددة تم إيقافها قبل اكتمالها ولا يمكنها تأكيد السيفازولين كعامل الدراسة، مما يترك أعلى أدلة متاحة على المستوى الملاحظي/تقرير الحالة (L3). والأهم من ذلك، أن طيف السيفازولين المضاد للميكروبات يتمتع بتغطية غير كافية من الممرضات الثلاث الأكثر شيوعاً في التهاب الأذن الوسطى العدوى (*S. pneumoniae*، *H. influenzae*، *M. catarrhalis*)، مما يجعله غير مناسب كعلاج أحادي تجريبي من الخط الأول لهذا العلاج دون المزيد من تقسيم المجموعات الفرعية.
+
+**للمتابعة، يلزم التالي:**
+- **تقسيم نوع الممرض:** تحديد السكان المريضين الذين لديهم *S. aureus*- أو *S. pyogenes*-التهاب أذن وسطى السائد، حيث يكون طيف السيفازولين أكثر صلة
+- **فجوة بيانات السلامة (DG001):** استرجاع التحذيرات الكاملة والموانع من نشرة المعلومات قبل أي تقييم استخدام سريري
+- **توثيق آلية العمل (DG002):** بيانات آلية العمل الرسمية لـ DrugBank لإكمال تحليل الربط الميكانيكي
+- **تقييم جدوى المسار:** توضيح ما إذا كان الإعطاء الوريدي/العضلي متوافقاً مع الإعداد السريري المستهدف (الأنف والأذن والحنجرة الداخلية مقابل الرعاية الأولية الخارجية)
+- **تصميم الدراسة الاستشرافية:** سيكون البروتوكول الذي يستهدف السيفازولين كدواء وقائي حول العملية أو علاج مساعد في حالات التهاب الأذن الوسطى المعقدة (مثل متلازمة جراديينيجو، بعد تصحيح الطبلة) الخطوة العلمية الأكثر تبريراً التالية بالنظر إلى الأدلة الحالية
+- **المسار التنظيمي في المملكة العربية السعودية:** نظراً لأن السيفازولين لم يتم تسويقه حالياً في المملكة العربية السعودية (0 تصاريح)، ستتطلب الإجراءات التنظيمية ملف دراسة كامل قبل أي استراتيجية وصول السوق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

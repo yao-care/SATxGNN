@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Lomefloxacin: From Bacterial Infections (Fluoroquinolone Antibiotic) to Laryngotracheitis
+# لوميفلوكساسين: من العدوى البكتيرية (مضاد حيوي من الفلوروكينولون) إلى التهاب الحنجرة والقصبة الهوائية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Lomefloxacin (DrugBank DB00978) is a fluoroquinolone-class antibacterial agent; the evidence pack does not specify its originally approved indication.
-The TxGNN model predicts it may be effective for **Laryngotracheitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+لوميفلوكساسين (DrugBank DB00978) هو عامل مضاد للبكتيريا من فئة الفلوروكينولون؛ لا تحدد مجموعة الأدلة الاستطباب الأصلي المعتمد.
+يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **التهاب الحنجرة والقصبة الهوائية**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و **0 منشورات**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (drug class noted as fluoroquinolone antibacterial in TxGNN rationale text) |
-| Predicted New Indication | Laryngotracheitis |
-| TxGNN Prediction Score | 99.61% (overall model rank #6552) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير محدد في مجموعة الأدلة (يتم الإشارة إلى فئة الدواء كمضاد حيوي من الفلوروكينولون في نص تبرير TxGNN) |
+| الاستطباب الجديد المتنبأ به | التهاب الحنجرة والقصبة الهوائية |
+| درجة التنبؤ TxGNN | 99.61% (ترتيب النموذج الإجمالي #6552) |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this evidence pack. Based on the information present, Lomefloxacin is a fluoroquinolone antibacterial that acts by inhibiting bacterial DNA gyrase and topoisomerase IV.
+بيانات الآلية التفصيلية للعمل غير متوفرة في مجموعة الأدلة هذه. بناءً على المعلومات الموجودة، لوميفلوكساسين هو مضاد حيوي من الفلوروكينولون يعمل عن طريق تثبيط DNA gyrase و topoisomerase IV البكتيري.
 
-Laryngotracheitis, however, is predominantly a viral condition — most notably croup in pediatric patients — rather than a bacterial one. There is no tissue- or receptor-specific rationale linking fluoroquinolone pharmacology to this disease; a bacterial antibiotic could theoretically have a role only in the uncommon bacterial (e.g., bacterial tracheitis) subset of cases, which is not what this prediction addresses.
+ومع ذلك، يعتبر التهاب الحنجرة والقصبة الهوائية في المقام الأول حالة فيروسية — لا سيما الكروب عند المرضى الأطفال — وليس بكتيرية. لا يوجد أساس محدد للأنسجة أو المستقبلات يربط فارماكولوجيا الفلوروكينولون بهذا المرض؛ يمكن نظرياً أن يكون للمضاد الحيوي البكتيري دور فقط في مجموعة فرعية نادرة من الحالات البكتيرية (مثل التهاب القصبة الهوائية البكتيري)، وهو ليس ما يتناوله هذا التنبؤ.
 
-This prediction rank is derived purely from TxGNN embedding similarity (score 99.61%), with no corroborating clinical trial, literature, or mechanistic evidence. Notably, the remaining 9 of the top 10 TxGNN predictions for this drug are cardiac/structural conditions (e.g., heart valve disease, heart conduction disease, heart aneurysm) where the rationale text itself flags that fluoroquinolones carry *known risk signals* in the opposite direction — QT prolongation, aortic aneurysm/dissection, and tendon/connective tissue rupture — rather than any therapeutic mechanism. This pattern suggests the model's embedding space is picking up disease-relatedness signals that do not translate into a plausible repurposing rationale for this drug.
+يتم اشتقاق هذا ترتيب التنبؤ بحتة من تشابه التضمين في TxGNN (درجة 99.61%)، بدون أي دعم من التجارب السريرية أو الأدبيات أو الأدلة الآلية. وجديرة بالملاحظة، أن التنبؤات التسعة المتبقية من أفضل 10 تنبؤات TxGNN لهذا الدواء هي حالات قلبية/هيكلية (مثل أمراض صمام القلب، اضطرابات التوصيل القلبي، تمدد الأبهر) حيث يشير نص التبرير نفسه إلى أن الفلوروكينولونات تحمل *إشارات خطر معروفة* في الاتجاه المعاكس — إطالة QT، تمدد/تشريح الأبهر، وقطع الأوتار/أنسجة الرابطة — بدلاً من أي آلية علاجية. يشير هذا النمط إلى أن فضاء التضمين في النموذج يلتقط إشارات ارتباط المرض التي لا تترجم إلى تبرير إعادة استخدام معقول لهذا الدواء.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Lomefloxacin is not marketed in Saudi Arabia — no product authorizations are on record (0 total licenses).
+لم يتم تسويق لوميفلوكساسين في المملكة العربية السعودية — لا توجد تراخيص منتج في السجل (0 إجمالي الترخيصات).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة المرفقة بالعبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-No clinical trial or literature evidence supports laryngotracheitis (or any of the other top-10 predicted indications) for Lomefloxacin, and the mechanistic rationale is weak-to-contradictory — several co-ranked predictions align with known fluoroquinolone *risk* signals rather than therapeutic benefit. The drug is also unmarketed in Saudi Arabia with a blocking data gap on regulatory safety labeling.
+**التبرير:**
+لا يوجد دليل من التجارب السريرية أو الأدبيات يدعم التهاب الحنجرة والقصبة الهوائية (أو أي من الاستطبابات المتنبأ بها الأخرى في أفضل 10) لـ لوميفلوكساسين، والتبرير الآلي ضعيف إلى متناقض — عدة تنبؤات مصنفة معاً تتماشى مع إشارات *خطر* معروفة للفلوروكينولونات بدلاً من الفائدة العلاجية. الدواء أيضاً غير مسوق في المملكة العربية السعودية مع فجوة بيانات محظورة في وسم السلامة التنظيمية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- Prospective preclinical or clinical evidence specifically evaluating Lomefloxacin in laryngotracheitis (particularly bacterial tracheitis subtype) before any further evaluation stage
+**للمتابعة، يلزم الآتي:**
+- نشرة TFDA/SFDA (تحذيرات، موانع الاستخدام) — حالياً محظورة (DG001)
+- بيانات آلية العمل المؤكدة من DrugBank أو الأدبيات الأولية (DG002)
+- أدلة سريرية أو ما قبل السريرية محتملة تقيّم لوميفلوكساسين بشكل خاص في التهاب الحنجرة والقصبة الهوائية (وخاصة النوع الفرعي لالتهاب القصبة الهوائية البكتيري) قبل أي مرحلة تقييم إضافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

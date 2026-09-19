@@ -29,88 +29,89 @@ indication_count: 4
 
 </div>
 
-# Aluminum Hydroxide: From Antacid to Active Peptic Ulcer Disease
+# هيدروكسيد الألومنيوم: من مضاد الحموضة إلى داء القرحة الهضمية النشطة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Aluminum hydroxide is a well-established antacid that neutralizes gastric acid and provides direct cytoprotection to the gastric mucosa, though it currently holds no regulatory approval in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Active Peptic Ulcer Disease**, with **0 registered clinical trials** and **20 publications** currently supporting this direction.
-Evidence is grounded primarily in RCTs and mechanistic studies spanning 1979–2022.
+هيدروكسيد الألومنيوم هو مضاد حموضة راسخ يعادل حمض المعدة ويوفر حماية مباشرة للغشاء المخاطي في المعدة، لكنه لا يحمل حالياً موافقة تنظيمية في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **داء القرحة الهضمية النشطة**، مع **0 تجربة سريرية مسجلة** و**20 منشور** يدعم حالياً هذا الاتجاه.
+يستند الدليل بشكل أساسي على التجارب العشوائية المضبوطة والدراسات الميكانيكية التي تمتد من 1979–2022.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Not registered in Saudi Arabia (known antacid, general GI use) |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسجل في المملكة العربية السعودية (معروف باعتباره مضاد حموضة، استخدام معدي معوي عام) |
+| المؤشر الجديد المتوقع | داء القرحة الهضمية النشطة |
+| درجة التنبؤ بنموذج TxGNN | 99.64% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | لم يتم تسويقه |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضوابط حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Aluminum hydroxide is a classic antacid that acts by directly neutralizing hydrochloric acid in the stomach, raising intragastric pH and thereby reducing pepsin proteolytic activity. Beyond simple acid neutralization, aluminum-containing antacids have been shown to stimulate endogenous prostaglandin synthesis (particularly PGE₂) and enhance mucus secretion, producing a cytoprotective effect on the gastric mucosa. This dual mechanism — acid buffering plus mucosal defense reinforcement — is mechanistically central to active peptic ulcer disease, where the primary pathology involves acid-mediated disruption of the mucosal barrier.
+هيدروكسيد الألومنيوم هو مضاد حموضة كلاسيكي يعمل عن طريق معادلة حمض الهيدروكلوريك مباشرة في المعدة، مما يرفع الرقم الهيدروجيني داخل المعدة وبالتالي يقلل من نشاط البيبسين. وبعيداً عن مجرد معادلة الحمض البسيطة، ثبت أن مضادات الحموضة التي تحتوي على الألومنيوم تحفز تخليق البروستاجلاندينات الذاتية (خاصة PGE₂) وتعزز إفراز المخاط، مما ينتج عنه تأثير حماية للغشاء المخاطي في المعدة. آلية ثنائية — معادلة الحمض بالإضافة إلى تعزيز دفاعات المخاط — تكون أساسية من حيث الآلية الفارماكولوجية لداء القرحة الهضمية النشطة، حيث يتضمن المرض الأساسي عطلاً في حاجز المخاط الناتج عن الحمض.
 
-The relationship between aluminum hydroxide and peptic ulcer healing is pharmacologically direct. Studies from the 1980s and 1990s demonstrated that high-dose antacid regimens (neutralizing 40–80 mval of acid, administered one and three hours after meals) achieve ulcer healing rates comparable to histamine H₂-receptor antagonists such as cimetidine. Aluminum-containing formulations (e.g., Maalox) have additionally been shown to stimulate epidermal growth factor (EGF) and prostaglandin E₂ release, both of which accelerate mucosal repair by promoting epithelial cell proliferation.
+العلاقة بين هيدروكسيد الألومنيوم والشفاء من قرحة المعدة هي علاقة فارماكولوجية مباشرة. أظهرت الدراسات من الثمانينيات والتسعينيات أن الأنظمة ذات الجرعات العالية من مضادات الحموضة (معادلة 40–80 ميلي مكافئ من الحمض، يتم إعطاؤها بعد ساعة واحدة وثلاث ساعات من الوجبات) تحقق معدلات شفاء القرح مماثلة لمضادات مستقبلات الهيستامين H₂ مثل السيميتيدين. ثبت أيضاً أن الصيغ التي تحتوي على الألومنيوم (على سبيل المثال، Maalox) تحفز إطلاق عامل النمو الطلائي (EGF) وبروستاجلاندين E₂، وكلاهما يسرع إصلاح المخاط عن طريق تعزيز تكاثر خلايا الظهارة.
 
-The TxGNN model's prediction is therefore strongly grounded in established pharmacology. Although detailed DrugBank MOA data was not retrieved in this evaluation, the published literature clearly characterizes the mechanistic pathway through multiple independent studies. The evidence base, while predominantly from an earlier era, includes multiple randomized controlled trials comparing aluminum hydroxide directly against placebo and active comparators in peptic ulcer disease populations.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Aluminum Hydroxide in active peptic ulcer disease.
+لذلك فإن تنبؤ نموذج TxGNN متجذر بقوة في الفارماكولوجيا الراسخة. على الرغم من عدم الحصول على بيانات DrugBank الآلية الفصيلة في هذا التقييم، فإن الأدبيات المنشورة تميز بوضوح مسار الآلية من خلال دراسات مستقلة متعددة. قاعدة الأدلة، على الرغم من أنها في الأساس من حقبة سابقة، تشمل تجارب عشوائية مضبوطة متعددة تقارن هيدروكسيد الألومنيوم مباشرة ضد الدواء الوهمي والمقارنات النشطة في مجموعات سكانية مصابة بداء القرحة الهضمية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لهيدروكسيد الألومنيوم في داء القرحة الهضمية النشطة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | 72-patient double-blind trial in duodenal/prepyloric ulcers: antacid + anticholinergic achieved 50% healing at 3 weeks vs 67% with cimetidine and ~20% with placebo (p<0.05 vs placebo) |
-| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | RCT | Clinics in Gastroenterology | Antacids with anticholinergics demonstrated efficacy comparable to H2-blockers in duodenal ulcer; reviewed receptor subclass pharmacology relevant to antacid co-therapy |
-| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | Review | Curr Pharm Design | Antacids exert mucosal cytoprotection via pre-epithelial, epithelial, and post-epithelial defense mechanisms beyond simple acid neutralization; aluminum compounds specifically highlighted |
-| [1769429](https://pubmed.ncbi.nlm.nih.gov/1769429/) | 1991 | Pharmacological Study | Digestion | Al(OH)₃ protected against ethanol-, taurocholate-, aspirin-, and stress-induced gastric lesions in rats; cytoprotective effect linked to endogenous prostaglandin release and gastric pH elevation |
-| [2390927](https://pubmed.ncbi.nlm.nih.gov/2390927/) | 1990 | Mechanistic Study | Dig Dis Sci | Maalox 70 and its active component Al(OH)₃ significantly enhanced healing of chronic gastroduodenal ulcers; prostaglandin (PG) and EGF identified as key mediating factors |
-| [8260735](https://pubmed.ncbi.nlm.nih.gov/8260735/) | 1993 | Review | J Physiol Pharmacol | Aluminum-containing antacids demonstrate cytoprotective activity beyond acid neutralization; mediated by endogenous prostaglandins and hexa-aquo-aluminum complexes at the mucosal surface |
-| [9334882](https://pubmed.ncbi.nlm.nih.gov/9334882/) | 1997 | Pharmacological Study | Jpn J Pharmacol | Al(OH)₃ (0.1–1 mg/ml) pretreatment prevented both acid- and pepsin-induced damage to rat gastric epithelial cells (RGM1); identified as the active cytoprotective component of sucralfate |
-| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | Review | Fortschritte der Medizin | Antacids neutralize gastric acid and inhibit pepsin; adequate neutralization requires 40–80 mval capacity taken 1 and 3 hours post-meal; dosing rationale established |
-| [2401189](https://pubmed.ncbi.nlm.nih.gov/2401189/) | 1990 | Cohort | Drugs Exp Clin Res | In 267 pediatric patients with peptic symptoms referred over 4 years, pharmacological antacid therapy showed efficacy in both acute phase management and relapse prevention |
-| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | Comparative Study | Medicine and Pharmacy Reports | Evaluated acid-neutralizing capacity (ANC) of antacids marketed in Morocco; Al(OH)₃-containing formulations demonstrated reliable and consistent ANC profiles across preparations |
+| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | تجربة عشوائية مضبوطة | Scand J Gastroenterol | تجربة عمياء مزدوجة على 72 مريضاً يعانون من قرح الاثني عشر/ما قبل البوابة: مضاد حموضة + مضاد كولين حقق شفاء بنسبة 50% في 3 أسابيع مقابل 67% مع السيميتيدين وحوالي 20% مع الدواء الوهمي (p<0.05 مقابل الدواء الوهمي) |
+| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | تجربة عشوائية مضبوطة | Clinics in Gastroenterology | أظهرت مضادات الحموضة مع مضادات الكولين فعالية مماثلة لحاصرات H₂ في قرحة الاثني عشر؛ استعرضت الفارماكولوجيا ذات الصلة بفئة المستقبلات المهمة للعلاج المركب بمضادات الحموضة |
+| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | مراجعة | Curr Pharm Design | تمارس مضادات الحموضة الحماية المخاطية عن طريق آليات الدفاع قبل الظهارية والظهارية وما بعد الظهارية وراء معادلة الحمض البسيطة؛ تم تسليط الضوء على مركبات الألومنيوم بشكل خاص |
+| [1769429](https://pubmed.ncbi.nlm.nih.gov/1769429/) | 1991 | دراسة فارماكولوجية | Digestion | حمى Al(OH)₃ ضد الآفات المعدية المستحثة بالإيثانول والتاوروكولات والأسبرين والإجهاد لدى الفئران؛ يرتبط التأثير الحماية بإطلاق البروستاجلاندينات الذاتية وارتفاع الرقم الهيدروجيني في المعدة |
+| [2390927](https://pubmed.ncbi.nlm.nih.gov/2390927/) | 1990 | دراسة آلية | Dig Dis Sci | Maalox 70 ومكونه النشط Al(OH)₃ عزز بشكل كبير شفاء القرح المزمنة المعدية والإثني عشرية؛ تم تحديد البروستاجلاندينات (PG) و EGF كعوامل وسيطة رئيسية |
+| [8260735](https://pubmed.ncbi.nlm.nih.gov/8260735/) | 1993 | مراجعة | J Physiol Pharmacol | تُظهر مضادات الحموضة التي تحتوي على الألومنيوم نشاطاً حماية يتجاوز معادلة الحمض؛ يتم الوساطة بواسطة البروستاجلاندينات الذاتية ومعقدات سادس الهيدراتو-الألومنيوم على سطح المخاط |
+| [9334882](https://pubmed.ncbi.nlm.nih.gov/9334882/) | 1997 | دراسة فارماكولوجية | Jpn J Pharmacol | معالجة Al(OH)₃ (0.1–1 mg/ml) المسبقة منعت تلف الظهارة المعدية المستحث بالحمض والبيبسين في خلايا RGM1 للفئران؛ تم تحديدها باعتبارها المكون النشط الحماية من sucralfate |
+| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | مراجعة | Fortschritte der Medizin | تعادل مضادات الحموضة حمض المعدة وتثبط البيبسين؛ تتطلب المعادلة الكافية سعة 40–80 ميلي مكافئ تُؤخذ بعد 1 و 3 ساعات من الوجبة؛ تم إنشاء الأساس المنطقي للجرعات |
+| [2401189](https://pubmed.ncbi.nlm.nih.gov/2401189/) | 1990 | دراسة أترابية | Drugs Exp Clin Res | في 267 مريضاً من الأطفال يعانون من أعراض هضمية يتم إحالتهم خلال 4 سنوات، أظهرت العلاجات الفارماكولوجية لمضادات الحموضة فعالية في كل من إدارة المرحلة الحادة والوقاية من الانتكاس |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | دراسة مقارنة | Medicine and Pharmacy Reports | تقييم السعة المعادلة للحمض (ANC) لمضادات الحموضة المسوقة في المغرب؛ أظهرت الصيغ التي تحتوي على Al(OH)₃ ملفات تعريف ANC موثوقة ومتسقة عبر التحضيرات |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No products containing Aluminum Hydroxide are currently registered or authorized for marketing in Saudi Arabia. Zero licenses on file.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد منتجات تحتوي على هيدروكسيد الألومنيوم مسجلة أو مأذون لها بالتسويق في المملكة العربية السعودية. لا توجد تراخيص على ملف.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المعلومات الخاصة بالعبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-Multiple RCTs and mechanistic studies spanning four decades consistently support aluminum hydroxide's efficacy in active peptic ulcer disease through a well-characterized dual mechanism (acid neutralization + cytoprotection via prostaglandin and EGF stimulation); however, the drug is not currently approved in Saudi Arabia, safety profiling data is unavailable in this evaluation, and the evidence base predates modern H. pylori eradication-era standards.
+---
 
-**To proceed, the following is needed:**
-- Formal Saudi Arabia (SFDA) regulatory dossier or bridging strategy
-- Safety data package: contraindications, key warnings, and drug interaction profile (all currently unavailable — must obtain from SFDA/TFDA package insert)
-- Positioning assessment relative to current standard-of-care (PPIs + H. pylori eradication), since aluminum hydroxide monotherapy is no longer first-line in most guidelines
-- Long-term safety review: phosphate depletion syndrome risk, bone demineralization potential, and aluminum accumulation in patients with renal impairment
-- Modern dose-finding or comparative effectiveness data to support regulatory submission under contemporary clinical standards
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضوابط حماية**
+
+**الأساس المنطقي:**
+دعمت تجارب عشوائية مضبوطة متعددة ودراسات ميكانيكية على مدى أربعة عقود بشكل متسق فعالية هيدروكسيد الألومنيوم في داء القرحة الهضمية النشطة من خلال آلية ثنائية موصوفة جيداً (معادلة الحمض + الحماية عن طريق تحفيز البروستاجلاندينات و EGF)؛ ومع ذلك، الدواء غير معتمد حالياً في المملكة العربية السعودية، وبيانات ملف السلامة غير متاحة في هذا التقييم، وتسبق قاعدة الأدلة معايير عصر استئصال H. pylori الحديثة.
+
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+- ملف تنظيمي رسمي بالمملكة العربية السعودية (SFDA) أو استراتيجية جسر
+- حزمة بيانات السلامة: موانع الاستعمال والتحذيرات الرئيسية وملف تفاعلات الأدوية (جميعها غير متاحة حالياً — يجب الحصول عليها من نشرة المعلومات SFDA/TFDA)
+- تقييم الموضع بالنسبة إلى معيار الرعاية الحالي (مثبطات مضخة البروتون + استئصال H. pylori)، لأن العلاج الأحادي بهيدروكسيد الألومنيوم لم يعد من العلاجات من الخط الأول في معظم الإرشادات
+- مراجعة السلامة على المدى الطويل: مخاطر متلازمة استنزاف الفوسفات، احتمال فقدان التمعدن في العظام، وتراكم الألومنيوم لدى المرضى الذين يعانون من قصور كلوي
+- بيانات حديثة لتحديد الجرعة أو بيانات الفعالية المقارنة لدعم التقديم التنظيمي بموجب معايير سريرية معاصرة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

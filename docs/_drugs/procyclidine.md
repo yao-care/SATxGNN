@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Procyclidine: From Parkinsonism (Anticholinergic Therapy) to Rasmussen Subacute Encephalitis
+# Procyclidine: من داء الشلل الرعاش (العلاج المضاد للكولين) إلى التهاب الدماغ تحت الحاد في رسموسن
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Procyclidine is a classic anticholinergic agent, referenced in this evidence pack as historically used to manage tremor and rigidity in Parkinsonism and drug-induced extrapyramidal symptoms. The TxGNN model's top prediction is **Rasmussen Subacute Encephalitis**, but this pairing is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-score prediction with no known mechanistic basis.
+Procyclidine هي عامل مضاد للكولين كلاسيكي، تمت الإشارة إليها في هذه مجموعة الأدلة على أنها تُستخدم تاريخياً لتدبير الرعاش والصلابة في داء الشلل الرعاش والأعراض خارج الهرمية الناجمة عن الأدوية. أعلى تنبؤ لنموذج TxGNN هو **التهاب الدماغ تحت الحاد في رسموسن**، لكن هذا الاقتران مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشورات** — إنه تنبؤ نقي قائم على درجة النموذج بدون أي أساس آلي معروف.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in Saudi Arabia licensing data (drug not marketed); referenced elsewhere in the evidence pack as an anticholinergic antiparkinsonian agent |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير موجود في ملفات الترخيص بالمملكة العربية السعودية (الدواء غير معروض بالأسواق)؛ مشار إليه في مكان آخر من مجموعة الأدلة كعامل مضاد للكولين مستخدم لعلاج داء الشلل الرعاش |
+| الاستطباب الجديد المتنبأ به | التهاب الدماغ تحت الحاد في رسموسن |
+| درجة تنبؤ TxGNN | 99.74% |
+| مستوى الأدلة | L5 |
+| حالة سوق المملكة العربية السعودية | ✗ غير معروض بالأسواق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action (MOA) data is not currently available for procyclidine in this evidence pack (flagged as a High-severity data gap requiring a DrugBank API lookup). Based on information embedded elsewhere in the evidence pack's own repurposing rationale, procyclidine is classified as a classic anticholinergic antiparkinsonian agent, historically used to relieve tremor and rigidity in Parkinsonism and drug-induced extrapyramidal symptoms.
+بيانات آلية العمل (MOA) المفصلة غير متوفرة حالياً لـ Procyclidine في هذه مجموعة الأدلة (تم تحديدها على أنها فجوة بيانات عالية الخطورة تتطلب بحثاً في واجهة برمجة تطبيقات DrugBank). بناءً على المعلومات المدرجة في مبرر إعادة الاستخدام الخاص بمجموعة الأدلة نفسها، يتم تصنيف Procyclidine كعامل مضاد للكولين كلاسيكي، تُستخدم تاريخياً لتخفيف الرعاش والصلابة في داء الشلل الرعاش والأعراض خارج الهرمية الناجمة عن الأدوية.
 
-Rasmussen subacute encephalitis, in contrast, is a chronic autoimmune/inflammatory encephalitis with no established pharmacological relationship to anticholinergic activity. The evidence pack's own mechanistic rationale for this pairing explicitly states there is no known mechanistic link — the prediction rests solely on the TxGNN model's graph-based score (rank 4801 among all model outputs), with no supporting clinical trials or literature identified.
+التهاب الدماغ تحت الحاد في رسموسن، بالمقابل، هو التهاب دماغ مزمن من نوع مناعي/التهابي بدون علاقة صيدلانية معروفة بالنشاط المضاد للكولين. يذكر السبب الآلي الخاص بهذا الاقتران في مبرر إعادة الاستخدام الخاص بمجموعة الأدلة بوضوح عدم وجود ارتباط آلي معروف — يعتمد التنبؤ فقط على درجة نموذج TxGNN القائمة على الرسم البياني (المرتبة 4801 بين جميع مخرجات النموذج)، مع عدم تحديد أي تجارب سريرية أو منشورات أدبية.
 
-By contrast, several lower-ranked candidates in this same prediction set — PLA2G6-associated neurodegeneration (rank 3), progressive supranuclear palsy-corticobasal syndrome (rank 7), and juvenile parkinsonism (rank 8) — carry a more plausible pharmacological rationale, since they involve parkinsonism-plus or dystonic phenotypes where anticholinergics are sometimes used symptomatically. These are staged as "Research Question" (L4/S1) rather than "Hold," and may warrant closer follow-up than the top-ranked Rasmussen encephalitis prediction.
+بالمقابل، عدة مرشحين ذوي تصنيف أقل في نفس مجموعة التنبؤ هذه — التنكس العصبي المرتبط بـ PLA2G6 (المرتبة 3)، الشلل فوق النووي التقدمي-متلازمة قاعدة اللحاء (المرتبة 7)، والشلل الرعاشي اليافعي (المرتبة 8) — تحمل أساساً فارماكولوجياً أكثر معقولية، لأنها تتضمن أنماطاً من الشلل الرعاشي الإضافي أو الديستونيا حيث تُستخدم مضادات الكولين أحياناً عرضياً. تمت تصنيفها كـ "سؤال بحثي" (L4/S1) بدلاً من "تأجيل"، وقد تستحق متابعة أقرب من تنبؤ الرتبة الأولى لالتهاب الدماغ في رسموسن.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Procyclidine is currently **not marketed** in Saudi Arabia — no authorization records are on file (0 licenses).
+Procyclidine غير معروضة بالأسواق حالياً في المملكة العربية السعودية — لا توجد سجلات ترخيص في الملفات (0 رخص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The top-ranked prediction (Rasmussen Subacute Encephalitis) is supported only by an L5 TxGNN model score, with zero clinical trials, zero publications, and no known mechanistic relationship between procyclidine's anticholinergic action and the disease's autoimmune/inflammatory pathology. This does not meet the bar for further evaluation.
+**المبرر:**
+تنبؤ المرتبة الأولى (التهاب الدماغ تحت الحاد في رسموسن) مدعوم فقط بدرجة نموذج L5 في TxGNN، مع عدم وجود تجارب سريرية، وعدم وجود منشورات، وعدم وجود علاقة آلية معروفة بين النشاط المضاد للكولين لـ Procyclidine والمرض المناعي/الالتهابي. هذا لا يصل إلى معيار التقييم الإضافي.
 
-**To proceed, the following is needed:**
-- TFDA/Saudi package insert warnings, contraindications, and safety data (currently Blocking data gap, DG001)
-- Procyclidine's mechanism of action via DrugBank API (currently High-severity data gap, DG002)
-- Preclinical or mechanistic studies specifically linking anticholinergic activity to Rasmussen encephalitis, if this indication is to be pursued further
-- Consider redirecting research attention to the mechanistically plausible, higher-evidence-tier candidates in this set (PLA2G6-associated neurodegeneration, PSP-CBS, juvenile parkinsonism), which are already staged as Research Question rather than Hold
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة TFDA/السعودية، موانع الاستطباب، وبيانات السلامة (فجوة بيانات حرجة حالياً، DG001)
+- آلية عمل Procyclidine عبر واجهة برمجة تطبيقات DrugBank (فجوة بيانات عالية الخطورة حالياً، DG002)
+- دراسات ما قبل السريرية أو آليات محددة تربط النشاط المضاد للكولين بالتهاب الدماغ في رسموسن، إذا كان المقصود المتابعة في هذا الاستطباب
+- النظر في إعادة توجيه اهتمام البحث إلى المرشحين ذوي الأساس الآلي المعقول وذوي مستوى الأدلة الأعلى في هذه المجموعة (التنكس العصبي المرتبط بـ PLA2G6، الشلل فوق النووي التقدمي-متلازمة قاعدة اللحاء، الشلل الرعاشي اليافعي)، والتي تمت تصنيفها بالفعل كسؤال بحثي بدلاً من التأجيل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

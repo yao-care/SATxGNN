@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Venetoclax: From Chronic Lymphocytic Leukemia to CLL/SLL with IGHV Somatic Hypermutation
+# فينيتوكلاكس: من اللوكيميا الليمفاوية المزمنة إلى CLL/SLL مع فرط الطفرات الجسدية IGHV
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Venetoclax is a selective BCL-2 inhibitor internationally established for chronic lymphocytic leukemia (CLL) and acute myeloid leukemia; no original-indication or licensing data for this drug currently exists in the Saudi Arabia regulatory file (drug not marketed). The TxGNN model's top-ranked prediction is **CLL/SLL with IGHV somatic hypermutation**, a highly specific molecular subtype of CLL, but **no clinical trials or publications specific to this subtype** were found in this evidence pack — the signal is a model-score extrapolation from the already-recognized parent indication (CLL/SLL) rather than new empirical evidence.
+فينيتوكلاكس هو مثبط انتقائي للـ BCL-2 معروف دولياً لعلاج اللوكيميا الليمفاوية المزمنة (CLL) واللوكيميا النخاعية الحادة؛ لا توجد بيانات دلالة أصلية أو ترخيصية لهذا الدواء حالياً في الملف التنظيمي بالمملكة العربية السعودية (الدواء غير مسوّق). التنبؤ الأعلى ترتيباً من نموذج TxGNN هو **CLL/SLL مع فرط الطفرات الجسدية لجين المنطقة المتغيرة للسلسلة الثقيلة للجلوبيولين المناعي (IGHV)**، وهو نمط جزيئي محدد للغاية من CLL، إلا أنه **لم يتم العثور على أي تجارب سريرية أو منشورات محددة لهذا النمط الفرعي** في هذه المجموعة الإثباتية — الإشارة هي استقراء درجة النموذج من الدلالة الأصلية المعروفة بالفعل (CLL/SLL) وليست دليلاً تجريبياً جديداً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Chronic Lymphocytic Leukemia (CLL) — internationally established indication for venetoclax; no Saudi Arabia licensing record exists in this data pack (drug not marketed) |
-| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene (IGHV) somatic hypermutation |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L5 (no clinical trial or literature record specific to this molecular subtype) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | اللوكيميا الليمفاوية المزمنة (CLL) — دلالة معروفة دولياً لفينيتوكلاكس؛ لا يوجد سجل ترخيص بالمملكة العربية السعودية في هذه المجموعة البيانات (الدواء غير مسوّق) |
+| الدلالة الجديدة المتنبأ بها | اللوكيميا الليمفاوية المزمنة/الليمفوما الليمفاوية الصغيرة مع فرط الطفرات الجسدية لجين المنطقة المتغيرة للسلسلة الثقيلة للجلوبيولين المناعي (IGHV) |
+| درجة تنبؤ TxGNN | 99.55% |
+| مستوى الدليل | L5 (لا توجد تجربة سريرية أو سجل أدبيات محدد لهذا النمط الجزيئي) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism-of-action data for this record is not available (marked as a data gap, DG002). Based on known pharmacological information, venetoclax is a selective, orally bioavailable small-molecule inhibitor of the anti-apoptotic protein BCL-2. Its efficacy in chronic lymphocytic leukemia is internationally established — CLL/SLL cells frequently overexpress BCL-2 to evade apoptosis, and venetoclax-based regimens (e.g., venetoclax-rituximab) have demonstrated superior progression-free and overall survival versus chemoimmunotherapy in randomized trials such as MURANO.
+في الوقت الحالي، البيانات التفصيلية لآلية العمل لهذا السجل غير متاحة (تم تحديدها كفجوة بيانات، DG002). استناداً إلى المعلومات الدوائية المعروفة، فينيتوكلاكس هو مثبط انتقائي وقابل للامتصاص عن طريق الفم للبروتين المضاد للاستماتة BCL-2. فعاليته في اللوكيميا الليمفاوية المزمنة معروفة دولياً — خلايا CLL/SLL غالباً ما تُفرط في التعبير عن BCL-2 للهروب من الاستماتة، وأنظمة مستندة على فينيتوكلاكس (مثل فينيتوكلاكس-ريتوكسيماب) أظهرت أفضليات في البقاء الخالي من التقدم والبقاء الكلي مقارنة بالعلاج الكيميائي المناعي في التجارب العشوائية مثل MURANO.
 
-The TxGNN-predicted node here, however, is not simply "CLL/SLL" — it is a narrower, molecularly-defined subtype based on IGHV somatic hypermutation status. IGHV mutation status is a well-recognized prognostic biomarker in CLL that influences treatment response, so a subtype-specific validation would, in principle, still carry clinical value. In practice, this evidence pack found **zero clinical trials and zero publications** matching this exact subtype label. The most relevant supporting trial identified in the underlying dataset (MURANO, PMID 40009494) was retrieved under a different, unrelated candidate node (Hodgkin lymphoma) in this same pack — itself a sign of ontology/retrieval mismatch rather than direct subtype evidence.
+التنبؤ الذي يقدمه TxGNN هنا، مع ذلك، ليس ببساطة "CLL/SLL" — إنه نمط فرعي أضيق معرّف جزيئياً بناءً على حالة فرط الطفرات الجسدية لـ IGHV. حالة الطفرات الجسدية لـ IGHV هي محدد توقع معروف جيداً في CLL يؤثر على استجابة العلاج، لذا فإن التحقق من صحة النمط الفرعي، من حيث المبدأ، سيظل يحمل قيمة سريرية. من الناحية العملية، هذه المجموعة الإثباتية وجدت **صفر تجارب سريرية وصفر منشورات** تطابق هذه علامة النمط الفرعي بالضبط. التجربة الأكثر صلة المُحددة في مجموعة البيانات الأساسية (MURANO، PMID 40009494) تم استرجاعها تحت عقدة مرشح مختلفة وغير ذات صلة (ليمفوما هودجكين) في هذه المجموعة نفسها — وهي بحد ذاتها علامة على عدم توافق الأنطولوجيا/الاسترجاع وليس دليل نمط فرعي مباشر.
 
-In short: the mechanistic rationale (BCL-2 dependency in CLL/SLL) is sound at the parent-indication level, but the specific IGHV-hypermutation subtype prediction is currently an extrapolation without dedicated confirmatory data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+باختصار: التبرير الآلي (اعتماد BCL-2 في CLL/SLL) سليم على مستوى الدلالة الأم، لكن التنبؤ بالنمط الفرعي المحدد لـ IGHV-hypermutation هو حالياً استقراء بدون بيانات توكيدية مخصصة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Venetoclax is not currently marketed in Saudi Arabia; no registered product authorizations, brand names, or dosage forms are on file (0 licenses recorded).
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Cytotoxicity
+## دليل الأدبيات
 
-Venetoclax is an antineoplastic agent (approved internationally for hematologic malignancies including CLL/SLL and AML), so this section applies.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-| Item | Content |
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+فينيتوكلاكس غير مسوّق حالياً في المملكة العربية السعودية؛ لا توجد تراخيص منتج مسجلة أو أسماء تجارية أو أشكال جرعات في الملف (0 تراخيص مسجلة).
+
+---
+
+## السمية الخلوية
+
+فينيتوكلاكس هو عامل مضاد للأورام (معتمد دولياً للأورام الدموية بما فيها CLL/SLL و AML)، لذا ينطبق هذا القسم.
+
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — selective BCL-2 inhibitor (not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | High — neutropenia (including febrile neutropenia) and thrombocytopenia are well-documented, dose-related adverse effects in venetoclax registrational trials |
-| Emetogenicity Classification | Low — oral targeted agent; gastrointestinal effects (diarrhea, nausea) are more common than emesis |
-| Monitoring Items | CBC with differential (especially during dose ramp-up), renal function, electrolytes and uric acid (tumor lysis syndrome risk), liver function |
-| Handling Protection | Tumor lysis syndrome (TLS) is venetoclax's signature safety concern, particularly during the initial dose ramp-up; TLS prophylaxis and staged dosing per international labeling is required. Local (Saudi) package insert precautions are not yet available since the product is not marketed there |
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط BCL-2 انتقائي (وليس عاملاً سام للخلايا تقليدياً) |
+| خطر كبت النخاع | عالي — قلة العدلات (بما فيها قلة العدلات الحموية) ونقص الصفائح الدموية هي تأثيرات سلبية موثقة ومتعلقة بالجرعة في تجارب التسجيل الخاصة بفينيتوكلاكس |
+| تصنيف الاستفراغية | منخفض — عامل موجه عن طريق الفم؛ التأثيرات المعدية المعوية (الإسهال، الغثيان) أكثر شيوعاً من القيء |
+| بنود المراقبة | عدد الدم الكامل مع التفريق (خاصة أثناء رفع الجرعة)، وظائف الكلى، الكهارل وحمض اليوريك (خطر متلازمة تحلل الورم)، وظائف الكبد |
+| إجراءات الحماية والمناولة | متلازمة تحلل الورم (TLS) هي أهم مخاوف السلامة لفينيتوكلاكس، خاصة أثناء رفع الجرعة الأولي؛ الوقاية من TLS والجرعات المرحلية وفقاً للتسميات الدولية مطلوبة. احتياطات النشرة الداخلية المحلية (السعودية) غير متاحة حالياً لأن المنتج غير مسوّق في المملكة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Local key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — flagged as a Blocking data gap, DG001.)
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. (البيانات المحلية الرئيسية التحذيرات والموانع والتفاعلات الدوائية غير متاحة حالياً في هذه المجموعة الإثباتية — تم تحديدها كفجوة بيانات حاجزة، DG001.)
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-While venetoclax's BCL-2-inhibition mechanism is well-supported for CLL/SLL broadly, the specific IGHV-somatic-hypermutation subtype prediction has no direct clinical trial or literature evidence in this pack — it is a model-driven extrapolation from the parent indication rather than an independently validated repurposing signal. Proceeding further is not warranted until subtype-specific data is confirmed.
+**التبرير:**
+في حين أن آلية تثبيط BCL-2 في فينيتوكلاكس معروفة جيداً لـ CLL/SLL على نطاق واسع، فإن التنبؤ بالنمط الفرعي المحدد لـ IGHV-somatic-hypermutation لا توجد له بيانات مباشرة من تجارب سريرية أو أدبيات في هذه المجموعة — إنه استقراء موجه بالنموذج من الدلالة الأم وليس إشارة إعادة استخدام مدققة بشكل مستقل. لا يُبرر المتابعة حتى يتم تأكيد البيانات المحددة للنمط الفرعي.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed drug mechanism-of-action record from DrugBank — currently a High-severity gap (DG002)
-- Confirmation of venetoclax's original approved indications and any Saudi Arabia registration pathway status
-- A targeted literature/trial search specifically for IGHV-mutation-stratified venetoclax outcomes in CLL/SLL
+**ما يلي مطلوب للمتابعة:**
+- نشرة TFDA/SFDA الداخلية (التحذيرات، الموانع) — حالياً فجوة حاجزة (DG001)
+- سجل آلية عمل الدواء المؤكد من DrugBank — حالياً فجوة ذات أهمية عالية (DG002)
+- تأكيد الدلالات الأصلية المعتمدة لفينيتوكلاكس وأي حالة مسار التسجيل بالمملكة العربية السعودية
+- بحث مستهدف في الأدبيات/التجارب خصيصاً لنتائج فينيتوكلاكس المطبقة على حالة الطفرات الجسدية IGHV في CLL/SLL
 
-*Note: This evidence pack also scores nine other candidate indications for venetoclax (ranks 2–10), ranging from strong, standard-of-care-level evidence (e.g., myeloid leukemia, L1) to isolated model predictions with no supporting data (e.g., malignant spiradenoma, L5). Those are outside the scope of this report, which addresses only the top-ranked prediction per evaluation protocol.*
+*ملاحظة: هذه المجموعة الإثباتية تسجل أيضاً تسع دلالات مرشحة أخرى لفينيتوكلاكس (الترتيب 2–10)، تتراوح من أدلة قوية على مستوى معيار الرعاية الحالية (مثل اللوكيميا النخاعية، L1) إلى تنبؤات نموذج معزولة بدون بيانات داعمة (مثل الورم الغدي الحلزوني الخبيث، L5). تلك خارج نطاق هذا التقرير، الذي يتناول فقط التنبؤ الأعلى ترتيباً وفقاً لبروتوكول التقييم.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

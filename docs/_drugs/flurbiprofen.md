@@ -29,85 +29,86 @@ indication_count: 10
 
 </div>
 
-# Flurbiprofen: From NSAID Analgesic/Anti-Inflammatory Use to Ankylosing Spondylitis
+# flurbiprofen: من الاستخدام المسكن ومضاد الالتهابات (مثبط التهاب غير ستيرويدي) إلى التهاب الفقار اللاصق
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Flurbiprofen is a propionic-acid–derivative NSAID; its original approved indication text is not available in the current dataset, but it is a well-established analgesic/anti-inflammatory agent. The TxGNN model's highest-ranked *evidence-backed* prediction is **Ankylosing Spondylitis**, supported by **7 head-to-head randomized controlled trials** conducted between 1974–1986 and a total of **20 PubMed publications**. Note: among the 10 TxGNN candidates in this pack, 9 (ranks 1–7, 9, 10) are flagged by the model's own rationale as likely knowledge-graph noise on rare orphan skeletal syndromes with no supporting evidence — only ankylosing spondylitis (rank 8) has real clinical and literature support, so this report focuses on that candidate.
+flurbiprofen هو مثبط التهاب غير ستيرويدي من فئة حمض البروبيونيك؛ نص الاستطباب المعتمد الأصلي غير متاح في مجموعة البيانات الحالية، لكنه عامل مسكن ومضاد للالتهابات موثوق الإنشاء. التنبؤ الأعلى درجة والمدعوم بالأدلة من نموذج TxGNN هو **التهاب الفقار اللاصق**، مدعوم بـ **7 تجارب سريرية عشوائية مقارنة مباشرة** أُجريت بين 1974–1986 وإجمالي **20 منشور PubMed**. ملاحظة: من بين 10 مرشحين من TxGNN في هذه المجموعة، 9 منها (التصنيفات 1–7، 9، 10) يتم وضع علامة عليها من قبل منطق النموذج الخاص به كبيانات محتملة ضوضائية في الرسم البياني للمعرفة حول متلازمات هيكلية نادرة يتيمة بدون دعم من الأدلة — فقط التهاب الفقار اللاصق (التصنيف 8) له دعم سريري وأدبي حقيقي، لذا يركز هذا التقرير على هذا المرشح.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not specified in available records (Flurbiprofen is a propionic-acid NSAID historically used for pain and inflammatory joint disease; specific approved indication text is a data gap) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير محدد في السجلات المتاحة (flurbiprofen هو مثبط التهاب غير ستيرويدي من فئة حمض البروبيونيك يُستخدم تاريخياً لألم والتهاب المفاصل؛ نص الاستطباب المعتمد المحدد هو فجوة بيانات) |
+| الاستطباب الجديد المتنبأ به | التهاب الفقار اللاصق |
+| درجة التنبؤ TxGNN | 99.97% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, flurbiprofen is a non-selective COX-1/COX-2 inhibitor belonging to the propionic-acid class of NSAIDs — the same pharmacological class as indomethacin, naproxen, and phenylbutazone, all of which have established roles in inflammatory spondyloarthropathies.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في مجموعة الأدلة هذه. بناءً على المعلومات الدوائية المعروفة، flurbiprofen هو مثبط غير انتقائي لـ COX-1/COX-2 ينتمي إلى فئة حمض البروبيونيك من مثبطات الالتهاب غير الستيرويدية — نفس الفئة الدوائية مثل indomethacin و naproxen و phenylbutazone، وكل هذه لها أدوار موثقة في الأمراض الالتهابية للفقار.
 
-Ankylosing spondylitis (AS) is a chronic inflammatory spondyloarthropathy in which prostaglandin-mediated inflammation drives axial pain, stiffness, and joint damage. NSAIDs are first-line symptomatic therapy for AS per standard rheumatology practice, so a COX-inhibiting agent like flurbiprofen is mechanistically well-suited to this indication — this is not a mechanistically novel hypothesis but a class-consistent one.
+التهاب الفقار اللاصق (AS) هو مرض التهابي مزمن للفقار يقود فيه الالتهاب الناتج عن البروستاجلاندين الألم المحوري والتيبس وتلف المفاصل. مثبطات الالتهاب غير الستيرويدية هي علاج الأعراض من الدرجة الأولى لـ AS وفقاً لممارسة أمراض الروماتيزم القياسية، لذا فإن عاملاً مثبطاً لـ COX مثل flurbiprofen مناسب ميكانيكياً لهذا الاستطباب — هذا ليس فرضية ميكانيكية جديدة تماماً بل واحدة متسقة مع الفئة.
 
-Notably, the literature evidence in this pack shows flurbiprofen already has a substantial clinical trial history in AS dating back to the 1970s–80s, with head-to-head comparisons against indomethacin, phenylbutazone, and naproxen. This suggests the TxGNN prediction is recovering a genuine, previously demonstrated clinical use rather than identifying a truly novel indication — which strengthens confidence in the model's signal but also means the "new indication" framing should be understood as an evidence-supported use case, not an unprecedented hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (no entries in ClinicalTrials.gov or ICTRP for flurbiprofen + ankylosing spondylitis in this pack; evidence is derived from historical published literature below).
+بشكل ملحوظ، دليل الأدبيات في هذه المجموعة يُظهر أن flurbiprofen بالفعل لديه تاريخ تجارب سريرية كبير في AS يعود إلى السبعينيات والثمانينيات، مع مقارنات مباشرة ضد indomethacin و phenylbutazone و naproxen. هذا يشير إلى أن التنبؤ TxGNN يستعيد استخدام سريري حقيقي وموثق مسبقاً بدلاً من تحديد استطباب حقيقي جديد تماماً — وهذا يعزز الثقة في إشارة النموذج ولكنه يعني أيضاً أن إطار "الاستطباب الجديد" يجب أن يُفهم كحالة استخدام مدعومة بالأدلة، وليس فرضية غير مسبوقة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً (لا توجد إدخالات في ClinicalTrials.gov أو ICTRP لـ flurbiprofen + التهاب الفقار اللاصق في هذه المجموعة؛ الأدلة مشتقة من الأدبيات المنشورة التاريخية أدناه).
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | RCT | British Medical Journal | Double-blind cross-over in 35 AS patients: flurbiprofen 150mg/day well tolerated, efficacy approaching phenylbutazone 300mg/day |
-| [4595274](https://pubmed.ncbi.nlm.nih.gov/4595274/) | 1974 | RCT | Annals of the Rheumatic Diseases | Double-blind cross-over comparing indomethacin, flurbiprofen, and placebo in AS (placebo-controlled design) |
-| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | RCT | Current Medical Research and Opinion | Parallel double-blind RCT, 26 active AS patients: flurbiprofen (150-200mg/day) equally effective as indomethacin, no withdrawals for lack of efficacy |
-| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | RCT | Southern Medical Journal | Parallel double-blind RCT, 26 AS patients: flurbiprofen vs indomethacin equally effective for pain/tenderness relief |
-| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | RCT | European Journal of Clinical Pharmacology | Parallel double-blind RCT, 27 AS patients: flurbiprofen vs phenylbutazone equally effective, phenylbutazone favored on subjective improvement (not statistically significant) |
-| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | RCT | The New Zealand Medical Journal | 4-week double-blind crossover, 30 AS patients: flurbiprofen 200mg/day vs naproxen 750mg/day, comparable efficacy; more side effects with flurbiprofen |
-| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | RCT | The American Journal of Medicine | Randomized double-blind, 57 AS patients over 26 weeks: flurbiprofen 200mg/day effective vs indomethacin; some patients controlled on 100mg/day |
-| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | RCT | The American Journal of Medicine | Randomized double-blind 26-week study, 90 AS patients: flurbiprofen 200mg/day as effective as phenylbutazone 300mg/day |
-| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Cohort | The American Journal of Medicine | Pooled safety analysis across 9 Phase 3 trials, 1,677 patients (AS, OA, RA): no clinically significant liver/kidney signal with flurbiprofen |
-| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Review | Drugs | Review of flurbiprofen pharmacology and therapeutic use in RA, OA, AS; 120-300mg/day comparable to aspirin/indomethacin with fewer side effects |
+| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | RCT | British Medical Journal | تجربة عمياء مزدوجة بتصميم تقاطع في 35 مريضاً من AS: flurbiprofen 150 ملغ/يوم محتمل جيداً، الفعالية تقترب من phenylbutazone 300 ملغ/يوم |
+| [4595274](https://pubmed.ncbi.nlm.nih.gov/4595274/) | 1974 | RCT | Annals of the Rheumatic Diseases | تجربة عمياء مزدوجة بتصميم تقاطع تقارن indomethacin و flurbiprofen والعلاج الوهمي في AS (تصميم خاضع للعلاج الوهمي) |
+| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | RCT | Current Medical Research and Opinion | RCT عمياء مزدوجة بتصميم متوازي، 26 مريضاً نشيطاً من AS: flurbiprofen (150–200 ملغ/يوم) فعالة بالتساوي مثل indomethacin، بدون انسحابات بسبب عدم الفعالية |
+| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | RCT | Southern Medical Journal | RCT عمياء مزدوجة بتصميم متوازي، 26 مريضاً من AS: flurbiprofen مقابل indomethacin فعالة بالتساوي لتخفيف الألم والإيلام |
+| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | RCT | European Journal of Clinical Pharmacology | RCT عمياء مزدوجة بتصميم متوازي، 27 مريضاً من AS: flurbiprofen مقابل phenylbutazone فعالة بالتساوي، phenylbutazone مفضل على التحسن الذاتي (غير ذي دلالة إحصائية) |
+| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | RCT | The New Zealand Medical Journal | تقاطع عمياء مزدوجة لمدة 4 أسابيع، 30 مريضاً من AS: flurbiprofen 200 ملغ/يوم مقابل naproxen 750 ملغ/يوم، فعالية مماثلة؛ آثار جانبية أكثر مع flurbiprofen |
+| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | RCT | The American Journal of Medicine | عشوائية عمياء مزدوجة، 57 مريضاً من AS على مدى 26 أسبوعاً: flurbiprofen 200 ملغ/يوم فعالة مقابل indomethacin؛ بعض المرضى يُسيطر عليهم على 100 ملغ/يوم |
+| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | RCT | The American Journal of Medicine | دراسة عشوائية عمياء مزدوجة مدة 26 أسبوعاً، 90 مريضاً من AS: flurbiprofen 200 ملغ/يوم فعالة مثل phenylbutazone 300 ملغ/يوم |
+| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Cohort | The American Journal of Medicine | تحليل السلامة المجمع عبر 9 تجارب المرحلة 3، 1,677 مريضاً (AS، OA، RA): بدون إشارة كبدية/كلوية ذات دلالة سريرية مع flurbiprofen |
+| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Review | Drugs | استعراض الدوائية والاستخدام العلاجي لـ flurbiprofen في RA و OA و AS؛ 120–300 ملغ/يوم قابلة للمقارنة مع الأسبرين/indomethacin مع عدد أقل من الآثار الجانبية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Flurbiprofen currently has no marketed product license in Saudi Arabia (`market_status: Not marketed`, `total_licenses: 0`) — no authorization records are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Drug-specific warnings, contraindications, and interaction data are not available in this evidence pack — DG001 flags this as a Blocking data gap for safety pre-screening. As a general class consideration, propionic-acid NSAIDs such as flurbiprofen carry known risks of GI bleeding, renal impairment, and cardiovascular events that would need to be confirmed against the actual product label before clinical use.)
+flurbiprofen حالياً لا يوجد منتج مرخص مسوق في المملكة العربية السعودية (`market_status: Not marketed`، `total_licenses: 0`) — لا توجد سجلات تفويض متاحة في هذه المجموعة من الأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة. (بيانات التحذيرات الخاصة بالأدوية والموانع الاستعمال وبيانات التفاعلات الدوائية غير متاحة في هذه مجموعة الأدلة — يضع DG001 العلم على هذا كفجوة بيانات مانعة لفحص السلامة السابق. كاعتبار فئة عامة، مثبطات الالتهاب غير الستيرويدية من حمض البروبيونيك مثل flurbiprofen تحمل مخاطر معروفة من نزيف المعدة والأمعاء والضعف الكلوي والأحداث القلبية الوعائية التي ستحتاج إلى تأكيد ضد ملصق المنتج الفعلي قبل الاستخدام السريري.)
 
-**Rationale:**
-Seven independent RCTs (1974–1986) directly support flurbiprofen's efficacy in ankylosing spondylitis with a class-consistent COX-inhibition mechanism, but the drug is not currently marketed in Saudi Arabia and lacks a local package insert, so safety pre-screening (S1) cannot be completed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert data — warnings, contraindications, DDI (DG001, Blocking)
-- Confirmed mechanism of action and formal original-indication label text (DG002, High)
-- Saudi Arabia regulatory pathway assessment given current non-marketed status
-- Positioning analysis against already-approved NSAIDs in AS treatment guidelines, since this is a corroborative rather than novel indication
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+سبع تجارب عشوائية مستقلة (1974–1986) تدعم بشكل مباشر فعالية flurbiprofen في التهاب الفقار اللاصق مع آلية تثبيط COX متسقة مع الفئة، لكن الدواء لا يُسوق حالياً في المملكة العربية السعودية ويفتقر إلى نشرة محلية، لذا لا يمكن إكمال فحص السلامة السابق (S1).
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA المكافئة — التحذيرات والموانع الاستعمال والتفاعلات الدوائية (DG001، مانع)
+- آلية العمل المؤكدة ونص التسمية الأصلي للاستطباب الرسمي (DG002، عالي)
+- تقييم المسار التنظيمي للمملكة العربية السعودية نظراً للحالة غير المسوقة الحالية
+- تحليل التموضع ضد مثبطات الالتهاب غير الستيرويدية المعتمدة بالفعل في إرشادات معالجة AS، حيث أن هذا استطباب تأييدي وليس استطباب جديد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

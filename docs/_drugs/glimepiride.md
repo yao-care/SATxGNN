@@ -29,60 +29,61 @@ indication_count: 9
 
 </div>
 
-# Glimepiride: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+# ميليبريد: من داء السكري من النوع الثاني إلى متلازمة الأطراف المتيبسة البؤرية
 
-## One-Sentence Summary
+## ملخص بسطر واحد
 
-Glimepiride is a sulfonylurea-class oral antidiabetic, pharmacologically known for stimulating insulin secretion via pancreatic β-cell K-ATP channels. The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, but this prediction currently has **0 clinical trials** and **0 publications** directly supporting it — it is a pure model-generated signal.
+ميليبريد هو عامل خافض لسكر الدم عن طريق الفم من فئة السلفونيل يوريا، معروف دوائياً بتحفيز إفراز الإنسولين عبر قنوات K-ATP في خلايا البنكرياس β. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة الأطراف المتيبسة البؤرية**، لكن هذا التنبؤ يحتوي حالياً على **0 تجربة سريرية** و **0 منشور** يدعمها مباشرة — إنه إشارة نقية من النموذج.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Type 2 Diabetes Mellitus (general pharmacological knowledge; not confirmed by this Evidence Pack) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | داء السكري من النوع الثاني (معرفة دوائية عامة؛ غير مؤكدة من هذا الملف الدليل) |
+| الاستطباب الجديد المتنبأ به | متلازمة الأطراف المتيبسة البؤرية |
+| درجة التنبؤ بـ TxGNN | 99.75% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسجل |
+| عدد التصاريح | 0 |
+| القرار الموصى به | التأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (marked as a High-severity data gap). Based on general pharmacological knowledge, glimepiride is a sulfonylurea that binds SUR1/Kir6.2 (K-ATP) channels on pancreatic β-cells to trigger insulin release — its efficacy in Type 2 Diabetes Mellitus is well established.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في هذا الملف الدليل (وتم وضع علامة عليها كفجوة بيانات عالية الخطورة). استناداً إلى المعرفة الدوائية العامة، يرتبط ميليبريد (سلفونيل يوريا) بقنوات SUR1/Kir6.2 (K-ATP) على خلايا البنكرياس β لتحفيز إطلاق الإنسولين — فعاليته في داء السكري من النوع الثاني مثبتة جيداً.
 
-Focal stiff limb syndrome (a localized variant of stiff person syndrome) is an autoimmune, anti-GAD65-antibody-mediated disorder of GABAergic neurotransmission — mechanistically unrelated to insulin secretion. Neurons do express K-ATP channels, but no evidence indicates sulfonylureas modulate GABAergic transmission or anti-GAD65 autoimmunity. The TxGNN score is high, but the model appears to be surfacing a graph-proximity signal rather than a validated mechanistic link.
+متلازمة الأطراف المتيبسة البؤرية (نوع موضعي من متلازمة الشخص المتيبس) هي اضطراب مناعي ذاتي وسيط بالأجسام المضادة لـ GAD65، يتعلق بنقل GABA العصبي — غير مرتبط ميكانيكياً بإفراز الإنسولين. تعبر الخلايا العصبية عن قنوات K-ATP، لكن لا توجد أدلة تشير إلى أن السلفونيل يوريا تعدل نقل GABA أو المناعة الذاتية المضادة لـ GAD65. درجة TxGNN عالية، لكن يبدو أن النموذج يسطح إشارة قرب الرسم البياني بدلاً من رابط ميكانيكي مثبت.
 
-Notably, 8 other diseases in this pack score similarly high (0.995–0.997), most of them ultra-rare conditions (stiff person syndrome, opsismodysplasia, thiamine-responsive dysfunction syndrome, several lipodystrophies, pancreatic agenesis). Only the thiamine-responsive dysfunction syndrome and pancreatic agenesis candidates have any plausible mechanistic rationale (both involve β-cell dysfunction), and even those are unvalidated analogies with no supporting trials or literature.
+بشكل ملحوظ، تسجل 8 أمراض أخرى في هذا الملف درجات عالية مماثلة (0.995–0.997)، معظمها حالات نادرة جداً (متلازمة الشخص المتيبس، opsismodysplasia، متلازمة الاختلال المستجيب للثيامين، عدة حالات من بولي كريبتوس)، وليس للثيامين المستجيب والبنكرياس المفقود إلا حقق معقول (كلاهما يتضمن اختلال وظيفة خلايا β)، وحتى تلك قياسات غير مثبتة بدون تجارب أو أدبيات داعمة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متوفرة
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Glimepiride is not currently marketed in Saudi Arabia under this dataset — 0 product authorizations are on record.
+ميليبريد غير مسجل حالياً في المملكة العربية السعودية بموجب هذا المجموعة البيانات — لا توجد تصاريح منتج واحدة في السجل.
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات الأمان.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: التأجيل**
 
-**Rationale:**
-The prediction rests entirely on a TxGNN similarity score (L5, S0 stage) with zero supporting clinical trials or literature, and the proposed indication has no plausible mechanistic bridge to glimepiride's known pharmacology. A Blocking data gap on TFDA/regulatory safety labeling also prevents any S1 safety evaluation.
+**الأساس المنطقي:**
+يعتمد التنبؤ بالكامل على درجة تشابه TxGNN (L5، مرحلة S0) بدون أي تجارب سريرية أو أدبيات داعمة، والاستطباب المقترح لا يوجد له جسر ميكانيكي معقول لعلم الأدوية المعروف لميليبريد. كما تمنع فجوة بيانات حجب في تسمية الأمان التنظيمي/TFDA أي تقييم أمان S1.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data (DrugBank query, currently unresolved)
-- TFDA/official package insert with warnings, contraindications, and DDI data (Blocking gap — required before any S1 safety review)
-- Preclinical or case-level evidence connecting sulfonylurea pharmacology to GABAergic/autoimmune neurological disease
-- Re-evaluation of the higher-plausibility candidates in this pack (e.g., thiamine-responsive dysfunction syndrome, pancreatic agenesis) as alternative leads, given their closer mechanistic overlap with β-cell function
+**للمتابعة، يلزم ما يلي:**
+- تأكيد بيانات آلية العمل (استعلام DrugBank، حالياً غير محلول)
+- نشرة TFDA/الحكومية الرسمية مع التحذيرات والموانع وبيانات تفاعلات الأدوية (فجوة حجب — مطلوبة قبل أي مراجعة أمان S1)
+- دليل ما قبل السريري أو على مستوى الحالات يربط علم الأدوية السلفونيل يوريا بمرض عصبي موسيط GABA/المناعة الذاتية
+- إعادة تقييم المرشحين ذوي الاحتمالية العالية في هذا الملف (مثل متلازمة الاختلال المستجيب للثيامين وتضخم البنكرياس) كخيوط بديلة، نظراً لتداخلهما الميكانيكي الأقرب مع وظيفة خلايا β
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

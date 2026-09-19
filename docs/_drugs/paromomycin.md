@@ -29,60 +29,61 @@ indication_count: 8
 
 </div>
 
-# Paromomycin: From Intestinal Amebiasis to Idiopathic Copper-Associated Cirrhosis
+# باروموميسين: من داء الزحار الأميبي إلى تليف الكبد المرتبط بالنحاس مجهول السبب
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Paromomycin is an aminoglycoside antibiotic used against intestinal amebiasis and other parasitic infections (e.g., leishmaniasis). The TxGNN model predicts potential efficacy for **Idiopathic Copper-Associated Cirrhosis**, but currently **no clinical trials and no literature** support this specific prediction, and the evidence pack's own mechanistic review flags the score as a likely knowledge-graph clustering artifact rather than genuine biological signal.
+باروموميسين هو مضاد حيوي من فئة الأمينوجليكوسيدات يُستخدم ضد داء الزحار الأميبي والعدوى الطفيلية الأخرى (مثل الليشمانيا). يتنبأ نموذج TxGNN بالفعالية المحتملة ل**تليف الكبد المرتبط بالنحاس مجهول السبب**، لكن حالياً **لا توجد تجارب سريرية ولا توجد أدبيات** تدعم هذا التنبؤ المحدد، وتقييم الآليات الخاص بحزمة الأدلة يشير إلى أن هذه النتيجة على الأرجح تعكس أثر تجميع الرسم البياني للمعرفة وليس إشارة بيولوجية حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Intestinal amebiasis (antiparasitic aminoglycoside; not formally recorded as `original_indications` in this evidence pack) |
-| Predicted New Indication | Idiopathic Copper-Associated Cirrhosis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | داء الزحار الأميبي (أمينوجليكوسيد مضاد للطفيليات؛ غير مسجل رسمياً ك `original_indications` في حزمة الأدلة هذه) |
+| المؤشر الجديد المتنبأ به | تليف الكبد المرتبط بالنحاس مجهول السبب |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | وقف مؤقت |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, paromomycin is an intestinal non-absorbable aminoglycoside that acts on protozoal/bacterial ribosomes, and its efficacy in intestinal amebiasis is well established.
+حالياً، البيانات المفصلة عن آلية التأثير غير متاحة. بناءً على المعلومات المعروفة، باروموميسين هو أمينوجليكوسيد معوي غير قابل للامتصاص يعمل على الرايبوسومات الأولية/البكتيرية، وثبتت فعاليته في داء الزحار الأميبي المعوي.
 
-However, there is no known mechanistic pathway connecting ribosome-targeting antimicrobial activity to copper metabolism or hepatic fibrosis processes relevant to idiopathic copper-associated cirrhosis. The evidence pack's own rationale is explicit on this point: the high TxGNN score likely reflects a clustering effect around "liver disease" nodes in the knowledge graph, not causal biological evidence.
+ومع ذلك، لا توجد مسارات آليات معروفة تربط نشاط مضادات الميكروبات الموجهة للرايبوسوم باستقلاب النحاس أو عمليات تليف الكبد ذات الصلة بتليف الكبد المرتبط بالنحاس مجهول السبب. التبرير الخاص بحزمة الأدلة نفسها صريح في هذه النقطة: درجة TxGNN العالية على الأرجح تعكس تأثير التجميع حول عُقد "أمراض الكبد" في الرسم البياني للمعرفة، وليس دليل بيولوجي سببي.
 
-For context, this same drug's evidence pack contains a lower-ranked candidate (peritonitis, rank 8) that is comparatively better supported — it is associated with published case reports and reviews on amoebic-related complications — though that literature is still largely indirect (mostly in vitro leishmaniasis drug-interaction studies rather than peritonitis-specific evidence).
+للتوضيح، تحتوي حزمة الأدلة لهذا الدواء نفسه على مرشح أقل تصنيفاً (التهاب الصفاق، الترتيب 8) يتمتع بدعم أفضل نسبياً — فهو مرتبط بتقارير حالات منشورة ومراجعات عن المضاعفات المرتبطة بالأميبا — على الرغم من أن تلك الأدبيات لا تزال في الغالب غير مباشرة (في الغالب دراسات تفاعلات الأدوية الليشمانيا في الزجاج بدلاً من أدلة محددة على التهاب الصفاق).
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Paromomycin is currently **not marketed** in Saudi Arabia — no authorizations are on record (`total_licenses: 0`).
+باروموميسين حالياً **غير مسوقة** في المملكة العربية السعودية — لا توجد تصاريح مسجلة (`total_licenses: 0`).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقف مؤقت**
 
-**Rationale:**
-The top-ranked predicted indication (idiopathic copper-associated cirrhosis) has an L5 evidence level — model prediction only, with zero supporting clinical trials or literature — and the evidence pack's own analysis attributes the high score to a knowledge-graph artifact rather than a plausible pharmacological mechanism.
+**التبرير:**
+يحتوي المؤشر الأعلى تصنيفاً المتنبأ به (تليف الكبد المرتبط بالنحاس مجهول السبب) على مستوى دليل L5 — تنبؤ النموذج فقط، دون أي تجارب سريرية أو أدبيات داعمة — وتحليل حزمة الأدلة نفسه ينسب درجة النقاط العالية إلى صنعة الرسم البياني للمعرفة بدلاً من آلية دوائية معقولة.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications, DDI) — currently a blocking data gap
-- Confirmed mechanism of action documentation from DrugBank
-- Any direct preclinical or clinical evidence linking paromomycin to copper metabolism or hepatic fibrosis pathways
-- Consider re-evaluating the lower-score but literature-supported candidate (peritonitis, rank 8, L4, 20 publications) as a more grounded alternative repurposing hypothesis, noting most of that literature is indirect (leishmaniasis drug-interaction studies) rather than peritonitis-specific
+**المطلوب للمتابعة:**
+- بيانات نشرة TFDA/SFDA (التحذيرات وموانع الاستعمال والتفاعلات الدوائية) — حالياً فجوة بيانات عائقة
+- توثيق آلية التأثير المؤكدة من DrugBank
+- أي دليل سابق للتجارب السريرية أو سريري مباشر يربط باروموميسين باستقلاب النحاس أو مسارات تليف الكبد
+- النظر في إعادة تقييم المرشح ذو الدرجة الأقل لكن المدعوم بالأدبيات (التهاب الصفاق، الترتيب 8، L4، 20 منشور) كفرضية إعادة توظيف بديلة أكثر ارتكازاً، مع ملاحظة أن معظم تلك الأدبيات غير مباشرة (دراسات تفاعلات أدوية الليشمانيا) بدلاً من الأدلة المحددة على التهاب الصفاق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

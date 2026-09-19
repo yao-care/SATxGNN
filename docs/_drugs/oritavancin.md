@@ -29,76 +29,77 @@ indication_count: 3
 
 </div>
 
-# Oritavancin: From Gram-Positive Bacterial Infections to Bacteroidaceae Infectious Disease
+# أوريتافانسين: من الالتهابات البكتيرية موجبة الجرام إلى المرض المعدي بـ Bacteroidaceae
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Oritavancin is a lipoglycopeptide antibiotic whose established spectrum covers Gram-positive organisms, including MRSA.
-> The TxGNN model assigns its highest-ranked new-indication signal to **Bacteroidaceae infectious disease**,
-> but this prediction is currently backed by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags it as biologically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on record in this evidence pack (drug not marketed locally); known spectrum is Gram-positive bacterial infections, including MRSA |
-| Predicted New Indication | Bacteroidaceae infectious disease |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> أوريتافانسين هو مضاد حيوي من فئة الليبوجليكوببتيد طيفه المؤسس يغطي الكائنات موجبة الجرام، بما في ذلك المكورات العنقودية الذهبية المقاومة للميثيسيلين (MRSA).
+> يخصص نموذج TxGNN إشارته الأعلى تصنيفاً للمؤشر الجديد إلى **المرض المعدي بـ Bacteroidaceae**،
+> إلا أن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و**0 منشورات**، وتحليل الآليات الحيوية في مجموعة الأدلة ذاتها يشير إلى أنه غير معقول بيولوجياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Oritavancin is a lipoglycopeptide antibiotic. Its mechanism of action inhibits bacterial cell-wall synthesis by binding the D-Ala-D-Ala terminus of peptidoglycan precursors, combined with membrane-disrupting activity. This mechanism is effective against **Gram-positive** organisms, including MRSA, which is consistent with oritavancin's known clinical role in skin and soft-tissue infections.
-
-The top-ranked prediction, Bacteroidaceae infectious disease, targets a **Gram-negative anaerobic** family. Gram-negative organisms have an outer membrane that typically excludes glycopeptide-class drugs, meaning oritavancin's mechanism does not naturally extend to this target. The evidence pack's own mechanistic rationale explicitly notes this mismatch and attributes the high TxGNN score to likely over-generalization of a broad "antibiotic–infectious disease" association pattern rather than a species-specific signal.
-
-The two lower-ranked candidates in this evidence pack (ophthalmic herpes zoster, rank 2; Mycoplasma pneumoniae pneumonia, rank 3) are mechanistically even weaker: herpes zoster is a viral infection with no plausible link to a cell-wall-targeting antibacterial, and Mycoplasma species lack a cell wall entirely, making them intrinsically insensitive to oritavancin's mechanism. All three candidates in this pack are therefore assessed as low-confidence, model-only signals rather than mechanistically supported repurposing leads.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|---------|---------|
+| المؤشر الأصلي | غير مسجل في مجموعة الأدلة هذه (الدواء غير موجود في السوق محلياً)؛ الطيف المعروف هو الالتهابات البكتيرية موجبة الجرام، بما في ذلك MRSA |
+| المؤشر الجديد المتنبأ به | المرض المعدي بـ Bacteroidaceae |
+| درجة التنبؤ بـ TxGNN | 99.48% |
+| مستوى الأدلة | L5 |
+| حالة السوق | غير موجود في السوق (غير مسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+أوريتافانسين هو مضاد حيوي من فئة الليبوجليكوببتيد. آليته في العمل تثبط تخليق جدار الخلية البكتيري بالارتباط بطرف D-Ala-D-Ala من سلائف الببتيدوجليكان، مقترناً بنشاط تعطيل الغشاء. هذه الآلية فعّالة ضد الكائنات **موجبة الجرام**، بما في ذلك MRSA، وهذا يتسق مع الدور السريري المعروف لأوريتافانسين في التهابات الجلد والأنسجة الرخوة.
 
----
+التنبؤ الأعلى تصنيفاً، المرض المعدي بـ Bacteroidaceae، يستهدف عائلة **سالبة الجرام لاهوائية**. للكائنات سالبة الجرام غشاء خارجي يستبعد عادة أدوية فئة الجليكوببتيد، مما يعني أن آلية أوريتافانسين لا تمتد بشكل طبيعي إلى هذا الهدف. التحليل الآلي الخاص بمجموعة الأدلة ذاتها يلاحظ بشكل صريح هذا عدم التطابق وينسب درجة TxGNN العالية إلى الإفراط المحتمل في تعميم نمط ارتباط واسع "مضاد حيوي–مرض معدي" بدلاً من إشارة خاصة بالنوع.
 
-## Market Information
-
-No product authorizations are on record — oritavancin is currently not marketed in this jurisdiction (0 licenses).
+المرشحان ذا الترتيب الأقل في مجموعة الأدلة هذه (الهربس النطاقي العيني، الترتيب 2؛ الالتهاب الرئوي بـ Mycoplasma pneumoniae، الترتيب 3) ضعيفان بيولوجياً بشكل أكثر: الهربس النطاقي هو عدوى فيروسية بلا ارتباط معقول بمضاد حيوي موجه لجدار الخلية، والأنواع Mycoplasma تفتقد جدار الخلية تماماً، مما يجعلها مقاومة بشكل متأصل لآلية أوريتافانسين. جميع المرشحين الثلاثة في هذه المجموعة يُقيّمان بالتالي كإشارات منخفضة الثقة تعتمد على النموذج فقط بدلاً من أن تكون فرص إعادة توظيف مدعومة ميكانيكياً.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The top prediction (Bacteroidaceae infectious disease) has no clinical trial or literature support and is L5 (model prediction only); the evidence pack's own mechanistic analysis argues the signal is likely spurious given oritavancin's Gram-positive-restricted mechanism versus Bacteroidaceae's Gram-negative anaerobic biology. The two other candidates in this pack are mechanistically even less defensible and do not change this conclusion.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regional package insert data (warnings, contraindications — currently a blocking data gap)
-- Verified mechanism-of-action source documentation
-- Confirmed original approved indication(s) for this drug in the target market
-- If pursued further, in vitro susceptibility data for oritavancin against Bacteroidaceae specifically, since no existing evidence supports Gram-negative anaerobic coverage
+## معلومات السوق
+
+لم يتم تسجيل أي تفويضات منتج — أوريتافانسين غير موجود حالياً في السوق في هذه الولاية القضائية (0 رخصة).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**المبرر:**
+التنبؤ الأعلى تصنيفاً (المرض المعدي بـ Bacteroidaceae) ليس لديه دعم من تجارب سريرية أو أدبيات وهو L5 (تنبؤ نموذجي فقط)؛ التحليل الآلي الخاص بمجموعة الأدلة ذاتها يجادل بأن الإشارة من المحتمل أن تكون زائفة بالنظر إلى آلية أوريتافانسين المقتصرة على موجبة الجرام مقابل بيولوجيا Bacteroidaceae السالبة الجرام اللاهوائية. المرشحان الآخران في هذه المجموعة أقل دفاعاً ميكانيكياً وليس لديهما ما يغير هذه الخلاصة.
+
+**للمتابعة، يلزم التالي:**
+- بيانات نشرة TFDA/الإقليم الدوائية (التحذيرات، موانع الاستعمال — حالياً فجوة بيانات حاجزة)
+- وثائق مصدر آلية العمل المؤكدة
+- المؤشرات الأصلية المعتمدة المؤكدة لهذا الدواء في السوق المستهدفة
+- إذا تمت المتابعة بشكل أعمق، بيانات حساسية الاختبار في المختبر لأوريتافانسين ضد Bacteroidaceae على وجه التحديد، حيث أن عدم وجود أدلة موجودة يدعم التغطية اللاهوائية سالبة الجرام
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

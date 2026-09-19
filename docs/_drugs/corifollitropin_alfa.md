@@ -29,81 +29,82 @@ indication_count: 8
 
 </div>
 
-# Corifollitropin Alfa: From Controlled Ovarian Stimulation to Gastroduodenitis
+# كوريفوليتروبين ألفا: من تحفيز المبيض المضبوط إلى التهاب المعدة الاثني عشري
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Corifollitropin alfa is a long-acting recombinant FSH (follicle-stimulating hormone) analog originally developed for controlled ovarian stimulation (COS) in women undergoing assisted reproductive technology (ART).
-The TxGNN model predicts it may have activity in **Gastroduodenitis**, yet with **0 clinical trials** and **0 publications** directly supporting this direction, the prediction is entirely model-derived.
-All eight top-ranked predicted indications stand at L5 evidence level, indicating that substantial biological validation is required before any clinical consideration.
+كوريفوليتروبين ألفا هو نظير طويل المفعول من الهرمون المحفز للجريبات (FSH) الذي تم تطويره في الأصل لتحفيز المبيض المضبوط (COS) لدى النساء الخاضعات للتقنيات المساعدة على الإنجاب (ART).
+يتنبأ نموذج TxGNN بأن قد يكون له نشاط في **التهاب المعدة الاثني عشري**، لكن مع **0 تجارب سريرية** و**0 منشورات** تدعم هذا الاتجاه مباشرة، فإن التنبؤ مشتق بالكامل من النموذج.
+جميع المؤشرات الثماني المتنبأ بها احتلت مستوى L5 للأدلة، مما يشير إلى ضرورة التحقق البيولوجي الموسع قبل أي اعتبار سريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Controlled ovarian stimulation (COS) in women undergoing assisted reproductive technology |
-| Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | تحفيز المبيض المضبوط (COS) لدى النساء الخاضعات للتقنيات المساعدة على الإنجاب |
+| المؤشر الجديد المتنبأ به | التهاب المعدة الاثني عشري |
+| درجة التنبؤ من TxGNN | 99.65% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | غير مسجل |
+| عدد التصاريح | 0 |
+| القرار الموصى به | التأجيل |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, corifollitropin alfa (DrugBank: DB09066) is a long-acting recombinant FSH analog that binds and activates the FSH receptor (FSHR), triggering the cAMP/PKA → MAPK/PI3K signaling cascade to stimulate follicular growth and maturation. Its efficacy in controlled ovarian stimulation for ART is well-established, with regulatory approval in the EU and other jurisdictions (marketed as **Elonva** by MSD/Merck). Saudi Arabia regulatory records show no approved licenses to date.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة. بناءً على المعلومات المعروفة، كوريفوليتروبين ألفا (DrugBank: DB09066) هو نظير طويل المفعول من الهرمون المحفز للجريبات المؤتلف الذي يرتبط بمستقبل FSH (FSHR) وينشطه، مما يؤدي إلى تفعيل سلسلة إشارات cAMP/PKA → MAPK/PI3K لتحفيز نمو الجريبات وتطورها. إن فعاليته في تحفيز المبيض المضبوط للتقنيات المساعدة على الإنجاب راسخة بشكل جيد، مع الموافقة النظامية في الاتحاد الأوروبي والولايات القضائية الأخرى (مسوق باسم **Elonva** من قبل MSD/Merck). سجلات الهيئة السعودية للدواء والغذاء تُظهر عدم وجود تراخيص موافق عليها حتى الآن.
 
-The connection between FSH receptor agonism and gastroduodenitis is biologically implausible under current knowledge. FSH receptors are predominantly expressed in gonadal granulosa cells and testicular Sertoli cells, with no documented role in gastroduodenal mucosal physiology. Gastroduodenitis is driven primarily by *H. pylori* infection, NSAID-induced mucosal damage, or acid hypersecretion — pathways entirely outside the FSH signaling axis. No published literature has linked FSH signaling to gastroduodenal mucosal protection or repair.
+الارتباط بين تنشيط مستقبل FSH والتهاب المعدة الاثني عشري غير معقول بيولوجيًا وفقًا للمعرفة الحالية. مستقبلات FSH يتم التعبير عنها بشكل أساسي في خلايا الحبيبات المبيضية وخلايا Sertoli الخصية، بدون دور موثق في فسيولوجيا الغشاء المخاطي المعدي الاثني عشري. يتم تحفيز التهاب المعدة الاثني عشري بشكل أساسي بواسطة عدوى *H. pylori* أو الضرر الناجم عن الأدوية المضادة للالتهاب غير الستيرويدية (NSAID) أو فرط إفراز الحمض — مسارات خارج تمامًا عن محور إشارات FSH. لم تربط أي أدبيات منشورة بين إشارات FSH وحماية الغشاء المخاطي المعدي الاثني عشري أو إصلاحه.
 
-The TxGNN model's high confidence score (99.65%) most likely reflects a **graph topology artifact** rather than a true biological relationship. The model may have captured disease co-occurrence or ontological proximity within the knowledge graph without an underlying drug-disease mechanistic link. This prediction should be treated as a purely computational hypothesis and does not warrant progression to preclinical studies without a foundational mechanistic rationale being established first.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+درجة الثقة العالية للنموذج TxGNN (99.65%) تعكس على الأرجح **قطعة أثرية في طوبولوجيا الرسم البياني** وليس علاقة بيولوجية حقيقية. قد يكون النموذج قد التقط التزامن المرضي أو القرب الطوبولوجي داخل الرسم البياني للمعرفة دون رابط آلي دواء-مرض أساسي. يجب التعامل مع هذا التنبؤ كفرضية حسابية بحتة ولا يبرر التقدم إلى دراسات ما قبل السريرية دون إنشاء أساس معقول للآلية البيولوجية أولاً.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Corifollitropin alfa is **not approved or marketed in Saudi Arabia**. No SFDA authorization records are on file, and no licensed products exist in the Saudi market as of the data cutoff (2026-06-16).
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
-> **Note:** Safety data (key warnings, contraindications, drug interactions) could not be retrieved for this candidate. The package insert from the originating regulatory authority (EMA/TFDA) should be consulted before any clinical evaluation. Resolving this data gap is flagged as a **Blocking** prerequisite (DG001) for a complete safety assessment.
+لا توجد أدبيات ذات صلة متاحة حاليًا.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودي
 
-**Decision: Hold**
+كوريفوليتروبين ألفا **غير موافق عليه أو مسوق في المملكة العربية السعودية**. لا توجد سجلات تصريح من الهيئة السعودية للدواء والغذاء في الملفات، وليست هناك منتجات مرخصة في السوق السعودي حتى تاريخ قطع البيانات (2026-06-16).
 
-**Rationale:**
-The top predicted indication (gastroduodenitis) is supported by no clinical trials, no relevant literature, and no established mechanistic link to corifollitropin alfa's FSH receptor agonist mechanism. The biological rationale in the Evidence Pack explicitly identifies this as a probable knowledge-graph artifact. An L5 rating with no converging biological signal does not justify resource investment in this indication at this time.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Resolve MOA data gap (DG002):** Retrieve full mechanistic data from DrugBank API (DB09066) to enable proper mechanistic-link analysis across all predicted indications
-- **Resolve safety data gap (DG001 — Blocking):** Download and parse the EMA/TFDA package insert to obtain warnings, contraindications, and precautions before any S1 safety screening can proceed
-- **Basic science feasibility check:** Confirm whether FSH receptors are expressed in gastroduodenal mucosal tissue before committing to any preclinical work on this specific indication
-- **Re-triage toward higher-plausibility candidates:** Two predictions in this pack warrant a preliminary mechanistic literature review ahead of this indication:
-  - **Pulmonary Hypertension (Rank 6)** — FSH receptor expression has been reported in human pulmonary artery smooth muscle and endothelial cells, with observational data linking post-menopausal FSH elevation to pulmonary vascular remodeling; the net functional direction (pro- vs. anti-proliferative) requires clarification
-  - **Migraine Disorder (Rank 2)** — Menstrual cycle FSH fluctuations are associated with menstrual migraine frequency, and FSH receptors have been detected in cerebrovascular tissue; the effect direction of FSH agonism on migraine remains undefined and should be explored via cortical spreading depression (CSD) animal models
+يُرجى الرجوع إلى النشرة الخاصة للحصول على معلومات السلامة.
+
+> **ملاحظة:** لم يتمكن من استرجاع بيانات السلامة (التحذيرات الرئيسية والمضادات والتفاعلات الدوائية) لهذا المرشح. يجب استشارة النشرة الخاصة من السلطة التنظيمية الأصلية (EMA/TFDA) قبل أي تقييم سريري. يتم تحديد حل الفجوة في البيانات هذه كشرط **مانع** (DG001) لتقييم السلامة الكامل.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: التأجيل**
+
+**المبرر:**
+المؤشر المتنبأ به الأعلى (التهاب المعدة الاثني عشري) لا يدعمه أي تجارب سريرية، ولا أدب ذو صلة، ولا ارتباط آلي راسخ بآلية ناهض مستقبل FSH لكوريفوليتروبين ألفا. يحدد الأساس البيولوجي في حزمة الأدلة هذا بوضوح على أنه قطعة أثرية محتملة في الرسم البياني للمعرفة. لا يبرر تصنيف L5 بدون إشارة بيولوجية متقاربة الاستثمار في الموارد في هذا المؤشر في الوقت الحالي.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **حل فجوة بيانات آلية العمل (DG002):** استرجاع بيانات الآلية الكاملة من DrugBank API (DB09066) لتمكين التحليل الصحيح لارتباط الآلية عبر جميع المؤشرات المتنبأ بها
+- **حل فجوة بيانات السلامة (DG001 — مانع):** تنزيل وتحليل النشرة الخاصة من EMA/TFDA للحصول على التحذيرات والمضادات والاحتياطات قبل أي فحص سلامة S1 يمكن أن يتابع
+- **فحص جدوى العلوم الأساسية:** تأكيد ما إذا كانت مستقبلات FSH مُعبّرة في أنسجة الغشاء المخاطي المعدي الاثني عشري قبل الالتزام بأي عمل ما قبل سريري على هذا المؤشر المحدد
+- **إعادة تصنيف نحو المرشحين ذوي المعقولية الأعلى:** يستحق التنبؤان في هذه الحزمة مراجعة أدبيات آلية أولية قبل هذا المؤشر:
+  - **ارتفاع ضغط الدم الرئوي (الترتيب 6)** — تم الإبلاغ عن التعبير عن مستقبل FSH في خلايا عضلات الشرايين الرئوية البشرية والخلايا البطانية، مع بيانات رصدية تربط ارتفاع FSH بعد سن اليأس بإعادة تشكيل الأوعية الدموية الرئوية؛ الاتجاه الوظيفي الصافي (موالٍ مقابل مضادّ للتكاثر) يتطلب توضيحًا
+  - **اضطراب الشقيقة (الترتيب 2)** — تقلبات FSH في دورة الحيض مرتبطة بتكرار الشقيقة الحيضية، وتم اكتشاف مستقبلات FSH في الأنسجة الدماغية الوعائية؛ تأثير ناهضات FSH على الشقيقة لم يتم تحديده بعد ويجب استكشافه عبر نماذج حيوانية لانتشار موجات الاكتئاب القشري (CSD)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

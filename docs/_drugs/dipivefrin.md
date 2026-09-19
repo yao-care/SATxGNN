@@ -29,77 +29,78 @@ indication_count: 1
 
 </div>
 
-# DIPIVEFRIN: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+# ديبيفيفرين: من الجلوكوما مفتوحة الزاوية إلى الجلوكوما الوراثية الأولية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Dipivefrin is a prodrug of epinephrine historically used to lower intraocular pressure (IOP) in open-angle glaucoma by enhancing corneal penetration of its active metabolite. The TxGNN model predicts a potential application in **Primary Hereditary Glaucoma** (score: 99.45%), citing IOP reduction as a shared therapeutic endpoint; however, **no directly relevant clinical trials or published literature** were identified to support this specific repurposing direction. Evidence remains at a mechanistic-hypothesis stage (L4), and the drug is not currently registered in Saudi Arabia.
+ديبيفيفرين هو دواء أولي لـ الإبينفرين استُخدم تاريخياً لخفض ضغط العين داخل الكرة (IOP) في الجلوكوما مفتوحة الزاوية عن طريق تحسين اختراق القرنية لمستقلبه النشط. يتنبأ نموذج TxGNN بتطبيق محتمل في **الجلوكوما الوراثية الأولية** (درجة: 99.45%)، مع الإشارة إلى خفض IOP كنقطة نهاية علاجية مشتركة؛ غير أنه **لم يتم تحديد أي تجارب سريرية ذات صلة مباشرة أو أدبيات منشورة** لدعم هذا الاتجاه المحدد لإعادة الاستخدام. تبقى الأدلة في مرحلة فرضية آلية (L4)، والدواء غير مسجل حالياً في المملكة العربية السعودية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Open-angle glaucoma / Ocular hypertension (general pharmacological record; not registered in Saudi Arabia) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الجلوكوما مفتوحة الزاوية / فرط ضغط العين (سجل دوائي عام؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | الجلوكوما الوراثية الأولية |
+| درجة التنبؤ بـ TxGNN | 99.45% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | معلق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Dipivefrin is a dipivalyl ester prodrug of epinephrine, engineered to achieve substantially greater corneal penetration than epinephrine alone. After topical instillation, corneal esterases rapidly hydrolyze it to release active epinephrine, which then exerts dual adrenergic effects: β-receptor stimulation suppresses aqueous humor production, while α-receptor stimulation promotes uveoscleral outflow. This two-pronged IOP-lowering mechanism underpins its established role in open-angle glaucoma and ocular hypertension.
+ديبيفيفرين هو دواء أولي لـ إستر ثنائي بيفالويل الإبينفرين، صُمم لتحقيق اختراق قرني أكبر بكثير من الإبينفرين وحده. بعد التنقيط الموضعي، تقوم إستيراز القرنية بسرعة بتحلله لتحرير الإبينفرين النشط، الذي يمارس بعد ذلك تأثيرات ودية مزدوجة: يقلل تحفيز مستقبلات β من إنتاج الفكاهة المائية، بينما يعزز تحفيز مستقبلات α تدفق مسار تصريف اليوسكليرا. يدعم هذا الآلية المزدوجة لخفض IOP دوره الراسخ في الجلوكوما مفتوحة الزاوية وفرط ضغط العين.
 
-Primary hereditary glaucoma — encompassing congenital and juvenile-onset forms — shares the same fundamental consequence as open-angle glaucoma: chronically elevated IOP causing progressive optic nerve damage. The critical distinction, however, is etiology. Hereditary glaucoma arises from structural malformation of the trabecular meshwork (commonly linked to mutations in *CYP1B1* or *MYOC*), rather than a functional outflow deficiency. Adrenergic agents that enhance aqueous drainage are mechanistically well-suited to functional obstruction but face an attenuated response when the drainage architecture is anatomically abnormal — the drug cannot correct what is structurally absent.
+الجلوكوما الوراثية الأولية — التي تشمل الأشكال الخلقية والمبكرة في السن — تشترك في نفس النتيجة الأساسية مع الجلوكوما مفتوحة الزاوية: ارتفاع IOP المزمن يسبب تلف تدريجي للعصب البصري. غير أن الفرق الحاسم هو السبب. تنشأ الجلوكوما الوراثية من التشوه الهيكلي للشبكة الحجاجية (غالباً ما يرتبط بطفرات في *CYP1B1* أو *MYOC*)، وليس من قصور وظيفي في التصريف. الأدوية الودية التي تعزز تصريف الفكاهة المائية مناسبة آلياً لعرقلة وظيفية ولكنها تواجه استجابة ضعيفة عندما تكون بنية التصريف شاذة تشريحياً — لا يمكن للدواء أن يصحح ما هو غائب من الناحية الهيكلية.
 
-The TxGNN model's high-confidence score (99.45%) reflects the topological proximity of "primary hereditary glaucoma" and "open-angle glaucoma" within the disease knowledge graph, and the convergent endpoint of IOP reduction. While this mechanistic bridge is scientifically coherent and positions dipivefrin as a plausible adjunctive IOP-lowering agent, it is unlikely to be curative in a structurally driven disease. This prediction is best treated as a hypothesis-generating signal warranting targeted preclinical investigation before any clinical planning is considered.
+درجة ثقة نموذج TxGNN العالية (99.45%) تعكس القرب الطوبولوجي بين "الجلوكوما الوراثية الأولية" و"الجلوكوما مفتوحة الزاوية" ضمن الرسم البياني لمعرفة المرض، ونقطة النهاية المتقاربة لخفض IOP. في حين أن هذا الجسر الآلي متسق علمياً وينصب ديبيفيفرين كعامل مساعد محتمل لخفض IOP، فمن غير المرجح أن يكون علاجياً في مرض يقوده الهيكل. يجب التعامل مع هذا التنبؤ على أنه إشارة توليد فرضية تستحق التحقيق السابق للإكلينيكي المركز قبل النظر في أي تخطيط سريري.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-One trial was retrieved during the database query. Upon expert review, it is **not relevant** to dipivefrin pharmacotherapy or primary hereditary glaucoma — it represents a false-positive match arising from proximity between adjacent ophthalmology disease nodes in the TxGNN knowledge graph.
+تم استرجاع تجربة واحدة أثناء الاستعلام من قاعدة البيانات. عند المراجعة المتخصصة، فهي **ليست ذات صلة** بصيدلة ديبيفيفرين أو الجلوكوما الوراثية الأولية — فهي تمثل مطابقة إيجابية خاطئة ناشئة عن القرب بين عقد أمراض العيون المجاورة في الرسم البياني لمعرفة TxGNN.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03763721](https://clinicaltrials.gov/study/NCT03763721) | N/A | Completed | 65 | Evaluated intra-operative OCT imaging guidance for posterior lamellar keratoplasty (corneal transplant surgery). No dipivefrin involvement; no hereditary glaucoma treatment focus. **Not relevant to this repurposing candidate.** |
+| [NCT03763721](https://clinicaltrials.gov/study/NCT03763721) | N/A | مكتملة | 65 | قيّمت الموجات فوق الصوتية داخل العملية لتوجيه جراحة الطعم الرقائقي الخلفي (جراحة زراعة القرنية). لا يوجد تورط ديبيفيفرين؛ لا يوجد تركيز على علاج الجلوكوما الوراثية. **ليست ذات صلة بهذا المرشح لإعادة الاستخدام.** |
 
-No directly relevant clinical trials for dipivefrin in primary hereditary glaucoma are currently registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
-No PubMed publications were identified specifically investigating dipivefrin or its active metabolite epinephrine in the context of primary hereditary glaucoma.
+لا توجد تجارب سريرية مباشرة ذات صلة لـ ديبيفيفرين في الجلوكوما الوراثية الأولية مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد أدبيات ذات صلة متاحة حالياً.
+
+لم يتم تحديد أي منشورات PubMed تحقق بشكل محدد في ديبيفيفرين أو مستقلبها النشط الإبينفرين في سياق الجلوكوما الوراثية الأولية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN prediction carries a mechanistically coherent rationale — dipivefrin delivers IOP-lowering epinephrine to the anterior chamber, and sustained IOP elevation is the defining harm in primary hereditary glaucoma — but the structural trabecular mesh defect underlying the hereditary form fundamentally limits pharmacological efficacy. With no clinical trials, no published literature, no Saudi Arabia registration, and all safety data pending, the evidence base is insufficient to advance beyond a research hypothesis at this stage.
+---
 
-**To proceed, the following is needed:**
-- Preclinical evidence (in vitro or animal model) demonstrating IOP-lowering efficacy of dipivefrin or epinephrine in hereditary/congenital glaucoma models carrying *CYP1B1* or *MYOC* mutations
-- Mechanism of action documentation from DrugBank to confirm the full adrenergic receptor binding and off-target profile
-- Safety data retrieval: key warnings, contraindications, and drug interaction profile from the original package insert
-- Clinical context assessment — determining whether pharmacological adjuncts have a defined role alongside first-line surgical interventions (goniotomy, trabeculotomy) in hereditary glaucoma management
-- Saudi Arabia regulatory pathway scoping if preclinical data proves supportive
+## الخاتمة والخطوات التالية
+
+**القرار: معلق**
+
+**المنطق:**
+يحمل التنبؤ بـ TxGNN منطقاً متسقاً آلياً — يوفر ديبيفيفرين إبينفرين خافض لـ IOP إلى الحجرة الأمامية، والارتفاع المستدام لـ IOP هو الضرر المحدد في الجلوكوما الوراثية الأولية — لكن العيب الهيكلي في الشبكة الحجاجية التي تكمن وراء الشكل الوراثي يحد بشكل أساسي من فعالية الدواء. بدون تجارب سريرية، بدون أدبيات منشورة، بدون تسجيل في المملكة العربية السعودية، وجميع بيانات السلامة معلقة، فإن قاعدة الأدلة غير كافية للمضي قدماً إلى ما بعد فرضية بحثية في هذه المرحلة.
+
+**للمتابعة، يلزم ما يلي:**
+- أدلة سابقة للإكلينيكية (في المختبر أو نموذج حيواني) توضح فعالية خفض IOP لـ ديبيفيفرين أو إبينفرين في نماذج جلوكوما وراثية/خلقية تحمل طفرات *CYP1B1* أو *MYOC*
+- توثيق آلية العمل من DrugBank لتأكيد ملف الربط الكامل لمستقبلات الودية والملف خارج الهدف
+- استرجاع بيانات السلامة: التحذيرات الرئيسية والموانع والملف الدوائي للتفاعلات من نشرة الدواء الأصلية
+- تقييم السياق السريري — تحديد ما إذا كان لـ المساعدات الدوائية دور محدد جنباً إلى جنب مع التدخلات الجراحية من الدرجة الأولى (الشق الزاوي، تضييق الشريط) في إدارة الجلوكوما الوراثية
+- تحديد نطاق المسار التنظيمي في المملكة العربية السعودية إذا أثبتت البيانات السابقة للإكلينيكية فائدتها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

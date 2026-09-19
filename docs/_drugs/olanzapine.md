@@ -29,61 +29,62 @@ indication_count: 3
 
 </div>
 
-# Olanzapine: From Schizophrenia/Bipolar Disorder to Benign Paroxysmal Torticollis of Infancy
+# أولانزابين: من الفصام/الاضطراب ثنائي القطب إلى التورتيكولس الحميد الانتيابي للرضع
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Olanzapine is an atypical antipsychotic internationally indicated for schizophrenia and bipolar I disorder; it is not currently marketed in Saudi Arabia.
-The TxGNN model's top-ranked prediction is **Benign Paroxysmal Torticollis of Infancy**, but **0 clinical trials** and **0 publications** currently support this specific direction — the prediction is model-derived only.
+أولانزابين (أولانزابين) هو دواء ذو فعالية نفسية من الجيل الثاني موصى به دولياً لعلاج الفصام والاضطراب ثنائي القطب من النوع الأول؛ وهو غير مسوّق حالياً في المملكة العربية السعودية.
+التنبؤ الأفضل ترتيباً من نموذج TxGNN هو **التورتيكولس الحميد الانتيابي للرضع**، لكن **0 تجربة سريرية** و**0 منشور** يدعمان هذا الاتجاه المحدد حالياً — التنبؤ مشتق من النموذج فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No Saudi Arabia licence text available (drug unmarketed); internationally indicated for schizophrenia and bipolar I disorder |
-| Predicted New Indication | Benign Paroxysmal Torticollis of Infancy |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 (model prediction only, no supporting studies identified) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | لا توجد نصوص ترخيص متاحة في المملكة العربية السعودية (الدواء غير مسوّق)؛ موصى به دولياً للفصام والاضطراب ثنائي القطب من النوع الأول |
+| المؤشر الجديد المتنبأ به | التورتيكولس الحميد الانتيابي للرضع |
+| درجة التنبؤ من TxGNN | 99.54% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، لم يتم تحديد دراسات داعمة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for olanzapine is not available in this evidence pack. Based on known pharmacology, olanzapine is a second-generation antipsychotic with broad receptor antagonism (dopamine D2, serotonin 5-HT2A, histamine H1, and others), used to treat schizophrenia and bipolar I disorder.
+حالياً، بيانات آلية العمل التفصيلية لأولانزابين غير متاحة في حزمة الأدلة هذه. بناءً على الصيدلة المعروفة، أولانزابين هو دواء ذو فعالية نفسية من الجيل الثاني بحصار واسع للمستقبلات (الدوبامين D2، السيروتونين 5-HT2A، الهيستامين H1، وغيرها)، ويُستخدم لعلاج الفصام والاضطراب ثنائي القطب من النوع الأول.
 
-Benign paroxysmal torticollis of infancy is a self-limited, episodic pediatric condition generally regarded as a childhood migraine-variant syndrome, thought to involve vestibular and possibly calcium-channel-related mechanisms rather than dopaminergic or serotonergic dysregulation. There is no established pharmacological rationale connecting olanzapine's receptor profile to this condition, and no case reports, preclinical studies, or trials in the evidence pack support such a link.
+التورتيكولس الحميد الانتيابي للرضع هو حالة انتيابية محدودة ذاتي التحدد عند الأطفال، تُعتبر عموماً متغيرة للشقيقة في مرحلة الطفولة، ويُعتقد أنها تتضمن آليات دهليزية وربما متعلقة بقنوات الكالسيوم بدلاً من اختلال التنظيم الدوباميني أو السيروتونيني. لا توجد نسبة فسيولوجية دوائية مثبتة تربط بين الملف الجانبي المستقبلي لأولانزابين وهذه الحالة، ولا توجد تقارير حالات أو دراسات سابقة للإنسان أو تجارب سريرية في حزمة الأدلة تدعم هذا الربط.
 
-Given the complete absence of clinical trial or literature evidence — and the fact that the target population (infants) falls well outside olanzapine's studied age range and safety profile — this prediction should be treated as a low-confidence graph-based signal rather than a clinically substantiated hypothesis.
+بالنظر إلى الغياب التام للأدلة من التجارب السريرية أو الأدبيات — وحقيقة أن السكان المستهدفون (الرضع) يقعون خارج نطاق الفئة العمرية المدروسة وملف السلامة لأولانزابين — يجب اعتبار هذا التنبؤ إشارة منخفضة الثقة مستمدة من الرسم البياني وليس فرضية موثقة سريرياً.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Olanzapine is not currently marketed in Saudi Arabia (0 authorizations on record); no local licence or product information is available.
+أولانزابين غير مسوّق حالياً في المملكة العربية السعودية (0 تفويضات مسجلة)؛ لا ترخيص محلي أو معلومات منتج متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المعلومات الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-Despite having the highest TxGNN prediction score among this drug's candidates, benign paroxysmal torticollis of infancy has zero corroborating clinical trials or literature, no plausible mechanistic link has been established, and the target population (infants) is entirely unstudied for this drug. There is insufficient basis to advance this indication.
+**الأساس المنطقي:**
+على الرغم من تصنيفها الأعلى من بين مرشحي هذا الدواء بنموذج TxGNN، فإن التورتيكولس الحميد الانتيابي للرضع لا يحتوي على أي تجارب سريرية مؤكدة أو أدبيات، لم يتم تأسيس أي ارتباط آلي معقول، والسكان المستهدفون (الرضع) لم يتم دراستهم على الإطلاق لهذا الدواء. لا توجد أساس كافٍ للمتابعة في هذا المؤشر.
 
-**To proceed, the following is needed:**
-- Mechanism of action data (DG002, High severity) to assess biological plausibility
-- SFDA/TFDA package insert warnings and contraindications (DG001, Blocking severity) — required before any safety screening (S1) can begin
-- Any preclinical or case-level evidence specifically linking olanzapine to pediatric torticollis, before further investment
-- Note: two other candidates in this evidence pack — **agoraphobia** (7 supporting publications, including a 12-week open-label augmentation trial) and **dysthymic disorder** (5 supporting publications, including a Cochrane systematic review) — have materially stronger literature support and may warrant separate, prioritized evaluation
+**للمتابعة، يلزم التالي:**
+- بيانات آلية العمل (DG002، شدة عالية) لتقييم المعقولية البيولوجية
+- نشرات المعلومات الدوائية من هيئة الغذاء والدواء السعودية/الصينية وتحذيراتها وموانع الاستعمال (DG001، شدة حجب) — مطلوبة قبل أن يتمكن أي فحص السلامة (S1) من البدء
+- أي أدلة سابقة للإنسان أو على مستوى الحالات ترتبط بشكل محدد بأولانزابين والتورتيكولس عند الأطفال، قبل المزيد من الاستثمار
+- ملاحظة: هناك مرشحان آخران في حزمة الأدلة هذه — **رهاب الساحات** (7 منشورات داعمة، بما في ذلك تجربة مفتوحة التسمية لمدة 12 أسبوع) و**اضطراب الدستيميا** (5 منشورات داعمة، بما في ذلك مراجعة منهجية من كوكران) — لهما دعم أدبي أقوى بشكل كبير وقد يستحقان تقييماً منفصلاً ومحدداً بأولوية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

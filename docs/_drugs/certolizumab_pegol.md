@@ -29,89 +29,90 @@ indication_count: 6
 
 </div>
 
-# Certolizumab Pegol: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# سيرتوليزوماب بيجول: من التهاب المفاصل الروماتويدي إلى التهاب الأوعية الروماتويدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Certolizumab pegol (CZP, Cimzia®) is a PEGylated anti-TNF-α biologic approved in multiple countries for rheumatoid arthritis, Crohn's disease, psoriatic arthritis, and axial spondyloarthritis.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**, with **3 clinical trials** and **8 publications** currently identified — however, a critical mechanistic paradox applies: the majority of identified literature describes CZP *causing* vasculitis as an adverse drug reaction, not treating it.
+سيرتوليزوماب بيجول (CZP، Cimzia®) هو دواء بيولوجي معدل بـ PEGylated مضاد لـ TNF-α معتمد في دول متعددة لعلاج التهاب المفاصل الروماتويدي وداء كرون والتهاب المفاصل الصدفي والتهاب الفقرات المحوري.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **التهاب الأوعية الروماتويدي**، مع تحديد **3 تجارب سريرية** و**8 منشورات** حتى الآن — غير أن تناقضاً آلياً حرجاً ينطبق: توضح غالبية الأدبيات المحددة أن CZP *يسبب* التهاب الأوعية كتفاعل دوائي سلبي، وليس علاجه.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Rheumatoid Arthritis / Inflammatory Arthritis (Saudi Arabia regulatory record: none) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| المؤشر الأصلي | التهاب المفاصل الروماتويدي / التهاب المفاصل الالتهابي (لا توجد سجلات تنظيمية في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | التهاب الأوعية الروماتويدي |
+| درجة التنبؤ في TxGNN | 99.78% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | الانتظار (سؤال بحثي) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on contextual information from the included literature and trial records, certolizumab pegol is a PEGylated Fab' fragment of a recombinant humanized anti-TNF-α monoclonal antibody. Uniquely among TNF inhibitors, CZP lacks the Fc region — preventing complement fixation, Fc-receptor-mediated cytotoxicity, and active placental transfer. It selectively neutralizes both soluble and membrane-bound TNF-α, thereby suppressing downstream inflammatory mediators such as IL-6 and IL-8.
+بيانات آلية العمل المفصلة غير متاحة حالياً في هذه الحزمة الدليلية. بناءً على المعلومات السياقية من الأدبيات والسجلات التجريبية المضمنة، سيرتوليزوماب بيجول هو جزء Fab' معدل بـ PEGylated من جسم مضاد أحادي نسيلي إنساني معاد التآلف مضاد لـ TNF-α. بشكل فريد بين مثبطات TNF، يفتقر CZP إلى منطقة Fc — مما يمنع تثبيت المتمم وسمية الخلايا الوسيطة بمستقبلات Fc والنقل المشيمي النشط. يحيّد بشكل انتقائي كلاً من TNF-α القابل للذوبان والمرتبط بالغشاء، مما يقلل من المواد الوسيطة الالتهابية اللاحقة مثل IL-6 و IL-8.
 
-Rheumatoid vasculitis (RV) is a severe extra-articular complication of long-standing, seropositive rheumatoid arthritis. Its pathogenesis involves immune complex deposition in vessel walls, complement activation, and sustained TNF-α-driven vascular inflammation. Given that TNF-α is a central mediator of both synovial and systemic inflammatory cascades in RA, there is a biologically coherent rationale for a TNF inhibitor to reduce the immunological insult driving RV — and indeed, one published case report (PMID 34786446) documents CZP successfully treating leg ulcers caused by rheumatoid vasculitis.
+التهاب الأوعية الروماتويدي (RV) هو مضاعفة خارج مفصلية شديدة لالتهاب المفاصل الروماتويدي الطويل الأمد والإيجابي المصل. تتضمن الفسيولوجيا المرضية ترسب معقدات مناعية في جدران الأوعية وتنشيط المتمم والالتهاب الأوعي المستمر الذي يقوده TNF-α. بالنظر إلى أن TNF-α هو وسيط مركزي لكلا تسلسلي الالتهاب الغشائي والجهازي في RA، هناك منطق بيولوجي متماسك لمثبط TNF لتقليل الإصابة المناعية التي تقود RV — وبالفعل، تسجل إحدى تقارير الحالات المنشورة (PMID 34786446) نجاح CZP في علاج قرح الساق الناجمة عن التهاب الأوعية الروماتويدي.
 
-However, a critical mechanistic paradox must be acknowledged upfront: anti-TNF agents, including CZP, are documented to **induce** paradoxical vasculitis as an adverse drug reaction through mechanisms including immune complex formation, altered TNF-dependent regulatory T-cell homeostasis, and interferon pathway upregulation. Six of the eight identified publications describe CZP-associated vasculitis as a harm rather than a benefit. This dual role — potential therapeutic and documented causative agent for vasculitis — represents a fundamental clinical ambiguity that makes the TxGNN prediction biologically interesting but clinically unresolved at this stage.
+غير أن تناقضاً آلياً حرجاً يجب الاعتراف به مقدماً: توثق الأدبيات أن عوامل مضادة TNF، بما فيها CZP، تُحدث **تحفيزاً** متناقضاً لالتهاب الأوعية كتفاعل دوائي سلبي من خلال آليات تتضمن تكوين معقدات مناعية وتعديل استتباب خلايا T التنظيمية المعتمد على TNF واستجابة مسار الإنترفيرون. توضح ستة من الثماني منشورات المحددة التهاب الأوعية المرتبط بـ CZP كضرر وليس كفائدة. هذا الدور الثنائي — العلاج المحتمل والعامل السببي الموثق لالتهاب الأوعية — يمثل غموضاً سريرياً أساسياً يجعل التنبؤ في TxGNN مثيراً للاهتمام بيولوجياً ولكن لم يتم حله سريرياً في هذه المرحلة.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-No registered clinical trials directly evaluating certolizumab pegol for the treatment of rheumatoid vasculitis were identified. The three retrieved trials have low relevance (Grade C) to this indication:
+لم يتم تحديد أي تجارب سريرية مسجلة تقيم مباشرة سيرتوليزوماب بيجول لعلاج التهاب الأوعية الروماتويدي. تتعلق الثلاث تجارب المسترجعة بصلة منخفضة (الصف C) بهذا المؤشر:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Immunosuppressant management in rheumatology patients undergoing total shoulder arthroplasty; evaluates peri-operative drug holding strategies — no vasculitis treatment outcome |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | Observational | Completed | 184 | Real-world tocilizumab study in RA patients with inadequate DMARD response; records general RA outcomes with no vasculitis sub-analysis |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | Observational | Unknown | 750,000 | Pharmacovigilance study on risk of incident IMID in biologic-treated patients; safety monitoring in nature, not a vasculitis efficacy trial |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | المرحلة 2 | لم تبدأ الاستقطاب بعد | 80 | إدارة الأدوية المثبطة للمناعة في مرضى الروماتيزم الذين يخضعون لاستبدال الكتف الكامل؛ يقيم استراتيجيات حبس الأدوية حول الفترة الجراحية — لا توجد نتيجة علاج التهاب الأوعية |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | مراقبة | مكتملة | 184 | دراسة عالم واقعي للتوسيليزوماب في مرضى RA مع استجابة DMARD غير كافية؛ تسجل نتائج RA العامة بدون تحليل فرعي لالتهاب الأوعية |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | مراقبة | غير معروف | 750,000 | دراسة مراقبة السلامة على خطر حدوث IMID الجديد في المرضى الذين يتلقون العوامل البيولوجية؛ مراقبة الأمان في الطبيعة، وليس تجربة فعالية التهاب الأوعية |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case Report | JAAD Case Reports | CZP used to **treat** leg ulcers from rheumatoid vasculitis — the sole publication reporting CZP as a therapeutic agent for RV; clinical response observed |
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Retrospective Cohort | RMD Open | Long-term follow-up of CZP in IMID-associated uveitis (N=80 patients, multicenter); supports CZP efficacy in immune-mediated vascular inflammation, not directly targeting RV |
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Pharmacovigilance Analysis | RMD Open | Comparative infection frequency and type across immune-modulatory drugs from SmPC data; provides safety signal context for CZP class |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Adverse Event Case Report | Cureus | Anti-TNF-induced medium-vessel vasculitis in a 33-year-old female with seronegative RA switched to CZP — documents paradoxical vasculitis induction |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Adverse Event Case Report | J Clin Pharmacy & Therapeutics | Hypocomplementemic urticarial vasculitis (HUV) developing during CZP therapy for RA — first reported association between HUV and CZP |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Adverse Event Case Report | Proc Baylor Univ Med Ctr | Leukocytoclastic vasculitis as a drug reaction to CZP — first reported case of this reaction specific to CZP among TNF inhibitors |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Adverse Event Case Report | Mod Rheumatol Case Rep | Rapidly progressive glomerulonephritis after CZP initiation in a 30-year-old RA patient — possible autoimmune-mediated renal vasculitis |
-| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Retrospective Case Series | Clinical Medicine & Research | Single-center adverse cutaneous event experience with biologics; includes vasculitis cases associated with TNF inhibitor class |
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | تقرير حالة | JAAD Case Reports | CZP يُستخدم **لعلاج** قرح الساق من التهاب الأوعية الروماتويدي — المنشور الوحيد الذي يصرح عن CZP كعامل علاجي لـ RV؛ لوحظ الاستجابة السريرية |
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | دراسة تراجعية للأتراب | RMD Open | متابعة طويلة الأمد لـ CZP في التهاب العنبية المرتبط بـ IMID (N=80 مريض، متعدد المراكز)؛ يدعم فعالية CZP في الالتهاب الأوعي المعتمد على المناعة، وليس استهداف RV بشكل مباشر |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | تحليل مراقبة السلامة | RMD Open | تكرار العدوى المقارن والنوع عبر الأدوية المعدلة للمناعة من بيانات SmPC؛ يوفر سياق الإشارة الأمنية لفئة CZP |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | تقرير حالة تفاعل سلبي | Cureus | التهاب الأوعية الوسيطة الناجم عن مضادات TNF في امرأة عمرها 33 سنة مع RA مصلي سلبي تم تبديلها إلى CZP — يوثق التحفيز المتناقض لالتهاب الأوعية |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | تقرير حالة تفاعل سلبي | J Clin Pharmacy & Therapeutics | التهاب الأوعية الشرى نقص المتمم (HUV) الذي يتطور أثناء العلاج بـ CZP لـ RA — الارتباط الأول المُبلغ عنه بين HUV و CZP |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | تقرير حالة تفاعل سلبي | Proc Baylor Univ Med Ctr | التهاب أوعية الكريات البيضاء كتفاعل دوائي لـ CZP — أول حالة مُبلغ عنها من هذا التفاعل الخاص بـ CZP بين مثبطات TNF |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | تقرير حالة تفاعل سلبي | Mod Rheumatol Case Rep | التهاب كبيبات الكلى بسرعة التطور بعد بدء CZP في مريض RA عمره 30 سنة — التهاب أوعية الكلى المحتمل الوسيط بالمناعة الذاتية |
+| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | سلسلة حالات بأثر رجعي | Clinical Medicine & Research | تجربة سلبية جلدية في مركز واحد مع الأدوية البيولوجية؛ يتضمن حالات التهاب أوعية مرتبطة بفئة مثبطات TNF |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold (Research Question)**
-
-**Rationale:**
-Evidence for certolizumab pegol in rheumatoid vasculitis sits at L4 (case report/mechanistic level only). More critically, 6 of 8 identified publications describe CZP as a **cause** of paradoxical vasculitis rather than a treatment, creating a fundamental benefit-risk ambiguity that must be resolved before this candidate advances.
-
-**To proceed, the following is needed:**
-- Systematic review or meta-analysis of published cases distinguishing CZP-*treated* RV from CZP-*induced* vasculitis, with characterization by vasculitis subtype (cutaneous leukocytoclastic, medium-vessel, renal)
-- Formal MOA data from DrugBank (DG002 remediation) to define which RV immunological subtypes CZP's TNF-α pathway suppression would plausibly benefit versus harm
-- Safety data from the SFDA/FDA/EMA package insert (DG001 remediation) to identify specific contraindications and warnings relevant to vascular adverse events
-- Expert rheumatology consultation to evaluate whether RV subtype stratification (e.g., cutaneous-only vs. systemic/organ-threatening) could identify a safer, targetable patient population
-- If a positive signal is confirmed: prospective registry or observational study design before considering a controlled trial
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
 ---
 
-> **Note on Other High-Evidence Candidates:** While rheumatoid vasculitis (rank 1) is the focus of this report, the TxGNN prediction set also includes **Inflammatory Spondylopathy** (rank 3, L1 evidence, multiple completed Phase 3 RCTs including NCT01087762 and NCT02505542) and **Vertebral Disease** (rank 6, L1 evidence), both of which have substantially stronger clinical trial support for CZP. These candidates warrant priority consideration if the goal is near-term clinical application.
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار (سؤال بحثي)**
+
+**المنطق:**
+يقع الدليل لسيرتوليزوماب بيجول في التهاب الأوعية الروماتويدي في L4 (مستوى تقرير الحالة/الآلية فقط). والأهم من ذلك، أن 6 من 8 منشورات محددة تصف CZP كـ **سبب** للتهاب أوعية متناقض وليس كعلاج، مما يخلق غموضاً أساسياً في الفائدة والمخاطر يجب حله قبل أن يتقدم هذا المرشح.
+
+**للمتابعة، ما يلي مطلوب:**
+- مراجعة منهجية أو تحليل تلوي للحالات المنشورة يميز بين RV المعالج بـ CZP وبين التهاب الأوعية المحفز بـ CZP، مع التوصيف حسب نوع التهاب الأوعية (كريات بيضاء جلدية، وسيطة، وكلى)
+- بيانات آلية العمل الرسمية من DrugBank (معالجة DG002) لتحديد أي الأنواع المناعية RV ستستفيد بشكل معقول من قمع مسار TNF-α في CZP مقابل الإضرار بها
+- بيانات السلامة من نشرة معلومات SFDA/FDA/EMA (معالجة DG001) لتحديد موانع استطبابات محددة وتحذيرات ذات صلة بالأحداث السلبية الأوعية
+- استشارة الروماتيزم الخبيرة لتقييم ما إذا كان يمكن لتقسيم نوع RV (مثل جلدي فقط مقابل جهازي/يهدد الأعضاء) تحديد سكان مريض أكثر أماناً وموجهة
+- إذا تم تأكيد إشارة إيجابية: تصميم السجل الاستشرافي أو الدراسة الرصدية قبل النظر في تجربة محكومة
+
+---
+
+> **ملاحظة عن المرشحين الآخرين عالي الدليل:** بينما التهاب الأوعية الروماتويدي (الترتيب 1) هو محور هذا التقرير، فإن مجموعة التنبؤات في TxGNN تتضمن أيضاً **الاعتلال الفقاري الالتهابي** (الترتيب 3، دليل L1، تجارب متعددة المرحلة 3 مكتملة بما فيها NCT01087762 و NCT02505542) و**مرض الفقرات** (الترتيب 6، دليل L1)، وكلاهما لديهما دعم تجارب سريرية أقوى بكثير لـ CZP. يستحق هؤلاء المرشحون الأولوية في الاعتبار إذا كان الهدف هو التطبيق السريري في الأجل القريب.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

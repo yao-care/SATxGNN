@@ -29,91 +29,92 @@ indication_count: 3
 
 </div>
 
-# Oxymetazoline: From Undocumented Original Indication to Nasal Cavity Disease (Data-Gap Flag)
+# أوكسيميتازولين: من مؤشر استخدام أصلي غير موثق إلى مرض تجويف الأنف (علامة فجوة البيانات)
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> This evidence pack does not document oxymetazoline's original indication or Taiwan market status data (flagged as a data gap — see note below).
-> The TxGNN model predicts efficacy for **Nasal Cavity Disease**, with **8 relevant clinical trials** and **5 publications** identified,
-> including one directly relevant completed Phase 2 RCT. Note: the drug is pharmacologically a well-known topical nasal decongestant, so this may reflect a source-data gap rather than a genuine repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty, `original_moa` unavailable) |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> لا يوثق ملف الأدلة هذا مؤشر الاستخدام الأصلي لأوكسيميتازولين أو بيانات حالة السوق في تايوان (تم تحديدها كفجوة بيانات — انظر الملاحظة أدناه).
+> يتنبأ نموذج TxGNN بالفعالية لـ **مرض تجويف الأنف**، مع تحديد **8 تجارب سريرية ذات صلة** و **5 منشورات**،
+> بما في ذلك تجربة عشوائية محكومة من المرحلة 2 مكتملة ذات صلة مباشرة. ملاحظة: الدواء هو دواء مزيل احتقان أنفي موضعي معروف جيداً من الناحية الدوائية، لذا قد يعكس هذا فجوة في بيانات المصدر بدلاً من إشارة إعادة استخدام حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data is not populated in this evidence pack's structured fields (`original_moa` is unavailable). Based on the pharmacological context recorded in the model's own repurposing rationale, oxymetazoline is a selective α1-adrenergic receptor agonist with partial α2 activity. It acts on nasal mucosal vascular smooth muscle to produce vasoconstriction, reducing mucosal congestion and swelling — the standard pharmacological basis for treating nasal congestion/obstruction.
-
-**Important data-quality note:** this evidence pack records no original indication and a Taiwan market status of "Not marketed" (not marketed), yet oxymetazoline is a decades-old, globally marketed OTC topical nasal decongestant (e.g., Afrin). The model's own rationale explicitly flags this as likely a gap in the source database rather than a genuine drug-repurposing discovery — the "predicted" indication (nasal cavity disease / congestion) essentially overlaps with the drug's already-established real-world use. This should be corrected at the source-data level before this candidate is treated as a novel repurposing opportunity.
-
-Setting the data-gap issue aside, the mechanistic rationale itself is sound: α1-agonist–driven vasoconstriction is a well-established treatment approach for nasal mucosal congestion/obstruction, which is consistent with the predicted indication.
+| البند | المحتوى |
+|------|--------|
+| مؤشر الاستخدام الأصلي | غير موثق في ملف الأدلة هذا (`original_indications` فارغ، `original_moa` غير متاح) |
+| مؤشر الاستخدام الجديد المتنبأ به | مرض تجويف الأنف |
+| درجة التنبؤ بـ TxGNN | 99.96% |
+| مستوى الدليل | L2 |
+| حالة السوق في تايوان | غير مسوّق (غير مسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع تدابير احترازية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بيانات آلية العمل المفصلة غير موجودة في الحقول المنظمة في ملف الأدلة هذا (`original_moa` غير متاحة). بناءً على السياق الدوائي المسجل في المنطق الخاص بإعادة الاستخدام في النموذج، أوكسيميتازولين هو ناهض مستقبل α1-أدرينرجي انتقائي مع نشاط α2 جزئي. يعمل على العضلات الملساء الوعائية في الغشاء المخاطي الأنفي لإنتاج تضييق الأوعية، مما يقلل احتقان الغشاء المخاطي والتورم — الأساس الدوائي القياسي لعلاج احتقان/انسداد الأنف.
+
+**ملاحظة مهمة بشأن جودة البيانات:** يسجل ملف الأدلة هذا عدم وجود مؤشر استخدام أصلي وحالة سوق تايوان "غير مسوّق" (غير مسوّق)، لكن أوكسيميتازولين هو دواء مزيل احتقان أنفي موضعي معروف عالمياً وقديم بدون وصفة طبية (على سبيل المثال، Afrin). يحدد منطق النموذج بوضوح هذا على أنه فجوة محتملة في قاعدة البيانات المصدرية بدلاً من اكتشاف حقيقي لإعادة استخدام الدواء — يتطابق "المؤشر" المتنبأ به (مرض تجويف الأنف / الاحتقان) بشكل أساسي مع الاستخدام الفعلي المعروف للدواء بالفعل. يجب تصحيح هذا على مستوى بيانات المصدر قبل معاملة هذا المرشح كفرصة إعادة استخدام جديدة.
+
+بتجاهل مسألة فجوة البيانات، المنطق الآلي نفسه سليم: تضييق الأوعية المدفوع بناهضات α1 هو نهج علاجي معروف جيداً لاحتقان/انسداد الغشاء المخاطي الأنفي، وهو متسق مع المؤشر المتنبأ به.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Randomized, double-blind, double-dummy, placebo-controlled 4-way crossover testing an H3-receptor antagonist against nasal-allergen-induced congestion in seasonal allergic rhinitis; graded "A" relevance — high-quality efficacy-testing design directly applicable to nasal congestion indications. |
-| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | Completed | 20 | Directly compares topical 0.05% oxymetazoline vs. 1:1000 epinephrine for blood loss and surgical field visualization before endoscopic sinus surgery. |
-| [NCT01411969](https://clinicaltrials.gov/study/NCT01411969) | N/A | Completed | 16 | Acoustic rhinometry study using 0.05% oxymetazoline aerosol spray for nasal decongestion to characterize rhinogram notches. |
-| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | Terminated (N=3) | 3 | Kovanaze (tetracaine + oxymetazoline) nasal mist vs. articaine injection for maxillary dental pulpal anesthesia; graded "B" — uses the drug but endpoint is dental anesthesia, not nasal disease. |
-| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Phase 2 | Withdrawn (N=0) | 0 | Same Kovanaze vs. articaine design as above; withdrawn before enrollment. |
-| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | Completed | 16 | Blinded triple-crossover comparing cocaine, lidocaine/xylometazoline (same decongestant class), and saline for intranasal analgesia before nasotracheal intubation; graded "C" — indirect drug-class support only. |
-| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | NA | Completed | 106 | Compares co-phenylcaine nasal spray (decongestant + local anesthetic) vs. nebulization before rigid nasoendoscopy; graded "C" — procedural use, not disease-treatment testing. |
-| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | Completed | 160 | Double-blind study of topical anesthesia and/or decongestant pretreatment to reduce pain/discomfort during fiberoptic nasal pharyngoscopy and laryngoscopy. |
+| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | المرحلة 2 | مكتملة | 21 | تجربة عشوائية، عمياء مزدوجة، وهمية مزدوجة، محكومة بالعلاج الوهمي، مع تقاطع رباعي الاتجاهات لاختبار مضادات مستقبلات H3 ضد احتقان ناجم عن مستأرجات الأنف في التهاب الأنف التحسسي الموسمي؛ درجة ملاءمة "A" — تصميم اختبار فعالية عالي الجودة قابل للتطبيق بشكل مباشر على مؤشرات الاحتقان الأنفي. |
+| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | المرحلة 4 | مكتملة | 20 | يقارن بشكل مباشر أوكسيميتازولين الموضعي 0.05% مقابل الإبينفرين بنسبة 1:1000 لفقدان الدم وتصور حقل العمل الجراحي قبل جراحة الجيوب الأنفية بمنظار. |
+| [NCT01411969](https://clinicaltrials.gov/study/NCT01411969) | N/A | مكتملة | 16 | دراسة رينوميتري صوتية باستخدام رذاذ أوكسيميتازولين الهوائي 0.05% لإزالة احتقان الأنف لتوصيف شقوق رينوجرام. |
+| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | المرحلة 2 | متوقفة (N=3) | 3 | Kovanaze (تترالكائين + أوكسيميتازولين) بخاخ أنفي مقابل حقن articaine لتخدير لب الأسنان الفكي العلوي؛ درجة "B" — يستخدم الدواء لكن نقطة النهاية هي التخدير السني، وليس مرض الأنف. |
+| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | المرحلة 2 | منسحبة (N=0) | 0 | نفس تصميم Kovanaze مقابل articaine كما هو أعلاه؛ منسحبة قبل التسجيل. |
+| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | المرحلة 3 | مكتملة | 16 | مقارنة عمياء بتبادل ثلاثي بين الكوكايين، وليدوكائين/زيلوميتازولين (نفس فئة مزيلات الاحتقان)، والمحلول الملحي للتسكين داخل الأنف قبل التنبيب الأنفي الرغامي؛ درجة "C" — دعم غير مباشر لفئة الأدوية فقط. |
+| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | NA | مكتملة | 106 | يقارن بخاخ كو-فينيلكائين الأنفي (مزيل احتقان + مخدر موضعي) مقابل الرذاذ قبل تنظير الأنف الصلب؛ درجة "C" — استخدام إجرائي، وليس اختبار علاج المرض. |
+| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | المرحلة 4 | مكتملة | 160 | دراسة عمياء مزدوجة للتخدير الموضعي و/أو المعالجة المسبقة بمزيل الاحتقان لتقليل الألم/عدم الراحة أثناء تنظير البلعوم الأنفي والحنجرة بألياف بصرية. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| معرّف PubMed | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | Animal study (rabbit) | Ann Otol Rhinol Laryngol | Oxymetazoline nose drops evaluated for effect on early local tissue defense in an experimental bacterial maxillary sinus infection model. |
-| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | Cohort/observational | Ann N Y Acad Sci | Assessed olfactory function and nasal volume (via acoustic rhinometry) in acute rhinitis. |
-| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | Cohort | J Plast Surg Hand Surg | Evaluated nasal patency by acoustic rhinometry after repair of complete unilateral cleft lip and palate. |
-| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | Case series/technique report | Am J Rhinol Allergy | Endoscopic-guided coblation treatment technique for nasal telangiectasias in hereditary hemorrhagic telangiectasia. |
-| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | Case report | Global Pediatric Health | Rhinoscleroma in a 9-year-old boy presenting with nasal obstruction. |
+| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | دراسة حيوانية (أرنب) | Ann Otol Rhinol Laryngol | تم تقييم قطرات أوكسيميتازولين الأنفية لتأثيرها على الدفاع النسيجي المحلي المبكر في نموذج عدوى الجيب الفكي العلوي البكتيرية التجريبية. |
+| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | مجموعة / دراسة رصدية | Ann N Y Acad Sci | تم تقييم وظيفة الشم وحجم الأنف (عبر قياس الرينوميتري الصوتي) في التهاب الأنف الحاد. |
+| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | مجموعة | J Plast Surg Hand Surg | تم تقييم سالكية الأنف عبر قياس الرينوميتري الصوتي بعد إصلاح شق الشفة والحنك الكامل أحادي الجانب. |
+| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | سلسلة حالات / تقرير تقنية | Am J Rhinol Allergy | تقنية استئصال موجهة بالمنظار لتوسع الأوعية الدموية الأنفية في التهاب الأوعية الدموية النزفي الوراثي. |
+| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | تقرير حالة | Global Pediatric Health | رينوسكليروما لدى صبي يبلغ من العمر 9 سنوات يعاني من انسداد الأنف. |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-No authorizations are recorded for oxymetazoline in this evidence pack — `taiwan_regulatory.total_licenses` = 0 and `market_status` = "Not marketed" (not marketed). No license table can be produced from available data.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لم يتم تسجيل أي تفويضات لأوكسيميتازولين في ملف الأدلة هذا — `taiwan_regulatory.total_licenses` = 0 و `market_status` = "غير مسوّق" (غير مسوّق). لا يمكن إنتاج جدول ترخيص من البيانات المتاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى مراجعة نشرة المنتج لمعلومات السلامة.
 
-**Rationale:**
-The top-ranked predicted indication (nasal cavity disease) has L2-level evidence — one completed Phase 2 RCT plus several trials directly using oxymetazoline for nasal/decongestant purposes — supporting mechanistic and clinical plausibility. However, this candidate is currently blocked from safety review (DG001, Blocking) due to missing TFDA label warnings/contraindications, and the drug's original indication and MOA are undocumented in the source data (DG002, High), which should be resolved before proceeding.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and reconcile the drug's actual original indication and regulatory history — the current "no original indication / not marketed" record conflicts with oxymetazoline's known long-standing OTC use and should be verified as a source-data gap rather than accepted as-is
-- Obtain TFDA package insert warnings/contraindications (DG001) to complete the S1 safety pre-screen
-- Obtain confirmed MOA data from DrugBank (DG002)
-- Given the apparent overlap between "predicted" and real-world use, confirm with the source team whether this candidate should even be scored as a novel repurposing signal, or reclassified once original-indication data is corrected
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع تدابير احترازية**
+
+**المنطق:**
+مؤشر الاستخدام المتنبأ به الأعلى تصنيفاً (مرض تجويف الأنف) لديه دليل من المستوى L2 — تجربة عشوائية محكومة مكتملة من المرحلة 2 بالإضافة إلى عدة تجارب تستخدم أوكسيميتازولين مباشرة لأغراض الأنف/إزالة الاحتقان — تدعم المعقولية الآلية والسريرية. ومع ذلك، يتم حظر هذا المرشح حالياً من مراجعة السلامة (DG001, محظور) بسبب فقدان تحذيرات/موانع استخدام نشرة منتج هيئة الدواء التايوانية (TFDA)، والمؤشر الأصلي للدواء وآلية العمل لم يتم توثيقها في بيانات المصدر (DG002, عالي)، والتي يجب حلها قبل المتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع ومطابقة مؤشر الاستخدام الأصلي الفعلي للدواء والسجل التنظيمي — السجل الحالي "بدون مؤشر استخدام أصلي / غير مسوّق" يتعارض مع الاستخدام الموثوق الذي يدوم طويلاً بدون وصفة طبية لأوكسيميتازولين، والذي يجب التحقق منه كفجوة في بيانات المصدر بدلاً من قبوله كما هو
+- الحصول على تحذيرات/موانع استخدام نشرة منتج هيئة الدواء التايوانية (TFDA) (DG001) لإكمال فحص السلامة الأولي من المرحلة S1
+- الحصول على بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- بالنظر إلى التطابق الواضح بين الاستخدام "المتنبأ به" والاستخدام الفعلي، تأكد مع فريق المصدر ما إذا كان يجب حتى تسجيل هذا المرشح كإشارة إعادة استخدام جديدة، أو إعادة تصنيفه بمجرد تصحيح بيانات مؤشر الاستخدام الأصلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

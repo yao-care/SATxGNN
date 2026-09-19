@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Aprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# أبريبيتانت: من الغثيان والقيء الناجمين عن العلاج الكيميائي إلى متلازمة الكلى المقاومة للإفراز غير المناسب
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Aprepitant is a selective neurokinin-1 (NK1) receptor antagonist, clinically used for the prevention of chemotherapy-induced nausea and vomiting (CINV) and postoperative nausea and vomiting (PONV). The TxGNN model ranks **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)** as the top predicted new indication with a score of **99.97%**, however **no clinical trials or published literature** currently support this specific pairing. Across all 10 top predictions in this run, the evidence base remains entirely at the model-prediction level (L5), with no directly relevant clinical data found for any candidate.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV); postoperative nausea and vomiting (PONV) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 — Model prediction only; no supporting clinical studies |
-| Saudi Arabia Market Status | ✗ Not Marketed (0 SFDA authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أبريبيتانت هو عامل حصري لمستقبلات النيوروكينين-1 (NK1)، يُستخدم سريرياً لمنع الغثيان والقيء الناجمين عن العلاج الكيميائي (CINV) والغثيان والقيء بعد التخدير (PONV). يُصنِّف نموذج TxGNN متلازمة الكلى المقاومة للإفراز غير المناسب (NSIAD) كأفضل مؤشر تنبؤي جديد برصيد **99.97%**، لكن **لا توجد حاليًا تجارب سريرية أو أدبيات منشورة** تدعم هذا الاقتران المحدد. عبر أفضل 10 تنبؤات في هذه الدورة، لا تزال قاعدة الأدلة بالكامل عند مستوى التنبؤ بالنموذج (L5)، حيث لم يتم العثور على بيانات سريرية مباشرة ذات صلة لأي مرشح.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (data gap DG002). Based on established pharmacology, aprepitant is an NK1 receptor antagonist that selectively blocks the binding of substance P (SP) in the central and peripheral nervous system. Its proven efficacy in CINV/PONV is mediated by interrupting SP-driven emetic signaling in the brainstem's area postrema and nucleus tractus solitarius.
-
-Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) is a rare X-linked disorder caused by gain-of-function mutations in the *AVPR2* gene, which encodes the V2 vasopressin (antidiuretic hormone) receptor in the renal collecting duct. These mutations cause constitutive activation of aquaporin-2 insertion, resulting in persistent free water retention and dilutional hyponatremia — entirely independent of circulating vasopressin levels. The V2 receptor/aquaporin pathway and the NK1R/Substance P axis have no established direct pharmacological intersection.
-
-The TxGNN model's high score most likely reflects shared neuroendocrine nodes in the underlying knowledge graph — specifically hypothalamic osmotic regulatory circuits that anatomically converge on both neuropeptide and vasopressin-related pathways — rather than a true mechanistic bridge. This prediction is best interpreted as a graph-topology signal requiring independent mechanistic validation before any translational consideration is warranted.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|----------|
+| الاستطباب الأصلي | الغثيان والقيء الناجمين عن العلاج الكيميائي (CINV)؛ الغثيان والقيء بعد التخدير (PONV) |
+| الاستطباب الجديد المتنبأ به | متلازمة الكلى المقاومة للإفراز غير المناسب (NSIAD) |
+| درجة التنبؤ بـ TxGNN | 99.97% |
+| مستوى الأدلة | L5 — التنبؤ بالنموذج فقط؛ لا توجد دراسات سريرية داعمة |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معتمد في السوق (0 تفويض من الهيئة العامة للغذاء والدواء) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حاليًا، بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة (فجوة البيانات DG002). بناءً على الصيدلة المعروفة، أبريبيتانت هو عامل حصري لمستقبلات النيوروكينين-1 يمنع بشكل انتقائي ارتباط مادة P (SP) في الجهاز العصبي المركزي والطرفي. يتم الوساطة بكفاءته المثبتة في CINV/PONV بمقاطعة إشارات SP المحفزة للقيء في area postrema و nucleus tractus solitarius بجذع الدماغ.
 
----
+متلازمة الكلى المقاومة للإفراز غير المناسب هي اضطراب نادر مرتبط بـ X الكروموسوم ناجم عن طفرات اكتساب الوظيفة في جين *AVPR2*، الذي يشفّر مستقبل V2 للفازوبريسين (العامل المدر للبول) في أنابيب تجميع الكلى. تسبب هذه الطفرات تنشيطًا تأسيسيًا لإدراج aquaporin-2، مما يؤدي إلى احتفاظ مستمر بالماء الحر وفرط صوديوم الدم التمديدي — بشكل كامل مستقل عن مستويات الفازوبريسين المتداولة. لا يوجد تقاطع صيدلاني معروف مباشر بين مسار V2 receptor/aquaporin ومحور NK1R/Substance P.
 
-## Saudi Arabia Market Information
-
-Aprepitant is not registered with the Saudi Food and Drug Authority (SFDA). No approved products, dosage forms, or indication authorizations are recorded in the Saudi Arabia market database.
+درجة النموذج العالية على الأرجح تعكس عُقَد الغدد الصماء العصبية المشتركة في الرسم البياني للمعرفة الأساسي — على وجه التحديد دوائر التنظيم الحلقي الظهراني التي تتقارب تشريحياً على كلا محاور الببتيد العصبي والفازوبريسين ذات الصلة — بدلاً من وجود جسر آليات حقيقي. يُفسَّر هذا التنبؤ بشكل أفضل كإشارة طوبولوجيا الرسم البياني تتطلب التحقق من الآلية المستقلة قبل أن يكون أي اعتبار ترجمي مبررًا.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا تتوفر حاليًا أدبيات ذات صلة.
 
-**Rationale:**
-All 10 top TxGNN predictions for aprepitant are at evidence level L5 (model prediction only), aprepitant holds no SFDA registration, and the mechanistic link between NK1R antagonism and the rank-1 indication (NSIAD/AVPR2 gain-of-function pathology) is indirect and currently unsupported by any experimental data. The literature entries retrieved for ranks 3 and 6 were confirmed as false-positive matches unrelated to aprepitant or the target indications.
+---
 
-One candidate warrants separate tracking: **subarachnoid hemorrhage (rank #9, score 99.85%)** carries the strongest mechanistic rationale in this prediction set. Post-SAH neurogenic inflammation involves massive SP release, cerebral vasospasm, and neurogenic edema — all NK1R-mediated processes — and preclinical SAH models have shown that NK1R antagonism reduces brain water content and improves neurological outcomes (though not using aprepitant specifically). This indication should be escalated to a focused literature review before a final Hold decision is applied.
+## معلومات سوق المملكة العربية السعودية
 
-**To proceed, the following is needed:**
+أبريبيتانت غير مسجل لدى الهيئة العامة للغذاء والدواء. لا توجد تفويضات منتجات معتمدة أو أشكال جرعات أو تفويضات استطبابات مسجلة في قاعدة بيانات السوق بالمملكة العربية السعودية.
 
-- Retrieve the aprepitant package insert (SFDA or FDA/EMA source) to populate warnings, contraindications, and drug interactions (data gap DG001 — currently Blocking)
-- Confirm full MOA and pharmacodynamic profile via DrugBank API (data gap DG002)
-- For NSIAD: evaluate any published NK1R/V2R crosstalk data in hypothalamic–renal neuroendocrine circuits; if none exists, formally close this candidate
-- For SAH (rank #9): conduct a targeted PubMed search for "NK1 receptor antagonist + subarachnoid hemorrhage" to determine whether animal model evidence supports upgrading to L4, and if so, initiate a separate evaluation report for this indication
-- For any indication that reaches L3 evidence: assess SFDA registration pathway requirements before advancing to clinical planning
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المبرر:**
+جميع أفضل 10 تنبؤات لـ TxGNN لأبريبيتانت هي في مستوى الأدلة L5 (التنبؤ بالنموذج فقط)، وأبريبيتانت لا يملك تسجيلًا من الهيئة العامة للغذاء والدواء، والارتباط الآلي بين عداء مستقبل NK1 والمؤشر الأول في الترتيب (NSIAD/مرضية اكتساب الوظيفة في *AVPR2*) غير مباشر وغير مدعوم حاليًا بأي بيانات تجريبية. وتبيّن أن نتائج الأدبيات المسترجعة للترتيب 3 و 6 كانت تطابقات إيجابية كاذبة غير مرتبطة بأبريبيتانت أو الاستطبابات المستهدفة.
+
+يستحق مرشح واحد متابعة منفصلة: **النزيف تحت العنكبوتية (الترتيب #9، درجة 99.85%)** يحمل أقوى مبرر آلي ضمن هذه مجموعة التنبؤات. يتضمن الالتهاب العصبي المنشأ بعد النزيف تحت العنكبوتية إطلاق ضخم لمادة P، وتشنج الأوعية الدموية الدماغية، وذمة عصبية المنشأ — جميع عمليات يتوسطها NK1R — وأظهرت النماذج التجريبية للنزيف تحت العنكبوتية أن عداء NK1R يقلل من محتوى الماء في الدماغ ويحسن النتائج العصبية (على الرغم من عدم استخدام أبريبيتانت على وجه التحديد). يجب رفع هذا الاستطباب إلى استعراض أدبي مركّز قبل تطبيق قرار توقف نهائي.
+
+**للمتابعة، فيما يلي المطلوب:**
+
+- استرجاع نشرة أبريبيتانت (من الهيئة العامة للغذاء والدواء أو مصدر FDA/EMA) لملء التحذيرات والمضادات الاستطبابات والتفاعلات الدوائية (فجوة البيانات DG001 — عائق حالي)
+- تأكيد ملف آلية العمل الكامل والملف الديناميكي الدوائي عبر API DrugBank (فجوة البيانات DG002)
+- بالنسبة لـ NSIAD: تقييم أي بيانات منشورة حول التقاطع NK1R/V2R في الدوائر الحلقية تحت المهاد-الكلى؛ إذا لم تكن موجودة، أغلق هذا المرشح رسمياً
+- بالنسبة لـ SAH (الترتيب #9): إجراء بحث موجه في PubMed عن "NK1 receptor antagonist + subarachnoid hemorrhage" لتحديد ما إذا كانت بيانات النموذج الحيواني تدعم الترقية إلى L4، وإذا كان الأمر كذلك، بدء تقرير تقييم منفصل لهذا الاستطباب
+- بالنسبة لأي استطباب يصل إلى أدلة L3: تقييم متطلبات مسار التسجيل بالهيئة العامة للغذاء والدواء قبل المتابعة إلى التخطيط السريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

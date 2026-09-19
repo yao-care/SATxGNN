@@ -29,112 +29,113 @@ indication_count: 10
 
 </div>
 
-# Letrozole: From Breast Cancer to Female Breast Carcinoma
+# ليتروزول: من سرطان الثدي إلى سرطان الثدي الأنثوي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Letrozole is a third-generation nonsteroidal aromatase inhibitor globally established as a first-line endocrine therapy for hormone receptor-positive postmenopausal breast cancer. The TxGNN model's top prediction, **female breast carcinoma**, essentially confirms this already-established indication with a near-maximal score (99.98%), and the evidence base — **50 clinical trials** (including multiple completed Phase 3 RCTs) and **20 publications** — reflects mature, real-world validated use rather than a novel repurposing hypothesis. Nine additional predicted indications (ranks 2–10) explore adjacent or more speculative territory, ranging from guideline-supported extensions (e.g., ER-positive breast cancer, hormone-resistant breast carcinoma) to unsupported model artifacts (e.g., ER-negative breast cancer, fibrocystic disease).
+ليتروزول مثبط أروماتاز من الجيل الثالث غير الستيرويدي معترف به عالميًا كعلاج هرموني من الخط الأول لسرطان الثدي الموجب لمستقبلات الهرمونات لدى النساء بعد انقطاع الطمث. التنبؤ الأفضل من نموذج TxGNN، **سرطان الثدي الأنثوي**، يؤكد بشكل أساسي هذا المؤشر المعترف به بالفعل عالميًا برصيد قريب من الأقصى (99.98%)، وقاعدة الأدلة — **50 تجربة سريرية** (تشمل عدة تجارب سريرية عشوائية محكومة في المرحلة 3 المكتملة) و**20 منشورًا علميًا** — تعكس استخدامًا ناضجًا متحققًا من الواقع بدلاً من فرضية إعادة استخدام جديدة. تسعة مؤشرات متنبأ بها إضافية (الرتب 2–10) تستكشف أراضي متجاورة أو أكثر تكهنية، تتراوح بين امتدادات مدعومة بالإرشادات التوجيهية (مثل سرطان الثدي الإيجابي ER) وقطع أثرية محتملة من النموذج غير مدعومة (مثل سرطان الثدي السلبي ER، المرض الليفي الكيسي).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Breast cancer, hormone receptor-positive, postmenopausal (established global indication; not separately recorded in this dataset — Letrozole holds 0 marketing licenses in the Taiwan registry queried here) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | سرطان الثدي، موجب لمستقبلات الهرمونات، بعد انقطاع الطمث (مؤشر معترف به عالميًا؛ لم يتم تسجيله بشكل منفصل في هذه مجموعة البيانات — ليتروزول يحمل 0 رخصة تسويق في سجل تايوان المستعلم هنا) |
+| المؤشر الجديد المتنبأ به | سرطان الثدي الأنثوي |
+| درجة التنبؤ من TxGNN | 99.98% |
+| مستوى الدليل | L1 |
+| حالة السوق في تايوان | غير مسوق (Not Marketed) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المضي قدمًا مع ضمانات حماية |
 
-> Note: This "predicted new indication" is, in substance, letrozole's well-known and globally guideline-endorsed use. Its presence at rank 1 with L1 evidence should be read as a **positive control confirming the model's calibration**, not as a genuine repurposing discovery. Ranks 4–8 (hormone-resistant, bilateral, gene-expression-defined, and ER-positive breast cancer variants) represent finer-grained extensions of the same core indication; ranks 3, 5, 9, and 10 are flagged in this dataset's own scoring as low-confidence or mechanistically inconsistent (see Data Gaps below for context).
-
----
-
-## Why is This Prediction Reasonable?
-
-The formal drug-level mechanism-of-action field for letrozole is marked as a data gap (DG002) in this dataset, and no Taiwan regulatory license text is available to source an "approved indication" description locally, since letrozole is not currently marketed in Taiwan (0 licenses on file). However, the per-indication analysis embedded in this evidence pack itself provides the relevant pharmacology: letrozole is a third-generation nonsteroidal aromatase inhibitor that blocks the conversion of androgens to estrogens, thereby depriving estrogen-receptor-positive (ER+) tumor cells of their growth signal. This is the drug's core, well-characterized mechanism — not an indirect inference.
-
-Breast cancer, particularly the ER+/HER2- subtype in postmenopausal women, is the population in which this mechanism has the most direct pharmacological applicability. The evidence pack's own rationale for rank 1 states this plainly: aromatase inhibition is mechanistically matched to ER+ tumor biology, and letrozole is already a global standard-of-care agent in this setting (reflected in landmark trials such as BIG 1-98, PALOMA-2, and MONALEESA-2 appearing throughout the evidence tables).
-
-By contrast, several lower-ranked predictions in this pack are mechanistically incoherent — most notably rank 3 (ER-negative breast cancer), where the evidence pack's own analyst explicitly flags a likely TxGNN entity/embedding confusion, since aromatase inhibitors are pharmacologically dependent on ER expression and are not expected to work in ER-negative disease.
+> ملاحظة: هذا "المؤشر الجديد المتنبأ به" يمثل، في الواقع، الاستخدام المعروف والمعترف به عالميًا لليتروزول. وجوده في الرتبة 1 مع دليل L1 يجب أن يُقرأ كـ **ضابط إيجابي يؤكد معايرة النموذج**، وليس كاكتشاف إعادة استخدام حقيقي. الرتب 4–8 (متغيرات سرطان الثدي المقاوم للهرمونات والثنائي والمحدد بالتعبير الجيني والموجب ER) تمثل امتدادات أكثر دقة للمؤشر الأساسي نفسه؛ الرتب 3 و5 و9 و10 مشار إليها في نقاط تقييم مجموعة البيانات ذاتها كمنخفضة الثقة أو غير متسقة آليًا (انظر فجوات البيانات أدناه للسياق).
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حقل آلية العمل على مستوى الدواء الرسمية لليتروزول معلَّم كفجوة بيانات (DG002) في مجموعة البيانات هذه، ولا يتوفر نص ترخيص تنظيمي من تايوان لاستخلاص وصف "المؤشر المعتمد" محليًا، لأن ليتروزول غير مسوق حاليًا في تايوان (0 رخصة في الملف). ومع ذلك، فإن التحليل المدمج لكل مؤشر ضمن حزمة الأدلة هذه ذاتها يوفر الصيدلة ذات الصلة: ليتروزول مثبط أروماتاز من الجيل الثالث غير الستيرويدي يحجب تحويل الأندروجينات إلى هرمون الإستروجين، وبالتالي يحرم خلايا الأورام الموجبة لمستقبلات الإستروجين (ER+) من إشارة النمو الخاصة بها. هذه هي آلية العمل الأساسية والمميزة بوضوح للعقار — وليست استدلالاً غير مباشر.
+
+سرطان الثدي، خاصة النمط الفرعي ER+/HER2- لدى النساء بعد انقطاع الطمث، هو المجموعة السكانية التي تكون فيها هذه الآلية الصيدلية قابلة للتطبيق بشكل مباشر. بيان المنطق الموجود في حزمة الأدلة ذاتها للرتبة 1 يصرح بهذا بوضوح: حجب الأروماتاز متطابق آليًا مع علم أحياء الورم ER+، وليتروزول هو بالفعل عامل الرعاية القياسي عالميًا في هذا الإعداد (كما يظهر في التجارب الحجرية مثل BIG 1-98 و PALOMA-2 و MONALEESA-2 في جميع جداول الأدلة).
+
+في المقابل، عدة تنبؤات برتبة أقل في هذه الحزمة غير متسقة آليًا — الأهم منها الرتبة 3 (سرطان الثدي السلبي ER)، حيث يشير محلل حزمة الأدلة نفسه بوضوح إلى احتمال التباس TxGNN في الكيانات/التضمينات، لأن مثبطات الأروماتاز تعتمد صيدليًا على التعبير عن ER ولا يُتوقع أن تعمل في أورام سلبية ER.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00369850](https://clinicaltrials.gov/study/NCT00369850) | Phase 3 | Completed | 458 | Bone density/loss monitoring in postmenopausal breast cancer patients on long-term letrozole (IBCSG-1-98); establishes large-scale, long-term safety/use data. |
-| [NCT03811509](https://clinicaltrials.gov/study/NCT03811509) | Phase 4 | Unknown | 1000 | Real-world cohort (B-ABLE) evaluating musculoskeletal effects and quality of life in breast cancer patients on aromatase inhibitors including letrozole. |
-| [NCT05969184](https://clinicaltrials.gov/study/NCT05969184) | Phase 2 | Unknown | 94 | Palbociclib + endocrine therapy + anti-HER2 therapy in HR+/HER2+ advanced breast cancer. |
-| [NCT00949598](https://clinicaltrials.gov/study/NCT00949598) | Phase 3 | Completed | 177 | Randomized double-blind neoadjuvant comparison of aromatase inhibitor vs. SERM (tamoxifen) in ER+ breast adenocarcinoma. |
-| [NCT00673335](https://clinicaltrials.gov/study/NCT00673335) | Phase 3 | Completed | 170 | Letrozole vs. placebo for breast cancer prevention in postmenopausal BRCA1/BRCA2 mutation carriers. |
-| [NCT07085767](https://clinicaltrials.gov/study/NCT07085767) | Phase 3 | Recruiting | 1000 | Palazestrant + ribociclib vs. letrozole + ribociclib, first-line ER+/HER2- advanced breast cancer (OPERA-02); letrozole as active comparator standard-of-care. |
-| [NCT00171704](https://clinicaltrials.gov/study/NCT00171704) | Phase 3 | Completed | 263 | Effects of letrozole vs. tamoxifen on bone and lipid metabolism in postmenopausal early breast cancer. |
-| [NCT00893061](https://clinicaltrials.gov/study/NCT00893061) | Phase 3 | Completed | 44 | Cognitive function effects of adjuvant aromatase inhibitor vs. tamoxifen therapy. |
-| [NCT02679755](https://clinicaltrials.gov/study/NCT02679755) | Phase 4 | Completed | 252 | Palbociclib + letrozole in postmenopausal HR+/HER2- advanced breast cancer where letrozole therapy is deemed appropriate. |
-| [NCT04134598](https://clinicaltrials.gov/study/NCT04134598) | Phase 3 | Active, not recruiting | 926 | Radiation therapy vs. exclusive endocrine therapy (letrozole/AI) in low-risk elderly (≥70) early breast cancer (EUROPA). |
+| [NCT00369850](https://clinicaltrials.gov/study/NCT00369850) | Phase 3 | مكتملة | 458 | مراقبة كثافة العظام/خسارة العظام لدى مريضات سرطان الثدي اللاتي يتلقين العلاج طويل الأمد بليتروزول (IBCSG-1-98)؛ تؤسس بيانات أمان واستخدام واسعة النطاق وطويلة الأمد. |
+| [NCT03811509](https://clinicaltrials.gov/study/NCT03811509) | Phase 4 | Unknown | 1000 | دراسة الحياة الواقعية (B-ABLE) لتقييم التأثيرات العضلية الهيكلية وجودة الحياة لدى مريضات سرطان الثدي على مثبطات الأروماتاز بما فيها ليتروزول. |
+| [NCT05969184](https://clinicaltrials.gov/study/NCT05969184) | Phase 2 | Unknown | 94 | بالبوسيكليب + العلاج بالهرمونات + العلاج المضاد لـ HER2 في سرطان الثدي المتقدم HR+/HER2+. |
+| [NCT00949598](https://clinicaltrials.gov/study/NCT00949598) | Phase 3 | مكتملة | 177 | مقارنة عشوائية مزدوجة التعمية بين مثبط الأروماتاز وعامل انتقائي لمستقبلات الإستروجين (تاموكسيفين) في غدية سرطان الثدي الموجبة ER. |
+| [NCT00673335](https://clinicaltrials.gov/study/NCT00673335) | Phase 3 | مكتملة | 170 | ليتروزول مقابل الدواء الوهمي لمنع سرطان الثدي لدى حاملات طفرات BRCA1/BRCA2 بعد انقطاع الطمث. |
+| [NCT07085767](https://clinicaltrials.gov/study/NCT07085767) | Phase 3 | قيد التجنيد | 1000 | بالازيستران + ريبوسيكليب مقابل ليتروزول + ريبوسيكليب، سرطان الثدي المتقدم ER+/HER2- من الخط الأول (OPERA-02)؛ ليتروزول كعامل مقارن معيار الرعاية. |
+| [NCT00171704](https://clinicaltrials.gov/study/NCT00171704) | Phase 3 | مكتملة | 263 | تأثيرات ليتروزول مقابل تاموكسيفين على استقلاب العظام والدهون لدى النساء بعد انقطاع الطمث المصابات بسرطان الثدي المبكر. |
+| [NCT00893061](https://clinicaltrials.gov/study/NCT00893061) | Phase 3 | مكتملة | 44 | تأثيرات الوظيفة الإدراكية للعلاج المساعد بمثبط الأروماتاز مقابل العلاج بالتاموكسيفين. |
+| [NCT02679755](https://clinicaltrials.gov/study/NCT02679755) | Phase 4 | مكتملة | 252 | بالبوسيكليب + ليتروزول في سرطان الثدي المتقدم HR+/HER2- بعد انقطاع الطمث حيث يُعتبر العلاج بليتروزول مناسبًا. |
+| [NCT04134598](https://clinicaltrials.gov/study/NCT04134598) | Phase 3 | نشط، غير قيد التجنيد | 926 | العلاج الإشعاعي مقابل العلاج بالهرمونات الحصري فقط (ليتروزول/AI) لدى المسنات (≥70) بسرطان الثدي المبكر منخفض الخطورة (EUROPA). |
 
 ---
 
-## Literature Evidence
+## أدلة من الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [16382061](https://pubmed.ncbi.nlm.nih.gov/16382061/) | 2005 | RCT | The New England Journal of Medicine | BIG 1-98: letrozole vs. tamoxifen as adjuvant treatment for steroid-hormone-receptor-positive breast cancer in postmenopausal women. |
-| [35464999](https://pubmed.ncbi.nlm.nih.gov/35464999/) | 2022 | RCT/Cohort | Computational and Mathematical Methods in Medicine | Efficacy, safety, and prognosis of sequential tamoxifen–letrozole therapy vs. letrozole monotherapy. |
-| [15001182](https://pubmed.ncbi.nlm.nih.gov/15001182/) | 2004 | RCT | Women's Health Issues | Clinical implications and remaining questions from the Letrozole Breast Cancer Trial. |
-| [36243120](https://pubmed.ncbi.nlm.nih.gov/36243120/) | 2022 | Review | Life Sciences | Comprehensive review of letrozole pharmacology, toxicity, and therapeutic effects in HR+ breast cancer. |
-| [17912633](https://pubmed.ncbi.nlm.nih.gov/17912633/) | 2007 | Review | Breast Cancer Research and Treatment | The discovery and mechanism of action of letrozole as an aromatase inhibitor. |
-| [20095792](https://pubmed.ncbi.nlm.nih.gov/20095792/) | 2010 | Review | Expert Opinion on Drug Metabolism & Toxicology | Pharmacodynamics, pharmacokinetics, clinical efficacy and safety review of letrozole. |
-| [16500235](https://pubmed.ncbi.nlm.nih.gov/16500235/) | 2006 | Review | Breast (Edinburgh) | Development of letrozole and its use in advanced and neoadjuvant breast cancer settings. |
-| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | Review | Expert Opinion on Pharmacotherapy | Comparative review of anastrozole, letrozole, and exemestane in early breast cancer management. |
-| [22738819](https://pubmed.ncbi.nlm.nih.gov/22738819/) | 2012 | Systematic Review | Current Medical Research and Opinion | Lapatinib + letrozole vs. other first-line treatments in HR+/HER2+ metastatic breast cancer. |
-| [41519129](https://pubmed.ncbi.nlm.nih.gov/41519129/) | 2026 | Trial report | Cell Reports Medicine | NeoPAL trial: molecular/cellular composition changes after neoadjuvant letrozole + palbociclib vs. chemotherapy in early luminal breast cancer. |
+| [16382061](https://pubmed.ncbi.nlm.nih.gov/16382061/) | 2005 | دراسة عشوائية محكومة | The New England Journal of Medicine | BIG 1-98: ليتروزول مقابل تاموكسيفين كعلاج مساعد لسرطان الثدي الموجب لمستقبلات الهرمون الستيرويدي لدى النساء بعد انقطاع الطمث. |
+| [35464999](https://pubmed.ncbi.nlm.nih.gov/35464999/) | 2022 | دراسة عشوائية محكومة/دراسة أترابية | Computational and Mathematical Methods in Medicine | الفعالية والأمان والتشخيص من العلاج التسلسلي بتاموكسيفين–ليتروزول مقابل العلاج بليتروزول وحده. |
+| [15001182](https://pubmed.ncbi.nlm.nih.gov/15001182/) | 2004 | دراسة عشوائية محكومة | Women's Health Issues | الآثار السريرية والأسئلة المتبقية من تجربة ليتروزول لسرطان الثدي. |
+| [36243120](https://pubmed.ncbi.nlm.nih.gov/36243120/) | 2022 | مراجعة | Life Sciences | مراجعة شاملة لصيدلية ليتروزول والسمية والآثار العلاجية في سرطان الثدي HR+. |
+| [17912633](https://pubmed.ncbi.nlm.nih.gov/17912633/) | 2007 | مراجعة | Breast Cancer Research and Treatment | اكتشاف وآلية عمل ليتروزول كمثبط أروماتاز. |
+| [20095792](https://pubmed.ncbi.nlm.nih.gov/20095792/) | 2010 | مراجعة | Expert Opinion on Drug Metabolism & Toxicology | مراجعة الديناميكا الدوائية والحرائك الدوائية والفعالية السريرية والأمان لليتروزول. |
+| [16500235](https://pubmed.ncbi.nlm.nih.gov/16500235/) | 2006 | مراجعة | Breast (Edinburgh) | تطور ليتروزول واستخدامه في سرطان الثدي المتقدم والمعالجة الأولية المصحوبة بالعلاج الكيميائي. |
+| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | مراجعة | Expert Opinion on Pharmacotherapy | مراجعة مقارنة للأناستروزول وليتروزول والإكسيميستان في إدارة سرطان الثدي المبكر. |
+| [22738819](https://pubmed.ncbi.nlm.nih.gov/22738819/) | 2012 | مراجعة منهجية | Current Medical Research and Opinion | لاباتينيب + ليتروزول مقابل العلاجات الأخرى من الخط الأول في سرطان الثدي النقيلي HR+/HER2+. |
+| [41519129](https://pubmed.ncbi.nlm.nih.gov/41519129/) | 2026 | تقرير التجربة | Cell Reports Medicine | تجربة NeoPAL: التغييرات الجزيئية/الخلوية بعد العلاج الأولي بليتروزول + بالبوسيكليب مقابل العلاج الكيميائي في سرطان الثدي المبكر الثري (luminal). |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Letrozole currently has **no marketing authorizations on file** in this dataset (market status: Not marketed / Not Marketed; total licenses: 0). No product-level licensing table can be generated from `taiwan_regulatory.licenses`. Confirming current registration status directly with TFDA is recommended before any Taiwan-market repurposing action is pursued.
+ليتروزول حاليًا **لا يحمل أي ترخيصات تسويق مسجلة** في مجموعة البيانات هذه (حالة السوق: غير مسوق / Not Marketed؛ إجمالي الرخص: 0). لا يمكن إنشاء جدول على مستوى المنتج من `taiwan_regulatory.licenses`. يُنصح بتأكيد حالة التسجيل الحالية مباشرة مع هيئة الدواء والغذاء التايوانية (TFDA) قبل السعي لأي إجراء إعادة استخدام في السوق التايوانية.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Letrozole's original indication (breast cancer) and its established antineoplastic/endocrine-therapy classification meet the criteria for this section.
+المؤشر الأصلي لليتروزول (سرطان الثدي) وتصنيفه المعترف به كعلاج هرموني/صماوي غير سام خلويًا يفي بمعايير هذا القسم.
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Hormonal/endocrine therapy — aromatase inhibitor (non-cytotoxic; mechanism-targeted rather than conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الهرموني/الصماوي — مثبط أروماتاز (غير سام خلويًا؛ آلية موجهة بدلاً من العلاج الكيميائي السام الخلوي التقليدي) |
+| خطر قمع النخاع | يُرجى مراجعة تحذيرات واحتياطات إدراج الحزمة |
+| تصنيف التقيؤ | يُرجى مراجعة تحذيرات واحتياطات إدراج الحزمة |
+| عناصر المراقبة | يُرجى مراجعة تحذيرات واحتياطات إدراج الحزمة |
+| حماية التعامل | يُرجى مراجعة تحذيرات واحتياطات إدراج الحزمة |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as data gaps or not found in this evidence pack — DG001 flags the TFDA package insert/warnings as a **blocking** gap for safety pre-assessment.)
+يُرجى مراجعة إدراج الحزمة للحصول على معلومات الأمان. (تُعتبر جميع بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية فجوات بيانات أو لم يتم العثور عليها في حزمة الأدلة هذه — يشير DG001 إلى إدراج TFDA للحزمة/التحذيرات كفجوة **حجب** مطلوبة قبل أي تقييم أمان في المرحلة S1.)
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدمًا مع ضمانات حماية**
 
-**Rationale:**
-The predicted indication (female breast carcinoma) is supported by L1-level evidence — multiple completed Phase 3 RCTs and a mature literature base — but represents confirmation of letrozole's already-established global indication rather than a novel repurposing opportunity. Guardrails are warranted primarily because Taiwan-specific regulatory and safety documentation (package insert, contraindications, DDI) remain unfilled, and the drug is not currently marketed in Taiwan.
+**المنطق:**
+المؤشر المتنبأ به (سرطان الثدي الأنثوي) مدعوم بأدلة من مستوى L1 — عدة تجارب عشوائية محكومة مكتملة في المرحلة 3 وقاعدة أدب علمي ناضجة — لكنه يمثل تأكيدًا على المؤشر المعترف به بالفعل عالميًا لليتروزول بدلاً من فرصة إعادة استخدام حقيقية جديدة. الضمانات الحماية مبررة بشكل أساسي لأن الوثائق التنظيمية والأمنية الخاصة بـ تايوان (إدراج الحزمة والموانع والتفاعلات الدوائية) لا تزال غير مكتملة، والعقار غير مسوق حاليًا في تايوان.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (DG001, blocking — required before any S1 safety pre-assessment)
-- Formal mechanism-of-action record from DrugBank at the drug level (DG002, high priority)
-- Confirmation of current Taiwan marketing/registration status, given 0 licenses on file
-- Clarification of scope: since rank-1 "female breast carcinoma" is not a genuine new indication, consider whether this evaluation should instead prioritize a lower-ranked, evidence-supported extension (e.g., rank 4, hormone-resistant breast carcinoma, L2/Proceed with Guardrails) as the operative repurposing candidate
+**للمضي قدمًا، يتطلب ما يلي:**
+- إدراج TFDA للحزمة / التحذيرات والموانع (DG001، حجب — مطلوب قبل أي تقييم أمان في المرحلة S1)
+- سجل آلية عمل رسمي من DrugBank على مستوى الدواء (DG002، أولوية عالية)
+- تأكيد حالة التسويق/التسجيل الحالية في تايوان، بالنظر إلى وجود 0 رخصة مسجلة
+- توضيح النطاق: بما أن الرتبة 1 "سرطان الثدي الأنثوي" ليست مؤشرًا جديدًا حقيقيًا، تأكد فيما إذا كان يجب على هذا التقييم بدلاً من ذلك أن يعطي الأولوية لامتداد برتبة أقل مدعوم بالأدلة (مثل الرتبة 4، سرطان الثدي المقاوم للهرمونات، L2/المضي قدمًا مع ضمانات حماية) كمرشح إعادة الاستخدام الفعلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

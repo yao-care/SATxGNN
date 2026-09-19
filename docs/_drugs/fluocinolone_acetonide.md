@@ -29,60 +29,61 @@ indication_count: 4
 
 </div>
 
-# Fluocinolone Acetonide: From Unspecified Original Indication to Hypertrophic Lichen Planus
+# فلوسينولون أسيتونيد: من الاستطباب الأصلي غير المحدد إلى الحزاز المسطح الضخامي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Fluocinolone acetonide is a fluorinated topical corticosteroid; its originally approved indication is not on file in this evidence pack, and the drug is not currently marketed in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Hypertrophic Lichen Planus**,
-but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction is model-only.
+فلوسينولون أسيتونيد هو كورتيكوستيرويد موضعي مفلور؛ استطبابه الأصلي المعتمد غير موجود في حزمة الأدلة هذه، والدواء غير مسوّق حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الحزاز المسطح الضخامي**،
+لكن هذا الاتجاه مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور** — التنبؤ من النموذج فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not on file (DrugBank indication data unavailable; drug not marketed in Saudi Arabia) |
-| Predicted New Indication | Hypertrophic Lichen Planus |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير موجود في الملف (بيانات الاستطباب من DrugBank غير متاحة؛ الدواء غير مسوّق في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | الحزاز المسطح الضخامي |
+| درجة تنبؤ TxGNN | 99.42% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | متوقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from DrugBank for fluocinolone acetonide. Based on its pharmacological class, fluocinolone acetonide is a synthetic fluorinated corticosteroid that binds the glucocorticoid receptor and suppresses T-cell–mediated cytotoxic activity against basal-layer keratinocytes — the core immunopathogenic pathway in lichen planus (LP). This gives class-level mechanistic plausibility for LP subtypes in general.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة من DrugBank لفلوسينولون أسيتونيد. بناءً على فئته الدوائية، فلوسينولون أسيتونيد هو كورتيكوستيرويد مركب مفلور يرتبط بمستقبل الجلوكوكورتيكويد ويثبط النشاط السام الموسط من الخلايا التائية ضد الخلايا الكيراتينية في الطبقة القاعدية — المسار المرضي المناعي الأساسي في الحزاز المسطح (LP). هذا يعطي معقولية آلية على مستوى الفئة لأنواع الحزاز المسطح بشكل عام.
 
-However, hypertrophic LP lesions are characterized by thick, heavily keratinized plaques that often require intralesional injection or higher-potency corticosteroids to achieve clinical response. Whether a standard mid-potency topical formulation of fluocinolone acetonide can penetrate sufficiently to be effective in this specific subtype remains unknown, and no trial or case-level data currently addresses this question.
+ومع ذلك، فإن آفات الحزاز المسطح الضخامي تتميز بلويحات سميكة ومتقرنة بشدة غالباً ما تتطلب حقناً داخل الآفة أو كورتيكوستيرويدات ذات فعالية أعلى لتحقيق استجابة سريرية. ما إذا كان تحضير موضعي قياسي متوسط الفعالية من فلوسينولون أسيتونيد يمكنه الاختراق الكافي ليكون فعالاً في هذا النوع الفرعي المحدد يبقى غير معروف، وحالياً لا توجد بيانات على مستوى التجربة أو الحالة تتناول هذا السؤال.
 
-Because the original approved indication for this drug is not recorded in the evidence pack, the relationship between its established use and hypertrophic LP cannot be characterized beyond this general corticosteroid class-effect reasoning.
+لأن الاستطباب الأصلي المعتمد لهذا الدواء غير مسجل في حزمة الأدلة، فإن العلاقة بين استخدامه المثبت والحزاز المسطح الضخامي لا يمكن وصفها خارج هذا الاستدلال على مستوى فئة الكورتيكوستيرويد العام.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+حالياً لا توجد أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: متوقف**
 
-**Rationale:**
-- Evidence level is L5 (model prediction only) with zero supporting clinical trials or literature for hypertrophic LP specifically, and a Blocking data gap (TFDA package insert warnings/contraindications) currently prevents entry into the S1 safety pre-assessment stage.
-- For context, a related predicted indication in this same evidence pack — *lichen planus pemphigoides* (rank 4, same drug) — has reached decision stage S1 with 3 supporting publications (including 1 RCT) and may be a more actionable candidate to prioritize ahead of hypertrophic LP.
+**الأساس المنطقي:**
+- مستوى الأدلة هو L5 (تنبؤ النموذج فقط) مع عدم وجود تجارب سريرية أو أدبيات داعمة للحزاز المسطح الضخامي على وجه التحديد، وفجوة بيانات معيقة (تحذيرات وموانع نشرة معلومات TFDA) تمنع حالياً الدخول إلى مرحلة S1.
+- للسياق، استطباب متنبأ به ذو صلة في حزمة الأدلة نفسها — **الحزاز المسطح الفقاعي** (الترتيب 4، نفس الدواء) — وصل إلى مرحلة القرار S1 مع 3 منشورات داعمة (بما في ذلك تجربة معشاة ومضبوطة واحدة) وقد يكون مرشحاً أكثر قابلية للعمل للأولوية قبل الحزاز المسطح الضخامي.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) to clear the Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- At minimum, case-series or preclinical evidence specifically for hypertrophic LP, given its atypical (thick, hyperkeratotic) presentation
-- Route/potency compatibility assessment — hypertrophic LP may require intralesional or higher-potency corticosteroid delivery beyond standard topical formulations
-- Saudi Arabia market/regulatory pathway assessment, as the drug is not currently marketed there
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات TFDA/الشركة المصنعة (تحذيرات، موانع) لحل فجوة البيانات المعيقة (DG001)
+- بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- على الأقل، سلسلة حالات أو أدلة ما قبل السريرية على وجه التحديد للحزاز المسطح الضخامي، نظراً لتقديمه غير النمطي (سميك، فرط التقرن)
+- تقييم التوافق بين طريق التعاطي والفعالية — قد يتطلب الحزاز المسطح الضخامي حقناً داخل الآفة أو صيغ كورتيكوستيرويدية ذات فعالية أعلى بدلاً من الصيغ الموضعية القياسية
+- تقييم المسار السوقي والتنظيمي في المملكة العربية السعودية، حيث أن الدواء غير مسوّق حالياً هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

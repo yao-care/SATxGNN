@@ -29,56 +29,57 @@ indication_count: 1
 
 </div>
 
-# Fluconazole: From Fungal Infections to Punctate Epithelial Keratoconjunctivitis
+# فلوكونازول: من العدوى الفطرية إلى التهاب الملتحمة القرنية النقطي السطحي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Fluconazole is a triazole antifungal originally used to treat fungal infections such as candidiasis and cryptococcal meningitis. The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the model score alone.
+فلوكونازول هو عامل مضاد للفطريات من فئة التريازول يُستخدم أصلاً في علاج العدوى الفطرية مثل داء المبيضات والتهاب السحايا الناجم عن المتفطرة الخفية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الملتحمة القرنية النقطي السطحي**، لكن هذا التنبؤ مدعوم حالياً بـ **0** تجربة سريرية و**0** منشور — فهو يعتمد فقط على درجة النموذج.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Fungal infections (e.g., candidiasis, cryptococcal meningitis) — general antifungal indication; local approved-label text is not available (drug is not currently marketed here) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | العدوى الفطرية (مثل داء المبيضات والتهاب السحايا الناجم عن المتفطرة الخفية) — مؤشر مضاد للفطريات عام؛ النص المعتمد محلياً غير متاح (الدواء غير مسوّق حالياً هنا) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة القرنية النقطي السطحي |
+| درجة التنبؤ بـ TxGNN | 99.24% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (غير مسوّق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on general pharmacological knowledge, fluconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14α-demethylase), blocking ergosterol synthesis in the fungal cell membrane — its efficacy in fungal infections is well established.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في رزمة الأدلة. بناءً على المعرفة الصيدلانية العامة، فلوكونازول هو عامل مضاد للفطريات من فئة التريازول يثبط CYP51 الفطري (lanosterol 14α-demethylase)، مما يحجب تخليق الإرجوسترول في غشاء الخلية الفطري — فعاليته في العدوى الفطرية مثبتة جيداً.
 
-Punctate epithelial keratoconjunctivitis, however, is most commonly caused by viral infection (e.g., adenovirus) or autoimmune processes (e.g., Thygeson's superficial punctate keratitis) rather than fungal infection. While fungal keratoconjunctivitis does exist as a distinct clinical entity, it is not the typical etiology behind this diagnostic label.
+التهاب الملتحمة القرنية النقطي السطحي، مع ذلك، ينتج في الغالب عن عدوى فيروسية (مثل الفيروس الغدي) أو عمليات المناعة الذاتية (مثل التهاب القرنية النقطي السطحي لـ Thygeson) بدلاً من العدوى الفطرية. بينما يوجد التهاب الملتحمة القرنية الفطري بالفعل كمنفصل سريري متميز، فإنه ليس الأساس المرضي النمطي وراء هذه العلامة التشخيصية.
 
-Given this mismatch between fluconazole's known antifungal mechanism and the predominantly non-fungal etiology of the predicted indication, the mechanistic link should be considered weak and speculative rather than well-supported. This prediction currently reflects a model-derived association only, without independent mechanistic, preclinical, or clinical corroboration.
+بالنظر إلى عدم التوافق هذا بين آلية عمل فلوكونازول المعروفة المضادة للفطريات والأساس المرضي غير الفطري السائد للمؤشر المتنبأ به، يجب اعتبار الارتباط الآلي ضعيفاً وافتراضياً بدلاً من أن يكون مدعوماً جيداً. هذا التنبؤ يعكس حالياً ارتباطاً مشتقاً من النموذج فقط، بدون دعم مستقل آلي أو تمهيدي أو سريري.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (L5, no clinical or literature evidence), and the underlying mechanistic rationale is weak given the predominantly viral/autoimmune etiology of the target condition. Core safety data (TFDA package insert warnings/contraindications) is also a Blocking data gap, preventing any S1 safety evaluation.
+**الأساس المنطقي:**
+التنبؤ مدعوم فقط بدرجة نموذج TxGNN (L5، لا يوجد دليل سريري أو أدبي)، والأساس الآلي الأساسي ضعيف بالنظر إلى الأساس المرضي السائد الفيروسي/المناعي للحالة المستهدفة. بيانات السلامة الأساسية (تحذيرات/موانع استخدام النشرة الداخلية لـ TFDA) هي أيضاً فجوة بيانات حاجزة (DG001)، مما يمنع أي تقييم سلامة S1.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings and contraindications (DG001, Blocking — required before any safety screening can begin)
-- Confirmed mechanism of action data via DrugBank (DG002)
-- Preclinical or mechanistic studies specifically addressing fluconazole's activity in non-fungal punctate epithelial keratoconjunctivitis
-- Any emerging clinical trial or literature evidence to raise the evidence level above L5
+**لكي نتقدم، يلزم ما يلي:**
+- تحذيرات النشرة الداخلية لـ TFDA وموانع الاستخدام (DG001، حاجز — مطلوب قبل بدء أي فحص سلامة)
+- بيانات آلية عمل مؤكدة عبر DrugBank (DG002)
+- دراسات تمهيدية أو آلية تتناول بشكل خاص نشاط فلوكونازول في التهاب الملتحمة القرنية النقطي غير الفطري
+- أي دليل تجربة سريرية أو أدبي ناشئ لرفع مستوى الدليل أعلى من L5
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

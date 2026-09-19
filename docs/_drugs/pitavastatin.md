@@ -29,64 +29,65 @@ indication_count: 10
 
 </div>
 
-# Pitavastatin: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# بيتافاستاتين: من فرط كوليسترول الدم إلى فرط كوليسترول الدم العائلي المتماثل الزيجوت
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Pitavastatin is an HMG-CoA reductase inhibitor (statin) established for treating hypercholesterolemia and mixed dyslipidemia. The TxGNN model's top-ranked prediction is **Homozygous Familial Hypercholesterolemia (HoFH)**, but this specific candidate currently has **no registered clinical trials** and only **2 supporting publications** (one indirect RCT, one case report) — evidence is thin, and the drug's own mechanism is known to have limited efficacy in this particular patient population.
+بيتافاستاتين هو مثبط HMG-CoA reductase (ستاتين) موثق الاستخدام في علاج فرط كوليسترول الدم واختلال الدهون المختلط. التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **فرط كوليسترول الدم العائلي المتماثل الزيجوت (HoFH)**، لكن هذا المرشح المحدد حالياً **لا توجد تجارب سريرية مسجلة** و**فقط منشورين داعمين** (RCT واحد غير مباشر وتقرير حالة واحد) — الأدلة ضئيلة، وآلية العقار المعروفة لها فعالية محدودة في هذه المجموعة السكانية المحددة من المرضى.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypercholesterolemia / mixed dyslipidemia (as HMG-CoA reductase inhibitor) — no formal approved-label text available (drug not marketed in Saudi Arabia) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.99% (rank 171) |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | فرط كوليسترول الدم / اختلال الدهون المختلط (كمثبط HMG-CoA reductase) — لا يوجد نص معتمد رسمي للمؤشر (الدواء غير مُسَوَّق في المملكة العربية السعودية) |
+| المؤشر الجديد المتوقع | فرط كوليسترول الدم العائلي المتماثل الزيجوت (HoFH) |
+| درجة تنبؤ TxGNN | 99.99% (الترتيب 171) |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسَوَّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تعليق |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed official mechanism-of-action documentation is not available (data gap, severity: High). Based on the evidence collected, pitavastatin is a synthetic HMG-CoA reductase inhibitor: it blocks hepatic cholesterol biosynthesis, which upregulates LDL receptor expression and thereby lowers LDL-C — the pharmacological basis of its established use in hypercholesterolemia and mixed dyslipidemia.
+وثائق آلية العمل الرسمية المفصلة غير متاحة (فجوة بيانات، درجة الخطورة: عالية). بناءً على الأدلة المجمعة، بيتافاستاتين هو مثبط HMG-CoA reductase اصطناعي: يثبط اصطناع الكوليسترول الكبدي، مما يعزز تعبير مستقبل LDL وبالتالي يخفض LDL-C — الأساس الدوائي لاستخدامه الموثق في فرط كوليسترول الدم واختلال الدهون المختلط.
 
-HoFH and general hypercholesterolemia are mechanistically related, but the connection is weaker than for other statin indications. The evidence pack's own rationale for this candidate states it directly: HoFH patients have severely deficient or absent LDL receptor function, so a mechanism that works by *upregulating* the LDL receptor has intrinsically limited effect in this population. Clinically, statins in HoFH are used only as **adjunct** therapy alongside PCSK9 inhibitors or LDL apheresis — not as a standalone treatment. The mechanistic link exists, but its clinical impact in HoFH specifically is constrained.
+فرط كوليسترول الدم العائلي المتماثل الزيجوت والفرط الكوليسترولي العام متعلقان آلياً، لكن الارتباط أضعف منه في مؤشرات الستاتين الأخرى. الأساس المنطقي لهذا المرشح في حزمة الأدلة نفسها يوضح هذا مباشرة: مرضى HoFH لديهم وظيفة مستقبل LDL ناقصة بشدة أو غائبة، لذا آلية تعمل على *تعزيز* مستقبل LDL لها تأثير جوهري محدود في هذا السكان. من الناحية السريرية، يُستخدم الستاتين في HoFH فقط كعلاج **مساعد** جنباً إلى جنب مع مثبطات PCSK9 أو فصادة LDL — وليس كعلاج مستقل. ارتباط الآلية موجود، لكن تأثيره السريري في HoFH بالذات محدود.
 
-For context, other TxGNN-predicted indications for pitavastatin in this evidence pack have substantially stronger support — e.g., hyperlipoproteinemia (rank 2, L1, 12 trials including Phase 4 RCTs) and HIV-associated cardiovascular risk reduction (rank 7, L1, including the landmark REPRIEVE trial, NEJM 2023). Those may warrant separate evaluation as more mature candidates.
+للسياق، المؤشرات الأخرى المتنبأ بها من TxGNN لبيتافاستاتين في حزمة الأدلة هذه لها دعم أقوى بكثير — على سبيل المثال، فرط البروتينات الدهنية (الترتيب 2، L1، 12 تجربة تشمل RCT المرحلة 4) والحد من خطر أمراض القلب والأوعية الدموية المرتبطة بفيروس نقص المناعة البشرية (الترتيب 7، L1، بما في ذلك تجربة REPRIEVE الرئيسية، NEJM 2023). قد تستحق هذه تقييماً منفصلاً كمرشحين أكثر نضجاً.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية مسجلة ذات صلة.
 
-## Literature Evidence
+## أدلة الأدب والمنشورات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT | The Lancet HIV | INTREPID trial: pitavastatin vs. pravastatin in HIV-1 patients with dyslipidaemia. Population is not HoFH-specific; relevant mainly for showing pitavastatin's efficacy/safety profile independent of CYP450-mediated drug interactions. |
-| [39532566](https://pubmed.ncbi.nlm.nih.gov/39532566/) | 2025 | Case report | Journal of Clinical Lipidology | Two cases of autosomal recessive hypercholesterolemia (ARH) — a condition clinically indistinguishable from HoFH — showing rapid lipid-lowering response to treatment. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|---------|
+| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT | The Lancet HIV | تجربة INTREPID: بيتافاستاتين مقابل براڤاستاتين في مرضى فيروس نقص المناعة البشرية 1 مع اختلال الدهون. المجموعة السكانية ليست محددة لـ HoFH؛ ذات صلة بشكل أساسي لإظهار ملف فعالية/سلامة بيتافاستاتين بعيداً عن التفاعلات الدوائية المدروسة عبر CYP450. |
+| [39532566](https://pubmed.ncbi.nlm.nih.gov/39532566/) | 2025 | تقرير حالة | Journal of Clinical Lipidology | حالتان من فرط كوليسترول الدم الجسدي المتنحي (ARH) — حالة متميزة سريرياً عن HoFH — تُظهران استجابة سريعة لخفض الدهون للعلاج. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Pitavastatin is not currently marketed in Saudi Arabia — no product authorization records are available (0 licenses on file).
+بيتافاستاتين غير مُسَوَّق حالياً في المملكة العربية السعودية — لا توجد سجلات تصريح منتج متاحة (0 رخصة في الملف).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (TFDA/SFDA package insert data is flagged as a Blocking data gap — key warnings, contraindications, and drug-drug interaction data could not be retrieved and should be sourced before any safety evaluation.)
+يُرجى الرجوع إلى ملخص الخصائص المرفق للمعلومات المتعلقة بالسلامة. (بيانات ملخص الخصائص TFDA/SFDA مُعلمة كفجوة بيانات حاجزة — لم يتمكن من استرجاع البيانات المتعلقة بالتحذيرات الرئيسية والموانع والتفاعلات الدوائية ويجب الحصول عليها قبل أي تقييم للسلامة.)
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-Evidence for pitavastatin specifically in HoFH is limited to two publications (no dedicated RCT or trial registered), and the drug's own mechanism of action is explicitly constrained in this population — LDL receptor upregulation has reduced effect when receptor function is severely deficient or absent, limiting pitavastatin to an adjunct role alongside PCSK9 inhibitors or LDL apheresis rather than standalone therapy.
+**الأساس المنطقي:**
+أدلة بيتافاستاتين على وجه التحديد في HoFH محدودة بمنشورين (لا توجد RCT مخصص أو تجربة مسجلة)، وآلية العمل الخاصة بالعقار معروفة بأنها مقيدة في هذا السكان — تعزيز مستقبل LDL له تأثير مخفض عندما تكون وظيفة المستقبل ناقصة بشدة أو غائبة، مما يحد من بيتافاستاتين إلى دور مساعد جنباً إلى جنب مع مثبطات PCSK9 أو فصادة LDL بدلاً من العلاج المستقل.
 
-**To proceed, the following is needed:**
-- SFDA-approved package insert (warnings, contraindications, DDI) — currently a Blocking data gap
-- Verified mechanism-of-action documentation from DrugBank or primary literature — currently a High-severity data gap
-- A dedicated clinical trial or larger case series evaluating pitavastatin (alone or as PCSK9i/apheresis adjunct) specifically in HoFH patients
-- Formal S1 safety review prior to any further evaluation stage
-- Consider evaluating the stronger-evidence candidates in this same evidence pack (hyperlipoproteinemia, HIV-associated CVD risk reduction) as parallel or alternative repurposing targets
+**للمتابعة، يلزم ما يلي:**
+- ملخص الخصائص المعتمد من SFDA (تحذيرات، موانع، تفاعلات دوائية) — حالياً فجوة بيانات حاجزة
+- وثائق آلية العمل المُتحقق منها من DrugBank أو الأدب الأولي — حالياً فجوة بيانات عالية الخطورة
+- تجربة سريرية مخصصة أو سلسلة حالات أكبر تقيّم بيتافاستاتين (وحده أو كمساعد PCSK9i/apheresis) على وجه التحديد في مرضى HoFH
+- مراجعة S1 رسمية للسلامة قبل أي مرحلة تقييم إضافية
+- النظر في تقييم المرشحين ذوي الأدلة الأقوى في حزمة الأدلة نفسها (فرط البروتينات الدهنية، الحد من خطر أمراض القلب والأوعية الدموية المرتبطة بفيروس نقص المناعة البشرية) كأهداف إعادة تصنيف متوازية أو بديلة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

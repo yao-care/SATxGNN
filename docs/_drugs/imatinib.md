@@ -29,141 +29,131 @@ indication_count: 10
 
 </div>
 
-Using the drug repurposing evaluation report template to produce this report from the evidence pack.
+# إماتينيب: من ابيضاض الدم النخاعي المزمن/أورام الجهاز الهضمي السليمة إلى الورم الليفي الجلدي الخلقي البارز (الورم الليفي)
 
-I reviewed the full JSON before writing. Two things shaped how I applied the template:
+## ملخص جملة واحدة
 
-1. **`original_indications` and `original_moa` are empty/Data Gap in the structured drug object**, but the pack's own literature evidence (PMID 18623899, PMID 18230575) directly states imatinib's original indications (CML, GIST) and MOA (BCR-ABL/KIT/PDGFR tyrosine kinase inhibitor). I sourced these from the pack's literature rather than treating them as unfillable gaps, and flagged that the structured DrugBank/TFDA fields are still gaps (per `meta.data_gaps` DG001/DG002).
-2. **`predicted_indications[0]` ("heart fibrosarcoma") is the TxGNN top-scored node, but its own evidence and rationale explicitly self-describe as weak** ("文獻自我承認證據薄弱", L4/Hold). Rank 2 ("fibroblastic neoplasm" = dermatofibrosarcoma protuberans) has materially stronger, mechanistically grounded evidence (L2/S3/Proceed with Guardrails) and is already a guideline-supported use of imatinib elsewhere. As the report is meant to give an accurate clinical picture rather than mechanically front the highest raw score, I used rank 2 as the headline prediction and added an appendix documenting all 10 candidates so nothing is hidden or omitted (per the "no data gap suppression / no truncation" rules).
-
-Here is the report:
-
----
-
-# Imatinib: From Chronic Myeloid Leukemia/GIST to Dermatofibrosarcoma Protuberans (Fibroblastic Neoplasm)
-
-## One-Sentence Summary
-
-> Imatinib is a tyrosine kinase inhibitor originally developed for chronic myeloid leukaemia (CML) and gastrointestinal stromal tumours (GIST).
-> The TxGNN model predicts it may be effective for **Fibroblastic Neoplasm (Dermatofibrosarcoma Protuberans, DFSP)**,
-> with **18 supporting publications** and **1 directly relevant Phase II trial** (registered under a closely related knowledge-graph node) currently identified.
+> إماتينيب هو مثبط إنزيم التيروسين كيناز الذي تم تطويره في الأصل لعلاج ابيضاض الدم النخاعي المزمن (CML) والأورام السليمة للجهاز الهضمي (GIST).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الورم الليفي (سرطان الجلد الليفي الخلقي البارز، DFSP)**،
+> مع **18 منشوراً داعماً** و **تجربة سريرية واحدة من المرحلة الثانية** (مسجلة تحت عقدة قاعدة معارف مرتبطة بشكل وثيق) تم تحديدها حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Chronic myeloid leukaemia (CML) and gastrointestinal stromal tumours (GIST) *(sourced from supporting literature, PMID 18623899/18230575; not present in the structured regulatory dataset)* |
-| Predicted New Indication | Fibroblastic Neoplasm (Dermatofibrosarcoma Protuberans, DFSP) |
-| TxGNN Prediction Score | 99.94% (rank 1567 among all disease nodes) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | ابيضاض الدم النخاعي المزمن (CML) والأورام السليمة للجهاز الهضمي (GIST) *(مأخوذة من الأدبيات الداعمة، PMID 18623899/18230575؛ غير موجودة في مجموعة البيانات التنظيمية المنظمة)* |
+| المؤشر الجديد المتنبأ به | الورم الليفي (سرطان الجلد الليفي الخلقي البارز، DFSP) |
+| درجة التنبؤ TxGNN | 99.94% (الترتيب 1567 بين جميع عقد الأمراض) |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Structured mechanism-of-action data for imatinib is flagged as a data gap in DrugBank/TFDA sourcing (DG002, High severity). However, the pack's own supporting literature fills this gap: imatinib is a small-molecule tyrosine kinase inhibitor targeting **BCR-ABL, c-KIT, and PDGFR (platelet-derived growth factor receptor)** (PMID 18230575, 15794712). It was first marketed for CML and later GIST, both driven by constitutively active tyrosine kinases that imatinib blocks (PMID 18623899).
+بيانات آلية العمل المنظمة لـ إماتينيب يتم تحديدها كفجوة بيانات في البحث عن DrugBank/TFDA (DG002، الخطورة العالية). ومع ذلك، تملأ الأدبيات الداعمة الخاصة بالحزمة هذه الفجوة: إماتينيب هو مثبط التيروسين كيناز الصغير الجزيء الذي يستهدف **BCR-ABL و c-KIT و PDGFR (مستقبل عامل النمو المشتق من الصفائح الدموية)** (PMID 18230575، 15794712). تم تسويقه لأول مرة لـ CML وفي وقت لاحق لـ GIST، وكلاهما مدفوع بـ كيناز التيروسين المُنشط بشكل مستمر التي يحجبها إماتينيب (PMID 18623899).
 
-Dermatofibrosarcoma protuberans (DFSP), the disease underlying the "fibroblastic neoplasm" node, is defined by a recurrent **t(17;22)(q22;q13) translocation producing a COL1A1-PDGFB fusion gene**, which drives constitutive autocrine PDGFRB signalling (PMID 36630365, 22285046, 25852058). This is one of the most direct, well-characterized mechanistic matches for imatinib of any solid tumour outside CML/GIST — the fusion protein produces excess PDGF-B ligand that continuously activates PDGFRB, a receptor imatinib is known to inhibit.
+سرطان الجلد الليفي الخلقي البارز (DFSP)، المرض الكامن وراء عقدة "الورم الليفي"، يتميز بـ **translocation t(17;22)(q22;q13) المتكررة التي تنتج جين دمج COL1A1-PDGFB**، الذي يقود إشارات PDGFRB الإفرازية الذاتية المستمرة (PMID 36630365، 22285046، 25852058). هذا هو واحد من أكثر التطابقات الآليات المباشرة والمميزة جيداً لـ إماتينيب من بين أي ورم صلب خارج CML/GIST — بروتين الدمج ينتج فائضاً من ليجاند PDGF-B الذي يفعّل PDGFRB بشكل مستمر، وهو مستقبل معروف أن إماتينيب يثبطه.
 
-This is why the prediction is clinically credible rather than purely speculative: imatinib is already used in guideline-supported practice for unresectable or metastatic DFSP (PMID 36999599, 39904126 — 2024/2025 European interdisciplinary guideline update), with reported response in roughly half of patients with advanced/unresectable disease (PMID 25852058). The main caveats are (a) resistance eventually develops in a meaningful subset of cases via CDKN2A/p16 loss or other escape mechanisms (PMID 25852058, 41236573, 37610680), and (b) the disease can undergo fibrosarcomatous transformation, which is more aggressive and less imatinib-responsive.
+هذا هو السبب في أن التنبؤ موثوق سريرياً بدلاً من كونه مضاربة بحتة: إماتينيب تم استخدامه بالفعل في الممارسة العملية المدعومة بالإرشادات لـ DFSP غير القابل للاستئصال أو النقائلي (PMID 36999599، 39904126 — تحديث الإرشادات متعددة التخصصات الأوروبية 2024/2025)، مع الاستجابة المبلغ عنها في حوالي نصف المرضى ذوي المرض المتقدم/غير القابل للاستئصال (PMID 25852058). تتمحور القيود الرئيسية حول (أ) المقاومة تتطور في النهاية في مجموعة ذات مغزى من الحالات عبر فقدان CDKN2A/p16 أو آليات هروب أخرى (PMID 25852058، 41236573، 37610680)، و(ب) يمكن للمرض أن يخضع لتحول إلى ساركوما ليفية، وهي أكثر عدوانية وأقل استجابة لـ إماتينيب.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-No clinical trials are registered directly under the "fibroblastic neoplasm" TxGNN node itself. However, the evidence pack identifies one highly relevant Phase II trial registered under a closely related knowledge-graph node ("conventional fibrosarcoma") whose actual trial population is DFSP/giant cell fibroblastoma — this appears to be a knowledge-graph node-splitting artifact rather than a true absence of evidence, so it is reported here for completeness:
+لا توجد تجارب سريرية مسجلة مباشرة تحت عقدة TxGNN "الورم الليفي". ومع ذلك، تحدد حزمة الأدلة تجربة واحدة ذات صلة وثيقة من المرحلة الثانية مسجلة تحت عقدة قاعدة معارف مرتبطة بشكل وثيق ("ساركوما ليفية تقليدية") التي السكان الفعليون للتجربة هم DFSP/ورم الخلايا العملاقة الليفي — يبدو أن هذا يكون أثر تقسيم عقدة قاعدة معارف بدلاً من الغياب الحقيقي للأدلة، لذا يتم الإبلاغ عنه هنا للاكتمال:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00085475](https://clinicaltrials.gov/study/NCT00085475) | Phase 2 | Completed | 17 | Imatinib in locally advanced/metastatic DFSP and giant cell fibroblastoma with COL1A1-PDGFB fusion; single-arm study, not disease-node-specific in the KG but directly on-target for this indication. |
+| [NCT00085475](https://clinicaltrials.gov/study/NCT00085475) | المرحلة 2 | مكتملة | 17 | إماتينيب في DFSP المتقدم محلياً/النقائلي وورم الخلايا العملاقة الليفي مع دمج COL1A1-PDGFB؛ دراسة ذراع واحدة، غير محددة بعقدة مرض في KG ولكن موجهة مباشرة لهذا المؤشر. |
 
-*Note: this trial is cross-referenced from the "conventional fibrosarcoma" node in the source data, not natively attached to the fibroblastic neoplasm/DFSP node — flagged here rather than omitted, since it is the only registered trial directly testing imatinib in this disease.*
+*ملاحظة: تتم الإشارة المرجعية إلى هذه التجربة من عقدة "ساركوما ليفية تقليدية" في بيانات المصدر، وليست مرفقة أصلاً بعقدة الورم الليفي/DFSP — تم الإبلاغ عنها هنا بدلاً من حذفها، حيث أنها التجربة الوحيدة المسجلة التي تختبر مباشرة إماتينيب في هذا المرض.*
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/) | 2025 | Guideline/Review | European Journal of Cancer | 2024 European interdisciplinary (EADO/EDF/UEMS/EADV) update on DFSP diagnosis and treatment |
-| [26027711](https://pubmed.ncbi.nlm.nih.gov/26027711/) | 2015 | Review | Expert Review of Anticancer Therapy | Current treatment options for DFSP; imatinib's role via COL1A1-PDGFB-driven autocrine PDGF stimulation |
-| [36999599](https://pubmed.ncbi.nlm.nih.gov/36999599/) | 2023 | Review | Journal of Surgical Oncology | Surgical management of DFSP; medical therapy with imatinib reserved for advanced/unresectable disease |
-| [36630365](https://pubmed.ncbi.nlm.nih.gov/36630365/) | 2023 | Review | Clinical and Experimental Dermatology | PDGFB-COL1A1 fusion found in >90% of DFSP cases; basis for targeted therapy |
-| [33993132](https://pubmed.ncbi.nlm.nih.gov/33993132/) | 2021 | Review | Current Opinion in Otolaryngology & Head and Neck Surgery | Up-to-date review of DFSP diagnosis, workup, and treatment strategies |
-| [22285046](https://pubmed.ncbi.nlm.nih.gov/22285046/) | 2012 | Review | Actas Dermo-Sifiliográficas | COL1A1-PDGFB translocation specific to DFSP; contributes to diagnosis and treatment rationale |
-| [30297237](https://pubmed.ncbi.nlm.nih.gov/30297237/) | 2018 | Review | Bulletin du Cancer | DFSP management; metastatic risk linked to fibrosarcomatous transformation component |
-| [18230575](https://pubmed.ncbi.nlm.nih.gov/18230575/) | 2008 | Review | Bulletin du Cancer | Imatinib mechanism (c-abl/c-kit/PDGFR inhibition) and its trial history across solid tumours |
-| [41236573](https://pubmed.ncbi.nlm.nih.gov/41236573/) | 2025 | Preclinical | Human Cell | Establishment of a novel imatinib-resistant DFSP cell line for resistance-mechanism research |
-| [37610680](https://pubmed.ncbi.nlm.nih.gov/37610680/) | 2023 | Preclinical | Human Cell | Multi-omic profiling and ex vivo modelling of imatinib-resistant DFSP with fibrosarcomatous transformation |
+| [39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/) | 2025 | إرشادات/استعراض | European Journal of Cancer | تحديث 2024 متعدد التخصصات الأوروبي (EADO/EDF/UEMS/EADV) لتشخيص ومعالجة DFSP |
+| [26027711](https://pubmed.ncbi.nlm.nih.gov/26027711/) | 2015 | استعراض | Expert Review of Anticancer Therapy | خيارات العلاج الحالية لـ DFSP؛ دور إماتينيب عبر تحفيز PDGF الإفرازي الذاتي المدفوع بدمج COL1A1-PDGFB |
+| [36999599](https://pubmed.ncbi.nlm.nih.gov/36999599/) | 2023 | استعراض | Journal of Surgical Oncology | الإدارة الجراحية لـ DFSP؛ العلاج الطبي بـ إماتينيب مخصص للمرض المتقدم/غير القابل للاستئصال |
+| [36630365](https://pubmed.ncbi.nlm.nih.gov/36630365/) | 2023 | استعراض | Clinical and Experimental Dermatology | يتم العثور على دمج PDGFB-COL1A1 في >90% من حالات DFSP؛ الأساس للعلاج الموجه |
+| [33993132](https://pubmed.ncbi.nlm.nih.gov/33993132/) | 2021 | استعراض | Current Opinion in Otolaryngology & Head and Neck Surgery | استعراض محدث لتشخيص DFSP والفحوصات الإضافية واستراتيجيات العلاج |
+| [22285046](https://pubmed.ncbi.nlm.nih.gov/22285046/) | 2012 | استعراض | Actas Dermo-Sifiliográficas | ترجمة COL1A1-PDGFB المحددة لـ DFSP؛ تساهم في تبرير التشخيص والعلاج |
+| [30297237](https://pubmed.ncbi.nlm.nih.gov/30297237/) | 2018 | استعراض | Bulletin du Cancer | إدارة DFSP؛ خطر النقائل المرتبطة بمكون تحول ساركوما ليفية |
+| [18230575](https://pubmed.ncbi.nlm.nih.gov/18230575/) | 2008 | استعراض | Bulletin du Cancer | آلية إماتينيب (c-abl/c-kit/PDGFR inhibition) وسجل التجارب السريرية عبر الأورام الصلبة |
+| [41236573](https://pubmed.ncbi.nlm.nih.gov/41236573/) | 2025 | دراسة تمهيدية | Human Cell | تأسيس خط خلايا DFSP مقاوم جديد لـ إماتينيب لأبحاث آلية المقاومة |
+| [37610680](https://pubmed.ncbi.nlm.nih.gov/37610680/) | 2023 | دراسة تمهيدية | Human Cell | التنميط متعدد الأومية والنمذجة الحية في الأنابيب لـ DFSP المقاوم لـ إماتينيب مع تحول ساركوما ليفية |
 
-*8 additional lower-priority or duplicative review/case-report items exist in the pack and were excluded from this top-10 list to avoid redundancy (e.g., additional DFSP overview reviews and a single PDGFRB resistance case report in infantile myofibromatosis, PMID 39580648).*
-
----
-
-## Saudi Arabia Market Information
-
-Imatinib currently has **no marketing authorization on file in Saudi Arabia** (market status: Not Marketed; 0 authorizations recorded). No product name, dosage form, or approved-indication data is available from local regulatory sources for this analysis.
+*8 عناصر إضافية بأولوية منخفضة أو مكررة من نوع استعراض/تقرير حالة موجودة في الحزمة وتم استبعادها من قائمة أفضل 10 لتجنب الازدواجية (على سبيل المثال، استعراضات DFSP الإضافية وتقرير حالة واحد لمقاومة PDGFRB في الأورام الليفية الخلقية في الأطفال، PMID 39580648).*
 
 ---
 
-## Cytotoxicity
+## معلومات سوق المملكة العربية السعودية
 
-Imatinib is classified as antineoplastic based on its established original indications (CML, GIST — both malignancies) confirmed in the supporting literature.
+إماتينيب حالياً **ليس له ترخيص تسويق موجود في المملكة العربية السعودية** (حالة السوق: غير مسوقة؛ 0 ترخيصات مسجلة). لا توجد بيانات اسم المنتج أو الشكل الجرعي أو المؤشر المعتمد متاحة من مصادر تنظيمية محلية لهذا التحليل.
 
-| Item | Content |
+---
+
+## السمية
+
+يتم تصنيف إماتينيب كعامل مضاد للأورام بناءً على مؤشراته الأصلية المثبتة (CML، GIST — كلاهما أورام خبيثة) مؤكدة في الأدبيات الداعمة.
+
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BCR-ABL/KIT/PDGFR tyrosine kinase inhibitor) — not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no structured toxicity grading available in current data; DG001 blocking gap) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count (CBC) with differential, liver function, given the drug class; the pack does separately surface a documented severe hypersensitivity signal (imatinib-induced DRESS syndrome in a DFSP patient, PMID 30096127) that warrants clinical awareness |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية | العلاج الموجه (مثبط التيروسين كيناز BCR-ABL/KIT/PDGFR) — وليس العلاج الكيميائي السام التقليدي |
+| خطر قمع النخاع | يرجى الرجوع إلى تحذيرات وتحفظات نشرة الحزمة (لا توجد بيانات تصنيف السمية المنظمة المتاحة في البيانات الحالية؛ فجوة حجب DG001) |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات وتحفظات نشرة الحزمة |
+| بنود المراقبة | تعداد الدم الشامل (CBC) مع الفارق التفاضلي، اختبارات وظائف الكبد، بالنظر إلى فئة الأدوية؛ تحدد الحزمة بشكل منفصل إشارة فرط حساسية موثقة وشديدة (متلازمة DRESS المستحثة بـ إماتينيب في مريض DFSP، PMID 30096127) التي تستحق الوعي السريري |
+| حماية التعامل | يرجى الرجوع إلى تحذيرات وتحفظات نشرة الحزمة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-> Please refer to the package insert for safety information.
+> يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Important data gap:** The evidence pack flags TFDA package insert warnings/contraindications as a **Blocking**-severity gap (DG001) — this is currently preventing the candidate from completing initial safety pre-assessment (S1) at the drug level, independent of the disease-specific evidence quality discussed above. Drug interaction (DDI) data was also queried and returned no result ("not_found").
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-The COL1A1-PDGFB fusion mechanism in DFSP gives this prediction one of the strongest mechanistic and real-world evidentiary bases in the entire candidate set for this drug (L2, guideline-referenced use, one directly relevant completed Phase II trial). However, the drug-level safety data gap (TFDA package insert, DG001) is Blocking and must be resolved before this can move past initial safety pre-assessment, and imatinib resistance in DFSP is a recognized clinical limitation.
-
-**To proceed, the following is needed:**
-- Resolve DG001: obtain and parse the TFDA/manufacturer package insert for warnings, contraindications, and DDI data
-- Resolve DG002: obtain structured DrugBank MOA data to replace the literature-derived mechanism summary used here
-- Clarify the knowledge-graph node-splitting between "fibroblastic neoplasm" and "conventional fibrosarcoma" so trial evidence (NCT00085475) is correctly attributed
-- Since the drug is not marketed in Saudi Arabia, define a regulatory pathway (import/named-patient use vs. new registration) before clinical use can be considered
+**فجوة بيانات مهمة:** تحدد حزمة الأدلة تحذيرات وموانع نشرة الحزمة TFDA كـ **فجوة ذات خطورة عالية** (DG001) — هذا يمنع حالياً المرشح من إكمال ما قبل التقييم الأولي للسلامة (S1) على مستوى الدواء، بغض النظر عن جودة الأدلة الخاصة بالمرض التي تمت مناقشتها أعلاه. تم الاستعلام عن بيانات التفاعل الدوائي (DDI) أيضاً وأرجعت بدون نتيجة ("not_found").
 
 ---
 
-## Appendix: Full TxGNN Candidate List (Imatinib / Fibrosarcoma Cluster)
+## الخلاصة والخطوات التالية
 
-This evidence pack ("TW-DB00619-multi") scored 10 related disease nodes for imatinib. For transparency, all are listed below — most are either KG mapping artifacts or lack disease-specific evidence, which is why "fibroblastic neoplasm" (rank 2) was selected as the primary indication above rather than the raw top-ranked node.
+**القرار: المتابعة مع ضمانات الحماية**
 
-| Rank | Disease Node | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
+**المنطق:**
+آلية دمج COL1A1-PDGFB في DFSP تعطي هذا التنبؤ واحداً من أقوى الأسس الآليات والدليل العالمي الحقيقي في مجموعة المرشحين الكاملة لهذا الدواء (L2، استخدام مدعوم بالإرشادات، تجربة سريرية من المرحلة الثانية واحدة مكتملة مباشرة ذات صلة). ومع ذلك، فإن فجوة بيانات السلامة على مستوى الدواء (نشرة الحزمة TFDA، DG001) تحجب المتابعة ويجب حلها قبل أن يمكن للمرشح الانتقال بما يتجاوز ما قبل التقييم الأولي للسلامة، والمقاومة لـ إماتينيب في DFSP هي حد سريري معروف.
+
+**للمتابعة، يلزم ما يلي:**
+- حل DG001: الحصول على وتحليل نشرة الحزمة TFDA/الشركة المصنعة للتحذيرات والموانع وبيانات DDI
+- حل DG002: الحصول على بيانات آلية العمل المنظمة لـ DrugBank لاستبدال ملخص الآلية المستمد من الأدبيات المستخدمة هنا
+- توضيح تقسيم عقدة قاعدة المعارف بين "الورم الليفي" و"ساركوما ليفية تقليدية" بحيث يتم نسب دليل التجارب (NCT00085475) بشكل صحيح
+- بما أن الدواء غير مسوق في المملكة العربية السعودية، حدد مساراً تنظيمياً (الاستيراد/الاستخدام لمريض محدد مقابل التسجيل الجديد) قبل أن يمكن اعتبار الاستخدام السريري
+
+---
+
+## الملحق: قائمة المرشحين TxGNN الكاملة (إماتينيب / Fibrosarcoma Cluster)
+
+أعطت حزمة الأدلة هذه ("TW-DB00619-multi") درجات 10 عقد أمراض ذات صلة لـ إماتينيب. من أجل الشفافية، يتم إدراج جميعها أدناه — معظمها إما أثار تعيين KG أو تفتقر إلى دليل خاص بالمرض، وهذا هو السبب في أن "الورم الليفي" (الترتيب 2) تم اختياره كمؤشر أساسي أعلاه بدلاً من عقدة الترتيب الأعلى الخام.
+
+| الترتيب | عقدة المرض | درجة TxGNN | مستوى الدليل | مرحلة القرار | التوصية | ملاحظة |
 |------|------|------|------|------|------|------|
-| 1 | Heart fibrosarcoma | 99.94% | L4 | S1 | Hold | Single commentary literature item that self-describes evidence as "not robust"; no trials |
-| 2 | Fibroblastic neoplasm (DFSP) | 99.94% | L2 | S3 | Proceed with Guardrails | Selected as primary indication — strongest mechanistic + literature support |
-| 3 | Conventional fibrosarcoma | 99.93% | L3 | S1 | Research Question | Holds the DFSP-relevant NCT00085475 trial, but is mechanistically distinct from true adult fibrosarcoma; likely KG mismatch |
-| 4 | Kidney fibrosarcoma | 99.93% | L4 | S0 | Hold | Attached literature is a basket trial + an unrelated FSGS nephrology paper (KG mismatch) |
-| 5 | Low grade fibromyxoid sarcoma | 99.93% | L5 | S0 | Hold | Driven by FUS-CREB3L2/L1, not KIT/PDGFR; sole attached article is unrelated (esophageal surgery case series) |
-| 6 | Liposarcoma | 99.88% | L3 | S1 | Research Question | 5 trials attached, but 2 are sunitinib/regorafenib (not imatinib) and the rest are cross-sarcoma basket trials |
-| 7 | Liver fibrosarcoma | 99.86% | L5 | S0 | Hold | Attached literature is a GIST review and an imatinib DRESS case report; neither supports efficacy |
-| 8 | Autosomal recessive familial Mediterranean fever | 99.86% | L5 | S0 | Hold | No trials or literature; no known mechanistic link to imatinib's targets |
-| 9 | Ovarian myxoid liposarcoma | 99.85% | L5 | S0 | Hold | No trials or literature; likely a rare/ambiguous KG entity |
-| 10 | Familial rhabdoid tumor | 99.83% | L5 | S0 | Hold | No trials or literature; driven by SMARCB1/SMARCA4 loss, unrelated to imatinib's mechanism |
+| 1 | ساركوما ليفية قلبية | 99.94% | L4 | S1 | انتظر | عنصر أدبي تعليقي واحد يصف ذاتياً الدليل بأنه "غير قوي"؛ لا توجد تجارب |
+| 2 | الورم الليفي (DFSP) | 99.94% | L2 | S3 | متابعة مع ضمانات الحماية | تم اختياره كمؤشر أساسي — أقوى دعم آلي وأدبي |
+| 3 | ساركوما ليفية تقليدية | 99.93% | L3 | S1 | سؤال بحثي | يحتل تجربة NCT00085475 ذات الصلة DFSP، لكن يختلف آليا عن ساركوما ليفية حقيقية لدى البالغين؛ على الأرجح عدم تطابق KG |
+| 4 | ساركوما ليفية كلوية | 99.93% | L4 | S0 | انتظر | الأدبيات المرفقة هي تجربة سلة + ورقة علم أمراض كلوي غير ذات صلة (عدم تطابق KG) |
+| 5 | ساركوما ليفومخاطية منخفضة الدرجة | 99.93% | L5 | S0 | انتظر | مدفوعة بـ FUS-CREB3L2/L1، وليس KIT/PDGFR؛ المقالة الوحيدة المرفقة غير ذات صلة (سلسلة حالات جراحة المريء) |
+| 6 | ورم شحمي خبيث | 99.88% | L3 | S1 | سؤال بحثي | 5 تجارب مرفقة، لكن 2 منها sunitinib/regorafenib (ليس إماتينيب) والباقي تجارب سلة ساركوما عبر |
+| 7 | ساركوما ليفية كبدية | 99.86% | L5 | S0 | انتظر | الأدبيات المرفقة هي استعراض GIST وتقرير حالة إماتينيب DRESS؛ لا يدعم الفعالية |
+| 8 | حمى البحر المتوسط العائلية الموروثة المتنحية | 99.86% | L5 | S0 | انتظر | لا توجد تجارب أو أدبيات؛ لا توجد صلة ميكانيكية معروفة لأهداف إماتينيب |
+| 9 | ورم شحمي مخاطي من المبيض | 99.85% | L5 | S0 | انتظر | لا توجد تجارب أو أدبيات؛ على الأرجح عقدة KG نادرة/غامضة |
+| 10 | ورم رابدويدي عائلي | 99.83% | L5 | S0 | انتظر | لا توجد تجارب أو أدبيات؛ مدفوع بـ فقدان SMARCB1/SMARCA4، غير ذات صلة بآلية إماتينيب |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

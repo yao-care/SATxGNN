@@ -29,70 +29,71 @@ indication_count: 3
 
 </div>
 
-# Iodixanol: From Diagnostic Contrast Agent to Osteoarthritis (Weak Signal)
+# Iodixanol: من عامل تباين تشخيصي إلى الفصال العظمي (إشارة ضعيفة)
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Iodixanol (DB01249) is a non-ionic iodinated contrast medium (Visipaque) used for diagnostic imaging (CT/angiography), with no established therapeutic indication. TxGNN's top-ranked prediction ("osteoarthritis susceptibility") is flagged in the evidence pack itself as a duplicate label of osteoarthritis with no independent evidence, so this report centers on **Osteoarthritis**, the only candidate with actual literature (**7 publications**, **0 clinical trials**) — though that literature describes iodixanol as an imaging/research tool, not a treatment.
+Iodixanol (DB01249) وسيط تباين يودي غير أيوني (Visipaque) يستخدم للتصوير التشخيصي (التصوير المقطعي/التصوير الوعائي)، وليس له دلالة علاجية محددة. يتم تجميع التنبؤ الأعلى ترتيباً من TxGNN ("قابلية الفصال العظمي") في حزمة الأدلة نفسها كتسمية مكررة من الفصال العظمي بدون أدلة مستقلة، لذا يركز هذا التقرير على **الفصال العظمي**، المرشح الوحيد الذي يتمتع بأدبيات فعلية (**7 منشورات**، **0 تجارب سريرية**) - على الرغم من أن تلك الأدبيات تصف Iodixanol كأداة تصوير/بحث، وليس كعلاج.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Diagnostic contrast agent for radiographic/CT imaging (non-ionic iodinated contrast medium, Visipaque) — not a therapeutic agent |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.07% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | عامل تباين تشخيصي للتصوير الشعاعي/التصوير المقطعي (وسيط تباين يودي غير أيوني، Visipaque) — لا يعتبر عاملاً علاجياً |
+| الدلالة الجديدة المتنبأ بها | الفصال العظمي |
+| درجة التنبؤ من TxGNN | 99.07% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ لم يتم تسويقه |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | وقفة |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available for iodixanol beyond its role as a contrast medium. As a non-ionic iodinated agent, it has no known pharmacological effect on cartilage metabolism, synovial inflammation, or joint disease progression — its function is purely radiographic (X-ray attenuation for imaging).
+لا تتوفر بيانات تفصيلية عن آلية العمل من أجل Iodixanol بما يتجاوز دوره كوسيط تباين. كعامل يودي غير أيوني، ليس له تأثير دوائي معروف على استقلاب الغضروف أو التهاب الغشاء الزليلي أو تطور مرض المفاصل — وظيفته بحتة شعاعية (تخفيف الأشعة السينية للتصوير).
 
-The literature linking iodixanol to osteoarthritis does not describe any therapeutic effect. Every publication uses iodixanol as a diffusible contrast/tracer molecule to study cartilage and osteochondral-interface properties (solute transport, finite-element modeling, photon-counting CT imaging) — i.e., iodixanol as a **research/imaging tool for studying OA**, not as an OA treatment.
+الأدبيات التي تربط Iodixanol بالفصال العظمي لا تصف أي تأثير علاجي. كل منشور يستخدم Iodixanol كجزيء تباين/تتبع منتشر لدراسة خصائص الغضروف والواجهة الغضروفية العظمية (نقل المذاب، النمذجة بالعناصر المحدودة، التصوير المقطعي بعد الفوتونات) — أي Iodixanol كـ**أداة بحث/تصوير لدراسة الفصال العظمي**، وليس كعلاج للفصال العظمي.
 
-The TxGNN score most likely reflects a spurious statistical association: the model has learned that "iodixanol" and "osteoarthritis" co-occur frequently in the literature (because it's a standard imaging tracer in OA cartilage research), and has mistaken this co-occurrence for a treatment relationship. The evidence pack's own rationale for the top-ranked candidate ("osteoarthritis susceptibility") independently confirms this — it notes that entry is a variant label of osteoarthritis with no independent evidence and no establishable mechanistic link. The third candidate, rheumatoid arthritis, is supported only by a case report on managing contrast-media hypersensitivity in an RA patient — again describing safe *use of* a contrast agent in RA patients, not a treatment effect *on* RA.
+من المرجح أن تعكس درجة TxGNN ارتباطاً إحصائياً زائفاً: تعلم النموذج أن "Iodixanol" و"الفصال العظمي" يحدثان معاً بشكل متكرر في الأدبيات (لأنه جزيء تتبع تصوير معياري في أبحاث غضروف الفصال العظمي)، وأخطأ في تفسير هذا التزامن كعلاقة علاجية. تأكد حزمة الأدلة بشكل مستقل هذا - فهي تلاحظ أن الإدخال هو تسمية متغيرة للفصال العظمي بدون أدلة مستقلة وبدون رابط آلي قابل للتأسيس. المرشح الثالث، التهاب المفاصل الروماتويدي، مدعوم فقط بتقرير حالة واحدة عن إدارة فرط حساسية وسيط التباين في مريض التهاب المفاصل الروماتويدي — مرة أخرى يصف الاستخدام الآمن **لـ** عامل تباين في مرضى التهاب المفاصل الروماتويدي، وليس تأثير العلاج **على** التهاب المفاصل الروماتويدي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Solute transport study | Journal of Biomechanics | First use of iodixanol (~1550 Da) as a neutral diffusing CT contrast agent to study osteochondral-interface permeability in equine/human OA models |
-| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Imaging technique | Annals of Biomedical Engineering | Dual-contrast (nanoparticle + molecular) photon-counting CT to assess articular cartilage health |
-| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Imaging technique | Annals of Biomedical Engineering | Nanoparticle diffusion CT imaging to reveal detailed cartilage function |
-| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | In vitro | Journal of Experimental Orthopaedics | Iodine contrast agents do not affect Platelet-Rich Plasma function in vitro (relevant to intra-articular injection use) |
-| [30145230](https://pubmed.ncbi.nlm.nih.gov/30145230/) | 2018 | Animal cartilage biomechanics | Osteoarthritis and Cartilage | Aging effects on mandibular condylar cartilage stiffness in horses, assessed via diffusion imaging |
-| [28518064](https://pubmed.ncbi.nlm.nih.gov/28518064/) | 2017 | Finite element / experimental protocol | Journal of Visualized Experiments | Protocol for studying neutral/charged solute transport across articular cartilage in OA context |
-| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Finite element modeling | Journal of Biomechanics | FEM of neutral solute transport across the osteochondral interface to understand OA progression |
+| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | دراسة نقل المذاب | Journal of Biomechanics | الاستخدام الأول لـ Iodixanol (~1550 Da) كعامل تباين مقطعي محايد منتشر لدراسة نفاذية الواجهة الغضروفية العظمية في نماذج الفصال العظمي الخيلي/البشري |
+| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | تقنية تصوير | Annals of Biomedical Engineering | التصوير المقطعي بعد الفوتونات ثنائي التباين (الجزيئات النانوية + الجزيئي) لتقييم صحة الغضروف المفصلي |
+| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | تقنية تصوير | Annals of Biomedical Engineering | تصوير مقطعي بانتشار الجزيئات النانوية للكشف عن وظيفة الغضروف المفصلية |
+| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | دراسة في الأنابيب | Journal of Experimental Orthopaedics | عوامل تباين اليود لا تؤثر على وظيفة البلازما الغنية بالصفائح الدموية في الأنابيب (ذات صلة باستخدام الحقن داخل المفصل) |
+| [30145230](https://pubmed.ncbi.nlm.nih.gov/30145230/) | 2018 | الميكانيكا الحيوية لغضروف حيواني | Osteoarthritis and Cartilage | تأثيرات الشيخوخة على صلابة الغضروف التجويفي الفكي السفلي في الخيول، تقييمها عن طريق التصوير بالانتشار |
+| [28518064](https://pubmed.ncbi.nlm.nih.gov/28518064/) | 2017 | نمذجة العنصر المحدود / البروتوكول التجريبي | Journal of Visualized Experiments | بروتوكول لدراسة نقل المذاب المحايد/المشحون عبر الغضروف المفصلي في سياق الفصال العظمي |
+| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | نمذجة العنصر المحدود | Journal of Biomechanics | نمذجة العنصر المحدود لنقل المذاب المحايد عبر الواجهة الغضروفية العظمية لفهم تطور الفصال العظمي |
 
-*Note: rheumatoid arthritis is supported only by one case report ([36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/), 2022, Cureus) on desensitization to a related iodinated contrast agent (iohexol) in an RA patient — describing safe administration, not a treatment effect.*
+*ملاحظة: التهاب المفاصل الروماتويدي مدعوم فقط بتقرير حالة واحد ([36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/)، 2022، Cureus) عن إزالة الحساسية لعامل تباين يودي مرتبط (iohexol) في مريض التهاب المفاصل الروماتويدي — يصف الإدارة الآمنة، وليس تأثير العلاج.*
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Iodixanol currently has no marketing authorization in Saudi Arabia (0 licenses on file; market status: not marketed).
+لا يملك Iodixanol حالياً ترخيص تسويق في المملكة العربية السعودية (0 رخصة في الملف؛ حالة السوق: لم يتم تسويقه).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وقفة**
 
-**Rationale:**
-There are no clinical trials for any of the three predicted indications, and all available literature describes iodixanol as an imaging/research tracer rather than a therapeutic agent — there is no mechanistic basis for a treatment effect in osteoarthritis or rheumatoid arthritis. The top TxGNN-ranked candidate is itself flagged as a non-independent duplicate signal.
+**الأساس المنطقي:**
+لا توجد تجارب سريرية لأي من الدلالات الثلاث المتنبأ بها، وجميع الأدبيات المتاحة تصف Iodixanol كجزيء تتبع تصوير/بحث بدلاً من عامل علاجي — لا توجد أساس آلي لتأثير علاجي في الفصال العظمي أو التهاب المفاصل الروماتويدي. المرشح الأعلى ترتيباً من TxGNN نفسه يتم تجميعه كإشارة غير مستقلة مكررة.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank/primary literature
-- TFDA/SFDA-equivalent package insert (warnings, contraindications) — currently a blocking data gap
-- Any preclinical or mechanistic study directly testing iodixanol (not merely using it as a contrast tracer) against joint/autoimmune disease pathology
-- Saudi Arabia regulatory pathway assessment, given the drug is not currently marketed there
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل المؤكدة من DrugBank/الأدبيات الأساسية
+- نشرة داخلية معادلة لـ TFDA/SFDA (تحذيرات، موانع) — حالياً فجوة بيانات معيقة
+- أي دراسة سابقة إكلينيكية أو آلية تختبر Iodixanol مباشرة (وليس مجرد استخدامه كجزيء تتبع تباين) ضد الأمراض المفصلية/المناعة الذاتية
+- تقييم المسار التنظيمي بالمملكة العربية السعودية، نظراً لأن الدواء لم يتم تسويقه هناك حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,89 +29,88 @@ indication_count: 1
 
 </div>
 
-# Eptinezumab: From Migraine Prevention to Migraine with Brainstem Aura
+# إبتينيزوماب: من الوقاية من الشقيقة إلى الشقيقة مع الهالة الجذعية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Eptinezumab is an anti-CGRP (calcitonin gene-related peptide) monoclonal antibody originally used for migraine prevention (episodic and chronic prophylaxis).
-> The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**,
-> but this direction is currently supported only by **8 publications** and **no registered clinical trials** specific to this subtype.
+> إبتينيزوماب هو جسم مضاد أحادي النسيلة موجه ضد CGRP (ببتيد مرتبط بجين الكالسيتونين)، يُستخدم في الأصل لمنع الشقيقة (الوقاية من الشقيقة الحلقية والمزمنة). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الشقيقة مع الهالة الجذعية**، لكن هذا الاتجاه مدعوم حالياً فقط بـ **8 منشورات** و **لا توجد تجارب سريرية مسجلة** محددة لهذا النوع الفرعي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Migraine prevention (episodic/chronic) — official approved-indication text not available in this Evidence Pack |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الوقاية من الشقيقة (الحلقية/المزمنة) — لا يتوفر نص المؤشر المعتمد الرسمي في مجموعة الأدلة هذه |
+| المؤشر الجديد المتنبأ به | الشقيقة مع الهالة الجذعية |
+| درجة التنبؤ بـ TxGNN | 99.94% |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data for eptinezumab is not available in this Evidence Pack (data gap DG002). Based on known information, eptinezumab belongs to the class of **anti-CGRP monoclonal antibodies** (alongside fremanezumab, galcanezumab, and erenumab), a drug class whose efficacy in general migraine prevention is well established and forms the basis of its existing regulatory approvals.
+بيانات آلية العمل التفصيلية لإبتينيزوماب غير متاحة في مجموعة الأدلة هذه (فجوة البيانات DG002). بناءً على المعلومات المعروفة، ينتمي إبتينيزوماب إلى فئة **الأجسام المضادة أحادية النسيلة الموجهة ضد CGRP** (جنباً إلى جنب مع fremanezumab و galcanezumab و erenumab)، وهي فئة دواء ثبت فعالياتها في الوقاية العامة من الشقيقة بشكل جيد وتشكل أساس موافقاتها التنظيمية الحالية.
 
-The original indication (general migraine prevention) and the predicted new indication (migraine with brainstem aura, an ICHD-3-defined subtype, formerly "basilar-type migraine") share the same overarching disease — migraine — and CGRP signaling is a well-documented driver of migraine pathophysiology broadly, which is why TxGNN's prediction has plausible mechanistic grounding. A post-hoc subgroup analysis of the PROMISE-1/PROMISE-2 trials (PMID 35302389) specifically evaluated eptinezumab in patients with migraine and self-reported aura, lending some direct support.
+المؤشر الأصلي (الوقاية العامة من الشقيقة) والمؤشر الجديد المتنبأ به (الشقيقة مع الهالة الجذعية، وهي نوع فرعي معرّف وفقاً لـ ICHD-3، سابقاً "الشقيقة من النوع القاعدي") يشتركان في نفس المرض الشامل — الشقيقة — وتثبيط CGRP معروف بأنه محرك موثق للإمراضية العامة للشقيقة، وهذا هو السبب في أن تنبؤ TxGNN له أساس ميكانيكي معقول. أظهرت تحليلات المجموعة الفرعية اللاحقة لتجارب PROMISE-1/PROMISE-2 (PMID 35302389) تقييماً محدداً لإبتينيزوماب لدى مرضى الشقيقة الذين يبلغون عن الهالة ذاتياً، مما يقدم دعماً مباشراً معيناً.
 
-However, the mechanistic link to this *specific* subtype is not fully established. Migraine with brainstem aura is believed to involve posterior circulation/brainstem-related pathways, and it remains debated whether these are entirely CGRP-dependent. Notably, a 2025 RCT (PMID 40229719) found that PACAP38-induced migraine attacks occur independently of CGRP signaling, suggesting a CGRP-independent pathway may contribute to aura-related migraine mechanisms. This is important counter-evidence that tempers, rather than confirms, the mechanistic rationale — the pharmacological basis is plausible but subtype-specificity is not yet proven.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، لم يتم إنشاء الارتباط الميكانيكي بهذا **النوع الفرعي المحدد** بشكل كامل. يُعتقد أن الشقيقة مع الهالة الجذعية تتضمن مسارات الدورة الدموية الخلفية/جذع الدماغ، وما زال من المثير للجدل ما إذا كانت معتمدة تماماً على CGRP. جديراً بالملاحظة، أظهرت تجربة عشوائية محكومة من عام 2025 (PMID 40229719) أن نوبات الشقيقة المستحثة بـ PACAP38 تحدث بشكل مستقل عن تثبيط CGRP، مما يشير إلى أن مسار مستقل عن CGRP قد يساهم في آليات الشقيقة المرتبطة بالهالة. هذا دليل معاكس مهم يضعف، بدلاً من أن يؤكد، الأساس الميكانيكي — الأساس الدوائي معقول لكن تخصص النوع الفرعي لم يثبت بعد.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT | The Journal of Headache and Pain | PACAP38-induced migraine attacks occur independently of CGRP signaling, indicating a CGRP-independent pathway may drive some migraine/aura mechanisms |
-| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post-hoc subgroup analysis (RCT-derived) | Cephalalgia | Post-hoc analysis of PROMISE-1/PROMISE-2 evaluating eptinezumab efficacy and safety specifically in migraine patients with self-reported aura |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case report + literature review | Journal of Clinical Medicine | Reviews anti-CGRP mAbs (including eptinezumab) for migraine aura prevention; notes pain efficacy is well documented but aura-prevention data remain scarce |
-| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Case report | Revista de Neurología | Case of chronic migraine with aura refractory to two subcutaneous CGRP antibodies, successfully managed by switching to eptinezumab, addressing a "wearing-off" effect |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handbook of Experimental Pharmacology | Establishes CGRP's central role in migraine pathophysiology, including in the aura subgroup, underpinning anti-CGRP therapeutic mechanisms |
-| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Review (genetic subtypes) | Headache | Discusses genetic migraine disorders (e.g., mitochondrial/vascular subtypes with visual/aura features) responsive to CGRP antagonist therapy |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Management | Overview of new acute/preventive migraine therapies, listing eptinezumab among preventive CGRP-targeted options |
-| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Review | Cureus | General review of CGRP antagonists (including eptinezumab) in episodic and chronic migraine management |
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدب الطبي
 
-Eptinezumab currently has **no market authorization on record in Saudi Arabia** (0 licenses; market status: Not Marketed).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | تجربة عشوائية محكومة | The Journal of Headache and Pain | نوبات الشقيقة المستحثة بـ PACAP38 تحدث بشكل مستقل عن تثبيط CGRP، مما يشير إلى أن مسار مستقل عن CGRP قد يحفز بعض آليات الشقيقة/الهالة |
+| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | تحليل المجموعة الفرعية اللاحق (مشتق من تجربة عشوائية محكومة) | Cephalalgia | تحليل المجموعة الفرعية اللاحق لـ PROMISE-1/PROMISE-2 يقيّم فعالية وسلامة إبتينيزوماب على وجه التحديد في مرضى الشقيقة الذين يبلغون عن الهالة ذاتياً |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | تقرير حالة + مراجعة الأدبيات | Journal of Clinical Medicine | يراجع الأجسام المضادة أحادية النسيلة الموجهة ضد CGRP (بما في ذلك إبتينيزوماب) لمنع هالة الشقيقة؛ يلاحظ أن فعالية الألم موثقة بشكل جيد لكن بيانات منع الهالة تبقى نادرة |
+| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | تقرير حالة | Revista de Neurología | حالة شقيقة مزمنة مع هالة مقاومة لاثنين من الأجسام المضادة CGRP تحت الجلد، تم إدارتها بنجاح بالتبديل إلى إبتينيزوماب، معالجة تأثير "البلى" |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | مراجعة | Handbook of Experimental Pharmacology | يؤسس الدور المركزي لـ CGRP في الإمراضية الشاملة للشقيقة، بما في ذلك في المجموعة الفرعية للهالة، مما يدعم آليات العلاج الموجهة ضد CGRP |
+| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | مراجعة (الأنماط الجينية الفرعية) | Headache | يناقش الاضطرابات الوراثية للشقيقة (مثل الأنماط الفرعية الميتوكوندريائية/الوعائية ذات الميزات البصرية/الهالة) المستجيبة لعلاج مضادات تثبيط CGRP |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | مراجعة | Pain Management | نظرة عامة على العلاجات الحادة/الوقائية الجديدة للشقيقة، مع سرد إبتينيزوماب من بين خيارات CGRP الموجهة للوقاية |
+| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | مراجعة | Cureus | مراجعة عامة لمضادات CGRP (بما في ذلك إبتينيزوماب) في إدارة الشقيقة الحلقية والمزمنة |
 
 ---
 
-## Safety Considerations
+## معلومات السوق بالمملكة العربية السعودية
 
-Please refer to the package insert for safety information.
-
-*(Note: Package-insert warnings/contraindications and drug-interaction data are marked as a blocking data gap (DG001) — this must be resolved before any formal safety evaluation (S1) can proceed.)*
+إبتينيزوماب لا يملك حالياً أي ترخيص سوقي مسجل في المملكة العربية السعودية (0 رخصة؛ حالة السوق: غير مسوقة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-- No clinical trials directly evaluate eptinezumab in migraine with brainstem aura, and the supporting literature is limited to post-hoc subgroup data, reviews, and case reports (Evidence Level L3).
-- A blocking data gap (missing package-insert warnings/contraindications) prevents completion of the initial safety screen (S1), and a 2025 RCT raises mechanistic uncertainty by showing a CGRP-independent pathway may partly drive aura-related migraine attacks.
-- Eptinezumab is not currently marketed or authorized in Saudi Arabia.
+*(ملاحظة: تحذيرات نشرة العبوة/موانع الاستعمال وبيانات تفاعل الأدوية محددة كفجوة بيانات حاجزة (DG001) — يجب حل هذا قبل الانتهاء من الفحص الأمني الأولي (S1).)*
 
-**To proceed, the following is needed:**
-- Official package insert / regulatory safety documentation (warnings, contraindications, DDI) — resolves DG001
-- Confirmed mechanism-of-action documentation from DrugBank or manufacturer labeling — resolves DG002
-- A dedicated clinical trial or prospective subgroup study specifically targeting the migraine-with-brainstem-aura population
-- Evaluation of a Saudi Arabia market-entry/registration pathway, since the product is not currently authorized
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+- لا توجد تجارب سريرية تقيّم مباشرة إبتينيزوماب في الشقيقة مع الهالة الجذعية، والأدبيات الداعمة مقتصرة على بيانات المجموعة الفرعية ما بعد التجربة والمراجعات وتقارير الحالات (مستوى الدليل L3).
+- فجوة بيانات حاجزة (تحذيرات/موانع استعمال نشرة العبوة المفقودة) تمنع الانتهاء من الفحص الأمني الأولي (S1)، وتجربة عشوائية محكومة من عام 2025 ترفع عدم اليقين الميكانيكي بإظهار أن مسار مستقل عن CGRP قد يحفز جزئياً نوبات الشقيقة المرتبطة بالهالة.
+- إبتينيزوماب غير مسوق أو مرخص حالياً في المملكة العربية السعودية.
+
+**للمتابعة، يلزم التالي:**
+- نشرة العبوة الرسمية / وثائق السلامة التنظيمية (تحذيرات، موانع الاستعمال، تفاعلات الأدوية) — يحل DG001
+- وثائق آلية العمل الموثقة من DrugBank أو وضع العلامات من الشركة المصنعة — يحل DG002
+- تجربة سريرية مخصصة أو دراسة مجموعة فرعية مستقبلية تستهدف بشكل محدد السكان المصابين بالشقيقة مع الهالة الجذعية
+- تقييم مسار دخول السوق/التسجيل بالمملكة العربية السعودية، نظراً لأن المنتج غير مرخص حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
