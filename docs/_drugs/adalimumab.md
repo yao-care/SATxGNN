@@ -29,91 +29,92 @@ indication_count: 6
 
 </div>
 
-# Adalimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# أداليموماب: من التهاب المفاصل الروماتويدي إلى التهاب الأوعية الدموية الروماتويدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Adalimumab (Humira) is a fully human anti-TNF-α monoclonal antibody, widely established in the treatment of rheumatoid arthritis and related inflammatory conditions.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis (RV)**, a severe extra-articular manifestation of RA driven by immune complex deposition and TNF-α–mediated vascular inflammation.
-Current evidence includes **5 clinical trials** (none with RV as primary endpoint) and **20 publications** (including 1 systematic review and 1 cohort study), placing this at an exploratory research stage with a bidirectional mechanistic caveat: adalimumab may both treat and paradoxically induce vasculitis-like reactions.
+أداليموماب (Humira) هو جسم مضاد أحادي النسيلة بشري بالكامل موجه ضد TNF-α، وراسخ على نطاق واسع في علاج التهاب المفاصل الروماتويدي والحالات الالتهابية المرتبطة به.
+يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **التهاب الأوعية الدموية الروماتويدي (RV)**، وهي مظهر خارج المفصل شديد من التهاب المفاصل الروماتويدي (RA) يحركه ترسب المعقدات المناعية والتهاب الأوعية الناجم عن TNF-α.
+يتضمن الدليل الحالي **5 تجارب سريرية** (لا توجد أي منها مع RV كنقطة نهاية أولية) و**20 منشورة** (بما فيها مراجعة منهجية واحدة ودراسة أتراب واحدة)، مما يضع هذا في مرحلة بحثية استكشافية مع تحذير ميكانيكي ثنائي الاتجاه: قد يعالج أداليموماب ويحرض بشكل متناقض ردود تشبه التهاب الأوعية الدموية.
 
 ---
 
-## Quick Overview
+## لمحة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | No approved indication on record (not marketed in Saudi Arabia) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| الدلالة الأصلية | لا توجد دلالة معتمدة مسجلة (غير معروضة للتسويق في المملكة العربية السعودية) |
+| الدلالة الجديدة المتنبأ بها | التهاب الأوعية الدموية الروماتويدي |
+| درجة التنبؤ من TxGNN | 99.80% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروضة للتسويق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | سؤال بحثي |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (MOA: Data Gap). Based on known information, adalimumab is a fully human IgG1 monoclonal antibody that directly neutralises both soluble and membrane-bound TNF-α, suppressing the NF-κB–driven downstream inflammatory cascade. Its efficacy across rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis is well established, and the mechanistic pathway is directly relevant to vasculitis driven by TNF-α.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في حزمة الأدلة (آلية العمل: فجوة في البيانات). بناءً على المعلومات المعروفة، أداليموماب هو جسم مضاد أحادي النسيلة IgG1 بشري يحيّد بشكل مباشر عامل النخر الورمي ألفا TNF-α القابل للذوبان والمرتبط بالغشاء، مما يثبط العملية الالتهابية النهائية المدفوعة بـ NF-κB. تم إثبات فعاليته عبر التهاب المفاصل الروماتويدي والتهاب المفاصل الصدفي والتهاب الفقار اللاصق بشكل جيد، والمسار الميكانيكي مرتبط مباشرة بالتهاب الأوعية الدموية المدفوع بـ TNF-α.
 
-Rheumatoid vasculitis is one of the most serious extra-articular manifestations of long-standing RA, characterised by immune complex deposition in vessel walls and sustained TNF-α–mediated endothelial inflammation. Because adalimumab's target (TNF-α) is a central driver of both RA-associated synovitis and the systemic vascular inflammation in RV, mechanistic bridging from the original indication to this new one is conceptually sound. A 2021 systematic review (PMID 33058033) specifically evaluated biological agents — including anti-TNF drugs — in RV treatment and confirmed biological plausibility.
+التهاب الأوعية الدموية الروماتويدي هو أحد أخطر المظاهر خارج المفصل من التهاب المفاصل الروماتويدي طويل الأمد، وتتميز بترسب المعقدات المناعية في جدران الأوعية الدموية والتهاب الغشاء الداخلي المستمر الناجم عن TNF-α. بما أن هدف أداليموماب (TNF-α) هو محرك مركزي لكل من التهاب المفاصل الروماتويدي المرتبط بالمفصل والالتهاب الجهازي للأوعية الدموية في التهاب الأوعية الدموية الروماتويدي، فإن الربط الميكانيكي من الدلالة الأصلية إلى هذه الدلالة الجديدة محقق من الناحية المفاهيمية. أكدت مراجعة منهجية من عام 2021 (PMID 33058033) تقييماً محددة للعوامل البيولوجية — بما فيها الأدوية الموجهة ضد TNF-α — في علاج التهاب الأوعية الدموية الروماتويدي على الإمكانية الميكانيكية البيولوجية.
 
-However, a critical mechanistic paradox must be acknowledged: TNF-α also performs immune-regulatory, protective functions. Complete TNF-α blockade can impair immune complex clearance and has been associated with paradoxical vasculitis induction. Published cohort and case data (PMID 28123776; PMID 28719435) show that TNF inhibitors — including adalimumab — can themselves trigger leukocytoclastic and lupus-like vasculitis-like events in RA patients. This bidirectional risk profile makes patient selection and monitoring essential before any clinical application.
+ومع ذلك، يجب الاعتراف بمفارقة ميكانيكية حرجة: TNF-α يقوم أيضاً بوظائف تنظيمية وحماية مناعية. يمكن أن يؤدي الحصار الكامل لـ TNF-α إلى ضعف تصفية المعقدات المناعية وقد تم ربطه بتحريض متناقض لالتهاب الأوعية الدموية. أظهرت البيانات المنشورة من الدراسات الأترابية والحالات (PMID 28123776؛ PMID 28719435) أن مثبطات TNF — بما فيها أداليموماب — يمكنها أن تحرض بنفسها أحداث التهاب أوعية دموية لمفاوية والتهاب أوعية شبيهة بالذئبة في مرضى التهاب المفاصل الروماتويدي. يجعل هذا ملف المخاطر ثنائي الاتجاه اختيار المريض والمراقبة ضروريين قبل أي تطبيق سريري.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---|---|---|---|---|
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large retrospective study of IMID patients on biologics (including adalimumab); may capture vasculitis events (therapeutic and adverse) as indirect data |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Multinational observational study of tocilizumab in RA after inadequate DMARD/biologic response; RA population may contain RV subgroup but RV is not a primary endpoint |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty; no direct relevance to RV treatment |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional descriptive study of biologic DMARD patterns in Chinese RA patients; no RV efficacy data |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | غير معروف | 750,000 | دراسة رجعية كبيرة لمرضى IMID على الأدوية البيولوجية (بما فيها أداليموماب)؛ قد تجمع أحداث التهاب الأوعية الدموية (العلاجية والسلبية) كبيانات غير مباشرة |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | اكتملت | 184 | دراسة مراقبة متعددة الجنسيات لتوسيليزوماب في التهاب المفاصل الروماتويدي بعد استجابة غير كافية لـ DMARD/الأدوية البيولوجية؛ قد تحتوي مجموعة التهاب المفاصل الروماتويدي على مجموعة فرعية من التهاب الأوعية الدموية الروماتويدي لكنه ليس نقطة نهاية أولية |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | لم تبدأ بعد | 80 | إدارة المثبطات المناعية المحيطة بالعملية الجراحية في مرضى الروماتيزم الذين يخضعون لجراحة تقويم أفقي؛ لا علاقة مباشرة بعلاج التهاب الأوعية الدموية الروماتويدي |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | اكتملت | 808 | دراسة وصفية عرضية لأنماط DMARD البيولوجية في مرضى التهاب المفاصل الروماتويدي الصينيين؛ لا توجد بيانات كفاءة التهاب الأوعية الدموية الروماتويدي |
 
-> **Note:** No clinical trials were identified with rheumatoid vasculitis as a primary endpoint. NCT05111743 (brolucizumab for AMD) was excluded as it involves an unrelated drug and indication.
+> **ملاحظة:** لم يتم تحديد أي تجارب سريرية مع التهاب الأوعية الدموية الروماتويدي كنقطة نهاية أولية. تم استبعاد NCT05111743 (brolucizumab لـ AMD) لأنها تتضمن دواء ودلالة غير ذات صلة.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |---|---|---|---|---|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical Rheumatology | PRISMA-based systematic review on use of biological agents (including anti-TNFs) in RV treatment; confirms biological therapy as part of therapeutic armamentarium for this severe RA complication |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort Study | RMD Open | BSRBR-RA registry data comparing risk of lupus-like and vasculitis-like events in TNFi-treated vs nbDMARD-treated RA patients; quantifies bidirectional vasculitis risk with adalimumab |
-| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Systematic Review | Clinical and Experimental Rheumatology | Systematic comparison of vasculitis characteristics in RA patients on anti-TNF vs not (n=2,707 patients, 18 vasculitis cases); key reference for understanding vasculitis in anti-TNF context |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case Report | Case Reports in Rheumatology | 42-year-old female with RA-associated digital vasculitis (necrotising fingertip ulcers); responded well to adalimumab — direct evidence of therapeutic benefit |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case Report | Internal Medicine (Tokyo) | Acute pulmonary hypertension crisis in RV patient 8 months after adalimumab dose reduction; suggests adalimumab may be required to maintain RV remission — withdrawal risk |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case Report | Internal Medicine (Tokyo) | ANCA-associated nephritis emerging during combined abatacept and adalimumab therapy for RA; illustrates risk of autoimmune vasculitis as adverse effect during anti-TNF therapy |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case Report | American Journal of Dermatopathology | First reported case of leukocytoclastic vasculitis with cutaneous perivascular hemophagocytosis following adalimumab initiation for RA; documents paradoxical vasculitis induction |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | Journal of Clinical Medicine | Review of RA-associated episcleritis and scleritis (ocular vasculitis manifestations); discusses management including biologics, contextually relevant to RV extra-articular spectrum |
-| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Case Report | Néphrologie & Thérapeutique | ANCA-associated extracapillary necrotising glomerulonephritis during adalimumab therapy for RA; adds to the paradoxical vasculitis adverse event literature |
-| [24558628](https://pubmed.ncbi.nlm.nih.gov/24558628/) | 2013 | Case Report | Case Reports in Nephrology | Adalimumab therapy exacerbating IgA nephropathy and inducing lupus autoantibodies in a psoriasis patient; demonstrates spectrum of autoimmune vascular adverse effects |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | مراجعة منهجية | Clinical Rheumatology | مراجعة منهجية قائمة على PRISMA حول استخدام الوكلاء البيولوجيين (بما فيها مضادات TNF-α) في علاج التهاب الأوعية الدموية الروماتويدي؛ تؤكد العلاج البيولوجي كجزء من الترسانة العلاجية لهذا المضاعفة الشديدة من التهاب المفاصل الروماتويدي |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | دراسة أتراب | RMD Open | بيانات سجل BSRBR-RA مقارنة خطر الأحداث الشبيهة بالذئبة والتهاب الأوعية الدموية الشبيهة في مرضى TNFi مقابل nbDMARD؛ يحدد كمياً خطر التهاب الأوعية الدموية ثنائي الاتجاه مع أداليموماب |
+| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | مراجعة منهجية | Clinical and Experimental Rheumatology | مقارنة منهجية لخصائص التهاب الأوعية الدموية في مرضى التهاب المفاصل الروماتويدي على مضادات TNF-α وغير مضادات TNF-α (n=2,707 مريض، 18 حالة التهاب أوعية دموية)؛ مرجع أساسي لفهم التهاب الأوعية الدموية في سياق مضادات TNF-α |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | تقرير حالة | Case Reports in Rheumatology | امرأة عمرها 42 سنة مع التهاب الأوعية الدموية الرقمية المرتبطة بالتهاب المفاصل الروماتويدي (تقرح الأصابع النخرية)؛ استجابت بشكل جيد لـ أداليموماب — دليل مباشر على الفائدة العلاجية |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | تقرير حالة | Internal Medicine (Tokyo) | أزمة ارتفاع ضغط الدم الرئوي الحاد في مريض التهاب الأوعية الدموية الروماتويدي بعد 8 أشهر من تقليل جرعة أداليموماب؛ يشير إلى أن أداليموماب قد يكون مطلوباً للحفاظ على هدأة التهاب الأوعية الدموية الروماتويدي — خطر الانسحاب |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | تقرير حالة | Internal Medicine (Tokyo) | التهاب كبيبات الكلى المرتبط بـ ANCA الناشئ أثناء العلاج المشترك مع abatacept وأداليموماب لالتهاب المفاصل الروماتويدي؛ يوضح خطر التهاب الأوعية الدموية المناعي الذاتي كتأثير سلبي أثناء العلاج بمضادات TNF-α |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | تقرير حالة | American Journal of Dermatopathology | أول حالة مبلغة عن التهاب الأوعية الدموية اللمفاوية مع الخلايا اللحمية المحيطة بالأوعية الجلدية بعد بدء تناول أداليموماب لالتهاب المفاصل الروماتويدي؛ توثق تحريض التهاب الأوعية الدموية المتناقض |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | مراجعة | Journal of Clinical Medicine | مراجعة التهاب الإبيسكليرا والتهاب الصلبة المرتبطة بالتهاب المفاصل الروماتويدي (مظاهر التهاب الأوعية الدموية العينية)؛ تناقش الإدارة بما فيها الأدوية البيولوجية، ذات صلة سياقية بطيف التهاب الأوعية الدموية الروماتويدي خارج المفصل |
+| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | تقرير حالة | Néphrologie & Thérapeutique | التهاب كبيبات الكلى المكتسب بـ ANCA مع تنخر كبيبي أثناء العلاج بـ أداليموماب لالتهاب المفاصل الروماتويدي؛ يضيف إلى أدب الأحداث السلبية للتهاب الأوعية الدموية المتناقض |
+| [24558628](https://pubmed.ncbi.nlm.nih.gov/24558628/) | 2013 | تقرير حالة | Case Reports in Nephrology | العلاج بـ أداليموماب يؤدي إلى تفاقم التهاب الكبيبات IgA وتحريض الأجسام المضادة للذئبة في مريض الصدفية؛ يوضح طيف الآثار الجانبية الوعائية المناعية الذاتية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
-> **Editorial note:** All safety fields in this Evidence Pack are marked as unavailable (Data Gap). Given the bidirectional mechanistic risk identified in the literature — where adalimumab can both treat and paradoxically induce vasculitis-like reactions (PMID 28123776, PMID 28719435) — a thorough safety review of the current prescribing information is strongly recommended before any clinical use in rheumatoid vasculitis.
+> **ملاحظة تحريرية:** جميع حقول السلامة في حزمة الأدلة هذه معلمة كغير متوفرة (فجوة في البيانات). بالنظر إلى خطر الميكانيكية ثنائي الاتجاه المحدد في الأدبيات — حيث يمكن لـ أداليموماب أن يعالج ويحرض بشكل متناقض التهاب الأوعية الدموية (PMID 28123776, PMID 28719435) — يُنصح بشدة بإجراء مراجعة سلامة شاملة لمعلومات الوصفة الحالية قبل أي استخدام سريري في التهاب الأوعية الدموية الروماتويدي.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Research Question**
+**القرار: سؤال بحثي**
 
-**Rationale:**
-The mechanistic link between TNF-α inhibition and rheumatoid vasculitis treatment is biologically plausible and supported by one systematic review and several case reports, reaching Level L3 evidence — but no dedicated RCT with RV as primary endpoint exists. Critically, the same drug class carries a documented risk of paradoxical vasculitis induction, which introduces a clinically important uncertainty that a Research Question designation appropriately reflects at this stage.
+**الأساس المنطقي:**
+الربط الميكانيكي بين تثبيط TNF-α وعلاج التهاب الأوعية الدموية الروماتويدي معقول بيولوجياً ومدعوم بمراجعة منهجية واحدة وعدة تقارير حالات، مما يصل إلى مستوى دليل L3 — لكن لا توجد تجربة معشاة ذات شواهد مخصصة مع التهاب الأوعية الدموية الروماتويدي كنقطة نهاية أولية. بشكل حرج، نفس فئة الأدوية تحمل خطراً موثقاً من تحريض التهاب الأوعية الدموية المتناقض، مما يدخل عدم يقين سريري مهم يعكسه تعيين سؤال بحثي بشكل مناسب في هذه المرحلة.
 
-**To proceed, the following is needed:**
-- **Detailed MOA and safety data**: Retrieve and review the full prescribing information (package insert) to characterise confirmed warnings, contraindications, and drug-drug interactions — currently all flagged as data gaps
-- **Dedicated RV-focused prospective study**: The existing evidence is indirect; a phase 2 study specifically enrolling patients with confirmed rheumatoid vasculitis (ACR/EULAR criteria) and using validated RV activity endpoints (e.g., Birmingham Vasculitis Activity Score) is required to move beyond L3
-- **Biomarker stratification plan**: Given paradoxical vasculitis risk, patient selection should include baseline ANA, ANCA, and immune complex profiling to identify those at risk for adverse vasculitis induction
-- **Saudi Arabia regulatory pathway assessment**: With 0 current authorisations, a market entry strategy and regulatory feasibility analysis would be prerequisite to any local clinical programme
-- **Safety monitoring protocol**: Define rules for early discontinuation (e.g., rising ANA titres, new ANCA positivity, skin biopsy surveillance) before any investigational use
+**للمتابعة، يلزم ما يلي:**
+- **بيانات آلية العمل والسلامة المفصلة**: استرجاع ومراجعة معلومات الوصفة الكاملة (نشرة المنتج) لتوصيف التحذيرات المؤكدة والموانع والتفاعلات بين الأدوية — حالياً جميعها معلمة كفجوات في البيانات
+- **دراسة استقصائية مستقبلية مخصصة لالتهاب الأوعية الدموية الروماتويدي**: الدليل الحالي غير مباشر؛ دراسة المرحلة 2 التي تجند بشكل محدد المرضى الذين يعانون من التهاب الأوعية الدموية الروماتويدي المؤكد (معايير ACR/EULAR) واستخدام نقاط النهاية المُقيَّمة لنشاط التهاب الأوعية الدموية الروماتويدي (مثل Birmingham Vasculitis Activity Score) مطلوبة للتحرك بعيداً عن L3
+- **خطة طبقات المؤشرات الحيوية**: بالنظر إلى خطر التهاب الأوعية الدموية المتناقض، يجب أن يتضمن اختيار المريض خط الأساس ANA و ANCA وتجميع المعقدات المناعية لتحديد أولئك المعرضين لخطر تحريض التهاب الأوعية الدموية السلبي
+- **تقييم المسار التنظيمي في المملكة العربية السعودية**: مع 0 تراخيص حالية، ستكون استراتيجية دخول السوق وتحليل جدوى تنظيمي من المتطلبات الأساسية لأي برنامج سريري محلي
+- **بروتوكول مراقبة السلامة**: حدد قواعس للإيقاف المبكر (مثل ارتفاع عيارات ANA، إيجابية ANCA الجديدة، مراقبة الخزعة الجلدية) قبل أي استخدام استقصائي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

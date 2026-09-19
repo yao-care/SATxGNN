@@ -29,84 +29,85 @@ indication_count: 1
 
 </div>
 
-# Apixaban: From Thromboembolic Prevention to Migraine Disorder
+# أبيكسابان: من الوقاية من الانصمام الخثري إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Apixaban is an oral Factor Xa inhibitor widely used for stroke prevention in atrial fibrillation and treatment of venous thromboembolism.
-The TxGNN model predicts it may have efficacy in **migraine disorder**,
-though current evidence — comprising **1 indirectly related clinical trial** and **4 case-level publications** — is preliminary and internally conflicting.
+أبيكسابان هو مثبط عامل Xa فموي يُستخدم على نطاق واسع للوقاية من السكتة الدماغية في الرجفان الأذيني وعلاج الانصمام الوريدي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الصداع النصفي**،
+لكن الأدلة الحالية — التي تشمل **1 تجربة سريرية غير مرتبطة بشكل مباشر** و **4 منشورات على مستوى الحالات** — أولية ومتضاربة داخلياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Stroke prevention (non-valvular atrial fibrillation); VTE treatment and prophylaxis |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.02% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الوقاية من السكتة الدماغية (الرجفان الأذيني غير الصمامي)؛ علاج والوقاية من الانصمام الوريدي |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ من نموذج TxGNN | 99.02% |
+| مستوى الدليل | L4 |
+| حالة السوق في تايوان | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | احتفظ |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Apixaban is a selective, reversible inhibitor of coagulation Factor Xa — a pivotal enzyme in the common coagulation pathway. It is approved globally for stroke prevention in non-valvular atrial fibrillation, treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE), and VTE prophylaxis after joint replacement surgery.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في هذه مجموعة الأدلة. بناءً على الصيدلة المعروفة، أبيكسابان هو مثبط انتقائي وقابل للعكس لعامل تجلط Xa — وهو إنزيم محوري في المسار المشترك للتجلط. وهو معتمد عالمياً للوقاية من السكتة الدماغية في الرجفان الأذيني غير الصمامي، وعلاج تجلط الأوردة العميقة (DVT) والانصمام الرئوي (PE)، والوقاية من الانصمام الوريدي بعد جراحة استبدال المفاصل.
 
-The mechanistic hypothesis linking Apixaban to migraine originates from the **thromboembolism theory of migraine with aura**: patent foramen ovale (PFO), a small septal opening between the cardiac atria, is significantly more prevalent among migraine-with-aura patients than in the general population. The theory proposes that microthrombi bypass pulmonary filtration via the PFO, enter cerebral circulation, and trigger cortical spreading depression (CSD) — the electrophysiological phenomenon underlying aura. Anticoagulation could theoretically block this pathway.
+تنشأ الفرضية الآلية التي تربط أبيكسابان بالصداع النصفي من **نظرية الانصمام الخثري في الصداع النصفي مع الهالة**: الثقب البيضاوي المفتوح (PFO)، وهو فتح حاجزي صغير بين الأذينات القلبية، أكثر انتشاراً بشكل ملحوظ بين مرضى الصداع النصفي مع الهالة مقارنة بالسكان العام. تقترح النظرية أن الجلطات الدقيقة تتجاوز الترشيح الرئوي عبر PFO، وتدخل الدورة الدموية الدماغية، وتثير انتشار الاكتئاب القشري (CSD) — الظاهرة الكهربائية الفسيولوجية الكامنة وراء الهالة. قد تمنع مضادات التخثر نظرياً هذا المسار.
 
-However, existing case reports reveal a critical mechanistic gap: warfarin (a vitamin K antagonist that broadly inhibits Factors II, VII, IX, and X, including thrombin generation) is associated with migraine resolution in several reported cases, whereas Apixaban (a selective Factor Xa inhibitor) did not replicate this benefit — and in at least one documented case actively worsened migraine. This divergence raises the possibility that **thrombin itself** plays a direct, independent neuromodulatory role in migraine pathophysiology — one that selective Factor Xa inhibition cannot address. This mechanistic hypothesis remains speculative and lacks direct pharmacological validation.
+ومع ذلك، تكشف تقارير الحالات الموجودة عن فجوة آلية حرجة: الوارفارين (مضاد فيتامين K الذي يثبط على نطاق واسع العوامل II و VII و IX و X، بما في ذلك توليد الثرومبين) مرتبط بحل الصداع النصفي في عدة حالات مبلغ عنها، بينما أبيكسابان (مثبط عامل Xa الانتقائي) لم يكرر هذه الفائدة — وفي حالة واحدة على الأقل موثقة، ساء الصداع النصفي فعلياً. يثير هذا الاختلاف احتمالية أن **الثرومبين نفسه** قد يلعب دوراً مباشراً وحراً في الفسيولوجية المرضية للصداع النصفي — واحداً لا يمكن لتثبيط عامل Xa الانتقائي معالجته. تبقى هذه الفرضية الآلية تكهنية وتفتقر إلى التحقق الصيدلاني المباشر.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | المسجلون | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Completed | 664 | Compared PFO percutaneous closure, oral anticoagulation, and antiplatelet therapy for prevention of stroke recurrence. Primary endpoint was stroke, not migraine. Apixaban was not explicitly designated as the anticoagulant agent. Provides only indirect contextual relevance to migraine through the established PFO–migraine epidemiological association. |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | المرحلة الثالثة | مكتملة | 664 | قارنت إغلاق الثقب البيضاوي بطريقة عابرة للجلد، ومضادات التخثر الفموية، والعلاج المضاد للصفيحات للوقاية من تكرار السكتة الدماغية. كانت النقطة النهائية الأولية هي السكتة الدماغية، وليس الصداع النصفي. لم يتم تحديد أبيكسابان بشكل صريح كمضاد التخثر المستخدم. يوفر فقط الصلة السياقية غير المباشرة بالصداع النصفي من خلال الارتباط الوبائي المعروف بين PFO والصداع النصفي. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Pilot Clinical Trial | Lupus | Retrospective study of 75 patients with refractory migraine and antiphospholipid antibodies (aPL). A subset showed symptomatic improvement on antithrombotic therapy, supporting a thrombotic mechanism in aPL-positive migraine. Apixaban-specific outcomes were not isolated. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Case Report + Literature Review | The Neurologist | Reports a case of migraine with aura that **worsened** after initiating Apixaban. Accompanying literature review concludes that the impact of direct oral anticoagulants (DOACs) on migraine is unclear, and current evidence is scarce and conflicting. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Case Report | Headache | A 55-year-old woman experienced complete migraine-with-aura remission for 12 years on warfarin; symptoms returned within 3 weeks of switching to Apixaban and resolved again upon warfarin resumption. Suggests warfarin's broader mechanism — including upstream thrombin suppression — may be the critical pharmacological difference. |
-| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Case Report | Headache | Vestibular migraine resolved on combined warfarin and topiramate therapy. Provides contextual support for anticoagulation in migraine but does not involve Apixaban. |
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | تجربة سريرية تجريبية | Lupus | دراسة بأثر رجعي لـ 75 مريضاً بصداع نصفي مقاوم وأجسام مضادة للفوسفوليبيد (aPL). أظهرت مجموعة فرعية تحسناً عرضياً على العلاج المضاد للتخثر، مما يدعم آلية تخثرية في الصداع النصفي الإيجابي aPL. لم يتم عزل النتائج المحددة لأبيكسابان. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | تقرير حالة + مراجعة الأدبيات | The Neurologist | يبلغ عن حالة صداع نصفي مع هالة **ساءت** بعد بدء أبيكسابان. تخلص مراجعة الأدبيات المصاحبة إلى أن تأثير مضادات التخثر الفموية المباشرة (DOACs) على الصداع النصفي غير واضح، والأدلة الحالية نادرة ومتضاربة. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | تقرير حالة | Headache | امرأة تبلغ من العمر 55 سنة شهدت حلاً كاملاً للصداع النصفي مع الهالة لمدة 12 سنة على الوارفارين؛ عادت الأعراض في غضون 3 أسابيع من الانتقال إلى أبيكسابان وحلت مرة أخرى عند استئناف الوارفارين. يشير إلى أن آلية الوارفارين الأوسع — بما في ذلك قمع الثرومبين السابق — قد تكون الفرق الصيدلاني الحرج. |
+| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | تقرير حالة | Headache | حل الصداع النصفي الدهليزي على العلاج المركب بالوارفارين والتوبيراميت. يوفر دعماً سياقياً لمضادات التخثر في الصداع النصفي لكن لا ينطوي على أبيكسابان. |
 
 ---
 
-## Taiwan Market Information
+## معلومات السوق في تايوان
 
-Apixaban currently holds **no marketing authorizations in Taiwan** and is not commercially available through regulated channels.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا يحتفظ أبيكسابان حالياً بأي تصاريح تسويقية في تايوان وغير متاح تجارياً من خلال القنوات المنظمة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-Available evidence for Apixaban in migraine disorder is limited to L4 — case reports and one retrospective pilot study with no dedicated prospective trials. Most critically, the case reports most directly relevant to Apixaban specifically report **neutral or negative outcomes**, in contrast to positive results seen with warfarin, making the benefit hypothesis for this drug class uncertain at best.
+---
 
-**To proceed, the following is needed:**
-- Prospective controlled studies specifically evaluating Apixaban or other Factor Xa inhibitors in migraine-with-aura patients with confirmed PFO
-- Mechanistic investigation of thrombin's direct role in cortical spreading depression, to determine whether Factor Xa inhibition alone is a pharmacologically sufficient target
-- Complete safety dataset: package insert warnings, contraindications, and drug–drug interaction profile before any clinical consideration
-- MOA data from DrugBank to support mechanistic plausibility analysis
-- Clarification of whether the repurposing rationale applies to a PFO-positive migraine subpopulation specifically, rather than migraine disorder broadly
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**المنطق:**
+الأدلة المتاحة لأبيكسابان في اضطراب الصداع النصفي محدودة لـ L4 — تقارير حالات ودراسة تجريبية بأثر رجعي بدون تجارب مستقبلية مخصصة. الأهم من ذلك، تقارير الحالات الأكثر صلة مباشرة بأبيكسابان على وجه التحديد تبلغ عن **نتائج محايدة أو سلبية**، على النقيض من النتائج الإيجابية المرئية مع الوارفارين، مما يجعل فرضية الفائدة لفئة هذا العقار غير مؤكدة في أحسن الأحوال.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسات محكومة مستقبلية تقيم بشكل خاص أبيكسابان أو مثبطات عامل Xa الأخرى في مرضى الصداع النصفي مع الهالة مع PFO المؤكد
+- التحقيق الآلي لدور الثرومبين المباشر في انتشار الاكتئاب القشري، لتحديد ما إذا كان تثبيط عامل Xa وحده هو الهدف الصيدلاني الكافي
+- مجموعة بيانات السلامة الكاملة: تحذيرات النشرة، الاستطبابات المضادة، وملف التفاعل الدوائي قبل أي اعتبار سريري
+- بيانات MOA من DrugBank لدعم تحليل المعقولية الآلية
+- توضيح ما إذا كانت حجة إعادة الاستخدام تنطبق على مجموعة سكانية محددة من الصداع النصفي الإيجابي PFO، بدلاً من اضطراب الصداع النصفي على نطاق واسع
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,128 +29,129 @@ indication_count: 7
 
 </div>
 
-# Mesalazine: From Ulcerative Colitis to Rheumatoid Arthritis
+# الميسالامين: من التهاب القولون التقرحي إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Mesalazine (5-ASA) is an anti-inflammatory agent used to treat ulcerative colitis and other inflammatory bowel conditions (based on drug context in the evidence literature; formal original-indication text is unavailable because the drug is not registered in Taiwan). Across 7 TxGNN-predicted indications for this drug, the strongest evidence-backed candidate is **Rheumatoid Arthritis**, supported by **6 registered clinical trials** and **20 publications**, though the active-moiety attribution (5-ASA vs. sulfapyridine) remains scientifically contested. A secondary candidate, **Osteoarthritis**, has mechanistic/preclinical support (3 publications, no trials) but insufficient evidence for clinical action. The remaining 5 predictions (including the single highest TxGNN score, a rare genetic disorder) have zero clinical trials or literature and are assessed as likely knowledge-graph noise.
+الميسالامين (5-ASA) هو عامل مضاد للالتهاب يُستخدم لعلاج التهاب القولون التقرحي والحالات الالتهابية الأخرى في الأمعاء (بناءً على السياق الدوائي في الأدبيات العلمية؛ النص الرسمي للمؤشر الأصلي غير متاح لأن الدواء غير مسجل في تايوان). عبر 7 دواعٍ متنبأ بها من قِبل TxGNN لهذا الدواء، أقوى المرشحين المدعومين بالأدلة هو **التهاب المفاصل الروماتويدي**، مدعوم بـ **6 تجارب سريرية مسجلة** و **20 منشورًا علميًا**، على الرغم من أن إسناد المادة الفعالة (5-ASA مقابل سلفابيريدين) يظل موضع خلاف علمي. المرشح الثانوي، **هشاشة العظام**، لديه دعم آلي/تجريبي (3 منشورات، بدون تجارب) لكن أدلة غير كافية للعمل السريري. التنبؤات الخمس المتبقية (بما فيها أعلى درجة TxGNN، اضطراب وراثي نادر) ليس لها تجارب سريرية أو أدبيات وتُقيَّم على أنها ضوضاء محتملة في الرسم البياني المعرفي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Ulcerative colitis (inferred from supporting literature; not confirmed by Taiwan regulatory filings — drug unregistered) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.57% (rank 7017 of screened pairs) |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | التهاب القولون التقرحي (مستنتج من الأدبيات الداعمة؛ لم يُؤكد من السجلات التنظيمية في تايوان — الدواء غير مسجل) |
+| المؤشر الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة تنبؤ TxGNN | 99.57% (الترتيب 7017 من الأزواج المفحوصة) |
+| مستوى الأدلة | L2 |
+| حالة السوق في تايوان | غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المضي قدمًا مع الضمانات |
 
-### All Predicted Indications (Screening Overview)
+### جميع الدواعي المتنبأ بها (نظرة عامة على المسح)
 
-Because this evidence pack covers multiple candidate indications for the same drug, the full screening set is shown for transparency:
+نظرًا لأن هذه الحزمة الإثباتية تغطي عدة دواعٍ مرشحة لنفس الدواء، يتم عرض مجموعة المسح الكاملة للشفافية:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| الترتيب | المرض | درجة TxGNN | مستوى الأدلة | مرحلة القرار | التوصية |
 |------|---------|-------------|-----------------|------------------|------------------|
-| 1 | Congenital hypotrichosis with juvenile macular dystrophy | 99.65% | L5 | S0 | Hold |
-| 2 | Osteoarthritis | 99.63% | L4 | S1 | Research Question |
-| 3 | Rheumatoid Arthritis | 99.57% | L2 | S2 | **Proceed with Guardrails** |
-| 4 | Seborrheic keratosis | 99.50% | L5 | S0 | Hold |
-| 5 | Osteoarthritis susceptibility | 99.35% | L5 | S0 | Hold |
-| 6 | Vulvar inverted follicular keratosis | 99.33% | L5 | S0 | Hold |
-| 7 | Pseudoachondroplasia | 99.19% | L5 | S0 | Hold |
+| 1 | فرط الشعر الخلقي مع ضمور البقعة اليافعة | 99.65% | L5 | S0 | توقف |
+| 2 | هشاشة العظام | 99.63% | L4 | S1 | سؤال بحثي |
+| 3 | التهاب المفاصل الروماتويدي | 99.57% | L2 | S2 | **المضي قدمًا مع الضمانات** |
+| 4 | التقران الدهني | 99.50% | L5 | S0 | توقف |
+| 5 | عرضة هشاشة العظام | 99.35% | L5 | S0 | توقف |
+| 6 | التقران الجريبي المقلوب على الفرج | 99.33% | L5 | S0 | توقف |
+| 7 | الاختلال الغضروفي | 99.19% | L5 | S0 | توقف |
 
-Note: the single highest TxGNN score (rank 1) has zero supporting trials or literature and is explicitly flagged in the source rationale as likely embedding-level noise/false positive — it is not used as the report's primary subject. Ranks 4–7 are similarly unsupported (benign keratoses and structural/genetic disorders with no plausible mechanistic tie to 5-ASA's anti-inflammatory action).
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data for mesalazine is not available in the regulatory record (Data Gap). Based on the supporting literature within this evidence pack, 5-aminosalicylic acid (5-ASA/mesalazine) acts through inhibition of prostaglandin (PGE2) and leukotriene (LTB4/LTC4) release from inflamed tissue, NF-κB pathway suppression, and modulation of lymphocyte activation — mechanisms it shares with its parent compound sulfasalazine, which is cleaved in the colon into sulfapyridine and mesalazine.
-
-Sulfasalazine has long been an established disease-modifying antirheumatic drug (DMARD) for rheumatoid arthritis, which provides indirect mechanistic plausibility for mesalazine in the same disease. However, multiple head-to-head studies in this evidence pack (PMID 2860942, PMID 2877851, PMID 8535642) directly investigated which of sulfasalazine's two cleavage products drives its antirheumatic effect, and the weight of evidence points to **sulfapyridine**, not mesalazine, as the primary active moiety — mesalazine alone showed only weak first-line effect. This is a material caveat: efficacy demonstrated for sulfasalazine as a whole cannot be directly attributed to mesalazine.
-
-For osteoarthritis, a 2024 mechanistic study (PMID 38310093) identified a novel OSCAR-PPARγ axis through which 5-ASA suppresses cartilage/bone-destructive inflammation, supported by older ex vivo human synovial tissue data (PMID 1673814) showing sulfasalazine metabolites inhibit prostaglandin/leukotriene release. This is a biologically coherent but early-stage (preclinical/ex vivo) signal with no clinical trials to date.
+ملاحظة: أعلى درجة TxGNN (الترتيب 1) ليس لها تجارب أو أدبيات داعمة ويتم تعليمها بشكل صريح في المنطق المصدري كضوضاء محتملة على مستوى التضمين/إيجابية خاطئة — لا يتم استخدامها كموضوع أساسي للتقرير. الترتيبات 4–7 متشابهة بالمثل (ثآليل خيرة واضطرابات هيكلية/وراثية بدون ارتباط معقول آلي بتأثير 5-ASA المضاد للالتهاب).
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-### Rheumatoid Arthritis (primary candidate)
+بيانات آلية العمل المفصلة للميسالامين غير متاحة في السجل التنظيمي (فجوة بيانات). بناءً على الأدبيات الداعمة ضمن هذه الحزمة الإثباتية، تعمل 5-aminosalicylic acid (5-ASA/ميسالامين) من خلال منع إطلاق البروستاجلاندين (PGE2) واللوكوترين (LTB4/LTC4) من النسيج الملتهب، وقمع مسار NF-κB، وتعديل تنشيط الخلايا اللمفاوية — آليات تشاركها مع مركبها الأم سلفاسالازين، الذي يتم تقسيمه في القولون إلى سلفابيريدين وميسالامين.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+كان سلفاسالازين منذ فترة طويلة دواء معدّل للأمراض الروماتويدية (DMARD) المقرر للتهاب المفاصل الروماتويدي، مما يوفر معقولية آلية غير مباشرة للميسالامين في نفس المرض. ومع ذلك، اختبرت عدة دراسات مقارنة مباشرة في هذه الحزمة الإثباتية (PMID 2860942, PMID 2877851, PMID 8535642) أي من منتجات انقسام سلفاسالازين يدفع تأثيره المضاد للروماتويد، ويشير وزن الأدلة إلى **سلفابيريدين**، وليس الميسالامين، كمادة فعالة أساسية — أظهر الميسالامين وحده تأثيرًا ضعيفًا فقط من الدرجة الأولى. هذا تحذير مادي: لا يمكن أن تُعزى الفعالية المُثبتة للسلفاسالازين ككل مباشرة إلى الميسالامين.
+
+بالنسبة لهشاشة العظام، حددت دراسة آلية 2024 (PMID 38310093) محورًا جديدًا OSCAR-PPARγ يقمع من خلاله 5-ASA التهاب العظام/الغضروف المدمر، مدعومًا ببيانات نسيج زليلي بشري سابقة (PMID 1673814) تُظهر أن مستقلبات سلفاسالازين تمنع إطلاق البروستاجلاندين/اللوكوترين. هذه إشارة بيولوجية متماسكة لكن في المراحل المبكرة (تجريبية/ex vivo) بدون تجارب سريرية حتى الآن.
+
+---
+
+## أدلة التجارب السريرية
+
+### التهاب المفاصل الروماتويدي (المرشح الأساسي)
+
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02930343](https://clinicaltrials.gov/study/NCT02930343) | Phase 3 | Terminated | 136 | Sulfasalazine vs. leflunomide-based combination DMARD therapy in RA patients failing methotrexate monotherapy. Directly relevant to RA (Grade A relevance), but terminated with no published results — evidence strength is limited. |
-| [NCT00637780](https://clinicaltrials.gov/study/NCT00637780) | Phase 4 | Terminated | 2 | Steady-state pharmacokinetics of sulfasalazine delayed-release tablets in pediatric juvenile idiopathic arthritis (Grade B relevance — PK study, not efficacy; terminated at n=2). |
-| [NCT00514982](https://clinicaltrials.gov/study/NCT00514982) | Phase 2 | Withdrawn | 0 | IBD-therapy step-up approach for Hermansky-Pudlak syndrome-associated colitis. Grade C relevance — studies IBD immunopathogenesis, not RA; withdrawn with 0 enrollment. |
-| [NCT05580861](https://clinicaltrials.gov/study/NCT05580861) | Phase 1/2 | Recruiting | 64 | Sulfasalazine combined with standard induction therapy in older AML patients, exploiting SSZ's xCT-inhibitory action. Grade C relevance — oncology context, not RA. |
-| [NCT06201793](https://clinicaltrials.gov/study/NCT06201793) | Phase 2 | Completed | 46 | Minocycline efficacy/safety in ulcerative colitis patients on mesalamine. Grade C relevance — UC context, different drug studied. |
-| [NCT03591770](https://clinicaltrials.gov/study/NCT03591770) | Phase 4 | Terminated | 15 | Shingrix vaccine immunogenicity in UC patients on tofacitinib. Grade C relevance — unrelated to RA or mesalazine efficacy. |
+| [NCT02930343](https://clinicaltrials.gov/study/NCT02930343) | المرحلة 3 | موقفة | 136 | سلفاسالازين مقابل العلاج المركب القائم على ليفلونوميد DMARD في مرضى التهاب المفاصل الروماتويدي الذين يفشلون في العلاج بالميثوتريكسات وحده. مرتبط مباشرة بالتهاب المفاصل الروماتويدي (صلة من الدرجة أ)، لكن تم إيقافه بدون نتائج منشورة — قوة الأدلة محدودة. |
+| [NCT00637780](https://clinicaltrials.gov/study/NCT00637780) | المرحلة 4 | موقفة | 2 | دراسة الحالة المستقرة للحركيات الدوائية لأقراص سلفاسالازين ممتدة الإفراج في التهاب المفاصل الناشئ عند الأطفال (صلة من الدرجة ب — دراسة حركيات دوائية، وليس فعالية؛ موقفة عند n=2). |
+| [NCT00514982](https://clinicaltrials.gov/study/NCT00514982) | المرحلة 2 | منسحبة | 0 | نهج تصعيد علاج التهاب الأمعاء والقولون لالتهاب القولون المرتبط بمتلازمة هيرمانسكي-بودلاك. صلة من الدرجة ج — تدرس المناعة المرضية لالتهاب الأمعاء والقولون، وليس التهاب المفاصل الروماتويدي؛ منسحبة بدون تسجيل. |
+| [NCT05580861](https://clinicaltrials.gov/study/NCT05580861) | المرحلة 1/2 | يجري التسجيل | 64 | سلفاسالازين مع العلاج التحريضي القياسي في مرضى الورم النخاعي الحاد الأكبر سنًا، باستغلال إجراء xCT المثبط للـ SSZ. صلة من الدرجة ج — سياق الأورام، وليس التهاب المفاصل الروماتويدي. |
+| [NCT06201793](https://clinicaltrials.gov/study/NCT06201793) | المرحلة 2 | مكتملة | 46 | فعالية وأمان الميnocycline في مرضى التهاب القولون التقرحي على الميسالامين. صلة من الدرجة ج — سياق التهاب القولون التقرحي، دواء مختلف قيد الدراسة. |
+| [NCT03591770](https://clinicaltrials.gov/study/NCT03591770) | المرحلة 4 | موقفة | 15 | استجابة اللقاح Shingrix المناعية في مرضى التهاب القولون التقرحي على tofacitinib. صلة من الدرجة ج — غير مرتبط بالتهاب المفاصل الروماتويدي أو فعالية الميسالامين. |
 
-**Assessment**: Only one trial (NCT02930343) directly tests an RA indication with adequate sample size, and it was terminated without published results. No trial isolates mesalazine's independent effect from sulfasalazine.
+**التقييم**: اختبرت تجربة واحدة فقط (NCT02930343) مؤشر التهاب المفاصل الروماتويدي مباشرة بحجم عينة مناسب، وتم إيقافها بدون نتائج منشورة. لا توجد تجربة تعزل التأثير المستقل للميسالامين عن السلفاسالازين.
 
-### Osteoarthritis (secondary candidate)
+### هشاشة العظام (المرشح الثانوي)
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-### Rheumatoid Arthritis (primary candidate)
+### التهاب المفاصل الروماتويدي (المرشح الأساسي)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [2860942](https://pubmed.ncbi.nlm.nih.gov/2860942/) | 1985 | Clinical comparative study | BMJ | Sulphapyridine, not 5-ASA, showed pronounced second-line antirheumatic effect over 24 weeks; 5-ASA showed only weak first-line effect. |
-| [2877851](https://pubmed.ncbi.nlm.nih.gov/2877851/) | 1986 | Clinical comparative study | Drugs | 30 RA patients treated with either 5-ASA or sulphapyridine alone; sulphasalazine-comparable improvement seen with sulphapyridine, not with 5-ASA. |
-| [2899645](https://pubmed.ncbi.nlm.nih.gov/2899645/) | 1988 | Cohort | J Rheumatol | Sulfasalazine treatment normalized elevated activated-lymphocyte levels in RA patients after 12 weeks; mode of action still unclear. |
-| [8535642](https://pubmed.ncbi.nlm.nih.gov/8535642/) | 1995 | Comparative review | Br J Rheumatol | Reviews evidence favoring sulphapyridine over 5-ASA as the active/toxicity-driving moiety in RA treatment. |
-| [7588084](https://pubmed.ncbi.nlm.nih.gov/7588084/) | 1995 | Review | Drugs | Comprehensive review establishing sulfasalazine as a DMARD since the 1940s; active-moiety question (parent drug vs. sulfapyridine vs. mesalazine) remains uncertain. |
-| [10743803](https://pubmed.ncbi.nlm.nih.gov/10743803/) | 2000 | Ex vivo mechanistic | J Rheumatol | Sulfasalazine and metabolites' effects on inflammatory cytokine/MMP mRNA levels in rheumatoid synovial fibroblasts. |
-| [12235076](https://pubmed.ncbi.nlm.nih.gov/12235076/) | 2002 | Pharmacovigilance/safety cohort | Gut | Re-evaluation of serious adverse reactions reported to the UK Committee on Safety of Medicines for sulphasalazine and mesalazine. |
-| [7904547](https://pubmed.ncbi.nlm.nih.gov/7904547/) | 1993 | Review | Clin Pharmacokinet | Reviews pharmacokinetics of slow-acting antirheumatic drugs including sulphasalazine; notes delayed onset of clinical effect (months). |
-| [41443863](https://pubmed.ncbi.nlm.nih.gov/41443863/) | 2025 | Case report | Intern Med (Tokyo) | Case of 5-ASA-induced colitis in an RA patient without underlying IBD, following sulfasalazine then mesalazine exposure — relevant safety signal for RA population use. |
-| [7781502](https://pubmed.ncbi.nlm.nih.gov/7781502/) | 1995 | Review | Dtsch Med Wochenschr | General review of mesalazine pharmacology (abstract not available). |
+| [2860942](https://pubmed.ncbi.nlm.nih.gov/2860942/) | 1985 | دراسة مقارنة سريرية | BMJ | أظهر السلفابيريدين، وليس 5-ASA، تأثيرًا مضادًا للروماتويد واضحًا من الدرجة الثانية على مدى 24 أسبوعًا؛ أظهر 5-ASA تأثيرًا ضعيفًا فقط من الدرجة الأولى. |
+| [2877851](https://pubmed.ncbi.nlm.nih.gov/2877851/) | 1986 | دراسة مقارنة سريرية | Drugs | 30 مريضًا بالتهاب المفاصل الروماتويدي عولجوا بـ 5-ASA أو سلفابيريدين وحده؛ لوحظ تحسن مماثل للسلفاسالازين مع السلفابيريدين، وليس مع 5-ASA. |
+| [2899645](https://pubmed.ncbi.nlm.nih.gov/2899645/) | 1988 | دراسة الأتراب | J Rheumatol | طبيّعت معالجة السلفاسالازين مستويات الخلايا اللمفاوية المفعلة المرتفعة في مرضى التهاب المفاصل الروماتويدي بعد 12 أسبوعًا؛ آلية العمل لا تزال غير واضحة. |
+| [8535642](https://pubmed.ncbi.nlm.nih.gov/8535642/) | 1995 | مراجعة مقارنة | Br J Rheumatol | مراجعة الأدلة المفضلة للسلفابيريدين على 5-ASA كمادة فعالة/مسببة للسمية في علاج التهاب المفاصل الروماتويدي. |
+| [7588084](https://pubmed.ncbi.nlm.nih.gov/7588084/) | 1995 | مراجعة | Drugs | مراجعة شاملة تُرسّخ السلفاسالازين كـ DMARD منذ الأربعينات؛ يبقى سؤال المادة الفعالة (الدواء الأب مقابل السلفابيريدين مقابل الميسالامين) غير مؤكد. |
+| [10743803](https://pubmed.ncbi.nlm.nih.gov/10743803/) | 2000 | آلية ex vivo | J Rheumatol | آثار السلفاسالازين والمستقلبات على مستويات mRNA السيتوكين الالتهابي/MMP في الخلايا الليفية الزليلية الروماتويدية. |
+| [12235076](https://pubmed.ncbi.nlm.nih.gov/12235076/) | 2002 | دراسة حراسة السلامة الدوائية | Gut | إعادة تقييم ردود الفعل الضارة الخطيرة المبلغ عنها إلى لجنة المملكة المتحدة لسلامة الأدوية للسلفاسالازين والميسالامين. |
+| [7904547](https://pubmed.ncbi.nlm.nih.gov/7904547/) | 1993 | مراجعة | Clin Pharmacokinet | مراجعة الحركيات الدوائية للأدوية المضادة للروماتويد بطيئة المفعول بما في ذلك السلفاسالازين؛ تُلاحظ بداية تأثير سريري متأخر (أشهر). |
+| [41443863](https://pubmed.ncbi.nlm.nih.gov/41443863/) | 2025 | تقرير حالة | Intern Med (Tokyo) | حالة التهاب القولون المستحث بـ 5-ASA في مريض بالتهاب المفاصل الروماتويدي بدون التهاب أمعاء وقولون أساسي، بعد التعرض للسلفاسالازين ثم الميسالامين — إشارة أمان ذات صلة لاستخدام السكان المصابين بالتهاب المفاصل الروماتويدي. |
+| [7781502](https://pubmed.ncbi.nlm.nih.gov/7781502/) | 1995 | مراجعة | Dtsch Med Wochenschr | مراجعة عامة لصيدلية الميسالامين (الملخص غير متاح). |
 
-### Osteoarthritis (secondary candidate)
+### هشاشة العظام (المرشح الثانوي)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [38310093](https://pubmed.ncbi.nlm.nih.gov/38310093/) | 2024 | Preclinical mechanistic | Nature Communications | 5-ASA suppresses osteoarthritis via the OSCAR-PPARγ axis, competing with extracellular matrix signaling implicated in cartilage/bone destruction. |
-| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | Ex vivo human tissue pharmacology | Wien Klin Wochenschr | Sulfasalazine and metabolites (incl. 5-ASA) inhibit prostaglandin/leukotriene release from human synovial tissue in OA, chondrocalcinosis, and RA patients. |
-| [38491514](https://pubmed.ncbi.nlm.nih.gov/38491514/) | 2024 | Bioinformatics target identification | J Transl Med | Computational identification of OA therapeutic targets by integrating transcriptomic and drug-target interaction datasets. |
+| [38310093](https://pubmed.ncbi.nlm.nih.gov/38310093/) | 2024 | آلية تجريبية | Nature Communications | يقمع 5-ASA هشاشة العظام عبر محور OSCAR-PPARγ، متنافسًا مع إشارات المصفوفة خارج الخلوية المتورطة في تدمير الغضروف/العظم. |
+| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | صيدلية نسيج بشري ex vivo | Wien Klin Wochenschr | يمنع السلفاسالازين والمستقلبات (بما في ذلك 5-ASA) إطلاق البروستاجلاندين/اللوكوترين من نسيج الزليل البشري في هشاشة العظام والتكلس الغضروفي والتهاب المفاصل الروماتويدي. |
+| [38491514](https://pubmed.ncbi.nlm.nih.gov/38491514/) | 2024 | تحديد الهدف الحيوإحصائي | J Transl Med | تحديد أهداف علاج هشاشة العظام الحسابية من خلال دمج مجموعات بيانات علم الجينات وتفاعلات الدواء-الهدف. |
 
 ---
 
-## Taiwan Market Information
+## معلومات السوق في تايوان
 
-Mesalazine currently has no marketed products or drug licenses registered in Taiwan (0 authorizations). No approved indication text is available for this drug in the Taiwan regulatory record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data are currently available in this evidence pack — this is flagged as a **Blocking** data gap (DG001: TFDA package insert warnings/contraindications), meaning a formal safety pre-assessment (S1) cannot yet be completed at the candidate level.
+ليس لدى الميسالامين حاليًا أي منتجات مسوقة أو رخص أدوية مسجلة في تايوان (0 ترخيص). لا يتوفر نص مؤشر معتمد لهذا الدواء في السجل التنظيمي في تايوان.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails** (for Rheumatoid Arthritis specifically; all other predicted indications remain on **Hold**)
+يُرجى الرجوع إلى نشرة معلومات العبوة للحصول على معلومات السلامة. لا توجد بيانات أساسية بشأن التحذيرات أو موانع الاستعمال أو تفاعلات الأدوية المتعددة متاحة حاليًا في هذه الحزمة الإثباتية — يتم تعليم هذا كفجوة بيانات محظورة (DG001: تحذيرات/موانع استعمال نشرة معلومات TFDA)، مما يعني عدم إمكانية إجراء تقييم أمان رسمي أولي (S1) على مستوى المرشح في الوقت الحالي.
 
-**Rationale:**
-Rheumatoid arthritis has the only indication-relevant, adequately-powered clinical trial (though terminated) plus decades of literature on sulfasalazine/mesalazine in RA. However, the evidence base directly questions whether mesalazine itself (versus sulfapyridine) is the active component for RA efficacy, and the drug is entirely unregistered in Taiwan with no available safety labeling — both must be resolved before any clinical advancement. Osteoarthritis is mechanistically promising but preclinical-only and should remain a research question, not an action item. The remaining five predictions lack any supporting evidence and should not be pursued.
+---
 
-**To proceed, the following is needed:**
-- TFDA/original manufacturer package insert (warnings, contraindications) — currently a Blocking gap
-- Formal drug-drug interaction data
-- A trial or pharmacological study isolating mesalazine's independent antirheumatic effect from sulfapyridine
-- Published results from NCT02930343 (terminated Phase 3 RA trial), if obtainable from the sponsor
-- Confirmation of original approved indication(s) and mechanism of action from DrugBank/manufacturer sources
-- Regulatory pathway assessment given the drug is currently unregistered in Taiwan
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدمًا مع الضمانات** (لالتهاب المفاصل الروماتويدي على وجه التحديد؛ تبقى جميع الدواعي المتنبأ بها الأخرى في **توقف**)
+
+**الأساس المنطقي:**
+يتمتع التهاب المفاصل الروماتويدي بالوحيد المؤشر ذي الصلة، تجربة سريرية مناسبة الحجم (على الرغم من الإيقاف) بالإضافة إلى عقود من الأدبيات حول السلفاسالازين/الميسالامين في التهاب المفاصل الروماتويدي. ومع ذلك، تطرح قاعدة الأدلة سؤالاً حول ما إذا كان الميسالامين نفسه (مقابل السلفابيريدين) هو المكون الفعال لفعالية التهاب المفاصل الروماتويدي، والدواء غير مسجل تمامًا في تايوان بدون تصنيف أمان متاح — يجب حل كلا الأمرين قبل أي تقدم سريري. يعتبر هشاشة العظام واعدة آليًا لكن تجريبية فقط ويتطلب سؤالاً بحثيًا، لا عنصر عمل. التنبؤات الخمس المتبقية تفتقر إلى أي أدلة داعمة ولا ينبغي متابعتها.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات TFDA/الشركة المصنعة الأصلية (تحذيرات، موانع استعمال) — حاليًا فجوة محظورة
+- بيانات رسمية بشأن تفاعلات الأدوية المتعددة
+- تجربة أو دراسة صيدلانية تعزل التأثير المضاد للروماتويد المستقل للميسالامين عن السلفابيريدين
+- النتائج المنشورة من NCT02930343 (تجربة المرحلة 3 الموقفة للتهاب المفاصل الروماتويدي)، إن أمكن الحصول عليها من المشرف
+- تأكيد المؤشر (المؤشرات) الأصلي المعتمد وآلية العمل من مصادر DrugBank/الشركة المصنعة
+- تقييم المسار التنظيمي نظرًا لأن الدواء غير مسجل حاليًا في تايوان
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

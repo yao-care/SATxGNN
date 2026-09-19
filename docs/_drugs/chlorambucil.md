@@ -29,97 +29,98 @@ indication_count: 8
 
 </div>
 
-# Chlorambucil: From Chronic Lymphocytic Leukemia to Pregerminal Center CLL/SLL
+# كلورامبوسيل: من سرطان الدم اللمفاوي المزمن إلى سرطان الدم اللمفاوي المزمن/الليمفوما الليمفاوية ما قبل مركز الجرثوم
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Chlorambucil is a nitrogen mustard alkylating agent with a long-established role in chronic lymphocytic leukemia (CLL) treatment, historically serving as the standard-of-care comparator in multiple landmark Phase 3 trials.
-The TxGNN model predicts it may be effective for **Pregerminal Center Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (unmutated IGHV subtype)**,
-with **1 publication** identified for this specific molecular subtype; however, broader Phase 3 CLL trial evidence — including CAM307 and RESONATE-2 — provides meaningful indirect support through extrapolation.
+كلورامبوسيل هو عامل ألكلة من نوع الخردل النيتروجيني ذو دور طويل الأجل راسخ في علاج سرطان الدم اللمفاوي المزمن (CLL)، حيث كان بمثابة الدواء المقارن القياسي في عدة تجارب سريرية محورية من المرحلة 3.
+يتنبأ نموذج TxGNN بأن له فعالية محتملة في **سرطان الدم اللمفاوي المزمن/الليمفوما الليمفاوية ما قبل مركز الجرثوم (النمط IGHV غير المتحور)**،
+مع **منشور واحد** محدد لهذا النمط الجزيئي الدقيق؛ مع ذلك، توفر أدلة تجارب CLL الأوسع من المرحلة 3 — بما في ذلك CAM307 و RESONATE-2 — دعماً غير مباشر ذا مغزى من خلال الاستقراء.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Chronic Lymphocytic Leukemia (CLL) |
-| Predicted New Indication | Pregerminal Center Chronic Lymphocytic Leukemia / Small Lymphocytic Lymphoma |
-| TxGNN Prediction Score | 99.72% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | سرطان الدم اللمفاوي المزمن (CLL) |
+| المؤشر الجديد المتنبأ به | سرطان الدم اللمفاوي المزمن/الليمفوما الليمفاوية ما قبل مركز الجرثوم |
+| درجة التنبؤ من TxGNN | 99.72% |
+| مستوى الأدلة | L2 |
+| حالة التسويق في المملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available from the DrugBank record in this Evidence Pack. Based on established pharmacological classification, chlorambucil is a bifunctional nitrogen mustard alkylating agent that forms covalent cross-links with DNA strands, impairing replication and triggering programmed cell death. It has historically demonstrated selective activity against B-cell lineage malignancies, particularly indolent lymphoproliferative disorders such as CLL, where slowly cycling B cells accumulate rather than proliferate rapidly.
+بيانات آلية العمل التفصيلية غير متوفرة من سجل DrugBank في هذه حزمة الأدلة. بناءً على التصنيف الدوائي المعروف، كلورامبوسيل هو عامل ألكلة ثنائي الفاعلية من فئة الخردل النيتروجيني يشكل روابط تساهمية متقاطعة مع خيوط DNA، مما يضعف الانقسام ويحفز الموت المبرمج للخلايا. يُظهر نشاطاً منتقى تاريخياً ضد الأورام اللمفاوية من نسل خلايا B، خاصة الاضطرابات الليمفاوية الكسولة مثل CLL، حيث تتراكم خلايا B الخبيثة ببطء بدلاً من الانتشار السريع.
 
-Pregerminal center CLL (unmutated IGHV subtype) is a molecularly distinct form of CLL in which the malignant B-cell clone has not undergone somatic hypermutation in the immunoglobulin heavy chain variable-region gene — a marker of pre-germinal center origin. This subtype carries an inferior prognosis compared to the mutated IGHV form and shows comparatively less dependence on BCR-pathway signalling, making genotoxic strategies such as alkylation mechanistically relevant. While the unmutated IGHV subtype generally responds less durably to chlorambucil-based chemoimmunotherapy than targeted agents (e.g., ibrutinib), the drug retains direct cytotoxic activity through DNA damage induction.
+سرطان الدم اللمفاوي المزمن ما قبل مركز الجرثوم (النمط IGHV غير المتحور) هو شكل جزيئي متميز من CLL لم تخضع فيه نسخة الجين الثقيل للمستقبل المستضدي للخلايا البائية في النسيلة الخبيثة لطفرة جسمية — وهي علامة على الأصل ما قبل مركز الجرثوم. يرتبط هذا النمط بنتيجة تنبؤية أسوأ مقارنة بنمط IGHV المتحور، ويظهر اعتماداً أقل نسبياً على إشارة مسار BCR، مما يجعل الاستراتيجيات الجينية السامة مثل الألكلة ذات صلة من حيث الآلية. بينما يستجيب نمط IGHV غير المتحور بشكل عام بطريقة أقل استدامة للعلاج الكيميائي المناعي القائم على كلورامبوسيل مقارنة بالأدوية الموجهة (مثل إيبروتينيب)، يحتفظ الدواء بنشاط سام مباشر للخلايا من خلال تحريض تضرر DNA.
 
-Multiple completed Phase 3 CLL trials — including CAM307 (alemtuzumab vs. chlorambucil, NCT00046683), RESONATE-2 (ibrutinib vs. chlorambucil), and CLL11 (obinutuzumab + chlorambucil vs. rituximab + chlorambucil) — enrolled broad, unselected CLL populations that inherently include pregerminal center patients. These trials collectively represent L1-level evidence for chlorambucil in CLL broadly, and the TxGNN prediction reflects this well-established position in the B-cell lymphoproliferative knowledge graph. Subtype-specific Phase 3 data remain absent, which limits the evidence level to L2 via extrapolation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials are registered specifically targeting pregerminal center CLL/SLL (unmutated IGHV subtype).
-
-> **Context note**: Multiple completed Phase 3 trials in unselected CLL populations used chlorambucil as the active comparator arm (see CAM307, RESONATE-2, CLL11). These trials did not stratify enrollment by IGHV mutation status as an exclusion criterion, meaning the unmutated IGHV subgroup is represented in their datasets — subgroup analyses from these trials would constitute the most accessible source of subtype-specific evidence.
+تشمل تجارب CLL المرحلة 3 المكتملة المتعددة — بما فيها CAM307 (ألمتوزوماب مقابل كلورامبوسيل، NCT00046683)، و RESONATE-2 (إيبروتينيب مقابل كلورامبوسيل)، و CLL11 (أوبينوتوزوماب + كلورامبوسيل مقابل ريتوكسيماب + كلورامبوسيل) — سكاناً واسعاً من مرضى CLL غير المحددين، الذين يشملون بالضرورة مرضى ما قبل مركز الجرثوم. تمثل هذه التجارب مجتمعة أدلة من المستوى L1 على كلورامبوسيل في CLL بشكل عام، ويعكس التنبؤ من TxGNN هذا الموقع الراسخ جيداً في شبكة معرفة الأورام اللمفاوية B. تبقى البيانات الخاصة بالنمط من المرحلة 3 غائبة، مما يحد من مستوى الأدلة إلى L2 عن طريق الاستقراء.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مسجلة تستهدف بشكل محدد سرطان الدم اللمفاوي المزمن/الليمفوما الليمفاوية ما قبل مركز الجرثوم (النمط IGHV غير المتحور).
+
+> **ملاحظة سياقية**: استخدمت تجارب المرحلة 3 المكتملة المتعددة في سكان CLL غير المحددين كلورامبوسيل كذراع مقارن نشطة (انظر CAM307 و RESONATE-2 و CLL11). لم تقيد هذه التجارب الالتحاق بناءً على حالة طفرة IGHV كمعيار استبعاد، مما يعني أن المجموعة الفرعية IGHV غير المتحورة ممثلة في مجموعات بيانات الدراسة — ستشكل التحليلات الفرعية من هذه التجارب أكثر المصادر إمكانية للوصول إلى البيانات الخاصة بالنمط.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
 |------|------|------|---------|-------------|
-| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | Review | Nederlands Tijdschrift voor Geneeskunde | Describes two molecular subtypes of CLL — pregerminal center (unmutated IGHV, aggressive) vs. post-germinal center (mutated IGHV, indolent). Notes ~50% of Binet A patients eventually require treatment and >25% die of CLL-related causes; argues for risk-adapted approaches based on IGHV subtype |
+| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | مراجعة | Nederlands Tijdschrift voor Geneeskunde | يصف نمطين جزيئيين من CLL — ما قبل مركز الجرثوم (IGHV غير المتحور، عدواني) مقابل ما بعد مركز الجرثوم (IGHV المتحور، كسول). يلاحظ أن حوالي 50% من مرضى Binet A سيحتاجون في النهاية إلى العلاج وأكثر من 25% يموتون بأسباب متعلقة بـ CLL؛ يُحتج باتباع نهج قائمة على الخطورة بناءً على نمط IGHV |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Chlorambucil is currently **not registered or marketed** in Saudi Arabia. No product authorizations are on record. Any clinical use would require importation under a named-patient or compassionate use pathway, subject to SFDA approval.
+كلورامبوسيل حالياً **غير مسجل وغير مسوق** بالمملكة العربية السعودية. لا توجد موافقات منتجات مسجلة. أي استخدام سريري سيتطلب الاستيراد بموجب برنامج المريض المسمى أو الاستخدام الإنساني الاستثنائي، خاضعاً لموافقة SFDA.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Nitrogen mustard alkylating agent (chloroethylamine class) |
-| Myelosuppression Risk | Moderate-to-High — dose-dependent neutropenia and thrombocytopenia are the primary haematological toxicities; reported in Phase II studies (PMID 3307632) and Phase I dose-escalation (PMID 3179770) |
-| Emetogenicity Classification | Low — oral route with relatively low acute emetogenic potential; CNS toxicity (seizures) becomes dose-limiting at high-dose pulse regimens |
-| Monitoring Items | CBC with differential (at baseline and at regular intervals during treatment), hepatic function, renal function, neurological assessment at high doses |
-| Handling Protection | Must comply with cytotoxic drug handling regulations; closed-system transfer devices recommended; avoid crushing tablets; appropriate PPE required for preparation and administration |
+| تصنيف السمية الخلوية | سم خلوي تقليدي — عامل ألكلة من نوع الخردل النيتروجيني (فئة كلوروإيثيل أمين) |
+| خطر قمع النخاع | معتدل إلى مرتفع — النقص الحمضي والنقص الصفيحي المعتمد على الجرعة هما السميات الدموية الأولية؛ مسجل في دراسات المرحلة II (PMID 3307632) وتصعيد الجرعة من المرحلة I (PMID 3179770) |
+| تصنيف القيء الناجم عنه | منخفض — المسار الفموي مع احتمال غثيان حاد منخفض نسبياً؛ سمية الجهاز العصبي المركزي (النوبات) تصبح محدودة الجرعة في أنظمة النبض عالية الجرعة |
+| عناصر المراقبة | CBC مع التفريق (في خط الأساس وعلى فترات منتظمة أثناء العلاج)، وظيفة الكبد، وظيفة الكلى، التقييم العصبي عند الجرعات العالية |
+| حماية المناولة | يجب الامتثال للوائح التعامل مع الأدوية السامة للخلايا؛ يُنصح باستخدام أجهزة نقل النظام المغلق؛ تجنب سحق الأقراص؛ تُطلب المعدات الشخصية الواقية المناسبة للتحضير والإعطاء |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-> No key warnings, contraindications, or drug interaction data were available in this Evidence Pack. Remediation required: obtain the full prescribing information / package insert (Data Gap DG001) and query DrugBank for DDI data before proceeding to clinical evaluation.
+> لم تكن بيانات التحذيرات الأساسية أو موانع الاستعمال أو تفاعلات الأدوية متاحة في حزمة الأدلة هذه. يُطلب علاج الفجوة: الحصول على معلومات الوصف الكاملة/نشرة العبوة (فجوة البيانات DG001) والاستعلام عن DrugBank للحصول على بيانات DDI قبل المتابعة إلى التقييم السريري.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات**
 
-**Rationale:**
-Chlorambucil has well-established Phase 3-level evidence in broad, unselected CLL populations — including patients with the unmutated IGHV (pregerminal center) subtype — providing a credible scientific basis for this TxGNN prediction. However, the absence of subtype-specific randomised trial data, missing MOA documentation, and zero Saudi Arabia market authorisations require resolution before advancing.
+**الأساس المنطقي:**
+كلورامبوسيل لديه أدلة معروفة على مستوى المرحلة 3 في سكان CLL الواسعين وغير المحددين — بما في ذلك مرضى النمط IGHV غير المتحور (ما قبل مركز الجرثوم) — مما يوفر أساساً علمياً معقولاً لهذا التنبؤ من TxGNN. مع ذلك، فإن غياب بيانات التجارب العشوائية الخاصة بالنمط وتوثيق آلية العمل المفقود وصفر موافقات سوق المملكة العربية السعودية تتطلب حلاً قبل المتابعة.
 
-**To proceed, the following is needed:**
+**لمتابعة هذا، يُطلب ما يلي:**
 
-- **Subgroup data extraction**: Request or retrieve IGHV-stratified subgroup analyses from published Phase 3 CLL trials (CAM307, RESONATE-2, CLL11) to quantify chlorambucil efficacy specifically in the unmutated IGHV population
-- **MOA documentation** (DG002): Query DrugBank API or published pharmacology references to formally document mechanism of action for the dossier
-- **Safety data** (DG001): Obtain and parse the full prescribing information / package insert for key warnings, contraindications, and handling instructions
-- **Treatment context clarification**: Determine whether the clinical question concerns chlorambucil monotherapy or combination use (e.g., chlorambucil + obinutuzumab per CLL11), as combination regimens have substantially stronger evidence in unmutated IGHV CLL
-- **Regulatory pathway assessment**: Evaluate SFDA named-patient importation or registration requirements given the complete absence of Saudi Arabia market authorisation
-- **Comparative effectiveness review**: Benchmark against current standard of care for unmutated IGHV CLL (BTK inhibitors, BCL-2 inhibitors) to contextualise the clinical niche where chlorambucil may remain relevant (e.g., elderly or frail patients with contraindications to targeted agents)
+- **استخراج البيانات الفرعية**: طلب أو استرجاع تحليلات فرعية مكررة بـ IGHV من تجارب CLL المرحلة 3 المنشورة (CAM307 و RESONATE-2 و CLL11) لقياس فعالية كلورامبوسيل بشكل محدد في السكان IGHV غير المتحورين
+- **توثيق آلية العمل** (DG002): الاستعلام من DrugBank API أو المراجع الدوائية المنشورة لتوثيق آلية العمل رسمياً للملف
+- **بيانات السلامة** (DG001): الحصول على وتحليل معلومات الوصف الكاملة/نشرة العبوة للتحذيرات الأساسية وموانع الاستعمال وتعليمات المناولة
+- **توضيح السياق العلاجي**: تحديد ما إذا كان السؤال السريري يتعلق بعلاج كلورامبوسيل الأحادي أو الاستخدام المركب (مثل كلورامبوسيل + أوبينوتوزوماب وفقاً لـ CLL11)، حيث أن الأنظمة المركبة لديها أدلة أقوى بكثير في CLL IGHV غير المتحور
+- **تقييم المسار التنظيمي**: تقييم متطلبات SFDA لاستيراد المريض المسمى أو التسجيل بالنظر إلى الغياب الكامل لموافقات سوق المملكة العربية السعودية
+- **مراجعة الفعالية المقارنة**: قياس مقابل المعيار الحالي للعناية في CLL IGHV غير المتحور (مثبطات BTK ومثبطات BCL-2) لتوضيح المكان السريري حيث قد يبقى كلورامبوسيل ذا صلة (على سبيل المثال، المرضى المسنون أو الضعفاء الذين لديهم موانع للعوامل الموجهة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

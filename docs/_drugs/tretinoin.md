@@ -29,75 +29,76 @@ indication_count: 10
 
 </div>
 
-# Tretinoin: From Acute Promyelocytic Leukemia to Rheumatoid Nodulosis
+# ترتينوين: من سرطان الدم المحبب الحاد إلى عقد التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Tretinoin (all-trans retinoic acid) is a retinoid classically used systemically as differentiation therapy for acute promyelocytic leukemia and topically for acne vulgaris. The TxGNN model's top-ranked prediction for this drug is **Rheumatoid Nodulosis**, but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-based inference. Across all 10 TxGNN-ranked candidates in this evidence pack, only **osteoarthritis** (rank 7) has a meaningful literature base (20 papers), and even that evidence is mechanistically contradictory.
+ترتينوين (كل-ترانس حمض الريتينويك) هو مشتق ريتينويد يُستخدم تقليدياً بشكل جهازي كعلاج تمايز لسرطان الدم المحبب الحاد وموضعياً لحب الشباب. أعلى تنبؤ ترتيب من نموذج TxGNN لهذا الدواء هو **عقد التهاب المفاصل الروماتويدي**، لكن هذا التنبؤ المحدد يُدعم حالياً بـ **0 تجربة سريرية** و **0 منشور** — إنه استدلال قائم على الرسم البياني بحتة. عبر جميع 10 مرشحين مُصنفين من TxGNN في هذه الحزمة البحثية، فقط **هشاشة العظام** (الترتيب 7) لديها قاعدة أدبية ذات معنى (20 ورقة)، وحتى تلك الأدلة متناقضة آلياً.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute Promyelocytic Leukemia (systemic) / Acne Vulgaris (topical) — based on general pharmacological knowledge; not confirmed by this evidence pack (no `original_indications` or Saudi license text available) |
-| Predicted New Indication | Rheumatoid Nodulosis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | سرطان الدم المحبب الحاد (جهازي) / حب الشباب (موضعي) — بناءً على المعرفة الصيدلية العامة؛ لم يتم تأكيده من قبل هذه الحزمة البحثية (لا توجد `original_indications` أو نصوص الترخيص السعودي المتاحة) |
+| المؤشر الجديد المتوقع | عقد التهاب المفاصل الروماتويدي |
+| درجة التنبؤ TxGNN | 99.84% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسوق (غير مُسوق) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on general pharmacological knowledge, tretinoin is a retinoid that acts as an agonist of retinoic acid receptors (RARs), and its efficacy as a differentiating agent in acute promyelocytic leukemia — as well as its keratinocyte-modulating effect in acne — is well established.
+حالياً، بيانات آلية العمل المفصلة غير متاحة (تم تحديدها كفجوة بيانات عالية الخطورة). بناءً على المعرفة الصيدلية العامة، ترتينوين هو مشتق ريتينويد يعمل كناهض لمستقبلات حمض الريتينويك (RARs)، وفعاليته كعامل متمايز في سرطان الدم المحبب الحاد — وكذلك تأثيره على الخلايا الكيراتينية في حب الشباب — مثبتة جيداً.
 
-For the top-ranked prediction, rheumatoid nodulosis, the stated rationale is that retinoic acid signaling may theoretically influence immune cell differentiation and inflammatory regulation. However, this link is explicitly described in the evidence pack as a graph-topology inference with **no supporting experimental or clinical data** — the same caveat applies to ranks 2–6, 8, and 9 (all juvenile arthritis/spondyloarthropathy/skeletal dysplasia predictions), which share zero trials and zero literature.
+بالنسبة للتنبؤ الأعلى ترتيباً، عقد التهاب المفاصل الروماتويدي، الأساس المذكور هو أن إشارات حمض الريتينويك قد تؤثر نظرياً على تمايز الخلايا المناعية والتنظيم الالتهابي. ومع ذلك، يوصف هذا الرابط في الحزمة البحثية صراحة باعتباره استدلالاً على أساس طوبولوجيا الرسم البياني مع **عدم وجود بيانات تجريبية أو سريرية داعمة** — ينطبق نفس التحذير على الترتيبات 2-6 و 8 و 9 (جميع تنبؤات التهاب المفاصل اليفعي/التهاب الفقار/خلل العظام الهيكلي)، التي تتشارك صفر تجارب وصفر أدبيات.
 
-The one candidate with a substantive literature base is osteoarthritis (rank 7), but the underlying biology is not one-directional: some studies (e.g., ALDH1A2 genetic association data) suggest endogenous retinoic acid is chondroprotective, while others directly model "retinoic acid-induced osteoarthritis," implicating RA-driven upregulation of cartilage-degrading enzymes (ADAMTS-4/5, MMPs). This contradiction means the existing evidence describes a **safety signal of uncertain direction** rather than a validated therapeutic opportunity.
+المرشح الوحيد ذو قاعدة أدبية جوهرية هو هشاشة العظام (الترتيب 7)، لكن الأحياء الأساسية ليست أحادية الاتجاه: تشير بعض الدراسات (مثل بيانات الارتباط الجيني ALDH1A2) إلى أن حمض الريتينويك الداخلي هو حماية غضروفية، بينما يقوم البعض الآخر بنمذجة "هشاشة العظام المستحثة بحمض الريتينويك" بشكل مباشر، مما يدل على تنظيم RA يؤدي إلى زيادة الإنزيمات المحللة للغضروف (ADAMTS-4/5 و MMPs). يعني هذا التناقض أن الأدلة الموجودة تصف **إشارة أمان غير مؤكدة الاتجاه** بدلاً من فرصة علاجية مثبتة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available for rheumatoid nodulosis.
+لا توجد أدبيات ذات صلة متاحة حالياً لعقد التهاب المفاصل الروماتويدي.
 
-### Other Predicted Indications (for context — this is a multi-candidate evidence pack)
+### مؤشرات أخرى متوقعة (للسياق — هذه حزمة بحثية متعددة المرشحين)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Evidence Summary |
-|------|---------|-------------|-----------------|-------------------|
-| 1 | Rheumatoid Nodulosis | 99.84% | L5 | No trials, no literature |
-| 2 | RF-positive Polyarticular JIA | 99.82% | L5 | No trials, no literature |
-| 3 | Juvenile Idiopathic Arthritis | 99.80% | L5 | No trials, no literature |
-| 4 | Juvenile Chronic Polyarthritis | 99.78% | L5 | No trials, no literature |
-| 5 | Spondyloarthropathy, susceptibility to | 99.71% | L5 | No trials, no literature |
-| 6 | Juvenile Arthritis (LACC1 defect) | 99.55% | L5 | No trials, no literature |
-| 7 | Osteoarthritis | 99.44% | L4 | 20 publications; mechanistically contradictory (protective vs. pathogenic RA signaling) |
-| 8 | Pseudoachondroplasia | 99.35% | L5 | No trials, no literature |
-| 9 | Acromesomelic Dysplasia, Hunter-Thompson type | 99.30% | L5 | No trials, no literature |
-| 10 | Quinquaud's Folliculitis Decalvans | 99.30% | L4 | 1 case report (disease description only, no tretinoin treatment data) |
+| الترتيب | المرض | درجة TxGNN | مستوى الدليل | ملخص الدليل |
+|--------|-------|------------|--------------|------------|
+| 1 | عقد التهاب المفاصل الروماتويدي | 99.84% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 2 | التهاب المفاصل اليفعي متعدد المفاصل الإيجابي RF | 99.82% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 3 | التهاب المفاصل اليفعي مجهول السبب | 99.80% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 4 | التهاب المفاصل المزمن اليفعي متعدد المفاصل | 99.78% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 5 | التهاب الفقار، القابلية ل | 99.71% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 6 | التهاب المفاصل اليفعي (عيب LACC1) | 99.55% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 7 | هشاشة العظام | 99.44% | L4 | 20 منشور؛ متناقض آلياً (حماية إشارات RA مقابل المسببة للأمراض) |
+| 8 | Pseudoachondroplasia | 99.35% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 9 | Acromesomelic Dysplasia, نوع Hunter-Thompson | 99.30% | L5 | لا توجد تجارب، لا توجد أدبيات |
+| 10 | التهاب الجريبات Quinquaud | 99.30% | L4 | 1 تقرير حالة (وصف المرض فقط، لا توجد بيانات معالجة ترتينوين) |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Tretinoin currently holds no market authorization in Saudi Arabia (0 licenses on file; market status: Not Marketed).
+ترتينوين لا يحمل حالياً أي ترخيص سوق في المملكة العربية السعودية (0 رخصة في الملف؛ حالة السوق: غير مُسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-TFDA/SFDA package insert warnings, contraindications, and drug-drug interaction data are all marked as data gaps in this evidence pack — DDI query returned "not found," and this gap is flagged as **Blocking** (prevents entry into S1 safety evaluation). Please refer to the official package insert for safety information once available.
+تحذيرات نشرة TFDA/SFDA، موانع الاستعمال، وبيانات تفاعلات الأدوية بين الأدوية جميعها تُحدد كفجوات بيانات في هذه الحزمة البحثية — استعلام DDI أرجع "غير موجود"، وتم تحديد هذه الفجوة على أنها **حاجزة** (تمنع الدخول إلى تقييم السلامة S1). يرجى الرجوع إلى نشرة الحزمة الرسمية للحصول على معلومات السلامة بمجرد توفرها.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The top-ranked prediction (rheumatoid nodulosis) has no clinical, preclinical, or literature support beyond the TxGNN score itself, and every other high-ranking candidate except osteoarthritis shares that same absence of evidence. Osteoarthritis has literature volume but the mechanistic direction is unresolved (retinoic acid appears both protective and pathogenic depending on the study), and a blocking safety data gap prevents any S1-level review regardless of indication.
+**الأساس المنطقي:**
+التنبؤ الأعلى ترتيباً (عقد التهاب المفاصل الروماتويدي) ليس له دعم سريري أو ما قبل سريري أو أدبي بما يتجاوز درجة TxGNN نفسها، وكل مرشح عالي الترتيب آخر باستثناء هشاشة العظام يتشارك نفس الغياب للأدلة. هشاشة العظام لديها حجم أدبي لكن الاتجاه الآلي غير محل نزاع (يبدو أن حمض الريتينويك حامي ومسبب للأمراض اعتماداً على الدراسة)، وفجوة بيانات أمان حاجزة تمنع أي مراجعة على مستوى S1 بغض النظر عن المؤشر.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications, DDI) — currently blocking
-- Confirmed mechanism of action data from DrugBank
-- If pursuing the osteoarthritis lead: resolution of the conflicting retinoic acid signaling data (protective vs. cartilage-degrading) through targeted preclinical work before any clinical hypothesis is formed
-- For the remaining L5 candidates: at minimum, preclinical or case-level evidence before advancing past S0
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA الرسمية (التحذيرات، موانع الاستعمال، تفاعلات الأدوية بين الأدوية) — حالياً حاجزة
+- بيانات آلية العمل المؤكدة من DrugBank
+- إذا كنت تسعى للقيادة بهشاشة العظام: حل تضارب بيانات إشارات حمض الريتينويك (حماية مقابل تدهور الغضروف) من خلال العمل ما قبل السريري الموجه قبل تشكيل أي فرضية سريرية
+- بالنسبة لبقية المرشحين L5: على الأقل، أدلة ما قبل سريري أو على مستوى الحالة قبل التقدم الماضي S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

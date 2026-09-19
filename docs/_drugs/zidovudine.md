@@ -29,85 +29,86 @@ indication_count: 6
 
 </div>
 
-# Zidovudine: From HIV/AIDS Infection to Feline Acquired Immunodeficiency Syndrome
+# زيدوفودين: من عدوى فيروس نقص المناعة البشرية/متلازمة نقص المناعة المكتسبة إلى متلازمة نقص المناعة المكتسبة لدى القطط
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Zidovudine (AZT, DB00495) was the first antiretroviral approved for human HIV/AIDS infection, acting as a nucleoside reverse transcriptase inhibitor (NRTI). The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome** (FIV/FAIDS in cats) with a 99.96% score, but this is supported only by **0 clinical trials** and **20 veterinary/preclinical publications** — there is currently no human clinical evidence behind this specific top-ranked prediction.
+زيدوفودين (AZT, DB00495) كان أول عقار مضاد للفيروسات العكسية معتمداً لعدوى فيروس نقص المناعة البشرية/متلازمة نقص المناعة المكتسبة (HIV/AIDS) عند الإنسان، حيث يعمل كمثبط النسخ العكسي من نوع النوكليوسيد (NRTI). التنبؤ الأعلى ترتيباً بواسطة نموذج TxGNN هو **متلازمة نقص المناعة المكتسبة لدى القطط** (FIV/FAIDS في القطط) برصيد 99.96%، لكن هذا يدعمه فقط **0 تجارب سريرية** و**20 منشورة بيطرية/سابقة سريرية** — لا توجد حالياً أي أدلة سريرية بشرية تدعم هذا التنبؤ الأعلى ترتيباً بشكل خاص.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | HIV/AIDS infection (established use; no formal license record available in this evidence pack — see data gaps below) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV/FAIDS) |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | عدوى فيروس نقص المناعة البشرية/متلازمة نقص المناعة المكتسبة (استخدام معروف؛ لا توجد سجلات ترخيص رسمية متاحة في هذا الملف الدليلي — انظر الثغرات في البيانات أدناه) |
+| الاستطباب الجديد المتوقع | متلازمة نقص المناعة المكتسبة لدى القطط (FIV/FAIDS) |
+| رصيد التنبؤ بـ TxGNN | 99.96% |
+| مستوى الدليل | L4 |
+| حالة السوق | غير مسوق (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | احتفظ |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data for zidovudine is flagged as a data gap in this evidence pack (DG002). Based on generally established pharmacology, zidovudine is a thymidine-analogue NRTI: after intracellular phosphorylation to its triphosphate form, it competitively inhibits viral reverse transcriptase and causes chain termination during proviral DNA synthesis, which is the basis of its efficacy against HIV.
+بيانات آلية العمل التفصيلية لزيدوفودين مشار إليها على أنها ثغرة في البيانات في هذا الملف الدليلي (DG002). استناداً إلى الصيدلة المعروفة عموماً، زيدوفودين هو مثبط النسخ العكسي من نوع النوكليوسيد (NRTI) مشابه للثيميدين: بعد الفسفرة داخل الخلوية إلى شكله الثلاثي الفوسفات، فإنه يثبط بشكل تنافسي النسخ العكسي الفيروسي ويسبب إنهاء السلسلة أثناء تخليق DNA الفيروسي المتكامل، وهو أساس فعاليته ضد فيروس نقص المناعة البشرية.
 
-The rationale linking zidovudine to feline acquired immunodeficiency syndrome is mechanistic homology rather than clinical translation: Feline Immunodeficiency Virus (FIV) belongs to the same *Lentivirus* genus as HIV and causes an immunodeficiency syndrome in cats that closely parallels human AIDS. Because FIV reverse transcriptase is structurally similar to HIV-1 reverse transcriptase, zidovudine shows in vitro and in vivo antiviral activity in cats, and FIV/FeLV-infected cats have long served as a veterinary/preclinical animal model for testing HIV antiretroviral strategies.
+المبرر الذي يربط زيدوفودين بمتلازمة نقص المناعة المكتسبة لدى القطط هو التماثل الميكانيكي بدلاً من الترجمة السريرية: فيروس نقص المناعة في القطط (FIV) ينتمي إلى نفس جنس *Lentivirus* مثل فيروس نقص المناعة البشرية ويسبب متلازمة نقص المناعة في القطط تشبه بشكل وثيق الإيدز البشري. نظراً لأن النسخ العكسي لـ FIV متشابهة هيكلياً مع النسخ العكسي لفيروس نقص المناعة البشرية -1، يُظهر زيدوفودين نشاطاً مضاداً للفيروسات في الجسم الحي وخارج الجسم الحي في القطط، وقد خدمت القطط المصابة بـ FIV/FeLV لفترة طويلة كنموذج حيواني بيطري/سابق سريري لاختبار استراتيجيات مضادات الفيروسات العكسية لفيروس نقص المناعة البشرية.
 
-However, this is an **animal disease model, not a human indication**. All supporting evidence (20 publications, 0 clinical trials) is veterinary or preclinical (in vitro, SCID-feline mice, naturally/experimentally infected cats). It has no direct bearing on a novel human drug-repurposing opportunity, which is why the evidence level is capped at L4 (preclinical/mechanistic) and the underlying TxGNN scoring already recommends "Hold." Notably, two lower-ranked predictions in this pack — AIDS-related complex and congenital HIV infection — do have strong human clinical trial support (L1/S3, "Proceed with Guardrails"), but both are essentially restatements of zidovudine's already-approved original indication rather than novel repurposing candidates.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، هذا **نموذج مرض حيواني، وليس استطباباً بشرياً**. جميع الأدلة الداعمة (20 منشورة، 0 تجارب سريرية) هي بيطرية أو سابقة سريرية (in vitro، فئران SCID-feline، قطط مصابة بشكل طبيعي/تجريبي). لا يوجد لها تأثير مباشر على فرصة إعادة توجيه عقار بشري جديد، وهذا هو السبب في أن مستوى الدليل محدود بـ L4 (سابق سريري/ميكانيكي) والنقاط الكامنة في TxGNN توصي بالفعل بـ "احتفظ". والجدير بالملاحظة أن اثنين من التنبؤات الأقل ترتيباً في هذه الحزمة — معقد الإيدز ذو الصلة وعدوى فيروس نقص المناعة البشرية الخلقية — لديهم فعلاً دعم قوي للتجارب السريرية البشرية (L1/S3، "المضي قدماً مع وجود ضمانات")، لكن كلاهما هو في الأساس إعادة صياغة للاستطباب الأصلي المعتمد بالفعل لزيدوفودين وليس مرشحات إعادة توجيه جديدة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | In vitro/Animal model | Antimicrobial Agents and Chemotherapy | Established FIV as a reverse-transcriptase-targeted chemotherapy model for AIDS |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Observational (feline) | Archives of Virology | Zidovudine lowered plasma (but not PBMC) FIV titer in experimentally infected cats |
-| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Animal model (SCID-feline mice) | Veterinary Immunology and Immunopathology | AZT reduced provirus burden and enhanced humoral immunity against FIV |
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal RCT (FeLV, veterinary) | Antimicrobial Agents and Chemotherapy | IFN-alpha plus AZT evaluated in presymptomatic FeLV-induced immunodeficiency (FAIDS) |
-| [2164083](https://pubmed.ncbi.nlm.nih.gov/2164083/) | 1990 | Animal prophylaxis study | Journal of Acquired Immune Deficiency Syndromes | AZT + IFN-alpha + IL-2 as prophylactic therapy for FeLV-FAIDS |
-| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Animal cohort | Journal of Acquired Immune Deficiency Syndromes | Prophylactic AZT prevented early viremia/lymphocyte decline in FIV-inoculated cats |
-| [8399067](https://pubmed.ncbi.nlm.nih.gov/8399067/) | 1993 | Animal model | Journal of Immunotherapy | Adoptive lymphocyte transfer + IFN-alpha + zidovudine reversed FeLV infection |
-| [3034403](https://pubmed.ncbi.nlm.nih.gov/3034403/) | 1987 | Animal model | Cancer Research | Early AZT evaluation in FeLV-infected cats as a therapy/prophylaxis model for AIDS |
-| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | Phylogenetic/genetic analysis | Journal of Virology | Genetic analysis of FIV in cats undergoing zidovudine (AZT) treatment vs. treatment-naïve |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | In vitro/in vivo study | Veterinary Immunology and Immunopathology | AZT/3TC combination showed additive-to-synergistic anti-FIV activity in PBMCs |
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Market Information
+## أدلة من المراجع الأدبية
 
-Zidovudine currently has **0 registered authorizations** and is **not marketed** in the target jurisdiction per this evidence pack, so no license table can be produced.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | In vitro/نموذج حيواني | Antimicrobial Agents and Chemotherapy | أنشأ FIV كنموذج للعلاج الكيميائي الموجه نحو النسخ العكسي للإيدز |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | دراسة مراقبة (فيلية) | Archives of Virology | خفض زيدوفودين لعيار FIV في البلازما (وليس PBMC) في القطط المصابة تجريبياً |
+| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | نموذج حيواني (فئران SCID-feline) | Veterinary Immunology and Immunopathology | قلل AZT من عبء الفيروس المتكامل وعزز المناعة الخلطية ضد FIV |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | تجربة عشوائية حيوانية (FeLV، بيطرية) | Antimicrobial Agents and Chemotherapy | تم تقييم IFN-alpha بالإضافة إلى AZT في نقص المناعة قبل الأعراض الناجم عن FeLV (FAIDS) |
+| [2164083](https://pubmed.ncbi.nlm.nih.gov/2164083/) | 1990 | دراسة الوقاية الحيوانية | Journal of Acquired Immune Deficiency Syndromes | AZT + IFN-alpha + IL-2 كعلاج وقائي لـ FeLV-FAIDS |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | تجمع حيواني | Journal of Acquired Immune Deficiency Syndromes | منع AZT الوقائي من الفيرمية المبكرة/انخفاض الخلايا اللمفاوية في القطط المحقونة بـ FIV |
+| [8399067](https://pubmed.ncbi.nlm.nih.gov/8399067/) | 1993 | نموذج حيواني | Journal of Immunotherapy | نقل الخلايا اللمفاوية بالتبني + IFN-alpha + زيدوفودين عكس عدوى FeLV |
+| [3034403](https://pubmed.ncbi.nlm.nih.gov/3034403/) | 1987 | نموذج حيواني | Cancer Research | التقييم المبكر لـ AZT في القطط المصابة بـ FeLV كنموذج علاج/وقاية للإيدز |
+| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | تحليل وراثي/فيلوجيني | Journal of Virology | تحليل وراثي لـ FIV في القطط التي تخضع للعلاج بزيدوفودين (AZT) مقابل عدم العلاج |
+| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | دراسة في الجسم الحي وخارجه | Veterinary Immunology and Immunopathology | أظهرت مجموعة AZT/3TC نشاطاً مضاداً لـ FIV تآزرياً-إضافياً في PBMC |
 
 ---
 
-## Safety Considerations
+## معلومات السوق
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as unresolved data gaps in this evidence pack — notably, TFDA package-insert warnings/contraindications are flagged as a **Blocking** data gap (DG001), which by itself prevents this candidate from entering initial safety (S1) evaluation.)
+زيدوفودين لديه حالياً **0 تفويضات مسجلة** و**لم يتم تسويقه** في الولاية القضائية المستهدفة وفقاً لهذا الملف الدليلي، وبالتالي لا يمكن إنتاج جدول ترخيص.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يرجى الرجوع إلى الملصق الداخلي للحزمة للحصول على معلومات السلامة. (التحذيرات الرئيسية والموانع والبيانات المتعلقة بتفاعلات الأدوية كلها محددة كثغرات بيانات لم يتم حلها في هذا الملف الدليلي — والجدير بالملاحظة أن تحذيرات/موانع ملصق الحزمة TFDA مشار إليها على أنها ثغرة بيانات **حجب** (DG001)، مما يمنع بمفرده هذا المرشح من دخول تقييم السلامة الأولي (S1).)
 
-**Rationale:**
-The top-ranked TxGNN prediction (feline acquired immunodeficiency syndrome) is a veterinary disease with only preclinical/animal evidence and no human clinical trials, so it offers no actionable human repurposing pathway despite its high model score. The candidate's other high-scoring predictions are either mechanistically implausible/likely model noise (a rare genetic neurodevelopmental disorder; an obsolete hyperlipidemia term with an inverted mechanism) or, for the two indications with strong clinical evidence (AIDS-related complex, congenital HIV), simply restate zidovudine's existing approved indication rather than a novel use. Combined with a Blocking data gap on TFDA safety labeling and zero market presence, this candidate is not ready to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official package insert warnings and contraindications (currently Blocking data gap, DG001)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- A genuinely novel, human-relevant predicted indication with supporting clinical evidence, since the current top-ranked candidate is not clinically actionable
-- Clarification of local market/licensing status if repurposing within this jurisdiction is still being considered
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**المبرر:**
+التنبؤ الأعلى ترتيباً بـ TxGNN (متلازمة نقص المناعة المكتسبة لدى القطط) هو مرض بيطري يتمتع فقط بأدلة سابقة سريرية/حيوانية ولا توجد تجارب سريرية بشرية، وبالتالي فإنه لا يوفر مسار إعادة توجيه بشري قابل للتطبيق على الرغم من درجة النموذج العالية. التنبؤات الأخرى ذات الدرجات العالية للمرشح هي إما غير معقولة من الناحية الميكانيكية/احتمال كون ضوضاء نموذج (اضطراب نيوروتطوري وراثي نادر؛ مصطلح فرط دهون دم قديم الطراز مع آلية معكوسة) أو، بالنسبة للاستطبابين اللذين لديهما أدلة سريرية قوية (معقد الإيدز ذو الصلة، عدوى فيروس نقص المناعة البشرية الخلقية)، ببساطة إعادة صياغة للاستطباب الأصلي المعتمد بالفعل لزيدوفودين بدلاً من الاستخدام الجديد. جنباً إلى جنب مع ثغرة بيانات حجب على تسميات السلامة TFDA وعدم وجود وجود في السوق، هذا المرشح ليس مستعداً للمضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات/موانع ملصق الحزمة TFDA/الرسمية (حالياً ثغرة بيانات حجب، DG001)
+- توثيق آلية العمل المؤكدة من DrugBank (DG002)
+- استطباب متنبأ به جديد بحق، وذي صلة بالإنسان، مع أدلة سريرية داعمة، منذ أن لا يكون المرشح الأعلى ترتيباً الحالي قابلاً للتطبيق سريرياً
+- توضيح حالة السوق/الترخيص المحلي إذا كانت إعادة التوجيه داخل هذه الولاية القضائية لا تزال قيد النظر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,92 +29,93 @@ indication_count: 3
 
 </div>
 
-# Darolutamide: From Prostate Cancer to Homozygous Familial Hypercholesterolemia
+# داروليوتاميد: من سرطان البروستاتا إلى فرط كوليسترول الدم العائلي المتماثل
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Darolutamide is an androgen receptor (AR) antagonist established for the treatment of castration-resistant prostate cancer.
-The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)** with a score of **99.11%**,
-however, **no clinical trials and no published literature** currently support this direction — this prediction rests entirely on computational network analysis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Prostate cancer (AR antagonist; no Taiwan TFDA record available) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L5 |
-| Taiwan (TFDA) Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+داروليوتاميد هو عامل حجب مستقبل الأندروجين (AR) معروف لعلاج سرطان البروستاتا المقاوم لخفض هرمون التستوستيرون.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **فرط كوليسترول الدم العائلي المتماثل (HoFH)** برتبة **99.11%**،
+ومع ذلك، **لا توجد تجارب سريرية وليس هناك أي أدبيات منشورة** تدعم هذا الاتجاه — تستند هذه التنبؤات بالكامل على التحليل الحسابي للشبكة.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological classification, Darolutamide is a potent androgen receptor (AR) antagonist with minimal CNS penetration. Its efficacy in non-metastatic castration-resistant prostate cancer has been established in the pivotal ARAMIS Phase 3 trial.
-
-The mechanistic rationale for HoFH is indirect but theoretically coherent. AR signaling is known to upregulate hepatic PCSK9 expression and simultaneously downregulate LDL receptor (LDLR) activity. In principle, AR antagonism could increase LDLR expression on hepatocyte surfaces and enhance LDL particle clearance from circulation — directly relevant to HoFH, a disease defined by severely impaired LDL clearance due to biallelic mutations in *LDLR*, *APOB*, or *PCSK9* genes.
-
-However, this chain of reasoning has not been validated at any level — cellular, animal, or clinical. HoFH patients carry loss-of-function mutations that may render residual LDLR activity largely unresponsive to transcriptional upregulation signals. The TxGNN high score likely reflects topological proximity between the AR signaling network and lipid metabolism nodes in the knowledge graph, rather than a direct biological effect. The gap between network plausibility and clinical relevance remains very wide for this prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Darolutamide in Homozygous Familial Hypercholesterolemia.
+| العنصر | المحتوى |
+|-------|---------|
+| الاستطباب الأصلي | سرطان البروستاتا (عامل حجب AR؛ لا توجد سجلات TFDA تايوانية متاحة) |
+| الاستطباب الجديد المتنبأ به | فرط كوليسترول الدم العائلي المتماثل (HoFH) |
+| درجة التنبؤ بـ TxGNN | 99.11% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان (TFDA) | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | **تأجيل** |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available for Darolutamide in Homozygous Familial Hypercholesterolemia.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في مجموعة الأدلة هذه. استناداً إلى التصنيف الدوائي المعروف، داروليوتاميد هو عامل حجب قوي لمستقبل الأندروجين (AR) مع اختراق طفيف للجهاز العصبي المركزي. وقد تم إثبات فعاليته في سرطان البروستاتا المقاوم لخفض هرمون التستوستيرون غير المنتشر في التجربة المحورية ARAMIS من المرحلة الثالثة.
 
----
+المبررات الآلية لـ HoFH غير مباشرة لكنها منطقية نظرياً. يُعرف أن إشارات AR تعزز تعبير PCSK9 الكبدي وتقلل من نشاط مستقبل LDL (LDLR) في نفس الوقت. من حيث المبدأ، قد يؤدي حجب AR إلى زيادة تعبير LDLR على أسطح الخلايا الكبدية وتحسين تصفية جزيئات LDL من الدم — ذات صلة مباشرة بـ HoFH، وهو مرض يُعرّف بتصفية LDL المعيبة بشدة بسبب الطفرات ثنائية الأليل في الجينات *LDLR* أو *APOB* أو *PCSK9*.
 
-## Taiwan (TFDA) Market Information
-
-Darolutamide has no approved marketing authorization in Taiwan (TFDA). No license records are available.
+ومع ذلك، فإن هذا السلسلة من التفكير لم تُتحقق على أي مستوى — خلوي أو حيواني أو سريري. يحمل مرضى HoFH طفرات فقدان الوظيفة التي قد تجعل نشاط LDLR المتبقي غير مستجيب إلى حد كبير لإشارات تنظيم النسخ. من المحتمل أن تعكس درجة TxGNN العالية القرب الطوبولوجي بين شبكة إشارات AR وعقد استقلاب الدهون في الرسم البياني للمعرفة، بدلاً من تأثير بيولوجي مباشر. الفجوة بين الحساسية من الناحية الشبكية والصلة السريرية تبقى واسعة جداً بالنسبة لهذا التنبؤ.
 
 ---
 
-## Cytotoxicity
+## دليل التجارب السريرية
 
-Darolutamide is an antineoplastic agent (indicated for prostate cancer). The following applies:
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Androgen Receptor Antagonist (non-cytotoxic mechanism) |
-| Myelosuppression Risk | Low (AR antagonists do not cause direct bone marrow suppression) |
-| Emetogenicity Classification | Low (oral agent; minimal emetogenic potential per class) |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Standard oral oncology agent handling; no specialized cytotoxic precautions required |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ داروليوتاميد في فرط كوليسترول الدم العائلي المتماثل.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد حالياً أدبيات ذات صلة متاحة لـ داروليوتاميد في فرط كوليسترول الدم العائلي المتماثل.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في تايوان (TFDA)
 
-**Decision: Hold**
+داروليوتاميد لا يملك تصريح تسويق معتمد في تايوان (TFDA). لا توجد سجلات ترخيص متاحة.
 
-**Rationale:**
-Despite a high TxGNN score (99.11%), the mechanistic link between AR antagonism and HoFH is indirect, speculative, and unvalidated at any experimental level. With zero supporting clinical trials, zero published literature, and no preclinical data, the evidence level is L5 — model prediction only. HoFH also has a crowded approved-therapy landscape (statins, ezetimibe, PCSK9 inhibitors, lomitapide, evinacumab), making the differentiation hurdle significant.
+---
 
-**To proceed, the following is needed:**
+## السمية الخلوية
 
-- **Mechanistic proof-of-concept**: In vitro experiments in hepatocyte models (HepG2, primary human hepatocytes) or LDLR-deficient cell lines to quantify whether Darolutamide modulates LDLR surface expression or LDL uptake at clinically achievable concentrations
-- **Animal validation**: Testing in LDLR-knockout or PCSK9 gain-of-function mouse models used as HoFH surrogates to confirm lipid-lowering effect in vivo
-- **MOA and safety data**: Formal mechanism of action documentation and complete safety profile (currently absent from this evidence pack)
-- **Differentiation rationale**: Given multiple approved HoFH therapies, a clinical unmet need analysis is required before committing to preclinical investment
-- **Network hypothesis clarification**: Determine whether TxGNN's high score is driven by a true PCSK9/LDLR pathway signal or by non-specific AR–lipid metabolism graph adjacency
+داروليوتاميد هو عامل الأورام (معروض لسرطان البروستاتا). ما يلي ينطبق:
+
+| العنصر | المحتوى |
+|-------|---------|
+| تصنيف السمية الخلوية | العلاج الموجه — عامل حجب مستقبل الأندروجين (آلية غير سامة للخلايا) |
+| خطر القمع النخاعي | منخفض (عوامل حجب AR لا تسبب قمع مباشر لنقي العظم) |
+| تصنيف الإمراضية | منخفض (عامل فموي؛ إمكانية إمراضية طفيفة حسب الفئة) |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات نشرة الحزمة والاحتياطات |
+| حماية المناولة | معالجة قياسية للعوامل الورمية الفموية؛ لا تلزم احتياطات خاصة من السموم |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+على الرغم من درجة TxGNN العالية (99.11%)، فإن الرابط الآلي بين حجب AR و HoFH غير مباشر وتخميني وغير معتمد على أي مستوى تجريبي. مع عدم وجود تجارب سريرية داعمة، وعدم وجود أدبيات منشورة، وعدم وجود بيانات قبل سريرية، فإن مستوى الدليل هو L5 — تنبؤ نموذج فقط. HoFH أيضاً لديها مشهد مكتظ من العلاجات المعتمدة (الستاتينات، إيزيتيميب، مثبطات PCSK9، لوميتابيد، إيفيناكوماب)، مما يجعل عائق التمييز كبيراً.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **إثبات مفهوم الآلية**: تجارب في المختبر في نماذج الخلايا الكبدية (HepG2، الخلايا الكبدية الأولية البشرية) أو خطوط الخلايا الناقصة لـ LDLR لتقدير ما إذا كان داروليوتاميد يُعدّل تعبير سطح LDLR أو امتصاص LDL بتركيزات قابلة للتحقيق سريرياً
+- **التحقق من الحيوانات**: الاختبار في نماذج الفئران الناقصة لـ LDLR أو ذات كسب وظيفة PCSK9 المستخدمة كبدائل HoFH لتأكيد تأثير خفض الدهون في الجسم الحي
+- **بيانات آلية العمل والسلامة**: توثيق آلية العمل الرسمية والملف الأمني الكامل (غير موجود حالياً في مجموعة الأدلة هذه)
+- **أساس المنطقية التمييزية**: بالنظر إلى العديد من العلاجات المعتمدة لـ HoFH، يلزم تحليل الاحتياجات الطبية غير الملباة قبل الالتزام بالاستثمار قبل السريري
+- **توضيح فرضية الشبكة**: تحديد ما إذا كانت درجة TxGNN العالية تحركها إشارة مسار PCSK9/LDLR حقيقية أو بواسطة الاقتراب غير المحدد لـ AR–استقلاب الدهون في الرسم البياني
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,92 +29,93 @@ indication_count: 10
 
 </div>
 
-# Pegaspargase: From Acute Lymphoblastic Leukemia to Precursor Lymphoblastic Lymphoma/Leukemia
+# بيجاسبارجيز: من سرطان الدم اللمفاوي الحاد إلى لمفوما/سرطان الدم اللمفاوي سابق النضج
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Pegaspargase (PEG-asparaginase) is an enzyme therapy already established worldwide as a core component of combination chemotherapy for acute lymphoblastic leukemia (ALL). The TxGNN model's top-ranked prediction — **Precursor Lymphoblastic Lymphoma/Leukemia (ALL/LBL)** — is functionally the same disease group as its existing indication, so this result functions as a positive-control validation of the model rather than a genuinely new repurposing signal, and it is backed by **50 clinical trials** and **20 publications**, including several completed Phase 3 RCTs.
+بيجاسبارجيز (PEG-asparaginase) هو عامل إنزيمي ثابت عالمياً كمكون أساسي من مكونات العلاج الكيميائي المركب لسرطان الدم اللمفاوي الحاد (ALL). التنبؤ الأعلى ترتيباً من نموذج TxGNN — **لمفوما/سرطان الدم اللمفاوي سابق النضج (ALL/LBL)** — هو نفس مجموعة الأمراض الوظيفية لمؤشره الموجود، وبالتالي تعمل هذه النتيجة كتحقق من صحة التحكم الإيجابي للنموذج بدلاً من إشارة إعادة استخدام حقيقية، وهو مدعوم بـ **50 تجربة سريرية** و **20 منشور**، بما في ذلك عدة تجارب عشوائية محكومة من المرحلة الثالثة المكتملة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute Lymphoblastic Leukemia (globally established use — no formal `original_indications` record in this evidence pack; supported by literature, e.g. PMID 30823860: "FDA approved for the first-line treatment of adult acute lymphoblastic leukemia") |
-| Predicted New Indication | Precursor Lymphoblastic Lymphoma/Leukemia (ALL/LBL) |
-| TxGNN Prediction Score | 99.96% (rank 1082) |
-| Evidence Level | L1 |
-| Market Status (this dataset) | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | سرطان الدم اللمفاوي الحاد (استخدام ثابت عالمياً — لا توجد سجلات `original_indications` رسمية في حزمة الأدلة هذه؛ مدعوم بالأدبيات، على سبيل المثال PMID 30823860: "وافقت FDA على العلاج من الخط الأول لسرطان الدم اللمفاوي الحاد لدى البالغين") |
+| المؤشر الجديد المتنبأ به | لمفوما/سرطان الدم اللمفاوي سابق النضج (ALL/LBL) |
+| درجة التنبؤ TxGNN | 99.96% (الرتبة 1082) |
+| مستوى الأدلة | L1 |
+| حالة السوق (مجموعة البيانات هذه) | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع حماية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, a formal mechanism-of-action record (e.g. a DrugBank MOA field) is not available for pegaspargase — this is flagged in the evidence pack as data gap DG002 (High severity). However, the pack's clinical rationale supplies substantial mechanistic detail: PEG-asparaginase depletes circulating asparagine. Lymphoblasts characteristic of ALL/lymphoblastic lymphoma lack asparagine synthetase and cannot synthesize their own asparagine, making them highly sensitive to this depletion — a well-established, textbook mechanism rather than a speculative one.
+حالياً، سجل آلية عمل رسمي (على سبيل المثال حقل DrugBank الخاص بـ MOA) غير متاح لـ بيجاسبارجيز — هذا مشار إليه في حزمة الأدلة كفجوة بيانات DG002 (خطورة عالية). ومع ذلك، فإن المبرر السريري للحزمة يوفر تفاصيل آلية جوهرية: يستنزف PEG-asparaginase الأسبارجين المتداول. الأرومات اللمفاوية المميزة لـ ALL/لمفوما لمفاوية تفتقر إلى سينثتاز الأسبارجين ولا يمكنها تصنيع أسبارجينهم الخاص، مما يجعلهم حساسين جداً لهذا الاستنزاف — آلية راسخة وكتابية بدلاً من كونها تخمينية.
 
-Important caveat for interpretation: the predicted indication "precursor lymphoblastic lymphoma/leukemia" is not a novel disease target — it is essentially pegaspargase's own existing standard-of-care indication (ALL/LBL). The evidence pack's own rationale text explicitly notes this is "existing standard-of-care basis, not a genuine prediction." Practically, this rank-1 result should be treated as confirmation that TxGNN correctly recovers known drug-disease relationships, rather than as a candidate warranting new repurposing investment. If the goal is to identify genuinely novel indications, lower-ranked signals in this evidence pack (e.g. rank 7 "lymphoid neoplasm," rank 8 "Hodgkin's lymphoma" — where the underlying trial/literature evidence actually points to NK/T-cell lymphoma rather than classical Hodgkin lymphoma — and rank 10 CML blast phase) merit separate, more cautious evaluation.
+تحذير مهم للتفسير: المؤشر المتنبأ به "لمفوما/سرطان الدم اللمفاوي سابق النضج" ليس هدفاً مرضياً جديداً — إنه في الأساس مؤشر معيار الرعاية القياسي الموجود لـ بيجاسبارجيز (ALL/LBL). يلاحظ النص المنطقي الخاص بحزمة الأدلة نفسها صراحة أن هذا هو "أساس معيار الرعاية الموجود، وليس تنبؤاً حقيقياً." عملياً، يجب معاملة نتيجة الرتبة الأولى هذه كتأكيد على أن TxGNN يسترجع بشكل صحيح العلاقات المعروفة بين الأدوية والأمراض، بدلاً من أن تكون مرشحاً يتطلب استثماراً جديداً في إعادة الاستخدام. إذا كان الهدف هو تحديد مؤشرات حقيقية جديدة، فإن الإشارات ذات الترتيب الأقل في حزمة الأدلة هذه (على سبيل المثال الرتبة 7 "الورم الليمفاوي"، الرتبة 8 "لمفوما هودجكين" — حيث تشير الأدلة التجريبية/الأدبية الأساسية بالفعل إلى لمفوما NK/T-cell بدلاً من لمفوما هودجكين الكلاسيكية — والرتبة 10 مرحلة انفجار CML) تستحق تقييماً منفصلاً وأكثر حذراً.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03020030](https://clinicaltrials.gov/study/NCT03020030) | Phase 3 | Active, not recruiting | 560 | Standard multi-agent induction/consolidation chemotherapy backbone for newly diagnosed pediatric/adolescent ALL |
-| [NCT04954326](https://clinicaltrials.gov/study/NCT04954326) | Phase 2 | Completed | 89 | RCT comparing pharmacokinetics of liquid vs. lyophilized pegaspargase formulations in newly diagnosed pediatric ALL |
-| [NCT02716233](https://clinicaltrials.gov/study/NCT02716233) | Phase 3 | Active, not recruiting | 2044 | Large French protocol optimizing L-asparaginase brand/dose/schedule in pediatric ALL |
-| [NCT00905034](https://clinicaltrials.gov/study/NCT00905034) | Phase 2 | Completed | 37 | Methotrexate + vincristine + pegylated L-asparaginase + dexamethasone (MOAD) salvage regimen for relapsed/refractory ALL |
-| [NCT06195735](https://clinicaltrials.gov/study/NCT06195735) | N/A | Completed | 649 | Predictive model for PEG-asparaginase hypersensitivity/inactivation to optimize ALL treatment outcomes |
-| [NCT00003437](https://clinicaltrials.gov/study/NCT00003437) | Phase 3 | Unknown | 1800 | MRC UK trial comparing steroid/chemotherapy regimens (asparaginase-containing) in childhood ALL |
-| [NCT00882206](https://clinicaltrials.gov/study/NCT00882206) | Phase 2 | Terminated | 15 | Decitabine + vorinostat added to a PEG-asparaginase-containing regimen for relapsed/refractory ALL/LL |
-| [NCT00096135](https://clinicaltrials.gov/study/NCT00096135) | N/A | Completed | 168 | Chemotherapy + radiotherapy (asparaginase-containing regimen) for late isolated extramedullary ALL relapse |
-| [NCT05873322](https://clinicaltrials.gov/study/NCT05873322) | N/A | Recruiting | 100 | Observational study of steroid + PEG-asparaginase-related glucose intolerance/diabetes in ALL and lymphoma |
-| [NCT03643276](https://clinicaltrials.gov/study/NCT03643276) | Phase 3 | Recruiting | 5000 | Large international AIEOP-BFM ALL 2017 protocol using asparaginase-based, risk-stratified chemotherapy |
+| [NCT03020030](https://clinicaltrials.gov/study/NCT03020030) | المرحلة 3 | نشطة، لا تجند | 560 | العلاج الكيميائي متعدد الوكلاء القياسي الاستقراء/التوطيد العمود الفقري لـ ALL مشخص حديثاً لدى الأطفال/المراهقين |
+| [NCT04954326](https://clinicaltrials.gov/study/NCT04954326) | المرحلة 2 | مكتملة | 89 | تجربة عشوائية محكومة تقارن الحرائك الدوائية لتركيبات pegaspargase السائلة مقابل التجميدية في ALL مشخص حديثاً لدى الأطفال |
+| [NCT02716233](https://clinicaltrials.gov/study/NCT02716233) | المرحلة 3 | نشطة، لا تجند | 2044 | بروتوكول فرنسي كبير يحسّن العلامة التجارية L-asparaginase/الجرعة/الجدول الزمني في ALL لدى الأطفال |
+| [NCT00905034](https://clinicaltrials.gov/study/NCT00905034) | المرحلة 2 | مكتملة | 37 | ميثوتريكسيت + فينكريستين + asparaginase مشعر بالجزيئات + ديكسامثازون (MOAD) نظام الإنقاذ لـ ALL المتكرر/المقاوم |
+| [NCT06195735](https://clinicaltrials.gov/study/NCT06195735) | N/A | مكتملة | 649 | نموذج تنبؤي لفرط الحساسية/عدم التنشيط من PEG-asparaginase لتحسين نتائج علاج ALL |
+| [NCT00003437](https://clinicaltrials.gov/study/NCT00003437) | المرحلة 3 | غير معروف | 1800 | تجربة MRC UK تقارن أنظمة الستيرويد/العلاج الكيميائي (التي تحتوي على asparaginase) في ALL لدى الأطفال |
+| [NCT00882206](https://clinicaltrials.gov/study/NCT00882206) | المرحلة 2 | تم إيقافها | 15 | ديسيتابين + فوريناستات مضافة إلى نظام يحتوي على PEG-asparaginase لـ ALL/LL المتكرر/المقاوم |
+| [NCT00096135](https://clinicaltrials.gov/study/NCT00096135) | N/A | مكتملة | 168 | العلاج الكيميائي + العلاج الإشعاعي (نظام يحتوي على asparaginase) لـ ALL خارج نخاع عظمي معزول متكرر في المراحل المتأخرة |
+| [NCT05873322](https://clinicaltrials.gov/study/NCT05873322) | N/A | تجند | 100 | دراسة رصدية لـ ستيرويد + عدم تحمل جلوكوز/السكري المرتبط بـ PEG-asparaginase في ALL واللمفوما |
+| [NCT03643276](https://clinicaltrials.gov/study/NCT03643276) | المرحلة 3 | تجند | 5000 | بروتوكول AIEOP-BFM ALL 2017 الدولي الكبير يستخدم العلاج الكيميائي القائم على asparaginase الموجه حسب المخاطر |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | RCT | J Clin Oncol | COG AALL0232: dexamethasone + high-dose methotrexate improve outcomes in high-risk B-ALL |
-| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | RCT | J Clin Oncol | COG AALL0434: nelarabine tested in newly diagnosed T-cell ALL, Phase 3 |
-| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | RCT | J Clin Oncol | COG AALL1231: bortezomib in newly diagnosed T-ALL/T-LL, Phase 3 |
-| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Cohort | J Clin Oncol | DFCI 11-001: efficacy/toxicity of pegaspargase vs. calaspargase pegol in childhood ALL |
-| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Cohort | Blood Advances | GIMEMA LAL1913: pegaspargase-modified risk-oriented program for adult ALL |
-| [39322712](https://pubmed.ncbi.nlm.nih.gov/39322712/) | 2024 | Cohort | Leukemia | Venetoclax + hyper-CVAD/nelarabine/pegylated asparaginase in T-ALL/LBL, long-term follow-up |
-| [38613330](https://pubmed.ncbi.nlm.nih.gov/38613330/) | 2025 | Cohort | J Oncol Pharm Pract | Retrospective review of pegaspargase toxicities and dosing pattern changes in ALL/lymphoma |
-| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | Cohort (Phase 2) | Int J Hematol | Phase 2 multicenter study of pegaspargase in Japanese patients with previously untreated ALL |
-| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Review | Haematologica | Expert panel consensus on recognition/management of asparaginase-related adverse events in adults |
-| [17696798](https://pubmed.ncbi.nlm.nih.gov/17696798/) | 2007 | Review | Expert Opin Pharmacother | Classic review of PEG-asparaginase pharmacology, efficacy, and cytotoxicity |
+| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | تجربة عشوائية محكومة | J Clin Oncol | COG AALL0232: الديكساميثازون + ميثوتريكسيت عالي الجرعة يحسنان النتائج في ALL عالي المخاطر من نوع B |
+| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | تجربة عشوائية محكومة | J Clin Oncol | COG AALL0434: اختبار نيلاراربين في ALL T مشخص حديثاً، المرحلة 3 |
+| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | تجربة عشوائية محكومة | J Clin Oncol | COG AALL1231: بورتيزوميب في T-ALL/T-LL المشخص حديثاً، المرحلة 3 |
+| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | دراسة أترابية | J Clin Oncol | DFCI 11-001: فعالية/سمية pegaspargase مقابل calaspargase pegol في ALL لدى الأطفال |
+| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | دراسة أترابية | Blood Advances | GIMEMA LAL1913: برنامج pegaspargase موجه حسب المخاطر لـ ALL لدى البالغين |
+| [39322712](https://pubmed.ncbi.nlm.nih.gov/39322712/) | 2024 | دراسة أترابية | Leukemia | Venetoclax + hyper-CVAD/nelarabine/pegylated asparaginase في T-ALL/LBL، المتابعة طويلة الأجل |
+| [38613330](https://pubmed.ncbi.nlm.nih.gov/38613330/) | 2025 | دراسة أترابية | J Oncol Pharm Pract | مراجعة بأثر رجعي لسميات pegaspargase وتغييرات نمط الجرعات في ALL/اللمفوما |
+| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | دراسة أترابية (المرحلة 2) | Int J Hematol | دراسة متعددة المراكز من المرحلة 2 لـ pegaspargase في مرضى ALL لم يتم علاجهم مسبقاً في اليابان |
+| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | مراجعة | Haematologica | إجماع لجنة خبراء حول التعرف على الأحداث الضائرة ذات الصلة بـ asparaginase وإدارتها لدى البالغين |
+| [17696798](https://pubmed.ncbi.nlm.nih.gov/17696798/) | 2007 | مراجعة | Expert Opin Pharmacother | مراجعة كلاسيكية لصيدلة PEG-asparaginase والفعالية والسمية الخلوية |
 
-## Market Information
+## معلومات السوق
 
-No market authorizations are on record for pegaspargase in this dataset (0 licenses; market status: Not Marketed). No product-level license or approved-indication text is available to tabulate.
+لا توجد تفويضات سوق في السجل لـ pegaspargase في مجموعة البيانات هذه (0 رخصة؛ حالة السوق: غير مسوق). لا يتوفر نص الرخصة على مستوى المنتج أو المؤشر المعتمد لتجدول.
 
-## Cytotoxicity
+## السمية الخلوية
 
-Pegaspargase is a cytotoxic antineoplastic agent (an asparagine-depleting enzyme used as chemotherapy for lymphoid malignancies), so this section applies.
+pegaspargase هو عامل خبيث للأورام السام للخلايا (إنزيم استنزاف الأسبارجين يستخدم كعلاج كيميائي للأورام الليمفاوية الخبيثة)، لذا ينطبق هذا القسم.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — enzyme/biologic class (PEGylated L-asparaginase), non-alkylating asparagine-depletion mechanism |
-| Myelosuppression Risk | Low relative to classic cytotoxic chemotherapy — asparaginase's mechanism largely spares bone marrow; the evidence pack's literature instead emphasizes hepatotoxicity, pancreatitis, hypertriglyceridemia, hyperglycemia, and hypersensitivity/anaphylaxis as the dominant toxicities (PMID 40109190 expert consensus) |
-| Emetogenicity Classification | Not specified in evidence pack — please refer to the package insert warnings and precautions |
-| Monitoring Items | Liver function tests, lipase/amylase (pancreatitis), fasting glucose, coagulation profile/fibrinogen, triglycerides, plus routine CBC |
-| Handling Protection | Standard cytotoxic drug handling precautions apply, pending confirmation against local (TFDA) handling regulations |
+| البند | المحتوى |
+|------|---------|
+| تصنيف السمية الخلوية | سمي خلوي تقليدي — فئة الإنزيم/الحيوي (L-asparaginase مشعر بالجزيئات)، آلية استنزاف الأسبارجين غير الألكلة |
+| خطر قمع نخاع العظم | منخفض نسبياً مقارنة بالعلاج الكيميائي التقليدي — آلية asparaginase توفر بشكل كبير نخاع العظم؛ بدلاً من ذلك، تركز الأدبيات الخاصة بحزمة الأدلة على التهاب الكبد والتهاب البنكرياس وفرط ثلاثي الجليسيريد وفرط سكر الدم وفرط الحساسية/الحساسية المفرطة كسموم سائدة (إجماع خبراء PMID 40109190) |
+| تصنيف القيء الناجم عن العلاج | غير محدد في حزمة الأدلة — يرجى الرجوع إلى تحذيرات واحتياطات إدراج الحزمة |
+| عناصر المراقبة | اختبارات وظائف الكبد واختبارات الليباز/الأميليز (التهاب البنكرياس) والجلوكوز الصائم وملف تعريف التجلط/الفيبرينوجين والدهون الثلاثية، بالإضافة إلى CBC الروتينية |
+| حماية المناولة | تنطبق احتياطات المناولة الكيميائية السامة للخلايا القياسية، مع انتظار التأكيد مقابل اللوائح المحلية (TFDA) للمناولة |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Formal safety labeling (key warnings, contraindications, drug interactions) is not yet available in this evidence pack — this is flagged as a blocking data gap (DG001) pending retrieval of the TFDA/local package insert. Please refer to the package insert for safety information once available.
+لم يتوفر وسم السلامة الرسمي (التحذيرات الرئيسية والموانع والتفاعلات الدوائية) بعد في حزمة الأدلة هذه — هذا مشار إليه كفجوة بيانات حجب (DG001) في انتظار استرجاع ملصق TFDA/المحلي. يرجى الرجوع إلى ملصق الحزمة للحصول على معلومات السلامة بمجرد توفرها.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع حماية**
 
-**Rationale:**
-The predicted indication is supported by L1-level evidence (multiple completed Phase 3 RCTs plus 50 trials and 20 publications), but it substantially overlaps with pegaspargase's own established indication rather than representing a novel repurposing candidate. Combined with the complete absence of local safety labeling and market-authorization data, this candidate should proceed only under guardrails focused on data completion rather than novel-indication development.
+**المبرر:**
+المؤشر المتنبأ به مدعوم بأدلة من مستوى L1 (عدة تجارب عشوائية محكومة من المرحلة 3 المكتملة بالإضافة إلى 50 تجربة و 20 منشور)، لكنه يتداخل بشكل كبير مع مؤشر pegaspargase الثابت الموجود بدلاً من تمثيل مرشح إعادة استخدام حقيقياً. بالاقتران مع الغياب الكامل لوسم السلامة المحلي وبيانات تفويض السوق، يجب أن يتقدم هذا المرشح فقط تحت حماية تركز على اكتمال البيانات بدلاً من تطوير مؤشر جديد.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert — warnings and contraindications (blocking gap, DG001)
-- Formal DrugBank mechanism-of-action record (high-priority gap, DG002)
-- Clarification of local market-authorization status (currently 0 licenses / not marketed) and whether an import or special-access pathway is intended
-- Reframing of this candidate as a model-validation result; if the objective is genuine repurposing, prioritize review of the lower-confidence, more novel signals in this evidence pack (e.g., the "Hodgkin's lymphoma" label whose underlying trials/literature actually describe NK/T-cell lymphoma, and CML blast phase)
+**للمتابعة، المطلوب التالي:**
+- ملصق TFDA/المحلي — التحذيرات وموانع (فجوة حجب، DG001)
+- سجل آلية عمل رسمي من DrugBank (فجوة أولوية عالية، DG002)
+- توضيح حالة تفويض السوق المحلي (حالياً 0 رخصة / غير مسوق) وما إذا كان مسار استيراد أو وصول خاص مقصوداً
+- إعادة صياغة هذا المرشح كنتيجة تحقق من صحة النموذج؛ إذا كان الهدف هو إعادة استخدام حقيقية، فأعطِ الأولوية لمراجعة الإشارات الأقل ثقة والأكثر حداثة في حزمة الأدلة هذه (على سبيل المثال، التسمية "لمفوما هودجكين" التي تصف التجارب/الأدبيات الأساسية بالفعل لمفوما NK/T-cell، ومرحلة انفجار CML)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

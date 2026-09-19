@@ -29,94 +29,95 @@ indication_count: 8
 
 </div>
 
-# Sertraline: From Panic Disorder to Agoraphobia
+# السيرترالين: من اضطراب الهلع إلى الخوف من الأماكن المفتوحة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Sertraline is a selective serotonin reuptake inhibitor (SSRI); this dataset does not carry a confirmed original-indication record (no Saudi Arabia license on file), but sertraline is broadly established internationally for depressive and anxiety-spectrum disorders, including panic disorder. The TxGNN model's most credible new-indication signal in this evidence pack is **Agoraphobia**, supported by **4 clinical trials** (including one completed Phase 4 head-to-head trial) and **19 publications**, several of them meta-analyses and RCTs.
+السيرترالين هو مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI)؛ هذه مجموعة البيانات لا تحمل سجل مؤشر أصلي مؤكد (لا توجد رخصة سعودية في الملف)، لكن السيرترالين معروف على نطاق واسع عالمياً لعلاج الاضطرابات الاكتئابية والقلقية، بما في ذلك اضطراب الهلع. الإشارة الأكثر مصداقية للمؤشر الجديد من نموذج TxGNN في هذه مجموعة الأدلة هي **الخوف من الأماكن المفتوحة**، مدعومة بـ **4 تجارب سريرية** (بما في ذلك تجربة المرحلة 4 المكتملة القائمة على المقارنة بين الأدوية) و**19 منشور**، عدة منها التحليلات الشاملة والتجارب العشوائية المضبوطة.
 
-*Note on candidate selection:* This evidence pack scored eight TxGNN-predicted indications for sertraline. The top-ranked-by-score candidates (schizoid, paranoid, schizotypal, histrionic, narcissistic personality disorder; benign paroxysmal torticollis of infancy) each carry Evidence Level L4–L5 and a "Hold" recommendation — the pack's own rationale explicitly flags several as "database association noise" with no plausible mechanistic link. Agoraphobia is the only indication reaching Evidence Level L1 / decision stage S3 ("Proceed with Guardrails"), so it is reported here as the actionable finding.
+*ملاحظة حول اختيار المرشح:* حققت مجموعة الأدلة هذه ثماني مؤشرات تنبأ بها TxGNN للسيرترالين. المرشحون ذوو الترتيب الأعلى حسب النقاط (اضطراب الشخصية الانطوائية، والبارانويدية، والنمط الغريب، والهستيرية، والنرجسية؛ التواء الرقبة الانتيابي الحميد عند الرضع) يحمل كل منها مستوى دليل L4–L5 وتوصية "انتظار" — حيث تشير منطق المجموعة نفسه بوضوح إلى عدة منها باعتبارها "ضوضاء ارتباط قاعدة البيانات" بدون ارتباط آلي معقول. الخوف من الأماكن المفتوحة هو المؤشر الوحيد الذي يصل إلى مستوى الدليل L1 / مرحلة القرار S3 ("المتابعة مع الضمانات الحماية")، لذا يتم الإبلاغ عنه هنا كالاكتشاف القابل للتنفيذ.
 
 ---
 
-## Quick Overview
+## لمحة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available in this dataset (no Saudi Arabia license record; sertraline is an SSRI-class antidepressant) |
-| Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متاح في هذه مجموعة البيانات (لا توجد رخصة سعودية في الملف؛ السيرترالين هو مثبط انتقائي لإعادة امتصاص السيروتونين من فئة SSRI) |
+| المؤشر الجديد المتنبأ به | الخوف من الأماكن المفتوحة |
+| نقاط تنبؤ TxGNN | 99.54% |
+| مستوى الدليل | L1 |
+| حالة السوق السعودي | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع الضمانات الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data is not available in this dataset (marked as a data gap). Based on known pharmacology, sertraline is an SSRI: it inhibits presynaptic serotonin reuptake, increasing synaptic serotonin availability, which modulates amygdala and limbic-system hyperreactivity — the pathway implicated in panic and phobic-avoidance disorders.
+بيانات آلية العمل التفصيلية غير متاحة في هذه مجموعة البيانات (تم تحديدها كفجوة بيانات). بناءً على الصيدلة المعروفة، السيرترالين هو مثبط انتقائي لإعادة امتصاص السيروتونين: يثبط إعادة امتصاص السيروتونين قبل المشبكي، مما يزيد توافر السيروتونين المشبكي، والذي ينظم فرط نشاط اللوزة الدماغية والجهاز الحافي — المسار المتضمن في اضطرابات الهلع والتجنب الرهابي.
 
-Agoraphobia most commonly presents as a comorbid or downstream feature of panic disorder, and the evidence pack itself notes this is not a novel repurposing hypothesis: sertraline is already approved in many jurisdictions for "panic disorder with or without agoraphobia." The clinical trial and literature evidence below largely reflects this already-established indication rather than a new mechanistic leap, which is why the evidence base is unusually strong (multiple completed RCTs and meta-analyses) compared with the other TxGNN-predicted indications in this pack.
+يظهر الخوف من الأماكن المفتوحة في أغلب الأحيان كميزة متزامنة أو لاحقة لاضطراب الهلع، وتلاحظ مجموعة الأدلة نفسها أن هذا ليس فرضية إعادة تعريض جديدة: السيرترالين معتمد بالفعل في العديد من الاختصاصات القضائية لـ "اضطراب الهلع مع أو بدون خوف من الأماكن المفتوحة". يعكس دليل التجربة السريرية والأدب أدناه هذا المؤشر المعترف به بالفعل بدلاً من قفزة آلية جديدة، وهذا هو السبب في أن قاعدة الأدلة قوية بشكل غير عادي (عدة تجارب عشوائية مضبوطة مكتملة وتحليلات شاملة) مقارنة بالمؤشرات الأخرى المتنبأ بها بواسطة TxGNN في هذه المجموعة.
 
-Because Saudi Arabia currently has zero sertraline licenses on file, the practical question is not "does the pharmacology make sense" (it does, and is externally validated) but whether a Saudi market entry/dossier can be supported — which depends on data currently missing from this pack (see Conclusion).
+لأن المملكة العربية السعودية حالياً لا تمتلك رخص سيرترالين على الملف، فإن السؤال العملي ليس "هل تجعل الصيدلة المعنى" (إنها تفعل، وتم التحقق منها خارجياً) بل ما إذا كان يمكن دعم دخول السوق السعودي / الملف — وهذا يعتمد على بيانات غير متاحة حالياً من هذه المجموعة (انظر الخلاصة).
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00677352](https://clinicaltrials.gov/study/NCT00677352) | Phase 4 | Completed | 321 | Randomized, double-blind, multicenter comparison of sertraline vs. paroxetine for efficacy and safety in panic disorder |
-| [NCT00182533](https://clinicaltrials.gov/study/NCT00182533) | Phase 4 | Terminated | 170 | Sertraline for generalized social phobia with comorbidity (includes agoraphobia-spectrum anxiety); trial terminated |
-| [NCT05210153](https://clinicaltrials.gov/study/NCT05210153) | N/A | Unknown | 148 | Plasma level monitoring and CYP2C19 genotyping for sertraline dose personalization (pharmacokinetic study, not an efficacy trial) |
-| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Unknown | 1 | Single-case psychoanalytic treatment study in ASD with comorbid anxiety disorders; low direct relevance |
+| [NCT00677352](https://clinicaltrials.gov/study/NCT00677352) | المرحلة 4 | مكتملة | 321 | مقارنة عشوائية عمياء مزدوجة متعددة المراكز بين السيرترالين والبارواكسيتين لفعالية والسلامة في اضطراب الهلع |
+| [NCT00182533](https://clinicaltrials.gov/study/NCT00182533) | المرحلة 4 | تم إيقافها | 170 | السيرترالين لاضطراب القلق الاجتماعي المعممة مع الإصابة بأمراض متزامنة (يتضمن قلق طيف الخوف من الأماكن المفتوحة)؛ تم إيقاف التجربة |
+| [NCT05210153](https://clinicaltrials.gov/study/NCT05210153) | غير محدد | غير معروف | 148 | رصد مستوى البلازما والتنميط الجيني CYP2C19 لتخصيص جرعة السيرترالين (دراسة حرائك الدواء، وليس تجربة فعالية) |
+| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | غير محدد | غير معروف | 1 | دراسة العلاج النفسي التحليلي لحالة واحدة لاضطراب طيف التوحد مع اضطرابات القلق المتزامنة؛ ذات صلة مباشرة منخفضة |
 
 ---
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Meta-analysis | Cochrane Database Syst Rev | Network meta-analysis of pharmacological treatments for panic disorder in adults |
-| [35045991](https://pubmed.ncbi.nlm.nih.gov/35045991/) | 2022 | Meta-analysis | BMJ | Network meta-analysis identifying SSRIs, including sertraline, with high remission and low adverse-event rates for panic disorder with/without agoraphobia |
-| [9734541](https://pubmed.ncbi.nlm.nih.gov/9734541/) | 1998 | RCT | Am J Psychiatry | Double-blind multicenter trial establishing efficacy and safety of sertraline in panic disorder |
-| [9819070](https://pubmed.ncbi.nlm.nih.gov/9819070/) | 1998 | RCT | Arch Gen Psychiatry | Flexible-dose multicenter trial of sertraline in panic disorder |
-| [11110009](https://pubmed.ncbi.nlm.nih.gov/11110009/) | 2000 | RCT | Int Clin Psychopharmacol | Pooled analysis of two fixed-dose studies confirming sertraline efficacy in panic disorder with/without agoraphobia |
-| [11206597](https://pubmed.ncbi.nlm.nih.gov/11206597/) | 2000 | RCT | J Clin Psychiatry | Sertraline response in panic disorder patients at high risk of poor outcome (including presence of agoraphobia) |
-| [12191627](https://pubmed.ncbi.nlm.nih.gov/12191627/) | 2002 | RCT | J Psychiatr Res | Combined data (N=544) from four placebo-controlled sertraline studies; early improvement predicts remission |
-| [16505130](https://pubmed.ncbi.nlm.nih.gov/16505130/) | 2006 | RCT | Am J Geriatr Psychiatry | RCT comparing CBT vs. sertraline for anxiety disorders (including agoraphobia) in older adults |
-| [15096081](https://pubmed.ncbi.nlm.nih.gov/15096081/) | 2004 | RCT | J Clin Psychiatry | Acute double-blind noninferiority comparison of sertraline vs. paroxetine in panic disorder |
-| [16053461](https://pubmed.ncbi.nlm.nih.gov/16053461/) | 2005 | RCT | Bosn J Basic Med Sci | Placebo-controlled comparison of sertraline vs. alprazolam in panic disorder with/without agoraphobia |
+| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | تحليل شامل | Cochrane Database Syst Rev | التحليل الشامل للشبكة للعلاجات الدوائية لاضطراب الهلع لدى البالغين |
+| [35045991](https://pubmed.ncbi.nlm.nih.gov/35045991/) | 2022 | تحليل شامل | BMJ | التحليل الشامل للشبكة يحدد مثبطات انتقائية لإعادة امتصاص السيروتونين، بما في ذلك السيرترالين، بمعدلات خفض عالية وأحداث سلبية منخفضة لاضطراب الهلع مع / بدون خوف من الأماكن المفتوحة |
+| [9734541](https://pubmed.ncbi.nlm.nih.gov/9734541/) | 1998 | تجربة عشوائية مضبوطة | Am J Psychiatry | تجربة متعددة المراكز عمياء مزدوجة تثبت فعالية وسلامة السيرترالين في اضطراب الهلع |
+| [9819070](https://pubmed.ncbi.nlm.nih.gov/9819070/) | 1998 | تجربة عشوائية مضبوطة | Arch Gen Psychiatry | تجربة متعددة المراكز بجرعة مرنة للسيرترالين في اضطراب الهلع |
+| [11110009](https://pubmed.ncbi.nlm.nih.gov/11110009/) | 2000 | تجربة عشوائية مضبوطة | Int Clin Psychopharmacol | تحليل مجمع لدراستين ذات جرعة محددة مؤكدة لفعالية السيرترالين في اضطراب الهلع مع / بدون خوف من الأماكن المفتوحة |
+| [11206597](https://pubmed.ncbi.nlm.nih.gov/11206597/) | 2000 | تجربة عشوائية مضبوطة | J Clin Psychiatry | استجابة السيرترالين لدى مرضى اضطراب الهلع المعرضين لخطر عالي من النتيجة السيئة (بما في ذلك وجود خوف من الأماكن المفتوحة) |
+| [12191627](https://pubmed.ncbi.nlm.nih.gov/12191627/) | 2002 | تجربة عشوائية مضبوطة | J Psychiatr Res | بيانات مجمعة (N=544) من أربع دراسات السيرترالين خاضعة للعلاج الوهمي؛ التحسن المبكر يتنبأ بالشفاء |
+| [16505130](https://pubmed.ncbi.nlm.nih.gov/16505130/) | 2006 | تجربة عشوائية مضبوطة | Am J Geriatr Psychiatry | تجربة عشوائية مضبوطة مقارنة العلاج السلوكي المعرفي مقابل السيرترالين لاضطرابات القلق (بما في ذلك خوف من الأماكن المفتوحة) لدى البالغين الأكبر سناً |
+| [15096081](https://pubmed.ncbi.nlm.nih.gov/15096081/) | 2004 | تجربة عشوائية مضبوطة | J Clin Psychiatry | مقارنة عمياء مزدوجة عدم열등 حادة بين السيرترالين والبارواكسيتين في اضطراب الهلع |
+| [16053461](https://pubmed.ncbi.nlm.nih.gov/16053461/) | 2005 | تجربة عشوائية مضبوطة | Bosn J Basic Med Sci | مقارنة خاضعة للعلاج الوهمي بين السيرترالين والألبرازولام في اضطراب الهلع مع / بدون خوف من الأماكن المفتوحة |
 
-*9 additional publications (reviews and further pooled-data analyses) are on file but not listed here for brevity.*
-
----
-
-## Saudi Arabia Market Information
-
-Sertraline currently holds **no marketing authorization in Saudi Arabia** (0 licenses on file; market status: not marketed).
+*9 منشورات إضافية (استعراضات وتحليلات بيانات مجمعة إضافية) موجودة في الملف ولكن لم يتم إدراجها هنا لأسباب الإيجاز.*
 
 ---
 
-## Safety Considerations
+## معلومات السوق السعودي
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are not currently available in this dataset.
+السيرترالين حالياً يحمل **لا توجد موافقة تسويق في المملكة العربية السعودية** (0 رخصة في الملف؛ حالة السوق: غير مسوّق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة. بيانات التحذيرات الرئيسية والموانع وتفاعلات الأدوية غير متاحة حالياً في هذه مجموعة البيانات.
 
-**Rationale:**
-Agoraphobia (in the context of panic disorder) is supported by multiple completed RCTs, pooled analyses, and two recent meta-analyses, and reflects an indication already recognized for sertraline in other jurisdictions — this is confirmatory rather than speculative evidence. However, sertraline has zero existing market presence in Saudi Arabia, and a critical safety data gap currently blocks initial safety assessment.
+---
 
-**To proceed, the following is needed:**
-- SFDA/Taiwan package insert data (warnings, contraindications) — currently a **Blocking** gap preventing entry into S1 safety pre-assessment
-- Detailed mechanism-of-action documentation from DrugBank
-- Drug-drug interaction (DDI) data, currently returning "not found"
-- A regulatory pathway assessment for first-time market entry in Saudi Arabia, since no existing license or dosage-form record exists
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات الحماية**
+
+**الأساس المنطقي:**
+يدعم الخوف من الأماكن المفتوحة (في سياق اضطراب الهلع) عدة تجارب عشوائية مضبوطة مكتملة وتحليلات بيانات مجمعة وتحليلان شاملان حديثان، ويعكس مؤشراً معترفاً به بالفعل للسيرترالين في الاختصاصات القضائية الأخرى — هذا دليل تأكيدي وليس تخميني. ومع ذلك، السيرترالين لا يمتلك وجود سوق قائم حالياً في المملكة العربية السعودية، وفجوة بيانات سلامة حرجة حالياً تمنع الدخول الأولي في S1 تقييم السلامة.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة الحزمة SFDA/تايوان (التحذيرات والموانع) — فجوة **حرجة حالياً** تمنع الدخول في تقييم السلامة S1
+- توثيق آلية العمل التفصيلي من DrugBank
+- بيانات تفاعل الأدوية (DDI)، التي تعود حالياً "غير موجودة"
+- تقييم المسار التنظيمي لدخول السوق السعودي لأول مرة، لأنه لا يوجد رخصة قائمة أو سجل شكل جرعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,65 +29,66 @@ indication_count: 2
 
 </div>
 
-# Carbetocin: From Postpartum Haemorrhage Prevention to Isotretinoin-like Syndrome
+# كاربيتوسين: من الوقاية من النزيف بعد الولادة إلى متلازمة تشابه الايزوتريتينوين
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Carbetocin is a synthetic long-acting oxytocin analogue (oxytocin receptor agonist), clinically established for prevention of uterine atony and postpartum haemorrhage following caesarean section.
-The TxGNN model predicts it may be effective for **Isotretinoin-like Syndrome**,
-however **no clinical trials** and **no published literature** currently support this direction — the prediction is driven solely by knowledge graph topology.
+كاربيتوسين هو محاكي اوكسيتوسين طويل المفعول اصطناعي (ناهض مستقبل الاوكسيتوسين)، معترف به سريرياً للوقاية من ضعف الرحم والنزيف بعد الولادة بعد الولادة القيصرية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة تشابه الايزوتريتينوين**،
+لكن **لا توجد تجارب سريرية** و **لا توجد أدبيات منشورة** تدعم هذا الاتجاه حالياً — التنبؤ يقوده طوبولوجيا الرسم البياني للمعرفة وحدها.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Prevention of uterine atony and postpartum haemorrhage (oxytocin receptor agonist, established pharmacological class) |
-| Predicted New Indication | Isotretinoin-like Syndrome |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الوقاية من ضعف الرحم والنزيف بعد الولادة (ناهض مستقبل الاوكسيتوسين، فئة دوائية معترف بها) |
+| المؤشر الجديد المتنبأ به | متلازمة تشابه الايزوتريتينوين |
+| درجة تنبؤ TxGNN | 99.15% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسجل |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Carbetocin is a long-acting synthetic analogue of endogenous oxytocin, acting selectively on the oxytocin receptor (OXTR). Its pharmacological action is concentrated on two domains: peripheral smooth muscle contraction of the uterus (driving its use in postpartum haemorrhage prevention), and central nervous system modulation of social behaviour and bonding through the oxytocin pathway.
+كاربيتوسين هو محاكي اصطناعي طويل المفعول للاوكسيتوسين الذاتي، يعمل بشكل انتقائي على مستقبل الاوكسيتوسين (OXTR). يتركز عمله الدوائي على مجالين: انقباض العضلات الملساء المحيطية في الرحم (الذي يقود استخدامه في الوقاية من النزيف بعد الولادة)، وتعديل الجهاز العصبي المركزي للسلوك الاجتماعي والترابط من خلال مسار الاوكسيتوسين.
 
-Isotretinoin-like syndrome (retinoic acid embryopathy) arises from excessive retinoic acid exposure during embryonic development, causing aberrant cranial neural crest cell migration and differentiation via the RAR/RXR nuclear receptor signalling pathway. This is a developmental teratogenicity syndrome — not a disease state that involves oxytocin receptor biology in any known mechanistic framework. There is no documented biochemical crossover between OXTR signalling and retinoic acid/RAR/RXR pathways in the current literature.
+تنشأ متلازمة تشابه الايزوتريتينوين (الإمبريوباثيا من حمض الريتينويك) من التعرض الزائد لحمض الريتينويك أثناء النمو الجنيني، مما يسبب هجرة وتمايز خلايا قمة العصب الجمجمية الشاذة من خلال مسار إشارات مستقبل حمض الريتينويك النووي RAR/RXR. هذه متلازمة سمية نمائية — وليست حالة مرضية تنطوي على بيولوجيا مستقبل الاوكسيتوسين بأي إطار آلي معروف. لا توجد تقاطعات كيميائية حيوية موثقة بين إشارات OXTR وطرق حمض الريتينويك/RAR/RXR في الأدبيات الحالية.
 
-The very high TxGNN score (99.15%) therefore reflects knowledge graph topological proximity — likely mediated through shared network neighbours in the disease–gene–protein interaction graph — rather than a direct biological hypothesis. In the absence of any experimental, preclinical, or mechanistic evidence, this must be classified as a distant model-driven prediction with very low clinical credibility.
+لذلك يعكس درجة TxGNN العالية جداً (99.15%) القرب الطوبولوجي في الرسم البياني للمعرفة — ربما يكون متوسطاً من خلال جيران الشبكة المشتركة في رسم بياني تفاعل المرض-الجين-البروتين — بدلاً من فرضية بيولوجية مباشرة. في غياب أي دليل تجريبي أو ما قبل سريري أو آلي، يجب تصنيف هذا كتنبؤ بعيد قائم على النموذج بمصداقية سريرية منخفضة جداً.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Carbetocin is not currently registered or authorised by SFDA in Saudi Arabia. No product licence records are available.
+كاربيتوسين لم يتم تسجيله أو الموافقة عليه حالياً من قبل SFDA بالمملكة العربية السعودية. لا توجد سجلات تراخيص منتجات متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-Despite a high TxGNN prediction score, the mechanistic pathway of carbetocin (OXTR agonism → uterine contraction / CNS oxytocin modulation) has no known intersection with isotretinoin-like syndrome pathophysiology (excess retinoic acid → RAR/RXR-mediated cranial neural crest disruption). With zero supporting clinical trials or literature, and evidence classified at L5, advancing this candidate would require first establishing a plausible biological hypothesis — which does not currently exist.
+**الأساس المنطقي:**
+على الرغم من درجة تنبؤ TxGNN عالية، فإن مسار كاربيتوسين الآلي (ناهضية OXTR → انقباض الرحم/تعديل الأوكسيتوسين في الجهاز العصبي المركزي) ليس له تقاطع معروف مع فيزيولوجيا المرض لمتلازمة تشابه الايزوتريتينوين (حمض الريتينويك الزائد → تعطل قمة العصب الجمجمية المرتبطة بـ RAR/RXR). مع عدم وجود تجارب سريرية أو أدبيات داعمة، والدليل مصنف على مستوى L5، فإن تطوير هذا المرشح سيتطلب أولاً إنشاء فرضية بيولوجية معقولة — التي لا تكون موجودة حالياً.
 
-Note: The second-ranked prediction (Goodman syndrome / ACPS IV, TxGNN score 99.06%) faces an identical evidence vacuum and an equally distant mechanistic rationale (RAB23/Hedgehog pathway vs. OXTR), and is likewise recommended Hold pending any hypothesis generation.
+ملاحظة: التنبؤ المرتب الثاني (متلازمة جودمان / ACPS IV، درجة TxGNN 99.06%) يواجه فراغ دليل متطابق وأساس منطقي آلي بعيد بنفس القدر (مسار RAB23/Hedgehog مقابل OXTR)، وموصى به بالمثل بـ تأجيل في انتظار أي توليد فرضية.
 
-**To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking OXTR signalling to retinoic acid embryopathy or neural crest biology (e.g., oxytocin–retinoic acid crosstalk in neural development)
-- Preclinical in vitro or in vivo data demonstrating any relevant biological effect of carbetocin in a teratogenicity or neural crest model
-- Full mechanism of action data from DrugBank (DG002: currently missing)
-- SFDA package insert safety data including warnings and contraindications (DG001: currently missing)
-- Review of whether isotretinoin-like syndrome is a viable therapeutic target at all (it is a teratogenicity outcome syndrome, not a chronic treatable disease state)
+**لكي ننطلق، يلزم التالي:**
+- فرضية بيولوجية معقولة تربط إشارات OXTR بـ الإمبريوباثيا من حمض الريتينويك أو بيولوجيا قمة العصب (مثل التقاطع بين الاوكسيتوسين وحمض الريتينويك في النمو العصبي)
+- بيانات ما قبل سريرية في المختبر أو في الجسم الحي توضح أي تأثير بيولوجي ذي صلة لكاربيتوسين في نموذج السمية النمائية أو قمة العصب
+- بيانات آلية العمل الكاملة من DrugBank (DG002: ناقصة حالياً)
+- بيانات نشرة SFDA بما في ذلك التحذيرات والموانع (DG001: ناقصة حالياً)
+- مراجعة ما إذا كانت متلازمة تشابه الايزوتريتينوين هدفاً علاجياً قابلاً للتطبيق على الإطلاق (إنها متلازمة نتيجة السمية النمائية، وليست حالة مرضية مزمنة قابلة للعلاج)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

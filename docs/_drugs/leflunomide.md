@@ -29,76 +29,77 @@ indication_count: 2
 
 </div>
 
-# Leflunomide: From Rheumatoid Arthritis to Brachydactyly-Syndactyly Syndrome
+# ليفلونوميد: من التهاب المفاصل الروماتويدي إلى متلازمة قصر الأصابع والالتحام
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Leflunomide is a DMARD (disease-modifying antirheumatic drug) originally used to treat rheumatoid arthritis by inhibiting DHODH and suppressing pyrimidine synthesis in activated lymphocytes. The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital skeletal malformation disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid arthritis (general pharmacological knowledge; not available in the Saudi Arabia regulatory dataset — drug is unmarketed) |
-| Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Note:** A second candidate indication was also predicted — colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%, rank 1741) — with the same L5 evidence level, no trials, and no literature. Both are treated identically below since indication #1 is the top-ranked prediction.
+ليفلونوميد هو دواء معدِّل لسير المرض المضاد للروماتيزم (DMARD) كان يُستخدم في الأساس لعلاج التهاب المفاصل الروماتويدي عن طريق تثبيط DHODH وقمع تخليق البيريميدين في الخلايا الليمفاوية المُنشطة. ينبّأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة قصر الأصابع والالتحام**، وهي اضطراب نادر في التشوه الهيكلي الخلقي، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشورات** — إنه ناتج نموذج نقي بدون دليل مؤيد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge, leflunomide is a DHODH (dihydroorotate dehydrogenase) inhibitor and immunomodulator, and its efficacy in rheumatoid arthritis has been proven; mechanistically it is not obviously applicable to brachydactyly-syndactyly syndrome.
+| العنصر | المحتوى |
+|------|-------|
+| الاستطباب الأصلي | التهاب المفاصل الروماتويدي (معرفة صيدلانية عامة؛ غير متاح في مجموعة البيانات التنظيمية للمملكة العربية السعودية — الدواء غير مُسوّق) |
+| الاستطباب الجديد المتنبأ به | متلازمة قصر الأصابع والالتحام |
+| درجة تنبؤ TxGNN | 99.93% |
+| مستوى الدليل | L5 (تنبؤ نموذج فقط) |
+| حالة سوق المملكة العربية السعودية | ✗ غير مُسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-Importantly, the evidence pack itself is explicit on this point: brachydactyly-syndactyly syndrome is a congenital skeletal developmental disorder typically driven by mutations in genes such as *GDF5* and *HOXD*, and there is **no known biological connection** between this pathway and leflunomide's immunomodulatory/DHODH-inhibitory mechanism. The same applies to the second candidate, colobomatous microphthalmia-rhizomelic dysplasia syndrome, another congenital developmental syndrome with no established link to leflunomide's known pharmacology.
-
-In both cases, the prediction rests solely on the TxGNN model score, with no clinical trials, no literature, and no articulated mechanistic rationale. This places both candidates at the lowest confidence tier and they should not be interpreted as biologically validated leads.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+**ملاحظة:** تم التنبؤ أيضاً باستطباب ثانٍ محتمل — متلازمة صغر العينين الشقّي مع خلل التنسج الجذري (درجة 99.93%، الترتيب 1741) — مع نفس مستوى الدليل L5، بدون تجارب، وبدون أدبيات. يتم التعامل مع كليهما بنفس الطريقة أدناه حيث أن الاستطباب رقم 1 هو التنبؤ الأعلى ترتيباً.
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Leflunomide is not currently marketed in Saudi Arabia (0 authorizations on file; market status: Not Marketed).
+في الوقت الحالي، لا تتوفر بيانات مفصلة عن آلية العمل. استناداً إلى المعرفة الصيدلانية العامة، ليفلونوميد هو مثبط DHODH (ديهيدروأوروتات ديهيدروجيناز) ومُعدِّل مناعي، وثبتت فعاليته في علاج التهاب المفاصل الروماتويدي؛ من حيث الآلية، لا يبدو أنه قابل للتطبيق بوضوح على متلازمة قصر الأصابع والالتحام.
 
----
+من المهم ملاحظة أن حزمة الدليل نفسها تكون صريحة في هذه النقطة: متلازمة قصر الأصابع والالتحام هي اضطراب تطوري هيكلي خلقي يُسببه عادةً طفرات في جينات مثل *GDF5* و*HOXD*، وليس هناك علاقة بيولوجية معروفة بين هذا المسار والآلية المثبطة للمناعة/المثبطة لـ DHODH لليفلونوميد. ينطبق الشيء ذاته على المرشح الثاني، متلازمة صغر العينين الشقّي مع خلل التنسج الجذري، اضطراب تطوري خلقي آخر بدون ارتباط معروف بالدوائية المعروفة لليفلونوميد.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+في كلا الحالتين، يستند التنبؤ حصراً على درجة نموذج TxGNN، بدون تجارب سريرية، بدون أدبيات، وبدون حجة آلية معبّرة عنها. يضع هذا كلا المرشحين في أدنى مستوى ثقة ويجب عدم تفسيرهما كمرشحات مدعومة بيولوجياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة
 
-**Rationale:**
-Both predicted indications are supported only by a raw TxGNN model score (L5), with zero clinical trials, zero literature, and no plausible mechanistic link to leflunomide's known pharmacology. There is currently no basis to advance either candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action (MOA) from DrugBank or primary literature
-- Preclinical or case-level evidence establishing biological plausibility for either indication
-- If plausibility is established, targeted literature/clinical trial searches using alternate disease terminology (these are rare/orphan conditions that may be indexed under synonyms)
+## دليل الأدبيات
+
+لا توجد حالياً أدبيات مرتبطة متاحة
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+ليفلونوميد غير مُسوّق حالياً في المملكة العربية السعودية (0 تصاريح على الملف؛ حالة السوق: غير مُسوّق).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+كلا الاستطبابات المتنبأ بها مدعومة فقط بدرجة نموذج TxGNN الخام (L5)، مع صفر تجارب سريرية، صفر أدبيات، وبدون ارتباط آلي معقول بالدوائية المعروفة لليفلونوميد. لا توجد حالياً أسباب للمضي قدماً مع أي من المرشحات.
+
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات نشرة التصريح التنظيمية من TFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاجزة
+- آلية عمل مؤكدة (MOA) من DrugBank أو الأدبيات الأولية
+- دليل سابق للسريري أو على مستوى الحالة يؤسس الجدوى البيولوجية لأي من الاستطبابات
+- إذا تم إثبات الجدوى، عمليات بحث أدبية/سريرية موجهة باستخدام مصطلحات مرض بديلة (هذه حالات نادرة/يتيمة قد تكون مفهرسة تحت مرادفات)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,104 +29,105 @@ indication_count: 2
 
 </div>
 
-# Interferon Beta-1b: From Not Marketed in Saudi Arabia to Hairy Cell Leukemia
+# Interferon Beta-1b: من عدم التسويق في المملكة العربية السعودية إلى لوكيميا الخلايا الشعرية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Interferon Beta-1b (DrugBank DB00068) is not currently marketed in Saudi Arabia, so no approved original indication is on file in this evidence pack.
-> The TxGNN model's top-ranked prediction is **Hairy Cell Leukemia**, supported by **0 clinical trials** and **4 publications** (all from 1987–1990).
-> A second, much better-evidenced prediction — **Autoimmune Disease of the Central Nervous System** (i.e., multiple sclerosis) — is also present in this pack, backed by **24 clinical trials** and **19 publications**; this largely reflects the drug's globally established use as Betaferon®/Betaseron® rather than a novel hypothesis.
+> إن Interferon Beta-1b (DrugBank DB00068) غير مسوق حالياً في المملكة العربية السعودية، لذا لا توجد دلالة أصلية معتمدة مسجلة في هذه مجموعة الأدلة.
+> التنبؤ الأول من نموذج TxGNN هو **لوكيميا الخلايا الشعرية**، المدعوم بـ **0 تجربة سريرية** و **4 منشورات** (جميعها من 1987–1990).
+> يوجد أيضاً تنبؤ ثانٍ بدعم أقوى بكثير — **الأمراض المناعية الذاتية للجهاز العصبي المركزي** (أي التصلب المتعدد) — موجود كذلك في هذه المجموعة، مدعوم بـ **24 تجربة سريرية** و **19 منشورة**؛ يعكس هذا إلى حد كبير الاستخدام المثبت عالمياً للعقار باسم Betaferon®/Betaseron® بدلاً من أن يكون فرضية جديدة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — drug is not marketed in Saudi Arabia (0 licenses on file) |
-| Predicted New Indication | Hairy Cell Leukemia |
-| TxGNN Prediction Score | 99.16% (rank 11,789) |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير متاح — العقار غير مسوق في المملكة العربية السعودية (0 ترخيص على الملف) |
+| الدلالة الجديدة المتنبأ بها | لوكيميا الخلايا الشعرية |
+| نقاط تنبؤ TxGNN | 99.16% (الترتيب 11,789) |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | التوقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for this drug is not available in the evidence pack. Based on general pharmacological class knowledge, Interferon Beta-1b is a Type I interferon with direct antiproliferative and immunomodulatory activity — a class effect shared with interferon alfa, which has documented efficacy in hairy cell leukemia.
+حالياً، بيانات آلية العمل التفصيلية لهذا العقار غير متوفرة في مجموعة الأدلة. بناءً على المعرفة العامة بالطبقة الدوائية، يُعتبر Interferon Beta-1b من مادة الإنترفيرون من النوع الأول ذات النشاط المضاد للانتشار والمعدّل للمناعة بشكل مباشر — وهو تأثير طبقي مشترك مع إنترفيرون ألفا، الذي ثبتت فعاليته في لوكيميا الخلايا الشعرية.
 
-The repurposing rationale extracted from the model output states: Type I interferons (including beta-ser/beta-1b) have direct antiproliferative and immunomodulatory effects on hairy cells, and were shown in the late 1980s to induce remission, mechanistically paralleling interferon alfa's established effect in this disease. However, this link is inferred indirectly from alfa-interferon class effects rather than from beta-1b-specific mechanistic evidence, and all supporting literature predates 1991 — well before modern targeted therapies (e.g., purine analogs, BRAF inhibitors) became standard of care for hairy cell leukemia.
+الأساس المنطقي لإعادة توظيف العقار المستخرج من مخرجات النموذج ينص على ما يلي: الإنترفيرونات من النوع الأول (بما فيها beta-ser/beta-1b) لها تأثيرات مضادة للانتشار ومعدّلة للمناعة مباشرة على الخلايا الشعرية، وقد أظهرت في أواخر الثمانينيات أنها تحدث هجوعاً، من الناحية الآلية مماثل لتأثير إنترفيرون ألفا المثبت في هذا المرض. غير أن هذا الربط مستنتج بشكل غير مباشر من تأثيرات فئة ألفا-إنترفيرون بدلاً من بيانات آلية محددة لـ beta-1b، وجميع الأدبيات الداعمة سابقة لعام 1991 — قبل وقت طويل من أن أصبحت العلاجات الموجهة الحديثة (مثل نظائر البيورين ومثبطات BRAF) المعيار في علاج لوكيميا الخلايا الشعرية.
 
-Separately, this evidence pack also contains a second, much more substantially supported prediction — "autoimmune disease of central nervous system" — which corresponds to multiple sclerosis, the condition Interferon Beta-1b (Betaferon®/Betaseron®) is already approved for in many other countries. This is not a novel biological hypothesis so much as a reflection of the drug's known therapeutic identity; it is included below for completeness since it appears in the source data.
+بشكل منفصل، تحتوي مجموعة الأدلة هذه أيضاً على تنبؤ ثانٍ بدعم أكثر بكثير — "أمراض مناعية ذاتية في الجهاز العصبي المركزي" — الذي يتطابق مع التصلب المتعدد، الحالة المرضية التي يوافق عليها Interferon Beta-1b (Betaferon®/Betaseron®) بالفعل في عدد من الدول الأخرى. هذا ليس فرضية بيولوجية جديدة بقدر ما هو انعكاس للهوية العلاجية المعروفة للعقار؛ يتم تضمينه أدناه لاكتمال البيانات لأنه يظهر في البيانات المصدرية.
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-Currently no related clinical trials registered for hairy cell leukemia.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ لوكيميا الخلايا الشعرية.
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospective Comparative Study (Phase 2-like) | Cancer | 10 HCL patients treated with recombinant beta-ser-interferon (90×10⁶ U SC TIW); 63% normalized peripheral counts, 25% partial hematologic improvement |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case Series | American Journal of Hematology | 12 HCL patients treated with IV beta-ser interferon (90 million U TIW); most had 90–100% marrow hairy-cell involvement |
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospective Cohort (institutional experience) | Leukemia | UCLA experience: 51 HCL patients on Type I interferons; 71% response rate in the beta-serine-interferon subgroup (early follow-up) |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case Report | American Journal of Clinical Oncology | Beta-ser-interferon failure case rescued by deoxycoformycin; interferon is the prior-failed therapy, not the study drug |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | دراسة مقارنة مستقبلية (شبيهة بالمرحلة 2) | Cancer | 10 مرضى يعانون من HCL تم علاجهم بإنترفيرون بيتا سيرين المركب (90×10⁶ U SC TIW)؛ أظهر 63% تطبيع العدد المحيطي و25% تحسناً دموياً جزئياً |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | سلسلة حالات | American Journal of Hematology | 12 مريضاً يعانون من HCL تم علاجهم بـ إنترفيرون بيتا سيرين الوريدي (90 مليون U TIW)؛ معظمهم كان لديهم مشاركة خلايا شعرية بنسبة 90–100% في نقي العظم |
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | دراسة أترابية بأثر رجعي (تجربة مؤسسة) | Leukemia | تجربة UCLA: 51 مريضاً يعانون من HCL على إنترفيرونات النوع الأول؛ معدل استجابة 71% في المجموعة الفرعية لإنترفيرون بيتا-سيرين (المتابعة المبكرة) |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | تقرير حالة | American Journal of Clinical Oncology | فشل إنترفيرون بيتا-سيرين تم إنقاذه بـ deoxycoformycin؛ الإنترفيرون هو العلاج السابق الفاشل، وليس عقار الدراسة |
 
-## Additional Predicted Indication: Autoimmune Disease of the Central Nervous System (Multiple Sclerosis)
+## دلالة إضافية متنبأ بها: الأمراض المناعية الذاتية للجهاز العصبي المركزي (التصلب المتعدد)
 
-This second candidate ranks just below hairy cell leukemia (TxGNN score 99.02%, rank 13,377) but has substantially deeper evidence, largely because it mirrors Interferon Beta-1b's known real-world indication (Betaferon®/Betaseron® for MS) rather than a genuinely new hypothesis.
+يحتل هذا المرشح الثاني ترتيباً أقل قليلاً من لوكيميا الخلايا الشعرية (نقاط TxGNN 99.02%، الترتيب 13,377) لكنه يحتوي على دليل أعمق بكثير، إلى حد كبير لأنه يعكس الدلالة المعروفة الواقعية لـ Interferon Beta-1b (Betaferon®/Betaseron® للتصلب المتعدد) بدلاً من فرضية حقيقية جديدة.
 
-**Evidence Level:** L2 (a completed Phase 3 trial arm — the BENEFIT long-term extension — plus a completed Phase 2/3 RCT, supported by numerous completed Phase 2/4 studies and two Cochrane systematic reviews; the pack does not include the original pivotal placebo-controlled Phase 3 registration trial as a separately listed record, so L1's "≥2 completed Phase 3 RCTs" is not strictly confirmed from this data alone).
+**مستوى الدليل:** L2 (ذراع تجربة المرحلة 3 المكتملة — الامتداد طويل الأجل لدراسة BENEFIT — بالإضافة إلى تجربة RCT المرحلة 2/3 المكتملة، مدعومة بعدد من الدراسات المرحلة 2/4 المكتملة ومراجعتي Cochrane المنهجيتين؛ مجموعة الأدلة لا تتضمن تجربة المرحلة 3 القابلة للتسجيل الأصلية المضبوطة بالدواء الوهمي كسجل منفصل، لذا لا يتم تأكيد "≥2 من تجارب RCT المرحلة 3 المكتملة" L1 بشكل صارم من هذه البيانات وحدها).
 
-**Clinical Trial Evidence (top 10 of 24)**
+**دليل التجربة السريرية (أفضل 10 من 24)**
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00185211](https://clinicaltrials.gov/study/NCT00185211) | Phase 3 | Completed | 468 | Long-term extension of the double-blind, placebo-controlled BENEFIT study; compares early vs. delayed IFN beta-1b initiation in CDMS/first demyelinating event |
-| [NCT01795872](https://clinicaltrials.gov/study/NCT01795872) | Phase 4 | Completed | 278 | BENEFIT 11: 11-year follow-up on disability, cognition, and disease course after early vs. delayed IFN beta-1b |
-| [NCT00893217](https://clinicaltrials.gov/study/NCT00893217) | Phase 2 | Completed | 71 | Double-blind RCT comparing Betaseron 500 mcg vs. 250 mcg SC every other day for safety/tolerability in RRMS |
-| [NCT01432704](https://clinicaltrials.gov/study/NCT01432704) | Phase 2/3 | Completed | 70 | Double-blind, placebo-controlled RCT of oral vitamin D3 add-on to IFN beta-1b in MS |
-| [NCT00202995](https://clinicaltrials.gov/study/NCT00202995) | Phase 4 | Terminated | 91 | Randomized comparison of Copaxone vs. high-dose interferon (Betaseron/Rebif) on relapse rates |
-| [NCT01333501](https://clinicaltrials.gov/study/NCT01333501) | Phase 4 | Completed | 151 | Randomized, active-controlled pilot comparing fingolimod vs. IFN beta-1b on cognitive symptoms and brain atrophy in RRMS |
-| [NCT01317004](https://clinicaltrials.gov/study/NCT01317004) | Phase 4 | Completed | 61 | Randomized, open-label comparison of fingolimod vs. prior DMT (incl. IFN beta-1b) on treatment satisfaction |
-| [NCT01158183](https://clinicaltrials.gov/study/NCT01158183) | N/A | Completed | 226 | ROBUST: 12-month US real-world observational outcomes study of Betaseron in relapsing MS |
-| [NCT00819000](https://clinicaltrials.gov/study/NCT00819000) | N/A | Completed | 2878 | TOP MS: large real-world study of MS disease management and treatment adherence/compliance |
-| [NCT01111656](https://clinicaltrials.gov/study/NCT01111656) | Phase 2 | Completed | 28 | SWABIMS follow-up: atorvastatin 40mg add-on vs. IFN beta-1b monotherapy in RRMS |
+| [NCT00185211](https://clinicaltrials.gov/study/NCT00185211) | المرحلة 3 | مكتملة | 468 | الامتداد طويل الأجل لدراسة BENEFIT المضبوطة بالدواء الوهمي؛ مقارنة الإدارة المبكرة مقابل المتأخرة لـ IFN beta-1b في CDMS/الحدث الأول من إزالة الميالين |
+| [NCT01795872](https://clinicaltrials.gov/study/NCT01795872) | المرحلة 4 | مكتملة | 278 | BENEFIT 11: متابعة 11 سنة على الإعاقة والإدراك والسير السريري بعد إدارة IFN beta-1b المبكرة مقابل المتأخرة |
+| [NCT00893217](https://clinicaltrials.gov/study/NCT00893217) | المرحلة 2 | مكتملة | 71 | تجربة عشوائية مضبوطة مزدوجة التعمية لمقارنة Betaseron 500 mcg مقابل 250 mcg SC كل يوم آخر من حيث السلامة والتحمل في RRMS |
+| [NCT01432704](https://clinicaltrials.gov/study/NCT01432704) | المرحلة 2/3 | مكتملة | 70 | تجربة عشوائية مضبوطة مزدوجة التعمية بالدواء الوهمي لإضافة فيتامين D3 الفموي إلى IFN beta-1b في التصلب المتعدد |
+| [NCT00202995](https://clinicaltrials.gov/study/NCT00202995) | المرحلة 4 | مُوقفة | 91 | مقارنة عشوائية بين Copaxone والإنترفيرون عالي الجرعة (Betaseron/Rebif) على معدلات الانتكاسة |
+| [NCT01333501](https://clinicaltrials.gov/study/NCT01333501) | المرحلة 4 | مكتملة | 151 | دراسة تجريبية عشوائية يتم التحكم فيها بنشاط لمقارنة fingolimod مقابل IFN beta-1b على الأعراض الإدراكية وضمور الدماغ في RRMS |
+| [NCT01317004](https://clinicaltrials.gov/study/NCT01317004) | المرحلة 4 | مكتملة | 61 | مقارنة عشوائية مفتوحة التصميم بين fingolimod والعلاج المرضي السابق (بما فيه IFN beta-1b) على رضا المريض بالعلاج |
+| [NCT01158183](https://clinicaltrials.gov/study/NCT01158183) | N/A | مكتملة | 226 | ROBUST: دراسة ملاحظة واقعية لمدة 12 شهراً في الولايات المتحدة لنتائج Betaseron في التصلب المتعدد الناكس |
+| [NCT00819000](https://clinicaltrials.gov/study/NCT00819000) | N/A | مكتملة | 2878 | TOP MS: دراسة واقعية كبيرة للإدارة الطبية للتصلب المتعدد والالتزام/الامتثال بالعلاج |
+| [NCT01111656](https://clinicaltrials.gov/study/NCT01111656) | المرحلة 2 | مكتملة | 28 | متابعة SWABIMS: إضافة atorvastatin 40 mg مقابل أحادي العلاج بـ IFN beta-1b في RRMS |
 
-**Literature Evidence (top 10 of 19)**
+**دليل الأدب (أفضل 10 من 19)**
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | Systematic Review / Network Meta-analysis | Cochrane Database of Systematic Reviews | Comparative adverse-effect profile of MS immunotherapies including interferon beta |
-| [25062935](https://pubmed.ncbi.nlm.nih.gov/25062935/) | 2014 | Systematic Review | Cochrane Database of Systematic Reviews | Interferons-beta vs. glatiramer acetate for relapsing-remitting MS |
-| [11971121](https://pubmed.ncbi.nlm.nih.gov/11971121/) | 2002 | Review | Neurology | Mechanisms of action of interferons and glatiramer acetate in MS |
-| [19707422](https://pubmed.ncbi.nlm.nih.gov/19707422/) | 2009 | Review | Biologics: Targets & Therapy | Review of IFN beta-1b efficacy in early and relapsing MS |
-| [8808634](https://pubmed.ncbi.nlm.nih.gov/8808634/) | 1996 | Review | Clinical Immunology and Immunopathology | IFN beta-1b lessens MS attack frequency and MRI-assessed disease burden; immune-modulatory mechanism |
-| [9007089](https://pubmed.ncbi.nlm.nih.gov/9007089/) | 1996 | Mechanistic Study | Annals of Neurology | IFN beta-1b inhibits gelatinase secretion and T-cell migration — proposed mechanism for clinical benefit |
-| [15007120](https://pubmed.ncbi.nlm.nih.gov/15007120/) | 2004 | RCT Follow-up Analysis | Neurology | IFN beta-1b slows progression of brain atrophy over 3 years in RRMS |
-| [16542163](https://pubmed.ncbi.nlm.nih.gov/16542163/) | 2006 | Observational Head-to-Head | Acta Neurologica Scandinavica | 6-year comparison of IFN beta-1a vs. beta-1b efficacy and safety |
-| [25482255](https://pubmed.ncbi.nlm.nih.gov/25482255/) | 2014 | Review | Neurologia i Neurochirurgia Polska | Long-term (16–21 year) follow-up of the pivotal IFN beta-1b trial and effect on survival |
-| [8069001](https://pubmed.ncbi.nlm.nih.gov/8069001/) | 1994 | Review | The Annals of Pharmacotherapy | Early pharmacology, efficacy, and dosing review of IFN beta-1b for RRMS |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | مراجعة منهجية / تحليل شبكي | Cochrane Database of Systematic Reviews | ملف الآثار الجانبية المقارن لعلاجات مناعة التصلب المتعدد بما فيها إنترفيرون بيتا |
+| [25062935](https://pubmed.ncbi.nlm.nih.gov/25062935/) | 2014 | مراجعة منهجية | Cochrane Database of Systematic Reviews | إنترفيرونات-بيتا مقابل أسيتات غلاتيرامير في التصلب المتعدد الناكس المتهدج |
+| [11971121](https://pubmed.ncbi.nlm.nih.gov/11971121/) | 2002 | مراجعة | Neurology | آليات عمل الإنترفيرونات وأسيتات غلاتيرامير في التصلب المتعدد |
+| [19707422](https://pubmed.ncbi.nlm.nih.gov/19707422/) | 2009 | مراجعة | Biologics: Targets & Therapy | مراجعة فعالية IFN beta-1b في التصلب المتعدد المبكر والناكس |
+| [8808634](https://pubmed.ncbi.nlm.nih.gov/8808634/) | 1996 | مراجعة | Clinical Immunology and Immunopathology | IFN beta-1b يقلل من تكرار هجمات التصلب المتعدد وعبء المرض المقيّم بالتصوير بالرنين المغناطيسي؛ آلية معدّلة للمناعة |
+| [9007089](https://pubmed.ncbi.nlm.nih.gov/9007089/) | 1996 | دراسة آلية | Annals of Neurology | IFN beta-1b يثبط إفراز الجيلاتيناز وهجرة الخلايا التائية — الآلية المقترحة للفائدة السريرية |
+| [15007120](https://pubmed.ncbi.nlm.nih.gov/15007120/) | 2004 | تحليل متابعة RCT | Neurology | IFN beta-1b يبطئ تطور ضمور الدماغ على مدى 3 سنوات في RRMS |
+| [16542163](https://pubmed.ncbi.nlm.nih.gov/16542163/) | 2006 | مقارنة الرأس بالرأس الملاحظة | Acta Neurologica Scandinavica | مقارنة 6 سنوات من IFN beta-1a مقابل beta-1b من حيث الفعالية والسلامة |
+| [25482255](https://pubmed.ncbi.nlm.nih.gov/25482255/) | 2014 | مراجعة | Neurologia i Neurochirurgia Polska | متابعة طويلة الأجل (16–21 سنة) لدراسة IFN beta-1b المحورية وتأثيرها على البقاء |
+| [8069001](https://pubmed.ncbi.nlm.nih.gov/8069001/) | 1994 | مراجعة | The Annals of Pharmacotherapy | مراجعة الصيدلة والفعالية والجرعات المبكرة لـ IFN beta-1b في RRMS |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Interferon Beta-1b is not currently marketed in Saudi Arabia — 0 authorizations are on file, and no license records are available in this evidence pack.
+إن Interferon Beta-1b غير مسوق حالياً في المملكة العربية السعودية — توجد 0 تفويضات على الملف، ولا توجد سجلات ترخيص متاحة في هذه مجموعة الأدلة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug interaction data are currently available for this drug; the DDI query returned "not found.")
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (لا تتوفر بيانات تحذيرات رئيسية أو موانع استطباب أو تفاعلات أدوية حالياً لهذا العقار؛ استعلام DDI أعاد "لم يتم العثور عليه".)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: التوقف**
 
-**Rationale:**
-A blocking data gap (missing TFDA/local package insert) prevents entry into S1 safety pre-assessment, and the hairy cell leukemia evidence base consists only of small legacy studies from 1987–1990 with no contemporary trials (L3). The better-evidenced CNS autoimmune disease (MS) prediction largely reflects the drug's already-established use elsewhere rather than novel efficacy, and equally cannot proceed without local safety documentation.
+**المبرر:**
+يمنع فجوة بيانات محظورة (نشرة العبوة المحلية TFDA المفقودة) الدخول إلى تقييم السلامة المسبق S1، وقاعدة الأدلة لـ لوكيميا الخلايا الشعرية تتكون فقط من دراسات قديمة صغيرة من 1987–1990 بدون تجارب معاصرة (L3). يعكس التنبؤ بمرض الجهاز العصبي المركزي المناعي ذاتي الأفضل دعماً إلى حد كبير الاستخدام المعروف بالفعل للعقار في مكان آخر بدلاً من الفعالية الجديدة، وبالمثل لا يمكنه المضي قدماً بدون توثيق السلامة المحلية.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — required to clear the S1 safety gate
-- DrugBank-sourced mechanism of action data
-- Drug interaction (DDI) data, currently unavailable
-- If pursuing hairy cell leukemia: contemporary evidence (post-2000) given current standard-of-care has moved to purine analogs/targeted agents
-- If pursuing the CNS autoimmune disease indication: clarify whether this should be pathwayed as a market-registration case (given established global approval as Betaferon®/Betaseron®) rather than a de novo repurposing evaluation
+**للمضي قدماً، ما يلي مطلوب:**
+- نشرة عبوة TFDA (التحذيرات/موانع الاستطباب) — مطلوبة لمسح بوابة السلامة S1
+- بيانات آلية العمل المستخرجة من DrugBank
+- بيانات تفاعلات الأدوية (DDI)، غير متاحة حالياً
+- إذا تم اتباع دلالة لوكيميا الخلايا الشعرية: أدلة معاصرة (بعد عام 2000) بالنظر إلى أن المعايير الحالية للعناية انتقلت إلى عوامل البيورين/العوامل الموجهة
+- إذا تم اتباع دلالة الجهاز العصبي المركزي المناعي: توضيح ما إذا كان يجب توجيه هذا كحالة تسجيل السوق (بالنظر إلى الموافقة المثبتة عالمياً باسم Betaferon®/Betaseron®) بدلاً من تقييم إعادة التوظيف الجديد تماماً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

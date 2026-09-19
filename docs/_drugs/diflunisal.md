@@ -29,85 +29,86 @@ indication_count: 10
 
 </div>
 
-# Diflunisal: From Pain and Inflammation to Ankylosing Spondylitis
+# ديفلونيسال: من الألم والالتهاب إلى التهاب الفقار اللاصق
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Diflunisal is a salicylate-derived non-steroidal anti-inflammatory drug (NSAID) established for pain relief and musculoskeletal inflammation.
-The TxGNN model predicts it may be effective for **Ankylosing Spondylitis** (TxGNN rank #5 among 10 candidates; ranks #1–4 are all Hold/L5 with no clinical evidence), with **0 registered clinical trials** and **3 directly relevant publications** (plus 4 NSAID class-effect reviews) currently supporting this direction.
+ديفلونيسال هو عقار مشتق من حمض الساليسيليك يُصنّف ضمن مثبطات الالتهاب غير الستيرويدية (NSAIDs) ومعروف لتسكين الألم والالتهاب في الأنسجة العضلية والهيكلية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الفقار اللاصق** (ترتيب TxGNN #5 من بين 10 مرشحين؛ المراتب الأربع الأولى (#1-4) جميعها في وضع Hold/L5 بدون دليل سريري)، مع **0 تجربة سريرية مسجلة** و**3 منشورات مرتبطة بشكل مباشر** (بالإضافة إلى 4 مراجعات حول التأثيرات على مستوى فئة NSAIDs) تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Pain and musculoskeletal inflammation (NSAID class; no Saudi Arabia regulatory record available) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.98% (rank #5; top 4 predictions are congenital skeletal dysplasias with no evidence) |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الإشارة الأصلية | الألم والالتهاب العضلي الهيكلي (فئة NSAIDs؛ لا توجد سجلات تنظيمية متاحة في المملكة العربية السعودية) |
+| الإشارة الجديدة المتوقعة | التهاب الفقار اللاصق |
+| درجة التنبؤ من TxGNN | 99.98% (ترتيب #5؛ أفضل 4 تنبؤات تتعلق بخلل التنسج العظمي الخلقي بدون دليل) |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع احتياطات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, diflunisal is a difluorophenyl salicylate — an NSAID belonging to the salicylate class — whose analgesic and anti-inflammatory efficacy in musculoskeletal and rheumatic pain has been demonstrated in clinical use. Like other NSAIDs, it is understood to act through cyclooxygenase (COX) inhibition, reducing prostaglandin biosynthesis and thereby suppressing inflammation and pain signalling.
+حالياً، تفاصيل آلية العمل الدقيقة غير متاحة في هذه الحزمة الدليلية. بناءً على المعلومات الدوائية المعروفة، ديفلونيسال هو ملح ثنائي فلور الفينيل مشتق من حمض الساليسيليك — ينتمي لفئة مثبطات الالتهاب غير الستيرويدية (السالسيلات) — وقد ثبتت فعاليته المسكنة والمضادة للالتهاب في الألم العضلي الهيكلي والروماتيزمي من خلال الاستخدام السريري. وكما هو الحال مع مثبطات الالتهاب غير الستيرويدية الأخرى، يُعتقد أنه يعمل من خلال تثبيط cyclooxygenase (COX)، مما يقلل من تخليق البروستاجلاندين وبالتالي يثبط إشارات الالتهاب والألم.
 
-Ankylosing spondylitis (AS) is a chronic immune-mediated inflammatory arthropathy of the axial skeleton driven by aberrant prostaglandin and cytokine signalling. NSAIDs are the established, guideline-recommended first-line pharmacological treatment for AS — reducing spinal pain and stiffness, and potentially slowing radiographic progression in continuous use. Diflunisal's COX-inhibitory mechanism maps directly onto the predominant pathophysiological driver of AS symptoms.
+التهاب الفقار اللاصق (AS) هو مرض التهاب مفاصل مزمن يحركه الجهاز المناعي ويصيب الهيكل العظمي المحوري، وينجم عن إشارات شاذة للبروستاجلاندين والسيتوكينات. مثبطات الالتهاب غير الستيرويدية هي العلاج الدوائي من الدرجة الأولى الموصى به في الإرشادات السريرية لـ AS — حيث تقلل من ألم وتيبس العمود الفقري، وقد تبطئ التطور الشعاعي عند الاستخدام المستمر. إن آلية تثبيط COX لدى ديفلونيسال تتطابق بشكل مباشر مع محرك الفسيولوجيا المرضية الأساسي لأعراض AS.
 
-Critically, this prediction is not purely algorithmic: a 12-week double-blind randomised trial (PMID 3524970, 1986) directly compared diflunisal 500 mg twice daily against phenylbutazone in 38 active AS patients, finding both agents effective in improving symptom severity, with diflunisal showing a more rapid early analgesic onset. A 48-week prospective extension from the same cohort (PMID 4062389) further examined disease-activity biomarkers under diflunisal treatment. These studies constitute L3 direct clinical evidence for diflunisal in AS, elevating this prediction above the majority of TxGNN-ranked candidates in this report.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+وبشكل حاسم، هذا التنبؤ ليس بحتاً خوارزمياً: فقد أجريت تجربة عشوائية معماة مزدوجة لمدة 12 أسبوع (PMID 3524970، 1986) قارنت ديفلونيسال 500 mg مرتين يومياً مقابل فينيلبيوتازون في 38 مريضاً ذكراً نشطاً بـ AS، ووجدت أن كلا الدواءين فعالان في تحسين شدة الأعراض، مع إظهار ديفلونيسال لبداية تسكين ألم أسرع وأكثر وضوحاً. وفحص امتداد مستقبلي لمدة 48 أسبوع من نفس المجموعة (PMID 4062389) علامات نشاط المرض الحيوية تحت العلاج بالديفلونيسال. تمثل هذه الدراسات دليلاً سريرياً مباشراً من المستوى L3 لاستخدام ديفلونيسال في AS، مما يرفع هذا التنبؤ فوق غالبية مرشحي ترتيب TxGNN في هذا التقرير.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | Controlled Comparative Trial | Clinical Rheumatology | 12-week double-blind RCT in 38 male AS patients: diflunisal 500 mg BID vs phenylbutazone 200 mg BID; both drugs effective in improving symptom severity throughout 48-week follow-up; diflunisal showed more pronounced and rapid early analgesia |
-| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Prospective Cohort | Annals of the Rheumatic Diseases | 48-week longitudinal study in 38 AS patients on diflunisal or phenylbutazone; serum IgA correlated most frequently with chest expansion and lumbar flexion index, and tracked disease activity under treatment — providing a biomarker framework for monitoring diflunisal response |
-| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Observational | The Journal of Rheumatology | Spirometric study in 33 AS patients treated 12 weeks double-blind then 36 weeks open with diflunisal or phenylbutazone; assessed restrictive pulmonary function impairment caused by progressive thoracic ankylosis — provides safety-relevant functional endpoint data |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Narrative Review (other drug) | Clinical Pharmacy | Comprehensive review of diclofenac pharmacology and efficacy in rheumatic diseases including AS; contextualises COX inhibition and prostaglandin reduction as the shared NSAID class mechanism relevant to AS management |
-| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Narrative Review (other drug) | Drugs | Diclofenac review advocating NSAID class for RA, degenerative joint disease, and AS; establishes comparability benchmarks (aspirin, indomethacin) applicable to positioning diflunisal within the NSAID class for AS |
-| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Narrative Review (other drug) | Drugs | Naproxen class review in rheumatic diseases including AS; demonstrates superiority of propionic acid NSAIDs over aspirin in tolerability — NSAID class context for interpreting diflunisal's position |
-| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Narrative Review (other drug) | Drugs | Pirprofen review demonstrating interchangeability of multiple NSAIDs in AS, osteoarthritis, and musculoskeletal disorders; reinforces class-level treatment equivalence relevant to diflunisal repurposing rationale |
+| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | تجربة مقارنة محكومة | Clinical Rheumatology | تجربة عشوائية معماة مزدوجة (RCT) لمدة 12 أسبوع في 38 مريضاً ذكراً بـ AS: ديفلونيسال 500 mg مرتين يومياً مقابل فينيلبيوتازون 200 mg مرتين يومياً؛ كلا الدواءين فعالان في تحسين شدة الأعراض طوال فترة المتابعة 48 أسبوع؛ أظهر ديفلونيسال بداية تسكين ألم أكثر حدة وسرعة |
+| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | دراسة أتراب مستقبلية | Annals of the Rheumatic Diseases | دراسة طولية لمدة 48 أسبوع في 38 مريضاً بـ AS على ديفلونيسال أو فينيلبيوتازون؛ ارتبط IgA المصلي بشكل متكرر مع توسع الصدر ومؤشر المرونة القطنية، وتتبع نشاط المرض تحت العلاج — يوفر إطار عمل حيوي لمراقبة الاستجابة للديفلونيسال |
+| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | رصد ملاحظة | The Journal of Rheumatology | دراسة قياس التنفس في 33 مريضاً بـ AS عولجوا لمدة 12 أسبوع معماة مزدوجة ثم 36 أسبوع مفتوحة مع ديفلونيسال أو فينيلبيوتازون؛ قيّمت ضعف الوظيفة الرئوية التقييدي الناجم عن تصلب الصدر التقدمي — توفر بيانات نقطة نهاية وظيفية ذات صلة بالسلامة |
+| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | مراجعة سردية (دواء آخر) | Clinical Pharmacy | مراجعة شاملة لدوائية ديكلوفيناك والفعالية في الأمراض الروماتيزمية بما فيها AS؛ توضح تثبيط COX وتقليل البروستاجلاندين كآلية فئة NSAID المشتركة ذات الصلة بإدارة AS |
+| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | مراجعة سردية (دواء آخر) | Drugs | مراجعة ديكلوفيناك تدعم استخدام فئة NSAID لـ RA والمرض التنكسي والـ AS؛ توضع معايير المقارنة (حمض أسيتيل الساليسيليك، إندوميثاسين) القابلة للتطبيق على موضع ديفلونيسال ضمن فئة NSAID لـ AS |
+| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | مراجعة سردية (دواء آخر) | Drugs | مراجعة فئة نابروكسين في الأمراض الروماتيزمية بما فيها AS؛ توضح تفوق مثبطات الالتهاب مشتقة من حمض البروبيونيك على حمض أسيتيل الساليسيليك من حيث التحمل — سياق فئة NSAID لتفسير موضع ديفلونيسال |
+| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | مراجعة سردية (دواء آخر) | Drugs | مراجعة بيربروفين توضح قابلية التبديل بين مثبطات الالتهاب المتعددة في AS والتهاب المفاصل التنكسي والاضطرابات العضلية الهيكلية؛ تؤكد التعادل على مستوى الفئة العلاجية ذي الصلة بأساس إعادة تصميم ديفلونيسال |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Diflunisal holds no regulatory authorizations in Saudi Arabia and is currently not marketed. No license records are available for tabulation.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+ديفلونيسال لا يحتفظ بأي تصاريح تنظيمية في المملكة العربية السعودية وهو غير مسوق حالياً. لا توجد سجلات ترخيص متاحة للجدولة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-A 1986 double-blind controlled trial directly demonstrated diflunisal's clinical efficacy in active ankylosing spondylitis, and NSAIDs are the established first-line pharmacological class for this indication — making the mechanistic and clinical rationale for repurposing both clear and well-grounded, despite the evidence predating modern trial design standards.
+---
 
-**To proceed, the following is needed:**
+## الاستنتاج والخطوات التالية
 
-- **Regulatory pathway**: Diflunisal is not marketed in Saudi Arabia; market entry or named-patient access pathway must be established before any clinical use
-- **Safety documentation**: Full package insert review required — key warnings, contraindications, renal/GI/cardiovascular risks (standard NSAID class concerns), and drug interaction profile must be formally assessed before safety gating (DG001, DG002 data gaps)
-- **MOA documentation**: Formal pharmacological dossier to confirm COX-1/2 selectivity profile and distinguish diflunisal from other NSAIDs (DG002)
-- **Comparative positioning**: Evaluate whether diflunisal offers advantages over currently available, better-studied NSAIDs for AS (indomethacin, naproxen, celecoxib, etoricoxib) — the existing evidence is from 1985–1986 and pre-dates biological therapy era
-- **Trial modernisation**: Consider whether a prospective head-to-head comparison with a current standard-of-care NSAID in AS would be feasible and add value, particularly given the absence of any registered clinical trials
+**القرار: المتابعة مع احتياطات**
+
+**الأساس المنطقي:**
+أثبتت تجربة معماة محكومة سنة 1986 بشكل مباشر الفعالية السريرية لديفلونيسال في التهاب الفقار اللاصق النشط، وتُعتبر مثبطات الالتهاب غير الستيرويدية فئة العلاج الدوائي من الدرجة الأولى الموصى بها لهذه الحالة — مما يجعل الأساس الآلي والسريري لإعادة التصميم واضحاً وقائماً على أساس سليم، على الرغم من أن الدليل يسبق معايير التصميم التجريبي الحديثة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **المسار التنظيمي**: ديفلونيسال غير مسوق في المملكة العربية السعودية؛ يجب إنشاء مسار دخول السوق أو مسار وصول المريض المعين قبل أي استخدام سريري
+- **توثيق السلامة**: يلزم مراجعة شاملة لنشرة الدواء — يجب تقييم التحذيرات الرئيسية والموانع وأخطار الكلى/الجهاز الهضمي/القلب والأوعية الدموية (المخاوف القياسية لفئة NSAID) وملف التفاعل الدوائي بشكل رسمي قبل بوابة السلامة (فجوات البيانات DG001 و DG002)
+- **توثيق آلية العمل**: ملف دوائي رسمي لتأكيد ملف التحديد الانتقائي لـ COX-1/2 والتمييز بين ديفلونيسال والمثبطات الأخرى (DG002)
+- **الموضع المقارن**: تقييم ما إذا كان ديفلونيسال يوفر مزايا على مثبطات الالتهاب المتاحة حالياً والمدروسة بشكل أفضل لـ AS (إندوميثاسين، نابروكسين، سيليكوكسيب، إيتوريكوكسيب) — الدليل الموجود يعود لـ 1985-1986 ويسبق عصر العلاج البيولوجي
+- **تحديث التجربة**: فكر في ما إذا كانت دراسة مقارنة رأس بأم مستقبلية مع العلاج القياسي الحالي لـ AS ستكون قابلة للتنفيذ وتضيف قيمة، خاصة بالنظر إلى عدم وجود أي تجارب سريرية مسجلة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

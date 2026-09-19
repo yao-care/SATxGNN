@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Fusidic Acid: From Staphylococcal Infections to Exposure Keratitis
+# Fusidic Acid (حمض الفوسيديك): من عدوى Staphylococcal إلى التهاب القرنية التعريضي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Fusidic acid is a steroidal antibiotic historically used against *Staphylococcus* infections (skin/soft tissue, bone/joint, and topically for bacterial conjunctivitis), though it is not currently marketed in Taiwan and no Taiwan-specific indication text is available in this evidence pack. The TxGNN model predicts it may be effective for **Exposure Keratitis**, but this direction is currently supported by only **1 tangentially related case series** and **no registered clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (drug not marketed in Taiwan); internationally known for staphylococcal skin/soft tissue, bone/joint infections and topical ophthalmic use for bacterial conjunctivitis |
-| Predicted New Indication | Exposure Keratitis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 (single indirectly-relevant case series, no controlled or systematic studies) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Fusidic Acid هو مضاد حيوي استيرويدي استُخدم تاريخياً ضد عدوى *Staphylococcus* (الجلد والأنسجة الرخوة والعظام والمفاصل، والاستخدام الموضعي لالتهاب الملتحمة البكتيري)، على الرغم من أنه غير مسوق حالياً في تايوان وليس هناك نص إشارة مخصص لتايوان متاح في مجموعة الأدلة هذه. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب القرنية التعريضي**، لكن هذا الاتجاه مدعوم حالياً بـ **سلسلة حالات واحدة فقط غير مرتبطة بشكل مباشر** و**لا توجد تجارب سريرية مسجلة**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as Blocking/High data gap). Based on general pharmacological knowledge, fusidic acid inhibits bacterial protein synthesis by blocking translocation of elongation factor G (EF-G) on the ribosome, and is primarily active against Gram-positive organisms, notably *Staphylococcus aureus* including MRSA strains.
-
-Exposure keratitis is corneal epithelial breakdown from inadequate lid closure/tear film coverage, which predisposes the eye to secondary bacterial superinfection — a complication rather than the primary pathology. Fusidic acid is internationally marketed as an ophthalmic gel for bacterial conjunctivitis, so a mechanistic link to ocular surface infection is plausible in principle: an anti-staphylococcal topical antibiotic could theoretically reduce secondary infection risk in an already-compromised cornea.
-
-However, the only literature identified for this pairing (PMID 31246677) is a case series on *Tsukamurella*-associated ophthalmic infections — an unrelated actinomycete pathogen — and does not directly study fusidic acid efficacy in exposure keratitis. The mechanistic rationale is therefore plausible but currently unsubstantiated by direct evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|-------|--------|
+| الإشارة الأصلية | غير موثقة في مجموعة الأدلة (الدواء غير مسوق في تايوان)؛ معروف دولياً لعدوى *Staphylococcus* في الجلد والأنسجة الرخوة والعظام والمفاصل والاستخدام الموضعي لالتهاب الملتحمة البكتيري |
+| الإشارة الجديدة المتنبأ بها | التهاب القرنية التعريضي |
+| درجة تنبؤ TxGNN | 99.95% |
+| مستوى الدليل | L4 (سلسلة حالات واحدة غير مرتبطة بشكل مباشر، لا توجد دراسات خاضعة للتحكم أو منهجية) |
+| حالة السوق في تايوان | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| قرار مستحسن | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest reported case series of *Tsukamurella*-associated ophthalmic infections (including a case following ocular implant/enucleation); does not directly evaluate fusidic acid in exposure keratitis |
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في مجموعة الأدلة (تم تحديدها كفجوة بيانات حجب/أولوية عالية). بناءً على المعرفة الصيدلانية العامة، يثبط Fusidic Acid تخليق البروتين البكتيري بحجب انتقال عامل الاستطالة G (EF-G) على الريبوسوم، وهو نشط بشكل أساسي ضد الكائنات الحية الموجبة لصبغة جرام، وخاصة *Staphylococcus aureus* بما في ذلك سلالات MRSA.
 
----
+التهاب القرنية التعريضي هو انهيار الظهارة القرنية من عدم كفاية إغلاق الجفن/تغطية الفيلم الدمعي، مما يهيئ العين للعدوى البكتيرية الثانوية — وهي مضاعفة وليست المرض الأساسي. يتم تسويق Fusidic Acid دولياً كهلام عيني لالتهاب الملتحمة البكتيري، لذلك يكون هناك ارتباط آلي معقول لعدوى سطح العين: يمكن للمضاد الحيوي الموضعي المضاد للمكورات العنقودية نظرياً أن يقلل من خطر العدوى الثانوية في قرنية مكتسبة بالفعل.
 
-## Taiwan Market Information
-
-Fusidic acid holds no marketing authorization in Taiwan (0 licenses); no product or indication data is available.
+ومع ذلك، الأدب المحدد الوحيد لهذا الاقتران (PMID 31246677) هو سلسلة حالات حول عدوى *Tsukamurella* المرتبطة بالعين — مسبب مرض خيطي غير ذي صلة — وليس دراسة مباشرة لفعالية Fusidic Acid في التهاب القرنية التعريضي. المبرر الآلي وبالتالي معقول لكن حالياً غير مدعوم بدليل مباشر.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are a Blocking-severity data gap (DG001) — this prevents any S1 safety initial assessment.)*
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|---------|
+| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | سلسلة حالات | Cornea | أكبر سلسلة حالات مُبلَّغ عنها لعدوى *Tsukamurella* المرتبطة بالعين (بما في ذلك حالة بعد غرس عيني/استئصال العين)؛ لا تقيِّم مباشرة فعالية Fusidic Acid في التهاب القرنية التعريضي |
 
-**Rationale:**
-The only supporting literature for exposure keratitis is a single case series with indirect relevance (different pathogen, not evaluating fusidic acid efficacy), with zero clinical trials and no Taiwan marketing history — the evidence base is far too thin to proceed, and the missing TFDA safety data blocks any initial safety assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently Blocking gap (DG001)
-- DrugBank-sourced mechanism of action data (DG002)
-- Direct clinical or preclinical evidence evaluating fusidic acid (topical/ophthalmic) specifically in exposure keratitis or related corneal exposure/infection models
-- Confirmation of an ophthalmic route/formulation compatible with this indication
+## معلومات سوق تايوان
+
+لا يحتفظ Fusidic Acid بأي تصريح تسويق في تايوان (0 ترخيص)؛ لا تتوفر بيانات منتج أو إشارة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملف العبوة للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات وموانع استخدام ملف العبوة TFDA هي فجوة بيانات من خطورة الحجب (DG001) — هذا يمنع أي تقييم أولي للسلامة S1.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المنطق:**
+الأدلة المحددة الوحيدة لالتهاب القرنية التعريضي هي سلسلة حالات واحدة بصلة غير مباشرة (مسبب مرض مختلف، لا تقيِّم فعالية Fusidic Acid)، مع عدم وجود تجارب سريرية وعدم وجود سجل تسويق في تايوان — قاعدة الأدلة ضعيفة جداً للمتابعة، وبيانات سلامة TFDA المفقودة تمنع أي تقييم أولي للسلامة.
+
+**للمتابعة، يلزم ما يلي:**
+- ملف العبوة TFDA (التحذيرات/موانع الاستخدام) — فجوة حجب حالية (DG001)
+- بيانات آلية العمل المستمدة من DrugBank (DG002)
+- دليل سريري أو حيوي مباشر يقيِّم Fusidic Acid (موضعي/عيني) على وجه التحديد في التهاب القرنية التعريضي أو نماذج عدوى/تعريض القرنية ذات الصلة
+- تأكيد المسار/الصيغة العينية المتوافقة مع هذه الإشارة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Tenoxicam: From Musculoskeletal & Rheumatic Pain to Rheumatoid Arthritis
+# تينوكسيكام: من الألم العضلي والروماتويدي إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Tenoxicam is an oxicam-class NSAID historically used worldwide for osteoarthritis, ankylosing spondylitis, and other rheumatic and musculoskeletal pain conditions, but it currently holds **no marketing authorization in Saudi Arabia**.
-> The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, a use already well-documented in the international literature,
-> with **1 clinical trial** and **20 publications** (10 most relevant summarized below) supporting this direction.
+> تينوكسيكام هو NSAID من فئة الأوكسيكام استُخدم تاريخياً في جميع أنحاء العالم لهشاشة العظام والتهاب الفقار اللاصق والألم الروماتويدي والعضلي الهيكلي الآخر، لكنه حالياً **لا يملك تصريح تسويق في المملكة العربية السعودية**.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب المفاصل الروماتويدي**، وهو استخدام موثق بالفعل في الأدب الدولي،
+> مع **1 تجربة سريرية** و **20 منشور** (10 منها الأكثر صلة موجزة أدناه) تدعم هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not registered in Saudi Arabia (0 approved licenses); internationally documented as an oxicam-class NSAID for osteoarthritis, ankylosing spondylitis, and rheumatic/musculoskeletal pain |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير مسجل في المملكة العربية السعودية (0 تراخيص معتمدة)؛ موثق دولياً كـ NSAID من فئة الأوكسيكام لهشاشة العظام والتهاب الفقار اللاصق والألم الروماتويدي والعضلي الهيكلي |
+| الاستطباب الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة تنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L1 |
+| حالة سوق المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the source drug record. Based on known pharmacological class information, tenoxicam is an oxicam-class NSAID (structurally and pharmacologically related to piroxicam) that non-selectively inhibits cyclooxygenase (COX-1/COX-2), reducing prostaglandin synthesis and thereby producing analgesic, anti-inflammatory, and antipyretic effects. This is the standard pharmacological basis for symptomatic treatment of rheumatoid arthritis (RA).
+حالياً، بيانات آلية العمل المفصلة غير متاحة في سجل الدواء المصدر. بناءً على معلومات الفئة الدوائية المعروفة، تينوكسيكام هو NSAID من فئة الأوكسيكام (مرتبط هيكلياً وصيدلانياً بـ بيروكسيكام) يثبط cyclooxygenase (COX-1/COX-2) بشكل غير انتقائي، مما يقلل من تخليق البروستاجلاندين وبالتالي ينتج تأثيرات مسكنة ومضادة للالتهاب وخافضة للحرارة. هذا هو الأساس الدوائي القياسي للعلاج العرضي لالتهاب المفاصل الروماتويدي (RA).
 
-Notably, this is not a novel mechanistic leap: multiple historical studies in the evidence pack (1985–1996) already directly compared tenoxicam against piroxicam, aceclofenac, and naproxen specifically in RA populations, showing comparable efficacy and tolerability. The "unmarketed" status in Saudi Arabia therefore reflects a **market-entry gap rather than an efficacy gap** — tenoxicam has been an accepted RA therapy in multiple jurisdictions for decades.
+بشكل ملحوظ، هذا ليس قفزة آلية جديدة: دراسات تاريخية متعددة في مجموعة الأدلة (1985–1996) قارنت بالفعل تينوكسيكام مقابل بيروكسيكام وأسيكلوفيناك وأنابروكسين بشكل خاص في مجموعات RA، مما أظهر فعالية وتحمل قابلة للمقارنة. لذلك، حالة "غير الموجودة في السوق" في المملكة العربية السعودية تعكس **فجوة دخول السوق بدلاً من فجوة الفعالية** — تينوكسيكام كان علاجاً معترفاً به لـ RA في عدة دول لعقود.
 
-Mechanistically, RA is a chronic inflammatory joint disease driven substantially by COX-mediated prostaglandin production, which is precisely the pathway tenoxicam targets. This makes the TxGNN prediction consistent with, rather than divergent from, tenoxicam's established pharmacology — the model has effectively re-identified a well-known indication that has simply not yet been formalized for this market.
+من ناحية الآلية، RA مرض التهاب المفاصل المزمن الذي يُدفع بشكل كبير من خلال إنتاج البروستاجلاندين الوساطة بـ COX، وهي بالضبط المسار الذي يستهدفه تينوكسيكام. هذا يجعل تنبؤ TxGNN متسقاً مع، بدلاً من أن يكون متباعداً عن، علم الأدوية المعروف لـ تينوكسيكام — لقد حدد النموذج فعلياً استطباباً معروفاً جيداً لم يتم تقنينه ببساطة لهذا السوق.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | NA | Completed | 80 | Compared tenoxicam, paracetamol, and tenoxicam-paracetamol combination for postoperative pain in double-jaw surgery; supports tenoxicam's analgesic/anti-inflammatory profile, though not RA-specific (relevance grade B — general/postoperative pain population, not confirmed RA cohort) |
+| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | NA | مكتملة | 80 | قارنت تينوكسيكام والباراسيتامول والمزيج من تينوكسيكام والباراسيتامول للألم بعد الجراحة في جراحة الفكين المزدوجة؛ تدعم ملف تعريف تينوكسيكام المسكن ومضاد الالتهاب، على الرغم من عدم تحديدها لـ RA (درجة الصلة B — مجموعة ألم عام/بعد الجراحة، عينة RA غير مؤكدة) |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | RCT | The Journal of Rheumatology | Tenoxicam 20mg OD vs piroxicam 20mg OD in 102 RA patients — no difference in efficacy; similar adverse event rates |
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT | Clinical Rheumatology | Aceclofenac vs tenoxicam in 292 RA patients over 3 months — both groups improved, comparable efficacy and safety |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | RCT (multicentre) | The Journal of International Medical Research | General-practice study of tenoxicam 20mg/day in 2,963 OA/RA patients over 12 weeks — symptom reduction, most continued long-term |
-| [2512637](https://pubmed.ncbi.nlm.nih.gov/2512637/) | 1989 | RCT (double-blind) | Scandinavian Journal of Rheumatology Supplement | 4-year long-term trial of tenoxicam plus basis therapy (gold/D-penicillamine) in 20 RA patients — sustained analgesic/anti-inflammatory improvement |
-| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | RCT (double-blind) | The British Journal of Clinical Practice | Large multicentre parallel-group study of tenoxicam vs piroxicam in 1,328 OA/RA patients — tenoxicam showed slightly greater effect on global assessment |
-| [2595345](https://pubmed.ncbi.nlm.nih.gov/2595345/) | 1989 | RCT (double-blind pilot) | Scandinavian Journal of Rheumatology Supplement | Randomized pilot comparing tenoxicam and piroxicam on grip strength in 10 RA patients — no significant difference between treatments |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | RCT (double-blind, parallel) | European Journal of Rheumatology and Inflammation | Double-blind parallel trials of tenoxicam vs piroxicam in osteoarthrosis, RA, and ankylosing spondylitis — tenoxicam at least as effective and well tolerated |
-| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Review | Drugs | Preliminary review of tenoxicam's pharmacodynamics, pharmacokinetics, and efficacy across RA, OA, ankylosing spondylitis, and gout |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | Updated review of tenoxicam pharmacology and therapeutic efficacy in rheumatic diseases — efficacy at least equivalent to other NSAIDs, tolerability at least comparable to piroxicam |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Review | Clinical Pharmacokinetics | Review of tenoxicam clinical pharmacokinetics — near-complete oral absorption, ~99% protein binding, long half-life supporting once-daily dosing |
+| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | RCT | The Journal of Rheumatology | تينوكسيكام 20 ملغ مرة يومياً مقابل بيروكسيكام 20 ملغ مرة يومياً في 102 مريض RA — لا فرق في الفعالية؛ معدلات الأحداث الضارة المماثلة |
+| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT | Clinical Rheumatology | أسيكلوفيناك مقابل تينوكسيكام في 292 مريض RA على مدى 3 أشهر — تحسن كلا المجموعتين، فعالية وسلامة قابلة للمقارنة |
+| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | RCT (متعدد المراكز) | The Journal of International Medical Research | دراسة الممارسة العامة لـ تينوكسيكام 20 ملغ/يوم في 2,963 مريض OA/RA على مدى 12 أسبوع — تقليل الأعراض، استمر معظمهم طويل الأمد |
+| [2512637](https://pubmed.ncbi.nlm.nih.gov/2512637/) | 1989 | RCT (عمياء مزدوجة) | Scandinavian Journal of Rheumatology Supplement | تجربة لمدة 4 سنوات لتينوكسيكام بالإضافة إلى العلاج الأساسي (ذهب/D-penicillamine) في 20 مريض RA — تحسن مسكن ومضاد للالتهاب مستدام |
+| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | RCT (عمياء مزدوجة) | The British Journal of Clinical Practice | دراسة متعددة مراكز كبيرة متوازية المجموعات لـ تينوكسيكام مقابل بيروكسيكام في 1,328 مريض OA/RA — أظهر تينوكسيكام تأثيراً أكبر قليلاً على التقييم العام |
+| [2595345](https://pubmed.ncbi.nlm.nih.gov/2595345/) | 1989 | RCT (عمياء مزدوجة تجريبية) | Scandinavian Journal of Rheumatology Supplement | تجربة عشوائية تجريبية تقارن تينوكسيكام وبيروكسيكام على قوة القبضة في 10 مرضى RA — لا فرق كبير بين العلاجات |
+| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | RCT (عمياء مزدوجة، متوازية) | European Journal of Rheumatology and Inflammation | تجارب متوازية عمياء مزدوجة لـ تينوكسيكام مقابل بيروكسيكام في هشاشة العظام والتهاب المفاصل الروماتويدي والتهاب الفقار اللاصق — كان تينوكسيكام فعالاً على الأقل وتم تحمله بشكل جيد |
+| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | مراجعة | Drugs | مراجعة أولية لديناميكية تينوكسيكام، علم الحرائك الدوائية، والفعالية عبر RA و OA والتهاب الفقار اللاصق والنقرس |
+| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | مراجعة | Drugs | مراجعة محدثة لعلم الأدوية لـ تينوكسيكام والفعالية العلاجية في أمراض الروماتيزم — الفعالية على الأقل معادلة لـ NSAIDs الأخرى، التحمل على الأقل قابل للمقارنة مع بيروكسيكام |
+| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | مراجعة | Clinical Pharmacokinetics | مراجعة علم الحرائك الدوائية السريري لـ تينوكسيكام — امتصاص فموي شبه كامل، ربط بروتيني بنسبة ~99٪، نصف عمر طويل يدعم الجرعات مرة واحدة يومياً |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no marketing authorization records exist for tenoxicam in Saudi Arabia (0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No warnings, contraindications, or drug interaction data are currently available in the source records; the TFDA/SFDA package insert has not yet been obtained.)
+حالياً لا توجد سجلات تصريح تسويق لتينوكسيكام في المملكة العربية السعودية (0 تراخيص في الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة. (لا توجد تحذيرات أو موانع استعمال أو بيانات التفاعل الدوائي متاحة حالياً في السجلات المصدرية؛ لم يتم الحصول على ورقة معلومات TFDA/SFDA بعد.)
 
-**Rationale:**
-Multiple RCTs and reviews spanning 1985–1996 consistently support tenoxicam's efficacy and tolerability in RA, comparable to established NSAIDs such as piroxicam, aceclofenac, and naproxen — this is a mechanistically sound and historically validated use, not a speculative one. However, tenoxicam currently has zero marketing authorizations in Saudi Arabia and lacks local safety documentation, so market entry requires standard regulatory and safety diligence rather than new efficacy studies.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently blocking, required before safety pre-assessment (S1) can proceed
-- Confirmed mechanism of action documentation from DrugBank
-- Saudi Arabia regulatory filing / registration pathway assessment (currently 0 licenses)
-- Formal drug-drug interaction (DDI) database confirmation (current query status: not found)
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+دراسات عشوائية متعددة ومراجعات تمتد من 1985–1996 تدعم بشكل متسق فعالية وتحمل تينوكسيكام في RA، قابلة للمقارنة مع NSAIDs المعروفة مثل بيروكسيكام وأسيكلوفيناك وأنابروكسين — هذا استخدام معقول ميكانيكياً وموثق تاريخياً، وليس استخدام تخميني. ومع ذلك، تينوكسيكام لديه حالياً صفر تصاريح تسويق في المملكة العربية السعودية وينقصه التوثيق الأمني المحلي، لذلك يتطلب دخول السوق جهد تنظيمي وأمان قياسي بدلاً من دراسات الفعالية الجديدة.
+
+**للمتابعة، يلزم ما يلي:**
+- ورقة معلومات TFDA/SFDA (تحذيرات، موانع استعمال) — حالياً حجب، مطلوب قبل أن يتمكن التقييم الأولي للسلامة (S1) من المتابعة
+- توثيق آلية العمل المؤكدة من DrugBank
+- تقييم مسار التسجيل/التصريح التنظيمي في المملكة العربية السعودية (حالياً 0 تراخيص)
+- تأكيد رسمي لقاعدة بيانات تفاعلات الأدوية بالأدوية (DDI) (حالة الاستعلام الحالية: لم يتم العثور)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

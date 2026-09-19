@@ -29,62 +29,63 @@ indication_count: 1
 
 </div>
 
-# Glatiramer: From Multiple Sclerosis to Hemoglobinopathy
+# جلاتيرامير: من التهاب الدماغ والنخاع المتعدد إلى الاضطرابات الهيموغلوبينية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Glatiramer acetate is an immunomodulator whose established clinical use is relapsing-remitting multiple sclerosis. The TxGNN model predicts a possible link to **Hemoglobinopathy**, but this direction is currently supported by **0 clinical trials** and only **1 case-report-level publication**, indicating an early, prediction-only signal.
+جلاتيرامير أسيتات هو معدّل مناعي استخدامه السريري المعروف هو التهاب الدماغ والنخاع المتعدد من النوع **المتكرر-الخاافت**. نموذج TxGNN يتنبأ بوجود ارتباط محتمل مع **الاضطرابات الهيموغلوبينية**، لكن هذا الاتجاه حالياً يدعمه **0 تجربة سريرية** و**منشور واحد فقط على مستوى تقرير الحالة**، مما يشير إلى إشارة مبكرة تعتمد على التنبؤ فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (relapsing-remitting) — inferred from known pharmacology; no formal indication text available (see below) |
-| Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | التهاب الدماغ والنخاع المتعدد (من النوع المتكرر-الخاافت) — يُستدل عليه من الفارماكولوجيا المعروفة؛ لا توجد بيانات استطباب رسمية متاحة (انظر أدناه) |
+| الاستطباب الجديد المتنبأ به | **الاضطرابات الهيموغلوبينية** |
+| درجة تنبؤ TxGNN | 99.03% |
+| مستوى الدليل | L5 |
+| حالة سوق المملكة العربية السعودية | غير مسوّق |
+| عدد الموافقات | 0 |
+| **القرار الموصى به** | **الانتظار** |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the structured drug record (flagged as a High-severity data gap requiring a DrugBank API query). Based on known pharmacology, glatiramer acetate is a random co-polymer that mimics myelin basic protein; it modulates T-cell activity and induces a Th2 immune shift, and this mechanism underlies its proven efficacy in multiple sclerosis.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في سجل الدواء المنظم (تم تحديده كفجوة بيانات عالية الخطورة تتطلب استعلاماً عبر DrugBank API). بناءً على الفارماكولوجيا المعروفة، جلاتيرامير أسيتات هو بوليمر عشوائي يحاكي بروتين الميالين الأساسي؛ يعدّل نشاط خلايا T ويحث على تحول مناعي نحو Th2، وهذه الآلية هي أساس فعاليته الثابتة في التهاب الدماغ والنخاع المتعدد.
 
-Hemoglobinopathies (e.g., sickle cell disease, thalassemia) are, by contrast, genetic disorders of hemoglobin structure or synthesis, with core pathology centered on erythropoiesis and hemoglobin chain assembly — a pathway with no established direct connection to glatiramer's immunomodulatory mechanism.
+الاضطرابات الهيموغلوبينية (مثل فقر الدم المنجلي، الثلاسيميا) هي، على النقيض من ذلك، اضطرابات وراثية في تركيب أو تخليق الهيموغلوبين، مع علم الأمراض الأساسي يتمركز في تكون الكريات الحمراء وتجميع سلاسل الهيموغلوبين — وهي مسار ليس له ارتباط مباشر معروف بآلية جلاتيرامير المناعية.
 
-The TxGNN score of 0.99 most likely reflects an indirect knowledge-graph association — for example, shared inflammatory or vaso-occlusive complication nodes seen in sickle cell disease — rather than a validated causal mechanism. This should be treated as a purely predictive, hypothesis-generating link rather than mechanistically confirmed evidence.
+درجة TxGNN البالغة 0.99 تعكس على الأرجح ارتباطاً غير مباشر في الرسم البياني المعرفي — على سبيل المثال، عُقد التهابية مشتركة أو مضاعفات الانسداد الوعائي في فقر الدم المنجلي — بدلاً من أن تكون آلية مؤكدة بالتحقق. يجب التعامل مع هذا كارتباط تنبؤي بحت يولّد فرضيات بدلاً من أن يكون دليلاً مؤيداً آلياً.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [28372806](https://pubmed.ncbi.nlm.nih.gov/28372806/) | 2017 | Case report | Revue neurologique | Describes a 35-year-old woman with a history of beta thalassemia (a hemoglobinopathy) who developed multiple immune disorders after stopping natalizumab for MS; she had previously received first-line subcutaneous immunomodulatory treatment (a category that includes glatiramer). The case does not directly evaluate glatiramer's efficacy against hemoglobinopathy — the connection is incidental (shared patient comorbidity), not a treatment outcome. |
+| [28372806](https://pubmed.ncbi.nlm.nih.gov/28372806/) | 2017 | تقرير حالة | Revue neurologique | يصف امرأة تبلغ من العمر 35 سنة لديها تاريخ من الثلاسيميا بيتا (اضطراب هيموغلوبيني) الذي طورت اضطرابات مناعية متعددة بعد التوقف عن natalizumab لعلاج التهاب الدماغ والنخاع المتعدد؛ تلقت سابقاً معالجة معدلة مناعية تحت الجلد من الخط الأول (فئة تشمل جلاتيرامير). الحالة لا تقيّم مباشرة فعالية جلاتيرامير ضد الاضطرابات الهيموغلوبينية — الارتباط عرضي (مرض مصاحب مشترك للمريض)، وليس نتيجة علاج. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Glatiramer is not currently marketed in Saudi Arabia (0 authorizations on record), so no product/dosage-form data is available.
+جلاتيرامير غير مسوّق حالياً في المملكة العربية السعودية (0 موافقات في السجل)، لذا لا توجد بيانات المنتج/شكل الجرعة متاحة.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Evidence is limited to a single model-generated prediction (L5) with no clinical trials and only one indirectly related case report; the mechanistic rationale for glatiramer acting on hemoglobinopathy is speculative rather than established. The drug is also not currently marketed in Saudi Arabia, and a Blocking data gap (TFDA/local package insert safety data) prevents even an initial safety screen (S1).
+**المبرر:**
+الدليل محدود بتنبؤ واحد يولده النموذج (L5) بدون تجارب سريرية وتقرير حالة واحد فقط غير ذي صلة مباشرة؛ المبرر الآلي لتصرف جلاتيرامير على الاضطرابات الهيموغلوبينية تخميني بدلاً من أن يكون مؤسساً. الدواء أيضاً غير مسوّق حالياً في المملكة العربية السعودية، وفجوة بيانات محجوبة (بيانات السلامة من النشرة الداخلية TFDA/المحلية) تمنع حتى فحص السلامة الأولي (S1).
 
-**To proceed, the following is needed:**
-- TFDA/local package insert safety data (key warnings, contraindications, DDI) — currently Blocking
-- Formal DrugBank-sourced mechanism of action data
-- Preclinical or mechanistic studies directly linking glatiramer's immune pathway to hemoglobinopathy pathophysiology
-- Any prospective clinical or observational evidence beyond the single incidental case report
+**للمتابعة، يكون المطلوب ما يلي:**
+- بيانات السلامة من النشرة الداخلية TFDA/المحلية (التحذيرات الرئيسية، موانع الاستعمال، تفاعلات الأدوية) — حالياً محجوبة
+- بيانات آلية العمل الرسمية المستمدة من DrugBank
+- دراسات ما قبل السريرية أو آلية تربط مباشرة بين مسار المناعة في جلاتيرامير إلى علم أمراض الاضطرابات الهيموغلوبينية
+- أي دليل سريري أو قائم على الملاحظات في المستقبل يتجاوز تقرير الحالة العرضي الواحد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

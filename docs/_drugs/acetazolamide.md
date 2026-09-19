@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Acetazolamide: From Glaucoma / Altitude Sickness to Exercise-Induced Malignant Hyperthermia
+# الأسيتازولاميد: من الزرق / داء الارتفاعات إلى فرط الحرارة الخبيث الناجم عن المجهود
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Acetazolamide is a carbonic anhydrase inhibitor with established uses in glaucoma, altitude sickness prevention, and epilepsy as an adjunct therapy; it is not currently registered in Saudi Arabia.
-The TxGNN model ranks **Exercise-Induced Malignant Hyperthermia** as its top predicted new indication with a score of **99.95%**,
-but **no clinical trials** and **no publications** currently support this specific direction.
+الأسيتازولاميد (acetazolamide) هو مثبط للأنهيدراز الكربوني بدلالات محددة للزرق والوقاية من داء الارتفاعات والصرع كعلاج مساعد؛ وهو غير مسجل حالياً في المملكة العربية السعودية.
+يصنف نموذج TxGNN **فرط الحرارة الخبيث الناجم عن المجهود** كأفضل دلالة جديدة متنبأ بها برصيد **99.95%**،
+لكن **لا توجد تجارب سريرية** و**لا توجد منشورات** تدعم هذا الاتجاه المحدد حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Not registered in Saudi Arabia (globally established uses: glaucoma, acute mountain sickness, epilepsy adjunct) |
-| Predicted New Indication | Exercise-Induced Malignant Hyperthermia |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير مسجل في المملكة العربية السعودية (الاستخدامات العالمية المحددة: الزرق، داء الجبال الحاد، الصرع كمساعد) |
+| الدلالة الجديدة المتنبأ بها | فرط الحرارة الخبيث الناجم عن المجهود |
+| رصيد التنبؤ من TxGNN | 99.95% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التسجيلات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ منطقياً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, acetazolamide inhibits carbonic anhydrase (CA) enzymes — particularly CA II and CA IV — suppressing bicarbonate reabsorption in the renal proximal tubule. This produces a mild metabolic acidosis and alters downstream ion transport. These effects underlie its proven benefits in reducing intraocular pressure (glaucoma), stimulating the hypoxic ventilatory response (altitude sickness), and modulating neuronal membrane excitability (epilepsy adjunct).
+حالياً، لا تتوفر بيانات مفصلة عن آلية العمل في هذه مجموعة الأدلة. بناءً على الصيدلة الكلاسيكية، يثبط الأسيتازولاميد إنزيمات الأنهيدراز الكربوني (CA) — لا سيما CA II و CA IV — مما يثبط إعادة امتصاص البيكربونات في الأنبوب الكلوي القريب. يؤدي هذا إلى حماض أيضي معتدل وتغيير نقل الأيونات اللاحق. تكمن هذه التأثيرات وراء فوائده المثبتة في تقليل ضغط العين داخل الحجاج (الزرق)، وتحفيز الاستجابة التنفسية لنقص الأكسجين (داء الارتفاعات)، وتعديل إثارة الغشاء العصبي (الصرع كمساعد).
 
-Exercise-induced malignant hyperthermia (EIMH) is a rare but life-threatening disorder — most commonly linked to RYR1 gene mutations — in which vigorous physical exertion triggers uncontrolled calcium release from the skeletal muscle sarcoplasmic reticulum, producing a catastrophic hypermetabolic crisis. The established first-line treatment is dantrolene, a direct RYR1 calcium channel inhibitor.
+فرط الحرارة الخبيث الناجم عن المجهود (EIMH) هو اضطراب نادر لكن مهدد للحياة — يرتبط في أغلب الأحيان بطفرات جين RYR1 — حيث يؤدي المجهود البدني الشديد إلى إطلاق غير منضبط للكالسيوم من الشبكة الساركوبلازمية للعضلات الهيكلية، مما ينتج عن أزمة فائقة الاستقلاب كارثية. العلاج الموصى به من الدرجة الأولى هو الدانترولين، وهو مثبط مباشر لقناة كالسيوم RYR1.
 
-The mechanistic link between acetazolamide and EIMH is indirect and unsupported. While CA inhibition could theoretically buffer the metabolic acidosis that accompanies the hypermetabolic crisis, this represents a downstream supportive effect rather than addressing the core pathophysiology of uncontrolled RYR1-mediated calcium dysregulation. The high TxGNN prediction score likely reflects graph-level proximity in the disease-drug knowledge network — possibly via shared ontology nodes with conditions where acetazolamide demonstrably works (e.g., hypokalemic periodic paralysis, where it prevents membrane excitability attacks) — rather than a direct mechanistic route to EIMH.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+الارتباط الآلي بين الأسيتازولاميد وفرط الحرارة الخبيث الناجم عن المجهود غير مباشر وغير مدعوم. بينما يمكن لمثبط الأنهيدراز الكربوني من الناحية النظرية أن يخفف الحماض الأيضي الذي يصاحب الأزمة فائقة الاستقلاب، فإن هذا يمثل تأثيراً داعماً لاحقاً بدلاً من معالجة الممرضية الأساسية لعدم تنظيم الكالسيوم الوسيط بـ RYR1. يعكس رصيد التنبؤ العالي جداً من TxGNN على الأرجح القرب على مستوى الرسم البياني في شبكة معارف المرض والعقار — ربما عبر عقد المصطلحات المشتركة مع الحالات التي يعمل فيها الأسيتازولاميد بوضوح (مثل شلل دوري نقص البوتاسيوم، حيث يمنع هجمات إثارة الغشاء) — بدلاً من طريق آلي مباشر إلى فرط الحرارة الخبيث الناجم عن المجهود.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Safety Signal from Adjacent Evidence:** Across the broader 10-indication evidence set, PMID [19653068](https://pubmed.ncbi.nlm.nih.gov/19653068/) (2009) documents acetazolamide-induced adynamic ileus (paralytic intestinal obstruction), and PMID [13659695](https://pubmed.ncbi.nlm.nih.gov/13659695/) (1959) reports similar drug-induced paralytic ileus. The proposed mechanism is electrolyte imbalance (hypokalemia) from CA inhibition leading to reduced intestinal motility. This adverse effect is relevant context for any critical-care application of acetazolamide.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
-
-**Rationale:**
-Despite a very high TxGNN prediction score (99.95%), exercise-induced malignant hyperthermia requires direct RYR1/calcium channel-targeted intervention, and acetazolamide's carbonic anhydrase inhibition has no established mechanistic route to this pathway. There is zero clinical or preclinical evidence to justify advancing this indication.
-
-**To proceed, the following is needed:**
-- Preclinical studies in RYR1-mutant animal models to test whether CA inhibition has any measurable effect on hypermetabolic crisis severity
-- Detailed MOA data from DrugBank (DB00819) to identify any indirect pathways not yet characterized
-- Safety profile data from the SFDA package insert (currently not available in this data set)
-- Expert consultation with neuromuscular disease and malignant hyperthermia specialists before any human study design
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
 ---
 
-> **Broader Landscape Note:** Among all 10 TxGNN predictions evaluated for acetazolamide, **Cardiomyopathy (Rank 7, score 99.83%)** is by far the most evidence-supported candidate — with 3 active Phase 4 RCTs (largest: [NCT06166654](https://clinicaltrials.gov/study/NCT06166654), n=939) and 10 publications, qualifying as **L2 evidence** with a **"Proceed with Guardrails"** recommendation. The post-ADVOR-trial evidence base for acetazolamide augmenting loop-diuretic therapy in acute decompensated heart failure is the most actionable repurposing direction in this evidence set and warrants a dedicated evaluation report.
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
+
+> **إشارة السلامة من الأدلة المجاورة:** عبر مجموعة الأدلة الأوسع لـ 10 دلالات، يوثق PMID [19653068](https://pubmed.ncbi.nlm.nih.gov/19653068/) (2009) الشلل الديناميكي الناجم عن الأسيتازولاميد (انسداد معوي شلل)، و PMID [13659695](https://pubmed.ncbi.nlm.nih.gov/13659695/) (1959) يبلغ عن شلل معوي ناجم عن عقار مماثل. الآلية المقترحة هي عدم التوازن الكهربائي (نقص البوتاسيوم) من مثبط الأنهيدراز الكربوني مما يؤدي إلى تقليل حركية الأمعاء. هذا التأثير الضار ذو صلة بالسياق لأي تطبيق في العناية الحرجة للأسيتازولاميد.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**التبرير:**
+على الرغم من رصيد التنبؤ من TxGNN عالي جداً (99.95%)، فإن فرط الحرارة الخبيث الناجم عن المجهود يتطلب تدخلاً موجهاً مباشراً لـ RYR1 / قناة الكالسيوم، ولا توجد طريقة آلية محددة لمثبط الأنهيدراز الكربوني لهذا المسار. لا توجد أدلة سريرية أو ما قبل السريرية لتبرير متابعة هذه الدلالة.
+
+**للمتابعة، يلزم ما يلي:**
+- الدراسات السابقة للسريرية في نماذج حيوانية طافرة RYR1 لاختبار ما إذا كان مثبط الأنهيدراز الكربوني له أي تأثير قابل للقياس على خطورة الأزمة فائقة الاستقلاب
+- بيانات آلية العمل المفصلة من DrugBank (DB00819) لتحديد أي مسارات غير مباشرة لم تتم دراستها بعد
+- بيانات ملف السلامة من النشرة المرفقة بـ SFDA (غير متوفرة حالياً في مجموعة البيانات هذه)
+- التشاور مع الخبراء في أمراض الأعصاب والعضلات وتخصصي فرط الحرارة الخبيث قبل أي تصميم دراسة بشرية
+
+---
+
+> **ملاحظة المنظر الأوسع:** من بين جميع 10 تنبؤات TxGNN التي تم تقييمها للأسيتازولاميد، **اعتلال عضلة القلب (الترتيب 7، الرصيد 99.83%)** هو بكل تأكيد المرشح الأكثر دعماً بالأدلة — مع 3 تجارب عشوائية منضبطة نشطة من المرحلة 4 (الأكبر: [NCT06166654](https://clinicaltrials.gov/study/NCT06166654), n=939) و 10 منشورات، مما يندرج تحت **L2 أدلة** مع توصية **"المضي قدماً مع ضوابط"**. قاعدة الأدلة بعد تجربة ADVOR للأسيتازولاميد في تعزيز العلاج بمدرات البول العروة في قصور القلب الحاد المفكك هو أكثر الاتجاهات الموثوقة في إعادة التوظيف في مجموعة الأدلة هذه وتستحق تقرير تقييم مخصص.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,79 +29,78 @@ indication_count: 2
 
 </div>
 
-# Dimenhydrinate: From Motion Sickness to Allergic Urticaria
+# ديمينهيدرينات: من دوار الحركة إلى الأرتيكاريا التحسسية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dimenhydrinate is a combination of diphenhydramine and 8-chlorotheophylline, classically used for prevention and treatment of motion sickness, nausea, and vomiting.
-The TxGNN model predicts it may be effective for **Allergic Urticaria**,
-with **0 clinical trials** and **1 pharmacokinetics publication** currently available to support this direction.
+ديمينهيدرينات هو مركب يتكون من ديفينهيدرامين و8-كلوروثيوفيلين، ويُستخدم تقليدياً للوقاية والعلاج من دوار الحركة والغثيان والقيء. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **الأرتيكاريا التحسسية**، مع وجود **0 تجربة سريرية** و**منشور واحد للدوائيات الحركية** متاح حالياً لدعم هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة موجزة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Motion sickness, nausea, and vomiting |
-| Predicted New Indication | Allergic Urticaria |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | دوار الحركة والغثيان والقيء |
+| المؤشر الجديد المتوقع | الأرتيكاريا التحسسية |
+| درجة تنبؤ TxGNN | 99.74% |
+| مستوى الدليل | L4 |
+| الوضع التسويقي في السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacology, Dimenhydrinate is a salt formulation comprising two active components: **diphenhydramine** (a first-generation H1 receptor antagonist) and **8-chlorotheophylline** (a mild CNS stimulant added to offset the sedating effect of diphenhydramine). The therapeutic rationale for motion sickness relies primarily on diphenhydramine's anticholinergic and antihistaminergic properties acting at the vestibular apparatus.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية من حزمة الأدلة. بناءً على الصيدلة المعروفة، يعتبر ديمينهيدرينات تركيباً ملحياً يتضمن مكونين نشطين: **ديفينهيدرامين** (مضاد مستقبلات H1 من الجيل الأول) و**8-كلوروثيوفيلين** (منبه جهاز عصبي مركزي خفيف يُضاف للتعويض عن التأثير المهدئ للديفينهيدرامين). يعتمد الأساس العلاجي لدوار الحركة بشكل أساسي على الخصائص المضادة للكولين والمضادة للهيستامين للديفينهيدرامين التي تعمل على الجهاز الدهليزي.
 
-The mechanistic link to allergic urticaria is credible at the level of the diphenhydramine component: H1 receptor blockade competitively inhibits histamine binding, thereby suppressing mast cell–mediated vasodilation, pruritus, and wheal formation — which constitute the core pathophysiology of allergic urticaria. First- and second-generation H1 antihistamines are the first-line recommendation in EAACI/WAO urticaria treatment guidelines.
+الربط الآلي بالأرتيكاريا التحسسية جدير بالثقة على مستوى مكون ديفينهيدرامين: حصار مستقبلات H1 يثبط تنافسياً ارتباط الهيستامين، وبالتالي يثبط توسع الأوعية والحكة وتكون الأرتيكاريا الناجمة عن الخلايا البدينة - وهي تشكل الأساس الفيزيولوجي المرضي للأرتيكاريا التحسسية. تعتبر مضادات الهيستامين H1 من الجيل الأول والثاني العلاج من الخط الأول الموصى به في إرشادات علاج الأرتيكاريا من EAACI/WAO.
 
-However, the case for **Dimenhydrinate specifically** (rather than diphenhydramine alone) is weak. The 8-chlorotheophylline component provides no known benefit in urticaria and carries potential risks including cardiac arrhythmia and CNS stimulation. Furthermore, first-generation antihistamines are increasingly supplanted by second-generation agents (e.g., cetirizine, fexofenadine) for urticaria due to their superior safety profile. The TxGNN prediction likely reflects the H1-blocking activity of the diphenhydramine moiety rather than a unique property of dimenhydrinate as a compound.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الحالة **لديمينهيدرينات تحديداً** (بدلاً من ديفينهيدرامين وحده) ضعيفة. لا يوفر مكون 8-كلوروثيوفيلين أي فائدة معروفة في الأرتيكاريا ويحمل مخاطر محتملة تشمل عدم انتظام ضربات القلب والتحفيز العصبي المركزي. علاوة على ذلك، يتم استبدال مضادات الهيستامين من الجيل الأول بشكل متزايد بعوامل من الجيل الثاني (مثل سيتيريزين وفيكسوفينادين) للأرتيكاريا بسبب ملفهم الأماني المتفوق. من المرجح أن يعكس التنبؤ TxGNN نشاط حصار H1 لجزء ديفينهيدرامين بدلاً من خاصية فريدة لديمينهيدرينات كمركب.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات الطبية
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | PK Study | Veterinary Dermatology | Compared oral/IV pharmacokinetics of diphenhydramine and oral dimenhydrinate in healthy dogs; assessed pharmacodynamic suppression of histamine-induced wheal formation. Found dimenhydrinate may provide superior oral bioavailability of diphenhydramine but results were in an animal model only (pilot study). |
+| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | دراسة حركية | الأمراض الجلدية البيطرية | قارنت دراسة الدوائيات الحركية للديفينهيدرامين عن طريق الفم والوريد وديمينهيدرينات عن طريق الفم في الكلاب السليمة؛ قيّمت قمع التأثيرات الديناميكية الدوائية لتكون الأرتيكاريا المستحثة بالهيستامين. وجدت أن ديمينهيدرينات قد يوفر توفر بيولوجي عن طريق الفم متفوقاً للديفينهيدرامين لكن النتائج كانت في نموذج حيواني فقط (دراسة تجريبية). |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Dimenhydrinate is not currently registered or marketed in Saudi Arabia. No product authorizations on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+ديمينهيدرينات غير مسجل أو مسوق حالياً في المملكة العربية السعودية. لا توجد تصاريح منتجات في السجل.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN prediction is mechanistically plausible through the diphenhydramine component of dimenhydrinate, but the current evidence base consists of a single pilot pharmacokinetics study in dogs with no clinical human data for allergic urticaria. Additionally, the 8-chlorotheophylline component adds safety complexity without any known benefit for this indication, and the drug is not registered in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- Clarify whether the intended clinical question is about **dimenhydrinate as a whole** or its active moiety **diphenhydramine** — the latter already has established evidence in urticaria, which would change the evidence level significantly
-- Obtain formal MOA and safety data (package insert warnings, contraindications) from DrugBank or the SFDA package insert
-- Conduct a targeted literature review for diphenhydramine in allergic urticaria to assess whether the H1-blocking evidence can be bridged to dimenhydrinate
-- Evaluate whether a regulatory pathway exists in Saudi Arabia for the urticaria indication, given the current zero-license status
-- If proceeding, a Phase 2 proof-of-concept clinical trial or comparative PK/PD study in humans would be the minimum threshold to advance beyond L4
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+التنبؤ TxGNN جدير بالثقة من الناحية الآلية من خلال مكون ديفينهيدرامين لديمينهيدرينات، لكن قاعدة الأدلة الحالية تتكون من دراسة حركية تجريبية واحدة في الكلاب بدون بيانات سريرية بشرية للأرتيكاريا التحسسية. بالإضافة إلى ذلك، يضيف مكون 8-كلوروثيوفيلين تعقيداً أماني بدون فائدة معروفة لهذا المؤشر، والدواء غير مسجل في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+- توضيح ما إذا كان السؤال السريري المقصود يتعلق **بديمينهيدرينات ككل** أو بمكونه النشط **ديفينهيدرامين** - الأخير يحتوي بالفعل على أدلة مثبتة في الأرتيكاريا، مما سيغير مستوى الدليل بشكل كبير
+- الحصول على بيانات رسمية حول آلية العمل والسلامة (تحذيرات النشرة الداخلية والمضادات الاستطباب) من DrugBank أو النشرة الداخلية للهيئة السعودية للغذاء والدواء
+- إجراء مراجعة أدبية موجهة لديفينهيدرامين في الأرتيكاريا التحسسية لتقييم ما إذا كان يمكن تطبيق أدلة حصار H1 على ديمينهيدرينات
+- تقييم ما إذا كان يوجد مسار تنظيمي في المملكة العربية السعودية لمؤشر الأرتيكاريا، نظراً لحالة الترخيص الصفرية الحالية
+- إذا تم المتابعة، ستكون تجربة سريرية لإثبات المفهوم من المرحلة 2 أو دراسة مقارنة للحركيات والديناميكا الدوائية في البشر هي الحد الأدنى للعتبة للتقدم بما يتجاوز L4
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

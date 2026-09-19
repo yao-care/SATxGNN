@@ -29,62 +29,63 @@ indication_count: 10
 
 </div>
 
-# Sulfacetamide: From Bacterial Infections to Postinfectious Vasculitis
+# السلفاسيتاميد: من العدوى البكتيرية إلى التهاب الأوعية الدموية اللاحق للعدوى
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Sulfacetamide is a sulfonamide-class antibacterial agent, historically used as a topical anti-infective (e.g., ophthalmic and dermatologic bacterial infections). The TxGNN model predicts potential efficacy for **Postinfectious Vasculitis**, but currently **no clinical trials** and **no published literature** support this specific direction, and the underlying mechanistic rationale is weak.
+السلفاسيتاميد هو عامل مضاد للبكتيريا من فئة السلفوناميدات، استُخدم تاريخياً كعامل مضاد للعدوى موضعي (مثل العدوى البكتيرية العينية والجلدية). يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **التهاب الأوعية الدموية اللاحق للعدوى**، لكن حالياً **لا توجد تجارب سريرية** و**لا توجد أدبيات منشورة** تدعم هذا الاتجاه المحدد، والمنطق الآلي الأساسي ضعيف.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available in registry data (general antibacterial, sulfonamide class) |
-| Predicted New Indication | Postinfectious Vasculitis |
-| TxGNN Prediction Score | 99.99% (rank 267 among all predictions) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح في بيانات السجل (مضاد بكتيري عام، فئة السلفوناميدات) |
+| المؤشر الجديد المتنبأ به | التهاب الأوعية الدموية اللاحق للعدوى |
+| درجة التنبؤ بـ TxGNN | 99.99% (الترتيب 267 من بين جميع التنبؤات) |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | أوقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for sulfacetamide. Based on general pharmacological knowledge, sulfacetamide is a sulfonamide-class antibacterial that competitively inhibits dihydropteroate synthase, blocking bacterial folate synthesis — a purely antimicrobial mechanism with no known immunomodulatory or anti-inflammatory activity.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة للسلفاسيتاميد. بناءً على المعرفة الدوائية العامة، السلفاسيتاميد هو مضاد بكتيري من فئة السلفوناميدات يثبط بشكل تنافسي dihydropteroate synthase، مما يعطل تخليق حمض الفوليك البكتيري — آلية بحتة مضادة للميكروبات بدون نشاط معروف معدل للمناعة أو مضاد للالتهاب.
 
-Postinfectious vasculitis is an immune-mediated condition that typically arises *after* an infection has resolved, driven by immune complex deposition or aberrant immune activation rather than by ongoing bacterial replication. Because sulfacetamide's only established mechanism is antibacterial, there is no plausible pathway by which it would modulate the immune processes underlying vasculitis.
+التهاب الأوعية الدموية اللاحق للعدوى هو حالة يحركها جهاز المناعة وعادة ما تنشأ *بعد* انقضاء العدوى، يحركها ترسب معقدات المناعة أو التفعيل المناعي الشاذ بدلاً من تضاعف البكتيريا المستمر. لأن آلية عمل السلفاسيتاميد الوحيدة المثبتة هي مضادة للبكتيريا، لا توجد مسار معقول يمكن من خلاله أن يعدل العمليات المناعية الكامنة في التهاب الأوعية الدموية.
 
-The evidence pack's own rationale is explicit on this point: "Postinfectious vasculitis is an immune-mediated disease; sulfacetamide has only an antibacterial (non-immunomodulatory) mechanism, with no reasonable direct link, and no clinical evidence exists." This should be treated as a high TxGNN-score but low biological-plausibility candidate — a pattern consistent with a false-positive prediction rather than a genuine repurposing signal.
+حزمة الأدلة نفسها واضحة حول هذه النقطة: "التهاب الأوعية الدموية اللاحق للعدوى هو مرض يحركه جهاز المناعة؛ السلفاسيتاميد لديه فقط آلية مضادة للبكتيريا (غير معدلة للمناعة)، بدون صلة معقولة مباشرة، ولا توجد أدلة سريرية". يجب التعامل مع هذا كمرشح بدرجة TxGNN عالية جداً لكن معقولية بيولوجية منخفضة — نمط متسق مع تنبؤ موجب خاطئ بدلاً من إشارة إعادة تخصيص حقيقية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Sulfacetamide currently holds no marketing authorization in Saudi Arabia (0 licenses on record; market status: not marketed).
+السلفاسيتاميد حالياً لا يحمل تصريح تسويق في المملكة العربية السعودية (0 رخصة في السجل؛ حالة السوق: غير مسوق).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الموجزة للحصول على معلومات الأمان.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: أوقف**
 
-**Rationale:**
-Despite a very high TxGNN prediction score, this candidate has zero supporting clinical trials or literature, and the proposed mechanism (antibacterial) does not plausibly address the immune-mediated pathology of postinfectious vasculitis. This is not sufficient evidence to advance beyond the model-prediction stage.
+**الأساس المنطقي:**
+على الرغم من درجة TxGNN عالية جداً، هذا المرشح ليس لديه تجارب سريرية أو أدبيات داعمة، والآلية المقترحة (مضادة للبكتيريا) لا تعالج بشكل معقول المرضية المعدلة للمناعة في التهاب الأوعية الدموية اللاحق للعدوى. هذا ليس دليل كافي للمتقدم خارج مرحلة التنبؤ بالنموذج.
 
-**To proceed, the following is needed:**
-- Preclinical or mechanistic data demonstrating any immunomodulatory activity of sulfacetamide
-- At minimum, case reports or observational data linking sulfonamide antibacterials to vasculitis outcomes
-- TFDA/manufacturer package insert data to complete the S1 safety screen (currently blocked — DG001)
-- Confirmed original indication and MOA data from DrugBank/regulatory sources (currently blocked — DG002)
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات دراسة ما قبل السريرية أو بيانات متعلقة بآلية العمل توضح أي نشاط معدل للمناعة من السلفاسيتاميد
+- على الأقل، تقارير حالة أو بيانات ملاحظاتية تربط المضادات الحيوية السلفوناميدية بنتائج التهاب الأوعية الدموية
+- بيانات النشرة الموجزة من TFDA/الشركة المصنعة لإكمال فحص الأمان S1 (حالياً محجوب — DG001)
+- تأكيد المؤشر الأصلي وبيانات MOA من DrugBank/مصادر تنظيمية (حالياً محجوب — DG002)
 
-**Additional note:** This evidence pack contains 10 TxGNN-predicted indications for sulfacetamide. Among them, **otitis externa** (rank 3) is materially better supported — evidence level L2, with two double-blind RCTs (PMID 6269476, PMID 207210) and a "Proceed with Guardrails" recommendation — though it reflects sulfacetamide's known traditional antibacterial use rather than a novel repurposing hypothesis. If a report is needed for a genuinely actionable candidate, otitis externa is recommended as the primary subject instead.
+**ملاحظة إضافية:** تحتوي حزمة الأدلة هذه على 10 مؤشرات متنبأ بها بواسطة TxGNN للسلفاسيتاميد. من بينها، **التهاب الأذن الخارجية** (الترتيب 3) مدعوم بشكل أفضل بشكل ملموس — مستوى الأدلة L2، مع تجربتين معشاة مزدوجة التعمية (PMID 6269476, PMID 207210) وتوصية "المضي قدماً مع تدابير وقائية" — على الرغم من أنه يعكس الاستخدام المضاد للبكتيريا التقليدي المعروف للسلفاسيتاميد بدلاً من فرضية إعادة تخصيص جديدة. إذا كانت هناك حاجة إلى تقرير لمرشح قابل للتنفيذ بحق، يوصى بالتهاب الأذن الخارجية كموضوع أساسي بدلاً منه.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Ceftazidime: From Bacterial Infections to Hyperamylasemia
+# سيفتازيديم: من الالتهابات البكتيرية إلى ارتفاع الأميليز
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ceftazidime is a third-generation cephalosporin antibiotic with broad-spectrum gram-negative bactericidal activity, widely used for serious bacterial infections including urinary tract infections, pneumonia, and septicemia.
-The TxGNN model predicts it may be effective for **Hyperamylasemia**, with **0 clinical trials** and **1 publication** currently supporting this direction.
-The mechanistic link is highly indirect, and the available evidence is insufficient to advance this prediction beyond an exploratory stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (no Saudi Arabia registration on record) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سيفتازيديم هو مضاد حيوي من الجيل الثالث من السيفالوسبورينات ذو نشاط مبيد للبكتيريا واسع الطيف ضد البكتيريا سالبة الجرام، يُستخدم على نطاق واسع لعلاج العدوى البكتيرية الخطيرة بما في ذلك التهابات المسالك البولية والالتهاب الرئوي والتسمم الدموي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ارتفاع الأميليز**، مع وجود **0** تجربة سريرية و**1** منشور واحد يدعم هذا الاتجاه حالياً.
+الربط الآلي غير مباشر جداً، والأدلة المتاحة غير كافية للمضي قدماً بهذا التنبؤ بعيداً عن المرحلة الاستكشافية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, ceftazidime is a third-generation cephalosporin β-lactam antibiotic; its efficacy in treating serious gram-negative bacterial infections — including those caused by *Pseudomonas aeruginosa*, *Klebsiella pneumoniae*, and *Escherichia coli* — has been well established in clinical practice, and mechanistically it may be applicable to conditions where secondary bacterial infection triggers an inflammatory cascade leading to serum amylase elevation.
-
-Hyperamylasemia is a biochemical marker (elevated serum amylase) rather than an independent disease entity. It most commonly signals acute pancreatitis or post-ERCP complications. The theoretical link between ceftazidime's antibacterial mechanism and serum amylase reduction is indirect: preventing bacterial translocation or bacteremia could theoretically limit the pancreatic inflammatory response that drives amylase release — but this causal chain has not been directly studied.
-
-The sole supporting literature (PMID 11985972) evaluates whether routine prophylactic antibiotics — as a multimodal regimen, not ceftazidime specifically — reduce the incidence of post-ERCP pancreatitis. The study does not designate hyperamylasemia as a primary endpoint, and ceftazidime's individual contribution is indistinguishable from the combined antibiotic effect. The mechanistic connection therefore remains weak and inferential.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البيان | المحتوى |
+|-------|--------|
+| الاستطباب الأصلي | العدوى البكتيرية واسعة الطيف (لا توجد تسجيلات في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | ارتفاع الأميليز |
+| درجة التنبؤ من TxGNN | 99.51% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً، البيانات المفصلة عن آلية العمل غير متاحة في حزمة الأدلة. بناءً على المعلومات المعروفة، سيفتازيديم هو مضاد حيوي من السيفالوسبورينات من الجيل الثالث من فئة البيتا لاكتام؛ تم توثيق فعاليته في علاج العدوى البكتيرية الخطيرة سالبة الجرام - بما في ذلك تلك التي تسببها *Pseudomonas aeruginosa* و*Klebsiella pneumoniae* و*Escherichia coli* - بشكل جيد في الممارسة السريرية، وقد يكون قابلاً للتطبيق آلياً على الحالات حيث تؤدي العدوى البكتيرية الثانوية إلى تفعيل سلسلة التهابية تؤدي إلى ارتفاع أميليز المصل.
+
+ارتفاع الأميليز هو علامة بيوكيميائية (ارتفاع أميليز المصل) بدلاً من كونه كياناً مرضياً مستقلاً. في أغلب الأحيان، يشير إلى التهاب البنكرياس الحاد أو المضاعفات التالية لـ ERCP. الربط النظري بين الآلية المضادة للبكتيريا لسيفتازيديم وتقليل أميليز المصل غير مباشر: يمكن نظرياً لمنع الانتقال البكتيري أو الإنتانية أن يحد من الاستجابة الالتهابية البنكرياسية التي تدفع إطلاق الأميليز - إلا أن هذه السلسلة السببية لم تتم دراستها بشكل مباشر.
+
+المرجع الوحيد الداعم (PMID 11985972) يقيّم ما إذا كانت المضادات الحيوية النبوية الروتينية - كنظام متعدد المضادات الحيوية وليس سيفتازيديم بشكل محدد - تقلل من حدوث التهاب البنكرياس بعد ERCP. الدراسة لا تحدد ارتفاع الأميليز كنقطة نهائية أساسية، وإسهام سيفتازيديم الفردي غير قابل للتمييز عن التأثير المضاد الحيوي المدمج. لذلك يبقى الربط الآلي ضعيفاً واستدلالياً.
+
+---
+
+## أدلة التجارب السريرية
+
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
+
+---
+
+## أدلة المراجع الأدبية
+
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|------|------|---------|-------------|
-| [11985972](https://pubmed.ncbi.nlm.nih.gov/11985972/) | 2001 | RCT (multi-antibiotic scheme; ceftazidime not studied in isolation) | Journal of Gastrointestinal Surgery | Prospective study evaluating whether prophylactic antibiotics reduce post-ERCP cholangitis and pancreatitis; provides indirect evidence that antibiotic prophylaxis may limit amylase-elevating inflammatory events, but does not assess ceftazidime as the active agent nor hyperamylasemia as a primary endpoint |
+| [11985972](https://pubmed.ncbi.nlm.nih.gov/11985972/) | 2001 | تجربة عشوائية محكومة (مخطط متعدد المضادات الحيوية؛ لم يتم دراسة سيفتازيديم بشكل منفصل) | Journal of Gastrointestinal Surgery | دراسة مستقبلية تقيّم ما إذا كانت المضادات الحيوية النبوية تقلل من التهاب الأقنية الصفراوية والتهاب البنكرياس بعد ERCP؛ توفر دليلاً غير مباشر على أن النبوية المضادة للبكتيريا قد تحد من الأحداث الالتهابية التي تزيد الأميليز، لكنها لا تقيّم سيفتازيديم كعامل فعال ولا ارتفاع الأميليز كنقطة نهائية أساسية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No authorizations registered in Saudi Arabia.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تراخيص مسجلة في المملكة العربية السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
-**Rationale:**
-Hyperamylasemia is a biochemical surrogate marker rather than a discrete therapeutic target, and the only supporting evidence is a single multi-antibiotic RCT that does not isolate ceftazidime's effect nor designate amylase elevation as a primary endpoint — this is insufficient mechanistic or clinical basis to proceed.
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action data (MOA) from DrugBank to characterize whether any off-target pharmacology could influence pancreatic enzyme release
-- Safety data (key warnings, contraindications) retrieved from the package insert PDF
-- Reconsideration of whether the more appropriate clinical framing is **post-ERCP pancreatitis prevention** rather than hyperamylasemia per se, which would require a dedicated prospective study with amylase level as a co-primary endpoint
-- Assessment of whether the higher-evidence indications in this evidence pack — particularly **urinary tract infection** (L2, Proceed with Guardrails) and **infectious otitis media** (L3, Proceed with Guardrails) — should be prioritized over this rank-1 prediction for regulatory and clinical development purposes
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المبررات:**
+ارتفاع الأميليز هو علامة محددة بيوكيميائية بدلاً من أن يكون هدفاً علاجياً منفصلاً، والدليل الداعم الوحيد هو تجربة عشوائية محكومة واحدة متعددة المضادات الحيوية لا تعزل تأثير سيفتازيديم ولا تحدد ارتفاع الأميليز كنقطة نهائية أساسية - وهذا أساس آلي أو سريري غير كافٍ للمضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات آلية العمل (MOA) من DrugBank لتوصيف ما إذا كانت أي علم أدوية خارج الهدف قد يؤثر على إطلاق إنزيمات البنكرياس
+- بيانات السلامة (التحذيرات الرئيسية والموانع) المستخرجة من ملف PDF النشرة المرفقة
+- إعادة النظر فيما إذا كان الإطار السريري الأكثر ملاءمة هو **الوقاية من التهاب البنكرياس بعد ERCP** بدلاً من ارتفاع الأميليز في حد ذاته، الأمر الذي قد يتطلب دراسة مستقبلية مخصصة مع مستوى الأميليز كنقطة نهائية مشتركة أساسية
+- تقييم ما إذا كانت الاستطبابات ذات الدليل الأعلى في حزمة الأدلة هذه - خاصة **التهاب المسالك البولية** (L2، المتابعة مع الضمانات) و**التهاب الأذن الوسطى العدوي** (L3، المتابعة مع الضمانات) - يجب أن تحظى بالأولوية على هذا التنبؤ من الرتبة 1 لأغراض التطوير التنظيمي والسريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

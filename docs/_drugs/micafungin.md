@@ -29,81 +29,82 @@ indication_count: 1
 
 </div>
 
-# Micafungin: From Invasive Fungal Infection to Candida Urinary Tract Infection
+# ميكافونجين: من العدوى الفطرية الغازية إلى عدوى المسالك البولية بالمبيضات
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Micafungin is an echinocandin antifungal, established for treating invasive Candida infections such as candidemia and esophageal candidiasis.
-The TxGNN model predicts it may be effective for **Candida Urinary Tract Infection (Candiduria)**,
-with **no registered clinical trials** but **13 supporting publications** — largely case reports, case series, and retrospective cohorts — currently backing this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Invasive fungal infection (candidiasis) — general antifungal indication known from drug class; no Saudi Arabia-specific approved indication text available (not marketed) |
-| Predicted New Indication | Urinary Tract Infection — specifically *Candida* spp. urinary tract infection (candiduria), not bacterial UTI |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+ميكافونجين هو مضاد فطري من فئة الإيكينوكاندين، معروف بعلاج العدوى الفطرية الغازية بالمبيضات مثل فطار الدم والمبيضات المريئية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **عدوى المسالك البولية بالمبيضات (Candiduria)**،
+مع **عدم وجود تجارب سريرية مسجلة** لكن **13 منشورات داعمة** — تتألف في الغالب من تقارير الحالات وسلسلات الحالات والدراسات الرجعية — تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data from DrugBank is currently a data gap. However, the evidence pack's own repurposing rationale identifies micafungin's pharmacological class clearly: it is an **echinocandin** antifungal that inhibits fungal cell-wall **1,3-β-D-glucan synthase**, an enzyme essential to *Candida* and other fungal pathogens but absent in human cells.
-
-This predicted "new indication" is narrower than a typical repurposing case. TxGNN's "urinary tract infection" label, when read against the supporting literature, refers specifically to UTIs caused by *Candida* species (including *C. glabrata*, *C. krusei*, and *C. auris*) rather than bacterial UTI. Because micafungin's fungicidal spectrum already covers these organisms in bloodstream and systemic infections, extending its use to the urinary tract is a mechanistically direct application of existing antifungal activity rather than a novel biological hypothesis.
-
-The main historical objection to echinocandins for UTI has been their high protein binding and low urinary excretion. Multiple studies in the evidence set (e.g., PMID 27424599) directly address this concern, showing that measured urinary micafungin concentrations are sufficient to achieve fungicidal effect and can be optimized with therapeutic drug monitoring — partially resolving the traditional pharmacokinetic doubt.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | عدوى فطرية غازية (المبيضات) — استطباب مضاد للفطريات عام معروف من فئة الدواء؛ لا يتوفر نص استطباب معتمد خاص بالمملكة العربية السعودية (غير مسوّق) |
+| الاستطباب الجديد المتنبأ به | عدوى المسالك البولية — على وجه التحديد عدوى المسالك البولية بأنواع *Candida* (Candiduria)، وليس عدوى المسالك البولية البكتيرية |
+| درجة التنبؤ من TxGNN | 99.03% |
+| مستوى الدليل | L3 |
+| حالة التسويق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | PK Study | Int J Antimicrob Agents | 6 UTI cases successfully treated with micafungin; urinary drug levels sufficient for fungicidal effect despite low excretion, TDM proposed to optimize dosing |
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospective Cohort | Int Urol Nephrol | Evaluated candiduria eradication rates in hospitalized patients treated with micafungin |
-| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Retrospective Cohort (multi-institutional) | Antimicrob Agents Chemother | 305 hospitalized patients; characterized candiduria management patterns and antifungal overtreatment of asymptomatic cases |
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Case Series (pediatric) | Pediatr Int | PICU children with hospital-acquired Candida UTI treated with micafungin; treatment success rates reported by species |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Case Series | Med Mycol Case Rep | 5 candiduria cases treated with parenteral micafungin ≥6 days; fungal clearance achieved within 30 days |
-| [39781278](https://pubmed.ncbi.nlm.nih.gov/39781278/) | 2025 | Epidemiological/Susceptibility Survey | Ther Adv Infect Dis | *Candida* species distribution and antifungal susceptibility in vulvovaginal candidiasis and UTI, Vietnam 2023 |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Case Report | Transplant Infect Dis | Chronic symptomatic *C. krusei* UTI eradicated with increased-dose micafungin in a liver/kidney transplant recipient |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Case Report | Front Pediatr | Micafungin used to treat *C. glabrata* urinary infection in a premature neonate |
-| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Case Report | Cureus | *C. auris* UTI in a nursing home patient with multiple comorbidities |
-| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Case Report | Med Mycol Case Rep | Unilateral renal fungus ball caused by *C. glabrata*, treated with antifungal therapy plus endoscopic extraction |
+تفاصيل آلية عمل الدواء من DrugBank تمثل حالياً فجوة بيانات. ومع ذلك، فإن حزمة الأدلة المتعلقة بإعادة استخدام الدواء توضح بشكل واضح الفئة الدوائية للميكافونجين: وهو مضاد فطري من فئة **الإيكينوكاندين** يثبط إنزيم **1,3-β-D-glucan synthase** الفطري، وهو إنزيم ضروري للمبيضات والمسببات الفطرية الأخرى لكنه غير موجود في الخلايا البشرية.
+
+هذا الاستطباب الجديد المتنبأ به أضيق نطاقاً من حالة إعادة استخدام نموذجية. يشير هذا التصنيف من TxGNN، عند قراءته في سياق الأدبيات الداعمة، على وجه التحديد إلى التهابات المسالك البولية بأنواع *Candida* (بما في ذلك *C. glabrata* و *C. krusei* و *C. auris*) بدلاً من عدوى المسالك البولية البكتيرية. لأن نطاق النشاط المضاد للفطريات لميكافونجين يغطي بالفعل هذه الميكروبات في عدوى الدم والعدوى الجهازية، فإن توسيع استخدامه للمسالك البولية يمثل تطبيقاً مباشراً على مستوى الآلية للنشاط المضاد للفطريات الموجود بالفعل بدلاً من فرضية بيولوجية جديدة.
+
+كان الاعتراض التاريخي الرئيسي على استخدام الإيكينوكاندين للمسالك البولية هو الارتباط العالي بالبروتينات والإفراز البولي المنخفض. عدة دراسات في مجموعة الأدلة (على سبيل المثال، PMID 27424599) تتناول هذا القلق بشكل مباشر، مما يدل على أن تركيزات ميكافونجين المقاسة في البول كافية لتحقيق تأثير قاتل للفطريات ويمكن تحسينها من خلال المراقبة العلاجية لتركيز الدواء — مما يحل جزئياً الشك الدوائي الحركي التقليدي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Proceed with Guardrails**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | دراسة حركة الدواء | Int J Antimicrob Agents | 6 حالات عدوى مسالك بولية تمت معالجتها بنجاح بالميكافونجين؛ مستويات الدواء البولية كافية لتحقيق التأثير القاتل للفطريات رغم الإفراز المنخفض، اقتُرحت المراقبة العلاجية لتركيز الدواء لتحسين الجرعات |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | دراسة رجعية | Int Urol Nephrol | قيّمت معدلات القضاء على Candiduria في المرضى المنومين الذين تمت معالجتهم بالميكافونجين |
+| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | دراسة رجعية (متعددة المراكز) | Antimicrob Agents Chemother | 305 مرضى منومين؛ وصفت أنماط إدارة Candiduria والاستخدام المفرط للأدوية المضادة للفطريات للحالات بدون أعراض |
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | سلسلة حالات (طفلية) | Pediatr Int | أطفال في وحدة رعاية الأطفال المكثفة يعانون من عدوى المسالك البولية بالمبيضات المكتسبة من المستشفى تمت معالجتهم بالميكافونجين؛ تم الإبلاغ عن معدلات نجاح العلاج حسب النوع |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | سلسلة حالات | Med Mycol Case Rep | 5 حالات Candiduria تمت معالجتها بالميكافونجين الحقني ≥6 أيام؛ تم تحقيق خلوص الفطريات في غضون 30 يوماً |
+| [39781278](https://pubmed.ncbi.nlm.nih.gov/39781278/) | 2025 | مسح وبائي/حساسية | Ther Adv Infect Dis | توزيع أنواع *Candida* والحساسية المضادة للفطريات في المبيضات الدهليزية وعدوى المسالك البولية، فيتنام 2023 |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | تقرير حالة | Transplant Infect Dis | تم القضاء على عدوى المسالك البولية المزمنة الأعراضية بـ *C. krusei* بالميكافونجين بجرعة مزيدة في متلقي زراعة الكبد/الكلى |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | تقرير حالة | Front Pediatr | استُخدم الميكافونجين لعلاج عدوى بولية *C. glabrata* في وليد خديج |
+| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | تقرير حالة | Cureus | عدوى المسالك البولية *C. auris* في مريض في دار رعاية يعاني من أمراض مصاحبة متعددة |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | تقرير حالة | Med Mycol Case Rep | كرة فطرية كلوية أحادية الجانب من *C. glabrata*، تمت معالجتها بالعلاج المضاد للفطريات والاستخراج بالمنظار |
 
-**Rationale:**
-The mechanistic link is strong and specific (echinocandin activity against *Candida* extended to the urinary tract), and it is supported by consistent case reports, case series, and two retrospective cohorts spanning multiple *Candida* species — including resistant ones such as *C. krusei* and *C. auris*. However, there are no controlled clinical trials, and micafungin is not currently marketed in Saudi Arabia, so this indication cannot yet be recommended without further safety and regulatory groundwork.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a **Blocking** gap preventing initial safety (S1) evaluation
-- Confirmed mechanism-of-action documentation from DrugBank (High-severity gap)
-- Drug-drug interaction data (current DDI query returned no results)
-- Prospective or controlled studies specifically evaluating micafungin for candiduria, to move beyond case-level (L3) evidence
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الضمانات**
+
+**المبرر:**
+الرابط الآليّ قوي وحديد (النشاط الإيكينوكاندين ضد المبيضات الممتد إلى المسالك البولية)، وهو مدعوم بتقارير الحالات المتسقة وسلسلات الحالات والدراسات الرجعية التي تغطي أنواع المبيضات المتعددة — بما في ذلك الأنواع المقاومة مثل *C. krusei* و *C. auris*. ومع ذلك، لا توجد تجارب سريرية محكومة، والميكافونجين غير مسوّق حالياً في المملكة العربية السعودية، لذا لا يمكن التوصية بهذا الاستطباب حالياً بدون مزيد من العمل على السلامة والتنظيم.
+
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA (التحذيرات والموانع) — حالياً تشكل فجوة **حاجزة** تمنع تقييم السلامة الأولي (S1)
+- توثيق آلية العمل المؤكدة من DrugBank (فجوة شديدة الخطورة)
+- بيانات تفاعلات الأدوية (لم يُرجع استعلام DDI الحالي أي نتائج)
+- دراسات مستقبلية أو محكومة تقيّم بشكل محدد الميكافونجين لـ Candiduria، للخروج عن مستوى الحالة (L3)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

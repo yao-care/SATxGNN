@@ -29,80 +29,81 @@ indication_count: 2
 
 </div>
 
-# Revefenacin: From Unregistered Status in Saudi Arabia to Predicted Efficacy in Bronchitis
+# ريفيفيناسين: من حالة عدم التسجيل في المملكة العربية السعودية إلى الفعالية المتنبأ بها في التهاب الشعب الهوائية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Revefenacin is a nebulized long-acting muscarinic antagonist (LAMA); it is not currently registered or marketed in Saudi Arabia, but is globally established (e.g. FDA-approved 2018) as a maintenance therapy for chronic obstructive pulmonary disease (COPD).
-The TxGNN model's top-ranked new signal predicts it may also be effective for **Bronchitis**, but this is currently supported by only **1 clinical trial** (shared with the COPD/obstructive-lung-disease indication, not bronchitis-specific) and **0 dedicated publications**.
-A second, much stronger signal — **Obstructive Lung Disease** (essentially the drug's already-established COPD indication) — is separately supported by **15 clinical trials** (including two completed Phase 3 pivotal RCTs, n=619 and n=611) and **20 publications**; this is noted below as important context even though it is not the primary "new indication" story.
+ريفيفيناسين (Revefenacin) هو معادل مستقبلات الأسيتيل كولين المسكارينية طويل المفعول المرشوش بالرذاذ (LAMA)؛ وهو غير مسجل أو مسوّق حالياً في المملكة العربية السعودية، لكنه معترف به عالمياً (على سبيل المثال، الموافقة من إدارة الغذاء والدواء عام 2018) كعلاج صيانة للمرض الرئوي الانسدادي المزمن (COPD).
+يتنبأ نموذج TxGNN برتبة أعلى بإشارة جديدة بأنه قد يكون فعالاً أيضاً ضد **التهاب الشعب الهوائية**، لكن هذا مدعوم حالياً بـ **1 تجربة سريرية واحدة فقط** (مشتركة مع مؤشر COPD/مرض الانسداد الرئوي، وليست خاصة بالتهاب الشعب الهوائية) و **0 منشورات مخصصة**.
+إشارة ثانية أقوى بكثير — **مرض الانسداد الرئوي** (في الأساس مؤشر COPD المعترف به بالفعل للدواء) — مدعومة بشكل منفصل بـ **15 تجربة سريرية** (بما في ذلك تجربتا المرحلة 3 الأساسيتان المكتملتان، n=619 و n=611) و **20 منشور**؛ يُشار إلى هذا أدناه كسياق مهم على الرغم من أنه ليس قصة المؤشر "الجديد" الأساسية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not registered in Saudi Arabia (0 authorizations); per literature evidence in this pack, revefenacin is globally approved for maintenance treatment of COPD |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير مسجل في المملكة العربية السعودية (0 تصاريح)؛ وفقاً لأدلة الأدبيات في هذه الحزمة، يوافق عليه عالمياً لعلاج الصيانة من COPD |
+| المؤشر الجديد المتنبأ به | التهاب الشعب الهوائية |
+| درجة التنبؤ TxGNN | 99.61% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Structured MOA data for this candidate is marked as a data gap, but the literature evidence included in this pack consistently documents revefenacin's mechanism: it is a lung-selective, once-daily nebulized long-acting muscarinic antagonist (LAMA) that blocks M3 muscarinic receptors on airway smooth muscle, preventing acetylcholine-mediated bronchoconstriction and mucus hypersecretion, and is rapidly cleared by pulmonary esterases to limit systemic anticholinergic exposure (PMID [30803279](https://pubmed.ncbi.nlm.nih.gov/30803279/), [31245215](https://pubmed.ncbi.nlm.nih.gov/31245215/)).
+بيانات آلية العمل المهيكلة للمرشح هذا محددة كفجوة في البيانات، لكن أدلة الأدبيات المدرجة في هذه الحزمة توثق باستمرار آلية عمل ريفيفيناسين: وهو معادل مستقبلات الأسيتيل كولين المسكارينية طويل المفعول الانتقائي للرئة والمُرذّذ (LAMA)، يُعطى مرة واحدة يومياً، يحجب مستقبلات M3 المسكارينية على عضلات المسالك الهوائية الملساء، مما يمنع تضيق الشعب الهوائية الناتج عن الأسيتيل كولين وفرط إفراز المخاط، وينظف بسرعة بواسطة إستيراز الرئة للتقليل من التعرض الجهازي المضاد للكولين (PMID [30803279](https://pubmed.ncbi.nlm.nih.gov/30803279/), [31245215](https://pubmed.ncbi.nlm.nih.gov/31245215/)).
 
-Chronic bronchitis is clinically one of the phenotypic presentations of COPD, so a bronchodilator/anti-muscarinic mechanism proven in COPD is mechanistically plausible for bronchitis as well. However, the only trial currently linked to the bronchitis prediction (NCT01704404) is a Phase 2 PD/safety/PK dose-characterization study in COPD subjects, not a bronchitis-specific efficacy trial — it appears in both the bronchitis and obstructive-lung-disease evidence sets, suggesting the link may reflect disease-ontology overlap rather than direct bronchitis evidence.
+التهاب الشعب الهوائية المزمن هو سريرياً أحد العروض الظاهرية لمرض الانسداد الرئوي المزمن، لذلك فإن آلية موسع الشعب الهوائية/معادل المستقبلات المسكارينية المثبتة في COPD معقولة آلياً لالتهاب الشعب الهوائية أيضاً. ومع ذلك، فإن التجربة الوحيدة المرتبطة حالياً بتنبؤ التهاب الشعب الهوائية (NCT01704404) هي دراسة توصيف الاستجابة للجرعة في المرحلة 2 PD/السلامة/PK في موضوعات COPD، وليست دراسة فعالية خاصة بالتهاب الشعب الهوائية — حيث تظهر في مجموعات أدلة التهاب الشعب الهوائية ومرض الانسداد الرئوي، مما يشير إلى أن الارتباط قد يعكس تداخل تصنيف المرض بدلاً من أدلة مباشرة لالتهاب الشعب الهوائية.
 
-Separately, the model also predicts "obstructive lung disease" (rank 2, score 99.10%) with L1 evidence — two completed Phase 3 RCTs (NCT02459080, n=619; NCT02512510, n=611) plus a 52-week active-controlled safety trial (NCT02518139, n=1060) and 20 supporting publications. This is essentially revefenacin's own core COPD indication being re-identified by the model, which validates the model's mechanistic reasoning but is not a "new" indication in the repurposing sense — it does, however, support that the mechanism-to-airway-obstruction link is real and strong, lending indirect plausibility to the bronchitis signal.
+بشكل منفصل، يتنبأ النموذج أيضاً بـ "مرض الانسداد الرئوي" (الترتيب 2، الدرجة 99.10%) مع أدلة L1 — تجربتا المرحلة 3 السريرية العشوائية المكتملتان (NCT02459080, n=619; NCT02512510, n=611) بالإضافة إلى دراسة سلامة مع مراقبة نشطة لمدة 52 أسبوع (NCT02518139, n=1060) و 20 منشور داعم. هذا هو في الأساس مؤشر COPD الأساسي الخاص بريفيفيناسين الذي يتم تحديده مرة أخرى من قبل النموذج، مما يتحقق من صحة التفكير الآلي للنموذج ولكنه ليس مؤشراً "جديداً" بمعنى إعادة الاستخدام — ومع ذلك، فإنه يدعم أن الارتباط بين الآلية وانسداد المسالك الهوائية حقيقي وقوي، مما يعطي معقولية غير مباشرة لإشارة التهاب الشعب الهوائية.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01704404](https://clinicaltrials.gov/study/NCT01704404) | Phase 2 | Completed | 62 | Dose-response characterization of TD-4208 (revefenacin) after 7 days in COPD subjects; not bronchitis-specific — shared with the obstructive lung disease indication and graded C relevance (early PD/safety/PK study, not a bronchitis efficacy endpoint) |
+| [NCT01704404](https://clinicaltrials.gov/study/NCT01704404) | المرحلة 2 | مكتملة | 62 | توصيف الاستجابة للجرعة من TD-4208 (ريفيفيناسين) بعد 7 أيام في موضوعات COPD؛ ليست خاصة بالتهاب الشعب الهوائية — مشتركة مع مؤشر مرض الانسداد الرئوي وتم تصنيفها بملاءمة C (دراسة مبكرة PD/السلامة/PK، وليست نقطة نهاية فعالية لالتهاب الشعب الهوائية) |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available specifically for the bronchitis indication.
+لا توجد أدبيات ذات صلة متاحة حالياً خاصة بمؤشر التهاب الشعب الهوائية.
 
-*(For context: 20 publications support revefenacin's efficacy/safety in the closely related obstructive lung disease/COPD indication, including reviews such as PMID [30803279](https://pubmed.ncbi.nlm.nih.gov/30803279/) and the regulatory approval summary PMID [30560478](https://pubmed.ncbi.nlm.nih.gov/30560478/) "Revefenacin: First Global Approval.")*
-
----
-
-## Saudi Arabia Market Information
-
-Revefenacin is not currently registered or marketed in Saudi Arabia (0 authorizations, no licenses on file).
+*(للسياق: 20 منشور يدعمون فعالية/سلامة ريفيفيناسين في مؤشر مرض الانسداد الرئوي/COPD ذي الصلة الوثيقة، بما في ذلك المراجعات مثل PMID [30803279](https://pubmed.ncbi.nlm.nih.gov/30803279/) وملخص الموافقة التنظيمية PMID [30560478](https://pubmed.ncbi.nlm.nih.gov/30560478/) "Revefenacin: First Global Approval.")*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — DDI query returned no results, and no drug interaction database entry was found.)
+ريفيفيناسين غير مسجل أو مسوّق حالياً في المملكة العربية السعودية (0 تصاريح، لا توجد تراخيص في السجل).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (لا تتوفر بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية حالياً في هذه الحزمة الإثباتية — لم تُرجع استعلامات DDI أي نتائج، ولم يتم العثور على أي إدخال في قاعدة بيانات تفاعلات الأدوية.)
 
-**Rationale:**
-The bronchitis signal rests on a single non-bronchitis-specific Phase 2 trial (evidence level L3, decision stage S1/"Research Question"), which is insufficient to support progression. The mechanistic plausibility is reinforced by the drug's strong, separately-evidenced COPD/obstructive lung disease data (L1, S3), but that data supports COPD, not bronchitis specifically, and Saudi Arabia currently has zero market presence for this drug.
+---
 
-**To proceed, the following is needed:**
-- SFDA package insert / warnings & contraindications data (currently blocking safety review, DG001)
-- Formal MOA confirmation from DrugBank (DG002)
-- A bronchitis-specific (not COPD-shared) clinical trial or literature signal before advancing past S1
-- Separately, consider whether the strong obstructive lung disease (COPD) evidence package (L1, 2 completed Phase 3 RCTs) warrants its own market-entry evaluation for Saudi Arabia, independent of this bronchitis repurposing question
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+إشارة التهاب الشعب الهوائية تعتمد على تجربة واحدة في المرحلة 2 غير خاصة بالتهاب الشعب الهوائية (مستوى الدليل L3، مرحلة القرار S1/"سؤال بحثي")، وهو غير كافٍ لدعم التقدم. يتم تعزيز المعقولية الآلية بواسطة بيانات COPD/مرض الانسداد الرئوي القوية والمدعومة بشكل منفصل للدواء (L1, S3)، لكن هذه البيانات تدعم COPD وليس التهاب الشعب الهوائية على وجه التحديد، والمملكة العربية السعودية لا تملك حالياً أي وجود في السوق لهذا الدواء.
+
+**المطلوب للمضي قدماً:**
+- نشرة SFDA / بيانات التحذيرات والموانع (تحجب حالياً مراجعة السلامة، DG001)
+- تأكيد رسمي لآلية العمل من DrugBank (DG002)
+- دراسة سريرية أو إشارة أدبية خاصة بالتهاب الشعب الهوائية (ليست مشتركة مع COPD) قبل التقدم بعد S1
+- بشكل منفصل، ضع في الاعتبار ما إذا كانت حزمة أدلة مرض الانسداد الرئوي القوية (COPD) (L1, 2 تجربة سريرية عشوائية مكتملة في المرحلة 3) تضمن تقييماً خاصاً بها لدخول السوق في المملكة العربية السعودية، بشكل مستقل عن سؤال إعادة الاستخدام هذا لالتهاب الشعب الهوائية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,95 +29,94 @@ indication_count: 10
 
 </div>
 
-# Cefprozil: From Respiratory Tract Infections to Urinary Tract Infection
+# سيفبروزيل: من التهابات الجهاز التنفسي إلى التهاب المسالك البولية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cefprozil is an oral second-generation cephalosporin antibiotic, historically used for the treatment of upper and lower respiratory tract infections, pharyngitis/tonsillitis, and skin and soft tissue infections.
-The TxGNN model predicts it may be effective for **urinary tract infection (UTI)**, with **3 randomized controlled trials** and **9 publications** currently supporting this direction.
-The mechanistic rationale is strong — cefprozil's cell-wall inhibition mechanism directly targets the most common UTI pathogens — and several head-to-head RCTs against cefaclor demonstrate comparable clinical cure rates.
+سيفبروزيل هو مضاد حيوي من فئة السيفالوسبورينات من الجيل الثاني يؤخذ عن طريق الفم، وقد تم استخدامه تاريخياً في علاج التهابات الجهاز التنفسي العلوي والسفلى والتهاب الحلق واللوزتين والتهابات الجلد والأنسجة الرخوة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب المسالك البولية (UTI)**، مع وجود **3 تجارب سريرية عشوائية محكومة** و **9 منشورات** تدعم هذا الاتجاه حالياً. الأساس الآلي قوي — آلية تثبيط جدار الخلية في سيفبروزيل تستهدف مباشرة مسببات الأمراض الأكثر شيوعاً في التهاب المسالك البولية — وتوضح عدة دراسات مقارنة بين سيفبروزيل والسيفاكلور معدلات شفاء سريرية مماثلة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البيان | المحتوى |
 |------|---------|
-| Original Indication | Respiratory tract infections (upper/lower), pharyngitis, tonsillitis, skin and soft tissue infections |
-| Predicted New Indication | Urinary Tract Infection (UTI) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | التهابات الجهاز التنفسي (العلوي/السفلى)، التهاب الحلق واللوزتين، التهابات الجلد والأنسجة الرخوة |
+| المؤشر الجديد المتنبأ به | التهاب المسالك البولية (UTI) |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | المضي قدماً مع تدابير احترازية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Cefprozil acts by binding to **penicillin-binding proteins (PBPs)** — the enzymes responsible for the final cross-linking step of bacterial peptidoglycan cell wall synthesis. By irreversibly inhibiting PBP1a, PBP2b, and PBP2x, it prevents cell wall assembly and leads to bacterial lysis. This mechanism is shared across all β-lactam antibiotics and is directly effective against organisms that depend on a rigid peptidoglycan cell wall for structural integrity.
+يعمل سيفبروزيل من خلال الارتباط بـ **البروتينات المرتبطة بالبنسلين (PBPs)** — الإنزيمات المسؤولة عن الخطوة الأخيرة من الربط المتقاطع لبيبتيدوجليكان جدار الخلية البكتيرية. من خلال تثبيط PBP1a و PBP2b و PBP2x بشكل غير قابل للعكس، فإنه يمنع تجميع جدار الخلية ويؤدي إلى انحلال البكتيريا. هذه الآلية مشتركة بين جميع المضادات الحيوية من فئة β-lactam وفعالة مباشرة ضد الكائنات الحية التي تعتمد على جدار الخلية من البيبتيدوجليكان الصلب للحفاظ على السلامة الهيكلية.
 
-The most common uropathogens responsible for uncomplicated UTIs — **Escherichia coli**, **Klebsiella pneumoniae**, and **Proteus mirabilis** — are Gram-negative Enterobacteriaceae that remain susceptible to second-generation oral cephalosporins. In vitro studies consistently demonstrate that cefprozil inhibits >80% of E. coli and K. pneumoniae clinical isolates at concentrations achievable in urine after standard oral dosing. Because cefprozil achieves high urinary concentrations through renal excretion, the pharmacokinetic profile aligns well with UTI treatment requirements.
+مسببات الأمراض الأكثر شيوعاً المسؤولة عن التهاب المسالك البولية غير المعقد — **Escherichia coli** و **Klebsiella pneumoniae** و **Proteus mirabilis** — هي بكتيريا سالبة الجرام من عائلة Enterobacteriaceae التي تظل حساسة للسيفالوسبورينات الفموية من الجيل الثاني. تُظهر الدراسات في المختبر بشكل ثابت أن سيفبروزيل يثبط >80% من عزلات E. coli و K. pneumoniae السريرية عند التركيزات الممكن الوصول إليها في البول بعد الجرعات الفموية القياسية. نظراً لأن سيفبروزيل يحقق تركيزات عالية في البول من خلال الإفراز الكلوي، فإن الملف الصيدلاني الحرائكي متوافق جيداً مع متطلبات علاج التهاب المسالك البولية.
 
-The mechanistic link is therefore **direct and pharmacologically sound**: the same PBP inhibition that makes cefprozil effective against streptococcal and staphylococcal respiratory pathogens applies equally to Gram-negative uropathogens. This is not a speculative repurposing — multiple comparative RCTs conducted in the early 1990s explicitly evaluated cefprozil in UTI settings and demonstrated clinical cure rates equivalent to cefaclor (a then-established first-line agent), providing strong empirical validation for the TxGNN model's prediction.
-
----
-
-## Clinical Trial Evidence
-
-No dedicated registered clinical trials for cefprozil in urinary tract infection were identified in ClinicalTrials.gov or ICTRP at the time of data collection (April 2026). The existing comparative RCT evidence predates the mandatory trial registration era (pre-2000), which explains the absence from registries rather than reflecting a lack of clinical investigation.
+الارتباط الآلي هو بالتالي **مباشر وسليم دوائياً**: نفس تثبيط PBP الذي يجعل سيفبروزيل فعالاً ضد مسببات الأمراض التنفسية العقدية والمكورة العنقودية ينطبق بالتساوي على مسببات الأمراض البولية سالبة الجرام. هذا ليس إعادة توجيه تخمينية — عملت عدة تجارب عشوائية محكومة مقارنة أجريت في أوائل التسعينيات على تقييم سيفبروزيل صراحة في إعدادات التهاب المسالك البولية وأثبتت معدلات الشفاء السريري المعادلة للسيفاكلور (عامل يتم تأسيسه آنذاك من الدرجة الأولى)، مما يوفر تحقيقاً تجريبياً قوياً لتنبؤ نموذج TxGNN.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لم تُحدد أي تجارب سريرية مسجلة مخصصة لسيفبروزيل في التهاب المسالك البولية في ClinicalTrials.gov أو ICTRP وقت جمع البيانات (أبريل 2026). الأدلة الموجودة من التجارب العشوائية المحكومة المقارنة تسبق حقبة تسجيل التجارب الإلزامية (قبل عام 2000)، مما يشرح الغياب من السجلات بدلاً من عكس نقص التحقيق السريري.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [1761453](https://pubmed.ncbi.nlm.nih.gov/1761453/) | 1991 | RCT | J Antimicrob Chemother | Cefprozil 500 mg once daily vs cefaclor 250 mg TID in 102 adults with acute uncomplicated UTI; cure rates comparable between arms |
-| [1611652](https://pubmed.ncbi.nlm.nih.gov/1611652/) | 1992 | RCT | Clinical Therapeutics | Multicenter randomized study (n≥2 yrs); cefprozil once daily vs cefaclor TID for 10 days; satisfactory clinical response rates similar between groups |
-| [1952874](https://pubmed.ncbi.nlm.nih.gov/1952874/) | 1991 | RCT | Antimicrob Agents Chemother | 108 college women with acute UTI; cefprozil 500 mg QD vs cefaclor 250 mg TID × 10 days; clinical cure 94%, bacterial cure 93–94% in both groups |
-| [7681376](https://pubmed.ncbi.nlm.nih.gov/7681376/) | 1993 | Review | Drugs | Comprehensive review of antibacterial activity, pharmacokinetics, and therapeutic potential; confirms good in vitro activity against common UTI pathogens including E. coli and Klebsiella |
-| [8464648](https://pubmed.ncbi.nlm.nih.gov/8464648/) | 1993 | Review | Pediatric Annals | Pediatric-focused review; notes cefprozil's favorable GI tolerability and once/twice-daily dosing advantage; describes activity relevant to UTI |
-| [8042575](https://pubmed.ncbi.nlm.nih.gov/8042575/) | 1994 | Review | Am Fam Physician | Comparative review of newer oral cephalosporins; positions cefprozil as effective for urinary tract infections with convenient twice-daily dosing |
-| [1494237](https://pubmed.ncbi.nlm.nih.gov/1494237/) | 1992 | Clinical Study | Jpn J Antibiotics | Pediatric PK/PD study; includes UTI cases; high urinary concentrations of cefprozil demonstrated after oral dosing |
-| [1289583](https://pubmed.ncbi.nlm.nih.gov/1289583/) | 1992 | Clinical Study | Jpn J Antibiotics | 21 pediatric patients with bacterial infections including 3 UTI cases; bacterial eradication achieved in all culture-confirmed cases |
-| [8529432](https://pubmed.ncbi.nlm.nih.gov/8529432/) | 1995 | In Vitro | Chemotherapy | 637 clinical isolates from Taiwan; cefprozil inhibited >80% of E. coli and K. pneumoniae at 8 mg/L; activity comparable to other oral cephalosporins |
+| [1761453](https://pubmed.ncbi.nlm.nih.gov/1761453/) | 1991 | RCT | J Antimicrob Chemother | سيفبروزيل 500 ملغ مرة واحدة يومياً مقابل سيفاكلور 250 ملغ ثلاث مرات يومياً في 102 بالغاً يعانون من التهاب المسالك البولية الحاد غير المعقد؛ معدلات الشفاء مماثلة بين المجموعات |
+| [1611652](https://pubmed.ncbi.nlm.nih.gov/1611652/) | 1992 | RCT | Clinical Therapeutics | دراسة عشوائية محكومة متعددة المراكز (n≥2 سنة)؛ سيفبروزيل مرة واحدة يومياً مقابل سيفاكلور ثلاث مرات يومياً لمدة 10 أيام؛ معدلات الاستجابة السريرية المرضية متشابهة بين المجموعات |
+| [1952874](https://pubmed.ncbi.nlm.nih.gov/1952874/) | 1991 | RCT | Antimicrob Agents Chemother | 108 طالبات جامعيات يعانين من التهاب المسالك البولية الحاد؛ سيفبروزيل 500 ملغ مرة واحدة يومياً مقابل سيفاكلور 250 ملغ ثلاث مرات يومياً × 10 أيام؛ شفاء سريري 94%، شفاء بكتيري 93–94% في كلا المجموعتين |
+| [7681376](https://pubmed.ncbi.nlm.nih.gov/7681376/) | 1993 | Review | Drugs | مراجعة شاملة للنشاط المضاد للبكتيريا والحرائك الدوائية والإمكانات العلاجية؛ تؤكد النشاط الجيد في المختبر ضد مسببات الأمراض الشائعة في التهاب المسالك البولية بما في ذلك E. coli و Klebsiella |
+| [8464648](https://pubmed.ncbi.nlm.nih.gov/8464648/) | 1993 | Review | Pediatric Annals | مراجعة تركز على الأطفال؛ يلاحظ تحمل الجهاز الهضمي المواتي لسيفبروزيل وميزة الجرعات مرة أو مرتين يومياً؛ يصف النشاط ذي الصلة بالتهاب المسالك البولية |
+| [8042575](https://pubmed.ncbi.nlm.nih.gov/8042575/) | 1994 | Review | Am Fam Physician | مراجعة مقارنة للسيفالوسبورينات الفموية الأحدث؛ يضع سيفبروزيل كعلاج فعال لالتهابات المسالك البولية مع جرعات مريحة مرتين يومياً |
+| [1494237](https://pubmed.ncbi.nlm.nih.gov/1494237/) | 1992 | Clinical Study | Jpn J Antibiotics | دراسة حرائك دوائية/ديناميكية دوائية لدى الأطفال؛ تشمل حالات التهاب المسالك البولية؛ تركيزات عالية من سيفبروزيل في البول موثقة بعد الجرعات الفموية |
+| [1289583](https://pubmed.ncbi.nlm.nih.gov/1289583/) | 1992 | Clinical Study | Jpn J Antibiotics | 21 مريضاً من الأطفال يعانون من عدوى بكتيرية بما في ذلك 3 حالات التهاب مسالك بولية؛ تحقق القضاء على البكتيريا في جميع الحالات المؤكدة بالاستزراع |
+| [8529432](https://pubmed.ncbi.nlm.nih.gov/8529432/) | 1995 | In Vitro | Chemotherapy | 637 عزلة سريرية من تايوان؛ سيفبروزيل ثبط >80% من E. coli و K. pneumoniae عند 8 ملغ/لتر؛ نشاط مماثل للسيفالوسبورينات الفموية الأخرى |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Cefprozil currently has **no registered authorizations** in Saudi Arabia (SFDA). The drug is not marketed in the Saudi market, and no product licenses were identified in the regulatory database.
-
----
-
-## Safety Considerations
-
-Detailed package insert warnings and contraindications for Saudi Arabia are not yet available in the current evidence pack (SFDA package insert data pending). Please refer to the **originator package insert and international SmPC** for comprehensive safety information including:
-
-- Hypersensitivity reactions (cross-reactivity with other β-lactams; caution in penicillin-allergic patients)
-- Clostridium difficile-associated diarrhea (applicable to all oral antibiotics)
-- Renal dose adjustment requirements
-- CNS effects at high doses (rare)
-
-No drug-drug interaction data was identified in the DDI database query. Interactions typical for cephalosporins (e.g., warfarin potentiation, reduced renal clearance with probenecid) should be considered based on drug class.
+سيفبروزيل حالياً **لا يملك أي تفاويض مسجلة** في المملكة العربية السعودية (SFDA). الدواء غير مسوق في السوق السعودية، ولم تُحدد أي رخص منتجات في قاعدة البيانات التنظيمية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+لم تكن ملصقات الحزم التفصيلية والتحذيرات والموانع الاستعمال للمملكة العربية السعودية متاحة حتى الآن في حزمة الأدلة الحالية (بيانات ملصق SFDA قيد الانتظار). يرجى الرجوع إلى **ملصق المنتج الأصلي وملخص خصائص المنتج الدولي** للحصول على معلومات سلامة شاملة بما في ذلك:
 
-**Rationale:**
-Three independent RCTs conducted in the 1990s demonstrated that cefprozil achieves clinical and bacterial cure rates equivalent to cefaclor in acute uncomplicated UTI in both adults and children, and the mechanistic basis (PBP inhibition targeting Enterobacteriaceae) is scientifically sound and well-characterized.
+- ردود الفعل التحسسية (التفاعل المتقاطع مع β-lactams الأخرى؛ الحذر في المرضى الذين يعانون من الحساسية للبنسلين)
+- الإسهال المرتبط بـ Clostridium difficile (ينطبق على جميع المضادات الحيوية الفموية)
+- متطلبات تعديل الجرعة الكلوية
+- التأثيرات العصبية المركزية عند الجرعات العالية (نادرة)
 
-**To proceed, the following is needed:**
+لم تُحدد بيانات تفاعل الدواء-الدواء في استعلام قاعدة بيانات DDI. يجب مراعاة التفاعلات النموذجية للسيفالوسبورينات (مثل تعزيز الوارفارين، انخفاض الوضوح الكلوي مع البروبينسيد) بناءً على فئة الدواء.
 
-- **SFDA registration pathway**: Cefprozil is not currently marketed in Saudi Arabia; a full dossier submission (MAA) or import authorization process would be required before clinical use
-- **Contemporary susceptibility data**: Updated antibiogram data from Saudi Arabia-specific clinical isolates to confirm cefprozil MICs against current local E. coli and Klebsiella strains, particularly given rising ESBL prevalence
-- **SFDA package insert**: Obtain and review the complete Saudi Arabia-applicable label for definitive warnings, contraindications, and dosing guidance
-- **Scope clarification**: Confine use to **uncomplicated lower UTI** (cystitis) in otherwise healthy adults — the existing RCT evidence does not support use in complicated UTI, pyelonephritis, or catheter-associated UTI
-- **Antimicrobial stewardship alignment**: Confirm that cefprozil is positioned within local UTI treatment guidelines and does not displace agents preferred for antimicrobial stewardship purposes (e.g., nitrofurantoin or fosfomycin for uncomplicated cystitis)
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع تدابير احترازية**
+
+**الأساس المنطقي:**
+ثلاث تجارب عشوائية محكومة مستقلة أجريت في التسعينيات أثبتت أن سيفبروزيل يحقق معدلات شفاء سريرية وبكتيرية معادلة للسيفاكلور في التهاب المسالك البولية الحاد غير المعقد لدى البالغين والأطفال، والأساس الآلي (تثبيط PBP يستهدف Enterobacteriaceae) سليم علمياً وموصوف بشكل جيد.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **مسار تسجيل SFDA**: سيفبروزيل غير مسوق حالياً في المملكة العربية السعودية؛ ستكون هناك حاجة إلى تقديم ملف كامل (MAA) أو عملية ترخيص استيراد قبل الاستخدام السريري
+- **بيانات الحساسية المعاصرة**: بيانات تضاد محدثة من عزلات سريرية خاصة بالمملكة العربية السعودية لتأكيد MICs سيفبروزيل ضد سلالات E. coli و Klebsiella الحالية محلياً، خاصة مع ارتفاع انتشار ESBL
+- **ملصق SFDA**: الحصول على ومراجعة الملصق الكامل الذي ينطبق على المملكة العربية السعودية للحصول على تحذيرات نهائية وموانع استعمال وتوجيهات الجرعات
+- **توضيح النطاق**: الاقتصار على الاستخدام في **التهاب المسالك البولية السفلى غير المعقد** (التهاب المثانة) لدى البالغين الأصحاء وغير ذلك — الأدلة RCT الموجودة لا تدعم الاستخدام في التهاب المسالك البولية المعقد أو التهاب الحويضة والكلية أو التهاب المسالك البولية المرتبط بالقسطرة
+- **توافق الإشراف على مضادات الميكروبات**: تأكيد أن سيفبروزيل موضع معترف به في إرشادات علاج التهاب المسالك البولية المحلية وليس يحل محل العوامل المفضلة لأغراض الإشراف على مضادات الميكروبات (مثل النيتروفيورانتوين أو الفوسفوميسين لالتهاب المثانة غير المعقد)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

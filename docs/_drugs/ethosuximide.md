@@ -29,77 +29,78 @@ indication_count: 1
 
 </div>
 
-# Ethosuximide: From Absence Seizures to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# إيثوسوكسيميد: من نوبات الغياب إلى متلازمة إفراز الهرمون المضاد للإدرار غير الملائمة الكلوية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Ethosuximide is a succinimide-class anticonvulsant originally used to treat absence (petit mal) seizures.
-> The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-generated signal only, with no corroborating biological or clinical evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Absence (petit mal) seizures — based on known pharmacological classification; no Saudi Arabia regulatory license text is available to confirm this locally |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> إيثوسوكسيميد هو مضاد اختلاج من فئة السوكسينيميد يُستخدم في الأصل لعلاج نوبات الغياب الصرعية.
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **متلازمة إفراز الهرمون المضاد للإدرار غير الملائمة الكلوية (NSIAD)**،
+> لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشور علمي** — إنه إشارة مُولّدة من النموذج فقط، بدون أي دليل بيولوجي أو سريري مؤيد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data for ethosuximide is not available in this evidence pack. Based on known pharmacology, ethosuximide is a succinimide anticonvulsant that acts primarily by blocking T-type (Cav3) calcium channels in thalamic neurons, an action well established as effective for absence seizures.
-
-NSIAD, by contrast, is caused by gain-of-function mutations in the AVPR2 (vasopressin V2) receptor in the renal collecting duct, which causes water retention independent of circulating vasopressin levels. The molecular target of ethosuximide (neuronal T-type calcium channels) and the pathophysiology of NSIAD (a renal tubular GPCR signaling defect) belong to entirely different physiological systems, and no pharmacological literature currently links the two.
-
-Given this, the prediction should be interpreted as a signal arising from TxGNN's knowledge-graph topological similarity rather than a mechanistically grounded hypothesis. No supporting biological pathway, preclinical study, or clinical observation has been identified to date. This candidate therefore requires independent mechanistic or preclinical validation before it can be considered biologically plausible, rather than being taken at face value from the model score alone.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | نوبات الغياب الصرعية — بناءً على التصنيف الدوائي المعروف؛ لا يتوفر نص ترخيص تنظيمي محلي بالمملكة العربية السعودية لتأكيد ذلك محلياً |
+| المؤشر الجديد المتنبأ به | متلازمة إفراز الهرمون المضاد للإدرار غير الملائمة الكلوية (NSIAD) |
+| درجة التنبؤ TxGNN | 99.91% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مُسوَّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+لا تتوفر بيانات تفصيلية عن آلية عمل إيثوسوكسيميد في هذه الحزمة الدليلية. بناءً على الصيدلة المعروفة، إيثوسوكسيميد هو مضاد اختلاج من فئة السوكسينيميد يعمل بشكل أساسي من خلال حجب قنوات الكالسيوم من النوع T (Cav3) في الخلايا العصبية السليقية، وهي آلية عمل معروفة وراسخة لعلاج نوبات الغياب الصرعية.
 
----
+في المقابل، تحدث NSIAD نتيجة لطفرات تكسب-الوظيفة في مستقبل الفازوبريسين V2 (AVPR2) في القنوات الجمعية الكلوية، مما يسبب احتباس الماء بغض النظر عن مستويات الفازوبريسين المتداولة. الهدف الجزيئي لإيثوسوكسيميد (قنوات الكالسيوم العصبية من النوع T) وأمراض الفسيولوجيا المرضية لـ NSIAD (عيب في إشارات GPCR الكلوية الأنبوبية) ينتميان إلى أنظمة فسيولوجية مختلفة تماماً، ولا توجد حالياً أي دراسات صيدلانية تربط بينهما.
 
-## Saudi Arabia Market Information
-
-Ethosuximide is currently not marketed in Saudi Arabia (market status: Not Marketed; 0 authorizations on record), so no product license information is available.
+على هذا الأساس، يجب تفسير التنبؤ على أنه إشارة ناشئة من التشابه الطوبولوجي في الرسم البياني المعرفي لـ TxGNN بدلاً من كونه فرضية مدعومة ميكانيكياً. لم يتم تحديد أي مسار بيولوجي مؤيد، أو دراسة ما قبل سريرية، أو ملاحظة سريرية حتى الآن. لذلك، يتطلب هذا المرشح تحققاً ميكانيكياً أو ما قبل سريري مستقلاً قبل اعتباره معقولاً بيولوجياً، بدلاً من الاعتماد على درجة النموذج وحدها.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الدراسات المنشورة
 
-**Decision: Hold**
+لا توجد دراسات منشورة ذات صلة متاحة حالياً.
 
-**Rationale:**
-This prediction has Evidence Level L5 — a model score with zero supporting clinical trials or literature, and no identified mechanistic link between ethosuximide's target (T-type calcium channels) and NSIAD's underlying pathophysiology (AVPR2 gain-of-function). There is currently no basis to advance this candidate beyond the prediction stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action (MOA) data for ethosuximide
-- Preclinical or mechanistic studies exploring any relationship between T-type calcium channel modulation and vasopressin V2 receptor (AVPR2) signaling or renal water handling
-- Any case reports or observational data on ethosuximide use in patients with SIADH/NSIAD-like presentations, if they exist
-- Reassessment of TxGNN score plausibility once literature/trial evidence (if any) becomes available
+## معلومات سوق المملكة العربية السعودية
+
+إيثوسوكسيميد غير مُسوَّق حالياً في المملكة العربية السعودية (حالة السوق: غير مُسوَّق؛ 0 تفويضات مسجلة)، لذلك لا تتوفر معلومات ترخيص المنتج.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+هذا التنبؤ له مستوى دليل L5 — درجة نموذج بدون أي تجارب سريرية أو أدبيات مؤيدة، ولا توجد صلات ميكانيكية محددة بين الهدف من إيثوسوكسيميد (قنوات الكالسيوم من النوع T) وأمراض الفسيولوجيا المرضية الأساسية لـ NSIAD (تكسب-الوظيفة AVPR2). لا يوجد حالياً أي أساس للمتابعة بهذا المرشح بعد مرحلة التنبؤ.
+
+**للمتابعة، يلزم ما يلي:**
+- النشرة الداخلية من هيئة الغذاء والدواء السعودية/الشركة المصنعة (التحذيرات، موانع الاستعمال) — وهي فجوة بيانات عرقلة حالياً
+- بيانات آلية العمل (MOA) المؤكدة لإيثوسوكسيميد
+- دراسات ما قبل سريرية أو ميكانيكية استكشافية عن أي علاقة بين تعديل قناة الكالسيوم من النوع T وإشارات مستقبل الفازوبريسين V2 (AVPR2) أو معالجة الماء الكلوي
+- أي تقارير حالات أو بيانات ملاحظة عن استخدام إيثوسوكسيميد في المرضى الذين يعانون من عروض سريرية تشبه SIADH/NSIAD، إن وجدت
+- إعادة تقييم معقولية درجة TxGNN بمجرد توفر أدلة أدبيات/تجارب (إن وجدت)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,79 +29,80 @@ indication_count: 10
 
 </div>
 
-# Clobazam: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
+# كلوبازام: من متلازمة لينوكس-جاستوت إلى متلازمة الصرع المرتبطة بالعدوى الحمائية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Clobazam is a 1,5-benzodiazepine with established use as a broad-spectrum antiepileptic agent, including FDA-approved adjunctive therapy for seizures associated with Lennox-Gastaut syndrome (ONFI®). The TxGNN model predicts it may be effective for **Febrile Infection-Related Epilepsy Syndrome (FIRES)**, with **0 clinical trials** and **2 publications** currently supporting this specific direction — making it a mechanistically plausible but clinically uncharted research question.
+كلوبازام هو بنزوديازيبين 1,5 معروف الاستخدام كعامل مضاد للصرع واسع النطاق، بما في ذلك العلاج المساعد المعتمد من قبل إدارة الغذاء والدواء (FDA) للنوبات المرتبطة بمتلازمة لينوكس-جاستوت (ONFI®). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة الصرع المرتبطة بالعدوى الحمائية (FIRES)**، مع **0 تجارب سريرية** و**2 منشورة** تدعم هذا الاتجاه المحدد حالياً — مما يجعله سؤال بحثي معقول من الناحية الآلية ولكن لم يتم استكشافه سريرياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Epilepsy (broad-spectrum antiepileptic); FDA-approved for Lennox-Gastaut syndrome seizures (ONFI®) |
-| Predicted New Indication | Febrile Infection-Related Epilepsy Syndrome (FIRES) |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الصرع (دواء مضاد للصرع واسع النطاق)؛ معتمد من قبل إدارة الغذاء والدواء (FDA) لنوبات متلازمة لينوكس-جاستوت (ONFI®) |
+| مؤشر جديد متنبأ به | متلازمة الصرع المرتبطة بالعدوى الحمائية (FIRES) |
+| درجة التنبؤ من TxGNN | 99.82% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not formally documented in this Evidence Pack. Based on published literature included in the evidence, clobazam belongs to the 1,5-benzodiazepine class — a structural isomer distinct from classical 1,4-benzodiazepines such as diazepam and clonazepam. It acts as a positive allosteric modulator of GABA-A receptors, enhancing inhibitory neurotransmission to suppress abnormal neuronal firing. Compared to other benzodiazepines, clobazam carries relatively lower sedative and muscle-relaxant liability while maintaining broad-spectrum antiepileptic activity across both focal and generalized seizure types.
+حالياً، لا يتم توثيق بيانات آلية العمل المفصلة رسمياً في هذه مجموعة الأدلة. بناءً على الأدبيات المنشورة المدرجة في الأدلة، ينتمي كلوبازام إلى فئة البنزوديازيبينات 1,5 — وهو متماكب هيكلي مختلف عن البنزوديازيبينات الكلاسيكية 1,4 مثل ديازيبام وكلونازيبام. يعمل كمعدِّل تخصصي موجب لمستقبلات GABA-A، مما يعزز النقل العصبي المثبط لقمع إطلاق النيران العصبية غير الطبيعي. مقارنة بالبنزوديازيبينات الأخرى، يحمل كلوبازام مسؤولية مهدئة وارتخائية عضلية أقل نسبياً مع الحفاظ على النشاط المضاد للصرع واسع النطاق عبر كل من أنواع النوبات البؤرية والمعممة.
 
-FIRES is a catastrophic form of new-onset refractory status epilepticus (NORSE) occurring in previously healthy children. During the acute phase, benzodiazepines are commonly used as first-line agents to achieve seizure control, often escalating to high-dose midazolam infusions or barbiturate coma. Clobazam's favorable oral and enteral bioavailability theoretically positions it as a viable bridging agent after weaning from intravenous midazolam — an approach directly paralleled by the lorazepam weaning strategy described in the available literature. Its active metabolite N-desmethylclobazam also contributes to a prolonged duration of action suitable for maintenance use.
+متلازمة FIRES هي شكل كارثي من حالة الصرع الحالية المستعصية على العلاج ذات البداية الحديثة (NORSE) تحدث في الأطفال الأصحاء سابقاً. خلال المرحلة الحادة، يتم استخدام البنزوديازيبينات بشكل شائع كعوامل من الخط الأول لتحقيق السيطرة على النوبات، غالباً ما يتصاعد إلى التسريب بجرعات عالية من ميدازولام أو غيبوبة الباربيتورات. تضع التوفر البيولوجي الفموي والمعوي الملائم لكلوبازام نظرياً كعامل جسري قابل للحياة بعد الفطم من ميدازولام الوريدي — وهو نهج متوازي مباشرة مع استراتيجية الفطم من لورازيبام الموصوفة في الأدبيات المتاحة. يساهم أيضاً مستقلبه النشط N-desmethylclobazam في مدة عمل مطولة مناسبة لاستخدام الصيانة.
 
-However, the core pathology of FIRES is immune-mediated encephalitis, and GABA-A enhancement provides symptomatic seizure suppression rather than disease modification. The two supporting publications describe BZD class effects (lorazepam) and a non-BZD adjunct (perampanel) — neither evaluates clobazam directly in FIRES. The TxGNN prediction likely reflects network-level similarity between FIRES and other BZD-responsive epilepsy nodes rather than disease-specific evidence, and should be treated as a hypothesis-generating signal only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الآلية الأساسية لـ FIRES هي التهاب الدماغ الوسيط المناعي، وتعزيز GABA-A يوفر قمع النوبات العرضية بدلاً من تعديل المرض. تصف المنشورتان الداعمتان تأثيرات فئة BZD (لورازيبام) وإضافة غير BZD (بيرامبانيل) — لا أحد منهما يقيّم كلوبازام مباشرة في FIRES. من المحتمل أن يعكس التنبؤ من TxGNN التشابه على مستوى الشبكة بين FIRES وعقد الصرع المستجيبة للـ BZD الأخرى بدلاً من الأدلة الخاصة بالمرض، ويجب التعامل معه كإشارة توليد الفرضية فقط.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Case Series | Epileptic Disorders | Enteral lorazepam used as effective weaning substitute for midazolam-dependent FIRES patients; demonstrates that enteral BZDs can support the transition from IV anaesthetic coma to oral maintenance — indirect class-effect support for clobazam |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Case Report | Cureus | Perampanel reduced barbiturate dependency in a 13-year-old FIRES patient; highlights the unmet clinical need for alternative AEDs in the weaning phase and the broader context of refractory FIRES management |
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | سلسلة حالات | Epileptic Disorders | تم استخدام لورازيبام المعوي كبديل فطام فعال لمرضى FIRES الذين يعتمدون على ميدازولام؛ يوضح أن البنزوديازيبينات المعوية يمكن أن تدعم الانتقال من غيبوبة التخدير الوريدية إلى الصيانة الفموية — دعم غير مباشر لتأثير الفئة لكلوبازام |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | تقرير حالة | Cureus | قلل بيرامبانيل الاعتماد على الباربيتورات في مريض FIRES بعمر 13 سنة؛ يسلط الضوء على الحاجة السريرية غير الملباة لأدوية صرع بديلة في مرحلة الفطام والسياق الأوسع لإدارة FIRES المستعصية على العلاج |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No authorizations found for Clobazam in Saudi Arabia.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لم يتم العثور على أي تفويضات لكلوبازام في المملكة العربية السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The mechanistic basis for clobazam in FIRES is plausible at the class level (benzodiazepines are routinely used for acute FIRES seizure control), but there are zero clinical trials and no publications examining clobazam specifically in this syndrome. The evidence level (L4) reflects indirect preclinical and mechanistic reasoning only. Additionally, clobazam is not marketed in Saudi Arabia, meaning even an exploratory trial would require special regulatory authorization.
+---
 
-**To proceed, the following is needed:**
-- Formal documentation of clobazam's mechanism of action (GABA-A pharmacology, receptor subtype selectivity)
-- Case reports or retrospective series specifically evaluating enteral clobazam during the subacute or chronic phase of FIRES
-- Comparative data against lorazepam and clonazepam in BZD weaning protocols for FIRES patients
-- Assessment of tolerance development and neurocognitive effects during prolonged pediatric use
-- Safety profile review from package insert (FDA/EMA), particularly warnings on sedation, respiratory depression, and paradoxical excitation in pediatric populations
-- Saudi Arabia special drug import application (special access authorization) if any clinical use is contemplated
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+الأساس الآلي لكلوبازام في FIRES معقول على مستوى الفئة (يتم استخدام البنزوديازيبينات بشكل روتيني للسيطرة على نوبات FIRES الحادة)، لكن لا توجد تجارب سريرية صفر ولا منشورات تفحص كلوبازام على وجه التحديد في هذه المتلازمة. مستوى الأدلة (L4) يعكس الاستدلال السابق للعيادات والآلي غير المباشر فقط. بالإضافة إلى ذلك، لم يتم تسويق كلوبازام في المملكة العربية السعودية، مما يعني أن حتى التجربة الاستكشافية ستتطلب تفويض تنظيمي خاص.
+
+**للمتابعة، ما يلي مطلوب:**
+- توثيق رسمي لآلية عمل كلوبازام (صيدلة GABA-A، انتقائية النوع الفرعي للمستقبل)
+- تقارير حالات أو سلسلة بأثر رجعي تقيّم كلوبازام المعوي على وجه التحديد خلال المرحلة شبه الحادة أو المزمنة من FIRES
+- بيانات مقارنة ضد لورازيبام وكلونازيبام في بروتوكولات فطام BZD لمرضى FIRES
+- تقييم تطور التسامح والآثار العصبية المعرفية أثناء الاستخدام طويل الأمد عند الأطفال
+- استعراض ملف السلامة من نشرة الحزمة (FDA/EMA)، خاصة تحذيرات التخدير والاكتئاب التنفسي والإثارة المفارقة في السكان الأطفال
+- تطبيق استيراد الدواء الخاص في المملكة العربية السعودية (تفويض الوصول الخاص) إذا تم التفكير في أي استخدام سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

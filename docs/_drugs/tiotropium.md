@@ -29,113 +29,110 @@ indication_count: 10
 
 </div>
 
-Using the report template you provided as direct task instructions (no additional skill needed — this is a self-contained content-generation spec). One flag before the report: the evidence pack's own `repurposing_rationale` for rank 1 explicitly states "obstructive lung disease" is the *superset term* for tiotropium's already-established COPD indication, not a novel hypothesis — I've kept that caveat visible rather than glossing over it.
+# تيوتروبيوم: من مرض الانسداد الرئوي المزمن إلى مرض الانسداد الرئوي
+
+## الملخص الموجز بجملة واحدة
+
+> تيوتروبيوم هو موسع للشعب الهوائية من فئة حاصرات مستقبلات الموسكارين طويلة المفعول (LAMA) استخدامه المعروف هو علاج الصيانة لمرض الانسداد الرئوي المزمن (COPD).
+> التنبؤ الأعلى من نموذج TxGNN، **مرض الانسداد الرئوي**، هي الفئة التشخيصية الأوسع التي تضم بالفعل مرض الانسداد الرئوي المزمن — وبالتالي يجب قراءة هذا على أنه النموذج يعيد تحديد الفئة العلاجية المعروفة لتيوتروبيوم بشكل صحيح بدلاً من الكشف عن مؤشر جديد حقيقي.
+> إلا أن الإشارة مدعومة بقاعدة أدلة كبيرة غير عادية — **50 تجربة سريرية** و **20 منشورا** — تعكس عقودا من البيانات المتراكمة حول مرض الانسداد الرئوي المزمن والربو بدلاً من أدلة إعادة توظيف جديدة.
 
 ---
 
-# Tiotropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## نظرة سريعة عامة
 
-## One-Sentence Summary
-
-> Tiotropium is a long-acting muscarinic antagonist (LAMA) bronchodilator whose established use is maintenance treatment of chronic obstructive pulmonary disease (COPD).
-> The TxGNN model's top prediction, **obstructive lung disease**, is the broader diagnostic category that already contains COPD — so this is best read as the model correctly re-identifying tiotropium's known therapeutic class rather than surfacing a genuinely new indication.
-> The signal is nonetheless backed by an unusually large evidence base — **50 clinical trials** and **20 publications** — reflecting decades of accumulated COPD/asthma data rather than new repurposing evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Chronic Obstructive Pulmonary Disease (COPD) — well-established global indication; not captured in the local license record (0 authorizations on file) |
-| Predicted New Indication | Obstructive Lung Disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | مرض الانسداد الرئوي المزمن (COPD) — مؤشر عالمي راسخ؛ غير مدرج في سجل الترخيص المحلي (0 تراخيص في الملف) |
+| المؤشر المتنبأ به | مرض الانسداد الرئوي |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الأدلة | L1 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع احتياطات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, a structured mechanism-of-action record is not available for this drug (flagged as a data gap). Based on the literature evidence collected, tiotropium is a long-acting muscarinic (M1/M2/M3) receptor antagonist that dissociates especially slowly from M3 receptors on bronchial smooth muscle, producing sustained bronchodilation with once-daily dosing (PMID 12010082, 11281822, 10069510).
+حالياً، لا يتوفر سجل آلية عمل منظم لهذا الدواء (تم الإشارة إليه كفجوة بيانات). بناءً على أدلة الأدب الطبي المجمعة، تيوتروبيوم هو حاصرة مستقبلات موسكارين (M1/M2/M3) طويلة المفعول تنفصل ببطء غير عادي بشكل خاص عن مستقبلات M3 على العضلات الملساء في الشعب الهوائية، مما ينتج عنه توسيع مستدام للشعب الهوائية بجرعة مرة واحدة يومياً (PMID 12010082, 11281822, 10069510).
 
-"Obstructive lung disease" is not a distinct new disease — it is the umbrella category under which COPD (and, in this evidence set, asthma) already sits. The mechanistic link is therefore not a novel hypothesis: it is the same M3-antagonism/bronchodilation pathway that underlies tiotropium's existing COPD indication, extended in the evidence pack to include LAMA use in asthma (e.g., add-on therapy in severe persistent asthma, pediatric/adolescent asthma trials).
+"مرض الانسداد الرئوي" ليس مرضاً جديداً متميزاً — إنه الفئة العامة التي يقع تحتها مرض الانسداد الرئوي المزمن (وفي هذه مجموعة الأدلة، الربو) بالفعل. الارتباط الآلي ليس بالتالي فرضية جديدة: إنه نفس آلية M3-antagonism/bronchodilation الذي يقوم عليه مؤشر COPD الموجود لتيوتروبيوم، ممتدة في مجموعة الأدلة لتشمل استخدام LAMA في الربو (على سبيل المثال، العلاج الإضافي في الربو المستمر الحاد، تجارب الربو لدى الأطفال والمراهقين).
 
-Practically, this means the "repurposing candidate" should be interpreted as a **confirmatory signal for an already-known drug class use**, not a discovery. Its value lies in consolidating the strength of existing evidence (useful for a formulary or label-expansion decision), not in opening a new therapeutic avenue.
+من الناحية العملية، هذا يعني أن "مرشح إعادة التوظيف" يجب تفسيره على أنه **إشارة تأكيدية لاستخدام فئة دواء معروفة بالفعل**، وليس اكتشاف. تكمن قيمتها في تعزيز قوة الأدلة الموجودة (مفيد لقرار قائمة الأدوية أو توسيع الملصق)، وليس في فتح مسار علاجي جديد.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01012765](https://clinicaltrials.gov/study/NCT01012765) | Phase 3 | Completed | 173 | Crossover RCT using open-label tiotropium (18µg) as active comparator to assess indacaterol's effect on inspiratory capacity in moderate COPD |
-| [NCT00274521](https://clinicaltrials.gov/study/NCT00274521) | Phase 3 | Completed | 108 | 25-week placebo-controlled RCT: tiotropium improved exercise tolerance and dyspnea in COPD patients undergoing pulmonary rehabilitation |
-| [NCT01233284](https://clinicaltrials.gov/study/NCT01233284) | Phase 2 | Completed | 149 | Crossover dose-ranging trial of tiotropium Respimat (1.25–5.0 µg) vs placebo in moderate persistent asthma inadequately controlled on ICS |
-| [NCT01120691](https://clinicaltrials.gov/study/NCT01120691) | Phase 3 | Completed | 2,224 | 64-week RCT comparing QVA149 vs glycopyrronium vs open-label tiotropium on COPD exacerbations in severe/very severe COPD |
-| [NCT03158311](https://clinicaltrials.gov/study/NCT03158311) | Phase 3 | Completed | 1,426 | 24-week non-inferiority RCT of QVM149 vs free combination salmeterol/fluticasone + tiotropium in uncontrolled asthma |
-| [NCT01634139](https://clinicaltrials.gov/study/NCT01634139) | Phase 3 | Completed | 403 | 48-week placebo-controlled RCT of tiotropium Respimat in children (6–11y) with moderate persistent asthma |
-| [NCT00776984](https://clinicaltrials.gov/study/NCT00776984) | Phase 3 | Completed | 453 | 48-week RCT: tiotropium Respimat (5µg) as add-on controller therapy in severe persistent asthma on top of usual care |
-| [NCT04184297](https://clinicaltrials.gov/study/NCT04184297) | N/A | Completed | 27,190 | Large real-world comparative-effectiveness study: tiotropium+olodaterol vs ICS/LABA/LAMA combinations across COPD exacerbation-risk subgroups |
-| [NCT05402020](https://clinicaltrials.gov/study/NCT05402020) | N/A | Completed | 17,018 | Taiwan NHI claims-based real-world study comparing tiotropium/olodaterol vs ICS/LABA effectiveness and safety in COPD |
-| [NCT04208581](https://clinicaltrials.gov/study/NCT04208581) | Phase 3 | Unknown | 372 | RCT of Chinese herbal granule + standard care (including LAMA) for mortality reduction in COPD with chronic respiratory failure; status unknown, indirect evidence only |
+| [NCT01012765](https://clinicaltrials.gov/study/NCT01012765) | المرحلة 3 | مكتملة | 173 | تجربة التقاطع العشوائية مع تيوتروبيوم مفتوح الملصق (18µg) كمقارن نشط لتقييم تأثير إنداكاتيرول على السعة الشهيقية لدى مرضى الانسداد الرئوي المزمن المعتدل |
+| [NCT00274521](https://clinicaltrials.gov/study/NCT00274521) | المرحلة 3 | مكتملة | 108 | تجربة عشوائية خاضعة للتحكم بالعلاج الوهمي لمدة 25 أسبوع: حسّن تيوتروبيوم تحمل المجهود وضيق التنفس لدى مرضى الانسداد الرئوي المزمن الذين يخضعون لإعادة التأهيل الرئوي |
+| [NCT01233284](https://clinicaltrials.gov/study/NCT01233284) | المرحلة 2 | مكتملة | 149 | تجربة تحديد الجرعات بالتقاطع لتيوتروبيوم Respimat (1.25–5.0 µg) مقابل الدواء الوهمي في الربو المستمر المعتدل الذي لا يتم السيطرة عليه بشكل كافٍ مع ICS |
+| [NCT01120691](https://clinicaltrials.gov/study/NCT01120691) | المرحلة 3 | مكتملة | 2,224 | تجربة عشوائية لمدة 64 أسبوع تقارن QVA149 مقابل الجليكوبيرونيوم مقابل تيوتروبيوم مفتوح الملصق على تفاقم الانسداد الرئوي المزمن في الانسداد الرئوي المزمن الحاد جداً |
+| [NCT03158311](https://clinicaltrials.gov/study/NCT03158311) | المرحلة 3 | مكتملة | 1,426 | تجربة عدم الدنو لمدة 24 أسبوع QVM149 مقابل الجمع الحر من سالميترول/فلوتيكازون + تيوتروبيوم في الربو غير المتحكم فيه |
+| [NCT01634139](https://clinicaltrials.gov/study/NCT01634139) | المرحلة 3 | مكتملة | 403 | تجربة عشوائية خاضعة للتحكم بالعلاج الوهمي لمدة 48 أسبوع من تيوتروبيوم Respimat لدى الأطفال (6–11 سنة) مع الربو المستمر المعتدل |
+| [NCT00776984](https://clinicaltrials.gov/study/NCT00776984) | المرحلة 3 | مكتملة | 453 | تجربة عشوائية لمدة 48 أسبوع: تيوتروبيوم Respimat (5µg) كعلاج تحكم إضافي في الربو المستمر الحاد على العلاج المعتاد |
+| [NCT04184297](https://clinicaltrials.gov/study/NCT04184297) | N/A | مكتملة | 27,190 | دراسة فعالية مقارنة واسعة النطاق في العالم الحقيقي: تيوتروبيوم+أولوداتيرول مقابل مجموعات ICS/LABA/LAMA عبر مجموعات فرعية من مخاطر تفاقم الانسداد الرئوي المزمن |
+| [NCT05402020](https://clinicaltrials.gov/study/NCT05402020) | N/A | مكتملة | 17,018 | دراسة قائمة على مطالبات التأمين الصحي الوطني التايواني في العالم الحقيقي تقارن فعالية وسلامة تيوتروبيوم/أولوداتيرول مقابل ICS/LABA في الانسداد الرئوي المزمن |
+| [NCT04208581](https://clinicaltrials.gov/study/NCT04208581) | المرحلة 3 | غير معروف | 372 | تجربة عشوائية من حبيبات الأعشاب الصينية + الرعاية القياسية (بما في ذلك LAMA) لتقليل الوفيات في الانسداد الرئوي المزمن مع قصور تنفسي مزمن؛ حالة غير معروفة، أدلة غير مباشرة فقط |
 
-*50 trials were returned in the source search; the 10 above were prioritized for design quality (RCTs), sample size, and coverage of both COPD and asthma populations.*
+*تم إرجاع 50 تجربة في البحث المصدري؛ تم إعطاء الأولوية للـ 10 أعلاه لجودة التصميم (RCTs) وحجم العينة والتغطية لكل من السكان الذين يعانون من الانسداد الرئوي المزمن والربو.*
 
 ---
 
-## Literature Evidence
+## أدلة الأدب الطبي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | Systematic Review | Cochrane Database Syst Rev | Cochrane review confirming tiotropium's efficacy vs placebo across multiple COPD trials, including soft-mist inhaler formulations |
-| [29605624](https://pubmed.ncbi.nlm.nih.gov/29605624/) | 2018 | RCT | Lancet Respir Med | DYNAGITO trial: tiotropium+olodaterol vs tiotropium alone for COPD exacerbation prevention |
-| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | Long-term tiotropium in mild/moderate early-stage COPD improved lung function and slowed decline |
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Systematic Review | Cochrane Database Syst Rev | Comparative review of tiotropium vs ipratropium bromide in stable COPD |
-| [27271056](https://pubmed.ncbi.nlm.nih.gov/27271056/) | 2016 | Systematic Review | Cochrane Database Syst Rev | ICS/LABA plus tiotropium vs tiotropium or ICS/LABA alone in COPD maintenance |
-| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Review | Drugs | Pharmacology review: tiotropium's slow M3-receptor dissociation underlies once-daily dosing and sustained bronchodilation |
-| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | Review | Life Sciences | Mechanistic profile of tiotropium as a kinetically M3/M1-selective muscarinic antagonist |
-| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Review | Curr Med Res Opin | Review of tiotropium+olodaterol fixed-dose combination for reducing COPD exacerbations per GOLD 2020 |
-| [35510163](https://pubmed.ncbi.nlm.nih.gov/35510163/) | 2022 | Cohort | Int J Chron Obstruct Pulmon Dis | Taiwan multicenter real-world cohort comparing tiotropium/olodaterol, umeclidinium/vilanterol, and indacaterol/glycopyrronium in COPD |
-| [27724909](https://pubmed.ncbi.nlm.nih.gov/27724909/) | 2016 | Systematic Review | BMC Pulm Med | Systematic review of tiotropium Respimat® vs HandiHaler® comparative studies in COPD |
+| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | مراجعة منهجية | Cochrane Database Syst Rev | مراجعة Cochrane التي تؤكد فعالية تيوتروبيوم مقابل الدواء الوهمي عبر تجارب متعددة للانسداد الرئوي المزمن، بما في ذلك صيغ الأنهيلر بالضباب الناعم |
+| [29605624](https://pubmed.ncbi.nlm.nih.gov/29605624/) | 2018 | RCT | Lancet Respir Med | تجربة DYNAGITO: تيوتروبيوم+أولوداتيرول مقابل تيوتروبيوم وحده لمنع تفاقم الانسداد الرئوي المزمن |
+| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | تيوتروبيوم طويل الأمد في الانسداد الرئوي المزمن الخفيف/المعتدل المبكر حسّن وظائف الرئة وأبطأ الانحدار |
+| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | مراجعة منهجية | Cochrane Database Syst Rev | مراجعة مقارنة لتيوتروبيوم مقابل إبراتروبيوم البروميد في الانسداد الرئوي المزمن المستقر |
+| [27271056](https://pubmed.ncbi.nlm.nih.gov/27271056/) | 2016 | مراجعة منهجية | Cochrane Database Syst Rev | ICS/LABA بالإضافة إلى تيوتروبيوم مقابل تيوتروبيوم أو ICS/LABA وحده في صيانة الانسداد الرئوي المزمن |
+| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | مراجعة | Drugs | مراجعة الأدوية: انفصال تيوتروبيوم البطيء من مستقبل M3 يكمن وراء الجرعات اليومية والتوسيع المستدام للشعب الهوائية |
+| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | مراجعة | Life Sciences | الملف الآلي لتيوتروبيوم كحاصرة موسكارين M3/M1 ذات التحديد الحركي |
+| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | مراجعة | Curr Med Res Opin | مراجعة تيوتروبيوم+أولوداتيرول لتقليل تفاقم الانسداد الرئوي المزمن وفقاً لـ GOLD 2020 |
+| [35510163](https://pubmed.ncbi.nlm.nih.gov/35510163/) | 2022 | دراسة جماعية | Int J Chron Obstruct Pulmon Dis | دراسة جماعية متعددة المراكز في تايوان في العالم الحقيقي تقارن تيوتروبيوم/أولوداتيرول وumeclidinium/vilanterol وindacaterol/glycopyrronium في الانسداد الرئوي المزمن |
+| [27724909](https://pubmed.ncbi.nlm.nih.gov/27724909/) | 2016 | مراجعة منهجية | BMC Pulm Med | مراجعة منهجية لتيوتروبيوم Respimat® مقابل دراسات المقارنة HandiHaler® في الانسداد الرئوي المزمن |
 
-*20 publications were returned in the source search; the 10 above prioritize RCTs and systematic reviews over case reports and narrative commentary.*
-
----
-
-## Saudi Arabia Market Information
-
-TIOTROPIUM currently has **no marketing authorization on file** for Saudi Arabia (market status: Not Marketed; total licenses: 0). No product name, dosage form, or approved-indication text is available to tabulate.
+*تم إرجاع 20 منشورا في البحث المصدري؛ تم إعطاء الأولوية للـ 10 أعلاه لـ RCTs والمراجعات المنهجية على تقارير الحالات والتعليقات السردية.*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-The structured safety fields for this drug (key warnings, contraindications, drug–drug interactions) are all data gaps — the query for TFDA/package-insert warnings and DDI records returned no results (DG001, flagged **Blocking**: this gap alone is sufficient to prevent a formal S1 safety pre-assessment).
-
-Separately, the literature evidence collected for tiotropium's COPD indication surfaces two safety signals worth carrying forward even though they sit outside the formal `safety` data block:
-- **Possible dementia risk**: a 2025 cohort study (PMID 40388132, *JAMA Intern Med*) examined whether LAMA initiation, including tiotropium, is associated with increased dementia risk via central anticholinergic effects.
-- **Cardiovascular and mortality signals**: a meta-analysis (PMID 32274526) evaluated tiotropium and adverse cardiovascular events, and an earlier BMJ meta-analysis (PMID 21672999) raised a mortality signal specifically tied to the Respimat mist-inhaler formulation (subsequently the subject of further large-scale safety trials in the literature, not captured in this pack).
-
-> Please refer to the package insert for authoritative safety information; the signals above are literature-derived and not a substitute for formal label review.
+تيوتروبيوم حالياً لا يملك **أي ترخيص تسويق في الملف** للمملكة العربية السعودية (حالة السوق: غير مسوق؛ إجمالي التراخيص: 0). لا توجد نسخة منتج أو شكل جرعات أو نص مؤشر موافق عليه متاح للجدولة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+جميع الحقول المنظمة للسلامة لهذا الدواء (التحذيرات الرئيسية، موانع الاستعمال، تفاعلات الأدوية مع بعضها) هي كلها فجوات بيانات — الاستعلام عن تحذيرات TFDA/ملصق الدواء وسجلات DDI لم يعيد أي نتائج (DG001، تم الإشارة إليها **حجب**: وحدها هذه الفجوة كافية لمنع تقييم سلامة قبلي رسمي S1).
 
-**Rationale:**
-- The evidence base is extensive (L1, 50 trials/20 publications) and consistent with tiotropium's long-established role as a first-line LAMA bronchodilator — but because "obstructive lung disease" largely restates the existing COPD indication, this should be treated as **evidence consolidation, not novel repurposing**, and weighted accordingly in any repurposing pipeline scoring.
-- The Blocking data gap (DG001: no TFDA/package-insert warnings or contraindications on file) means a genuine safety pre-assessment (S1) cannot yet be completed, regardless of the strength of efficacy evidence — this is a hard prerequisite before any Go decision, not merely a guardrail.
+بشكل منفصل، تعكس أدلة الأدب الطبي المجمعة لاستخدام COPD لتيوتروبيوم إشارتي سلامة تستحق المتابعة حتى وإن جلست خارج كتلة `safety` الرسمية:
+- **خطر الخرف الممكن**: دراسة جماعية 2025 (PMID 40388132, *JAMA Intern Med*) فحصت ما إذا كان بدء LAMA، بما في ذلك تيوتروبيوم، مرتبطاً بزيادة خطر الخرف عبر التأثيرات المضادة للكولين المركزية.
+- **إشارات القلب الوعائية والوفيات**: تحليل تلوي (PMID 32274526) قيّم تيوتروبيوم والأحداث الضائرة القلبية الوعائية، وأثار تحليل تلوي BMJ سابق (PMID 21672999) إشارة وفيات مرتبطة بشكل خاص بصيغة Respimat mist-inhaler (كانت لاحقاً موضوع تجارب سلامة واسعة النطاق إضافية في الأدب الطبي، غير مقبولة في هذا الحزم).
 
-**To proceed, the following is needed:**
-- Retrieve and parse the official package insert for warnings, contraindications, and precautions (DG001, Blocking)
-- Obtain a structured mechanism-of-action record from DrugBank or equivalent (DG002, High)
-- Confirm Saudi Arabia registration status/pathway given the current 0-license, not-marketed status
-- If repurposing scoring is the goal, re-run ranking with rank-1 excluded or down-weighted as a non-novel signal, and evaluate rank 4 ("COPD, severe early onset", L3/S1/Research Question) as the more genuinely differentiated candidate in this pack
+> يرجى الرجوع إلى ملصق الدواء للحصول على معلومات السلامة الموثوقة؛ الإشارات أعلاه مشتقة من الأدب الطبي وليست بديلاً عن مراجعة الملصق الرسمية.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع احتياطات**
+
+**المنطق:**
+- قاعدة الأدلة واسعة (L1, 50 تجارب/20 منشورا) ومتسقة مع دور تيوتروبيوم الراسخ منذ فترة طويلة كموسع شعب هوائية LAMA من الخط الأول — لكن لأن "مرض الانسداد الرئوي" يعيد في الغالب صياغة المؤشر COPD الموجود، يجب التعامل مع هذا على أنه **توحيد الأدلة، وليس إعادة توظيف جديدة**، وأن يعطى الوزن المناسب له وفقاً لذلك في أي نقاط تسجيل خط إعادة توظيف.
+- فجوة البيانات المحجوبة (DG001: لا توجد تحذيرات TFDA/ملصق الدواء أو موانع استعمال في الملف) تعني أن تقييم سلامة قبلي حقيقي (S1) لا يمكن إكماله حتى الآن، بغض النظر عن قوة أدلة الفعالية — هذا شرط أساسي صارم قبل أي قرار Go، وليس مجرد حاجز أمان.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع وتحليل ملصق الدواء الرسمي للتحذيرات وموانع الاستعمال والاحتياطات (DG001، حجب)
+- الحصول على سجل آلية عمل منظم من DrugBank أو ما يعادله (DG002، مرتفع)
+- تأكيد حالة التسجيل بالمملكة العربية السعودية/المسار نظراً لحالة 0-ترخيص، غير مسوق الحالية
+- إذا كان هدف تسجيل إعادة التوظيف، أعد تشغيل الترتيب مع استبعاد أو خفض الترتيب 1 كإشارة غير جديدة، وقيّم الترتيب 4 ("الانسداد الرئوي المزمن، بدء عمر مبكر", L3/S1/سؤال بحثي) باعتباره المرشح الأكثر اختلافاً حقيقياً في هذا الحزم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

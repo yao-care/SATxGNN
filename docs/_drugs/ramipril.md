@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Ramipril: From Hypertension to Pulmonary Hypertension Due to Lung Disease/Hypoxia
+# رامبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة / نقص الأكسجين
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ramipril is a well-established angiotensin-converting enzyme (ACE) inhibitor used for hypertension and cardiovascular risk reduction. The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia (WHO Group 3 PH)**, but this is currently supported by **0 clinical trials** and only **20 background/tangential publications**, none of which directly test ramipril in this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (ACE inhibitor) — specific approved-label text not present in this evidence pack |
-| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia (WHO Group 3 PH) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+رامبريل هو مثبط الإنزيم المحول للأنجيوتنسين (ACE) المعروف جيداً المستخدم لارتفاع ضغط الدم وتقليل المخاطر القلبية الوعائية. يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجين (مجموعة WHO 3)** ، لكن هذا مدعوم حالياً بـ **0 تجارب سريرية** و فقط **20 منشور خلفي/عرضي** ، لا يوجد منها يختبر رامبريل مباشرة في هذا المؤشر.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a data gap, DG002). Based on known pharmacology, ramipril is an ACE inhibitor that suppresses the renin-angiotensin-aldosterone system (RAAS), reducing systemic vascular resistance and vascular remodeling — the basis for its established use in hypertension and post-MI cardiovascular risk reduction (e.g., the HOPE trial).
-
-WHO Group 3 pulmonary hypertension (due to lung disease and/or hypoxia) is mechanistically different from systemic hypertension: it is driven primarily by hypoxic pulmonary vasoconstriction and lung parenchymal remodeling, not by classical systemic RAAS activation. The rationale captured for this candidate is explicit on this point: ACE inhibition could theoretically reduce pulmonary vascular remodeling via RAAS suppression, but this is not the dominant pathway in Group 3 PH, and systemic blood-pressure lowering from ramipril could worsen right-ventricular perfusion in patients who are already hemodynamically compromised.
-
-Given this weak and potentially risky mechanistic link, the absence of any disease-specific clinical or preclinical evidence, and the model's own L5/Hold classification, this prediction should be treated as a hypothesis-generating signal only, not a basis for clinical evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | ارتفاع ضغط الدم (مثبط ACE) — نص المؤشر المعتمد محدد غير موجود في حزمة الدليل هذه |
+| المؤشر الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجين (مجموعة WHO 3) |
+| درجة التنبؤ في TxGNN | 99.93% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودية | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | Reviews hypoxia's role in brain aging and neurodegeneration (Alzheimer's, Parkinson's); altitude/hypoxia exposure shows mixed effects on aging |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | Reviews clinical evidence and molecular mechanisms of hypoxia-induced cognitive impairment |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Basic Research | Advanced Science | Identifies a NAT10/SEPT9/HIF-1α feedback loop driving glycolysis and anti-angiogenic resistance under hypoxia in gastric cancer |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | Journal of Cellular Biochemistry | Reviews hypoxia-mediated regulation of growth, metabolism, and disease (vascular disease, inflammation, cancer) |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | Reviews deubiquitinases (DUBs) regulating HIF stability under hypoxia in cancer |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | Reviews mechanisms of hypoxemia, including V/Q mismatch and right-to-left shunt |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | Reviews therapeutic strategies targeting tumor hypoxia and resistance to radiotherapy/immunotherapy |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Revista Médica del IMSS | Reviews hypobaric (altitude) hypoxia and physiological adaptation |
-| [24557798](https://pubmed.ncbi.nlm.nih.gov/24557798/) | 2014 | Review | Journal of Applied Physiology | Overview of hypoxia research directions (abstract not available in source) |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | Reviews the role of hypoxia in multiple sclerosis pathology and symptoms |
+في الوقت الحالي، بيانات آلية العمل التفصيلية غير متاحة (تم تحديدها كفجوة بيانات، DG002). بناءً على الصيدلة المعروفة، رامبريل هو مثبط ACE يقلل من نظام رينين-أنجيوتنسين-ألدوستيرون (RAAS) ، مما يقلل من المقاومة الوعائية الجهازية وإعادة تشكيل الأوعية الدموية — الأساس لاستخدامه المثبت في ارتفاع ضغط الدم وتقليل المخاطر القلبية الوعائية بعد احتشاء عضلة القلب (على سبيل المثال، تجربة HOPE).
 
-**Note:** None of these publications specifically evaluate ramipril or pulmonary hypertension treatment — they are general hypoxia-biology literature returned by the search, consistent with the L5 (model-prediction-only) evidence rating.
+ارتفاع ضغط الدم الرئوي لمجموعة WHO 3 (بسبب أمراض الرئة و/أو نقص الأكسجين) مختلف آليياً عن ارتفاع ضغط الدم الجهازي: يتم قيادته في المقام الأول من قبل تضيق الأوعية الرئوية الناجم عن نقص الأكسجين وإعادة تشكيل أنسجة الرئة ، وليس من قبل تنشيط RAAS الجهازي الكلاسيكي. المنطق المسجل لهذا المرشح واضح في هذه النقطة: قد يقلل مثبط ACE من إعادة تشكيل الأوعية الرئوية من خلال قمع RAAS ، لكن هذا ليس المسار السائد في مجموعة 3 PH ، وقد يؤدي خفض ضغط الدم الجهازي من رامبريل إلى تفاقم ضخ البطين الأيمن لدى المرضى الذين هم بالفعل في موقف يصعب مراعاته من الناحية الديناميكية الدموية.
+
+بالنظر إلى هذا الرابط الآلي الضعيف وربما الخطير ، وغياب أي دليل سريري أو أساسي محدد للمرض ، وتصنيف النموذج الخاص به L5/Hold ، يجب التعامل مع هذا التنبؤ كإشارة توليد فرضية فقط ، وليس كأساس للتقييم السريري.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Ramipril is not currently marketed in Saudi Arabia — 0 authorizations on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (The TFDA/SFDA package insert — warnings, contraindications, and DDI data — is flagged as a blocking data gap, DG001, and must be resolved before any S1 safety evaluation.)
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
+|------|------|------|--------|------------------|
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | مراجعة | Ageing Research Reviews | تراجع دور نقص الأكسجين في شيخوخة الدماغ والتنكس العصبي (الزهايمر ، باركنسون) ؛ يظهر التعرض للارتفاع / نقص الأكسجين تأثيرات مختلطة على الشيخوخة |
+| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | مراجعة | Metabolic Brain Disease | تراجع الدليل السريري والآليات الجزيئية للضعف الإدراكي المحفز بنقص الأكسجين |
+| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | بحث أساسي | Advanced Science | يحدد حلقة تغذية راجعة NAT10/SEPT9/HIF-1α تقود تحلل السكر ومقاومة غير الأوعية الدموية تحت نقص الأكسجين في سرطان المعدة |
+| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | مراجعة | Journal of Cellular Biochemistry | تراجع تنظيم نقص الأكسجين للنمو والأيض والمرض (المرض الوعائي والالتهاب والسرطان) |
+| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | مراجعة | Trends in Cancer | تراجع المضادات الإنزيمية (DUBs) التي تنظم استقرار HIF تحت نقص الأكسجين في السرطان |
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | مراجعة | Respiratory Care Clinics of North America | تراجع آليات نقص الأكسجين ، بما في ذلك عدم تطابق V/Q والتحويل من اليمين إلى اليسار |
+| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | مراجعة | Clinical Oncology | تراجع استراتيجيات العلاج التي تستهدف نقص الأكسجين في الورم والمقاومة للعلاج الإشعاعي / العلاج المناعي |
+| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | مراجعة | Revista Médica del IMSS | تراجع نقص الأكسجين فوق الضغط الجوي (الارتفاع) والتكيف الفسيولوجي |
+| [24557798](https://pubmed.ncbi.nlm.nih.gov/24557798/) | 2014 | مراجعة | Journal of Applied Physiology | نظرة عامة على اتجاهات بحوث نقص الأكسجين (الملخص غير متاح في المصدر) |
+| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | مراجعة | Redox Biology | تراجع دور نقص الأكسجين في أمراض التصلب المتعدد وأعراضه |
 
-**Rationale:**
-The top-ranked predicted indication has no supporting clinical trials, only tangential background literature, and a mechanistic rationale that is explicitly weak and potentially risky (Group 3 PH is hypoxia-driven, not RAAS-driven, and systemic hypotension could worsen right-heart perfusion). Combined with an L5 evidence level and ramipril's current unmarketed status in Saudi Arabia, there is no basis to proceed.
+**ملاحظة:** لا يقيم أي من هذه المنشورات رامبريل أو علاج ارتفاع ضغط الدم الرئوي بشكل محدد — فهي أدبيات بيولوجيا نقص الأكسجين العامة التي أعادها البحث ، وهذا متسق مع تصنيف مستوى الدليل L5 (نموذج-تنبؤ فقط).
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications, DDI) — currently a blocking gap (DG001)
-- Detailed mechanism of action data from DrugBank (DG002)
-- Disease-specific preclinical or clinical studies of ACE inhibition in WHO Group 3 pulmonary hypertension
-- If pursuing this drug further, consider re-prioritizing toward higher-evidence candidates in the same evidence pack (e.g., rank 10, cerebral artery occlusion, rated L2/Proceed with Guardrails) rather than this L5/Hold candidate
+---
+
+## معلومات السوق السعودية
+
+رامبريل غير مسوق حالياً في المملكة العربية السعودية — 0 تفويضات مسجلة.
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى ملخص المنتج للحصول على معلومات الأمان. (ملخص المنتج TFDA/SFDA — التحذيرات والمضادات وبيانات التفاعلات الدوائية — تم تحديدها كفجوة بيانات حاجزة، DG001، ويجب حلها قبل أي تقييم أمان S1.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**المنطق:**
+المؤشر المتنبأ به في الترتيب الأعلى لا يحتوي على تجارب سريرية داعمة، فقط أدبيات خلفية عرضية، وآلية عمل معقولة تكون صراحة ضعيفة وربما خطيرة (مجموعة 3 PH يقودها نقص الأكسجين، وليس RAAS-يقودها، والهبوط الجهازي قد يفاقم ضخ القلب الأيمن). مقترنة مع مستوى دليل L5 وحالة رامبريل الحالية غير المسوقة في المملكة العربية السعودية، لا يوجد أساس للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات ملخص المنتج TFDA/SFDA (التحذيرات والمضادات وتفاعلات الأدوية) — حالياً فجوة حاجزة (DG001)
+- بيانات آلية العمل التفصيلية من DrugBank (DG002)
+- دراسات سريرية أو أساسية محددة للمرض لمثبط ACE في ارتفاع ضغط الدم الرئوي لمجموعة WHO 3
+- إذا كنت تتابع هذا الدواء بشكل أكبر، فكر في إعادة ترتيب الأولويات نحو المرشحين ذوي الأدلة الأعلى في نفس حزمة الدليل (على سبيل المثال ، الترتيب 10 ، انسداد الشرايين الدماغية ، مصنف L2/Proceed with Guardrails) بدلاً من هذا المرشح L5/Hold
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

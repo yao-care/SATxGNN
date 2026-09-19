@@ -29,84 +29,85 @@ indication_count: 1
 
 </div>
 
-# Potassium Acetate: From Electrolyte/Alkalinizing Agent to Renal Tubular Acidosis
+# أسيتات البوتاسيوم: من عامل تعويض إلكتروليتي/قاعدي إلى الحماض الكلوي الأنبوبي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Potassium acetate is a potassium salt used clinically as an electrolyte replacement and alkalinizing agent, most commonly added to IV fluids or parenteral nutrition; no formal indication record exists in the current dataset. The TxGNN model predicts it may be effective for **Renal Tubular Acidosis (RTA)**, with **0 registered clinical trials** and **9 publications** currently identified — most of which are case reports or preclinical studies, and several describe a physiologically opposite RTA subtype.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally documented — general use as electrolyte/alkalinizing agent (IV fluids, parenteral nutrition) |
-| Predicted New Indication | Renal Tubular Acidosis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أسيتات البوتاسيوم هو ملح بوتاسيوم يُستخدم سريرياً كعامل تعويض إلكتروليتي وقاعدي، يُضاف عادة إلى السوائل الوريدية أو التغذية الحقنية؛ لا توجد سجلات مؤشرات رسمية في مجموعة البيانات الحالية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الحماض الكلوي الأنبوبي (RTA)**، مع **0 تجربة سريرية مسجلة** و**9 منشورات** تم تحديدها حالياً — معظمها تقارير حالات أو دراسات سابقة للإكلينيك، وعدة منها تصف نمطاً من أنماط الحماض الكلوي الأنبوبي معاكساً فسيولوجياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known pharmacology, potassium acetate supplies potassium ions and acetate, which the liver converts to bicarbonate — giving it a dual role as a potassium replacement and an alkalinizing agent. This is the same basic mechanism used in already-established RTA therapies such as potassium citrate and potassium bicarbonate.
-
-Hypokalemic RTA (Type 1 distal and Type 2 proximal) is defined by concurrent hypokalemia and normal-anion-gap metabolic acidosis, so combined potassium-and-alkali replacement is mechanistically plausible and consistent with current standard-of-care agents for these subtypes.
-
-However, the supporting literature set is mechanistically mixed: several of the identified papers (PMIDs 4015282, 2973296, 637641, 3398981, 6758113) describe **hyperkalemic** Type 4 RTA (hyporeninemic hypoaldosteronism, Gordon syndrome), a subtype where potassium supplementation is contraindicated rather than indicated. This subtype heterogeneity means the evidence base does not cleanly support the prediction without RTA-subtype stratification, and should be treated as a material caveat rather than confirmatory evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير موثق رسمياً — الاستخدام العام كعامل إلكتروليتي/قاعدي (السوائل الوريدية، التغذية الحقنية) |
+| المؤشر المتنبأ به | الحماض الكلوي الأنبوبي |
+| درجة التنبؤ من TxGNN | 99.90% |
+| مستوى الأدلة | L4 |
+| حالة السوق السعودي | غير مسوقة (غير مسوقة) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | حجز |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33771116](https://pubmed.ncbi.nlm.nih.gov/33771116/) | 2021 | RCT | BMC Nephrology | Randomized trial comparing 0.9% NaCl vs. Plasma-Lyte on kidney injury biomarkers and tubular transport proteins after hip replacement; isotonic saline linked to hyperchloremic acidosis risk relevant to chloride/acetate balance. |
-| [6758113](https://pubmed.ncbi.nlm.nih.gov/6758113/) | 1982 | Review | Schweizerische medizinische Wochenschrift | Review of hyporeninemic hypoaldosteronism as a cause of hyperkalemic, hyperchloremic acidosis (Type 4 RTA) — opposite-direction subtype, potassium supplementation not indicated. |
-| [3398981](https://pubmed.ncbi.nlm.nih.gov/3398981/) | 1988 | Cohort/Clinical Study | Nephron | Case study showing hyperkalemia drives acidosis in hyporeninemic hypoaldosteronism; fludrocortisone (not potassium) corrected both hyperkalemia and acidosis. |
-| [2973296](https://pubmed.ncbi.nlm.nih.gov/2973296/) | 1988 | Case Report/Review | Archives des maladies du coeur et des vaisseaux | Case of hyperkalemia with proximal tubular acidosis and normal renal function (Gordon syndrome / pseudohypoaldosteronism type II) — hyperkalemic subtype. |
-| [37224266](https://pubmed.ncbi.nlm.nih.gov/37224266/) | 2023 | Case Report | Veterinary medicine and science | Transient distal RTA with hypokalemia and hyperchloremic metabolic acidosis after general anaesthesia in a dog — hypokalemic subtype consistent with predicted use. |
-| [4015282](https://pubmed.ncbi.nlm.nih.gov/4015282/) | 1985 | Case Report | Archives of internal medicine | Hyperkalemic distal RTA combined with selective aldosterone deficiency in a patient with lead nephropathy; fludrocortisone did not resolve acidosis or potassium excretion. |
-| [637641](https://pubmed.ncbi.nlm.nih.gov/637641/) | 1978 | Case Report | Archives of internal medicine | Familial hyperkalemia, hypertension, and hyporeninemia with a tubular potassium-handling defect — hyperkalemic subtype. |
-| [34442051](https://pubmed.ncbi.nlm.nih.gov/34442051/) | 2021 | Case Report | Journal of clinical medicine | Patiromer-induced hypercalcemia, metabolic alkalosis, and hypokalemia in a CKD patient — indirect relevance to potassium/acid-base handling. |
-| [239022](https://pubmed.ncbi.nlm.nih.gov/239022/) | 1975 | Preclinical (Animal) | The Journal of clinical investigation | Rat model of KCl deficiency examining renal citrate and ammonia metabolism and effects of volume expansion on metabolic alkalosis correction. |
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (ثغرة بيانات). بناءً على الصيدلة المعروفة، توفر أسيتات البوتاسيوم أيونات البوتاسيوم والأسيتات، التي يحولها الكبد إلى بيكربونات — مما يعطيها دوراً مزدوجاً كتعويض للبوتاسيوم وكعامل قاعدي. هذه هي نفس الآلية الأساسية المستخدمة في العلاجات المعروفة للحماض الكلوي الأنبوبي مثل سترات البوتاسيوم وبيكربونات البوتاسيوم.
+
+يُعرّف الحماض الكلوي الأنبوبي نقص البوتاسيوم (النوع 1 القاصي والنوع 2 القريب) بنقص بوتاسيوم متزامن والحماض الأيضي طبيعي فجوة الأنيونات، لذا فإن التعويض المزدوج للبوتاسيوم والقاعدة معقول من الناحية الآلية ومتسق مع عوامل العناية المعيارية الحالية لهذه الأنماط.
+
+ومع ذلك، فإن مجموعة الأدبيات الداعمة مختلطة من الناحية الآلية: عدة من الأوراق المحددة (PMIDs 4015282, 2973296, 637641, 3398981, 6758113) تصف **فرط البوتاسيوم** في النوع 4 من الحماض الكلوي الأنبوبي (قلة إفراز الرينين وقصور القشرة الكظرية، متلازمة جوردون)، وهو نمط لا يستطب فيه تعويض البوتاسيوم بل يُناقضه. هذا التنوع في الأنماط يعني أن قاعدة الأدلة لا تدعم التنبؤ بشكل واضح بدون طبقية نمط الحماض الكلوي الأنبوبي، ويجب أن تُعامل كحذر مادي بدلاً من دليل مؤكد.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-No authorization records — potassium acetate is currently not marketed in Saudi Arabia (0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [33771116](https://pubmed.ncbi.nlm.nih.gov/33771116/) | 2021 | تجربة معشاة | BMC Nephrology | تجربة معشاة تقارن محلول NaCl 0.9% مقابل Plasma-Lyte على علامات إصابة الكلى وبروتينات النقل الأنبوبي بعد استبدال الفخذ؛ الملح الفسيولوجي المفرط الأسمولية مرتبط بخطر الحماض المفرط الكلوريد ذو صلة بتوازن الكلوريد/الأسيتات. |
+| [6758113](https://pubmed.ncbi.nlm.nih.gov/6758113/) | 1982 | مراجعة | Schweizerische medizinische Wochenschrift | مراجعة قلة إفراز الرينين وقصور القشرة الكظرية كسبب للحماض المفرط الكلوريد الخاص بفرط البوتاسيوم (النوع 4 من الحماض الكلوي الأنبوبي) — نمط معاكس الاتجاه، تعويض البوتاسيوم غير مستطب. |
+| [3398981](https://pubmed.ncbi.nlm.nih.gov/3398981/) | 1988 | دراسة فوج/سريرية | Nephron | دراسة حالة توضح أن فرط البوتاسيوم يقود الحماض في قلة إفراز الرينين وقصور القشرة الكظرية؛ الفلودروكورتيزون (وليس البوتاسيوم) صحح فرط البوتاسيوم والحماض معاً. |
+| [2973296](https://pubmed.ncbi.nlm.nih.gov/2973296/) | 1988 | تقرير حالة/مراجعة | Archives des maladies du coeur et des vaisseaux | حالة فرط بوتاسيوم مع حماض الأنابيب القريب وضعف كلوي طبيعي (متلازمة جوردون / شبه قصور القشرة الكظرية الأساسي من النوع الثاني) — نمط فرط بوتاسيوم. |
+| [37224266](https://pubmed.ncbi.nlm.nih.gov/37224266/) | 2023 | تقرير حالة | Veterinary medicine and science | الحماض الكلوي الأنبوبي القاصي المؤقت مع نقص بوتاسيوم والحماض الأيضي المفرط الكلوريد بعد التخدير العام في كلب — نمط نقص البوتاسيوم متسق مع الاستخدام المتنبأ به. |
+| [4015282](https://pubmed.ncbi.nlm.nih.gov/4015282/) | 1985 | تقرير حالة | Archives of internal medicine | الحماض الكلوي الأنبوبي القاصي الفرط بوتاسيوم مع قصور قلوي محدد في مريض بقصور كلوي من التسمم بالرصاص؛ الفلودروكورتيزون لم يحل الحماض أو إفراز البوتاسيوم. |
+| [637641](https://pubmed.ncbi.nlm.nih.gov/637641/) | 1978 | تقرير حالة | Archives of internal medicine | فرط بوتاسيوم عائلي، ارتفاع ضغط دم، وقلة إفراز رينين مع عيب معالجة البوتاسيوم الأنبوبية — نمط فرط بوتاسيوم. |
+| [34442051](https://pubmed.ncbi.nlm.nih.gov/34442051/) | 2021 | تقرير حالة | Journal of clinical medicine | فرط كالسيوم الدم المستحث بالباتيروميروم والقلاء الأيضي ونقص البوتاسيوم في مريض مرض كلوي مزمن — صلة غير مباشرة بمعالجة البوتاسيوم/التوازن القاعدي. |
+| [239022](https://pubmed.ncbi.nlm.nih.gov/239022/) | 1975 | سابق للإكلينيك (حيوان) | The Journal of clinical investigation | نموذج جرذ من نقص KCl يفحص استقلاب السترات والأمونيا الكلوي وتأثيرات التوسع الحجمي على تصحيح القلاء الأيضي. |
 
-**Rationale:**
-The evidence level is L4 (preclinical/mechanistic only), no clinical trials support this indication, and most identified literature consists of case reports. Critically, several key references describe hyperkalemic RTA subtypes where potassium supplementation would be contraindicated, directly conflicting with the proposed rationale — this subtype mismatch must be resolved before advancing.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (blocking gap, DG001) to complete the S1 safety screen
-- Confirmed mechanism of action data from DrugBank (DG002)
-- RTA subtype-stratified evidence (specifically hypokalemic Type 1/2 RTA) rather than mixed hyper-/hypokalemic case series
-- Prospective or controlled clinical evidence in the target population
+## معلومات سوق المملكة العربية السعودية
+
+لا توجد سجلات تصاريح — أسيتات البوتاسيوم غير مسوقة حالياً في المملكة العربية السعودية (0 ترخيص في الملف).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: حجز**
+
+**المبرر:**
+مستوى الأدلة هو L4 (سابق للإكلينيك/آلية فقط)، لا توجد تجارب سريرية تدعم هذا المؤشر، ومعظم الأدبيات المحددة تتكون من تقارير حالات. بشكل حاسم، عدة مراجع رئيسية تصف أنماط الحماض الكلوي الأنبوبي فرط بوتاسيوم حيث يكون تعويض البوتاسيوم مناقضاً للمؤشرات، مما يتعارض بشكل مباشر مع الأساس المقترح — يجب حل عدم تطابق النمط هذا قبل المتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات ملحق TFDA/موانع استطبابات (ثغرة حجب، DG001) لإكمال فحص السلامة S1
+- بيانات آلية عمل مؤكدة من DrugBank (DG002)
+- أدلة مطبقة على نمط الحماض الكلوي الأنبوبي (على وجه التحديد نقص البوتاسيوم من النوع 1/2 من الحماض الكلوي الأنبوبي) بدلاً من سلسلة حالات مختلطة فرط/نقص بوتاسيوم
+- أدلة سريرية مستقبلية أو مضبوطة في السكان المستهدفين
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

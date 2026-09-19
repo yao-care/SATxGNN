@@ -29,72 +29,73 @@ indication_count: 3
 
 </div>
 
-# CYCLOPENTOLATE: From Ophthalmic Use to Cauda Equina Syndrome
+# سيكلوبنتولات: من الاستخدام العيني إلى متلازمة ذنب الفرس
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Cyclopentolate is an antimuscarinic agent used in ophthalmology to induce mydriasis (pupil dilation) and cycloplegia (ciliary muscle paralysis) during eye examinations and procedures.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-Evidence across all three predicted indications remains at the earliest exploratory stage (L5 — model prediction only).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Ophthalmic use (mydriasis and cycloplegia) |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سيكلوبنتولات هو عامل مضاد للمسكاريني يُستخدم في طب العيون لحث توسع الحدقة (mydriasis) وشلل العضلة الهدبية (cycloplegia) أثناء الفحوصات الطبية والإجراءات العينية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة ذنب الفرس**، مع **0** من المحاكمات السريرية و **0** من المنشورات التي تدعم هذا الاتجاه حالياً.
+يبقى مستوى الأدلة عبر جميع المؤشرات الثلاثة المتنبأ بها في أبكر مرحلة من مراحل الاستكشاف (L5 — التنبؤ من النموذج فقط).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on established pharmacological knowledge, Cyclopentolate is an antimuscarinic (anticholinergic) agent that competitively blocks muscarinic acetylcholine receptors. Its primary clinical use is ophthalmic — applied topically to produce pupil dilation and temporarily paralyze the ciliary muscle for refraction testing and intraocular examinations. It belongs to the same receptor class as systemic antimuscarinics (oxybutynin, solifenacin, dicyclomine) that treat bladder and gastrointestinal conditions.
-
-Cauda equina syndrome (CES) is a compressive neurological emergency caused by damage to the bundle of nerve roots at the terminal end of the spinal cord. Its hallmark features are lower limb weakness, saddle anaesthesia, and loss of bladder and bowel control. The TxGNN model's high prediction score for this pairing most likely reflects shared knowledge graph nodes between CES-associated autonomic complications (neurogenic bladder, bowel dysfunction) and the antimuscarinic drug class — rather than a direct mechanistic link to CES itself.
-
-Critically, CES is a mechanical compression injury that requires urgent surgical decompression. The underlying pathology is not driven by muscarinic receptor overactivation and cannot be addressed pharmacologically with antimuscarinics. While CES patients frequently develop secondary neurogenic bladder — a condition where antimuscarinics do have an established role — this does not constitute a repurposing rationale for CES as the primary target. The mechanistic connection is indirect and the clinical plausibility is low.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الاستخدام العيني (توسع الحدقة وشلل العضلة الهدبية) |
+| المؤشر الجديد المتنبأ به | متلازمة ذنب الفرس |
+| درجة التنبؤ من TxGNN | 99.54% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مطروحة في السوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة الحالية. بناءً على المعرفة الصيدلية الثابتة، سيكلوبنتولات هو عامل مضاد للمسكاريني (مضاد الكولين) يحجب بشكل تنافسي مستقبلات الأسيتيل كولين المسكارينية. استخدامه السريري الأساسي هو العيني — يُطبق موضعياً لإنتاج توسع الحدقة وشلل مؤقت للعضلة الهدبية لاختبار الانكسار والفحوصات داخل العين. يندرج ضمن نفس فئة المستقبلات التي تشملها الأدوية المسكارينية الجهازية (oxybutynin وsolifenacin وdicyclomine) التي تعالج حالات المثانة والجهاز الهضمي.
 
----
+متلازمة ذنب الفرس (CES) هي حالة طوارئ عصبية ضاغطة ناجمة عن ضرر حزمة جذور الأعصاب في الطرف النهائي للحبل الشوكي. تشمل السمات المميزة لها ضعف الأطراف السفلية وتنميل السرج وفقدان السيطرة على المثانة والأمعاء. من المحتمل أن تعكس درجة التنبؤ العالية من نموذج TxGNN لهذا الاقتران عُقداً مشتركة في الرسم البياني المعرفي بين مضاعفات متلازمة ذنب الفرس المرتبطة باللاإرادي (المثانة العصبية واختلال وظائف الأمعاء) والفئة الدوائية المسكارينية — بدلاً من وجود رابط آلي مباشر لمتلازمة ذنب الفرس نفسها.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+بشكل حاسم، متلازمة ذنب الفرس هي إصابة ضاغطة ميكانيكية تتطلب فك الضغط الجراحي العاجل. الأمراض الأساسية لا تنجم عن فرط تنشيط مستقبلات المسكاريني ولا يمكن معالجتها بالأدوية باستخدام مضادات المسكاريني. بينما يعاني مرضى متلازمة ذنب الفرس بشكل متكرر من المثانة العصبية الثانوية — وهي حالة حيث لمضادات المسكاريني دور راسخ — فإن هذا لا يشكل أساساً لإعادة استخدام الأدوية لمتلازمة ذنب الفرس كهدف أساسي. الرابط الآلي غير مباشر والمعقولية السريرية منخفضة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل المحاكمات السريرية
 
-**Decision: Hold**
+لا توجد حالياً محاكمات سريرية ذات صلة مسجلة.
 
-**Rationale:**
-There is no clinical trial or published literature evidence supporting Cyclopentolate use in Cauda Equina Syndrome, and the mechanistic link is indirect — CES is a compressive mechanical emergency requiring surgery, not a condition driven by the muscarinic pathway that Cyclopentolate targets.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and confirm the full mechanism of action (MOA) from DrugBank (DG002)
-- Retrieve package insert warnings and contraindications to complete the safety profile (DG001)
-- Clarify whether the TxGNN signal is targeting CES itself or its secondary autonomic sequelae (e.g., neurogenic bladder)
-- If interest pivots to the **#2 predicted indication (neurogenic bladder)**, note that established oral antimuscarinics (oxybutynin, solifenacin, tolterodine) already occupy this space with strong clinical evidence; a differentiated formulation or delivery strategy would be required to justify further development
-- If interest pivots to the **#3 predicted indication (irritable bowel syndrome)**, note that oral antispasmodics (dicyclomine, hyoscine) are already available; Cyclopentolate's lack of an oral dosage form is a practical barrier requiring formulation development before any clinical study is feasible
-- Consider de-prioritizing this candidate unless a novel administration route or unique selectivity advantage can be identified
+## دليل الأدبيات
+
+لا توجد حالياً أدبيات ذات صلة متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+لا يوجد دليل من محاكمات سريرية أو أدبيات منشورة تدعم استخدام سيكلوبنتولات في متلازمة ذنب الفرس، والرابط الآلي غير مباشر — متلازمة ذنب الفرس هي حالة طوارئ ميكانيكية ضاغطة تتطلب جراحة، وليست حالة تنجم عن المسار المسكاريني الذي يستهدفه سيكلوبنتولات.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع وتأكيد آلية العمل الكاملة (MOA) من DrugBank (DG002)
+- استرجاع تحذيرات نشرة الحزمة والموانع لإكمال ملف السلامة (DG001)
+- توضيح ما إذا كان إشارة TxGNN تستهدف متلازمة ذنب الفرس نفسها أو عواقبها اللاإرادية الثانوية (مثل المثانة العصبية)
+- إذا تحولت المصلحة إلى **المؤشر الثاني المتنبأ به (المثانة العصبية)**، لاحظ أن مضادات المسكاريني الفموية الراسخة (oxybutynin وsolifenacin وtolterodine) تحتل بالفعل هذا المجال مع دليل سريري قوي؛ ستكون هناك حاجة إلى صيغة متمايزة أو استراتيجية توصيل لتبرير المزيد من التطوير
+- إذا تحولت المصلحة إلى **المؤشر الثالث المتنبأ به (متلازمة القولون العصبي)**، لاحظ أن مضادات التشنج الفموية (dicyclomine وhyoscine) متاحة بالفعل؛ افتقار سيكلوبنتولات إلى شكل جرعة فموي هو حاجز عملي يتطلب تطوير الصيغ قبل أن تكون أي دراسة سريرية ممكنة
+- اعتبر إزالة هذا المرشح من الأولويات ما لم يتم تحديد مسار إدارة جديد أو ميزة انتقائية فريدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

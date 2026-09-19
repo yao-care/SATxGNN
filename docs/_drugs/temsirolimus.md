@@ -29,80 +29,81 @@ indication_count: 3
 
 </div>
 
-# Temsirolimus: From Renal Cell Carcinoma to Liposarcoma
+# تيموسيروليموس: من سرطان الخلايا الكلوية إلى الليبوساركوما
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Temsirolimus is an mTOR-inhibitor ("rapalog") globally approved for renal cell carcinoma, but it is currently **not marketed in Taiwan**.
-> The TxGNN model predicts it may be effective for **Liposarcoma**,
-> with **5 clinical trials** and **1 publication** currently supporting this direction — though most of the direct trial evidence involves related mTOR inhibitors (sirolimus, ridaforolimus, everolimus) rather than temsirolimus itself.
+> temsirolimus هو مثبط mTOR ("rapalog") معتمد عالمياً لسرطان الخلايا الكلوية، لكنه غير معروض حالياً في **تايوان**.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الليبوساركوما**،
+> حيث يدعم هذا الاتجاه حالياً **5 تجارب سريرية** و **منشور واحد** — على الرغم من أن معظم أدلة التجارب المباشرة تتضمن مثبطات mTOR ذات الصلة (sirolimus و ridaforolimus و everolimus) بدلاً من temsirolimus نفسه.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Renal Cell Carcinoma (internationally approved indication; no Taiwan license record exists to confirm a local label) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L3 |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | سرطان الخلايا الكلوية (مؤشر معتمد دولياً؛ لا توجد سجلات ترخيص تايواني لتأكيد تسمية محلية) |
+| المؤشر الجديد المتنبأ به | الليبوساركوما |
+| درجة تنبؤ TxGNN | 99.54% |
+| مستوى الأدلة | L3 |
+| حالة السوق التايواني | غير معروض |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data for temsirolimus is not available in the current evidence pack (DrugBank query returned a data gap). Based on information contained in the trial evidence itself, temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin), a kinase that sits within two signaling complexes and drives multiple growth-promoting pathways; blocking it can suppress tumor growth (as described directly in the NCT02821507 trial summary).
+لا تتوفر بيانات تفصيلية عن آلية عمل temsirolimus في مجموعة الأدلة الحالية (أرجعت استعلام DrugBank فجوة بيانات). استناداً إلى المعلومات الواردة في أدلة التجارب نفسها، temsirolimus هو مثبط لـ mTOR (الهدف الثديي للراباميسين)، وهي كينيز تقع داخل مجمعي إشارات وتدفع مسارات متعددة تعزز النمو؛ يمكن أن يؤدي حجبها إلى قمع نمو الورم (كما هو موصوف مباشرة في ملخص تجربة NCT02821507).
 
-Aberrant mTOR pathway activation has been implicated across several soft-tissue sarcoma subtypes, including liposarcoma, which is the rationale multiple sponsors have used to test mTOR inhibitors (sirolimus, ridaforolimus/AP23573, everolimus, and temsirolimus itself) in this population. This provides a plausible mechanistic bridge from temsirolimus's proven oncology use to a sarcoma-family indication.
+وقد تم تضمين تفعيل مسار mTOR الشاذ في عدة فئات فرعية من أورام الأنسجة الرخوة، بما في ذلك الليبوساركوما، وهو السبب الذي دفع رعاة متعددين لاختبار مثبطات mTOR (sirolimus و ridaforolimus/AP23573 و everolimus و temsirolimus نفسه) في هذا المجتمع. يوفر هذا جسراً آلياً معقولاً من الاستخدام الورمي المثبت لـ temsirolimus إلى مؤشر من عائلة الساركوما.
 
-However, it is important to note that only two of the five supporting trials (NCT01614795 and NCT00949325) use temsirolimus specifically — the other three use pharmacologically related but distinct mTOR inhibitors. The prediction is therefore best read as "class-level" mechanistic support rather than drug-specific confirmation.
+ومع ذلك، من المهم ملاحظة أن اثنتين فقط من التجارب الخمس الداعمة (NCT01614795 و NCT00949325) تستخدمان temsirolimus بشكل خاص — الثلاث الأخرى تستخدمان مثبطات mTOR ذات صلة صيدلانياً لكن متميزة. يجب قراءة التنبؤ بالتالي على أنه "دعم آلي على مستوى الفئة" بدلاً من التأكيد الخاص بالعقار.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Sirolimus + cyclophosphamide in metastatic/unresectable myxoid liposarcoma and chondrosarcoma; tests mTOR inhibition to prevent tumor growth |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Completed | 216 | Ridaforolimus (AP23573), an mTOR inhibitor, in patients with advanced sarcoma |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Completed | 46 | Cixutumumab + **temsirolimus** in pediatric recurrent/refractory solid tumors (sarcoma); temsirolimus dosed to block enzymes needed for cell growth |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Ribociclib + everolimus in advanced dedifferentiated liposarcoma (DDL) and leiomyosarcoma (LMS) |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Completed | 24 | **Torisel (temsirolimus)** + liposomal doxorubicin in advanced soft tissue and bone sarcomas; dose-finding plus efficacy signal |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | المرحلة الثانية | مكتملة | 70 | Sirolimus + cyclophosphamide في الليبوساركوما المخاطية النقيلية/غير القابلة للاستئصال والساركوما الغضروفية؛ يختبر مثبط mTOR لمنع نمو الورم |
+| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | المرحلة الثانية | مكتملة | 216 | Ridaforolimus (AP23573)، مثبط mTOR، في المرضى الذين يعانون من الساركوما المتقدمة |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | المرحلة الثانية | مكتملة | 46 | Cixutumumab + **temsirolimus** في الأورام الصلبة المتكررة/المقاومة للعلاج عند الأطفال (الساركوما)؛ temsirolimus بجرعة لحجب الإنزيمات المطلوبة لنمو الخلايا |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | المرحلة الثانية | نشطة، غير توظيف | 48 | Ribociclib + everolimus في الليبوساركوما غير المتمايزة (DDL) وساركوما العضلات الملساء (LMS) المتقدمة |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | المرحلة الأولى/الثانية | مكتملة | 24 | **Torisel (temsirolimus)** + doxorubicin الشحمي في أورام الأنسجة الرخوة والعظام المتقدمة؛ تحديد الجرعة بالإضافة إلى إشارة الفعالية |
 
-## Literature Evidence
+## الأدلة الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bulletin du cancer | Reviews targeted treatment strategies across six molecularly-defined sarcoma subgroups, providing the classification framework underlying mTOR-inhibitor use in soft-tissue sarcomas |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | مراجعة | Bulletin du cancer | يستعرض استراتيجيات العلاج الموجه عبر ستة مجموعات فرعية محددة بشكل جزيئي من الساركوما، مما يوفر إطار التصنيف الأساسي لاستخدام مثبطات mTOR في أورام الأنسجة الرخوة |
 
-## Taiwan Market Information
+## معلومات السوق التايواني
 
-Temsirolimus is currently not marketed in Taiwan; no TFDA license records are available (0 authorizations on file).
+temsirolimus غير معروض حالياً في تايوان؛ لا توجد سجلات ترخيص TFDA متاحة (0 تصاريح على الملف).
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor / rapalog) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الموجه (مثبط mTOR / rapalog) |
+| خطر قمع النخاع | يرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| حماية التعامل | يرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-A blocking data gap (TFDA package insert / warnings and contraindications, DG001) prevents an initial safety screen (S1), and temsirolimus has no Taiwan marketing authorization. Supporting trial evidence for liposarcoma is largely class-level (sirolimus, ridaforolimus, everolimus) rather than temsirolimus-specific, and no completed randomized Phase 2/3 trial directly confirms this indication.
+**المبرر:**
+فجوة بيانات حجب (نشرة الدواء TFDA / التحذيرات والموانع، DG001) تحول دون إجراء فحص سلامة أولي (S1)، و temsirolimus لا يمتلك تصريح تسويق تايواني. أدلة التجارب الداعمة للليبوساركوما هي في الغالب على مستوى الفئة (sirolimus و ridaforolimus و everolimus) بدلاً من كونها خاصة بـ temsirolimus، وليس هناك أي تجربة عشوائية مكتملة في المرحلة الثانية/الثالثة تؤكد هذا المؤشر بشكل مباشر.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — resolve DG001
-- DrugBank mechanism-of-action detail — resolve DG002
-- Drug-drug interaction (DDI) database results (current query returned not_found)
-- Trial/registry evidence specific to temsirolimus (rather than related mTOR inhibitors) in liposarcoma
+**للمتابعة، ما يلي مطلوب:**
+- نشرة الدواء TFDA (التحذيرات والموانع) — حل DG001
+- تفاصيل آلية عمل DrugBank — حل DG002
+- نتائج قاعدة بيانات تفاعلات الدواء مع الدواء (DDI) (أرجعت الاستعلام الحالي not_found)
+- أدلة من التجارب/السجل خاصة بـ temsirolimus (بدلاً من مثبطات mTOR ذات الصلة) في الليبوساركوما
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

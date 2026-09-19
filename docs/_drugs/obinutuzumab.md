@@ -29,135 +29,133 @@ indication_count: 3
 
 </div>
 
-Using the Evidence Pack, this drug candidate has **three** predicted indications (candidate_id ends in `-multi`), with very different evidence maturity — Follicular Lymphoma has 50 trials + 20 publications (L1), while the two CLL/SLL molecular subtypes have zero trials/literature (L5). I've structured the report around the strongest, decision-relevant prediction (Follicular Lymphoma) and added a transparent supplementary section for the two low-evidence subtype hypotheses rather than silently dropping them.
+# أوبينوتوزوماب: التوسع المتوقع من TxGNN إلى ليمفوما فوليكية (مع أنماط CLL/SLL الجزيئية كفرضيات استكشافية)
+
+## ملخص في جملة واحدة
+
+أوبينوتوزوماب (DrugBank DB08935) هو جسم مضاد أحادي النسيلة إنساني معاد هندسة من نوع II موجه ضد CD20؛ المؤشر الموافق عليه الأصلي غير مسجل في مجموعة البيانات هذه (فجوة بيانات). أفضل توقع يدعمه نموذج TxGNN هو **ليمفوما فوليكية**، مدعوم بـ **50 تجربة سريرية** و **20 منشور**، بما في ذلك عدة تجارب سريرية عشوائية محكومة (RCTs) مكتملة من المرحلة 3. يشير النموذج بالإضافة إلى ذلك إلى نمطين معرّفين جزيئياً من **CLL/SLL** بنفس درجة التنبؤ العالية تقريباً، لكن حالياً **لم يتم العثور على أي تجارب سريرية أو أدبيات** تحت هذه التسميات الفرعية الدقيقة.
 
 ---
 
-# Obinutuzumab: TxGNN-Predicted Expansion to Follicular Lymphoma (with CLL/SLL Molecular Subtypes as Exploratory Hypotheses)
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Obinutuzumab (DrugBank DB08935) is a glycoengineered, humanized type II anti-CD20 monoclonal antibody; its original approved indication is not recorded in this dataset (data gap). The TxGNN model's best-supported prediction is **Follicular Lymphoma**, backed by **50 clinical trials** and **20 publications**, including multiple completed Phase 3 RCTs. The model additionally flags two molecularly-defined **CLL/SLL** subtypes with an equally high prediction score, but currently **no clinical trials or literature** were found under those precise subtype labels.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in dataset — no `taiwan_regulatory.licenses` records and `original_indications` is empty (drug not yet marketed in Saudi Arabia) |
-| Predicted New Indication | Follicular Lymphoma *(primary; see also two exploratory CLL/SLL subtype predictions below)* |
-| TxGNN Prediction Score | 99.18% (Follicular Lymphoma, model rank 11593) |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متاح في مجموعة البيانات — لا توجد سجلات `taiwan_regulatory.licenses` و `original_indications` فارغ (الدواء لم يُسوّق بعد في المملكة العربية السعودية) |
+| المؤشر الجديد المتوقع | ليمفوما فوليكية *(الأساسي؛ انظر أيضاً توقعات نمط CLL/SLL استكشافيين أدناه)* |
+| درجة التنبؤ من TxGNN | 99.18% (ليمفوما فوليكية، ترتيب النموذج 11593) |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق (غير مسوّق) |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed DrugBank-level mechanism-of-action data was not returned for this drug in the current dataset (`original_moa: [Data Gap]`). However, the collected trial and literature evidence itself describes the mechanism: obinutuzumab is a third-generation, fully humanized, glyco-engineered **type II anti-CD20 monoclonal antibody (IgG1)**. Compared with first-generation anti-CD20 agents (e.g., rituximab), its glycoengineering enhances antibody-dependent cellular cytotoxicity (ADCC) and phagocytosis (ADCP), and it induces greater direct (non-apoptotic) B-cell killing.
+لم يتم إرجاع بيانات تفصيلية عن آلية العمل على مستوى DrugBank لهذا الدواء في مجموعة البيانات الحالية (`original_moa: [Data Gap]`). ومع ذلك، فإن أدلة التجارب والأدبيات المجمعة نفسها تصف الآلية: أوبينوتوزوماب هو جسم مضاد أحادي النسيلة من الجيل الثالث، مُعاد هندسة بالكامل، معاد هندسة سكري **موجه ضد CD20 (IgG1) من النوع الثاني**. مقارنة بعوامل anti-CD20 من الجيل الأول (مثل rituximab)، فإن إعادة هندسته السكرية تعزز السمية المعتمدة على الأجسام المضادة (ADCC) والبلعمية (ADCP)، ويحفز قتل B-cell المباشر الأكبر (غير apoptotic).
 
-Follicular lymphoma tumor cells, like other mature B-cell malignancies, uniformly express the CD20 surface antigen — the same target obinutuzumab was engineered against. This is not a distant mechanistic leap: obinutuzumab already has a well-established clinical development pathway in CD20+ B-cell malignancies (both CLL/SLL and follicular lymphoma appear repeatedly across the trial evidence as related, CD20-driven disease entities), which is consistent with the TxGNN model correctly recovering a mechanistically coherent target-disease relationship rather than a speculative one.
+خلايا ورم ليمفوما فوليكية، مثل غيرها من الأورام الخبيثة في الخلايا B الناضجة، تعبر بشكل موحد عن مستضد سطح CD20 — نفس الهدف الذي تم هندسة أوبينوتوزوماب ضده. هذا ليس قفزة آلية بعيدة: أوبينوتوزوماب لديه بالفعل مسار تطوير سريري راسخ جيداً في الأورام الخبيثة في الخلايا B الموجبة CD20 (يظهر كل من CLL/SLL والليمفوما الفوليكية بشكل متكرر عبر أدلة التجارب كمنصات أمراض مرتبطة، مدفوعة بـ CD20)، وهذا متسق مع النموذج الذي يقوم النموذج TxGNN بتصحيحها علاقة بين الهدف والمرض متسقة ميكانيكياً بدلاً من كونها تخمينية.
 
-The strength of this specific prediction is corroborated by the large, high-quality evidence base returned: the pivotal Phase 3 **GALLIUM** trial (PMID 29856692, 37404773) demonstrated that obinutuzumab-based immunochemotherapy significantly improved progression-free survival versus rituximab-based regimens in previously untreated follicular lymphoma, and the Phase 2 **GALEN** (PMID 31296423) and Phase 2 **ROSEWOOD** (PMID 37506346) studies further support activity in relapsed/refractory disease. This depth of independent replication across trial phases and settings is what elevates this prediction from a theoretical hypothesis to an actionable, evidence-backed indication.
+تم التحقق من قوة هذا التنبؤ المحدد من خلال قاعدة الأدلة الكبيرة والعالية الجودة المرجعة: تجربة Phase 3 المحورية **GALLIUM** (PMID 29856692, 37404773) أظهرت أن العلاج المناعي الكيميائي على أساس أوبينوتوزوماب حسّن بشكل كبير من البقاء الخالي من التطور مقابل الأنظمة القائمة على rituximab في ليمفوما فوليكية لم تُعالج من قبل، وتدعم دراسات Phase 2 **GALEN** (PMID 31296423) و Phase 2 **ROSEWOOD** (PMID 37506346) النشاط الإضافي في المرض المنكس/المقاوم للعلاج. هذا العمق من النسخ المستقل عبر مراحل التجارب والأماكن هو ما يرفع هذا التنبؤ من فرضية نظرية إلى مؤشر قابل للتنفيذ مدعوم بالأدلة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT06108232](https://clinicaltrials.gov/study/NCT06108232) | Phase 2 | Active, not recruiting | 33 | Obinutuzumab + CC-99282 in previously untreated, high tumor-burden FL |
-| [NCT05899621](https://clinicaltrials.gov/study/NCT05899621) | N/A (real-world) | Recruiting | 332 | Real-world efficacy/safety of obinutuzumab-based therapy in untreated FL |
-| [NCT02871219](https://clinicaltrials.gov/study/NCT02871219) | Phase 2 | Completed | 96 | Obinutuzumab + lenalidomide in previously untreated FL |
-| [NCT01582776](https://clinicaltrials.gov/study/NCT01582776) | Phase 1/2 | Completed | 317 | Obinutuzumab + lenalidomide across untreated and R/R FL cohorts (precursor to GALEN) |
-| [NCT04450173](https://clinicaltrials.gov/study/NCT04450173) | Phase 2 | Active, not recruiting | 40 | Chemo-free obinutuzumab + ibrutinib + venetoclax in untreated FL |
-| [NCT01691898](https://clinicaltrials.gov/study/NCT01691898) | Phase 1/2 | Completed | 231 | Polatuzumab vedotin + obinutuzumab in relapsed/refractory FL and DLBCL |
-| [NCT06806033](https://clinicaltrials.gov/study/NCT06806033) | Phase 2 | Recruiting | 100 | CRS-profile optimization for glofitamab + GemOx in relapsed/refractory aggressive B-NHL |
-| [NCT05169658](https://clinicaltrials.gov/study/NCT05169658) | Phase 2 | Completed | 42 | Subcutaneous mosunetuzumab ± polatuzumab vedotin and obinutuzumab in untreated indolent B-NHL |
-| [NCT06918015](https://clinicaltrials.gov/study/NCT06918015) | Phase 2 | Not yet recruiting | 58 | Zanubrutinib + GCVP (obinutuzumab-based regimen) in untreated FL |
-| [NCT06191744](https://clinicaltrials.gov/study/NCT06191744) | Phase 3 | Recruiting | 1,095 | Epcoritamab + R2 vs. chemoimmunotherapy in untreated FL (large Phase 3 program; obinutuzumab likely comparator/pretreatment arm) |
+| [NCT06108232](https://clinicaltrials.gov/study/NCT06108232) | المرحلة 2 | نشطة، لا تجند | 33 | أوبينوتوزوماب + CC-99282 في ليمفوما فوليكية لم تُعالج من قبل بعبء ورم مرتفع |
+| [NCT05899621](https://clinicaltrials.gov/study/NCT05899621) | بدون تحديد (واقعي) | تجند | 332 | فعالية/سلامة العالم الحقيقي للعلاج على أساس أوبينوتوزوماب في ليمفوما فوليكية لم تُعالج من قبل |
+| [NCT02871219](https://clinicaltrials.gov/study/NCT02871219) | المرحلة 2 | مكتملة | 96 | أوبينوتوزوماب + lenalidomide في ليمفوما فوليكية لم تُعالج من قبل |
+| [NCT01582776](https://clinicaltrials.gov/study/NCT01582776) | المرحلة 1/2 | مكتملة | 317 | أوبينوتوزوماب + lenalidomide عبر أفواج ليمفوما فوليكية لم تُعالج من قبل والمنكس/المقاوم للعلاج (السلف لـ GALEN) |
+| [NCT04450173](https://clinicaltrials.gov/study/NCT04450173) | المرحلة 2 | نشطة، لا تجند | 40 | أوبينوتوزوماب خالي من العلاج الكيميائي + ibrutinib + venetoclax في ليمفوما فوليكية لم تُعالج من قبل |
+| [NCT01691898](https://clinicaltrials.gov/study/NCT01691898) | المرحلة 1/2 | مكتملة | 231 | Polatuzumab vedotin + أوبينوتوزوماب في ليمفوما فوليكية منكسة/مقاومة للعلاج و DLBCL |
+| [NCT06806033](https://clinicaltrials.gov/study/NCT06806033) | المرحلة 2 | تجند | 100 | تحسين ملف CRS لـ glofitamab + GemOx في B-NHL عدوانية منكسة/مقاومة للعلاج |
+| [NCT05169658](https://clinicaltrials.gov/study/NCT05169658) | المرحلة 2 | مكتملة | 42 | Mosunetuzumab تحت الجلد ± polatuzumab vedotin و أوبينوتوزوماب في B-NHL خامل لم يُعالج من قبل |
+| [NCT06918015](https://clinicaltrials.gov/study/NCT06918015) | المرحلة 2 | لم تبدأ بعد | 58 | Zanubrutinib + GCVP (نظام قائم على أوبينوتوزوماب) في ليمفوما فوليكية لم تُعالج من قبل |
+| [NCT06191744](https://clinicaltrials.gov/study/NCT06191744) | المرحلة 3 | تجند | 1,095 | Epcoritamab + R2 مقابل العلاج المناعي الكيميائي في ليمفوما فوليكية لم تُعالج من قبل (برنامج Phase 3 كبير؛ أوبينوتوزوماب على الأرجح مقارن/ذراع المعالجة المسبقة) |
 
-*Note: 50 trials total were returned; the table above prioritizes trials in which obinutuzumab is the primary backbone agent (Grade A relevance) plus representative larger studies.*
+*ملاحظة: تم إرجاع 50 تجربة إجمالية؛ الجدول أعلاه يعطي الأولوية للتجارب التي يكون فيها أوبينوتوزوماب هو عامل العمود الفقري الأساسي (الصلة من الدرجة A) بالإضافة إلى الدراسات الأكبر التمثيلية.*
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT | N Engl J Med | Obinutuzumab-based vs. rituximab-based chemotherapy for first-line follicular lymphoma |
-| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | GALLIUM study: obinutuzumab significantly prolonged PFS vs. rituximab across chemotherapy backbones |
-| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM final analysis: obinutuzumab vs. rituximab immunochemotherapy in untreated iNHL |
-| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | J Clin Oncol | ROSEWOOD: zanubrutinib + obinutuzumab vs. obinutuzumab monotherapy in R/R FL |
-| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | RCT | Lancet Haematol | GALEN: obinutuzumab + lenalidomide in relapsed/refractory FL |
-| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | RCT/Cohort | Haematologica | Polatuzumab vedotin + bendamustine + rituximab/obinutuzumab in R/R FL |
-| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood Lymphat Cancer | Impact of obinutuzumab alone and in combination for FL |
-| [38660754](https://pubmed.ncbi.nlm.nih.gov/38660754/) | 2024 | Review | Turk J Haematol | Comprehensive review of FL management, including obinutuzumab-based regimens |
-| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | Review | Front Pharmacol | Efficacy, safety, and cost-effectiveness of obinutuzumab in FL |
-| [28276536](https://pubmed.ncbi.nlm.nih.gov/28276536/) | 2016 | Review | Drugs Today | Obinutuzumab in follicular lymphoma |
+| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT | N Engl J Med | العلاج الكيميائي المناعي على أساس أوبينوتوزوماب مقابل rituximab للخط الأول من ليمفوما فوليكية |
+| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | دراسة GALLIUM: أوبينوتوزوماب أطالت البقاء الخالي من التطور بشكل كبير مقابل rituximab عبر العمود الفقري الكيميائي |
+| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | تحليل GALLIUM النهائي: أوبينوتوزوماب مقابل rituximab العلاج المناعي الكيميائي في iNHL لم يُعالج من قبل |
+| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | J Clin Oncol | ROSEWOOD: zanubrutinib + أوبينوتوزوماب مقابل مونوثيرابي أوبينوتوزوماب في ليمفوما فوليكية منكسة/مقاومة للعلاج |
+| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | RCT | Lancet Haematol | GALEN: أوبينوتوزوماب + lenalidomide في ليمفوما فوليكية منكسة/مقاومة للعلاج |
+| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | RCT/Cohort | Haematologica | Polatuzumab vedotin + bendamustine + rituximab/أوبينوتوزوماب في ليمفوما فوليكية منكسة/مقاومة للعلاج |
+| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood Lymphat Cancer | تأثير أوبينوتوزوماب وحده وفي الجمع لليمفوما فوليكية |
+| [38660754](https://pubmed.ncbi.nlm.nih.gov/38660754/) | 2024 | Review | Turk J Haematol | مراجعة شاملة لإدارة ليمفوما فوليكية، بما في ذلك الأنظمة القائمة على أوبينوتوزوماب |
+| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | Review | Front Pharmacol | فعالية وسلامة وفعالية التكلفة لأوبينوتوزوماب في ليمفوما فوليكية |
+| [28276536](https://pubmed.ncbi.nlm.nih.gov/28276536/) | 2016 | Review | Drugs Today | أوبينوتوزوماب في ليمفوما فوليكية |
 
 ---
 
-## Other TxGNN-Predicted Indications (Exploratory Hypotheses)
+## مؤشرات TxGNN المتوقعة الأخرى (فرضيات استكشافية)
 
-Beyond follicular lymphoma, the model separately flagged two closely related, molecularly-defined disease labels with an almost identical prediction score (**99.21%**), but the current evidence collection found **zero clinical trials and zero publications** under either precise label:
+بعيداً عن ليمفوما فوليكية، وضع النموذج بشكل منفصل علماً بحالتي مرض معرّفتين جزيئياً وثيقتي الصلة بنفس درجة التنبؤ تقريباً (**99.21%**)، لكن جمع الأدلة الحالي وجد **صفر تجارب سريرية وصفر منشورات** تحت أي من التسميات الدقيقة:
 
-| Predicted Disease | TxGNN Score | Evidence | Level | Recommendation |
+| المرض المتوقع | درجة TxGNN | الدليل | المستوى | التوصية |
 |---|---|---|---|---|
-| Pregerminal center CLL/SLL (IGHV-unmutated) | 99.21% | 0 trials / 0 literature | L5 | Research Question |
-| CLL/SLL with IGHV somatic hypermutation | 99.21% | 0 trials / 0 literature | L5 | Research Question |
+| CLL/SLL من مركز خلايا بدائية (IGHV-غير متحور) | 99.21% | 0 تجربة / 0 أدبيات | L5 | سؤال بحثي |
+| CLL/SLL مع فرط طفرة جسدية IGHV | 99.21% | 0 تجربة / 0 أدبيات | L5 | سؤال بحثي |
 
-**Why these are still worth tracking:** Mechanistically, obinutuzumab's cytotoxicity acts directly on the CD20 antigen and is not expected to depend on IGHV mutation status, so the mechanistic rationale is strong for both subtypes. The absence of evidence is most likely an **ontology-matching gap** — real-world trials and PubMed records almost never register under these precise IGHV-subtype labels, and instead use the umbrella term "CLL/SLL." This means the true evidence base may exist but was not captured under this exact disease name, rather than genuinely not existing. Per the evidence pack's own scoring rules, however, these remain L5/Research Question until a broader CLL/SLL-label search is performed and reviewed against these specific molecular subgroups.
+**لماذا هذه تستحق المتابعة:**
+من الناحية الآلية، تعتمد سمية أوبينوتوزوماب بشكل مباشر على مستضد CD20 وليس من المتوقع أن تعتمد على حالة طفرة IGHV، لذا فإن الأساس الآلي قوي لكلا النمطين الفرعيين. غياب الأدلة يرجع على الأرجح إلى **فجوة مطابقة الإنطولوجيا** — تجارب العالم الحقيقي وسجلات PubMed نادراً ما تسجل تحت هذه التسميات الدقيقة لنوع IGHV، وبدلاً من ذلك تستخدم المصطلح الشامل "CLL/SLL". هذا يعني أن قاعدة الأدلة الحقيقية قد توجد لكن لم يتم التقاطها تحت هذا الاسم الدقيق للمرض، بدلاً من عدم وجودها حقاً. وفقاً لقواعس تسجيل حزمة الأدلة الخاصة بها، ومع ذلك، تبقى هذه في L5/سؤال بحثي حتى يتم إجراء بحث أوسع عن الأدبيات والتجارب باستخدام تسمية CLL/SLL الأوسع، وفحص يدوي بحثاً عن بيانات تم تقسيمها حسب الحالة الجزيئية IGHV قبل الاستطاعة إلى ترقية هذين الإدراجين بعد L5.
 
-**Recommended action:** Re-run trial/literature retrieval using the broader term "chronic lymphocytic leukemia/small lymphocytic lymphoma" (without the IGHV-subtype qualifier), then manually screen for IGHV-status-stratified subgroup data before deciding whether these two entries can be upgraded past L5.
-
----
-
-## Saudi Arabia Market Information
-
-Obinutuzumab currently has **no marketing authorization on file in Saudi Arabia** — `total_licenses = 0` and market status is recorded as **Not marketed (Not marketed)**. No product names, dosage forms, or approved-indication text are available in this dataset.
+**الإجراء الموصى به:** إعادة تشغيل استرجاع التجارب/الأدبيات باستخدام المصطلح الأوسع "ابيضاض الدم الليمفاوي المزمن/ليمفوما صغيرة الحجم" (بدون مؤهل النوع الفرعي IGHV)، ثم فحص يدوي لبيانات المجموعة الفرعية المقسمة حسب حالة IGHV قبل الاستطاعة إلى ترقية هذين الإدراجين بعد L5.
 
 ---
 
-## Cytotoxicity
+## معلومات سوق المملكة العربية السعودية
 
-Obinutuzumab is an antineoplastic monoclonal antibody used exclusively in hematologic malignancies (CLL/SLL, follicular lymphoma), so this section applies.
+أوبينوتوزوماب حالياً ليس لديه تفويض تسويق مسجل في المملكة العربية السعودية — `total_licenses = 0` وحالة السوق مسجلة كـ **غير مسوّق (Not marketed)**. لا توجد أسماء منتجات أو أشكال جرعات أو نصوص مؤشرات معتمدة متاحة في مجموعة البيانات هذه.
 
-| Item | Content |
+---
+
+## السمية
+
+أوبينوتوزوماب هو جسم مضاد أحادي النسيلة مضاد للأورام يستخدم حصراً في الأورام الخبيثة في الدم (CLL/SLL، ليمفوما فوليكية)، لذا ينطبق هذا القسم.
+
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (immunotherapeutic anti-CD20 monoclonal antibody; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions — no DrugBank/TFDA toxicity data available in this dataset. Class-related B-cell depletion effects (profound/prolonged B-lymphopenia, hypogammaglobulinemia, increased infection risk) are noted in the trial evidence base (e.g., NCT04918940, post-vaccination immunization study in anti-CD20-treated patients) but formal hematologic toxicity grading was not retrieved |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count (CBC) with differential, serum immunoglobulin levels, infection surveillance — based on the class-level B-cell depletion mechanism noted above; confirm against official labeling once available |
-| Handling Protection | Please refer to the package insert warnings and precautions — biologic (monoclonal antibody) handling requirements should be confirmed against institutional hazardous-drug policy |
+| تصنيف السمية | العلاج الموجه (علاج مناعي جسم مضاد أحادي النسيلة موجه ضد CD20؛ ليس العلاج الكيميائي السام التقليدي) |
+| خطر قمع نخاع العظم | يرجى الرجوع إلى تحذيرات واحتياطات ورقة البيانات الأمنية — لا توجد بيانات سمية DrugBank/TFDA متاحة في مجموعة البيانات هذه. تم ملاحظة التأثيرات المرتبطة بالفئة من استنزاف الخلايا B (عميق/طويل المدى B-lymphopenia، نقص جاماغلوبولين الدم، زيادة خطر العدوى) في قاعدة أدلة التجارب (مثل NCT04918940، دراسة المناعة بعد التطعيم في المرضى الذين عولجوا بـ anti-CD20) لكن لم يتم استرجاع تصنيف رسمي لسمية الدم |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات ورقة البيانات الأمنية |
+| بنود المراقبة | عدد الدم الكامل (CBC) مع تفاضل، مستويات الجلوبيولين المناعي في الدم، مراقبة العدوى — بناءً على آلية استنزاف الخلايا B على مستوى الفئة المذكورة أعلاه؛ تأكيد ضد التسمية الرسمية مرة توفرت |
+| حماية التعامل | يرجى الرجوع إلى تحذيرات واحتياطات ورقة البيانات الأمنية — يجب تأكيد متطلبات التعامل البيولوجية (جسم مضاد أحادي النسيلة) ضد سياسة العقاقير الخطرة المؤسسية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were retrievable in this dataset (`safety.key_warnings`, `safety.contraindications` both unresolved; DDI query returned `not_found`).
+يرجى الرجوع إلى ورقة البيانات الأمنية للحصول على معلومات السلامة. لم تكن هناك استرجاعات لبيانات التحذيرات الرئيسية أو موانع الاستعمال أو التفاعل بين الأدوية في مجموعة البيانات هذه (`safety.key_warnings`، `safety.contraindications` كلاهما غير مُحل؛ استعلام DDI أرجع `not_found`).
 
-**Note:** The evidence pack flags this as a **Blocking**-severity data gap (DG001 — TFDA/local package-insert warnings and contraindications), explicitly noted as preventing entry into the S1 safety initial-evaluation stage. This gap must be resolved before any regulatory or clinical-use decision is finalized, independent of how strong the efficacy evidence is.
+**ملاحظة:** تشير حزمة الأدلة إلى هذا كفجوة بيانات **حجب** (DG001 — تحذيرات/موانع استعمال الحزمة المحلية TFDA)، مُلاحظ بشكل صريح كمنع الدخول إلى مرحلة تقييم السلامة الأولي S1. يجب حل هذه الفجوة قبل إتمام أي قرار تنظيمي أو استخدام سريري، بغض النظر عن مدى قوة أدلة الفعالية.
 
 ---
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Proceed with Guardrails** *(applies to the Follicular Lymphoma indication; the two CLL/SLL molecular-subtype predictions remain at Hold/Research Question pending re-query — see above)*
+**القرار: المضي قدماً مع ضمانات** *(ينطبق على مؤشر ليمفوما فوليكية؛ تبقى توقعات النوع الفرعي CLL/SLL الاثنتان في حالة انتظار/سؤال بحثي في انتظار إعادة الاستعلام — انظر أعلاه)*
 
-**Rationale:**
-- Follicular lymphoma is supported by L1-level evidence — multiple completed Phase 2/3 trials and RCTs (GALLIUM, GALEN, ROSEWOOD) — giving high confidence in efficacy and target biology.
-- However, a **Blocking** safety data gap (DG001: TFDA/package-insert warnings and contraindications not yet retrieved) means the safety initial-evaluation (S1) stage cannot be completed, and the drug is not currently marketed in Saudi Arabia (0 authorizations) — hence "Guardrails" rather than an unconditional "Go."
+**المبرر:**
+- يتم دعم ليمفوما فوليكية بأدلة من مستوى L1 — عدة تجارب سريرية عشوائية محكومة ومكتملة من المرحلة 2/3 (GALLIUM, GALEN, ROSEWOOD) — مما يعطي ثقة عالية في الفعالية وبيولوجيا الهدف.
+- ومع ذلك، **فجوة بيانات سلامة حجب** (DG001: لم يتم استرجاع تحذيرات/موانع استعمال الحزمة الرسمية TFDA بعد) تعني أن مرحلة تقييم السلامة الأولي (S1) لا يمكن إكمالها، والدواء حالياً لم يسوّق في المملكة العربية السعودية (0 تفويضات) — ومن ثم "ضمانات" بدلاً من "تقدم" بدون شروط.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the TFDA/local package insert to close the Blocking safety data gap (DG001) and complete S1 safety screening
-- Obtain DrugBank MOA data to complete the mechanism-of-action record (DG002)
-- Confirm local market-authorization pathway, since obinutuzumab currently has zero licenses in Saudi Arabia
-- Re-run clinical trial/literature retrieval using the broader "CLL/SLL" term (without IGHV-subtype qualifiers) to determine whether the two exploratory subtype predictions can be upgraded beyond L5
-- Establish a DDI query source, since the current interaction database returned no results (`not_found`)
+**لكي نتقدم، يلزم التالي:**
+- استرجاع وتحليل الحزمة الرسمية TFDA/المحلية لإغلاق فجوة بيانات السلامة الحجب (DG001) وإتمام فحص السلامة الأولي S1
+- الحصول على بيانات آلية العمل من DrugBank لإتمام سجل آلية العمل (DG002)
+- تأكيد مسار التفويض السوقي المحلي، حيث أن أوبينوتوزوماب حالياً ليس لديه تفاويضات في المملكة العربية السعودية
+- إعادة تشغيل استرجاع التجارب السريرية/الأدبيات باستخدام المصطلح الأوسع "CLL/SLL" (بدون مؤهلات نوع IGHV الفرعية) لتحديد ما إذا كان يمكن ترقية توقعات النوع الفرعي الاستكشافي الاثنين بعد L5
+- إنشاء مصدر استعلام DDI، حيث أن قاعدة بيانات التفاعل الحالية أرجعت لا نتائج (`not_found`)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

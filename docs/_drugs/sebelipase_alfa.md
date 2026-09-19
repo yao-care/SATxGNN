@@ -29,77 +29,78 @@ indication_count: 10
 
 </div>
 
-# Sebelipase Alfa: From Lysosomal Acid Lipase Deficiency to Scheie Syndrome
+# سيبيليباز ألفا: من نقص الليباز الحمضي الليسوسومي إلى متلازمة شاي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Sebelipase alfa is a recombinant human lysosomal acid lipase (LAL) enzyme replacement therapy, originally developed for Lysosomal Acid Lipase Deficiency (LAL-D). The TxGNN model's top prediction is **Scheie syndrome**, but this direction currently has **0 clinical trials** and **0 publications** in support — the high score appears to reflect semantic clustering among rare genetic storage disorders rather than a real pharmacological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Lysosomal Acid Lipase Deficiency (LAL-D) — no Saudi Arabia license record on file; inferred from literature evidence in this pack |
-| Predicted New Indication | Scheie syndrome |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+sebelipase alfa (سيبيليباز ألفا) هو علاج بديل للإنزيم الليباز الحمضي الليسوسومي البشري المؤتلف (LAL)، تم تطويره في الأصل لعلاج نقص الليباز الحمضي الليسوسومي (LAL-D). التنبؤ الأعلى لنموذج TxGNN هو **متلازمة شاي**، لكن هذا الاتجاه حاليًا لا يحتوي على **0 تجربة سريرية** و**0 منشور علمي** يدعمانه — يبدو أن الدرجة العالية تعكس التجميع الدلالي بين اضطرابات التخزين الوراثية النادرة بدلاً من وجود رابط دوائي حقيقي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on information recoverable from the literature evidence in this pack, sebelipase alfa (Kanuma®) is a recombinant human lysosomal acid lipase (LAL) enzyme replacement therapy — it restores LAL enzyme activity in patients whose lysosomes cannot hydrolyze cholesteryl esters and triglycerides, and its efficacy in LAL-D (encompassing both Wolman disease and cholesteryl ester storage disease) has been demonstrated in multiple completed trials.
-
-Scheie syndrome, however, is a mild form of Mucopolysaccharidosis type I (MPS I), caused by deficiency of **alpha-L-iduronidase (IDUA)** — an entirely different lysosomal enzyme acting on glycosaminoglycan degradation, not lipid metabolism. There is no shared substrate, pathway, or enzyme target between LAL and IDUA.
-
-The repurposing rationale accompanying this prediction explicitly notes that the association is most likely driven by TxGNN grouping Scheie syndrome and LAL-D together as "rare genetic metabolic/storage diseases" in its embedding space, rather than by any real shared biology. No clinical trial or literature evidence was found linking sebelipase alfa to Scheie syndrome, consistent with this being a model-prediction artifact.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | نقص الليباز الحمضي الليسوسومي (LAL-D) — لا توجد سجلات ترخيص في المملكة العربية السعودية؛ مستنتج من الأدلة الأدبية في هذه الحزمة |
+| الاستطباب الجديد المتنبأ به | متلازمة شاي |
+| درجة التنبؤ TxGNN | 99.80% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفاويض | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة (تم تحديدها كفجوة بيانات عالية الخطورة). بناءً على المعلومات القابلة للاسترجاع من الأدلة الأدبية في هذه الحزمة، sebelipase alfa (Kanuma®) هو علاج بديل للإنزيم الليباز الحمضي الليسوسومي البشري المؤتلف (LAL) — يستعيد نشاط إنزيم LAL لدى المرضى الذين لا تستطيع الحويصلات الليسوسومية فيهم تحطيم إسترات الكوليسترول والدهون الثلاثية، وقد تم إثبات فعاليته في LAL-D (الذي يشمل كلاً من مرض وولمان وأمراض تخزين إسترات الكوليسترول) في عدة تجارب مكتملة.
 
----
+متلازمة شاي، على أي حال، هي شكل خفيف من داء تخزين السكريات المتعددة من النوع الأول (MPS I)، ناجم عن نقص **ألفا-إل-إيدورونيداز (IDUA)** — إنزيم ليسوسومي مختلف تماماً يعمل على تحلل الجليكوزأمينوجليكان، وليس على استقلاب الدهون. لا توجد ركيزة أو مسار أو هدف إنزيمي مشترك بين LAL و IDUA.
 
-## Saudi Arabia Market Information
-
-Sebelipase alfa is not currently marketed in Saudi Arabia — no active authorizations are on file (0 licenses).
+يلاحظ الأساس المنطقي لإعادة الاستطباب المرافق لهذا التنبؤ بصراحة أن الارتباط يُحتمل بقوة أن يكون ناجماً عن تجميع نموذج TxGNN لمتلازمة شاي و LAL-D معاً كـ"أمراض استقلابية وراثية نادرة/أمراض تخزين" في مساحة التضمين الخاصة به، بدلاً من كونه ناتجاً عن أي بيولوجيا حقيقية مشتركة. لم يتم العثور على أي أدلة تجريبية سريرية أو أدبية تربط sebelipase alfa بمتلازمة شاي، وهو ما يتوافق مع كون هذا حفاز تنبؤ النموذج.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(TFDA/SFDA package insert warnings and contraindications are an unresolved Blocking data gap — DG001 — and DDI query returned no results.)*
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب العلمي
 
-**Decision: Hold**
+لا توجد حاليًا أدبيات ذات صلة متاحة.
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.80%), there is no mechanistic plausibility (different target enzyme — LAL vs. IDUA), no clinical trial evidence, and no literature support for using sebelipase alfa in Scheie syndrome. This meets the criteria for L5 — model prediction only, no actual studies.
+---
 
-**To proceed, the following is needed:**
-- Independent mechanistic review confirming (or ruling out) any indirect pathway link between LAL and IDUA-related storage disease biology
-- At minimum, preclinical or case-level evidence before this candidate could be reconsidered
-- Resolution of the Blocking data gap on TFDA/SFDA package insert warnings and contraindications (DG001) and MOA (DG002), which currently prevent any safety pre-assessment for this drug generally
+## معلومات سوق المملكة العربية السعودية
 
-**Note for portfolio prioritization:** within this same evidence pack, two other candidates show substantially stronger support and warrant separate evaluation — *cholesteryl ester storage disease* (rank 4, 9 trials incl. 2 completed Phase 3 studies, 19 publications) and *Wolman disease* (rank 5, L2/S3, "Proceed with Guardrails") — both of which fall within sebelipase alfa's already-established LAL-D mechanism, unlike Scheie syndrome.
+sebelipase alfa لم يتم تسويقها حاليًا في المملكة العربية السعودية — لا توجد تفاويض نشطة في الملف (0 ترخيص).
+
+---
+
+## الاعتبارات الأمنية
+
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+*(تحذيرات نشرة عبوة TFDA/SFDA والموانع الاستعمال هي فجوة بيانات حاجبة غير محل حل — DG001 — واستعلام DDI لم يرجع أي نتائج.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+رغم درجة التنبؤ TxGNN العالية (99.80%)، لا توجد معقولية آلية (إنزيم هدف مختلف — LAL مقابل IDUA)، ولا توجد أدلة تجارب سريرية، ولا دعم أدبي لاستخدام sebelipase alfa في متلازمة شاي. يستوفي هذا معايير L5 — تنبؤ النموذج فقط، بدون دراسات فعلية.
+
+**للمتابعة، هناك حاجة إلى ما يلي:**
+- مراجعة آلية مستقلة تؤكد (أو تستبعد) أي ارتباط مسار غير مباشر بين بيولوجيا أمراض التخزين المرتبطة بـ LAL و IDUA
+- في الحد الأدنى، أدلة قبل سريرية أو على مستوى الحالة قبل إعادة النظر في هذا المرشح
+- حل فجوة البيانات الحاجبة على تحذيرات نشرة عبوة TFDA/SFDA والموانع الاستعمال (DG001) وآلية العمل (DG002)، والتي تحول حاليًا دون أي تقييم أمان مسبق لهذا الدواء بشكل عام
+
+**ملاحظة لأولويات المحفظة:** ضمن نفس حزمة الأدلة، يُظهر مرشحان آخران دعماً أقوى بشكل كبير ويستحقان تقييماً منفصلاً — *أمراض تخزين إسترات الكوليسترول* (الترتيب 4، 9 تجارب تشمل دراستي المرحلة 3 المكتملتين، 19 منشور) و*مرض وولمان* (الترتيب 5، L2/S3، "المتابعة مع حماية إضافية") — وكلاهما يندرج ضمن آلية LAL-D المعروفة بالفعل لـ sebelipase alfa، بخلاف متلازمة شاي.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

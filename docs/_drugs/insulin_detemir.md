@@ -29,103 +29,104 @@ indication_count: 10
 
 </div>
 
-# Insulin Detemir: From Diabetes Mellitus (Insulin Replacement) to Type 1 Diabetes Mellitus
+# إنسولين ديتيمير: من داء السكري (استبدال الإنسولين) إلى داء السكري من النوع الأول
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Insulin detemir is a long-acting basal insulin analog used for exogenous insulin replacement in insulin-dependent diabetes.
-> The TxGNN model's top-ranked prediction is **Type 1 Diabetes Mellitus**, supported by **50 clinical trials** and **19 publications** —
-> however, this is very likely a **known, already-established indication** rather than a genuine new repurposing signal, and the "prediction" mainly reflects a gap in this drug's local (Saudi Arabia/SFDA) regulatory registry rather than a novel mechanistic hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in registry (data gap) — pharmacologically, insulin detemir is an insulin analog used for exogenous insulin replacement in diabetes mellitus |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> إنسولين ديتيمير هو نظير إنسولين قاعدي طويل المفعول يُستخدم لاستبدال الإنسولين خارج الجسم في داء السكري المعتمد على الإنسولين.
+> يتنبأ نموذج TxGNN برتبة عليا بـ**داء السكري من النوع الأول**، مدعوماً بـ**50 تجربة سريرية** و**19 منشورة** —
+> غير أن هذا على الأرجح **دلالة معروفة وموثقة بالفعل** وليس إشارة حقيقية لإعادة توظيف جديدة، و"التنبؤ" يعكس بشكل أساسي فجوة في السجل التنظيمي المحلي (السعودية/SFDA) لهذا الدواء بدلاً من فرضية آلية عمل جديدة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known pharmacology, insulin detemir is a long-acting basal insulin analog acylated with a 14-carbon fatty acid, which reversibly binds albumin to provide slow, prolonged absorption. Like all insulin products, it acts by binding the insulin receptor to promote peripheral glucose uptake and suppress hepatic gluconeogenesis — the standard mechanism of exogenous insulin replacement therapy.
-
-Because of this mechanism, insulin detemir's clinical use **is** the management of insulin-dependent diabetes, including Type 1 Diabetes Mellitus. This means the "predicted new indication" surfaced by TxGNN is not a novel disease association discovered through cross-disease inference — it is the drug's core, already-proven use. The very large volume of supporting Phase 3/4 randomized trials (see below) confirms this is an established indication rather than an exploratory hypothesis.
-
-The evidence pack itself flags this explicitly: the original indication field is empty and the SFDA/Saudi Arabia market record shows zero authorizations, which is why the model and registry infrastructure treat this as a "gap to fill" rather than recognizing it as already-known. **This case should be handled primarily as a data/registry completeness issue** (confirm and document insulin detemir's actual approved indication text once available), not evaluated using the standard repurposing-evidence workflow that applies to genuinely novel disease associations.
+| العنصر | المحتوى |
+|------|---------|
+| الدلالة الأصلية | غير موثقة في السجل (فجوة بيانات) — من الناحية الدوائية، إنسولين ديتيمير هو نظير إنسولين يُستخدم لاستبدال الإنسولين خارج الجسم في داء السكري |
+| الدلالة الجديدة المتوقعة | داء السكري من النوع الأول |
+| درجة تنبؤ TxGNN | 99.77% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الاستمرار مع الضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (موضحة كفجوة بيانات عالية الخطورة، DG002). بناءً على الدراية الدوائية المعروفة، إنسولين ديتيمير هو نظير إنسولين قاعدي طويل المفعول مرتبط بحمض دهني ذي 14 ذرة كربون، يرتبط بشكل عكسي بالألبومين ليوفر امتصاصاً بطيئاً ومديد المفعول. مثل جميع منتجات الإنسولين، يعمل من خلال الارتباط بمستقبل الإنسولين لتعزيز امتصاص الجلوكوز المحيطي وقمع تكوين الجلوكوز الكبدي — آلية العمل المعيارية لعلاج استبدال الإنسولين خارج الجسم.
+
+بسبب هذه الآلية، الاستخدام السريري لإنسولين ديتيمير **هو** علاج داء السكري المعتمد على الإنسولين، بما في ذلك داء السكري من النوع الأول. هذا يعني أن "الدلالة الجديدة المتوقعة" التي ظهرها TxGNN ليست ارتباطاً مرضياً جديداً تم اكتشافه من خلال الاستدلال بين الأمراض — إنها الاستخدام الأساسي والموثق بالفعل للدواء. يؤكد الحجم الكبير جداً من التجارب العشوائية المرحلة 3/4 الداعمة (انظر أدناه) أن هذه دلالة موثقة وليست فرضية استكشافية.
+
+حزمة الأدلة نفسها توضح هذا بصراحة: حقل الدلالة الأصلية فارغ وسجل السوق في SFDA/المملكة العربية السعودية يُظهر صفر موافقات، وهذا هو السبب في أن النموذج والبنية التحتية للسجل تعاملان هذا على أنه "فجوة يجب ملؤها" بدلاً من الاعتراف بها كدلالة معروفة بالفعل. **يجب التعامل مع هذه الحالة في المقام الأول كمسألة اكتمال البيانات/السجل** (التأكيد والتوثيق للدلالة الموصوفة الفعلية لإنسولين ديتيمير عند توفرها)، وليس تقييمها باستخدام سير عمل الأدلة المعياري لإعادة التوظيف الذي ينطبق على جمعيات الأمراض الحقيقية الجديدة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00542399](https://clinicaltrials.gov/study/NCT00542399) | Phase 4 | Completed | 50 | Compared once- vs twice-daily insulin detemir injections in children/adolescents with T1DM; treat-to-target design. |
-| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | Phase 3 | Completed | 131 | Randomized crossover trial comparing hypoglycaemia frequency: detemir + aspart vs NPH + aspart in basal-bolus T1DM regimen. |
-| [NCT00537303](https://clinicaltrials.gov/study/NCT00537303) | Phase 4 | Completed | 296 | Compared step-wise addition of insulin aspart to once-daily detemir plus oral agents vs standard regimen. |
-| [NCT00788840](https://clinicaltrials.gov/study/NCT00788840) | Phase 4 | Completed | 30 | 24-week randomized parallel trial comparing energy expenditure, weight, and glycaemic control with detemir vs NPH in a basal-bolus regimen. |
-| [NCT00184665](https://clinicaltrials.gov/study/NCT00184665) | Phase 3 | Completed | 501 | 2-year efficacy and safety comparison of insulin detemir vs NPH insulin in Type 1 diabetes (HbA1c, hypoglycaemia, antibodies). |
-| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Phase 3 | Completed | 347 | Compared insulin detemir vs NPH insulin (once/twice daily + mealtime aspart) in children and adolescents with T1DM. |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Randomized multinational trial comparing detemir vs NPH (both + aspart) in pregnant women with Type 1 diabetes. |
-| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | Completed | 752 | 6-month multicentre trial comparing efficacy/safety of a 2400 nmol/mL detemir formulation vs NPH in T1DM basal-bolus regimen. |
-| [NCT01545791](https://clinicaltrials.gov/study/NCT01545791) | N/A (observational) | Completed | 1037 | PREDICTIVE™ study — large multicentre real-world safety observation of detemir in T1DM and T2DM. |
-| [NCT00789711](https://clinicaltrials.gov/study/NCT00789711) | N/A (observational) | Completed | 3131 | Multicentre observational study comparing safety/effectiveness of biphasic insulin aspart 30 vs detemir in diabetes. |
+| [NCT00542399](https://clinicaltrials.gov/study/NCT00542399) | مرحلة 4 | مكتملة | 50 | مقارنة حقن إنسولين ديتيمير مرة واحدة في مقابل مرتين يومياً في الأطفال والمراهقين مع T1DM؛ تصميم معالجة موجهة للهدف. |
+| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | مرحلة 3 | مكتملة | 131 | تجربة عشوائية تقاطعية تقارن تواتر نقص السكر: ديتيمير + أسبارت مقابل NPH + أسبارت في نظام T1DM القاعدي والبلعة. |
+| [NCT00537303](https://clinicaltrials.gov/study/NCT00537303) | مرحلة 4 | مكتملة | 296 | مقارنة الإضافة التدريجية لإنسولين أسبارت إلى ديتيمير مرة واحدة يومياً بالإضافة إلى الأدوية الفموية مقابل النظام المعياري. |
+| [NCT00788840](https://clinicaltrials.gov/study/NCT00788840) | مرحلة 4 | مكتملة | 30 | تجربة عشوائية متوازية مدتها 24 أسبوع تقارن استهلاك الطاقة والوزن والتحكم الجلايسيمي مع ديتيمير مقابل NPH في نظام قاعدي وبلعة. |
+| [NCT00184665](https://clinicaltrials.gov/study/NCT00184665) | مرحلة 3 | مكتملة | 501 | مقارنة الفعالية والسلامة على مدى سنتين لإنسولين ديتيمير مقابل NPH في داء السكري من النوع الأول (HbA1c، نقص السكر، الأجسام المضادة). |
+| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | مرحلة 3 | مكتملة | 347 | مقارنة إنسولين ديتيمير مقابل NPH (مرة/مرتان يومياً + أسبارت عند الوجبات) في الأطفال والمراهقين مع T1DM. |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | مرحلة 3 | مكتملة | 470 | تجربة عشوائية متعددة الدول تقارن ديتيمير مقابل NPH (كلاهما + أسبارت) في النساء الحوامل مع داء السكري من النوع الأول. |
+| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | مرحلة 3 | مكتملة | 752 | تجربة متعددة المراكز مدتها 6 أشهر تقارن فعالية/سلامة صيغة ديتيمير 2400 nmol/mL مقابل NPH في نظام T1DM القاعدي والبلعة. |
+| [NCT01545791](https://clinicaltrials.gov/study/NCT01545791) | غير محدد (ملاحظة) | مكتملة | 1037 | دراسة PREDICTIVE™ — ملاحظة سلامة حقيقية كبرى متعددة المراكز لديتيمير في T1DM و T2DM. |
+| [NCT00789711](https://clinicaltrials.gov/study/NCT00789711) | غير محدد (ملاحظة) | مكتملة | 3131 | دراسة ملاحظة متعددة المراكز تقارن سلامة/فعالية الإنسولين ثنائي الطور أسبارت 30 مقابل ديتيمير في داء السكري. |
 
-*(40+ additional completed trials are on record but omitted here for brevity; see evidence pack for the full list.)*
+*(توجد 40+ تجربة إضافية مكتملة في السجل لكن تم حذفها من هنا للإيجاز؛ انظر حزمة الأدلة للقائمة الكاملة.)*
 
 ---
 
-## Literature Evidence
+## أدلة الدراسات المنشورة
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT (EXPECT trial) | Lancet Diabetes Endocrinol | Non-inferiority RCT of degludec vs detemir (both + aspart) in pregnant women with T1DM. |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematic Review / Network Meta-Analysis | Value Health | Compared efficacy/safety of basal insulin regimens (including detemir) in adults with T1DM. |
-| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Cochrane Systematic Review | Cochrane Database Syst Rev | Review of (ultra-)long-acting insulin analogues, including detemir, for people with T1DM. |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematic Review / Meta-Analysis | Pol Arch Med Wewn | Detemir vs NPH insulin in Type 1 diabetes — glycaemic control outcomes. |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematic Review / Meta-Analysis | Clin Ther | Compared efficacy/tolerability of degludec vs other long-acting analogues (glargine, detemir) in T1D/T2D. |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vasc Health Risk Manag | Update on T1DM/T2DM treatment focusing on insulin detemir as a long-acting analog. |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Reviews detemir's mechanism (albumin binding) and use in T1DM/T2DM, including reduced hypoglycaemia risk. |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Comprehensive review of insulin detemir's pharmacology and use in T1DM/T2DM management. |
-| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatr Drugs | Reviews insulin analog preparations, including detemir, in children/adolescents with T1DM. |
-| [15691219](https://pubmed.ncbi.nlm.nih.gov/15691219/) | 2005 | Review | BioDrugs | Spotlight review on detemir's pharmacokinetics and clinical use in T1DM/T2DM. |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT (تجربة EXPECT) | Lancet Diabetes Endocrinol | تجربة عدم الدنو لديجلوديك مقابل ديتيمير (كلاهما + أسبارت) في النساء الحوامل مع T1DM. |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | مراجعة منهجية / تحليل شبكي | Value Health | مقارنة فعالية/سلامة أنظمة الإنسولين القاعدي (بما في ذلك ديتيمير) في البالغين مع T1DM. |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | مراجعة Cochrane المنهجية | Cochrane Database Syst Rev | مراجعة نظائر الإنسولين طويل المفعول (جداً)، بما في ذلك ديتيمير، للأشخاص مع T1DM. |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | مراجعة منهجية / تحليل ميتا | Pol Arch Med Wewn | ديتيمير مقابل NPH في داء السكري من النوع الأول — نتائج التحكم الجلايسيمي. |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | مراجعة منهجية / تحليل ميتا | Clin Ther | مقارنة فعالية/قابلية التحمل لديجلوديك مقابل نظائر طويلة المفعول أخرى (جلارجين، ديتيمير) في T1D/T2D. |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | مراجعة | Vasc Health Risk Manag | تحديث معالجة T1DM/T2DM مع التركيز على إنسولين ديتيمير كنظير طويل المفعول. |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | مراجعة | Vasc Health Risk Manag | تقييم آلية عمل ديتيمير (الارتباط بالألبومين) واستخدامه في T1DM/T2DM، بما في ذلك تقليل خطر نقص السكر. |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | مراجعة | Drugs | مراجعة شاملة للصيدلة الحركية والديناميكية لإنسولين ديتيمير واستخدامه في علاج T1DM/T2DM. |
+| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | مراجعة | Paediatr Drugs | مراجعة تحضيرات نظائر الإنسولين، بما في ذلك ديتيمير، في الأطفال والمراهقين مع T1DM. |
+| [15691219](https://pubmed.ncbi.nlm.nih.gov/15691219/) | 2005 | مراجعة | BioDrugs | مراجعة الأضواء على الصيدلة الحركية والديناميكية والسريرية لديتيمير واستخدامه في T1DM/T2DM. |
 
-*(9 additional publications, mostly cost-effectiveness analyses and case reports, are on record but omitted here for brevity.)*
-
----
-
-## Saudi Arabia Market Information
-
-Currently no marketing authorization is recorded for insulin detemir in Saudi Arabia (market status: **Not Marketed**, 0 authorizations on file).
+*(9 منشورات إضافية، في الغالب تحليلات فعالية التكلفة وتقارير الحالات، موجودة في السجل لكن تم حذفها من هنا للإيجاز.)*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+لا يوجد تسجيل لموافقة تسويق لإنسولين ديتيمير في المملكة العربية السعودية حالياً (حالة السوق: **غير مسوّق**، 0 موافقات في السجل).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى النشرة المرفقة بالعبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-The evidence base for insulin detemir in Type 1 Diabetes Mellitus is extremely strong (L1: numerous completed Phase 3/4 RCTs plus systematic reviews/meta-analyses), but this reflects the drug's **already-established use**, not a new repurposing discovery. The "Proceed with Guardrails" designation here should be interpreted as: proceed with formally documenting/confirming this as a known indication, guarded by the need to close the underlying data gaps before treating it as a repurposing candidate in downstream reports.
+---
 
-**To proceed, the following is needed:**
-- Official original indication text and mechanism-of-action documentation from DrugBank/SFDA package insert (currently flagged as Blocking/High severity data gaps, DG001–DG002)
-- Confirmation from SFDA on whether insulin detemir has ever held or is pending Saudi Arabia market authorization
-- Re-classification of this candidate in the pipeline as "known indication — registry gap" rather than "novel repurposing prediction," to avoid consuming repurposing-review resources on an already-approved use
-- Key warnings, contraindications, and DDI data (currently unavailable) before any safety-related claims can be made
-- Note: predictions ranked #2–10 (autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, focal stiff limb syndrome, classic stiff person syndrome, pancreatic agenesis, and three lipodystrophy/lipoatrophy indications) all carry L4–L5 evidence with no supporting trials or literature, and are appropriately scored **Hold** or **Research Question** — several (the lipodystrophy/lipoatrophy indications) likely represent reversed causality (insulin injection as a cause of the condition, not a treatment), and should not be advanced further without dedicated mechanistic review.
+## الخلاصة والخطوات التالية
+
+**القرار: الاستمرار مع الضمانات**
+
+**الأساس المنطقي:**
+قاعدة الأدلة الخاصة بإنسولين ديتيمير في داء السكري من النوع الأول قوية جداً (L1: عدد كبير من التجارب العشوائية المرحلة 3/4 المكتملة بالإضافة إلى المراجعات المنهجية/تحليلات ميتا)، لكن هذا يعكس **الاستخدام الموثق بالفعل** للدواء، وليس اكتشاف إعادة توظيف جديدة. يجب تفسير تعيين "الاستمرار مع الضمانات" هنا على أنه: المتابعة مع توثيق/تأكيد رسمي لهذا كدلالة معروفة، مع الحراسة من خلال الحاجة لإغلاق فجوات البيانات الأساسية قبل معاملته كمرشح إعادة توظيف في التقارير اللاحقة.
+
+**للمتابعة، ما يلي مطلوب:**
+- نص الدلالة الأصلية الرسمي وتوثيق آلية العمل من DrugBank/نشرة SFDA (موضحة حالياً كفجوة بيانات حاجزة/عالية الخطورة، DG001–DG002)
+- تأكيد من SFDA حول ما إذا كان إنسولين ديتيمير قد حصل أو قيد الانتظار لموافقة تسويق المملكة العربية السعودية
+- إعادة تصنيف هذا المرشح في خط الأنابيب باعتباره "دلالة معروفة — فجوة سجل" بدلاً من "تنبؤ إعادة توظيف جديدة"، لتجنب استهلاك موارد مراجعة إعادة التوظيف على استخدام موصوف بالفعل
+- التحذيرات الرئيسية وبيانات المضادات والتفاعلات الدوائية (غير متوفرة حالياً) قبل الإدلاء بأي ادعاءات متعلقة بالسلامة
+- ملاحظة: التنبؤات المصنفة #2–10 (التهاب المبيض الذاتي المناعة، الضخامة المعكوسة، متلازمة الثيامين المسؤول، متلازمة تيبس الأطراف البؤرية، متلازمة تيبس الشخص الكلاسيكية، عدم تشكل البنكرياس، وثلاث دلالات الحثل الدهني/ضمور الدهون) جميعها تحمل دليل L4–L5 بدون تجارب داعمة أو أدبيات، وتُسجل بشكل صحيح **انتظار** أو **سؤال بحثي** — عديد منها (دلالات الحثل الدهني/ضمور الدهون) تمثل على الأرجح علاقة سببية معكوسة (حقن الإنسولين كسبب للحالة، وليس كعلاج)، ولا يجب تقدمها أكثر بدون مراجعة آلية عمل مخصصة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

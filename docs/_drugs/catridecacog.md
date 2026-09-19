@@ -29,78 +29,83 @@ indication_count: 3
 
 </div>
 
-# CATRIDECACOG: From Congenital Factor XIII Deficiency to Primary Release Disorder of Platelets
+# كاتريديكاكوج: من عوز عامل الجلطات الثالث عشر الخلقي إلى اضطراب الإفراز الأولي للصفائح الدموية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-CATRIDECACOG (recombinant coagulation Factor XIII A-subunit, brand name Tretten) is approved for prophylaxis of bleeding episodes in adults and adolescents with congenital Factor XIII A-subunit deficiency.
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, with **no clinical trials** and **no published literature** currently supporting this direction — the prediction rests entirely on knowledge graph proximity among bleeding disorders.
-Evidence level is L5 (model prediction only), and the current recommendation is **Hold** pending mechanistic validation.
+كاتريديكاكوج (وحدة الفرع A من عامل الجلطات الثالث عشر المؤتلف، الاسم التجاري Tretten) معتمد لمنع نوبات النزيف لدى البالغين والمراهقين الذين يعانون من عوز وحدة الفرع A من عامل الجلطات الثالث عشر الخلقي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الإفراز الأولي للصفائح الدموية**، مع **عدم وجود تجارب سريرية** و **عدم وجود أدبيات منشورة** تدعم هذا الاتجاه حالياً — يستند التنبؤ بالكامل على القرب ضمن الرسم البياني للمعرفة بين اضطرابات النزيف.
+مستوى الدليل هو L5 (تنبؤ النموذج فقط)، والتوصية الحالية هي **Hold** في انتظار التحقق من الآلية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Congenital Factor XIII A-subunit deficiency (bleeding prophylaxis) |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.29% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | عوز وحدة الفرع A من عامل الجلطات الثالث عشر الخلقي (الوقاية من النزيف) |
+| الاستطباب الجديد المتنبأ به | اضطراب الإفراز الأولي للصفائح الدموية |
+| درجة التنبؤ بنموذج TxGNN | 99.29% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-CATRIDECACOG is a recombinant human Factor XIII A-subunit (rFXIII-A). Factor XIII is a transglutaminase activated by thrombin in the final steps of the coagulation cascade; it cross-links fibrin chains to produce a mechanically stable, protease-resistant clot. Its approved use targets the rare inherited deficiency where fibrin stabilization itself is impaired.
+كاتريديكاكوج هو وحدة الفرع A من عامل الجلطات الثالث عشر البشري المؤتلف (rFXIII-A). عامل الجلطات الثالث عشر هو ترانسجلوتامينيز يتم تنشيطه بواسطة الثرومبين في الخطوات النهائية من سلسلة التخثر؛ حيث يربط بين سلاسل الفيبرين لإنتاج جلطة مستقرة ميكانيكياً ومقاومة للبروتياز. يستهدف استخدامه المعتمد النقص الموروث النادر حيث يكون تثبيت الفيبرين نفسه ضعيفاً.
 
-Primary release disorder of platelets (dense granule or α-granule secretion defects) represents a fundamentally different pathophysiology: the core defect lies in upstream platelet activation and granule exocytosis, not in fibrin cross-linking. FXIII acts exclusively at the downstream fibrin stabilization stage and cannot correct defective platelet degranulation. An indirect compensatory hypothesis exists — exogenous FXIII supplementation might partially reinforce a fibrin network that is inadequate due to diminished platelet contribution to primary hemostasis — but this remains purely speculative and carries no demonstrated clinical significance.
+يمثل اضطراب الإفراز الأولي للصفائح الدموية (عيوب إفراز الحبيبات الكثيفة أو الحبيبات ألفا) مرضية مختلفة بشكل جوهري: يكمن العيب الأساسي في تنشيط الصفائح الدموية والإفراز الحويصلي للحبيبات في المرحلة الأولية، وليس في ربط الفيبرين. يعمل FXIII حصراً في مرحلة تثبيت الفيبرين في المرحلة الثانوية ولا يمكنه تصحيح الإفراز الحويصلي المعيب للصفائح الدموية. توجد فرضية تعويضية غير مباشرة — قد تؤدي تكملة FXIII الخارجية إلى تعزيز جزئي لشبكة فيبرين غير كافية بسبب انخفاض مساهمة الصفائح الدموية في الرقات الأساسية — لكن هذا يبقى تكهناً بحتاً ولا يحمل أي أهمية سريرية مثبتة.
 
-The high TxGNN score most likely reflects the proximity of "primary release disorder of platelets" and "congenital FXIII deficiency" within the bleeding-disorder subgraph of the biomedical knowledge graph, rather than a direct mechanistic connection. At this stage, the biological rationale is insufficient to advance without supporting preclinical or clinical data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+من المرجح أن تعكس درجة TxGNN العالية القرب من "اضطراب الإفراز الأولي للصفائح الدموية" و"عوز FXIII الخلقي" ضمن الرسم البياني الفرعي لاضطرابات النزيف في الرسم البياني للمعرفة الطبية الحيوية، بدلاً من اتصال آلي مباشر. في هذه المرحلة، الأساس البيولوجي غير كافٍ للمضي قدماً دون بيانات تجريبية أو سريرية داعمة.
 
 ---
 
-## Literature Evidence
+## شواهد التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-CATRIDECACOG is not currently marketed or registered in Saudi Arabia. No authorization records are available.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## شواهد الأدبيات
 
-Please refer to the package insert for safety information.
+حالياً لا تتوفر أدبيات ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+كاتريديكاكوج غير مسوق أو مسجل حالياً في المملكة العربية السعودية. لا توجد سجلات تفويض متاحة.
 
-**Rationale:**
-All three TxGNN-predicted indications (primary release disorder of platelets, pseudo-von Willebrand disease, Glanzmann thrombasthenia) carry L5 evidence with zero supporting clinical trials or publications; the mechanistic link between FXIII and platelet-release disorders is indirect and speculative, making advancement without further validation premature.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Mechanistic proof-of-concept**: In vitro or ex vivo studies demonstrating whether supplemental FXIII can compensate for primary hemostatic defects caused by platelet granule release failure
-- **MOA data (DG002)**: Retrieve full DrugBank pharmacology entry to formally document mechanism and known targets
-- **Safety data (DG001)**: Obtain approved package insert (Saudi Arabia / EMA / FDA) to populate key warnings, contraindications, and special population data
-- **Glanzmann thrombasthenia pivot**: Among the three predicted indications, rank 3 (Glanzmann thrombasthenia) carries the strongest biological rationale — FXIII cross-links fibrin–fibronectin to compensate for absent platelet aggregation, and a documented biochemical synergy with rFVIIa exists. This indication should be prioritised as the primary research question over platelet release disorders
-- **Literature scan broadening**: Search for any FXIII use in platelet function disorders under alternate search terms (e.g., storage pool disease, delta-granule deficiency, secretion defects) before a final Hold decision
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: Hold**
+
+**المبرر:**
+جميع الاستطبابات الثلاثة المتنبأ بها بواسطة TxGNN (اضطراب الإفراز الأولي للصفائح الدموية، شبه مرض فون ويلبراند، الثرومباستينيا من نوع جلانزمان) تحمل دليلاً من المستوى L5 مع عدم وجود تجارب سريرية أو منشورات داعمة؛ الربط الآلي بين FXIII واضطرابات إفراز الصفائح الدموية غير مباشر وتكهني، مما يجعل المضي قدماً دون مزيد من التحقق متسرعاً.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **إثبات الآلية**: دراسات في المختبر أو خارج الجسم الحي توضح ما إذا كان يمكن لـ FXIII الإضافي أن يعوض عيوب الرقات الأساسية الناجمة عن فشل إفراز حبيبات الصفائح الدموية
+
+- **بيانات الآلية (DG002)**: الحصول على كامل إدخال صيدلة DrugBank لتوثيق الآلية والأهداف المعروفة رسمياً
+
+- **بيانات السلامة (DG001)**: الحصول على نشرة معتمدة (المملكة العربية السعودية / EMA / FDA) لملء التحذيرات الرئيسية والموانع الاستعمال وبيانات السكان الخاصة
+
+- **محور ثرومباستينيا جلانزمان**: من بين الاستطبابات الثلاثة المتنبأ بها، يحمل الترتيب 3 (ثرومباستينيا جلانزمان) أقوى مبرر بيولوجي — يربط FXIII بين الفيبرين والفيبرونكتين للتعويض عن عدم تجمع الصفائح الدموية، وتوجد تآزر بيوكيميائي موثق مع rFVIIa. يجب تحديد أولويات هذا الاستطباب كسؤال البحث الأساسي على اضطرابات إفراز الصفائح الدموية
+
+- **توسيع البحث الأدبي**: البحث عن أي استخدام لـ FXIII في اضطرابات وظيفة الصفائح الدموية تحت مصطلحات بحث بديلة (مثل مرض تجمع التخزين، نقص الحبيبات دلتا، عيوب الإفراز) قبل اتخاذ قرار Hold نهائي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

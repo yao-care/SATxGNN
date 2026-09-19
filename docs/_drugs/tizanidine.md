@@ -29,97 +29,94 @@ indication_count: 6
 
 </div>
 
-Using the drug-repurposing evidence pack for Tizanidine → Migraine Disorder, here is the report.
+# التيزانيدين: من تشنج العضلات إلى اضطراب الصداع النصفي
+
+## ملخص جملة واحدة
+
+> التيزانيدين هو ناهض مستقبلات ألفا-2 الأدرينالية يعمل مركزياً ويُستخدم دولياً كمرخِ عضلات لتشنج العضلات والتشنج العضلي الحاد.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع النصفي**،
+> مع **تجربتين سريريتين** و **18 منشوراً علمياً** يدعمان هذا الاتجاه حالياً — بما في ذلك تجربة عشوائية منضبطة من المرحلة 3 قيد التجنيد مصممة خصيصاً لهذا الاستطباب.
 
 ---
 
-# Tizanidine: From Muscle Spasticity to Migraine Disorder
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Tizanidine is a centrally acting alpha-2 adrenergic agonist internationally used as a muscle relaxant for spasticity and acute muscle spasm.
-> The TxGNN model predicts it may be effective for **Migraine Disorder**,
-> with **2 clinical trials** and **18 publications** currently supporting this direction — including one recruiting Phase 3 RCT designed specifically for this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Muscle spasticity (e.g., multiple sclerosis, spinal cord injury) / acute painful muscle spasm — internationally established indication; the drug has no local licenses on file in this evidence pack |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | تشنج العضلات (مثل التصلب المتعدد، إصابات الحبل الشوكي) / التشنج العضلي الحاد المؤلم — استطباب مثبت دولياً؛ الدواء ليس لديه تراخيص محلية في الملف في مجموعة الأدلة هذه |
+| الاستطباب الجديد المتوقع | اضطراب الصداع النصفي |
+| درجة التنبؤ بـ TxGNN | 99.79% |
+| مستوى الأدلة | L2 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | احتفظ |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the source records. Based on known pharmacology, tizanidine is a centrally acting alpha-2 adrenergic receptor agonist whose efficacy in muscle spasticity and muscle spasm is well established.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في السجلات المصدرية. بناءً على الدراسات الدوائية المعروفة، التيزانيدين هو ناهض مستقبلات ألفا-2 الأدرينالية يعمل مركزياً وفعاليته في تشنج العضلات والتشنج العضلي مثبتة جيداً.
 
-Mechanistically, the same alpha-2 agonism is proposed to reduce central sensitization relevant to migraine: tizanidine is believed to inhibit noradrenergic outflow from the locus coeruleus and dampen nociceptive transmission through the trigeminovascular system. This is the same pharmacological property that underlies its muscle-relaxant/antispasmodic effect, and it has long been discussed as a candidate for chronic daily headache and chronic migraine prophylaxis.
+من الناحية الآلية، يُعتقد أن نفس خاصية ناهض ألفا-2 تقلل من الحساسية المركزية ذات الصلة بالصداع النصفي: يُعتقد أن التيزانيدين يثبط النشاط النورأدرينالي الخارج من الموضع الأزرق ويقلل من نقل الألم عبر النظام ثلاثي التوزيع. هذه نفس الخاصية الدوائية التي تكمن وراء تأثيره المرخِ للعضلات/الخافض للتشنج، وتم مناقشتها لفترة طويلة كمرشح لصداع يومي مزمن والوقاية من الصداع النصفي المزمن.
 
-This gives the prediction a plausible mechanistic basis rather than a purely statistical association: tizanidine belongs to the same alpha-2 agonist class as clonidine and guanfacine, agents with recognized roles in other CNS hyperexcitability conditions, and it has a decades-long, if inconsistent, history of investigation specifically in headache/migraine prophylaxis (see literature below), including one actively recruiting Phase 3 RCT purpose-built for migraine prevention.
+هذا يعطي التنبؤ أساساً آلياً معقولاً بدلاً من ارتباط إحصائي بحت: التيزانيدين ينتمي إلى نفس فئة ناهضات ألفا-2 مثل الكلونيدين والغوانفاسين، وهي عوامل معروفة بأدوار في حالات فرط استثارة الجهاز العصبي المركزي الأخرى، وله تاريخ يمتد لعقود، وإن كان غير متسق، من الدراسات المتعلقة بالصداع/الوقاية من الصداع النصفي (انظر الأدبيات أدناه)، بما في ذلك تجربة عشوائية منضبطة من المرحلة 3 قيد التجنيد حالياً مصممة خصيصاً لمنع الصداع النصفي.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05484349](https://clinicaltrials.gov/study/NCT05484349) | Phase 3 | Recruiting | 189 | Multicenter, randomized, double-blind, placebo-controlled study evaluating oral tizanidine hydrochloride for prevention of migraine attacks in adults (18–65) with episodic migraine, with or without aura. Designed specifically for this indication, but still recruiting — no efficacy results yet. |
-| [NCT02403687](https://clinicaltrials.gov/study/NCT02403687) | N/A | Completed | 300 | 24-week observational study on topical NSAID efficacy for pain relief; general analgesic comparison, not specifically designed around tizanidine-migraine — relevance graded low (C) and requires protocol-level verification. |
+| [NCT05484349](https://clinicaltrials.gov/study/NCT05484349) | المرحلة 3 | قيد التجنيد | 189 | دراسة متعددة المراكز، عشوائية، عمياء مزدوجة، خاضعة للتحكم بالغفل تقيم هيدروكلوريد التيزانيدين عن طريق الفم لمنع نوبات الصداع النصفي لدى البالغين (18-65 سنة) المصابين بالصداع النصفي الفترتي، مع أو بدون هالة. مصممة خصيصاً لهذا الاستطباب، لكنها لا تزال قيد التجنيد — لا توجد نتائج فعالية حتى الآن. |
+| [NCT02403687](https://clinicaltrials.gov/study/NCT02403687) | غير محدد | مكتملة | 300 | دراسة مراقبة لمدة 24 أسبوعاً عن فعالية العقاقير المضادة للالتهاب غير الستيرويدية الموضعية لتخفيف الألم؛ مقارنة مسكنة عامة، وليست مصممة خصيصاً حول التيزانيدين-الصداع النصفي — يتم تصنيف الصلة بدرجة منخفضة (C) وتتطلب التحقق على مستوى البروتوكول. |
 
 ---
 
-## Literature Evidence
+## أدلة المراجع الطبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12167135](https://pubmed.ncbi.nlm.nih.gov/12167135/) | 2002 | RCT (double-blind, placebo-controlled) | Headache | Multicenter outcome study assessing tizanidine vs. placebo as adjunctive prophylactic therapy for chronic daily headache (including chronic migraine and migrainous headache). |
-| [11318882](https://pubmed.ncbi.nlm.nih.gov/11318882/) | 2001 | Open-label clinical study | Headache | Dose-titration study of tizanidine hydrochloride tablets for prophylaxis of chronic daily headache; assessed efficacy and tolerability. |
-| [11903539](https://pubmed.ncbi.nlm.nih.gov/11903539/) | 2002 | Cohort/clinical study | Headache | Describes an outpatient regimen combining low-dose tizanidine with NSAIDs for detoxification from analgesic rebound headache. |
-| [31365643](https://pubmed.ncbi.nlm.nih.gov/31365643/) | 2019 | Review/Consensus Guideline | Arquivos de Neuro-Psiquiatria | Brazilian Headache Society consensus on chronic migraine treatment; situates muscle-tone-modifying agents such as tizanidine within the prophylactic armamentarium. |
-| [20464578](https://pubmed.ncbi.nlm.nih.gov/20464578/) | 2010 | Review | Neurological Sciences | Critical review of published double-blind, placebo-controlled trials on pharmacological prophylaxis of chronic migraine. |
-| [17115988](https://pubmed.ncbi.nlm.nih.gov/17115988/) | 2006 | Review | Headache | Reviews prophylactic treatment of chronic daily headache, noting tizanidine among agents with evidence in this space. |
-| [21770931](https://pubmed.ncbi.nlm.nih.gov/21770931/) | 2011 | Review | Headache | Discusses clinical trials on medication overuse and prophylaxis in chronic migraine, including tizanidine. |
-| [23293866](https://pubmed.ncbi.nlm.nih.gov/23293866/) | 2013 | Review | Headache | Rational approach to management of chronic migraine; lists tizanidine among agents with placebo-controlled trial support. |
-| [12696998](https://pubmed.ncbi.nlm.nih.gov/12696998/) | 2003 | Review | CNS Drugs | Reviews baclofen, tizanidine, and botulinum toxin A as preventative treatments for migraine and tension-type headache. |
-| [15115635](https://pubmed.ncbi.nlm.nih.gov/15115635/) | 2004 | Review | Current Pain and Headache Reports | Reviews emerging prophylactic migraine therapies, including tizanidine among agents under investigation. |
+| [12167135](https://pubmed.ncbi.nlm.nih.gov/12167135/) | 2002 | تجربة سريرية عشوائية (عمياء مزدوجة، خاضعة للتحكم بالغفل) | Headache | دراسة نتائج متعددة المراكز تقيم التيزانيدين مقابل الغفل كعلاج وقائي مساعد لصداع يومي مزمن (بما في ذلك صداع نصفي مزمن وصداع نصفي). |
+| [11318882](https://pubmed.ncbi.nlm.nih.gov/11318882/) | 2001 | دراسة سريرية مفتوحة التسمية | Headache | دراسة معايرة الجرعة لأقراص هيدروكلوريد التيزانيدين للوقاية من صداع يومي مزمن؛ قيمت الفعالية والتحمل. |
+| [11903539](https://pubmed.ncbi.nlm.nih.gov/11903539/) | 2002 | دراسة مجموعة/سريرية | Headache | تصف نظام العيادات الخارجية الذي يجمع بين جرعة منخفضة من التيزانيدين مع العقاقير المضادة للالتهاب غير الستيرويدية لإزالة السموم من الصداع الارتدادي من المسكنات. |
+| [31365643](https://pubmed.ncbi.nlm.nih.gov/31365643/) | 2019 | مراجعة/خطوط إرشادية إجماعية | Arquivos de Neuro-Psiquiatria | إجماع جمعية الصداع البرازيلية على علاج الصداع النصفي المزمن؛ يضع عوامل تعديل نبرة العضلات مثل التيزانيدين ضمن ترسانة الوقاية. |
+| [20464578](https://pubmed.ncbi.nlm.nih.gov/20464578/) | 2010 | مراجعة | Neurological Sciences | مراجعة نقدية للتجارب المنضبطة بالغفل المنشورة والعشوائية على الوقاية الدوائية من الصداع النصفي المزمن. |
+| [17115988](https://pubmed.ncbi.nlm.nih.gov/17115988/) | 2006 | مراجعة | Headache | مراجعة الوقاية من صداع يومي مزمن، مشيراً إلى التيزانيدين بين العوامل ذات الأدلة في هذا المجال. |
+| [21770931](https://pubmed.ncbi.nlm.nih.gov/21770931/) | 2011 | مراجعة | Headache | يناقش التجارب السريرية على الإفراط في الأدوية والوقاية في الصداع النصفي المزمن، بما في ذلك التيزانيدين. |
+| [23293866](https://pubmed.ncbi.nlm.nih.gov/23293866/) | 2013 | مراجعة | Headache | نهج عقلاني لإدارة الصداع النصفي المزمن؛ يسرد التيزانيدين من بين العوامل ذات دعم التجربة الخاضعة للتحكم بالغفل. |
+| [12696998](https://pubmed.ncbi.nlm.nih.gov/12696998/) | 2003 | مراجعة | CNS Drugs | مراجعة باكلوفين والتيزانيدين وتوكسين البوتولينوم A كمعالجات وقائية للصداع النصفي والصداع من نوع التوتر. |
+| [15115635](https://pubmed.ncbi.nlm.nih.gov/15115635/) | 2004 | مراجعة | Current Pain and Headache Reports | مراجعة علاجات الوقاية من الصداع النصفي الناشئة، بما في ذلك التيزانيدين من بين العوامل قيد الدراسة. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Tizanidine currently has no marketing authorization on file (market status: Not Marketed, 0 licenses recorded). No dosage forms or product listings are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: the underlying evidence pack flags TFDA/SFDA package-insert warnings and contraindications as a Blocking data gap — this must be resolved before any S1 safety screening can proceed.)*
+التيزانيدين حالياً ليس لديه تفويض تسويق في السجل (حالة السوق: غير مسوق، 0 رخصة مسجلة). لا توجد أشكال جرعات أو قوائم منتجات متاحة لتلخيصها.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات الأمان.
 
-**Rationale:**
-The mechanistic rationale is plausible and supported by decades of exploratory headache/migraine literature, and a purpose-built Phase 3 RCT (NCT05484349) is underway — but it is still recruiting with no completed efficacy data, the drug has zero local marketing authorizations, and core safety documentation (warnings/contraindications) is a Blocking data gap that prevents safety screening.
+*(ملاحظة: تشير مجموعة الأدلة الأساسية إلى أن تحذيرات وموانع استطباب نشرة الدواء من TFDA/SFDA تعتبر فجوة بيانات محظورة — يجب حل هذا قبل أن يمكن لأي فحص أمان من المرحلة S1 أن يتقدم.)*
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (Blocking gap, DG001)
-- Drug interaction (DDI) data — current query returned no results
-- Completion and results of NCT05484349
-- Verified mechanism of action documentation (DG002)
-- Local regulatory pathway assessment given current "Not Marketed" status
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**الأساس المنطقي:**
+الأساس المنطقي الآلي معقول ومدعوم بعقود من الأدبيات الاستكشافية للصداع/الصداع النصفي، وتجربة عشوائية منضبطة من المرحلة 3 مصممة خصيصاً (NCT05484349) قيد التنفيذ — لكنها لا تزال قيد التجنيد بدون بيانات فعالية مكتملة، والدواء ليس لديه تفويضات تسويق محلية، وتوثيق الأمان الأساسي (التحذيرات/موانع الاستطباب) يعتبر فجوة بيانات محظورة تمنع فحص الأمان.
+
+**للمتابعة، ما يلي مطلوب:**
+- تحذيرات وموانع استطباب نشرة الدواء من TFDA/SFDA (فجوة محظورة، DG001)
+- بيانات التفاعل الدوائي (DDI) — الاستعلام الحالي لم يعد أي نتائج
+- إكمال ونتائج NCT05484349
+- توثيق آلية العمل المُتحقق منها (DG002)
+- تقييم مسار التنظيم المحلي بالنظر إلى حالة "غير مسوق" الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

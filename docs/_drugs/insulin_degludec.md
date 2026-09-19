@@ -29,108 +29,107 @@ indication_count: 6
 
 </div>
 
-Using the report format specified in the prompt to produce the evaluation report directly from the Evidence Pack.
+# إنسولين ديجلوديك: من داء السكري إلى داء السكري من النوع الأول
 
-# Insulin Degludec: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## ملخص الجملة الواحدة
 
-## One-Sentence Summary
-
-> Insulin degludec (DrugBank DB09564, brand name Tresiba) is an ultra-long-acting basal insulin analogue used broadly in the management of diabetes mellitus.
-> The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus**, with **50 clinical trials** and **20 publications** currently associated with this drug-disease pair —
-> however, this predicted indication substantially overlaps with insulin degludec's already-established, real-world use in type 1 diabetes, so the trial/literature volume reflects confirmatory clinical experience rather than novel repurposing evidence. Two other data gaps (TFDA safety labeling and mechanism-of-action detail) currently block a full evaluation.
+> إنسولين ديجلوديك (DrugBank DB09564، الاسم التجاري Tresiba) هو محاكي إنسولين قاعدي فائق الطول المفعول يُستخدم على نطاق واسع في إدارة داء السكري.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **داء السكري من النوع الأول**، مع وجود **50 تجربة سريرية** و **20 منشور** حالياً مرتبطة بهذا الزوج الدوائي-المرضي —
+> غير أن هذا المؤشر المتنبأ به يتداخل بشكل كبير مع الاستخدام الموضوع والحقيقي المعروف لإنسولين ديجلوديك في داء السكري من النوع الأول، وبالتالي فإن حجم التجارب والدراسات المنشورة يعكس خبرة سريرية تأكيدية بدلاً من أدلة إعادة استخدام جديدة. تؤدي فجوتان أخريان في البيانات (وسم السلامة من TFDA وتفاصيل آلية العمل) حالياً إلى منع إجراء تقييم شامل.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`taiwan_regulatory.licenses` and `original_indications` are both empty). Insulin degludec is generally known as a basal insulin used across diabetes mellitus management. |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.44% (raw score 0.9944; overall model rank 8,518) |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs identified) — see caveat below |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير موثقة في هذه مجموعة الأدلة (`taiwan_regulatory.licenses` و `original_indications` كلاهما فارغ). يُعرّف إنسولين ديجلوديك بشكل عام كإنسولين قاعدي يُستخدم عبر إدارة داء السكري. |
+| المؤشر الجديد المتنبأ به | داء السكري من النوع الأول |
+| درجة التنبؤ بـ TxGNN | 99.44% (الدرجة الخام 0.9944؛ رتبة النموذج الإجمالية 8,518) |
+| مستوى الأدلة | L1 (≥2 تجارب عشوائية مضبوطة مكتملة من المرحلة الثالثة محددة) — انظر التحذير أدناه |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | قيد الانتظار |
 
-**Caveat on Evidence Level:** The L1 rating reflects trial *volume*, not novelty. Nearly all identified Phase 3 trials (e.g. BEGIN, BOOST, SWITCH, PRONTO-T1D series) compare insulin degludec against other basal insulins for its *already-approved* use in type 1 diabetes, rather than testing it as a *new* indication. This is important context for interpreting the "repurposing" signal below.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism-of-action data is not available in the evidence pack (`original_moa` = Data Gap, flagged as DG002/High severity). Based on generally known pharmacology, insulin degludec is an ultra-long-acting basal insulin analogue that forms soluble multihexamers after subcutaneous injection; these are slowly and continuously converted into monomers, producing a flat, stable, ultra-long duration of glucose-lowering action with reduced day-to-day variability compared with earlier basal insulins (glargine, detemir). This mechanism is consistent with its role as a foundational basal insulin for glycemic control.
-
-The predicted new indication — type 1 diabetes mellitus — is mechanistically coherent because basal insulin replacement is a cornerstone of type 1 diabetes management (absolute insulin deficiency), and insulin degludec's pharmacokinetic profile (low peak-to-trough variability, reduced nocturnal hypoglycemia risk) has been extensively studied in this population.
-
-However, this is an important limitation rather than a confirmation of novel repurposing value: type 1 diabetes mellitus is **already a standard, well-established use case** for insulin degludec (marketed as Tresiba, used in basal-bolus regimens). The large trial and literature volume returned by TxGNN's evidence search therefore reflects the depth of *existing* clinical experience with this drug in this disease, not a newly discovered therapeutic opportunity. The other five TxGNN-predicted diseases for this drug (autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, focal stiff limb syndrome, classic stiff person syndrome) returned **zero** clinical trials and **zero** literature hits, meaning none of them currently have independent evidentiary support either.
+**تحذير حول مستوى الأدلة:** يعكس تصنيف L1 *حجم* التجارب وليس الجدة. تقارن جميع تجارب المرحلة الثالثة المحددة تقريباً (على سبيل المثال BEGIN، BOOST، SWITCH، سلسلة PRONTO-T1D) إنسولين ديجلوديك مقابل إنسولينات قاعدية أخرى لاستخدامه *المعتمد بالفعل* في داء السكري من النوع الأول، بدلاً من اختباره كمؤشر *جديد*. يُعتبر هذا سياقاً مهماً لتفسير إشارة "إعادة الاستخدام" أدناه.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في مجموعة الأدلة (`original_moa` = فجوة بيانات، موسومة بـ DG002/شدة عالية). بناءً على علم الأدوية المعروف عموماً، إنسولين ديجلوديك هو محاكي إنسولين قاعدي فائق الطول المفعول يشكل سداسيات قابلة للذوبان بعد الحقن تحت الجلد؛ يتم تحويلها ببطء ومستمرة إلى وحيدات، مما ينتج عنه تأثير تنازلي مستقر وفائق الطول لخفض الجلوكوز مع تقليل التباين من يوم لآخر مقارنة بالإنسولينات القاعدية السابقة (جلارجين، ديتيمير). هذه الآلية متسقة مع دورها كإنسولين قاعدي أساسي للتحكم الجلايسيمي.
+
+المؤشر الجديد المتنبأ به — داء السكري من النوع الأول — متسق من الناحية الآلية لأن استبدال الإنسولين القاعدي هو حجر الزاوية في إدارة داء السكري من النوع الأول (نقص الإنسولين المطلق)، وقد تمت دراسة الملف الحرائكي الدوائي لإنسولين ديجلوديك (انخفاض تباين الذروة إلى الحضيض، تقليل خطر نقص السكر الليلي) على نطاق واسع في هذا السكان.
+
+غير أن هذا حد مهم بدلاً من تأكيد قيمة إعادة الاستخدام الجديدة: داء السكري من النوع الأول هو **بالفعل حالة استخدام معروفة وراسخة** لإنسولين ديجلوديك (يُسوّق باسم Tresiba، يُستخدم في الأنظمة القاعدية-البولس). لذا فإن حجم التجربة والحجم الأدبي الكبير الذي يعيده بحث TxGNN يعكس عمق *الخبرة السريرية الموجودة* مع هذا الدواء في هذا المرض، وليس فرصة علاجية مكتشفة حديثاً. الأمراض الخمسة الأخرى المتنبأ بها بواسطة TxGNN لهذا الدواء (التهاب المبيض الذاتي، الخلل النمائي التعظمي، متلازمة الاستجابة للثيامين، متلازمة الطرف الصلب البؤري، متلازمة الشخص الصلب الكلاسيكية) أرجعت **صفر** تجارب سريرية و **صفر** نتائج أدبية، مما يعني أن أياً منها لا تمتلك حالياً دعم أدلة مستقل.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Phase 3 | Completed | 1,108 | Faster-acting insulin aspart vs NovoRapid, both combined with insulin degludec, in adults with Type 1 Diabetes — confirms glycemic efficacy of degludec-based basal-bolus regimens |
-| [NCT03214367](https://clinicaltrials.gov/study/NCT03214367) | Phase 3 | Completed | 1,392 | PRONTO-T1D: LY900014 vs insulin lispro, both combined with glargine or degludec, in adults with Type 1 Diabetes |
-| [NCT05904743](https://clinicaltrials.gov/study/NCT05904743) | Phase 4 | Completed | 141 | INHALE-3: inhaled insulin (Afrezza) + degludec vs usual care in adults with Type 1 Diabetes |
-| [NCT02662114](https://clinicaltrials.gov/study/NCT02662114) | N/A | Completed | 2,302 | EU-TREAT: European retrospective study of effectiveness of Tresiba® after switching basal insulin in Type 1/Type 2 Diabetes |
-| [NCT05069545](https://clinicaltrials.gov/study/NCT05069545) | N/A | Completed | 411 | Real-world study of NovoPen® 6 with Tresiba® & Fiasp® in Type 1 Diabetes glycemic control |
-| [NCT03557892](https://clinicaltrials.gov/study/NCT03557892) | N/A | Completed | 28 | Crossover trial: CSII + CGM vs multi-injection therapy using degludec as basal insulin in Type 1 Diabetes |
-| [NCT02536859](https://clinicaltrials.gov/study/NCT02536859) | Phase 1 | Completed | 60 | PK/PD comparison of insulin degludec vs insulin glargine 300 U/mL at steady state in Type 1 Diabetes |
-| [NCT06238778](https://clinicaltrials.gov/study/NCT06238778) | Phase 2 | Active, not recruiting | 227 | HDV-insulin lispro vs insulin lispro alone in adults with Type 1 Diabetes receiving insulin degludec (liver-targeting insulin approach) |
-| [NCT03838783](https://clinicaltrials.gov/study/NCT03838783) | Phase 4 | Unknown | 30 | FIT Untethered: degludec + CSII combination regimen during exercise in Type 1 Diabetes |
-| [NCT06945406](https://clinicaltrials.gov/study/NCT06945406) | Phase 1 | Recruiting | 124 | Ongoing safety/PK/PD study of novel agent LY4057996 in healthy participants and participants with Type 1 and Type 2 Diabetes |
+| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | المرحلة الثالثة | مكتملة | 1,108 | الأنسولين الليسبرو سريع المفعول مقابل NovoRapid، كلاهما مدمج مع إنسولين ديجلوديك، لدى البالغين مع داء السكري من النوع الأول — يؤكد فعالية السيطرة على الجلوكوز للأنظمة القاعدية-البولس المحتوية على ديجلوديك |
+| [NCT03214367](https://clinicaltrials.gov/study/NCT03214367) | المرحلة الثالثة | مكتملة | 1,392 | PRONTO-T1D: LY900014 مقابل الأنسولين الليسبرو، كلاهما مدمج مع جلارجين أو ديجلوديك، لدى البالغين مع داء السكري من النوع الأول |
+| [NCT05904743](https://clinicaltrials.gov/study/NCT05904743) | المرحلة الرابعة | مكتملة | 141 | INHALE-3: الأنسولين المستنشق (Afrezza) + ديجلوديك مقابل الرعاية المعتادة لدى البالغين مع داء السكري من النوع الأول |
+| [NCT02662114](https://clinicaltrials.gov/study/NCT02662114) | غير محدد | مكتملة | 2,302 | EU-TREAT: دراسة أوروبية بأثر رجعي لفعالية Tresiba® بعد التحويل من الأنسولين القاعدي في داء السكري من النوع الأول/الثاني |
+| [NCT05069545](https://clinicaltrials.gov/study/NCT05069545) | غير محدد | مكتملة | 411 | دراسة واقعية لـ NovoPen® 6 مع Tresiba® و Fiasp® في السيطرة الجلايسيمية لداء السكري من النوع الأول |
+| [NCT03557892](https://clinicaltrials.gov/study/NCT03557892) | غير محدد | مكتملة | 28 | تجربة متقاطعة: CSII + CGM مقابل العلاج بالحقن المتعدد باستخدام ديجلوديك كإنسولين قاعدي في داء السكري من النوع الأول |
+| [NCT02536859](https://clinicaltrials.gov/study/NCT02536859) | المرحلة الأولى | مكتملة | 60 | مقارنة الحرائك الدوائية والديناميكا الدوائية (PK/PD) لإنسولين ديجلوديك مقابل إنسولين جلارجين 300 وحدة/مل عند الحالة المستقرة في داء السكري من النوع الأول |
+| [NCT06238778](https://clinicaltrials.gov/study/NCT06238778) | المرحلة الثانية | نشطة، بدون تجنيد | 227 | HDV-insulin lispro مقابل الأنسولين الليسبرو وحده لدى البالغين مع داء السكري من النوع الأول يتلقون إنسولين ديجلوديك (نهج الأنسولين الموجه للكبد) |
+| [NCT03838783](https://clinicaltrials.gov/study/NCT03838783) | المرحلة الرابعة | غير معروف | 30 | FIT Untethered: نظام ديجلوديك + CSII مدمج أثناء ممارسة التمارين في داء السكري من النوع الأول |
+| [NCT06945406](https://clinicaltrials.gov/study/NCT06945406) | المرحلة الأولى | قيد التجنيد | 124 | دراسة جارية للسلامة والحرائك الدوائية والديناميكا الدوائية (PK/PD) للعامل الجديد LY4057996 لدى المشاركين الأصحاء والمشاركين مع داء السكري من النوع الأول والثاني |
 
-*Note: 50 trials total were returned for this drug-disease pair; the above 10 were selected for phase/relevance. Most trials study insulin degludec as an already-used comparator/backbone therapy rather than as a novel intervention for type 1 diabetes.*
+*ملاحظة: تم إرجاع 50 تجربة إجمالية لهذا الزوج الدوائي-المرضي؛ تم اختيار أعلاه 10 للمرحلة والصلة. تدرس معظم التجارب إنسولين ديجلوديك كعامل مقارنة/علاج شريط فقري مستخدم بالفعل بدلاً من اختباره كتدخل جديد لداء السكري من النوع الأول.*
 
 ---
 
-## Literature Evidence
+## أدلة الدراسات المنشورة
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: once-weekly insulin efsitora alfa vs once-daily insulin degludec, phase 3 non-inferiority trial in adults with Type 1 Diabetes |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: once-weekly insulin icodec vs once-daily insulin degludec in basal-bolus regimen for Type 1 Diabetes |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: insulin degludec vs insulin detemir (both + aspart) in pregnant women with Type 1 Diabetes, non-inferiority trial |
-| [34643020](https://pubmed.ncbi.nlm.nih.gov/34643020/) | 2022 | RCT | Diabetes Obes Metab | HypoDeg: degludec vs glargine U100 in Type 1 Diabetes patients prone to nocturnal severe hypoglycemia |
-| [34763071](https://pubmed.ncbi.nlm.nih.gov/34763071/) | 2022 | RCT | Endocr Pract | BIGLEAP: basal insulin degludec vs aspart via insulin pump, glycemic control comparison in Type 1 Diabetes |
-| [36610544](https://pubmed.ncbi.nlm.nih.gov/36610544/) | 2023 | RCT | Diabetes Res Clin Pract | INEOX: degludec 100 IU/mL vs glargine 300 IU/mL efficacy/safety in Type 1 Diabetes |
-| [36516429](https://pubmed.ncbi.nlm.nih.gov/36516429/) | 2023 | RCT | Diabetes Technol Ther | ULTRAFLEXI-1: glargine 300 U/mL vs degludec 100 U/mL around exercise sessions in Type 1 Diabetes |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematic Review/Meta-analysis | Clin Ther | Efficacy and tolerability of insulin degludec vs other long-acting basal insulins in Type 1 and Type 2 Diabetes |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematic Review/Network Meta-analysis | Value Health | Comparative efficacy/safety of basal insulin regimens (including degludec) in adults with Type 1 Diabetes |
-| [31055056](https://pubmed.ncbi.nlm.nih.gov/31055056/) | 2020 | Review | Diabetes Metab | Current status of insulin degludec in Type 1 and Type 2 Diabetes based on randomized and observational trials |
+| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | تجربة عشوائية | Lancet | QWINT-5: إنسولين إيفسيتورا ألفا مرة واحدة أسبوعياً مقابل إنسولين ديجلوديك مرة واحدة يومياً، تجربة عدم الدنو من المرحلة الثالثة لدى البالغين مع داء السكري من النوع الأول |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | تجربة عشوائية | Lancet | ONWARDS 6: إنسولين إيكوديك مرة واحدة أسبوعياً مقابل إنسولين ديجلوديك مرة واحدة يومياً في نظام قاعدي-بولس لداء السكري من النوع الأول |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | تجربة عشوائية | Lancet Diabetes Endocrinol | EXPECT: إنسولين ديجلوديك مقابل إنسولين ديتيمير (كلاهما + أسبارت) لدى النساء الحوامل مع داء السكري من النوع الأول، تجربة عدم الدنو |
+| [34643020](https://pubmed.ncbi.nlm.nih.gov/34643020/) | 2022 | تجربة عشوائية | Diabetes Obes Metab | HypoDeg: ديجلوديك مقابل جلارجين U100 لدى مرضى داء السكري من النوع الأول المعرضين لنقص السكر الليلي الشديد |
+| [34763071](https://pubmed.ncbi.nlm.nih.gov/34763071/) | 2022 | تجربة عشوائية | Endocr Pract | BIGLEAP: إنسولين قاعدي ديجلوديك مقابل أسبارت عبر مضخة الأنسولين، مقارنة السيطرة الجلايسيمية في داء السكري من النوع الأول |
+| [36610544](https://pubmed.ncbi.nlm.nih.gov/36610544/) | 2023 | تجربة عشوائية | Diabetes Res Clin Pract | INEOX: ديجلوديك 100 وحدة/مل مقابل جلارجين 300 وحدة/مل من حيث الفعالية والأمان في داء السكري من النوع الأول |
+| [36516429](https://pubmed.ncbi.nlm.nih.gov/36516429/) | 2023 | تجربة عشوائية | Diabetes Technol Ther | ULTRAFLEXI-1: جلارجين 300 وحدة/مل مقابل ديجلوديك 100 وحدة/مل حول جلسات التمارين في داء السكري من النوع الأول |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | مراجعة منهجية/تحليل توافقي | Clin Ther | الفعالية والتحمل من إنسولين ديجلوديك مقابل إنسولينات قاعدية أخرى في داء السكري من النوع الأول والثاني |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | مراجعة منهجية/تحليل توافقي شبكي | Value Health | الفعالية المقارنة والأمان لأنظمة الإنسولين القاعدي (بما فيها ديجلوديك) لدى البالغين مع داء السكري من النوع الأول |
+| [31055056](https://pubmed.ncbi.nlm.nih.gov/31055056/) | 2020 | مراجعة | Diabetes Metab | الحالة الحالية لإنسولين ديجلوديك في داء السكري من النوع الأول والثاني استناداً إلى التجارب العشوائية والرصدية |
 
-*20 publications total were returned; the above 10 prioritize RCTs and systematic reviews.*
-
----
-
-## Saudi Arabia Market Information
-
-Insulin degludec currently has **no registered market authorization in Saudi Arabia** in this evidence pack (`total_licenses = 0`, `market_status = Not marketed`). No product/dosage-form/authorization records are available to list.
+*تم إرجاع 20 منشور إجمالي؛ تم اختيار أعلاه 10 تركز على التجارب العشوائية والمراجعات المنهجية.*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and DDI records are all unavailable in this evidence pack — flagged as DG001, a **Blocking**-severity data gap that prevents initial safety assessment.)
+لا يمتلك إنسولين ديجلوديك حالياً **أي ترخيص تسويق مسجل في المملكة العربية السعودية** في هذه مجموعة الأدلة (`total_licenses = 0`, `market_status = Not marketed`). لا توجد سجلات للمنتج/شكل الجرعة/التفويض المتاحة للقائمة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة. (سجلات `key_warnings` و `contraindications` و DDI جميعها غير متاحة في هذه مجموعة الأدلة — موسومة بـ DG001، فجوة بيانات **حاصرة** بشدة عالية تمنع حتى التقييم الأولي للسلامة.)
 
-**Rationale:**
-- A **Blocking**-severity data gap (DG001 — missing TFDA/regulatory package insert warnings and contraindications) prevents even an initial safety assessment (S1) of this candidate, regardless of the strength of efficacy evidence.
-- The top-ranked predicted indication (type 1 diabetes mellitus) largely overlaps with insulin degludec's already-established use as a basal insulin, meaning the abundant trial/literature volume is confirmatory rather than evidence of genuine repurposing opportunity; the drug is also not currently marketed in Saudi Arabia (0 authorizations), so there is no existing local regulatory foothold to build on.
-- The four other TxGNN-predicted diseases beyond the top two (opsismodysplasia, thiamine-responsive dysfunction syndrome, focal stiff limb syndrome, classic stiff person syndrome) have zero supporting trials or literature and cannot currently be evaluated.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Saudi regulatory package insert data (warnings, contraindications, DDI) to resolve the Blocking data gap (DG001)
-- DrugBank/validated mechanism-of-action data (DG002) to properly assess mechanistic plausibility
-- A clarified repurposing rationale distinguishing this candidate from insulin degludec's existing, approved use in type 1 diabetes — or reprioritization toward the lower-ranked, currently evidence-free predicted indications if genuine novelty is the goal
-- Local market access/registration assessment, given zero current authorizations in Saudi Arabia
+## الخلاصة والخطوات التالية
+
+**القرار: قيد الانتظار**
+
+**الأساس المنطقي:**
+- فجوة بيانات **حاصرة** بشدة عالية (DG001 — بيانات التحذيرات والموانع من TFDA/السعودية غير متوفرة) تمنع حتى التقييم الأولي للسلامة (S1) لهذا المرشح، بغض النظر عن قوة أدلة الفعالية.
+- المؤشر الأعلى رتبة المتنبأ به (داء السكري من النوع الأول) يتداخل بشكل كبير مع الاستخدام الموضوع والراسخ بالفعل لإنسولين ديجلوديك كإنسولين قاعدي، مما يعني أن حجم التجربة والأدبيات الضخم هو تأكيدي للاستخدام الموجود بدلاً من أن يكون دليلاً على فرصة إعادة استخدام حقيقية؛ الدواء أيضاً غير مسوّق حالياً في المملكة العربية السعودية (0 تفويضات)، لذا لا يوجد موطئ قدم تنظيمي محلي موجود للبناء عليه.
+- الأمراض الأربعة الأخرى المتنبأ بها من قبل TxGNN بعد الاثنين الأعلى (الخلل النمائي التعظمي، متلازمة الاستجابة للثيامين، متلازمة الطرف الصلب البؤري، متلازمة الشخص الصلب الكلاسيكية) لا تمتلك أي تجارب أو دراسات منشورة داعمة ولا يمكن تقييمها حالياً.
+
+**لمتابعة، يلزم ما يلي:**
+- بيانات ملحق TFDA/السعودية التنظيمية (التحذيرات وموانع الاستخدام وتفاعلات الأدوية) لحل فجوة البيانات الحاصرة (DG001)
+- بيانات آلية العمل من DrugBank المحققة (DG002) لتقييم صحيح للاحتمالية الآلية
+- نسبة إعادة استخدام واضحة تميز هذا المرشح عن الاستخدام الموضوع والمعتمد الموجود لإنسولين ديجلوديك في داء السكري من النوع الأول — أو إعادة توجيه الأولويات نحو المؤشرات المتنبأ بها ذات الرتبة الأقل والخالية من الأدلة حالياً إذا كانت الجدة الحقيقية هي الهدف
+- تقييم الوصول السوقي والتسجيل المحلي، بالنظر إلى صفر التفويضات الحالية في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

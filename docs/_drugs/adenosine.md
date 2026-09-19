@@ -29,89 +29,90 @@ indication_count: 2
 
 </div>
 
-# Adenosine: From Supraventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
+# الأدينوسين: من تسارع ضربات القلب فوق الأذيني إلى تسارع الضربات البطيني المتعدد الشكل المرتبط بالكاتيكولامينات
 
-> **Note on TxGNN top prediction:** The highest-ranked prediction (rank 1, "obsolete bundle branch block", score 99.94%) carries an "obsolete" prefix indicating a retired Disease Ontology term with no current clinical mapping and zero supporting evidence. It is excluded from this report. The analysis below focuses on **rank 2 — Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)** — the highest-ranked clinically valid target.
-
----
-
-## One-Sentence Summary
-
-Adenosine is an endogenous purine nucleoside established globally as a first-line agent for terminating supraventricular tachycardia (SVT) via transient AV nodal blockade; it has no current Saudi Arabia market authorisation.
-The TxGNN model predicts it may be effective for **Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)**,
-with **1 active Phase 2a clinical trial** and **13 relevant publications** currently supporting this direction.
+> **ملاحظة حول التنبؤ الأعلى رتبة من TxGNN:** التنبؤ الأعلى رتبة (الرتبة 1، "كتلة الفرع المتقاعدة"، النتيجة 99.94%) يحمل بادئة "متقاعد" تشير إلى مصطلح متقاعد من مرض الأنطولوجيا بدون تعيين سريري حالي وأدلة داعمة صفرية. تم استبعاده من هذا التقرير. يركز التحليل أدناه على **الرتبة 2 — تسارع الضربات البطيني المتعدد الشكل المرتبط بالكاتيكولامينات (CPVT)** — الهدف السريري الصالح الأعلى رتبة.
 
 ---
 
-## Quick Overview
+## ملخص في جملة واحدة
 
-| Item | Content |
+الأدينوسين هو نيوكليوسيد بيورين داخلي معروف عالمياً كعامل من الدرجة الأولى لإنهاء تسارع ضربات القلب فوق الأذيني (SVT) عبر الحصار العقدي الأذيني البطيني المؤقت؛ لا يوجد له حالياً ترخيص سوق في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ل **تسارع الضربات البطيني المتعدد الشكل المرتبط بالكاتيكولامينات (CPVT)**،
+مع **تجربة سريرية واحدة نشطة من المرحلة 2a** و **13 منشور ذا صلة** يدعمان حالياً هذا الاتجاه.
+
+---
+
+## نظرة عامة سريعة
+
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Supraventricular tachycardia (SVT) — established global clinical use; no Saudi Arabia regulatory data on record |
-| Predicted New Indication | Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | تسارع ضربات القلب فوق الأذيني (SVT) — استخدام سريري عالمي معروف؛ لا توجد بيانات تنظيمية في المملكة العربية السعودية في السجل |
+| المؤشر الجديد المتنبأ به | تسارع الضربات البطيني المتعدد الشكل المرتبط بالكاتيكولامينات (CPVT) |
+| درجة التنبؤ من TxGNN | 99.42% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Adenosine acts primarily through the A1 adenosine receptor, which is coupled to inhibitory Gi-proteins. Activation of A1 receptors suppresses adenylyl cyclase, thereby reducing intracellular cyclic AMP (cAMP) levels. Lower cAMP attenuates PKA-mediated phosphorylation of the cardiac ryanodine receptor (RyR2) at Ser2808 and Ser2814 — the precise molecular switch that catecholamines exploit to trigger abnormal calcium release from the sarcoplasmic reticulum.
+يعمل الأدينوسين بشكل أساسي من خلال مستقبل الأدينوسين A1، الذي يرتبط ببروتينات G المثبطة. يقلل تنشيط مستقبلات A1 من أدينيليل سيكلاز، مما يخفض من مستويات الأدينوسين أحادي الفوسفات الحلقي داخل الخلية (cAMP). يضعف انخفاض cAMP من فسفرة البروتين كيناز A (PKA) لمستقبل الراينودين القلبي (RyR2) عند Ser2808 و Ser2814 — وهو مفتاح جزيئي دقيق تستغله الكاتيكولامينات لتحفيز إطلاق الكالسيوم غير الطبيعي من شبكة الساركوبلازم.
 
-CPVT is caused by gain-of-function mutations in RyR2 or CASQ2 that render the calcium release channel hypersensitive to catecholamine-driven PKA phosphorylation. During physical or emotional stress, excessive β-adrenergic stimulation amplifies cAMP, producing uncontrolled SR calcium leakage and life-threatening ventricular arrhythmias. Because adenosine directly opposes this cascade upstream of RyR2, the mechanistic rationale for repurposing is strong and biologically specific to the CPVT disease mechanism — not merely coincidental cardiac overlap.
+ينجم CPVT عن طفرات اكتساب وظيفي في RyR2 أو CASQ2 التي تجعل قناة إطلاق الكالسيوم حساسة بشكل مفرط لفسفرة PKA المدفوعة بالكاتيكولامينات. أثناء الإجهاد البدني أو العاطفي، يؤدي التحفيز الزائد بواسطة بيتا الأدرينالية إلى تضخيم cAMP، مما ينتج عنه تسرب كالسيوم غير خاضع للتحكم من شبكة الساركوبلازم وضربات قلب بطينية مهددة للحياة. لأن الأدينوسين يعارض هذا المسار مباشرة في أعلى مستوى قبل RyR2، فإن الأساس الآلي لإعادة الاستخدام قوي وخاص بيولوجياً لآلية مرض CPVT — وليس مجرد تداخل قلبي عرضي.
 
-This theoretical link is reinforced by converging clinical and translational data. A published case report (PMID 18313614) demonstrated that intravenous ATP — the immediate metabolic precursor of adenosine — successfully terminated bidirectional ventricular tachycardia in a CPVT patient, providing direct human proof-of-concept for the adenosine signalling pathway in this arrhythmia. Furthermore, an ongoing Phase 2a clinical trial (NCT07263139) is currently recruiting CPVT patients to evaluate AGP100, an adenosine receptor agonist, specifically for this indication — confirming that the adenosine axis is actively recognised as a therapeutic target by independent investigators.
+يتم تعزيز هذا الارتباط النظري من خلال البيانات السريرية والترجمية المتقاربة. أثبتت حالة منشورة (PMID 18313614) أن الأدينوسين ثلاثي الفوسفات (ATP) — المقدمة الأيضية الفورية للأدينوسين — أنهى بنجاح تسارع الضربات البطينية ثنائي الاتجاه في مريض CPVT مؤكد، مما يوفر أقوى دليل سريري مباشر يربط مسار إشارات البيورين الأدينوسين بقمع الرجفان في CPVT. علاوة على ذلك، تجربة سريرية نشطة من المرحلة 2a (NCT07263139) تجند حالياً مرضى CPVT لتقييم AGP100، وهو ناهض مستقبل الأدينوسين، خصيصاً لهذا المؤشر — مما يؤكد أن محور الأدينوسين يتم الاعتراف به بنشاط كهدف علاجي من قبل الباحثين المستقلين.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |-------------|-------|--------|------------|--------------|
-| [NCT07263139](https://clinicaltrials.gov/study/NCT07263139) | Phase 2a | Recruiting | 10 | Evaluating AGP100 (adenosine receptor agonist) for safety, tolerability, and exploratory efficacy in CPVT patients. Trial start: January 2026; expected completion: June 2027. CPVT causes dangerous tachycardia under physical/emotional stress and current treatments do not always prevent arrhythmias during strenuous exercise. No results available yet. |
+| [NCT07263139](https://clinicaltrials.gov/study/NCT07263139) | المرحلة 2a | جاري التجنيد | 10 | تقييم AGP100 (ناهض مستقبل الأدينوسين) للأمان والتحمل والفعالية الاستكشافية في مرضى CPVT. بدء التجربة: يناير 2026؛ الانتهاء المتوقع: يونيو 2027. يسبب CPVT تسارع ضربات بطينية خطيرة تحت الإجهاد البدني أو العاطفي والعلاجات الحالية لا تمنع دائماً الرجفان أثناء التمرين المكثف. لا توجد نتائج متاحة حتى الآن. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | Case Report | Heart Rhythm | ATP (adenosine's direct precursor) terminated bidirectional ventricular tachycardia in a confirmed CPVT patient — the most direct clinical evidence linking the adenosine purinergic pathway to arrhythmia suppression in CPVT |
-| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | Review | Europace | ESC/HRS/APHRS/LAHRS multi-society consensus on pharmacological provocation testing in cardiac electrophysiology; covers adenosine's diagnostic role in arrhythmia evaluation |
-| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | Clinical Study | Heart Rhythm | Postpacing abnormal repolarization characterised in CPVT patients with RyR2 mutations; clarifies electrophysiological phenotype directly relevant to adenosine-based intervention |
-| [23747301](https://pubmed.ncbi.nlm.nih.gov/23747301/) | 2013 | Mechanistic | BBA | ATP directly binds the central domain of RyR2 at sites associated with CPVT mutations; mechanistically links adenosine/ATP purine signalling to the core structural pathology of CPVT |
-| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | Preclinical | Cardiovascular Research | PDE2A/PDE4B gene therapy reduces cardiomyocyte cAMP compartmentation and prevents heart failure and arrhythmias in mice; reinforces cAMP→PKA→RyR2 as the shared mechanistic axis targeted by adenosine |
-| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | In vitro | Journal of Physiology | Human cardiac-neural microtissues reveal CPVT is also a disease of the sympathetic neuron; opens a neuromodulatory rationale for A1 receptor agonism beyond cardiomyocyte-only targeting |
-| [39148245](https://pubmed.ncbi.nlm.nih.gov/39148245/) | 2024 | Clinical Review | Paediatric Anaesthesia | Paediatric arrhythmia management including CPVT channelopathies; discusses adenosine use in SVT differential diagnosis and arrhythmia risk under anaesthesia |
-| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | Preclinical | Communications Biology | TECRL knockout in cardiomyocytes (a CPVT-linked gene) causes mitochondrial dysfunction and aggravated cardiac arrhythmia; contextualises multi-pathway vulnerability in CPVT beyond RyR2 alone |
-| [18368865](https://pubmed.ncbi.nlm.nih.gov/18368865/) | 2007 | Review | JAPI | Classification and management of idiopathic ventricular tachycardia; adenosine sensitivity is an established diagnostic criterion for outflow tract VT, highlighting its broader antiarrhythmic utility |
-| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | Preclinical | Science Translational Medicine | Selective RyR2 stabilisation normalises SR Ca²⁺ leak and improves survival in pressure-overload and MI mouse models; reinforces RyR2 calcium leak suppression — the mechanism shared with adenosine A1 signalling — as a valid arrhythmia target |
+| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | تقرير حالة | Heart Rhythm | أنهى ATP (المقدمة الأيضية المباشرة للأدينوسين) تسارع الضربات البطيني ثنائي الاتجاه في مريض CPVT مؤكد — أقوى دليل سريري مباشر يربط مسار إشارات البيورين الأدينوسين بقمع الرجفان في CPVT |
+| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | مراجعة | Europace | إجماع ESC/HRS/APHRS/LAHRS متعدد المجتمعات على الاستفزاز الدوائي في علم الفسيولوجيا الكهربية القلبية؛ يغطي الدور التشخيصي للأدينوسين في تقييم الرجفان |
+| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | دراسة سريرية | Heart Rhythm | عدم الاستقطاب غير الطبيعي بعد الدوران القلبي في مرضى CPVT مع طفرات RyR2؛ يوضح النمط الفسيولوجي الكهربائي ذي الصلة المباشرة بالتدخل القائم على الأدينوسين |
+| [23747301](https://pubmed.ncbi.nlm.nih.gov/23747301/) | 2013 | آلية | BBA | يرتبط ATP مباشرة بالنطاق المركزي لـ RyR2 في المواقع المرتبطة بطفرات CPVT؛ يربط آلياً إشارات البيورين الأدينوسين/ATP بالمرضية الهيكلية الأساسية لـ CPVT |
+| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | سابق الإكلينيكي | Cardiovascular Research | يقلل العلاج الجيني PDE2A/PDE4B من حجرات cAMP في الخلايا القلبية ويمنع قصور القلب والرجفان في نماذج الفئران؛ يعزز cAMP→PKA→RyR2 كمحور آلي مشترك يستهدفه الأدينوسين |
+| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | في الزجاج | Journal of Physiology | تكشف أنسجة قلبية عصبية دقيقة بشرية أن CPVT هو أيضاً مرض الأعصاب الودية؛ تفتح أساساً عصبياً تنظيمياً لناهضات A1 يتجاوز استهداف الخلايا القلبية فقط |
+| [39148245](https://pubmed.ncbi.nlm.nih.gov/39148245/) | 2024 | مراجعة سريرية | Paediatric Anaesthesia | إدارة الرجفان عند الأطفال بما في ذلك أمراض قنوات CPVT؛ يناقش استخدام الأدينوسين في التشخيص التفاضلي SVT وخطر الرجفان تحت التخدير |
+| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | سابق الإكلينيكي | Communications Biology | يسبب حذف TECRL في الخلايا القلبية (جين مرتبط بـ CPVT) اختلالاً في الميتوكوندريا وتفاقم الرجفان القلبي؛ يوضح ضعفاً متعدد المسارات في CPVT يتجاوز RyR2 وحده |
+| [18368865](https://pubmed.ncbi.nlm.nih.gov/18368865/) | 2007 | مراجعة | JAPI | تصنيف وإدارة تسارع الضربات البطيني الأساسي؛ حساسية الأدينوسين هي معيار تشخيصي معروف لتسارع الضربات من منطقة الانصراف، مما يبرز استخدامه الأوسع في مضادات الرجفان |
+| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | سابق الإكلينيكي | Science Translational Medicine | يطبّع التثبيت الانتقائي لـ RyR2 تسرب Ca²⁺ من شبكة الساركوبلازم ويحسّن البقاء على قيد الحياة في نماذج الفئران المحملة بالضغط والاحتشاء؛ يعزز قمع تسرب كالسيوم RyR2 — الآلية المشتركة مع إشارات الأدينوسين A1 — كهدف رجفان صحيح |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الضمانات**
 
-**Rationale:**
-The adenosine A1 receptor → cAMP↓ → PKA↓ → RyR2 phosphorylation↓ cascade directly addresses the core pathophysiology of CPVT at a mechanistic level, with human case-report proof-of-concept (ATP terminating CPVT bidirectional VT) and an active Phase 2a trial of an adenosine receptor agonist specifically in CPVT patients providing sufficient grounds to advance — but the very short IV half-life of native adenosine (~10 seconds) and absent Saudi Arabia regulatory status require a structured development plan before clinical commitment.
+**الأساس المنطقي:**
+تعالج سلسلة مستقبل الأدينوسين A1 → cAMP↓ → PKA↓ → فسفرة RyR2↓ مباشرة الفيزيولوجيا المرضية الأساسية لـ CPVT على المستوى الآلي، مع دليل إثبات مفهوم إنساني من تقرير حالة (ATP ينهي تسارع الضربات البطيني ثنائي الاتجاه في CPVT) وتجربة سريرية من المرحلة 2a نشطة لناهض مستقبل الأدينوسين خصيصاً في مرضى CPVT توفر أساساً كافياً للمتابعة — لكن عمر النصف الوريدي القصير جداً للأدينوسين الأصلي (حوالي 10 ثوانٍ) والحالة التنظيمية الغائبة في المملكة العربية السعودية يتطلبان خطة تطوير منظمة قبل الالتزام السريري.
 
-**To proceed, the following is needed:**
-- Await results from NCT07263139 (AGP100 Phase 2a trial; expected June 2027) to establish whether A1 agonism is clinically effective and tolerable in CPVT
-- Clarify whether the development candidate is native adenosine IV (acute termination) or a longer-acting A1 agonist such as AGP100 (chronic prevention) — these represent distinct clinical strategies with different regulatory pathways
-- Obtain complete safety data including key warnings, contraindications, and drug interaction profile (currently absent from the Evidence Pack)
-- Conduct dose-ranging studies specific to CPVT arrhythmia suppression during standardised exercise stress testing
-- Establish a pharmacokinetic/pharmacodynamic rationale for practical dosing given adenosine's extremely short plasma half-life
-- Submit Saudi Arabia market authorisation application if proceeding with a locally approved formulation
+**للمتابعة، يُطلب التالي:**
+- انتظار نتائج NCT07263139 (تجربة المرحلة 2a لـ AGP100؛ الانتهاء المتوقع يونيو 2027) لإثبات ما إذا كان ناهض A1 فعالاً وقابلاً للتحمل سريرياً في CPVT
+- توضيح ما إذا كان المرشح التطويري هو الأدينوسين الأصلي الوريدي (إنهاء حاد) أو ناهض A1 طويل المدى مثل AGP100 (الوقاية المزمنة) — حيث تمثل هذه استراتيجيات سريرية متميزة بمسارات تنظيمية مختلفة
+- الحصول على بيانات سلامة كاملة بما في ذلك التحذيرات الرئيسية والمضادات الاستطبابية وملف تفاعلات الأدوية (غائب حالياً عن حزمة الأدلة)
+- إجراء دراسات تحديد الجرعة الخاصة بقمع الرجفان CPVT أثناء اختبار إجهاد التمرين الموحد
+- إثبات أساس حرائك الأدوية والديناميات الدوائية لجرعات عملية نظراً لعمر النصف الشديد القصير للأدينوسين
+- تقديم طلب ترخيص سوق المملكة العربية السعودية إذا تمت المتابعة بصيغة معتمدة محلياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

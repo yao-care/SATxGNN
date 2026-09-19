@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# Ampicillin: From Bacterial Infections to Laryngitis
+# الأمبيسيلين: من الالتهابات البكتيرية إلى التهاب الحنجرة
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ampicillin is a broad-spectrum beta-lactam antibiotic historically used to treat a wide range of bacterial infections, including respiratory tract, urinary tract, and soft tissue infections.
-The TxGNN model predicts it may be effective for **Laryngitis**, with **1 clinical trial** and **20 publications** currently identified in support of this direction.
-However, the available evidence is indirect — the single trial involved a related combination antibiotic, and the literature largely reflects case reports and observational studies rather than direct ampicillin-in-laryngitis trials.
+الأمبيسيلين مضاد حيوي من فئة البيتا-لاكتام واسع الطيف استُخدم تاريخياً لعلاج مجموعة واسعة من الالتهابات البكتيرية، بما في ذلك التهابات الجهاز التنفسي والمسالك البولية والأنسجة الرخوة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الحنجرة**، مع وجود **تجربة سريرية واحدة** و**20 منشورة علمية** محددة حالياً دعماً لهذا الاتجاه.
+ومع ذلك، الدليل المتاح غير مباشر — التجربة الواحدة تضمنت مضاداً حيوياً مركباً ذا صلة، والأدبيات تعكس إلى حد كبير تقارير حالات ودراسات مراقبة وليس تجارب أمبيسيلين مباشرة في التهاب الحنجرة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Broad-spectrum bacterial infections (no Saudi Arabia regulatory registration on record) |
-| Predicted New Indication | Laryngitis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L3 (observational studies and guideline review) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الالتهابات البكتيرية واسعة الطيف (لا توجد تسجيلات تنظيمية بالمملكة العربية السعودية موثقة) |
+| المؤشر الجديد المتنبأ به | التهاب الحنجرة |
+| درجة التنبؤ TxGNN | 99.97% |
+| مستوى الدليل | L3 (الدراسات الرصدية واستعراض الإرشادات) |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, ampicillin is an aminopenicillin beta-lactam antibiotic that acts by inhibiting bacterial cell wall synthesis through binding to penicillin-binding proteins (PBPs), ultimately causing bacteriolysis. Its spectrum includes streptococci, enterococci, *Listeria*, and — in the pre-resistance era — *Haemophilus influenzae* type b and *Neisseria gonorrhoeae*.
+بيانات آلية العمل التفصيلية غير متاحة في هذه حزمة الأدلة. استناداً إلى الصيدلة المعروفة، الأمبيسيلين هو مضاد حيوي من فئة البنسلين الأميني بيتا-لاكتام يعمل عن طريق تثبيط اصطناع جدار الخلية البكتيري من خلال الارتباط ببروتينات ربط البنسلين (PBPs)، مما يسبب تحللاً بكتيرياً في النهاية. ينطبق طيفه على العقديات والمعويات و*Listeria* و— في حقبة ما قبل المقاومة — *Haemophilus influenzae* النوع ب و*Neisseria gonorrhoeae*.
 
-The mechanistic rationale for laryngitis is plausible but context-dependent. Bacterial laryngitis is most commonly caused by *H. influenzae* type b (classically associated with acute epiglottitis), *Streptococcus pyogenes*, and *Streptococcus pneumoniae* — all organisms historically within ampicillin's coverage. Prior to widespread Hib vaccination and the emergence of beta-lactamase-producing strains, ampicillin was a first-line agent for *H. influenzae* epiglottitis. Multiple cohort studies from the 1970s–1990s describe its clinical use in this context.
+المبرر الآلي لالتهاب الحنجرة معقول لكن يعتمد على السياق. التهاب الحنجرة البكتيري يسببه عادةً *H. influenzae* النوع ب (مرتبط بشكل كلاسيكي بالتهاب لسان المزمار الحاد)، و*Streptococcus pyogenes*، و*Streptococcus pneumoniae* — وكل هذه الكائنات كانت تاريخياً ضمن تغطية الأمبيسيلين. قبل انتشار تطعيم Hib وظهور السلالات المنتجة للبيتا-لاكتاماز على نطاق واسع، كان الأمبيسيلين عاملاً من الخط الأول لعلاج التهاب *H. influenzae* في لسان المزمار. تصف عدة دراسات أترابية من السبعينيات إلى التسعينيات استخدامه السريري في هذا السياق.
 
-However, two key limitations constrain this prediction. First, the majority of laryngitis cases are viral in origin, and antibiotics offer no benefit for viral laryngitis. Second, the prevalence of beta-lactamase-producing *H. influenzae* has risen substantially since the 1980s, eroding ampicillin monotherapy effectiveness for bacterial upper airway infections. Current guidelines recommend ampicillin-sulbactam or third-generation cephalosporins rather than ampicillin alone for confirmed bacterial laryngitis. The TxGNN high-score prediction likely reflects the strong graph-network co-occurrence between ampicillin and upper respiratory tract infection nodes, rather than a direct, validated treatment relationship.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT01406275](https://clinicaltrials.gov/study/NCT01406275) | N/A (Post-marketing surveillance) | Completed | 363 | Post-marketing safety/efficacy study of **amoxicillin/clavulanate** (CLAVAMOX®) in Japanese paediatric patients with multiple indications including laryngitis; direct ampicillin evidence is not provided |
-
-> **Note:** No registered clinical trials directly evaluating ampicillin monotherapy for laryngitis were identified.
+ومع ذلك، هناك اثنان من القيود الرئيسية التي تحد من هذا التنبؤ. أولاً، غالبية حالات التهاب الحنجرة فيروسية الأصل، والمضادات الحيوية لا توفر أي فائدة لالتهاب الحنجرة الفيروسي. ثانياً، ارتفعت معدلات *H. influenzae* المنتجة للبيتا-لاكتاماز بشكل جوهري منذ الثمانينيات، مما أضعف فعالية مونوثيرابي الأمبيسيلين في التهابات الجهاز التنفسي العلوي البكتيرية. توصي الإرشادات الحالية بأمبيسيلين-سلباكتام أو السيفالوسبورينات من الجيل الثالث بدلاً من الأمبيسيلين وحده في التهاب الحنجري البكتيري المؤكد. يعكس التنبؤ بالدرجة العالية لـ TxGNN على الأرجح التزامن القوي بشبكة الرسم البياني بين عقد الأمبيسيلين وعقد التهاب الجهاز التنفسي العلوي، وليس علاقة مباشرة ومختبرة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Guideline Review | CoDAS | Quality assessment (AGREE II) of clinical guidelines for laryngitis and pharyngitis management; provides methodological framework for evidence-based antibiotic decision-making |
-| [5314768](https://pubmed.ncbi.nlm.nih.gov/5314768/) | 1971 | Cohort | British Medical Journal | Early cohort describing epiglottitis in adults with antibiotic management context |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Cohort | Anaesthesia and Intensive Care | Review of 161 paediatric acute epiglottitis cases (1975–1984); describes airway management and antibiotic use, with five deaths; contextualises severity of bacterial laryngeal disease |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohort | Otolaryngology–Head and Neck Surgery | Hospital-level variation in perioperative antibiotic choice for laryngectomy and its association with surgical site infection rates; highlights importance of antibiotic selection in laryngeal surgery |
-| [6465636](https://pubmed.ncbi.nlm.nih.gov/6465636/) | 1984 | Case Series | Annals of Emergency Medicine | Three adult epiglottitis cases; emphasises diagnostic difficulty and antibiotic treatment in acute upper airway obstruction |
-| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Cohort | Western Journal of Medicine | Nine adult acute epiglottitis cases over 2 years; intubation required in 44%; describes antibiotic treatment and outcomes |
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case Report | Annals of Otology, Rhinology, and Laryngology | Novel case of spontaneous laryngeal abscess in uncontrolled diabetes; historical review of modern cases in the antibiotic era; notes rarity since introduction of broad-spectrum antibiotics |
-| [30579693](https://pubmed.ncbi.nlm.nih.gov/30579693/) | 2019 | Case Report | Auris Nasus Larynx | Laryngeal actinomycosis post-bone marrow transplantation; treated with high-dose penicillin (ampicillin-class); supports beta-lactam use in specific bacterial laryngeal infections |
-| [34986973](https://pubmed.ncbi.nlm.nih.gov/34986973/) | 2023 | Case Report | Auris Nasus Larynx | COVID-19-associated acute epiglottitis requiring emergency airway management; underscores need for broad-spectrum antibiotic cover in severe laryngeal presentations |
-| [1712371](https://pubmed.ncbi.nlm.nih.gov/1712371/) | 1991 | Case Series | Journal of Clinical Gastroenterology | Short-term antibiotic treatment of Whipple's disease in 19 patients; one patient specifically treated with **ampicillin** 2 g/day with clinical response — indirect evidence of ampicillin activity in systemic infectious disease context |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
+|-----------|-------|--------|---------|---------|
+| [NCT01406275](https://clinicaltrials.gov/study/NCT01406275) | غير منطبق (مراقبة بعد التسويق) | مكتملة | 363 | دراسة السلامة والفعالية بعد التسويق لـ **أموكسيسيلين/كلافولانات** (CLAVAMOX®) في المرضى اليابانيين الأطفال مع مؤشرات متعددة بما في ذلك التهاب الحنجرة؛ لم يتم توفير دليل الأمبيسيلين المباشر |
+
+> **ملاحظة:** لم يتم تحديد أي تجارب سريرية مسجلة تقيم بشكل مباشر مونوثيرابي الأمبيسيلين في التهاب الحنجرة.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-Ampicillin has **no registered pharmaceutical licenses** in Saudi Arabia (SFDA/NCBE database). The drug is not currently marketed in the Saudi market.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|---------|---------|
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | استعراض إرشادات | CoDAS | تقييم الجودة (AGREE II) لإرشادات سريرية لإدارة التهاب الحنجرة والتهاب البلعوم؛ يوفر إطاراً منهجياً لصنع قرارات المضادات الحيوية المستندة إلى الدليل |
+| [5314768](https://pubmed.ncbi.nlm.nih.gov/5314768/) | 1971 | دراسة اترابية | British Medical Journal | دراسة اترابية مبكرة تصف التهاب لسان المزمار لدى البالغين مع سياق إدارة المضادات الحيوية |
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | دراسة اترابية | Anaesthesia and Intensive Care | استعراض 161 حالة التهاب لسان المزمار الحاد عند الأطفال (1975–1984)؛ يصف إدارة الشعب الهوائية واستخدام المضادات الحيوية، مع خمس وفيات؛ يضع في السياق شدة مرض الحنجرة البكتيري |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | دراسة اترابية | Otolaryngology–Head and Neck Surgery | التباين على مستوى المستشفى في اختيار المضاد الحيوي حول العملية لاستئصال الحنجرة وارتباطه بمعدلات عدوى موقع الجراحة؛ يسلط الضوء على أهمية اختيار المضاد الحيوي في جراحة الحنجرة |
+| [6465636](https://pubmed.ncbi.nlm.nih.gov/6465636/) | 1984 | سلسلة حالات | Annals of Emergency Medicine | ثلاث حالات التهاب لسان المزمار عند البالغين؛ يؤكد على صعوبة التشخيص والعلاج بالمضادات الحيوية في انسداد الجهاز التنفسي العلوي الحاد |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | دراسة اترابية | Western Journal of Medicine | تسع حالات التهاب لسان المزمار الحاد عند البالغين على مدار سنتين؛ كانت التنبيب مطلوباً في 44٪؛ يصف العلاج بالمضادات الحيوية والنتائج |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | تقرير حالة | Annals of Otology, Rhinology, and Laryngology | حالة جديدة من خراج الحنجرة التلقائي لدى مريض السكري غير المنضبط؛ استعراض تاريخي للحالات الحديثة في عصر المضادات الحيوية؛ يلاحظ الندرة منذ إدخال المضادات الحيوية واسعة الطيف |
+| [30579693](https://pubmed.ncbi.nlm.nih.gov/30579693/) | 2019 | تقرير حالة | Auris Nasus Larynx | الإكتينوميكوزيس الحنجري بعد زراعة نخاع العظم؛ عولج بالبنسلين بجرعات عالية (من فئة الأمبيسيلين)؛ يدعم استخدام البيتا-لاكتام في الالتهابات الحنجرية البكتيرية المحددة |
+| [34986973](https://pubmed.ncbi.nlm.nih.gov/34986973/) | 2023 | تقرير حالة | Auris Nasus Larynx | التهاب لسان المزمار الحاد المرتبط بـ COVID-19 يتطلب إدارة الشعب الهوائية الطارئة؛ يؤكد على الحاجة لتغطية المضادات الحيوية واسعة الطيف في العروض الحنجرية الشديدة |
+| [1712371](https://pubmed.ncbi.nlm.nih.gov/1712371/) | 1991 | سلسلة حالات | Journal of Clinical Gastroenterology | العلاج قصير المدى بالمضادات الحيوية لداء ويبل في 19 مريضاً؛ عولج مريض واحد بشكل محدد بـ **أمبيسيلين** 2 غ/يوم مع استجابة سريرية — دليل غير مباشر على فعالية الأمبيسيلين في سياق المرض المعدي الجهازي |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
-
-> **Note:** Safety data including key warnings, contraindications, and drug interactions were not retrievable in this Evidence Pack (classified as data gaps DG001 and DG002). Clinicians should consult the current SmPC or product labelling before any clinical application. Known class-level concerns for beta-lactam penicillins include hypersensitivity reactions (including anaphylaxis), ampicillin-associated maculopapular rash (particularly in patients with Epstein-Barr virus infection or CLL), and Clostridioides difficile-associated diarrhoea.
+الأمبيسيلين ليس له **تراخيص صيدلانية مسجلة** في المملكة العربية السعودية (قاعدة بيانات SFDA/NCBE). الدواء غير مسوق حالياً في السوق السعودي.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN model's high prediction score (99.97%) for ampicillin in laryngitis is mechanistically plausible for bacterial laryngitis caused by *H. influenzae* or streptococcal species, but current evidence is limited to indirect observational data and case reports (L3). No clinical trial directly evaluates ampicillin monotherapy in laryngitis, and increasing beta-lactamase resistance among key pathogens substantially limits real-world clinical utility compared to newer agents or combination regimens.
+> **ملاحظة:** لم تكن بيانات السلامة بما في ذلك التحذيرات الرئيسية والتناقضات والتفاعلات الدوائية قابلة للاسترجاع في هذه حزمة الأدلة (مصنفة كفجوات بيانات DG001 و DG002). يجب على الأطباء استشارة SmPC الحالي أو ملصق المنتج قبل أي تطبيق سريري. تشمل المخاوف على مستوى الفئة المعروفة للبنسلينات البيتا-لاكتام ردود فعل الحساسية (بما في ذلك الحساسية المفرطة)، والطفح الحطاطي المرتبط بالأمبيسيلين (خاصة لدى المرضى الذين يعانون من عدوى فيروس Epstein-Barr أو CLL)، والإسهال المرتبط بـ *Clostridioides difficile*.
 
-**To proceed, the following is needed:**
-- Clarification of MOA data (DrugBank API query — flagged as DG002 High severity)
-- Retrieval of current Saudi Arabia SmPC/warnings and contraindications (DG001 Blocking)
-- Drug-drug interaction data (DDI query returned not_found; re-query recommended)
-- A targeted literature review distinguishing viral vs. bacterial laryngitis populations and identifying any head-to-head comparison of ampicillin against current standard-of-care (ampicillin-sulbactam or cephalosporins) in bacterial upper airway infections
-- Epidemiological data on local *H. influenzae* beta-lactamase prevalence in the target market to assess whether ampicillin monotherapy retains residual clinical viability
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبرر:**
+درجة التنبؤ العالية لنموذج TxGNN (99.97%) للأمبيسيلين في التهاب الحنجرة معقولة من الناحية الآلية لالتهاب الحنجرة البكتيري الناجم عن *H. influenzae* أو أنواع العقديات، لكن الدليل الحالي يقتصر على البيانات الرصدية غير المباشرة وتقارير الحالات (L3). لا توجد تجربة سريرية تقيم بشكل مباشر مونوثيرابي الأمبيسيلين في التهاب الحنجرة، وتحد المقاومة المتزايدة للبيتا-لاكتام بين الكائنات الممرضة الرئيسية بشكل جوهري من الفائدة السريرية في الواقع مقارنة بالعوامل الأحدث أو الأنظمة العلاجية المركبة.
+
+**للمضي قدماً، يتطلب الأمر ما يلي:**
+- توضيح بيانات آلية العمل (استعلام DrugBank API — وضع علامة عليه كـ DG002 High severity)
+- استرجاع SmPC الحالي بالمملكة العربية السعودية والتحذيرات والتناقضات (DG001 Blocking)
+- بيانات تفاعل الأدوية (استعلام DDI أرجع not_found؛ يُنصح بإعادة الاستعلام)
+- استعراض أدبيات موجهة تميز بين السكان الفيروسي والبكتيري لالتهاب الحنجرة وتحديد أي مقارنة رأساً برأس بين الأمبيسيلين والمعيار الحالي للعناية (أمبيسيلين-سلباكتام أو السيفالوسبورينات من الجيل الثالث) في التهابات الجهاز التنفسي العلوي البكتيرية
+- بيانات علم الأوبئة حول انتشار بيتا-لاكتاماز *H. influenzae* المحلي في السوق المستهدف لتقييم ما إذا كان مونوثيرابي الأمبيسيلين يحتفظ بأي قابلية سريرية متبقية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

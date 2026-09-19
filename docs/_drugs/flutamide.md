@@ -29,72 +29,73 @@ indication_count: 10
 
 </div>
 
-# Flutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+# فلوتاميد: من سرطان البروستاتا إلى قابلية التأثر بسرطان البروستاتا/سرطان الدماغ
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Flutamide is a nonsteroidal antiandrogen historically used as part of combined androgen blockade for prostate cancer. The TxGNN model's top-ranked prediction for this candidate is **"Prostate Cancer/Brain Cancer Susceptibility"** (score 99.98%), but this composite label currently has **zero clinical trials and zero publications** directly supporting it — the prostate-cancer component simply restates flutamide's known mechanism, while the brain-cancer component is an unsupported embedding-level association.
+فلوتاميد هو مضاد أندروجين غير الستيرويدي يُستخدم تاريخياً كجزء من الحصار الأندروجيني المركب لسرطان البروستاتا. التنبؤ ذو الترتيب الأعلى من نموذج TxGNN لهذا المرشح هو **"قابلية التأثر بسرطان البروستاتا/سرطان الدماغ"** (درجة 99.98%)، لكن هذا التصنيف المركب حالياً **لا يحتوي على أي تجارب سريرية ولا منشورات** تدعمه بشكل مباشر — المكون المتعلق بسرطان البروستاتا يعيد ببساطة صياغة آلية عمل فلوتاميد المعروفة، بينما مكون سرطان الدماغ هو ارتباط غير مدعوم على مستوى التضمين.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Prostate cancer (established nonsteroidal antiandrogen use; not derived from Saudi Arabia registration data — no local licenses exist) |
-| Predicted New Indication | Prostate Cancer/Brain Cancer Susceptibility |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | سرطان البروستاتا (استخدام مضاد أندروجين غير الستيرويدي معروف؛ لم يتم اشتقاقه من بيانات التسجيل السعودية — لا توجد تراخيص محلية) |
+| الاستطباب الجديد المتنبأ به | قابلية التأثر بسرطان البروستاتا/سرطان الدماغ |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودية | ✗ غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | حفظ |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (blocking data gap, DG002). Based on known pharmacology, flutamide is a nonsteroidal androgen receptor (AR) antagonist, traditionally used as a component of combined androgen blockade (with LHRH agonists) in prostate cancer — an established, decades-old use rather than a genuinely novel repurposing target.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (فجوة بيانات محجوبة، DG002). بناءً على الصيدلة المعروفة، فلوتاميد هو مضاد مستقبل الأندروجين (AR) غير الستيرويدي، يُستخدم تقليدياً كمكون من الحصار الأندروجيني المركب (مع ناهضات LHRH) في سرطان البروستاتا — وهو استخدام معروف قديم بدلاً من كونه هدفاً جديداً حقيقياً لإعادة الاستخدام.
 
-The predicted indication in this record, "prostate cancer/brain cancer susceptibility," is a composite entity. Its prostate-cancer portion is mechanistically coherent with flutamide's known AR-antagonist activity and overlaps with the better-supported "male reproductive organ cancer" prediction elsewhere in this evidence pack (rank 6, L1 evidence). However, the brain-cancer portion has no known mechanistic basis — there is no data in this pack on AR expression in brain tumors or on flutamide's blood-brain-barrier penetration, and the association appears to be a pure TxGNN embedding-level artifact rather than a biologically grounded hypothesis.
+التنبؤ المضمن في هذا السجل، "قابلية التأثر بسرطان البروستاتا/سرطان الدماغ"، هو كيان مركب. مكون سرطان البروستاتا فيه متسق من الناحية الآلية مع نشاط فلوتاميد المعروف المضاد لمستقبل الأندروجين ويتداخل مع التنبؤ الأفضل دعماً بـ "سرطان أعضاء التكاثر الذكرية" في مكان آخر في مجموعة الأدلة هذه (الترتيب 6، دليل L1). ومع ذلك، فإن مكون سرطان الدماغ يفتقر إلى أي أساس ميكانيكي معروف — لا توجد بيانات في مجموعة الأدلة هذه عن تعبير AR في أورام الدماغ أو عن قدرة فلوتاميد على اختراق حاجز الدم-الدماغ، ويبدو أن الارتباط هو نتيجة محضة لتضمين على مستوى TxGNN وليس فرضية مدعومة بيولوجياً.
 
-Given this, the prediction as a whole should be treated as model output only, not as a validated repurposing signal.
+نظراً لهذا، يجب التعامل مع التنبؤ ككل كناتج نموذج فقط، وليس كإشارة إعادة استخدام معتمدة.
 
-## Clinical Trial Evidence
+## الدليل التجريبي السريري
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## الدليل الأدبي
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودية
 
-No market authorization records exist for flutamide in Saudi Arabia — the drug is not currently marketed there (0 licenses on file).
+لا توجد سجلات تفويض في السوق لفلوتاميد في المملكة العربية السعودية — الدواء غير مسوق حالياً (0 ترخيص في الملف).
 
-## Cytotoxicity
+## السمية الخلوية
 
-Flutamide is a hormonal antineoplastic agent (AR-targeted antiandrogen) used in prostate cancer treatment, not a conventional cytotoxic chemotherapy drug. Formal DrugBank category and toxicity data were not returned in this evidence pack (query succeeded but content not captured; TFDA/SFDA package insert data is a blocking gap — DG001).
+فلوتاميد هو عامل مضاد للأورام هرموني (مضاد مستقبل الأندروجين الموجه) يُستخدم في علاج سرطان البروستاتا، وليس عقاراً كيماوياً سام للخلايا تقليدياً. لم يتم إرجاع بيانات تصنيف DrugBank الرسمية وبيانات السمية في مجموعة الأدلة هذه (نجحت الاستعلام لكن لم يتم التقاط المحتوى؛ بيانات نشرة TFDA/SFDA هي فجوة بيانات محجوبة — DG001).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted/hormonal therapy (AR antagonist) — not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Liver function tests (ALT/AST) — flutamide carries a known hepatotoxicity risk noted elsewhere in this evidence pack; standard renal function/CBC monitoring per oncology practice |
-| Handling Protection | Not classified as a cytotoxic hazardous drug; follow standard precautions per package insert once available |
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | علاج موجه/هرموني (مضاد AR) — لا يعتبر عقاراً كيماوياً سام للخلايا تقليدياً |
+| خطر قمع النخاع | يرجى الرجوع إلى التحذيرات والتحفظات في نشرة الدواء |
+| تصنيف القيء | يرجى الرجوع إلى التحذيرات والتحفظات في نشرة الدواء |
+| عناصر المراقبة | اختبارات وظائف الكبد (ALT/AST) — يحمل فلوتاميد خطر تسمم كبدي معروف موضح في مكان آخر في مجموعة الأدلة هذه؛ المراقبة القياسية لوظائف الكلى/CBC حسب ممارسة الأورام |
+| حماية التعامل | غير مصنف كعقار خطير سام للخلايا؛ اتبع الاحتياطات القياسية حسب نشرة الدواء عند توفرها |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (TFDA/SFDA warnings, contraindications, and DDI data are all marked as data gaps in this evidence pack — DG001, blocking severity.)
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة. (بيانات تحذيرات TFDA/SFDA والموانع والتفاعلات الدوائية تم تحديدها جميعاً كفجوات بيانات في مجموعة الأدلة هذه — DG001، درجة الحجب.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: حفظ**
 
-**Rationale:**
-The predicted indication has no supporting clinical trials or literature (L5, model-prediction-only), and its brain-cancer component lacks any mechanistic rationale. The score alone is not sufficient to justify further investment.
+**الأساس المنطقي:**
+الاستطباب المتنبأ به لا يحتوي على تجارب سريرية أو أدبيات داعمة (L5، تنبؤ نموذج فقط)، ومكونه المتعلق بسرطان الدماغ يفتقر إلى أي أساس ميكانيكي معروف. الدرجة وحدها ليست كافية لتبرير مزيد من الاستثمار.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently blocking (DG001)
-- DrugBank-sourced mechanism of action detail — currently high-priority gap (DG002)
-- Dedicated literature/trial search specifically for AR expression or antiandrogen activity in CNS/brain tumors, since none currently exists
-- **Note for reviewers:** rank 6 in this same evidence pack ("male reproductive organ cancer") carries far stronger evidence (L1, Phase 3 completed trials, "Proceed with Guardrails") and may be a more productive candidate to prioritize than this top-ranked but evidence-free prediction.
+**للمتابعة، يلزم الآتي:**
+- نشرة TFDA/SFDA (التحذيرات والموانع) — محجوبة حالياً (DG001)
+- تفاصيل آلية العمل المستمدة من DrugBank — فجوة ذات أولوية عالية حالياً (DG002)
+- بحث أدبي/تجريبي مخصص تحديداً عن تعبير AR أو نشاط مضاد الأندروجين في أورام الجهاز العصبي المركزي/الدماغ، حيث لا يوجد أي منها حالياً
+- **ملاحظة للمراجعين:** الترتيب 6 في نفس مجموعة الأدلة هذه ("سرطان أعضاء التكاثر الذكرية") يحمل دليلاً أقوى بكثير (L1، تجارب المرحلة الثالثة المكتملة، "المتابعة مع الضمانات") وقد يكون مرشحاً أكثر إنتاجية من هذا التنبؤ ذو الترتيب الأعلى لكن الخالي من الأدلة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

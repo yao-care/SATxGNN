@@ -29,66 +29,67 @@ indication_count: 8
 
 </div>
 
-# Naftifine: From Dermatophytosis (Tinea) to Cutaneous Candidiasis
+# Naftifine: من التهاب الجلد الفطري (السعفة) إلى داء المبيضات الجلدي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Naftifine is an allylamine-class topical antifungal whose established clinical use, per the literature on file, is treatment of dermatophyte skin infections (tinea pedis/cruris/corporis) — though it currently has no registered indication or market presence in Saudi Arabia. The TxGNN model predicts it may also be effective for **Cutaneous Candidiasis**, a prediction already partly corroborated by **9 older publications** (including a 1988 double-blind RCT), though **no clinical trials specific to this indication are currently registered**.
+النافتيفين عبارة عن مضاد فطري موضعي من فئة الألايلامين، واستخدامه السريري المثبت، وفقاً للأدبيات المتاحة، هو علاج عدوى الجلد الفطرية (سعفة القدم/الأرفاغ/الجسد) - مع ذلك، لا يوجد حالياً أي استطباب مسجل أو وجود في السوق السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **داء المبيضات الجلدي**، وهي تنبؤ تم تأكيده جزئياً بالفعل بواسطة **9 منشورات أقدم** (بما في ذلك تجربة عشوائية مزدوجة التعمية عام 1988)، على الرغم من أن **لا توجد حالياً أي تجارب سريرية محددة لهذا الاستطباب مسجلة**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not formally registered in Saudi Arabia (drug not marketed). Literature indicates naftifine's established use is topical treatment of dermatophytosis (tinea pedis/cruris/corporis). |
-| Predicted New Indication | Cutaneous Candidiasis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير مسجل رسمياً في المملكة العربية السعودية (الدواء غير موجود في السوق). تشير الأدبيات إلى أن الاستخدام المثبت للنافتيفين هو العلاج الموضعي لداء الجلد الفطري (سعفة القدم/الأرفاغ/الجسد). |
+| الاستطباب الجديد المتنبأ به | داء المبيضات الجلدي |
+| درجة تنبؤ TxGNN | 99.84% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-The formal DrugBank mechanism-of-action field for naftifine is currently a data gap, but the literature evidence collected in this pack describes it directly: naftifine is a synthetic allylamine that inhibits squalene epoxidase, blocking ergosterol biosynthesis in the fungal cell membrane. This gives it potent fungicidal activity against dermatophytes and — at lower potency — fungistatic activity against *Candida* species (PMID 1723367, PMID 18346400).
+حقل آلية العمل الرسمي في DrugBank للنافتيفين يمثل حالياً فجوة بيانات، لكن الأدلة الأدبية المجمعة في هذا الملف تصفه مباشرة: النافتيفين عبارة عن ألايلامين اصطناعي يثبط سكوالين إيبوكسيديز، مما يحجب تخليق الإرغوسترول في غشاء الخلية الفطرية. هذا يعطيه نشاطاً قاتلاً قوياً للفطريات ضد الفطريات الجلدية وبحد أقل من الكفاءة، نشاطاً مثبطاً للفطريات ضد أنواع *المبيضات* (PMID 1723367, PMID 18346400).
 
-Dermatophytosis and cutaneous candidiasis are both superficial fungal skin infections, but they are caused by biologically distinct organisms (keratinophilic dermatophytes vs. *Candida* yeasts), so the mechanistic overlap is real but only partial — naftifine's action against *Candida* is fungistatic rather than fungicidal, and generally weaker than azole antifungals such as clotrimazole.
+داء الجلد الفطري وداء المبيضات الجلدي كلاهما عدوى فطرية جلدية سطحية، لكنهما يسببهما كائنات حية مختلفة بيولوجياً (الفطريات الجلدية المحبة للكيراتين مقابل خمائر *المبيضات*)، لذلك التداخل الآلي حقيقي لكنه جزئي فقط - عمل النافتيفين ضد *المبيضات* هو مثبط للفطريات وليس قاتلاً للفطريات، وعموماً أضعف من مضادات الفطريات الآزول مثل الكلوتريمازول.
 
-Notably, this "new" indication is not entirely novel: a 1988 double-blind, vehicle-controlled RCT (PMID 3048914, n=60) already reported 77% mycological cure in cutaneous candidiasis at 2 weeks post-treatment, and a 1984 multicenter double-blind contralateral comparison against clotrimazole (PMID 6388169) found comparable early cure rates (63.5% vs. 56% at day 7) in a mixed dermatophytosis/candidosis population. TxGNN's prediction is therefore best read as a rediscovery of decades-old clinical evidence rather than a novel repurposing hypothesis.
+يجدر بالملاحظة أن هذا الاستطباب "الجديد" ليس جديداً تماماً: أبلغت تجربة عشوائية مزدوجة التعمية خاضعة للتحكم بالمركبة الحاملة عام 1988 (PMID 3048914, n=60) بالفعل عن علاج فطري 77% في داء المبيضات الجلدي بعد أسبوعين من العلاج، واكتشفت مقارنة متعددة المراكز مزدوجة التعمية جانبية عام 1984 ضد الكلوتريمازول (PMID 6388169) معدلات علاج مبكرة قابلة للمقارنة (63.5% مقابل 56% في اليوم 7) في مجموعة سكانية مختلطة من داء الجلد الفطري/داء المبيضات. لذلك يمكن قراءة تنبؤ TxGNN على أفضل وجه كإعادة اكتشاف لأدلة سريرية يعود تاريخها إلى عقود بدلاً من فرضية إعادة توظيف جديدة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [6388169](https://pubmed.ncbi.nlm.nih.gov/6388169/) | 1984 | RCT (multicenter, double-blind, contralateral vs. clotrimazole) | Zeitschrift für Hautkrankheiten | 126 patients with dermatophytosis/candidosis; naftifine cure rate 63.5% vs. clotrimazole 56% at 7 days, similar tolerability |
-| [3048914](https://pubmed.ncbi.nlm.nih.gov/3048914/) | 1988 | Clinical trial (double-blind, vehicle-controlled) | Cutis | 60 patients with cutaneous candidiasis; naftifine cream 1% twice daily x3 weeks; 77% mycological cure at 2 weeks post-treatment |
-| [2620916](https://pubmed.ncbi.nlm.nih.gov/2620916/) | 1989 | Clinical evaluation (open-label) | Giornale italiano di dermatologia e venereologia | 29 patients with mixed dermatomycoses (16 tinea corporis, 11 pityriasis versicolor, 2 cutaneous candidiasis); mean treatment 32.9 days |
-| [1723367](https://pubmed.ncbi.nlm.nih.gov/1723367/) | 1991 | Review | Drugs | Describes naftifine's mechanism (squalene epoxidase inhibition), possible anti-inflammatory properties, and clinical/mycological activity in dermatophytoses |
-| [18346400](https://pubmed.ncbi.nlm.nih.gov/18346400/) | 2008 | Review | Journal of Cutaneous Medicine and Surgery | Confirms fungicidal activity vs. dermatophytes and good activity against *Candida* and *Aspergillus* species |
-| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | Review | Journal of Drugs in Dermatology | Overview of topical antifungal therapy optimization for superficial cutaneous fungal infections, including yeast infections |
-| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Pending classification | Drugs | Review of fenticonazole (a comparator antimycotic), not naftifine-specific; included as background evidence |
-| [10439936](https://pubmed.ncbi.nlm.nih.gov/10439936/) | 1999 | Pending classification | Drugs | Review of terbinafine (a comparator allylamine), notes allylamines are fungistatic against *Candida albicans* |
-| [20677526](https://pubmed.ncbi.nlm.nih.gov/20677526/) | 2010 | Pending classification | Journal of Drugs in Dermatology | Naftifine review; abstract not available in this evidence pack |
+| [6388169](https://pubmed.ncbi.nlm.nih.gov/6388169/) | 1984 | تجربة عشوائية (متعددة المراكز، مزدوجة التعمية، جانبية مقابل الكلوتريمازول) | Zeitschrift für Hautkrankheiten | 126 مريضاً بداء الجلد الفطري/داء المبيضات؛ معدل علاج النافتيفين 63.5% مقابل الكلوتريمازول 56% في اليوم 7، القابلية للتحمل متشابهة |
+| [3048914](https://pubmed.ncbi.nlm.nih.gov/3048914/) | 1988 | تجربة سريرية (مزدوجة التعمية، خاضعة للتحكم بالمركبة الحاملة) | Cutis | 60 مريضاً بداء المبيضات الجلدي؛ كريم النافتيفين 1% مرتين يومياً لمدة 3 أسابيع؛ 77% علاج فطري بعد أسبوعين من العلاج |
+| [2620916](https://pubmed.ncbi.nlm.nih.gov/2620916/) | 1989 | تقييم سريري (مفتوح الوسم) | Giornale italiano di dermatologia e venereologia | 29 مريضاً بالفطريات الجلدية المختلطة (16 سعفة جسدية، 11 تينيا الملونة، 2 داء المبيضات الجلدي)؛ متوسط العلاج 32.9 يوماً |
+| [1723367](https://pubmed.ncbi.nlm.nih.gov/1723367/) | 1991 | مراجعة | Drugs | يصف آلية النافتيفين (تثبيط سكوالين إيبوكسيديز)، والخصائص المضادة للالتهابات المحتملة، والنشاط السريري/الفطري في داء الجلد الفطري |
+| [18346400](https://pubmed.ncbi.nlm.nih.gov/18346400/) | 2008 | مراجعة | Journal of Cutaneous Medicine and Surgery | يؤكد النشاط القاتل للفطريات ضد الفطريات الجلدية والنشاط الجيد ضد أنواع *المبيضات* و*الرشاشيات* |
+| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | مراجعة | Journal of Drugs in Dermatology | نظرة عامة على تحسين العلاج الفطري الموضعي للعدوى الفطرية الجلدية السطحية، بما في ذلك عدوى الخمائر |
+| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | تصنيف قيد الانتظار | Drugs | مراجعة الفينتيكونازول (مضاد فطري مقارن)، وليس خاصة بالنافتيفين؛ مدرج كدليل خلفية |
+| [10439936](https://pubmed.ncbi.nlm.nih.gov/10439936/) | 1999 | تصنيف قيد الانتظار | Drugs | مراجعة التيربينافين (ألايلامين مقارن)، ملاحظة أن الألايلامينات مثبطة للفطريات ضد *المبيضات البيضاء* |
+| [20677526](https://pubmed.ncbi.nlm.nih.gov/20677526/) | 2010 | تصنيف قيد الانتظار | Journal of Drugs in Dermatology | مراجعة النافتيفين؛ الملخص غير متاح في هذا الملف الإثباتي |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Note: the underlying evidence pack flags TFDA/SFDA package-insert warnings and contraindications as a **Blocking** data gap (DG001) — this currently prevents the candidate from clearing the S1 safety pre-screening stage.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. ملاحظة: الملف الإثباتي الأساسي يشير إلى تحذيرات وموانع استعمال نشرة معلومات TFDA/SFDA كفجوة بيانات **حاجزة** (DG001) - هذا يمنع حالياً المرشح من اجتياز مرحلة الفحص الأولي للسلامة S1.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Naftifine is not currently marketed in Saudi Arabia (0 authorizations), and a Blocking data gap in TFDA/SFDA safety labeling prevents even initial (S1) safety screening. While L2-level evidence (a 1984 comparative RCT and a 1988 vehicle-controlled RCT) supports historical antifungal activity against cutaneous candidiasis, that evidence is 35–40 years old and does not substitute for current safety documentation or a registration pathway.
+**الأساس المنطقي:**
+النافتيفين غير موجود حالياً في السوق السعودية (0 موافقة)، وفجوة بيانات حاجزة في معالجة TFDA/SFDA للسلامة تمنع حتى الفحص الأولي للسلامة (S1). في حين أن دليل L2 (تجربة عشوائية مقارنة عام 1984 وتجربة خاضعة للتحكم بالمركبة الحاملة عام 1988) يدعم النشاط الفطري التاريخي ضد داء المبيضات الجلدي، هذا الدليل يعود تاريخه إلى 35-40 سنة وليس بديلاً عن توثيق السلامة الحالي أو مسار التسجيل.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications, DDI) — DG001
-- Formal mechanism-of-action documentation from DrugBank — DG002
-- Confirmation of Saudi Arabia market entry / registration status for naftifine
-- Updated clinical evidence, as existing supportive trials predate modern GCP standards
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات TFDA/SFDA (التحذيرات وموانع الاستعمال وتفاعلات الأدوية) — DG001
+- توثيق آلية العمل الرسمي من DrugBank — DG002
+- تأكيد دخول السوق السعودي / حالة التسجيل للنافتيفين
+- أدلة سريرية محدثة، حيث أن التجارب الداعمة الموجودة تسبق معايير GCP الحديثة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

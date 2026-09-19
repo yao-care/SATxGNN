@@ -29,81 +29,82 @@ indication_count: 10
 
 </div>
 
-# Aminophylline: From Bronchospasm to Migraine Disorder
+# أمينوفيلين: من تشنج الشعب الهوائية إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Aminophylline is a methylxanthine derivative and adenosine receptor antagonist, historically established as a bronchodilator for asthma, COPD, and apnea of prematurity.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, with **0 clinical trials** and **6 publications** currently supporting this direction.
-Evidence remains at the mechanistic and review level (L4), qualifying this as an emerging research hypothesis rather than a clinically validated indication.
+أمينوفيلين هو مشتق ميثيل زانثيني ومضاد لمستقبلات الأدينوسين، وقد ثبت تاريخياً فعاليته كموسع للشعب الهوائية لعلاج الربو والانسداد الرئوي المزمن وانقطاع التنفس لدى الأطفال الخدج.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ل **اضطراب الصداع النصفي**، مع وجود **0** تجربة سريرية و **6** منشورات تدعم حالياً هذا الاتجاه.
+يبقى الدليل على المستوى الآلي والمراجعة (L4)، مما يؤهل هذا كفرضية بحثية ناشئة بدلاً من أن يكون مؤشراً معتمداً سريرياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No authorization data available; established pharmacological use as bronchodilator (asthma, COPD, apnea of prematurity) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | لا توجد بيانات تفويض متاحة؛ الاستخدام الدوائي المثبت كموسع للشعب الهوائية (الربو والانسداد الرئوي المزمن وانقطاع التنفس لدى الأطفال الخدج) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ من TxGNN | 99.88% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | على الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data was not available in this evidence pack. Based on established pharmacology, aminophylline is a soluble salt of theophylline and ethylenediamine. Its primary actions are non-selective phosphodiesterase (PDE) inhibition — which elevates intracellular cAMP — and competitive antagonism at adenosine receptors (A1, A2A, A2B). It is this adenosine receptor antagonism that forms the mechanistic backbone of the migraine prediction.
+بيانات آلية التأثير المفصلة لم تكن متاحة في مجموعة الأدلة هذه. بناءً على الصيدلة المثبتة، أمينوفيلين هو ملح قابل للذوبان من ثيوفيلين والإيثيلين ديامين. تأثيراته الأساسية هي التثبيط غير الانتقائي لفوسفوديستيراز (PDE) — الذي يرفع مستويات cAMP داخل الخلايا — والتضاد التنافسي على مستقبلات الأدينوسين (A1 و A2A و A2B). هذا التضاد على مستقبلات الأدينوسين هو الذي يشكل العمود الفقري الآلي للتنبؤ بالصداع النصفي.
 
-Adenosine, particularly via A2A receptor activation, is known to cause selective intracranial vasodilation and sensitize trigeminal nociceptive fibers — two cardinal features of migraine pathophysiology. A 2023 clinical review (PMID 38059379) proposes that migraine may be partly driven by impaired brain energy metabolism in a context of pathologically elevated adenosine, and documents observational evidence of strong analgesic relief with aminophylline, including in post-dural puncture headache. An in vitro study (PMID 219563) further demonstrated that adenosine and adenine compounds markedly dilate feline and human pial arteries but not extracranial vessels, pointing to a selective intracranial vascular role.
+الأدينوسين، خاصة عن طريق تفعيل مستقبل A2A، معروف بأنه يسبب توسعاً انتقائياً للأوعية داخل الجمجمة وتحسيساً لألياف الألم ثلاثية التوزيع — وهما ميزتان أساسيتان في فيزيولوجيا الصداع النصفي. مراجعة سريرية من عام 2023 (PMID 38059379) تقترح أن الصداع النصفي قد يكون مدفوعاً جزئياً بنقص استقلاب الطاقة في الدماغ في سياق ارتفاع مرضي للأدينوسين، وتوثق أدلة قائمة على الملاحظة لارتياح تحليلي قوي مع أمينوفيلين، بما في ذلك في الصداع بعد ثقب الأم الجافية. دراسة في الأنابيب (PMID 219563) أظهرت كذلك أن الأدينوسين ومركبات الأدينين توسع بشكل ملحوظ الأوعية السحائية في القطط والبشر، لكن ليس الأوعية خارج الجمجمة، مما يشير إلى دور وعائي انتقائي داخل الجمجمة.
 
-Perhaps the most compelling evidence comes from reverse pharmacology: regadenoson, a selective A2A adenosine receptor agonist used during cardiac stress imaging, was shown to trigger a hemiplegic migraine episode (PMID 34308528) — and aminophylline is routinely used to reverse regadenoson's effects. If A2A agonism provokes migraine, then A2A antagonism by aminophylline may attenuate it. This indirect logic is mechanistically coherent, though not yet tested in a prospective migraine trial.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for aminophylline in migraine disorder.
+ربما يأتي أقوى دليل من الصيدلة العكسية: regadenoson، ناهض مستقبل A2A الأدينوسين الانتقائي المستخدم في التصوير بالإجهاد القلبي، ثبت أنه يثير نوبة صداع نصفي نصفي الكروية (PMID 34308528) — وأمينوفيلين يُستخدم بانتظام لعكس آثار regadenoson. إذا كان تفعيل A2A يثير الصداع النصفي، فإن التضاد على A2A من أمينوفيلين قد يخفف من حدته. هذا المنطق غير المباشر متسق آلياً، رغم أنه لم يتم اختباره بعد في تجربة توقعية للصداع النصفي.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً أي تجارب سريرية مسجلة ذات صلة لأمينوفيلين في اضطراب الصداع النصفي.
+
+---
+
+## الدليل الأدبي
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Review / Clinical Analysis | Pain Management | Proposes adenosine excess and impaired brain energy metabolism as migraine drivers; documents observational evidence that aminophylline provides strong therapeutic relief in pain and post-dural puncture headache — a closely related adenosine-mediated headache syndrome |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case Report | Journal of Nuclear Cardiology | Hemiplegic migraine episode triggered by regadenoson (selective A2A agonist) during myocardial perfusion imaging; aminophylline used as reversal agent — provides reverse-pharmacology support for A2A antagonism as a migraine intervention strategy |
-| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | In Vitro / Mechanistic | Stroke | Adenosine and adenine compounds markedly dilate feline and human pial arteries in vitro, with effect absent in extracranial vessels; supports adenosine's selective intracranial vascular role and the potential anti-vasodilatory effect of adenosine antagonists in migraine |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case Report | Canadian Journal of Cardiology | Patient with Syndrome X presenting adenosine-mediated cardiac pain ("myocardial migraine") triggered by dipyridamole; supports the broader concept that adenosine signaling drives episodic nociceptive events reversible by methylxanthines |
-| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Historical Review | Aggiornamenti Clinicoterapeutici | Historical Italian review of medical headache treatment including xanthine derivatives; provides early conceptual background for xanthine use in headache |
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | مراجعة / تحليل سريري | إدارة الألم | يقترح زيادة الأدينوسين ونقص استقلاب الطاقة في الدماغ كعوامل مدفوعة للصداع النصفي؛ يوثق أدلة قائمة على الملاحظة بأن أمينوفيلين يوفر ارتياحاً علاجياً قوياً في الألم والصداع بعد ثقب الأم الجافية — متلازمة صداع ذات صلة وسيطة الأدينوسين |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | تقرير حالة | مجلة الطب النووي القلبي | نوبة صداع نصفي نصفي الكروية يتم تحفيزها بواسطة regadenoson (ناهض A2A انتقائي) أثناء التصوير بالنويدات المشعة لعضلة القلب؛ استخدم أمينوفيلين كعامل عكسي — يوفر دعماً من الصيدلة العكسية لتضاد A2A كاستراتيجية تدخل للصداع النصفي |
+| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | في الأنابيب / آلية | السكتة الدماغية | الأدينوسين ومركبات الأدينين توسع بشكل ملحوظ الأوعية السحائية في القطط والبشر في الدراسات الحية، مع غياب التأثير في الأوعية خارج الجمجمة؛ يدعم دور الأدينوسين الانتقائي داخل الجمجمة الوعائي والتأثير المحتمل المضاد للتوسع لمضادات الأدينوسين في الصداع النصفي |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | تقرير حالة | مجلة أمراض القلب الكندية | مريض بمتلازمة X يعاني من ألم قلبي وسيط الأدينوسين ("صداع نصفي عضلي القلب") يتم تحفيزه بواسطة ديبيريدامول؛ يدعم المفهوم الأوسع بأن إشارات الأدينوسين تدفع أحداث الألم الحلقية القابلة للعكس بواسطة مشتقات الميثيل زانثين |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | مراجعة تاريخية | Aggiornamenti Clinicoterapeutici | مراجعة إيطالية تاريخية لعلاج الصداع الطبي بما في ذلك مشتقات الزانثين؛ توفر خلفية مفاهيمية مبكرة لاستخدام الزانثين في الصداع |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى مراجعة ملخص خصائص المنتج للحصول على معلومات السلامة.
 
-> **Note:** Drug interaction data was not found in the DDI database for aminophylline, and key warnings/contraindications were not retrievable in this evidence pack. Given that theophylline (the active moiety of aminophylline) has a **narrow therapeutic index**, serum level monitoring is standard practice. This is a clinically important safety consideration for any new indication development.
+> **ملاحظة:** لم يتم العثور على بيانات التفاعل الدوائي في قاعدة بيانات DDI لأمينوفيلين، والتحذيرات الرئيسية وموانع الاستخدام لم تكن قابلة للاسترجاع في مجموعة الأدلة هذه. بالنظر إلى أن ثيوفيلين (المادة الفعالة من أمينوفيلين) له **نطاق علاجي ضيق**، فإن مراقبة مستويات المصل هي الممارسة المعيارية. هذا اعتبار سلامة سريري مهم لأي تطوير مؤشر جديد.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: على الانتظار**
 
-**Rationale:**
-The adenosine receptor antagonism hypothesis linking aminophylline to migraine relief is biologically coherent and supported by one recent clinical review alongside compelling reverse-pharmacology case evidence — but the complete absence of registered clinical trials and reliance on L4 (mechanistic/review-level) evidence prevents recommendation for clinical deployment at this stage.
+**المبرر:**
+فرضية التضاد على مستقبلات الأدينوسين التي تربط أمينوفيلين بالارتياح من الصداع النصفي متسقة بيولوجياً وتدعمها مراجعة سريرية حديثة واحدة إلى جانب دليل حالة صيدلة عكسية مقنع — لكن الغياب التام للتجارب السريرية المسجلة والاعتماد على دليل من المستوى L4 (آلية/مستوى المراجعة) يمنع التوصية بالنشر السريري في هذه المرحلة.
 
-**To proceed, the following is needed:**
+**للمتابعة، ما يلي مطلوب:**
 
-- **Clinical trial initiation**: A proof-of-concept Phase 1/2 study evaluating aminophylline in acute migraine treatment (IV or oral formulation), particularly in post-dural puncture headache as a bridging model
-- **MOA documentation**: Formal retrieval of DrugBank pharmacology data (adenosine receptor binding affinities, PDE isoform selectivity) to strengthen mechanistic dossier
-- **Safety package**: Retrieval of package insert warnings, contraindications, and key drug interactions — especially with triptans, ergotamines, NSAIDs, and other common migraine medications
-- **Therapeutic index assessment**: Theophylline serum monitoring requirements must be evaluated for feasibility in a migraine outpatient setting, where narrow therapeutic windows may be a practical barrier
-- **Formulation strategy**: Determine whether an oral sustained-release or IV route is appropriate for migraine (acute vs. prophylactic use case) given the pharmacokinetic profile of theophylline
-- **Saudi Arabia regulatory pathway**: As aminophylline is currently not marketed in Saudi Arabia, a full new drug registration or compassionate use pathway would be required before any clinical program can proceed locally
+- **بدء التجربة السريرية**: دراسة إثبات المفهوم المرحلة 1/2 التي تقيّم أمينوفيلين في علاج الصداع النصفي الحاد (تركيبة عن طريق الوريد أو عن طريق الفم)، خاصة في الصداع بعد ثقب الأم الجافية كنموذج جسري
+- **توثيق آلية التأثير**: الاسترجاع الرسمي لبيانات الصيدلة من DrugBank (تقاربات ربط مستقبلات الأدينوسين وانتقائية isoform PDE) لتقوية ملف الآلية
+- **حزمة السلامة**: استرجاع تحذيرات ملخص خصائص المنتج وموانع الاستخدام والتفاعلات الدوائية الرئيسية — خاصة مع الترايبتانات والإرجوتامينات ومضادات الالتهاب غير الستيرويدية والأدوية الأخرى الشائعة للصداع النصفي
+- **تقييم النطاق العلاجي**: يجب تقييم متطلبات مراقبة مستويات المصل من ثيوفيلين للجدوى في إعداد عيادة الصداع النصفي، حيث قد تكون النوافذ العلاجية الضيقة عائقاً عملياً
+- **استراتيجية الصيغة**: تحديد ما إذا كانت صيغة محررة ببطء عن طريق الفم أو مسار وريدي مناسب للصداع النصفي (استخدام حاد مقابل الاستخدام الوقائي) بالنظر إلى الملف الحركي الدوائي لثيوفيلين
+- **المسار التنظيمي في المملكة العربية السعودية**: حيث أن أمينوفيلين غير موجود حالياً في السوق في المملكة العربية السعودية، ستكون هناك حاجة إلى مسار تسجيل دواء جديد كامل أو مسار استخدام الرحمة قبل أن يتمكن أي برنامج سريري من المتابعة محلياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

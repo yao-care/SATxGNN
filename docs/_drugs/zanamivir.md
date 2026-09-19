@@ -29,80 +29,81 @@ indication_count: 2
 
 </div>
 
-# Zanamivir: From Influenza to Pyelonephritis
+# الزاناميفير: من الإنفلونزا إلى التهاب الحويضة والكلية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Zanamivir is a neuraminidase inhibitor originally used to treat influenza A/B infection by blocking release of viral particles from infected cells. The TxGNN model predicts it may be effective for **Pyelonephritis**, with a **99.84%** prediction score but **zero supporting clinical trials and zero supporting literature**. Both the model's own linked rationale and the evidence search results indicate this is a low-confidence, purely graph-based association.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on record in local regulatory licenses (drug not marketed); known mechanistically as an influenza antiviral |
-| Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+الزاناميفير هو مثبط لإنزيم النيورامينيداز يُستخدم أصلاً لعلاج عدوى الإنفلونزا من النوع أ/ب بحجب إطلاق جزيئات الفيروس من الخلايا المصابة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب الحويضة والكلية** برصيد توقع **99.84%** لكن **بدون أي تجارب سريرية داعمة وبدون أي دعم أدبي**. كل من المنطق المرتبط في النموذج نفسه ونتائج البحث عن الأدلة تشير إلى أن هذه رابطة منخفضة الثقة، قائمة على الرسم البياني فحسب.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Zanamivir is a neuraminidase inhibitor. Its mechanism of action is limited to blocking the neuraminidase enzyme on the surface of influenza virus particles, which prevents newly formed virions from being released from infected respiratory cells. This is a narrow, virus-specific antiviral mechanism.
-
-Pyelonephritis is a bacterial infection of the renal pelvis, most commonly caused by gram-negative organisms such as *E. coli* ascending the urinary tract. There is no known biochemical or pharmacological pathway connecting neuraminidase inhibition to bacterial urinary tract pathogenesis.
-
-Based on the evidence pack's own assessment, this prediction should be treated with caution: the high TxGNN score (0.9984) reflects a graph-embedding link with no corroborating clinical trial or literature evidence, and cannot currently be distinguished from knowledge-graph noise. No formal mechanism-of-action record is available at the drug level (data gap), which further limits confidence in this repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير مسجل في التراخيص التنظيمية المحلية (الدواء غير مسوق)؛ معروف آلياً كمضاد فيروسي للإنفلونزا |
+| الاستطباب الجديد المتنبأ به | التهاب الحويضة والكلية |
+| درجة التنبؤ من TxGNN | 99.84% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+الزاناميفير هو مثبط لإنزيم النيورامينيداز. آلية عمله محصورة في حجب إنزيم النيورامينيداز على سطح جزيئات فيروس الإنفلونزا، مما يمنع الفيروسات المتشكلة حديثاً من التحرر من الخلايا التنفسية المصابة. هذه آلية عمل ضيقة النطاق وخاصة بالفيروسات.
 
----
+التهاب الحويضة والكلية هو عدوى بكتيرية في حويضة الكلية، يسببها في الغالب كائنات سالبة الجرام مثل *E. coli* التي تصعد المسالك البولية. لا توجد مسارات كيميائية حيوية أو دوائية معروفة تربط بين حجب النيورامينيداز وآليات إمراضية عدوى المسالك البولية البكتيرية.
 
-## Saudi Arabia Market Information
-
-Zanamivir currently holds no marketing authorization in Saudi Arabia (market status: Not Marketed; 0 licenses on record).
+بناءً على تقييم حزمة الأدلة ذاتها، يجب التعامل مع هذا التنبؤ بحذر: درجة TxGNN العالية (0.9984) تعكس رابط تضمين الرسم البياني بدون دعم تجارب سريرية أو أدبيات ذات صلة، ولا يمكن حالياً تمييزه عن ضوضاء الرسم البياني للمعرفة. عدم توفر سجلات آلية العمل الرسمية على مستوى الدواء (فجوة بيانات) يحد أيضاً من الثقة في فرضية إعادة الاستخدام هذه.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
----
-
-## Additional Predicted Indication (Lower Rank, Low Confidence)
-
-A second candidate indication, **disorder of tyrosine metabolism**, was also predicted (TxGNN score 99.02%, rank 13262). Three literature records were retrieved, but on review none are relevant to tyrosine metabolism: all three concern oseltamivir resistance mutations (H275Y/H274Y/N294S) and neuraminidase inhibition assay methodology in influenza virology. This appears to be a keyword/entity mismatch rather than genuine supporting evidence, and it is not recommended for further evaluation.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة أدبية
 
-**Decision: Hold**
+لا تتوفر حالياً أدبيات ذات صلة.
 
-**Rationale:**
-Both predicted indications rely solely on TxGNN's graph score (L5, decision stage S0) with no clinical trial or relevant literature support, and no plausible mechanistic link has been established. The drug is also not currently marketed in Saudi Arabia, removing any near-term access pathway.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently a Blocking data gap — required before any S1 safety screening)
-- Formal drug-level mechanism-of-action documentation from DrugBank (High-severity data gap)
-- Targeted literature and preclinical search specifically on zanamivir/neuraminidase activity in urinary tract or renal infection models, to confirm or rule out mechanistic plausibility
-- Reassessment of local regulatory pathway given current "not marketed" status in Saudi Arabia
+## معلومات سوق المملكة العربية السعودية
+
+الزاناميفير لا يحمل حالياً أي ترخيص تسويقي في المملكة العربية السعودية (حالة السوق: غير مسوق؛ 0 ترخيص مسجل).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ورقة معلومات الدواء للحصول على معلومات الأمان والسلامة.
+
+---
+
+## استطباب متنبأ به إضافي (درجة أقل، ثقة منخفضة)
+
+تم التنبؤ بثاني استطباب أيضاً: **اضطراب استقلاب التيروسين**، برصيد TxGNN 99.02%، الرتبة 13262. تم استرجاع ثلاث سجلات أدبية، لكن عند المراجعة لا تتعلق أي منها باضطراب استقلاب التيروسين: جميعها تخص طفرات مقاومة أوسيلتاميفير (H275Y/H274Y/N294S) ومنهجية فحص تثبيط النيورامينيداز في علم فيروسات الإنفلونزا. يبدو أن هذا عدم توافق في المفردات/الكيانات وليس دعماً حقيقياً، ولا يُنصح به لمزيد من التقييم.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق الأساسي:**
+كلا الاستطبابين المتنبأ بهما يعتمدان فقط على درجة الرسم البياني من TxGNN (L5، مرحلة القرار S0) بدون دعم من تجارب سريرية أو أدبيات ذات صلة، ولم يتم إثبات أي رابط ميكانيكي معقول. الدواء أيضاً غير مسوق حالياً في المملكة العربية السعودية، مما يزيل أي مسار وصول قريب الأجل.
+
+**للمضي قدماً، يلزم توفير ما يلي:**
+- تحذيرات وموانع استعمال من TFDA/ورقة المعلومات المحلية (فجوة بيانات حاجزة حالياً — مطلوبة قبل أي فحص أمان S1)
+- توثيق رسمي لآلية العمل على مستوى DrugBank (فجوة بيانات عالية الخطورة)
+- بحث موجه في الأدبيات والدراسات السابقة للتجارب السريرية بخصوص نشاط الزاناميفير/النيورامينيداز في المسالك البولية أو نماذج عدوى الكلى، لتأكيد أو استبعاد الجدوى الميكانيكية
+- إعادة تقييم مسار التنظيم المحلي بالنظر إلى حالة "غير مسوق" الحالية في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

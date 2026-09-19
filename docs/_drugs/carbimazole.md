@@ -29,121 +29,122 @@ indication_count: 3
 
 </div>
 
-# Carbimazole: From Hyperthyroidism to Neonatal Thyrotoxicosis
+# كاربيمازول: من فرط نشاط الغدة الدرقية إلى التسمم الدرقي الوليدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Carbimazole is an antithyroid prodrug (converted to methimazole in vivo) used internationally to suppress thyroid hormone synthesis in hyperthyroidism, including Graves' disease.
-The TxGNN model generated three thyroid-related predictions; **Neonatal Thyrotoxicosis** (Rank #2, 99.41%) is the most clinically actionable, supported by **no registered clinical trials** but **20 publications**.
-Notably, the top-ranked prediction (RTH-β, 99.71%) carries a fundamental mechanistic contradiction and is recommended to Hold — TxGNN score alone does not determine actionability.
+كاربيمازول هو دواء موالج لمضادات الغدة الدرقية (يتحول إلى ميثيمازول في الجسم حي) يُستخدم عالمياً لقمع تخليق هرمون الغدة الدرقية في فرط نشاط الغدة الدرقية، بما في ذلك داء جريفز.
+أنتج نموذج TxGNN ثلاث تنبؤات متعلقة بالغدة الدرقية؛ **التسمم الدرقي الوليدي** (الترتيب #2، 99.41%) هو الأكثر قابلية للتطبيق سريرياً، مدعوم بـ **عدم وجود تجارب سريرية مسجلة** لكن **20 منشور علمي**.
+وبشكل ملحوظ، التنبؤ الأعلى ترتيباً (RTH-β، 99.71%) يحمل تناقضاً ميكانيكياً أساسياً وينصح بالتوقف — درجة TxGNN وحدها لا تحدد جدوى التطبيق.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hyperthyroidism (Graves' disease, toxic multinodular goiter) |
-| Predicted New Indication | Neonatal Thyrotoxicosis (TxGNN Rank #2; highest actionable prediction) |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L3 (Observational studies and case series) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | فرط نشاط الغدة الدرقية (داء جريفز، تضخم الغدة الدرقية السام متعدد العقد) |
+| المؤشر الجديد المتنبأ به | التسمم الدرقي الوليدي (ترتيب TxGNN #2؛ أعلى تنبؤ قابل للتطبيق) |
+| درجة التنبؤ في TxGNN | 99.41% |
+| مستوى الدليل | L3 (دراسات رصدية ومتسلسلات حالات) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| التوصية المقررة | المضي قدماً مع ضوابط |
 
 ---
 
-## TxGNN Prediction Summary (All Three Indications)
+## ملخص التنبؤات في TxGNN (جميع المؤشرات الثلاثة)
 
-Three predictions were generated. Their clinical relevance and recommendations differ significantly:
+تم إنشاء ثلاثة تنبؤات. تختلف أهميتها السريرية والتوصيات بشأنها بشكل كبير:
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Key Issue |
-|------|---------------------|-------------|----------------|----------------|-----------|
-| #1 | Resistance to Thyroid Hormone (RTH-β) | 99.71% | L5 | **Hold** | Mechanistic contradiction — reducing T4 worsens RTH-β |
-| #2 | Neonatal Thyrotoxicosis | 99.41% | L3 | **Proceed with Guardrails** | Strong mechanistic alignment; supported by case series and cohort data |
-| #3 | Hyperthyroxinemia | 99.21% | L4 | **Research Question** | Heterogeneous condition; efficacy depends entirely on underlying etiology |
+| الترتيب | المؤشر الجديد المتنبأ به | درجة TxGNN | مستوى الدليل | التوصية | المشكلة الأساسية |
+|--------|----------------------|-----------|-------------|---------|-----------------|
+| #1 | مقاومة الهرمون الدرقي (RTH-β) | 99.71% | L5 | **التوقف** | تناقض ميكانيكي — تقليل T4 يزيد سوء RTH-β |
+| #2 | التسمم الدرقي الوليدي | 99.41% | L3 | **المضي قدماً مع ضوابط** | محاذاة ميكانيكية قوية؛ مدعوم بمتسلسلات حالات وبيانات الأتراب |
+| #3 | فرط الهرمون الدرقي | 99.21% | L4 | **سؤال بحثي** | حالة غير متجانسة؛ الفعالية تعتمد تماماً على الحالة الأساسية |
 
-> ⚠️ **Critical Note:** RTH-β patients have elevated T4 as a *compensatory* response — their peripheral tissues resist thyroid hormone, so the pituitary drives TSH high to maintain normal metabolism. Treating this with carbimazole would remove the compensation and precipitate clinical hypothyroidism. This indication is contraindicated despite having the highest TxGNN score.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data package. Based on established pharmacology, carbimazole is a prodrug rapidly converted to methimazole after oral absorption. Methimazole inhibits **thyroid peroxidase (TPO)**, the enzyme responsible for organification and coupling of iodine residues during thyroid hormone synthesis. This directly and specifically reduces T3 and T4 production in thyroid follicular cells. The drug does not affect pre-formed circulating hormone or peripheral conversion of T4 to T3.
-
-In neonatal thyrotoxicosis, the pathophysiology is well-defined: maternal Graves' disease generates TSH receptor–stimulating antibodies (TRAb/TSI) that cross the placenta from approximately week 20 of gestation, stimulating the neonatal thyroid gland to overproduce T3 and T4. Carbimazole's TPO-inhibiting mechanism directly suppresses this overproduction, making it mechanistically precise for this condition.
-
-The distance between carbimazole's established use (adult hyperthyroidism) and the predicted indication (neonatal thyrotoxicosis) is extremely short — both involve the same biochemical defect (excess thyroid hormone synthesis via TPO activity). Neonatal thyrotoxicosis is essentially a transient, antibody-mediated hyperthyroidism occurring in newborns. International clinical guidelines (European Thyroid Association, Endocrine Society) already recognize antithyroid drugs as the first-line treatment for neonatal thyrotoxicosis, which makes the TxGNN prediction biologically and clinically sound.
+> ⚠️ **ملاحظة حرجة:** مرضى RTH-β لديهم ارتفاع في T4 كـ *استجابة تعويضية* — أنسجتهم الطرفية تقاوم الهرمون الدرقي، لذا ينتج الفص الأمامي للغدة النخامية TSH مرتفعاً للحفاظ على الأيض الطبيعي. علاج هذا بكاربيمازول سيزيل التعويض ويؤدي إلى فشل درقي سريري محرض. هذا المؤشر مضاد استطباب رغم أنه يحمل أعلى درجة TxGNN.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered for any of the three predicted indications.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في حزمة البيانات. بناءً على الصيدلة المعروفة، كاربيمازول هو دواء موالج يتحول بسرعة إلى ميثيمازول بعد الامتصاص الفموي. يثبط ميثيمازول **بيروكسيديز الغدة الدرقية (TPO)**، الإنزيم المسؤول عن تنظيم وربط بقايا اليود أثناء تخليق هرمون الغدة الدرقية. يقلل هذا مباشرة وخصيصاً إنتاج T3 و T4 في خلايا الغدة الدرقية. الدواء لا يؤثر على الهرمون المتداول المُشكَّل مسبقاً أو التحويل المحيطي لـ T4 إلى T3.
 
----
+في التسمم الدرقي الوليدي، الفيزيولوجيا المرضية محددة جيداً: داء جريفز الأمومي ينتج أجسام مضادة محفزة لمستقبل TSH (TRAb/TSI) التي تعبر المشيمة من حوالي الأسبوع 20 من الحمل، محفزة الغدة الدرقية للوليد على الإفراط في إنتاج T3 و T4. آلية كاربيمازول المثبطة لـ TPO تثبط هذا الإفراط في الإنتاج مباشرة، مما يجعلها دقيقة ميكانيكياً لهذه الحالة.
 
-## Literature Evidence
-
-*(10 most relevant publications selected from 20 identified for Neonatal Thyrotoxicosis; prioritized by direct clinical relevance and carbimazole use)*
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [41191399](https://pubmed.ncbi.nlm.nih.gov/41191399/) | 2025 | Case Report | Endocrinology, Diabetes & Metabolism Case Reports | 3-week-old infant with thyrotoxicosis-induced severe hypercalcaemia; thyrotoxicosis treated with carbimazole; calcium normalized as thyroid function improved |
-| [25952662](https://pubmed.ncbi.nlm.nih.gov/25952662/) | 2015 | Case Series | Indian Journal of Pediatrics | Fetal hyperthyroidism in two siblings treated with intrauterine and postnatal carbimazole; prior pregnancies resulted in stillbirths without treatment — highlights life-saving role |
-| [29494342](https://pubmed.ncbi.nlm.nih.gov/29494342/) | 2018 | Case Report | Journal of Pediatric Endocrinology & Metabolism | Severe neonatal hyperthyroidism from transplacental TRAbs born to a mother with autoimmune hypothyroidism (not Graves'); expands the clinical scenario beyond classical Graves' disease |
-| [24251220](https://pubmed.ncbi.nlm.nih.gov/24251220/) | 2013 | Review | Indian Journal of Endocrinology and Metabolism | Comprehensive review of fetal and neonatal thyrotoxicosis: epidemiology (1/70 Graves' pregnancies), pathophysiology, antithyroid drug management, and mortality |
-| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | The Lancet Diabetes & Endocrinology | Evidence-based guidelines on hyperthyroidism in pregnancy; covers neonatal risk stratification and antithyroid drug selection including carbimazole |
-| [11298090](https://pubmed.ncbi.nlm.nih.gov/11298090/) | 2001 | Case Series | Clinical Endocrinology | Congenital thyrotoxicosis in premature infants; reported mortality up to 25%; maternal TBII index predictive of severity; antithyroid drug response documented |
-| [1971773](https://pubmed.ncbi.nlm.nih.gov/1971773/) | 1990 | Cohort | Clinical Endocrinology | 46 Graves' disease pregnancies; carbimazole and PTU treatment correlated with neonatal thyroid function and TSH receptor antibody levels; foundational dataset |
-| [7523202](https://pubmed.ncbi.nlm.nih.gov/7523202/) | 1994 | Cohort | European Journal of Obstetrics, Gynecology and Reproductive Biology | 32 pregnancies with hyperthyroidism managed with carbimazole/PTU; maternal and neonatal outcomes documented over 7 years |
-| [2315685](https://pubmed.ncbi.nlm.nih.gov/2315685/) | 1990 | Case Report | Scottish Medical Journal | Neonatal thyrotoxicosis with TSH receptor antibodies from post-thyroidectomy mother; neonatal thyrotoxicosis resolved with carbimazole therapy |
-| [27747714](https://pubmed.ncbi.nlm.nih.gov/27747714/) | 2015 | Case Report | Drug Safety – Case Reports | Neonate on carbimazole + propranolol for thyrotoxicosis developed severe hypotension after amlodipine — critical drug-drug interaction warning specific to this population |
+المسافة بين الاستخدام المعروف لكاربيمازول (فرط نشاط الغدة الدرقية عند البالغين) والمؤشر المتنبأ به (التسمم الدرقي الوليدي) قصيرة جداً — كلاهما يتضمن نفس الخلل الكيميائي الحيوي (زيادة تخليق هرمون الغدة الدرقية عبر نشاط TPO). التسمم الدرقي الوليدي بشكل أساسي هو فرط نشاط درقي عابر يسبب الأجسام المضادة يحدث عند الأطفال حديثي الولادة. الإرشادات السريرية الدولية (جمعية الغدة الدرقية الأوروبية، جمعية الغدد الصماء) بالفعل تعترف بالأدوية المضادة للغدة الدرقية كعلاج من الخط الأول للتسمم الدرقي الوليدي، مما يجعل تنبؤ TxGNN سليماً بيولوجياً وسريرياً.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Carbimazole currently has **no approved authorizations in Saudi Arabia**. No licensing data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-**Neonatal-specific safety signals identified from the literature:**
-
-- **Drug interaction in neonates:** PMID 27747714 documents severe hypotension when oral carbimazole is combined with amlodipine in neonates also receiving propranolol. Calcium channel blockers should be used with extreme caution in carbimazole-treated neonates.
-- **Teratogenic risk (prenatal exposure only):** PMID 12124735 describes a possible association between maternal carbimazole use in the first trimester and choanal atresia in the neonate. This risk applies to *maternal* use during organogenesis and does not apply to postnatal treatment of the neonate directly.
+لا توجد حالياً تجارب سريرية مسجلة ذات علاقة بأي من المؤشرات الثلاثة المتنبأ بها.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision by Indication:**
+*(10 منشورات الأكثر صلة تم اختيارها من 20 تم تحديدها للتسمم الدرقي الوليدي؛ مرتبة حسب الصلة السريرية المباشرة واستخدام كاربيمازول)*
 
-| Indication | Decision | One-Line Rationale |
-|------------|----------|--------------------|
-| RTH-β (Rank #1) | **Hold** | Carbimazole would remove the compensatory T4 elevation that sustains normal metabolism; risk of iatrogenic hypothyroidism |
-| Neonatal Thyrotoxicosis (Rank #2) | **Proceed with Guardrails** | Mechanism is precise, clinical evidence is consistent, and international guidelines support antithyroid drugs as first-line |
-| Hyperthyroxinemia (Rank #3) | **Research Question** | Must be sub-stratified by etiology before any use recommendation; not evaluable as a single indication |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [41191399](https://pubmed.ncbi.nlm.nih.gov/41191399/) | 2025 | تقرير حالة | Endocrinology, Diabetes & Metabolism Case Reports | وليد عمره 3 أسابيع مع تسمم درقي مسبب لفرط كالسيوم حاد؛ تم علاج التسمم الدرقي بكاربيمازول؛ تطبع الكالسيوم مع تحسن وظيفة الغدة الدرقية |
+| [25952662](https://pubmed.ncbi.nlm.nih.gov/25952662/) | 2015 | متسلسلة حالات | Indian Journal of Pediatrics | فرط درقية جنينية في أخوين تم علاجها بكاربيمازول داخل الرحم وبعد الولادة؛ الحمل السابق أسفر عن إملاصات بدون علاج — يبرز الدور منقذ الحياة |
+| [29494342](https://pubmed.ncbi.nlm.nih.gov/29494342/) | 2018 | تقرير حالة | Journal of Pediatric Endocrinology & Metabolism | فرط درقية وليدية حادة من TRAbs المنقولة عبر المشيمة من أم بفرط نشاط مناعي في الغدة الدرقية (ليس داء جريفز)؛ يوسع السيناريو السريري إلى ما وراء داء جريفز الكلاسيكي |
+| [24251220](https://pubmed.ncbi.nlm.nih.gov/24251220/) | 2013 | مراجعة | Indian Journal of Endocrinology and Metabolism | مراجعة شاملة للتسمم الدرقي الجنيني والوليدي: الوبائيات (1/70 حمل مع داء جريفز)، الفيزيولوجيا المرضية، إدارة الأدوية المضادة للغدة الدرقية، والوفيات |
+| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | مراجعة | The Lancet Diabetes & Endocrinology | إرشادات مبنية على الأدلة حول فرط نشاط الغدة الدرقية أثناء الحمل؛ تغطي تصنيف المخاطر الوليدية واختيار الأدوية المضادة للغدة الدرقية بما فيها كاربيمازول |
+| [11298090](https://pubmed.ncbi.nlm.nih.gov/11298090/) | 2001 | متسلسلة حالات | Clinical Endocrinology | التسمم الدرقي الخلقي في الرضع الخدج؛ وفيات مسجلة تصل إلى 25%؛ مؤشر TBII الأمومي تنبئي للشدة؛ استجابة الأدوية المضادة للغدة الدرقية موثقة |
+| [1971773](https://pubmed.ncbi.nlm.nih.gov/1971773/) | 1990 | أتراب | Clinical Endocrinology | 46 حمل بداء جريفز؛ علاج كاربيمازول و PTU مرتبط بوظيفة الغدة الدرقية الوليدية ومستويات الأجسام المضادة لمستقبل TSH؛ مجموعة بيانات أساسية |
+| [7523202](https://pubmed.ncbi.nlm.nih.gov/7523202/) | 1994 | أتراب | European Journal of Obstetrics, Gynecology and Reproductive Biology | 32 حمل مع فرط نشاط الغدة الدرقية تم إدارتها بكاربيمازول/PTU؛ نتائج الأم والوليد موثقة على مدى 7 سنوات |
+| [2315685](https://pubmed.ncbi.nlm.nih.gov/2315685/) | 1990 | تقرير حالة | Scottish Medical Journal | التسمم الدرقي الوليدي مع أجسام مضادة لمستقبل TSH من أم بعد استئصال الغدة الدرقية؛ تحسن التسمم الدرقي الوليدي مع العلاج بكاربيمازول |
+| [27747714](https://pubmed.ncbi.nlm.nih.gov/27747714/) | 2015 | تقرير حالة | Drug Safety – Case Reports | وليد على كاربيمازول + بروبرانولول للتسمم الدرقي تطور انخفاض ضغط دم حاد بعد أملوديبين — تحذير تفاعل دوائي حرج خاص بهذه الفئة السكانية |
 
 ---
 
-**Primary Decision: Proceed with Guardrails (Neonatal Thyrotoxicosis)**
+## معلومات سوق المملكة العربية السعودية
 
-**Rationale:**
-Multiple cohort studies and case series consistently document carbimazole's effectiveness in neonatal thyrotoxicosis, the mechanism (transplacental TRAb → excess TPO activity) is well-understood and directly targeted, and international endocrinology societies recognize antithyroid drugs as standard of care. The L3 evidence base is sufficient to develop institutional protocols, though the absence of randomized trials warrants careful monitoring.
+كاربيمازول حالياً لا يملك **أي تصاريح معتمدة في المملكة العربية السعودية**. لا تتوفر بيانات الترخيص.
 
-**To proceed, the following is needed:**
+---
 
-- Weight-based dosing protocol for neonatal carbimazole (standard adult doses are not applicable)
-- Defined monitoring schedule: thyroid function tests (T3, T4, TSH) every 3–7 days initially, CBC and liver enzymes to monitor for agranulocytosis and hepatotoxicity
-- Drug interaction review before co-prescribing any antihypertensive agents (see amlodipine warning above)
-- Clear endpoint for treatment discontinuation (TRAb clearance typically occurs within 3–12 weeks as maternal antibodies wane)
-- Registration or compassionate use pathway in Saudi Arabia (currently not marketed)
-- Multidisciplinary sign-off from neonatology and pediatric endocrinology before clinical deployment
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات الأمان.
+
+**إشارات السلامة المحددة الخاصة بالأطفال حديثي الولادة المحددة من الأدبيات:**
+
+- **التفاعل الدوائي عند حديثي الولادة:** PMID 27747714 يوثق انخفاض ضغط دم حاد عند دمج كاربيمازول الفموي مع أملوديبين عند حديثي الولادة يتلقون أيضاً بروبرانولول. يجب استخدام حاصرات قنوات الكالسيوم بحذر شديد في حديثي الولادة المعالجين بكاربيمازول.
+- **خطر الماسخية (التعرض السابق للولادة فقط):** PMID 12124735 يصف ارتباطاً محتملاً بين استخدام كاربيمازول الأمومي في الثلث الأول من الحمل وعدم تكون الفتحة الأنفية الخلفية عند الوليد. ينطبق هذا الخطر على *الاستخدام الأمومي* أثناء التكون وليس ينطبق على العلاج بعد الولادة للوليد مباشرة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار حسب المؤشر:**
+
+| المؤشر | القرار | توضيح الحد الأدنى |
+|-------|--------|----------------|
+| RTH-β (الترتيب #1) | **التوقف** | كاربيمازول سيزيل ارتفاع T4 التعويضي الذي يحافظ على الأيض الطبيعي؛ خطر الإصابة بقصور درقي يسببه الطبيب |
+| التسمم الدرقي الوليدي (الترتيب #2) | **المضي قدماً مع ضوابط** | الآلية دقيقة، الأدلة السريرية متسقة، والإرشادات الدولية تدعم الأدوية المضادة للغدة الدرقية كخط أول |
+| فرط الهرمون الدرقي (الترتيب #3) | **سؤال بحثي** | يجب تقسيم الفئات الفرعية حسب السبب قبل أي توصية استخدام؛ غير قابل للتقييم كمؤشر واحد |
+
+---
+
+**القرار الأساسي: المضي قدماً مع ضوابط (التسمم الدرقي الوليدي)**
+
+**السبب:**
+دراسات الأتراب المتعددة ومتسلسلات الحالات توثق باستمرار فعالية كاربيمازول في التسمم الدرقي الوليدي، الآلية (TRAb المنقول عبر المشيمة → زيادة نشاط TPO) مفهومة جيداً وموجهة مباشرة، وجمعيات الغدد الصماء الدولية تعترف بالأدوية المضادة للغدة الدرقية كمعيار الرعاية. قاعدة الأدلة L3 كافية لتطوير بروتوكولات مؤسسية، بينما غياب التجارب العشوائية يبرر المراقبة الدقيقة.
+
+**للمضي قدماً، يلزم التالي:**
+
+- بروتوكول الجرعات على أساس الوزن لكاربيمازول عند حديثي الولادة (الجرعات العادية للبالغين غير قابلة للتطبيق)
+- جدول المراقبة المحدد: اختبارات وظيفة الغدة الدرقية (T3، T4، TSH) كل 3-7 أيام أولياً، تعداد الدم الكامل وإنزيمات الكبد لمراقبة الحبيبات الناقصة والسمية الكبدية
+- مراجعة التفاعلات الدوائية قبل الوصفة المشتركة لأي أدوية خافضة لضغط الدم (انظر تحذير أملوديبين أعلاه)
+- نقطة نهاية واضحة لإيقاف العلاج (تطهير TRAb عادة يحدث خلال 3-12 أسبوع مع تلاشي الأجسام المضادة الأمومية)
+- مسار تسجيل أو استخدام إنساني في المملكة العربية السعودية (غير مسوق حالياً)
+- موافقة متعددة التخصصات من أطباء الأطفال حديثي الولادة وطب الغدد الصماء عند الأطفال قبل النشر السريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

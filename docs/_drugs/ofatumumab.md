@@ -29,89 +29,90 @@ indication_count: 8
 
 </div>
 
-# Ofatumumab: From Chronic Lymphocytic Leukemia (CLL/SLL) to an IGHV-Mutated CLL/SLL Subtype
+# Ofatumumab: من اللوكيميا الليمفاوية المزمنة (CLL/SLL) إلى النوع الفرعي IGHV-Mutated CLL/SLL
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Ofatumumab is a fully human anti-CD20 monoclonal antibody whose established indication is chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) — this is documented within the evidence pack itself, not in the Saudi regulatory dataset, since the product currently holds **zero SFDA licenses** and is **not marketed** in Saudi Arabia. TxGNN's top-ranked prediction is not a new disease but a biomarker-defined refinement of that same indication — **CLL/SLL with IGHV somatic hypermutation** — and currently has **no dedicated clinical trials or literature** of its own. The prediction is therefore best read as a research question about biomarker-stratified efficacy rather than a genuine repurposing opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) — noted in evidence-pack rationale text as ofatumumab's original approved indication (e.g., Arzerra); not present in the Saudi Arabia license database because the product is not currently marketed there |
-| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene (IGHV) somatic hypermutation |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 (model prediction only — 0 clinical trials, 0 publications specific to this IGHV-defined subgroup) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ofatumumab هو جسم مضاد وحيد التكلون موجه ضد CD20 مشتق بالكامل من الإنسان، والمؤشر المثبت له هو اللوكيميا الليمفاوية المزمنة/الليمفوما الليمفاوية الصغيرة (CLL/SLL) — وهذا موثق في حزمة الأدلة نفسها وليس في مجموعة البيانات التنظيمية السعودية، حيث أن المنتج يحتفظ حالياً **بصفر تراخيص SFDA** و**غير مسوق** في المملكة العربية السعودية. التنبؤ الأعلى تصنيفاً من TxGNN ليس مرضاً جديداً بل تكراراً معرّفاً بالمؤشر الحيوي لنفس المؤشر — **CLL/SLL مع التطفير الجسدي IGHV** — وحالياً لا يملك **أي تجارب سريرية مخصصة أو أدب علمي** خاص به. يُفهم التنبؤ بشكل أفضل على أنه سؤال بحثي حول فعالية موزونة بالمؤشر الحيوي وليس فرصة إعادة توظيف حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-The `original_moa` field in this evidence pack is a documented data gap (DG002), so no formal mechanism-of-action statement is available from DrugBank. However, the literature captured elsewhere in this same pack (e.g., PMID 20068404, 20481657, 18535937) consistently describes ofatumumab as a fully human IgG1κ monoclonal antibody that binds a membrane-proximal epitope on CD20 and depletes CD20⁺ B cells via complement-dependent cytotoxicity (CDC) and antibody-dependent cellular cytotoxicity (ADCC).
-
-The predicted "new" indication is not a distinct disease — it is CLL/SLL stratified by IGHV mutation status, a well-established prognostic biomarker that separates patients into pre-germinal-center (IGHV-unmutated, generally worse prognosis) and post-germinal-center (IGHV-mutated, generally better prognosis) subgroups. Both this candidate (rank 1) and its counterpart "pregerminal center CLL/SLL" (rank 2) share the exact same CD20-targeting mechanism as ofatumumab's core, already-supported indication for unstratified CLL/SLL, which appears elsewhere in this same evidence pack (rank 5) backed by **34 clinical trials, 20 publications, and L1-level evidence** (multiple completed Phase 3 RCTs, including RESONATE and DUO).
-
-Mechanistically, there is no reason CD20 expression or ofatumumab's cytotoxic activity would differ systematically by IGHV status — the open question is whether efficacy, response depth, or duration differs across the biomarker-defined subgroup, which would require a dedicated subgroup analysis or prospective biomarker-stratified trial rather than a new mechanistic hypothesis. In this sense, the prediction functions as a research question about existing therapy rather than a novel repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | اللوكيميا الليمفاوية المزمنة/الليمفوما الليمفاوية الصغيرة (CLL/SLL) — مذكورة في نص أساس حزمة الأدلة كمؤشر معتمد أصلي لـ ofatumumab (مثل Arzerra)؛ غير موجودة في قاعدة بيانات الترخيص السعودية لأن المنتج حالياً غير مسوق هناك |
+| المؤشر الجديد المتنبأ به | اللوكيميا الليمفاوية المزمنة/الليمفوما الليمفاوية الصغيرة مع التطفير الجسدي لجين المنطقة المتغيرة للسلسلة الثقيلة للغلوبيولين المناعي (IGHV) |
+| درجة تنبؤ TxGNN | 99.77% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط — 0 تجارب سريرية، 0 منشورات خاصة بهذه المجموعة الفرعية المعرّفة بـ IGHV) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حقل `original_moa` في حزمة الأدلة هذه هو فجوة بيانات موثقة (DG002)، لذلك لا توجد بيان آلية عمل رسمي متاح من DrugBank. ومع ذلك، الأدب العلمي المقتطع من مكان آخر في نفس الحزمة (على سبيل المثال، PMID 20068404, 20481657, 18535937) يصف باستمرار ofatumumab كجسم مضاد وحيد تكلون IgG1κ مشتق بالكامل من الإنسان يرتبط بموقع ارتباط قريب من الغشاء على CD20 ويستنزف خلايا CD20⁺ B عبر السمية المعتمدة على المتمم (CDC) والسمية الخلوية المعتمدة على الجسم المضاد (ADCC).
 
----
+المؤشر "الجديد" المتنبأ به ليس مرضاً متميزاً — إنه CLL/SLL مصنّف حسب حالة طفرة IGHV، وهو مؤشر تنبؤي مثبت بشكل جيد يفصل المرضى إلى مجموعات فرعية ما قبل المركز الجرثومي (IGHV-unmutated، بشكل عام تشخيص أسوأ) وما بعد المركز الجرثومي (IGHV-mutated، بشكل عام تشخيص أفضل). كل من هذا المرشح (الرتبة 1) ونظيره "ما قبل المركز الجرثومي CLL/SLL" (الرتبة 2) يشاركان نفس آلية استهداف CD20 بالضبط كمؤشر جوهري مدعوم بالفعل من ofatumumab لـ CLL/SLL غير المصنّف، والذي يظهر في مكان آخر في حزمة الأدلة هذه (الرتبة 5) مدعوماً بـ **34 تجربة سريرية، و20 منشور، ودليل من مستوى L1** (تجارب عشوائية محكومة متعددة مكتملة من المرحلة 3، بما في ذلك RESONATE و DUO).
 
-## Saudi Arabia Market Information
-
-Ofatumumab currently holds no marketing authorizations in Saudi Arabia (0 licenses on file; market status: Not Marketed). No product/dosage-form/indication records are available to tabulate.
+من الناحية الآلية، لا توجد أسباب لاختلاف تعبير CD20 أو النشاط السام لـ ofatumumab بشكل منهجي حسب حالة IGHV — السؤال المفتوح هو ما إذا كانت الفعالية أو عمق الاستجابة أو المدة تختلف عبر المجموعة الفرعية المعرّفة بالمؤشر الحيوي، وهذا سيتطلب تحليل مجموعة فرعية مخصصة أو تجربة موزونة بالمؤشر الحيوي استشرافية بدلاً من فرضية آلية جديدة. بهذا المعنى، التنبؤ يعمل كسؤال بحثي حول العلاج القائم بدلاً من إشارة إعادة توظيف جديدة.
 
 ---
 
-## Cytotoxicity
+## دليل التجارب السريرية
 
-Chronic lymphocytic leukemia/small lymphocytic lymphoma is a hematologic malignancy, so this section applies even though ofatumumab is a targeted biologic rather than a conventional cytotoxic agent.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy / Immunotherapy (anti-CD20 monoclonal antibody; not a conventional cytotoxic chemotherapeutic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## دليل الأدب العلمي
 
-Please refer to the package insert for safety information.
+حالياً لا يوجد أدب علمي ذي صلة متاح.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+Ofatumumab لا يحتفظ حالياً بأي تراخيص تسويقية في المملكة العربية السعودية (0 رخصة في الملف؛ حالة السوق: غير مسوق). لا توجد سجلات منتج/شكل جرعات/مؤشر متاحة لتجدولها.
 
-**Rationale:**
-The top-ranked TxGNN prediction is a biomarker-defined subtype of ofatumumab's own established indication rather than an independent disease target, and it currently has zero direct clinical trials or publications of its own — it is a research question about existing therapy, not a validated repurposing opportunity. Separately, ofatumumab has no SFDA marketing authorization in Saudi Arabia today, and two blocking-severity data gaps (package insert warnings/contraindications, and DrugBank mechanism-of-action data) prevent a safety pre-screen from being completed.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA/SFDA package insert warnings and contraindications) — currently Blocking severity
-- Resolve DG002 (formal DrugBank mechanism-of-action data) — currently High severity
-- IGHV-status subgroup analyses or a prospective biomarker-stratified trial drawing on the existing CLL/SLL evidence base (rank 5: L1, 34 trials, 20 publications) to test whether this specific prediction adds actionable information beyond the parent indication
-- A Saudi Arabia regulatory pathway assessment, given the product currently holds zero local authorizations
-- For context, two other candidates in this same evidence pack carry materially stronger direct evidence and may warrant separate evaluation: follicular lymphoma (rank 3, L2, multiple completed Phase 2 trials) and unstratified CLL/SLL itself (rank 5, L1)
+## السمية الخلوية
+
+اللوكيميا الليمفاوية المزمنة/الليمفوما الليمفاوية الصغيرة هي ورم دموي خبيث، لذا ينطبق هذا القسم حتى وإن كان ofatumumab كائن بيولوجي موجه بدلاً من وكيل سام خلوي تقليدي.
+
+| البند | المحتوى |
+|------|---------|
+| تصنيف السمية الخلوية | العلاج الموجه / العلاج المناعي (جسم مضاد وحيد تكلون موجه ضد CD20؛ ليس علاج كيميائي سام خلوي تقليدي) |
+| خطر قمع النخاع | يرجى الرجوع إلى تحذيرات وتنبيهات النشرة الداخلية |
+| تصنيف التقيؤ المستحث | يرجى الرجوع إلى تحذيرات وتنبيهات النشرة الداخلية |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات وتنبيهات النشرة الداخلية |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات وتنبيهات النشرة الداخلية |
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفاً من TxGNN هو نوع فرعي معرّف بالمؤشر الحيوي من المؤشر المثبت الخاص به من ofatumumab وليس هدف مرض مستقل، وحالياً لا يحتفظ بأي تجارب سريرية مباشرة أو منشورات خاصة به — إنه سؤال بحثي حول العلاج القائم، وليس فرصة إعادة توظيف مثبتة. بشكل منفصل، ofatumumab ليس لديه ترخيص تسويق SFDA في المملكة العربية السعودية اليوم، وهناك فجوتا بيانات بشدة حجب (تحذيرات/موانع النشرة الداخلية، وبيانات آلية عمل DrugBank) تمنع إجراء فحص أمان أولي من الاكتمال.
+
+**للمتابعة، يلزم التالي:**
+- حل DG001 (تحذيرات وموانع النشرة الداخلية TFDA/SFDA) — حالياً شدة حجب
+- حل DG002 (بيانات آلية عمل DrugBank الرسمية) — حالياً شدة عالية
+- تحليلات مجموعة فرعية IGHV-status أو تجربة موزونة بالمؤشر الحيوي استشرافية تستند إلى قاعدة الأدلة القائمة لـ CLL/SLL (الرتبة 5: L1، 34 تجربة، 20 منشور) لاختبار ما إذا كان هذا التنبؤ المحدد يضيف معلومات قابلة للتنفيذ بما يتجاوز المؤشر الأصلي
+- تقييم مسار تنظيمي في المملكة العربية السعودية، نظراً لأن المنتج حالياً لا يحتفظ بأي تراخيص محلية
+- للسياق، يحتفظ مرشحان آخران في حزمة الأدلة هذه بأدلة مباشرة أقوى بشكل ملموس وقد يستحقان تقييماً منفصلاً: الليمفوما الجريبية (الرتبة 3، L2، تجارب مرحلة 2 متعددة مكتملة) و CLL/SLL غير المصنّفة بنفسها (الرتبة 5، L1)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

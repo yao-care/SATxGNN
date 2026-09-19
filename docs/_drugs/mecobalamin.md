@@ -29,79 +29,80 @@ indication_count: 3
 
 </div>
 
-# Mecobalamin: From Unrecorded Original Indication to Sclerosing Cholangitis
+# ميكوبالامين: من عدم وجود بيانات المؤشر الأصلي إلى التهاب الأقنية الصفراوية المتصلب
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> No original indication data is on file for mecobalamin in this evidence pack, and the drug is not currently marketed in Saudi Arabia.
-> The TxGNN model predicts a possible association with **Sclerosing Cholangitis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a computational signal only, with no direct clinical or mechanistic evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no original indications on file) |
-| Predicted New Indication | Sclerosing Cholangitis |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> لا توجد بيانات عن المؤشر الأصلي لميكوبالامين في هذه مجموعة الأدلة، والدواء غير مسوّق حالياً في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN بإمكانية وجود ارتباط مع **التهاب الأقنية الصفراوية المتصلب**،
+> لكن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و **0 منشورات** — إنها إشارة حسابية فقط، بدون أدلة سريرية أو آلية عمل مباشرة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for mecobalamin is not available as a structured field in this evidence pack. However, the model's own rationale notes that mecobalamin's known biochemical role is as a coenzyme for methionine synthase, involved in homocysteine metabolism.
-
-Sclerosing cholangitis is primarily an autoimmune/cholestatic biliary disease, driven by bile duct fibrosis and immune-mediated inflammation. There is no established direct overlap between methionine synthase/homocysteine metabolism and the immune-inflammatory pathways underlying bile duct injury. The only plausible connection is an indirect one — via homocysteine and oxidative stress — which the evidence pack itself characterizes as speculative, without direct molecular mechanism support.
-
-Two additional candidates were also predicted (multiple endocrine neoplasia, rank 2; bone Paget disease, rank 3), both similarly flagged as biologically indirect associations rather than mechanistically grounded links. All three predictions currently rest on TxGNN model output alone, with no corroborating trials or literature.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح في مجموعة الأدلة (لا توجد مؤشرات أصلية في الملف) |
+| المؤشر الجديد المتوقع | التهاب الأقنية الصفراوية المتصلب |
+| درجة التنبؤ من TxGNN | 99.50% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل المفصلة لميكوبالامين غير متاحة كحقل منظم في مجموعة الأدلة هذه. ومع ذلك، تشير ملاحظات النموذج الخاصة به إلى أن الدور البيوكيميائي المعروف لميكوبالامين هو العمل كمرافق إنزيمي لإنزيم ميثيونين سينثيتاز، المتورط في استقلاب الهوموسيستئين.
 
----
+التهاب الأقنية الصفراوية المتصلب هو في الأساس مرض مناعي ذاتي/ركود صفراوي في الجهاز الصفراوي، يُحركه تليف القنوات الصفراوية والالتهاب الوسيط مناعياً. لا يوجد تداخل مباشر محدد بين استقلاب ميثيونين سينثيتاز/الهوموسيستئين والمسارات المناعية-الالتهابية التي تكمن وراء إصابة القناة الصفراوية. الاتصال الوحيد المعقول هو اتصال غير مباشر — عبر الهوموسيستئين والإجهاد التأكسدي — وهو ما تصفه مجموعة الأدلة نفسها بأنه تكهن، بدون دعم آلية جزيئية مباشرة.
 
-## Saudi Arabia Market Information
-
-Mecobalamin is not currently marketed in Saudi Arabia — 0 authorizations are on file, so no product/license table is available.
+تم أيضاً التنبؤ بمرشحين إضافيين (الأورام الصماء المتعددة، الرتبة 2؛ داء باجيت للعظام، الرتبة 3)، وكلاهما أُشِّر إليه بأن الارتباطات البيولوجية غير مباشرة بدلاً من روابط مدعومة بآلية العمل. جميع التنبؤات الثلاثة تستند حالياً على مخرجات نموذج TxGNN وحدها، بدون أدلة تجارب أو أدبيات متزامنة.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) — this evidence pack cannot yet support an S1 safety pre-assessment for mecobalamin.)*
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات مرتبطة متاحة حالياً.
 
-**Rationale:**
-The predicted indication (Sclerosing Cholangitis) is supported only by TxGNN model output (L5, no clinical trials or literature), and a blocking data gap (missing TFDA label/contraindication data) prevents any safety pre-assessment. The drug is also not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently blocking
-- Confirmed mechanism of action data from DrugBank
-- Confirmed original indication(s) for mecobalamin
-- Disease-specific clinical trial or literature search focused on sclerosing cholangitis (current searches returned zero results)
-- Re-evaluation of the two lower-ranked candidates (multiple endocrine neoplasia, bone Paget disease) if pursued further — both currently show equally weak evidence
+## معلومات السوق في المملكة العربية السعودية
+
+ميكوبالامين غير مسوّق حالياً في المملكة العربية السعودية — 0 تفاويض موجودة في الملف، لذا لا يوجد جدول منتج/ترخيص متاح.
+
+---
+
+## الاعتبارات الخاصة بالسلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات نشرة TFDA/موانع الاستعمال تُشار إليها كفجوة بيانات **معيقة** (DG001) — لا يمكن لمجموعة الأدلة هذه أن تدعم تقييماً أولياً للسلامة من S1 لميكوبالامين بعد.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+المؤشر المتوقع (التهاب الأقنية الصفراوية المتصلب) مدعوم فقط بمخرجات نموذج TxGNN (L5، بدون تجارب سريرية أو أدبيات)، وفجوة بيانات معيقة (بيانات TFDA/نشرة موانع الاستعمال المفقودة) تمنع أي تقييم أولي للسلامة. الدواء أيضاً غير مسوّق حالياً في المملكة العربية السعودية.
+
+**للمتابعة، ما يلي مطلوب:**
+- نشرة TFDA/التنظيمية (تحذيرات، موانع استعمال) — معيقة حالياً
+- بيانات آلية العمل المؤكدة من DrugBank
+- المؤشرات الأصلية المؤكدة لميكوبالامين
+- بحث تجارب سريرية أو أدبيات متخصصة بالأمراض تركز على التهاب الأقنية الصفراوية المتصلب (البحث الحالي أعاد نتائج صفرية)
+- إعادة تقييم المرشحين ذوي الرتبة الأقل (الأورام الصماء المتعددة، داء باجيت للعظام) إذا تمت متابعتهم — كلاهما يظهر حالياً أدلة ضعيفة بنفس القدر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

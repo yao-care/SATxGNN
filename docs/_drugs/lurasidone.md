@@ -29,82 +29,83 @@ indication_count: 10
 
 </div>
 
-# Lurasidone: From Schizophrenia/Bipolar Depression to Manic Bipolar Affective Disorder
+# لوراسيدون: من الفصام/الاكتئاب ثنائي القطب إلى اضطراب ثنائي القطب الهوسي الوجداني
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Lurasidone (DrugBank DB08815) is an atypical (second-generation) antipsychotic internationally marketed as Latuda for schizophrenia and bipolar I depression. The TxGNN model predicts it may also be effective for **manic bipolar affective disorder**, with **15 clinical trials** and **19 publications** retrieved for this indication — though most of that evidence base actually addresses the depressive pole of bipolar I disorder rather than mania specifically, a distinction discussed below.
+لوراسيدون (DrugBank DB08815) هو عقار مضاد للذهان من الجيل الثاني، يُسوّق دولياً تحت اسم Latuda لعلاج الفصام والاكتئاب الثنائي القطب من النوع الأول. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **اضطراب ثنائي القطب الهوسي الوجداني**، مع **15 تجربة سريرية** و**19 منشوراً علمياً** تم استرجاعها لهذا الدلالة — على الرغم من أن معظم هذه القاعدة الأدلة تتناول فعلياً القطب الاكتئابي من الاضطراب ثنائي القطب من النوع الأول وليس الهوس بشكل محدد، وهي تمييز تم مناقشته أدناه.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (no Saudi Arabia license data); internationally approved for schizophrenia and bipolar I depression (brand Latuda) |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | لم يتم تسجيلها في هذه مجموعة الأدلة (لا توجد بيانات ترخيص سعودية)؛ معتمدة دولياً للفصام والاكتئاب الثنائي القطب من النوع الأول (اسم العلامة Latuda) |
+| الدلالة المتنبأ بها | اضطراب ثنائي القطب الهوسي الوجداني |
+| درجة التنبؤ في TxGNN | 99.98% |
+| مستوى الدليل | L1 |
+| حالة السوق السعودي | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات الحماية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, this evidence pack does not contain structured mechanism-of-action data (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, lurasidone (development code SM-13496) is a benzisothiazole-derivative atypical antipsychotic that acts as a potent antagonist at dopamine D2 and serotonin 5-HT2A receptors, with high-affinity antagonism at 5-HT7 and partial agonism at 5-HT1A, and negligible affinity for H1/M1 receptors. This receptor profile — particularly 5-HT7 antagonism and 5-HT1A partial agonism — is believed to underlie mood-stabilizing and antidepressant effects, which is the pharmacological basis for its existing global approvals in bipolar I depression (monotherapy and adjunctive to lithium/divalproex).
+حالياً، لا تحتوي هذه مجموعة الأدلة على بيانات آلية الفعل المنظمة (تم الإشارة إليها كفجوة بيانات عالية الخطورة، DG002). بناءً على المعرفة الدوائية العامة، لوراسيدون (رمز التطوير SM-13496) هو عقار مضاد للذهان من الجيل الثاني من مشتقات البنزيسوثيازول يعمل كمضاد قوي لمستقبلات الدوبامين D2 والسيروتونين 5-HT2A، مع حصار عالي التقاربية لمستقبلات 5-HT7 والفعالية الناهضة الجزئية على 5-HT1A، وتقاربية ضئيلة جداً لمستقبلات H1/M1. يُعتقد أن ملف المستقبلات هذا — خاصة حصار 5-HT7 والفعالية الناهضة الجزئية 5-HT1A — يكمن وراء التأثيرات المستقرة للمزاج والمضادة للاكتئاب، وهي الأساس الدوائي لموافقاته العالمية الحالية في الاكتئاب ثنائي القطب من النوع الأول (كعلاج أحادي وإضافي إلى الليثيوم/ديفالبروكس).
 
-Bipolar disorder involves both depressive and manic poles managed with overlapping pharmacological classes (antipsychotics, mood stabilizers), which is consistent with why a model would associate lurasidone with the broader "bipolar affective disorder" disease space.
+ينطوي الاضطراب ثنائي القطب على كلا القطبين الاكتئابي والهوسي يتم إدارتهما بفئات دوائية متداخلة (مضادات الذهان، مثبتات المزاج)، وهو ما يتسق مع سبب ربط النموذج للوراسيدون بفضاء المرض الأوسع "الاضطراب الوجداني ثنائي القطب".
 
-**Important caveat:** the predicted indication here is specifically the *manic* pole ("manic bipolar affective disorder"), but nearly all retrieved clinical trial and literature evidence is for *bipolar I depression*, not mania. One review in the evidence set (PMID 31957501) explicitly states lurasidone "has not been studied in patients with mania or bipolar psychosis." This is a meaningful evidence gap that should not be glossed over — the strong evidence level (L1) reflects the bipolar depression literature, not direct mania efficacy data.
+**تحفظ مهم:** الدلالة المتنبأ بها هنا هي تحديداً القطب *الهوسي* ("اضطراب ثنائي القطب الهوسي الوجداني")، ولكن معظم الأدلة المسترجعة من التجارب السريرية والأدب العلمي هي للقطب *الاكتئابي* ثنائي القطب، وليس الهوس. يذكر أحد المراجعات في مجموعة الأدلة (PMID 31957501) بشكل صريح أن لوراسيدون "لم يتم دراسته في المرضى الذين يعانون من الهوس أو ذهان ثنائي القطب." وهذه فجوة أدلة ذات مغزى يجب ألا تتجاهلها — مستوى الدليل القوي (L1) يعكس أدب الاكتئاب ثنائي القطب، وليس بيانات فعالية الهوس المباشرة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | الاكتشافات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Phase 3 | Completed | 965 | Lurasidone adjunctive to lithium/divalproex for prevention of recurrence in Bipolar I Disorder, with/without rapid cycling or psychotic features |
-| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Phase 3 | Completed | 525 | Placebo-controlled pivotal trial of SM-13496 (lurasidone) in Bipolar I Depression |
-| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Phase 3 | Completed | 495 | Long-term efficacy and safety of SM-13496 (lurasidone) in Bipolar I Disorder |
-| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | Phase 3 | Completed | 702 | 104-week open-label extension of long-term safety/effectiveness of flexibly dosed lurasidone in pediatric subjects |
-| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Phase 3 | Completed | 377 | Open-label extension of lurasidone adjunctive to lithium/divalproex in Bipolar I Disorder |
-| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Phase 3 | Completed | 350 | 6-week double-blind, placebo-controlled RCT of flexibly dosed lurasidone in children/adolescents with Bipolar I Depression |
-| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | Phase 3 | Terminated | 124 | 6-week multicenter double-blind, placebo-controlled RCT of lurasidone for Bipolar I Depression (trial terminated early) |
-| [NCT06433635](https://clinicaltrials.gov/study/NCT06433635) | Phase 4 | Active, not recruiting | 2726 | SMART pragmatic RCT comparing four FDA-approved treatments (including lurasidone) for bipolar depression |
-| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Phase 3 | Completed | 100 | ELICE-BD: 6-week RCT of lurasidone adjunctive therapy for cognitive functioning in euthymic Bipolar I/II patients |
-| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Phase 3 | Completed | 53 | 6-week randomized, open-label study of lurasidone add-on vs. treatment-as-usual for cognitive functioning in euthymic Bipolar I patients |
+| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | المرحلة 3 | مكتملة | 965 | لوراسيدون إضافي إلى الليثيوم/ديفالبروكس للوقاية من الانتكاس في الاضطراب ثنائي القطب من النوع الأول، مع/بدون دورات سريعة أو سمات ذهانية |
+| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | المرحلة 3 | مكتملة | 525 | تجربة عشوائية محكومة بالعقار الوهمي محورية لـ SM-13496 (لوراسيدون) في الاكتئاب الثنائي القطب من النوع الأول |
+| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | المرحلة 3 | مكتملة | 495 | الفعالية طويلة الأمد والسلامة لـ SM-13496 (لوراسيدون) في اضطراب ثنائي القطب من النوع الأول |
+| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | المرحلة 3 | مكتملة | 702 | امتداد منفتح لمدة 104 أسابيع لسلامة وفعالية طويلة الأمد لوراسيدون بجرعات مرنة في المواضيع الأطفال |
+| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | المرحلة 3 | مكتملة | 377 | امتداد منفتح للوراسيدون الإضافي إلى الليثيوم/ديفالبروكس في اضطراب ثنائي القطب من النوع الأول |
+| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | المرحلة 3 | مكتملة | 350 | تجربة عشوائية محكومة بالعقار الوهمي مدتها 6 أسابيع من لوراسيدون بجرعات مرنة في الأطفال/المراهقين الذين يعانون من الاكتئاب الثنائي القطب من النوع الأول |
+| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | المرحلة 3 | متوقفة | 124 | تجربة عشوائية محكومة بالعقار الوهمي مدتها 6 أسابيع متعددة المراكز من لوراسيدون للاكتئاب الثنائي القطب من النوع الأول (تم إيقاف التجربة مبكراً) |
+| [NCT06433635](https://clinicaltrials.gov/study/NCT06433635) | المرحلة 4 | نشطة، غير مستقطبة | 2726 | تجربة عملية SMART تقارن أربع علاجات معتمدة من إدارة الغذاء والدواء (بما فيها لوراسيدون) للاكتئاب الثنائي القطب |
+| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | المرحلة 3 | مكتملة | 100 | ELICE-BD: تجربة عشوائية مدتها 6 أسابيع من لوراسيدون كعلاج إضافي للوظيفة الإدراكية في مرضى الاضطراب ثنائي القطب I/II الخاضعين للعلاج |
+| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | المرحلة 3 | مكتملة | 53 | دراسة عشوائية مدتها 6 أسابيع، منفتحة، لإضافة لوراسيدون مقابل العلاج المعتاد للوظيفة الإدراكية في مرضى الاضطراب ثنائي القطب من النوع الأول الخاضعين للعلاج |
 
-## Literature Evidence
+## دليل الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
 |------|-----|------|------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Systematic Review/Meta-analysis | BMJ Mental Health | Dose-response meta-analysis of lurasidone efficacy, acceptability, and metabolic/endocrine profile in bipolar depression |
-| [31957501](https://pubmed.ncbi.nlm.nih.gov/31957501/) | 2020 | Review | Expert Opinion on Pharmacotherapy | Reviews pharmacodynamics/pharmacokinetics and major RCTs of lurasidone; notes it has not been studied in mania or bipolar psychosis |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Network Meta-analysis | The Lancet Psychiatry | Comparative efficacy/tolerability of pharmacological interventions (including lurasidone) for acute bipolar depression |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Guideline | Bipolar Disorders | CANMAT/ISBD 2018 bipolar disorder management guidelines |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Guideline | Bipolar Disorders | CANMAT/ISBD recommendations for bipolar disorder with mixed presentations |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Systematic Review/Network Meta-analysis | Molecular Psychiatry | Mood stabilizers/antipsychotics for maintenance-phase bipolar disorder |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia-Pacific Psychiatry | Reviews antipsychotics (incl. lurasidone) approved for bipolar depression as antidepressant agents |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | General diagnosis and treatment review of bipolar disorder |
-| [40808269](https://pubmed.ncbi.nlm.nih.gov/40808269/) | 2025 | Consensus/Task Force Report | Bipolar Disorders | ISBD Task Force consensus definition of treatment-resistant bipolar depression |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Editorial/Commentary | American Journal of Psychiatry | Commentary on lurasidone and bipolar disorder |
+| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | مراجعة منهجية/تحليل تلوي | BMJ Mental Health | تحليل استجابة الجرعة لفعالية لوراسيدون والقبول والملف الأيضي/الغدد الصماء في الاكتئاب ثنائي القطب |
+| [31957501](https://pubmed.ncbi.nlm.nih.gov/31957501/) | 2020 | مراجعة | Expert Opinion on Pharmacotherapy | يراجع الديناميكا الدوائية/الحركية الدوائية والتجارب العشوائية المحكومة الرئيسية للوراسيدون؛ يذكر أنه لم يتم دراسته في الهوس أو ذهان ثنائي القطب |
+| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | تحليل شبكي | The Lancet Psychiatry | الفعالية النسبية/تحمل التدخلات الدوائية (بما فيها لوراسيدون) للاكتئاب الثنائي القطب الحاد |
+| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | إرشادات | Bipolar Disorders | إرشادات إدارة الاضطراب ثنائي القطب CANMAT/ISBD 2018 |
+| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | إرشادات | Bipolar Disorders | توصيات CANMAT/ISBD للاضطراب ثنائي القطب مع العروض المختلطة |
+| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | مراجعة منهجية/تحليل شبكي | Molecular Psychiatry | مثبتات المزاج/مضادات الذهان لمرحلة الصيانة في الاضطراب ثنائي القطب |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | مراجعة | Asia-Pacific Psychiatry | يراجع مضادات الذهان (بما فيها لوراسيدون) المعتمدة للاكتئاب ثنائي القطب كعوامل مضادة للاكتئاب |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | مراجعة | JAMA | مراجعة عامة لتشخيص وعلاج الاضطراب ثنائي القطب |
+| [40808269](https://pubmed.ncbi.nlm.nih.gov/40808269/) | 2025 | توافق آراء/تقرير فريق العمل | Bipolar Disorders | توافق آراء فريق العمل ISBD حول تعريف الاكتئاب الثنائي القطب المقاوم للعلاج |
+| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | افتتاحية/تعليق | American Journal of Psychiatry | تعليق على لوراسيدون والاضطراب ثنائي القطب |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Lurasidone is currently **not marketed** in Saudi Arabia — no license/authorization records exist in this evidence pack (0 licenses).
+لوراسيدون غير مسوّق حالياً في المملكة العربية السعودية — لا توجد سجلات ترخيص/تفويض في هذه مجموعة الأدلة (0 رخصة).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug interaction data are currently available in this evidence pack (TFDA package insert data is flagged as a Blocking data gap, DG001).
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. لا توجد بيانات منظمة حول التحذيرات أو موانع الاستعمال أو تفاعلات الأدوية متاحة حالياً في هذه مجموعة الأدلة (يتم الإشارة إلى بيانات نشرة TFDA كفجوة بيانات محظورة، DG001).
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات الحماية**
 
-**Rationale:**
-The bipolar-disorder literature and clinical trial base for lurasidone is substantial (multiple completed Phase 3 RCTs, including two placebo-controlled pivotal trials), supporting L1 evidence overall. However, the predicted indication is specifically the *manic* pole, and the retrieved evidence is overwhelmingly for *bipolar depression* — direct efficacy data for mania/bipolar psychosis is explicitly stated as lacking in the literature, so this prediction should be pursued cautiously and not treated as directly validated.
+**الأساس المنطقي:**
+أدب الاضطراب ثنائي القطب وقاعدة التجارب السريرية للوراسيدون كبيرة (العديد من التجارب العشوائية المحكومة المكتملة في المرحلة 3، بما فيها تجربتان محكومتان بالعقار الوهمي محوريتان)، وهي تدعم أدلة L1 بشكل عام. ومع ذلك، فإن الدلالة المتنبأ بها هي تحديداً القطب *الهوسي*، والأدلة المسترجعة هي بشكل عام للقطب *الاكتئابي* — لا توجد بيانات فعالية مباشرة للهوس/ذهان ثنائي القطب كما ذكر صراحةً في الأدب، لذا يجب متابعة هذا التنبؤ بحذر وعدم التعامل معه على أنه معتمد مباشرة.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert with warnings and contraindications (Blocking gap, DG001) — required before any safety pre-assessment (S1)
-- Verified mechanism-of-action documentation from DrugBank (High gap, DG002)
-- Dedicated evidence review for lurasidone specifically in manic/mixed episodes (not just bipolar depression) to confirm applicability to the predicted indication
-- Drug-drug interaction data, since none is currently available
+**لاستمرار المتابعة، يلزم ما يلي:**
+- نشرة TFDA/محلية بها تحذيرات وموانع استعمال (فجوة محظورة، DG001) — مطلوبة قبل أي تقييم سلامة مسبق (S1)
+- توثيق آلية الفعل المعتمدة من DrugBank (فجوة عالية، DG002)
+- مراجعة أدلة مخصصة للوراسيدون بشكل محدد في الحلقات الهوسية/المختلطة (وليس فقط الاكتئاب ثنائي القطب) لتأكيد الانطباق على الدلالة المتنبأ بها
+- بيانات تفاعلات الأدوية، نظراً لعدم توفر أي منها حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

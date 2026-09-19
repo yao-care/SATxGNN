@@ -29,86 +29,87 @@ indication_count: 1
 
 </div>
 
-# Flunarizine: From Vertigo to Migraine Disorder
+# فلونارزين: من الدوار إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Flunarizine is a calcium channel blocker traditionally used for vertigo and vestibular disorders. The TxGNN model predicts it may be effective for **Migraine Disorder** (specifically migraine prophylaxis), a use already supported by an extensive body of real-world evidence — **19 clinical trials** and **20 publications** are currently on record for this drug-disease pair, including multiple head-to-head Phase 4 RCTs and a dedicated systematic review/meta-analysis.
+فلونارزين هو حاصر قنوات الكالسيوم المستخدم تقليديًا في الدوار واضطرابات الجهاز الدهليزي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الصداع النصفي** (على وجه التحديد الوقاية من الصداع النصفي)، وهو استخدام مدعوم بالفعل بجسم واسع من الأدلة العملية — هناك حاليًا **19 تجربة سريرية** و **20 منشورًا** موثقة لهذا الزوج من الدواء والمرض، بما في ذلك عدة تجارب معشاة ذات شواهد من المرحلة 4 للمقارنة المباشرة ومراجعة منهجية / تحليل تلوي مخصص.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Vertigo (traditional use per literature; no formal license record found in this market) |
-| Predicted New Indication | Migraine Disorder (prophylaxis) |
-| TxGNN Prediction Score | 99.12% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | الدوار (الاستخدام التقليدي وفقًا للأدبيات؛ لم يتم العثور على سجل ترخيص رسمي في هذا السوق) |
+| الاستطباب الجديد المتنبأ به | اضطراب الصداع النصفي (الوقاية) |
+| درجة التنبؤ TxGNN | 99.12% |
+| مستوى الأدلة | L1 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed original mechanism-of-action data from DrugBank is not available for this drug (Data Gap DG002). However, evidence from the clinical trial and literature records in this pack consistently describes flunarizine as a non-selective calcium channel antagonist (T-type/L-type) with additional antihistaminic and weak dopamine-antagonist activity. It acts on cerebral vascular smooth muscle and cortical neurons to inhibit vasospasm and cortical spreading depression — a mechanism that is already a standard pharmacological explanation for migraine prophylaxis, not a speculative link.
+حاليًا، لا تتوفر بيانات تفصيلية عن آلية العمل الأصلية من DrugBank لهذا الدواء (فجوة البيانات DG002). ومع ذلك، توصف الأدلة من سجلات التجارب السريرية والأدبيات في هذه الحزمة باستمرار فلونارزين كمضاد انتقائي لقنوات الكالسيوم (من نوع T/L) مع نشاط مضاد للهستامين إضافي ونشاط ضعيف مضاد للدوبامين. يعمل على عضلات الأوعية الدموية الدماغية والخلايا القشرية لمنع تشنج الأوعية والاكتئاب القشري الانتشاري — آلية هي بالفعل شرح صيدلاني معياري لوقاية الصداع النصفي، وليس ارتباطًا تخمينيًا.
 
-Flunarizine's traditional indication, vertigo/vestibular disorder, and the predicted new indication, migraine prophylaxis, share a common vascular and neuronal excitability pathophysiology. Both conditions involve dysregulation of cerebral blood flow and neuronal hyperexcitability, which calcium channel blockade can modulate.
+يتشارك الاستطباب التقليدي لفلونارزين، الدوار/اضطراب الجهاز الدهليزي، والاستطباب الجديد المتنبأ به، وقاية الصداع النصفي، في الفيزيولوجيا المرضية الوعائية والعصبية والإثارة المشتركة. كلا الحالتين تتضمنان اختلالًا في تنظيم تدفق الدم الدماغي والإثارة الزائدة للخلايا العصبية، والتي يمكن لحصار قنوات الكالسيوم أن يعدل عليها.
 
-This mechanistic overlap is reflected in decades of clinical use: flunarizine is already an established first- or second-line migraine prophylactic agent in many jurisdictions (Sibelium), with head-to-head trials against topiramate, propranolol, and amitriptyline. In this market, however, the drug is not currently registered or marketed, so the "new indication" signal here is best read as a market-entry / label-expansion opportunity rather than a mechanistically novel discovery — the EHF (European Headache Federation) 2023 critical re-appraisal (PMID 37723437) explicitly frames flunarizine as a "repurposed, first- or second-line treatment for migraine prophylaxis," reinforcing that this is a well-characterized rather than speculative association.
+ينعكس هذا التداخل الآلي في عقود من الاستخدام السريري: فلونارزين هو بالفعل عامل وقاية الصداع النصفي من الخط الأول أو الثاني المثبت في العديد من الاختصاصات القضائية (Sibelium)، مع تجارب المقارنة المباشرة ضد توبيرامات وبروبرانولول وأميتريبتيلين. في هذا السوق، لكن الدواء لم يتم تسجيله أو تسويقه حاليًا، لذا فإن إشارة "الاستطباب الجديد" هنا يُفضل قراءتها كفرصة دخول السوق / توسيع العلامة بدلاً من اكتشاف آلي جديد — يؤطر الاتحاد الأوروبي لأمراض الصداع (EHF) 2023 إعادة التقييم الحرجة (PMID 37723437) فلونارزين بشكل صريح كعلاج "مُعاد تخصيصه من الخط الأول أو الثاني لوقاية الصداع النصفي"، مما يعزز أن هذا ارتباط محسوب بشكل جيد بدلاً من كونه ارتباطًا تخمينيًا.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | Phase 4 | Completed | 62 | Head-to-head comparison of flunarizine 10mg/day vs. topiramate 50mg/day for chronic migraine prophylaxis |
-| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | N/A | Completed | 120 | Three-arm comparison of greater occipital nerve block, topiramate, and flunarizine for episodic migraine |
-| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | N/A | Unknown | 84 | Flunarizine vs. amitriptyline for migraine prophylaxis (Lahore, Pakistan); follow-up status uncertain |
-| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | N/A | Recruiting | 44 | Flunarizine vs. propranolol in pediatric migraine (ages 8-15), assessed via PedMIDAS score |
-| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | Not Yet Recruiting | 460 | Pragmatic multicentre RCT comparing amitriptyline, flunarizine, topiramate, and propranolol as first-line migraine prophylaxis in primary care |
-| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | Completed | 75 | Pharmacokinetic drug interaction study of flunarizine and topiramate during mono- and concomitant therapy |
+| [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | المرحلة 4 | مكتملة | 62 | مقارنة مباشرة بين فلونارزين 10 ملغ/يوم مقابل توبيرامات 50 ملغ/يوم لوقاية الصداع النصفي المزمن |
+| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | غير محدد | مكتملة | 120 | مقارنة ثلاثية الأذرع لحصار العصب الзатылочي السفلي الأعظم وتوبيرامات وفلونارزين لعلاج الصداع النصفي الحلقي |
+| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | غير محدد | غير معروفة | 84 | فلونارزين مقابل أميتريبتيلين لوقاية الصداع النصفي (لاهور، باكستان)؛ حالة المتابعة غير مؤكدة |
+| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | غير محدد | جاري التجنيد | 44 | فلونارزين مقابل بروبرانولول في الصداع النصفي عند الأطفال (أعمار 8-15)، يتم تقييمه عبر درجة PedMIDAS |
+| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | المرحلة 4 | لم يبدأ التجنيد بعد | 460 | تجربة عملية متعددة المراكز معشاة ذات شواهد تقارن أميتريبتيلين وفلونارزين وتوبيرامات وبروبرانولول كعلاج وقائي من الخط الأول للصداع النصفي في الرعاية الأولية |
+| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | المرحلة 1 | مكتملة | 75 | دراسة التفاعل الدوائي الدوائي لفلونارزين وتوبيرامات أثناء العلاج أحادي ومتزامن |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| معرف PubMed | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [37723437](https://pubmed.ncbi.nlm.nih.gov/37723437/) | 2023 | Systematic Review / Meta-analysis | The Journal of Headache and Pain | European Headache Federation critical re-appraisal and meta-analysis of flunarizine for migraine prevention |
-| [40553594](https://pubmed.ncbi.nlm.nih.gov/40553594/) | 2025 | Systematic Review / Meta-analysis | J Assoc Physicians India | Comparative efficacy and safety of amitriptyline vs. propranolol and flunarizine for migraine prophylaxis |
-| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network Meta-Analysis | JAMA Network Open | Preventive medications (including flunarizine) compared across pediatric migraine trials |
-| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | Systematic Review | Health Technology Assessment | Comparative clinical and cost-effectiveness of preventive drugs for chronic migraine |
-| [40614441](https://pubmed.ncbi.nlm.nih.gov/40614441/) | 2025 | Clinical Study | Brain & Development | Topiramate vs. flunarizine compared on pain control and school/social performance in pediatric migraine |
-| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | RCT | Acta Neurologica Scandinavica | Flunarizine plus transcutaneous supraorbital neurostimulation improves migraine prophylaxis vs. either alone |
-| [35791513](https://pubmed.ncbi.nlm.nih.gov/35791513/) | 2022 | Clinical Study | Brain and Behavior | Flunarizine combined with duloxetine for chronic migraine comorbid with depression/anxiety |
-| [33722518](https://pubmed.ncbi.nlm.nih.gov/33722518/) | 2022 | Controlled Study | Braz J Otorhinolaryngol | Propranolol, flunarizine, amitriptyline, and botulinum toxin compared for vestibular migraine |
-| [9443168](https://pubmed.ncbi.nlm.nih.gov/9443168/) | 1997 | Observational Study | Pharmacy World & Science | Postmarketing study (n=686) of flunarizine vs. propranolol in migraine, and vs. betahistine in vertigo |
-| [1889980](https://pubmed.ncbi.nlm.nih.gov/1889980/) | 1991 | Review | Headache | Mechanistic minireview establishing flunarizine's efficacy in migraine prophylaxis across controlled trials |
+| [37723437](https://pubmed.ncbi.nlm.nih.gov/37723437/) | 2023 | مراجعة منهجية / تحليل تلوي | مجلة الصداع والألم | إعادة تقييم حرجة للاتحاد الأوروبي لأمراض الصداع وتحليل تلوي لفلونارزين لمنع الصداع النصفي |
+| [40553594](https://pubmed.ncbi.nlm.nih.gov/40553594/) | 2025 | مراجعة منهجية / تحليل تلوي | مجلة جمعية الأطباء الهند | الفعالية المقارنة والسلامة لأميتريبتيلين مقابل بروبرانولول وفلونارزين لوقاية الصداع النصفي |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | تحليل تلوي للشبكة | JAMA Network Open | الأدوية الوقائية (بما في ذلك فلونارزين) مقارنة عبر تجارب الصداع النصفي عند الأطفال |
+| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | مراجعة منهجية | تقييم التكنولوجيا الصحية | الفعالية السريرية المقارنة وفعالية التكلفة للأدوية الوقائية للصداع النصفي المزمن |
+| [40614441](https://pubmed.ncbi.nlm.nih.gov/40614441/) | 2025 | دراسة سريرية | دماغ والنمو | توبيرامات مقابل فلونارزين مقارنة للتحكم في الألم والأداء المدرسية والاجتماعية في الصداع النصفي عند الأطفال |
+| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | تجربة معشاة ذات شواهد | Acta Neurologica Scandinavica | فلونارزين بالإضافة إلى التحفيز الكهربائي العصبي فوق الحجاجي المتعالي يحسّن وقاية الصداع النصفي مقابل أي منهما وحده |
+| [35791513](https://pubmed.ncbi.nlm.nih.gov/35791513/) | 2022 | دراسة سريرية | دماغ والسلوك | فلونارزين مدمج مع دولوكستين للصداع النصفي المزمن المصحوب بالاكتئاب والقلق |
+| [33722518](https://pubmed.ncbi.nlm.nih.gov/33722518/) | 2022 | دراسة محكومة | البرازيلية للأنف والأذن والحنجرة | بروبرانولول وفلونارزين وأميتريبتيلين وسم البوتيولينوم مقارنة لالتهاب الدهليز الصداعي |
+| [9443168](https://pubmed.ncbi.nlm.nih.gov/9443168/) | 1997 | دراسة رصدية | صيدلية العالم والعلوم | دراسة ما بعد التسويق (ن=686) لفلونارزين مقابل بروبرانولول في الصداع النصفي، ومقابل بيتاهيستين في الدوار |
+| [1889980](https://pubmed.ncbi.nlm.nih.gov/1889980/) | 1991 | مراجعة | الصداع | استعراض آلية صغيرة تؤسس فعالية فلونارزين في وقاية الصداع النصفي عبر التجارب المحكومة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. TFDA warnings, contraindications, and drug-drug interaction data are not currently available for this drug in this evidence pack (Data Gap DG001, blocking).
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. تحذيرات إدارة الغذاء والدواء (TFDA)، موانع الاستعمال، وبيانات التفاعلات الدوائية لا تتوفر حاليًا لهذا الدواء في حزمة الأدلة هذه (فجوة البيانات DG001، حاصرة).
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات حماية**
 
-**Rationale:**
-Evidence for flunarizine in migraine prophylaxis is strong (L1) — including multiple completed Phase 4 head-to-head RCTs against topiramate, propranolol, and amitriptyline, plus a dedicated EHF systematic review/meta-analysis. However, the drug is currently unregistered and unmarketed in this jurisdiction, and safety data (warnings, contraindications, DDI) has a blocking gap that must close before any S1 safety review can proceed.
+**الأساس المنطقي:**
+الأدلة على فعالية فلونارزين في وقاية الصداع النصفي قوية (L1) — تشمل عدة تجارب معشاة ذات شواهد مكتملة من المرحلة 4 للمقارنة المباشرة ضد توبيرامات وبروبرانولول وأميتريبتيلين، بالإضافة إلى مراجعة منهجية / تحليل تلوي مخصص للاتحاد الأوروبي لأمراض الصداع. ومع ذلك، الدواء حاليًا غير مسجل وغير مسوق في هذا الاختصاص القضائي، وبيانات السلامة (التحذيرات، موانع الاستعمال، التفاعلات الدوائية) لديها فجوة حاصرة يجب إغلاقها قبل أن تتمكن أي مراجعة سلامة S1 من المتابعة.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (DG001, blocking) — required before S1 safety screening
-- DrugBank-sourced mechanism of action confirmation (DG002)
-- Formal regulatory pathway assessment given the drug's current "not marketed" status in this jurisdiction
-- Drug-drug interaction data (current query status: not found)
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات إدارة الغذاء والدواء (TFDA) / النشرة الداخلية المحلية وموانع الاستعمال (DG001، حاصرة) — مطلوبة قبل فحص السلامة S1
+- تأكيد آلية العمل المستمد من DrugBank (DG002)
+- تقييم المسار التنظيمي الرسمي نظرًا لحالة الدواء الحالية "غير المسوق" في هذا الاختصاص القضائي
+- بيانات التفاعلات الدوائية (حالة الاستعلام الحالية: لم يتم العثور عليها)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,72 +29,73 @@ indication_count: 4
 
 </div>
 
-# Ropivacaine: From Regional Anesthesia to Migraine Disorder
+# روبيفاكايين: من التخدير الإقليمي إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ropivacaine is an amide-type local anesthetic conventionally used for regional and surgical anesthesia via nerve blockade. The TxGNN model predicts it may have therapeutic value in **Migraine Disorder** when used as the injectate for sphenopalatine, stellate, or trigger-point nerve blocks, with **4 clinical trials** and **6 publications** currently supporting this direction.
+روبيفاكايين هو مخدر موضعي من نوع الأميد يُستخدم بشكل تقليدي للتخدير الإقليمي والجراحي عبر الحصار العصبي. يتنبأ نموذج TxGNN بأنه قد يكون له قيمة علاجية في **اضطراب الصداع النصفي** عند استخدامه كحاقن للحصار العصبي لعقدة الوتدية الحنكية أو العقدة النجمية أو نقاط الإثارة، مع **4 تجارب سريرية** و**6 منشورات** تدعم هذا الاتجاه حالياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not licensed in Saudi Arabia (drug not marketed, no license text on file); internationally used for regional/surgical anesthesia and acute pain management |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير مرخص في المملكة العربية السعودية (الدواء غير مسوق، لا توجد نصوص الترخيص في الملف)؛ يُستخدم دولياً للتخدير الإقليمي والجراحي وإدارة الألم الحاد |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| نقاط تنبؤ TxGNN | 99.65% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in structured form. Based on the available repurposing rationale, ropivacaine is an amide-class local anesthetic that blocks voltage-gated neuronal sodium channels, inhibiting nerve impulse conduction. It is not proposed here as a systemic drug for migraine — rather, it is the injectate used in interventional nerve-block procedures (sphenopalatine ganglion block, stellate ganglion block, thoracic sympathetic block, or paraspinal/trigger-point injection).
+حالياً، بيانات آلية العمل المفصلة غير متاحة في شكل منظم. بناءً على الأساس المنطقي المتاح للإعادة، روبيفاكايين هو مخدر موضعي من فئة الأميد يحجب قنوات الصوديوم العصبية المعتمدة على الجهد، مما يثبط نقل النبضات العصبية. لا يُقترح استخدامه هنا كدواء جهازي للصداع النصفي، بل كحاقن يُستخدم في إجراءات حصار الأعصاب التدخلية (حصار عقدة الوتدية الحنكية، حصار العقدة النجمية، حصار الودي الصدري، أو الحقن داخل الفقرات/نقاط الإثارة).
 
-The mechanistic link to migraine is indirect: by blocking the trigeminovascular system and head/neck sympathetic-parasympathetic outflow pathways, these procedures may modulate migraine pathophysiology. This is an established interventional pain-medicine technique rather than a conventional systemic drug-repurposing scenario — ropivacaine functions as a procedural tool, and the "reuse" is really the reuse of the anesthetic block technique for a new target condition.
+الارتباط الآلي مع الصداع النصفي غير مباشر: من خلال حجب جهاز ثلاثي التوائم الوعائي ومسارات تصريف الودي واللاودي في الرأس والرقبة، قد تعدل هذه الإجراءات الفسيولوجيا المرضية للصداع النصفي. هذه تقنية راسخة في الطب التدخلي للألم وليست سيناريو إعادة استخدام دواء جهازي تقليدي - يعمل روبيفاكايين كأداة إجرائية، و"الاستخدام الجديد" هو حقاً استخدام تقنية الحصار التخديري لحالة مستهدفة جديدة.
 
-Because ropivacaine is not currently marketed in Saudi Arabia and no TFDA/Saudi package insert data is available (blocking data gap), the original approved indication and formal safety profile cannot be independently verified against this evidence pack — this is a material limitation on confidence, not just on the mechanistic story.
+نظراً لأن روبيفاكايين غير مسوق حالياً في المملكة العربية السعودية وبيانات TFDA/نشرة الدواء السعودية غير متاحة (فجوة بيانات محجوبة)، لا يمكن التحقق من المؤشر الأصلي والملف الشامل للسلامة بشكل مستقل مقابل هذه الحزمة الثبوتية - هذا قيد أساسي على الثقة، وليس فقط على القصة الآلية.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03666663](https://clinicaltrials.gov/study/NCT03666663) | Phase 4 | Completed | 10 | Randomized, double-blind, placebo-controlled trial of sphenopalatine ganglion block with nasal anesthetics (including ropivacaine) for migraine prevention; rigorous design but very small sample limits statistical power. |
-| [NCT00680823](https://clinicaltrials.gov/study/NCT00680823) | N/A | Completed | 150 | Paraspinal intramuscular ropivacaine injection evaluated as a treatment for pediatric headache in an emergency department setting; completed with a reasonable sample size but non-RCT design. |
-| [NCT05301387](https://clinicaltrials.gov/study/NCT05301387) | N/A | Completed | 38 | Sphenopalatine ganglion block vs. placebo, follow-up on long-term effects for postdural puncture headache — a related but distinct headache entity from classic migraine. |
-| [NCT06470581](https://clinicaltrials.gov/study/NCT06470581) | N/A | Not yet recruiting | 78 | Thoracic sympathetic ganglion block trial; primary intervention is Botulinum Toxin Type A, with ropivacaine as a secondary/comparator component — low direct relevance. |
+| [NCT03666663](https://clinicaltrials.gov/study/NCT03666663) | المرحلة 4 | مكتملة | 10 | تجربة عشوائية، مزدوجة التعمية، خاضعة لسيطرة الدواء الوهمي لحصار عقدة الوتدية الحنكية بالمخدرات الموضعية الأنفية (بما فيها روبيفاكايين) لمنع الصداع النصفي؛ التصميم صارم لكن الحجم الصغير جداً يحد من القوة الإحصائية. |
+| [NCT00680823](https://clinicaltrials.gov/study/NCT00680823) | غير محدد | مكتملة | 150 | حقن روبيفاكايين داخل العضلات داخل الفقرات تم تقييمها كعلاج للصداع عند الأطفال في قسم الطوارئ؛ اكتملت بحجم عينة معقول لكن التصميم غير عشوائي. |
+| [NCT05301387](https://clinicaltrials.gov/study/NCT05301387) | غير محدد | مكتملة | 38 | حصار عقدة الوتدية الحنكية مقابل الدواء الوهمي، متابعة التأثيرات طويلة الأمد لصداع ما بعد الثقب الجافي - كيان صداع مرتبط لكن متميز عن الصداع النصفي الكلاسيكي. |
+| [NCT06470581](https://clinicaltrials.gov/study/NCT06470581) | غير محدد | لم يبدأ التجنيد بعد | 78 | تجربة حصار الودي الصدري؛ التدخل الأساسي هو ذيفان البوتولينوم من النوع أ، مع روبيفاكايين كمكون ثانوي/مقارن - الملاءمة المباشرة منخفضة. |
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [24284858](https://pubmed.ncbi.nlm.nih.gov/24284858/) | 2013 | Review | Pain Physician | Reviews transnasal topical sphenopalatine ganglion block techniques for headache and facial pain, including a novel procedural revision. |
-| [35331152](https://pubmed.ncbi.nlm.nih.gov/35331152/) | 2022 | Cohort | BMC Anesthesiology | Observational study of real-time ultrasound-guided stellate ganglion block for migraine pain relief and quality-of-life improvement. |
-| [17244105](https://pubmed.ncbi.nlm.nih.gov/17244105/) | 2007 | Cohort | Pain Medicine | Evaluates ropivacaine trigger-point inactivation as prophylactic treatment over a 12-week period in patients with severe migraine. |
-| [30043973](https://pubmed.ncbi.nlm.nih.gov/30043973/) | 2019 | Cohort | Headache | Regional anesthetic sphenopalatine ganglion block assessed for self-reported pain relief in status migrainosus (attacks lasting >72 hours). |
-| [19145569](https://pubmed.ncbi.nlm.nih.gov/19145569/) | 2009 | Case Report | Revista de Neurología | Case report of Horner's syndrome following epidural analgesia; only tangentially connected to migraine via TxGNN embedding similarity. |
-| [17058040](https://pubmed.ncbi.nlm.nih.gov/17058040/) | 2006 | Case Report | The Journal of Headache and Pain | Case report describing migraine headache as a rare complication following cervicothoracic block. |
+| [24284858](https://pubmed.ncbi.nlm.nih.gov/24284858/) | 2013 | مراجعة | Pain Physician | يراجع تقنيات حصار عقدة الوتدية الحنكية عبر الأنف الموضعية للصداع والألم الوجهي، بما فيها تعديل إجرائي جديد. |
+| [35331152](https://pubmed.ncbi.nlm.nih.gov/35331152/) | 2022 | دراسة مجموعة | BMC Anesthesiology | دراسة رصد لحصار العقدة النجمية الموجهة بالموجات فوق الصوتية في الوقت الفعلي لتسكين ألم الصداع النصفي وتحسين جودة الحياة. |
+| [17244105](https://pubmed.ncbi.nlm.nih.gov/17244105/) | 2007 | دراسة مجموعة | Pain Medicine | يقيّم تعطيل نقطة الإثارة بروبيفاكايين كعلاج وقائي على مدى فترة 12 أسبوع لدى المرضى الذين يعانون من صداع نصفي شديد. |
+| [30043973](https://pubmed.ncbi.nlm.nih.gov/30043973/) | 2019 | دراسة مجموعة | Headache | تم تقييم حصار عقدة الوتدية الحنكية بالمخدر الإقليمي لتسكين الألم الذي يبلغ عنه المريض في حالة صداع نصفي مستمرة (نوبات تستمر لأكثر من 72 ساعة). |
+| [19145569](https://pubmed.ncbi.nlm.nih.gov/19145569/) | 2009 | تقرير حالة | Revista de Neurología | حالة متلازمة هورنر التالية للتخدير فوق الجافية؛ متصلة بشكل عرضي فقط بالصداع النصفي عبر تشابه تضمين TxGNN. |
+| [17058040](https://pubmed.ncbi.nlm.nih.gov/17058040/) | 2006 | تقرير حالة | The Journal of Headache and Pain | حالة وصفت صداع الصداع النصفي كمضاعفة نادرة بعد حصار عنقي-صدري. |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Ropivacaine currently has no market authorization on file in Saudi Arabia (0 licenses; market status: Not marketed/Not marketed).
+روبيفاكايين حالياً لا يوجد لديه ترخيص تسويق في الملف في المملكة العربية السعودية (0 ترخيص؛ حالة السوق: غير مسوق/غير مسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-Evidence is heterogeneous and mostly procedural (nerve-block technique) rather than systemic drug repurposing, the only placebo-controlled RCT (NCT03666663) is underpowered (n=10), and ropivacaine is not currently marketed in Saudi Arabia with no TFDA/package-insert safety data available — a blocking gap for any S1 safety review.
+**الأساس المنطقي:**
+الدليل غير متجانس وفي الغالب إجرائي (تقنية حصار الأعصاب) بدلاً من إعادة الاستخدام الدواء الجهازي، والتجربة الوحيدة الخاضعة للسيطرة بالعقار الوهمي (NCT03666663) تفتقر إلى القوة (n=10)، وروبيفاكايين غير مسوق حالياً في المملكة العربية السعودية بدون بيانات TFDA/نشرة الدواء السعودية المتاحة - فجوة محجوبة لأي مراجعة سلامة S1.
 
-**To proceed, the following is needed:**
-- TFDA/Saudi package insert data (warnings, contraindications) to clear the blocking safety gap (DG001)
-- Structured mechanism-of-action confirmation from DrugBank (DG002)
-- A larger, adequately powered RCT specifically evaluating ropivacaine-based nerve blocks for migraine (beyond the n=10 Phase 4 trial)
-- Clarification of regulatory pathway, since the drug would need a Saudi Arabia marketing authorization before this indication could be pursued locally
+**للمتابعة، يلزم ما يلي:**
+- بيانات TFDA/نشرة الدواء السعودية (التحذيرات، موانع الاستخدام) لتجاوز فجوة السلامة المحجوبة (DG001)
+- تأكيد آلية العمل المنظمة من DrugBank (DG002)
+- تجربة عشوائية محكومة أكبر وكافية القوة تقيّم بشكل خاص حصارات الأعصاب المستندة إلى روبيفاكايين للصداع النصفي (بما يتجاوز n=10 تجربة المرحلة 4)
+- توضيح المسار التنظيمي، لأن الدواء سيحتاج إلى ترخيص تسويق في المملكة العربية السعودية قبل أن يمكن متابعة هذا المؤشر محلياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

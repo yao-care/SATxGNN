@@ -29,77 +29,78 @@ indication_count: 10
 
 </div>
 
-# Alglucosidase Alfa: From Pompe Disease to Adult Polyglucosan Body Disease
+# ألفا جلوكوسيديز: من داء بومبي إلى اضطراب أجسام البوليجلوكوسان لدى البالغين
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Alglucosidase alfa is a recombinant human enzyme replacement therapy (ERT) originally approved for Pompe disease (glycogen storage disease type II / GAA deficiency), where it restores lysosomal acid alpha-glucosidase (GAA) activity to clear pathological glycogen accumulation in muscle tissue.
-The TxGNN model predicts it may be effective for **Adult Polyglucosan Body Disease (APBD)**,
-with **0 clinical trials** and **0 publications** currently supporting this direction — evidence is at the model-prediction level only.
+ألفا جلوكوسيديز هو علاج بديل للإنزيم (ERT) مشتق من الإنسان تمت الموافقة عليه في الأصل لداء بومبي (مرض تخزين الجليكوجين من النوع الثاني / نقص GAA)، حيث يعيد نشاط حمض ألفا-جلوكوسيديز (GAA) الليزوسومي لإزالة تراكم الجليكوجين المرضي في أنسجة العضلات.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب أجسام البوليجلوكوسان لدى البالغين (APBD)**،
+مع **0 تجارب سريرية** و **0 منشورات** تدعم هذا الاتجاه حالياً — الأدلة على مستوى التنبؤ بالنموذج فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Pompe Disease (Glycogen Storage Disease Type II / GAA deficiency) |
-| Predicted New Indication | Adult Polyglucosan Body Disease (APBD) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| الاستطباب الأصلي | داء بومبي (مرض تخزين الجليكوجين من النوع الثاني / نقص GAA) |
+| الاستطباب الجديد المتنبأ به | اضطراب أجسام البوليجلوكوسان لدى البالغين (APBD) |
+| درجة تنبؤ TxGNN | 99.47% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير معروض |
+| عدد الموافقات | 0 |
+| القرار الموصى به | **انتظار** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, alglucosidase alfa is a recombinant form of human acid alpha-glucosidase (GAA) — the lysosomal enzyme responsible for breaking down glycogen via α-1,4 and α-1,6 glycosidic bond hydrolysis. In Pompe disease, absence or severe deficiency of endogenous GAA leads to progressive glycogen accumulation in cardiac and skeletal muscle lysosomes. Alglucosidase alfa is taken up by cells via mannose-6-phosphate receptors, delivered to lysosomes, and restores this catabolic capacity.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية في حزمة الأدلة. بناءً على المعلومات المعروفة، ألفا جلوكوسيديز هو شكل مشتق من الإنسان من حمض ألفا-جلوكوسيديز الليزوسومي (GAA) — الإنزيم الليزوسومي المسؤول عن تحطيم الجليكوجين عبر هيدروليز الروابط الجليكوسيدية α-1,4 و α-1,6. في داء بومبي، يؤدي غياب أو نقص شديد في GAA الداخلي إلى تراكم تدريجي للجليكوجين في الليزوسومات في العضلات القلبية والهيكلية. يتم امتصاص ألفا جلوكوسيديز من قبل الخلايا عبر مستقبلات الفوسفات-6-مانوز، وتسليمه إلى الليزوسومات، واستعادة هذه القدرة الابتقائية.
 
-Adult Polyglucosan Body Disease (APBD) is caused by partial deficiency of glycogen branching enzyme (GBE), an entirely different enzyme in the glycogen synthesis pathway. The result is accumulation of poorly-branched, insoluble polyglucosan bodies in neuronal axons, peripheral nerves, and cardiac muscle. The mechanistic link to alglucosidase alfa is theoretical: because polyglucosan bodies contain long α-1,4-linked glucose chains, GAA enzyme activity could hypothetically hydrolyze them — the same bond class it cleaves in Pompe disease. This shared substrate chemistry is what the TxGNN knowledge graph likely detected as a structural similarity between the two diseases.
+اضطراب أجسام البوليجلوكوسان لدى البالغين (APBD) ناجم عن نقص جزئي في إنزيم التفرع الجليكوجيني (GBE)، وهو إنزيم مختلف تماماً في مسار تخليق الجليكوجين. والنتيجة هي تراكم أجسام بوليجلوكوسان رديئة التفرع وغير ذوابة في المحاور العصبية والأعصاب الطرفية والعضلة القلبية. الرابط الآلي لألفا جلوكوسيديز نظري: نظراً لأن أجسام البوليجلوكوسان تحتوي على سلاسل جلوكوز طويلة المرتبطة بـ α-1,4، قد يكون نشاط إنزيم GAA قادراً نظرياً على هيدروليز هذه الروابط — نفس فئة الروابط التي يقطعها في داء بومبي. كيمياء الركيزة المشتركة هذه هي على الأرجح ما اكتشفه الرسم البياني المعرفي لـ TxGNN كتشابه هيكلي بين المرضين.
 
-However, the mechanistic rationale has critical weaknesses. APBD's root cause is GBE deficiency, not GAA deficiency; alglucosidase alfa does not restore GBE function or correct the upstream branching defect. Furthermore, standard ERT delivery relies on mannose-6-phosphate receptor-mediated uptake into lysosomes, whereas polyglucosan bodies in APBD are found in neuronal axons — a compartment with poor lysosomal ERT penetration. The high TxGNN score (99.47%) most likely reflects graph-level clustering among glycogen metabolism diseases rather than validated pharmacological applicability. Notably, ranks 4–10 in the prediction list are ophthalmological structural conditions (entropion, ectropion, Horner syndrome, epiblepharon, etc.) with no conceivable mechanistic relationship to lysosomal ERT, confirming that topological graph artifacts are influencing the model's output significantly.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الأساس المنطقي الآلي له نقاط ضعف حرجة. السبب الجذري لـ APBD هو نقص GBE وليس نقص GAA؛ ألفا جلوكوسيديز لا يعيد وظيفة GBE أو يصحح العيب في التفرع السابق. علاوة على ذلك، يعتمد علاج الإنزيم البديل القياسي على امتصاص وسيط بواسطة مستقبل الفوسفات-6-مانوز إلى الليزوسومات، بينما توجد أجسام البوليجلوكوسان في APBD في المحاور العصبية — حيز ذو اختراق ضعيف لـ ERT الليزوسومي. درجة TxGNN العالية (99.47%) تعكس على الأرجح التجميع على مستوى الرسم البياني بين أمراض استقلاب الجليكوجين بدلاً من قابلية الصيدلة المدققة والمصرح بها. والجدير بالملاحظة أن الرتب 4-10 في قائمة التنبؤ تتعلق بحالات هيكلية طب العيون (رفة الجفن الداخلية، والنسخة الخارجية، ومتلازمة هورنر، وإبيبليفارون، وغيرها) دون وجود أي علاقة يمكن تصورها مع علاج الإنزيم البديل الليزوسومي، مما يؤكد أن القطع الزائفة الطوبولوجية للرسم البياني تؤثر بشكل كبير على مخرجات النموذج.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Alglucosidase alfa is currently **not approved or marketed in Saudi Arabia**. No SFDA regulatory authorizations are on record.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+لا تتوفر حالياً أدلة أدبية ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+ألفا جلوكوسيديز حالياً **غير معتمد أو معروض في المملكة العربية السعودية**. لا توجد موافقات تنظيمية من الهيئة العامة للغذاء والدواء (SFDA) مسجلة.
 
-**Rationale:**
-While a theoretical mechanistic bridge exists between alglucosidase alfa's glycogen-cleaving activity and the polyglucosan substrate in APBD, the root enzyme defect in APBD (GBE deficiency) is distinct from what this drug addresses (GAA deficiency), neuronal axonal delivery of lysosomal ERT is unestablished, and there is zero clinical or preclinical evidence to date. The evidence level is L5 (model prediction only).
+---
 
-**To proceed, the following is needed:**
-- Preclinical validation in GBE-deficient cell or animal models to determine whether alglucosidase alfa can reduce neuronal polyglucosan accumulation in vivo
-- Pharmacokinetic/pharmacodynamic data on CNS and peripheral nerve penetration for lysosomal ERT
-- Mechanistic clarification of whether GAA-mediated hydrolysis of polyglucosan chains can provide clinically meaningful benefit in the absence of GBE restoration
-- Saudi Arabia SFDA regulatory filing: the drug is currently not registered locally and would require a complete dossier prior to any clinical investigation
-- Full safety profile documentation (package insert warnings, contraindications, and drug interaction data) to support an SFDA pre-IND application
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+بينما يوجد جسر آلي نظري بين نشاط تحطيم الجليكوجين لدى ألفا جلوكوسيديز وركيزة البوليجلوكوسان في APBD، فإن العيب الإنزيمي الجذري في APBD (نقص GBE) يختلف عما يعالجه هذا الدواء (نقص GAA)، وتسليم ERT الليزوسومي إلى المحاور العصبية غير مثبت، ولا توجد أي أدلة سريرية أو ما قبل السريرية حتى الآن. مستوى الدليل هو L5 (تنبؤ النموذج فقط).
+
+**للمتابعة، يلزم الآتي:**
+- التحقق من الصحة قبل السريرية في نماذج خلية أو حيوانية ناقصة GBE لتحديد ما إذا كان ألفا جلوكوسيديز يمكن أن يقلل من تراكم البوليجلوكوسان العصبي في الجسم الحي
+- بيانات الحرائك الدوائية/الديناميكا الدوائية بشأن اختراق الجهاز العصبي المركزي والأعصاب الطرفية لـ ERT الليزوسومي
+- توضيح آلي لما إذا كان هيدروليز ألفا جلوكوسيديز من سلاسل البوليجلوكوسان يمكن أن يوفر فائدة ذات مغزى سريري في غياب استعادة GBE
+- تقديم تنظيمي من قبل الهيئة العامة للغذاء والدواء (SFDA) بالمملكة العربية السعودية: الدواء حالياً غير مسجل محلياً وسيتطلب ملف كامل قبل أي تحقيق سريري
+- توثيق ملف السلامة الكامل (تحذيرات النشرة، موانع الاستعمال، وبيانات التفاعل الدوائي) لدعم تطبيق ما قبل IND من قبل الهيئة العامة للغذاء والدواء
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

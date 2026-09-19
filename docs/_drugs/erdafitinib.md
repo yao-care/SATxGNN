@@ -29,93 +29,94 @@ indication_count: 6
 
 </div>
 
-# Erdafitinib: From FGFR-Driven Malignancy to Predicted Pulmonary Hypertension
+# إيردافيتينيب: من الأورام المدفوعة بـ FGFR إلى ارتفاع ضغط الدم الرئوي المتنبأ به
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Erdafitinib is an FDA-approved FGFR (fibroblast growth factor receptor) tyrosine kinase inhibitor used in oncology; this evidence pack does not capture its specific original indication in structured form, but literature confirms its classification as a small-molecule kinase antagonist. The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but currently **0 clinical trials** and **0 publications** directly support this specific direction, and the proposed mechanism is directionally ambiguous (inhibition could plausibly worsen rather than improve pulmonary vascular function).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in this evidence pack (no licenses/original indications on file); literature confirms erdafitinib is an FDA-approved FGFR tyrosine kinase inhibitor (2019 approval, oncology class) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 (model prediction only — no supporting clinical trials or literature) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيردافيتينيب (erdafitinib) هو مثبط تيروسين كيناز FGFR (مستقبل عامل نمو الأرومات الليفية) معتمد من إدارة الغذاء والدواء الأمريكية والمستخدم في علم الأورام؛ لا تعكس هذه الحزمة الإثباتية مؤشره الأصلي المحدد في شكل منظم، لكن الأدبيات تؤكد تصنيفه كمثبط تيروسين كيناز صغير الجزيء. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ارتفاع ضغط الدم الرئوي**، لكن حالياً **0 تجربة سريرية** و**0 منشور** يدعمان هذا الاتجاه المحدد بشكل مباشر، والآلية المقترحة غير محددة الاتجاه (يمكن لمثبط FGFR أن يزيد الأمور سوءاً بدلاً من تحسين وظيفة الأوعية الرئوية).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the structured record (original_moa is a documented data gap). Based on known information from the supporting literature in this pack, erdafitinib belongs to the class of small-molecule FGFR tyrosine kinase inhibitors, approved by regulatory authorities in 2019 alongside other kinase antagonists (entrectinib, pexidartinib, fedratinib) for oncology indications driven by genetic alterations in kinase signaling.
-
-The proposed link to pulmonary hypertension rests on the biological observation that FGF/FGFR signaling plays a role in pulmonary vascular remodeling, with some literature suggesting FGFR signaling can be protective to pulmonary vascular endothelium. However, this is precisely where the rationale becomes uncertain: if FGFR signaling is protective in this context, an FGFR *inhibitor* like erdafitinib could theoretically worsen rather than improve pulmonary vascular tone. No database-indexed evidence currently supports a therapeutic (rather than harmful) direction for this drug-disease pair.
-
-Because the TxGNN score is high but is not corroborated by any disease-specific clinical trial or publication, and the underlying mechanistic hypothesis itself flags directional uncertainty, this candidate should be treated as a hypothesis-generating signal only, not as a validated repurposing lead.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|-------|--------|
+| المؤشر الأصلي | لم يتم التقاطه في هذه الحزمة الإثباتية (لا توجد تراخيص/مؤشرات أصلية في الملف)؛ تؤكد الأدبيات أن إيردافيتينيب هو مثبط تيروسين كيناز FGFR معتمد من إدارة الغذاء والدواء (الموافقة عام 2019، فئة علم الأورام) |
+| المؤشر الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي |
+| درجة التنبؤ بـ TxGNN | 99.38% |
+| مستوى الإثبات | L5 (تنبؤ النموذج فقط — لا توجد تجارب سريرية أو أدبيات داعمة) |
+| حالة السوق في المملكة العربية السعودية | غير موجود في السوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في السجل المنظم (original_moa موثقة باعتبارها فجوة بيانات). بناءً على المعلومات المعروفة من الأدبيات الداعمة في هذه الحزمة، ينتمي إيردافيتينيب إلى فئة مثبطات تيروسين كيناز FGFR صغيرة الجزيء، المعتمدة من السلطات التنظيمية في عام 2019 إلى جانب مثبطات حركية أخرى (entrectinib, pexidartinib, fedratinib) لمؤشرات علم الأورام المدفوعة بالتغييرات الجينية في إشارات الحركية.
 
----
+يستند الرابط المقترح إلى ارتفاع ضغط الدم الرئوي إلى الملاحظة البيولوجية بأن إشارات FGF/FGFR تلعب دوراً في إعادة تشكيل الأوعية الرئوية، مع بعض الأدبيات التي تقترح أن إشارات FGFR يمكن أن تكون وقائية لبطانة الأوعية الرئوية. لكن هذا بالضبط حيث يصبح المنطق غير مؤكد: إذا كانت إشارات FGFR وقائية في هذا السياق، فإن مثبط FGFR مثل إيردافيتينيب قد يؤدي إلى تفاقم نبرة الأوعية الرئوية بدلاً من تحسينها. لا توجد أي إثباتات مفهرسة في قاعدة البيانات حالياً تدعم اتجاهاً علاجياً (بدلاً من ضاراً) لهذا الزوج من الأدوية والأمراض.
 
-## Saudi Arabia Market Information
-
-Erdafitinib currently has no marketing authorization on file in Saudi Arabia (market status: Not Marketed; 0 total licenses). No product, dosage form, or approved indication text is available to report.
+لأن درجة TxGNN عالية لكنها لم تؤيدها أي تجربة سريرية محددة للأمراض أو منشور، والفرضية الآلية الأساسية نفسها تشير إلى عدم تحديد الاتجاه، يجب التعامل مع هذا المرشح كإشارة توليد فرضية فقط، وليس كرابط إعادة استخدام معتمد.
 
 ---
 
-## Cytotoxicity
+## الإثبات من التجارب السريرية
 
-Erdafitinib is classified as an antineoplastic agent (FDA-approved FGFR tyrosine kinase inhibitor used in oncology per the literature evidence in this pack), so cytotoxicity information is included.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR1–4 tyrosine kinase inhibitor), not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Safety Considerations
+## الإثبات من الأدبيات
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/SFDA package insert retrieval is flagged in this evidence pack as a Blocking data gap — DG001 — meaning this candidate cannot yet pass the S1 safety pre-screen until package insert warnings, contraindications, and DDI data are obtained.)*
+حالياً لا توجد أدبيات ذات صلة متاحة
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+إيردافيتينيب حالياً لا يملك موافقة تسويقية مسجلة في السجلات بالمملكة العربية السعودية (حالة السوق: غير موجود في السوق؛ 0 تراخيص إجمالية). لا يتوفر مركب دوائي أو شكل جرعة أو نص مؤشر معتمد للإبلاغ عنه.
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (L5 evidence) with zero corroborating clinical trials or literature specific to pulmonary hypertension, and the underlying mechanistic rationale is itself directionally ambiguous (FGFR inhibition could plausibly be harmful rather than beneficial to pulmonary vascular function). This does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- Retrieval of TFDA/SFDA package insert data (contraindications, key warnings) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action (MOA) data from DrugBank — currently a High-severity data gap (DG002)
-- Preclinical or mechanistic studies clarifying the direction of effect of FGFR inhibition on pulmonary vascular tone
-- Any disease-specific clinical trial or case-report evidence for erdafitinib in pulmonary hypertension, to move this candidate beyond L5
-- Drug-drug interaction (DDI) data, currently unavailable (query returned "not_found")
+## السُّمِّيَّة
 
-*Note: This evidence pack also lists five other lower-confidence candidates (kyphoscoliotic heart disease, amenorrhea, rheumatoid arthritis, ALS, brachydactyly-syndactyly syndrome). Rheumatoid arthritis and brachydactyly-syndactyly syndrome carry marginally stronger mechanistic plausibility (synovial angiogenesis and FGFR gain-of-function skeletal disorders, respectively) and were flagged as "Research Question" rather than "Hold" — these may warrant a separate, dedicated evaluation if this pulmonary hypertension lead is deprioritized.*
+يُصنَّف إيردافيتينيب كعامل مضاد للأورام (مثبط تيروسين كيناز FGFR معتمد من إدارة الغذاء والدواء المستخدم في علم الأورام وفقاً لدليل الأدبيات في هذه الحزمة)، لذا يتم تضمين معلومات السُّمِّيَّة.
+
+| العنصر | المحتوى |
+|-------|--------|
+| تصنيف السُّمِّيَّة | علاج موجه (مثبط تيروسين كيناز FGFR1–4)، وليس عاملاً كيميائياً سامาً تقليدياً |
+| خطر قمع نخاع العظم | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| تصنيف الإقياء | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| حماية المعالجة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+*(ملاحظة: يتم الإشارة إلى استرجاع نشرة TFDA/SFDA في هذه الحزمة الإثباتية كفجوة بيانات محجوبة — DG001 — مما يعني أن هذا المرشح لا يمكنه حالياً اجتياز الفحص الأمني المسبق S1 حتى يتم الحصول على بيانات تحذيرات نشرة الدواء والموانع والتفاعلات الدوائية.*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+التنبؤ مدعوم فقط من درجة نموذج TxGNN (L5 evidence) مع صفر تجارب سريرية أو أدبيات داعمة محددة لارتفاع ضغط الدم الرئوي، والمنطق الآلي الأساسي نفسه غير محدد الاتجاه (قد يكون مثبط FGFR مؤذياً بدلاً من كونه مفيداً لوظيفة الأوعية الرئوية). هذا لا يفي بالحد الأدنى للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع بيانات نشرة TFDA/SFDA (الموانع، التحذيرات الرئيسية) — حالياً فجوة بيانات محجوبة (DG001)
+- بيانات آلية العمل (MOA) المؤكدة من DrugBank — حالياً فجوة بيانات عالية الخطورة (DG002)
+- دراسات ما قبل الإكلينيكية أو آلية توضح اتجاه تأثير مثبط FGFR على نبرة الأوعية الرئوية
+- أي تجربة سريرية محددة للأمراض أو إثبات من حالات لإيردافيتينيب في ارتفاع ضغط الدم الرئوي، لتحريك هذا المرشح خارج L5
+- بيانات التفاعلات الدوائية (DDI)، غير متوفرة حالياً (الاستعلام أرجع "not_found")
+
+*ملاحظة: تتضمن هذه الحزمة الإثباتية أيضاً خمسة مرشحين آخرين بثقة أقل (أمراض القلب الجنفية، انقطاع الطمث، التهاب المفاصل الروماتويدي، التصلب الجانبي الضموري، قصر الأصابع-التلاحم). يحمل التهاب المفاصل الروماتويدي وقصر الأصابع-التلاحم قابلية آلية أقوى بهامش ضئيل (تكوين الأوعية الزليلية وكسب وظيفة FGFR في اضطرابات الهيكل العظمي، على التوالي) وتم الإشارة إليهما باعتبارهما "سؤال بحثي" بدلاً من "انتظار" — قد يستحقان تقييماً منفصلاً ومخصصاً إذا تم خفض أولوية هذا الرابط المتعلق بارتفاع ضغط الدم الرئوي.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

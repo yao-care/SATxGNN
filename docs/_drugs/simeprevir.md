@@ -29,99 +29,100 @@ indication_count: 10
 
 </div>
 
-# Simeprevir: From Hepatitis C to Hepatitis B Virus Infection
+# سيميبريفير: من التهاب الكبد الفيروسي سي إلى عدوى فيروس التهاب الكبد البائي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Simeprevir is an oral NS3/4A protease inhibitor developed for chronic hepatitis C virus (HCV) infection (inferred from the trial evidence in this pack, since no formal regulatory indication record exists). The TxGNN model predicts potential efficacy for **Hepatitis B Virus Infection**, and while **19 clinical trials** and **20 publications** were retrieved for this pairing, evidence review finds these are overwhelmingly HCV-focused studies — several documenting **HBV reactivation as an adverse event during HCV treatment**, not HBV efficacy data — so the prediction currently lacks mechanistic or clinical support.
+سيميبريفير هو مثبط بروتياز NS3/4A فموي تم تطويره لعدوى فيروس التهاب الكبد الفيروسي سي (HCV) المزمنة (استنتاج من أدلة التجارب في هذه الحزمة، لأنه لا يوجد سجل مؤشر تنظيمي رسمي). يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **عدوى فيروس التهاب الكبد البائي**، وعلى الرغم من استسترجاع **19 تجربة سريرية** و **20 منشور**، تجد مراجعة الأدلة أن هذه الدراسات في الغالب مركزة على HCV — حيث يوثق عدد منها **إعادة تنشيط HBV كحدث عكسي أثناء معالجة HCV**، وليس بيانات فعالية HBV — لذلك الاستنتاج الحالي يفتقر إلى الدعم الميكانيكي أو السريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Chronic Hepatitis C virus (HCV) infection (inferred from trial evidence; not confirmed via regulatory license data — no license records exist) |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 (per evidence-pack scoring; underlying trials are HCV-specific, not HBV-specific — see rationale below) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | عدوى فيروس التهاب الكبد الفيروسي سي المزمنة (HCV) (استنتاج من أدلة التجارب؛ لم يتم التأكيد عبر بيانات الترخيص التنظيمي — لا توجد سجلات ترخيص) |
+| المؤشر الجديد المتنبأ به | عدوى فيروس التهاب الكبد البائي |
+| درجة التنبؤ TxGNN | 99.80% |
+| مستوى الأدلة | L4 (حسب تصنيف حزمة الأدلة؛ التجارب الأساسية خاصة بـ HCV، وليست خاصة بـ HBV — انظر المبرر أدناه) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التخويلات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for simeprevir is formally listed as a data gap in this pack (DG002). Based on the trial and literature evidence retrieved, simeprevir is an NS3/4A serine protease inhibitor whose target is specific to *Hepatitis C virus* (Flaviviridae). Hepatitis B virus is a *Hepadnaviridae* (reverse-transcribing DNA virus) with no homologous NS3/4A-type protease target, so there is no direct mechanistic pathway by which simeprevir would inhibit HBV replication.
+البيانات التفصيلية لآلية العمل لسيميبريفير مدرجة رسمياً كفجوة بيانات في هذه الحزمة (DG002). بناءً على أدلة التجارب والأدب المستسترجعة، سيميبريفير هو مثبط بروتياز سيرين NS3/4A الذي يستهدف فيروس التهاب الكبد الفيروسي سي بشكل خاص (*Flaviviridae*). فيروس التهاب الكبد البائي هو *Hepadnaviridae* (فيروس DNA عاكس النسخ) بدون هدف بروتياز من نوع NS3/4A متجانس، لذا لا توجد مسار ميكانيكي مباشر يمكن من خلاله لسيميبريفير أن يثبط تكرار HBV.
 
-Of the 19 clinical trials returned for this disease pairing, the large majority are HCV genotype 1/4 efficacy, pharmacokinetic-interaction, or safety studies (e.g., simeprevir + sofosbuvir, simeprevir + daclatasvir); none were designed to test antiviral activity against HBV. The apparent link to hepatitis B appears to arise from a real and clinically important — but mechanistically unrelated — signal: **HBV reactivation occurring in HCV/HBV-coinfected patients during interferon-free simeprevir-based HCV treatment**, an immune-mediated phenomenon (loss of HCV-driven immune suppression of HBV) rather than any antiviral effect of simeprevir on HBV itself. Several of the literature citations below describe exactly this reactivation risk, which argues for caution in coinfected patients rather than supporting simeprevir as an HBV therapy.
+من بين 19 تجربة سريرية تم استسترجاعها لهذا الاقتران المرضي، الأغلبية العظمى هي دراسات الفعالية أو التفاعلات الدوائية الحركية أو السلامة الخاصة بـ HCV من النمط الجيني 1/4 (مثل سيميبريفير + sofosbuvir، سيميبريفير + daclatasvir)؛ لم يتم تصميم أي منها لاختبار النشاط المضاد للفيروسات ضد HBV. يبدو أن الارتباط الظاهري بالتهاب الكبد البائي ينشأ من إشارة حقيقية وسريرية مهمة — لكن غير مرتبطة ميكانيكياً —: **إعادة تنشيط HBV التي تحدث في مرضى HCV/HBV المصابين بالعدوى المزدوجة أثناء معالجة HCV القائمة على سيميبريفير الخالية من الإنترفيرون**، وهي ظاهرة وسيطة مناعية (فقدان قمع المناعة المدفوع بـ HCV من HBV) بدلاً من أي تأثير مضاد للفيروسات من سيميبريفير على HBV نفسه. عدد من الاستشهادات الأدبية أدناه توضح بالضبط هذا خطر إعادة التنشيط، مما يدل على ضرورة الحذر في مرضى العدوى المزدوجة بدلاً من دعم سيميبريفير كعلاج HBV.
 
-Given this, the reasoning for repurposing simeprevir toward HBV is not supported by the assembled evidence; the score reflects TxGNN's embedding-space similarity (viral hepatitis / antiviral drug space) rather than a validated pharmacological hypothesis.
+بالنظر إلى هذا، فإن المنطق لإعادة استخدام سيميبريفير نحو HBV لا يدعمه الأدلة المجمعة؛ تعكس النتيجة تشابه TxGNN في فضاء التضمين (فضاء التهاب الكبد الفيروسي / عقار مضاد للفيروسات) بدلاً من فرضية دوائية مؤكدة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01290679](https://clinicaltrials.gov/study/NCT01290679) | Phase 3 | Completed | 393 | Placebo-controlled TMC435 (simeprevir) + peginterferon/ribavirin in treatment-naive genotype 1 HCV; HCV efficacy trial, not HBV-specific (relevance grade C) |
-| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completed | 33,808 | Large real-world safety comparison of DAA-treated vs. untreated HCV patients; no HBV endpoint |
-| [NCT02765490](https://clinicaltrials.gov/study/NCT02765490) | Phase 2 | Completed | 365 | AL-335 + odalasvir + simeprevir regimens across HCV genotypes 1/2/4/5/6; no HBV endpoint |
-| [NCT01852604](https://clinicaltrials.gov/study/NCT01852604) | Phase 2 | Completed | 143 | Samatasvir + simeprevir ± ritonavir in HCV genotype 1b/4/6; no HBV endpoint |
-| [NCT02349048](https://clinicaltrials.gov/study/NCT02349048) | Phase 2 | Completed | 68 | Simeprevir + daclatasvir + sofosbuvir, 6–8 weeks, in HCV genotype 1; HCV efficacy trial (relevance grade C) |
-| [NCT02278419](https://clinicaltrials.gov/study/NCT02278419) | Phase 2 | Completed | 63 | Simeprevir + sofosbuvir, 8/12 weeks, HCV genotype 4; no HBV endpoint |
-| [NCT00561353](https://clinicaltrials.gov/study/NCT00561353) | Phase 2 | Completed | 121 | TMC435350 ± peginterferon/ribavirin in genotype 1 HCV; no HBV endpoint |
-| [NCT01323257](https://clinicaltrials.gov/study/NCT01323257) | Phase 1 | Completed | 49 | Healthy-subject PK interaction study (TMC435 with erythromycin/darunavir-ritonavir); disease-nonspecific (relevance grade C) |
-| [NCT03099135](https://clinicaltrials.gov/study/NCT03099135) | Phase 3 | Terminated | 24 | 3-year SVR durability follow-up in HCV patients previously on odalasvir/AL-335 ± simeprevir; no HBV endpoint |
-| [NCT02118597](https://clinicaltrials.gov/study/NCT02118597) | N/A | Terminated | 19 | Non-interventional study of boceprevir/simeprevir triple therapy retreatment for chronic HCV in Hungary; no HBV endpoint |
+| [NCT01290679](https://clinicaltrials.gov/study/NCT01290679) | Phase 3 | Completed | 393 | دراسة خاضعة للتحكم بالعلاج الوهمي TMC435 (simeprevir) + peginterferon/ribavirin في HCV من النمط الجيني 1 الذي لم يتم علاجه سابقاً؛ تجربة فعالية HCV، وليست خاصة بـ HBV (درجة الصلة C) |
+| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completed | 33,808 | مقارنة السلامة في العالم الحقيقي الكبيرة بين مرضى HCV المعالجين بـ DAA مقابل غير المعالجين؛ لا توجد نقطة نهاية HBV |
+| [NCT02765490](https://clinicaltrials.gov/study/NCT02765490) | Phase 2 | Completed | 365 | أنظمة AL-335 + odalasvir + simeprevir عبر أنماط HCV الجينية 1/2/4/5/6؛ لا توجد نقطة نهاية HBV |
+| [NCT01852604](https://clinicaltrials.gov/study/NCT01852604) | Phase 2 | Completed | 143 | Samatasvir + simeprevir ± ritonavir في HCV من النمط الجيني 1b/4/6؛ لا توجد نقطة نهاية HBV |
+| [NCT02349048](https://clinicaltrials.gov/study/NCT02349048) | Phase 2 | Completed | 68 | Simeprevir + daclatasvir + sofosbuvir، 6–8 أسابيع، في HCV من النمط الجيني 1؛ تجربة فعالية HCV (درجة الصلة C) |
+| [NCT02278419](https://clinicaltrials.gov/study/NCT02278419) | Phase 2 | Completed | 63 | Simeprevir + sofosbuvir، 8/12 أسبوع، HCV من النمط الجيني 4؛ لا توجد نقطة نهاية HBV |
+| [NCT00561353](https://clinicaltrials.gov/study/NCT00561353) | Phase 2 | Completed | 121 | TMC435350 ± peginterferon/ribavirin في HCV من النمط الجيني 1؛ لا توجد نقطة نهاية HBV |
+| [NCT01323257](https://clinicaltrials.gov/study/NCT01323257) | Phase 1 | Completed | 49 | دراسة تفاعل PK على أشخاص سليمين (TMC435 مع erythromycin/darunavir-ritonavir)؛ غير محدد الأمراض (درجة الصلة C) |
+| [NCT03099135](https://clinicaltrials.gov/study/NCT03099135) | Phase 3 | Terminated | 24 | متابعة مدة SVR لمدة 3 سنوات في مرضى HCV الذين كانوا سابقاً على odalasvir/AL-335 ± simeprevir؛ لا توجد نقطة نهاية HBV |
+| [NCT02118597](https://clinicaltrials.gov/study/NCT02118597) | N/A | Terminated | 19 | دراسة غير تدخلية لإعادة العلاج بالعلاج الثلاثي boceprevir/simeprevir لالتهاب الكبد الفيروسي سي المزمن في المجر؛ لا توجد نقطة نهاية HBV |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [26082511](https://pubmed.ncbi.nlm.nih.gov/26082511/) | 2015 | Case Series | Clin Infect Dis | Two cases of HBV reactivation during interferon-free simeprevir + sofosbuvir treatment for HCV; a safety signal, not HBV efficacy evidence |
-| [26215390](https://pubmed.ncbi.nlm.nih.gov/26215390/) | 2015 | Case Report | J Med Case Rep | Fulminant HBV reactivation requiring liver transplantation in a chronic HCV patient treated with simeprevir + sofosbuvir |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Reviews approved HBV therapies (interferon, nucleos(t)ide analogues) and HCV therapies separately; does not identify simeprevir as an HBV agent |
-| [26558143](https://pubmed.ncbi.nlm.nih.gov/26558143/) | 2015 | Review | World J Gastrointest Pharmacol Ther | HBV prophylaxis in transplant recipients relies on immune globulin + entecavir/tenofovir, not simeprevir |
-| [26967675](https://pubmed.ncbi.nlm.nih.gov/26967675/) | 2016 | Review | J Clin Virol | Discusses HBV reactivation as a challenge during DAA treatment of HCV-infected adults |
-| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | ADR Report | Hospital Pharmacy | Case feature: hepatitis B reactivation occurring during hepatitis C treatment with simeprevir and sofosbuvir |
-| [26082512](https://pubmed.ncbi.nlm.nih.gov/26082512/) | 2015 | Editorial | Clin Infect Dis | Editorial commentary calling for renewed efforts to cure hepatitis B (companion piece to the reactivation case series above) |
-| [24631495](https://pubmed.ncbi.nlm.nih.gov/24631495/) | 2014 | Review | Gastroenterology | Reviews new HCV therapies including simeprevir; no HBV efficacy claim |
-| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Review | Acta Pharm Sin B | Notes that, unlike HIV and HBV, HCV is curable with DAAs such as simeprevir — explicitly distinguishes simeprevir's HCV-specific mechanism from HBV |
-| [24782255](https://pubmed.ncbi.nlm.nih.gov/24782255/) | 2014 | Review | Semin Liver Dis | Reviews new anti-HCV drug development concepts; not related to HBV |
+| [26082511](https://pubmed.ncbi.nlm.nih.gov/26082511/) | 2015 | Case Series | Clin Infect Dis | حالتا إعادة تنشيط HBV أثناء علاج simeprevir + sofosbuvir الخالي من الإنترفيرون لـ HCV؛ إشارة أمان، وليس دليل فعالية HBV |
+| [26215390](https://pubmed.ncbi.nlm.nih.gov/26215390/) | 2015 | Case Report | J Med Case Rep | إعادة تنشيط HBV الحادة التي تتطلب زراعة كبد في مريض HCV مزمن يتم علاجه بـ simeprevir + sofosbuvir |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | يستعرض علاجات HBV المعتمدة (الإنترفيرون، nucleos(t)ide analogues) وعلاجات HCV بشكل منفصل؛ لا يحدد سيميبريفير كعامل HBV |
+| [26558143](https://pubmed.ncbi.nlm.nih.gov/26558143/) | 2015 | Review | World J Gastrointest Pharmacol Ther | الوقاية من HBV عند المتلقين المزروعين تعتمد على الغلوبيولين المناعي + entecavir/tenofovir، وليس simeprevir |
+| [26967675](https://pubmed.ncbi.nlm.nih.gov/26967675/) | 2016 | Review | J Clin Virol | يناقش إعادة تنشيط HBV كتحدي أثناء علاج DAA للبالغين المصابين بـ HCV |
+| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | ADR Report | Hospital Pharmacy | حالة تميز: إعادة تنشيط التهاب الكبد البائي التي تحدث أثناء علاج التهاب الكبد الفيروسي سي بـ simeprevir و sofosbuvir |
+| [26082512](https://pubmed.ncbi.nlm.nih.gov/26082512/) | 2015 | Editorial | Clin Infect Dis | تعليق افتتاحي يدعو إلى جهود متجددة للعلاج من التهاب الكبد البائي (قطعة مصاحبة لسلسلة الحالات إعادة التنشيط أعلاه) |
+| [24631495](https://pubmed.ncbi.nlm.nih.gov/24631495/) | 2014 | Review | Gastroenterology | يستعرض علاجات HCV الجديدة بما في ذلك simeprevir؛ لا يوجد ادعاء لفعالية HBV |
+| [26904396](https://pubmed.ncbi.nlm.nih.gov/26904396/) | 2016 | Review | Acta Pharm Sin B | يلاحظ أنه، على عكس HIV و HBV، HCV قابل للشفاء بـ DAAs مثل simeprevir — يميز صراحة آلية HCV المحددة لـ simeprevir عن HBV |
+| [24782255](https://pubmed.ncbi.nlm.nih.gov/24782255/) | 2014 | Review | Semin Liver Dis | يستعرض المفاهيم الجديدة لتطوير عقاقير مضادة لـ HCV؛ غير مرتبطة بـ HBV |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Simeprevir is **not currently marketed** in Saudi Arabia (market status: Not marketed / Not Marketed; 0 authorizations on file). No product license records are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information — key warnings, contraindications, and DDI data are not available in this pack (TFDA/SFDA package insert retrieval is a Blocking data gap, DG001).
-
-One relevant safety signal did emerge from the literature review above: multiple case reports describe **HBV reactivation in HCV/HBV-coinfected patients** during simeprevir-based HCV treatment. This should be treated as a caution flag for any coinfected population, independent of the (unsupported) HBV-efficacy hypothesis.
+لا يتم تسويق سيميبريفير حالياً في المملكة العربية السعودية (حالة السوق: غير مسوقة / غير مسوقة؛ 0 تخويل في السجل). لا توجد سجلات ترخيص المنتج المتاحة في هذه الحزمة.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة — بيانات التحذيرات الرئيسية والمضادات والتفاعلات الدوائية غير متاحة في هذه الحزمة (استسترجاع النشرة الداخلية TFDA/SFDA هي فجوة بيانات حجب، DG001).
 
-**Rationale:**
-Simeprevir's NS3/4A protease target is HCV-specific with no HBV homolog, so there is no mechanistic basis for the predicted indication. All 19 retrieved trials and the majority of the 20 publications are HCV-focused; the only genuinely HBV-related literature describes reactivation risk during HCV treatment, an adverse safety signal rather than efficacy evidence. The drug is also not marketed in Saudi Arabia and TFDA/SFDA label data are unavailable (Blocking gap).
+ظهرت إشارة أمان ذات صلة واحدة من مراجعة الأدب أعلاه: تصف حالات متعددة **إعادة تنشيط HBV في مرضى HCV/HBV المصابين بالعدوى المزدوجة** أثناء علاج HCV القائم على simeprevir. يجب التعامل مع هذا كإشارة تحذير لأي مجموعة سكانية مصابة بعدوى مزدوجة، بغض النظر عن الفرضية (غير المدعومة) لفعالية HBV.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism-of-action data from DrugBank — currently a data gap (DG002)
-- Preclinical/in vitro evidence of any direct simeprevir activity against HBV targets (polymerase, core, or X protein) — none currently exists
-- Any dedicated HBV-specific clinical trial data (the current 19 trials are HCV trials with incidental HBV-coinfection mentions)
-- If pursuing any coinfected-population use case, a formal safety review of HBV reactivation risk during simeprevir-based HCV therapy
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+هدف بروتياز NS3/4A لسيميبريفير خاص بـ HCV بدون نظير HBV، لذا لا يوجد أساس ميكانيكي للمؤشر المتنبأ به. جميع التجارب الـ 19 المستسترجعة وغالبية المنشورات الـ 20 مركزة على HCV؛ الأدب الوحيد ذو الصلة الحقيقية بـ HBV يصف خطر إعادة التنشيط أثناء علاج HCV، وهي إشارة أمان عكسية بدلاً من دليل فعالية. الدواء أيضاً غير مسوق في المملكة العربية السعودية وبيانات TFDA/SFDA غير متاحة (فجوة حجب).
+
+**للمضي قدماً، هناك حاجة إلى ما يلي:**
+- نشرة TFDA/SFDA الداخلية (تحذيرات، مضادات استطباب) — حالياً فجوة بيانات حجب (DG001)
+- بيانات آلية العمل المؤكدة من DrugBank — حالياً فجوة بيانات (DG002)
+- أدلة سابقة للتكليك/في المختبر على أي نشاط مباشر لسيميبريفير ضد أهداف HBV (polymerase أو core أو بروتين X) — لا يوجد حالياً
+- أي بيانات تجارب سريرية مخصصة خاصة بـ HBV (التجارب الـ 19 الحالية هي تجارب HCV مع ذكرات عرضية لعدوى HCV/HBV المزدوجة)
+- إذا كنت تسعى لأي حالة استخدام لمجموعة سكانية مصابة بعدوى مزدوجة، مراجعة أمان رسمية لخطر إعادة تنشيط HBV أثناء علاج HCV القائم على simeprevir
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,72 +29,73 @@ indication_count: 10
 
 </div>
 
-# Cefoperazone: From Bacterial Infections to Sclerosing Cholangitis
+# السيفوبيرازون: من العدوى البكتيرية إلى التهاب الأقنية الصفراوية المتصلب
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Cefoperazone is a third-generation cephalosporin antibiotic with broad-spectrum antibacterial activity, widely recognized for treating serious bacterial infections across multiple organ systems.
-The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**,
-however, there are currently **0 clinical trials** and **0 publications** directly supporting this direction.
+السيفوبيرازون هو مضاد حيوي من فئة السيفالوسبورينات من الجيل الثالث يتمتع بنشاط مضاد للبكتيريا واسع الطيف، وهو معروف على نطاق واسع لعلاج العدوى البكتيرية الخطيرة في أجهزة الجسم المختلفة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الأقنية الصفراوية المتصلب**،
+ومع ذلك، لا توجد حالياً **0 تجارب سريرية** و **0 منشور** يدعم مباشرة هذا التوجه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Broad-spectrum bacterial infections (no Saudi Arabia regulatory authorization on record) |
-| Predicted New Indication | Sclerosing Cholangitis |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | العدوى البكتيرية واسعة الطيف (لا توجد موافقة تنظيمية مسجلة من المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | التهاب الأقنية الصفراوية المتصلب |
+| درجة التنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معتمد |
+| عدد الموافقات | 0 |
+| القرار الموصى به | توقف مؤقت |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the source database. Based on established pharmacological knowledge, Cefoperazone is a third-generation cephalosporin belonging to the β-lactam antibiotic class. It exerts antibacterial effects by binding to penicillin-binding proteins (PBPs) — in particular PBP3 and PBP1b — thereby disrupting bacterial cell wall synthesis and triggering bacterial lysis. Its spectrum covers many Gram-positive organisms, a broad range of Gram-negative Enterobacteriaceae, and notably Pseudomonas aeruginosa, which distinguishes it from earlier cephalosporins.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة من قاعدة البيانات المصدرية. بناءً على المعرفة الصيدلية المعروفة، السيفوبيرازون هو سيفالوسبورين من الجيل الثالث ينتمي إلى فئة المضادات الحيوية β-لاكتام. يمارس تأثيره المضاد للبكتيريا من خلال الارتباط بالبروتينات المرتبطة بالبنسلين (PBPs) — وخاصة PBP3 و PBP1b — وبالتالي يعطل تخليق جدار الخلية البكتيرية ويؤدي إلى تحلل البكتيريا. يغطي طيفه العديد من الكائنات الحية موجبة الجرام، ونطاقاً واسعاً من الأمعاويات السالبة الجرام، والزائفة الزنجارية بشكل ملحوظ، وهذا يميزه عن السيفالوسبورينات السابقة.
 
-Primary sclerosing cholangitis (PSC) is a chronic, progressive, fibroinflammatory disease of the bile ducts driven by autoimmune and multifactorial mechanisms, with strong associations to gut microbiome dysbiosis and intestinal immune dysregulation. The theoretical basis for TxGNN's prediction may lie in the gut-liver axis hypothesis: antibiotics capable of reshaping intestinal microbial communities could, in principle, reduce the pro-inflammatory signals reaching the biliary tract. Cefoperazone's broad anaerobic and Gram-negative coverage might theoretically alter gut microbial composition.
+التهاب الأقنية الصفراوية الأولي المتصلب (PSC) هو مرض مزمن تدريجي ليفي التهابي يؤثر على أقنية الصفراء، يحركه آليات المناعة الذاتية والآليات المتعددة العوامل، مع ارتباطات قوية بعدم توازن الميكروبيوم المعوي واختلال تنظيم المناعة المعوية. قد يكمن الأساس النظري لتنبؤ TxGNN في فرضية محور الأمعاء-الكبد: قد تكون المضادات الحيوية القادرة على إعادة تشكيل المجتمعات الميكروبية المعوية، من حيث المبدأ، قادرة على تقليل الإشارات الالتهابية التي تصل إلى المسالك الصفراوية. قد يعدل الغطاء الواسع للعوامل اللاهوائية والسالبة الجرام للسيفوبيرازون نظرياً تركيب الميكروبيوم المعوي.
 
-However, this mechanistic link is highly speculative and remains entirely unsupported by evidence. Cefoperazone has no known direct immunomodulatory activity, no anti-fibrotic properties, and no capacity to interrupt the IgG- or T-cell-mediated biliary inflammation that drives PSC progression. The high TxGNN score almost certainly reflects node co-occurrence patterns in the underlying knowledge graph rather than a validated biological relationship, and should be interpreted with caution.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن هذا الارتباط الميكانيكي تخميني للغاية ويبقى غير مدعوم بأي دليل على الإطلاق. لا يمتلك السيفوبيرازون أي نشاط معروف معدل للمناعة بشكل مباشر، وليس لديه خصائص مضادة للتليف، وليس لديه القدرة على قطع الالتهاب الصفراوي بالوساطة من قبل الجلوبيولين المناعي (IgG) أو الخلايا التائية التي تدفع تطور التهاب الأقنية الصفراوية الأولي المتصلب. من المؤكد تقريباً أن درجة TxGNN العالية (99.98%) تعكس أنماط التعايش في الرسم البياني للمعرفة الأساسي بدلاً من علاقة بيولوجية معتمدة، وينبغي تفسيرها بحذر.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+حالياً لا تتوفر أدبيات ذات صلة.
 
-**Rationale:**
-Despite a very high TxGNN model score (99.98%), sclerosing cholangitis lacks any clinical or preclinical evidence connecting Cefoperazone to this indication, and no plausible direct mechanistic pathway has been established between a cell-wall-synthesis-inhibiting antibiotic and an autoimmune fibroinflammatory biliary disease.
+---
 
-**To proceed, the following is needed:**
-- Preclinical studies (in vitro or animal models of PSC) demonstrating any effect of Cefoperazone on biliary inflammation or hepatic fibrosis
-- Evidence specifically linking Cefoperazone's antibacterial spectrum to gut microbiome shifts that are clinically meaningful in PSC
-- MOA data retrieval from DrugBank (currently a data gap) to formally assess indirect immunological activities, if any
-- Package insert review to identify safety warnings and contraindications before any further evaluation
+## اعتبارات السلامة
 
-> **Advisory note:** Among all ten TxGNN-predicted indications evaluated for Cefoperazone, **pneumonia (rank 3)** is by far the most clinically credible repurposing signal. It is backed by 2 registered clinical trials — including an open-label randomized comparative Phase III trial (NCT01280461, n=142) and a Phase 1/2 nebulization trial (NCT02060149) — plus 20 publications including two RCTs. The evidence level is **L2** with a recommendation of **Proceed with Guardrails**. A dedicated evaluation report for the pneumonia indication is strongly recommended as a higher-priority next step.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف مؤقت**
+
+**الأساس المنطقي:**
+رغم درجة نموذج TxGNN العالية جداً (99.98%)، يفتقر التهاب الأقنية الصفراوية المتصلب إلى أي دليل سريري أو ما قبل سريري يربط السيفوبيرازون بهذا المؤشر، ولم يتم إقامة أي مسار آلي مباشر معقول بين مضاد حيوي مثبط لتخليق جدار الخلية ومرض صفراوي ليفي التهابي من أمراض المناعة الذاتية.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسات ما قبل السريرية (في المختبر أو نماذج حيوانية من التهاب الأقنية الصفراوية الأولي المتصلب) توضح أي تأثير للسيفوبيرازون على الالتهاب الصفراوي أو التليف الكبدي
+- أدلة تربط بشكل خاص طيف السيفوبيرازون المضاد للبكتيريا بتحولات الميكروبيوم المعوي التي لها معنى سريري في التهاب الأقنية الصفراوية الأولي المتصلب
+- استرجاع بيانات آلية العمل من DrugBank (حالياً فجوة في البيانات) لتقييم الأنشطة المناعية غير المباشرة رسمياً، إن وجدت
+- مراجعة نشرة الدواء لتحديد تحذيرات السلامة والمضادات الاستطباب قبل أي تقييم إضافي
+
+> **ملاحظة استشارية:** من بين جميع المؤشرات العشرة المتنبأ بها من TxGNN التي تم تقييمها للسيفوبيرازون، **الالتهاب الرئوي (الترتيب 3)** يعتبر بلا شك الإشارة الأكثر مصداقية سريرياً لإعادة الاستخدام. يدعمها تجربتان سريريتان مسجلتان — بما في ذلك تجربة المرحلة الثالثة المقارنة العشوائية المفتوحة (NCT01280461، n=142) وتجربة استنشاق المرحلة 1/2 (NCT02060149) — بالإضافة إلى 20 منشورا من بينها تجربتان عشوائيتان محكومتان. مستوى الدليل هو **L2** مع توصية **المتابعة مع احتياطات**. يُنصح بشدة بتقرير تقييم مخصص لمؤشر الالتهاب الرئوي كخطوة أولى ذات أولوية أعلى.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

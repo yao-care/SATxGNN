@@ -29,61 +29,62 @@ indication_count: 1
 
 </div>
 
-# Rivastigmine: From Alzheimer's/Parkinson's Disease Dementia to Glaucoma
+# ريفاستيجمين: من الخرف المرتبط بالزهايمر/الشلل الرعاش إلى الجلوكوما
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Rivastigmine is a cholinesterase inhibitor originally used to treat dementia associated with Alzheimer's and Parkinson's disease. The TxGNN model predicts it may be effective for **Glaucoma**, but currently only **preclinical/mechanistic evidence** supports this direction — **0 clinical trials** and **3 publications** (all reviews or animal studies, no RCTs).
+ريفاستيجمين هو مثبط الكولينستيراز الذي استخدم في الأصل لعلاج الخرف المرتبط بالزهايمر والشلل الرعاش. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للعلاج من **الجلوكوما**، لكن حالياً فقط **دليل الآليات الحيوية/السريرية قبل** يدعم هذا الاتجاه — **0 تجربة سريرية** و **3 منشورات** (جميعها استعراضات أو دراسات حيوانية، بدون تجارب عشوائية محكومة).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Alzheimer's/Parkinson's disease dementia (known pharmacology; not confirmed in this Evidence Pack — `original_indications` field is empty) |
-| Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 (preclinical / mechanistic) |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | خرف الزهايمر/الشلل الرعاش (الصيدلة المعروفة؛ لم يتم تأكيدها في هذه النسخة من دليل الأدلة — حقل `original_indications` فارغ) |
+| الاستطباب الجديد المتنبأ به | الجلوكوما |
+| درجة التنبؤ TxGNN | 99.27% |
+| مستوى الدليل | L4 (ما قبل السريري / الآلية الحيوية) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap). Based on known pharmacology, rivastigmine is a dual acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE) inhibitor, developed and marketed for cognitive decline in Alzheimer's and Parkinson's disease dementia.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في هذا دليل الأدلة (تم وضع علامة عليها كفجوة بيانات شديدة). بناءً على الصيدلة المعروفة، ريفاستيجمين هو مثبط ثنائي الأسيتيل كولينستيراز (AChE) والبوتيريل كولينستيراز (BuChE)، تم تطويره وتسويقه لعلاج التدهور المعرفي في خرف الزهايمر والشلل الرعاش.
 
-The repurposing rationale for glaucoma rests on a distinct mechanistic pathway: cholinergic activation contracts the ciliary muscle and widens the trabecular meshwork outflow channel — the classic mechanism by which traditional miotic agents (e.g., pilocarpine) lower intraocular pressure (IOP). In theory, topically administered rivastigmine could lower IOP through this same pathway.
+تستند نسبة إعادة استخدام العقار للجلوكوما على مسار آلي متمايز: التنشيط الكوليني ينقبض العضلة الهدبية ويوسع قناة التصريف في الشبكة الليفية — الآلية الكلاسيكية التي تعمل بها العوامل الكابحة للبؤبؤ التقليدية (مثل البيلوكاربين) على خفض الضغط داخل العين (IOP). في النظرية، يمكن لريفاستيجمين المُعطى موضعياً أن يخفض ضغط العين من خلال هذا المسار نفسه.
 
-This mechanistic link is plausible but indirect: it is inferred largely by analogy to other cholinergic agonists/AChE inhibitors, rather than from direct rivastigmine-specific clinical evidence. The one available animal study (rabbit IOP model) supports biological plausibility, but human efficacy and dosing/formulation data for an ocular route are not yet established.
+هذا الرابط الآلي معقول لكنه غير مباشر: يتم استنتاجه إلى حد كبير بالقياس على ناهضات/مثبطات AChE الكوليني الأخرى، بدلاً من الاستناد إلى دليل سريري محدد لريفاستيجمين مباشرة. تدعم الدراسة الحيوانية الوحيدة المتاحة (نموذج ضغط العين عند الأرانب) الجدوى البيولوجية، لكن بيانات الفعالية البشرية وتحديد الجرعات/الصيغة للمسار العيني لم يتم إنشاؤها بعد.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Animal study | Journal of Ocular Pharmacology and Therapeutics | Topical rivastigmine lowered intraocular pressure in normotensive rabbits, supporting the AChE-inhibition → IOP-lowering mechanism |
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Review | Frontiers in Molecular Biosciences | Reviews cholinergic (M3 muscarinic) agents for IOP reduction and systems genetics/molecular modeling of the anterior eye segment |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review (patent literature) | Expert Opinion on Therapeutic Patents | Notes mild AChE inhibition has therapeutic relevance in Alzheimer's disease, myasthenia gravis, and glaucoma |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|---------|
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | دراسة حيوانية | Journal of Ocular Pharmacology and Therapeutics | خفض الريفاستيجمين الموضعي ضغط العين لدى الأرانب الطبيعية، مما يدعم آلية تثبيط AChE → خفض ضغط العين |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | استعراض | Frontiers in Molecular Biosciences | يراجع العوامل الكوليني (M3 العضلية) لتخفيض ضغط العين وعلم الوراثة/النمذجة الجزيئية للجزء الأمامي من العين |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | استعراض (أدب براءات الاختراع) | Expert Opinion on Therapeutic Patents | يلاحظ أن تثبيط AChE الخفيف له صلة علاجية في الزهايمر والوهن العضلي الوبيل والجلوكوما |
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not available in this Evidence Pack — DG001, Blocking severity: TFDA package insert warnings/contraindications could not be retrieved.)
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة. (لم تتوفر بيانات التحذيرات والمضادات والتفاعلات الدوائية الرئيسية في هذا دليل الأدلة — DG001، شدة الحجب: لم يكن من الممكن استرجاع تحذيرات/مضادات TFDA.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Evidence is limited to mechanistic analogy and a single animal (rabbit) IOP study — no clinical trials in glaucoma, and no rivastigmine-specific human efficacy data exist. Combined with a Blocking-severity gap in TFDA safety/label data, this candidate cannot yet advance to safety pre-screening (S1).
+**الأساس المنطقي:**
+الدليل محدود بقياس آلي الحيوية ودراسة حيوانية واحدة (أرنب) لضغط العين — بدون تجارب سريرية في الجلوكوما، وبدون بيانات فعالية بشرية محددة لريفاستيجمين. بالإضافة إلى فجوة شديدة في بيانات السلامة/التسمية TFDA، لا يمكن لهذا المرشح أن يتقدم حالياً إلى الفحص الأمني السابق (S1).
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently blocking S1 safety pre-screening (DG001)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- An ocular/topical formulation and route-compatibility assessment (original product is oral/transdermal for dementia; glaucoma treatment requires ocular delivery — route compatibility currently "pending")
-- Human clinical evidence (Phase 1/2 IOP-lowering trials) to move beyond preclinical-only evidence level
-- Drug interaction (DDI) data, currently "not_found"
+**للمتابعة، يلزم ما يلي:**
+- ملحق TFDA (تحذيرات، مضادات) — يحجب حالياً فحص السلامة S1 (DG001)
+- توثيق آلية العمل المؤكدة من DrugBank (DG002)
+- تقييم توافق الصيغة/المسار العيني (المنتج الأصلي عن طريق الفم/الجلدي للخرف؛ يتطلب علاج الجلوكوما إعطاء عيني — توافق المسار حالياً "قيد الانتظار")
+- دليل سريري بشري (تجارب المرحلة 1/2 لخفض ضغط العين) للمضي قدماً بما يتجاوز مستوى الدليل المحدود للدراسات قبل السريرية فقط
+- بيانات التفاعل الدوائي (DDI)، حالياً "not_found"
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

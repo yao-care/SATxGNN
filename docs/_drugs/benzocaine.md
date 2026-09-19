@@ -29,74 +29,75 @@ indication_count: 1
 
 </div>
 
-# Benzocaine: From Local Anesthesia to Papillary Conjunctivitis
+# بنزوكايين: من التخدير الموضعي إلى التهاب الملتحمة الحليمي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Benzocaine is a topical local anesthetic (voltage-gated sodium channel blocker) widely used for surface anesthesia across multiple anatomical sites.
-The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**,
-however with **0 clinical trials** and **0 publications** currently supporting this direction, this prediction rests entirely on computational inference and warrants significant caution before further investment.
+بنزوكايين هو مخدر موضعي (مانع قنوات الصوديوم الجهدية) يُستخدم على نطاق واسع للتخدير السطحي عبر مواقع تشريحية متعددة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الملتحمة الحليمي**،
+لكن مع **0 تجربة سريرية** و **0 منشور** يدعم حالياً هذا الاتجاه، فإن هذا التنبؤ يستند بالكامل على الاستدلال الحسابي ويستدعي حذراً كبيراً قبل أي استثمار إضافي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Local / topical anesthesia (surface pain relief) |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | التخدير الموضعي/السطحي (تخفيف الألم السطحي) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة الحليمي |
+| درجة التنبؤ بـ TxGNN | 99.38% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير معروض في السوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Benzocaine belongs to the ester-class local anesthetics and works by blocking voltage-gated sodium channels (Nav1.x), stabilizing the neuronal membrane and preventing propagation of action potentials. This mechanism is well-established for surface pain relief in oral, dermal, and mucosal applications.
+بنزوكايين ينتمي إلى فئة الإسترات من المخدرات الموضعية ويعمل عن طريق حجب قنوات الصوديوم الجهدية (Nav1.x)، مما يثبت غشاء الخلية العصبية ويمنع انتشار جهود الفعل. وهذه الآلية راسخة جيداً بالنسبة لتخفيف الألم السطحي في التطبيقات الفموية والجلدية والمخاطية.
 
-Papillary conjunctivitis — particularly Giant Papillary Conjunctivitis (GPC) — is primarily a mast-cell and Th2-driven chronic inflammatory condition of the conjunctival epithelium, mediated by histamine, IL-4/IL-13, and the IgE axis. While sodium channels are expressed in conjunctival sensory nerve terminals, blocking them could theoretically suppress neurogenic inflammation (e.g., reduced substance P release), this represents an indirect, secondary pathway. There is currently no direct evidence that benzocaine modulates conjunctival mast cell activation or papilla formation.
+التهاب الملتحمة الحليمي - خاصة التهاب الملتحمة الحليامي العملاق (GPC) - هو بالأساس حالة التهابية مزمنة موجهة نحو الخلايا البدينة و Th2 من ظهارة الملتحمة، يتوسطها الهستامين و IL-4/IL-13 ومحور IgE. بينما تُعبَّر قنوات الصوديوم في نهايات الأعصاب الحسية للملتحمة، فإن حجبها قد يثبط نظرياً الالتهاب العصبي المحيطي (على سبيل المثال، تقليل إطلاق مادة P)، إلا أن هذا يمثل مساراً غير مباشر وثانوياً. لا توجد حالياً أي أدلة مباشرة على أن بنزوكايين يعدل تفعيل الخلايا البدينة في الملتحمة أو تشكيل الحليامات.
 
-The TxGNN prediction most likely arises from the graph neural network detecting pharmacological structural similarity between benzocaine and other ophthalmic local anesthetics (e.g., proparacaine, tetracaine) that do have documented ocular use — rather than a genuine disease-mechanism correspondence. Furthermore, benzocaine carries known safety concerns for ophthalmic use: corneal epithelial toxicity with repeated application and the risk of methemoglobinemia, both of which would complicate any repurposing attempt targeting the ocular surface.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for benzocaine in papillary conjunctivitis.
+التنبؤ بـ TxGNN على الأرجح ينشأ من كشف شبكة الأعصاب الرسومية للتشابه الدوائي الهيكلي بين بنزوكايين والمخدرات الموضعية البصرية الأخرى (على سبيل المثال، بروبوكايين، تيتراكايين) التي لها استخدام عيني موثق - بدلاً من أن يعكس مراسلة حقيقية لآلية المرض. علاوة على ذلك، فإن بنزوكايين يحمل مخاوف سلامة معروفة للاستخدام البصري: سمية ظهارة القرنية مع التطبيق المتكرر وخطر حدوث ميتهيموجلوبينيميا، وكلاهما قد يعقد أي محاولة إعادة توظيف موجهة نحو السطح العيني.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for benzocaine in papillary conjunctivitis.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** The mechanistic rationale identifies two specific safety concerns relevant to this predicted indication:
-> - **Corneal toxicity**: Repeated ophthalmic application of ester local anesthetics (including benzocaine) is associated with corneal epithelial damage and delayed healing.
-> - **Methemoglobinemia risk**: Benzocaine, particularly with mucosal absorption, carries a recognized risk of methemoglobinemia — a consideration that would require careful evaluation in ocular formulation development.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً لبنزوكايين في التهاب الملتحمة الحليمي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة المنشورات الطبية
 
-**Decision: Hold**
+لا توجد منشورات طبية ذات صلة متاحة حالياً لبنزوكايين في التهاب الملتحمة الحليامي.
 
-**Rationale:**
-This prediction is currently unsupported by any clinical trials or published literature (Evidence Level L5), and the mechanistic link between benzocaine's sodium channel blockade and the mast-cell/Th2 pathophysiology of papillary conjunctivitis is weak and indirect. The known corneal toxicity profile of ester-class local anesthetics adds an additional safety barrier for ophthalmic repurposing.
+---
 
-**To proceed, the following is needed:**
-- Preclinical in vitro evidence demonstrating that sodium channel blockade meaningfully suppresses mast cell degranulation or Th2 cytokine release in conjunctival tissue models
-- Safety data specifically addressing corneal toxicity thresholds at sub-anesthetic concentrations for a proposed ophthalmic formulation
-- Pharmacological differentiation from currently approved ophthalmic local anesthetics (proparacaine, tetracaine) — a rationale for why benzocaine would be preferred for this indication
-- Mechanism of action (MOA) data gap resolution via DrugBank API query before any further regulatory or clinical planning
+## اعتبارات الأمان
+
+يرجى الرجوع إلى النشرة الملحقة للحصول على معلومات السلامة.
+
+> **ملاحظة:** يحدد المبرر الآلي اثنين من مخاوف السلامة المحددة ذات الصلة بهذا المؤشر المتنبأ به:
+> - **سمية القرنية**: يُرتبط التطبيق البصري المتكرر للمخدرات الموضعية من فئة الإستر (بما في ذلك بنزوكايين) بضرر ظهارة القرنية والشفاء المتأخر.
+> - **خطر ميتهيموجلوبينيميا**: بنزوكايين، خاصة مع امتصاص المخاطية، يحمل خطراً معترفاً به لحدوث ميتهيموجلوبينيميا - اعتبار يتطلب تقييماً دقيقاً في تطوير صيغة عينية مقترحة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+هذا التنبؤ غير مدعوم حالياً بأي تجارب سريرية أو منشورات طبية (مستوى الأدلة L5)، والارتباط الآلي بين حجب قنوات الصوديوم في بنزوكايين وفيزيولوجيا المرض الموجهة نحو الخلايا البدينة/Th2 في التهاب الملتحمة الحليامي ضعيف وغير مباشر. إن ملف السلامة المعروف لسمية القرنية لمخدرات التخدير الموضعي من فئة الإستر يضيف حاجزاً أماناً إضافياً لإعادة التوظيف البصري.
+
+**للمتابعة، يُطلب ما يلي:**
+- أدلة سابقة للإكلينيكي في الجسم الحي تثبت أن حجب قنوات الصوديوم يثبط بشكل معنوي تفعيل الخلايا البدينة أو إطلاق السيتوكينات Th2 في نماذج أنسجة الملتحمة
+- بيانات السلامة التي تعالج على وجه التحديد عتبات سمية القرنية عند تركيزات دون التخديرية لصيغة عينية مقترحة
+- التمييز الدوائي عن مخدرات التخدير الموضعي البصري المعتمدة حالياً (بروبوكايين، تيتراكايين) - توضيح لسبب تفضيل بنزوكايين لهذا المؤشر
+- حل فجوة بيانات آلية العمل (MOA) عبر استعلام واجهة برمجة التطبيقات DrugBank قبل أي تخطيط تنظيمي أو سريري إضافي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Lacosamide: From Epilepsy to Manic Bipolar Affective Disorder
+# لاكوسامايد: من الصرع إلى اضطراب ثنائي القطب الهوسي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Lacosamide is an antiepileptic drug used to treat partial-onset (focal) seizures in epilepsy. The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but the supporting evidence currently available (**1 ongoing Phase 3 trial** and **14 publications**) centers almost entirely on bipolar *depressive* episodes rather than manic episodes — a partial mismatch between the predicted label and the actual evidence base that must be flagged before further action.
+لاكوسامايد هو عقار مضاد للصرع يُستخدم لعلاج نوبات الصرع ذات البداية الجزئية (البؤرية) في الصرع. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب ثنائي القطب الهوسي**، لكن الأدلة المتاحة حالياً (**تجربة سريرية متواصلة واحدة من المرحلة الثالثة** و**14 منشوراً**) تركز بشكل كامل تقريباً على حالات ثنائي القطب *الاكتئابية* وليس الهوسية — عدم توافق جزئي بين الدلالة المتنبأ بها والقاعدة الفعلية للأدلة يجب الإشارة إليه قبل اتخاذ أي إجراء إضافي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Epilepsy / partial-onset (focal) seizures *(inferred from trial and literature context — no official Saudi indication text is available, drug is not yet marketed)* |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| الدلالة الأصلية | الصرع / نوبات الصرع ذات البداية الجزئية (البؤرية) *(مستدلّ عليها من سياق التجربة والأدب الطبي — لا يتوفر نص رسمي لدلالة سعودية، العقار لم يُسَوّق بعد)* |
+| الدلالة الجديدة المتنبأ بها | اضطراب ثنائي القطب الهوسي |
+| درجة التنبؤ TxGNN | 99.96% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسَوّق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | سؤال بحثي |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed official mechanism-of-action data is not available (Data Gap DG002). However, the evidence pack itself contains mechanistic context: lacosamide selectively enhances the **slow inactivation of voltage-gated sodium channels**, producing extended stabilization of neuronal cell membranes, and it also interacts with **CRMP2 (collapsin response mediator protein 2)**. This dual mechanism is shared conceptually with older sodium-channel-modulating antiepileptics (e.g., carbamazepine, lamotrigine, valproate) that are already established mood stabilizers — supporting a plausible, class-level rationale for a psychiatric repurposing signal.
+حالياً، بيانات الآلية الرسمية للعمل المفصلة غير متوفرة (فجوة البيانات DG002). ومع ذلك، تتضمن مجموعة الأدلة نفسها السياق الآلي: يحسّن لاكوسامايد بشكل انتقائي **عدم التنشيط البطيء لقنوات الصوديوم المفعّلة برجهد كهربائي**، مما ينتج عنه استقرار ممتد للغشاء الخلوي العصبي، كما أنه يتفاعل أيضاً مع **CRMP2 (بروتين وسيط الاستجابة للانهيار 2)**. هذه الآلية المزدوجة مشتركة من الناحية المفهومية مع مضادات الصرع القديمة التي تُعدِّل قنوات الصوديوم (مثل كاربامازيبين وليموتريجين وحمض الفالبرويك) التي هي بالفعل مستقرات مزاج معروفة — وهذا يدعم مبررات فئوية معقولة وقابلة للتطبيق لإشارة إعادة توظيف نفسية.
 
-Epilepsy and bipolar disorder are frequently comorbid, and several AEDs originally developed for seizure control were later repurposed as mood stabilizers via this same membrane-stabilizing mechanism. This precedent is the core rationale behind the TxGNN prediction.
+يكون الصرع واضطراب ثنائي القطب متزامنين بشكل متكرر، وقد تمت إعادة توظيف عدة مضادات صرع تم تطويرها في الأصل للسيطرة على النوبات لاحقاً كمستقرات مزاج عبر هذه الآلية الموحدة لاستقرار الغشاء. هذه السابقة هي المبرر الأساسي وراء التنبؤ TxGNN.
 
-That said, the evidence curator's own relevance grading flags an important caveat: the only registered clinical trial (NCT07412132, grade B) targets **major depressive episodes** of Bipolar I/II disorder, not manic episodes as the predicted disease label states. Most supporting publications similarly describe lacosamide's effect on **depressive/anxious mood symptoms**, not mania. This is a meaningful indication mismatch — the mechanistic and clinical signal is real, but it points more strongly toward bipolar depression than toward the specific "manic" label TxGNN assigned.
+ومع ذلك، فإن درجات الصلة من مُعدِّ الأدلة نفسه تُعلِّم عن تحذير مهم: التجربة السريرية المسجلة الوحيدة (NCT07412132، الدرجة B) تستهدف **الحلقات الاكتئابية الشديدة** من اضطراب ثنائي القطب من النوع الأول/الثاني، وليس الحلقات الهوسية كما تنص دلالة المرض المتنبأ بها. تصف معظم المنشورات الداعمة بالمثل تأثير لاكوسامايد على **أعراض المزاج الاكتئابية/القلقة**، وليس الهوس. هذا عدم توافق دلالة مهم — الإشارة الآلية والسريرية حقيقية، لكنها تشير بقوة أكبر نحو الاكتئاب ثنائي القطب بدلاً من تسمية "الهوسي" المحددة التي خصصتها TxGNN.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | معدل الالتحاق | الملاحظات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | Recruiting | 40 | Randomized, double-blind trial of lacosamide as augmentation therapy for moderate-to-severe **major depressive episodes** in Bipolar I/II disorder — note: targets depressive, not manic, episodes. |
+| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | المرحلة 3 | قيد التجنيد | 40 | تجربة عشوائية، مزدوجة التعمية لـ لاكوسامايد كعلاج معزز لحالات **الحلقات الاكتئابية الشديدة** في اضطراب ثنائي القطب من النوع الأول/الثاني — لاحظ: تستهدف حالات اكتئابية وليس هوسية. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الملاحظات الرئيسية |
 |------|-----|------|------|---------|
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Retrospective controlled study | Psychiatry Clin Neurosci | 30-day comparison of lacosamide vs. other antiepileptics as mood stabilizers in bipolar disorder patients without epilepsy. |
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Open-label pilot trial | J Clin Psychopharmacol | 12-week open-label pilot evaluating efficacy and safety of lacosamide for bipolar depression. |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Case report (adverse event) | Indian J Psychol Med | Lacosamide-precipitated neutropenia in a patient with bipolar disorder and comorbid epilepsy. |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Case report | Acta Biomed | Clinical mood stabilization with lacosamide in a patient with mood disorder comorbid with PTSD and fronto-temporal epilepsy; describes sodium-channel slow-inactivation mechanism. |
-| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Prospective multicenter study | Epilepsy Behav | Lacosamide improved depression and anxiety symptoms in patients with focal-onset seizures. |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Case report | Cureus | Management of a pregnant patient with Bipolar I disorder and comorbid seizure-like activity. |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Review | Ther Drug Monit | 2018 update on therapeutic drug monitoring of antiepileptic drugs, noting use in bipolar disorder management. |
-| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Review | Adv Drug Deliv Rev | Overview of AEDs approved 1990–2011, including lacosamide's pharmacokinetics and tolerability profile. |
-| [16732716](https://pubmed.ncbi.nlm.nih.gov/16732716/) | 2006 | Review | Expert Opin Investig Drugs | Review of second-generation AEDs including lacosamide. |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Review (mechanism) | ACS Chem Neurosci | Druggability of CRMP2, a target relevant to lacosamide's proposed mechanism in neurological/neuropsychiatric disease. |
+| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | دراسة محكومة بأثر رجعي | Psychiatry Clin Neurosci | مقارنة 30 يوماً لـ لاكوسامايد مقابل مضادات صرع أخرى كمستقرات مزاج في مرضى اضطراب ثنائي القطب بدون صرع. |
+| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | تجربة طيارة مفتوحة التسميات | J Clin Psychopharmacol | تقييم 12 أسبوعاً مفتوح التسميات لفعالية وسلامة لاكوسامايد لاكتئاب ثنائي القطب. |
+| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | تقرير حالة (حدث سلبي) | Indian J Psychol Med | قلة العدلات الناجمة عن لاكوسامايد في مريض اضطراب ثنائي القطب مع صرع مصحوب. |
+| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | تقرير حالة | Acta Biomed | استقرار المزاج السريري مع لاكوسامايد في مريض باضطراب المزاج المصحوب باضطراب ما بعد الصدمة والصرع الفصي الأمامي-الصدغي؛ يصف آلية عدم التنشيط البطيء لقناة الصوديوم. |
+| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | دراسة متعددة المراكز استقصائية | Epilepsy Behav | حسّن لاكوسامايد أعراض الاكتئاب والقلق في مرضى نوبات الصرع ذات البداية البؤرية. |
+| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | تقرير حالة | Cureus | إدارة مريضة حامل اضطراب ثنائي القطب من النوع الأول مع نشاط شبيه بالنوبات المصحوب. |
+| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | مراجعة | Ther Drug Monit | تحديث 2018 لمراقبة المستويات العلاجية لأدوية مضادات الصرع، لاحظ استخدامها في إدارة اضطراب ثنائي القطب. |
+| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | مراجعة | Adv Drug Deliv Rev | نظرة عامة على مضادات الصرع المعتمدة 1990–2011، بما في ذلك الخصائص الدوائية والتحمل لـ لاكوسامايد. |
+| [16732716](https://pubmed.ncbi.nlm.nih.gov/16732716/) | 2006 | مراجعة | Expert Opin Investig Drugs | مراجعة لمضادات الصرع من الجيل الثاني بما في ذلك لاكوسامايد. |
+| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | مراجعة (آلية) | ACS Chem Neurosci | قابلية التصيد الدوائي لـ CRMP2، وهو هدف ذو صلة بالآلية المقترحة لـ لاكوسامايد في المرض العصبي/النفسي العصبي. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Lacosamide is **not currently marketed** in Saudi Arabia (0 product authorizations on file), so no local product/indication data is available for review.
+لاكوسامايد **غير مُسَوّق حالياً** في المملكة العربية السعودية (0 تخويل منتج في الملفات)، وبالتالي لا توجد بيانات محلية للمنتج/الدلالة متاحة للمراجعة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Research Question**
+**القرار: سؤال بحثي**
 
-**Rationale:**
-The mechanistic rationale (sodium-channel slow inactivation, class-level precedent among mood-stabilizing AEDs) is plausible, and there is a genuine, if modest, clinical evidence base (tier-2 retrospective and open-label studies, one recruiting Phase 3 RCT). However, the evidence consistently concerns bipolar **depressive** episodes, not the **manic** episodes named in the prediction, so the current label should be treated as a hypothesis to refine rather than a confirmed direction.
+**المبرر:**
+المبرر الآلي (عدم التنشيط البطيء لقناة الصوديوم، السابقة على مستوى الفئة بين مستقرات المزاج التي تثبط الصرع) معقول، وهناك قاعدة دليل سريري حقيقية، وإن كانت متواضعة (دراسات بأثر رجعي من الطبقة الثانية والدراسات مفتوحة التسميات، تجربة عشوائية محكومة واحدة قيد الالتحاق). ومع ذلك، تتعلق الأدلة بشكل ثابت بحالات **الاكتئاب** ثنائي القطب وليس حالات **الهوس** المذكورة في التنبؤ، وبالتالي يجب التعامل مع التسمية الحالية كفرضية يتم صقلها بدلاً من اتجاه مؤكد.
 
-**To proceed, the following is needed:**
-- Resolve the manic-vs-depressive indication mismatch — consider re-scoping the candidate indication to "bipolar depression" pending clarification
-- Await completion of NCT07412132 (estimated completion 2027-01) for controlled efficacy data
-- Obtain TFDA/official package insert warnings and contraindications (Data Gap DG001, Blocking — required before any S1 safety assessment)
-- Obtain formal drug mechanism-of-action documentation from DrugBank (Data Gap DG002)
-- Since the drug is unmarketed in Saudi Arabia, a market-entry/regulatory pathway assessment would be needed before any local clinical development
+**للمتابعة، يلزم ما يلي:**
+- حل عدم التوافق الهوسي مقابل الاكتئابي — فكر في إعادة نطاق الدلالة المرشحة إلى "اكتئاب ثنائي القطب" في انتظار التوضيح
+- انتظار اكتمال NCT07412132 (التاريخ المقدر للإكمال 2027-01) للحصول على بيانات الفعالية المحكومة
+- الحصول على تحذيرات/موانع استخدام TFDA/الرسمية ونشرة العبوة (فجوة البيانات DG001، عائق — مطلوب قبل أي تقييم سلامة S1)
+- الحصول على وثائق الآلية الرسمية لعمل العقار من DrugBank (فجوة البيانات DG002)
+- بما أن العقار غير مُسَوّق في المملكة العربية السعودية، فسيكون هناك حاجة إلى تقييم مسار الدخول إلى السوق/المسار التنظيمي قبل أي تطوير سريري محلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

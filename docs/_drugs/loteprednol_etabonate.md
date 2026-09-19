@@ -29,61 +29,62 @@ indication_count: 10
 
 </div>
 
-# Loteprednol Etabonate: From Ocular Inflammatory Conditions to Chronic Follicular Conjunctivitis
+# لوتيبريدنول إيتابونيت: من حالات التهاب العين إلى التهاب الملتحمة الجريبي المزمن
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Loteprednol etabonate is an ophthalmic corticosteroid already used for ocular inflammatory conditions (allergic conjunctivitis, post-surgical inflammation, uveitis). The TxGNN model predicts it may be effective for **Chronic Follicular Conjunctivitis**, but this direction is currently supported only by **2 case-report publications** and **no clinical trials**.
+لوتيبريدنول إيتابونيت هو كورتيكوستيرويد عيني يُستخدم بالفعل لعلاج حالات التهاب العين (التهاب الملتحمة التحسسي، التهاب ما بعد الجراحة، التهاب العنبية). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الملتحمة الجريبي المزمن**، لكن هذا الاتجاه مدعوم حالياً فقط بـ **2 تقرير حالة** و**عدم وجود تجارب سريرية**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Ocular inflammatory conditions (allergic conjunctivitis, post-surgical inflammation, uveitis) — no formal Saudi Arabia license data exists to confirm this |
-| Predicted New Indication | Chronic Follicular Conjunctivitis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | حالات التهاب العين (التهاب الملتحمة التحسسي، التهاب ما بعد الجراحة، التهاب العنبية) — لا توجد بيانات ترخيص رسمية في المملكة العربية السعودية لتأكيد هذا |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة الجريبي المزمن |
+| درجة التنبؤ بـ TxGNN | 99.69% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير معتمد على السوق (غير معتمد على السوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, a structured mechanism-of-action record is not available from DrugBank for this drug. Based on the information that is available, loteprednol etabonate is a site-specific corticosteroid (glucocorticoid receptor agonist) already used for ocular inflammatory disease — allergic conjunctivitis, post-surgical inflammation, and uveitis. Its efficacy in reducing local ocular inflammation is well established for these uses.
+حالياً، لا يتوفر سجل آلية العمل المنظم من DrugBank لهذا الدواء. بناءً على المعلومات المتاحة، فإن لوتيبريدنول إيتابونيت هو كورتيكوستيرويد موضعي محدد الموقع (ناهض مستقبل الجلوكوكورتيكويد) يُستخدم بالفعل لعلاج أمراض التهاب العين — التهاب الملتحمة التحسسي والتهاب ما بعد الجراحة والتهاب العنبية. تتمتع فعاليته في تقليل الالتهاب العيني الموضعي بإقرار جيد لهذه الاستخدامات.
 
-Chronic follicular conjunctivitis is driven by chronic antigen stimulation and lymphoid/follicular hyperplasia of the conjunctiva, an inflammatory process that is mechanistically similar to the conditions the drug already treats. In that sense, the TxGNN prediction represents a plausible extension of existing anti-inflammatory pharmacology to an adjacent ocular surface disease, rather than the discovery of a new mechanism. However, this remains a theoretical extrapolation — the two literature reports identified are case reports describing the disease itself, not treatment outcomes with loteprednol etabonate, so direct efficacy evidence is still lacking.
+يُحرّك التهاب الملتحمة الجريبي المزمن التحفيز المستضدي المزمن وفرط التنسج اللمفاوي/الجريبي للملتحمة، وهي عملية التهابية متشابهة من الناحية الآلية مع الحالات التي يعالجها الدواء بالفعل. بهذا المعنى، يمثل تنبؤ TxGNN امتداداً معقولاً للصيدلة المضادة للالتهاب الموجودة إلى مرض سطح عيني مجاور، وليس اكتشاف آلية عمل جديدة. لكن هذا يظل استقراءً نظرياً — التقارير الأدبية المحددة هي تقارير حالات تصف المرض ذاته، وليس نتائج العلاج بـ لوتيبريدنول إيتابونيت، لذا لا تزال الأدلة على الفعالية المباشرة ناقصة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة المراجع الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29801089](https://pubmed.ncbi.nlm.nih.gov/29801089/) | 2018 | Case Report | JAMA Ophthalmology | Case report describing chronic follicular conjunctivitis in a middle-aged woman; no treatment outcome data with loteprednol etabonate |
-| [17056466](https://pubmed.ncbi.nlm.nih.gov/17056466/) | 2006 | Case Report | Ocular Immunology and Inflammation | Case report of conjunctival non-caseating granulomas (sarcoidosis) in an HIV-positive patient; disease-description evidence only, not a treatment study |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
+|------|------|------|------|---------|
+| [29801089](https://pubmed.ncbi.nlm.nih.gov/29801089/) | 2018 | تقرير حالة | JAMA Ophthalmology | تقرير حالة يصف التهاب الملتحمة الجريبي المزمن في امرأة في منتصف العمر؛ لا توجد بيانات نتائج العلاج بـ لوتيبريدنول إيتابونيت |
+| [17056466](https://pubmed.ncbi.nlm.nih.gov/17056466/) | 2006 | تقرير حالة | Ocular Immunology and Inflammation | تقرير حالة لأورام حبيبية ملتحمية غير متجبنة (السارقويداس) في مريض إيجابي لـ HIV؛ أدلة على وصف المرض فقط، وليس دراسة علاجية |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Loteprednol etabonate is currently not marketed in Saudi Arabia — no authorization records are available.
+لوتيبريدنول إيتابونيت غير معتمد على السوق حالياً في المملكة العربية السعودية — لا توجد سجلات تفويضات متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-- The predicted indication is supported only by two disease-description case reports (no treatment trials, no comparative or observational data), and the drug is not currently marketed in Saudi Arabia (0 authorizations) with no SFDA/TFDA labeling data available to clear a basic safety screen.
+**المنطق الأساسي:**
+- المؤشر المتنبأ به مدعوم فقط بـ 2 تقرير حالات يصفان المرض (لا توجد تجارب علاجية، لا توجد بيانات مقارنة أو رصدية)، والدواء غير معتمد على السوق حالياً في المملكة العربية السعودية (0 تفويضات) مع عدم توفر بيانات وسم SFDA/TFDA للمرور عبر فحص السلامة الأساسي.
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert warnings and contraindications (currently unavailable — this is a blocking gap for safety evaluation)
-- Confirmed structured mechanism-of-action data from DrugBank
-- Local regulatory pathway assessment, since the product is not currently registered in Saudi Arabia
-- Treatment-outcome evidence (case series, pilot study, or trial) specifically evaluating loteprednol etabonate in chronic follicular conjunctivitis, since existing literature only describes the disease rather than the intervention
+**للمتابعة، يجب توفير ما يلي:**
+- تحذيرات وموانع استخدام نشرة SFDA/TFDA (غير متاحة حالياً — هذه فجوة حجب لتقييم السلامة)
+- بيانات آلية العمل المنظمة والمؤكدة من DrugBank
+- تقييم المسار التنظيمي المحلي، نظراً لأن المنتج غير مسجل حالياً في المملكة العربية السعودية
+- أدلة نتائج العلاج (سلسلة حالات، دراسة تجريبية، أو تجربة) تقيّم لوتيبريدنول إيتابونيت تحديداً في التهاب الملتحمة الجريبي المزمن، نظراً لأن الأدبيات الموجودة تصف المرض فقط وليس التدخل العلاجي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

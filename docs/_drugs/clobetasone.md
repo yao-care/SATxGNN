@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Clobetasone: From Topical Inflammatory Skin Conditions to Primary Cutaneous T-Cell Lymphoma
+# كلوبيتازون: من الحالات الالتهابية للجلد الموضعية إلى الأورام اللمفاوية التائية الجلدية الابتدائية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Clobetasone is a medium-potency topical glucocorticoid, commonly used to manage inflammatory skin conditions such as eczema and dermatitis.
-The TxGNN model predicts it may have potential utility in **Primary Cutaneous T-Cell Lymphoma (CTCL)**,
-with **0 clinical trials** and **0 publications** currently supporting this specific direction — the prediction rests entirely on mechanistic class inference within the knowledge graph.
+كلوبيتازون هو كورتيكوستيرويد موضعي متوسط الفعالية، يُستخدم عادة لعلاج الحالات الالتهابية للجلد مثل الإكزيما والتهاب الجلد.
+يتنبأ نموذج TxGNN بأنه قد يكون له فائدة محتملة في **الأورام اللمفاوية التائية الجلدية الابتدائية (CTCL)**،
+مع **0 تجربة سريرية** و **0 منشور** يدعمان هذا الاتجاه المحدد حالياً — التنبؤ يستند كلياً على الاستدلال الآلي للعائلة الدوائية ضمن الرسم البياني للمعرفة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Inflammatory skin conditions (topical corticosteroid class; no Saudi Arabia license on record) |
-| Predicted New Indication | Primary Cutaneous T-Cell Lymphoma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | الحالات الالتهابية للجلد (فئة كورتيكوستيرويد موضعي؛ لا يوجد ترخيص معروف بالمملكة العربية السعودية) |
+| الدلالة الجديدة المتنبأ بها | الأورام اللمفاوية التائية الجلدية الابتدائية |
+| درجة التنبؤ من TxGNN | 99.97% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Clobetasone is a synthetic glucocorticoid designed for topical application. As a member of the glucocorticoid receptor (GR) agonist class, it exerts its anti-inflammatory effect by binding to intracellular GRs, suppressing pro-inflammatory cytokine transcription (NF-κB pathway), and — critically for this prediction — inducing apoptosis in T lymphocytes via GR-mediated upregulation of the pro-apoptotic protein Bim. This T-cell apoptosis mechanism is the biological rationale that connects a topical steroid to a T-cell malignancy.
+كلوبيتازون هو كورتيكوستيرويد اصطناعي مصمم للتطبيق الموضعي. كعضو من فئة ناهضات مستقبل الكورتيكوستيرويد (GR)، يمارس تأثيره المضاد للالتهاب من خلال الارتباط بمستقبلات GR داخل الخلايا، وقمع نسخ السيتوكينات الالتهابية (مسار NF-κB)، والأهم من ذلك — تحفيز الموت المبرمج للخلايا في الخلايا اللمفاوية التائية من خلال تصعيد تعبير البروتين المؤيد للموت المبرمج Bim الذي يتوسطه GR. هذه آلية موت الخلايا اللمفاوية التائية هي الأساس البيولوجي الذي يربط كورتيكوستيرويد موضعي بورم خبيث في الخلايا اللمفاوية التائية.
 
-Currently, detailed mechanism of action data for clobetasone is not available in the Evidence Pack. Based on its known class pharmacology, clobetasone belongs to the mid-potency topical glucocorticoid group. Its anti-inflammatory and T-cell suppressive properties — shared across the glucocorticoid class — are why TxGNN's knowledge graph links it to CTCL. In current clinical practice, topical corticosteroids are indeed used as adjunctive symptom-control agents in early-stage CTCL (patch/plaque stage), though they are not considered primary or curative therapy.
+حالياً، بيانات آلية العمل المفصلة لكلوبيتازون غير متوفرة في حزمة الأدلة. بناءً على الصيدلة المعروفة لفئته، ينتمي كلوبيتازون إلى مجموعة الكورتيكوستيرويدات الموضعية متوسطة الفعالية. خصائصه المضادة للالتهاب وقمع الخلايا اللمفاوية التائية — المشتركة عبر فئة الكورتيكوستيرويدات — هي السبب في أن رسم المعرفة لـ TxGNN يربطه بـ CTCL. في الممارسة السريرية الحالية، تُستخدم الكورتيكوستيرويدات الموضعية فعلاً كعوامل مساعدة للتحكم في الأعراض في المراحل المبكرة من CTCL (مرحلة الرقعة/اللويحة)، على الرغم من عدم اعتبارها علاجاً أساسياً أو شافياً.
 
-The key mechanistic caveat is clobetasone's pharmacokinetic profile: as a topical-only agent with low systemic bioavailability, its ability to penetrate the tumor microenvironment in deeper dermal CTCL lesions is uncertain. The TxGNN score reflects class-level mechanistic plausibility, not evidence specific to clobetasone itself.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+التحفظ الحركي الدوائي الأساسي هو الملف الشخصي الدوائي لكلوبيتازون: كعامل موضعي فقط بتوافر حيوي منخفض في الجهاز، فإن قدرته على اختراق البيئة الدقيقة للورم في آفات CTCL الجلدية الأعمق غير مؤكدة. درجة TxGNN تعكس الإمكانية الآلية على مستوى الفئة، وليس دليل محدد لكلوبيتازون نفسه.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Clobetasone currently holds no drug authorizations in Saudi Arabia. No license records are available.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
+لا تتوفر أدبيات ذات صلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+لا يحتفظ كلوبيتازون حالياً بأي تصاريح أدوية في المملكة العربية السعودية. لا توجد سجلات ترخيص متاحة.
 
-**Rationale:**
-All 10 predicted indications are rated L5 with no supporting clinical trials or publications; the prediction for CTCL is entirely model-driven, based on glucocorticoid class-level T-cell apoptosis mechanisms rather than any clobetasone-specific evidence. Furthermore, clobetasone is not marketed in Saudi Arabia, meaning regulatory groundwork is absent, and its topical-only formulation is pharmacokinetically unsuited for most of the predicted indications (systemic diseases such as nephrotic syndrome, adrenocortical insufficiency, and Crohn's colitis).
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **MOA verification**: Retrieve full mechanism of action data from DrugBank (DB13158) to confirm GR-mediated T-cell apoptosis potency relative to other topical steroids
-- **Literature search expansion**: Broaden PubMed search to include class-level evidence (topical corticosteroids + CTCL) rather than clobetasone-specific queries, to assess whether the class mechanism has empirical support
-- **Formulation feasibility assessment**: Evaluate whether clobetasone can be reformulated (e.g., higher-concentration topical, impregnated dressing, or novel delivery vehicle) to achieve meaningful tumor penetration in early-stage CTCL
-- **Comparative potency analysis**: Position clobetasone against established topical steroids used in CTCL guidelines (e.g., clobetasol propionate — a higher-potency agent in the same class) to determine whether clobetasone offers a differentiated advantage
-- **Safety profile retrieval**: Obtain package insert from TFDA or EMA source to populate key warnings and contraindications before any further evaluation stage
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+جميع الـ 10 دلالات متنبأ بها مصنفة L5 بدون تجارب سريرية أو منشورات داعمة؛ التنبؤ بـ CTCL يعتمد كلياً على النموذج، استناداً إلى آليات موت الخلايا اللمفاوية التائية على مستوى الفئة الدوائية بدلاً من أي دليل محدد لكلوبيتازون. علاوة على ذلك، كلوبيتازون غير مسوق في المملكة العربية السعودية، مما يعني أن الأساس التنظيمي غائب، وصيغته الموضعية فقط غير مناسبة من الناحية الحركية الدوائية لمعظم الدلالات المتنبأ بها (الأمراض الجهازية مثل متلازمة الكلية، قصور الغدة الكظرية، والتهاب القولون كرون).
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **التحقق من آلية العمل**: استرجاع بيانات آلية العمل الكاملة من DrugBank (DB13158) لتأكيد قوة موت الخلايا اللمفاوية التائية الذي يتوسطه GR بالنسبة إلى الكورتيكوستيرويدات الموضعية الأخرى
+- **توسيع البحث الأدبي**: توسيع البحث في PubMed ليشمل الأدلة على مستوى الفئة (الكورتيكوستيرويدات الموضعية + CTCL) بدلاً من الاستعلامات المحددة لكلوبيتازون، لتقييم ما إذا كانت آلية الفئة الدوائية لها دعم تجريبي
+- **تقييم جدوى الصيغة**: تقييم ما إذا كان يمكن إعادة صياغة كلوبيتازون (مثل صيغة موضعية بتركيز أعلى، أو ضمادة مشبعة، أو وسيط توصيل جديد) لتحقيق اختراق ذي مغزى للورم في المراحل المبكرة من CTCL
+- **تحليل الفعالية المقارنة**: وضع كلوبيتازون مقابل الكورتيكوستيرويدات الموضعية المعروفة المستخدمة في إرشادات CTCL (مثل بروبيونات كلوبيتازول — عامل بفعالية أعلى في نفس الفئة) لتحديد ما إذا كان كلوبيتازون يقدم ميزة متميزة
+- **استرجاع ملف السلامة**: الحصول على النشرة الدوائية من مصدر TFDA أو EMA لملء التحذيرات الرئيسية والاستطباعات المضادة قبل أي مرحلة تقييم إضافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

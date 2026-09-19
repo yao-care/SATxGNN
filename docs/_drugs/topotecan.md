@@ -29,106 +29,107 @@ indication_count: 10
 
 </div>
 
-# Topotecan: From Ovarian Cancer to Female Breast Carcinoma
+# التوبوتيكان: من سرطان المبيض إلى سرطان الثدي لدى الإناث
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Topotecan is a topoisomerase I inhibitor internationally established for ovarian cancer, small cell lung cancer, and cervical cancer (it is currently unmarketed in Saudi Arabia). The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, a direction supported by **5 clinical trials** and **20 publications**, though most of the clinical evidence is decades old and reflects a discontinued development effort.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in Saudi Arabia (unmarketed); internationally approved for ovarian cancer, small cell lung cancer, and cervical cancer |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> التوبوتيكان هو مثبط توبويزوميراز I معترف به دولياً لسرطان المبيض وسرطان الرئة ذو الخلايا الصغيرة وسرطان عنق الرحم (لا يتم تسويقه حالياً في المملكة العربية السعودية). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لـ **سرطان الثدي لدى الإناث**، وهو الاتجاه الذي تدعمه **5 تجارب سريرية** و **20 منشورة**، على الرغم من أن معظم الأدلة السريرية قديمة نسبياً وتعكس جهد تطوير متوقف.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Topotecan is a semisynthetic camptothecin derivative that acts as a topoisomerase I inhibitor. It stabilizes the topoisomerase I–DNA cleavage complex, causing single-strand DNA breaks that convert into lethal double-strand breaks during S-phase, driving apoptosis preferentially in highly proliferative tumor cells. Its cellular activity is also modulated by the BCRP/ABCG2 and P-glycoprotein efflux transporters, which are recurring themes across the literature evidence collected here.
-
-Breast carcinoma is a highly proliferative solid tumor, and topoisomerase I is frequently overexpressed in breast cancer cell lines, providing a mechanistic rationale consistent with topotecan's known cytotoxic profile in other rapidly dividing malignancies (ovarian, small cell lung, cervical). This is corroborated by multiple older Phase II clinical trials that directly tested topotecan (alone or in combination) in metastatic breast cancer.
-
-However, the mechanistic plausibility is tempered by outcome data: the repurposing rationale in this evidence pack notes that single-agent and combination trials from the 1990s–2000s generally showed limited response rates in breast cancer, and clinical development in this indication appears to have stalled. The signal is therefore mechanistically coherent but historically underwhelming in efficacy.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موجود في السجلات في المملكة العربية السعودية (لا يتم تسويقه)؛ معتمد دولياً لسرطان المبيض وسرطان الرئة ذو الخلايا الصغيرة وسرطان عنق الرحم |
+| المؤشر الجديد المتنبأ به | سرطان الثدي لدى الإناث |
+| درجة التنبؤ من TxGNN | 99.92% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | Not Marketed |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+التوبوتيكان مشتق شبه اصطناعي من كامبتوتيسين يعمل كمثبط لتوبويزوميراز I. يثبت معقد شطر توبويزوميراز I والحمض النووي، مما يسبب فواصل في الحمض النووي أحادية الشريط التي تتحول إلى فواصل مميتة ثنائية الشريط خلال طور S، مما يدفع الموت المبرمج بشكل انتقائي في خلايا الأورام سريعة الانقسام. كما يتم تعديل نشاطه الخلوي بواسطة ناقلات BCRP/ABCG2 و P-glycoprotein efflux، وهي مواضيع متكررة عبر الأدلة الأدبية المجمعة هنا.
+
+سرطان الثدي ورم صلب سريع الانقسام، وعادة ما يكون توبويزوميراز I مفرطاً في التعبير عنه في خطوط خلايا سرطان الثدي، مما يوفر مبررات آلية متسقة مع الملف السام المعروف للتوبوتيكان في الأورام الخبيثة الأخرى سريعة الانقسام (المبيض والرئة وعنق الرحم). يدعم هذا عدة تجارب سريرية من المرحلة الثانية من التسعينيات فما بعده التي اختبرت مباشرة التوبوتيكان (وحده أو بالاشتراك) في سرطان الثدي النقيلي.
+
+ومع ذلك، يتم تخفيف المعقولية الآلية بواسطة بيانات النتائج: تشير مبررات إعادة استخدام الأدوية في هذه المجموعة من الأدلة إلى أن تجارب ذات عامل واحد والتجارب المركبة من التسعينيات إلى العقد الأول من القرن الحادي والعشرين أظهرت عموماً معدلات استجابة محدودة في سرطان الثدي، ويبدو أن التطوير السريري في هذا المؤشر قد توقف. وبالتالي فإن الإشارة متماسكة من الناحية الآلية لكن ضعيفة تاريخياً من حيث الفعالية.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Terminated | N/A | Intensive-dose topotecan + ifosfamide/mesna + etoposide (TIME) followed by autologous stem cell rescue in metastatic breast cancer |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | NA | Unknown | 35 | Organoid-based high-throughput drug screen assay for refractory solid tumors selecting chemotherapy agents (not topotecan-specific) |
-| [NCT04739800](https://clinicaltrials.gov/study/NCT04739800) | Phase 2 | Active, not recruiting | 120 | Durvalumab + olaparib + cediranib triplet vs. standard chemotherapy in platinum-resistant ovarian/peritoneal/fallopian cancer; topotecan's role as a comparator arm unconfirmed |
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | Completed | 266 | Olaparib monotherapy vs. physician's choice single-agent chemotherapy in gBRCA-mutated relapsed ovarian cancer; topotecan's role as intervention unconfirmed |
-| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Phase 1 | Terminated | 221 | Selinexor combined with multiple standard chemotherapy/immunotherapy regimens in advanced malignancies; topotecan possibly one of the standard-chemo arms |
+| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | المرحلة 2 | موقوفة | غير متاح | التوبوتيكان بجرعة مكثفة + أيفوسفاميد/ميسنا + إيتوبوسيد (TIME) متبوعاً بإنقاذ الخلايا الجذعية الذاتية في سرطان الثدي النقيلي |
+| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | غير محدد | غير معروف | 35 | فحص دوائي عالي الإنتاجية قائم على الأورجانويد للأورام الصلبة المقاومة يختار عوامل العلاج الكيميائي (ليس خاص بالتوبوتيكان) |
+| [NCT04739800](https://clinicaltrials.gov/study/NCT04739800) | المرحلة 2 | نشطة، لا تجند حالياً | 120 | ثلاثي ديرفالوماب + أوليبارب + سيديرانيب مقابل العلاج الكيميائي المعياري في السرطان المقاوم للبلاتين في المبيض/الجنبة/قناة فالوب؛ دور التوبوتيكان كذراع مقارنة غير مؤكد |
+| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | المرحلة 3 | مكتملة | 266 | أحادي أوليبارب مقابل عامل كيميائي واحد من اختيار الطبيب في سرطان المبيض النكس مع طفرة gBRCA؛ دور التوبوتيكان كتدخل غير مؤكد |
+| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | المرحلة 1 | موقوفة | 221 | سيلينيكسور مع أنظمة علاج كيميائي/علاج مناعي معيارية متعددة في الأورام الخبيثة المتقدمة؛ قد يكون التوبوتيكان أحد أذرع العلاج الكيميائي المعيارية |
 
 ---
 
-## Literature Evidence
+## أدلة أدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [10362325](https://pubmed.ncbi.nlm.nih.gov/10362325/) | 1999 | Cohort (Phase II) | American Journal of Clinical Oncology | CALGB Phase II trial of topotecan in advanced breast cancer; response evaluated in 47 evaluable patients |
-| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Cohort | Onkologie | Pilot study of topotecan chemotherapy in breast cancer patients with brain metastases |
-| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Cohort (Phase II) | British Journal of Cancer | Continuous infusional topotecan in advanced breast cancer and NSCLC; no evidence of increased efficacy over bolus dosing |
-| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Review | Gynäkologisch-Geburtshilfliche Rundschau | Overview of new cytotoxic agents (including topotecan) in breast carcinoma therapy |
-| [40300683](https://pubmed.ncbi.nlm.nih.gov/40300683/) | 2025 | Preclinical | International Journal of Biological Macromolecules | TFDP1 identified as a therapeutic target for topotecan in triple-negative breast cancer (TNBC) |
-| [26623560](https://pubmed.ncbi.nlm.nih.gov/26623560/) | 2015 | Preclinical | Oncotarget | Metronomic topotecan + pazopanib combination shows potent efficacy in preclinical TNBC models |
-| [31408695](https://pubmed.ncbi.nlm.nih.gov/31408695/) | 2019 | Preclinical | Pharmacological Research | Daidzein enhances topotecan anticancer effect and reverses BCRP-mediated resistance in breast cancer |
-| [15836850](https://pubmed.ncbi.nlm.nih.gov/15836850/) | 2005 | Preclinical | Journal of Surgical Research | Quercetin potentiates topotecan cytotoxicity in MCF-7 and MDA-MB-231 breast cancer cells |
-| [27444351](https://pubmed.ncbi.nlm.nih.gov/27444351/) | 2016 | Preclinical | Phytomedicine | MHP-1 restores topotecan sensitivity via EMT/TGF-β regulation in breast cancer cells |
-| [39657238](https://pubmed.ncbi.nlm.nih.gov/39657238/) | 2024 | Preclinical | ACS Applied Materials & Interfaces | Biomimetic topotecan–gene nanoparticle combination therapy for metastatic breast cancer |
+| [10362325](https://pubmed.ncbi.nlm.nih.gov/10362325/) | 1999 | دراسة الفوج (المرحلة الثانية) | American Journal of Clinical Oncology | تجربة CALGB في المرحلة الثانية للتوبوتيكان في سرطان الثدي المتقدم؛ تم تقييم الاستجابة في 47 مريضاً قابلاً للتقييم |
+| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | دراسة فوج | Onkologie | دراسة استطلاعية لعلاج توبوتيكان في مرضى سرطان الثدي مع نقائل دماغية |
+| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | دراسة فوج (المرحلة الثانية) | British Journal of Cancer | التوبوتيكان بالتسريب المستمر في سرطان الثدي المتقدم وسرطان الرئة غير الصغير الخلايا؛ لا توجد أدلة على زيادة الفعالية مقارنة بالحقن السريع |
+| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | مراجعة | Gynäkologisch-Geburtshilfliche Rundschau | نظرة عامة على العوامل الخلوية السامة الجديدة (بما فيها التوبوتيكان) في علاج سرطان الثدي |
+| [40300683](https://pubmed.ncbi.nlm.nih.gov/40300683/) | 2025 | ما قبل السريري | International Journal of Biological Macromolecules | تم تحديد TFDP1 كهدف علاجي للتوبوتيكان في سرطان الثدي ثلاثي السلبية (TNBC) |
+| [26623560](https://pubmed.ncbi.nlm.nih.gov/26623560/) | 2015 | ما قبل السريري | Oncotarget | مزيج توبوتيكان + بازوبانيب منتظم يُظهر فعالية قوية في نماذج TNBC ما قبل السريرية |
+| [31408695](https://pubmed.ncbi.nlm.nih.gov/31408695/) | 2019 | ما قبل السريري | Pharmacological Research | يعزز الدايدزين تأثير التوبوتيكان المضاد للسرطان ويعكس مقاومة BCRP في سرطان الثدي |
+| [15836850](https://pubmed.ncbi.nlm.nih.gov/15836850/) | 2005 | ما قبل السريري | Journal of Surgical Research | الكيرسيتين يعزز السمية الخلوية للتوبوتيكان في خلايا سرطان الثدي MCF-7 و MDA-MB-231 |
+| [27444351](https://pubmed.ncbi.nlm.nih.gov/27444351/) | 2016 | ما قبل السريري | Phytomedicine | MHP-1 يستعيد حساسية التوبوتيكان عبر تنظيم EMT/TGF-β في خلايا سرطان الثدي |
+| [39657238](https://pubmed.ncbi.nlm.nih.gov/39657238/) | 2024 | ما قبل السريري | ACS Applied Materials & Interfaces | جزيئات حيوية التوبوتيكان-جين بتوافق بيولوجي للعلاج المركب في سرطان الثدي النقيلي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Topotecan currently has no market authorization on file in Saudi Arabia (market status: Not marketed / Not Marketed; 0 licenses recorded), so no product-level licensing table can be produced.
-
----
-
-## Cytotoxicity
-
-Topotecan is a conventional cytotoxic chemotherapeutic agent (topoisomerase I inhibitor, camptothecin class), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (topoisomerase I inhibitor / camptothecin derivative) |
-| Myelosuppression Risk | High — dose-limiting toxicity reported across the evidence base is myelosuppression, with severe neutropenia and thrombocytopenia documented as the major adverse event in topotecan trials |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions (not specified in this evidence pack) |
-| Monitoring Items | Complete blood count with differential (baseline and each cycle), renal function (topotecan clearance is dependent on creatinine clearance), liver function |
-| Handling Protection | Yes — must be handled under standard cytotoxic/hazardous drug handling protocols as an IV antineoplastic agent |
+التوبوتيكان حالياً لا يوجد له تصريح تسويق مسجل في المملكة العربية السعودية (حالة السوق: Not Marketed؛ 0 تراخيص مسجلة)، لذلك لا يمكن إنتاج جدول معلومات المنتج.
 
 ---
 
-## Safety Considerations
+## السمية الخلوية
 
-Please refer to the package insert for safety information. No TFDA warnings, contraindications, or drug-drug interaction data were available in this evidence pack (TFDA label lookup returned no result, and DDI query status was "not found").
+التوبوتيكان دواء علاج كيميائي خلوي سام تقليدي (مثبط توبويزوميراز I / مشتق كامبتوتيسين)، لذا ينطبق هذا القسم.
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | خلوي سام تقليدي (مثبط توبويزوميراز I / مشتق كامبتوتيسين) |
+| مخاطر تثبيط نخاع العظم | عالية — السمية المحددة للجرعة المبلغ عنها عبر الأدلة هي تثبيط نخاع العظم، مع توثيق قلة الكريات البيضاء العديدة الحادة وقلة الصفيحات كالحدث الضائر الرئيسي في التجارب التوبوتيكان |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات وإحتياطات ملصق العبوة (غير محدد في هذه المجموعة من الأدلة) |
+| بنود المراقبة | العد الدموي الشامل مع التفريق (خط الأساس وكل دورة)، وظائف الكلى (يعتمد صفاء التوبوتيكان على تصفية الكرياتينين)، وظائف الكبد |
+| حماية المناولة | نعم — يجب معالجة الدواء بموجب بروتوكولات معالجة الأدوية السامة/الخطرة القياسية كعامل حقن مضاد للسرطان |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى ملصق العبوة للحصول على معلومات السلامة. لم تكن هناك بيانات تحذيرات TFDA أو موانع أو تفاعلات أدوية متاحة في هذه المجموعة من الأدلة (البحث عن ملصق TFDA أرجع بلا نتيجة، واستعلام DDI أرجع "غير موجود").
 
-**Rationale:**
-- TFDA/package-insert safety data is a blocking data gap, which per this evaluation's own criteria means the candidate cannot proceed into safety pre-screening (S1) yet.
-- The drug is not marketed in Saudi Arabia (0 authorizations), and the breast carcinoma clinical evidence, while mechanistically coherent, consists mostly of older Phase II trials with limited response and a historically stalled development path.
+---
 
-**To proceed, the following is needed:**
-- TFDA/international package insert data: key warnings, contraindications, and drug-drug interactions
-- Detailed, sourced mechanism-of-action documentation (DrugBank) beyond the mechanistic inference drawn from trial/literature text
-- Manual curation of the "adult germ cell tumor" evidence set (rank 2), where much of the automatically collected trial/literature pool is actually neuroblastoma-related rather than adult germ cell tumor, before that candidate can be advanced
-- A defined Saudi Arabia market-entry or licensing pathway assessment, given the current unmarketed status
+## الاستنتاج والخطوات التالية
+
+**القرار: انتظار**
+
+**المبرر:**
+- بيانات السلامة من TFDA/ملصق العبوة هي فجوة بيانات حاجزة، والتي وفقاً لمعايير هذا التقييم الخاصة به تعني أن المرشح لا يمكنه التقدم إلى فحص السلامة المسبق (S1) حالياً.
+- الدواء لا يتم تسويقه في المملكة العربية السعودية (0 تصاريح)، وأدلة سرطان الثدي السريرية، بينما متماسكة آلياً، تتألف بشكل أساسي من تجارب أقدم في المرحلة الثانية بمعدلات استجابة محدودة وسجل تطوير متوقف تاريخياً.
+
+**للمضي قدماً، ما يلي مطلوب:**
+- بيانات TFDA/ملصق العبوة الدولي: التحذيرات الرئيسية والموانع وتفاعلات الأدوية
+- توثيق مفصل ومصدر لآلية التأثير (DrugBank) يتجاوز الاستنتاج الآلي المستقى من نصوص التجارب/الأدب
+- التنسيق اليدوي لمجموعة أدلة "ورم الخلايا الجرثومية عند البالغين" (الرتبة 2)، حيث يتم استخراج جزء كبير من مجموعة التجارب/الأدب المجمعة تلقائياً في الواقع أورام أرومية عصبية وليست ورم الخلايا الجرثومية عند البالغين، قبل أن يتمكن هذا المرشح من التقدم
+- تقييم محدد لمسار دخول السوق أو الترخيص في المملكة العربية السعودية، نظراً للحالة الحالية لعدم التسويق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,117 +29,118 @@ indication_count: 10
 
 </div>
 
-# Dipyridamole: From Antiplatelet Therapy to Prinzmetal Angina
+# ديبيريدامول: من العلاج المانع للتجلط إلى ذبحة برينزمتال
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Dipyridamole is a well-established antiplatelet and vasodilatory agent, most recognized globally for its combined use with aspirin (Aggrenox) in secondary stroke prevention, though it currently holds no regulatory approval in Saudi Arabia.
-The TxGNN model's top-ranked prediction places it as a candidate for **Prinzmetal Angina (variant angina)** with a score of 99.99% — however, published evidence reveals a **critical safety concern**: dipyridamole functions as a vasospasm *provocateur* rather than a therapeutic agent in this condition, with **0 clinical trials** and **15 publications**, nearly all in a diagnostic rather than therapeutic context.
-Stronger repurposing signals with L1 evidence exist for **Stroke Disorder** (Rank 2) and **Transient Ischemic Attack** (Rank 5), both supported by multiple completed Phase 3 RCTs.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No Saudi Arabia regulatory approval on record; dipyridamole is an established antiplatelet agent used in combination therapy for stroke prevention |
-| Predicted New Indication | Prinzmetal Angina (Variant Angina) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 (Mechanistic studies and diagnostic literature; no therapeutic RCTs) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | ⚠️ Hold (Potential Contraindication) |
+ديبيريدامول هو عامل مانع للتجلط وموسع للأوعية الدموية معروف جيدًا، الأكثر شهرة عالميًا لاستخدامه المشترك مع الأسبرين (أجرينوكس) في الوقاية الثانوية من السكتة الدماغية، لكنه حاليًا لا يحمل موافقة تنظيمية في المملكة العربية السعودية.
+يضع نموذج TxGNN التنبؤي في المرتبة الأولى ديبيريدامول كمرشح لـ **ذبحة برينزمتال (الذبحة المتغيرة)** بنسبة 99.99% — إلا أن الأدلة المنشورة تكشف عن **مخاوف أمان حرجة**: يعمل ديبيريدامول كمثير لتشنج الأوعية *بدلاً من* عامل علاجي في هذه الحالة، مع **0 تجارب سريرية** و **15 منشور**، معظمها في سياق تشخيصي وليس علاجي.
+توجد إشارات إعادة توظيف أقوى مع دليل L1 لـ **اضطراب السكتة الدماغية** (المرتبة 2) و **النوبة الإقفارية العابرة** (المرتبة 5)، كلاهما مدعوم بتجارب عشوائية محكومة مرحلة 3 متعددة مكتملة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Dipyridamole inhibits phosphodiesterase (PDE), preventing the breakdown of cyclic AMP (cAMP) and cyclic GMP (cGMP) within platelets, and simultaneously blocks adenosine reuptake — raising extracellular adenosine concentrations at the vascular level. Together, these mechanisms inhibit platelet aggregation and induce coronary and peripheral vasodilation. These properties underlie its established role as an antiplatelet agent (most notably combined with aspirin as Aggrenox, FDA-approved for secondary stroke prevention) and as a pharmacological stress agent in myocardial perfusion scintigraphy.
-
-Prinzmetal (variant) angina is characterized by episodic, rest-associated chest pain caused by coronary arterial vasospasm rather than fixed atherosclerotic obstruction. At first glance, dipyridamole's vasodilatory mechanism might seem relevant. However, the clinical evidence points in the opposite direction: dipyridamole-induced adenosine potentiation creates a **coronary steal phenomenon**, and abrupt reversal of vasodilation — for example by aminophylline administration — can trigger intense rebound vasospasm. PMID 3421166 explicitly documents this mechanism, recording that dipyridamole stress testing provokes acute vasospastic episodes in variant angina patients. Accordingly, the **dipyridamole stress test is used as a diagnostic tool to provoke and confirm vasospastic attacks** — not as a treatment.
-
-Standard therapy for Prinzmetal angina consists of calcium channel blockers (diltiazem, amlodipine) and long-acting nitrates. The TxGNN model's high prediction score most likely reflects adenosine/vascular network proximity within the pharmacological knowledge graph, rather than true therapeutic potential. **This prediction should be interpreted as a safety signal, not a repurposing opportunity.**
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Dipyridamole in Prinzmetal angina.
+| العنصر | المحتوى |
+|--------|---------|
+| الإشارة الأصلية | لا توجد موافقة تنظيمية مسجلة في المملكة العربية السعودية؛ ديبيريدامول هو عامل مانع للتجلط معروف يستخدم في العلاج المركب للوقاية من السكتة الدماغية |
+| الإشارة الجديدة المتنبأ بها | ذبحة برينزمتال (الذبحة المتغيرة) |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L4 (دراسات الآليات الميكانيكية والأدب التشخيصي؛ لا توجد تجارب سريرية عشوائية محكومة علاجية) |
+| حالة السوق بالمملكة العربية السعودية | غير مسوّق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | ⚠️ الانتظار (احتمالية وجود مانع استخدام) |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Clinical Observation (Safety Alert) | American Journal of Cardiology | Dipyridamole stress testing triggers coronary vasospasm in variant angina patients via aminophylline-induced rebound after vasodilation withdrawal — **critical safety warning against therapeutic use** |
-| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Diagnostic Study | British Heart Journal | Short-term reproducibility of exercise testing in 25 patients with exercise-induced ST-segment elevation; dipyridamole echocardiography used as a vasospasm provocateur, not a treatment |
-| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Echocardiographic Study | J Am Coll Cardiology | Increased myocardial echodensity during dipyridamole-induced ischemic episodes — documents dipyridamole as an ischemia trigger across different pathogenetic mechanisms |
-| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | Prognostic Cohort | Rev Port Cardiologia | 3-year prognosis assessment in patients with suspected CAD and normal dipyridamole-thallium scintigraphy — diagnostic application only |
-| [3915223](https://pubmed.ncbi.nlm.nih.gov/3915223/) | 1985 | Pharmacological Provocation Study | Cardiologia (Rome) | Cardiovascular effects of provocation tests; dipyridamole used as a stress challenge agent to evaluate coronary function |
-| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostic Imaging Study | Japanese Circulation Journal | Dipyridamole-loading myocardial imaging for CAD diagnosis; sensitivity 66% alone, rising to 87% combined with exercise — confirms diagnostic rather than therapeutic role |
-| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Review | Japanese Circulation Journal | 26 patients with angina at rest (including 13 Prinzmetal's) given propranolol, diltiazem, dipyridamole, atropine, phenoxybenzamine; propranolol tended to aggravate attacks; dipyridamole not identified as effective treatment |
-| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Review | Circulation | Pathophysiological basis for noninvasive functional evaluation of coronary stenosis; discusses dipyridamole as a stress test modality alongside exercise and dobutamine |
-| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Clinical Descriptive Study | Zhonghua Xin Xue Guan Bing Za Zhi | Comparison of clinical characteristics of typical vs. atypical coronary artery spasm; highlights heterogeneity of vasospastic disease |
-| [6125623](https://pubmed.ncbi.nlm.nih.gov/6125623/) | 1982 | Review | Kardiologiia | Review of diagnostic and treatment challenges in stenocardia; dipyridamole discussed in a diagnostic context |
+يثبط ديبيريدامول فوسفوديستيراز (PDE)، مما يمنع تحطم سيكلي أدينوسين أحادي الفوسفات (cAMP) وسيكلي غوانوسين أحادي الفوسفات (cGMP) داخل الصفائح الدموية، وفي نفس الوقت يحجب استرجاع الأدينوسين — مما يرفع تركيزات الأدينوسين خارج الخلية على مستوى الأوعية الدموية. معًا، تعمل هذه الآليات على تثبيط تراص الصفائح الدموية وتحفيز توسع الأوعية الإكليلية والطرفية. تكمن هذه الخصائص وراء دوره المعروف كعامل مانع للتجلط (الأكثر ملحوظة في مزيج مع الأسبرين كـ أجرينوكس، وهو معتمد من FDA للوقاية الثانوية من السكتة الدماغية) وكعامل إجهاد دوائي في تصوير التروية العضلية القلبية.
+
+تتميز ذبحة برينزمتال (المتغيرة) بألم صدري عرضي مرتبط بالراحة ناجم عن تشنج الأوعية الإكليلية الشرياني وليس انسدادًا تصلبًا ثابتًا. للوهلة الأولى، قد تبدو آلية توسع الأوعية في ديبيريدامول ذات صلة. ومع ذلك، تشير الأدلة السريرية إلى الاتجاه المعاكس: يخلق تعزيز الأدينوسين المرتبط بـ ديبيريدامول **ظاهرة سرقة الأوعية الإكليلية**، والعكس الحاد لتوسع الأوعية — على سبيل المثال بواسطة إعطاء الأمينوفيلين — يمكن أن يؤدي إلى تشنج انعكاسي مكثف. يوثق PMID 3421166 بصراحة هذه الآلية، مسجلاً أن اختبار إجهاد ديبيريدامول يثير حلقات وعائية تشنجية حادة في مرضى ذبحة برينزمتال. وفقًا لذلك، فإن **اختبار إجهاد ديبيريدامول يُستخدم كأداة تشخيصية لاستفزاز والتأكد من الهجمات التشنجية الوعائية** — وليس كعلاج.
+
+يتألف العلاج القياسي لذبحة برينزمتال من حاصرات قنوات الكالسيوم (ديلتيازيم، أملوديبين) والنترات طويلة المفعول. تعكس درجة تنبؤ TxGNN العالية على الأرجح القرب من الشبكات الأدينوسين/الأوعية الدموية ضمن الرسم البياني للمعرفة الدوائية، بدلاً من الإمكانية العلاجية الحقيقية. **يجب تفسير هذا التنبؤ كإشارة سلامة وليس كفرصة إعادة توظيف.**
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Dipyridamole currently holds **no regulatory authorizations in Saudi Arabia**. The drug is not marketed in Saudi Arabia, with zero product licenses on record. No authorization table can be generated.
-
-Note: The Aggrenox formulation (dipyridamole 200 mg extended-release + aspirin 25 mg) is FDA-approved for secondary stroke prevention and is marketed in multiple jurisdictions — this combination represents a potential future registration candidate for Saudi Arabia.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة لـ ديبيريدامول في ذبحة برينزمتال.
 
 ---
 
-## Safety Considerations
+## أدلة الأدب الطبي
 
-**Key Safety Signal (from clinical literature):**
-Dipyridamole potentiates endogenous adenosine, which can precipitate coronary vasospasm, significant hypotension, bradycardia, and bronchospasm. PMID 3421166 specifically documents dipyridamole-induced coronary vasospasm in variant angina patients — establishing Prinzmetal angina as a **contraindication context, not a treatment indication**.
-
-Additionally, the Rank 4 prediction (Sick Sinus Syndrome 2, autosomal dominant) highlights another potential contraindication class: dipyridamole-mediated adenosine elevation may aggravate sinoatrial conduction impairment in patients with sick sinus syndrome.
-
-Please refer to the full package insert for comprehensive safety information including warnings, contraindications, and drug interactions (formal package insert data was not available in this evidence pack).
-
----
-
-## Conclusion and Next Steps
-
-**Decision for Primary Prediction (Prinzmetal Angina): ⚠️ Hold**
-
-**Rationale:**
-Published clinical literature consistently demonstrates that dipyridamole *provokes* rather than treats coronary vasospasm in Prinzmetal angina. Therapeutic use in this population risks precipitating acute ischemic events. The high TxGNN score reflects adenosine/vascular pharmacological network proximity — not clinical therapeutic potential.
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
+|------|-------|-------|---------|-------------------|
+| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | الملاحظة السريرية (تنبيه الأمان) | American Journal of Cardiology | يثير اختبار إجهاد ديبيريدامول تشنج الأوعية الإكليلية في مرضى ذبحة برينزمتال عبر الانعكاس المحفز بواسطة الأمينوفيلين بعد سحب توسع الأوعية — **تحذير أمان حرج ضد الاستخدام العلاجي** |
+| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | دراسة تشخيصية | British Heart Journal | القابلية على المدى القصير لاختبار التمرين في 25 مريضًا بارتفاع فترة ST المستحث بالتمرين؛ استخدام مخطط الصدى مع ديبيريدامول كمثير لتشنج الأوعية، وليس كعلاج |
+| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | دراسة تخطيط صدى | J Am Coll Cardiology | زيادة كثافة عضلة القلب بالصدى أثناء حلقات نقص التروية المحفزة بـ ديبيريدامول — توثق ديبيريدامول كمثير للإقفار عبر آليات مرضية مختلفة |
+| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | مجموعة يقظة استشرافية | Rev Port Cardiologia | تقييم سير المرض لمدة 3 سنوات في المرضى المشبوهين بأمراض الشرايين الإكليلية والمصورة الومضانية الطبيعية مع ديبيريدامول — التطبيق التشخيصي فقط |
+| [3915223](https://pubmed.ncbi.nlm.nih.gov/3915223/) | 1985 | دراسة الاستفزاز الدوائي | Cardiologia (Rome) | التأثيرات القلبية الوعائية لاختبارات الاستفزاز؛ استخدام ديبيريدامول كعامل تحدي إجهاد لتقييم الوظيفة الإكليلية |
+| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | دراسة التصوير التشخيصي | Japanese Circulation Journal | التصوير العضلي القلبي مع تحميل ديبيريدامول لتشخيص أمراض الشرايين الإكليلية؛ الحساسية 66% وحدها، ترتفع إلى 87% مع ممارسة التمارين المشتركة — يؤكد الدور التشخيصي وليس العلاجي |
+| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | مراجعة | Japanese Circulation Journal | 26 مريضًا يعانون من ذبحة الراحة (بما فيهم 13 حالة برينزمتال) يتلقون بروبرانولول، ديلتيازيم، ديبيريدامول، أتروبين، فينوكسيبنزامين؛ كان بروبرانولول يميل إلى تفاقم الهجمات؛ لم يتم تحديد ديبيريدامول كعلاج فعال |
+| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | مراجعة | Circulation | الأساس الفسيولوجي المرضي للتقييم الوظيفي غير الغزوي لتضيق الأوعية الإكليلية؛ يناقش ديبيريدامول كطريقة اختبار إجهاد إلى جانب التمرين والدوبوتامين |
+| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | دراسة وصفية سريرية | Zhonghua Xin Xue Guan Bing Za Zhi | مقارنة الخصائص السريرية للتشنج الإكليلي النموذجي مقابل غير النموذجي؛ يسلط الضوء على التنوع غير المتجانس لأمراض الأوعية الدموية التشنجية |
+| [6125623](https://pubmed.ncbi.nlm.nih.gov/6125623/) | 1982 | مراجعة | Kardiologiia | مراجعة التحديات التشخيصية والعلاجية في قلبية تصلبية؛ يتم مناقشة ديبيريدامول في سياق تشخيصي |
 
 ---
 
-**Full Prediction Landscape — All 10 Indications:**
+## معلومات سوق المملكة العربية السعودية
 
-| Rank | Indication | TxGNN Score | Evidence Level | Decision |
-|------|-----------|-------------|----------------|---------|
-| 1 | Prinzmetal Angina | 99.99% | L4 | ⚠️ Hold (Safety Concern — Contraindicated) |
-| 2 | Stroke Disorder | 99.95% | L1 | **Proceed with Guardrails** |
-| 3 | Thrombotic Disease | 99.94% | L3 | Research Question |
-| 4 | Sick Sinus Syndrome 2 (AD) | 99.89% | L5 | ⚠️ Hold (Potential Contraindication) |
-| 5 | Transient Ischemic Attack | 99.87% | L1 | **Proceed with Guardrails** |
-| 6 | Sarcoglycanopathy | 99.82% | L5 | Hold |
-| 7 | Wildervanck Syndrome | 99.78% | L5 | Hold |
-| 8 | Macrocephaly / Dysmorphic Facies / Psychomotor Retardation | 99.77% | L5 | Hold |
-| 9 | Cavernous Sinus Thrombosis | 99.72% | L5 | Hold |
-| 10 | Lateral Sinus Thrombosis | 99.72% | L5 | Hold |
+لا يحمل ديبيريدامول حاليًا **أي تفاويض تنظيمية في المملكة العربية السعودية**. الدواء غير مسوّق في المملكة العربية السعودية، مع عدم وجود تراخيص منتجات مسجلة. لا يمكن إنشاء جدول ترخيص.
 
-**The most clinically meaningful repurposing opportunities are Ranks 2 and 5:**
+ملاحظة: صيغة أجرينوكس (ديبيريدامول 200 ملغ إطلاق موسع + أسبرين 25 ملغ) معتمدة من قبل FDA للوقاية الثانوية من السكتة الدماغية وتُسوّق في عدة ولايات قضائية — يمثل هذا المزيج مرشحًا محتملاً للتسجيل في المستقبل بالمملكة العربية السعودية.
 
-- **Stroke Disorder (Rank 2, L1):** Supported by multiple large completed Phase 3/4 RCTs — JASAP (n=1,295), PRoFESS (n=20,332), ESPRIT (n=4,500), EARLY (n=551) — plus Cochrane systematic reviews and individual-patient-data meta-analyses. Dipyridamole + aspirin (Aggrenox) is FDA-approved for secondary stroke prevention. Saudi Arabia regulatory submission is a viable pathway.
-- **Transient Ischemic Attack (Rank 5, L1):** Shares the same evidence base as stroke disorder; TIA patients are co-enrolled in most pivotal trials. ESPS-2 confirmed dipyridamole + aspirin significantly reduces post-TIA stroke recurrence.
+---
 
-**To proceed (Stroke / TIA — the actionable indications):**
-- Resolve data gaps: obtain MOA entry from DrugBank API and download package insert for Saudi Arabia safety screening
-- Assess regulatory pathway for Aggrenox or generic dipyridamole SR registration with SFDA
-- Confirm contraindication status in target populations with sick sinus syndrome, asthma, or hemodynamic instability
-- Engage Saudi neurology / stroke medicine key opinion leaders for local clinical adoption feasibility
-- Develop pharmacovigilance and monitoring plan for post-registration safety (headache, hypotension, bronchospasm are known class effects)
+## اعتبارات الأمان
+
+**إشارة أمان رئيسية (من الأدب السريري):**
+يعزز ديبيريدامول الأدينوسين الداخلي، مما قد يسبب تشنج الأوعية الإكليلية، وانخفاض ضغط الدم الحاد، وبطء القلب، والتشنج الشعبي. يوثق PMID 3421166 بصراحة تشنج الأوعية الإكليلية المستحث بـ ديبيريدامول في مرضى ذبحة برينزمتال — مما يؤسس لذبحة برينزمتال كـ **سياق مانع للاستخدام، وليس كمؤشر علاج**.
+
+بالإضافة إلى ذلك، يسلط التنبؤ بالمرتبة 4 (متلازمة العقدة الجيبية 2، الصفة السائدة الجسدية) الضوء على فئة مانع محتملة أخرى: قد يؤدي ارتفاع الأدينوسين المتوسط بـ ديبيريدامول إلى تفاقم ضعف التوصيل الجيبي الأذيني في المرضى الذين يعانون من متلازمة العقدة الجيبية المريضة.
+
+يرجى الرجوع إلى نشرة الحزمة الكاملة للحصول على معلومات أمان شاملة بما في ذلك التحذيرات وموانع الاستخدام والتفاعلات الدوائية (لم تكن بيانات نشرة الحزمة الرسمية متاحة في مجموعة الأدلة هذه).
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار للتنبؤ الأساسي (ذبحة برينزمتال): ⚠️ الانتظار**
+
+**المنطق الأساسي:**
+يثبت الأدب السريري المنشور بشكل متسق أن ديبيريدامول *يستفز* بدلاً من *يعالج* تشنج الأوعية الإكليلية في ذبحة برينزمتال. يشكل الاستخدام العلاجي في هذا السكان خطر استفزاز حلقات إقفار حادة. تعكس درجة TxGNN العالية القرب من شبكات الأدينوسين/الأوعية الدموية الدوائية — وليس الإمكانية العلاجية السريرية الحقيقية.
+
+---
+
+**المشهد الكامل للتنبؤ — جميع 10 مؤشرات:**
+
+| الترتيب | المؤشر | درجة TxGNN | مستوى الدليل | القرار |
+|--------|--------|-----------|------------|---------|
+| 1 | ذبحة برينزمتال | 99.99% | L4 | ⚠️ الانتظار (مخاوف الأمان — مانع استخدام) |
+| 2 | اضطراب السكتة الدماغية | 99.95% | L1 | **المضي قدمًا مع الضمانات** |
+| 3 | الأمراض الخثاري | 99.94% | L3 | سؤال بحثي |
+| 4 | متلازمة العقدة الجيبية 2 (الصفة السائدة الجسدية) | 99.89% | L5 | ⚠️ الانتظار (مانع محتمل) |
+| 5 | النوبة الإقفارية العابرة | 99.87% | L1 | **المضي قدمًا مع الضمانات** |
+| 6 | الساركوجلايكانوباتي | 99.82% | L5 | الانتظار |
+| 7 | متلازمة ويلديرفانك | 99.78% | L5 | الانتظار |
+| 8 | الرأس الكبير / الملامح غير الطبيعية / التخلف العقلي الحركي | 99.77% | L5 | الانتظار |
+| 9 | جلطة الجيب الكهفي | 99.72% | L5 | الانتظار |
+| 10 | جلطة الجيب الجانبي | 99.72% | L5 | الانتظار |
+
+**إن أكثر فرص إعادة التوظيف ذات المعنى السريري هي الترتيب 2 و5:**
+
+- **اضطراب السكتة الدماغية (الترتيب 2، L1):** مدعوم بتجارب عشوائية محكومة مرحلة 3/4 كبيرة مكتملة متعددة — JASAP (n=1,295)، PRoFESS (n=20,332)، ESPRIT (n=4,500)، EARLY (n=551) — بالإضافة إلى مراجعات كوكرين المنهجية والتحليلات الوصفية لبيانات المريض الفردية. معتمد ديبيريدامول + أسبرين (أجرينوكس) من قبل FDA للوقاية الثانوية من السكتة الدماغية. تقديم طلب تنظيمي لـ المملكة العربية السعودية هو مسار قابل للتطبيق.
+- **النوبة الإقفارية العابرة (الترتيب 5، L1):** تشارك نفس قاعدة الأدلة مثل اضطراب السكتة الدماغية؛ يتم تسجيل مرضى TIA في معظم التجارب المحورية. أكدت ESPS-2 أن ديبيريدامول + أسبرين يقلل بشكل كبير من السكتة الدماغية المتكررة بعد TIA.
+
+**للمضي قدمًا (السكتة الدماغية / TIA — المؤشرات القابلة للعمل):**
+- حل فجوات البيانات: الحصول على إدخال آلية عمل من DrugBank API وتحميل نشرة الحزمة لفحص أمان المملكة العربية السعودية
+- تقييم المسار التنظيمي لـ أجرينوكس أو تسجيل ديبيريدامول SR الجنيسي مع SFDA
+- تأكيد حالة مانع الاستخدام في السكان المستهدفين الذين يعانون من متلازمة العقدة الجيبية المريضة أو الربو أو عدم الاستقرار الديناميكي الدموي
+- التفاعل مع مفاتيح الرأي في طب الأعصاب / السكتة الدماغية في المملكة العربية السعودية لدراسة جدوى الاعتماد السريري المحلي
+- تطوير خطة يقظة صيدلانية ومراقبة لأمان ما بعد التسجيل (الصداع، وانخفاض ضغط الدم، والتشنج الشعبي هي تأثيرات فئة معروفة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

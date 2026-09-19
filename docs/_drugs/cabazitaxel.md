@@ -29,111 +29,113 @@ indication_count: 10
 
 </div>
 
-# Cabazitaxel: From Metastatic Prostate Cancer to Female Breast Carcinoma
+# كابازيتاكسيل: من سرطان البروستاتا النقيلي المقاوم للخصيان إلى سرطان الثدي عند الإناث
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Cabazitaxel is a next-generation taxane approved by the FDA for metastatic castration-resistant prostate cancer (mCRPC) that has progressed after docetaxel-based regimens.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma**,
-with **0 registered clinical trials** and **20 publications** (including 1 Phase II RCT) currently supporting this direction.
+كابازيتاكسيل هو عقار تاكسان من الجيل الثاني وافقت عليه إدارة الغذاء والدواء الأمريكية (FDA) لعلاج سرطان البروستاتا النقيلي المقاوم للخصيان (mCRPC) الذي تطور بعد نظم علاجية قائمة على docetaxel.
+
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان الثدي عند الإناث**،
+مع **0 تجربة سريرية مسجلة** و **20 منشوراً** (بما في ذلك 1 تجربة عشوائية معتمدة Phase II) يدعمان هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Metastatic castration-resistant prostate cancer (mCRPC), post-docetaxel |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | سرطان البروستاتا النقيلي المقاوم للخصيان (mCRPC)، بعد docetaxel |
+| المؤشر الجديد المتنبأ به | سرطان الثدي عند الإناث |
+| درجة التنبؤ TxGNN | 99.92% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضوابط احترازية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacology, cabazitaxel belongs to the taxane class (like paclitaxel and docetaxel) and acts by stabilizing microtubules, thereby blocking mitotic progression and triggering apoptosis in rapidly dividing tumor cells. A key distinguishing feature is its markedly reduced affinity for P-glycoprotein (P-gp), the major multidrug-resistance efflux pump — this makes it active in settings where paclitaxel and docetaxel have lost efficacy due to P-gp overexpression.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة من حزمة الأدلة. بناءً على الخصائص الصيدلانية المعروفة، ينتمي كابازيتاكسيل إلى فئة التاكسان (مثل paclitaxel و docetaxel) وينتج عن تثبيت الأنابيب الدقيقة، وبالتالي منع التقدم الانقسامي وتحفيز الموت المبرمج للخلايا في خلايا الأورام سريعة الانقسام. الميزة المميزة الرئيسية هي انجذابه المنخفض بشكل ملحوظ لـ P-gp، مضخة الاستخراج المسؤولة عن مقاومة الأدوية المتعددة — وهذا يجعله فعالاً في الحالات التي فقدت فيها paclitaxel و docetaxel فعاليتهما بسبب الإفراط في التعبير عن P-gp.
 
-Breast cancer is one of the most taxane-sensitive solid tumors, and paclitaxel/docetaxel are cornerstones of both early-stage and metastatic treatment. Because cabazitaxel shares the same microtubule-stabilizing mechanism while circumventing P-gp–mediated resistance, its extension into breast cancer — particularly in taxane-pretreated or triple-negative (TNBC) settings — is mechanistically well-justified. The GENEVIEVE Phase II RCT (PMID 28768217) directly tested cabazitaxel as neoadjuvant therapy in HER2-negative breast cancer, providing the strongest available clinical validation.
+سرطان الثدي هو أحد أكثر الأورام الصلبة حساسية للتاكسان، و paclitaxel/docetaxel هما حجر الزاوية في العلاج في المراحل المبكرة والحالات النقيلية. بما أن كابازيتاكسيل يشاركان نفس آلية تثبيت الأنابيب الدقيقة مع تجنب مقاومة الوساطة بـ P-gp، فإن توسيع نطاقه إلى سرطان الثدي — خاصة في حالات التاكسان المعالجة مسبقاً أو ثلاثية السلبية (TNBC) — يكون مبرراً جيداً من الناحية الآلية. اختبرت تجربة GENEVIEVE Phase II (PMID 28768217) مباشرة كابازيتاكسيل كعلاج قبل الجراحة في سرطان الثدي HER2-negative، مما يوفر أقوى تحقق سريري متاح.
 
-An additional mechanistic angle comes from preclinical TNBC research (PMID 33753567) showing that cabazitaxel repolarises tumour-associated macrophages (TAMs) to enhance CD47-blockade immunotherapy. This immunomodulatory effect is distinct from its cytotoxic activity and opens the door to combination strategies in TNBC, a subtype with limited therapeutic options and high unmet need.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for cabazitaxel in female breast carcinoma.
-
-> **Note:** The GENEVIEVE study (PMID 28768217) was a published Phase II RCT not captured in ClinicalTrials.gov/ICTRP query results. This trial constitutes the primary clinical evidence supporting L2 classification.
+تأتي زاوية آلية إضافية من البحث قبل السريري في TNBC (PMID 33753567) الذي يُظهر أن كابازيتاكسيل يعيد استقطاب الخلايا الالتهابية المرتبطة بالورم (TAMs) لتحسين العلاج المستهدف لـ CD47. هذا التأثير المعدل للمناعة يختلف عن نشاطه السام للخلايا ويفتح الباب أمام استراتيجيات التركيب في TNBC، وهي فئة فرعية ذات خيارات علاجية محدودة وحاجة طبية غير مستوفاة كبيرة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً لـ كابازيتاكسيل في سرطان الثدي عند الإناث.
+
+> **ملاحظة:** كانت دراسة GENEVIEVE (PMID 28768217) تجربة عشوائية معتمدة Phase II منشورة لم يتم التقاطها في نتائج استعلام ClinicalTrials.gov/ICTRP. تشكل هذه التجربة الدليل السريري الأساسي الذي يدعم تصنيف L2.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|--------------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | Phase II RCT | European Journal of Cancer | GENEVIEVE study: cabazitaxel vs. weekly paclitaxel as neoadjuvant therapy in operable HER2-negative breast cancer (triple-negative or luminal B); compared pathological complete response (pCR) rates |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II | European Journal of Cancer | Dose-escalation study of cabazitaxel + capecitabine in metastatic breast cancer previously treated with anthracyclines and taxanes; established MTD, safety, PK, and preliminary activity |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Clinical PK Review | British Journal of Clinical Pharmacology | Comprehensive review of TDM-based dose personalisation for taxanes (paclitaxel, docetaxel, cabazitaxel, nab-paclitaxel); PK–PD relationships and clinical use considerations |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preclinical (in vitro/in vivo) | Journal for Immunotherapy of Cancer | Cabazitaxel repolarises tumour-associated macrophages in TNBC, synergising with CD47-targeted immunotherapy to enhance programmed cell removal (PrCR); novel immunomodulatory mechanism |
-| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | Preclinical | International Journal of Nanomedicine | Cabazitaxel-loaded PACA nanoparticles evaluated in patient-derived TNBC xenograft; prior results showed complete remission in 6/8 tumors vs. free drug |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Preclinical | Journal of Controlled Release | PEBCA nanoparticle-encapsulated cabazitaxel achieved complete remission in 6/8 basal-like PDX breast cancer tumors vs. 1/8 with free drug; superior efficacy via nanoformulation |
-| [36918084](https://pubmed.ncbi.nlm.nih.gov/36918084/) | 2023 | Preclinical | Journal of Controlled Release | Redox-responsive chondroitin sulfate nanomedicine co-delivering cabazitaxel + dasatinib to target CAF–tumor crosstalk in breast cancer; reduced invasion and metastasis in vivo |
-| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | Preclinical | Bioconjugate Chemistry | Cyclic cell-penetrating peptide conjugated cabazitaxel targeting integrin and EDB-fibronectin biomarkers for selective delivery in breast and prostate cancer models |
-| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Preclinical | Chemistry and Physics of Lipids | Cabazitaxel + thymoquinone co-loaded lipospheres exploit dual mechanism (microtubule inhibition + HDAC inhibition) against breast tumors; modulation of p53, STAT3, Bax/BCL-2 |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Review | Molecular Cancer Therapeutics | Mechanisms of cabazitaxel resistance characterised in MCF-7 breast cancer cell models; cabazitaxel showed significantly lower cross-resistance than paclitaxel/docetaxel in MDR variants |
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | تجربة عشوائية معتمدة Phase II | European Journal of Cancer | دراسة GENEVIEVE: كابازيتاكسيل مقابل paclitaxel الأسبوعي كعلاج قبل الجراحة في سرطان الثدي HER2-negative القابل للتشغيل (ثلاثي السلبية أو luminal B)؛ مقارنة معدلات الاستجابة المرضية الكاملة (pCR) |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II | European Journal of Cancer | دراسة تصعيد الجرعة لـ كابازيتاكسيل + capecitabine في سرطان الثدي النقيلي المعالج مسبقاً بالأنثراسيكلينات والتاكسانات؛ تحديد الجرعة القصوى المتسامة والسلامة والخصائص الصيدلانية والنشاط الأولي |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | مراجعة صيدلة سريرية | British Journal of Clinical Pharmacology | مراجعة شاملة لتخصيص الجرعات القائم على المراقبة العلاجية للتاكسانات (paclitaxel، docetaxel، كابازيتاكسيل، nab-paclitaxel)؛ علاقات العلاقة الفارماكوكينتيكية-الديناميكية والاعتبارات السريرية |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | قبل سريري (في المختبر وفي الجسم الحي) | Journal for Immunotherapy of Cancer | كابازيتاكسيل يعيد استقطاب الخلايا الالتهابية المرتبطة بالورم في TNBC، مما يتآزر مع العلاج المستهدف لـ CD47 لتحسين إزالة الخلايا المبرمجة (PrCR)؛ آلية معدلة للمناعة جديدة |
+| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | قبل سريري | International Journal of Nanomedicine | تقييم كابازيتاكسيل المحمل على جسيمات PACA النانوية في نموذج الطعم الحي xenograft من TNBC المشتق من المريض؛ أظهرت النتائج السابقة استجابة كاملة في 6/8 أورام مقابل العقار الحر |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | قبل سريري | Journal of Controlled Release | كابازيتاكسيل المغلف بجسيمات PEBCA النانوية حقق استجابة كاملة في 6/8 نماذج طعم حي PDX لسرطان الثدي basal-like مقابل 1/8 مع العقار الحر؛ فعالية فائقة عبر الصيغة النانوية |
+| [36918084](https://pubmed.ncbi.nlm.nih.gov/36918084/) | 2023 | قبل سريري | Journal of Controlled Release | دواء chondroitin sulfate النانوي المستجيب للأكسدة يوصل كابازيتاكسيل + dasatinib معاً لاستهداف التفاعل بين الخلايا الليفية المرتبطة بالسرطان والورم في سرطان الثدي؛ تقليل الغزو والانبثاث في الجسم الحي |
+| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | قبل سريري | Bioconjugate Chemistry | كابازيتاكسيل المرتبط بـ peptide اختراق الخلايا الحلقي يستهدف biomarkers integrin و EDB-fibronectin للتوصيل الانتقائي في نماذج سرطان الثدي والبروستاتا |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | قبل سريري | Chemistry and Physics of Lipids | كابازيتاكسيل + thymoquinone محملة معاً في lipospheres تستغل آلية مزدوجة (تثبيط الأنابيب الدقيقة + تثبيط HDAC) ضد أورام الثدي؛ تعديل p53 و STAT3 و Bax/BCL-2 |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | مراجعة | Molecular Cancer Therapeutics | توصيف آليات مقاومة كابازيتاكسيل في نماذج خلايا سرطان الثدي MCF-7؛ أظهر كابازيتاكسيل مقاومة متقاطعة أقل بشكل كبير من paclitaxel/docetaxel في المتغيرات المقاومة للأدوية المتعددة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Cabazitaxel is currently not marketed in Saudi Arabia and holds no SFDA authorizations.
+كابازيتاكسيل غير مسوق حالياً في المملكة العربية السعودية ولا يحمل أي تفويضات من هيئة الغذاء والدواء السعودية.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Cabazitaxel is a cytotoxic antineoplastic agent (taxane class). The following assessment is based on its established pharmacological profile.
+كابازيتاكسيل هو عامل مضاد للأورام سام للخلايا (فئة التاكسان). يعتمد التقييم التالي على ملف الخصائص الصيدلانية المعروف له.
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Taxane class (semisynthetic taxoid, microtubule stabiliser) |
-| Myelosuppression Risk | **High** — Neutropenia is the dose-limiting toxicity; febrile neutropenia reported in ~8% of patients in pivotal trials. G-CSF prophylaxis is required per current guidelines. Anaemia and thrombocytopenia also occur. |
-| Emetogenicity Classification | Low to moderate (similar to docetaxel) |
-| Monitoring Items | CBC with differential (before each cycle and between cycles as clinically indicated), serum creatinine, hepatic transaminases (ALT/AST), bilirubin, electrolytes; neurological assessment for peripheral neuropathy |
-| Handling Protection | Must follow cytotoxic drug handling regulations — double-glove, closed-system drug transfer devices (CSTDs) recommended; biohazard disposal required |
+| تصنيف السمية الخلوية | سمية تقليدية — فئة التاكسان (تاكسويد شبه اصطناعي، مثبت الأنابيب الدقيقة) |
+| خطر قمع النخاع | **مرتفع** — نقص العدلات الشديد هو السمية المحددة للجرعة؛ تم الإبلاغ عن نقص العدلات المحموم في ~8% من المرضى في التجارب المحورية. يتطلب G-CSF الوقاية الأولية وفقاً للإرشادات الحالية. يحدث فقر الدم والتخثر أيضاً. |
+| تصنيف الغثيان والقيء | منخفض إلى متوسط (مشابه لـ docetaxel) |
+| عناصر المراقبة | صورة الدم الكاملة مع التفريق (قبل كل دورة وبين الدورات كما هو مؤشر سريرياً)، كرياتينين المصل، ناقلات أمينية كبدية (ALT/AST)، بيليروبين، شوارد؛ التقييم العصبي لـ الاعتلال العصبي المحيطي |
+| حماية المعالجة | يجب اتباع لوائح معالجة الأدوية السامة للخلايا — القفازات المزدوجة، أجهزة نقل الأدوية ذات النظام المغلق موصى بها؛ التخلص الآمن من المواد الحيوية الخطرة مطلوب |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for warnings, contraindications, and drug interaction information. No local SFDA label data is currently available; the EU/FDA SmPC should be consulted as the primary safety reference.
+يرجى الرجوع إلى ملخص خصائص المنتج للتحذيرات والموانع والمعلومات حول التفاعلات الدوائية. لا توجد بيانات تسمية محلية من هيئة الغذاء والدواء السعودية متاحة حالياً؛ يجب استشارة ملخص خصائص المنتج الأوروبي أو تسمية إدارة الغذاء والدواء الأمريكية كمرجع السلامة الأساسي.
 
-Key pharmacological safety signals known from the drug class:
-- **Myelosuppression:** Severe neutropenia is the principal toxicity. Primary G-CSF prophylaxis is strongly recommended, particularly in patients ≥65 years or with risk factors.
-- **Hypersensitivity:** Premedication with antihistamines, corticosteroids, and H2-blockers is required before each infusion.
-- **Renal impairment:** Use in patients with creatinine clearance <15 mL/min is not recommended.
+إشارات السلامة الصيدلانية الرئيسية المعروفة من فئة الأدوية:
+- **قمع النخاع:** نقص العدلات الشديد هو السمية الرئيسية. يُوصى بقوة بـ G-CSF الوقاية الأولية، خاصة في المرضى ≥65 سنة أو الذين لديهم عوامل خطر.
+- **فرط الحساسية:** يتطلب الدواء المسبق مع مضادات الهيستامين والكورتيكوستيرويدات وحاصرات H2 قبل كل تسريب.
+- **الضعف الكلوي:** لا ينصح باستخدامه في المرضى الذين يعانون من تصفية الكرياتينين <15 mL/min.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضوابط احترازية**
 
-**Rationale:**
-The GENEVIEVE Phase II RCT directly demonstrates cabazitaxel's clinical activity in HER2-negative breast cancer, providing L2-level evidence that, combined with a well-understood taxane mechanism of action and emerging TNBC immunotherapy synergy data, establishes a credible and evidence-backed repurposing hypothesis.
+**المبرر:**
+تُظهر تجربة GENEVIEVE Phase II العشوائية المعتمدة مباشرة النشاط السريري لـ كابازيتاكسيل في سرطان الثدي HER2-negative، مما يوفر دليلاً من المستوى L2 الذي، عند دمجه مع آلية تاكسان مفهومة جيداً وبيانات التآزر المناعي الناشئة في TNBC، يؤسس فرضية إعادة تحديد مؤشرات موثوقة ومدعومة بالأدلة.
 
-**To proceed, the following is needed:**
+**للمتابعة، يلزم الآتي:**
 
-- **Formal MOA documentation:** Obtain full DrugBank record for DB06772 to complete the mechanistic link analysis
-- **Saudi Arabia regulatory strategy:** File SFDA new drug application or explore named-patient / compassionate use pathway, as cabazitaxel is not currently registered in Saudi Arabia
-- **Safety baseline:** Retrieve official prescribing information (EU SmPC or FDA label) to populate warnings, contraindications, and drug-drug interaction data
-- **Clinical trial review:** Conduct expanded search for cabazitaxel breast cancer trials beyond the ClinicalTrials.gov/ICTRP query (e.g., EU Clinical Trials Register, ANZCTR) to identify whether Phase III data exists in specific breast cancer subtypes (TNBC, luminal B)
-- **Subtype-specific evidence stratification:** Separate evidence by breast cancer subtype (TNBC vs. HR+/HER2- vs. HER2+) to identify the population with the strongest benefit–risk profile for a Saudi Arabia pilot study
-- **G-CSF protocol:** Establish mandatory G-CSF prophylaxis protocol before any clinical use, given the high febrile neutropenia risk in new patient populations
+- **توثيق آلية العمل الرسمي:** الحصول على سجل DrugBank الكامل لـ DB06772 لإكمال تحليل الربط الآلي
+- **الاستراتيجية التنظيمية في المملكة العربية السعودية:** تقديم طلب تطبيق عقار جديد لهيئة الغذاء والدواء السعودية أو استكشاف مسار المريض المسمى / الاستخدام الإنساني، حيث أن كابازيتاكسيل غير مسجل حالياً في المملكة العربية السعودية
+- **خط أساس السلامة:** الحصول على المعلومات الرسمية (ملخص خصائص المنتج الأوروبي أو تسمية إدارة الغذاء والدواء الأمريكية) لتعبئة التحذيرات والموانع وبيانات التفاعلات الدوائية
+- **مراجعة التجارب السريرية:** إجراء بحث موسع عن تجارب سرطان الثدي لـ كابازيتاكسيل خارج استعلام ClinicalTrials.gov/ICTRP (مثل سجل التجارب السريرية الأوروبي و ANZCTR) لتحديد ما إذا كانت بيانات Phase III موجودة في فئات سرطان ثدي محددة (TNBC، luminal B)
+- **طبقات الدليل الخاصة بالنوع الفرعي:** فصل الأدلة حسب النوع الفرعي لسرطان الثدي (TNBC مقابل HR+/HER2- مقابل HER2+) لتحديد السكان الذين لديهم أقوى ملف تعريف الفائدة والمخاطر لدراسة تجريبية في المملكة العربية السعودية
+- **بروتوكول G-CSF:** إنشاء بروتوكول وقاية G-CSF إلزامي قبل أي استخدام سريري، نظراً لخطر نقص العدلات المحموم المرتفع في السكان الجدد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

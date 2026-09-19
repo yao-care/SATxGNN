@@ -29,80 +29,81 @@ indication_count: 2
 
 </div>
 
-# Doxazosin: From Hypertension / Benign Prostatic Hyperplasia to Migraine Disorder
+# دوكسازوسين: من ارتفاع ضغط الدم / تضخم البروستاتا الحميد إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Doxazosin is a selective alpha-1 adrenergic receptor blocker, widely used for hypertension and benign prostatic hyperplasia (BPH). The TxGNN model predicts it may be effective for **Migraine Disorder**, with **1 published literature source** currently supporting this direction and no registered clinical trials. Evidence remains at an exploratory stage, and this candidate is best treated as a research question pending further investigation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Hypertension / Benign Prostatic Hyperplasia (alpha-1 blocker class; original_indications field not populated in this Evidence Pack) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+دوكسازوسين هو حاصِر انتقائي لمستقبِلات ألفا-1 الأدرينرجية، يُستخدم على نطاق واسع لعلاج ارتفاع ضغط الدم وتضخم البروستاتا الحميد (BPH). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **اضطراب الصداع النصفي**، مع وجود **مصدر أدبي منشور واحد فقط** يدعم هذا الاتجاه حالياً وبدون تجارب سريرية مسجلة. الأدلة لا تزال في مرحلة استكشافية، وهذا المرشح يُعتبر الأفضل أن يتم التعامل معه كسؤال بحثي في انتظار المزيد من التحقيقات.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on available information from the repurposing rationale, Doxazosin is a selective alpha-1 adrenergic receptor blocker that inhibits catecholamine-induced (particularly norepinephrine-induced) vasoconstriction. Its efficacy in controlling hypertension and relieving BPH-related urinary symptoms has been well established clinically.
-
-The theoretical mechanistic bridge to migraine is as follows: cerebral vasculature expresses alpha-1 adrenergic receptors, and blocking these receptors may reduce migraine-associated vascular reactivity. Additionally, sympathetic nervous system over-activation is considered a contributing factor in migraine triggering, and alpha-1 blockade could indirectly modulate this pathway. This is consistent with the one identified publication (Vatz 1997), which reported a decrease in migraine frequency or severity in most patients placed on either terazosin or doxazosin.
-
-However, the mainstream pharmacological mechanisms for migraine prophylaxis centre on beta-blockade, calcium channel antagonism, 5-HT modulation, and anti-epileptic pathways. The alpha-1 adrenergic blockade pathway represents a peripheral hypothesis in migraine pharmacology, and systematic clinical evidence is lacking. The TxGNN prediction score is high (99.20%), suggesting a strong graph-level network association, but this must be interpreted cautiously given the absence of randomised controlled data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|--------|
+| المؤشر الأصلي | ارتفاع ضغط الدم / تضخم البروستاتا الحميد (فئة حاصرات ألفا-1؛ حقل original_indications غير مملوء في حزمة الأدلة هذه) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| نقاط تنبؤ TxGNN | 99.20% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review/Commentary | Headache | Small case series (n=10) in a general neurology practice: patients with migraine placed on terazosin or doxazosin. All but 1 patient showed a decrease in migraine frequency or severity or both. However, 5 of 10 patients discontinued due to side effects (e.g. orthostatic hypotension). No serious adverse reactions reported. |
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة هذه. بناءً على المعلومات المتاحة من أساس إعادة الاستخدام، دوكسازوسين هو حاصِر انتقائي لمستقبِلات ألفا-1 الأدرينرجية الذي يثبط انقباض الأوعية الدموية الناجم عن الكاتيكولامينات (على وجه الخصوص النورإبينفرين). تم إثبات فعاليته في السيطرة على ارتفاع ضغط الدم وتخفيف أعراض BPH المرتبطة بالمسالك البولية بشكل سريري راسخ.
 
----
+الجسر الآلي النظري للصداع النصفي هو كما يلي: تحمل الأوعية الدموية الدماغية مستقبِلات ألفا-1 الأدرينرجية، وقد يؤدي حجبها إلى تقليل استجابة الأوعية المرتبطة بالصداع النصفي. بالإضافة إلى ذلك، يُعتبر الإفراط في تنشيط الجهاز العصبي الودود عاملاً مساهماً في تحفيز الصداع النصفي، وقد يؤدي حجب ألفا-1 إلى تعديل هذا المسار بشكل غير مباشر. هذا متسق مع المنشور الواحد المحدد (Vatz 1997)، الذي ذكر انخفاضاً في تكرار الصداع النصفي أو شدته في معظم المرضى الذين تم وضعهم على تيرازوسين أو دوكسازوسين.
 
-## Saudi Arabia Market Information
-
-Doxazosin is currently **not marketed** in Saudi Arabia. No authorisation records are available.
+ومع ذلك، فإن آليات علم الأدوية السائدة لنبوء الصداع النصفي تتمحور حول حجب البيتا، والعداء لقنوات الكالسيوم، تعديل 5-HT، والمسارات المضادة للصرع. يمثل حجب ألفا-1 الأدرينرجي فرضية محيطية في علم الأدوية للصداع النصفي، وتفتقر الأدلة السريرية المنهجية. درجة التنبؤ بـ TxGNN عالية (99.20%)، مما يشير إلى ارتباط شبكة قوي على مستوى الرسم البياني، لكن يجب تفسير هذا بحذر نظراً لعدم وجود بيانات من تجارب عشوائية خاضعة للسيطرة.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-> **Note:** Safety data (key warnings, contraindications, and drug-drug interactions) were not retrievable for this Evidence Pack. Clinicians should consult the full prescribing information before any clinical use. Known class-effect concerns for alpha-1 blockers include orthostatic hypotension (especially first-dose effect), syncope, dizziness, and caution in patients with hepatic impairment. The 1997 Vatz publication noted that 50% of patients discontinued doxazosin/terazosin due to side effects in the migraine context.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|-------------------|
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | مراجعة/تعليق | Headache | سلسلة حالات صغيرة (n=10) في ممارسة طب الأعصاب العام: مرضى يعانون من الصداع النصفي تم وضعهم على تيرازوسين أو دوكسازوسين. أظهر جميع المرضى باستثناء 1 انخفاضاً في تكرار الصداع النصفي أو الشدة أو كليهما. ومع ذلك، توقف 5 من أصل 10 مرضى عن الاستمرار بسبب الآثار الجانبية (على سبيل المثال انخفاض ضغط الدم عند الوقوف). لم تُبلغ عن أي ردود فعل عكسية خطيرة. |
 
-**Rationale:**
-Evidence for doxazosin in migraine is limited to a single 1997 review/commentary with a 10-patient informal case series — there are no registered clinical trials and no controlled studies. While the TxGNN prediction score is high and the mechanistic hypothesis is biologically plausible, the evidence base is insufficient to justify further investment without additional research.
+---
 
-**To proceed, the following is needed:**
+## معلومات السوق في المملكة العربية السعودية
 
-- **Mechanism of action confirmation:** Retrieve full MOA data from DrugBank to substantiate the alpha-1 → cerebrovascular reactivity hypothesis
-- **Safety data retrieval:** Download and parse the package insert (SFDA/TFDA source) to complete the contraindications and key warnings sections (currently blocking for S1 safety evaluation)
-- **Systematic literature search expansion:** Search for additional evidence on alpha-1 adrenergic blockers as a drug class in migraine prophylaxis (terazosin, prazosin, alfuzosin), not limited to doxazosin alone
-- **Proof-of-concept study:** A small prospective observational study or retrospective database analysis (e.g. hypertensive patients on doxazosin vs. comparators, migraine incidence as secondary endpoint) would constitute minimum required evidence for escalation to L3
-- **Re-evaluate migraine with brainstem aura (Rank #2):** This predicted sub-indication (TxGNN score 99.19%, L5) currently has zero supporting evidence. It should remain on hold pending any development in the broader migraine indication
+دوكسازوسين غير مسوق حالياً في المملكة العربية السعودية. لا تتوفر سجلات تفويض.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+> **ملاحظة:** بيانات السلامة (التحذيرات الرئيسية، موانع الاستعمال، والتفاعلات الدوائية) لم تكن قابلة للاسترجاع لحزمة الأدلة هذه. يجب على الأطباء الرجوع إلى المعلومات الكاملة للوصفة الطبية قبل أي استخدام سريري. تشمل المخاوف المعروفة المتعلقة بتأثير الفئة لحاصرات ألفا-1 انخفاض ضغط الدم عند الوقوف (خاصة تأثير الجرعة الأولى)، والإغماءة، والدوخة، والحذر لدى المرضى الذين يعانون من قصور الكبد. لاحظت منشورة Vatz 1997 أن 50% من المرضى توقفوا عن تناول دوكسازوسين/تيرازوسين بسبب الآثار الجانبية في سياق الصداع النصفي.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبرر:**
+الأدلة على دوكسازوسين في الصداع النصفي محدودة بمراجعة/تعليق واحد من 1997 بسلسلة حالات غير رسمية من 10 مرضى — لا توجد تجارب سريرية مسجلة ولا دراسات خاضعة للسيطرة. بينما درجة التنبؤ بـ TxGNN عالية والفرضية الآلية معقولة بيولوجياً، قاعدة الأدلة غير كافية لتبرير المزيد من الاستثمار دون بحث إضافي.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **تأكيد آلية العمل:** استرجاع بيانات MOA الكاملة من DrugBank لدعم فرضية ألفا-1 → استجابة الأوعية الدموية الدماغية
+- **استرجاع بيانات السلامة:** تحميل وتحليل نشرة المعلومات (مصدر SFDA/TFDA) لإكمال أقسام موانع الاستعمال والتحذيرات الرئيسية (يحجب حالياً تقييم S1 السلامة)
+- **توسيع البحث الأدبي المنهجي:** البحث عن أدلة إضافية على حاصرات ألفا-1 الأدرينرجية كفئة دوائية في نبوء الصداع النصفي (تيرازوسين، برازوسين، ألفوزوسين)، لا يقتصر على دوكسازوسين وحده
+- **دراسة إثبات المفهوم:** دراسة رصدية استشرافية صغيرة أو تحليل قاعدة البيانات بأثر رجعي (مثل مرضى ارتفاع ضغط الدم على دوكسازوسين مقابل نظائر، حدوث الصداع النصفي كنقطة نهاية ثانوية) يشكل أدنى أدلة مطلوبة للارتقاء إلى L3
+- **إعادة تقييم الصداع النصفي مع هالة جذع الدماغ (الترتيب #2):** هذا المؤشر الفرعي المتنبأ به (درجة TxGNN 99.19%، L5) لا يملك حالياً أي أدلة داعمة. يجب أن يبقى في وضع الانتظار في انتظار أي تطور في مؤشر الصداع النصفي الأوسع
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,98 +29,99 @@ indication_count: 4
 
 </div>
 
-# Ezetimibe: From Hypercholesterolemia to Hyperlipoproteinemia
+# الإزيتيميب: من فرط الكوليسترول إلى فرط بروتينات الدم
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ezetimibe is a cholesterol-absorption inhibitor whose established use is lowering LDL cholesterol, typically as an add-on to statin therapy in hypercholesterolemia/dyslipidemia. TxGNN predicts strong applicability to **Hyperlipoproteinemia** (a broader hyperlipidemia classification), supported by **50 clinical trials** and **19 publications**, with the underlying NPC1L1-inhibition mechanism already clinically validated rather than newly hypothesized.
+الإزيتيميب هو مثبط امتصاص الكوليسترول الذي يُستخدم بشكل معروف لخفض الكوليسترول LDL، عادة كعلاج إضافي لعلاج الستاتين في فرط الكوليسترول/عسر الدهون. يتنبأ TxGNN بقابلية تطبيق قوية لـ **فرط بروتينات الدم** (تصنيف أوسع لفرط الدهون)، مدعوم بـ **50 تجربة سريرية** و **19 منشورة**، حيث إن آلية الحماية من NPC1L1 المستخدمة بالفعل تم التحقق منها سريريًا بدلاً من كونها فرضية جديدة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not captured in the structured regulatory record (no license text on file); per the evidence pack's own mechanistic notes, ezetimibe's established use is LDL-C lowering, combined with a statin |
-| Predicted New Indication | Hyperlipoproteinemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير مسجل في السجل التنظيمي المهيكل (لا توجد نصوص ترخيص في الملف)؛ وفقًا لملاحظات الآلية الخاصة بحزمة الأدلة، الاستخدام المعروف للإزيتيميب هو خفض LDL-C مع الستاتين |
+| الاستطباب الجديد المتنبأ به | فرط بروتينات الدم |
+| درجة تنبؤ TxGNN | 99.63% |
+| مستوى الدليل | L1 |
+| حالة سوق تايوان | غير مسوق (Not Marketed) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Formal DrugBank mechanism-of-action text is not yet available in this evidence pack (data gap DG002, "Mechanism of action (MOA)"). However, the TxGNN mechanistic rationale attached to every predicted indication in this pack consistently describes ezetimibe as a selective inhibitor of the intestinal brush-border transporter NPC1L1 (Niemann-Pick C1-Like 1), which blocks absorption of both dietary and biliary cholesterol and thereby lowers LDL-C.
+نص آلية العمل الرسمي في DrugBank غير متاح حتى الآن في هذه حزمة الأدلة (فجوة بيانات DG002، "آلية العمل (MOA)"). ومع ذلك، فإن التبرير الآلي لـ TxGNN المرفق بكل استطباب متنبأ به في هذه الحزمة يصف باستمرار الإزيتيميب كمثبط انتقائي لناقل الفرشاة المعوية NPC1L1 (Niemann-Pick C1-Like 1)، الذي يمنع امتصاص الكوليسترول الغذائي والصفراوي ويخفض LDL-C بالتالي.
 
-Hyperlipoproteinemia is a broad diagnostic classification that encompasses hypercholesterolemia and mixed dyslipidemia — the population ezetimibe is already used to treat, generally in combination with a statin (reduced cholesterol synthesis + reduced intestinal absorption). This means the prediction is less a novel repurposing hypothesis and more a confirmation/extension of an already-validated pharmacological role, which is consistent with the pack's own assessment ("非新假說").
+فرط بروتينات الدم هو تصنيف تشخيصي واسع يشمل فرط الكوليسترول وعسر الدهون المختلط — السكان الذين يستخدم معهم الإزيتيميب بالفعل، بشكل عام مع الستاتين (تقليل تخليق الكوليسترول + تقليل الامتصاص المعوي). هذا يعني أن التنبؤ أقل من كونه فرضية إعادة استخدام جديدة وأكثر تأكيدًا/امتدادًا لدور صيدلاني معروف بالفعل، وهو متسق مع تقييم الحزمة الخاصة ("非新假說").
 
-Mechanistically, this makes the prediction highly plausible: the trial and literature record below directly tests ezetimibe (alone or combined with statins/fenofibrate/other lipid-lowering agents) in hyperlipidemic and familial hypercholesterolemia populations, including a large-scale Japanese post-marketing surveillance study (n=11,332).
+من الناحية الآلية، هذا يجعل التنبؤ معقولاً جداً: تختبر قاعدة التجارب والأدبيات أدناه الإزيتيميب (وحده أو مع الستاتينات/فينوفيبرات/عوامل خفض الدهون الأخرى) في مجموعات سكانية فرط الدهون وفرط الكوليسترول الوراثي، بما في ذلك دراسة يابانية واسعة النطاق لمراقبة ما بعد التسويق (n=11,332).
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe 10mg added to atorvastatin/simvastatin in homozygous familial hypercholesterolemia — efficacy and safety |
-| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Phase 3 | Completed | 576 | Fenofibrate + ezetimibe coadministration in mixed hyperlipidemia — cholesterol-lowering efficacy/safety |
-| [NCT00704444](https://clinicaltrials.gov/study/NCT00704444) | N/A (post-marketing) | Completed | 11,332 | Japan real-world drug-use surveillance of Zetia (ezetimibe) mono/combination therapy, 12-week |
-| [NCT04929249](https://clinicaltrials.gov/study/NCT04929249) | Phase 3 | Completed | 450 | VICTORION-INITIATE: "inclisiran-first" vs usual care in ASCVD with elevated LDL-C; ezetimibe as background therapy |
-| [NCT00701883](https://clinicaltrials.gov/study/NCT00701883) | Phase 2 | Completed | 183 | MBX-8025 (PPAR-δ agonist) ± atorvastatin in obese hyperlipidemic patients |
-| [NCT00652431](https://clinicaltrials.gov/study/NCT00652431) | Phase 1 | Completed | 18 | PK interaction study: Vytorin (ezetimibe+simvastatin) with Niaspan (extended-release niacin) |
-| [NCT04272697](https://clinicaltrials.gov/study/NCT04272697) | N/A | Recruiting | 75,000 | European Atherosclerosis Society Familial Hypercholesterolaemia registry/collaboration |
-| [NCT05974345](https://clinicaltrials.gov/study/NCT05974345) | N/A | Completed | 204,691 | In-silico secondary-data analysis of inclisiran's impact on MACE in ASCVD |
-| [NCT05255094](https://clinicaltrials.gov/study/NCT05255094) | Phase 3 | Completed | 464 | AK102 (PCSK9 inhibitor) efficacy/safety in primary hypercholesterolemia and mixed hyperlipidemia |
-| [NCT04656028](https://clinicaltrials.gov/study/NCT04656028) | N/A | Active, not recruiting | 180 | GENMOTIV-FH: genetic testing + motivational counseling on adherence in familial hypercholesterolemia |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | المرحلة 3 | مكتملة | 50 | إزيتيميب 10 ملغ مضاف إلى أتورفاستاتين/سيمفاستاتين في فرط الكوليسترول الوراثي المتماثل — الفعالية والسلامة |
+| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | المرحلة 3 | مكتملة | 576 | مشاركة فينوفيبرات + إزيتيميب في عسر الدهون المختلط — فعالية خفض الكوليسترول/السلامة |
+| [NCT00704444](https://clinicaltrials.gov/study/NCT00704444) | N/A (مراقبة ما بعد التسويق) | مكتملة | 11,332 | دراسة اليابان للمراقبة المستمرة لاستخدام الدواء من Zetia (إزيتيميب) أحادي/مركب، مدة 12 أسبوع |
+| [NCT04929249](https://clinicaltrials.gov/study/NCT04929249) | المرحلة 3 | مكتملة | 450 | VICTORION-INITIATE: "inclisiran أولاً" مقابل الرعاية المعتادة في ASCVD مع ارتفاع LDL-C؛ إزيتيميب كعلاج خلفي |
+| [NCT00701883](https://clinicaltrials.gov/study/NCT00701883) | المرحلة 2 | مكتملة | 183 | MBX-8025 (agonist PPAR-δ) ± أتورفاستاتين في المرضى البدناء مع فرط الدهون |
+| [NCT00652431](https://clinicaltrials.gov/study/NCT00652431) | المرحلة 1 | مكتملة | 18 | دراسة تفاعل الحركية الدوائية: Vytorin (إزيتيميب+سيمفاستاتين) مع Niaspan (نياسين الإفراز المديد) |
+| [NCT04272697](https://clinicaltrials.gov/study/NCT04272697) | N/A | جاري التجنيد | 75,000 | سجل جمعية تصلب الشرايين الأوروبية/فرط الكوليسترول الوراثي التعاوني |
+| [NCT05974345](https://clinicaltrials.gov/study/NCT05974345) | N/A | مكتملة | 204,691 | تحليل بيانات ثانوية في السيليكو لتأثير inclisiran على MACE في ASCVD |
+| [NCT05255094](https://clinicaltrials.gov/study/NCT05255094) | المرحلة 3 | مكتملة | 464 | فعالية/سلامة AK102 (مثبط PCSK9) في فرط الكوليسترول الأولي وعسر الدهون المختلط |
+| [NCT04656028](https://clinicaltrials.gov/study/NCT04656028) | N/A | نشط، غير جاري التجنيد | 180 | GENMOTIV-FH: الاختبار الجيني + الاستشارة التحفيزية على الالتزام في فرط الكوليسترول الوراثي |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT | Lancet | TANDEM trial: obicetrapib + ezetimibe fixed-dose combination for LDL-C reduction, Phase 3 double-blind |
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oral PCSK9 inhibitor enlicitide in HeFH patients not at LDL-C goal despite existing lipid-lowering therapy |
-| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Review | Cardiology Clinics | Familial hypercholesterolemia overview; ezetimibe among established LDL-C lowering treatments |
-| [38599725](https://pubmed.ncbi.nlm.nih.gov/38599725/) | 2024 | Review | Indian Heart Journal | FH epidemiology, underdiagnosis/undertreatment in India |
-| [34480646](https://pubmed.ncbi.nlm.nih.gov/34480646/) | 2021 | Review | Current Cardiology Reports | Global burden and management approaches for FH |
-| [29219151](https://pubmed.ncbi.nlm.nih.gov/29219151/) | 2017 | Review | Nature Reviews Disease Primers | FH pathophysiology and genetics (LDLR/APOB/PCSK9) |
-| [37762244](https://pubmed.ncbi.nlm.nih.gov/37762244/) | 2023 | Review | Int J Molecular Sciences | Postprandial hyperlipidemia pathophysiology, diagnosis, treatment |
-| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Review/Guidance | European Heart Journal | EAS consensus on FH underdiagnosis/undertreatment and screening guidance |
-| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Review | Molecular Medicine Reports | Research advances in current hyperlipidemia-targeting drugs |
-| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Review | J Cardiovasc Pharmacol Ther | Comprehensive review of PCSK9 inhibitors, statin-intolerant/FH context |
+| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT | Lancet | تجربة TANDEM: مركب جرعة ثابتة من obicetrapib + إزيتيميب لخفض LDL-C، المرحلة 3 مزدوجة العمى |
+| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | مثبط PCSK9 الفموي enlicitide في مرضى HeFH غير الذين وصلوا إلى هدف LDL-C رغم العلاج الموجود بخفض الدهون |
+| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | مراجعة | Cardiology Clinics | نظرة عامة على فرط الكوليسترول الوراثي؛ إزيتيميب من بين علاجات خفض LDL-C المعروفة |
+| [38599725](https://pubmed.ncbi.nlm.nih.gov/38599725/) | 2024 | مراجعة | Indian Heart Journal | وبائيات FH، عدم التشخيص/نقص العلاج في الهند |
+| [34480646](https://pubmed.ncbi.nlm.nih.gov/34480646/) | 2021 | مراجعة | Current Cardiology Reports | العبء العالمي وأساليب الإدارة لـ FH |
+| [29219151](https://pubmed.ncbi.nlm.nih.gov/29219151/) | 2017 | مراجعة | Nature Reviews Disease Primers | الفيزيولوجيا المرضية والوراثة في FH (LDLR/APOB/PCSK9) |
+| [37762244](https://pubmed.ncbi.nlm.nih.gov/37762244/) | 2023 | مراجعة | Int J Molecular Sciences | الفيزيولوجيا المرضية لفرط الدهون بعد الطعام، التشخيص، العلاج |
+| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | مراجعة/توجيه | European Heart Journal | توافق EAS حول عدم تشخيص/نقص علاج FH وتوجيهات الفحص |
+| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | مراجعة | Molecular Medicine Reports | التطورات البحثية في الأدوية الحالية الموجهة لفرط الدهون |
+| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | مراجعة | J Cardiovasc Pharmacol Ther | مراجعة شاملة لمثبطات PCSK9، السياق الذي يتعذر تحمل الستاتين/FH |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Ezetimibe is currently **not marketed in Taiwan** (`market_status = Not marketed`), and there are **0 authorization records** on file. No product license table can be produced from this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all currently unavailable — TFDA package insert extraction is flagged as a **Blocking** data gap, DG001.)
+الإزيتيميب حاليًا **غير مسوق في تايوان** (`market_status = Not marketed`)، وتوجد **0 سجلات ترخيص** في الملف. لا يمكن إنتاج جدول ترخيص المنتج من هذه حزمة الأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (التحذيرات الرئيسية والمحظورات وبيانات تفاعل الأدوية كلها حاليًا غير متاحة — يتم تحديد استخراج نشرة TFDA كـ **فجوة بيانات محظورة**، DG001.)
 
-**Rationale:**
-The predicted indication is backed by an L1 evidence level — a large, directly relevant clinical trial base (including a real-world surveillance study of 11,332 patients) and a mechanistically well-established rationale (NPC1L1 inhibition). However, this indication substantially overlaps with ezetimibe's already-established combination use with statins rather than representing a genuinely novel repurposing hypothesis, and the drug is not currently marketed in Taiwan.
+---
 
-*(Note: two other TxGNN-predicted indications for this candidate — familial hypercholesterolemia, also L1/Proceed with Guardrails, and largely the same established-use overlap; and CYP7A1-deficiency hypercholesterolemia, L4/Research Question, mechanism-only evidence — were assessed separately. Cholesterol-ester transfer protein deficiency was scored L5/Hold due to lack of mechanistic overlap and is not recommended for further evaluation.)*
+## الخلاصة والخطوات التالية
 
-**To proceed, the following is needed:**
-- TFDA package insert extraction (warnings, contraindications) — currently Blocking (DG001)
-- Formal DrugBank mechanism-of-action record (DG002)
-- Confirmation of Taiwan regulatory/licensing pathway, given current "not marketed" status
-- Drug-drug interaction database confirmation (currently `not_found`)
+**القرار: المتابعة مع الضمانات**
+
+**التبرير:**
+الاستطباب المتنبأ به مدعوم بمستوى دليل L1 — قاعدة تجارب سريرية كبيرة وذات صلة مباشرة (بما في ذلك دراسة المراقبة الواقعية لـ 11,332 مريض) وتبرير معقول آليًا (تثبيط NPC1L1). ومع ذلك، فإن هذا الاستطباب يتداخل كثيرًا مع الاستخدام المركب المعروف بالفعل للإزيتيميب مع الستاتينات بدلاً من تمثيل فرضية إعادة استخدام جديدة حقيقية، والدواء غير مسوق حاليًا في تايوان.
+
+*(ملاحظة: تم تقييم استطبابان آخران متنبأ بهما بواسطة TxGNN لهذا المرشح — فرط الكوليسترول الوراثي، أيضًا L1/المتابعة مع الضمانات، وتداخل مشابه كبير في الاستخدام المعروف؛ وفرط الكوليسترول بنقص CYP7A1، L4/سؤال بحثي، دليل آلية فقط — بشكل منفصل. تم تصنيف نقص بروتين نقل إستر الكوليسترول بـ L5/انتظر بسبب عدم وجود تداخل آلي ولا يوصى به لمتابعة أخرى.)*
+
+**للمتابعة، يلزم ما يلي:**
+- استخراج نشرة TFDA (تحذيرات، محظورات) — حاليًا محظور (DG001)
+- سجل آلية العمل الرسمي في DrugBank (DG002)
+- تأكيد مسار التنظيم/الترخيص في تايوان، بالنظر إلى حالة "غير مسوق" الحالية
+- تأكيد قاعدة بيانات تفاعل الأدوية (حاليًا `not_found`)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

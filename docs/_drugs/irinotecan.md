@@ -29,109 +29,110 @@ indication_count: 1
 
 </div>
 
-# Irinotecan: From Colorectal Cancer to Female Breast Carcinoma
+# إيرينوتيكان: من سرطان القولون والمستقيم إلى سرطان الثدي الأنثوي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Irinotecan (DB00762) is a topoisomerase I inhibitor prodrug historically used in colorectal cancer chemotherapy. The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, with **22 clinical trials** and **20 publications** currently identified, though only a small subset directly studies irinotecan itself in breast cancer — most of the strongest literature concerns SN-38 (irinotecan's active metabolite) delivered via the antibody-drug conjugate sacituzumab govitecan.
+إيرينوتيكان (DB00762) هو دواء مقدمة مثبط لإنزيم توبويزوميراز I الذي استُخدم تاريخياً في العلاج الكيميائي لسرطان القولون والمستقيم. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً ضد **سرطان الثدي الأنثوي**، مع **22 تجربة سريرية** و**20 منشور** محددة حالياً، لكن فقط مجموعة صغيرة تدرس إيرينوتيكان نفسه في سرطان الثدي — معظم الأدبيات الأقوى تتعلق بـ SN-38 (المستقلب الفعال لإيرينوتيكان) المُسلّم عبر مركب الأجسام المضادة والدواء sacituzumab govitecan.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Colorectal cancer (known clinical use; not captured in the structured `original_indications` field — see Data Gap note below) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | سرطان القولون والمستقيم (الاستخدام السريري المعروف؛ غير محتوى في حقل `original_indications` المنظم — انظر ملاحظة فجوة البيانات أدناه) |
+| المؤشر الجديد المتنبأ به | سرطان الثدي الأنثوي |
+| درجة التنبؤ بـ TxGNN | 99.08% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed structured mechanism-of-action data is not available in this Evidence Pack (`original_moa` = Data Gap). Based on known pharmacology, irinotecan is a camptothecin-class prodrug that is converted in vivo to its active metabolite SN-38, which inhibits Topoisomerase I. This causes accumulation of single-strand DNA breaks, S-phase cell cycle arrest, and apoptosis — a broad-spectrum cytotoxic mechanism rather than a breast-cancer-specific target.
+لا تتوفر بيانات مفصلة منظمة عن آلية العمل في هذه الحقيبة الإثباتية (`original_moa` = فجوة بيانات). استناداً إلى الدراسات الدوائية المعروفة، إيرينوتيكان هو دواء مقدمة من فئة الكمبتوثيسين يتم تحويله في الجسم الحي إلى مستقلبه الفعال SN-38، الذي يثبط إنزيم التوبويزوميراز I. هذا يسبب تراكم كسور الحمض النووي بخيط واحد، وتوقف دورة الخلية في المرحلة S، والاستماتة — وهي آلية سامة للخلايا ذات طيف عريض بدلاً من أن تكون هدفاً محدداً لسرطان الثدي.
 
-Because this mechanism acts on rapidly dividing cells generally, it is plausible against breast cancer as well as colorectal cancer, and this is best understood as re-validation of an existing broad-spectrum cytotoxic agent in a new tumor type, rather than a novel mechanistic hypothesis. Consistent with this, a meaningful share of the supporting evidence comes not from irinotecan itself but from sacituzumab govitecan, a Trop-2-targeted antibody-drug conjugate that delivers the same active moiety (SN-38) directly to breast tumor cells — an indirect but mechanistically coherent line of support.
+نظراً لأن هذه الآلية تؤثر على الخلايا سريعة الانقسام بشكل عام، فإنها معقولة ضد سرطان الثدي وكذلك سرطان القولون والمستقيم، وهذا يفهم بشكل أفضل كإعادة تقييم لعامل سام للخلايا ذو طيف عريض موجود مسبقاً في نوع ورم جديد، بدلاً من فرضية آلية جديدة. بما يتسق مع هذا، فإن حصة معنوية من الأدلة الداعمة تأتي ليس من إيرينوتيكان نفسه بل من sacituzumab govitecan، وهو مركب أجسام مضادة موجهة لـ Trop-2 يسلم نفس المادة الفعالة (SN-38) مباشرة إلى خلايا ورم الثدي — وهي خط دعم غير مباشر لكن متسق آلياً.
 
-Direct clinical evidence for irinotecan itself in breast cancer does exist (e.g., single-agent and combination Phase I/II trials), but it remains limited in scale and mostly historical, so this signal should be treated as a research-stage repurposing candidate rather than an established therapeutic pathway.
+يوجد دليل سريري مباشر لإيرينوتيكان نفسه في سرطان الثدي (على سبيل المثال، تجارب المرحلة الأولى والثانية بعامل واحد وفي الدراسات التركيبية)، لكنه يظل محدوداً من حيث الحجم وفي الغالب تاريخي، لذا يجب التعامل مع هذا الإشارة كمرشح إعادة استخدام في مرحلة البحث بدلاً من مسار علاجي محدث.
 
 ---
 
-## Clinical Trial Evidence
+## الأدلة من التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00072852](https://clinicaltrials.gov/study/NCT00072852) | Phase 2 | Completed | 134 | Randomized, open-label trial of single-agent irinotecan (two dosing schedules) in metastatic breast cancer after anthracycline/taxane/capecitabine failure — most direct evidence available. |
-| [NCT00083148](https://clinicaltrials.gov/study/NCT00083148) | Phase 1 | Completed | 12 | Irinotecan followed by capecitabine in advanced breast cancer; small sample but directly tests the drug/indication pair. |
-| [NCT03562390](https://clinicaltrials.gov/study/NCT03562390) | Phase 2 | Unknown | 124 | Third-line-or-later single-agent irinotecan in locally recurrent/metastatic breast cancer in Chinese patients previously treated with anthracyclines and taxanes. |
-| [NCT00031681](https://clinicaltrials.gov/study/NCT00031681) | Phase 1 | Completed | 41 | UCN-01 plus irinotecan in resistant solid tumors, with a dedicated Part II cohort in triple-negative recurrent breast cancer. |
-| [NCT05453825](https://clinicaltrials.gov/study/NCT05453825) | Phase 2 | Unknown | 180 | Basket study of navicixizumab alone or with paclitaxel/irinotecan, including a TNBC cohort (Cohort C). |
-| [NCT01770353](https://clinicaltrials.gov/study/NCT01770353) | Phase 1 | Completed | 45 | MM-398 (nanoliposomal irinotecan, Nal-IRI) tumor drug-level and imaging feasibility study across solid tumors. |
-| [NCT01631552](https://clinicaltrials.gov/study/NCT01631552) | Phase 1/2 | Completed | 515 | IMMU-132 (SN-38 antibody-drug conjugate, precursor to sacituzumab govitecan) in epithelial cancers including breast. |
-| [NCT00004095](https://clinicaltrials.gov/study/NCT00004095) | Phase 1 | Completed | 38 | Irinotecan combined with gemcitabine in unresectable/metastatic solid tumors. |
-| [NCT02033551](https://clinicaltrials.gov/study/NCT02033551) | Phase 1 | Completed | 47 | Extension study of veliparib alone or with carboplatin/paclitaxel or FOLFIRI (irinotecan-containing regimen) in solid tumors. |
-| [NCT04640480](https://clinicaltrials.gov/study/NCT04640480) | Phase 1 | Completed | 21 | SNB-101, a nanoparticle formulation of SN-38 (irinotecan's active metabolite), dose-finding study in advanced solid tumors. |
+| [NCT00072852](https://clinicaltrials.gov/study/NCT00072852) | المرحلة 2 | اكتملت | 134 | تجربة عشوائية مفتوحة التسمية لإيرينوتيكان بعامل واحد (جدولتان جرعات) في سرطان الثدي النقيلي بعد فشل الأنثراسيكلين/تاكسان/كابيسيتابين — الأدلة الأكثر مباشرة المتاحة. |
+| [NCT00083148](https://clinicaltrials.gov/study/NCT00083148) | المرحلة 1 | اكتملت | 12 | إيرينوتيكان متبوعاً بكابيسيتابين في سرطان الثدي المتقدم؛ عينة صغيرة لكنها تختبر مباشرة زوج الدواء/المؤشر. |
+| [NCT03562390](https://clinicaltrials.gov/study/NCT03562390) | المرحلة 2 | غير معروف | 124 | إيرينوتيكان بعامل واحد بخط ثالث أو لاحق في سرطان الثدي المتكرر موضعياً أو النقيلي لدى المرضى الصينيين الذين عولجوا سابقاً بالأنثراسيكلينات والتاكسانات. |
+| [NCT00031681](https://clinicaltrials.gov/study/NCT00031681) | المرحلة 1 | اكتملت | 41 | UCN-01 بالإضافة إلى إيرينوتيكان في الأورام الصلبة المقاومة، مع جزء مكرس الجزء الثاني في سرطان الثدي ثلاثي السلبية المتكرر. |
+| [NCT05453825](https://clinicaltrials.gov/study/NCT05453825) | المرحلة 2 | غير معروف | 180 | دراسة سلة من navicixizumab وحده أو مع باكليتاكسيل/إيرينوتيكان، تشمل مجموعة TNBC (المجموعة C). |
+| [NCT01770353](https://clinicaltrials.gov/study/NCT01770353) | المرحلة 1 | اكتملت | 45 | MM-398 (إيرينوتيكان نانولايبوسومي، Nal-IRI) دراسة مستوى دواء الورم وجدوى التصوير عبر الأورام الصلبة. |
+| [NCT01631552](https://clinicaltrials.gov/study/NCT01631552) | المرحلة 1/2 | اكتملت | 515 | IMMU-132 (مركب أجسام مضادة والدواء SN-38، سلف sacituzumab govitecan) في السرطانات الظهارية بما فيها الثدي. |
+| [NCT00004095](https://clinicaltrials.gov/study/NCT00004095) | المرحلة 1 | اكتملت | 38 | إيرينوتيكان مدمج مع جيمسيتابين في الأورام الصلبة غير القابلة للاستئصال/النقيلية. |
+| [NCT02033551](https://clinicaltrials.gov/study/NCT02033551) | المرحلة 1 | اكتملت | 47 | دراسة امتداد لـ veliparib وحده أو مع كاربوبلاتين/باكليتاكسيل أو FOLFIRI (نظام يحتوي على إيرينوتيكان) في الأورام الصلبة. |
+| [NCT04640480](https://clinicaltrials.gov/study/NCT04640480) | المرحلة 1 | اكتملت | 21 | SNB-101، صيغة نانوجسيمات من SN-38 (المستقلب الفعال لإيرينوتيكان)، دراسة تحديد الجرعة في الأورام الصلبة المتقدمة. |
 
 ---
 
-## Literature Evidence
+## الأدلة من الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [32223649](https://pubmed.ncbi.nlm.nih.gov/32223649/) | 2020 | RCT | Future Oncology | TROPiCS-02 Phase III trial design: sacituzumab govitecan (SN-38 payload) in HR+/HER2- metastatic breast cancer. |
-| [30786188](https://pubmed.ncbi.nlm.nih.gov/30786188/) | 2019 | RCT/Cohort (Phase 2) | New England Journal of Medicine | ASCENT trial: sacituzumab govitecan in refractory metastatic triple-negative breast cancer, delivering high SN-38 concentrations to tumor. |
-| [36027558](https://pubmed.ncbi.nlm.nih.gov/36027558/) | 2022 | RCT/Subgroup | Journal of Clinical Oncology | Sacituzumab govitecan efficacy in HR+/HER2- endocrine-resistant metastatic breast cancer. |
-| [28291390](https://pubmed.ncbi.nlm.nih.gov/28291390/) | 2017 | Phase 1/2 | Journal of Clinical Oncology | Sacituzumab govitecan (SN-38 ADC) in heavily pretreated metastatic triple-negative breast cancer. |
-| [32727805](https://pubmed.ncbi.nlm.nih.gov/32727805/) | 2020 | Pilot clinical study | Anticancer Research | Direct pilot study of irinotecan + S-1 (IRIS regimen) for advanced/metastatic breast cancer. |
-| [12800602](https://pubmed.ncbi.nlm.nih.gov/12800602/) | 2003 | Review/Rationale | Oncology (Williston Park) | Rationale for mitomycin and irinotecan combination use in advanced breast cancer, based on topoisomerase I upregulation. |
-| [9726101](https://pubmed.ncbi.nlm.nih.gov/9726101/) | 1998 | Review | Oncology (Williston Park) | Broad review of irinotecan (CPT-11) antitumor activity, explicitly including breast cancer among responsive tumor types. |
-| [10472342](https://pubmed.ncbi.nlm.nih.gov/10472342/) | 1999 | Preclinical | Anticancer Research | Irinotecan halted or regressed growth in human breast cancer xenograft models (MCF7, MDA-MB-231, T47D). |
-| [26101915](https://pubmed.ncbi.nlm.nih.gov/26101915/) | 2015 | Preclinical/Mechanistic | Oncotarget | Trop-2 as a target for SN-38 (irinotecan active metabolite) delivery via antibody-drug conjugate. |
-| [25944802](https://pubmed.ncbi.nlm.nih.gov/25944802/) | 2015 | Phase 1 (first-in-human) | Clinical Cancer Research | First-in-human trial of the anti-Trop-2/SN-38 conjugate sacituzumab govitecan across diverse metastatic solid tumors. |
+| [32223649](https://pubmed.ncbi.nlm.nih.gov/32223649/) | 2020 | تجربة عشوائية محكومة | Future Oncology | تصميم تجربة TROPiCS-02 من المرحلة الثالثة: sacituzumab govitecan (حمولة SN-38) في سرطان الثدي النقيلي إيجابي المستقبلات الهرمونية/سلبي HER2. |
+| [30786188](https://pubmed.ncbi.nlm.nih.gov/30786188/) | 2019 | تجربة عشوائية محكومة/مجموعة (المرحلة 2) | New England Journal of Medicine | تجربة ASCENT: sacituzumab govitecan في سرطان الثدي ثلاثي السلبية النقيلي المقاوم، مع تركيزات عالية من SN-38 إلى الورم. |
+| [36027558](https://pubmed.ncbi.nlm.nih.gov/36027558/) | 2022 | تجربة عشوائية محكومة/مجموعة فرعية | Journal of Clinical Oncology | فعالية sacituzumab govitecan في سرطان الثدي النقيلي إيجابي المستقبلات الهرمونية/سلبي HER2 المقاوم للهرمونات. |
+| [28291390](https://pubmed.ncbi.nlm.nih.gov/28291390/) | 2017 | المرحلة 1/2 | Journal of Clinical Oncology | Sacituzumab govitecan (مركب أجسام مضادة والدواء SN-38) في سرطان الثدي ثلاثي السلبية النقيلي المعالج بكثافة. |
+| [32727805](https://pubmed.ncbi.nlm.nih.gov/32727805/) | 2020 | دراسة سريرية استكشافية | Anticancer Research | دراسة استكشافية مباشرة لـ إيرينوتيكان + S-1 (نظام IRIS) لسرطان الثدي المتقدم/النقيلي. |
+| [12800602](https://pubmed.ncbi.nlm.nih.gov/12800602/) | 2003 | مراجعة/المنطق | Oncology (Williston Park) | المنطق لاستخدام الميتوميسين والإيرينوتيكان بالتركيب في سرطان الثدي المتقدم، بناءً على الارتفاع في توبويزوميراز I. |
+| [9726101](https://pubmed.ncbi.nlm.nih.gov/9726101/) | 1998 | مراجعة | Oncology (Williston Park) | مراجعة عريضة للنشاط المضاد للأورام لإيرينوتيكان (CPT-11)، يشمل صراحة سرطان الثدي بين أنواع الأورام المستجيبة. |
+| [10472342](https://pubmed.ncbi.nlm.nih.gov/10472342/) | 1999 | عمل قبل سريري | Anticancer Research | أوقف إيرينوتيكان أو تراجع النمو في نماذج الكسيني من سرطان الثدي البشري (MCF7، MDA-MB-231، T47D). |
+| [26101915](https://pubmed.ncbi.nlm.nih.gov/26101915/) | 2015 | قبل سريري/آلي | Oncotarget | Trop-2 كهدف لإسلام SN-38 (المستقلب الفعال لإيرينوتيكان) عبر مركب أجسام مضادة والدواء. |
+| [25944802](https://pubmed.ncbi.nlm.nih.gov/25944802/) | 2015 | المرحلة 1 (أولاً لدى الإنسان) | Clinical Cancer Research | تجربة أولى لدى الإنسان للمركب المناهض لـ Trop-2/SN-38 sacituzumab govitecan عبر أنواع أورام صلبة متنوعة نقيلية. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No marketing authorizations are currently on record for irinotecan in Saudi Arabia (market status: Not marketed / not marketed; total licenses: 0).
+لا توجد تصاريح تسويقية قيد التسجيل حالياً لإيرينوتيكان في المملكة العربية السعودية (حالة السوق: غير مسوق / غير مسوق؛ إجمالي الرخص: 0).
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Topoisomerase I inhibitor, camptothecin-class prodrug) |
-| Myelosuppression Risk | High — irinotecan is well established to cause dose-limiting neutropenia, including febrile neutropenia; severe acute and delayed diarrhea is also a hallmark toxicity. Institution-specific toxicity/label data is pending TFDA package insert review (see Safety Considerations). |
-| Emetogenicity Classification | Moderate to High |
-| Monitoring Items | CBC with differential (neutrophils in particular), liver function, renal function, electrolytes, bowel/diarrhea monitoring |
-| Handling Protection | Requires cytotoxic/hazardous drug handling precautions per institutional protocols |
+| تصنيف السمية الخلوية | سام خلوي تقليدي (مثبط توبويزوميراز I، دواء مقدمة من فئة الكمبتوثيسين) |
+| خطر قمع النخاع | مرتفع — إيرينوتيكان موثق بشكل جيد كمسبب لقيود جرعة قلة العدلات، بما فيها قلة العدلات الحمى؛ الإسهال الحاد والمتأخر الشديد هو أيضاً سمية مميزة. بيانات السمية/الملصق الخاصة بالمؤسسات قيد الانتظار مراجعة حزمة الإدراج لـ TFDA (انظر الاعتبارات الأمنية). |
+| تصنيف الغثيان والقيء | متوسط إلى مرتفع |
+| عناصر المراقبة | عدد الدم الكامل مع التفريق (النيوتروفيل بشكل خاص)، وظائف الكبد، وظائف الكلى، الكهارل، مراقبة الأمعاء/الإسهال |
+| حماية التعامل | يتطلب احتياطات التعامل مع الأدوية السامة/الخطيرة وفقاً لبروتوكولات المؤسسة |
 
 ---
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information. Local TFDA-equivalent warning and contraindication data could not be retrieved for this drug (blocking data gap — see below), and no drug-drug interaction records were found.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة. لم يكن من الممكن استرجاع بيانات التحذير والمضادات المحلية المكافئة لـ TFDA لهذا الدواء (فجوة بيانات معيقة — انظر أدناه)، ولم يتم العثور على سجلات التفاعلات الدوائية.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The drug is not currently marketed in this jurisdiction, and a blocking data gap (missing local package insert warnings/contraindications) prevents completion of the S1 safety pre-assessment. Clinical evidence for irinotecan itself in breast cancer is Evidence Level L2 (one completed Phase 2 trial), with most higher-quality trial data actually supporting a related but distinct agent (sacituzumab govitecan). This positions the candidate at the "Research Question" stage rather than ready for a Go/Guardrails decision.
+**المنطق:**
+الدواء غير مسوق حالياً في هذه الولاية القضائية، وفجوة بيانات معيقة (نشرة معلومات محلية مفقودة من التحذيرات/المضادات) تمنع اكتمال تقييم السلامة المسبق S1. الدليل السريري لإيرينوتيكان نفسه في سرطان الثدي هو مستوى أدلة L2 (تجربة واحدة مكتملة من المرحلة الثانية)، مع معظم بيانات التجارب ذات الجودة الأعلى تدعم في الواقع عاملاً مرتبطاً لكن مختلفاً (sacituzumab govitecan). وهذا يضع المرشح في مرحلة "سؤال البحث" بدلاً من أن يكون جاهزاً لقرار Go/Guardrails.
 
-**To proceed, the following is needed:**
-- TFDA-equivalent package insert (warnings, contraindications, DDI) to complete the S1 safety evaluation (blocking gap)
-- Confirmed DrugBank mechanism-of-action record for irinotecan
-- Clarification of whether irinotecan-specific evidence (vs. SN-38-ADC evidence) is sufficient on its own to support the indication, or whether this should be reframed as support for an SN-38-conjugate class effect
-- Route-of-administration compatibility assessment (currently pending in evidence pack)
-- Local market/regulatory pathway confirmation given current unmarketed status
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات TFDA المكافئة (التحذيرات والمضادات والتفاعلات الدوائية) لإكمال تقييم السلامة المسبق S1 (فجوة معيقة)
+- سجل آلية العمل المؤكد لـ DrugBank لإيرينوتيكان
+- توضيح ما إذا كان الدليل الخاص بإيرينوتيكان (مقابل دليل ADC بـ SN-38) كافياً بمفرده لدعم المؤشر، أم يجب إعادة صياغة هذا كدعم لتأثير فئة مركب أجسام مضادة والدواء بـ SN-38
+- تقييم توافق طريق الإعطاء (قيد الانتظار حالياً في حزمة الأدلة)
+- تأكيد السوق المحلية/مسار تنظيمي نظراً للحالة غير المسوقة الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

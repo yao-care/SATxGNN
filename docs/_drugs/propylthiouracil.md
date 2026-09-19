@@ -29,73 +29,74 @@ indication_count: 3
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism to Neonatal Thyrotoxicosis
+# البروبيل ثيوراسيل: من فرط نشاط الغدة الدرقية إلى فرط نشاط الغدة الدرقية الوليدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Propylthiouracil (PTU) is a thiourea-class antithyroid drug long established for treating hyperthyroidism, particularly Graves' disease during the first trimester of pregnancy. The TxGNN model predicts it may be effective for **Neonatal Thyrotoxicosis**, with **1 clinical trial** and **20 publications** currently supporting this direction. This is less a novel mechanistic leap than a formal recognition of an existing off-label clinical practice — treating maternal Graves' disease with PTU to control fetal/neonatal thyroid hormone exposure.
+البروبيل ثيوراسيل (PTU) هو دواء مضاد للغدة الدرقية من فئة الثيوريا يُستخدم منذ فترة طويلة لعلاج فرط نشاط الغدة الدرقية، خاصةً داء غريفز خلال الثلث الأول من الحمل. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فرط نشاط الغدة الدرقية الوليدي**، مع وجود **تجربة سريرية واحدة** و**20 منشوراً** يدعمان هذا الاتجاه حالياً. هذا يُعتبر أقل ما يكون قفزة آلية جديدة بقدر ما هو اعتراف رسمي بممارسة سريرية موجودة بالفعل خارج الاستخدام المرخص — علاج داء غريفز الأمومي بالبروبيل ثيوراسيل للسيطرة على تعرض الجنين/الوليد لهرمون الغدة الدرقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Hyperthyroidism / Graves' disease (established international use; no formal local approval record — see Market Information below) |
-| Predicted New Indication | Neonatal Thyrotoxicosis |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| البند | المحتوى |
+|------|---------|
+| الاستخدام الأصلي | فرط نشاط الغدة الدرقية / داء غريفز (استخدام دولي راسخ؛ لا توجد سجلات موافقة محلية رسمية — انظر معلومات السوق أدناه) |
+| الاستخدام الجديد المتوقع | فرط نشاط الغدة الدرقية الوليدي |
+| درجة التنبؤ من TxGNN | 99.40% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع احتياطات |
 
-## Why is This Prediction Reasonable?
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (marked as a data gap in this evidence pack). Based on known pharmacology, propylthiouracil is a thiourea-class antithyroid agent that inhibits thyroid peroxidase, blocking thyroid hormone synthesis; it also inhibits peripheral conversion of T4 to T3. Its efficacy in hyperthyroidism, especially Graves' disease, is well established, and it is the guideline-preferred antithyroid drug during the first trimester of pregnancy because methimazole carries a higher teratogenicity risk in early gestation.
+حالياً، بيانات آلية العمل المفصلة غير متاحة (تم تحديدها كفجوة بيانات في هذه مجموعة الأدلة). بناءً على الصيدلة المعروفة، البروبيل ثيوراسيل هو عامل مضاد للغدة الدرقية من فئة الثيوريا يثبط بيروكسيداز الغدة الدرقية، مما يمنع تخليق هرمون الغدة الدرقية؛ كما أنه يثبط تحويل T4 إلى T3 الطرفي. إن فعاليته في فرط نشاط الغدة الدرقية، خاصةً داء غريفز، راسخة جيداً، وهو الدواء المضاد للغدة الدرقية المفضل وفقاً للإرشادات خلال الثلث الأول من الحمل لأن الميثيمازول يحمل خطراً أعلى للتشوهات في الحمل المبكر.
 
-The link to neonatal thyrotoxicosis is indirect but clinically grounded: PTU crosses the placenta, so treating a pregnant mother's Graves' disease with PTU reduces fetal and neonatal thyroid hormone synthesis, which can prevent or help manage neonatal thyrotoxicosis caused by transplacental transfer of maternal TSH-receptor-stimulating antibodies. This is an established clinical practice pattern rather than an entirely new mechanistic hypothesis.
+الارتباط بفرط نشاط الغدة الدرقية الوليدي غير مباشر لكنه مدعوم سريرياً: يعبر البروبيل ثيوراسيل المشيمة، وبالتالي فإن علاج داء غريفز الأمومي بالبروبيل ثيوراسيل يقلل من تخليق هرمون الغدة الدرقية الجنيني والوليدي، مما قد يمنع أو يساعد في إدارة فرط نشاط الغدة الدرقية الوليدي الناجم عن الانتقال عبر المشيمة للأجسام المضادة المحفزة لمستقبلات TSH الأمومية. هذا هو نمط ممارسة سريرية راسخ بالفعل وليس فرضية آلية جديدة تماماً.
 
-Two caveats temper the strength of this prediction. First, PTU carries a hepatotoxicity black-box warning that limits its use in pediatric populations, so direct treatment of the neonate itself typically favors methimazole rather than PTU — the therapeutic pathway here is maternal treatment, not neonatal treatment. Second, no clinical trial has directly tested PTU in neonates for this indication; the single registered trial (below) evaluates treatment of the mother's Graves' disease, not the neonate.
+يُعدّل تحفظان من قوة هذا التنبؤ. أولاً، يحمل البروبيل ثيوراسيل تحذير العلبة السوداء لسمية الكبد الذي يحد من استخدامه في السكان الأطفال، لذا فإن العلاج المباشر للوليد نفسه عادةً ما يفضل الميثيمازول بدلاً من البروبيل ثيوراسيل — المسار العلاجي هنا هو العلاج الأمومي وليس العلاج الوليدي. ثانياً، لم تختبر أي تجربة سريرية البروبيل ثيوراسيل بشكل مباشر عند الأطفال حديثي الولادة لهذا الاستخدام؛ التجربة المسجلة الوحيدة (أدناه) تقيّم علاج داء غريفز الأمومي وليس الوليدي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Phase 3 | Unknown | 60 | Compares total thyroidectomy vs. thionamide antithyroid drugs (incl. PTU) in adults with moderate-to-severe Graves' ophthalmopathy; indirect evidence — treats the maternal/adult condition rather than testing PTU in neonates directly. |
+| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Phase 3 | Unknown | 60 | يقارن استئصال الغدة الدرقية الكامل مقابل الأدوية المضادة للغدة الدرقية من نوع الثيونامايد (بما في ذلك البروبيل ثيوراسيل) عند البالغين المصابين بداء غريفز في العيون من الدرجة المتوسطة إلى الشديدة؛ دليل غير مباشر — يعالج الحالة الأمومية/البالغة بدلاً من اختبار البروبيل ثيوراسيل عند الأطفال حديثي الولادة بشكل مباشر. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33349844](https://pubmed.ncbi.nlm.nih.gov/33349844/) | 2021 | Review/Guideline | J Clin Endocrinol Metab | Guideline review on testing, monitoring, and treatment of thyroid dysfunction in pregnancy, including antithyroid drug selection. |
-| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | Review | Endocrinol Metab Clin North Am | High-risk Graves' disease patients treated with PTU in the first trimester, transitioning to methimazole afterward. |
-| [32199749](https://pubmed.ncbi.nlm.nih.gov/32199749/) | 2020 | Review | Best Pract Res Clin Endocrinol Metab | Management of thyrotoxicosis during pregnancy, balancing maternal and fetal antithyroid drug risks. |
-| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | Lancet Diabetes Endocrinol | Overview of hyperthyroidism in pregnancy and its impact on maternal and fetal/neonatal outcomes. |
-| [6387489](https://pubmed.ncbi.nlm.nih.gov/6387489/) | 1984 | Review | N Engl J Med | Classic review of antithyroid drug pharmacology and mechanisms of action, including thyroid peroxidase inhibition. |
-| [25747892](https://pubmed.ncbi.nlm.nih.gov/25747892/) | 2015 | Cohort study | Thyroid | Integrated healthcare system cohort on gestational thyrotoxicosis, antithyroid drug use, and neonatal outcomes. |
-| [7523202](https://pubmed.ncbi.nlm.nih.gov/7523202/) | 1994 | Cohort/outcome study | Eur J Obstet Gynecol Reprod Biol | 32 pregnancies with hyperthyroidism treated with PTU or carbimazole; reports maternal/perinatal outcomes. |
-| [1971773](https://pubmed.ncbi.nlm.nih.gov/1971773/) | 1990 | Cohort study | Clin Endocrinol | 46 pregnancies with Graves' disease treated with PTU or carbimazole; correlates TSH-receptor antibody levels with neonatal thyroid function. |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis and maternal infertility in a family with a TRβ gene mutation (M313T). |
-| [18558604](https://pubmed.ncbi.nlm.nih.gov/18558604/) | 2008 | Case report | Endocr Pract | Persistent neonatal thyrotoxicosis from a rare activating TSH-receptor mutation. |
+| [33349844](https://pubmed.ncbi.nlm.nih.gov/33349844/) | 2021 | مراجعة/إرشادات | J Clin Endocrinol Metab | مراجعة إرشادات حول الاختبار والمراقبة والعلاج لخلل الغدة الدرقية أثناء الحمل، بما في ذلك اختيار الأدوية المضادة للغدة الدرقية. |
+| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | مراجعة | Endocrinol Metab Clin North Am | مرضى داء غريفز عالي الخطورة يتم علاجهم بالبروبيل ثيوراسيل في الثلث الأول من الحمل، مع الانتقال إلى الميثيمازول لاحقاً. |
+| [32199749](https://pubmed.ncbi.nlm.nih.gov/32199749/) | 2020 | مراجعة | Best Pract Res Clin Endocrinol Metab | إدارة فرط نشاط الغدة الدرقية أثناء الحمل، موازنة مخاطر الأدوية المضادة للغدة الدرقية الأمومية والجنينية. |
+| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | مراجعة | Lancet Diabetes Endocrinol | نظرة عامة على فرط نشاط الغدة الدرقية في الحمل وتأثيره على النتائج الأمومية والجنينية/الوليدية. |
+| [6387489](https://pubmed.ncbi.nlm.nih.gov/6387489/) | 1984 | مراجعة | N Engl J Med | مراجعة كلاسيكية لصيدلة الأدوية المضادة للغدة الدرقية وآليات العمل، بما في ذلك تثبيط بيروكسيداز الغدة الدرقية. |
+| [25747892](https://pubmed.ncbi.nlm.nih.gov/25747892/) | 2015 | دراسة مجموعة | Thyroid | دراسة مجموعة لنظام الرعاية الصحية المتكامل حول فرط نشاط الغدة الدرقية الحملي واستخدام الأدوية المضادة للغدة الدرقية والنتائج الوليدية. |
+| [7523202](https://pubmed.ncbi.nlm.nih.gov/7523202/) | 1994 | دراسة مجموعة/نتائج | Eur J Obstet Gynecol Reprod Biol | 32 حملاً مع فرط نشاط الغدة الدرقية تم علاجه بالبروبيل ثيوراسيل أو الكاربيمازول؛ يقرر النتائج الأمومية والحول. |
+| [1971773](https://pubmed.ncbi.nlm.nih.gov/1971773/) | 1990 | دراسة مجموعة | Clin Endocrinol | 46 حملاً مع داء غريفز تم علاجه بالبروبيل ثيوراسيل أو الكاربيمازول؛ يربط مستويات الأجسام المضادة لمستقبلات TSH بوظيفة الغدة الدرقية الوليدية. |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | تقرير حالة | Clin Endocrinol | فرط نشاط الغدة الدرقية الوليدي والعقم الأمومي في عائلة بطفرة جين TRβ (M313T). |
+| [18558604](https://pubmed.ncbi.nlm.nih.gov/18558604/) | 2008 | تقرير حالة | Endocr Pract | فرط نشاط الغدة الدرقية الوليدي المستمر من طفرة مستقبل TSH المفعلة النادرة. |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Propylthiouracil is currently **not marketed** in Saudi Arabia — no product authorizations are on record (0 licenses).
+البروبيل ثيوراسيل غير مسوق حالياً في المملكة العربية السعودية — لا توجد تراخيص منتجات مسجلة (0 ترخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. No structured safety data (warnings, contraindications, or drug interactions) is currently available in this evidence pack — note that TFDA/SFDA package insert data is flagged as a **Blocking** data gap (DG001), which prevents a full S1 safety pre-assessment.
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة. لا تتوفر بيانات سلامة منظمة (تحذيرات أو موانع استعمال أو تفاعلات أدوية) حالياً في مجموعة الأدلة هذه — لاحظ أن بيانات النشرة الداخلية TFDA/SFDA يتم تحديدها كفجوة بيانات حاجزة (DG001)، والتي تمنع إجراء تقييم السلامة S1 الكامل.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع احتياطات**
 
-**Rationale:**
-The mechanistic pathway — maternal PTU treatment reducing transplacental thyroid hormone exposure to the fetus/neonate — reflects an already-established clinical practice pattern, supported by multiple cohort studies and guideline reviews (L3 evidence). However, no trial or study directly tests PTU in neonates, and the drug's own hepatotoxicity warning generally steers direct neonatal treatment toward methimazole instead, so the therapeutic role of PTU here is maternal, not neonatal, treatment.
+**المبرر:**
+المسار الآلي — علاج البروبيل ثيوراسيل الأمومي يقلل من التعرض الجنيني/الوليدي عبر المشيمة لهرمون الغدة الدرقية — يعكس نمط ممارسة سريرية راسخ بالفعل، مدعوم بدراسات مجموعات متعددة ومراجعات إرشادات (أدلة L3). ومع ذلك، لا توجد تجربة أو دراسة تختبر البروبيل ثيوراسيل بشكل مباشر عند الأطفال حديثي الولادة، والدواء نفسه مع تحذير السمية الكبدية عادةً ما يوجه العلاج الوليدي المباشر نحو الميثيمازول بدلاً من ذلك، لذا فإن الدور العلاجي للبروبيل ثيوراسيل هنا أمومي وليس وليدي.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (blocking gap DG001) before any S1 safety assessment can proceed
-- Confirmed mechanism-of-action documentation (gap DG002)
-- Clarification of whether "neonatal thyrotoxicosis" in scope means maternal-source treatment or direct neonatal administration, since this materially changes the safety profile
-- Note: two other TxGNN-predicted indications for this drug — "resistance to thyroid hormone due to a TRβ mutation" (highest TxGNN score, 99.66%, but scoring/evidence workup still pending) and "hyperthyroxinemia" (L4 evidence, Hold — too etiologically heterogeneous for a single recommendation) — remain in the evaluation pipeline and are not covered by this report's Go/Guardrails decision
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات وموانع استعمال النشرة الداخلية TFDA/SFDA (فجوة حاجزة DG001) قبل أن يتمكن أي تقييم سلامة S1 من المضي قدماً
+- توثيق آلية العمل المؤكدة (فجوة DG002)
+- توضيح ما إذا كان "فرط نشاط الغدة الدرقية الوليدي" ضمن النطاق يعني العلاج من مصدر أمومي أو الإدارة الوليدية المباشرة، حيث يغير هذا بشكل كبير ملف السلامة
+- ملاحظة: هناك استخدامات أخرى متوقعة من TxGNN لهذا الدواء — "المقاومة لهرمون الغدة الدرقية بسبب طفرة TRβ" (أعلى درجة TxGNN، 99.66%، لكن تحديد الدرجات/تجميع الأدلة لا يزال قيد الانتظار) و"فرط هرمون الثيروكسين" (أدلة L4، Hold — متنوعة إيتيولوجياً للغاية لتوصية واحدة) — تبقى في خط أنابيب التقييم ولم يتم تغطيتها بقرار Go/Guardrails في هذا التقرير
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

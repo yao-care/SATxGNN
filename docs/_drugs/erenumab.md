@@ -29,86 +29,87 @@ indication_count: 1
 
 </div>
 
-# Erenumab: From Migraine Prevention to Migraine with Brainstem Aura
+# إيرينوماب: من الوقاية من الصداع النصفي إلى الصداع النصفي مع هالة جذع الدماغ
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Erenumab is a CGRP-receptor monoclonal antibody used for migraine prevention in the general migraine population. The TxGNN model predicts it may also be effective for **Migraine with Brainstem Aura**, a subtype that has historically been excluded from pivotal Phase 3 trials. Currently **0 dedicated clinical trials** and **20 supporting publications** (mostly post-hoc analyses and real-world cohorts) back this direction, corresponding to Evidence Level **L3**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack — no Saudi Arabia license or `original_indications` data on file (drug is globally known as a migraine-prevention agent, but this is not confirmed by the source data) |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.89% (rank #2610) |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيرينوماب هو جسم مضاد أحادي النسيلة موجه لمستقبل CGRP يُستخدم للوقاية من الصداع النصفي في المجموعة السكانية العامة للصداع النصفي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **الصداع النصفي مع هالة جذع الدماغ**، وهو نوع فرعي تم استبعاده تاريخياً من التجارب الرئيسية للمرحلة الثالثة. حالياً **0 تجربة سريرية مخصصة** و**20 منشور داعم** (معظمها تحليلات لاحقة وأتراب من العالم الحقيقي) تدعم هذا الاتجاه، وهو ما يقابل مستوى الأدلة **L3**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed DrugBank-sourced mechanism-of-action text is not available (flagged as a High-severity data gap). However, the evidence pack's own repurposing rationale provides a working mechanistic description: Erenumab is a monoclonal antibody that binds the CGRP receptor, blocking calcitonin gene-related peptide (CGRP) signaling and thereby inhibiting activation of the trigeminovascular system — the core pathogenic pathway believed to drive migraine, including its aura variants.
-
-Migraine with brainstem aura (formerly "basilar-type migraine") shares the same downstream trigeminovascular activation pathway as the migraine subtypes for which erenumab is already used, which is the mechanistic basis for this prediction. However, CGRP is also an important vasodilatory mediator in cerebral and posterior-circulation blood flow, and brainstem aura is thought to involve posterior-circulation vascular regulation. Blocking CGRP could theoretically remove a protective vasodilatory compensation mechanism in this specific subgroup — an additional theoretical safety concern.
-
-Critically, the major Phase 3 RCTs that established erenumab's efficacy (e.g., STRIVE, ARISE) routinely excluded patients with hemiplegic migraine and brainstem aura. As a result, the current evidence base is "reasonable mechanistic extrapolation," not "confirmed efficacy within the target population" — this distinction is central to the evidence-level rating below.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered specifically for migraine with brainstem aura. (ClinicalTrials.gov and ICTRP searches on 2026-04-21 both returned 0 results; existing pivotal RCTs for erenumab excluded this subgroup.)
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح في حزمة الأدلة هذه — لا توجد ترخيص في المملكة العربية السعودية أو بيانات `original_indications` في الملف (الدواء معروف عالمياً كعامل وقاية من الصداع النصفي، لكن هذا غير مؤكد من البيانات المصدرية) |
+| المؤشر الجديد المتنبأ به | الصداع النصفي مع هالة جذع الدماغ |
+| درجة التنبؤ بـ TxGNN | 99.89% (الترتيب #2610) |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (Phase 3b) | Lancet | Randomized, double-blind, placebo-controlled trial establishing erenumab efficacy/tolerability in episodic migraine patients who failed 2–4 prior preventives (core pivotal evidence, general migraine population) |
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (secondary/post-hoc analysis) | JAMA Neurology | Secondary analysis of RCT data assessing erenumab safety/efficacy specifically in migraine with vs. without aura, given elevated vascular risk in the aura subgroup |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic Review | International Immunopharmacology | Systematic review of erenumab's preventive efficacy across episodic and chronic migraine |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Cohort (post-hoc, pooled trial data) | Headache | Post-hoc cardiovascular safety analysis of erenumab stratified by baseline vascular risk in patients with/without aura |
-| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Cohort (REFORM study) | The Journal of Headache and Pain | Longitudinal characterization of migraine aura frequency changes during and after erenumab treatment in patients with confirmed frequent aura |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Cohort (biomarker, REFORM study) | The Journal of Headache and Pain | Plasma suPAR (inflammation biomarker elevated in migraine with aura) evaluated as a predictor of erenumab therapeutic response |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Cohort (real-world) | Clinical Neurology and Neurosurgery | Real-world 6-month effectiveness and safety of erenumab in treatment-resistant chronic migraine (Croatian cohort) |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Cohort (real-world, 12-month) | The Journal of Headache and Pain | 12-month real-world safety/tolerability data and predictors of adverse events during erenumab prophylaxis |
-| [38071464](https://pubmed.ncbi.nlm.nih.gov/38071464/) | 2024 | Cohort (retrospective, clinical/genetic) | Headache | Real-world community cohort identifying clinical and genetic characteristics associated with response to anti-CGRP monoclonal antibodies |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review (mechanistic) | Handbook of Experimental Pharmacology | Foundational review of CGRP's role in migraine pathophysiology, underpinning the mechanistic rationale for CGRP-targeted therapy |
+تفاصيل نص آلية التأثير من DrugBank غير متاحة (تم وضع علامة عليها كفجوة بيانات شديدة الخطورة). ومع ذلك، توفر حزمة الأدلة نفسها الأساس المنطقي لإعادة التخصيص وتقدم وصفاً آلياً عاملاً: إيرينوماب هو جسم مضاد أحادي النسيلة يرتبط بمستقبل CGRP، مما يحجب إشارات ببتيد الكالسيتونين المرتبط بالجين (CGRP) وبالتالي يثبط تفعيل النظام الثلاثي الأوعية الدموية — المسار الممرض الأساسي الذي يُعتقد أنه يحرك الصداع النصفي، بما في ذلك متغيراته الهالوية.
+
+يشترك الصداع النصفي مع هالة جذع الدماغ (سابقاً "الصداع النصفي من النوع القاعدي") في نفس مسار تفعيل النظام الثلاثي الأوعية الدموية اللاحق مثل الأنواع الفرعية من الصداع النصفي التي يُستخدم الإيرينوماب بالفعل لعلاجها، وهو الأساس الآلي لهذا التنبؤ. ومع ذلك، يعتبر CGRP أيضاً وسيطاً توسعياً مهماً في تدفق الدم الدماغي والدوران الخلفي، ويُعتقد أن هالة جذع الدماغ تتضمن تنظيم الأوعية الدموية للدوران الخلفي. قد يؤدي حجب CGRP من الناحية النظرية إلى إزالة آلية تعويض توسعية وقائية في هذه المجموعة الفرعية المحددة — مصدر قلق أمان نظري إضافي.
+
+بشكل حاسم، استبعدت التجارب السريرية العشوائية ذات الشاهد الرئيسية للمرحلة الثالثة التي أثبتت فعالية الإيرينوماب (على سبيل المثال، STRIVE، ARISE) بشكل منتظم المرضى الذين يعانون من الصداع النصفي الشلل النصفي وهالة جذع الدماغ. نتيجة لذلك، قاعدة الأدلة الحالية هي "استقراء آلي معقول"، وليس "فعالية مؤكدة ضمن السكان المستهدفين" — هذا التمييز أساسي لتصنيف مستوى الأدلة أدناه.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Erenumab is currently **not marketed in Saudi Arabia** — 0 authorizations are on file, so no product/license table can be generated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack (all flagged as data gaps). Notably, retrieval of the TFDA/SFDA package insert (warnings and contraindications) is flagged as a **Blocking** data gap (DG001) — this evidence pack cannot currently support a formal S1 safety pre-assessment.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة بشكل خاص للصداع النصفي مع هالة جذع الدماغ. (أعادت عمليات البحث على ClinicalTrials.gov و ICTRP في 2026-04-21 0 نتائج؛ استبعدت التجارب السريرية العشوائية المحورية الموجودة للإيرينوماب هذه المجموعة الفرعية.)
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب العلمي
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | تجربة سريرية عشوائية (المرحلة 3ب) | Lancet | تجربة عشوائية مضبوطة بالعقار الوهمي مزدوجة التعمية تثبت فعالية/تحمل الإيرينوماب لدى مرضى الصداع النصفي المتكرر الذين فشل لديهم 2–4 من الأدوية الوقائية السابقة (دليل محوري أساسي، مجموعة سكانية عامة من الصداع النصفي) |
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | تجربة سريرية عشوائية (تحليل ثانوي/لاحق) | JAMA Neurology | تحليل ثانوي لبيانات التجربة السريرية العشوائية يقيم سلامة/فعالية الإيرينوماب بشكل محدد في الصداع النصفي مع مقابل بدون الهالة، نظراً للمخاطر الوعائية المرتفعة في المجموعة الفرعية الهالوية |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | مراجعة منهجية | International Immunopharmacology | مراجعة منهجية لفعالية الإيرينوماب الوقائية عبر الصداع النصفي المتكرر والمزمن |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | أتراب (تحليل لاحق، بيانات التجارب الموحدة) | Headache | تحليل سلامة القلب والأوعية الدموية اللاحق للإيرينوماب المقسم حسب خطر الأوعية الدموية الأساسي لدى المرضى الذين يعانون من/بدون الهالة |
+| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | أتراب (دراسة REFORM) | The Journal of Headache and Pain | توصيف طولي لتغيرات تكرار الهالة خلال وبعد العلاج بالإيرينوماب لدى المرضى الذين لديهم هالة متكررة مؤكدة |
+| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | أتراب (علامة حيوية، دراسة REFORM) | The Journal of Headache and Pain | تقييم suPAR في البلازما (علامة حيوية للالتهاب المرتفعة في الصداع النصفي مع الهالة) كمتنبئ لاستجابة الإيرينوماب العلاجية |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | أتراب (العالم الحقيقي) | Clinical Neurology and Neurosurgery | فعالية وسلامة الإيرينوماب لمدة 6 أشهر في العالم الحقيقي ومقاومة العلاج في الصداع النصفي المزمن (أتراب كرواتي) |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | أتراب (العالم الحقيقي، 12 شهراً) | The Journal of Headache and Pain | بيانات الأمان/التحمل لمدة 12 شهراً في العالم الحقيقي والعوامل المنبئة بحدوث الأحداث الضارة أثناء الوقاية بالإيرينوماب |
+| [38071464](https://pubmed.ncbi.nlm.nih.gov/38071464/) | 2024 | أتراب (بأثر رجعي، سريري/وراثي) | Headache | أتراب المجتمع في العالم الحقيقي يحدد الخصائص السريرية والوراثية المرتبطة باستجابة الأجسام المضادة أحادية النسيلة الموجهة لـ CGRP |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | مراجعة (آلية) | Handbook of Experimental Pharmacology | مراجعة أساسية لدور CGRP في الفيزيولوجيا المرضية للصداع النصفي، وتدعم الأساس الآلي للعلاج الموجه لـ CGRP |
 
-**Rationale:**
-- The pivotal Phase 3 trials that support erenumab's general migraine-prevention efficacy explicitly excluded brainstem-aura patients, so the current evidence (L3: post-hoc analyses and real-world cohorts) is mechanistic extrapolation rather than population-specific confirmation, and there is a theoretical vascular safety concern specific to this subgroup.
-- A Blocking data gap (missing TFDA/SFDA package insert — warnings and contraindications) prevents this candidate from entering a formal safety pre-assessment (S1) at all.
+---
 
-**To proceed, the following is needed:**
-- Retrieve the TFDA/SFDA package insert (warnings, contraindications) to resolve the Blocking data gap (DG001)
-- Confirm detailed mechanism-of-action data via the DrugBank API to resolve the High-severity data gap (DG002)
-- Seek or commission trial data specifically enrolling patients with confirmed brainstem/basilar-type aura (or at minimum hemiplegic migraine, given shared exclusion criteria), given the theoretical posterior-circulation vascular risk raised in the mechanistic rationale
-- Obtain confirmed original-indication and licensing data, since none were available in this evidence pack
+## معلومات السوق في المملكة العربية السعودية
+
+الإيرينوماب غير معروض حالياً في المملكة العربية السعودية — 0 ترخيص موجود في الملف، لذا لا يمكن إنشاء جدول المنتج/الترخيص.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة. لم تكن هناك بيانات تحذيرات رئيسية أو موانع استخدام أو تفاعلات الأدوية مع الأدوية متاحة في حزمة الأدلة هذه (تم وضع علامة عليها جميعاً كفجوات بيانات). جدير بالملاحظة أن استرجاع النشرة المرفقة من TFDA/SFDA (التحذيرات وموانع الاستخدام) تم وضع علامة عليها كفجوة بيانات **محجوبة** (DG001) — لا يمكن لحزمة الأدلة هذه حالياً دعم تقييم السلامة الأولي الرسمي S1.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+- التجارب السريرية العشوائية المحورية للمرحلة الثالثة التي تدعم فعالية الإيرينوماب العامة للوقاية من الصداع النصفي استبعدت بشكل صريح مرضى هالة جذع الدماغ، لذا فإن الأدلة الحالية (L3: تحليلات لاحقة وأتراب من العالم الحقيقي) هي استقراء آلي وليس تأكيداً خاص بالمجموعة السكانية، وهناك قلق أمان وعائي نظري خاص بهذه المجموعة الفرعية.
+- تمنع فجوة بيانات محجوبة (النشرة المرفقة المفقودة من TFDA/SFDA — التحذيرات وموانع الاستخدام) هذا المرشح من دخول تقييم السلامة الأولي الرسمي (S1) على الإطلاق.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع النشرة المرفقة من TFDA/SFDA (التحذيرات وموانع الاستخدام) لحل فجوة البيانات المحجوبة (DG001)
+- تأكيد بيانات آلية التأثير التفصيلية عبر DrugBank API لحل فجوة البيانات الشديدة (DG002)
+- البحث عن أو تكليف بيانات التجارب التي تقيد بشكل خاص مرضى يعانون من هالة جذع الدماغ/القاعدي المؤكدة (أو في الحد الأدنى الصداع النصفي الشلل النصفي، نظراً لمعايير الاستبعاد المشتركة)، نظراً للخطر الوعائي للدوران الخلفي النظري المثار في الأساس الآلي
+- الحصول على بيانات المؤشر الأصلي والترخيص المؤكدة، حيث لم تكن أي منها متاحة في حزمة الأدلة هذه
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

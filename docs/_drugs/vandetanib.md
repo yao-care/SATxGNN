@@ -29,101 +29,102 @@ indication_count: 10
 
 </div>
 
-# Vandetanib: From Medullary Thyroid Cancer to Renal Cell Carcinoma
+# فانديتانيب: من سرطان الغدة الدرقية النخاعي إلى سرطان الخلايا الكلوية
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Vandetanib is a multi-kinase inhibitor (RET/VEGFR/EGFR) whose established use, per the literature captured in this evidence pack, is advanced medullary thyroid cancer; it is not currently marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Renal Cell Carcinoma**, with **4 clinical trials** and **6 publications** currently supporting this direction, though most of the trial evidence is small or terminated early.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Medullary thyroid cancer (established via TKI-class literature in this pack; no Saudi Arabia authorization on record) |
-| Predicted New Indication | Renal Cell Carcinoma (disease) |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+فانديتانيب هو مثبط متعدد الكيناز (RET/VEGFR/EGFR) الذي يتمثل استخدامه المؤسس، وفقًا للأدبيات المستخرجة في حزمة الأدلة هذه، في سرطان الغدة الدرقية النخاعي المتقدم؛ إنه غير معروض حاليًا في المملكة العربية السعودية. يتنبأ نموذج TxGNN أنه قد يكون فعالًا في **سرطان الخلايا الكلوية**، مع **4 تجارب سريرية** و**6 منشورات** تدعم هذا الاتجاه حاليًا، على الرغم من أن معظم أدلة التجارب صغيرة أو توقفت مبكرًا.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Vandetanib's formal mechanism-of-action record in DrugBank is currently a data gap (DG002). However, the literature returned in this evidence pack itself describes vandetanib as an orally bioavailable multi-kinase inhibitor targeting RET, VEGFR-1/2, and EGFR (PMID 24451769, PMID 30860683). One review states directly that vandetanib, alongside lenvatinib and cabozantinib, belongs to a TKI class "targeting VEGFR subtypes 1 and 2, EGFR and the RET-tyrosine kinase... already been approved for treating patients suffering from thyroid cancer and renal cell carcinoma" (PMID 30860683), and another confirms vandetanib's antiangiogenic activity against VEGF signaling specifically (PMID 26677336).
-
-This VEGFR-driven antiangiogenic mechanism is directly relevant to renal cell carcinoma, since clear cell RCC and related hereditary subtypes (VHL, HLRCC/SDH-deficient, TFE3-associated) are strongly driven by angiogenic signaling — the same target class already exploited by approved RCC therapies such as sunitinib, pazopanib, and axitinib. This mechanistic overlap explains why several early-phase trials have tested vandetanib specifically in VHL-associated renal tumors (NCT00566995) and hereditary RCC subtypes (NCT02495103), even though none of these trials led to a formal RCC indication for vandetanib.
-
-The supporting evidence is real but limited in strength: the one completed, reasonably-sized trial (NCT00566995, n=37) was single-arm in a rare VHL population, while the trial specifically enrolling advanced clear cell RCC (NCT01372813) was terminated after only 3 patients. This keeps the evidence at an early "research question" stage rather than supporting near-term clinical use.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | سرطان الغدة الدرقية النخاعي (مؤسس عبر أدبيات فئة TKI في هذه الحزمة؛ لا توجد تفويضات المملكة العربية السعودية في السجل) |
+| المؤشر الجديد المتنبأ به | سرطان الخلايا الكلوية (المرض) |
+| درجة التنبؤ بـ TxGNN | 99.92% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض (غير معروض) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدمًا مع الضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+سجل آلية العمل الرسمية لفانديتانيب في DrugBank هو حاليًا فجوة بيانات (DG002). ومع ذلك، فإن الأدبيات المرجعة في حزمة الأدلة هذه بنفسها تصف فانديتانيب بأنه مثبط كيناز متعدد متوفر حيويًا عن طريق الفم يستهدف RET و VEGFR-1/2 و EGFR (PMID 24451769, PMID 30860683). تنص مراجعة واحدة بشكل مباشر على أن فانديتانيب، إلى جانب لينفاتينيب وكابوزانتينيب، ينتمي إلى فئة TKI "التي تستهدف النوع الفرعي من VEGFR 1 و 2 و EGFR و RET-tyrosine kinase... تمت الموافقة عليها بالفعل لعلاج المرضى الذين يعانون من سرطان الغدة الدرقية وسرطان الخلايا الكلوية" (PMID 30860683)، وتؤكد أخرى نشاط فانديتانيب المضاد للأوعية الدموية ضد إشارات VEGF على وجه التحديد (PMID 26677336).
+
+هذه الآلية المضادة للأوعية الدموية والمدفوعة بواسطة VEGFR ذات صلة مباشرة بسرطان الخلايا الكلوية، حيث أن سرطان الخلايا الكلوية الصافية والأنواع الفرعية الوراثية ذات الصلة (VHL, HLRCC/SDH-deficient, TFE3-associated) تحركها بقوة الإشارات الوعائية — نفس فئة الهدف التي استغلتها بالفعل العلاجات المعتمدة لـ RCC مثل سونيتينيب وبازوبانيب وأكسيتينيب. هذا التداخل الآلي يشرح لماذا اختبرت عدة تجارب مبكرة المرحلة فانديتانيب على وجه التحديد في أورام كلوية مرتبطة بـ VHL (NCT00566995) والأنواع الفرعية الوراثية من RCC (NCT02495103)، على الرغم من أن أيًا من هذه التجارب لم تؤدِ إلى مؤشر رسمي لـ RCC لفانديتانيب.
+
+الأدلة الداعمة حقيقية لكن محدودة القوة: التجربة الواحدة المكتملة والمعقولة الحجم (NCT00566995, n=37) كانت ذات ذراع واحد في مجموعة سكانية نادرة من VHL، بينما التجربة التي تسجل على وجه التحديد سرطان الخلايا الكلوية الصافية المتقدم (NCT01372813) توقفت بعد تسجيل 3 مرضى فقط. يبقي هذا الدليل في مرحلة "سؤال البحث" المبكرة بدلاً من دعم الاستخدام السريري في المدى القريب.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Phase 2 | Completed | 37 | Evaluated vandetanib (ZD6474) in Von Hippel-Lindau disease-associated renal tumors, targeting new blood vessel growth and direct tumor cell growth. |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Phase 1/2 | Terminated | 7 | Vandetanib + metformin combination in HLRCC/SDH-associated or sporadic papillary RCC — populations with no established treatment; ended early. |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Phase 2 | Completed | 82 | Randomized carboplatin/gemcitabine ± vandetanib in cisplatin-ineligible advanced urothelial cancer; population description suggests closer overlap with renal pelvis carcinoma than classic RCC. |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Phase 2 | Terminated | 3 | Vandetanib monotherapy in advanced clear cell RCC to assess tumor shrinkage/stabilization; terminated with only 3 patients enrolled. |
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | المرحلة 2 | مكتملة | 37 | تقييم فانديتانيب (ZD6474) في أورام كلوية مرتبطة بمرض von Hippel-Lindau، استهداف نمو الأوعية الدموية الجديدة والنمو المباشر للخلايا السرطانية. |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | المرحلة 1/2 | توقفت | 7 | مزيج فانديتانيب + ميتفورمين في سرطان الكلى الحليمي المرتبط بـ HLRCC/SDH أو الفئات المتفرقة بدون علاج محدد؛ توقفت مبكرًا. |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | المرحلة 2 | مكتملة | 82 | كاربوبلاتين/جيمسيتابين عشوائي ± فانديتانيب في سرطان الخلايا البولية المتقدم غير المؤهل لسيسبلاتين؛ تشير وصف السكان إلى تقاطع أقرب مع سرطان حوض الكلى من RCC الكلاسيكي. |
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | المرحلة 2 | توقفت | 3 | العلاج بفانديتانيب وحده في سرطان الخلايا الصافية المتقدم لتقييم انكماش الورم/الاستقرار؛ توقفت مع تسجيل 3 مرضى فقط. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clinical & Experimental Metastasis | Discusses targeted therapy combinations for the rare, aggressive fumarate hydratase-deficient RCC subtype, for which no standard regimen exists. |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Preclinical (mouse model) | Molecular Cancer Research | TFE3 Xp11.2-translocation RCC mouse model identifies novel therapeutic targets relevant to this molecularly distinct RCC subtype. |
-| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | RCT (different drug) | Clinical Cancer Research | Phase 2 trial of guadecitabine in SDH-deficient tumors including HLRCC-associated RCC, a population resistant to standard targeted therapies. |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review (different drug) | OncoTargets and Therapy | Reviews antiangiogenic agents including vandetanib that target VEGF signaling pathways across solid tumors. |
-| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | Review (different drug) | Bulletin du Cancer | Describes cabozantinib's VEGFR2/c-MET/RET mechanism as a comparator multi-kinase inhibitor relevant to the same drug class as vandetanib. |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educational Book | Confirms vandetanib as an orally bioavailable RET kinase inhibitor, FDA-approved in the systemic treatment of medullary thyroid cancer. |
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | مراجعة | Clinical & Experimental Metastasis | يناقش مزيج العلاج الموجه للنوع الفرعي من RCC الناقص لـ fumarate hydratase النادر والعدواني، الذي لا يوجد نظام قياسي له. |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | ما قبل السريري (نموذج الفأر) | Molecular Cancer Research | نموذج TFE3 Xp11.2-translocation RCC في الفأر يحدد أهداف علاجية جديدة ذات صلة بهذا النوع الفرعي من RCC المتميز جزيئيًا. |
+| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | تجربة عشوائية محكومة (دواء مختلف) | Clinical Cancer Research | تجربة المرحلة 2 من جوادسيتابين في الأورام الناقصة لـ SDH بما في ذلك سرطان الكلى المرتبط بـ HLRCC، وهي مجموعة سكانية مقاومة للعلاجات الموجهة القياسية. |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | مراجعة (دواء مختلف) | OncoTargets and Therapy | يراجع العوامل المضادة للأوعية الدموية بما في ذلك فانديتانيب التي تستهدف مسارات إشارات VEGF عبر الأورام الصلبة. |
+| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | مراجعة (دواء مختلف) | Bulletin du Cancer | يصف آلية عمل كابوزانتينيب VEGFR2/c-MET/RET كمثبط متعدد كيناز مقارن ذو صلة بفئة الأدوية ذاتها التي ينتمي إليها فانديتانيب. |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | مراجعة | ASCO Educational Book | يؤكد على فانديتانيب كمثبط كيناز RET متوفر حيويًا عن طريق الفم، معتمد من قبل FDA في العلاج النظامي لسرطان الغدة الدرقية النخاعي. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no market authorization records — vandetanib has 0 registered licenses and is not marketed in Saudi Arabia based on available regulatory data.
-
----
-
-## Cytotoxicity
-
-Vandetanib is antineoplastic (approved use in medullary thyroid cancer; multi-kinase inhibitor class per literature evidence above), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: RET / VEGFR-1,2 / EGFR) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+لا توجد حاليًا سجلات تفويضات السوق — لدى فانديتانيب 0 تراخيص مسجلة وغير معروض في المملكة العربية السعودية بناءً على بيانات التنظيم المتاحة.
 
 ---
 
-## Safety Considerations
+## السمية السيتوبلازمية
 
-Please refer to the package insert for safety information.
+فانديتانيب هو مضاد للورم (الاستخدام المعتمد في سرطان الغدة الدرقية النخاعي؛ فئة مثبط متعدد الكيناز وفقًا لأدلة الأدبيات أعلاه)، لذلك ينطبق هذا القسم.
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية السيتوبلازمية | العلاج الموجه (مثبط متعدد الكيناز: RET / VEGFR-1,2 / EGFR) |
+| خطر قمع النخاع العظمي | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| تصنيف الغثيان والقيء | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
+| حماية المناولة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة الدواء |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-The VEGFR-driven mechanism plausibly extends to RCC and is backed by one completed Phase 2 trial in a defined population (VHL-associated renal tumors, n=37), but the RCC-specific trial (NCT01372813) was terminated at n=3, and a Blocking-severity safety data gap (DG001, missing TFDA label/warnings) currently prevents a proper S1 safety review.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (DG001, Blocking — required before any S1 safety assessment)
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- Larger, ideally randomized trial data in RCC, prioritizing the hereditary subtypes (VHL, HLRCC/SDH-associated) where the strongest signal exists
-- A defined regulatory pathway for Saudi Arabia market entry, since vandetanib currently has zero local authorizations
-- A safety monitoring plan for known TKI-class risks (e.g., QT prolongation, hepatic and renal function) given the absence of drug-specific safety data in this pack
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدمًا مع الضمانات**
+
+**الأساس المنطقي:**
+تمتد آلية VEGFR المدفوعة بشكل معقول إلى RCC وتدعمها تجربة واحدة مكتملة من المرحلة 2 في مجموعة سكانية محددة (أورام كلوية مرتبطة بـ VHL، n=37)، لكن التجربة الخاصة بـ RCC (NCT01372813) توقفت عند n=3، وفجوة بيانات السلامة من شدة الحجب (DG001، تحذيرات TFDA المفقودة/العلامات) تمنع حاليًا مراجعة السلامة S1 الصحيحة.
+
+**لكي نتقدم بالإجراء، يلزم ما يلي:**
+- بيانات نشرة TFDA / التحذيرات والموانع (DG001، الحجب — مطلوب قبل أي تقييم سلامة S1)
+- بيانات آلية العمل المؤكدة من DrugBank (DG002)
+- بيانات تجربة أكبر، يفضل عشوائية في RCC، مع إعطاء الأولوية للأنواع الفرعية الوراثية (VHL, HLRCC/SDH-associated) حيث توجد أقوى الإشارات
+- مسار تنظيمي محدد لدخول السوق في المملكة العربية السعودية، نظرًا لأن فانديتانيب لديه حاليًا صفر تفويضات محلية
+- خطة مراقبة السلامة للمخاطر المعروفة لفئة TKI (على سبيل المثال، إطالة QT، وظائف الكبد والكلى) نظرًا لعدم وجود بيانات سلامة خاصة بالعقاقير في هذه الحزمة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,77 +29,78 @@ indication_count: 3
 
 </div>
 
-# Goserelin: From Hormone-Responsive Cancer to Amenorrhea
+# جوسيريلين: من سرطانات الاستجابة الهرمونية إلى انقطاع الطمث
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Goserelin is a GnRH (LHRH) agonist historically used to induce medical castration/ovarian suppression in hormone-responsive prostate cancer, breast cancer, and endometriosis.
-> The TxGNN model predicts it may be effective for **Amenorrhea**,
-> with **7 clinical trials** (3 completed Phase 3 RCTs) and **17 publications** currently supporting this direction.
+> جوسيريلين هو ناهض GnRH (LHRH) استُخدم تاريخياً لإحداث الإخصاء الطبي/قمع المبايض في سرطان البروستاتا الاستجابة للهرمونات وسرطان الثدي والانتباذ البطاني الرحمي.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **انقطاع الطمث**،
+> مع **7 تجارب سريرية** (3 دراسات عشوائية محكومة من المرحلة 3 المكتملة) و**17 منشوراً** تدعم هذا الاتجاه حالياً.
 
-## Quick Overview
+## لمحة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Prostate cancer, hormone-responsive breast cancer, endometriosis (GnRH agonist class; not currently registered in the target market) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | سرطان البروستاتا وسرطان الثدي الاستجابة للهرمونات والانتباذ البطاني الرحمي (فئة ناهضات GnRH؛ غير مسجل حالياً في السوق المستهدفة) |
+| الاستطباب الجديد المتنبأ به | انقطاع الطمث |
+| درجة التنبؤ بنموذج TxGNN | 99.99% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (Not Marketed) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات احترازية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the structured record. Based on known pharmacological information, goserelin belongs to the GnRH (LHRH) agonist class, and its efficacy in hormone-dependent conditions (prostate cancer, breast cancer, endometriosis) has been established; mechanistically it is directly applicable to amenorrhea.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل في السجل المنظم. بناءً على المعلومات الصيدلانية المعروفة، ينتمي جوسيريلين إلى فئة ناهضات GnRH (LHRH)، وقد تم إثبات فعاليته في الحالات المعتمدة على الهرمونات (سرطان البروستاتا وسرطان الثدي والانتباذ البطاني الرحمي)؛ من حيث الآلية، فهو ينطبق مباشرة على انقطاع الطمث.
 
-Goserelin's core pharmacology is receptor desensitization: continuous exposure downregulates pituitary GnRH receptors, suppressing LH/FSH secretion and, in turn, ovarian steroidogenesis. This produces a reversible, drug-induced hypogonadal state — clinically manifesting as amenorrhea. This is not an indirect inference from an unrelated pathway; it is a direct extension of the drug's primary mechanism.
+الآلية الصيدلانية الأساسية لجوسيريلين هي تقليل حساسية المستقبلات: يؤدي التعرض المستمر إلى تقليل عدد مستقبلات GnRH بالغدة النخامية، مما يثبط إفراز LH/FSH وبالتالي تكوين الستيرويدات المبيضية. يؤدي هذا إلى حالة نقص جنسي ناجمة عن الأدوية وقابلة للعكس — تظهر سريرياً كانقطاع الطمث. هذا ليس استدلالاً غير مباشر من مسار غير ذي صلة؛ بل هو امتداد مباشر للآلية الأولية للدواء.
 
-This mechanism is already established clinical practice: goserelin is used to induce reversible amenorrhea for ovarian function preservation during chemotherapy in premenopausal breast cancer (e.g., the POEMS and OPTION trials), and separately to manage endometriosis-related symptoms via ovarian suppression. The predicted indication of "amenorrhea" therefore reflects a known, on-target pharmacodynamic effect rather than a novel or speculative one.
+هذه الآلية هي بالفعل ممارسة سريرية مثبتة: يُستخدم جوسيريلين لإحداث انقطاع طمث عكسي للحفاظ على وظيفة المبايض أثناء العلاج الكيميائي في سرطان الثدي قبل انقطاع الطمث (مثل تجارب POEMS و OPTION)، وبشكل منفصل لإدارة الأعراض المرتبطة بالانتباذ البطاني الرحمي عبر قمع المبايض. لذلك فإن الاستطباب المتنبأ به "انقطاع الطمث" يعكس تأثيراً صيدلانياً ديناميكياً معروفاً وموجهاً بدقة بدلاً من كونه تأثيراً جديداً أو تخمينياً.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00068601](https://clinicaltrials.gov/study/NCT00068601) | Phase 3 | Completed | 257 | POEMS trial: goserelin + chemotherapy vs. chemotherapy alone to prevent ovarian failure/early menopause in early-stage, hormone-receptor-negative breast cancer |
-| [NCT00427245](https://clinicaltrials.gov/study/NCT00427245) | Phase 3 | Completed | 400 | OPTION trial: goserelin during chemotherapy to prevent early menopause in premenopausal breast cancer (stage I–III) |
-| [NCT02483767](https://clinicaltrials.gov/study/NCT02483767) | Phase 3 | Completed | 98 | Randomized trial of GnRH agonist (goserelin) for ovarian function preservation during chemotherapy in premenopausal breast cancer |
-| [NCT01218581](https://clinicaltrials.gov/study/NCT01218581) | Phase 2/3 | Completed | 32 | Aromatase inhibitors vs. GnRH agonists for uterine adenomyosis; drug-induced amenorrhea used as treatment strategy |
-| [NCT03475758](https://clinicaltrials.gov/study/NCT03475758) | Phase 2 | Unknown | 100 | Goserelin for ovarian protection during cyclophosphamide-containing chemotherapy; menstruation outcome endpoint |
-| [NCT02132390](https://clinicaltrials.gov/study/NCT02132390) | Phase 3 | Unknown | 300 | Adjuvant toremifene ± goserelin in premenopausal hormone-receptor-positive breast cancer, with/without chemotherapy-induced amenorrhea |
-| [NCT00488722](https://clinicaltrials.gov/study/NCT00488722) | N/A | Unknown | N/A | Single-arm study of Zoladex + CEF neoadjuvant chemotherapy in hormone-responsive premenopausal breast cancer; notes goserelin can induce reversible amenorrhea |
+| [NCT00068601](https://clinicaltrials.gov/study/NCT00068601) | Phase 3 | مكتملة | 257 | تجربة POEMS: جوسيريلين + العلاج الكيميائي مقابل العلاج الكيميائي وحده لمنع فشل المبايض/انقطاع الطمث المبكر في سرطان الثدي سلبي المستقبلات الهرمونية في المراحل المبكرة |
+| [NCT00427245](https://clinicaltrials.gov/study/NCT00427245) | Phase 3 | مكتملة | 400 | تجربة OPTION: جوسيريلين أثناء العلاج الكيميائي لمنع انقطاع الطمث المبكر في سرطان الثدي قبل انقطاع الطمث (المراحل I–III) |
+| [NCT02483767](https://clinicaltrials.gov/study/NCT02483767) | Phase 3 | مكتملة | 98 | دراسة عشوائية محكومة لناهض GnRH (جوسيريلين) للحفاظ على وظيفة المبايض أثناء العلاج الكيميائي في سرطان الثدي قبل انقطاع الطمث |
+| [NCT01218581](https://clinicaltrials.gov/study/NCT01218581) | Phase 2/3 | مكتملة | 32 | مثبطات الأروماتاز مقابل ناهضات GnRH لسمك بطانة الرحم؛ انقطاع الطمث الناجم عن الأدوية المستخدم كاستراتيجية علاجية |
+| [NCT03475758](https://clinicaltrials.gov/study/NCT03475758) | Phase 2 | غير معروفة | 100 | جوسيريلين لحماية المبايض أثناء العلاج الكيميائي المحتوي على السيكلوفوسفاميد؛ نقطة نهاية نتيجة الحيض |
+| [NCT02132390](https://clinicaltrials.gov/study/NCT02132390) | Phase 3 | غير معروفة | 300 | توريميفين المساعد ± جوسيريلين في سرطان الثدي الموجب المستقبلات الهرمونية قبل انقطاع الطمث، مع/بدون انقطاع الطمث الناجم عن العلاج الكيميائي |
+| [NCT00488722](https://clinicaltrials.gov/study/NCT00488722) | N/A | غير معروفة | N/A | دراسة ذات ذراع واحدة من Zoladex + العلاج الكيميائي CEF الحثي في سرطان الثدي الاستجابة للهرمونات قبل انقطاع الطمث؛ يلاحظ أن جوسيريلين يمكن أن يسبب انقطاع طمث عكسي |
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [17159194](https://pubmed.ncbi.nlm.nih.gov/17159194/) | 2007 | RCT | J Clin Oncol | IBCSG Trial VIII: chemotherapy + goserelin vs. either alone — impact on amenorrhea, hot flashes, and quality of life |
-| [12488406](https://pubmed.ncbi.nlm.nih.gov/12488406/) | 2002 | RCT | J Clin Oncol | ZEBRA study: goserelin vs. CMF chemotherapy as adjuvant therapy in node-positive premenopausal breast cancer |
-| [28472240](https://pubmed.ncbi.nlm.nih.gov/28472240/) | 2017 | RCT | Ann Oncol | Anglo Celtic OPTION trial: GnRH agonist protects against chemotherapy-induced ovarian toxicity/premature ovarian insufficiency |
-| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | RCT | Fertil Steril | Goserelin vs. low-dose oral contraceptive for endometriosis-associated pelvic pain |
-| [14679153](https://pubmed.ncbi.nlm.nih.gov/14679153/) | 2003 | RCT | J Natl Cancer Inst | IBCSG Trial VIII: sequential chemotherapy followed by goserelin vs. either modality alone in node-negative breast cancer |
-| [12734855](https://pubmed.ncbi.nlm.nih.gov/12734855/) | 2003 | Review | Br J Surg | Review of ovarian ablation methods in adjuvant treatment of premenopausal breast cancer |
-| [12353820](https://pubmed.ncbi.nlm.nih.gov/12353820/) | 2002 | Review | Breast Cancer Res Treat | Overview of LHRH agonists in early breast cancer, emphasizing benefits of reversible ovarian ablation |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | Review on therapeutic induction of amenorrhea, noting goserelin as an extremely effective GnRH analogue for this purpose |
-| [25187267](https://pubmed.ncbi.nlm.nih.gov/25187267/) | 2015 | Cohort | Cancer Res Treat | Ovarian ablation with goserelin improves survival in stage II/III HR-positive breast cancer without chemotherapy-induced amenorrhea |
-| [26951320](https://pubmed.ncbi.nlm.nih.gov/26951320/) | 2016 | Cohort | J Clin Oncol | Discussion of estradiol monitoring needs in women receiving ovarian suppression for breast cancer |
+| [17159194](https://pubmed.ncbi.nlm.nih.gov/17159194/) | 2007 | دراسة عشوائية محكومة | J Clin Oncol | تجربة IBCSG VIII: العلاج الكيميائي + جوسيريلين مقابل أي منهما وحده — تأثير على انقطاع الطمث والهبات الساخنة وجودة الحياة |
+| [12488406](https://pubmed.ncbi.nlm.nih.gov/12488406/) | 2002 | دراسة عشوائية محكومة | J Clin Oncol | دراسة ZEBRA: جوسيريلين مقابل العلاج الكيميائي CMF كعلاج مساعد في سرطان الثدي قبل انقطاع الطمث الموجب العقد |
+| [28472240](https://pubmed.ncbi.nlm.nih.gov/28472240/) | 2017 | دراسة عشوائية محكومة | Ann Oncol | تجربة OPTION الأنجلو كلتية: ناهض GnRH يحمي من السمية المبيضية الناجمة عن العلاج الكيميائي/قصور المبايض المبكر |
+| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | دراسة عشوائية محكومة | Fertil Steril | جوسيريلين مقابل موانع الحمل الفموية منخفضة الجرعة للانتباذ البطاني الرحمي المرتبط بآلام الحوض |
+| [14679153](https://pubmed.ncbi.nlm.nih.gov/14679153/) | 2003 | دراسة عشوائية محكومة | J Natl Cancer Inst | تجربة IBCSG VIII: العلاج الكيميائي المتتالي متبوعاً بجوسيريلين مقابل أي منهما وحده في سرطان الثدي سلبي العقد |
+| [12734855](https://pubmed.ncbi.nlm.nih.gov/12734855/) | 2003 | مراجعة | Br J Surg | مراجعة لطرق الاستئصال المبيضي في العلاج المساعد لسرطان الثدي قبل انقطاع الطمث |
+| [12353820](https://pubmed.ncbi.nlm.nih.gov/12353820/) | 2002 | مراجعة | Breast Cancer Res Treat | نظرة عامة على ناهضات LHRH في سرطان الثدي المبكر، مع التركيز على فوائد الاستئصال المبيضي العكسي |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | مراجعة | J R Army Med Corps | مراجعة عن الحث العلاجي لانقطاع الطمث، مع ملاحظة جوسيريلين كناهض GnRH فعال للغاية لهذا الغرض |
+| [25187267](https://pubmed.ncbi.nlm.nih.gov/25187267/) | 2015 | دراسة الأتراب | Cancer Res Treat | يحسّن الاستئصال المبيضي بجوسيريلين البقاء في سرطان الثدي الموجب المستقبلات الهرمونية من المرحلة الثانية/الثالثة بدون انقطاع طمث ناجم عن العلاج الكيميائي |
+| [26951320](https://pubmed.ncbi.nlm.nih.gov/26951320/) | 2016 | دراسة الأتراب | J Clin Oncol | مناقشة احتياجات مراقبة الإستراديول في النساء اللاتي يتلقين قمع المبايض لسرطان الثدي |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات احترازية**
 
-**Rationale:**
-Evidence level L1 is met — three completed Phase 3 RCTs (POEMS/NCT00068601, OPTION/NCT00427245, NCT02483767) plus multiple supporting RCTs directly demonstrate goserelin-induced amenorrhea as an established, mechanistically on-target effect. However, the drug is not currently marketed in the target market (0 authorizations), and TFDA-equivalent label warnings/contraindications remain an unresolved blocking data gap.
+**الأساس المنطقي:**
+يتم تلبية مستوى الدليل L1 — ثلاث دراسات عشوائية محكومة مكتملة من المرحلة 3 (POEMS/NCT00068601 و OPTION/NCT00427245 و NCT02483767) بالإضافة إلى دراسات عشوائية محكومة داعمة متعددة تثبت بشكل مباشر انقطاع الطمث الناجم عن جوسيريلين كتأثير مثبت وآلي موجه بدقة. ومع ذلك، الدواء غير مسوق حالياً في السوق المستهدفة (0 موافقة)، وتحذيرات النشرة الطبية المحلية/موانع الاستعمال تبقى فجوة بيانات حجب غير محلولة.
 
-**To proceed, the following is needed:**
-- Local regulatory label data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Formal DrugBank mechanism-of-action confirmation (DG002)
-- Local market access / registration pathway assessment given current Not marketed status
-- Drug interaction (DDI) data, currently not found in query
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة الطبية المحلية (التحذيرات وموانع الاستعمال) — فجوة بيانات حجب حالياً (DG001)
+- تأكيد رسمي لآلية العمل في DrugBank (DG002)
+- تقييم إمكانية الوصول إلى السوق المحلية / مسار التسجيل نظراً لحالة عدم التسويق الحالية
+- بيانات التفاعل بين الأدوية (DDI)، غير موجودة حالياً في الاستعلام
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

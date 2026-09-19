@@ -29,84 +29,85 @@ indication_count: 4
 
 </div>
 
-# Irbesartan: From Hypertension to Malignant Renovascular Hypertension
+# إيربيسارتان: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الخبيث
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Irbesartan is a well-known angiotensin II receptor blocker (ARB), whose established clinical use is hypertension and diabetic nephropathy — though this evidence pack itself contains no formal original-indication record (`original_indications` is empty and no local market licenses exist). TxGNN predicts four related indications — **malignant renovascular hypertension**, **malignant hypertensive renal disease**, and two subtypes of **pulmonary hypertension** — all at prediction scores around 99.3%. However, **none of the four are backed by any clinical trial**, and the only literature hits (20 papers, attached to the pulmonary hypertension/hypoxia prediction) are general hypoxia-biology papers unrelated to irbesartan itself. Evidence level is L5 (prediction-only) across the board.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack (`original_indications` is empty). Irbesartan is generally known as an ARB antihypertensive — this is background pharmacological context, not sourced from the pack. |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيربيسارتان هو حاصر مستقبل الأنجيوتنسين II (ARB) معروف جيداً، واستخدامه السريري المثبت هو ارتفاع ضغط الدم والاعتلال الكلوي السكري — على الرغم من أن حزمة الأدلة هذه بحد ذاتها لا تحتوي على سجل رسمي للمؤشرات الأصلية (`original_indications` فارغة ولا توجد رخص سوق محلية). يتنبأ TxGNN بأربعة مؤشرات ذات صلة — **ارتفاع ضغط الدم الكلوي الخبيث**، **الاعتلال الكلوي الناجم عن ارتفاع ضغط الدم الخبيث**، وسنتان من **فرط ضغط الدم الرئوي** — وكلها بدرجات تنبؤ حول 99.3%. ومع ذلك، **لا يوجد دعم من أي تجربة سريرية لأي من المؤشرات الأربعة**، والنتائج الأدبية الوحيدة (20 ورقة بحثية مرفقة بتنبؤ فرط ضغط الدم الرئوي/نقص الأكسجين) هي أوراق عامة عن بيولوجيا نقص الأكسجين لا علاقة لها بإيربيسارتان نفسه. مستوى الأدلة هو L5 (تنبؤ فقط) في جميع الحالات.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available (`original_moa`: [Data Gap], DG002). Based on general pharmacological knowledge, irbesartan is an angiotensin II type 1 (AT1) receptor blocker that lowers blood pressure by inhibiting the renin-angiotensin system (RAS). This is mechanistically why TxGNN links it to hypertensive and renal-hypertensive disease phenotypes.
-
-For the top two predictions — **malignant renovascular hypertension** and **malignant hypertensive renal disease** — the mechanistic direction is plausible on its face (RAS blockade lowering blood pressure and slowing hypertensive nephropathy), but the evidence pack's own rationale flags an important caveat: malignant renovascular hypertension frequently involves (often bilateral) renal artery stenosis, a setting where ARBs/ACE inhibitors carry a well-known risk of precipitating acute kidney injury by reducing glomerular perfusion pressure. In other words, this is a case where the mechanism could point toward benefit **or** harm depending on the underlying renal artery anatomy — it is not a straightforward "repurposing opportunity" signal.
-
-For the two pulmonary hypertension predictions (WHO Group 3 and Group 5), the mechanistic case is much weaker. Current pulmonary hypertension treatment guidelines do not support systemic antihypertensive/RAS-blocking agents for these subtypes, and — as detailed below — the attached literature does not actually address irbesartan or ARBs in pulmonary hypertension; it reflects keyword co-occurrence with "hypoxia" rather than a drug-disease mechanistic link.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered — this applies to all four predicted indications (malignant renovascular hypertension, malignant hypertensive renal disease, pulmonary hypertension with unclear multifactorial mechanism, and pulmonary hypertension owing to lung disease and/or hypoxia).
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | لم يتم تسجيله في حزمة الأدلة هذه (`original_indications` فارغة). يُعرّف إيربيسارتان عموماً كحاصر مستقبل الأنجيوتنسين المخفّض لضغط الدم — وهذا سياق دوائي خلفي وليس مصدره من هذه الحزمة. |
+| المؤشر الجديد المتنبأ به | ارتفاع ضغط الدم الكلوي الخبيث |
+| درجة التنبؤ TxGNN | 99.31% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (Not marketed) |
+| عدد التخويلات | 0 |
+| القرار الموصى به | احجز (Hold) |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-No literature is attached to the top three predicted indications. The fourth prediction (pulmonary hypertension owing to lung disease and/or hypoxia) has 20 PubMed hits, but on review **none of them study irbesartan, ARBs, or pulmonary hypertension treatment** — they are general hypoxia-biology papers (brain aging, cognitive impairment, cancer metabolism, altitude physiology) that matched on the keyword "hypoxia" alone. They are listed below for transparency, not as supporting evidence for repurposing:
+بيانات آلية العمل المفصلة غير متاحة (`original_moa`: [Data Gap]، DG002). بناءً على المعرفة الدوائية العامة، إيربيسارتان هو حاصر مستقبل الأنجيوتنسين II من النوع 1 (AT1) الذي يقلل ضغط الدم بمنع نظام الرينين-الأنجيوتنسين (RAS). وهذا هو السبب الآلي وراء ربط TxGNN به بالأمراض الظاهرية المتعلقة بارتفاع ضغط الدم والاعتلال الكلوي من فرط ضغط الدم.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respir Care Clin North Am | Overview of the mechanisms of hypoxemia (V/Q mismatch, shunt, hypoventilation); not drug-specific |
-| [9446167](https://pubmed.ncbi.nlm.nih.gov/9446167/) | 1997 | Review | Rev Med Liege | Review of hepatopulmonary syndrome; no drug intervention data |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clin Oncol | Therapeutic modification of tumor hypoxia in oncology, unrelated to pulmonary hypertension |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Res Rev | Hypoxia and brain aging/neurodegeneration; neurology focus, not pulmonary/cardiovascular |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metab Brain Dis | Cognitive impairment from hypoxia; neurology focus |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biol | Hypoxia in multiple sclerosis pathology |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Rev Med Inst Mex Seguro Soc | High-altitude hypoxia physiology and acclimatization |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cell Biochem | General cellular hypoxia-sensing biology |
-| [27146279](https://pubmed.ncbi.nlm.nih.gov/27146279/) | 2017 | Review | Cephalalgia | Hypoxic mechanisms in migraine/cluster headache |
-| [8817697](https://pubmed.ncbi.nlm.nih.gov/8817697/) | 1996 | Review | Prog Neurobiol | Hypoxia and brain development |
+بالنسبة للتنبؤتين الأولين — **ارتفاع ضغط الدم الكلوي الخبيث** و**الاعتلال الكلوي الناجم عن ارتفاع ضغط الدم الخبيث** — الآلية المرتبطة معقولة ظاهرياً (منع RAS يخفض ضغط الدم ويبطئ الاعتلال الكلوي الناجم عن فرط ضغط الدم)، لكن حزمة الأدلة نفسها تشير إلى تحفظ مهم: يتضمن ارتفاع ضغط الدم الكلوي الخبيث بشكل متكرر (غالباً ثنائي الجانب) تضيق الشرايين الكلوية، وهو وضع حيث تحمل حاصرات الأنجيوتنسين/مثبطات ACE خطراً معروفاً بتحريض الإصابة الكلوية الحادة بسبب انخفاض ضغط الترشيح الكبيبي. بعبارة أخرى، هذه حالة حيث يمكن للآلية أن تشير إلى الفائدة **أو** الضرر اعتماداً على التشريح الشرياني الكلوي الأساسي — وليست إشارة واضحة لـ "فرصة إعادة توظيف".
+
+بالنسبة لتنبؤتي فرط ضغط الدم الرئوي (مجموعة منظمة الصحة العالمية 3 و5)، فالحالة الآلية أضعف بكثير. إرشادات علاج فرط ضغط الدم الرئوي الحالية لا تدعم عوامل الخفض الجهازي لضغط الدم/حاصرات RAS لهذه الفئات الفرعية، و — كما هو موضح أدناه — الأدب المرفق لا يدرس فعلاً إيربيسارتان أو ARBs في فرط ضغط الدم الرئوي؛ بل يعكس التعايش الكلماتي مع "نقص الأكسجين" بدلاً من الربط الآلي بين الدواء والمرض.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Formal safety data (key warnings, contraindications, DDI) is not available in this evidence pack — please refer to the package insert for safety information.
-
-**Mechanism-based safety signal (not a formal DDI/contraindication record, derived from the repurposing rationale):** ARB use in the setting of malignant renovascular hypertension — particularly with bilateral renal artery stenosis — carries a known risk of acute kidney injury from reduced renal perfusion pressure. This should be treated as a specific red flag for the top-ranked prediction, not just a generic ARB caution.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة — ينطبق هذا على جميع المؤشرات الأربعة المتنبأ بها (ارتفاع ضغط الدم الكلوي الخبيث، الاعتلال الكلوي الناجم عن ارتفاع ضغط الدم الخبيث، فرط ضغط الدم الرئوي بآلية متعددة العوامل غير واضحة، وفرط ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجين).
 
 ---
 
-## Conclusion and Next Steps
+## أدلة المراجع الأدبية
 
-**Decision: Hold**
+لا توجد أدلة مرفقة بالتنبؤات الثلاثة الأولى. التنبؤ الرابع (فرط ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجين) يحتوي على 20 نتيجة PubMed، لكن عند المراجعة **لا يدرس أي منها إيربيسارتان أو ARBs أو علاج فرط ضغط الدم الرئوي** — بل هي أوراق عامة عن بيولوجيا نقص الأكسجين (شيخوخة الدماغ، الضعف الإدراكي، استقلاب السرطان، فسيولوجيا الارتفاع) طابقت على كلمة "نقص الأكسجين" وحسب. يتم إدراجها أدناه للشفافية وليس كأدلة داعمة لإعادة توظيف:
 
-**Rationale:**
-All four predicted indications are supported only by a TxGNN score (L5), with zero clinical trials and no drug-specific literature. The drug is also not currently marketed in Saudi Arabia (0 authorizations), and the top prediction carries a plausible mechanism-based harm signal (AKI risk with renal artery stenosis) rather than a clean efficacy signal.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | مراجعة | Respir Care Clin North Am | نظرة عامة على آليات نقص الأكسجين (عدم تطابق V/Q، التحويل، فرط التهوية)؛ غير خاص بالدواء |
+| [9446167](https://pubmed.ncbi.nlm.nih.gov/9446167/) | 1997 | مراجعة | Rev Med Liege | مراجعة متلازمة الكبد الرئوية؛ بدون بيانات تدخل دوائي |
+| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | مراجعة | Clin Oncol | التعديل العلاجي لنقص الأكسجين في الأورام في طب الأورام، غير مرتبط بفرط ضغط الدم الرئوي |
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | مراجعة | Ageing Res Rev | نقص الأكسجين وشيخوخة الدماغ/الانحطاط العصبي؛ تركيز علم الأعصاب وليس الرئة/القلب والأوعية الدموية |
+| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | مراجعة | Metab Brain Dis | الضعف الإدراكي من نقص الأكسجين؛ تركيز علم الأعصاب |
+| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | مراجعة | Redox Biol | نقص الأكسجين في أمراض التصلب المتعدد |
+| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | مراجعة | Rev Med Inst Mex Seguro Soc | فسيولوجيا نقص الأكسجين بالارتفاع العالي والتأقلم |
+| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | مراجعة | J Cell Biochem | بيولوجيا استشعار نقص الأكسجين الخلوية العامة |
+| [27146279](https://pubmed.ncbi.nlm.nih.gov/27146279/) | 2017 | مراجعة | Cephalalgia | آليات نقص الأكسجين في الصداع النصفي/الصداع العنقودي |
+| [8817697](https://pubmed.ncbi.nlm.nih.gov/8817697/) | 1996 | مراجعة | Prog Neurobiol | نقص الأكسجين وتطور الدماغ |
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, blocking — required before any S1 safety screening)
-- DrugBank-sourced mechanism of action detail (DG002)
-- Targeted literature/clinical trial search using "irbesartan" or "ARB" combined with each specific indication term, rather than relying on the current keyword-matched hypoxia literature
-- Clinical assessment of renal artery stenosis prevalence/risk in the malignant renovascular hypertension population before any translational consideration
-- Confirmation of local market/registration pathway, given the drug is currently unmarketed in Saudi Arabia
+---
+
+## اعتبارات السلامة
+
+بيانات السلامة الرسمية (التحذيرات الرئيسية وموانع الاستعمال والتفاعلات الدوائية) غير متاحة في حزمة الأدلة هذه — يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+**إشارة السلامة المستندة إلى الآلية (ليست سجل تفاعل دوائي/موانع استعمال رسمي، مشتقة من الأساس المنطقي لإعادة التوظيف):** استخدام ARB في سياق ارتفاع ضغط الدم الكلوي الخبيث — خاصة مع تضيق الشرايين الكلوية ثنائي الجانب — يحمل خطراً معروفاً بتحريض الإصابة الكلوية الحادة من انخفاض ضغط تروية الكلى. يجب التعامل مع هذا كإشارة حمراء محددة للتنبؤ الأعلى ترتيباً وليس فقط كحذر عام لـ ARB.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احجز (Hold)**
+
+**الأساس المنطقي:**
+يتم دعم جميع المؤشرات الأربعة المتنبأ بها فقط من خلال درجة TxGNN (L5)، مع عدم وجود تجارب سريرية وبدون أدب خاص بالدواء. الدواء أيضاً غير مسوق حالياً في المملكة العربية السعودية (0 تخويل)، والتنبؤ الأعلى ترتيباً يحمل إشارة ضرر آلية معقولة (خطر الإصابة الكلوية الحادة مع تضيق الشرايين الكلوية) بدلاً من إشارة فعالية واضحة.
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة العبوة TFDA/SFDA وموانع الاستعمال (DG001، الحجب — مطلوب قبل أي فحص سلامة S1)
+- تفاصيل آلية العمل المستمدة من DrugBank (DG002)
+- بحث أدبي/تجربة سريرية موجهة باستخدام "إيربيسارتان" أو "ARB" مدمجة مع كل مصطلح مؤشر محدد، بدلاً من الاعتماد على أدب نقص الأكسجين المطابق بالكلمات الحالي
+- تقييم سريري لانتشار تضيق الشرايين الكلوية والمخاطر في مجموعة سكان ارتفاع ضغط الدم الكلوي الخبيث قبل أي اعتبار تحويلي
+- تأكيد مسار التسجيل/السوق المحلي، نظراً لأن الدواء غير مسوق حالياً في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

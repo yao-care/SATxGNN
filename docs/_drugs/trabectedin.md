@@ -29,94 +29,95 @@ indication_count: 1
 
 </div>
 
-# Trabectedin: From Soft Tissue Sarcoma / Ovarian Cancer to Female Breast Carcinoma
+# ترابيكتيدين: من الساركوما الأنسجة الرخوة / سرطان المبيض إلى سرطان الثدي الأنثوي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Trabectedin is a DNA minor-groove-binding cytotoxic agent originally developed for soft tissue sarcoma and, in combination with pegylated liposomal doxorubicin (PLD), relapsed platinum-sensitive ovarian cancer.
-> The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, with **2 clinical trials** (neither directly in breast cancer) and **no dedicated literature** currently supporting this direction — evidence rests mainly on a mechanistic/synthetic-lethality rationale.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Soft tissue sarcoma; relapsed platinum-sensitive ovarian cancer (combination therapy) — not confirmed against a Saudi Arabia label since the product is not marketed there |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> ترابيكتيدين هو عامل سام للخلايا يرتبط بأخدود DNA الصغير، وتم تطويره في الأصل لساركوما الأنسجة الرخوة وبالاشتراك مع دوكسوروبيسين الليبوسومي المثيلي (PLD)، لعلاج سرطان المبيض المقاوم للبلاتين المتكرر.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **سرطان الثدي الأنثوي**، مع **تجربتين سريريتين** (لا يتعلقان مباشرة بسرطان الثدي) و**عدم وجود أدبيات مكرسة** تدعم هذا الاتجاه حالياً — يستند الدليل في الغالب على منطق آلي/الإماتة الاصطناعية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed original mechanism-of-action data was not returned by DrugBank for this candidate ([Data Gap]), but the repurposing rationale supplied with the evidence pack describes the relevant biology directly: Trabectedin is a DNA minor-groove-binding alkylator that traps and degrades the RNA polymerase II complex during transcription-coupled nucleotide excision repair (TC-NER), producing DNA double-strand breaks. In tumors with homologous recombination (HR) deficiency — most notably BRCA1/2-mutated tumors — this damage is poorly repaired, and combination with a PARP inhibitor (e.g., olaparib) can produce a synthetic-lethal effect.
-
-This mechanism is already clinically exploited in ovarian cancer, where trabectedin + PLD is an established option in the platinum-sensitive relapsed, BRCA-associated setting. Breast and ovarian cancer share a substantial overlap in BRCA1/2-driven tumor biology, which gives a plausible mechanistic bridge to female breast carcinoma, particularly BRCA-mutated or HR-deficient subtypes.
-
-However, the supporting evidence for breast cancer specifically is currently limited to an in vitro cell-line observation (trabectedin + olaparib synergy) cited in the rationale narrative — no clinical trial or published study in human breast cancer patients was identified in this evidence pack. The prediction should therefore be read as a mechanism-driven hypothesis rather than a clinically validated signal.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Completed | 9 | Olaparib maintenance after response to trabectedin + PLD in recurrent, BRCA-associated ovarian cancer (EMA-approved PARPi maintenance setting). Small single-arm study; population is ovarian, not breast, cancer — relevance is via BRCA/HR-deficiency mechanism analogy only. |
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Completed | 76 | Single-dose QTc/ECG safety study of trabectedin in advanced solid tumors (general oncology population, not breast-cancer specific). Provides systemic cardiac-safety context only, no efficacy signal for breast cancer. |
-
-*Note: Neither trial directly studies trabectedin in female breast carcinoma; both are included because they were the top-ranked evidence returned for this prediction, graded "C" relevance in the source evidence pack.*
+| البند | المحتوى |
+|---|---|
+| الاستطباب الأصلي | ساركوما الأنسجة الرخوة؛ سرطان المبيض المقاوم للبلاتين المتكرر (العلاج المركب) — لم يتم تأكيده ضد التسمية في المملكة العربية السعودية حيث أن المنتج غير مطروح بالسوق |
+| الاستطباب الجديد المتنبأ به | سرطان الثدي الأنثوي |
+| درجة تنبؤ TxGNN | 99.73% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مطروح |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+لم يتم إرجاع بيانات آلية الفعل الأصلية التفصيلية من DrugBank لهذا المرشح ([Data Gap])، لكن المنطق الذي يرافق حزمة الدليل يصف علم الأحياء ذي الصلة مباشرة: ترابيكتيدين هو عامل ألكيل رابط أخدود DNA الصغير الذي يحاصر ويحلل معقد RNA polymerase II أثناء إصلاح النوكليوتيد المثار بالنسخ (TC-NER)، مما ينتج عنه كسور مزدوجة الشريط DNA. في الأورام مع نقص إعادة التركيب المتماثل (HR) — وبشكل خاص الأورام المتحولة BRCA1/2 — هذا الضرر يتم إصلاحه بشكل سيء، والدمج مع مثبط PARP (مثل olaparib) يمكن أن ينتج تأثير إماتة اصطناعية.
 
----
+يتم استغلال هذه الآلية سريرياً بالفعل في سرطان المبيض، حيث يعتبر ترابيكتيدين + PLD خياراً علاجياً معروفاً في سرطان المبيض المتكرر الحساس للبلاتين والمرتبط بـ BRCA. يشترك سرطان الثدي وسرطان المبيض في تداخل كبير في علم الأحياء الورمي المدفوع بـ BRCA1/2، مما يوفر جسراً آلياً معقولاً لسرطان الثدي الأنثوي، وخاصة الأنماط الفرعية المتحولة BRCA أو الناقصة HR.
 
-## Saudi Arabia Market Information
-
-Trabectedin is not currently marketed in Saudi Arabia (0 authorizations on record).
+ومع ذلك، الدعم الحالي للأدلة المتعلقة بسرطان الثدي على وجه التحديد محدود بملاحظة خط خلايا في المختبر (التآزر بين ترابيكتيدين + olaparib) المذكورة في السرد الوصفي للمنطق — لم يتم تحديد أي تجربة سريرية أو دراسة منشورة في مرضى سرطان الثدي البشريين في حزمة الدليل هذه. يجب بالتالي قراءة التنبؤ كفرضية مدفوعة بالآلية بدلاً من إشارة سريرية يتم التحقق منها.
 
 ---
 
-## Cytotoxicity
+## دليل التجارب السريرية
 
-Trabectedin is a marine-derived antineoplastic agent (ecteinascidin class, DNA minor-groove-binding alkylator), so this section applies.
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
+|---|---|---|---|---|
+| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | المرحلة 2 | مكتملة | 9 | صيانة olaparib بعد الاستجابة لـ ترابيكتيدين + PLD في سرطان المبيض المتكرر المرتبط بـ BRCA (إعدادات موافقة وكالة الأدوية الأوروبية للصيانة بمثبطات PARP). دراسة أحادية الذراع صغيرة؛ المجموعة المدروسة هي سرطان المبيض وليس سرطان الثدي — الملائمة تتحقق فقط عبر تماثل الآلية/نقص HR. |
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | المرحلة 2 | مكتملة | 76 | دراسة سلامة QTc/ECG بجرعة واحدة لترابيكتيدين في الأورام الصلبة المتقدمة (مجموعة من الأورام العام، وليس سرطان الثدي على وجه التحديد). توفر السياق الأمان القلبي الجهازي فقط، بدون إشارة فعالية لسرطان الثدي. |
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (DNA minor-groove-binding alkylating agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Cytotoxic drug handling precautions required (hazardous drug) |
+*ملاحظة: لا تدرس أي من التجربتين ترابيكتيدين مباشرة في سرطان الثدي الأنثوي؛ كلاهما متضمن لأنهما كانا من الأدلة الأعلى ترتيباً المرجعة لهذا التنبؤ، مع تصنيف ملائمة "C" في حزمة الدليل المصدر.*
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
+لا توجد حالياً أدبيات ذات صلة متوفرة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+ترابيكتيدين غير مطروح حالياً في المملكة العربية السعودية (0 موافقات على السجل).
 
-**Rationale:**
-Evidence is currently mechanistic/preclinical only (L4) — the two available trials do not directly study breast cancer, and no breast-cancer literature was found. A Blocking data gap on TFDA package insert warnings/contraindications also prevents any S1 safety evaluation, and the drug is not marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed original MOA and indication data from DrugBank (DG002)
-- Direct clinical or in vivo preclinical evidence of trabectedin activity in female breast carcinoma (current support is limited to an in vitro cell-line observation)
-- Drug-drug interaction (DDI) data, currently not found
+## السمية الخلوية
+
+ترابيكتيدين هو عامل مضاد للأورام مستخلص من الكائنات البحرية (من فئة ecteinascidin، عامل ألكيل رابط أخدود DNA الصغير)، لذا ينطبق هذا القسم.
+
+| البند | المحتوى |
+|---|---|
+| تصنيف السمية الخلوية | سموم خلوية تقليدية (عامل ألكيل رابط أخدود DNA الصغير) |
+| خطر قمع نخاع العظم | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المعلومات |
+| حماية التعامل | مطلوبة احتياطات التعامل مع العقاقير السامة (دواء خطر) |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+الدليل حالياً آلي/ما قبل إكلينيكي فقط (L4) — التجربتان المتاحتان لا تدرسان سرطان الثدي مباشرة، ولم يتم العثور على أدبيات سرطان الثدي. كما أن فجوة البيانات المتعلقة بتحذيرات/موانع استعمال نشرة TFDA تمنع أي تقييم S1 للسلامة، والدواء غير مطروح في المملكة العربية السعودية.
+
+**لكي تتقدم المتابعة، يتطلب الأمر ما يلي:**
+- بيانات نشرة TFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة محجوبة (DG001)
+- بيانات آلية الفعل الأصلية والاستطباب الأصلي المؤكدة من DrugBank (DG002)
+- دليل سريري أو دليل ما قبل إكلينيكي مباشر على نشاط ترابيكتيدين في سرطان الثدي الأنثوي (الدعم الحالي محدود بملاحظة خط خلايا في المختبر)
+- بيانات التفاعل بين الأدوية (DDI)، غير محددة حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

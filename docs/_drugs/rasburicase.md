@@ -29,77 +29,78 @@ indication_count: 10
 
 </div>
 
-# Rasburicase: From Tumor Lysis Syndrome (Hyperuricemia) to Renal Hypouricemia
+# راسبوريكيز: من متلازمة انحلال الورم (فرط حمض اليوريك) إلى نقص حمض اليوريك الكلوي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Rasburicase is a recombinant urate oxidase used to rapidly lower plasma uric acid in patients undergoing chemotherapy for hematologic malignancies (tumor lysis syndrome). The TxGNN model predicts it may be relevant to **Renal Hypouricemia**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a model-generated hypothesis only, and the underlying rationale itself flags the mechanistic direction as questionable.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hyperuricemia associated with tumor lysis syndrome in hematologic malignancies (general drug knowledge — not confirmed by a Saudi Arabia filing, as the product is not marketed there) |
-| Predicted New Indication | Renal Hypouricemia (hypouricemia, renal) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+راسبوريكيز هو أكسيديز اليورات المؤتلف المستخدم لخفض حمض اليوريك في البلازما بسرعة لدى المرضى الذين يخضعون للعلاج الكيميائي للأورام الخبيثة الدموية (متلازمة انحلال الورم). يتنبأ نموذج TxGNN أنه قد يكون ذا صلة بـ **نقص حمض اليوريك الكلوي**، لكن هذه الإشارة مدعومة حالياً بـ **0 تجربة سريرية** و **0 منشور** — وهي فرضية تم إنشاؤها بواسطة النموذج فقط، والمنطق الأساسي نفسه يشير إلى أن الاتجاه الميكانيكي مشكوك فيه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Rasburicase is a recombinant urate oxidase (uricase) that directly catalyzes the enzymatic oxidation of uric acid into allantoin, a far more water-soluble compound that is readily excreted renally. Its established clinical role is to rapidly and profoundly **lower** plasma uric acid in patients at risk of tumor lysis syndrome during chemotherapy.
-
-Renal hypouricemia, however, is a condition defined by **abnormally low** serum uric acid caused by a defect in renal tubular urate reabsorption (e.g., URAT1/GLUT9 transporter mutations) — the opposite metabolic direction from hyperuricemia. The evidence pack's own repurposing rationale acknowledges this: the mechanistic link is described as "near-synonymous" with the drug's known pharmacology (both concern uric acid regulation) rather than genuine new pathological insight, and explicitly notes there is no trial or literature support for using a uric-acid-lowering enzyme in a disease that already has pathologically low uric acid.
-
-This pattern is consistent with a TxGNN embedding-similarity artifact — the model likely associates rasburicase with "uric acid"-related disease terms broadly, without distinguishing direction of effect. The same caution applies even more strongly to ranks 3–10 (hepatic porphyria, copper-associated cirrhosis, portal hypertension disorders, hepatopulmonary syndrome, portal vein thrombosis, phenylalanine metabolism disorder), for which the rationale text explicitly states there is **no identifiable mechanistic link** at all. Rank 2 (HGPRT partial deficiency / Kelley-Seegmiller syndrome) is the one prediction with a biologically coherent rationale, since hyperuricemia is a downstream complication of that disorder — but it likewise has zero supporting trials or literature.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | فرط حمض اليوريك المرتبط بمتلازمة انحلال الورم في الأورام الخبيثة الدموية (المعرفة العامة بالأدوية — لم يتم تأكيدها من قبل تسجيل في المملكة العربية السعودية، حيث لا يتم تسويق المنتج هناك) |
+| المؤشر الجديد المتنبأ به | نقص حمض اليوريك الكلوي (نقص حمض اليوريك، كلوي) |
+| درجة التنبؤ بـ TxGNN | 99.99% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not marketed) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+راسبوريكيز هو أكسيديز اليورات المؤتلف الذي يحفز مباشرة الأكسدة الإنزيمية لحمض اليوريك إلى أللانتوين، وهو مركب أكثر قابلية للذوبان في الماء يتم إفراغه بسهولة من الكلى. يتمثل دوره السريري الموثوق في خفض حمض اليوريك في البلازما بسرعة وبشكل عميق لدى المرضى المعرضين لخطر متلازمة انحلال الورم أثناء العلاج الكيميائي.
 
----
+ومع ذلك، فإن نقص حمض اليوريك الكلوي هو حالة تُعرّف بـ **حمض اليوريك في الدم المنخفض بشكل غير طبيعي** الناجم عن عيب في إعادة امتصاص حمض اليورات في الأنابيب الكلوية (على سبيل المثال، طفرات ناقل URAT1/GLUT9) — الاتجاه الأيضي المعاكس لفرط حمض اليوريك. تعترف الحقيبة الإثباتية برقم التوسع الخاصة بها بهذا: يتم وصف الرابط الميكانيكي بأنه "شبه مرادف" لعلم الأدوية المعروف للعقار (كلاهما يتعلق بتنظيم حمض اليوريك) بدلاً من رؤية مسارية جديدة حقيقية، وينص بوضوح على عدم وجود دعم تجريبي أو أدبي لاستخدام إنزيم خفض حمض اليوريك في مرض يعاني بالفعل من حمض اليوريك المنخفض بشكل مرضي.
 
-## Saudi Arabia Market Information
-
-Rasburicase is currently **not marketed** in Saudi Arabia (0 authorizations on file); no license or approved-indication records are available for comparison.
+هذا النمط متسق مع القطعة الفنية في تضمين TxGNN — من المرجح أن النموذج يربط راسبوريكيز بمصطلحات الأمراض المتعلقة بـ "حمض اليوريك" بشكل عام، دون التمييز بين اتجاه التأثير. تنطبق نفس الحذر بقوة أكبر على الرتب 3-10 (البورفيريا الكبدية، تليف الكبد المرتبط بالنحاس، ارتفاع ضغط الدم البابي، متلازمة استسقاء الكبد الرئوية، جلطة الوريد البابي، اضطراب استقلاب الفينيل ألانين)، والتي تنص الحقيبة الإثباتية بوضوح على أنه **لا توجد رابطة ميكانيكية قابلة للتحديد على الإطلاق**. الرتبة 2 (نقص HGPRT الجزئي / متلازمة كيليلي-سيغميلر) هي التنبؤ الوحيد الذي يحتوي على منطق بيولوجي متماسك، لأن فرط حمض اليوريك هو مضاعفة مصب في تلك الحالة — لكنها وبالمثل ليس لديها أي تجارب أو أدبيات داعمة.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/SFDA package insert warnings and contraindications are listed as a Blocking data gap (DG001) in this evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.)*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-The top-ranked prediction (Renal Hypouricemia) has no clinical or literature support, and the evidence pack's own mechanistic rationale flags it as a directionally questionable extrapolation rather than a validated new pathology link — a uric-acid-lowering enzyme is unlikely to be therapeutic for a disease of already-low uric acid. Combined with the drug's non-marketed status in Saudi Arabia and complete absence of safety/DDI data, this candidate does not meet the bar to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Formal, sourced mechanism-of-action documentation (DrugBank query) — currently a High-severity gap (DG002)
-- A clinical or preclinical rationale that addresses the directional mismatch between rasburicase's hyperuricemia-lowering effect and a hypouricemic target condition
-- DDI and contraindication data before any safety pre-assessment (S1) can begin
-- If rank 2 (HGPRT partial deficiency) is pursued instead, at minimum case-report or preclinical evidence connecting rasburicase to that indication, since none currently exists
+## معلومات السوق في المملكة العربية السعودية
+
+راسبوريكيز غير مسوق حالياً في المملكة العربية السعودية (0 موافقات في الملف)؛ لا توجد سجلات الترخيص أو المؤشرات الموافق عليها المتاحة للمقارنة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات وموانع نشرة TFDA/SFDA الحزمة مدرجة كفجوة بيانات محظورة (DG001) في هذه الحقيبة الإثباتية — يجب حل هذا قبل أن يتمكن أي تقييم سلامة S1 السابق من المتابعة.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+التنبؤ بالرتبة الأعلى (نقص حمض اليوريك الكلوي) ليس له دعم سريري أو أدبي، والمنطق الميكانيكي للحقيبة الإثباتية نفسه يشير إليه كاستقراء موضع شك اتجاهياً بدلاً من رابطة مسارية جديدة موثوقة — من غير المرجح أن يكون إنزيم خفض حمض اليوريك علاجياً لمرض حمض اليوريك المنخفض بالفعل. بالاقتران مع حالة عدم تسويق الدواء في المملكة العربية السعودية والغياب التام لبيانات السلامة والتفاعلات الدوائية، فإن هذا المرشح لا يستوفي المعايير للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA الحزمة (التحذيرات، موانع الاستعمال) — حالياً فجوة محظورة (DG001)
+- توثيق آلية العمل الرسمي والمصدري (استعلام DrugBank) — حالياً فجوة عالية الخطورة (DG002)
+- منطق سريري أو سابق إكلينيكي يتناول عدم التطابق الاتجاهي بين تأثير خفض فرط حمض اليوريك لراسبوريكيز وحالة مرضى نقص حمض اليوريك
+- بيانات التفاعلات الدوائية وموانع الاستعمال قبل أن يتمكن أي تقييم سلامة S1 من البدء
+- إذا تم المتابعة مع الرتبة 2 (نقص HGPRT الجزئي) بدلاً من ذلك، على الأقل دليل حالات أو سابق إكلينيكي يربط راسبوريكيز بهذا المؤشر، لأنه لا يوجد حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

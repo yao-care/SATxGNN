@@ -29,87 +29,88 @@ indication_count: 3
 
 </div>
 
-# Galcanezumab: From Migraine Prevention to Heparin Cofactor II Deficiency
+# Galcanezumab: من الوقاية من الصداع النصفي إلى نقص عامل تمام التخثر II
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Galcanezumab is a monoclonal antibody targeting CGRP (calcitonin gene-related peptide), a mechanism publicly known to be used for migraine prevention — though this evidence pack does not itself contain confirmed original-indication data. The TxGNN model predicts potential effectiveness for **Heparin Cofactor II Deficiency**, a rare inherited coagulation disorder, but this direction is currently supported **only by the model score (99.50%)** — zero clinical trials and zero publications were found.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not included in this evidence pack; per public drug labeling, galcanezumab is indicated for migraine prevention |
-| Predicted New Indication | Heparin cofactor II deficiency |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Galcanezumab هو جسم مضاد أحادي النسيلة موجه ضد CGRP (الببتيد المرتبط بجين الكالسيتونين)، وهي آلية معروفة علنًا لاستخدامها في الوقاية من الصداع النصفي — لكن هذه مجموعة الأدلة لا تحتوي بحد ذاتها على بيانات مؤكدة عن الدلالة الأصلية. يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **نقص عامل تمام التخثر II**، وهو اضطراب تخثر نادر وراثي، لكن هذا الاتجاه مدعوم حاليًا **فقط بدرجة النموذج (99.50%)** — لم يتم العثور على أي تجارب سريرية وأي منشورات.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data was not available in this evidence pack. Based on publicly known pharmacology, galcanezumab is a humanized monoclonal antibody that binds CGRP and blocks its receptor signaling, and its efficacy in migraine prevention is well established.
-
-However, the repurposing rationale supplied with this prediction is itself skeptical: it states there is **no known physiological or regulatory relationship** between the CGRP signaling pathway and heparin cofactor II (a serine protease inhibitor that suppresses thrombin) or the related coagulation-factor disorders in ranks 2 and 3 (antithrombin deficiency, factor V excess). These are inherited, gene-driven coagulation abnormalities (e.g., SERPINC1 mutations), a disease category mechanistically distant from a neuropeptide-blocking antibody.
-
-The high TxGNN score (~99.4–99.5%) therefore reflects graph-neural-network link prediction only, not biological or clinical evidence. Without a plausible mechanistic bridge and without any trials or literature, this prediction should be treated as hypothesis-generating rather than actionable.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| الصنف | المحتوى |
+|------|--------|
+| الدلالة الأصلية | غير مدرجة في هذه مجموعة الأدلة؛ وفقًا لوسم الدواء العام، يُشار إلى galcanezumab للوقاية من الصداع النصفي |
+| الدلالة الجديدة المتنبأ بها | نقص عامل تمام التخثر II |
+| درجة تنبؤ TxGNN | 99.50% |
+| مستوى الأدلة | L5 (التنبؤ بالنموذج فقط، بدون دراسات داعمة) |
+| حالة سوق المملكة العربية السعودية | غير مسوقة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقيف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+لم تكن بيانات آلية العمل التفصيلية متاحة في هذه مجموعة الأدلة. بناءً على الصيدلة المعروفة علنًا، galcanezumab هو جسم مضاد أحادي النسيلة إنساني يرتبط بـ CGRP ويعيق إشارة مستقبله، وقد تم تأسيس فعاليته في الوقاية من الصداع النصفي بشكل جيد.
 
----
+ومع ذلك، فإن المبرر الداخلي لإعادة الاستخدام المقدم مع هذا التنبؤ يثير الشكوك في حد ذاته: فهو ينص على عدم وجود **أي علاقة فسيولوجية أو تنظيمية معروفة** بين مسار إشارة CGRP وعامل تمام التخثر II (مثبط سيرين بروتياز الذي يقمع الثرومبين) أو اضطرابات عوامل التخثر ذات الصلة في الرتبتين 2 و 3 (نقص الأنتيثرومبين، فائض العامل الخامس). هذه هي تشوهات التخثر الموروثة والمدفوعة بالجينات (مثل طفرات SERPINC1)، فئة مرض بعيدة آليًا عن جسم مضاد لحجب الببتيد العصبي.
 
-## Other TxGNN Predictions (Same Data Pull)
-
-Two additional candidates were generated in this batch, both similarly unsupported:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Trials/Literature |
-|------|----------------------|-------------|-----------------|--------------------|
-| 2 | Antithrombin deficiency type 2 | 99.41% | L5 | None found |
-| 3 | Factor V excess with spontaneous thrombosis | 99.41% | L5 | None found |
-
-All three predictions cluster around the same score range and share the same limitation: no mechanistic, trial, or literature support.
+وبالتالي، فإن درجة TxGNN العالية (~99.4–99.5%) تعكس التنبؤ بالرابط من الشبكة العصبية الرسومية فقط، وليس الأدلة البيولوجية أو السريرية. بدون جسر آلي معقول وبدون أي تجارب أو أدبيات، يجب التعامل مع هذا التنبؤ كمولد للفرضيات وليس كقابل للتنفيذ.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Galcanezumab is not currently marketed in Saudi Arabia — no authorization records exist in this evidence pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حاليًا أدبيات ذات صلة متاحة.
 
-**Rationale:**
-All three TxGNN-predicted indications are ultra-rare, genetically-driven coagulation disorders with no clinical trials, no literature, and no plausible mechanistic link to galcanezumab's known CGRP-blocking action — the evidence pack's own analysis reaches this same conclusion. A high model score alone (L5) does not justify advancing past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and MOA data (currently flagged as blocking/high-severity data gaps; TFDA package insert warnings and contraindications are unresolved)
-- Any preclinical or mechanistic study exploring CGRP pathway involvement in coagulation-factor regulation, to justify the prediction beyond the model score
-- Regulatory status confirmation and market-entry pathway assessment for Saudi Arabia, since the drug is not currently marketed there
-- DDI data (currently "not found") before any safety evaluation can proceed
+## التنبؤات الأخرى من TxGNN (نفس سحب البيانات)
+
+تم إنشاء مرشحين إضافيين في هذه الدفعة، كلاهما بدون دعم مماثل:
+
+| الترتيب | الدلالة المتنبأ بها | درجة TxGNN | مستوى الأدلة | التجارب/الأدبيات |
+|--------|-------------------|------------|-------------|-----------------|
+| 2 | نقص الأنتيثرومبين من النوع 2 | 99.41% | L5 | لم يتم العثور على أي |
+| 3 | فائض العامل الخامس مع التخثر التلقائي | 99.41% | L5 | لم يتم العثور على أي |
+
+تتجمع جميع التنبؤات الثلاثة حول نفس نطاق الدرجات وتشترك في نفس التحديد: عدم وجود دعم آلي أو تجريبي أو أدبي.
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+لا يتم تسويق galcanezumab حاليًا في المملكة العربية السعودية — لا توجد سجلات تفويض في هذه مجموعة الأدلة (0 ترخيص).
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى إدراج الحزمة للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقيف**
+
+**المبرر:**
+جميع الدلالات الثلاث المتنبأ بها من TxGNN هي اضطرابات تخثر نادرة للغاية ومدفوعة وراثيًا بدون تجارب سريرية، بدون أدبيات، وبدون رابط آلي معقول لإجراء galcanezumab المعروف بحجب CGRP — تحليل مجموعة الأدلة الخاصة به يصل إلى نفس الخلاصة. درجة نموذج عالية وحدها (L5) لا تبرر التقدم بعد الفحص الأولي.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات الدلالة الأصلية والآلية المؤكدة (حاليًا معلم على أنها فجوات بيانات حجب/عالية الشدة؛ تحذيرات إدراج الحزمة TFDA والموانع لم تحل)
+- أي دراسة ما قبل سريرية أو آلية تستكشف مشاركة مسار CGRP في تنظيم عوامل التخثر، لتبرير التنبؤ بما يتجاوز درجة النموذج
+- تأكيد الحالة التنظيمية وتقييم مسار دخول السوق للمملكة العربية السعودية، لأن الدواء غير مسوقة حاليًا هناك
+- بيانات DDI (حاليًا "لم يتم العثور عليها") قبل أن يمكن متابعة أي تقييم الأمان
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,96 +29,97 @@ indication_count: 10
 
 </div>
 
-# Sunitinib: From Renal Cell Carcinoma to Liposarcoma
+# سونيتينيب: من سرطان الخلايا الكلوية إلى الورم الشحمي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Sunitinib is a multi-targeted tyrosine kinase inhibitor whose established global indications include advanced/metastatic renal cell carcinoma (RCC) (cited as public background knowledge within this evidence pack; Saudi Arabia regulatory registration data itself is a data gap).
-The TxGNN model predicts it may be effective for **Liposarcoma**,
-with **3 clinical trials** and **9 publications** currently supporting this direction — though evidence comes mainly from non-GIST soft-tissue-sarcoma basket trials rather than a liposarcoma-specific pivotal study.
+سونيتينيب هو مثبط متعدد الأهداف لكيناز التيروسين الذي تشمل دواعي استخدامه العالمية الراسخة سرطان الخلايا الكلوية المتقدم/النقيلي (RCC) (مذكور كمعلومات خلفية عامة معروفة في هذه مجموعة الأدلة؛ بيانات تسجيل الهيئة السعودية للصحة نفسها تمثل فجوة بيانات).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الورم الشحمي**،
+مع وجود **3 تجارب سريرية** و**9 منشورات علمية** تدعم هذا الاتجاه حالياً — على الرغم من أن الأدلة تأتي بشكل أساسي من تجارب سلة الأورام الرخوة غير GIST وليس من دراسة محورية محددة للورم الشحمي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Renal Cell Carcinoma (cited in evidence pack as globally-approved public background knowledge; local TFDA/SFDA indication text not available — Data Gap DG001) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question stage) |
+| الدواعي الأصلية | سرطان الخلايا الكلوية (مذكور في مجموعة الأدلة كمعرفة عامة معتمدة عالمياً؛ نص دواعي الاستخدام المحلي للهيئة الفيدرالية/الهيئة السعودية غير متاح — فجوة بيانات DG001) |
+| الدواعي الجديدة المتنبأ بها | الورم الشحمي |
+| درجة تنبؤ TxGNN | 99.87% |
+| مستوى الدليل | L2 |
+| حالة السوق في السعودية | ✗ غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظار (مرحلة السؤال البحثي) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for sunitinib is not formally documented in this evidence pack (Data Gap DG002). Based on known information referenced within the pack's own rationale notes, sunitinib is a multi-targeted receptor tyrosine kinase inhibitor acting on VEGFR1-3, PDGFRα/β, KIT, RET, and CSF1R, and its efficacy in VEGF/PDGFR-driven tumours such as renal cell carcinoma has been established.
+حالياً، بيانات آلية العمل التفصيلية لسونيتينيب لم تُوثق رسمياً في هذه مجموعة الأدلة (فجوة البيانات DG002). بناءً على المعلومات المعروفة المشار إليها في ملاحظات المنطق الخاصة بالمجموعة نفسها، سونيتينيب هو مثبط متعدد الأهداف لكيناز التيروسين المستقبلي يعمل على VEGFR1-3, PDGFRα/β, KIT, RET, و CSF1R، وقد تم إثبات فعاليته في الأورام المعتمدة على VEGF/PDGFR مثل سرطان الخلايا الكلوية.
 
-Liposarcoma is a heterogeneous soft-tissue sarcoma family, and certain subtypes (notably myxoid liposarcoma) show angiogenesis-dependence and PDGFR pathway involvement. This gives a plausible mechanistic bridge from sunitinib's known anti-angiogenic/anti-PDGFR activity to liposarcoma. However, response across liposarcoma subtypes is inconsistent, and unlike dermatofibrosarcoma protuberans (which has a well-defined COL1A1-PDGFB driver), liposarcoma has no single dominant, targetable oncogenic fusion — so the mechanistic case is directionally reasonable but not histology-specific.
+الورم الشحمي هو عائلة غير متجانسة من أورام الأنسجة الرخوة، وأنواع فرعية معينة (خاصة الورم الشحمي المخاطي) تظهر اعتماداً على تكوين الأوعية الدموية وانخراط مسار PDGFR. يوفر هذا جسراً آليات معقولاً من نشاط سونيتينيب المضاد للأوعية الدموية/المضاد لـ PDGFR إلى الورم الشحمي. ومع ذلك، الاستجابة عبر أنواع الورم الشحمي غير متسقة، وعلى عكس الورم الليفي الجلدي النتوء (الذي له محرك COL1A1-PDGFB محدد جيداً)، الورم الشحمي لا يحتوي على انصهار أورام واحد مهيمن قابل للاستهداف — لذا الحالة الآلية معقولة اتجاهياً ولكنها ليست محددة بالنوع النسيجي.
 
-Supporting this, the strongest clinical evidence comes from Phase 2 trials of sunitinib conducted in broader non-GIST soft-tissue sarcoma populations (which included liposarcoma patients) rather than a dedicated liposarcoma trial, consistent with the "Research Question" stage assigned to this prediction.
+يدعم هذا، أقوى الأدلة السريرية تأتي من تجارب المرحلة 2 لسونيتينيب التي أجريت في مجموعات أورام الأنسجة الرخوة غير GIST الأوسع (التي شملت مرضى الورم الشحمي) وليس من تجربة محددة للورم الشحمي، متسقة مع مرحلة "السؤال البحثي" المعينة لهذا التنبؤ.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Completed | 48 | Open-label trial of sunitinib malate in unresectable/metastatic soft tissue sarcoma explicitly including leiomyosarcoma, liposarcoma, fibrosarcoma and MFH; directly relevant. |
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Completed | 53 | Continuous-dosing sunitinib in non-GIST sarcomas (metastatic/locally advanced/recurrent), directly covering liposarcoma. |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 basket study of oral **regorafenib** (not sunitinib) across sarcoma subtypes; only the disease population overlaps, drug is different. |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | المرحلة 2 | مكتملة | 48 | تجربة مفتوحة التصميم لسونيتينيب مالات في أورام الأنسجة الرخوة غير القابلة للاستئصال/النقيلية تشمل صراحة الورم الأملس اللاإرادي والورم الشحمي والورم الليفي وMFH؛ ذات صلة مباشرة. |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | المرحلة 2 | مكتملة | 53 | سونيتينيب الجرعة المستمرة في أورام الأنسجة الرخوة غير GIST (نقيلية/متقدمة محلياً/متكررة)، تغطي مباشرة الورم الشحمي. |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | المرحلة 2 | مكتملة | 131 | دراسة SARC024 سلة من **ريجورافينيب** الفموي (وليس سونيتينيب) عبر أنواع الأورام الحبيبية؛ فقط مجموعة الأمراض متداخلة، الدواء مختلف. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase2 | International Journal of Cancer | Phase II study of sunitinib malate in relapsed/refractory STS, focused on leiomyosarcoma, liposarcoma and MFH — direct efficacy/safety evidence. |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Cohort | American Journal of Surgical Pathology | Clinicopathologic series of myxoid inflammatory myofibroblastic sarcoma; a distinct sarcoma entity, only tangentially related to liposarcoma. |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | Reviews genetic/epigenetic/transcriptomic alterations in liposarcoma relevant to target-therapy selection. |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Reviews medical treatment of soft tissue sarcomas by histological subtype, including targeted agents. |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Review of Anticancer Therapy | Reviews emerging (targeted) therapies for adult soft tissue sarcoma. |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven STS therapy review; notes trabectedin's high activity specifically in myxoid liposarcoma. |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial Protocol | BMC Cancer | REGOSARC trial protocol evaluating **regorafenib** (not sunitinib) in advanced STS. |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Case Report | Oncotarget | Genomic profiling of extraskeletal myxoid chondrosarcoma; evaluates sunitinib activity in a subset of EMC patients. |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case Report | Anticancer Research | Case of long-lasting clinical benefit from sunitinib malate in a heavily pre-treated metastatic liposarcoma patient. |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase2 | International Journal of Cancer | دراسة المرحلة الثانية من سونيتينيب مالات في STS المنكوب/المقاوم، يركز على الورم الأملس اللاإرادي والورم الشحمي وMFH — أدلة مباشرة عن الفعالية/السلامة. |
+| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Cohort | American Journal of Surgical Pathology | سلسلة سريرية مرضية لورم الألياف العضلية الالتهابي المخاطي؛ كيان ورم حبيبي مختلف، يتعلق فقط بشكل عرضي بالورم الشحمي. |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | يستعرض التغييرات الجينية/الإبيجينية/النسخية في الورم الشحمي ذات الصلة باختيار العلاج الموجه. |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | يستعرض العلاج الطبي لأورام الأنسجة الرخوة حسب النوع النسيجي، بما في ذلك الوكلاء الموجهين. |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Review of Anticancer Therapy | يستعرض العلاجات الناشئة (الموجهة) لورم الأنسجة الرخوة عند البالغين. |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | مراجعة علاج STS يقودها النوع النسيجي؛ يلاحظ النشاط العالي جداً لتراباكتيدين بشكل محدد في الورم الشحمي المخاطي. |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial Protocol | BMC Cancer | بروتوكول تجربة REGOSARC يقيّم **ريجورافينيب** (وليس سونيتينيب) في STS المتقدم. |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Case Report | Oncotarget | التنميط الجيني لورم غضروف المخاط خارج الهيكل العظمي؛ يقيم نشاط سونيتينيب في مجموعة فرعية من مرضى EMC. |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case Report | Anticancer Research | حالة استفادة سريرية طويلة الأمد من سونيتينيب مالات في مريض ورم شحمي نقيلي معالج بكثافة. |
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-targeted receptor tyrosine kinase inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الموجه (مثبط كيناز التيروسين المستقبلي متعدد الأهداف؛ وليس عاملاً سيتوتوكسياً تقليدياً) |
+| خطر قمع نخاع العظم | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الطبية |
+| تصنيف الإمقائية | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الطبية |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الطبية |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الطبية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Evidence for the liposarcoma indication currently rests on non-GIST sarcoma basket trials and case reports rather than a liposarcoma-specific pivotal study, and response across STS histology subtypes is inconsistent — consistent with the pack's own "Research Question" staging (L2/S2) for this prediction.
+**المبرر:**
+الأدلة على دواعي استخدام الورم الشحمي تستند حالياً إلى تجارب سلة أورام الأنسجة الرخوة غير GIST ودراسات الحالة وليس من دراسة محورية محددة للورم الشحمي، والاستجابة عبر أنواع STS النسيجية غير متسقة — متسقة مع مرحلة "السؤال البحثي" الخاصة بالمجموعة نفسها (L2/S2) لهذا التنبؤ.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently Blocking Data Gap DG001)
-- Confirmed mechanism of action data for sunitinib (currently High-severity Data Gap DG002)
-- A liposarcoma-subtype-specific prospective trial (particularly myxoid/dedifferentiated liposarcoma)
-- Confirmation of Saudi Arabia marketing/regulatory status, since sunitinib currently has 0 local authorizations
+**للمتابعة، ما يلي مطلوب:**
+- تحذيرات واحتياطات النشرة الطبية للهيئة الفيدرالية/السعودية والموانع (فجوة البيانات الحالية DG001)
+- بيانات آلية العمل المؤكدة لسونيتينيب (فجوة البيانات ذات الشدة العالية الحالية DG002)
+- تجربة محددة بنوع فرعي الورم الشحمي واستشرافية (خاصة الورم الشحمي المخاطي/المنزوع التمايز)
+- تأكيد حالة التسويق/الهيئة التنظيمية في المملكة العربية السعودية، حيث أن سونيتينيب حالياً لديها 0 موافقات محلية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

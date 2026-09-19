@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Adapalene: From Acne Vulgaris to Zinc, Elevated Plasma
+# أدابالين: من حب الشباب إلى الزنك، ارتفاع البلازما
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Adapalene is a third-generation synthetic retinoid, primarily indicated for acne vulgaris treatment via selective activation of nuclear retinoic acid receptors.
-The TxGNN model predicts it may be effective for **Zinc, Elevated Plasma**, with a high algorithmic score of 99.51%; however, there are currently **no clinical trials** and **no publications** supporting this direction, making this a model-prediction-only candidate.
+أدابالين هو ريتينويد اصطناعي من الجيل الثالث، مُشار إليه بشكل أساسي لعلاج حب الشباب عبر التفعيل الانتقائي لمستقبلات حمض الريتينويك النووية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الزنك، ارتفاع البلازما**، برصيد خوارزمي عالي بلغ 99.51%؛ ومع ذلك، لا توجد حالياً **تجارب سريرية** و**لا منشورات** تدعم هذا الاتجاه، مما يجعل هذا مرشحاً يعتمد على التنبؤ النموذجي فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Acne Vulgaris (retinoid class; no local Saudi Arabia registration on record) |
-| Predicted New Indication | Zinc, Elevated Plasma |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | حب الشباب (فئة الريتينويدات؛ لا يوجد تسجيل محلي في المملكة العربية السعودية في السجل) |
+| المؤشر الجديد المتنبأ به | الزنك، ارتفاع البلازما |
+| درجة التنبؤ في TxGNN | 99.51% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معروضة بالسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | عدم المتابعة |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Adapalene is a third-generation synthetic retinoid (vitamin A analogue) that selectively activates the RAR-β and RAR-γ subtypes of retinoic acid receptors, as well as RXR nuclear receptors. Its primary therapeutic effect in acne comes from normalising keratinocyte differentiation and reducing follicular hyperkeratosis — a purely topical, locally confined mechanism with minimal systemic absorption under standard use.
+أدابالين هو ريتينويد اصطناعي من الجيل الثالث (مشابه فيتامين أ) يفعّل بشكل انتقائي نمط فرعي RAR-β و RAR-γ من مستقبلات حمض الريتينويك، وكذلك مستقبلات RXR النووية. يأتي تأثيره العلاجي الأساسي في حب الشباب من تطبيع تمايز الخلايا الكيراتينية وتقليل الفرط التقرني في البصيلات — آلية موضعية بحتة محصورة محلياً مع امتصاص جهازي أدنى تحت الاستخدام القياسي.
 
-The theoretical mechanistic link to zinc metabolism is indirect and structurally fragile. The DNA-binding domains of RAR/RXR receptors contain zinc finger motifs, creating a graph-level association between "retinoid receptor activation" and "zinc biology." Additionally, metallothionein — a zinc-binding protein — can in principle be upregulated by retinoid signalling. However, activating RAR/RXR receptors does not lower circulating plasma zinc; if anything, the relationship is directionally neutral or inverted. There is no published pharmacokinetic or mechanistic evidence that topical adapalene achieves systemic concentrations sufficient to influence zinc homeostasis.
+الربط الآلي النظري بين استقلاب الزنك غير مباشر وهش البناء. تحتوي النطاقات المرتبطة بالحمض النووي لمستقبلات RAR/RXR على وحدات إصبع الزنك، مما ينشئ ارتباطاً على مستوى الرسم البياني بين "تفعيل مستقبل الريتينويد" و"بيولوجيا الزنك". بالإضافة إلى ذلك، يمكن من حيث المبدأ تضخيم الميتالوثيونين — بروتين يرتبط بالزنك — بواسطة إشارات الريتينويد. ومع ذلك، تفعيل مستقبلات RAR/RXR لا يخفض الزنك الدوري؛ إذا كان هناك شيء، فإن العلاقة محايدة اتجاهياً أو معكوسة. لا توجد أدلة نشرة دوائية أو آلية منشورة على أن الأدابالين الموضعي يحقق تركيزات جهازية كافية للتأثير على استتباب الزنك.
 
-The very high TxGNN score (0.995, rank 7,755) most likely reflects a **knowledge graph message-passing artefact**: the shared neighbourhood path "RAR/RXR → zinc finger proteins → zinc metabolism disorders" inflates the graph-based co-occurrence signal without corresponding biological or clinical plausibility. This pattern — high algorithmic score, zero real-world evidence — is a known limitation of graph neural network repurposing models and warrants caution before any downstream investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+الدرجة العالية جداً في TxGNN (0.995، الترتيب 7,755) على الأرجح تعكس **أداة انتشار رسالة بيانات معرفية**: مسار الحي المشترك "RAR/RXR → بروتينات إصبع الزنك → اضطرابات استقلاب الزنك" يضخّم إشارة التعايش على أساس الرسم البياني دون وجود قابلية بيولوجية أو سريرية معادلة. هذا النمط — درجة خوارزمية عالية، صفر دليل من العالم الحقيقي — هو قيد معروف لنماذج الشبكات العصبية للرسم البياني المعروفة بإعادة الاستخدام ويتطلب الحذر قبل أي استثمار لاحق.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The prediction is L5 (model only) with no supporting clinical trials or literature, and the proposed mechanistic link between a topically applied retinoid and systemic zinc dysregulation lacks biological plausibility; the high TxGNN score is most likely a graph-structure artefact rather than a genuine therapeutic signal.
+---
 
-**To proceed, the following is needed:**
-- Independent mechanistic validation: demonstrate whether any retinoid (oral or topical) can meaningfully alter plasma zinc in a relevant in vitro or in vivo model before committing to clinical investigation
-- MOA data from DrugBank to confirm whether adapalene exerts any systemic effects that could reach zinc-regulating tissues
-- Review of whether the TxGNN knowledge graph node for "zinc, elevated plasma" is sufficiently distinct from non-disease states (zinc supplementation, laboratory measurement artefacts) to represent a valid therapeutic target
-- If pre-clinical plausibility is established, a targeted PubMed and ICTRP search using expanded query terms (e.g., "retinoid AND zinc metabolism") to rule out any unpublished or grey-literature signals
-- Safety profile gap-fill: obtain full contraindication and warning data before any systemic formulation is considered
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: عدم المتابعة**
+
+**المبررات:**
+التنبؤ هو L5 (نموذج فقط) بدون دعم من التجارب السريرية أو الأدبيات، والربط الآلي المقترح بين ريتينويد موضعي التطبيق واختلال الزنك الجهازي يفتقر إلى معقولية بيولوجية؛ درجة TxGNN العالية على الأرجح تكون أداة بنية رسم بياني وليس إشارة علاجية حقيقية.
+
+**المطلوب للمضي قدماً:**
+- التحقق من الآلية المستقلة: إثبات ما إذا كان أي ريتينويد (عن طريق الفم أو موضعي) يمكنه تعديل الزنك البلازمي بشكل ذي معنى في نموذج جسم حي أو خارج الجسم الحي ذي صلة قبل الالتزام بالتحقيق السريري
+- بيانات آلية العمل من DrugBank للتأكد من ما إذا كان الأدابالين يمارس أي تأثيرات جهازية يمكنها الوصول إلى أنسجة تنظم الزنك
+- مراجعة ما إذا كانت عقدة الرسم البياني المعرفي TxGNN لـ "الزنك، ارتفاع البلازما" مختلفة بشكل كافٍ عن الحالات غير المرضية (مكملات الزنك، أداة قياس المختبر) لتمثيل هدفاً علاجياً صحيحاً
+- إذا تم إثبات معقولية ما قبل الإكلينيكية، فسيتم البحث الموجه في PubMed و ICTRP باستخدام شروط الاستعلام الموسعة (مثل "retinoid AND zinc metabolism") لاستبعاد أي إشارات غير منشورة أو أدبيات رمادية
+- فجوة ملف الأمان: الحصول على بيانات موانع الاستعمال والتحذيرات الكاملة قبل النظر في أي صيغة جهازية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

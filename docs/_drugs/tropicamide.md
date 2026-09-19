@@ -29,57 +29,58 @@ indication_count: 3
 
 </div>
 
-# Tropicamide: From Ophthalmic Mydriasis/Cycloplegia to Cauda Equina Syndrome
+# تروبيكاميد: من اتساع الحدقة/شلل الإقامة العيني إلى متلازمة ذيل الفرس
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Tropicamide is a topical ophthalmic anticholinergic (M3/M4 muscarinic antagonist) used for pupil dilation and cycloplegia, with minimal systemic absorption and a short duration of action.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but this connection is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on graph-based inference alone.
+تروبيكاميد هو عامل مضاد للأسيتيل كولين موضعي عيني (مضاد غير انتقائي لمستقبلات M3/M4 الموسكارينية) يُستخدم لتوسيع حدقة العين وشلل الإقامة، مع امتصاص جهازي ضئيل جداً وفترة عمل قصيرة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة ذيل الفرس**، لكن هذا الارتباط يدعمه حالياً **0 تجربة سريرية** و**0 منشور علمي** — التنبؤ يستند على الاستدلال القائم على الرسوم البيانية وحده.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not formally documented in evidence pack (drug not marketed in Saudi Arabia); per model annotation, topical ophthalmic mydriatic/cycloplegic agent |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير موثق رسمياً في حزمة الأدلة (الدواء غير مسوق في المملكة العربية السعودية)؛ حسب تعليق النموذج، عامل توسيع حدقة/شلل إقامة عيني موضعي |
+| الاستطباب الجديد المتنبأ به | متلازمة ذيل الفرس |
+| درجة تنبؤ TxGNN | 99.53% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not formally available in the evidence pack. Based on the model's own mechanistic annotation, tropicamide is a non-selective M3/M4 muscarinic receptor antagonist applied topically to the eye for mydriasis and cycloplegia, with very low systemic absorption and a short duration of action.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة رسمياً في حزمة الأدلة. بناءً على تعليق النموذج الخاص به، تروبيكاميد هو مضاد غير انتقائي لمستقبلات M3/M4 الموسكارينية يُطبق موضعياً على العين لتوسيع الحدقة وشلل الإقامة، مع امتصاص جهازي منخفض جداً وفترة عمل قصيرة.
 
-Cauda equina syndrome is fundamentally a surgical emergency caused by mechanical compression of the lumbosacral nerve roots, requiring urgent decompression — an anticholinergic mechanism has no direct effect on the underlying compression. The high TxGNN score most likely reflects an indirect graph connection through **neurogenic bladder/bowel dysfunction**, a common downstream complication of cauda equina syndrome, rather than a causal treatment relationship. This is best interpreted as a comorbidity-based association rather than a mechanistically justified repurposing candidate.
+متلازمة ذيل الفرس هي في الأساس حالة طوارئ جراحية ناجمة عن الضغط الميكانيكي على جذور الأعصاب القطنية العجزية، تتطلب فك الضغط بشكل عاجل — آلية مضادة للأسيتيل كولين ليس لها أي تأثير مباشر على الضغط الأساسي. من المرجح جداً أن تعكس درجة TxGNN العالية ارتباطاً غير مباشر عبر **خلل المثانة/الأمعاء العصبي**، وهي مضاعفة ثانوية شائعة لمتلازمة ذيل الفرس، بدلاً من علاقة معالجة سببية. يُفسَّر هذا بشكل أفضل كارتباط قائم على المراضة المصاحبة بدلاً من مرشح إعادة استخدام مبرر على أساس الآلية الحيوية.
 
-Two related candidates flagged by the same model run — neurogenic bladder (score 99.13%) and irritable bowel syndrome (score 99.12%) — have somewhat more coherent class-level rationale, since anticholinergic agents are an established drug class for detrusor overactivity and intestinal spasm. However, neither has any tropicamide-specific pharmacology, safety, or clinical data to support systemic use, and tropicamide's only approved route (topical ophthalmic) cannot deliver the systemic exposure any of these three indications would require.
+مرشحان ذات صلة يُشار إليهما بنفس مسار النموذج — خلل المثانة العصبي (درجة 99.13%) ومتلازمة القولون العصبي (درجة 99.12%) — لديهما بعض المبرر الأكثر تماسكاً على مستوى فئة الأدوية، حيث أن العوامل مضادة للأسيتيل كولين هي فئة دواء راسخة لفرط نشاط المثانة والتشنجات المعوية. ومع ذلك، ليس لأي منها أي فارماكولوجيا محددة لتروبيكاميد أو بيانات أمان أو بيانات سريرية لدعم الاستخدام الجهازي، وطريق الإعطاء الوحيد المعتمد لتروبيكاميد (عيني موضعي) لا يمكنه توفير التعرض الجهازي الذي تتطلبه أي من هذه الثلاثة استطبابات.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات مرتبطة متاحة
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-All three TxGNN-predicted indications (cauda equina syndrome, neurogenic bladder, irritable bowel syndrome) are Evidence Level L5 — model prediction only, with zero supporting clinical trials or literature. The drug is not marketed in Saudi Arabia, and TFDA package insert warnings/contraindications remain an unresolved blocking data gap (DG001).
+**المبرر:**
+جميع الاستطبابات الثلاثة المتنبأ بها من TxGNN (متلازمة ذيل الفرس، خلل المثانة العصبي، متلازمة القولون العصبي) هي مستوى دليل L5 — تنبؤ النموذج فقط، بدون أي دعم من التجارب السريرية أو الأدبيات. الدواء غير مسوق في المملكة العربية السعودية، وتحذيرات/موانع استخدام نشرة TFDA الطبية تظل فجوة بيانات حجب (DG001).
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) to clear the S1 safety pre-screen
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Preclinical or pharmacokinetic data establishing whether systemic exposure sufficient for bladder/GI/neurologic effect is achievable from any feasible route
-- At minimum a mechanistic or case-level study connecting tropicamide (not just the anticholinergic class) to any of the three candidate indications before advancing past S0
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA الطبية (التحذيرات، موانع الاستخدام) لتصفية الفحص الأمني المسبق S1
+- تأكيد بيانات آلية العمل من DrugBank (DG002)
+- بيانات ما قبل السريرية أو الحركية الدوائية تُثبت ما إذا كان التعرض الجهازي الكافي للتأثير على المثانة/الجهاز الهضمي/الجهاز العصبي قابل للتحقق من أي مسار ممكن عملياً
+- كحد أدنى دراسة ميكانيكية أو حالة توضح الارتباط بتروبيكاميد (ليس فقط فئة مضادات الأسيتيل كولين) بأي من الاستطبابات المرشحة الثلاثة قبل المضي قدماً بما يتجاوز S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,86 +29,87 @@ indication_count: 10
 
 </div>
 
-# Clomifene: From Anovulatory Infertility to 46,XY Disorder of Sex Development due to Testicular Steroidogenesis Defect
+# كلوميفين: من العقم بسبب عدم التبويض إلى اضطراب تطور الجنس من النوع 46,XY بسبب خلل تطور الستيرويدات في الخصية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Clomifene is a selective estrogen receptor modulator (SERM) with a well-established role in inducing ovulation for anovulatory infertility, though no formal regulatory registration is on file in this data pack.
-The TxGNN model generated **10 predicted indications** across reproductive and chromosomal disorders; the top-ranked prediction is **46,XY disorder of sex development due to testicular steroidogenesis defect** (score 99.90%).
-However, **no clinical trials** and **no published literature** currently support this specific direction, and the mechanistic link is critically weak — this prediction is assessed as a knowledge graph false positive.
+كلوميفين هو مُعدِّل مستقبل الإستروجين الانتقائي (SERM) بدور محدد جيداً في تحفيز التبويض لعلاج العقم بسبب عدم التبويض، على الرغم من عدم وجود تسجيل تنظيمي رسمي في مجموعة البيانات هذه.
+أنتج نموذج TxGNN **10 مؤشرات متنبأ بها** عبر اضطرابات إنجابية وصبغية؛ التنبؤ ذو الترتيب الأعلى هو **اضطراب تطور الجنس من النوع 46,XY بسبب خلل تطور الستيرويدات في الخصية** (درجة 99.90%).
+ومع ذلك، لا توجد حالياً **أي تجارب سريرية** و**لا أدبيات منشورة** تدعم هذا الاتجاه المحدد، والرابط الآلي ضعيف جداً — يتم تقييم هذا التنبؤ على أنه إيجابية كاذبة في رسم بيانات المعرفة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Anovulatory infertility / ovulation induction — no regulatory authorization on file |
-| Predicted New Indication | 46,XY disorder of sex development due to testicular steroidogenesis defect |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 — model prediction only, no supporting studies |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | العقم بسبب عدم التبويض / تحفيز التبويض — بدون ترخيص تنظيمي على الملف |
+| المؤشر الجديد المتنبأ به | اضطراب تطور الجنس من النوع 46,XY بسبب خلل تطور الستيرويدات في الخصية |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L5 — تنبؤ نموذجي فقط، بدون دراسات داعمة |
+| حالة سوق المملكة العربية السعودية | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in the current data pack. Based on established pharmacological knowledge, Clomifene acts as a SERM by blocking hypothalamic estrogen receptors, thereby reducing negative feedback on GnRH release. This increases pulsatile FSH and LH secretion from the anterior pituitary. In males, the resulting surge in LH can stimulate Leydig cells in the testes to upregulate steroid synthesis — and it is this gonadotropin-stimulating pathway that likely caused the TxGNN knowledge graph to draw a link to disorders of testicular steroidogenesis.
+البيانات التفصيلية حول آلية العمل غير متاحة في مجموعة البيانات الحالية. بناءً على المعرفة الصيدلانية الراسخة، يعمل كلوميفين كمُعدِّل مستقبل إستروجين انتقائي من خلال حجب مستقبلات الإستروجين في الوطاء، وبالتالي تقليل التغذية الراجعة السالبة على إطلاق هرمون الغدد التناسلية (GnRH). يزيد هذا من الإفراز النبضي لهرمون المنبهات للحويصلات (FSH) وهرمون تحفيز الخلايا البينية (LH) من الفص الأمامي من الغدة النخامية. عند الذكور، يمكن أن يؤدي الارتفاع الناتج في LH إلى تحفيز خلايا ليديج في الخصية لتصعيد تخليق الستيرويد — وهذا مسار تحفيز الغدد التناسلية هو الذي من المحتمل أن يكون قد تسبب في جعل رسم بيانات معرفة TxGNN يرسم صلة بين اضطرابات تطور الستيرويدات في الخصية.
 
-However, 46,XY disorder of sex development due to testicular steroidogenesis defect is not a signalling problem — it is an enzymatic machinery failure. Mutations in steroidogenic enzymes such as StAR, CYP11A1, or CYP17A1 operate downstream of LH receptor activation. Even if Clomifene successfully raises endogenous LH to supraphysiological levels, that signal cannot be converted into functional steroid hormones because the enzymatic steps required to do so are broken. Increased upstream stimulation cannot bypass the enzymatic blockade.
+ومع ذلك، اضطراب تطور الجنس من النوع 46,XY بسبب خلل تطور الستيرويدات في الخصية ليس مشكلة في الإشارات — إنها فشل في الآلية الإنزيمية. الطفرات في الإنزيمات المولدة للستيرويد مثل StAR أو CYP11A1 أو CYP17A1 تعمل في المنطقة النهائية من تفعيل مستقبل LH. حتى إذا نجح كلوميفين في رفع LH الداخلي إلى مستويات فائقة الفسيولوجية، فإن هذه الإشارة لا يمكن تحويلها إلى هرمونات ستيرويد وظيفية لأن الخطوات الإنزيمية المطلوبة للقيام بذلك مكسورة. لا يمكن للتحفيز الأعلى أن يتجاوز الانسداد الإنزيمي.
 
-This is most likely a knowledge graph false positive: TxGNN correctly identified the pharmacological connection between Clomifene and the hypothalamic-pituitary-gonadal (HPG) axis, but the model lacks the resolution to distinguish between signalling defects (potentially amenable to upstream stimulation) and enzymatic synthesis defects (not amenable to this approach).
+هذا على الأغلب إيجابية كاذبة في رسم بيانات المعرفة: حدد TxGNN بشكل صحيح الصلة الصيدلانية بين كلوميفين ومحور الوطاء-الغدة النخامية-الغدد التناسلية (HPG)، لكن النموذج يفتقد القدرة على التمييز بين عيوب الإشارات (التي قد تكون قابلة للتخفيف من خلال التحفيز الأعلى) وعيوب التخليق الإنزيمي (غير قابلة لهذا النهج).
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد حالياً أي أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No marketing authorizations on file for Clomifene.
+لا توجد تصاريح تسويق على الملف لكلوميفين.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
-
----
-
-## Supplementary: All Predicted Indications at a Glance
-
-This Evidence Pack is a multi-indication evaluation (candidate ID: TW-DB00882-multi). The table below summarizes all 10 TxGNN predictions for reference.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Mechanistic Assessment |
-|------|----------------------|-------------|----------------|----------------|------------------------|
-| 1 | 46,XY DSD due to testicular steroidogenesis defect | 99.90% | L5 | **Hold** | LH stimulation cannot bypass downstream enzyme defects (StAR/CYP11A1/CYP17A1) |
-| 2 | Longitudinal vaginal septum | 99.87% | L5 | **Hold** | Structural Müllerian fusion defect; no pharmacological mechanism exists |
-| 3 | Transverse vaginal septum | 99.87% | L5 | **Hold** | Same as above; assessed as knowledge graph false positive |
-| 4 | Symptomatic fragile X syndrome in female carrier (FXPOI) | 99.69% | L5 | Research Question | Indirect: Clomifene may stimulate residual follicles in FXPOI, but ovarian reserve is already compromised |
-| 5 | Blepharophimosis-epicanthus inversus-ptosis (BPES) | 99.61% | L5 | Research Question | FOXL2-related POI subgroup may respond to ovulation induction; eyelid defect itself has no drug target |
-| 6 | BPES due to 3q23 rearrangement | 99.58% | L5 | Research Question | Same rationale as BPES; rarer genetic subtype with even lower research feasibility |
-| 7 | Partial trisomy/tetrasomy of chromosome 18p | 99.54% | L5 | **Hold** | Chromosomal copy number anomaly; no estrogen receptor or HPG axis target exists |
-| 8 | Partial trisomy/tetrasomy of chromosome 5p | 99.54% | L5 | **Hold** | Structural chromosomal anomaly (includes Cri du Chat region); no mechanism |
-| 9 | Partial trisomy/tetrasomy of chromosome 12p | 99.54% | L5 | **Hold** | Pallister-Killian syndrome area; no pharmacological target for Clomifene |
-| 10 | Ovarian remnant syndrome | 99.52% | **L4** | Research Question | Best-supported candidate: 1990 case series reports Clomifene used to stimulate and localize residual ovarian tissue prior to surgery |
-
-> **Note on Rank 10 (Ovarian Remnant Syndrome):** Although ranked lowest among the 10 predictions, this candidate has the strongest mechanistic plausibility and the only available literature evidence (PMID [2216258](https://pubmed.ncbi.nlm.nih.gov/2216258/)). Clomifene was used diagnostically to stimulate residual ovarian tissue for localization before repeat surgery. This is a niche diagnostic utility rather than therapeutic treatment, but represents the only repurposing direction in this pack with real-world clinical data.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات الأمان.
 
 ---
 
-## Conclusion and Next Steps
+## إضافي: جميع المؤشرات المتنبأ بها في لمحة سريعة
 
-**Decision: Hold**
+هذه مجموعة الأدلة عبارة عن تقييم متعدد المؤشرات (معرف المرشح: TW-DB00882-multi). يلخص الجدول أدناه جميع التنبؤات العشرة الخاصة بـ TxGNN للمراجعة.
 
-**Rationale:**
-The top TxGNN prediction scores very high (99.90%) but represents a mechanistically implausible candidate — Clomifene acts upstream of the enzymatic defects that define this condition, making the prediction almost certainly a knowledge graph false positive. All 10 predicted indications are either false positives (structural/chromosomal anomalies) or very early-stage research questions with no clinical evidence. The only candidate with any supporting literature is Ovarian Remnant Syndrome (rank 10, L4), and even that evidence dates from 1990 and describes diagnostic rather than therapeutic use.
+| الترتيب | المؤشر المتنبأ به | درجة TxGNN | مستوى الأدلة | التوصية | التقييم الآلي |
+|--------|-----------------|-----------|------------|--------|-------------|
+| 1 | اضطراب تطور الجنس من النوع 46,XY بسبب خلل تطور الستيرويدات في الخصية | 99.90% | L5 | **انتظر** | لا يمكن لتحفيز LH أن يتجاوز عيوب الإنزيم النهائية (StAR/CYP11A1/CYP17A1) |
+| 2 | الحاجز المهبلي الطولي | 99.87% | L5 | **انتظر** | عيب اندماج مولريان بنيوي؛ لا توجد آلية صيدلانية |
+| 3 | الحاجز المهبلي المستعرض | 99.87% | L5 | **انتظر** | نفس ما سبق؛ تم تقييمه على أنه إيجابية كاذبة في رسم بيانات المعرفة |
+| 4 | متلازمة الصبغي X الهش العرضي في حاملة الأنثى (FXPOI) | 99.69% | L5 | سؤال بحثي | غير مباشر: قد يحفز كلوميفين البصيلات المتبقية في FXPOI، لكن احتياطي المبيض قد تم المساومة عليه بالفعل |
+| 5 | التضيق الجفني-اللحاء الإنسي المقلوب-الوسن (BPES) | 99.61% | L5 | سؤال بحثي | قد تستجيب المجموعة الفرعية المرتبطة بـ FOXL2 من قصور المبايض المبكر لتحفيز التبويض؛ عيب الجفن نفسه لا يملك هدفاً دوائياً |
+| 6 | BPES بسبب إعادة ترتيب 3q23 | 99.58% | L5 | سؤال بحثي | نفس منطق BPES؛ نوع فرعي وراثي نادر برغم جدوى بحثية أقل |
+| 7 | ثلاثية/رباعية صبغية جزئية من الذراع القصير للصبغي 18p | 99.54% | L5 | **انتظر** | شذوذ عدد نسخ صبغي؛ لا يوجد مستقبل إستروجين أو هدف محور HPG |
+| 8 | ثلاثية/رباعية صبغية جزئية من الذراع القصير للصبغي 5p | 99.54% | L5 | **انتظر** | شذوذ صبغي بنيوي (يشمل منطقة Cri du Chat)؛ لا توجد آلية |
+| 9 | ثلاثية/رباعية صبغية جزئية من الذراع القصير للصبغي 12p | 99.54% | L5 | **انتظر** | منطقة متلازمة باليستر-كيليان؛ لا يوجد هدف صيدلاني لكلوميفين |
+| 10 | متلازمة الأنسجة المبيضية المتبقية | 99.52% | **L4** | سؤال بحثي | أفضل مرشح مدعوم: تقارير سلسلة حالات عام 1990 تستخدم كلوميفين لتحفيز وتحديد موقع الأنسجة المبيضية المتبقية قبل الجراحة |
 
-**To proceed, the following is needed:**
-- Obtain MOA data from DrugBank (data gap DG002) to enable systematic mechanistic analysis across all 10 candidates
-- Obtain TFDA/SFDA package insert warnings and contraindications (data gap DG001) before any safety evaluation can begin
-- For Ovarian Remnant Syndrome specifically: conduct a targeted literature review to identify whether more recent evidence exists beyond the 1990 case series, then reassess as a potential Research Question candidate
-- For the FOXL2/BPES and FXPOI candidates: consult reproductive endocrinology experts to assess whether Clomifene's SERM mechanism could have meaningful clinical utility in these ultra-rare POI subtypes
-- Do not progress any chromosomal copy number or structural Müllerian anomaly candidates further — these are false positives that do not warrant additional investigation
+> **ملاحظة حول الترتيب 10 (متلازمة الأنسجة المبيضية المتبقية):** على الرغم من ترتيبه الأدنى بين التنبؤات العشرة، فإن هذا المرشح لديه أقوى معقولية آلية والدليل الأدبي الوحيد المتاح (PMID [2216258](https://pubmed.ncbi.nlm.nih.gov/2216258/)). تم استخدام كلوميفين تشخيصياً لتحفيز الأنسجة المبيضية المتبقية لتحديد الموقع قبل تكرار الجراحة. هذه أداة تشخيصية متخصصة وليست علاجاً علاجياً، لكنها تمثل الاتجاه الوحيد لإعادة الاستخدام في هذه المجموعة مع بيانات سريرية واقعية.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+يسجل أعلى تنبؤ TxGNN درجة عالية جداً (99.90%) لكنه يمثل مرشحاً غير معقول من الناحية الآلية — يعمل كلوميفين في المنطقة الأعلى من عيوب الإنزيم التي تحدد هذه الحالة، مما يجعل التنبؤ إيجابية كاذبة في رسم بيانات المعرفة بكل تأكيد. جميع المؤشرات العشرة المتنبأ بها هي إما إيجابيات كاذبة (شذوذ بنيوي/صبغي) أو أسئلة بحثية في مرحلة مبكرة جداً بدون أدلة سريرية. المرشح الوحيد الذي لديه أي أدبيات داعمة هو متلازمة الأنسجة المبيضية المتبقية (الترتيب 10، L4)، وحتى هذا الدليل يعود إلى عام 1990 ويصف الاستخدام التشخيصي بدلاً من العلاجي.
+
+**للمتابعة، يلزم ما يلي:**
+- الحصول على بيانات آلية العمل من DrugBank (فجوة البيانات DG002) لتمكين التحليل الآلي المنهجي عبر جميع المرشحات العشرة
+- الحصول على تحذيرات النشرة الدوائية لـ TFDA/SFDA والموانع (فجوة البيانات DG001) قبل أن يتمكن أي تقييم أمان من البدء
+- بخصوص متلازمة الأنسجة المبيضية المتبقية تحديداً: إجراء مراجعة أدبيات مستهدفة للتحقق مما إذا كانت هناك أدلة أحدث موجودة خارج سلسلة الحالات لعام 1990، ثم إعادة التقييم كمرشح سؤال بحثي محتمل
+- بخصوص مرشحي FOXL2/BPES و FXPOI: استشر خبراء الغدد الصماء الإنجابية لتقييم ما إذا كانت آلية SERM لكلوميفين قد تحقق فائدة سريرية ذات معنى في هذه الأنواع الفرعية من قصور المبايض المبكر النادرة جداً
+- لا تقدم أي مرشحات شذوذ عدد نسخ صبغية أو شذوذ مولريان بنيوي أخرى — هذه إيجابيات كاذبة لا تستحق تحقيقاً إضافياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

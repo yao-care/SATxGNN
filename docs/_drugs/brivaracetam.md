@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-# Brivaracetam: From Focal-Onset Seizures to Visual Epilepsy
+# بريفاراسيتام: من النوبات البؤرية إلى الصرع البصري
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Brivaracetam (BRV) is a third-generation antiseizure medication approved internationally for focal-onset seizures, acting as a high-affinity synaptic vesicle protein 2A (SV2A) ligand with 15–30 times greater potency than levetiracetam.
-The TxGNN model predicts it may be effective for **Visual Epilepsy** (photosensitive/photoparoxysmal epilepsy),
-with **0 dedicated clinical trials** for this specific indication but **19 publications** providing mechanistic and indirect clinical support — including a randomized crossover trial in the validated photosensitivity model that directly demonstrated BRV's anti-photoparoxysmal activity.
+بريفاراسيتام (BRV) هو دواء مضاد للنوبات من الجيل الثالث معتمد دولياً لعلاج النوبات البؤرية، يعمل كرابط عالي التقاربية لبروتين حويصلة سيناپتية 2A (SV2A) بقوة أكبر 15–30 مرة من levetiracetam.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الصرع البصري** (الصرع الحساس للضوء/الصرع الفوتوپاروكسيزمي)،
+مع **صفر تجارب سريرية مخصصة** لهذا المؤشر المحدد لكن **19 منشور** يوفر دعماً ميكانيكياً وسريرياً غير مباشر — بما في ذلك تجربة عشوائية قابلة للتبديل في نموذج الحساسية للضوء المعتمد الذي أظهر مباشرة نشاط BRV المضاد للاستجابة الفوتوپاروكسيزمية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Focal-onset seizures (adjunctive and monotherapy) |
-| Predicted New Indication | Visual Epilepsy |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| المؤشر الأصلي | النوبات البؤرية (علاج مساعد وعلاج أحادي) |
+| المؤشر الجديد المتنبأ به | الصرع البصري |
+| درجة تنبؤ TxGNN | 99.51% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | انتظار (سؤال بحثي) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Brivaracetam acts as a selective, high-affinity ligand of synaptic vesicle protein 2A (SV2A) — a glycoprotein that regulates synaptic vesicle exocytosis and neurotransmitter release. By modulating SV2A, BRV dampens pathological high-frequency neuronal firing without broadly suppressing baseline neuronal activity. Compared to its predecessor levetiracetam, BRV penetrates the blood-brain barrier approximately 10-fold faster and achieves CNS effect onset more rapidly, making it pharmacokinetically advantageous in situations requiring swift seizure control.
+يعمل بريفاراسيتام كرابط انتقائي عالي التقاربية لبروتين حويصلة سيناپتية 2A (SV2A) — وهو بروتين سكري ينظم إفراغ الحويصلات السيناپتية وإفراز الناقلات العصبية. من خلال تعديل SV2A، يخفف BRV إطلاق النيران العصبية المرضية عالية التردد دون قمع النشاط العصبي الأساسي على نطاق واسع. مقارنة بسلفه levetiracetam، يخترق BRV حاجز الدم الدماغي بشكل أسرع بنحو 10 مرات ويحقق ظهور التأثير في الجهاز العصبي المركزي بسرعة أكبر، مما يجعله محسناً من الناحية الدوائية الحركية في الحالات التي تتطلب السيطرة السريعة على النوبات.
 
-Visual epilepsy — encompassing photosensitive epilepsy and visual cortex hyperexcitability syndromes — is characterized by hypersynchronization of the occipital cortex triggered by intermittent photic stimulation (IPS) or other visual stimuli, producing the "photoparoxysmal response" (PPR) on EEG. This precise pattern of cortical over-excitability is mechanistically addressable by SV2A modulation. Notably, the photosensitivity (PPR) model is a well-validated clinical surrogate endpoint accepted by regulatory agencies for antiseizure drug development, and BRV has already been formally assessed in this model in human subjects. Data from the photosensitivity model demonstrates that BRV eliminates PPR with faster onset than levetiracetam (referenced in the repurposing rationale as PMID 32949370), directly bridging BRV's focal epilepsy indication to visual epilepsy.
+الصرع البصري — الذي يشمل الصرع الحساس للضوء ومتلازمات فرط الاستثارة قشرة الفص القذالي — يتميز بفرط التزامن من القشرة القذالية الناجم عن التحفيز الضوئي المتقطع (IPS) أو محفزات بصرية أخرى، مما ينتج عنه "الاستجابة الفوتوپاروكسيزمية" (PPR) على مخطط كهربائية الدماغ. هذا النمط الدقيق من الإفراط في الاستثارة القشرية يمكن معالجته ميكانيكياً من خلال تعديل SV2A. تجدر الإشارة إلى أن نموذج الحساسية للضوء (PPR) هو نقطة نهاية بديلة سريرية معتمدة جيداً يقبلها الجهات التنظيمية لتطوير أدوية مضادة للنوبات، وقد تم تقييم BRV بالفعل في هذا النموذج لدى الأشخاص. تُظهر البيانات من نموذج الحساسية للضوء أن BRV يلغي PPR بظهور أسرع من levetiracetam (المشار إليه في أساس إعادة الاستخدام باعتباره PMID 32949370)، مما يربط بشكل مباشر مؤشر الصرع البؤري لـ BRV بالصرع البصري.
 
-The TxGNN knowledge-graph prediction score of 99.51% therefore reflects genuine pharmacological plausibility rather than a spurious topological association. The critical gap is not mechanistic — it is the absence of a prospective clinical trial using "visual epilepsy" as the registered primary endpoint rather than a surrogate. Transitioning from photosensitivity model data to a dedicated visual epilepsy indication is the logical next research step.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for visual epilepsy as a primary indication.
-
-> **Note:** The photosensitivity (PPR) model represents the closest available clinical evidence, evaluated in a randomized crossover design (see Literature table). A dedicated registration trial for visual epilepsy has not yet been conducted.
+تعكس درجة تنبؤ مخطط المعرفة TxGNN بنسبة 99.51% الجدوى الفارماكولوجية الحقيقية بدلاً من ارتباط طوبولوجي زائف. الفجوة الحرجة ليست ميكانيكية — إنها غياب تجربة سريرية استباقية تستخدم "الصرع البصري" كنقطة نهاية أساسية مسجلة بدلاً من بديل. الانتقال من بيانات نموذج الحساسية للضوء إلى مؤشر صرع بصري مخصص هو الخطوة البحثية المنطقية التالية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة للصرع البصري كمؤشر أساسي.
+
+> **ملاحظة:** يمثل نموذج الحساسية للضوء (PPR) أقرب دليل سريري متاح، تم تقييمه في تصميم عشوائي قابل للتبديل (انظر جدول الأدب). لم يتم إجراء تجربة تسجيل مخصصة للصرع البصري بعد.
+
+---
+
+## دليل الأدب
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | Phase III RCT | *Epilepsia open* | Adjunctive BRV significantly reduced focal-onset seizures in adult Asian patients vs placebo in a randomized double-blind trial (N not specified in abstract); supports efficacy across ethnic populations |
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematic Review + Meta-Analysis | *Frontiers in neurology* | BRV demonstrated favorable safety and efficacy in pediatric epilepsy across pooled data; lower behavioral adverse events vs levetiracetam |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | *Journal of epilepsy research* | Comprehensive synthesis of BRV pharmacology: SV2A high-affinity binding, rapid CNS penetration, and broad-spectrum antiseizure activity including photoparoxysmal models |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Narrative Review | *Advances in therapy* | Preclinical and clinical benefits of BRV; details SV2A binding selectivity (15–30× vs LEV) and its mechanistic implications for refractory seizures |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | RCT Review | *Expert review of neurotherapeutics* | Summarizes BRV Phase II/III RCT data in focal epilepsy; 50% responder rates 32–55%; superior tolerability profile compared to LEV |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | *Neuropharmacology* | Mechanism review of all antiseizure drugs; SV2A-mediated inhibition of synaptic vesicle cycling as BRV's primary mode of action |
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Pooled Safety Analysis | *Epilepsy & behavior* | In-depth pooled analysis of BRV safety across clinical trials; characterizes tolerability and adverse event profile across >2,000 patients |
-| [26664121](https://pubmed.ncbi.nlm.nih.gov/26664121/) | 2015 | Review | *Neuropsychiatric disease and treatment* | Early BRV profile: 10–30× higher potency than LEV at SV2A; distinct pharmacology (no AMPA/HVA-Ca²⁺ channel inhibition); Phase III overview |
-| [37684052](https://pubmed.ncbi.nlm.nih.gov/37684052/) | 2023 | Review | *BMJ* | Antiseizure medication management in pregnancy/lactation including BRV; safety profile considerations for special populations |
-| [38117319](https://pubmed.ncbi.nlm.nih.gov/38117319/) | 2024 | Review | *Intensive care medicine* | Status epilepticus management guidelines including role of newer ASMs; contextualizes BRV positioning in acute seizure cascades |
+| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | تجربة عشوائية مضبوطة المرحلة الثالثة | *Epilepsia open* | خفض BRV المساعد للنوبات البؤرية بشكل كبير لدى البالغين الآسيويين مقابل الدواء الوهمي في تجربة عشوائية عمياء مزدوجة (N غير محدد في الملخص)؛ يدعم الفعالية عبر السكان العرقيين |
+| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | المراجعة المنهجية + التحليل التلوي | *Frontiers in neurology* | أظهر BRV سلامة وفعالية مواتية في الصرع عند الأطفال عبر البيانات المجمعة؛ أحداث سلوكية ضارة أقل من levetiracetam |
+| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | المراجعة | *Journal of epilepsy research* | تجميع شامل لصيدلانية BRV: ربط SV2A عالي التقاربية، اختراق الجهاز العصبي المركزي السريع، والنشاط المضاد للنوبات واسع الطيف بما في ذلك نماذج الاستجابة الفوتوپاروكسيزمية |
+| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | مراجعة سردية | *Advances in therapy* | الفوائد السابقة للتطبيق والسريرية لـ BRV؛ تفاصيل انتقائية ربط SV2A (15–30× مقابل LEV) والآثار الميكانيكية لها لنوبات مقاومة للأدوية |
+| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | مراجعة تجارب عشوائية مضبوطة | *Expert review of neurotherapeutics* | يلخص بيانات المرحلة الثانية/الثالثة BRV RCT في الصرع البؤري؛ معدلات الاستجابة 50% من 32–55%؛ ملف تعريف التسامح المتفوق مقارنة بـ LEV |
+| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | المراجعة | *Neuropharmacology* | مراجعة الآلية لجميع أدوية مضادة للنوبات؛ تثبيط دورة الحويصلات السيناپتية الوسيطة SV2A كآلية BRV الأساسية للعمل |
+| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | تحليل السلامة المجمعة | *Epilepsy & behavior* | تحليل معمق مجمع لسلامة BRV عبر التجارب السريرية؛ يوصف الملف الآمن والملف الضار عبر >2,000 مريض |
+| [26664121](https://pubmed.ncbi.nlm.nih.gov/26664121/) | 2015 | المراجعة | *Neuropsychiatric disease and treatment* | ملف BRV المبكر: قوة أعلى 10–30× من LEV على SV2A؛ صيدلانية مميزة (بدون تثبيط قنوات AMPA/HVA-Ca²⁺)؛ نظرة عامة على المرحلة الثالثة |
+| [37684052](https://pubmed.ncbi.nlm.nih.gov/37684052/) | 2023 | المراجعة | *BMJ* | إدارة أدوية مضادة للنوبات في الحمل/الرضاعة الطبيعية بما في ذلك BRV؛ اعتبارات الملف الآمن للسكان الخاصين |
+| [38117319](https://pubmed.ncbi.nlm.nih.gov/38117319/) | 2024 | المراجعة | *Intensive care medicine* | إرشادات إدارة حالة الصرع بما في ذلك دور ASMs الأحدث؛ يضع في السياق موضع BRV في شلالات النوبات الحادة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Brivaracetam is not currently registered or marketed in Saudi Arabia. No authorization records were identified. This represents a market entry opportunity contingent on clinical evidence development.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Detailed warning, contraindication, and drug interaction data were not retrievable from the queried sources for this report. Package insert review is mandatory prior to any clinical consideration.
+بريفاراسيتام غير مسجل حالياً أو غير مسوق في المملكة العربية السعودية. لم يتم تحديد أي سجلات تفويض. هذا يمثل فرصة دخول السوق مشروطة بتطوير دليل سريري.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold (Research Question)**
+يرجى الرجوع إلى ملصق المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-BRV has demonstrated pharmacological plausibility for visual epilepsy through its activity in the photosensitivity (photoparoxysmal response) model — a clinically validated surrogate for photosensitive epilepsy — and its established mechanism of SV2A-mediated cortical hyperexcitability suppression. However, no dedicated clinical trial has yet been registered with visual epilepsy as its primary endpoint, and all 19 available publications are indirect (general focal epilepsy, mechanisms, and safety reviews), placing this indication at Evidence Level L3. A Hold decision is appropriate until targeted clinical evidence is generated.
+> لم تكن بيانات التحذير التفصيلي والمضاد والتفاعل الدوائي قابلة للاسترجاع من المصادر المستفسرة لهذا التقرير. استعراض ملصق المنتج إلزامي قبل أي اعتبار سريري.
 
-**To proceed, the following is needed:**
+---
 
-- **Dedicated Phase II trial:** Design a prospective study using visual/photosensitive epilepsy as the primary indication, potentially leveraging existing PPR photosensitivity model data as a validated surrogate endpoint for regulatory dialogue
-- **Photosensitivity model data review:** Formally assess whether existing BRV PPR trial results (e.g., crossover data vs levetiracetam) can support a regulatory submission pathway for visual epilepsy in Saudi Arabia
-- **Full MOA documentation:** Retrieve complete DrugBank / package insert mechanism-of-action data to formally document SV2A selectivity relevant to visual cortex hyperexcitability (current gap: DG002)
-- **Safety dossier:** Obtain SFDA-format safety data (key warnings, contraindications, drug interactions) to enable S1 safety evaluation — currently a blocking gap (DG001)
-- **Saudi Arabia regulatory pathway assessment:** As BRV is not marketed in Saudi Arabia, a full new drug registration strategy is required prior to any clinical development planning in-country
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار (سؤال بحثي)**
+
+**الأساس المنطقي:**
+أظهر BRV الجدوى الفارماكولوجية للصرع البصري من خلال نشاطه في نموذج الحساسية للضوء (استجابة الفوتوپاروكسيزمية) — نقطة نهاية بديلة معتمدة سريرياً — وآليته الموثقة لتعديل SV2A لقمع فرط الاستثارة القشرية. ومع ذلك، لم يتم تسجيل أي تجربة سريرية مخصصة بعد مع الصرع البصري كمؤشر أساسي، وجميع المنشورات التسعة عشر المتاحة غير مباشرة (الصرع البؤري العام والآليات والمراجعات الآمنة)، مما يضع هذا المؤشر على مستوى الدليل L3. قرار الانتظار مناسب حتى يتم إنشاء دليل سريري موجه.
+
+**لمتابعة، المطلوب ما يلي:**
+
+- **تجربة مرحلة ثانية مخصصة:** تصميم دراسة استباقية تستخدم الصرع البصري/الحساس للضوء كمؤشر أساسي، مع الاستفادة المحتملة من بيانات نموذج الحساسية للضوء PPR الموجودة كنقطة نهاية بديلة معتمدة للحوار التنظيمي
+- **مراجعة بيانات نموذج الحساسية للضوء:** تقييم رسمي لما إذا كانت نتائج تجربة BRV PPR الموجودة (على سبيل المثال، البيانات القابلة للتبديل مقابل levetiracetam) يمكن أن تدعم مسار تقديم تنظيمي للصرع البصري في المملكة العربية السعودية
+- **توثيق الآلية الكاملة:** استرجاع بيانات كاملة لآلية العمل من DrugBank / ملصق المنتج لتوثيق انتقائية SV2A ذات الصلة لفرط الاستثارة قشرة الفص القذالي رسمياً (الفجوة الحالية: DG002)
+- **ملف السلامة:** الحصول على بيانات السلامة بصيغة SFDA (التحذيرات الرئيسية والموانع والتفاعلات الدوائية) لتمكين تقييم السلامة S1 — حالياً فجوة حجب (DG001)
+- **تقييم المسار التنظيمي بالمملكة العربية السعودية:** حيث أن BRV غير مسوق في المملكة العربية السعودية، فإن استراتيجية تسجيل عقار جديد كاملة مطلوبة قبل أي تخطيط لتطوير سريري في الدولة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,72 +29,73 @@ indication_count: 2
 
 </div>
 
-# Ponatinib: From Undocumented Original Indication to Fibromatosis, Gingival
+# بوناتينيب: من استطباب أصلي غير موثق إلى التليفوماتوسيس اللثوية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-The evidence pack does not document Ponatinib's original indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts potential efficacy for **Fibromatosis, Gingival**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (data gap) |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+لا توثق مجموعة الأدلة الاستطباب الأصلي لبوناتينيب أو آلية عمله (كلاهما معلمة كفجوات بيانات). يتنبأ نموذج TxGNN بفعالية محتملة لـ **التليفوماتوسيس اللثوية**، لكن هذا التنبؤ يدعمه حالياً **0 من التجارب السريرية** و **0 من المنشورات** — إنها إشارة نموذج فقط في هذه المرحلة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for Ponatinib in this evidence pack, and the original indication is likewise undocumented. Without either data point, no mechanistic link or disease-similarity rationale can be established at this time — the prediction rests solely on the TxGNN model's score.
-
-A separate literature signal exists for a different predicted indication (liposarcoma, rank 2, score 99.00%), supported by one publication on kinase-targeted drug screening in liposarcoma. This suggests the underlying molecular target profile may be kinase-related, but this cannot be confirmed without the MOA data, and it does not directly support the Fibromatosis, Gingival prediction discussed here.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير متاح في مجموعة الأدلة (فجوة بيانات) |
+| الاستطباب الجديد المتنبأ به | التليفوماتوسيس اللثوية |
+| درجة التنبؤ TxGNN | 99.04% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Ponatinib is not marketed in Saudi Arabia and has no product authorizations on file (0 licenses).
+حالياً، بيانات آلية العمل التفصيلية غير متاحة لبوناتينيب في مجموعة الأدلة هذه، والاستطباب الأصلي أيضاً غير موثق. بدون أي من نقطتي البيانات هذه، لا يمكن إقامة ارتباط آلي أو منطق تشابه المرض في هذا الوقت — التنبؤ يعتمد فقط على درجة نموذج TxGNN.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+توجد إشارة أدبية منفصلة لاستطباب متنبأ به مختلف (الساركوما الدهنية، التصنيف 2، الدرجة 99.00%)، مدعومة بمنشور واحد عن الفحص الموجه للأدوية المستهدفة للكيناز في الساركوما الدهنية. هذا يشير إلى أن ملف الهدف الجزيئي الأساسي قد يكون مرتبطاً بالكيناز، لكن هذا لا يمكن تأكيده بدون بيانات MOA، وهو لا يدعم بشكل مباشر التنبؤ بالتليفوماتوسيس اللثوية المناقش هنا.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-**Rationale:**
-The top-ranked predicted indication (Fibromatosis, Gingival) has no clinical trial or literature support — evidence level L5, model prediction only. This is compounded by a **Blocking** data gap on TFDA warnings/contraindications, which prevents entry into the S1 safety initial screening, and the drug is not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — required to clear S1 safety screening (Blocking)
-- Mechanism of action (MOA) data via DrugBank — needed to assess mechanistic plausibility (High priority)
-- Original indication documentation for Ponatinib
-- Clinical or preclinical evidence specific to Fibromatosis, Gingival, since none currently exists
+## الأدلة الأدبية
+
+حالياً لا توجد أدبيات ذات صلة متاحة
+
+---
+
+## معلومات السوق بالمملكة العربية السعودية
+
+لا يتم تسويق بوناتينيب في المملكة العربية السعودية وليس لديه تراخيص منتجات مسجلة (0 تراخيص).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+الاستطباب المتنبأ به ذو التصنيف الأعلى (التليفوماتوسيس اللثوية) لا يملك دعماً من تجارب سريرية أو أدبيات — مستوى أدلة L5، تنبؤ نموذج فقط. بالإضافة إلى ذلك، توجد فجوة بيانات **حاجبة** في تحذيرات TFDA/موانع الاستخدام، مما يمنع الدخول إلى الفحص الأولي للسلامة S1، والدواء غير مسوق حالياً في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA (تحذيرات/موانع الاستخدام) — مطلوبة لاجتياز فحص السلامة S1 (حاجبة)
+- بيانات آلية العمل (MOA) عبر DrugBank — مطلوبة لتقييم المعقولية الآلية (أولوية عالية)
+- توثيق الاستطباب الأصلي لبوناتينيب
+- أدلة سريرية أو قبل سريرية محددة للتليفوماتوسيس اللثوية، لعدم وجود أي منها حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

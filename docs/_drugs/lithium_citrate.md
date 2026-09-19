@@ -29,71 +29,72 @@ indication_count: 1
 
 </div>
 
-# Lithium Citrate: From Unspecified Indication to Malan Overgrowth Syndrome
+# سترات الليثيوم: من مؤشر غير محدد إلى متلازمة مالان للإفراط في النمو
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Lithium Citrate (DrugBank ID DB14507) currently has no approved indication or market status recorded in the available evidence pack, and it is not marketed in Saudi Arabia.
-> The TxGNN model predicts it may be effective for **Malan Overgrowth Syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
-> The mechanistic rationale is theoretical only, and both the drug's original indication and mechanism of action are data gaps.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in available data |
-| Predicted New Indication | Malan Overgrowth Syndrome |
-| TxGNN Prediction Score | 99.07% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> سترات الليثيوم (معرّف DrugBank DB14507) حالياً لا توجد لديها مؤشر معتمد أو حالة سوق مسجلة في حزمة الأدلة المتاحة، وهي غير مسوقة في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN بأنها قد تكون فعالة لـ **متلازمة مالان للإفراط في النمو**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور**.
+> الأساس الآلي نظري فقط، وكل من المؤشر الأصلي للدواء والآلية الدوائية يمثلان فجوات في البيانات.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available for Lithium Citrate. Based on the repurposing rationale in the evidence pack, lithium salts are known pharmacologically to inhibit GSK-3β and inositol monophosphatase (IMPase), which indirectly modulates Wnt/β-catenin signaling.
-
-Malan Overgrowth Syndrome is caused by haploinsufficiency of the NFIX gene and clinically overlaps with Sotos syndrome (macrocephaly, tall stature, intellectual disability). The evidence pack notes that NFIX has an indirect literature association with growth-plate regulation and Wnt signaling — but this link is theoretical, and no direct evidence shows lithium can modulate NFIX expression or improve the overgrowth phenotype.
-
-Given that the drug's original indication and MOA are both data gaps, and the drug is not marketed, this prediction rests solely on a high TxGNN network score (0.9907) without any corroborating trial or literature evidence. The mechanistic link should be regarded as a pure inference at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|---|---|
+| المؤشر الأصلي | غير محدد في البيانات المتاحة |
+| المؤشر الجديد المتنبأ به | متلازمة مالان للإفراط في النمو |
+| درجة تنبؤ TxGNN | 99.07% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل المفصلة غير متاحة لسترات الليثيوم. بناءً على منطق إعادة التوظيف في حزمة الأدلة، من المعروف دوائياً أن أملاح الليثيوم تثبط GSK-3β وأحادي فوسفات الإينوسيتول (IMPase)، والذي يعدل بشكل غير مباشر إشارات Wnt/β-catenin.
 
----
+متلازمة مالان للإفراط في النمو ناجمة عن قصور النسخة الأحادية للجين NFIX وتتداخل سريرياً مع Sotos syndrome (الرأس الكبير، القامة الطويلة، الإعاقة الذهنية). تلاحظ حزمة الأدلة أن NFIX لها ارتباط أدبي غير مباشر بتنظيم صفيحة النمو وإشارات Wnt — لكن هذا الارتباط نظري، ولا توجد أدلة مباشرة تظهر أن الليثيوم يمكن أن يعدل تعبير NFIX أو يحسن النمط الظاهري للإفراط في النمو.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+بالنظر إلى أن المؤشر الأصلي للدواء والآلية الدوائية (MOA) كلاهما فجوات في البيانات، وأن الدواء غير مسوق، فإن هذا التنبؤ يعتمد فقط على درجة شبكة TxGNN عالية (0.9907) بدون أي دليل تجريبي أو أدبي داعم. يجب اعتبار الارتباط الآلي استدلالاً بحتاً في هذه المرحلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-**Rationale:**
-There is no clinical trial or literature evidence supporting this indication, the drug's original indication and MOA are both data gaps, and Lithium Citrate is not marketed in Saudi Arabia. The mechanistic link is theoretical inference only, so this candidate does not meet the threshold to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed original indication and mechanism of action (DrugBank query needed)
-- Preclinical or mechanistic studies directly linking lithium to NFIX/Wnt pathway modulation in overgrowth syndromes
-- Any case reports or registry data on lithium use in NFIX-related overgrowth disorders
-- Saudi Arabia market/registration status confirmation if repurposing is to be pursued locally
+## الأدلة الأدبية
+
+حالياً لا توجد أدبيات ذات صلة متاحة
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الملحقة للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: إيقاف**
+
+**الأساس المنطقي:**
+لا توجد أدلة من التجارب السريرية أو الأدبيات تدعم هذا المؤشر، والمؤشر الأصلي للدواء والآلية الدوائية (MOA) كلاهما فجوات في البيانات، وسترات الليثيوم غير مسوقة في المملكة العربية السعودية. الارتباط الآلي هو استدلال نظري فقط، لذا هذا المرشح لا يلبي الحد الأدنى للمضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA/الشركة المصنعة (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاسمة
+- المؤشر الأصلي المؤكد والآلية الدوائية (يلزم الاستعلام عن DrugBank)
+- دراسات سابقة للسريرية أو ميكانيكية تربط الليثيوم مباشرة بتعديل مسار NFIX/Wnt في متلازمات الإفراط في النمو
+- أي تقارير حالات أو بيانات تسجيل عن استخدام الليثيوم في اضطرابات الإفراط في النمو المرتبطة بـ NFIX
+- تأكيد حالة السوق/التسجيل في المملكة العربية السعودية إذا كان إعادة التوظيف ستتابع محلياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

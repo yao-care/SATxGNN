@@ -29,93 +29,94 @@ indication_count: 3
 
 </div>
 
-# Alprazolam: From Anxiety & Panic Disorder to Insomnia
+# ألبرازولام: من اضطرابات القلق واضطراب الهلع إلى الأرق
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Alprazolam is a benzodiazepine widely used for anxiety disorders and panic disorder, working by enhancing inhibitory neurotransmission through GABA-A receptor modulation to produce sedative, anxiolytic, and hypnotic effects.
-The TxGNN model predicts it may be effective for **Insomnia**, with **7 clinical trials** and **18 publications** currently supporting this direction.
-While its sedative-hypnotic properties provide strong mechanistic justification, mainstream clinical guidelines do not recommend benzodiazepines as first-line treatment for insomnia due to tolerance, dependence, and cognitive impairment risks.
+ألبرازولام هو بنزوديازيبين يُستخدم على نطاق واسع لاضطرابات القلق واضطراب الهلع، يعمل بتعزيز النقل العصبي المثبط عن طريق تعديل مستقبلات GABA-A لإنتاج تأثيرات مهدئة وقاضية على القلق وخافضة للنوم.
+يتنبأ نموذج TxGNN بأنه قد يكون فعّالاً لـ **الأرق**، مع وجود **7 تجارب سريرية** و**18 منشوراً** يدعم حالياً هذا الاتجاه.
+على الرغم من أن خصائصه المهدئة وخافضة النوم توفر تبريراً آلياً قوياً، فإن إرشادات الممارسة السريرية السائدة لا توصي بالبنزوديازيبينات كعلاج من الخط الأول للأرق بسبب مخاطر التحمل والإدمان وضعف الإدراك.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Anxiety disorders, panic disorder (with or without agoraphobia) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | اضطرابات القلق واضطراب الهلع (مع أو بدون رهاب الساحات) |
+| الاستطباب الجديد المتنبأ به | الأرق |
+| درجة التنبؤ من TxGNN | 99.81% |
+| مستوى الأدلة | L3 |
+| حالة السوق السعودي | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, formal mechanism of action data is not available in the Evidence Pack. Based on established pharmacological knowledge, alprazolam is a high-potency benzodiazepine that acts as a positive allosteric modulator of the GABA-A receptor. By binding to a distinct site on the receptor complex, it enhances the frequency of chloride channel opening in response to GABA, resulting in dose-dependent CNS depression — manifesting clinically as anxiolysis, sedation, hypnosis, anticonvulsion, and muscle relaxation. This mechanism directly underpins its sedative-hypnotic properties and makes the TxGNN insomnia prediction pharmacologically coherent.
+حالياً، بيانات آلية العمل الرسمية غير متاحة في حزمة الأدلة. بناءً على المعرفة الدوائية الراسخة، ألبرازولام هو بنزوديازيبين عالي الفعالية يعمل كمعدِّل إيجابي موضعي لمستقبل GABA-A. بالارتباط بموقع متميز على مركب المستقبل، يعزز تكرار فتح قناة الكلوريد استجابةً لـ GABA، مما يؤدي إلى اكتئاب الجهاز العصبي المركزي بجرعات متدرجة — يتجلى سريرياً كقضاء على القلق، وتهدئة، وتحريض النوم، وتضاد الاختلاج، وارتخاء العضلات. يقوم هذا الآلية بدعم خصائصه المهدئة وخافضة النوم بشكل مباشر ويجعل التنبؤ بالأرق من TxGNN متسقاً دوائياً.
 
-Anxiety disorders (alprazolam's primary indication) and insomnia are deeply intertwined clinically. Sleep-onset difficulties and fragmented sleep are among the most prevalent comorbidities of generalized anxiety disorder and panic disorder, sharing overlapping neurobiological substrates including amygdala hyperactivation and dysregulated autonomic arousal. Alprazolam's rapid onset of action (T~max~ 1–2 hours) has historically led to its use — both on-label and off-label — for sleep initiation in comorbid anxiety-insomnia presentations, particularly in Asian clinical practice settings.
+اضطرابات القلق (الاستطباب الأساسي للبرازولام) والأرق مرتبطان بشكل وثيق سريرياً. صعوبات بدء النوم والنوم المجزأ هي من بين أكثر الأمراض المشتركة انتشاراً مع اضطراب القلق المعمم واضطراب الهلع، ويشاركان الركائز العصبية البيولوجية المتداخلة بما في ذلك فرط نشاط اللوزة الدماغية والإثارة اللاإرادية المُنظَّمة بشكل خاطئ. أدى سرعة ظهور فعل ألبرازولام (T~max~ 1–2 ساعة) تاريخياً إلى استخدامه — سواء كان منصوصاً عليه أم لا — لتحريض النوم في العروض المشتركة للقلق والأرق، خاصة في بيئات الممارسة السريرية الآسيوية.
 
-However, translating this mechanism into a formal insomnia repurposing requires careful qualification. International sleep medicine guidelines (AASM, European Sleep Research Society) categorize benzodiazepines as second- or third-line options for insomnia, reserved for short-term use when first-line cognitive behavioural therapy for insomnia (CBT-I) or non-benzodiazepine hypnotics are unavailable or ineffective. The risks of tolerance (typically within 2–4 weeks), rebound insomnia, physical dependence, and anterograde amnesia — especially in elderly patients — must be explicitly managed in any deployment strategy.
+ومع ذلك، ترجمة هذا الآلية إلى إعادة تطبيق رسمي للأرق تتطلب تأهيل حذر. تصنف إرشادات طب النوم الدولية (AASM، جمعية البحث في النوم الأوروبية) البنزوديازيبينات كخيارات من الخط الثاني أو الثالث للأرق، محفوظة للاستخدام قصير الأجل عندما يكون العلاج السلوكي المعرفي لقصور النوم (CBT-I) من الخط الأول أو الأدوية المنومة غير البنزوديازيبينية غير متاحة أو غير فعّالة. يجب إدارة مخاطر التحمل (عادةً خلال 2–4 أسابيع)، الأرق الارتجاعي، الإدمان الجسدي، وفقدان الذاكرة المباشرة — خاصة في المرضى المسنين — بشكل صريح في أي استراتيجية نشر.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Unknown | 1,400 | Prospective cohort at a Taiwanese academic medical center assessing risk-benefit of hypnotics (including alprazolam) for sleep disorders in elderly patients; evaluates prescribing patterns, efficacy, safety, pharmacokinetics, and pharmacogenomic characteristics |
-| [NCT00266409](https://clinicaltrials.gov/study/NCT00266409) | Phase 4 | Completed | 418 | 8-week multicenter open-label RCT comparing Niravam™ (alprazolam ODT) + SSRI/SNRI vs SSRI/SNRI alone for anxiety in GAD/Panic Disorder; alprazolam used as augmentation for faster symptom relief, with sleep quality likely captured as part of composite anxiety outcomes |
-| [NCT01584440](https://clinicaltrials.gov/study/NCT01584440) | Phase 2 | Completed | 220 | Double-blind, double-dummy, placebo-controlled study of AVP-923 (dextromethorphan/quinidine) for agitation in Alzheimer's disease; alprazolam likely serves as active comparator in double-dummy design, with sleep-related agitation as a secondary domain |
-| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | Completed | 170 | Electronic self-management intervention to promote cessation of benzodiazepines (including alprazolam, prescribed for anxiety and sleep) in US Veterans; study direction is deprescribing rather than initiation |
-| [NCT03327506](https://clinicaltrials.gov/study/NCT03327506) | Phase 4 | Unknown | 128 | Comparison of hypnosis session vs alprazolam premedication for perioperative anxiety in gynecological surgery; documents standard use of alprazolam as sedative premedication, not a primary insomnia study |
-| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Phase 2 | Terminated | 2 | Gabapentin vs placebo for treatment of benzodiazepine (including alprazolam) dependence; terminated early due to critically low enrollment (N=2); addresses dependence risk rather than insomnia efficacy |
-| [NCT01146600](https://clinicaltrials.gov/study/NCT01146600) | Phase 2 | Completed | 26 | Clarithromycin for idiopathic hypersomnia; alprazolam is not a primary agent; the indication (hypersomnia — excessive daytime sleepiness) is directionally opposite to insomnia |
+| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | غير معروف | 1,400 | دراسة مراقبة استشرافية في مركز طبي أكاديمي تايواني تقيّم المخاطر والفوائد للأدوية المنومة (بما في ذلك ألبرازولام) لاضطرابات النوم لدى المسنين؛ تقيّم أنماط الوصف الطبي والفعالية والسلامة والحرائك الدوائية والخصائص الدوائية الوراثية |
+| [NCT00266409](https://clinicaltrials.gov/study/NCT00266409) | المرحلة 4 | مكتملة | 418 | تجربة عشوائية خاضعة للمراقبة متعددة المراكز لمدة 8 أسابيع تقارن Niravam™ (ألبرازولام ODT) + SSRI/SNRI مقابل SSRI/SNRI وحدها للقلق في الاضطراب القلقي العام/اضطراب الهلع؛ يُستخدم ألبرازولام كتعزيز للتخفيف السريع للأعراض، مع احتمال التقاط جودة النوم كجزء من نتائج القلق المركبة |
+| [NCT01584440](https://clinicaltrials.gov/study/NCT01584440) | المرحلة 2 | مكتملة | 220 | دراسة عمياء مضاعفة، دراسة خاضعة للمراقبة بالعقار الوهمي المزدوج لـ AVP-923 (ديكستروميثورفان/كينيدين) للهياج في الزهايمر؛ يخدم ألبرازولام على الأرجح كمقارنة نشطة في التصميم الخاضع للمراقبة المزدوج، مع الهياج المرتبط بالنوم كمجال ثانوي |
+| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | مكتملة | 170 | تدخل إدارة ذاتية إلكترونية لتعزيز التوقف عن البنزوديازيبينات (بما في ذلك ألبرازولام، الموصوف للقلق والنوم) لدى المحاربين القدماء الأمريكيين؛ اتجاه الدراسة هو عكس الوصف وليس بدء العلاج |
+| [NCT03327506](https://clinicaltrials.gov/study/NCT03327506) | المرحلة 4 | غير معروف | 128 | مقارنة جلسة التنويم المغناطيسي مقابل تهدئة ألبرازولام قبل العملية للقلق حول العملية في جراحة أمراض النساء؛ توثق الاستخدام القياسي لألبرازولام كتهدئة قبل العملية وليست دراسة أرق أساسية |
+| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | المرحلة 2 | مُنهيَة | 2 | غابابنتين مقابل دواء وهمي لعلاج إدمان البنزوديازيبينات (بما في ذلك ألبرازولام)؛ تم إنهاؤها مبكراً بسبب التسجيل المنخفض بشكل حرج (N=2)؛ تعالج مخاطر الإدمان وليس فعالية الأرق |
+| [NCT01146600](https://clinicaltrials.gov/study/NCT01146600) | المرحلة 2 | مكتملة | 26 | كلاريثروميسين لفرط النوم مجهول السبب؛ ألبرازولام ليس عاملاً أساسياً؛ الاستطباب (فرط النوم — النعاس المفرط في النهار) هو اتجاه معاكس للأرق |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Observational Study | Medicine | Retrospective study (N=116) comparing alprazolam alone vs Du Meridian moxibustion + ear acupuncture in patients with coronary heart disease and insomnia; alprazolam used as active control, directly demonstrating its clinical role in insomnia management |
-| [33403184](https://pubmed.ncbi.nlm.nih.gov/33403184/) | 2020 | Comparative Study (RCT-like) | Cureus | Head-to-head comparison of alprazolam vs melatonin for sleep disturbances in end-stage renal disease patients on hemodialysis; directly evaluates alprazolam efficacy and safety profile for insomnia in a specific high-risk population |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharmaceutica (Zagreb) | Systematic meta-analysis of tranquilizers (including benzodiazepines) for elderly patients with chronic non-communicable diseases; assesses optimal dosing, efficacy endpoints, and adverse effects relevant to sleep disorder management |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclinical Study | Aging | Proteomic analysis showing repeated alprazolam administration (24-day murine model) causes mitochondrial dysfunction and hippocampus-dependent memory consolidation impairment; identifies 439 differentially expressed proteins underlying cognitive adverse effects |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Predictive Model / Epidemiology | Value in Health Regional Issues | 10-year predictive model of benzodiazepine use in Croatia; BZDs widely prescribed for anxiety, insomnia, and epilepsy, with documented long-term risks including memory loss, Alzheimer's association, dependence, and fall risk in the elderly |
-| [25532388](https://pubmed.ncbi.nlm.nih.gov/25532388/) | 2014 | Real-world Observational | China Journal of Chinese Materia Medica | Real-world analysis of 1,067 insomnia inpatients across 20 hospitals; documents concurrent diseases (hypertension 26.9%, cerebrovascular disease) and prescribing patterns of Western medicines including benzodiazepines for insomnia |
-| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | Cross-sectional | Medicine | Cross-sectional survey (Dec 2022–Feb 2023) of insomnia among COVID-19 survivors using the Insomnia Severity Index (ISI); characterizes post-COVID insomnia prevalence and pharmacological management patterns |
-| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohort | JHEP Reports | Retrospective cohort study showing deprescribing of zolpidem/benzodiazepines in cirrhosis patients significantly reduces falls and fractures; highlights the safety imperative of minimising hypnotic use in hepatically compromised patients |
-| [35041261](https://pubmed.ncbi.nlm.nih.gov/35041261/) | 2022 | RCT | Brain and Behavior | RCT evaluating eszopiclone for sleep quality and cognitive function in elderly Alzheimer's patients with sleep disorders; provides comparative context for benzodiazepine vs non-BZD hypnotics in the elderly |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opinion on Drug Metabolism & Toxicology | Pharmacokinetic review of anxiolytic drugs including benzodiazepines; documents absorption, distribution, metabolism, and elimination parameters relevant to dosing optimisation for both anxiety and sleep indications |
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | دراسة رصدية | Medicine | دراسة بأثر رجعي (N=116) تقارن ألبرازولام وحده مقابل الكي بخط الزوال Du + الوخز بالإبر في الأذن لدى المرضى الذين يعانون من مرض القلب التاجي والأرق؛ يُستخدم ألبرازولام كمقابل نشط، مما يُظهر مباشرة دوره السريري في إدارة الأرق |
+| [33403184](https://pubmed.ncbi.nlm.nih.gov/33403184/) | 2020 | دراسة مقارنة (RCT-like) | Cureus | مقارنة وجهاً لوجه بين ألبرازولام والميلاتونين لاضطرابات النوم لدى مرضى أمراض الكلى النهائية على غسيل كلى؛ تقيّم مباشرة فعالية ألبرازولام وملف السلامة للأرق في مجموعة سكانية عالية المخاطر المحددة |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | تحليل فوقي | Acta Pharmaceutica (Zagreb) | تحليل نظامي فوقي للمهدئات (بما في ذلك البنزوديازيبينات) للمرضى المسنين الذين يعانون من أمراض مزمنة غير معدية؛ يقيّم الجرعات المثلى ونقاط نهاية الفعالية والآثار الضارة ذات الصلة بإدارة اضطرابات النوم |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | دراسة سابقة للسريرية | Aging | تحليل بروتيومي يُظهر أن إدارة ألبرازولام المتكررة (نموذج قوارض لمدة 24 يوماً) تسبب قصوراً في الميتوكوندريا وضعفاً في توحيد الذاكرة الذي يعتمد على الحصين؛ يحدد 439 بروتين معبّراً عنه بشكل مختلف يقوم بدعم الآثار الضارة المعرفية |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | نموذج تنبؤي / علم الأوبئة | Value in Health Regional Issues | نموذج تنبؤي لمدة 10 سنوات لاستخدام البنزوديازيبينات في كرواتيا؛ توصف البنزوديازيبينات على نطاق واسع للقلق والأرق والصرع، مع مخاطر طويلة الأجل موثقة بما في ذلك فقدان الذاكرة، والارتباط بالزهايمر، والإدمان، ومخاطر السقوط لدى المسنين |
+| [25532388](https://pubmed.ncbi.nlm.nih.gov/25532388/) | 2014 | رصد حقيقي في العالم الفعلي | China Journal of Chinese Materia Medica | تحليل حقيقي للعالم الفعلي لـ 1,067 مريضاً بالأرق في 20 مستشفى؛ توثق الأمراض المشتركة (ارتفاع ضغط الدم 26.9%، مرض الأوعية الدموية الدماغية) وأنماط وصف الأدوية الغربية بما في ذلك البنزوديازيبينات للأرق |
+| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | عرضي مقطعي | Medicine | مسح عرضي مقطعي (ديسمبر 2022–فبراير 2023) للأرق بين الناجين من كوفيد-19 باستخدام مؤشر شدة الأرق (ISI)؛ يصف انتشار الأرق بعد كوفيد وأنماط الإدارة الدوائية |
+| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | أفراد | JHEP Reports | دراسة أفراد بأثر رجعي تُظهر أن إلغاء وصف زولبيديم/البنزوديازيبينات لدى مرضى تليف الكبد يقلل بشكل كبير من السقوط والكسور؛ يسلط الضوء على الأهمية الحتمية لتقليل استخدام الأدوية المنومة في المرضى الذين يعانون من ضعف الكبد |
+| [35041261](https://pubmed.ncbi.nlm.nih.gov/35041261/) | 2022 | RCT | Brain and Behavior | دراسة عشوائية خاضعة للمراقبة تقيّم إسزوبيكلون لجودة النوم والوظيفة الإدراكية لدى مرضى الزهايمر المسنين الذين يعانون من اضطرابات النوم؛ توفر سياقاً مقارناً للبنزوديازيبينات مقابل الأدوية المنومة غير البنزوديازيبينية لدى المسنين |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | المراجعة | Expert Opinion on Drug Metabolism & Toxicology | مراجعة الحرائك الدوائية للأدوية القاضية على القلق بما في ذلك البنزوديازيبينات؛ توثق معاملات الامتصاص والتوزيع والتمثيل الغذائي والتخلص ذات الصلة بتحسين الجرعات لكل من استطبابات القلق والنوم |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-> **Important Note:** Formal safety data (key warnings, contraindications, drug interaction profile) were not available in the current Evidence Pack. Alprazolam is a Schedule IV controlled substance under international conventions (UN Convention on Psychotropic Substances). Its well-established safety concerns — including physical dependence, tolerance development within 2–4 weeks, rebound insomnia upon discontinuation, anterograde amnesia, respiratory depression (particularly in combination with opioids or alcohol), and cognitive decline in elderly populations — must be thoroughly reviewed from the official prescribing information before any clinical deployment or formulary decision.
+> **ملاحظة مهمة:** بيانات السلامة الرسمية (التحذيرات الرئيسية وموانع الاستعمال وملف تفاعل الأدوية) لم تكن متاحة في حزمة الأدلة الحالية. ألبرازولام هو مادة مراقبة الجدول الرابع بموجب الاتفاقيات الدولية (اتفاقية الأمم المتحدة بشأن المواد ذات التأثير النفساني). يجب مراجعة مخاطره المعروفة جيداً — بما في ذلك الإدمان الجسدي، وتطور التحمل خلال 2–4 أسابيع، والأرق الارتجاعي عند التوقف، وفقدان الذاكرة المباشرة، والاكتئاب التنفسي (خاصة بالاقتران مع الأفيونيات أو الكحول)، وانخفاض الإدراك لدى السكان المسنين — بعمق من المعلومات الرسمية الخاصة بالوصف قبل أي نشر سريري أو قرار بشأن الصيغة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات**
 
-**Rationale:**
-Alprazolam's GABA-A positive allosteric modulation provides a strong mechanistic basis for insomnia treatment, and comparative observational studies (including a direct alprazolam vs melatonin trial in hemodialysis patients and use as active control in an insomnia-comorbid cardiac population) confirm its real-world clinical role. However, its unfavourable long-term risk profile — dependence, tolerance, cognitive impairment — means deployment must be tightly scoped, monitored, and time-limited.
+**المبررات:**
+توفر تعديل GABA-A الإيجابي الموضعي لألبرازولام أساساً آلياً قوياً لعلاج الأرق، والدراسات الرصدية المقارنة (بما في ذلك تجربة مقارنة مباشرة بين ألبرازولام والميلاتونين لدى مرضى غسيل الكلى واستخدام كمقابل نشط في مجموعة سكانية قلبية مع أرق مشترك) تؤكد دوره السريري في العالم الفعلي. ومع ذلك، فإن ملف المخاطر غير المفضل على المدى الطويل — الإدمان والتحمل وضعف الإدراك — يعني أن النشر يجب أن يكون محصوراً بإحكام ومراقباً وله حد زمني.
 
-**To proceed, the following is needed:**
-- **Regulatory pathway:** Confirm SFDA controlled substance classification and import requirements for alprazolam in Saudi Arabia before any formulary submission
-- **Full safety data:** Retrieve official package insert (PI/SmPC) for complete warnings, contraindications, and drug interaction profile; DDI data was not found in the current search
-- **MOA documentation:** Retrieve formal MOA data from DrugBank (DG002) to complete mechanistic analysis for the regulatory dossier
-- **Patient population definition:** Restrict to well-defined subpopulations (e.g., short-term use in anxiety-comorbid insomnia, ≤4 weeks, adult non-elderly patients without respiratory compromise or substance use history)
-- **Comparative effectiveness review:** Position alprazolam against first-line CBT-I and currently available non-BZD hypnotics (eszopiclone, zolpidem, doxepin) to define the clinical niche in Saudi Arabia practice
-- **Risk management plan:** Mandatory monitoring protocol covering dependence screening, dose limitation, mandatory reassessment at 2 and 4 weeks, and a documented deprescribing pathway
+**للمضي قدماً، يلزم ما يلي:**
+- **المسار التنظيمي:** تأكيد تصنيف مادة مراقبة SFDA ومتطلبات الاستيراد لألبرازولام في المملكة العربية السعودية قبل أي تقديم للصيغة
+- **بيانات السلامة الكاملة:** استرجاع نشرة المنتج الرسمية (PI/SmPC) للحصول على تحذيرات كاملة وموانع الاستعمال وملف التفاعل بين الأدوية؛ لم يتم العثور على بيانات DDI في البحث الحالي
+- **توثيق الآلية:** استرجاع بيانات الآلية الرسمية من DrugBank (DG002) لإكمال التحليل الآلي لملف التسجيل التنظيمي
+- **تعريف مجموعة المريض:** تقتصر على مجموعات سكانية محددة جيداً (على سبيل المثال، الاستخدام قصير الأجل في الأرق المشترك مع القلق، ≤4 أسابيع، مرضى بالغون غير مسنين بدون اختطار تنفسي أو تاريخ استخدام مواد)
+- **مراجعة الفعالية المقارنة:** وضع ألبرازولام مقابل CBT-I من الخط الأول والأدوية المنومة غير البنزوديازيبينية المتاحة حالياً (إسزوبيكلون، زولبيديم، دوكسيبين) لتعريف المكانة السريرية في الممارسة السعودية
+- **خطة إدارة المخاطر:** بروتوكول مراقبة إلزامي يغطي فحص الإدمان وتحديد الجرعات والمراجعة الإلزامية في أسابيع 2 و4 ومسار إلغاء وصف موثق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

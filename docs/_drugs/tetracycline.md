@@ -29,83 +29,80 @@ indication_count: 4
 
 </div>
 
-Using the report template supplied in this turn (no additional skill needed — it's a fully-specified document-generation task). Note: per the format rules, "Predicted New Indication" = `predicted_indications[0]`, which in this Evidence Pack is **punctate epithelial keratoconjunctivitis** (rank 1 by TxGNN score) — not chronic rhinosinusitis (rank 3), which actually has the stronger evidence base. I flag that discrepancy in the Next Steps section rather than silently substituting it.
+# التتراسيكلين: من العدوى البكتيرية إلى التهاب القرنية والملتحمة النقطي الظهاري
+
+## ملخص في جملة واحدة
+
+> التتراسيكلين هو مضاد حيوي ذو طيف واسع من فئة التتراسيكلينات يُستخدم تقليدياً ضد العدوى البكتيرية الحساسة، بما في ذلك عدوى الكلاميديا.
+> تتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب القرنية والملتحمة النقطي الظهاري**،
+> لكن هذا الاتجاه مدعوم حالياً بـ **تقرير حالة تاريخي واحد فقط** و **بدون تجارب سريرية مسجلة**.
 
 ---
 
-# Tetracycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Tetracycline is a broad-spectrum tetracycline-class antibiotic classically used against susceptible bacterial infections, including chlamydial infections.
-> The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-> but this direction is currently supported by only **1 historical case report** and **no registered clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in Saudi Arabia regulatory data (product not marketed locally); tetracycline is classically indicated for susceptible bacterial infections |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير موثق في بيانات تنظيم المملكة العربية السعودية (المنتج غير مسوق محلياً)؛ يشار إلى التتراسيكلين تقليدياً للعدوى البكتيرية الحساسة |
+| المؤشر الجديد المتنبأ به | التهاب القرنية والملتحمة النقطي الظهاري |
+| درجة توقع TxGNN | 99.58% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تجميد |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, tetracycline is a tetracycline-class antibiotic whose efficacy against susceptible bacterial infections (including *Chlamydia trachomatis*) is well established through inhibition of bacterial protein synthesis; mechanistically this class has long been used for chlamydial ocular and follicular conjunctivitis.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المعروفة، التتراسيكلين هو مضاد حيوي من فئة التتراسيكلينات التي ثبت فعاليتها ضد العدوى البكتيرية الحساسة (بما في ذلك *Chlamydia trachomatis*) بشكل جيد من خلال منع تخليق البروتين البكتيري؛ من الناحية الآلية، تُستخدم هذه الفئة منذ فترة طويلة لالتهاب الملتحمة العيني والجريبي الناجم عن الكلاميديا.
 
-However, the mechanistic link supplied for this specific prediction is indirect. The single supporting publication (PMID 1424659) describes two patients whose punctate epithelial keratitis **developed after** their underlying chlamydial follicular conjunctivitis had already resolved with oral tetracycline or doxycycline — it is an observational account of a post-infectious complication, not a study evaluating tetracycline as treatment for the keratitis itself. The TxGNN association should therefore be read as a hypothesis generated from disease co-occurrence in the literature rather than as direct treatment evidence.
+ومع ذلك، فإن الارتباط الآلي المزود لهذا التنبؤ المحدد غير مباشر. تصف المنشورة الداعمة الوحيدة (PMID 1424659) حالتي مريضين طورا التهاب القرنية النقطي الظهاري **بعد** شفاء التهاب الملتحمة الجريبي الناجم عن الكلاميديا الأساسي لديهما بالفعل بالتتراسيكلين الفموي أو الدوكسيسيكلين — وهو تقرير مراقبة لمضاعفة ما بعد العدوى، وليس دراسة تقيّم التتراسيكلين كعلاج لالتهاب القرنية نفسه. وبالتالي، يجب قراءة ارتباط TxGNN كفرضية مستمدة من التزامن المرضي في الأدبيات بدلاً من اعتباره دليلاً على العلاج المباشر.
 
-Given the absence of MOA confirmation, absence of dedicated clinical trials, and the observational (non-interventional) nature of the sole literature source, mechanistic plausibility for this indication remains unconfirmed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+نظراً لغياب تأكيد آلية العمل، وغياب التجارب السريرية المخصصة، والطبيعة المراقبة (غير التدخلية) لمصدر الأدب الوحيد، تبقى المعقولية الآلية لهذا المؤشر غير مؤكدة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report | Cornea | Two patients treated with oral tetracycline/doxycycline for chlamydial follicular conjunctivitis subsequently developed recurrent, bilateral punctate epithelial keratitis after the conjunctivitis resolved; describes the post-infectious corneal complication, not a tetracycline treatment effect on keratitis |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدب العلمي
 
-Tetracycline is not currently marketed in Saudi Arabia — no product authorizations are on record in this Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are currently unavailable — TFDA package insert retrieval is flagged as a **blocking** data gap, DG001.)
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | تقرير حالة | Cornea | تم علاج مريضين بالتتراسيكلين الفموي/الدوكسيسيكلين لالتهاب الملتحمة الجريبي الناجم عن الكلاميديا، وطورا بشكل متكرر التهاب القرنية النقطي الظهاري الثنائي بعد شفاء التهاب الملتحمة؛ يصف المضاعفة القرنية ما بعد العدوى، وليس تأثير العلاج بالتتراسيكلين على التهاب القرنية |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+التتراسيكلين غير مسوق حالياً في المملكة العربية السعودية — لا توجد تصاريح منتجات مسجلة في هذه حقيبة الأدلة.
 
-**Rationale:**
-The top-ranked predicted indication is supported by only one 1992 case report describing an association (post-infectious keratitis following treated chlamydial conjunctivitis), not a demonstrated treatment effect, and by zero registered clinical trials. A blocking data gap on official safety/contraindication information (DG001) also prevents this candidate from clearing initial S1 safety screening, and the drug has no current market presence in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, blocking)
-- Confirmed mechanism of action data (DG002)
-- A dedicated interventional or observational study evaluating tetracycline (or a class representative) specifically for punctate epithelial keratoconjunctivitis / post-chlamydial keratitis, rather than inference from an unrelated case report
-- Drug interaction (DDI) database confirmation (currently "not_found")
-- Note: among the four TxGNN-predicted indications in this pack, **chronic rhinosinusitis** (rank 3) has a substantially stronger evidence base (4 clinical trials including Phase 3, 20 publications including 2 systematic reviews, evidence level L2) and may warrant separate, prioritized evaluation as an alternative repurposing candidate.
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة. (معلومات التحذيرات الرئيسية وموانع الاستعمال والتفاعلات الدوائية غير متاحة حالياً — تم تحديد استرجاع ملخص خصائص منتج TFDA بأنه فجوة بيانات **معيقة**، DG001.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تجميد**
+
+**المنطق:**
+يتم دعم المؤشر الأعلى ترتيباً المتنبأ به بواسطة تقرير حالة واحد فقط من عام 1992 يصف ارتباطاً (التهاب القرنية ما بعد العدوى بعد علاج التهاب الملتحمة الناجم عن الكلاميديا)، وليس تأثير العلاج المثبت، وبدون تجارب سريرية مسجلة. كما تمنع فجوة البيانات المعيقة على معلومات السلامة الرسمية/موانع الاستعمال (DG001) هذا المرشح من اجتياز فحص السلامة الأولي S1، والدواء لا يوجد له حالياً حضور في السوق في المملكة العربية السعودية.
+
+**للمتابعة، يلزم الآتي:**
+- تحذيرات ملخص خصائص منتج TFDA/SFDA وموانع الاستعمال (DG001، معيقة)
+- بيانات آلية العمل المؤكدة (DG002)
+- دراسة تدخلية أو مراقبة مخصصة تقيّم التتراسيكلين (أو ممثل فئة) على وجه التحديد لالتهاب القرنية النقطي الظهاري / التهاب القرنية ما بعد الكلاميديا، بدلاً من الاستدلال من تقرير حالة غير ذي صلة
+- تأكيد قاعدة بيانات التفاعل الدوائي (DDI) (حالياً "not_found")
+- ملاحظة: من بين المؤشرات الأربعة المتنبأ بها بواسطة TxGNN في هذه الحقيبة، **التهاب الجيوب الأنفية المزمن** (الترتيب 3) لديه قاعدة أدلة أقوى بكثير (4 تجارب سريرية بما في ذلك المرحلة 3، 20 منشور بما في ذلك 2 مراجعة منهجية، مستوى الدليل L2) وقد يستحق تقييماً منفصلاً ذا أولوية كمرشح بديل لإعادة الاستخدام.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

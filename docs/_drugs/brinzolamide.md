@@ -29,72 +29,73 @@ indication_count: 1
 
 </div>
 
-# Brinzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+# بريزولاميد: من الجلوكوما مفتوحة الزاوية إلى الجلوكوما الوراثية الأولية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Brinzolamide is a topical carbonic anhydrase inhibitor eye drop approved for reducing intraocular pressure (IOP) in open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-with a prediction confidence of **99.48%**; however, **no clinical trials or supporting publications** have been identified for this specific indication to date.
+بريزولاميد هو قطرة عين موضعية من مثبطات الأنهيدراز الكربوني معتمدة لتقليل ضغط العين (IOP) في الجلوكوما مفتوحة الزاوية وارتفاع ضغط العين.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الجلوكوما الوراثية الأولية**،
+مع ثقة التنبؤ **99.48%**؛ ومع ذلك، **لم يتم تحديد أي تجارب سريرية أو منشورات داعمة** لهذا المؤشر المحدد حتى الآن.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Open-angle glaucoma / Ocular hypertension (IOP reduction) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الجلوكوما مفتوحة الزاوية / ارتفاع ضغط العين (تقليل IOP) |
+| المؤشر الجديد المتنبأ به | الجلوكوما الوراثية الأولية |
+| درجة التنبؤ TxGNN | 99.48% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة (0 تصاريح) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Brinzolamide works by inhibiting carbonic anhydrase isoforms II and IV in the ciliary body epithelium. This suppresses bicarbonate secretion, which in turn reduces aqueous humor production and lowers intraocular pressure (IOP). The mechanism is well-characterized and forms the pharmacological basis of its established use in open-angle glaucoma.
+يعمل بريزولاميد عن طريق منع أيزوفورمات الأنهيدراز الكربوني II و IV في ظهارة الجسم الهدبي. وهذا يقلل من إفراز البيكربونات، والذي بدوره يقلل من إنتاج الرطوبة المائية ويخفض ضغط العين (IOP). الآلية موثقة جيداً وتشكل الأساس الصيدلاني لاستخدامه المثبت في الجلوكوما مفتوحة الزاوية.
 
-Primary hereditary glaucoma — encompassing genetic subtypes caused by mutations in *CYP1B1*, *MYOC*, and *FOXC1* — shares the same downstream pathological endpoint as open-angle glaucoma: sustained IOP elevation leading to optic nerve damage and progressive visual field loss. Because IOP reduction is the core therapeutic target for both forms of glaucoma, brinzolamide's mechanism directly addresses the primary disease driver in hereditary subtypes as well. The mechanistic link is therefore strong and biologically plausible.
+الجلوكوما الوراثية الأولية - التي تشمل الأنماط الوراثية الناجمة عن الطفرات في *CYP1B1* و *MYOC* و *FOXC1* - تشترك في نقطة النهاية المرضية نفسها مع الجلوكوما مفتوحة الزاوية: ارتفاع مستمر في ضغط العين يؤدي إلى تلف العصب البصري والفقدان التدريجي للحقل البصري. لأن تقليل ضغط العين هو الهدف العلاجي الأساسي لكلا شكلي الجلوكوما، فإن آلية بريزولاميد تعالج مباشرة محرك المرض الأساسي في الأنماط الوراثية أيضاً. وبالتالي، فإن الارتباط الآلي قوي وموثوق بيولوجياً.
 
-That said, the hereditary subtypes often involve structural abnormalities of the trabecular meshwork (a developmental defect in outflow resistance), which is a distinct pathological process from pure secretory dysfunction. Brinzolamide acts on the inflow side (reducing production), not the outflow obstruction — so while it can lower IOP symptomatically, it does not correct the underlying structural defect. This limits its therapeutic scope in hereditary glaucoma compared to open-angle disease, and clinical benefit may be partial.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for brinzolamide in primary hereditary glaucoma.
+ومع ذلك، فإن الأنماط الوراثية غالباً ما تتضمن تشوهات هيكلية في الشبكة التربيقية (عيب نمائي في مقاومة الصرف)، وهي عملية مرضية مختلفة عن القصور الإفرازي البحت. يعمل بريزولاميد على جانب الإنتاج (تقليل الإفراز)، وليس على انسداد الصرف - لذا بينما يمكنه تقليل ضغط العين من الناحية العرضية، فإنه لا يصحح العيب الهيكلي الأساسي. هذا يحد من نطاقه العلاجي في الجلوكوما الوراثية مقارنة بأمراض مفتوحة الزاوية، وقد تكون الفائدة السريرية جزئية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for brinzolamide specifically in primary hereditary glaucoma.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لبريزولاميد في الجلوكوما الوراثية الأولية.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب
 
-**Decision: Hold**
+لا توجد حالياً أدلة أدبية ذات صلة متاحة لبريزولاميد على وجه التحديد في الجلوكوما الوراثية الأولية.
 
-**Rationale:**
-The mechanistic link between brinzolamide's IOP-lowering action and the pathophysiology of primary hereditary glaucoma is sound, but there is no clinical trial or published literature evidence to support efficacy in this genetic subtype specifically. Combined with zero regulatory authorizations in the Saudi Arabia market, the evidence base is insufficient to advance beyond a research hypothesis at this stage.
+---
 
-**To proceed, the following is needed:**
-- Systematic literature search for brinzolamide or other carbonic anhydrase inhibitors (e.g., dorzolamide) in hereditary / juvenile open-angle glaucoma to establish analogous evidence
-- Preclinical studies in *CYP1B1* / *MYOC* / *FOXC1* mutant animal models confirming IOP-lowering efficacy and magnitude
-- Formal mechanism of action documentation (MOA data gap DG002) from DrugBank to complete the mechanistic link analysis
-- TFDA / FDA package insert review (data gap DG001) to assess contraindications, particularly in paediatric populations (primary hereditary glaucoma frequently presents in infancy or childhood)
-- Regulatory pathway assessment for Saudi Arabia given current zero-authorization status
-- If preclinical signals are confirmed, design a Phase 2 proof-of-concept trial in genetically confirmed primary hereditary glaucoma patients measuring IOP reduction as primary endpoint
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: Hold**
+
+**المبرر:**
+الارتباط الآلي بين تأثير بريزولاميد الخافض لضغط العين وبيولوجيا مرض الجلوكوما الوراثية الأولية سليم، لكن لا توجد أدلة من التجارب السريرية أو الدراسات المنشورة لدعم الفعالية في هذا النمط الوراثي المحدد. وفي ضوء صفر التصاريح التنظيمية في سوق المملكة العربية السعودية، فإن قاعدة الأدلة غير كافية للمضي قدماً إلى ما وراء الفرضية البحثية في هذه المرحلة.
+
+**للمضي قدماً، يلزم التالي:**
+- بحث منهجي في الأدب الطبي عن بريزولاميد أو مثبطات الأنهيدراز الكربوني الأخرى (مثل دورزولاميد) في الجلوكوما مفتوحة الزاوية الوراثية/اليافعة لإرساء أدلة قياسية
+- دراسات قبل سريرية في نماذج حيوانية تحمل طفرات *CYP1B1* / *MYOC* / *FOXC1* تؤكد فعالية خفض ضغط العين والحجم
+- توثيق آلية العمل الرسمية (فجوة البيانات MOA DG002) من DrugBank لإكمال تحليل الارتباط الآلي
+- مراجعة النشرة الطبية TFDA / FDA (فجوة البيانات DG001) لتقييم موانع الاستعمال، خاصة في السكان الأطفال (الجلوكوما الوراثية الأولية تظهر بشكل متكرر في سن الرضاعة أو الطفولة)
+- تقييم المسار التنظيمي للمملكة العربية السعودية في ضوء حالة الصفر تصاريح الحالية
+- إذا تم تأكيد الإشارات قبل السريرية، يتم تصميم تجربة Phase 2 لإثبات المفهوم في مرضى الجلوكوما الوراثية الأولية المؤكدين وراثياً، بقياس تقليل ضغط العين كنقطة نهاية أولية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

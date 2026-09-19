@@ -29,87 +29,84 @@ indication_count: 6
 
 </div>
 
-The txgnn-pipeline skill is for technical pipeline operations — it doesn't override the report generation task. Proceeding with the report per the system prompt format.
+# ديجوكسين: من قصور القلب إلى ذبحة برينزميتال
+
+## ملخص جملة واحدة
+
+ديجوكسين هو غليكوسيد قلبي استُخدم تاريخيًا لعلاج قصور القلب والتحكم بمعدل البطين في الرجفان الأذيني.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ذبحة برينزميتال** (الذبحة الصدرية الناجمة عن تشنج الشرايين التاجية)،
+مع **0 تجارب سريرية** و**2 منشور** حاليًا في الأدلة — لا يدعم أي منهما هذا الاستخدام بشكل مباشر.
 
 ---
 
-# Digoxin: From Heart Failure to Prinzmetal Angina
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Digoxin is a cardiac glycoside historically used to treat heart failure and control ventricular rate in atrial fibrillation.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina** (coronary artery vasospastic angina),
-with **0 clinical trials** and **2 publications** currently in evidence — neither of which directly supports this use.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Heart failure; atrial fibrillation rate control (based on pharmacological class; no Saudi Arabia regulatory record) |
-| Predicted New Indication | Prinzmetal Angina |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | قصور القلب؛ التحكم بمعدل البطين في الرجفان الأذيني (بناءً على الفئة الدوائية؛ لا توجد سجلات تنظيمية في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | ذبحة برينزميتال |
+| درجة التنبؤ في TxGNN | 99.81% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقول؟
 
-Digoxin is a cardiac glycoside that works by inhibiting the Na⁺/K⁺-ATPase pump on cardiomyocytes. This raises intracellular sodium, which in turn increases intracellular calcium via the Na⁺/Ca²⁺ exchanger, producing a positive inotropic effect (stronger heart contractions). Digoxin also activates the vagus nerve, slowing conduction through the AV node and reducing heart rate — making it useful in heart failure with reduced ejection fraction and in ventricular rate control for atrial fibrillation.
+ديجوكسين هو غليكوسيد قلبي يعمل على تثبيط مضخة Na⁺/K⁺-ATPase على خلايا عضلة القلب. وهذا يرفع تركيز الصوديوم داخل الخلايا، الذي بدوره يزيد الكالسيوم داخل الخلايا عبر ناقل Na⁺/Ca²⁺، مما ينتج عنه تأثير موجب على التقلصية (تقلصات قلبية أقوى). يقوم ديجوكسين أيضًا بتحفيز العصب المبهم، مما يبطئ التوصيل عبر العقدة الأذينية البطينية ويقلل معدل ضربات القلب — مما يجعله مفيدًا في قصور القلب مع جزء الضخ المنخفض والتحكم بمعدل البطين في الرجفان الأذيني.
 
-The TxGNN prediction likely traces back to Digoxin's historical use in **angina decubitus** (recumbent angina), where its vagal-stimulating effect was thought to modify coronary tone. Since Prinzmetal angina and angina decubitus both occur predominantly at rest and share similar clinical presentation patterns, the knowledge graph may have created a proximity-based association between Digoxin and Prinzmetal angina.
+من المحتمل أن يعود التنبؤ في TxGNN إلى الاستخدام التاريخي لديجوكسين في **الذبحة الصدرية الاستحمية** (angina decubitus)، حيث كان يُعتقد أن تأثيره المحفز للعصب المبهم يعدل نبرة الأوعية التاجية. بما أن ذبحة برينزميتال والذبحة الصدرية الاستحمية تحدثان بشكل أساسي أثناء الراحة وتتشابهان في أنماط العرض السريرية، فقد تكون خريطة المعرفة قد أنشأت ارتباطًا قائمًا على القرب بين ديجوكسين وذبحة برينزميتال.
 
-However, this prediction carries a significant mechanistic concern. Prinzmetal angina is driven by **coronary artery vasospasm**, and Digoxin's core mechanism — increasing intracellular Ca²⁺ — could theoretically **worsen** vasospasm by enhancing smooth muscle contractility. The established standard of care for Prinzmetal angina is calcium channel blockers (e.g., amlodipine, diltiazem), which directly counteract this effect. The predicted mechanism and the known pathophysiology are in direct opposition, representing a potential safety risk rather than a therapeutic opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، يحمل هذا التنبؤ مخاوف آلية كبيرة. يتم تشغيل ذبحة برينزميتال بواسطة **تشنج الشرايين التاجية**، وآلية ديجوكسين الأساسية — زيادة الكالسيوم داخل الخلايا — يمكن نظريًا أن **تفاقم الحالة** بتعزيز انقباضية العضلات الملساء. العلاج القياسي المثبت لذبحة برينزميتال هو حاصرات قنوات الكالسيوم (مثل أملوديبين، ديلتيازيم)، التي تعارض هذا التأثير مباشرة. الآلية المتنبأ بها والفيزيوباثولوجيا المعروفة في تضاد مباشر، مما يمثل خطر أمان محتمل بدلاً من فرصة علاجية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا.
+
+---
+
+## الدليل الأدبي
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Narrative Review | Chinese Medical Sciences Journal | Hemodynamic monitoring of 30 angina decubitus patients showing increased pulmonary artery pressure preceding attacks; discusses treatment mechanisms for rest angina but does not evaluate Digoxin for Prinzmetal angina specifically |
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Narrative Review | Acta Physiologica et Pharmacologica Bulgarica | Review of circadian rhythms in antihypertensive pharmacology; discusses time-of-day cardiovascular event patterns but is not a study of Digoxin in vasospastic angina |
+| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | استعراض سردي | Chinese Medical Sciences Journal | المراقبة الديناميكية الدموية لـ 30 مريضًا بالذبحة الصدرية الاستحمية يظهرون ارتفاع ضغط الشرايين الرئوية قبل النوبات؛ يناقش آليات العلاج للذبحة الصدرية في الراحة لكن لا يقيم ديجوكسين لذبحة برينزميتال بشكل محدد |
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | استعراض سردي | Acta Physiologica et Pharmacologica Bulgarica | استعراض الإيقاعات اليومية في الصيدلة المضادة لارتفاع ضغط الدم؛ يناقش أنماط أحداث القلب والأوعية الدموية حسب وقت اليوم لكن ليس دراسة لديجوكسين في الذبحة الصدرية الناجمة عن التشنج |
 
-> **Note:** Both publications are Tier 3 Narrative Reviews with indirect relevance only. Neither provides supportive evidence for Digoxin use in Prinzmetal angina.
-
----
-
-## Saudi Arabia Market Information
-
-Digoxin is not currently registered or marketed in Saudi Arabia. No regulatory authorizations are on record.
+> **ملاحظة:** كلا المنشورين عبارة عن استعراضات سردية من المستوى الثالث ذات صلة غير مباشرة فقط. لا يوفر أي منهما دليلاً داعمًا لاستخدام ديجوكسين في ذبحة برينزميتال.
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
-
-> **Pharmacological safety flag:** Based on mechanistic reasoning, Digoxin's elevation of intracellular Ca²⁺ poses a theoretically **contraindicated** profile for Prinzmetal angina — a condition where calcium channel blockade is the standard of care. This concern should be explicitly addressed before any further evaluation of this repurposing candidate.
+ديجوكسين غير مسجل أو مسوق حاليًا في المملكة العربية السعودية. لا توجد موافقات تنظيمية مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-The evidence base is limited to two tangentially related narrative reviews (L4), and more critically, Digoxin's core mechanism of increasing intracellular Ca²⁺ is mechanistically opposed to the treatment goal in Prinzmetal angina — where coronary vasospasm must be relieved, not potentiated. This prediction is most likely a knowledge graph proximity artifact arising from Digoxin's historical association with angina decubitus, not a genuine therapeutic signal.
+> **علم السلامة الدوائي:** بناءً على التفكير الآلي، فإن رفع ديجوكسين للكالسيوم داخل الخلايا يشكل ملف تعريف **مضاد للاستطباب** نظريًا لذبحة برينزميتال — وهي حالة حيث يكون حصار قنوات الكالسيوم هو العلاج القياسي. يجب معالجة هذا القلق بشكل صريح قبل أي تقييم إضافي لهذا المرشح لإعادة التوظيف.
 
-**To proceed, the following is needed:**
-- Preclinical vasospasm model studies (e.g., isolated coronary artery ring assays) to determine whether Digoxin worsens, is neutral, or has a paradoxical benefit on coronary artery tone
-- Full MOA documentation from DrugBank (Data Gap DG002) to confirm or refute the Ca²⁺-mediated vasospasm concern
-- Pharmacovigilance review: case reports of Digoxin use in patients with co-existing vasospastic angina
-- Safety and regulatory data from the package insert (Data Gap DG001) before any clinical feasibility assessment can be initiated
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+قاعدة الأدلة محدودة بمنشورين استعراضيين سرديين ذي صلة غير مباشرة (L4)، والأهم من ذلك أن آلية ديجوكسين الأساسية لزيادة الكالسيوم داخل الخلايا معارضة ميكانيكيًا لهدف العلاج في ذبحة برينزميتال — حيث يجب تخفيف تشنج الشرايين التاجية وليس تفاقمه. هذا التنبؤ هو على الأرجح قطعة أثرية من خريطة المعرفة ناشئة عن الارتباط التاريخي لديجوكسين مع الذبحة الصدرية الاستحمية، وليس إشارة علاجية حقيقية.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسات نموذج التشنج ما قبل السريرية (مثل فحوصات حلقات الشرايين التاجية المعزولة) لتحديد ما إذا كان ديجوكسين يفاقم أو محايدًا أو له منفعة متناقضة على نبرة الشرايين التاجية
+- توثيق آلية العمل الكاملة من DrugBank (فجوة البيانات DG002) للتأكيد أو استبعاد قلق التشنج الناجم عن Ca²⁺
+- استعراض اليقظة الصيدلانية: تقارير الحالات لاستخدام ديجوكسين لدى المرضى الذين يعانون من ذبحة صدرية ناجمة عن التشنج المصاحبة
+- بيانات السلامة والبيانات التنظيمية من نشرة المعلومات (فجوة البيانات DG001) قبل إمكانية بدء أي تقييم لجدوى سريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

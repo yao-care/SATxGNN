@@ -29,99 +29,100 @@ indication_count: 10
 
 </div>
 
-# Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+# توسيليزوماب: من التهاب المفاصل الروماتويدي إلى التهاب الفقرات اللاصق
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Tocilizumab is a humanized anti-IL-6 receptor monoclonal antibody originally developed for rheumatoid arthritis (RA) and related autoimmune conditions. The TxGNN model ranks **Ankylosing Spondylitis** as its top predicted new indication with a **99.99%** score, and **9 clinical trials** and **19 publications** are available — but the two pivotal Phase 3 RCTs among them were both terminated for lack of efficacy, directly contradicting the prediction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid Arthritis (inferred from evidence-pack rationale; no official Saudi label text available — see note below) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-*Note: `taiwan_regulatory.licenses` is empty (drug not marketed in Saudi Arabia), so the original indication cannot be sourced from an approved label. It is inferred from repeated statements in the evidence pack's own repurposing rationale (e.g., "IL-6 is a key pathogenic factor in RA") and from literature abstracts describing tocilizumab's approved use.*
+توسيليزوماب هو جسم مضاد أحادي النسيلة إنساني يستهدف مستقبل إل-6 (anti-IL-6 receptor monoclonal antibody) وقد تم تطويره في الأصل لالتهاب المفاصل الروماتويدي والحالات المناعية الذاتية ذات الصلة. يصنف نموذج TxGNN **التهاب الفقرات اللاصق** كأعلى تشخيص جديد متنبأ به برصيد **99.99%**، و**9 تجارب سريرية** و**19 منشورة** متاحة — لكن التجربتين الرئيسيتين من المرحلة الثالثة بينهما تم إيقافهما لعدم الفعالية، وهو ما يناقض التنبؤ مباشرة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## لمحة عامة سريعة
 
-Detailed mechanism-of-action data was not returned for this drug (Data Gap DG002, High severity). Based on information embedded in the evidence pack itself, tocilizumab is a humanized monoclonal antibody that blocks the IL-6 receptor (IL-6R), and its efficacy in RA — a disease driven substantially by IL-6-mediated synovial inflammation — is well established across the accompanying literature.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | التهاب المفاصل الروماتويدي (مستنتج من منطق حزمة الأدلة؛ لا يوجد نص تصنيف سعودي رسمي — انظر الملاحظة أدناه) |
+| المؤشر الجديد المتنبأ به | التهاب الفقرات اللاصق |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الأدلة | L1 |
+| حالة السوق السعودية | ✗ غير موجود في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
-The mechanistic rationale for extrapolating to ankylosing spondylitis (AS) is that IL-6 is a pro-inflammatory cytokine implicated broadly in rheumatic disease pathology, and AS shares clinical and immunological overlap with RA as a chronic inflammatory arthritis. TxGNN's knowledge-graph proximity between IL-6R blockade and AS reflects this superficially plausible link.
-
-However, this mechanistic extrapolation has already been **directly tested and refuted in humans**. Two Phase 3 randomized, double-blind, placebo-controlled trials (BUILDER-1, NCT01209689; BUILDER-2, NCT01209702) were both terminated early because tocilizumab failed to separate from placebo on ASAS20/40 response. The dominant literature consensus (e.g., PMID 22452603, "Antagonizing IL-6 in ankylosing spondylitis") attributes this to axial spondyloarthritis being driven predominantly by the TNF-α/IL-17 axis rather than IL-6, unlike RA. This is a case where the TxGNN score is very high, but confirmatory human trial evidence points the opposite direction.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Phase 3 | Terminated | 113 | BUILDER-1: RCT in TNF-inadequate-responder AS patients; terminated early at interim analysis for lack of efficacy (ASAS20/40 not met) — direct negative evidence. |
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Phase 2/3 | Terminated | 306 | BUILDER-2: seamless Ph2/3 RCT in TNF-naïve AS patients; terminated for insufficient efficacy, consistent with BUILDER-1 — confirms IL-6 blockade does not work in AS. |
-| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Phase 2 | Not yet recruiting | 52 | Bayesian RCT of secukinumab (not tocilizumab) in Takayasu arteritis; related large-vessel vasculitis population, not directly informative for AS. |
-| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Recruiting | 2500 | Observational biomarker/cytokine-profiling study across systemic inflammatory diseases; not treatment-specific. |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Recruiting | 10000 | Korean nationwide biologics/tsDMARD registry covering RA, AS and PsA; real-world safety observation, no hypothesis testing. |
-| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Completed | 60 | Mechanistic study of tocilizumab's effect on T follicular helper cells in RA patients; translational immunology, not an AS efficacy trial. |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty; not AS-specific efficacy data. |
-| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Completed | 1431 | Real-world observational study of Inflectra (infliximab, not tocilizumab); low relevance. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750000 | Population-level study of incident immune-mediated inflammatory disease risk under biologics/immunosuppressants; class-level, not tocilizumab-specific. |
+*ملاحظة: `taiwan_regulatory.licenses` فارغة (الدواء غير موجود في السوق السعودية)، لذا لا يمكن تحديد المؤشر الأصلي من ملصق موافق عليه رسميًا. يتم استنتاجه من البيانات المكررة في منطق إعادة استخدام حزمة الأدلة ذاتها (مثل "إل-6 هو عامل مسبب رئيسي في التهاب المفاصل الروماتويدي") ومن المستخلصات الأدبية التي تصف الاستخدام الموافق عليه للتوسيليزوماب.*
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT results | Ann Rheum Dis | Primary publication of BUILDER-1/BUILDER-2 results — tocilizumab failed to demonstrate short-term symptomatic efficacy in AS. |
-| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematic Review / Network Meta-Analysis | Medicine | Comparative effectiveness review of biologic regimens for AS across RCTs through 2015. |
-| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Meta-analysis | Clinical Rheumatology | Serious infection risk with biologics in axial spondyloarthritis/nr-axSpA — safety-focused synthesis. |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Review | Inflammation & Allergy Drug Targets | Short review specifically on IL-6 antagonism in AS, discussing the mechanistic rationale and its limitations. |
-| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | Review | Joint Bone Spine | Biologic agents for AS beyond TNFα antagonists, including IL-6 pathway blockers. |
-| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Review | Clin Exp Rheumatol | Comparative review of biologics in RA vs. AS, noting differing efficacy/pathogenesis between the two diseases. |
-| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | Review | Curr Pharm Biotechnol | Overview of biologics across RA, PsA, and spondyloarthritis including AS. |
-| [27789989](https://pubmed.ncbi.nlm.nih.gov/27789989/) | 2009 | Review | Open Access Rheumatol | Comprehensive review of biologics in RA, AS, and PsA including anti-cytokine agents. |
-| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Review | Curr Opin Rheumatol | Treatment options for TNF-inhibitor-refractory AS, surveying alternative drug classes. |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Case report | Frontiers in Medicine | Two cases of AA amyloidosis secondary to AS successfully treated with tocilizumab — a positive signal, but limited to a rare AS complication (amyloidosis), not axial disease activity itself. |
+لم يتم إرجاع بيانات تفصيلية عن آلية العمل لهذا الدواء (فجوة البيانات DG002، شدة عالية). استنادًا إلى المعلومات الموجودة في حزمة الأدلة نفسها، توسيليزوماب هو جسم مضاد أحادي النسيلة إنساني يحجب مستقبل إل-6 (IL-6R)، وفعاليته في التهاب المفاصل الروماتويدي — وهو مرض يحركه بشكل كبير الالتهاب الزليلي الوسيط بواسطة إل-6 — مثبتة جيدًا عبر الأدب المرفق.
+
+المنطق الميكانيكي لاستقراء الاستخدام إلى التهاب الفقرات اللاصق (AS) هو أن إل-6 هو سيتوكين مؤيد للالتهاب يعتبر على نطاق واسع جزءًا من علم الأمراض في أمراض الروماتيزم، وAS يشترك في التداخل السريري والمناعي مع التهاب المفاصل الروماتويدي كالتهاب مفاصل مزمن. تعكس قرب الرسم البياني للمعرفة TxGNN بين حجب إل-6R و AS هذا الارتباط السطحي المعقول ظاهريًا.
+
+ومع ذلك، تم بالفعل **اختبار هذا الاستقراء الميكانيكي بشكل مباشر ورفضه لدى البشر**. تم إيقاف تجربتي عشوائية مزدوجة التعمية خاضعة للتحكم بالعلاج الوهمي من المرحلة الثالثة (BUILDER-1، NCT01209689؛ BUILDER-2، NCT01209702) مبكرًا لأن التوسيليزوماب فشل في التمايز عن العلاج الوهمي على استجابة ASAS20/40. ينسب الإجماع الأدبي السائد (مثل PMID 22452603، "Antagonizing IL-6 in ankylosing spondylitis") هذا إلى أن التهاب الفقرات المحوري يحركه بشكل أساسي محور TNF-α/IL-17 وليس إل-6، بخلاف التهاب المفاصل الروماتويدي. هذه حالة حيث تكون درجة TxGNN عالية جدًا، لكن أدلة التجربة السريرية التأكيدية لدى الإنسان تشير إلى الاتجاه المعاكس.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Tocilizumab is currently **not marketed** in Saudi Arabia — the evidence pack lists 0 authorizations (`taiwan_regulatory.total_licenses = 0`, `market_status = Not marketed`), so no product/dosage-form table can be produced.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|----------|--------|--------|--------|---------|
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | المرحلة الثالثة | تم إيقافها | 113 | BUILDER-1: تجربة عشوائية خاضعة للتحكم لدى مرضى التهاب الفقرات اللاصق الذين لم يستجيبوا بشكل كافٍ للعامل المثبط لـ TNF؛ تم إيقافها مبكرًا عند التحليل الوسيط لعدم الفعالية (لم يتحقق ASAS20/40) — أدلة سلبية مباشرة. |
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | المرحلة الثانية/الثالثة | تم إيقافها | 306 | BUILDER-2: تجربة عشوائية تدرجية المرحلة (Ph2/3) لدى مرضى التهاب الفقرات اللاصق الساذجين لـ TNF؛ تم إيقافها لعدم كفاية الفعالية، وهو ما يتسق مع BUILDER-1 — يؤكد أن حجب إل-6 لا يعمل في التهاب الفقرات اللاصق. |
+| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | المرحلة الثانية | لم يبدأ التجنيد بعد | 52 | تجربة بايزية عشوائية للسيكوكينوماب (وليس التوسيليزوماب) في التهاب الأوعية الدموية بتاكاياسو؛ سكان الأوعية الدموية الكبرى المرتبطة بالالتهاب، غير مباشر للمعلومات المتعلقة بالتهاب الفقرات اللاصق. |
+| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | غير محدد | جاري التجنيد | 2500 | دراسة مراقبة حيوية/توصيف السيتوكين عبر أمراض التهاب النظامي؛ غير خاص بمعالجة معينة. |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | غير محدد | جاري التجنيد | 10000 | سجل بيولوجيات/أدوية تعديل المرض الموجهة ذاتيًا كوري على مستوى البلاد يغطي التهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق والتهاب المفاصل الصدفي؛ ملاحظة أمان في العالم الحقيقي، بدون اختبار فرضية. |
+| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | غير محدد | مكتملة | 60 | دراسة ميكانيكية لتأثير التوسيليزوماب على خلايا مساعد الجريب التائية في مرضى التهاب المفاصل الروماتويدي؛ علم المناعة الترجمي، وليس تجربة فعالية التهاب الفقرات اللاصق. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | المرحلة الثانية | لم يبدأ التجنيد بعد | 80 | إدارة المثبطات المناعية حول الجراحة لدى مرضى الروماتيزم الذين يخضعون لعملية تقويم مفصل الكتف؛ بيانات الفعالية غير المحددة لالتهاب الفقرات اللاصق. |
+| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | غير محدد | مكتملة | 1431 | دراسة ملاحظة في العالم الحقيقي لـ Inflectra (إنفليكسيماب، وليس التوسيليزوماب)؛ ذات صلة منخفضة. |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | غير محدد | غير معروف | 750000 | دراسة على مستوى السكان لمخاطر الأمراض الالتهابية الوسيطة المناعية الحادثة تحت البيولوجيات/المثبطات المناعية؛ على مستوى الفئة، وليس محدد للتوسيليزوماب. |
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-No safety warning, contraindication, or drug interaction data are currently available for this candidate. This is flagged in the evidence pack as **Data Gap DG001 (Blocking severity)** — its absence means this candidate cannot proceed to the S1 safety evaluation stage until TFDA/SFDA package insert data is obtained and parsed.
-
-Please refer to the official package insert for safety information once available.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|---------|---------|
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | نتائج التجربة العشوائية | Ann Rheum Dis | المنشور الأساسي لنتائج BUILDER-1/BUILDER-2 — فشل التوسيليزوماب في إظهار فعالية أعراض قصيرة الأجل في التهاب الفقرات اللاصق. |
+| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | مراجعة منهجية / تحليل تلوي للشبكة | Medicine | مراجعة الفعالية المقارنة لأنظمة الأدوية البيولوجية لالتهاب الفقرات اللاصق عبر التجارب العشوائية من خلال 2015. |
+| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | تحليل تلوي | Clinical Rheumatology | مخاطر العدوى الخطيرة مع الأدوية البيولوجية في التهاب الفقرات المحوري/أمراض الفقرات المحورية غير الراديوغرافية — تجميع موجه نحو السلامة. |
+| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | مراجعة | Inflammation & Allergy Drug Targets | مراجعة قصيرة محددة بشأن مضادات إل-6 في التهاب الفقرات اللاصق، تناقش المنطق الميكانيكي وحدوده. |
+| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | مراجعة | Joint Bone Spine | الوكلاء البيولوجيون لالتهاب الفقرات اللاصق بعيدًا عن مضادات TNFα، بما في ذلك حاصرات مسار إل-6. |
+| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | مراجعة | Clin Exp Rheumatol | مراجعة مقارنة للأدوية البيولوجية في التهاب المفاصل الروماتويدي مقابل التهاب الفقرات اللاصق، مع الإشارة إلى الفعالية والأمراض المختلفة بين المرضين. |
+| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | مراجعة | Curr Pharm Biotechnol | نظرة عامة على الأدوية البيولوجية عبر التهاب المفاصل الروماتويدي والتهاب المفاصل الصدفي والتهاب الفقرات، بما في ذلك التهاب الفقرات اللاصق. |
+| [27789989](https://pubmed.ncbi.nlm.nih.gov/27789989/) | 2009 | مراجعة | Open Access Rheumatol | مراجعة شاملة للأدوية البيولوجية في التهاب المفاصل الروماتويدي والتهاب الفقرات اللاصق والتهاب المفاصل الصدفي، بما في ذلك العوامل المضادة للسيتوكينات. |
+| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | مراجعة | Curr Opin Rheumatol | خيارات العلاج لالتهاب الفقرات اللاصق المقاوم لمثبطات TNF، تحليل الفئات الدوائية البديلة. |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | حالات سريرية | Frontiers in Medicine | حالتان من داء الأميلويد AA الثانوي لالتهاب الفقرات اللاصق تم علاجهما بنجاح بالتوسيليزوماب — إشارة إيجابية، لكن مقتصرة على مضاعفة نادرة من التهاب الفقرات اللاصق (الداء النشواني)، وليس نشاط المرض المحوري نفسه. |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودية
 
-**Decision: Hold**
+التوسيليزوماب حاليًا **غير موجود** في السوق السعودية — تسرد حزمة الأدلة 0 تصاريح (`taiwan_regulatory.total_licenses = 0`، `market_status = Not marketed`)، لذا لا يمكن إنتاج جدول المنتج/شكل الجرعة.
 
-**Rationale:**
-Although the evidence volume nominally meets the L1 threshold (2 Phase 3 RCTs), both trials (BUILDER-1 and BUILDER-2) were **terminated for lack of efficacy**, providing direct clinical evidence against — not for — this indication, despite the very high TxGNN score. Combined with the drug's non-marketed status in Saudi Arabia and a Blocking-severity safety data gap (DG001), this candidate does not support a Go decision.
+---
 
-**To proceed, the following is needed:**
-- Confirm this candidate should be deprioritized given the negative RCT outcomes, rather than pursued further as an AS indication
-- Obtain TFDA/SFDA package insert data (warnings, contraindications, DDI) to close Data Gap DG001
-- Obtain confirmed mechanism-of-action documentation to close Data Gap DG002
-- If continuing repurposing work on this drug, consider re-scoping toward **rheumatoid factor-positive polyarticular JIA** (rank 10 in this evidence pack), which shows a more evidence-consistent profile — L2 evidence level with a "Proceed with Guardrails" recommendation, supported by a pivotal completed Phase 3 trial (NCT00988221) in the closely related pJIA population
+## اعتبارات السلامة
+
+لا توجد بيانات تحذير السلامة أو موانع الاستعمال أو تفاعلات الأدوية المتاحة حاليًا لهذا المرشح. يتم تجاهل هذا في حزمة الأدلة كـ **فجوة البيانات DG001 (شدة حجب)** — غيابها يعني أن هذا المرشح لا يمكنه المضي قدمًا إلى مرحلة تقييم السلامة S1 حتى يتم الحصول على بيانات ملصق عبوة TFDA/SFDA وتحليلها.
+
+يرجى الرجوع إلى ملصق العبوة الرسمي للحصول على معلومات السلامة عند توفرها.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: توقف**
+
+**المنطق:**
+على الرغم من أن حجم الأدلة اسميًا يلبي حد L1 (تجربتان من المرحلة الثالثة)، تم إيقاف كلا التجربتين (BUILDER-1 و BUILDER-2) **لعدم الفعالية**، مما يوفر أدلة سريرية مباشرة ضد — وليس لصالح — هذا المؤشر، على الرغم من درجة TxGNN العالية جدًا. جنبًا إلى جنب مع عدم تسويق الدواء في السوق السعودية وفجوة بيانات السلامة من الشدة الحجبية (DG001)، هذا المرشح لا يدعم قرار المتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+- تأكيد أن هذا المرشح يجب إعطاؤه أولوية أقل نظرًا لنتائج التجارب العشوائية السلبية، بدلاً من السعي إليه بشكل إضافي كمؤشر التهاب الفقرات اللاصق
+- الحصول على بيانات ملصق عبوة TFDA/SFDA (التحذيرات، موانع الاستعمال، تفاعلات الأدوية) لإغلاق فجوة البيانات DG001
+- الحصول على توثيق آلية العمل المؤكدة لإغلاق فجوة البيانات DG002
+- إذا كنت تواصل عمل إعادة الاستخدام على هذا الدواء، فكر في إعادة تحديد النطاق نحو **التهاب المفاصل المزمن متعدد المفاصل الموجب لعامل الروماتويد في الأطفال** (الترتيب 10 في حزمة الأدلة هذه)، والتي تُظهر ملف تعريف أكثر اتساقًا مع الأدلة — مستوى أدلة L2 مع توصية "المتابعة مع الحماية"، مدعومة بتجربة محورية مكتملة من المرحلة الثالثة (NCT00988221) في السكان المقربين pJIA
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

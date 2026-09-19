@@ -29,58 +29,59 @@ indication_count: 1
 
 </div>
 
-# RISDIPLAM: From Spinal Muscular Atrophy to Acne
+# ريسديبلام: من ضمور العضلات الفقري إلى حب الشباب
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Risdiplam (DrugBank DB15305) is publicly known as an SMN2 pre-mRNA splicing modulator used for spinal muscular atrophy (SMA); no verified original-indication or MOA record exists in this evidence pack. The TxGNN model predicts a possible link to **Acne (disease)** with a raw score of **99.45%**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-model association with no mechanistic or clinical corroboration.
+ريسديبلام (DrugBank DB15305) معروف علنًا بأنه معدِّل إنسال ما قبل mRNA للـ SMN2 يُستخدم في ضمور العضلات الفقري (SMA)؛ لا يوجد سجل تحقق أصلي للمؤشر أو آلية العمل في حزمة الدليل هذه. يتنبأ نموذج TxGNN برابط محتمل إلى **حب الشباب** بدرجة أولية **99.45%**، لكن هذا التنبؤ مدعوم حاليًا بـ **0 تجارب سريرية** و **0 منشور** — إنه ارتباط نموذج الرسم البياني خالص بدون أي تأكيد ميكانيكي أو سريري.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this evidence pack's regulatory data (publicly known: Spinal Muscular Atrophy, per repurposing rationale — unverified against official labeling) |
-| Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.45% (rank #8,373) |
-| Evidence Level | L5 (model prediction only, no clinical or preclinical studies) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | لم يتم تسجيله في البيانات التنظيمية لحزمة الدليل هذه (معروف علنًا: ضمور العضلات الفقري، حسب منطق إعادة التطبيق — لم يتم التحقق منه مقابل الوسم الرسمي) |
+| المؤشر الجديد المتنبأ به | حب الشباب |
+| درجة التنبؤ بنموذج TxGNN | 99.45% (الترتيب #8,373) |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، لا توجد دراسات سريرية أو قبل سريرية) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | احجز |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa` = Data Gap). Based on publicly known information referenced in the model's own rationale, risdiplam is an SMN2 pre-mRNA splicing modulator used in spinal muscular atrophy — a mechanism centered on restoring functional SMN protein levels in motor neurons.
+بيانات آلية العمل التفصيلية غير متاحة في حزمة الدليل هذه (`original_moa` = Data Gap). استنادًا إلى المعلومات المعروفة علنًا والمشار إليها في منطق النموذج نفسه، ريسديبلام هو معدِّل إنسال ما قبل mRNA للـ SMN2 يُستخدم في ضمور العضلات الفقري — وهي آلية تتمحور حول استعادة مستويات بروتين SMN الوظيفي في الخلايا العصبية الحركية.
 
-There is no established pharmacological connection between SMN2 splicing modulation and acne pathophysiology (sebaceous gland activity, follicular hyperkeratinization, *Cutibacterium acnes* proliferation, or inflammatory pathways). The TxGNN score of 99.45% reflects a graph neural network's learned association pattern, not validated mechanistic plausibility — it should be treated as a purely data-driven hypothesis at this stage, not a mechanism-supported candidate.
+لا توجد علاقة دوائية راسخة بين تعديل إنسال SMN2 وفيزيولوجيا مرض حب الشباب (نشاط الغدد الدهنية، فرط التقرن الحلولي، تكاثر *Cutibacterium acnes*، أو مسارات الالتهاب). درجة TxGNN بنسبة 99.45% تعكس نمطًا تعلمته شبكة عصبية بيانية، وليس قابلية ميكانيكية مثبتة — يجب التعامل معها كفرضية مستندة إلى البيانات بحتة في هذه المرحلة، وليس كمرشح مدعوم بآلية.
 
-Given both the missing MOA data (Data Gap DG001/DG002) and the absence of any known biological overlap between the original and predicted indications, this prediction currently has no mechanistic rationale to support it beyond the model output itself.
+بالنظر إلى كل من بيانات آلية العمل المفقودة (Data Gap DG001/DG002) والافتقار إلى أي تداخل بيولوجي معروف بين المؤشرات الأصلية والمتنبأة، فإن هذا التنبؤ حاليًا لا يمتلك أي منطق ميكانيكي لدعمه بما يتجاوز إخراج النموذج نفسه.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد حاليًا أدبيات ذات صلة متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-*(Note: TFDA package insert warnings/contraindications are marked as a Blocking data gap (DG001) — this must be resolved before any S1 safety evaluation can proceed.)*
+*(ملاحظة: تحذيرات نشرة معلومات TFDA وموانع الاستعمال محددة كفجوة بيانات محجوبة (DG001) — يجب حل هذه قبل أي تقييم سلامة S1.)*
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: احجز**
 
-**Rationale:**
-The prediction is backed only by a TxGNN association score (L5, no clinical trials, no literature, no established mechanistic link), and two data gaps block further progress: one Blocking (TFDA package insert/contraindications, DG001) and one High severity (MOA, DG002). There is no evidentiary or mechanistic basis to advance this candidate beyond hypothesis stage.
+**المنطق:**
+التنبؤ مدعوم فقط بدرجة ارتباط TxGNN (L5، لا توجد تجارب سريرية، لا توجد أدبيات، لا توجد علاقة ميكانيكية راسخة)، وفجوتا بيانات محجوبتان تحجبان المزيد من التقدم: واحدة محجوبة (نشرة معلومات TFDA وموانع الاستعمال، DG001) وواحدة بأولوية عالية (آلية العمل، DG002). لا يوجد أساس إثباتي أو ميكانيكي لتقدم هذا المرشح بما يتجاوز مرحلة الفرضية.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — required before any S1 safety screening (Blocking gap)
-- Verified mechanism of action from DrugBank or primary literature (High priority gap)
-- A mechanistic plausibility review connecting SMN2 splicing modulation (or any confirmed risdiplam pathway) to acne pathophysiology
-- Targeted literature/clinical trial search once MOA data is available, to check for any real-world signal beyond the model prediction
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات TFDA (التحذيرات وموانع الاستعمال) — مطلوبة قبل أي فحص سلامة S1 (فجوة محجوبة)
+- آلية عمل مثبتة من DrugBank أو الأدب الأساسي (فجوة بأولوية عالية)
+- مراجعة معقولية ميكانيكية تربط تعديل إنسال SMN2 (أو أي مسار ريسديبلام مؤكد) بفيزيولوجيا مرض حب الشباب
+- بحث أدبي وتجارب سريرية موجهة بمجرد توفر بيانات آلية العمل، للتحقق من أي إشارة من العالم الحقيقي تتجاوز التنبؤ النموذجي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

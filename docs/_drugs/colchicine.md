@@ -29,96 +29,97 @@ indication_count: 3
 
 </div>
 
-# Colchicine: From Gout and Inflammatory Conditions to Plasmodium falciparum Malaria
+# الكولشيسين: من النقرس والحالات الالتهابية إلى ملاريا الفالسيباروم
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Colchicine is an ancient plant alkaloid derived from *Colchicum autumnale*, historically used for gout and autoinflammatory conditions. The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria**, with **0 registered clinical trials** and **6 publications** currently available — all of which are indirect preclinical or in vitro mechanistic studies that do not directly test colchicine as an antimalarial. Evidence at this stage is insufficient to support clinical development without further foundational research.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Saudi Arabia; historically indicated for gout and inflammatory conditions |
-| Predicted New Indication | Plasmodium falciparum malaria |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 — preclinical/mechanistic studies only, no clinical trials |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+الكولشيسين هو قلويد نباتي قديم مشتق من *Colchicum autumnale*، وتم استخدامه تاريخياً لعلاج النقرس والحالات الالتهابية التلقائية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **ملاريا Plasmodium falciparum**، مع **0 تجربة سريرية مسجلة** و **6 منشورات** متاحة حالياً — جميعها دراسات غير مباشرة على المستوى السابق للإكلينيكي أو في المختبر تدرس الآليات الميكانيكية ولا تختبر الكولشيسين بشكل مباشر كمضاد للملاريا. الأدلة في هذه المرحلة غير كافية لدعم التطوير السريري بدون مزيد من البحث الأساسي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Colchicine's primary mechanism of action is the inhibition of tubulin polymerization, thereby disrupting microtubule assembly. This arrests cell division at the mitotic spindle stage and suppresses neutrophil migration. Because *Plasmodium falciparum* relies on microtubule-dependent processes — including spindle formation during gametocyte development and intraerythrocytic schizogony — tubulin-binding agents represent a theoretically valid target class for antimalarial activity.
-
-The body of indirect evidence comes from a class-effect perspective: structurally distinct tubulin-binding compounds (tubulozoles, cytochalasin B, curcumin) have shown in vitro activity against *P. falciparum*, and one study noted that Colcemid (a colchicine analogue) produced similar effects on protein synthesis as tubulozoles in the parasite model. These findings suggest that plasmodial tubulin is a pharmacologically exploitable target, lending biological plausibility to the TxGNN prediction.
-
-However, critical gaps remain. No study has directly tested colchicine as an antimalarial agent. The therapeutic concentration window of colchicine (narrow index, ~0.5–3 ng/mL plasma) versus the parasite inhibitory concentration required has not been assessed. Furthermore, plasmodial tubulin differs structurally from mammalian tubulin, raising both the possibility of selectivity and the risk of inadequate potency at non-toxic doses. The TxGNN high score most likely reflects a network-level protein-pathway association rather than direct translational evidence.
-
-Currently, detailed mechanism of action data specific to colchicine is not available in this evidence pack. Based on established pharmacology, colchicine inhibits microtubule polymerization and neutrophil chemotaxis, and this class-level activity mechanistically intersects with *P. falciparum* biology — but direct antimalarial evidence in any model system is absent.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for colchicine in Plasmodium falciparum malaria.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير مسجل في المملكة العربية السعودية؛ تاريخياً مؤشر للنقرس والحالات الالتهابية |
+| الاستطباب الجديد المتنبأ به | ملاريا Plasmodium falciparum |
+| درجة تنبؤ TxGNN | 99.60% |
+| مستوى الأدلة | L4 — دراسات سابق-إكلينيكية/آليات فقط، لا توجد تجارب سريرية |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسوّقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | **الانتظار** |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-All 6 retrieved publications are indirect — none directly studies colchicine against *P. falciparum*. They examine related compounds (tubulozoles, curcumin, cytoskeletal binders) or parasite biology (pfmdr1, intermediate filaments). Listed here for completeness:
+آلية العمل الأساسية للكولشيسين هي تثبيط بلمرة التوبيولين، مما يعطل تجميع الأنابيب الدقيقة. وهذا يوقف انقسام الخلايا عند مرحلة المغزل الفتيلي ويثبط هجرة الخلايا المتعادلة. لأن *Plasmodium falciparum* تعتمد على العمليات التي تعتمد على الأنابيب الدقيقة — بما في ذلك تشكيل المغزل أثناء تطور الخلايا الجنسية والانشطار داخل كريات الدم الحمراء — فإن مثبطات ارتباط التوبيولين تمثل فئة هدف صحيحة نظرياً لنشاط مضاد الملاريا.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | In vitro screening | Cell Biology International Reports | Nine tubulin-binding compounds tested against *P. falciparum* in vitro; tubulozole-T showed selective antimalarial activity; plasmodial tubulin differs from mammalian protein at molecular level |
-| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) | 1989 | In vitro screening | Cell Biology International Reports | Parallel report confirming cytoskeletal-binding compounds are active against *P. falciparum*; actin-binding cytochalasin B also tested |
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In vitro mechanistic | Antimicrobial Agents and Chemotherapy | Tubulozole isomers investigated as antimalarial agents; Colcemid noted to produce similar protein synthesis inhibition as tubulozoles in parasite models |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Observational/Serological | Clinical and Experimental Immunology | 82% of acute malaria sera contained antibodies to intermediate filaments; suggests cytoskeletal involvement in host immune response during malaria infection |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | Molecular biology | Molecular and Cellular Biology | pfmdr1 (ABC transporter) expression in mammalian cells linked to increased chloroquine susceptibility; relevant to drug resistance mechanism context |
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro mechanistic | PLoS ONE | Curcumin disrupts *P. falciparum* microtubules at clinically achievable concentrations; parallels drawn with cancer cell tubulin-binding mechanism |
+يأتي جسم الأدلة غير المباشرة من منظور تأثير الفئة: المركبات المختلفة هيكلياً التي ترتبط بالتوبيولين (التوبولوزولات، سيتوخالاسين B، الكركم) أظهرت نشاطاً في المختبر ضد *P. falciparum*، وأشارت دراسة واحدة إلى أن كولسيميد (نظير الكولشيسين) أنتجت تأثيرات مماثلة على تخليق البروتين مثل التوبولوزولات في نماذج الطفيلي. تشير هذه النتائج إلى أن التوبيولين البلازمودي هو هدف قابل للاستغلال الدوائي، مما يعطي معقولية بيولوجية لتنبؤ TxGNN.
 
-> **Note:** None of these publications directly test colchicine. Evidence is class-level and indirect. Tier 3 (preclinical/mechanistic) for all entries.
+ومع ذلك، تبقى فجوات حرجة. لم تختبر أي دراسة الكولشيسين بشكل مباشر كعامل مضاد للملاريا. لم يتم تقييم نافذة التركيز العلاجي للكولشيسين (مؤشر ضيق، ~0.5–3 ng/mL في البلازما) مقابل تركيز المثبط المطلوب للطفيلي. علاوة على ذلك، يختلف التوبيولين البلازمودي هيكلياً عن التوبيولين الثديي، مما يثير احتمالية الانتقائية والمخاطر المتمثلة في عدم كفاية الفعالية بجرعات غير سامة. درجة TxGNN العالية على الأرجح تعكس ارتباط مستوى الشبكة البروتين-المسار وليس الأدلة الترجمية المباشرة.
+
+حالياً، لا تتوفر بيانات آلية التفصيلية الخاصة بالكولشيسين في مجموعة الأدلة هذه. بناءً على الصيدلة المعروفة، يثبط الكولشيسين بلمرة الأنابيب الدقيقة وكيموتاكسيس الخلايا المتعادلة، وهذا النشاط على مستوى الفئة يتقاطع ميكانيكياً مع بيولوجيا *P. falciparum* — لكن الأدلة المضادة للملاريا المباشرة في أي نموذج نظام غائبة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Colchicine is not currently registered or marketed in Saudi Arabia. No authorization records are available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Important context:** Colchicine has a **narrow therapeutic index** with no well-defined threshold between therapeutic, toxic, and lethal doses (PMID [20586571](https://pubmed.ncbi.nlm.nih.gov/20586571/)). This is especially relevant for any new indication development — dose selection and toxicity monitoring would be a critical development requirement. Safety database for this evidence pack is pending TFDA/SFDA package insert extraction.
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة للكولشيسين في ملاريا Plasmodium falciparum.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب العلمي
 
-**Decision: Hold**
+جميع 6 منشورات مسترجعة غير مباشرة — لا أحد يدرس الكولشيسين مباشرة ضد *P. falciparum*. يدرسون مركبات ذات صلة هيكلياً لكن مختلفة (التوبولوزولات، الكركم، رابطات هيكلية خلوية) أو بيولوجيا الطفيلي (pfmdr1، الخيوط الوسيطة). مُدرجة هنا لاكتمال التقدير:
 
-**Rationale:**
-There is no direct clinical or preclinical evidence that colchicine is effective against *Plasmodium falciparum*. All available literature examines structurally related but distinct compounds, providing class-level biological plausibility only. The prediction score reflects a protein-network association in TxGNN rather than translatable clinical evidence.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | فحص في المختبر | Cell Biology International Reports | تم اختبار تسعة مركبات ترتبط بالتوبيولين ضد *P. falciparum* في المختبر؛ أظهرت التوبولوزول-T نشاطاً انتقائياً مضاداً للملاريا؛ يختلف التوبيولين البلازمودي عن البروتين الثديي على المستوى الجزيئي |
+| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) | 1989 | فحص في المختبر | Cell Biology International Reports | تقرير متواز يؤكد أن المركبات التي ترتبط بالهياكل الخلوية نشطة ضد *P. falciparum*؛ تم اختبار سيتوخالاسين B الذي يرتبط بالأكتين أيضاً |
+| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | آلية في المختبر | Antimicrobial Agents and Chemotherapy | تم التحقيق من نظائر التوبولوزول كعوامل مضادة للملاريا؛ لوحظ أن كولسيميد تنتج تثبيطاً لتخليق البروتين مماثلاً للتوبولوزولات في نماذج الطفيلي |
+| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | ملاحظة/مصلي | Clinical and Experimental Immunology | 82% من أمصال الملاريا الحادة تحتوي على أجسام مضادة للخيوط الوسيطة؛ يشير إلى مشاركة الهيكل الخلوي في استجابة المضيف المناعية أثناء الإصابة بالملاريا |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | علم الأحياء الجزيئية | Molecular and Cellular Biology | ارتبط التعبير عن pfmdr1 (ناقل ABC) في الخلايا الثديية بزيادة قابلية الحساسية للكلوروكين؛ ذات صلة بسياق آلية مقاومة الأدوية |
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | آلية في المختبر | PLoS ONE | يعطل الكركم الأنابيب الدقيقة *P. falciparum* بتركيزات محققة سريرياً؛ تم رسم التوازيات مع آلية ارتباط التوبيولين في الخلايا السرطانية |
 
-**To proceed, the following is needed:**
-
-- **In vitro antimalarial assay**: Direct testing of colchicine against *P. falciparum* strains (3D7, Dd2) to establish IC₅₀ and determine if effective concentrations fall within the drug's therapeutic plasma range
-- **Selectivity index**: Compare parasite IC₅₀ versus human cell CC₅₀ to assess whether a therapeutic window exists
-- **MOA confirmation**: Confirm whether colchicine disrupts *P. falciparum* tubulin specifically, given known structural differences from mammalian tubulin
-- **Safety data extraction**: Retrieve TFDA/SFDA package insert warnings and contraindications (Data Gap DG001) before any clinical planning
-- **Comparator benchmark**: Benchmark colchicine's potential antimalarial potency against existing artemisinin-based regimens to assess clinical relevance
+> **ملاحظة:** لا أحد من هذه المنشورات يختبر الكولشيسين بشكل مباشر. الأدلة على مستوى الفئة وغير مباشرة. المستوى 3 (سابق-إكلينيكي/آليات) لجميع المدخلات.
 
 ---
 
-> **Additional Finding — High Priority:**
-> The second-ranked TxGNN prediction — **Familial Mediterranean Fever (FMF)** — carries **L1 evidence** (multiple review-grade publications, 1 registered trial on second-line therapy implying colchicine as established first-line, PMID [68234](https://pubmed.ncbi.nlm.nih.gov/68234/) dating to 1977) with a recommendation of **Proceed with Guardrails**. Multiple FMF reviews explicitly state that colchicine is the only agent proven to prevent attacks and amyloidosis (e.g., PMID [25649364](https://pubmed.ncbi.nlm.nih.gov/25649364/), [38354004](https://pubmed.ncbi.nlm.nih.gov/38354004/)). The mechanistic link is strong and well-characterised: colchicine suppresses neutrophil chemotaxis and pyrin–microtubule interactions, directly counteracting FMF's inflammasome-driven pathology. **A separate FMF-focused report is recommended as the higher-priority repurposing candidate.**
+## معلومات سوق المملكة العربية السعودية
+
+الكولشيسين غير مسجل أو مسوق حالياً في المملكة العربية السعودية. لا توجد سجلات ترخيص متاحة.
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى الملصق الداخلي للحصول على معلومات السلامة.
+
+> **سياق مهم:** للكولشيسين **نافذة علاجية ضيقة** بدون عتبة محددة جيداً بين الجرعات العلاجية والسامة والقاتلة (PMID [20586571](https://pubmed.ncbi.nlm.nih.gov/20586571/)). هذا مهم بشكل خاص لأي تطوير استطباب جديد — سيكون اختيار الجرعة ومراقبة السمية متطلباً حرجاً في التطوير. قاعدة بيانات السلامة لمجموعة الأدلة هذه قيد الانتظار استخلاص ملصق TFDA/SFDA.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+لا توجد أدلة سريرية أو سابق-إكلينيكية مباشرة بأن الكولشيسين فعال ضد *Plasmodium falciparum*. جميع الأدبيات المتاحة تفحص مركبات ذات صلة هيكلياً لكن مختلفة، توفر فقط معقولية بيولوجية على مستوى الفئة. درجة التنبؤ تعكس ارتباط شبكة البروتين في TxGNN وليس الأدلة الترجمية المتاحة.
+
+**للمتابعة، مطلوب ما يلي:**
+
+- **مقايسة مضادة للملاريا في المختبر**: اختبار مباشر للكولشيسين ضد سلالات *P. falciparum* (3D7, Dd2) لتحديد IC₅₀ والتحقق من أن التركيزات الفعالة تقع ضمن النطاق البلازمي العلاجي للدواء
+- **مؤشر الانتقائية**: قارن IC₅₀ الطفيلي مقابل CC₅₀ الخلية البشرية لتقييم ما إذا كانت نافذة علاجية موجودة
+- **تأكيد آلية العمل**: أكد ما إذا كان الكولشيسين يعطل التوبيولين *P. falciparum* بشكل محدد، نظراً للاختلافات الهيكلية المعروفة عن التوبيولين الثديي
+- **استخلاص بيانات السلامة**: استرجع تحذيرات ملصق TFDA/SFDA والمضادات الاستطبابية (فجوة البيانات DG001) قبل أي تخطيط سريري
+- **معيار المقارن**: قيّم الفعالية المحتملة للكولشيسين كمضاد للملاريا مقابل الأنظمة الحالية القائمة على الأرتيميسينين لتقييم الصلة السريرية
+
+---
+
+> **النتيجة الإضافية — أولوية عالية:**
+> التنبؤ الثاني الأعلى تصنيفاً من TxGNN — **حمى البحر المتوسط العائلية (FMF)** — يحمل **أدلة L1** (منشورات متعددة على مستوى المراجعة، تجربة واحدة مسجلة على العلاج من الدرجة الثانية مما يعني الكولشيسين كخط أول معترف به، PMID [68234](https://pubmed.ncbi.nlm.nih.gov/68234/) يعود إلى 1977) مع توصية **المتابعة مع احتياطات**. تصرح مراجعات FMF المتعددة بأن الكولشيسين هو الوكيل الوحيد المثبت لمنع الهجمات والتهامايلويدوسيس (مثل PMID [25649364](https://pubmed.ncbi.nlm.nih.gov/25649364/), [38354004](https://pubmed.ncbi.nlm.nih.gov/38354004/)). الارتباط الميكانيكي قوي وميز بشكل جيد: يثبط الكولشيسين كيموتاكسيس الخلايا المتعادلة وتفاعلات بيرين–الأنابيب الدقيقة، وهو معارضة مباشرة للمرض الذي يسببه الالتهاب المحفز بالتهاب الأنفلاماسوم في FMF. **يُنصح بتقرير منفصل يركز على FMF كمرشح لإعادة الاستخدام ذي أولوية أعلى.**
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,98 +29,93 @@ indication_count: 10
 
 </div>
 
-Using the evidence pack as given — no skill needed here, this is a direct report-writing task with an explicit template supplied in the prompt.
+# Sulindac: من مؤشر أصلي غير موثق إلى خلل التنسج اللاحقي-الوسطي، نوع هانتر-تومسون
 
-Note: the evidence pack's regulatory data is under `taiwan_regulatory` (candidate_id `TW-DB00605...`), not Saudi Arabia — I've relabeled that section "Taiwan" to match the actual source field rather than copy the template's placeholder label.
+## ملخص بجملة واحدة
 
----
-
-# Sulindac: From an Undocumented Original Indication to Acromesomelic Dysplasia, Hunter-Thompson Type
-
-## One-Sentence Summary
-
-Sulindac's original approved indication and mechanism of action are not available in this data pull (both flagged as data gaps). The TxGNN model predicts a possible association with **acromesomelic dysplasia, Hunter-Thompson type**, a rare GDF5-related skeletal dysplasia, but this is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-similarity signal with no corroborating evidence.
+المؤشر الأصلي المعتمد وآلية العمل لـ sulindac غير متاحة في هذا السحب البيانات (كليهما مشار إليهما كفجوات بيانات). يتنبأ نموذج TxGNN بوجود ارتباط محتمل مع **خلل التنسج اللاحقي-الوسطي، نوع هانتر-تومسون**، وهو خلل هيكلي نادر مرتبط بـ GDF5، لكن هذا مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشور** — إنه إشارة نقية لتشابه النموذج فقط دون أي دليل مؤيد.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — sulindac holds no Taiwan marketing licenses, so no approved indication text exists in this record |
-| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data for sulindac is not available in this evidence pack, and no original indication text was retrieved (the drug has no Taiwan market authorizations). Without MOA or original-indication data, there is no basis to construct a mechanistic bridge to acromesomelic dysplasia, Hunter-Thompson type — a rare, genetically defined skeletal dysplasia associated with the GDF5 gene.
-
-The evidence pack's own rationale for this candidate states plainly that the link is "a pure TxGNN embedding similarity score, with no supporting literature or trials." Targeted searches against ClinicalTrials.gov, ICTRP, and PubMed for sulindac + this disease term all returned zero results (query log IDs 5–7). This is the weakest tier of repurposing evidence: a graph-embedding similarity score with no independent corroboration.
-
-This pattern repeats across all 10 predicted indications in this pack (see below) — each is an ultra-rare disease with a high TxGNN score but zero trials and zero literature. Two candidates (WHIM syndrome, rheumatoid vasculitis) at least have a plausible generic rationale (NSAID-class anti-inflammatory activity), but even these remain unconfirmed by any dataset in this pull.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح — لا يمتلك sulindac تراخيص تسويق في تايوان، لذلك لا يوجد نص مؤشر معتمد في هذا السجل |
+| المؤشر الجديد المتنبأ به | خلل التنسج اللاحقي-الوسطي، نوع هانتر-تومسون |
+| درجة التنبؤ من TxGNN | 99.92% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | غير مسوق |
+| عدد التفويضات | 0 |
+| قرار التوصية | عدم المتابعة |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered.
+بيانات آلية العمل المفصلة لـ sulindac غير متاحة في هذه الحزمة البيانات، ولم يتم استرجاع نص المؤشر الأصلي (الدواء لا يمتلك تفويضات سوق تايوان). بدون بيانات آلية العمل أو بيانات المؤشر الأصلي، لا يوجد أساس لبناء ربط ميكانيكي إلى خلل التنسج اللاحقي-الوسطي، نوع هانتر-تومسون — وهو خلل هيكلي نادر معرّف وراثياً مرتبط بجين GDF5.
 
----
+يوضح تبرير الحزمة البيانات الخاص بهذا المرشح بشكل واضح أن الارتباط هو "درجة تشابه تضمين TxGNN نقية فقط، بدون دراسات داعمة أو تجارب." أسفرت الاستعلامات الموجهة في ClinicalTrials.gov و ICTRP و PubMed عن sulindac + مصطلح هذا المرض عن نتائج صفرية (معرفات الاستعلام 5–7). هذه هي أضعف مستويات أدلة إعادة توجيه الأدوية: درجة تشابه تضمين الرسم البياني دون أي مصادقة مستقلة.
 
-## Literature Evidence
-
-Currently no related literature available.
+يتكرر هذا النمط عبر جميع 10 مؤشرات متنبأ بها في هذه الحزمة (انظر أدناه) — كل منها هو مرض نادر جداً مع درجة TxGNN عالية لكن بدون تجارب وبدون دراسات أدبية. يتمتع مرشحان (متلازمة WHIM، التهاب الأوعية الدموية الروماتويدي) على الأقل بأساس عام معقول (نشاط مضادات الالتهاب من فئة NSAID)، لكن حتى هذان يبقيان دون تأكيد من أي مجموعة بيانات في هذا السحب.
 
 ---
 
-## Other Predicted Indications (Rank 2–10)
+## دليل التجارب السريرية
 
-All ranked candidates share the same evidence profile as the top prediction — high TxGNN score, zero trials, zero literature, L5/Hold — and are listed here for completeness:
-
-| Rank | Disease | TxGNN Score | Notes |
-|------|---------|------|-------|
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.90% | No mechanistic hypothesis available |
-| 3 | Brachyolmia | 99.90% | No mechanistic hypothesis available |
-| 4 | Myosclerosis | 99.89% | No mechanistic hypothesis available |
-| 5 | Pseudoachondroplasia | 99.85% | COMP-gene chondrodysplasia; no supporting data |
-| 6 | Brachydactyly-syndactyly syndrome | 99.82% | No mechanistic hypothesis available |
-| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.81% | No mechanistic hypothesis available |
-| 8 | WHIM syndrome | 99.74% | Generic NSAID anti-inflammatory rationale only |
-| 9 | Rheumatoid vasculitis | 99.63% | Generic NSAID anti-inflammatory rationale only |
-| 10 | Hypermobility of coccyx | 99.56% | Structural/mechanical condition; no pharmacologic rationale |
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Taiwan Market Information
+## دليل الأدبيات
 
-Sulindac currently holds **no marketing authorization in Taiwan** (0 licenses; market status: Not marketed). No product name, dosage form, or approved-indication text is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all unavailable in this pull; TFDA package insert retrieval is flagged as a **blocking** data gap — DG001.)
+لا توجد حالياً أي دراسات أدبية ذات صلة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## المؤشرات الأخرى المتنبأ بها (الترتيب 2–10)
 
-**Decision: Hold**
+جميع المرشحات المرتبة تشترك في نفس ملف الدليل مثل التنبؤ الأعلى — درجة TxGNN عالية، بدون تجارب، بدون دراسات أدبية، L5/عدم المتابعة — وهي مدرجة هنا لاكتمال المعلومات:
 
-**Rationale:**
-Every predicted indication in this pack sits at Evidence Level L5 (model prediction only) with zero clinical trials and zero literature support, and sulindac has no MOA data, no documented original indication, and no Taiwan market presence to anchor a mechanistic argument. There is nothing here to progress on.
+| الترتيب | المرض | درجة TxGNN | ملاحظات |
+|--------|------|------------|--------|
+| 2 | متلازمة قصر الفقرات-خلل تشكل المينا | 99.90% | لا توجد فرضية آلية متاحة |
+| 3 | قصر الفقرات | 99.90% | لا توجد فرضية آلية متاحة |
+| 4 | تصلب العضلات | 99.89% | لا توجد فرضية آلية متاحة |
+| 5 | الحثل الغضروفي الزائف | 99.85% | خلل التنسج الغضروفي المرتبط بجين COMP؛ بدون بيانات داعمة |
+| 6 | متلازمة قصر الأصابع-التحام الأصابع | 99.82% | لا توجد فرضية آلية متاحة |
+| 7 | متلازمة الكولوبوما مع صغر العيون وخلل التنسج الشعاعي | 99.81% | لا توجد فرضية آلية متاحة |
+| 8 | متلازمة WHIM | 99.74% | أساس مضادات الالتهاب العام من فئة NSAID فقط |
+| 9 | التهاب الأوعية الدموية الروماتويدي | 99.63% | أساس مضادات الالتهاب العام من فئة NSAID فقط |
+| 10 | فرط حركة العصعص | 99.56% | حالة هيكلية/ميكانيكية؛ بدون أساس دوائي |
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank or another primary source (DG002)
-- Original approved indication(s) for sulindac, to establish a baseline for indication-similarity reasoning
-- At minimum, preclinical/mechanistic literature connecting sulindac's pharmacology to any of the predicted rare-disease candidates before advancing past L5
+---
+
+## معلومات سوق تايوان
+
+لا يمتلك sulindac حالياً أي ترخيص تسويق في تايوان (0 ترخيص؛ حالة السوق: غير مسوق). لا يتوفر اسم المنتج أو شكل الجرعة أو نص المؤشر المعتمد.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية وموانع الاستخدام وتفاعلات الأدوية غير متاحة في هذا السحب؛ استرجاع نشرة TFDA يُعتبر **عائقاً** في فجوات البيانات — DG001.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: عدم المتابعة**
+
+**الأساس المنطقي:**
+كل مؤشر متنبأ به في هذه الحزمة يقع في مستوى الدليل L5 (التنبؤ بالنموذج فقط) بدون تجارب سريرية وبدون دعم أدبي، و sulindac لا يمتلك بيانات آلية العمل، ولا مؤشر أصلي موثق، وليس له وجود في سوق تايوان يدعم حجة ميكانيكية. لا يوجد أساس هنا للمتابعة.
+
+**لكي تتقدم، يلزم ما يلي:**
+- نشرة TFDA (التحذيرات، موانع الاستخدام) — حالياً عائق في فجوات البيانات (DG001)
+- آلية عمل مؤكدة من DrugBank أو مصدر أساسي آخر (DG002)
+- المؤشر(ات) الأصلي المعتمد لـ sulindac، لتأسيس خط أساس لتحليل التشابه بين المؤشرات
+- على الأقل دراسات ما قبل السريري/الآلية تربط بين صيدلة sulindac وأي من المرشحات النادرة المتنبأ بها قبل تجاوز مستوى L5
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

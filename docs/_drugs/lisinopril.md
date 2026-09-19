@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Lisinopril: From ACE Inhibitor Therapy to Posterolateral Myocardial Infarction
+# ليسينوبريل: من علاج مثبطات الإنزيم المحول للأنجيوتنسين إلى احتشاء العضلة القلبية اللاحقة الجانبية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Lisinopril is an ACE inhibitor (ACEi); no local (Saudi Arabia) registration data or original indication text is available in this evidence pack, but ACEi is globally established for hypertension, heart failure, and post-MI cardioprotection. The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, but currently **no clinical trials** and **no literature** directly support this specific anatomical MI subtype — the prediction rests entirely on class-level mechanistic reasoning.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in local registry data (drug not marketed in Saudi Arabia); known globally as an ACE inhibitor for hypertension/heart failure |
-| Predicted New Indication | Posterolateral myocardial infarction |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+ليسينوبريل هو مثبط للإنزيم المحول للأنجيوتنسين (ACEi)؛ لا توجد بيانات تسجيل محلية (المملكة العربية السعودية) أو نصوص الإشارات الأصلية المتاحة في هذه مجموعة الأدلة، لكن ACEi مثبت عالميًا لعلاج ارتفاع ضغط الدم وقصور القلب والحماية القلبية ما بعد احتشاء العضلة القلبية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **احتشاء العضلة القلبية اللاحقة الجانبية**، لكن حاليًا **لا توجد تجارب سريرية** و **لا توجد أدبيات** تدعم بشكل مباشر هذا النوع الفرعي التشريحي المحدد — فالتنبؤ يعتمد كليًا على التفكير الميكانيكي على مستوى الفئة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for lisinopril in this evidence pack. Based on known information, lisinopril is part of the ACE inhibitor (ACEi) class, which suppresses the renin-angiotensin-aldosterone system (RAAS) to reduce cardiac afterload and limit ventricular remodeling.
-
-ACEi is an established standard-of-care drug class after myocardial infarction, with the class effect confirmed by landmark Phase 3 trials (e.g., GISSI-3, ISIS-4, SAVE) referenced in the model's rationale. However, "posterolateral myocardial infarction" is an anatomical/ECG-localization subtype of MI rather than a distinct disease entity, and this evidence pack contains **zero trials and zero publications** specific to this subtype.
-
-The prediction is therefore best understood as an extrapolation of ACEi's well-known post-MI class effect to a fine-grained anatomical label, rather than evidence of a distinct, independently validated indication. The same pattern repeats for the closely related predictions "posteroinferior myocardial infarction" (rank 2) and "septal myocardial infarction" (rank 7), all scored nearly identically and all lacking subtype-specific evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| الإشارة الأصلية | غير متاحة في بيانات السجل المحلي (الدواء غير مسوق في المملكة العربية السعودية)؛ معروف عالميًا كمثبط للإنزيم المحول للأنجيوتنسين لارتفاع ضغط الدم/قصور القلب |
+| الإشارة الجديدة المتنبأ بها | احتشاء العضلة القلبية اللاحقة الجانبية |
+| درجة تنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | وقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة لليسينوبريل في هذه مجموعة الأدلة. بناءً على المعلومات المعروفة، ليسينوبريل هو جزء من فئة مثبطات الإنزيم المحول للأنجيوتنسين (ACEi)، والتي تثبط نظام الرينين-أنجيوتنسين-الألدوستيرون (RAAS) لتقليل إجهاد القلب اللاحق وتحديد إعادة تشكيل البطين.
 
----
+ACEi هي فئة أدوية الرعاية القياسية المثبتة ما بعد احتشاء العضلة القلبية، مع تأكيد تأثير الفئة من خلال التجارب الكبرى من المرحلة 3 (مثل GISSI-3، ISIS-4، SAVE) المشار إليها في مبررات النموذج. ومع ذلك، فإن "احتشاء العضلة القلبية اللاحقة الجانبية" هو نوع فرعي تشريحي/موضعي من احتشاء العضلة القلبية بناءً على تحليل القلب الكهربائي بدلاً من كيان مرضي منفصل، وتحتوي هذه مجموعة الأدلة على **صفر تجارب وصفر منشورات** محددة لهذا النوع الفرعي.
 
-## Saudi Arabia Market Information
-
-Lisinopril currently has no marketing authorization on file in Saudi Arabia (0 licenses recorded).
+يُفهم التنبؤ بالتالي على أنه استقراء لتأثير ACEi المعروف جيدًا ما بعد احتشاء العضلة القلبية المطبق على تسمية تشريحية دقيقة، بدلاً من الأدلة على إشارة متميزة ومدققة بشكل مستقل. ينطبق النمط ذاته على التنبؤات ذات الصلة الوثيقة "احتشاء العضلة القلبية اللاحقة السفلية" (الترتيب 2) و "احتشاء العضلة القلبية الحاجز" (الترتيب 7)، كلاهما برتبة متطابقة تقريبًا وكلاهما يفتقد إلى أدلة محددة للنوع الفرعي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حاليًا
 
-**Rationale:**
-The top-ranked prediction (posterolateral myocardial infarction) has no direct clinical trial or literature support — it relies solely on generic ACEi post-MI class-effect reasoning applied to a specific anatomical subtype, which is insufficient to justify moving past the research-question stage.
+---
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings/contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Local original-indication/registration data for lisinopril in Saudi Arabia
-- Literature or trial search specifically targeting posterolateral/posteroinferior MI subtypes (not just "myocardial infarction" broadly) to confirm whether subtype-specific evidence exists
+## معلومات السوق في المملكة العربية السعودية
 
-**Note on alternative candidate:** Among the other 9 predictions in this pack, "chronic pulmonary heart disease" (rank 9) has materially stronger support — 2 direct lisinopril studies (PMID 17047621, PMID 14524095, L3 evidence) and a "Proceed with Guardrails" recommendation, alongside a flagged DDI risk (lisinopril + tizanidine, PMID 20852161). This may be a more actionable repurposing candidate than the current top-ranked prediction and warrants separate evaluation. Conversely, ranks 3, 6, 8, and 10 are flagged in the source data as low-plausibility or safety-hold cases (including a possible embedding artifact and a relative-contraindication scenario in renovascular hypertension) and should not be pursued further without additional evidence.
+ليسينوبريل لا يملك حاليًا ترخيص تسويق مسجل في المملكة العربية السعودية (0 رخصة مسجلة).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقف**
+
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفًا (احتشاء العضلة القلبية اللاحقة الجانبية) لا يحتوي على دعم مباشر من التجارب السريرية أو الأدبيات — فهو يعتمد فقط على التفكير الميكانيكي العام لتأثير ACEi ما بعد احتشاء العضلة القلبية المطبق على نوع فرعي تشريحي محدد، وهذا غير كافٍ لتبرير الانتقال إلى ما بعد مرحلة السؤال البحثي.
+
+**للمتابعة، يلزم التالي:**
+- نشرة الهيئة السعودية للغذاء والدواء (SFDA) (التحذيرات/الموانع) — حاليًا فجوة بيانات حاجزة (DG001)
+- تأكيد بيانات آلية العمل من DrugBank (DG002)
+- بيانات الإشارة الأصلية/التسجيل المحلية لليسينوبريل في المملكة العربية السعودية
+- البحث عن الأدبيات أو التجارب التي تستهدف على وجه التحديد الأنواع الفرعية اللاحقة الجانبية/اللاحقة السفلية من احتشاء العضلة القلبية (وليس فقط "احتشاء العضلة القلبية" على نطاق واسع) لتأكيد ما إذا كان أي دليل محدد للنوع الفرعي موجودًا
+
+**ملاحظة حول المرشح البديل:** من بين التنبؤات التسعة الأخرى في هذه المجموعة، "مرض القلب الرئوي المزمن" (الترتيب 9) له دعم مادي أقوى — دراستا ليسينوبريل مباشرتان (PMID 17047621, PMID 14524095, L3 أدلة) وتوصية "تابع مع احتياطات" جنبًا إلى جنب مع خطر تفاعل دوائي مشار إليه (ليسينوبريل + تيزانيدين, PMID 20852161). قد يكون هذا مرشحًا أكثر قابلية للتطبيق لإعادة تطبيق الأدوية من التنبؤ الأعلى تصنيفًا الحالي ويستحق التقييم المنفصل. وبالمقابل، يتم وضع علامات على الترتيبات 3 و 6 و 8 و 10 في بيانات المصدر كحالات احتمالية منخفضة أو توقف السلامة (بما في ذلك قطعة أثرية محتملة للدمج وسيناريو نسبي مانع في ارتفاع ضغط الدم الوعائي) ولا يجب متابعتها بشكل أكبر بدون أدلة إضافية.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

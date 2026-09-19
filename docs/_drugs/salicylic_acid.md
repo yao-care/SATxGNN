@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Salicylic Acid: TxGNN-Predicted Signal for Papillary Conjunctivitis
+# حمض الساليسيليك: إشارة التنبؤ بـ TxGNN لالتهاب الملتحمة الحليمي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Salicylic acid's original indication and mechanism of action are not documented in the current dataset, and the drug holds no marketing authorization in Saudi Arabia.
-> The TxGNN model predicts a possible association with **Papillary Conjunctivitis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on the model's knowledge-graph similarity score.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in current dataset |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> الاستطباب الأصلي وآلية العمل لحمض الساليسيليك غير موثقة في مجموعة البيانات الحالية، والدواء لا يحمل أي ترخيص تسويقي في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN بارتباط ممكن مع **التهاب الملتحمة الحليمي**،
+> لكن هذا التنبؤ مدعوم حاليًا بـ **0 تجربة سريرية** و **0 منشورات** — إنه يعتمد بالكامل على درجة التشابه في الرسم البياني للمعرفة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for salicylic acid in this evidence pack, and no original indication is on record. Without this baseline, the pharmacological link between salicylic acid and papillary conjunctivitis cannot be independently verified.
-
-The evidence pack's own rationale notes that salicylic acid is generally known as a keratolytic/topical anti-inflammatory agent, and suggests a theoretical, indirect connection to inflammatory conjunctival surface reactions. However, it explicitly qualifies this as a low-confidence inference: the association comes solely from TxGNN knowledge-graph similarity, with no pharmacological evidence base confirming a specific receptor or pathway mechanism.
-
-It's also worth noting that among this drug's top 10 predicted indications, several (e.g., various skeletal/craniofacial dysplasia syndromes) are flagged in the source rationale as likely graph artifacts — repeated co-occurrence of shared gene/protein nodes rather than genuine pharmacological signal. This context reinforces that the Papillary Conjunctivitis prediction, while somewhat more biologically plausible than those outliers, still requires independent mechanistic and clinical confirmation before any further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير موثق في مجموعة البيانات الحالية |
+| الاستطباب الجديد المتنبأ به | التهاب الملتحمة الحليمي |
+| درجة تنبؤ TxGNN | 99.88% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط، بدون دعم سريري أو أدبي) |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حاليًا، لا تتوفر بيانات مفصلة عن آلية العمل لحمض الساليسيليك في حزمة الأدلة هذه، ولا يوجد استطباب أصلي مسجل. بدون هذا الأساس، لا يمكن التحقق بشكل مستقل من الربط الدوائي بين حمض الساليسيليك والتهاب الملتحمة الحليمي.
 
----
+تلاحظ الحجة الخاصة بحزمة الأدلة أن حمض الساليسيليك معروف بشكل عام بأنه عامل كيراتوليتي/مضاد التهاب موضعي، وتقترح وجود صلة نظرية وغير مباشرة بتفاعلات سطح الملتحمة الالتهابية. ومع ذلك، فإنها تؤكد بشكل صريح أن هذا استدلال منخفض الثقة: يأتي الارتباط حصريًا من التشابه في الرسم البياني للمعرفة في TxGNN، بدون أي أساس دليل دوائي يؤكد آلية مستقبل محددة أو مسار معين.
 
-## Saudi Arabia Market Information
-
-This product currently holds no marketing authorization in Saudi Arabia (0 licenses on record); market status is "Not Marketed."
+من الجدير بالملاحظة أيضًا أنه من بين أفضل 10 استطبابات متنبأ بها لهذا الدواء، يتم وضع علامة على عدة منها (على سبيل المثال، متلازمات خلل التنسج الهيكلي/القحفي الوجهي المختلفة) في المنطق المصدري على أنها عوامل اصطناعية محتملة في الرسم البياني — التكرار المشترك للعقد الجينية/البروتينية المشتركة بدلاً من إشارة دوائية حقيقية. يعزز هذا السياق أن التنبؤ بالتهاب الملتحمة الحليمي، بينما يكون أكثر معقولية بيولوجية إلى حد ما من تلك الحالات الشاذة، لا يزال يتطلب تأكيدًا ميكانيكيًا وسريريًا مستقلاً قبل أي تقييم إضافي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب
 
-**Decision: Hold**
+لا تتوفر حاليًا أدبيات ذات صلة.
 
-**Rationale:**
-The predicted indication is supported only by a TxGNN similarity score (L5, no clinical trials or literature), the drug's original indication and mechanism of action are undocumented, and it is not currently marketed in Saudi Arabia — there is no evidentiary or regulatory basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- Original indication and confirmed mechanism of action (MOA) data
-- Package insert warnings, contraindications, and drug interaction data (TFDA/local regulatory source)
-- Preclinical or mechanistic studies linking salicylic acid to conjunctival inflammatory pathways
-- Any clinical trial or case-level evidence in ophthalmic/conjunctival indications
+## معلومات سوق المملكة العربية السعودية
+
+هذا المنتج لا يحمل حاليًا أي ترخيص تسويقي في المملكة العربية السعودية (0 رخص مسجلة)؛ حالة السوق هي "غير مسوق".
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: توقف**
+
+**الحجة:**
+الاستطباب المتنبأ به مدعوم فقط بدرجة التشابه في TxGNN (L5، بدون تجارب سريرية أو أدبيات)، والاستطباب الأصلي للدواء وآلية عمله غير موثقة، وهو غير مسوق حاليًا في المملكة العربية السعودية — لا يوجد أساس دليل أو تنظيمي لتقدم هذا المرشح.
+
+**لكي نتمكن من المتابعة، يلزم الآتي:**
+- الاستطباب الأصلي وبيانات آلية العمل المؤكدة (MOA)
+- تحذيرات نشرة الدواء والموانع وبيانات التفاعلات الدوائية (TFDA/المصدر التنظيمي المحلي)
+- دراسات ما قبل-سريرية أو ميكانيكية تربط حمض الساليسيليك بمسارات الالتهاب الملتحمي
+- أي دليل من التجارب السريرية أو على مستوى الحالة في الاستطبابات البصرية/الملتحمية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

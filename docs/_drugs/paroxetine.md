@@ -29,60 +29,61 @@ indication_count: 1
 
 </div>
 
-# Paroxetine: From Depression/Anxiety Disorders to Ohdo Syndrome and Variants
+# الباروكسيتين: من اضطرابات الاكتئاب والقلق إلى متلازمة أودو والمتغيرات
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Paroxetine is a selective serotonin reuptake inhibitor (SSRI), widely used for depression and anxiety disorders. The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, a rare congenital chromatin-modifier disorder, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic link is biologically implausible.
+الباروكسيتين (paroxetine) هو مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI)، يُستخدم على نطاق واسع لعلاج الاكتئاب واضطرابات القلق. يتنبأ نموذج TxGNN بأنه قد يكون فعّالاً لـ **متلازمة أودو والمتغيرات**، وهي اضطراب خلقي نادر في معدِّلات الكروماتين، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشورات**، والارتباط الآلي الأساسي غير معقول بيولوجياً.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Depression / anxiety disorders (SSRI antidepressant class; specific regulatory indication text not available in evidence pack) |
-| Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الاكتئاب واضطرابات القلق (فئة الأدوية المضادة للاكتئاب من نوع مثبط انتقائي لإعادة امتصاص السيروتونين؛ نص المؤشر التنظيمي المحدد غير متوفر في حزمة الأدلة) |
+| المؤشر الجديد المتنبأ به | متلازمة أودو والمتغيرات |
+| درجة التنبؤ بـ TxGNN | 99.11% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد التفويضات التنظيمية | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known general pharmacology, paroxetine is an SSRI that inhibits the neuronal serotonin transporter (SLC6A4), and its efficacy in depression and anxiety disorders is well established.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة. بناءً على علم الأدوية العام المعروف، الباروكسيتين (paroxetine) هو مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI) يثبط ناقل السيروتونين العصبي (SLC6A4)، وأثبتت الدراسات فعاليته في علاج الاكتئاب واضطرابات القلق.
 
-Ohdo syndrome (including Say-Barber-Biesecker-Young-Simpson and other variants) is a rare congenital developmental disorder caused by mutations in the chromatin-modifying enzymes KAT6A/KAT6B, presenting with intellectual disability, blepharophimosis, and skeletal/cardiac anomalies. This pathology involves chromatin acetylation machinery, which has no known mechanistic overlap with serotonin transporter inhibition.
+متلازمة أودو (بما فيها Say-Barber-Biesecker-Young-Simpson والمتغيرات الأخرى) هي اضطراب نمائي خلقي نادر ناجم عن طفرات في الإنزيمات المعدِّلة للكروماتين KAT6A/KAT6B، وتتميز بالإعاقة الذهنية وتضيق الشقوق الجفنية والتشوهات الهيكلية/القلبية. تتضمن هذه الحالة المرضية آلية أسيتيلة الكروماتين، والتي لا تتقاطع بأي طريقة معروفة مع تثبيط ناقل السيروتونين.
 
-**Caution:** the TxGNN score of 0.99 is very high, but it is a pure graph-neural-network prediction based on drug–disease association topology, with no known biological plausibility identified to support it. Given the sparsity of rare-disease training data, this is highly suspected to be a spurious association arising from indirect, biologically meaningless paths in the embedding space rather than a genuine pharmacological signal.
+**تحذير:** درجة TxGNN البالغة 0.99 عالية جداً، لكنها تنبؤ بحت من شبكة عصبية رسومية بناءً على طوبولوجيا الارتباطات بين الأدوية والأمراض، دون أي إمكانية بيولوجية معروفة تدعمها. نظراً لنقص بيانات التدريب للأمراض النادرة، من المشبوه جداً أن يكون هذا ارتباطاً وهمياً ناشئاً عن مسارات غير مباشرة وغير ذات معنى بيولوجي في فضاء التضمين بدلاً من كونه إشارة دوائية حقيقية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Paroxetine is not marketed in Saudi Arabia under this evidence pack (0 licenses on record); no product authorization details are available.
+الباروكسيتين (paroxetine) غير مسوق في المملكة العربية السعودية بموجب هذه الحزمة من الأدلة (0 تراخيص مسجلة)؛ لا توجد تفاصيل تفويض الدواء المتاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The prediction is supported solely by a TxGNN model score (L5, no clinical trials or literature) and the disclosed mechanistic rationale explicitly flags the association as biologically implausible and likely a data-driven artifact given the unrelated chromatin-modifier pathology of Ohdo syndrome. Additionally, a Blocking data gap exists on TFDA/SFDA package insert safety data, preventing even a preliminary safety review.
+**المنطق:**
+يُدعم التنبؤ فقط بدرجة نموذج TxGNN (L5، بدون تجارب سريرية أو أدبيات)، والحجة الآلية المفصح عنها تشير صراحة إلى أن الارتباط غير معقول بيولوجياً وربما يكون تحفة مدفوعة بالبيانات، نظراً لأن الحالة المرضية في متلازمة أودو ناشئة عن تعديل الكروماتين ولا تتعلق بآلية عمل مثبطات إعادة امتصاص السيروتونين. بالإضافة إلى ذلك، توجد فجوة بيانات حاجزة في نشرة الدواء من الإدارة العامة للغذاء والدواء السعودية (TFDA/SFDA) بشأن بيانات السلامة، مما يحول دون إجراء حتى مراجعة أولية للسلامة.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) to close the Blocking safety data gap
-- Verified drug mechanism of action (MOA) data from DrugBank or primary literature
-- Independent preclinical or mechanistic evidence linking SSRI activity to KAT6A/KAT6B-related pathology before further investment
-- Re-evaluation if new clinical trials or literature supporting this indication emerge
+**للمتابعة، يلزم الحصول على:**
+- نشرة الدواء من الإدارة العامة للغذاء والدواء السعودية (TFDA/SFDA) (التحذيرات والموانع) لإغلاق فجوة البيانات الحاجزة المتعلقة بالسلامة
+- بيانات آلية العمل المُختبرة (MOA) من DrugBank أو الأدبيات الأساسية
+- أدلة ما قبل الإكلينيكية أو ميكانيكية مستقلة تربط نشاط مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI) بالحالة المرضية المرتبطة بـ KAT6A/KAT6B قبل إجراء استثمارات إضافية
+- إعادة تقييم في حال ظهور تجارب سريرية جديدة أو أدبيات تدعم هذا المؤشر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

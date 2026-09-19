@@ -29,89 +29,90 @@ indication_count: 1
 
 </div>
 
-# Tiapride: Toward a New Indication in Migraine Disorder
+# تيابرايد: نحو دلالة استطباب جديدة في اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Tiapride (DrugBank ID: DB13025) currently has no approved indication or mechanism-of-action data on file in this evidence pack, and it is not marketed in Saudi Arabia.
-> The TxGNN model predicts it may be effective for **Migraine Disorder**, with a prediction score of **99.18%**,
-> supported by **10 publications** (dating from 1978–2022) but **no registered clinical trials**.
+> لا يملك الـ tiapride (معرّف DrugBank: DB13025) حالياً أي دلالة استطباب موافق عليها أو بيانات حول آلية العمل في هذه الحزمة الإثباتية، وغير مسوّق في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع النصفي**، برصيد تنبؤ قدره **99.18%**،
+> مدعوماً بـ **10 منشورات** (تؤرخ من 1978–2022) لكن **بدون تجارب سريرية مسجلة**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — no approved indication currently on file |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| دلالة الاستطباب الأصلية | غير متوفرة — لا توجد دلالة استطباب موافق عليها على الملف حالياً |
+| دلالة الاستطباب الجديدة المتنبأ بها | اضطراب الصداع النصفي |
+| رصيد التنبؤ TxGNN | 99.18% |
+| مستوى الإثبات | L3 |
+| حالة سوق المملكة العربية السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for tiapride in this evidence pack. However, the supporting literature offers useful clues: tiapride is described as belonging to the **benzamide (anisamide) family**, with an **anti-dopaminergic effect concentrated on the mesolimbic system and a direct vascular action** (PMID 6266020). Other early reports also note antiemetic and mild anticompulsive activity alongside its analgesic-like effect on headache (PMID 211624).
+حالياً، بيانات آلية العمل التفصيلية غير متاحة لـ tiapride في هذه الحزمة الإثباتية. ومع ذلك، تقدم الأدبيات الداعمة مؤشرات مفيدة: يُوصف tiapride بأنه ينتمي إلى **عائلة البنزاميد (الأنيسأميد)**، بـ **تأثير مضاد للدوبامين مركز على نظام الميسولمبيك وتأثير وعائي مباشر** (PMID 6266020). تشير التقارير المبكرة الأخرى أيضاً إلى نشاط مضاد للغثيان وخفيف مضاد للإجبار إلى جانب تأثيره الشبيه بالمسكنات على الصداع (PMID 211624).
 
-This dual dopaminergic/vascular action is mechanistically plausible for migraine, since migraine pathophysiology involves both cranial vascular tone and central dopaminergic dysregulation. This is reflected in a body of older French and Italian literature (1978–1984) describing controlled and open studies of tiapride in migraine and chronic headache, several reporting meaningful symptomatic benefit, and more recently a 2022 pilot randomized, double-blind trial comparing tiapride against topiramate — an established migraine prophylactic — in chronic migraine (PMID 35548913).
+يعتبر هذا التأثير الثنائي الدوباميني/الوعائي معقولاً من الناحية الآلية للصداع النصفي، لأن الفسيولوجيا المرضية للصداع النصفي تشمل كلاً من نبرة الأوعية الدموية الجمجمية واختلال التنظيم الدوباميني المركزي. ينعكس هذا في مجموعة من الأدبيات الفرنسية والإيطالية الأقدم (1978–1984) التي تصف الدراسات المضبوطة والمفتوحة لـ tiapride في الصداع النصفي والصداع المزمن، مع تقارير عديدة تفيد بفوائد أعراض ذات مغزى، وبشكل أحدث، تجربة عشوائية مزدوجة التعمية تجريبية عام 2022 تقارن tiapride مقابل topiramate — وهو دواء وقائي معروف من الصداع النصفي — في الصداع النصفي المزمن (PMID 35548913).
 
-Taken together, the literature suggests a historical, geographically concentrated (largely French-language) clinical interest in tiapride for migraine and headache prophylaxis that predates and independently converges with the TxGNN model's prediction. No registered interventional trials (ClinicalTrials.gov or ICTRP) currently exist for this indication, so the evidence base remains literature-driven rather than trial-driven.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+في المجمل، تشير الأدبيات إلى اهتمام سريري تاريخي ومركز جغرافياً (في الغالب باللغة الفرنسية) بـ tiapride للوقاية من الصداع النصفي والصداع يسبق تنبؤ نموذج TxGNN ويتقاطع معه بشكل مستقل. لا توجد حالياً تجارب تدخل مسجلة (ClinicalTrials.gov أو ICTRP) لهذه الدلالة الاستطبابية، لذا تبقى قاعدة الإثبات مدفوعة بالأدبيات بدلاً من أن تكون مدفوعة بالتجارب.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [35548913](https://pubmed.ncbi.nlm.nih.gov/35548913/) | 2022 | RCT (pilot) | Revista de Neurología | Randomised, double-blind pilot study comparing tiapride vs. topiramate as prophylaxis for chronic migraine |
-| [7323625](https://pubmed.ncbi.nlm.nih.gov/7323625/) | 1981 | RCT | Rivista di Patologia Nervosa e Mentale | Double-blind trial in 50 patients with chronic headache/migraine; 65% showed clinical benefit in intensity/frequency |
-| [6266020](https://pubmed.ncbi.nlm.nih.gov/6266020/) | 1981 | RCT | La Semaine des Hôpitaux | Controlled trial in 25 patients with intractable migraine/facial vascular pain; excellent results in 10 cases |
-| [6256904](https://pubmed.ncbi.nlm.nih.gov/6256904/) | 1980 | RCT | La Semaine des Hôpitaux | Placebo-controlled study in 40 migraine patients; demonstrates efficacy of tiapride |
-| [35831](https://pubmed.ncbi.nlm.nih.gov/35831/) | 1978 | Review | La Semaine des Hôpitaux | Review of chronic headache treatment approaches, including psychotropic drug options |
-| [6528587](https://pubmed.ncbi.nlm.nih.gov/6528587/) | 1984 | Review | Wiadomości Lekarskie | Review of benzamides (sulpiride, tiapride) in preventive treatment of migraine |
-| [6293072](https://pubmed.ncbi.nlm.nih.gov/6293072/) | 1982 | Case series | La Semaine des Hôpitaux | 180 patients (165 with cephalalgia) treated with tiapride; good/excellent results in 71% of completers |
-| [211624](https://pubmed.ncbi.nlm.nih.gov/211624/) | 1978 | Case report/commentary | La Semaine des Hôpitaux | Discusses tiapride's combined antalgic, antiemetic, and anticompulsive effects for headache/migraine |
-| [39344](https://pubmed.ncbi.nlm.nih.gov/39344/) | 1979 | Case series | La Semaine des Hôpitaux | 4 patients treated 6+ months with tiapride; excellent/very good results in migraine syndromes |
-| [229563](https://pubmed.ncbi.nlm.nih.gov/229563/) | 1979 | Case series | La Semaine des Hôpitaux | 47 elderly patients (66–99 yrs) treated with tiapride for varied conditions, incl. dyskinesia and agitation |
+| [35548913](https://pubmed.ncbi.nlm.nih.gov/35548913/) | 2022 | RCT (pilot) | Revista de Neurología | دراسة تجريبية عشوائية مزدوجة التعمية تقارن tiapride مقابل topiramate كوسيلة وقائية للصداع النصفي المزمن |
+| [7323625](https://pubmed.ncbi.nlm.nih.gov/7323625/) | 1981 | RCT | Rivista di Patologia Nervosa e Mentale | تجربة مزدوجة التعمية في 50 مريضاً مع صداع مزمن/صداع نصفي؛ 65% أظهروا فائدة سريرية في الشدة/التكرار |
+| [6266020](https://pubmed.ncbi.nlm.nih.gov/6266020/) | 1981 | RCT | La Semaine des Hôpitaux | تجربة مضبوطة في 25 مريضاً مع صداع نصفي عنيد/ألم وعائي وجهي؛ نتائج ممتازة في 10 حالات |
+| [6256904](https://pubmed.ncbi.nlm.nih.gov/6256904/) | 1980 | RCT | La Semaine des Hôpitaux | دراسة مضبوطة بالعقار الوهمي في 40 مريضاً مصاباً بالصداع النصفي؛ تثبت فعالية tiapride |
+| [35831](https://pubmed.ncbi.nlm.nih.gov/35831/) | 1978 | Review | La Semaine des Hôpitaux | استعراض نهج علاج الصداع المزمن، بما في ذلك خيارات الأدوية النفسية |
+| [6528587](https://pubmed.ncbi.nlm.nih.gov/6528587/) | 1984 | Review | Wiadomości Lekarskie | استعراض البنزاميدات (sulpiride, tiapride) في العلاج الوقائي للصداع النصفي |
+| [6293072](https://pubmed.ncbi.nlm.nih.gov/6293072/) | 1982 | Case series | La Semaine des Hôpitaux | 180 مريضاً (165 منهم مع الآلام الرأسية) تم علاجهم بـ tiapride؛ نتائج جيدة/ممتازة في 71% من المكملين |
+| [211624](https://pubmed.ncbi.nlm.nih.gov/211624/) | 1978 | Case report/commentary | La Semaine des Hôpitaux | يناقش التأثيرات المسكنة والمضادة للغثيان والمضادة للإجبار المدمجة لـ tiapride للصداع/الصداع النصفي |
+| [39344](https://pubmed.ncbi.nlm.nih.gov/39344/) | 1979 | Case series | La Semaine des Hôpitaux | 4 مرضى تم علاجهم 6+ أشهر مع tiapride؛ نتائج ممتازة/جيدة جداً في متلازمات الصداع النصفي |
+| [229563](https://pubmed.ncbi.nlm.nih.gov/229563/) | 1979 | Case series | La Semaine des Hôpitaux | 47 مريضاً مسناً (66–99 سنة) تم علاجهم بـ tiapride لحالات متنوعة، بما في ذلك خلل الحركة والإثارة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Tiapride is currently **not marketed** in Saudi Arabia, and no product authorizations are on file (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: TFDA package insert warnings/contraindications and drug interaction data are flagged as a Blocking data gap (DG001) — this prevents a safety (S1) initial assessment and must be resolved before further evaluation.*
+الـ tiapride غير **مسوّق** حالياً في المملكة العربية السعودية، ولا توجد تصاريح منتجات على الملف (0 رخصة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى النشرة الموجودة في العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN prediction score is high and is corroborated by a long-standing, independent body of literature on tiapride in migraine/headache, including a recent pilot RCT. However, mechanism-of-action data, original indication data, and — critically — safety/label data (contraindications, warnings, interactions) are all currently unavailable, and no registered clinical trials exist. This blocks progression to safety assessment.
+*ملاحظة: تحذيرات نشرة TFDA/موانع الاستعمال وبيانات تفاعل الأدوية معلمة كفجوة بيانات حاجزة (DG001) — هذا يمنع تقييم السلامة الأولي (S1) ويجب حله قبل التقييم الإضافي.*
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications, DDI) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank or equivalent source (DG002)
-- Original approved indication(s), for mechanistic and market-positioning comparison
-- Assessment of whether the supportive literature (largely pre-1990, French-language, small/uncontrolled) warrants a modern confirmatory trial before advancing
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: Hold**
+
+**الأساس المنطقي:**
+رصيد التنبؤ TxGNN مرتفع وتؤيده مجموعة طويلة الأمد ومستقلة من الأدبيات حول tiapride في الصداع النصفي/الصداع، بما في ذلك تجربة عشوائية تجريبية حديثة. ومع ذلك، بيانات آلية العمل وبيانات دلالة الاستطباب الأصلية و — بشكل حاسم — بيانات السلامة/التسمية (موانع الاستعمال والتحذيرات والتفاعلات) كلها غير متاحة حالياً، ولا توجد تجارب سريرية مسجلة. هذا يعيق التقدم نحو تقييم السلامة.
+
+**للمتابعة، ما يلي مطلوب:**
+- نشرة TFDA/التنظيمية (تحذيرات وموانع استعمال و DDI) — فجوة بيانات حاجزة حالياً (DG001)
+- آلية العمل المؤكدة من DrugBank أو مصدر مكافئ (DG002)
+- دلالة/دلالات الاستطباب الموافق عليها الأصلية، لمقارنة آلية ووضع السوق
+- تقييم ما إذا كانت الأدبيات الداعمة (في الغالب ما قبل 1990، باللغة الفرنسية، صغيرة/غير مضبوطة) تبرر تجربة تأكيدية حديثة قبل المتابعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

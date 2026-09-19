@@ -29,87 +29,88 @@ indication_count: 5
 
 </div>
 
-# Alfacalcidol: From Renal Bone Disease to Familial Isolated Hypoparathyroidism
+# الفاكالسيديول: من أمراض العظام الكلوية إلى نقص جارات الدرق العائلي المعزول
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Alfacalcidol (1α-hydroxycholecalciferol) is a synthetic active vitamin D analog established for treating renal osteodystrophy, secondary hyperparathyroidism in chronic kidney disease, and osteomalacia. The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion** with a prediction confidence of **99.61%**; however, no clinical trials or direct publications were retrieved in this data collection cycle—the evidence gap reflects a search limitation rather than an absence of clinical rationale, as the mechanistic link is well-established.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Renal osteodystrophy / secondary hyperparathyroidism / osteomalacia (established clinical use; no Saudi Arabia authorization on record) |
-| Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L4 (mechanistic / preclinical; no direct clinical trials or literature retrieved) |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+الفاكالسيديول (1α-hydroxycholecalciferol) هو مادة تناظرية فيتامين D نشطة تركيبية موثقة لعلاج الاعتلال العظمي الكلوي وفرط جارات الدرقية الثانوي في مرض الكلى المزمن وتلين العظام. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **نقص جارات الدرق العائلي المعزول بسبب إفراز PTH الضعيف** بدرجة ثقة **99.61%**؛ ومع ذلك، لم يتم استرجاع أي تجارب سريرية أو منشورات مباشرة في دورة جمع البيانات هذه—فجوة الأدلة تعكس حداً في البحث بدلاً من غياب الأساس المنطقي السريري، حيث أن الارتباط الآلي راسخ تماماً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Alfacalcidol is a pro-drug of calcitriol (1,25-dihydroxyvitamin D₃). Unlike native vitamin D, it already carries the 1α-hydroxyl group and requires only hepatic 25-hydroxylation to become fully active. This bypasses the rate-limiting renal 1α-hydroxylation step, making it pharmacologically active even when renal function is impaired or absent.
-
-In familial isolated hypoparathyroidism caused by impaired PTH secretion, the deficiency of PTH leads directly to reduced renal 1α-hydroxylase (CYP27B1) activity. The downstream consequences—hypocalcemia, hyperphosphatemia, and impaired intestinal calcium absorption—are precisely the metabolic disturbances that alfacalcidol is designed to correct. By activating the vitamin D receptor (VDR) independently of PTH, alfacalcidol compensates for the entire downstream deficit with a single mechanism.
-
-This is therefore not a novel or speculative repurposing hypothesis. Active vitamin D analogs, including alfacalcidol and calcitriol, represent the pharmacological standard of care for hypoparathyroidism globally. The TxGNN model's high-confidence prediction (rank 6,572 out of all disease-drug pairs) reflects the strong graph-structural similarity between the disease node and alfacalcidol's established indication network. The absence of retrieved literature in this data pull is assessed as a search gap, not a clinical evidence gap.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for this specific indication in the data collection.
-
-> **Note:** This reflects the search query for the precise OMIM/Orphanet term "familial isolated hypoparathyroidism due to impaired PTH secretion." Broader searches for alfacalcidol in hypoparathyroidism are likely to yield results and are recommended as a remediation step.
+| العنصر | المحتوى |
+|------|----------|
+| الاستخدام الأصلي | الاعتلال العظمي الكلوي / فرط جارات الدرقية الثانوي / تلين العظام (استخدام سريري موثق؛ لا توجد ترخيصات معروفة في المملكة العربية السعودية) |
+| الاستخدام المتنبأ به الجديد | نقص جارات الدرق العائلي المعزول بسبب إفراز PTH الضعيف |
+| درجة تنبؤ TxGNN | 99.61% |
+| مستوى الأدلة | L4 (آلي/قبل سريري؛ لم يتم استرجاع أي تجارب سريرية مباشرة أو أدبيات) |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | سؤال بحثي |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature retrieved for this specific indication.
+الفاكالسيديول هو دواء سليف لـ calcitriol (1,25-dihydroxyvitamin D₃). على عكس فيتامين D الطبيعي، فإنه يحمل بالفعل مجموعة 1α-hydroxyl ويتطلب فقط 25-hydroxylation كبدي ليصبح نشطاً تماماً. هذا يتجاوز خطوة 1α-hydroxylation الكلوية المحددة للمعدل، مما يجعله نشطاً دوائياً حتى عندما تكون الوظيفة الكلوية ضعيفة أو غائبة.
 
-> **Note:** Same search-scope caveat applies. The mechanistic rationale in the repurposing section draws on well-known pharmacology rather than retrieved publications. A targeted PubMed search using MeSH terms `alfacalcidol AND hypoparathyroidism` is recommended.
+في نقص جارات الدرق العائلي المعزول الناجم عن إفراز PTH الضعيف، يؤدي نقص PTH مباشرة إلى نشاط 1α-hydroxylase الكلوي المنخفض (CYP27B1). العواقب اللاحقة—نقص كالسيوم الدم وفرط الفوسفات وامتصاص الكالسيوم المعوي الضعيف—هي بالضبط الاضطرابات الأيضية التي صُمم الفاكالسيديول لتصحيحها. من خلال تنشيط مستقبل فيتامين D (VDR) بشكل مستقل عن PTH، يعوض الفاكالسيديول النقص اللاحق بأكمله بآلية واحدة.
 
----
-
-## Saudi Arabia Market Information
-
-Alfacalcidol is not currently registered or marketed in Saudi Arabia. No authorization records are available.
+وبالتالي فإن هذا ليس فرضية إعادة تخصيص جديدة أو تكهنية. تمثل المواد التناظرية النشطة لفيتامين D، بما فيها الفاكالسيديول و calcitriol، معيار الرعاية الدوائي العالمي لنقص جارات الدرق. ينعكس التنبؤ الموثوق به بثقة عالية من نموذج TxGNN (الرتبة 6,572 من جميع أزواج المرض-الدواء) من التشابه البنيوي القوي في الرسم البياني بين عقدة المرض وشبكة استخدام الفاكالسيديول الموثقة. يتم تقييم غياب الأدبيات المسترجعة في هذا السحب من البيانات كفجوة بحث، وليس كفجوة أدلة سريرية.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة لهذا الاستخدام المحدد في جمع البيانات.
 
-> Full safety data (warnings, contraindications, drug interactions) was not retrieved in this data collection cycle. The following general cautions are known from pharmacological class:
-> - **Hypercalcemia risk**: The most important class-level adverse effect; requires periodic monitoring of serum calcium.
-> - **Drug Interactions**: Thiazide diuretics may potentiate hypercalcemia; cholestyramine and mineral oil may reduce absorption.
-> - **Contraindications**: Generally contraindicated in hypercalcemia and vitamin D toxicity states.
+> **ملاحظة:** يعكس هذا البحث للمصطلح الدقيق OMIM/Orphanet "نقص جارات الدرق العائلي المعزول بسبب إفراز PTH الضعيف." من المرجح أن تحقق عمليات البحث الأوسع عن الفاكالسيديول في نقص جارات الدرق نتائج وتُنصح بها كخطوة معالجة.
+
+---
+
+## أدلة الأدبيات
+
+حالياً لم تُسترجع أدبيات ذات صلة لهذا الاستخدام المحدد.
+
+> **ملاحظة:** ينطبق نفس تحذير نطاق البحث. يستند الأساس المنطقي الآلي في قسم إعادة التخصيص على الصيدلة المعروفة جيداً وليس على المنشورات المسترجعة. يُنصح بـ بحث PubMed موجه باستخدام مصطلحات MeSH `alfacalcidol AND hypoparathyroidism`.
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+الفاكالسيديول غير مسجل أو مسوّق حالياً في المملكة العربية السعودية. لا توجد سجلات ترخيص متاحة.
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الاطلاع على نشرة الدواء للحصول على معلومات الأمان.
+
+> لم يتم استرجاع بيانات الأمان الكاملة (التحذيرات وموانع الاستعمال والتفاعلات الدوائية) في دورة جمع البيانات هذه. التحذيرات العامة التالية معروفة من الفئة الدوائية:
+> - **خطر فرط الكالسيوم بالدم**: أهم تأثير ضار على مستوى الفئة؛ يتطلب مراقبة دورية لكالسيوم الدم.
+> - **التفاعلات الدوائية**: قد تعزز مدرات البول الثيازيدية فرط الكالسيوم بالدم؛ قد يقلل الكوليسترامين والزيت المعدني من الامتصاص.
+> - **موانع الاستعمال**: بشكل عام ممنوعة في حالات فرط الكالسيوم بالدم وحالات التسمم بفيتامين D.
 >
-> These are provided for orientation only. Formal safety review requires retrieval of the SFDA-approved package insert.
+> يتم تقديم هذه للتوجيه فقط. يتطلب المراجعة الرسمية للأمان استرجاع نشرة الدواء المعتمدة من SFDA.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Research Question**
+**القرار: سؤال بحثي**
 
-**Rationale:**
-The mechanistic link between alfacalcidol and familial isolated hypoparathyroidism due to impaired PTH secretion is pharmacologically mature and represents the drug's core mechanism of action—the TxGNN model's prediction is biologically sound. However, the current evidence pack contains no retrieved clinical trials or direct publications, placing this at Evidence Level L4, insufficient to advance to a formal repurposing recommendation without additional evidence retrieval.
+**الأساس المنطقي:**
+الارتباط الآلي بين الفاكالسيديول ونقص جارات الدرق العائلي المعزول بسبب إفراز PTH الضعيف ناضج دوائياً ويمثل آلية العمل الأساسية للدواء—تنبؤ نموذج TxGNN سليم بيولوجياً. ومع ذلك، فإن حزمة الأدلة الحالية لا تحتوي على أي تجارب سريرية أو منشورات مباشرة مسترجعة، مما يضع هذا عند مستوى الأدلة L4، غير كافٍ للانتقال إلى توصية إعادة تخصيص رسمية بدون استرجاع أدلة إضافية.
 
-**To proceed, the following is needed:**
+**للمتابعة، يلزم ما يلي:**
 
-- **Targeted literature search**: Re-query PubMed using `alfacalcidol[MeSH] AND hypoparathyroidism` and related MeSH terms; the current zero-hit result is inconsistent with the drug's known clinical use and indicates a search parameter issue.
-- **MOA data retrieval**: Query DrugBank API for DB01436 to populate the formal mechanism of action field (currently flagged as Data Gap DG002).
-- **Safety data retrieval**: Download and parse the Saudi Arabia / SFDA package insert to complete warnings and contraindications (Data Gap DG001, Blocking severity).
-- **Indication specificity mapping**: Confirm whether existing hypoparathyroidism registrations in other jurisdictions (e.g., Japan, EU, UK) explicitly cover the familial isolated PTH-secretion subtype, which would elevate the evidence level to at least L2–L3.
-- **Regulatory pathway assessment**: Since this drug is not marketed in Saudi Arabia (0 authorizations), a parallel track for new drug registration or named-patient access should be scoped alongside any repurposing evaluation.
+- **بحث أدبي موجه**: إعادة الاستعلام عن PubMed باستخدام `alfacalcidol[MeSH] AND hypoparathyroidism` والمصطلحات ذات الصلة MeSH؛ تعتبر النتيجة الحالية ذات الصفر غير متسقة مع الاستخدام السريري المعروف للدواء وتشير إلى مشكلة معاملات البحث.
+- **استرجاع بيانات آلية العمل**: الاستعلام عن DrugBank API لـ DB01436 لملء حقل آلية العمل الرسمية (حالياً منشور كـ Data Gap DG002).
+- **استرجاع بيانات الأمان**: تنزيل وتحليل نشرة الدواء بالمملكة العربية السعودية / SFDA لإكمال التحذيرات وموانع الاستعمال (Data Gap DG001، جسامة الحجب).
+- **رسم خريطة تخصص الاستخدام**: تأكيد ما إذا كانت تسجيلات نقص جارات الدرق الحالية في ولايات قضائية أخرى (على سبيل المثال، اليابان والاتحاد الأوروبي والمملكة المتحدة) تغطي صراحة نقص جارات الدرق العائلي المعزول المرتبط بإفراز PTH، الذي سيرفع مستوى الأدلة إلى L2–L3 على الأقل.
+- **تقييم المسار التنظيمي**: نظراً لأن هذا الدواء غير مسوّق في المملكة العربية السعودية (0 ترخيصات)، يجب تحديد مسار متوازٍ لتسجيل دواء جديد أو وصول المريض المحدد جنباً إلى جنب مع أي تقييم إعادة تخصيص.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,63 +29,64 @@ indication_count: 3
 
 </div>
 
-# Nevirapine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# نيفيرابين: من عدوى HIV-1 إلى متلازمة نقص المناعة المكتسبة في القطط
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally developed for HIV-1 infection. The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome (FIV infection)**, but this direction is currently supported by only **1 publication** and **0 clinical trials** — and that single publication argues the mechanism likely does *not* transfer to FIV.
+نيفيرابين هو مثبط عكسي غير نيوكليوسيدي للنسخ العكسي (NNRTI) تم تطويره في الأصل لعلاج عدوى HIV-1. التنبؤ ذو الترتيب الأعلى من نموذج TxGNN هو **متلازمة نقص المناعة المكتسبة في القطط (عدوى FIV)**، لكن هذا الاتجاه يدعمه حالياً فقط **منشور واحد** و**0 تجارب سريرية** — والمنشور الوحيد يجادل بأن الآلية لا تنتقل على الأرجح إلى FIV.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (well-established use; not captured in the Saudi Arabia registry data below since the drug is unmarketed there) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV infection) |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | عدوى HIV-1 (استخدام راسخ جيداً؛ غير مدرج في بيانات سجل المملكة العربية السعودية أدناه لأن الدواء غير مسوق هناك) |
+| المؤشر الجديد المتنبأ به | متلازمة نقص المناعة المكتسبة في القطط (عدوى FIV) |
+| درجة التنبؤ من TxGNN | 99.85% |
+| مستوى الدليل | L4 |
+| حالة سوق المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data is not available in the evidence pack. Based on general pharmacological knowledge, nevirapine is a first-generation NNRTI that works by binding a hydrophobic allosteric pocket unique to HIV-1 reverse transcriptase (RT), blocking viral replication non-competitively.
+البيانات المفصلة لآلية العمل غير متوفرة في الحزمة الإثباتية. بناءً على المعرفة الصيدلانية العامة، نيفيرابين هو مثبط عكسي من الجيل الأول يعمل بالارتباط بجيب محب للدهون في موقع غير متنافس فريد من نوعه في محولة النسخ العكسي (RT) لـ HIV-1، مما يمنع تكرار الفيروس بشكل غير تنافسي.
 
-The predicted indication, feline immunodeficiency virus (FIV)-associated acquired immunodeficiency syndrome in cats, is superficially attractive because FIV is a lentivirus closely related to HIV and causes an analogous immune-deficiency syndrome. This is presumably why the TxGNN knowledge graph links nevirapine to this disease with a very high score.
+المؤشر المتنبأ به، متلازمة نقص المناعة المكتسبة المرتبطة بفيروس نقص المناعة في القطط (FIV) لدى القطط، جذاب ظاهرياً لأن FIV هو فيروس عدس يرتبط ارتباطاً وثيقاً بـ HIV ويسبب متلازمة نقص مناعة مماثلة. من المفترض أن هذا هو السبب في أن مخطط معرفة TxGNN يربط نيفيرابين بهذا المرض برصيد عالي جداً.
 
-However, the one available publication (PMID 38031646) directly undermines this rationale: it compares NNRTI binding across HIV and FIV reverse transcriptases and indicates that FIV RT lacks the pocket structure NNRTIs require, meaning nevirapine and related NNRTIs are expected to have little to no activity against FIV. The mechanistic plausibility here is therefore low, and the high TxGNN score most likely reflects a knowledge-graph co-occurrence pattern (antiretroviral ↔ lentivirus) rather than genuine pharmacological applicability. Additionally, this indication is veterinary rather than human, which is outside the typical scope of human drug repurposing.
+ومع ذلك، المنشور الوحيد المتاح (PMID 38031646) يقوض مباشرة هذا المنطق: فهو يقارن ارتباط NNRTI عبر محولات النسخ العكسي لـ HIV و FIV ويشير إلى أن FIV RT تفتقر إلى بنية الجيب التي تتطلبها NNRTIs، مما يعني أنه من المتوقع أن يكون لنيفيرابين والأدوية المرتبطة به نشاط قليل جداً أو معدوم ضد FIV. وبالتالي فإن الاحتمالية الميكانيكية هنا منخفضة، والدرجة العالية من TxGNN على الأرجح تعكس نمط التعايش في المخطط المعرفي (مضاد للفيروسات العكسية ↔ فيروس عدس) بدلاً من قابلية تطبيق صيدلانية حقيقية. بالإضافة إلى ذلك، هذا المؤشر هو بيطري وليس بشراً، وهو خارج النطاق النموذجي لإعادة استخدام الأدوية البشرية.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Structural/biochemical comparison | Journal of Veterinary Science | Compared NNRTIs (nevirapine, efavirenz, rilpivirine) against feline and human RT to assess whether they could treat FIV; structural differences between FIV and HIV RT suggest NNRTIs are unlikely to be effective against FIV. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|---------|
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | مقارنة هيكلية/بيوكيميائية | مجلة الطب البيطري | قارنت NNRTIs (نيفيرابين، إيفافيرينز، ريلبيفيرين) ضد RT الفيلية والبشرية لتقييم ما إذا كان يمكنها علاج FIV؛ الاختلافات الهيكلية بين RT الفيلية و HIV تشير إلى أن NNRTIs من غير المرجح أن تكون فعالة ضد FIV. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Nevirapine is not currently marketed in Saudi Arabia (0 registered authorizations).
+نيفيرابين غير مسوق حالياً في المملكة العربية السعودية (0 تفويضات مسجلة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-- The sole piece of evidence for the top-ranked indication is a structural/biochemical comparison study that argues *against* nevirapine's efficacy in FIV (species-specific RT pocket mismatch), not a study supporting it — this is disconfirming rather than confirming evidence. The other two TxGNN-ranked candidates (SIV infection, and a rare neurodevelopmental disorder) are similarly unsupported: SIV evidence is dominated by unrelated in vitro/animal screening studies showing NNRTIs generally fail against wild-type SIV RT, and the neurodevelopmental disorder candidate has zero literature or trial support and no plausible mechanistic link.
-- Separately, the TFDA/Saudi package insert warnings and contraindications data (DG001) are marked as a **Blocking** gap, meaning the candidate cannot proceed to safety pre-screening (S1) regardless of indication.
+**الأساس المنطقي:**
+- القطعة الوحيدة من الأدلة للمؤشر ذو الترتيب الأعلى هي دراسة مقارنة هيكلية/بيوكيميائية تجادل *ضد* فعالية نيفيرابين في FIV (عدم تطابق جيب RT الخاص بالنوع)، وليس دراسة تدعمها — هذا دليل دحض وليس تأكيد. المرشحان الآخران ذو الترتيب العالي من TxGNN (عدوى SIV واضطراب نمو عصبي نادر) غير مدعومين بالمثل: الأدلة على SIV تهيمن عليها الدراسات غير ذات الصلة داخل المختبر/الحيوانية التي تظهر أن NNRTIs بشكل عام تفشل ضد RT SIV من النوع البري، والمرشح المصاب باضطراب نمو عصبي ليس لديه دعم أدبي أو تجاربي وليس له رابط ميكانيكي معقول.
+- بشكل منفصل، بيانات تحذيرات وموانع استعمال نشرة TFDA/السعودية (DG001) محددة كفجوة **محظورة**، مما يعني أن المرشح لا يمكنه المتابعة إلى فحص السلامة المسبق (S1) بغض النظر عن المؤشر.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (package insert warnings/contraindications) before any S1 safety evaluation can begin
-- Confirmed mechanism-of-action data (DG002) to properly assess biological plausibility
-- Direct in vivo or in vitro efficacy data for nevirapine specifically against FIV (not just structural comparison) if this indication is to be pursued further
-- Given the disconfirming nature of current evidence, re-ranking or deprioritizing this candidate in favor of other TxGNN predictions should be considered
+**للمتابعة، يلزم ما يلي:**
+- حل DG001 (تحذيرات/موانع استعمال نشرة الحزمة) قبل أن يتمكن أي تقييم أمان S1 من البدء
+- بيانات آلية عمل مؤكدة (DG002) لتقييم الاحتمالية البيولوجية بشكل صحيح
+- بيانات فعالية مباشرة داخل الجسم الحي أو في المختبر للنيفيرابين تحديداً ضد FIV (وليس فقط المقارنة الهيكلية) إذا كان هذا المؤشر سيتابع بشكل أكبر
+- نظراً للطبيعة الدحضية للأدلة الحالية، يجب النظر في إعادة ترتيب أو إزالة أولوية هذا المرشح لصالح تنبؤات TxGNN الأخرى
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,91 +29,92 @@ indication_count: 10
 
 </div>
 
-# AMIKACIN: From Gram-Negative Bacterial Infections to Paratyphoid Fever
+# أميكاسين: من عدوى البكتيريا سالبة الجرام إلى حمى التيفوس الباروتيفويدي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Amikacin is a broad-spectrum aminoglycoside antibiotic historically used for serious gram-negative bacterial infections, though no formal indications are registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Paratyphoid Fever**,
-with **0 clinical trials** and **12 publications** currently supporting this direction — primarily observational studies and case reports documenting amikacin use in multi-drug resistant (MDR) enteric fever settings.
+أميكاسين هو مضاد حيوي أمينوجليكوسيد واسع الطيف استُخدم تاريخياً لعدوى بكتيرية خطيرة سالبة الجرام، على الرغم من عدم تسجيل أي مؤشرات استخدام رسمية في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **حمى التيفوس الباروتيفويدي**،
+مع **0** من التجارب السريرية و**12** منشور يدعمان هذا الاتجاه حالياً — بشكل أساسي الدراسات الملاحظة وتقارير الحالات التي توثق استخدام أميكاسين في حالات حمى التيفوس المعوية المقاومة للأدوية المتعددة (MDR).
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Not registered in Saudi Arabia; established clinical use for serious gram-negative bacterial infections (aminoglycoside antibiotic class) |
-| Predicted New Indication | Paratyphoid Fever |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسجل في المملكة العربية السعودية؛ استخدام سريري معروف لعدوى بكتيرية خطيرة سالبة الجرام (فئة المضادات الحيوية أمينوجليكوسيد) |
+| المؤشر الجديد المتنبأ به | حمى التيفوس الباروتيفويدي |
+| درجة التنبؤ TxGNN | 99.82% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التخويلات | 0 |
+| القرار الموصى به | المتابعة مع احتياطات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Paratyphoid fever is caused by *Salmonella* Paratyphi A, B, and C — gram-negative enteric bacilli. Amikacin, as a semisynthetic aminoglycoside antibiotic, exerts bactericidal activity against gram-negative organisms by irreversibly binding the 30S ribosomal subunit, inhibiting protein synthesis. It demonstrably retains in vitro bactericidal activity against *Salmonella* species, including strains resistant to first-line agents.
+تُسبب حمى التيفوس الباروتيفويدي بكتيريا *Salmonella* Paratyphi A, B, و C — البكتيريا سالبة الجرام المعوية. أميكاسين، كمضاد حيوي أمينوجليكوسيد شبه اصطناعي، يمارس نشاطاً بكتيرياً قاتلاً ضد الكائنات سالبة الجرام من خلال الارتباط بشكل لا رجعة فيه بالوحدة الريبوسومية 30S، مما يثبط تخليق البروتين. فهو يحتفظ بشكل واضح بالنشاط البكتيري القاتل في المختبر ضد أنواع *Salmonella*، بما في ذلك السلالات المقاومة للعوامل من الخط الأول.
 
-The clinical relevance of this prediction becomes most apparent in the context of MDR and extensively drug-resistant (XDR) enteric fever. When *Salmonella* Paratyphi A/B strains acquire resistance to chloramphenicol, ampicillin, and co-trimoxazole — the classical first-line regimens — and subsequently to fluoroquinolones, aminoglycosides such as amikacin emerge as rescue or combination therapy candidates. Multiple case reports and antibiogram studies in the literature document amikacin sensitivity in MDR *Salmonella* Paratyphi isolates.
+تصبح الأهمية السريرية لهذا التنبؤ أكثر وضوحاً في سياق حمى التيفوس المعوية المقاومة للأدوية المتعددة (MDR) والمقاومة للأدوية على نطاق واسع (XDR). عندما تكتسب سلالات *Salmonella* Paratyphi A/B مقاومة للكلورامفينيكول والأمبيسيلين وكو-تريموكسازول — الأنظمة الكلاسيكية من الخط الأول — وبعد ذلك للفلوروكينولونات، تظهر عوامل أمينوجليكوسيد مثل أميكاسين كمرشحات للعلاج الإنقاذي أو العلاج المركب. توثق تقارير حالات متعددة ودراسات مخطط الحساسية في الأدبيات حساسية أميكاسين في عزلات MDR *Salmonella* Paratyphi.
 
-Currently, detailed mechanism of action data is not available from the DrugBank data feed. Based on known clinical pharmacology, amikacin belongs to the aminoglycoside class and its efficacy in serious gram-negative infections is well established. The mechanistic basis for its activity against enteric *Salmonella* is therefore consistent with its broader class action, and its predicted utility in paratyphoid fever reflects an extension of this established antibacterial spectrum rather than a genuinely novel repurposing.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية من خلاصة بيانات DrugBank. بناءً على الصيدلة السريرية المعروفة، ينتمي أميكاسين إلى فئة الأمينوجليكوسيدات وثبتت فعاليته في العدوى الخطيرة سالبة الجرام بشكل جيد. الأساس الآلي لنشاطه ضد بكتيريا *Salmonella* المعوية يتوافق بالتالي مع عمله على مستوى الفئة الأوسع، والفائدة المتنبأ بها له في حمى التيفوس الباروتيفويدي تعكس امتداداً للطيف المضاد للبكتيريا المعروف بدلاً من إعادة استخدام حقيقية جديدة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Prospective observational | Journal of the Indian Medical Association | 145 blood culture-positive enteric fever cases in children; determined antibiotic sensitivity patterns for *S. typhi* and *S. paratyphi*, providing evidence base for aminoglycoside sensitivity in MDR isolates |
-| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Case series / retrospective clinical | Mikrobiyoloji bulteni | 48 pediatric patients with *Salmonella* Paratyphi B infections resistant to classical treatment; antibiogram and treatment outcomes documented for alternative antibiotics |
-| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Case report | Pediatric Hematology and Oncology | Acalculous cholecystitis caused by *S.* Paratyphi B in a child with leukemia — successfully treated with cefepime **+ amikacin** and G-CSF; direct evidence of amikacin use in *Salmonella* Paratyphi B infection |
-| [9459410](https://pubmed.ncbi.nlm.nih.gov/9459410/) | 1997 | Case report | The Journal of Infection | Quinolone-resistant *S.* Paratyphi B meningitis in a neonate; highlights the clinical scenario where aminoglycosides become critical rescue options when fluoroquinolones fail |
-| [17337835](https://pubmed.ncbi.nlm.nih.gov/17337835/) | 2007 | Case report | Indian Journal of Pediatrics | Paratyphoid sepsis in a neonate with blood culture-positive *S.* Paratyphi A; describes clinical management of neonatal Salmonella Paratyphi sepsis |
-| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Cross-sectional / antibiogram | Pakistan Journal of Biological Sciences | Isolation and identification of *Salmonella* Paratyphi from enteric fever patients across multiple hospitals; antibiogram data relevant for treatment planning |
-| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | Cross-sectional / antibiogram | JNMA (Nepal Medical Association) | Blood culture isolate frequency and antibiogram in a teaching hospital; antimicrobial susceptibility patterns to guide empiric therapy in bacteremia including Salmonella |
-| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Observational | Medical Journal, Armed Forces India | Re-emergence of chloramphenicol sensitivity in enteric fever; in vitro susceptibility of *S.* Typhi and *S.* Paratyphi A isolates including aminoglycoside sensitivity testing |
-| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Epidemiological surveillance | The New Microbiologica | 13-year surveillance of *Salmonella* Typhi and Paratyphi occurrence in Jordan; provides regional epidemiological context and resistance data |
-| [16410091](https://pubmed.ncbi.nlm.nih.gov/16410091/) | 2006 | Case series | Journal of Pediatric Surgery | Successful percutaneous drainage + antibiotics (including amikacin combination) for splenic abscess in 4 pediatric patients; documents combined antibiotic utility in invasive Salmonella complications |
+| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | ملاحظة استشرافية | Journal of the Indian Medical Association | 145 حالة حمى معوية موجبة الزراعة الدموية عند الأطفال؛ حددت أنماط حساسية المضادات الحيوية *S. typhi* و *S. paratyphi*، مما يوفر قاعدة دليل لحساسية الأمينوجليكوسيدات في العزلات MDR |
+| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | سلسلة حالات / سريري بأثر رجعي | Mikrobiyoloji bulteni | 48 مريضاً صغاراً يعانون من عدوى *Salmonella* Paratyphi B مقاومة للعلاج الكلاسيكي؛ وثق مخطط الحساسية ونتائج العلاج للمضادات الحيوية البديلة |
+| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | تقرير حالة | Pediatric Hematology and Oncology | التهاب المرارة بدون حصوات سببه *S.* Paratyphi B عند طفل مصاب باللوكيميا — عُولج بنجاح بـ cefepime **+ amikacin** و G-CSF؛ دليل مباشر على استخدام أميكاسين في عدوى *Salmonella* Paratyphi B |
+| [9459410](https://pubmed.ncbi.nlm.nih.gov/9459410/) | 1997 | تقرير حالة | The Journal of Infection | التهاب السحايا بـ *S.* Paratyphi B المقاوم للكينولونات عند مولود؛ يسلط الضوء على السيناريو السريري حيث تصبح الأمينوجليكوسيدات خيارات إنقاذ حيوية عندما تفشل الفلوروكينولونات |
+| [17337835](https://pubmed.ncbi.nlm.nih.gov/17337835/) | 2007 | تقرير حالة | Indian Journal of Pediatrics | تسمم الدم بالتيفوس الباروتيفويدي عند مولود ذو زراعة دموية موجبة *S.* Paratyphi A؛ يصف الإدارة السريرية لتسمم الدم Salmonella Paratyphi عند المواليد |
+| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | مقطعي / مخطط الحساسية | Pakistan Journal of Biological Sciences | عزل وتحديد هوية *Salmonella* Paratyphi من مرضى حمى التيفوس المعوية عبر مستشفيات متعددة؛ بيانات مخطط الحساسية ذات الصلة بتخطيط العلاج |
+| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | مقطعي / مخطط الحساسية | JNMA (Nepal Medical Association) | تكرار عزلات الزراعة الدموية ومخطط الحساسية في مستشفى تعليمي؛ أنماط حساسية مضادة للميكروبات لتوجيه العلاج التجريبي في تجرثم الدم بما في ذلك Salmonella |
+| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | ملاحظة | Medical Journal, Armed Forces India | إعادة ظهور حساسية الكلورامفينيكول في حمى التيفوس المعوية؛ حساسية المختبر لعزلات *S.* Typhi و *S.* Paratyphi A بما في ذلك اختبار حساسية الأمينوجليكوسيدات |
+| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | المراقبة الوبائية | The New Microbiologica | مراقبة لمدة 13 سنة لحدوث *Salmonella* Typhi و Paratyphi في الأردن؛ يوفر السياق الوبائي الإقليمي وبيانات المقاومة |
+| [16410091](https://pubmed.ncbi.nlm.nih.gov/16410091/) | 2006 | سلسلة حالات | Journal of Pediatric Surgery | تصريف عن طريق الجلد ناجح + مضادات حيوية (بما في ذلك مركب أميكاسين) لخراج الطحال عند 4 مرضى صغار؛ يوثق الفائدة المركبة للمضادات الحيوية في مضاعفات Salmonella الغازية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Amikacin is currently **not registered** in Saudi Arabia. No license records are available in the regulatory database.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: Formal safety data (key warnings, contraindications, drug-drug interactions) was not retrieved in this evidence pack cycle. Clinically, amikacin is an aminoglycoside antibiotic with well-known class-associated risks including nephrotoxicity and ototoxicity, which should be taken into account in any clinical use.
+أميكاسين حالياً **غير مسجل** في المملكة العربية السعودية. لا توجد سجلات ترخيص متاحة في قاعدة البيانات التنظيمية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملصق الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-The mechanistic link between amikacin and paratyphoid fever is pharmacologically sound — amikacin retains consistent in vitro activity against *Salmonella* Paratyphi A/B/C, and clinical case evidence documents its real-world use in MDR and quinolone-resistant enteric fever when first-line options have failed. While no registered clinical trials exist, the observational evidence and antibiogram data across multiple endemic regions provide an L3 evidence base that justifies conditional advancement rather than a hold.
+> ملاحظة: لم يتم استرجاع بيانات السلامة الرسمية (التحذيرات الرئيسية والموانع والتفاعلات بين الأدوية) في دورة حزمة الأدلة هذه. من الناحية السريرية، أميكاسين هو مضاد حيوي أمينوجليكوسيد مع أخطار معروفة مرتبطة بالفئة بما في ذلك السمية الكلوية والسمية السمعية، والتي يجب أن تؤخذ في الاعتبار في أي استخدام سريري.
 
-**To proceed, the following is needed:**
-- Formal pharmacokinetic data for amikacin in enteric fever (serum/tissue concentrations relative to MIC breakpoints for *S.* Paratyphi)
-- Definitive in vivo efficacy data (ideally a prospective comparative clinical study against current standard of care — azithromycin or 3rd-generation cephalosporins — in MDR paratyphoid fever)
-- Characterization of current regional resistance patterns for *Salmonella* Paratyphi in the target patient population
-- Saudi Arabia-specific regulatory registration plan (currently no local marketing authorisation)
-- Full safety monitoring protocol covering nephrotoxicity and ototoxicity (therapeutic drug monitoring of amikacin serum concentrations recommended)
-- Clarification of MOA data from DrugBank API (currently flagged as data gap DG002)
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع احتياطات**
+
+**الأساس المنطقي:**
+الارتباط الآلي بين أميكاسين وحمى التيفوس الباروتيفويدي سليم من الناحية الصيدلانية — يحتفظ أميكاسين بنشاط متسق في المختبر ضد *Salmonella* Paratyphi A/B/C، وتوثق أدلة الحالات السريرية استخدامه في العالم الحقيقي في حالات حمى التيفوس المعوية المقاومة لـ MDR والكينولونات عندما فشلت خيارات الخط الأول. بينما لا توجد تجارب سريرية مسجلة، توفر الأدلة الملاحظة وبيانات مخطط الحساسية عبر عدة مناطق موبوءة قاعدة دليل L3 تبرر التقدم المشروط بدلاً من الوقف.
+
+**للمتابعة، يلزم التالي:**
+- بيانات حرائك الأدوية الرسمية لأميكاسين في حمى التيفوس المعوية (تركيزات مصل / أنسجة نسبة إلى قيم MIC لـ *S.* Paratyphi)
+- بيانات الفعالية في الجسم الحي الحاسمة (يفضل دراسة سريرية مقارنة استشرافية مقابل المعيار الحالي للعناية — azithromycin أو سيفالوسبورينات من الجيل الثالث — في حمى التيفوس الباروتيفويدي MDR)
+- توصيف أنماط المقاومة الإقليمية الحالية *Salmonella* Paratyphi في السكان المستهدفين من المرضى
+- خطة تسجيل تنظيمية خاصة بالمملكة العربية السعودية (لا توجد حالياً تخويل تسويقي محلي)
+- بروتوكول مراقبة السلامة الكاملة الذي يغطي السمية الكلوية والسمية السمعية (يوصى بمراقبة تركيز أميكاسين في المصل تحت الإشراف الدوائي)
+- توضيح بيانات آلية العمل من DrugBank API (حالياً معلم كفجوة بيانات DG002)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,75 +29,72 @@ indication_count: 2
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline management — the report generation spec is already defined in my system prompt. Proceeding to generate the report.
+# باريسيتينيب: من أمراض الالتهاب إلى متلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي
+
+## ملخص بجملة واحدة
+
+باريسيتينيب هو مثبط انتقائي لـ JAK1/JAK2 معتمد دولياً لالتهاب المفاصل الروماتويدي والتهاب الجلد التأتبي وداء الثعلبة، على الرغم من أنه لم يحصل على موافقة تنظيمية في تايوان.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي** (الدرجة: 99.94%)، مع **عدم وجود تجارب سريرية وعدم وجود منشورات** تدعم هذا الاتجاه في الوقت الحالي.
+هذا تنبؤ يعتمد على النموذج بشكل كامل عند مستوى الدليل L5؛ ولم يتم إنشاء أي ارتباط ميكانيكي بين تثبيط JAK واضطراب النمو الخلقي النادر جداً.
 
 ---
 
-# Baricitinib: From Inflammatory Disease to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-Baricitinib is a selective JAK1/JAK2 inhibitor approved internationally for rheumatoid arthritis, atopic dermatitis, and alopecia areata, though it has not yet received regulatory approval in Taiwan.
-The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome** (score: 99.94%), with **no clinical trials and no publications** currently supporting this direction.
-This is a purely model-driven prediction at evidence level L5; no mechanistic link between JAK inhibition and this ultra-rare congenital developmental disorder has been established.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available (baricitinib is not approved in Taiwan; approved internationally for rheumatoid arthritis, atopic dermatitis, alopecia areata, COVID-19) |
-| Predicted New Indication | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | غير متاح (لم يتم اعتماد باريسيتينيب في تايوان؛ معتمد دولياً لالتهاب المفاصل الروماتويدي والتهاب الجلد التأتبي وداء الثعلبة و COVID-19) |
+| الاستطباب الجديد المتنبأ به | متلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي |
+| درجة التنبؤ من TxGNN | 99.94% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | ✗ غير موجود في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, baricitinib is a selective, reversible inhibitor of Janus kinases JAK1 and JAK2. It suppresses intracellular cytokine signaling—particularly through IL-6, IFN-γ, GM-CSF, and other JAK-dependent pathways—thereby dampening aberrant immune and inflammatory responses. This mechanism is the basis for its proven efficacy in immune-mediated conditions including rheumatoid arthritis, atopic dermatitis, alopecia areata, and COVID-19-associated hyperinflammation.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة هذه. بناءً على الصيدلة الراسخة، فإن باريسيتينيب هو مثبط انتقائي وقابل للعكس لكيناز جانوس JAK1 و JAK2. يثبط إشارات السيتوكين داخل الخلايا—خاصة من خلال IL-6 و IFN-γ و GM-CSF وغيرها من مسارات JAK التابعة—وبالتالي يقلل من الاستجابات المناعية والالتهابية الشاذة. هذه الآلية هي الأساس لفعاليتها المثبتة في الحالات الوسيطة للمناعة بما في ذلك التهاب المفاصل الروماتويدي والتهاب الجلد التأتبي وداء الثعلبة وفرط الالتهاب المرتبط بـ COVID-19.
 
-Colobomatous microphthalmia-rhizomelic dysplasia syndrome is an ultra-rare congenital disorder defined by structural eye malformations (coloboma, microphthalmia) and shortened proximal limb segments (rhizomelia). Its pathogenesis involves developmental gene mutations affecting pathways such as STRA6 (vitamin A/retinol signaling) and IGBP1—pathways that operate upstream of, and independently from, JAK-STAT cytokine cascades. No published mechanistic evidence connects JAK1/JAK2 inhibition to the embryological processes disrupted in this syndrome.
+متلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي هي اضطراب خلقي نادر جداً يتميز بتشوهات العين البنيوية (كولوبوما وصغر العين) وقصر أجزاء الأطراف القريبة (ريزوميليا). يتضمن إمراضية هذا الاضطراب طفرات جينية إنمائية تؤثر على مسارات مثل STRA6 (إشارات فيتامين أ/الريتينول) و IGBP1—مسارات تعمل في اتجاه مجرى وبشكل مستقل عن تسلسلات JAK-STAT للسيتوكين. لا توجد أدلة ميكانيكية منشورة تربط تثبيط JAK1/JAK2 بالعمليات الجنينية المضطربة في هذه المتلازمة.
 
-The high TxGNN prediction score (99.94%) most likely reflects knowledge graph topology—shared phenotypic nodes or co-occurring inflammatory comorbidities in the graph—rather than a direct pharmacological mechanism. This is a hypothesis-generating signal, not a pharmacologically grounded prediction. Before any further development consideration, a mechanistic hypothesis must be explicitly formulated and tested at the preclinical level.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for baricitinib in colobomatous microphthalmia-rhizomelic dysplasia syndrome.
+درجة TxGNN العالية (99.94%) على الأرجح تعكس طوبولوجيا الرسم البياني للمعرفة—العُقد الظاهرية المشتركة أو الاعتلالات المرافقة الالتهابية في الرسم البياني—بدلاً من آلية دوائية مباشرة. هذه إشارة لتوليد الفرضيات، وليست تنبؤاً مدعوماً بالصيدلة. قبل أي اعتبار إضافي للتطوير الإضافي، يجب صياغة فرضية ميكانيكية صريحة واختبارها على المستوى السابق للسريري.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for baricitinib in colobomatous microphthalmia-rhizomelic dysplasia syndrome.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ باريسيتينيب في متلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات الطبية
 
-**Decision: Hold**
+لا توجد أدبيات طبية ذات صلة متاحة حالياً لـ باريسيتينيب في متلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي.
 
-**Rationale:**
-This is a purely model-driven prediction (L5) with zero clinical trials, zero supporting publications, and no established mechanistic link between baricitinib's JAK1/JAK2 inhibition and the developmental pathways underlying colobomatous microphthalmia-rhizomelic dysplasia syndrome; proceeding without further foundational evidence would not be scientifically justified.
+---
 
-**To proceed, the following is needed:**
-- **Mechanistic hypothesis validation**: Determine whether JAK-STAT signaling intersects with STRA6, IGBP1, or associated developmental pathways using pathway databases (e.g., KEGG, Reactome) and relevant in vitro models
-- **Preclinical evidence**: Identify or generate animal or cell model data demonstrating any effect of JAK inhibition on ocular morphogenesis or limb skeletal development
-- **Full safety profile**: Retrieve Taiwan TFDA package insert and international prescribing information (FDA/EMA) to complete the safety and contraindication assessment
-- **MOA documentation**: Query DrugBank API (DB11817) and primary pharmacology literature to close the DG002 data gap before mechanistic analysis can proceed
-- **Second-ranked indication review**: Consider whether brachydactyly-syndactyly syndrome (rank 2, score 99.94%) shares any overlapping developmental biology that could inform a broader JAK-dysplasia hypothesis
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+هذا تنبؤ يعتمد على النموذج بشكل كامل (L5) مع عدم وجود تجارب سريرية وعدم وجود منشورات داعمة وعدم وجود ارتباط ميكانيكي راسخ بين تثبيط JAK1/JAK2 الخاص بـ باريسيتينيب والمسارات الإنمائية الأساسية لمتلازمة الكولوبوما الخلقية مع صغر العين وقصور النمو الريزومي؛ المتابعة بدون مزيد من الأدلة الأساسية لن تكون مبررة علمياً.
+
+**لكي نتمكن من المتابعة، يلزم ما يلي:**
+- **التحقق من الفرضية الميكانيكية**: تحديد ما إذا كانت إشارات JAK-STAT تتقاطع مع STRA6 أو IGBP1 أو المسارات الإنمائية المرتبطة بها باستخدام قواعد بيانات المسارات (مثل KEGG و Reactome) والنماذج المعملية ذات الصلة
+- **الدليل السابق للسريري**: تحديد أو توليد بيانات النموذج الحيواني أو الخلوي التي توضح أي تأثير لتثبيط JAK على تشكل العين أو تطور الهيكل العظمي للأطراف
+- **الملف الأمني الكامل**: استرجاع نشرة TFDA في تايوان ومعلومات الوصفات الدولية (FDA/EMA) لإكمال تقييم السلامة والاستطبابات المضادة
+- **توثيق آلية العمل**: الاستعلام عن DrugBank API (DB11817) والأدبيات الأولية للصيدلة لإغلاق فجوة بيانات DG002 قبل أن يتمكن التحليل الميكانيكي من المتابعة
+- **مراجعة الاستطباب ذو الترتيب الثاني**: يجب النظر في ما إذا كانت متلازمة قصر الأصابع-الالتحام (الترتيب 2، الدرجة 99.94%) تشترك في أي علم أحياء إنمائي متداخل قد يوضح فرضية JAK-خلل التنسج الأوسع
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

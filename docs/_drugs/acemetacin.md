@@ -29,74 +29,75 @@ indication_count: 1
 
 </div>
 
-# Acemetacin: From Inflammatory Pain Management to Osteoarthritis Susceptibility
+# أسيتامتاسين: من إدارة الألم الالتهابي إلى استهداف قابلية الإصابة بالفصال العظمي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Acemetacin is a prodrug of indomethacin, belonging to the non-steroidal anti-inflammatory drug (NSAID) class, classically used to treat pain and inflammation in musculoskeletal conditions.
-The TxGNN model predicts it may be effective for **Osteoarthritis Susceptibility**, with a high prediction score of **99.22%**.
-However, **no clinical trials or published literature** were found to support this specific indication, placing this prediction at the earliest evidence stage (L5).
+أسيتامتاسين (acemetacin) هو مقدم عقار للإندوميتاسين (indomethacin)، ينتمي إلى فئة العقاقير المضادة للالتهاب غير الستيرويدية (NSAID)، ويُستخدم تقليدياً في علاج الألم والالتهاب في الحالات العضلية الهيكلية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **قابلية الإصابة بالفصال العظمي**، مع درجة تنبؤ عالية جداً قدرها **99.22%**.
+ومع ذلك، **لم يتم العثور على أي تجارب سريرية أو أدبيات منشورة** لدعم هذا الاستطباب المحدد، مما يضع هذا التنبؤ في أقرب مرحلة دليل (L5).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | NSAID for inflammatory pain (indomethacin prodrug; specific label indications unavailable) |
-| Predicted New Indication | Osteoarthritis Susceptibility |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | مضادة للالتهاب غير الستيرويدية لآلام الالتهاب (مقدم عقار إندوميتاسين؛ الاستطبابات المحددة على الملصق غير متوفرة) |
+| الاستطباب الجديد المتنبأ به | قابلية الإصابة بالفصال العظمي |
+| درجة تنبؤ TxGNN | 99.22% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Acemetacin is the glycolic acid ester prodrug of indomethacin. After oral administration, it is hydrolyzed by tissue esterases to release active indomethacin, which functions as a potent COX-1/COX-2 dual inhibitor. By blocking the arachidonic acid metabolic pathway, it suppresses the synthesis of prostaglandin E2 (PGE2), thereby reducing synovial inflammation and peripheral pain sensitization in joints.
+أسيتامتاسين هو مقدم عقار حمض الجليكوليك للإندوميتاسين. بعد الإعطاء الفموي، يتم تحليله بواسطة إستيراز الأنسجة لإطلاق الإندوميتاسين النشط، الذي يعمل كمثبط قوي ثنائي التأثير على COX-1/COX-2. من خلال حجب مسار استقلاب حمض الأراكيدونيك، يثبط تخليق البروستاجلاندين E2 (PGE2)، مما يقلل الالتهاب الزليلي وحساسية الألم المحيطي في المفاصل.
 
-The mechanistic link to osteoarthritis is biologically direct. Osteoarthritis pathology is driven by synovitis and cartilage degradation, both of which are mediated in part by prostaglandin-driven inflammatory cascades. COX inhibition targets this core pathway, and the parent compound indomethacin is already used clinically in osteoarthritis management globally. Acemetacin's prodrug design was specifically developed to reduce the gastrointestinal side effects of indomethacin while preserving its anti-inflammatory efficacy, making it mechanistically well-positioned for this indication.
+الارتباط الآلي بالفصال العظمي مباشر وبيولوجي. يتم تحفيز أمراض الفصال العظمي جزئياً عن طريق التهاب الغشاء الزليلي وتحلل الغضروف، وكلاهما يتوسطه جزئياً سلاسل التهابية تعتمد على البروستاجلاندين. يستهدف مثبط COX هذا المسار الأساسي، والعقار الأم الإندوميتاسين يُستخدم بالفعل سريرياً في إدارة الفصال العظمي على الصعيد العالمي. تم تطوير تصميم مقدم العقار لأسيتامتاسين خصيصاً لتقليل الآثار الجانبية المعدية الهضمية للإندوميتاسين مع الحفاظ على فعاليته المضادة للالتهاب، مما يضعه في موضع جيد آلياً لهذا الاستطباب.
 
-That said, a critical note on data quality: the MOA field in this Evidence Pack is marked as unavailable, and the drug interaction database returned zero results — inconsistent with what is known about NSAIDs. These gaps indicate incomplete data ingestion, not an absence of known pharmacology. Any downstream decision must be based on externally verified pharmacological references rather than this dataset alone.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، ملاحظة حاسمة حول جودة البيانات: حقل آلية العمل (MOA) في حزمة الأدلة هذه معلم بأنه غير متاح، وقاعدة بيانات تفاعلات الأدوية أرجعت صفر نتائج — وهو أمر غير متسق مع ما هو معروف عن صيدلة مثبطات COX. تشير هذه الفجوات إلى عدم اكتمال في تحميل البيانات، وليس غياب صيدلة معروفة. يجب أن يستند أي قرار لاحق إلى مراجع صيدلية تم التحقق من صحتها خارجياً وليس فقط على مجموعة البيانات هذه.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** The safety data fields (key warnings, contraindications, drug interactions) were not populated in this Evidence Pack. As an NSAID prodrug of indomethacin, acemetacin is expected to carry the full NSAID class-effect risk profile — including gastrointestinal ulceration, cardiovascular risk, renal impairment, and drug interactions with anticoagulants, diuretics, and other NSAIDs. These must be confirmed from the package insert before any clinical use.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The TxGNN model assigns a very high prediction score (99.22%), and the COX-1/COX-2 inhibition mechanism is pharmacologically well-suited to osteoarthritis. However, this is a pure model prediction (L5) with no supporting clinical trials or published literature for this specific indication, and the drug currently has no marketing authorization in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Verify MOA and safety profile** from DrugBank API, EMA/FDA label, or published pharmacology references — the current dataset has blocking data gaps
-- **Conduct a bridging literature search** for indomethacin (parent drug) in osteoarthritis as a mechanistic proxy, since the two compounds share the same active moiety
-- **Search for acemetacin clinical use** in any inflammatory musculoskeletal indication (rheumatoid arthritis, ankylosing spondylitis, gout) to establish a clinical safety anchor
-- **Assess regulatory pathway** — since the drug is not marketed in Saudi Arabia, determine whether a foreign approval (e.g., EU, Japan) exists as a reference basis
-- **Define feasibility of evidence upgrade** — at minimum, identify whether an L3 observational or retrospective dataset exists before committing to prospective study design
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+> **ملاحظة:** لم يتم ملء حقول بيانات السلامة (التحذيرات الرئيسية والموانع والتفاعلات الدوائية) في حزمة الأدلة هذه. كمقدم عقار من مثبطات COX (NSAID) مشتق من الإندوميتاسين، يُتوقع أن يحمل أسيتامتاسين كامل ملف مخاطر فئة مثبطات COX — بما في ذلك قرحة الجهاز الهضمي والمخاطر القلبية الوعائية والقصور الكلوي والتفاعلات الدوائية مع مضادات التجلط والمدرات ومثبطات COX الأخرى. يجب التأكد من هذه المعلومات من نشرة العبوة قبل أي استخدام سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+يعين نموذج TxGNN درجة تنبؤ عالية جداً (99.22%)، وآلية مثبط COX-1/COX-2 مناسبة صيدلانياً للفصال العظمي. ومع ذلك، هذا تنبؤ نموذج صرف (L5) بدون دعم من تجارب سريرية أو أدبيات منشورة لهذا الاستطباب المحدد، والعقار حالياً ليس له ترخيص تسويق في المملكة العربية السعودية.
+
+**للمتابعة، يلزم توفر ما يلي:**
+
+- **التحقق من آلية العمل وملف السلامة** من DrugBank API أو تسمية EMA/FDA أو مراجع صيدلية منشورة — تحتوي مجموعة البيانات الحالية على فجوات بيانات حاجزة
+- **إجراء بحث أدبي للربط** عن الإندوميتاسين (العقار الأم) في الفصال العظمي كوسيط آلي، حيث يشترك المركبان في نفس الوحدة الفعالة
+- **البحث عن الاستخدام السريري لأسيتامتاسين** في أي استطباب عضلي هيكلي التهابي (التهاب المفاصل الروماتويدي والتهاب الفقار اللاصق والنقرس) لإنشاء نقطة مرجعية لسلامة سريرية
+- **تقييم المسار التنظيمي** — حيث أن العقار غير مسوقة في المملكة العربية السعودية، حدد ما إذا كان هناك موافقة أجنبية (مثل الاتحاد الأوروبي أو اليابان) موجودة كأساس مرجعي
+- **تحديد جدوى ترقية مستوى الدليل** — على الحد الأدنى، تحديد ما إذا كانت مجموعة بيانات ملاحظية أو رجعية من المستوى L3 موجودة قبل الالتزام بتصميم دراسة استقبالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

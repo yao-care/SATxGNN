@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Urofollitropin: From Infertility (Ovulation Induction) to Migraine Disorder
+# Urofollitropin: من العقم (استحثاث الإباضة) إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Urofollitropin is a urinary-derived follicle-stimulating hormone (FSH) preparation, pharmacologically used for ovulation induction in female infertility and spermatogenesis induction in male hypogonadotropic hypogonadism.
-> The TxGNN model predicts it may be effective for **Migraine Disorder**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure algorithmic signal with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Ovulation induction / infertility treatment (based on known FSH pharmacology; not documented in evidence pack, as no license record exists) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Urofollitropin هو تحضير هرمون منبه الجريب (FSH) المشتق من البول، يستخدم دوائياً في استحثاث الإباضة في العقم الأنثوي واستحثاث تكوّن الحيوانات المنوية في قصور الغدد التناسلية منخفض الموجهات لدى الذكور.
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً في **اضطراب الصداع النصفي**،
+> لكن هذا التنبؤ مدعوم حالياً بـ **0** تجربة سريرية و **0** منشور — إنه إشارة خوارزمية بحتة بدون أي دليل مؤيد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available for this candidate (flagged as a High-severity data gap). Based on known information, urofollitropin is a purified urinary gonadotropin (FSH) used to stimulate ovarian follicular development and spermatogenesis — its efficacy in infertility treatment is well established, but this acts through the hypothalamic-pituitary-gonadal axis, a pathway with no established connection to migraine pathophysiology.
-
-Migraine disorder is understood to involve the trigeminovascular system and CGRP signaling. There is no known mechanistic overlap between exogenous FSH administration and these pathways. The evidence pack's own rationale for this candidate states explicitly that no mechanistic hypothesis links the two, and the prediction reflects only the TxGNN embedding-similarity score (99.85%, global rank 3156), not any biological rationale.
-
-Notably, all 10 TxGNN-predicted indications for this drug (migraine, cauda equina syndrome, His bundle tachycardia, restless legs syndrome, POTS, Raynaud disease, etc.) are similarly unsupported by clinical trials or literature and are all classified L5/Hold — suggesting the model's ranking for this drug is not yet anchored to any actionable repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | استحثاث الإباضة / علاج العقم (بناءً على الصيدلة المعروفة لـ FSH؛ غير موثق في حزمة الأدلة، حيث لا توجد سجلات ترخيص) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ بـ TxGNN | 99.85% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | Hold |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة لهذا المرشح (وقد تم تصنيفه كفجوة بيانات شديدة الخطورة). بناءً على المعلومات المعروفة، يعتبر Urofollitropin موجهة غدد تناسلية بولية معقمة (FSH) تُستخدم لتحفيز نمو الجريبات المبيضية وتكوّن الحيوانات المنوية — فعاليته في علاج العقم راسخة جيداً، لكن هذا يعمل من خلال محور تحت المهاد-الغدة النخامية-الغدد التناسلية، وهو مسار لا يوجد له اتصال معروف بفسيولوجيا الصداع النصفي المرضية.
 
-*(Note: a related label, "migraine with or without aura, susceptibility to," returned 20 PubMed hits, but these are genetic-susceptibility/epilepsy-comorbidity studies — e.g., SCN1A polymorphisms, epilepsy-migraine shared genetics — that do not mention urofollitropin or FSH pathways. They reflect disease-side literature captured by embedding similarity, not drug-disease evidence, and are not counted as supporting evidence for the primary prediction.)*
+يُفهم أن اضطراب الصداع النصفي يتضمن النظام الثلاثي الفكي الوعائي وإشارات CGRP. لا توجد تداخلات آلية معروفة بين إعطاء FSH الخارجي وهذه المسارات. تصرح نسبة حزمة الأدلة الخاصة بهذا المرشح بوضوح بأنه لا توجد فرضية آلية تربط بين الاثنين، والتنبؤ يعكس فقط درجة التشابه في التضمين TxGNN (99.85%، الترتيب العالمي 3156)، وليس أي منطق بيولوجي.
 
----
-
-## Saudi Arabia Market Information
-
-Urofollitropin is not currently marketed in Saudi Arabia (0 authorizations on record); no product license data is available.
+من الجدير بالملاحظة أن جميع المؤشرات الـ 10 المتنبأ بها من TxGNN لهذا الدواء (الصداع النصفي، متلازمة ذيل الفرس، عدم انتظام دقات القلب في حزم His، متلازمة تململ الساقين، POTS، مرض Raynaud، وما إلى ذلك) غير مدعومة بالمثل بتجارب سريرية أو أدبيات وكلها مصنفة L5/Hold — مما يشير إلى أن ترتيب النموذج لهذا الدواء لم يتم تثبيته بعد على أي إشارة إعادة استخدام قابلة للعمل.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا تتوفر حالياً أي أدبيات ذات صلة.
 
-**Rationale:**
-The prediction rests solely on a TxGNN similarity score with no supporting clinical trials, literature, or plausible mechanistic link between FSH and migraine pathophysiology (L5, decision stage S0). There is insufficient basis to advance this candidate.
+*(ملاحظة: وسم ذي صلة، "الصداع النصفي مع أو بدون هالة، الحساسية تجاهه،" أرجع 20 حالة من PubMed، لكن هذه هي دراسات الحساسية الجينية / الأمراض المصاحبة للصرع — على سبيل المثال، تعددات SCN1A، الوراثة المشتركة للصرع والصداع النصفي — التي لا تذكر Urofollitropin أو مسارات FSH. إنها تعكس أدبيات من جانب المرض التي تم التقاطها بواسطة تشابه التضمين، وليس أدلة الدواء والمرض، ولا يتم عدها كدليل مؤيد للتنبؤ الأساسي.)*
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action (MOA) data — currently a High-severity data gap
-- A testable mechanistic hypothesis connecting gonadotropin activity to migraine pathophysiology
-- Preclinical or observational signal (e.g., real-world data on migraine incidence/severity in patients receiving FSH therapy) before any clinical investment is considered
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+لا يتم حالياً تسويق Urofollitropin في المملكة العربية السعودية (0 تفويضات في السجل)؛ لا توجد بيانات ترخيص منتج متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: Hold**
+
+**المبرر:**
+يستند التنبؤ فقط على درجة تشابه TxGNN بدون تجارب سريرية مؤيدة أو أدبيات أو رابط آلي معقول بين FSH وفسيولوجيا الصداع النصفي المرضية (L5، مرحلة القرار S0). لا توجد أساس كافٍ لتقدم هذا المرشح.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA (التحذيرات، الموانع) — حالياً فجوة بيانات حاجزة
+- تأكيد بيانات آلية العمل (MOA) — حالياً فجوة بيانات شديدة الخطورة
+- فرضية آلية قابلة للاختبار تربط نشاط موجهة الغدد التناسلية بفسيولوجيا الصداع النصفي المرضية
+- إشارة سابقة للإكلينيكية أو قائمة على الملاحظة (على سبيل المثال، بيانات واقعية عن حدوث الصداع النصفي / الشدة لدى المرضى الذين يتلقون العلاج بـ FSH) قبل النظر في أي استثمار سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

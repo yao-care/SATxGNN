@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Prednisolone: From Inflammatory/Autoimmune Conditions to Alopecia Areata
+# بريدنيزولون: من الحالات الالتهابية/المناعية الذاتية إلى الثعلبة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Prednisolone is a well-established systemic glucocorticoid used broadly across inflammatory and autoimmune conditions, though this evidence pack has no recorded original-indication text or MOA data on file. The TxGNN model predicts it may be effective for **Alopecia Areata**, with **18 clinical trials retrieved** (2 judged directly relevant after manual screening) and **20 publications** — including one placebo-controlled RCT — currently supporting this direction.
+بريدنيزولون هو كورتيكوستيرويد جهازي معروف وراسخ يُستخدم على نطاق واسع عبر الحالات الالتهابية والمناعية الذاتية، إلا أن حزمة الأدلة هذه لا تحتوي على نص مسجل للإشارة الأصلية أو بيانات آلية العمل. يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **الثعلبة**، مع **18 تجربة سريرية تم استرجاعها** (حُكم على 2 منها مباشرة ذات صلة بعد الفحص اليدوي) و**20 منشورًا** — بما في ذلك تجربة واحدة معشاة عشوائية مقابل دواء وهمي — تدعم هذا الاتجاه حاليًا.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not recorded in evidence pack (no `original_indications` entries; general corticosteroid anti-inflammatory/immunosuppressive use per known pharmacology) |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الإشارة الأصلية | غير مسجلة في حزمة الأدلة (لا توجد إدخالات `original_indications`؛ الاستخدام العام للكورتيكوستيرويد المضاد للالتهابات/المثبط للمناعة حسب الصيدلة المعروفة) |
+| الإشارة الجديدة المتنبأ بها | الثعلبة |
+| درجة التنبؤ بـ TxGNN | 99.99% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap). Based on known pharmacology, prednisolone is a synthetic glucocorticoid that binds the glucocorticoid receptor to suppress pro-inflammatory cytokine production and T-cell–mediated immune responses — the basis for its broad use across inflammatory and autoimmune disease.
+حاليًا، بيانات آلية العمل المفصلة غير متاحة في حزمة الأدلة (وقد تم تحديدها كفجوة بيانات عالية الشدة). بناءً على الصيدلة المعروفة، بريدنيزولون هو كورتيكوستيرويد اصطناعي يرتبط بمستقبل الكورتيكوستيرويد لقمع إنتاج السيتوكينات المؤيدة للالتهاب والاستجابات المناعية التي تتوسطها الخلايا التائية — وهذا هو الأساس لاستخدامه الواسع عبر المرض الالتهابي والمناعي الذاتي.
 
-Alopecia areata (AA) is now understood as a T-cell–mediated autoimmune disease in which loss of the hair follicle's immune privilege allows CD8+ T-cell infiltration around the follicle bulb. Because systemic corticosteroids suppress exactly this kind of T-cell–driven autoimmune inflammation, oral pulse corticosteroid therapy — including methylprednisolone/prednisolone regimens — is already an established (if second-line) clinical option for severe or treatment-resistant AA, documented across case series, retrospective cohorts, and one placebo-controlled RCT.
+الثعلبة (AA) يُفهم الآن كمرض مناعي ذاتي يتوسطه الخلايا التائية تفقد فيه الحويصلة الشعرية امتيازها المناعي، مما يسمح بتسلل الخلايا التائية CD8+ حول البصيلة الشعرية. لأن الكورتيكوستيرويدات الجهازية تقمع هذا النوع من الالتهاب المناعي الذاتي المدفوع بالخلايا التائية بالضبط، فإن العلاج بالكورتيكوستيرويد النبضي عن طريق الفم — بما في ذلك أنظمة الميثيلبريدنيزولون/بريدنيزولون — هو بالفعل خيار سريري راسخ (إن كان ثانوي الخط) للثعلبة الشديدة أو المقاومة للعلاج، موثقة عبر السلاسل الحالية والأتراب الاستعادية والتجربة المعشاة العشوائية المقابلة للدواء الوهمي الواحدة.
 
-This means the TxGNN hit is less a "novel" repurposing hypothesis and more a **validation signal**: the model correctly recovered an indication where corticosteroid pulse therapy already has real-world clinical precedent. Note also that the clinical-trial evidence returned by the search includes a large amount of noise — most of the 18 trials retrieved are unrelated Phase 2/3 SLE trials of other investigational drugs (IL-2 mutein, anti-ILT7 antibody, baricitinib, sirolimus, etc.) that were manually excluded as irrelevant; only trials directly involving corticosteroid pulse therapy in AA were retained below.
+هذا يعني أن نتيجة TxGNN هي أقل من فرضية "إعادة تطبيق" جديدة وأكثر من **إشارة التحقق**: النموذج استعاد بشكل صحيح إشارة حيث العلاج النبضي بالكورتيكوستيرويد لديه بالفعل سابقة سريرية من الواقع. لاحظ أيضًا أن دليل التجارب السريرية التي أرجعتها البحث يتضمن كمية كبيرة من الضوضاء — معظم التجارب الـ 18 المسترجعة هي تجارب غير ذات صلة من المرحلة 2/3 لـ SLE لعقاقير تجريبية أخرى (إيفاليوكين ألفا، جسم مضاد مضاد لـ ILT7، باريسيتينيب، سيروليمس، إلخ) التي تم استبعادها يدويًا كغير ذات صلة؛ فقط التجارب التي تشمل مباشرة العلاج النبضي بالكورتيكوستيرويد في الثعلبة تم الاحتفاظ بها أدناه.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Completed | 42 | Oral mega-pulse methylprednisolone (higher dose, more frequent pulses) in patients with severe, treatment-resistant AA, testing whether higher-intensity pulse dosing overcomes prior treatment failure. |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A (Observational) | Completed | 296 | Safety/effectiveness study of tofacitinib in alopecia; participants received tofacitinib with or without adjuvant prednisolone. |
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | المرحلة 4 | مكتملة | 42 | الميثيلبريدنيزولون الفموي بجرعة عملاقة (جرعة أعلى، نبضات أكثر تكرارًا) في المرضى الذين يعانون من ثعلبة شديدة ومقاومة للعلاج، واختبار ما إذا كان قدر أعلى من العلاج النبضي يتغلب على فشل العلاج السابق. |
+| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | لا ينطبق (دراسة رصدية) | مكتملة | 296 | دراسة السلامة/الفعالية للتوفاسيتينيب في الثعلبة؛ تلقى المشاركون التوفاسيتينيب مع أو بدون بريدنيزولون مساعد. |
 
-*Note: 16 additional trials were retrieved by the search but excluded — they involve unrelated investigational drugs (e.g. efavaleukin alfa, ALPN‑101, VIB7734, baricitinib, sirolimus) tested in systemic lupus erythematosus, not prednisolone in alopecia areata.*
+*ملاحظة: تم استبعاد 16 تجربة إضافية تم استرجاعها من قبل البحث — فهي تشمل عقاقير تجريبية غير ذات صلة (مثل efavaleukin alfa، ALPN‑101، VIB7734، باريسيتينيب، سيروليمس) تم اختبارها في الذئبة الحمراء الجهازية، وليس بريدنيزولون في الثعلبة.*
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | RCT (placebo-controlled) | J Am Acad Dermatol | First randomized, double-blind, placebo-controlled trial of oral pulse prednisolone in AA — the controlled efficacy anchor for this indication. |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Network Meta-analysis | Cochrane Database Syst Rev | Compares immunosuppressants, hair growth stimulants, and contact immunotherapy (including corticosteroids) across AA treatments. |
-| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | Systematic Review | Australas J Dermatol | Systematic review of RCT evidence for systemic AA treatments, including corticosteroids. |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Reviews efficacy, relapse rates, and adverse effects of different corticosteroid pulse regimens in AA. |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Retrospective Cohort | Dermatol Ther | Methylprednisolone alone vs. methylprednisolone + methotrexate in 26 patients with extensive AA; combination not clearly superior to monotherapy. |
-| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | Clinical Study | Dermatoendocrinol | Medium-dose prednisolone pulse therapy effective in early-stage AA; significant steroid side effects can lead to discontinuation. |
-| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | Retrospective Cohort | J Eur Acad Dermatol Venereol | French retrospective cohort on long-term patient-reported experience of methylprednisolone pulse ± methotrexate in AA. |
-| [32779249](https://pubmed.ncbi.nlm.nih.gov/32779249/) | 2020 | Retrospective Study | J Eur Acad Dermatol Venereol | Continuation rates of steroid-sparing agents (azathioprine/methotrexate/cyclosporine) following corticosteroid therapy in 138 chronic AA patients. |
-| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | Case Series | J Dtsch Dermatol Ges | Sequential high- then low-dose systemic corticosteroid regimen in severe childhood AA; rapid response but relapse common after discontinuation. |
-| [18608727](https://pubmed.ncbi.nlm.nih.gov/18608727/) | 2008 | Case Series | J Dermatolog Treat | Combination cyclosporine + methylprednisolone pulse therapy in severe/chronic AA. |
+| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | تجربة معشاة عشوائية (مقابل دواء وهمي) | J Am Acad Dermatol | أول تجربة عشوائية مزدوجة التعمية مقابل دواء وهمي للبريدنيزولون النبضي عن طريق الفم في الثعلبة — نقطة ارتساء الفعالية الخاضعة للرقابة لهذه الإشارة. |
+| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | تحليل شبكي | Cochrane Database Syst Rev | يقارن بين المثبطات المناعية ومحفزات نمو الشعر والعلاج المناعي بالتلامس (بما في ذلك الكورتيكوستيرويدات) عبر علاجات الثعلبة. |
+| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | مراجعة منهجية | Australas J Dermatol | مراجعة منهجية لدليل التجارب المعشاة العشوائية للعلاجات الجهازية للثعلبة، بما في ذلك الكورتيكوستيرويدات. |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | مراجعة | Dermatol Pract Concept | تراجع فعالية وأسعار الانتكاس والآثار الضارة لأنظمة نبضات كورتيكوستيرويد مختلفة في الثعلبة. |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | أتراب استعادي | Dermatol Ther | الميثيلبريدنيزولون وحده مقابل الميثيلبريدنيزولون + الميثوتريكسات في 26 مريضًا يعانون من ثعلبة شاملة؛ لم تكن المجموعة أفضل بشكل واضح من العلاج بالعقار الواحد. |
+| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | دراسة سريرية | Dermatoendocrinol | العلاج النبضي بجرعة متوسطة من البريدنيزولون فعال في الثعلبة المبكرة؛ يمكن أن تؤدي الآثار الجانبية للستيرويد الكبيرة إلى التوقف. |
+| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | أتراب استعادي | J Eur Acad Dermatol Venereol | أتراب استعادي فرنسي على التجربة الطويلة الأجل المبلغ عنها من قبل المريض للميثيلبريدنيزولون النبضي ± الميثوتريكسات في الثعلبة. |
+| [32779249](https://pubmed.ncbi.nlm.nih.gov/32779249/) | 2020 | دراسة استعادية | J Eur Acad Dermatol Venereol | معدلات الاستمرار للعوامل التي توفر الستيرويد (الآزاثيوبرين/الميثوتريكسات/السيكلوسبورين) بعد العلاج بالكورتيكوستيرويد في 138 مريضًا مصابًا بثعلبة مزمنة. |
+| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | سلسلة حالات | J Dtsch Dermatol Ges | نظام نبضي منخفض ثم عالي الجرعات من الكورتيكوستيرويد الجهازي في الثعلبة الشديدة لدى الأطفال؛ استجابة سريعة لكن الانتكاس شائع بعد التوقف. |
+| [18608727](https://pubmed.ncbi.nlm.nih.gov/18608727/) | 2008 | سلسلة حالات | J Dermatolog Treat | العلاج المشترك بالسيكلوسبورين + العلاج النبضي بالميثيلبريدنيزولون في الثعلبة الشديدة/المزمنة. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no marketed authorization records for prednisolone in Saudi Arabia (0 licenses on file, market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack — TFDA/Saudi package insert warnings and contraindications are flagged as a **Blocking** severity gap that must be resolved before any safety pre-assessment.)
+لا توجد حاليًا سجلات ترخيص مسوقة للبريدنيزولون في المملكة العربية السعودية (0 رخصة في الملف، حالة السوق: غير مسوقة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية كلها وقد تم تحديدها كفجوات بيانات في حزمة الأدلة هذه — تحذيرات/موانع حزمة TFDA/السعودية تم تحديدها كفجوة شدة **حجب** يجب حلها قبل أي تقييم سلامة مسبق.)
 
-**Rationale:**
-One completed Phase 4 trial and one placebo-controlled RCT, backed by multiple retrospective cohorts and case series, support corticosteroid pulse therapy (methylprednisolone/prednisolone) as an existing clinical option for severe/treatment-resistant alopecia areata — this is a validation of known off-label practice rather than a purely novel hypothesis. However, the drug is not currently marketed in Saudi Arabia and core safety documentation is entirely missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Saudi package insert data — warnings, contraindications, drug interactions (Blocking gap, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (High-severity gap, DG002)
-- Saudi Arabia market registration status, given 0 current licenses
-- Harmonized pulse-dosing protocol, since regimens vary considerably across the cited studies
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات حماية**
+
+**المنطق:**
+تجربة واحدة مكتملة من المرحلة 4 وتجربة معشاة عشوائية واحدة مقابل دواء وهمي، يدعمها أتراب استعادية متعددة وسلاسل حالات، تدعم العلاج النبضي بالكورتيكوستيرويد (الميثيلبريدنيزولون/بريدنيزولون) كخيار سريري قائم للثعلبة الشديدة/المقاومة للعلاج — هذا تحقق من الممارسة المعروفة خارج التسمية بدلاً من فرضية جديدة بحتة. ومع ذلك، الدواء غير مسوق حاليًا في المملكة العربية السعودية وتوثيق السلامة الأساسية غير موجود تمامًا.
+
+**للمتابعة، مطلوب ما يلي:**
+- بيانات حزمة TFDA/السعودية — التحذيرات، الموانع، التفاعلات الدوائية (فجوة حجب، DG001)
+- توثيق آلية العمل المؤكدة من DrugBank (فجوة شدة عالية، DG002)
+- حالة تسجيل السوق بالمملكة العربية السعودية، بالنظر إلى 0 ترخيص حالي
+- بروتوكول نبضي متناسق، حيث تختلف الأنظمة بشكل كبير عبر الدراسات المذكورة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

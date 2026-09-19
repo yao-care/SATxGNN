@@ -29,87 +29,88 @@ indication_count: 5
 
 </div>
 
-# Ocrelizumab: From B-Cell-Mediated Autoimmune Disease to HER2 Positive Breast Carcinoma
+# أوكريليزوماب: من أمراض المناعة الذاتية الوسيطة للخلايا البائية إلى سرطان الثدي الموجب ل HER2
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Ocrelizumab is an anti-CD20 monoclonal antibody whose established mechanism is depletion of CD20-expressing B lymphocytes, used in B-cell-mediated autoimmune disease; this specific original indication and its formal mechanism-of-action record are themselves flagged as data gaps in this evidence pack. The TxGNN model predicts it may be effective for **HER2 positive breast carcinoma**, but this prediction is currently supported by **zero clinical trials** and **zero relevant publications**, and the model's own rationale text flags it as a probable false-positive signal from knowledge-graph embedding similarity rather than a genuine mechanistic link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally confirmed in this evidence pack — described only narratively as "B-cell-mediated autoimmune disease" (MOA record itself is a High-severity data gap, DG002) |
-| Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أوكريليزوماب هو جسم مضاد أحادي النسيلة موجه ضد CD20 آليته المثبتة هي استنزاف خلايا لمفاوية CD20، يُستخدم في أمراض المناعة الذاتية الوسيطة للخلايا البائية؛ هذا المؤشر الأصلي المحدد وسجل الآلية الرسمي للعمل نفسه يتم تحديدهما كفجوات بيانات في هذه الحقيبة الإثباتية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان الثدي الموجب ل HER2**، لكن هذا التنبؤ مدعوم حالياً بـ **صفر تجربة سريرية** و **صفر منشورات ذات صلة**، وينص نص منطق النموذج نفسه على أنه إشارة موجبة مزيفة محتملة من تشابه تضمين الرسم البياني المعرفي بدلاً من رابط آلي حقيقي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Formal mechanism-of-action data for ocrelizumab is not available in this evidence pack (`original_moa: "[Data Gap]"`, tracked as DG002, High severity). The evidence pack's own repurposing-rationale narrative describes ocrelizumab as an anti-CD20 monoclonal antibody that depletes CD20-expressing B lymphocytes, used primarily for B-cell-mediated autoimmune disease — but this description has not been independently verified against DrugBank or a TFDA-equivalent source, and no original indication list was returned (`original_indications: []`).
-
-HER2 positive breast carcinoma is driven by amplification/overexpression of the HER2 (ERBB2) receptor tyrosine kinase, activating proliferative signaling pathways that are biologically distinct from CD20+ B-cell depletion. There is no established pharmacological or immunological pathway connecting B-cell depletion to HER2-driven tumor proliferation, and no experimental, translational, or clinical data in this pack bridge the two.
-
-Given the absence of a credible mechanistic bridge and the complete absence of clinical trial or literature support (see below), this prediction should be treated as a hypothesis generated purely from model embedding similarity — the evidence pack itself explicitly characterizes it as a **suspected false-positive signal** rather than a validated repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لم يتم تأكيده رسمياً في هذه الحقيبة الإثباتية — موصوف فقط بشكل سردي باسم "أمراض المناعة الذاتية الوسيطة للخلايا البائية" (سجل MOA نفسه فجوة بيانات عالية الخطورة، DG002) |
+| المؤشر الجديد المتنبأ به | سرطان الثدي الموجب ل HER2 |
+| درجة التنبؤ من TxGNN | 99.89% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط، بدون دراسات داعمة) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل الرسمية لأوكريليزوماب غير متاحة في هذه الحقيبة الإثباتية (`original_moa: "[Data Gap]"`، مسجلة باسم DG002، عالية الخطورة). يصف سرد الحقيبة الإثباتية الخاص بحجة الاستخدام الجديد أوكريليزوماب باعتباره جسماً مضاداً أحادي النسيلة موجهاً ضد CD20 يستنزف خلايا لمفاوية CD20 الموجبة، يُستخدم بشكل أساسي في أمراض المناعة الذاتية الوسيطة للخلايا البائية — لكن هذا الوصف لم يتم التحقق من صحته بشكل مستقل مقابل DrugBank أو مصدر معادل للـ TFDA، ولم يتم إرجاع أي قائمة مؤشرات أصلية (`original_indications: []`).
 
----
+يتم تشغيل سرطان الثدي الموجب ل HER2 بواسطة تضخيم/الإفراط في التعبير عن مستقبِل HER2 (ERBB2) لـ tyrosine kinase، وتنشيط مسارات الإشارات الانتشارية التي تختلف بيولوجياً عن استنزاف الخلايا البائية CD20+. لا يوجد مسار دوائي أو مناعي مثبت يربط بين استنزاف الخلايا البائية والانتشار الورمي الذي يقوده HER2، ولا توجد بيانات تجريبية أو ترجماتية أو سريرية في هذه الحقيبة تربط بين الاثنين.
 
-## Other Predicted Indications in This Evidence Pack
-
-This evidence pack also lists four additional breast-cancer-related predictions (progesterone-receptor positive breast cancer, normal breast-like subtype, luminal A/B breast tumor, and progesterone-receptor negative breast cancer), all scored L5/Hold with no clinical trial support. One item deserves a specific caution:
-
-- **Breast tumor luminal A or B (rank 4)** returned 19 PubMed hits, but the 10 titles retrieved (B-cell development/maturation, Hepatitis B vaccines, HLA-B allele typing, etc.) are unrelated to breast cancer or ocrelizumab's pharmacology. This pattern strongly suggests the literature query matched on the literal letter "B" rather than the intended "luminal B" breast cancer subtype, and should be treated as a **search false-positive**, not supporting evidence.
-
-None of the five predicted indications in this pack currently has genuine trial or literature support.
+نظراً لغياب جسر آلي معقول والغياب الكامل للدعم السريري أو الأدبي (انظر أدناه)، يجب التعامل مع هذا التنبؤ باعتباره فرضية تم إنشاؤها بحتة من تشابه تضمين النموذج — الحقيبة الإثباتية نفسها تميز بوضوح هذا كـ **إشارة موجبة مزيفة مريبة** بدلاً من فرضية استخدام جديد معتمدة.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-Ocrelizumab is not currently marketed in Saudi Arabia (`market_status: Not marketed`), and no product license records are available (`total_licenses: 0`). No dosage form or route information can be assessed at this time.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA-equivalent package insert warnings/contraindications are a Blocking data gap — DG001 — which per the evidence pack directly prevents entry into the S1 safety preliminary evaluation stage. Drug interaction data was queried but not found.)*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-The top-ranked prediction (HER2 positive breast carcinoma) has no clinical trial or literature support, no plausible mechanistic bridge from the drug's B-cell-depleting activity, and is explicitly flagged in the underlying rationale as a likely false-positive model artifact. In addition, a Blocking data gap (missing TFDA-equivalent warnings/contraindications) prevents even a preliminary safety assessment, and a High-severity gap (unverified MOA) prevents mechanistic validation.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the TFDA-equivalent/manufacturer package insert for warnings and contraindications
-- Resolve DG002 (High): verify mechanism of action and original approved indication(s) via DrugBank API
-- Independent pharmacological review of whether any plausible B-cell/immune-microenvironment link to HER2+ breast carcinoma exists, since none is established in current data
-- Re-run the literature search for "luminal A/B breast tumor" with refined query terms to eliminate the "B" keyword false-positive matches before treating rank 4 as evidence-bearing
-- Confirm whether any genuine clinical trials or case reports exist for ocrelizumab in oncology settings (e.g., off-label or investigational use) that were not captured by the current search parameters
+## المؤشرات المتنبأ بها الأخرى في هذه الحقيبة الإثباتية
+
+تذكر هذه الحقيبة الإثباتية أيضاً أربعة تنبؤات إضافية مرتبطة بسرطان الثدي (سرطان الثدي الموجب لمستقبل البروجسترون، النوع الشبيه بالثدي الطبيعي، سرطان الثدي الناصع النوع A/B، وسرطان الثدي السالب لمستقبل البروجسترون)، جميعها حصلت على L5/Stop بدون دعم تجربة سريرية. هناك بند واحد يستحق احذر محدد:
+
+- **سرطان الثدي الناصع النوع A أو B (الترتيب 4)** أرجع 19 ضربة PubMed، لكن 10 عناوين تم استرجاعها (تطور/نضج الخلايا البائية، لقاحات التهاب الكبد B، كتابة HLA-B، إلخ) لا علاقة لها بسرطان الثدي أو صيدلة أوكريليزوماب. يشير هذا النمط بقوة إلى أن استعلام الأدبيات تطابق مع الحرف الحرفي "B" بدلاً من النوع "الناصع B" المقصود من سرطان الثدي، ويجب التعامل معه باعتباره **موجب بحث كاذب**، وليس دليل داعم.
+
+لا يوجد حالياً دعم تجربة أو أدبي حقيقي لأي من التنبؤات الخمسة المتنبأ بها في هذه الحقيبة.
+
+---
+
+## معلومات السوق في المملكة العربية السعودية
+
+أوكريليزوماب غير مسوق حالياً في المملكة العربية السعودية (`market_status: Not marketed`)، وليست هناك سجلات ترخيص منتج متاحة (`total_licenses: 0`). لا يمكن تقييم معلومات الشكل الصيدلاني أو المسار في هذا الوقت.
+
+---
+
+## الاعتبارات الأمنية
+
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات الأمان.
+
+*(ملاحظة: تحذيرات/موانع استعمال نشرة المنتج المعادلة للـ TFDA هي فجوة بيانات حاجزة — DG001 — والتي بموجب الحقيبة الإثباتية تمنع مباشرة الدخول إلى مرحلة التقييم الأولي للسلامة S1. تم الاستعلام عن بيانات تفاعلات الأدوية ولم يتم العثور عليها.*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+التنبؤ ذو الترتيب الأعلى (سرطان الثدي الموجب ل HER2) لا يوجد له دعم تجربة سريرية أو أدبي، لا يوجد جسر آلي معقول من نشاط استنزاف الخلايا البائية للعقار، وتم تحديده صراحة في حجة النموذج الأساسية باعتباره تعارض نموذج موجب مزيف محتمل. بالإضافة إلى ذلك، فإن فجوة بيانات حاجزة (تحذيرات/موانع استعمال معادلة للـ TFDA مفقودة) تمنع حتى تقييم السلامة الأولي، وفجوة عالية الخطورة (آلية عمل غير معتمدة) تمنع التحقق من الآلية.
+
+**لكي نتقدم، يلزم ما يلي:**
+- حل DG001 (حاجز): الحصول على وتحليل نشرة المنتج المعادلة للـ TFDA/من الشركة المصنعة للحصول على التحذيرات وموانع الاستعمال
+- حل DG002 (عالية): التحقق من آلية العمل والمؤشرات المعتمدة الأصلية عبر DrugBank API
+- مراجعة صيدلية مستقلة لما إذا كان هناك أي رابط معقول وقابل للتصديق من استنزاف الخلايا البائية/بيئة مناعية إلى سرطان الثدي الموجب ل HER2، حيث لا يوجد أي رابط مثبت في البيانات الحالية
+- إعادة تشغيل البحث الأدبي عن "سرطان الثدي الناصع النوع A/B" بشروط بحث محسنة لاستبعاد مطابقات الكلمات الرئيسية "B" الكاذبة قبل معاملة الترتيب 4 كإثبات حامل
+- تأكيد ما إذا كانت هناك أي تجارب سريرية حقيقية أو تقارير حالات لأوكريليزوماب في إعدادات الأورام (على سبيل المثال، الاستخدام خارج التسمية أو البحثي) لم يتم التقاطها بواسطة معاملات البحث الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

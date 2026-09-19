@@ -29,92 +29,93 @@ indication_count: 2
 
 </div>
 
-# Denosumab: From Bone Loss Prevention to Severe Nonproliferative Diabetic Retinopathy
+# ديناسوماب: من الوقاية من فقدان العظام إلى اعتلال الشبكية السكري غير التكاثري الشديد
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Denosumab is a fully human monoclonal antibody targeting RANKL, used clinically for the prevention of bone loss associated with osteoporosis and androgen deprivation therapy. The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy (severe NPDR)**, with a prediction score of 99.63% — however, **no clinical trials** and **no direct publications** currently support this specific indication, placing this prediction at the earliest evidence stage.
+ديناسوماب هو جسم مضاد أحادي النسيلة بشري بالكامل يستهدف RANKL، وهو يُستخدم سريرياً للوقاية من فقدان العظام المرتبط بهشاشة العظام وعلاج حرمان الأندروجين. ينبئ نموذج TxGNN بأنه قد يكون فعالاً لـ **اعتلال الشبكية السكري غير التكاثري الشديد (severe NPDR)**، بدرجة تنبؤية بلغت 99.63% — إلا أن **عدم وجود تجارب سريرية** و**عدم وجود منشورات مباشرة** تدعم هذا الاستطباب المحدد حالياً، مما يضع هذا التنبؤ في أقدم مرحلة من مراحل الأدلة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Bone loss prevention (osteoporosis; androgen deprivation therapy-related bone loss in prostate cancer) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الوقاية من فقدان العظام (هشاشة العظام؛ فقدان العظام المرتبط بحرمان الأندروجين في سرطان البروستاتا) |
+| الاستطباب المتنبأ به | اعتلال الشبكية السكري غير التكاثري الشديد |
+| درجة التنبؤ من TxGNN | 99.63% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقيف |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Denosumab is a RANKL (Receptor Activator of Nuclear Factor Kappa-B Ligand) inhibitor. By binding RANKL, it prevents osteoclast activation and bone resorption — the mechanism underlying its bone-protective indications. Notably, RANKL signaling is not confined to bone: it has been detected in retinal vascular pericytes and Müller glial cells, raising the hypothesis that Denosumab could attenuate retinal microvascular inflammation through the same pathway.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه حزمة الأدلة. بناءً على المعلومات الدوائية المعروفة، فإن ديناسوماب هو مثبط RANKL (مستقبل ناهض عامل النخر الفموي كابا-بي لايجاند). بواسطة ارتباطه بـ RANKL، فإنه يمنع تنشيط الناقضات العظمية وامتصاص العظام — وهي الآلية الكامنة وراء استطباباته الواقية للعظام. بشكل ملحوظ، لا يقتصر إشارة RANKL على العظام: فقد تم اكتشافه في خلايا محيط الأوعية الشبكية والخلايا الدبقية لـ Müller، مما يثير الفرضية بأن ديناسوماب قد يخفف الالتهاب الوعائي الشبكي من خلال نفس المسار.
 
-The proposed link to diabetic retinopathy rests on three indirect mechanistic pathways. First, a 2024 real-world cohort study with meta-analysis (PMID 38899553) found that Denosumab reduces the incidence of type 2 diabetes compared with bisphosphonates, suggesting a metabolic benefit that could indirectly lower cumulative diabetic retinopathy risk. Second, RANKL may promote retinal microvascular inflammation and contribute to new vessel formation in the diabetic retina — blocking it could theoretically slow disease progression. Third, the OPG/RANKL ratio imbalance has been proposed as a shared pathophysiological factor linking diabetic bone loss to diabetic retinopathy severity.
+يقوم الارتباط المقترح بـ اعتلال الشبكية السكري على ثلاث مسارات ميكانيكية غير مباشرة. أولاً، وجدت دراسة أتراب حقيقية الواقع مع تحليل تجميعي لعام 2024 (PMID 38899553) أن ديناسوماب يقلل من حدوث داء السكري من النوع 2 مقارنة بالبايفوسفونات، مما يشير إلى فائدة استقلابية قد تخفض بشكل غير مباشر خطر اعتلال الشبكية السكري المتراكم. ثانياً، قد يعزز RANKL الالتهاب الوعائي الشبكي ويساهم في تشكيل أوعية جديدة في الشبكية السكرية — قد يؤدي حظره نظرياً إلى إبطاء تطور المرض. ثالثاً، كان اختلال توازن نسبة OPG/RANKL موضوع اقتراح كعامل مرضي فسيولوجي مشترك يربط فقدان العظام السكري بشدة اعتلال الشبكية السكري.
 
-It is essential to underscore that all of these pathways remain mechanistic hypotheses with no direct clinical validation for severe NPDR. The TxGNN prediction score of 99.63% reflects graph-network inference based on molecular similarity and disease-network topology — a strong computational signal, but not a substitute for clinical evidence.
+من الضروري أن نؤكد أن جميع هذه المسارات تبقى فرضيات ميكانيكية بدون تحقق سريري مباشر لـ severe NPDR. درجة التنبؤ من TxGNN بنسبة 99.63% تعكس الاستدلال القائم على الشبكة البيانية بناءً على التشابه الجزيئي وطوبولوجيا الشبكة المرضية — إشارة حسابية قوية، ولكن ليست بديلاً عن الأدلة السريرية.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered for severe nonproliferative diabetic retinopathy.
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة لاعتلال الشبكية السكري غير التكاثري الشديد.
 
-> **Contextual note:** One Phase 3 trial was retrieved for the related indication "diabetic retinopathy" (Rank 2):
+> **ملاحظة سياقية:** تم الحصول على تجربة واحدة من المرحلة 3 للاستطباب ذي الصلة "اعتلال الشبكية السكري" (الترتيب 2):
 >
-> | Trial Number | Phase | Status | Enrollment | Key Findings |
-> |-------------|-------|--------|------------|--------------|
-> | [NCT00925600](https://clinicaltrials.gov/study/NCT00925600) | Phase 3 | Completed | 769 | Examined **lens opacification (cataract)** as a safety endpoint in prostate cancer patients on androgen deprivation therapy receiving Denosumab — not a diabetic retinopathy efficacy trial. Relevance grade: C (low). Cannot serve as evidence for the DR repurposing hypothesis. |
+> | رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
+> |-------------|--------|--------|------------|------------------|
+> | [NCT00925600](https://clinicaltrials.gov/study/NCT00925600) | المرحلة 3 | مكتملة | 769 | فحصت **عتامة العدسة (الكتاراكتا)** كنقطة نهاية السلامة في مرضى سرطان البروستاتا الذين يتلقون حرمان الأندروجين ويستقبلون ديناسوماب — وليست تجربة فعالية اعتلال الشبكية السكري. درجة الملاءمة: C (منخفضة). لا يمكن أن تكون بمثابة أدلة لفرضية إعادة استخدام اعتلال الشبكية السكري. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature directly studying Denosumab in severe nonproliferative diabetic retinopathy.
+حالياً لا توجد أدبيات ذات صلة مباشرة تدرس ديناسوماب في اعتلال الشبكية السكري غير التكاثري الشديد.
 
-> **Contextual note:** Two publications retrieved for the broader "diabetic retinopathy" indication (Rank 2) provide indirect biological context:
+> **ملاحظة سياقية:** تم الحصول على منشورين لاستطباب "اعتلال الشبكية السكري" الأوسع (الترتيب 2) يوفران سياقاً بيولوجياً غير مباشر:
 >
-> | PMID | Year | Type | Journal | Key Findings |
-> |------|------|------|---------|-------------|
-> | [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observational Cohort + Meta-analysis | Diabetes, Obesity & Metabolism | Denosumab reduces T2D incidence and long-term microvascular complications (including retinopathy) compared with bisphosphonates in real-world data — supports the indirect metabolic pathway hypothesis |
-> | [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Cross-sectional | Cureus | FRAX fracture risk assessment in T2DM adults; highlights bone-diabetes comorbidity but does not study Denosumab specifically — background context only |
+> | PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+> |------|------|------|--------|------------------|
+> | [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | أتراب ملاحظة + تحليل تجميعي | Diabetes, Obesity & Metabolism | يقلل ديناسوماب من حدوث داء السكري من النوع 2 والمضاعفات الدقيقة الأوعية طويلة المدى (بما فيها اعتلال الشبكية) مقارنة بالبايفوسفونات في البيانات الحقيقية الواقع — يدعم فرضية المسار الأيضي غير المباشر |
+> | [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | مستعرض شامل | Cureus | تقييم خطر كسر FRAX في البالغين من مرضى داء السكري من النوع 2؛ يسلط الضوء على الأمراض المشتركة بين العظام والسكري ولكن لا يدرس ديناسوماب على وجه التحديد — سياق خلفية فقط |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Denosumab is not currently registered or marketed in Saudi Arabia. No authorization records are available in this Evidence Pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Key warnings, contraindications, and drug interaction data were not available in this Evidence Pack. The package insert query (log entry 4) returned a record, but content was not transmitted into this pack. Full safety review is required before any clinical evaluation proceeds.
+ديناسوماب غير مسجل حالياً ولا يُسوّق في المملكة العربية السعودية. لا توجد سجلات تصاريح متاحة في هذه حزمة الأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN model identifies a biologically plausible mechanistic hypothesis linking Denosumab's RANKL-inhibiting mechanism to retinal microvascular pathology in severe NPDR — but there is currently zero direct clinical evidence (no trials, no publications) for this specific indication. With Evidence Level L5 and no Saudi Arabia market footprint, this candidate cannot advance until foundational data gaps are closed.
+> لم تكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية متاحة في هذه حزمة الأدلة. أرجعت استعلام نشرة الحزمة (إدخال السجل 4) سجلاً، لكن لم يتم نقل المحتوى إلى هذه الحزمة. يلزم مراجعة السلامة الكاملة قبل متابعة أي تقييم سريري.
 
-**To proceed, the following is needed:**
+---
 
-- Retrieve the full package insert content to complete the safety profile (warnings, contraindications, key drug interactions)
-- Confirm Denosumab's complete mechanism of action from DrugBank to validate the RANKL–retinal vascular connection
-- Commission a structured literature review on RANKL/OPG signaling specifically in diabetic retinal tissue and animal models
-- Consider whether the broader **diabetic retinopathy** indication (Rank 2, Evidence Level L4, "Research Question" stage) should be evaluated first as an evidence-building stepping stone
-- Clarify route-of-administration compatibility: Denosumab is a subcutaneous injection — suitability and dosing rationale for a retinal indication requires separate pharmacokinetic analysis
-- If preclinical evidence is favorable, design a Phase 2 exploratory trial in collaboration with ophthalmology to generate direct efficacy data
+## الخلاصة والخطوات التالية
+
+**القرار: توقيف**
+
+**الأساس المنطقي:**
+يحدد نموذج TxGNN فرضية ميكانيكية معقولة بيولوجياً تربط آلية عمل ديناسوماب كمثبط RANKL بالمرضية الوعائية الشبكية الدقيقة في severe NPDR — لكن لا توجد حالياً أدلة سريرية مباشرة (لا توجد تجارب، لا توجد منشورات) لهذا الاستطباب المحدد. مع مستوى الأدلة L5 وعدم وجود موطئ قدم بسوق المملكة العربية السعودية، لا يمكن لهذا المرشح أن يتقدم حتى يتم إغلاق فجوات البيانات الأساسية.
+
+**لكي يتمكن من المضي قدماً، يلزم ما يلي:**
+
+- استرجاع محتوى نشرة الحزمة الكاملة لإكمال ملف السلامة (التحذيرات والموانع والتفاعلات الدوائية الرئيسية)
+- تأكيد آلية عمل ديناسوماب الكاملة من DrugBank للتحقق من صحة الارتباط بين RANKL والأوعية الشبكية
+- تكليف مراجعة أدبية منظمة حول إشارة RANKL/OPG على وجه التحديد في أنسجة الشبكية السكرية والنماذج الحيوانية
+- النظر فيما إذا كان يجب تقييم الاستطباب **اعتلال الشبكية السكري** الأوسع (الترتيب 2، مستوى الأدلة L4، مرحلة "سؤال البحث") أولاً كمنصة بناء الأدلة
+- توضيح توافق طريق الإعطاء: ديناسوماب حقن تحت الجلد — تتطلب الملاءمة وتبرير الجرعة لاستطباب شبكي تحليل حرائك دوائية منفصل
+- إذا كانت الأدلة قبل السريرية مواتية، يمكن تصميم تجربة استكشافية من المرحلة 2 بالتعاون مع طب العيون لتوليد بيانات الفعالية المباشرة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

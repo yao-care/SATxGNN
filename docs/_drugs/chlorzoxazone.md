@@ -29,95 +29,96 @@ indication_count: 9
 
 </div>
 
-# Chlorzoxazone: From Musculoskeletal Pain to Migraine Disorder
+# كلوروكسازون: من ألم الجهاز العضلي الهيكلي إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Chlorzoxazone is a centrally-acting skeletal muscle relaxant established for the relief of acute musculoskeletal pain and spasm, and is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Migraine Disorder** (score 99.73%), with **0 clinical trials** and **3 publications** providing indirect mechanistic support — none of which directly test chlorzoxazone in migraine patients.
-Notably, among all 9 predicted indications, **Rheumatoid Arthritis** (rank 9) carries stronger actual evidence at Level L3 and may represent the higher-priority development track.
+كلوروكسازون هو مرخي عضلات هيكلي مركزي التأثير وقد تم إثبات فعاليتُه في تسكين ألم الجهاز العضلي الهيكلي الحاد والتشنجات، وهو غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الصداع النصفي** (درجة 99.73%)، مع **0 تجربة سريرية** و**3 منشورات** توفر دعماً آلياً غير مباشر — لا أي منها يختبر كلوروكسازون مباشرة في مرضى الصداع النصفي.
+وبشكل ملحوظ، من بين جميع 9 من المؤشرات المتنبأ بها، **التهاب المفاصل الروماتويدي** (الترتيب 9) يحمل دليلاً فعلياً أقوى عند مستوى L3 وقد يمثل مسار التطوير ذا الأولوية الأعلى.
 
 ---
 
-## Quick Overview
+## لمحة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Musculoskeletal pain and muscle spasm (established clinical use; no Saudi Arabia registration on record) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 — Preclinical / mechanistic studies only |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | ألم الجهاز العضلي الهيكلي وتشنج العضلات (الاستخدام السريري المثبت؛ لا توجد تسجيلات معروفة في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة تنبؤ TxGNN | 99.73% |
+| مستوى الدليل | L4 — دراسات ما قبل سريرية / ميكانيكية فقط |
+| حالة السوق بالمملكة العربية السعودية | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for chlorzoxazone in this Evidence Pack. Based on known information, chlorzoxazone is a centrally-acting skeletal muscle relaxant — its efficacy in relieving acute musculoskeletal pain and spasm has been established clinically, and the mechanistic pathway most relevant to migraine repurposing involves activation of Ca²⁺-activated K⁺ channels (SK/BK channels).
+حالياً، بيانات آلية العمل التفصيلية غير متاحة لكلوروكسازون في هذه الحزمة الدليلية. بناءً على المعلومات المعروفة، كلوروكسازون هو مرخي عضلات هيكلي مركزي التأثير — لقد تم إثبات فعاليتُه في تسكين ألم الجهاز العضلي الهيكلي الحاد والتشنجات سريرياً، والمسار الآلي الأكثر صلة بإعادة استخدام الصداع النصفي يتضمن تفعيل قنوات البوتاسيوم المُفعَّلة بالكالسيوم (قنوات SK/BK).
 
-The proposed link to migraine centres on Familial Hemiplegic Migraine Type 1 (FHM1). Mutations in the *CACNA1A* gene — encoding the pore-forming α1A subunit of Cav2.1 voltage-gated calcium channels — produce neuronal calcium overload that drives both FHM1 episodes and episodic cerebellar ataxia. A preclinical study in *Cacna1a*-S218L mutant mice (PMID 23115190) demonstrated that Ca²⁺-activated K⁺ channel activators directly counteract this pathological Cav2.1 hyperactivation and alleviate ataxia — a mechanistic principle shared with FHM1-associated migraine. If chlorzoxazone genuinely activates SK/BK channels, the same mechanism could theoretically suppress the cortical spreading depression and neuronal hyperexcitability underlying migraine attacks.
+الارتباط المقترح بالصداع النصفي يتمحور حول الصداع النصفي الهيميبليجي العائلي من النوع 1 (FHM1). الطفرات في جين *CACNA1A* — التي تشفر الوحدة الفرعية α1A الحاملة للمسام في قنوات الكالسيوم ذات البوابة الكهربائية Cav2.1 — تنتج فرط تحميل الكالسيوم العصبي الذي يدفع كلاً من نوبات FHM1 والرنح المخيخي الدوري. أظهرت دراسة ما قبل سريرية في الفئران الحاملة للطفرة *Cacna1a*-S218L (PMID 23115190) أن منشطات قنوات البوتاسيوم المُفعَّلة بالكالسيوم تقابل مباشرة فرط نشاط Cav2.1 المرضي وتخفف من الرنح — مبدأ آلي مشترك مع الصداع النصفي المرتبط بـ FHM1. إذا كان كلوروكسازون حقاً يُفعِّل قنوات SK/BK، فإن نفس الآلية قد تُثبّط نظرياً الانتشار القشري والإثارة العصبية المفرطة التي تكمن وراء نوبات الصداع النصفي.
 
-However, this chain of reasoning spans multiple inferential steps: the three retrieved publications address vestibular and cerebellar pharmacology rather than migraine directly, the SK/BK activation claim for chlorzoxazone itself lacks published confirmation, and no human study has tested this hypothesis. The biological plausibility is coherent but remains firmly at the preclinical inference stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن هذه السلسلة من المنطق تمتد عبر خطوات استدلالية متعددة: المنشورات الثلاث المسترجعة تتناول الصيدلة الدهليزية والمخيخية بدلاً من الصداع النصفي بشكل مباشر، ادعاء تفعيل SK/BK لكلوروكسازون نفسه يفتقر إلى التأكيد المنشور، ولم تختبر أي دراسة بشرية هذه الفرضية. الجدوى البيولوجية متماسكة لكنها تبقى بثبات في المرحلة الاستدلالية ما قبل السريرية.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [23115190](https://pubmed.ncbi.nlm.nih.gov/23115190/) | 2012 | Pre-clinical (Animal) | *J Neuroscience* | Ca²⁺-activated K⁺ channel activators alleviate cerebellar ataxia in *CACNA1A*(S218L) mutant mice; mechanistic basis for targeting Cav2.1-driven neuronal hyperexcitability, relevant to FHM1 migraine pathophysiology |
-| [27083881](https://pubmed.ncbi.nlm.nih.gov/27083881/) | 2016 | Narrative Review | *Journal of Neurology* | Pharmacotherapy of central vestibular syndromes and cerebellar disorders; discusses how K⁺ channel modulation normalises irregular Purkinje cell firing rates — contextualises the ionic mechanism |
-| [24000301](https://pubmed.ncbi.nlm.nih.gov/24000301/) | 2013 | Narrative Review | *Dtsch Arzteblatt Int* | Treatment overview of peripheral and central vestibular vertigo; vestibular migraine accounts for 11.4% of cases, bridging the cerebellar and migraine disease contexts |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## دليل الأدب
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The highest-ranked TxGNN prediction (migraine disorder, 99.73%) rests on L4 evidence only — mechanistic inference from a single mouse model with no clinical trial registration and no direct human data — and chlorzoxazone is not registered in Saudi Arabia, making near-term clinical deployment impractical without regulatory groundwork.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|-----------------|
+| [23115190](https://pubmed.ncbi.nlm.nih.gov/23115190/) | 2012 | ما قبل سريري (حيواني) | *J Neuroscience* | منشطات قنوات البوتاسيوم المُفعَّلة بالكالسيوم تخفف من الرنح المخيخي في فئران *CACNA1A*(S218L) الطافرة؛ أساس آلي لاستهداف الإثارة العصبية المدفوعة بـ Cav2.1، ذات صلة بفيزيوباثولوجيا الصداع النصفي المرتبط بـ FHM1 |
+| [27083881](https://pubmed.ncbi.nlm.nih.gov/27083881/) | 2016 | مراجعة سردية | *Journal of Neurology* | الصيدلة العلاجية للمتلازمات الدهليزية المركزية والاضطرابات المخيخية؛ تناقش كيف أن تعديل قنوات البوتاسيوم يطبّع معدلات إطلاق خلايا بركينجي غير المنتظمة — توضح الآلية الأيونية |
+| [24000301](https://pubmed.ncbi.nlm.nih.gov/24000301/) | 2013 | مراجعة سردية | *Dtsch Arzteblatt Int* | نظرة عامة على العلاج للدوار الدهليزي المحيطي والمركزي؛ الصداع النصفي الدهليزي يشكل 11.4% من الحالات، يعمل كجسر بين سياقات أمراض المخيخ والصداع النصفي |
 
 ---
 
-**Higher-Priority Opportunity — Rheumatoid Arthritis:**
+## اعتبارات السلامة
 
-Among all 9 predicted indications, **Rheumatoid Arthritis** (rank 9, TxGNN score 99.05%) carries substantially stronger existing evidence and a preliminary *Research Question* recommendation (decision stage S1, evidence level L3):
-
-| PMID | Year | Type | Key Relevance |
-|------|------|------|---------------|
-| [22258993](https://pubmed.ncbi.nlm.nih.gov/22258993/) | 2012 | Cochrane Systematic Review | Confirms muscle relaxants are used for RA pain management; establishes the drug class rationale |
-| [5312143](https://pubmed.ncbi.nlm.nih.gov/5312143/) | 1970 | Clinical Study (Uncontrolled) | Chlorzoxazone + prednisolone combination reported in rheumatic disease patients |
-| [817531](https://pubmed.ncbi.nlm.nih.gov/817531/) | 1976 | In vitro | Chlorzoxazone inhibits cathepsin B1 from bovine spleen — relevant to RA cartilage destruction pathway |
-| [136142](https://pubmed.ncbi.nlm.nih.gov/136142/) | 1976 | In vitro | Chlorzoxazone inhibits neutral protease from human leukocyte granules — suggests potential anti-proteolytic mechanism in RA synovium |
-| [40848494](https://pubmed.ncbi.nlm.nih.gov/40848494/) | 2025 | Analytical Chemistry | Chlorzoxazone + ibuprofen combination validated as therapeutic option for RA, ankylosing spondylitis, and sprains in clinical practice |
-| [14019303](https://pubmed.ncbi.nlm.nih.gov/14019303/) | 1962 | Case Series | Chlorzoxazone in musculo-articular disease — earliest clinical report |
-
-The RA evidence spans three mechanistic layers — symptom relief (muscle spasm/joint pain), anti-proteolytic enzyme inhibition, and CYP2E1-mediated inflammatory lipid metabolism — and should be evaluated on a dedicated, higher-priority track.
+يرجى الرجوع إلى النشرة الداخلية للدواء للحصول على معلومات السلامة.
 
 ---
 
-**To proceed with the migraine indication, the following is needed:**
+## الخلاصة والخطوات التالية
 
-- Confirmed MOA data from DrugBank: specifically, published evidence that chlorzoxazone activates SK/BK channels (distinct from its CYP2E1 inhibition role)
-- Saudi Arabia regulatory pathway assessment: identification of markets where chlorzoxazone is currently registered (e.g., USA, Romania, Latin America) to inform a bridging strategy
-- Safety documentation: package insert warnings, contraindications, and drug-drug interaction profile
-- Targeted literature search: chlorzoxazone + potassium channel + FHM1 / migraine prophylaxis in human subjects
-- Preclinical proof-of-concept: a migraine-specific animal model (e.g., cortical spreading depression assay) to validate the SK/BK hypothesis before any clinical planning
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفاً من TxGNN (اضطراب الصداع النصفي، 99.73%) يستند إلى دليل L4 فقط — استدلال آلي من نموذج فأر واحد بدون تسجيل تجارب سريرية وبدون بيانات بشرية مباشرة — وكلوروكسازون غير مسجل في المملكة العربية السعودية، مما يجعل النشر السريري القريب غير عملي بدون عمل تنظيمي أساسي.
+
+---
+
+**فرصة ذات أولوية أعلى — التهاب المفاصل الروماتويدي:**
+
+من بين جميع 9 من المؤشرات المتنبأ بها، **التهاب المفاصل الروماتويدي** (الترتيب 9، درجة TxGNN 99.05%) يحمل دليلاً موجوداً أقوى بكثير وتوصية أولية *سؤال بحثي* (مرحلة القرار S1، مستوى الدليل L3):
+
+| PMID | السنة | النوع | الصلة الرئيسية |
+|------|------|-------|-----------------|
+| [22258993](https://pubmed.ncbi.nlm.nih.gov/22258993/) | 2012 | مراجعة منهجية Cochrane | يؤكد أن مرخيات العضلات تُستخدم لإدارة ألم التهاب المفاصل الروماتويدي؛ يثبّت الأساس المنطقي لفئة الأدوية |
+| [5312143](https://pubmed.ncbi.nlm.nih.gov/5312143/) | 1970 | دراسة سريرية (غير خاضعة للرقابة) | تم الإبلاغ عن مزيج كلوروكسازون + بريدنيزولون في مرضى الأمراض الروماتيسمية |
+| [817531](https://pubmed.ncbi.nlm.nih.gov/817531/) | 1976 | في المختبر | كلوروكسازون يثبط كاتيبسين B1 من الطحال البقري — ذا صلة بمسار تدمير الغضروف في التهاب المفاصل الروماتويدي |
+| [136142](https://pubmed.ncbi.nlm.nih.gov/136142/) | 1976 | في المختبر | كلوروكسازون يثبط البروتياز المحايد من حبيبات الكريات البيضاء البشرية — يقترح آلية مضادة للبروتيوليتية محتملة في الغشاء الزليلي لالتهاب المفاصل الروماتويدي |
+| [40848494](https://pubmed.ncbi.nlm.nih.gov/40848494/) | 2025 | كيمياء تحليلية | تم التحقق من صحة مزيج كلوروكسازون + إيبوبروفين كخيار علاجي لالتهاب المفاصل الروماتويدي والتهاب الفقار اللاصق والالتواءات في الممارسة السريرية |
+| [14019303](https://pubmed.ncbi.nlm.nih.gov/14019303/) | 1962 | سلسلة حالات | كلوروكسازون في الأمراض العضلية المفصلية — أقدم تقرير سريري |
+
+الدليل على التهاب المفاصل الروماتويدي يمتد عبر ثلاث طبقات آلية — تسكين الأعراض (تشنج العضل/ألم المفاصل)، وتثبيط الإنزيم المضاد للبروتيوليتي، وأيض الدهون الالتهابية الوسيط بـ CYP2E1 — وينبغي تقييمُه على مسار تخصصي منفصل ذي أولوية أعلى.
+
+---
+
+**للمتابعة مع مؤشر الصداع النصفي، يكون المطلوب التالي:**
+
+- بيانات آلية العمل المؤكدة من DrugBank: بالتحديد، دليل منشور بأن كلوروكسازون يُفعِّل قنوات SK/BK (مختلفة عن دوره في تثبيط CYP2E1)
+- تقييم المسار التنظيمي بالمملكة العربية السعودية: تحديد الأسواق التي يكون كلوروكسازون حالياً مسجلاً فيها (على سبيل المثال، الولايات المتحدة، رومانيا، أمريكا اللاتينية) لإطلاع استراتيجية الجسر
+- توثيق السلامة: تحذيرات النشرة الداخلية، والموانع، وملف تفاعل الأدوية مع الأدوية الأخرى
+- بحث أدبي موجه: كلوروكسازون + قنوات البوتاسيوم + FHM1 / النبوءة بالصداع النصفي في الأشخاص
+- إثبات الجدوى ما قبل السريري: نموذج صداع نصفي معين (على سبيل المثال، اختبار انتشار القشرة الدماغية) للتحقق من فرضية SK/BK قبل أي تخطيط سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

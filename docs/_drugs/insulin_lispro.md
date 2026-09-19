@@ -29,55 +29,56 @@ indication_count: 9
 
 </div>
 
-# Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin Lispro: من داء السكري إلى التهاب المبيض المناعي الذاتي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Insulin lispro (DB00046) is a rapid-acting insulin analog used to manage diabetes mellitus. TxGNN's top prediction links it to **Autoimmune Oophoritis** with a **99.78%** score, but currently **0 clinical trials** and **0 publications** support this specific indication, and the model's own rationale flags the signal as likely reflecting disease co-occurrence rather than a genuine treatment mechanism.
+إن insulin lispro (DB00046) هو نظير أنسولين سريع المفعول يُستخدم لإدارة داء السكري. يربط التنبؤ الأعلى لـ TxGNN بين insulin lispro و**التهاب المبيض المناعي الذاتي** برصيد **99.78%**، إلا أن **0 تجربة سريرية** و**0 منشور** يدعمان هذا المؤشر المحدد حالياً، وتشير أساليب النموذج الخاصة به إلى أن الإشارة من المرجح أن تعكس التزامن المرضي بدلاً من آلية معالجة حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Diabetes Mellitus (not confirmed via Saudi Arabia registry — no local licenses on file) |
-| Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | داء السكري (غير مؤكد عبر سجل المملكة العربية السعودية — لا توجد تراخيص محلية في الملف) |
+| المؤشر المتنبأ به الجديد | التهاب المبيض المناعي الذاتي |
+| درجة تنبؤ TxGNN | 99.78% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data for insulin lispro is not available in this evidence pack (marked as a data gap). What can be said from general knowledge is that insulin lispro is a rapid-acting insulin analog whose efficacy in glycemic control for diabetes mellitus is well established.
+حالياً، بيانات آلية العمل المفصلة لـ insulin lispro غير متاحة في هذه مجموعة الأدلة (موضحة كفجوة بيانات). ما يمكن قوله من المعرفة العامة هو أن insulin lispro هو نظير أنسولين سريع المفعول ثبتت فعاليته بشكل جيد في التحكم بنسبة السكر في الدم لدى مرضى السكري.
 
-However, the repurposing rationale for autoimmune oophoritis is **not** a proposed treatment mechanism — it is explicitly flagged as a probable confounding signal. Autoimmune oophoritis can occur as part of autoimmune polyglandular syndrome type 2 (APS-2), which frequently co-occurs with type 1 diabetes. TxGNN's knowledge graph likely picked up this pattern because patients with both conditions are commonly co-prescribed insulin, not because insulin lispro has any known biological action on ovarian autoimmune destruction.
+ومع ذلك، فإن أساس إعادة التوظيف لالتهاب المبيض المناعي الذاتي **ليس** آلية معالجة مقترحة — وقد تم تحديده صراحة كإشارة محتملة مربكة. يمكن لالتهاب المبيض المناعي الذاتي أن يحدث كجزء من متلازمة الغدد الصماء المتعددة المناعية من النوع 2 (APS-2)، والتي تحدث بشكل متكرر جنباً إلى جنب مع مرض السكري من النوع 1. من المحتمل أن يكون رسم المعرفة البياني لـ TxGNN قد التقط هذا النمط لأن المرضى الذين يعانون من كلا الحالتين يتم وصف الأنسولين لهم بشكل شائع، وليس لأن insulin lispro له أي إجراء بيولوجي معروف على تدمير المبايض المناعي الذاتي.
 
-In short, this is a comorbidity-driven artifact rather than a mechanistically grounded repurposing hypothesis, and it is corroborated by the complete absence of clinical trials or literature specifically linking insulin lispro to autoimmune oophoritis.
+باختصار، هذا artifact ناجم عن الأمراض المصاحبة وليس فرضية إعادة توظيف مدعومة بالآليات، وتؤيده الغياب التام للتجارب السريرية أو الأدبيات التي تربط بشكل محدد بين insulin lispro والتهاب المبيض المناعي الذاتي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+حالياً لا توجد أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ورقة البيانات للحصول على معلومات الأمان.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The prediction carries no direct clinical trial or literature support (Evidence Level L5), and the model's own mechanistic rationale describes a comorbidity confound rather than a plausible treatment pathway — this does not meet the bar to advance to safety or clinical screening.
+**الأساس المنطقي:**
+التنبؤ لا يحمل دعماً مباشراً من التجارب السريرية أو الأدبيات (مستوى الأدلة L5)، وتصف أساليب النموذج الخاصة به نقصاً ناجماً عن الأمراض المصاحبة بدلاً من مسار علاج معقول — وهذا لا يفي بالمعيار للمضي قدماً في الفحص الأمني أو السريري.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert warnings and contraindications (currently blocking — required before any S1 safety screening)
-- Confirmed mechanism of action data via DrugBank API query
-- A biologically grounded hypothesis (beyond comorbidity) connecting insulin signaling to ovarian autoimmune pathology, or de-prioritization of this candidate in favor of higher-evidence predictions (e.g., rank 7, pancreatic agenesis, which reflects an established clinical care pattern rather than a novel mechanism)
+**للمضي قدماً، يلزم الآتي:**
+- تحذيرات ورقة بيانات معادلة TFDA/SFDA وموانع الاستعمال (تم حظره حالياً — مطلوب قبل أي فحص أمان S1)
+- بيانات آلية العمل المؤكدة عبر استعلام DrugBank API
+- فرضية مدعومة بيولوجياً (تتجاوز الأمراض المصاحبة) تربط إشارات الأنسولين بأمراض المبيض المناعية الذاتية، أو تخفيض أولوية هذا المرشح لصالح التنبؤات ذات الأدلة الأعلى (على سبيل المثال، الرتبة 7، نقص التنسج البنكرياسي، الذي يعكس نمط رعاية سريرية مثبتة بدلاً من آلية جديدة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

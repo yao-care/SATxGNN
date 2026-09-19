@@ -29,82 +29,83 @@ indication_count: 1
 
 </div>
 
-# Gilteritinib: From FLT3-Mutated Acute Myeloid Leukemia to Bulbar Polio
+# جيلتيرتينيب: من سرطان الدم النقوي الحاد المرتبط بـ FLT3 إلى شلل الأطفال النخاعي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Gilteritinib is a FLT3/AXL tyrosine kinase inhibitor whose established use is in FLT3-mutated acute myeloid leukemia (AML); it is not currently marketed in Saudi Arabia and no local approved-indication data exists. The TxGNN model assigns a 99.10% score to **Bulbar Polio** as a novel indication, but this direction is supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic review flags the pairing as biologically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | FLT3-mutated Acute Myeloid Leukemia (AML) — not locally registered in Saudi Arabia; no formal approved-indication text on file |
-| Predicted New Indication | Bulbar polio |
-| TxGNN Prediction Score | 99.10% |
-| Evidence Level | L5 (model prediction only — no trials, no literature) |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+جيلتيرتينيب هو مثبط تيروسين كيناز FLT3/AXL يُستخدم بشكل أساسي في سرطان الدم النقوي الحاد المرتبط بـ FLT3 (AML)، وليس مسجلاً حالياً في المملكة العربية السعودية، ولا توجد بيانات محلية للمؤشرات المصرح بها. يعطي نموذج TxGNN درجة 99.10% لـ **شلل الأطفال النخاعي** كمؤشر جديد محتمل، إلا أن هذا المسار لا يدعمه **أي تجارب سريرية** و**لا أي منشورات علمية**، وتقييم الآلية الحيوية في حزمة الأدلة نفسها يشير إلى أن هذا الاقتران غير معقول بيولوجياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data (`original_moa`) is marked as a data gap and could not be retrieved from DrugBank in this pull. Based on the rationale text accompanying this prediction, gilteritinib is known to act as a FLT3/AXL tyrosine kinase inhibitor, approved for FLT3-mutated AML. AXL has been reported in some literature as playing a role in cell-entry mechanisms for certain enveloped viruses (e.g., Ebola, Dengue).
-
-However, bulbar polio is caused by poliovirus, a picornavirus that enters motor neurons via the CD155 receptor — a pathway with no known connection to FLT3/AXL signaling. The evidence pack's own mechanistic assessment explicitly concludes that this pairing **lacks a credible biological basis**, and is more likely attributable to model-level noise or a spurious rare-disease pairing rather than a genuine repurposing signal.
-
-**This prediction should be treated with skepticism rather than presented as a promising lead.** No clinical trials, ICTRP registrations, or PubMed literature were found linking gilteritinib to poliovirus-related disease (confirmed via three independent queries on 2026-04-21), which is consistent with the mechanistic implausibility noted above.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | سرطان الدم النقوي الحاد المرتبط بـ FLT3 (AML) — غير مسجل محلياً في المملكة العربية السعودية؛ لا توجد نصوص رسمية للمؤشرات المصرح بها في الملف |
+| المؤشر المتنبأ به | شلل الأطفال النخاعي |
+| درجة التنبؤ بـ TxGNN | 99.10% |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط — بدون تجارب، بدون أدبيات) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not marketed) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | توقف (Hold) |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، تم تحديد بيانات آلية العمل التفصيلية (`original_moa`) كثغرة في البيانات ولم يمكن استرجاعها من DrugBank في هذا الطلب. استناداً إلى نص الأساس المرافق لهذا التنبؤ، من المعروف أن جيلتيرتينيب يعمل كمثبط تيروسين كيناز FLT3/AXL، مصرح به لسرطان الدم النقوي الحاد المرتبط بـ FLT3. تم الإبلاغ عن أن AXL يلعب دوراً في بعض الأدبيات في آليات دخول الفيروسات المغلفة معينة (مثل الإيبولا، حمى الضنك).
 
----
+ومع ذلك، فإن شلل الأطفال النخاعي يسببه فيروس شلل الأطفال، وهو فيروس من عائلة الفيروسات الصغيرة التي تدخل الخلايا العصبية الحركية عبر مستقبل CD155 — وهي آلية لا توجد صلة معروفة بينها وبين إشارات FLT3/AXL. يخلص التقييم الآلي الحيوي لحزمة الأدلة نفسها بصراحة إلى أن هذا الاقتران **يفتقر إلى أساس بيولوجي معقول**، والأرجح أنه يعزى إلى ضوضاء على مستوى النموذج أو اقتران نادر غير حقيقي بدلاً من كونه إشارة إعادة استخدام حقيقية.
 
-## Cytotoxicity
-
-Gilteritinib is an antineoplastic agent (approved for FLT3-mutated AML), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (FLT3/AXL tyrosine kinase inhibitor) — based on rationale text; formal DrugBank MOA/category data not yet retrieved |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+**يجب التعامل مع هذا التنبؤ بشك بدلاً من تقديمه كمسار واعد.** لم يتم العثور على أي تجارب سريرية أو تسجيلات ICTRP أو أدبيات PubMed تربط جيلتيرتينيب بمرض متعلق بفيروس شلل الأطفال (تم التأكد من ذلك عبر ثلاث استعلامات مستقلة في 2026-04-21)، وهو ما يتفق مع عدم المعقولية الآلية الحيوية المذكورة أعلاه.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The evidence level is L5 (model prediction only), with no clinical trials, ICTRP registrations, or literature support, and the pack's own mechanistic analysis assesses the FLT3/AXL–poliovirus pairing as biologically implausible, likely a false-positive signal. A blocking data gap on official (e.g., TFDA/label) warnings and contraindications also prevents this candidate from entering the S1 safety pre-screen stage.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): official package insert warnings/contraindications
-- Resolve DG002: confirmed DrugBank MOA and drug category data
-- Independent biological plausibility evidence (e.g., in vitro data on AXL's role, if any, in poliovirus/CD155-mediated neuronal entry) before further pursuit
-- If no such evidence emerges, this candidate-indication pair should be deprioritized rather than advanced
+## السمية الخلوية
+
+جيلتيرتينيب هو عامل مضاد للأورام (مصرح به لسرطان الدم النقوي الحاد المرتبط بـ FLT3)، لذلك ينطبق هذا القسم.
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | علاج موجه (مثبط تيروسين كيناز FLT3/AXL) — بناءً على نص الأساس؛ لم يتم استرجاع بيانات DrugBank الرسمية للآلية/الفئة بعد |
+| خطر فرط استجابة النخاع العظمي | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| تصنيف الغثيان (Emetogenicity) | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| حماية المناولة | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف (Hold)**
+
+**الأساس المنطقي:**
+مستوى الأدلة هو L5 (تنبؤ النموذج فقط)، بدون تجارب سريرية أو تسجيلات ICTRP أو أدبيات داعمة، وتحليل الآلية الحيوية الخاص بالحزمة نفسها يقيّم الاقتران بين FLT3/AXL وفيروس شلل الأطفال كغير معقول بيولوجياً، وهو على الأرجح إشارة موجبة خاطئة. كما أن ثغرة البيانات المانعة DG001 المتعلقة بالتحذيرات والموانع الرسمية (مثلاً، من TFDA/النشرة) تحول دون إدخال هذا المرشح في مرحلة الفحص الأمني S1.
+
+**للمتابعة، يلزم ما يلي:**
+- حل ثغرة البيانات DG001 (مانعة): تحذيرات وموانع النشرة الدوائية الرسمية
+- حل ثغرة البيانات DG002: تأكيد بيانات آلية العمل وفئة الدواء من DrugBank
+- أدلة معقولية بيولوجية مستقلة (مثلاً، بيانات في المختبر حول دور AXL، إن وجدت، في دخول فيروس شلل الأطفال/CD155 إلى الخلايا العصبية) قبل المتابعة الإضافية
+- إذا لم تظهر أي أدلة من هذا القبيل، يجب نزع الأولوية عن هذا الاقتران بين المرشح والمؤشر بدلاً من تقديمه للمتابعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Ranibizumab: From Anti-VEGF Ophthalmic Therapy to Severe Nonproliferative Diabetic Retinopathy
+# رانيبيزوماب: من العلاج العيني المضاد لـ VEGF إلى اعتلال الشبكية السكري غير التكاثري الشديد
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Ranibizumab is a humanized anti-VEGF-A monoclonal antibody fragment; no approved indication is currently on file for the Saudi Arabia market (drug not marketed).
-> The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy (severe NPDR)**,
-> with **6 clinical trials** (including 3 completed Phase 3 RCTs) and **10+ prioritized publications** currently supporting this direction.
+> رانيبيزوماب هو جزء من الأجسام المضادة أحادية النسيلة الإنسانية المضادة لـ VEGF-A؛ لا توجد حاليًا مؤشرات معتمدة مسجلة في السوق السعودي (الدواء غير متاح بالسوق).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اعتلال الشبكية السكري غير التكاثري الشديد (severe NPDR)**،
+> مع وجود **6 تجارب سريرية** (بما في ذلك 3 تجارب عشوائية محكومة في المرحلة 3 مكتملة) و **10+ منشورات ذات أولوية** تدعم هذا الاتجاه حاليًا.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication on file (drug not currently marketed in Saudi Arabia) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا يوجد مؤشر معتمد مسجل (الدواء غير متاح بالسوق حاليًا في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | اعتلال الشبكية السكري غير التكاثري الشديد |
+| درجة التنبؤ من نموذج TxGNN | 99.99% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير متاح بالسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع الحماية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-A formal, sourced mechanism-of-action record (original_moa) is not currently on file for ranibizumab. However, the repurposing evidence itself documents that ranibizumab is a humanized anti-VEGF-A monoclonal antibody fragment. VEGF is a core driver of vascular leakage and pathological neovascularization in diabetic retinopathy (DR), and intravitreal anti-VEGF injection is already an established, guideline-level treatment mechanism for DR and diabetic macular edema (DME).
+سجل آلية العمل الرسمي المصحوب بالمراجع (original_moa) لا يتوفر حاليًا لرانيبيزوماب. ومع ذلك، فإن دليل إعادة الاستخدام نفسه يوثق أن رانيبيزوماب هو جزء من الأجسام المضادة أحادية النسيلة الإنسانية المضادة لـ VEGF-A. يعتبر VEGF محركًا أساسيًا للتسرب الوعائي والأوعية الدموية المرضية المجهرية الجديدة في اعتلال الشبكية السكري (DR)، والحقن داخل الزجاجي من الأدوية المضادة لـ VEGF هي آلية علاج معترف بها من الناحية الإرشادية لـ DR وذمة الشبكية السكرية (DME).
 
-Because no original indication is on record for this market, the "original-to-new indication" relationship cannot be framed as a shift between two approved uses. Instead, the case rests on ranibizumab's well-validated anti-VEGF pharmacology: this mechanism directly targets the vascular pathology underlying severe NPDR, and multiple completed Phase 3 trials (below) have already tested ranibizumab specifically in NPDR populations rather than only in DME or wet AMD. This makes the mechanistic linkage clinically demonstrated rather than a purely computational (TxGNN-only) association.
+لأنه لا توجد مؤشرات أصلية مسجلة لهذا السوق، فإن علاقة "المؤشر الأصلي إلى الجديد" لا يمكن تأطيرها كتحول بين استخدامين معتمدين. بدلاً من ذلك، تستند الحالة إلى الصيدلة السريرية المضادة لـ VEGF المثبتة جيدًا لرانيبيزوماب: تستهدف آلية العمل هذه الأمراض الوعائية الكامنة وراء NPDR الشديد مباشرة، والعديد من التجارب العشوائية المحكومة المكتملة في المرحلة 3 (أدناه) اختبرت بالفعل رانيبيزوماب بشكل محدد في مجموعات سكانية من NPDR وليس فقط في DME أو AMD الرطب. وهذا يجعل الربط الميكانيكي مثبتًا سريريًا بدلاً من كونه اقترانًا حسابيًا فحسب (فقط من TxGNN).
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00444600](https://clinicaltrials.gov/study/NCT00444600) | Phase 3 | Completed | 691 | DRCR.net Protocol I-type study comparing laser alone, laser + triamcinolone, laser + ranibizumab, and ranibizumab alone for diabetic macular edema |
-| [NCT02634333](https://clinicaltrials.gov/study/NCT02634333) | Phase 3 | Completed | 399 | Anti-VEGF (PANORAMA-type) treatment for prevention of vision-threatening progression in high-risk diabetic retinopathy |
-| [NCT04503551](https://clinicaltrials.gov/study/NCT04503551) | Phase 3 | Completed | 174 | Port Delivery System with ranibizumab vs monitoring in NPDR without center-involved DME |
-| [NCT03452657](https://clinicaltrials.gov/study/NCT03452657) | Phase 3 | Unknown | 118 | Intravitreous ranibizumab vs sham injection for prevention of high-risk DR progression |
-| [NCT02834663](https://clinicaltrials.gov/study/NCT02834663) | Phase 4 | Completed | 25 | Single-center pilot study of intravitreal ranibizumab effects on microaneurysm turnover and non-perfused retinal area in NPDR with DME |
-| [NCT05222633](https://clinicaltrials.gov/study/NCT05222633) | N/A | Unknown | 1000 | Real-world observational study of anti-VEGF therapy (ranibizumab, aflibercept, conbercept) across exudative AMD, PDR, macular edema, and CNV |
+| رقم التجربة | المرحلة | الحالة | عدد المتطوعين المسجلين | النتائج الرئيسية |
+|---------|--------|--------|---------|---------|
+| [NCT00444600](https://clinicaltrials.gov/study/NCT00444600) | المرحلة 3 | مكتملة | 691 | دراسة من نوع DRCR.net Protocol I تقارن العلاج بالليزر وحده، الليزر + تريامسينولون، الليزر + رانيبيزوماب، ورانيبيزوماب وحده لذمة الشبكية السكرية |
+| [NCT02634333](https://clinicaltrials.gov/study/NCT02634333) | المرحلة 3 | مكتملة | 399 | العلاج المضاد لـ VEGF (نوع PANORAMA) لمنع تطور اعتلال الشبكية السكري عالي الخطورة الذي يهدد الرؤية |
+| [NCT04503551](https://clinicaltrials.gov/study/NCT04503551) | المرحلة 3 | مكتملة | 174 | نظام التسليم عبر الميناء برانيبيزوماب مقابل المراقبة في NPDR بدون ذمة شبكية مركزية |
+| [NCT03452657](https://clinicaltrials.gov/study/NCT03452657) | المرحلة 3 | غير معروفة | 118 | حقن رانيبيزوماب داخل الزجاجي مقابل حقن وهمي لمنع تطور DR عالي الخطورة |
+| [NCT02834663](https://clinicaltrials.gov/study/NCT02834663) | المرحلة 4 | مكتملة | 25 | دراسة استطلاعية أحادية المركز لتأثيرات حقن رانيبيزوماب داخل الزجاجي على دوران الأمهات الدقيقة ومنطقة الشبكية غير المُرويّة في NPDR مع DME |
+| [NCT05222633](https://clinicaltrials.gov/study/NCT05222633) | N/A | غير معروفة | 1000 | دراسة رصدية في العالم الحقيقي لعلاج مضاد لـ VEGF (رانيبيزوماب، أفليبرسيبت، كونبرسيبت) عبر AMD الشرثوي، PDR، وذمة الشبكية، و CNV |
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmology | Pavilion trial: Port Delivery System with ranibizumab vs monitoring in NPDR without macular edema |
-| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | RCT post-hoc | Ophthalmology Retina | Meta-analysis of time to DME resolution with ranibizumab by baseline DR severity |
-| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | RCT post-hoc (RIDE/RISE) | Clinical Ophthalmology | Predictors of early DR regression with ranibizumab |
-| [35417296](https://pubmed.ncbi.nlm.nih.gov/35417296/) | 2022 | RCT post-hoc (RIDE/RISE) | Ophthalmic Surgery, Lasers & Imaging Retina | DR progression course in untreated fellow eyes |
-| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2024 | Systematic Review/Meta-analysis | Health Technology Assessment | Anti-VEGF drugs vs laser photocoagulation for diabetic retinopathy |
-| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opinion on Biological Therapy | Overview of ranibizumab for diabetic retinopathy treatment |
-| [31669065](https://pubmed.ncbi.nlm.nih.gov/31669065/) | 2019 | Review | Journal of Diabetes and its Complications | Advances in the treatment of diabetic retinopathy |
-| [20964459](https://pubmed.ncbi.nlm.nih.gov/20964459/) | 2010 | Review | Drugs | Current approaches to management of DR and diabetic macular oedema |
-| [30973596](https://pubmed.ncbi.nlm.nih.gov/30973596/) | 2019 | Cohort/Imaging | JAMA Ophthalmology | Retinal nonperfusion characteristics on widefield angiography in severe NPDR vs PDR |
-| [36580154](https://pubmed.ncbi.nlm.nih.gov/36580154/) | 2023 | Basic/Biomarker | International Ophthalmology | Serum and vitreous VEGF levels in diabetic retinopathy |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|---------|
+| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | تجربة عشوائية محكومة | JAMA Ophthalmology | تجربة Pavilion: نظام التسليم عبر الميناء برانيبيزوماب مقابل المراقبة في NPDR بدون ذمة شبكية |
+| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | تحليل لاحق لتجربة عشوائية محكومة | Ophthalmology Retina | تحليل تلوي لوقت حل DME برانيبيزوماب حسب شدة DR الأساسية |
+| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | تحليل لاحق لتجربة عشوائية محكومة (RIDE/RISE) | Clinical Ophthalmology | التنبؤات بانحدار DR المبكر برانيبيزوماب |
+| [35417296](https://pubmed.ncbi.nlm.nih.gov/35417296/) | 2022 | تحليل لاحق لتجربة عشوائية محكومة (RIDE/RISE) | Ophthalmic Surgery, Lasers & Imaging Retina | مسار تطور DR في العيون المقابلة غير المعالجة |
+| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2024 | مراجعة منهجية/تحليل تلوي | Health Technology Assessment | أدوية مضادة لـ VEGF مقابل تخثير الليزر الضوئي لاعتلال الشبكية السكري |
+| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | مراجعة | Expert Opinion on Biological Therapy | نظرة عامة على رانيبيزوماب لعلاج اعتلال الشبكية السكري |
+| [31669065](https://pubmed.ncbi.nlm.nih.gov/31669065/) | 2019 | مراجعة | Journal of Diabetes and its Complications | التطورات في علاج اعتلال الشبكية السكري |
+| [20964459](https://pubmed.ncbi.nlm.nih.gov/20964459/) | 2010 | مراجعة | Drugs | الأساليب الحالية في إدارة اعتلال الشبكية السكري والوذمة الشبكية السكرية |
+| [30973596](https://pubmed.ncbi.nlm.nih.gov/30973596/) | 2019 | أترابية/تصوير | JAMA Ophthalmology | خصائص عدم الإرواء الشبكي على الأوعية الدموية بمجال واسع في NPDR الشديد مقابل PDR |
+| [36580154](https://pubmed.ncbi.nlm.nih.gov/36580154/) | 2023 | أساسي/علامات حيوية | International Ophthalmology | مستويات VEGF في المصل والسائل الزجاجي في اعتلال الشبكية السكري |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الحماية**
 
-**Rationale:**
-Severe NPDR is supported by an L1 evidence level, including three completed Phase 3 RCTs (n=691, n=399, n=174) and a well-established anti-VEGF mechanistic basis; however, ranibizumab is not currently marketed in this jurisdiction and core safety/labeling data are unavailable, so guardrails are needed before advancing further.
+**المبرر:**
+يدعم NPDR الشديد مستوى دليل L1، بما في ذلك ثلاث تجارب عشوائية محكومة مكتملة في المرحلة 3 (n=691, n=399, n=174) وأساس آلي مضاد لـ VEGF راسخ جيدًا؛ غير أن رانيبيزوماب غير متاح بالسوق حاليًا في هذه الولاية القضائية وبيانات السلامة والتسمية الأساسية غير متاحة، لذا يلزم اتخاذ إجراءات حماية قبل المتابعة.
 
-**To proceed, the following is needed:**
-- Resolve the blocking data gap (DG001): official package insert warnings/contraindications, required for safety pre-assessment (S1)
-- Formal, sourced mechanism-of-action documentation (DG002), currently only inferable from repurposing rationale text
-- Drug interaction (DDI) data — current query returned no results
-- Regulatory registration/filing pathway assessment, since the product holds zero authorizations in this market
+**للمتابعة، يلزم ما يلي:**
+- حل الفجوة في البيانات المحجوبة (DG001): تحذيرات النشرة الدوائية الرسمية والموانع، مطلوبة لتقييم السلامة المسبق (S1)
+- توثيق رسمي ومصحوب بالمراجع لآلية العمل (DG002)، غير قابل للاستنتاج حاليًا سوى من نص مبرر إعادة الاستخدام
+- بيانات التفاعلات الدوائية (DDI) — الاستعلام الحالي لم يرجع نتائج
+- تقييم المسار التنظيمي للتسجيل أو الإيداع، لأن المنتج لا يحمل أي موافقات في هذا السوق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

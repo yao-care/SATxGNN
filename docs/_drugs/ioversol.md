@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# IOVERSOL: From Diagnostic Contrast Imaging to Osteoarthritis Susceptibility
+# IOVERSOL: من التصوير الظليل التشخيصي إلى قابلية الإصابة بالفصال العظمي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> IOVERSOL (DrugBank DB09134) is a non-ionic, low-osmolar iodinated contrast medium used for diagnostic radiographic imaging; no original indication or MOA data was returned from the source registries used to build this pack.
-> The TxGNN model's top-ranked prediction is **Osteoarthritis Susceptibility**, but **0 clinical trials** and **0 publications** currently support this specific prediction directly.
-> A related, lower-ranked prediction (osteoarthritis itself) does have 4 trials and 1 publication, but that evidence concerns arterial embolization with a *different* iodinated agent (ethiodized oil/Lipiodol), not IOVERSOL — so overall evidentiary support for this candidate is weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in registry data; IOVERSOL is generically classified as a diagnostic radiographic/CT contrast agent |
-| Predicted New Indication | Osteoarthritis Susceptibility |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature for this specific indication) |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> IOVERSOL (DrugBank DB09134) هو وسيط ظليل غير أيوني منخفض الأسمولية مشبع باليود يُستخدم للتصوير الشعاعي التشخيصي؛ لم تُرجع سجلات المصدر المستخدمة لبناء هذه الحزمة أي بيانات عن الاستطباب الأصلي أو آلية العمل.
+> التنبؤ ذو الترتيب الأعلى من نموذج TxGNN هو **قابلية الإصابة بالفصال العظمي**، لكن **0 تجربة سريرية** و**0 منشورات** تدعم هذا التنبؤ المحدد بشكل مباشر.
+> يوجد تنبؤ ذو ترتيب أقل (الفصال العظمي نفسه) مدعوم بـ 4 تجارب و 1 منشور، لكن هذه الأدلة تتعلق بالانسداد الشرياني باستخدام عامل ظليل مشبع باليود *مختلف* (الزيت الإيثيودي/Lipiodol)، وليس IOVERSOL — لذا بشكل عام دعم الأدلة لهذا المرشح ضعيف.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on known information, IOVERSOL is a non-ionic, low-osmolar iodinated contrast agent used to opacify tissue during radiographic and CT imaging; its established clinical role has been as a diagnostic aid rather than a therapeutic agent, so there is no confirmed original therapeutic indication on file for this evaluation.
-
-The TxGNN model's top prediction, "osteoarthritis susceptibility," is a disease-risk/predisposition node in the knowledge graph rather than a treatable clinical endpoint, and no clinical trial or literature evidence was retrieved to connect IOVERSOL to it. A mechanistic rationale linking an imaging contrast agent to osteoarthritis risk modification is not established in the data provided.
-
-It is worth noting that the model's second-ranked prediction, osteoarthritis itself (score 99.63%), is supported by several trials and one publication — but that evidence describes genicular/digital artery embolization using an *ethiodized oil-based emulsion* (Lipiodol), a structurally distinct iodinated compound, not IOVERSOL. This is a related but indirect signal at best, and should not be read as direct support for IOVERSOL's efficacy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | غير مسجل في بيانات السجل؛ يتم تصنيف IOVERSOL بشكل عام كعامل ظليل تشخيصي للأشعات السينية/الأشعة المقطعية |
+| الاستطباب الجديد المتنبأ به | قابلية الإصابة بالفصال العظمي |
+| درجة التنبؤ من TxGNN | 99.67% |
+| مستوى الأدلة | L5 (تنبؤ من النموذج فقط — لا توجد تجارب سريرية أو أدبيات لهذا الاستطباب المحدد) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة (غير مسوقة) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل المفصلة غير متاحة. بناءً على المعلومات المعروفة، IOVERSOL هو عامل ظليل غير أيوني منخفض الأسمولية مشبع باليود يُستخدم لإعتام الأنسجة أثناء التصوير الشعاعي والأشعة المقطعية؛ دوره السريري المثبت كان بمثابة وسيلة تشخيصية وليس عاملاً علاجياً، لذا لا يوجد استطباب علاجي أصلي مؤكد في الملف لهذا التقييم.
 
----
+التنبؤ الأعلى من نموذج TxGNN، "قابلية الإصابة بالفصال العظمي"، هو عقدة خطر مرض/استعداد في الرسم البياني للمعرفة بدلاً من نقطة نهائية سريرية قابلة للعلاج، ولم يتم استرجاع أي أدلة من تجارب سريرية أو أدبيات لربط IOVERSOL بها. التبرير الآلي الذي يربط عامل تصوير بتعديل خطر الفصال العظمي غير مثبت في البيانات المقدمة.
 
-## Saudi Arabia Market Information
-
-IOVERSOL is not currently marketed in Saudi Arabia (0 licenses on file); no product registration data is available.
+من الجدير بالملاحظة أن التنبؤ ذو الترتيب الثاني من النموذج، الفصال العظمي نفسه (درجة 99.63%)، مدعوم بعدة تجارب ومنشور واحد — لكن تلك الأدلة تصف انسداد الشرايين الركبوية/الرقمية باستخدام مستحلب *قائم على الزيت الإيثيودي* (Lipiodol)، وهو مركب مشبع باليود متميز هيكلياً، وليس IOVERSOL. هذا إشارة ذات صلة لكن غير مباشرة في أفضل الأحوال، ويجب ألا تُقرأ كدعم مباشر لفعالية IOVERSOL.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The top-ranked predicted indication (osteoarthritis susceptibility) has zero supporting clinical trials or literature — this is a pure model prediction (L5). Combined with a blocking data gap on TFDA/package-insert warnings and contraindications (DG001), the candidate cannot yet clear an initial safety review, and IOVERSOL is not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications (blocking gap DG001)
-- Confirmed mechanism of action data from DrugBank or another authoritative source (DG002)
-- Clarification of whether the osteoarthritis-related trial/literature evidence (rank 2) is genuinely attributable to IOVERSOL or to a distinct iodinated compound (Lipiodol/ethiodized oil), before treating it as supporting evidence
-- Confirmation of IOVERSOL's original approved indication(s) for a valid before/after comparison
+## معلومات سوق المملكة العربية السعودية
+
+IOVERSOL غير مسوق حالياً في المملكة العربية السعودية (0 تراخيص في الملف)؛ لا توجد بيانات تسجيل منتج متاحة.
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**التبرير:**
+التنبؤ المحدد للاستطباب الأعلى (قابلية الإصابة بالفصال العظمي) ليس له أي تجارب سريرية أو أدلة أدبية داعمة — هذا تنبؤ من نموذج بحت (L5). مع فجوة بيانات حجب فيما يتعلق بتحذيرات وموانع استخدام TFDA/نشرة المنتج (DG001)، لا يمكن للمرشح حالياً اجتياز مراجعة الأمان الأولية، و IOVERSOL غير مسوق حالياً في المملكة العربية السعودية.
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات وموانع استخدام TFDA/نشرة المنتج (فجوة حجب DG001)
+- بيانات آلية العمل المؤكدة من DrugBank أو مصدر موثوق آخر (DG002)
+- توضيح ما إذا كانت أدلة التجارب/الأدبيات المتعلقة بالفصال العظمي (الترتيب 2) قابلة للعزو حقاً إلى IOVERSOL أو إلى مركب مشبع باليود متميز (Lipiodol/الزيت الإيثيودي)، قبل معاملتها كأدلة داعمة
+- تأكيد الاستطباب (الاستطبابات) الأصلي المعتمد من IOVERSOL للمقارنة الصحيحة قبل/بعد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

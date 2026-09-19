@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Filgrastim: From Neutropenia to Primary Release Disorder of Platelets
+# فيلغراستيم: من قلة العدلات إلى اضطراب الإفراز الأساسي للصفيحات
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Filgrastim is a recombinant human granulocyte colony-stimulating factor (G-CSF), conventionally used to stimulate neutrophil production and mobilize hematopoietic stem cells in patients undergoing chemotherapy or stem cell transplantation. The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this direction is currently supported by only **14 clinical trials (none directly testing this indication)** and **1 mechanistic review article**. The mechanistic link is explicitly characterized as indirect and non-specific in the underlying evidence.
+فيلغراستيم هو عامل منشط لاستعمار حبيبات الدم البيضاء البشري المأشوب (G-CSF)، يُستخدم بشكل تقليدي لتحفيز إنتاج الخلايا المحببة وتعبئة الخلايا الجذعية المكونة للدم لدى المرضى الذين يخضعون للعلاج الكيميائي أو زراعة الخلايا الجذعية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الإفراز الأساسي للصفيحات**، لكن هذا الاتجاه يدعمه حالياً فقط **14 تجربة سريرية (لا تختبر هذا الاستطباب مباشرة)** و**مقالة استعراضية آلية واحدة**. الرابط الآلي يُوصف بشكل صريح بأنه غير مباشر وغير محدد في الأدلة الأساسية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Neutropenia management / hematopoietic stem cell mobilization (G-CSF class); no formal Saudi Arabia license record exists |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.9976% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | إدارة قلة العدلات / تعبئة الخلايا الجذعية المكونة للدم (فئة G-CSF)؛ لا توجد سجلات ترخيص رسمية بالمملكة العربية السعودية |
+| الاستطباب المتنبأ به الجديد | اضطراب الإفراز الأساسي للصفيحات |
+| درجة التنبؤ بنموذج TxGNN | 99.9976% |
+| مستوى الدليل | L4 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for filgrastim is not available in this evidence pack (marked as a data gap). Based on known information, filgrastim is a recombinant G-CSF that mobilizes myeloid precursor cells — including the megakaryocyte lineage — from bone marrow into peripheral blood, and its efficacy in supporting neutrophil recovery after chemotherapy and in stem cell mobilization for transplantation is well established.
+حالياً، بيانات آلية العمل المفصلة لفيلغراستيم غير متاحة في حزمة الأدلة هذه (وضعت علامة على أنها فجوة بيانات). بناءً على المعلومات المعروفة، فيلغراستيم هو عامل G-CSF مأشوب يعبئ خلايا سلف الميلويد — بما في ذلك سلالة الخلايا الضخمة — من نخاع العظم إلى الدم المحيطي، وفعاليته في دعم تعافي الخلايا المحببة بعد العلاج الكيميائي وفي تعبئة الخلايا الجذعية لزراعة الأعضاء راسخة جيداً.
 
-Primary release disorder of platelets is a defect in platelet granule content release rather than a defect in platelet or megakaryocyte production. The repurposing rationale in this evidence pack states the connection plainly: G-CSF's mobilization of megakaryocytic precursors could theoretically influence platelet generation, but there is no evidence that it corrects the granule-release defect itself. This is an indirect, non-specific mechanistic link rather than a targeted one.
+اضطراب الإفراز الأساسي للصفيحات هو عيب في الإفراز من محتوى حبيبات الصفيحات بدلاً من أن يكون عيباً في إنتاج الصفيحات أو الخلايا الضخمة. تنص نسبة إعادة الاستخدام في حزمة الأدلة هذه على الاتصال بصراحة: تعبئة G-CSF لسلائف الخلايا الضخمة يمكن نظرياً أن تؤثر على توليد الصفيحات، لكن لا توجد أدلة على أنها تصحح عيب الإفراز من الحبيبات نفسه. هذا رابط آلي غير مباشر وغير محدد بدلاً من أن يكون موجهاً.
 
-Consistent with this, nearly all supporting clinical trials use filgrastim/G-CSF as a supportive agent for hematopoietic stem cell transplantation (HSCT) or chemotherapy-related cytopenia in hematologic malignancies — not as a treatment directed at platelet granule-release defects. No trial or publication in this evidence pack directly tests filgrastim in patients with this disorder.
+متسقاً مع هذا، تستخدم جميع التجارب السريرية الداعمة تقريباً فيلغراستيم/G-CSF كوكيل داعم لزراعة الخلايا الجذعية المكونة للدم (HSCT) أو قلة الخلايا المتعلقة بالعلاج الكيميائي في الأورام الدموية الخبيثة — وليس كعلاج موجه ضد اضطرابات الإفراز من حبيبات الصفيحات. لا تختبر أي تجربة أو منشور في حزمة الأدلة هذه فيلغراستيم لدى مرضى هذا الاضطراب مباشرة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Phase 2 | Terminated | 200 | Unrelated donor HSCT for hematologic malignancies; G-CSF used only for stem cell mobilization/transplant support (Grade C — low relevance to target disease) |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Phase 2 | Completed | 64 | CD34+ selected vs. unselected autologous SCT in MCL/DLBCL; G-CSF as mobilization agent, not disease-targeted therapy (Grade C) |
-| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | Phase 3 | Recruiting | 156 | AHSCT vs. best available therapy for treatment-resistant relapsing multiple sclerosis; G-CSF as transplant-support agent (Grade C) |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Platform trial of PTCy-based GVHD prophylaxis after mismatched unrelated donor PBSCT; relevance not yet graded |
-| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Phase 1/2 | Completed | 147 | Non-myeloablative allogeneic HSCT using busulfan/fludarabine/TBI for hematologic malignancies; relevance not yet graded |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Phase 1 | Withdrawn | 0 | Cryopreserved HLA-mismatched unrelated donor marrow transplant with PTCy; relevance not yet graded |
-| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | Phase 2 | Completed | 160 | Ganciclovir/valganciclovir for CMV reactivation prevention in acute lung injury/respiratory failure; relevance not yet graded |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Phase 2 | Completed | 60 | Allogeneic/syngeneic blood stem cell transplant in pediatric sarcomas; relevance not yet graded |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Phase 2 | Terminated | 49 | Dapansutrile (NLRP3 inhibitor) for moderate COVID-19 with early cytokine release syndrome; relevance not yet graded |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Phase 1/2 | Recruiting | 260 | Dose-finding of post-transplant cyclophosphamide with sirolimus/MMF for GVHD prophylaxis; relevance not yet graded |
+| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | المرحلة 2 | تم إيقافها | 200 | زراعة الخلايا الجذعية من متبرع غير ذي صلة للأورام الدموية الخبيثة؛ يُستخدم G-CSF فقط لتعبئة/دعم الزراعة (الدرجة C — ارتباط منخفض بالمرض المستهدف) |
+| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | المرحلة 2 | مكتملة | 64 | الخلايا الجذعية المختارة CD34+ مقابل غير المختارة في الزراعة الذاتية (MCL/DLBCL)؛ G-CSF كعامل تعبئة وليس كعلاج موجه للمرض (الدرجة C) |
+| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | المرحلة 3 | جاري التجنيد | 156 | الزراعة الخيفية مقابل أفضل علاج متاح لتصلب متعدد الأرومات العصيب المقاوم للعلاج؛ G-CSF كعامل دعم زراعة (الدرجة C) |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | المرحلة 2 | جاري التجنيد | 358 | تجربة منصة لنبوءة PTCy المستندة إلى الوقاية من GVHD بعد زراعة الدم المحيطي من متبرع غير مطابق؛ لم يتم تصنيف الارتباط بعد |
+| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | المرحلة 1/2 | مكتملة | 147 | زراعة خلايا جذعية نقي غير استئصالية باستخدام بوسولفان/فلودارابين/TBI للأورام الدموية الخبيثة؛ لم يتم تصنيف الارتباط بعد |
+| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | المرحلة 1 | تم سحبها | 0 | زراعة نخاع متبرع من غير الأقارب المتطابقين HLA مع تجميد بـ PTCy؛ لم يتم تصنيف الارتباط بعد |
+| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | المرحلة 2 | مكتملة | 160 | غانسيكلوفير/فالغانسيكلوفير لمنع تنشيط CMV في الإصابة الرئوية الحادة/الفشل التنفسي؛ لم يتم تصنيف الارتباط بعد |
+| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | المرحلة 2 | مكتملة | 60 | زراعة دم محيطي من أقارب متطابقين/متطابقين في الأورام الحبيبية الصغيرة للأطفال؛ لم يتم تصنيف الارتباط بعد |
+| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | المرحلة 2 | تم إيقافها | 49 | دابانسوتريل (مثبط NLRP3) لـ COVID-19 المعتدل مع متلازمة إطلاق السيتوكين المبكرة؛ لم يتم تصنيف الارتباط بعد |
+| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | المرحلة 1/2 | جاري التجنيد | 260 | تحديد الجرعة من السيكلوفوسفاميد بعد الزراعة مع سيروليموس/MMF للوقاية من GVHD؛ لم يتم تصنيف الارتباط بعد |
 
-Four additional trials in the evidence pack (NCT00076752, NCT00923364, NCT01503918, NCT00354172) were omitted from this table for length; none carry a relevance grade above "C" or "pending."
+تم حذف أربع تجارب إضافية في حزمة الأدلة (NCT00076752، NCT00923364، NCT01503918، NCT00354172) من هذا الجدول لأسباب تتعلق بالطول؛ لا تحمل أي منها درجة ارتباط أعلى من "C" أو "قيد الانتظار".
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Mechanistic Review | Frontiers in Immunology | G-CSF mobilization in healthy stem cell donors preferentially mobilizes lymphocyte subsets; a mechanistic study of donor mobilization biology, not of platelet release disorders |
+| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | استعراض آلي | Frontiers in Immunology | تعبئة G-CSF لدى المتبرعين الأصحاء بالخلايا الجذعية تعبئ بشكل تفضيلي مجموعات الخلايا اللمفاوية؛ دراسة آلية لبيولوجيا تعبئة المتبرع وليس لاضطرابات الإفراز من حبيبات الصفيحات |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Filgrastim is not currently marketed in Saudi Arabia — no license records exist in this evidence pack (0 authorizations).
+فيلغراستيم غير مسوق حالياً في المملكة العربية السعودية — لا توجد سجلات ترخيص في حزمة الأدلة هذه (0 ترخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug-interaction data are available in this evidence pack — DDI query returned no results, and TFDA package insert warnings/contraindications are flagged as data gaps.)
+يُرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة. (لا تتوفر بيانات عن التحذيرات الرئيسية أو موانع الاستعمال أو تفاعلات الأدوية في حزمة الأدلة هذه — استعلام DDI لم يعيد أي نتائج، وتحذيرات/موانع النشرة الطبية بـ TFDA موضحة كفجوات بيانات.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The mechanistic link between G-CSF and primary release disorder of platelets is indirect and non-specific — G-CSF mobilizes megakaryocytic precursors but has no demonstrated effect on the underlying granule-release defect. No clinical trial or publication in this evidence pack directly tests filgrastim for this indication, and the drug is not currently marketed in Saudi Arabia.
+**الأساس المنطقي:**
+الرابط الآلي بين G-CSF واضطراب الإفراز الأساسي للصفيحات غير مباشر وغير محدد — G-CSF يعبئ سلائف الخلايا الضخمة لكنه لا يوضح أي تأثير على عيب الإفراز الأساسي. لا تختبر أي تجربة سريرية أو منشور في حزمة الأدلة هذه فيلغراستيم لهذا الاستطباب، والدواء غير مسوق حالياً في المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data from DrugBank (currently a data gap)
-- TFDA/SFDA package insert warnings and contraindications (currently a blocking data gap for safety screening)
-- Drug interaction (DDI) data
-- Disease-specific preclinical or mechanistic studies directly testing G-CSF's effect on platelet granule release, rather than its role as an HSCT-supportive agent
-- Confirmation of original approved indication(s) and licensing status, since no local license record currently exists
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل المفصلة (MOA) من DrugBank (فجوة بيانات حالية)
+- نشرة TFDA/SFDA الطبية والتحذيرات وموانع الاستعمال (فجوة بيانات حاجز حالي لفحص السلامة)
+- بيانات تفاعلات الأدوية (DDI)
+- دراسات سابقة للعيادة أو آليات مرض محددة اختبار مباشر لتأثير G-CSF على الإفراز من حبيبات الصفيحات، بدلاً من دوره كعامل دعم HSCT
+- تأكيد الاستطباب المعتمد الأصلي (الاستطبابات) وحالة الترخيص، نظراً لعدم وجود سجل ترخيص محلي حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

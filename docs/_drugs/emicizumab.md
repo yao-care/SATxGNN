@@ -29,100 +29,97 @@ indication_count: 10
 
 </div>
 
-Using the Evidence Pack for EMICIZUMAB (DB13923), I selected **"acquired coagulation factor deficiency"** (rank 5, index 4) as the lead candidate to report on rather than rank 1. Reasoning: rank 1–4 and 6–10 are all `decision_stage: S0`, `evidence_level: L5`, `recommendation: Hold`, with the rationale text for several (e.g. Glanzmann thrombasthenia, Scott syndrome, TTP) explicitly stating the mechanism does **not** support repurposing or is even contraindicated. Only rank 5 reached `S3` / `L2` / "Proceed with Guardrails" with real clinical trial and literature backing (this maps mechanistically, per the evidence pack's own rationale text, to Acquired Hemophilia A). Reporting on rank 1 (pseudo-von Willebrand disease) would produce a report with zero supporting evidence and an explicit "no plausible mechanism" statement, which is not useful for a Go/Hold decision. This substitution is noted transparently in the report below rather than silently done.
+# إيميسيزوماب: من الهيموفيليا أ الخلقية إلى نقص عامل التخثر المكتسب (الهيموفيليا أ المكتسبة)
+
+## ملخص جملة واحدة
+
+> إيميسيزوماب هو جسم مضاد أحادي النسيلة ثنائي الخصوصية تم تطويره والموافقة عليه في الأصل للتحكم الوقائي بالنزيف في **الهيموفيليا أ الخلقية** (مع أو بدون مثبطات عامل VIII) — يتم استنتاج هذا السياق الأصلي للدلالة من الأدلة الأدبية في هذه الحزمة، حيث أن حقول `original_indications` و`taiwan_regulatory.licenses` فارغة كليهما (فجوة بيانات).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **نقص عامل التخثر المكتسب**، والتي تحدد الأدلة الأدبية على وجه التحديد أنها **الهيموفيليا أ المكتسبة (AHA)** — حالة ذاتية المناعة المتميزة حيث تحيد الأجسام المضادة الذاتية الوظيفة الطبيعية لعامل VIII الداخلي.
+> هذه هي حالياً الحالة الوحيدة من بين 10 مرشحين صنفهم TxGNN لهذا الدواء والتي تتمتع بأدلة مجدية: **1 تجربة سريرية من نوع السجل** و**20 منشور**، بما في ذلك عدة دراسات تدخل بمرحلة ثانية/ثالثة استشرافية، تدعم هذا الاتجاه. تبقى المرشحات الـ 9 الأخرى (بما في ذلك مرض فون ويلبراند الكاذب، وثرومباستينيا جلانزمان، والفرفرية الخثارية التخثرية) في مستوى التنبؤ الحصري للنموذج (L5) بدون أي دليل سريري، وتم وضع علامة على أحدها (TTP) كـ **تضارب أماني محتمل**، وليس كفرصة.
 
 ---
 
-# Emicizumab: From Congenital Hemophilia A to Acquired Coagulation Factor Deficiency (Acquired Hemophilia A)
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Emicizumab is a bispecific monoclonal antibody originally developed and approved for prophylactic bleeding control in **congenital Hemophilia A** (with or without Factor VIII inhibitors) — this original-indication context is inferred from the literature evidence in this pack, since the `original_indications` and `taiwan_regulatory.licenses` fields are both empty (data gap).
-> The TxGNN model predicts it may also be effective for **Acquired Coagulation Factor Deficiency**, which the supporting literature identifies specifically as **Acquired Hemophilia A (AHA)** — a distinct autoimmune condition where autoantibodies neutralize endogenous Factor VIII.
-> This is currently the only one of 10 TxGNN-ranked candidates for this drug with meaningful evidence: **1 registry-type clinical trial** and **20 publications**, including multiple prospective Phase 2/3 intervention studies, support this direction. The other 9 candidates (including pseudo-von Willebrand disease, Glanzmann thrombasthenia, and thrombotic thrombocytopenic purpura) remain at model-prediction-only level (L5) with no clinical evidence, and one (TTP) is flagged as a potential mechanistic **safety conflict**, not an opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Congenital Hemophilia A (inferred from literature context; not present in structured `original_indications`/`licenses` fields — data gap) |
-| Predicted New Indication | Acquired Coagulation Factor Deficiency (Acquired Hemophilia A) |
-| TxGNN Prediction Score | 99.90% (rank 2296 among model outputs) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | الهيموفيليا أ الخلقية (مستنتجة من السياق الأدبي؛ غير موجودة في حقول `original_indications`/`licenses` المنظمة — فجوة بيانات) |
+| الدلالة الجديدة المتنبأ بها | نقص عامل التخثر المكتسب (الهيموفيليا أ المكتسبة) |
+| درجة تنبؤ TxGNN | 99.90% (الرتبة 2296 بين مخرجات النموذج) |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير متاح (غير مسجل) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
-*Note: Of the 10 TxGNN-predicted indications for this drug, 9 are rated Hold/L5 (model prediction only, no clinical evidence). This report covers only the evidence-supported lead candidate above.*
-
----
-
-## Why is This Prediction Reasonable?
-
-Formal mechanism-of-action data (`original_moa`) is flagged as a data gap in this pack (DG002, severity High). However, the literature evidence collected for this candidate consistently describes emicizumab's mechanism: it is a **bispecific antibody that binds both activated Factor IX (FIXa) and Factor X (FX)**, bridging them to reconstitute the cofactor function normally performed by activated Factor VIII (FVIIIa) — without being an FVIII molecule itself.
-
-This mechanistic property is precisely why the repurposing signal is plausible. In **congenital Hemophilia A**, FVIII is genetically absent or deficient, and emicizumab restores hemostasis by replacing FVIII's cofactor *function* through an independent structural route. In **Acquired Hemophilia A**, the problem is different — FVIII is structurally present but neutralized by autoantibodies — yet the *functional* gap is the same: the FIXa-FX bridging step is missing. Because emicizumab does not depend on FVIII protein at all, it is structurally immune to anti-FVIII autoantibody inhibition, which multiple literature sources in this pack (e.g. PMID 37858328, 36696195, 39134043) confirm has been directly tested in prospective, multicenter, open-label trials with favorable outcomes.
-
-By contrast, the other 9 TxGNN candidates for this drug involve mechanistically unrelated or opposing pathways (e.g. platelet receptor defects such as Glanzmann thrombasthenia and Scott syndrome, platelet count disorders, or ADAMTS13-deficient thrombotic disease), and the evidence pack's own rationale text explicitly notes these lack mechanistic support or, in the case of TTP, may represent a **safety conflict** since promoting thrombin generation is the opposite of the desired therapeutic direction in a microthrombotic disease.
+*ملاحظة: من بين 10 دلالات متنبأ بها من TxGNN لهذا الدواء، يتم تقييم 9 منها بـ Hold/L5 (التنبؤ بالنموذج فقط، بدون أي دليل سريري). تغطي هذه التقرير فقط المرشح الرئيسي المدعوم بالأدلة أعلاه.*
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+يتم وضع علامة على بيانات آلية العمل الرسمية (`original_moa`) كفجوة بيانات في هذه الحزمة (DG002، الخطورة عالية). ومع ذلك، فإن الأدلة الأدبية المجمعة لهذا المرشح تصف باستمرار آلية عمل إيميسيزوماب: إنه **جسم مضاد ثنائي الخصوصية يرتبط بكل من عامل IX المفعل (FIXa) وعامل X (FX)**، مما يربطهما لإعادة تكوين وظيفة العامل المساعد التي يؤديها عادة عامل VIII المفعل (FVIIIa) — دون أن يكون جزيء FVIII نفسه.
+
+هذه الخاصية الآلية هي بالضبط السبب في أن إشارة إعادة الاستخدام معقولة. في **الهيموفيليا أ الخلقية**، يكون FVIII غائباً أو ناقصاً وراثياً، ويستعيد إيميسيزوماب الإرقاء عن طريق استبدال وظيفة عامل FVIII بطريقة هيكلية مستقلة. في **الهيموفيليا أ المكتسبة**، تكون المشكلة مختلفة — FVIII موجود بنيوياً لكن يتم تحييده بواسطة الأجسام المضادة الذاتية — ومع ذلك، فإن الفجوة *الوظيفية* هي نفسها: خطوة الربط بين FIXa-FX غائبة. لأن إيميسيزوماب لا يعتمد على بروتين FVIII على الإطلاق، فهو محصن بنيوياً من مثبطات الأجسام المضادة لـ anti-FVIII، والتي تؤكد عليها مصادر أدبية متعددة في هذه الحزمة (مثل PMID 37858328, 36696195, 39134043) أنها تم اختبارها مباشرة في تجارب استشرافية متعددة المراكز ذات نتائج إيجابية.
+
+على النقيض من ذلك، تتضمن المرشحات التسعة الأخرى من TxGNN لهذا الدواء مسارات آلية غير ذات صلة أو معاكسة (مثل عيوب مستقبلات الصفائح الدموية مثل ثرومباستينيا جلانزمان وتناذر سكوت، واضطرابات عدد الصفائح، أو مرض ADAMTS13-ناقص الخثاري الميكروي)، والنص الأساسي في حزمة الأدلة يلاحظ بصراحة أن هذه تفتقر إلى الدعم الآلي أو، في حالة TTP، قد تمثل **تضاراً في السلامة** لأن تعزيز توليد الثرومبين هو عكس الاتجاه العلاجي المرغوب في مرض خثاري دقيقي.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | N/A | Recruiting | 3000 | ATHN Transcends — a large natural history/registry cohort study covering non-neoplastic hematologic disorders (including acquired coagulation factor deficiencies). It is **not** an interventional emicizumab trial; relevance graded "C" — background epidemiological data only, not direct efficacy evidence. |
+| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | غير محدد | قيد البحث عن المشاركين | 3000 | ATHN Transcends — دراسة كوهورت للتاريخ الطبيعي/السجل الكبيرة تغطي الاضطرابات الدموية غير الورمية (بما في ذلك نقائص عامل التخثر المكتسبة). إنها **ليست** تجربة تدخل بـ إيميسيزوماب؛ يتم تقييم الملاءمة بـ "C" — بيانات وبائية أساسية فقط، وليست أدلة فعالية مباشرة. |
 
 ---
 
-## Literature Evidence
+## الأدلة الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Phase 2, open-label, single-arm | The Lancet Haematology | GTH-AHA-EMI study: emicizumab prophylaxis protected AHA patients from bleeding and allowed immunosuppression to be deferred during the first 12 weeks. |
-| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | Phase 3, prospective, multicenter, open-label | J Thromb Haemost | First prospective Phase 3 study of emicizumab specifically in acquired hemophilia A patients (previously untested prospectively in this population). |
-| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Phase 3, final analysis | Thrombosis and Haemostasis | AGEHA study final analysis: favorable benefit-risk profile for emicizumab prophylaxis in AHA, including data on immunosuppression-ineligible patients and long-term use. |
-| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Consensus recommendations | Hamostaseologie | GTH-AHA Working Group consensus: the GTH-AHA-EMI study demonstrated emicizumab prevents bleeds and allows postponement of immunosuppression in AHA. |
-| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Real-world retrospective cohort | Blood Advances | Multicenter US cohort (62 patients, 12 hemophilia treatment centers) treated off-label with emicizumab for AHA, evaluating real-world outcomes with/without immunosuppression. |
-| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Follow-up cohort | Blood Advances | 2-year follow-up of GTH-AHA-EMI patients showing sustained survival benefit and continued deferral of immunosuppressive therapy. |
-| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Narrative review | J Thromb Haemost | Overview of AHA epidemiology, pathophysiology, diagnosis, and management "in the emicizumab era." |
-| [38562115](https://pubmed.ncbi.nlm.nih.gov/38562115/) | 2024 | Review | Haemophilia | Reviews recent advances in AHA, acquired von Willebrand syndrome, and chronic-liver-disease-related hemostatic abnormalities; notes AHA patients can now benefit from emicizumab prophylaxis. |
-| [36795341](https://pubmed.ncbi.nlm.nih.gov/36795341/) | 2023 | Review/opinion | Blood Transfusion | Discusses pros and cons of emicizumab as a new approach to AHA bleeding prevention and treatment. |
-| [38066859](https://pubmed.ncbi.nlm.nih.gov/38066859/) | 2023 | Review (education program) | Hematology Am Soc Hematol Educ Program | Reviews immunotherapy of AHA, including the role of emerging hemostatic agents alongside standard immunosuppression. |
+| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | المرحلة الثانية، مفتوحة العلامات، ذات الذراع الواحدة | The Lancet Haematology | دراسة GTH-AHA-EMI: حمت النبوءة الذاتية من الإيميسيزوماب من النزيف وسمحت بتأجيل العلاج المثبط للمناعة خلال الأسابيع الـ 12 الأولى. |
+| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | المرحلة الثالثة، استشرافية، متعددة المراكز، مفتوحة العلامات | J Thromb Haemost | أول دراسة استشرافية من المرحلة الثالثة للإيميسيزوماب على وجه التحديد في مرضى الهيموفيليا أ المكتسبة (لم تُختبر مسبقاً استشرافياً في هذا السكان). |
+| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | المرحلة الثالثة، التحليل النهائي | Thrombosis and Haemostasis | التحليل النهائي لدراسة AGEHA: ملف مخاطر/فوائد إيجابي للنبوءة الذاتية من الإيميسيزوماب، بما في ذلك البيانات عن المرضى غير المؤهلين للعلاج المثبط للمناعة والاستخدام على المدى الطويل. |
+| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | توصيات إجماعية | Hamostaseologie | إجماع مجموعة عمل GTH-AHA: أثبتت دراسة GTH-AHA-EMI أن الإيميسيزوماب يمنع النزيف ويسمح بتأجيل العلاج المثبط للمناعة في AHA. |
+| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | كوهورت بأثر رجعي واقعي | Blood Advances | كوهورت متعددة المراكز بالولايات المتحدة (62 مريضاً، 12 مركز علاج الهيموفيليا) تم علاجهم بدون ترخيص بـ إيميسيزوماب من أجل AHA، يقيم النتائج الواقعية مع/بدون العلاج المثبط للمناعة. |
+| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | متابعة الكوهورت | Blood Advances | متابعة مدتها سنتان لمرضى GTH-AHA-EMI تُظهر استمرار فائدة البقاء على قيد الحياة واستمرار تأجيل العلاج المثبط للمناعة. |
+| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | مراجعة السرد | J Thromb Haemost | نظرة عامة على الأوبئة AHA، وعلم الأمراض، والتشخيص، والإدارة "في عصر الإيميسيزوماب." |
+| [38562115](https://pubmed.ncbi.nlm.nih.gov/38562115/) | 2024 | مراجعة | Haemophilia | يراجع التطورات الحديثة في AHA، متلازمة فون ويلبراند المكتسبة، والشذوذ الارقائي المرتبط بأمراض الكبد المزمنة؛ يلاحظ أن مرضى AHA يمكنهم الآن الاستفادة من النبوءة الذاتية من الإيميسيزوماب. |
+| [36795341](https://pubmed.ncbi.nlm.nih.gov/36795341/) | 2023 | مراجعة/رأي | Blood Transfusion | يناقش إيجابيات وسلبيات الإيميسيزوماب كنهج جديد لمنع ومعالجة النزيف في AHA. |
+| [38066859](https://pubmed.ncbi.nlm.nih.gov/38066859/) | 2023 | مراجعة (برنامج تعليمي) | Hematology Am Soc Hematol Educ Program | يراجع العلاج المناعي لـ AHA، بما في ذلك دور الوكلاء الإرقائيين الناشئة إلى جانب العلاج المثبط للمناعة المعياري. |
 
-*10 of 20 available publications shown, prioritized by study design (prospective/Phase trials and consensus statements first, followed by cohort studies and reviews).*
-
----
-
-## Saudi Arabia Market Information
-
-Emicizumab currently has **no marketing authorization in Saudi Arabia** (`market_status: Not marketed`, `total_licenses: 0`). No product license records are available to summarize in this pack.
+*تُظهر 10 من 20 منشور متاح، مرتبة حسب تصميم الدراسة (دراسات تدخل بمراحل استشرافية وبيانات بيانات إجماعية أولاً، متبوعة بدراسات الكوهورت والمراجعات).*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
-
-*Note: This pack flags a **Blocking** data gap (DG001) for TFDA/SFDA package insert warnings and contraindications — this data must be obtained before this candidate can proceed to formal safety pre-assessment (S1). No DDI records were found in the queried database (`query_status: not_found`).*
+لا يتمتع الإيميسيزوماب حالياً بأي ترخيص تسويق في المملكة العربية السعودية (`market_status: Not marketed`، `total_licenses: 0`). لا توجد سجلات ترخيص منتج متاحة للتلخيص في هذه الحزمة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملحوظة الحزمة للحصول على معلومات الأمان.
 
-**Rationale:**
-Among 10 TxGNN-predicted indications for emicizumab, "acquired coagulation factor deficiency" (mapping to Acquired Hemophilia A) is the only one supported by real evidence — multiple prospective Phase 2/3 studies (GTH-AHA-EMI, AGEHA) and a working-group consensus statement — combined with a mechanistically strong rationale (FVIII-autoantibody-independent hemostatic bridging). However, the drug is not currently registered in Saudi Arabia, and formal safety/prescribing data (TFDA/SFDA package insert) is a **Blocking** data gap, so this cannot yet proceed to a formal safety pre-assessment stage.
+*ملاحظة: تحدد هذه الحزمة فجوة بيانات **حجب** (DG001) لتحذيرات وموانع استخدام حزمة TFDA/SFDA — يجب الحصول على هذه البيانات قبل أن يتمكن هذا المرشح من المتابعة إلى مرحلة ما قبل تقييم السلامة الرسمي (S1). لم يتم العثور على سجلات تفاعلات الأدوية (query_status: not_found).*
 
-**To proceed, the following is needed:**
-- Obtain TFDA/SFDA-equivalent package insert with warnings and contraindications (DG001, Blocking — required before S1 safety pre-assessment)
-- Obtain formal DrugBank/manufacturer mechanism-of-action documentation (DG002, High priority)
-- Confirm registration pathway/status for Saudi Arabia market entry, since the drug is currently unmarketed (0 licenses)
-- Complete a formal DDI profile (current query returned no data)
-- Evaluate whether AHA use should be pursued as a formal labeled indication vs. continued off-label/consensus-guideline use, given real-world cohort data (PMID 39361769) already exists alongside prospective trial data
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+من بين 10 دلالات متنبأ بها من TxGNN للإيميسيزوماب، "نقص عامل التخثر المكتسب" (الذي ينقل إلى الهيموفيليا أ المكتسبة) هو الوحيد المدعوم بدليل حقيقي — عدة دراسات بمراحل ثانية/ثالثة استشرافية (GTH-AHA-EMI, AGEHA) وبيان إجماعي لمجموعة عمل — مقترناً بأساس منطقي آلي قوي (الربط الإرقائي المستقل عن مثبط الأجسام المضادة لـ FVIII). ومع ذلك، فإن الدواء غير مسجل حالياً في المملكة العربية السعودية، وبيانات السلامة/الوصفات الرسمية (حزمة TFDA/SFDA) هي فجوة بيانات **حجب**، لذا لا يمكن أن ينتقل هذا بعد إلى مرحلة ما قبل تقييم السلامة الرسمي.
+
+**للمتابعة، هناك حاجة إلى ما يلي:**
+- الحصول على حزمة TFDA/SFDA المعادلة مع التحذيرات وموانع الاستخدام (DG001، حجب — مطلوب قبل S1 ما قبل تقييم السلامة)
+- الحصول على وثيقة آلية العمل الرسمية من DrugBank/الشركة المصنعة (DG002، أولوية عالية)
+- تأكيد مسار/حالة التسجيل للدخول إلى سوق المملكة العربية السعودية، نظراً لأن الدواء غير مسجل حالياً (0 ترخيص)
+- استكمال ملف تفاعلات الأدوية الرسمي (الاستعلام الحالي لم يعد يعطي بيانات)
+- تقييم ما إذا كان استخدام AHA يجب أن يتم السعي وراءه كدلالة مسماة رسمية مقابل استمرار الاستخدام خارج الدلالة/الموجهة من الإجماع، بالنظر إلى أن بيانات الكوهورت الواقعية (PMID 39361769) موجودة بالفعل إلى جانب بيانات التجارب الاستشرافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

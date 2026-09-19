@@ -29,91 +29,92 @@ indication_count: 10
 
 </div>
 
-# Bromocriptine: From Parkinson's Disease / Hyperprolactinemia to Congenital Disorder of Glycosylation with Defective Fucosylation
+# بروموكريبتين: من داء الشلل الرعاش / فرط برولاكتين الدم إلى اضطراب خلقي في الكربوهيدرات مع نقص في الفيكوسيلاسيون
 
-## One-Sentence Summary
+## ملخص سطر واحد
 
-Bromocriptine is a dopamine D2/D3 receptor agonist with established clinical use in Parkinson's disease, hyperprolactinemia, and acromegaly. The TxGNN model predicts it may be effective for **congenital disorder of glycosylation with defective fucosylation** (TxGNN score: 99.83%), with **no clinical trials and no published literature** currently supporting this direction. Across all 10 ranked predictions, **schizophrenia (rank 9)** represents the only indication with meaningful evidence (L3; 3 clinical trials, 20 publications), though its recommendation remains Hold due to the paradoxical safety profile.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Saudi Arabia (0 authorizations; bromocriptine is broadly known for Parkinson's disease, hyperprolactinemia, and acromegaly) |
-| Predicted New Indication (Rank 1) | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+بروموكريبتين هو ناهض مستقبل الدوبامين D2/D3 مع استخدام سريري مُثبّت في داء الشلل الرعاش وفرط برولاكتين الدم والعملقة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب خلقي في الكربوهيدرات مع نقص في الفيكوسيلاسيون** (درجة TxGNN: 99.83%)، مع **عدم وجود تجارب سريرية وعدم وجود أدبيات منشورة** تدعم هذا الاتجاه حالياً. في جميع التنبؤات العشرة المصنفة، **الفصام (الترتيب 9)** يمثل المؤشر الوحيد ذي الأدلة الجوهرية (L3؛ 3 تجارب سريرية، 20 منشور)، على الرغم من أن توصيته تبقى المراقبة بسبب ملف الأمان المتناقض.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on known information, bromocriptine is a dopamine D2/D3 receptor agonist — this characterization is referenced consistently across all ten repurposing rationale assessments in this evidence pack. It has established efficacy in conditions driven by hyperdopaminergic or hypodopaminergic states, including Parkinson's disease, prolactin-secreting pituitary adenomas (prolactinomas), acromegaly, and antipsychotic-associated metabolic disturbances.
-
-The predicted indication — **congenital disorder of glycosylation with defective fucosylation (CDG-IIc, also known as Leukocyte Adhesion Deficiency type II / LAD II)** — is a rare inherited metabolic disease caused by biallelic mutations in the *SLC35C1* gene encoding the GDP-fucose transporter. The resulting defect impairs fucosylation of glycoproteins and glycolipids across cell types, leading to recurrent infections, intellectual disability, and growth retardation. The mechanistic assessment in this evidence pack is unambiguous: *"There is no known biological link between bromocriptine's D2 agonist mechanism and the fucosylation pathway. There is no clinical or basic science evidence supporting this indication."*
-
-This prediction most likely reflects graph-topology co-embedding patterns within the TxGNN disease knowledge graph rather than direct pharmacological plausibility. The rank 1 position (score 99.83%) does not imply biological confidence — it reflects the model's internal node similarity metric, which can be driven by indirect network connections. The complete absence of any supporting evidence reinforces a conservative Hold stance for this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|-------|---------|
+| المؤشر الأصلي | غير مسجل في المملكة العربية السعودية (0 تصريح؛ بروموكريبتين معروف بشكل عام للشلل الرعاش وفرط برولاكتين الدم والعملقة) |
+| المؤشر الجديد المتنبأ به (الترتيب 1) | اضطراب خلقي في الكربوهيدرات مع نقص في الفيكوسيلاسيون |
+| درجة التنبؤ TxGNN | 99.83% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المراقبة |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في هذه المجموعة البيانات. بناءً على المعلومات المعروفة، بروموكريبتين هو ناهض مستقبل الدوبامين D2/D3 — هذه الخاصية مرجعية بثبات عبر جميع تقييمات مبررات إعادة الاستخدام العشرة في هذه رزمة الأدلة. لديه فعالية مثبتة في الحالات المدفوعة بحالات فرط الدوبامين أو نقص الدوبامين، بما في ذلك داء الشلل الرعاش والأورام النخامية التي تفرز الحليب (البرولاكتينوما) والعملقة والاضطرابات الأيضية المرتبطة بمضادات الذهان.
 
----
+المؤشر المتنبأ به — **اضطراب خلقي في الكربوهيدرات مع نقص في الفيكوسيلاسيون (CDG-IIc، المعروف أيضاً بنقص الالتصاق اللمفاوي من النوع الثاني / LAD II)** — هو مرض استقلابي موروث نادر يسببه طفرات ثنائية الأليل في جين *SLC35C1* الذي يرمز لمنقل GDP-فيكوز. الخلل الناتج يضعف الفيكوسيلاسيون من البروتينات والدهون الكربوهيدراتية عبر أنواع الخلايا، مما يؤدي إلى الالتهابات المتكررة والإعاقة الذهنية وتأخر النمو. التقييم الآلي في هذه رزمة الأدلة غير لبس فيه: *"لا توجد صلة بيولوجية معروفة بين آلية D2 ناهض لبروموكريبتين ومسار الفيكوسيلاسيون. لا يوجد دليل سريري أو علم أساسي يدعم هذا المؤشر."*
 
-## Saudi Arabia Market Information
-
-Bromocriptine is currently **not marketed in Saudi Arabia**. No regulatory authorizations are on record. The regulatory query (2026-03-29) returned zero results.
+من المرجح أن هذا التنبؤ يعكس أنماط التضمين المشترك لطوبولوجيا الرسم البياني في شبكة معرفة TxGNN بالمرض وليس القابلية الدوائية المباشرة. الموضع الأول (درجة 99.83%) لا ينطوي على ثقة بيولوجية — فهو يعكس مقياس تشابه العقدة الداخلية للنموذج، والذي يمكن أن يكون مدفوعاً بالاتصالات غير المباشرة في الشبكة. الغياب الكامل لأي أدلة داعمة يعزز موقف محافظ من المراقبة لهذا المؤشر.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-> **Note:** Full safety data (key warnings, contraindications, drug-drug interactions) was not retrieved in this evidence pack. DrugBank query was successful (result count: 1) but MOA and safety fields remain unpopulated. The TFDA package insert query also returned a result; manual extraction of warning/contraindication text is required before any clinical use assessment can proceed.
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
-
-**Rationale:**
-This is a pure TxGNN model prediction (Evidence Level L5) for a rare inherited metabolic enzyme defect. No clinical trials, observational studies, or published literature support bromocriptine's use in congenital glycosylation disorders. The mechanistic bridge between dopaminergic D2/D3 receptor agonism and fucosylation biosynthesis has not been established in any preclinical or clinical context.
-
-**To proceed, the following is needed:**
-- Preclinical studies (cell-based assays or animal models of *SLC35C1*-deficient cells) to determine whether D2/D3 receptor agonism has any effect on GDP-fucose transport or fucosylation efficiency
-- MOA data retrieval from DrugBank API (DG002, currently High-severity data gap)
-- Full safety profile extraction from TFDA package insert (DG001, currently Blocking data gap): warnings, contraindications, and DDI profile
-- Expert consultation from a specialist in congenital disorders of glycosylation to assess biological plausibility
+لا توجد أدبيات مرتبطة متاحة حالياً.
 
 ---
 
-### Note on Broader Prediction Landscape
+## معلومات سوق المملكة العربية السعودية
 
-Among all 10 TxGNN-predicted indications for bromocriptine, **schizophrenia (rank 9, score 99.73%)** stands out as the only indication with non-trivial evidence:
+بروموكريبتين حالياً **غير مسوّق في المملكة العربية السعودية**. لا توجد تصاريح تنظيمية مسجلة. الاستعلام التنظيمي (2026-03-29) أرجع نتائج صفر.
 
-| Rank | Disease | Evidence Level | Trials | Publications | Decision |
-|------|---------|----------------|--------|--------------|---------|
-| 1 | Congenital disorder of glycosylation with defective fucosylation | L5 | 0 | 0 | Hold |
-| 3 | Retinal dystrophy with or without extraocular anomalies | L5 | 0 | 15 (mostly off-target) | Hold |
-| 6 | Hydranencephaly | L5 | 0 | 1 (mismatched) | Hold |
-| **9** | **Schizophrenia** | **L3** | **3** | **20** | **Hold** |
+---
 
-The schizophrenia evidence is mechanistically coherent (bromocriptine as a D2 agonist influences the dopamine hypothesis of schizophrenia) but carries a critical safety signal: PMID 8120934 documents *bromocriptine-induced schizophrenia* in a susceptible patient, and all three clinical trials target antipsychotic side effects (hyperprolactinemia, metabolic disturbances) rather than core psychiatric symptoms. A separate focused report on the bromocriptine–schizophrenia pair is recommended if further evaluation is desired.
+## اعتبارات الأمان
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات الأمان.
+
+> **ملاحظة:** بيانات الأمان الكاملة (التحذيرات الرئيسية، موانع الاستعمال، تفاعلات الأدوية مع الأدوية) لم تُسترجع في هذه رزمة الأدلة. كان استعلام DrugBank ناجحاً (عدد النتائج: 1) لكن حقول MOA والأمان تبقى غير مأهولة. كما أرجع استعلام نشرة TFDA نتيجة؛ الاستخراج اليدوي لنص التحذير/موانع الاستعمال مطلوب قبل أن يتمكن أي تقييم استخدام سريري من المتابعة.
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: المراقبة**
+
+**المنطق:**
+هذا تنبؤ نموذج TxGNN محض (مستوى الأدلة L5) لاضطراب أنزيم استقلابي موروث نادر. لا تدعم أي تجارب سريرية أو دراسات رصدية أو أدبيات منشورة استخدام بروموكريبتين في الاضطرابات الخلقية في الكربوهيدرات. لم يتم إنشاء الجسر الآلي بين ناهض مستقبل الدوبامين D2/D3 وتخليق الفيكوسيلاسيون في أي سياق ما قبل السريري أو سريري.
+
+**للمضي قدماً، يلزم ما يلي:**
+- دراسات ما قبل السريري (الفحوصات المعتمدة على الخلايا أو نماذج الحيوانات من الخلايا الناقصة *SLC35C1*) لتحديد ما إذا كان ناهض D2/D3 له أي تأثير على نقل GDP-فيكوز أو كفاءة الفيكوسيلاسيون
+- استرجاع بيانات MOA من DrugBank API (DG002، حالياً فجوة بيانات بشدة عالية)
+- الاستخراج الكامل لملف الأمان من نشرة TFDA (DG001، حالياً فجوة بيانات محظورة): تحذيرات وموانع استعمال وملف تفاعل الأدوية مع الأدوية
+- استشارة متخصصة من متخصص في اضطرابات الكربوهيدرات الخلقية لتقييم القابلية البيولوجية
+
+---
+
+### ملاحظة حول مشهد التنبؤ الأوسع
+
+من بين جميع المؤشرات العشرة المتنبأة بها بواسطة TxGNN لبروموكريبتين، **الفصام (الترتيب 9، درجة 99.73%)** يبرز كمؤشر وحيد مع أدلة غير تافهة:
+
+| الترتيب | المرض | مستوى الأدلة | التجارب | المنشورات | القرار |
+|--------|--------|-------------|---------|-----------|--------|
+| 1 | اضطراب خلقي في الكربوهيدرات مع نقص في الفيكوسيلاسيون | L5 | 0 | 0 | المراقبة |
+| 3 | ضمور شبكية العين مع أو بدون شذوذ خارج العين | L5 | 0 | 15 (معظمها خارج الهدف) | المراقبة |
+| 6 | استحالة الدماغ | L5 | 0 | 1 (غير متطابق) | المراقبة |
+| **9** | **الفصام** | **L3** | **3** | **20** | **المراقبة** |
+
+دليل الفصام متماسك آلياً (بروموكريبتين كناهض D2 يؤثر على فرضية الدوبامين للفصام) لكنه يحمل إشارة أمان حرجة: PMID 8120934 يوثق *الفصام الناجم عن بروموكريبتين* في مريض قابل للتأثر، وتستهدف جميع التجارب الثلاث الآثار الجانبية لمضادات الذهان (فرط برولاكتين الدم والاضطرابات الأيضية) وليس الأعراض النفسية الأساسية. يوصى بتقرير مركز منفصل حول ثنائي بروموكريبتين-الفصام إذا كان يرغب في مزيد من التقييم.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

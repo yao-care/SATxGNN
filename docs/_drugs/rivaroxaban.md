@@ -29,67 +29,68 @@ indication_count: 4
 
 </div>
 
-# Rivaroxaban: From Venous Thromboembolism/Atrial Fibrillation to Rheumatoid Arthritis
+# rivaroxaban: من الإقتصاء الوريدي/الرجفان الأذيني إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Rivaroxaban is a direct oral Factor Xa inhibitor whose established clinical use context — evident throughout this evidence pack — is treatment/prevention of venous thromboembolism (DVT/PE) and stroke prevention in atrial fibrillation.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-with **0 clinical trials** and **4 publications** currently identified, none of which directly test rivaroxaban as an RA therapy.
+rivaroxaban هو مثبط مباشر لعامل Xa الفموي، والسياق السريري المعروف - الواضح في جميع أنحاء حزمة الأدلة هذه - هو العلاج/الوقاية من الإقتصاء الوريدي (DVT/PE) والوقاية من السكتة الدماغية في الرجفان الأذيني غير الصمامي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب المفاصل الروماتويدي**،
+مع **0 تجارب سريرية** و**4 منشورات** يتم تحديدها حالياً، ولا يختبر أي منها بشكل مباشر rivaroxaban كعلاج RA.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Venous thromboembolism (DVT/PE) treatment/prevention and stroke prevention in non-valvular atrial fibrillation *(inferred from trial/literature context in this evidence pack; no formal regulatory indication text available — see Data Gaps below)* |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|-------|--------|
+| المؤشر الأصلي | العلاج/الوقاية من الإقتصاء الوريدي (تخثر الأوردة العميقة/الانصمام الرئوي) والوقاية من السكتة الدماغية في الرجفان الأذيني غير الصمامي *(مستنتج من سياق التجربة/الأدب في حزمة الأدلة هذه؛ لا يوجد نص المؤشر المنظم الرسمي متاح - انظر الفجوات في البيانات أدناه)* |
+| المؤشر الجديد المتوقع | التهاب المفاصل الروماتويدي |
+| درجة تنبؤ TxGNN | 99.57% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap requiring a DrugBank API query). Based on known information, rivaroxaban is a direct Factor Xa inhibitor used for thromboembolic disease; its efficacy in venous thromboembolism and atrial fibrillation-related stroke prevention is well established, but no MOA data specific to inflammatory or autoimmune pathways is present here.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة هذه (تم تحديدها كفجوة بيانات عالية الشدة تتطلب استعلام DrugBank API). بناءً على المعلومات المعروفة، rivaroxaban هو مثبط عامل Xa المباشر المستخدم لأمراض الجلطات؛ فعاليته في الإقتصاء الوريدي والوقاية من السكتة الدماغية المرتبطة بالرجفان الأذيني راسخة جيداً، لكن لا توجد بيانات MOA محددة لممرات الالتهاب أو المناعة الذاتية هنا.
 
-The proposed rationale linking rivaroxaban to rheumatoid arthritis rests on a chronic-inflammation-hypercoagulability hypothesis: RA patients have elevated VTE risk due to persistent inflammation, and thrombin generation is known to interact bidirectionally with inflammatory pathways ("thrombin-inflammation crosstalk"). This provides a plausible biological rationale for why TxGNN may have linked the two entities.
+تستند الفرضية المقترحة التي تربط rivaroxaban بالتهاب المفاصل الروماتويدي على فرضية فرط التخثر المرتبط بالالتهاب المزمن: مرضى RA لديهم مخاطر VTE مرتفعة بسبب الالتهاب المستمر، وتوليد الثرومبين معروف أنه يتفاعل بشكل ثنائي الاتجاه مع مسارات الالتهاب ("تفاعل الثرومبين-الالتهاب"). وهذا يوفر أساساً بيولوجياً معقولاً لماذا قد يكون TxGNN قد ربط بين الكيانين.
 
-However, none of the four literature items retrieved actually study rivaroxaban as a treatment for RA itself. They instead cover VTE diagnosis/management, thrombin generation assays in autoimmune disease more broadly, anticoagulant adherence in atrial fibrillation, and a case report where RA appears only as a comorbidity in a patient on anticoagulation for an unrelated embolic event. The association therefore currently reflects "RA patients who happen to require anticoagulation" rather than evidence that rivaroxaban treats RA.
+ومع ذلك، لا تدرس أي من البنود الأدبية الأربعة المسترجعة بالفعل rivaroxaban كعلاج لـ RA نفسها. بدلاً من ذلك، فإنها تغطي تشخيص/إدارة VTE، واختبارات توليد الثرومبين في المرض الذاتي المناعي بشكل عام، والامتثال للمضادات المخثرة في الرجفان الأذيني، وحالة إكلينيكية حيث تظهر RA فقط كمرض مصاحب في مريضة على مضادات التخثر لحدث صمة غير متعلق. وبالتالي، فإن الارتباط يعكس حالياً "مرضى RA الذين يحتاجون بالصدفة إلى مضادات تخثر" بدلاً من الأدلة على أن rivaroxaban يعالج RA.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PloS one | Compares medication adherence to rivaroxaban vs. apixaban in non-valvular atrial fibrillation; an adherence study, not related to RA. |
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Review of diagnosis and treatment of lower-extremity DVT/PE; general VTE epidemiology, no RA content. |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de médecine interne | Discusses thrombin generation assay as a tool to assess hypercoagulability in autoimmune diseases (e.g., antiphospholipid syndrome); does not evaluate rivaroxaban efficacy in RA. |
-| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Case Report | Cureus | Case of perioperative thromboembolic cerebral infarction in an 88-year-old woman with atrial fibrillation and RA on oral steroids; illustrates comorbidity, not treatment evidence. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | دراسة متعددة المراحل | PloS one | يقارن الامتثال للدواء لـ rivaroxaban مقابل apixaban في الرجفان الأذيني غير الصمامي؛ دراسة عن الامتثال، غير متعلقة بـ RA. |
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | مراجعة | JAMA | مراجعة لتشخيص وعلاج DVT/PE في الطرف السفلي؛ إدارة عامة للإقتصاء الوريدي، بدون محتوى RA. |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | مراجعة | La Revue de médecine interne | يناقش اختبار توليد الثرومبين كأداة لتقييم فرط التخثر في أمراض المناعة الذاتية (مثل متلازمة الأجسام المضادة للفسفوليبيد)؛ لا يقيم فعالية rivaroxaban في RA. |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | حالة إكلينيكية | Cureus | حالة احتشاء دماغي صمي حول العملية الجراحية في امرأة تبلغ من العمر 88 سنة مصابة برجفان أذيني و RA على الستيرويدات القشرية الفموية؛ توضح المرض المصاحب، وليس أدلة العلاج. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Rivaroxaban is not currently marketed in this jurisdiction — no authorization records are available (0 licenses on file).
+rivaroxaban غير مسوق حالياً في هذه الولاية القضائية - لا تتوفر سجلات التصاريح (0 تراخيص في الملف).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The TxGNN score is high, but no clinical trials and no literature directly support rivaroxaban as a treatment for rheumatoid arthritis — all identified evidence describes RA patients as an anticoagulation *population*, not RA as a treatment *target*. The mechanistic link (thrombin-inflammation crosstalk) remains a hypothesis without supporting preclinical or clinical data specific to this drug-indication pair. Additionally, local safety documentation is missing, which blocks any preliminary safety assessment.
+**التبرير:**
+درجة TxGNN مرتفعة، لكن لا توجد تجارب سريرية ولا أدب يدعم بشكل مباشر rivaroxaban كعلاج لالتهاب المفاصل الروماتويدي - جميع الأدلة المحددة تصف مرضى RA كمجموعة "مضادات تخثر"، وليس RA كـ "هدف" علاجي. الربط الآلي (تفاعل الثرومبين-الالتهاب) يبقى فرضية بدون بيانات سابقة على الإكلينيكية أو سريرية محددة لهذا الدواء-المؤشر. بالإضافة إلى ذلك، وثائق السلامة المحلية مفقودة، مما يحول دون أي تقييم أمان أولي.
 
-**To proceed, the following is needed:**
-- MOA data from DrugBank (High-severity data gap, DG002)
-- SFDA/local package insert warnings and contraindications (Blocking data gap, DG001) — required before any S1 safety screening
-- Resolution of the "not_found" DDI query status
-- Dedicated preclinical or mechanistic studies testing rivaroxaban's effect on RA disease activity, rather than incidental anticoagulation-in-RA-patients data
+**للمتابعة، يلزم ما يلي:**
+- بيانات MOA من DrugBank (فجوة بيانات عالية الشدة، DG002)
+- تحذيرات SFDA/الحزمة المحلية وموانع الاستعمال (فجوة بيانات حجزية، DG001) - مطلوب قبل أي فحص أمان S1
+- حل حالة استعلام DDI "not_found"
+- دراسات سابقة على الإكلينيكية أو آلية مخصصة تختبر تأثير rivaroxaban على نشاط مرض RA، بدلاً من بيانات مضادات التخثر الحادثة في RA
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

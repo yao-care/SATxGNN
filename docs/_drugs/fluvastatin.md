@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Fluvastatin: From Hypercholesterolemia to Hyperlipoproteinemia
+# فلوفاستاتين: من ارتفاع الكوليسترول إلى فرط بروتينات الدهن
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Fluvastatin is an HMG-CoA reductase inhibitor (statin) whose established pharmacological effect is lowering LDL and total cholesterol in hypercholesterolemia/dyslipidemia. The TxGNN model's top prediction is that it is effective for **Hyperlipoproteinemia** — essentially an extension of its already-known lipid-lowering effect rather than a novel mechanism — supported by **5 clinical trials** and **20 publications**, though the drug itself is currently **not marketed in Saudi Arabia**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypercholesterolemia / dyslipidemia (statin class; no Saudi Arabia license text available — drug not registered locally) |
-| Predicted New Indication | Hyperlipoproteinemia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+الفلوفاستاتين هو مثبط HMG-CoA reductase (من فئة التاتينات) الذي يتمتع بتأثير دوائي مثبت وهو خفض LDL والكوليسترول الكلي في حالات ارتفاع الكوليسترول / اختلال الدهون. الإشارة الأفضل من نموذج TxGNN هي أنه فعال لـ **فرط بروتينات الدهن** — وهو بشكل أساسي امتداد لتأثيره المعروف بالفعل في خفض الدهون وليس آلية جديدة — مدعوم بـ **5 تجارب سريرية** و **20 منشورة**، على الرغم من أن الدواء نفسه **غير مسجل حالياً في المملكة العربية السعودية**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data (MOA) is not available from DrugBank in this evidence pack (data gap DG002). Based on known pharmacology, fluvastatin belongs to the HMG-CoA reductase inhibitor (statin) class: it blocks hepatic cholesterol synthesis and upregulates LDL receptor expression, lowering LDL-C and total cholesterol.
-
-Hyperlipoproteinemia is a broader clinical descriptor of elevated lipoprotein/cholesterol levels that overlaps substantially with fluvastatin's already-established indication. The repurposing rationale in the evidence pack explicitly notes this is "not a re-purposing inference but an extension of an already-approved pharmacological effect" — the mechanism (HMG-CoA reductase inhibition → reduced LDL/total cholesterol) directly and causally addresses the target condition, rather than an indirect or speculative link.
-
-This makes the prediction highly plausible mechanistically, but the practical question for Saudi Arabia is regulatory (the drug is not currently marketed there) rather than scientific — the evidence gap is one of local registration, not efficacy.
+| العنصر | المحتوى |
+|------|--------|
+| الإشارة الأصلية | ارتفاع الكوليسترول / اختلال الدهون (فئة التاتينات؛ لا توجد نصوص ترخيص سعودية متاحة — الدواء غير مسجل محلياً) |
+| الإشارة الجديدة المتنبأ بها | فرط بروتينات الدهن |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الدليل | L1 |
+| حالة السوق السعودي | ✗ غير مسجل |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل (MOA) التفصيلية غير متاحة من DrugBank في حزمة الأدلة هذه (فجوة البيانات DG002). بناءً على الصيدلة المعروفة، ينتمي الفلوفاستاتين إلى فئة مثبطات HMG-CoA reductase (التاتينات): يقوم بحجب تخليق الكوليسترول الكبدي ويزيد تعبير مستقبل LDL، مما يخفض LDL-C والكوليسترول الكلي.
+
+فرط بروتينات الدهن هو واصف سريري أوسع لمستويات الدهون البروتينية/الكوليسترول المرتفعة الذي يتداخل بشكل كبير مع الإشارة المثبتة بالفعل للفلوفاستاتين. تشير العقلانية المعاد الاستخدام في حزمة الأدلة بشكل صريح إلى أن هذا "ليس استدلالاً معاداً للاستخدام بل امتداداً لتأثير دوائي معتمد بالفعل" — الآلية (مثبط HMG-CoA reductase → تقليل LDL/الكوليسترول الكلي) تعالج الحالة المستهدفة بشكل مباشر وسببي، بدلاً من رابط غير مباشر أو تأملي.
+
+هذا يجعل التنبؤ معقولاً للغاية من الناحية الآلية، لكن السؤال العملي للمملكة العربية السعودية هو تنظيمي (الدواء غير مسجل حالياً هناك) وليس علمياً — فجوة الأدلة هي واحدة من التسجيل المحلي وليس الفعالية.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00726362](https://clinicaltrials.gov/study/NCT00726362) | N/A | Completed | 3270 | Large real-world survey comparing commercially available statins (including fluvastatin) for treating hyperlipidemia under local clinical practice; directly relevant, largest cohort (Grade A). |
-| [NCT00532311](https://clinicaltrials.gov/study/NCT00532311) | Phase 3 | Terminated | 411 | Lapaquistat acetate (a different squalene synthase inhibitor, not fluvastatin) added to statins for hypercholesterolemia; terminated for hepatotoxicity — indication overlap only (Grade C). |
-| [NCT04608474](https://clinicaltrials.gov/study/NCT04608474) | Phase 4 | Completed | 81 | Evolocumab (PCSK9 inhibitor) pilot in renal transplant recipients with hyperlipidemia; not a fluvastatin trial (Grade C). |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab in pediatric/adolescent homozygous familial hypercholesterolemia; not a fluvastatin trial (Grade C). |
-| [NCT01634906](https://clinicaltrials.gov/study/NCT01634906) | N/A | Completed | 55 | Effect of statin withdrawal on erythrocyte-bound apolipoprotein B; may include fluvastatin-treated patients, indirect mechanistic support (Grade B). |
+| [NCT00726362](https://clinicaltrials.gov/study/NCT00726362) | غير محدد | مكتملة | 3270 | مسح شامل في العالم الحقيقي يقارن التاتينات المتوفرة تجارياً (بما فيها الفلوفاستاتين) لعلاج فرط الدهنيات بموجب الممارسة السريرية المحلية؛ ذات صلة مباشرة، أكبر مجموعة (الدرجة أ). |
+| [NCT00532311](https://clinicaltrials.gov/study/NCT00532311) | المرحلة 3 | مُوقفة | 411 | أسيتات لابي كويسيستات (مثبط اسكولين سينثيز مختلف، وليس الفلوفاستاتين) مضافة إلى التاتينات لارتفاع الكوليسترول؛ توقفت بسبب السمية الكبدية — تداخل الإشارة فقط (الدرجة ج). |
+| [NCT04608474](https://clinicaltrials.gov/study/NCT04608474) | المرحلة 4 | مكتملة | 81 | إيفولوكومب (مثبط PCSK9) تجريبي لدى متلقي زراعة الكلى مع فرط الدهنيات؛ ليست تجربة فلوفاستاتين (الدرجة ج). |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | المرحلة 3 | مكتملة | 18 | أليروكومب في فرط كوليسترول الدم الأسري المتماثل لدى الأطفال والمراهقين؛ ليست تجربة فلوفاستاتين (الدرجة ج). |
+| [NCT01634906](https://clinicaltrials.gov/study/NCT01634906) | غير محدد | مكتملة | 55 | تأثير إيقاف التاتينات على apolipoprotein B المرتبط بخلايا الدم الحمراء؛ قد يشمل المرضى الذين عولجوا بالفلوفاستاتين، دعم آلية غير مباشر (الدرجة ب). |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | RCT | Terapevticheskii arkhiv | Compared hypolipidemic effects of simvastatin vs. fluvastatin in primary hyperlipoproteinemia, including lecithin-cholesterol acyltransferase activity and apoE changes. |
-| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | RCT | Atherosclerosis | FACT study: fluvastatin + bezafibrate combination was effective and safe in patients with mixed hyperlipidaemia and coronary artery disease (n=333). |
-| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | RCT | Clinical therapeutics | Extended-release fluvastatin 80 mg once-daily compared to immediate-release formulation in primary hypercholesterolemia. |
-| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | RCT | Clinical therapeutics | 12-month RCT: fluvastatin + fenofibrate vs. fluvastatin monotherapy in combined hyperlipidemia with type 2 diabetes and coronary heart disease. |
-| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | RCT | American Journal of Cardiology | Fluvastatin's effect on lipid profile and apolipoproteins in 31 Chinese patients with hypercholesterolemia. |
-| [17062478](https://pubmed.ncbi.nlm.nih.gov/17062478/) | 2006 | RCT | Acta Paediatrica | Efficacy and safety of fluvastatin in children/adolescents with heterozygous familial hypercholesterolaemia. |
-| [8157036](https://pubmed.ncbi.nlm.nih.gov/8157036/) | 1993 | RCT | European Journal of Clinical Pharmacology | Double-blind trial of high-dose fluvastatin (20 mg vs. 40 mg bid) in 52 patients with familial hypercholesterolaemia. |
-| [9271817](https://pubmed.ncbi.nlm.nih.gov/9271817/) | 1997 | RCT | Thrombosis Research | Open-label study of fluvastatin's effect on tissue factor pathway inhibitor in type IIa/IIb hyperlipidemia and post-MI patients. |
-| [11347136](https://pubmed.ncbi.nlm.nih.gov/11347136/) | 2001 | Review | Nihon Rinsho (Japanese J. Clinical Medicine) | General review of fluvastatin (abstract not available). |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clinical Therapeutics | Review of rosuvastatin in hyperlipidemia management, referencing the broader statin class context. |
+| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | تجربة عشوائية منضبطة | Terapevticheskii arkhiv | قارنت التأثيرات المثبطة للدهون من سيمفاستاتين مقابل الفلوفاستاتين في فرط بروتينات الدهن الأولي، بما فيها نشاط ليسيثين-كوليسترول أسيل ترانسفيراز وتغييرات apoE. |
+| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | تجربة عشوائية منضبطة | Atherosclerosis | دراسة FACT: كان مزيج الفلوفاستاتين + بيزافيبرات فعالاً وآمناً لدى المرضى الذين يعانون من فرط الدهنيات المختلط وأمراض القلب التاجية (n=333). |
+| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | تجربة عشوائية منضبطة | Clinical therapeutics | الفلوفاستاتين ذو الإفراج الممتد 80 ملغ مرة واحدة يومياً مقابل الصيغة ذات الإفراج الفوري في ارتفاع الكوليسترول الأولي. |
+| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | تجربة عشوائية منضبطة | Clinical therapeutics | تجربة عشوائية منضبطة لمدة 12 شهراً: الفلوفاستاتين + الفينوفيبرات مقابل العلاج بالفلوفاستاتين وحده في فرط الدهنيات المختلط مع داء السكري من النوع 2 وأمراض القلب التاجية. |
+| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | تجربة عشوائية منضبطة | American Journal of Cardiology | تأثير الفلوفاستاتين على ملف الدهون وأبروتينات الدهن لدى 31 مريضاً صينياً يعانون من ارتفاع الكوليسترول. |
+| [17062478](https://pubmed.ncbi.nlm.nih.gov/17062478/) | 2006 | تجربة عشوائية منضبطة | Acta Paediatrica | فعالية وسلامة الفلوفاستاتين لدى الأطفال والمراهقين الذين يعانون من فرط كوليسترول الدم الأسري غير المتجانس. |
+| [8157036](https://pubmed.ncbi.nlm.nih.gov/8157036/) | 1993 | تجربة عشوائية منضبطة | European Journal of Clinical Pharmacology | تجربة عمياء مزدوجة بجرعة عالية من الفلوفاستاتين (20 ملغ مقابل 40 ملغ مرتين يومياً) في 52 مريضاً يعانون من فرط كوليسترول الدم الأسري. |
+| [9271817](https://pubmed.ncbi.nlm.nih.gov/9271817/) | 1997 | تجربة عشوائية منضبطة | Thrombosis Research | دراسة مفتوحة لتأثير الفلوفاستاتين على مثبط مسار عامل الأنسجة لدى مرضى فرط الدهنيات من النوع IIa/IIb وبعد احتشاء عضلة القلب. |
+| [11347136](https://pubmed.ncbi.nlm.nih.gov/11347136/) | 2001 | مراجعة | Nihon Rinsho (المجلة اليابانية للطب السريري) | مراجعة عامة للفلوفاستاتين (الملخص غير متاح). |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | مراجعة | Clinical Therapeutics | مراجعة الروسوفاستاتين في إدارة فرط الدهنيات، مع الإشارة إلى سياق فئة التاتينات الأوسع. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Fluvastatin currently has **no marketing authorization in Saudi Arabia** (0 licenses on record) — it is not marketed in this market per the evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+الفلوفاستاتين حالياً **لا يحتوي على ترخيص تسويق في المملكة العربية السعودية** (0 رخص مسجلة) — إنه غير مسجل في هذا السوق وفقاً لحزمة الأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى الملخص الموجز للاطلاع على معلومات السلامة.
 
-**Rationale:**
-The evidence level is L1, with 7 tier-1 RCTs and a large real-world statin comparison cohort (N=3,270) directly involving fluvastatin, and the mechanistic link is direct rather than inferential (fluvastatin's approved lipid-lowering effect applies to hyperlipoproteinemia by definition). However, the drug is not currently marketed in Saudi Arabia, and key safety/regulatory data (TFDA-equivalent package insert warnings, MOA detail) are flagged as data gaps in this pack.
+---
 
-**To proceed, the following is needed:**
-- Local package insert / regulatory label data (warnings, contraindications, DDI) — currently blocking (DG001)
-- Confirmed DrugBank mechanism of action detail (DG002)
-- Assessment of the regulatory pathway for market authorization in Saudi Arabia, since the drug is not currently registered there
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الضمانات**
+
+**العقلانية:**
+مستوى الدليل هو L1، مع 7 تجارب عشوائية منضبطة من الدرجة الأولى ومجموعة واقعية كبيرة من مقارنة التاتينات (N=3,270) تتضمن الفلوفاستاتين بشكل مباشر، والرابط الآلي مباشر وليس استدلالياً (تطبيق التأثير المعتمد الفعال للفلوفاستاتين بخفض الدهون على فرط بروتينات الدهن بالتعريف). ومع ذلك، الدواء غير مسجل حالياً في المملكة العربية السعودية، وتم تحديد البيانات الرئيسية للسلامة/التنظيمية (نص الملخص الموجز المكافئ TFDA، تفاصيل MOA) كفجوات بيانات في هذه الحزمة.
+
+**للمضي قدماً، يلزم ما يلي:**
+- بيانات نص الملخص الموجز المحلي / بيانات التسمية التنظيمية (تحذيرات، موانع الاستعمال، التفاعلات الدوائية) — حالياً محظورة (DG001)
+- تأكيد DrugBank آلية العمل التفصيلية (DG002)
+- تقييم المسار التنظيمي لتسجيل السوق في المملكة العربية السعودية، نظراً لأن الدواء غير مسجل حالياً هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

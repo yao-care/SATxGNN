@@ -29,119 +29,120 @@ indication_count: 10
 
 </div>
 
-# Vinblastine: From Cytotoxic Chemotherapy (Vinca Alkaloid) to Rhabdomyosarcoma
+# Vinblastine: من العلاج الكيماوي السام للخلايا (قلويد الفينكا) إلى الورم العضلي المخطط
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Vinblastine is a classic vinca-alkaloid cytotoxic chemotherapy agent; this evidence pack does not contain its documented original indication or formal MOA text.
-> The TxGNN model predicts it may be effective for **Rhabdomyosarcoma**,
-> with **no dedicated clinical trials** but **15 supporting publications** — mostly same-class (vinorelbine) and case-report level evidence — currently available.
+> Vinblastine هو عامل علاج كيماوي تقليدي سام للخلايا من فئة قلويد الفينكا؛ لا تحتوي هذه مجموعة الأدلة على دلالتها الأصلية الموثقة أو نص آلية العمل الرسمي.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الورم العضلي المخطط**،
+> مع **عدم وجود تجارب سريرية مخصصة** لكن **15 منشورة داعمة** — في الغالب من نفس الفئة (vinorelbine) وأدلة على مستوى تقارير الحالات — متاحة حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not specified in this evidence pack (no `taiwan_regulatory.licenses` entries); vinblastine is generally documented as a cytotoxic vinca-alkaloid antineoplastic agent |
-| Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.86% (rank #2967) |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير محددة في هذه مجموعة الأدلة (لا توجد مدخلات في `taiwan_regulatory.licenses`)؛ يتم التعامل مع Vinblastine عموماً كعامل مضاد للأورام سام للخلايا من فئة قلويد الفينكا |
+| الدلالة المتنبأ بها الجديدة | الورم العضلي المخطط |
+| درجة تنبؤ TxGNN | 99.86% (الترتيب #2967) |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on the literature retrieved in this evidence pack, vinblastine is a **vinca alkaloid microtubule/tubulin polymerization inhibitor** that arrests cells in mitosis (PMID 3329524, 6744266) — the same mechanistic class as vincristine and vinorelbine.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (`original_moa: [Data Gap]`). بناءً على الأدبيات المسترجعة في هذه مجموعة الأدلة، Vinblastine هو **مثبط بوليمرة الأنابيب الدقيقة/التوبيولين من قلويد الفينكا** الذي يوقف الخلايا في الانقسام (PMID 3329524, 6744266) — نفس الفئة الميكانيكية مثل vincristine و vinorelbine.
 
-Rhabdomyosarcoma is a highly proliferative sarcoma of skeletal-muscle origin. The related vinca alkaloid **vincristine** is a backbone component of the current standard VAC/VAI chemotherapy regimens, and the closely related agent **vinorelbine** has demonstrated Phase 2 activity in relapsed/refractory pediatric rhabdomyosarcoma (PMID 22633624, 15378498, 12115359). Vinblastine itself appears as a combination-chemotherapy component in case reports of refractory prostatic rhabdomyosarcoma (PMID 2451411).
+الورم العضلي المخطط هو ساركوما عالية الانتشار تنشأ من الأنسجة العضلية الهيكلية. عامل vincristine ذو الصلة (قلويد فينكا) هو مكون أساسي في أنظمة العلاج الكيماوي الحالية VAC/VAI، و vinorelbine ذا الصلة القريبة أظهر نشاطاً في المرحلة 2 في الورم العضلي المخطط المتكرر/المقاوم (PMID 22633624, 15378498, 12115359). يظهر Vinblastine نفسه كمكون للعلاج الكيماوي المركب في تقارير الحالات للورم العضلي المخطط البروستاتي المقاوم (PMID 2451411).
 
-Mechanistically, this supports plausibility, but there is **no dedicated controlled trial of vinblastine itself** in rhabdomyosarcoma — the supporting evidence is largely indirect (same-class drug) or case-report level.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for rhabdomyosarcoma specifically (`clinical_trials: []`, `ictrp_trials: []`).
+من الناحية الميكانيكية، هذا يدعم المعقولية، لكن لا توجد **تجربة عشوائية محكومة مخصصة من Vinblastine نفسه** في الورم العضلي المخطط — الأدلة الداعمة هي في الغالب غير مباشرة (عامل من نفس الفئة) أو على مستوى تقارير الحالات.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22633624](https://pubmed.ncbi.nlm.nih.gov/22633624/) | 2012 | Phase 2 trial (vinorelbine, same-class evidence) | European Journal of Cancer | Vinorelbine + low-dose cyclophosphamide in relapsed/refractory pediatric solid tumors; good tolerance and efficacy signal specifically noted in rhabdomyosarcoma |
-| [15378498](https://pubmed.ncbi.nlm.nih.gov/15378498/) | 2004 | Cohort/Pilot (vinorelbine, same-class evidence) | Cancer | Dose-finding pilot of vinorelbine + low-dose oral cyclophosphamide in pediatric sarcomas, informing the upcoming European Rhabdomyosarcoma Protocol |
-| [12115359](https://pubmed.ncbi.nlm.nih.gov/12115359/) | 2002 | Cohort (vinorelbine, same-class evidence) | Cancer | Vinorelbine showed activity in previously treated advanced childhood rhabdomyosarcoma |
-| [38050209](https://pubmed.ncbi.nlm.nih.gov/38050209/) | 2023 | Case report (direct vinblastine use) | Medicine | Adult perianal rhabdomyosarcoma achieved partial response after nivolumab + dacarbazine + cisplatin + **vinblastine** (3 cycles), followed by surgical resection |
-| [2451411](https://pubmed.ncbi.nlm.nih.gov/2451411/) | 1987 | Case report (direct vinblastine use) | Hinyokika Kiyo (Acta Urologica Japonica) | Refractory prostatic rhabdomyosarcoma responded to cisplatin + **vinblastine** + peplomycin (PVP) after failing vincristine/actinomycin-D/adriamycin |
-| [3329524](https://pubmed.ncbi.nlm.nih.gov/3329524/) | 1987 | Mechanistic/preclinical review | Anti-Cancer Drug Design | Human rhabdomyosarcoma xenograft model used to characterize tubulin-targeting selectivity of vincristine/vinblastine |
-| [26024389](https://pubmed.ncbi.nlm.nih.gov/26024389/) | 2015 | Preclinical | Cell Death and Differentiation | PLK1 inhibitors synergize with microtubule-destabilizing drugs (vinca-alkaloid class) to induce apoptosis in preclinical rhabdomyosarcoma models |
-| [16302215](https://pubmed.ncbi.nlm.nih.gov/16302215/) | 2007 | Case series (vinorelbine, related regimen) | Pediatric Blood & Cancer | Vinorelbine/low-dose cyclophosphamide regimen (developed for rhabdomyosarcoma) showed activity in desmoplastic small round cell tumor |
-| [22156656](https://pubmed.ncbi.nlm.nih.gov/22156656/) | 2011 | Pilot study | Oncotarget | Pediatric metronomic 4-drug regimen (sub-MTD continuous dosing) explored against resistant pediatric solid tumors including sarcomas |
-| [41216926](https://pubmed.ncbi.nlm.nih.gov/41216926/) | 2026 | Prospective trial (broader soft-tissue sarcoma) | Pediatric Blood & Cancer | CWS-96/CWS-2002P trials establishing risk stratification and chemo/radiotherapy strategy for pediatric non-rhabdomyosarcoma soft tissue sarcoma; contextualizes sarcoma-family chemotherapy protocols |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة للورم العضلي المخطط على وجه التحديد (`clinical_trials: []`, `ictrp_trials: []`).
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Vinblastine is **not currently marketed** in this jurisdiction (`market_status: Not marketed`, `total_licenses: 0`). No product authorization records are available.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [22633624](https://pubmed.ncbi.nlm.nih.gov/22633624/) | 2012 | تجربة المرحلة 2 (vinorelbine، أدلة من نفس الفئة) | European Journal of Cancer | Vinorelbine + سيكلوفوسفاميد بجرعة منخفضة في الأورام الصلبة لدى الأطفال المتكررة/المقاومة؛ لاحظ التسامح الجيد وإشارة الفعالية على وجه التحديد في الورم العضلي المخطط |
+| [15378498](https://pubmed.ncbi.nlm.nih.gov/15378498/) | 2004 | دراسة تجميع/تجريبية (vinorelbine، أدلة من نفس الفئة) | Cancer | تحديد الجرعة التجريبي من vinorelbine + سيكلوفوسفاميد فموي بجرعة منخفضة في الساركومات لدى الأطفال، يُعلم البروتوكول الأوروبي القادم للورم العضلي المخطط |
+| [12115359](https://pubmed.ncbi.nlm.nih.gov/12115359/) | 2002 | دراسة تجميع (vinorelbine، أدلة من نفس الفئة) | Cancer | أظهر Vinorelbine نشاطاً في الورم العضلي المخطط المتقدم المعالج سابقاً لدى الأطفال |
+| [38050209](https://pubmed.ncbi.nlm.nih.gov/38050209/) | 2023 | تقرير حالة (استخدام مباشر من Vinblastine) | Medicine | حقق ورم الساركوما العضلي المخطط حول الشرج لدى البالغين استجابة جزئية بعد nivolumab + dacarbazine + cisplatin + **vinblastine** (3 دورات)، تليها الاستئصال الجراحي |
+| [2451411](https://pubmed.ncbi.nlm.nih.gov/2451411/) | 1987 | تقرير حالة (استخدام مباشر من Vinblastine) | Hinyokika Kiyo (Acta Urologica Japonica) | ورم الساركوما العضلي المخطط البروستاتي المقاوم استجاب لـ cisplatin + **vinblastine** + peplomycin (PVP) بعد فشل vincristine/actinomycin-D/adriamycin |
+| [3329524](https://pubmed.ncbi.nlm.nih.gov/3329524/) | 1987 | مراجعة ميكانيكية/ما قبل الإكلينيكية | Anti-Cancer Drug Design | استُخدم نموذج الكسينوغرافت من الورم العضلي المخطط البشري لتوصيف الانتقائية الموجهة للتوبيولين من vincristine/vinblastine |
+| [26024389](https://pubmed.ncbi.nlm.nih.gov/26024389/) | 2015 | ما قبل الإكلينيكية | Cell Death and Differentiation | مثبطات PLK1 تتآزر مع أدوية غير المثبتة للأنابيب الدقيقة (فئة قلويد الفينكا) لتحريض الاستماتة في نماذج الورم العضلي المخطط ما قبل الإكلينيكية |
+| [16302215](https://pubmed.ncbi.nlm.nih.gov/16302215/) | 2007 | سلسلة حالات (vinorelbine، نظام ذو صلة) | Pediatric Blood & Cancer | أظهر نظام Vinorelbine/سيكلوفوسفاميد بجرعة منخفضة (المطور للورم العضلي المخطط) نشاطاً في الورم الرقيق المشع ذي الخلايا الدائرية الصغيرة |
+| [22156656](https://pubmed.ncbi.nlm.nih.gov/22156656/) | 2011 | دراسة تجريبية | Oncotarget | استُكشف نظام metronomic لـ 4 أدوية لدى الأطفال (جرعات متواصلة تحت MTD) ضد الأورام الصلبة لدى الأطفال المقاومة بما فيها الساركومات |
+| [41216926](https://pubmed.ncbi.nlm.nih.gov/41216926/) | 2026 | تجربة آفاقية (ساركوما الأنسجة الرخوة الأوسع) | Pediatric Blood & Cancer | تجارب CWS-96/CWS-2002P تثبت تقسيم المخاطر والعلاج الكيماوي/الإشعاعي لساركوما الأنسجة الرخوة غير الورم العضلي المخطط لدى الأطفال؛ توضع سياق بروتوكولات العلاج الكيماوي لعائلة الساركوما |
 
 ---
 
-## Cytotoxicity
+## معلومات السوق بالمملكة العربية السعودية
 
-Vinblastine is a conventional cytotoxic antineoplastic agent (vinca alkaloid), so this section applies.
+لا يتم تسويق Vinblastine حالياً في هذه الولاية القضائية (`market_status: Not marketed`, `total_licenses: 0`). لا توجد سجلات تخويل منتجات متاحة.
 
-| Item | Content |
+---
+
+## السمية الخلوية
+
+Vinblastine هو عامل مضاد للأورام سام للخلايا تقليدي (قلويد الفينكا)، لذا ينطبق هذا القسم.
+
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — Vinca alkaloid, microtubule/tubulin polymerization inhibitor |
-| Myelosuppression Risk | Known class effect; literature in this pack (PMID 7459846) discusses myelosuppressive effects of vinblastine directly. Specific grading/incidence data not available — please refer to the package insert |
-| Emetogenicity Classification | Vinca alkaloids are classically low-to-moderate emetogenic risk agents; not confirmed by pack-specific data |
-| Monitoring Items | CBC with differential, liver function (hepatically metabolized), neurologic exam (vinca-class peripheral neuropathy risk), IV site (vesicant — extravasation risk) |
-| Handling Protection | Must follow cytotoxic/hazardous drug handling protocols; vesicant — requires central line or extravasation precautions |
+| تصنيف السمية الخلوية | سام للخلايا تقليدي — قلويد الفينكا، مثبط بوليمرة التوبيولين/الأنابيب الدقيقة |
+| خطر قلة الكريات البيضاء | تأثير فئة معروف؛ الأدبيات في هذه الحزمة (PMID 7459846) تناقش التأثيرات المثبطة للكريات البيضاء من Vinblastine مباشرة. بيانات التصنيف/الحدوث المحددة غير متاحة — يرجى الرجوع إلى نشرة الحزمة |
+| تصنيف الغثيان والقيء | قلويدات الفينكا كلاسيكياً عوامل ذات خطر غثيان وقيء منخفض إلى متوسط؛ لم يتم التأكيد من بيانات الحزمة المحددة |
+| عناصر المراقبة | اختبار CBC مع تمييز الفئات، اختبارات وظائف الكبد (استقلاب كبدي)، فحص عصبي (خطر الاعتلال العصبي المحيطي من فئة الفينكا)، موقع الحقن الوريدي (محرق — خطر التسرب خارج الأوعية) |
+| حماية المناولة | يجب اتباع بروتوكولات التعامل مع الأدوية الخطرة/السامة للخلايا؛ محرق — يتطلب خط وسطي أو احتياطات تسرب خارج الأوعية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. This evidence pack flags the **SFDA/TFDA package insert (warnings, contraindications)** as a **Blocking** data gap (DG001) — it must be resolved before any S1 safety assessment can proceed. Drug-drug interaction data is also unavailable (`ddi.query_status: not_found`).
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. تؤشر هذه مجموعة الأدلة إلى **نشرة SFDA/TFDA (التحذيرات، موانع الاستعمال)** بأنها **فجوة بيانات محظورة** (DG001) — يجب حلها قبل أن تتمكن أي تقييم السلامة S1 من المتابعة. بيانات التفاعلات الدوائية غير متاحة أيضاً (`ddi.query_status: not_found`).
 
 ---
 
-## Other Predicted Indications Observed (Context)
+## الدلالات المتنبأ بها الأخرى المرصودة (السياق)
 
-This is a multi-indication candidate pack; rhabdomyosarcoma ranked #1 by TxGNN score but is not the strongest by evidence level. Notably:
+هذه حزمة مرشح متعدد الدلالات؛ الورم العضلي المخطط تم ترتيبه #1 بواسطة درجة TxGNN لكنه ليس الأقوى بمستوى الأدلة. بشكل ملحوظ:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Note |
+| الترتيب | المرض | درجة TxGNN | مستوى الأدلة | التوصية | ملاحظة |
 |------|---------|------|------|------|------|
-| 9 | Neuroblastoma | 99.14% | **L2** | **Proceed with Guardrails** | Phase 1 vinblastine+sirolimus trial (PMID 23956145), historical CVB (cisplatin/vinblastine/bleomycin) cohort, preclinical antiangiogenic synergy |
-| 8 | Monocytic leukemia | 99.78% | L3 | Research Question | Historical case series (41% remission, pediatric, 1975) plus combination regimens |
-| 5 | Prostate embryonal rhabdomyosarcoma | 99.83% | L4 | Research Question | 2 direct-vinblastine case reports |
-| 7 | Liver sarcoma (heterogeneous label) | 99.81% | L4 | Research Question | Indirect — desmoid tumor MTX-vinblastine regimen, Kaposi's sarcoma use |
-| 2, 3, 4, 6, 10 | Various RMS subtypes / ganglioneuroblastoma | ~99.1–99.8% | L5 | Hold | Score-only, no clinical or literature evidence |
+| 9 | الورم الأرومي العصبي | 99.14% | **L2** | **المضي قدماً مع ضمانات** | تجربة Vinblastine+sirolimus المرحلة 1 (PMID 23956145)، مجموعة CVB التاريخية (cisplatin/vinblastine/bleomycin)، التآزر المضاد للأوعية ما قبل الإكلينيكية |
+| 8 | سرطان الدم أحادي النوى | 99.78% | L3 | سؤال بحثي | سلسلة حالات تاريخية (41% الخمول، طب الأطفال، 1975) بالإضافة إلى الأنظمة المركبة |
+| 5 | ورم الساركوما البروستاتي الأرومي المخطط | 99.83% | L4 | سؤال بحثي | تقريرا حالة مباشر من Vinblastine |
+| 7 | ساركوما الكبد (تسمية غير متجانسة) | 99.81% | L4 | سؤال بحثي | غير مباشر — نظام MTX-vinblastine للورم الرقيق، استخدام ساركوما كابوسي |
+| 2, 3, 4, 6, 10 | أنواع الورم العضلي المخطط المختلفة / الورم العصبي الدرقي | ~99.1–99.8% | L5 | انتظر | النقاط فقط، لا توجد أدلة سريرية أو أدبية |
 
-Neuroblastoma carries materially stronger evidence than the top-ranked rhabdomyosarcoma prediction and may warrant its own evaluation track.
+يحمل الورم الأرومي العصبي أدلة قوية بشكل ملموس أكثر من تنبؤ الورم العضلي المخطط ذا الترتيب الأعلى وقد يستحق مساره تقييم منفصل.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold** (for the rhabdomyosarcoma indication specifically)
+**القرار: انتظر** (للدلالة الورم العضلي المخطط على وجه التحديد)
 
-**Rationale:**
-- Evidence level is L4 — no vinblastine-specific clinical trials exist for rhabdomyosarcoma; supporting data is same-class (vinorelbine) cohort/Phase 2 evidence plus isolated case reports.
-- The Blocking safety data gap (SFDA/TFDA package insert, DG001) prevents any S1 safety evaluation, independent of efficacy evidence strength.
+**المبررات:**
+- مستوى الأدلة هو L4 — لا توجد تجارب سريرية مخصصة من Vinblastine في الورم العضلي المخطط؛ البيانات الداعمة هي أدلة تجميع من نفس الفئة (vinorelbine) / المرحلة 2 بالإضافة إلى تقارير حالات معزولة.
+- فجوة بيانات السلامة المحظورة (نشرة SFDA/TFDA، DG001) تمنع أي تقييم السلامة S1، بصرف النظر عن قوة مستوى الأدلة الفعالة.
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert (warnings, contraindications) — resolve DG001 (Blocking)
-- Detailed MOA data from DrugBank — resolve DG002
-- Drug-drug interaction data (current query: not found)
-- Vinblastine-specific (not vinorelbine/vincristine) preclinical or clinical evidence in rhabdomyosarcoma
-- Separately, consider prioritizing the **neuroblastoma** indication (L2, Proceed with Guardrails) given its stronger existing evidence base
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة SFDA/TFDA (التحذيرات، موانع الاستعمال) — حل DG001 (محظور)
+- بيانات آلية العمل التفصيلية من DrugBank — حل DG002
+- بيانات التفاعلات الدوائية (الاستعلام الحالي: غير موجود)
+- أدلة ما قبل الإكلينيكية أو سريرية محددة من Vinblastine (وليس vinorelbine/vincristine) في الورم العضلي المخطط
+- بشكل منفصل، فكر في إعطاء الأولوية لدلالة **الورم الأرومي العصبي** (L2، المضي قدماً مع ضمانات) نظراً لقاعدة الأدلة الموجودة بها الأقوى
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

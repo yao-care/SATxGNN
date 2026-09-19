@@ -29,91 +29,90 @@ indication_count: 1
 
 </div>
 
-# Decitabine: From Myelodysplastic Syndrome to Refractory Cytopenia of Childhood
+# Decitabine: من متلازمة الخللل النخاعي إلى نقص الكريات الدموية المقاوم للعلاج في الطفولة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Decitabine is a DNA hypomethylating agent (DNMTi) used to treat myelodysplastic syndrome (MDS) in adults, acting by inhibiting DNA methyltransferases to reactivate epigenetically silenced hematopoietic differentiation genes.
-The TxGNN model predicts it may be effective for **Refractory Cytopenia of Childhood (RCC)** — a rare pediatric MDS subtype driven by the same epigenetic pathophysiology —
-with **0 registered clinical trials** and **1 publication** currently supporting this direction.
+Decitabine هو عامل إزالة الميثيل من الحمض النووي (DNMTi) يُستخدم في علاج متلازمة الخللل النخاعي (MDS) لدى البالغين، حيث يعمل على تثبيط إنزيمات نقل الميثيل للحمض النووي لإعادة تنشيط جينات التمايز المكونة للدم المثبطة بآليات لاجينية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **نقص الكريات الدموية المقاوم للعلاج في الطفولة (RCC)** — وهو نوع فرعي نادر من متلازمة الخللل النخاعي عند الأطفال مدفوع بنفس الآلية المرضية اللاجينية — مع **0 تجربة سريرية مسجلة** و **1 منشور علمي** يدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Myelodysplastic Syndrome (MDS) in adults |
-| Predicted New Indication | Refractory Cytopenia of Childhood (RCC) |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | متلازمة الخللل النخاعي (MDS) لدى البالغين |
+| المؤشر الجديد المتنبأ به | نقص الكريات الدموية المقاوم للعلاج في الطفولة (RCC) |
+| درجة التنبؤ بـ TxGNN | 99.03% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | متابعة |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Decitabine is a DNA methyltransferase inhibitor (DNMTi) that incorporates into replicating DNA and traps DNMT enzymes, leading to progressive hypomethylation of previously silenced genomic regions. In adult MDS, this mechanism reactivates differentiation-promoting genes suppressed by aberrant epigenetic silencing — restoring partial hematopoietic output and delaying disease progression. Currently, detailed mechanism of action data from DrugBank is not available in this Evidence Pack, but decitabine's DNMTi mechanism is well-established in the published literature and underpins its regulatory approval for adult MDS.
+Decitabine هو مثبط إنزيم نقل الميثيل للحمض النووي (DNMTi) يدمج في الحمض النووي المتضاعف ويحتجز إنزيمات DNMT، مما يؤدي إلى إزالة تدريجية للميثيل من المناطق الجينومية المكبوتة سابقاً. في متلازمة الخللل النخاعي لدى البالغين، تعيد هذه الآلية تنشيط جينات تعزيز التمايز المثبطة بسبب تثبيط لاجيني غير طبيعي — مما يستعيد الناتج المكون للدم الجزئي ويؤخر تطور المرض. حالياً، بيانات آلية العمل التفصيلية من DrugBank غير متاحة في هذه حزمة الأدلة، لكن آلية DNMTi لـ decitabine راسخة جيداً في الأدبيات المنشورة وتدعم موافقته التنظيمية لمتلازمة الخللل النخاعي لدى البالغين.
 
-Refractory Cytopenia of Childhood (RCC) is a distinct pediatric MDS subtype defined by chronic peripheral cytopenias with hypocellular marrow and minimal blasts. Its core pathology is epigenetic dysregulation of hematopoietic stem and progenitor cells — the same target pathway as decitabine's mechanism of action. This makes the TxGNN prediction mechanistically direct rather than analogical: both conditions share the DNMTi-targetable epigenetic axis driving ineffective hematopoiesis.
+نقص الكريات الدموية المقاوم للعلاج في الطفولة (RCC) هو نوع فرعي متميز من متلازمة الخللل النخاعي عند الأطفال يتميز بنقص كريات دموية محيطي مزمن مع نخاع عظم قليل الخلايا والحد الأدنى من الانفجارات. إن الأمراض الأساسية هي اختلال التنظيم اللاجيني في الخلايا الجذعية المكونة للدم وخلايا السلف — نفس مسار الهدف من آلية عمل decitabine. هذا يجعل التنبؤ بـ TxGNN مباشراً من الناحية الآلية وليس قياسياً: كلا الحالتين تشترك في محور لاجيني قابل للاستهداف بـ DNMTi يؤدي إلى قصور تكون الدم.
 
-Clinically, decitabine has already been used in pediatric MDS settings as part of a low-intensity bridging regimen (DAC + minimally myelosuppressive regimen) prior to allogeneic hematopoietic stem cell transplantation (allo-HSCT), which is currently the only curative therapy for RCC. This real-world clinical precedent in the overlapping pediatric MDS population supports the biological plausibility of this repurposing prediction, even in the absence of RCC-specific trial data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+من الناحية السريرية، تم استخدام decitabine بالفعل في بيئات متلازمة الخللل النخاعي عند الأطفال كجزء من نظام جسري منخفض الكثافة (DAC + نظام تثبيط نخاع العظم الحد الأدنى) قبل زراعة الخلايا الجذعية المكونة للدم السُلفية (allo-HSCT)، وهي حالياً العلاج الشافي الوحيد لـ RCC. يدعم هذا السابق السريري في العالم الحقيقي في مجموعة متلازمة الخللل النخاعي المتداخلة عند الأطفال الجدوى البيولوجية لتنبؤ إعادة الاستخدام هذا، حتى في غياب بيانات التجربة الخاصة بـ RCC.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Retrospective Cohort | BMC Pediatrics | Single-center 10-year experience using decitabine combined with a minimally myelosuppressive regimen (DAC + MMR) as a bridge to allo-HSCT in children with MDS; reports feasibility and clinical outcomes of this hypomethylating bridge strategy in the pediatric population |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة الأدبيات
 
-Decitabine is currently not marketed in Saudi Arabia. No product authorizations are on record.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | دراسة أتراب استرجاعية | BMC Pediatrics | تجربة مركز واحد لمدة 10 سنوات باستخدام decitabine مع نظام منخفض التثبيط للنخاع (DAC + MMR) كجسر إلى allo-HSCT في الأطفال المصابين بـ MDS؛ يقدم تقارير عن جدوى والنتائج السريرية لاستراتيجية الجسر ذات الإزالة المنخفضة للميثيل في السكان الأطفال |
 
 ---
 
-## Cytotoxicity
+## معلومات سوق المملكة العربية السعودية
 
-| Item | Content |
+Decitabine غير مسوّق حالياً في المملكة العربية السعودية. لا توجد تصاريح المنتج المسجلة.
+
+---
+
+## السمية الخلوية
+
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted epigenetic therapy — DNA hypomethylating agent (nucleoside analogue / DNMTi class) |
-| Myelosuppression Risk | High — neutropenia, thrombocytopenia, and anemia are dose-limiting toxicities; of particular concern in pediatric RCC patients who present with pre-existing cytopenias at baseline |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (before each cycle and as clinically indicated), serum creatinine and BUN, liver function tests (AST, ALT, total bilirubin), serum electrolytes |
-| Handling Protection | Must follow cytotoxic drug handling regulations — closed-system drug transfer devices (CSTD) and appropriate personal protective equipment (PPE) required |
+| تصنيف السمية الخلوية | علاج لاجيني موجه — عامل إزالة الميثيل من الحمض النووي (نظير نوكليوسيد / فئة DNMTi) |
+| خطر تثبيط نخاع العظم | عالي — قلة العدلات ونقص الصفيحات وفقر الدم هي السميات المحددة للجرعة؛ مثير قلق بشكل خاص في مرضى RCC عند الأطفال الذين يعانون من نقص الكريات الدموية السابق في الحالة الأساسية |
+| تصنيف المقيئية | منخفض إلى معتدل |
+| عناصر المراقبة | فحص عد الدم الكامل مع الفئات (CBC with differential) (قبل كل دورة وحسبما هو موضح سريرياً)، الكرياتينين المصلي و BUN، اختبارات وظائف الكبد (AST, ALT, البيليروبين الكلي)، الشوارد المصلية |
+| حماية المناولة | يجب الامتثال لأنظمة مناولة الأدوية السامة — أجهزة نقل الأدوية بنظام مغلق (CSTD) ومعدات الحماية الشخصية المناسبة (PPE) مطلوبة |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى بطاقة المنتج للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: متابعة**
 
-**Rationale:**
-The mechanistic basis for using decitabine in RCC is scientifically direct — both conditions share the DNMTi-targetable epigenetic dysregulation of hematopoiesis — but the current evidence consists of a single retrospective pediatric MDS study with no RCC-specific data and zero registered clinical trials for this indication. The absence of Saudi Arabia market authorization further constrains near-term clinical deployment.
+**الأساس المنطقي:**
+الأساس الآلي لاستخدام decitabine في RCC مباشر من الناحية العلمية — كلا الحالتين تشترك في اختلال التنظيم اللاجيني القابل للاستهداف بـ DNMTi في تكون الدم — لكن الأدلة الحالية تتكون من دراسة استرجاعية واحدة لمتلازمة الخللل النخاعي عند الأطفال بدون بيانات خاصة بـ RCC وصفر تجارب سريرية مسجلة لهذا المؤشر. يزيد غياب ترخيص السوق في المملكة العربية السعودية من قيود النشر السريري قصير الأجل.
 
-**To proceed, the following is needed:**
-- RCC-specific efficacy and safety data, or a subgroup analysis from existing pediatric MDS cohort studies
-- Formal MOA documentation via DrugBank API (Data Gap DG002)
-- Regulatory pathway assessment for decitabine market authorization in Saudi Arabia
-- Pediatric pharmacokinetic and dosing data specific to the RCC patient population (lower body weight, pre-existing cytopenias)
-- A prospective safety monitoring protocol addressing high myelosuppression risk in children with baseline cytopenias
+**للمتابعة، يلزم ما يلي:**
+- بيانات فعالية وسلامة خاصة بـ RCC، أو تحليل مجموعة فرعية من دراسات الأتراب الحالية لمتلازمة الخللل النخاعي عند الأطفال
+- توثيق رسمي لآلية العمل عبر واجهة برمجة تطبيقات DrugBank (فجوة البيانات DG002)
+- تقييم المسار التنظيمي لترخيص سوق decitabine في المملكة العربية السعودية
+- بيانات حركية الأدوية عند الأطفال والجرعات الخاصة بمجموعة مرضى RCC (وزن جسم أقل، نقص الكريات الدموية السابق)
+- بروتوكول مراقبة السلامة الاستشرافي يعالج خطر تثبيط نخاع العظم العالي عند الأطفال الذين يعانون من نقص الكريات الدموية في الحالة الأساسية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

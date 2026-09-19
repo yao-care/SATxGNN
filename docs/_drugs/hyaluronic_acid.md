@@ -29,98 +29,99 @@ indication_count: 10
 
 </div>
 
-# Hyaluronic Acid: From [No Registered Indication] to Dry Eye Syndrome
+# حمض الهيالورونيك: من [عدم وجود مؤشر مسجل] إلى متلازمة جفاف العين
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Hyaluronic Acid (DB08818) currently has no registered product license or approved indication in Saudi Arabia.
-> The TxGNN model predicts it may be effective for **Dry Eye Syndrome**,
-> a use already supported by **50 clinical trials** and **20 publications** in the global literature, including large completed Phase 3 trials.
+> حمض الهيالورونيك (DB08818) لا يملك حالياً أي ترخيص منتج مسجل أو مؤشر معتمد في المملكة العربية السعودية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة جفاف العين**،
+> وهو استخدام مدعوم بالفعل بـ **50 تجربة سريرية** و **20 منشور** في الأدبيات العالمية، بما في ذلك تجارب المرحلة الثالثة الكبيرة المكتملة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not established — Hyaluronic Acid is not currently marketed in Saudi Arabia and has no approved indication on file |
-| Predicted New Indication | Dry Eye Syndrome |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | لم يتم تأسيسه — حمض الهيالورونيك غير مسوّق حالياً في المملكة العربية السعودية وليس له مؤشر معتمد في السجل |
+| المؤشر الجديد المتنبأ به | متلازمة جفاف العين |
+| درجة التنبؤ من TxGNN | 99.86% |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع احتياطات سلامة |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the structured DrugBank record for this entry. Based on well-established pharmacological knowledge, hyaluronic acid (HA) is a naturally occurring glycosaminoglycan with a high capacity for water retention and viscoelastic lubrication. It is a normal structural component of the tear film, synovial fluid, dermis, and vitreous body.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في السجل المهيكّل لـ DrugBank لهذا الدخول. بناءً على المعرفة الصيدلية الراسخة جيداً، حمض الهيالورونيك (HA) هو سكريد متعدد السكريات طبيعي يتمتع بقدرة عالية على الاحتفاظ بالماء وخصائص تزييت لزج مرن. وهو مكون هيكلي طبيعي لفيلم الدموع والسائل الزليلي والأدمة والجسم الزجاجي.
 
-Unlike most candidates in this pipeline, HA has no single "original indication" on file in this evidence pack — it is not currently licensed in Saudi Arabia. However, internationally, topical HA (as sodium hyaluronate) is already the dominant active ingredient in artificial tear products used to manage dry eye disease, alongside applications in viscosupplementation (osteoarthritis), dermal filling, and wound care.
+بخلاف معظم المرشحين في هذا الخط الأنابيب، لا يملك HA "مؤشر أصلي" واحد مسجل في مجموعة الأدلة هذه — فهو غير مرخص حالياً في المملكة العربية السعودية. ومع ذلك، على الصعيد الدولي، يُستخدم الحمض الموضعي (كهيالورونات الصوديوم) بالفعل كمكون نشط سائد في منتجات الدموع الاصطناعية المستخدمة لعلاج أمراض جفاف العين، إلى جانب التطبيقات في تعزيز اللزوجة (هشاشة العظام) والملء الجلدي والعناية بالجروح.
 
-Mechanistically, HA's moisture-retention and mucoadhesive properties directly stabilize the aqueous and mucin layers of the tear film, reducing tear evaporation and ocular surface friction — the core pathophysiology of dry eye syndrome. This is not a speculative repurposing signal but a confirmation of an already well-established, evidence-backed use that simply lacks formal regulatory registration in the Saudi market.
+من الناحية الميكانيكية، تقوم خصائص حفظ الرطوبة والالتصاق المخاطي لـ HA بتثبيت طبقات الماء والمخاط من فيلم الدموع، مما يقلل من تبخر الدموع والاحتكاك على سطح العين — وهي الفسيولوجيا المرضية الأساسية لمتلازمة جفاف العين. هذا ليس إشارة إعادة توجيه تخمينية بل تأكيد لاستخدام مثبت بالفعل وموثوق بالأدلة، يفتقد ببساطة التسجيل التنظيمي الرسمي في سوق المملكة العربية السعودية.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01382225](https://clinicaltrials.gov/study/NCT01382225) | Phase 3 | Completed | 1936 | Multicenter RCT confirming efficacy and safety of Sodium Hyaluronate Ophthalmic Solution 0.18% in dry eye syndrome |
-| [NCT01240382](https://clinicaltrials.gov/study/NCT01240382) | Phase 3 | Completed | 332 | Confirmatory non-inferiority/superiority study of DE-089 vs 0.1% sodium hyaluronate ophthalmic solution |
-| [NCT06517667](https://clinicaltrials.gov/study/NCT06517667) | Phase 2/3 | Completed | 30 | Comparison of different HA tear substitute formulations in evaporative dry eye |
-| [NCT02777723](https://clinicaltrials.gov/study/NCT02777723) | Phase 3 | Unknown | 138 | Active-controlled, double-blind trial of CKD-350 eye drops vs comparator in dry eye syndrome |
-| [NCT03515187](https://clinicaltrials.gov/study/NCT03515187) | Phase 3 | Unknown | 160 | Multicenter RCT on prevention/treatment of ocular surface injury in patients using anti-glaucoma eye drops |
-| [NCT01135511](https://clinicaltrials.gov/study/NCT01135511) | Phase 2 | Completed | 285 | Dose-ranging study of CP-690,550 eye drops vs vehicle and sodium hyaluronate in dry eye disease |
-| [NCT00788229](https://clinicaltrials.gov/study/NCT00788229) | Phase 2 | Completed | 72 | Randomized double-blind trial of DHP-101/300/500 artificial tears in dry eye syndrome |
-| [NCT04670263](https://clinicaltrials.gov/study/NCT04670263) | Phase 2/3 | Completed | 70 | Efficacy of topical steroids plus topical hyaluronic acid, evaluated via Tear Film Imager |
-| [NCT00938704](https://clinicaltrials.gov/study/NCT00938704) | Phase 4 | Completed | 71 | Comparison of CMC/glycerin vs 0.18% sodium hyaluronate for dry eye signs and symptoms |
-| [NCT02510235](https://clinicaltrials.gov/study/NCT02510235) | NA | Completed | 56 | Multicenter non-inferiority study of Lubricin vs sodium hyaluronate in moderate dry eye |
+| [NCT01382225](https://clinicaltrials.gov/study/NCT01382225) | المرحلة الثالثة | مكتملة | 1936 | تجربة عشوائية منضبطة متعددة المراكز تؤكد فعالية وأمان محلول هيالورونات الصوديوم للعين بتركيز 0.18% في متلازمة جفاف العين |
+| [NCT01240382](https://clinicaltrials.gov/study/NCT01240382) | المرحلة الثالثة | مكتملة | 332 | دراسة تأكيدية لعدم الدنو / التفوق من DE-089 مقابل محلول هيالورونات الصوديوم للعين بتركيز 0.1% |
+| [NCT06517667](https://clinicaltrials.gov/study/NCT06517667) | المرحلة الثانية/الثالثة | مكتملة | 30 | مقارنة صيغ بديلة دموع حمض الهيالورونيك المختلفة في جفاف العين التبخري |
+| [NCT02777723](https://clinicaltrials.gov/study/NCT02777723) | المرحلة الثالثة | غير معروفة | 138 | تجربة ذات تحكم نشط عمياء مزدوجة من قطرات عين CKD-350 مقابل المقارن في متلازمة جفاف العين |
+| [NCT03515187](https://clinicaltrials.gov/study/NCT03515187) | المرحلة الثالثة | غير معروفة | 160 | تجربة عشوائية منضبطة متعددة المراكز حول الوقاية / العلاج من إصابة سطح العين لدى المرضى الذين يستخدمون قطرات العين المخفضة لضغط العين |
+| [NCT01135511](https://clinicaltrials.gov/study/NCT01135511) | المرحلة الثانية | مكتملة | 285 | دراسة تحديد الجرعة من قطرات عين CP-690,550 مقابل المحلول الحامل وهيالورونات الصوديوم في مرض جفاف العين |
+| [NCT00788229](https://clinicaltrials.gov/study/NCT00788229) | المرحلة الثانية | مكتملة | 72 | تجربة عشوائية عمياء من قطرات الدموع الاصطناعية DHP-101/300/500 في متلازمة جفاف العين |
+| [NCT04670263](https://clinicaltrials.gov/study/NCT04670263) | المرحلة الثانية/الثالثة | مكتملة | 70 | فعالية الستيرويدات الموضعية بالإضافة إلى حمض الهيالورونيك الموضعي، تقييم عبر Tear Film Imager |
+| [NCT00938704](https://clinicaltrials.gov/study/NCT00938704) | المرحلة الرابعة | مكتملة | 71 | مقارنة CMC / الجليسرين مقابل هيالورونات الصوديوم بتركيز 0.18% لعلامات وأعراض جفاف العين |
+| [NCT02510235](https://clinicaltrials.gov/study/NCT02510235) | غير قابلة للتطبيق | مكتملة | 56 | دراسة عدم الدنو متعددة المراكز من Lubricin مقابل هيالورونات الصوديوم في جفاف العين المعتدل |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39260878](https://pubmed.ncbi.nlm.nih.gov/39260878/) | 2024 | RCT | BMJ | Non-inferiority RCT comparing laughter exercise vs 0.1% sodium hyaluronic acid for ocular surface discomfort in dry eye |
-| [34843023](https://pubmed.ncbi.nlm.nih.gov/34843023/) | 2022 | RCT | Japanese J Ophthalmol | Randomized multicenter evaluation of sequential 0.3%/0.15% HA application for dry eye |
-| [33153310](https://pubmed.ncbi.nlm.nih.gov/33153310/) | 2022 | RCT | Eur J Ophthalmol | Non-inferiority trial of crosslinked HA + CoQ10 + vitamin E vs carmellose in menopausal DED patients on antidepressants |
-| [33804439](https://pubmed.ncbi.nlm.nih.gov/33804439/) | 2021 | Meta-analysis | Int J Environ Res Public Health | Meta-analysis comparing efficacy of HA- vs non-HA-based eye drops for dry eye syndrome |
-| [38895674](https://pubmed.ncbi.nlm.nih.gov/38895674/) | 2024 | Meta-analysis | Int J Ophthalmol | Systematic review/meta-analysis comparing high vs low concentration HA eye drops for dry eye |
-| [37042308](https://pubmed.ncbi.nlm.nih.gov/37042308/) | 2024 | Review | Acta Ophthalmologica | Review of single-ingredient eye drops directly compared with HA in DED treatment |
-| [35514082](https://pubmed.ncbi.nlm.nih.gov/35514082/) | 2022 | Review | Acta Ophthalmologica | Critical review of safety and efficacy of HA-containing artificial tears in DED |
-| [37117131](https://pubmed.ncbi.nlm.nih.gov/37117131/) | 2023 | Clinical Study | Contact Lens & Anterior Eye | Efficacy of trehalose + HA artificial tears in women by age/hormonal status with moderate-severe DED |
-| [38838456](https://pubmed.ncbi.nlm.nih.gov/38838456/) | 2024 | Clinical Study | J Fr Ophtalmol | Efficacy/safety of new preservative-free eye drop combining HA, trehalose, and NAAGA in dry eye |
-| [32070808](https://pubmed.ncbi.nlm.nih.gov/32070808/) | 2020 | Review | Carbohydrate Research | Review of HA applications in ophthalmology (dry eye), rheumatology, and dermatology |
+| [39260878](https://pubmed.ncbi.nlm.nih.gov/39260878/) | 2024 | تجربة عشوائية منضبطة | BMJ | تجربة عدم دنو عشوائية تقارن تمرين الضحك مقابل حمض الهيالورونيك بتركيز 0.1% للانزعاج على سطح العين في جفاف العين |
+| [34843023](https://pubmed.ncbi.nlm.nih.gov/34843023/) | 2022 | تجربة عشوائية منضبطة | مجلة جامعة اليابان لطب العيون | تقييم عشوائي متعدد المراكز لتطبيق HA المتسلسل بتركيز 0.3%/0.15% لجفاف العين |
+| [33153310](https://pubmed.ncbi.nlm.nih.gov/33153310/) | 2022 | تجربة عشوائية منضبطة | مجلة طب العيون الأوروبية | تجربة عدم دنو من HA المعبر عنها + CoQ10 + فيتامين E مقابل كارميلوز في مرضى DED ما بعد انقطاع الطمث الذين يتناولون مضادات الاكتئاب |
+| [33804439](https://pubmed.ncbi.nlm.nih.gov/33804439/) | 2021 | تحليل تلوي | المجلة الدولية للأبحاث البيئية والصحة العامة | تحليل تلوي يقارن فعالية قطرات العين القائمة على HA مقابل غير القائمة على HA لمتلازمة جفاف العين |
+| [38895674](https://pubmed.ncbi.nlm.nih.gov/38895674/) | 2024 | تحليل تلوي | المجلة الدولية لطب العيون | مراجعة منهجية / تحليل تلوي يقارن قطرات عين HA بتراكيز عالية مقابل منخفضة لجفاف العين |
+| [37042308](https://pubmed.ncbi.nlm.nih.gov/37042308/) | 2024 | استعراض | طب العيون Acta | استعراض قطرات العين أحادية المكون المقارنة مباشرة مع HA في علاج DED |
+| [35514082](https://pubmed.ncbi.nlm.nih.gov/35514082/) | 2022 | استعراض | طب العيون Acta | الاستعراض الحرج للأمان والفعالية لقطرات الدموع الاصطناعية التي تحتوي على HA في DED |
+| [37117131](https://pubmed.ncbi.nlm.nih.gov/37117131/) | 2023 | دراسة سريرية | عدسة الاتصال وطب العيون السابق | فعالية قطرات الدموع الاصطناعية Trehalose + HA لدى النساء حسب الفئة العمرية والحالة الهرمونية مع DED المعتدل إلى الشديد |
+| [38838456](https://pubmed.ncbi.nlm.nih.gov/38838456/) | 2024 | دراسة سريرية | مجلة طب العيون الفرنسية | فعالية / أمان قطرة عين جديدة خالية من المواد الحافظة تجمع بين HA و Trehalose و NAAGA في جفاف العين |
+| [32070808](https://pubmed.ncbi.nlm.nih.gov/32070808/) | 2020 | استعراض | أبحاث الكربوهيدرات | استعراض تطبيقات HA في طب العيون (جفاف العين) وأمراض الروماتيزم وطب الأمراض الجلدية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Hyaluronic Acid currently holds **no product authorizations** in Saudi Arabia (0 licenses on file; market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured safety warnings, contraindications, or drug-interaction data are currently on file for this entry (TFDA/SFDA package insert retrieval is flagged as a blocking data gap).
+حمض الهيالورونيك حالياً لا يملك **أي تراخيص منتجات** في المملكة العربية السعودية (0 تراخيص في السجل؛ حالة السوق: غير مسوّق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الملخص لمعلومات السلامة. لا توجد حالياً بيانات منظمة حول تحذيرات السلامة أو موانع الاستخدام أو بيانات التفاعل بين الأدوية في السجل لهذا الدخول (يتم تحديد استرجاع نشرة TFDA/SFDA كفجوة بيانات حجزية).
 
-**Rationale:**
-Efficacy evidence for HA in dry eye syndrome is exceptionally strong and mature (L1: multiple completed Phase 3 RCTs, including a 1,936-patient pivotal trial, plus meta-analyses), and HA eye drops are already a global standard-of-care for this indication. However, the drug is currently unregistered in Saudi Arabia and lacks any structured safety/label data, which blocks a full S1 safety assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — blocking data gap (DG001)
-- Formal DrugBank/manufacturer mechanism of action documentation (DG002)
-- Confirmation of DDI profile (currently "not found" in queried sources)
-- Regulatory pathway assessment for product registration in Saudi Arabia, given zero existing local authorizations
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع احتياطات سلامة**
+
+**الأساس:**
+أدلة الفعالية لـ HA في متلازمة جفاف العين استثنائية القوة والنضج (L1: تجارب عشوائية منضبطة متعددة المرحلة الثالثة مكتملة، بما في ذلك تجربة محورية بـ 1,936 مريض، بالإضافة إلى تحليلات تلوية)، وقطرات العين من حمض الهيالورونيك هي بالفعل الرعاية القياسية العالمية لهذا المؤشر. ومع ذلك، الدواء غير مسجل حالياً في المملكة العربية السعودية ويفتقد أي بيانات سلامة / عنوان منظمة، مما يمنع إجراء تقييم السلامة الكامل S1.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA (التحذيرات، موانع الاستخدام) — فجوة بيانات حجزية (DG001)
+- توثيق رسمي لآلية العمل من DrugBank / الشركة المصنعة (DG002)
+- تأكيد ملف التفاعل بين الأدوية (حالياً "لم يُعثر عليه" في المصادر المستعلمة)
+- تقييم المسار التنظيمي لتسجيل المنتج في المملكة العربية السعودية، نظراً لعدم وجود أي تراخيص محلية قائمة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

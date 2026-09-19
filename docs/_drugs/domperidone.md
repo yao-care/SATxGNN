@@ -29,72 +29,73 @@ indication_count: 1
 
 </div>
 
-# Domperidone: From Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# دومبيريدون: من الغثيان والقيء إلى متلازمة الإفراز الكلوية غير المناسب لهرمون مضاد الإدرار
 
-## One-Sentence Summary
+## ملخص بسطر واحد
 
-Domperidone is a peripheral dopamine D2/D3 receptor antagonist, widely used as a prokinetic agent and antiemetic for nausea, vomiting, and gastroparesis.
-The TxGNN model predicts it may have activity in **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-however there are currently **no registered clinical trials and no supporting publications** for this direction, leaving the prediction entirely model-driven.
+دومبيريدون هو معارض محيطي لمستقبلات الدوبامين D2/D3، يُستخدم على نطاق واسع كمحفز لحركة المعدة والأمعاء ومضاد للغثيان والقيء وعسر الحركة المعدية.
+يتنبأ نموذج TxGNN بأنه قد يكون له نشاط في **متلازمة الإفراز الكلوية غير المناسب لهرمون مضاد الإدرار (NSIAD)**،
+غير أنه حالياً **لا توجد تجارب سريرية مسجلة ولا توجد منشورات داعمة** لهذا الاتجاه، مما يترك التنبؤ موجهاً بالكامل بالنموذج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Nausea, vomiting, and gastroparesis (peripheral dopamine antagonist / prokinetic) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (0 registered products) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الغثيان والقيء وعسر الحركة المعدية (معارض دوبامين محيطي / محفز حركة المعدة والأمعاء) |
+| المؤشر الجديد المتنبأ به | متلازمة الإفراز الكلوية غير المناسب لهرمون مضاد الإدرار (NSIAD) |
+| درجة تنبؤ TxGNN | 99.08% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | غير مسوقة (0 منتج مسجل) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacology, Domperidone is a **peripheral dopamine D2/D3 receptor antagonist** that does not readily cross the blood-brain barrier. Its prokinetic and antiemetic effects arise from blockade of D2 receptors in the gastrointestinal tract and chemoreceptor trigger zone.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية من دليل الأدلة. بناءً على الصيدلة المؤسسة، دومبيريدون هو **معارض محيطي لمستقبلات الدوبامين D2/D3** الذي لا يعبر حاجز الدم والدماغ بسهولة. تنشأ تأثيراته المحفزة لحركة الجهاز الهضمي والمضادة للغثيان من حصار مستقبلات D2 في الجهاز الهضمي ومنطقة الفعل الكيموضي.
 
-The proposed mechanistic link to NSIAD is indirect and speculative. Dopaminergic signaling is known to have modulatory effects on renal collecting duct AQP2 water channels and V2 receptor (AVPR2) pathways. In theory, peripheral D2R antagonism could influence these downstream signals. However, NSIAD arises from a **constitutively activating gain-of-function mutation in AVPR2**, causing the V2 receptor to remain permanently active regardless of vasopressin or upstream dopaminergic tone. Blocking D2 receptors cannot correct a constitutively active V2R conformation.
+الارتباط الآلي المقترح بـ NSIAD غير مباشر وتخميني. من المعروف أن الإشارات الدوبامينية لها تأثيرات تعديلية على قنوات AQP2 للماء في جمع الكلى وممرات مستقبل V2 (AVPR2). نظرياً، يمكن لحصار D2R المحيطي أن يؤثر على هذه الإشارات اللاحقة. ومع ذلك، تنشأ NSIAD من **طفرة محفزة بكسب وظائفي تكويني في AVPR2**، مما يتسبب في بقاء مستقبل V2 نشطاً تكوينياً بغض النظر عن الفازوبريسين أو النبرة الدوبامينية في المنبع. لا يمكن لحصار مستقبلات D2 أن يصحح التشكيل النشط بشكل تكويني لـ V2R.
 
-The mechanistic rationale, as also noted in the Evidence Pack's own `repurposing_rationale`, is **extremely weak and purely inferential**, with no biochemical, cellular, or animal-model data supporting a direct effect of domperidone on NSIAD pathophysiology. The TxGNN model's high confidence score likely reflects latent graph topology patterns rather than a validated mechanistic signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+السبب الآلي، كما لاحظ أيضاً دليل الأدلة في `repurposing_rationale`، هو **ضعيف جداً وتخميني بحتة**، مع عدم وجود بيانات بيوكيميائية أو خلوية أو على مستوى النماذج الحيوانية تدعم التأثير المباشر لدومبيريدون على إمراضية NSIAD. من المحتمل أن تعكس درجة ثقة نموذج TxGNN العالية أنماط طوبولوجيا الرسم البياني الكامن بدلاً من إشارة آلية موثقة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This is a pure TxGNN model prediction (Evidence Level L5) with no registered clinical trials, no published literature, and a mechanistically implausible link — NSIAD is driven by constitutive AVPR2 gain-of-function that is upstream of and independent of dopaminergic modulation. Additionally, domperidone carries a well-known cardiac safety concern (QT prolongation risk) that would impose a significant risk burden for a rare disease repurposing hypothesis with no preliminary evidence.
+---
 
-**To proceed, the following would be needed:**
+## اعتبارات السلامة
 
-- **Preclinical mechanistic data**: In vitro or animal-model evidence that D2R antagonism meaningfully affects AVPR2 constitutive activity, AQP2 trafficking, or urine osmolality in NSIAD-relevant models — without this, the hypothesis cannot advance
-- **MOA data retrieval**: Full DrugBank MOA and toxicity profile for domperidone (currently Data Gap)
-- **Safety package review**: Package insert warnings and contraindications (particularly cardiac QT prolongation data) must be retrieved and evaluated before any human study design
-- **TFDA/regulatory status clarification**: Domperidone is not marketed in Taiwan; any study initiation would require import or compassionate use regulatory pathway
-- **NSIAD expert consultation**: Given the extreme rarity of NSIAD and its specific genetic etiology, a disease-expert review of plausibility should precede any resource commitment
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+هذا تنبؤ نموذج TxGNN خالص (مستوى الدليل L5) بدون تجارب سريرية مسجلة وبدون أدبيات منشورة وبدون ارتباط آلي معقول — NSIAD يقودها كسب وظائفي تكويني في AVPR2 يقع في المنبع من وبشكل مستقل عن التعديل الدوبامينيرجي. بالإضافة إلى ذلك، يحمل دومبيريدون قلقاً معروفاً وموثوقاً بشأن السلامة القلبية (خطر إطالة QT) الذي سيفرض عبء خطر كبير لفرضية إعادة استخدام مرض نادر بدون دليل أولي.
+
+**للمتابعة، ستكون هناك حاجة إلى ما يلي:**
+
+- **بيانات آلية العمل قبل السريرية**: دليل في المختبر أو على مستوى النموذج الحيواني على أن حصار D2R يؤثر بشكل معنوي على النشاط التكويني لـ AVPR2 أو نقل AQP2 أو التناضح البولي في نماذج ذات صلة بـ NSIAD — بدون هذا، لا يمكن للفرضية أن تتقدم
+- **استرجاع بيانات آلية العمل**: بيانات آلية العمل الكاملة وملف السلامة والسمية لدومبيريدون (حالياً فجوة بيانات)
+- **مراجعة دليل السلامة**: تحذيرات نشرة الحزمة والموانع (خاصة بيانات إطالة QT) يجب استردادها وتقييمها قبل أي تصميم دراسة بشرية
+- **توضيح الحالة التنظيمية/TFDA**: دومبيريدون غير مسوق في تايوان؛ أي بدء دراسة سيتطلب استيراداً أو مسار تنظيمي للاستخدام الرحيم
+- **استشارة خبير NSIAD**: بالنظر إلى الندرة الشديدة لـ NSIAD وعلم الوراثة المحدد الخاص به، يجب أن تسبق مراجعة خبير المرض لأي معقولية التزام الموارد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

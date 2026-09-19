@@ -29,139 +29,140 @@ indication_count: 5
 
 </div>
 
-# Vindesine: From Cytotoxic Chemotherapy to Neuroblastoma
+# الفينديسين: من العلاج الكيميائي السام للخلايا إلى أرومة العقدة العصبية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Vindesine is a semisynthetic vinca-alkaloid cytotoxic agent; no specific original indication or market license is recorded in this evidence pack, and it is currently **not marketed in Saudi Arabia**. The TxGNN model's highest-ranked prediction, **ganglioneuroblastoma**, has no supporting studies, but the closely related and mechanistically analogous entity **neuroblastoma** (rank 3) is backed by **6 clinical trials** and **15 publications**, including a direct Phase II trial of vindesine in childhood malignancies. A second candidate, **myeloid leukemia**, is supported by an actively recruiting Phase 2 trial that explicitly includes vindesine, plus extensive historical literature on its use in blast crisis.
+الفينديسين هو عامل سام للخلايا من فئة قلويدات الفينكا شبه الاصطناعية؛ لا يوجد أي دليل على الاستطباب الأصلي أو الترخيص السوقي محدد في مجموعة الأدلة هذه، وهو حالياً **غير مسوق في المملكة العربية السعودية**. التنبؤ الأعلى تصنيفاً من نموذج TxGNN، **أرومة العقدة العصبية**، لا يوجد له دراسات داعمة، لكن الكيان المرتبط ارتباطاً وثيقاً والمماثل آلياً **أرومة الأرومات العصبية** (الترتيب 3) مدعوم بـ **6 تجارب سريرية** و **15 منشور**، بما في ذلك تجربة مرحلة II مباشرة للفينديسين في الأورام الخبيثة عند الأطفال. مرشح ثانٍ، **السرطان النقوي**، مدعوم بتجربة المرحلة 2 المجندة بنشاط والتي تتضمن الفينديسين بشكل صريح، بالإضافة إلى أدبيات تاريخية شاملة حول استخدامه في أزمة الخلايا البدائية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available in the evidence pack; vindesine is historically used as a vinca-alkaloid cytotoxic chemotherapy agent |
-| Predicted New Indication | Neuroblastoma (mechanistically linked to the top-ranked but evidence-free prediction, ganglioneuroblastoma) |
-| TxGNN Prediction Score | 99.86% (score 0.99863, rank 2981) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question — see Conclusion) |
+| الاستطباب الأصلي | غير متاح في مجموعة الأدلة؛ يتم استخدام الفينديسين تاريخياً كعامل كيميائي سام للخلايا من قلويدات الفينكا |
+| الاستطباب المتنبأ به الجديد | أرومة الأرومات العصبية (مرتبطة آلياً بالتنبؤ الأعلى ترتيباً لكن الخالي من الأدلة - أرومة العقدة العصبية) |
+| درجة التنبؤ من TxGNN | 99.86% (الدرجة 0.99863، الترتيب 2981) |
+| مستوى الأدلة | L2 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف (سؤال بحثي — انظر الخلاصة) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed regulatory-grade mechanism-of-action documentation is not available in this pack, but the repurposing rationale itself provides a pharmacological basis: Vindesine is a vinca alkaloid that inhibits tubulin polymerization, blocking mitotic spindle formation. It is a close structural analog of vincristine, the vinca alkaloid that forms the backbone of standard pediatric neuroblastoma chemotherapy protocols (e.g., N2 elements combining vincristine, dacarbazine, ifosfamide, doxorubicin).
+لا توجد وثائق آلية الحركة التنظيمية بدرجة كاملة في هذه المجموعة، لكن سبب إعادة الاستخدام نفسه يوفر أساساً دوائياً: الفينديسين هو قلويد فينكا يثبط تجمع التوبيولين، مما يوقف تكوين مغزل الانقسام. إنه نظير هيكلي وثيق الصلة من الفينكريستين، قلويد الفينكا الذي يشكل العمود الفقري لبروتوكولات العلاج الكيميائي القياسية لأرومة الأرومات العصبية عند الأطفال (على سبيل المثال، عناصر N2 التي تجمع بين الفينكريستين والداكاربازين والإيفوسفاميد والدوكسوروبيسين).
 
-Neuroblastoma and ganglioneuroblastoma both arise from the same neural-crest lineage and share overlapping treatment protocols, which is consistent with vindesine's TxGNN top prediction (ganglioneuroblastoma, score 99.99%) even though no direct trials or literature exist for that specific diagnosis. The neuroblastoma evidence effectively substantiates the mechanistic direction of that top-ranked but otherwise unsupported prediction.
+تنشأ أرومة الأرومات العصبية وأرومة العقدة العصبية من نفس النسب الجنيني من القمة العصبية وتشترك في بروتوكولات العلاج المتداخلة، وهو ما يتوافق مع التنبؤ الأعلى من TxGNN للفينديسين (أرومة العقدة العصبية، الدرجة 99.99%) على الرغم من عدم وجود تجارب مباشرة أو أدبيات لهذا التشخيص المحدد. أدلة أرومة الأرومات العصبية تدعم بشكل فعال الاتجاه الآلي للتنبؤ الأعلى ترتيباً لكن غير المدعوم بخلاف ذلك.
 
-Direct clinical precedent exists: the German NB90 neuroblastoma therapy study explicitly dosed vindesine (3 mg/m² as part of the N1 chemotherapy element) alongside etoposide and cisplatin, and a CALGB Phase II study tested vindesine directly in childhood malignancies including neuroblastoma. This is a case where mechanistic plausibility and historical clinical use converge, though modern confirmatory trials designed specifically around this repurposing hypothesis are lacking.
+يوجد سابقة سريرية مباشرة: دراسة العلاج بأرومة الأرومات العصبية الألمانية NB90 جرعت الفينديسين بشكل صريح (3 ملغ/م² كجزء من عنصر العلاج الكيميائي N1) جنباً إلى جنب مع الإتوبوسيد والسيسبلاتين، وقامت دراسة CALGB المرحلة II باختبار الفينديسين مباشرة في الأورام الخبيثة عند الأطفال بما في ذلك أرومة الأرومات العصبية. هذه حالة حيث تتقارب الإمكانية البيولوجية والاستخدام السريري التاريخي، على الرغم من أن الدراسات التأكيدية الحديثة المصممة خصيصاً حول فرضية إعادة الاستخدام هذه تفتقد.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00526318](https://clinicaltrials.gov/study/NCT00526318) | N/A | Unknown | 360 | NB2004-HR protocol: pre-transplant chemotherapy + autologous stem cell transplant + isotretinoin in high-risk neuroblastoma |
-| [NCT00017225](https://clinicaltrials.gov/study/NCT00017225) | Phase 2 | Completed | N/A | Combined chemotherapy, radiation, and peripheral stem cell transplantation in neuroblastoma |
-| [NCT04221035](https://clinicaltrials.gov/study/NCT04221035) | Phase 3 | Recruiting | 800 | SIOPEN international randomized trial of induction/consolidation chemotherapy and radiotherapy for high-risk neuroblastoma |
-| [NCT03042429](https://clinicaltrials.gov/study/NCT03042429) | Phase 3 | Completed | 360 | Chemotherapy + stem cell transplant + isotretinoin, testing added topotecan cycles for event-free survival |
-| [NCT00002802](https://clinicaltrials.gov/study/NCT00002802) | Phase 3 | Completed | 500 | Multicentre trial comparing chemotherapy/bone marrow transplant regimens by risk stage |
-| [NCT00410631](https://clinicaltrials.gov/study/NCT00410631) | Phase 3 | Unknown | 642 | NB2004 risk-adapted treatment protocol with combination chemotherapy and autologous stem cell transplant |
+| [NCT00526318](https://clinicaltrials.gov/study/NCT00526318) | غير محدد | مجهول | 360 | بروتوكول NB2004-HR: العلاج الكيميائي قبل الزراعة + زراعة الخلايا الجذعية الذاتية + الايزوتريتينوين في أرومة الأرومات العصبية عالية الخطورة |
+| [NCT00017225](https://clinicaltrials.gov/study/NCT00017225) | المرحلة 2 | مكتملة | غير محدد | العلاج الكيميائي المركب والإشعاع وزراعة الخلايا الجذعية المحيطية في أرومة الأرومات العصبية |
+| [NCT04221035](https://clinicaltrials.gov/study/NCT04221035) | المرحلة 3 | تجند | 800 | تجربة SIOPEN الدولية العشوائية للعلاج الكيميائي الاستقرائي والتوطيدي والعلاج الإشعاعي لأرومة الأرومات العصبية عالية الخطورة |
+| [NCT03042429](https://clinicaltrials.gov/study/NCT03042429) | المرحلة 3 | مكتملة | 360 | العلاج الكيميائي + زراعة الخلايا الجذعية + الايزوتريتينوين، واختبار دورات التوبوتيكان الإضافية لبقاء الحدث الحر |
+| [NCT00002802](https://clinicaltrials.gov/study/NCT00002802) | المرحلة 3 | مكتملة | 500 | تجربة متعددة المراكز تقارن نظم العلاج الكيميائي وزراعة نخاع العظم حسب مرحلة الخطر |
+| [NCT00410631](https://clinicaltrials.gov/study/NCT00410631) | المرحلة 3 | مجهول | 642 | بروتوكول معاملة NB2004 معدل حسب الخطر مع العلاج الكيميائي المركب وزراعة الخلايا الجذعية الذاتية |
 
-*Note: None of these trial titles explicitly name vindesine (relevance graded B — broad multi-agent protocols where vinca alkaloids are commonly included but not individually confirmed).*
+*ملاحظة: لا تذكر أي من عناوين التجارب الفينديسين بشكل صريح (أهمية مصنفة B — بروتوكولات متعددة العوامل حيث تُضمّن قلويدات الفينكا عادة لكن لم يتم تأكيد المرة الفردية).*
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [7038420](https://pubmed.ncbi.nlm.nih.gov/7038420/) | 1982 | RCT (Phase 2) | Medical and Pediatric Oncology | Phase II study of vindesine in 36 children with malignancies; effective at 4 mg/m² weekly infusion after early-regimen neurotoxicity/GI toxicity was mitigated |
-| [9340428](https://pubmed.ncbi.nlm.nih.gov/9340428/) | 1997 | Cohort | Klinische Pädiatrie | NB90 neuroblastoma study: vindesine 3 mg/m² used within the N1 chemotherapy element; describes myelopoietic recovery kinetics |
-| [21139829](https://pubmed.ncbi.nlm.nih.gov/21139829/) | 2010 | Case report | Rare Tumors | Adult epidural neuroblastoma treated with vindesine, cisplatin, and etoposide, achieving disease-free remission after surgery and chemotherapy |
-| [6943380](https://pubmed.ncbi.nlm.nih.gov/6943380/) | 1981 | Preclinical/Cohort | J Natl Cancer Inst | Comparative cytotoxicity/kinetics of vincristine vs. vindesine; murine neuroblastoma cells ~5-fold less sensitive to vindesine than other lines |
-| [2166461](https://pubmed.ncbi.nlm.nih.gov/2166461/) | 1990 | Preclinical | Anticancer Research | Gamma-linolenic acid enhanced vindesine (and other vinca alkaloid) cytotoxicity ~2-fold in human neuroblastoma cell lines |
-| [3731152](https://pubmed.ncbi.nlm.nih.gov/3731152/) | 1986 | Preclinical | Cancer Treatment Reports | Differential drug sensitivity assay across 6 human neuroblastoma cell lines, including vindesine among tested antimitotics |
-| [17141950](https://pubmed.ncbi.nlm.nih.gov/17141950/) | 2007 | Preclinical | Cancer Letters | MYCN expression affects chemosensitivity in neuroblastoma cells, relevant to multidrug resistance mechanisms |
-| [11464889](https://pubmed.ncbi.nlm.nih.gov/11464889/) | 2001 | Cohort | Medical and Pediatric Oncology | Evaluated catecholamine metabolites, mIBG scan, and bone marrow cytology as treatment-response markers in stage 4 neuroblastoma |
-| [12637472](https://pubmed.ncbi.nlm.nih.gov/12637472/) | 2003 | Review | J Clin Oncol | FDA review of pediatric oncology drug approvals and regulatory initiatives |
-| [7968789](https://pubmed.ncbi.nlm.nih.gov/7968789/) | 1995 | Cohort | Medical and Pediatric Oncology | Spanish Pediatric Oncology Society protocol for stage III neuroblastoma using intensive induction chemotherapy |
+| [7038420](https://pubmed.ncbi.nlm.nih.gov/7038420/) | 1982 | تجربة عشوائية خاضعة للرقابة (المرحلة 2) | Medical and Pediatric Oncology | دراسة المرحلة II للفينديسين في 36 طفل مع أورام خبيثة؛ فعالة بـ 4 ملغ/م² تسريب أسبوعي بعد تخفيف السمية العصبية/السمية المعدية المعوية المبكرة |
+| [9340428](https://pubmed.ncbi.nlm.nih.gov/9340428/) | 1997 | مجموعة | Klinische Pädiatrie | دراسة NB90 لأرومة الأرومات العصبية: الفينديسين 3 ملغ/م² المستخدم ضمن عنصر العلاج الكيميائي N1؛ يصف حركية استعادة النخاعي |
+| [21139829](https://pubmed.ncbi.nlm.nih.gov/21139829/) | 2010 | حالة سريرية | Rare Tumors | أرومة أرومات عصبية فوق الجافية عند البالغين تعالج بالفينديسين والسيسبلاتين والإتوبوسيد، مما يحقق الهجوع الخالي من الأمراض بعد الجراحة والعلاج الكيميائي |
+| [6943380](https://pubmed.ncbi.nlm.nih.gov/6943380/) | 1981 | قبل سريري/مجموعة | J Natl Cancer Inst | السمية المقارنة/حركية الفينكريستين مقابل الفينديسين؛ خلايا أرومة الأرومات العصبية في الفئران ~5 أضعاف أقل حساسية للفينديسين من الخطوط الأخرى |
+| [2166461](https://pubmed.ncbi.nlm.nih.gov/2166461/) | 1990 | قبل سريري | Anticancer Research | حمض جاما لينولينيك مُحسّن الفينديسين (وقلويدات الفينكا الأخرى) السمية ~2 أضعاف في خطوط خلايا أرومة الأرومات العصبية البشرية |
+| [3731152](https://pubmed.ncbi.nlm.nih.gov/3731152/) | 1986 | قبل سريري | Cancer Treatment Reports | فحص الحساسية للعقاقير التفاضلية عبر 6 خطوط خلايا أرومة أرومات عصبية بشرية، بما في ذلك الفينديسين من بين مضادات الانقسام المختبرة |
+| [17141950](https://pubmed.ncbi.nlm.nih.gov/17141950/) | 2007 | قبل سريري | Cancer Letters | تأثير التعبير MYCN على حساسية العلاج الكيميائي في خلايا أرومة الأرومات العصبية، ذات صلة بآليات المقاومة المتعددة الأدوية |
+| [11464889](https://pubmed.ncbi.nlm.nih.gov/11464889/) | 2001 | مجموعة | Medical and Pediatric Oncology | تقييم المستقلبات الكاتيكولامينية ومسح mIBG وخلل نخاع العظم كمؤشرات الاستجابة للعلاج في أرومة الأرومات العصبية بالمرحلة 4 |
+| [12637472](https://pubmed.ncbi.nlm.nih.gov/12637472/) | 2003 | المراجعة | J Clin Oncol | مراجعة FDA لموافقات أدوية الأورام عند الأطفال والمبادرات التنظيمية |
+| [7968789](https://pubmed.ncbi.nlm.nih.gov/7968789/) | 1995 | مجموعة | Medical and Pediatric Oncology | بروتوكول جمعية أطباء الأورام عند الأطفال الإسبانية لأرومة الأرومات العصبية بالمرحلة III باستخدام العلاج الكيميائي الاستقرائي الكثيف |
 
 ---
 
-## Additional Predicted Indication with Direct Supporting Evidence: Myeloid Leukemia
+## استطباب آخر متنبأ به مع أدلة داعمة مباشرة: السرطان النقوي
 
-This candidate (TxGNN score 99.65%, evidence level L2) has weaker mechanistic novelty but stronger *direct* drug-specific evidence than neuroblastoma, and warrants parallel consideration.
+لهذا المرشح (درجة TxGNN 99.65%، مستوى الأدلة L2) جدة آلية أضعف لكن أقوى أدلة *مباشرة* محددة للعقار من أرومة الأرومات العصبية، ويستحق النظر الموازي.
 
-**Clinical Trial**
+**التجربة السريرية**
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07159620](https://clinicaltrials.gov/study/NCT07159620) | Phase 2 | Recruiting | 27 | Single-arm trial of venetoclax + azacitidine + chidamide + **vindesine** + dexamethasone in newly diagnosed ETP-ALL-like patients (explicitly names vindesine) |
+| [NCT07159620](https://clinicaltrials.gov/study/NCT07159620) | المرحلة 2 | تجند | 27 | تجربة ذراع واحدة من venetoclax + azacitidine + chidamide + **vindesine** + dexamethasone في مريضى ETP-ALL الشبيهة المُشخّصين حديثاً (يذكر الفينديسين بشكل صريح) |
 
-**Literature (selected)**
+**الأدبيات (مختارة)**
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [6957273](https://pubmed.ncbi.nlm.nih.gov/6957273/) | 1982 | Clinical study | Cancer Chemother Pharmacol | Single-agent vindesine in CML, CML blast crisis, and ANLL; rapid leukemic cell reduction in 31/36 patients |
-| [274996](https://pubmed.ncbi.nlm.nih.gov/274996/) | 1978 | RCT (Phase 2) | Cancer Treatment Reports | Phase II vindesine trial for remission induction in acute leukemia and CML blast crisis; no cross-resistance with vincristine |
-| [3857971](https://pubmed.ncbi.nlm.nih.gov/3857971/) | 1985 | Cohort | Cancer Treatment Reports | Vindesine + prednisone in 16 CML blast crisis patients; median chronic-phase duration 29 months |
-| [6573959](https://pubmed.ncbi.nlm.nih.gov/6573959/) | 1983 | Cohort | Cancer Treatment Reports | Vindesine + prednisone in lymphoma and acute leukemia including CML blastic crisis; partial/complete responses observed |
-| [3855698](https://pubmed.ncbi.nlm.nih.gov/3855698/) | 1985 | Cohort | Cancer Treatment Reports | Vindesine-prednisone in 8 CML blast crisis patients; complete remission in 3, partial in 3 |
-| [9389357](https://pubmed.ncbi.nlm.nih.gov/9389357/) | 1997 | Review | Leukemia & Lymphoma | Review of vindesine's role in leukemia treatment, noting lack of cross-resistance with vincristine |
+| [6957273](https://pubmed.ncbi.nlm.nih.gov/6957273/) | 1982 | دراسة سريرية | Cancer Chemother Pharmacol | الفينديسين وحيد العامل في CML وأزمة CML والـ ANLL؛ تقليل سريع للخلايا اللوكيمية في 31/36 مريض |
+| [274996](https://pubmed.ncbi.nlm.nih.gov/274996/) | 1978 | تجربة عشوائية خاضعة للرقابة (المرحلة 2) | Cancer Treatment Reports | تجربة المرحلة II للفينديسين لاستحثاث الهجوع في الليوكيمية الحادة وأزمة CML؛ لا يوجد مقاومة متقاطعة مع الفينكريستين |
+| [3857971](https://pubmed.ncbi.nlm.nih.gov/3857971/) | 1985 | مجموعة | Cancer Treatment Reports | الفينديسين + البريدنيزون في 16 مريض أزمة CML؛ المدة المزمنة الوسيطة 29 شهر |
+| [6573959](https://pubmed.ncbi.nlm.nih.gov/6573959/) | 1983 | مجموعة | Cancer Treatment Reports | الفينديسين + البريدنيزون في الليمفوما والليوكيمية الحادة بما في ذلك أزمة CML؛ لوحظت استجابات جزئية/كاملة |
+| [3855698](https://pubmed.ncbi.nlm.nih.gov/3855698/) | 1985 | مجموعة | Cancer Treatment Reports | الفينديسين-البريدنيزون في 8 مرضى أزمة CML؛ الهجوع الكامل في 3، جزئي في 3 |
+| [9389357](https://pubmed.ncbi.nlm.nih.gov/9389357/) | 1997 | المراجعة | Leukemia & Lymphoma | مراجعة دور الفينديسين في علاج الليوكيمية، مع الإشارة إلى عدم وجود مقاومة متقاطعة مع الفينكريستين |
 
 ---
 
-## Other Predicted Indications (Not Recommended for Further Action)
+## الاستطبابات الأخرى المتنبأ بها (غير موصى به لمزيد من الإجراءات)
 
-| Disease | TxGNN Score | Evidence Level | Recommendation | Reason |
+| المرض | درجة TxGNN | مستوى الأدلة | التوصية | السبب |
 |---------|------------|----------------|-----------------|--------|
-| Ganglioneuroblastoma | 99.89% | L5 | Hold | No clinical trials or literature; pure model extrapolation |
-| Vertebral anomalies / variable endocrine and T-cell dysfunction | 99.87% | L5 | Hold | Congenital syndrome with no biologically plausible mechanism for a cytotoxic chemotherapy agent |
-| Retroperitoneal neoplasm | 99.86% | L4 | Hold | Anatomical classification spanning heterogeneous tumor types; evidence limited to historical case reports of cisplatin-based regimens, not vindesine-specific |
+| أرومة العقدة العصبية | 99.89% | L5 | توقف | لا توجد تجارب سريرية أو أدبيات؛ استقراء النموذج البحت |
+| الشذوذ الفقري / قصور الغدد الصماء المتغير ولاختلال الخلايا التائية | 99.87% | L5 | توقف | متلازمة خلقية بدون آلية بيولوجية معقولة لعامل علاج كيميائي سام للخلايا |
+| ورم خلف الصفاق | 99.86% | L4 | توقف | تصنيف تشريحي يشمل أنواع أورام متباينة؛ الأدلة محدودة بتقارير الحالات التاريخية لأنظمة قائمة على السيسبلاتين، وليس محددة للفينديسين |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Vindesine currently has no marketing authorization or license record in Saudi Arabia (0 licenses on file).
+الفينديسين حالياً لا يملك تصريح تسويق أو تسجيل ترخيص في المملكة العربية السعودية (0 تراخيص في الملف).
 
 ---
 
-## Cytotoxicity
+## السمية
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Vinca alkaloid class) |
-| Myelosuppression Risk | Dose-limiting toxicity; nadir at days 7–8 with recovery by days 11–13 (per literature on vindesine pharmacology) |
-| Emetogenicity Classification | Low to moderate (typical of vinca alkaloid class) |
-| Monitoring Items | CBC with differential, liver and renal function, neurological exam (severe neurotoxicity reported at higher bolus doses) |
-| Handling Protection | Standard cytotoxic drug handling precautions required; vinca alkaloids are fatal if administered intrathecally and must never be prepared or dispensed in a manner allowing intrathecal use |
+| تصنيف السمية | سام تقليدي للخلايا (فئة قلويد الفينكا) |
+| خطر قمع نخاع العظم | السمية المحددة للجرعة؛ نقطة الانخفاض في الأيام 7–8 مع التعافي بحلول الأيام 11–13 (وفقاً لأدبيات الفارماكولوجيا للفينديسين) |
+| تصنيف الغثيان | منخفض إلى معتدل (نموذجي لفئة قلويد الفينكا) |
+| عناصر المراقبة | صورة دم كاملة مع تفاضل، وظائف الكبد والكلى، الفحص العصبي (تم الإبلاغ عن سمية عصبية شديدة عند جرعات دفع أعلى) |
+| حماية التعامل | تدابير احتياطية قياسية لمعاملة الأدوية السامة للخلايا مطلوبة؛ قلويدات الفينكا قاتلة إذا تم إعطاؤها عن طريق حقن داخل الجافية ولا يجب أبداً تحضيرها أو صرفها بطريقة تسمح بالاستخدام داخل الجافية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information — no drug interaction, warning, or contraindication data is currently on file for vindesine.
+يُرجى الرجوع إلى ملف المعلومات الدوائية للحصول على معلومات السلامة — لا توجد حالياً أي بيانات تفاعل دوائي أو تحذير أو موانع استخدام في الملف للفينديسين.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold (Research Question)**
+**القرار: توقف (سؤال بحثي)**
 
-**Rationale:**
-Both viable candidates (neuroblastoma and myeloid leukemia) rest on decades-old, non-confirmatory studies (1978–2010) rather than modern trials designed to test the repurposing hypothesis directly, and vindesine is not currently marketed or licensed in Saudi Arabia. The evidence supports biological plausibility and historical clinical precedent, but not an immediate "Go" decision.
+**السبب:**
+كلا المرشحين القابلين للحياة (أرومة الأرومات العصبية والسرطان النقوي) يستندان إلى دراسات عمرها عقود، غير تأكيدية (1978–2010) بدلاً من التجارب الحديثة المصممة لاختبار فرضية إعادة الاستخدام بشكل مباشر، والفينديسين لا يتم تسويقه أو ترخيصه حالياً في المملكة العربية السعودية. الأدلة تدعم الإمكانية البيولوجية والسابقة السريرية التاريخية، لكن ليس قرار "التقدم" الفوري.
 
-**To proceed, the following is needed:**
-- Official package insert / SFDA-equivalent safety data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank or manufacturer sources
-- A modern, prospective trial (or at minimum a systematic review) specifically evaluating vindesine in neuroblastoma or myeloid leukemia, ideally tracking the ongoing NCT07159620 trial results
-- Assessment of drug import/supply feasibility given the absence of any Saudi Arabia market authorization
+**للمتابعة، يلزم ما يلي:**
+- ملف المعلومات الدوائية الرسمي / بيانات الأمان المعادلة للهيئة الدوائية السعودية (التحذيرات وموانع الاستخدام) — حالياً فجوة بيانات حاجزة
+- وثائق آلية الحركة المؤكدة من DrugBank أو مصادر الشركة المصنعة
+- تجربة حديثة واعدة (أو في الحد الأدنى مراجعة منهجية) تقيّم الفينديسين بشكل محدد في أرومة الأرومات العصبية أو السرطان النقوي، يفضل تتبع نتائج تجربة NCT07159620 المستمرة
+- تقييم جدوى استيراد الأدوية/إمكانية التوريد بالنظر إلى عدم وجود أي تصريح سوق في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

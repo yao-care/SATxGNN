@@ -29,95 +29,96 @@ indication_count: 6
 
 </div>
 
-# Anastrozole: From HR+ Breast Cancer to Female Breast Carcinoma
+# أناستروزول: من سرطان الثدي HR+ إلى سرطان الثدي لدى الإناث
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Anastrozole is a third-generation non-steroidal aromatase inhibitor, internationally established as the standard adjuvant endocrine therapy for postmenopausal women with hormone receptor-positive (HR+) breast cancer.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with **0 registered clinical trials** and **20 publications** currently in the evidence pack — including multiple landmark Phase 3 RCTs.
-**Important context:** this prediction aligns with anastrozole's already-established primary indication rather than representing a novel repurposing opportunity; the high TxGNN score (99.68%) reflects validation of existing knowledge graph evidence.
+أناستروزول هو مثبط أروماتاز من الجيل الثالث غير الستيرويدي، مثبت دولياً كعلاج هرموني مساعد قياسي للنساء بعد انقطاع الطمث مع سرطان الثدي موجب المستقبلات الهرمونية (HR+). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان الثدي لدى الإناث**، مع **صفر تجربة سريرية مسجلة** و **20 منشور علمي** حالياً في حزمة الأدلة — بما في ذلك عدة تجارب عشوائية تحكمية من المرحلة 3 الرئيسية.
+
+**سياق مهم:** هذا التنبؤ يتوافق مع المؤشر الأساسي المثبت بالفعل لأناستروزول وليس فرصة جديدة للاستخدام لأغراض أخرى؛ درجة TxGNN العالية (99.68%) تعكس التحقق من صحة أدلة مخزن المعرفة الموجودة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | HR+ breast cancer in postmenopausal women (internationally established; no Saudi Arabia authorization on file) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed (0 authorizations on file) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | سرطان الثدي HR+ لدى النساء بعد انقطاع الطمث (مثبت دولياً؛ لا توجد موافقة من المملكة العربية السعودية على الملف) |
+| المؤشر الجديد المتنبأ به | سرطان الثدي لدى الإناث |
+| درجة تنبؤ TxGNN | 99.68% |
+| مستوى الأدلة | L1 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (صفر موافقات على الملف) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Anastrozole competitively inhibits CYP19A1 (aromatase), the enzyme responsible for converting androgens to estrogens in peripheral tissues. In postmenopausal women, peripheral aromatization is virtually the sole source of circulating estrogens. By suppressing plasma estradiol by over 99%, anastrozole directly eliminates the principal mitogenic driver in hormone receptor-positive breast tumors. The mechanism is highly target-selective, with no direct cytotoxic activity.
+يثبط أناستروزول بشكل تنافسي CYP19A1 (أروماتاز)، الإنزيم المسؤول عن تحويل الأندروجينات إلى الإستروجين في الأنسجة الطرفية. لدى النساء بعد انقطاع الطمث، تكون الأروماتاز الطرفية هي المصدر الفعلي الوحيد لهرمونات الإستروجين المتداولة. بقمع البلازما إستراديول بأكثر من 99%، يقضي أناستروزول بشكل مباشر على المحرك الرئيسي للانتشار في أورام سرطان الثدي موجبة المستقبلات الهرمونية. الآلية موجهة بشكل عالي جداً للهدف، بدون أي نشاط سام للخلايا المباشر.
 
-The clinical link between anastrozole and female breast carcinoma is among the most robustly validated in oncology. The ATAC trial (Phase 3 RCT, n = 9,366, median follow-up 68 months) established that five years of adjuvant anastrozole significantly prolonged disease-free survival compared to tamoxifen in postmenopausal women with localized HR+ breast cancer. The IBIS-II program subsequently extended the application to chemoprevention in high-risk postmenopausal women, demonstrating sustained breast cancer incidence reduction well beyond the active treatment period. These findings form the basis of global guideline endorsement by ESMO, ASCO, and NCCN.
+الارتباط السريري بين أناستروزول وسرطان الثدي لدى الإناث هو من بين الأكثر تحققاً بقوة في الأورام. أثبتت تجربة ATAC (تجربة عشوائية تحكمية من المرحلة 3، n = 9,366، متوسط المتابعة 68 شهراً) أن خمس سنوات من العلاج الهرموني المساعد باستخدام أناستروزول أطالت بشكل كبير من البقاء الخالي من المرض مقارنة بتاموكسيفين لدى النساء بعد انقطاع الطمث مع سرطان الثدي الموضعي HR+. وسعت برنامج IBIS-II لاحقاً التطبيق إلى الوقاية الكيميائية لدى النساء عالي الخطورة بعد انقطاع الطمث، مما أثبت تقليل حدوث سرطان الثدي بشكل مستدام بعد فترة العلاج النشط. تشكل هذه النتائج أساس المصادقة الإرشادية العالمية من قبل ESMO و ASCO و NCCN.
 
-Because female breast carcinoma is anastrozole's primary approved indication in most regulatory jurisdictions (FDA, EMA, Japan PMDA), this TxGNN prediction functions as a **knowledge-graph validation** rather than a novel repurposing signal. The more exploratory repurposing candidates for this drug appear at lower ranks in this evidence pack (neuroblastoma, retroperitoneal neoplasm, monocytic leukemia), which carry far weaker mechanistic rationale and lack supporting clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered under the specific query parameters ("ANASTROZOLE" + "female breast carcinoma", queried 2026-04-20) were retrieved in this evidence pack. This is attributable to query-parameter specificity rather than a genuine absence of trials — anastrozole has an extensive Phase 2/3 registration history in breast cancer. A direct ClinicalTrials.gov search using broader terms (e.g., "anastrozole breast cancer") yields several hundred completed and ongoing studies.
+نظراً لأن سرطان الثدي لدى الإناث هو المؤشر المعتمد الأساسي لأناستروزول في معظم الولايات القضائية التنظيمية (FDA، EMA، Japan PMDA)، فإن تنبؤ TxGNN هذا يعمل كـ **التحقق من مخزن المعرفة** بدلاً من إشارة استخدام جديدة. تظهر مرشحات الاستخدام لأغراض أخرى الأكثر استكشافاً لهذا الدواء في صفوف أقل في حزمة الأدلة هذه (الورم العصبي الأرومي، الورم غير المحدد في الفضاء الخلفي بالصفاق، الليوكيميا أحادية النوى)، والتي تحمل نسب مبررة آلية أضعف بكثير وتفتقر إلى الأدلة السريرية الداعمة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة ضمن معاملات الاستعلام المحددة ("ANASTROZOLE" + "female breast carcinoma"، تم الاستعلام عن 2026-04-20) تم استرجاعها في حزمة الأدلة هذه. يُعزى هذا إلى تحديد معاملات الاستعلام بدلاً من الغياب الحقيقي للتجارب — لدى أناستروزول سجل تسجيل واسع من المرحلة 2/3 في سرطان الثدي. يؤدي البحث المباشر في ClinicalTrials.gov باستخدام شروط أوسع (على سبيل المثال، "anastrozole breast cancer") إلى عدة مئات من الدراسات المكتملة والجارية.
+
+---
+
+## أدلة المراجع
+
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|------|------|---------|-------------|
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | Phase 3 RCT | Lancet | ATAC trial (n = 9,366): anastrozole significantly prolonged disease-free survival vs tamoxifen (575 vs 651 events, HR favoring anastrozole) after 5 years of adjuvant treatment in postmenopausal HR+ localized breast cancer |
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | Phase 3 RCT (chemoprevention) | Lancet | IBIS-II long-term results: anastrozole significantly reduced incidence of both invasive breast cancer and DCIS vs placebo in high-risk postmenopausal women, with benefit persisting well beyond the 5-year treatment period |
-| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | Phase 3 RCT | Lancet | IBIS-II DCIS (double-blind RCT): anastrozole superior to tamoxifen in preventing locoregional and contralateral breast cancer recurrence in postmenopausal women with locally excised HR+ DCIS |
-| [9024711](https://pubmed.ncbi.nlm.nih.gov/9024711/) | 1997 | Phase 3 RCT | Cancer | Pivotal Phase III trial (n = 386): anastrozole 1 mg and 10 mg daily comparable to megestrol acetate in advanced breast carcinoma progressing after tamoxifen; established 1 mg as the clinical dose |
-| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | Meta-analysis | Oncotarget | Meta-analysis of RCTs comparing anastrozole vs tamoxifen: anastrozole shows superior disease-free survival and time to progression, with lower rates of endometrial cancer and thromboembolic events |
-| [30499075](https://pubmed.ncbi.nlm.nih.gov/30499075/) | 2020 | Meta-analysis | Pathology Oncology Research | Meta-analysis (7 RCTs, DCIS + BCS + RT setting): tamoxifen reduces ipsilateral recurrence; 2 RCTs directly compare tamoxifen vs anastrozole in DCIS, informing endocrine therapy selection |
-| [32701512](https://pubmed.ncbi.nlm.nih.gov/32701512/) | 2020 | GWAS / Phase 3 | JCI Insight | GWAS within MA.27 Phase III RCT (anastrozole vs exemestane, n = 4,465+): CSMD1 SNP associated with breast cancer-free interval; identifies additional non-aromatase mechanisms including fatty acid synthase regulation |
-| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Drug Review | Expert Opinion on Drug Safety | Comprehensive drug monograph: third-generation AI adjuvant RCTs consistently demonstrate greater efficacy vs tamoxifen; reviews tolerability, bone/lipid effects, and clinical positioning |
-| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Systematic Review | Revista da Associacao Medica Brasileira | Systematic review of anastrozole in chemoprevention and treatment of hormone-sensitive breast cancer in postmenopausal women; summarizes pharmacodynamic and pharmacokinetic considerations including inter-individual variability |
-| [34048027](https://pubmed.ncbi.nlm.nih.gov/34048027/) | 2021 | Pharmacogenomics | Clinical Pharmacology and Therapeutics | SNP-treatment interaction analysis (n = 4,465): identified genetic variants differentially predicting efficacy of anastrozole versus exemestane in the adjuvant setting, supporting genotype-guided AI selection |
+| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | تجربة عشوائية تحكمية من المرحلة 3 | Lancet | تجربة ATAC (n = 9,366): أطال أناستروزول بشكل كبير من البقاء الخالي من المرض مقابل تاموكسيفين (575 مقابل 651 حدثاً، HR لصالح أناستروزول) بعد 5 سنوات من العلاج الهرموني المساعد لدى النساء بعد انقطاع الطمث مع سرطان الثدي الموضعي HR+ |
+| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | تجربة عشوائية تحكمية من المرحلة 3 (الوقاية الكيميائية) | Lancet | نتائج IBIS-II طويلة الأجل: قلل أناستروزول بشكل كبير من حدوث سرطان الثدي الغازي و DCIS مقابل الدواء الوهمي لدى النساء عالي الخطورة بعد انقطاع الطمث، مع استمرار الفائدة بعد فترة العلاج لمدة 5 سنوات |
+| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | تجربة عشوائية تحكمية من المرحلة 3 | Lancet | IBIS-II DCIS (تجربة عشوائية تحكمية مزدوجة العمى): كان أناستروزول متفوقاً على تاموكسيفين في منع الانتكاسة الموضعية والمقابلة بالثدي الآخر لدى النساء بعد انقطاع الطمث مع DCIS موجب المستقبلات الهرمونية المستأصل محلياً |
+| [9024711](https://pubmed.ncbi.nlm.nih.gov/9024711/) | 1997 | تجربة عشوائية تحكمية من المرحلة 3 | Cancer | تجربة المرحلة الثالثة المحورية (n = 386): أناستروزول 1 ملغ و 10 ملغ يومياً قابلة للمقارنة مع أسيتات ميجستول في سرطان الثدي المتقدم المتطور بعد تاموكسيفين؛ حددت 1 ملغ كجرعة سريرية |
+| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | تحليل تلوي | Oncotarget | تحليل تلوي للتجارب العشوائية التحكمية التي تقارن أناستروزول مقابل تاموكسيفين: يُظهر أناستروزول بقاءً خالياً من المرض متفوقاً ووقتاً إلى التطور، مع معدلات أقل من سرطان بطانة الرحم والأحداث الخثارية |
+| [30499075](https://pubmed.ncbi.nlm.nih.gov/30499075/) | 2020 | تحليل تلوي | Pathology Oncology Research | تحليل تلوي (7 تجارب عشوائية تحكمية، DCIS + BCS + RT setting): يقلل تاموكسيفين من الانتكاسة من نفس الجانب بالثدي؛ تقارن تجربتا عشوائية تحكمية مباشرة تاموكسيفين مقابل أناستروزول في DCIS، مما يوجه اختيار العلاج الهرموني |
+| [32701512](https://pubmed.ncbi.nlm.nih.gov/32701512/) | 2020 | دراسة الارتباط بين الجينوم الكامل / المرحلة 3 | JCI Insight | دراسة الارتباط بين الجينوم الكامل ضمن تجربة MA.27 من المرحلة الثالثة (أناستروزول مقابل إكسيميستان، n = 4,465+): ارتباط SNP CSMD1 مع فترة سرطان الثدي الخالية من الأحداث؛ يحدد آليات إضافية غير أروماتاز بما في ذلك تنظيم دهون اصطناعية |
+| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | استعراض الدواء | Expert Opinion on Drug Safety | مونوجراف دواء شامل: تجارب مثبطات الأروماتاز المساعدة من الجيل الثالث تُظهر باستمرار فعالية أكبر مقابل تاموكسيفين؛ يراجع التحمل وتأثيرات العظام والدهون والموضع السريري للعميل |
+| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | استعراض منهجي | Revista da Associacao Medica Brasileira | استعراض منهجي لأناستروزول في الوقاية الكيميائية وعلاج سرطان الثدي الحساس للهرمونات لدى النساء بعد انقطاع الطمث؛ يلخص الاعتبارات الديناميكية الدوائية والحركية الدوائية بما في ذلك التباين بين الأفراد |
+| [34048027](https://pubmed.ncbi.nlm.nih.gov/34048027/) | 2021 | صيدلة الجينات | Clinical Pharmacology and Therapeutics | تحليل التفاعل SNP-العلاج (n = 4,465): حدد متغيرات جينية تنبؤ بشكل تفاضلي بفعالية أناستروزول مقابل إكسيميستان في الإعداد المساعد، مما يدعم اختيار مثبط الأروماتاز الموجه بالنمط الجيني |
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — Hormonal/Endocrine (non-steroidal aromatase inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low — anastrozole has no direct bone marrow suppressive mechanism; myelosuppression is not a recognized class effect |
-| Emetogenicity Classification | Minimal — oral tablet formulation; clinical trials report nausea in fewer than 10% of patients, generally mild and self-limiting |
-| Monitoring Items | Bone mineral density (DEXA scan at baseline and annually; significant fracture and osteoporosis risk with long-term use), lipid profile, liver function (ALT/AST), musculoskeletal symptom assessment (arthralgia is a leading cause of treatment discontinuation) |
-| Handling Protection | Standard pharmaceutical handling procedures; cytotoxic drug handling precautions are not required for this endocrine agent |
+| تصنيف السمية الخلوية | العلاج الموجه — الهرموني/الغدد الصماء (مثبط أروماتاز غير الستيرويدي؛ وليس عاملاً سمياً تقليدياً) |
+| خطر قمع النخاع العظمي | منخفض — أناستروزول ليس له آلية قمع مباشرة للنخاع العظمي؛ قمع النخاع العظمي ليس تأثير فئة معترف به |
+| تصنيف الغثيان والقيء | أدنى — صيغة الجهاز اللوحي عن طريق الفم؛ تذكر التجارب السريرية الغثيان في أقل من 10% من المرضى، عموماً خفيفة وتختفي من تلقاء نفسها |
+| عناصر المراقبة | كثافة المعادن في العظام (فحص DEXA في الخط الأساسي وسنوياً؛ خطر كسر كبير وهشاشة العظام مع الاستخدام طويل الأجل)، ملف تعريف الدهون، وظيفة الكبد (ALT/AST)، تقييم الأعراض العضلية الهيكلية (الألم المفصلي هو السبب الرائد لعدم الامتثال للعلاج) |
+| حماية المعالجة | إجراءات معالجة صيدلانية قياسية؛ احتياطات معالجة الأدوية السمية ليست مطلوبة لهذا العامل الهرموني |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Formal key warnings, contraindications, and drug interaction data were not available in the current evidence pack.)
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (لم تكن بيانات التحذيرات الرئيسية الرسمية والموانع والتفاعلات الدوائية متاحة في حزمة الأدلة الحالية.)
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الحماية**
 
-**Rationale:**
-The TxGNN prediction for female breast carcinoma is supported by the highest possible evidence level (L1), with multiple landmark Phase 3 RCTs confirming anastrozole's efficacy and favorable tolerability in HR+ breast cancer. The primary barrier to clinical deployment in Saudi Arabia is the absence of local regulatory registration rather than any uncertainty about clinical benefit.
+**المنطق:**
+يدعم تنبؤ TxGNN لسرطان الثدي لدى الإناث أعلى مستوى ممكن من الأدلة (L1)، مع عدة تجارب عشوائية تحكمية محورية من المرحلة 3 تؤكد فعالية أناستروزول والتحمل الإيجابي في سرطان الثدي HR+. الحاجز الأساسي لنشر سريري في المملكة العربية السعودية هو غياب التسجيل التنظيمي المحلي بدلاً من أي عدم يقين حول الفائدة السريرية.
 
-**To proceed, the following is needed:**
+**للمتابعة، يُطلب ما يلي:**
 
-- **Regulatory pathway**: Obtain Saudi Arabia SFDA marketing authorization for anastrozole (originator Arimidex or approved generic); confirm current import and dispensing status
-- **Safety documentation**: Retrieve full prescribing information (package insert) for formal safety review, particularly regarding contraindications in premenopausal women and patients with severe hepatic impairment
-- **Baseline monitoring infrastructure**: Confirm availability of DEXA scanning for bone mineral density monitoring prior to initiating long-term therapy
-- **Patient selection criteria**: Define eligibility (postmenopausal status, confirmed HR+/HER2− pathology by IHC, ECOG PS 0–2) and document local estrogen receptor testing capability
-- **Drug interaction screening**: Conduct formal DDI review, particularly for co-administration with estrogen-containing products (direct antagonism) and CYP enzyme-inducing agents
+- **المسار التنظيمي**: الحصول على موافقة تسويق الهيئة العامة للغذاء والدواء بالمملكة العربية السعودية لأناستروزول (Arimidex الأصلي أو الجنيس المعتمد)؛ تأكيد حالة الاستيراد والتوزيع الحالية
+- **توثيق السلامة**: استرجاع معلومات الوصفة الطبية الكاملة (نشرة الحزمة) لمراجعة السلامة الرسمية، خاصة فيما يتعلق بالموانع لدى النساء قبل انقطاع الطمث والمرضى الذين يعانون من ضعف كبدي شديد
+- **البنية الأساسية لمراقبة الخط الأساسي**: تأكيد توفر فحص DEXA لمراقبة كثافة المعادن في العظام قبل بدء العلاج طويل الأجل
+- **معايير اختيار المرضى**: تحديد الأهلية (حالة ما بعد انقطاع الطمث، المسار النسيجي المؤكد HR+/HER2− بواسطة IHC، ECOG PS 0–2) وتوثيق القدرة على الاختبار المحلي لمستقبل الإستروجين
+- **فحص التفاعلات الدوائية**: إجراء مراجعة رسمية لـ DDI، خاصة لإدارة مشتركة مع منتجات تحتوي على الإستروجين (التعارض المباشر) والعوامل التي تحفز إنزيم CYP
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

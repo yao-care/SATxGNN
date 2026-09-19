@@ -29,79 +29,80 @@ indication_count: 5
 
 </div>
 
-# Ethambutol: From Tuberculosis to Epiglottitis
+# ethambutol: من السل إلى التهاب لسان المزمار
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Ethambutol is a first-line antituberculosis agent, originally used as part of combination therapy (isoniazid, rifampicin, pyrazinamide, ethambutol) for tuberculosis treatment. The TxGNN model predicts it may be effective for **Epiglottitis**, but currently only **2 publications** — neither specific to epiglottitis — support this direction, and **no clinical trials** have been identified, indicating substantial uncertainty.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Tuberculosis (pulmonary/extrapulmonary) — based on standard clinical use as part of first-line anti-TB combination therapy; no Saudi Arabia license text is available because the product is not currently marketed |
-| Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+يُعتبر ethambutol عاملاً مضاداً للسل من الخط الأول، يُستخدم تاريخياً كجزء من العلاج المركب (isoniazid، rifampicin، pyrazinamide، ethambutol) لعلاج السل. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب لسان المزمار**، لكن حالياً توجد **منشورتان فقط** — لا تتعلقان بشكل مباشر بالتهاب لسان المزمار — تدعمان هذا الاتجاه، و**لم يتم تحديد أي تجارب سريرية**، مما يشير إلى درجة كبيرة من عدم اليقين.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on known information, Ethambutol is part of the standard first-line antituberculosis combination regimen (isoniazid, rifampicin, pyrazinamide, ethambutol; "HRZE"), acting by inhibiting arabinosyltransferase (the *embCAB* gene product) and blocking arabinogalactan synthesis in the mycobacterial cell wall. Its efficacy in tuberculosis is well established.
-
-The link to epiglottitis is indirect. Acute epiglottitis is overwhelmingly a pyogenic bacterial disease (classically *Haemophilus influenzae*), with a pathogen profile, patient population, and disease course that differ substantially from mycobacterial infection. The theoretical rationale rests on the fact that laryngeal structures — including the epiglottis — can occasionally be involved in tuberculosis (laryngeal tuberculosis), a recognized extrapulmonary manifestation for which Ethambutol-containing regimens are already standard of care.
-
-However, the retrieved literature describes laryngeal tuberculosis broadly rather than epiglottitis specifically, and neither publication documents a treatment response for isolated epiglottic disease. This prediction should therefore be read as a mechanistically plausible but currently unproven extension of the existing tuberculosis indication, applicable at most to a narrow subset of epiglottitis cases with a confirmed tuberculous etiology — not to typical (bacterial) acute epiglottitis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | السل (الرئوي وخارج الرئوي) — بناءً على الاستخدام السريري المعياري كجزء من علاج السل المركب من الخط الأول؛ لا يتوفر نص الترخيص السعودي لأن المنتج غير موجود حالياً في السوق |
+| الاستطباب الجديد المتنبأ به | التهاب لسان المزمار |
+| درجة التنبؤ في TxGNN | 99.90% |
+| مستوى الدليل | L4 |
+| حالة السوق السعودي | غير موجود في السوق |
+| عدد التصاريح/الرخص | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2806495](https://pubmed.ncbi.nlm.nih.gov/2806495/) | 1989 | Case Series | The European Respiratory Journal | Review of 41 laryngeal tuberculosis cases (1975–1985); the epiglottis was the second most frequently affected site after the true vocal cords, and patients were treated with isoniazid, rifampicin, and ethambutol |
-| [14720571](https://pubmed.ncbi.nlm.nih.gov/14720571/) | 2004 | Review | The Lancet. Infectious Diseases | General review of laryngeal tuberculosis; no abstract available and not specific to epiglottitis |
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل. بناءً على المعلومات المعروفة، ethambutol هو جزء من نظام الخط الأول المعياري المضاد للسل (isoniazid، rifampicin، pyrazinamide، ethambutol؛ "HRZE")، ويعمل عن طريق تثبيط الأرابينوسيل ترانسفيراز (منتج جين *embCAB*) وحجب تخليق الأرابينوغالاكتان في جدار الخلية الفطري. إن فعاليته في السل موثقة جيداً.
 
----
+الارتباط بالتهاب لسان المزمار غير مباشر. يُعتبر التهاب لسان المزمار الحاد في الغالب مرضاً بكتيرياً قيحياً (كلاسيكياً *Haemophilus influenzae*)، ويتميز بملف العامل الممرض وتجمع السكان ومسار المرض الذي يختلف اختلافاً جوهرياً عن العدوى الفطرية. يستند الأساس النظري إلى حقيقة أن الهياكل الحنجرية — بما فيها لسان المزمار — يمكن أن تُصاب أحياناً بالسل (السل الحنجري)، وهو مظهر معروف من مظاهر السل خارج الرئوي يُعالج بالفعل بأنظمة دوائية معيارية تحتوي على ethambutol.
 
-## Saudi Arabia Market Information
-
-Ethambutol is currently **not marketed** in Saudi Arabia — no product authorizations are on file (0 licenses).
+ومع ذلك، فإن الأدبيات المُسترجعة تصف السل الحنجري على نطاق واسع بدلاً من التركيز على التهاب لسان المزمار بشكل محدد، وليس أي من المنشورتين يوثق استجابة العلاج لمرض لسان المزمار المعزول. وبالتالي يجب قراءة هذا التنبؤ كامتداد معقول من الناحية الآلية لكن لم يُثبت حالياً للاستطباب الموجود للسل، قابل للتطبيق على الأكثر على مجموعة ضيقة من حالات التهاب لسان المزمار مع تأكيد إصابة السل — وليس التهاب لسان المزمار الحاد البكتيري النمطي.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*Note: A TFDA package insert (warnings/contraindications) has not yet been retrieved for this product, which is a blocking data gap for a full safety evaluation.*
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| المعرّف | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [2806495](https://pubmed.ncbi.nlm.nih.gov/2806495/) | 1989 | سلسلة حالات | The European Respiratory Journal | مراجعة 41 حالة من السل الحنجري (1975–1985)؛ كان لسان المزمار ثاني أكثر موقع إصابة شيوعاً بعد الأحبال الصوتية الحقيقية، وعولج المرضى بـ isoniazid و rifampicin و ethambutol |
+| [14720571](https://pubmed.ncbi.nlm.nih.gov/14720571/) | 2004 | مراجعة | The Lancet. Infectious Diseases | مراجعة عامة للسل الحنجري؛ لا يتوفر ملخص وليست محددة لالتهاب لسان المزمار |
 
-**Rationale:**
-Evidence specific to epiglottitis is weak — both available publications describe laryngeal tuberculosis in general rather than epiglottitis, no clinical trials exist, and the mechanistic rationale only applies to the rare subset of epiglottitis with confirmed tuberculous etiology, not typical bacterial acute epiglottitis. This corresponds to Evidence Level L4 (mechanism/case-based only) and decision stage S1. (For context, two other TxGNN-predicted indications for this drug — laryngitis and peritonitis — currently show stronger evidence, L3/S2 "Proceed with Guardrails," and may warrant prioritization over epiglottitis.)
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently a blocking gap (DG001)
-- Detailed mechanism of action (MOA) data from DrugBank — currently a high-priority gap (DG002)
-- Epiglottitis-specific case reports or trials distinguishing tuberculous from bacterial etiology, to define an appropriate target population
-- Saudi Arabia market authorization pathway, since the product is not currently marketed locally
+## معلومات السوق السعودي
+
+ethambutol غير موجود حالياً في السوق السعودي — لا توجد تصاريح منتجات مسجلة (0 رخص).
+
+---
+
+## الاعتبارات الأمنية
+
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+*ملاحظة: لم يتم استرجاع نشرة معلومات TFDA (التحذيرات/موانع الاستعمال) لهذا المنتج حتى الآن، وهي فجوة بيانات حاجزة لإجراء تقييم أمان شامل.*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+الدليل الخاص بالتهاب لسان المزمار ضعيف — كلا المنشورتين المتاحتين تصفان السل الحنجري بشكل عام بدلاً من التهاب لسان المزمار، لا توجد تجارب سريرية، والأساس الآلي ينطبق فقط على مجموعة نادرة من حالات التهاب لسان المزمار مع تأكيد إصابة السل، وليس على التهاب لسان المزمار الحاد البكتيري النمطي. وهذا يتوافق مع مستوى الدليل L4 (القائم على الآلية/الحالات فقط) ومرحلة القرار S1. (للسياق، يُظهر اثنان من استطبابات TxGNN الأخرى المتنبأ بها لهذا الدواء — التهاب الحنجرة والتهاب الصفاق — حالياً أدلة أقوى، L3/S2 "المضي قدماً مع الحماية"، وقد تستحق الأولوية على التهاب لسان المزمار.)
+
+**لكي نتابع، يلزم ما يلي:**
+- بيانات نشرة معلومات TFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة حاجزة (DG001)
+- بيانات آلية العمل التفصيلية من DrugBank — حالياً فجوة ذات أولوية عالية (DG002)
+- تقارير حالات أو تجارب سريرية محددة لالتهاب لسان المزمار تميز بين الإصابة السلية والبكتيرية، لتحديد السكان المستهدفين المناسبين
+- مسار التصريح السوقي السعودي، لأن المنتج غير موجود حالياً في السوق المحلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

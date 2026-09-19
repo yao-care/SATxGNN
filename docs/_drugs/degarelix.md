@@ -29,86 +29,87 @@ indication_count: 10
 
 </div>
 
-# Degarelix: From Prostate Cancer to Hypertrichosis
+# ديجاريليكس: من سرطان البروستاتا إلى فرط شعر الجسم
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Degarelix (Firmagon) is a GnRH receptor antagonist, internationally approved for the treatment of advanced hormone-sensitive prostate cancer by rapidly suppressing testosterone levels; it is not currently marketed in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Hypertrichosis**, yet **0 clinical trials** and **0 publications** currently support this direction.
-Across all 10 top-ranked predictions, evidence remains at L5 (model prediction only), with central precocious puberty (rank 9) representing the sole indication with genuine mechanistic rationale worth further exploration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Advanced hormone-sensitive prostate cancer (internationally approved; not marketed in Saudi Arabia) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+ديجاريليكس (Firmagon) هو مضاد لمستقبلات هرمون الإفراج عن الهرمون الملوتن (GnRH)، وقد حصل على موافقة دولية لعلاج سرطان البروستاتا المتقدم الحساس للهرمونات من خلال تثبيط مستويات التستوستيرون بسرعة؛ لا يتم تسويقه حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فرط شعر الجسم**، لكن **0 تجربة سريرية** و**0 منشورات** تدعم حالياً هذا الاتجاه.
+عبر جميع أفضل 10 تنبؤات مصنفة، يبقى المستوى الدليلي عند L5 (تنبؤ النموذج فقط)، مع البلوغ المبكر المركزي (الرتبة 9) يمثل المؤشر الوحيد الذي يحتوي على أساس آلي حقيقي يستحق المزيد من الاستكشاف.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Degarelix is a synthetic GnRH (gonadotropin-releasing hormone) receptor antagonist. By competitively blocking GnRH receptors in the anterior pituitary, it rapidly suppresses LH and FSH secretion — which in turn drives testosterone levels to castrate range within days, without the initial testosterone surge ("flare") seen with GnRH agonists. This mechanism is the basis for its established role in prostate cancer management.
-
-The model's prediction of hypertrichosis rests on a partial hormonal logic: androgens (particularly dihydrotestosterone, DHT) are known to stimulate terminal hair follicle growth in androgen-sensitive body regions. In that narrow subset, suppressing testosterone via GnRH blockade could theoretically reduce hair growth. This reasoning is most applicable to androgen-dependent hirsutism in women with hyperandrogenism — a condition that overlaps clinically but is distinct from hypertrichosis as a disease entity.
-
-The fundamental problem is that **hypertrichosis (as classified) is predominantly non-androgen-dependent**: it encompasses congenital genetic forms, drug-induced generalized hypertrichosis, and paraneoplastic types, where the GnRH axis plays no established pathological role. Without knowing the specific subtype, the mechanistic link is speculative and fragile. The complete absence of supporting clinical trials or literature across all 10 predicted indications reinforces that TxGNN has likely captured a weak structural graph association rather than a true pharmacological opportunity in this case.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | سرطان البروستاتا المتقدم الحساس للهرمونات (موافق عليه دولياً؛ لا يتم تسويقه في المملكة العربية السعودية) |
+| المؤشر المتنبأ به | فرط شعر الجسم (المرض) |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | لا يتم تسويقه |
+| عدد التفاويض | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+ديجاريليكس هو مضاد اصطناعي لمستقبلات هرمون الإفراج عن الهرمون الملوتن (GnRH). من خلال حجب مستقبلات GnRH بشكل تنافسي في الغدة النخامية الأمامية، فإنه يثبط بسرعة إفراز الهرمون الملوتن (LH) والهرمون المحفز للجريب (FSH) - والذي بدوره يدفع مستويات التستوستيرون إلى نطاق الإخصاء في غضون أيام، دون الارتفاع الأولي في التستوستيرون ("التوهج") الذي يُلاحظ مع الناهضات. هذه الآلية هي أساس دوره المُثبت في إدارة سرطان البروستاتا.
 
----
+يستند تنبؤ النموذج بفرط شعر الجسم إلى منطق هرموني جزئي: من المعروف أن الأندروجينات (خاصة ثنائي هيدروتستوستيرون، DHT) تحفز نمو بصيلات الشعر الطرفية في المناطق الحساسة للأندروجين من الجسم. في تلك المجموعة الضيقة، قد يؤدي تثبيط التستوستيرون عبر حجب GnRH إلى تقليل نمو الشعر نظرياً. ينطبق هذا المنطق بشكل أفضل على فرط شعر الوجه (hirsutism) الذي يعتمد على الأندروجين لدى النساء ذوات فرط الأندروجينات - وهي حالة تتداخل سريرياً لكنها مختلفة عن فرط شعر الجسم كوحدة مرضية.
 
-## Cytotoxicity
-
-Degarelix is used for advanced prostate cancer (a malignancy), qualifying for this section as a non-cytotoxic antineoplastic agent.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Hormonal therapy — GnRH receptor antagonist (non-cytotoxic antineoplastic) |
-| Myelosuppression Risk | Low — not a conventional cytotoxic; no bone marrow suppression expected |
-| Emetogenicity Classification | Minimal (subcutaneous hormonal injection; not classified as emetogenic) |
-| Monitoring Items | Serum testosterone and PSA, liver function tests, QTc interval (risk of QT prolongation, particularly with concomitant QT-prolonging drugs), bone mineral density (with prolonged androgen deprivation) |
-| Handling Protection | Standard precautions; not classified under cytotoxic chemotherapy handling regulations |
+المشكلة الأساسية هي أن **فرط شعر الجسم (كما هو مصنف) يعتمد بشكل أساسي على عدم الأندروجين**: فهو يشمل أشكالاً جينية خلقية، فرط شعر الجسم المعممة المستحثة بالأدوية، والأنواع شبه الورمية، حيث لا يوجد دور مرضي معروف لمحور GnRH. بدون معرفة النوع الفرعي المحدد، يكون الارتباط الآلي تخميني وضعيف. غياب الدعم السريري أو الأدبي الكامل عبر جميع 10 مؤشرات متنبأ بها يعزز أن TxGNN ربما التقط ارتباطاً ضعيفاً في الرسم البياني الهيكلي بدلاً من فرصة صيدلية حقيقية في هذه الحالة.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## الدليل الأدبي
 
-**Decision: Hold**
+لا يوجد أدب مرتبط متاح حالياً.
 
-**Rationale:**
-There is no clinical trial evidence or published literature connecting Degarelix to hypertrichosis. The mechanistic link is highly subtype-dependent and does not hold for the majority of hypertrichosis presentations, making this prediction insufficient to justify further investment at this time.
+---
 
-**To proceed toward any indication, the following is needed:**
+## السمية الخلوية
 
-- **MOA data gap resolution**: Retrieve full DrugBank MOA and toxicology profile (Data Gap DG002) before any mechanistic analysis can be considered complete
-- **Safety package**: Obtain and review the full prescribing information / package insert warnings and contraindications (Data Gap DG001 — currently Blocking for safety pre-screening)
-- **Subtype stratification for hypertrichosis**: If further exploration is desired, restrict scope strictly to androgen-dependent forms (e.g., hirsutism in hyperandrogenic women); exclude congenital and genetic subtypes entirely
-- **Prioritize rank 9 — Central Precocious Puberty (CPP)**: Among all 10 predicted indications, CPP (rank 9, evidence L4) has the strongest pharmacological rationale — GnRH antagonists directly interrupt the overactivated hypothalamic-pituitary-gonadal axis that defines CPP pathology, and the class effect is already established through approved GnRH agonists (leuprolide, histrelin, triptorelin). A focused literature review and pediatric dosing/formulation assessment for Degarelix in CPP is the recommended next research question
-- **Exclude mechanistically mismatched predictions**: Rank 2 (Ambras syndrome), rank 3 (Dandy-Walker malformation), rank 5 (genetic hair shaft abnormality), and rank 8 (familial male-limited precocious puberty) all have explicit mechanistic incompatibilities documented in the evidence pack and should be deprioritized with no further investigation
+يُستخدم ديجاريليكس لسرطان البروستاتا المتقدم (ورم خبيث)، وهو ما يندرج ضمن هذا القسم كوكيل مضاد للأورام غير سام.
+
+| العنصر | المحتوى |
+|--------|---------|
+| تصنيف السمية الخلوية | العلاج الهرموني - مضاد مستقبل GnRH (وكيل مضاد للأورام غير سام) |
+| خطر قمع النخاع العظمي | منخفض - ليس سماً حقيقياً؛ لا يتوقع حدوث قمع نخاع عظمي |
+| تصنيف الغثيان المستحث | الحد الأدنى (حقن هرموني تحت الجلد؛ لا يُصنف كمسبب للغثيان) |
+| عناصر المراقبة | التستوستيرون المصل و PSA، اختبارات وظائف الكبد، فترة QTc (خطر إطالة QT، خاصة مع العقاقير المطيلة لـ QT المصاحبة)، كثافة المعادن في العظام (مع إحداث فقدان الأندروجين طويل الأمد) |
+| حماية التعامل | الاحتياطات القياسية؛ لا يُصنف ضمن لوائح التعامل مع العلاج الكيميائي السام |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المنطق:**
+لا توجد أدلة تجارب سريرية أو أدبيات منشورة تربط ديجاريليكس بفرط شعر الجسم. الارتباط الآلي يعتمد بشدة على النوع الفرعي ولا ينطبق على الغالبية العظمى من حالات فرط شعر الجسم، مما يجعل هذا التنبؤ غير كافٍ لتبرير المزيد من الاستثمار في هذا الوقت.
+
+**للمتابعة نحو أي مؤشر، ما يلي مطلوب:**
+
+- **حل فجوة بيانات الآلية**: استرجاع ملف الآلية الكامل والملف السموعي من DrugBank (فجوة البيانات DG002) قبل أن يمكن اعتبار أي تحليل آلي كاملاً
+- **حزمة السلامة**: الحصول على مراجعة معلومات الوصفة الطبية الكاملة / تحذيرات ملحق العبوة والموانع (فجوة البيانات DG001 - حالياً محظور لفحص السلامة المسبق)
+- **تقسيم الأنواع الفرعية لفرط شعر الجسم**: إذا كان المزيد من الاستكشاف مرغوباً فيه، قصر النطاق بدقة على الأشكال التي تعتمد على الأندروجين (مثل فرط شعر الوجه لدى النساء فرط الأندروجينات)؛ استبعد الأنواع الخلقية والجينية بالكامل
+- **الأولوية للرتبة 9 - البلوغ المبكر المركزي (CPP)**: بين جميع 10 مؤشرات متنبأ بها، البلوغ المبكر المركزي (الرتبة 9، الدليل L4) له أقوى أساس صيدلاني - مضادات GnRH تقاطع مباشرة محور الغدة النخامية-تحت المهاد-الغدد التناسلية المفرط النشاط الذي يحدد مرضية البلوغ المبكر المركزي، والتأثير الطبقي مُثبت بالفعل من خلال الناهضات الموافق عليها (leuprolide, histrelin, triptorelin). المراجعة الأدبية المركزة وتقييم الجرعات/الصيغة لدى الأطفال لديجاريليكس في البلوغ المبكر المركزي هي السؤال البحثي التالي الموصى به
+- **استبعد التنبؤات غير المتطابقة آلياً**: الرتبة 2 (متلازمة أمبراس)، الرتبة 3 (تشوه داندي-ووكر)، الرتبة 5 (شذوذ عمود الشعرة الجيني)، والرتبة 8 (البلوغ المبكر المحدود للذكور العائلي) جميعها تحتوي على عدم توافق آلي صريح موثق في حزمة الدليل ويجب أن تُعطى أولوية أقل مع عدم إجراء أي مزيد من التحقيقات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

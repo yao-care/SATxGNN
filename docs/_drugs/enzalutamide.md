@@ -29,88 +29,89 @@ indication_count: 7
 
 </div>
 
-# Enzalutamide: From Prostate Cancer to Prostate/Brain Cancer Susceptibility
+# إنزالوتاميد: من سرطان البروستاتا إلى قابلية التعرض لسرطان البروستاتا/الدماغ
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Enzalutamide is an androgen receptor (AR) antagonist established for prostate cancer treatment — although this Evidence Pack's own `original_indications` field is empty (a flagged data gap), the pack's supporting evidence (see Rank 6 below) independently confirms prostate cancer as its known, approved use. The TxGNN model's top-ranked "new" prediction, **prostate cancer/brain cancer susceptibility**, is a hereditary-risk label rather than a treatable disease entity, and currently has **0 clinical trials** and **0 publications** supporting it. Evidence is essentially absent, and the recommended action is **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Prostate cancer (confirmed via evidence rationale, cross-checked against Rank 6 candidate; the `original_indications` field itself is a documented data gap — see Conclusion) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إنزالوتاميد هو مثبط مستقبلات الأندروجين (AR) المعروف لعلاج سرطان البروستاتا — على الرغم من أن حقل `original_indications` في هذه مجموعة الأدلة نفسها فارغ (وهي فجوة بيانات معلمة)، فإن الأدلة الداعمة في المجموعة (انظر الرتبة 6 أدناه) تؤكد بشكل مستقل سرطان البروستاتا كاستخدام معروف وموافق عليه. التنبؤ الأعلى ترتيباً من نموذج TxGNN من "جديد"، **قابلية التعرض لسرطان البروستاتا/الدماغ**، هي تسمية خطر وراثي وليست كيان مرض قابل للعلاج، وحالياً لديها **0 تجربة سريرية** و **0 منشورات** تدعمها. الأدلة غائبة بشكل أساسي، والإجراء الموصى به هو **الانتظار**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for enzalutamide is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on the supporting rationale text attached to related candidates in this pack, enzalutamide is understood to act as an androgen receptor (AR) antagonist, blocking AR-driven signal transduction — the pathway that drives prostate cancer growth. This mechanism has been clinically validated in prostate cancer (see the Rank 6 evidence set below, which independently confirms this).
-
-The model's top-ranked candidate, however, is not a treatable clinical disease — it is a **cancer susceptibility label** describing hereditary/genetic risk for prostate and brain cancer. AR antagonism has no established mechanistic pathway for altering germline or hereditary cancer *risk*; it only acts on AR-driven tumor cells that already exist. As the evidence pack's own rationale states, this association most likely reflects a knowledge-graph proximity artifact (disease nodes near "prostate cancer" in the graph being scored highly) rather than a genuine pharmacological hypothesis.
-
-For context, five of the seven candidates in this pack (ranks 1–5, 7 — prostate/brain cancer susceptibility, prostate leiomyoma, Brenner tumor, fibroma of prostate, benign prostate phyllodes tumor) are rare, mostly benign conditions with **zero supporting trials or literature**, all scored L5/Hold. Only Rank 6 ("male reproductive organ cancer") carries substantive clinical trial and literature support (L2, Proceed with Guardrails) — but per its own rationale, this candidate effectively re-identifies enzalutamide's already-approved prostate cancer indication rather than representing a novel repurposing opportunity. No candidate in this pack currently constitutes a validated new-indication hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | سرطان البروستاتا (مؤكد عبر الأساس المنطقي للأدلة، مقارن مع مرشح الرتبة 6؛ حقل `original_indications` نفسه هو فجوة بيانات موثقة — انظر الخلاصة) |
+| المؤشر الجديد المتنبأ به | قابلية التعرض لسرطان البروستاتا/الدماغ |
+| درجة تنبؤ TxGNN | 99.71% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل المفصلة لإنزالوتاميد غير متوفرة في هذه مجموعة الأدلة (معلمة كفجوة بيانات ذات شدة عالية، DG002). بناءً على نص المنطق الداعم المرفق بالمرشحين ذي الصلة في هذه المجموعة، يُفهم أن إنزالوتاميد يعمل كمثبط لمستقبلات الأندروجين (AR)، محجوباً نقل الإشارات المدفوعة بـ AR — المسار الذي يدفع نمو سرطان البروستاتا. تم التحقق السريري من هذه الآلية في سرطان البروستاتا (انظر مجموعة الأدلة برتبة 6 أدناه، والتي تؤكد هذا بشكل مستقل).
 
----
+التنبؤ الأعلى ترتيباً من النموذج، مع ذلك، ليس مرضاً سريرياً قابلاً للعلاج — إنه **تسمية قابلية التعرض للسرطان** تصف الخطر الوراثي/الجيني لسرطان البروستاتا والدماغ. لا يوجد مسار وراثي أو موروث معروف لتعديل AR antagonism لخطر السرطان *؛ فهو يعمل فقط على خلايا الأورام المدفوعة بـ AR التي توجد بالفعل. كما ينص على الأساس المنطقي الخاص بمجموعة الأدلة نفسها، هذا الارتباط على الأرجح يعكس تجعد القرب من الرسم البياني المعرفي (عقد المرض بالقرب من "سرطان البروستاتا" في الرسم البياني يتم تسجيله عالياً) بدلاً من فرضية صيدلية حقيقية.
 
-## Saudi Arabia Market Information
-
-Enzalutamide is currently **not marketed** in Saudi Arabia under this Evidence Pack's regulatory data (0 authorizations on record). No product license entries are available to list.
+للسياق، خمسة من المرشحين السبعة في هذه المجموعة (الرتب 1–5، 7 — قابلية التعرض لسرطان البروستاتا/الدماغ، الليفوميوما في البروستاتا، ورم بريندل، الليفوما في البروستاتا، ورم البروستاتا الوردي الحميد) هي حالات نادرة في الغالب، حالات حميدة معظمها مع **صفر تجارب داعمة أو أدبيات**، جميعها برتبة L5/الانتظار. فقط المرشح برتبة 6 ("سرطان أعضاء الجهاز التناسلي الذكري") يحمل دعماً تجريبياً سريرياً وأدبياً كبيراً (L2، المضي قدماً مع الحماية) — لكن وفقاً لأساس منطقه الخاص، هذا المرشح يعاد تحديد فعلياً مؤشر إنزالوتاميد المعتمد بالفعل لسرطان البروستاتا بدلاً من تمثيل فرصة إعادة تطبيق جديدة. لا يوجد مرشح في هذه المجموعة يشكل حالياً فرضية دلالة جديدة معروفة.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-Enzalutamide's original approved use is oncologic (prostate cancer), and it is mechanistically an androgen receptor pathway inhibitor rather than a conventional DNA-damaging chemotherapy agent, so this section is included per the antineoplastic-drug criteria.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Androgen Receptor signaling inhibitor / non-cytotoxic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+حالياً لا تتوفر أدبيات ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+إنزالوتاميد حالياً **غير مسوق** في المملكة العربية السعودية بموجب بيانات تنظيمية هذه المجموعة الأدلة (0 تفويضات مسجلة). لا توجد إدخالات رخصة منتج متاحة للإدراج.
 
-**Rationale:**
-The top-ranked predicted indication (prostate cancer/brain cancer susceptibility) is a hereditary-risk label rather than a treatable disease, with zero supporting clinical trials or literature (L5). Combined with a Blocking-severity data gap on the TFDA/regulatory package insert (DG001) — which prevents any initial safety assessment (S1) — this candidate cannot proceed past the current stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action (MOA) data via DrugBank — currently a High-severity data gap (DG002)
-- Correction of the `original_indications` metadata field, which is empty despite the evidence pack's own rationale independently confirming prostate cancer as the approved use — this discrepancy should be resolved before further scoring
-- If repurposing is still of interest, re-scope away from Rank 1–5 and 7 (no evidence base) and clarify whether Rank 6 ("male reproductive organ cancer") represents a genuinely new use or simply restates the existing approved indication, since current evidence indicates the latter
+## السمية الخلوية
+
+الاستخدام الأصلي الموافق عليه لإنزالوتاميد هو الأورام (سرطان البروستاتا)، وهو آلية كيميائية مثبطة لمسار مستقبلات الأندروجين بدلاً من عامل العلاج الكيميائي التقليدي الذي يضر الحمض النووي، لذا يتم تضمين هذا القسم وفقاً لمعايير عقار المضادات للأورام.
+
+| العنصر | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | علاج موجه (مثبط إشارة مستقبل الأندروجين / غير سام للخلايا) |
+| خطر قمع النخاع | يرجى الرجوع إلى تحذيرات واحتياطات بطاقة المنتج |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات بطاقة المنتج |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات بطاقة المنتج |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات واحتياطات بطاقة المنتج |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى بطاقة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+المؤشر المتنبأ به برتبة الأعلى (قابلية التعرض لسرطان البروستاتا/الدماغ) هو تسمية خطر وراثي وليس مرض قابل للعلاج، مع صفر تجارب سريرية أو أدبيات داعمة (L5). مجتمعة مع فجوة بيانات بشدة حجب على بطاقة المنتج TFDA/التنظيمية (DG001) — والتي تمنع أي تقييم سلامة أولي (S1) — لا يمكن لهذا المرشح المضي قدماً بعد المرحلة الحالية.
+
+**لكي تتمكن من المضي قدماً، يلزم ما يلي:**
+- بطاقة المنتج TFDA/التنظيمية (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حجب (DG001)
+- بيانات آلية العمل المؤكدة (MOA) عبر DrugBank — حالياً فجوة بيانات ذات شدة عالية (DG002)
+- تصحيح حقل البيانات الوصفية `original_indications`، والذي فارغ على الرغم من أن الأساس المنطقي الخاص بمجموعة الأدلة نفسها يؤكد بشكل مستقل سرطان البروستاتا كاستخدام معتمد — يجب حل هذا التناقض قبل المزيد من التقييم
+- إذا كانت إعادة التطبيق لا تزال ذات اهتمام، فيجب إعادة تحديد النطاق بعيداً عن الرتب 1–5 و 7 (لا توجد قاعدة أدلة) وتوضيح ما إذا كان المرشح برتبة 6 ("سرطان أعضاء الجهاز التناسلي الذكري") يمثل استخداماً جديداً حقيقياً أو ببساطة يعيد صياغة المؤشر الموافق عليه الحالي، حيث تشير الأدلة الحالية إلى الأخير
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,104 +29,94 @@ indication_count: 4
 
 </div>
 
-Using the provided report template (no additional skill applies — this is a direct content-generation task against an explicit user-supplied format) to produce the evaluation report.
+# إليتريبتان: من علاج الصداع النصفي الحاد إلى الصداع النصفي مع الهالة الجذعية
 
-I reviewed the Evidence Pack. Key points that shape the report:
-- `original_indications` and Saudi `licenses` are empty (drug not marketed in Saudi Arabia), so the "original indication" has to be stated from established pharmacology (eletriptan = triptan for acute migraine), not from a license record.
-- The #1 predicted indication, "migraine with brainstem aura," is a subtype where triptans are a classic **relative contraindication** (vasoconstriction risk in vertebrobasilar circulation) — the evidence pack's own `repurposing_rationale` flags this, not as a positive new-use hypothesis. I represent that honestly rather than dressing it up as a therapeutic opportunity.
-- Ranks 2–4 (atrophoderma vermiculata, ulerythema ophryogenesis, sciatic neuropathy) have zero trials/literature (S0/L5) and are flagged in the source data itself as likely embedding artifacts — I note this briefly rather than building out empty sections for them.
+## الملخص بجملة واحدة
 
-Here is the report:
-
----
-
-# Eletriptan: From Acute Migraine to Migraine with Brainstem Aura
-
-## One-Sentence Summary
-
-> Eletriptan is a selective 5-HT1B/1D receptor agonist (triptan) established for the acute treatment of migraine attacks.
-> The TxGNN model assigns its highest new-indication score to **migraine with brainstem aura**,
-> but this "prediction" is better read as a **safety flag than a therapeutic opportunity** — no clinical trials and only general triptan/migraine literature (18 publications) exist, and triptans are conventionally considered a **relative contraindication** in this specific migraine subtype.
+> إليتريبتان هو ناهض انتقائي لمستقبلات 5-HT1B/1D (من فئة التريبتانات) معتمد لعلاج نوبات الصداع النصفي الحادة.
+> يُسند نموذج TxGNN أعلى درجة تنبؤ لمؤشر جديد إلى **الصداع النصفي مع الهالة الجذعية**،
+> لكن هذا "التنبؤ" يجب أن يُفهم على أنه **إشارة تحذير أمان بدلاً من فرصة علاجية** — لا توجد تجارب سريرية، وتتوفر فقط أدبيات عامة عن التريبتانات/الصداع النصفي (18 منشور)، والتريبتانات تُعتبر تقليدياً **موانع نسبية** في هذا النوع الفرعي المحدد من الصداع النصفي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute treatment of migraine (with or without aura) — established pharmacological use; no Saudi Arabia license record exists to cite an official indication text |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Eletriptan is a selective 5-HT1B/1D receptor agonist. Its classic mechanism is to induce vasoconstriction of intracranial (including meningeal) arteries and to inhibit release of inflammatory neuropeptides from the trigeminovascular system — a mechanism well established for typical migraine, with or without classic aura (PMID 12498013, 24065716).
-
-However, "migraine with brainstem aura" (formerly called basilar-type migraine) is treated differently. In IHS/ICHD-3 classification and in most national drug labels, this subtype is listed as a **relative contraindication for triptans**, because the same vasoconstrictive mechanism that relieves typical migraine is theorized to worsen ischemic risk in the vertebrobasilar circulation. In other words, the biological "link" TxGNN found here is real at the receptor-pharmacology level, but it points toward a **risk signal, not a positive efficacy hypothesis** — this is fundamentally different from an ordinary repurposing candidate where mechanistic overlap supports a new benefit.
-
-One directly relevant RCT (PMID 15469451) tested eletriptan 80 mg administered during the aura phase itself and found no benefit — consistent with the conventional caution around treating aura-phase/brainstem-aura presentations with triptans. A separate case report (PMID 25155004) describes a myocardial infarction temporally associated with eletriptan use, reinforcing that vasoconstrictive class effects warrant caution in patients with vascular risk factors, which is conceptually related to (though not identical to) the brainstem-aura concern.
-
-For context, the other three TxGNN-predicted indications in this pack (atrophoderma vermiculata, ulerythema ophryogenesis, sciatic neuropathy) have zero supporting trials or literature (evidence level L5, decision stage S0) and no plausible mechanistic link to 5-HT1B/1D agonism; per the evidence pack's own annotations, these are most likely embedding-proximity artifacts of the knowledge graph rather than genuine hypotheses, and are not carried forward in this report.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | العلاج الحاد لنوبات الصداع النصفي (مع أو بدون هالة) — استخدام دوائي معتمد؛ لا يوجد سجل ترخيص في المملكة العربية السعودية لاستشهاد بنص المؤشر الرسمي |
+| المؤشر الجديد المتنبأ به | الصداع النصفي مع الهالة الجذعية |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مُسوّق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related clinical trials registered.
+إليتريبتان هو ناهض انتقائي لمستقبلات 5-HT1B/1D. آلية عمله الكلاسيكية تحفيز تضيق الأوعية داخل الجمجمة (بما في ذلك أوعية السحايا) وتثبيط إفراز الببتيدات الالتهابية العصبية من الجهاز ثلاثي التوزيع — آلية معتمدة جيداً للصداع النصفي النموذجي، مع أو بدون هالة كلاسيكية (PMID 12498013, 24065716).
 
----
+ومع ذلك، "الصداع النصفي مع الهالة الجذعية" (يُطلق عليه سابقاً الصداع النصفي من النوع القاعدي) يُعالج بشكل مختلف. في تصنيف IHS/ICHD-3 وفي معظم ملصقات الأدوية الوطنية، يُدرج هذا النوع الفرعي كـ **موانع نسبية للتريبتانات**، لأن نفس آلية التضيق الوعائي التي تخفف الصداع النصفي النموذجي يُنظر إليها نظرياً على أنها تفاقم خطر الإقفار في الدورة الدموية الفقري القاعدية. بعبارة أخرى، الارتباط البيولوجي "الرابط" الذي وجده TxGNN هنا حقيقي على مستوى الصيدلة الجزيئية، لكنه يشير إلى **إشارة خطر، وليس فرضية فعالية إيجابية** — وهذا يختلف بشكل جذري عن مرشح إعادة استخدام عادي حيث يدعم التداخل الميكانيكي فائدة جديدة.
 
-## Literature Evidence
+تناول دراسة واحدة معشاة ذات شواهد مباشرة (PMID 15469451) تقييم إليتريبتان 80 ملغ أُعطيت أثناء مرحلة الهالة ولم تُظهر فائدة — ما يتسق مع الحذر التقليدي بشأن علاج عروض مرحلة الهالة/الهالة الجذعية بالتريبتانات. تصف حالة سريرية منفصلة (PMID 25155004) احتشاء عضلي في القلب مرتبط زمنياً باستخدام إليتريبتان، ما يعزز أن التأثيرات التضيقية للفئة تستوجب حذراً لدى المرضى الذين يحملون عوامل خطر وعائية، وهي مرتبطة مفاهيمياً (وإن لم تكن متطابقة) بقلق الهالة الجذعية.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15469451](https://pubmed.ncbi.nlm.nih.gov/15469451/) | 2004 | RCT | European Journal of Neurology | Eletriptan 80 mg given during the aura phase showed no benefit — directly tests early/aura-phase dosing relevant to the brainstem-aura question |
-| [12807526](https://pubmed.ncbi.nlm.nih.gov/12807526/) | 2003 | RCT | Cephalalgia | Eletriptan 40 mg effective and tolerable in patients with prior poor response/tolerance to sumatriptan, in patients with and without aura (n=446) |
-| [11844898](https://pubmed.ncbi.nlm.nih.gov/11844898/) | 2002 | RCT | European Neurology | Eletriptan 40/80 mg superior to placebo and comparable/better than Cafergot for acute migraine |
-| [17501848](https://pubmed.ncbi.nlm.nih.gov/17501848/) | 2007 | RCT (functional/subanalysis) | Headache | Eletriptan improved work productivity and functional impairment scores during acute migraine attacks |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review/Guideline | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies, including triptans |
-| [12498013](https://pubmed.ncbi.nlm.nih.gov/12498013/) | 2002 | Review (drug profile) | Current Opinion in Investigational Drugs | Describes eletriptan's 5-HT1B/1D receptor binding profile (6-fold greater affinity for 5-HT1D than sumatriptan) |
-| [11687056](https://pubmed.ncbi.nlm.nih.gov/11687056/) | 2001 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematic review of eletriptan efficacy/harm for acute migraine |
-| [17636718](https://pubmed.ncbi.nlm.nih.gov/17636718/) | 2007 | Review (Cochrane, withdrawn) | Cochrane Database of Systematic Reviews | Updated Cochrane review of eletriptan for acute migraine (later withdrawn) |
-| [24065716](https://pubmed.ncbi.nlm.nih.gov/24065716/) | 2014 | Review (mechanism) | Cephalalgia | Discusses serotonin's role in migraine pathophysiology, underlying the 5-HT1B/1D mechanistic rationale |
-| [25155004](https://pubmed.ncbi.nlm.nih.gov/25155004/) | 2014 | Case report | Revista Portuguesa de Cardiologia | Myocardial infarction temporally associated with eletriptan use — vasoconstrictive class safety signal |
-
-**Note:** none of the 18 identified publications directly study "migraine with brainstem aura" (basilar-type migraine) as a treated population; the list above reflects the closest available evidence (general triptan/eletriptan efficacy and mechanism) plus the two records most relevant to the aura/vascular-safety question.
+للسياق، التنبؤات الثلاثة الأخرى لـ TxGNN الواردة في هذه الحزمة (atrophoderma vermiculata, ulerythema ophryogenesis, sciatic neuropathy) ليس لديها تجارب أو أدبيات داعمة (مستوى الأدلة L5، مرحلة القرار S0) وليس لديها رابط ميكانيكي معقول لـ 5-HT1B/1D agonism؛ وفقاً لملاحظات حزمة الأدلة نفسها، فإن هذه على الأرجح عبارة عن قطع أثرية قريبة من التضمين في الرسم البياني للمعرفة بدلاً من فرضيات حقيقية، ولا يتم السير بها بشكل أبعد في هذا التقرير.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Eletriptan currently has no product authorization on record in Saudi Arabia (market status: Not Marketed, 0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-**Additional note from the evidence pack's mechanistic analysis (not from a formal safety/DDI query, which returned no data):** migraine with brainstem aura (basilar-type migraine) is conventionally regarded as a relative contraindication for triptans, including eletriptan, due to theoretical vasoconstriction risk in the vertebrobasilar circulation. This should be treated as a critical prescribing caution rather than a supporting rationale for the predicted indication.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|-------|---------|
+| [15469451](https://pubmed.ncbi.nlm.nih.gov/15469451/) | 2004 | دراسة معشاة ذات شواهد | European Journal of Neurology | إليتريبتان 80 ملغ أُعطي أثناء مرحلة الهالة لم يُظهر فائدة — يختبر بشكل مباشر الجرعات المبكرة/مرحلة الهالة ذات الصلة بسؤال الهالة الجذعية |
+| [12807526](https://pubmed.ncbi.nlm.nih.gov/12807526/) | 2003 | دراسة معشاة ذات شواهد | Cephalalgia | إليتريبتان 40 ملغ فعال وآمن لدى المرضى الذين لديهم استجابة سيئة سابقة/عدم تحمل السوماتريبتان، لدى المرضى مع وبدون هالة (n=446) |
+| [11844898](https://pubmed.ncbi.nlm.nih.gov/11844898/) | 2002 | دراسة معشاة ذات شواهد | European Neurology | إليتريبتان 40/80 ملغ متفوق على الدواء الوهمي وقابل للمقارنة/أفضل من Cafergot لعلاج الصداع النصفي الحاد |
+| [17501848](https://pubmed.ncbi.nlm.nih.gov/17501848/) | 2007 | دراسة معشاة ذات شواهد (وظيفية/تحليل فرعي) | Headache | حسّن إليتريبتان درجات إنتاجية العمل والضعف الوظيفي أثناء نوبات الصداع النصفي الحادة |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | مراجعة/إرشادات | Headache | تقييم جمعية الصداع الأمريكية للأدلة حول العلاجات الدوائية للصداع النصفي الحاد، بما في ذلك التريبتانات |
+| [12498013](https://pubmed.ncbi.nlm.nih.gov/12498013/) | 2002 | مراجعة (ملف تعريف الدواء) | Current Opinion in Investigational Drugs | تصف ملف تعريف استقبال 5-HT1B/1D لإليتريبتان (تقاربية أعلى بـ 6 مرات لـ 5-HT1D من السوماتريبتان) |
+| [11687056](https://pubmed.ncbi.nlm.nih.gov/11687056/) | 2001 | مراجعة (Cochrane) | Cochrane Database of Systematic Reviews | مراجعة منهجية لفعالية/ضرر إليتريبتان لعلاج الصداع النصفي الحاد |
+| [17636718](https://pubmed.ncbi.nlm.nih.gov/17636718/) | 2007 | مراجعة (Cochrane، مسحوبة) | Cochrane Database of Systematic Reviews | مراجعة Cochrane محدّثة لإليتريبتان لعلاج الصداع النصفي الحاد (سُحبت لاحقاً) |
+| [24065716](https://pubmed.ncbi.nlm.nih.gov/24065716/) | 2014 | مراجعة (آلية العمل) | Cephalalgia | تناقش دور السيروتونين في الفيزيولوجيا المرضية للصداع النصفي، تدعم المنطق الميكانيكي لـ 5-HT1B/1D |
+| [25155004](https://pubmed.ncbi.nlm.nih.gov/25155004/) | 2014 | حالة سريرية | Revista Portuguesa de Cardiologia | احتشاء عضلي في القلب مرتبط زمنياً باستخدام إليتريبتان — إشارة سلامة الفئة التضيقية الوعائية |
 
-**Rationale:**
-- The top-ranked prediction is mechanistically explainable (5-HT1B/1D agonism) but represents a known relative contraindication rather than a validated therapeutic opportunity; no clinical trials exist for this specific indication, and the one directly relevant RCT found no benefit from aura-phase dosing.
-- The remaining three TxGNN predictions in this pack have no clinical trial or literature support (L5/S0) and are not being pursued further.
+**ملاحظة:** لا تتناول أي من المنشورات الـ 18 المحددة بشكل مباشر "الصداع النصفي مع الهالة الجذعية" (الصداع النصفي من النوع القاعدي) كمجموعة سكانية مُعالجة؛ تعكس القائمة أعلاه الأدلة المتاحة الأقرب (فعالية/آلية عمل التريبتانات/إليتريبتان العامة) بالإضافة إلى السجلات الاثنين الأكثر صلة بسؤال سلامة الهالة/الأوعية الدموية.
 
-**To proceed, the following is needed:**
-- Official Saudi/manufacturer package insert warnings and contraindications (currently a blocking data gap — required before any S1 safety screening)
-- Confirmed DrugBank mechanism-of-action record (currently a data gap; the MOA used above was reconstructed from literature, not from a verified DrugBank field)
-- If this indication is to be reconsidered, a formal risk-benefit assessment specific to vertebrobasilar/brainstem-aura vasoconstriction risk, ideally with cardiology/neurology input, rather than reliance on general migraine efficacy data
+---
+
+## معلومات السوق في المملكة العربية السعودية
+
+إليتريبتان حالياً ليس له ترخيص منتج مسجل في المملكة العربية السعودية (حالة السوق: غير مُسوّق، 0 ترخيصات).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+**ملاحظة إضافية من تحليل آلية العمل في حزمة الأدلة (وليس من استعلام رسمي عن السلامة/التفاعلات الدوائية، الذي لم يُرجع بيانات):** الصداع النصفي مع الهالة الجذعية (الصداع النصفي من النوع القاعدي) يُعتبر تقليدياً **موانع نسبية للتريبتانات**، بما في ذلك إليتريبتان، نظراً لخطر تضيق الأوعية النظري في الدورة الدموية الفقري القاعدية. يجب التعامل مع هذا كتحذير حاسم في الوصفات الطبية بدلاً من كنسبة داعمة للمؤشر المتنبأ به.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+- التنبؤ الأعلى ترتيباً قابل للتفسير ميكانيكياً (5-HT1B/1D agonism) لكنه يمثل موانع نسبية معروفة بدلاً من فرصة علاجية معتمدة؛ لا توجد تجارب سريرية لهذا المؤشر المحدد، والدراسة المعشاة ذات الشواهد الوحيدة ذات الصلة لم تُظهر فائدة من جرعات مرحلة الهالة.
+- التنبؤات الثلاثة المتبقية من TxGNN في هذه الحزمة ليس لديها دعم تجارب سريرية أو أدبيات (L5/S0) وليست جاري المتابعة بشكل أبعد.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نصوص حزم السعودية/الصانع الرسمية والتحذيرات والموانع (حالياً فجوة بيانات محظورة — مطلوبة قبل أي فحص أمان S1)
+- سجل آلية العمل المؤكدة في DrugBank (حالياً فجوة بيانات؛ تم إعادة بناء آلية العمل المستخدمة أعلاه من الأدبيات، وليس من حقل DrugBank معتمد)
+- إذا كان سيتم إعادة النظر في هذا المؤشر، تقييم شامل للمخاطر/الفوائد محدد لخطر تضيق الأوعية الفقري القاعدية/الهالة الجذعية، يفضل أن يكون مع مدخلات من القلب/الأعصاب، بدلاً من الاعتماد على بيانات فعالية الصداع النصفي العامة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

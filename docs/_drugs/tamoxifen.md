@@ -29,87 +29,84 @@ indication_count: 10
 
 </div>
 
-Using the provided evidence pack directly (no applicable skill for this templated report-writing task) — here is the report.
+# التاموكسيفين: من سرطان الثدي الإيجابي لمستقبل الإستروجين إلى مرض باجيت الثديي
 
----
+## ملخص جملة واحدة
 
-# Tamoxifen: From Estrogen Receptor-Positive Breast Cancer to Mammary Paget Disease
+التاموكسيفين هو معدل انتقائي لمستقبل الإستروجين (SERM) بدور طويل الأمد في معالجة سرطان الثدي الإيجابي لمستقبل الإستروجين. الإشارة الجديدة ذات الترتيب الأعلى من نموذج TxGNN هي **مرض باجيت الثديي**، وهو مظهر جلدي نادر من سرطان الأقنية الثديية الأساسي، لكن هذا المرشح المحدد يدعمه حالياً فقط **تجربة سريرية واحدة ذات صلة غير مباشرة** و **13 منشوراً**، معظمها تقارير حالات.
 
-## One-Sentence Summary
+## نظرة عامة سريعة
 
-Tamoxifen is a selective estrogen receptor modulator (SERM) with a long-established role in treating estrogen receptor-positive breast cancer. The TxGNN model's top-ranked new signal is **Mammary Paget Disease**, a rare cutaneous manifestation of underlying ductal breast carcinoma, but this specific candidate is currently supported by only **1 indirectly relevant clinical trial** and **13 publications**, most of which are case reports.
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Predicted New Indication | Mammary Paget Disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الجديد المتنبأ به | مرض باجيت الثديي |
+| درجة تنبؤ TxGNN | 99.69% |
+| مستوى الدليل | L4 |
+| حالة السوق السعودية | غير معروّض في السوق (غير معروّض) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-*Note: The original approved indication could not be extracted — no market authorizations or original-indication records are present in this evidence pack (see Data Gap DG002, MOA).*
+*ملاحظة: لم يتمكن استخراج المؤشر المعتمد الأصلي — لا توجد تصاريح سوقية أو سجلات مؤشر أصلي في حزمة الدليل هذه (انظر الفجوة في البيانات DG002، آلية العمل).*
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available for tamoxifen in this evidence pack (Data Gap DG002, severity: High). Based on known pharmacology, tamoxifen is a SERM that competitively antagonizes estrogen receptor (ER) signaling in breast tissue, and its efficacy in ER-positive breast cancer is well established in the broader literature — a fact reflected throughout this pack's other predicted indications (e.g., breast carcinoma in situ and ER-positive breast cancer, both supported by L1-level evidence from multiple completed Phase 3 RCTs such as NSABP B-17/B-24, RTOG 9804, and TAM-01).
+حالياً، بيانات آلية العمل التفصيلية غير متاحة للتاموكسيفين في حزمة الدليل هذه (فجوة البيانات DG002، الشدة: عالية). بناءً على الصيدلة المعروفة، التاموكسيفين هو معدل انتقائي لمستقبل الإستروجين ينافس على الإشارة من مستقبل الإستروجين (ER) في نسيج الثدي، وفعاليته في سرطان الثدي الإيجابي ER موثقة جيداً في الأدبيات الأوسع — وهي حقيقة منعكسة في جميع المؤشرات المتنبأ بها الأخرى في هذه الحزمة (مثل سرطان الثدي الموضعي في الموقع والسرطان الإيجابي لمستقبل الإستروجين، كلاهما مدعوم بدليل من المستوى L1 من عدة تجارب عشوائية محكومة من المرحلة 3 المكتملة مثل NSABP B-17/B-24 و RTOG 9804 و TAM-01).
 
-Mammary Paget disease is a rare intraepidermal adenocarcinoma of the nipple-areola complex that, in the majority of cases, overlies an underlying ductal carcinoma in situ (DCIS) or invasive ductal carcinoma — most of which are ER-positive. The mechanistic rationale for tamoxifen is therefore an extension of its established role in ER-positive ductal breast cancer, rather than a novel mechanism specific to Paget disease itself.
+مرض باجيت الثديي هو ورم غدي داخل البشرة نادر في منطقة الحلمة والهالة يغطي في معظم الحالات سرطان قنوي موضعي في الموقع (DCIS) أو سرطان قنوي غزوي — معظمها إيجابي ER. المبرر الميكانيكي للتاموكسيفين هو بالتالي امتداد لدوره المثبت في سرطان الثدي القنوي الإيجابي ER، وليس آلية عمل جديدة محددة لمرض باجيت نفسه.
 
-However, this specific candidate indication is not directly validated: the single associated clinical trial (NCT00002920) tested medroxyprogesterone acetate for preventing tamoxifen-induced endometrial pathology, not tamoxifen's efficacy against Paget disease. The literature evidence is dominated by case reports and one retrospective cohort/meta-analysis, with tamoxifen appearing only incidentally in a minority of treated patients. No dedicated prospective or randomized study of tamoxifen for Paget disease exists in this pack.
+لكن هذا المؤشر المرشح المحدد لم يتم التحقق منه بشكل مباشر: التجربة السريرية الوحيدة المرتبطة (NCT00002920) اختبرت أسيتات الميدروكسي بروجسترون لمنع الاعتلال بطاني الرحم المستحث بالتاموكسيفين، وليس فعالية التاموكسيفين ضد مرض باجيت. الدليل الأدبي يهيمن عليه تقارير الحالات وتحليل تلوي استعادي واحد، مع ظهور التاموكسيفين فقط بشكل عرضي في أقلية من المرضى المعالجين. لا توجد دراسة استباقية أو عشوائية مخصصة للتاموكسيفين لمرض باجيت في هذه الحزمة.
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Phase 3 | Completed | 313 | Evaluated medroxyprogesterone acetate vs. observation to prevent endometrial pathology in postmenopausal breast cancer patients (including Paget's disease of the nipple) treated with tamoxifen. Addresses tamoxifen-associated endometrial safety monitoring, not efficacy against Paget disease itself. |
+| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | المرحلة 3 | مكتملة | 313 | تقييم أسيتات الميدروكسي بروجسترون مقابل الملاحظة لمنع الاعتلال بطاني الرحم لدى مريضات سرطان الثدي بعد انقطاع الطمث (بما في ذلك مرض باجيت في الحلمة) والمعالجات بالتاموكسيفين. يتناول مراقبة سلامة التاموكسيفين المرتبطة بالرحم، وليس فعالية التاموكسيفين ضد مرض باجيت. |
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Retrospective Cohort/Meta-analysis | Breast Care (Basel) | Compiled outcome data on Paget's disease of the breast; total local recurrence rate as high as 20–40% across surgical approaches. |
-| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Case Report | Investigational New Drugs | Successful treatment of hormone receptor-positive metastatic extramammary Paget disease with tamoxifen. |
-| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | Case Report | Breast (Edinburgh) | Extensive nipple Paget's disease responded to tamoxifen combined with radiation therapy. |
-| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Case Series (n=48) | British Journal of Surgery | Series of Paget's disease of the nipple; treatments included mastectomy, cone excision, and tamoxifen (1 case). |
-| [18288984](https://pubmed.ncbi.nlm.nih.gov/18288984/) | 2008 | Review | Current Medicinal Chemistry | Review of pharmacotherapies for bone-loss diseases; discusses estrogen receptor modulators including tamoxifen in cancer prevention/treatment context. |
-| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | Case Report/Review | Il Giornale di Chirurgia | Male breast Paget's disease case; notes absence of standard treatment guidelines. |
-| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Case Report | Surgery Today | Synchronous bilateral breast cancer with Paget's disease and invasive ductal carcinoma. |
-| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Case Report | Arch Gynecol Obstet | Vulvar and breast Paget's disease with synchronous underlying cancer. |
-| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Case Report | American Surgeon | Paget's disease of the male breast; review of 32 world-literature cases. |
-| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Case Series | Clinical Breast Cancer | Paget's disease of the nipple as local recurrence after breast-conservation treatment. |
+| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | دراسة بأثر رجعي / تحليل تلوي | Breast Care (Basel) | جمعت بيانات النتائج حول مرض باجيت في الثدي؛ معدل الانتكاس المحلي الكلي يصل إلى 20–40% عبر الأساليب الجراحية. |
+| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | تقرير حالة | Investigational New Drugs | المعالجة الناجحة لمرض باجيت خارج الثدي الإيجابي لمستقبل الهرمون مع النقائل باستخدام التاموكسيفين. |
+| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | تقرير حالة | Breast (Edinburgh) | تفاعلت مرض باجيت الحلمة الواسع مع التاموكسيفين مع العلاج الإشعاعي. |
+| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | سلسلة حالات (n=48) | British Journal of Surgery | سلسلة من مرض باجيت في الحلمة؛ كانت العلاجات تشمل الاستئصال الكامل للثدي، استئصال المخروط، والتاموكسيفين (حالة واحدة). |
+| [18288984](https://pubmed.ncbi.nlm.nih.gov/18288984/) | 2008 | مراجعة | Current Medicinal Chemistry | مراجعة العلاجات الدوائية لأمراض فقدان العظام؛ تناقش معدلات مستقبل الإستروجين الانتقائية بما في ذلك التاموكسيفين في سياق الوقاية/المعالجة من السرطان. |
+| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | تقرير حالة / مراجعة | Il Giornale di Chirurgia | حالة مرض باجيت في الثدي الذكري؛ يلاحظ غياب إرشادات العلاج القياسية. |
+| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | تقرير حالة | Surgery Today | سرطان الثدي الثنائي المتزامن مع مرض باجيت والسرطان القنوي الغزوي. |
+| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | تقرير حالة | Arch Gynecol Obstet | مرض باجيت الفرج والثدي مع سرطان أساسي متزامن. |
+| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | تقرير حالة | American Surgeon | مرض باجيت في الثدي الذكري؛ مراجعة 32 حالة من أدبيات العالم. |
+| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | سلسلة حالات | Clinical Breast Cancer | مرض باجيت في الحلمة كانتكاس محلي بعد المعالجة بحفظ الثدي. |
 
-## Cytotoxicity
+## السمية الخلوية
 
-Tamoxifen's DrugBank category data and formal toxicity classification are marked as a Data Gap in this evidence pack, but it is well established in general pharmacology as a hormonal (non-cytotoxic) antineoplastic agent used across ER-positive breast malignancies, including the predicted indication here.
+بيانات فئة DrugBank للتاموكسيفين والتصنيف الرسمي للسمية محددة كفجوة في البيانات في حزمة الدليل هذه، لكن من المثبت جيداً في الصيدلة العامة أنها عامل مضاد للسرطان هرموني (غير سام للخلايا) يُستخدم عبر الأورام الخبيثة الثديية الإيجابية ER، بما في ذلك المؤشر المتنبأ به هنا.
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Hormonal/targeted therapy (SERM) — not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Low — tamoxifen is not characteristically myelosuppressive |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function, endometrial/gynecological surveillance (estrogenic effect on endometrium), coagulation status (VTE risk); CBC if combined with cytotoxic regimens |
-| Handling Protection | Tamoxifen appears on hazardous-drug lists (reproductive toxicity/carcinogenicity classification) in several institutional guidelines; handle per local hazardous-drug precautions despite its non-cytotoxic mechanism |
+| تصنيف السمية الخلوية | علاج هرموني/موجه (SERM) — وليس العلاج الكيميائي السام للخلايا التقليدي |
+| خطر قمع النخاع | منخفض — التاموكسيفين لا يتميز بقمع النخاع |
+| تصنيف الغثيان | منخفض |
+| عناصر المراقبة | وظائف الكبد، المراقبة بطانية الرحم / أمراض النساء (تأثير الإستروجين على بطانة الرحم)، حالة التخثر (خطر VTE)؛ CBC إذا تم دمجها مع الأنظمة السامة للخلايا |
+| الحماية من المعالجة | يظهر التاموكسيفين على قوائم الأدوية الخطرة (تصنيف السمية الإنجابية / السرطانية) في عدة إرشادات مؤسسية؛ تعامل حسب احتياطات الأدوية الخطرة المحلية بالرغم من آلية عمله غير السامة للخلايا |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not available in this evidence pack — TFDA package insert retrieval is flagged as a Blocking data gap, DG001.)
+يرجى الرجوع إلى ملخص البيانات للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع وتفاعلات الأدوية غير متاحة في حزمة الدليل هذه — استرجاع ملخص بيانات TFDA محدد كفجوة بيانات حاجزة، DG001.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The top-ranked predicted indication, mammary Paget disease, has only L4-level evidence — case reports and one retrospective cohort — with no dedicated clinical trial testing tamoxifen's efficacy for this specific presentation. The single associated trial addresses tamoxifen safety monitoring, not treatment efficacy.
+**المبرر:**
+المؤشر المتنبأ به ذو الترتيب الأعلى، مرض باجيت الثديي، يحتوي فقط على دليل من المستوى L4 — تقارير حالات ودراسة واحدة بأثر رجعي — بدون تجربة سريرية مخصصة تختبر فعالية التاموكسيفين لهذا العرض المحدد. التجربة الوحيدة المرتبطة تتناول مراقبة سلامة التاموكسيفين، وليس فعالية العلاج.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data from DrugBank
-- Drug-drug interaction data (currently not found)
-- A dedicated prospective study or case series specifically evaluating tamoxifen efficacy in mammary Paget disease
-- Note: this evidence pack also contains two other predicted indications for tamoxifen — **breast carcinoma in situ** (rank 4) and **estrogen-receptor positive breast cancer** (rank 8) — both rated L1 with multiple completed Phase 3 RCTs and a "Proceed with Guardrails" recommendation; these represent substantially stronger, near-established candidates and may warrant separate prioritized review.
+**للمتابعة، يلزم ما يلي:**
+- ملخص بيانات TFDA/SFDA (تحذيرات، موانع) — حالياً فجوة بيانات حاجزة
+- بيانات آلية العمل المؤكدة من DrugBank
+- بيانات تفاعلات الأدوية (غير محددة حالياً)
+- دراسة استباقية مخصصة أو سلسلة حالات تقيّم بشكل خاص فعالية التاموكسيفين في مرض باجيت الثديي
+- ملاحظة: تحتوي حزمة الدليل هذه أيضاً على مؤشرين متنبأ بهما آخرين للتاموكسيفين — **سرطان الثدي الموضعي في الموقع** (الترتيب 4) و **سرطان الثدي الإيجابي لمستقبل الإستروجين** (الترتيب 8) — كلاهما يصنف L1 مع عدة تجارب عشوائية محكومة من المرحلة 3 المكتملة وتوصية "المتابعة مع الحماية"؛ تمثل هذه مرشحين أقوى بشكل كبير وقريبين من التأسيس وقد تستحق مراجعة منفصلة ذات أولوية.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,60 +29,61 @@ indication_count: 5
 
 </div>
 
-# Strontium Ranelate: From Osteoporosis to Heparin Cofactor 2 Deficiency
+# رانيلات السترونتيوم: من هشاشة العظام إلى نقص عامل تمام التخثر الثاني
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Strontium ranelate is a bone-metabolism agent historically used for osteoporosis. The TxGNN model predicts a possible link to **Heparin Cofactor 2 Deficiency**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale states there is no known biological connection between the two conditions.
+رانيلات السترونتيوم هو عامل استقلاب عظمي يُستخدم تاريخياً لعلاج هشاشة العظام. يتنبأ نموذج TxGNN بوجود ارتباط محتمل بـ **نقص عامل تمام التخثر الثاني**، لكن هذا التنبؤ يدعمه حالياً **0 تجربة سريرية** و**0 منشور علمي**، وينص الأساس الآلي للنموذج نفسه على عدم وجود ارتباط بيولوجي معروف بين الحالتين.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Osteoporosis (general pharmacological knowledge; not present in this evidence pack — no `taiwan_regulatory.licenses` entries) |
-| Predicted New Indication | Heparin Cofactor 2 Deficiency |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|--------|
+| المؤشر الأصلي | هشاشة العظام (المعرفة الصيدلانية العامة؛ غير موجودة في هذه الحزمة الأدلة — لا توجد إدخالات في `taiwan_regulatory.licenses`) |
+| المؤشر الجديد المتنبأ به | نقص عامل تمام التخثر الثاني |
+| درجة تنبؤ TxGNN | 99.81% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | على الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this evidence pack (data gap DG002). Based on general pharmacological knowledge, strontium ranelate acts on bone remodeling — activating calcium-sensing receptors to promote osteoblast activity while inhibiting osteoclast activity — and its established clinical use has been in osteoporosis and fracture risk reduction.
+بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة هذه (فجوة البيانات DG002). استناداً إلى المعرفة الصيدلانية العامة، يعمل رانيلات السترونتيوم على إعادة تشكيل العظام — يُنشط مستقبلات الكالسيوم الحساسة لتعزيز نشاط الخلايا البانية للعظم بينما يثبط نشاط الخلايا الهادمة للعظم — واستخدامه السريري المثبت كان في هشاشة العظام والحد من مخاطر الكسور.
 
-For this candidate, however, the evidence pack's own `repurposing_rationale` explicitly states there is **no known mechanistic link**: heparin cofactor II deficiency is a rare coagulation-regulatory protein disorder, and its biology (thrombin inhibition pathways) does not intersect with strontium ranelate's known bone-metabolism activity. The high TxGNN score appears to reflect embedding-space similarity rather than a biologically grounded relationship, and no clinical or literature evidence currently exists to support the link.
+بالنسبة لهذا المرشح، مع ذلك، توضح `repurposing_rationale` الخاصة بحزمة الأدلة بشكل صريح أن هناك **عدم وجود ارتباط آلي معروف**: نقص عامل تمام التخثر الثاني هو اضطراب نادر في تنظيم تجلط الدم، وعلم الأحياء الخاص به (مسارات تثبيط الثرومبين) لا يتقاطع مع نشاط استقلاب العظام المعروف لرانيلات السترونتيوم. يبدو أن الدرجة العالية لـ TxGNN تعكس التشابه في فضاء التضمين بدلاً من علاقة قائمة على أساس بيولوجي، وحالياً لا توجد أدلة سريرية أو أدبية لدعم الارتباط.
 
-It is also worth noting that all five top-ranked TxGNN predictions for this drug (heparin cofactor 2 deficiency, antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis, thrombophilia, severe nonproliferative diabetic retinopathy) fall into this same unsupported category — four of the five are coagulation/thrombosis-related, and the rationale for several notes that strontium ranelate carries a **known venous thromboembolism (VTE) risk**, which would argue against rather than for repurposing into thrombosis-adjacent indications.
+من الجدير بالملاحظة أيضاً أن جميع التنبؤات الخمسة الأفضل ترتيباً من TxGNN لهذا الدواء (نقص عامل تمام التخثر الثاني، نقص مضاد الثرومبين من النوع الثاني، فائض العامل الخامس مع تخثر عفوي، الميل المرضي للتخثر، اعتلال الشبكية السكري غير التكاثري الشديد) تندرج ضمن هذه الفئة غير المدعومة — أربع من الخمسة مرتبطة بالتخثر/الخثار، والأساس الآلي في عدة منها يلاحظ أن رانيلات السترونتيوم يحمل **خطراً معروفاً من الخثار الوريدي (VTE)**، الأمر الذي يجادل ضد بدلاً من أن يجادل لصالح إعادة التوظيف في المؤشرات المتعلقة بالخثار.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-Currently no related literature available
+لا تتوفر حالياً أية أدبيات متعلقة
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Strontium ranelate currently has no marketing authorizations registered in Saudi Arabia (market status: Not Marketed; 0 licenses on file).
+رانيلات السترونتيوم لا يملك حالياً أي تصاريح تسويقية مسجلة في المملكة العربية السعودية (حالة السوق: غير مسوق؛ 0 رخصة موجودة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: على الانتظار**
 
-**Rationale:**
-There is no clinical trial or literature evidence supporting any of the top five TxGNN-predicted indications, and the mechanistic rationale for the top-ranked candidate (heparin cofactor 2 deficiency) explicitly states there is no biological plausibility. Several lower-ranked candidates are thrombosis-related, a direction that conflicts with strontium ranelate's known VTE risk. Combined with the drug's unmarketed status in Saudi Arabia and a Blocking-severity gap in safety/label data, this candidate does not meet the threshold to advance.
+**الحجة:**
+لا توجد أدلة من التجارب السريرية أو الأدبيات تدعم أي من المؤشرات الخمسة الأفضل المتنبأ بها من TxGNN، والأساس الآلي للمرشح الأفضل ترتيباً (نقص عامل تمام التخثر الثاني) ينص صراحة على عدم وجود معقولية بيولوجية. عدة مرشحين ذوي ترتيب أقل يكونون مرتبطين بالخثار، وهي اتجاه يتعارض مع خطر VTE المعروف لرانيلات السترونتيوم. مع الأخذ في الاعتبار حالة الدواء غير المسوق في المملكة العربية السعودية وفجوة حاجزة في بيانات السلامة/الملصقات، فإن هذا المرشح لا يستوفي الحد الأدنى للتقدم.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (DG001, Blocking — required before any S1 safety screening)
-- Verified mechanism of action data from DrugBank or equivalent source (DG002, High)
-- Independent biological plausibility assessment for heparin cofactor 2 deficiency, since the current score is model-prediction-only (L5)
-- A safety re-evaluation of the VTE risk profile before considering any of the four thrombosis-adjacent candidates further
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة معلومات TFDA / بيانات التحذيرات والموانع (DG001، حظر — مطلوب قبل أي فحص سلامة S1)
+- بيانات آلية العمل المُتحقق منها من DrugBank أو مصدر معادل (DG002، عالي)
+- تقييم منفصل للمعقولية البيولوجية لنقص عامل تمام التخثر الثاني، حيث أن الدرجة الحالية تعتمد على التنبؤ بالنموذج فقط (L5)
+- إعادة تقييم السلامة من ملف تعريف خطر VTE قبل النظر في أي من المرشحات الأربعة المتعلقة بالخثار بشكل أكبر
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

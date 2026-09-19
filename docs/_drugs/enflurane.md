@@ -29,62 +29,63 @@ indication_count: 8
 
 </div>
 
-# Enflurane: From General Anesthesia to Manic Bipolar Affective Disorder
+# الإنفلورين: من التخدير العام إلى اضطراب ثنائي القطب الهوسي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Enflurane is a halogenated inhalational agent originally used for the induction and maintenance of general anesthesia.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-inference signal with no corroborating evidence.
+الإنفلورين هو عامل استنشاقي مهلجن استُخدم أصلاً لتحريض واستمرار التخدير العام.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب ثنائي القطب الهوسي**،
+لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور** — إنه إشارة استدلال نموذج بحتة بدون أي دليل مؤيد.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | General anesthesia (inhalational anesthetic) — based on known drug classification; no structured `original_indications` or Saudi license data available in this evidence pack |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | التخدير العام (مخدر استنشاقي) — بناءً على تصنيف العقار المعروف؛ لا توجد بيانات منظمة `original_indications` أو ترخيص سعودي متاحة في حزمة الأدلة هذه |
+| المؤشر الجديد المتنبأ به | اضطراب ثنائي القطب الهوسي |
+| درجة تنبؤ TxGNN | 99.69% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (`original_moa` is a data gap). Based on known pharmacology, enflurane is a halogenated ether-class volatile general anesthetic whose sedative/hypnotic effect is mediated in part through positive allosteric modulation of the GABA-A receptor — the same broad receptor family targeted by benzodiazepines and other mood-stabilizing/anxiolytic agents used in bipolar disorder management. This shared receptor family is the sole basis for the model's association between enflurane and manic bipolar affective disorder.
+حالياً، بيانات آلية التأثير التفصيلية غير متاحة (`original_moa` هو فجوة في البيانات). بناءً على الصيدلة المعروفة، الإنفلورين هو مخدر عام طيار من فئة الإيثر المهلجن الذي ينتقل تأثيره المهدئ/المنوم جزئياً من خلال تعديل حليل إيجابي لمستقبل GABA-A — نفس عائلة المستقبلات الواسعة المستهدفة من قبل البنزوديازيبينات وعوامل تثبيت المزاج/مضادات القلق الأخرى المستخدمة في علاج اضطراب ثنائي القطب. هذه عائلة المستقبلات المشتركة هي الأساس الوحيد لربط النموذج بين الإنفلورين واضطراب ثنائي القطب الهوسي.
 
-However, the evidence pack's own repurposing rationale flags this link as weak: enflurane's GABA-A activity occurs only at anesthetic concentrations under acute, monitored inhalational administration — a delivery mode fundamentally incompatible with the chronic, oral maintenance therapy required for bipolar disorder. Furthermore, enflurane is well known for concentration-dependent **pro-convulsant EEG activity** (seizure-like spike-and-wave discharges), which is a safety concern rather than a therapeutic rationale in a psychiatric population already vulnerable to neurological instability.
+ومع ذلك، فإن حزمة الأدلة نفسها تشير إلى أن هذا الارتباط ضعيف: نشاط الإنفلورين GABA-A يحدث فقط عند تركيزات التخدير تحت الإدارة الاستنشاقية الحادة المراقبة — وهي طريقة إعطاء غير متوافقة بشكل أساسي مع العلاج الصيانة الفموي المزمن المطلوب لاضطراب ثنائي القطب. علاوة على ذلك، يُعرّف الإنفلورين جيداً بنشاطه **المؤيد للتشنج المعتمد على التركيز** (تفريغات مسننة وموجية تشبه النوبات)، وهي مصدر قلق من حيث السلامة بدلاً من أساس علاجي في السكان النفسيين المعرضين بالفعل لعدم الاستقرار العصبي.
 
-Taken together, this is a case where the knowledge-graph embedding similarity (GABA-A pathway overlap) is mechanistically plausible only in the most superficial sense. There is no clinical, preclinical, or case-report evidence of any kind supporting this indication, and the drug's known safety profile (pro-convulsant activity, incompatible route of administration) argues against — rather than for — pursuing this direction without substantial further justification.
+بشكل مجمل، هذه حالة حيث تشابه التضمين في الرسم البياني للمعرفة (تداخل مسار GABA-A) معقول آلياً من حيث المبدأ فقط. لا توجد أدلة سريرية أو ما قبل إكلينيكية أو تقارير حالات من أي نوع تدعم هذا المؤشر، وملف السلامة المعروف للعقار (نشاط مؤيد للتشنج، طريقة إعطاء غير متوافقة) يعترض — بدلاً من أن يدعم — متابعة هذا الاتجاه بدون تبرير إضافي جوهري.
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Enflurane is currently **not marketed** in Saudi Arabia (0 authorizations on file); no product license records are available in this evidence pack.
+الإنفلورين غير **مسوق حالياً** في المملكة العربية السعودية (0 تصريح في السجل)؛ لا توجد سجلات ترخيص منتج متاحة في حزمة الأدلة هذه.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The prediction rests entirely on a computational embedding-similarity signal (Evidence Level L5) with no supporting clinical trials, literature, or preclinical data, and the drug is not currently marketed in Saudi Arabia. The proposed mechanistic link (GABA-A modulation) is directly undercut by enflurane's known pro-convulsant activity and its acute-inhalational-only route of administration, which is not compatible with chronic psychiatric maintenance therapy. All 7 other candidate indications in this evidence pack (Tourette syndrome, trichotillomania, dysthymic disorder, Prinzmetal angina, myofascial pain syndrome, migraine disorder, and bipolar disorder) share the same L5/Hold status for analogous reasons — none currently warrant advancement.
+**الأساس المنطقي:**
+التنبؤ يعتمد بالكامل على إشارة تشابه التضمين الحسابية (مستوى الدليل L5) بدون تجارب سريرية أو أدبيات أو بيانات ما قبل إكلينيكية داعمة، والعقار غير مسوق حالياً في المملكة العربية السعودية. الارتباط الآلي المقترح (تعديل GABA-A) مقوّض بشكل مباشر من خلال نشاط الإنفلورين المؤيد للتشنج المعروف وطريقة إعطائه الاستنشاقية الحادة فقط، والتي غير متوافقة مع العلاج الصيانة النفسي المزمن. جميع المؤشرات المرشحة السبعة الأخرى في حزمة الأدلة هذه (متلازمة توريت، اضطراب نتف الشعر، الاكتئاب المستمر، ذبحة برينتسميتال، متلازمة الألم العضلي الليفي، اضطراب الصداع النصفي، واضطراب ثنائي القطب) تشترك في نفس حالة L5/تأجيل لأسباب مماثلة — لا أحد منها يستحق حالياً التقدم.
 
-**To proceed, the following is needed:**
-- Verified mechanism of action (MOA) data from DrugBank or primary pharmacology literature
-- TFDA/SFDA package insert warnings, contraindications, and drug interaction data (currently blocking per data gap DG001)
-- Any preclinical (in vitro/in vivo) evidence specifically linking enflurane exposure to mood stabilization
-- Reassessment of route feasibility, since a chronic oral or alternative delivery formulation does not currently exist for this inhalational anesthetic
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية التأثير المحققة (MOA) من DrugBank أو أدبيات الصيدلة الأساسية
+- تحذيرات ملحق العبوة TFDA/SFDA وموانع الاستعمال وبيانات التفاعل الدوائي (تؤدي حالياً إلى توقف وفقاً لفجوة البيانات DG001)
+- أي دليل ما قبل إكلينيكي (في المختبر/في الجسم الحي) يربط بشكل محدد تعرض الإنفلورين بتثبيت المزاج
+- إعادة تقييم جدوى طريقة الإعطاء، حيث أن صيغة دوائية فموية مزمنة أو بديلة للصيانة غير متاحة حالياً لهذا المخدر الاستنشاقي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

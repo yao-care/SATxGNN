@@ -29,92 +29,91 @@ indication_count: 10
 
 </div>
 
-# Entecavir: From Chronic Hepatitis B Virus Infection to Chronic Hepatitis C Virus Infection
+# الإنتيكافير: من عدوى فيروس التهاب الكبد B المزمن إلى عدوى فيروس التهاب الكبد C المزمن
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Entecavir is a nucleoside analogue whose established, well-documented use is suppressing hepatitis B virus (HBV) replication; the source drug record for this candidate is missing that original-indication field (data gap), but it is recoverable from the evidence pack itself (see rank‑2 finding below). The TxGNN model's top-ranked prediction is **Chronic Hepatitis C Virus Infection**, but after reviewing the underlying **~40 clinical trials** and **20 publications**, this specific prediction appears to be a knowledge-graph artifact (HBV/HCV entity confusion) rather than a genuine pharmacological signal, and the evidence pack's own scoring places it at the lowest confidence tier (L5, Hold).
+الإنتيكافير هو نظير النيوكليوزيد الذي يكون استخدامه المثبت والموثق جيدًا هو قمع تكرار فيروس التهاب الكبد B (HBV)؛ سجل المصدر الأدوي لهذا المرشح ينقصه حقل المؤشر الأصلي (فجوة البيانات)، لكن يمكن استرجاعه من مجموعة الأدلة نفسها (انظر النتيجة رتبة ٢ أدناه). توقع النموذج TxGNN الذي حصل على أعلى رتبة هو **عدوى فيروس التهاب الكبد C المزمن**، لكن بعد مراجعة التجارب السريرية الأساسية **~40** و **20 منشورًا**، هذا التنبؤ المحدد يبدو أنه يعكس اضطراب الرسم البياني للمعرفة (الخلط بين كيانات HBV و HCV) بدلاً من إشارة دوائية حقيقية، ويضع تصنيف مجموعة الأدلة نفسها للثقة في أدنى طبقة (L5، انتظار).
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Chronic Hepatitis B Virus Infection *(not recorded in `original_indications` — this is a data gap; inferred from the evidence pack's own rank‑2 rationale, which identifies entecavir as an existing first-line approved HBV drug)* |
-| Predicted New Indication | Chronic Hepatitis C Virus Infection |
-| TxGNN Prediction Score | 99.98% (rank 813 of all disease predictions) |
-| Evidence Level | L5 (model prediction only; no supporting studies) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | عدوى فيروس التهاب الكبد B المزمن *(غير مسجل في `original_indications` — هذه فجوة بيانات؛ استُنتج من المنطق رتبة ٢ الخاص بمجموعة الأدلة نفسها، الذي يحدد الإنتيكافير كدواء معتمد من الخط الأول الموجود لـ HBV)* |
+| التنبؤ بمؤشر جديد | عدوى فيروس التهاب الكبد C المزمن |
+| درجة توقع TxGNN | 99.98% (الرتبة 813 من جميع تنبؤات الأمراض) |
+| مستوى الأدلة | L5 (توقع النموذج فقط؛ لا توجد دراسات داعمة) |
+| حالة السوق بالمملكة العربية السعودية | غير مُسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | **انتظار** |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-**It is not.** The evidence pack's own mechanistic analysis concludes this prediction lacks pharmacological plausibility, and this report agrees with that assessment.
+**إنه ليس كذلك.** يخلص التحليل الميكانيكي الخاص بمجموعة الأدلة نفسها إلى أن هذا التنبؤ يفتقر إلى القابلية الديناميكية الدوائية، وتتفق هذه التقارير مع هذا التقييم.
 
-Entecavir is a guanosine nucleoside analogue that selectively inhibits **HBV reverse transcriptase** — blocking priming of the polymerase, reverse transcription of the pregenomic RNA, and second-strand DNA synthesis. This mechanism is specific to viruses that replicate through a reverse-transcription step. Hepatitis C virus, by contrast, is a positive-strand RNA virus that replicates entirely through its own **RNA-dependent RNA polymerase (RdRp)** and never uses a reverse-transcription intermediate. Entecavir has no known activity against HCV RdRp.
+الإنتيكافير هو نظير الجوانوسين النيوكليوزيد الذي يثبط بشكل انتقائي **النسخ العكسي لـ HBV** — حجب تهيئة بوليميراز، النسخ العكسي لـ RNA قبل الجينومي، وتوليف DNA من السلسلة الثانية. هذه الآلية محددة للفيروسات التي تتكاثر من خلال خطوة النسخ العكسي. فيروس التهاب الكبد C، بالمقابل، هو فيروس RNA موجب السلسلة يتكاثر بالكامل من خلال **بوليميراز الحمض النووي الريبوسي المعتمد على الحمض النووي الريبوسي (RdRp)** الخاص به ولا يستخدم أبدًا وسيطًا للنسخ العكسي. الإنتيكافير لا يملك أي نشاط معروف ضد RdRp الخاص بـ HCV.
 
-The apparent "supporting" trials and literature in this evidence pack are almost entirely studies of **HBV monotherapy or HBV/HCV co-infection management** (e.g., HBV reactivation risk during anti-HCV DAA therapy, viral load kinetics in dual-infected patients). These co-occur with the term "hepatitis C" in the literature because HBV and HCV share transmission routes and are frequently discussed together in coinfection contexts — not because entecavir treats HCV. This is a textbook case of **knowledge-graph entity confusion**: TxGNN's embedding space picked up co-occurrence signal, not efficacy signal.
+التجارب "الداعمة" الظاهرة والأدبيات في مجموعة الأدلة هذه هي إلى حد كبير دراسات **علاج أحادي HBV أو إدارة العدوى المزدوجة HBV/HCV** (على سبيل المثال، خطر إعادة تنشيط HBV أثناء العلاج بـ DAA المضاد لـ HCV، حركية الحمل الفيروسي لدى المرضى المصابين بعدوى مزدوجة). تحدث هذه جنبًا إلى جنب مع مصطلح "التهاب الكبد C" في الأدبيات لأن HBV و HCV يشاركان مسارات الانتقال وكثيرًا ما يُناقشان معًا في سياقات العدوى المزدوجة — وليس لأن الإنتيكافير يعالج HCV. هذا هو مثال كلاسيكي على **الخلط بين كيانات الرسم البياني للمعرفة**: التقط فضاء التضمين الخاص بـ TxGNN إشارة التعايش، وليس إشارة الفعالية. يحدد منطق إعادة الاستخدام الخاص بمجموعة الأدلة `repurposing_rationale` لهذا الإدخال هذا بوضوح، ويظهر إدخال رتبة ٤ مكررة ("عدوى فيروس التهاب الكبد C") نفس النمط — يجب دمج الاثنين / إزالة التكرار على مستوى قاعدة البيانات على الأرجح.
 
-The evidence pack's own `repurposing_rationale` for this entry states this explicitly, and duplicate rank‑4 entry ("hepatitis C virus infection") shows the identical pattern — the two should likely be merged/deduplicated at the database level.
+## أدلة التجارب السريرية
 
-## Clinical Trial Evidence
+لا توفر أي من التجارب المحددة أدلة مباشرة على فعالية الإنتيكافير في HCV. تم تصنيف جميع التجارب المُقيّمة على أنها **غير ذات صلة (الدرجة C)** — إنها تجارب HBV تم عدم مطابقتها مع كيان HCV هذا.
 
-None of the identified trials provide direct evidence for entecavir's efficacy in HCV. All graded trials were classified as **not relevant (Grade C)** — they are HBV trials that were mismatched to this HCV entity.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التوظيف | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04157257](https://clinicaltrials.gov/study/NCT04157257) | Phase 2 | Unknown | 60 | QL-007 + entecavir/tenofovir in chronic hepatitis **B** (not C) — knowledge-graph mismatch |
-| [NCT01179594](https://clinicaltrials.gov/study/NCT01179594) | Phase 4 | Withdrawn | 0 | Pegasys ± entecavir in HBeAg-negative chronic hepatitis B; withdrawn, unrelated to HCV |
-| [NCT05005507](https://clinicaltrials.gov/study/NCT05005507) | Phase 2 | Terminated | 1 | Terminated after 1 enrollee; HBV-focused, no HCV evidence |
-| [NCT01022801](https://clinicaltrials.gov/study/NCT01022801) | Phase 2 | Completed | 120 | Entecavir vs. lamivudine in Japanese chronic hepatitis B patients — HBV trial |
-| [NCT00597259](https://clinicaltrials.gov/study/NCT00597259) | Phase 4 | Unknown | 294 | Pegasys + entecavir vs. entecavir alone, HBeAg-positive chronic hepatitis B — unrelated to HCV |
-| [NCT01848743](https://clinicaltrials.gov/study/NCT01848743) | Phase 3 | Unknown | 120 | Tenofovir vs. lamivudine for severe HBV exacerbation — not entecavir-led, not HCV |
-| [NCT02956850](https://clinicaltrials.gov/study/NCT02956850) | Phase 1 | Completed | 160 | Safety/PK study, presumed HBV population — insufficient detail to confirm any HCV relevance |
-| [NCT00096785](https://clinicaltrials.gov/study/NCT00096785) | Phase 3 | Completed | 69 | Early viral kinetics of entecavir vs. adefovir in nucleoside-naive chronic hepatitis B |
-| [NCT02589652](https://clinicaltrials.gov/study/NCT02589652) | N/A | Unknown | 294 | Peg-IFN sequential therapy after long-term entecavir in chronic hepatitis B — not HCV |
-| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | Phase 3 | Completed | 44 | Telbivudine vs. entecavir kinetics in HBeAg-positive chronic hepatitis B — exploratory HBV trial |
+| [NCT04157257](https://clinicaltrials.gov/study/NCT04157257) | المرحلة 2 | غير معروف | 60 | QL-007 + إنتيكافير/تينوفوفير في التهاب الكبد المزمن **B** (وليس C) — عدم مطابقة الرسم البياني للمعرفة |
+| [NCT01179594](https://clinicaltrials.gov/study/NCT01179594) | المرحلة 4 | مسحوب | 0 | Pegasys ± إنتيكافير في التهاب الكبد B المزمن السلبي HBeAg؛ تم سحبه، غير ذي صلة بـ HCV |
+| [NCT05005507](https://clinicaltrials.gov/study/NCT05005507) | المرحلة 2 | منهي | 1 | تم إنهاؤه بعد 1 مسجل؛ يركز على HBV، لا توجد أدلة HCV |
+| [NCT01022801](https://clinicaltrials.gov/study/NCT01022801) | المرحلة 2 | مكتمل | 120 | الإنتيكافير مقابل لاميفودين في مرضى التهاب الكبد B المزمن اليابانيين — تجربة HBV |
+| [NCT00597259](https://clinicaltrials.gov/study/NCT00597259) | المرحلة 4 | غير معروف | 294 | Pegasys + إنتيكافير مقابل إنتيكافير وحده، HBeAg-موجب التهاب الكبد B المزمن — غير ذي صلة بـ HCV |
+| [NCT01848743](https://clinicaltrials.gov/study/NCT01848743) | المرحلة 3 | غير معروف | 120 | تينوفوفير مقابل لاميفودين لفرط تنشيط HBV الحاد — غير مدفوع بالإنتيكافير، وليس HCV |
+| [NCT02956850](https://clinicaltrials.gov/study/NCT02956850) | المرحلة 1 | مكتمل | 160 | دراسة السلامة/الحرائك الدوائية، يُفترض السكان HBV — التفاصيل غير كافية لتأكيد أي صلة HCV |
+| [NCT00096785](https://clinicaltrials.gov/study/NCT00096785) | المرحلة 3 | مكتمل | 69 | حركية الفيروس المبكرة للإنتيكافير مقابل أديفوفير في التهاب الكبد B المزمن الخالي من النيوكليوزيد |
+| [NCT02589652](https://clinicaltrials.gov/study/NCT02589652) | N/A | غير معروف | 294 | العلاج المتسلسل Peg-IFN بعد الإنتيكافير طويل الأمد في التهاب الكبد B المزمن — ليس HCV |
+| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | المرحلة 3 | مكتمل | 44 | تيلبيفودين مقابل حركية الإنتيكافير في HBeAg-موجب التهاب الكبد B المزمن — تجربة استكشافية HBV |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohort | Viruses | Examines HCV reactivation/viral load evolution in anti-HCV-antibody-positive chronic hepatitis B patients undergoing nucleos(t)ide (entecavir-class) therapy — a coinfection-monitoring study, not an HCV treatment trial |
-| [28487602](https://pubmed.ncbi.nlm.nih.gov/28487602/) | 2017 | Review | World J Gastroenterol | Reviews HBV, HCV, and alcohol as causes of HCC; notes HCV is now largely curable via DAAs, unrelated to entecavir |
-| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wien Med Wochenschr | General review of chronic hepatitis B and C treatment landscape; entecavir discussed only in the HBV context |
-| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Review | Clin Res Hepatol Gastroenterol | Pediatric management of HBV and HCV infections; no entecavir-HCV efficacy data |
-| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opin Pharmacother | Advances in treating HBV/HCV coinfection; entecavir covered only as an HBV agent |
-| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Review | Chin Clin Oncol | Timing/management of HBV and HCV in hepatocellular carcinoma patients; not an entecavir efficacy study |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Reviews antiviral drugs (including entecavir) for HBV and separately for HCV — the two are distinct drug classes in this review, not combined therapy |
-| [39351520](https://pubmed.ncbi.nlm.nih.gov/39351520/) | 2024 | Editorial | World J Hepatol | General commentary on metabolomics in liver disease; not entecavir- or HCV-specific |
-| [38631661](https://pubmed.ncbi.nlm.nih.gov/38631661/) | 2024 | Basic Science | Antiviral Research | Studies transcription factor YY1 and HBV replication; unrelated to HCV |
-| [24868325](https://pubmed.ncbi.nlm.nih.gov/24868325/) | 2014 | Review | World J Hepatol | Management of HBV and HCV patients around liver/kidney transplantation; entecavir referenced only for HBV |
+| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | مجموعة دراسات | Viruses | يفحص إعادة تنشيط HCV/تطور الحمل الفيروسي في مرضى التهاب الكبد B المزمن الإيجابيين للأجسام المضادة لـ HCV الذين يخضعون للعلاج بـ nucleos(t)ide (فئة الإنتيكافير) — دراسة مراقبة العدوى المزدوجة، وليست تجربة علاج HCV |
+| [28487602](https://pubmed.ncbi.nlm.nih.gov/28487602/) | 2017 | استعراض | World J Gastroenterol | يراجع HBV و HCV والكحول كأسباب لـ HCC؛ يلاحظ أن HCV قابل الآن للشفاء إلى حد كبير عبر DAAs، غير ذي صلة بالإنتيكافير |
+| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | استعراض | Wien Med Wochenschr | استعراض عام لمشهد علاج التهاب الكبد B و C المزمن؛ تمت مناقشة الإنتيكافير فقط في سياق HBV |
+| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | استعراض | Clin Res Hepatol Gastroenterol | الإدارة الطبية لعدوى HBV و HCV؛ لا توجد بيانات فعالية إنتيكافير-HCV |
+| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | استعراض | Expert Opin Pharmacother | التطورات في علاج العدوى المزدوجة HBV/HCV؛ يتم تغطية الإنتيكافير فقط كعامل HBV |
+| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | استعراض | Chin Clin Oncol | توقيت/إدارة HBV و HCV في مرضى سرطان الكبد؛ ليست دراسة فعالية إنتيكافير |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | استعراض | Minerva Gastroenterol Dietol | يراجع الأدوية المضادة للفيروسات (بما فيها الإنتيكافير) لـ HBV وبشكل منفصل لـ HCV — الاثنان من فئات الأدوية المميزة في هذا الاستعراض، وليس العلاج المركب |
+| [39351520](https://pubmed.ncbi.nlm.nih.gov/39351520/) | 2024 | افتتاحي | World J Hepatol | تعليق عام على استقلابيات في أمراض الكبد؛ ليس خاصًا بالإنتيكافير أو HCV |
+| [38631661](https://pubmed.ncbi.nlm.nih.gov/38631661/) | 2024 | العلوم الأساسية | Antiviral Research | يدرس عامل النسخ YY1 وتكرار HBV؛ غير ذي صلة بـ HCV |
+| [24868325](https://pubmed.ncbi.nlm.nih.gov/24868325/) | 2014 | استعراض | World J Hepatol | إدارة مرضى HBV و HCV حول زراعة الكبد/الكلى؛ يتم الإشارة إلى الإنتيكافير فقط لـ HBV |
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Entecavir is currently **not marketed** in Saudi Arabia under this candidate record, and no product license entries are available (0 authorizations on file). No dosage form, brand name, or approved-indication text could be extracted from the regulatory data.
+الإنتيكافير حاليًا **غير مُسوّق** بالمملكة العربية السعودية بموجب هذا السجل المرشح، وغير متوفرة أي إدخالات ترخيص منتج (0 تصاريح في الملف). لم يكن من الممكن استخراج أي شكل جرعة أو اسم علامة تجارية أو نص المؤشر المعتمد من البيانات التنظيمية.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-No structured safety data (warnings, contraindications, or drug-drug interactions) is available for this candidate — all three fields returned only data gaps, and the TFDA/SFDA package insert has not yet been retrieved (flagged as a **Blocking** data gap, DG001, in the source record). Please refer to the package insert for safety information once it becomes available.
+لا تتوفر بيانات السلامة المنظمة (التحذيرات أو موانع الاستعمال أو التفاعلات الدوائية) لهذا المرشح — عادت جميع الحقول الثلاثة فقط فجوات البيانات، ولم يتم استرجاع حزمة نشرة TFDA/SFDA بعد (تم التمييز عليها كفجوة بيانات حظر، DG001، في السجل المصدر). يرجى الرجوع إلى النشرة للحصول على معلومات السلامة بمجرد توفرها.
 
-**One evidence-derived safety signal is worth flagging**, even though it did not come from the formal safety fields: literature identified elsewhere in this evidence pack (in the HIV-co-infection prediction branch, not shown above) reports that entecavir has partial, sub-therapeutic anti-HIV-1 activity and can select for the HIV reverse-transcriptase resistance mutation M184V in HIV/HBV-coinfected patients who are not on antiretroviral therapy. This is a known clinical caution for entecavir use in that population and should be confirmed against the official label once available — it is unrelated to the HCV prediction itself but is directly relevant to safe use of this drug.
+**إشارة أمان مشتقة من الأدلة تستحق التنويه**، حتى لو لم تأتِ من حقول الأمان الرسمية: حددت الأدبيات في مكان آخر في مجموعة الأدلة هذه (في فرع توقع العدوى بـ HIV، غير معروض أعلاه) أن الإنتيكافير لديه نشاط مضاد لـ HIV-1 جزئي دون العلاج والمعايير السريرية، ويمكن أن يختار لطفرة مقاومة النسخ العكسي لـ HIV M184V في مرضى العدوى المزدوجة HIV/HBV الذين لا يتناولون الأدوية المضادة للفيروسات. هذا احتياط سريري معروف لاستخدام الإنتيكافير في تلك السكان ويجب تأكيده مقابل الملصق الرسمي بمجرد توفره — إنه غير ذي صلة بتنبؤ HCV نفسه لكنه ذو صلة مباشرة بالاستخدام الآمن لهذا الدواء.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-- The top-ranked prediction (Chronic Hepatitis C Virus Infection) has no mechanistic basis — entecavir inhibits HBV reverse transcriptase, a replication step HCV does not use — and every supporting trial/publication reviewed is actually about HBV or HBV/HCV coinfection management rather than HCV treatment efficacy. The evidence level is L5 (model score only), consistent with the source scoring's own "Hold" recommendation.
-- This candidate record also has two blocking data problems: `original_indications` is empty (entecavir's real, well-established original indication — chronic hepatitis B — is missing from the record) and the TFDA/SFDA package insert has not been retrieved, which by itself blocks any safety-tier review (DG001).
+**المنطق:**
+- التنبؤ الحاصل على أعلى رتبة (عدوى فيروس التهاب الكبد C المزمن) ليس له أساس ميكانيكي — الإنتيكافير يثبط النسخ العكسي لـ HBV، وهي خطوة تكاثر لا يستخدمها HCV — وكل تجربة/منشور داعم تم مراجعتها هي في الواقع عن HBV أو إدارة العدوى المزدوجة HBV/HCV بدلاً من فعالية علاج HCV. مستوى الأدلة هو L5 (توقع النموذج فقط)، متسق مع توصية "الانتظار" الخاصة بالتصنيف المصدري نفسه.
+- سجل المرشح هذا يحتوي أيضًا على مشكلتي بيانات حجب: `original_indications` فارغة (المؤشر الأصلي الحقيقي والمعتمد جيدًا للإنتيكافير — التهاب الكبد B المزمن — مفقود من السجل) ولم يتم استرجاع نشرة TFDA/SFDA، والتي بحد ذاتها تحجب أي مراجعة على مستوى الأمان (DG001).
 
-**To proceed, the following is needed:**
-- Correct the drug record's `original_indications` field to reflect entecavir's actual approved use (chronic hepatitis B virus infection), so future TxGNN predictions are not mistaken for a "novel" finding when they merely restate the known indication.
-- Retrieve the TFDA/SFDA package insert (warnings, contraindications, interactions) to unblock the S1 safety pre-screen (DG001).
-- Retrieve confirmed mechanism-of-action documentation from DrugBank (DG002) to formally support future mechanistic-plausibility scoring rather than relying on inference from trial/literature rationale text.
-- If this candidate pipeline is re-run, apply an entity-disambiguation step for "hepatitis B" vs. "hepatitis C" search terms to prevent recurrence of this knowledge-graph confusion (also affecting the duplicate rank‑4 "hepatitis C virus infection" entry).
-- This candidate should **not** advance to clinical evaluation for HCV. If a genuine repurposing signal exists in this evidence pack, it is the correction of the HBV indication record (rank 2), not a new therapeutic use.
+**للمتابعة، مطلوب ما يلي:**
+- تصحيح حقل `original_indications` الخاص بسجل الدواء ليعكس الاستخدام المعتمد الفعلي للإنتيكافير (عدوى فيروس التهاب الكبد B المزمن)، بحيث لا يتم الخلط بين توقعات TxGNN المستقبلية بشأن اكتشاف "جديد" عندما تعيد فقط تحديد المؤشر المعروف.
+- استرجاع نشرة TFDA/SFDA (التحذيرات أو موانع الاستعمال أو التفاعلات) لإلغاء حظر فحص الأمان قبل S1 (DG001).
+- استرجاع وثائق آلية الفعل المؤكدة من DrugBank (DG002) لدعم رسمي لتصنيف قابلية الديناميكية الدوائية المستقبلية بدلاً من الاعتماد على الاستدلال من نص منطق التجارب/الأدبيات.
+- إذا تم إعادة تشغيل خط أنابيب المرشح هذا، طبق خطوة توضيح الكيان لمصطلحات البحث "التهاب الكبد B" مقابل "التهاب الكبد C" لمنع تكرار هذا الخلط بين كيانات الرسم البياني للمعرفة (يؤثر أيضًا على إدخال رتبة ٤ المكرر "عدوى فيروس التهاب الكبد C").
+- يجب **عدم** السماح لهذا المرشح بالتقدم إلى التقييم السريري لـ HCV. إذا كانت إشارة إعادة استخدام حقيقية موجودة في مجموعة الأدلة هذه، فهي تصحيح سجل المؤشر HBV (الرتبة 2)، وليس استخدام علاجي جديد.
 
-*This report is for research reference only and does not constitute medical advice. Any repurposing candidate requires full clinical validation before application.*
+*هذا التقرير للإشارة البحثية فقط ولا يشكل نصيحة طبية. يتطلب أي مرشح إعادة استخدام التحقق السريري الكامل قبل التطبيق.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

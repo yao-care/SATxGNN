@@ -29,70 +29,71 @@ indication_count: 8
 
 </div>
 
-# Siponimod: From Multiple Sclerosis to Pulmonary Hypertension
+# سيبونيمود: من التصلب المتعدد إلى ارتفاع ضغط الدم الرئوي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Siponimod is an S1P1/S1P5 receptor modulator used in multiple sclerosis (same pharmacological class as fingolimod), acting by inhibiting lymphocyte egress from lymph nodes to reduce autoimmune inflammation. The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but this prediction is currently supported by **zero clinical trials and zero publications** — it rests entirely on the model's score and a theoretical mechanistic link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (inferred from drug class/literature context; no official indication text available — see Data Gaps) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سيبونيمود هو معدِّل مستقبلات S1P1/S1P5 يُستخدم في التصلب المتعدد (من نفس الفئة الدوائية مثل فينجوليمود)، يعمل بثبط خروج الخلايا اللمفاوية من العقد اللمفاوية لتقليل الالتهاب المناعي الذاتي. يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **ارتفاع ضغط الدم الرئوي**، لكن هذا التنبؤ مدعوم حاليًا بـ **صفر تجارب سريرية وصفر منشورات** — إنه يعتمد بالكامل على درجة النموذج وعلاقة ميكانيكية نظرية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed, formally sourced mechanism-of-action data for siponimod is not yet available in this evidence pack (flagged as a High-severity data gap). Based on information embedded elsewhere in the evidence pack, siponimod is known to be an S1P1/S1P5 receptor modulator: it inhibits lymphocyte egress from lymph nodes, thereby dampening autoimmune-mediated inflammation. This is the basis for its established use in multiple sclerosis, and it belongs to the same drug class as fingolimod.
-
-The proposed link to pulmonary hypertension is purely mechanistic and inferential: S1P signaling has been reported in the literature to play a role in vascular smooth muscle proliferation and pulmonary vascular remodeling, and other S1P modulators (such as fingolimod) have been explored in animal models on this basis. However, no clinical trial, registry entry, or published literature specific to siponimod in pulmonary hypertension exists in this evidence pack — the connection has not been tested in humans or, as far as this pack shows, even in siponimod-specific preclinical work.
-
-For context, other candidates in this same prediction batch carry materially stronger support (e.g., rheumatoid arthritis, ranked 7th, has reached decision stage S1 with class-level mechanistic literature), while pulmonary hypertension remains the highest-scored but least-evidenced candidate. The score alone should not be read as a proxy for evidentiary strength.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | التصلب المتعدد (مستنتج من فئة الدواء / سياق الأدبيات؛ لا يوجد نص استطباب رسمي متاح — انظر الثغرات البيانية) |
+| الاستطباب الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي |
+| درجة تنبؤ TxGNN | 99.68% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | غير مُسَوَّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل المفصلة والموثقة رسميًا لسيبونيمود ليست متاحة حتى الآن في هذه مجموعة الأدلة (تم تحديدها كفجوة بيانات عالية الخطورة). بناءً على المعلومات الموجودة في أماكن أخرى من مجموعة الأدلة، من المعروف أن سيبونيمود هو معدِّل لمستقبلات S1P1/S1P5: فهو يثبط خروج الخلايا اللمفاوية من العقد اللمفاوية، وبالتالي يخفف الالتهاب الناجم عن المناعة الذاتية. هذا هو الأساس لاستخدامه المعروف في التصلب المتعدد، وينتمي إلى نفس الفئة الدوائية مثل فينجوليمود.
 
----
+الرابط المقترح لارتفاع ضغط الدم الرئوي هو بحتة ميكانيكي واستدلالي: تم الإبلاغ عن دور إشارات S1P في الأدبيات في تكاثر العضلات الملساء الوعائية وإعادة تشكيل الأوعية الرئوية، وتم استكشاف معدلات S1P الأخرى (مثل فينجوليمود) في نماذج حيوانية على هذا الأساس. ومع ذلك، لا توجد تجربة سريرية، أو مدخل في سجل، أو منشور أدبي محدد لسيبونيمود في ارتفاع ضغط الدم الرئوي في مجموعة الأدلة هذه — لم يتم اختبار الاتصال في البشر أو، بقدر ما تُظهره هذه المجموعة، حتى في العمل السابق للإكلينيك المحدد لسيبونيمود.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: Formal TFDA/regulatory package insert data (warnings, contraindications, drug interactions) is not yet available for this compound and is flagged as a Blocking data gap — see Conclusion and Next Steps.*
+للسياق، المرشحون الآخرون في نفس دفعة التنبؤ هذه يحملون دعمًا أقوى بشكل ملموس (على سبيل المثال، التهاب المفاصل الروماتويدي، الترتيب 7، وصل إلى مرحلة القرار S1 مع أدبيات ميكانيكية على مستوى الفئة)، في حين يبقى ارتفاع ضغط الدم الرئوي أعلى درجة لكن الأقل إثباتًا. يجب عدم قراءة الدرجة وحدها كبديل لقوة الإثبات.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-The predicted indication (pulmonary hypertension) has an evidence level of L5 — a model score with no supporting clinical trials or literature, and the mechanistic rationale is purely theoretical, extrapolated from a different molecule (fingolimod) in animal models. Combined with the absence of official safety labeling, this candidate does not yet meet the bar for even a preliminary safety review.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap; required before entering S1 safety pre-assessment
-- Confirmed mechanism-of-action data from DrugBank (High-severity gap)
-- Any preclinical or mechanistic study directly linking siponimod (not just the broader S1P-modulator class) to pulmonary hypertension
-- If pursued, a registration/import pathway assessment given the drug is currently not marketed in this market
+## أدلة الأدبيات
+
+لا توجد حاليًا أدبيات ذات صلة متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+*ملاحظة: بيانات نشرة الحزمة الرسمية من TFDA / التنظيمية (التحذيرات والموانع والتفاعلات الدوائية) ليست متاحة حتى الآن لهذا المركب وتم تحديدها كفجوة بيانات حاجزة — انظر الخلاصة والخطوات التالية.*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبرر:**
+الاستطباب المتنبأ به (ارتفاع ضغط الدم الرئوي) له مستوى أدلة L5 — درجة نموذج بدون تجارب سريرية أو أدبيات داعمة، والمبرر الميكانيكي هو نظري بحتة، مستمد من جزيء مختلف (فينجوليمود) في نماذج حيوانية. بالاقتران مع غياب وضع العلامات الرسمي للسلامة، لم يصل هذا المرشح حتى إلى مستوى التقييم الأولي للسلامة.
+
+**للمتابعة، المطلوب التالي:**
+- نشرة حزمة TFDA (التحذيرات / الموانع) — فجوة حاجزة؛ مطلوب قبل دخول تقييم السلامة الأولي S1
+- بيانات آلية العمل المؤكدة من DrugBank (فجوة عالية الخطورة)
+- أي دراسة سابقة للإكلينيك أو ميكانيكية تربط مباشرة سيبونيمود (وليس فقط فئة معدلات S1P الأوسع) بارتفاع ضغط الدم الرئوي
+- إذا تمت متابعتها، تقييم مسار التسجيل / الاستيراد نظرًا لأن الدواء غير مُسَوَّق حاليًا في هذا السوق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

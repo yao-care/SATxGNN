@@ -29,83 +29,84 @@ indication_count: 6
 
 </div>
 
-# Ataluren: From Nonsense Mutation Duchenne Muscular Dystrophy to Benign Recurrent Intrahepatic Cholestasis
+# أتالورين: من ضمور العضلات الدوشن الناجم عن طفرات الإيقاف إلى الركود الصفراوي الكبدي الداخلي الحميد المتكرر
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Ataluren (Translarna) is a small-molecule premature termination codon (PTC) readthrough agent, conditionally approved in Europe for treating Duchenne muscular dystrophy caused by nonsense mutations (nmDMD). The TxGNN model predicts it may be effective for **benign recurrent intrahepatic cholestasis (BRIC)**, with the broader cluster of cholestatic and bilirubin metabolism diseases supported by **1 indirect clinical trial** and **1 in vitro publication**. No direct clinical evidence exists for the top-ranked indication, and the current recommendation is **Hold** pending genotype stratification and preclinical validation.
+أتالورين (Translarna) هو عامل قراءة اختراق كودون الإيقاف المبكر (PTC) صغير الجزيء، معتمد بشكل مشروط في أوروبا لعلاج ضمور العضلات الدوشن الناجم عن طفرات الإيقاف (nmDMD). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الركود الصفراوي الكبدي الداخلي الحميد المتكرر (BRIC)**، حيث تدعم المجموعة الأوسع من أمراض الركود الصفراوي واستقلاب البيليروبين **تجربة سريرية واحدة غير مباشرة** و **منشور واحد في المختبر**. لا توجد أدلة سريرية مباشرة للمؤشر المصنف الأول، والتوصية الحالية هي **انتظار** في انتظار تقسيم النمط الجيني والتحقق من صحة ما قبل السريري.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Nonsense mutation Duchenne muscular dystrophy (nmDMD) |
-| Predicted New Indication | Benign recurrent intrahepatic cholestasis (BRIC) |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | ضمور العضلات الدوشن الناجم عن طفرات الإيقاف (nmDMD) |
+| المؤشر المتنبأ به | الركود الصفراوي الكبدي الداخلي الحميد المتكرر (BRIC) |
+| درجة التنبؤ من TxGNN | 99.42% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد الموافقات | 0 |
+| قرار التوصية | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ منطقي؟
 
-Ataluren's mechanism of action is to promote ribosomal readthrough of premature stop codons (PTCs) introduced by nonsense mutations — it allows the ribosome to skip past a disease-causing stop signal, partially restoring functional protein production. This mechanism is mutation-type-dependent, not disease-specific: in principle, it can apply to any single-gene disorder where a nonsense mutation is the pathogenic cause, regardless of which organ system is affected.
+آلية عمل أتالورين هي تعزيز قراءة اختراق الريبوسوم لكودونات الإيقاف المبكر (PTCs) المحفزة بواسطة طفرات الإيقاف — حيث تسمح للريبوسوم بالقفز فوق إشارة إيقاف تسبب المرض، مما يستعيد جزئياً إنتاج البروتين الوظيفي. هذه الآلية تعتمد على نوع الطفرة وليست خاصة بمرض معين: من حيث المبدأ، يمكن تطبيقها على أي اضطراب بجين واحد حيث تكون طفرة الإيقاف هي السبب المرضي، بغض النظر عن نظام الأعضاء المتأثر.
 
-Benign recurrent intrahepatic cholestasis (BRIC) is a rare genetic disease caused by mutations in one of two genes: ATP8B1 (causing BRIC type 1) or ABCB11 (causing BRIC type 2). In patients who carry a nonsense mutation in either gene, ataluren's readthrough mechanism could theoretically restore partial transporter protein function at the canalicular membrane, potentially reducing the frequency or severity of cholestatic episodes. This mechanistic bridge from nmDMD to BRIC is scientifically coherent but remains untested.
+الركود الصفراوي الكبدي الداخلي الحميد المتكرر (BRIC) هو مرض وراثي نادر ناجم عن طفرات في أحد جينين: ATP8B1 (يسبب BRIC من النوع 1) أو ABCB11 (يسبب BRIC من النوع 2). في المرضى الذين يحملون طفرة إيقاف في أي من الجينين، يمكن لآلية قراءة الاختراق من أتالورين نظرياً أن تستعيد وظيفة البروتين الناقل جزئياً على الغشاء القنوي، مما قد يقلل من تكرار أو شدة نوبات الركود الصفراوي. هذا الجسر الآلي من nmDMD إلى BRIC متسق من الناحية العلمية لكنه يبقى غير مختبَر.
 
-Among the broader cluster of TxGNN-predicted cholestatic indications, **familial intrahepatic cholestasis (PFIC2)** offers the most compelling mechanistic anchoring. A 2021 in vitro study (PMID 32702170, published in *Hepatology*) directly tested PTC readthrough agents against six ABCB11 nonsense mutations in PFIC2 cell models, demonstrating restoration of BSEP (bile salt export pump) protein — the same gene implicated in BRIC2. While this does not constitute clinical evidence, it confirms that the molecular hypothesis is experimentally tractable.
+بين المؤشرات الأوسع المتنبأ بها من قبل TxGNN للركود الصفراوي، يقدم **الركود الصفراوي الكبدي الداخلي الحميد الأسري من النوع الثاني (PFIC2)** أقوى تثبيت آلي. أظهرت دراسة في المختبر عام 2021 (PMID 32702170، منشورة في *Hepatology*) اختبار عوامل قراءة اختراق PTC ضد ستة طفرات إيقاف من ABCB11 في نماذج خلايا PFIC2، مما أظهر استعادة بروتين BSEP (مضخة تصدير أملاح الصفراء) — وهو نفس الجين المعني في BRIC2. بينما هذا لا يشكل دليل سريري، فإنه يؤكد أن الفرضية الجزيئية قابلة للاختبار تجريبياً.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-No clinical trials are registered for the top-ranked indication (BRIC). The following trial appears under the related bilirubin metabolism disease cluster and is the only ataluren trial identified across all six predicted indications:
+لا توجد تجارب سريرية مسجلة للمؤشر الأول (BRIC). تظهر التجربة التالية تحت مجموعة أمراض استقلاب البيليروبين ذات الصلة وهي التجربة الوحيدة الموجودة لأتالورين عبر جميع المؤشرات الستة المتنبأ بها:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01141075](https://clinicaltrials.gov/study/NCT01141075) | Phase 2 | Terminated | 11 | Ataluren in nonsense mutation methylmalonic acidemia (MMA) — a different inborn metabolic error, not a cholestatic or bilirubin disease. Classified as Grade C relevance: provides indirect mechanistic support showing ataluren can be studied in nonsense mutation metabolic diseases, but cannot be cited as direct evidence for any cholestatic indication. Trial terminated early; efficacy not established. |
+| [NCT01141075](https://clinicaltrials.gov/study/NCT01141075) | المرحلة 2 | منتهية | 11 | أتالورين في حمض ميثيل مالونيك الناجم عن طفرات الإيقاف (MMA) — خطأ استقلابي مختلف عند الولادة، وليس مرض ركود صفراوي أو بيليروبين. مصنفة كأهمية درجة C: توفر دعماً آلياً غير مباشر يظهر أن أتالورين يمكن دراسته في أمراض استقلابية ناجمة عن طفرات الإيقاف، لكن لا يمكن الاستشهاد به كدليل مباشر لأي مؤشر كبدي صفراوي. انتهت التجربة مبكراً؛ لم يتم إثبات الفعالية. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-No literature is available directly supporting the top-ranked indication (BRIC). The following publication is identified under the familial intrahepatic cholestasis prediction cluster:
+لا تتوفر أدبيات تدعم بشكل مباشر المؤشر الأول (BRIC). تم تحديد المنشور التالي ضمن مجموعة التنبؤ بالركود الصفراوي الكبدي الداخلي الحميد الأسري:
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [32702170](https://pubmed.ncbi.nlm.nih.gov/32702170/) | 2021 | Preclinical / In vitro | Hepatology | Tested pharmacological PTC readthrough (including ataluren) against six ABCB11 nonsense mutations in a PFIC2 cell model. Demonstrated proof-of-concept restoration of BSEP protein expression. This is the only study in the dataset with a direct mechanistic link to the predicted indication cluster. Clinical translation not yet demonstrated. |
+| [32702170](https://pubmed.ncbi.nlm.nih.gov/32702170/) | 2021 | ما قبل السريري / في المختبر | Hepatology | اختبر قراءة اختراق PTC الصيدلانية (بما في ذلك أتالورين) ضد ستة طفرات إيقاف من ABCB11 في نموذج خلايا PFIC2. أظهر إثبات المفهوم لاستعادة التعبير عن بروتين BSEP. هذه هي الدراسة الوحيدة في مجموعة البيانات مع ارتباط آلي مباشر بمجموعة المؤشرات المتنبأ بها. لم يتم إظهار الترجمة السريرية بعد. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Ataluren is not approved or marketed in Saudi Arabia. No authorization records are on file.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+أتالورين غير معتمد أو مسوّق في المملكة العربية السعودية. لا توجد سجلات موافقة موجودة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-The top-ranked prediction (BRIC) rests entirely on AI model inference with no supporting preclinical or clinical data (L5). While the mechanistic rationale — PTC readthrough in nonsense mutation cholestatic disease — is biologically sound, the absence of any direct evidence precludes a Go or Proceed with Guardrails decision at this stage.
+---
 
-**To proceed, the following is needed:**
-- **Genotype stratification**: Confirm that the target patient subpopulation carries nonsense mutations in ATP8B1 (BRIC1) or ABCB11 (BRIC2); ataluren is ineffective against missense or frameshift mutations
-- **Preclinical validation**: In vitro or animal model studies using BRIC-specific nonsense mutations; PMID 32702170 provides a usable protocol template for ABCB11 targets
-- **Indication prioritization**: Consider re-ranking the lead candidate — PFIC2 (familial intrahepatic cholestasis, Rank 4) has direct in vitro evidence and may be a stronger starting point than BRIC (Rank 1) for hypothesis-driven development
-- **Safety data resolution**: Retrieve and review the full package insert to complete the safety profile before any clinical planning (currently a blocking data gap)
-- **MOA data**: Obtain full pharmacological characterization from DrugBank or primary sources to support the mechanism rationale in any regulatory or ethics submission
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+يستند التنبؤ الأول (BRIC) بالكامل على استنتاج نموذج ذكاء اصطناعي دون وجود بيانات ما قبل سريرية أو سريرية داعمة (L5). في حين أن التبرير الآلي — قراءة الاختراق لـ PTC في مرض كبدي صفراوي ناجم عن طفرات الإيقاف — سليم من الناحية البيولوجية، فإن غياب أي دليل مباشر يمنع قرار Go أو Proceed with Guardrails في هذه المرحلة.
+
+**لكي نتقدم، يلزم ما يلي:**
+- **تقسيم النمط الجيني**: تأكيد أن مجموعة المريض المستهدفة تحمل طفرات إيقاف في ATP8B1 (BRIC1) أو ABCB11 (BRIC2)؛ أتالورين غير فعال ضد طفرات المعنى الخاطئ أو طفرات الإزاحة الإطارية
+- **التحقق من صحة ما قبل السريري**: دراسات في المختبر أو نماذج حيوانية باستخدام طفرات إيقاف خاصة بـ BRIC؛ PMID 32702170 توفر قالب بروتوكول قابل للاستخدام لأهداف ABCB11
+- **إعادة النظر في تحديد أولويات المؤشر**: PFIC2 (الركود الصفراوي الكبدي الداخلي الحميد الأسري، الترتيب 4) يحتوي على دليل مباشر في المختبر وقد يكون نقطة انطلاق أقوى من BRIC (الترتيب 1) للتطوير الموجه بالفرضيات
+- **دقة بيانات السلامة**: الحصول على واستعراض ملخص خصائص المنتج الكامل لإكمال ملف تعريف السلامة قبل أي تخطيط سريري (حالياً فجوة بيانات معيقة)
+- **بيانات آلية الفعل**: الحصول على توصيف صيدلاني كامل من DrugBank أو المصادر الأولية لدعم تبرير الآلية في أي تقديم تنظيمي أو أخلاقي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

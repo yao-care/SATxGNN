@@ -29,79 +29,78 @@ indication_count: 10
 
 </div>
 
-# Ciprofloxacin: From Bacterial Infections to Diffuse Scleroderma
+# السيبروفلوكساسين: من العدوى البكتيرية إلى التصلب اللفيفي المنتشر
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Ciprofloxacin is a broad-spectrum fluoroquinolone antibiotic widely used for treating bacterial infections including urinary tract, respiratory, gastrointestinal, and skin infections.
-The TxGNN model predicts it may have utility in **Diffuse Scleroderma**, with **0 clinical trials** and **2 publications** currently supporting this direction.
-Evidence for this repurposing direction remains exploratory, anchored by a single small-cohort pilot trial and one observational study on antibiotic management of scleroderma-associated gut complications.
+السيبروفلوكساسين هو مضاد حيوي من الكينولونات واسع الطيف يستخدم على نطاق واسع في علاج العدوى البكتيرية بما في ذلك عدوى المسالك البولية والجهاز التنفسي والجهاز الهضمي والجلد. يتنبأ نموذج TxGNN بأنه قد يكون مفيداً في **التصلب اللفيفي المنتشر**، مع وجود **0** تجربة سريرية و**2** منشور يدعمان هذا الاتجاه حالياً. تظل الأدلة على هذا الاتجاه لإعادة استخدام الدواء استكشافية، مستندة إلى تجربة رائدة واحدة ذات عينة صغيرة ودراسة رصدية واحدة حول إدارة المضادات الحيوية لمضاعفات الأمعاء المرتبطة بالتصلب اللفيفي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Broad-spectrum bacterial infections (fluoroquinolone antibiotic class) |
-| Predicted New Indication | Diffuse Scleroderma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الإشارة الأصلية | العدوى البكتيرية واسعة الطيف (فئة مضادات حيوية من الكينولونات) |
+| الإشارة الجديدة المتنبأ بها | التصلب اللفيفي المنتشر |
+| نقاط التنبؤ في TxGNN | 99.87% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, ciprofloxacin is a fluoroquinolone antibiotic that exerts its primary bactericidal effect by inhibiting bacterial DNA gyrase (GyrA/GyrB subunits) and topoisomerase IV (ParC/ParE subunits) — essential enzymes for bacterial DNA replication and repair. This mechanism underpins its broad-spectrum coverage against gram-negative and selected gram-positive organisms.
+حالياً، لا تتوفر بيانات مفصلة عن آلية العمل في حزمة الأدلة. بناءً على المعلومات المعروفة، السيبروفلوكساسين هو مضاد حيوي من الكينولونات يمارس تأثيره المبيد للبكتيريا الأساسي من خلال تثبيط جيراز الحمض النووي البكتيري (الوحدات الجزئية GyrA/GyrB) وإيزوميراز توبو IV (الوحدات الجزئية ParC/ParE) — إنزيمات أساسية لتضاعف الحمض النووي البكتيري وإصلاحه. تدعم هذه الآلية تغطيته واسعة الطيف ضد الكائنات سالبة الجرام والكائنات موجبة الجرام المختارة.
 
-Beyond its antibacterial role, ciprofloxacin has been reported to possess antifibrotic properties — potentially inhibiting fibroblast proliferation and collagen synthesis through mechanisms distinct from its classical antibacterial action. Diffuse scleroderma (systemic sclerosis) is an autoimmune connective tissue disorder defined by progressive skin and visceral fibrosis, microvascular injury, and immune dysregulation. No currently approved pharmacological treatment effectively halts fibrosis, creating an unmet therapeutic need. This antifibrotic mechanistic link forms the primary biological rationale for the TxGNN model's high prediction score.
+بالإضافة إلى دوره كمضاد حيوي، يُعتقد أن السيبروفلوكساسين يمتلك خصائص مضادة للتليف — يمكن أن يثبط تكاثر الخلايا الليفية وتخليق الكولاجين من خلال آليات مختلفة عن عمله المضاد للبكتيريا الكلاسيكي. التصلب اللفيفي المنتشر (تصلب الجهاز الشامل) هو اضطراب نسيج ضام ذاتي المناعة يتميز بالتليف الجلدي والحشوي التدريجي والإصابة الميكروية والخلل المناعي. لا يوجد أي علاج دوائي معتمد حالياً يوقف التليف بفعالية، مما يخلق احتياجاً علاجياً غير مُلباً. يشكل هذا الارتباط الآلي المضاد للتليف الأساس البيولوجي الأساسي لنقاط التنبؤ العالية في نموذج TxGNN.
 
-A secondary pathway involves small intestinal bacterial overgrowth (SIBO), which affects a substantial proportion of systemic sclerosis patients and drives symptoms such as chronic diarrhoea, malabsorption, and weight loss. Ciprofloxacin, as a proven broad-spectrum antibiotic, can address SIBO directly, providing indirect symptom relief in scleroderma patients with gastrointestinal involvement. It is important to note, however, that this represents a symptomatic application rather than disease modification.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يتضمن مسار ثانوي الإفراط في نمو البكتيريا في الأمعاء الدقيقة (SIBO)، وهي تؤثر على نسبة كبيرة من مرضى تصلب الجهاز الشامل وتسبب أعراضاً مثل الإسهال المزمن وسوء الامتصاص وفقدان الوزن. السيبروفلوكساسين، كمضاد حيوي موثوق الفعالية واسع الطيف، يمكنه التعامل مع SIBO مباشرة، مما يوفر تخفيفاً غير مباشر للأعراض لدى مرضى التصلب اللفيفي الذين يعانون من الانخراط في الجهاز الهضمي. من المهم ملاحظة أن هذا يمثل تطبيقاً عرضياً وليس تعديلاً للمرض.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Clinical Pilot (Small Cohort RCT) | The Journal of Dermatology | Controlled, double-blind pilot trial evaluating oral ciprofloxacin as an antifibrotic agent in scleroderma patients; assessed whether ciprofloxacin reduces disease severity, providing the most direct evidence for this repurposing direction |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observational/Diagnostic | British Journal of Rheumatology | 24 systemic sclerosis patients (6 with diffuse form) investigated for SIBO via jejunal aspiration; describes antibiotic treatment outcomes for malabsorption, supporting ciprofloxacin's indirect role in managing a key scleroderma complication |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
-> **Notable safety signal identified within this evidence pack:** Ciprofloxacin carries an FDA Black Box Warning for the risk of causing or exacerbating **peripheral neuropathy**, which may be irreversible. This is a critical consideration for any chronic or repeated-course use in a non-infectious indication such as scleroderma, and must be weighed explicitly against any potential antifibrotic benefit.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|---------|-----------------|
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | تجربة سريرية رائدة (RCT ذات عينة صغيرة) | The Journal of Dermatology | تجربة رائدة محكومة وعمياء تقيّم السيبروفلوكساسين الفموي كعامل مضاد للتليف لدى مرضى التصلب اللفيفي؛ قيّمت ما إذا كان السيبروفلوكساسين يقلل من شدة المرض، مما يوفر أقوى دليل مباشر لهذا الاتجاه لإعادة الاستخدام |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | رصدي/تشخيصي | British Journal of Rheumatology | تم التحقيق في 24 مريضاً بتصلب الجهاز الشامل (6 منهم مع الشكل المنتشر) من أجل SIBO عبر شفط الأمعاء الصائمة؛ يصف نتائج العلاج بالمضادات الحيوية لسوء الامتصاص، مما يدعم الدور غير المباشر للسيبروفلوكساسين في إدارة مضاعفة التصلب اللفيفي الرئيسية |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.87%), the current evidence base for ciprofloxacin in diffuse scleroderma consists of only 2 early-phase or observational publications with no registered clinical trials, placing this at Evidence Level L4 — insufficient to support clinical repurposing without further validation. The antifibrotic hypothesis is mechanistically plausible but remains unconfirmed by adequately powered prospective data.
+> **إشارة سلامة ملحوظة تم تحديدها في حزمة الأدلة هذه:** يحمل السيبروفلوكساسين تحذيراً صندوقياً من إدارة الغذاء والدواء بشأن خطر التسبب أو تفاقم **اعتلال الأعصاب المحيطية**، والذي قد يكون غير قابل للعكس. هذا اعتبار حرج لأي استخدام مزمن أو متكرر الدورات في إشارة غير معدية مثل التصلب اللفيفي، ويجب أن يوازن صراحة ضد أي فائدة مضادة للتليف محتملة.
 
-**To proceed, the following is needed:**
-- A properly powered randomized controlled trial explicitly evaluating ciprofloxacin's antifibrotic efficacy in diffuse scleroderma (building on the 2010 pilot study at PMID 20507401)
-- Retrieval of detailed MOA data from DrugBank (DG002) to characterize the molecular targets underlying the reported antifibrotic activity
-- Retrieval of SFDA package insert safety warnings and contraindications (DG001) before any S1 safety evaluation can be completed
-- Clarification of whether antifibrotic dosing and treatment duration differ from standard antibacterial regimens
-- Formal benefit-risk assessment accounting for ciprofloxacin's FDA Black Box Warning on peripheral neuropathy and known risks of tendinopathy and QT prolongation, which are particularly concerning in the context of chronic use
-- Regulatory pathway analysis given that ciprofloxacin is currently not marketed in Saudi Arabia (0 SFDA authorizations), requiring a de novo registration strategy if clinical development proceeds
+---
 
-> **Multi-indication note:** This evidence pack evaluated 10 predicted indications. While diffuse scleroderma ranks highest by TxGNN score, two other indications carry substantially stronger clinical evidence: **Septicemic Plague** (L2 — completed Phase 2 RCT + multiple human RCTs, FDA-approved under Animal Rule; recommended: Proceed with Guardrails) and **Monoclonal Gammopathy** (L3 — multiple retrospective cohorts supporting prophylactic use in haematopoietic stem cell transplantation; recommended: Proceed with Guardrails). These should be prioritized in any parallel repurposing development strategy.
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+رغم نقاط التنبؤ العالية في TxGNN (99.87%)، تتكون قاعدة الأدلة الحالية للسيبروفلوكساسين في التصلب اللفيفي المنتشر من منشورات مرحلة مبكرة أو رصدية فقط بدون تجارب سريرية مسجلة، مما يضعها عند مستوى الدليل L4 — غير كافٍ لدعم إعادة استخدام سريري بدون مزيد من التحقق. تبقى الفرضية المضادة للتليف معقولة من الناحية الآلية لكنها تبقى غير مؤكدة من خلال بيانات استباقية كافية القوة.
+
+**لكي نتقدم، يلزم ما يلي:**
+- تجربة عشوائية محكومة موثوقة القوة تقيّم صراحة فعالية السيبروفلوكساسين المضادة للتليف في التصلب اللفيفي المنتشر (بناءً على الدراسة الرائدة عام 2010 في PMID 20507401)
+- استرجاع بيانات آلية العمل المفصلة من DrugBank (DG002) لتوصيف الأهداف الجزيئية الكامنة وراء النشاط المضاد للتليف المُبلّغ عنه
+- استرجاع تحذيرات نشرة أمان SFDA والموانع (DG001) قبل إكمال أي تقييم سلامة S1
+- توضيح ما إذا كانت الجرعات المضادة للتليف ومدة العلاج تختلف عن الأنظمة المضادة للبكتيريا القياسية
+- تقييم رسمي للمنفعة والمخاطر يأخذ في الاعتبار تحذير صندوق إدارة الغذاء والدواء للسيبروفلوكساسين بشأن اعتلال الأعصاب المحيطية والمخاطر المعروفة لاعتلال الأوتار وإطالة QT، والتي تثير قلقاً خاصاً في سياق الاستخدام المزمن
+- تحليل المسار التنظيمي بالنظر إلى أن السيبروفلوكساسين غير مسوّق حالياً في المملكة العربية السعودية (0 تفويضات SFDA)، مما يتطلب استراتيجية تسجيل من جديد إذا تقدم التطوير السريري
+
+> **ملاحظة متعددة الإشارات:** قيّمت حزمة الأدلة هذه 10 إشارات متنبأ بها. بينما يحتل التصلب اللفيفي المنتشر المرتبة الأولى بنقاط TxGNN، تحمل إشارتان أخريان أدلة سريرية أقوى بكثير: **طاعون الإنتان** (L2 — اكتملت RCT المرحلة 2 + RCTs بشرية متعددة، معتمدة من إدارة الغذاء والدواء بموجب قاعدة الحيوان؛ الموصى به: تابع مع ضمانات) و**الجلوبيولينيميا أحادية النسيلة** (L3 — مجموعات استرجاعية متعددة تدعم الاستخدام الوقائي في زراعة الخلايا الجذعية المكونة للدم؛ الموصى به: تابع مع ضمانات). يجب إعطاء الأولوية لهذه في أي استراتيجية تطوير إعادة استخدام متوازية.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

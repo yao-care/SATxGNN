@@ -29,87 +29,88 @@ indication_count: 1
 
 </div>
 
-# Isoniazid: From Tuberculosis to Conjunctivitis
+# الإيزونيازيد: من السل إلى التهاب الملتحمة
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Isoniazid is a first-line anti-tuberculosis agent, acting specifically against *Mycobacterium tuberculosis* by blocking mycolic acid synthesis. The TxGNN model predicts a possible new indication for **Conjunctivitis**, but the supporting evidence base — **1 clinical trial** and **20 publications** — consists almost entirely of cases where conjunctivitis is a *manifestation of tuberculosis itself*, not independent pharmacological evidence for treating conjunctivitis in general.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Tuberculosis (latent and active TB infection treatment) — no formal indication text available in this evidence pack |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+الإيزونيازيد هو عامل مضاد للسل من الخط الأول، يعمل بشكل خاص ضد *Mycobacterium tuberculosis* بخلال حجب تخليق حمض الميكوليك. يتنبأ نموذج TxGNN بمؤشر جديد محتمل لـ **التهاب الملتحمة**، إلا أن قاعدة الأدلة الداعمة — **1 تجربة سريرية** و **20 منشورة** — تتكون بالكامل تقريباً من حالات حيث يكون التهاب الملتحمة **تظاهراً للسل نفسه**، وليس دليلاً صيدلانياً مستقلاً لعلاج التهاب الملتحمة بشكل عام.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Isoniazid's mechanism of action is inhibition of mycolic acid synthesis in *Mycobacterium tuberculosis* (via KatG-mediated activation and InhA inhibition). This mechanism is narrowly targeted to mycobacteria and has no known anti-inflammatory, antiviral, or broad-spectrum antimicrobial activity that would explain efficacy against typical (allergic, viral, or bacterial) conjunctivitis.
-
-Nearly all of the supporting literature reflects a different relationship: tuberculosis infection can itself present as conjunctivitis (e.g., TB conjunctivitis, phlyctenular keratoconjunctivitis). In these cases, isoniazid treats the underlying TB infection, and the conjunctivitis resolves as a downstream effect — not because isoniazid has a direct anti-inflammatory or ocular-surface effect. A smaller subset of cases involves isoniazid used to manage reactive arthritis/conjunctivitis following intravesical BCG therapy, which is again a TB-pathway-mediated context rather than a novel mechanism.
-
-The TxGNN score of 99.36% most likely reflects a strong "isoniazid–TB–conjunctivitis" co-occurrence path in the underlying knowledge graph, rather than independent pharmacological evidence that isoniazid treats conjunctivitis outside the TB context. This distinction is critical for repurposing evaluation: it is an extension of the existing TB indication, not a genuinely new mechanistic signal.
+| البند | المحتوى |
+|------|--------|
+| الاستخدام الأصلي | السل (علاج عدوى السل الكامنة والنشطة) — لا يتوفر نص استخدام رسمي في حزمة الأدلة هذه |
+| الاستخدام الجديد المتنبأ به | التهاب الملتحمة |
+| درجة التنبؤ في TxGNN | 99.36% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+آلية عمل الإيزونيازيد هي منع تخليق حمض الميكوليك في *Mycobacterium tuberculosis* (عبر التنشيط الوسيط بـ KatG وتثبيط InhA). هذه الآلية موجهة بشكل ضيق نحو المتفطرات وليس لها نشاط معروف مضاد للالتهاب أو مضاد فيروسي أو مضاد ميكروبي واسع الطيف يمكن أن يشرح الفعالية ضد التهاب الملتحمة النموذجي (الحساسي أو الفيروسي أو البكتيري).
+
+تعكس جميع الأدبيات الداعمة تقريباً علاقة مختلفة: يمكن لعدوى السل نفسها أن تظهر كالتهاب ملتحمة (مثل التهاب الملتحمة السلي، التهاب القرنية والملتحمة الحطاطي). في هذه الحالات، يعالج الإيزونيازيد عدوى السل الأساسية، ويتلاشى التهاب الملتحمة كتأثير لاحق — وليس لأن الإيزونيازيد له تأثير مضاد للالتهاب المباشر أو تأثير على سطح العين. مجموعة فرعية أصغر من الحالات تتضمن استخدام الإيزونيازيد لإدارة التهاب المفاصل التفاعلي/التهاب الملتحمة التالي للعلاج داخل المثانة بـ BCG، وهو مرة أخرى سياق وسيط عبر مسار السل وليس آلية جديدة.
+
+من المرجح أن تعكس درجة TxGNN البالغة 99.36% مسار تزامن قوي بين "الإيزونيازيد–السل–التهاب الملتحمة" في الرسم البياني المعرفي الأساسي، بدلاً من أدلة صيدلانية مستقلة على أن الإيزونيازيد يعالج التهاب الملتحمة خارج سياق السل. هذا التمييز حاسم لتقييم إعادة الاستخدام: فهو امتداد للاستخدام الموجود للسل، وليس إشارة آلية جديدة حقيقية.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | Phase 3 | Completed | 490 | Compared systemic drug reaction rates between 3HP (rifapentine + isoniazid) and 1HP regimens for latent TB infection. This trial evaluated safety/tolerability of TB prophylaxis, not conjunctivitis as an efficacy endpoint — indirect relevance only (relevance grade C). |
+| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | المرحلة 3 | مكتملة | 490 | قارنت معدلات التفاعلات الدوائية الجهازية بين أنظمة 3HP (الريفابنتين + الإيزونيازيد) و 1HP للمعالجة الوقائية لعدوى السل الكامنة. قيمت هذه التجربة السلامة/التحمل للمعالجة الوقائية للسل، وليس التهاب الملتحمة كمعيار فعالية — الصلة غير المباشرة فقط (درجة الصلة ج). |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Case series | Annales d'oculistique | Local (topical) use of isoniazid in treatment of ocular tuberculosis — the most direct isoniazid-conjunctiva link in the evidence set |
-| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Prophylaxis study | American Review of Respiratory Disease | Isoniazid prophylaxis for phlyctenular keratoconjunctivitis among a TB-endemic population (Alaska) |
-| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optometry Clinics | General review of ocular side effects of systemic drugs; conjunctivitis is linked to isotretinoin, sulfonamides, salicylates and antineoplastics, not isoniazid specifically |
-| [25433746](https://pubmed.ncbi.nlm.nih.gov/25433746/) | 2014 | Case report | Canadian Journal of Ophthalmology | Conjunctival phlyctenulosis as a presenting sign of impending clinical tuberculosis |
-| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Case report | Medicine | Pediatric sinonasal tuberculosis presenting with phlyctenular keratoconjunctivitis |
-| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | Case report | Middle East African Journal of Ophthalmology | Tuberculous conjunctivitis in an anophthalmic socket |
-| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | Case report | Cornea | Mycobacterium tuberculosis presenting as chronic red eye/conjunctivitis |
-| [10641112](https://pubmed.ncbi.nlm.nih.gov/10641112/) | 1999 | Case series | Oftalmologia | 28 cases of tuberculous keratoconjunctivitis, mostly in children with primary TB |
-| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Case report | Archives of Ophthalmology | Primary tuberculosis of the conjunctiva |
-| [32674602](https://pubmed.ncbi.nlm.nih.gov/32674602/) | 2020 | Case report | Clinical Pediatrics | Unexpected cause of conjunctivitis in an adolescent (TB-associated) |
+| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | سلسلة حالات | Annales d'oculistique | الاستخدام الموضعي للإيزونيازيد في علاج السل العيني — أقوى ارتباط مباشر بين الإيزونيازيد والملتحمة في مجموعة الأدلة |
+| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | دراسة الوقاية | American Review of Respiratory Disease | المعالجة الوقائية بالإيزونيازيد لالتهاب القرنية والملتحمة الحطاطي بين السكان المتوطنين بالسل (ألاسكا) |
+| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | مراجعة | Optometry Clinics | مراجعة عامة للآثار الجانبية العينية للأدوية الجهازية؛ يرتبط التهاب الملتحمة بالإيزوتريتينوين والسلفوناميدات والسالسيلات والأدوية المضادة للأورام، وليس الإيزونيازيد على وجه التحديد |
+| [25433746](https://pubmed.ncbi.nlm.nih.gov/25433746/) | 2014 | حالة سريرية | Canadian Journal of Ophthalmology | التهاب الملتحمة الحطاطي كعلامة عرض قادمة للسل السريري الوشيك |
+| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | حالة سريرية | Medicine | السل الأنفي الجيبي عند الأطفال يظهر مع التهاب القرنية والملتحمة الحطاطي |
+| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | حالة سريرية | Middle East African Journal of Ophthalmology | التهاب الملتحمة السلي في المقبس اللاعيني |
+| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | حالة سريرية | Cornea | *Mycobacterium tuberculosis* يظهر كعين حمراء مزمنة/التهاب ملتحمة |
+| [10641112](https://pubmed.ncbi.nlm.nih.gov/10641112/) | 1999 | سلسلة حالات | Oftalmologia | 28 حالة من التهاب القرنية والملتحمة السلي، معظمها عند الأطفال ذوي السل الأساسي |
+| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | حالة سريرية | Archives of Ophthalmology | السل الأساسي للملتحمة |
+| [32674602](https://pubmed.ncbi.nlm.nih.gov/32674602/) | 2020 | حالة سريرية | Clinical Pediatrics | السبب غير المتوقع لالتهاب الملتحمة عند المراهقين (المرتبط بالسل) |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Isoniazid currently has no marketing authorization on record in Saudi Arabia (0 licenses in the evidence pack).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not yet available for this evidence pack — TFDA/SFDA package insert data is flagged as a Blocking data gap.)
+لا يحتوي الإيزونيازيد حالياً على أي تفويض تسويقي مسجل في المملكة العربية السعودية (0 رخصة في حزمة الأدلة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. (البيانات الرئيسية للتحذيرات والموانع وتفاعلات الأدوية غير متوفرة بعد لحزمة الأدلة هذه — يتم تصنيف بيانات نشرة TFDA/SFDA الداخلية كفجوة بيانات حاجزة.)
 
-**Rationale:**
-The available evidence overwhelmingly describes conjunctivitis as a *manifestation of tuberculosis itself* rather than an independent indication treatable by isoniazid's known mechanism. The single clinical trial addresses TB prophylaxis safety, not conjunctivitis efficacy, and no RCT or controlled study directly tests isoniazid against conjunctivitis outside a TB context.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed drug mechanism of action documentation (DrugBank API query)
-- Primary evidence separating isoniazid's effect on non-TB conjunctivitis from its established TB-treatment pathway
-- Clarification of whether this candidate should instead be scoped as "isoniazid for TB-associated ocular manifestations" rather than "conjunctivitis" broadly
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+تصف الأدلة المتاحة بشكل واضح التهاب الملتحمة كـ **تظاهر للسل نفسه** بدلاً من كونه استخداماً مستقلاً قابلاً للعلاج بآلية الإيزونيازيد المعروفة. تتناول التجربة السريرية الواحدة سلامة المعالجة الوقائية للسل، وليس فعالية التهاب الملتحمة، وليس هناك تجربة عشوائية مضبوطة أو دراسة مضبوطة تختبر الإيزونيازيد مباشرة ضد التهاب الملتحمة خارج سياق السل.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA الداخلية (التحذيرات، موانع الاستعمال) — حالياً فجوة حاجزة
+- التوثيق المؤكد لآلية عمل الدواء (استعلام واجهة برمجة تطبيقات DrugBank)
+- أدلة أولية تفصل تأثير الإيزونيازيد على التهاب الملتحمة غير المرتبط بالسل عن مسار علاج السل المعروض لديها
+- توضيح ما إذا كان يجب بدلاً من ذلك تحديد نطاق هذا المرشح كـ "الإيزونيازيد للمظاهر العينية المرتبطة بالسل" بدلاً من "التهاب الملتحمة" على نطاق واسع
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

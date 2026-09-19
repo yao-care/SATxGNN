@@ -29,102 +29,103 @@ indication_count: 10
 
 </div>
 
-# Diazepam: From Anxiety Disorders to Insomnia
+# الديازيبام: من اضطرابات القلق إلى الأرق
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Diazepam is a long-established benzodiazepine, primarily known for treating anxiety disorders, muscle spasms, alcohol withdrawal, and acute seizures.
-The TxGNN model predicts it may be effective for **Insomnia**, with **1 direct head-to-head RCT** and **multiple clinical and review publications** supporting this well-characterized hypnotic use.
-The mechanistic rationale is clear — diazepam enhances GABA-A receptor activity, producing central inhibition that shortens sleep onset and prolongs total sleep time — but its long half-life and dependence liability place it firmly in second-line territory by modern clinical standards.
+الديازيبام هو بنزوديازيبين راسخ منذ فترة طويلة، معروف بشكل أساسي لعلاج اضطرابات القلق وتشنجات العضلات والانسحاب الكحولي والنوبات الحادة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لعلاج **الأرق**، مدعوماً بـ **تجربة عشوائية محكومة واحدة مقابلة مباشرة** و**عدة منشورات سريرية واستعراضية** تدعم هذا الاستخدام كمنوم معروف جيداً.
+المبرر الآلي واضح — يعزز الديازيبام نشاط مستقبلات GABA-A، مما ينتج عنه تثبيط مركزي يختصر وقت بداية النوم ويطول مدة النوم الإجمالية — لكن نصف العمر الطويل ومسؤولية الإدمان تضعه بثبات في موضع العلاج من الدرجة الثانية وفقاً للمعايير السريرية الحديثة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Anxiety disorders, muscle spasms, seizures, alcohol withdrawal (established uses; no formal regulatory record in this dataset) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | ~100.00% (0.9999975) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | اضطرابات القلق وتشنجات العضلات والنوبات والانسحاب الكحولي (استخدامات راسخة؛ لا يوجد سجل تنظيمي رسمي في هذه مجموعة البيانات) |
+| المؤشر الجديد المتنبأ به | الأرق |
+| درجة التنبؤ TxGNN | ~100.00% (0.9999975) |
+| مستوى الأدلة | L2 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع ضوابط |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Diazepam is a positive allosteric modulator (PAM) of the GABA-A receptor. By binding to the benzodiazepine site on the receptor complex, it increases the frequency of chloride ion channel opening in response to GABA, amplifying central inhibitory neurotransmission throughout the brain. This mechanism directly suppresses the cortical and limbic hyperarousal that underlies both anxiety and difficulty sleeping — explaining why sedation has been a clinically recognized effect of diazepam since its introduction in the 1960s.
+الديازيبام هو معدّل موجب غير تنافسي (PAM) لمستقبلات GABA-A. من خلال الارتباط بموقع البنزوديازيبين على معقد المستقبل، يزيد من تكرار فتح قنوات أيونات الكلوريد استجابة للـ GABA، مما يعزز النقل العصبي المثبط المركزي في جميع أنحاء الدماغ. تثبط هذه الآلية بشكل مباشر فرط الاستثارة القشرية والجهاز الحوفي التي تكمن وراء كل من القلق وصعوبة النوم — مما يفسر لماذا تم الاعتراف بالنعاس سريرياً كتأثير للديازيبام منذ إدخاله في الستينيات.
 
-The relationship between the anxiety context and insomnia is not incidental. Both conditions share overlapping GABAergic dysregulation, and insomnia frequently co-occurs with or is secondary to anxiety states. A 1981 double-blind RCT (PMID 6113175) directly evaluated diazepam 5 mg versus lormetazepam 1 mg in 100 outpatients with sleep disorders: diazepam demonstrated objective hypnotic efficacy, reducing sleep onset latency and prolonging uninterrupted sleep, though lormetazepam performed better on several endpoints. More recently, a 2024 review in *Bioorganic Chemistry* (PMID 39581171) explicitly lists insomnia among the established clinical indications of diazepam-class GABA-A PAMs.
+الارتباط بين سياق القلق والأرق ليس عرضياً. تشترك كلا الحالتين في اختلال التنظيم الغاباء المتداخل، والأرق يحدث في كثير من الأحيان مع أو بسبب حالات القلق. أظهرت تجربة عشوائية محكومة من عام 1981 (PMID 6113175) تقييماً مباشراً للديازيبام 5 ملغ مقابل لورميتازيبام 1 ملغ في 100 مريض خارجي يعانون من اضطرابات النوم: أظهر الديازيبام فعالية منومة موضوعية، مما قلل وقت الكمون وأطال النوم المتواصل، على الرغم من أن لورميتازيبام حقق أداء أفضل في عدة نقاط نهائية. في الآونة الأخيرة، استعراض عام 2024 في *Bioorganic Chemistry* (PMID 39581171) يسرد بوضوح الأرق بين المؤشرات السريرية المعروفة لمعدلات GABA-A PAM من فئة الديازيبام.
 
-The main caveat is pharmacokinetic: diazepam's elimination half-life of 20–100 hours (with an active metabolite, desmethyldiazepam, adding further) produces daytime residual sedation, accumulation with repeated dosing, tolerance, physical dependence, and elevated fall risk in elderly patients. These properties have led modern clinical guidelines to favor shorter-acting benzodiazepines (temazepam, lorazepam) and non-benzodiazepine alternatives (Z-drugs, orexin receptor antagonists, melatonin receptor agonists) as preferred first-line hypnotics. The TxGNN high score reflects sound mechanistic grounding, but current repurposing value lies in niche populations or settings where these safer alternatives are unavailable.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | Phase 2 | Completed | 74 | Randomized study evaluating the effect of tapering pace on discontinuation success in insomnia patients using benzodiazepine hypnotics; confirms long-term BZD use (including diazepam class) as the clinical reality in insomnia management |
-| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | Phase 3 | Active, Not Recruiting | 260 | Blinded hypnotic tapering protocol combined with CBT for Insomnia (CBTI); randomized trial validates the need for structured discontinuation strategies for insomnia patients on BZDs |
-| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | Phase 4 | Completed | 17 | Placebo-controlled multicenter RCT of ramelteon as adjunct to facilitate dose reduction or interruption of BZD/non-BZD hypnotics in chronic insomnia; directly involves benzodiazepine hypnotic use as starting condition |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Unknown | 1,400 | Prospective cohort at a Taiwanese academic medical center examining medication patterns, efficacy, safety, and pharmacogenetics of commonly prescribed hypnotics (including BZDs) in elderly patients |
-| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | N/A | Completed | 128 | Randomized controlled trial comparing Acceptance and Commitment Therapy (ACT) versus standard psychological support added to a BZD withdrawal program in adults with hypnotic-dependent insomnia |
-| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | N/A | Completed | 188 | Novel mechanism-targeting intervention to help older adults discontinue sleeping medications (hypnotics including BZDs); addresses the chronic dependence problem in elderly insomnia patients |
-| [NCT04364321](https://clinicaltrials.gov/study/NCT04364321) | N/A | Unknown | 74 | Head-to-head comparison of single-dose clonazepam versus intermittent oral diazepam for prevention of recurrent febrile seizures in children; diazepam is used as the active reference arm |
+التحذير الرئيسي هو الحرائك الدوائية: نصف العمر الإفراغي للديازيبام من 20-100 ساعة (مع وجود استقلاب نشط، ديسميثيلديازيبام، مما يضيف مزيداً) يؤدي إلى النعاس المتبقي أثناء النهار والتراكم مع الجرعات المتكررة والتحمل والإدمان البدني وارتفاع خطر السقوط لدى المرضى المسنين. أدت هذه الخصائص إلى قيام الإرشادات السريرية الحديثة بتفضيل البنزوديازيبينات قصيرة المدى (تيمازيبام، لورازيبام) والبدائل غير البنزوديازيبينية (Z-drugs، مضادات مستقبلات الأوريكسين، ناهضات مستقبلات الميلاتونين) كمنومات من الدرجة الأولى المفضلة. تعكس درجة TxGNN العالية الأساس الآلي السليم، لكن قيمة إعادة الاستخدام الحالية تكمن في السكان المهمشين أو الإعدادات التي تكون فيها هذه البدائل الأكثر أماناً غير متاحة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | RCT | J Int Med Research | Double-blind 7-day RCT (N=100): diazepam 5 mg vs. lormetazepam 1 mg in outpatients with sleep disorders; both improved sleep, but lormetazepam was significantly superior in reducing sleep onset latency and prolonging uninterrupted sleep — establishes diazepam's hypnotic efficacy with comparative limitations |
-| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorganic Chemistry | Comprehensive review of small-molecule GABA-A receptor modulators; explicitly identifies diazepam as a prototype PAM with therapeutic effects for epilepsy, anxiety, and insomnia, and documents associated side effects including sedation and dependence |
-| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | Animal Study | Nature Neuroscience | Long-term diazepam administration in mice impairs structural plasticity of dendritic spines and causes cognitive decline via microglial TSPO-mediated spine engulfment; critical safety signal for chronic hypnotic use |
-| [29479317](https://pubmed.ncbi.nlm.nih.gov/29479317/) | 2018 | Systematic Review | Front Pharmacology | Systematic review of Chinese herbal formulae for insomnia; uses diazepam as the standard positive pharmacological control in preclinical sleep models, confirming its conventional reference status as a sedative-hypnotic |
-| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Clinical Study | Cell Mol Biol Lett | Clinical and mechanistic study demonstrating long-term BZD/Z-drug use (including diazepam) for insomnia and anxiety exacerbates breast cancer risk via GABA-A receptor pathways; highlights safety concern for chronic hypnotic prescription |
-| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | Review | J Family Practice | Systematic review of published clinical trials on benzodiazepine therapy for insomnia in community-dwelling elderly; concludes BZDs improve objective sleep parameters but evidence for long-term effectiveness is absent and injury risk is elevated |
-| [6135990](https://pubmed.ncbi.nlm.nih.gov/6135990/) | 1983 | Review | N Engl J Med | Landmark NEJM review of benzodiazepine pharmacology including clinical use for insomnia; establishes the evidence framework for BZD hypnotics including diazepam in the pre-Z-drug era |
-
----
-
-## Saudi Arabia Market Information
-
-Diazepam currently has **no registered products in Saudi Arabia**. There are zero active licenses on record in this dataset. Regulatory registration would be required before any formal repurposing pathway could proceed through the Saudi Food and Drug Authority (SFDA).
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
+|------------|--------|--------|----------|-----------------|
+| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | المرحلة 2 | مكتملة | 74 | دراسة عشوائية تقيم تأثير وتيرة التناقص على نجاح الإيقاف لدى مرضى الأرق الذين يستخدمون منومات بنزوديازيبينية؛ تؤكد على الاستخدام طويل الأمد للبنزوديازيبينات (بما في ذلك فئة الديازيبام) كالواقع السريري في إدارة الأرق |
+| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | المرحلة 3 | نشطة، غير مستقطبة | 260 | بروتوكول منوم معمى للإيقاف مدمج مع العلاج السلوكي المعرفي للأرق (CBTI)؛ تجربة عشوائية تصحح الحاجة لاستراتيجيات إيقاف منظمة لمرضى الأرق على البنزوديازيبينات |
+| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | المرحلة 4 | مكتملة | 17 | تجربة عشوائية محكومة بالدواء الوهمي متعددة المراكز لراميلتيون كمساعد لتسهيل تقليل الجرعة أو إيقاف مؤقت لمنومات البنزوديازيبينات/غير البنزوديازيبينية لدى مرضى الأرق المزمن؛ يتضمن بشكل مباشر استخدام منومات البنزوديازيبينات كحالة أولية |
+| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | غير متاح | غير محددة | 1,400 | دراسة أترابية استطلاعية في مركز طبي أكاديمي تايواني تفحص أنماط الأدوية والفعالية والسلامة والصيدلة الوراثية للمنومات الموصوفة بشكل شائع (بما في ذلك البنزوديازيبينات) لدى المرضى المسنين |
+| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | غير متاح | مكتملة | 128 | تجربة عشوائية محكومة تقارن العلاج بالقبول والالتزام (ACT) مقابل الدعم النفسي القياسي المضاف إلى برنامج الإيقاف الموصوف مع الإدمان على المنومات لدى البالغين |
+| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | غير متاح | مكتملة | 188 | تدخل جديد موجه نحو الآلية لمساعدة كبار السن على التوقف عن أدوية النوم (منومات بما في ذلك البنزوديازيبينات)؛ يعالج مشكلة الإدمان المزمن لدى مرضى الأرق المسنين |
+| [NCT04364321](https://clinicaltrials.gov/study/NCT04364321) | غير متاح | غير محددة | 74 | مقارنة رأساً برأس للجرعة الواحدة من كلونازيبام مقابل الديازيبام الفموي المتقطع لمنع النوبات الحمومية المتكررة عند الأطفال؛ يُستخدم الديازيبام كذراع مرجعية نشطة |
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
-
-Based on established pharmacological knowledge of diazepam as a class:
-
-- **Long half-life risk**: Elimination half-life of 20–100 hours plus active metabolite (desmethyldiazepam) leads to accumulation with repeated dosing, residual daytime sedation, and psychomotor impairment
-- **Dependence and withdrawal**: Physical dependence develops with regular use; abrupt discontinuation risks rebound insomnia, anxiety, and seizures
-- **Elderly-specific hazards**: Elevated fall and fracture risk, cognitive impairment, and paradoxical excitation reactions — particularly relevant given insomnia prevalence in older adults
-- **Drug interaction potential**: CNS depressants, opioids, and alcohol may cause additive sedation; cytochrome P450 interactions possible
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|-----------------|
+| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | تجربة عشوائية محكومة | J Int Med Research | تجربة عشوائية محكومة مدتها 7 أيام (N=100): الديازيبام 5 ملغ مقابل لورميتازيبام 1 ملغ في مرضى خارجيين يعانون من اضطرابات النوم؛ حسّن كلاهما النوم، لكن لورميتازيبام كان أفضل بشكل كبير في تقليل وقت الكمون وإطالة النوم المتواصل — يؤسس فعالية الديازيبام المنومة مع القيود المقارنة |
+| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | استعراض | Bioorganic Chemistry | استعراض شامل لمعدلات مستقبلات GABA-A الصغيرة الجزيئية؛ يحدد بوضوح الديازيبام كنموذج أولي PAM مع تأثيرات علاجية للصرع والقلق والأرق، وتوثيق الآثار الجانبية المرتبطة بها بما في ذلك النعاس والإدمان |
+| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | دراسة حيوانية | Nature Neuroscience | يضعف إعطاء الديازيبام طويل الأمد في الفئران القدرة على التكيف الهيكلي لأشواك الشجيرات ويسبب الانحدار المعرفي عبر وسيط TSPO للميكروجليا — إشارة أمان حرجة لاستخدام منوم مزمن |
+| [29479317](https://pubmed.ncbi.nlm.nih.gov/29479317/) | 2018 | استعراض منهجي | Front Pharmacology | استعراض منهجي للتركيبات العشبية الصينية للأرق؛ يستخدم الديازيبام كعنصر تحكم دوائي موجب قياسي في نماذج النوم السابقة للسريرية، مما يؤكد حالته المرجعية التقليدية كمثبط للنوم |
+| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | دراسة سريرية | Cell Mol Biol Lett | دراسة سريرية وآلية تُظهر أن الاستخدام طويل الأمد للبنزوديازيبينات/Z-drugs (بما في ذلك الديازيبام) للأرق والقلق يفاقم خطر سرطان الثدي عبر مسارات مستقبلات GABA-A؛ تسلط الضوء على مخاوف السلامة للوصفة المنومة المزمنة |
+| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | استعراض | J Family Practice | استعراض منهجي للتجارب السريرية المنشورة حول العلاج بالبنزوديازيبينات للأرق لدى كبار السن المقيمين بالمجتمع؛ يخلص إلى أن البنزوديازيبينات تحسّن معاملات النوم الموضوعية لكن الأدلة على الفعالية طويلة الأمد غائبة وخطر الإصابة مرتفع |
+| [6135990](https://pubmed.ncbi.nlm.nih.gov/6135990/) | 1983 | استعراض | N Engl J Med | استعراض NEJM البارز لصيدلة البنزوديازيبينات بما في ذلك الاستخدام السريري للأرق؛ يؤسس إطار العمل الإثباتي لمنومات البنزوديازيبينات بما في ذلك الديازيبام في الحقبة السابقة لـ Z-drug |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Proceed with Guardrails**
+الديازيبام حالياً **لا توجد له منتجات مسجلة بالمملكة العربية السعودية**. هناك صفر رخصة نشطة في السجل من هذه مجموعة البيانات. سيكون التسجيل التنظيمي مطلوباً قبل أن تتمكن أي مسار إعادة استخدام رسمي من المتابعة من خلال الهيئة العامة للغذاء والدواء (SFDA).
 
-**Rationale:**
-Diazepam's GABA-A positive allosteric modulation provides a mechanistically sound and historically validated basis for hypnotic use, supported by at least one completed head-to-head RCT and a robust body of clinical literature. However, its pharmacokinetic profile (long half-life, active metabolite, accumulation) and dependence liability mean it is no longer a preferred first-line hypnotic agent, positioning any repurposing effort as a second-line or special-population use case.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- Obtain and review full package insert (SFDA/reference market SmPC) to document approved indications, warnings, and contraindications
-- Retrieve DrugBank MOA data to formally complete mechanistic analysis
-- Clarify whether this is a true repurposing scenario or re-registration of an existing global indication in the Saudi Arabia market
-- Define the target population precisely (e.g., short-term situational insomnia, anxiety-comorbid insomnia) where diazepam's risk-benefit profile is most favorable
-- Conduct comparative effectiveness mapping against current Saudi Arabia-available first-line options (orexin antagonists, Z-drugs, melatonin agonists)
-- Design a risk management framework covering dependence monitoring, use duration limits, contraindications in elderly patients, and prescriber education requirements
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+بناءً على المعرفة الدوائية المعروفة للديازيبام كفئة:
+
+- **خطر نصف العمر الطويل**: نصف العمر الإفراغي من 20-100 ساعة بالإضافة إلى استقلاب نشط (ديسميثيلديازيبام) يؤدي إلى التراكم مع الجرعات المتكررة والنعاس المتبقي أثناء النهار والضعف النفسي الحركي
+- **الإدمان والانسحاب**: يتطور الإدمان البدني مع الاستخدام المنتظم؛ الإيقاف المفاجئ يخاطر بالأرق الارتدادي والقلق والنوبات
+- **المخاطر الخاصة بالمسنين**: ارتفاع خطر السقوط والكسور والضعف الإدراكي وردود الفعل الخارقة للعادة المتناقضة — وهي خاصة ذات صلة بالنظر إلى انتشار الأرق لدى البالغين الأكبر سناً
+- **إمكانية التفاعل الدوائي**: قد تسبب مثبطات الجهاز العصبي المركزي والمواد الأفيونية والكحول تثبيطاً إضافياً؛ التفاعلات المحتملة مع السيتوكروم P450
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضوابط**
+
+**المبرر:**
+يوفر التعديل الموجب للديازيبام لمستقبلات GABA-A أساساً آلياً سليماً ومدعوماً تاريخياً لاستخدام منوم، يدعمه على الأقل تجربة عشوائية محكومة واحدة مكتملة مقابلة وجسم قوي من الأدب السريري. ومع ذلك، فإن ملف الحركيات الدوائية الخاص به (نصف العمر الطويل والاستقلاب النشط والتراكم) ومسؤولية الإدمان تعني أنه لم يعد ناهضاً منومياً من الدرجة الأولى المفضل، مما يضع أي جهد إعادة استخدام كحالة استخدام من الدرجة الثانية أو حالة سكانية خاصة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- الحصول على واستعراض النشرة الكاملة (SFDA/SmPC السوق المرجعي) لتوثيق المؤشرات المعتمدة والتحذيرات والموانع
+- استرجاع بيانات DrugBank MOA لإكمال التحليل الآلي رسمياً
+- توضيح ما إذا كان هذا سيناريو إعادة استخدام حقيقي أم إعادة تسجيل لمؤشر عالمي موجود في سوق المملكة العربية السعودية
+- تحديد السكان المستهدفين بدقة (مثل الأرق الموقفي قصير الأمد، الأرق المصحوب بالقلق) حيث يكون ملف مخاطر الديازيبام والفوائد أكثر ملاءمة
+- إجراء رسم خريطة الفعالية المقارنة مقابل خيارات الدرجة الأولى المتاحة حالياً بالمملكة العربية السعودية (ناهضات الأوريكسين، Z-drugs، ناهضات مستقبلات الميلاتونين)
+- تصميم إطار عمل إدارة المخاطر الذي يغطي مراقبة الإدمان وحدود مدة الاستخدام والموانع لدى المرضى المسنين ومتطلبات تثقيف الموصوفين
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

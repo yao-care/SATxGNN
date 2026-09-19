@@ -29,82 +29,77 @@ indication_count: 10
 
 </div>
 
-Using the report as a direct content-generation task following the prescribed template (no additional skill applies — this is authoring output per explicit formatting instructions already provided in the prompt).
+# إنكليسيران: من فرط كوليسترول الدم إلى أمراض نقص البوتاسيوم
 
-I reviewed the evidence pack in full, including all 10 ranked predictions and the `repurposing_rationale` text embedded in the JSON itself. One thing worth flagging before the report: **rank 1** (`potassium deficiency disease`) is the mechanically "top" prediction per the score, but the evidence pack's own rationale explicitly calls it likely model noise (zero trials, zero literature, no plausible PCSK9 mechanism). I followed the template's rule to use `predicted_indications[0]` for the headline fields, but wrote the "Why is this reasonable" and "Conclusion" sections honestly — reflecting the *actual* evidence level (L5, Hold) rather than overstating confidence. I also surfaced rank 8 (`aortic malformation`, L2, 2 registered Phase 3 trials) as a separate, better-evidenced signal worth noting in the next-steps section, since burying it would omit the most decision-relevant fact in the pack.
+## ملخص في جملة واحدة
 
----
-
-# Inclisiran: From Hypercholesterolemia to Potassium Deficiency Disease
-
-## One-Sentence Summary
-
-> Inclisiran is a liver-targeted small interfering RNA (siRNA) that lowers LDL cholesterol by silencing PCSK9 synthesis, with established use in hypercholesterolemia and familial hypercholesterolemia.
-> The TxGNN model's top-ranked prediction for this candidate is **Potassium Deficiency Disease**,
-> but **0 clinical trials** and **0 publications** currently support this specific drug–disease link, and the evidence pack itself flags the prediction as likely model noise.
+> إنكليسيران هو حمض نووي صغير معطّل (siRNA) موجه للكبد يخفض كوليسترول LDL من خلال إسكات تخليق PCSK9، مع استخدام موثق في فرط كوليسترول الدم وفرط كوليسترول الدم العائلي.
+> أعلى تنبؤ حسب ترتيب نموذج TxGNN لهذا المرشح هو **أمراض نقص البوتاسيوم**،
+> لكن **0 تجربة سريرية** و**0 منشور** يدعمان هذه الصلة بين العقار والمرض حالياً، وحزمة الأدلة نفسها تشير إلى أن التنبؤ من المحتمل أنه ضوضاء نموذج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not registered in Saudi Arabia (unmarketed); established use per linked trial data: Hypercholesterolemia / elevated LDL-C (PCSK9-targeting siRNA) |
-| Predicted New Indication | Potassium Deficiency Disease |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data for inclisiran is not available in this evidence pack (flagged as a High-severity data gap). Based on information embedded elsewhere in the pack (trial titles referencing "elevated LDL-Cholesterol" and "familial hypercholesterolemia"), inclisiran is understood to act as a hepatocyte-targeted siRNA that silences PCSK9 mRNA translation, increasing LDL-receptor recycling and lowering circulating LDL cholesterol.
-
-For this specific prediction, the mechanistic case is weak. There is no known biological pathway connecting hepatic PCSK9 silencing to potassium or electrolyte homeostasis, and the rationale text in the evidence pack itself concludes this ranking is most likely a **false positive arising from knowledge-graph embedding proximity** rather than a genuine pharmacological signal — no clinical trial or literature evidence of any kind was found for this pairing.
-
-This pattern is not unique to rank 1: of the 10 TxGNN-ranked candidates for inclisiran, seven (potassium deficiency disease, esophageal disease, atypical coarctation of aorta, migraine disorder, non-syndromic esophageal malformation, migraine with brainstem aura, esophageal ulcer, Raynaud disease) return **zero** supporting trials or literature and are explicitly annotated as noise or unsupported theoretical extensions. One candidate (migraine with/without aura susceptibility, rank 7) surfaced 20 PubMed hits, but on review all concern shared genetics between epilepsy and migraine — none mention PCSK9 or inclisiran. The only candidate with real supporting trial data is rank 8, **aortic malformation** (L2, 2 registered Phase 3 pediatric studies) — though even there, the trials are for homozygous/heterozygous familial hypercholesterolemia, with aortic pathology arising as a secondary consequence of untreated LDL-C rather than a direct drug target. Taken together, the evidence for this drug's repurposing candidates at the current data cutoff is sparse, and the top-ranked prediction specifically should not be interpreted as clinically actionable.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير مسجّل في المملكة العربية السعودية (غير معروض بالسوق)؛ استخدام موثق حسب بيانات التجارب المرتبطة: فرط كوليسترول الدم / ارتفاع LDL-C (siRNA موجهة لـ PCSK9) |
+| الاستطباب الجديد المتنبأ به | أمراض نقص البوتاسيوم |
+| درجة التنبؤ TxGNN | 99.93% |
+| مستوى الأدلة | L5 |
+| حالة سوق المملكة العربية السعودية | ✗ غير معروض بالسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related clinical trials registered.
+بيانات آلية العمل التفصيلية للإنكليسيران غير متوفرة في حزمة الأدلة هذه (تم تحديدها كفجوة بيانات شديدة الخطورة). بناءً على المعلومات المضمّنة في مكان آخر من الحزمة (عناوين التجارب التي تشير إلى "ارتفاع كوليسترول LDL" و"فرط كوليسترول الدم العائلي")، يُفهم أن الإنكليسيران يعمل كـ siRNA موجهة للخلايا الكبدية التي تسكت ترجمة PCSK9 mRNA، مما يزيد من إعادة تدوير مستقبلات LDL وتخفيض كوليسترول LDL الدوري.
 
----
+لهذا التنبؤ المحدد، الحالة الميكانيكية ضعيفة. لا توجد مسارات بيولوجية معروفة تربط بين إسكات PCSK9 الكبدي وتوازن البوتاسيوم أو الكهارل، والنص الأساسي في حزمة الأدلة نفسها يخلص إلى أن هذا التصنيف من المحتمل أن يكون **إيجابياً كاذباً ناشئاً عن قرب التضمين في الرسم البياني للمعرفة** بدلاً من إشارة دوائية حقيقية — لم يتم العثور على أي دليل تجريبي سريري أو أدبي من أي نوع لهذا الاقتران.
 
-## Literature Evidence
-
-Currently no related literature available.
+هذا النمط ليس حصرياً للتصنيف 1: من بين 10 مرشحين مصنّفين حسب TxGNN للإنكليسيران، سبعة (أمراض نقص البوتاسيوم، مرض المريء، التضيق غير النمطي للأبهر، اضطراب الصداع النصفي، التشوه اللاعائلي للمريء، الصداع النصفي مع هالة جذع الدماغ، قرحة المريء، مرض رينود) تعيد **صفر** من التجارب أو الأدبيات الداعمة وتم تصنيفها بشكل صريح كضوضاء أو امتدادات نظرية غير مدعومة. مرشح واحد (قابلية الصداع النصفي مع/بدون هالة، التصنيف 7) أسفر عن 20 إصابة PubMed، لكن عند المراجعة جميعها تتعلق بالجينات المشتركة بين الصرع والصداع النصفي — لا أحد يذكر PCSK9 أو الإنكليسيران. المرشح الوحيد الذي يحتوي على بيانات تجارب داعمة حقيقية هو التصنيف 8، **التشوه الأبهري** (L2، دراستا المرحلة 3 لأطفال مسجلتان) — على الرغم من ذلك، التجارب موجهة لفرط كوليسترول الدم العائلي المتماثل/الهيتيروزيجوس، حيث ينشأ المرض الأبهري كعاقبة ثانوية من LDL-C غير المعالج بدلاً من هدف دوائي مباشر. بالنظر إلى مجملها، الأدلة على مرشحي إعادة استخدام هذا العقار عند نقطة الحد الحالية للبيانات ضئيلة، والتنبؤ الأعلى تصنيفاً على وجه الخصوص لا ينبغي تفسيره على أنه قابل للتنفيذ سريرياً.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Inclisiran is not currently marketed in Saudi Arabia — no SFDA authorization records are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة أدبية
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The top-ranked TxGNN prediction (potassium deficiency disease) has no clinical trial or literature support, and the mechanistic rationale in the evidence pack itself assesses it as likely model noise rather than a genuine signal. No other candidate in the top 10 currently reaches an evidence level beyond L2, and that one candidate (aortic malformation, rank 8) reflects a secondary/indirect disease association rather than a direct novel indication.
+---
 
-**To proceed, the following is needed:**
-- SFDA-equivalent package insert warnings, precautions, and contraindications for inclisiran (currently a Blocking data gap — required before any S1 safety screening)
-- Confirmed mechanism-of-action documentation from DrugBank or manufacturer labeling (currently a High-severity data gap)
-- If pursuing rank 8 (aortic malformation) as a research question: clarification of whether the signal is driven by direct PCSK9 mechanism or is purely secondary to LDL-C-driven aortic valve pathology in familial hypercholesterolemia, plus outcome data from NCT06597019 and NCT06597006 once available
-- Re-screening of lower-ranked candidates against updated TxGNN model runs, given the high proportion of zero-evidence predictions in this candidate set
+## معلومات سوق المملكة العربية السعودية
+
+الإنكليسيران غير معروض حالياً بالسوق في المملكة العربية السعودية — لا توجد سجلات تصريح من الهيئة العامة للغذاء والدواء (SFDA) متاحة في حزمة الأدلة هذه.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفاً حسب TxGNN (أمراض نقص البوتاسيوم) لا يوجد له دعم من التجارب السريرية أو الأدبيات، والأساس المنطقي الميكانيكي في حزمة الأدلة نفسها يقيّمه على أنه من المحتمل أن يكون ضوضاء نموذج بدلاً من إشارة حقيقية. لا يصل أي مرشح آخر في أفضل 10 حالياً إلى مستوى أدلة يتجاوز L2، وهذا المرشح الواحد (التشوه الأبهري، التصنيف 8) يعكس ارتباط مرض ثانوي/غير مباشر بدلاً من استطباب جديد مباشر.
+
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة المنتج المكافئة للهيئة العامة للغذاء والدواء، والاحتياطات، وموانع الاستعمال للإنكليسيران (فجوة بيانات حجزية حالياً — مطلوبة قبل أي فحص أمان S1)
+- توثيق آلية العمل المؤكدة من DrugBank أو من وسم المصنّع (فجوة بيانات شديدة الخطورة حالياً)
+- إذا تمت متابعة التصنيف 8 (التشوه الأبهري) كسؤال بحثي: توضيح ما إذا كانت الإشارة يقودها آلية PCSK9 المباشرة أو إنها ثانوية بحتة لمرض قيمة الأبهر المدفوع بـ LDL-C في فرط كوليسترول الدم العائلي، بالإضافة إلى بيانات النتائج من NCT06597019 و NCT06597006 عند توفرها
+- إعادة فحص المرشحين ذوي التصنيف الأقل ضد عمليات تشغيل نموذج TxGNN المحدثة، نظراً لارتفاع نسبة التنبؤات بدون أدلة في مجموعة المرشحين هذه
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

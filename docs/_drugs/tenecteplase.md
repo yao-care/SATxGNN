@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Tenecteplase: From ST-Elevation Myocardial Infarction to Coronary Stenosis (Intracoronary PCI Adjunct)
+# تينيكتيبليز: من احتشاء العضلة القلبية برفع جزء من الموجة (ST-STEMI) إلى تضيق الشرايين التاجية (مساعد التدخل التاجي عبر الجلد)
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Tenecteplase is a fibrin-specific thrombolytic, originally used for reperfusion therapy in acute ST-elevation myocardial infarction (STEMI). Among the ten indications the TxGNN model surfaced for this drug, the only one with substantive supporting evidence is **Coronary Stenosis** — specifically as a low-dose intracoronary adjunct during primary PCI — backed by **1 completed Phase 2 RCT** and **10 relevant publications**. The other nine predicted indications (including the two top-ranked STEMI subtypes) have no clinical trial or literature support and are treated separately below.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | ST-elevation myocardial infarction (STEMI) — inferred from the repurposing-rationale narrative in the evidence pack; no formal regulatory indication text is on file because the drug is not marketed locally |
-| Predicted New Indication | Coronary Stenosis (low-dose intracoronary tenecteplase as PCI adjunct) |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Note on other predicted indications:** TxGNN's two highest-scoring predictions (posteroinferior MI, posterolateral MI, both ~99.87%) and four low-relevance hematologic/chromosomal predictions (beta-thalassemia, chromosome 16p deletion, red-cell enzyme deficiencies) returned **zero** clinical trials or literature — these are treated as L5, model-score-only signals with recommendation "Hold." Septal MI (L4) had only a misdiagnosis case report and unrelated PE literature. Congenital coronary artery anomaly (L4) had a single case report describing **failed** fibrinolysis — a negative signal. Coronary stenosis is the only candidate that reached decision stage S2 with real trial data, so it is the focus of this report.
+تينيكتيبليز هو عامل حالّ لللخثرات محدد للفيبرين، استُخدم في الأصل للعلاج بإعادة التروية في احتشاء العضلة القلبية برفع جزء من الموجة الحاد (STEMI). من بين عشر دلالات استخدام أظهرتها نماذج TxGNN لهذا الدواء، الدلالة الوحيدة التي لديها أدلة داعمة جوهرية هي **تضيق الشرايين التاجية** — وخاصة كمساعد داخل الشرايين التاجية بجرعة منخفضة أثناء التدخل التاجي الأولي — مدعومة بـ **تجربة عشوائية محكومة في المرحلة الثانية مكتملة واحدة** و**10 منشورات ذات صلة**. الدلالات المتنبأ بها الأخرى التسعة (بما فيها النوعان من STEMI ذا الترتيب الأعلى) لا توجد لديها أي دعم من التجارب السريرية أو الأدبيات وتعالج بشكل منفصل أدناه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-The evidence pack's `original_moa` field is formally marked as a data gap, but the repurposing-rationale text supplied for this candidate provides mechanistic detail: tenecteplase is a genetically engineered variant of tissue plasminogen activator (tPA) with high fibrin specificity, which catalyzes the conversion of plasminogen to plasmin to degrade thrombus. This is consistent with its established role in STEMI, where it is administered intravenously to dissolve the culprit coronary thrombus.
+| البند | المحتوى |
+|------|--------|
+| الدلالة الأصلية | احتشاء العضلة القلبية برفع جزء من الموجة (STEMI) — مستدلّة من السرد الحكائي لمنطق إعادة الاستخدام في حزمة الأدلة؛ لا يوجد نص دلالة تنظيمية رسمية في الملف لأن الدواء غير مسوق محليًا |
+| الدلالة الجديدة المتنبأ بها | تضيق الشرايين التاجية (تينيكتيبليز داخل الشرايين التاجية بجرعة منخفضة كمساعد التدخل التاجي عبر الجلد) |
+| درجة التنبؤ من TxGNN | 99.53% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار (Hold) |
 
-Coronary stenosis frequently coexists with residual or distal thrombus burden — most clearly in the setting of primary PCI for STEMI, where microvascular obstruction from thrombotic embolization is common even after the epicardial vessel is opened. Using tenecteplase as a **low-dose intracoronary** adjunct during PCI (rather than the standard systemic bolus) targets this residual thrombus directly at the lesion site, which is mechanistically a natural extension of its original antithrombotic action rather than a new mechanism.
-
-This mechanistic overlap is reflected in the trial and literature evidence below: the supporting studies are specifically about intracoronary/adjunctive fibrinolytic use during angioplasty and PCI, not about coronary stenosis as an independent disease process. In other words, the "new indication" is really a new **route and clinical context** (intracoronary, periprocedural) for the same underlying pharmacology, which is why the evidence level (L2) is meaningfully higher than the other nine TxGNN predictions in this pack.
+**ملاحظة حول الدلالات المتنبأ بها الأخرى:** أعلى نقاطي التنبؤ من TxGNN (احتشاء العضلة القلبية الخلفي السفلي، احتشاء العضلة القلبية الخلفي الجانبي، كلاهما ~99.87%) والتنبؤات الأربعة ذات الصلة المنخفضة عن الأمراض الدموية/الكروموسومية (الثلاسيميا بيتا، حذف الكروموسوم 16p، نقائص إنزيم الخلايا الحمراء) أرجعت **صفر** تجارب سريرية أو أدبيات — تُعامل هذه على أنها L5، إشارات قائمة على درجة النموذج فقط مع توصية "الانتظار". احتشاء العضلة القلبية الحاجز (L4) كان لديه فقط تقرير حالة تشخيص خاطئ وأدبيات غير ذات صلة عن الجلطات. احتشاء العضلة القلبية الخلقي الشذوذ (L4) كان لديه تقرير حالة واحد فقط يصف فشل **الحلّ الليفيني** — إشارة سلبية. تضيق الشرايين التاجية هو المرشح الوحيد الذي وصل إلى مرحلة القرار S2 مع بيانات التجربة الفعلية، لذلك فهو محور هذا التقرير.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حقل `original_moa` في حزمة الأدلة مُشار إليه رسميًا كفجوة بيانات، لكن نص منطق إعادة الاستخدام المقدم لهذا المرشح يوفر التفاصيل الآلية: تينيكتيبليز هو متغير معدَّل وراثيًا لمُنشط بلاسمينوجين الأنسجة (tPA) ذو نوعية عالية للفيبرين، الذي يحفز تحويل البلاسمينوجين إلى بلاسمين لتحطيم الجلثة. هذا متسق مع دوره المعروف في STEMI، حيث يُعطى في الوريد لإذابة الجلثة التاجية المسؤولة.
+
+يتزامن تضيق الشرايين التاجية بشكل متكرر مع عبء جلثة متبقية أو بعيدة — بأوضح صورة في سياق التدخل التاجي الأولي لـ STEMI، حيث يكون الانسداد الميكروعائي من الانصمام الجلطي شائعًا حتى بعد فتح الوعاء الرئيسي. استخدام تينيكتيبليز كمساعد **داخل الشرايين التاجية بجرعة منخفضة** أثناء التدخل التاجي عبر الجلد (بدلاً من الجرعة الوريدية القياسية) يستهدف هذه الجلثة المتبقية مباشرة في موقع الآفة، وهو ميكانيكيًا امتداد طبيعي لعمله المضاد للجلثة الأصلي بدلاً من آلية جديدة.
+
+ينعكس هذا التداخل الآلي في أدلة التجارب والأدبيات أدناه: الدراسات الداعمة متعلقة بشكل خاص باستخدام داخل الشرايين التاجية/الملحق الليفيني أثناء الرأب والتدخل التاجي عبر الجلد، وليس حول تضيق الشرايين التاجية كعملية مرض مستقلة. بعبارة أخرى، "الدلالة الجديدة" هي حقًا **طريق وسياق سريري** جديد (داخل الشرايين التاجية، حول الإجراء) لنفس الصيدلة الأساسية، وهذا هو السبب في أن مستوى الأدلة (L2) مرتفع بشكل ذي معنى عن التنبؤات العشرة الأخرى من TxGNN في هذه الحزمة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) | Phase 2 | Completed | 40 | "ICE T" trial evaluating low-dose intracoronary adjunctive tenecteplase during primary PCI for STEMI; hypothesized to enhance breakdown of residual thrombus at the culprit lesion and reduce myocardial damage. Preliminary angiographic efficacy data only (small, single trial). |
+| [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) | المرحلة 2 | مكتملة | 40 | تجربة "ICE T" تقيّم تينيكتيبليز داخل الشرايين التاجية بجرعة منخفضة كمساعد أثناء التدخل التاجي الأولي لـ STEMI؛ يفترض أن يعزز تحطيم الجلثة المتبقية في موقع الآفة المسؤولة ويقلل من تلف العضلة القلبية. بيانات فعالية وعائية فقط أولية (تجربة واحدة صغيرة). |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Cohort/Feasibility | American Journal of Cardiology | ICE-T-TIMI-49: feasibility/safety of low-dose intracoronary tenecteplase (4 mg) vs. saline in 40 primary PCI patients — the published readout of NCT00604695. |
-| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | pending | Journal of the American College of Cardiology | CAPITAL AMI study: compared tenecteplase-facilitated angioplasty vs. tenecteplase alone in high-risk STEMI. |
-| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | RCT-related/Cohort | Canadian Journal of Cardiology | TRANSFER-AMI pilot: feasibility of urgent PCI transfer shortly after thrombolysis for STEMI. |
-| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Case series | Journal of the American College of Cardiology | Pre-procedural intracoronary fibrin-specific lytic infusion facilitates percutaneous recanalization of chronic total occlusions. |
-| [31020237](https://pubmed.ncbi.nlm.nih.gov/31020237/) | 2019 | Case report | European Heart Journal – Case Reports | Refractory thrombus extraction with stent retriever during primary angioplasty for acute MI in an ectatic, thrombus-prone coronary segment. |
-| [11994554](https://pubmed.ncbi.nlm.nih.gov/11994554/) | 2002 | Observational | Journal of Thrombosis and Thrombolysis | Precordial ST depression in inferior MI associated with angiographic slow flow in the non-culprit LAD (same research group as the ICE-T trial). |
-| [37823944](https://pubmed.ncbi.nlm.nih.gov/37823944/) | 2023 | Case report | Egyptian Heart Journal | Subacute stent thrombosis in a resource-limited setting attributed to clopidogrel resistance — illustrates the residual-thrombus problem this adjunct targets. |
-| [17461362](https://pubmed.ncbi.nlm.nih.gov/17461362/) | 2007 | pending | Giornale Italiano di Cardiologia | Case of right ventricular ischemia mimicking acute MI during angioplasty of the right coronary artery. |
-| [23615379](https://pubmed.ncbi.nlm.nih.gov/23615379/) | 2013 | Review | Cerebrovascular Diseases | Historical review of thrombolytic agents (streptokinase to tenecteplase) — general fibrinolytic-class background, not coronary-stenosis-specific. |
-| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | Case report | Human & Experimental Toxicology | Thrombolytic therapy in inferolateral MI following carbon monoxide poisoning-induced coronary thrombosis. |
-
----
-
-## Saudi Arabia Market Information
-
-Tenecteplase is not currently marketed in Saudi Arabia — no product authorizations are on file (`total_licenses: 0`).
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | أتراب/جدوى | American Journal of Cardiology | ICE-T-TIMI-49: جدوى/سلامة تينيكتيبليز داخل الشرايين التاجية بجرعة منخفضة (4 ملغ) مقابل محلول ملحي في 40 مريضًا بالتدخل التاجي الأولي — المنشور الكامل لـ NCT00604695. |
+| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | معلق | Journal of the American College of Cardiology | دراسة CAPITAL AMI: قارنت الرأب الموسّع بالتينيكتيبليز مقابل التينيكتيبليز وحده في STEMI عالي الخطورة. |
+| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | أتراب/تجربة عشوائية محكومة | Canadian Journal of Cardiology | تجربة TRANSFER-AMI التجريبية: جدوى التدخل التاجي الأولي العاجل بعد فترة قصيرة من الحلّ الليفيني لـ STEMI. |
+| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | سلسلة حالات | Journal of the American College of Cardiology | التسريب الليفيني المحدد للفيبرين قبل الإجراء داخل الشرايين التاجية يسهل إعادة الإرواء عبر الجلد للانسدادات التاجية المزمنة. |
+| [31020237](https://pubmed.ncbi.nlm.nih.gov/31020237/) | 2019 | تقرير حالة | European Heart Journal – Case Reports | استخراج الجلثة العنيد باستخدام محبس القسطرة أثناء الرأب الأولي لاحتشاء حاد في جزء مصاب بتوسع وعائي مليء بالجلثة. |
+| [11994554](https://pubmed.ncbi.nlm.nih.gov/11994554/) | 2002 | رصدي | Journal of Thrombosis and Thrombolysis | انخفاض ST الصدري في احتشاء السفلي مقترن بتدفق بطيء وعائي في الشريان الأمامي الأيسر غير المسؤول (نفس مجموعة البحث من تجربة ICE-T). |
+| [37823944](https://pubmed.ncbi.nlm.nih.gov/37823944/) | 2023 | تقرير حالة | Egyptian Heart Journal | جلطة الدعامة شبه الحادة في بيئة محدودة الموارد تُنسب إلى مقاومة كلوبيدوجريل — يوضح مشكلة الجلثة المتبقية التي يستهدفها هذا المساعد. |
+| [17461362](https://pubmed.ncbi.nlm.nih.gov/17461362/) | 2007 | معلق | Giornale Italiano di Cardiologia | حالة نقص تروية البطين الأيمن تحاكي احتشاء حاد أثناء رأب الشريان التاجي الأيمن. |
+| [23615379](https://pubmed.ncbi.nlm.nih.gov/23615379/) | 2013 | مراجعة | Cerebrovascular Diseases | مراجعة تاريخية للعوامل الحالّة للخثرات (ستريبتوكيناز إلى تينيكتيبليز) — خلفية عامة لفئة الحلّ الليفيني، وليس محددة للشرايين التاجية. |
+| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | تقرير حالة | Human & Experimental Toxicology | العلاج بالحلّ الليفيني في احتشاء السفلي الجانبي بعد الجلثة التاجية المستحثة بتسمم أول أكسيد الكربون. |
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. Local key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack (flagged as a **Blocking**-severity data gap — see Conclusion below); as a fibrinolytic agent, bleeding risk should be assumed material until confirmed otherwise.
+تينيكتيبليز غير مسوق حاليًا في المملكة العربية السعودية — لا توجد تفويضات منتجات في الملف (`total_licenses: 0`).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. بيانات التحذيرات الرئيسية المحلية والموانع والبيانات المتعلقة بالتفاعلات الدوائية غير متاحة حاليًا في حزمة الأدلة هذه (مُشار إليها كفجوة بيانات ذات شدة **الحجب** — انظر الخلاصة أدناه)؛ كعامل حالّ للخثرات، يجب افتراض خطر النزيف مادي حتى يتم تأكيده وإلا.
 
-**Rationale:**
-The only predicted indication with real supporting evidence — coronary stenosis as an intracoronary PCI adjunct — rests on a single small (n=40), completed Phase 2 feasibility/safety trial with no confirmatory Phase 3 outcomes data, and tenecteplase has no market presence or regulatory safety file locally. This does not meet the bar for "Go" or even guarded proceeding; it remains a research question rather than a repurposing-ready candidate. The other nine TxGNN predictions in this pack lack any clinical or literature support (several are mechanistically implausible genetic/hematologic conditions) and should not be advanced.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert (warnings, contraindications) — currently a **Blocking** data gap that prevents any S1 safety pre-assessment
-- Confirmed original-indication and MOA documentation via DrugBank (currently a **High**-severity data gap)
-- A Phase 3 (or larger Phase 2) RCT on intracoronary tenecteplase as a PCI adjunct with clinical outcome endpoints, not just angiographic feasibility
-- Local DDI and bleeding-risk data before any safety evaluation can begin
-- If revisited, re-screen the remaining nine predictions only if new trial or literature evidence emerges — none currently warrant active development
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار (Hold)**
+
+**المنطق الأساسي:**
+الدلالة المتنبأ بها الوحيدة مع أدلة حقيقية داعمة — تضيق الشرايين التاجية كمساعد التدخل التاجي عبر الجلد داخل الشرايين التاجية — تستند على تجربة واحدة صغيرة (n=40) مكتملة في المرحلة الثانية للجدوى/السلامة بدون بيانات نتائج التجربة الثالثة التأكيدية، وتينيكتيبليز لا يوجد لديه وجود في السوق أو ملف سلامة تنظيمي محليًا. هذا لا يفي بمعيار "اذهب" أو حتى المضي قُدُمًا بحذر؛ يبقى سؤالاً بحثيًا بدلاً من أن يكون مرشحًا جاهزًا لإعادة الاستخدام. التنبؤات التسعة الأخرى من TxGNN في هذه الحزمة تفتقر إلى أي دعم سريري أو أدبي (عدة منها غير معقول ميكانيكيًا للشروط الوراثية/الدموية) ولا يجب تقديمها.
+
+**للمضي قُدُمًا، يلي مطلوب:**
+- نشرة الحزمة المحلية/TFDA (تحذيرات، موانع) — حاليًا فجوة بيانات **حجب** تمنع أي تقييم سلامة ما قبل S1
+- توثيق الدلالة الأصلية والآلية المؤكدة عبر DrugBank (حاليًا فجوة بيانات **شدة عالية**)
+- تجربة عشوائية محكومة من المرحلة الثالثة (أو أكبر المرحلة الثانية) على التينيكتيبليز داخل الشرايين التاجية كمساعد التدخل التاجي عبر الجلد مع نقاط نهاية النتائج السريرية، وليس فقط جدوى وعائية
+- بيانات التفاعلات الدوائية المحلية وبيانات خطر النزيف قبل أي تقييم السلامة يمكن أن يبدأ
+- إذا أُعيدت النظر فيها، أعد فحص التنبؤات المتبقية التسعة فقط إذا ظهرت أدلة تجريبية أو أدبية جديدة — لا أحد حاليًا يستحق التطوير النشط
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

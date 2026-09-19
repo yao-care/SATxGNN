@@ -29,230 +29,231 @@ indication_count: 10
 
 </div>
 
-# Methotrexate: From an Established Antifolate Therapy to Ten TxGNN-Predicted Oncologic and Hematologic Indications
+# ميثوتريكسيت: من العلاج المضاد للفولات المعتمد إلى عشرة مؤشرات استخدام أورام وأمراض دم متنبأ بها من TxGNN
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Methotrexate (DrugBank DB00563) is a dihydrofolate reductase (DHFR) inhibitor whose original approved indication is not captured in this evidence pack (Taiwan market data gap). TxGNN generated **10 predicted new indications** for this candidate, ranging from speculative (6 indications with no supporting trials or literature) to moderately supported (**Hodgkin's lymphoma** and **rhabdomyosarcoma**, each backed by graded clinical trials and cohort/RCT-level literature). Only 2 of the 10 candidates currently clear the bar for "Proceed with Guardrails"; the rest remain at Hold or Research Question stage pending further evidence.
-
----
-
-## Quick Overview
-
-*(Per methodology, this table reflects `predicted_indications[0]` — the single highest-ranked TxGNN prediction. A full 10-candidate comparison follows immediately below.)*
-
-| Item | Content |
-|------|------|
-| Predicted New Indication (Rank 1) | Pulmonary Blastoma |
-| TxGNN Prediction Score (Rank 1) | 99.45% |
-| Evidence Level (Rank 1) | L5 (model prediction only, no trials or literature) |
-| Market Status (Taiwan) | Not Marketed |
-| Number of Taiwan Authorizations | 0 |
-| Recommended Decision (Rank 1) | Hold |
-
-### Full Indication Portfolio (All 10 TxGNN Predictions)
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Pulmonary blastoma | 99.45% | L5 | S0 | Hold |
-| 2 | Primary pulmonary lymphoma | 99.45% | L4 | S1 | Research Question |
-| 3 | Small cell lung carcinoma | 99.43% | L3 | S1 | Hold |
-| 4 | Well-differentiated fetal adenocarcinoma of the lung | 99.42% | L5 | S0 | Hold |
-| 5 | Hodgkin's lymphoma | 99.32% | **L2** | **S2** | **Proceed with Guardrails** |
-| 6 | Rhabdomyosarcoma | 99.25% | **L2** | **S2** | **Proceed with Guardrails** |
-| 7 | Pregerminal center CLL/SLL | 99.23% | L5 | S0 | Hold |
-| 8 | CLL/SLL with IGHV somatic hypermutation | 99.23% | L5 | S0 | Hold |
-| 9 | Parameningeal embryonal rhabdomyosarcoma | 99.21% | L5 | S0 | Hold |
-| 10 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.21% | L5 | S0 | Hold |
+ميثوتريكسيت (DrugBank DB00563) هو مثبط ديهيدروفولات ريداكتيز (DHFR) الذي المؤشر الأصلي المعتمد له غير موثق في هذه مجموعة الأدلة (فجوة بيانات سوق تايوان). أنشأ TxGNN **10 مؤشرات استخدام جديدة متنبأ بها** لهذا المرشح، تتراوح من تخمينية (6 مؤشرات بدون تجارب داعمة أو أدبيات) إلى معتدلة الدعم (**لمفومة هودجكن** و**الورم العضلي الليفي الجنيني**، كل منها مدعوم بتجارب سريرية مصنفة وأدبيات على مستوى الدراسات الجماعية/التجارب العشوائية). فقط 2 من 10 مرشح ينجحان حالياً في تجاوز معيار "المتابعة مع الحماية الدارعة"؛ الباقي يبقى في مرحلة الانتظار أو سؤال البحث معلقاً على المزيد من الأدلة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data from DrugBank/TFDA is not available for methotrexate in this evidence pack (flagged as a High-severity data gap, DG002). However, the mechanistic rationale documented for every predicted indication converges on the same pharmacology: methotrexate is a **dihydrofolate reductase (DHFR) inhibitor** that blocks folate metabolism and thereby suppresses DNA synthesis in rapidly dividing cells. This antifolate/antimetabolite mechanism is the basis for every repurposing hypothesis below.
+*(وفقاً للمنهجية، هذا الجدول يعكس `predicted_indications[0]` — التنبؤ الأعلى تصنيفاً الواحد من TxGNN. مقارنة شاملة لجميع 10 المرشحات تتبع مباشرة أدناه.)*
 
-Six of the ten predicted indications (pulmonary blastoma, well-differentiated fetal adenocarcinoma of the lung, pregerminal-center CLL/SLL, IGHV-hypermutated CLL/SLL, parameningeal embryonal rhabdomyosarcoma, and botryoid-type embryonal rhabdomyosarcoma of the vagina) are pure mechanism-based extrapolations from TxGNN's knowledge graph with **zero supporting trials or literature** — they should be treated as hypotheses only.
+| البند | المحتوى |
+|------|--------|
+| مؤشر الاستخدام الجديد المتنبأ به (الترتيب 1) | الورم الأرومي الرئوي |
+| درجة التنبؤ من TxGNN (الترتيب 1) | 99.45% |
+| مستوى الأدلة (الترتيب 1) | L5 (تنبؤ النموذج فقط، بدون تجارب أو أدبيات) |
+| حالة السوق (تايوان) | غير مسوق |
+| عدد التفويضات في تايوان | 0 |
+| القرار الموصى به (الترتيب 1) | انتظار |
 
-The remaining four indications have a plausible, evidence-anchored rationale:
-- **Primary pulmonary lymphoma** and **small cell lung carcinoma**: methotrexate has historical use as a component of multi-agent chemotherapy for systemic lymphomas and was tested in SCLC combination regimens in the 1970s–1990s, though both have since been superseded by modern standards (e.g., platinum-etoposide for SCLC).
-- **Hodgkin's lymphoma**: methotrexate was a core component of the historical VBM (vinblastine, bleomycin, methotrexate) regimen for early-stage Hodgkin lymphoma, with actual Phase-level clinical evidence (see below), even though it has been superseded by ABVD as first-line therapy.
-- **Rhabdomyosarcoma**: methotrexate has direct Phase II pediatric trial evidence and documented combination use with doxorubicin in sarcomas, though it is not part of the current first-line VAC (vincristine/actinomycin/cyclophosphamide) standard.
+### محفظة مؤشرات الاستخدام الكاملة (جميع 10 التنبؤات من TxGNN)
 
-Notably, the literature evidence set also reflects methotrexate's well-established use in **rheumatoid arthritis** (e.g., PMID 7653488, 16287579 — methotrexate-associated lymphoproliferative disorders in RA patients), consistent with its known long-term immunomodulatory/antifolate use outside oncology, even though this original indication is not separately recorded in the Taiwan regulatory data supplied.
-
----
-
-## Clinical Trial Evidence
-
-### Rank 2 — Primary Pulmonary Lymphoma (10 graded trials; 2 additional trials pending relevance grading, not shown)
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00916630](https://clinicaltrials.gov/study/NCT00916630) | Phase 1 | Completed | 18 | Pemetrexed (antifolate, MTX-related) in recurrent CNS lymphoma — mechanistically related but different drug and organ (CNS, not lung); Grade B relevance |
-| [NCT00013533](https://clinicaltrials.gov/study/NCT00013533) | Early Phase 1 | Completed | 30 | Non-myeloablative HLA-matched allogeneic transplant for pediatric hematologic malignancies broadly; not lymphoma-specific |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A | Recruiting | 840 | Observational biomarker study across immune-mediated skin diseases; not an interventional efficacy study |
-| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Phase 1/2 | Completed | 147 | Busulfan/fludarabine/TBI non-myeloablative transplant for hematologic malignancies generally |
-| [NCT00448201](https://clinicaltrials.gov/study/NCT00448201) | Phase 2 | Completed | 71 | Reduced-intensity allogeneic transplant for patients ineligible for intensive therapy |
-| [NCT02911142](https://clinicaltrials.gov/study/NCT02911142) | Phase 1/2 | Active, not recruiting | 17 | Lenalidomide + modified DA-EPOCH-R for primary effusion lymphoma; regimen doesn't clearly include MTX |
-| [NCT00051311](https://clinicaltrials.gov/study/NCT00051311) | Phase 2 | Completed | 62 | EPOCH-F/R induction + reduced-intensity transplant with cyclosporine/MTX GVHD prophylaxis |
-| [NCT02345850](https://clinicaltrials.gov/study/NCT02345850) | Phase 3 | Completed | 346 | Calcineurin-inhibitor-free GVHD prophylaxis vs. tacrolimus/MTX; MTX used as prophylaxis, not lymphoma treatment |
-| [NCT01338987](https://clinicaltrials.gov/study/NCT01338987) | Phase 2 | Completed | 76 | Lupron to enhance lymphocyte reconstitution post-transplant; not MTX efficacy data |
-| [NCT03959241](https://clinicaltrials.gov/study/NCT03959241) | Phase 3 | Completed | 431 | Tacrolimus/MTX vs. post-transplant cyclophosphamide regimen for GVHD prophylaxis |
-
-**Overall assessment**: No trial directly evaluates methotrexate as treatment for primary pulmonary lymphoma; most relevant support comes from antifolate-class evidence in CNS lymphoma (Grade B) and MTX's established role in transplant-related GVHD prophylaxis for lymphoma patients.
-
-### Rank 3 — Small Cell Lung Carcinoma (10 graded trials; 3 additional trials pending relevance grading, not shown)
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03520842](https://clinicaltrials.gov/study/NCT03520842) | Phase 2 | Completed | 22 | Regorafenib + oral methotrexate in KRAS-mutated NSCLC — Phase II with actual MTX efficacy data, but NSCLC not SCLC; Grade B |
-| [NCT00743379](https://clinicaltrials.gov/study/NCT00743379) | Phase 1/2 | Completed | 71 | TH-302 + gemcitabine/docetaxel/pemetrexed dose-escalation across pancreatic/prostate/NSCLC |
-| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Phase 1 | Completed | 13 | Intrathecal pemetrexed for NSCLC leptomeningeal metastasis |
-| [NCT04747912](https://clinicaltrials.gov/study/NCT04747912) | Phase 2 | Suspended | 25 | Chemotherapy-free induction for Ph+ ALL; unrelated to SCLC |
-| [NCT04356222](https://clinicaltrials.gov/study/NCT04356222) | Phase 4 | Unknown | 30 | Durvalumab + intrathecal chemo for NSCLC leptomeningeal metastasis |
-| [NCT02385110](https://clinicaltrials.gov/study/NCT02385110) | Phase 2 | Completed | 18 | Alemtuzumab/tocilizumab + etoposide/dexamethasone for HLH; unrelated to SCLC |
-| [NCT07156604](https://clinicaltrials.gov/study/NCT07156604) | Phase 2 | Not yet recruiting | 30 | Vebreltinib neoadjuvant therapy for MET-exon-14-skipping NSCLC |
-| [NCT04356118](https://clinicaltrials.gov/study/NCT04356118) | Phase 4 | Unknown | 30 | Recombinant human endostatin for NSCLC leptomeningeal metastasis |
-| [NCT00354393](https://clinicaltrials.gov/study/NCT00354393) | Phase 2 | Completed | 9 | Multi-modality therapy (including MTX) for malignant pleural mesothelioma |
-| [NCT03537833](https://clinicaltrials.gov/study/NCT03537833) | N/A | Completed | 172 | PPI association with pemetrexed hematologic toxicity; safety, not efficacy |
-
-**Overall assessment**: Only one trial (Grade B) provides direct MTX efficacy data, and it is in NSCLC rather than SCLC. Historical SCLC-specific MTX evidence exists only in older literature (see below); current SCLC standard of care has moved to platinum-etoposide.
-
-### Rank 5 — Hodgkin's Lymphoma (10 graded trials; ~37 additional trials remain pending relevance grading, not shown)
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01746992](https://clinicaltrials.gov/study/NCT01746992) | Phase 4 | Unknown | 200 | CTOP/ITE/MTX vs. CHOP as first-line therapy for newly-diagnosed T-cell non-Hodgkin lymphoma; randomized comparison including MTX-containing arm |
-| [NCT05583071](https://clinicaltrials.gov/study/NCT05583071) | Phase 2 | Recruiting | 20 | MTX + tafasitamab + lenalidomide + rituximab for primary CNS lymphoma patients ineligible for transplant |
-| [NCT03602898](https://clinicaltrials.gov/study/NCT03602898) | Phase 2 | Withdrawn (enrollment 0) | 0 | ATG/post-transplant cyclophosphamide vs. calcineurin-inhibitor/MTX GVHD prophylaxis |
-| [NCT01789255](https://clinicaltrials.gov/study/NCT01789255) | Phase 2 | Completed | 12 | Vorinostat + tacrolimus + MTX for GVHD prevention post-transplant |
-| [NCT00521430](https://clinicaltrials.gov/study/NCT00521430) | N/A | Completed | 30 | Non-T-cell-depleted haploidentical transplant after reduced-intensity conditioning |
-| [NCT01181271](https://clinicaltrials.gov/study/NCT01181271) | Phase 2 | Completed | 42 | Sequential autologous → non-myeloablative allogeneic transplant for poor-risk lymphoma |
-| [NCT00003650](https://clinicaltrials.gov/study/NCT00003650) | Phase 3 | Completed | 179 | Combination chemotherapy in children with T-cell/pre-B-cell NHL |
-| [NCT00612716](https://clinicaltrials.gov/study/NCT00612716) | Phase 2 | Completed | 6 | Unrelated/partially-matched allogeneic transplant for lymphoma, myeloma, CLL |
-| [NCT04283955](https://clinicaltrials.gov/study/NCT04283955) | N/A | Completed | 93 | Retrospective cohort: MTHFR polymorphisms and high-dose MTX toxicity in pediatric NHL |
-| [NCT00221325](https://clinicaltrials.gov/study/NCT00221325) | Phase 1 | Completed | 14 | Intraventricular rituximab + MTX for recurrent CNS/intraocular lymphoma |
-
-**Overall assessment**: The strongest direct evidence is a Phase IV randomized comparison of an MTX-containing regimen (CTOP/ITE/MTX) vs. CHOP, though scoped to T-cell NHL broadly rather than classical Hodgkin lymphoma specifically. Supporting literature (below) provides the more Hodgkin-specific historical trial data (VBM regimen).
-
-### Rank 6 — Rhabdomyosarcoma (4 trials, all graded)
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00357084](https://clinicaltrials.gov/study/NCT00357084) | Phase 2 | Completed | 53 | Methotrexate + glucocorticoids for newly-diagnosed acute GVHD after non-myeloablative transplant; direct MTX efficacy/tolerability data, Grade A relevance |
-| [NCT00253552](https://clinicaltrials.gov/study/NCT00253552) | N/A | Terminated | 4 | Filgrastim-primed bone marrow HLA-matched transplant pilot study |
-| [NCT00003273](https://clinicaltrials.gov/study/NCT00003273) | Phase 2 | Withdrawn (enrollment 0) | 0 | Dose-intensive chemotherapy for pediatric malignant brain tumors |
-| [NCT00112645](https://clinicaltrials.gov/study/NCT00112645) | Phase 1 | Completed | 10 | Allogeneic transplant toxicity study for relapsed/refractory pediatric solid tumors |
-
-**Overall assessment**: Direct rhabdomyosarcoma-specific trial evidence is limited in the registered-trials database; the strongest supporting evidence for this indication comes from the historical literature (Phase II pediatric MTX trial, below).
+| الترتيب | مؤشر الاستخدام المتنبأ به | درجة TxGNN | مستوى الأدلة | مرحلة القرار | التوصية |
+|--------|---------------------------|-----------|-------------|------------|---------|
+| 1 | الورم الأرومي الرئوي | 99.45% | L5 | S0 | انتظار |
+| 2 | لمفومة رئوية ابتدائية | 99.45% | L4 | S1 | سؤال البحث |
+| 3 | سرطان الرئة صغير الخلايا | 99.43% | L3 | S1 | انتظار |
+| 4 | غدية جنينية متميزة بشكل جيد في الرئة | 99.42% | L5 | S0 | انتظار |
+| 5 | لمفومة هودجكن | 99.32% | **L2** | **S2** | **المتابعة مع الحماية الدارعة** |
+| 6 | الورم العضلي الليفي الجنيني | 99.25% | **L2** | **S2** | **المتابعة مع الحماية الدارعة** |
+| 7 | CLL/SLL ما قبل المركز الجرثومي | 99.23% | L5 | S0 | انتظار |
+| 8 | CLL/SLL مع فرط الطفرة الجسدية IGHV | 99.23% | L5 | S0 | انتظار |
+| 9 | الورم العضلي الليفي الجنيني من جانب السحايا | 99.21% | L5 | S0 | انتظار |
+| 10 | الورم العضلي الليفي الجنيني من نوع الزيتون في المهبل | 99.21% | L5 | S0 | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-### Rank 2 — Primary Pulmonary Lymphoma (10 graded publications; 9 additional publications pending classification, not shown)
+بيانات آلية العمل التفصيلية من DrugBank/TFDA غير متاحة لميثوتريكسيت في هذه مجموعة الأدلة (موضح كفجوة بيانات عالية الشدة، DG002). ومع ذلك، فإن المبرر الآلي الموثق لكل مؤشر استخدام متنبأ به يتقارب على نفس الصيدلة: ميثوتريكسيت هو **مثبط ديهيدروفولات ريداكتيز (DHFR)** الذي يمنع استقلاب الفولات وبالتالي يثبط تخليق الحمض النووي في الخلايا سريعة الانقسام. هذا الآلية المضادة للفولات/المضادة للأيض هي أساس كل فرضية إعادة استخدام أدناه.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30842385](https://pubmed.ncbi.nlm.nih.gov/30842385/) | 2019 | Cohort | Rinsho Ketsueki | Retrospective survival analysis of PCNSL patients treated with high-dose MTX + rituximab |
-| [11244328](https://pubmed.ncbi.nlm.nih.gov/11244328/) | 2001 | Cohort | Oncology | High-dose MTX + vincristine + procarbazine without intrathecal chemo, followed by consolidation RT, for PCNSL |
-| [15747120](https://pubmed.ncbi.nlm.nih.gov/15747120/) | 2005 | Cohort | Annals of Hematology | Modified ProMACE-MOPP regimen with moderate-dose MTX for PCNSL |
-| [29931605](https://pubmed.ncbi.nlm.nih.gov/29931605/) | 2018 | Review | Curr Treat Options Oncol | Molecular features and CNS recurrence risk of extranodal DLBCL by primary site |
-| [41485126](https://pubmed.ncbi.nlm.nih.gov/41485126/) | 2026 | Review | Cancer | First-line BTK/PD-1 inhibitor regimen excluding methotrexate for PCNSL |
-| [32590768](https://pubmed.ncbi.nlm.nih.gov/32590768/) | 2020 | Case Report | Medicine | Two cases of primary pulmonary extranodal NK/T-cell lymphoma, nasal type |
-| [40283500](https://pubmed.ncbi.nlm.nih.gov/40283500/) | 2025 | Case Report | J Clin Med | Massive pericardial effusion/PE secondary to primary mediastinal NHL in pregnancy |
-| [38720609](https://pubmed.ncbi.nlm.nih.gov/38720609/) | 2024 | Case Report | Kyobu Geka | Primary pulmonary DLBCL caused by methotrexate-associated lymphoproliferative disorder, mimicking advanced lung cancer |
-| [35831185](https://pubmed.ncbi.nlm.nih.gov/35831185/) | 2022 | Case Report | Rinsho Ketsueki | Primary cutaneous anaplastic large cell lymphoma responding to low-dose MTX |
-| [30076020](https://pubmed.ncbi.nlm.nih.gov/30076020/) | 2018 | Case Report | Am J Otolaryngol | Post-treatment sequelae of primary laryngeal NK/T-cell lymphoma |
+ستة من مؤشرات الاستخدام العشرة المتنبأ بها (الورم الأرومي الرئوي، الغدية الجنينية المتميزة بشكل جيد في الرئة، CLL/SLL ما قبل المركز الجرثومي، CLL/SLL مع فرط الطفرة IGHV، الورم العضلي الليفي الجنيني من جانب السحايا، والورم العضلي الليفي الجنيني من نوع الزيتون في المهبل) هي استقراءات قائمة بحتة على الآلية من شبكة معرفات TxGNN مع **صفر التجارب أو الأدبيات الداعمة** — يجب معاملتها كفرضيات فقط.
 
-### Rank 3 — Small Cell Lung Carcinoma (10 graded publications; 10 additional publications pending classification, not shown)
+مؤشرات الاستخدام الأربعة المتبقية لها مبرر معقول وقائم على الأدلة:
+- **لمفومة رئوية ابتدائية** و**سرطان الرئة صغير الخلايا**: ميثوتريكسيت كان له استخدام تاريخي كمكون من علاج كيميائي متعدد العوامل للمفوما الجهازية واختبر في أنظمة مزيج SCLC في السبعينات–التسعينات، رغم أن كليهما تم تجاوزهما لاحقاً من المعايير الحديثة (مثل platinum-etoposide لـ SCLC).
+- **لمفومة هودجكن**: ميثوتريكسيت كان مكوناً أساسياً من النظام التاريخي VBM (vinblastine, bleomycin, methotrexate) لهودجكن اللمفومة المرحلة المبكرة، مع أدلة سريرية فعلية على مستوى Phase (انظر أدناه)، حتى وإن تم تجاوزه لاحقاً من قبل ABVD كعلاج من الدرجة الأولى.
+- **الورم العضلي الليفي الجنيني**: ميثوتريكسيت له أدلة تجارب Phase II لدى الأطفال وشهادة على الاستخدام المزدوج مع doxorubicin في الساركوماس، رغم أنه ليس جزءاً من معيار VAC (vincristine/actinomycin/cyclophosphamide) الأول حالياً.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2983855](https://pubmed.ncbi.nlm.nih.gov/2983855/) | 1985 | Cohort | Cancer | MTX + high-dose vincristine added to CAV regimen with radiotherapy in 50 evaluable SCLC patients; MTX addition did not improve response |
-| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | Cohort | Med Pediatr Oncol | Cyclophosphamide/adriamycin + cytosine arabinoside + radiotherapy protocol including maintenance chemo in SCLC |
-| [1666468](https://pubmed.ncbi.nlm.nih.gov/1666468/) | 1991 | Cohort | Tumori | CCNU + MTX salvage chemotherapy in 34 SCLC patients resistant to CAV/PE; 21.2% objective response rate |
-| [6280794](https://pubmed.ncbi.nlm.nih.gov/6280794/) | 1982 | Cohort | Bull Cancer | CALGB experience: cyclophosphamide ± MTX ± vincristine regimens in SCLC; no significant survival difference among arms |
-| [32152484](https://pubmed.ncbi.nlm.nih.gov/32152484/) | 2020 | Review | Nat Rev Clin Oncol | Folate receptor α as anticancer target, contextualizing MTX/pemetrexed antifolate mechanism in lung and other solid tumors |
-| [205153](https://pubmed.ncbi.nlm.nih.gov/205153/) | 1978 | Review | Ann Intern Med | Overview of SCLC therapeutic management including combination chemotherapy era |
-| [6282790](https://pubmed.ncbi.nlm.nih.gov/6282790/) | 1982 | Review | Int J Radiat Oncol Biol Phys | Role of thoracic/cranial irradiation combined with chemotherapy in SCLC |
-| [7921445](https://pubmed.ncbi.nlm.nih.gov/7921445/) | 1994 | Cohort | Am J Respir Crit Care Med | KS1/4-methotrexate immunoconjugate studied in 11 advanced NSCLC patients; dose-escalation toxicity data |
-| [32888268](https://pubmed.ncbi.nlm.nih.gov/32888268/) | 2021 | Preclinical | Curr Top Med Chem | Solid nanodispersion formulation to improve MTX solubility/bioavailability for SCLC treatment |
-| [25879815](https://pubmed.ncbi.nlm.nih.gov/25879815/) | 2015 | Case Report | Am J Case Rep | Meningeal carcinomatosis from NSCLC responding to salvage intrathecal etoposide after first-line MTX failure |
-
-### Rank 5 — Hodgkin's Lymphoma (10 graded publications; 10 additional publications pending classification, not shown)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [14635074](https://pubmed.ncbi.nlm.nih.gov/14635074/) | 2003 | RCT | Cancer | Gruppo Italiano Studio Linfomi trial: VBM (vinblastine/bleomycin/MTX) chemotherapy + irradiation for early-stage favorable Hodgkin lymphoma |
-| [21592816](https://pubmed.ncbi.nlm.nih.gov/21592816/) | 2012 | Review | Crit Rev Oncol Hematol | Review of 9 small trials of VBM + involved-field radiotherapy for early-stage Hodgkin lymphoma: 94–100% complete remission, 75–95% 5-year PFS, but notable pulmonary toxicity |
-| [35848760](https://pubmed.ncbi.nlm.nih.gov/35848760/) | 2022 | Cohort | Am J Surg Pathol | 9p24.1 alteration and PD-L1 expression compared across de novo and MTX-associated EBV+ classical Hodgkin lymphoma |
-| [8635099](https://pubmed.ncbi.nlm.nih.gov/8635099/) | 1996 | Cohort | Cancer | IVAM (ifosfamide/etoposide/cytarabine/MTX) salvage chemotherapy in relapsed/refractory aggressive NHL |
-| [7653488](https://pubmed.ncbi.nlm.nih.gov/7653488/) | 1995 | Cohort | Am J Med | Retrospective study of hematologic malignancies (including lymphoma) associated with MTX use in rheumatoid arthritis |
-| [28380678](https://pubmed.ncbi.nlm.nih.gov/28380678/) | 2017 | Cohort | Cancer Science | Clinicopathological comparison of MTX-associated DLBCL vs. classical Hodgkin lymphoma subtypes |
-| [11368287](https://pubmed.ncbi.nlm.nih.gov/11368287/) | 2001 | Review | Drugs | Bendamustine review noting 61–97% response rates in Hodgkin/NHL combination regimens |
-| [12967352](https://pubmed.ncbi.nlm.nih.gov/12967352/) | 2003 | Review | Clinical Evidence | Non-Hodgkin lymphoma treatment evidence review |
-| [16467107](https://pubmed.ncbi.nlm.nih.gov/16467107/) | 2006 | Preclinical | Clin Cancer Res | Pralatrexate + gemcitabine superior to MTX + cytarabine in preclinical NHL models |
-| [24246254](https://pubmed.ncbi.nlm.nih.gov/24246254/) | 2014 | Case Report | J Oral Maxillofac Surg | EBV+ oral ulceration simulating Hodgkin lymphoma in a patient on MTX therapy |
-
-### Rank 6 — Rhabdomyosarcoma (10 graded publications; 10 additional publications pending classification, not shown)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9329466](https://pubmed.ncbi.nlm.nih.gov/9329466/) | 1997 | RCT | J Pediatr Hematol Oncol | Phase II trial of high-dose MTX in previously-untreated children/adolescents with high-risk unresectable or metastatic rhabdomyosarcoma |
-| [36614297](https://pubmed.ncbi.nlm.nih.gov/36614297/) | 2023 | Cohort | Int J Mol Sci | BOMP-EPI regimen (bleomycin/vincristine/MTX/cisplatin alternating with etoposide/cisplatin/ifosfamide) in 10 adult relapsed/metastatic RMS patients |
-| [3475644](https://pubmed.ncbi.nlm.nih.gov/3475644/) | 1987 | Cohort | Oncology | Weekly doxorubicin + MTX combination in 55 sarcoma patients; 28% objective response at higher dose levels |
-| [22156656](https://pubmed.ncbi.nlm.nih.gov/22156656/) | 2011 | Cohort | Oncotarget | Pilot study of pediatric metronomic 4-drug regimen |
-| [9862574](https://pubmed.ncbi.nlm.nih.gov/9862574/) | 1998 | Cohort | Br J Cancer | Adjuvant chemotherapy (including rhabdomyosarcoma patients) for resected primary cardiac sarcoma |
-| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | Review | Cancer | Value of adjuvant chemotherapy in pediatric sarcomas, including rhabdomyosarcoma |
-| [38323945](https://pubmed.ncbi.nlm.nih.gov/38323945/) | 2024 | Review | Int J Radiat Oncol Biol Phys | PENTEC review of radiation myelopathy risk factors in pediatric cancer patients |
-| [9039735](https://pubmed.ncbi.nlm.nih.gov/9039735/) | 1996 | Review | Br Med Bull | Overview of controversies in childhood sarcoma management |
-| [2811561](https://pubmed.ncbi.nlm.nih.gov/2811561/) | 1989 | Case Report | Laryngoscope | Rhabdomyosarcoma of the ear and temporal bone treated with multimodality therapy |
-| [2451411](https://pubmed.ncbi.nlm.nih.gov/2451411/) | 1987 | Case Report | Hinyokika Kiyo | Refractory prostatic rhabdomyosarcoma case managed with combination chemotherapy |
-
-### Indications with No Clinical Trial or Literature Evidence
-
-Pulmonary blastoma, well-differentiated fetal adenocarcinoma of the lung, pregerminal-center CLL/SLL, IGHV-hypermutated CLL/SLL, parameningeal embryonal rhabdomyosarcoma, and botryoid-type embryonal rhabdomyosarcoma of the vagina currently have **no related clinical trials or literature registered**.
+بشكل ملحوظ، مجموعة الأدلة الأدبية أيضاً تعكس الاستخدام المعروف جيداً لميثوتريكسيت في **التهاب المفاصل الروماتويدي** (مثلاً، PMID 7653488, 16287579 — الاضطرابات اللمفاوية المرتبطة بميثوتريكسيت في مرضى RA)، وهو متسق مع استخدامه المعروف طويل الأمد المناعي/مضاد للفولات خارج الأورام، رغم أن هذا المؤشر الأصلي لم يتم تسجيله بشكل منفصل في بيانات المنظمة التايوانية المزودة.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-Methotrexate is an antineoplastic/cytotoxic agent (confirmed by the mechanistic rationale in this evidence pack — DHFR inhibitor used across multiple oncologic predicted indications — and by its established use in hematologic malignancy chemotherapy regimens documented above).
+### الترتيب 2 — لمفومة رئوية ابتدائية (10 تجارب مصنفة؛ تجارب إضافية معلقة على تصنيف الملاءمة، غير معروضة)
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Antifolate / dihydrofolate reductase inhibitor class) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|---------|--------|---------|----------|
+| [NCT00916630](https://clinicaltrials.gov/study/NCT00916630) | Phase 1 | مكتملة | 18 | Pemetrexed (مضادة للفولات، ذات صلة بـ MTX) في اللمفومة العصبية المتكررة — ذات صلة من حيث الآلية لكن دواء مختلف وعضو (الجهاز العصبي المركزي، وليس الرئة)؛ ملاءمة الدرجة B |
+| [NCT00013533](https://clinicaltrials.gov/study/NCT00013533) | Early Phase 1 | مكتملة | 30 | زرع الأنسجة غير المُبيّض HLA-matched للأطفال ذوي الأمراض الخبيثة الدموية بشكل عام؛ ليس خاص باللمفومة |
+| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A | التجنيد جارٍ | 840 | دراسة المؤشرات الحيوية الرصدية عبر أمراض جلدية وسيطة مناعية؛ ليست دراسة فعالية تدخلية |
+| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Phase 1/2 | مكتملة | 147 | Busulfan/fludarabine/TBI زرع غير مُبيّض للأمراض الخبيثة الدموية بشكل عام |
+| [NCT00448201](https://clinicaltrials.gov/study/NCT00448201) | Phase 2 | مكتملة | 71 | زرع أليجيني مكثف منخفض الشدة للمرضى غير الأهلين للعلاج المكثف |
+| [NCT02911142](https://clinicaltrials.gov/study/NCT02911142) | Phase 1/2 | نشط، غير مجند | 17 | Lenalidomide + modified DA-EPOCH-R للمفومة الانصباب الأولية؛ النظام الغذائي لا يشمل بوضوح MTX |
+| [NCT00051311](https://clinicaltrials.gov/study/NCT00051311) | Phase 2 | مكتملة | 62 | EPOCH-F/R induction + زرع غير مُبيّض منخفض الشدة مع cyclosporine/MTX GVHD prophylaxis |
+| [NCT02345850](https://clinicaltrials.gov/study/NCT02345850) | Phase 3 | مكتملة | 346 | GVHD prophylaxis خالي من مثبط الكالسينورين مقابل tacrolimus/MTX؛ MTX مستخدم للنبوءة، ليس لعلاج اللمفومة |
+| [NCT01338987](https://clinicaltrials.gov/study/NCT01338987) | Phase 2 | مكتملة | 76 | Lupron لتعزيز إعادة البناء اللمفاوي بعد الزرع؛ ليست بيانات فعالية MTX |
+| [NCT03959241](https://clinicaltrials.gov/study/NCT03959241) | Phase 3 | مكتملة | 431 | Tacrolimus/MTX مقابل نظام post-transplant cyclophosphamide لـ GVHD prophylaxis |
+
+**التقييم الإجمالي**: لا توجد تجربة تقيّم مباشرة ميثوتريكسيت كعلاج للمفومة رئوية ابتدائية؛ أقوى الدعم ذو الصلة يأتي من أدلة فئة مضادات الفولات في اللمفومة العصبية (الدرجة B) والدور المؤكد لـ MTX في نبوءة GVHD المتعلقة بالزرع لمرضى اللمفومة.
+
+### الترتيب 3 — سرطان الرئة صغير الخلايا (10 تجارب مصنفة؛ 3 تجارب إضافية معلقة على تصنيف الملاءمة، غير معروضة)
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|---------|--------|---------|----------|
+| [NCT03520842](https://clinicaltrials.gov/study/NCT03520842) | Phase 2 | مكتملة | 22 | Regorafenib + ميثوتريكسيت عن طريق الفم في NSCLC المُطفر KRAS — Phase II مع بيانات فعالية MTX الفعلية، لكن NSCLC وليس SCLC؛ الدرجة B |
+| [NCT00743379](https://clinicaltrials.gov/study/NCT00743379) | Phase 1/2 | مكتملة | 71 | TH-302 + gemcitabine/docetaxel/pemetrexed زيادة الجرعات عبر البنكرياس/البروستاتا/NSCLC |
+| [NCT03101579](https://clinicaltrials.gov/study/NCT03101579) | Phase 1 | مكتملة | 13 | Pemetrexed داخل الفراغ السحائي لـ NSCLC leptomeningeal metastasis |
+| [NCT04747912](https://clinicaltrials.gov/study/NCT04747912) | Phase 2 | معلقة | 25 | الحث الخالي من العلاج الكيميائي لـ Ph+ ALL؛ غير متعلق بـ SCLC |
+| [NCT04356222](https://clinicaltrials.gov/study/NCT04356222) | Phase 4 | غير معروف | 30 | Durvalumab + chemo داخل الفراغ السحائي لـ NSCLC leptomeningeal metastasis |
+| [NCT02385110](https://clinicaltrials.gov/study/NCT02385110) | Phase 2 | مكتملة | 18 | Alemtuzumab/tocilizumab + etoposide/dexamethasone لـ HLH؛ غير متعلق بـ SCLC |
+| [NCT07156604](https://clinicaltrials.gov/study/NCT07156604) | Phase 2 | لم تبدأ التجنيد بعد | 30 | Vebreltinib العلاج المسبق لـ NSCLC MET-exon-14-skipping |
+| [NCT04356118](https://clinicaltrials.gov/study/NCT04356118) | Phase 4 | غير معروف | 30 | الإندوستاتين البشري المعاد الهندسة الوراثية لـ NSCLC leptomeningeal metastasis |
+| [NCT00354393](https://clinicaltrials.gov/study/NCT00354393) | Phase 2 | مكتملة | 9 | العلاج متعدد الأشكال (بما فيه MTX) لورم البريتوان الخبيث |
+| [NCT03537833](https://clinicaltrials.gov/study/NCT03537833) | N/A | مكتملة | 172 | ارتباط مثبط المضخة الحمضية مع سمية pemetrexed الدموية؛ السلامة، وليس الفعالية |
+
+**التقييم الإجمالي**: فقط تجربة واحدة (الدرجة B) توفر بيانات فعالية MTX مباشرة، وهي في NSCLC وليس SCLC. أدلة SCLC-محددة تاريخية توجد فقط في أدبيات أقدم (انظر أدناه)؛ معيار رعاية SCLC الحالي انتقل إلى platinum-etoposide.
+
+### الترتيب 5 — لمفومة هودجكن (10 تجارب مصنفة؛ ~37 تجارب إضافية معلقة على تصنيف الملاءمة، غير معروضة)
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|---------|--------|---------|----------|
+| [NCT01746992](https://clinicaltrials.gov/study/NCT01746992) | Phase 4 | غير معروف | 200 | CTOP/ITE/MTX مقابل CHOP كعلاج من الدرجة الأولى لـ T-cell non-Hodgkin lymphoma المُشخصة حديثاً؛ مقارنة عشوائية تضمن جناح MTX |
+| [NCT05583071](https://clinicaltrials.gov/study/NCT05583071) | Phase 2 | التجنيد جارٍ | 20 | MTX + tafasitamab + lenalidomide + rituximab لمرضى اللمفومة المركزية العصبية الأولية غير المؤهلين للزرع |
+| [NCT03602898](https://clinicaltrials.gov/study/NCT03602898) | Phase 2 | منسحبة (التسجيل 0) | 0 | ATG/post-transplant cyclophosphamide مقابل calcineurin-inhibitor/MTX GVHD prophylaxis |
+| [NCT01789255](https://clinicaltrials.gov/study/NCT01789255) | Phase 2 | مكتملة | 12 | Vorinostat + tacrolimus + MTX لمنع GVHD بعد الزرع |
+| [NCT00521430](https://clinicaltrials.gov/study/NCT00521430) | N/A | مكتملة | 30 | زرع haploidentical غير متخصص من T-cell بعد تكييف محدود الشدة |
+| [NCT01181271](https://clinicaltrials.gov/study/NCT01181271) | Phase 2 | مكتملة | 42 | متسلسل الزرع الذاتي → زرع أليجيني غير مُبيّض لـ poor-risk lymphoma |
+| [NCT00003650](https://clinicaltrials.gov/study/NCT00003650) | Phase 3 | مكتملة | 179 | العلاج الكيميائي المزدوج في الأطفال مع T-cell/pre-B-cell NHL |
+| [NCT00612716](https://clinicaltrials.gov/study/NCT00612716) | Phase 2 | مكتملة | 6 | زرع أليجيني غير ذي صلة/متطابق جزئياً لـ lymphoma, myeloma, CLL |
+| [NCT04283955](https://clinicaltrials.gov/study/NCT04283955) | N/A | مكتملة | 93 | دراسة جماعية رجعية: تعدد MTHFR والسمية MTX جرعة عالية في pediatric NHL |
+| [NCT00221325](https://clinicaltrials.gov/study/NCT00221325) | Phase 1 | مكتملة | 14 | Rituximab داخل بطين + MTX لـ recurrent CNS/intraocular lymphoma |
+
+**التقييم الإجمالي**: أقوى أدلة مباشرة هي مقارنة عشوائية Phase IV لنظام يحتوي على MTX (CTOP/ITE/MTX) مقابل CHOP، رغم أنها محصورة في T-cell NHL بشكل عام وليس هودجكن اللمفومة الكلاسيكية بشكل محدد. الأدبيات الداعمة (أدناه) توفر بيانات تجارب تاريخية أكثر تحديداً لـ Hodgkin (نظام VBM).
+
+### الترتيب 6 — الورم العضلي الليفي الجنيني (4 تجارب، جميعها مصنفة)
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|---------|--------|---------|----------|
+| [NCT00357084](https://clinicaltrials.gov/study/NCT00357084) | Phase 2 | مكتملة | 53 | Methotrexate + glucocorticoids للـ GVHD الحاد المُشخص حديثاً بعد زرع غير مُبيّض؛ بيانات فعالية/تحمل MTX مباشرة، الدرجة A relevance |
+| [NCT00253552](https://clinicaltrials.gov/study/NCT00253552) | N/A | توقفت | 4 | دراسة تجريبية زرع نخاع عظمي HLA-matched primed filgrastim |
+| [NCT00003273](https://clinicaltrials.gov/study/NCT00003273) | Phase 2 | منسحبة (التسجيل 0) | 0 | العلاج الكيميائي ذو الجرعة المكثفة لأورام الدماغ الخبيثة لدى الأطفال |
+| [NCT00112645](https://clinicaltrials.gov/study/NCT00112645) | Phase 1 | مكتملة | 10 | دراسة سمية الزرع الأليجيني للأورام الصلبة الحميدة المتكررة/المقاومة لدى الأطفال |
+
+**التقييم الإجمالي**: أدلة التجارب المحددة والعملية للورم العضلي الليفي الجنيني محدودة في قاعدة بيانات المحاكمات المسجلة؛ أقوى الأدلة الداعمة لهذا المؤشر تأتي من الأدبيات التاريخية (تجربة Phase II لدى الأطفال لـ MTX، أدناه).
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+### الترتيب 2 — لمفومة رئوية ابتدائية (10 منشورات مصنفة؛ 9 منشورات إضافية معلقة على التصنيف، غير معروضة)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|----------|
+| [30842385](https://pubmed.ncbi.nlm.nih.gov/30842385/) | 2019 | دراسة جماعية | Rinsho Ketsueki | تحليل البقاء بأثر رجعي لمرضى PCNSL المعاملين بـ high-dose MTX + rituximab |
+| [11244328](https://pubmed.ncbi.nlm.nih.gov/11244328/) | 2001 | دراسة جماعية | Oncology | High-dose MTX + vincristine + procarbazine بدون chemo داخل الفراغ السحائي، يليه consolidation RT، لـ PCNSL |
+| [15747120](https://pubmed.ncbi.nlm.nih.gov/15747120/) | 2005 | دراسة جماعية | Annals of Hematology | Modified ProMACE-MOPP regimen مع moderate-dose MTX لـ PCNSL |
+| [29931605](https://pubmed.ncbi.nlm.nih.gov/29931605/) | 2018 | مراجعة | Curr Treat Options Oncol | الميزات الجزيئية وخطر تكرار CNS من DLBCL السرعي بموقع أساسي |
+| [41485126](https://pubmed.ncbi.nlm.nih.gov/41485126/) | 2026 | مراجعة | Cancer | نظام مثبط BTK/PD-1 من الدرجة الأولى باستثناء ميثوتريكسيت لـ PCNSL |
+| [32590768](https://pubmed.ncbi.nlm.nih.gov/32590768/) | 2020 | تقرير حالة | Medicine | حالتا اللمفومة NK/T-cell السرعية الرئوية الخارجية، النوع الأنفي |
+| [40283500](https://pubmed.ncbi.nlm.nih.gov/40283500/) | 2025 | تقرير حالة | J Clin Med | انصباب تامور ضخم/PE الثانوي لـ NHL mediastinal أساسي في الحمل |
+| [38720609](https://pubmed.ncbi.nlm.nih.gov/38720609/) | 2024 | تقرير حالة | Kyobu Geka | DLBCL رئوي أساسي ناجم عن اضطراب لمفاوي مرتبط بـ ميثوتريكسيت، يحاكي سرطان الرئة المتقدم |
+| [35831185](https://pubmed.ncbi.nlm.nih.gov/35831185/) | 2022 | تقرير حالة | Rinsho Ketsueki | لمفومة الخلايا الكبيرة غير الكلاسيكية الجلدية الأولية الاستجابة لـ low-dose MTX |
+| [30076020](https://pubmed.ncbi.nlm.nih.gov/30076020/) | 2018 | تقرير حالة | Am J Otolaryngol | عواقب ما بعد المعالجة للمفومة NK/T-cell الحنجري الأساسي |
+
+### الترتيب 3 — سرطان الرئة صغير الخلايا (10 منشورات مصنفة؛ 10 منشورات إضافية معلقة على التصنيف، غير معروضة)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|----------|
+| [2983855](https://pubmed.ncbi.nlm.nih.gov/2983855/) | 1985 | دراسة جماعية | Cancer | MTX + high-dose vincristine مضافة لنظام CAV مع العلاج الإشعاعي في 50 مريض SCLC قابل للتقييم؛ إضافة MTX لم تحسّن الاستجابة |
+| [232239](https://pubmed.ncbi.nlm.nih.gov/232239/) | 1979 | دراسة جماعية | Med Pediatr Oncol | Cyclophosphamide/adriamycin + cytosine arabinoside + العلاج الإشعاعي بروتوكول بما في ذلك chemo الصيانة في SCLC |
+| [1666468](https://pubmed.ncbi.nlm.nih.gov/1666468/) | 1991 | دراسة جماعية | Tumori | CCNU + MTX salvage chemotherapy في 34 مريض SCLC مقاوم لـ CAV/PE؛ معدل استجابة موضوعية 21.2% |
+| [6280794](https://pubmed.ncbi.nlm.nih.gov/6280794/) | 1982 | دراسة جماعية | Bull Cancer | CALGB experience: cyclophosphamide ± MTX ± vincristine regimens في SCLC؛ لا فرق بقاء معنوي بين الأذرع |
+| [32152484](https://pubmed.ncbi.nlm.nih.gov/32152484/) | 2020 | مراجعة | Nat Rev Clin Oncol | Folate receptor α كهدف مضاد للسرطان، يوضح آلية MTX/pemetrexed مضادة للفولات في الرئة والأورام الصلبة الأخرى |
+| [205153](https://pubmed.ncbi.nlm.nih.gov/205153/) | 1978 | مراجعة | Ann Intern Med | نظرة عامة على إدارة SCLC العلاجية بما في ذلك عصر العلاج الكيميائي المزدوج |
+| [6282790](https://pubmed.ncbi.nlm.nih.gov/6282790/) | 1982 | مراجعة | Int J Radiat Oncol Biol Phys | دور الإشعاع الصدري/الجمجمي مزدوج مع العلاج الكيميائي في SCLC |
+| [7921445](https://pubmed.ncbi.nlm.nih.gov/7921445/) | 1994 | دراسة جماعية | Am J Respir Crit Care Med | immunoconjugate KS1/4-methotrexate مدروسة في 11 مريض NSCLC متقدم؛ بيانات السمية زيادة الجرعات |
+| [32888268](https://pubmed.ncbi.nlm.nih.gov/32888268/) | 2021 | ما قبل السريرية | Curr Top Med Chem | صيغة nanodispersion صلبة لتحسين الذوبان/التوفر الحيوي لـ MTX لعلاج SCLC |
+| [25879815](https://pubmed.ncbi.nlm.nih.gov/25879815/) | 2015 | تقرير حالة | Am J Case Rep | Meningeal carcinomatosis من NSCLC الاستجابة لـ salvage intrathecal etoposide بعد فشل MTX من الدرجة الأولى |
+
+### الترتيب 5 — لمفومة هودجكن (10 منشورات مصنفة؛ 10 منشورات إضافية معلقة على التصنيف، غير معروضة)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|----------|
+| [14635074](https://pubmed.ncbi.nlm.nih.gov/14635074/) | 2003 | RCT | Cancer | Gruppo Italiano Studio Linfomi trial: VBM (vinblastine/bleomycin/MTX) chemotherapy + irradiation لـ early-stage favorable Hodgkin lymphoma |
+| [21592816](https://pubmed.ncbi.nlm.nih.gov/21592816/) | 2012 | مراجعة | Crit Rev Oncol Hematol | مراجعة 9 تجارب صغيرة من VBM + involved-field radiotherapy لـ early-stage Hodgkin lymphoma: 94–100% complete remission، 75–95% 5-year PFS، لكن سمية رئوية ملحوظة |
+| [35848760](https://pubmed.ncbi.nlm.nih.gov/35848760/) | 2022 | دراسة جماعية | Am J Surg Pathol | 9p24.1 alteration و PD-L1 expression مقارن عبر de novo وـ MTX-associated EBV+ classical Hodgkin lymphoma |
+| [8635099](https://pubmed.ncbi.nlm.nih.gov/8635099/) | 1996 | دراسة جماعية | Cancer | IVAM (ifosfamide/etoposide/cytarabine/MTX) salvage chemotherapy في relapsed/refractory aggressive NHL |
+| [7653488](https://pubmed.ncbi.nlm.nih.gov/7653488/) | 1995 | دراسة جماعية | Am J Med | دراسة بأثر رجعي للأمراض الخبيثة الدموية (بما في ذلك اللمفومة) المرتبطة بـ استخدام MTX في التهاب المفاصل الروماتويدي |
+| [28380678](https://pubmed.ncbi.nlm.nih.gov/28380678/) | 2017 | دراسة جماعية | Cancer Science | مقارنة سريرية-مرضية لـ MTX-associated DLBCL مقابل أنواع classical Hodgkin lymphoma |
+| [11368287](https://pubmed.ncbi.nlm.nih.gov/11368287/) | 2001 | مراجعة | Drugs | مراجعة Bendamustine مع ملاحظة 61–97% معدلات الاستجابة في أنظمة مزدوجة Hodgkin/NHL |
+| [12967352](https://pubmed.ncbi.nlm.nih.gov/12967352/) | 2003 | مراجعة | Clinical Evidence | مراجعة أدلة معاملة non-Hodgkin lymphoma |
+| [16467107](https://pubmed.ncbi.nlm.nih.gov/16467107/) | 2006 | ما قبل السريرية | Clin Cancer Res | Pralatrexate + gemcitabine superior لـ MTX + cytarabine في نماذج ما قبل السريرية NHL |
+| [24246254](https://pubmed.ncbi.nlm.nih.gov/24246254/) | 2014 | تقرير حالة | J Oral Maxillofac Surg | EBV+ oral ulceration محاكاة Hodgkin lymphoma في مريض على MTX therapy |
+
+### الترتيب 6 — الورم العضلي الليفي الجنيني (10 منشورات مصنفة؛ 10 منشورات إضافية معلقة على التصنيف، غير معروضة)
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|----------|
+| [9329466](https://pubmed.ncbi.nlm.nih.gov/9329466/) | 1997 | RCT | J Pediatr Hematol Oncol | Phase II trial من high-dose MTX في الأطفال/المراهقين غير المعاملين سابقاً مع رابدومايوسركوما عالية الخطورة غير قابلة للاستئصال أو منتشرة |
+| [36614297](https://pubmed.ncbi.nlm.nih.gov/36614297/) | 2023 | دراسة جماعية | Int J Mol Sci | نظام BOMP-EPI (bleomycin/vincristine/MTX/cisplatin alternating مع etoposide/cisplatin/ifosfamide) في 10 مرضى RMS بالغين متكررين/منتشرين |
+| [3475644](https://pubmed.ncbi.nlm.nih.gov/3475644/) | 1987 | دراسة جماعية | Oncology | Doxorubicin أسبوعي + مزيج MTX في 55 مريض الساركوما؛ معدل استجابة موضوعية 28% عند مستويات جرعات أعلى |
+| [22156656](https://pubmed.ncbi.nlm.nih.gov/22156656/) | 2011 | دراسة جماعية | Oncotarget | دراسة تجريبية من metronomic pediatric 4-drug regimen |
+| [9862574](https://pubmed.ncbi.nlm.nih.gov/9862574/) | 1998 | دراسة جماعية | Br J Cancer | العلاج الكيميائي المساعد (بما في ذلك مرضى الورم العضلي الليفي الجنيني) لساركوما القلب الأساسية المستأصلة |
+| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | مراجعة | Cancer | قيمة العلاج الكيميائي المساعد في ساركوماس الأطفال، بما في ذلك الورم العضلي الليفي الجنيني |
+| [38323945](https://pubmed.ncbi.nlm.nih.gov/38323945/) | 2024 | مراجعة | Int J Radiat Oncol Biol Phys | مراجعة PENTEC لعوامل خطر myelopathy الإشعاعي في مرضى السرطان لدى الأطفال |
+| [9039735](https://pubmed.ncbi.nlm.nih.gov/9039735/) | 1996 | مراجعة | Br Med Bull | نظرة عامة على الخلافات في إدارة ساركوما الطفولة |
+| [2811561](https://pubmed.ncbi.nlm.nih.gov/2811561/) | 1989 | تقرير حالة | Laryngoscope | الورم العضلي الليفي الجنيني من الأذن والعظم الصدغي المعالج بـ multimodality therapy |
+| [2451411](https://pubmed.ncbi.nlm.nih.gov/2451411/) | 1987 | تقرير حالة | Hinyokika Kiyo | حالة ساركوما بروستاتية مقاومة مدارة مع العلاج الكيميائي المزدوج |
+
+### المؤشرات التي لا توجد بها أدلة تجارب سريرية أو أدبيات
+
+الورم الأرومي الرئوي، الغدية الجنينية المتميزة بشكل جيد في الرئة، CLL/SLL ما قبل المركز الجرثومي، CLL/SLL مع فرط الطفرة IGHV، الورم العضلي الليفي الجنيني من جانب السحايا، والورم العضلي الليفي الجنيني من نوع الزيتون في المهبل حالياً ليس لديها **أي تجارب سريرية مرتبطة أو أدبيات مسجلة**.
 
 ---
 
-## Conclusion and Next Steps
+## السمية
 
-**Decision: Proceed with Guardrails** (for Hodgkin's lymphoma and rhabdomyosarcoma only) **/ Research Question** (primary pulmonary lymphoma) **/ Hold** (small cell lung carcinoma and the six evidence-free candidates)
+ميثوتريكسيت هو عامل مضاد للأورام/سام للخلايا (أكد من المبرر الآلي في هذه مجموعة الأدلة — مثبط DHFR المستخدم عبر مؤشرات الاستخدام الأورامية المتنبأ بها المتعددة — وبـ استخدامه المعروف في أنظمة العلاج الكيميائي بالأمراض الخبيثة الدموية الموثقة أعلاه).
 
-**Rationale:**
-- **Hodgkin's lymphoma** and **rhabdomyosarcoma** (L2, S2) each have a genuine Phase-level clinical trial history plus RCT/cohort-grade literature supporting MTX use, even though neither is a current first-line standard — these merit guarded advancement with updated evidence review.
-- **Primary pulmonary lymphoma** (L4, S1) has only mechanism-adjacent evidence (antifolate class data in CNS lymphoma) and warrants a defined research question rather than immediate progression.
-- **Small cell lung carcinoma** (L3, S1) evidence is real but 30–45 years old and reflects regimens superseded by platinum-etoposide; not actionable without contemporary data.
-- The remaining six candidates (L5, S0) are pure knowledge-graph extrapolations with zero clinical or literature support and should remain on Hold.
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية | سام خلوي التقليدي (مضاد للفولات / فئة مثبط ديهيدروفولات ريداكتيز) |
+| خطر تثبيط نخاع العظم | يرجى الرجوع إلى تحذيرات ومحاذير النشرة الطبية |
+| تصنيف الاستحثاث الغثياني | يرجى الرجوع إلى تحذيرات ومحاذير النشرة الطبية |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات ومحاذير النشرة الطبية |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات ومحاذير النشرة الطبية |
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001) that prevents any S1 safety pre-assessment for the entire candidate set
-- Confirmed drug-mechanism-of-action data from DrugBank — currently a **High**-severity data gap (DG002)
-- Drug-drug interaction (DDI) data — current query status is "not found"
-- Route-of-administration and dosage-form compatibility assessment (all 10 candidates show `route_compatibility.status: pending`)
-- For the two Guardrails candidates: a contemporary literature/guideline review to confirm whether MTX still has a defensible clinical role given that ABVD (Hodgkin) and VAC (rhabdomyosarcoma) are now first-line standards
-- Taiwan market/licensing data verification, since the current record shows methotrexate as unmarketed in Taiwan with zero authorizations, which should be re-confirmed given its broad global availability
+---
+
+## الاعتبارات الأمانية
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الحماية الدارعة** (لـ لمفومة هودجكن والورم العضلي الليفي الجنيني فقط) **/ سؤال البحث** (لمفومة رئوية ابتدائية) **/ انتظار** (سرطان الرئة صغير الخلايا والستة مرشحين خاليين من الأدلة)
+
+**المبرر:**
+- **لمفومة هودجكن** و**الورم العضلي الليفي الجنيني** (L2, S2) لكل منهما تاريخ تجربة سريرية حقيقية على مستوى Phase بالإضافة إلى أدبيات دعم من نوع RCT/دراسة جماعية تدعم استخدام MTX، حتى وإن كان كلا منهما ليس معياراً من الدرجة الأولى الحالي — هذه تستحق تقدماً محروساً مع مراجعة أدلة محدثة.
+- **لمفومة رئوية ابتدائية** (L4, S1) لديها فقط أدلة مجاورة من حيث الآلية (بيانات فئة مضادات الفولات في اللمفومة العصبية) وتضمن سؤال بحث معرّف بدلاً من التقدم الفوري.
+- **سرطان الرئة صغير الخلايا** (L3, S1) الأدلة حقيقية لكن 30–45 سنة قديمة وتعكس أنظمة غير معمول بها من قبل platinum-etoposide؛ غير قابلة للتطبيق بدون بيانات معاصرة.
+- المرشحات الستة المتبقية (L5, S0) هي استقراءات شبكة معرفات بحتة بدون دعم سريري أو أدبي وينبغي أن تبقى في الانتظار.
+
+**لكي تتقدم، يلزم التالي:**
+- TFDA نشرة طبية (تحذيرات، موانع استعمال) — حالياً **فجوة بيانات حجب** (DG001) تمنع أي تقييم أمان S1 قبل لكل مجموعة المرشحين
+- بيانات آلية عمل الدواء المؤكدة من DrugBank — حالياً **فجوة بيانات عالية الشدة** (DG002)
+- بيانات تفاعل الدواء بالدواء (DDI) — حالة الاستعلام الحالي هي "غير موجود"
+- تقييم توافق الطريق الإداري وشكل الجرعة (جميع 10 المرشحين يظهرون `route_compatibility.status: pending`)
+- للمرشحين الحماية الدارعة الاثنين: مراجعة أدبيات/إرشادات معاصرة لتأكيد ما إذا كان MTX لا يزال لديه دور سريري مدافع عنه بالنظر إلى أن ABVD (Hodgkin) و VAC (الورم العضلي الليفي الجنيني) الآن معايير الدرجة الأولى
+- التحقق من بيانات السوق/الترخيص في تايوان، بما أن السجل الحالي يظهر ميثوتريكسيت غير مسوق في تايوان بدون تفويضات، والتي يجب إعادة تأكيدها بالنظر إلى توفره العالمي الواسع
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

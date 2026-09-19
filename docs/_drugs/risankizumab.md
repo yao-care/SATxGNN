@@ -29,93 +29,94 @@ indication_count: 10
 
 </div>
 
-# Risankizumab: From Psoriasis to Dermatitis
+# risankizumab (ريسانكيزوماب): من الصدفية إلى التهاب الجلد
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Risankizumab is a humanised IgG monoclonal antibody targeting the p19 subunit of IL-23, first approved (in Japan and subsequently other markets) for psoriasis vulgaris, psoriatic arthritis, generalized pustular psoriasis, and erythrodermic psoriasis. The TxGNN model predicts it may be effective for **Dermatitis**, with **7 clinical trials** and **17 publications** currently supporting this direction — including one completed Phase 2 RCT specifically in moderate-to-severe atopic dermatitis.
+risankizumab هو جسم مضاد أحادي النسيلة إنساني من فئة IgG يستهدف وحدة p19 من IL-23، تمت الموافقة عليه أولاً (في اليابان ولاحقاً في أسواق أخرى) لعلاج الصدفية الشائعة والتهاب المفاصل الصدفي والصدفية البثرية المعممة والصدفية الحمراء. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الجلد**، مع وجود **7 تجارب سريرية** و**17 منشوراً علمياً** يدعم هذا الاتجاه حالياً — بما في ذلك تجربة عشوائية منضبطة بالعلاج الوهمي من المرحلة 2 المكتملة بشكل محدد في التهاب الجلد التأتبي المعتدل إلى الشديد.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Psoriasis vulgaris, psoriatic arthritis, generalized pustular psoriasis, erythrodermic psoriasis (approved in Japan/other markets per literature; no formal Saudi regulatory record on file) |
-| Predicted New Indication | Dermatitis (chronic immune-mediated inflammatory skin disease, primarily atopic dermatitis) |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الصدفية الشائعة، التهاب المفاصل الصدفي، الصدفية البثرية المعممة، الصدفية الحمراء (معتمد في اليابان وأسواق أخرى وفقاً للأدبيات؛ لا توجد سجلات تنظيمية رسمية سعودية في الملف) |
+| الاستطباب الجديد المتنبأ به | التهاب الجلد (مرض جلدي التهابي معقد مزمن، بشكل أساسي التهاب الجلد التأتبي) |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مطروح في السوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Risankizumab is a humanised IgG monoclonal antibody that selectively targets the p19 subunit of interleukin-23 (IL-23), blocking downstream Th17-mediated inflammatory signaling. This mechanism was established for psoriasis, where IL-23/Th17 pathway activation drives keratinocyte hyperproliferation and plaque formation.
+risankizumab هو جسم مضاد أحادي النسيلة إنساني يستهدف بشكل انتقائي وحدة p19 من الإنترلوكين-23 (IL-23)، مما يحجب الإشارات الالتهابية اللاحقة المعتمدة على Th17. تم إنشاء هذه الآلية للصدفية، حيث يؤدي تنشيط مسار IL-23/Th17 إلى فرط تكاثر الكيراتينوسيت وتكوين الرقع.
 
-Atopic dermatitis (AD), while classically associated with Th2/Th22 pathways, has increasingly been shown to involve a Th17 inflammatory component in a meaningful subset of patients, particularly in chronic and lichenified lesions. This shared pathway between psoriasis and AD provides a mechanistic rationale for evaluating IL-23 blockade in dermatitis, distinct from psoriasis-specific plaque disease.
+التهاب الجلد التأتبي (AD)، وإن ارتبط بشكل كلاسيكي بمسارات Th2/Th22، تم إظهار اشتراكه بشكل متزايد في مكون التهاب Th17 بشكل ذي مغزى في مجموعة فرعية من المرضى، خاصة في الآفات المزمنة والمتليّنة. يوفر هذا المسار المشترك بين الصدفية والتهاب الجلد التأتبي ما يبرر من الناحية الآلية تقييم حجب IL-23 في التهاب الجلد، وهو ما يختلف عن مرض الرقع المرتبط بالصدفية بشكل محدد.
 
-This rationale is directly supported by a completed Phase 2, randomized, double-blind, placebo-controlled trial (NCT03706040) evaluating risankizumab in moderate-to-severe AD in adults and adolescents, reinforcing that the TxGNN signal is grounded in an actual mechanistic and clinical investigation rather than a purely graph-derived association.
+يتم دعم هذا المنطق بشكل مباشر من قبل تجربة عشوائية منضبطة بالعلاج الوهمي من المرحلة 2 المكتملة (NCT03706040) التي تقيّم risankizumab في التهاب الجلد التأتبي المعتدل إلى الشديد لدى البالغين والمراهقين، مما يعزز أن إشارة TxGNN مدعومة بتحقيق بيولوجي وسريري فعلي بدلاً من مجرد ارتباط مشتق من الرسم البياني.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | العدد المسجل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | Completed | 172 | Randomized, double-blind, placebo-controlled study of risankizumab safety/efficacy in moderate-to-severe atopic dermatitis in adults and adolescents |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A (Observational) | Recruiting | 840 | Real-world biomarker profiling study covering six immune-mediated inflammatory skin diseases, including atopic dermatitis, plaque psoriasis, HS, MF, CSU, and CLE (NGID initiative) |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Microdevice-based intradermal testing of FDA-approved atopic dermatitis and psoriasis medications, including risankizumab |
-| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Phase 4 | Completed | 214 | Randomized, double-blind study of risankizumab in moderate-to-severe genital or scalp psoriasis (original-indication support trial) |
-| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Phase 4 | Completed | 352 | Risankizumab vs. apremilast in moderate plaque psoriasis (original-indication support trial) |
-| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A (Observational) | Completed | 240 | Taiwan prospective cohort comparing durability of risankizumab vs. other biologics by PASI 90 response in moderate-to-severe plaque psoriasis |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A (Observational) | Completed | 1000 | Retrospective pharmacogenetic study on 10-year biologic therapy survival in cutaneous psoriasis with/without psoriatic arthritis |
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | مكتملة | 172 | دراسة عشوائية منضبطة بالعلاج الوهمي لسلامة وفعالية risankizumab في التهاب الجلد التأتبي المعتدل إلى الشديد لدى البالغين والمراهقين |
+| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A (دراسة مراقبة) | تجند حالياً | 840 | دراسة تحديد ملامح المؤشرات الحيوية في الواقع الفعلي تغطي ستة أمراض جلدية التهابية معقدة مناعياً، بما في ذلك التهاب الجلد التأتبي والصدفية الرقعية والخراجات الجلدية والفطار الفطراني والشرى الشديد والذئبة الحمراء (مبادرة NGID) |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | لم يبدأ التجنيد بعد | 10 | اختبار داخل الأدمة المعتمد على الأجهزة الدقيقة للأدوية المعتمدة من قبل إدارة الغذاء والدواء الأمريكية لعلاج التهاب الجلد التأتبي والصدفية، بما في ذلك risankizumab |
+| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Phase 4 | مكتملة | 214 | دراسة عشوائية منضبطة بالعلاج الوهمي لrisankizumab في الصدفية المعتدلة إلى الشديدة في الأعضاء التناسلية أو فروة الرأس (تجربة دعم الاستطباب الأصلي) |
+| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Phase 4 | مكتملة | 352 | risankizumab مقابل apremilast في الصدفية الرقعية المعتدلة (تجربة دعم الاستطباب الأصلي) |
+| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A (دراسة مراقبة) | مكتملة | 240 | دراسة وبائية مستقبلية تايوانية تقارن استدامة risankizumab مقابل البيولوجيات الأخرى حسب PASI 90 في الصدفية الرقعية المعتدلة إلى الشديدة |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A (دراسة مراقبة) | مكتملة | 1000 | دراسة تحليل الأدوية الوراثي بأثر رجعي حول بقاء العلاج البيولوجي لمدة 10 سنوات في الصدفية الجلدية مع أو بدون التهاب المفاصل الصدفي |
 
 ---
 
-## Literature Evidence
+## أدلة من الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Phase 2 randomized, double-blind, placebo-controlled study of risankizumab in moderate-to-severe atopic dermatitis, supporting IL-23/IL-22 blockade rationale in AD |
-| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Drug Approval Review | Drugs | Summarizes risankizumab's first global approval (Japan) for psoriasis vulgaris, psoriatic arthritis, generalized pustular psoriasis, and erythrodermic psoriasis |
-| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systematic Review | American Journal of Clinical Dermatology | Reviews systemic therapies, including IL-23 inhibitors, for erythrodermic psoriasis, a severe inflammatory skin variant |
-| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systematic Review | Inflammopharmacology | Evaluates IL-23/IL-17 pathway inhibitors, including therapeutic and paradoxical cutaneous effects, in lichen planus |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Narrative Review | Children (Basel, Switzerland) | Reviews biologics and targeted therapies, including IL-23 inhibitors, for pediatric psoriasis and atopic dermatitis |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Review | Expert Opinion on Biological Therapy | Reviews emerging biologics, including IL-23 inhibitors, for pediatric atopic dermatitis |
-| [38607726](https://pubmed.ncbi.nlm.nih.gov/38607726/) | 2024 | Review | Military Medicine | Reappraises systemic immunomodulators, including IL-23 inhibitors, for psoriasis and eczema management |
-| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | Retrospective Cohort | Experimental Dermatology | Single-center longitudinal study of risankizumab treatment response in patients with history of erythrodermic psoriasis |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Case Series | International Journal of Dermatology | Reports effectiveness and safety of combined dupilumab and risankizumab in patients with concomitant atopic dermatitis and psoriasis |
-| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | Case Report | Journal of Dermatological Treatment | Acrodermatitis continua of Hallopeau successfully and rapidly treated with risankizumab in an elderly patient |
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | تجربة عشوائية | Dermatology and Therapy | دراسة عشوائية منضبطة بالعلاج الوهمي من المرحلة 2 لrisankizumab في التهاب الجلد التأتبي المعتدل إلى الشديد، مما يدعم منطق حجب IL-23/IL-22 في التهاب الجلد التأتبي |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | مراجعة الموافقة على الدواء | Drugs | يلخص أول موافقة عالمية على risankizumab (اليابان) للصدفية الشائعة والتهاب المفاصل الصدفي والصدفية البثرية المعممة والصدفية الحمراء |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | مراجعة منهجية | American Journal of Clinical Dermatology | تستعرض العلاجات الجهازية، بما في ذلك مثبطات IL-23، للصدفية الحمراء، وهي متغير جلدي التهابي شديد |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | مراجعة منهجية | Inflammopharmacology | تقيّم مثبطات مسار IL-23/IL-17، بما في ذلك التأثيرات الجلدية العلاجية والمتناقضة، في الحزاز المسطح |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | مراجعة سردية | Children (Basel, Switzerland) | تستعرض البيولوجيات والعلاجات الموجهة، بما في ذلك مثبطات IL-23، للصدفية وأمراض الجلد التأتبي عند الأطفال |
+| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | مراجعة | Expert Opinion on Biological Therapy | تستعرض البيولوجيات الناشئة، بما في ذلك مثبطات IL-23، لالتهاب الجلد التأتبي عند الأطفال |
+| [38607726](https://pubmed.ncbi.nlm.nih.gov/38607726/) | 2024 | مراجعة | Military Medicine | تعيد تقييم المثبطات المناعية الجهازية، بما في ذلك مثبطات IL-23، لإدارة الصدفية والإكزيما |
+| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | دراسة جماعية بأثر رجعي | Experimental Dermatology | دراسة طولية بمركز واحد لاستجابة العلاج بrisankizumab لدى المرضى بتاريخ من الصدفية الحمراء |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | سلسلة حالات | International Journal of Dermatology | يوضح فعالية وسلامة مزيج من dupilumab (ديبيلوماب) وrisankizumab لدى المرضى الذين يعانون من التهاب الجلد التأتبي والصدفية المصاحبة |
+| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | تقرير حالة | Journal of Dermatological Treatment | تم علاج التهاب الجلد المستمر من هالوبو بنجاح وسرعة باستخدام risankizumab لدى مريضة مسنة |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Risankizumab currently has no market authorizations on file in Saudi Arabia (0 licenses; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack (a Saudi/TFDA package insert has not yet been sourced — see Next Steps).
+risankizumab لا يملك حالياً أي تراخيص تسويق في السجل في المملكة العربية السعودية (0 ترخيص؛ حالة السوق: غير مطروح في السوق).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات المتعلقة بالسلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة. بيانات التحذيرات الرئيسية والموانع والمعلومات المتعلقة بالتفاعلات بين الأدوية غير متاحة حالياً في مجموعة الأدلة هذه (لم يتم الحصول على نشرة TFDA/SFDA بعد — انظر الخطوات التالية).
 
-**Rationale:**
-The mechanistic rationale and a completed Phase 2 RCT (NCT03706040) in moderate-to-severe atopic dermatitis support the biological plausibility of this prediction (Evidence Level L2). However, risankizumab is not currently marketed or registered in Saudi Arabia, and package insert data (warnings/contraindications) required for the initial safety screen (S1) is a blocking data gap — no Go/Proceed decision can be responsibly made until this is resolved.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmation of Saudi Arabia regulatory/registration pathway status for risankizumab
-- Formal drug interaction (DDI) data, currently not found in available databases
-- A completed Phase 3 confirmatory RCT in atopic dermatitis or a broader dermatitis population to upgrade evidence level beyond L2
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**التبرير:**
+يدعم المنطق الآلي وتجربة عشوائية منضبطة بالعلاج الوهمي من المرحلة 2 (NCT03706040) في التهاب الجلد التأتبي المعتدل إلى الشديد المعقولية البيولوجية لهذا التنبؤ (مستوى الأدلة L2). ومع ذلك، لا يتم تسويق risankizumab حالياً أو تسجيله في المملكة العربية السعودية، وبيانات نشرة المنتج (التحذيرات/الموانع) المطلوبة للفحص الأمني الأولي (S1) تمثل فجوة بيانات حاجزة — لا يمكن اتخاذ قرار موافقة/متابعة مسؤول حتى يتم حل هذه المشكلة.
+
+**لكي نتابع، يلزم التالي:**
+- نشرة TFDA/SFDA (تحذيرات، موانع) — حالياً فجوة بيانات حاجزة (DG001)
+- تأكيد حالة المسار التنظيمي/التسجيل في المملكة العربية السعودية لrisankizumab
+- بيانات التفاعلات بين الأدوية الرسمية (DDI)، غير موجودة حالياً في قواعس البيانات المتاحة
+- تجربة عشوائية منضبطة مؤكدة من المرحلة 3 في التهاب الجلد التأتبي أو مجموعة سكانية أوسع من التهاب الجلد لرفع مستوى الأدلة فوق L2
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

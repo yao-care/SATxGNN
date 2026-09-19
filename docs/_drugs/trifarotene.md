@@ -29,76 +29,77 @@ indication_count: 2
 
 </div>
 
-# Trifarotene: From Acne Vulgaris to Zinc, Elevated Plasma
+# Trifarotene: من حب الشباب إلى الزنك المرتفع بالبلازما
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Trifarotene (DB12808) is not currently marketed in Saudi Arabia and its official original indication/mechanism-of-action data are missing from regulatory sources; based on the rationale embedded in this evidence pack, it is a topical RAR-γ selective retinoid known elsewhere for acne vulgaris. The TxGNN model's top prediction is **Zinc, Elevated Plasma**, with a 99.40% score but **zero supporting clinical trials or publications**, and the model's own rationale states no known pharmacological link exists between trifarotene and zinc metabolism.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not established in regulatory filings (not marketed in Saudi Arabia); per the evidence pack's rationale text, trifarotene is a topical RAR-γ agonist known elsewhere for acne vulgaris |
-| Predicted New Indication | Zinc, Elevated Plasma |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Trifarotene (DB12808) لم يتم تسويقها حالياً في المملكة العربية السعودية والبيانات الرسمية عن دواعي الاستخدام الأصلية وآلية العمل مفقودة من المصادر التنظيمية؛ بناءً على الأساس المنطقي المضمن في حزمة الأدلة هذه، فهو ريتينويد انتقائي موضعي RAR-γ معروف في أماكن أخرى لعلاج حب الشباب. التنبؤ الأعلى لنموذج TxGNN هو **الزنك المرتفع بالبلازما**، برصيد 99.40% لكن **بدون أي تجارب سريرية أو منشورات داعمة**، ويشير منطق النموذج نفسه إلى عدم وجود علاقة دوائية معروفة بين Trifarotene واستقلاب الزنك.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data for trifarotene is currently a data gap in this evidence pack. Based on the rationale text accompanying the model's secondary prediction, trifarotene is known to be a fourth-generation topical RAR-γ selective retinoic acid receptor agonist, with an established use in acne vulgaris.
-
-For the top-ranked prediction (**Zinc, Elevated Plasma**), the model's own mechanistic rationale explicitly states that no pharmacological relationship has been identified between trifarotene and zinc metabolism, plasma zinc regulation, metallothionein expression, or renal zinc excretion pathways. Trifarotene's target (RAR-γ) has no known connection to zinc homeostasis. This prediction therefore rests on the TxGNN similarity score alone, with no mechanistic or clinical corroboration — consistent with its L5 evidence level and "Hold" recommendation.
-
-A second, lower-scoring prediction in this pack (**pyogenic arthritis-pyoderma gangrenosum-acne syndrome / PAPA syndrome**, score 99.32%) is mechanistically more plausible, since severe cystic acne is one of PAPA syndrome's three defining features, and trifarotene's keratinocyte-modulating effect could theoretically address that acne component. However, this connection is only to one symptom domain — it does not extend to the disease's inflammasome-driven arthritis or pyoderma gangrenosum components, and it is likewise unsupported by any clinical trial or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| دواعي الاستخدام الأصلية | لم يتم تحديدها في الملفات التنظيمية (غير مسوقة في المملكة العربية السعودية)؛ وفقاً لنص الأساس المنطقي في حزمة الأدلة، Trifarotene ناهض RAR-γ انتقائي موضعي من الجيل الرابع معروف في أماكن أخرى لعلاج حب الشباب |
+| دواعي الاستخدام الجديدة المتنبأ بها | الزنك المرتفع بالبلازما |
+| درجة التنبؤ TxGNN | 99.40% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+الأدلة التفصيلية عن آلية عمل Trifarotene تشكل حالياً فجوة بيانات في حزمة الأدلة هذه. بناءً على نص الأساس المنطقي المصاحب للتنبؤ الثانوي للنموذج، يُعرف Trifarotene أنه ناهض مستقبل حمض الريتينويك (RAR-γ) انتقائي موضعي من الجيل الرابع، مع استخدام معروف في علاج حب الشباب.
 
----
+بالنسبة للتنبؤ الأعلى تصنيفاً (**الزنك المرتفع بالبلازما**)، يذكر الأساس المنطقي الميكانيكي للنموذج نفسه بوضوح أنه لم يتم تحديد أي علاقة دوائية بين Trifarotene واستقلاب الزنك أو تنظيم الزنك بالبلازما أو التعبير عن الميتالوثيونين أو مسارات إفراز الزنك الكلوي. هدف Trifarotene (RAR-γ) لا يوجد له ارتباط معروف باستتباب الزنك. بالتالي، يعتمد هذا التنبؤ فقط على درجة التشابه TxGNN، بدون أي تأييد ميكانيكي أو سريري — متسق مع مستوى الأدلة L5 وتوصية "انتظار".
 
-## Saudi Arabia Market Information
-
-Trifarotene is not currently marketed in Saudi Arabia (0 authorizations on record); no license data is available.
+تنبؤ ثان منخفض السقوط في هذه الحزمة (**متلازمة التهاب المفاصل القيحي-تقيح الجلد الغنغريني-حب الشباب / متلازمة PAPA**، درجة 99.32%) أكثر معقولية من الناحية الميكانيكية، لأن حب الشباب الكيسي الشديد هو أحد الميزات الثلاث المحددة لمتلازمة PAPA، وقد يعالج تأثير Trifarotene المعدِّل على الخلايا الكيراتينية مكون حب الشباب نظرياً. ومع ذلك، هذا الاتصال مقتصر على مكون أعراض واحد فقط — لا يمتد إلى التهاب المفاصل المدفوع بـ inflammasome في المرض أو مكونات تقيح الجلد الغنغريني، وهو أيضاً غير مدعوم بأي دليل تجربة سريرية أو أدبيات.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/SFDA label warnings and contraindications for trifarotene are a flagged Blocking data gap — see Conclusion below.)*
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة المراجع
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The top-ranked predicted indication (Zinc, Elevated Plasma) has no supporting clinical trials, no literature, and no plausible mechanistic link per the model's own rationale — this is a pure L5 model-score prediction. In addition, a Blocking data gap on TFDA/SFDA label warnings and contraindications means the drug cannot yet enter initial safety screening (S1) for any indication.
+---
 
-**To proceed, the following is needed:**
-- Official TFDA/SFDA package insert (warnings, contraindications, DDI) — currently a Blocking gap
-- Confirmed original mechanism of action and approved indication from DrugBank or regulatory sources
-- If pursuing the secondary signal (PAPA syndrome) instead, dedicated literature/trial search and expert mechanistic review, since current evidence is limited to symptom overlap with acne
-- Re-evaluation once any clinical trial or literature evidence emerges for either predicted indication
+## معلومات سوق المملكة العربية السعودية
+
+Trifarotene غير مسوقة حالياً في المملكة العربية السعودية (0 موافقات في السجل)؛ لا تتوفر بيانات الترخيص.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الرسمية للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات TFDA/SFDA وموانع استخدام Trifarotene تمثل فجوة بيانات عائقة معرّفة — انظر الخلاصة أدناه.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+دواعي الاستخدام المتنبأ بها الأعلى تصنيفاً (الزنك المرتفع بالبلازما) لا توجد لها تجارب سريرية داعمة، ولا أدبيات، ولا ارتباط ميكانيكي معقول وفقاً لمنطق النموذج نفسه — هذا تنبؤ L5 نقي يعتمد فقط على درجة النموذج. علاوة على ذلك، فجوة بيانات عائقة متعلقة بتحذيرات TFDA/SFDA وموانع استخدام Trifarotene تعني عدم إمكانية الدواء الدخول إلى فحص السلامة الأولي (S1) لأي دواعي استخدام.
+
+**للمضي قدماً، يلزم ما يلي:**
+- النشرة الرسمية TFDA/SFDA (التحذيرات وموانع الاستخدام وتفاعلات الأدوية) — حالياً فجوة عائقة
+- تأكيد آلية العمل الأصلية ودواعي الاستخدام المعتمدة من DrugBank أو المصادر التنظيمية
+- إذا تم متابعة الإشارة الثانوية (متلازمة PAPA) بدلاً من ذلك، يتطلب البحث المخصص في الأدبيات والتجارب واستعراض ميكانيكي من قبل الخبراء، لأن الأدلة الحالية تقتصر على تداخل الأعراض مع حب الشباب
+- إعادة تقييم عند ظهور أي دليل من تجارب سريرية أو أدبيات لأي من دواعي الاستخدام المتنبأ بها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

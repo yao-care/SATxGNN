@@ -29,104 +29,103 @@ indication_count: 3
 
 </div>
 
-Using the report format given in the prompt (no separate skill applies — this is a direct document-generation task with explicit instructions already supplied).
+# فينكريستين: من الأورام الخبيثة الدموية وأورام الأطفال الصلبة إلى الجانجليونيوروبلاستوما
 
-# Vincristine: From Hematologic Malignancies and Pediatric Solid Tumors to Ganglioneuroblastoma
+## ملخص جملة واحدة
 
-## One-Sentence Summary
-
-> Vincristine is a vinca alkaloid antineoplastic long established as a backbone component of combination chemotherapy for leukemias, lymphomas, and pediatric embryonal tumors (the evidence pack does not supply a specific licensed indication text for this drug).
-> The TxGNN model predicts it may be effective for **Ganglioneuroblastoma**,
-> with **4 clinical trials** and **6 publications** currently supporting this direction, though most of this evidence is indirect (vincristine used as background chemotherapy rather than the primary study drug).
+> فينكريستين هو قلويد فينكا مضاد للأورام منذ فترة طويلة ومكوّن أساسي في العلاج الكيميائي المركب لسرطانات الدم واللمفوما وأورام الأطفال الجنينية (لم توفر مجموعة الأدلة نصاً محدداً للمؤشرات المرخصة لهذا الدواء).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الجانجليونيوروبلاستوما**،
+مع وجود **4 تجارب سريرية** و**6 منشورات** تدعم حالياً هذا الاتجاه، على الرغم من أن معظم هذا الدليل غير مباشر (فينكريستين يُستخدم كعلاج كيميائي خلفي بدلاً من كونه الدواء الأساسي للدراسة).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not specified in source data — no licenses or indication text were returned; based on known pharmacology, vincristine is an established antineoplastic used across leukemias, lymphomas, and pediatric solid tumors |
-| Predicted New Indication | Ganglioneuroblastoma |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير محدد في بيانات المصدر — لم يتم إرجاع نصوص تراخيص أو مؤشرات؛ بناءً على علم الأدوية المعروف، فينكريستين هو دواء مضاد للأورام منذ فترة طويلة ويُستخدم عبر سرطانات الدم واللمفوما وأورام الأطفال الصلبة |
+| المؤشر الجديد المتنبأ به | الجانجليونيوروبلاستوما |
+| درجة التنبؤ بـ TxGNN | 99.31% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data was flagged as a gap at the drug level, but the underlying pharmacology is well characterized: vincristine is a vinca alkaloid that binds tubulin and inhibits microtubule polymerization, blocking mitotic spindle formation. This antimitotic activity is preferentially cytotoxic to highly proliferative cell populations, which is why vincristine is a standard-of-care backbone agent (typically combined with cyclophosphamide and doxorubicin) in international pediatric oncology induction protocols (COG/SIOPEN) for high-risk neuroblastoma.
+تم تحديد بيانات آلية العمل المفصلة كفجوة على مستوى الدواء، لكن علم الأدوية الأساسي موثّق بشكل جيد: فينكريستين هو قلويد فينكا يرتبط بالتوبولين ويمنع بلمرة الأنابيب الدقيقة، مما يمنع تشكيل المغزل المتساوي. هذا النشاط المضاد للانقسام يكون مميتاً بشكل انتقائي للسكان الخلويين عالي التكاثر، وهذا هو السبب في أن فينكريستين هو عامل أساسي في معيار الرعاية (يُدمج عادة مع السيكلوفوسفاميد والدوكسوروبيسين) في بروتوكولات الحث في طب الأورام عند الأطفال الدولية (COG/SIOPEN) لورم الأرومة العصبية عالي الخطورة.
 
-Ganglioneuroblastoma sits on the same neuroblastic tumor spectrum as neuroblastoma — both arise from primitive sympathetic neural crest cells and share overlapping histology, staging, and treatment protocols. The clinical trials identified here (dinutuximab, 131I-MIBG, BuMel consolidation) all enroll high-risk neuroblastoma/ganglioneuroblastoma populations and use vincristine-containing regimens as the induction backbone, which is consistent with — rather than novel evidence for — this predicted use.
+الجانجليونيوروبلاستوما تقع على نفس طيف الأورام الأرومية العصبية مثل ورم الأرومة العصبية — كلاهما ينشأ من خلايا عرف عصبي متطورة بدائية ويشاركان في التاريخ المرضي والتصنيف والبروتوكولات العلاجية المتشابهة. جميع التجارب السريرية المحددة هنا (ديونيتوكسيماب، 131I-MIBG، تجميع BuMel) تجند مرضى بأورام عالية الخطورة من الجانجليونيوروبلاستوما/ورم الأرومة العصبية وتستخدم أنظمة تحتوي على فينكريستين كعمود الحث الخلفي، وهو متسق مع — بدلاً من — دليل جديد على هذا الاستخدام المتنبأ به.
 
-Mechanistically, because ganglioneuroblastoma tumors typically retain a proliferative neuroblastic component, the rationale for an antimitotic agent applies directly. However, none of the identified trials test vincristine as the primary investigational agent, so this should be read as confirmatory of existing practice rather than a genuinely new indication.
+من الناحية الآلية، لأن أورام الجانجليونيوروبلاستوما عادة ما تحتفظ بمكوّن أرومي عصبي متكاثر، فإن المنطق لعامل مضاد للانقسام ينطبق بشكل مباشر. ومع ذلك، لا تختبر أي من التجارب المحددة فينكريستين كعامل تحقيقي أساسي، لذا يجب قراءة هذا كتأكيد للممارسة الحالية بدلاً من مؤشر جديد حقاً.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | Phase 2 | Active, not recruiting | 42 | Pilot induction regimen adding dinutuximab + GM-CSF to standard chemotherapy in newly diagnosed high-risk neuroblastoma; vincristine is part of the background chemo, not the study drug |
-| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | Phase 3 | Recruiting | 478 | Tests adding dinutuximab to intensive multimodal therapy (which conventionally includes vincristine) in newly diagnosed high-risk neuroblastoma |
-| [NCT01798004](https://clinicaltrials.gov/study/NCT01798004) | Phase 1 | Completed | 150 | Myeloablative busulfan/melphalan consolidation following vincristine-containing induction chemotherapy in high-risk neuroblastoma |
-| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | Phase 3 | Recruiting | 750 | Adds 131I-MIBG or an ALK inhibitor to intensive standard therapy (vincristine-based backbone) in high-risk neuroblastoma/ganglioneuroblastoma |
+| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | المرحلة 2 | نشطة، لا توجد عمليات تسجيل جديدة | 42 | نظام حث تجريبي يضيف ديونيتوكسيماب + GM-CSF إلى العلاج الكيميائي القياسي في ورم الأرومة العصبية عالي الخطورة المشخّص حديثاً؛ فينكريستين هو جزء من الكيمياء الخلفية، وليس دواء الدراسة |
+| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | المرحلة 3 | توظيف | 478 | يختبر إضافة ديونيتوكسيماب إلى العلاج متعدد الأساليب الكثيف (الذي يشمل بشكل تقليدي فينكريستين) في ورم الأرومة العصبية عالي الخطورة المشخّص حديثاً |
+| [NCT01798004](https://clinicaltrials.gov/study/NCT01798004) | المرحلة 1 | مكتمل | 150 | تجميع البوسولفان/الميلفالان الاستئصالي التالي للعلاج الكيميائي بالحث الذي يحتوي على فينكريستين في ورم الأرومة العصبية عالي الخطورة |
+| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | المرحلة 3 | توظيف | 750 | يضيف 131I-MIBG أو مثبط ALK إلى العلاج القياسي الكثيف (العمود الأساسي يحتوي على فينكريستين) في ورم الجانجليونيوروبلاستوما/ورم الأرومة العصبية عالي الخطورة |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Prospective Cohort/Trial | Pediatric Blood & Cancer | JN-L-10 trial used image-defined risk factors to guide surgical timing, reducing treatment complications in low-risk neuroblastoma |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Case Report | Postgraduate Medical Journal | Spinal ganglioneuroblastoma achieved complete response with vincristine-containing combination chemotherapy alone (no surgery/radiotherapy) |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Case Report | J Pediatr Hematol Oncol | Ganglioneuroblastoma presenting as obstructive jaundice, treated with a cisplatin/anthracycline/cyclophosphamide/vincristine regimen |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Case Series | J Thorac Cardiovasc Surg | 31 patients with intrathoracic ganglioneuroblastoma; outcomes across resection, radiotherapy, and chemotherapy |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Case Report | J Pediatr Hematol Oncol | Rare gastric involvement in an infant with multifocal ganglioneuroblastoma |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Case Report | Acta Urologica Japonica | Multimodality treatment of adult adrenal ganglioneuroblastoma |
+| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | دراسة الأتراب المستقبلية/التجربة | طب الأطفال الدموي والسرطان | استخدمت تجربة JN-L-10 عوامل الخطر المعرّفة بالتصوير لتوجيه توقيت الجراحة، مما قلل من مضاعفات العلاج في ورم الأرومة العصبية منخفض الخطورة |
+| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | حالة سريرية | مجلة الطب بعد التخرج | حققت الجانجليونيوروبلاستوما الشوكية استجابة كاملة مع العلاج الكيميائي المركب المحتوي على فينكريستين وحده (بدون جراحة/علاج إشعاعي) |
+| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | حالة سريرية | J Pediatr Hematol Oncol | الجانجليونيوروبلاستوما تظهر كانسداد صفراوي، تم علاجها بنظام سيسبلاتين/أنثراسيكلين/سيكلوفوسفاميد/فينكريستين |
+| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | سلسلة حالات | J Thorac Cardiovasc Surg | 31 مريضاً مصاباً بالجانجليونيوروبلاستوما داخل الصدر؛ النتائج عبر الاستئصال والعلاج الإشعاعي والعلاج الكيميائي |
+| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | حالة سريرية | J Pediatr Hematol Oncol | مشاركة المعدة النادرة في رضيع مصاب بالجانجليونيوروبلاستوما متعدد البؤر |
+| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | حالة سريرية | Acta Urologica Japonica | العلاج متعدد الأساليب للجانجليونيوروبلاستوما الكظرية عند البالغين |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Vincristine is currently **not marketed** in Saudi Arabia — no authorization records were returned (0 licenses on file). Regulatory filing/registration would be a prerequisite before any repurposing pathway could proceed locally.
+فينكريستين حالياً **غير مسوق** في المملكة العربية السعودية — لم يتم إرجاع أي سجلات تصريح (0 تراخيص في الملف). كان تقديم لائحة تنظيمية/التسجيل شرطاً أساسياً قبل أن تتمكن أي مسار إعادة استخدام من المضي قدماً محلياً.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Vincristine is a conventional cytotoxic chemotherapy agent (vinca alkaloid class), so this section applies.
+فينكريستين هو عامل علاج كيميائي سام تقليدي (فئة قلويد فينكا، مثبط التوبولين/الأنابيب الدقيقة)، لذا ينطبق هذا القسم.
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — vinca alkaloid, tubulin/microtubule inhibitor |
-| Myelosuppression Risk | Low relative to most cytotoxics — vincristine's dose-limiting toxicity is peripheral/autonomic neuropathy rather than bone marrow suppression; confirm against the local package insert once available |
-| Emetogenicity Classification | Low (minimally emetogenic per standard IV vinca alkaloid classification) |
-| Monitoring Items | CBC with differential, neurological exam (peripheral neuropathy, constipation/ileus from autonomic effects), liver function (dose adjustment in hepatic impairment), infusion-site monitoring |
-| Handling Protection | Standard cytotoxic drug handling precautions required. Note: vincristine is a well-established vesicant and is **fatal if administered intrathecally** — this is an independent, drug-class-level safety fact and should be explicitly confirmed against the TFDA package insert once DG001 is resolved |
+| تصنيف السمية الخلوية | سام تقليدي — قلويد فينكا، مثبط التوبولين/الأنابيب الدقيقة |
+| خطر قمع النخاع العظمي | منخفض نسبياً مقارنة بمعظم العوامل السامة — سمية الجرعة المحددة لفينكريستين هي الاعتلال العصبي المحيطي/الذاتي بدلاً من قمع نخاع العظم؛ تأكد من مقابل النشرة المحلية بمجرد توفرها |
+| تصنيف الغثيان والقيء | منخفض (حد أدنى من الغثيان والقيء وفقاً لتصنيف قلويد الفينكا الوريدي القياسي) |
+| عناصر المراقبة | عد الدم الكامل مع الفرق، الفحص العصبي (الاعتلال العصبي المحيطي، الإمساك/الفتق من التأثيرات الذاتية)، وظائف الكبد (تعديل الجرعة في قصور الكبد)، مراقبة موقع التسريب |
+| حماية المعالجة | تدابير حماية الأدوية السامة القياسية مطلوبة. ملاحظة: فينكريستين هو عامل قابض معروف جيداً و**مميت إذا تم إعطاؤه داخل السحايا** — هذه حقيقة أمان مستقلة على مستوى فئة الدواء ويجب تأكيدها صراحة مقابل نشرة TFDA بمجرد حل DG001 |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الموجودة داخل العبوة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات**
 
-**Rationale:**
-The predicted indication is mechanistically coherent — ganglioneuroblastoma sits on the same neuroblastic tumor spectrum as neuroblastoma, where vincristine is already a guideline backbone agent — but none of the identified trials or literature test vincristine as the primary investigational agent, and the drug is not currently marketed in Saudi Arabia. A Blocking-severity data gap (missing TFDA/package-insert warnings and contraindications) means this candidate cannot yet clear the S1 safety pre-assessment stage.
+**المنطق:**
+التنبؤ بالمؤشر معقول من الناحية الآلية — الجانجليونيوروبلاستوما تقع على نفس طيف ورم الأرومة العصبية حيث يعتبر فينكريستين بالفعل عاملاً أساسياً موصى به — لكن لا تختبر أي من التجارب المحددة أو الأدبيات فينكريستين كعامل تحقيقي أساسي، والدواء حالياً غير مسوق في المملكة العربية السعودية. فجوة بيانات ذات شدة حجب (تحذيرات TFDA/النشرة والموانع المفقودة) تعني أن هذا المرشح لا يمكنه بعد مسح مرحلة سلامة S1 السابقة.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — Blocking gap, required before any S1 safety review
-- Confirmed mechanism-of-action documentation from DrugBank (currently marked as a gap at the drug level, though class-level pharmacology was used above)
-- Saudi Arabia market registration/licensing pathway, since the drug is currently not marketed locally
-- Histopathological stratification of ganglioneuroblastoma subtype, given the heterogeneity of the neuroblastic tumor spectrum, before designing a dedicated trial
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA (التحذيرات، الموانع) — فجوة حجب، مطلوبة قبل أي مراجعة أمان S1
+- توثيق آلية العمل المؤكد من DrugBank (حالياً يتم تحديده كفجوة على مستوى الدواء، على الرغم من استخدام علم الأدوية على مستوى الفئة أعلاه)
+- مسار تسجيل/ترخيص سوق المملكة العربية السعودية، حيث أن الدواء حالياً غير مسوق محلياً
+- تقسيم النمط النسيجي لمرحلة الجانجليونيوروبلاستوما، نظراً لعدم تجانس طيف الأورام الأرومية العصبية، قبل تصميم تجربة مخصصة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

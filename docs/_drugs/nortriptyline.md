@@ -29,88 +29,89 @@ indication_count: 2
 
 </div>
 
-# Nortriptyline: From Tricyclic Antidepressant to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# نورتريبتيلين: من مضاد اكتئاب ثلاثي الحلقات إلى اضطراب نقص الانتباه/فرط النشاط (ADHD)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nortriptyline is a tricyclic antidepressant (TCA); this evidence pack does not capture its originally-approved indication or full mechanism-of-action record (flagged as data gaps DG001/DG002).
-The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**, with **no registered clinical trials** but **20 supporting publications**, including one RCT and one Cochrane systematic review.
+نورتريبتيلين هو مضاد اكتئاب ثلاثي الحلقات (TCA)؛ لا تغطي هذه حزمة الأدلة دلالته الأصلية المعتمدة أو سجل آلية العمل الكامل (مشار إليها كفجوات بيانات DG001/DG002).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب نقص الانتباه/فرط النشاط (ADHD)**، مع **عدم وجود تجارب سريرية مسجلة** لكن **20 منشوراً داعماً**، بما في ذلك تجربة معشاة ذات شواهد واحدة ومراجعة منهجية كوكرين واحدة.
 
 ---
 
-## Quick Overview
+## لمحة سريعة
 
-| Item | Content |
+| عنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in this evidence pack (TFDA/SFDA package insert not yet retrieved — see Data Gap DG001) |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | غير موثقة في حزمة الأدلة هذه (لم يتم استرجاع نشرة TFDA/SFDA بعد — انظر فجوة البيانات DG001) |
+| الدلالة الجديدة المتنبأ بها | اضطراب نقص الانتباه/فرط النشاط (ADHD) |
+| درجة التنبؤ بـ TxGNN | 99.42% |
+| مستوى الأدلة | L2 |
+| حالة التسويق في السعودية | غير مسوّق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed structured mechanism-of-action data from DrugBank is currently unavailable for this drug (Data Gap DG002, High severity). Based on the literature-derived pharmacological profile captured in this evidence pack, nortriptyline is classified as a **tricyclic antidepressant (TCA)**.
+بيانات آلية العمل المنظمة والمفصلة من DrugBank غير متاحة حالياً لهذا الدواء (فجوة البيانات DG002، ذات شدة عالية). بناءً على الملف الدوائي المشتق من الأدبيات الذي تم التقاطه في حزمة الأدلة هذه، يتم تصنيف نورتريبتيلين كـ **مضاد اكتئاب ثلاثي الحلقات (TCA)**.
 
-Its primary pharmacological action is inhibition of norepinephrine (NE) reuptake, with some degree of serotonin reuptake inhibition as well. ADHD pathophysiology is closely linked to dysregulation of the prefrontal cortex NE/dopamine (DA) system, and this mechanism is highly similar to that of already-approved non-stimulant ADHD medications — **atomoxetine** (a selective NE reuptake inhibitor) and **bupropion** (an NE/DA reuptake inhibitor) — which provides moderate mechanistic plausibility for the TxGNN prediction.
+آليته الدوائية الأساسية هي منع إعادة امتصاص النوريبينفرين (NE)، بالإضافة إلى درجة معينة من تثبيط إعادة امتصاص السيروتونين. ترتبط فسيولوجيا المرض في ADHD بشكل وثيق بسوء تنظيم نظام النوريبينفرين/الدوبامين (DA) في القشرة الدماغية قبل الجبينية، وهذه الآلية مشابهة جداً لآلية أدوية ADHD غير المنبهة المعتمدة بالفعل — **أتوموكسيتين** (مثبط انتقائي لإعادة امتصاص النوريبينفرين) و **بوبروبيون** (مثبط إعادة امتصاص NE/DA) — مما يوفر مصداقية آلية متوسطة للتنبؤ بـ TxGNN.
 
-Because the original approved indication is not captured in this evidence pack, the direct clinical relationship between nortriptyline's prior use and ADHD cannot be fully characterized here. However, the literature suggests nortriptyline may be particularly suitable for ADHD patients with comorbid tic disorders, where stimulants are often contraindicated — though findings on tic-exacerbation risk are inconsistent when compared with bupropion (see PMID 8428875 for contrast). This positions nortriptyline as a plausible second-line, non-stimulant candidate rather than a first-line therapy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+نظراً لعدم توثيق الدلالة الأصلية المعتمدة في حزمة الأدلة هذه، لا يمكن توصيف العلاقة السريرية المباشرة بين الاستخدام السابق لنورتريبتيلين و ADHD بشكل كامل هنا. ومع ذلك، تشير الأدبيات إلى أن نورتريبتيلين قد يكون مناسباً بشكل خاص لمرضى ADHD الذين يعانون من اضطرابات حركية متزامنة، حيث يتم منع استخدام المنشطات في كثير من الأحيان — على الرغم من أن النتائج المتعلقة بخطر تفاقم الحركات اللاإرادية غير متسقة عند المقارنة ببوبروبيون (انظر PMID 8428875 للمقارنة). يضع هذا نورتريبتيلين كمرشح محتمل من الدرجة الثانية وغير منبه بدلاً من العلاج من الدرجة الأولى.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [25238582](https://pubmed.ncbi.nlm.nih.gov/25238582/) | 2014 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | TCAs, including nortriptyline, evaluated as second-line treatment for reducing ADHD symptoms in children and adolescents |
-| [11052409](https://pubmed.ncbi.nlm.nih.gov/11052409/) | 2000 | RCT | J Child Adolesc Psychopharmacol | Controlled study of nortriptyline's efficacy and tolerability in pediatric ADHD |
-| [22700161](https://pubmed.ncbi.nlm.nih.gov/22700161/) | 2012 | RCT | Pediatric Nephrology | Randomized double-blind trial of nortriptyline for treating enuresis in children with comorbid ADHD |
-| [22303520](https://pubmed.ncbi.nlm.nih.gov/22303520/) | 2012 | Clinical Guideline/Review | Ann Clin Psychiatry | CANMAT task force recommendations for managing mood disorders with comorbid adult ADHD |
-| [7807071](https://pubmed.ncbi.nlm.nih.gov/7807071/) | 1995 | Systematic Assessment | J Nerv Ment Dis | Systematic assessment of tricyclic antidepressants, including nortriptyline, in adult ADHD treatment |
-| [15064003](https://pubmed.ncbi.nlm.nih.gov/15064003/) | 2004 | Review | Psychiatr Clin North Am | Review of nonstimulant ADHD treatments; notes nortriptyline's noradrenergic activity but flags narrow therapeutic index and cardiovascular toxicity risk limiting use |
-| [17915180](https://pubmed.ncbi.nlm.nih.gov/17915180/) | 2007 | Review | Neuropsychiatrie | Evidence-based pharmacotherapy algorithms for ADHD and comorbid psychiatric disorders |
-| [15794722](https://pubmed.ncbi.nlm.nih.gov/15794722/) | 2005 | Review | Expert Opin Drug Saf | Safety review of non-stimulant ADHD agents, including tricyclic antidepressants such as nortriptyline |
-| [8428873](https://pubmed.ncbi.nlm.nih.gov/8428873/) | 1993 | Open-label/Cohort | J Am Acad Child Adolesc Psychiatry | Nortriptyline evaluated in children with ADHD and comorbid tic disorder/Tourette's syndrome |
-| [8444763](https://pubmed.ncbi.nlm.nih.gov/8444763/) | 1993 | Retrospective Chart Review | J Am Acad Child Adolesc Psychiatry | Chart review of 58 pediatric/adolescent ADHD cases treated with nortriptyline |
+| [25238582](https://pubmed.ncbi.nlm.nih.gov/25238582/) | 2014 | مراجعة منهجية (كوكرين) | Cochrane Database of Systematic Reviews | تم تقييم مضادات الاكتئاب ثلاثية الحلقات، بما في ذلك نورتريبتيلين، كعلاج من الدرجة الثانية لتقليل أعراض ADHD لدى الأطفال والمراهقين |
+| [11052409](https://pubmed.ncbi.nlm.nih.gov/11052409/) | 2000 | تجربة معشاة ذات شواهد | J Child Adolesc Psychopharmacol | دراسة منضبطة لفعالية نورتريبتيلين وقابليته للتحمل في ADHD عند الأطفال |
+| [22700161](https://pubmed.ncbi.nlm.nih.gov/22700161/) | 2012 | تجربة معشاة ذات شواهد | Pediatric Nephrology | تجربة عشوائية معمى مزدوج لنورتريبتيلين لعلاج التبول اللاإرادي ليلاً لدى الأطفال المصابين بـ ADHD متزامن |
+| [22303520](https://pubmed.ncbi.nlm.nih.gov/22303520/) | 2012 | دليل/مراجعة سريرية | Ann Clin Psychiatry | توصيات فريق عمل CANMAT لإدارة اضطرابات المزاج المتزامنة مع ADHD لدى البالغين |
+| [7807071](https://pubmed.ncbi.nlm.nih.gov/7807071/) | 1995 | تقييم منهجي | J Nerv Ment Dis | تقييم منهجي لمضادات الاكتئاب ثلاثية الحلقات، بما في ذلك نورتريبتيلين، في علاج ADHD لدى البالغين |
+| [15064003](https://pubmed.ncbi.nlm.nih.gov/15064003/) | 2004 | مراجعة | Psychiatr Clin North Am | مراجعة علاجات ADHD غير المنبهة؛ تلاحظ النشاط الأدرينرجي لنورتريبتيلين ولكن تشير إلى نطاق علاجي ضيق وخطر السمية القلبية الوعائية مما يحد من الاستخدام |
+| [17915180](https://pubmed.ncbi.nlm.nih.gov/17915180/) | 2007 | مراجعة | Neuropsychiatrie | خوارزميات العلاج الدوائي المبنية على الأدلة لـ ADHD والاضطرابات النفسية المتزامنة |
+| [15794722](https://pubmed.ncbi.nlm.nih.gov/15794722/) | 2005 | مراجعة | Expert Opin Drug Saf | مراجعة السلامة لعوامل ADHD غير المنبهة، بما في ذلك مضادات الاكتئاب ثلاثية الحلقات مثل نورتريبتيلين |
+| [8428873](https://pubmed.ncbi.nlm.nih.gov/8428873/) | 1993 | دراسة مفتوحة/مجموعة | J Am Acad Child Adolesc Psychiatry | تم تقييم نورتريبتيلين لدى الأطفال المصابين بـ ADHD والاضطراب الحركي المتزامن/متلازمة توريت |
+| [8444763](https://pubmed.ncbi.nlm.nih.gov/8444763/) | 1993 | مراجعة الملفات بأثر رجعي | J Am Acad Child Adolesc Psychiatry | مراجعة السجلات لـ 58 حالة ADHD عند الأطفال/المراهقين تم علاجهم بنورتريبتيلين |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-Nortriptyline currently holds no marketing authorizations in Saudi Arabia (market status: Not Marketed; 0 licenses on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured key warnings, contraindications, or drug-drug interaction (DDI) data are currently available in this evidence pack (DDI query returned "not found"); the TFDA/SFDA package insert has not yet been retrieved (Data Gap DG001, Blocking severity).
+نورتريبتيلين لا يحتفظ حالياً بأي موافقات تسويق في المملكة العربية السعودية (حالة التسويق: غير مسوّق؛ 0 ترخيص في السجل).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. لا توجد بيانات منظمة عن التحذيرات الرئيسية أو الموانع أو تفاعل الدواء بالدواء (DDI) متاحة حالياً في حزمة الأدلة هذه (استعلام DDI أرجع "غير موجود")؛ لم يتم الحصول على نشرة TFDA/SFDA الدوائية بعد (فجوة البيانات DG001، ذات أولوية حاسمة).
 
-**Rationale:**
-Nortriptyline has a mechanistically plausible, noradrenergically-mediated rationale for ADHD and is supported by one completed RCT plus a Cochrane systematic review covering TCAs as second-line ADHD therapy — sufficient to justify continued evaluation, but no clinical trials are currently registered for this specific drug-indication pair, and it is not currently marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- DrugBank-verified structured mechanism-of-action data — currently a **High**-severity data gap (DG002)
-- A completed drug-drug interaction (DDI) database query (current status: not found)
-- Regulatory pathway assessment, since the drug is not currently marketed in Saudi Arabia
-- Updated/contemporary RCT data — most supporting evidence predates 2005, with the only controlled trial dating to 2000
-- Note: a second predicted indication, "ADHD, inattentive type" (TxGNN score 99.33%), was also flagged but has no supporting clinical trials or literature (Evidence Level L5) and is currently on **Hold**
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الضمانات**
+
+**المبررات:**
+نورتريبتيلين له أساس معقول ميكانيكي محتمل يعتمد على النوريبينفرين لـ ADHD ويدعمه تجربة معشاة ذات شواهد مكتملة واحدة بالإضافة إلى مراجعة منهجية كوكرين تغطي مضادات الاكتئاب ثلاثية الحلقات كعلاج من الدرجة الثانية لـ ADHD — مما يكفي لتبرير المزيد من التقييم، لكن لا توجد تجارب سريرية مسجلة حالياً لهذا الزوج المحدد من الدواء والدلالة، وهو غير مسوّق حالياً في المملكة العربية السعودية.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA/SFDA الدوائية (التحذيرات، الموانع) — حالياً فجوة بيانات **حاسمة** (DG001)
+- بيانات آلية العمل المنظمة المتحقق منها بواسطة DrugBank — حالياً فجوة بيانات **عالية الشدة** (DG002)
+- استعلام قاعدة بيانات تفاعل الدواء بالدواء (DDI) مكتمل (الحالة الحالية: غير موجود)
+- تقييم المسار التنظيمي، حيث أن الدواء غير مسوّق حالياً في المملكة العربية السعودية
+- بيانات تجربة معشاة ذات شواهد محدثة/معاصرة — معظم الأدلة الداعمة تسبق سنة 2005، والتجربة المنضبطة الوحيدة تعود إلى سنة 2000
+- ملاحظة: دلالة ثانية متنبأ بها، "ADHD، نوع غير الانتباهي" (درجة TxGNN 99.33%)، تم الإشارة إليها أيضاً لكن لا توجد تجارب سريرية داعمة أو أدبيات (مستوى الأدلة L5) وهي حالياً في **الانتظار**
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

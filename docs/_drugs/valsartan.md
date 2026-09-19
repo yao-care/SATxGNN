@@ -29,78 +29,79 @@ indication_count: 7
 
 </div>
 
-# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+# الفالسارتان: من ارتفاع ضغط الدم إلى أمراض الكلى الارتفاعية الخبيثة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Valsartan (DrugBank DB00177) is an angiotensin II receptor blocker (ARB) originally used to treat hypertension and related cardiovascular conditions. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, but this direction is currently supported only by **1 preclinical publication** (from a different drug class) and **0 clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension *(general pharmacological knowledge — Saudi-specific label text unavailable, drug not currently marketed locally)* |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+الفالسارتان (DrugBank DB00177) هو حاصر مستقبلات الأنجيوتنسين الثاني (ARB) يُستخدم بشكل أساسي لعلاج ارتفاع ضغط الدم والحالات القلبية الوعائية ذات الصلة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **أمراض الكلى الارتفاعية الخبيثة**، لكن هذا الاتجاه مدعوم حالياً فقط بـ **منشور واحد سابق للإكلينيكي** (من فئة دواء مختلفة) و **0 تجارب سريرية**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, valsartan is an angiotensin II type 1 (AT1) receptor blocker (ARB class), and its efficacy in hypertension has been well established clinically. Mechanistically, AT1 blockade lowers intraglomerular pressure and reduces proteinuria, which provides a plausible rationale for a renal-protective role in hypertensive nephropathy.
-
-However, the strength of the supporting evidence for this specific candidate indication is limited. The single associated publication (PMID 24368192) studied **avosentan**, an endothelin receptor antagonist — a different drug class entirely — in a rat model of hypertensive nephropathy. This can only serve as indirect mechanistic support and does not directly demonstrate valsartan's effect in malignant hypertensive renal disease.
-
-Notably, a closely related candidate in this Evidence Pack — **malignant renovascular hypertension** (rank 2, same TxGNN score tier) — is backed by more direct mechanistic evidence: PMID 11560862 shows AT1 receptor blockade (valsartan's own pharmacological class) preventing lethal malignant hypertension in an animal model, tied to renal fibrinoid necrosis driven by RAAS overactivation. This suggests the broader "malignant hypertension renal" cluster may warrant evaluation together rather than in isolation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | ارتفاع ضغط الدم *(المعرفة الدوائية العامة — نص التسمية السعودي غير متاح، الدواء غير مسوق محلياً حالياً)* |
+| الاستطباب الجديد المتوقع | أمراض الكلى الارتفاعية الخبيثة |
+| درجة التنبؤ بنموذج TxGNN | 99.97% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical (animal model; different drug class — avosentan) | Pharmacological research | In double-transgenic rats (human renin/angiotensinogen), endothelin antagonism at doses avoiding fluid retention was protective against hypertensive nephropathy; supports RAAS/endothelin-pathway relevance to renal protection but does not test valsartan directly. |
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية في هذه حقيبة الأدلة. بناءً على الصيدلة المعروفة، الفالسارتان هو حاصر مستقبل الأنجيوتنسين الثاني من النوع الأول (AT1) (فئة ARB)، وثبتت فعاليته في علاج ارتفاع ضغط الدم سريرياً بشكل جيد. آلياً، يقلل حصار AT1 من الضغط داخل الكبيبات وينقص الزلالية، مما يوفر أساساً معقولاً لدور وقائي كلوي في اعتلال الكلى الارتفاعي.
 
----
+ومع ذلك، قوة الأدلة المساندة لهذا الاستطباب المرشح المحدد محدودة. الدراسة المرتبطة الوحيدة (PMID 24368192) درست **الأفوسينتان**، وهو معادل مستقبل الإندوثيلين — وهي فئة دواء مختلفة تماماً — في نموذج حيواني لاعتلال الكلى الارتفاعي. لا يمكن لهذا أن يكون سوى دعم آلي غير مباشر ولا يظهر تأثير الفالسارتان مباشرة في أمراض الكلى الارتفاعية الخبيثة.
 
-## Saudi Arabia Market Information
-
-Valsartan is currently **not marketed** in Saudi Arabia (0 authorizations on file); no product license records are available.
+ومن الجدير بالملاحظة أن المرشح ذا الصلة الوثيقة في هذه حقيبة الأدلة — **ارتفاع ضغط الدم الوعائي الكلوي الخبيث** (التصنيف 2، نفس مستوى درجة TxGNN) — مدعوم بأدلة آلية أكثر مباشرة: PMID 11560862 يظهر أن حصار مستقبل AT1 (الفائدة الدوائية الخاصة بالفالسارتان) يمنع ارتفاع ضغط الدم الخبيث القاتل في نموذج حيواني، مرتبط بنخر التليف الليفي الكلوي الناجم عن الإفراط في تنشيط RAAS. يشير هذا إلى أن مجموعة "اعتلال الكلى الارتفاعي الخبيث" الأوسع قد تستحق التقييم معاً بدلاً من عزلة.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-> Note: The Saudi/SFDA package insert (warnings and contraindications) is flagged as a **Blocking** data gap (DG001) in this Evidence Pack, meaning the candidate cannot yet proceed to an S1 safety pre-assessment.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| معرف PubMed | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|--------|------|--------|---------|
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | سابق للإكلينيكي (نموذج حيواني؛ فئة دواء مختلفة — أفوسينتان) | بحث دوائي | في الفئران ثنائية المعدلة وراثياً (ريننين/أنجيوتنسينوجين بشري)، كان حصار الإندوثيلين بجرعات تتجنب احتباس السوائل وقائياً ضد اعتلال الكلى الارتفاعي؛ يدعم صلة مسار RAAS/الإندوثيلين بالحماية الكلوية لكن لا يختبر الفالسارتان مباشرة. |
 
-**Rationale:**
-Evidence for this specific indication is preclinical and indirect only (L4 — one animal study from a different drug class, no clinical trials), and the drug is not currently marketed in Saudi Arabia. A blocking data gap on TFDA/SFDA label warnings and contraindications also prevents entry into S1 safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings, contraindications) to clear the S1 safety gate
-- Verified mechanism of action data from DrugBank (currently a data gap)
-- Direct valsartan-specific evidence (clinical or preclinical) for malignant hypertensive renal disease, rather than cross-class inference
-- Consider evaluating jointly with rank 2 ("malignant renovascular hypertension"), which has stronger direct AT1-blockade mechanistic support (L3, decision stage S1)
+## معلومات سوق المملكة العربية السعودية
+
+الفالسارتان غير **مسوق حالياً** في المملكة العربية السعودية (0 تصاريح في السجلات)؛ لا توجد سجلات تراخيص منتج متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+> ملاحظة: تم الإشارة إلى النشرة الداخلية السعودية/SFDA (التحذيرات والموانع) بأنها **عائق** لفجوة البيانات (DG001) في هذه حقيبة الأدلة، مما يعني أن المرشح لا يمكنه بعد الانتقال إلى تقييم السلامة المسبق S1.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+الأدلة على هذا الاستطباب المحدد سابقة للإكلينيكي وغير مباشرة فقط (L4 — دراسة حيوانية واحدة من فئة دواء مختلفة، لا توجد تجارب سريرية)، والدواء غير مسوق حالياً في المملكة العربية السعودية. كما تحول فجوة البيانات العائقة في تحذيرات TFDA/SFDA وموانع التسمية دون الدخول إلى تقييم السلامة المسبق S1.
+
+**لكي نتقدم، يلزم الآتي:**
+- النشرة الداخلية SFDA (التحذيرات، الموانع) لمسح بوابة السلامة S1
+- بيانات آلية العمل المُتحقق منها من DrugBank (حالياً فجوة بيانات)
+- دليل محدد للفالسارتان (سريري أو سابق للإكلينيكي) لأمراض الكلى الارتفاعية الخبيثة، بدلاً من الاستدلال عبر الفئات
+- ضع في الاعتبار التقييم المشترك مع المرتبة الثانية ("ارتفاع ضغط الدم الوعائي الكلوي الخبيث")، الذي له دعم آلي أقوى وأكثر مباشرة لحصار AT1 (L3، مرحلة القرار S1)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

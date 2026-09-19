@@ -29,74 +29,75 @@ indication_count: 1
 
 </div>
 
-# Chlorphenoxamine: From Antihistamine to Insomnia
+# الكلوروفينوكسامين: من مضاد الهيستامين إلى الأرق
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Chlorphenoxamine is a first-generation H1 antihistamine with significant anticholinergic properties, though no formal approved indication is currently documented in the regulatory database.
-The TxGNN model predicts it may be effective for **Insomnia**, with a high prediction score of **99.42%**.
-However, there are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction, meaning this prediction rests entirely on pharmacological inference.
+الكلوروفينوكسامين هو مضاد هيستامين من الجيل الأول عامل على المستقبلات H1 مع خصائص مضادة للكولين كبيرة، على الرغم من عدم توثيق أي مؤشر معتمد رسميًا حاليًا في قاعدة البيانات التنظيمية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **الأرق**، بدرجة تنبؤ عالية تبلغ **99.42%**.
+ومع ذلك، لا توجد حاليًا **0** تجربة سريرية و **0** منشورات تدعم بشكل مباشر هذا الاتجاه لإعادة الاستخدام، مما يعني أن هذا التنبؤ يستند بالكامل على الاستدلال الدوائي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No documented indication (not currently marketed) |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | لا توجد مؤشرات موثقة (غير مسوق حاليًا) |
+| المؤشر الجديد المتنبأ به | الأرق (المرض) |
+| درجة التنبؤ TxGNN | 99.42% |
+| مستوى الدليل | L5 |
+| حالة السوق | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | التأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacological information, Chlorphenoxamine is classified as a first-generation H1 antihistamine with notable anticholinergic (antimuscarinic) activity. First-generation antihistamines are lipophilic and readily cross the blood–brain barrier, where they block central H1 histamine receptors. This central H1 blockade produces sedation — the same mechanism exploited by widely used OTC sleep aids such as diphenhydramine and doxylamine.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات الدوائية المعروفة، يتم تصنيف الكلوروفينوكسامين كمضاد هيستامين من الجيل الأول عامل على المستقبلات H1 مع نشاط مضاد للكولين ملحوظ. مضادات الهيستامين من الجيل الأول هي مجنبة للدهون وتخترق بسهولة حاجز الدم-الدماغ، حيث تحجب مستقبلات الهيستامين H1 المركزية. يؤدي حجب H1 المركزي هذا إلى التهدئة — نفس الآلية التي يتم استغلالها بواسطة مساعدات النوم التي تُصرف بدون وصفة طبية على نطاق واسع مثل ديفينهيدرامين ودوكسيلامين.
 
-The TxGNN model's high prediction score (0.994, rank 8,761 overall) most likely reflects this pharmacological class similarity. Within the knowledge graph, Chlorphenoxamine shares structural and mechanistic features with established sedating antihistamines that already have insomnia indications, making the model's inference biologically plausible even in the absence of direct clinical trial data.
+درجة التنبؤ العالية للنموذج TxGNN (0.994، ترتيب 8,761 إجمالاً) يعكس على الأغلب التشابه في الفئة الدوائية هذه. ضمن الرسم البياني للمعرفة، يشترك الكلوروفينوكسامين في خصائص هيكلية وآلية مع مضادات الهيستامين المهدئة المعروفة التي لديها بالفعل مؤشرات للأرق، مما يجعل استدلال النموذج معقولاً بيولوجياً حتى في غياب بيانات التجارب السريرية المباشرة.
 
-It is important to note, however, that the model score is derived from graph topology and class-level features rather than from Chlorphenoxamine-specific insomnia studies. The complete absence of clinical trial and literature evidence, combined with the drug's non-marketed status, means this prediction cannot yet be upgraded beyond model-level evidence (L5).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+من المهم ملاحظة، مع ذلك، أن درجة النموذج مشتقة من طوبولوجيا الرسم البياني والميزات على مستوى الفئة بدلاً من دراسات الأرق الخاصة بالكلوروفينوكسامين. يعني الغياب التام لبيانات التجارب السريرية والأدبيات، مقترناً بحالة الدواء غير المسوقة والفجوات في البيانات عبر آلية العمل وتحذيرات السلامة وموانع الاستعمال، أن هذا التنبؤ لا يمكن ترقيته بعد إلى ما وراء دليل مستوى النموذج (L5).
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** As a first-generation antihistamine with anticholinergic properties, class-level caution is warranted for patients with glaucoma, benign prostatic hyperplasia, urinary retention, or cognitive impairment. Concomitant use with other CNS depressants or anticholinergic agents may produce additive effects. These are class-level considerations and require verification against the actual product label before any clinical application.
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا تتوفر أدبيات ذات صلة حاليًا.
 
-**Rationale:**
-The TxGNN prediction is pharmacologically coherent — Chlorphenoxamine's class-level mechanism (central H1 blockade) is the established basis for sedating antihistamines used in insomnia — but the complete absence of clinical trial or literature evidence specific to this compound, combined with its non-marketed status and data gaps across MOA, safety warnings, and contraindications, means the evidence base is insufficient to proceed.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **MOA confirmation**: Retrieve full DrugBank entry to confirm receptor binding profile and pharmacokinetic parameters (BBB penetration, half-life, sedation onset)
-- **Safety data**: Obtain and parse the package insert (TFDA or original country of approval) to populate key warnings, contraindications, and drug interaction data — currently all marked as Data Gap
-- **Literature search expansion**: Broaden PubMed search beyond the insomnia pairing to include sedation, antihistamine sleep, and Chlorphenoxamine-specific pharmacology studies
-- **Regulatory status clarification**: Determine in which countries (if any) Chlorphenoxamine is currently approved, and whether any approval includes sedation or sleep-related indications
-- **Comparative positioning**: Assess whether Chlorphenoxamine offers any advantage over already-established OTC sleep antihistamines (diphenhydramine, doxylamine) in terms of duration of action, tolerability, or next-day impairment before investing in a full repurposing program
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+> **ملاحظة:** كمضاد هيستامين من الجيل الأول مع خصائص مضادة للكولين، يُنصح بتوخي الحذر على مستوى الفئة للمرضى الذين يعانون من الجلوكوما، وتضخم البروستاتا الحميد، واحتباس البول، أو الضعف الإدراكي. قد يؤدي الاستخدام المتزامن مع مثبطات الجهاز العصبي المركزي الأخرى أو عوامل مضادة للكولين إلى تأثيرات إضافية. هذه اعتبارات على مستوى الفئة وتتطلب التحقق مقابل ملصق المنتج الفعلي قبل أي تطبيق سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: التأجيل**
+
+**الأساس المنطقي:**
+التنبؤ بـ TxGNN معقول دوائياً — آلية الكلوروفينوكسامين على مستوى الفئة (حجب H1 المركزي) هي الأساس المعروف لمضادات الهيستامين المهدئة المستخدمة في الأرق — لكن الغياب التام لبيانات التجارب السريرية أو الأدبيات الخاصة بهذا المركب، مقترناً بحالته غير المسوقة والفجوات في البيانات عبر آلية العمل وتحذيرات السلامة وموانع الاستعمال، يعني أن قاعدة الأدلة غير كافية للمتابعة.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **تأكيد آلية العمل**: استرجاع إدخال قاعدة بيانات DrugBank الكاملة لتأكيد ملف تعريف ربط المستقبلات والمعاملات الحركية الدوائية (اختراق حاجز الدم-الدماغ، نصف العمر، ظهور التهدئة)
+- **بيانات السلامة**: الحصول على النشرة الدوائية وتحليلها (TFDA أو الدولة الأصلية للموافقة) لإدراج التحذيرات الرئيسية وموانع الاستعمال وبيانات التفاعلات الدوائية — جميعها حالياً معلمة كفجوة بيانات
+- **توسيع البحث الأدبي**: توسيع نطاق البحث في PubMed إلى ما وراء الأرق ليشمل دراسات التهدئة وأبحاث النوم مع مضادات الهيستامين والدراسات الصيدلانية الخاصة بالكلوروفينوكسامين
+- **توضيح الحالة التنظيمية**: تحديد الدول التي تمت الموافقة فيها (إن وجدت) على الكلوروفينوكسامين حالياً، وما إذا كانت أي موافقة تشمل التهدئة أو المؤشرات المتعلقة بالنوم
+- **التموضع المقارن**: تقييم ما إذا كان الكلوروفينوكسامين يوفر أي ميزة على مضادات الهيستامين المهدئة التي تُصرف بدون وصفة طبية والمعروفة بالفعل (ديفينهيدرامين ودوكسيلامين) من حيث مدة العمل والتحمل أو الاختلال في اليوم التالي قبل الاستثمار في برنامج إعادة استخدام كامل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

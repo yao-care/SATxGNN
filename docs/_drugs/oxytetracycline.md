@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Oxytetracycline: From Bacterial Infections to Otitis Externa
+# أوكسيتتراسيكلين: من الالتهابات البكتيرية إلى التهاب الأذن الخارجية
 
-> **Note on indication selection:** This evidence pack contains 10 TxGNN-predicted indications for oxytetracycline. The top-ranked candidate by TxGNN score alone (chronic rhinosinusitis, score 99.61%) has **zero** supporting trials or literature (Evidence Level L5, Hold). This report instead features **otitis externa** (rank 10, score 99.27%), the only candidate that reached decision stage S3 with actual clinical literature. The other 9 low-evidence candidates are summarized in the appendix at the end of this report.
+> **ملاحظة حول اختيار المؤشر الطبي:** تحتوي هذه الحزمة الدليلية على 10 مؤشرات طبية متنبأ بها من قبل TxGNN لأوكسيتتراسيكلين. المرشح الأعلى تصنيفاً حسب درجة TxGNN وحدها (التهاب الجيوب الأنفية المزمن، درجة 99.61%) لا يملك **صفر** تجارب سريرية أو أدلة أدبية داعمة (مستوى الدليل L5، قيد الانتظار). يركز هذا التقرير بدلاً من ذلك على **التهاب الأذن الخارجية** (الترتيب 10، درجة 99.27%)، وهو الخيار الوحيد الذي وصل إلى مرحلة القرار S3 مع وجود أدلة سريرية فعلية. تم تلخيص المرشحين الـ 9 الآخرين منخفضي مستوى الدليل في الملحق في نهاية هذا التقرير.
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Oxytetracycline is a broad-spectrum tetracycline-class antibiotic historically used to treat bacterial infections. The TxGNN model predicts it may be effective for **otitis externa (external ear infection)**, a use consistent with its long-standing off-label/historical topical application (often combined with hydrocortisone and polymyxin B, e.g. Terra-Cortril). No dedicated repurposing clinical trials exist, but **20 publications**, including multiple randomized comparative studies, support this direction.
+أوكسيتتراسيكلين هو مضاد حيوي ذو طيف واسع من فئة التتراسيكلين يتم استخدامه تاريخياً لعلاج الالتهابات البكتيرية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الأذن الخارجية (عدوى الأذن الخارجية)**، وهو استخدام متسق مع تطبيقه الموضعي خارج النشرة والاستخدام التاريخي الطويل (غالباً ما يكون مدمجاً مع الهيدروكورتيزون وعديد ميكسين ب، على سبيل المثال Terra-Cortril). لا توجد تجارب سريرية مخصصة لإعادة الاستخدام، لكن **20 منشور**، بما فيها عدة دراسات عشوائية محكومة مقارنة، تدعم هذا الاتجاه.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no DrugBank/regulatory indication text retrieved); by established pharmacological class, oxytetracycline is a broad-spectrum tetracycline antibacterial |
-| Predicted New Indication | Otitis Externa |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الطبي الأصلي | لم يتم توثيقه في هذه الحزمة الدليلية (لم يتم استرجاع نص المؤشر الطبي من DrugBank/التنظيمي)؛ حسب فئة الدواء الدوائية المعروفة، أوكسيتتراسيكلين هو مضاد حيوي بكتيري ذو طيف واسع |
+| المؤشر الطبي الجديد المتنبأ به | التهاب الأذن الخارجية |
+| درجة التنبؤ من TxGNN | 99.27% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this pack). Based on known pharmacology, oxytetracycline is part of the tetracycline class of antibiotics, which act by inhibiting bacterial protein synthesis via binding to the 30S ribosomal subunit, giving broad-spectrum bacteriostatic activity against common Gram-positive and Gram-negative pathogens.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (تم وضع علامة عليها كفجوة بيانات ذات أهمية عالية في هذه الحزمة). بناءً على الدراسات الدوائية المعروفة، أوكسيتتراسيكلين هو جزء من فئة التتراسيكلين من المضادات الحيوية، والتي تعمل بمنع تخليق البروتين البكتيري عن طريق الارتباط بوحدة الريبوسوم 30S، مما يعطي نشاطاً مثبطاً للبكتيريا ذو طيف واسع ضد مسببات الأمراض الشائعة الموجبة والسالبة لصبغة جرام.
 
-Otitis externa is most commonly caused by *Staphylococcus aureus* and *Pseudomonas aeruginosa*, both susceptible to topical tetracyclines. This is not a novel biological hypothesis — topical oxytetracycline (often combined with hydrocortisone ± polymyxin B, marketed historically as Terra-Cortril) has been used clinically for external ear infections since the 1950s. The TxGNN prediction therefore recovers a pharmacologically well-established use rather than an untested mechanistic leap, which is consistent with its comparatively strong literature support relative to the other 9 candidates in this pack (all Evidence Level L5, mechanism-only reasoning with no clinical data).
+التهاب الأذن الخارجية يكون في الغالب بسبب *Staphylococcus aureus* و *Pseudomonas aeruginosa*، وكلاهما حساس للتتراسيكلينات الموضعية. هذا ليس فرضية بيولوجية جديدة — أوكسيتتراسيكلين الموضعي (غالباً ما يكون مدمجاً مع الهيدروكورتيزون ± عديد ميكسين ب، تم تسويقه تاريخياً باسم Terra-Cortril) تم استخدامه سريرياً لالتهابات الأذن الخارجية منذ الخمسينات. التنبؤ من TxGNN بالتالي يستعيد استخداماً دوائياً معروفاً بشكل جيد بدلاً من قفزة ميكانيكية لم يتم اختبارها، وهذا متسق مع دعمه الأدبي القوي نسبياً مقارنة بالمرشحين الـ 9 الآخرين في هذه الحزمة (جميعهم مستوى دليل L5، استدلال ميكانيكي فقط بدون بيانات سريرية).
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [2415098](https://pubmed.ncbi.nlm.nih.gov/2415098/) | 1985 | RCT | Archives of Oto-Rhino-Laryngology | 55 patients with acute external otitis randomized to framycetin/gramicidin vs. oxytetracycline/hydrocortisone/polymyxin B; 78% cured overall, no significant difference between regimens |
-| [1782715](https://pubmed.ncbi.nlm.nih.gov/1782715/) | 1991 | RCT | Clinical Otolaryngology | 10 patients with bilateral otitis externa compared dressing vs. sump-filling administration of the same topical antibiotic/steroid preparation; 9/10 ears improved in each group |
-| [2156538](https://pubmed.ncbi.nlm.nih.gov/2156538/) | 1990 | RCT (single-blind) | European Archives of Oto-Rhino-Laryngology | 46 patients with acute external otitis randomized to oxytetracycline/hydrocortisone/polymyxin B vs. hydrocortisone-17-butyrate; overall cure rate 80%, no significant difference |
-| [8222746](https://pubmed.ncbi.nlm.nih.gov/8222746/) | 1993 | Cohort (comparative) | Current Medical Research and Opinion | 30 patients randomized to ciprofloxacin drops vs. oxytetracycline/polymyxin B/hydrocortisone; clinical and bacteriological outcomes compared over 8 days |
-| [12564664](https://pubmed.ncbi.nlm.nih.gov/12564664/) | 2002 | Cohort (comparative) | Current Medical Research and Opinion | Compared otic powder vs. Dex-Otic drops (antibacterial/anti-inflammatory formulations) for otitis externa treatment |
-| [15823803](https://pubmed.ncbi.nlm.nih.gov/15823803/) | 2005 | Animal study | Acta Oto-Laryngologica | Rat model of external otitis (*P. aeruginosa*/*C. albicans*) cured by topical group III steroid alone; questions the added value of the antibiotic component |
-| [15949095](https://pubmed.ncbi.nlm.nih.gov/15949095/) | 2005 | RCT | The Journal of Laryngology and Otology | 51 patients, open randomized multicentre trial comparing betamethasone alone vs. hydrocortisone/oxytetracycline/polymyxin B; explores whether the antibiotic component is necessary |
-| [11583468](https://pubmed.ncbi.nlm.nih.gov/11583468/) | 2001 | Animal study | European Archives of Oto-Rhino-Laryngology | Rat external otitis model comparing steroid alone vs. hydrocortisone+oxytetracycline (± polymyxin B) vs. saline control |
-| [14412537](https://pubmed.ncbi.nlm.nih.gov/14412537/) | 1959 | Case series | Monatsschrift für Ohrenheilkunde | Early clinical report on treatment of otitis externa with oxytetracycline and hydrocortisone |
-| [13447965](https://pubmed.ncbi.nlm.nih.gov/13447965/) | 1957 | Case series | Eye, Ear, Nose & Throat Monthly | Historical case series on treatment of otitis externa with Terra-Cortril (oxytetracycline/hydrocortisone) suspension |
+| [2415098](https://pubmed.ncbi.nlm.nih.gov/2415098/) | 1985 | تجربة عشوائية محكومة | Archives of Oto-Rhino-Laryngology | 55 مريض يعانون من التهاب الأذن الخارجية الحاد تم تقسيمهم عشوائياً إلى فراميسيتين/جراميسيدين مقابل أوكسيتتراسيكلين/هيدروكورتيزون/عديد ميكسين ب؛ 78% شفاء إجمالي، لا فرق كبير بين المنظمات |
+| [1782715](https://pubmed.ncbi.nlm.nih.gov/1782715/) | 1991 | تجربة عشوائية محكومة | Clinical Otolaryngology | 10 مرضى يعانون من التهاب الأذن الخارجية الثنائي قورنوا بين الضمادة مقابل ملء السامة من نفس تحضير المضاد الحيوي الموضعي/الستيروئيد؛ 9/10 آذان تحسنت في كل مجموعة |
+| [2156538](https://pubmed.ncbi.nlm.nih.gov/2156538/) | 1990 | تجربة عشوائية محكومة (عمياء مفردة) | European Archives of Oto-Rhino-Laryngology | 46 مريض يعانون من التهاب الأذن الخارجية الحاد تم تقسيمهم عشوائياً إلى أوكسيتتراسيكلين/هيدروكورتيزون/عديد ميكسين ب مقابل هيدروكورتيزون-17-بيوتيرات؛ معدل الشفاء الإجمالي 80%، لا فرق كبير |
+| [8222746](https://pubmed.ncbi.nlm.nih.gov/8222746/) | 1993 | دراسة الأتراب (مقارنة) | Current Medical Research and Opinion | 30 مريض تم تقسيمهم عشوائياً إلى قطرات سيبروفلوكساسين مقابل أوكسيتتراسيكلين/عديد ميكسين ب/هيدروكورتيزون؛ تمت مقارنة النتائج السريرية والبكتيرية على مدى 8 أيام |
+| [12564664](https://pubmed.ncbi.nlm.nih.gov/12564664/) | 2002 | دراسة الأتراب (مقارنة) | Current Medical Research and Opinion | قارنت مسحوق أذني مقابل قطرات Dex-Otic (تحضيرات مضادة للبكتيريا/مضادة للالتهاب) لعلاج التهاب الأذن الخارجية |
+| [15823803](https://pubmed.ncbi.nlm.nih.gov/15823803/) | 2005 | دراسة على الحيوانات | Acta Oto-Laryngologica | نموذج الفئران لالتهاب الأذن الخارجية (*P. aeruginosa*/*C. albicans*) تم الشفاء منه بواسطة ستيروئيد موضعي من المجموعة الثالثة وحده؛ يطرح تساؤلات حول القيمة الإضافية لمكون المضاد الحيوي |
+| [15949095](https://pubmed.ncbi.nlm.nih.gov/15949095/) | 2005 | تجربة عشوائية محكومة | The Journal of Laryngology and Otology | 51 مريض، تجربة عشوائية مفتوحة متعددة المراكز تقارن بين بيتاميثازون وحده مقابل هيدروكورتيزون/أوكسيتتراسيكلين/عديد ميكسين ب؛ استكشاف ما إذا كان مكون المضاد الحيوي ضرورياً |
+| [11583468](https://pubmed.ncbi.nlm.nih.gov/11583468/) | 2001 | دراسة على الحيوانات | European Archives of Oto-Rhino-Laryngology | نموذج التهاب الأذن الخارجية في الفئران يقارن بين ستيروئيد وحده مقابل هيدروكورتيزون+أوكسيتتراسيكلين (± عديد ميكسين ب) مقابل تحكم المحلول الملحي |
+| [14412537](https://pubmed.ncbi.nlm.nih.gov/14412537/) | 1959 | سلسلة حالات | Monatsschrift für Ohrenheilkunde | تقرير سريري مبكر عن علاج التهاب الأذن الخارجية بأوكسيتتراسيكلين والهيدروكورتيزون |
+| [13447965](https://pubmed.ncbi.nlm.nih.gov/13447965/) | 1957 | سلسلة حالات | Eye, Ear, Nose & Throat Monthly | سلسلة حالات تاريخية عن علاج التهاب الأذن الخارجية بتعليق Terra-Cortril (أوكسيتتراسيكلين/هيدروكورتيزون) |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no marketed products in Saudi Arabia (0 authorizations recorded; market status: Not Marketed).
+لا توجد منتجات مسوقة حالياً في المملكة العربية السعودية (0 تراخيص مسجلة؛ حالة السوق: غير مسوق).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع الضمانات**
 
-**Rationale:**
-Multiple older randomized and comparative studies (1985–2005) support topical oxytetracycline/hydrocortisone±polymyxin B as an effective treatment for otitis externa, and this mirrors decades of real-world off-label/historical use (e.g., Terra-Cortril). However, no trial was designed as a formal TxGNN-repurposing validation, several studies are small or dated, and two more recent studies (PMID 15823803, 15949095) suggest steroid alone may be sufficient without the antibiotic component — evidence is directionally supportive but not conclusive.
+**المبرر:**
+عدة دراسات أقدم عشوائية ومقارنة (1985–2005) تدعم أوكسيتتراسيكلين الموضعي/هيدروكورتيزون±عديد ميكسين ب كعلاج فعال لالتهاب الأذن الخارجية، وهذا يعكس عقوداً من الاستخدام الفعلي خارج النشرة/الاستخدام التاريخي (على سبيل المثال، Terra-Cortril). لكن لم يتم تصميم تجربة واحدة كتحقق رسمي من إعادة الاستخدام من TxGNN، عدة دراسات صغيرة أو قديمة، ودراستان أكثر حداثة (PMID 15823803, 15949095) تشير إلى أن الستيروئيد وحده قد يكون كافياً بدون مكون المضاد الحيوي — الدليل داعم في الاتجاه لكن ليس قاطعاً.
 
-**To proceed, the following is needed:**
-- TFDA/Saudi regulatory package insert data (currently a Blocking data gap — required before any safety pre-assessment)
-- Confirmed mechanism of action documentation from DrugBank
-- A formal DDI and contraindication review (current query returned no data)
-- Since the drug is not currently marketed in Saudi Arabia, a registration/import feasibility assessment would be needed before this indication could be operationalized
+**للمضي قدماً، ما يلي مطلوب:**
+- بيانات نشرة TFDA/السعودية التنظيمية (حالياً فجوة بيانات محظورة — مطلوبة قبل أي تقييم ما قبل السلامة)
+- توثيق آلية العمل المؤكد من DrugBank
+- تقييم DDI شامل ومراجعة موانع الاستخدام (لم يعود الاستعلام الحالي ببيانات)
+- بما أن الدواء لا يتم تسويقه حالياً في المملكة العربية السعودية، فإن تقييم جدوى التسجيل/الاستيراد سيكون مطلوباً قبل أن يمكن تشغيل هذا المؤشر الطبي
 
 ---
 
-### Appendix: Other Predicted Indications (Low Evidence, Not Actionable)
+### الملحق: المؤشرات الطبية الأخرى المتنبأ بها (دليل منخفض، غير قابل للتنفيذ)
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision |
+| الترتيب | المرض | درجة TxGNN | مستوى الدليل | القرار |
 |------|---------|-------------|-----------------|----------|
-| 1 | Chronic rhinosinusitis | 99.61% | L5 | Hold |
-| 2 | Chronic ethmoidal sinusitis | 99.61% | L5 | Hold |
-| 3 | Paranasal sinus neoplasm | 99.58% | L5 | Hold |
-| 4 | Punctate epithelial keratoconjunctivitis | 99.52% | L5 | Hold |
-| 5 | Postinfectious vasculitis | 99.37% | L5 | Hold |
-| 6 | Post-bacterial disorder | 99.35% | L3 | Research Question (1 terminated, underpowered osteomyelitis trial, n=11) |
-| 7 | Post-infectious syndrome | 99.33% | L5 | Hold |
-| 8 | Infective urethral stricture | 99.28% | L5 | Hold |
-| 9 | Chagas cardiomyopathy | 99.27% | L5 | Hold (mechanistically implausible — antiparasitic activity not established) |
+| 1 | التهاب الجيوب الأنفية المزمن | 99.61% | L5 | قيد الانتظار |
+| 2 | التهاب الجيوب الغربالية المزمن | 99.61% | L5 | قيد الانتظار |
+| 3 | ورم الجيوب الأنفية | 99.58% | L5 | قيد الانتظار |
+| 4 | التهاب الملتحمة القشري النقطي | 99.52% | L5 | قيد الانتظار |
+| 5 | التهاب الأوعية الدموية بعد العدوى | 99.37% | L5 | قيد الانتظار |
+| 6 | اضطراب ما بعد البكتيري | 99.35% | L3 | سؤال بحثي (1 منتهي، تجربة ضعيفة التحمل، n=11) |
+| 7 | متلازمة ما بعد العدوى | 99.33% | L5 | قيد الانتظار |
+| 8 | تضيق احليل معدي | 99.28% | L5 | قيد الانتظار |
+| 9 | اعتلال القلب من داء شاغاس | 99.27% | L5 | قيد الانتظار (غير معقول ميكانيكياً — لم يتم تحديد النشاط المضاد للطفيليات) |
 
-These candidates have no clinical trial or literature support beyond mechanistic reasoning and are not recommended for further action at this time.
+هذه المرشحات ليس لديها دعم من تجارب سريرية أو أدب بعد استدلال ميكانيكي وغير موصى به لمزيد من الإجراءات في الوقت الحاضر.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,61 +29,62 @@ indication_count: 1
 
 </div>
 
-# Ferrous Fumarate: From Undocumented Original Indication to Non-syndromic Esophageal Malformation
+# فومارات الحديدوز: من مؤشر أصلي غير موثق إلى التشوه غير المتلازمي للمريء
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ferrous fumarate is an oral iron supplement; the evidence pack does not document a confirmed original indication for this candidate, and the drug is not currently marketed in Saudi Arabia. The TxGNN model predicts a possible link to **non-syndromic esophageal malformation** with a very high score (99.49%), but **no clinical trials and no literature** currently support this direction, and the underlying rationale itself flags the prediction as likely graph noise rather than a real biological hypothesis.
+فومارات الحديدوز هو مكمل حديد عن طريق الفم؛ مجموعة الأدلة لا توثق مؤشرًا أصليًا مؤكدًا لهذا المرشح، والدواء غير مسوق حاليًا في المملكة العربية السعودية. يتنبأ نموذج TxGNN برابط محتمل إلى **التشوه غير المتلازمي للمريء** برصيد عالي جدًا (99.49%)، لكن **لا توجد حاليًا تجارب سريرية ولا أدبيات** تدعم هذا الاتجاه، والمبرر الأساسي نفسه يشير إلى أن التنبؤ على الأرجح يعكس ضوضاء شبكة المعرفة بدلاً من فرضية بيولوجية حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no license or indication data available) |
-| Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق في مجموعة الأدلة (لا توجد بيانات ترخيص أو مؤشر متاحة) |
+| المؤشر الجديد المتنبأ به | التشوه غير المتلازمي للمريء |
+| درجة التنبؤ من TxGNN | 99.49% |
+| مستوى الأدلة | L5 (توقع النموذج فقط، لا توجد دراسات داعمة) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available for ferrous fumarate in this evidence pack. Based on known pharmacology, ferrous fumarate is an oral iron salt used to correct iron deficiency and supply iron for hemoglobin synthesis — its pharmacological action does not extend to any known pathway involved in esophageal development, neural crest cell differentiation, or foregut septation, which are the processes underlying esophageal malformation.
+بيانات آلية العمل الفصلية غير متاحة لفومارات الحديدوز في مجموعة الأدلة هذه. بناءً على الصيدلة المعروفة، فومارات الحديدوز هو ملح حديد عن طريق الفم يُستخدم لتصحيح نقص الحديد وتوفير الحديد لتخليق الهيموجلوبين — لا يمتد تأثيره الصيدلاني إلى أي مسار معروف متورط في تطور المريء أو تمايز خلايا القمة العصبية أو الفصل بين الأمعاء الأمامية، وهي العمليات التي تكمن وراء تشوه المريء.
 
-Non-syndromic esophageal malformation is a congenital structural developmental anomaly, not an acquired physiological state that a drug would be expected to treat or prevent. No mechanistic bridge between iron metabolism and this condition is identifiable from available data.
+التشوه غير المتلازمي للمريء هو شذوذ نمائي هيكلي خلقي، وليس حالة فسيولوجية مكتسبة يُتوقع أن يعالجها أو يمنعها دواء. لا يمكن تحديد ارتباط آلي بين استقلاب الحديد وهذه الحالة من البيانات المتاحة.
 
-Given this, the high TxGNN score (0.995) most likely reflects an indirect, spurious connection between iron-metabolism-related nodes and rare congenital-disease nodes in the underlying knowledge graph, rather than a genuine biological hypothesis. The absence of a documented original indication, absent MOA data, and non-marketed status in Saudi Arabia further reduce confidence in this prediction.
+بناءً على ذلك، فإن درجة TxGNN العالية (0.995) على الأرجح تعكس اتصالاً غير مباشر ومزيف بين عُقد تتعلق باستقلاب الحديد وعُقد أمراض خلقية نادرة في الرسم البياني المعرفي الأساسي، بدلاً من فرضية بيولوجية حقيقية. يزيد غياب مؤشر أصلي موثق وبيانات آلية عمل غائبة وحالة عدم تسويق في المملكة العربية السعودية من تقليل الثقة في هذا التنبؤ.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available.
+لا توجد حاليًا أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Ferrous fumarate is not currently marketed in Saudi Arabia (0 authorizations on record); no product/license data is available.
+فومارات الحديدوز غير مسوق حاليًا في المملكة العربية السعودية (0 تصاريح في السجل)؛ لا توجد بيانات منتج/ترخيص متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not available in this evidence pack; a TFDA package insert lookup is flagged as a **blocking data gap** — see Next Steps.)
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية غير متاحة في مجموعة الأدلة هذه؛ تم الإشارة إلى بحث نشرة TFDA باعتباره **فجوة بيانات حاجزة** — انظر الخطوات التالية.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-There is no identifiable mechanistic link between ferrous fumarate and non-syndromic esophageal malformation, no supporting clinical trials or literature, and the TxGNN score is assessed as likely reflecting knowledge-graph noise rather than a real signal. Combined with the missing original-indication and safety data, this candidate does not meet the bar to advance past initial screening.
+**المبرر:**
+لا يوجد ارتباط آلي محدد بين فومارات الحديدوز والتشوه غير المتلازمي للمريء، ولا توجد تجارب سريرية أو أدبيات داعمة، ويتم تقييم درجة TxGNN على أنها تعكس على الأرجح ضوضاء الرسم البياني المعرفي بدلاً من إشارة حقيقية. إلى جانب البيانات الأصلية والأمان المفقودة والمؤشر، هذا المرشح لا يفي بمعيار المضي قدمًا بعد الفحص الأولي.
 
-**To proceed, the following is needed:**
-- TFDA/package-insert safety data (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action (DG002)
-- Confirmed original indication(s) for this candidate
-- Independent biological or pharmacological rationale connecting iron metabolism to esophageal malformation, beyond the TxGNN score alone
-- If pursued further, preclinical/mechanistic studies before any clinical evidence generation is warranted
+**لكي نمضي قدمًا، ما يلي مطلوب:**
+- بيانات سلامة TFDA/نشرة الدواء (التحذيرات والموانع) — حاليًا فجوة بيانات حاجزة (DG001)
+- آلية عمل مؤكدة (DG002)
+- مؤشر(ات) أصلي(ة) مؤكد(ة) لهذا المرشح
+- مبرر بيولوجي أو صيدلاني مستقل يربط استقلاب الحديد بتشوه المريء، بعيدًا عن درجة TxGNN وحدها
+- إذا تمت متابعته بشكل أكبر، يُنصح بإجراء دراسات آليات/ما قبل السريرية قبل توليد أي أدلة سريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

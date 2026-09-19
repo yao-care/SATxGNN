@@ -29,102 +29,103 @@ indication_count: 5
 
 </div>
 
-# Citalopram: From Depression to Obsessive-Compulsive Disorder
+# سيتالوبرام: من الاكتئاب إلى اضطراب الوسواس القهري
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Citalopram is a selective serotonin reuptake inhibitor (SSRI) originally developed for the treatment of major depressive disorder.
-The TxGNN model predicts it may be effective for **Obsessive-Compulsive Disorder (OCD)**,
-with **30 clinical trials** (predominantly studying its active enantiomer escitalopram at class level) and **16 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Major Depressive Disorder |
-| Predicted New Indication | Obsessive-Compulsive Disorder (OCD) |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+سيتالوبرام هو مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI) تم تطويره في الأصل لعلاج اضطراب الاكتئاب الرئيسي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الوسواس القهري (OCD)**،
+مع **30 تجربة سريرية** (تدرس بشكل أساسي المركب الإيزومر النشط إسسيتالوبرام على مستوى الفئة) و **16 منشورة** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data was not formally captured in this Evidence Pack. Based on known information, citalopram is a selective serotonin reuptake inhibitor (SSRI) that blocks the serotonin transporter (SERT), increasing synaptic serotonin (5-HT) availability in the central nervous system. Its efficacy in major depressive disorder is well established, and mechanistically this same serotonergic amplification is directly applicable to OCD.
-
-OCD is neurobiologically characterized by hyperactivation of the orbitofrontal cortex–striatum–thalamus–cortical (CSTC) circuit. Serotonergic modulation through SERT inhibition suppresses this compulsive loop, which is why SSRIs are recognized internationally as first-line pharmacotherapy for OCD. The class has Phase III RCT support across multiple members — fluvoxamine, sertraline, fluoxetine, and paroxetine among them.
-
-Citalopram shares the same core pharmacophore as escitalopram, which is simply its purified S-enantiomer. Two direct clinical publications from 1999 (PMID 10471169; PMID 10572334) already established citalopram's efficacy in OCD, including treatment-resistant cases. This structural kinship means the extensive escitalopram OCD evidence base can reasonably serve as class-level indirect support for citalopram, making the TxGNN prediction both mechanistically sound and clinically coherent.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|------|--------|-----------|-------------|
-| [NCT00086645](https://clinicaltrials.gov/study/NCT00086645) | Phase 2 | Completed | 149 | **Direct citalopram trial**: Citalopram vs placebo in children with autism and high levels of repetitive behavior — evaluates citalopram safety and efficacy in repetitive/compulsive symptom reduction |
-| [NCT00609531](https://clinicaltrials.gov/study/NCT00609531) | Phase 1 | Completed | 12 | **Direct citalopram trial**: fMRI evaluation of citalopram's effect on restricted repetitive behaviors in autism spectrum disorders — establishes neuroimaging feasibility of citalopram in psychiatric compulsive symptoms |
-| [NCT00305500](https://clinicaltrials.gov/study/NCT00305500) | Phase 3 | Completed | 100 | High-dose escitalopram (up to 50 mg/d) for OCD in outpatients — 18-week open-label study; strongest class-level indirect evidence (escitalopram is the S-enantiomer of citalopram) |
-| [NCT00723060](https://clinicaltrials.gov/study/NCT00723060) | Phase 4 | Completed | 176 | Randomized double-blind comparison of conventional (20 mg) vs high-dose (40 mg) escitalopram in OCD across multiple centers — large-sample dose-finding study with Y-BOCS, HAM-D, CGI endpoints |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | CBT augmentation for pediatric OCD patients with partial SRI response — evaluates SRI + cognitive behavioral therapy combination, Phase III design |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | OCD medication response prediction — randomized assignment to clomipramine or escitalopram; directly relevant to SSRI class response prediction in OCD |
-| [NCT00116532](https://clinicaltrials.gov/study/NCT00116532) | Phase 4 | Completed | 30 | Escitalopram efficacy and optimal dosing for OCD — provides class-level dosing and safety reference for SERT inhibitors in OCD |
-| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Phase 4 | Completed | 158 | Randomized open trial of group CBT vs SSRI (fluoxetine) in OCD — broad OCD population including comorbid conditions; SSRI arm demonstrates real-world efficacy |
-| [NCT03993535](https://clinicaltrials.gov/study/NCT03993535) | Phase 4 | Completed | 250 | Multi-site naturalistic follow-up (US, Brazil, India, Netherlands) of OCD patients with clinical, neurocognitive, and neuroimaging variables — large international cohort, SSRI as standard treatment |
-| [NCT03068429](https://clinicaltrials.gov/study/NCT03068429) | Phase 4 | Completed | 69 | Fear conditioning and extinction in OCD before/after sertraline treatment with fMRI — directly demonstrates SSRI modulation of OCD neural circuitry |
+| العنصر | المحتوى |
+|-------|---------|
+| المؤشر الأصلي | اضطراب الاكتئاب الرئيسي |
+| المؤشر المتنبأ به الجديد | اضطراب الوسواس القهري (OCD) |
+| درجة تنبؤ TxGNN | 99.74% |
+| مستوى الدليل | L2 |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Case Series / Early Clinical Trial | Int Clin Psychopharmacol | **Direct citalopram evidence**: "Beyond depression: citalopram for OCD" — early clinical demonstration of citalopram's anti-obsessional efficacy; reviews the serotonin–OCD connection and early citalopram trial data |
-| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | Case Series / Retrospective | Eur Psychiatry | **Direct citalopram evidence**: 90-day randomized open-label trial of citalopram ± clomipramine in 16 treatment-resistant OCD patients (Y-BOCS ≥25, failed clomipramine and fluoxetine); demonstrates citalopram utility in refractory cases |
-| [38703743](https://pubmed.ncbi.nlm.nih.gov/38703743/) | 2024 | Systematic Review | Compr Psychiatry | Long-term safety and tolerability of off-label high-dose SRIs in OCD — most recent systematic safety review; key reference for dose escalation considerations |
-| [35121274](https://pubmed.ncbi.nlm.nih.gov/35121274/) | 2022 | Meta-Analysis | J Psychiatr Res | Network meta-analysis comparing pharmacological, psychological, and combined treatments in children and adolescents with OCD — SSRIs demonstrate consistent efficacy across treatment arms |
-| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Meta-Analysis | J Affect Disord | OCD shows significantly reduced placebo (and antidepressant) response compared to other anxiety disorders — highlights that active drug effect in OCD RCTs is genuine and not placebo-driven |
-| [35818708](https://pubmed.ncbi.nlm.nih.gov/35818708/) | 2022 | Systematic Review | Expert Opin Pharmacother | Systematic review of RCTs for pharmacotherapy in obsessive-compulsive spectrum — evaluates current SSRI evidence quality and identifies research gaps |
-| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Meta-Review | Front Psychiatry | Meta-review of antidepressant efficacy and suicidality across pediatric psychiatric disorders including OCD — confirms SSRI efficacy signal in pediatric OCD with acceptable tolerability |
-| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | Review | BMJ Clin Evid | Comprehensive OCD evidence review: ~1–1.5% adult prevalence, episodic vs chronic course, established role of SSRIs as first-line pharmacotherapy |
-| [32242450](https://pubmed.ncbi.nlm.nih.gov/32242450/) | 2020 | Systematic Review | Nord J Psychiatry | Systematic review and meta-analysis of fluoxetine in pediatric OCD — class-level SSRI evidence supporting efficacy and safety in younger populations |
-| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | Review | World J Biol Psychiatry | "OCD: serotonin and beyond" — foundational mechanistic review of serotonergic pathways in OCD; establishes the scientific rationale for SSRI class use in this disorder |
+لم يتم التقاط بيانات آلية العمل التفصيلية رسمياً في حزمة الأدلة هذه. بناءً على المعلومات المعروفة، سيتالوبرام هو مثبط انتقائي لإعادة امتصاص السيروتونين (SSRI) يحجب ناقل السيروتونين (SERT)، مما يزيد من توفر السيروتونين المشبكي (5-HT) في الجهاز العصبي المركزي. إن فعاليته في اضطراب الاكتئاب الرئيسي راسخة جيداً، وآلياً، هذا التضخيم السيروتونيرجي نفسه قابل للتطبيق بشكل مباشر على الوسواس القهري.
+
+يتميز الوسواس القهري من الناحية البيولوجية العصبية بالتفعيل الزائد للدائرة القشرية الجبينية الحصيفة–الجسم المخطط–المهاد–القشرية (CSTC). ينتج عن التعديل السيروتونيرجي من خلال منع SERT قمع هذه الحلقة الإجبارية، وهذا هو السبب في أن SSRIs معترف بها دولياً كعلاج دوائي من الخطوط الأولى للوسواس القهري. تتمتع الفئة بدعم تجارب عشوائية مضبوطة من المرحلة الثالثة عبر أعضائها المتعددة - من بينهم فلوفوكسامين، وسيرترالين، وفلوكسيتين، وباروكسيتين.
+
+يشارك سيتالوبرام نفس الصيدلة الجزيئية الأساسية مثل إسسيتالوبرام، وهو ببساطة محصلة S نقية. أثبتت منشورتان سريريتان مباشرتان من عام 1999 (PMID 10471169؛ PMID 10572334) فعالية سيتالوبرام بالفعل في الوسواس القهري، بما في ذلك الحالات المقاومة للعلاج. تعني هذه الارتباطات الهيكلية أن قاعدة أدلة الوسواس القهري الواسعة من إسسيتالوبرام يمكن أن تخدم بشكل معقول كدعم غير مباشر على مستوى الفئة لسيتالوبرام، مما يجعل تنبؤ TxGNN معقول من الناحية الآلية ومتسق من الناحية السريرية.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجربة السريرية
 
-Citalopram currently holds **no marketing authorizations** in Saudi Arabia. The drug is not commercially available through the SFDA-regulated market. Any clinical use would require a special import approval or compassionate-use access pathway under SFDA regulations.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|-----------|--------|--------|--------|-----------------|
+| [NCT00086645](https://clinicaltrials.gov/study/NCT00086645) | المرحلة 2 | مكتملة | 149 | **تجربة سيتالوبرام المباشرة**: سيتالوبرام مقابل الدواء الوهمي لدى الأطفال المصابين بالتوحد والسلوك المتكرر المرتفع — تقيم سلامة وفعالية سيتالوبرام في تقليل الأعراض المتكررة/الإجبارية |
+| [NCT00609531](https://clinicaltrials.gov/study/NCT00609531) | المرحلة 1 | مكتملة | 12 | **تجربة سيتالوبرام المباشرة**: تقييم fMRI لتأثير سيتالوبرام على السلوكيات المكررة المقيدة في اضطرابات طيف التوحد — ينشئ جدوى التصوير العصبي لسيتالوبرام في أعراض الاضطراب النفسي الإجبارية |
+| [NCT00305500](https://clinicaltrials.gov/study/NCT00305500) | المرحلة 3 | مكتملة | 100 | إسسيتالوبرام عالي الجرعة (حتى 50 ملغ/يوم) للوسواس القهري لدى المرضى الخارجيين — دراسة مفتوحة لمدة 18 أسبوعاً؛ أقوى دليل غير مباشر على مستوى الفئة (إسسيتالوبرام هو محصلة S من سيتالوبرام) |
+| [NCT00723060](https://clinicaltrials.gov/study/NCT00723060) | المرحلة 4 | مكتملة | 176 | مقارنة عشوائية مزدوجة التعمية للإسسيتالوبرام التقليدي (20 ملغ) مقابل عالي الجرعة (40 ملغ) للوسواس القهري عبر مراكز متعددة — دراسة تحديد الجرعة بحجم عينة كبيرة مع نقاط النهاية Y-BOCS و HAM-D و CGI |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | المرحلة 3 | مكتملة | 124 | تعزيز CBT لمرضى الوسواس القهري الأطفال الذين لم يستجيبوا بشكل كامل لـ SRI — يقيم مجموعة SRI + العلاج السلوكي المعرفي، تصميم المرحلة الثالثة |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | غير محدد | مكتملة | 26 | توقع استجابة دواء الوسواس القهري — التخصيص العشوائي لكلوميبرامين أو إسسيتالوبرام؛ مرتبط مباشرة بتنبؤ استجابة فئة SSRI في الوسواس القهري |
+| [NCT00116532](https://clinicaltrials.gov/study/NCT00116532) | المرحلة 4 | مكتملة | 30 | فعالية إسسيتالوبرام والجرعة المثالية للوسواس القهري — توفر مرجع الجرعات والسلامة على مستوى الفئة لمثبطات SERT في الوسواس القهري |
+| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | المرحلة 4 | مكتملة | 158 | تجربة مفتوحة عشوائية من CBT الجماعي مقابل SSRI (فلوكسيتين) في الوسواس القهري — السكان الواسعون بما في ذلك الحالات المرضية المصاحبة؛ ذراع SSRI يوضح الفعالية في العالم الحقيقي |
+| [NCT03993535](https://clinicaltrials.gov/study/NCT03993535) | المرحلة 4 | مكتملة | 250 | متابعة طبيعية متعددة المواقع (الولايات المتحدة والبرازيل والهند وهولندا) لمرضى الوسواس القهري مع متغيرات سريرية وإدراكية عصبية وتصوير عصبي — مجموعة دولية كبيرة، SSRI كعلاج قياسي |
+| [NCT03068429](https://clinicaltrials.gov/study/NCT03068429) | المرحلة 4 | مكتملة | 69 | الخوف من التكييف والانقراض في الوسواس القهري قبل/بعد علاج سيرترالين مع fMRI — يوضح بشكل مباشر تعديل SSRI للدائرة العصبية للوسواس القهري |
 
 ---
 
-## Safety Considerations
+## أدلة الأدب
 
-Please refer to the package insert for safety information.
-
-> **Note for reviewers**: Safety data (key warnings, contraindications, drug-drug interactions) were not retrieved in this Evidence Pack. Before proceeding to clinical evaluation, the following known class-level risks should be independently verified: QTc prolongation at high doses (citalopram carries an FDA black-box equivalent warning for doses >40 mg), serotonin syndrome risk when combined with other serotonergic agents, and the general SSRI black-box warning regarding suicidality in patients under 25 years.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|--------|---------|-----------------|
+| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | سلسلة حالات / تجربة سريرية مبكرة | Int Clin Psychopharmacol | **دليل سيتالوبرام المباشر**: "ما بعد الاكتئاب: سيتالوبرام للوسواس القهري" — عرض توضيحي سريري مبكر لفعالية سيتالوبرام المضادة للهواجس؛ يراجع اتصال السيروتونين–الوسواس القهري والبيانات التجريبية المبكرة لسيتالوبرام |
+| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | سلسلة حالات / دراسة بأثر رجعي | Eur Psychiatry | **دليل سيتالوبرام المباشر**: تجربة عشوائية مفتوحة لمدة 90 يوم من سيتالوبرام ± كلوميبرامين في 16 مريضاً بالوسواس القهري المقاوم للعلاج (Y-BOCS ≥25، فشلوا في كلوميبرامين وفلوكسيتين)؛ يوضح فائدة سيتالوبرام في الحالات الصعبة |
+| [38703743](https://pubmed.ncbi.nlm.nih.gov/38703743/) | 2024 | مراجعة منهجية | Compr Psychiatry | الأمان والتحمل طويل الأجل لـ SRIs عالية الجرعة غير الموصوفة في الوسواس القهري — أحدث مراجعة منهجية للسلامة؛ مرجع رئيسي لاعتبارات تصعيد الجرعة |
+| [35121274](https://pubmed.ncbi.nlm.nih.gov/35121274/) | 2022 | تحليل تلوي | J Psychiatr Res | تحليل شبكي لمقارنة العلاجات الدوائية والنفسية والمشتركة في الأطفال والمراهقين المصابين بالوسواس القهري — تُظهر SSRIs فعالية متسقة عبر أذرع العلاج |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | تحليل تلوي | J Affect Disord | يُظهر الوسواس القهري استجابة دواء وهمي (ومضادات اكتئاب) مخفضة بشكل كبير مقارنة باضطرابات القلق الأخرى — يسلط الضوء على أن تأثير الدواء الفعلي في تجارب الوسواس القهري العشوائية حقيقي وليس ناتج عن الدواء الوهمي |
+| [35818708](https://pubmed.ncbi.nlm.nih.gov/35818708/) | 2022 | مراجعة منهجية | Expert Opin Pharmacother | مراجعة منهجية للتجارب العشوائية للعلاج الدوائي في طيف الوسواس القهري — يقيم جودة الأدلة الحالية من SSRI ويحدد فجوات البحث |
+| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | مراجعة فوقية | Front Psychiatry | مراجعة فوقية لفعالية مضادات الاكتئاب والانتحار عبر الاضطرابات النفسية عند الأطفال بما في ذلك الوسواس القهري — تؤكد إشارة الفعالية من SSRI في الوسواس القهري عند الأطفال مع قابلية تحمل مقبولة |
+| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | مراجعة | BMJ Clin Evid | مراجعة أدلة الوسواس القهري الشاملة: انتشار البالغين حوالي 1–1.5٪، السير الحلقي مقابل المزمن، الدور الراسخ للـ SSRIs كعلاج دوائي من الخطوط الأولى |
+| [32242450](https://pubmed.ncbi.nlm.nih.gov/32242450/) | 2020 | مراجعة منهجية | Nord J Psychiatry | مراجعة منهجية وتحليل تلوي لفلوكسيتين في الوسواس القهري عند الأطفال — أدلة SSRI على مستوى الفئة تدعم الفعالية والسلامة في السكان الأصغر سناً |
+| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | مراجعة | World J Biol Psychiatry | "الوسواس القهري: السيروتونين وما وراءه" — مراجعة آلية أساسية لمسارات السيروتونيرجية في الوسواس القهري؛ تنشئ الأساس العلمي لاستخدام فئة SSRI في هذا الاضطراب |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودي
 
-**Decision: Proceed with Guardrails**
+لا يمتلك سيتالوبرام حالياً **أي تفويضات تسويقية** في المملكة العربية السعودية. الدواء غير متاح تجارياً عبر السوق الخاضع لتنظيم هيئة الغذاء والدواء (SFDA). أي استخدام سريري سيتطلب موافقة استيراد خاصة أو مسار وصول إنساني بموجب لوائح SFDA.
 
-**Rationale:**
-Citalopram's SSRI mechanism directly targets the serotonergic dysregulation underlying OCD, and two published clinical studies using citalopram itself in OCD patients (1999) already exist. The extensive Phase 3/4 evidence base for its structural twin escitalopram provides strong class-level corroboration, placing this candidate at Evidence Level L2 — sufficient to advance with appropriate safeguards.
+---
 
-**To proceed, the following is needed:**
-- Retrieve formal MOA documentation from DrugBank (resolves Data Gap DG002)
-- Obtain Saudi Arabia–compliant package insert or equivalent label to complete safety pre-screening (resolves blocking Data Gap DG001)
-- Verify the QTc-prolongation profile and establish dose ceiling guidance for use in OCD (standard SSRI doses are generally within safe QTc range; high-dose escalation requires cardiac monitoring)
-- Review drug-drug interaction profile, particularly with MAO inhibitors (absolute contraindication), other serotonergic agents (serotonin syndrome risk), and CYP2C19 inhibitors/inducers that affect citalopram plasma levels
-- Assess SFDA market entry strategy — citalopram has no current Saudi authorization; a regulatory filing or named-patient program would be required before any clinical deployment
-- Consider a prospective open-label pilot study of citalopram specifically (not escitalopram) in OCD to generate drug-specific Level 1 evidence and close the evidence gap from indirect class extrapolation
+## اعتبارات الأمان
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات الأمان.
+
+> **ملاحظة للمراجعين**: لم يتم استرجاع بيانات السلامة (التحذيرات الرئيسية، موانع الاستعمال، التفاعلات الدوائية والدوائية) في حزمة الأدلة هذه. قبل المتابعة للتقييم السريري، يجب التحقق بشكل مستقل من المخاطر المعروفة على مستوى الفئة التالية: إطالة QTc عند الجرعات العالية (يحمل سيتالوبرام تحذيراً مكافئاً لـ FDA الصندوق الأسود لجرعات >40 ملغ)، خطر متلازمة السيروتونين عند دمجه مع العوامل السيروتونيرجية الأخرى، والتحذير الأسود من SSRI العام بشأن الانتحار في المرضى تحت 25 سنة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+آلية SSRI في سيتالوبرام تستهدف بشكل مباشر سوء التنظيم السيروتونيرجي الكامن وراء الوسواس القهري، وهناك بالفعل دراستان منشورتان سريريتان تستخدم سيتالوبرام نفسه في مرضى الوسواس القهري (1999). توفر قاعدة الأدلة الواسعة من المرحلة 3/4 لتوأمه الهيكلي إسسيتالوبرام تأييداً قوياً على مستوى الفئة، مما يضع هذا المرشح في مستوى الدليل L2 — كافٍ للمتابعة مع الضمانات المناسبة.
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع وثائق آلية العمل الرسمية من DrugBank (يحل فجوة البيانات DG002)
+- الحصول على نشرة سعودية الامتثال أو ما يعادلها لإكمال الفحص الأمني السابق (يحل فجوة البيانات الحجب DG001)
+- التحقق من ملف تعريف إطالة QTc وإنشاء إرشادات سقف الجرعة لاستخدامها في الوسواس القهري (الجرعات القياسية من SSRI عادة ما تكون ضمن نطاق QTc الآمن؛ يتطلب تصعيد الجرعة العالية المراقبة القلبية)
+- مراجعة ملف تفاعل الدواء والدواء، وخاصة مع مثبطات MAO (موانع مطلقة)، والعوامل السيروتونيرجية الأخرى (خطر متلازمة السيروتونين)، ومثبطات/محفزات CYP2C19 التي تؤثر على مستويات البلازما من سيتالوبرام
+- تقييم استراتيجية دخول سوق SFDA — لا يملك سيتالوبرام حالياً أي تفويضات سعودية؛ سيتطلب تقديم تنظيمي أو برنامج مريض مسمى قبل أي نشر سريري
+- النظر في دراسة تجريبية مفتوحة استباقية من سيتالوبرام على وجه التحديد (وليس إسسيتالوبرام) في الوسواس القهري لإنشاء أدلة خاصة بالدواء من المستوى 1 وإغلاق فجوة الأدلة من الاستقراء غير المباشر على مستوى الفئة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

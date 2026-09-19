@@ -29,60 +29,61 @@ indication_count: 9
 
 </div>
 
-# Fidaxomicin: From Clostridioides difficile Infection to Staphylococcal Scalded Skin Syndrome
+# Fidaxomicin: من عدوى Clostridioides difficile إلى متلازمة الجلد المسلوخ الناجمة عن العنقوديات
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Fidaxomicin is a narrow-spectrum macrocyclic antibiotic used clinically for *Clostridioides difficile* infection (CDI). The TxGNN model predicts possible efficacy in **Staphylococcal Scalded Skin Syndrome (SSSS)**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it is a model-only signal, and the drug's own antibacterial spectrum and pharmacokinetics argue against plausibility.
+يتم استخدام Fidaxomicin سريريًا كمضاد حيوي ماكروليدي ضيق الطيف لعدوى Clostridioides difficile (CDI). يتنبأ نموذج TxGNN بإمكانية الفعالية في **متلازمة الجلد المسلوخ الناجمة عن العنقوديات (SSSS)**، لكن هذا التنبؤ يدعمه حاليًا **صفر التجارب السريرية** و**صفر المنشورات** — إنها إشارة من النموذج فقط، وطيف المضادات الحيوية للعقار الخاص به والحرائك الدوائية تثير الشكوك حول قابلية التطبيق.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in evidence pack — `original_indications` and `licenses` are empty. Fidaxomicin's established clinical use is *Clostridioides difficile* infection (general pharmacological knowledge, not evidence-pack data) |
-| Predicted New Indication | Staphylococcal Scalded Skin Syndrome (SSSS) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لم يتم التقاطه في حزمة الأدلة — `original_indications` و`licenses` فارغة. الاستخدام السريري المعروف لـ Fidaxomicin هو عدوى Clostridioides difficile (معرفة دوائية عامة، وليس بيانات حزمة الأدلة) |
+| المؤشر الجديد المتنبأ به | متلازمة الجلد المسلوخ الناجمة عن العنقوديات (SSSS) |
+| درجة التنبؤ في TxGNN | 99.71% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، لا توجد تجارب سريرية أو أدبيات) |
+| حالة السوق في المملكة العربية السعودية | ✗ لم يتم التسويق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | مؤجل |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data for fidaxomicin is not available in this evidence pack (flagged as data gap **DG002**, High severity). Based on general pharmacological knowledge, fidaxomicin inhibits bacterial RNA polymerase and is approved specifically for CDI because of its near-zero systemic absorption after oral dosing — the drug stays concentrated in the gut lumen, which is exactly what CDI treatment requires.
+بيانات آلية عمل Fidaxomicin التفصيلية غير متاحة في حزمة الأدلة هذه (محددة كفجوة بيانات **DG002**، بخطورة عالية). بناءً على المعرفة الدوائية العامة، يثبط Fidaxomicin بوليميراز RNA البكتيري ويتم الموافقة عليه خصيصًا لـ CDI لأنه يتمتع بامتصاص جهازي يقارب الصفر بعد تناوله عن طريق الفم — يبقى العقار مركزًا في تجويف الأمعاء الغليظة، وهو بالضبط ما يتطلبه علاج CDI.
 
-That same property is the core problem for this prediction. The evidence pack's own mechanistic assessment states that SSSS is caused by exfoliative toxins from *Staphylococcus aureus* and requires systemic anti-staphylococcal therapy. Fidaxomicin's antibacterial spectrum does not cover *S. aureus*, and its negligible oral bioavailability means it cannot reach the systemic concentrations a skin/soft-tissue toxin-mediated disease would require.
+هذه الخاصية نفسها هي المشكلة الأساسية لهذا التنبؤ. يُبيّن تقييم الآلية الخاص بحزمة الأدلة أن SSSS ناجمة عن السموم القشّرية من Staphylococcus aureus وتتطلب العلاج الجهازي المضاد للعنقوديات. طيف Fidaxomicin المضاد للبكتيريا لا يغطي S. aureus، وامتصاصه الفموي القابل للإهمال يعني أنه لا يمكنه الوصول إلى التركيزات الجهازية المطلوبة لأمراض الجلد والأنسجة الرخوة الناجمة عن السموم.
 
-In short, the high TxGNN similarity score does not correspond to a plausible pharmacological pathway here — it more likely reflects graph-embedding proximity between infection-related disease nodes than an actual antimicrobial match. This assessment is consistent with the other 8 candidates in this batch (bullous impetigo, impetigo, botulism variants, vulvovaginal candidiasis, hordeolum, *S. aureus* pneumonia, punctate epithelial keratoconjunctivitis), all of which carry the same L5/S0/Hold status and, per the evidence pack's own rationale, similar mechanistic mismatches.
+باختصار، درجة التشابه العالية في TxGNN لا تتوافق مع مسار دوائي معقول هنا — فمن الأرجح أن تعكس قرب التضمين الرسومي بين عقد الأمراض ذات الصلة بالعدوى أكثر من مطابقة مضادة للميكروبات الفعلية. هذا التقييم متسق مع المرشحين الآخرين الثمانية في هذه المجموعة (القوباء الفقاعية، القوباء، متغيرات التسمم السجقي، داء المبيضات المهبلي، الدمل، الالتهاب الرئوي بـ S. aureus، التهاب القرنية والملتحمة بالآفات الظهارية النقطية)، وكل واحد منها يحمل نفس حالة Hold/L5/S0 وحسب منطق حزمة الأدلة ذاتها، عدم توافق آلي مماثل.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد حاليًا أي أدبيات ذات صلة متاحة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Fidaxomicin is currently **not marketed** in Saudi Arabia — 0 active SFDA authorizations, no licensed products on record.
+لا يتم تسويق Fidaxomicin حاليًا في المملكة العربية السعودية — 0 ترخيص نشط من الهيئة العامة للغذاء والدواء (SFDA)، لا توجد منتجات مرخصة في السجلات.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: مؤجل**
 
-**Rationale:**
-The prediction rests entirely on a TxGNN similarity score (L5, no clinical or literature support), and fidaxomicin's known antibacterial spectrum and pharmacokinetics are mechanistically incompatible with a staphylococcal toxin-mediated skin disease. All 9 predictions in this evidence pack share the same Hold/L5/S0 status, and several are explicitly flagged in the pack's own rationale as implausible (e.g., an antibacterial drug predicted for the fungal infection vulvovaginal candidiasis) — suggesting this candidate set largely reflects embedding-space artifacts rather than genuine repurposing signals.
+**المبرر:**
+يعتمد التنبؤ بالكامل على درجة التشابه في TxGNN (L5، بدون دعم سريري أو أدبي)، وطيف Fidaxomicin المضاد للبكتيريا المعروف والحرائك الدوائية غير متوافقة من الناحية الآلية مع مرض جلدي وسيط بسموم العنقوديات. تشترك جميع التنبؤات التسعة في حزمة الأدلة هذه في نفس حالة Hold/L5/S0، وتم تحديد العديد منها بشكل صريح في منطق حزمة الأدلة ذاته على أنها غير معقولة (على سبيل المثال، عقار مضاد للبكتيريا يتنبأ به لعدوى فطرية كداء المبيضات المهبلي) — مما يشير إلى أن مجموعة المرشحين هذه تعكس إلى حد كبير الأخطاء الاصطناعية في فضاء التضمين بدلاً من إشارات إعادة الاستخدام الحقيقية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently Blocking gap DG001
-- Verified mechanism of action from DrugBank API — currently High severity gap DG002
-- Any in-vitro or preclinical susceptibility data for fidaxomicin against *S. aureus*, if this specific indication is still to be pursued
-- Independent pharmacological review of the full 9-candidate batch before committing further evaluation resources
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة حجب DG001
+- آلية عمل تم التحقق منها من DrugBank API — حالياً فجوة ذات خطورة عالية DG002
+- أي بيانات حساسية في الجسم الحي أو ما قبل السريرية لـ Fidaxomicin ضد S. aureus، إذا كان لا يزال يتعين متابعة هذا المؤشر المحدد
+- مراجعة دوائية مستقلة لمجموعة المرشحين التسعة الكاملة قبل الالتزام بموارد التقييم الإضافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

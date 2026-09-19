@@ -29,82 +29,83 @@ indication_count: 1
 
 </div>
 
-# Teriflunomide: From No Registered Indication to Relapsing-Remitting Multiple Sclerosis
+# تيريفلونوميد: من عدم وجود دواعي مسجلة إلى التصلب اللويحي المتعدد الانتكاسي-الخافت
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Teriflunomide is not currently marketed in Saudi Arabia and has no approved indication on file in this dataset. The TxGNN model predicts it may be effective for **Relapsing-Remitting Multiple Sclerosis (RRMS)**, with **28 clinical trials** and **19 publications** currently supporting this direction — including several head-to-head Phase 3 trials against other disease-modifying therapies.
+تيريفلونوميد غير مرخص حالياً في المملكة العربية السعودية وليس لديه دواعي استخدام معتمدة في هذه مجموعة البيانات. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التصلب اللويحي المتعدد الانتكاسي-الخافت (RRMS)**، مع وجود **28 تجربة سريرية** و **19 منشور علمي** يدعمان هذا الاتجاه حالياً — بما فيها عدة تجارب المرحلة الثالثة المقارنة ضد علاجات أخرى معدلة للمرض.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No approved indication on record (drug not marketed; no license data available) |
-| Predicted New Indication | Relapsing-Remitting Multiple Sclerosis |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| دواعي الاستخدام الأصلية | لا توجد دواعي استخدام معتمدة في السجل (الدواء غير مرخص؛ لا توجد بيانات ترخيص متاحة) |
+| دواعي الاستخدام الجديدة المتوقعة | التصلب اللويحي المتعدد الانتكاسي-الخافت |
+| درجة التنبؤ من TxGNN | 99.24% |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مرخص |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism of action data is not available in the structured drug record for teriflunomide (DrugBank DB08880). However, the retrieved literature consistently describes it as a selective and reversible inhibitor of the mitochondrial enzyme dihydro-orotate dehydrogenase (DHODH), which blocks de novo pyrimidine synthesis and reduces the proliferation of activated T and B lymphocytes (Scott LJ, *Drugs*, 2019, PMID 31098896).
+بيانات تفصيلية عن آلية العمل غير متوفرة في السجل الدوائي المنظم للتيريفلونوميد (DrugBank DB08880). ومع ذلك، الأدبيات المسترجعة توصف بشكل متسق أنه مثبط انتقائي وعكوس لإنزيم DHODH (ثنائي هيدروأوروتات ديهيدروجينيز) في الميتوكوندريا، الذي يحجب تخليق بيريميدين de novo ويقلل تكاثر الخلايا T و B المنشطة (Scott LJ, *Drugs*, 2019, PMID 31098896).
 
-No original indication is registered for this drug in the current dataset, so a direct mechanistic bridge between "original" and "new" indication cannot be drawn from the evidence pack. That said, the volume and maturity of the RRMS-specific evidence base (28 registered trials, multiple completed Phase 3 RCTs, 19 publications including three NEJM head-to-head comparator trials) indicate this is not a speculative model-only extrapolation but a well-characterized, clinically validated use of the compound in this disease area.
+لا توجد دواعي استخدام أصلية مسجلة لهذا الدواء في مجموعة البيانات الحالية، لذلك لا يمكن رسم جسر آلي مباشر بين دواعي الاستخدام "الأصلية" و"الجديدة" من حزمة الأدلة. ومع ذلك، فإن حجم واكتمال قاعدة الأدلة الخاصة بـ RRMS (28 تجربة مسجلة، تجارب عشوائية محكومة من المرحلة الثالثة المكتملة، 19 منشور بما فيها ثلاث تجارب مقارنة رأس برأس في مجلات كبرى) تشير إلى أن هذا ليس استقراء نموذج نظري بحت بل استخدام معروف جيداً وموثق سريرياً للمركب في منطقة هذا المرض.
 
-Mechanistically, the anti-proliferative effect on activated lymphocytes is directly relevant to RRMS, an autoimmune-mediated demyelinating disease driven by T- and B-cell activation — which is consistent with why this pathway has been extensively studied as a disease-modifying strategy in this population.
+من الناحية الآلية، التأثير المثبط للخلايا الليمفاوية المنشطة وثيق الصلة بـ RRMS، وهو مرض التهاب عصبي ناتج عن تنشيط الخلايا اللمفاوية T و B — وهو ما يتسق مع السبب في أن هذا المسار تم دراسته على نطاق واسع كاستراتيجية معدلة للمرض في هذا السكان.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Phase 3 | Completed | 1088 | Pivotal RCT evaluating teriflunomide's effect on relapse frequency and disability accumulation (EDSS) in relapsing MS |
-| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Phase 3 | Completed | 324 | Rater-blinded comparison of teriflunomide vs. interferon beta-1a on time to treatment failure, relapse rate, and fatigue |
-| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Phase 3 | Completed | 742 | Long-term extension documenting safety/tolerability of teriflunomide 7 mg and 14 mg over time |
-| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Phase 2 | Completed | 147 | Long-term extension of a Phase 2 study assessing long-term safety and efficacy |
-| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | N/A | Completed | 106 | Investigator-initiated real-world effectiveness study in a routine MS clinic setting (≥2 years follow-up) |
-| [NCT03768648](https://clinicaltrials.gov/study/NCT03768648) | N/A | Completed | 75 | Real-life assessment of cognition and non-conventional MRI markers in patients treated with Aubagio |
-| [NCT01881191](https://clinicaltrials.gov/study/NCT01881191) | N/A | Completed | 50 | 12-month observational study of Aubagio's effect on gray matter pathology via MRI |
-| [NCT04129736](https://clinicaltrials.gov/study/NCT04129736) | Phase 4 | Completed | 12 | Measured teriflunomide concentrations in serum and cerebrospinal fluid at the 14 mg daily dose |
-| [NCT03464448](https://clinicaltrials.gov/study/NCT03464448) | N/A | Completed | 30 | Mechanistic Phase 4 study on regulatory B lymphocytes as mediators of teriflunomide's therapeutic effect |
-| [NCT02833714](https://clinicaltrials.gov/study/NCT02833714) | N/A | Terminated | 26 | Characterized teriflunomide's effect on B-cell activation markers and cytokine secretion |
+| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | المرحلة الثالثة | مكتملة | 1088 | تجربة عشوائية محكومة محورية تقيم تأثير تيريفلونوميد على تكرار الانتكاسة وتراكم الإعاقة (EDSS) في التصلب الانتكاسي |
+| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | المرحلة الثالثة | مكتملة | 324 | مقارنة مغطاة من قبل المقيّم بين تيريفلونوميد وإنترفيرون بيتا-1a بشأن الوقت حتى فشل العلاج ومعدل الانتكاسة والإرهاق |
+| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | المرحلة الثالثة | مكتملة | 742 | امتداد طويل المدى يوثق السلامة والتحمل للتيريفلونوميد 7 ملغ و 14 ملغ على مدار الوقت |
+| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | المرحلة الثانية | مكتملة | 147 | امتداد طويل المدى لدراسة المرحلة الثانية يقيم السلامة والفعالية طويلة المدى |
+| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | غير محدد | مكتملة | 106 | دراسة فعالية حقيقية بدأت من باحث في بيئة عيادة التصلب المعتادة (المتابعة ≥2 سنة) |
+| [NCT03768648](https://clinicaltrials.gov/study/NCT03768648) | غير محدد | مكتملة | 75 | تقييم واقعي للإدراك والعلامات غير التقليدية في التصوير بالرنين المغناطيسي لدى المرضى المعالجين بـ Aubagio |
+| [NCT01881191](https://clinicaltrials.gov/study/NCT01881191) | غير محدد | مكتملة | 50 | دراسة مراقبة مدة 12 شهر لتأثير Aubagio على أمراض المادة الرمادية عبر التصوير بالرنين المغناطيسي |
+| [NCT04129736](https://clinicaltrials.gov/study/NCT04129736) | المرحلة الرابعة | مكتملة | 12 | قاست تركيزات تيريفلونوميد في المصل والسائل النخاعي عند جرعة 14 ملغ يومياً |
+| [NCT03464448](https://clinicaltrials.gov/study/NCT03464448) | غير محدد | مكتملة | 30 | دراسة آلية المرحلة الرابعة حول الخلايا اللمفاوية B التنظيمية كوسطاء للتأثير العلاجي للتيريفلونوميد |
+| [NCT02833714](https://clinicaltrials.gov/study/NCT02833714) | غير محدد | توقفت | 26 | وصفت تأثير تيريفلونوميد على علامات تنشيط الخلايا B والإفراز عن السيتوكينات |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | نوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | RCT | New England Journal of Medicine | ASCLEPIOS trials: ofatumumab vs. teriflunomide in relapsing MS |
-| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | RCT | New England Journal of Medicine | Tolebrutinib (BTK inhibitor) vs. teriflunomide in relapsing MS |
-| [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | RCT | New England Journal of Medicine | Ublituximab (anti-CD20) vs. teriflunomide in relapsing MS |
-| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | RCT | The Lancet Neurology | evolutionRMS1/2: evobrutinib (BTK inhibitor) vs. teriflunomide, two Phase 3 trials |
-| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | RCT | JAMA Neurology | OPTIMUM trial: ponesimod vs. teriflunomide, first head-to-head oral DMT Phase 3 comparison |
-| [35266417](https://pubmed.ncbi.nlm.nih.gov/35266417/) | 2022 | RCT (subgroup) | Multiple Sclerosis Journal | ASCLEPIOS I/II: outcomes in treatment-naive patients, ofatumumab vs. teriflunomide |
-| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Systematic Review / Network Meta-analysis | Cochrane Database of Systematic Reviews | Comparative efficacy of immunomodulators/immunosuppressants in RRMS |
-| [37528262](https://pubmed.ncbi.nlm.nih.gov/37528262/) | 2023 | Meta-analysis | Neurotherapeutics | Post-marketing comparison of dimethyl fumarate vs. teriflunomide |
-| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Review | Drugs | Comprehensive review of teriflunomide's mechanism, efficacy, and tolerability in RRMS |
-| [33620411](https://pubmed.ncbi.nlm.nih.gov/33620411/) | 2021 | Review | JAMA | General review of MS diagnosis and treatment, including oral DMTs |
+| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | تجربة عشوائية محكومة | مجلة نيو إنجلاند الطبية | تجارب ASCLEPIOS: أوفاتوموماب مقابل تيريفلونوميد في التصلب الانتكاسي |
+| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | تجربة عشوائية محكومة | مجلة نيو إنجلاند الطبية | تولبروتينيب (مثبط BTK) مقابل تيريفلونوميد في التصلب الانتكاسي |
+| [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | تجربة عشوائية محكومة | مجلة نيو إنجلاند الطبية | أوبليتوكسيماب (مضاد CD20) مقابل تيريفلونوميد في التصلب الانتكاسي |
+| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | تجربة عشوائية محكومة | مجلة The Lancet Neurology | evolutionRMS1/2: إيفوبروتينيب (مثبط BTK) مقابل تيريفلونوميد، تجربتا المرحلة الثالثة |
+| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | تجربة عشوائية محكومة | مجلة JAMA Neurology | تجربة OPTIMUM: بونسيمود مقابل تيريفلونوميد، أول مقارنة عشوائية محكومة من المرحلة الثالثة بين الأدوية الفموية |
+| [35266417](https://pubmed.ncbi.nlm.nih.gov/35266417/) | 2022 | تجربة عشوائية محكومة (مجموعة فرعية) | مجلة Multiple Sclerosis Journal | ASCLEPIOS I/II: النتائج في المرضى غير المعالجين سابقاً، أوفاتوموماب مقابل تيريفلونوميد |
+| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | مراجعة منهجية / تحليل شبكي | قاعدة بيانات Cochrane للمراجعات المنهجية | الفعالية النسبية للمثبطات المناعية/الأدوية المثبطة للمناعة في RRMS |
+| [37528262](https://pubmed.ncbi.nlm.nih.gov/37528262/) | 2023 | تحليل تلوي | مجلة Neurotherapeutics | مقارنة ما بعد التسويق بين الديميثيل فيوميرات والتيريفلونوميد |
+| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | مراجعة | مجلة Drugs | مراجعة شاملة لآلية التيريفلونوميد والفعالية والتحمل في RRMS |
+| [33620411](https://pubmed.ncbi.nlm.nih.gov/33620411/) | 2021 | مراجعة | مجلة JAMA | مراجعة عامة لتشخيص وعلاج التصلب اللويحي المتعدد، بما فيها الأدوية الفموية معدلة المرض |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Teriflunomide currently has no product authorization on record in Saudi Arabia (0 licenses; market status: not marketed).
+التيريفلونوميد لا يملك حالياً أي ترخيص منتج مسجل في المملكة العربية السعودية (0 ترخيص؛ حالة السوق: غير مرخص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-The clinical evidence for teriflunomide in RRMS is exceptionally strong (L1: multiple completed Phase 3 RCTs, including several head-to-head comparator trials in major journals), but this evaluation cannot proceed to safety assessment because the TFDA package insert warnings/contraindications (DG001) are marked as a **Blocking** data gap, and no DDI or Saudi Arabia licensing data exist for this compound.
+**المبرر:**
+الأدلة السريرية للتيريفلونوميد في RRMS استثنائية القوة (L1: تجارب عشوائية محكومة متعددة من المرحلة الثالثة المكتملة، بما فيها عدة تجارب مقارنة رأس برأس في مجلات كبرى)، لكن هذا التقييم لا يمكن أن ينتقل إلى تقييم السلامة لأن تحذيرات/موانع الاستخدام من نشرة هيئة الغذاء والدواء السعودية (DG001) مشار إليها كفجوة بيانات **محجوبة**، وليست هناك بيانات DDI أو ترخيص في المملكة العربية السعودية لهذا المركب.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently blocking
-- Mechanism of action confirmation from DrugBank (DG002)
-- Drug-drug interaction data (current query returned no results)
-- Local market entry/registration pathway assessment, since the drug is not currently marketed in Saudi Arabia
+**للمتابعة، يلزم الآتي:**
+- بيانات نشرة هيئة الغذاء والدواء السعودية (التحذيرات وموانع الاستخدام) — حالياً محجوبة
+- تأكيد آلية العمل من DrugBank (DG002)
+- بيانات تفاعلات الأدوية (البحث الحالي لم يعد أي نتائج)
+- تقييم مسار الدخول إلى السوق المحلي/التسجيل التنظيمي، لأن الدواء غير مرخص حالياً في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

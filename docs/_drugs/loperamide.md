@@ -29,64 +29,65 @@ indication_count: 10
 
 </div>
 
-# Loperamide: From Diarrhea to Acute Contagious Conjunctivitis
+# لوبراميد: من الإسهال إلى التهاب الملتحمة المعدي الحاد
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Loperamide is a peripheral opioid-receptor agonist widely used to treat acute and chronic diarrhea.
-The TxGNN model's top-ranked prediction is **Acute Contagious Conjunctivitis**,
-but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a model score with no corroborating evidence.
+لوبراميد هو ناهض مستقبل الأفيون المحيطي يُستخدم على نطاق واسع لعلاج الإسهال الحاد والمزمن.
+التنبؤ الأعلى ترتيباً من نموذج TxGNN هو **التهاب الملتحمة المعدي الحاد**،
+لكن هذا الاتجاه يدعمه حالياً **0 تجربة سريرية** و **0 منشور** — إنها درجة نموذج بدون أدلة مؤيدة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Diarrhea (globally established use; no market-specific approved-indication text available — see note below) |
-| Predicted New Indication | Acute Contagious Conjunctivitis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | الإسهال (استخدام راسخ عالمياً؛ لا يتوفر نص المؤشر المعتمد الخاص بالسوق - انظر الملاحظة أدناه) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة المعدي الحاد |
+| درجة تنبؤ TxGNN | 99.97% |
+| مستوى الدليل | L5 |
+| حالة سوق المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-*Note: `taiwan_regulatory.licenses` is empty because loperamide has no marketing authorization on record in this dataset, so no approved-indication text could be extracted. "Diarrhea" above reflects loperamide's well-established international use, not a market-specific label.*
+*ملاحظة: `taiwan_regulatory.licenses` فارغ لأن لوبراميد ليس له ترخيص تسويق مسجل في مجموعة البيانات هذه، لذا لم يكن من الممكن استخراج نص المؤشر المعتمد. يعكس "الإسهال" أعلاه الاستخدام الراسخ دولياً للوبراميد، وليس علامة سوق محددة.*
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack (data gap). Based on generally established pharmacology, loperamide is a peripheral µ-opioid receptor agonist acting on intestinal smooth muscle to reduce motility and secretion; it does not meaningfully cross the blood-brain barrier at therapeutic doses and has no known ocular or conjunctival target.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة (فجوة البيانات). بناءً على الصيدلة المعروفة عموماً، لوبراميد هو ناهض مستقبل μ-الأفيون المحيطي الذي يعمل على العضلات الملساء المعوية لتقليل الحركة والإفراز؛ إنه لا يخترق الحاجز الدموي الدماغي بشكل مهم بالجرعات العلاجية ولا يملك هدفاً معروفاً عينياً أو ملتحمياً.
 
-Per the evidence pack's own assessment: *"無機轉關聯、無臨床或文獻證據，僅為 TxGNN 預測分數"* — there is no mechanistic link and no clinical or literature evidence behind this candidate; it is a model score only. Acute contagious conjunctivitis is an infectious/inflammatory ocular surface condition with no plausible pharmacological connection to a gut-restricted anti-motility agent, so the high TxGNN score most likely reflects embedding-space proximity within a conjunctivitis-disease cluster rather than a genuine therapeutic signal (several lower-ranked candidates in this pack — chronic follicular conjunctivitis, conjunctival folliculosis, parasitic conjunctivitis, serous conjunctivitis — form the same unsupported cluster).
+وفقاً لتقييم حزمة الأدلة الخاصة به: *"無機轉關聯、無臨床或文獻證據，僅為 TxGNN 預測分數"* — لا توجد آلية ارتباط ولا توجد أدلة سريرية أو أدبية وراء هذا المرشح؛ إنها درجة نموذج فقط. التهاب الملتحمة المعدي الحاد هو حالة سطح العين المعدية/الالتهابية بدون اتصال دوائي معقول لعامل مضاد للحركة محصور في الأمعاء، لذا فإن درجة TxGNN المرتفعة تعكس على الأرجح القرب في فضاء التضمين ضمن مجموعة أمراض التهاب الملتحمة بدلاً من إشارة علاجية حقيقية (عدة مرشحين ذوي ترتيب أقل في هذه الحزمة — التهاب الملتحمة الجُرَيبي المزمن، جريبات الملتحمة، التهاب الملتحمة الطفيلي، التهاب الملتحمة المصلي — تشكل نفس المجموعة غير المدعومة).
 
-Separately, it is worth noting that other predictions in this evidence pack carry actual safety signal: literature on amebic dysentery (rank 2) reports a case of fulminant amoebic colitis associated with loperamide use, consistent with anti-motility agents being contraindicated in invasive enteric infections. This reinforces that loperamide's GI-restricted mechanism does not generalize to unrelated indications and should not be interpreted as support for the conjunctivitis prediction.
+بشكل منفصل، من الجدير بالملاحظة أن التنبؤات الأخرى في هذه الحزمة الأدلة تحمل إشارة سلامة فعلية: تقارير الأدبيات حول الزحار الأميبي (الترتيب 2) تشير إلى حالة التهاب قولون أميبي خاطف مرتبطة باستخدام لوبراميد، متسقة مع الأدوية المضادة للحركة التي تُعتبر مضادة استطباب في الالتهابات المعوية الغازية. هذا يعزز أن الآلية المقيدة بالجهاز الهضمي للوبراميد لا تُعمم على المؤشرات غير ذات الصلة ولا يجب أن تُفسر كدعم للتنبؤ بالتهاب الملتحمة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا تتوفر حالياً أدبيات ذات صلة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Loperamide currently holds no marketing authorization on record in this dataset (`total_licenses = 0`, `market_status = Not marketed/Not Marketed`), so no license table can be produced.
+لوبراميد حالياً لا يمتلك ترخيص تسويق مسجل في مجموعة البيانات هذه (`total_licenses = 0`, `market_status = Not marketed/Not Marketed`)، لذا لا يمكن إنتاج جدول الترخيص.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The top-ranked prediction (acute contagious conjunctivitis) is evidence level L5 — a model score with no clinical trials, no literature, and no plausible mechanistic rationale given loperamide's gut-restricted, non-CNS-penetrant pharmacology. There is no basis to advance this candidate past preliminary screening.
+**الأساس المنطقي:**
+التنبؤ الأعلى ترتيباً (التهاب الملتحمة المعدي الحاد) هو مستوى دليل L5 — درجة نموذج بدون تجارب سريرية وبدون أدبيات وبدون أساس آلية معقول نظراً لصيدلة لوبراميد المقيدة بالأمعاء وغير المخترقة للجهاز العصبي المركزي. لا يوجد أساس لتقدم هذا المرشح إلى ما بعد الفحص الأولي.
 
-**To proceed, the following is needed:**
-- Confirmed MOA data (DG002, High severity) to properly assess mechanistic plausibility for any candidate indication
-- TFDA/SFDA package insert warnings and contraindications (DG001, Blocking) before any safety pre-assessment (S1) can proceed
-- If repurposing work continues, prioritize re-scoring lower-ranked but evidence-backed candidates in this pack (e.g., gastroduodenitis, L3, flagged "Research Question") over the top TxGNN score alone
-- Flag amebic/infectious diarrhea indications as a **contraindication signal**, not an opportunity, given the fulminant colitis case report (PMID 17241255)
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل المؤكدة (DG002, High severity) لتقييم المعقولية الآلية بشكل صحيح لأي مؤشر مرشح
+- تحذيرات نشرة TFDA/SFDA وموانع الاستطباب (DG001, Blocking) قبل أي تقييم سلامة أولي (S1) يمكن أن يتقدم
+- إذا استمرت أعمال إعادة الاستخدام، أعطِ الأولوية لإعادة تقييم المرشحين ذوي ترتيب أقل لكن المدعومين بالأدلة في هذه الحزمة (على سبيل المثال، التهاب المعدة والاثني عشري، L3، معلمة بـ 'Research Question') بدلاً من درجة TxGNN الأعلى وحدها
+- وضع علامة على مؤشرات الزحار الأميبي/المعدي كـ **إشارة عدم التوافق**، وليس كفرصة، بالنظر إلى تقرير حالة الالتهاب القولوني الخاطف (PMID 17241255)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

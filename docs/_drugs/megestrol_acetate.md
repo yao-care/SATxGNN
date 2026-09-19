@@ -29,80 +29,81 @@ indication_count: 10
 
 </div>
 
-# Megestrol Acetate: From Palliative Hormonal Therapy to Endometrial Carcinoma
+# ميجستروثل أسيتات: من العلاج الهرموني التلطيفي إلى سرطان بطانة الرحم
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Megestrol acetate is a synthetic progestin classically used as palliative hormonal therapy for advanced breast/endometrial cancer and for cancer-related cachexia/anorexia.
-> The TxGNN model predicts it may be effective for **Uterine Corpus Endometrial Carcinoma** — specifically in early-stage and fertility-sparing settings —
-> with **3 clinical trials** currently supporting this direction, though no dedicated literature has yet been indexed for this specific disease term.
+> ميجستروثل أسيتات هو بروجيستين اصطناعي يُستخدم تقليدياً كعلاج هرموني تلطيفي لسرطان الثدي والرحم المتقدم ولفقدان الشهية والهزال المرتبطة بالسرطان.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **سرطان بطانة الرحم** — خاصة في المراحل المبكرة والإعدادات الحافظة للخصوبة —
+> مع **3 تجارب سريرية** حالية تدعم هذا الاتجاه، على الرغم من عدم فهرسة أي أدبيات مخصصة لهذا المصطلح المرضي المحدد حتى الآن.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not recorded in evidence pack (no Saudi licenses on file); classically used as palliative progestin therapy for advanced breast/endometrial cancer and cancer-related cachexia/anorexia |
-| Predicted New Indication | Uterine Corpus Endometrial Carcinoma (early-stage / fertility-sparing setting) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسجل في حقيبة الأدلة (لا توجد تراخيص سعودية في الملف)؛ يُستخدم تقليدياً كعلاج بروجيستين تلطيفي لسرطان الثدي والرحم المتقدم وفقدان الشهية والهزال المرتبطة بالسرطان |
+| المؤشر الجديد المتنبأ به | سرطان بطانة الرحم (المرحلة المبكرة / إعداد حفظ الخصوبة) |
+| درجة تنبؤ TxGNN | 99.94% |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack (data gap). Based on known pharmacology, megestrol acetate is a synthetic progestin whose efficacy in advanced breast cancer and endometrial carcinoma as palliative hormonal therapy has long been established clinically.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في حقيبة الأدلة (فجوة بيانات). بناءً على الصيدلة المعروفة، ميجستروثل أسيتات هو بروجيستين اصطناعي ثبت سريرياً فعاليته في سرطان الثدي المتقدم وسرطان بطانة الرحم كعلاج هرموني تلطيفي منذ فترة طويلة.
 
-Mechanistically, megestrol acetate directly activates the progesterone receptor (PR) on endometrial cells, suppressing estrogen-driven endometrial proliferation and promoting differentiation. This is the classic mechanism underlying progestin therapy for endometrial carcinoma, particularly in PR-positive, low-grade tumors and in patients desiring fertility preservation.
+من الناحية الآلية، يقوم ميجستروثل أسيتات بتفعيل مباشر لمستقبل البروجسترون (PR) على خلايا بطانة الرحم، مما يقمع تكاثر بطانة الرحم الذي تحركه الإستروجين ويعزز التمايز. هذه هي الآلية الكلاسيكية الأساسية لعلاج البروجيستين لسرطان بطانة الرحم، خاصة في الأورام الإيجابية لـ PR منخفضة الدرجة وفي المرضى الراغبين في حفظ الخصوبة.
 
-What makes this prediction notable is not that megestrol is mechanistically novel for endometrial cancer — it is already used off-label in this context — but that the supporting trials point to an emerging, narrower application: early-stage/fertility-sparing management (conservative treatment instead of hysterectomy) rather than the traditional advanced/palliative use. This represents a genuine shift in clinical positioning worth tracking as a distinct repurposing signal.
+ما يجعل هذا التنبؤ ملحوظاً ليس أن ميجستروثل جديد آلياً لسرطان بطانة الرحم — فهو مستخدم بالفعل خارج المؤشرات في هذا السياق — بل إن التجارب الداعمة تشير إلى تطبيق ناشئ وأضيق: إدارة المراحل المبكرة/حفظ الخصوبة (العلاج المحافظ بدلاً من استئصال الرحم) بدلاً من الاستخدام التقليدي المتقدم/التلطيفي. هذا يمثل تحولاً حقيقياً في الموضع السريري يستحق المراقبة كإشارة إعادة تطبيق مميزة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | Terminated | 9 | Randomized comparison of continuous vs. sequential progestin (megestrol) therapy for endometrial intraepithelial neoplasia/atypical hyperplasia in a fertility-preservation cohort; small sample and termination limit strength of evidence |
-| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Randomized trial of temsirolimus alone vs. combined with megestrol acetate + tamoxifen in advanced, persistent, or recurrent endometrial carcinoma; megestrol used to block estrogen-driven tumor growth |
-| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | Unknown | 60 | PD-1 inhibitor combined with progesterone vs. progesterone alone for fertility-sparing treatment of early-stage endometrial cancer; exploratory, status unconfirmed |
+| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | منهية | 9 | مقارنة عشوائية للعلاج ببروجيستين (ميجستروثل) مستمر مقابل متسلسل لتنسج بطانة الرحم داخل الظهارة/تضخم الخلايا الشاذة في مجموعة حفظ الخصوبة؛ العينة الصغيرة والإنهاء يحدان من قوة الدليل |
+| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | مكتملة | 73 | تجربة عشوائية لـ temsirolimus وحده مقابل مجتمع مع ميجستروثل أسيتات + تاموكسيفين في سرطان بطانة الرحم المتقدم أو المستمر أو المتكرر؛ استخدام ميجستروثل لمنع نمو الورم الذي تحركه الإستروجين |
+| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | غير معروفة | 60 | مثبط PD-1 مجتمع مع البروجسترون مقابل البروجسترون وحده للعلاج الحافظ للخصوبة لسرطان بطانة الرحم المرحلة المبكرة؛ استكشافي، الحالة غير مؤكدة |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available for this specific indication (uterine corpus endometrial carcinoma).
-
----
-
-## Saudi Arabia Market Information
-
-Megestrol acetate is not currently marketed in Saudi Arabia — no registered authorizations are on file (0 licenses).
+لا توجد حالياً أدبيات ذات صلة متاحة لهذا المؤشر المحدد (سرطان بطانة الرحم).
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable — TFDA package insert retrieval is flagged as a blocking data gap, DG001.)
+ميجستروثل أسيتات غير مسوق حالياً في المملكة العربية السعودية — لا توجد ترخيصات مسجلة في الملف (0 رخصة).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (جميع التحذيرات الرئيسية وموانع الاستعمال وبيانات التفاعلات الدوائية غير متاحة حالياً — تم وضع علم على استرجاع نشرة حزمة TFDA كفجوة بيانات محظورة، DG001.)
 
-**Rationale:**
-The mechanistic rationale (PR agonism on estrogen-driven endometrial tissue) is well established, and one completed Phase 2 RCT (n=73) plus two smaller/early-phase supporting trials give this an L2 evidence level. However, formal safety labeling (TFDA package insert) is entirely missing — a blocking gap — and the drug is not currently marketed in Saudi Arabia, so guardrails are required before any clinical application in this new fertility-sparing context.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert with warnings/contraindications (DG001, blocking — required before safety pre-assessment can proceed)
-- Formal mechanism of action documentation from DrugBank or equivalent source (DG002)
-- Confirmatory larger-scale trial data, since the most directly relevant RCT (NCT00503581) was terminated at n=9
-- Saudi Arabia regulatory registration pathway assessment, given zero current authorizations
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**المنطق:**
+المنطق الآلي (تفعيل PR على نسج بطانة الرحم الذي تحركه الإستروجين) راسخ بشكل جيد، وتجربة عشوائية مضبوطة Phase 2 واحدة مكتملة (n=73) بالإضافة إلى تجربتين داعمتين أصغر/مرحلة مبكرة تعطي هذا مستوى دليل L2. ومع ذلك، فإن تسمية السلامة الرسمية (نشرة حزمة TFDA) مفقودة تماماً — فجوة محظورة — والدواء غير مسوق حالياً في المملكة العربية السعودية، لذا يلزم وجود ضمانات قبل أي تطبيق سريري في هذا السياق الجديد الحافظ للخصوبة.
+
+**لمتابعة العمل، يلزم ما يلي:**
+- نشرة حزمة TFDA مع التحذيرات/موانع الاستعمال (DG001، محظورة — مطلوبة قبل أن تتمكن المراجعة الأمنية المسبقة من المتابعة)
+- توثيق آلية العمل الرسمي من DrugBank أو مصدر معادل (DG002)
+- بيانات تجربة تأكيدية أكبر حجماً، حيث تم إنهاء أكثر التجارب العشوائية المضبوطة ذات الصلة مباشرة (NCT00503581) عند n=9
+- تقييم مسار التسجيل التنظيمي بالمملكة العربية السعودية، بالنظر إلى عدم وجود ترخيصات حالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

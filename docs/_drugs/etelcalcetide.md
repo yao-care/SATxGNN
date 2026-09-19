@@ -29,85 +29,86 @@ indication_count: 4
 
 </div>
 
-# Etelcalcetide: From Secondary Hyperparathyroidism to Hyperphosphatemia
+# إيتيلكالسيتيد: من فرط جار الدرقية الثانوي إلى فرط الفوسفات في الدم
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Etelcalcetide is an intravenous calcimimetic used in the management of secondary hyperparathyroidism (SHPT) in hemodialysis patients with chronic kidney disease (CKD-MBD).
-The TxGNN model predicts it may also be effective for **Hyperphosphatemia**,
-with **1 clinical trial** and **3 publications** (including one RCT) currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Secondary hyperparathyroidism (SHPT) in hemodialysis patients — based on known pharmacological class information; a formally documented approved-indication text was not available in this evidence pack (TFDA package insert parsing pending, see Blocking gap) |
-| Predicted New Indication | Hyperphosphatemia |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+إيتيلكالسيتيد هو محاكي كالسيوم يُعطى عن طريق الوريد ويُستخدم في إدارة فرط جار الدرقية الثانوي (SHPT) لدى مرضى غسيل الكلى المصابين بمرض الكلى المزمن (CKD-MBD).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في علاج **فرط الفوسفات في الدم**،
+مع وجود **تجربة سريرية واحدة** و**3 منشورات** (بما فيها تجربة عشوائية محكومة) تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action documentation for etelcalcetide was not available in this evidence pack (High-severity gap, remediation pending via DrugBank API query). Based on established pharmacological knowledge, etelcalcetide is a calcimimetic that allosterically activates the calcium-sensing receptor (CaSR) on parathyroid chief cells, suppressing parathyroid hormone (PTH) secretion. This is the mechanism through which the drug is used clinically to control SHPT in dialysis patients.
-
-Secondary hyperparathyroidism and hyperphosphatemia are both components of chronic kidney disease–mineral and bone disorder (CKD-MBD), a single interconnected pathophysiological syndrome. Suppressing PTH reduces osteoclast-mediated bone resorption, which in turn lowers the release of calcium and phosphate from bone into circulation. Phosphate lowering is therefore a recognized downstream pharmacodynamic effect of calcimimetics in the SHPT treatment context, rather than a speculative new mechanism — which supports the biological plausibility of the TxGNN prediction.
-
-This mechanistic link is directly reflected in the supporting evidence: a completed trial evaluating etelcalcetide's effect on osteoclasts in CKD patients, and literature describing etelcalcetide's role in managing CKD-MBD abnormalities (including hyperphosphatemia) alongside PTH control. Taken together, the prediction is grounded in an established physiological pathway rather than an unexplained model association.
-
-*Note on other predicted indications:* Three additional TxGNN candidates for this drug — esophageal varices with bleeding, esophageal varices without bleeding, and varicose disease — carry no supporting clinical trial or literature evidence (Evidence Level L5, Decision Stage S0, recommendation **Hold**). Their near-identical prediction scores and shared "varices/varicose" wording, combined with the absence of any known biological link between CaSR activation and venous wall integrity or portal pressure, suggest these are likely artifacts of semantic clustering in the model's disease embeddings rather than genuine pharmacological signals. They are not pursued further in this report.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | فرط جار الدرقية الثانوي (SHPT) لدى مرضى غسيل الكلى — بناءً على المعرفة الثابتة حول الفئة الدوائية؛ لم تكن نصوص الاستطباب المعتمدة الموثقة رسمياً متوفرة في هذه مجموعة الأدلة (قيد الانتظار تحليل نشرة TFDA، انظر Blocking gap) |
+| الاستطباب الجديد المتنبأ به | فرط الفوسفات في الدم |
+| درجة تنبؤ TxGNN | 99.42% |
+| مستوى الدليل | L2 |
+| وضع السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المضي قدماً مع احتياطات حماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+لم تكن وثائق آلية العمل التفصيلية لإيتيلكالسيتيد متاحة في هذه مجموعة الأدلة (فجوة شديدة الخطورة، جاري العمل على معالجتها عبر استعلام واجهة برمجة تطبيقات DrugBank). بناءً على المعرفة الدوائية الراسخة، إيتيلكالسيتيد هو محاكي كالسيوم يُفعِّل بطريقة ألوستيرية مستقبل استشعار الكالسيوم (CaSR) على الخلايا الرئيسية لجار الدرقية، مما يثبط إفراز هرمون الغدة الجار للدرقية (PTH). وتمثل هذه الآلية الطريقة التي يُستخدم بها الدواء سريرياً للتحكم في فرط جار الدرقية الثانوي لدى مرضى الغسيل.
+
+فرط جار الدرقية الثانوي وفرط الفوسفات في الدم كلاهما مكونات لمتلازمة اضطراب المعادن والعظم المرتبط بأمراض الكلى المزمنة (CKD-MBD)، وهي متلازمة فيزيولوجية مترابطة واحدة. يؤدي تثبيط PTH إلى تقليل إعادة امتصاص العظم بوساطة الخلايا الناقضة للعظم، مما يؤدي بدوره إلى تقليل تحرر الكالسيوم والفوسفات من العظم إلى الدوران. بالتالي، فإن تقليل الفوسفات هو تأثير دوائي ديناميكي معروف لمحاكيات الكالسيوم في سياق علاج فرط جار الدرقية الثانوي، وليس آلية جديدة مضاربة — وهذا يدعم المعقولية البيولوجية للتنبؤ من TxGNN.
+
+يتعكس هذا الارتباط الآلي بشكل مباشر في الأدلة الداعمة: تجربة مكتملة تقيّم تأثير إيتيلكالسيتيد على الخلايا الناقضة للعظم لدى مرضى CKD، والأدبيات التي تصف دور إيتيلكالسيتيد في إدارة اضطرابات CKD-MBD (بما فيها فرط الفوسفات في الدم) جنباً إلى جنب مع التحكم في PTH. عند النظر إلى الصورة الكاملة، يكون التنبؤ قائماً على مسار فيزيولوجي راسخ وليس على ارتباط نموذجي غير مشروح.
+
+*ملاحظة حول الاستطبابات المتنبأ بها الأخرى:* يحمل ثلاثة مرشحين إضافيين من TxGNN لهذا الدواء — دوالي المريء مع نزيف، دوالي المريء بدون نزيف، وأمراض الأوردة المتسعة — عدم وجود أي دليل تجربة سريرية أو أدبيات داعمة (مستوى الدليل L5، مرحلة القرار S0، التوصية **انتظر**). درجات التنبؤ المتطابقة تقريباً والصياغة المشتركة "دوالي/متسعة"، مقترنة بعدم وجود أي ارتباط بيولوجي معروف بين تفعيل CaSR وسلامة جدران الأوردة أو ضغط الدوران البابي، تشير إلى أن هذه على الأرجح نتائج اصطناعية من التجميع الدلالي في تضمينات الأمراض للنموذج وليست إشارات دوائية حقيقية. لا يتم البحث عنها بشكل أكبر في هذا التقرير.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03527511](https://clinicaltrials.gov/study/NCT03527511) | N/A | Completed | 21 | Evaluated the effect of active vitamin D plus etelcalcetide on osteoclasts in CKD patients; addresses CKD-MBD abnormalities including hypocalcemia, hyperphosphatemia, and hyperparathyroidism. Mechanistic study, not primarily designed with hyperphosphatemia as the endpoint. |
+| [NCT03527511](https://clinicaltrials.gov/study/NCT03527511) | غير متاح | مكتملة | 21 | تقيّم تأثير فيتامين D النشط بالإضافة إلى إيتيلكالسيتيد على الخلايا الناقضة للعظم لدى مرضى CKD؛ تتناول اضطرابات CKD-MBD بما فيها نقص الكالسيوم في الدم وفرط الفوسفات في الدم وفرط جار الدرقية. دراسة آلية، لم يتم تصميمها بشكل أساسي مع فرط الفوسفات في الدم كنقطة نهاية. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney International Reports | The DUET trial — a prospective, randomized study of etelcalcetide in hemodialysis patients with SHPT, assessing control of CKD-MBD parameters. |
-| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | International Journal of Nephrology and Renovascular Disease | Reviews management of SHPT in hemodialysis, describing etelcalcetide's role in reducing PTH and its relationship to phosphate control alongside oral binders and vitamin D analogs. |
-| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Case Report | Clinical Nephrology | Describes a case of metastatic pulmonary calcification in a dialysis patient with hyperparathyroidism, illustrating downstream consequences of CKD-MBD mineral dysregulation. |
+| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | تجربة عشوائية محكومة | Kidney International Reports | تجربة DUET — دراسة محتملة ومشروطة لإيتيلكالسيتيد لدى مرضى غسيل الكلى مع فرط جار الدرقية الثانوي، تقيّم السيطرة على معاملات CKD-MBD. |
+| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | استعراض | International Journal of Nephrology and Renovascular Disease | استعراض إدارة فرط جار الدرقية الثانوي في غسيل الكلى، يصف دور إيتيلكالسيتيد في تقليل PTH وارتباطه بالتحكم في الفوسفات جنباً إلى جنب مع الموادد الفوسفاتية الفموية ومماثلات فيتامين D. |
+| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | تقرير حالة | Clinical Nephrology | يصف حالة تكلسن الرئة النقيلي لدى مريض غسيل كلى يعاني من فرط جار الدرقية، يوضح العواقب الناتجة عن اضطراب تنظيم المعادن في CKD-MBD. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Etelcalcetide is currently **not marketed** in Saudi Arabia — no authorization records are available (0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+إيتيلكالسيتيد حالياً **غير مسوق** في المملكة العربية السعودية — لا توجد سجلات ترخيص متاحة (0 ترخيصات في الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
-**Rationale:**
-The prediction is supported by a coherent, well-established physiological pathway (PTH suppression → reduced bone resorption → lower serum phosphate) and by one completed RCT (DUET trial) plus a supportive mechanistic trial, yielding an L2 evidence level with a very high TxGNN score (99.42%). However, formal MOA documentation and TFDA/manufacturer safety labeling data are currently missing, including one Blocking-severity gap, so the candidate cannot yet clear a full safety pre-assessment (S1) and should proceed only under guardrails.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings and contraindications) — Blocking data gap, requires PDF retrieval and parsing
-- Formal mechanism-of-action documentation via DrugBank API query
-- Drug-drug interaction (DDI) profile — current query returned no results
-- Additional clinical data with hyperphosphatemia as a primary (rather than secondary/mechanistic) endpoint
-- Route-of-administration compatibility assessment (currently marked pending)
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع احتياطات حماية**
+
+**المبررات:**
+التنبؤ مدعوم بمسار فيزيولوجي متماسك وراسخ (تثبيط PTH → تقليل إعادة امتصاص العظم → انخفاض الفوسفات في المصل) وبتجربة عشوائية محكومة مكتملة (تجربة DUET) بالإضافة إلى تجربة آلية داعمة، مما ينتج عنه مستوى دليل L2 مع درجة TxGNN عالية جداً (99.42%). ومع ذلك، وثائق آلية العمل الرسمية وبيانات سلامة TFDA/الشركة المُصنِّعة غير متاحة حالياً، بما فيها فجوة واحدة من نوع Blocking-severity، لذلك لا يمكن للمرشح أن يزيل بعد تقييم السلامة الكامل (S1) ويجب المضي قدماً فقط مع احتياطات حماية.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA (التحذيرات والموانع) — فجوة بيانات Blocking، تتطلب استرجاع وتحليل ملف PDF
+- وثائق آلية العمل الرسمية عبر استعلام واجهة برمجة تطبيقات DrugBank
+- ملف تفاعل الدواء مع الدواء (DDI) — استعلام حالي أرجع عدم وجود نتائج
+- بيانات سريرية إضافية مع فرط الفوسفات في الدم كنقطة نهاية أساسية (وليس ثانوية/آلية)
+- تقييم التوافق مع طريق الإعطاء (قيد الانتظار حالياً)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

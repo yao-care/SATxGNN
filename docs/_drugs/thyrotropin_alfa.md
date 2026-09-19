@@ -29,61 +29,62 @@ indication_count: 10
 
 </div>
 
-# Thyrotropin Alfa: From No Registered Local Indication to Migraine Disorder
+# Thyrotropin Alfa: من عدم وجود مؤشر محلي مسجل إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Thyrotropin alfa (rhTSH) is not currently marketed in this jurisdiction, and no original approved indication or license data is on file for it locally.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational signal with no corroborating real-world evidence.
+Thyrotropin alfa (rhTSH) غير مسوّق حالياً في هذه الولاية القضائية، وليس هناك بيانات تصريح محلي أو مؤشر معتمد أصلي مسجلة محلياً.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب الصداع النصفي**، إلا أن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور علمي** — إنها إشارة حسابية خالصة بدون أي دليل سريري واقعي يؤيدها.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no local license or approved-indication record on file (drug not marketed) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح — لا يوجد تصريح محلي أو سجل مؤشر معتمد على الملف (الدواء غير مسوّق) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تجميد |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for thyrotropin alfa is not available in the current dataset (data gap DG002). Based on other information captured in this evidence pack, thyrotropin alfa is a recombinant human thyroid-stimulating hormone (rhTSH) analogue whose known pharmacology is to stimulate thyroid follicular cells to synthesize and release thyroid hormone.
+بيانات آلية العمل المفصلة لـ thyrotropin alfa غير متوفرة في مجموعة البيانات الحالية (فجوة البيانات DG002). بناءً على المعلومات الأخرى المجمعة في هذه مجموعة الأدلة، فإن thyrotropin alfa هو نظير الهرمون المحفز للغدة الدرقية البشري المؤتلف (rhTSH) الذي تتمثل وظيفته الدوائية المعروفة في تحفيز خلايا الجريب الدرقي على تخليق وإفراز هرمون الغدة الدرقية.
 
-No original approved indication is on record locally (0 licenses, market status "Not marketed"), so no relationship between an original indication and migraine can be established from local regulatory data.
+لا يوجد مؤشر معتمد أصلي مسجل محلياً (0 تصاريح، حالة السوق "غير مسوّق")، لذلك لا يمكن إنشاء علاقة بين مؤشر أصلي والصداع النصفي من بيانات التنظيم المحلي.
 
-Importantly, the evidence pack's own rationale for this prediction states there is **no known direct physiological mechanism** linking TSH signaling to migraine pathophysiology. The high TxGNN score (99.98%) appears to reflect knowledge-graph embedding similarity rather than a biologically grounded hypothesis, and should be treated as a pure hypothesis pending independent validation.
+من المهم ملاحظة أن المنطق الأساسي لمجموعة الأدلة نفسها لهذا التنبؤ يذكر أنه **لا توجد آلية فسيولوجية مباشرة معروفة** تربط إشارة TSH بمسببات الصداع النصفي. تبدو درجة TxGNN العالية (99.98%) لتعكس تشابه تضمين الرسم البياني للمعرفة بدلاً من فرضية مثبتة بيولوجياً، وينبغي أن تُعامل كفرضية خالصة في انتظار التحقق المستقل.
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدب العلمي
 
-Currently no related literature available.
+لا تتوفر حالياً أدبيات علمية ذات صلة.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-This product is not currently marketed in this jurisdiction — 0 authorizations are on file, so no product/authorization table is available.
+هذا المنتج غير مسوّق حالياً في هذه الولاية القضائية — 0 تصاريح مسجلة على الملف، لذا لا يتوفر جدول المنتج/التصريح.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تجميد**
 
-**Rationale:**
-The top-ranked prediction (migraine disorder, L5) has zero clinical trial or literature support and no established mechanistic rationale — it is a model-only signal. Notably, even the pack's best-evidenced candidate (hyperthyroidism, rank 10, L4) is mechanistically contradictory — rhTSH would be expected to stimulate rather than suppress thyroid hormone release — and its supporting literature discusses interferon-alfa–induced thyroid dysfunction, a different drug entity, suggesting a likely knowledge-graph false-positive rather than genuine repurposing evidence. There is currently no candidate in this set that meets a bar for further investment.
+**الأساس المنطقي:**
+التنبؤ ذو الترتيب الأعلى (اضطراب الصداع النصفي، L5) ليس له دعم من تجارب سريرية أو أدبيات علمية وليس هناك نسبة آلية مثبتة — إنها إشارة نموذج خالصة. بشكل ملحوظ، حتى المرشح الأفضل دعماً في الحزمة (فرط نشاط الغدة الدرقية، الترتيب 10، L4) متناقض من ناحية الآلية — يتوقع أن يحفز rhTSH بدلاً من قمع إفراز هرمون الغدة الدرقية — والأدبيات الداعمة تناقش قصور الغدة الدرقية المستحث بـ الإنترفيرون ألفا، كيان دواء مختلف، مما يشير إلى احتمالية إيجابية كاذبة في الرسم البياني للمعرفة بدلاً من دليل إعادة استخدام حقيقي. لا يوجد حالياً مرشح في هذه المجموعة يفي بالحد الأدنى للاستثمار الإضافي.
 
-**To proceed, the following is needed:**
-- Original indication and mechanism-of-action data for thyrotropin alfa (DrugBank/registration source)
-- TFDA/local package insert warnings and contraindications (blocking gap DG001) before any S1 safety evaluation can begin
-- Independent mechanistic or preclinical rationale for a TSH–migraine link before further evidence collection is warranted
-- Verification of the hyperthyroidism literature set to rule out drug-entity confusion (interferon-alfa vs. thyrotropin alfa) before treating it as supporting evidence
+**لكي يتقدم الأمر، يكون ما يلي مطلوباً:**
+- بيانات المؤشر الأصلي وآلية العمل لـ thyrotropin alfa (DrugBank/مصدر التسجيل)
+- تحذيرات TFDA/النشرة المحلية والموانع (فجوة الحجب DG001) قبل أن يتمكن أي تقييم سلامة S1 من البدء
+- نسبة آلية أو دليل سلف مستقل لرابط TSH–migraine قبل أن يكون جمع الأدلة الإضافي مبرراً
+- التحقق من مجموعة الأدبيات المتعلقة بفرط نشاط الغدة الدرقية لاستبعاد ارتباك كيان الدواء (الإنترفيرون ألفا مقابل thyrotropin alfa) قبل معاملته كدليل داعم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

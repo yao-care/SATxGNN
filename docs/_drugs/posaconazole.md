@@ -29,88 +29,89 @@ indication_count: 1
 
 </div>
 
-# Posaconazole: From Invasive Fungal Infection Prophylaxis to Pneumocystosis
+# بوساكونازول: من الوقاية من العدوى الفطرية الغازية إلى الالتهاب الرئوي بالمُتكيسة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Posaconazole is a triazole antifungal, generally known for the prophylaxis and treatment of invasive fungal infections in high-risk patients; it is not currently marketed in Saudi Arabia, so no official approved-indication text is available in this evidence pack.
-> The TxGNN model predicts it may be effective for **Pneumocystosis (PCP)**,
-> but this is currently supported by only **2 clinical trials** (neither of which directly studied posaconazole) and **5 publications** (none of which directly assess posaconazole for PCP).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in Saudi Arabia regulatory data (drug not marketed); generally known as prophylaxis/treatment of invasive fungal infections (triazole antifungal class) |
-| Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> بوساكونازول هو عامل مضاد للفطريات ثلاثي الأزول، معروف بشكل عام بالوقاية والعلاج من العدوى الفطرية الغازية لدى المرضى عالي الخطورة؛ لا يتم حالياً تسويقه في المملكة العربية السعودية، لذا لا يتوفر نص مؤشر معتمد في هذه الحزمة الإثباتية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الالتهاب الرئوي بالمُتكيسة (PCP)**،
+> لكن هذا يدعمه حالياً **تجربتان سريريتان فقط** (لا توجد منهما تدرس بوساكونازول بشكل مباشر) و **5 منشورات** (لا توجد منها تقيّم بوساكونازول في PCP بشكل مباشر).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on known information, Posaconazole is part of the triazole antifungal class, its efficacy in invasive fungal infection prophylaxis has been proven, and mechanistically may be applicable to pneumocystosis.
-
-Posaconazole inhibits fungal CYP51 (lanosterol 14-α-demethylase), blocking ergosterol synthesis in the fungal cell membrane. It is clinically used for prophylaxis of invasive Aspergillus and Candida infections in high-risk populations such as allogeneic hematopoietic stem cell transplant (allo-HCT) and graft-versus-host disease (GVHD) patients.
-
-However, the mechanistic link to pneumocystosis is weak. *Pneumocystis jirovecii* has a membrane/cell wall biology distinct from typical fungi, and its sensitivity to triazole agents is not well-established or consistent in the literature. Standard treatment for PCP remains trimethoprim-sulfamethoxazole (TMP-SMX); triazole antifungals are not a recognized treatment or prophylaxis option for PCP. The connection here likely reflects an indirect association — both indications fall under "antifungal prophylaxis in immunocompromised transplant patients" — rather than a target-specific mechanism against *Pneumocystis*.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لم يتم التقاطه في بيانات تنظيم المملكة العربية السعودية (الدواء لم يُسوّق)؛ معروف بشكل عام كمادة وقائية/علاجية للعدوى الفطرية الغازية (من فئة مضادات الفطريات ثلاثية الأزول) |
+| المؤشر الجديد المتنبأ به | الالتهاب الرئوي بالمُتكيسة |
+| درجة التنبؤ TxGNN | 99.77% |
+| مستوى الإثبات | L4 |
+| حالة السوق في المملكة العربية السعودية | لم يتم تسويقه (لم يتم تسويقه) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المعروفة، بوساكونازول هو من فئة مضادات الفطريات ثلاثية الأزول، وقد تم إثبات فعاليته في الوقاية من العدوى الفطرية الغازية، وقد ينطبق ميكانيكياً على الالتهاب الرئوي بالمُتكيسة.
+
+بوساكونازول يثبط CYP51 الفطري (lanosterol 14-α-demethylase)، مما يوقف توليف الإرجوستيرول في غشاء الخلية الفطرية. يُستخدم سريرياً للوقاية من عدوى الرشاشيات الغازية والمُبيّضات في السكان عالي الخطورة مثل متلقي زراعة الخلايا الجذعية造血 من متبرع غير متطابق (allo-HCT) والمرضى الذين يعانون من مرض الرفض المزروع ضد المضيف (GVHD).
+
+ومع ذلك، فإن الرابط الميكانيكي إلى الالتهاب الرئوي بالمُتكيسة ضعيف. *Pneumocystis jirovecii* له بيولوجيا غشاء/جدار خلوي مختلفة عن الفطريات النموذجية، وحساسيتها للعوامل ثلاثية الأزول ليست محددة جيداً أو متسقة في الأدبيات. العلاج القياسي لـ PCP لا يزال trimethoprim-sulfamethoxazole (TMP-SMX)؛ مضادات الفطريات ثلاثية الأزول ليست خياراً علاجياً أو وقائياً معترفاً به لـ PCP. الاتصال هنا يعكس على الأرجح ارتباطاً غير مباشر — كلا المؤشرات تندرج تحت "الوقاية المضادة للفطريات في مرضى المناعة الضعيفة بعد الزراعة" — بدلاً من نشاط موجه للهدف ضد *Pneumocystis*.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Completed | 602 | Evaluates **Rezafungin** (an echinocandin, not posaconazole) vs. standard antimicrobial regimen for prevention of invasive fungal disease in allogeneic HCT recipients. Relevance graded **C** — different study drug, no direct link to posaconazole or pneumocystosis. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Platform trial comparing GVHD prophylaxis regimens post-transplant; posaconazole may appear only as background standard-of-care antifungal prophylaxis, not as a PCP-directed intervention. Relevance graded **B**, no results yet available. |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | المرحلة 3 | مكتملة | 602 | تقيّم **Rezafungin** (من مضادات الإيكينوكاندين، وليس بوساكونازول) مقابل نظام المضادات الحيوية القياسي لمنع العدوى الفطرية الغازية لدى متلقي allo-HCT. تم تصنيف الملاءمة بـ **C** — دراسة دواء مختلفة، لا توجد علاقة مباشرة ببوساكونازول أو الالتهاب الرئوي بالمُتكيسة. |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | المرحلة 2 | قيد التجنيد | 358 | تجربة منصة مقارنة أنظمة الوقاية من GVHD بعد الزراعة؛ قد يظهر بوساكونازول فقط كمضاد للفطريات الوقائي القياسي للعناية الخلفية، وليس كتدخل موجه ضد PCP. تم تصنيف الملاءمة بـ **B**، لا توجد النتائج المتاحة حتى الآن. |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Review/Guideline | The Lancet Infectious Diseases | UK best-practice update on diagnosis of serious fungal diseases (diagnostics-focused; not a posaconazole-PCP efficacy study). |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Medical Weekly | Overview of invasive candidiasis, aspergillosis, cryptococcosis, and PCP; notes mould-active posaconazole prophylaxis reduces invasive candidiasis in high-risk hemato-oncology patients, but does not establish posaconazole efficacy against *Pneumocystis*. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Guideline | Chinese Journal of Tuberculosis and Respiratory Diseases | Clinical practice guideline for diagnosis/management of invasive pulmonary fungal disease; general guideline, not posaconazole/PCP-specific. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | PK/Review | Clinical Pharmacokinetics | Reviews pulmonary epithelial lining fluid penetration of antifungal/antimicrobial agents; pharmacokinetic background only, no PCP efficacy data. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohort | Transplant Infectious Disease | Retrospective review of infectious complications in acute GVHD after liver transplant; infection-management context only, not a posaconazole-PCP study. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | مراجعة/دليل إرشادي | The Lancet Infectious Diseases | تحديث أفضل الممارسات في المملكة المتحدة حول تشخيص الأمراض الفطرية الخطيرة (يركز على التشخيص؛ ليس دراسة حول فعالية بوساكونازول-PCP). |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | مراجعة | Swiss Medical Weekly | نظرة عامة على المُبيّضات الغازية والرشاشيات والعدوى بالمكورات الخفية و PCP؛ تلاحظ أن الوقاية بمضادات الفطريات النشطة من المولد بواسطة بوساكونازول تقلل المُبيّضات الغازية لدى مرضى الأورام الدموية عالي الخطورة، لكنها لا تثبت فعالية بوساكونازول ضد *Pneumocystis*. |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | دليل إرشادي | Chinese Journal of Tuberculosis and Respiratory Diseases | دليل الممارسة السريرية لتشخيص/إدارة أمراض الرئة الفطرية الغازية؛ دليل عام، وليس خاص بـ بوساكونازول/PCP. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | حرائك دوائية/مراجعة | Clinical Pharmacokinetics | يراجع اختراق سوائل بطانة الظهارة الرئوية للعوامل المضادة للفطريات/المضادات الحيوية؛ خلفية دوائية فقط، بدون بيانات فعالية PCP. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | دراسة أترابية | Transplant Infectious Disease | مراجعة بأثر رجعي للمضاعفات المعدية في GVHD الحاد بعد زراعة الكبد؛ سياق إدارة العدوى فقط، ليس دراسة حول بوساكونازول-PCP. |
 
-*Note: relevance classification for all 5 publications is marked "pending" in the source data — none has been confirmed as directly evaluating posaconazole for pneumocystosis.*
-
----
-
-## Saudi Arabia Market Information
-
-Posaconazole is not currently marketed in Saudi Arabia (0 authorizations on record).
+*ملاحظة: يتم تصنيف ملاءمة جميع المنشورات الخمسة بـ "قيد الانتظار" في بيانات المصدر — لم يتم تأكيد أي منها كتقييم مباشر لبوساكونازول على الالتهاب الرئوي بالمُتكيسة.*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+بوساكونازول لا يتم حالياً تسويقه في المملكة العربية السعودية (0 تصريح على السجل).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-Evidence is at the mechanism/preclinical level only (L4) — no clinical trial or publication directly evaluates posaconazole for pneumocystosis, and the proposed mechanistic link is indirect (shared antifungal-prophylaxis context rather than target-specific activity against *P. jirovecii*). A blocking data gap (missing TFDA/SFDA package insert) also prevents entry into the S1 safety pre-assessment stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — required to clear the S1 safety gate
-- DrugBank-sourced mechanism of action (MOA) detail
-- Confirmed original indication and regulatory status (drug is currently unmarketed in Saudi Arabia)
-- Direct clinical or in vitro evidence of posaconazole activity against *Pneumocystis jirovecii*, beyond its role as background antifungal prophylaxis in transplant settings
-- Drug-drug interaction (DDI) data, currently not found
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**المبرر:**
+الإثبات في مستوى الآلية/ما قبل السريرية فقط (L4) — لا توجد تجربة سريرية أو منشور يقيّم بوساكونازول على الالتهاب الرئوي بالمُتكيسة بشكل مباشر، والرابط الميكانيكي المقترح غير مباشر (سياق وقائي مضاد للفطريات مشترك بدلاً من نشاط موجه للهدف ضد *P. jirovecii*). كما تمنع فجوة بيانات حجب (غياب نشرة TFDA/SFDA) الدخول إلى مرحلة ما قبل تقييم السلامة S1.
+
+**لكي يتمكن من المتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA (تحذيرات، موانع الاستعمال) — مطلوبة لتنظيف بوابة السلامة S1
+- تفاصيل آلية العمل (MOA) التي يوفرها DrugBank
+- تأكيد المؤشر الأصلي وحالة التنظيم (الدواء لا يتم حالياً تسويقه في المملكة العربية السعودية)
+- دليل سريري مباشر أو في المختبر لنشاط بوساكونازول ضد *Pneumocystis jirovecii*، يتجاوز دوره كمضاد للفطريات الوقائي في إعدادات الزراعة
+- بيانات التفاعلات الدوائية (DDI)، غير موجودة حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

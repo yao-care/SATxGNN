@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Methylprednisolone: From Systemic Corticosteroid Therapy to Alopecia Areata
+# ميثيل بريدنيزولون: من العلاج بالكورتيكوستيرويد الجهازي إلى داء الثعلبة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Methylprednisolone is a synthetic glucocorticoid broadly used to suppress inflammatory and autoimmune activity across many conditions (specific original-indication and label data are not available in this evidence pack). The TxGNN model predicts it may be effective for **Alopecia Areata**, with **3 directly relevant clinical trials** and **10 supporting publications** (out of a larger, partly mismatched evidence set) currently backing this direction — including one completed Phase 4 prospective study.
+ميثيل بريدنيزولون هو كورتيكوستيرويد اصطناعي يُستخدم على نطاق واسع لقمع النشاط الالتهابي والمناعة الذاتية في العديد من الحالات (البيانات المحددة للمؤشر الأصلي والبيانات الملصقة غير متوفرة في هذه مجموعة الأدلة). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **داء الثعلبة**، مع **3 تجارب سريرية ذات صلة مباشرة** و**10 منشورات داعمة** (من مجموعة أكبر وغير متطابقة جزئياً) تدعم هذا الاتجاه حالياً — بما في ذلك دراسة مستقبلية من المرحلة 4 مكتملة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not specified in evidence pack — no Saudi Arabia licenses/label text on record; TFDA package insert data is a blocking gap (DG001) |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير محدد في مجموعة الأدلة — لا توجد تراخيص سعودية أو نصوص ملصقة في السجلات؛ بيانات ملصق TFDA تمثل فجوة حاجزة (DG001) |
+| المؤشر الجديد المتنبأ به | داء الثعلبة |
+| درجة التنبؤ بـ TxGNN | 99.99% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacology, methylprednisolone is a synthetic glucocorticoid that binds the glucocorticoid receptor to broadly suppress pro-inflammatory gene transcription, cytokine release, and immune cell (including T-cell) activity — the basis for its established anti-inflammatory and immunosuppressive use across a wide range of autoimmune and inflammatory diseases.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (تم تحديدها كفجوة بيانات عالية الخطورة). بناءً على الصيدلة المعروفة، ميثيل بريدنيزولون هو كورتيكوستيرويد اصطناعي يرتبط بمستقبل الكورتيكوستيرويد لقمع نسخ الجينات المؤيدة للالتهابات وإفراز السيتوكينات وفعالية خلايا المناعة (بما فيها خلايا T) بشكل واسع — وهي أساس استخدامه المثبت في مجال مكافحة الالتهابات والتثبيط المناعي عبر نطاق واسع من أمراض المناعة الذاتية والالتهابية.
 
-Alopecia areata is now understood to be primarily a T-cell-mediated autoimmune attack on the hair follicle, in which cytotoxic T cells break follicular immune privilege and drive inflammatory infiltration around the bulb. Because methylprednisolone's core mechanism is broad immunosuppression, high-dose pulse dosing is mechanistically plausible for reducing this peri-follicular inflammatory attack and supporting hair regrowth in severe or treatment-resistant disease.
+يُفهم الآن أن داء الثعلبة هو في المقام الأول هجوم مناعة ذاتية وسيطة خلايا T على بصيلة الشعر، حيث تكسر خلايا T السامة للخلايا الحصانة المسيطرة على البصيلة وتدفع التسلل الالتهابي حول المصباح. لأن آلية ميثيل بريدنيزولون الأساسية هي تثبيط المناعة الواسع، فإن الجرعات النبضية عالية الجرعة معقولة آلياً لتقليل هذا الهجوم الالتهابي حول البصيلة ودعم إعادة نمو الشعر في الحالات الشديدة أو المقاومة للعلاج.
 
-This is not a purely speculative model prediction: it is corroborated by a completed Phase 4 prospective study of oral mega-pulse methylprednisolone in severe, therapy-resistant alopecia areata, along with numerous retrospective cohorts and case series spanning several decades. What is still missing is a large, adequately powered Phase 3 RCT, which keeps the evidence level at L2 rather than L1.
+هذا ليس تنبؤاً نموذجياً بحتاً: إنه مدعوم من قبل دراسة مستقبلية مكتملة من المرحلة 4 لميثيل بريدنيزولون النبضي الفموي المكثف في داء الثعلبة الشديد والمقاوم للعلاج، إلى جانب مجموعات استرجاعية عديدة وسلسلة حالات تمتد عبر عدة عقود. ما يزال ينقص هو تجربة عشوائية مضبوطة من المرحلة 3 كبيرة وكافية القوة، الأمر الذي يحافظ على مستوى الأدلة عند L2 بدلاً من L1.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-The evidence pack's raw trial list contains a substantial number of trials that were retrieved under the "alopecia areata" query but are actually about unrelated conditions (e.g., systemic lupus erythematosus, prostate cancer, primary headache) — these are excluded below as disease/drug mismatches. Trials genuinely relevant to alopecia areata:
+تحتوي قائمة التجارب الخام في مجموعة الأدلة على عدد كبير من التجارب التي تم استرجاعها ضمن استعلام "داء الثعلبة" ولكنها في الواقع تتعلق بحالات غير ذات صلة (على سبيل المثال، الذئبة الحمراء الجهازية، سرطان البروستاتا، الصداع الأولي) — يتم استبعاد هذه أدناه كعدم توافق المرض/العقار. التجارب ذات الصلة الحقيقية بداء الثعلبة:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Completed | 42 | Oral mega-pulse methylprednisolone evaluated in severe, therapy-resistant alopecia areata; systemic pulse glucocorticoids effective in widespread AA but not clearly in totalis/universalis/ophiasic subtypes. |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A (Observational) | Completed | 296 | Prospective observational safety/effectiveness study of tofacitinib in alopecia, with participants receiving it with or without adjuvant prednisolone; not a direct methylprednisolone efficacy trial but relevant as corticosteroid-adjuvant context. |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Unknown | 20 | Compared DERMOJET vs. standard syringe for intralesional corticosteroid injection technique in alopecia areata; addresses delivery method rather than drug efficacy. |
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | المرحلة 4 | مكتملة | 42 | تم تقييم ميثيل بريدنيزولون النبضي الفموي المكثف في داء الثعلبة الشديد والمقاوم للعلاج؛ الكورتيكوستيرويدات النبضية الجهازية فعالة في داء الثعلبة الواسع النطاق ولكن ليس بوضوح في الأنماط الشاملة/العالمية/العينية. |
+| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | غير محدد (دراسة مراقبة) | مكتملة | 296 | دراسة أمان/فعالية مستقبلية مراقبة لتوفاسيتينيب في تساقط الشعر، مع مشاركين يتلقونها مع أو بدون بريدنيزولون مساعد؛ ليست تجربة فعالية ميثيل بريدنيزولون مباشرة ولكنها ذات صلة كسياق كورتيكوستيرويد مساعد. |
+| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | غير محدد | غير معروفة | 20 | مقارنة DERMOJET مقابل المحقن القياسي لتقنية حقن الكورتيكوستيرويدات داخل الآفة في داء الثعلبة؛ تتناول طريقة التسليم بدلاً من فعالية العقار. |
 
-*Note: Several additional trials in the raw evidence set (e.g., NCT04925934, NCT01972217, NCT05162586, NCT03616912) were graded "B" for relevance in the source data but their titles/summaries describe SLE or unrelated oncology studies — these appear to be query/classification errors and were excluded from this table.*
+*ملاحظة: عدة تجارب إضافية في مجموعة الأدلة الخام (على سبيل المثال، NCT04925934، NCT01972217، NCT05162586، NCT03616912) تم تصنيفها بـ "B" من حيث الملاءمة في بيانات المصدر ولكن ملخصاتها أو عناوينها تصف الذئبة الحمراء أو دراسات الأورام غير ذات الصلة — يبدو أن هذه أخطاء في الاستعلام/التصنيف وتم استبعادها من هذا الجدول.*
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| معرّف PubMed | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [30745958](https://pubmed.ncbi.nlm.nih.gov/30745958/) | 2019 | RCT | Open Access Maced J Med Sci | Methotrexate combined with mini-pulse methylprednisolone evaluated in severe alopecia areata (Vietnamese cohort); supports combination pulse-steroid regimens in refractory disease. |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Reviews efficacy, relapse rates, side effects, and prognostic factors across different corticosteroid pulse regimens in AA. |
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Review (Systematic) | Dermatol Ther (Heidelb) | Systematic review of cyclosporine with and without systemic corticosteroids in AA treatment. |
-| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | Review | Int J Dermatol | Reviews treatment options for alopecia totalis/universalis; notes no therapy is FDA-approved, situating corticosteroid pulse therapy among available options. |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Cohort | Indian J Dermatol Venereol Leprol | Evaluates IV methylprednisolone pulse therapy in severe, extensive, treatment-resistant AA. |
-| [18608727](https://pubmed.ncbi.nlm.nih.gov/18608727/) | 2008 | Cohort | J Dermatolog Treat | Combination cyclosporine + methylprednisolone in severe AA; addresses relapse after cyclosporine discontinuation. |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Cohort (Retrospective) | Dermatol Ther | Retrospective comparison of methylprednisolone alone vs. methylprednisolone + methotrexate in 26 patients with extensive AA. |
-| [36865845](https://pubmed.ncbi.nlm.nih.gov/36865845/) | 2022 | Cohort (Retrospective) | Indian J Dermatol | Examines sex differences in AA response to steroid pulse therapy. |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | Reviews pediatric pulse-dose corticosteroid dosing/administration practices and side effects in AA. |
-| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | Cohort (Retrospective) | J Eur Acad Dermatol Venereol | Long-term patient-reported experience with methylprednisolone pulse ± methotrexate in a French single-center cohort. |
+| [30745958](https://pubmed.ncbi.nlm.nih.gov/30745958/) | 2019 | تجربة عشوائية مضبوطة | Open Access Maced J Med Sci | تم تقييم الميثوتريكسيت مع ميثيل بريدنيزولون النبضي الصغير في داء الثعلبة الشديد (مجموعة فيتنامية)؛ يدعم أنظمة الستيرويد النبضي المركبة في الأمراض المقاومة للعلاج. |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | مراجعة | Dermatol Pract Concept | يراجع الفعالية ومعدلات الانتكاس والآثار الجانبية والعوامل التنبؤية عبر أنظمة الكورتيكوستيرويدات النبضية المختلفة في داء الثعلبة. |
+| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | مراجعة (منهجية) | Dermatol Ther (Heidelb) | مراجعة منهجية للسيكلوسبورين مع وبدون الكورتيكوستيرويدات الجهازية في علاج داء الثعلبة. |
+| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | مراجعة | Int J Dermatol | يراجع خيارات العلاج لداء الثعلبة الكامل/العالمي؛ يلاحظ أنه لا توجد طريقة معتمدة من قبل إدارة الغذاء والدواء، مما يضع العلاج النبضي بالكورتيكوستيرويدات بين الخيارات المتاحة. |
+| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | دراسة أتراب | Indian J Dermatol Venereol Leprol | يقيّم العلاج النبضي بـ ميثيل بريدنيزولون الوريدي في داء الثعلبة الشديد والواسع والمقاوم للعلاج. |
+| [18608727](https://pubmed.ncbi.nlm.nih.gov/18608727/) | 2008 | دراسة أتراب | J Dermatolog Treat | مزيج السيكلوسبورين + ميثيل بريدنيزولون في داء الثعلبة الشديد؛ يعالج الانتكاس بعد إيقاف السيكلوسبورين. |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | دراسة أتراب (استرجاعية) | Dermatol Ther | مقارنة استرجاعية لميثيل بريدنيزولون وحده مقابل ميثيل بريدنيزولون + ميثوتريكسيت في 26 مريضاً بداء الثعلبة الواسع. |
+| [36865845](https://pubmed.ncbi.nlm.nih.gov/36865845/) | 2022 | دراسة أتراب (استرجاعية) | Indian J Dermatol | يفحص الاختلافات بين الجنسين في استجابة داء الثعلبة للعلاج النبضي بالستيرويد. |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | مراجعة | Pediatr Dermatol | يراجع ممارسات جرعات الكورتيكوستيرويدات النبضية لدى الأطفال/الإعطاء والآثار الجانبية في داء الثعلبة. |
+| [36681881](https://pubmed.ncbi.nlm.nih.gov/36681881/) | 2023 | دراسة أتراب (استرجاعية) | J Eur Acad Dermatol Venereol | تجربة طويلة الأجل مبلغ عنها من قبل المريض مع نبض ميثيل بريدنيزولون ± ميثوتريكسيت في مجموعة فرنسية من مركز واحد. |
 
-*10 additional older case series/cohort papers (e.g., PMID 9777767, 22426909, 21592197, 23336179, 12746668, 25872976) further support pulse methylprednisolone use in severe AA but were deprioritized here per the RCT > Review > Case-report ranking rule.*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all flagged as data gaps in this evidence pack — DG001 is a Blocking-severity gap preventing S1 safety pre-screening.)
+*10 أوراق إضافية أقدم من سلسلة الحالات/دراسات الأتراب (على سبيل المثال، PMID 9777767، 22426909، 21592197، 23336179، 12746668، 25872976) تدعم بشكل أكبر استخدام ميثيل بريدنيزولون النبضي في داء الثعلبة الشديد ولكن تم تأجيل أولويتها هنا وفقاً لقاعدة الترتيب تجربة عشوائية مضبوطة > مراجعة > تقرير الحالة.*
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمانية
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى ملصق العبوة للحصول على معلومات الأمان. (جميع التحذيرات الرئيسية والمحاذير والبيانات التفاعلية للعقاقير تم تحديدها كفجوات بيانات في هذه مجموعة الأدلة — DG001 هي فجوة حاجزة تمنع فحص السلامة المسبق S1.)
 
-**Rationale:**
-The mechanistic rationale is sound (T-cell-mediated autoimmune disease responsive to broad immunosuppression), and one completed Phase 4 prospective trial plus multiple retrospective cohorts and a Phase-adjacent RCT support real-world efficacy of pulse methylprednisolone in severe/treatment-resistant AA. However, no large Phase 3 RCT exists, and critical local safety/regulatory data are missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert with warnings, contraindications, and DDI data (Blocking gap DG001)
-- Detailed mechanism of action data from DrugBank (High-severity gap DG002)
-- Confirmation of local market/regulatory pathway, since this product currently shows 0 authorizations and "Not Marketed" status
-- A larger controlled (ideally Phase 3 RCT) trial to move the evidence level from L2 toward L1
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الضمانات**
+
+**المنطق:**
+المنطق الآلي سليم (مرض المناعة الذاتية الوسيط خلايا T يستجيب لتثبيط المناعة الواسع)، وتجربة مستقبلية مكتملة من المرحلة 4 بالإضافة إلى مجموعات استرجاعية متعددة وتجربة عشوائية مضبوطة مرتبطة بالمرحلة تدعم فعالية ميثيل بريدنيزولون النبضي في الواقع في داء الثعلبة الشديد/المقاوم للعلاج. ومع ذلك، لا توجد تجربة عشوائية مضبوطة كبيرة من المرحلة 3، وتنقص البيانات الحرجة للسلامة/التنظيمية المحلية.
+
+**للمضي قدماً، يلزم ما يلي:**
+- ملصق TFDA/محلي مع تحذيرات وموانع وبيانات التفاعلات الدوائية (فجوة حاجزة DG001)
+- بيانات آلية العمل التفصيلية من DrugBank (فجوة عالية الخطورة DG002)
+- تأكيد المسار السوقي/التنظيمي المحلي، حيث أن هذا المنتج يُظهر حالياً 0 ترخيص وحالة "غير مسوّق"
+- تجربة خاضعة للرقابة أكبر (من الناحية المثالية تجربة عشوائية مضبوطة من المرحلة 3) لنقل مستوى الأدلة من L2 نحو L1
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

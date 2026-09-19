@@ -29,62 +29,63 @@ indication_count: 10
 
 </div>
 
-# MANNITOL: From Osmotic Diuretic Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# مانيتول: من الاستخدام كمدرّ بول تناضحي إلى متلازمة كلوية فشل مضادات الإدرار غير المناسب
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Mannitol is a hyperosmotic agent classically used as an osmotic diuretic (e.g., for cerebral edema/raised intracranial pressure, oliguria); no approved-indication text is present in this evidence pack. The TxGNN model predicts it may be relevant to **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this is currently supported by **0 clinical trials** and only **1 publication** — a general review on hyponatremia pitfalls that does not discuss mannitol specifically. Evidence is model-prediction-only at this stage.
+مانيتول هو عامل فرط التناضح الذي يُستخدم تقليدياً كمدرّ بول تناضحي (مثلاً لعلاج الوذمة الدماغية/ارتفاع الضغط داخل الجمجمة، قلة الإدرار البولي)؛ لا توجد معلومات حول دواعي الاستخدام المعتمدة في هذه مجموعة الأدلة. يتنبأ نموذج TxGNN بأن مانيتول قد يكون ذا صلة بـ **متلازمة كلوية فشل مضادات الإدرار غير المناسب (NSIAD)**، لكن هذا يدعمه حالياً **0 تجربة سريرية** و**1 منشور واحد فقط** — مراجعة عامة عن الأخطاء الشائعة في تشخيص نقص الصوديوم لا تناقش مانيتول بشكل محدد. الأدلة ترتكز على التنبؤ بالنموذج فقط في هذه المرحلة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not available in evidence pack (`original_indications` empty, MOA marked as Data Gap). Mannitol is generically known as an osmotic diuretic (cerebral edema/↑ICP, oliguria) — general pharmacology knowledge, not sourced from this evidence pack |
-| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.97% (rank 1047) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| دواعي الاستخدام الأصلية | غير متاحة في مجموعة الأدلة (`original_indications` فارغ، آلية العمل MOA مشار إليها كـ فجوة بيانات). يُعرّف مانيتول بشكل عام بأنه مدرّ بول تناضحي (وذمة دماغية/↑ICP، قلة الإدرار البولي) — معرفة دوائية عامة، غير مستمدة من هذه مجموعة الأدلة |
+| دواعي الاستخدام الجديدة المتنبأ بها | متلازمة كلوية فشل مضادات الإدرار غير المناسب |
+| درجة التنبؤ TxGNN | 99.97% (رتبة 1047) |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | Hold |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for mannitol in this evidence pack (marked as a Data Gap). Based on general pharmacological knowledge, mannitol is a hyperosmotic agent that produces osmotic diuresis; this property means it can influence serum sodium and free-water balance, which is mechanistically adjacent to the pathophysiology of NSIAD (an inappropriate antidiuresis/hyponatremia disorder).
+حالياً، بيانات آلية العمل المفصلة غير متاحة لمانيتول في هذه مجموعة الأدلة (مشار إليها كفجوة بيانات). بناءً على المعرفة الدوائية العامة، مانيتول هو عامل فرط التناضح الذي ينتج عنه إدرار تناضحي؛ تعني هذه الخاصية أنه يمكنه التأثير على صوديوم المصل وتوازن الماء الحر، وهو أمر ميكانيكي مجاور لفسيولوجيا المرض في NSIAD (اضطراب فشل مضادات الإدرار غير المناسب/نقص الصوديوم).
 
-However, the connection identified in this evidence pack is weak. The single literature reference (PMID 26706473) is a general review of common pitfalls in evaluating hyponatremic patients and does **not** specifically discuss mannitol as a therapy for NSIAD. The repurposing rationale itself flags that the direction of effect is unclear: mannitol's osmotic diuretic action could theoretically influence serum sodium concentration, but whether this would help (treat) or worsen NSIAD is not established, and no drug-specific evidence exists.
+ومع ذلك، فإن الارتباط المحدد في هذه مجموعة الأدلة ضعيف. المرجع الأدبي الوحيد (PMID 26706473) هو مراجعة عامة للأخطاء الشائعة في تقييم والتعامل مع المرضى الذين يعانون من نقص الصوديوم، ولا **تناقش** استخدام مانيتول كعلاج لـ NSIAD. تشير نسبة المنطق للدراسة نفسها إلى أن اتجاه التأثير غير واضح: قد يؤثر النشاط المدرّ للبول التناضحي لمانيتول نظرياً على تركيز صوديوم المصل، لكن ما إذا كان سيساعد (يعالج) أو يسوء NSIAD غير محدد، ولا يوجد دليل خاص بالعقار.
 
-Given the absence of any clinical trials, any disease-specific mechanistic literature, or drug-specific studies, this prediction should be regarded as a model-generated hypothesis only, not a clinically supported association.
+بالنظر إلى عدم وجود أي تجارب سريرية، أي أدب ميكانيكي خاص بالمرض، أو دراسات خاصة بالعقار، يجب اعتبار هذا التنبؤ فرضية تم إنشاؤها بواسطة النموذج فقط، وليس ارتباطاً سريرياً مدعوماً بأدلة.
 
-## Clinical Trial Evidence
+## أدلة التجربة السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Reviews common pitfalls in diagnosing/managing hyponatremia in hospitalized patients; general guidance on avoiding under- or over-treatment. Does not specifically discuss mannitol or its use in NSIAD. |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | مراجعة | European Journal of Internal Medicine | تراجع الأخطاء الشائعة في تشخيص/إدارة نقص الصوديوم لدى المرضى المنومين؛ توجيهات عامة لتجنب نقص أو إفراط في العلاج. لا تناقش استخدام مانيتول أو دوره في NSIAD. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Mannitol is not currently marketed in Saudi Arabia per this evidence pack (0 authorizations, no license records available).
+مانيتول غير مسوق حالياً في المملكة العربية السعودية وفقاً لهذه مجموعة الأدلة (0 تصاريح، لا توجد سجلات ترخيص متاحة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (All safety fields in this evidence pack — key warnings, contraindications, and drug interactions — are marked as data gaps; TFDA-equivalent package insert warnings could not be retrieved, which is flagged as a **Blocking** data gap for safety pre-screening.)
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. (جميع حقول السلامة في هذه مجموعة الأدلة — التحذيرات الرئيسية، موانع الاستعمال، وتفاعلات الدواء — مشار إليها كفجوات بيانات؛ لم يتمكن من الحصول على تحذيرات النشرة الداخلية المعادلة لـ TFDA، وهي مشار إليها كفجوة بيانات **حاجزة** لإجراء الفحص الأمني الأولي للسلامة.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-Evidence level is L5 (model prediction only) with no clinical trials and a single, non-specific review article whose relevance to mannitol is indirect and whose direction of effect (therapeutic vs. harmful) is unclear. In addition, a **Blocking** data gap on TFDA-equivalent safety warnings/contraindications currently prevents even an initial (S1) safety screen.
+**المبرر:**
+مستوى الأدلة هو L5 (التنبؤ بالنموذج فقط) بدون تجارب سريرية ومقالة مراجعة واحدة غير محددة يكون ارتباطها بمانيتول غير مباشر واتجاه التأثير فيها (علاجي مقابل ضار) غير واضح. بالإضافة إلى ذلك، فإن فجوة بيانات **حاجزة** حول تحذيرات وموانع استعمال TFDA المعادلة تمنع حالياً حتى الفحص الأمني الأولي (S1).
 
-**To proceed, the following is needed:**
-- TFDA/Saudi package insert warnings and contraindications (Blocking gap — required before any safety pre-screening)
-- Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
-- Drug-specific preclinical or mechanistic studies linking mannitol to NSIAD or serum sodium regulation
-- Clarification of directionality — whether mannitol's osmotic effect would ameliorate or exacerbate NSIAD-related hyponatremia — before any clinical hypothesis testing is considered
+**لمتابعة التقييم، يلزم تحقيق ما يلي:**
+- تحذيرات النشرة الداخلية من TFDA/المملكة العربية السعودية وموانع الاستعمال (فجوة حاجزة — مطلوبة قبل أي فحص أمني أولي)
+- بيانات آلية العمل المؤكدة (MOA) من DrugBank أو مصدر معادل
+- دراسات ما قبل سريرية أو ميكانيكية خاصة بالعقار تربط مانيتول بـ NSIAD أو تنظيم صوديوم المصل
+- توضيح اتجاه التأثير — ما إذا كان التأثير التناضحي لمانيتول سيحسّن أم يسوء نقص الصوديوم المرتبط بـ NSIAD — قبل أي اختبار فرضية سريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

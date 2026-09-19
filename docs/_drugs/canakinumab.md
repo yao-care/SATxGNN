@@ -29,112 +29,119 @@ indication_count: 10
 
 </div>
 
-# Canakinumab: From CAPS to Familial Mediterranean Fever
+# كاناكينوماب: من متلازمة CAPS إلى حمى البحر المتوسط العائلية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Canakinumab (Ilaris®) is a fully human anti-IL-1β monoclonal antibody developed by Novartis, globally approved for cryopyrin-associated periodic syndrome (CAPS) and related autoinflammatory diseases, though no active Saudi Arabia SFDA licenses are recorded in the current database.
-The TxGNN model assigns its highest scores to hepatic infarction and related liver diseases (ranks 1–3, scores >99.8%), but these predictions lack mechanistic basis and their associated literature is contaminated with studies of unrelated drugs — they are model artifacts without clinical translational value.
-The most clinically actionable TxGNN prediction is **Familial Mediterranean Fever (FMF)** (rank 6, score 99.41%), supported by **7 clinical trials** (including 5 completed Phase 3 trials) and **20 publications**, and is already an FDA- and EMA-approved indication for canakinumab globally.
+كاناكينوماب (Ilaris®) هو جسم مضاد وحيد النسيلة بشري بالكامل موجه ضد IL-1β طوّرته شركة نوفارتيس، وقد تمت الموافقة عليه عالميًا لمتلازمة الفترات المرتبطة بالكريوبيرين (CAPS) والأمراض الالتهابية الذاتية ذات الصلة، لكن لا توجد تراخيص نشطة من هيئة الدواء السعودية (SFDA) مسجلة في قاعدة البيانات الحالية.
+يعين نموذج TxGNN أعلى الدرجات لاحتشاء الكبد والأمراض الكبدية ذات الصلة (الرتب 1–3، درجات >99.8%)، لكن هذه التنبؤات تفتقر إلى أساس ميكانيكي والأدبيات المرتبطة بها ملوثة بدراسات أدوية غير ذات صلة — وهي عبارات نموذجية بدون قيمة سريرية انتقالية.
+التنبؤ الأكثر قابلية للعمل سريريًا من TxGNN هو **حمى البحر المتوسط العائلية (FMF)** (الرتبة 6، درجة 99.41%)، وتدعمها **7 تجارب سريرية** (بما في ذلك 5 تجارب المرحلة 3 المكتملة) و**20 منشور**، وهي مؤشر معتمد بالفعل من FDA و EMA لكاناكينوماب على المستوى العالمي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | CAPS (FCAS, Muckle-Wells Syndrome, NOMID) — FDA approved 2009; Saudi Arabia SFDA database shows no active licenses (suspected data gap) |
-| Predicted New Indication | Familial Mediterranean Fever, Autosomal Dominant |
-| TxGNN Prediction Score | 99.41% (Rank 6; ranks 1–5 are model artifacts — see rationale below) |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs) |
-| Saudi Arabia Market Status | ✗ Not Marketed (0 licenses on record) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | CAPS (FCAS, Muckle-Wells Syndrome, NOMID) — وافقت عليها FDA 2009؛ تظهر قاعدة بيانات SFDA السعودية عدم وجود تراخيص نشطة (شبهة فجوة بيانات) |
+| المؤشر الجديد المتنبأ به | حمى البحر المتوسط العائلية، الصيغة الصبغية السائدة |
+| درجة تنبؤ TxGNN | 99.41% (الرتبة 6؛ الرتب 1–5 عبارات نموذجية — انظر الأساس المنطقي أدناه) |
+| حالة السوق السعودية | ✗ غير مسوقة (0 تراخيص مسجلة) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Canakinumab is a fully human IgG1/κ monoclonal antibody that selectively neutralizes interleukin-1β (IL-1β). By blocking IL-1β from binding to its receptor (IL-1R1), canakinumab interrupts the downstream NF-κB and MAPK inflammatory signaling cascades responsible for fever, acute-phase protein production, and tissue inflammation. Although detailed MOA data was not returned by the automated data pipeline in this evidence pack, canakinumab's mechanism is extensively described in peer-reviewed literature (PMID 20065636): it was first approved by the US FDA in June 2009 specifically because CAPS is caused by NLRP3 inflammasome hyperactivation and constitutive IL-1β overproduction — the exact pathway canakinumab targets.
+كاناكينوماب هو جسم مضاد وحيد النسيلة بشري بالكامل IgG1/κ يعطل بشكل انتقائي الإنترلوكين-1بيتا (IL-1β). بحجب IL-1β عن الارتباط بمستقبله (IL-1R1)، يقاطع كاناكينوماب الحدود اللاحقة لمسارات الإشارات الالتهابية NF-κB و MAPK المسؤولة عن الحمى وإنتاج بروتينات الطور الحاد والالتهاب النسيجي. على الرغم من عدم إرجاع بيانات MOA التفصيلية بواسطة خط أنابيب البيانات الآلي في هذه مجموعة الأدلة، يتم وصف آلية عمل كاناكينوماب على نطاق واسع في الأدبيات التي تمت مراجعتها من قبل الأقران (PMID 20065636): تمت الموافقة عليها لأول مرة من قبل FDA الأمريكية في يونيو 2009 تحديدًا لأن CAPS ناتج عن فرط تفعيل inflammasome NLRP3 وفرط إنتاج IL-1β النموذجي — المسار الدقيق الذي يستهدفه كاناكينوماب.
 
-Familial Mediterranean fever (FMF) operates through the same mechanistic axis. FMF is caused by gain-of-function mutations in the MEFV gene encoding pyrin, a critical negative regulator of the pyrin inflammasome. Mutant pyrin loses its ability to suppress caspase-1, leading to uncontrolled IL-1β processing and secretion. The result is recurrent, self-limited attacks of fever and polyserositis (peritonitis, pleuritis, arthritis). Because IL-1β is the central effector molecule driving all FMF inflammatory episodes, canakinumab's mechanism maps directly onto the disease's pathophysiology — the drug essentially plugs the single cytokine bottleneck through which the entire disease cascade flows.
+تعمل حمى البحر المتوسط العائلية (FMF) من خلال نفس المحور الميكانيكي. يحدث FMF بسبب طفرات اكتساب الوظيفة في جين MEFV الذي يرمز لبيرين، وهو منظم سلبي حرج لـ pyrin inflammasome. يفقد البيرين الطفري قدرته على قمع caspase-1، مما يؤدي إلى معالجة وإفراز IL-1β غير المنضبطة. والنتيجة هي نوبات متكررة ومحدودة ذاتيًا من الحمى والتهاب المصليات (التهاب الصفاق، التهاب الجنبة، التهاب المفاصل). لأن IL-1β هو جزيء المنفذ المركزي الذي يحرك جميع حلقات FMF الالتهابية، تنطبق آلية عمل كاناكينوماب مباشرة على المرضية للمرض — العقار يسد بشكل أساسي اختناق السيتوكين الوحيد الذي تتدفق من خلاله سلسلة المرض بأكملها.
 
-This mechanistic alignment has been formally validated at the highest level of clinical evidence. The pivotal CLUSTER trial (De Benedetti et al., NEJM 2018, PMID 29768139) was a randomized, double-blind, placebo-controlled Phase 3 study that demonstrated canakinumab significantly reduced disease activity in FMF, TRAPS, and MKD patients, leading to regulatory approval in both the US and Europe. Multiple subsequent real-world cohort studies and systematic reviews (including a 2024 meta-analysis, PMID 37769252) have confirmed durable efficacy and a manageable safety profile, including in pediatric populations and in patients who had failed colchicine. The Saudi Arabia and broader Middle Eastern population carries a particularly high genetic burden of MEFV mutations, making this a clinically urgent and population-relevant indication.
+تم التحقق من هذا التوافق الميكانيكي رسميًا على أعلى مستوى من الأدلة السريرية. كانت تجربة CLUSTER الرئيسية (De Benedetti وآخرون، NEJM 2018، PMID 29768139) عبارة عن دراسة المرحلة 3 عشوائية عمياء مزدوجة محكومة بالعلاج الوهمي أظهرت أن كاناكينوماب قلل بشكل كبير من نشاط المرض لدى مرضى FMF و TRAPS و MKD، مما أدى إلى الموافقة التنظيمية في الولايات المتحدة وأوروبا. أكدت دراسات الأتراب العالمية الحقيقية اللاحقة والمراجعات المنهجية (بما في ذلك تحليل فوقي عام 2024، PMID 37769252) على الفعالية المستدامة والملف الأماني القابل للإدارة، بما في ذلك في السكان الأطفال والمرضى الذين فشلوا في الكولشيسين. يحمل السكان السعوديون والشرق الأوسط الأوسع بشكل عام عبئًا وراثيًا عاليًا بشكل خاص من طفرات MEFV، مما يجعل هذا مؤشرًا ذا أهمية سريرية ملحة وذا صلة بالسكان.
 
-> **Data Quality Note — TxGNN Ranking Discrepancy:** The top 5 TxGNN-ranked predictions (hepatic infarction, hepatic veno-occlusive disease, peliosis hepatis, combined immunodeficiency, periodic fever-enterocolitis syndrome) all score above 99.5% but have zero or contaminated evidence. Ranks 1–3 involve rare liver vascular diseases with no IL-1β mechanistic link; their lone retrieved literature items reference unrelated drugs (bempedoic acid). This pattern suggests TxGNN is capturing spurious proximity in the disease knowledge graph between "immune-mediated liver disease" nodes and the canakinumab drug node, rather than a genuine repurposing signal. Ranks 5 (L3, autoinflammatory syndrome) and 8 (Blau syndrome, L3) represent legitimate mechanistic opportunities worth monitoring as research questions but do not yet reach the evidence threshold for clinical action.
+> **ملاحظة جودة البيانات — عدم تطابق ترتيب TxGNN:** أفضل 5 تنبؤات مصنفة حسب TxGNN (احتشاء الكبد، مرض التصاق الكبد الوريدي، peliosis hepatis، نقص المناعة الموحد، متلازمة الحمى الدورية - التهاب الأمعاء) جميعها تسجل أعلى من 99.5% لكنها تحتوي على أدلة صفرية أو ملوثة. تتضمن الرتب 1–3 أمراضًا كبدية وعائية نادرة بدون ارتباط ميكانيكي IL-1β؛ عناصر أدبياتها الوحيدة المسترجعة تشير إلى أدوية غير ذات صلة (حمض bempedoic). يشير هذا النمط إلى أن TxGNN يلتقط قربًا وهميًا في رسم بياني معرفة المرض بين عقد "مرض الكبد الوسيط المناعي" وعقدة عقار كاناكينوماب، بدلاً من إشارة إعادة الاستخدام الحقيقية. تمثل الرتب 5 (L3، متلازمة الالتهاب الذاتي) و 8 (متلازمة Blau، L3) فرصًا ميكانيكية شرعية تستحق المراقبة كأسئلة بحثية لكنها لم تصل بعد إلى عتبة الأدلة للعمل السريري.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-*(Reporting for Familial Mediterranean Fever / CAPS indication cluster — rank 6 in this evidence pack)*
+*(الإبلاغ عن عنقود مؤشر حمى البحر المتوسط العائلية / CAPS — الرتبة 6 في هذه مجموعة الأدلة)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00465985](https://clinicaltrials.gov/study/NCT00465985) | Phase 3 | Completed | 35 | Three-part randomized double-blind placebo-controlled withdrawal study in Muckle-Wells Syndrome; Part II is the core pivotal RCT establishing canakinumab efficacy vs. placebo in CAPS |
-| [NCT00685373](https://clinicaltrials.gov/study/NCT00685373) | Phase 3 | Completed | 166 | Long-term open-label safety and efficacy study in CAPS (FCAS, MWS, NOMID); the largest canakinumab CAPS dataset providing durable safety evidence |
-| [NCT01302860](https://clinicaltrials.gov/study/NCT01302860) | Phase 3 | Completed | 17 | One-year open-label study in CAPS patients aged ≤4 years; evaluates efficacy, tolerability, and childhood vaccination safety during canakinumab treatment |
-| [NCT00991146](https://clinicaltrials.gov/study/NCT00991146) | Phase 3 | Completed | 19 | Open-label efficacy and safety study in Japanese CAPS patients (FCAS, MWS, NOMID); 6-month treatment plus extension phase pending Japanese marketing approval |
-| [NCT01576367](https://clinicaltrials.gov/study/NCT01576367) | Phase 3 | Completed | 17 | Open-label extension of NCT01302860; provides long-term safety and tolerability data for CAPS patients after initial Phase 3 participation |
-| [NCT01242813](https://clinicaltrials.gov/study/NCT01242813) | Phase 2 | Completed | 20 | Open-label study in active recurrent/chronic TNF-receptor Associated Periodic Syndrome (TRAPS); 4-month canakinumab treatment with 6-month follow-up — supports mechanistic class generalizability |
-| [NCT06838143](https://clinicaltrials.gov/study/NCT06838143) | Real-World (N/A) | Recruiting | 25 | REASSURE study: non-interventional safety and effectiveness study of Ilaris® 150 mg in hereditary periodic fever syndromes (CAPS, colchicine-resistant FMF, TRAPS, HIDS/MKD) and sJIA; completion expected 2028 |
+| [NCT00465985](https://clinicaltrials.gov/study/NCT00465985) | المرحلة 3 | مكتملة | 35 | دراسة الانسحاب العشوائية العمياء المزدوجة المحكومة بالعلاج الوهمي من ثلاثة أجزاء في متلازمة Muckle-Wells؛ الجزء الثاني هو تجربة RCT الأساسية الرئيسية التي تؤسس فعالية كاناكينوماب مقابل العلاج الوهمي في CAPS |
+| [NCT00685373](https://clinicaltrials.gov/study/NCT00685373) | المرحلة 3 | مكتملة | 166 | دراسة الأمان والفعالية المفتوحة طويلة الأمد في CAPS (FCAS، MWS، NOMID)؛ أكبر مجموعة بيانات كاناكينوماب CAPS توفر أدلة أمان دائمة |
+| [NCT01302860](https://clinicaltrials.gov/study/NCT01302860) | المرحلة 3 | مكتملة | 17 | دراسة مفتوحة لمدة سنة واحدة في مرضى CAPS الذين تبلغ أعمارهم ≤4 سنوات؛ تقيّم الفعالية والتحمل وسلامة التطعيم في الطفولة أثناء علاج كاناكينوماب |
+| [NCT00991146](https://clinicaltrials.gov/study/NCT00991146) | المرحلة 3 | مكتملة | 19 | دراسة الفعالية والأمان المفتوحة في مرضى CAPS اليابانيين (FCAS، MWS، NOMID)؛ العلاج لمدة 6 أشهر بالإضافة إلى مرحلة التمديد في انتظار الموافقة على التسويق الياباني |
+| [NCT01576367](https://clinicaltrials.gov/study/NCT01576367) | المرحلة 3 | مكتملة | 17 | تمديد مفتوح لـ NCT01302860؛ يوفر بيانات الأمان والتحمل طويلة الأمد لمرضى CAPS بعد المشاركة الأولية في المرحلة 3 |
+| [NCT01242813](https://clinicaltrials.gov/study/NCT01242813) | المرحلة 2 | مكتملة | 20 | دراسة مفتوحة في متلازمة الفترة المرتبطة بمستقبل TNF (TRAPS) النشطة المتكررة/المزمنة؛ علاج كاناكينوماب لمدة 4 أشهر مع متابعة 6 أشهر — يدعم عمومية الفئة الميكانيكية |
+| [NCT06838143](https://clinicaltrials.gov/study/NCT06838143) | العالم الحقيقي (N/A) | قيد التجنيد | 25 | دراسة REASSURE: دراسة سلامة وفعالية غير متداخلة لـ Ilaris® 150 mg في متلازمات الحمى الدورية الموروثة (CAPS، FMF المقاوم للكولشيسين، TRAPS، HIDS/MKD) و sJIA؛ الانتهاء المتوقع 2028 |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-*(Top 10 publications for FMF / autoinflammatory indications)*
+*(أفضل 10 منشورات لمؤشرات FMF / الالتهاب الذاتي)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | RCT (CLUSTER) | N Engl J Med | Pivotal Phase 3 randomized trial of canakinumab vs. placebo in FMF, TRAPS, and MKD; demonstrated significant reduction in disease activity scores and attack frequency across all three conditions — the definitive evidence base for this indication |
-| [37769252](https://pubmed.ncbi.nlm.nih.gov/37769252/) | 2024 | Systematic Review + Meta-Analysis | Rheumatology (Oxford) | Quantitative synthesis of anti-IL-1 treatment efficacy and safety in FMF; confirms canakinumab as an effective alternative for colchicine-resistant or -intolerant patients with favorable benefit-risk profile |
-| [35874710](https://pubmed.ncbi.nlm.nih.gov/35874710/) | 2022 | Systematic Review | Frontiers in Immunology | Comprehensive systematic review of three approved IL-1 blockers (anakinra, canakinumab, rilonacept) across immune-mediated disorders; synthesizes the full evidence base including autoinflammatory and cardiovascular indications |
-| [40040547](https://pubmed.ncbi.nlm.nih.gov/40040547/) | 2025 | Cohort Study | Int J Rheumatic Diseases | Compares canakinumab with and without concurrent colchicine in FMF; examines attack frequency, CRP/SAA levels, and long-term renal outcomes — informs optimal combination strategy |
-| [36062765](https://pubmed.ncbi.nlm.nih.gov/36062765/) | 2022 | Clinical Review | Clin Exp Rheumatology | Reviews clinical outcomes and expectations of IL-1 inhibition in FMF; discusses response predictors, pharmacokinetics, and management of patients transitioning from colchicine to biologic therapy |
-| [32806879](https://pubmed.ncbi.nlm.nih.gov/32806879/) | 2020 | Review | Turkish J Med Sci | Contemporary review of FMF pathogenesis to treatment; covers emerging role of canakinumab in colchicine-resistant cases, genetic testing advances, and secondary amyloidosis prevention |
-| [28362189](https://pubmed.ncbi.nlm.nih.gov/28362189/) | 2017 | Review | Expert Rev Clin Immunol | Focused review of canakinumab for FMF treatment; summarizes clinical evidence to date and discusses dosing, monitoring, and practical use in colchicine-resistant adult and pediatric patients |
-| [31463794](https://pubmed.ncbi.nlm.nih.gov/31463794/) | 2019 | Cohort Study | Paediatric Drugs | Single-center retrospective analysis of canakinumab in pediatric FMF patients unresponsive to maximum colchicine doses; reports significant attack reduction and sustained clinical remission |
-| [36961326](https://pubmed.ncbi.nlm.nih.gov/36961326/) | 2023 | Cohort Study | Rheumatology (Oxford) | Proposes evidence-based protocol for canakinumab tapering and discontinuation in colchicine-resistant pediatric FMF; evaluates feasibility and relapse rates after dose reduction |
-| [27603969](https://pubmed.ncbi.nlm.nih.gov/27603969/) | 2016 | Review | Expert Opin Biol Ther | Investigates canakinumab for FMF; discusses pyrin's role in IL-1β regulation, the 40% partial responder rate with colchicine, and accumulating evidence supporting anti-IL-1 therapy as a reliable second-line option |
+| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | تجربة عشوائية محكومة (CLUSTER) | N Engl J Med | تجربة المرحلة 3 العشوائية الرئيسية لكاناكينوماب مقابل العلاج الوهمي في FMF و TRAPS و MKD؛ أظهرت تقليلًا كبيرًا في درجات نشاط المرض وتكرار الهجوم عبر جميع الحالات الثلاث — قاعدة الأدلة النهائية لهذا المؤشر |
+| [37769252](https://pubmed.ncbi.nlm.nih.gov/37769252/) | 2024 | مراجعة منهجية + تحليل فوقي | Rheumatology (Oxford) | تجميع كمي لفعالية وسلامة العلاج المضاد لـ IL-1 في FMF؛ يؤكد كاناكينوماب كبديل فعال للمرضى المقاومين للكولشيسين أو الذين لا يتحملونه مع ملف فائدة-مخاطرة مناسب |
+| [35874710](https://pubmed.ncbi.nlm.nih.gov/35874710/) | 2022 | مراجعة منهجية | Frontiers in Immunology | مراجعة منهجية شاملة لثلاثة مثبطات IL-1 المعتمدة (anakinra، كاناكينوماب، rilonacept) عبر الاضطرابات الوسيطة المناعية؛ تجميع قاعدة الأدلة الكاملة بما في ذلك مؤشرات الالتهاب الذاتي والقلبية الوعائية |
+| [40040547](https://pubmed.ncbi.nlm.nih.gov/40040547/) | 2025 | دراسة أتراب | Int J Rheumatic Diseases | يقارن كاناكينوماب مع وبدون كولشيسين متزامن في FMF؛ يفحص تكرار الهجوم ومستويات CRP/SAA والنتائج الكلوية طويلة الأمد — يطلع على استراتيجية الجمع الأمثل |
+| [36062765](https://pubmed.ncbi.nlm.nih.gov/36062765/) | 2022 | مراجعة سريرية | Clin Exp Rheumatology | يستعرض النتائج السريرية والتوقعات من تثبيط IL-1 في FMF؛ يناقش منبئات الاستجابة والديناميكا الدوائية وإدارة المرضى الذين ينتقلون من الكولشيسين إلى العلاج البيولوجي |
+| [32806879](https://pubmed.ncbi.nlm.nih.gov/32806879/) | 2020 | مراجعة | Turkish J Med Sci | مراجعة معاصرة لمرضية FMF للعلاج؛ تغطي الدور الناشئ لكاناكينوماب في الحالات المقاومة للكولشيسين، والتطورات في الاختبارات الجينية، ومنع النشاء الثانوي |
+| [28362189](https://pubmed.ncbi.nlm.nih.gov/28362189/) | 2017 | مراجعة | Expert Rev Clin Immunol | مراجعة موجهة لكاناكينوماب لعلاج FMF؛ تلخص الأدلة السريرية حتى الآن وتناقش الجرعات والمراقبة والاستخدام العملي في المرضى البالغين والأطفال المقاومين للكولشيسين |
+| [31463794](https://pubmed.ncbi.nlm.nih.gov/31463794/) | 2019 | دراسة أتراب | Paediatric Drugs | تحليل بأثر رجعي لمركز واحد لكاناكينوماب في مرضى FMF الأطفال الذين لم يستجيبوا لأقصى جرعات الكولشيسين؛ يبلغ عن تقليل كبير في الهجوم والعفو السريري المستمر |
+| [36961326](https://pubmed.ncbi.nlm.nih.gov/36961326/) | 2023 | دراسة أتراب | Rheumatology (Oxford) | يقترح بروتوكول قائم على الأدلة لتناقص كاناكينوماب والتوقف في FMF الأطفال المقاوم للكولشيسين؛ يقيّم الجدوى ومعدلات الانتكاس بعد تقليل الجرعة |
+| [27603969](https://pubmed.ncbi.nlm.nih.gov/27603969/) | 2016 | مراجعة | Expert Opin Biol Ther | يحقق في كاناكينوماب لـ FMF؛ يناقش دور البيرين في تنظيم IL-1β، ومعدل الاستجابة الجزئية 40% مع الكولشيسين، والأدلة المتراكمة التي تدعم العلاج المضاد لـ IL-1 كخيار موثوق في الخطوة الثانية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودية
 
-Canakinumab (Ilaris®) currently has **no active licenses** in the Saudi Arabia SFDA database as of the data cutoff (2026-06-15). No dosage forms, product names, or approved indications are on record.
+يتمتع كاناكينوماب (Ilaris®) حاليًا بـ **عدم وجود تراخيص نشطة** في قاعدة بيانات SFDA السعودية اعتبارًا من تاريخ قطع البيانات (2026-06-15). لا توجد أشكال جرعات أو أسماء منتجات أو مؤشرات معتمدة مسجلة.
 
-> **Important Data Gap Warning:** This almost certainly reflects a database gap rather than a true absence of regulatory authorization. Canakinumab (Ilaris®, Novartis) was approved by the US FDA in June 2009 and by the EMA for CAPS, and subsequently for FMF (colchicine-resistant), TRAPS, HIDS/MKD, sJIA, and adult-onset Still's disease. The repurposing rationale embedded in this evidence pack (rank 6) explicitly flags: *"資料標記「Not marketed」與實際核准狀態不符，疑為資料庫缺失"* (the "not marketed" label does not match the actual approval status — suspected database gap). A direct SFDA query or Novartis Saudi Arabia affiliate contact is required before concluding the drug is unavailable in the Saudi market.
-
----
-
-## Safety Considerations
-
-All safety data fields returned as Data Gap in this evidence pack (no SFDA package insert retrieved, no DDI data found). The following reflects established class-effect knowledge from published literature for clinical awareness:
-
-- **Infection risk**: IL-1β is a key mediator of innate immune defense. Blockade with canakinumab may impair host defense against bacterial infections, including serious, opportunistic, and atypical pathogens. Active infections should be resolved before initiating treatment.
-- **Live vaccine contraindication**: Live or live-attenuated vaccines should not be administered during canakinumab therapy. NCT01302860 specifically evaluated childhood vaccination safety during treatment — only inactivated vaccines were used.
-- **Neutropenia**: Cases of neutropenia (including grade 3/4) have been reported in clinical trials. CBC monitoring is standard of care during treatment.
-- **Hypersensitivity**: Injection site reactions are common. Rare serious hypersensitivity reactions have been reported.
-
-For complete prescribing information including black box warnings, specific contraindications, and drug interactions, consult the current Ilaris® USPI, EMA SmPC, or direct SFDA inquiry.
+> **تحذير فجوة البيانات المهمة:** هذا يعكس بكل تأكيد تقريبًا فجوة في قاعدة البيانات بدلاً من عدم وجود حقيقي للتفويض التنظيمي. تمت الموافقة على كاناكينوماب (Ilaris®, Novartis) من قبل FDA الأمريكية في يونيو 2009 وبواسطة EMA لـ CAPS، وفيما بعد لـ FMF (المقاوم للكولشيسين) و TRAPS و HIDS/MKD و sJIA وداء Still الذي يبدأ عند البالغين. يشير الأساس المنطقي لإعادة الاستخدام المضمن في هذه مجموعة الأدلة (الرتبة 6) بوضوح إلى: *"資料標記「Not marketed」與實際核准狀態不符，疑為資料庫缺失"* (لا تطابق علامة "غير مسوقة" مع حالة الموافقة الفعلية — شبهة فجوة قاعدة بيانات). مطلوب الاستعلام المباشر عن SFDA أو الاتصال بفرع Novartis السعودي قبل الخلوص إلى أن الدواء غير متاح في السوق السعودية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+جميع حقول بيانات السلامة المرجعة كفجوة بيانات في هذه مجموعة الأدلة (لم يتم استرجاع نشرة SFDA، لم يتم العثور على بيانات DDI). فيما يلي ينعكس المعرفة الثابتة بتأثير الفئة من الأدبيات المنشورة للتوعية السريرية:
 
-**Rationale:**
-Canakinumab has L1 evidence (5 completed Phase 3 trials, a pivotal NEJM RCT, and a 2024 meta-analysis) for familial Mediterranean fever — the highest evidence tier in this evidence pack. This is not a speculative repurposing candidate but a globally established, mechanism-driven indication where the drug is already the standard of care for colchicine-resistant patients in the US and Europe. The primary barrier to implementation in Saudi Arabia appears to be a regulatory database gap rather than a genuine unmet evidence requirement. FMF is also a clinically urgent indication for the Saudi/Middle Eastern population given the high prevalence of MEFV mutations in this demographic.
+- **خطر العدوى**: IL-1β هو وسيط رئيسي في الدفاع المناعي الفطري. قد يضعف الحجب بواسطة كاناكينوماب دفاع المضيف ضد العدوى البكتيرية، بما في ذلك مسببات الأمراض الخطيرة والانتهازية والغير النمطية. يجب حل العدوى النشطة قبل بدء العلاج.
 
-**To proceed, the following is needed:**
+- **موانع التطعيم الحي**: لا ينبغي إعطاء اللقاحات الحية أو الحية الموهنة أثناء علاج كاناكينوماب. قيّم NCT01302860 بشكل خاص سلامة التطعيم في الطفولة أثناء العلاج — تم استخدام اللقاحات المعطلة فقط.
 
-- **SFDA status verification**: Contact Novartis Saudi Arabia or query SFDA directly to confirm current marketing authorization status of Ilaris® 150 mg/mL solution for injection — the 0-license finding is inconsistent with global approval history
-- **Package insert procurement**: Retrieve the current Ilaris® USPI or EMA SmPC to complete the S1 safety screening (all safety fields are Data Gap in this pack); this is flagged as a blocking data gap (DG001)
-- **Epidemiological scoping**: Estimate the colchicine-resistant/intolerant FMF patient pool in Saudi Arabia — FMF prevalence in Arab populations is approximately 1:1,000; the ~5–10% colchicine non-responder rate defines the addressable patient population
-- **Health technology assessment**: Conduct pharmacoeconomic analysis; canakinumab carries a high annual cost relative to colchicine (first-line) and anakinra (alternative biologic), which may be the primary barrier to formulary inclusion
-- **Secondary pipeline monitoring (Research Questions)**: Periodic fever-infantile enterocolitis-autoinflammatory syndrome (rank 5, L3) and Blau syndrome (rank 8, L3) share the same inflammasome/IL-1β mechanistic axis and warrant continued literature surveillance as research questions — these may reach actionable evidence thresholds as case series accumulate
+- **قلة العدلات**: تم الإبلاغ عن حالات قلة العدلات (بما في ذلك الدرجة 3/4) في التجارب السريرية. مراقبة CBC هي معيار الرعاية أثناء العلاج.
+
+- **فرط الحساسية**: تفاعلات موقع الحقن شائعة. تم الإبلاغ عن تفاعلات فرط حساسية خطيرة نادرة.
+
+للحصول على معلومات وصف كاملة بما في ذلك التحذيرات الصندوقية السوداء، والمخالفات المحددة، والتفاعلات الدوائية، استشير USPI Ilaris® الحالي أو EMA SmPC أو الاستعلام المباشر عن SFDA.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع الضمانات**
+
+**الأساس المنطقي:**
+يتمتع كاناكينوماب بأدلة L1 (5 تجارب المرحلة 3 المكتملة، تجربة NEJM RCT محورية، وتحليل فوقي عام 2024) لحمى البحر المتوسط العائلية — أعلى فئة أدلة في هذه مجموعة الأدلة. هذا ليس مرشحًا تخمينيًا لإعادة الاستخدام بل مؤشرًا معروفًا عالميًا يعتمد على الآلية حيث يكون الدواء بالفعل معيار الرعاية للمرضى المقاومين للكولشيسين في الولايات المتحدة وأوروبا. يبدو أن الحاجز الرئيسي لتنفيذه في المملكة العربية السعودية هو فجوة قاعدة بيانات تنظيمية وليس متطلب أدلة غير ملباة حقيقية. FMF هو أيضًا مؤشرًا سريريًا ملحًا للسكان السعوديين/الشرق الأوسط نظرًا للانتشار العالي لطفرات MEFV في هذا السكان.
+
+**للمتابعة، يلزم التالي:**
+
+- **التحقق من حالة SFDA**: اتصل بـ Novartis السعودية أو استعلم SFDA مباشرة لتأكيد حالة تصريح التسويق الحالية لـ Ilaris® 150 mg/mL محلول للحقن — نتيجة 0-ترخيص غير متسقة مع تاريخ الموافقة العالمي
+
+- **شراء نشرة العبوة**: استرجاع USPI Ilaris® الحالي أو EMA SmPC لإكمال فحص السلامة S1 (جميع حقول السلامة هي فجوة بيانات في هذه الحزمة)؛ هذا مرفوع أنه فجوة بيانات حاجزة (DG001)
+
+- **نطاق علم الأوبئة**: تقدير مجموعة مرضى FMF المقاومين/الذين لا يتحملون الكولشيسين في المملكة العربية السعودية — انتشار FMF في السكان العرب هو تقريبًا 1:1,000؛ معدل عدم الاستجابة للكولشيسين حوالي 5–10% يحدد سكان المرضى القابلة للمعالجة
+
+- **تقييم تكنولوجيا الصحة**: إجراء تحليل الاقتصاديات الصيدلانية؛ يحمل كاناكينوماب تكلفة سنوية عالية نسبة إلى الكولشيسين (الخطوط الأولى) و anakinra (بديل بيولوجي)، وقد يكون هذا الحاجز الرئيسي لإدراج الصيغة
+
+- **مراقبة خط الأنابيب الثانوي (أسئلة البحث)**: متلازمة الحمى الدورية - التهاب الأمعاء الدقيقة - الالتهاب الذاتي (الرتبة 5، L3) ومتلازمة Blau (الرتبة 8، L3) تشترك في نفس المحور الميكانيكي inflammasome/IL-1β وتستحق المراقبة الأدبية المستمرة كأسئلة بحثية — قد تصل إلى عتبات الأدلة القابلة للعمل مع تراكم سلسلة الحالات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

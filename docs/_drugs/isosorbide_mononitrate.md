@@ -29,88 +29,89 @@ indication_count: 10
 
 </div>
 
-# Isosorbide Mononitrate: From Nitrate Vasodilator (Original Indication Not on File) to Pulmonary Arterial Hypertension
+# أحادي نترات الإيزوسوربيد: من موسع أوعية النترات (الاستطباب الأصلي غير موثق) إلى ارتفاع ضغط الدم الشرياني الرئوي
 
-*Note: This Evidence Pack contains 10 TxGNN-predicted indications for ISMN. Nine of the ten (hypertrichosis, alopecia, congenital hair/craniofacial syndromes, etc.) have zero clinical trials, zero literature, and are explicitly flagged in the pack's own rationale as speculative or spurious knowledge-graph associations. This report focuses on the one candidate with an actual mechanistic and literature basis — **Pulmonary Arterial Hypertension (PAH)**, rank 10 by TxGNN score but the only candidate reaching decision stage S1.*
-
----
-
-## One-Sentence Summary
-
-Isosorbide Mononitrate (ISMN) is a long-acting organic nitrate / nitric oxide (NO) donor; its original approved indication is not documented in this evidence pack, and the drug is not currently marketed locally.
-The TxGNN model predicts potential relevance to **Pulmonary Arterial Hypertension**, supported by **0 clinical trials** and **6 publications**, of which only one directly modeled a pulmonary hypertension disease state (an animal model), and none tested ISMN itself as monotherapy in PAH patients.
+*ملاحظة: تحتوي حزمة الأدلة هذه على 10 استطبابات متنبأ بها من قبل TxGNN لـ ISMN. تسعة من أصل عشرة (فرط الشعرانية والثعلبة ومتلازمات الشعر الخلقية/متلازمات الجمجمة والوجه وغيرها) خالية من التجارب السريرية والأدب الطبي، وتم تحديدها بشكل صريح في منطق حزمة الأدلة نفسها كارتباطات معرفة الرسم البياني مضللة أو مشكوك فيها. يركز هذا التقرير على المرشح الوحيد الذي يتمتع بأساس ميكانيكي وأدبي حقيقي — **ارتفاع ضغط الدم الشرياني الرئوي (PAH)**، وهو يحتل المرتبة 10 بناءً على درجة TxGNN، لكنه المرشح الوحيد الذي بلغ مرحلة القرار S1.*
 
 ---
 
-## Quick Overview
+## ملخص في جملة واحدة
 
-| Item | Content |
+أحادي نترات الإيزوسوربيد (ISMN) هو نترات عضوية طويلة المفعول ومانح أكسيد النيتريك (NO)؛ استطبابه الأصلي المعتمد غير موثق في حزمة الأدلة هذه، والدواء غير مسوق محليًا حاليًا.
+يتنبأ نموذج TxGNN بالصلة المحتملة بـ **ارتفاع ضغط الدم الشرياني الرئوي**، مدعوم بـ **0 تجربة سريرية** و **6 منشورات**، منها اختبرت واحدة فقط نموذج مرض ارتفاع ضغط الدم الرئوي (نموذج حيواني)، ولم تختبر أي منها ISMN نفسه كعلاج أحادي في مرضى PAH.
+
+---
+
+## نظرة عامة سريعة
+
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in evidence pack (no approved indication text on file; drug not marketed locally) |
-| Predicted New Indication | Pulmonary Arterial Hypertension |
-| TxGNN Prediction Score | 99.94% (rank 1464 among all predictions) |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير متاح في حزمة الأدلة (لا يوجد نص استطباب معتمد في الملف؛ الدواء غير مسوق محليًا) |
+| الاستطباب الجديد المتنبأ به | ارتفاع ضغط الدم الشرياني الرئوي |
+| درجة التنبؤ من TxGNN | 99.94% (المرتبة 1464 بين جميع التنبؤات) |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for ISMN is not available in DrugBank per this evidence pack (`original_moa: [Data Gap]`). Based on the literature captured in this pack, ISMN is a long-acting organic nitrate that undergoes non-enzymatic metabolism to release nitric oxide (NO). NO activates soluble guanylate cyclase (sGC), raising intracellular cGMP and producing vascular smooth muscle relaxation.
+بيانات آلية العمل المفصلة لـ ISMN غير متاحة في DrugBank وفقًا لحزمة الأدلة هذه (`original_moa: [Data Gap]`). بناءً على الأدب الطبي المتضمن في هذه الحزمة، ISMN هو نترات عضوية طويلة المفعول تخضع لاستقلاب غير إنزيمي لإطلاق أكسيد النيتريك (NO). يفعّل NO سيكلاز الجوانيلات القابلة للذوبان (sGC)، مما يرفع مستويات cGMP داخل الخلايا ويؤدي إلى ارتخاء عضلات الأوعية الدموية الملساء.
 
-This NO–sGC–cGMP axis is a clinically validated therapeutic target in PAH — sGC *stimulator* drugs (e.g., riociguat) are an approved PAH drug class that acts on the same pathway ISMN engages as an NO donor. This provides a plausible, if indirect, mechanistic rationale for the TxGNN association.
+محور NO–sGC–cGMP هذا يشكل هدفًا علاجيًا مثبتًا سريريًا في PAH — منشطات sGC (مثل riociguat) هي فئة عقاقير PAH المعتمدة التي تعمل على نفس المسار الذي يشتبك به ISMN كمانح NO. يوفر هذا منطقًا ميكانيكيًا معقولًا، وإن كان غير مباشر، لارتباط TxGNN.
 
-However, the mechanistic overlap does not equate to interchangeable pharmacology. ISMN itself is a conventional nitrate, not a targeted sGC stimulator, and is subject to well-known nitrate tolerance with chronic dosing. Of the 6 literature items retrieved, only one (PMID 29705351, a monocrotaline-induced pulmonary hypertension rat model) examined the NO–sGC pathway in a pulmonary hypertension context — and even that study centered on sGC stimulation broadly, not ISMN specifically. One additional paper (PMID 29377691) tested a synthetic NO-donor/bardoxolone methyl hybrid molecule derived from ISMN, not ISMN itself, in a PAH rat model. The remaining four papers concern ISMN pharmacology in unrelated contexts (portal hypertension in cirrhosis, coronary artery disease/erectile dysfunction, general vasodilator pharmacokinetics) and do not test ISMN in PAH patients or models.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن التداخل الميكانيكي لا يعني تكافؤ الصيدلة. ISMN نفسه هو نترات تقليدية، وليس منشط sGC موجه، وهو عرضة للتسامح مع النترات المعروف مع الجرعات المزمنة. من بين 6 عناصر أدبية تم استرجاعها، اختبرت واحدة فقط (PMID 29705351، نموذج فأر ارتفاع ضغط الدم الرئوي المستحث بـ monocrotaline) محور NO–sGC في سياق ارتفاع ضغط الدم الرئوي — وحتى تلك الدراسة كانت مركزة على تحفيز sGC بشكل عام، وليس على ISMN خصوصًا. اختبرت ورقة إضافية واحدة (PMID 29377691) جزيءًا هجينًا مانحًا للـ NO مصنعًا من ISMN + bardoxolone methyl، وليس ISMN نفسه، في نموذج فأر PAH. تتعلق الأوراق الأربع المتبقية بصيدلة ISMN في سياقات غير ذات صلة (فرط ضغط الدم البابي في تليف الكبد وأمراض الشرايين التاجية/ضعف الانتصاب والحرائك الديناميكية الدوائية العام) ولا تختبر ISMN في مرضى أو نماذج PAH.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية مرتبطة مسجلة حاليًا.
+
+---
+
+## أدلة الأدب
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [29705351](https://pubmed.ncbi.nlm.nih.gov/29705351/) | 2018 | Preclinical (animal model) | Life Sciences | NO-sensitive soluble guanylate cyclase (sGC) activity examined in monocrotaline-induced pulmonary hypertensive rats; supports NO-enhancing drugs' relevance to PH progression |
-| [29377691](https://pubmed.ncbi.nlm.nih.gov/29377691/) | 2018 | Medicinal chemistry / synthesis | Journal of Medicinal Chemistry | A synthesized NO-donor hybrid derived from ISMN + bardoxolone methyl lowered mean pulmonary artery pressure and RV systolic pressure in PAH rats (tests a novel hybrid molecule, not ISMN alone) |
-| [3384359](https://pubmed.ncbi.nlm.nih.gov/3384359/) | 1988 | Mechanism study | Gut | ISMN decreased portal venous pressure in cirrhotic patients with portal hypertension (non-PAH population) |
-| [9673832](https://pubmed.ncbi.nlm.nih.gov/9673832/) | 1998 | Review | Clinical Pharmacokinetics | General pharmacokinetic review of vasodilator drug classes, including nitrates |
-| [16422873](https://pubmed.ncbi.nlm.nih.gov/16422873/) | 2005 | Cohort (non-PAH population) | Journal of Sexual Medicine | Hemodynamic effects of sildenafil (PDE5 inhibitor) combined with ISMN in men with coronary artery disease and erectile dysfunction |
-| [2759546](https://pubmed.ncbi.nlm.nih.gov/2759546/) | 1989 | Cohort (cirrhosis, non-PAH) | Hepatology | ISMN showed no significant effect on hepatic hemodynamics in HBsAg-positive cirrhosis patients |
+| [29705351](https://pubmed.ncbi.nlm.nih.gov/29705351/) | 2018 | ما قبل الإكلينيكي (نموذج حيواني) | Life Sciences | تم فحص نشاط سيكلاز الجوانيلات القابلة للذوبان الحساسة لـ NO (sGC) في فئران ارتفاع ضغط الدم الرئوي المستحثة بـ monocrotaline؛ يدعم صلة الأدوية المعززة للـ NO بتطور ارتفاع ضغط الدم الرئوي |
+| [29377691](https://pubmed.ncbi.nlm.nih.gov/29377691/) | 2018 | كيمياء دوائية / التوليف | Journal of Medicinal Chemistry | انخفاض متوسط ضغط الشريان الرئوي وضغط البطين الأيمن الانقباضي بواسطة جزيء هجين مانح NO مصنع من ISMN + bardoxolone methyl في فئران PAH (يختبر جزيءًا هجينًا جديدًا وليس ISMN وحده) |
+| [3384359](https://pubmed.ncbi.nlm.nih.gov/3384359/) | 1988 | دراسة آلية | Gut | انخفاض ISMN لضغط الوريد البابي لدى مرضى تليف الكبد مع فرط ضغط الدم البابي (سكان غير مصابين بـ PAH) |
+| [9673832](https://pubmed.ncbi.nlm.nih.gov/9673832/) | 1998 | مراجعة | Clinical Pharmacokinetics | مراجعة حرائك ديناميكية دوائية عامة لفئات الأدوية الموسعة للأوعية الدموية، بما في ذلك النترات |
+| [16422873](https://pubmed.ncbi.nlm.nih.gov/16422873/) | 2005 | مجموعة (سكان غير مصابين بـ PAH) | Journal of Sexual Medicine | التأثيرات الديناميكية الدموية للسيلدينافيل (مثبط PDE5) المعطى بالتزامن مع ISMN في الرجال المصابين بأمراض الشرايين التاجية وضعف الانتصاب |
+| [2759546](https://pubmed.ncbi.nlm.nih.gov/2759546/) | 1989 | مجموعة (تليف الكبد، غير مصابين بـ PAH) | Hepatology | أظهر ISMN تأثيرًا غير معنوي على الديناميكا الدموية الكبدية لدى مرضى تليف الكبد الموجبين لـ HBsAg |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-The drug is currently not marketed and has no registered authorizations in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Additional note from the evidence pack's own repurposing rationale (not from the safety database): ISMN is subject to nitrate tolerance with chronic use, and co-administration with PDE5 inhibitors — a standard component of contemporary PAH therapy — is a recognized contraindication due to risk of severe hypotension. This is a material constraint on any PAH development pathway and should be formally verified against the package insert once available.*
+الدواء غير مسوق حاليًا ولا توجد تفويضات مسجلة له في حزمة الأدلة هذه.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-The NO–sGC–cGMP mechanistic link to PAH is biologically plausible and consistent with an approved drug class in PAH (sGC stimulators), but no study in this pack tested ISMN itself in PAH patients or PAH animal models — the only PAH-model data involves a synthetic hybrid molecule, not ISMN. Evidence level is L4 (mechanism/preclinical only), and there is a known, clinically significant drug interaction (PDE5 inhibitors, standard PAH therapy) that constrains feasibility.
+*ملاحظة إضافية من منطق إعادة استخدام حزمة الأدلة نفسها (وليس من قاعدة بيانات السلامة): ISMN عرضة للتسامح مع النترات مع الاستخدام المزمن، والإعطاء المتزامن مع مثبطات PDE5 — وهي مكون قياسي من العلاج المعاصر لـ PAH — يشكل موانع استطباب موثقة بسبب خطر حدوث انخفاض شديد في ضغط الدم. هذا قيد جوهري على أي مسار تطوير لـ PAH ويجب التحقق منه رسميًا مقابل نشرة الدواء بمجرد توفرها.*
 
-**To proceed, the following is needed:**
-- Preclinical testing of ISMN itself (not a synthetic hybrid) in validated PAH animal models
-- Formal DDI and contraindication data (TFDA/package insert) confirming PDE5 inhibitor interaction risk and nitrate tolerance profile
-- Confirmation of the drug's original approved indication and MOA (currently a data gap) to assess regulatory pathway to a new indication
-- If preclinical signal holds, an early-phase mechanistic/PK study in PAH patients before any Go decision
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+الارتباط الميكانيكي NO–sGC–cGMP بـ PAH معقول بيولوجيًا ومتسق مع فئة دواء معتمدة في PAH (منشطات sGC)، لكن لا توجد دراسة في هذه الحزمة اختبرت ISMN نفسه في مرضى PAH أو نماذج حيوانية من PAH — بيانات نموذج PAH الوحيدة تتعلق بجزيء هجين مصنع، وليس ISMN. مستوى الأدلة هو L4 (آلية/ما قبل الإكلينيكي فقط)، وهناك تفاعل دوائي معروف وسريريًا مهم (مثبطات PDE5 — العلاج القياسي لـ PAH) يقيد الجدوى.
+
+**للمتابعة، يلزم ما يلي:**
+- الاختبار ما قبل الإكلينيكي لـ ISMN نفسه (وليس جزيء هجين مصنع) في نماذج حيوانية معتمدة لـ PAH
+- بيانات DDI (التفاعلات الدوائية الهامة) وموانع الاستطباب الرسمية (TFDA/نشرة الدواء) التي تؤكد خطر تفاعل مثبطات PDE5 وملف تعريف التسامح مع النترات
+- تأكيد الاستطباب الأصلي المعتمد للدواء و MOA (حاليًا فجوة بيانات) لتقييم المسار التنظيمي نحو استطباب جديد
+- إذا استمرت الإشارة ما قبل الإكلينيكية، إجراء دراسة آلية/حرائك ديناميكية دوائية مبكرة في مرضى PAH قبل أي قرار Go
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

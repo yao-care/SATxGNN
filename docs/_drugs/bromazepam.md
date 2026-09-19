@@ -29,84 +29,85 @@ indication_count: 1
 
 </div>
 
-# Bromazepam: From Anxiety Disorders to Migraine Disorder
+# بروماسيبام: من اضطرابات القلق إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Bromazepam is a 1,4-benzodiazepine, primarily used for anxiety and sedation.
-The TxGNN model predicts it may be effective for **Migraine Disorder** (rank #12,910),
-however **the sole identified clinical trial represents a negative signal** — bromazepam appears as a drug being *withdrawn* in a medication overuse headache (MOH) study, not as a therapeutic agent. There is **0 supportive literature** for this repurposing direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Anxiety disorders (benzodiazepine class; no local authorization on file) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+بروماسيبام هو بنزوديازبين من فئة 1,4، يُستخدم بشكل أساسي لعلاج القلق والتهدئة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعّالاً في **اضطراب الصداع النصفي** (الترتيب #12,910)،
+غير أن **التجربة السريرية الوحيدة المحددة تمثل إشارة سلبية** — يظهر بروماسيبام كدواء يتم **سحبه** في دراسة الصداع الناجم عن فرط استخدام الأدوية (MOH)، وليس كعامل علاجي. لا توجد **أدلة أدبية داعمة** لاتجاه إعادة التوظيف هذا.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Bromazepam belongs to the 1,4-benzodiazepine class. It acts as a positive allosteric modulator of GABA-A receptors, enhancing GABAergic inhibitory neurotransmission. In theory, augmenting GABA-mediated inhibition could modulate trigeminal nociceptive pathways involved in migraine pathophysiology — this is the mechanistic basis on which the TxGNN model likely assigns a high prediction score.
-
-However, the theoretical mechanistic link does not translate into a plausible therapeutic relationship in this case. Benzodiazepines — including bromazepam — are among the **highest-risk drug classes for inducing medication overuse headache (MOH)**, a debilitating secondary headache disorder that affects approximately 2% of migraine patients. Chronic benzodiazepine use can paradoxically worsen headache frequency and severity, creating a cycle of dependency and rebound headache. The mechanistic link here is **adverse rather than therapeutic**.
-
-Crucially, the only clinical trial retrieved in the evidence search (NCT04410536) investigates a **home-withdrawal program** for MOH patients — a context in which bromazepam is plausibly one of the *drugs being withdrawn*, not the intervention being tested. This represents an inverted evidence signal: existing clinical research activity around bromazepam and headache disorders points toward harm reduction, not therapeutic repurposing.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04410536](https://clinicaltrials.gov/study/NCT04410536) | Phase 4 | Completed | 25 | ⚠️ **Adverse signal** — Home-withdrawal program combined with behavioural therapy for medication overuse headache (MOH) during COVID-19. Bromazepam's likely role is as one of the *overused drugs being withdrawn*, not as the therapeutic agent. This trial does **not** support repurposing; it is evidence of harm potential. |
+| البند | المحتوى |
+|------|----------|
+| المؤشر الأصلي | اضطرابات القلق (فئة البنزوديازبين؛ لا توجد تصريحات محلية مسجلة) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ بـ TxGNN | 99.06% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | **توقيف** |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+ينتمي بروماسيبام إلى فئة البنزوديازبين 1,4. يعمل كمُعدِّل إيجابي لمستقبلات GABA-A، مما يعزز الكبح العصبي الوساطة بـ GABA. من الناحية النظرية، يمكن أن يؤدي تعزيز الكبح العصبي الوساطة بـ GABA إلى تعديل مسارات الألم ثلاثية التوائم المشاركة في الفسيولوجيا المرضية للصداع النصفي — هذا هو الأساس الآلي الذي من المحتمل أن يخصص نموذج TxGNN درجة تنبؤ عالية على أساسه.
 
----
+ومع ذلك، فإن الرابط الآلي النظري لا يترجم إلى علاقة علاجية معقولة في هذه الحالة. البنزوديازبينات — بما في ذلك بروماسيبام — من بين **الفئات الدوائية ذات أعلى مخاطر لاستحداث الصداع الناجم عن فرط استخدام الأدوية (MOH)**، وهو اضطراب صداع ثانوي مُعطّل يؤثر على ما يقرب من 2% من مرضى الصداع النصفي. يمكن أن يؤدي الاستخدام المزمن للبنزوديازبينات إلى تفاقم تكرار الصداع وشدته بشكل متناقض، مما يخلق دورة من الإدمان والصداع الارتجاعي. الرابط الآلي هنا **ضار وليس علاجياً**.
 
-## Saudi Arabia Market Information
-
-Bromazepam has no registered authorizations in Saudi Arabia. No license data to display.
+بشكل حاسم، فإن التجربة السريرية الوحيدة المسترجعة في بحث الأدلة (NCT04410536) تحقق في **برنامج السحب المنزلي** لمرضى MOH — سياق يكون فيه بروماسيبام على الأرجح أحد **الأدوية التي يتم سحبها**، وليس التدخل الذي يتم اختباره. هذا يمثل إشارة دليل معكوسة: نشاط البحث السريري الموجود حول بروماسيبام واضطرابات الصداع يشير إلى تقليل الضرر وليس إعادة التوظيف العلاجي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Detailed safety data (package insert warnings, contraindications) were not available in this evidence pack. Based on drug class knowledge, the following class-level considerations apply:
-
-- **Benzodiazepine class risks**: dependence, tolerance, withdrawal syndrome, CNS depression, respiratory depression in combination with opioids or alcohol
-- **Specific relevance to migraine**: chronic use is a well-established risk factor for **medication overuse headache (MOH)** — this is a **contraindication to repurposing**, not a manageable side effect
-- **Elderly population**: falls, cognitive impairment, and paradoxical agitation are known risks
-
-Please refer to the package insert for complete safety information.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|------------|--------|--------|-----------|-----------------|
+| [NCT04410536](https://clinicaltrials.gov/study/NCT04410536) | المرحلة 4 | مكتملة | 25 | ⚠️ **إشارة سلبية** — برنامج سحب منزلي مدعوم بالعلاج السلوكي للصداع الناجم عن فرط استخدام الأدوية (MOH) أثناء COVID-19. من المحتمل أن يكون دور بروماسيبام كأحد *الأدوية المستخدمة بإفراط والتي يتم سحبها*، وليس كعامل علاجي. هذه التجربة **لا تدعم** إعادة التوظيف؛ فهي دليل على احتمالية الضرر. |
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية العلمية
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-The TxGNN model assigns a high prediction score, but the mechanistic basis is counterproductive — benzodiazepines including bromazepam are a recognised cause of medication overuse headache, the opposite of the intended therapeutic effect. The single identified clinical trial reinforces this concern. With zero supportive literature, zero Saudi Arabia authorizations, and an adverse mechanistic profile in the target indication, this candidate does not meet the threshold for further development.
+---
 
-**To proceed, the following would be needed:**
-- A credible mechanistic hypothesis that separates GABA-A modulation from MOH induction risk (e.g., evidence that short-term or specific dosing regimens avoid headache chronification)
-- At least one positive clinical signal — a prospective study or case series showing bromazepam *reducing* migraine frequency, not causing rebound headache
-- Full MOA data from DrugBank to identify any off-target effects (e.g., calcium channel modulation) that might independently support migraine prophylaxis
-- Re-evaluation of the TxGNN training data to determine whether the migraine prediction is driven by co-occurrence in headache-disorder patient records (confounding) rather than a true therapeutic signal
+## معلومات سوق المملكة العربية السعودية
+
+بروماسيبام ليس لديه تصريحات مسجلة في المملكة العربية السعودية. لا توجد بيانات ترخيص للعرض.
+
+---
+
+## اعتبارات السلامة
+
+لم تكن بيانات السلامة التفصيلية (تحذيرات النشرة الداخلية، موانع الاستعمال) متاحة في هذه مجموعة الأدلة. بناءً على معرفة فئة الدواء، تنطبق الاعتبارات التالية على مستوى الفئة:
+
+- **مخاطر فئة البنزوديازبين**: الاعتماد، التسامح، متلازمة الانسحاب، كبت الجهاز العصبي المركزي، كبت التنفس في الجمع مع الأفيونيات أو الكحول
+- **الصلة المحددة بالصداع النصفي**: الاستخدام المزمن هو عامل خطر معترف به **للصداع الناجم عن فرط استخدام الأدوية (MOH)** — هذا **موانع لإعادة التوظيف**، وليس أثراً جانبياً يمكن إدارته
+- **السكان المسنون**: السقوط، الضعف الإدراكي، والإثارة المتناقضة هي مخاطر معروفة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة الكاملة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: توقيف**
+
+**المنطق:**
+يخصص نموذج TxGNN درجة تنبؤ عالية، لكن الأساس الآلي غير منتج — البنزوديازبينات بما في ذلك بروماسيبام هي سبب معترف به للصداع الناجم عن فرط استخدام الأدوية، وهو العكس من التأثير العلاجي المقصود. التجربة السريرية الوحيدة المحددة تعزز هذه المخاوف. مع عدم وجود أدلة داعمة، وعدم وجود تصريحات للمملكة العربية السعودية، وملف آلي ضار في المؤشر المستهدف، هذا المرشح لا يفي بالحد الأدنى لمتابعة إضافية.
+
+**للمتابعة، سيكون المطلوب ما يلي:**
+- فرضية آلية معقولة تفصل تعديل GABA-A عن مخاطر استحداث MOH (مثل الأدلة على أن الأنظمة قصيرة المدى أو الجرعات المحددة تتجنب تزمين الصداع)
+- إشارة سريرية إيجابية واحدة على الأقل — دراسة استشرافية أو سلسلة حالات توضح أن بروماسيبام *يقلل* تكرار الصداع النصفي، وليس يسبب صداع ارتجاعي
+- بيانات MOA كاملة من DrugBank لتحديد أي تأثيرات خارج الهدف (مثل تعديل قنوات الكالسيوم) التي قد تدعم نبوءة الصداع النصفي بشكل مستقل
+- إعادة تقييم بيانات تدريب TxGNN لتحديد ما إذا كان التنبؤ بالصداع النصفي مدفوعاً بالتعايش في سجلات مرضى اضطرابات الصداع (الخلط) أم إشارة علاجية حقيقية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

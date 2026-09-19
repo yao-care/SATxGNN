@@ -29,78 +29,79 @@ indication_count: 5
 
 </div>
 
-# Benralizumab: From Severe Eosinophilic Asthma to Thrombocytopenia Due to Immune Destruction
+# بنرالزومب: من الربو الحمضي الشديد إلى قلة الصفيحات الناجمة عن التدمير المناعي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Benralizumab is a humanized anti-IL-5Rα monoclonal antibody globally approved for severe eosinophilic asthma, achieving near-complete eosinophil and basophil depletion via antibody-dependent cellular cytotoxicity (ADCC).
-The TxGNN model predicts it may be effective for **Thrombocytopenia Due to Immune Destruction (ITP)**,
-however this prediction is currently supported by **0 clinical trials** and **0 publications** — making it a model-only signal with no empirical backing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Severe eosinophilic asthma (globally approved; not registered in Saudi Arabia) |
-| Predicted New Indication | Thrombocytopenia Due to Immune Destruction |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+بنرالزومب هو جسم مضاد أحادي النسيلة إنساني مضاد لـ IL-5Rα معتمد عالمياً للربو الحمضي الشديد، ويحقق استنزاف الحمضات والخلايا القاعدية شبه الكامل عبر السمية الخلوية المعتمدة على الأجسام المضادة (ADCC).
+نموذج TxGNN يتنبأ بأنه قد يكون فعالاً في **قلة الصفيحات الناجمة عن التدمير المناعي (ITP)**،
+إلا أن هذا التنبؤ يدعمه حالياً **0 تجربة سريرية** و **0 منشور علمي** — مما يجعله إشارة تعتمد على النموذج فقط بدون دعم تجريبي.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Benralizumab is a fully humanized IgG1κ monoclonal antibody that binds directly to the alpha subunit of the IL-5 receptor (IL-5Rα) expressed on eosinophils and basophils. Unlike mepolizumab and reslizumab — which block the IL-5 ligand — benralizumab acts at the receptor level and recruits natural killer cells to eliminate IL-5Rα-bearing cells via ADCC, achieving near-complete peripheral and tissue eosinophil depletion within weeks. This mechanism is well-validated in severe eosinophilic asthma, where eosinophilic airway inflammation is the central pathological driver.
-
-The mechanistic link to immune thrombocytopenia (ITP), however, is tenuous. ITP is primarily mediated by anti-platelet autoantibodies (targeting GPIIb/IIIa, GPIb/IX) and macrophage-driven platelet phagocytosis in the spleen, with underlying immune dysregulation centered on Th1 overactivation and Treg deficiency — not the Th2/eosinophilic axis that benralizumab targets. While eosinophil depletion can modestly reshape the broader immune microenvironment, this indirect effect is unlikely to meaningfully correct the Th1-dominant autoimmune mechanism of ITP.
-
-The high TxGNN score (99.34%) most likely reflects a **graph-proximity artefact**: benralizumab's node in the drug-disease knowledge graph sits close to immune/inflammatory disease clusters, and ITP shares network neighbors with IL-5-associated conditions such as atopic dermatitis and eosinophilic disorders. This is a recognized limitation of graph neural network repurposing models when mechanistic plausibility is not explicitly encoded as a graph constraint.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| الاستطباب الأصلي | الربو الحمضي الشديد (معتمد عالمياً؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | قلة الصفيحات الناجمة عن التدمير المناعي |
+| درجة التنبؤ TxGNN | 99.34% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروضة في السوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بنرالزومب هو جسم مضاد أحادي النسيلة من نوع IgG1κ إنساني بالكامل يرتبط مباشرة بالوحدة الفرعية ألفا لمستقبل IL-5 (IL-5Rα) الموجود على الحمضات والخلايا القاعدية. بخلاف ميبوليزومب وريسليزومب — اللذين يحجبان الربط IL-5 — يعمل بنرالزومب على مستوى المستقبل ويجند الخلايا القاتلة الطبيعية للقضاء على الخلايا التي تحمل IL-5Rα عبر ADCC، مما يحقق استنزاف الحمضات المحيطة والنسيجية شبه الكامل في غضون أسابيع. يتم التحقق من صحة هذه الآلية جيداً في الربو الحمضي الشديد، حيث يكون التهاب المسالك الهوائية الحمضي هو المحرك المرضي المركزي.
 
----
+الارتباط الميكانيكي بفرط تكسر الصفيحات المناعي (ITP) ضعيف جداً. يتم توسيط ITP بشكل أساسي بواسطة أجسام مضادة ذاتية مضادة للصفيحات (موجهة ضد GPIIb/IIIa و GPIb/IX) وبلعم الصفيحات بواسطة الخلايا الضامة في الطحال، مع تنظيم مناعي أساسي متمركز على فرط تنشيط Th1 وقصور Treg — وليس محور Th2/الحمضي الذي يستهدفه بنرالزومب. بينما يمكن لاستنزاف الحمضات أن يعيد تشكيل البيئة المناعية الأوسع بشكل متواضع، فإن هذا التأثير غير المباشر من غير المرجح أن يصحح بشكل ذي معنى آلية المناعة الذاتية السيطرة Th1 في ITP.
 
-## Saudi Arabia Market Information
-
-Benralizumab is currently not registered or marketed in Saudi Arabia. No regulatory authorizations are on file (total licenses: 0). The drug holds approvals in the United States (FDA, 2017), European Union (EMA), Japan, and other jurisdictions for severe eosinophilic asthma, but none of these extend to Saudi Arabia's SFDA at the time of this report.
+درجة TxGNN العالية (99.34%) تعكس على الأرجح **انحيازاً ناتجاً عن قرب الرسم البياني**: عقدة بنرالزومب في الرسم البياني المعرفي للعقاقير والأمراض تقع بالقرب من مجموعات الأمراض المناعية/الالتهابية، و ITP يشارك جيران الشبكة مع حالات مرتبطة بـ IL-5 مثل التهاب الجلد التأتبي والاضطرابات الحمضية. هذا قيد معروف لنماذج الشبكات العصبية البيانية في إعادة توظيف العقاقير عندما لا يتم تشفير القابلية الآلية بشكل صريح كقيد الرسم البياني.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This is a purely model-driven prediction (L5) with zero supporting clinical trials or published literature for benralizumab in immune thrombocytopenia. The IL-5Rα/eosinophil mechanism has no established relevance to ITP pathophysiology, and the high TxGNN rank is likely attributable to knowledge-graph neighborhood effects rather than a true mechanistic signal.
+---
 
-**To proceed, the following is needed:**
+## معلومات السوق في المملكة العربية السعودية
 
-- **Mechanistic evidence:** Preclinical studies or case reports demonstrating that IL-5Rα depletion influences platelet autoimmunity or modifies Th1/Treg balance in ITP models
-- **Hypothesis-generating data:** Case series or retrospective analyses of ITP incidence in eosinophilic asthma patients treated with benralizumab
-- **MOA clarification:** Full DrugBank mechanism-of-action data (currently a data gap) to better assess off-target immunomodulatory potential
-- **Saudi Arabia registration:** Benralizumab requires SFDA registration before any local clinical development or use is possible
-- **Priority redirect:** Evidence for the rank-2 prediction (dermatitis) is substantially richer — 6 clinical trials and 20 publications exist, including a completed Phase 2 RCT (HILLIER; PMID 37178404) that returned a **negative primary endpoint** for atopic dermatitis, and an ongoing Phase 2 trial in DRESS (NCT06734884, a highly eosinophilic skin disease subtype) that merits closer monitoring as a mechanistically better-fit indication
+بنرالزومب غير مسجل أو معروض حالياً في السوق في المملكة العربية السعودية. لا توجد تراخيص تنظيمية في الملف (إجمالي التراخيص: 0). يحتفظ الدواء بموافقات في الولايات المتحدة (FDA، 2017) والاتحاد الأوروبي (EMA) واليابان وولايات قضائية أخرى للربو الحمضي الشديد، لكن لا تمتد أي منها إلى SFDA في المملكة العربية السعودية وقت كتابة هذا التقرير.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبرر:**
+هذا تنبؤ يعتمد على النموذج بحتة (L5) بدون أي تجارب سريرية أو أدب منشور يدعمه لـ بنرالزومب في قلة الصفيحات المناعية. آلية IL-5Rα/الحمضات ليس لها صلة معترف بها بفيزيولوجيا المرض في ITP، والرتبة العالية في TxGNN من المرجح أن تُعزى إلى تأثيرات قرب الرسم البياني المعرفي وليس إشارة آلية حقيقية.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **أدلة ميكانيكية:** دراسات ما قبل السريرية أو تقارير حالات تثبت أن استنزاف IL-5Rα يؤثر على المناعة الذاتية للصفيحات أو يعدل توازن Th1/Treg في نماذج ITP
+- **بيانات توليد الفرضيات:** سلسلة حالات أو تحليلات بأثر رجعي لحدوث ITP لدى مرضى الربو الحمضي يتلقون بنرالزومب
+- **توضيح آلية العمل:** بيانات DrugBank الكاملة عن آلية العمل (حالياً فجوة بيانات) لتقييم أفضل للإمكانية المناعية الموجهة خارج الهدف
+- **تسجيل المملكة العربية السعودية:** يتطلب بنرالزومب تسجيل SFDA قبل أي تطوير سريري محلي أو استخدام
+- **إعادة توجيه الأولويات:** الأدلة للتنبؤ بالرتبة الثانية (التهاب الجلد) أغنى بكثير — توجد 6 تجارب سريرية و 20 منشور، بما في ذلك تجربة عشوائية متحكم بها من المرحلة الثانية مكتملة (HILLIER; PMID 37178404) أعادت نتيجة **نقطة نهاية أولية سلبية** لالتهاب الجلد التأتبي، وتجربة من المرحلة الثانية جارية في DRESS (NCT06734884، وهي نوع مرض جلدي حمضي عالي جداً) تستحق مراقبة أقرب كمؤشر آلي أفضل
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,84 +29,85 @@ indication_count: 6
 
 </div>
 
-# Lifitegrast: From an LFA-1 Antagonist to Diabetic Retinopathy
+# ليفيتجراست: من معارض ل LFA-1 إلى اعتلال الشبكية السكري
 
-*Note on candidate selection: this evidence pack contains 6 TxGNN-predicted indications for lifitegrast. The five highest-scoring candidates (penile, palmar, plantar, and infantile digital fibromatosis; severe nonproliferative diabetic retinopathy) are pure model output — evidence_level L5, zero clinical trials or literature, recommendation "Hold." Only **diabetic retinopathy** (rank 6) has actual supporting evidence, so this report focuses on that indication.*
-
----
-
-## One-Sentence Summary
-
-> Lifitegrast is an LFA-1 (integrin αLβ2) antagonist developed for inflammatory ocular surface disease; this evidence pack does not contain confirmed local (Taiwan) regulatory data on its original approved indication, as the drug is not currently marketed here.
-> The TxGNN model predicts it may be effective for **Diabetic Retinopathy**, supported by **1 completed clinical trial** and **2 publications**, including direct Phase 1b safety/PK data on lifitegrast's precursor compound (SAR 1118) in a related retinal disease.
-> Evidence is early-stage (L2) — sufficient to justify further targeted investigation, not yet to support a go decision.
+*ملاحظة حول اختيار المرشح: تحتوي هذه مجموعة الأدلة على 6 مؤشرات متوقعة من TxGNN لليفيتجراست. المرشحات الخمسة ذات أعلى نقاط (التليف الرقمي الناخع والراحي والأخمصي والرضعي؛ اعتلال الشبكية السكري غير التكاثري الشديد) هي مخرجات نموذج بحتة — مستوى الأدلة L5، لا توجد تجارب سريرية أو أدبيات، التوصية "انتظر". فقط **اعتلال الشبكية السكري** (الترتيب 6) يحتوي على أدلة داعمة فعلية، لذلك يركز هذا التقرير على تلك المؤشرة.*
 
 ---
 
-## Quick Overview
+## ملخص جملة واحدة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (`original_indications` and `original_moa` are flagged as data gaps; drug is not locally marketed) |
-| Predicted New Indication | Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> ليفيتجراست هو معارض ل LFA-1 (إنتجرين αLβ2) طُوّر لعلاج أمراض سطح العين الالتهابية؛ لا تحتوي هذه مجموعة الأدلة على بيانات محلية مؤكدة (تايوانية) حول مؤشرته الأصلية المعتمدة، فالدواء غير مسوّق حالياً هنا.
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **اعتلال الشبكية السكري**، مدعوماً بـ **تجربة سريرية واحدة مكتملة** و **منشورتين**، بما في ذلك بيانات الأمان والحرائك الدوائية المباشرة للمرحلة 1b على المركب السابق لليفيتجراست (SAR 1118) في مرض شبكي مرتبط.
+> الأدلة في مرحلة مبكرة (L2) — كافية لتبرير مزيد من التحقيق الموجه، وليس بعد لدعم قرار المتابعة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed original mechanism-of-action data is flagged as a data gap in this pack (`DG002`, severity High). Based on information available elsewhere in the evidence pack, lifitegrast is an antagonist of lymphocyte function-associated antigen-1 (LFA-1, integrin αLβ2), which blocks the LFA-1/ICAM-1 interaction that mediates leukocyte adhesion. This is the mechanism cited directly in the literature evidence below (PMID 22538219), which studied lifitegrast under its earlier development code, SAR 1118.
-
-Diabetic retinopathy involves leukostasis — leukocytes adhering to retinal microvascular endothelium via LFA-1/ICAM-1, contributing to capillary occlusion and endothelial injury. Blocking this pathway is therefore mechanistically plausible as an anti-inflammatory strategy for the disease. Notably, this is not a purely theoretical extrapolation: SAR 1118 was directly investigated as a topical treatment in diabetic macular oedema (a closely related diabetic retinal disease) in a Phase 1b safety/PK study, which provides direct pharmacological precedent — though not yet direct efficacy evidence — for use in diabetic retinopathy specifically.
+| البند | المحتوى |
+|------|---------|
+| المؤشرة الأصلية | غير متاح في هذه مجموعة الأدلة (`original_indications` و `original_moa` يتم وضع علامة عليهما كفجوات في البيانات؛ الدواء غير مسوّق محلياً) |
+| المؤشرة الجديدة المتوقعة | اعتلال الشبكية السكري |
+| نقاط التنبؤ بـ TxGNN | 99.03% |
+| مستوى الأدلة | L2 |
+| حالة سوق تايوان | غير مسوّق (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+البيانات التفصيلية لآلية العمل الأصلية يتم وضع علامة عليها كفجوة في البيانات في هذه المجموعة (`DG002`، الخطورة عالية). بناءً على المعلومات المتاحة في مكان آخر في مجموعة الأدلة، ليفيتجراست هو معارض لمستضد الخلايا اللمفاوية المرتبط بالوظيفة 1 (LFA-1، إنتجرين αLβ2)، الذي يحجب تفاعل LFA-1/ICAM-1 الذي يوسّط الالتصاق اللمفاوي. هذه هي الآلية المستشهد بها مباشرة في الأدبيات أدناه (PMID 22538219)، التي درست ليفيتجراست تحت رمز التطوير الأقدم SAR 1118.
+
+اعتلال الشبكية السكري ينطوي على ركود الكريات البيضاء — التصاق الكريات البيضاء بالبطانة الوعائية الدقيقة للشبكية عبر LFA-1/ICAM-1، مما يساهم في انسداد الشعيرات والإصابة البطانية. حجب هذا المسار هو بالتالي معقول ميكانيكياً كاستراتيجية مضادة للالتهاب لهذا المرض. والجدير بالملاحظة أن هذا ليس استقراء نظري بحت: تم التحقيق في SAR 1118 مباشرة كعلاج موضعي لوذمة البقعة السكرية (مرض شبكي سكري وثيق الصلة) في دراسة المرحلة 1b للأمان والحرائك الدوائية، التي توفر سابقة دوائية مباشرة — وإن لم تكن بعد أدلة فعالية مباشرة — للاستخدام في اعتلال الشبكية السكري بالتحديد.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04030962](https://clinicaltrials.gov/study/NCT04030962) | Phase 1/Phase 2 | Completed | 292 | Two-stage, multicenter, vehicle-controlled, double-masked RCT evaluating safety, tolerability, PK, and exploratory efficacy of AGN-242428 and AGN-231868 in dry eye disease. Flagged as "Grade A" relevance in the source data, but note: the trial title lists different compounds (AGN-242428/AGN-231868) and a different indication (dry eye disease) than lifitegrast/diabetic retinopathy — this mismatch should be verified before relying on this trial as direct evidence. No efficacy outcome data reported. |
+| [NCT04030962](https://clinicaltrials.gov/study/NCT04030962) | المرحلة 1/المرحلة 2 | مكتملة | 292 | تجربة عشوائية مضبوطة بمركبة الدواء، ثنائية المراحل، متعددة المراكز، مقيّدة ومزدوجة التمويه لتقييم الأمان والتحمل والحرائك الدوائية والفعالية الاستكشافية للمركبات AGN-242428 و AGN-231868 في مرض جفاف العين. يتم تصنيف هذا باعتباره ذا ملاءمة "الصف A" في البيانات المصدرية، غير أن هناك ملاحظة: يسرد عنوان التجربة مركبات مختلفة (AGN-242428/AGN-231868) ومؤشرة مختلفة (مرض جفاف العين) عن ليفيتجراست/اعتلال الشبكية السكري — يجب التحقق من عدم التطابق هذا قبل الاعتماد على هذه التجربة كدليل مباشر. لا توجد بيانات نتائج الفعالية المرتجعة. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [22538219](https://pubmed.ncbi.nlm.nih.gov/22538219/) | 2012 | RCT | Eye (London, England) | Phase 1b study of topical SAR 1118 (lifitegrast), an LFA-1 antagonist; evaluated safety, tolerability, and PK. Cites LFA-1/ICAM-1-mediated inflammation as a driver of diabetic macular oedema pathogenesis — direct mechanistic and pharmacological precedent for retinal disease use. |
-| [41158172](https://pubmed.ncbi.nlm.nih.gov/41158172/) | 2025 | Review | International Journal of Ophthalmology | Proteome-wide Mendelian randomization study identifying novel protein and drug targets for retinal neurodegenerative diseases in European populations. General target-discovery context rather than lifitegrast-specific evidence. |
+| [22538219](https://pubmed.ncbi.nlm.nih.gov/22538219/) | 2012 | تجربة عشوائية مضبوطة | Eye (London, England) | دراسة المرحلة 1b للتطبيق الموضعي SAR 1118 (ليفيتجراست)، معارض LFA-1؛ قيّمت الأمان والتحمل والحرائك الدوائية. تستشهد بالالتهاب الموسّط بـ LFA-1/ICAM-1 كمحرك لمسببات وذمة البقعة السكرية — السابقة الميكانيكية والدوائية المباشرة لاستخدام الأمراض الشبكية. |
+| [41158172](https://pubmed.ncbi.nlm.nih.gov/41158172/) | 2025 | مراجعة | International Journal of Ophthalmology | دراسة عشوائية مندلية على مستوى البروتيوم لتحديد أهداف بروتينية وأدوية جديدة لأمراض الشبكية التنكسية العصبية في السكانات الأوروبية. السياق العام لاكتشاف الهدف بدلاً من الأدلة الخاصة بليفيتجراست. |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Lifitegrast is not currently marketed in Taiwan (0 authorizations on file). No local product license or approved indication text is available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. This evidence pack does not contain confirmed data on key warnings, contraindications, or drug-drug interactions for lifitegrast (`DG001`, severity Blocking — TFDA package insert data not yet obtained).
+ليفيتجراست غير مسوّق حالياً في تايوان (0 تفويضات في الملف). لا توجد ترخيص منتج محلي أو نص مؤشرة معتمد متاح في هذه مجموعة الأدلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات الأمان. لا تحتوي هذه مجموعة الأدلة على بيانات مؤكدة عن التحذيرات الرئيسية والموانع أو تفاعلات الأدوية والأدوية لليفيتجراست (`DG001`، الخطورة حاسمة — بيانات نشرة TFDA الحزمة لم تُحصّل بعد).
 
-**Rationale:**
-The mechanistic rationale (LFA-1/ICAM-1-mediated leukostasis in diabetic retinopathy, with direct precedent from a related retinal disease) is credible, but the evidence base is early-stage (L2) and thin — one completed trial of uncertain relevance (drug/indication mismatch to verify) and no lifitegrast-specific efficacy data in diabetic retinopathy itself. This supports further investigation, not a market decision.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed original mechanism-of-action and original approved indication data for lifitegrast
-- Verification of whether NCT04030962 is genuinely relevant to lifitegrast (the listed compounds differ from the drug under evaluation)
-- A lifitegrast-specific efficacy trial in diabetic retinopathy or diabetic macular oedema
-- Drug interaction and contraindication data before any safety pre-screen (S1) can proceed
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**الأساس المنطقي:**
+الأساس الميكانيكي (الركود اللمفاوي الموسّط بـ LFA-1/ICAM-1 في اعتلال الشبكية السكري، مع سابقة مباشرة من مرض شبكي مرتبط) معقول، لكن قاعدة الأدلة في مرحلة مبكرة (L2) وضئيلة — تجربة واحدة مكتملة بملاءمة غير مؤكدة (عدم تطابق الدواء/المؤشرة يحتاج التحقق) وبدون بيانات فعالية خاصة بليفيتجراست في اعتلال الشبكية السكري بحد ذاته. يدعم هذا مزيد من التحقيق، وليس قرار السوق.
+
+**للمضي قدماً، يلزم التالي:**
+- بيانات نشرة TFDA/المحلية (التحذيرات، الموانع) — حالياً فجوة بيانات حاسمة
+- بيانات آلية العمل الأصلية المؤكدة والمؤشرة الأصلية المعتمدة لليفيتجراست
+- التحقق من ما إذا كانت NCT04030962 فعلاً ملائمة لليفيتجراست (المركبات المسردة تختلف عن الدواء قيد التقييم)
+- تجربة فعالية خاصة بليفيتجراست في اعتلال الشبكية السكري أو وذمة البقعة السكرية
+- بيانات تفاعل الأدوية والموانع قبل أي فرز أمان قبلي (S1) يمكن أن ينطلق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

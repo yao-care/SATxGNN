@@ -29,72 +29,73 @@ indication_count: 10
 
 </div>
 
-# Iopromide: From Diagnostic Contrast Imaging to Osteoarthritis Susceptibility
+# أيوبروميد: من التصوير التباينى التشخيصى إلى قابلية الإصابة بالفصال العظمى
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Iopromide is a non-ionic iodinated radiographic contrast medium used for diagnostic imaging (CT, angiography), not a therapeutic agent for any disease. TxGNN's top prediction proposes potential relevance to **osteoarthritis susceptibility**, but this ranking is supported by **0 clinical trials** and **0 publications** — it is a pure model artifact. Across all 10 ranked TxGNN candidates for this drug, none show genuine treatment-relevant evidence; the strongest literature hits describe iopromide only as an imaging tool used *during* diagnosis of these diseases, and one candidate (hemoglobinopathy) surfaces an adverse-event signal rather than an efficacy signal.
+أيوبروميد هو وسيط تباينى إشعاعى غير أيونى يُستخدم للتصوير التشخيصى (التصوير المقطعى، تصوير الأوعية الدموية)، وليس عاملاً علاجياً لأى مرض. يقترح التنبؤ الأعلى رتبة من TxGNN ارتباطاً محتملاً بـ **قابلية الإصابة بالفصال العظمى**، لكن هذا التصنيف مدعوم بـ **0 تجربة سريرية** و**0 منشور علمى** — وهذا تنبؤ نموذج بحت. على مستوى جميع المرشحين الـ 10 المصنفين من قبل TxGNN لهذا الدواء، لا يظهر أى منهم أدلة علاجية حقيقية؛ أقوى النتائج الأدبية تصف أيوبروميد فقط كأداة تصوير تُستخدم *أثناء* تشخيص هذه الأمراض، وأحد المرشحين (اعتلال الهيموجلوبين) يُظهر إشارة أمان سلبية بدلاً من إشارة فعالية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Diagnostic radiographic/CT contrast imaging (iopromide is a non-ionic iodinated contrast medium; no formal "treatment indication" text is available in the evidence pack) |
-| Predicted New Indication | Osteoarthritis susceptibility |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 (model prediction only — no trials, no literature) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلى | التصوير التباينى الإشعاعى/التصوير المقطعى التشخيصى (أيوبروميد هو وسيط تباينى غير أيونى يحتوى على اليود؛ لا يتوفر نص "مؤشر علاجى" رسمى فى حزمة الأدلة) |
+| المؤشر الجديد المتنبأ به | قابلية الإصابة بالفصال العظمى |
+| درجة التنبؤ من TxGNN | 99.57% |
+| مستوى الدليل | L5 (تنبؤ نموذج فقط — بدون تجارب، بدون أدبيات) |
+| حالة السوق التايوانى | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | تعليق |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available for iopromide (Data Gap, item DG002 in the evidence pack). Based on known information, iopromide is a non-ionic iodinated contrast medium administered intravascularly to enhance visualization on CT and angiographic imaging — it has no known pharmacodynamic activity on joint, cartilage, or bone biology.
+بيانات آلية العمل التفصيلية غير متوفرة لأيوبروميد (فجوة بيانات، البند DG002 فى حزمة الأدلة). بناءً على المعلومات المعروفة، أيوبروميد هو وسيط تباينى غير أيونى يُعطى عن طريق الوريد لتحسين الرؤية على التصوير المقطعى وتصوير الأوعية الدموية — وليس له أى نشاط دوائى ديناميكى معروف على بيولوجيا المفاصل أو الغضروف أو العظام.
 
-For the top-ranked candidate, osteoarthritis susceptibility, the evidence pack itself states there is no plausible mechanistic link: iopromide has no known pharmacological target associated with OA susceptibility, and this pairing is a pure TxGNN knowledge-graph prediction with zero supporting literature or trials.
+بالنسبة للمرشح الأعلى رتبة، قابلية الإصابة بالفصال العظمى، تنص حزمة الأدلة نفسها على عدم وجود ارتباط آلى معقول: أيوبروميد لا يملك هدفاً دوائياً معروفاً مرتبطاً بقابلية الإصابة بالفصال العظمى، وهذا الاقتران هو تنبؤ بناءً على الرسم البيانى للمعرفة بحت بدون أدبيات أو تجارب داعمة.
 
-The next two candidates (osteoarthritis, rank 2; rheumatoid arthritis, rank 3) do return literature hits, but all of them describe iopromide being used as a contrast agent to *image* these diseases (CT-guided nerve blocks for hip pain, MRI/CT cartilage and synovitis quantification methodology) — not as a treatment. The TxGNN high scores most likely reflect co-occurrence of "drug + disease" in imaging-diagnostic contexts within the training knowledge graph, rather than any real therapeutic signal. No mechanistic rationale currently supports repurposing iopromide as a treatment for any of the 10 predicted indications.
+المرشحان التاليان (الفصال العظمى، الرتبة 2؛ التهاب المفاصل الروماتويدى، الرتبة 3) يُسفران عن نتائج أدبية، لكن جميعها تصف استخدام أيوبروميد كعامل تباينى لـ *تصوير* هذه الأمراض (كتل الأعصاب الموجهة بالتصوير المقطعى لألم الورك، منهجية قياس حجم الغضروف والتهاب المفاصل على التصوير بالرنين المغناطيسى/التصوير المقطعى) — وليس كعلاج. احتمالاً أن درجات TxGNN العالية تعكس التزامن "دواء + مرض" فى سياقات التصوير التشخيصى داخل الرسم البيانى للمعرفة المستخدمة فى التدريب، بدلاً من أى إشارة علاجية حقيقية. لا يوجد حالياً أساس آلى يدعم إعادة تكييف أيوبروميد كعلاج لأى من المؤشرات العشرة المتنبأ بها.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available for the top-ranked candidate (osteoarthritis susceptibility).
+لا تتوفر حالياً أدبيات ذات صلة للمرشح الأعلى رتبة (قابلية الإصابة بالفصال العظمى).
 
-For context, lower-ranked candidates returned literature, but all are diagnostic/methodology papers, not treatment evidence:
+للسياق، عاد المرشحون ذوو الرتب الأقل إلى نتائج أدبية، لكن جميعها أوراق تشخيصية/منهجية، وليست أدلة علاجية:
 
-| PMID | Year | Type | Journal | Key Findings | Related Candidate |
-|------|-----|------|------|---------|---------|
-| [11419151](https://pubmed.ncbi.nlm.nih.gov/11419151/) | 2001 | Case Series/Technical Report | European Radiology | CT-guided obturator nerve block technique for hip pain diagnosis/treatment — contrast used for procedural guidance, not OA therapy | Osteoarthritis (rank 2) |
-| [9678042](https://pubmed.ncbi.nlm.nih.gov/9678042/) | 1998 | Methodology Study | Clin Orthop Relat Res | MRI cartilage volume/thickness measurement accuracy study using contrast-enhanced CT as reference — imaging methodology, not treatment | Osteoarthritis (rank 2) |
-| [19435939](https://pubmed.ncbi.nlm.nih.gov/19435939/) | 2009 | Imaging Methodology Study | Radiology | Contrast-enhanced CT with digital bone masking to evaluate synovitis/bone erosion in RA — diagnostic tool evaluation, not therapy | Rheumatoid arthritis (rank 3) |
-| [9094239](https://pubmed.ncbi.nlm.nih.gov/9094239/) | 1997 | Case Report | Pediatric Radiology | Lymphangiography (using contrast) in a neonate with Noonan syndrome — case report, not a hemoglobinopathy efficacy signal | Hemoglobinopathy (rank 9) |
-| [16628721](https://pubmed.ncbi.nlm.nih.gov/16628721/) | 2006 | Case Report (Adverse Event) | Am J Hematol | Cerebral vaso-occlusive event following low-osmolar IV contrast in a sickle cell disease patient — **safety signal, not efficacy** | Hemoglobinopathy (rank 9) |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية | المرشح ذو الصلة |
+|------|------|------|--------|--------|--------|
+| [11419151](https://pubmed.ncbi.nlm.nih.gov/11419151/) | 2001 | سلسلة حالات/تقرير تقنى | European Radiology | تقنية كتلة العصب الشرجى الموجهة بالتصوير المقطعى لتشخيص/علاج ألم الورك — التباين المستخدم للتوجيه الإجرائى، وليس علاج الفصال العظمى | الفصال العظمى (الرتبة 2) |
+| [9678042](https://pubmed.ncbi.nlm.nih.gov/9678042/) | 1998 | دراسة منهجية | Clin Orthop Relat Res | دراسة دقة قياس حجم/سمك الغضروف بالتصوير بالرنين المغناطيسى باستخدام التصوير المقطعى المحسّن بالتباين كمرجع — منهجية تصويرية، وليس علاج | الفصال العظمى (الرتبة 2) |
+| [19435939](https://pubmed.ncbi.nlm.nih.gov/19435939/) | 2009 | دراسة منهجية تصويرية | Radiology | التصوير المقطعى المحسّن بالتباين مع إخفاء العظام الرقمى لتقييم التهاب المفاصل/تآكل العظام فى التهاب المفاصل الروماتويدى — تقييم أداة تشخيصية، وليس العلاج | التهاب المفاصل الروماتويدى (الرتبة 3) |
+| [9094239](https://pubmed.ncbi.nlm.nih.gov/9094239/) | 1997 | تقرير حالة | Pediatric Radiology | تصوير اللمفاوية (باستخدام التباين) فى وليد مصاب بمتلازمة نونان — تقرير حالة، وليس إشارة فعالية لاعتلال الهيموجلوبين | اعتلال الهيموجلوبين (الرتبة 9) |
+| [16628721](https://pubmed.ncbi.nlm.nih.gov/16628721/) | 2006 | تقرير حالة (حدث ضارّ) | Am J Hematol | حدث انسداد وعائى دماغى متابع لإعطاء التباين الوريدى منخفض الأسمولية فى مريض بمرض الخلايا المنجلية — **إشارة أمان، وليس فعالية** | اعتلال الهيموجلوبين (الرتبة 9) |
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Iopromide is not currently marketed in Taiwan (0 licenses on file); no product registration records are available.
+أيوبروميد غير مسوق حالياً فى تايوان (0 ترخيص فى الملف)؛ لا توجد سجلات تسجيل منتج متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information (no TFDA warnings, contraindications, or DDI data are currently available — item DG001, flagged as a Blocking gap).
+يُرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة (لا توجد تحذيرات TFDA أو موانع استخدام أو بيانات تفاعل الأدوية متوفرة حالياً — البند DG001، المميز كفجوة حرجة).
 
-**Additional literature-derived safety signal:** One report (PMID 16628721) describes a cerebral vaso-occlusive event following low-osmolar intravenous contrast administration in a patient with sickle cell disease, suggesting iodinated contrast agents may carry elevated risk in hemoglobinopathy patients. This should be treated as a caution flag, not a repurposing opportunity.
+**إشارة أمان إضافية مشتقة من الأدبيات:** يصف أحد التقارير (PMID 16628721) حدث انسداد وعائى دماغى متابع لإعطاء التباين الوريدى منخفض الأسمولية فى مريض مصاب بمرض الخلايا المنجلية، مما يشير إلى أن عوامل التباين المُيسّرة قد تحمل مخاطر مرتفعة فى مرضى اعتلال الهيموجلوبين. يجب التعامل مع هذا كعلم تحذيرى، وليس كفرصة إعادة تكييف.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-The top-ranked prediction (osteoarthritis susceptibility) has zero clinical trial or literature support (L5). Even the best-evidenced candidates (osteoarthritis, rheumatoid arthritis; L4) are backed only by imaging-methodology papers that use iopromide as a diagnostic tool, not treatment evidence — and one candidate (hemoglobinopathy) surfaces an adverse-event signal rather than an efficacy signal. No mechanism of action data exists to support any therapeutic hypothesis.
+**المبرر:**
+التنبؤ الأعلى رتبة (قابلية الإصابة بالفصال العظمى) لا يملك دعم تجربة سريرية أو أدبية صفر (L5). حتى أفضل المرشحين المختبرين (الفصال العظمى، التهاب المفاصل الروماتويدى؛ L4) مدعومون فقط بأوراق منهجية تصويرية تستخدم أيوبروميد كأداة تشخيصية، وليست أدلة علاج — وأحد المرشحين (اعتلال الهيموجلوبين) يُظهر إشارة أمان سلبية بدلاً من إشارة فعالية. لا توجد بيانات آلية عمل لدعم أى فرضية علاجية.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- DrugBank-confirmed mechanism of action — currently a High-severity data gap (DG002)
-- A pharmacological or preclinical rationale connecting iodinated contrast agents to osteoarthritis, RA, or any other candidate's pathophysiology, since none currently exists
-- If the hemoglobinopathy signal is pursued further, it should be evaluated as a contraindication/safety risk in sickle cell disease patients, not as a repurposing indication
+**للمتابعة، ما يلى مطلوب:**
+- ورقة معلومات TFDA (التحذيرات، موانع الاستخدام) — حالياً فجوة بيانات حرجة (DG001)
+- آلية عمل مؤكدة من DrugBank — حالياً فجوة بيانات عالية الخطورة (DG002)
+- أساس دوائى أو ما قبل-سريرى يربط عوامل التباين المُيسّرة بالفصال العظمى أو التهاب المفاصل الروماتويدى أو أى من مؤشرات المرشح الأخرى، لأنه لا يوجد حالياً أى منها
+- إذا تم متابعة إشارة اعتلال الهيموجلوبين أبعد، يجب تقييمها كمخاطر موانع استخدام/أمان فى مرضى الخلايا المنجلية، وليس كمؤشر إعادة تكييف
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

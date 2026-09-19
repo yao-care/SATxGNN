@@ -29,101 +29,102 @@ indication_count: 10
 
 </div>
 
-# Sorafenib: From Renal Cell Carcinoma/Hepatocellular Carcinoma to Liposarcoma
+# سورافينيب: من سرطان الخلايا الكلوية وسرطان الكبد إلى الورم الشحمي الغضروفي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Sorafenib is a multi-kinase inhibitor (VEGFR1-3, PDGFR-β, RAF/MEK/ERK pathway) originally established for renal cell carcinoma and hepatocellular carcinoma. The TxGNN model predicts it may be effective for **Liposarcoma**, with **2 clinical trials** (1 flagged as a data-linkage error) and **8 publications** currently supporting this direction — evidence remains at a preclinical/early-clinical stage rather than confirmatory.
+سورافينيب هو مثبط متعدد كيناز (VEGFR1-3, PDGFR-β, مسار RAF/MEK/ERK) تم تأسيسه في الأصل لعلاج سرطان الخلايا الكلوية وسرطان الكبد. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الورم الشحمي الغضروفي**، مع **تجربتين سريريتين** (واحدة منهما مسجلة كخطأ ربط بيانات) و**8 منشورات** تدعم هذا الاتجاه حالياً — الأدلة لا تزال في مرحلة ما قبل السريرية/المرحلة السريرية المبكرة وليس في مرحلة التأكيد.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Renal cell carcinoma (RCC), Hepatocellular carcinoma (HCC) — inferred from trial/literature context in this pack; no Saudi Arabia-specific approved-indication text is on file (0 licenses) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | سرطان الخلايا الكلوية (RCC)، سرطان الكبد الأولي (HCC) — مستنتج من سياق التجارب والأدبيات في هذه المجموعة؛ لا توجد نصوص استطباب معتمدة خاصة بالمملكة العربية السعودية في الملفات (0 ترخيص) |
+| الاستطباب الجديد المتنبأ به | الورم الشحمي الغضروفي |
+| درجة تنبؤ TxGNN | 99.82% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, a structured mechanism-of-action record for sorafenib is a data gap (DG002). However, the literature evidence collected in this pack consistently describes sorafenib (BAY 43-9006) as a multi-target kinase inhibitor acting on VEGFR1–3, PDGFR-β, and the RAF/MEK/ERK signaling axis, which underlies its established antiangiogenic and antiproliferative activity in RCC and HCC.
+حالياً، السجل المهيكل لآلية عمل سورافينيب هو فجوة بيانات (DG002). ومع ذلك، الأدلة المنشورة المجمعة في هذه المجموعة تصف بشكل متسق سورافينيب (BAY 43-9006) كمثبط كيناز متعدد الأهداف يعمل على VEGFR1–3, PDGFR-β، ومحور تنبيه RAF/MEK/ERK، الذي يكمن وراء نشاطه الثابت المضاد للأوعية الدموية والمضاد للانتشار في RCC و HCC.
 
-Liposarcoma, particularly the dedifferentiated subtype, shares relevant biology: preclinical work in this pack (PMID 23416162) shows PTEN down-regulation as a malignant signature in dedifferentiated liposarcoma xenografts, and direct in-vitro data (PMID 18413802) demonstrated sorafenib inhibits growth and MAPK signaling in dedifferentiated liposarcoma cell lines (LS141, DDLS) alongside malignant peripheral nerve sheath tumor cells. Soft tissue sarcomas as a class have also shown clinical activity with sorafenib (SWOG S0505, PMID 21751200).
+الورم الشحمي الغضروفي، خاصة النمط المتحول، يشترك في بيولوجيا ذات صلة: الأبحاث ما قبل السريرية في هذه المجموعة (PMID 23416162) تُظهر تنظيم PTEN السلبي كتوقيع خبيث في نماذج الكسينة للورم الشحمي الغضروفي المتحول، والبيانات المباشرة في المختبر (PMID 18413802) أظهرت أن سورافينيب يثبط النمو وتنبيه MAPK في خطوط الورم الشحمي الغضروفي المتحول (LS141, DDLS) إلى جانب خلايا ورم الأعصاب الطرفي الخبيث. أورام الأنسجة الرخوة كفئة أظهرت أيضاً نشاطاً سريرياً مع سورافينيب (SWOG S0505, PMID 21751200).
 
-Because the RAF/MAPK and PDGFR pathways sorafenib targets are also implicated in several soft-tissue-sarcoma subtypes, extrapolation to liposarcoma has a plausible mechanistic basis — but the clinical evidence base is not liposarcoma-subtype-specific and remains at an early, hypothesis-generating stage.
+لأن مسارات RAF/MAPK و PDGFR التي يثبطها سورافينيب موجودة أيضاً في عدة أنواع فرعية من أورام الأنسجة الرخوة، فإن الاستقراء إلى الورم الشحمي الغضروفي له أساس آلي معقول — لكن قاعدة الأدلة السريرية ليست خاصة بنوع فرعي من الورم الشحمي الغضروفي وتبقى في مرحلة مبكرة تولد الفرضيات.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Sorafenib (BAY-9006) tested in advanced soft tissue sarcomas — rationale based on blocking growth-signaling enzymes and tumor blood flow; not liposarcoma-subtype-specific in design |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | المرحلة 2 | مكتملة | 51 | تم اختبار سورافينيب (BAY-9006) في أورام الأنسجة الرخوة المتقدمة — المبرر مبني على حجب إنزيمات تنبيه النمو وتدفق الدم في الورم؛ ليس خاصاً بتصميم النمط الفرعي للورم الشحمي الغضروفي |
 
-*Note: NCT02048371 (SARC024) was excluded — the evidence pack's own relevance grading flagged it as a data-linkage error (the trial actually studies regorafenib, not sorafenib), so it is not counted as evidence for this drug.*
+*ملاحظة: تم استبعاد NCT02048371 (SARC024) — تصنيف الأهمية النسبية للمجموعة الدليلية نفسها وَسَمَهُ كخطأ ربط بيانات (التجربة في الواقع تدرس ريغورافينيب، وليس سورافينيب)، لذا فهي لا تُحسب كأدلة لهذا العقار.*
 
 ---
 
-## Literature Evidence
+## الأدلة المنشورة
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | RCT (Phase 2, SWOG S0505) | Cancer | Intergroup Phase 2 trial establishing feasibility/activity of sorafenib's anti-VEGFR/RAF profile in advanced soft tissue sarcoma |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 trial | Annals of Surgical Oncology | Neoadjuvant sorafenib plus conformal radiotherapy in extremity soft-tissue sarcoma, testing synergy of antiangiogenic therapy with RT |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven soft tissue sarcoma therapy review; notes high trabectedin activity specifically in myxoid liposarcoma, framing subtype-specific drug selection |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Subtype-based soft tissue sarcoma treatment review reiterating histology-specific drug-selection principles |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | PDOX mouse-model review proposing CDK-inhibitor combination strategies for sarcoma, contextualizing targeted-therapy combinations |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical | Molecular Cancer Therapeutics | Sorafenib inhibited growth and MAPK signaling in dedifferentiated liposarcoma cell lines (LS141, DDLS) — direct preclinical liposarcoma data |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclinical | American Journal of Pathology | Dedifferentiated liposarcoma xenograft models identified PTEN down-regulation as a malignancy signature, supporting kinase/PI3K-pathway targeting rationale |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Case report | Anti-Cancer Drugs | Response to **trabectedin** (a different drug) in synovial sarcoma with lung metastases — included for subtype-treatment landscape context only |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | تجربة عشوائية محكومة (المرحلة 2، SWOG S0505) | Cancer | تجربة بين المجموعات في المرحلة 2 تثبت جدوى/نشاط ملف سورافينيب المضاد VEGFR/RAF في أورام الأنسجة الرخوة المتقدمة |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | تجربة المرحلة 1 | Annals of Surgical Oncology | سورافينيب ما قبل الجراحي مع العلاج الإشعاعي المطابق في أورام الأنسجة الرخوة الطرفية، اختبار التآزر بين العلاج المضاد للأوعية الدموية والعلاج الإشعاعي |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | مراجعة | Annals of Oncology | مراجعة علاج أورام الأنسجة الرخوة موجهة بالنسيج؛ تشير إلى نشاط تراباكتيدين العالي على وجه التحديد في الورم الشحمي الغضروفي المخاطي، وتحديد اختيار العقار الخاص بالنمط الفرعي |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | مراجعة | Magyar Onkologia | مراجعة علاج أورام الأنسجة الرخوة القائمة على النمط الفرعي تكرر مبادئ اختيار العقار الخاصة بالنسيج |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | مراجعة | Frontiers in Oncology | مراجعة نموذج PDOX للفئران تقترح استراتيجيات مثبط CDK المدمجة للورم، مع تسييق مجموعات العلاج الموجه |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | ما قبل سريري | Molecular Cancer Therapeutics | ثبّط سورافينيب النمو وتنبيه MAPK في خطوط الورم الشحمي الغضروفي المتحول (LS141, DDLS) — بيانات ما قبل سريرية مباشرة للورم الشحمي الغضروفي |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | ما قبل سريري | American Journal of Pathology | نماذج الكسينة للورم الشحمي الغضروفي المتحول حددت تنظيم PTEN السلبي كتوقيع خبث، يدعم مبرر استهداف مسار الكيناز/PI3K |
+| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | تقرير حالة | Anti-Cancer Drugs | الاستجابة لـ **تراباكتيدين** (عقار مختلف) في ورم الغمد الزليلي مع نقائل رئوية — مُدرجة لسياق المنظر العلاجي لنمط فرعي فقط |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Sorafenib is currently **not marketed** in Saudi Arabia in this data set (0 licenses on file), so no authorization table is available.
+سورافينيب حالياً **غير مسوق** في المملكة العربية السعودية في مجموعة البيانات هذه (0 ترخيص في الملفات)، لذا لا توجد جدول موافقات متاح.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: VEGFR1-3, PDGFR-β, RAF/MEK/ERK pathway) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الموجه (مثبط متعدد الكيناز: VEGFR1-3, PDGFR-β, مسار RAF/MEK/ERK) |
+| خطر قمع نخاع العظم | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة العبوة |
+| تصنيف الخواص المقيئة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة العبوة |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة العبوة |
+| حماية التعامل | يُرجى الرجوع إلى تحذيرات واحتياطات نشرة العبوة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-- Evidence is driven mostly by preclinical studies and reviews plus a single relevant completed Phase 2 trial in soft tissue sarcoma broadly (not liposarcoma-subtype-specific); one of the two logged trials is a confirmed data-linkage error and does not count as evidence.
-- Two blocking/high-severity data gaps remain unresolved: SFDA package-insert warnings/contraindications (DG001, Blocking) and a formal DrugBank MOA record (DG002, High), which prevents safety pre-screening.
+**المبرر:**
+- الأدلة مدفوعة في الأساس بالدراسات ما قبل السريرية والمراجعات بالإضافة إلى تجربة واحدة مكتملة في المرحلة 2 ذات الصلة في أورام الأنسجة الرخوة بشكل عام (وليس خاصة بالنمط الفرعي للورم الشحمي الغضروفي)؛ واحدة من التجربتين المسجلتين هي خطأ ربط بيانات مؤكد ولا تُحسب كأدلة.
+- فجوتا بيانات حجب/عالية الخطورة تبقيان دون حل: تحذيرات/موانع استعمال نشرة عبوة SFDA (DG001، حجب) وسجل آلية عمل DrugBank رسمي (DG002، عالي)، مما يمنع الفحص الأمني المسبق.
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings, contraindications) to clear the S1 safety gate (DG001)
-- Confirmed DrugBank mechanism-of-action record (DG002)
-- Liposarcoma-subtype-specific clinical trial data (current evidence is soft-tissue-sarcoma-wide, not liposarcoma-specific)
-- Correction/removal of the NCT02048371 data-linkage error from the evidence source
-- Resolution of the "not_found" DDI query
+**للمتابعة، يلزم التالي:**
+- نشرة عبوة SFDA (التحذيرات، موانع الاستعمال) لإزالة بوابة السلامة S1 (DG001)
+- سجل آلية عمل DrugBank مؤكد (DG002)
+- بيانات تجربة سريرية خاصة بالنمط الفرعي للورم الشحمي الغضروفي (الأدلة الحالية عامة لأورام الأنسجة الرخوة، وليست خاصة بالورم الشحمي الغضروفي)
+- تصحيح/حذف خطأ ربط البيانات NCT02048371 من مصدر الأدلة
+- حل استعلام DDI "not_found"
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

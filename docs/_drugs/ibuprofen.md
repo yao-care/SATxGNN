@@ -29,76 +29,77 @@ indication_count: 7
 
 </div>
 
-# Ibuprofen: From NSAID Analgesic Use to Acromesomelic Dysplasia, Hunter-Thompson Type
+# الإيبوبروفين: من الاستخدام المسكن لمثبطات NSAIDs إلى الخلل النمائي الأكروميزومي من نوع هانتر-طومسون
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-> Ibuprofen is a well-established NSAID (COX-1/COX-2 inhibitor) used for pain, inflammation and fever; its own approved-indication and Taiwan licensing data are not present in this evidence pack.
-> The TxGNN model's top prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare genetic skeletal disorder,
-> but this and six other ranked candidates are supported by **0 clinical trials** and **0 publications** — model prediction only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Taiwan license or `original_indications` data). Ibuprofen is generically known as an NSAID for pain/inflammation/fever. |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> الإيبوبروفين هو مثبط كوكس معروف منذ فترة طويلة (COX-1/COX-2) يُستخدم للألم والالتهاب والحمى؛ بيانات المؤشر المعتمد الخاص به وبيانات الترخيص في تايوان غير موجودة في هذه الحزمة البيانية.
+> التنبؤ الأعلى لنموذج TxGNN هو **الخلل النمائي الأكروميزومي من نوع هانتر-طومسون**، وهو اضطراب هيكلي وراثي نادر،
+> لكن هذا المؤشر والستة مرشحين آخرين المرتبين يتم دعمهم بـ **0 تجربة سريرية** و **0 منشورات** — تنبؤ نموذج فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Detailed mechanism-of-action data for ibuprofen is flagged as a data gap (DG002) in this pack. The only MOA information available comes from the model's own rationale notes, which describe ibuprofen as an NSAID that inhibits COX-1/COX-2 to reduce prostaglandin synthesis for anti-inflammatory and analgesic effect.
-
-Acromesomelic Dysplasia, Hunter-Thompson Type is a rare hereditary skeletal dysplasia caused by GDF5 gene mutations, affecting cartilage formation and growth-plate development — a structural/developmental disorder, not an inflammatory or pain condition. The rationale accompanying this prediction explicitly states there is **no direct biological connection** between ibuprofen's COX-inhibition mechanism and GDF5-driven skeletal dysplasia, and attributes the high TxGNN score to indirect "bone/cartilage" node proximity in the knowledge graph rather than an established mechanistic pathway.
-
-The remaining six ranked candidates (brachyolmia variants, myosclerosis, brachydactyly-syndactyly syndrome, pseudoachondroplasia, colobomatous microphthalmia-rhizomelic dysplasia syndrome) are similarly rare genetic/structural disorders, and their own rationale text likewise states "no known connection," "no direct relevance," or "theoretical only, no supporting evidence." One partial exception is pseudoachondroplasia, where NSAIDs could plausibly relieve secondary joint pain — but this reflects ibuprofen's existing standard analgesic use rather than a genuine new indication, and is unsupported by any disease-specific trial or literature.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير موثق في هذه الحزمة البيانية (لا يوجد ترخيص تايواني أو بيانات `original_indications`). الإيبوبروفين معروف عموماً كمثبط NSAIDs للألم والالتهاب والحمى. |
+| المؤشر الجديد المتنبأ به | الخلل النمائي الأكروميزومي من نوع هانتر-طومسون |
+| درجة تنبؤ TxGNN | 99.74% |
+| مستوى الدليل | L5 |
+| حالة السوق التايوانية | غير مسوقة (غير مسوقة) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | عدم المتابعة |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+بيانات آلية العمل المفصلة للإيبوبروفين مُحددة كفجوة بيانية (DG002) في هذه الحزمة. المعلومات الوحيدة المتاحة لآلية العمل تأتي من ملاحظات تبرير النموذج الخاص به، والتي تصف الإيبوبروفين كمثبط NSAIDs يثبط COX-1/COX-2 لتقليل تخليق البروستاجلاندين وتحقيق تأثير مضاد للالتهاب ومسكن.
 
----
+الخلل النمائي الأكروميزومي من نوع هانتر-طومسون هو خلل هيكلي وراثي نادر ناجم عن طفرات جين GDF5، يؤثر على تكوين الغضروف وتطور صفيحة النمو — وهو اضطراب هيكلي/نمائي وليس حالة التهابية أو ألم. يُوضح التبرير المرافق لهذا التنبؤ بصراحة أنه **لا توجد علاقة بيولوجية مباشرة** بين آلية تثبيط كوكس للإيبوبروفين والخلل الهيكلي الذي يقوده GDF5، وينسب درجة TxGNN العالية إلى قرب عقدة "عظم/غضروف" غير مباشر في الرسم البياني للمعرفة بدلاً من مسار آلي موثق.
 
-## Taiwan Market Information
-
-No licenses currently registered for ibuprofen in this evidence pack — market status is Not marketed (not marketed), with 0 total authorizations recorded.
+المرشحون الستة المرتبة المتبقية (متغيرات brachyolmia، myosclerosis، متلازمة brachydactyly-syndactyly، pseudoachondroplasia، متلازمة colobomatous microphthalmia-rhizomelic dysplasia) هي بالمثل اضطرابات وراثية/هيكلية نادرة، وينص نصهم التبريري بالمثل على "لا توجد علاقة معروفة" أو "لا صلة مباشرة" أو "نظري فقط، لا يوجد دليل داعم". الاستثناء الجزئي الوحيد هو pseudoachondroplasia، حيث يمكن لمثبطات NSAIDs بشكل معقول تخفيف ألم المفصل الثانوي — لكن هذا يعكس الاستخدام المسكن المعياري القائم للإيبوبروفين بدلاً من مؤشر جديد حقيقي، ولا يدعمه أي تجربة خاصة بالمرض أو أدب علمي.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدب العلمي
 
-**Decision: Hold**
+لا يتوفر حالياً أي أدب علمي ذو صلة
 
-**Rationale:**
-All 7 TxGNN-predicted indications sit at evidence level L5 (model prediction only) with zero clinical trials and zero publications, and the model's own mechanistic rationale explicitly finds no meaningful biological link between ibuprofen's COX-inhibition mechanism and these rare genetic/structural disorders. Combined with a Blocking data gap on TFDA warnings/contraindications (DG001) and missing MOA confirmation (DG002), there is insufficient basis to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) to clear the Blocking safety gap (DG001)
-- Confirmed MOA via DrugBank API (DG002)
-- Preclinical or mechanistic studies establishing biological plausibility for any candidate indication, particularly acromesomelic dysplasia (rank 1) or pseudoachondroplasia (rank 6, where symptomatic analgesic use is at least plausible)
-- Taiwan regulatory/licensing status confirmation, since the drug is currently recorded as not marketed
+## معلومات سوق تايوان
+
+لا توجد تراخيص مسجلة حالياً للإيبوبروفين في هذه الحزمة البيانية — حالة السوق هي غير مسوقة (غير مسوقة)، مع تسجيل 0 ترخيصات إجمالي.
+
+---
+
+## الاعتبارات الأمنية
+
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: عدم المتابعة**
+
+**التبرير:**
+جميع المؤشرات الـ 7 التي تنبأ بها TxGNN تقع عند مستوى الدليل L5 (تنبؤ نموذج فقط) مع صفر تجارب سريرية وصفر منشورات، والتبرير الآلي الخاص بالنموذج نفسه لا يجد أي ارتباط بيولوجي ذي معنى واضح بين آلية تثبيط كوكس للإيبوبروفين وهذه الاضطرابات الوراثية/الهيكلية النادرة. وعندما نضع في الاعتبار فجوة بيانية Blocking على تحذيرات/موانع استعمال TFDA (DG001) وتأكيد آلية العمل المفقود (DG002)، لا يوجد أساس كافٍ للتقدم بعد S0.
+
+**لكي يتم المضي قدماً، يلزم ما يلي:**
+- نشرة معلومات TFDA (تحذيرات، موانع استعمال) لتنظيف فجوة الأمان Blocking (DG001)
+- تأكيد آلية العمل عبر DrugBank API (DG002)
+- دراسات سابقة للعيادة أو دراسات آلية تثبت المعقولية البيولوجية لأي مؤشر مرشح، خاصة الخلل النمائي الأكروميزومي (الرتبة 1) أو pseudoachondroplasia (الرتبة 6، حيث يكون الاستخدام المسكن الأعراضي معقول على الأقل)
+- تأكيد حالة التنظيم/الترخيص في تايوان، حيث يتم تسجيل الدواء حالياً كغير مسوق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

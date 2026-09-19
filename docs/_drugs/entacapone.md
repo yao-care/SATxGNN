@@ -29,111 +29,112 @@ indication_count: 10
 
 </div>
 
-# Entacapone: From Parkinson's Disease to Lewy Body Dementia
+# إنتاكابون: من مرض باركنسون إلى خرف أجسام لويي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Entacapone is a peripheral COMT (catechol-O-methyltransferase) inhibitor used as adjunct therapy to levodopa/carbidopa in **Parkinson's disease**, extending the duration of dopaminergic response.
-> Across 10 TxGNN-predicted indications for this molecule, the strongest candidate is **Lewy Body Dementia**, supported by **1 early-phase clinical trial** and **3 publications**, though none directly test entacapone's efficacy in this population.
-> Overall evidence remains preclinical/mechanistic (**L3 at best**), and a Blocking data gap on package-insert safety information prevents formal safety screening — the recommended decision is **Hold**.
+> إنتاكابون هو مثبط محيطي لإنزيم COMT (catechol-O-methyltransferase) يُستخدم كعلاج مساعد لليفودوبا/كاربيدوبا في **مرض باركنسون**، مما يُطيل مدة الاستجابة الدوبامينرجية.
+> عبر 10 استطبابات متنبأ بها بواسطة TxGNN لهذا الجزيء، المرشح الأقوى هو **خرف أجسام لويي**، مدعوم بـ **تجربة سريرية واحدة في المراحل المبكرة** و **3 منشورات**، على الرغم من أن أيًا منها لا يختبر بشكل مباشر فعالية إنتاكابون في هذه الفئة السكانية.
+> يبقى الدليل العام في المستوى ما قبل السريري/الميكانيكي (**L3 في أحسن الأحوال**)، وفجوة بيانات حاجزة تتعلق بمعلومات السلامة في عبوة الدواء تحول دون الفحص الرسمي للسلامة — القرار الموصى به هو **حفظ**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Parkinson's disease (adjunct to levodopa/carbidopa) — based on known pharmacology; formal regulatory indication text and MOA record are a data gap (DG002) |
-| Predicted New Indication | Lewy Body Dementia (best-evidenced of 10 candidates screened; see note below) |
-| TxGNN Prediction Score | 99.25% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | مرض باركنسون (علاج مساعد لليفودوبا/كاربيدوبا) — بناءً على الصيدلة المعروفة؛ نص الاستطباب التنظيمي الرسمي وسجل آلية العمل هما فجوة بيانات (DG002) |
+| الاستطباب الجديد المتنبأ به | خرف أجسام لويي (الأفضل دلالة من بين 10 مرشحين تم فحصهم؛ انظر الملاحظة أدناه) |
+| درجة التنبؤ بواسطة TxGNN | 99.25% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | حفظ |
 
-**Important note on indication selection:** TxGNN's single highest-ranked prediction for entacapone was *PLA2G6-associated neurodegeneration* (score 99.76%), but the model's own rationale explicitly states this has **no mechanistic linkage and no supporting trials or literature** — it is a pure embedding-similarity artifact. Of the 10 predicted indications reviewed, only two reached decision-stage **S1 ("Research Question")**: *Lewy Body Dementia* (L3, has real trial/literature evidence) and *paralysis agitans, juvenile, of Hunt* (L4, mechanistically strong but with zero direct evidence). This report features Lewy Body Dementia as the headline candidate because it is the only one with actual empirical support; the full screening results are summarized below.
+**ملاحظة مهمة حول اختيار الاستطباب:** أعلى توقع واحد صرف بواسطة TxGNN لإنتاكابون كان *التنكس المرتبط بـ PLA2G6* (درجة 99.76%)، لكن أساس المنطق الخاص بالنموذج ينص صراحة على أن هذا **لا يحتوي على ارتباط ميكانيكي وليس لديه تجارب أو أدبيات داعمة** — إنه بمثابة حالة اصطناعية من التشابه في التضمين. من بين 10 استطبابات متنبأ بها تم مراجعتها، اثنان فقط وصلا إلى مرحلة القرار **S1 ("سؤال البحث")**:  *خرف أجسام لويي* (L3، لديه دليل على تجربة/أدبيات حقيقية) و *شلل الرعاش، الشباب، من هانت* (L4، قوي ميكانيكيًا لكن بدون دليل مباشر). يتميز هذا التقرير بخرف أجسام لويي كمرشح رئيسي لأنه الوحيد الذي لديه دعم تجريبي فعلي؛ ملخص كامل نتائج الفحص أدناه.
 
-### All Screened Indications (Ranked by TxGNN Score)
+### جميع الاستطبابات المفحوصة (مرتبة حسب درجة TxGNN)
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| الترتيب | الاستطباب المتنبأ به | درجة TxGNN | مستوى الدليل | مرحلة القرار | التوصية |
 |------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | PLA2G6-associated neurodegeneration | 99.76% | L5 | S0 | Hold |
-| 2 | Rasmussen subacute encephalitis | 99.73% | L5 | S0 | Hold |
-| 3 | Myelitis | 99.63% | L5 | S0 | Hold |
-| 4 | Paralysis agitans, juvenile, of Hunt (early-onset Parkinson's) | 99.60% | L4 | S1 | Research Question |
-| 5 | Transaldolase deficiency | 99.43% | L5 | S0 | Hold |
-| 6 | Lethal infantile mitochondrial myopathy | 99.28% | L5 | S0 | Hold |
-| 7 | **Lewy Body Dementia** | 99.25% | L3 | S1 | Research Question |
-| 8 | Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | S0 | Hold |
-| 9 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.06% | L5 | S0 | Hold |
-| 10 | Progressive supranuclear palsy-corticobasal syndrome | 99.04% | L4 | S0 | Hold |
+| 1 | التنكس المرتبط بـ PLA2G6 | 99.76% | L5 | S0 | حفظ |
+| 2 | التهاب الدماغ الحاد من راسموسين | 99.73% | L5 | S0 | حفظ |
+| 3 | التهاب النخاع | 99.63% | L5 | S0 | حفظ |
+| 4 | شلل الرعاش، الشباب، من هانت (باركنسون الظهور المبكر) | 99.60% | L4 | S1 | سؤال البحث |
+| 5 | نقص ترانسألدولاز | 99.43% | L5 | S0 | حفظ |
+| 6 | اعتلال عضلي فتاك في فترة الرضاعة المرتبط بالميتوكندريا | 99.28% | L5 | S0 | حفظ |
+| 7 | **خرف أجسام لويي** | 99.25% | L3 | S1 | سؤال البحث |
+| 8 | نقص فركتوز-1,6-ثنائي الفوسفات | 99.22% | L5 | S0 | حفظ |
+| 9 | تعدد الملتقيات الصغيرة، محيط الشق الجزيري، مع نقص المخيخ والتقفع | 99.06% | L5 | S0 | حفظ |
+| 10 | شلل فوق النووي تدريجي-متلازمة القشرة القاعدية | 99.04% | L4 | S0 | حفظ |
 
-Ranks 1, 2, 3, 5, 6, 8, and 9 (7 of 10 candidates) have no clinical trials, no literature, and no plausible mechanistic link to entacapone's known pharmacology — these are model-similarity artifacts and are not discussed further.
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed formal mechanism-of-action documentation is not available in this evidence pack (data gap DG002). Based on known pharmacology, entacapone is a peripheral, reversible COMT inhibitor used as an adjunct to levodopa/carbidopa in Parkinson's disease — it blocks peripheral metabolism of levodopa, prolonging its central dopaminergic effect.
-
-Lewy Body Dementia (LBD) and Parkinson's disease sit on the same pathological spectrum: both are alpha-synucleinopathies, characterized by aggregation of α-synuclein in neurons and progressive nigrostriatal dopaminergic neuron loss. Many LBD patients develop parkinsonian motor symptoms and are, in clinical practice, treated with levodopa (often combined with a COMT inhibitor such as entacapone) to manage these symptoms. This shared pathophysiology is the basis of the TxGNN prediction.
-
-Mechanistically, the supporting literature strengthens this link at two levels: PMID 23913715 directly tested antiparkinsonian agents' effects on α-synuclein oligomer formation in vitro, providing mechanism-level evidence relevant to disease-modifying potential; PMID 39259788 used iPSC-derived cortical organoids to model Lewy body pathology, offering preclinical biological context. The one registered trial (NCT04246437) does not test entacapone directly — it is an [18F]F-DOPA imaging study in autonomic failure patients — but it establishes that dopaminergic pathway imaging in synucleinopathy populations is an active area of investigation. Notably, none of this evidence directly evaluates entacapone's efficacy in LBD; all current support is indirect (shared disease mechanism, drug-class effects, or imaging methodology in adjacent populations), which is why the evidence level remains L3 rather than higher.
-
-The secondary candidate, "paralysis agitans, juvenile, of Hunt," is an archaic term for juvenile/early-onset Parkinson's disease — essentially the same disease entity for which entacapone's use is already well established. Its mechanistic plausibility is arguably higher than LBD's, but zero direct trials or literature exist for this specific naming, so it remains an unverified extrapolation (L4) pending clinician input on pediatric/early-onset dosing safety.
+الترتيبات 1، 2، 3، 5، 6، 8، و9 (7 من 10 مرشحين) ليس لديها تجارب سريرية، لا أدبيات، ولا ارتباط ميكانيكي معقول لصيدلة إنتاكابون المعروفة — هذه نتائج شبه تشابه نموذج ولا تتم مناقشتها بشكل أكبر.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-*(For Lewy Body Dementia — the featured candidate)*
+حاليًا، وثائق آلية العمل الرسمية المفصلة غير متوفرة في هذه حزمة الأدلة (فجوة بيانات DG002). بناءً على الصيدلة المعروفة، إنتاكابون هو مثبط COMT محيطي قابل للعكس يُستخدم كعلاج مساعد لليفودوبا/كاربيدوبا في مرض باركنسون — إنه يمنع استقلاب الليفودوبا المحيطي، مما يطيل تأثيره الدوبامينرجي المركزي.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+يقع خرف أجسام لويي (LBD) ومرض باركنسون على نفس الطيف المرضي: كلاهما من أمراض alpha-synucleinopathy، تتميز بتراكم α-synuclein في الخلايا العصبية وفقدان تدريجي لخلايا العصبونات الدوبامينرجية الأسودة. يطور العديد من مرضى LBD أعراضًا حركية برينسونية ويتم، في الممارسة السريرية، معالجتهم باستخدام الليفودوبا (غالبًا مع مثبط COMT مثل إنتاكابون) لإدارة هذه الأعراض. تعزز هذه الفيزيوباثولوجيا المشتركة ارتباط التنبؤ بواسطة TxGNN.
+
+من الناحية الميكانيكية، تقوي الأدبيات الداعمة هذا الارتباط على مستويين: اختبر PMID 23913715 بشكل مباشر تأثيرات عوامل مضادة لباركنسون على تكوين أوليجومرات α-synuclein في المختبر، مما يوفر دليلاً على مستوى الآلية ذا صلة بإمكانية تعديل المرض؛ استخدم PMID 39259788 أعضاء قشرية مشتقة من iPSC لنمذجة مرضية أجسام لويي، مما يوفر سياقًا بيولوجيًا ما قبل سريري. التجربة المسجلة الواحدة (NCT04246437) لا تختبر إنتاكابون بشكل مباشر — إنها دراسة تصوير [18F]F-DOPA في مرضى القصور الذاتي — لكنها تؤسس أن تصوير مسار دوبامينرجي في سكان synucleinopathy هو مجال بحثي نشط. وجدير بالملاحظة، لا يقيم أي من هذا الدليل بشكل مباشر فعالية إنتاكابون في LBD؛ جميع الدعم الحالي غير مباشر (آلية مرض مشتركة، تأثيرات فئة الأدوية، أو منهجية التصوير في السكان المجاورين)، وهذا هو السبب في بقاء مستوى الدليل L3 بدلاً من أعلى.
+
+المرشح الثانوي، "شلل الرعاش، الشباب، من هانت"، هو مصطلح قديم الطراز لمرض باركنسون في الشباب/بداية مبكرة — في الأساس نفس كيان المرض الذي استخدام إنتاكابون الخاص به مقرر بالفعل. إن معقولية آليته يمكن القول أنها أعلى من LBD، لكن توجد صفر تجارب مباشرة أو أدبيات لهذه التسمية المحددة، لذا تبقى تخمينًا لم يتم التحقق منه (L4) في انتظار المدخلات السريرية حول سلامة الجرعات لدى الأطفال/بداية مبكرة.
+
+---
+
+## دليل التجارب السريرية
+
+*(لخرف أجسام لويي — المرشح المتميز)*
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) | Phase 1 | Recruiting | 40 | [18F]F-DOPA imaging study characterizing dopaminergic pathway integrity in patients with autonomic failure/synucleinopathies (Parkinson's disease, Multiple System Atrophy, Dementia with Lewy Bodies). Not an entacapone-interventional trial; provides background imaging context for the alpha-synucleinopathy spectrum. Graded "C" relevance — indirect. |
+| [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) | المرحلة 1 | التجنيد قيد الإجراء | 40 | دراسة تصوير [18F]F-DOPA تميز سلامة المسار الدوبامينرجي في مرضى القصور الذاتي/synucleinopathies (مرض باركنسون، ضمور الجهاز المتعدد، الخرف مع أجسام لويي). ليست تجربة تدخل موجهة نحو إنتاكابون؛ توفر سياقًا تصويريًا خلفيًا لطيف alpha-synucleinopathy. مصنفة "C" ذات صلة — غير مباشرة. |
 
-No entacapone-interventional trials for Lewy Body Dementia are currently registered.
+لا توجد تجارب تدخل موجهة نحو إنتاكابون لخرف أجسام لويي مسجلة حاليًا.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-*(For Lewy Body Dementia — the featured candidate)*
+*(لخرف أجسام لويي — المرشح المتميز)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [23913715](https://pubmed.ncbi.nlm.nih.gov/23913715/) | 2013 | In vitro mechanistic study | Journal of Neuroscience Research | Examined effects of antiparkinsonian agents on β-amyloid and α-synuclein oligomer formation in vitro — direct mechanism-level relevance to LBD pathology. |
-| [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) | 2024 | Preclinical (iPSC model) | Science Advances | Modeled Lewy body disease using SNCA-triplication iPSC-derived cortical organoids to identify candidate therapeutic drugs. |
-| [11268898](https://pubmed.ncbi.nlm.nih.gov/11268898/) | 2001 | Review | Presse Médicale | General review of Parkinson's disease; background reference only, no LBD- or entacapone-specific data (abstract not available). |
+| [23913715](https://pubmed.ncbi.nlm.nih.gov/23913715/) | 2013 | دراسة ميكانيكية في المختبر | Journal of Neuroscience Research | فحصت تأثيرات عوامل مضادة لباركنسون على تكوين أوليجومرات β-amyloid و α-synuclein في المختبر — ذات صلة ميكانيكية مباشرة بمرضية LBD. |
+| [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) | 2024 | ما قبل السريري (نموذج iPSC) | Science Advances | نمذجة مرض الأجسام الليفية باستخدام أعضاء قشرية مشتقة من iPSC ثلاثية SNCA لتحديد الأدوية العلاجية المحتملة. |
+| [11268898](https://pubmed.ncbi.nlm.nih.gov/11268898/) | 2001 | مراجعة | Presse Médicale | مراجعة عامة لمرض باركنسون؛ مرجع خلفي فقط، بدون بيانات خاصة بـ LBD أو إنتاكابون (الملخص غير متاح). |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Entacapone currently has **no registered product license and is not marketed** in Saudi Arabia (0 authorizations on file). No dosage form, brand name, or approved indication text is available from the regulatory dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: this is a Blocking data gap — DG001 — not merely an absence of findings. Key warnings, contraindications, and drug-drug interaction data could not be retrieved from any source, which by itself is sufficient to prevent this candidate from advancing past initial safety screening, independent of the indication-level evidence discussed above.)*
+إنتاكابون لا يحتوي حاليًا على ترخيص منتج مسجل ولا يتم تسويقه في المملكة العربية السعودية (0 تصاريح على ملف). لا توجد معلومات عن شكل الجرعة أو اسم العلامة التجارية أو نص الاستطباب الموافق عليه متاحة من مجموعة البيانات التنظيمية.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يرجى الرجوع إلى عبوة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-No predicted indication for entacapone currently has direct clinical trial or controlled-study evidence of efficacy — the best-supported candidate (Lewy Body Dementia) rests on shared-mechanism and preclinical data only (L3), and a Blocking gap in basic package-insert safety data (DG001) prevents even a preliminary safety assessment. The drug is also not currently marketed in Saudi Arabia, removing any existing local safety/utilization track record to draw on.
+*(ملاحظة: هذه فجوة بيانات حاجزة — DG001 — ليست مجرد غياب النتائج. لا يمكن استرجاع بيانات التحذيرات الرئيسية والتناقضات والتفاعلات الدوائية من أي مصدر، وهذا وحده كافٍ لمنع هذا المرشح من التقدم بعد الفحص الأولي للسلامة، بغض النظر عن أدلة مستوى الاستطباب التي تمت مناقشتها أعلاه.)*
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications, DDI) — Blocking gap, must be resolved before any S1→S2 progression
-- Formal DrugBank mechanism-of-action and original-indication record for entacapone
-- If pursuing Lewy Body Dementia or early-onset Parkinson's further: a targeted literature/trial search specifically combining "entacapone" with these terms (rather than relying on general antiparkinsonian-agent studies), and clinical input on dosing/safety in early-onset or dementia populations
-- Re-screening of the 7 lowest-evidence candidates (ranks 1, 2, 3, 5, 6, 8, 9) is not recommended — they show no mechanistic or empirical support and should remain deprioritized unless new evidence emerges
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: حفظ**
+
+**الأساس:**
+لا توجد استطبابات متنبأ بها لإنتاكابون حاليًا لديها دليل تجربة سريرية مباشرة أو دليل دراسة محكومة على الفعالية — أفضل مرشح مدعوم (خرف أجسام لويي) يعتمد على بيانات آلية مشتركة وما قبل سريري فقط (L3)، وفجوة حاجزة في بيانات عبوة الدواء الأساسية (DG001) تمنع حتى التقييم الأولي للسلامة. كما أن الدواء غير مسوق حاليًا في المملكة العربية السعودية، مما يزيل أي سجل آمان/استخدام محلي موجود للاستفادة منه.
+
+**للمتابعة، ما يلي مطلوب:**
+- عبوة TFDA/المصنع (تحذيرات، تناقضات، DDI) — فجوة حاجزة، يجب حلها قبل أي تقدم S1→S2
+- سجل آلية العمل الرسمي لـ DrugBank والاستطباب الأصلي لإنتاكابون
+- إذا كان السعي نحو خرف أجسام لويي أو باركنسون الظهور المبكر بشكل أكبر: بحث موجه عن الأدبيات/التجارب يجمع بشكل محدد بين "إنتاكابون" مع هذه الشروط (بدلاً من الاعتماد على دراسات عامة مضادة لباركنسون)، ومدخلات سريرية حول السلامة/الجرعات في السكان في سن مبكرة أو الخرف
+- إعادة فحص 7 مرشحين بأقل دليل (الترتيبات 1، 2، 3، 5، 6، 8، 9) غير موصى به — يظهرون دعمًا ميكانيكيًا أو تجريبيًا وليس لديهم ويجب أن يبقوا معطوبين ما لم تظهر أدلة جديدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

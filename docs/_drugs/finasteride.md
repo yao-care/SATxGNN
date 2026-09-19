@@ -29,56 +29,57 @@ indication_count: 6
 
 </div>
 
-# Finasteride: From Androgenetic Alopecia to Ambras Type Hypertrichosis Universalis Congenita
+# فيناسترايد: من الثعلبة الأندروجينية إلى فرط الشعر الشامل الخلقي من نوع أمبراس
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Finasteride is a 5α-reductase inhibitor globally known for treating androgenetic alopecia (male pattern hair loss) and benign prostatic hyperplasia. The TxGNN model's top prediction is **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital generalized hypertrichosis — but this evidence pack currently contains **zero clinical trials and zero publications** supporting the link, and the drug's own mechanistic rationale flags the biological plausibility as weak to non-existent.
+فيناسترايد هو مثبط 5α-reductase معروف عالمياً لعلاج الثعلبة الأندروجينية (تساقط الشعر ذو النمط الذكري) وفرط تنسج البروستاتا الحميد. أهم تنبؤ قدمته نموذج TxGNN هو **فرط الشعر الشامل الخلقي من نوع أمبراس**، وهي فرط شعر جسدي عام خلقي نادر — لكن حزمة الأدلة هذه تحتوي حالياً على **صفر تجارب سريرية وصفر منشورات** تدعم هذا الارتباط، والحجة الميكانيكية الذاتية للعقار تشير إلى أن القابلية الحيوية ضعيفة إلى غير موجودة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Androgenetic alopecia / Benign prostatic hyperplasia (well-established globally; no local license data available in this pack) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | الثعلبة الأندروجينية / فرط تنسج البروستاتا الحميد (موثق عالمياً بشكل جيد؛ لا توجد بيانات ترخيص محلية متاحة في هذه الحزمة) |
+| المؤشر المتنبأ به الجديد | فرط الشعر الشامل الخلقي من نوع أمبراس |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معروض في السوق (غير معروض في السوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, finasteride is a type II 5α-reductase inhibitor that blocks conversion of testosterone to dihydrotestosterone (DHT); its established efficacy is in androgen-dependent hair loss and prostate enlargement.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في حزمة الأدلة هذه (تم تصنيفها كفجوة بيانات عالية الخطورة). بناءً على الصيدلة المعروفة، فيناسترايد هو مثبط 5α-reductase من النوع الثاني الذي يمنع تحويل testosterone إلى dihydrotestosterone (DHT)؛ فعاليته المثبتة هي في تساقط الشعر المعتمد على الأندروجين وتضخم البروستاتا.
 
-Ambras syndrome, however, is a congenital, non-androgen-dependent form of generalized hypertrichosis, linked to a chromosome 8q12 structural abnormality that drives extra hair follicle development from early development onward. This pathology does not operate through the testosterone/DHT axis that finasteride targets — the drug's own repurposing rationale for this candidate explicitly states the mechanistic link is "weak to non-existent."
+ومع ذلك، فإن متلازمة أمبراس هي شكل خلقي غير معتمد على الأندروجين من فرط الشعر الشامل، مرتبطة بشذوذ هيكلي في الكروموسوم 8q12 يدفع نمو بصيلات شعر إضافية من بداية النمو فصاعداً. هذه الحالة المرضية لا تعمل من خلال محور testosterone/DHT الذي يستهدفه فيناسترايد — الحجة الميكانيكية الذاتية للعقار لهذا المرشح تشير بوضوح إلى أن الارتباط الميكانيكي هو "ضعيف إلى غير موجود."
 
-The prediction most plausibly reflects a knowledge-graph association through the shared category of "hair growth/follicle disorders" rather than a genuine shared causal pathway. By contrast, rank #2 in this pack — general "hypertrichosis (disease)," which includes androgen-dependent hirsutism — has a more defensible mechanistic story (finasteride's known anti-androgen effect on hair growth) and is the only candidate in this pack with any clinical trial or literature support (see Conclusion).
+يعكس التنبؤ الأرجح ارتباط رسم بياني معرفي من خلال الفئة المشتركة "نمو الشعر / اضطرابات البصيلات" بدلاً من مسار سببي مشترك حقيقي. بالمقابل، الترتيب #2 في هذه الحزمة — "فرط الشعر (مرض)" العام، الذي يشمل فرط الشعر المعتمد على الأندروجين — له قصة ميكانيكية أكثر قابلية للدفاع (تأثير فيناسترايد المعروف المضاد للأندروجين على نمو الشعر) وهو المرشح الوحيد في هذه الحزمة الذي يحتوي على أي دعم من التجارب السريرية أو الأدب (انظر الخلاصة).
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدب
 
-Currently no related literature available.
+لا يوجد أدب ذو صلة متاح حالياً.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Note: TFDA package insert warnings/contraindications are marked as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any S1 safety screening can proceed.
+يرجى الرجوع إلى ملصق العبوة للحصول على معلومات السلامة. ملاحظة: تحذيرات/موانع استخدام ملصق عبوة TFDA يتم تصنيفها كفجوة بيانات **عائقة** (DG001) في حزمة الأدلة هذه — يجب حل هذا قبل أن يتمكن أي فحص سلامة S1 من المتابعة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The prediction carries a very high TxGNN similarity score but is supported by no clinical trials, no literature, and no market/regulatory data, and the mechanistic rationale itself concludes the disease pathway (congenital 8q12-related follicle proliferation) does not align with finasteride's DHT-blocking mechanism. This meets the L5 definition (model prediction only, no actual studies) and does not warrant advancement at this time.
+**الأساس المنطقي:**
+التنبؤ يحمل درجة تشابه TxGNN عالية جداً لكنه مدعوم بصفر تجارب سريرية وصفر أدب وصفر بيانات سوق/تنظيمية، والحجة الميكانيكية نفسها تخلص إلى أن مسار المرض (تكاثر البصيلات المرتبط بـ 8q12 الخلقي) لا يتوافق مع آلية منع DHT في فيناسترايد. ينطبق عليها تعريف L5 (تنبؤ نموذج فقط، لا دراسات فعلية) ولا تبرر التقدم في هذا الوقت.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (Blocking gap, DG001)
-- Formal MOA documentation via DrugBank API (High-priority gap, DG002)
-- If this specific ultra-rare congenital indication is still of interest: genetic/mechanistic studies showing any androgen-pathway involvement in 8q12-driven follicle proliferation (none currently exists)
-- Consider redirecting evaluation effort to rank #2 in this pack, "hypertrichosis (disease)" (score 99.99%, Evidence Level L4, decision stage S1) — it has 1 clinical trial (low relevance, Phase 4) and 4 literature reviews discussing finasteride's role in androgen-dependent hair growth conditions, making it the more evidence-backed candidate among the six predictions screened for this drug
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات/موانع استخدام ملصق عبوة TFDA/محلية (فجوة عائقة، DG001)
+- توثيق MOA رسمي عبر DrugBank API (فجوة ذات أولوية عالية، DG002)
+- إذا كان هذا المؤشر الخاص فائق الندرة الخلقي لا يزال موضع اهتمام: دراسات وراثية/ميكانيكية تظهر أي مشاركة مسار أندروجين في تكاثر البصيلات المرتبط بـ 8q12 (لا توجد حالياً)
+- فكر في إعادة توجيه جهود التقييم إلى الترتيب #2 في هذه الحزمة، "فرط الشعر (مرض)" (الدرجة 99.99%، مستوى الأدلة L4، مرحلة القرار S1) — لديها 1 تجربة سريرية (ملاءمة منخفضة، Phase 4) و4 مراجعات أدبية تناقش دور فيناسترايد في حالات نمو الشعر المعتمدة على الأندروجين، مما يجعلها المرشح الأكثر دعماً من الأدلة بين الستة التنبؤات التي تم فحصها لهذا العقار
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

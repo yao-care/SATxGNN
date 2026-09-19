@@ -29,59 +29,60 @@ indication_count: 10
 
 </div>
 
-# Isoprenaline: Original Indication Not Documented — Predicted New Indication: Nasal Cavity Disease
+# الإيسوبرينالين: الدلالة الأصلية غير موثقة — الدلالة الجديدة المتنبأ بها: مرض تجويف الأنف
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Isoprenaline (DB01064) is a non-selective beta-adrenergic agonist; the evidence pack does not document its original approved indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts a possible effect on **Nasal Cavity Disease**, but this direction is currently supported by only **0 clinical trials** and **1 unrelated case report**, and the accompanying rationale flags it as a likely spurious embedding correlation.
+الإيسوبرينالين (DB01064) هو ناهض بيتا-أدرينرجي غير انتقائي؛ لا توثق مجموعة الأدلة دلالته الأصلية المعتمدة أو آلية عمله (كلاهما مميز كفجوات بيانات). يتنبأ نموذج TxGNN بتأثير محتمل على **مرض تجويف الأنف**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجربة سريرية** فقط و**تقرير حالة واحد غير ذي صلة**، والمنطق المصاحب يشير إليه كارتباط تضمين مريب محتمل.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in evidence pack (no licenses, no original_indications on file) |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير موثقة في مجموعة الأدلة (بدون تراخيص، بدون original_indications في الملف) |
+| الدلالة الجديدة المتنبأ بها | مرض تجويف الأنف |
+| درجة تنبؤ TxGNN | 99.95% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير معروض للبيع |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data for isoprenaline is not available in this evidence pack (flagged as a High-severity data gap, DG002). Without a documented original indication or MOA, no mechanistic bridge to nasal cavity disease can be established from the supplied data.
+حالياً، بيانات آلية العمل التفصيلية للإيسوبرينالين غير متاحة في مجموعة الأدلة هذه (مميزة كفجوة بيانات عالية الخطورة، DG002). بدون دلالة أصلية موثقة أو آلية عمل، لا يمكن إنشاء جسر ميكانيكي إلى مرض تجويف الأنف من البيانات المقدمة.
 
-The single literature record associated with this prediction (PMID 14711196) is a case report of perioperative ventricular tachycardia and coronary artery spasm following intranasal epinephrine administration during intubation — epinephrine, not isoprenaline, and cardiac arrhythmia, not nasal cavity disease. The evidence pack's own rationale explicitly characterizes this as an unrelated finding: "無明確機轉關聯；唯一文獻為圍術期心室頻脈合併冠狀動脈痙攣之病例報告，與鼻腔疾病無直接關係，疑似TxGNN embedding偽關聯" (no clear mechanistic link; the sole literature item is a case report of perioperative ventricular tachycardia with coronary spasm, unrelated to nasal cavity disease — likely a spurious TxGNN embedding correlation).
+السجل الأدبي الوحيد المرتبط بهذا التنبؤ (PMID 14711196) هو تقرير حالة لعدم انتظام ضربات القلب البطيني أثناء العملية وتشنج الشرايين التاجية بعد إعطاء الإبينفرين داخل الأنف أثناء التنبيب — إبينفرين، وليس إيسوبرينالين، واضطراب ضربات القلب، وليس مرض تجويف الأنف. يميز المنطق الخاص بمجموعة الأدلة بوضوح هذا كنتيجة غير ذات صلة: "無明確機轉關聯；唯一文獻為圍術期心室頻脈合併冠狀動脈痙攣之病例報告，與鼻腔疾病無直接關係，疑似TxGNN embedding偽關聯" (بدون ارتباط ميكانيكي واضح؛ العنصر الأدبي الوحيد هو تقرير حالة لعدم انتظام ضربات القلب البطيني أثناء العملية مع تشنج الشرايين التاجية، غير مرتبط بمرض تجويف الأنف — يحتمل أن يكون ارتباط تضمين TxGNN مريب).
 
-Given the absence of MOA data, the absence of any clinical trial evidence, and an explicit flag that the one supporting reference is mechanistically unrelated, this prediction should be treated as a hypothesis-generation signal only, not a mechanistically grounded candidate.
+بالنظر إلى غياب بيانات آلية العمل، غياب أي دليل من التجارب السريرية، وعلم صريح بأن المرجع الداعم الوحيد غير مرتبط ميكانيكياً، يجب أن يعامل هذا التنبؤ كإشارة توليد فرضية فقط، وليس كمرشح مبني على أساس ميكانيكي.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [14711196](https://pubmed.ncbi.nlm.nih.gov/14711196/) | 2003 | Case Report | Japanese Heart Journal | Case of perioperative ventricular tachycardia and coronary artery spasm in a 26-year-old male after intranasal epinephrine (not isoprenaline) during intubation; not directly relevant to nasal cavity disease. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [14711196](https://pubmed.ncbi.nlm.nih.gov/14711196/) | 2003 | تقرير حالة | Japanese Heart Journal | حالة عدم انتظام ضربات القلب البطيني أثناء العملية وتشنج الشرايين التاجية في ذكر يبلغ من العمر 26 سنة بعد إعطاء الإبينفرين (وليس الإيسوبرينالين) داخل الأنف أثناء التنبيب؛ غير مرتبط بشكل مباشر بمرض تجويف الأنف. |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The only supporting literature for this prediction is mechanistically unrelated to nasal cavity disease (a cardiac arrhythmia case report involving a different drug), there are no clinical trials, and both the drug's original indication and mechanism of action are undocumented in this evidence pack — insufficient basis to advance.
+**المبرر:**
+المرجع الداعم الوحيد لهذا التنبؤ غير مرتبط ميكانيكياً بمرض تجويف الأنف (تقرير حالة لاضطراب ضربات القلب يتضمن دواء مختلف)، لا توجد تجارب سريرية، والدلالة الأصلية وآلية عمل الدواء غير موثقة في مجموعة الأدلة هذه — أساس غير كافٍ للمتابعة.
 
-**To proceed, the following is needed:**
-- Original indication and approved-use history for isoprenaline (currently blocking, DG001/DG002)
-- Mechanism of action data from DrugBank or another authoritative source
-- TFDA/SFDA package insert warnings and contraindications (currently blocking for safety review, DG001)
-- Literature or preclinical evidence specifically linking isoprenaline (not epinephrine or other adrenergic agents) to nasal cavity pathology
-- Reassessment of whether this TxGNN prediction reflects a true signal or an embedding artifact before further investment
+**لكي نتابع، يلزم ما يلي:**
+- الدلالة الأصلية والسجل المعتمد للاستخدام للإيسوبرينالين (حالياً محظور، DG001/DG002)
+- بيانات آلية العمل من DrugBank أو مصدر سلطة آخر
+- تحذيرات نشرة TFDA/SFDA والموانع (حالياً محظور لمراجعة السلامة، DG001)
+- أدب أو أدلة ما قبل السريرية تربط بشكل محدد الإيسوبرينالين (وليس الإبينفرين أو وكلاء أدرينرجيين آخرين) بمرضية تجويف الأنف
+- إعادة تقييم ما إذا كان هذا التنبؤ TxGNN يعكس إشارة حقيقية أو عاهة تضمين قبل مزيد من الاستثمار
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

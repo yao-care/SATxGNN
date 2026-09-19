@@ -29,97 +29,94 @@ indication_count: 10
 
 </div>
 
-Using the evidence pack as given. Two flags worth stating up front before the report: (1) `predicted_indications[0]` (focal stiff limb syndrome, score 99.88%) has zero supporting trials/literature and its own `mechanistic_link` text explicitly says the score is likely a knowledge-graph artifact via the diabetes node — same for ranks 2–9. Ranks 1–9 are all L5/Hold with no real evidence. Rank 10 (Type 1 Diabetes Mellitus) is the only prediction with actual trial and literature support (L2, one completed Phase 2 RCT). Writing the report around rank 1 would be misleading for a decision document, so I built it around the evidence-backed candidate (T1DM) and flagged the noise-ranks separately, rather than following the literal `predicted_indications[0]` instruction into a report with no real content.
+# فيلداغليبتين: من داء السكري من النوع الثاني إلى داء السكري من النوع الأول
+
+## ملخص جملة واحدة
+
+> فيلداغليبتين هو مثبط DPP-4 تم تطويره في الأصل لداء السكري من النوع الثاني، مع سجل واسع من التجارب السريرية للنوع الثاني.
+> تحتل التنبؤات الترتيبية الأعلى تسعة صفوف من النموذج (طيف متلازمة الشخص المتيبس، ضمور الأنسجة الدهنية، التعظم الناقص المتأخر، عدم تكون البنكرياس) على عدم وجود أدلة داعمة وعلى الأرجح تمثل قطع أثرية من الرسم البياني للمعرفة مرتبطة بعقدة "داء السكري".
+> التنبؤ الوحيد ذو المضمون الحقيقي هو **داء السكري من النوع الأول** (الترتيب 10)، مدعوم بـ **تجربتي سريريتين ذات صلة مباشرة** و **10 قطع من الأدبيات**، بما في ذلك تجربة المرحلة الثانية المكتملة التي تختبر فيلداغليبتين (مع الرابامايسين) للحفاظ على خلايا بيتا.
 
 ---
 
-# Vildagliptin: From Type 2 Diabetes Mellitus to Type 1 Diabetes Mellitus
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Vildagliptin is a DPP-4 inhibitor originally developed for Type 2 Diabetes Mellitus, with an extensive T2DM clinical trial record.
-> The TxGNN model's top nine ranked predictions (stiff person syndrome spectrum, lipodystrophies, opsismodysplasia, pancreatic agenesis) carry no supporting evidence and are most likely knowledge-graph artifacts tied to the "diabetes" node.
-> The one prediction with real substance is **Type 1 Diabetes Mellitus** (rank 10), supported by **2 directly relevant clinical trials** and **10 pieces of literature**, including one completed Phase 2 RCT testing vildagliptin (with rapamycin) for β-cell preservation.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (inferred from extensive T2DM trial record in evidence pack; no formal label text available — see below) |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | داء السكري من النوع الثاني (استنتاج من سجل تجارب النوع الثاني الواسع في حزمة الأدلة؛ لا يتوفر نص البطاقة الرسمي — راجع أدناه) |
+| المؤشر الجديد المتنبأ به | داء السكري من النوع الأول |
+| درجة التنبؤ من TxGNN | 99.37% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data from a formal source (e.g. package insert) is not available for vildagliptin. Based on the literature captured in this evidence pack, vildagliptin is a DPP-4 (dipeptidyl peptidase-4) inhibitor: it blocks degradation of the incretin hormones GLP-1 and GIP, raising their post-meal concentrations. This suppresses inappropriate glucagon secretion during hyperglycemia and supports residual β-cell insulin secretion — the mechanism that has made it effective in Type 2 Diabetes.
+حالياً، بيانات آلية العمل المفصلة من مصدر رسمي (مثل نشرة الدواء) غير متوفرة لفيلداغليبتين. بناءً على الأدبيات المسجلة في حزمة الأدلة هذه، فيلداغليبتين هو مثبط DPP-4 (ديبيبتيديل ببتيداز-4): فهو يحجب تحطيم هرمونات الإنكريتين GLP-1 و GIP، مما يرفع تركيزاتها بعد الوجبات. هذا يثبط إفراز الجلوكاجون غير المناسب أثناء فرط سكر الدم ويدعم إفراز الأنسولين من خلايا بيتا المتبقية — الآلية التي جعلتها فعالة في داء السكري من النوع الثاني.
 
-Type 1 Diabetes is pathophysiologically different (autoimmune β-cell destruction rather than insulin resistance), but patients — especially early in disease or with residual β-cell function ("honeymoon phase" or long-standing T1D with partial preservation) — may still benefit from glucagon suppression and incretin-mediated support of remaining β-cell function. This is the rationale reflected in the literature: DPP-4 inhibition has been shown to reduce glucagon during hyperglycemia while preserving glucagon counter-regulation during hypoglycemia in T1D patients, and combination with immune-modulating agents (rapamycin) has been tested specifically to recover β-cell function in long-standing T1D.
+داء السكري من النوع الأول يختلف من الناحية الفسيولوجية المرضية (تدمير خلايا بيتا بسبب المناعة الذاتية وليس مقاومة الأنسولين)، لكن المرضى — خاصة في بداية المرض أو مع وجود وظيفة بيتا متبقية ("مرحلة الشهر العسل" أو داء السكري من النوع الأول طويل الأمد مع الحفاظ الجزئي) — قد يستفيدون من تثبيط الجلوكاجون ودعم الإنكريتين لوظيفة خلايا بيتا المتبقية. هذا هو المنطق المعكوس في الأدبيات: ثبت أن حجب DPP-4 يقلل الجلوكاجون أثناء فرط سكر الدم مع الحفاظ على تنظيم الجلوكاجون العكسي أثناء نقص سكر الدم في مرضى النوع الأول، وتمت اختبار المجموعات مع الوكلاء المعدلة للمناعة (الرابامايسين) خصيصاً لاستعادة وظيفة خلايا بيتا في داء السكري من النوع الأول طويل الأمد.
 
-Importantly, most of the mechanistic and clinical evidence for T1D comes from vildagliptin used **as an adjunct** (to rapamycin, or as add-on therapy in closed-loop insulin systems), not as monotherapy replacing insulin. This meaningfully narrows the plausible use case from "treatment of T1D" to "adjunctive glycemic/β-cell support in T1D."
+الأهم من ذلك، أن معظم الأدلة الميكانيكية والسريرية للنوع الأول تأتي من فيلداغليبتين المستخدم **كعامل مساعد** (مع الرابامايسين، أو كعلاج إضافي في أنظمة الأنسولين ذات الحلقة المغلقة)، وليس كعلاج أحادي يحل محل الأنسولين. هذا يضيق نطاق حالة الاستخدام المعقول من "علاج داء السكري من النوع الأول" إلى "الدعم الإضافي للسيطرة السكرية/خلايا بيتا في داء السكري من النوع الأول."
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Of the 50 trials returned for the "vildagliptin + Type 1 Diabetes" query, 48 were Type 2 Diabetes trials returned as search noise (graded "C — not relevant" in the source data) and are excluded here. Only two trials directly targeted a T1D population:
+من بين 50 تجربة تم استرجاعها لاستعلام "فيلداغليبتين + داء السكري من النوع الأول"، كانت 48 تجارب من النوع الثاني تم استرجاعها كضوضاء بحث (مصنفة كـ "C — غير ذات صلة" في البيانات المصدر) وتم استبعادها هنا. تستهدف تجربتان فقط سكاناً من النوع الأول مباشرة:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02803892](https://clinicaltrials.gov/study/NCT02803892) | Phase 2 | Completed | 55 | Randomized, double-blind, placebo-controlled, 3-arm trial testing 4 weeks rapamycin, and rapamycin + 3 months vildagliptin, vs. placebo to increase endogenous insulin production and correct glycemic lability in long-standing T1D. |
-| [NCT06021119](https://clinicaltrials.gov/study/NCT06021119) | Phase 3 | Completed | 50 | Vildagliptin as add-on therapy in adolescents/young adults with T1D on MiniMed 780G closed-loop system, to reduce Ramadan Iftar-related glucose excursions. |
+| [NCT02803892](https://clinicaltrials.gov/study/NCT02803892) | المرحلة الثانية | مكتملة | 55 | تجربة عشوائية، مزدوجة التعمية، مضبوطة بالغفل، بـ 3 أذرع تختبر 4 أسابيع من الرابامايسين، والرابامايسين + 3 أشهر من فيلداغليبتين، مقابل الغفل لزيادة إنتاج الأنسولين الداخلي وتصحيح عدم استقرار السكر في الدم في داء السكري من النوع الأول طويل الأمد. |
+| [NCT06021119](https://clinicaltrials.gov/study/NCT06021119) | المرحلة الثالثة | مكتملة | 50 | فيلداغليبتين كعلاج إضافي لدى المراهقين والبالغين الشباب مع داء السكري من النوع الأول على نظام MiniMed 780G ذي الحلقة المغلقة، لتقليل تقلبات الجلوكوز المرتبطة بإفطار رمضان. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33124663](https://pubmed.ncbi.nlm.nih.gov/33124663/) | 2021 | RCT | J Clin Endocrinol Metab | Double-blind RCT: rapamycin + vildagliptin to restore β-cell function in long-standing T1D (publication of NCT02803892). |
-| [22855332](https://pubmed.ncbi.nlm.nih.gov/22855332/) | 2012 | RCT/Mechanistic | J Clin Endocrinol Metab | Vildagliptin reduces glucagon during hyperglycemia while sustaining glucagon counter-regulation during hypoglycemia in T1D. |
-| [38057844](https://pubmed.ncbi.nlm.nih.gov/38057844/) | 2023 | RCT | Diabetol Metab Syndr | Adjunctive oral vildagliptin during Ramadan fasting reduces Iftar-related glycemic excursions in adolescents/young adults with T1D on AHCL systems (publication of NCT06021119). |
-| [39318059](https://pubmed.ncbi.nlm.nih.gov/39318059/) | 2024 | RCT | Diabetes Obes Metab | Vildagliptin add-on in adolescents with T1D and NASH: effects on MMP-14, liver stiffness, and subclinical atherosclerosis. |
-| [30848158](https://pubmed.ncbi.nlm.nih.gov/30848158/) | 2019 | Review | Expert Opin Investig Drugs | DPP-4 inhibitors modulate β-cell function in T1D and offer renal-protective effects in diabetic kidney disease. |
-| [31781045](https://pubmed.ncbi.nlm.nih.gov/31781045/) | 2019 | Review | Front Endocrinol | Mechanistic review of vildagliptin's effects on GLP-1/GIP signaling. |
-| [25395211](https://pubmed.ncbi.nlm.nih.gov/25395211/) | 2015 | Animal study | Curr Pharm Biotechnol | Vildagliptin induces β-cell neogenesis and improves lipid profile in a later phase of T1D (alloxan rat model). |
-| [29510081](https://pubmed.ncbi.nlm.nih.gov/29510081/) | 2018 | Animal study | Can J Physiol Pharmacol | Vildagliptin/pioglitazone combination improved glycemic control in T1D rats. |
-| [23523961](https://pubmed.ncbi.nlm.nih.gov/23523961/) | 2013 | Animal study | Arch Med Res | Vildagliptin ameliorates oxidative stress and pancreatic β-cell destruction in T1D rats. |
-| [40562805](https://pubmed.ncbi.nlm.nih.gov/40562805/) | 2025 | Animal study | Sci Rep | Vildagliptin and linagliptin inhibit NLRP3-mediated pyroptosis in lung injury in T1D rats. |
+| [33124663](https://pubmed.ncbi.nlm.nih.gov/33124663/) | 2021 | تجربة سريرية معشاة | J Clin Endocrinol Metab | تجربة معشاة مزدوجة التعمية: الرابامايسين + فيلداغليبتين لاستعادة وظيفة خلايا بيتا في داء السكري من النوع الأول طويل الأمد (نشر NCT02803892). |
+| [22855332](https://pubmed.ncbi.nlm.nih.gov/22855332/) | 2012 | تجربة سريرية/ميكانيكية | J Clin Endocrinol Metab | فيلداغليبتين يقلل الجلوكاجون أثناء فرط سكر الدم مع الحفاظ على تنظيم الجلوكاجون العكسي أثناء نقص سكر الدم في مرضى النوع الأول. |
+| [38057844](https://pubmed.ncbi.nlm.nih.gov/38057844/) | 2023 | تجربة سريرية | Diabetol Metab Syndr | فيلداغليبتين فموي إضافي أثناء صيام رمضان يقلل تقلبات الجلوكوز المرتبطة بالإفطار لدى المراهقين والبالغين الشباب مع داء السكري من النوع الأول على أنظمة AHCL (نشر NCT06021119). |
+| [39318059](https://pubmed.ncbi.nlm.nih.gov/39318059/) | 2024 | تجربة سريرية | Diabetes Obes Metab | فيلداغليبتين الإضافي لدى المراهقين مع داء السكري من النوع الأول و NASH: التأثيرات على MMP-14، صلابة الكبد، والتصلب الدقيق. |
+| [30848158](https://pubmed.ncbi.nlm.nih.gov/30848158/) | 2019 | مراجعة | Expert Opin Investig Drugs | مثبطات DPP-4 تعدل وظيفة خلايا بيتا في النوع الأول وتوفر تأثيرات وقائية كلوية في أمراض الكلى السكرية. |
+| [31781045](https://pubmed.ncbi.nlm.nih.gov/31781045/) | 2019 | مراجعة | Front Endocrinol | مراجعة ميكانيكية لتأثيرات فيلداغليبتين على إشارات GLP-1/GIP. |
+| [25395211](https://pubmed.ncbi.nlm.nih.gov/25395211/) | 2015 | دراسة حيوانية | Curr Pharm Biotechnol | فيلداغليبتين يحفز تخليق خلايا بيتا ويحسن ملف الدهون في المرحلة اللاحقة من النوع الأول (نموذج الفئران المعالجة بالألوكسان). |
+| [29510081](https://pubmed.ncbi.nlm.nih.gov/29510081/) | 2018 | دراسة حيوانية | Can J Physiol Pharmacol | مجموعة فيلداغليبتين/بيوجليتازون حسّنت السيطرة السكرية في فئران النوع الأول. |
+| [23523961](https://pubmed.ncbi.nlm.nih.gov/23523961/) | 2013 | دراسة حيوانية | Arch Med Res | فيلداغليبتين يخفف من الإجهاد التأكسدي وتدمير خلايا بيتا البنكرياسية في فئران النوع الأول. |
+| [40562805](https://pubmed.ncbi.nlm.nih.gov/40562805/) | 2025 | دراسة حيوانية | Sci Rep | فيلداغليبتين وليناجليبتين يثبطان استموات NLRP3 في إصابة الرئة لدى فئران النوع الأول. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Vildagliptin has no marketing authorization in Saudi Arabia in this dataset (0 licenses, market status "Not marketed"). No product/authorization table can be produced.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack — including a **Blocking**-severity gap on TFDA/SFDA label warnings and contraindications, which must be resolved before any S1 safety review can proceed.)
+فيلداغليبتين ليس له ترخيص تسويقي في المملكة العربية السعودية في هذه مجموعة البيانات (0 تراخيص، حالة السوق "غير مسوق"). لا يمكن إنتاج جدول المنتج/الترخيص.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة. (البيانات الرئيسية للتحذيرات والموانع والتفاعلات الدوائية كلها محددة كفجوات بيانات في حزمة الأدلة هذه — بما في ذلك فجوة شدة **Blocking** على تحذيرات/موانع تسميات TFDA/SFDA، والتي يجب حلها قبل أن تتمكن أي مراجعة سلامة S1 من المتابعة.)
 
-**Rationale:**
-The T1D signal (rank 10) has genuine mechanistic and clinical backing — one completed Phase 2 RCT and a completed Phase 3 adjunct trial — but both studies test vildagliptin as an **add-on** (to rapamycin, or to closed-loop insulin therapy) rather than as a treatment replacing standard T1D care, and the evidence base is still small (n=55 and n=50). Combined with a Blocking-severity safety data gap and the drug currently having no marketing authorization in Saudi Arabia, this is not yet actionable — it is a research question, not a repurposing candidate ready for regulatory or clinical planning.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently Blocking
-- Formal MOA documentation from DrugBank or SFDA source (currently Data Gap)
-- Larger/confirmatory T1D trials evaluating vildagliptin specifically for β-cell preservation or adjunct glycemic control, not just T2DM-labeled trials misattributed by search
-- Drug interaction data specific to T1D adjunct use (e.g., with insulin, closed-loop systems)
-- Clarification on whether ranks 1–9 (stiff person syndrome spectrum, lipodystrophies, opsismodysplasia, pancreatic agenesis) reflect a TxGNN scoring/embedding issue worth flagging to the model team, since none carry any supporting evidence despite near-identical top-tier scores to the one credible prediction
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+إشارة النوع الأول (الترتيب 10) لديها دعم ميكانيكي وسريري حقيقي — تجربة مرحلة ثانية مكتملة وتجربة مرحلة ثالثة مكتملة كعامل مساعد — لكن كلا الدراستين تختبران فيلداغليبتين كـ **عامل إضافي** (مع الرابامايسين، أو مع العلاج بالأنسولين ذي الحلقة المغلقة) وليس كعلاج يحل محل علاج النوع الأول القياسي، وقاعدة الأدلة لا تزال صغيرة (n=55 و n=50). مقترناً بفجوة بيانات سلامة شدة Blocking والدواء حالياً ليس لديه ترخيص تسويقي في المملكة العربية السعودية، هذا ليس قابلاً للتنفيذ حتى الآن — إنها مسألة بحثية، وليست مرشحة إعادة استخدام جاهزة للتخطيط التنظيمي أو السريري.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA (التحذيرات، الموانع) — حالياً Blocking
+- توثيق رسمي لآلية العمل من DrugBank أو مصدر SFDA (حالياً فجوة بيانات)
+- تجارب النوع الأول أكبر/تأكيدية تقيّم فيلداغليبتين خصيصاً للحفاظ على خلايا بيتا أو السيطرة السكرية الإضافية، وليس فقط تجارب النوع الثاني المنسوبة بشكل خاطئ من قبل البحث
+- بيانات تفاعل الأدوية الخاصة باستخدام النوع الأول الإضافي (مثل الأنسولين، أنظمة ذات حلقة مغلقة)
+- توضيح ما إذا كانت الرتب 1-9 (طيف متلازمة الشخص المتيبس، ضمور الأنسجة الدهنية، التعظم الناقص المتأخر، عدم تكون البنكرياس) تعكس مشكلة تسجيل/تضمين TxGNN تستحق الإشارة إلى فريق النموذج، لأن لا أحد منها يحمل أي أدلة داعمة على الرغم من درجات من الدرجة الأولى المتطابقة تقريباً للتنبؤ الموثوق الواحد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

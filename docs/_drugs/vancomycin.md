@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Vancomycin: From Gram-Positive Bacterial Infections to Streptococcal Pneumonia
+# الفانكومايسين: من التهابات البكتيريا الموجبة الجرام إلى الالتهاب الرئوي العقدي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Vancomycin is a glycopeptide antibiotic historically used for serious Gram-positive bacterial infections (e.g., MRSA, enterococcal infections). Among the 10 candidate indications predicted by TxGNN for this drug, **Streptococcal Pneumonia** is the only one with genuine mechanistic and clinical support, backed by **3 clinical trials** and **20 publications**, including a meta-analysis of randomized controlled trials. Note that this candidate was selected over the model's top-ranked prediction (diffuse scleroderma, score 99.92%) because that and most other high-scoring predictions (paratyphoid fever, salmonellosis, typhoid fever, etc.) target Gram-negative organisms that vancomycin cannot penetrate, and are flagged in the evidence pack itself as likely knowledge-graph co-occurrence noise rather than real signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Serious Gram-positive bacterial infections (e.g., MRSA) — general pharmacological indication; no formal local approval record exists |
-| Predicted New Indication | Streptococcal Pneumonia |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+الفانكومايسين هو مضاد حيوي جليكوبيبتيدي استُخدم تاريخياً لعلاج التهابات البكتيريا الموجبة الجرام الحادة (مثل العدوى الناجمة عن المكورات العنقودية الذهبية المقاومة للميثيسيلين، والعدوى بالمعويات). من بين 10 مؤشرات استخدام مرشحة توقعتها TxGNN لهذا الدواء، يعتبر **الالتهاب الرئوي العقدي** الوحيد الذي يتمتع بدعم ميكانيكي وسريري حقيقي، مدعوم بـ **3 تجارب سريرية** و **20 منشور علمي**، بما في ذلك تحليل تلوي للتجارب العشوائية المضبوطة. يُلاحظ أن هذا المرشح تم اختياره بدلاً من التنبؤ الأعلى ترتيباً من قبل النموذج (تصلب الجلد المنتشر، درجة 99.92%)، لأن هذا الأخير ومعظم التنبؤات الأخرى ذات الدرجات العالية (حمى التيفود الثانوي، داء السلمونيلا، حمى التيفود، إلخ) تستهدف كائنات سالبة الجرام لا يمكن للفانكومايسين اختراقها، وتم تحديدها في حزمة الأدلة نفسها على أنها من المحتمل أن تكون ضوضاء تعاون في الرسم البياني للمعرفة وليست إشارة حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, a formal structured mechanism-of-action record is not available for this drug (DrugBank MOA field is flagged as a data gap). Based on information available in this evidence pack, vancomycin is a glycopeptide antibiotic that inhibits cell wall synthesis in Gram-positive bacteria by binding the D-Ala-D-Ala terminus of peptidoglycan precursors, blocking cross-linking and ultimately causing bacterial cell lysis.
-
-*Streptococcus pneumoniae* is a Gram-positive coccus, and vancomycin's mechanism is directly applicable to it — particularly for penicillin- or cephalosporin-resistant pneumococcal strains, or severe community-/hospital-acquired pneumonia where concurrent MRSA cannot be excluded. In these settings, vancomycin is already a recognized empirical or confirmatory treatment option in clinical practice.
-
-This distinguishes streptococcal pneumonia from the model's other top-ranked predictions: diseases such as paratyphoid fever, salmonellosis, and typhoid fever are caused by Gram-negative organisms, whose outer membrane vancomycin cannot cross — meaning it has no intrinsic antibacterial activity against them despite high TxGNN scores. Streptococcal pneumonia is therefore best understood not as a novel repurposing hypothesis, but as a mechanistically sound, evidence-consistent indication that TxGNN correctly recovered from the knowledge graph.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | عدوى البكتيريا الموجبة الجرام الحادة (مثل المكورات العنقودية الذهبية المقاومة للميثيسيلين) — مؤشر صيدلاني عام؛ لا توجد سجلات موافقة محلية رسمية |
+| المؤشر المتنبأ به الجديد | الالتهاب الرئوي العقدي |
+| درجة تنبؤ TxGNN | 99.60% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الشروع مع ضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، لا يتوافر سجل آلية عمل منظم ومرتب لهذا الدواء (يتم تحديد حقل DrugBank MOA كفجوة بيانات). بناءً على المعلومات المتاحة في حزمة الأدلة هذه، الفانكومايسين هو مضاد حيوي جليكوبيبتيدي يثبط تخليق الجدار الخلوي في البكتيريا الموجبة الجرام من خلال ارتباطه بـ D-Ala-D-Ala نهاية مقدمات الببتيدوجليكان، مما يحجب الربط المتقاطع ويسبب في النهاية تحلل الخلية البكتيرية.
+
+*العقدية الرئوية* هي مكورة موجبة الجرام، وآلية عمل الفانكومايسين قابلة للتطبيق مباشرة عليها — لا سيما بالنسبة لسلالات عقدية مقاومة للبنسلين أو السيفالوسبورينات، أو ذات الالتهاب الرئوي الحاد المكتسب من المجتمع أو المستشفيات حيث لا يمكن استبعاد المكورات العنقودية الذهبية المقاومة للميثيسيلين المتزامنة. في هذه الحالات، الفانكومايسين هو بالفعل خيار علاجي تجريبي أو تأكيدي معترف به في الممارسة السريرية.
+
+هذا يميز الالتهاب الرئوي العقدي عن التنبؤات الأخرى ذات الترتيب الأعلى للنموذج: الأمراض مثل حمى التيفود الثانوي وداء السلمونيلا والتيفود تسببها كائنات سالبة الجرام، التي لا يمكن للفانكومايسين عبور غشائها الخارجي — مما يعني أنه لا يحتوي على نشاط مضاد للبكتيريا الجوهري ضدها على الرغم من درجات TxGNN العالية. الالتهاب الرئوي العقدي يجب أن يُفهم بالتالي ليس كفرضية إعادة توجيه جديدة، بل كمؤشر استخدام معقول آلياً وثابت الأدلة استعادته TxGNN بشكل صحيح من الرسم البياني للمعرفة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05395520](https://clinicaltrials.gov/study/NCT05395520) | N/A | Unknown | 146 | Evaluates whether AUC-based vancomycin monitoring is appropriate beyond serious MRSA infections, given its broad Gram-positive coverage including streptococcal infections |
-| [NCT04464291](https://clinicaltrials.gov/study/NCT04464291) | N/A | Completed | 500 | Epidemiological survey of circulating *S. pneumoniae* serotypes in Russia, providing disease-burden background but no vancomycin treatment arm |
-| [NCT02538211](https://clinicaltrials.gov/study/NCT02538211) | N/A | Completed | 63 | Studies intestinal microbiome influence on vaccine immune response; not a direct vancomycin efficacy trial for pneumonia |
+| [NCT05395520](https://clinicaltrials.gov/study/NCT05395520) | N/A | Unknown | 146 | يقيّم ما إذا كانت المراقبة المبنية على AUC للفانكومايسين مناسبة خارج عدوى المكورات العنقودية الذهبية المقاومة للميثيسيلين الحادة، نظراً لتغطيته الواسعة للبكتيريا الموجبة الجرام بما في ذلك العدوى العقدية |
+| [NCT04464291](https://clinicaltrials.gov/study/NCT04464291) | N/A | Completed | 500 | مسح وبائي للأنواع المصلية المتداولة من *العقدية الرئوية* في روسيا، يوفر خلفية عبء المرض لكن بدون ذراع علاج بالفانكومايسين |
+| [NCT02538211](https://clinicaltrials.gov/study/NCT02538211) | N/A | Completed | 63 | يدرس تأثير الميكروبيوم المعوي على استجابة المناعة للقاح؛ ليست تجربة فعالية فانكومايسين مباشرة لذات الرئة |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [21211409](https://pubmed.ncbi.nlm.nih.gov/21211409/) | 2010 | Meta-analysis (RCT-based) | Chinese J Tuberculosis and Respiratory Diseases | Meta-analysis of RCTs comparing linezolid vs. vancomycin for Gram-positive pneumonia |
-| [10712318](https://pubmed.ncbi.nlm.nih.gov/10712318/) | 2000 | RCT | Am J Respir Crit Care Med | Prospective randomized trial of quinupristin/dalfopristin vs. vancomycin for Gram-positive nosocomial pneumonia (n=298) |
-| [26664260](https://pubmed.ncbi.nlm.nih.gov/26664260/) | 2015 | Retrospective clinical study | Int J Med Sci | No resistance detected to penicillin, cefuroxime, cefotaxime, or vancomycin in pneumococcal pneumonia inpatients |
-| [36028454](https://pubmed.ncbi.nlm.nih.gov/36028454/) | 2022 | Surveillance/Cohort | Indian J Med Microbiol | Antibiotic resistance rates and penicillin MIC distribution in streptococcal pneumonia patients (2013–2019) |
-| [27929242](https://pubmed.ncbi.nlm.nih.gov/27929242/) | 2016 | Review (Guideline) | American Family Physician | Community-acquired pneumonia diagnosis and management guideline |
-| [27161775](https://pubmed.ncbi.nlm.nih.gov/27161775/) | 2016 | Cohort | Clin Infect Dis | Prevalence and clinical characteristics of *S. aureus* community-acquired pneumonia, informing empirical Gram-positive coverage choices |
-| [9404765](https://pubmed.ncbi.nlm.nih.gov/9404765/) | 1997 | Review | Chest | Discusses penicillin dosing for pneumococcal pneumonia and concerns about vancomycin overuse |
-| [16341681](https://pubmed.ncbi.nlm.nih.gov/16341681/) | 2005 | Review | Eur J Clin Microbiol Infect Dis | Antibiotic management of ventilator-associated pneumonia due to resistant Gram-positive bacteria |
-| [16735146](https://pubmed.ncbi.nlm.nih.gov/16735146/) | 2006 | Review | American Journal of Medicine | Antimicrobial resistance in Gram-positive bacteria, including MRSA and VRE context for vancomycin use |
-| [3630711](https://pubmed.ncbi.nlm.nih.gov/3630711/) | 1987 | Preclinical (mouse-protection model) | Acta Pathol Microbiol Immunol Scand B | In vivo/in vitro correlation of vancomycin bactericidal activity against *S. pneumoniae* |
+| [21211409](https://pubmed.ncbi.nlm.nih.gov/21211409/) | 2010 | تحليل تلوي (مبني على التجارب العشوائية المضبوطة) | Chinese J Tuberculosis and Respiratory Diseases | تحليل تلوي للتجارب العشوائية المضبوطة يقارن الليزوليد مقابل الفانكومايسين لالتهاب الجهاز التنفسي الموجب الجرام |
+| [10712318](https://pubmed.ncbi.nlm.nih.gov/10712318/) | 2000 | تجربة عشوائية مضبوطة | Am J Respir Crit Care Med | تجربة عشوائية محتملة لـ quinupristin/dalfopristin مقابل الفانكومايسين لالتهاب الجهاز التنفسي بالمستشفى الموجب الجرام (n=298) |
+| [26664260](https://pubmed.ncbi.nlm.nih.gov/26664260/) | 2015 | دراسة سريرية بأثر رجعي | Int J Med Sci | لم يتم اكتشاف مقاومة للبنسلين أو السيفوروكسيم أو السيفوتاكسيم أو الفانكومايسين لدى مرضى الالتهاب الرئوي العقدي الداخليين |
+| [36028454](https://pubmed.ncbi.nlm.nih.gov/36028454/) | 2022 | مراقبة / دراسة مرافقة | Indian J Med Microbiol | معدلات مقاومة المضادات الحيوية وتوزيع MIC البنسلين في مرضى الالتهاب الرئوي العقدي (2013–2019) |
+| [27929242](https://pubmed.ncbi.nlm.nih.gov/27929242/) | 2016 | مراجعة (إرشادات) | American Family Physician | إرشادات تشخيص وإدارة الالتهاب الرئوي المكتسب من المجتمع |
+| [27161775](https://pubmed.ncbi.nlm.nih.gov/27161775/) | 2016 | دراسة مرافقة | Clin Infect Dis | الانتشار والخصائص السريرية لالتهاب الجهاز التنفسي بـ *المكورات العنقودية الذهبية* المكتسب من المجتمع، مما يبرر خيارات التغطية الموجبة الجرام التجريبية |
+| [9404765](https://pubmed.ncbi.nlm.nih.gov/9404765/) | 1997 | مراجعة | Chest | يناقش جرعات البنسلين لالتهاب الرئة العقدي والمخاوف بشأن الإفراط في استخدام الفانكومايسين |
+| [16341681](https://pubmed.ncbi.nlm.nih.gov/16341681/) | 2005 | مراجعة | Eur J Clin Microbiol Infect Dis | إدارة المضادات الحيوية لالتهاب الجهاز التنفسي المرتبط بالمنفسة الصناعية بسبب بكتيريا موجبة الجرام المقاومة |
+| [16735146](https://pubmed.ncbi.nlm.nih.gov/16735146/) | 2006 | مراجعة | American Journal of Medicine | مقاومة المضادات الحيوية في البكتيريا الموجبة الجرام، بما في ذلك MRSA و VRE في سياق استخدام الفانكومايسين |
+| [3630711](https://pubmed.ncbi.nlm.nih.gov/3630711/) | 1987 | ما قبل السريري (نموذج حماية الفأر) | Acta Pathol Microbiol Immunol Scand B | الارتباط في الجسم الحي والمختبر لنشاط الفانكومايسين المبيد للبكتيريا ضد *العقدية الرئوية* |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Vancomycin currently has **0 marketing authorizations** on record and is **not marketed** in Saudi Arabia (`taiwan_regulatory.market_status = Not marketed`). No product license or approved indication text is available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug interaction data are currently available for this drug in the evidence pack.
+الفانكومايسين حالياً لديه **0 موافقات تسويقية** في السجل و **غير مسوق** في المملكة العربية السعودية (`taiwan_regulatory.market_status = Not marketed`). لا يتوافر أي ترخيص منتج أو نص مؤشر معتمد للتلخيص.
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى نشرة المنتج للحصول على معلومات الأمان. لا تتوافر حالياً بيانات منظمة عن التحذيرات أو موانع الاستعمال أو تفاعلات الأدوية لهذا الدواء في حزمة الأدلة.
 
-**Rationale:**
-Vancomycin's mechanism of action (Gram-positive cell wall synthesis inhibition) is directly applicable to *Streptococcus pneumoniae*, and this is supported by a meta-analysis of RCTs, a head-to-head randomized trial, and multiple cohort/surveillance studies — this is an established clinical use pattern rather than a speculative repurposing hypothesis. However, the drug is not currently marketed locally and a blocking safety data gap remains unresolved.
+---
 
-**To proceed, the following is needed:**
-- Local SFDA-approved package insert (warnings/contraindications) — currently a **Blocking** data gap (DG001)
-- Formal DrugBank-sourced mechanism-of-action documentation (High-severity data gap, DG002)
-- Drug-drug interaction data (current query status: not found)
-- Local marketing authorization / registration pathway assessment, since the drug currently has zero licenses in Saudi Arabia
-- Alignment with local clinical treatment guidelines for resistant or severe pneumococcal pneumonia before formal positioning
+## الخلاصة والخطوات التالية
+
+**القرار: الشروع مع ضمانات**
+
+**المبرر:**
+آلية عمل الفانكومايسين (تثبيط تخليق الجدار الخلوي الموجب الجرام) قابلة للتطبيق المباشر على *العقدية الرئوية*، وهذا مدعوم بتحليل تلوي للتجارب العشوائية المضبوطة، وتجربة عشوائية مضبوطة مقابلة، ودراسات متعددة للمرافقة والمراقبة — هذا نمط استخدام سريري راسخ وليس فرضية إعادة توجيه تأملية. ومع ذلك، الدواء غير مسوق حالياً محلياً وتبقى فجوة بيانات أمنية حاجزة دون حل.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة المنتج المعتمدة من هيئة الغذاء والدواء السعودية (التحذيرات/موانع الاستعمال) — حالياً فجوة بيانات حاجزة (DG001)
+- توثيق آلية العمل المستمد من DrugBank (فجوة بيانات عالية الخطورة، DG002)
+- بيانات تفاعل الأدوية مع الأدوية (حالة الاستعلام الحالية: لم يتم العثور عليها)
+- تقييم مسار التسويق المحلي/التسجيل، حيث أن الدواء حالياً لديه صفر تراخيص في المملكة العربية السعودية
+- المواءمة مع إرشادات العلاج السريري المحلية لالتهاب الرئة العقدي المقاوم أو الحاد قبل الموضع الرسمي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

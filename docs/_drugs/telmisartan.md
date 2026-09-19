@@ -29,138 +29,139 @@ indication_count: 10
 
 </div>
 
-# Telmisartan: From Hypertension Management to Recurrent Intracerebral Hemorrhage Prevention
+# تيلميسارتان: من إدارة ارتفاع ضغط الدم إلى الوقاية من النزيف داخل الجمجمة المتكرر
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Telmisartan is an angiotensin II type 1 (AT1) receptor blocker (ARB); the evidence pack does not contain a formally documented original indication or MOA text (both flagged as data gaps), but the drug's own literature evidence base consistently describes it as an antihypertensive ARB. TxGNN screened 10 candidate new indications for telmisartan — the single highest-scoring prediction (Prinzmetal angina, 99.98%) has **zero** supporting trials or literature, while the two best-*evidenced* candidates, **cerebral artery occlusion** and **recurrent intracerebral hemorrhage (ICH) prevention**, are each backed by a completed large-scale RCT (n=1,228 and n=1,671 respectively) plus a substantial preclinical literature base. Overall evidence quality is still exploratory (L2 at best), and a Blocking data gap (missing TFDA label/safety data) prevents formal safety screening.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Taiwan license records; original_indications field empty) |
-| Predicted New Indication (best-evidenced) | Recurrent Intracerebral Hemorrhage / Cerebral Artery Occlusion (ischemic stroke prevention) |
-| Predicted New Indication (highest model score) | Prinzmetal angina (no supporting evidence) |
-| TxGNN Prediction Score | 99.93% (ICH) / 99.95% (cerebral artery occlusion) / 99.98% (Prinzmetal angina, top rank) |
-| Evidence Level | L2 (ICH and cerebral artery occlusion); L5 for most other candidates |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+تيلميسارتان هو مانع مستقبلات الأنجيوتنسين الثاني من النوع الأول (AT1) (ARB)؛ لا تحتوي حزمة الأدلة على نص موثق رسميًا للإشارة الأصلية أو آلية العمل (كلاهما مضبوط كفجوات في البيانات)، لكن قاعدة الأدبيات الخاصة بالدواء تصف باستمرار العقار بأنه ARB خافض لضغط الدم. فحص TxGNN 10 إشارات جديدة محتملة لتيلميسارتان — التنبؤ الوحيد بأعلى درجة (ذبحة برينزمتال، 99.98%) لا يحتوي على **أي** تجارب داعمة أو أدبيات، بينما أفضل المرشحين **الموثقين بالأدلة**، **انسداد الشرايين الدماغية** و **الوقاية من النزيف داخل الجمجمة المتكرر (ICH)**، يُدعمان بتجربة عشوائية محكومة موحدة كبيرة مكتملة (n=1,228 و n=1,671 على التوالي) بالإضافة إلى قاعدة أدبيات ما قبل الإكلينيكية كبيرة. جودة الأدلة الإجمالية لا تزال استكشافية (L2 في أفضل الأحوال)، وفجوة بيانات حاجزة (بيانات تسمية TFDA/سلامة مفقودة) تمنع فحص السلامة الرسمي.
 
 ---
 
-## All 10 Predicted Indications at a Glance
+## نظرة سريعة
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+| البند | المحتوى |
+|------|---------|
+| الإشارة الأصلية | غير موثقة في حزمة الأدلة هذه (لا توجد سجلات ترخيص في تايوان؛ حقل original_indications فارغ) |
+| الإشارة الجديدة المتنبأ بها (الأفضل موثقة بالأدلة) | النزيف داخل الجمجمة المتكرر / انسداد الشرايين الدماغية (الوقاية من السكتة الدماغية الإقفارية) |
+| الإشارة الجديدة المتنبأ بها (أعلى درجة نموذج) | ذبحة برينزمتال (لا توجد أدلة داعمة) |
+| درجة التنبؤ بـ TxGNN | 99.93% (ICH) / 99.95% (انسداد الشرايين الدماغية) / 99.98% (ذبحة برينزمتال، أعلى ترتيب) |
+| مستوى الأدلة | L2 (ICH وانسداد الشرايين الدماغية)؛ L5 لمعظم المرشحين الآخرين |
+| حالة سوق تايوان | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تعليق |
+
+---
+
+## جميع 10 إشارات متنبأ بها في لمحة سريعة
+
+| الترتيب | الإشارة المتنبأ بها | درجة TxGNN | مستوى الأدلة | التوصية |
 |---|---|---|---|---|
-| 1 | Prinzmetal angina | 99.98% | L5 | Hold |
-| 2 | Brain stem infarction | 99.98% | L5 | Hold |
-| 3 | ABri amyloidosis | 99.97% | L5 | Hold |
-| 4 | Cerebral artery occlusion | 99.95% | L2 | Research Question |
-| 5 | Pulmonary hypertension (lung disease/hypoxia) | 99.93% | L5 | Hold |
-| 6 | Pulmonary hypertension (unclear multifactorial) | 99.93% | L5 | Hold |
-| 7 | Malignant renovascular hypertension | 99.93% | L4 | Proceed with Guardrails |
-| 8 | Malignant hypertensive renal disease | 99.93% | L4 | Proceed with Guardrails |
-| 9 | Intracerebral hemorrhage (recurrence prevention) | 99.93% | L2 | Research Question |
-| 10 | Braddock syndrome | 99.92% | L5 | Hold |
+| 1 | ذبحة برينزمتال | 99.98% | L5 | تعليق |
+| 2 | احتشاء جذع الدماغ | 99.98% | L5 | تعليق |
+| 3 | داء الأميلويد المرتبط ABri | 99.97% | L5 | تعليق |
+| 4 | انسداد الشرايين الدماغية | 99.95% | L2 | سؤال بحثي |
+| 5 | ارتفاع ضغط الدم الرئوي (مرض الرئة/نقص الأكسجة) | 99.93% | L5 | تعليق |
+| 6 | ارتفاع ضغط الدم الرئوي (متعدد العوامل غير واضح) | 99.93% | L5 | تعليق |
+| 7 | ارتفاع ضغط الدم الكلوي الخبيث | 99.93% | L4 | المضي قدمًا مع الحواجز |
+| 8 | مرض الكلى الارتفاعي الخبيث | 99.93% | L4 | المضي قدمًا مع الحواجز |
+| 9 | النزيف داخل الجمجمة (الوقاية من التكرار) | 99.93% | L2 | سؤال بحثي |
+| 10 | متلازمة برادوك | 99.92% | L5 | تعليق |
 
-Ranks 7–8 (renovascular/renal hypertension) have no dedicated trials but score higher on recommendation because they are direct pharmacological extensions of telmisartan's known antihypertensive/AT1-blocking action. Ranks 1–3, 5–6, and 10 returned no clinical trial or literature hits in ClinicalTrials.gov, ICTRP, or PubMed searches and are treated as model noise pending further data.
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the literature evidence retrieved for this drug, telmisartan is consistently characterized as a highly lipid-soluble AT1 receptor (angiotensin II type 1) blocker with partial PPARγ agonist activity ("metabo-sartan"), used for blood pressure control.
-
-For **cerebral artery occlusion**, the mechanistic link runs through blood-pressure lowering plus AT1-blockade-mediated anti-inflammatory and antioxidative effects. Multiple rodent transient middle cerebral artery occlusion (tMCAO) studies show telmisartan reduces infarct volume, oxidative stress markers, and pro-inflammatory signaling (e.g., Egr-1, MCP-1, TNF-α), and a completed Phase 4 trial (n=1,228) demonstrated cardiovascular event and biomarker benefits in high-risk hypertensive patients.
-
-For **recurrent intracerebral hemorrhage prevention**, the rationale is that blood pressure is the single most modifiable risk factor for ICH recurrence. The completed Phase 3 TRIDENT trial (n=1,671) tested a fixed-dose triple antihypertensive combination (which may include an ARB-class agent) specifically in patients with a history of ICH, and animal studies show telmisartan reduces oxidative stress and vasospasm after subarachnoid/intracerebral hemorrhage.
-
-For **malignant renovascular hypertension / malignant hypertensive renal disease**, the link is the most direct of all: these are severe forms of the condition telmisartan's AT1-blocking mechanism is designed to treat. No indication-specific trials exist, but the mechanistic plausibility is high — tempered by the known risk of ARBs precipitating acute kidney injury in bilateral renal artery stenosis, which is why these are flagged "Proceed with Guardrails" rather than "Research Question."
+يحتل الترتيب 7–8 (ارتفاع ضغط الدم الكلوي/أمراض الكلى) على درجة أعلى للتوصية لأنهما امتدادات صيدلانية مباشرة للعمل الخافض لضغط الدم/AT1-blocking المعروف لتيلميسارتان. عادت الترتيبات 1–3 و 5–6 و 10 بدون نتائج تجارب سريرية أو أدبيات في ClinicalTrials.gov أو ICTRP أو بحوث PubMed وتعامل كضوضاء نموذج في انتظار مزيد من البيانات.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-### Cerebral Artery Occlusion
+بيانات آلية العمل المفصلة غير متاحة في حزمة الأدلة هذه (مضبوطة كفجوة بيانات عالية الخطورة، DG002). بناءً على الأدلة الأدبية المسترجعة لهذا الدواء، يوصف تيلميسارتان باستمرار بأنه مانع مستقبلات AT1 (الأنجيوتنسين الثاني من النوع الأول) قابل للذوبان في الدهون بشدة مع نشاط ناهض جزئي PPARγ ("metabo-sartan")، يستخدم للسيطرة على ضغط الدم.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بالنسبة **لانسداد الشرايين الدماغية**، يمر الارتباط الميكانيكي من خلال خفض ضغط الدم بالإضافة إلى التأثيرات المضادة للالتهاب والمضادة للأكسدة الوسيطة AT1-blockade. تظهر دراسات الفئران المتعددة بانسداد الشرايين المخية الوسطى المؤقتة (tMCAO) أن تيلميسارتان يقلل من حجم احتشاء الدماغ وعلامات الإجهاد التأكسدي والإشارات الالتهابية برو (مثل Egr-1 و MCP-1 و TNF-α)، وأظهرت تجربة المرحلة 4 المكتملة (n=1,228) فوائد الأحداث القلبية الوعائية والمؤشرات الحيوية في المرضى الارتفاعيين عالي الخطورة.
+
+بالنسبة **للوقاية من النزيف داخل الجمجمة المتكرر**، المبرر هو أن ضغط الدم هو العامل الوحيد الأكثر قابلية للتعديل لتكرار ICH. اختبرت تجربة المرحلة 3 المكتملة TRIDENT (n=1,671) مزيجًا ثلاثيًا من أدوية خفض ضغط الدم بجرعة ثابتة (والذي قد يشمل عاملًا من فئة ARB) خصيصًا في المرضى الذين لديهم تاريخ من ICH، وتظهر الدراسات الحيوانية أن تيلميسارتان يقلل من الإجهاد التأكسدي والتشنج الوعائي بعد النزيف تحت العنكبوتية / داخل الدماغ.
+
+بالنسبة **لارتفاع ضغط الدم الكلوي الخبيث / مرض الكلى الارتفاعي الخبيث**، الارتباط هو الأكثر مباشرة من الجميع: هذه أشكال شديدة من الحالة التي تم تصميم آلية AT1-blocking لتيلميسارتان لمعالجتها. لا توجد تجارب محددة للإشارة، لكن المعقولية الميكانيكية عالية — معتدلة من خلال المخاطر المعروفة لـ ARBs في إحداث إصابة حادة في الكلى في تضيق الشرايين الكلوية ثنائي الجانب، وهذا هو السبب في أن هذه مضبوطة "المضي قدمًا مع الحواجز" بدلاً من "سؤال بحثي".
+
+---
+
+## أدلة التجارب السريرية
+
+### انسداد الشرايين الدماغية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---|---|---|---|---|
-| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | Phase 4 | Completed | 1,228 | Open-label PROBE study comparing telmisartan (ARB) vs. ordinary therapy on cardiovascular biomarkers and event onset in high-risk hypertensive patients; indirect relevance (Grade B). |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Terminated | 4 | TRIDENT MRI sub-study; terminated with only 4 enrolled, underpowered (Grade C). |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study; terminated with 1 participant, no usable evidence (Grade C). |
+| [NCT01075698](https://clinicaltrials.gov/study/NCT01075698) | المرحلة 4 | مكتملة | 1,228 | دراسة PROBE مفتوحة التسمية تقارن تيلميسارتان (ARB) مقابل العلاج العادي على المؤشرات الحيوية القلبية الوعائية وبداية الحدث في المرضى الارتفاعيين عالي الخطورة؛ الصلة غير المباشرة (الدرجة B). |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | غير محدد | تم إيقافها | 4 | دراسة TRIDENT MRI الفرعية؛ توقفت مع 4 مسجلين فقط، غير قوية (الدرجة C). |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | المرحلة 3 | تم إيقافها | 1 | دراسة TRIDENT المعرفية الفرعية؛ توقفت مع 1 مشارك، لا توجد أدلة قابلة للاستخدام (الدرجة C). |
 
-### Recurrent Intracerebral Hemorrhage
+### النزيف داخل الجمجمة المتكرر
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---|---|---|---|---|
-| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Completed | 1,671 | TRIDENT main trial: fixed low-dose "Triple Pill" BP-lowering strategy vs. standard care for preventing recurrent stroke in patients with prior ICH; largest and most directly relevant trial in this evidence pack (Grade A). |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | N/A | Terminated | 4 | TRIDENT MRI sub-study; terminated, underpowered (Grade C). |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study; terminated, no usable evidence (Grade C). |
+| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | المرحلة 3 | مكتملة | 1,671 | تجربة TRIDENT الرئيسية: استراتيجية "كبسولة ثلاثية" لخفض ضغط الدم بجرعة منخفضة ثابتة مقابل الرعاية المعيارية للوقاية من تكرار السكتة الدماغية في المرضى الذين يعانون من ICH السابق؛ أكبر وأكثر تجربة ذات صلة مباشرة في حزمة الأدلة هذه (الدرجة A). |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | غير محدد | تم إيقافها | 4 | دراسة TRIDENT MRI الفرعية؛ توقفت، غير قوية (الدرجة C). |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | المرحلة 3 | تم إيقافها | 1 | دراسة TRIDENT المعرفية الفرعية؛ توقفت، لا توجد أدلة قابلة للاستخدام (الدرجة C). |
 
-### Other Indications
+### الإشارات الأخرى
 
-Currently no related clinical trials registered for Prinzmetal angina, brain stem infarction, ABri amyloidosis, either pulmonary hypertension subtype, malignant renovascular hypertension, malignant hypertensive renal disease, or Braddock syndrome.
+لا توجد حاليًا تجارب سريرية ذات صلة مسجلة لذبحة برينزمتال أو احتشاء جذع الدماغ أو داء الأميلويد المرتبط ABri أو أي فئة ارتفاع ضغط الدم الرئوي أو ارتفاع ضغط الدم الكلوي الخبيث أو مرض الكلى الارتفاعي الخبيث أو متلازمة برادوك.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-### Cerebral Artery Occlusion (selected from 17 retrieved)
+### انسداد الشرايين الدماغية (مختارة من 17 مسترجعة)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |---|---|---|---|---|
-| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | Cohort/Animal | J Neurotrauma | AT1 blocker telmisartan reduces cerebral infarct volume and peri-infarct cPLA2 levels in experimental stroke. |
-| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | Animal | PLoS ONE | Head-to-head comparison of telmisartan, ramipril, and combination across multiple rat stroke models for prevention and neuroprotection. |
-| [18360031](https://pubmed.ncbi.nlm.nih.gov/18360031/) | 2008 | Animal | Hypertens Res | Telmisartan attenuates focal brain ischemia in atherosclerotic ApoE-deficient mice. |
-| [20498620](https://pubmed.ncbi.nlm.nih.gov/20498620/) | 2010 | Animal | J Hypertens | Low-dose telmisartan prevents ischemic brain damage via PPARγ activation in diabetic mice. |
-| [24780412](https://pubmed.ncbi.nlm.nih.gov/24780412/) | 2014 | Animal | J Stroke Cerebrovasc Dis | Telmisartan reduces oxidative stress and phosphorylated α-synuclein accumulation after tMCAO in SHR-SR rats. |
-| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | Animal | J Stroke Cerebrovasc Dis | Telmisartan ameliorates inflammatory responses (MCP-1, TNF-α, Iba-1) after tMCAO in SHR-SR rats. |
-| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | Animal mechanistic | J Stroke Cerebrovasc Dis | PPARγ activation by telmisartan inhibits Egr-1, reducing brain injury in an ischemic stroke model. |
+| [19604102](https://pubmed.ncbi.nlm.nih.gov/19604102/) | 2009 | دراسة مرحلة/حيوانية | J Neurotrauma | مانع AT1 تيلميسارتان يقلل من حجم احتشاء الدماغ ومستويات cPLA2 حول الاحتشاء في السكتة الدماغية التجريبية. |
+| [21901125](https://pubmed.ncbi.nlm.nih.gov/21901125/) | 2011 | حيوانية | PLoS ONE | مقارنة رأس برأس لتيلميسارتان وراميبريل والمزيج عبر نماذج السكتة الدماغية في الفئران المتعددة للوقاية والحماية العصبية. |
+| [18360031](https://pubmed.ncbi.nlm.nih.gov/18360031/) | 2008 | حيوانية | Hypertens Res | تيلميسارتان يخفف من احتشاء الدماغ البؤري في فئران ApoE-ناقصة تصلب الشرايين. |
+| [20498620](https://pubmed.ncbi.nlm.nih.gov/20498620/) | 2010 | حيوانية | J Hypertens | تيلميسارتان بجرعة منخفضة يمنع تلف الدماغ الإقفاري عبر تنشيط PPARγ في فئران السكري. |
+| [24780412](https://pubmed.ncbi.nlm.nih.gov/24780412/) | 2014 | حيوانية | J Stroke Cerebrovasc Dis | تيلميسارتان يقلل من الإجهاد التأكسدي وتراكم α-synuclein المفسفر بعد tMCAO في فئران SHR-SR. |
+| [25245484](https://pubmed.ncbi.nlm.nih.gov/25245484/) | 2014 | حيوانية | J Stroke Cerebrovasc Dis | تيلميسارتان يحسن الاستجابات الالتهابية (MCP-1 و TNF-α و Iba-1) بعد tMCAO في فئران SHR-SR. |
+| [32992165](https://pubmed.ncbi.nlm.nih.gov/32992165/) | 2020 | حيوانية آلية | J Stroke Cerebrovasc Dis | تنشيط PPARγ بواسطة تيلميسارتان يثبط Egr-1، مما يقلل من إصابة الدماغ في نموذج السكتة الدماغية الإقفارية. |
 
-### Recurrent Intracerebral Hemorrhage (selected from 11 retrieved)
+### النزيف داخل الجمجمة المتكرر (مختارة من 11 مسترجعة)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |---|---|---|---|---|
-| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Trial protocol | Int J Stroke | Rationale/design paper for the TRIDENT trial (single-pill BP-lowering combination for ICH secondary prevention). |
-| [24636673](https://pubmed.ncbi.nlm.nih.gov/24636673/) | 2014 | Cohort (PRoFESS sub-analysis) | Int J Stroke | Race-ethnic differences in ischemic vs. hemorrhagic stroke recurrence rates in a >20,000-patient secondary prevention trial. |
-| [17538008](https://pubmed.ncbi.nlm.nih.gov/17538008/) | 2007 | Animal | J Pharmacol Exp Ther | AT1 receptor blockade (telmisartan) reduces apoptosis, inflammation, and oxidative stress in an experimental ICH model. |
-| [27078703](https://pubmed.ncbi.nlm.nih.gov/27078703/) | 2016 | Animal | Neurol Res | Telmisartan ameliorates oxidative stress and cerebral vasospasm after subarachnoid hemorrhage. |
-| [15834293](https://pubmed.ncbi.nlm.nih.gov/15834293/) | 2005 | Comparative pharmacology | J Hypertens | Telmisartan vs. ramipril effects on cerebrovascular structure in spontaneously hypertensive rats. |
+| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | بروتوكول التجربة | Int J Stroke | ورقة العقل/التصميم لتجربة TRIDENT (مزيج كبسولة واحدة لخفض ضغط الدم للوقاية الثانوية من ICH). |
+| [24636673](https://pubmed.ncbi.nlm.nih.gov/24636673/) | 2014 | تحليل فرعي (PRoFESS) | Int J Stroke | الاختلافات العرقية والإثنية في معدلات تكرار السكتة الدماغية الإقفارية مقابل النزفية في تجربة الوقاية الثانوية >20,000 مريض. |
+| [17538008](https://pubmed.ncbi.nlm.nih.gov/17538008/) | 2007 | حيوانية | J Pharmacol Exp Ther | حصار مستقبلات AT1 (تيلميسارتان) يقلل من الاستموات والالتهاب والإجهاد التأكسدي في نموذج ICH التجريبي. |
+| [27078703](https://pubmed.ncbi.nlm.nih.gov/27078703/) | 2016 | حيوانية | Neurol Res | تيلميسارتان يحسن الإجهاد التأكسدي والتشنج الوعائي الدماغي بعد نزيف تحت العنكبوتية. |
+| [15834293](https://pubmed.ncbi.nlm.nih.gov/15834293/) | 2005 | الصيدلة المقارنة | J Hypertens | تأثيرات تيلميسارتان مقابل راميبريل على بنية القلب والأوعية الدماغية في الفئران ارتفاع ضغط الدم التلقائي. |
 
-### Other Indications
+### الإشارات الأخرى
 
-Currently no related literature available for Prinzmetal angina, brain stem infarction, ABri amyloidosis, malignant renovascular hypertension, malignant hypertensive renal disease, or Braddock syndrome. Literature retrieved for the two pulmonary hypertension entries and ABri amyloidosis consisted of generic hypoxia/amyloidosis biology unrelated to telmisartan specifically, and is not included here as evidence.
-
----
-
-## Taiwan Market Information
-
-Telmisartan currently has **no marketing authorization on record in Taiwan** (market status: Not marketed / not marketed; 0 licenses). No product name, dosage form, or approved-indication data is available from this evidence pack.
+لا توجد حاليًا أدبيات ذات صلة متاحة لذبحة برينزمتال أو احتشاء جذع الدماغ أو داء الأميلويد المرتبط ABri أو ارتفاع ضغط الدم الكلوي الخبيث أو مرض الكلى الارتفاعي الخبيث أو متلازمة برادوك. الأدبيات المسترجعة لإدخالات ارتفاع ضغط الدم الرئوي والأميلويد المرتبط ABri تكونت من أحياء الاستنزاف/الأميلويد العامة غير المرتبطة بتيلميسارتان على وجه التحديد، ولم يتم تضمينها هنا كأدلة.
 
 ---
 
-## Safety Considerations
+## معلومات سوق تايوان
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data were all flagged as data gaps in this evidence pack — TFDA label data is a Blocking-severity gap, DG001.)
+تيلميسارتان حاليًا لا يحتوي على **ترخيص تسويقي مسجل في تايوان** (حالة السوق: غير مسوق / غير مسوق؛ 0 ترخيصات). لا توجد بيانات اسم المنتج أو الشكل الجرعي أو الإشارة المعتمدة متاحة من حزمة الأدلة هذه.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى ملصق الحزمة للحصول على معلومات السلامة. (تم تضبيط جميع تحذيرات رئيسية وموانع وبيانات تفاعل الأدوية كفجوات في البيانات في حزمة الأدلة هذه — بيانات تسمية TFDA هي فجوة ذات خطورة حاجزة، DG001.)
 
-**Rationale:**
-A Blocking-severity data gap (missing TFDA package insert / warnings and contraindications) prevents this candidate from entering the S1 safety pre-screen, regardless of the indication-level evidence strength. Among the 10 predicted indications, only cerebral artery occlusion and recurrent ICH prevention reach L2/S2 ("Research Question") — supported by one completed Phase 4 (n=1,228) and one completed Phase 3 (n=1,671) trial respectively — while the remaining candidates, including the single highest-scoring prediction (Prinzmetal angina), have no clinical or literature support at all (L5/S0).
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) to clear the S1 safety gate (DG001, Blocking)
-- Formal mechanism-of-action documentation from DrugBank (DG002, High)
-- Confirmation of Taiwan market/licensing status, since no authorizations are currently on record
-- If pursuing cerebral artery occlusion or ICH prevention specifically: a focused review of the TRIDENT trial's actual drug regimen (to confirm telmisartan's specific contribution vs. the combination pill) and DDI data given the renal/hyperkalemia risk relevant to the renovascular/renal hypertension candidates
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**المبرر:**
+فجوة بيانات حاجزة الخطورة (ملصق حزمة TFDA المفقود / التحذيرات وموانع) تمنع هذا المرشح من دخول فحص السلامة S1، بغض النظر عن قوة الأدلة على مستوى الإشارة. من بين 10 إشارات متنبأ بها، فقط انسداد الشرايين الدماغية والوقاية من نزيف ICH المتكرر يصلان إلى L2/S2 ("سؤال بحثي") — يدعمهما تجربة المرحلة 4 المكتملة واحدة (n=1,228) وتجربة المرحلة 3 المكتملة واحدة (n=1,671) على التوالي — بينما يحتوي المرشحون المتبقيون، بما في ذلك التنبؤ بأعلى درجة واحدة (ذبحة برينزمتال)، على دعم سريري أو أدبي على الإطلاق (L5/S0).
+
+**للمتابعة، يلزم ما يلي:**
+- ملصق حزمة TFDA (التحذيرات وموانع) لمسح بوابة S1 الأمان (DG001، حاجز)
+- توثيق آلية العمل الرسمية من DrugBank (DG002، عالي)
+- تأكيد حالة السوق/الترخيص في تايوان، لأنه لا توجد تفويضات مسجلة حاليًا
+- إذا كان يسعى إلى انسداد الشرايين الدماغية أو الوقاية من ICH على وجه التحديد: مراجعة مركزة لنظام الأدوية الفعلي لتجربة TRIDENT (لتأكيد مساهمة تيلميسارتان المحددة مقابل الكبسولة المركبة) وبيانات DDI نظرًا لخطر الكلى/فرط البوتاسيوم ذات الصلة بمرشحي ارتفاع ضغط الدم الكلوي/مرض الكلى.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

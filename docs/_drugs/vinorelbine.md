@@ -29,85 +29,84 @@ indication_count: 10
 
 </div>
 
-Using the txgnn-pipeline skill wasn't a fit here (that skill covers model training/deployment, not individual report authoring), so I'm producing the report directly from the Evidence Pack per the given template.
+# فينوريلبين: من سرطان الرئة ذو الخلايا غير الصغيرة إلى ساركوما يوينغ
 
-# Vinorelbine: From Non-Small Cell Lung Cancer to Ewing Sarcoma
+## ملخص في جملة واحدة
 
-## One-Sentence Summary
+فينوريلبين (نافيلبين) هو عامل علاج كيميائي من قلويدات الفينكا شبه الاصطناعية يرتكز استخدامه السريري المثبت، وفقاً للأدلة الأدبية الواردة في هذه الحزمة، على سرطان الرئة ذو الخلايا غير الصغيرة (NSCLC) وسرطان الثدي النقيلي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ساركوما يوينغ**، حيث تدعم هذا الاتجاه حالياً **4 تجارب سريرية** و**5 منشورات علمية** — لكن لا توجد أي منها أدلة على استهداف جزيئي محدد لساركوما يوينغ.
 
-Vinorelbine (Navelbine) is a semi-synthetic vinca alkaloid chemotherapy agent whose established clinical use, per the literature evidence in this pack, centers on non-small cell lung cancer (NSCLC) and metastatic breast cancer.
-The TxGNN model predicts it may be effective for **Ewing Sarcoma**, with **4 clinical trials** and **5 publications** currently supporting this direction — though none provide Ewing-sarcoma-specific molecular targeting evidence.
+## نظرة عامة سريعة
 
-## Quick Overview
-
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | No Saudi Arabia license on record (drug not marketed); established literature describes use in non-small cell lung cancer and metastatic breast cancer |
-| Predicted New Indication | Ewing Sarcoma |
-| TxGNN Prediction Score | 99.9990% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | لا توجد ترخيصات في المملكة العربية السعودية (الدواء غير مسوق)؛ تصف الأدبيات المثبتة الاستخدام في سرطان الرئة ذو الخلايا غير الصغيرة وسرطان الثدي النقيلي |
+| الاستطباب الجديد المتنبأ به | ساركوما يوينغ |
+| درجة التنبؤ من TxGNN | 99.9990% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (Blocking/High data gaps for TFDA warnings and formal MOA respectively). Based on known information, Vinorelbine is a semi-synthetic vinca alkaloid that binds tubulin to block spindle-microtubule assembly, arresting cells in mitosis and triggering apoptosis. Its established efficacy — per the literature in this pack — is in non-small cell lung cancer (single-agent and cisplatin combinations) and metastatic breast cancer.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (فجوات بيانات حجب متعلقة بتحذيرات TFDA وآلية العمل الرسمية على التوالي). بناءً على المعلومات المعروفة، فينوريلبين هو قلويد فينكا شبه اصطناعي يرتبط بالدقيقات البروتينية (تيوبيولين) لمنع تجميع الخيوط المغزلية الدقيقة، مما يوقف الخلايا في الانقسام ويثير الموت المبرمج. فعاليته المثبتة — وفقاً للأدبيات الواردة في هذه الحزمة — تقتصر على سرطان الرئة ذو الخلايا غير الصغيرة (عامل واحد وتركيبات السيسبلاتين) وسرطان الثدي النقيلي.
 
-Ewing sarcoma is a highly proliferative small round-cell sarcoma of childhood and young adulthood. Because vinorelbine's cytotoxic mechanism is broadly antiproliferative rather than pathway-specific, it has plausible activity against any rapidly dividing tumor, including pediatric sarcomas — this is the general biological rationale behind the TxGNN prediction.
+ساركوما يوينغ هي ورم لحمة صغيرة الخلايا ذو تكاثر عالي جداً في الطفولة والبلوغ المبكر. بسبب أن آلية العمل الخلوية السامة لفينوريلبين تكون بشكل عام مضادة للتكاثر بدلاً من كونها خاصة بالمسار، فلديها نشاط معقول ضد أي ورم ينقسم بسرعة، بما في ذلك أورام اللحمة الصغيرة عند الأطفال — وهذا هو الأساس البيولوجي العام لتنبؤ TxGNN.
 
-However, the supporting evidence is largely indirect: completed Phase II data (NCT00003234, PMID 22633624) demonstrate vinorelbine activity in relapsed/refractory pediatric solid tumors and sarcomas broadly, with the strongest efficacy signal actually reported in **rhabdomyosarcoma** rather than Ewing sarcoma specifically. No Ewing-sarcoma-specific molecular target or biomarker evidence exists; the mechanistic link is best characterized as "broad-spectrum cytotoxic agent applied to a high-proliferation tumor class," not disease-specific pharmacology.
+ومع ذلك، الأدلة الداعمة غير مباشرة إلى حد كبير: البيانات المرحلة الثانية المكتملة (NCT00003234, PMID 22633624) تثبت نشاط فينوريلبين في الأورام الصلبة المتكررة/المقاومة عند الأطفال والأورام اللحمة بشكل عام، مع أقوى إشارة فعالية يتم الإبلاغ عنها فعلاً في **الورم الأرومي المخطط** وليس ساركوما يوينغ بشكل محدد. لا توجد أدلة تستهدف جزيئات محددة لساركوما يوينغ أو دليل حيوي؛ يمكن وصف الارتباط الآلي بأفضل شكل كـ "عامل سام للخلايا ذو نطاق عريض يتم تطبيقه على فئة ورم ذات تكاثر عالي"، وليس علم الأدوية الخاص بالمرض.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00003234](https://clinicaltrials.gov/study/NCT00003234) | Phase 2 | Completed | 50 | Phase II study of Navelbine (vinorelbine) in children with recurrent or refractory malignancies, including sarcoma populations; drug and population directly relevant. |
-| [NCT00180947](https://clinicaltrials.gov/study/NCT00180947) | Phase 2 | Unknown | 210 | Vinorelbine + cyclophosphamide in refractory/relapsed rhabdomyosarcoma, Ewing tumors, osteosarcoma, neuroblastoma, and medulloblastoma; drug-specific but outcome status unknown. |
-| [NCT05999994](https://clinicaltrials.gov/study/NCT05999994) | Phase 2 | Recruiting | 105 | CAMPFIRE — pediatric/young-adult multi-cancer master protocol platform trial; whether a vinorelbine-specific treatment arm is included is unconfirmed. |
-| [NCT06451302](https://clinicaltrials.gov/study/NCT06451302) | N/A | Active, not recruiting | 100 | Prospective multicenter cohort study of risk-stratification-oriented treatment outcomes/safety in pediatric Ewing sarcoma (China); vinorelbine not specifically named as the study drug. |
+| [NCT00003234](https://clinicaltrials.gov/study/NCT00003234) | المرحلة الثانية | مكتملة | 50 | دراسة المرحلة الثانية للنافيلبين (فينوريلبين) في الأطفال المصابين بأورام خبيثة متكررة أو مقاومة للعلاج، بما في ذلك السكان المصابين بأورام اللحمة؛ الدواء والمجموعة السكانية ذات صلة مباشرة. |
+| [NCT00180947](https://clinicaltrials.gov/study/NCT00180947) | المرحلة الثانية | غير معروفة | 210 | فينوريلبين + سيكلوفوسفاميد في الورم الأرومي المخطط المقاوم/المتكرر، أورام يوينغ، وسرطان العظام، والورم العصبي الأرومي، والورم النخاعي البدائي؛ محدد للدواء لكن حالة النتيجة غير معروفة. |
+| [NCT05999994](https://clinicaltrials.gov/study/NCT05999994) | المرحلة الثانية | قيد التجنيد | 105 | CAMPFIRE — منصة بروتوكول السيد متعدد السرطان عند الأطفال والبالغين الشباب؛ ما إذا كانت ذراع علاج محددة بفينوريلبين مدرجة لم يتم تأكيده. |
+| [NCT06451302](https://clinicaltrials.gov/study/NCT06451302) | غير محدد | نشط، غير قيد التجنيد | 100 | دراسة الأتراب المستقبلية متعددة المراكز لنتائج العلاج الموجه نحو تقييم المخاطر والسلامة في ساركوما يوينغ عند الأطفال (الصين)؛ فينوريلبين لم يتم تسميته بشكل محدد كعامل الدراسة. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [22633624](https://pubmed.ncbi.nlm.nih.gov/22633624/) | 2012 | Phase II Trial | European Journal of Cancer | Vinorelbine + continuous low-dose oral cyclophosphamide in children/young adults with relapsed/refractory solid tumors; good tolerance, notable efficacy specifically in rhabdomyosarcoma. |
-| [12115359](https://pubmed.ncbi.nlm.nih.gov/12115359/) | 2002 | Phase II Trial (rhabdomyosarcoma, non-Ewing-specific) | Cancer | Vinorelbine activity in previously treated advanced childhood sarcomas, with evidence of activity concentrated in rhabdomyosarcoma. |
-| [37637411](https://pubmed.ncbi.nlm.nih.gov/37637411/) | 2023 | Review | Frontiers in Pharmacology | Comprehensive review of chemotherapeutic drug options for soft tissue sarcomas, including vinca alkaloids. |
-| [26260582](https://pubmed.ncbi.nlm.nih.gov/26260582/) | 2016 | Preclinical (synergy study) | International Journal of Cancer | PLK1 inhibitor synergizes with microtubule-interfering drugs (including vinorelbine) to induce apoptosis in Ewing sarcoma cells in vitro. |
-| [36451163](https://pubmed.ncbi.nlm.nih.gov/36451163/) | 2022 | Case Report | BMC Urology | Case report/review of extraosseous Ewing sarcoma/pPNET of the kidney; disease-descriptive, not a vinorelbine treatment study. |
+| [22633624](https://pubmed.ncbi.nlm.nih.gov/22633624/) | 2012 | تجربة المرحلة الثانية | European Journal of Cancer | فينوريلبين + جرعة منخفضة مستمرة من السيكلوفوسفاميد الفموي في الأطفال والبالغين الشباب المصابين بأورام صلبة متكررة/مقاومة للعلاج؛ تحمل جيد، فعالية ملحوظة بشكل خاص في الورم الأرومي المخطط. |
+| [12115359](https://pubmed.ncbi.nlm.nih.gov/12115359/) | 2002 | تجربة المرحلة الثانية (الورم الأرومي المخطط، بدون محددات خاصة بيوينغ) | Cancer | نشاط فينوريلبين في أورام اللحمة المتقدمة المعالجة سابقاً عند الأطفال، مع أدلة على نشاط متركز في الورم الأرومي المخطط. |
+| [37637411](https://pubmed.ncbi.nlm.nih.gov/37637411/) | 2023 | مراجعة | Frontiers in Pharmacology | مراجعة شاملة لخيارات الأدوية العلاجية الكيميائية لأورام اللحمة الرخوة، بما في ذلك قلويدات الفينكا. |
+| [26260582](https://pubmed.ncbi.nlm.nih.gov/26260582/) | 2016 | دراسة أولية (دراسة التآزر) | International Journal of Cancer | مثبط PLK1 يتآزر مع الأدوية المتداخلة مع الأنابيب الدقيقة (بما في ذلك فينوريلبين) لتحريض الموت المبرمج في خلايا ساركوما يوينغ في الحيوي المخبري. |
+| [36451163](https://pubmed.ncbi.nlm.nih.gov/36451163/) | 2022 | دراسة حالة | BMC Urology | دراسة حالة/مراجعة لساركوما يوينغ خارج العظم/pPNET في الكلى؛ وصفية للمرض، وليست دراسة علاج بفينوريلبين. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Currently no Saudi Arabia market authorization is on record for Vinorelbine (`market_status: Not marketed`, 0 licenses).
+حالياً لا توجد ترخيصات تسويق مسجلة في المملكة العربية السعودية لفينوريلبين (`market_status: Not marketed`، 0 ترخيصات).
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic chemotherapy (Vinca alkaloid class, tubulin-binding antimicrotubule agent) |
-| Myelosuppression Risk | High — literature in this pack (PMID 9535205) identifies myelosuppression as the dose-limiting toxicity of vinorelbine |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential (neutrophil count), liver and renal function |
-| Handling Protection | Standard cytotoxic drug handling precautions apply (vinca alkaloid); confirm against TFDA/Saudi-specific handling protocol once obtained |
+| تصنيف السمية الخلوية | علاج كيميائي سام للخلايا تقليدي (فئة قلويد الفينكا، عامل ربط الأنابيب الدقيقة المضاد للميكروتيوبيولات) |
+| خطر فرط نخاع العظم | مرتفع — الأدبيات الواردة في هذه الحزمة (PMID 9535205) تحدد فرط نخاع العظم كعامل السمية المحدد للجرعة في فينوريلبين |
+| تصنيف الغثيان والقيء | يرجى الرجوع إلى تحذيرات واحتياطات ورقة المعلومات |
+| عناصر المراقبة | عد الدم الكامل مع التفريق (عدد الخلايا المحببة)، وظائف الكبد والكلى |
+| حماية التعامل | تنطبق احتياطات التعامل مع الأدوية السامة للخلايا القياسية (قلويد الفينكا)؛ تأكد مقابل بروتوكول TFDA/خاص بالمملكة العربية السعودية مرة واحدة الحصول عليه |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information (key warnings, contraindications, and DDI data are all currently unavailable — DDI query returned no results).
+يرجى الرجوع إلى ورقة معلومات الدواء للحصول على معلومات السلامة (البيانات الرئيسية للتحذيرات والموانع وبيانات التفاعلات الدوائية غير متاحة حالياً — كانت استعلامات التفاعلات الدوائية بدون نتائج).
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-The Ewing sarcoma signal (L2 evidence) rests on Phase II trials whose clearest efficacy is in rhabdomyosarcoma rather than Ewing sarcoma specifically, and a Blocking data gap (missing TFDA/regulatory warnings and contraindications) means this candidate cannot yet enter S1 safety review. The drug also currently has no market authorization in Saudi Arabia.
+**المبرر:**
+إشارة ساركوما يوينغ (دليل L2) تستند على تجارب المرحلة الثانية التي تكون أوضح فعاليتها في الورم الأرومي المخطط بدلاً من ساركوما يوينغ بشكل محدد، وفجوة بيانات الحجب (بيانات تحذيرات TFDA/الهيئات التنظيمية والموانع المفقودة) تعني أنه لا يمكن لهذا المرشح الدخول حتى الآن إلى مراجعة الأمان S1. الدواء أيضاً حالياً ليس لديه ترخيص تسويق في المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
-- TFDA/Saudi package insert safety data (warnings, contraindications) — Blocking gap, required before any S1 safety assessment
-- Formal DrugBank-sourced mechanism of action and toxicity classification
-- Confirmation of whether NCT05999994 (CAMPFIRE) and NCT06451302 include a vinorelbine-specific treatment arm
-- Follow-up on NCT00180947 (status: Unknown) for unpublished outcome data
-- Regulatory pathway assessment for Saudi Arabia market entry, since the drug is not currently marketed there
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+- بيانات السلامة من ورقة معلومات TFDA/المملكة العربية السعودية (التحذيرات والموانع) — فجوة حجب، مطلوبة قبل أي تقييم أمان S1
+- آلية عمل رسمية من DrugBank وتصنيف السمية
+- تأكيد ما إذا كانت NCT05999994 (CAMPFIRE) و NCT06451302 تتضمن ذراع علاج محددة بفينوريلبين
+- متابعة على NCT00180947 (الحالة: غير معروفة) للحصول على بيانات النتائج غير المنشورة
+- تقييم المسار التنظيمي لدخول سوق المملكة العربية السعودية، حيث أن الدواء غير مسوق حالياً هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

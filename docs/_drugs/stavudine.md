@@ -29,74 +29,75 @@ indication_count: 3
 
 </div>
 
-# STAVUDINE: From HIV/AIDS (NRTI Antiretroviral) to Simian Immunodeficiency Virus Infection
+# ستافودين: من عدوى فيروس نقص المناعة البشرية/الإيدز (مثبط النسخ العكسي للنيوكليوسيد NRTI) إلى عدوى فيروس نقص المناعة في القرود
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Stavudine is a thymidine-analogue nucleoside reverse transcriptase inhibitor (NRTI) known clinically for HIV/AIDS treatment; however, this Evidence Pack does not contain confirmed original-indication or regulatory data for it.
-> The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, a non-human primate lentiviral disease,
-> with **0 clinical trials** and **4 publications** currently supporting this direction — and those publications are animal-model/toxicity studies, not efficacy trials.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this Evidence Pack (blocking data gap — see below) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> ستافودين هو مثبط النسخ العكسي للنيوكليوسيد من نوع نظير الثيميدين (NRTI) معروف سريرياً لعلاج عدوى فيروس نقص المناعة البشرية/الإيدز؛ غير أن حزمة الأدلة هذه لا تحتوي على بيانات مؤكدة للاستطباب الأصلي أو البيانات التنظيمية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **عدوى فيروس نقص المناعة في القرود (SIV)**، وهي مرض فيروسي لينتي في الرئيسيات غير البشرية،
+> مع **0 تجارب سريرية** و **4 منشورات** تدعم هذا الاتجاه حالياً — وتلك المنشورات هي دراسات النماذج الحيوانية/السمية، وليست تجارب الفعالية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on known information embedded in this Evidence Pack's own rationale text, stavudine is a thymidine-analogue NRTI whose established antiretroviral activity works by inhibiting the reverse transcriptase enzyme shared across lentiviruses.
-
-SIV and HIV are both lentiviruses with closely related reverse transcriptase machinery, which is the mechanistic basis for TxGNN's prediction. However, this is not a human clinical indication — SIV does not infect humans, and the "disease" here is a non-human primate research model, not a treatable human condition.
-
-Critically, the strongest piece of literature evidence (PMID 22013040) is a **safety signal, not efficacy evidence**: it reports fatal pancreatitis in SIV-infected macaques treated with stavudine plus didanosine after immune-checkpoint blockade. This weighs against, rather than for, pursuing this candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير متوفر في حزمة الأدلة هذه (فجوة بيانات حاجزة — انظر أدناه) |
+| الاستطباب الجديد المتنبأ به | عدوى فيروس نقص المناعة في القرود (SIV) |
+| درجة التنبؤ لـ TxGNN | 99.55% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22013040](https://pubmed.ncbi.nlm.nih.gov/22013040/) | 2012 | Animal toxicity study (macaque) | Journal of Virology | Fatal pancreatitis in SIV-infected macaques treated with ddI + stavudine after CTLA-4/IDO blockade — safety warning, not efficacy data |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro pharmacology/susceptibility | Antiviral Therapy | Susceptibility of HIV-2, SIV and SHIV strains to approved anti-HIV-1 compounds, relevant to post-exposure prophylaxis |
-| [9021177](https://pubmed.ncbi.nlm.nih.gov/9021177/) | 1997 | In vitro pharmacology (different compound) | Antimicrobial Agents and Chemotherapy | Study of a different macrolide compound (SRR-SB3); stavudine not the primary study agent |
-| [11435599](https://pubmed.ncbi.nlm.nih.gov/11435599/) | 2001 | In vitro pharmacology | Journal of Virology | Dideoxynucleoside susceptibility of human foamy virus; found zidovudine (not stavudine) most active |
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (DG002، مرتفعة الشدة). بناءً على المعلومات المعروفة المدمجة في نص تبريرات حزمة الأدلة نفسها، ستافودين هو مثبط النسخ العكسي NRTI من نوع نظير الثيميدين الذي يُنجِز نشاطه المضاد للفيروسات من خلال منع إنزيم النسخ العكسي الذي تشاركه جميع الفيروسات اللينتية.
 
----
+SIV و HIV كلاهما فيروسات لينتية مع آليات النسخ العكسي متقاربة جداً، وهو الأساس الآلي لتنبؤ TxGNN. غير أن هذا ليس استطباباً سريرياً بشرياً — SIV لا يصيب البشر، و "المرض" هنا هو نموذج بحث في الرئيسيات غير البشرية، وليس حالة قابلة للعلاج عند البشر.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA package insert warnings and contraindications are a **blocking data gap** — DG001 — and must be resolved before any S1 safety review can proceed.)
+بشكل حاسم، أقوى قطعة من الأدلة الأدبية (PMID 22013040) هي **إشارة سلامة، وليست دليلاً على الفعالية**: تقرر التهاب البنكرياس القاتل في القرود المصابة بـ SIV والمعالجة بـ stavudine زائد didanosine بعد حصار نقاط التفتيش المناعية. وهذا يعارض، لا يدعم، متابعة هذا المرشح.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-The top-ranked predicted indication (SIV infection) is a non-human primate research model, not a human disease, and its strongest supporting literature reports a fatal toxicity signal rather than efficacy. The two lower-ranked predictions are even weaker: rank 2 (feline immunodeficiency syndrome) is a veterinary indication supported mainly by studies of *stampidine*, a different prodrug molecule, and rank 3 (a rare neurodevelopmental disorder) has zero clinical trials or literature support and is contradicted by stavudine's known mitochondrial-toxicity/neuropathy risk. Combined with two unresolved data gaps — no TFDA package insert (blocking) and no confirmed MOA (high) — this candidate does not meet the bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) to unblock S1 safety review (DG001)
-- Confirmed mechanism of action from DrugBank (DG002)
-- A human-relevant predicted indication with actual clinical trial or human-subject literature support, since all three current predictions are non-human or unsupported
+## الأدلة من الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|--------|
+| [22013040](https://pubmed.ncbi.nlm.nih.gov/22013040/) | 2012 | دراسة سمية حيوانية (قرد المكاك) | Journal of Virology | التهاب البنكرياس القاتل في القرود المصابة بـ SIV والمعالجة بـ ddI + stavudine بعد حصار CTLA-4/IDO — تحذير السلامة، وليس بيانات الفعالية |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | الصيدلة في المختبر/الحساسية | Antiviral Therapy | حساسية سلالات HIV-2 و SIV و SHIV للمركبات المعتمدة ضد HIV-1، ذات الصلة بالوقاية من التعرض |
+| [9021177](https://pubmed.ncbi.nlm.nih.gov/9021177/) | 1997 | الصيدلة في المختبر (مركب مختلف) | Antimicrobial Agents and Chemotherapy | دراسة مركب ماكرولايد مختلف (SRR-SB3)؛ stavudine ليس وكيل الدراسة الأساسي |
+| [11435599](https://pubmed.ncbi.nlm.nih.gov/11435599/) | 2001 | الصيدلة في المختبر | Journal of Virology | حساسية فيروس الرغوة البشري للديديوكسينوكليوسيد؛ ثبت أن zidovudine (وليس stavudine) الأكثر فعالية |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (تحذيرات وموانع الاستعمال المرتبطة بنشرة الحزمة TFDA هي **فجوة بيانات حاجزة** — DG001 — ويجب حلها قبل إجراء أي مراجعة سلامة S1.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+الاستطباب المتنبأ به الأفضل تصنيفاً (عدوى SIV) هو نموذج بحث في الرئيسيات غير البشرية، وليس مرضاً بشرياً، وأقوى الأدلة الأدبية الداعمة تقرر عن إشارة سمية قاتلة وليس فعالية. التنبؤات المصنفة الأقل (المصنف الثاني (متلازمة نقص المناعة في القطط) هو استطباب بيطري يدعمه بشكل أساسي دراسات *stampidine*، وهو جزيء منتج مختلف، والمصنف الثالث (اضطراب نادر في النمو العصبي) لا يحتوي على تجارب سريرية أو دعم أدبي ويتناقض مع خطر السمية المتقدرية والاعتلال العصبي المعروف للستافودين. مع فجوتي بيانات غير محلولتين — بدون نشرة حزمة TFDA (حاجزة) وبدون آلية عمل مؤكدة (مرتفعة الشدة) — فإن هذا المرشح لا يستوفي معيار المتابعة بعد S0.
+
+**لمتابعة هذا، يلزم ما يلي:**
+- نشرة الحزمة TFDA (التحذيرات/موانع الاستعمال) لفتح مراجعة السلامة S1 (DG001)
+- آلية عمل مؤكدة من DrugBank (DG002)
+- استطباب جديد متنبأ به ذو صلة بالإنسان مع دعم تجارب سريرية فعلية أو أدلة أدبية موضوع بشري، حيث أن جميع التنبؤات الثلاثة الحالية غير بشرية أو غير مدعومة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,110 +29,111 @@ indication_count: 10
 
 </div>
 
-# Dasatinib: From Chronic Myeloid Leukemia to Ewing Sarcoma
+# داساتينيب: من سرطان الدم النخاعي المزمن إلى ساركوما يوينج
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Dasatinib is a multi-targeted tyrosine kinase inhibitor globally approved for Chronic Myeloid Leukemia (CML) and Philadelphia chromosome-positive Acute Lymphoblastic Leukemia (Ph+ ALL), though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Ewing Sarcoma** (rank #1, prediction score 99.90%), a rare and aggressive bone tumor predominantly affecting adolescents and young adults.
-This direction is currently supported by **3 clinical trials** (including one completed Phase 2 trial in advanced sarcomas, n=366) and **9 publications** documenting Src kinase signaling as a targetable pathway in Ewing sarcoma biology.
+داساتينيب هو مثبط التيروسين كيناز متعدد الأهداف المعتمد عالمياً لسرطان الدم النخاعي المزمن (CML) واللوكيميا الليمفاوية الحادة الموجبة لفيلادلفيا (Ph+ ALL)، على الرغم من أنه غير مسجل حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ساركوما يوينج** (الترتيب #1، درجة التنبؤ 99.90%)، وهو ورم عظمي نادر وعدواني يؤثر بشكل أساسي على المراهقين والبالغين الشباب.
+يدعم هذا الاتجاه حالياً **3 تجارب سريرية** (بما في ذلك تجربة المرحلة 2 المكتملة في الساركوما المتقدمة، n=366) و**9 منشورات** توثق إنزيم Src كمسار قابل للاستهداف في بيولوجيا ساركوما يوينج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Chronic Myeloid Leukemia (CML) / Ph+ ALL (global approval; not registered in Saudi Arabia) |
-| Predicted New Indication | Ewing Sarcoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| الدلالة الأصلية | سرطان الدم النخاعي المزمن (CML) / اللوكيميا الليمفاوية الحادة الموجبة لفيلادلفيا (اعتماد عالمي؛ غير مسجلة في المملكة العربية السعودية) |
+| الدلالة الجديدة المتنبأ بها | ساركوما يوينج |
+| درجة التنبؤ من TxGNN | 99.90% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجودة في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر (سؤال بحثي) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (data gap DG002). Based on known pharmacological information and the repurposing rationale documented in the evidence pack, dasatinib is a multi-targeted inhibitor of BCR-ABL, Src family kinases, c-KIT, and PDGFR. Its established efficacy in BCR-ABL-driven hematologic malignancies provides the pharmacological foundation from which this repurposing prediction emerges.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الدليل هذه (فجوة البيانات DG002). بناءً على المعلومات الدوائية المعروفة والمبررات الخاصة بإعادة التطبيق الموثقة في حزمة الدليل، داساتينيب هو مثبط متعدد الأهداف لـ BCR-ABL وإنزيمات Src العائلية و c-KIT و PDGFR. توفر فعاليته المثبتة في الأورام الخبيثة الدموية التي يحركها BCR-ABL الأساس الدوائي الذي ينبثق منه هذا التنبؤ بإعادة التطبيق.
 
-The biological link to Ewing sarcoma centres on Src family kinase signalling. Multiple in vitro studies published between 2007 and 2022 consistently demonstrate that microenvironmental stress — hypoxia and nutrient deprivation within the tumour — upregulates Src activity in Ewing sarcoma cells, promoting invadopodia formation, invasive migration, and metastatic progression (PMID 27566104, 31521948, 35655525). Early preclinical work confirmed that dasatinib exhibits antiproliferative and antimigratory activity in Ewing sarcoma cell lines through inhibition of c-KIT, PDGFR, and Src (PMID 18202781, 17363602).
+يركز الارتباط البيولوجي بساركوما يوينج على إشارات إنزيم Src العائلي. أظهرت دراسات متعددة في المختبر نُشرت بين 2007 و 2022 باستمرار أن الإجهاد البيئي الدقيق - نقص الأكسجين والحرمان من المغذيات داخل الورم - يزيد من نشاط Src في خلايا ساركوما يوينج، مما يعزز تكوين الغزو القاعدي والهجرة الغازية وتطور الانبثاث (PMID 27566104, 31521948, 35655525). أكدت الأعمال قبل السريرية المبكرة أن داساتينيب يُظهر نشاطاً مضاداً للتكاثر ومضاداً للهجرة في خطوط خلايا ساركوما يوينج من خلال منع c-KIT و PDGFR و Src (PMID 18202781, 17363602).
 
-Clinically, a large Phase 2 basket trial (NCT00464620, n=366) has tested dasatinib across multiple advanced sarcoma subtypes including Ewing sarcoma. However, dasatinib failed as a single agent in this setting, with low overall response rates. The current evidence supports exploring dasatinib in combination strategies — for example, dual FAK+Src inhibition or dasatinib added to standard chemotherapy backbones — rather than single-agent use.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Completed | 366 | Largest available clinical evidence: dasatinib in advanced sarcomas (multiple subtypes including Ewing sarcoma). Primary endpoints were objective response rate and 6-month progression-free survival. Single-agent activity was limited; Ewing-specific subgroup outcomes require the primary publication for detailed interpretation. |
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Pediatric study of dasatinib combined with ifosfamide, carboplatin, and etoposide in pediatric sarcomas (including Ewing sarcoma). Terminated extremely early due to insufficient enrollment (n=7 of planned target); no efficacy conclusions can be drawn. Provides limited combination safety data only. |
-| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Phase 1 | Recruiting | 41 | B7-H3 CAR-T cell therapy in paediatric relapsed/refractory solid tumours expressing B7-H3 target (includes Ewing sarcoma). Dasatinib appears in a supportive role as a CAR-T proliferation enhancer rather than as the primary investigational agent; limited direct relevance to dasatinib efficacy assessment. |
+سريرياً، اختبرت تجربة السلة من المرحلة 2 الكبيرة (NCT00464620, n=366) داساتينيب عبر أنواع ساركوما متقدمة متعددة بما في ذلك ساركوما يوينج. ومع ذلك، فشل داساتينيب كعامل مفرد في هذا السياق، مع معدلات استجابة منخفضة الكلي. يدعم الدليل الحالي استكشاف داساتينيب في الاستراتيجيات المركبة - على سبيل المثال، منع FAK و Src المزدوج أو داساتينيب مضافاً إلى أساسات العلاج الكيماوي القياسي - بدلاً من الاستخدام الفردي.
 
 ---
 
-## Literature Evidence
+## دليل التجربة السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | In vitro | Cancer Research | Foundational study: dasatinib inhibits migration and invasion across diverse human sarcoma cell lines; bone sarcoma cells dependent on Src kinase for survival undergo dasatinib-induced apoptosis. Established the Src-targeting rationale for sarcomas. |
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | In vitro | Oncology Reports | Dasatinib demonstrates antiproliferative and antimigratory activity in Ewing sarcoma and neuroblastoma cell lines through inhibition of c-KIT and PDGFR. Direct in vitro evidence in ES cell lines. |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | In vitro / Mechanistic | Neoplasia | Microenvironmental stress (hypoxia/nutrient deprivation) activates Src-dependent invadopodia formation and cell migration in Ewing sarcoma; dasatinib blocks these Src-mediated effects, implicating tumour microenvironment as a key context for treatment. |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | In vitro / Mechanistic | Neoplasia | Tenascin-C and Src cooperate to drive invadopodia-mediated invasion in Ewing sarcoma under microenvironmental stress; identifies a dasatinib-targetable signalling axis as a mediator of metastatic progression. |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Translational / In vitro | Sarcoma | Targeting FAK-Src complex in Ewing sarcoma, DSRCT, and rhabdomyosarcoma; single-agent dasatinib failed in Phase 2 (NCT00464620), but combined FAK+Src inhibition restores in vitro activity, suggesting combination as a viable next step. |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Review | Oncology Letters | Comprehensive review of Src signalling in sarcoma biology covering cell proliferation, apoptosis, invasion, metastasis, and tumour microenvironment; supports dasatinib as a molecularly rational therapeutic approach across sarcoma subtypes. |
-| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | In vitro | Cell Communication and Signaling | CXCR4 antagonism activates receptor tyrosine kinase signalling in Ewing sarcoma cells; contextualises the receptor tyrosine kinase network that dasatinib targets and potential for combinations with chemokine axis agents. |
-| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Review | Current Treatment Options in Oncology | Systemic therapy review for chondrosarcoma discussing antiangiogenic and targeted therapies including Src/PDGFR inhibitors; contextualises the broader bone tumour landscape for molecularly targeted approaches. Indirect relevance. |
-| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Case Report | Case Reports in Oncology | Rare chromosomal abnormality in CML blast crisis illustrating BCR-ABL/TKI resistance mechanisms; peripheral relevance to Ewing sarcoma, included for completeness of dasatinib mechanistic context. |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
+|-------------|--------|--------|----------|----------------|
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | المرحلة 2 | مكتملة | 366 | أكبر دليل سريري متاح: داساتينيب في الساركوما المتقدمة (أنواع متعددة بما في ذلك ساركوما يوينج). كانت النقاط النهائية الأولية معدل الاستجابة الموضوعي والبقاء الخالي من التطور لمدة 6 أشهر. كانت النشاط كعامل مفرد محدودة؛ تتطلب نتائج المجموعة الفرعية الخاصة بيوينج المنشور الأولي للتفسير التفصيلي. |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | المرحلة 1/2 | منهية | 7 | دراسة طب الأطفال لداساتينيب مدمجة مع ifosfamide و carboplatin و etoposide في ساركوما طب الأطفال (بما في ذلك ساركوما يوينج). تم إنهاؤها بسرعة كبيرة جداً بسبب عدم كفاية الالتحاق (n=7 من الهدف المخطط له)؛ لا يمكن استخلاص استنتاجات الفعالية. توفر بيانات سلامة مركبة محدودة فقط. |
+| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | المرحلة 1 | تجنيد | 41 | العلاج بالخلايا اللمفاوية التائية CAR-T الموجهة بـ B7-H3 في الأورام الصلبة المتكررة/المقاومة لطب الأطفال التي تعبر عن هدف B7-H3 (يشمل ساركوما يوينج). يظهر داساتينيب بدور داعم كمعزز لتكاثر الخلايا اللمفاوية التائية CAR-T بدلاً من كونه العامل المحقق الأساسي؛ ذات صلة محدودة لتقييم فعالية داساتينيب. |
 
 ---
 
-## Saudi Arabia Market Information
+## دليل الأدبيات
 
-Dasatinib is **not currently registered** in Saudi Arabia. No marketing authorisation records are available in the SFDA database at data cutoff (2026-06-16). Procurement would require import under a compassionate use or named-patient programme framework.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-------|------|--------|----------------|
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | في المختبر | Cancer Research | الدراسة الأساسية: داساتينيب يمنع الهجرة والغزو عبر خطوط خلايا ساركوما البشرية المتنوعة؛ تخضع خلايا ساركوما العظام المعتمدة على إنزيم Src للموت المبرمج الناجم عن داساتينيب. أسس مبررات استهداف Src للساركوما. |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | في المختبر | Oncology Reports | يُظهر داساتينيب نشاطاً مضاداً للتكاثر ومضاداً للهجرة في خطوط خلايا ساركوما يوينج والورم الأرومي العصبي من خلال منع c-KIT و PDGFR. دليل مباشر في المختبر في خطوط خلايا ES. |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | في المختبر / آلية | Neoplasia | الإجهاد البيئي الدقيق (نقص الأكسجين/الحرمان من المغذيات) ينشط تكوين الغزو القاعدي المعتمد على Src والهجرة الخلوية في ساركوما يوينج؛ يحجب داساتينيب هذه التأثيرات الوسيطة بـ Src، مما يدل على البيئة الدقيقة للورم كسياق رئيسي للعلاج. |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | في المختبر / آلية | Neoplasia | يتعاون Tenascin-C و Src في دفع الغزو الوسيط بالغزو القاعدي في ساركوما يوينج تحت الإجهاد البيئي الدقيق؛ يحدد مسار إشارات قابل للاستهداف بـ داساتينيب كوسيط لتطور الانبثاث. |
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | ترجمة / في المختبر | Sarcoma | استهداف مركب FAK-Src في ساركوما يوينج و DSRCT و الورم العضلي الجنيني؛ فشل داساتينيب الفردي في المرحلة 2 (NCT00464620)، لكن منع FAK و Src المدمج يستعيد النشاط في المختبر، مما يشير إلى المركب كخطوة قابلة للحياة التالية. |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | مراجعة | Oncology Letters | مراجعة شاملة لإشارات Src في بيولوجيا الساركوما تغطي تكاثر الخلايا والموت المبرمج والغزو والانبثاث والبيئة الدقيقة للورم؛ تدعم داساتينيب كنهج علاجي معقول من الناحية الجزيئية عبر أنواع الساركوما. |
+| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | في المختبر | Cell Communication and Signaling | يؤدي حصار CXCR4 إلى تفعيل إشارات مستقبلات التيروسين كيناز في خلايا ساركوما يوينج؛ يسياق شبكة مستقبلات التيروسين كيناز التي يستهدفها داساتينيب والإمكانية المركبة مع عوامل محور الكيموكين. |
+| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | مراجعة | Current Treatment Options in Oncology | مراجعة العلاج الجهازي للساركوما الغضروفية تناقش العلاجات المانعة للأنجيوجينيز والموجهة بما في ذلك مثبطات Src/PDGFR؛ تضع السياق المشهد الأوسع لأورام العظام للنهج الموجهة جزيئياً. ذات صلة غير مباشرة. |
+| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | حالة طبية | Case Reports in Oncology | الشذوذ الصبغي النادر في أزمة انفجار CML يوضح آليات مقاومة BCR-ABL/TKI؛ ذات صلة طرفية بساركوما يوينج، المدرجة لاكتمال السياق الميكانيكي لداساتينيب. |
 
 ---
 
-## Cytotoxicity
+## معلومات سوق المملكة العربية السعودية
 
-Dasatinib is an antineoplastic agent (targeted therapy indicated for leukaemia) and this section applies.
+داساتينيب **غير مسجل حالياً** في المملكة العربية السعودية. لا توجد سجلات تصريح تسويقي متاحة في قاعدة بيانات هيئة الغذاء والدواء السعودية في تاريخ قطع البيانات (2026-06-16). ستتطلب المشتريات الاستيراد ضمن إطار برنامج الاستخدام الإنساني أو برنامج المريض المسمى.
 
-| Item | Content |
+---
+
+## السمية الخلوية
+
+داساتينيب هو عامل مضاد للأورام (علاج موجه مؤشر لسرطان الدم) وينطبق هذا القسم.
+
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — multi-targeted tyrosine kinase inhibitor (BCR-ABL, Src family kinases, c-KIT, PDGFR-β); not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count (CBC) with differential; liver function tests; renal function; respiratory monitoring for pulmonary complications (interstitial pneumonitis and pleural effusion reported in CML literature: PMID 36346055, PMID 36448074) |
-| Handling Protection | Standard oncology drug handling procedures apply; consult institutional cytotoxic drug handling protocols |
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط التيروسين كيناز متعدد الأهداف (BCR-ABL، إنزيمات Src العائلية، c-KIT، PDGFR-β)؛ ليس العلاج الكيماوي السام للخلايا التقليدي |
+| خطر قمع النخاع | يرجى الرجوع إلى التحذيرات والاحتياطات في ورقة المعلومات |
+| تصنيف القدرة على الغثيان | يرجى الرجوع إلى التحذيرات والاحتياطات في ورقة المعلومات |
+| بنود المراقبة | عد الدم الكامل (CBC) مع الفحص التفاضلي؛ اختبارات وظائف الكبد؛ وظائف الكلى؛ المراقبة التنفسية للمضاعفات الرئوية (تم الإبلاغ عن الالتهاب الرئوي الخلالي والانصباب الجنبي في أدبيات سرطان الدم النخاعي المزمن: PMID 36346055, PMID 36448074) |
+| حماية التعامل | تطبيق إجراءات التعامل القياسية مع أدوية الأورام؛ راجع بروتوكولات التعامل مع العقاقير السامة للخلايا الخاصة بالمؤسسة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ورقة المعلومات للحصول على معلومات السلامة.
 
-> **Adverse events noted in the available literature** (derived from evidence collected for the myeloid leukemia indication):
-> - **Pleural effusion / chylothorax** (PMID 36448074): Rare chylothorax reported in an 18-year-old CML patient on long-term dasatinib; pleural effusion is more broadly documented with dasatinib use
-> - **Interstitial pneumonitis** (PMID 36346055): Case series identifies dasatinib-associated pulmonary toxicity as an under-reported but clinically significant concern requiring active respiratory monitoring
+> **الأحداث الضائرة المسجلة في الأدبيات المتاحة** (مشتقة من الأدلة المجمعة لدلالة سرطان الدم النخاعي):
+> - **الانصباب الجنبي / تجمع اللمف في الجوف الجنبي** (PMID 36448074): تم الإبلاغ عن تجمع لمفي نادر في مريض CML يبلغ من العمر 18 سنة على داساتينيب طويل الأمد؛ يتم توثيق الانصباب الجنبي على نطاق أوسع مع استخدام داساتينيب
+> - **الالتهاب الرئوي الخلالي** (PMID 36346055): سلسلة حالات تحدد السمية الرئوية المرتبطة بـ داساتينيب كمصدر قلق سريري مهم ومقلل من الإبلاغ عنه يتطلب مراقبة تنفسية فعالة
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold (Research Question)**
+**القرار: انتظر (سؤال بحثي)**
 
-**Rationale:**
-Dasatinib has a mechanistically plausible and consistently supported preclinical basis for activity in Ewing sarcoma via Src family kinase inhibition, but the only completed clinical trial (Phase 2 basket trial NCT00464620) demonstrated limited single-agent activity in sarcomas broadly, and no Ewing sarcoma-specific clinical efficacy data is currently available in this pack. The evidence base is insufficient to justify direct clinical deployment without further targeted investigation.
+**المبررات:**
+داساتينيب له أساس قبل سريري معقول آلياً ومدعوم باستمرار للنشاط في ساركوما يوينج عبر منع إنزيم Src العائلي، لكن التجربة السريرية الوحيدة المكتملة (تجربة السلة من المرحلة 2 NCT00464620) أظهرت نشاطاً فردياً محدوداً في الساركوما على نطاق واسع، وليس هناك بيانات فعالية سريرية خاصة بساركوما يوينج متاحة حالياً في هذه الحزمة. قاعدة الأدلة غير كافية لتبرير النشر السريري المباشر دون مزيد من التحقيق الموجه.
 
-**To proceed, the following is needed:**
-- Retrieve Ewing sarcoma-specific subgroup outcomes from the NCT00464620 primary publication to quantify clinical response rates in this histology
-- Explore dasatinib combination strategies informed by the preclinical literature — particularly dual FAK+Src inhibition (per PMID 35655525) or dasatinib added to standard chemotherapy (e.g., ICE regimen)
-- Obtain full MOA data from DrugBank (data gap DG002) to complete the mechanistic rationale analysis
-- Obtain Saudi Arabia/SFDA package insert or equivalent regulatory document (data gap DG001) before any clinical safety evaluation
-- Consider in vivo (xenograft or PDX) validation of dasatinib ± combination in Ewing sarcoma models as a prerequisite before designing a new clinical trial
-- Evaluate paediatric pharmacokinetic considerations given that Ewing sarcoma primarily affects adolescents and young adults
+**للمتابعة، يلزم ما يلي:**
+- استرجاع نتائج المجموعة الفرعية الخاصة بساركوما يوينج من المنشور الأولي لـ NCT00464620 لقياس معدلات الاستجابة السريرية في هذا النسيج
+- استكشاف استراتيجيات داساتينيب المركبة المستنيرة من الأدبيات قبل السريرية - وخاصة منع FAK و Src المزدوج (حسب PMID 35655525) أو داساتينيب مضافاً إلى أساسات العلاج الكيماوي القياسية (على سبيل المثال، نظام ICE)
+- الحصول على بيانات آلية العمل الكاملة من DrugBank (فجوة البيانات DG002) لاستكمال تحليل المبررات الآلية
+- الحصول على ورقة المعلومات بصيغة المملكة العربية السعودية/هيئة الغذاء والدواء السعودية أو وثيقة تنظيمية مكافئة (فجوة البيانات DG001) قبل أي تقييم سلامة سريري
+- النظر في التحقق في الجسم الحي (زراعة غريبة أو نموذج زراعة المريض مباشرة) لـ داساتينيب ± مركب في نماذج ساركوما يوينج كمتطلب أساسي قبل تصميم تجربة سريرية جديدة
+- تقييم الاعتبارات الحركية الدوائية لطب الأطفال بالنظر إلى أن ساركوما يوينج تؤثر بشكل أساسي على المراهقين والبالغين الشباب
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,82 +29,83 @@ indication_count: 7
 
 </div>
 
-# Framycetin: From Bacterial Infection to Urinary Tract Infection
+# فرامايسيتين: من العدوى البكتيرية إلى عدوى المسالك البولية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-> Framycetin is an aminoglycoside bactericidal antibiotic; no original indication or MOA record is available in this evidence pack, and the drug is not currently marketed in Taiwan.
-> Among TxGNN's predicted indications, **Urinary Tract Infection** is the only one with a plausible mechanistic link and supporting evidence (**0 clinical trials, 1 historical publication**), and is therefore the candidate carried forward in this report — the model's #1-ranked prediction (sclerosing cholangitis) was itself flagged by the evidence pack as a likely false positive with no mechanistic relevance.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on record (drug not marketed in Taiwan; no approved indication text available). Known pharmacologically as an aminoglycoside antibacterial. |
-| Predicted New Indication | Urinary Tract Infection (TxGNN rank 2; selected over the nominal rank-1 hit, see note below) |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 |
-| Market Status (Taiwan) | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Note on indication selection:** TxGNN's top-scoring prediction (sclerosing cholangitis, 99.66%) is explicitly annotated in the evidence pack as a probable false positive — sclerosing cholangitis is an autoimmune/fibrotic biliary disease with no mechanistic relationship to an antibacterial agent. The same is true for rank 3 (congenital prothrombin deficiency, a genetic coagulation disorder) and rank 5 (Ureaplasma urethritis, a cell-wall-free organism intrinsically resistant to aminoglycosides). Urinary tract infection is the highest-ranked prediction with both a coherent mechanism and actual supporting literature, so it is used as the lead candidate here.
+> فرامايسيتين هو مضاد حيوي من فئة الأمينوغليكوسيد يقتل البكتيريا؛ لا توجد سجلات للمؤشر الأصلي أو آلية العمل متاحة في هذه مجموعة الأدلة، والدواء غير مسوق حالياً في تايوان.
+> من بين المؤشرات التي تنبأ بها TxGNN، **عدوى المسالك البولية** هي الوحيدة التي لها ارتباط آلي معقول وأدلة داعمة (**0 تجربة سريرية، منشور تاريخي واحد**)، وبالتالي فهي المرشح المنقول للأمام في هذا التقرير — المرتبة الثانية للنموذج (التهاب الأقنية الصفراوية التصلبي) تم تحديدها من قبل مجموعة الأدلة كموجب كاذب محتمل بدون أهمية آلية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data for framycetin is not available in this evidence pack (Data Gap, High severity). Based on known pharmacology, framycetin is an aminoglycoside antibiotic with bactericidal activity against gram-negative organisms — including *Escherichia coli*, *Proteus mirabilis*, and *Pseudomonas aeruginosa*, the most common pathogens in urinary tract infection.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير مسجل (الدواء غير مسوق في تايوان؛ لا يتوفر نص الاستطباب المعتمد). معروف دوائياً كمضاد بكتيري من فئة الأمينوغليكوسيد. |
+| المؤشر الجديد المتنبأ به | عدوى المسالك البولية (ترتيب TxGNN 2؛ تم اختياره بدلاً من الضربة الاسمية للترتيب الأول، انظر الملاحظة أدناه) |
+| درجة التنبؤ بـ TxGNN | 99.42% |
+| مستوى الدليل | L4 |
+| حالة السوق (تايوان) | غير مسوق (Not marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | احتفظ |
 
-This mechanistic fit is directly supported by historical evidence: a 1976 German urology paper describes framycetin sulfate (alongside kanamycin) used in bladder instillation/irrigation, where it completely suppressed growth of *P. mirabilis* and *P. aeruginosa* in an infected-bladder model. This indicates a real, if dated, precedent for local urinary-tract application of framycetin rather than a purely computational association.
-
-However, this remains an early-stage, exploratory signal: there is only one historical publication, no registered clinical trials, and no modern efficacy or safety data. The predicted link is mechanistically credible but not clinically validated.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [816047](https://pubmed.ncbi.nlm.nih.gov/816047/) | 1976 | Case series/Cohort (presumed — non-English abstract, study design not confirmed against full text) | Der Urologe. Ausg. A | In an experimental infected-bladder model, continuous irrigation with Actihaemyl alone promoted growth of *E. coli*, *P. mirabilis*, and *P. aeruginosa*; adding framycetin sulfate (or kanamycin) completely suppressed growth of *P. mirabilis* and *P. aeruginosa*. |
+**ملاحظة حول اختيار المؤشر:** التنبؤ الأعلى تصنيفاً من TxGNN (التهاب الأقنية الصفراوية التصلبي، 99.66%) معلّم بوضوح في مجموعة الأدلة كموجب كاذب محتمل — التهاب الأقنية الصفراوية التصلبي هو مرض صفراوي ذاتي المناعة/ليفي بدون علاقة آلية لعامل مضاد للبكتيريا. الحال ذاته بالنسبة للترتيب 3 (نقص البروثرومبين الخلقي، اضطراب تجلط دم وراثي) والترتيب 5 (التهاب الإحليل بـ Ureaplasma، كائن خالي من الجدار الخلوي مقاوم بطبيعته للأمينوغليكوسيدات). عدوى المسالك البولية هي التنبؤ الأعلى تصنيفاً مع آلية متماسكة والأدبيات الداعمة الفعلية، لذلك يتم استخدامها كمرشح رئيسي هنا.
 
 ---
 
-## Taiwan Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Framycetin is not currently marketed in Taiwan (Not marketed); there are no license or product records on file.
+بيانات آلية عمل فرامايسيتين المفصلة غير متوفرة في مجموعة الأدلة هذه (فجوة بيانات، شدة عالية). بناءً على الدراسات الدوائية المعروفة، فرامايسيتين هو مضاد حيوي من فئة الأمينوغليكوسيد بنشاط مبيد للبكتيريا ضد الكائنات سالبة الغرام — بما في ذلك *Escherichia coli*، *Proteus mirabilis*، و*Pseudomonas aeruginosa*، أكثر الممرضات شيوعاً في عدوى المسالك البولية.
 
----
+هذه الملاءمة الآلية مدعومة مباشرة بالأدلة التاريخية: تصف ورقة بحثية ألمانية من عام 1976 في أمراض المسالك البولية استخدام فرامايسيتين سلفات (إلى جانب كاnamycin) في التصريف/الري في المثانة، حيث قمعت تماماً نمو *P. mirabilis* و*P. aeruginosa* في نموذج مثانة مصابة. يشير هذا إلى سابقة حقيقية، وإن كانت قديمة، لتطبيق فرامايسيتين محلي في المسالك البولية بدلاً من ارتباط حسابي بحت.
 
-## Safety Considerations
-
-TFDA package insert warnings and contraindications for framycetin are not currently available. This is flagged as a **Blocking** data gap in the evidence pack — the package insert (warnings/contraindications) must be obtained before this candidate can enter Stage 1 (S1) safety assessment. No drug-drug interaction data was found.
-
-Please refer to the package insert for safety information once available.
+ومع ذلك، يظل هذا إشارة استكشافية في المرحلة المبكرة: لا توجد سوى منشور تاريخي واحد، ولا توجد تجارب سريرية مسجلة، وأي بيانات عن الفعالية أو السلامة الحديثة. الارتباط المتنبأ به معقول من الناحية الآلية لكنه غير مثبت سريرياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-A Blocking data gap (missing TFDA package insert) currently prevents any formal safety assessment, and the supporting evidence for urinary tract infection is limited to a single 46-year-old historical publication with no modern trials. The evidence level (L4) and decision stage (S1) reflect an early research signal, not a validated repurposing candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — required to clear the Blocking gap and enable S1 safety review
-- Confirmed mechanism of action data from DrugBank
-- Contemporary literature/clinical trial search on framycetin (or intravesical aminoglycoside) for urinary tract infection, beyond the single 1976 report
-- Route-of-administration data (available vs. required routes) to assess feasibility of local/intravesical use
-- Re-confirmation that sclerosing cholangitis, congenital prothrombin deficiency, and Ureaplasma urethritis should remain deprioritized as mechanistically implausible TxGNN false positives
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [816047](https://pubmed.ncbi.nlm.nih.gov/816047/) | 1976 | سلسلة حالات/دراسة تجميعية (مفترضة — ملخص بلغة غير إنجليزية، تصميم الدراسة لم يتم التأكيد عليه مقابل النص الكامل) | Der Urologe. Ausg. A | في نموذج مثانة مصابة تجريبي، الري المستمر بـ Actihaemyl وحده عزز نمو *E. coli*، *P. mirabilis*، و*P. aeruginosa*؛ إضافة فرامايسيتين سلفات (أو كاnamycin) قمعت تماماً نمو *P. mirabilis* و*P. aeruginosa*. |
+
+---
+
+## معلومات سوق تايوان
+
+فرامايسيتين غير مسوق حالياً في تايوان (Not marketed)؛ لا توجد سجلات ترخيص أو منتجات في الملف.
+
+---
+
+## اعتبارات السلامة
+
+تحذيرات نشرة الدواء الصادرة عن TFDA وموانع الاستعمال لفرامايسيتين غير متوفرة حالياً. يتم تحديد هذا كفجوة بيانات **حاجزة** في مجموعة الأدلة — يجب الحصول على نشرة الدواء (التحذيرات/موانع الاستعمال) قبل أن يتمكن هذا المرشح من دخول المرحلة 1 (S1) لتقييم السلامة. لم يتم العثور على بيانات تفاعلات دوائية.
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة بمجرد توفرها.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احتفظ**
+
+**الأساس المنطقي:**
+فجوة بيانات حاجزة (نشرة الدواء الصادرة عن TFDA مفقودة) تمنع حالياً أي تقييم رسمي للسلامة، والأدلة الداعمة لعدوى المسالك البولية مقتصرة على منشور تاريخي واحد يعود لـ 46 سنة بدون تجارب حديثة. مستوى الدليل (L4) ومرحلة القرار (S1) يعكسان إشارة بحثية مبكرة، وليس مرشح إعادة توظيف مثبت.
+
+**لكي نتابع، يلزم ما يلي:**
+- نشرة الدواء الصادرة عن TFDA (التحذيرات، موانع الاستعمال) — مطلوبة لإزالة الفجوة الحاجزة وتفعيل مراجعة السلامة S1
+- بيانات آلية عمل مؤكدة من DrugBank
+- بحث معاصر في الأدبيات/التجارب السريرية عن فرامايسيتين (أو الأمينوغليكوسيد الكيسي) لعدوى المسالك البولية، بما يتجاوز التقرير الوحيد من عام 1976
+- بيانات طريق الإعطاء (المتاح مقابل المطلوب) لتقييم جدوى الاستخدام المحلي/الكيسي
+- إعادة تأكيد أن التهاب الأقنية الصفراوية التصلبي، ونقص البروثرومبين الخلقي، والتهاب الإحليل بـ Ureaplasma يجب أن تبقى منخفضة الأولوية كموجبات كاذبة TxGNN غير معقولة من الناحية الآلية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,60 +29,61 @@ indication_count: 7
 
 </div>
 
-# FELODIPINE: From Hypertension to Pulmonary Hypertension with Unclear Multifactorial Mechanism
+# الفيلوديبين: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي مع آلية متعددة العوامل غير واضحة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Felodipine is a dihydropyridine calcium channel blocker (CCB) originally used to treat hypertension. The TxGNN model's top-ranked prediction suggests possible efficacy in **pulmonary hypertension with unclear multifactorial mechanism**, but this direction currently has **0 clinical trials** and **0 publications** supporting it — it is a model-score-only signal.
+الفيلوديبين هو حاصر قنوات الكالسيوم من نوع الديهيدروبيريدين (CCB) يُستخدم في الأصل لعلاج ارتفاع ضغط الدم. يشير الترتيب الأول للتنبؤ من نموذج TxGNN إلى فعالية محتملة في **ارتفاع ضغط الدم الرئوي مع آلية متعددة العوامل غير واضحة**، لكن هذا الاتجاه حالياً يمتلك **0 تجربة سريرية** و**0 منشور** يدعمها — إنها إشارة قائمة على درجة النموذج فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (based on felodipine's known pharmacological classification as a dihydropyridine CCB; no formal Saudi Arabia label text is available since the drug is not marketed there) |
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 (no clinical trials or literature identified) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| الاستخدام الأصلي | ارتفاع ضغط الدم (بناءً على التصنيف الدوائي المعروف للفيلوديبين كحاصر قنوات كالسيوم من نوع الديهيدروبيريدين؛ لا يوجد نص تسمية رسمي للمملكة العربية السعودية متاح لأن الدواء غير معروض في السوق هناك) |
+| الاستخدام الجديد المتنبأ به | ارتفاع ضغط الدم الرئوي مع آلية متعددة العوامل غير واضحة |
+| درجة توقع TxGNN | 99.91% |
+| مستوى الأدلة | L5 (لم يتم تحديد أي تجارب سريرية أو أدبيات) |
+| حالة السوق بالمملكة العربية السعودية | غير معروض في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for felodipine is not available (DrugBank MOA field is a data gap). Based on known pharmacological classification, felodipine is a dihydropyridine calcium channel blocker used for hypertension, acting by inhibiting voltage-gated calcium influx into vascular smooth muscle to produce vasodilation.
+حالياً، بيانات آلية العمل التفصيلية للفيلوديبين غير متاحة (حقل DrugBank MOA يمثل فجوة بيانات). بناءً على التصنيف الدوائي المعروف، الفيلوديبين هو حاصر قنوات كالسيوم من نوع الديهيدروبيريدين يُستخدم لعلاج ارتفاع ضغط الدم، ويعمل عن طريق منع دخول الكالسيوم عبر القنوات المعتمدة على الفولتاج في عضلات الأوعية الدموية الملساء لإنتاج توسع الأوعية.
 
-The predicted indication itself — "pulmonary hypertension with unclear multifactorial mechanism" — is, by its own name, a disease category whose pathophysiology is not well defined (analogous to WHO Group 5 pulmonary hypertension). This ambiguity makes it difficult to construct a concrete pharmacological rationale connecting felodipine's calcium-channel-blocking activity to this specific condition.
+الاستخدام المتنبأ به نفسه — **ارتفاع ضغط الدم الرئوي مع آلية متعددة العوامل غير واضحة** — هو، بموجب اسمه الخاص، فئة من فئات الأمراض التي لا تُفهم فيزيولوجيتها المرضية بشكل جيد (مماثلاً لمجموعة ارتفاع ضغط الدم الرئوي من فئة منظمة الصحة العالمية 5). هذا الغموض يجعل من الصعب بناء أساس دوائي ملموس يربط نشاط الفيلوديبين في حجب قنوات الكالسيوم بهذه الحالة المحددة.
 
-No clinical trials or literature were retrieved for this drug-disease pair, and the evidence pack's own rationale explicitly flags this as a low-confidence, evidence-free prediction. This should be treated as a raw model signal rather than a substantiated repurposing hypothesis.
+لم يتم استرجاع أي تجارب سريرية أو أدبيات لهذا الزوج من الدواء والمرض، وعبوة الأدلة نفسها تشير صراحة إلى هذا كإشارة منخفضة الثقة وخالية من الأدلة. يجب التعامل معها كإشارة نموذج خام بدلاً من فرضية تجديد استخدام موثقة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+حالياً لا تتوفر أدبيات ذات صلة
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Felodipine is not currently marketed in Saudi Arabia; no authorization records are available.
+الفيلوديبين غير معروض حالياً في السوق السعودية؛ لا تتوفر سجلات تصريح.
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى ملصق الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-This is a rank-1 TxGNN score with no supporting clinical trials or literature, and the target indication's own mechanism is described as "unclear/multifactorial," preventing any concrete mechanistic linkage to felodipine. A Blocking-severity data gap also exists for TFDA/local regulatory warnings and contraindications, which precludes even a preliminary (S1) safety screen.
+**المبرر:**
+هذه درجة توقع TxGNN من المرتبة الأولى بدون تجارب سريرية أو أدلة أدبية داعمة، والاستخدام المستهدف نفسه وصفت آليته بـ "غير واضح/متعدد العوامل،" مما يمنع أي ربط ميكانيكي ملموس للفيلوديبين بهذه الحالة المحددة. توجد أيضاً فجوة بيانات حجب لتحذيرات/موانع استخدام TFDA المحلية، مما يمنع حتى الفحص الأمني الأولي (S1).
 
-**To proceed, the following is needed:**
-- Felodipine mechanism of action (MOA) data from DrugBank (currently a data gap, High severity)
-- Official package insert / regulatory warnings and contraindications (currently a Blocking data gap — required before any S1 safety evaluation)
-- A broader literature/trial search strategy for this indication, since the exact disease term returned zero hits
-- Note: within this same evidence pack, the rank-7 candidate (Prinzmetal angina) shows a substantially stronger signal — 8 relevant publications including 3 RCTs specific to felodipine, evidence level L2, and a "Proceed with Guardrails" recommendation at decision stage S3. If the goal is to identify a viable repurposing candidate for felodipine, that indication warrants separate, prioritized evaluation rather than this rank-1 prediction.
+**للمتابعة، يلزم التالي:**
+- بيانات آلية عمل الفيلوديبين (MOA) من DrugBank (حالياً فجوة بيانات بدرجة عالية)
+- ملصق الحزمة الرسمي / التحذيرات والموانع المنظمة (حالياً فجوة بيانات حاجزة — مطلوبة قبل أي تقييم أمني S1)
+- استراتيجية بحث أوسع عن الأدبيات والتجارب لهذا الاستخدام، لأن مصطلح المرض الدقيق أرجع صفراً من النتائج
+- ملاحظة: ضمن نفس هذه العبوة من الأدلة، المرشح من المرتبة السابعة (ذبحة برينزمتال) يُظهر إشارة أقوى بكثير — 8 منشورات ذات صلة تشمل 3 تجارب معشاة ذات شواهد محددة للفيلوديبين، مستوى أدلة L2، وتوصية "المتابعة مع الحراسات" في مرحلة قرار S3. إذا كان الهدف هو تحديد مرشح تجديد استخدام قابل للتطبيق للفيلوديبين، فإن هذا الاستخدام يستحق تقييماً منفصلاً وأولوية أعلى بدلاً من هذا التنبؤ من المرتبة الأولى.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,63 +29,64 @@ indication_count: 10
 
 </div>
 
-# Famotidine: From Peptic Ulcer Disease to Duodenogastric Reflux
+# فاموتيدين: من مرض القرحة الهضمية إلى الارتجاع الثنائي المعدي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Famotidine is a histamine H2-receptor antagonist established for peptic ulcer disease and related acid-suppression indications. The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, but this direction is currently supported by **0 clinical trials** and only **2 publications**, both of limited study quality.
+فاموتيدين هو مضاد لمستقبلات الهستامين H2 الراسخ لعلاج مرض القرحة الهضمية والمؤشرات الأخرى المتعلقة بتثبيط الحمض. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الارتجاع الثنائي المعدي**، إلا أن هذا الاتجاه مدعوم حالياً بـ **0 تجارب سريرية** و **منشورين فقط** ذوي جودة دراسية محدودة.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Peptic ulcer disease / gastric acid hypersecretion (H2-receptor antagonist class; no structured Saudi Arabia license record available in this evidence pack) |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | مرض القرحة الهضمية / فرط إفراز الحمض المعدي (فئة مضادات H2-للهستامين؛ لا توجد سجلات ترخيص منظمة للمملكة العربية السعودية متاحة في هذه المجموعة الإثباتية) |
+| المؤشر الجديد المتنبأ به | الارتجاع الثنائي المعدي |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الإثبات | L4 |
+| حالة السوق في المملكة العربية السعودية | غير معروض في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, famotidine is a histamine H2-receptor antagonist, and its efficacy in peptic ulcer disease has been proven; mechanistically it reduces gastric acid secretion, which may partially apply to reflux-related mucosal injury.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل. بناءً على المعلومات المعروفة، فاموتيدين هو مضاد لمستقبلات الهستامين H2، وقد ثبت فعاليته في مرض القرحة الهضمية؛ من حيث الآلية، يقلل إفراز الحمض المعدي، مما قد ينطبق جزئياً على الإصابة المخاطية المرتبطة بالارتجاع.
 
-However, the evidence pack's own rationale flags this specific link as **weak**: duodenogastric reflux is primarily driven by bile/alkaline reflux rather than acid, so famotidine can only mitigate the acid-related injury component and does not address the underlying reflux mechanism itself. This distinguishes it from famotidine's core approved use (acid-driven ulcer disease), where the mechanistic fit is direct.
+ومع ذلك، فإن المجموعة الإثباتية نفسها تشير إلى أن هذا الارتباط المحدد **ضعيف**: الارتجاع الثنائي المعدي يقوده في المقام الأول الارتجاع الصفراوي/الأساسي بدلاً من الحمضي، لذا يمكن لفاموتيدين فقط أن يخفف من مكون الإصابة المرتبطة بالحمض ولا يعالج آلية الارتجاع الأساسية نفسها. هذا يميزه عن استخدام فاموتيدين الأساسي المعتمد (مرض القرحة الهضمية الذي يقوده الحمض)، حيث يكون التوافق الآلي مباشراً.
 
-Notably, two other candidates in this same evidence pack — "active peptic ulcer disease" (rank 3, L1, Proceed with Guardrails) and "peptic ulcer disease" (rank 8, L1, Proceed with Guardrails) — are annotated as famotidine's **existing labeled indication rather than a genuinely new repurposing candidate**. Reviewers should be aware the ranked list mixes label-indication confirmation with true off-label hypotheses; duodenogastric reflux (rank 1) is the pack's top-ranked *novel* candidate and is the subject of this report.
+بشكل ملحوظ، يتم تعليق مرشحين آخرين في نفس المجموعة الإثباتية هذه - "مرض القرحة الهضمية النشط" (الترتيب 3، L1، المتابعة مع الضمانات) و "مرض القرحة الهضمية" (الترتيب 8، L1، المتابعة مع الضمانات) - كـ **مؤشر مرخص موجود لفاموتيدين بدلاً من مرشح إعادة تطبيق حقيقي جديد**. يجب أن يكون المراجعون على دراية بأن القائمة المرتبة تخلط بين تأكيد المؤشر المرخص مع فرضيات خارج التسمية الحقيقية؛ الارتجاع الثنائي المعدي (الترتيب 1) هو المرشح الجديد *الفعلي* الأعلى ترتيباً في المجموعة وهو موضوع هذا التقرير.
 
-## Clinical Trial Evidence
+## الإثبات من التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## الإثبات من الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Cohort | World Journal of Gastroenterology | Investigated famotidine's effect on gastroesophageal reflux (GER) and duodeno-gastro-esophageal reflux (DGER) in critically ill patients, exploring possible mechanisms and relevant risk factors |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Review | Eksperimental'naia i klinicheskaia gastroenterologiia | Evaluated efficacy of famotidine 20 mg BID at early stages of gastroduodenal reflux disease, based on clinical and endoscopic findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | مجموعة | World Journal of Gastroenterology | تحقق من تأثير فاموتيدين على الارتجاع المريئي المعدي (GER) والارتجاع الثنائي المعدي المريئي (DGER) لدى المرضى الحرجين، واستكشاف الآليات الممكنة وعوامل الخطر ذات الصلة |
+| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | مراجعة | Eksperimental'naia i klinicheskaia gastroenterologiia | تقييم فعالية فاموتيدين 20 ملغ مرتين يومياً في المراحل المبكرة من مرض الارتجاع الثنائي المعدي، بناءً على النتائج السريرية والتنظيرية |
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No marketing authorization currently on record (market status: Not marketed; total authorizations: 0).
+لا يوجد تصريح تسويق مسجل حالياً (حالة السوق: غير معروض في السوق؛ إجمالي التصاريح: 0).
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات الأمان.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-The mechanistic link is weak — duodenogastric reflux is primarily a bile/alkaline-mediated process, not acid-mediated, so an H2-antagonist addresses only a secondary injury component. There are no clinical trials and only two low-to-moderate quality publications (one cohort, one review), consistent with the pack's own L4/S0 (Hold) scoring.
+**الأساس المنطقي:**
+الارتباط الآلي ضعيف — الارتجاع الثنائي المعدي يقوده في المقام الأول الصفراء/الارتجاع الأساسي بدلاً من الحمض، لذا يعالج مضاد H2 فقط مكون إصابة ثانوي. لا توجد تجارب سريرية وفقط منشورين بجودة منخفضة إلى متوسطة (مجموعة واحدة ومراجعة واحدة)، وهو ما يتسق مع درجات L4/S0 (انتظر) الخاصة بالحزمة نفسها.
 
-**To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data confirming any direct relevance to bile/alkaline reflux pathophysiology, not just acid suppression
-- TFDA/Saudi package insert warnings, contraindications, and drug interaction data (currently all marked as data gaps)
-- Mechanistic or comparative studies (e.g., famotidine vs. PPI or prokinetics) specifically targeting duodenogastric reflux endpoints
-- Confirmation of Saudi Arabia market/registration status, since the drug currently shows zero authorizations
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية العمل (MOA) المفصلة التي تؤكد أي صلة مباشرة بفسيولوجيا الارتجاع الصفراوي/الأساسي، وليس فقط تثبيط الحمض
+- تحذيرات نشرة TFDA/المملكة العربية السعودية والمؤشرات المضادة وبيانات تفاعل الأدوية (حالياً تم تعليم الجميع كفجوات بيانات)
+- دراسات آلية أو مقارنة (على سبيل المثال، فاموتيدين مقابل مثبط المضخة البروتونية أو محفزات الحركة) تستهدف على وجه التحديد نقاط نهاية الارتجاع الثنائي المعدي
+- تأكيد حالة السوق/الترخيص في المملكة العربية السعودية، حيث أن الدواء يظهر حالياً صفر تصاريح
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

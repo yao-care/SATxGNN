@@ -29,76 +29,77 @@ indication_count: 2
 
 </div>
 
-# Upadacitinib: From Inflammatory Disease to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# أوبادسيتينيب: من الأمراض الالتهابية إلى متلازمة الحول المخروطي وصغر الحدقة وخلل التنسج الرضحي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Upadacitinib is a selective JAK1 inhibitor known (per available narrative context) for treating inflammatory/autoimmune conditions such as rheumatoid arthritis, atopic dermatitis, and ulcerative colitis; formal original-indication and MOA data are not recorded in this evidence pack.
-> The TxGNN model predicts a possible effect on **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, a rare congenital developmental disorder,
-> but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the score as a likely false positive.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack (background context indicates JAK1-inhibitor use in inflammatory disease, e.g. rheumatoid arthritis, atopic dermatitis, ulcerative colitis) |
-| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> يعتبر أوبادسيتينيب (upadacitinib) مثبطاً انتقائياً لـ JAK1 معروفاً (حسب السياق السردي المتاح) لعلاج الحالات الالتهابية والمناعية الذاتية مثل التهاب المفاصل الروماتويدي والتهاب الجلد التأتبي والتهاب القولون التقرحي؛ لم يتم تسجيل بيانات المؤشر الأصلي وآلية العمل الرسمية في هذه مجموعة الأدلة.
+> يتنبأ نموذج TxGNN بتأثير محتمل على **متلازمة الحول المخروطي وصغر الحدقة وخلل التنسج الرضحي**، وهي اضطراب نمائي خلقي نادر،
+> لكن هذا مدعوم بـ **0 تجارب سريرية** و **0 منشورات**، والنموذج نفسه يعتبر الدرجة موجباً كاذباً محتملاً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة عامة
 
-Detailed mechanism of action data for upadacitinib is not available in this evidence pack (flagged as a High-severity data gap). Based on the limited narrative context provided, upadacitinib is understood to be a selective JAK1 inhibitor that suppresses cytokine signaling, used in inflammatory/autoimmune conditions.
-
-Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a congenital ocular and skeletal malformation syndrome driven by developmental/genetic abnormalities, not by inflammatory or autoimmune pathology. There is no known mechanistic pathway connecting JAK1 inhibition to embryonic ocular or skeletal development.
-
-The evidence pack's own repurposing rationale explicitly assesses this candidate as lacking biological plausibility: the high TxGNN score (99.61%) is most likely an artifact of the knowledge-graph embedding space rather than a genuine pharmacological signal, since no clinical trials, registry entries, or publications link upadacitinib to this disease. A second candidate in this same evidence pack, brachydactyly-syndactyly syndrome (score 99.58%, also a congenital skeletal malformation), was evaluated with the same conclusion — no known link to JAK-STAT pathway biology and no supporting evidence — and was likewise scored Hold.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مسجل في مجموعة الأدلة (السياق الخلفي يشير إلى استخدام مثبطات JAK1 في الأمراض الالتهابية، مثل التهاب المفاصل الروماتويدي والتهاب الجلد التأتبي والتهاب القولون التقرحي) |
+| المؤشر الجديد المتنبأ به | متلازمة الحول المخروطي وصغر الحدقة وخلل التنسج الرضحي |
+| درجة تنبؤ TxGNN | 99.61% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا يبدو هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية لأوبادسيتينيب غير متاحة في هذه مجموعة الأدلة (وقد تم تصنيفها كفجوة بيانات عالية الخطورة). بناءً على السياق السردي المحدود المتاح، يُفهم أن أوبادسيتينيب مثبط انتقائي لـ JAK1 يثبط الإشارات الخلوية، ويستخدم في الحالات الالتهابية والمناعية الذاتية.
 
----
+متلازمة الحول المخروطي وصغر الحدقة وخلل التنسج الرضحي هي متلازمة تشوهات خلقية عينية وهيكلية ناجمة عن شذوذات نمائية/وراثية، وليس عن المسارات الالتهابية أو المناعية الذاتية. لا يوجد مسار معروف يربط تثبيط JAK1 بالنمو العيني والهيكلي الجنيني.
 
-## Saudi Arabia Market Information
-
-Upadacitinib is not marketed in Saudi Arabia (0 authorizations recorded), so no product-level licensing table is available.
+يقيّم تحليل إعادة التوظيف الوارد في مجموعة الأدلة بوضوح أن هذا المرشح يفتقر إلى المعقولية البيولوجية: الدرجة العالية في TxGNN (99.61%) هي على الأرجح نتيجة ثانوية لفضاء التضمين في الرسم البياني للمعرفة وليست إشارة دوائية حقيقية، لأنه لا توجد تجارب سريرية أو إدخالات سجل أو منشورات تربط أوبادسيتينيب بهذا المرض. مرشح ثانٍ في مجموعة الأدلة ذاتها، متلازمة قصر الأصابع والالتحام (درجة 99.58%، وهي أيضاً تشوه هيكلي خلقي)، تم تقييمه بالاستنتاج نفسه — عدم وجود ارتباط معروف بمسار JAK-STAT البيولوجي ولا أدلة داعمة — وتم تصنيفه بالمثل كـ توقف.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد حالياً أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This candidate has no clinical trial or literature support (Evidence Level L5), and there is no known mechanistic link between JAK1 inhibition and congenital ocular/skeletal developmental syndromes. The high TxGNN score most likely reflects embedding-space noise rather than a genuine repurposing signal; the same conclusion applies to the second candidate (brachydactyly-syndactyly syndrome) in this evidence pack.
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for upadacitinib (currently a data gap)
-- TFDA/SFDA package insert warnings and contraindications (currently a Blocking data gap)
-- Drug-drug interaction data
-- Independent biological-plausibility review before any further investment in this indication pair
+## معلومات السوق السعودي
+
+أوبادسيتينيب غير مسوق في السعودية (0 تفويضات مسجلة)، لذلك لا تتوفر جدول ترخيص على مستوى المنتج.
+
+---
+
+## اعتبارات السلامة
+
+يرجى مراجعة النشرة الداخلية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**المنطق:**
+هذا المرشح غير مدعوم بتجارب سريرية أو أدبيات (مستوى الدليل L5)، وليس هناك ارتباط آلي معروف بين تثبيط JAK1 ومتلازمات النمو العيني والهيكلي الخلقية. الدرجة العالية في TxGNN تعكس على الأرجح الضوضاء في فضاء التضمين وليست إشارة إعادة توظيف حقيقية؛ الخلاصة ذاتها تنطبق على المرشح الثاني (متلازمة قصر الأصابع والالتحام) في هذه مجموعة الأدلة.
+
+**للمتابعة، هناك حاجة إلى:**
+- بيانات آلية العمل المؤكدة لأوبادسيتينيب (حالياً فجوة بيانات)
+- تحذيرات وموانع استعمال نشرة TFDA/SFDA (حالياً فجوة بيانات حاجزة)
+- بيانات التفاعلات الدوائية
+- مراجعة مستقلة للمعقولية البيولوجية قبل أي استثمار إضافي في هذا الزوج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

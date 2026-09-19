@@ -29,60 +29,61 @@ indication_count: 2
 
 </div>
 
-# Triclocarban: From Topical Antibacterial Use to Migraine Disorder
+# تريكلوكاربان: من الاستخدام الموضعي المضاد للبكتيريا إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Triclocarban is not an approved systemic pharmaceutical — it is a topical antibacterial agent (FabI/bacterial fatty-acid synthesis inhibitor) commonly found in soaps and personal care products, with no formal approved indication on record. The TxGNN model predicts it may be effective for **Migraine Disorder**, but this is currently a pure model prediction with **0 clinical trials** and **0 publications** supporting it.
+تريكلوكاربان ليس دواءً نظامياً موافقاً عليه — فهو عامل مضاد بكتيري موضعي (مثبط FabI/تخليق الأحماض الدهنية البكتيرية) يوجد عادة في الصابون ومنتجات العناية الشخصية، وليس لديه أي مؤشرات معتمدة رسمياً في السجل. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **اضطراب الصداع النصفي**، لكن هذا حالياً تنبؤ نموذج بحت بـ **0 تجربة سريرية** و **0 منشورات** تدعمه.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | No formally approved indication — used as a topical antibacterial excipient (soaps/personal care products) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا يوجد مؤشر معتمد رسمياً — يُستخدم كمكون مضاد بكتيري موضعي (الصابون/منتجات العناية الشخصية) |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ من TxGNN | 99.27% |
+| مستوى الأدلة | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة (غير مسوقة) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in the evidence pack (flagged as a data gap). Based on known information, triclocarban is a topical antibacterial compound whose established activity is limited to inhibition of bacterial cell membrane/fatty acid synthesis (FabI inhibition) in personal care applications — it is not developed as a systemic drug and has no documented CNS penetration or vascular/trigeminovascular activity.
+بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة (وقد تم تصنيفها كفجوة بيانات). بناءً على المعلومات المعروفة، تريكلوكاربان هو مركب مضاد بكتيري موضعي يقتصر نشاطه المعروف على تثبيط غشاء الخلية البكتيرية/تخليق الأحماض الدهنية (تثبيط FabI) في تطبيقات العناية الشخصية — فهو لم يتم تطويره كدواء نظامي وليس لديه اختراق موثق للجهاز العصبي المركزي أو نشاط وعائي/ثلاثي التوائم.
 
-Migraine pathophysiology involves CGRP signaling, trigeminovascular activation, and cortical spreading depression — none of which have any established mechanistic link to triclocarban's known antibacterial activity. There is no plausible pharmacological bridge between the original (topical antibacterial) use and the predicted new indication.
+تتضمن فيزيولوجيا الأمراض للصداع النصفي تنشيط إشارات CGRP والتنشيط ثلاثي التوائم الوعائي والانتشار القشري — لا أي منها له ارتباط آلي معروف بنشاط تريكلوكاربان المضاد للبكتيريا المعروف. لا توجد جسور فارماكولوجية معقولة بين الاستخدام الأصلي (مضاد بكتيري موضعي) والمؤشر الجديد المتنبأ به.
 
-The high TxGNN score (99.27%) should therefore be interpreted as a graph-embedding similarity signal rather than mechanistic or clinical evidence. With zero supporting clinical trials or literature (including for the closely related "migraine with brainstem aura" subtype, which ranked #2 with a similar lack of evidence), this prediction currently has no real-world validation.
+يجب بالتالي تفسير درجة TxGNN العالية (99.27%) كإشارة تشابه تضمين الشبكة بدلاً من الأدلة الآلية أو السريرية. مع عدم وجود تجارب سريرية أو أدبيات داعمة (بما في ذلك النوع الفرعي الوثيق الصلة "الصداع النصفي مع هالة جذع الدماغ"، الذي احتل المرتبة #2 مع نقص أدلة مماثل)، هذا التنبؤ حالياً ليس له أي تحقق في العالم الحقيقي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا تتوفر حالياً أي أدبيات ذات صلة
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Triclocarban is not currently marketed as a pharmaceutical product in Saudi Arabia (0 authorizations on record; market status: Not marketed).
+تريكلوكاربان غير مسوقة حالياً كمنتج دوائي في المملكة العربية السعودية (0 تصاريح في السجل؛ حالة السوق: غير مسوقة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-No pharmaceutical safety data (warnings, contraindications, or drug interactions) is currently available for triclocarban — please refer to any future package insert once one becomes available, or consult general chemical safety data for topical/consumer-product use.
+لا توجد بيانات سلامة دوائية (تحذيرات أو موانع استعمال أو تفاعلات الأدوية) متاحة حالياً لتريكلوكاربان — يرجى الرجوع إلى أي نشرة حزمة في المستقبل بمجرد توفرها، أو استشير بيانات السلامة الكيميائية العامة لاستخدام موضعي/المستهلك.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-This is an L5, model-prediction-only signal with no mechanistic rationale, no clinical trials, and no literature support. Triclocarban is not a marketed pharmaceutical and lacks basic drug-level safety data, so it cannot proceed past initial screening.
+**الأساس المنطقي:**
+هذه إشارة L5 قائمة على تنبؤ النموذج فقط، بدون أساس آلي، وبدون تجارب سريرية، وبدون دعم أدبيات. تريكلوكاربان ليست دواءً مسوقاً وتفتقد بيانات أساسية على مستوى الأدوية، لذا لا يمكن أن تتجاوز الفحص الأولي.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data — warnings and contraindications (currently blocking, per data gap DG001)
-- Verified mechanism of action data from DrugBank or primary literature (data gap DG002)
-- Any preclinical or mechanistic evidence linking triclocarban to CNS/migraine-relevant pathways
-- Feasibility assessment for systemic (non-topical) drug development, given no existing pharmaceutical formulation or regulatory pathway
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة الحزمة TFDA/التنظيمية — التحذيرات وموانع الاستعمال (حالياً مانع، وفقاً لفجوة البيانات DG001)
+- بيانات آلية العمل المتحقق منها من DrugBank أو الأدبيات الأولية (فجوة البيانات DG002)
+- أي أدلة ما قبل سريرية أو آلية تربط تريكلوكاربان بمسارات ذات صلة بـ CNS/الصداع النصفي
+- تقييم الجدوى لتطوير أدوية نظامية (غير موضعية)، نظراً لعدم وجود تركيبة دوائية حالية أو مسار تنظيمي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

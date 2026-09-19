@@ -29,80 +29,81 @@ indication_count: 1
 
 </div>
 
-# Glucagon (DB00040): Original Indication Not on File → Predicted Signal for Irritable Bowel Syndrome (Likely False Positive)
+# جلوكاجون (DB00040): المؤشر الأصلي غير المدرج في الملف → إشارة متنبأ بها لمتلازمة القولون العصبي (احتمالية موجب خاطئ)
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-The Evidence Pack does not contain data on glucagon's original approved indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts a possible new indication for **Irritable Bowel Syndrome (IBS)** with a high score (99.24%), but the underlying **10 clinical trials** and **20 publications** almost entirely study **GLP-1 receptor agonists** (ROSE-010, liraglutide, exendin-4) — a different drug class acting on the opposite receptor from glucagon (GCGR). The repurposing rationale itself flags this as likely an entity-confusion artifact in the knowledge graph, not a genuine pharmacological signal for glucagon.
+لا تحتوي حزمة الأدلة على بيانات حول المؤشر الأصلي المعتمد لجلوكاجون أو آلية عمله (كلاهما محدد كفجوات بيانات). يتنبأ نموذج TxGNN بمؤشر محتمل جديد لـ **متلازمة القولون العصبي (IBS)** برصيد عالي (99.24%)، لكن **10 تجارب سريرية** و **20 منشور** تحتها تدرس بشكل أساسي **ناهضات مستقبلات GLP-1** (ROSE-010، liraglutide، exendin-4) — فئة دواء مختلفة تعمل على مستقبل معاكس لجلوكاجون (GCGR). تشير نسبة التحضير للاستخدام الجديد نفسها إلى أن هذا ربما يكون عيباً في الالتباس بين الكيانات في الرسم البياني للمعرفة، وليس إشارة دوائية حقيقية لجلوكاجون.
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no data in this Evidence Pack) |
-| Predicted New Indication | Irritable Bowel Syndrome |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح (لا توجد بيانات في حزمة الأدلة هذه) |
+| المؤشر الجديد المتنبأ به | متلازمة القولون العصبي |
+| درجة التنبؤ TxGNN | 99.24% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقف |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data for glucagon is not available in this Evidence Pack (marked as a High-severity data gap), and no original indication is on file. Based on general pharmacology, glucagon is a glucagon receptor (GCGR) agonist that raises blood glucose via hepatic glycogenolysis and gluconeogenesis, and its recognized GI use is limited to transient smooth-muscle relaxation (antispasmodic effect during endoscopy/imaging) — not a mechanism aimed at chronic IBS management.
+حالياً، بيانات آلية العمل التفصيلية لجلوكاجون غير متاحة في حزمة الأدلة هذه (محددة كفجوة بيانات عالية الخطورة)، ولا يوجد مؤشر أصلي مسجل. بناءً على الصيدلة العامة، جلوكاجون هو ناهض مستقبلات جلوكاجون (GCGR) يرفع مستويات جلوكوز الدم عن طريق تحلل السكريات الكبدية والعملاقية الكبدية، واستخدامه المعروف في الجهاز الهضمي يقتصر على استرخاء العضل الأملس المؤقت (تأثير مضاد للتشنج أثناء التنظير / التصوير) - وليس آلية موجهة لإدارة IBS المزمنة.
 
-**This prediction should be treated with caution rather than as reasonable support for repurposing.** Nearly all of the supporting clinical trials and literature involve **GLP-1 receptor agonists** (ROSE-010, liraglutide, exendin-4, native GLP-1) — a pharmacologically distinct class that acts on GLP-1R, not GCGR. Although glucagon and GLP-1 both derive from the same preproglucagon gene via tissue-specific post-translational processing, their downstream receptors and physiological effects are essentially opposite (GLP-1 inhibits GI motility and lowers glucose; glucagon promotes glycogenolysis and raises glucose). The high TxGNN score most likely reflects gene/family-level over-linkage between glucagon and GLP-1 nodes in the knowledge graph rather than a real pharmacological basis for glucagon itself treating IBS. Of the 11 clinical trials retrieved, 10 were explicitly graded "C" (not relevant — wrong drug entity) by the evidence review; none support glucagon as an IBS therapy.
+**يجب معاملة هذا التنبؤ بحذر بدلاً من اعتباره دعماً معقولاً لإعادة الاستخدام.** يتضمن معظم التجارب السريرية والأدبيات الداعمة **ناهضات مستقبلات GLP-1** (ROSE-010، liraglutide، exendin-4، GLP-1 الأصلي) - فئة دوائية متميزة تعمل على GLP-1R، وليس GCGR. على الرغم من أن جلوكاجون و GLP-1 كلاهما مشتق من نفس جين preproglucagon عن طريق المعالجة اللاحقة للترجمة الخاصة بالأنسجة، فإن مستقبلاتهما النهائية والتأثيرات الفسيولوجية أساساً معاكسة (GLP-1 يثبط حركة الجهاز الهضمي وينخفض الجلوكوز؛ جلوكاجون يعزز تحلل السكريات الكبدية ويرفع مستويات الجلوكوز). ربما تعكس درجة TxGNN العالية ربط الجينات / مستوى الأسرة المفرط بين عقد جلوكاجون و GLP-1 في الرسم البياني للمعرفة بدلاً من أساس دوائي حقيقي لمعالجة جلوكاجون نفسه من IBS. من بين 11 تجربة سريرية تم استردادها، تم تصنيف 10 بشكل صريح على أنها "C" (غير ذات صلة — كيان دواء خاطئ) من قبل مراجعة الأدلة؛ لا يدعم أحدها جلوكاجون كعلاج لـ IBS.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-*Note: nearly all trials below study GLP-1 receptor agonists (ROSE-010, liraglutide, exendin-4) or unrelated dietary/lifestyle interventions — not glucagon. They are listed for transparency but were graded low relevance ("C") to the glucagon→IBS prediction.*
+*ملاحظة: تدرس معظم التجارب أدناه ناهضات مستقبلات GLP-1 (ROSE-010، liraglutide، exendin-4) أو التدخلات الغذائية / نمط الحياة غير المرتبطة — وليس جلوكاجون. تم تدرجها من أجل الشفافية لكن تم تصنيفها منخفضة الصلة ("C") بالنسبة لتنبؤ glucagon→IBS.*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Completed | 52 | Studied ROSE-010 (GLP-1 analog, not glucagon) on GI motor function in constipation-predominant IBS |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Completed | 12 | Native GLP-1 and analog ROSE-010 inhibit prandial GI motility; mechanistic study, not glucagon |
-| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Phase 2 | Terminated | 8 | Liraglutide (GLP-1 agonist) for chronic high bowel frequency post-IPAA; opposite mechanism to glucagon |
-| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | N/A | Completed | 66 | Exercise training effects on gut dysbiosis and GLP-1 hormone in IBS; no drug intervention |
-| [NCT04230655](https://clinicaltrials.gov/study/NCT04230655) | N/A | Unknown | 110 | Low-calorie diet + intragastric balloon for obesity; unrelated to glucagon or IBS pharmacology |
-| [NCT00802971](https://clinicaltrials.gov/study/NCT00802971) | N/A | Completed | 12 | Reactive hypoglycemia and fructo-oligosaccharide supplementation; no glucagon intervention |
-| [NCT05249023](https://clinicaltrials.gov/study/NCT05249023) | N/A | Completed | 37 | Butyrate's role in colon health/IBS; unrelated to glucagon |
-| [NCT06113146](https://clinicaltrials.gov/study/NCT06113146) | N/A | Completed | 41 | Eating rate of ultra-processed foods and metabolic response; unrelated to glucagon |
-| [NCT06333717](https://clinicaltrials.gov/study/NCT06333717) | N/A | Completed | 33 | Whole grain rye bread effect on gut-brain axis in healthy subjects; unrelated to glucagon |
-| [NCT04111263](https://clinicaltrials.gov/study/NCT04111263) | N/A | Completed | 33 | Gut-microbiota-targeted nutrition for barrier integrity under hypoxia; unrelated to glucagon |
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | المرحلة 1/2 | مكتملة | 52 | درس ROSE-010 (نظير GLP-1، وليس جلوكاجون) على وظيفة الحركة الهضمية في IBS بنمط الإمساك |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | المرحلة 1 | مكتملة | 12 | GLP-1 الأصلي والنظير ROSE-010 يثبطان حركة الجهاز الهضمي المرتبطة بالطعام؛ دراسة آلية، وليس جلوكاجون |
+| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | المرحلة 2 | موقفة | 8 | liraglutide (ناهض GLP-1) للتكرار المزمن العالي للقناة الهضمية بعد IPAA؛ آلية معاكسة لجلوكاجون |
+| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | N/A | مكتملة | 66 | آثار تدريب التمارين على عدم توازن الأمعاء وهرمون GLP-1 في IBS؛ بدون تدخل دوائي |
+| [NCT04230655](https://clinicaltrials.gov/study/NCT04230655) | N/A | غير معروفة | 110 | حمية منخفضة السعرات الحرارية + بالون داخل المعدة للسمنة؛ غير مرتبط بجلوكاجون أو صيدلة IBS |
+| [NCT00802971](https://clinicaltrials.gov/study/NCT00802971) | N/A | مكتملة | 12 | فرط تفاعل نقص السكر في الدم ومكملات الفركتو-أوليجوساكاريد؛ بدون تدخل جلوكاجون |
+| [NCT05249023](https://clinicaltrials.gov/study/NCT05249023) | N/A | مكتملة | 37 | دور الزبدة في صحة القولون/IBS؛ غير مرتبط بجلوكاجون |
+| [NCT06113146](https://clinicaltrials.gov/study/NCT06113146) | N/A | مكتملة | 41 | معدل تناول الأطعمة فائقة المعالجة والاستجابة الأيضية؛ غير مرتبط بجلوكاجون |
+| [NCT06333717](https://clinicaltrials.gov/study/NCT06333717) | N/A | مكتملة | 33 | تأثير خبز الجاودار الكامل على محور الدماغ-الأمعاء في الأشخاص الأصحاء؛ غير مرتبط بجلوكاجون |
+| [NCT04111263](https://clinicaltrials.gov/study/NCT04111263) | N/A | مكتملة | 33 | التغذية الموجهة نحو الميكروبيوتا الأمعاء لتكامل الحاجز تحت نقص الأكسجين؛ غير مرتبط بجلوكاجون |
 
-## Literature Evidence
+## أدلة الأدبيات العلمية
 
-*Note: literature below concerns GLP-1 receptor agonists/endogenous GLP-1, not glucagon itself.*
+*ملاحظة: تتعلق الأدبيات أدناه بناهضات مستقبلات GLP-1/GLP-1 الداخلية، وليس جلوكاجون نفسه.*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | RCT | Scand J Gastroenterol | ROSE-010 (GLP-1 agonist) reduces pain during IBS attacks; subgroup analysis of responders |
-| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | RCT | Am J Physiol Gastrointest Liver Physiol | ROSE-010 dose-response study on GI motor/bowel function in IBS-C |
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematic Review | Frontiers in Endocrinology | GLP-1 receptor agonists (incl. ROSE-010) inhibit migrating motor complex, improving IBS symptoms |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Review | Experimental Physiology | Endogenous GLP-1 from gut L-cells implicated in IBS pathophysiology |
-| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Review | Expert Opin Investig Drugs | Reviews investigational drugs for IBS-C, including GLP-1-class agents |
-| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Cohort | Clin Res Hepatol Gastroenterol | Decreased serum GLP-1 correlates with abdominal pain in IBS-C patients |
-| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Preclinical | Neurogastroenterol Motil | Exendin-4 (GLP-1 agonist) ameliorated GI dysfunction in a rat IBS model |
-| [23338623](https://pubmed.ncbi.nlm.nih.gov/23338623/) | 2013 | Preclinical | Int J Mol Med | GLP-1's role in pathogenesis of experimental IBS-C and IBS-D rat models |
-| [31311066](https://pubmed.ncbi.nlm.nih.gov/31311066/) | 2019 | Preclinical | Neurogastroenterol Motil | Ghrelin sensitizes colonic neurons to exendin-4, linked to postprandial IBS symptoms |
-| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Cohort | Frontiers in Nutrition | Low FODMAP diet increases circulating GLP-1 in IBS patients |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | RCT | Scand J Gastroenterol | ROSE-010 (ناهض GLP-1) يقلل الألم أثناء نوبات IBS؛ تحليل الفئات الفرعية للمستجيبين |
+| [22517769](https://pubmed.ncbi.nlm.nih.gov/22517769/) | 2012 | RCT | Am J Physiol Gastrointest Liver Physiol | دراسة استجابة الجرعات ROSE-010 على حركة الجهاز الهضمي / وظيفة الأمعاء في IBS-C |
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | مراجعة منهجية | Frontiers in Endocrinology | ناهضات مستقبلات GLP-1 (بما في ذلك ROSE-010) تثبط المعقد الحركي الهاجر، مما يحسن أعراض IBS |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | مراجعة | Experimental Physiology | GLP-1 الداخلية من خلايا L بالقناة الهضمية مرتبطة بممرضات IBS |
+| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | مراجعة | Expert Opin Investig Drugs | مراجعة الأدوية البحثية لـ IBS-C، بما في ذلك وكلاء فئة GLP-1 |
+| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | دراسة مجموعة | Clin Res Hepatol Gastroenterol | انخفاض GLP-1 المصلي يرتبط بألم البطن لدى مرضى IBS-C |
+| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | قبل-إكلينيكية | Neurogastroenterol Motil | exendin-4 (ناهض GLP-1) حسّن الخلل الهضمي في نموذج الفئران لـ IBS |
+| [23338623](https://pubmed.ncbi.nlm.nih.gov/23338623/) | 2013 | قبل-إكلينيكية | Int J Mol Med | دور GLP-1 في ممرضات IBS-C و IBS-D في نماذج الفئران التجريبية |
+| [31311066](https://pubmed.ncbi.nlm.nih.gov/31311066/) | 2019 | قبل-إكلينيكية | Neurogastroenterol Motil | Ghrelin يجعل الأعصاب القولونية حساسة لـ exendin-4، مرتبط بأعراض IBS بعد الطعام |
+| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | دراسة مجموعة | Frontiers in Nutrition | حمية FODMAP منخفضة تزيد من GLP-1 المتداول في مرضى IBS |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى مراجعة النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف**
 
-**Rationale:**
-This is a decision-stage S0 signal with Evidence Level L4, and the repurposing rationale flags a probable knowledge-graph entity confusion between glucagon (GCGR agonist) and GLP-1 receptor agonists — the drug class that actually underlies nearly all supporting trials and literature. Proceeding to a repurposing evaluation without resolving this would risk acting on a false-positive signal.
+**المنطق:**
+هذه إشارة بمرحلة قرار S0 مع مستوى دليل L4، وتشير نسبة التحضير للاستخدام الجديد إلى احتمالية الالتباس بين كيانات الرسم البياني للمعرفة بين جلوكاجون (ناهض GCGR) وناهضات مستقبلات GLP-1 — فئة الدواء التي تكمن فعلاً وراء معظم التجارب والأدبيات الداعمة. المضي قدماً في تقييم إعادة الاستخدام دون حل هذه المشكلة قد يعرض المخاطرة بالتصرف على إشارة موجبة خاطئة.
 
-**To proceed, the following is needed:**
-- Resolve the glucagon/GLP-1 entity ambiguity in the knowledge graph before any further scoring or reporting on this candidate
-- Obtain glucagon's confirmed original indication and mechanism of action (DrugBank API query — Data Gap DG002)
-- Obtain TFDA/manufacturer package insert warnings and contraindications (Data Gap DG001, Blocking severity — required before any S1 safety pre-assessment)
-- If a genuine glucagon-specific mechanistic hypothesis for IBS exists (e.g., via its antispasmodic GI effect), source trials/literature that study glucagon directly rather than GLP-1 receptor agonists
+**للمضي قدماً، يلزم ما يلي:**
+- حل الالتباس بين كيانات جلوكاجون/GLP-1 في الرسم البياني للمعرفة قبل أي تسجيل أو تقرير إضافي حول هذا المرشح
+- الحصول على المؤشر الأصلي المؤكد لجلوكاجون وآلية عمله (استعلام API DrugBank — Data Gap DG002)
+- الحصول على تحذيرات TFDA/الشركة المصنعة والموانع من النشرة الداخلية (Data Gap DG001، شدة Blocking — مطلوب قبل أي تقييم سلامة Pre-S1)
+- إذا كان هناك فرضية ميكانيكية حقيقية محددة لجلوكاجون لـ IBS (على سبيل المثال، من خلال تأثيره المضاد للتشنج على الجهاز الهضمي)، استمدّ التجارب/الأدبيات التي تدرس جلوكاجون مباشرة بدلاً من ناهضات مستقبلات GLP-1
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,103 +29,104 @@ indication_count: 10
 
 </div>
 
-# Clozapine: From Treatment-Resistant Schizophrenia to Manic Bipolar Affective Disorder
+# كلوزابين: من الفصام المقاوم للعلاج إلى الاضطراب ثنائي القطب الهوسي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Clozapine is a second-generation (atypical) antipsychotic established as the gold standard for treatment-resistant schizophrenia, recognized for its broad multi-receptor antagonism profile. The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**, achieving a prediction score of **99.95%**. This direction is currently supported by **6 clinical trials** and **20 publications**, including a completed Phase 2 double-blind RCT and two systematic reviews with meta-analysis directly addressing this indication.
+كلوزابين هو مضاد ذهان من الجيل الثاني (غير نمطي) معترف به كمعيار ذهبي لعلاج الفصام المقاوم للعلاج، وذلك بسبب ملفه الواسع لمضادات المستقبلات المتعددة. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الاضطراب ثنائي القطب الهوسي**، محققاً درجة تنبؤ **99.95%**. يدعم هذا الاتجاه حالياً **6 تجارب سريرية** و **20 منشوراً**، بما في ذلك تجربة عشوائية محكومة مزدوجة التعمية بالمرحلة 2 مكتملة ومراجعتان منهجيتان مع تحليل تجميعي يتناول هذا الاستطباب بشكل مباشر.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Treatment-Resistant Schizophrenia (established clinical gold standard) |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | الفصام المقاوم للعلاج (معيار ذهبي سريري معترف به) |
+| الاستطباب الجديد المتنبأ به | الاضطراب ثنائي القطب الهوسي |
+| درجة تنبؤ TxGNN | 99.95% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير موجود في السوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع حماية الحدود |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action (MOA) data is not available in the evidence pack. Based on established pharmacological knowledge and the mechanistic rationale in the Evidence Pack, clozapine is a multi-receptor antagonist with affinities for dopamine D2/D4, serotonin 5-HT2A, histamine H1, muscarinic M1–M5, and alpha-1 adrenergic receptors. This unusually broad receptor profile distinguishes it from all other antipsychotics and underlies its superior efficacy in refractory presentations.
+حالياً، لا تتوفر بيانات تفصيلية حول آلية العمل (MOA) في حزمة الأدلة. بناءً على المعرفة الصيدلانية المثبتة والعقلانية الآلية في حزمة الأدلة، فإن كلوزابين هو مضاد استقبلات متعدد له تقاربات لمستقبلات الدوبامين D2/D4، والسيروتونين 5-HT2A، والهيستامين H1، ومستقبلات العضلية M1–M5، ومستقبلات ألفا-1 الأدرينالية. يميز هذا الملف الجزيئي الواسع غير المعتاد كلوزابين عن جميع مضادات الذهان الأخرى ويكمن وراء فعاليته العليا في الحالات المقاومة للعلاج.
 
-The mechanistic bridge between schizophrenia and manic bipolar disorder is well-grounded: dopamine hyperactivity is implicated in both acute psychosis and manic episodes. Clozapine's D2/D4 antagonism directly dampens dopaminergic overactivation — a core driver of mania. Its 5-HT2A antagonism contributes mood-stabilizing effects that substantially overlap with the pharmacology of established mood stabilizers, while its H1 antagonism produces sedative and anti-manic properties particularly useful in acute manic agitation.
+الجسر الآلي بين الفصام والاضطراب ثنائي القطب الهوسي جيد التأسيس: فرط نشاط الدوبامين متورط في كل من الذهان الحاد والنوبات الهوسية. تثبيط D2/D4 من كلوزابين يقلل بشكل مباشر من الإفراط في تنشيط الدوبامينيرجية — محرك الهوس الأساسي. يساهم تثبيطه لـ 5-HT2A في تأثيرات تثبيت المزاج التي تتداخل بشكل كبير مع الصيدلة لمثبتات المزاج المعروفة، بينما ينتج عن تثبيطه لـ H1 تأثيرات مهدئة ومضادة للهوس مفيدة بشكل خاص في الهيجان الهوسي الحاد.
 
-Manic bipolar disorder and treatment-resistant schizophrenia share overlapping neurobiological substrates, and treatment-resistant bipolar mania in particular represents a significant unmet need with few remaining options after standard mood stabilizers and antipsychotics fail. A completed Phase 2 RCT (NCT00029458) directly demonstrated clozapine's efficacy in this exact scenario, and two systematic reviews with meta-analysis (PMID 32182485; PMID 25346322) confirm clinically meaningful benefit in treatment-resistant bipolar disorder, strongly supporting the TxGNN model's prediction.
+يشترك الاضطراب ثنائي القطب الهوسي والفصام المقاوم للعلاج في ركائز عصبية حيوية متداخلة، والهوس ثنائي القطب المقاوم للعلاج بشكل خاص يمثل احتياجاً طبياً كبيراً غير مُلباً مع خيارات قليلة متبقية بعد فشل مثبتات المزاج ومضادات الذهان القياسية. أثبتت تجربة عشوائية محكومة مزدوجة التعمية بالمرحلة 2 مكتملة (NCT00029458) بشكل مباشر فعالية كلوزابين في هذا السيناريو بالضبط، وتؤكد مراجعتان منهجيتان مع تحليل تجميعي (PMID 32182485؛ PMID 25346322) الفائدة السريرية ذات المعنى في الاضطراب ثنائي القطب المقاوم للعلاج، مما يدعم بقوة تنبؤ نموذج TxGNN.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Completed | 42 | Double-blind RCT directly evaluating the safety and effectiveness of clozapine for the manic phase of bipolar disorder; also investigated pathophysiology of treatment-resistant mania — the most direct interventional evidence for this indication |
-| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Phase 3 | Recruiting | 1,254 | Large RCT investigating intensified pharmacological treatment for schizophrenia, major depressive disorder, and bipolar depression after first-line treatment failure; completion expected 2028; results may elevate evidence to L1 |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Recruiting | 40 | Evaluating pharmacotherapy combined with the recovery-oriented program RECOVERYTRSBDGR for treatment-resistant bipolar disorder; pharmacotherapy arm includes clozapine-based regimens |
-| [NCT06993662](https://clinicaltrials.gov/study/NCT06993662) | Phase 1 | Active, Not Recruiting | 107 | Feasibility study of pharmacotherapy combined with individual cognitive behavioral therapy in private psychiatric practice; includes bipolar disorder patients |
-| [NCT03651674](https://clinicaltrials.gov/study/NCT03651674) | N/A | Unknown | 200 | Longitudinal MRI study examining brain structural and functional changes following ECT in schizophrenia and bipolar disorder; provides neuroimaging mechanistic data rather than direct efficacy outcomes |
-| [NCT07398365](https://clinicaltrials.gov/study/NCT07398365) | N/A | Recruiting | 100 | Observational study characterizing general psychiatric and medical phenotypes of NHS general adult psychiatry inpatients, including bipolar disorder; indirect relevance only |
+| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | مكتملة | 42 | تجربة عشوائية محكومة مزدوجة التعمية تقيم بشكل مباشر سلامة وفعالية كلوزابين للمرحلة الهوسية من الاضطراب ثنائي القطب؛ كما حققت في الفيزيولوجيا المرضية للهوس المقاوم للعلاج — أقوى دليل تدخلي لهذا الاستطباب |
+| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Phase 3 | البحث جارٍ | 1,254 | تجربة عشوائية محكومة كبيرة تحقق في العلاج الدوائي المكثف للفصام واضطراب الاكتئاب الشديد والاكتئاب ثنائي القطب بعد فشل العلاج من الخط الأول؛ توقع الانتهاء 2028؛ قد ترفع النتائج مستوى الدليل إلى L1 |
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | البحث جارٍ | 40 | تقييم العلاج الدوائي مع برنامج موجه للتعافي RECOVERYTRSBDGR للاضطراب ثنائي القطب المقاوم للعلاج؛ تضمن ذراع العلاج الدوائي أنظمة قائمة على كلوزابين |
+| [NCT06993662](https://clinicaltrials.gov/study/NCT06993662) | Phase 1 | نشط، عدم البحث جارٍ | 107 | دراسة جدوى للعلاج الدوائي مع العلاج السلوكي المعرفي الفردي في الممارسة النفسية الخاصة؛ تضمين مرضى الاضطراب ثنائي القطب |
+| [NCT03651674](https://clinicaltrials.gov/study/NCT03651674) | N/A | غير معروف | 200 | دراسة طولية بالتصوير بالرنين المغناطيسي تفحص التغييرات البنيوية والوظيفية في الدماغ بعد العلاج بالصدمات الكهربائية في الفصام والاضطراب ثنائي القطب؛ توفر بيانات الآلية العصبية بالتصوير بدلاً من نتائج الفعالية المباشرة |
+| [NCT07398365](https://clinicaltrials.gov/study/NCT07398365) | N/A | البحث جارٍ | 100 | دراسة ملاحظة لتوصيف النمط الظاهري النفسي والطبي العام لمرضى الرعاية النفسية العامة للبالغين في NHS، بما في ذلك الاضطراب ثنائي القطب؛ الارتباط غير مباشر فقط |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Systematic Review + Meta-Analysis | Journal of Psychiatric Research | Pooled quantitative assessment of clozapine's clinical efficacy and adverse effect profile specifically in bipolar disorder; represents the highest-tier evidence for this repurposing direction |
-| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Systematic Review | Bipolar Disorders | Evaluated efficacy and safety of clozapine specifically for treatment-resistant bipolar disorder (TRBD); key reference establishing the evidence base for clozapine as a rescue therapy |
-| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Narrative Review | Bipolar Disorders | Synthesizes current knowledge on clozapine use in bipolar disorder and identifies critical gaps and future research directions |
-| [40174308](https://pubmed.ncbi.nlm.nih.gov/40174308/) | 2025 | Real-World Nationwide Cohort | Journal of Psychiatric Research | Korean nationwide health insurance database study comparing anti-suicidal effectiveness of clozapine, lithium, and valproate in bipolar disorder; provides contemporary real-world safety and efficacy data |
-| [37068038](https://pubmed.ncbi.nlm.nih.gov/37068038/) | 2023 | Pharmacoepidemiological Study | Journal of Clinical Psychopharmacology | Asian Psychotropic Prescription Patterns Consortium study describing clozapine use patterns, dosing, and associated clinical characteristics in bipolar disorder across multiple Asian countries |
-| [31488793](https://pubmed.ncbi.nlm.nih.gov/31488793/) | 2019 | Review | Psychiatria Danubina | Reviews evidence for clozapine as a treatment for suicidality in bipolar disorder — the highest-risk psychiatric complication — highlighting its anti-aggressive and anti-impulsive properties |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Clinical Review | Acta Psychiatrica Scandinavica | Reviews evidence-based treatment options for acute bipolar mania, including the role of antipsychotics and clozapine's position in treatment algorithms |
-| [31567198](https://pubmed.ncbi.nlm.nih.gov/31567198/) | 2021 | Clinical Study | American Journal of Therapeutics | Discusses rapid clozapine titration protocols in both schizophrenia and bipolar disorder; addresses a key practical barrier to clinical deployment |
-| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Review | Molecular Psychiatry | Reviews management strategies for treatment-resistant bipolar disorder; positions clozapine among second-line options with supporting rationale |
-| [11280956](https://pubmed.ncbi.nlm.nih.gov/11280956/) | 2001 | Review | Bulletin of the Menninger Clinic | Early landmark review of pharmacotherapies for treatment-resistant bipolar disorder; contextualizes clozapine's emerging role alongside newer anticonvulsants |
+| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | مراجعة منهجية + تحليل تجميعي | مجلة أبحاث الطب النفسي | تقييم كمي موحد لفعالية كلوزابين السريرية وملف الآثار الضارة خاصة في الاضطراب ثنائي القطب؛ يمثل أعلى درجات الأدلة لهذا الاتجاه في إعادة توظيف الأدوية |
+| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | مراجعة منهجية | الاضطرابات ثنائية القطب | قيّم فعالية وسلامة كلوزابين خاصة للاضطراب ثنائي القطب المقاوم للعلاج (TRBD)؛ مرجع رئيسي يؤسس قاعدة الأدلة لكلوزابين كعلاج إنقاذي |
+| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | مراجعة سردية | الاضطرابات ثنائية القطب | يجمع المعرفة الحالية حول استخدام كلوزابين في الاضطراب ثنائي القطب ويحدد الثغرات الحرجة واتجاهات البحث المستقبلية |
+| [40174308](https://pubmed.ncbi.nlm.nih.gov/40174308/) | 2025 | دراسة جماعية وطنية في العالم الحقيقي | مجلة أبحاث الطب النفسي | دراسة قاعدة بيانات التأمين الصحي الوطنية الكورية تقارن الفعالية المضادة للانتحار لكلوزابين والليثيوم والفالبروات في الاضطراب ثنائي القطب؛ توفر بيانات أمان وفعالية معاصرة من العالم الحقيقي |
+| [37068038](https://pubmed.ncbi.nlm.nih.gov/37068038/) | 2023 | دراسة الأوبئة الدوائية | مجلة الطب النفسي السريري والعلاج النفسي بالعقاقير | دراسة اتحاد أنماط وصفات الأدوية النفسية الآسيوية تصف أنماط استخدام كلوزابين والجرعات والخصائص السريرية المرتبطة في الاضطراب ثنائي القطب عبر عدة دول آسيوية |
+| [31488793](https://pubmed.ncbi.nlm.nih.gov/31488793/) | 2019 | مراجعة | طب الدانوب النفسي | يراجع الأدلة على كلوزابين كعلاج للسلوك الانتحاري في الاضطراب ثنائي القطب — أعلى مضاعفة نفسية خطورة — مع تسليط الضوء على خصائصه المضادة للعدوانية والمضادة للاندفاعية |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | مراجعة سريرية | أكتا سايكياتريكا سكانديناافيكا | يراجع خيارات العلاج القائمة على الأدلة للهوس ثنائي القطب الحاد، بما في ذلك دور مضادات الذهان وموقع كلوزابين في خوارزميات العلاج |
+| [31567198](https://pubmed.ncbi.nlm.nih.gov/31567198/) | 2021 | دراسة سريرية | مجلة العلاجات الأمريكية | يناقش بروتوكولات معايرة كلوزابين السريعة في كل من الفصام والاضطراب ثنائي القطب؛ يتناول حاجزاً عملياً رئيسياً لنشر النتائج سريرياً |
+| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | مراجعة | الطب النفسي الجزيئي | يراجع استراتيجيات الإدارة للاضطراب ثنائي القطب المقاوم للعلاج؛ يضع كلوزابين من بين الخيارات من الدرجة الثانية مع العقلانية الداعمة |
+| [11280956](https://pubmed.ncbi.nlm.nih.gov/11280956/) | 2001 | مراجعة | نشرة عيادة مينينجر | مراجعة معلم مبكرة للعلاجات الدوائية للاضطراب ثنائي القطب المقاوم للعلاج؛ يوضع الدور الناشئ لكلوزابين جنباً إلى جنب مع مضادات الاختلاج الأحدث |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Clozapine is currently **not marketed** in Saudi Arabia. There are **no registered product authorizations** on file. No product-level authorization data is available for tabulation.
+كلوزابين حالياً **غير موجود في السوق** في المملكة العربية السعودية. لا توجد **تفويضات منتج مسجلة** في الملف. لا توجد بيانات تفويض على مستوى المنتج متاحة للجدولة.
 
-Clozapine holds regulatory approval for treatment-resistant schizophrenia in the United States (FDA), the European Union (EMA), Australia (TGA), and multiple Asian markets. Any use in Saudi Arabia would require formal SFDA registration.
-
----
-
-## Safety Considerations
-
-Safety data (key warnings, contraindications, and drug-drug interactions) were not retrieved in this evidence pack and are classified as a **blocking data gap** (DG001) for the full S1 safety evaluation. Based on Clozapine's well-established risk profile from international literature, the following areas require particular attention prior to any clinical deployment:
-
-- **Agranulocytosis**: Life-threatening bone marrow suppression requiring mandatory CBC monitoring — the primary reason clozapine use is restricted to registered monitoring programs in most countries (PMID 38697177)
-- **Metabolic effects**: Highest weight gain and metabolic dysregulation risk among all antipsychotics, including hyperglycemia and dyslipidemia
-- **Seizure risk**: Dose-dependent increase in seizure threshold lowering, particularly at doses >600 mg/day
-
-Please refer to the full package insert for complete warnings, contraindications, and drug interaction information before clinical use.
+يحتفظ كلوزابين بموافقة تنظيمية لعلاج الفصام المقاوم للعلاج في الولايات المتحدة (FDA) والاتحاد الأوروبي (EMA) وأستراليا (TGA) والعديد من الأسواق الآسيوية. أي استخدام في المملكة العربية السعودية يتطلب تسجيلاً رسمياً من الهيئة العامة للغذاء والدواء (SFDA).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+لم يتم استرجاع بيانات السلامة (التحذيرات الرئيسية والموانع والتفاعلات الدوائية) في حزمة الأدلة هذه وتصنف كـ **فجوة بيانات حاجبة** (DG001) للتقييم الكامل S1. بناءً على ملف المخاطر المعروف جيداً لكلوزابين من الأدبيات الدولية، تتطلب المجالات التالية اهتماماً خاصاً قبل أي نشر سريري:
 
-**Rationale:**
-A completed Phase 2 double-blind RCT (NCT00029458, N=42) directly confirmed clozapine's efficacy in treatment-resistant mania, and two systematic reviews with meta-analysis provide pooled evidence of benefit in bipolar disorder; the mechanistic rationale is well-supported by clozapine's multi-receptor antagonism profile. However, clozapine carries a uniquely high safety burden (mandatory CBC monitoring for agranulocytosis, significant metabolic monitoring requirements) and currently lacks any registered authorization in Saudi Arabia, making structured risk management a prerequisite for any clinical pathway forward.
+- **فرط نقص الحبيبات**: نقص نخاع عظمي مهدد للحياة يتطلب مراقبة CBC إجبارية — السبب الأساسي لتقييد استخدام كلوزابين ببرامج مراقبة مسجلة في معظم الدول (PMID 38697177)
+- **التأثيرات الأيضية**: أعلى خطر اكتساب الوزن واضطراب الاستقلاب بين جميع مضادات الذهان، بما في ذلك فرط سكر الدم واضطراب الدهون
+- **مخاطر النوبات**: زيادة تعتمد على الجرعات في خفض عتبة النوبات، خاصة بجرعات >600 ملغ/يوم
 
-**To proceed, the following is needed:**
+يرجى الرجوع إلى ملخص خصائص المنتج الكامل للحصول على معلومات كاملة حول التحذيرات والموانع والتفاعلات الدوائية قبل الاستخدام السريري.
 
-- **[Blocking]** Retrieve full package insert (SFDA/FDA/EMA) to complete S1 safety evaluation — specifically key warnings, contraindications, and drug-drug interactions flagged as DG001
-- **[High Priority]** Retrieve DrugBank MOA data (DG002) to formalize mechanistic analysis documentation
-- **[Regulatory]** Assess SFDA registration requirements for a new indication extension or compassionate use pathway in Saudi Arabia
-- **[Safety Infrastructure]** Design a mandatory hematological monitoring protocol (CBC with differential, minimum weekly for first 6 months then bi-weekly) aligned with clozapine registry requirements
-- **[Monitoring]** Establish metabolic monitoring plan: baseline and periodic fasting glucose, lipid panel, weight/BMI, and ECG
-- **[Evidence Watch]** Track completion of NCT05603104 (Phase 3, N=1,254, expected 2028) — if a clozapine arm is confirmed, results could elevate this indication to L1 evidence
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع حماية الحدود**
+
+**العقلانية:**
+أكدت دراسة عشوائية محكومة مزدوجة التعمية بالمرحلة 2 مكتملة (NCT00029458، N=42) بشكل مباشر فعالية كلوزابين في الهوس المقاوم للعلاج، وتوفر مراجعتان منهجيتان مع تحليل تجميعي أدلة موحدة على الفائدة في الاضطراب ثنائي القطب؛ يتم دعم العقلانية الآلية جيداً بملف معاداة المستقبلات المتعددة لكلوزابين. ومع ذلك، يحمل كلوزابين عبء سلامة مرتفع بشكل فريد (مراقبة CBC الإجبارية لفرط نقص الحبيبات، متطلبات مراقبة التمثيل الغذائي الكبيرة) وحالياً يفتقر إلى أي تفويض مسجل في المملكة العربية السعودية، مما يجعل إدارة المخاطر المنظمة شرطاً مسبقاً لأي مسار سريري للمضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **[حاجب]** استرجاع ملخص خصائص المنتج الكامل (SFDA/FDA/EMA) لإكمال تقييم السلامة S1 — على وجه التحديد التحذيرات الرئيسية والموانع والتفاعلات الدوائية المشار إليها على DG001
+- **[أولوية عالية]** استرجاع بيانات DrugBank MOA (DG002) لتوثيق تحليل الآلية الرسمي
+- **[تنظيمي]** تقييم متطلبات تسجيل الهيئة العامة للغذاء والدواء لامتداد استطباب جديد أو مسار الاستخدام الإنساني في المملكة العربية السعودية
+- **[البنية التحتية للسلامة]** تصميم بروتوكول مراقبة دموية إجبارية (CBC مع التمايز، بحد أدنى أسبوعي لأول 6 أشهر ثم كل أسبوعين) متوافقة مع متطلبات سجل كلوزابين
+- **[المراقبة]** إنشاء خطة مراقبة التمثيل الغذائي: الجلوكوز الأساسي والدوري على معدة فارغة، لوحة الدهون، الوزن/مؤشر كتلة الجسم، والمخطط الكهربائي للقلب
+- **[مراقبة الأدلة]** تتبع انتهاء NCT05603104 (المرحلة 3، N=1,254، متوقع 2028) — إذا تم تأكيد ذراع كلوزابين، يمكن للنتائج أن ترفع هذا الاستطباب إلى دليل L1
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,86 +29,87 @@ indication_count: 9
 
 </div>
 
-# Pravastatin: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# pravastatin: من فرط كوليسترول الدم إلى فرط كوليسترول الدم العائلي المتماثل الزيجوت
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Pravastatin is an HMG-CoA reductase inhibitor (statin) whose established use is lowering LDL-cholesterol in hypercholesterolemia and dyslipidemia. The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**, but the supporting evidence is thin and largely indirect — **1 clinical trial** (not testing pravastatin itself) and a handful of reviews/guidelines, so this signal should be treated as hypothesis-generating rather than confirmatory.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypercholesterolemia / dyslipidemia (general statin-class indication; not confirmed by a Saudi Arabia license record, as the product currently has no registered license there) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+pravastatin هو مثبط هيدروكسي ميثيل غلوتاريل (HMG-CoA) ريدكتيز (ستاتين) استخدامه الثابت هو خفض كوليسترول LDL في فرط كوليسترول الدم وعسر الدهون. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فرط كوليسترول الدم العائلي المتماثل الزيجوت (HoFH)**، لكن الأدلة الداعمة ضعيفة وغير مباشرة في الغالب — **تجربة سريرية واحدة فقط** (لا تختبر pravastatin نفسه) وحفنة من المراجعات والإرشادات، لذا يجب التعامل مع هذه الإشارة كمولدة للفرضيات بدلاً من كونها تأكيدية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism-of-action data is not available in this Evidence Pack. Based on known pharmacology, pravastatin is a hydrophilic HMG-CoA reductase inhibitor that lowers hepatic cholesterol synthesis and upregulates LDL-receptor (LDLR) expression, thereby reducing circulating LDL-C. This mechanism is well-proven in hypercholesterolemia and has an established pediatric safety record, since pravastatin is not metabolized via CYP3A4 and has a comparatively favorable interaction profile among statins.
-
-HoFH and general hypercholesterolemia sit on the same lipid-metabolism pathway, so the mechanistic link is plausible on its face. However, the evidence pack's own rationale flags an important limitation: HoFH patients have little or no functional LDL receptor activity, so a drug that works primarily by upregulating LDLR has intrinsically limited efficacy in this population. Clinically, statins (including pravastatin) are used in HoFH mainly as **background/adjunct therapy** alongside PCSK9 inhibitors, apheresis, or lomitapide, rather than as standalone treatment.
-
-This means the prediction is directionally reasonable — pravastatin belongs in the HoFH treatment picture — but the strength of the signal reflects a supportive/background role rather than a primary new indication with independent efficacy.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label study of alirocumab (a PCSK9 inhibitor, not pravastatin) in children/adolescents with HoFH on top of background lipid-lowering therapy; confirms HoFH treatment landscape and unmet need but does not test pravastatin directly. |
+| العنصر | المحتوى |
+|---|---|
+| المؤشر الأصلي | فرط كوليسترول الدم / عسر الدهون (مؤشر فئة ستاتين الثابت؛ غير مؤكد بسجل ترخيص المملكة العربية السعودية، حيث أن المنتج حالياً ليس له ترخيص مسجل هناك) |
+| المؤشر الجديد المتنبأ به | فرط كوليسترول الدم العائلي المتماثل الزيجوت (HoFH) |
+| درجة تنبؤ TxGNN | 99.95% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع الحواجز الوقائية |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Cochrane Review | Cochrane Database Syst Rev | Systematic review of statin use in children with familial hypercholesterolemia, including severe/homozygous cases; summarizes efficacy and long-term safety evidence. |
-| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Cochrane Review | Cochrane Database Syst Rev | Earlier version of the same Cochrane review on statins in pediatric FH; forms part of the evidence base behind current guideline recommendations. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE dyslipidemia management guideline placing statin therapy in the broader context of FH severity, including HoFH. |
-| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT (INTREPID) | Lancet HIV | Phase 4 RCT comparing pitavastatin vs pravastatin; while conducted in HIV patients rather than HoFH, it confirms pravastatin's low CYP450-mediated interaction potential relevant to statin selection in complex regimens. |
-| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Mechanistic/iPSC study | Stem Cell Res Ther | iPSC-derived, LDLR-deficient hepatocyte model used for CRISPR correction and FH modeling; supports the LDLR-pathway rationale mechanistically, though not statin-specific. |
-| [34425670](https://pubmed.ncbi.nlm.nih.gov/34425670/) | 2021 | Case study | Iran Biomed J | Identifies a novel LDLRAP1 splice-site variant causing FH; illustrates the genetic basis behind residual LDLR pathway function relevant to statin responsiveness. |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Comparative statin review noting pravastatin's relative LDL-lowering potency versus rosuvastatin and other statins. |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Review | Am J Cardiovasc Drugs | Review of ezetimibe as a cholesterol-absorption-inhibitor add-on, relevant to combination strategies used in severe FH including HoFH. |
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية في مجموعة الأدلة هذه. بناءً على الصيدلة المعروفة، فإن pravastatin هو مثبط HMG-CoA ريدكتيز محب للماء يقلل من تخليق الكوليسترول الكبدي ويزيد من التعبير عن مستقبل LDL (LDLR)، وبالتالي يقلل من LDL-C في الدوران. هذه الآلية موثقة جيداً في فرط كوليسترول الدم وله سجل سلامة طفولية راسخ، لأن pravastatin لا يتم استقلابه عبر CYP3A4 وله ملف تفاعل مواتٍ نسبياً بين الستاتينات.
+
+يقع HoFH وفرط كوليسترول الدم العام على نفس مسار استقلاب الدهون، لذا فإن الارتباط الميكانيكي معقول على وجهه. ومع ذلك، فإن منطق مجموعة الأدلة نفسه يشير إلى قيد مهم: مرضى HoFH لديهم نشاط مستقبل LDL وظيفي قليل جداً أو معدوم، لذا فإن العقار الذي يعمل بشكل أساسي عن طريق زيادة LDLR له فعالية محدودة بطبيعتها في هذه المجموعة السكانية. سريرياً، يتم استخدام الستاتينات (بما فيها pravastatin) في HoFH بشكل أساسي كـ **علاج خلفي/مساعد** جنباً إلى جنب مع مثبطات PCSK9، أو فرز الدم، أو lomitapide، بدلاً من العلاج المستقل.
+
+هذا يعني أن التنبؤ معقول من حيث الاتجاه — pravastatin ينتمي إلى المشهد العلاجي لـ HoFH — لكن قوة الإشارة تعكس دوراً داعماً/خلفياً بدلاً من مؤشر جديد أساسي بفعالية مستقلة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Pravastatin currently has no registered market authorization in Saudi Arabia (market status: not marketed; total licenses: 0). No product-level license data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | الاكتشافات الرئيسية |
+|---|---|---|---|---|
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | المرحلة 3 | اكتملت | 18 | دراسة مفتوحة من alirocumab (مثبط PCSK9، وليس pravastatin) في الأطفال والمراهقين مع HoFH على خلفية العلاج الخافض للدهون؛ تؤكد مشهد علاج HoFH والاحتياج غير المسدود لكن لا تختبر pravastatin مباشرة. |
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدب العلمي
 
-**Decision: Proceed with Guardrails**
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
+|---|---|---|---|---|
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | مراجعة Cochrane | Cochrane Database Syst Rev | مراجعة منهجية لاستخدام الستاتين في الأطفال مع فرط كوليسترول الدم العائلي، بما في ذلك الحالات الشديدة/المتماثلة الزيجوت؛ تلخص أدلة الفعالية والسلامة طويلة الأمد. |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | مراجعة Cochrane | Cochrane Database Syst Rev | نسخة سابقة من نفس مراجعة Cochrane حول الستاتينات في FH عند الأطفال؛ تشكل جزءاً من قاعدة الأدلة التي تقف وراء توصيات الإرشادات الحالية. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | إرشادات | Endocr Pract | إرشادات إدارة عسر الدهون من AACE/ACE التي تضع علاج الستاتين في السياق الأوسع لشدة FH، بما في ذلك HoFH. |
+| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | تجربة معشاة محكومة (INTREPID) | Lancet HIV | تجربة معشاة محكومة في المرحلة 4 تقارن pitavastatin مقابل pravastatin؛ بينما أجريت في مرضى HIV بدلاً من HoFH، فإنها تؤكد احتمالية تفاعل pravastatin منخفضة التوسط بواسطة CYP450 ذات الصلة باختيار الستاتين في الأنظمة المعقدة. |
+| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | دراسة آلية/iPSC | Stem Cell Res Ther | خلايا كبدية مشتقة من iPSC، نموذج LDLR-deficient يستخدم لتصحيح CRISPR وتصميم FH؛ يدعم منطق مسار LDLR آلياً، على الرغم من عدم كون محدد للستاتين. |
+| [34425670](https://pubmed.ncbi.nlm.nih.gov/34425670/) | 2021 | دراسة حالة | Iran Biomed J | يحدد متغير موقع الربط LDLRAP1 الجديد المسبب لـ FH؛ يوضح الأساس الجيني وراء وظيفة مسار LDLR المتبقية ذات الصلة باستجابة الستاتين. |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | مراجعة | Drugs | مراجعة ستاتينات مقارنة تلاحظ فعالية pravastatin النسبية في خفض LDL مقابل rosuvastatin والستاتينات الأخرى. |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | مراجعة | Am J Cardiovasc Drugs | مراجعة ezetimibe كمثبط امتصاص الكوليسترول إضافي، ذات صلة باستراتيجيات الجمع المستخدمة في FH الشديد بما في ذلك HoFH. |
 
-**Rationale:**
-The mechanistic rationale for pravastatin in HoFH is plausible but limited — HoFH patients have minimal functional LDLR, so pravastatin's principal mechanism has restricted standalone efficacy and no direct pravastatin-in-HoFH trial exists. Evidence level is L3 (indirect/review-level), and the drug is not currently marketed in Saudi Arabia, so this candidate needs both clinical and regulatory groundwork before advancing.
+---
 
-**To proceed, the following is needed:**
-- SFDA-approved package insert (warnings, contraindications) — currently a blocking data gap for the S1 safety review
-- Confirmed mechanism-of-action documentation from DrugBank
-- Pravastatin-specific HoFH clinical data (even as adjunct/background therapy alongside PCSK9 inhibitors, apheresis, or lomitapide)
-- Drug-drug interaction data (current query returned no results)
-- A market authorization pathway assessment for Saudi Arabia, since the product has no existing license there
+## معلومات سوق المملكة العربية السعودية
+
+يفتقر pravastatin حالياً إلى أي ترخيص سوقي مسجل في المملكة العربية السعودية (حالة السوق: غير مسوّق؛ إجمالي التفويضات: 0). لا توجد بيانات ترخيص على مستوى المنتج متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الإرشادية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الحواجز الوقائية**
+
+**الأساس المنطقي:**
+الأساس المنطقي الميكانيكي لـ pravastatin في HoFH معقول لكن محدود — مرضى HoFH لديهم نشاط LDLR وظيفي ضئيل جداً، لذا فإن آلية pravastatin الأساسية لها فعالية محدودة بطبيعتها ولا توجد تجربة مباشرة لـ pravastatin في HoFH. مستوى الدليل هو L3 (غير مباشر/على مستوى المراجعة)، والعقار غير مسوّق حالياً في المملكة العربية السعودية، لذا يحتاج هذا المرشح إلى كل من العمل السريري والتنظيمي قبل المضي قدماً.
+
+**لكي نتمكن من المضي قدماً، يلزم ما يلي:**
+- النشرة الإرشادية معتمدة من الهيئة السعودية للمتخصصين الصحيين (التحذيرات والمحاذير) — حالياً عائق في جمع البيانات لمراجعة السلامة S1
+- توثيق آلية العمل المؤكدة من DrugBank
+- بيانات سريرية عن pravastatin في HoFH (حتى كعلاج مساعد/خلفي جنباً إلى جنب مع مثبطات PCSK9، أو فرز الدم، أو lomitapide)
+- بيانات التفاعل بين الأدوية (البحث الحالي لم يعيد أي نتائج)
+- تقييم مسار التفويض السوقي للمملكة العربية السعودية، حيث أن المنتج ليس له ترخيص موجود هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

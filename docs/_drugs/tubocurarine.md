@@ -29,74 +29,75 @@ indication_count: 1
 
 </div>
 
-# Tubocurarine: From Neuromuscular Blockade to Irritable Bowel Syndrome
+# توبوكورارين: من الحصار العصبي-العضلي إلى متلازمة القولون العصبي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Tubocurarine is a non-depolarizing neuromuscular blocking agent, classically used to induce skeletal muscle relaxation during surgery/anesthesia; it is not currently marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome (IBS)**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational signal with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not marketed in Saudi Arabia; no approved indication text on file (0 licenses) |
-| Predicted New Indication | Irritable Bowel Syndrome |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+توبوكورارين هو عامل حصار عصبي-عضلي غير منقطع الاستقطاب، يُستخدم تقليديًا لحث استرخاء العضلات الهيكلية أثناء الجراحة/التخدير؛ ولم يتم تسويقه حاليًا في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **متلازمة القولون العصبي (IBS)**، لكن هذا التنبؤ يدعمه حاليًا **0 تجارب سريرية** و**0 منشورات** — فهو إشارة حسابية نقية بدون أدلة تدعمها.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available in the structured drug record (flagged as a data gap). However, based on known pharmacological classification, tubocurarine is a non-depolarizing neuromuscular blocker that acts as a competitive antagonist at nicotinic acetylcholine receptors (N2 subtype) on the skeletal muscle motor end-plate, producing muscle relaxation.
-
-IBS pathophysiology is primarily driven by abnormal gut motility, visceral hypersensitivity, dysregulation of the brain-gut axis, and serotonergic (5-HT3/5-HT4) signaling — mechanisms with no direct link to neuromuscular junction blockade. While nicotinic receptors are also present within the enteric nervous system, and systemic nicotinic antagonism could theoretically influence gut motility, this connection remains speculative rather than established.
-
-Overall, this is a high-scoring (99.31%) TxGNN prediction with no supporting trials, literature, or prior gastrointestinal indication for the drug. The mechanistic rationale is weak and indirect, and tubocurarine's lack of any marketing history in Saudi Arabia further limits the practical basis for pursuing this indication at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لم يتم تسويقه في المملكة العربية السعودية؛ لا يوجد نص مؤشر معتمد في الملف (0 تراخيص) |
+| المؤشر الجديد المتنبأ به | متلازمة القولون العصبي |
+| درجة التنبؤ TxGNN | 99.31% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ لم يتم التسويق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة في السجل الدوائي المنظم (معلمة كفجوة في البيانات). ومع ذلك، بناءً على التصنيف الدوائي المعروف، فإن توبوكورارين هو عامل حصار عصبي-عضلي غير منقطع الاستقطاب يعمل كمضاد تنافسي عند مستقبلات الأسيتيل كولين النيكوتينية (النوع N2) على لوحة النهاية الحركية للعضلات الهيكلية، مما ينتج استرخاء العضلات.
 
----
+تنتج أمراض IBS بشكل أساسي عن حركة الأمعاء غير الطبيعية، وفرط حساسية الأحشاء، واختلال تنظيم محور الدماغ-الأمعاء، والإشارات السيروتونينية (5-HT3/5-HT4) — آليات بدون ارتباط مباشر بحصار الوصلة العصبية العضلية. بينما توجد مستقبلات النيكوتين أيضًا في الجهاز العصبي المعوي، ويمكن نظريًا أن يؤثر حصار النيكوتين النظامي على حركة الأمعاء، إلا أن هذا الاتصال يبقى افتراضيًا بدلاً من أن يكون مثبتًا.
 
-## Saudi Arabia Market Information
-
-Tubocurarine is not marketed in Saudi Arabia — no product authorizations are on file (0 licenses).
+بشكل عام، هذا تنبؤ TxGNN عالي التصنيف (99.31%) بدون تجارب داعمة أو أدبيات أو مؤشرات جهاز هضمي سابقة للدواء. الأساس الآلي ضعيف وغير مباشر، وافتقار توبوكورارين لأي سجل تسويق في المملكة العربية السعودية يحد بشكل إضافي من الأساس العملي لمتابعة هذا المؤشر في الوقت الحالي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حاليًا تجارب سريرية مرتبطة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة من الأدبيات
 
-**Decision: Hold**
+لا توجد حاليًا أدبيات ذات صلة متاحة.
 
-**Rationale:**
-This is an L5 (model-prediction-only) finding with no clinical trials, literature, or established mechanistic pathway connecting neuromuscular blockade to IBS. Combined with the drug's unmarketed status in Saudi Arabia and an outstanding blocking data gap on TFDA/package-insert safety information, there is currently insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action from DrugBank or primary literature
-- Preclinical or mechanistic studies linking nicotinic receptor antagonism to gut motility/IBS symptoms
-- Any clinical trial or case-report evidence in gastrointestinal indications before re-evaluation
+## معلومات سوق المملكة العربية السعودية
+
+لا يتم تسويق توبوكورارين في المملكة العربية السعودية — لا توجد تفويضات منتجات في الملف (0 تراخيص).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+هذا بحث L5 (التنبؤ بنموذج فقط) بدون تجارب سريرية أو أدبيات أو مسار آلي مثبت يربط حصار الوصلة العصبية العضلية بـ IBS. مع عدم تسويق الدواء في المملكة العربية السعودية وفجوة بيانات حاجزة في TFDA/SFDA بشأن معلومات السلامة في نشرة الدواء، لا يوجد حاليًا أساس كاف للمتابعة مع هذا المرشح.
+
+**للمتابعة، يلزم الآتي:**
+- بيانات نشرة TFDA/SFDA (التحذيرات، موانع الاستعمال) — حاليًا فجوة بيانات حاجزة
+- الآلية المؤكدة للعمل من DrugBank أو الأدبيات الأولية
+- دراسات ما قبل السريرية أو دراسات آلية تربط حصار مستقبلات النيكوتين بحركة الأمعاء/أعراض IBS
+- أي دليل من التجارب السريرية أو تقارير الحالات في المؤشرات المعدية المعوية قبل إعادة التقييم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

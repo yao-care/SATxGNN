@@ -29,96 +29,97 @@ indication_count: 2
 
 </div>
 
-# Temozolomide: From Glioblastoma/Malignant Glioma to Adult Astrocytic Tumour
+# temozolomide: من الورم الأرومي الدبقي / الورم الدبقي الخبيث إلى ورم الأنسجة الدبقية لدى البالغين
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Temozolomide is an oral alkylating chemotherapy agent whose established, guideline-defining use is newly diagnosed and recurrent glioblastoma/malignant astrocytoma (the "Stupp protocol").
-> The TxGNN model predicts it may be effective for **Adult Astrocytic Tumour**,
-> with **2 clinical trials** and **20 publications** currently supporting this direction — though, as detailed below, this largely reflects an already-established standard of care rather than a novel repurposing signal.
+> temozolomide (تيموزولوميد) هو عامل تأليكيل فموي محدد النشاط، وعند استخدامه بشكل مثبت ومعرّف بالمبادئ التوجيهية يكون لعلاج الورم الأرومي الدبقي المشخص حديثاً والمتكرر والورم الدبقي الخبيث (بروتوكول ستوب).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ورم الأنسجة الدبقية لدى البالغين**،
+> مع **تجربتان سريريتان** و**20 منشور** يدعمان هذا الاتجاه حالياً — لكن، كما هو مفصل أدناه، يعكس هذا في الغالب معيار رعاية مثبتاً بالفعل بدلاً من إشارة إعادة استخدام جديدة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Glioblastoma / malignant (anaplastic) astrocytoma — per literature evidence in this pack (Stupp protocol, PMID 15758009); not documented in Saudi Arabia regulatory records because the drug is currently unmarketed there |
-| Predicted New Indication | Adult Astrocytic Tumour |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | الورم الأرومي الدبقي / الورم الدبقي الخبيث (غير المتمايز) — وفقاً لأدلة أدبية في هذه الحزمة (بروتوكول ستوب، PMID 15758009)؛ لم يتم توثيقه في السجلات التنظيمية بالمملكة العربية السعودية لأن الدواء غير مرخص حالياً هناك |
+| المؤشر المتنبأ به الجديد | ورم الأنسجة الدبقية لدى البالغين |
+| درجة التنبؤ من TxGNN | 99.36% |
+| مستوى الدليل | L1 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مرخص |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Temozolomide is an oral alkylating agent (a prodrug) that spontaneously converts to its active metabolite MTIC at physiological pH. MTIC methylates DNA at the O6-guanine position, producing lesions that trigger tumour-cell apoptosis. As a small, lipophilic molecule, it readily crosses the blood-brain barrier, which directly explains its mechanistic fit for primary brain tumours such as glioma and astrocytoma.
+temozolomide هو عامل تأليكيل فموي (مسبق للدواء) يتحول تلقائياً إلى ناتجه النشط MTIC عند درجة الحموضة الفسيولوجية. يقوم MTIC بإضافة مجموعات ميثيل لـ DNA على موضع O6-جوانين، مما ينتج آفات تؤدي إلى استحثاث موت الخلايا المبرمج (الاستماتة) في خلايا الورم. كجزيء صغير غير قطبي، يعبر بسهولة حاجز الدم في الدماغ، مما يفسر بشكل مباشر توافقه الآلي للأورام الدماغية الأولية مثل الورم الدبقي والورم الأرومي الدبقي.
 
-Importantly, this "predicted" indication is not a true departure from the drug's known use. Adult astrocytic tumour (including glioblastoma) is temozolomide's core, guideline-defined indication — the pivotal EORTC-NCIC trial (Stupp et al., NEJM 2005) established concomitant radiotherapy plus temozolomide, followed by adjuvant temozolomide, as the standard of care for newly diagnosed glioblastoma. Subsequent Phase 3 trials (EF-14, CeTeG/NOA-09, NOA-08) further reinforce this role in different patient subgroups and combination regimens.
+من المهم ملاحظة أن هذا المؤشر "المتنبأ به" ليس انحرافاً حقيقياً عن الاستخدام المعروف للدواء. ورم الأنسجة الدبقية لدى البالغين (بما في ذلك الورم الأرومي الدبقي) هو المؤشر الأساسي المعرّف بالمبادئ التوجيهية لـ temozolomide — أثبتت التجربة المحورية EORTC-NCIC (Stupp وآخرون، NEJM 2005) العلاج الإشعاعي المصاحب إلى جانب temozolomide، يتبعها temozolomide المساعد، كمعيار رعاية للورم الأرومي الدبقي المشخص حديثاً. أثبتت التجارب السريرية المرحلة الثالثة اللاحقة (EF-14 و CeTeG/NOA-09 و NOA-08) أيضاً دور هذا الدواء في مجموعات مختلفة من المرضى وأنظمة العلاج المشترك.
 
-The practical implication is that the TxGNN signal here should be read as **confirmation of an already-proven indication**, not as discovery of a new therapeutic avenue. The evidence pack itself flags this: the mechanistic link is described as the drug's "core/standard indication," and the evidence level should be interpreted with that context in mind — high scientific confidence, but low novelty as a repurposing candidate.
+التأثير العملي هو أن إشارة TxGNN هنا يجب قراءتها على أنها **تأكيد لمؤشر مثبت بالفعل**، وليس كاكتشاف لمسار علاجي جديد. تحتوي حزمة الدليل ذاتها على هذا التنبيه: يوصف الربط الآلي بأنه "المؤشر الأساسي / معيار الرعاية القياسية"، ويجب تفسير مستوى الدليل مع هذا السياق في الاعتبار — ثقة علمية عالية، لكن ابتكار منخفض كمرشح لإعادة الاستخدام.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | Completed | 500 | Randomized comparison of temozolomide alone vs. PCV (procarbazine, lomustine, vincristine) in recurrent WHO Grade III/IV astrocytic tumours — core Phase 3 evidence for this indication |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | Completed | 26 | Dose-finding study of cabozantinib (XL184) combined with temozolomide and radiotherapy in newly diagnosed glioblastoma; temozolomide used as a combination-partner backbone rather than as the study drug |
+| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | المرحلة الثالثة | مكتملة | 500 | مقارنة عشوائية بين temozolomide وحده مقابل PCV (بروكاربازين ولوموستين وفينكريستين) في أورام الأنسجة الدبقية المتكررة من الدرجة 3-4 WHO — دليل المرحلة الثالثة الأساسي لهذا المؤشر |
+| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | المرحلة الأولى | مكتملة | 26 | دراسة تحديد الجرعة من cabozantinib (XL184) مع temozolomide والعلاج الإشعاعي في الورم الأرومي الدبقي المشخص حديثاً؛ تم استخدام temozolomide كعمود فقري للعلاج المشترك بدلاً من أن يكون دواء الدراسة الأساسي |
 
 ---
 
-## Literature Evidence
+## دليل الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Landmark EORTC-NCIC trial establishing concomitant + adjuvant temozolomide with radiotherapy as standard of care for newly diagnosed glioblastoma |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT (5-year follow-up) | Lancet Oncol | 5-year follow-up confirms durable survival benefit of radiotherapy + temozolomide over radiotherapy alone |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | Adding bevacizumab to standard temozolomide/radiotherapy did not improve overall survival in newly diagnosed glioblastoma |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09: lomustine-temozolomide combination improved survival vs. temozolomide alone in MGMT-methylated glioblastoma |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | EF-14: Tumor-Treating Fields plus maintenance temozolomide improved survival vs. temozolomide alone |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08: dose-dense temozolomide alone vs. radiotherapy alone in elderly patients with malignant astrocytoma |
-| [40779733](https://pubmed.ncbi.nlm.nih.gov/40779733/) | 2025 | RCT | J Clin Oncol | NRG-BN007: dual immune checkpoint blockade (ipilimumab + nivolumab) evaluated against standard therapy in MGMT-unmethylated glioblastoma |
-| [25920709](https://pubmed.ncbi.nlm.nih.gov/25920709/) | 2015 | Cohort | J Neurooncol | Exploratory cohort of anaplastic astrocytoma/oligoastrocytoma patients treated with concurrent radiotherapy and temozolomide |
-| [36809318](https://pubmed.ncbi.nlm.nih.gov/36809318/) | 2023 | Review | JAMA | Comprehensive review of glioblastoma and other primary adult brain malignancies, including current management standards |
-| [39516198](https://pubmed.ncbi.nlm.nih.gov/39516198/) | 2024 | Basic Research (Mechanism) | Nat Commun | Single-cell regulatory profiling method reveals transcriptional/regulatory programs underlying neural cancer plasticity, relevant to glioma biology |
+| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | تجربة عشوائية محكومة | N Engl J Med | تجربة EORTC-NCIC التاريخية التي تثبت العلاج الإشعاعي المصاحب والمساعد بـ temozolomide كمعيار رعاية للورم الأرومي الدبقي المشخص حديثاً |
+| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | تجربة عشوائية محكومة (المتابعة لمدة 5 سنوات) | Lancet Oncol | تأكيد المتابعة لمدة 5 سنوات على فائدة البقاء المستمرة من العلاج الإشعاعي مع temozolomide على العلاج الإشعاعي وحده |
+| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | تجربة عشوائية محكومة | N Engl J Med | إضافة bevacizumab إلى العلاج الإشعاعي مع temozolomide القياسي لم تحسّن البقاء الكلي في الورم الأرومي الدبقي المشخص حديثاً |
+| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | تجربة عشوائية محكومة | Lancet | CeTeG/NOA-09: تحسّنت مزيج lomustine مع temozolomide من البقاء مقابل temozolomide وحده في الورم الأرومي الدبقي MGMT-methylated |
+| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | تجربة عشوائية محكومة | JAMA | EF-14: حقول الأورام المعالجة بالكهرباء مع صيانة temozolomide حسّنت البقاء مقابل temozolomide وحده |
+| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | تجربة عشوائية محكومة | Lancet Oncol | NOA-08: جرعة عالية من temozolomide وحده مقابل العلاج الإشعاعي وحده في المرضى الأكبر سناً مع ورم الأنسجة الدبقية الخبيث |
+| [40779733](https://pubmed.ncbi.nlm.nih.gov/40779733/) | 2025 | تجربة عشوائية محكومة | J Clin Oncol | NRG-BN007: تقييم حصار نقطة التفتيش المناعي المزدوج (ipilimumab + nivolumab) مقابل العلاج القياسي في الورم الأرومي الدبقي MGMT-unmethylated |
+| [25920709](https://pubmed.ncbi.nlm.nih.gov/25920709/) | 2015 | دراسة أتراب | J Neurooncol | مجموعة استكشافية من المرضى المصابين بورم الأنسجة الدبقية غير المتمايز / ورم الأنسجة الدبقية والأوليغودبقية الذين تم علاجهم بعلاج إشعاعي متزامن مع temozolomide |
+| [36809318](https://pubmed.ncbi.nlm.nih.gov/36809318/) | 2023 | استعراض | JAMA | استعراض شامل للورم الأرومي الدبقي والأورام الخبيثة الأولية الأخرى في الدماغ لدى البالغين، بما في ذلك معايير الإدارة الحالية |
+| [39516198](https://pubmed.ncbi.nlm.nih.gov/39516198/) | 2024 | بحث أساسي (آلية الفعل) | Nat Commun | طريقة تنميط تنظيمي مفردة الخلية تكشف البرامج النسخية والتنظيمية الكامنة وراء لدونة السرطان العصبي، والتي تتعلق بيولوجيا الورم الدبقي |
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, imidazotetrazine / DNA-methylating class — per mechanism described in the evidence pack) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | سمية خلوية تقليدية (عامل تأليكيل، فئة imidazotetrazine / DNA-methylating — وفقاً للآلية الموضحة في حزمة الدليل) |
+| خطر قلة الصفيحات والكريات | يرجى مراجعة تحذيرات واحتياطات ورقة بيانات الدواء |
+| تصنيف الغثيان التحريضي | يرجى مراجعة تحذيرات واحتياطات ورقة بيانات الدواء |
+| عناصر المراقبة | يرجى مراجعة تحذيرات واحتياطات ورقة بيانات الدواء |
+| حماية المناولة | يرجى مراجعة تحذيرات واحتياطات ورقة بيانات الدواء |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى مراجعة ورقة بيانات الدواء للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات**
 
-**Rationale:**
-Multiple completed Phase 3 RCTs (EORTC-NCIC/Stupp, EF-14, CeTeG/NOA-09, NOA-08) provide L1-level evidence that temozolomide is effective in adult astrocytic tumours — but this reflects confirmation of an already-established standard of care rather than a novel repurposing opportunity. The drug is currently unmarketed in Saudi Arabia with no license records, and safety/interaction data are entirely unavailable in this evidence pack.
+**الأساس المنطقي:**
+توفر تجارب عشوائية محكومة مكتملة متعددة من المرحلة الثالثة (EORTC-NCIC/Stupp و EF-14 و CeTeG/NOA-09 و NOA-08) دليلاً من المستوى L1 بأن temozolomide فعال في أورام الأنسجة الدبقية لدى البالغين — لكن هذا يعكس تأكيداً لمعيار رعاية مثبت بالفعل بدلاً من فرصة إعادة استخدام جديدة. الدواء غير مرخص حالياً بالمملكة العربية السعودية بدون سجلات موافقات، وبيانات السلامة والتفاعلات الدوائية غير متاحة بالكامل في حزمة الدليل هذه.
 
-**To proceed, the following is needed:**
-- SFDA-approved package insert (warnings, contraindications) — currently a Blocking data gap preventing S1 safety review
-- Formal mechanism-of-action documentation from DrugBank or equivalent source
-- Drug-drug interaction data (current query returned no results)
-- A market-entry assessment clarifying whether local registration for astrocytic tumour is commercially/regulatorily meaningful, given the indication is already globally established rather than newly discovered
+**لمتابعة هذا الخيار، يلزم ما يلي:**
+- ورقة بيانات معتمدة من الهيئة العامة للغذاء والدواء (تحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاجزة تمنع مراجعة S1 للسلامة
+- توثيق رسمي لآلية الفعل من DrugBank أو مصدر مكافئ
+- بيانات التفاعلات الدوائية (الاستعلام الحالي لم يُسفر عن نتائج)
+- تقييم دخول السوق يوضح ما إذا كان التسجيل المحلي لورم الأنسجة الدبقية ذا مغزى تجاري / تنظيمي، نظراً لأن المؤشر مثبت بالفعل عالمياً بدلاً من أن يكون مكتشفاً حديثاً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

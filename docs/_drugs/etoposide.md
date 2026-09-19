@@ -29,211 +29,212 @@ indication_count: 10
 
 </div>
 
-# Etoposide: From an Undocumented Original Indication to Multiple TxGNN-Predicted Oncology Indications
+# إتوبوسيد: من مؤشر أصلي غير موثق إلى عدة مؤشرات أورام متنبأ بها من TxGNN
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Etoposide (DrugBank DB00773) is an established cytotoxic chemotherapy agent, though this evidence pack does not document its original approved indication or formal mechanism-of-action text. TxGNN generated **10 predicted indications** for this drug, ranging from already near-established uses — **Ewing sarcoma** and **rhabdomyosarcoma** (both L1 evidence, standard-of-care backbone drug) — to rare single-case-report hypotheses such as **embryonal extrahepatic bile duct rhabdomyosarcoma** (L5, prediction only). This is a multi-candidate evidence pack (`TW-DB00773-multi`), so this report ranks and evaluates all 10 predictions rather than a single one.
+إتوبوسيد (DrugBank DB00773) هو عامل كيميائي سام للخلايا مثبت الاستخدام، على الرغم من أن هذه حزمة الأدلة لا توثق مؤشره المعتمد الأصلي أو نص الآلية الرسمية للعمل. أنتج TxGNN **10 مؤشرات متنبأ بها** لهذا الدواء، تتراوح من الاستخدامات القريبة من المثبتة بالفعل — **ورم يوينج** و**الورم العضلي الجنيني الكيسي** (كلاهما L1 أدلة، دواء العمود الفقري لمعيار الرعاية) — إلى فرضيات حالة تقرير واحد نادرة جداً مثل **الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد المضغوط** (L5، تنبؤ فقط). هذه حزمة أدلة متعددة المرشحين (`TW-DB00773-multi`)، لذلك يقيّم هذا التقرير ويقيّم جميع التنبؤات العشرة بدلاً من واحد فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no `original_indications` or licensed labeling data available) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Total Predicted Indications (TxGNN) | 10 |
-| Strongest Evidence Indications | Ewing sarcoma, Rhabdomyosarcoma (both L1) |
-| Weakest Evidence Indications | Embryonal extrahepatic bile duct RMS, Extrahepatic bile duct RMS (both L5) |
-| Overall Recommended Decision | Mixed — see per-indication table below |
+| المؤشر الأصلي | غير موثق في حزمة الأدلة هذه (لا توجد بيانات `original_indications` أو بيانات الوسم المرخصة المتاحة) |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التراخيص | 0 |
+| إجمالي المؤشرات المتنبأ بها (TxGNN) | 10 |
+| مؤشرات الأدلة الأقوى | ورم يوينج، الورم العضلي الجنيني الكيسي (كلاهما L1) |
+| مؤشرات الأدلة الأضعف | الورم العضلي الجنيني المضغوط للقنوات الصفراوية خارج الكبد، الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد (كلاهما L5) |
+| القرار الموصى به الكلي | مختلط — انظر جدول المؤشرات المحدد أدناه |
 
-### Predicted Indications Ranked by TxGNN Score
+### المؤشرات المتنبأ بها المصنفة حسب درجة TxGNN
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| الترتيب | المؤشر المتنبأ به | درجة TxGNN | مستوى الأدلة | مرحلة القرار | التوصية |
 |------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Well-differentiated fetal adenocarcinoma of the lung | 99.94% | L4 | S0 | Hold |
-| 2 | Primary pulmonary lymphoma | 99.94% | L2 | S2 | Proceed with Guardrails |
-| 3 | Pulmonary blastoma | 99.94% | L4 | S1 | Research Question |
-| 4 | Ewing sarcoma | 99.85% | L1 | S3 | Proceed with Guardrails |
-| 5 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.80% | L4 | S0 | Hold |
-| 6 | Rhabdomyosarcoma (disease) | 99.79% | L1 | S3 | Proceed with Guardrails |
-| 7 | Embryonal extrahepatic bile duct rhabdomyosarcoma | 99.76% | L5 | S0 | Hold |
-| 8 | Parameningeal embryonal rhabdomyosarcoma | 99.76% | L3 | S2 | Research Question |
-| 9 | Extrahepatic bile duct rhabdomyosarcoma | 99.75% | L5 | S0 | Hold |
-| 10 | Prostate embryonal rhabdomyosarcoma | 99.74% | L4 | S0 | Hold |
+| 1 | سرطان الغدة الجنيني المتمايز جيداً في الرئة | 99.94% | L4 | S0 | انتظر |
+| 2 | اللمفوما الرئوية الأولية | 99.94% | L2 | S2 | تابع بضمانات |
+| 3 | الأرومة الرئوية | 99.94% | L4 | S1 | السؤال البحثي |
+| 4 | ورم يوينج | 99.85% | L1 | S3 | تابع بضمانات |
+| 5 | الورم العضلي الجنيني من النوع البوتريويدي للمهبل | 99.80% | L4 | S0 | انتظر |
+| 6 | الورم العضلي الجنيني الكيسي (المرض) | 99.79% | L1 | S3 | تابع بضمانات |
+| 7 | الورم العضلي الجنيني المضغوط للقنوات الصفراوية خارج الكبد | 99.76% | L5 | S0 | انتظر |
+| 8 | الورم العضلي الجنيني حول السحايا | 99.76% | L3 | S2 | السؤال البحثي |
+| 9 | الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد | 99.75% | L5 | S0 | انتظر |
+| 10 | الورم العضلي الجنيني للبروستاتا | 99.74% | L4 | S0 | انتظر |
 
 ---
 
-## Why Are These Predictions Reasonable?
+## لماذا هذه التنبؤات معقولة؟
 
-Detailed formal mechanism-of-action data is not available in this evidence pack. Based on the repurposing rationale attached to each prediction, etoposide is consistently identified as a **topoisomerase II inhibitor** — it induces double-strand DNA breaks that are lethal to highly proliferative tumor cells. This single mechanism underlies all 10 predictions, but the strength of supporting evidence differs sharply by tumor type:
+لا توجد بيانات رسمية مفصلة عن آلية العمل في حزمة الأدلة هذه. بناءً على الأساس المنطقي للإعادة استخدام المرفق مع كل تنبؤ، يتم تحديد إتوبوسيد باستمرار كـ **مثبط توبوايزوميراز II** — يحفز فواصل الحمض النووي ذات السلسلتين التي تكون مميتة لخلايا الأورام سريعة الانقسام. تقع هذه الآلية الواحدة وراء جميع التنبؤات العشرة، لكن قوة الأدلة الداعمة تختلف بشكل حاد حسب نوع الورم:
 
-**Established-use extensions (Ewing sarcoma, rhabdomyosarcoma):** Etoposide is already a backbone component of standard regimens for both diseases (VDC/IE, IE, VAC/IE). For Ewing sarcoma specifically, the EWS-FLI1 fusion oncoprotein drives R-loop formation and impairs BRCA1-mediated repair, which is documented to confer high sensitivity to topoisomerase II inhibitors (PMID 29513652). These two predictions largely reflect an existing, guideline-supported indication rather than a novel hypothesis.
+**امتدادات الاستخدام المثبت (ورم يوينج، الورم العضلي الجنيني الكيسي):** إتوبوسيد هو بالفعل مكون رئيسي من مكونات الأنظمة المعيارية لكلا المرضيين (VDC/IE, IE, VAC/IE). بشكل خاص في ورم يوينج، ثبت أن بروتين الأورام الانصهار EWS-FLI1 يقود تكوين R-loop ويعيق إصلاح BRCA1 الوسيط، وهو موثق أنه يمنح حساسية عالية لمثبطات التوبوايزوميراز II (PMID 29513652). تعكس هذه التنبؤات اثنان في الغالب مؤشراً موجوداً ومدعوماً بالمبادئ التوجيهية بدلاً من فرضية جديدة.
 
-**Anatomically/histologically adjacent hypotheses (primary pulmonary lymphoma, parameningeal embryonal RMS):** These diseases belong to disease families (lymphoma, rhabdomyosarcoma) where etoposide-containing regimens (EPOCH, ICE, IE) are already standard, but no trial has specifically targeted the anatomic subtype named. The mechanistic link is sound, but site-specific clinical proof is limited to cohort/case-series data.
+**الفرضيات المجاورة تشريحياً /组织ياً (اللمفوما الرئوية الأولية، الورم العضلي الجنيني حول السحايا):** تنتمي هذه الأمراض إلى عائلات الأمراض (اللمفوما، الورم العضلي الجنيني) حيث أنظمة تحتوي على إتوبوسيد (EPOCH, ICE, IE) معيار بالفعل، لكن لم تستهدف أي تجربة النوع التشريحي المسمى. الارتباط الميكانيكي سليم، لكن الإثبات السريري الخاص بالموقع محدود لبيانات مجموعة البحث / سلسلة الحالات.
 
-**Rare-tumor, single-case hypotheses (fetal adenocarcinoma of the lung, pulmonary blastoma, botryoid-type vaginal RMS, bile duct RMS variants, prostate embryonal RMS):** These are all very rare tumors where the mechanistic rationale is inferred by analogy to related embryonal/blastomatous tumor biology, but supporting evidence is limited to one or a handful of case reports, with no dedicated clinical trials. These remain research hypotheses only.
+**الفرضيات النادرة جداً والحالات المفردة (سرطان الغدة الجنيني المتمايز جيداً في الرئة، الأرومة الرئوية، الورم العضلي الجنيني من النوع البوتريويدي المهبلي، متغيرات الورم العضلي الجنيني للقنوات الصفراوية، الورم العضلي الجنيني للبروستاتا):** هذه جميعاً أورام نادرة جداً حيث يُستدل على الأساس المنطقي الميكانيكي بالقياس إلى علم أورام الأجنة / الأرومية المرتبطة، لكن الأدلة الداعمة محدودة بتقارير حالة واحدة أو قليلة جداً، بدون تجارب سريرية مخصصة. تظل هذه فرضيات بحثية فقط.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-### Primary Pulmonary Lymphoma (Rank 2, L2, Proceed with Guardrails)
+### اللمفوما الرئوية الأولية (الترتيب 2, L2, تابع بضمانات)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00001379](https://clinicaltrials.gov/study/NCT00001379) | Phase 2 | Completed | 94 | Lymphomatoid granulomatosis (a pulmonary lymphoproliferative disorder overlapping with primary pulmonary lymphoma) treated with alpha-interferon and/or chemotherapy |
-| [NCT03077828](https://clinicaltrials.gov/study/NCT03077828) | Phase 2 | Unknown | 43 | Pembrolizumab + ICE (ifosfamide, carboplatin, etoposide) salvage chemotherapy in relapsed/refractory Hodgkin lymphoma |
-| [NCT01445535](https://clinicaltrials.gov/study/NCT01445535) | Phase 1 | Completed | 15 | DA-EPOCH-R (includes etoposide) in T- and NK-cell lymphomas, a common histology of primary pulmonary lymphoma |
-| [NCT05675410](https://clinicaltrials.gov/study/NCT05675410) | Phase 3 | Recruiting | 1875 | Immuno-oncology vs. standard chemotherapy (± etoposide-containing regimens) in Stage I–II classic Hodgkin lymphoma |
-| [NCT02911142](https://clinicaltrials.gov/study/NCT02911142) | Phase 1/2 | Active, not recruiting | 17 | Lenalidomide + modified DA-EPOCH-R in primary effusion lymphoma / KSHV-associated large cell lymphoma |
-| [NCT00013533](https://clinicaltrials.gov/study/NCT00013533) | Early Phase 1 | Completed | 30 | Non-myeloablative allogeneic stem cell transplant for pediatric hematologic malignancies |
-| [NCT00345865](https://clinicaltrials.gov/study/NCT00345865) | Phase 2 | Completed | 473 | Autologous PBSC transplant (ifosfamide, etoposide, carboplatin + rituximab) for lymphoma |
-| [NCT00352027](https://clinicaltrials.gov/study/NCT00352027) | Phase 2 | Completed | 81 | Stanford V chemotherapy + low-dose radiotherapy in intermediate-risk pediatric Hodgkin lymphoma |
-| [NCT00051311](https://clinicaltrials.gov/study/NCT00051311) | Phase 2 | Completed | 62 | EPOCH-F/R induction + reduced-intensity allogeneic HSCT for refractory/relapsed hematologic malignancies |
-| [NCT00265889](https://clinicaltrials.gov/study/NCT00265889) | Phase 2 | Completed | 42 | Tandem autologous stem cell transplant for progressive/poor-risk recurrent Hodgkin lymphoma |
+| [NCT00001379](https://clinicaltrials.gov/study/NCT00001379) | المرحلة 2 | اكتملت | 94 | الورم الحبيبي الشبيه باللمفوما (اضطراب تكاثري لمفاوي رئوي يتداخل مع اللمفوما الرئوية الأولية) معالجة بألفا إنترفيرون و/أو العلاج الكيميائي |
+| [NCT03077828](https://clinicaltrials.gov/study/NCT03077828) | المرحلة 2 | غير معروف | 43 | بيمبروليزوماب + ICE (إيفوسفاميد، كاربوبلاتين، إتوبوسيد) العلاج الكيميائي الإنقاذي في لمفوما هودجكين النكسية/المقاومة |
+| [NCT01445535](https://clinicaltrials.gov/study/NCT01445535) | المرحلة 1 | اكتملت | 15 | DA-EPOCH-R (يشمل إتوبوسيد) في لمفوما الخلايا T و NK، وهو نسيج組織 شائع من اللمفوما الرئوية الأولية |
+| [NCT05675410](https://clinicaltrials.gov/study/NCT05675410) | المرحلة 3 | تجند | 1875 | علم المناعة الورمية مقابل العلاج الكيميائي المعياري (± أنظمة تحتوي على إتوبوسيد) في مرحلة I–II لمفوما هودجكين الكلاسيكية |
+| [NCT02911142](https://clinicaltrials.gov/study/NCT02911142) | المرحلة 1/2 | نشط، غير متجند | 17 | لينالايدوميد + DA-EPOCH-R المعدلة في اللمفوما الابتدائية / لمفوما الخلايا الكبيرة المرتبطة بـ KSHV |
+| [NCT00013533](https://clinicaltrials.gov/study/NCT00013533) | المرحلة الأولى المبكرة | اكتملت | 30 | عملية زراعة الخلايا الجذعية السيفية غير المسحوقة الخيفية للأورام الدموية الخبيثة عند الأطفال |
+| [NCT00345865](https://clinicaltrials.gov/study/NCT00345865) | المرحلة 2 | اكتملت | 473 | عملية زراعة PBSC الذاتية (إيفوسفاميد، إتوبوسيد، كاربوبلاتين + ريتوكسيماب) لللمفوما |
+| [NCT00352027](https://clinicaltrials.gov/study/NCT00352027) | المرحلة 2 | اكتملت | 81 | علاج ستانفورد V الكيميائي + العلاج الإشعاعي منخفض الجرعات في لمفوما هودجكين المتوسطة الخطورة عند الأطفال |
+| [NCT00051311](https://clinicaltrials.gov/study/NCT00051311) | المرحلة 2 | اكتملت | 62 | استقراء EPOCH-F/R + عملية زراعة ساعة قلبية خيفية منخفضة الشدة للأورام الدموية الخبيثة النكسية/المقاومة |
+| [NCT00265889](https://clinicaltrials.gov/study/NCT00265889) | المرحلة 2 | اكتملت | 42 | عملية زراعة خلايا جذعية ذاتية مزدوجة للمرض المتقدم/المخاطر العالية المتكررة لمفوما هودجكين |
 
-*Note: no trial specifically enrolled a primary pulmonary lymphoma population; all trials are general lymphoma studies using etoposide-containing regimens.*
+*ملاحظة: لم تشمل أي تجربة على وجه التحديد مجموعة سكانية من اللمفوما الرئوية الأولية؛ جميع التجارب هي دراسات لمفوما عامة تستخدم أنظمة تحتوي على إتوبوسيد.*
 
-### Ewing Sarcoma (Rank 4, L1, Proceed with Guardrails)
+### ورم يوينج (الترتيب 4, L1, تابع بضمانات)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03011528](https://clinicaltrials.gov/study/NCT03011528) | Phase 2 | Completed | 45 | First-line treatment of Ewing tumors with primary extrapulmonary dissemination, ages 2–50 |
-| [NCT02727387](https://clinicaltrials.gov/study/NCT02727387) | Phase 2 | Completed | 155 | High-dose chemotherapy + radiotherapy + COX-2-targeted consolidation for metastatic Ewing sarcoma |
-| [NCT00007813](https://clinicaltrials.gov/study/NCT00007813) | Phase 1 | Completed | 21 | High-dose etoposide + carboplatin + escalating cyclophosphamide with autologous CD34+ stem cell rescue |
-| [NCT00876031](https://clinicaltrials.gov/study/NCT00876031) | Phase 3 | Completed | 195 | Randomized trial of maintenance O-TIE (etoposide, idarubicin, trofosfamide) in high-risk RMS/Ewing-like soft tissue sarcoma |
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Dasatinib + ifosfamide/carboplatin/etoposide (ICE) pediatric trial |
-| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Phase 3 | Active, not recruiting | 312 | Ganitumab (anti-IGF-1R) + multiagent chemotherapy (incl. etoposide) in newly diagnosed metastatic Ewing sarcoma |
-| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Phase 3 | Completed | 642 | Addition of vincristine-topotecan-cyclophosphamide to standard VDC/IE chemotherapy in non-metastatic Ewing sarcoma |
-| [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | Phase 3 | Completed | 278 | Dose intensification (standard vs. intensive) in non-metastatic Ewing sarcoma |
-| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | Phase 2 | Completed | N/A | Cyclophosphamide, doxorubicin, vincristine, etoposide, ifosfamide + resection/radiotherapy for PNET/Ewing sarcoma |
-| [NCT06699472](https://clinicaltrials.gov/study/NCT06699472) | Phase 2 | Recruiting | 22 | Trilaciclib to prevent VDC/IE chemotherapy-related myelosuppression in Ewing sarcoma |
+| [NCT03011528](https://clinicaltrials.gov/study/NCT03011528) | المرحلة 2 | اكتملت | 45 | العلاج الأول لأورام يوينج مع الانتشار خارج الرئة الأولي، الأعمار 2–50 |
+| [NCT02727387](https://clinicaltrials.gov/study/NCT02727387) | المرحلة 2 | اكتملت | 155 | العلاج الكيميائي عالي الجرعات + العلاج الإشعاعي + التوحيد الموجه لـ COX-2 لورم يوينج المنتشر |
+| [NCT00007813](https://clinicaltrials.gov/study/NCT00007813) | المرحلة 1 | اكتملت | 21 | إتوبوسيد عالي الجرعات + كاربوبلاتين + سيكلوفوسفاميد متصاعد مع إنقاذ الخلايا الجذعية CD34+ ذاتي |
+| [NCT00876031](https://clinicaltrials.gov/study/NCT00876031) | المرحلة 3 | اكتملت | 195 | التجربة العشوائية للصيانة O-TIE (إتوبوسيد، إيدارويسين، تروفوسفاميد) في أورام اللحمة الناعمة من نوع يوينج عالية الخطورة / RMS |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | المرحلة 1/2 | انقطع | 7 | داساتينيب + إيفوسفاميد/كاربوبلاتين/إتوبوسيد (ICE) تجربة أطفال |
+| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | المرحلة 3 | نشط، غير متجند | 312 | جانيتوماب (مضاد IGF-1R) + العلاج الكيميائي متعدد العوامل (بما في ذلك إتوبوسيد) في ورم يوينج المنتشر المشخص حديثاً |
+| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | المرحلة 3 | اكتملت | 642 | إضافة فينكريستين-توبوتيكان-سيكلوفوسفاميد إلى العلاج الكيميائي VDC/IE المعياري في ورم يوينج غير المنتشر |
+| [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | المرحلة 3 | اكتملت | 278 | مكثفة الجرعة (معياري مقابل كثيف) في ورم يوينج غير المنتشر |
+| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | المرحلة 2 | اكتملت | بدون تحديد | السيكلوفوسفاميد، الدوكسوروبيسين، الفينكريستين، الإتوبوسيد، إيفوسفاميد + الاستئصال/العلاج الإشعاعي لـ PNET/ورم يوينج |
+| [NCT06699472](https://clinicaltrials.gov/study/NCT06699472) | المرحلة 2 | تجند | 22 | تريلاسيكليب لمنع قمع نخاع العظم المرتبط بـ VDC/IE في ورم يوينج |
 
-### Rhabdomyosarcoma (Rank 6, L1, Proceed with Guardrails)
+### الورم العضلي الجنيني الكيسي (الترتيب 6, L1, تابع بضمانات)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00354744](https://clinicaltrials.gov/study/NCT00354744) | Phase 3 | Completed | 109 | Dose-compressed IE/VDC intensive multiagent therapy for high-risk rhabdomyosarcoma |
-| [NCT00025441](https://clinicaltrials.gov/study/NCT00025441) | Phase 2 | Completed | N/A | Combination chemotherapy for metastatic rhabdomyosarcoma/malignant soft tissue sarcoma of childhood |
-| [NCT00007813](https://clinicaltrials.gov/study/NCT00007813) | Phase 1 | Completed | 21 | High-dose etoposide + carboplatin + cyclophosphamide with autologous stem cell rescue (includes RMS) |
-| [NCT00077285](https://clinicaltrials.gov/study/NCT00077285) | Phase 2 | Active, not recruiting | 65 | Irinotecan + carboplatin upfront window therapy for intermediate/high-risk rhabdomyosarcoma |
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Dasatinib + IE (ifosfamide, carboplatin, etoposide) pediatric trial |
-| [NCT00025363](https://clinicaltrials.gov/study/NCT00025363) | Phase 2 | Completed | 150 | Randomized window study of irinotecan schedules ± tirapazamine for relapsed/progressive RMS |
-| [NCT06669013](https://clinicaltrials.gov/study/NCT06669013) | Phase 3 | Recruiting | 40 | Dinutuximab beta + investigator-choice chemotherapy in GD2+ RMS/Ewing/osteosarcoma after 1st-line progression |
-| [NCT04388839](https://clinicaltrials.gov/study/NCT04388839) | Phase 2 | Active, not recruiting | 12 | Evolution-inspired chemotherapy scheduling strategies in fusion-positive metastatic RMS |
-| [NCT00379457](https://clinicaltrials.gov/study/NCT00379457) | Phase 3 | Unknown | 600 | RMS-2005 protocol comparing chemotherapy regimens for nonmetastatic rhabdomyosarcoma |
-| [NCT00003052](https://clinicaltrials.gov/study/NCT00003052) | Phase 3 | Completed | 340 | Neoadjuvant EIA (etoposide, ifosfamide, adriamycin) ± regional hyperthermia in high-risk soft tissue sarcoma |
+| [NCT00354744](https://clinicaltrials.gov/study/NCT00354744) | المرحلة 3 | اكتملت | 109 | العلاج الكيميائي المكثف متعدد العوامل IE/VDC المضغوط على الجرعات للورم العضلي الجنيني عالي الخطورة |
+| [NCT00025441](https://clinicaltrials.gov/study/NCT00025441) | المرحلة 2 | اكتملت | بدون تحديد | العلاج الكيميائي المركب للورم العضلي الجنيني المنتشر/ورم اللحمة الناعمة الخبيثة في الطفولة |
+| [NCT00007813](https://clinicaltrials.gov/study/NCT00007813) | المرحلة 1 | اكتملت | 21 | إتوبوسيد عالي الجرعات + كاربوبلاتين + سيكلوفوسفاميد مع إنقاذ الخلايا الجذعية الذاتية (يشمل RMS) |
+| [NCT00077285](https://clinicaltrials.gov/study/NCT00077285) | المرحلة 2 | نشط، غير متجند | 65 | إيرينوتيكان + كاربوبلاتين علاج نافذة مقدمة للورم العضلي الجنيني الوسيط/عالي الخطورة |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | المرحلة 1/2 | انقطع | 7 | داساتينيب + IE (إيفوسفاميد، كاربوبلاتين، إتوبوسيد) تجربة أطفال |
+| [NCT00025363](https://clinicaltrials.gov/study/NCT00025363) | المرحلة 2 | اكتملت | 150 | دراسة نافذة عشوائية من جداول إيرينوتيكان ± تيرابازامين للورم العضلي الجنيني النكسي/التقدمي |
+| [NCT06669013](https://clinicaltrials.gov/study/NCT06669013) | المرحلة 3 | تجند | 40 | ديناتوكسيماب بيتا + العلاج الكيميائي من اختيار المحقق في GD2+ RMS/يوينج/ورم العظام بعد تقدم الخط الأول |
+| [NCT04388839](https://clinicaltrials.gov/study/NCT04388839) | المرحلة 2 | نشط، غير متجند | 12 | استراتيجيات جدولة العلاج الكيميائي المستوحاة من التطور في الورم العضلي الجنيني المنتشر إيجابي الاندماج |
+| [NCT00379457](https://clinicaltrials.gov/study/NCT00379457) | المرحلة 3 | غير معروف | 600 | بروتوكول RMS-2005 مقارن لأنظمة العلاج الكيميائي للورم العضلي الجنيني غير المنتشر |
+| [NCT00003052](https://clinicaltrials.gov/study/NCT00003052) | المرحلة 3 | اكتملت | 340 | استقراء EIA (إتوبوسيد، إيفوسفاميد، أدرياميسين) ± فرط الحرارة الإقليمي لورم اللحمة الناعمة عالي الخطورة |
 
-### Remaining Indications (Ranks 1, 3, 5, 7, 8, 9, 10)
+### المؤشرات المتبقية (الترتيب 1، 3، 5، 7، 8، 9، 10)
 
-Currently no related clinical trials are registered for: well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma, botryoid-type embryonal rhabdomyosarcoma of the vagina, embryonal extrahepatic bile duct rhabdomyosarcoma, parameningeal embryonal rhabdomyosarcoma, extrahepatic bile duct rhabdomyosarcoma, and prostate embryonal rhabdomyosarcoma.
+لا توجد حالياً أي تجارب سريرية مسجلة ذات صلة بـ: سرطان الغدة الجنيني المتمايز جيداً في الرئة، الأرومة الرئوية، الورم العضلي الجنيني من النوع البوتريويدي المهبلي، الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد، الورم العضلي الجنيني حول السحايا، الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد، والورم العضلي الجنيني للبروستاتا.
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-### Primary Pulmonary Lymphoma
+### اللمفوما الرئوية الأولية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [3875741](https://pubmed.ncbi.nlm.nih.gov/3875741/) | 1985 | Phase II/III | Gan no rinsho | Oral VP-16 (etoposide) in NHL and SCLC: 31% response rate in heavily pretreated NHL patients |
-| [34350085](https://pubmed.ncbi.nlm.nih.gov/34350085/) | 2021 | Case series | Cureus | Primary mediastinal B-cell lymphoma treated with R-CEOP (rituximab, cyclophosphamide, etoposide, vincristine, prednisone) |
-| [34329577](https://pubmed.ncbi.nlm.nih.gov/34329577/) | 2021 | Cohort | Lancet Haematology | Dose-dense BV-ICE (brentuximab vedotin + ifosfamide/carboplatin/etoposide) for relapsed/refractory classical Hodgkin lymphoma |
-| [38555923](https://pubmed.ncbi.nlm.nih.gov/38555923/) | 2024 | Cohort | Lancet Haematology | Anti-CD30 CAR T cells as consolidation after autologous HSCT in high-risk CD30+ lymphoma |
-| [15625540](https://pubmed.ncbi.nlm.nih.gov/15625540/) | 2005 | Cohort | Biol Blood Marrow Transplant | High-dose carmustine, etoposide, cisplatin for autologous transplant in relapsed/refractory lymphoma |
-| [32590768](https://pubmed.ncbi.nlm.nih.gov/32590768/) | 2020 | Case report | Medicine | Primary pulmonary extranodal NK/T-cell lymphoma, nasal type: two cases and literature review |
-| [25527680](https://pubmed.ncbi.nlm.nih.gov/25527680/) | 2014 | Case report | BMJ Case Reports | Primary pulmonary lymphoma in a patient with advanced AIDS |
-| [30076020](https://pubmed.ncbi.nlm.nih.gov/30076020/) | 2018 | Case report | Am J Otolaryngol | Post-treatment sequelae and management of primary laryngeal NK/T-cell lymphoma |
-| [19879424](https://pubmed.ncbi.nlm.nih.gov/19879424/) | 2009 | Review | Adv Cancer Res | Review of clusterin and chemoresistance mechanisms relevant to anticancer agent resistance |
+| [3875741](https://pubmed.ncbi.nlm.nih.gov/3875741/) | 1985 | المرحلة II/III | Gan no rinsho | VP-16 الفموي (إتوبوسيد) في NHL و SCLC: معدل استجابة 31% عند مرضى NHL المعالجين بثقل |
+| [34350085](https://pubmed.ncbi.nlm.nih.gov/34350085/) | 2021 | سلسلة حالات | Cureus | لمفوما B الخلية الوسيطية الأولية معالجة بـ R-CEOP (ريتوكسيماب، سيكلوفوسفاميد، إتوبوسيد، فينكريستين، بريدنيزون) |
+| [34329577](https://pubmed.ncbi.nlm.nih.gov/34329577/) | 2021 | دراسة مجموعة | Lancet Haematology | BV-ICE ذات الجرعات الكثيفة (بريتوكسيماب فيدوتين + إيفوسفاميد/كاربوبلاتين/إتوبوسيد) للمفوما هودجكين الكلاسيكية النكسية/المقاومة |
+| [38555923](https://pubmed.ncbi.nlm.nih.gov/38555923/) | 2024 | دراسة مجموعة | Lancet Haematology | خلايا CAR T المضادة لـ CD30 كتوحيد بعد عملية زراعة ساعة قلبية ذاتية في لمفوما CD30+ عالية الخطورة |
+| [15625540](https://pubmed.ncbi.nlm.nih.gov/15625540/) | 2005 | دراسة مجموعة | Biol Blood Marrow Transplant | كارموستين عالي الجرعات، إتوبوسيد، سيسبلاتين لعملية زراعة ذاتية في لمفوما نكسية/مقاومة |
+| [32590768](https://pubmed.ncbi.nlm.nih.gov/32590768/) | 2020 | تقرير حالة | Medicine | لمفوما NK/T خلية سارية الأنف الأولية الرئوية خارج العقدية، اللاسلكية: حالتان ومراجعة الأدب |
+| [25527680](https://pubmed.ncbi.nlm.nih.gov/25527680/) | 2014 | تقرير حالة | BMJ Case Reports | اللمفوما الرئوية الأولية في مريض مصاب بالإيدز المتقدم |
+| [30076020](https://pubmed.ncbi.nlm.nih.gov/30076020/) | 2018 | تقرير حالة | Am J Otolaryngol | التسلسل بعد المعالجة والإدارة من لمفوما NK/T خلية الحنجرة الأولية |
+| [19879424](https://pubmed.ncbi.nlm.nih.gov/19879424/) | 2009 | مراجعة | Adv Cancer Res | مراجعة كلوسترين وآليات مقاومة العلاج الكيميائي ذات الصلة بمقاومة عامل السرطان |
 
-### Ewing Sarcoma
+### ورم يوينج
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | NEJM | Addition of ifosfamide + etoposide to standard chemotherapy improved survival in Ewing sarcoma/PNET of bone |
-| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT | Lancet | EE2012 trial comparing two chemotherapy regimens in newly diagnosed Ewing sarcoma |
-| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT | Trials | EURO EWING 2012 protocol: international RCT for newly diagnosed Ewing sarcoma family tumors |
-| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT | J Clin Oncol | Ganitumab + interval-compressed chemotherapy in newly diagnosed metastatic Ewing sarcoma (COG trial) |
-| [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | RCT | J Clin Oncol | Interval-compressed chemotherapy improves outcome in localized Ewing sarcoma (COG) |
-| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Review/Guideline | Cancer | Consensus recommendations for Ewing sarcoma management, National Ewing Sarcoma Tumor Board |
-| [39713774](https://pubmed.ncbi.nlm.nih.gov/39713774/) | 2024 | Cohort | Sarcoma | Oral etoposide for relapsed/refractory Ewing sarcoma in adolescents and adults |
-| [37093679](https://pubmed.ncbi.nlm.nih.gov/37093679/) | 2023 | Cohort | Jpn J Clin Oncol | Clinical characteristics of primary cutaneous/subcutaneous Ewing sarcoma |
-| [34962714](https://pubmed.ncbi.nlm.nih.gov/34962714/) | 2022 | Cohort | Pediatr Blood Cancer | Chemotherapy-induced thrombocytopenia in Ewing sarcoma and romiplostim supportive care |
-| [29513652](https://pubmed.ncbi.nlm.nih.gov/29513652/) | 2018 | Basic mechanism | Nature | EWS-FLI1 causes R-loops and blocks BRCA1 repair, explaining Ewing sarcoma sensitivity to etoposide |
+| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | تجربة عشوائية | NEJM | إضافة إيفوسفاميد + إتوبوسيد للعلاج الكيميائي المعياري حسّن البقاء في ورم يوينج/PNET من العظم |
+| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | تجربة عشوائية | Lancet | تجربة EE2012 مقارنة نظامين من العلاج الكيميائي في ورم يوينج المشخص حديثاً |
+| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | تجربة عشوائية | Trials | بروتوكول EURO EWING 2012: تجربة عشوائية دولية لأورام عائلة يوينج المشخصة حديثاً |
+| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | تجربة عشوائية | J Clin Oncol | جانيتوماب + العلاج الكيميائي المضغوط على الفترات الزمنية في ورم يوينج المنتشر المشخص حديثاً (تجربة COG) |
+| [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | تجربة عشوائية | J Clin Oncol | العلاج الكيميائي المضغوط على الفترات الزمنية يحسّن النتيجة في ورم يوينج المحلي (COG) |
+| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | مراجعة/إرشادات | Cancer | توصيات اتفاقية لإدارة ورم يوينج، لجنة ورم يوينج الوطنية |
+| [39713774](https://pubmed.ncbi.nlm.nih.gov/39713774/) | 2024 | دراسة مجموعة | Sarcoma | إتوبوسيد الفموي لورم يوينج النكسي/المقاوم في المراهقين والبالغين |
+| [37093679](https://pubmed.ncbi.nlm.nih.gov/37093679/) | 2023 | دراسة مجموعة | Jpn J Clin Oncol | الخصائص السريرية لورم يوينج الجلد الأولي/تحت الجلد |
+| [34962714](https://pubmed.ncbi.nlm.nih.gov/34962714/) | 2022 | دراسة مجموعة | Pediatr Blood Cancer | قلة الصفيحات المستحثة بالعلاج الكيميائي في ورم يوينج ورعاية رومبلوستيم الداعمة |
+| [29513652](https://pubmed.ncbi.nlm.nih.gov/29513652/) | 2018 | آلية أساسية | Nature | EWS-FLI1 يسبب R-loops ويحجب إصلاح BRCA1، مما يفسر حساسية ورم يوينج لإتوبوسيد |
 
-### Rhabdomyosarcoma
+### الورم العضلي الجنيني الكيسي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [11846301](https://pubmed.ncbi.nlm.nih.gov/11846301/) | 2001 | RCT | J Pediatr Hematol Oncol | Ifosfamide + etoposide superior to vincristine + melphalan in metastatic rhabdomyosarcoma (IRSG) |
-| [26503200](https://pubmed.ncbi.nlm.nih.gov/26503200/) | 2016 | Cohort | J Clin Oncol | Dose-compressed IE/VDC + irinotecan + radiation in high-risk rhabdomyosarcoma (COG) |
-| [17091486](https://pubmed.ncbi.nlm.nih.gov/17091486/) | 2008 | Cohort | Pediatr Blood Cancer | Alternating VDC/etoposide-ifosfamide vs. IRS-IV in intermediate-risk rhabdomyosarcoma |
-| [9849484](https://pubmed.ncbi.nlm.nih.gov/9849484/) | 1998 | Cohort | Eur J Cancer | Alternating VDC and etoposide/ifosfamide for intermediate-risk rhabdomyosarcoma |
-| [40591908](https://pubmed.ncbi.nlm.nih.gov/40591908/) | 2025 | Cohort | J Pediatr Hematol Oncol | Clinical features and treatment outcomes in 65 children with head and neck rhabdomyosarcoma |
-| [36614297](https://pubmed.ncbi.nlm.nih.gov/36614297/) | 2023 | Cohort | Int J Mol Sci | Platinum-based regimens (incl. etoposide) active in advanced pediatric-type RMS in adults |
-| [37138963](https://pubmed.ncbi.nlm.nih.gov/37138963/) | 2023 | Cohort | Ecancermedicalscience | Outcome and FOXO1 fusion impact in non-metastatic childhood rhabdomyosarcoma |
-| [32658380](https://pubmed.ncbi.nlm.nih.gov/32658380/) | 2020 | Cohort | Pediatr Blood Cancer | Metronomic cyclophosphamide-etoposide + valproic acid for refractory/relapsing pediatric malignancies |
-| [37568826](https://pubmed.ncbi.nlm.nih.gov/37568826/) | 2023 | Review | Cancers | Review of maintenance chemotherapy for rhabdomyosarcoma |
-| [10754991](https://pubmed.ncbi.nlm.nih.gov/10754991/) | 2000 | Review | Cancer Invest | Progress in diagnosis and treatment of rhabdomyosarcoma and related soft tissue sarcomas |
+| [11846301](https://pubmed.ncbi.nlm.nih.gov/11846301/) | 2001 | تجربة عشوائية | J Pediatr Hematol Oncol | إيفوسفاميد + إتوبوسيد متفوق على فينكريستين + ميلفالان في الورم العضلي الجنيني المنتشر (IRSG) |
+| [26503200](https://pubmed.ncbi.nlm.nih.gov/26503200/) | 2016 | دراسة مجموعة | J Clin Oncol | IE/VDC المضغوط على الجرعات + إيرينوتيكان + الإشعاع في الورم العضلي الجنيني عالي الخطورة (COG) |
+| [17091486](https://pubmed.ncbi.nlm.nih.gov/17091486/) | 2008 | دراسة مجموعة | Pediatr Blood Cancer | VDC/إتوبوسيد-إيفوسفاميد متناوب مقابل IRS-IV في الورم العضلي الجنيني متوسط الخطورة |
+| [9849484](https://pubmed.ncbi.nlm.nih.gov/9849484/) | 1998 | دراسة مجموعة | Eur J Cancer | VDC و إتوبوسيد/إيفوسفاميد متناوب للورم العضلي الجنيني متوسط الخطورة |
+| [40591908](https://pubmed.ncbi.nlm.nih.gov/40591908/) | 2025 | دراسة مجموعة | J Pediatr Hematol Oncol | الخصائص السريرية ونتائج المعالجة في 65 طفلاً مصاباً بالورم العضلي الجنيني في الرأس والعنق |
+| [36614297](https://pubmed.ncbi.nlm.nih.gov/36614297/) | 2023 | دراسة مجموعة | Int J Mol Sci | أنظمة قائمة على البلاتين (بما في ذلك إتوبوسيد) فعالة في RMS من نوع الأطفال المتقدم عند البالغين |
+| [37138963](https://pubmed.ncbi.nlm.nih.gov/37138963/) | 2023 | دراسة مجموعة | Ecancermedicalscience | النتيجة وتأثير اندماج FOXO1 في الورم العضلي الجنيني في مرحلة الطفولة غير المنتشر |
+| [32658380](https://pubmed.ncbi.nlm.nih.gov/32658380/) | 2020 | دراسة مجموعة | Pediatr Blood Cancer | سيكلوفوسفاميد متري + إتوبوسيد + حمض فالبروايك للأورام الخبيثة عند الأطفال المقاومة/الانتكسية |
+| [37568826](https://pubmed.ncbi.nlm.nih.gov/37568826/) | 2023 | مراجعة | Cancers | مراجعة العلاج الكيميائي الداعم للورم العضلي الجنيني الكيسي |
+| [10754991](https://pubmed.ncbi.nlm.nih.gov/10754991/) | 2000 | مراجعة | Cancer Invest | التقدم في تشخيص وعلاج الورم العضلي الجنيني الكيسي وأورام اللحمة الناعمة ذات الصلة |
 
-### Parameningeal Embryonal Rhabdomyosarcoma (Rank 8)
+### الورم العضلي الجنيني حول السحايا (الترتيب 8)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [40591908](https://pubmed.ncbi.nlm.nih.gov/40591908/) | 2025 | Cohort | J Pediatr Hematol Oncol | 49.2% of pediatric head/neck RMS cases were parameningeal; treatment outcomes described |
-| [12654440](https://pubmed.ncbi.nlm.nih.gov/12654440/) | 2003 | Retrospective | Int J Radiat Oncol Biol Phys | Radiation volume influences outcome in pediatric parameningeal rhabdomyosarcoma |
-| [10856103](https://pubmed.ncbi.nlm.nih.gov/10856103/) | 2000 | Cohort | J Clin Oncol | Intensified therapy benefit for local/regional embryonal rhabdomyosarcoma (IRS-IV) |
-| [18521303](https://pubmed.ncbi.nlm.nih.gov/18521303/) | 2001 | Review | Sarcoma | Major lessons from IRS-I through IRS-IV studies underlying current RMS treatment protocols |
+| [40591908](https://pubmed.ncbi.nlm.nih.gov/40591908/) | 2025 | دراسة مجموعة | J Pediatr Hematol Oncol | كانت 49.2% من حالات RMS للرأس/العنق عند الأطفال حول السحايا؛ وصفت نتائج المعالجة |
+| [12654440](https://pubmed.ncbi.nlm.nih.gov/12654440/) | 2003 | استرجاعي | Int J Radiat Oncol Biol Phys | يؤثر حجم الإشعاع على النتيجة في الورم العضلي الجنيني حول السحايا عند الأطفال |
+| [10856103](https://pubmed.ncbi.nlm.nih.gov/10856103/) | 2000 | دراسة مجموعة | J Clin Oncol | فائدة العلاج المكثف للورم العضلي الجنيني الحلقي المحلي/الإقليمي (IRS-IV) |
+| [18521303](https://pubmed.ncbi.nlm.nih.gov/18521303/) | 2001 | مراجعة | Sarcoma | الدروس الرئيسية من دراسات IRS-I من خلال IRS-IV التي تستند إلى بروتوكولات معاملة RMS الحالية |
 
-### Remaining Indications (Ranks 1, 3, 5, 7, 9, 10)
+### المؤشرات المتبقية (الترتيب 1، 3، 5، 7، 9، 10)
 
-These indications are supported only by single or very few case reports/reviews, all describing case-level chemotherapy response rather than trial-level evidence:
+تدعم هذه المؤشرات فقط من قبل تقارير حالة واحدة أو قليلة جداً/مراجعات، جميعها تصف استجابة العلاج الكيميائي على مستوى الحالة بدلاً من دليل على مستوى التجربة:
 
-- **Well-differentiated fetal adenocarcinoma of the lung** ([PMID 33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/), 2020, case report/review) — classic biphasic pulmonary blastoma case treated with nedaplatin/paclitaxel, not etoposide directly.
-- **Pulmonary blastoma** — multiple case reports across decades (e.g. [PMID 6086368](https://pubmed.ncbi.nlm.nih.gov/6086368/), 1984, complete remission with CCNU/vincristine/VP-16/cyclophosphamide), but no systematic trial evidence exists for this rare tumor.
-- **Botryoid-type embryonal rhabdomyosarcoma of the vagina** ([PMID 23903199](https://pubmed.ncbi.nlm.nih.gov/23903199/), 2013, case report) — adult cervical rhabdomyosarcoma case, anatomically adjacent but not the vaginal botryoid subtype specifically.
-- **Prostate embryonal rhabdomyosarcoma** — supported by general IRSG cohort/review literature ([PMID 11846299](https://pubmed.ncbi.nlm.nih.gov/11846299/), [PMID 10856103](https://pubmed.ncbi.nlm.nih.gov/10856103/)), no site-specific studies.
-- **Embryonal extrahepatic bile duct rhabdomyosarcoma** and **extrahepatic bile duct rhabdomyosarcoma** — currently no related literature available.
+- **سرطان الغدة الجنيني المتمايز جيداً في الرئة** ([PMID 33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/), 2020, تقرير حالة/مراجعة) — حالة ورم رئوي أرومي ثنائي الطور كلاسيكي معالج بـ nedaplatin/paclitaxel، وليس مباشرة إتوبوسيد.
+- **الأرومة الرئوية** — عدة تقارير حالات عبر العقود (مثل [PMID 6086368](https://pubmed.ncbi.nlm.nih.gov/6086368/), 1984, خفة كاملة مع CCNU/فينكريستين/VP-16/سيكلوفوسفاميد)، لكن لا يوجد دليل تجربة منهجي لهذا الورم النادر.
+- **الورم العضلي الجنيني من النوع البوتريويدي المهبلي** ([PMID 23903199](https://pubmed.ncbi.nlm.nih.gov/23903199/), 2013, تقرير حالة) — حالة الورم العضلي الجنيني الجنسي عند البالغين، قريبة تشريحياً لكن ليس النوع الفرعي البوتريويدي المهبلي على وجه التحديد.
+- **الورم العضلي الجنيني للبروستاتا** — مدعوم بأدب مجموعة IRSG العام/مراجعة ([PMID 11846299](https://pubmed.ncbi.nlm.nih.gov/11846299/), [PMID 10856103](https://pubmed.ncbi.nlm.nih.gov/10856103/))، لا توجد دراسات خاصة بالموقع.
+- **الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد المضغوط** و**الورم العضلي الجنيني للقنوات الصفراوية خارج الكبد** — حالياً لا توجد أدبيات ذات صلة متاحة.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Etoposide is a conventional cytotoxic chemotherapy agent (topoisomerase II inhibitor, epipodophyllotoxin class), consistent across all 10 predicted-indication rationales and its established use in Ewing sarcoma, rhabdomyosarcoma, and lymphoma regimens.
+إتوبوسيد هو عامل كيميائي سام للخلايا تقليدي (مثبط توبوايزوميراز II، فئة epipodophyllotoxin)، متسق عبر جميع المنطقيات المتنبأ بها العشرة واستخدامه المثبت في أنظمة ورم يوينج والورم العضلي الجنيني الكيسي واللمفوما.
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Topoisomerase II inhibitor / epipodophyllotoxin class) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions — no drug-specific toxicity grading data available in this evidence pack |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Cytotoxic agent handling precautions apply; specific protocol not documented in this evidence pack |
+| تصنيف السمية الخلوية | السموم الخلوية التقليدية (مثبط توبوايزوميراز II / فئة epipodophyllotoxin) |
+| خطر قمع نخاع العظم | يُرجى الرجوع إلى تحذيرات وملاحظات وسم العبوة — لا توجد بيانات تصنيف السمية الخاصة بالدواء المتاحة في حزمة الأدلة هذه |
+| تصنيف الغثيان | يُرجى الرجوع إلى تحذيرات وملاحظات وسم العبوة |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات وملاحظات وسم العبوة |
+| حماية المناولة | تنطبق احتياطات التعامل مع عامل سام للخلايا؛ البروتوكول المحدد غير موثق في حزمة الأدلة هذه |
 
 ---
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information. No drug interaction, contraindication, or warning data was returned for etoposide in this evidence pack (DDI query status: not found; key warnings and contraindications: not documented).
+يُرجى الرجوع إلى وسم العبوة للحصول على معلومات الأمان. لم يتم إرجاع أي بيانات تفاعل الدواء أو موانع الاستعمال أو تحذير لإتوبوسيد في حزمة الأدلة هذه (حالة استعلام DDI: غير موجود؛ التحذيرات والموانع الرئيسية: غير موثقة).
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails** (Ewing sarcoma, rhabdomyosarcoma, primary pulmonary lymphoma) / **Hold** (remaining 7 rare-tumor hypotheses)
+**القرار: تابع بضمانات** (ورم يوينج، الورم العضلي الجنيني الكيسي، اللمفوما الرئوية الأولية) / **انتظر** (الفرضيات النادرة المتبقية 7)
 
-**Rationale:**
-- Ewing sarcoma and rhabdomyosarcoma have L1 evidence (multiple completed Phase 3 RCTs) and reflect etoposide's already-established role as a chemotherapy backbone — these are extensions of existing use, not novel repurposing candidates, and should move directly to guardrail-based clinical adoption review rather than exploratory repurposing workup.
-- Primary pulmonary lymphoma (L2) and parameningeal embryonal rhabdomyosarcoma (L3) have plausible mechanistic support and some trial/cohort evidence but lack site-specific studies — worth a guarded/research-question track.
-- The remaining 6 predictions (fetal adenocarcinoma of the lung, pulmonary blastoma, vaginal botryoid RMS, bile duct RMS variants, prostate embryonal RMS) rest on single case reports or pure model extrapolation (L4–L5) and should be held pending stronger evidence.
+**الأساس المنطقي:**
+- لورم يوينج والورم العضلي الجنيني الكيسي دليل L1 (عدة تجارب عشوائية مرحلة 3 مكتملة) ويعكس دور إتوبوسيد المثبت بالفعل كعمود فقري للعلاج الكيميائي — وهذه امتدادات للاستخدام الموجود، وليست مرشحات إعادة استخدام جديدة، ويجب أن تنتقل مباشرة إلى مراجعة الاعتماد السريري المستند إلى الضمانات بدلاً من عمل إعادة الاستخدام الاستكشافية.
+- اللمفوما الرئوية الأولية (L2) والورم العضلي الجنيني حول السحايا (L3) لديهم دعم ميكانيكي معقول وبعض أدلة التجربة/المجموعة لكن تفتقد دراسات خاصة بالموقع — تستحق مسار حذر/سؤال بحثي.
+- التنبؤات الـ 6 المتبقية (سرطان الغدة الجنيني المتمايز جيداً في الرئة، الأرومة الرئوية، الورم العضلي الجنيني من النوع البوتريويدي المهبلي، متغيرات الورم العضلي الجنيني للقنوات الصفراوية، الورم العضلي الجنيني للبروستاتا) تستريح على تقارير حالة واحدة أو استقراء نموذج بحت (L4–L5) وينبغي الانتظار في انتظار أدلة أقوى.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (currently a Blocking data gap — DG001)
-- Formal DrugBank mechanism-of-action and toxicity data (currently a High-severity data gap — DG002)
-- Saudi Arabia market/licensing confirmation (drug currently shows as not marketed with 0 licenses)
-- Site-specific clinical evidence for primary pulmonary lymphoma and parameningeal embryonal RMS before advancing beyond research-question stage
+**لكي تتابع، يلزم ما يلي:**
+- تحذيرات وسم TFDA والموانع (فجوة بيانات حظر حالياً — DG001)
+- بيانات رسمية عن آلية العمل والسمية في DrugBank (فجوة بيانات عالية الخطورة حالياً — DG002)
+- تأكيد السوق/الترخيص في المملكة العربية السعودية (الدواء يظهر حالياً كغير مسوق مع 0 تراخيص)
+- أدلة سريرية خاصة بالموقع للمفوما الرئوية الأولية والورم العضلي الجنيني حول السحايا قبل التقدم بما يتجاوز مرحلة السؤال البحثي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

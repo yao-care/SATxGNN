@@ -29,99 +29,100 @@ indication_count: 10
 
 </div>
 
-# Daptomycin: From Gram-Positive Bacterial Infections to Osteoarthritis
+# داپتومايسين: من عدوى البكتيريا الموجبة الغرام إلى فصال عظمي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Daptomycin is a cyclic lipopeptide antibiotic used clinically to treat serious Gram-positive bacterial infections, including complicated skin infections, *Staphylococcus aureus* bacteremia, and right-sided infective endocarditis.
-The TxGNN model predicts it may be effective for **Osteoarthritis** with a score of 99.86%, yet this appears to be a **false positive** — all **10 retrieved publications** relate to daptomycin treating bone and joint *bacterial infections*, not the degenerative joint disease known as osteoarthritis, and **0 clinical trials** have investigated this repurposing direction.
+داپتومايسين هو مضاد حيوي حلقي ليبوپيبتيد يُستخدم سريرياً لمعالجة العدوى البكتيرية الخطيرة الموجبة الغرام، بما في ذلك عدوى الجلد والأنسجة الرخوة المعقدة، وتجرثم الدم بـ *Staphylococcus aureus*، والتهاب الشغاف المعدي على جانب اليمين.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فصال عظمي** برصيد يبلغ 99.86%، إلا أن هذا يبدو أنه **موجب كاذب** — جميع **10 منشورات مسترجعة** تتعلق بمعالجة داپتومايسين لعدوى بكتيرية في العظام والمفاصل، وليس مرض المفاصل التنكسي المعروف باسم فصال عظمي، و**0 تجربة سريرية** قد حققت في هذا الاتجاه إعادة الاستخدام.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Gram-positive bacterial infections (skin/soft tissue infections, *S. aureus* bacteremia, right-sided endocarditis) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed (0 registered products) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | عدوى بكتيرية موجبة الغرام (عدوى الجلد والأنسجة الرخوة، تجرثم الدم بـ *S. aureus*، التهاب الشغاف المعدي على جانب اليمين) |
+| الاستطباب الجديد المتنبأ به | فصال عظمي |
+| درجة التنبؤ TxGNN | 99.86% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق (0 منتجات مسجلة) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | احتفظ |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on published literature, daptomycin is a cyclic lipopeptide antibiotic that disrupts Gram-positive bacterial cell membrane integrity by binding to phosphatidylglycerol in a calcium-dependent manner, leading to membrane depolarisation and rapid bactericidal activity. It does not penetrate the cell wall and has no known direct action on mammalian cartilage, chondrocytes, or the inflammatory pathways driving osteoarthritis.
+حالياً، بيانات آلية العمل المفصلة غير متاحة من حزمة الأدلة. استناداً إلى الأدبيات المنشورة، داپتومايسين هو مضاد حيوي حلقي ليبوپيبتيد يعطل تكامل غشاء الخلايا البكتيرية الموجبة الغرام من خلال الارتباط بـ phosphatidylglycerol بطريقة تعتمد على الكالسيوم، مما يؤدي إلى إزالة استقطاب الغشاء والنشاط البكتيري السريع. لا يخترق جدار الخلية وليس له أي تأثير مباشر معروف على الغضروف أو الخلايا الغضروفية أو المسارات الالتهابية التي تدفع فصال عظمي.
 
-The TxGNN model's high prediction score most likely reflects a **knowledge graph artefact**: "osteoarthritis" and "osteoarticular infection" share overlapping semantic nodes in the biomedical knowledge graph (both involve joints and joint pathology). The 10 retrieved PubMed publications confirm this — all describe daptomycin's role in treating *bacterial infections of joints and prostheses* (periprosthetic joint infections, septic arthritis, osteomyelitis), none of which constitute evidence for treating osteoarthritis as a degenerative disease.
+ربما يعكس الدرجة العالية للتنبؤ لنموذج TxGNN **قطعة أثرية في رسم المعرفة**: "فصال عظمي" و"عدوى المفصل العظمي" تتشارك عُقد دلالية متداخلة في رسم المعرفة الطبية الحيوية (كلاهما ينطوي على المفاصل وأمراض المفاصل). تؤكد 10 منشورات PubMed المسترجعة هذا — كلها تصف دور داپتومايسين في معالجة *عدوى بكتيرية للمفاصل والأطراف الاصطناعية* (عدوى المفصل الصناعي، التهاب المفاصل الإنتاني، التهاب العظم والنقي)، ولا يشكل أي منها دليلاً على معالجة فصال عظمي كمرض تنكسي.
 
-Osteoarthritis pathology involves cartilage matrix degradation, oxidative stress, mechanical wear, and low-grade synovial inflammation — none of which have any known pharmacological intersection with daptomycin's antibacterial mechanism. This prediction is therefore considered a **non-actionable false positive** for the osteoarthritis indication. Notably, the second-ranked prediction (rheumatoid arthritis, L4) carries a more plausible mechanistic rationale supported by 2025 animal studies and is discussed under Conclusion.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for daptomycin in osteoarthritis.
+يتضمن المرض الفيزيولوجي لفصال عظمي تحلل مصفوفة الغضروف والإجهاد التأكسدي والتآكل الميكانيكي والالتهاب الزليلي منخفض الدرجة — لا يوجد أي منها له تقاطع صيدلاني معروف مع آلية داپتومايسين المضادة للبكتيريا. وبالتالي يعتبر هذا التنبؤ **موجب كاذب غير قابل للتنفيذ** للاستطباب فصال عظمي. بشكل ملحوظ، التنبؤ المصنف ثانياً (التهاب المفاصل الروماتويدي، L4) يحمل أساساً ميكانيكياً أكثر معقولية مدعوماً بدراسات حيوانية لعام 2025 ويتم مناقشته تحت الخلاصة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-> ⚠️ **Important caveat**: All publications below relate to daptomycin treatment of *bone and joint bacterial infections* (periprosthetic joint infections, septic arthritis), **not** the degenerative joint condition osteoarthritis. These studies do not constitute evidence for the predicted repurposing indication.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة لـ داپتومايسين في فصال عظمي.
 
-| PMID | Year | Type | Journal | Key Findings |
+---
+
+## دليل الأدبيات
+
+> ⚠️ **تحذير مهم**: جميع المنشورات أدناه تتعلق بمعالجة داپتومايسين لـ *عدوى بكتيرية في العظام والمفاصل* (عدوى المفصل الصناعي، التهاب المفاصل الإنتاني)، **وليس** حالة المفصل التنكسي فصال عظمي. هذه الدراسات لا تشكل دليلاً على استطباب إعادة الاستخدام المتنبأ به.
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Retrospective Cohort | J Antimicrob Chemother | Daptomycin vs. standard therapy for osteoarticular infections associated with *S. aureus* bacteraemia — clinical outcomes comparison |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Case Series | J Antimicrob Chemother | Clinical efficacy and safety of daptomycin for hip and knee periprosthetic joint infections |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In Vitro Study | J Antibiotics | In vitro susceptibility of *S. aureus* and *S. epidermidis* from prosthetic joint infections to daptomycin and other antibiotics |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Survey | Int J Antimicrob Agents | Survey of infectious disease physicians on antibiotic preferences for prosthetic joint infections; daptomycin cited as alternative agent |
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Retrospective Cohort | Int Orthopaedics | Safety and efficacy of high-dose daptomycin combined with rifampicin for Gram-positive osteoarticular infections |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Retrospective Cohort | Surgical Infections | Microbiologic profile of staphylococci in osteoarticular infections over 10 years; daptomycin susceptibility profiled |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Retrospective Cohort | Int J Antimicrob Agents | High-dose daptomycin (>6 mg/kg) for complicated bone, joint, and implant-associated Gram-positive infections |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Registry/Observational | Medicina Clinica | EU-CORE registry: Spanish experience with daptomycin across various Gram-positive infections including joint involvement |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case Report | Case Rep Orthopedics | *Corynebacterium striatum* septic arthritis in a patient referred for knee arthroplasty for osteoarthritis; daptomycin used as treatment |
-| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Case Report | ASM Case Reports | Septic arthritis due to *C. propinquum* in a native joint with underlying joint disease; daptomycin as part of treatment regimen |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | دراسة استرجاعية | J Antimicrob Chemother | داپتومايسين مقابل العلاج القياسي لعدوى العظام والمفاصل المرتبطة بتجرثم الدم بـ *S. aureus* — مقارنة النتائج السريرية |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | سلسلة حالات | J Antimicrob Chemother | الفعالية السريرية والسلامة لـ داپتومايسين لعدوى المفصل الصناعي للورك والركبة |
+| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | دراسة في الاختبار | J Antibiotics | التحسس في الاختبار لـ *S. aureus* و *S. epidermidis* من عدوى المفصل الصناعي لـ داپتومايسين والمضادات الحيوية الأخرى |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | استقصاء | Int J Antimicrob Agents | استقصاء أطباء الأمراض المعدية حول تفضيلات المضادات الحيوية لعدوى المفصل الصناعي؛ داپتومايسين يُذكر كعامل بديل |
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | دراسة استرجاعية | Int Orthopaedics | السلامة والفعالية لـ داپتومايسين بجرعة عالية مع الريفامبيسين لعدوى العظام والمفاصل الموجبة الغرام |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | دراسة استرجاعية | Surgical Infections | الملف الميكروبيولوجي للعنقوديات في عدوى العظام والمفاصل على مدى 10 سنوات؛ تم تحديد حساسية داپتومايسين |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | دراسة استرجاعية | Int J Antimicrob Agents | داپتومايسين بجرعة عالية (>6 mg/kg) لعدوى العظام والمفاصل والأطراف الاصطناعية المعقدة الموجبة الغرام |
+| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | السجل/الرصد | Medicina Clinica | سجل EU-CORE: الخبرة الإسبانية مع داپتومايسين عبر عدوى موجبة الغرام المختلفة بما في ذلك التهاب المفاصل |
+| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | تقرير حالة | Case Rep Orthopedics | التهاب المفاصل الإنتاني بـ *Corynebacterium striatum* في مريض تمت إحالته لتقويم الركبة لفصال عظمي؛ داپتومايسين المستخدم كعلاج |
+| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | تقرير حالة | ASM Case Reports | التهاب المفاصل الإنتاني بسبب *C. propinquum* في مفصل طبيعي مع أمراض المفاصل الأساسية؛ داپتومايسين كجزء من نظام العلاج |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Daptomycin has **no registered products** in Saudi Arabia (SFDA). There are currently 0 marketing authorizations on file.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note**: One published case report (PMID [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/), *Am J Med Sci*, 2023) documents **daptomycin-induced rhabdomyolysis complicated by acute gouty arthritis** — a secondary adverse effect arising from hyperuricaemia. This is a safety signal, not a therapeutic rationale. Clinicians should be aware that daptomycin itself can precipitate musculoskeletal complications.
+داپتومايسين ليس لديه **منتجات مسجلة** في المملكة العربية السعودية (SFDA). لا توجد حالياً تراخيص تسويق معروضة في الملف.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN prediction for osteoarthritis is assessed as a knowledge graph false positive — no mechanistic link exists between daptomycin's antibacterial action and osteoarthritis pathophysiology, no clinical trials have investigated this indication, and all retrieved literature addresses bone/joint *infections* rather than degenerative joint disease.
+> **ملاحظة**: تم توثيق تقرير حالة منشور واحد (PMID [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/)، *Am J Med Sci*، 2023) **داپتومايسين-الناجمة عن انحلال العضلات معقدة باضطراب النقرس الحاد** — تأثير سلبي ثانوي ينشأ من فرط حمض البوليك. هذه إشارة سلامة، وليست أساس علاجي. يجب أن يدرك الأطباء أن داپتومايسين نفسه قد يسبب مضاعفات في الجهاز العضلي الهيكلي.
 
 ---
 
-**Secondary Signal Worth Monitoring — Rheumatoid Arthritis (Rank 2, L4):**
-Two 2025 publications (PMID [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/); PMID [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/)) report for the first time that daptomycin suppresses inflammatory cytokines (IL-6, TNF-α) and inhibits the NF-κB pathway in collagen-induced arthritis (CIA) mouse models, alleviating joint inflammation. A second group has synthesised daptomycin-derived cyclic lipopeptide analogues with improved anti-RA activity. While still at preclinical stage (L4), this mechanistic rationale is genuine and merits tracking as an early-stage research question.
+## الخلاصة والخطوات التالية
 
-**To proceed with either indication, the following is needed:**
+**القرار: احتفظ**
 
-- **MOA data** (DrugBank full record) to confirm pharmacological profile and flag off-target effects
-- **SFDA package insert / safety data** to complete mandatory safety screening (currently Blocking data gap DG001)
-- For the RA signal specifically:
-  - Dose-response and PK/PD studies in inflammatory models
-  - Toxicity profile at anti-inflammatory doses (daptomycin causes dose-dependent myopathy; anti-inflammatory doses may differ from antimicrobial doses)
-  - Assessment of route compatibility (daptomycin is IV-only; RA therapy typically requires oral or SC routes for chronic use)
-  - Phase 1 safety study before any Phase 2 efficacy evaluation can be designed
+**الأساس المنطقي:**
+يتم تقييم توقع TxGNN لفصال عظمي كموجب كاذب في رسم المعرفة — لا يوجد ربط ميكانيكي بين العمل المضاد للبكتيريا لـ داپتومايسين والفيزيولوجيا المرضية لفصال عظمي، لم تحقق أي تجارب سريرية في هذا الاستطباب، وتعالج جميع الأدبيات المسترجعة عدوى بكتيرية في العظام والمفاصل وليس مرض المفاصل التنكسي.
+
+---
+
+**إشارة ثانوية جديرة بالمراقبة — التهاب المفاصل الروماتويدي (المرتبة 2، L4):**
+منشوران عام 2025 (PMID [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/)؛ PMID [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/)) يفيدان للمرة الأولى أن داپتومايسين يثبط السيتوكينات الالتهابية (IL-6، TNF-α) ويثبط مسار NF-κB في نماذج الفئران المصابة بالتهاب المفاصل الكولاجيني (CIA)، مما يخفف من التهاب المفاصل. وقد قامت مجموعة ثانية بتجميع نظائر cyclic lipopeptide المشتقة من داپتومايسين بنشاط محسّن لـ RA. بينما لا تزال في مرحلة قبل سريرية (L4)، فإن هذا الأساس الآلي الحقيقي جدير بالمراقبة كسؤال بحثي في المرحلة المبكرة.
+
+**للمتابعة مع أي من الاستطبابات، يلزم ما يلي:**
+
+- **بيانات MOA** (سجل DrugBank الكامل) لتأكيد الملف الصيدلاني وتحديد التأثيرات خارج الهدف
+- **نشرة الحزمة SFDA / بيانات السلامة** لإكمال الفحص الإلزامي للسلامة (حالياً بيانات حجب الفجوة DG001)
+- بالنسبة لإشارة RA على وجه التحديد:
+  - دراسات الاستجابة للجرعة ودراسات PK/PD في نماذج التهابية
+  - ملف السمية في جرعات مضادة للالتهابات (داپتومايسين يسبب اعتلالاً عضلياً معتمداً على الجرعة؛ قد تختلف الجرعات المضادة للالتهابات عن الجرعات المضادة للميكروبات)
+  - تقييم توافق المسار (داپتومايسين عن طريق الوريد فقط؛ عادة ما يتطلب علاج RA طرقاً فموية أو تحت الجلد للاستخدام المزمن)
+  - دراسة السلامة من المرحلة الأولى قبل أي تقييم فعالية في المرحلة الثانية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

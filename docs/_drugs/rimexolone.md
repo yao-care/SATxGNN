@@ -29,61 +29,62 @@ indication_count: 2
 
 </div>
 
-# Rimexolone: From Ophthalmic Inflammation to Seborrheic Dermatitis
+# ريموكسولون: من الالتهاب العيني إلى التهاب الجلد الدهني
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Rimexolone is a synthetic corticosteroid whose approved use is ophthalmic anti-inflammatory therapy (post-operative eye inflammation, anterior uveitis), though it is not currently marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Seborrheic Dermatitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests solely on class-level corticosteroid reasoning, not molecule-specific evidence.
+ريموكسولون هو كورتيكوستيرويد اصطناعي استخدامه المعتمد هو العلاج المضاد للالتهابات العينية (التهاب العين بعد الجراحة، التهاب العنبية الأمامي)، على الرغم من أنه غير مسوق حالياً في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الجلد الدهني**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجارب سريرية** و **0 منشورات** — فهو يستند فقط على الاستدلال على مستوى الفئة من الكورتيكوستيرويدات، وليس على أدلة خاصة بالجزيء.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Ophthalmic anti-inflammatory use (post-operative eye inflammation, anterior uveitis) — not formally documented in Saudi Arabia licensing data, as the drug is unlicensed there |
-| Predicted New Indication | Seborrheic Dermatitis |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | استخدام مضاد للالتهابات العينية (التهاب العين بعد الجراحة، التهاب العنبية الأمامي) — غير موثق رسمياً في بيانات الترخيص السعودية، حيث أن الدواء غير مرخص هناك |
+| المؤشر الجديد المتنبأ به | التهاب الجلد الدهني |
+| درجة التنبؤ من TxGNN | 99.50% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | احتفظ |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, rimexolone is a glucocorticoid receptor agonist used as an ophthalmic corticosteroid, and its anti-inflammatory efficacy in eye conditions such as post-operative inflammation and anterior uveitis is well established.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (مما يشير إلى فجوة في البيانات ذات الأهمية العالية). بناءً على المعلومات المعروفة، ريموكسولون هو ناهض مستقبل الكورتيكوستيرويد المستخدم كمنتج كورتيكوستيرويد عيني، وفعاليته المضادة للالتهابات في الأمراض العينية مثل الالتهاب بعد الجراحة والتهاب العنبية الأمامي راسخة جيداً.
 
-Corticosteroids as a drug class have recognized anti-inflammatory and antiproliferative effects that are the basis of standard treatment for both seborrheic dermatitis and dermatitis (rank 2 candidate, score 99.34%). The TxGNN prediction for rimexolone therefore reflects this **class-level** pharmacological plausibility rather than any rimexolone-specific dermatologic data.
+الكورتيكوستيرويدات كفئة من الأدوية لها تأثيرات معروفة مضادة للالتهابات ومضادة للتكاثر وهي أساس العلاج القياسي لالتهاب الجلد الدهني والتهاب الجلد (المرشح الثاني، الدرجة 99.34%). لذلك، فإن تنبؤ TxGNN بريموكسولون يعكس هذه **الجدوى الدوائية على مستوى الفئة** بدلاً من أي بيانات خاصة بريموكسولون في أمراض الجلد.
 
-An important caveat: rimexolone is currently formulated and used only as an ophthalmic product. No dermatologic (topical) formulation, preclinical dermatology data, or route-compatibility assessment exists to support repurposing into a skin condition. This gap must be resolved before the mechanistic rationale can translate into a credible development pathway.
+تحذير مهم: ريموكسولون مصاغ حالياً ومستخدم فقط كمنتج عيني. لا توجد صيغة جلدية (موضعية)، أو بيانات درمية سابقة للعيادة، أو تقييم لتوافق المسار لدعم إعادة الاستخدام في حالة جلدية. يجب حل هذه الفجوة قبل أن تتمكن النسبة الآلية من الترجمة إلى مسار تطور موثوق به.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Rimexolone is not currently marketed in Saudi Arabia — there are no local marketing authorizations on file (0 licenses).
+ريموكسولون غير مسوق حالياً في المملكة العربية السعودية — لا توجد تصاريح تسويقية محلية في السجلات (0 رخصة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (TFDA/SFDA package insert warnings and contraindications are currently a Blocking-severity data gap — required before any safety pre-assessment can proceed.)
+يُرجى الرجوع إلى ملف الحزمة للحصول على معلومات السلامة. (تحذيرات TFDA/SFDA وموانع استعمال ملف الحزمة هي حالياً فجوة في البيانات ذات الأهمية الحاجزة — مطلوبة قبل أن يتمكن أي تقييم أمان مسبق من المضي قدماً).
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: احتفظ**
 
-**Rationale:**
-The TxGNN score is high, but evidence level is L5 — no clinical trials, no literature, and no molecule-specific mechanistic data support this prediction; it relies entirely on class-level corticosteroid reasoning. The drug is also unlicensed in Saudi Arabia and lacks any dermatologic formulation.
+**الأساس المنطقي:**
+درجة TxGNN عالية، لكن مستوى الدليل هو L5 — لا توجد تجارب سريرية، ولا أدبيات، وبيانات آلية عمل خاصة بالجزيء لا تدعم هذا التنبؤ؛ فهو يعتمد بالكامل على الاستدلال على مستوى فئة الكورتيكوستيرويدات. الدواء غير مرخص أيضاً في المملكة العربية السعودية ويفتقر إلى أي صيغة جلدية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- Rimexolone-specific mechanism of action data — currently a High-severity data gap
-- Preclinical or clinical evidence specific to seborrheic dermatitis/dermatitis, beyond class-level corticosteroid rationale
-- Assessment of route compatibility — whether a topical/dermatologic formulation is feasible, since only an ophthalmic formulation currently exists
-- Drug interaction (DDI) data, currently not found
+**للمضي قدماً، يلزم ما يلي:**
+- ملف حزمة TFDA/SFDA (التحذيرات، موانع الاستعمال) — حالياً فجوة في البيانات الحاجزة
+- بيانات آلية عمل ريموكسولون المحددة — حالياً فجوة في البيانات ذات الأهمية العالية
+- أدلة سابقة للعيادة أو سريرية محددة لالتهاب الجلد الدهني/التهاب الجلد، بما يتجاوز المنطق على مستوى فئة الكورتيكوستيرويدات
+- تقييم التوافق مع المسار — ما إذا كانت صيغة موضعية/جلدية ممكنة، حيث أن صيغة عينية فقط موجودة حالياً
+- بيانات التفاعلات الدوائية (DDI)، غير محددة حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

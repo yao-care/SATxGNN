@@ -29,88 +29,89 @@ indication_count: 10
 
 </div>
 
-# Telbivudine: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+# تلبيفودين: من التهاب الكبد B المزمن إلى عدوى فيروس التهاب الكبد C المزمنة
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Telbivudine (DrugBank DB01265) is an L-nucleoside antiviral known clinically as an HBV DNA polymerase inhibitor (marketed elsewhere as Tyzeka/Sebivo for chronic hepatitis B) — though this original indication is not actually captured in this Evidence Pack (`original_indications` and `original_moa` are both data gaps). The TxGNN model's top-ranked prediction is **Chronic Hepatitis C Virus Infection**, nominally supported by **10 clinical trials** and **10 publications**, but on inspection nearly all of this "evidence" is actually about hepatitis B, not C — telbivudine has no established antiviral activity against HCV. This looks like a knowledge-graph co-occurrence artifact rather than a genuine repurposing signal.
+تلبيفودين (DrugBank DB01265) هو مضاد فيروسي من فئة نيوكليوسيد-L معروف سريرياً بأنه مثبط لبوليميراز DNA فيروس التهاب الكبد B (يُسوّق في أماكن أخرى باسم Tyzeka/Sebivo لالتهاب الكبد B المزمن) — على الرغم من أن هذا الاستطباب الأصلي غير مقيّد فعلاً في هذا مجموعة الأدلة (كلا من `original_indications` و `original_moa` هما فجوات بيانات). التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **عدوى فيروس التهاب الكبد C المزمنة**، يُدعم اسمياً بـ **10 تجارب سريرية** و **10 منشورات**، لكن عند الفحص الدقيق، فإن جميع هذه "الأدلة" تقريباً تتعلق بالتهاب الكبد B وليس C — ليس لتلبيفودين أي نشاط مضاد فيروسي معروف ضد التهاب الكبد C. يبدو هذا كتأثير اشتراك في الرسم البياني للمعرفة بدلاً من إشارة إعادة توظيف حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in Evidence Pack (Data Gap — `original_indications: []`); telbivudine is a known HBV DNA polymerase inhibitor (chronic hepatitis B) |
-| Predicted New Indication | Chronic Hepatitis C Virus Infection |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المادة | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير مقيّد في مجموعة الأدلة (فجوة بيانات — `original_indications: []`)؛ تلبيفودين هو مثبط معروف لبوليميراز DNA فيروس التهاب الكبد B (التهاب الكبد B المزمن) |
+| الاستطباب الجديد المتنبأ به | عدوى فيروس التهاب الكبد C المزمنة |
+| درجة التنبؤ TxGNN | 99.96% |
+| مستوى الأدلة | L4 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوّق (Not marketed) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | التأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا يبدو هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (`original_moa: "[Data Gap]"`). Based on known pharmacology, telbivudine is the unmodified L-enantiomer of thymidine, acting as a highly selective inhibitor of hepatitis B virus (HBV) DNA polymerase — it preferentially blocks HBV second-strand (DNA-dependent) synthesis. It has no known target overlap with hepatitis C virus, which is an RNA virus replicated by an RNA-dependent RNA polymerase (NS5B), not a DNA polymerase.
+حالياً، لا تتوفر بيانات آلية عمل تفصيلية في هذا مجموعة الأدلة (`original_moa: "[Data Gap]"`). استناداً إلى الصيدلة المعروفة، تلبيفودين هو الشكل L-enantiomer غير المعدّل من الثيميدين، يعمل كمثبط انتقائي جداً لبوليميراز DNA فيروس التهاب الكبد B — يحجب تفضيلياً تخليق الحبلا الثاني (يعتمد على DNA) لفيروس التهاب الكبد B. ليس لديه أي تداخل هدف معروف مع فيروس التهاب الكبد C، وهو فيروس RNA يتم نسخه بواسطة بوليميراز RNA معتمد على RNA (NS5B)، وليس بوليميراز DNA.
 
-Reviewing the supporting evidence in this pack confirms the mechanism does not transfer: of the 10 "chronic hepatitis C" clinical trials listed, essentially all are titled and described as **chronic hepatitis B** studies (e.g., NCT00142298 "Telbivudine in Adults With Chronic Hepatitis B," NCT00412529 "Kinetics of Hepatitis B Virus (HBV) DNA," NCT03181607/NCT05466071 on HBV mother-to-child transmission). The literature is dominated by review articles that discuss hepatitis B *and* C jointly (e.g., "Perspectives on the management of chronic hepatitis B and C," PMID 19344237), not primary evidence of anti-HCV efficacy.
+مراجعة الأدلة الداعمة في هذا المجموعة تؤكد أن الآلية لا تنقل: من أصل 10 تجارب سريرية "التهاب الكبد C المزمن" المذكورة، جميعها تقريباً بعنوان وموصوفة بأنها دراسات **التهاب الكبد B المزمن** (مثل NCT00142298 "Telbivudine in Adults With Chronic Hepatitis B"، NCT00412529 "Kinetics of Hepatitis B Virus (HBV) DNA"، NCT03181607/NCT05466071 حول انتقال فيروس التهاب الكبد B من الأم للطفل). الأدب يهيمن عليه مقالات استعراضية تناقش التهاب الكبد B *و* C معاً (المراجعات المقارنة، دراسات الإصابة المزدوجة، المستندات الإرشادية المشتركة)، وليس الأدلة الأولية على فعالية مضادة HCV.
 
-This pattern — HBV-specific trials and joint B/C reviews being pulled in under an HCV query — is consistent with **knowledge-graph co-occurrence bias**: HBV and HCV are frequently discussed together in the literature (comparative reviews, coinfection studies, shared guideline documents), which can inflate a GNN's predicted association without any real pharmacological basis. The evidence pack's own rationale field for this candidate concurs: *"telbivudine acts specifically on HBV DNA polymerase... no known inhibitory activity against HCV (RNA virus, RdRp target); listed trials are in fact all HBV-indication trials."*
+هذا النمط — التجارب الخاصة بفيروس التهاب الكبد B والمراجعات المشتركة بين B و C يتم سحبها بموجب استعلام HCV — متسق مع **تحيز اشتراك الرسم البياني للمعرفة**: يتم مناقشة فيروس التهاب الكبد B والتهاب الكبد C بشكل متكرر معاً في الأدب (المراجعات المقارنة، دراسات الإصابة المزدوجة، المستندات الإرشادية المشتركة)، مما قد يضخم التنبؤ بالارتباط لـ GNN دون أي أساس صيدلي حقيقي. حقل الأساس المنطقي الخاص بـ evidence pack لهذا المرشح يتفق: *"يعمل تلبيفودين بشكل حصري على بوليميراز DNA فيروس التهاب الكبد B... لا توجد نشاط مثبط معروف ضد HCV (فيروس RNA، هدف RdRp)؛ التجارب المدرجة هي في الواقع جميع تجارب استطباب التهاب الكبد B."*
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-*(as tagged to "chronic hepatitis C virus infection" in the Evidence Pack — flagged where the trial is actually an HBV study)*
+*(كما هي موسومة لـ "عدوى فيروس التهاب الكبد C المزمنة" في مجموعة الأدلة — مشار إليها حيث تكون التجربة في الواقع دراسة التهاب الكبد B)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02956850](https://clinicaltrials.gov/study/NCT02956850) | Phase 1 | Completed | 160 | RO7020531 PK/safety study — target population is **chronic hepatitis B**, not C |
-| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | Phase 3 | Completed | 44 | Telbivudine vs. entecavir viral kinetics in **HBeAg-positive chronic hepatitis B** |
-| [NCT00142298](https://clinicaltrials.gov/study/NCT00142298) | Phase 3 | Completed | 1869 | Open-label extension of telbivudine in **chronic hepatitis B** patients |
-| [NCT03181607](https://clinicaltrials.gov/study/NCT03181607) | N/A | Unknown | 300 | Telbivudine/tenofovir to reduce **HBV** mother-to-child transmission |
-| [NCT05466071](https://clinicaltrials.gov/study/NCT05466071) | N/A | Unknown | 200 | Tenofovir alafenamide to prevent **HBV** mother-to-child transmission |
-| [NCT02058108](https://clinicaltrials.gov/study/NCT02058108) | Phase 3 | Terminated | 53 | Pediatric telbivudine oral solution/tablets in **chronic hepatitis B** |
-| [NCT01925820](https://clinicaltrials.gov/study/NCT01925820) | Phase 4 | Unknown | 540 | Pegasys + entecavir vs. entecavir vs. Pegasys for **HBeAg-negative chronic hepatitis B** |
-| [NCT01083251](https://clinicaltrials.gov/study/NCT01083251) | N/A | Unknown | 120 | Vitamin D adjunct to Peg-IFN/telbivudine in **chronic HBV** infection |
-| [NCT00805675](https://clinicaltrials.gov/study/NCT00805675) | Phase 3 | Completed | 83 | Telbivudine + tenofovir DF combination kinetics in **HBeAg-positive compensated CHB** |
-| [NCT00810524](https://clinicaltrials.gov/study/NCT00810524) | Phase 4 | Unknown | 600 | Long-term prognosis of antiviral treatment in **chronic HBV** infection |
+| [NCT02956850](https://clinicaltrials.gov/study/NCT02956850) | المرحلة 1 | مكتملة | 160 | دراسة PK/السلامة RO7020531 — السكان المستهدفون هم **التهاب الكبد B المزمن**، وليس C |
+| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | المرحلة 3 | مكتملة | 44 | حركية الفيروس تلبيفودين مقابل إنتيكافير في **التهاب الكبد B المزمن HBeAg-موجب** |
+| [NCT00142298](https://clinicaltrials.gov/study/NCT00142298) | المرحلة 3 | مكتملة | 1869 | امتداد مفتوح الفترة الطويلة من تلبيفودين في مرضى **التهاب الكبد B المزمن** |
+| [NCT03181607](https://clinicaltrials.gov/study/NCT03181607) | غير محدد | غير معروف | 300 | تلبيفودين/تينوفوفير لتقليل انتقال **فيروس التهاب الكبد B** من الأم للطفل |
+| [NCT05466071](https://clinicaltrials.gov/study/NCT05466071) | غير محدد | غير معروف | 200 | تينوفوفير الفينامايد لمنع انتقال **فيروس التهاب الكبد B** من الأم للطفل |
+| [NCT02058108](https://clinicaltrials.gov/study/NCT02058108) | المرحلة 3 | أُنهيت | 53 | محلول/أقراص تلبيفودين الفموية للأطفال في **التهاب الكبد B المزمن** |
+| [NCT01925820](https://clinicaltrials.gov/study/NCT01925820) | المرحلة 4 | غير معروف | 540 | Pegasys + إنتيكافير مقابل إنتيكافير مقابل Pegasys لـ **التهاب الكبد B المزمن HBeAg-سالب** |
+| [NCT01083251](https://clinicaltrials.gov/study/NCT01083251) | غير محدد | غير معروف | 120 | مكمل فيتامين D لـ Peg-IFN/تلبيفودين في **عدوى HBV المزمنة** |
+| [NCT00805675](https://clinicaltrials.gov/study/NCT00805675) | المرحلة 3 | مكتملة | 83 | حركية مجموعة تلبيفودين + تينوفوفير DF في **التهاب الكبد B المعوض HBeAg-موجب** |
+| [NCT00810524](https://clinicaltrials.gov/study/NCT00810524) | المرحلة 4 | غير معروف | 600 | التشخيص طويل المدى للعلاج المضاد للفيروسات في **عدوى HBV المزمنة** |
 
-**None of these trials studied telbivudine for hepatitis C.** This table reflects a data-tagging artifact in the evidence pack rather than genuine HCV trial support.
+**لم تدرس أي من هذه التجارب تلبيفودين لالتهاب الكبد C.** يعكس هذا الجدول تأثير وسم البيانات في مجموعة الأدلة بدلاً من دعم تجربة HCV حقيقي.
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [19344237](https://pubmed.ncbi.nlm.nih.gov/19344237/) | 2009 | Review | Expert Rev Anti Infect Ther | Joint management perspective on chronic hepatitis B **and** C — not telbivudine-specific HCV data |
-| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wien Med Wochenschr | Current/future therapy overview for hepatitis B **and** C; telbivudine discussed only in the HBV context |
-| [18340426](https://pubmed.ncbi.nlm.nih.gov/18340426/) | 2008 | Review | Der Internist | German guideline update on antiviral therapy for hepatitis B **and** C; telbivudine listed only among HBV agents |
-| [25233195](https://pubmed.ncbi.nlm.nih.gov/25233195/) | 2014 | Review | J Perinatol | Review of HBV/HCV in pregnancy and mother-to-child transmission; not an HCV efficacy study of telbivudine |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antiviral medications for HBV and HCV and renal effects; telbivudine listed as an HBV agent only |
-| [28845882](https://pubmed.ncbi.nlm.nih.gov/28845882/) | 2018 | Cohort | J Viral Hepat | HBV reactivation during direct-acting antiviral (DAA) therapy **for HCV** — DAAs, not telbivudine, are the study drug |
-| [18330099](https://pubmed.ncbi.nlm.nih.gov/18330099/) | 2007 | Guideline | Acta Gastroenterol Belg | Belgian guidelines for management of chronic **hepatitis B** |
-| [23697556](https://pubmed.ncbi.nlm.nih.gov/23697556/) | 2013 | Cohort | J Interferon Cytokine Res | IL-37 and HBeAg seroconversion during telbivudine treatment in **HBV** patients |
-| [21964179](https://pubmed.ncbi.nlm.nih.gov/21964179/) | 2011 | Review | Mayo Clin Proc | General antiviral drug class review (herpes/hepatitis/influenza); not HCV-specific telbivudine data |
-| [21999649](https://pubmed.ncbi.nlm.nih.gov/21999649/) | 2011 | Review | Paediatr Drugs | Pediatric chronic liver disease management overview; not telbivudine-HCV specific |
+| [19344237](https://pubmed.ncbi.nlm.nih.gov/19344237/) | 2009 | مراجعة | Expert Rev Anti Infect Ther | منظور إدارة مشترك لالتهاب الكبد B **و** C — وليس بيانات HCV محددة خاصة بتلبيفودين |
+| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | مراجعة | Wien Med Wochenschr | نظرة عامة على العلاج الحالي والمستقبلي لالتهاب الكبد B **و** C؛ تم مناقشة تلبيفودين فقط في سياق التهاب الكبد B |
+| [18340426](https://pubmed.ncbi.nlm.nih.gov/18340426/) | 2008 | مراجعة | Der Internist | تحديث الإرشادات الألمانية حول العلاج المضاد للفيروسات لالتهاب الكبد B **و** C؛ تم إدراج تلبيفودين فقط بين عوامل التهاب الكبد B |
+| [25233195](https://pubmed.ncbi.nlm.nih.gov/25233195/) | 2014 | مراجعة | J Perinatol | مراجعة HBV/HCV في الحمل وانتقال العدوى من الأم للطفل؛ ليست دراسة فعالية HCV من تلبيفودين |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | مراجعة | Minerva Gastroenterol Dietol | الأدوية المضادة للفيروسات لـ HBV و HCV والآثار الكلوية؛ تم إدراج تلبيفودين كعامل التهاب كبد B فقط |
+| [28845882](https://pubmed.ncbi.nlm.nih.gov/28845882/) | 2018 | مجموعة بيانات | J Viral Hepat | إعادة تنشيط HBV أثناء علاج مباشر بمثبطات الفيروس (DAA) **لـ HCV** — DAAs، وليس تلبيفودين، هي دواء الدراسة |
+| [18330099](https://pubmed.ncbi.nlm.nih.gov/18330099/) | 2007 | إرشاد | Acta Gastroenterol Belg | الإرشادات البلجيكية لإدارة التهاب الكبد B **المزمن** |
+| [23697556](https://pubmed.ncbi.nlm.nih.gov/23697556/) | 2013 | مجموعة بيانات | J Interferon Cytokine Res | IL-37 و HBeAg تحويل المصل أثناء علاج تلبيفودين في مرضى **HBV** |
+| [21964179](https://pubmed.ncbi.nlm.nih.gov/21964179/) | 2011 | مراجعة | Mayo Clin Proc | استعراض فئة الأدوية المضادة للفيروسات العام (الهربس/التهاب الكبد/الإنفلونزا)؛ ليس بيانات تلبيفودين محددة لـ HCV |
+| [21999649](https://pubmed.ncbi.nlm.nih.gov/21999649/) | 2011 | مراجعة | Paediatr Drugs | نظرة عامة على إدارة أمراض الكبد المزمنة عند الأطفال؛ ليست بيانات محددة لتلبيفودين-HCV |
 
-**No literature in this pack demonstrates anti-HCV activity for telbivudine.**
+**لا توجد أدبيات في هذا المجموعة تظهر نشاطاً مضاداً لـ HCV لتلبيفودين.**
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Telbivudine is **not marketed** in Saudi Arabia (`market_status: Not marketed`, `total_licenses: 0`). No product authorizations are on file in this Evidence Pack.
+تلبيفودين **غير مسوّق** في المملكة العربية السعودية (`market_status: Not marketed`، `total_licenses: 0`). لا توجد تراخيص منتج على ملف في هذا مجموعة الأدلة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (`key_warnings`, `contraindications`, and DDI data are all flagged as Data Gaps in this pack — notably, DG001 marks the missing SFDA/TFDA package insert as a **Blocking** gap that prevents any S1 safety pre-assessment.)
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة. (بيانات `key_warnings` و `contraindications` و DDI موسومة جميعها كفجوات بيانات في هذا المجموعة — بشكل ملحوظ، DG001 تحدد ملخص خصائص المنتج المفقود SFDA/TFDA كفجوة **حاجزة** تمنع أي تقييم مسبق للسلامة S1.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: التأجيل**
 
-**Rationale:**
-The top-ranked TxGNN prediction (chronic hepatitis C) is not mechanistically plausible and is not actually supported by its own cited evidence — the linked trials and most literature describe hepatitis B, not C, indicating a knowledge-graph co-occurrence artifact. The next two ranked candidates fare no better: "hepatitis B virus infection" (rank 2) is not a repurposing opportunity at all — it is telbivudine's own known original indication, misfiled here due to the `original_indications` data gap — and "HIV infectious disease" (rank 3) is directly contradicted by in vitro/clinical evidence (PMID 22024528, PMID 20308377) showing telbivudine has no anti-HIV-1 activity. Ranks 5–10 (phenylalanine/tyrosine metabolism disorders, SIV, feline AIDS, rare neurodevelopmental disorder) have zero trials or literature and are almost certainly high-degree-node model noise.
+**المنطق:**
+التنبؤ الأعلى تصنيفاً من TxGNN (التهاب الكبد C المزمن) ليس قابلاً للتطبيق من الناحية الميكانيكية وليس في الواقع مدعوماً بأدلته الخاصة — التجارب المرتبطة بها ومعظم الأدب تصف التهاب الكبد B وليس C، مما يشير إلى تأثير اشتراك الرسم البياني للمعرفة. المرشحون المرتبطان الاثنان التاليان لا يعملان بشكل أفضل: "عدوى فيروس التهاب الكبد B" (رتبة 2) ليست فرصة إعادة توظيف على الإطلاق — إنها الاستطباب الأصلي المعروف من تلبيفودين، مسجل بشكل خاطئ هنا بسبب فجوة بيانات `original_indications` — و "مرض معدي HIV" (رتبة 3) يتناقض بشكل مباشر مع الأدلة في الجسم الحي/السريرية (PMID 22024528، PMID 20308377) التي تظهر تلبيفودين ليس لديه نشاط مضاد لـ HIV-1. الرتب 5-10 (اضطرابات استقلاب الفينيل ألانين/التيروزين، SIV، فيروس نقص المناعة لدى القطط، اضطراب نيوروديفيلوبمنتال نادر) لا تحتوي على تجارب أو أدب وهي على الأرجح ضوضاء نموذج عالية الدرجة.
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain the SFDA/TFDA package insert for telbivudine to enable any safety pre-assessment
-- Resolve DG002 (High): backfill confirmed mechanism of action and original-indication data from DrugBank/FDA label — this will also correct the mislabeling that makes HBV appear as a "new" prediction
-- If HBV re-confirmation is of interest, evaluate it separately as a market-entry/line-extension question, not as a TxGNN repurposing candidate
-- No further action recommended on the HCV, HIV, or metabolic-disorder predictions absent new mechanistic or clinical evidence
+**للمتابعة، يلزم ما يلي:**
+- حل DG001 (حاجز): الحصول على ملخص خصائص المنتج SFDA/TFDA لتلبيفودين لتفعيل أي تقييم مسبق للسلامة
+- حل DG002 (عالي): ملء بيانات آلية العمل المؤكدة والاستطباب الأصلي من DrugBank/تسمية FDA — سيؤدي هذا أيضاً إلى تصحيح الوسم الخاطئ الذي يجعل التهاب الكبد B يبدو كتنبؤ "جديد"
+- إذا كان إعادة التأكيد على التهاب الكبد B محل اهتمام، قيّمها بشكل منفصل كسؤال دخول السوق/توسيع الخط، وليس كمرشح إعادة توظيف TxGNN
+- لا يُوصى باتخاذ مزيد من الإجراءات بشأن تنبؤات التهاب الكبد C أو HIV أو الاضطرابات الأيضية في غياب أدلة آلية أو سريرية جديدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

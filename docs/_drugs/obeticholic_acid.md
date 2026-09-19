@@ -29,101 +29,98 @@ indication_count: 6
 
 </div>
 
-Using the evidence pack fields directly (drug identity, taiwan_regulatory, predicted_indications[0], safety) per the specified report template. Below is the report.
+# حمض أوبتيكوليك: من التهاب الأقنية الصفراوية الأولي إلى التهاب المفاصل الروماتويدي
+
+*ملاحظة: لا تحتوي حزمة الأدلة هذه على بيانات تنظيمية أو ترخيصية في المملكة العربية السعودية لحمض أوبتيكوليك (0 رخصة على الملف — الدواء غير موجود حالياً في السوق السعودية). يعكس الدواء الأصلي المعروض أعلاه الدواء الأصلي الموثق بشكل جيد عالمياً (أمراض الكبد الركودية / التهاب الأقنية الصفراوية الأولي) وهو متسق مع سياق FXR-agonist / PBC المشار إليه في الأدب المتاح في هذه الحزمة (PMID 32299307) — لا يتم الحصول عليه بنفسه من سجل ترخيص المملكة العربية السعودية.*
+
+## ملخص جملة واحدة
+
+> حمض أوبتيكوليك (OCA) هو ناهض مستقبل X الفاركينويد (FXR) يُستخدم بشكل راسخ في أمراض الكبد الركودية (التهاب الأقنية الصفراوية الأولي)؛ وهو غير مرخص حالياً أو غير موجود في السوق السعودية.
+> يتنبأ نموذج TxGNN بالارتباط المحتمل بـ **التهاب المفاصل الروماتويدي**، لكن هذا يدعمه حالياً فقط **0 تجربة سريرية** و **3 منشورات غير مباشرة وغير عشوائية**، لا تدرس أي منها حمض أوبتيكوليك بشكل مباشر في مرضى التهاب المفاصل الروماتويدي.
 
 ---
 
-# Obeticholic Acid: From Primary Biliary Cholangitis to Rheumatoid Arthritis
+## نظرة عامة سريعة
 
-*Note: this evidence pack contains no Saudi Arabia regulatory/license data for obeticholic acid (0 licenses on file — the drug is not currently marketed in Saudi Arabia). The original indication shown above reflects obeticholic acid's well-established global indication (cholestatic liver disease / primary biliary cholangitis) and is consistent with the FXR-agonist / PBC context referenced in this pack's own literature (PMID 32299307) — it is not itself sourced from a Saudi Arabia license record.*
-
-## One-Sentence Summary
-
-> Obeticholic acid (OCA) is a farnesoid X receptor (FXR) agonist whose established use is in cholestatic liver disease (primary biliary cholangitis); it is not currently licensed or marketed in Saudi Arabia.
-> The TxGNN model predicts possible relevance to **Rheumatoid Arthritis**, but this is currently supported only by **0 clinical trials** and **3 indirect, non-RCT publications**, none of which directly studies OCA in RA patients.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (0 Saudi Arabia licenses); externally established indication is cholestatic liver disease (primary biliary cholangitis) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 (preclinical/mechanistic only) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| الدواء الأصلي | غير موثق في حزمة الأدلة هذه (0 رخصة سعودية)؛ الدواء الأصلي الموثق خارجياً هو أمراض الكبد الركودية (التهاب الأقنية الصفراوية الأولي) |
+| الدواء المتنبأ به الجديد | التهاب المفاصل الروماتويدي |
+| درجة التنبؤ بـ TxGNN | 99.67% |
+| مستوى الأدلة | L4 (سابق للسريري/آلي فقط) |
+| حالة سوق المملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not formally documented in this evidence pack (data gap DG002, High severity). Based on the analytical context available within this pack, obeticholic acid is described as an **FXR (farnesoid X receptor) agonist** with anti-inflammatory and hepatoprotective properties, and its established use lies in cholestatic autoimmune/metabolic liver disease.
+حالياً، بيانات آلية العمل التفصيلية غير موثقة رسمياً في حزمة الأدلة هذه (فجوة البيانات DG002، ذات خطورة عالية). بناءً على السياق التحليلي المتاح في هذه الحزمة، يوصف حمض أوبتيكوليك بأنه **ناهض FXR (مستقبل X الفاركينويد)** بخصائص مضادة للالتهابات وحامية للكبد، ويكمن استخدامه الراسخ في أمراض الكبد الركودية المناعية الذاتية/الأيضية.
 
-The link between this profile and rheumatoid arthritis is weak and indirect. The only literature reference with any substantive connection (PMID 33704005) shows that FXR activation *prevents liver injury caused by Tripterygium wilfordii preparations* — an herbal medicine commonly used in Traditional Chinese Medicine to treat RA. This demonstrates a hepatoprotective effect **against RA-therapy-induced toxicity**, not a direct anti-rheumatic effect of OCA itself. The remaining two references discuss primary biliary cholangitis diagnosis/treatment and animal models of autoimmune hepatitis — both concern autoimmune *liver* disease, not the synovial/joint pathology characteristic of RA.
+الارتباط بين هذا الملف الشخصي والتهاب المفاصل الروماتويدي ضعيف وغير مباشر. المرجع الأدبي الوحيد الذي له أي اتصال جوهري (PMID 33704005) يظهر أن تفعيل FXR *يمنع إصابة الكبد الناجمة عن تحضيرات Tripterygium wilfordii* — وهو دواء عشبي شائع الاستخدام في الطب الصيني التقليدي لعلاج التهاب المفاصل الروماتويدي. هذا يوضح تأثير حماية الكبد **ضد السمية الناجمة عن علاج التهاب المفاصل الروماتويدي**، وليس تأثير مضاد روماتويدي مباشر لحمض أوبتيكوليك نفسه. المراجع المتبقية تناقش تشخيص وعلاج التهاب الأقنية الصفراوية الأولي والنماذج الحيوانية لالتهاب الكبد المناعي الذاتي — كلاهما يتعلق بأمراض الكبد المناعية الذاتية، وليس الأمراض الموضعية/المفصلية المميزة لالتهاب المفاصل الروماتويدي.
 
-Taken together, the high TxGNN score most likely reflects graph-embedding proximity between FXR/bile-acid signaling and general immune-modulation pathways in the knowledge graph, rather than an established pharmacological causal chain for RA treatment. No clinical trial or disease-specific mechanistic study currently supports repurposing OCA for RA.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+في المجمل، فإن درجة TxGNN العالية تعكس على الأرجح القرب من التضمين البياني بين إشارات FXR/bile-acid والمسارات المعدلة للمناعة العامة في الرسم البياني للمعرفة، بدلاً من سلسلة سببية دوائية راسخة لعلاج التهاب المفاصل الروماتويدي. لا توجد حالياً تجربة سريرية أو دراسة آلية محددة للمرض تدعم إعادة استخدام حمض أوبتيكوليك لالتهاب المفاصل الروماتويدي.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterology Journal | Overview of primary biliary cholangitis diagnosis and treatment; establishes OCA's known clinical context in cholestatic autoimmune liver disease — not RA-specific |
-| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Animal/mechanistic study | Xenobiotica | FXR activation prevents liver injury induced by Tripterygium wilfordii preparations (a herbal RA treatment) in mice — an indirect hepatoprotective link, not direct evidence of OCA treating RA |
-| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review (animal models) | Frontiers in Immunology | Reviews animal models for autoimmune hepatitis and related autoimmune liver diseases; general autoimmune-liver context, no RA-specific data |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Saudi Arabia Market Information
+## الأدلة الأدبية
 
-Obeticholic acid is not currently marketed in Saudi Arabia — no local product licenses are on file (0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: this evidence pack flags a Blocking-severity data gap — DG001, TFDA/SFDA package insert warnings and contraindications — meaning a formal safety screen (S1) cannot currently be completed for this drug.)*
+| PMID | السنة | النوع | المجلة | الأنتائج الرئيسية |
+|------|------|------|------|-------|
+| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | مراجعة | United European Gastroenterology Journal | نظرة عامة على تشخيص وعلاج التهاب الأقنية الصفراوية الأولي؛ توضح السياق السريري المعروف لحمض أوبتيكوليك في أمراض الكبد الركودية المناعية الذاتية — غير محدد لالتهاب المفاصل الروماتويدي |
+| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | دراسة حيوانية/آلية | Xenobiotica | تفعيل FXR يمنع إصابة الكبد الناجمة عن تحضيرات Tripterygium wilfordii (وهو علاج عشبي لالتهاب المفاصل الروماتويدي) في الفئران — ارتباط حماية الكبد غير المباشر، وليس أدلة مباشرة على معالجة حمض أوبتيكوليك لالتهاب المفاصل الروماتويدي |
+| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | مراجعة (نماذج حيوانية) | Frontiers in Immunology | مراجعة النماذج الحيوانية لالتهاب الكبد المناعي الذاتي وأمراض الكبد المناعية الذاتية ذات الصلة؛ سياق عام لأمراض الكبد المناعية الذاتية، بدون بيانات محددة لالتهاب المفاصل الروماتويدي |
 
 ---
 
-## Other Candidate Indications Screened (Lower Priority)
+## معلومات سوق المملكة العربية السعودية
 
-Beyond rheumatoid arthritis, five additional TxGNN-predicted indications were reviewed and are **not** carried forward, as each lacks any credible mechanistic or literature support:
-
-- **Conjunctivitis** (score 99.53%) — sole matched literature concerns NASH treated with an unrelated herbal alkaloid; likely a keyword/database mismatch.
-- **Colobomatous microphthalmia-rhizomelic dysplasia syndrome** (score 99.30%) — no literature or trials; no known biological link to FXR/bile acid pathways.
-- **Brachydactyly-syndactyly syndrome** (score 99.26%) — no literature or trials; a skeletal developmental disorder with no known FXR relevance.
-- **Brain small vessel disease 1 with or without ocular anomalies** (score 99.04%) — 19 literature hits, but the 10 reviewed are all congenital ophthalmic/neurodevelopmental case reports unrelated to OCA or FXR signaling; high literature count reflects keyword co-occurrence, not relevance.
-- **Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome** (score 99.03%) — no literature or trials; a rare COL4A1-related vascular/renal syndrome with no known link to bile acid metabolism.
-
-These are assessed as low-confidence model artifacts and are excluded from further evaluation.
+حمض أوبتيكوليك غير موجود حالياً في السوق السعودية — لا توجد رخص منتج محلي على الملف (0 تصريح).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Hold**
+يرجى الرجوع إلى إدراج العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-- Evidence for the rheumatoid arthritis prediction is limited to preclinical/mechanistic and review literature (Evidence Level L4), with zero registered clinical trials and no study directly testing OCA in RA patients. Combined with a Blocking safety data gap, this candidate does not currently meet the bar to proceed.
+*(ملاحظة: تحدد حزمة الأدلة هذه فجوة بيانات حرجة — DG001، تحذيرات إدراج TFDA/SFDA والموانع — مما يعني أنه لا يمكن حالياً إكمال فحص السلامة الرسمي (S1) لهذا الدواء.)*
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Formal mechanism of action (MOA) documentation from DrugBank or equivalent source — currently a High-severity gap (DG002)
-- A disease-specific mechanistic or preclinical study directly evaluating OCA/FXR agonism in an RA model, rather than the indirect hepatoprotective evidence currently available
-- Reassessment if any Phase 2 or later clinical trial of OCA in RA is registered
+---
+
+## مؤشرات مرشحة أخرى تمت فحصها (أولوية أقل)
+
+بعيداً عن التهاب المفاصل الروماتويدي، تمت مراجعة خمسة مؤشرات إضافية متنبأ بها بـ TxGNN و**لم يتم** نقلها للأمام، لأن كل منها تفتقر إلى أي دعم آلي أو أدبي موثوق:
+
+- **التهاب الملتحمة** (درجة 99.53%) — الأدب المتطابق الوحيد يتعلق بـ NASH الذي يعالج بقلويد عشبي غير ذي صلة؛ من المحتمل أن يكون عدم تطابق في الكلمات الرئيسية/قاعدة البيانات.
+- **متلازمة الحلقة البيضاوية المسطحة - عسر النمو الرابع** (درجة 99.30%) — لا توجد أدلة أدبية أو تجارب؛ لا يوجد ارتباط بيولوجي معروف بمسارات FXR/حمض الصفراء.
+- **متلازمة قصر الأصابع-الالتحام** (درجة 99.26%) — لا توجد أدلة أدبية أو تجارب؛ اضطراب نمو عظمي هيكلي بدون صلة FXR معروفة.
+- **مرض الأوعية الدموية الدقيقة في الدماغ 1 مع أو بدون تشوهات عينية** (درجة 99.04%) — 19 نتيجة أدبية، لكن 10 منها التي تمت مراجعتها هي جميع تقارير حالات عيب خلقي بصري/عصبي التطوري غير ذات صلة بحمض أوبتيكوليك أو إشارات FXR؛ يعكس العدد الأدبي المرتفع التعايش المشترك للكلمات الرئيسية، وليس الأهمية.
+- **متلازمة الهيموتوريا الأسرية السائدة الذاتية - التواء الشرايين شبكية - عقود المتلازمة** (درجة 99.03%) — لا توجد أدلة أدبية أو تجارب؛ متلازمة نادرة متعلقة بـ COL4A1 وعائية/كلية بدون ارتباط معروف بأيض حمض الصفراء.
+
+يتم تقييم هذه كنواتج منخفضة الثقة للنموذج ويتم استبعادها من التقييم الإضافي.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**الأساس المنطقي:**
+- الأدلة على التنبؤ بالتهاب المفاصل الروماتويدي مقتصرة على الأدب السابق للسريري/الآلي ومراجعة الأدب (مستوى الأدلة L4)، مع صفر تجارب سريرية مسجلة وبدون دراسة تختبر حمض أوبتيكوليك بشكل مباشر في مرضى التهاب المفاصل الروماتويدي. في المجمل مع فجوة بيانات سلامة حرجة، هذا المرشح لا يلبي حالياً معيار المضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+- إدراج TFDA/SFDA (التحذيرات والموانع) — حالياً فجوة حرجة (DG001)
+- توثيق رسمي لآلية العمل (MOA) من DrugBank أو مصدر معادل — حالياً فجوة ذات خطورة عالية (DG002)
+- دراسة آلية محددة للمرض أو سابقة للسريري تقيم بشكل مباشر حمض أوبتيكوليك/FXR agonism في نموذج التهاب المفاصل الروماتويدي، بدلاً من الأدلة الحماية غير المباشرة المتاحة حالياً
+- إعادة تقييم إذا تم تسجيل أي تجربة المرحلة الثانية أو لاحقة لحمض أوبتيكوليك في التهاب المفاصل الروماتويدي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

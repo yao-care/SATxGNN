@@ -29,78 +29,79 @@ indication_count: 2
 
 </div>
 
-# Vasopressin: From Diabetes Insipidus to Congenital Prothrombin Deficiency
+# الفازوبريسين: من الداء الكاهل إلى عوز البروثرومبين الخلقي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Vasopressin is a peptide hormone classically used for diabetes insipidus and as a vasopressor/antidiuretic agent; it currently holds **no marketing authorization in Saudi Arabia**, so a locally-confirmed original indication cannot be cited. The TxGNN model predicts a possible role in **Congenital Prothrombin Deficiency**, but this is supported only by **0 clinical trials** and **3 tangentially related publications** — none of which actually study prothrombin deficiency.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed for Saudi Arabia (no license on file); classically diabetes insipidus / vasopressor support based on general pharmacological knowledge |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Vasopressin هو هرمون ببتيدي يُستخدم تقليدياً في علاج الداء الكاهل وكموسع أوعية ومثبط لإدرار البول؛ وهو حالياً **لا يملك ترخيص تسويق في المملكة العربية السعودية**، لذا لا يمكن الاستشهاد بمؤشر أصلي محلي مؤكد. يتنبأ نموذج TxGNN بدور محتمل في **عوز البروثرومبين الخلقي**، لكن هذا مدعوم فقط بـ **0 تجربة سريرية** و**3 منشورات ذات صلة غير مباشرة** - لا يدرس أي منها نقص البروثرومبين بالفعل.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on the drug's known pharmacology, vasopressin and its analogue DDAVP act through the **V2 receptor** on vascular endothelial cells, triggering release of **von Willebrand factor (vWF)** and **Factor VIII** stored in Weibel-Palade bodies. This mechanism is specific to the vWF/Factor VIII axis.
-
-Prothrombin (Factor II) is a vitamin K–dependent clotting factor synthesized in the liver through an entirely separate pathway. There is **no direct mechanistic link** between vasopressin's V2-receptor-mediated vWF/FVIII release and prothrombin synthesis or activity. The three supporting publications discuss combined Factor V/VIII deficiency, acquired hemophilia A (Factor VIII inhibitors), and DDAVP use in Factor VIII replacement — none address prothrombin deficiency specifically. The TxGNN score therefore reflects a broad "coagulation factor / hemostasis" knowledge-graph association rather than a disease-specific mechanistic rationale, and the connection should be treated as indirect and unproven.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | Reviews acquired hemophilia A (autoantibodies against Factor VIII); does not address prothrombin deficiency |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case Report | Rinsho Ketsueki | Cesarean delivery in a patient with combined Factor V/VIII deficiency managed with FVIII concentrate replacement |
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case Report | Rinsho Ketsueki | DDAVP administration in a patient with congenital combined Factor V and Factor VIII deficiency |
-
-**Note:** None of the retrieved literature directly studies congenital prothrombin (Factor II) deficiency; all relate to Factor V/VIII pathways, which is a different coagulation axis.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير مؤكد للمملكة العربية السعودية (لا يوجد ترخيص في الملف)؛ تقليدياً الداء الكاهل / دعم الضغط الوعائي بناءً على المعرفة الدوائية العامة |
+| المؤشر الجديد المتنبأ به | عوز البروثرومبين الخلقي |
+| درجة التنبؤ من TxGNN | 99.63% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Vasopressin currently has no marketing authorization on file in Saudi Arabia (market status: Not marketed / Not marketed, 0 licenses).
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة (تم تصنيفها كفجوة بيانات شديدة، DG002). بناءً على الصيدلية المعروفة للعقار، يعمل Vasopressin وتناظره DDAVP عبر **مستقبل V2** على الخلايا البطانية الوعائية، مما يؤدي إلى إطلاق **عامل فون ويلبراند (vWF)** و**العامل الثامن (FVIII)** المخزنة في أجسام Weibel-Palade. هذه الآلية محددة لمحور vWF/FVIII.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA warnings and contraindications are listed as a **Blocking** data gap — DG001 — and could not be retrieved for this evaluation; drug interaction query returned no results.)
+البروثرومبين (العامل الثاني/Factor II) هو عامل تخثر يعتمد على فيتامين K ويتم تصنيعه في الكبد من خلال مسار منفصل تماماً. لا توجد **رابطة مباشرة آلية** بين إطلاق vWF/FVIII الذي يتوسطه المستقبل V2 لـ Vasopressin وتصنيع أو نشاط البروثرومبين. تناقش المنشورات الثلاثة الداعمة نقص العامل V/VIII المشترك والهيموفيليا A المكتسبة (مثبطات العامل VIII) واستخدام DDAVP في إحلال العامل VIII - لا أحد منها يعالج نقص البروثرومبين على وجه التحديد. لذلك تعكس درجة TxGNN ارتباط "عامل التخثر / الإرقاء" الواسع في الرسم البياني المعرفي بدلاً من نسبة منطقية محددة للمرض، والاتصال يجب أن يُعامل على أنه غير مباشر وغير مثبوت.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-**Rationale:**
-The prediction is supported only by mechanism-level evidence (L4) with no clinical trials and no literature directly studying the predicted indication; the drug also lacks Saudi Arabia market authorization and has a **Blocking** safety data gap (missing TFDA warnings/contraindications) that prevents an S1 safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (DG001, blocking — must be resolved before any safety review)
-- Confirmed mechanism of action data (DG002)
-- Literature or preclinical studies specifically addressing prothrombin deficiency (current evidence only covers Factor V/VIII pathways)
-- Saudi Arabia regulatory/licensing pathway assessment, given the drug is not currently marketed
+## أدلة الأدبيات العلمية
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|-----|------|--------|---------|
+| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | مراجعة | Autoimmunity Reviews | تراجع الهيموفيليا A المكتسبة (الأجسام المضادة الذاتية ضد العامل VIII)؛ لا تعالج نقص البروثرومبين |
+| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | حالة سريرية | Rinsho Ketsueki | الولادة القيصرية لدى مريضة بنقص العامل V/VIII المشترك الخلقي تم علاجها بتركيز العامل VIII |
+| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | حالة سريرية | Rinsho Ketsueki | إعطاء DDAVP لدى مريضة بنقص العامل V والعامل VIII المشترك الخلقي |
+
+**ملاحظة:** لا تدرس أي من المنشورات المسترجعة نقص البروثرومبين (العامل الثاني) الخلقي مباشرة؛ جميعها تتعلق بمسارات العامل V/VIII، وهو محور تخثر مختلف.
+
+---
+
+## معلومات السوق في المملكة العربية السعودية
+
+Vasopressin حالياً لا يملك ترخيص تسويق مسجل في المملكة العربية السعودية (حالة السوق: غير مسوق / غير مسوق، 0 ترخيص).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. (تم إدراج تحذيرات واستعارات الهيئة العامة للغذاء والدواء كفجوة بيانات **مسدودة** — DG001 — ولم يتم استسترجاعها لهذا التقييم؛ استعلام تفاعلات الأدوية لم يعيد أي نتائج.)
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: الانتظار**
+
+**المبرر:**
+التنبؤ مدعوم فقط بأدلة مستوى الآلية (L4) بدون تجارب سريرية وبدون أدب يدرس المؤشر المتنبأ به مباشرة؛ العقار أيضاً يفتقر إلى ترخيص تسويق المملكة العربية السعودية وله فجوة بيانات سلامة **مسدودة** (نشرة عبوة الهيئة العامة للغذاء والدواء المفقودة) تمنع التقييم المسبق للسلامة S1.
+
+**للمتابعة، يلزم الآتي:**
+- نشرة عبوة الهيئة العامة للغذاء والدواء للتحذيرات/الاستعارات (DG001، مسدود — يجب حله قبل أي مراجعة سلامة)
+- بيانات آلية العمل المؤكدة (DG002)
+- أدب أو دراسات ما قبل الإكلينيكية تعالج نقص البروثرومبين على وجه التحديد (الأدلة الحالية تغطي فقط مسارات العامل V/VIII)
+- تقييم المسار التنظيمي/الترخيص للمملكة العربية السعودية، نظراً لأن العقار غير مسوق حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

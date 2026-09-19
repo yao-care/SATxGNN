@@ -29,84 +29,85 @@ indication_count: 9
 
 </div>
 
-# Bosentan: From Pulmonary Arterial Hypertension to Rheumatoid Arthritis
+# البوسنتان: من ارتفاع ضغط الدم الرئوي إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Bosentan is a dual endothelin receptor antagonist (ERA) established for the treatment of pulmonary arterial hypertension (PAH) and systemic sclerosis-related digital ulcers.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, supported by **1 Phase 2 clinical trial** (targeting the related vasculitic condition giant cell arteritis, not yet recruiting) and **16 publications** — predominantly animal studies directly demonstrating anti-arthritic effects and mechanistic reviews linking the endothelin pathway to RA pathophysiology.
+البوسنتان هو ناهض مستقبل الإندوثيلين الثنائي (ERA) المثبت لعلاج ارتفاع ضغط الدم الرئوي (PAH) والقرح الرقمية المرتبطة بتصلب الجلد الجهازي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب المفاصل الروماتويدي**، مدعوماً بـ **1 تجربة سريرية من المرحلة 2** (استهدافاً للحالة الوعائية ذات الصلة التهاب الأوعية الدموية في الخلايا العملاقة، لم تبدأ التجنيد بعد) و **16 منشوراً** — في الغالب دراسات على الحيوانات توضح مباشرة تأثيرات مضادة للتهاب المفاصل والتقييمات الآلية التي تربط مسار الإندوثيلين بإمراضية التهاب المفاصل الروماتويدي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Pulmonary Arterial Hypertension (PAH) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | ارتفاع ضغط الدم الرئوي (PAH) |
+| الاستطباب الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة تنبؤ TxGNN | 99.80% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data from the regulatory source is not currently available for this report. Based on known pharmacology, Bosentan is a dual ETA/ETB endothelin receptor antagonist — it competitively blocks the binding of endothelin-1 (ET-1) at both receptor subtypes, reducing ET-1-driven vasoconstriction and fibrotic signalling. ET-1 plasma and synovial fluid levels are significantly elevated in rheumatoid arthritis patients, and ET-1 is known to promote synovial angiogenesis, fibroblast activation, and joint inflammation through downstream cytokine cascades involving TNF-α, IL-17, and IL-15.
+تفاصيل بيانات آلية العمل المفصلة من المصدر التنظيمي غير متاحة حالياً لهذا التقرير. بناءً على الصيدلة المعروفة، البوسنتان هو ناهض ثنائي ETA/ETB للإندوثيلين — يحجب بشكل تنافسي ارتباط الإندوثيلين-1 (ET-1) في كلا نوعي المستقبلات، مما يقلل من الانقباض الوعائي والإشارات الليفية المدفوعة بـ ET-1. مستويات ET-1 البلازما والسائل الزليلي مرتفعة بشكل كبير في مرضى التهاب المفاصل الروماتويدي، ويُعرف أن ET-1 يعزز تكون أوعية دموية زليلية، وتنشيط الخلايا الليفية، والالتهاب المفصلي من خلال شلالات السيتوكين النهائية التي تتضمن TNF-α و IL-17 و IL-15.
 
-Crucially, two independent animal models provide direct mechanistic support. In collagen-induced arthritis (CIA mice), Bosentan treatment significantly ameliorated joint inflammation and suppressed TNF-α expression — the same cytokine that drives RA progression in humans. In zymosan-induced arthritis, ET-1 blockade reduced neutrophil accumulation, oedema, and articular hypernociception mediated through LTB4 and CXCL-1. A third study demonstrated that IL-15, closely associated with clinical RA, triggers joint pain via a sequential ET-1-dependent pathway that is suppressible by dual ERA treatment.
+الأهم من ذلك، يوفر نموذجان حيوانيان مستقلان دعماً آلياً مباشراً. في التهاب المفاصل المستحث بالكولاجين (CIA mice)، أدى علاج البوسنتان إلى تحسين كبير في الالتهاب المفصلي وقمع تعبير TNF-α — نفس السيتوكين الذي يدفع تطور التهاب المفاصل الروماتويدي عند البشر. في التهاب المفاصل المستحث بالزيموسان، قلل حجب ET-1 من تراكم الخلايا المحببة، والوذمة، وفرط الإحساس المفصلي الوسيط من خلال LTB4 و CXCL-1. أوضحت دراسة ثالثة أن IL-15، المرتبط ارتباطاً وثيقاً بـ RA السريري، يحفز آلام المفاصل عبر مسار تسلسلي معتمد على ET-1 قابل للقمع بواسطة علاج ERA ثنائي.
 
-While the mechanistic rationale is coherent and biologically plausible, the evidence gap between animal models and human RA clinical trials remains wide. Unlike Bosentan's established use in PAH and limited systemic sclerosis — where Phase 3 RCTs confirm efficacy — no dedicated human RA trials have been conducted. The single retrieved clinical trial targets giant cell arteritis (a large-vessel vasculitis) rather than RA specifically, offering only indirect translational value.
+بينما تكون الأساس الآلي متماسكاً وبيولوجياً معقولاً، فإن فجوة الأدلة بين نماذج الحيوانات وتجارب التهاب المفاصل الروماتويدي السريرية عند الإنسان تبقى واسعة. على عكس استخدام البوسنتان المثبت في PAH والمحدود في تصلب الجلد — حيث تؤكد تجارب RCT من المرحلة 3 الفعالية — لم تُجرَ أي تجارب سريرية مخصصة لـ RA عند الإنسان. التجربة السريرية الوحيدة المسترجعة تستهدف التهاب الأوعية الدموية في الخلايا العملاقة (وهو التهاب أوعية دموية كبيرة الأوعية) وليس RA بشكل محدد، مما يوفر قيمة ترجمة غير مباشرة فقط.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجربة السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التجنيد | النتائج الرئيسية |
 |-------------|-------|--------|------------|--------------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Phase 2 | Not Yet Recruiting | 40 | Bosentan + glucocorticoids vs glucocorticoids alone in giant cell arteritis (GCA); primary endpoint: failure-free survival at 12 months. Target completion: September 2029. **Note:** GCA is a large-vessel vasculitis distinct from RA — this trial provides mechanistic proof-of-concept for ERA anti-inflammatory activity in autoimmune vasculopathy but does not constitute direct RA evidence. |
+| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | المرحلة 2 | لم تبدأ التجنيد بعد | 40 | البوسنتان + الجلوكوكورتيكويدات مقابل الجلوكوكورتيكويدات وحدها في التهاب الأوعية الدموية في الخلايا العملاقة (GCA)؛ النقطة النهائية الأولية: بقاء خالي من الفشل في 12 شهراً. الانتهاء المستهدف: سبتمبر 2029. **ملاحظة:** GCA هو التهاب أوعية دموية كبيرة الأوعية يختلف عن RA — توفر هذه التجربة إثبات مفهوم آلياً لنشاط ERA المضاد للالتهاب في اعتلال الأوعية الدموية المناعة الذاتية ولكنها لا تشكل أدلة مباشرة على RA. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Animal Study | *Inflammation Research* | Bosentan directly ameliorates collagen-induced arthritis (CIA) in mice; TNF-α upregulates endothelin system genes, and dual ETA/ETB blockade reduces joint inflammation — strongest direct evidence supporting repurposing hypothesis |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Animal Study | *J Leukocyte Biology* | ET-1 levels elevated in RA synovial membrane; ETA/ETB receptor blockade reduces neutrophil accumulation, oedema, and LTB4/TNF-α/CXCL-1 in zymosan-induced arthritis model |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Animal Study | *PNAS* | IL-15 (closely linked to clinical RA) triggers articular hypernociception via a sequential IFN-γ → ET-1 → prostaglandin pathway; dual ERA treatment inhibits this pain cascade |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Animal Study | *Pain* | IL-17 mediates articular hypernociception in antigen-induced arthritis; establishes cytokine-endothelin crosstalk relevant to Bosentan's potential analgesic-anti-inflammatory mechanism in RA |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case Report | *Kardiologia Polska* | Bosentan used for Eisenmenger syndrome in a child concurrently diagnosed with juvenile rheumatoid arthritis; case notable for co-management feasibility, no adverse interaction reported |
-| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Review | *Curr Opin Rheumatology* | Comprehensive review of rheumatic skin and systemic disease; contextualises overlapping vasculopathic and inflammatory pathways across connective tissue diseases |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | *Rheumatology (Oxford)* | Reviews vascular disease and PAH in SLE and Sjögren's syndrome; highlights ET-1's central role in CTD vasculopathy, providing mechanistic context for ERA use across rheumatic diseases |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | *Rheum Dis Clin N Am* | PAH associated with connective tissue diseases; notes RA among affected CTDs, underscoring shared ET-1-driven vascular pathology |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | *Lupus* | ET-1-driven PAH documented across multiple CTDs including RA; supports biological plausibility of ERA intervention in RA vasculopathy |
-| [18238768](https://pubmed.ncbi.nlm.nih.gov/18238768/) | 2008 | Review | *Am J Health-Syst Pharm* | Reviews ERA therapy options for systemic sclerosis complications; contextualises Bosentan's anti-fibrotic and anti-vasoconstrictive pharmacology relevant to inflammatory arthropathy |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | دراسة حيوانية | *Inflammation Research* | يحسّن البوسنتان بشكل مباشر التهاب المفاصل المستحث بالكولاجين (CIA) في الفئران؛ TNF-α ينظم بشكل إيجابي جينات نظام الإندوثيلين، وحجب ETA/ETB ثنائي يقلل من التهاب المفاصل — أقوى أدلة مباشرة تدعم فرضية إعادة الاستخدام |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | دراسة حيوانية | *J Leukocyte Biology* | مستويات ET-1 مرتفعة في الغشاء الزليلي لـ RA؛ حجب مستقبل ETA/ETB يقلل من تراكم الخلايا المحببة، والوذمة، و LTB4/TNF-α/CXCL-1 في نموذج التهاب المفاصل المستحث بالزيموسان |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | دراسة حيوانية | *PNAS* | IL-15 (المرتبط بشكل وثيق بـ RA السريري) يحفز فرط الإحساس المفصلي عبر مسار تسلسلي IFN-γ → ET-1 → البروستاجلاندين؛ يمنع علاج ERA ثنائي هذا المسار المؤلم |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | دراسة حيوانية | *Pain* | IL-17 يوسط فرط الإحساس المفصلي في التهاب المفاصل المستحث بالمستضد؛ ينشئ تقاطعاً للسيتوكين والإندوثيلين ذا الصلة بالآلية المحتملة المسكنة والمضادة للالتهاب للبوسنتان في RA |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | تقرير حالة | *Kardiologia Polska* | استُخدم البوسنتان لمتلازمة آيزنمنجر في طفل تم تشخيصه بشكل متزامن مع التهاب المفاصل الروماتويدي عند الأطفال؛ الحالة جديرة بالملاحظة لجدوى الإدارة المشتركة، لم يتم الإبلاغ عن أي تفاعل سلبي |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | مراجعة | *Curr Opin Rheumatology* | مراجعة شاملة لأمراض الجلد الروماتيسمية والمرض الجهازي؛ توضع السياق على مسارات الأوعية الدموية والالتهاب المتداخلة عبر أمراض النسيج الضام |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | مراجعة | *Rheumatology (Oxford)* | تراجع أمراض الأوعية الدموية و PAH في الذئبة الحمراء ومتلازمة شوغرن؛ يبرز دور ET-1 المركزي في اعتلال الأوعية الدموية CTD، مما يوفر السياق الآلي لاستخدام ERA عبر أمراض الروماتيسم |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | مراجعة | *Rheum Dis Clin N Am* | PAH المرتبط بأمراض النسيج الضام؛ لاحظ RA من بين CTDs المتأثرة، مما يسلط الضوء على مسار ET-1 المشترك والمدفوع بالأوعية الدموية |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | مراجعة | *Lupus* | PAH المدفوع بـ ET-1 موثق عبر CTDs متعددة بما في ذلك RA؛ يدعم المعقولية البيولوجية لتدخل ERA في اعتلال الأوعية الدموية RA |
+| [18238768](https://pubmed.ncbi.nlm.nih.gov/18238768/) | 2008 | مراجعة | *Am J Health-Syst Pharm* | يراجع خيارات علاج ERA لمضاعفات تصلب الجلد الجهازي؛ يوضع السياق على الصيدلة المضادة للليف والمضادة للانقباض الوعائي للبوسنتان ذات الصلة باعتلال المفاصل الالتهابي |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were available in the current evidence pack. Clinicians should note that Bosentan is a known inducer of CYP3A4 and CYP2C9 enzymes, carries a hepatotoxicity risk (monthly LFT monitoring required), and is teratogenic (Category X in pregnancy). These class effects of endothelin receptor antagonists are well established in the PAH literature and must be factored into any repurposing protocol.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. لم تكن هناك تحذيرات أو موانع أو بيانات تفاعل دواء متاحة في حزمة الأدلة الحالية. يجب على الأطباء الإشارة إلى أن البوسنتان محفز معروف لإنزيمات CYP3A4 و CYP2C9، ويحمل خطر تسمم الكبد (مراقبة اختبارات وظائف الكبد شهرية مطلوبة)، وهو مسخ (الفئة X في الحمل). هذه التأثيرات الفئوية لناهضات مستقبل الإندوثيلين مثبتة جيداً في أدبيات PAH ويجب أخذها في الاعتبار في أي بروتوكول إعادة استخدام.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظر**
 
-**Rationale:**
-The mechanistic case for Bosentan in rheumatoid arthritis is scientifically credible — ET-1 is elevated in RA synovial tissue, animal models directly confirm anti-arthritic efficacy, and the endothelin–TNF-α–IL-17 axis is biologically plausible — but the evidence base remains entirely preclinical. No human RA clinical trial has been conducted, and the single retrieved trial targets a related but distinct vasculitic condition. Evidence Level L3 is insufficient to proceed to clinical application without dedicated prospective human studies.
+**الأساس المنطقي:**
+الحالة الآلية للبوسنتان في التهاب المفاصل الروماتويدي معقولة علمياً — ET-1 مرتفع في أنسجة المفاصل الزليلية لـ RA، نماذج الحيوانات تؤكد بشكل مباشر الفعالية المضادة للتهاب المفاصل، والمحور الإندوثيلين–TNF-α–IL-17 معقول بيولوجياً — لكن قاعدة الأدلة تبقى سابقريرية بالكامل. لم تُجرَ أي تجربة سريرية لـ RA عند الإنسان، والتجربة الوحيدة المسترجعة تستهدف حالة وعائية ذات صلة لكن مختلفة. مستوى الأدلة L3 غير كافٍ للمتابعة إلى التطبيق السريري دون دراسات بشرية واعدة مخصصة.
 
-**To proceed, the following is needed:**
+**للمتابعة، يلزم ما يلي:**
 
-- **Proof-of-concept human pilot study**: A small Phase 1/2 open-label study in biologic-naïve or refractory RA patients assessing synovial ET-1 modulation and clinical endpoints (DAS28, HAQ)
-- **MOA documentation**: Formal retrieval of Bosentan's complete pharmacological profile from DrugBank to confirm receptor selectivity and downstream pathway interactions relevant to RA
-- **Safety monitoring plan**: Establish LFT monitoring protocol (baseline + monthly), CYP interaction screening (particularly with MTX, which is a RA cornerstone therapy), and pregnancy prevention programme prior to any clinical use
-- **Regulatory pathway clarification**: Bosentan is not marketed in Saudi Arabia; import or compassionate use pathway would need to be established before any investigator-initiated trial
-- **Biomarker strategy**: Identify patient subgroups most likely to respond (e.g., RA patients with elevated serum ET-1, concurrent Raynaud's phenomenon, or vasculopathic features) to enrich trial population
+- **دراسة تجريبية للبشر**: دراسة مفتوحة من المرحلة 1/2 صغيرة في مرضى RA البيولوجي الساذج أو العنيد تقيّم تعديل ET-1 الزليلي ونقاط النهاية السريرية (DAS28, HAQ)
+- **توثيق آلية العمل**: الاسترجاع الرسمي للملف الصيدلي الكامل للبوسنتان من DrugBank لتأكيد انتقائية المستقبلات والتفاعلات المسار النهائية ذات الصلة بـ RA
+- **خطة مراقبة السلامة**: إنشاء بروتوكول مراقبة اختبارات وظائف الكبد (خط الأساس + شهري)، فحص التفاعل CYP (خاصة مع MTX، وهو العلاج الأساسي لـ RA)، وبرنامج منع الحمل قبل أي استخدام سريري
+- **توضيح المسار التنظيمي**: البوسنتان غير مسوق في المملكة العربية السعودية؛ سيكون من الضروري إنشاء مسار استيراد أو استخدام إنساني قبل أي تجربة باحث مبادر
+- **استراتيجية المؤشر البيولوجي**: تحديد مجموعات المرضى التي من المرجح أن تستجيب (مثل مرضى RA الذين يعانون من ET-1 المصل المرتفع، وظاهرة رينود المتزامنة، أو ميزات الأوعية الدموية) لتثري مجموعة التجربة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

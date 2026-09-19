@@ -29,102 +29,103 @@ indication_count: 10
 
 </div>
 
-# MELPHALAN: From Multiple Myeloma to Gonadal Germ Cell Tumor
+# ملفالان: من الورم النخاعي المتعدد إلى ورم الخلايا الجنسية المرحلي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Melphalan is a classic alkylating chemotherapy agent, historically used for multiple myeloma and, in high-dose regimens, ovarian cancer.
-The TxGNN model predicts it may be effective for **Gonadal Germ Cell Tumor**,
-with **8 clinical trials** and **4 publications** currently supporting this direction.
+ملفالان هو عامل علاج كيميائي ألكلة كلاسيكي، تم استخدامه تاريخياً لعلاج الورم النخاعي المتعدد وسرطان المبيض في الأنظمة عالية الجرعة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **ورم الخلايا الجنسية المرحلي**،
+مع وجود **8 تجارب سريرية** و **4 منشورات** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## النظرة العامة السريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in Saudi Arabia licensing data (drug not marketed); classically used for multiple myeloma / ovarian cancer |
-| Predicted New Indication | Gonadal Germ Cell Tumor |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير متوفر في بيانات الترخيص السعودية (الدواء غير مسوق)؛ تم استخدامه تقليدياً لعلاج الورم النخاعي المتعدد / سرطان المبيض |
+| الاستطباب الجديد المتوقع | ورم الخلايا الجنسية المرحلي |
+| درجة تنبؤ TxGNN | 99.77% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, melphalan is a bifunctional alkylating agent (nitrogen mustard/phenylalanine-derivative class) that cross-links DNA, causing cytotoxic damage to rapidly dividing cells. Its efficacy in multiple myeloma is well established, and at high doses it has been used with autologous stem cell rescue across multiple solid-tumor indications.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في مجموعة الأدلة. بناءً على المعلومات المعروفة، ملفالان هو عامل ألكلة ثنائي الوظيفة (من فئة الخردل النيتروجيني/مشتقات الفينيل ألانين) يرتبط بالحمض النووي، مما يسبب ضرراً سمياً للخلايا التي تنقسم بسرعة. تم إثبات فعاليته في الورم النخاعي المتعدد بشكل جيد، وتم استخدامه بجرعات عالية مع الإنقاذ بالخلايا الجذعية الذاتية عبر مؤشرات أورام صلبة متعددة.
 
-Gonadal germ cell tumors (testicular seminoma/non-seminoma) are highly chemosensitive, rapidly proliferating tumors — the same tumor biology profile that historically responds to alkylating agents. Melphalan already has a documented clinical history in this space: it is a component of high-dose "high-dose chemotherapy + autologous stem cell transplant (ASCT)" salvage regimens for relapsed or poor-prognosis germ cell tumors, alongside agents such as gemcitabine, docetaxel, and carboplatin.
+أورام الخلايا الجنسية المرحلية (سيمينوما الخصية / غير السيمينوما) هي أورام حساسة جداً للعلاج الكيميائي وسريعة التكاثر - وهو نفس ملف الأورام البيولوجي الذي استجاب تاريخياً لعوامل الألكلة. لملفالان سجل سريري موثق بالفعل في هذا المجال: إنه مكون من أنظمة الإنقاذ "العلاج الكيميائي عالي الجرعة + زراعة الخلايا الجذعية الذاتية (ASCT)" لأورام الخلايا الجنسية المنتكسة أو سيئة الإنذار، جنباً إلى جنب مع عوامل مثل الجيمسيتابين والدوسيتاكسيل والكاربوبلاتين.
 
-Mechanistically, the TxGNN prediction is plausible because melphalan's cytotoxic activity is not tumor-type-specific — it depends on cellular proliferation rate, which is very high in germ cell tumors — and this is directly corroborated by a Phase 2 trial (NCT00936936) purpose-built for relapsed germ-cell tumors using a melphalan-containing regimen.
+من الناحية الآلية، فإن تنبؤ TxGNN معقول لأن النشاط السمي للخلايا لملفالان ليس محدداً لنوع الورم - فهو يعتمد على معدل انقسام الخلايا، وهو عالي جداً في أورام الخلايا الجنسية - وهذا يدعمه مباشرة تجربة المرحلة الثانية (NCT00936936) المصممة خصيصاً لأورام الخلايا الجنسية المنتكسة باستخدام نظام يحتوي على ملفالان.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Completed | 64 | High-dose chemotherapy (gemcitabine, docetaxel, melphalan, carboplatin → ifosfamide, carboplatin, etoposide) for poor-prognosis relapsed germ-cell tumors; directly designed for this indication |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Completed | 25 | Escalating-dose melphalan with autologous stem cell support and amifostine cytoprotection in cancer patients |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Large-scale study of eight high-dose chemotherapy regimens with autologous transplant for hematologic malignancy and selected solid tumors |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Completed | 25 | Busulfan + melphalan + topotecan followed by autologous stem cell transplant in advanced/recurrent tumors |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Terminated | 13 | Amifostine chemoprotection with autologous stem cell transplant for high-risk/relapsed pediatric solid and brain tumors |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | N/A | Completed | 174 | High-dose chemotherapy regimens with/without total-body irradiation before ASCT for hematologic and solid tumors |
-| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | N/A | Completed | 36 | Nonmyeloablative allogeneic transplant using melphalan/cladribine or total lymphoid irradiation for various hematologic conditions |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Completed | 6 | Intrathecal melphalan for recurrent neoplastic meningitis (CNS involvement, not germ cell tumor itself) |
+| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | مكتملة | 64 | العلاج الكيميائي عالي الجرعة (الجيمسيتابين، الدوسيتاكسيل، ملفالان، الكاربوبلاتين → الإيفوسفاميد، الكاربوبلاتين، الإتوبوسيد) لأورام الخلايا الجنسية المنتكسة سيئة الإنذار؛ تم تصميمها مباشرة لهذا الاستطباب |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | مكتملة | 25 | ملفالان متزايد الجرعة مع دعم الخلايا الجذعية الذاتية وحماية الأميفوستين السمية الخلوية لدى مرضى السرطان |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | مكتملة | 451 | دراسة واسعة النطاق لثماني أنظمة علاج كيميائي عالي الجرعة مع زراعة ذاتية للأورام الدموية الخبيثة والأورام الصلبة المختارة |
+| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | مكتملة | 25 | Busulfan + ملفالان + التوبوتيكان متبوعاً بزراعة الخلايا الجذعية الذاتية في الأورام المتقدمة / المتكررة |
+| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | موقوفة | 13 | حماية الأميفوستين الكيميائية مع زراعة الخلايا الجذعية الذاتية للأورام الصلبة والدماغية من الأطفال ذات الخطورة العالية / المنتكسة |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | N/A | مكتملة | 174 | أنظمة العلاج الكيميائي عالي الجرعة مع / بدون الإشعاع الكامل للجسم قبل ASCT للأورام الدموية الخبيثة والأورام الصلبة |
+| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | N/A | مكتملة | 36 | زراعة خيفية الأرومات غير المؤدية لكبت نخاع العظم باستخدام ملفالان / كلادريبين أو الإشعاع اللمفاوي الكامل للحالات الدموية المختلفة |
+| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | مكتملة | 6 | ملفالان داخل السحايا لالتهاب السحايا الورمي المتكرر (انخراط الجهاز العصبي المركزي، وليس ورم الخلايا الجنسية نفسه) |
 
 ---
 
-## Literature Evidence
+## دليل الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Review | Oncology | Chemotherapy of testicular germinal tumors |
-| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Review | The Urologic Clinics of North America | Seminoma treatment overview |
-| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | Cohort | Voprosy Onkologii | Experience treating testicular seminoma and its metastases with sarcolysin (melphalan) |
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Basic/Mechanistic | Acta Unio Internationalis Contra Cancrum | Influence of hormonal and alkylating drugs on pituitary follicle-stimulating function |
+| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | مراجعة | Oncology | العلاج الكيميائي لأورام الخلايا الجنسية الخصية |
+| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | مراجعة | The Urologic Clinics of North America | نظرة عامة على علاج السيمينوما |
+| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | مجموعة | Voprosy Onkologii | خبرة في علاج سيمينوما الخصية وانتقالاتها باستخدام السركولايزين (ملفالان) |
+| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | أساسي/آلية | Acta Unio Internationalis Contra Cancrum | تأثير الأدوية الهرمونية والألكلة على وظيفة الهرمون المحفز للجريب النخامي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Melphalan is currently **not marketed** in Saudi Arabia — no license records are available.
+ملفالان حالياً **غير مسوق** في المملكة العربية السعودية — لا توجد سجلات ترخيص متاحة.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (nitrogen mustard alkylating agent) |
-| Myelosuppression Risk | High — dose-limiting toxicity; multiple trials in the evidence base pair melphalan with autologous stem cell rescue specifically to manage this |
-| Emetogenicity Classification | Moderate to High (dose- and route-dependent; high-dose IV regimens are highly emetogenic) |
-| Monitoring Items | CBC with differential, renal function (dose adjustment required), hepatic function |
-| Handling Protection | Must follow standard cytotoxic drug handling and disposal protocols |
+| تصنيف السمية الخلوية | سمية خلوية تقليدية (عامل ألكلة خردل النيتروجين) |
+| خطر قمع النخاع | عالي — السمية المحددة للجرعة؛ تقرن عدة تجارب في قاعدة الأدلة ملفالان مع الإنقاذ بالخلايا الجذعية الذاتية تحديداً لإدارة هذا |
+| تصنيف الغثيان | متوسط إلى عالي (معتمد على الجرعة والطريق؛ أنظمة الوريد عالية الجرعة عالية الغثيان) |
+| عناصر المراقبة | عد الدم الكامل مع التفاضل، وظائف الكلى (يلزم تعديل الجرعة)، وظائف الكبد |
+| حماية المناولة | يجب اتباع بروتوكولات المناولة والتخلص من الأدوية السامة للخلايا الموحدة |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الضمانات**
 
-**Rationale:**
-One purpose-designed Phase 2 trial (NCT00936936) directly supports melphalan-containing high-dose chemotherapy in poor-prognosis relapsed germ-cell tumors, backed by several supporting Phase 1/2 ASCT trials and a mechanistically coherent rationale — sufficient to proceed but not yet at the strength of a confirmatory registration trial (L2 evidence).
+**الأساس المنطقي:**
+تدعم تجربة مرحلة ثانية مصممة خصيصاً واحدة (NCT00936936) مباشرة العلاج الكيميائي عالي الجرعة الذي يحتوي على ملفالان في أورام الخلايا الجنسية المنتكسة سيئة الإنذار، مدعومة بعدة تجارب ASCT داعمة في المرحلة 1/2 وأساس منطقي متسق آليّاً — كافٍ للمتابعة لكن لم يصل بعد إلى قوة تجربة تسجيل التأكيد (دليل L2).
 
-**To proceed, the following is needed:**
-- SFDA/TFDA package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action documentation
-- A regulatory pathway assessment, since melphalan is not currently marketed in Saudi Arabia
-- Drug-drug interaction data (current DDI query returned no results)
+**للمتابعة، يلزم ما يلي:**
+- بيانات النشرة المرفقة من SFDA/TFDA (التحذيرات والموانع) — حالياً فجوة بيانات مسددة
+- توثيق آلية عمل مؤكدة
+- تقييم المسار التنظيمي، حيث أن ملفالان غير مسوق حالياً في المملكة العربية السعودية
+- بيانات تفاعل الأدوية (عادت استعلامات DDI الحالية بلا نتائج)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

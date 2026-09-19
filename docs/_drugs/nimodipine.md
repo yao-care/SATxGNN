@@ -29,62 +29,63 @@ indication_count: 2
 
 </div>
 
-# Nimodipine: From Cerebral Vasospasm Prevention to Homozygous Familial Hypercholesterolemia
+# نيموديبين: من الوقاية من تشنج الأوعية الدموية الدماغية إلى فرط الكوليسترول الوراثي المتماثل
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Nimodipine is a dihydropyridine L-type calcium channel blocker whose established clinical role is preventing cerebral vasospasm after subarachnoid hemorrhage (per mechanistic notes in this evidence pack; official original-indication data is currently a gap).
-The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal.
+نيموديبين هو حاصر قنوات الكالسيوم من النوع L (ثنائي الهيدروبيريدين)، دوره السريري المثبت هو الوقاية من تشنج الأوعية الدموية الدماغية بعد نزيف تحت العنكبوتية (وفقاً لملاحظات آلية العمل المرفقة بهذه مجموعة الأدلة؛ بيانات الاستطبابات الأصلية الرسمية حالياً فجوة بيانات).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فرط الكوليسترول الوراثي المتماثل (HoFH)**،
+لكن هذا التنبؤ يدعمه حالياً **0 تجربة سريرية** و **0 منشورات** — إنها إشارة نموذج فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in structured data (data gap); mechanistic notes reference cerebral vasospasm prevention after subarachnoid hemorrhage |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.29% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير مؤكد في البيانات المنظمة (فجوة بيانات); ملاحظات آلية العمل تشير إلى الوقاية من تشنج الأوعية الدموية الدماغية بعد نزيف تحت العنكبوتية |
+| الاستطباب الجديد المتنبأ به | فرط الكوليسترول الوراثي المتماثل |
+| درجة التنبؤ من TxGNN | 99.29% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | ✗ غير مسجل |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تعليق |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in structured form (data gap DG002). Based on the rationale notes accompanying this prediction, nimodipine is a highly lipophilic L-type calcium channel blocker (dihydropyridine class) whose known clinical effect is relaxation of cerebral vascular smooth muscle, used to prevent vasospasm after subarachnoid hemorrhage.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في شكل منظم (فجوة بيانات DG002). بناءً على ملاحظات الأساس المرفقة بهذا التنبؤ، نيموديبين هو حاصر قنوات كالسيوم من النوع L شديد الذوبان في الدهون (من فئة ثنائي الهيدروبيريدين) تأثيره السريري المعروف هو استرخاء العضلات الملساء للأوعية الدموية الدماغية، ويُستخدم للوقاية من التشنج بعد نزيف تحت العنكبوتية.
 
-HoFH pathology arises from LDL receptor (or APOB/PCSK9) gene defects that impair LDL clearance — a lipid-metabolism pathway with no known mechanistic overlap with calcium channel signaling. The high TxGNN score (99.29%) most likely reflects an indirect association in the model's embedding space (e.g., clustering with cardiovascular disease comorbidities) rather than a genuine pharmacological link.
+ينشأ فرط الكوليسترول الوراثي المتماثل (HoFH) من عيوب جينية في مستقبل LDL (أو APOB/PCSK9) التي تضعف تصفية LDL — مسار استقلاب الدهون بدون أي تداخل ميكانيكي معروف مع إشارات قنوات الكالسيوم. درجة TxGNN العالية (99.29%) على الأرجح تعكس ارتباطاً غير مباشر في فضاء التمثيل النموذجي (مثل التجميع مع الاختلاطات المرتبطة بأمراض القلب والأوعية الدموية) بدلاً من ارتباط صيدلاني حقيقي.
 
-A second predicted indication, nephrogenic syndrome of inappropriate antidiuresis (NSIAD, score 99.05%), shows the same pattern: NSIAD is driven by gain-of-function AVPR2 mutations acting through the renal cAMP/AQP2 pathway, with no established connection to calcium channel blockade. Both predictions currently rest on model output alone, with no supporting trial or literature evidence.
+استطباب ثان متنبأ به، متلازمة الإفراز غير المناسب للهرمون المضاد للإدرار الكلوية (NSIAD، درجة 99.05%)، يظهر نفس النمط: NSIAD يحدث بسبب طفرات AVPR2 الكاسبة للوظيفة التي تعمل عبر مسار الكلى cAMP/AQP2، بدون ارتباط معروف مع تثبيط قنوات الكالسيوم. كلا التنبؤين يستندان حالياً على مخرجات النموذج وحسب، بدون أدلة تجريبية أو مرجعية داعمة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة المرجعيات
 
-Currently no related literature available
+حالياً لا توجد مرجعيات ذات صلة متاحة
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-Nimodipine is not currently marketed in Saudi Arabia; no product authorizations are on record (0 licenses).
+نيموديبين غير مسجل حالياً في السعودية؛ لا توجد تصاريح منتجات في السجل (0 ترخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى ورقة المعلومات الفنية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تعليق**
 
-**Rationale:**
-Both predicted indications (HoFH and NSIAD) are Evidence Level L5 — model prediction only, with no clinical trials, literature, or established mechanistic link. This is compounded by a Blocking data gap (DG001: TFDA warnings/contraindications unavailable), which prevents even an initial safety screen, and the drug is not currently marketed in Saudi Arabia.
+**الأساس المنطقي:**
+كلا الاستطبابين المتنبأ بهما (HoFH و NSIAD) يقعان ضمن مستوى أدلة L5 — تنبؤ نموذج فقط، بدون تجارب سريرية أو مرجعيات أو ارتباط ميكانيكي مثبت. يزيد من تعقيد الأمر وجود فجوة بيانات محجوبة (DG001: تحذيرات/موانع TFDA غير متاحة)، التي تحول دون إجراء حتى فحص السلامة الأولي، بالإضافة إلى أن العقار غير مسجل حالياً في السعودية.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — required before any safety assessment (DG001)
-- Confirmed original MOA and approved indication data from a structured source such as DrugBank (DG002)
-- Independent mechanistic or preclinical evidence connecting calcium channel blockade to lipid metabolism (HoFH) or AVPR2/AQP2 signaling (NSIAD)
-- Ongoing literature/trial monitoring, since no evidence currently exists for either predicted indication
+**للمتابعة، يلزم ما يلي:**
+- بيانات ورقة المعلومات الفنية TFDA (التحذيرات والموانع) — مطلوبة قبل أي تقييم سلامة (DG001)
+- بيانات آلية العمل الأصلية المؤكدة والاستطباب المعتمد من مصدر منظم مثل DrugBank (DG002)
+- أدلة ميكانيكية أو بحثية أولية مستقلة تربط حجب قنوات الكالسيوم باستقلاب الدهون (HoFH) أو إشارات AVPR2/AQP2 (NSIAD)
+- المراقبة المستمرة للأدبيات والتجارب السريرية، حيث لا توجد أدلة حالياً لأي من الاستطبابات المتنبأ بها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

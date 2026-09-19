@@ -29,62 +29,63 @@ indication_count: 10
 
 </div>
 
-# Haloperidol: From Schizophrenia/Psychotic Disorders to Congenital Disorder of Glycosylation with Defective Fucosylation
+# هالوبريدول: من الفصام / الاضطرابات الذهانية إلى اضطراب الجلكزة الخلقي مع نقص الفوكوزيلاسيون
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Haloperidol is a first-generation antipsychotic historically used to treat schizophrenia and other psychotic disorders.
-> The TxGNN model predicts it may be effective for **Congenital Disorder of Glycosylation with Defective Fucosylation**,
-> but this ranking currently has **zero clinical trials** and **zero supporting publications** — it is a pure knowledge-graph score with no biological rationale offered.
+> هالوبريدول هو مضاد ذهان من الجيل الأول يُستخدم تاريخياً لعلاج الفصام والاضطرابات الذهانية الأخرى.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **اضطراب الجلكزة الخلقي مع نقص الفوكوزيلاسيون**،
+> لكن هذا التصنيف حالياً يحتوي على **صفر تجارب سريرية** و**صفر منشورات داعمة** — وهو مجرد درجة رسم بياني معرفي بدون توضيح آلية بيولوجية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Schizophrenia and other psychotic disorders (well-established historical use; no formal license record found in the supplied regulatory data) |
-| Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الفصام والاضطرابات الذهانية الأخرى (استخدام تاريخي راسخ؛ لم يتم العثور على سجل ترخيص رسمي في البيانات التنظيمية المرفقة) |
+| المؤشر الجديد المتنبأ به | اضطراب الجلكزة الخلقي مع نقص الفوكوزيلاسيون |
+| درجة التنبؤ في TxGNN | 99.91% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available for Haloperidol in this evidence pack. Based on generally known pharmacology, Haloperidol is a typical (first-generation) antipsychotic that acts primarily as a central dopamine D2 receptor antagonist, with proven efficacy in schizophrenia and other psychotic disorders.
+حالياً، بيانات آلية التأثير التفصيلية غير متاحة لهالوبريدول في مجموعة الأدلة هذه. بناءً على الصيدلة المعروفة بشكل عام، هالوبريدول هو مضاد ذهان نمطي (من الجيل الأول) يعمل بشكل أساسي كمحصر لمستقبل الدوبامين D2 المركزي، مع فعالية ثابتة في الفصام والاضطرابات الذهانية الأخرى.
 
-Congenital disorder of glycosylation with defective fucosylation is a rare inherited metabolic/genetic disease involving defects in glycoprotein fucosylation pathways — a biological domain unrelated to dopaminergic neurotransmission. No mechanistic link between D2 receptor antagonism and fucosylation/glycosylation biology is established or proposed in this evidence pack.
+اضطراب الجلكزة الخلقي مع نقص الفوكوزيلاسيون هو مرض وراثي نادر متعلق باضطرابات أيضية/وراثية في مسارات فوكوزيلاسيون البروتينات الجلكوسيلية — مجال بيولوجي لا علاقة له بالنقل العصبي الدوبامينيرجي. لم يتم إنشاء أو اقتراح أي ارتباط ميكانيكي بين محصرات مستقبل D2 وعلم الأحياء الخاص بالفوكوزيلاسيون/الجلكزة في مجموعة الأدلة هذه.
 
-Per the evidence pack's own rationale: **"No known mechanistic link. No clinical trials, no literature support. This is a pure prediction score, an inference based on knowledge-graph embedding similarity, with no biological plausibility argument provided."** This ranking should be treated as a model-generated hypothesis only, not a clinically grounded repurposing candidate.
+وفقاً لمنطق مجموعة الأدلة نفسها: **"لا توجد آلية معروفة للارتباط. لا تجارب سريرية، لا دعم أدبي. هذا مجرد درجة تنبؤ، وهو استدلال يعتمد على تشابه تضمين الرسم البياني المعرفي، بدون حجة مصداقية بيولوجية مقدمة."** يجب اعتبار هذا التصنيف بمثابة فرضية يتم إنشاؤها بواسطة النموذج فقط، وليس بمثابة مرشح إعادة استخدام مرتكز سريرياً.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدب العلمي
 
-Currently no related literature available.
+لا يتوفر حالياً أي أدب علمي ذي صلة.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No authorization/license records available — Haloperidol is not currently marketed under this regulatory dataset (0 licenses on file).
+لا توجد سجلات تصريح/ترخيص متاحة — لا يتم تسويق هالوبريدول حالياً بموجب مجموعة البيانات التنظيمية هذه (0 رخصة في الملف).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-This candidate has an L5 evidence level — a high TxGNN similarity score with no clinical trials, no literature, and no articulated mechanistic plausibility. There is no basis to advance it beyond the hypothesis-generation stage.
+**المبرر:**
+هذا المرشح له مستوى دليل L5 — درجة تشابه عالية في TxGNN بدون تجارب سريرية، بدون أدب علمي، وبدون حجة مصداقية ميكانيكية معبر عنها. لا يوجد أساس للمضي قدماً به خارج مرحلة توليد الفرضيات.
 
-**To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Haloperidol (currently a data gap; DrugBank query needed)
-- TFDA/SFDA package insert warnings and contraindications (currently a data gap, flagged as Blocking — required before any S1 safety review)
-- A preclinical or mechanistic study proposing a plausible biological pathway linking D2 antagonism (or any other Haloperidol target) to fucosylation/glycosylation defects
-- If no such pathway can be established, this candidate should be deprioritized in favor of higher-evidence predictions in the same evidence pack (e.g., manic bipolar affective disorder, rank 10, which has an L1 evidence level with 9 clinical trials and 20 publications and may warrant its own report)
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية التأثير (MOA) لهالوبريدول (حالياً فجوة بيانات؛ استعلام DrugBank مطلوب)
+- تحذيرات وموانع استعمال نشرة TFDA/SFDA (حالياً فجوة بيانات، مصنفة كحجب — مطلوبة قبل أي مراجعة أمان S1)
+- دراسة ما قبل سريرية أو ميكانيكية تقترح مسار بيولوجي معقول يربط محصرات D2 (أو أي هدف هالوبريدول الآخر) بعيوب الفوكوزيلاسيون/الجلكزة
+- إذا لم يمكن إنشاء مثل هذا المسار، يجب إعطاء الأولوية المنخفضة لهذا المرشح لصالح التنبؤات الأعلى دليلاً في نفس مجموعة الأدلة (على سبيل المثال، اضطراب الذهان الثنائي القطب الهوسي، الترتيب 10، الذي يحتوي على مستوى دليل L1 مع 9 تجارب سريرية و20 منشور وقد يستحق تقريره الخاص)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

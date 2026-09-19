@@ -29,84 +29,85 @@ indication_count: 8
 
 </div>
 
-# Roxithromycin: From Bacterial Infections to Leprosy
+# الروكسيثروميسين: من العدوى البكتيرية إلى الجذام
 
-## One-Sentence Summary
+## ملخص سطر واحد
 
-> Roxithromycin is a macrolide antibiotic (erythromycin-class); its specific original approved indication is not available in this evidence pack due to a data gap.
-> The TxGNN model predicts it may be effective for **Leprosy**,
-> with **0 registered clinical trials** and **5 publications** (preclinical/mechanistic) currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — data gap (roxithromycin is a macrolide antibiotic; no approved indication text on file) |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> الروكسيثروميسين مضاد حيوي ماكروليد (من فئة الإريثروميسين)؛ لا تتوفر مؤشرات استخدامه الأصلية المحددة في هذه حزمة الأدلة بسبب فجوة بيانات.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **الجذام**،
+> مع وجود **0 تجربة سريرية مسجلة** و **5 منشورات** (سابقة الإكلينيكية/آليات العمل) تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data for roxithromycin is not available. Based on known information, roxithromycin belongs to the macrolide antibiotic class (related to erythromycin and clarithromycin), whose efficacy in bacterial infections is well established; mechanistically it may be applicable to leprosy given documented class-wide activity against *Mycobacterium leprae*.
-
-The supporting literature is preclinical and mechanistic rather than clinical. In vitro and mouse-footpad studies show that several macrolides — including roxithromycin — inhibit *M. leprae* growth and are bactericidal in animal models (PMID 1648889, PMID 3072920, PMID 2665640). A Japanese case-series/review (PMID 10481449) further notes roxithromycin's anti-inflammatory and immunomodulatory activity alongside its direct anti-mycobacterial effect, both potentially relevant to leprosy's neuroinflammatory complications.
-
-However, a key caveat from the same evidence: in head-to-head mouse studies, clarithromycin was found superior to roxithromycin, with higher drug levels at the infection site (PMID 1648889). This means the prediction rests on a **class-effect inference** rather than roxithromycin-specific human data — clarithromycin, not roxithromycin, is the macrolide actually used in clinical leprosy regimens.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح — فجوة بيانات (الروكسيثروميسين مضاد حيوي ماكروليد؛ لا توجد نصوص مؤشرات مصرح بها في الملف) |
+| المؤشر المنبأ به الجديد | الجذام |
+| درجة التنبؤ TxGNN | 99.70% |
+| مستوى الأدلة | L4 |
+| حالة السوق السعودية | ✗ غير معروض |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | عدم المتابعة |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Review | American Journal of Clinical Dermatology | General review of macrolide antibacterials in skin/soft-tissue infections, covering mechanism of action and drug interactions relevant to the class |
-| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Clinical/Case series | Nihon Hansenbyo Gakkai zasshi (Jpn J Leprosy) | Roxithromycin, alongside clarithromycin, minocycline and fosfomycin, shows anti-inflammatory/immunomodulatory activity plus direct anti-*M. leprae* activity relevant to control of leprous peripheral neuropathy |
-| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | In vitro/Animal | Antimicrobial Agents and Chemotherapy | Evaluated newer macrolides (including roxithromycin) against *M. leprae* in vitro and in vivo, building on earlier erythromycin activity data |
-| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Animal (mouse) | Antimicrobial Agents and Chemotherapy | Mouse footpad model: roxithromycin and clarithromycin were both bactericidal against *M. leprae*; clarithromycin was superior, likely due to higher tissue levels at the infection site |
-| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | In vitro | Antimicrobial Agents and Chemotherapy | In vitro macrophage screen of >25 antimicrobial agents for anti-leprosy potential via inhibition of phenolic glycolipid I synthesis |
+حالياً، بيانات آلية العمل التفصيلية للروكسيثروميسين غير متاحة. بناءً على المعلومات المعروفة، ينتمي الروكسيثروميسين إلى فئة المضادات الحيوية الماكروليد (المرتبطة بالإريثروميسين والكلاريثروميسين)، وفعاليتها في العدوى البكتيرية راسخة بشكل جيد؛ من حيث الآلية، قد تكون قابلة للتطبيق على الجذام نظراً للنشاط المثبت على نطاق الفئة ضد *Mycobacterium leprae*.
+
+الأدبيات الداعمة سابقة للإكلينيكية والآلية بدلاً من السريرية. تُظهر الدراسات في الأنابيب وفي نموذج فراغ الفأر أن عدة ماكروليدات — بما فيها الروكسيثروميسين — تثبط نمو *M. leprae* وتكون بكتيرية القتل في نماذج الحيوانات (PMID 1648889, PMID 3072920, PMID 2665640). سلسلة حالات/استعراض يابانية (PMID 10481449) تلاحظ كذلك النشاط المضاد للالتهاب والمناعي للروكسيثروميسين جنباً إلى جنب مع تأثيره المباشر المضاد للميكوباكتيريا، وكلاهما قد يكون ذا صلة بمضاعفات التهاب الأعصاب في الجذام.
+
+مع ذلك، هناك تحفظ رئيسي من نفس الأدلة: في الدراسات المقارنة في الفئران، وُجد أن الكلاريثروميسين أفضل من الروكسيثروميسين، مع مستويات دواء أعلى في موقع العدوى (PMID 1648889). هذا يعني أن التنبؤ يقوم على **استدلال تأثير الفئة** بدلاً من بيانات إنسانية محددة للروكسيثروميسين — الكلاريثروميسين، وليس الروكسيثروميسين، هو الماكروليد المستخدم فعلاً في الأنظمة السريرية للجذام.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Roxithromycin is not currently marketed in Saudi Arabia (0 authorizations on record; market status: Not marketed/Not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية مسجلة ذات صلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|-----------------|
+| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | استعراض | American Journal of Clinical Dermatology | استعراض عام للمضادات الحيوية الماكروليد في العدوى الجلدية والناعمة، يغطي آلية العمل والتفاعلات الدوائية ذات الصلة بالفئة |
+| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | سريري/سلسلة حالات | Nihon Hansenbyo Gakkai zasshi (Jpn J Leprosy) | الروكسيثروميسين، إلى جانب الكلاريثروميسين والميموسيكلين والفوسفوميسين، يظهر نشاطاً مضاداً للالتهاب/مناعياً بالإضافة إلى النشاط المباشر المضاد لـ *M. leprae* ذا الصلة بالتحكم في اعتلال الأعصاب الطرفي في الجذام |
+| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | في الأنابيب/حيواني | Antimicrobial Agents and Chemotherapy | تقييم الماكروليدات الأحدث (بما فيها الروكسيثروميسين) ضد *M. leprae* في الأنابيب والدراسات الحية، البناء على بيانات نشاط الإريثروميسين السابقة |
+| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | حيواني (فأر) | Antimicrobial Agents and Chemotherapy | نموذج فراغ الفأر: الروكسيثروميسين والكلاريثروميسين كانا كلاهما بكتيرية القتل ضد *M. leprae*؛ كان الكلاريثروميسين أفضل، على الأرجح بسبب مستويات أنسجة أعلى في موقع العدوى |
+| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | في الأنابيب | Antimicrobial Agents and Chemotherapy | فحص الضامة في الأنابيب لأكثر من 25 عامل مضاد ميكروبي لإمكانات مكافحة الجذام من خلال منع تخليق الجليكوليبيد الفينولي I |
 
-**Rationale:**
-Evidence is limited to preclinical/animal and mechanistic studies (L4) with zero registered clinical trials, and the one comparative animal study available shows roxithromycin was *less* effective than clarithromycin against *M. leprae* — the macrolide with actual clinical precedent in leprosy. This is class-effect inference, not roxithromycin-specific human evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data on warnings and contraindications (currently a Blocking data gap — required before any S1 safety screen)
-- Confirmed mechanism of action (MOA) data from DrugBank (High-severity data gap)
-- Head-to-head or roxithromycin-specific efficacy data against *M. leprae* (current evidence favors clarithromycin)
-- Verification of roxithromycin's original approved indication(s), currently unavailable
+## معلومات السوق السعودية
 
-*Note: Seven additional TxGNN-predicted indications (hypertrichosis, periodontal-related malformation syndrome, Ambras syndrome, Dandy-Walker-associated syndrome, hair shaft abnormality, nephrogenic SIAD, pulmonary hypertension) were also screened. All scored L5/Hold except pulmonary hypertension (L4/Research Question, based on indirect COPD-antibiotic-prophylaxis literature, not disease-specific evidence). None are reported in full here due to absent or non-specific supporting evidence.*
+الروكسيثروميسين غير معروض حالياً في السعودية (0 ترخيص في السجل؛ حالة السوق: غير معروض/غير معروض).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: عدم المتابعة**
+
+**المبرر:**
+الأدلة محدودة بدراسات سابقة للإكلينيكية/حيوانية وآليات العمل (L4) بدون تجارب سريرية مسجلة، والدراسة الحيوانية المقارنة الوحيدة المتاحة تُظهر أن الروكسيثروميسين كان *أقل* فعالية من الكلاريثروميسين ضد *M. leprae* — الماكروليد الذي له سابقة سريرية فعلية في الجذام. هذا استدلال تأثير الفئة، وليس أدلة إنسانية محددة للروكسيثروميسين.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات نشرة TFDA/SFDA حول التحذيرات والموانع (حالياً فجوة بيانات حاجزة — مطلوبة قبل أي فحص سلامة S1)
+- بيانات آلية العمل المؤكدة (MOA) من DrugBank (فجوة بيانات عالية الشدة)
+- بيانات الفعالية المقارنة أو المحددة للروكسيثروميسين ضد *M. leprae* (الأدلة الحالية تفضل الكلاريثروميسين)
+- التحقق من مؤشر استخدام الروكسيثروميسين الأصلي المصرح به، غير متاح حالياً
+
+*ملاحظة: تم فحص سبع مؤشرات إضافية متنبأ بها من TxGNN (فرط الشعر، متلازمة تشوه الأنسجة اللثوية، متلازمة أمبراس، متلازمة دندي-ووكر المرتبطة، شذوذ عمود الشعر، SIAD الكلوي، ارتفاع ضغط الدم الرئوي). كلها سجلت L5/عدم المتابعة ما عدا ارتفاع ضغط الدم الرئوي (L4/سؤال بحثي، بناءً على أدبيات COPD-antibiotic-prophylaxis غير المباشرة، وليس أدلة محددة للمرض). لم يتم الإبلاغ عن أي منها هنا بالكامل بسبب عدم وجود أو عدم تحديد الأدلة الداعمة.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

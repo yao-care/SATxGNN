@@ -29,82 +29,83 @@ indication_count: 1
 
 </div>
 
-# Potassium Gluconate: From Hypokalemia to Renal Tubular Acidosis
+# غلوكونات البوتاسيوم: من نقص البوتاسيوم في الدم إلى الحماض الأنبوبي الكلوي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Potassium gluconate is a potassium salt used for oral potassium repletion in hypokalemia; no formal indication record is available in this evidence pack, and detailed mechanism-of-action data has not yet been retrieved.
-The TxGNN model predicts it may be effective for **Renal Tubular Acidosis**, with **0 clinical trials** and **8 publications** currently identified — evidence is preclinical/mechanistic and includes a subtype-mismatch risk described below.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Saudi license text available); based on known pharmacology, used as an oral potassium supplement for hypokalemia |
-| Predicted New Indication | Renal Tubular Acidosis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+غلوكونات البوتاسيوم هي ملح بوتاسيوم يُستخدم لتعويض البوتاسيوم عن طريق الفم في حالات نقص البوتاسيوم في الدم؛ لا يتوفر سجل إشارة رسمي في هذه مجموعة الأدلة، ولم تتم استرجاع بيانات آلية العمل بالتفصيل بعد.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الحماض الأنبوبي الكلوي**، مع **0 تجربة سريرية** و **8 منشورات** تم تحديدها حالياً — الأدلة ما قبل سريرية/ميكانيكية وتشمل مخاطر عدم التطابق في النوع الفرعي الموصوفة أدناه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not currently available. Based on known information, potassium gluconate is a potassium salt used for oral potassium supplementation, and its efficacy in correcting hypokalemia/potassium deficiency is well established; mechanistically this may be applicable to renal tubular acidosis (RTA), where potassium status is central to the disease process.
-
-The link is plausible for one specific RTA subtype: in hypokalemic RTA (classically Type 1/distal RTA), potassium supplementation (typically as potassium citrate, though potassium gluconate has been used in case reports) is a recognized adjunct to alkali therapy. However, RTA is pathophysiologically heterogeneous — Type 4 RTA is **hyperkalemic**, and potassium supplementation is contraindicated in that subtype. The literature set retrieved for this prediction includes a case report of severe hyperkalemic Type 4 RTA, confirming this subtype conflict is real and not captured by the TxGNN score. This means the prediction is directionally reasonable only for a subset of RTA patients, and requires manual clinical triage by subtype before any further development.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33771116](https://pubmed.ncbi.nlm.nih.gov/33771116/) | 2021 | RCT | BMC Nephrology | RCT comparing 0.9% NaCl vs. Plasma-Lyte on kidney injury biomarkers, sodium excretion, and tubular transport proteins after hip replacement; relevant to chloride-induced acidosis mechanisms, not RTA treatment directly |
-| [18031562](https://pubmed.ncbi.nlm.nih.gov/18031562/) | 2008 | Review | Acta Neurologica Scandinavica | Review of primary periodic paralyses, which overlap clinically with potassium/RTA-related muscle weakness syndromes |
-| [4990462](https://pubmed.ncbi.nlm.nih.gov/4990462/) | 1970 | Review | Wiener Klinische Wochenschrift | German-language review of clinically important water and electrolyte regulation disorders (abstract not available) |
-| [2352031](https://pubmed.ncbi.nlm.nih.gov/2352031/) | 1990 | Cohort (animal) | The Journal of Nutrition | Dietary potassium restriction/acidification study in cats; potassium gluconate used to restore dietary potassium and assess renal function/mineral metabolism |
-| [24659721](https://pubmed.ncbi.nlm.nih.gov/24659721/) | 2014 | Case Report (animal) | Journal of the American Animal Hospital Association | Dog with distal RTA secondary to leptospirosis, treated with sodium bicarbonate and potassium gluconate |
-| [17112912](https://pubmed.ncbi.nlm.nih.gov/17112912/) | 2006 | Case Report | Transplantation Proceedings | Severe **hyperkalemic** Type 4 RTA after kidney transplantation — illustrates a subtype where potassium supplementation would be contraindicated |
-| [8009183](https://pubmed.ncbi.nlm.nih.gov/8009183/) | 1994 | Case Report | Scandinavian Journal of Urology and Nephrology | Type 1 RTA with nephrocalcinosis managed long-term with sodium bicarbonate, potassium gluconate, and sodium thiosulphate; stable renal function over 9 years |
-| [3014162](https://pubmed.ncbi.nlm.nih.gov/3014162/) | 1986 | Case Series | Journal of Toxicology. Clinical Toxicology | Toluene-inhalation-associated distal RTA with hypokalemia and quadriparesis |
+| البند | المحتوى |
+|------|--------|
+| الإشارة الأصلية | غير موثقة في هذه مجموعة الأدلة (لا توجد نصوص ترخيص سعودية متاحة)؛ بناءً على الصيدلة المعروفة، يُستخدم كملحق بوتاسيوم عن طريق الفم لنقص البوتاسيوم في الدم |
+| الإشارة المتنبأ بها الجديدة | الحماض الأنبوبي الكلوي |
+| درجة التنبؤ بواسطة TxGNN | 99.95% |
+| مستوى الدليل | L4 |
+| حالة السوق السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently not marketed in Saudi Arabia; no license records are available in this evidence pack.
+بيانات آلية العمل بالتفصيل غير متاحة حالياً. بناءً على المعلومات المتاحة، غلوكونات البوتاسيوم هي ملح بوتاسيوم يُستخدم لتعويض البوتاسيوم عن طريق الفم، وتم إثبات فعاليتها في تصحيح نقص البوتاسيوم في الدم/نقص البوتاسيوم؛ من الناحية الآلية قد تكون قابلة للتطبيق على الحماض الأنبوبي الكلوي (RTA)، حيث تكون حالة البوتاسيوم مركزية للعملية المرضية.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+الارتباط معقول لنوع فرعي واحد محدد من RTA: في الحماض الأنبوبي الكلوي مع نقص البوتاسيوم (تقليدياً النوع الأول/البعيد RTA)، يعتبر تعويض البوتاسيوم (عادة كسترات البوتاسيوم، رغم أنه تم استخدام غلوكونات البوتاسيوم في تقارير الحالات) مساعداً معترفاً به لعلاج القلوية. ومع ذلك، يتسم الحماض الأنبوبي الكلوي بتنوع مرضي — النوع الرابع من RTA يتميز بـ **فرط البوتاسيوم في الدم**، وتعويض البوتاسيوم موانع في هذا النوع الفرعي. المجموعة الأدبية المستخرجة لهذا التنبؤ تشمل تقرير حالة لحماض أنبوبي كلوي من النوع الرابع خطير مع فرط البوتاسيوم في الدم، مما يؤكد أن تضارب النوع الفرعي هذا حقيقي ولم يتم احتياطه بواسطة درجة TxGNN. هذا يعني أن التنبؤ معقول من الناحية الاتجاهية فقط لمجموعة فرعية من مرضى الحماض الأنبوبي الكلوي، ويتطلب فرز سريري يدوي حسب النوع الفرعي قبل أي تطور إضافي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة.
 
-**Rationale:**
-The TxGNN score is high, but supporting evidence is limited to preclinical/case-level literature (no clinical trials) and includes a direct subtype conflict — potassium supplementation is appropriate for hypokalemic RTA but contraindicated in hyperkalemic Type 4 RTA, which appears in the same literature set. Combined with the Blocking data gap on TFDA warnings/contraindications and the missing MOA data, this is not yet ready to advance past initial safety screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings and contraindications) — currently a Blocking data gap for the S1 safety screen
-- DrugBank mechanism-of-action data
-- Subtype-stratified evidence distinguishing hypokalemic (Type 1/2) vs. hyperkalemic (Type 4) RTA, since the two require opposite potassium management
-- Saudi Arabia regulatory/licensing pathway assessment, since the drug is not currently marketed there
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
+|------|------|------|-------|-----------------|
+| [33771116](https://pubmed.ncbi.nlm.nih.gov/33771116/) | 2021 | RCT | BMC Nephrology | تجربة سريرية معشاة ذات شواهد تقارن 0.9% كلوريد الصوديوم مقابل Plasma-Lyte على علامات إصابة الكلى وإفراز الصوديوم وبروتينات النقل الأنبوبي بعد استبدال الورك؛ ذات صلة بآليات الحماض المستحث بالكلوريد وليس العلاج المباشر للحماض الأنبوبي الكلوي |
+| [18031562](https://pubmed.ncbi.nlm.nih.gov/18031562/) | 2008 | مراجعة | Acta Neurologica Scandinavica | مراجعة الشلل الدوري الأساسي، الذي يتداخل سريرياً مع متلازمات الضعف المرتبطة بالبوتاسيوم/الحماض الأنبوبي الكلوي |
+| [4990462](https://pubmed.ncbi.nlm.nih.gov/4990462/) | 1970 | مراجعة | Wiener Klinische Wochenschrift | مراجعة باللغة الألمانية لاضطرابات تنظيم الماء والكهارل السريرية الهامة (الملخص غير متاح) |
+| [2352031](https://pubmed.ncbi.nlm.nih.gov/2352031/) | 1990 | دراسة جماعية (حيوانية) | The Journal of Nutrition | دراسة تقييد البوتاسيوم الغذائي/التحمض في القطط؛ تم استخدام غلوكونات البوتاسيوم لاستعادة البوتاسيوم الغذائي وتقييم وظيفة الكلى/استقلاب المعادن |
+| [24659721](https://pubmed.ncbi.nlm.nih.gov/24659721/) | 2014 | تقرير حالة (حيوانية) | Journal of the American Animal Hospital Association | كلب يعاني من الحماض الأنبوبي الكلوي البعيد الثانوي للعدوى بالبكتيريا الحلزونية، عولج ببيكربونات الصوديوم وغلوكونات البوتاسيوم |
+| [17112912](https://pubmed.ncbi.nlm.nih.gov/17112912/) | 2006 | تقرير حالة | Transplantation Proceedings | حماض أنبوبي كلوي **مع فرط البوتاسيوم في الدم** من النوع الرابع شديد بعد زراعة الكلى — يوضح نوعاً فرعياً حيث تعويض البوتاسيوم سيكون موانع |
+| [8009183](https://pubmed.ncbi.nlm.nih.gov/8009183/) | 1994 | تقرير حالة | Scandinavian Journal of Urology and Nephrology | الحماض الأنبوبي الكلوي من النوع الأول مع تكلس الكلى يُعالج على المدى الطويل ببيكربونات الصوديوم وغلوكونات البوتاسيوم وثيوسولفات الصوديوم؛ استقرار وظيفة الكلى على مدى 9 سنوات |
+| [3014162](https://pubmed.ncbi.nlm.nih.gov/3014162/) | 1986 | سلسلة حالات | Journal of Toxicology. Clinical Toxicology | الحماض الأنبوبي الكلوي البعيد المرتبط باستنشاق التولوين مع نقص البوتاسيوم في الدم ورباعي الشلل |
+
+---
+
+## معلومات سوق المملكة العربية السعودية
+
+غير مسوق حالياً في المملكة العربية السعودية؛ لا توجد سجلات ترخيص متاحة في هذه مجموعة الأدلة.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الداخلية للدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+درجة TxGNN عالية، لكن الأدلة الداعمة محدودة بأدبيات ما قبل السريرية/على مستوى الحالة (لا توجد تجارب سريرية) وتشمل تضاربات مباشرة في النوع الفرعي — تعويض البوتاسيوم مناسب للحماض الأنبوبي الكلوي مع نقص البوتاسيوم في الدم لكنه موانع في الحماض الأنبوبي الكلوي فرط البوتاسيوم في الدم من النوع الرابع، الذي يظهر في نفس مجموعة الأدبيات. بالإضافة إلى فجوة البيانات الحاسمة حول تحذيرات/موانع TFDA والبيانات المفقودة حول آلية العمل، هذا لم يكن جاهزاً بعد للمضي قدماً عن ما وراء فحص السلامة الأولي.
+
+**للمضي قدماً، ما يلي مطلوب:**
+- النشرة الداخلية للدواء TFDA (التحذيرات والموانع) — حالياً فجوة بيانات حاسمة لفحص السلامة S1
+- بيانات آلية العمل من DrugBank
+- أدلة مصنفة حسب النوع الفرعي تمييز الحماض الأنبوبي الكلوي مع نقص البوتاسيوم في الدم (النوع الأول/الثاني) مقابل الحماض الأنبوبي الكلوي مع فرط البوتاسيوم في الدم (النوع الرابع)، حيث أن الاثنين يتطلبان إدارة البوتاسيوم المعاكسة
+- تقييم المسار التنظيمي/الترخيص السعودي، نظراً لأن الدواء غير مسوق حالياً هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

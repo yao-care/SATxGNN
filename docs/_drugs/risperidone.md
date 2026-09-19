@@ -29,116 +29,117 @@ indication_count: 6
 
 </div>
 
-# Risperidone: From Psychotic Disorders to Major Affective Disorder
+# ريسبيريدون: من الاضطرابات الذهانية إلى اضطراب المزاج الرئيسي
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Risperidone is a second-generation (atypical) antipsychotic originally used to treat psychotic disorders such as schizophrenia and bipolar mania. The TxGNN model predicts it may also be effective for **Major Affective Disorder** (encompassing treatment-resistant depression and bipolar disorder), with **37 clinical trials** and **20 publications** — including several completed Phase 3 RCTs — currently supporting this direction.
+ريسبيريدون هو مضاد ذهان من الجيل الثاني (غير نمطي) تم استخدامه في الأصل لعلاج الاضطرابات الذهانية مثل الفصام والهوس ثنائي القطب. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **اضطراب المزاج الرئيسي** (يشمل الاكتئاب المقاوم للعلاج واضطراب ثنائي القطب)، حيث يدعمه حالياً **37 تجربة سريرية** و **20 منشوراً علمياً** — بما في ذلك عدة تجارب سريرية عشوائية من المرحلة 3 المكتملة.
 
-*Note: This evidence pack contains 6 TxGNN-predicted indications for risperidone. Five of the six (ranked #1–#5 by raw TxGNN score) have little to no supporting evidence and are flagged in the data itself as low-plausibility or noise. This report focuses on the one candidate with substantive clinical evidence — "Major Affective Disorder" (rank #6) — and summarizes the other five separately below.*
+*ملاحظة: تتضمن هذه مجموعة الأدلة 6 مؤشرات متنبأ بها من TxGNN لريسبيريدون. خمسة من الستة (المصنفة بين #1-#5 حسب درجة TxGNN الخام) لديها دعم قليل أو معدوم ومميزة في البيانات نفسها على أنها ذات معقولية منخفضة أو ضوضاء. يركز هذا التقرير على المرشح الواحد فقط الذي له أدلة سريرية جوهرية — "اضطراب المزاج الرئيسي" (المرتبة #6) — ويلخص الخمسة الآخرين بشكل منفصل أدناه.*
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in this evidence pack (`original_indications` is empty, drug is unmarketed locally). Globally, risperidone is approved for schizophrenia and bipolar mania. |
-| Predicted New Indication | Major Affective Disorder (treatment-resistant depression / bipolar disorder) |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متوفر في مجموعة الأدلة هذه (`original_indications` فارغة، الدواء غير مسوق محلياً). عالمياً، تم الموافقة على ريسبيريدون للفصام والهوس ثنائي القطب. |
+| المؤشر الجديد المتنبأ به | اضطراب المزاج الرئيسي (الاكتئاب المقاوم للعلاج / اضطراب ثنائي القطب) |
+| درجة التنبؤ من TxGNN | 99.11% |
+| مستوى الدليل | L1 |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data is marked as a data gap (`original_moa: [Data Gap]`) in this evidence pack. However, the pack's own repurposing rationale consistently describes risperidone as a **D2/5-HT2A receptor antagonist** with 5-HT2A–dominant binding — the pharmacological signature characteristic of second-generation antipsychotics.
+يتم تحديد بيانات آلية العمل التفصيلية كفجوة بيانات (`original_moa: [Data Gap]`) في مجموعة الأدلة هذه. ومع ذلك، فإن توضيح إعادة التطبيق في المجموعة يصف ريسبيريدون بشكل مستمر كـ **مثبط مستقبلات D2/5-HT2A** ذو ارتباط 5-HT2A المسيطر — التوقيع الدوائي المميز لمضادات الذهان من الجيل الثاني.
 
-Risperidone is already established in psychotic disorder treatment and — critically — is already approved in many markets for **bipolar mania**, which is itself classified as an affective (mood) disorder. This creates a direct mechanistic bridge to the TxGNN prediction: the same D2/5-HT2A antagonism that controls manic and psychotic symptoms is the pharmacological basis for using risperidone as (1) an augmentation agent in antidepressant-refractory major depressive disorder and (2) a mood-stabilizing/maintenance therapy in bipolar disorder.
+ريسبيريدون موجود بالفعل في العلاج المعتمد للاضطرابات الذهانية و — بشكل حاسم — تمت الموافقة عليه بالفعل في عدة أسواق لـ **الهوس ثنائي القطب**، والذي يُصنف بحد ذاته كاضطراب عاطفي (مزاجي). وهذا يخلق جسراً آلياً مباشراً للتنبؤ من TxGNN: نفس مثبط D2/5-HT2A الذي يتحكم في الأعراض الهوسية والذهانية هو الأساس الدوائي لاستخدام ريسبيريدون كـ (1) عامل تعزيز في اضطراب الاكتئاب الرئيسي المقاوم لمضادات الاكتئاب و (2) علاج استقرار المزاج/الصيانة في اضطراب ثنائي القطب.
 
-This is not a purely computational leap — it is supported by a substantial existing literature base of adjunctive-use studies, several completed Phase 3 RCTs (see below), and a mature real-world prescribing pattern of risperidone augmentation in psychiatry, making this the strongest-evidenced prediction in the pack (L1, compared to L3–L5 for the others).
+هذا ليس قفزة حسابية بحتة — فهو يدعمه قاعدة أدبيات موجودة جوهرية من دراسات الاستخدام المساعد، وعدة تجارب سريرية من المرحلة 3 المكتملة (انظر أدناه)، وأنماط وصفات طبية في العالم الحقيقي ناضجة لريسبيريدون كمكمل في الطب النفسي، مما يجعل هذا التنبؤ الأقوى المدعوم بالأدلة في المجموعة (L1، بالمقارنة مع L3–L5 للآخرين).
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | Phase 3 | Completed | 258 | Risperidone augmentation of SSRI monotherapy in unipolar treatment-resistant depression; efficacy, safety, and long-term maintenance vs. placebo augmentation |
-| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | Phase 3 | Completed | 630 | Double-blind, placebo-controlled adjunctive risperidone in major depressive disorder with sub-optimal response to antidepressants |
-| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | Phase 4 | Completed | 60 | Double-blind, placebo-controlled risperidone monotherapy in ambulatory bipolar disorder with comorbid anxiety |
-| [NCT00221403](https://clinicaltrials.gov/study/NCT00221403) | Phase 3 | Completed | 46 | Placebo-controlled trial of valproate + risperidone in young children (3–7 yr) with bipolar disorder |
-| [NCT00391222](https://clinicaltrials.gov/study/NCT00391222) | Phase 3 | Completed | 585 | Double-blind, placebo/active-controlled study of risperidone long-acting injectable (LAI) monotherapy for prevention of mood episodes in Bipolar I disorder |
-| [NCT00057681](https://clinicaltrials.gov/study/NCT00057681) | Phase 3 | Completed | 379 | Treatment of Early Age Mania (TEAM) study — lithium, valproate, and risperidone in children/adolescents with bipolar disorder or mania symptoms |
-| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | Phase 3 | Completed | 111 | Double-blind, placebo-controlled risperidone monotherapy in ambulatory bipolar disorder with moderately severe anxiety |
-| [NCT00176202](https://clinicaltrials.gov/study/NCT00176202) | Phase 3 | Completed | 65 | Controlled trial of risperidone vs. divalproex sodium with MRI assessment of affected circuitry in pediatric bipolar disorder |
-| [NCT00174577](https://clinicaltrials.gov/study/NCT00174577) | Phase 3 | Unknown | 84 | Risperidone augmentation in patients with failed/partial response to antidepressant therapy |
-| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | Phase 1/2 | Completed | 42 | Pilot trial of risperidone vs. olanzapine as add-on to SSRI in treatment-resistant depression |
+| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | المرحلة 3 | مكتملة | 258 | تعزيز ريسبيريدون للعلاج الأحادي بـ SSRI في الاكتئاب الرئيسي المقاوم للعلاج؛ الفعالية والسلامة والصيانة طويلة الأمد مقابل التعزيز الوهمي |
+| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | المرحلة 3 | مكتملة | 630 | دراسة عمياء المقابلة ريسبيريدون المساعد في اضطراب الاكتئاب الرئيسي مع استجابة دون المثالية لمضادات الاكتئاب |
+| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | المرحلة 4 | مكتملة | 60 | دراسة عمياء المقابلة ريسبيريدون الأحادي في اضطراب ثنائي القطب العيادي مع القلق المصاحب |
+| [NCT00221403](https://clinicaltrials.gov/study/NCT00221403) | المرحلة 3 | مكتملة | 46 | تجربة مراقبة حمض الفالبروات + ريسبيريدون في الأطفال الصغار (3–7 سنوات) مع اضطراب ثنائي القطب |
+| [NCT00391222](https://clinicaltrials.gov/study/NCT00391222) | المرحلة 3 | مكتملة | 585 | دراسة عمياء المقابلة/نشطة لريسبيريدون طويل المفعول القابل للحقن الأحادي للوقاية من حلقات المزاج في اضطراب ثنائي القطب 1 |
+| [NCT00057681](https://clinicaltrials.gov/study/NCT00057681) | المرحلة 3 | مكتملة | 379 | دراسة معالجة الهوس المبكر (TEAM) — الليثيوم وحمض الفالبروات وريسبيريدون في الأطفال/المراهقين مع اضطراب ثنائي القطب أو أعراض الهوس |
+| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | المرحلة 3 | مكتملة | 111 | دراسة عمياء المقابلة ريسبيريدون الأحادي في اضطراب ثنائي القطب العيادي مع قلق شديد بشكل معتدل |
+| [NCT00176202](https://clinicaltrials.gov/study/NCT00176202) | المرحلة 3 | مكتملة | 65 | تجربة مراقبة ريسبيريدون مقابل ديفالبروكس صوديوم مع تقييم التصوير بالرنين المغناطيسي للدوائر المتأثرة في اضطراب ثنائي القطب عند الأطفال |
+| [NCT00174577](https://clinicaltrials.gov/study/NCT00174577) | المرحلة 3 | غير معروف | 84 | تعزيز ريسبيريدون في المرضى الذين لم يستجيبوا/استجابة جزئية لعلاج مضادات الاكتئاب |
+| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | المرحلة 1/2 | مكتملة | 42 | دراسة تجريبية لريسبيريدون مقابل أولانزابين كمكمل لـ SSRI في الاكتئاب المقاوم للعلاج |
 
-*27 additional trials with lower direct relevance (comparator/observational/imaging studies) are on file but omitted here for brevity.*
+*27 تجربة إضافية ذات صلة أقل مباشرة (دراسات مقارن/رصد/تصوير) موجودة في الملف ولكن تم حذفها هنا من أجل الاختصار.*
 
 ---
 
-## Literature Evidence
+## دليل الأدب العلمي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [17975181](https://pubmed.ncbi.nlm.nih.gov/17975181/) | 2007 | RCT | Annals of Internal Medicine | Randomized trial of risperidone for treatment-refractory major depressive disorder |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic Review / Network Meta-analysis | J Affective Disorders | Compares efficacy/discontinuation of augmentation agents (incl. risperidone) in treatment-resistant depression |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematic Review / Meta-analysis | J Psychopharmacology | Augmentation/combination treatments for early-stage treatment-resistant depression |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic Review / Meta-analysis | Psychological Medicine | Efficacy and safety/tolerability of antipsychotics (monotherapy and adjunctive) in major depressive disorder |
-| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Cochrane Review | Cochrane Database Syst Rev | Second-generation antipsychotics for major depressive disorder and dysthymia |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Review | J Psychopharmacology | Efficacy/tolerability of antidepressant + second-generation antipsychotic combinations vs. esketamine vs. lithium |
-| [21189367](https://pubmed.ncbi.nlm.nih.gov/21189367/) | 2011 | Review | Annals of Pharmacotherapy | Efficacy and safety of risperidone augmentation for major depressive disorder |
-| [24919175](https://pubmed.ncbi.nlm.nih.gov/24919175/) | 2014 | Meta-analysis | Braz J Med Biol Res | Efficacy/tolerability of antidepressant augmentation with atypical antipsychotics (17 trials, 3807 patients) |
-| [23554581](https://pubmed.ncbi.nlm.nih.gov/23554581/) | 2013 | Meta-analysis | PLoS Medicine | Risk-benefit profile of adjunctive atypical antipsychotics for depression |
-| [20486830](https://pubmed.ncbi.nlm.nih.gov/20486830/) | 2010 | Review | Expert Opin Pharmacother | Risperidone long-acting injection as monotherapy/adjunctive maintenance therapy in bipolar I disorder |
+| [17975181](https://pubmed.ncbi.nlm.nih.gov/17975181/) | 2007 | تجربة عشوائية | Annals of Internal Medicine | دراسة عشوائية لريسبيريدون لعلاج اضطراب الاكتئاب الرئيسي المقاوم للعلاج |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | مراجعة منهجية / التحليل الشبكي | J Affective Disorders | مقارنة فعالية/الإيقاف عن العوامل المعززة (بما فيها ريسبيريدون) في الاكتئاب المقاوم للعلاج |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | مراجعة منهجية / التحليل الذاتي | J Psychopharmacology | العلاجات المعززة/المركبة في الاكتئاب المقاوم للعلاج في المراحل المبكرة |
+| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | مراجعة منهجية / التحليل الذاتي | Psychological Medicine | الفعالية والسلامة/التحمل من مضادات الذهان (الأحادي والمساعد) في اضطراب الاكتئاب الرئيسي |
+| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | مراجعة كوكران | Cochrane Database Syst Rev | مضادات الذهان من الجيل الثاني لاضطراب الاكتئاب الرئيسي وعسر المزاج |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | مراجعة | J Psychopharmacology | الفعالية/التحمل من التوليفات مضاد اكتئاب + مضاد ذهان من الجيل الثاني مقابل إسكيتامين مقابل الليثيوم |
+| [21189367](https://pubmed.ncbi.nlm.nih.gov/21189367/) | 2011 | مراجعة | Annals of Pharmacotherapy | الفعالية والسلامة لتعزيز ريسبيريدون لاضطراب الاكتئاب الرئيسي |
+| [24919175](https://pubmed.ncbi.nlm.nih.gov/24919175/) | 2014 | التحليل الذاتي | Braz J Med Biol Res | الفعالية/التحمل من تعزيز مضادات الاكتئاب بمضادات ذهان غير نمطية (17 تجربة، 3807 مرضى) |
+| [23554581](https://pubmed.ncbi.nlm.nih.gov/23554581/) | 2013 | التحليل الذاتي | PLoS Medicine | ملف تعريف المخاطر والفوائد من مضادات الذهان غير النمطية المساعدة للاكتئاب |
+| [20486830](https://pubmed.ncbi.nlm.nih.gov/20486830/) | 2010 | مراجعة | Expert Opin Pharmacother | حقنة ريسبيريدون طويلة المفعول كعلاج أحادي/مساعد في الصيانة لاضطراب ثنائي القطب 1 |
 
-*10 additional publications (mostly narrative reviews and case reports) are on file but omitted here for brevity.*
-
----
-
-## Saudi Arabia Market Information
-
-Risperidone currently has **no marketed products on file in Saudi Arabia** (0 authorizations, `market_status: Not marketed`). No local approved indication text is available for comparison against the predicted use.
+*10 منشورات إضافية (في الغالب مراجعات سردية وتقارير حالات) موجودة في الملف ولكن تم حذفها هنا من أجل الاختصار.*
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug-interaction data are available in this evidence pack — `safety.key_warnings`, `safety.contraindications`, and `safety.ddi` are all data gaps or "not found".)
+ريسبيريدون حالياً لديه **لا توجد منتجات مسوقة على ملف في المملكة العربية السعودية** (0 تراخيص، `market_status: Not marketed`). لا يتوفر نص مؤشر محلي معتمد للمقارنة مع الاستخدام المتنبأ به.
 
 ---
 
-## Other Predicted Indications (Screened — Hold)
+## اعتبارات السلامة
 
-The remaining five TxGNN predictions in this pack rank higher by raw model score but have essentially no supporting evidence and are explicitly flagged in the rationale text as low-plausibility:
+يرجى الرجوع إلى النشرة الإرشادية للحصول على معلومات السلامة. (لا توجد بيانات رئيسية عن التحذيرات أو الموانع أو التفاعلات الدوائية في مجموعة الأدلة هذه — `safety.key_warnings` و `safety.contraindications` و `safety.ddi` جميعها فجوات بيانات أو "لم تُعثر عليها".)
 
-| Rank | Disease | Evidence | Rationale (from pack) | Decision |
+---
+
+## المؤشرات الأخرى المتنبأ بها (تمت الفحص — على الانتظار)
+
+تصنف التنبؤات الخمسة الأخرى من TxGNN أعلى حسب درجة النموذج الخام ولكن ليس لديها دعم موجود بشكل أساسي وتم تحديدها بوضوح في نص الأساس على أنها ذات معقولية منخفضة:
+
+| المرتبة | المرض | الدليل | الأساس (من المجموعة) | القرار |
 |---|---|---|---|---|
-| 1 | Gaze palsy, familial horizontal, with progressive scoliosis | None | ROBO3-related axon pathway disorder, no known link to monoamine antagonism | Hold |
-| 2 | Asperger syndrome, susceptibility to | None | Predicted entity is a genetic-susceptibility label, not a treatable clinical population | Hold |
-| 3 | Amelocerebrohypohidrotic syndrome | None | Rare genetic syndrome, no biological link to D2/5-HT2A mechanism | Hold |
-| 4 | Phelan-McDermid syndrome | 3 publications (case study, review, preclinical) | Symptomatic (irritability/aggression) rationale plausible, no controlled trials in this population | Research Question |
-| 5 | Trichotillomania | 10 publications (mostly case reports) | Plausible as SSRI-augmentation strategy, but no RCT evidence | Research Question |
+| 1 | شلل النظر الأفقي العائلي مع الجنف التدريجي | بدون | اضطراب مسار المحور المرتبط بـ ROBO3، لا ارتباط معروف بمثبط أحادي الأمين | على الانتظار |
+| 2 | متلازمة أسبرجر، القابلية ل | بدون | كيان متنبأ به هو تسمية القابلية الجينية، وليس مجموعة سريرية قابلة للعلاج | على الانتظار |
+| 3 | متلازمة أملوسيرياد والدماغ والقليل من التعرق | بدون | متلازمة جينية نادرة، لا ارتباط بيولوجي بآلية D2/5-HT2A | على الانتظار |
+| 4 | متلازمة فيلان-ماكديرميد | 3 منشورات (دراسة حالة، مراجعة، ما قبل الإكلينيكي) | أساس العرض السريري (الانفعالية/العدوانية) معقول، لا توجد تجارب محكومة في هذه المجموعة السكانية | سؤال بحثي |
+| 5 | شد الشعر القهري | 10 منشورات (في الغالب تقارير حالات) | معقول كإستراتيجية تعزيز SSRI، ولكن لا يوجد دليل RCT | سؤال بحثي |
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails** *(for Major Affective Disorder indication only; all other predicted indications in this pack remain on Hold)*
+**القرار: المتابعة مع الضمانات** *(لمؤشر اضطراب المزاج الرئيسي فقط؛ جميع المؤشرات الأخرى المتنبأ بها في هذه المجموعة تبقى على الانتظار)*
 
-**Rationale:**
-Multiple completed Phase 3 RCTs and systematic reviews/meta-analyses support risperidone as an adjunctive treatment for treatment-resistant depression and as monotherapy/maintenance for bipolar disorder — this is an L1 evidence level with an existing, mature clinical practice pattern, not merely a model prediction.
+**الأساس:**
+تدعم عدة تجارب سريرية من المرحلة 3 المكتملة والمراجعات المنهجية/التحليلات الذاتية ريسبيريدون كعلاج مساعد للاكتئاب المقاوم للعلاج وكعلاج أحادي/صيانة لاضطراب ثنائي القطب — هذا مستوى دليل L1 مع نمط ممارسة سريرية موجود وناضج، وليس مجرد تنبؤ نموذج.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently a Blocking data gap — DG001)
-- Formal mechanism-of-action documentation from DrugBank (currently a High-severity data gap — DG002)
-- A regulatory pathway assessment, since risperidone is not currently marketed in Saudi Arabia (0 authorizations)
-- Drug-drug interaction data (current DDI query returned "not found")
+**للمتابعة، يلزم ما يلي:**
+- تحذيرات نشرة TFDA/SFDA وموانع (حالياً فجوة بيانات حاجزة — DG001)
+- توثيق آلية العمل الرسمية من DrugBank (حالياً فجوة بيانات عالية الخطورة — DG002)
+- تقييم المسار التنظيمي، حيث أن ريسبيريدون لا يُسوق حالياً في المملكة العربية السعودية (0 تراخيص)
+- بيانات التفاعل الدوائي (استعلام DDI الحالي أعاد "لم تُعثر عليها")
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

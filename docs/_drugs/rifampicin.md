@@ -29,83 +29,84 @@ indication_count: 10
 
 </div>
 
-# Rifampicin: From Tuberculosis to Conjunctivitis
+# ريفامبيسين: من السل إلى التهاب الملتحمة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Rifampicin (DrugBank DB01045) is a rifamycin-class antibiotic whose established clinical role is in the treatment of **tuberculosis** (this original-indication context is inferred from the supporting literature/trials in this pack, since no structured indication field was returned from TFDA/DrugBank licensing data). The TxGNN model predicts it may also be effective for **Conjunctivitis**, with a very high prediction score (99.95%) but currently **no registered clinical trials** and only **20 supporting publications**, most of them decades-old microbiology surveys or historical case reports rather than confirmatory trials.
+ريفامبيسين (DrugBank DB01045) هو مضاد حيوي من فئة الريفامايسينات تتمثل وظيفته السريرية الراسخة في علاج **السل** (يُستدل على هذا السياق للمؤشر الأصلي من الأدبيات الداعمة/التجارب في هذه الحزمة، حيث لم يتم إرجاع حقل مؤشر منظم من بيانات ترخيص TFDA/DrugBank). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **التهاب الملتحمة**، برصيد تنبؤ عالي جداً (99.95%) لكن حالياً **لا توجد تجارب سريرية مسجلة** و **فقط 20 منشور داعم**، معظمها مسوح ميكروبيولوجية قديمة أو تقارير حالات تاريخية بدلاً من التجارب التأكيدية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Tuberculosis (based on established clinical use; not present in this pack's structured licensing data) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | السل (بناءً على الاستخدام السريري المثبت؛ غير موجود في بيانات الترخيص المنظمة في هذه الحزمة) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة |
+| درجة تنبؤ TxGNN | 99.95% |
+| مستوى الدليل | L3 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the information that is available, rifampicin belongs to the rifamycin class of antibiotics; its efficacy in tuberculosis has been well established for decades, and mechanistically it is a broad-spectrum bactericidal agent that could plausibly extend to bacterial and chlamydial conjunctivitis.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه الحزمة من الأدلة (يتم وضع علامة عليها كفجوة بيانات عالية الشدة، DG002). بناءً على المعلومات المتاحة، ينتمي ريفامبيسين إلى فئة الريفامايسينات من المضادات الحيوية؛ ثبتت فعاليته في السل لعقود، وآلياً هو عامل بكتيري فتاك واسع الطيف قد يمتد إلى التهاب الملتحمة البكتيري والكلاميدي.
 
-The repurposing rationale captured in the evidence pack is explicit on this point: topical rifampicin has direct antibacterial activity against *Chlamydia trachomatis* (the cause of trachoma) and against staphylococcal conjunctivitis — describing this as "a historically established therapy rather than a novel mechanism." This is consistent with the literature returned: a 1975 controlled trial in Tunisia compared 1% rifampicin ointment against tetracycline and boric acid for endemic trachoma (PMID 1096630), and a 1970 *Nature* paper first characterized the anti-trachoma activity of rifampicin and its rifamycin SV derivatives (PMID 5411121). A 2003 case report also documents systemic rifampin being used successfully as part of therapy for primary meningococcal conjunctivitis (PMID 14686993).
+يتم التقاط الأساس المنطقي لاستخدام العقار المعاد في حزمة الأدلة بشكل صريح على هذه النقطة: ريفامبيسين الموضعي له نشاط مباشر مضاد للبكتيريا ضد *المتدثرة الحثرية* (المسبب لمرض الرمد الحبيبي) وضد التهاب الملتحمة العنقودي — مع وصف هذا بأنه "علاج مثبت تاريخياً بدلاً من آلية جديدة." هذا متسق مع الأدبيات المسترجعة: تقارن تجربة مراقبة عام 1975 في تونس بين مرهم ريفامبيسين الموضعي 1% ومرهم التتراسيكلين الموضعي 1% وحمض البوريك 5% لمرض الرمد الحبيبي الوبائي في تلاميذ المدارس (PMID 1096630)، وورقة طبيعة عام 1970 وصفت لأول مرة النشاط المضاد لمرض الرمد الحبيبي (*المتدثرة*) لريفامبيسين ومشتقات ريفامايسين SV (PMID 5411121). كما توثق تقرير حالة عام 2003 استخدام الريفامبين الجهازي بنجاح كجزء من العلاج لالتهاب الملتحمة السحائي الأولي (PMID 14686993).
 
-However, this body of evidence is old (largely 1970s–2011), consists mainly of microbiological susceptibility surveys rather than therapeutic trials, and — critically — **no clinical trials for rifampicin in conjunctivitis are currently registered** in ClinicalTrials.gov or ICTRP. The signal should be read as "biologically plausible and historically precedented," not as "clinically validated for modern use."
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن هذا الجسم من الأدلة قديم (في الغالب 1970s–2011)، ويتكون أساساً من مسوح حساسية الميكروبات بدلاً من التجارب العلاجية، وبشكل حاسم — **لا توجد حالياً تجارب سريرية لريفامبيسين في التهاب الملتحمة مسجلة** في ClinicalTrials.gov أو ICTRP. يجب قراءة الإشارة على أنها "معقولة بيولوجياً وسابقة تاريخياً"، وليس على أنها "مثبتة سريرياً للاستخدام الحديث."
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Clinical trial (open) | American Journal of Ophthalmology | Controlled Tunisian trial comparing topical 1% rifampicin ointment, 1% tetracycline ointment, and 5% boric acid ointment for endemic trachoma in schoolchildren; bacteriologic and slit-lamp follow-up to 39 weeks |
-| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | Preclinical | Nature | Early characterization of anti-trachoma (*Chlamydia*) activity of rifampicin and rifamycin SV derivatives |
-| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | Case report | Clinical Microbiology and Infection | Primary meningococcal conjunctivitis in a healthy 6-year-old, initially treated with topical polymyxin B/neomycin/gramicidin, followed by systemic rifampin once diagnosed; no ocular or systemic complications |
-| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Case report / commentary | Annals of Ophthalmology | Early clinical note on rifampicin use in ophthalmology (abstract not available) |
-| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Microbiology susceptibility | Advanced Biomedical Research | Bacterial etiology and antibiotic susceptibility survey of conjunctivitis isolates in Kashan, Iran |
-| [15228931](https://pubmed.ncbi.nlm.nih.gov/15228931/) | 2004 | Microbiology susceptibility | Anales de Pediatría (Barcelona) | Identifies the most prevalent bacterial conjunctivitis pathogens and their antibiotic sensitivity profile |
-| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | Microbiology susceptibility | Journal of Ophthalmic Inflammation and Infection | Bacteriologic and plasmid analysis of conjunctivitis pathogens in Lagos, Nigeria, including antibiotic resistance patterns |
-| [30347565](https://pubmed.ncbi.nlm.nih.gov/30347565/) | 2018 | Microbiology susceptibility | Chinese Journal of Ophthalmology | Genetic typing and antibiotic susceptibility of *S. aureus* strains isolated from keratitis or conjunctivitis patients |
-| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | Microbiology susceptibility | Anales Españoles de Pediatría | Microbiologic study of 50 neonatal conjunctivitis samples with antibiotic sensitivity profiling |
-| [10537781](https://pubmed.ncbi.nlm.nih.gov/10537781/) | 1999 | Review / case series | Current Opinion in Ophthalmology | Review of ocular manifestations of cat-scratch disease (*Bartonella henselae*), including conjunctivitis (Parinaud's oculoglandular syndrome) |
+| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | تجربة سريرية (مفتوحة) | American Journal of Ophthalmology | تجربة مراقبة تونسية تقارن مرهم ريفامبيسين الموضعي 1% ومرهم التتراسيكلين الموضعي 1% وحمض البوريك 5% لمرض الرمد الحبيبي الوبائي في تلاميذ المدارس؛ متابعة جرثومية وفحص بشق المصباح لمدة 39 أسبوعاً |
+| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | ما قبل سريري | Nature | الخصائص المبكرة للنشاط المضاد لمرض الرمد الحبيبي (*المتدثرة*) لريفامبيسين ومشتقات ريفامايسين SV |
+| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | تقرير حالة | Clinical Microbiology and Infection | التهاب الملتحمة السحائي الأولي في طفل سليم يبلغ من العمر 6 سنوات، تم علاجه أولاً بـ بوليميكسين B/نيوميسين/جرامايسيدين الموضعي، تبعه الريفامبين الجهازي بمجرد التشخيص؛ بدون مضاعفات عينية أو جهازية |
+| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | تقرير حالة / تعليق | Annals of Ophthalmology | ملاحظة سريرية مبكرة حول استخدام ريفامبيسين في طب العيون (الملخص غير متاح) |
+| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | حساسية ميكروبية | Advanced Biomedical Research | مسح بشأن مسببات الأمراض البكتيرية وحساسية المضادات الحيوية لعوامل التهاب الملتحمة في قاشان، إيران |
+| [15228931](https://pubmed.ncbi.nlm.nih.gov/15228931/) | 2004 | حساسية ميكروبية | Anales de Pediatría (Barcelona) | تحديد أكثر مسببات الأمراض البكتيرية انتشاراً لالتهاب الملتحمة وملف ملف حساسيتها للمضادات الحيوية |
+| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | حساسية ميكروبية | Journal of Ophthalmic Inflammation and Infection | تحليل جرثومي وبلازميدي لعوامل التهاب الملتحمة في لاغوس، نيجيريا، بما في ذلك أنماط مقاومة المضادات الحيوية |
+| [30347565](https://pubmed.ncbi.nlm.nih.gov/30347565/) | 2018 | حساسية ميكروبية | Chinese Journal of Ophthalmology | الكتابة الجينية وحساسية المضادات الحيوية لسلالات *المكورات العنقودية الذهبية* المعزولة من مرضى التهاب القرنية أو التهاب الملتحمة |
+| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | حساسية ميكروبية | Anales Españoles de Pediatría | دراسة ميكروبيولوجية لـ 50 عينة من التهاب الملتحمة الوليدي مع تحديد حساسية المضادات الحيوية |
+| [10537781](https://pubmed.ncbi.nlm.nih.gov/10537781/) | 1999 | مراجعة / سلسلة حالات | Current Opinion in Ophthalmology | مراجعة للمظاهر العينية لمرض خدش القط (*بارتونيلا هنسيلاي*)، بما في ذلك التهاب الملتحمة (متلازمة باريناود) |
 
 ---
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى ملصق الحزمة للحصول على معلومات الأمان.
 
-*(Note: TFDA package insert warnings/contraindications are recorded as a **Blocking** data gap in this pack — see Conclusion below — and the DDI database query returned no results.)*
+*(ملاحظة: تحذيرات وموانع الاستخدام في ملصق حزمة TFDA يتم تسجيلها كفجوة بيانات **مانعة** في هذه الحزمة — انظر الاستنتاج أدناه — واستعلام قاعدة بيانات DDI لم يرجع أي نتائج.)*
 
 ---
 
-## Conclusion and Next Steps
+## الاستنتاج والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Evidence for rifampicin in conjunctivitis is real but dated and indirect — a controlled trachoma trial from 1975 and a 1970 mechanistic paper, surrounded mostly by unrelated microbiology susceptibility surveys — with **zero currently registered clinical trials**. More decisively, TFDA package-insert warnings/contraindications data is missing and marked as a **Blocking** gap (DG001), which by design prevents this candidate from entering the S1 safety pre-assessment stage regardless of how promising the efficacy signal looks.
+**الأساس المنطقي:**
+الأدلة على ريفامبيسين في التهاب الملتحمة حقيقية لكنها قديمة وغير مباشرة — تجربة رمد حبيبي يعود تاريخها إلى عام 1975 وورقة آلية من عام 1970، محاطة في الغالب بمسوح حساسية ميكروبية غير ذات صلة — مع **عدم وجود أي تجارب سريرية مسجلة حالياً**. الأهم من ذلك، بيانات تحذيرات وموانع الاستخدام من ملصق حزمة TFDA غير موجودة وتم وضع علامة عليها كفجوة **مانعة** (DG001)، والتي بحكم التصميم تمنع هذا المرشح من دخول مرحلة تقييم السلامة S1 بغض النظر عن مدى قوة إشارة الفعالية.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — Blocking gap DG001, required before any S1 safety review
-- Confirmed drug mechanism-of-action detail from DrugBank — High-severity gap DG002
-- A contemporary systematic review or trial evaluating rifampicin (topical/ophthalmic) against modern standard-of-care antibiotics for bacterial or chlamydial conjunctivitis
-- Resolution of the DDI query (currently `not_found`)
-- Clarification of Saudi Arabia registration status, since the drug is currently unmarketed with 0 licenses on file
-- Note: rank 4 in this pack ("conjunctivitis (disease)") is a duplicate ontology node of rank 1 with identical evidence — recommend merging these nodes in the underlying database to avoid double-counting this signal
+**للمتابعة، يلزم توفير ما يلي:**
+- بيانات ملصق حزمة TFDA (تحذيرات، موانع الاستخدام) — فجوة مانعة DG001، مطلوبة قبل أي مراجعة سلامة S1
+- تفاصيل آلية عمل الدواء المؤكدة من DrugBank — فجوة عالية الشدة DG002
+- مراجعة نظامية معاصرة أو تجربة تقيم ريفامبيسين (موضعي/عيني) مقابل المضادات الحيوية المعيارية الحديثة لالتهاب الملتحمة البكتيري أو الكلاميدي
+- حل استعلام DDI (حالياً `غير_موجود`)
+- توضيح حالة التسجيل بالمملكة العربية السعودية، حيث أن الدواء حالياً غير مسوق مع 0 ترخيص موجود في الملف
+- ملاحظة: الترتيب 4 في هذه الحزمة ("التهاب الملتحمة (المرض)") هو عقدة أنطولوجيا مكررة من الترتيب 1 بنفس الأدلة — يوصى بدمج هذه العقد في قاعدة البيانات الأساسية لتجنب حساب هذه الإشارة مرتين
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

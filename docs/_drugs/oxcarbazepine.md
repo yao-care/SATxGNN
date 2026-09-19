@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Oxcarbazepine: From Epilepsy to Visual Epilepsy
+# أوكسكاربازيبين: من الصرع إلى الصرع البصري
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Oxcarbazepine is a well-established antiepileptic drug for partial-onset seizures, though it is not currently registered or marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Visual Epilepsy**, a reflex epilepsy subtype, with **1 clinical trial** and **19 publications** currently associated with this direction — though none specifically designed for visual/photosensitive epilepsy.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Saudi Arabia regulatory data (no license on file); known pharmacological class: antiepileptic (partial-onset seizures) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+أوكسكاربازيبين هو دواء معروف وراسخ لعلاج نوبات الصرع الجزئي، لكنه غير مسجل حالياً أو غير مسوق في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في علاج **الصرع البصري**، وهو نوع من أنواع الصرع الانعكاسي، حيث يوجد حالياً **تجربة سريرية واحدة** و**19 منشوراً** مرتبطة بهذا الاتجاه — على الرغم من أن أياً منها لم يُصمم خصيصاً لعلاج الصرع البصري أو الحساسية للضوء.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available from the structured data source. Based on known information, oxcarbazepine is a voltage-gated sodium channel blocker, a mechanism shared by the broader class of antiepileptic drugs (AEDs). Its efficacy in partial-onset (focal) epilepsy is well-proven and long-established in clinical practice.
-
-Visual epilepsy is a reflex epilepsy subtype in which seizures are triggered by visual stimuli (e.g., flashing lights, patterns). Rather than representing a wholly new disease category, it falls within the same broad epilepsy spectrum that oxcarbazepine already treats — sharing the underlying pathology of abnormal neuronal hyperexcitability and hypersynchronous discharge.
-
-Because sodium channel blockade dampens neuronal hyperexcitability broadly rather than targeting a stimulus-specific trigger, the mechanism is plausible across seizure subtypes, including reflex/stimulus-induced forms such as visual epilepsy. This is consistent with existing evidence that oxcarbazepine is effective as first-choice combination therapy across multiple focal epilepsy presentations.
+| البند | المحتوى |
+|------|--------|
+| الاستطبابات الأصلية | غير متوفرة من بيانات تنظيم الأدوية في المملكة العربية السعودية (لا توجد رخصة في السجل)؛ الفئة الدوائية المعروفة: مضادات الصرع (نوبات الصرع الجزئي) |
+| الاستطبابات الجديدة المتنبأ بها | الصرع البصري |
+| نقاط تنبؤ TxGNN | 99.95% |
+| مستوى الأدلة | L3 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not Marketed) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات حماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة من مصدر البيانات المنظمة. بناءً على المعلومات المتاحة، فإن أوكسكاربازيبين هو مانع قنوات الصوديوم المعتمد على الجهد الكهربائي، وهي آلية يشاركها فئة أوسع من أدوية مضادات الصرع. إن فعاليته في الصرع الجزئي (البؤري) مثبتة تماماً وراسخة في الممارسة السريرية.
+
+الصرع البصري هو نوع فرعي من الصرع الانعكاسي تُثار فيه النوبات بمحفزات بصرية (مثل الأضواء الوميضة والأنماط). بدلاً من تمثيل فئة مرضية جديدة تماماً، فإنه يقع ضمن نطاق الصرع الواسع الذي يعالجه أوكسكاربازيبين بالفعل — حيث يشارك المرضية الأساسية للنشاط العصبي غير الطبيعي والتفريغ المتزامن المفرط.
+
+بما أن حصار قنوات الصوديوم يضعف النشاط العصبي المفرط على نطاق واسع بدلاً من استهداف محفز خاص بالمؤثر، فإن آلية العمل معقولة عبر أنواع نوبات مختلفة، بما فيها الأشكال الانعكاسية والمحفزة بالمؤثرات مثل الصرع البصري. هذا متسق مع الأدلة الموجودة بأن أوكسكاربازيبين فعال كعلاج ثنائي من الخط الأول عبر عروض الصرع البؤري المتعددة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Prospective observational (Liceo) study assessing new AEDs — including oxcarbazepine — used as first-choice bitherapy in daily clinical practice for focal epilepsy. Not specific to visually-induced seizures; population overlap only (Relevance grade B). |
+| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | مكتملة | 111 | دراسة رصدية آفاقية (Liceo) تقيّم أدوية مضادات الصرع الجديدة — بما فيها أوكسكاربازيبين — المستخدمة كعلاج ثنائي من الخط الأول في الممارسة السريرية اليومية للصرع البؤري. غير مخصص للنوبات المحفزة بصرياً؛ تقاطع السكان فقط (درجة الصلة B). |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب والمنشورات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [32129501](https://pubmed.ncbi.nlm.nih.gov/32129501/) | 2020 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Cochrane review of oxcarbazepine as add-on therapy for drug-resistant focal epilepsy. |
-| [35429132](https://pubmed.ncbi.nlm.nih.gov/35429132/) | 2022 | RCT | CNS Neurosci Ther | Multicenter, open-label, randomized study comparing oxcarbazepine vs. levetiracetam monotherapy in newly diagnosed focal epilepsy. |
-| [35380580](https://pubmed.ncbi.nlm.nih.gov/35380580/) | 2022 | Review | JAMA | Review of antiseizure medications for adults with epilepsy, including oxcarbazepine's role. |
-| [33334546](https://pubmed.ncbi.nlm.nih.gov/33334546/) | 2020 | Review | Seizure | Current role of carbamazepine and oxcarbazepine in epilepsy management. |
-| [1379159](https://pubmed.ncbi.nlm.nih.gov/1379159/) | 1992 | Review | Drugs | Pharmacology and therapeutic potential of oxcarbazepine in epilepsy, trigeminal neuralgia, and affective disorders. |
-| [10530693](https://pubmed.ncbi.nlm.nih.gov/10530693/) | 1999 | Review | Epilepsia | Review of oxcarbazepine, including comparative profile to carbamazepine. |
-| [26844734](https://pubmed.ncbi.nlm.nih.gov/26844734/) | 2016 | Review | Continuum (Minneap Minn) | Overview of antiepileptic drugs including oxcarbazepine's clinical pharmacology and modes of use. |
-| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | Review | Continuum (Minneap Minn) | 2025 update on antiseizure medications, covering pharmacokinetics, indications and use. |
-| [22091603](https://pubmed.ncbi.nlm.nih.gov/22091603/) | 2012 | Clinical Study | Epilepsia | Efficacy, tolerability, and pharmacokinetics of oxcarbazepine oral loading in patients with recurrent seizures. |
-| [12697143](https://pubmed.ncbi.nlm.nih.gov/12697143/) | 2003 | Cohort | Epilepsy & Behavior | Safety and tolerability of oxcarbazepine in elderly patients with epilepsy. |
+| [32129501](https://pubmed.ncbi.nlm.nih.gov/32129501/) | 2020 | مراجعة منهجية (Cochrane) | Cochrane Database Syst Rev | مراجعة Cochrane لأوكسكاربازيبين كعلاج إضافي للصرع البؤري المقاوم للأدوية. |
+| [35429132](https://pubmed.ncbi.nlm.nih.gov/35429132/) | 2022 | تجربة سريرية عشوائية (RCT) | CNS Neurosci Ther | دراسة متعددة المراكز مفتوحة التسمية عشوائية تقارن أوكسكاربازيبين مقابل العلاج الأحادي باللفيتيراسيتام في الصرع البؤري المشخص حديثاً. |
+| [35380580](https://pubmed.ncbi.nlm.nih.gov/35380580/) | 2022 | مراجعة | JAMA | مراجعة لأدوية مضادات النوبات لدى البالغين المصابين بالصرع، بما في ذلك دور أوكسكاربازيبين. |
+| [33334546](https://pubmed.ncbi.nlm.nih.gov/33334546/) | 2020 | مراجعة | Seizure | الدور الحالي للكاربامازيبين والأوكسكاربازيبين في إدارة الصرع. |
+| [1379159](https://pubmed.ncbi.nlm.nih.gov/1379159/) | 1992 | مراجعة | Drugs | دراسة الصيدلة والإمكانيات العلاجية للأوكسكاربازيبين في الصرع والألم العصبي ثلاثي التوزيع واضطرابات المزاج. |
+| [10530693](https://pubmed.ncbi.nlm.nih.gov/10530693/) | 1999 | مراجعة | Epilepsia | مراجعة الأوكسكاربازيبين، بما في ذلك ملف التعريف المقارن للكاربامازيبين. |
+| [26844734](https://pubmed.ncbi.nlm.nih.gov/26844734/) | 2016 | مراجعة | Continuum (Minneap Minn) | نظرة عامة على أدوية مضادات الصرع بما في ذلك الصيدلة السريرية للأوكسكاربازيبين وطرق الاستخدام. |
+| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | مراجعة | Continuum (Minneap Minn) | تحديث عام 2025 على أدوية مضادات النوبات، يغطي الحرائك الدوائية والاستطبابات والاستخدام. |
+| [22091603](https://pubmed.ncbi.nlm.nih.gov/22091603/) | 2012 | دراسة سريرية | Epilepsia | الفعالية والتحمل والحرائك الدوائية للتحميل الفموي بالأوكسكاربازيبين لدى المرضى الذين يعانون من نوبات متكررة. |
+| [12697143](https://pubmed.ncbi.nlm.nih.gov/12697143/) | 2003 | دراسة جماعية | Epilepsy & Behavior | السلامة والتحمل الدوائي للأوكسكاربازيبين لدى المسنين المصابين بالصرع. |
 
-Note: none of the above literature directly studies visual/photosensitive epilepsy specifically — evidence is drawn from oxcarbazepine's general efficacy and safety in focal/generalized epilepsy, extrapolated to the reflex-epilepsy subtype.
-
----
-
-## Saudi Arabia Market Information
-
-Oxcarbazepine currently holds **no registered marketing authorization in Saudi Arabia** (0 licenses on file; market status: Not marketed/Not Marketed).
+ملاحظة: لا أي من المنشورات أعلاه تدرس الصرع البصري أو الحساس للضوء بشكل خاص — يتم استخلاص الأدلة من فعالية الأوكسكاربازيبين العامة وسلامته في الصرع البؤري/العام، مع الاستقراء إلى النوع الفرعي من الصرع الانعكاسي.
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+أوكسكاربازيبين لا يحمل حالياً أي ترخيص تسويق مسجل في المملكة العربية السعودية (0 ترخيص في السجل؛ حالة السوق: غير مسوق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-The mechanistic link is direct — oxcarbazepine's sodium channel-blocking action is already proven across the broader epilepsy spectrum, and visual epilepsy is a reflex subtype rather than a novel disease category. However, evidence remains at the observational/review level (L3) with no clinical trial specifically designed for visually-induced seizures, so guardrails around indication-specific evidence gaps are warranted.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert data (warnings, contraindications) — currently a Blocking data gap
-- Detailed mechanism of action (MOA) documentation from DrugBank — currently a High-severity data gap
-- Disease-specific clinical evidence (trial or case series) for visual/photosensitive epilepsy, rather than general focal epilepsy extrapolation
-- Drug-drug interaction (DDI) data, currently unavailable (query status: not found)
-- Regulatory pathway assessment, since the drug is not currently marketed in Saudi Arabia (0 licenses)
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات حماية**
+
+**التبرير:**
+الارتباط الآلي مباشر — يثبت حصار قنوات الصوديوم بواسطة أوكسكاربازيبين عبر نطاق الصرع الأوسع، والصرع البصري هو نوع فرعي انعكاسي وليس فئة مرضية جديدة. ومع ذلك، تبقى الأدلة على مستوى المراقبة والمراجعة (L3) مع عدم وجود تجربة سريرية مصممة خصيصاً للنوبات المحفزة بصرياً، لذا فإن ضمانات الحماية حول فجوات الأدلة الخاصة بالاستطبابات مبررة.
+
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+- بيانات نشرة العبوة المكافئة (TFDA/SFDA) (التحذيرات والموانع الاستعمال) — حالياً فجوة بيانات محظورة
+- توثيق آلية العمل التفصيلي (MOA) من DrugBank — حالياً فجوة بيانات ذات خطورة عالية
+- أدلة سريرية خاصة بالمرض (تجربة أو سلسلة حالات) للصرع البصري/الحساس للضوء، بدلاً من الاستقراء العام للصرع البؤري
+- بيانات تفاعل الدواء مع الدواء (DDI)، غير متوفرة حالياً (حالة الاستعلام: لم يتم العثور عليها)
+- تقييم المسار التنظيمي، نظراً لأن الدواء غير مسوق حالياً في المملكة العربية السعودية (0 ترخيص)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

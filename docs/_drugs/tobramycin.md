@@ -29,73 +29,74 @@ indication_count: 10
 
 </div>
 
-# Tobramycin: From Bacterial Infections to Exposure Keratitis
+# التوبراميسين: من العدوى البكتيرية إلى التهاب القرنية بالتعرض
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Tobramycin is an aminoglycoside antibiotic originally used to treat serious Gram-negative bacterial infections (e.g., *Pseudomonas aeruginosa*).
-> The TxGNN model predicts it may be effective for **Exposure Keratitis**,
-> with **2 clinical trials** and **7 publications** currently identified, though most evidence is only indirectly related.
+> التوبراميسين هو مضاد حيوي أمينوجليكوسيد كان يُستخدم في الأصل لعلاج العدوى البكتيرية الخطيرة سالبة الجرام (مثل *Pseudomonas aeruginosa*).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **التهاب القرنية بالتعرض**،
+> مع تحديد **تجربتين سريريتين** و**7 منشورات** حالياً، رغم أن معظم الأدلة ذات صلة غير مباشرة فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Bacterial infections (aminoglycoside antibiotic) — no country-specific approved indication text on file |
-| Predicted New Indication | Exposure Keratitis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | العدوى البكتيرية (مضاد حيوي أمينوجليكوسيد) — لا يوجد نص استطباب معتمد خاص بالدول في الملف |
+| الاستطباب الجديد المتنبأ به | التهاب القرنية بالتعرض |
+| درجة التنبؤ بنموذج TxGNN | 99.93% |
+| مستوى الأدلة | L4 |
+| حالة السوق في تايوان | ✗ غير مُسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, tobramycin is an aminoglycoside antibiotic that binds the bacterial 30S ribosomal subunit, effective mainly against Gram-negative organisms such as *Pseudomonas aeruginosa*; its efficacy in serious bacterial infections is well established.
+في الوقت الحالي، بيانات آلية العمل التفصيلية غير متاحة (تم تصنيفها كفجوة بيانات عالية الخطورة). بناءً على المعلومات المعروفة، التوبراميسين هو مضاد حيوي أمينوجليكوسيد يرتبط بالوحدة الريبوسومية البكتيرية 30S، فعال بشكل أساسي ضد الكائنات الحية سالبة الجرام مثل *Pseudomonas aeruginosa*؛ إن فعاليته في العدوى البكتيرية الخطيرة راسخة.
 
-Exposure keratitis, however, is fundamentally a mechanical/structural condition — corneal exposure caused by inadequate eyelid closure — rather than a primary infectious disease. Tobramycin's plausible role here is indirect: as prophylaxis or adjunctive treatment against secondary bacterial infection of the exposed cornea, not as a direct treatment for the underlying condition.
+ومع ذلك، فإن التهاب القرنية بالتعرض هو في الأساس حالة ميكانيكية/هيكلية — تعرض القرنية الناجم عن إغلاق الجفن غير الكافي — وليس مرضاً معدياً أساسياً. دور التوبراميسين المعقول هنا غير مباشر: كعلاج وقائي أو مساعد ضد العدوى البكتيرية الثانوية للقرنية المعرضة، وليس كعلاج مباشر للحالة الأساسية.
 
-This mechanistic link is therefore weak/indirect. Supporting literature also includes in vitro data showing aminoglycoside (including tobramycin) corneal epithelial toxicity, meaning any use in an already-compromised cornea would require careful risk-benefit weighing rather than being a straightforward repurposing opportunity.
+لذلك فإن هذا الارتباط الآلي ضعيف/غير مباشر. تتضمن الأدبيات الداعمة أيضاً بيانات في المختبر تُظهر سمية الظهارة القرنية للأمينوجليكوسيد (بما في ذلك التوبراميسين)، مما يعني أن أي استخدام في قرنية مكتفية بالفعل سيتطلب موازنة دقيقة بين المخاطر والفوائد بدلاً من كونه فرصة إعادة استخدام مباشرة.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Unknown | 40 | Study of treatment modalities for dendritic (herpetic) corneal ulcer; tobramycin not specifically used — graded low relevance (C) |
-| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Unknown | 170 | Platelet-rich fibrin (PRF) membrane for ophthalmic diseases including corneal ulcer; no direct antibiotic mechanism link — graded low relevance (C) |
+| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | غير معروفة | 40 | دراسة طرائق العلاج لقرحة القرنية الهربسية (العصبية)؛ التوبراميسين لم يتم استخدامه على وجه التحديد — تم تصنيفه بصلة منخفضة (C) |
+| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | غير معروفة | 170 | غشاء الفيبرين الغني بالصفائح الدموية (PRF) لأمراض العيون بما في ذلك قرحة القرنية؛ لا توجد صلة آلية حيوية مباشرة — تم تصنيفه بصلة منخفضة (C) |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro toxicity | Current Eye Research | Demonstrates corneal epithelial cytotoxicity of tobramycin (and other aminoglycosides) in rabbit model — relevant safety signal for ocular use |
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro/lab (MIC/PAE) | Nippon Ganka Gakkai Zasshi | MIC and post-antibiotic effect of antibiotic eyedrops (incl. tobramycin) against keratitis isolates in Japan |
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case report | Oxford Medical Case Reports | Bacterial keratitis from multi-drug-resistant *Shewanella algae* in a bedridden patient unable to close eyes voluntarily (exposure-related risk factor) |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | *Bacillus cereus* keratitis associated with contact lens wear |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case report | Eye & Contact Lens | Bilateral MRSA keratitis following photorefractive keratectomy |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case report (non-infectious) | Yan Ke Xue Bao | Corneal dellen in Graves ophthalmopathy — not an infectious etiology |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Case series (veterinary, feline) | Polish Journal of Veterinary Sciences | Feline ocular toxoplasmosis outcomes — low translational relevance |
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | سمية في المختبر | Current Eye Research | يوضح السمية الخلوية للظهارة القرنية للتوبراميسين (والأمينوجليكوسيدات الأخرى) في نموذج الأرنب — إشارة أمان ذات صلة للاستخدام العيني |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | في المختبر/مخبرية (MIC/PAE) | Nippon Ganka Gakkai Zasshi | MIC والتأثير بعد المضادات الحيوية لقطرات العين ذات المضادات الحيوية (بما في ذلك التوبراميسين) ضد معزولات التهاب القرنية في اليابان |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | تقرير حالة | Oxford Medical Case Reports | التهاب القرنية البكتيري من *Shewanella algae* متعددة المقاومة للأدوية في مريض ملازم للفراش غير قادر على إغلاق العينين طواعية (عامل خطر مرتبط بالتعرض) |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | تقرير حالة | Ophthalmology | التهاب القرنية بـ *Bacillus cereus* المرتبط بارتداء العدسات اللاصقة |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | تقرير حالة | Eye & Contact Lens | التهاب القرنية بـ MRSA الثنائي الجانب بعد جراحة تصحيح الانكسار الضوئي |
+| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | تقرير حالة (غير معدي) | Yan Ke Xue Bao | حفر القرنية في الجحوظ الدرقي — ليس السبب معدياً |
+| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | سلسلة حالات (بيطرية، قطط) | Polish Journal of Veterinary Sciences | نتائج الداء المقوسات العيني في القطط — صلة ترجمة منخفضة |
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Tobramycin currently has no marketing authorization on file (market status: Not Marketed, 0 licenses).
+التوبراميسين حالياً ليس لديه ترخيص تسويق في الملف (حالة السوق: غير مُسوّق، 0 تراخيص).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (TFDA warning/contraindication data retrieval is currently a **Blocking** data gap — safety pre-assessment (S1) cannot be completed until this is resolved.)
+يرجى الرجوع إلى ملحق العبوة للحصول على معلومات الأمان. (استرجاع بيانات تحذيرات TFDA/موانع الاستخدام حالياً فجوة بيانات **محظورة** — لا يمكن إكمال التقييم الأولي للأمان (S1) حتى يتم حل هذه المشكلة.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The top-ranked prediction (exposure keratitis) rests on an indirect mechanistic link, low-relevance clinical trials, and literature that includes a corneal toxicity signal for tobramycin itself. Combined with the unresolved blocking gap in TFDA warning/contraindication data, there is insufficient basis to proceed at this time.
+**المنطق:**
+يعتمد التنبؤ الأعلى تصنيفاً (التهاب القرنية بالتعرض) على ارتباط آلي غير مباشر، وتجارب سريرية منخفضة الصلة، وأدبيات تتضمن إشارة سمية قرنية للتوبراميسين نفسه. مقترناً بفجوة البيانات المحظورة غير المحلولة في بيانات تحذيرات TFDA/موانع الاستخدام، لا يوجد أساس كافٍ للمتابعة في الوقت الحالي.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently blocking S1 safety evaluation
-- Detailed mechanism of action (MOA) data from DrugBank
-- Formal risk-benefit assessment of ocular epithelial toxicity if any ophthalmic use is considered
-- Consider prioritizing other candidates in this evidence pack with stronger support (e.g., **otitis externa**, L3/S2, "Proceed with Guardrails") ahead of exposure keratitis
+**للمتابعة، يلزم الآتي:**
+- ملحق عبوة TFDA (التحذيرات، موانع الاستخدام) — يحظر حالياً تقييم الأمان S1
+- بيانات آلية العمل التفصيلية (MOA) من DrugBank
+- تقييم رسمي للمخاطر والفوائد لسمية الظهارة العينية إذا تم النظر في أي استخدام عيني
+- الأخذ في الاعتبار تحديد أولويات المرشحين الآخرين في هذه مجموعة الأدلة ذات الدعم الأقوى (على سبيل المثال، **التهاب الأذن الخارجية**، L3/S2، "المتابعة مع الضمانات") قبل التهاب القرنية بالتعرض
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

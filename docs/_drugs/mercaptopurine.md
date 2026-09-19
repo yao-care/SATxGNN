@@ -29,108 +29,109 @@ indication_count: 10
 
 </div>
 
-# Mercaptopurine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
+# Mercaptopurine: من سرطان الدم الليمفاوي الحاد إلى سرطان الدم الميلويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Mercaptopurine (6-MP) is a long-established thiopurine antimetabolite that forms the backbone of maintenance therapy for acute lymphoblastic leukemia (ALL) and acute promyelocytic leukemia (APL). The TxGNN model predicts it may also be effective for broader **Myeloid Leukemia**, with **29 clinical trials** and **20 publications** currently supporting this direction.
+Mercaptopurine (6-MP) هو محاكي استقلاب ثيوبيورين معروف منذ فترة طويلة يشكل العمود الفقري لعلاج الصيانة لسرطان الدم الليمفاوي الحاد (ALL) وسرطان الدم الحاد الأرومة الحبيبية (APL). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لـ **سرطان الدم الميلويدي** الأوسع، مع **29 تجربة سريرية** و **20 منشور علمي** يدعمان حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Acute Lymphoblastic Leukemia / Acute Promyelocytic Leukemia (established maintenance therapy backbone; no formal Saudi Arabia registration record on file) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | سرطان الدم الليمفاوي الحاد / سرطان الدم الحاد الأرومة الحبيبية (عمود فقري معروف لعلاج الصيانة؛ لا يوجد سجل تسجيل رسمي في المملكة العربية السعودية في الملف) |
+| المؤشر المتنبأ به الجديد | سرطان الدم الميلويدي |
+| درجة تنبؤ TxGNN | 99.94% |
+| مستوى الأدلة | L1 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, mercaptopurine is a thiopurine purine analog that inhibits de novo purine synthesis and DNA replication, exerting cytotoxic effects on highly proliferative cells such as leukemic blasts.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المعروفة، Mercaptopurine هو محاكي استقلاب ثيوبيورين يثبط تخليق البيورين de novo وتضاعف الحمض النووي، مما يؤدي إلى تأثيرات خلوية سامة على الخلايا شديدة الانقسام مثل الخلايا الأرومية للوكيميا.
 
-Mercaptopurine has long been a standard component of ALL and APL maintenance regimens, typically combined with methotrexate (MTX). Because myeloid leukemia (AML/APL) blasts share the same high-proliferation, purine-synthesis-dependent biology as lymphoblastic leukemia cells, the mechanistic rationale for extending 6-MP use into myeloid leukemia maintenance is directly supported rather than purely speculative — multiple Phase 3/4 trials (e.g., AIDA, PETHEMA LPA2005) already incorporate 6-MP + MTX maintenance specifically for APL, a myeloid leukemia subtype.
+كان Mercaptopurine منذ فترة طويلة مكوناً قياسياً لأنظمة الصيانة ALL و APL، عادة ما يتم دمجه مع methotrexate (MTX). لأن الخلايا الأرومية لسرطان الدم الميلويدي (AML/APL) تشارك نفس البيولوجيا عالية الانقسام والمعتمدة على تخليق البيورين كخلايا سرطان الدم الليمفاوي الحاد، فإن المنطق الآلي لتوسيع استخدام 6-MP في صيانة سرطان الدم الميلويدي يدعمه مباشرة بدلاً من كونه تخميناً بحتاً — تدمج عدة تجارب المرحلة 3/4 بالفعل (مثل AIDA و PETHEMA LPA2005) صيانة 6-MP + MTX على وجه التحديد لـ APL، وهي نوع فرعي من سرطان الدم الميلويدي.
 
-The TxGNN prediction therefore aligns with an evidence base that already exists in the literature, rather than proposing a mechanistically novel repurposing hypothesis.
+وبالتالي فإن التنبؤ من TxGNN يتطابق مع قاعدة أدلة موجودة بالفعل في الأدبيات، بدلاً من اقتراح فرضية إعادة استخدام جديدة من الناحية الآلية.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Phase 3 | Completed | 105 | S0521: RCT of maintenance therapy (6-MP-containing regimen) vs. observation in low/intermediate-risk APL — directly relevant, Grade A |
-| [NCT00700544](https://clinicaltrials.gov/study/NCT00700544) | Phase 3 | Completed | 330 | GOELAMS SA-2002: post-remission maintenance in elderly AML, regimen includes 6-MP; primary variable was androgen addition, Grade B |
-| [NCT02845232](https://clinicaltrials.gov/study/NCT02845232) | N/A | Completed | 214 | Economic analysis of transfusion costs in elderly AML; confirms 6-MP as standard-era background therapy, Grade C |
-| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Phase 1/2 | Recruiting | 48 | Hydroxyurea+VPA vs. 6-MP+VPA combination in AML/high-risk MDS patients unfit for standard therapy |
-| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Phase 1 | Recruiting | 10 | ApoAML trial: venetoclax + 6-mercaptopurine oral combination in relapsed/refractory AML |
-| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Phase 3 | Completed | 420 | Tretinoin/chemo ± arsenic trioxide as consolidation, followed by maintenance with intermittent tretinoin + mercaptopurine + methotrexate in untreated APL |
-| [NCT01064557](https://clinicaltrials.gov/study/NCT01064557) | N/A | Unknown | 1068 | AIDA protocol guideline for newly diagnosed APL; maintenance includes ATRA + methotrexate + 6-mercaptopurine |
-| [NCT00180128](https://clinicaltrials.gov/study/NCT00180128) | Phase 4 | Unknown | 80 | AIDA2000: risk-adapted APL therapy; 2-year maintenance with 6-mercaptopurine, methotrexate, and ATRA |
-| [NCT00408278](https://clinicaltrials.gov/study/NCT00408278) | Phase 4 | Completed | 300 | PETHEMA LPA2005: risk-adapted APL treatment; maintenance therapy with ATRA + low-dose methotrexate + mercaptopurine |
-| [NCT00465933](https://clinicaltrials.gov/study/NCT00465933) | Phase 4 | Completed | N/A | AIDA-based APL treatment with ATRA maintenance and ATRA + methotrexate + mercaptopurine salvage therapy for relapse |
+| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Phase 3 | Completed | 105 | S0521: تجربة عشوائية محكومة لعلاج الصيانة (نظام يحتوي على 6-MP) مقابل المراقبة في APL ذو الخطورة المنخفضة/المتوسطة — ذات صلة مباشرة، الدرجة A |
+| [NCT00700544](https://clinicaltrials.gov/study/NCT00700544) | Phase 3 | Completed | 330 | GOELAMS SA-2002: صيانة ما بعد الارتجاع في AML لدى المسنين، يتضمن النظام 6-MP؛ المتغير الأساسي كان إضافة الأندروجين، الدرجة B |
+| [NCT02845232](https://clinicaltrials.gov/study/NCT02845232) | N/A | Completed | 214 | تحليل اقتصادي لتكاليف نقل الدم في AML لدى المسنين؛ يؤكد 6-MP كعلاج خلفية معياري حقبوي، الدرجة C |
+| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Phase 1/2 | Recruiting | 48 | Hydroxyurea+VPA مقابل مزيج 6-MP+VPA في مرضى AML/MDS عالي الخطورة غير الملائمين للعلاج القياسي |
+| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Phase 1 | Recruiting | 10 | تجربة ApoAML: مزيج venetoclax + 6-mercaptopurine عن طريق الفم في AML الانتكاسي/المقاوم للعلاج |
+| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Phase 3 | Completed | 420 | Tretinoin/chemo ± ثالث أكسيد الزرنيخ كتحريض، متبوعاً بالصيانة مع tretinoin متقطع + mercaptopurine + methotrexate في APL غير المعالج حديثاً |
+| [NCT01064557](https://clinicaltrials.gov/study/NCT01064557) | N/A | Unknown | 1068 | إرشاد بروتوكول AIDA لـ APL المشخص حديثاً؛ تتضمن الصيانة ATRA + methotrexate + 6-mercaptopurine |
+| [NCT00180128](https://clinicaltrials.gov/study/NCT00180128) | Phase 4 | Unknown | 80 | AIDA2000: علاج APL المكيف حسب الخطورة؛ صيانة 2 سنة مع 6-mercaptopurine و methotrexate و ATRA |
+| [NCT00408278](https://clinicaltrials.gov/study/NCT00408278) | Phase 4 | Completed | 300 | PETHEMA LPA2005: علاج APL المكيف حسب الخطورة؛ علاج الصيانة مع ATRA + methotrexate منخفض الجرعة + mercaptopurine |
+| [NCT00465933](https://clinicaltrials.gov/study/NCT00465933) | Phase 4 | Completed | N/A | علاج APL على أساس AIDA مع صيانة ATRA وعلاج الإنقاذ ATRA + methotrexate + mercaptopurine للانتكاس |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Cohort | J Korean Med Sci | Oral maintenance chemotherapy with 6-MP + methotrexate in transplant-ineligible AML patients, assessing leukemia-free and overall survival |
-| [9095207](https://pubmed.ncbi.nlm.nih.gov/9095207/) | 1997 | Cohort | Cancer Investigation | High-dose 6-MP followed by intermediate-dose cytarabine during first remission of pediatric AML |
-| [10497848](https://pubmed.ncbi.nlm.nih.gov/10497848/) | 1999 | pending | Int J Hematol | JALSG-AML92: induction regimen with daunorubicin, cytarabine, and 6-mercaptopurine in adult AML |
-| [8174198](https://pubmed.ncbi.nlm.nih.gov/8174198/) | 1994 | pending | Cancer Chemother Pharmacol | Nationwide randomized comparison of daunorubicin vs. aclarubicin combined with cytarabine, 6-MP, and prednisolone in untreated AML |
-| [8558199](https://pubmed.ncbi.nlm.nih.gov/8558199/) | 1996 | pending | J Clin Oncol | Japan Leukemia Study Group randomized trial of induction/consolidation regimens including 6-MP in adult AML |
-| [1793832](https://pubmed.ncbi.nlm.nih.gov/1793832/) | 1991 | pending | Int J Hematol | Intensive individualized induction with behenoyl cytarabine, daunorubicin, and 6-mercaptopurine in adult AML |
-| [1657335](https://pubmed.ncbi.nlm.nih.gov/1657335/) | 1991 | pending | Chinese Medical Journal | Combination chemotherapy with cytarabine, daunorubicin, and 6-mercaptopurine for AML remission induction |
-| [5220682](https://pubmed.ncbi.nlm.nih.gov/5220682/) | 1966 | Case series | Minnesota Medicine | Early treatment of AML with 6-mercaptopurine and cyclophosphamide |
-| [24492035](https://pubmed.ncbi.nlm.nih.gov/24492035/) | 2014 | pending | Rinsho Ketsueki (Jpn J Clin Hematol) | Review of current therapy for AML and APL |
-| [265178](https://pubmed.ncbi.nlm.nih.gov/265178/) | 1977 | pending | Blood | Juvenile chronic myeloid leukemia treated with sequential subcutaneous cytarabine and oral mercaptopurine |
+| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | دراسة الأتراب | J Korean Med Sci | العلاج الكيميائي للصيانة عن طريق الفم مع 6-MP + methotrexate في مرضى AML غير المؤهلين لزراعة الخلايا، تقييم البقاء الخالي من اللوكيميا والبقاء الكلي |
+| [9095207](https://pubmed.ncbi.nlm.nih.gov/9095207/) | 1997 | دراسة الأتراب | Cancer Investigation | 6-MP بجرعة عالية متبوعاً بـ cytarabine بجرعة متوسطة أثناء الارتجاع الأول للـ AML عند الأطفال |
+| [10497848](https://pubmed.ncbi.nlm.nih.gov/10497848/) | 1999 | قيد الانتظار | Int J Hematol | JALSG-AML92: نظام التحريض مع daunorubicin و cytarabine و 6-mercaptopurine في AML للبالغين |
+| [8174198](https://pubmed.ncbi.nlm.nih.gov/8174198/) | 1994 | قيد الانتظار | Cancer Chemother Pharmacol | مقارنة عشوائية على الصعيد الوطني لـ daunorubicin مقابل aclarubicin جنباً إلى جنب مع cytarabine و 6-MP و prednisolone في AML غير المعالج |
+| [8558199](https://pubmed.ncbi.nlm.nih.gov/8558199/) | 1996 | قيد الانتظار | J Clin Oncol | تجربة عشوائية لمجموعة اليابان لدراسة اللوكيميا لأنظمة التحريض/التوطيد بما في ذلك 6-MP في AML للبالغين |
+| [1793832](https://pubmed.ncbi.nlm.nih.gov/1793832/) | 1991 | قيد الانتظار | Int J Hematol | تحريض مكثف مخصص مع behenoyl cytarabine و daunorubicin و 6-mercaptopurine في AML للبالغين |
+| [1657335](https://pubmed.ncbi.nlm.nih.gov/1657335/) | 1991 | قيد الانتظار | Chinese Medical Journal | العلاج الكيميائي المركب مع cytarabine و daunorubicin و 6-mercaptopurine لتحريض الارتجاع في AML |
+| [5220682](https://pubmed.ncbi.nlm.nih.gov/5220682/) | 1966 | سلسلة حالات | Minnesota Medicine | العلاج المبكر للـ AML بـ 6-mercaptopurine و cyclophosphamide |
+| [24492035](https://pubmed.ncbi.nlm.nih.gov/24492035/) | 2014 | قيد الانتظار | Rinsho Ketsueki (Jpn J Clin Hematol) | استعراض العلاج الحالي للـ AML و APL |
+| [265178](https://pubmed.ncbi.nlm.nih.gov/265178/) | 1977 | قيد الانتظار | Blood | سرطان الدم النخاعي المزمن الحبيبي عند الأطفال المعالج بـ cytarabine تحت الجلد بشكل متسلسل و mercaptopurine عن طريق الفم |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق بالمملكة العربية السعودية
 
-Mercaptopurine currently has **no marketing authorization on record in Saudi Arabia** (`market_status: Not marketed`, 0 licenses). No product-level dosage form or approved indication text is available for this evidence pack.
+لا يوجد حالياً أي تخويل تسويقي مسجل لـ Mercaptopurine في المملكة العربية السعودية (`market_status: Not marketed`، 0 رخصة). لا توجد بيانات على مستوى المنتج لشكل جرعة أو نص مؤشر معتمد متاح لهذه مجموعة الأدلة.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (purine analog / thiopurine antimetabolite) |
-| Myelosuppression Risk | High — dose-limiting toxicity; extensively documented in the literature as being driven by TPMT/NUDT15 metabolizer status, with genotype-guided dosing now standard practice |
-| Emetogenicity Classification | Low (oral thiopurine, generally classified as minimal-to-low emetogenic risk) |
-| Monitoring Items | CBC with differential, liver function tests, renal function; TPMT and NUDT15 genotyping/phenotyping recommended prior to and during dosing |
-| Handling Protection | Must follow cytotoxic/hazardous drug handling regulations (PPE, closed-system preparation where applicable) |
+| تصنيف السمية الخلوية | سامة خلوية تقليدية (محاكي حمضي بيورين / مضاد استقلاب ثيوبيورين) |
+| خطر قمع النخاع | عالي — السمية التي تحدد الجرعة؛ موثقة على نطاق واسع في الأدبيات كونها مدفوعة بحالة أيض TPMT/NUDT15، مع جرعات موجهة بالنمط الجيني التي أصبحت الآن ممارسة معيارية |
+| تصنيف الغثيان | منخفض (ثيوبيورين عن طريق الفم، يُصنف عادةً على أنه الحد الأدنى من مخاطر الغثيان) |
+| عناصر المراقبة | تعداد خلايا الدم الكامل مع الفرق، اختبارات وظائف الكبد، وظيفة الكلى؛ يُوصى بتنميط TPMT و NUDT15 / الفينوتايب قبل وأثناء الجرعات |
+| حماية المناولة | يجب اتباع لوائح معالجة الأدوية السامة / الخطرة (المعدات الواقية الشخصية، تحضير النظام المغلق حيث ينطبق) |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data were not available in this evidence pack (DDI query returned no results).
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. لم تكن بيانات التحذيرات الرئيسية والموانع وبيانات التفاعلات الدوائية متاحة في هذه مجموعة الأدلة (لم يُرجع استعلام DDI أي نتائج).
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات**
 
-**Rationale:**
-The L1 evidence level is supported by a Phase 3 RCT (NCT00492856) directly evaluating maintenance therapy in a myeloid leukemia subtype (APL), plus decades of established real-world use of 6-MP + MTX maintenance across multiple AIDA/PETHEMA Phase 3/4 protocols. However, the drug has no current market authorization in Saudi Arabia and no local safety documentation is on file.
+**الأساس المنطقي:**
+يدعم مستوى الأدلة L1 تجربة عشوائية محكومة من المرحلة 3 (NCT00492856) تقيّم بشكل مباشر علاج الصيانة في نوع فرعي من سرطان الدم الميلويدي (APL)، بالإضافة إلى عقود من الاستخدام الفعلي المعروف لصيانة 6-MP + MTX عبر بروتوكولات AIDA/PETHEMA المتعددة من المرحلة 3/4. ومع ذلك، لا يوجد حالياً أي تخويل تسويقي للعقار في المملكة العربية السعودية ولا توجد وثائق السلامة المحلية في الملف.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert warnings and contraindications (currently a Blocking data gap — required before any S1 safety screening can proceed)
-- Detailed mechanism of action (MOA) documentation from DrugBank or equivalent source
-- Local drug-drug interaction (DDI) data confirmation
-- Regulatory pathway analysis for first-time market entry, given the drug's "not marketed" status in Saudi Arabia
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات نشرة الحزمة TFDA/SFDA المعادلة وموانع الاستعمال (حالياً فجوة بيانات محظورة — مطلوبة قبل أي فحص سلامة S1)
+- وثائق آلية العمل التفصيلية (MOA) من DrugBank أو مصدر معادل
+- تأكيد بيانات تفاعلات الدواء والدواء (DDI) المحلية
+- تحليل مسار تنظيمي لدخول السوق لأول مرة، نظراً لحالة العقار "غير المسوّق" في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

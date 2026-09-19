@@ -29,71 +29,72 @@ indication_count: 1
 
 </div>
 
-# Alfentanil: From Anesthesia/Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Alfentanil: من التخدير/تسكين الألم إلى متلازمة كلوية لإفراز مضاد إدرار البول غير المناسب
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Alfentanil is a short-acting synthetic opioid analgesic used for induction and maintenance of anesthesia and procedural sedation.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-however **0 clinical trials** and **0 publications** currently support this direction — the evidence base is limited to the model prediction alone.
+Alfentanil هو مسكن ألم أفيوني اصطناعي قصير المفعول يستخدم في تحريض التخدير والحفاظ عليه والتسكين الإجرائي.
+يتنبأ نموذج TxGNN أنه قد يكون فعالاً ضد **متلازمة كلوية لإفراز مضاد إدرار البول غير المناسب (NSIAD)**،
+لكن لا توجد تجارب سريرية (0) ولا منشورات (0) تدعم هذا الاتجاه حالياً - قاعدة الأدلة محدودة بالتنبؤ النموذجي فقط.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Anesthesia induction and maintenance; procedural analgesia |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | تحريض التخدير والحفاظ عليه؛ التسكين الإجرائي |
+| المؤشر الجديد المتنبأ به | متلازمة كلوية لإفراز مضاد إدرار البول غير المناسب |
+| درجة التنبؤ من TxGNN | 99.51% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, Alfentanil is a potent, ultra–short-acting µ-opioid receptor agonist with a rapid onset (approximately 1–2 minutes) and brief duration of action relative to fentanyl. It is primarily used for intraoperative analgesia, anesthesia induction, and procedural sedation. Its mechanism centres on agonism at central and peripheral µ-opioid receptors, suppressing pain signal transmission through the inhibition of adenylyl cyclase (↓ cAMP) and modulation of ion channels.
+حالياً، بيانات آلية العمل التفصيلية غير متوفرة في حزمة الأدلة. بناءً على المعرفة الدوائية الراسخة، Alfentanil هو ناهض مستقبل أفيوني µ قوي جداً وقصير المفعول جداً ببداية سريعة (تقريباً 1-2 دقيقة) ومدة تأثير قصيرة نسبياً مقارنة بـ fentanyl. يُستخدم بشكل أساسي في تسكين الألم أثناء العمليات الجراحية وتحريض التخدير والتسكين الإجرائي. تركز آلية عمله على ناهضية مستقبلات أفيوينية µ مركزية وطرفية، مع قمع انتقال إشارات الألم من خلال منع الأدينيليل سيكلاز (↓ cAMP) وتعديل قنوات الأيونات.
 
-Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) is a rare X-linked disorder caused by gain-of-function mutations in the V2 vasopressin receptor (AVPR2). These mutations result in constitutive receptor activation — elevated cAMP signalling and aquaporin-2 trafficking — leading to inappropriate water reabsorption and dilutional hyponatremia, even in the absence of elevated antidiuretic hormone (ADH). Clinically it resembles SIADH, but with suppressed ADH levels.
+متلازمة كلوية لإفراز مضاد إدرار البول غير المناسب (NSIAD) هي اضطراب نادر مرتبط بـ X يسببه طفرات اكتساب الوظيفة في مستقبل الفازوبريسين V2 (AVPR2). تؤدي هذه الطفرات إلى تنشيط المستقبل المستمر - ارتفاع إشارات cAMP وترافيك aquaporin-2 - مما يؤدي إلى امتصاص غير مناسب للمياه ونقص الصوديوم التخفيفي، حتى في غياب مستويات هرمون مضاد إدرار البول (ADH) المرتفعة. سريرياً، يشبه SIADH، لكن مع مستويات ADH المثبطة.
 
-A theoretical mechanistic bridge may exist: µ-opioid receptors and V2 vasopressin receptors both signal through the Gαi/Gαs–cAMP axis, and opioid agonists have been reported in some contexts to modulate renal tubular water handling. However, the specific hypothesis that alfentanil could attenuate constitutively active V2R in NSIAD is highly speculative. No clinical trials, observational studies, or literature were identified to support this direction, making the TxGNN prediction unvalidated at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+قد يوجد جسر ميكانيكي نظري: مستقبلات أفيوينية µ ومستقبلات الفازوبريسين V2 يعملان كلاهما عبر محور Gαi/Gαs-cAMP، وقد تم الإبلاغ عن ناهضات الأفيون في بعض السياقات لتعديل معالجة المياه الكلوية. ومع ذلك، فإن الفرضية المحددة بأن Alfentanil يمكن أن يخفف من V2R المنشطة بشكل مستمر في NSIAD هي تخمينية جداً. لم يتم تحديد أي تجارب سريرية أو دراسات رصدية أو أدبيات لدعم هذا الاتجاه، مما يجعل تنبؤ TxGNN غير مثبت في هذا الوقت.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-Despite a very high TxGNN prediction score (99.51%), there is a complete absence of clinical or published evidence connecting alfentanil to nephrogenic syndrome of inappropriate antidiuresis, and the drug carries no Saudi Arabia regulatory authorisations, making a forward development case premature.
+---
 
-**To proceed, the following is needed:**
-- Mechanistic studies investigating whether µ-opioid receptor agonism modulates constitutively active V2 vasopressin receptor signalling relevant to NSIAD
-- Retrieval and review of the official package insert for complete safety data (warnings, contraindications, drug–drug interactions)
-- At minimum one preclinical or observational study demonstrating an effect on V2R-mediated renal water handling
-- TxGNN model explainability analysis (graph path / feature importance) to understand the basis of this high-confidence prediction
-- Regulatory pathway scoping for a novel indication in a drug not currently marketed locally
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج لمعلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: الانتظار**
+
+**المنطق:**
+على الرغم من درجة تنبؤ TxGNN عالية جداً (99.51%)، هناك غياب تام للأدلة السريرية أو المنشورة التي تربط Alfentanil بمتلازمة كلوية لإفراز مضاد إدرار البول غير المناسب، والعقار لا يحمل أي تصاريح تنظيمية في المملكة العربية السعودية، مما يجعل حالة المضي قدماً بالتطوير مبكرة جداً.
+
+**لكي نتقدم، يلزم الآتي:**
+- دراسات آلية الفعل للتحقيق في ما إذا كان ناهض مستقبل أفيوني µ يعدل إشارات مستقبل الفازوبريسين V2 المنشطة بشكل مستمر ذات الصلة بـ NSIAD
+- استرجاع واستعراض نشرة المنتج الرسمية للحصول على بيانات السلامة الكاملة (تحذيرات، موانع الاستعمال، تفاعلات الأدوية)
+- واحدة على الأقل من دراسات ما قبل السريرية أو دراسات رصدية توضح تأثيراً على معالجة المياه الكلوية التي يتوسطها V2R
+- تحليل قابلية شرح نموذج TxGNN (مسار الرسم البياني / أهمية الميزة) لفهم أساس هذا التنبؤ عالي الثقة
+- تحديد المسار التنظيمي لمؤشر جديد في دواء غير مسوق محلياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

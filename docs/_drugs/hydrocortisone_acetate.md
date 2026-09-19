@@ -29,80 +29,81 @@ indication_count: 10
 
 </div>
 
-# Hydrocortisone Acetate: From Corticosteroid Therapy to Alopecia Areata
+# أسيتات الهيدروكورتيزون: من العلاج بالكورتيكوستيرويد إلى الثعلبة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Hydrocortisone acetate is a corticosteroid (glucocorticoid); the evidence pack does not contain a documented original indication or mechanism-of-action record for this specific entry (data gap). The TxGNN model predicts it may be effective for **Alopecia Areata**, and this is currently supported by **1 completed Phase 3 clinical trial** and **2 publications**, reflecting reinforcement of an already-established corticosteroid use in this condition rather than a novel repurposing hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no license or indication text on file — data gap) |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 (1 completed Phase 3 RCT) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+أسيتات الهيدروكورتيزون هو كورتيكوستيرويد (غلوكوكورتيكويد)؛ لا تحتوي حزمة الأدلة على سجل موثق للمؤشر الأصلي أو آلية العمل لهذا الإدخال المحدد (فجوة بيانات). يتوقع نموذج TxGNN أنه قد يكون فعالاً في **الثعلبة**، وهذا مدعوم حالياً بـ **تجربة سريرية واحدة اكتملت في المرحلة 3** و**منشورين**، مما يعكس تعزيز استخدام كورتيكوستيرويد موجود بالفعل في هذه الحالة بدلاً من فرضية إعادة استخدام جديدة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## لمحة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for this drug entry (data gap DG002). Based on known pharmacological classification, hydrocortisone acetate is a corticosteroid (glucocorticoid); its anti-inflammatory and immunosuppressive effects — including suppression of local T-lymphocyte infiltration — are pharmacologically well established for this drug class.
-
-Alopecia areata is itself an autoimmune, T-cell-mediated form of hair loss. Topical and intralesional corticosteroids are already a standard-of-care treatment option for alopecia areata in clinical practice. This means the TxGNN prediction is not proposing a novel mechanistic hypothesis, but rather reinforces an existing, clinically established use — which is corroborated by the completed Phase 3 trial and older case-series/review literature identified below.
-
-No original indication data was returned for this drug in the current evidence pack, so the relationship between the (unknown) original indication and alopecia areata cannot be characterized. This should be treated as a data completeness gap rather than a negative finding.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح (لا يوجد ترخيص أو نص مؤشر في الملف — فجوة بيانات) |
+| المؤشر الجديد المتوقع | الثعلبة |
+| درجة التنبؤ TxGNN | 99.94% |
+| مستوى الدليل | L2 (تجربة عشوائية خاضعة للرقابة واحدة اكتملت في المرحلة 3) |
+| حالة السوق السعودي | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، البيانات المفصلة لآلية العمل غير متاحة لإدخال الدواء هذا (فجوة البيانات DG002). بناءً على التصنيف الدوائي المعروف، أسيتات الهيدروكورتيزون هو كورتيكوستيرويد (غلوكوكورتيكويد)؛ تأثيراته المضادة للالتهاب والمثبطة للمناعة — بما في ذلك قمع تسلل الخلايا اللمفاوية التائية المحلية — مثبتة دوائياً بشكل جيد لهذه فئة الدواء.
+
+الثعلبة نفسها هي شكل من أشكال تساقط الشعر ذاتي المناعة الوسيط بالخلايا اللمفاوية التائية. كورتيكوستيرويدات الموضعية والحقن داخل الآفة هي بالفعل خيار علاج قياسي في الممارسة السريرية للثعلبة. هذا يعني أن تنبؤ TxGNN لا يقترح فرضية آلية جديدة، بل بدلاً من ذلك يعزز استخدام موجود بالفعل من الناحية السريرية — وهذا مدعوم بتجربة المرحلة 3 المكتملة والأدب الأقدم من سلسلات الحالات والمراجعات المحددة أدناه.
+
+لم يتم إرجاع أي بيانات مؤشر أصلي لهذا الدواء في حزمة الأدلة الحالية، لذلك لا يمكن توصيف العلاقة بين المؤشر الأصلي (غير المعروف) والثعلبة. يجب اعتبار هذا فجوة في اكتمالية البيانات وليس نتيجة سلبية.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomized controlled trial comparing clobetasol propionate 0.05% cream vs. hydrocortisone 1% cream in children with alopecia areata; hydrocortisone 1% cream used directly as the active comparator arm, providing direct (not merely mechanistic) evidence for this indication. |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | المرحلة 3 | مكتملة | 41 | تجربة عشوائية خاضعة للرقابة تقارن بين كريم كلوبيتاسول بروبيونات 0.05٪ مقابل كريم الهيدروكورتيزون 1٪ لدى الأطفال المصابين بالثعلبة؛ تم استخدام كريم الهيدروكورتيزون 1٪ مباشرة كذراع مقارن نشط، مما يوفر دليلاً مباشراً (وليس مجرد آلي) لهذا المؤشر. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series | Przeglad dermatologiczny | Treatment of severe forms of alopecia areata using intralesional subcutaneous injections of hydrocortisone acetate suspension. |
-| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Munchener medizinische Wochenschrift | General review of topical corticosteroid therapy in dermatology; notes hydrocortisone acetate's anti-inflammatory effect as a benchmark comparator for newer topical corticosteroids. |
+| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | سلسلة حالات | Przeglad dermatologiczny | علاج الأشكال الحادة من الثعلبة باستخدام حقن داخل الآفة تحت الجلد من تعليق أسيتات الهيدروكورتيزون. |
+| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | مراجعة | MMW, Munchener medizinische Wochenschrift | مراجعة عامة لعلاج الكورتيكوستيرويد الموضعي في الأمراض الجلدية؛ تلاحظ تأثير أسيتات الهيدروكورتيزون المضاد للالتهابات كمقارن معياري للكورتيكوستيرويدات الموضعية الأحدث. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودي
 
-No marketing authorizations are currently on file — the drug is not marketed in Saudi Arabia (0 authorizations recorded).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in the evidence pack — DG001, Blocking.)
+لا توجد ترخيصات تسويقية على الملف حالياً — الدواء غير مسوق في المملكة العربية السعودية (0 تصاريح مسجلة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى مراجعة النشرة الطبية للحصول على معلومات السلامة. (البيانات الرئيسية للتحذيرات والموانع والتفاعلات الدوائية غير متاحة حالياً في حزمة الأدلة — DG001، محجوب).
 
-**Rationale:**
-A completed Phase 3 RCT directly supports hydrocortisone 1% cream's use in alopecia areata, consistent with corticosteroids' established role in this condition, but the drug is not currently marketed in Saudi Arabia and critical safety documentation is missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, Blocking — required before any S1 safety review)
-- Mechanism of action documentation from DrugBank (DG002, High)
-- Drug interaction (DDI) data, currently not found
-- Saudi Arabia market authorization pathway assessment, given current "not marketed" status
-- Route/formulation compatibility check for the alopecia areata indication (topical vs. intralesional use)
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الضمانات**
+
+**الأساس المنطقي:**
+تجربة مرحلة 3 مكتملة تدعم مباشرة استخدام كريم الهيدروكورتيزون 1٪ في الثعلبة، متسقة مع الدور المؤسس للكورتيكوستيرويدات في هذه الحالة، لكن الدواء غير مسوق حالياً في المملكة العربية السعودية والتوثيق الحرج للسلامة مفقود.
+
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات النشرة الطبية TFDA/SFDA والموانع (DG001، محجوب — مطلوب قبل أي مراجعة أمان S1)
+- توثيق آلية العمل من DrugBank (DG002، عالي)
+- بيانات التفاعل الدوائي (DDI)، غير مكتشفة حالياً
+- تقييم مسار التصريح التسويقي السعودي، نظراً للحالة "غير مسوقة" الحالية
+- فحص توافق الطريق/الصيغة للمؤشر الثعلبة (الموضعي مقابل الحقن داخل الآفة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

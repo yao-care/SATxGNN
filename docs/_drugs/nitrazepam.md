@@ -29,89 +29,90 @@ indication_count: 3
 
 </div>
 
-# Nitrazepam: From an Undocumented Original Indication to Insomnia (Sleep Initiation and Maintenance Disorder)
+# النيترازيبام: من دلالة أصلية غير موثقة إلى الأرق (اضطراب بدء واستمرار النوم)
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-Nitrazepam is a classic benzodiazepine hypnotic; this Evidence Pack does not carry a documented original indication or formal mechanism-of-action record for it locally. The TxGNN model predicts it may be effective for **Insomnia (sleep disorder, initiating and maintaining sleep)** — which in practice reproduces nitrazepam's well-known worldwide clinical role rather than uncovering a novel use — supported by **20 publications**, including several head-to-head randomized trials, though **no registered clinical trials** currently exist for this pairing.
+النيترازيبام عبارة عن مادة منومة كلاسيكية من فئة البنزوديازيبين؛ لا يحتوي هذا الحزم الإثباتي على دلالة أصلية موثقة أو سجل رسمي لآلية العمل محليًا. يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **الأرق (اضطراب النوم، بدء واستمرار النوم)** — وهو ما يعيد إنتاج الدور السريري المعروف عالميًا للنيترازيبام بدلاً من الكشف عن استخدام جديد — مدعوم بـ **20 منشورًا**، بما في ذلك عدة تجارب عشوائية محكومة مباشرة، على الرغم من أنه **لا توجد تجارب سريرية مسجلة** حاليًا لهذا الاقتران.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (see note below) |
-| Predicted New Indication | Insomnia (Sleep Disorder, Initiating and Maintaining Sleep) |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | غير موثقة في هذا الحزم الإثباتي (انظر الملاحظة أدناه) |
+| الدلالة المتنبأ بها الجديدة | الأرق (اضطراب النوم، بدء واستمرار النوم) |
+| درجة التنبؤ بـ TxGNN | 99.89% |
+| مستوى الإثبات | L2 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-This Evidence Pack flags detailed mechanism-of-action data as a data gap, and no original indication is recorded for nitrazepam in the local regulatory data. However, the model's own repurposing rationale supplies the pharmacological link: nitrazepam is a classic benzodiazepine that potentiates GABA-A receptor chloride-channel conductance, producing sedative/hypnotic effects — a direct, well-established pharmacological action rather than an indirect inference.
+يشير هذا الحزم الإثباتي إلى بيانات آلية العمل التفصيلية كفجوة في البيانات، ولا يوجد أي دلالة أصلية مسجلة للنيترازيبام في البيانات التنظيمية المحلية. ومع ذلك، يوفر أساس إعادة الاستخدام الخاص بالنموذج الربط الصيدلاني: النيترازيبام عبارة عن بنزوديازيبين كلاسيكي يعزز موصلية قناة كلوريد مستقبل GABA-A، مما ينتج تأثيرات مهدئة/منومة — وهي إجراء صيدلاني مباشر وراسخ بدلاً من استدلال غير مباشر.
 
-Consistent with this, nitrazepam was originally marketed internationally under the brand name **Mogadon** specifically as a hypnotic for insomnia. In that sense, the TxGNN prediction largely reconstructs an already-known clinical use of the drug rather than proposing a genuinely novel indication — which strengthens confidence in the prediction's face validity, even though local original-indication documentation is currently absent.
+تماشيًا مع هذا، تم تسويق النيترازيبام في الأصل دوليًا تحت اسم العلامة التجارية **Mogadon** على وجه التحديد كمادة منومة للأرق. بهذا المعنى، يعيد التنبؤ بـ TxGNN في الغالب بناء استخدام سريري معروف بالفعل للعقار بدلاً من اقتراح دلالة جديدة حقيقية — مما يعزز الثقة في صحة التنبؤ من حيث المظهر، على الرغم من غياب التوثيق الأصلي للدلالة المحلية حاليًا.
 
-Because the mechanistic link (GABA-A potentiation → sedation/sleep induction) is direct and well characterized pharmacologically, the main open questions for this candidate are regulatory (local licensing status) and safety-documentation (label data), not mechanistic plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+لأن الربط الآلي (تعزيز GABA-A → التخدير/حث النوم) مباشر وموصوف جيدًا صيدلانيًا، فإن الأسئلة المفتوحة الرئيسية لهذا المرشح هي تنظيمية (حالة الترخيص المحلي) والتوثيق الأمني (بيانات الملصق)، وليس قابلية الآلية.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حاليًا لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | الدورية | الحقائق الرئيسية |
 |------|-----|------|------|---------|
-| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT | Acta Psychiatrica Scandinavica | Double-blind cross-over in 26 geriatric inpatients: nitrazepam 5mg vs triazolam 0.25mg — similar sleep quantity/quality, no significant psychomotor differences |
-| [1743245](https://pubmed.ncbi.nlm.nih.gov/1743245/) | 1991 | RCT | European Journal of Clinical Pharmacology | Double-blind crossover (n=28): nitrazepam 5mg/d vs oxazepam 25mg/d vs placebo — both effective for sleep induction and quality, no adverse dream effects |
-| [6669629](https://pubmed.ncbi.nlm.nih.gov/6669629/) | 1983 | RCT | Pharmacology | Double-blind, parallel-group randomized polysomnography study: zopiclone 7.5mg vs nitrazepam 5mg — both immediately and lastingly effective; slight rebound insomnia with nitrazepam |
-| [6661386](https://pubmed.ncbi.nlm.nih.gov/6661386/) | 1983 | RCT | British Journal of Clinical Pharmacology | Brotizolam 0.25mg vs nitrazepam 5mg vs placebo in general-practice insomnia — equally effective, no residual next-day effects with either |
-| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Cohort | Clinical Pharmacokinetics | Clinical pharmacokinetic profile of nitrazepam underpinning its dosing and use as a hypnotic |
-| [14960254](https://pubmed.ncbi.nlm.nih.gov/14960254/) | 2004 | Cohort | Health Technology Assessment | Evaluated CBT vs continued long-term hypnotic (incl. nitrazepam) use in general practice; assessed clinical and cost impact |
-| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Clinical study | British Medical Journal | 27 patients with acute nitrazepam overdose showed only drowsiness; double-blind trial found nitrazepam as effective as butobarbitone as a hypnotic, and safe |
-| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidem review noting hypnotic efficacy generally comparable to benzodiazepines including nitrazepam, flurazepam, temazepam, and triazolam |
-| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | Review | Drugs | Brotizolam pharmacology review showing efficacy comparable to nitrazepam 2.5–5mg, flunitrazepam 2mg, and triazolam 0.25mg |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clinical Evidence | Overview of insomnia management in the elderly, contextualizing benzodiazepine hypnotic use as prevalence rises with age |
+| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT | Acta Psychiatrica Scandinavica | دراسة عمياء مزدوجة متقاطعة في 26 مريضًا مسنًا داخل المستشفى: النيترازيبام 5 ملغ مقابل تريازولام 0.25 ملغ — كمية وجودة نوم متشابهة، بدون فروقات نفس حركية ملحوظة |
+| [1743245](https://pubmed.ncbi.nlm.nih.gov/1743245/) | 1991 | RCT | European Journal of Clinical Pharmacology | دراسة عمياء مزدوجة متقاطعة (n=28): النيترازيبام 5 ملغ/يوم مقابل أوكسازيبام 25 ملغ/يوم مقابل العلاج الوهمي — كلا الخيارين فعالان في حث النوم وجودته، بدون تأثيرات أحلام سلبية |
+| [6669629](https://pubmed.ncbi.nlm.nih.gov/6669629/) | 1983 | RCT | Pharmacology | دراسة تخطيط النوم بالعمى المزدوج والمجموعة المتوازية: زوبيكلون 7.5 ملغ مقابل النيترازيبام 5 ملغ — كلاهما فعال فورًا واستمرارًا؛ أرق ارتجاعي بسيط مع النيترازيبام |
+| [6661386](https://pubmed.ncbi.nlm.nih.gov/6661386/) | 1983 | RCT | British Journal of Clinical Pharmacology | بروتيزولام 0.25 ملغ مقابل النيترازيبام 5 ملغ مقابل العلاج الوهمي في الأرق بالممارسة العامة — فعالية متساوية، بدون تأثيرات متبقية في اليوم التالي مع أي منهما |
+| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | دراسة جماعية | Clinical Pharmacokinetics | الملف الصيدلاني الحركي السريري للنيترازيبام الذي يدعم جرعاته واستخدامه كمادة منومة |
+| [14960254](https://pubmed.ncbi.nlm.nih.gov/14960254/) | 2004 | دراسة جماعية | Health Technology Assessment | تقييم العلاج السلوكي المعرفي مقابل استخدام المهدئات طويل الأمد المستمر (بما فيه النيترازيبام) بالممارسة العامة؛ تقييم التأثير السريري والاقتصادي |
+| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | دراسة سريرية | British Medical Journal | 27 مريضًا يعانون من جرعة زائدة حادة من النيترازيبام أظهروا فقط النعاس؛ أظهرت الدراسة العمياء المزدوجة أن النيترازيبام فعال مثل البوتوباربيتون كمادة منومة، وآمن |
+| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | مراجعة | Drugs | مراجعة زولبيديم تلاحظ أن الفعالية المنومة عمومًا قابلة للمقارنة مع البنزوديازيبينات بما فيها النيترازيبام والفلورازيبام والتيمازيبام والتريازولام |
+| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | مراجعة | Drugs | مراجعة دوائيات بروتيزولام تظهر فعالية قابلة للمقارنة مع النيترازيبام 2.5–5 ملغ والفلونيترازيبام 2 ملغ والتريازولام 0.25 ملغ |
+| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | مراجعة | BMJ Clinical Evidence | نظرة عامة على إدارة الأرق لدى المسنين، وضع استخدام مهدئات البنزوديازيبين في السياق مع ارتفاع الانتشار مع التقدم في العمر |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Nitrazepam currently holds no marketing authorizations on file (0 licenses; market status: **Not Marketed**).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: Local TFDA warnings/contraindications and DDI data are currently unavailable for nitrazepam (flagged as a Blocking data gap — DG001), and this prevents completion of the initial safety review (S1) stage.*
+حاليًا لا يحمل النيترازيبام أي تصاريح تسويق على الملف (0 رخصة؛ حالة السوق: **غير مسوق**).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملحق الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN prediction score is very high (99.89%), the mechanistic link (GABA-A potentiation → sedation) is direct rather than inferred, and multiple head-to-head RCTs support nitrazepam's hypnotic efficacy against comparator agents — yielding an L2 evidence level. However, the drug is not currently marketed locally, and safety-label data needed for a full S1 review is missing.
+*ملاحظة: بيانات التحذيرات المحلية من TFDA وموانع الاستعمال حاليًا غير متاحة للنيترازيبام (تم وضع علامة على فجوة بيانات حاجزة — DG001)، وهذا يمنع استكمال مراجعة السلامة الأولية (S1).*
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (DG001, Blocking — required before S1 safety review can proceed)
-- Confirmed original indication and regulatory history for nitrazepam locally (currently absent from the data pack)
-- Drug-drug interaction data (current query returned no results)
-- Assessment of controlled-substance/dependence-liability regulatory pathway, given nitrazepam's benzodiazepine class and no existing local marketing authorization
+---
 
-*Note: TxGNN also surfaced acute encephalopathy with biphasic seizures and late reduced diffusion (AESD) and Wernicke-Korsakoff syndrome as lower-ranked pattern matches, but with no supporting trials or literature (L5, Hold) — these are not pursued further here.*
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+درجة التنبؤ بـ TxGNN عالية جدًا (99.89%)، والربط الآلي (تعزيز GABA-A → التخدير) مباشر بدلاً من أن يكون مستدلاً، وتدعم عدة تجارب عشوائية محكومة مباشرة الفعالية المنومة للنيترازيبام مقابل عوامل المقارنة — مما ينتج عن مستوى إثبات L2. ومع ذلك، العقار غير مسوق حاليًا محليًا، وبيانات ملصق السلامة المطلوبة لإكمال مراجعة S1 كاملة مفقودة.
+
+**للمتابعة، المطلوب ما يلي:**
+- تحذيرات وموانع استعمال ملصق TFDA/محلي (DG001، حاجزة — مطلوبة قبل أن تتمكن مراجعة سلامة S1 من المتابعة)
+- تأكيد الدلالة الأصلية والسجل التنظيمي للنيترازيبام محليًا (غير موجود حاليًا في حزم البيانات)
+- بيانات التفاعل الدوائي (الاستعلام الحالي لم يُرجع أي نتائج)
+- تقييم المسار التنظيمي للمواد الخاضعة للرقابة/ذات المسؤولية عن الإدمان، بالنظر إلى فئة النيترازيبام من البنزوديازيبين وعدم وجود تصريح تسويق محلي قائم
+
+*ملاحظة: أظهر TxGNN أيضًا اعتلال الدماغ الحاد مع نوبات ثنائية الطور والانتشار المنخفض المتأخر (AESD) ومتلازمة فيرنيكه-كورساكوف كمطابقات نمط أقل تصنيفًا، لكن بدون تجارب داعمة أو دراسات (L5، انتظار) — لا يتم السعي وراء هذه بشكل إضافي هنا.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

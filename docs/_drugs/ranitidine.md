@@ -29,87 +29,88 @@ indication_count: 10
 
 </div>
 
-# Ranitidine: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+# راني تيدين: من قرحة الجهاز الهضمي إلى قرحة الجهاز الهضمي النشطة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Ranitidine is a classic histamine H2-receptor antagonist, but this evidence pack's original-indication record is incomplete (a data gap, not evidence that no indication exists). The TxGNN model's top prediction, **Active Peptic Ulcer Disease**, is essentially a reaffirmation of ranitidine's own well-established, decades-old use rather than a genuinely novel repurposing target, supported by **1 clinical trial** (indirectly relevant) and **19 publications**, several of which are direct RCTs of ranitidine in ulcer healing.
+راني تيدين هو حاصر كلاسيكي لمستقبلات الهيستامين H2، لكن سجل المؤشر الأصلي في مجموعة الأدلة هذه غير مكتمل (فجوة في البيانات، وليس دليل على عدم وجود مؤشر). التنبؤ الأعلى للنموذج TxGNN، **قرحة الجهاز الهضمي النشطة**، هو في الأساس إعادة تأكيد للاستخدام الراسخ منذ عقود لراني تيدين بدلاً من كونه هدفاً لإعادة استخدام حقيقية وجديدة، مدعوم بـ **تجربة سريرية واحدة** (ذات صلة غير مباشرة) و **19 منشوراً**، عدة منها تجارب عشوائية مباشرة لراني تيدين في شفاء القرحة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Peptic ulcer disease / gastric hypersecretory conditions (record incomplete in this evidence pack — DrugBank original-indication field is a data gap, not an absence of indication) |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | قرحة الجهاز الهضمي / الحالات فرط إفراز الحمض المعدي (السجل غير مكتمل في مجموعة الأدلة هذه — حقل المؤشر الأصلي في DrugBank هو فجوة في البيانات، وليس غياب مؤشر) |
+| المؤشر الجديد المتنبأ به | قرحة الجهاز الهضمي النشطة |
+| درجة التنبؤ TxGNN | 99.89% |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع ضوابط حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for this candidate. Based on known pharmacological information, ranitidine is a first-generation histamine H2-receptor antagonist that competitively blocks histamine-stimulated gastric acid secretion at parietal cells — the same mechanism underlying its historical, well-proven efficacy in duodenal and gastric ulcer healing.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة لهذا المرشح. بناءً على المعلومات الدوائية المعروفة، راني تيدين هو حاصر من الجيل الأول لمستقبلات الهيستامين H2 يحجب بشكل تنافسي إفراز حمض المعدة المحفز بالهيستامين في الخلايا الجدارية — نفس الآلية الكامنة وراء فعاليته التاريخية والمثبتة في شفاء القرحة الاثنا عشرية والمعدية.
 
-The predicted new indication, "active peptic ulcer disease," is not mechanistically distant from ranitidine's original use — it is, in fact, the disease category the drug was originally developed and approved for. The repurposing rationale explicitly notes this is "not a new indication but the original approved use," and that the apparent absence of an original-indication field in this dataset reflects a data-collection gap rather than a true lack of indication.
+المؤشر الجديد المتنبأ به، "قرحة الجهاز الهضمي النشطة"، ليس بعيداً من الناحية الآلية عن الاستخدام الأصلي لراني تيدين — فهو في الواقع فئة المرض التي تم تطوير الدواء والموافقة عليه لأجلها في الأصل. ملخص إعادة الاستخدام يوضح بشكل صريح أن هذا "ليس مؤشراً جديداً بل الاستخدام المعتمد الأصلي"، وأن الغياب الظاهري لحقل المؤشر الأصلي في هذه المجموعة البيانات يعكس فجوة في جمع البيانات بدلاً من غياب حقيقي للمؤشر.
 
-Because the mechanism (acid suppression via H2-receptor blockade) directly and specifically targets the pathophysiology of peptic ulcer disease, the TxGNN score is mechanistically well-grounded — this is less a discovery of a new therapeutic avenue and more a confirmation that the knowledge graph correctly recovered the drug's foundational indication.
+لأن آلية العمل (قمع الحمض عبر حصار مستقبلات H2) تستهدف بشكل مباشر وخاص الفيزيولوجيا المرضية لقرحة الجهاز الهضمي، فإن درجة TxGNN مدعومة بشكل جيد من الناحية الآلية — هذا أقل من كونه اكتشافاً لمسار علاجي جديد وأكثر تأكيداً على أن الرسم البياني للمعرفة قد استرجع بنجاح المؤشر الأساسي للدواء.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Evaluated PPI/statin effects on clopidogrel antiplatelet activity in PCI patients; ranitidine was not the primary study drug — relevance is indirect (H2RA-vs-PPI context only), not direct efficacy evidence for peptic ulcer disease. |
+| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | مكتملة | 320 | قيّمت تأثيرات مثبطات مضخة البروتون والستاتين على النشاط المانع للصفيحات للكلوبيدوجريل لدى مرضى التدخل الإجرائي التاجي؛ راني تيدين لم يكن الدواء الأساسي في الدراسة — الصلة غير مباشرة (في سياق H2RA مقابل PPI فقط)، وليس دليل فعالية مباشر لقرحة الجهاز الهضمي. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | RCT/Review | Scandinavian Journal of Gastroenterology | Ranitidine 300mg/day achieved 4-week healing rates of 91% (duodenal), 68% (prepyloric), 81% (gastric corporeal) ulcers; maintenance therapy reduced relapse vs placebo over 1 year. |
-| [3104657](https://pubmed.ncbi.nlm.nih.gov/3104657/) | 1986 | RCT (comparative) | Klinische Wochenschrift | Compared rioprostil (prostaglandin E1 analogue) vs ranitidine for nocturnal duodenal ulcer healing. |
-| [12749277](https://pubmed.ncbi.nlm.nih.gov/12749277/) | 2003 | Prospective controlled study | Hepato-gastroenterology | Ecabet plus ranitidine vs ranitidine alone for inhibition of peptic ulcer relapse, independent of H. pylori eradication. |
-| [6317325](https://pubmed.ncbi.nlm.nih.gov/6317325/) | 1983 | Drug monograph review | Drug Intelligence & Clinical Pharmacy | Foundational review confirming ranitidine's FDA approval and efficacy for active duodenal ulcer and gastric hypersecretory conditions; 4–10x more potent than cimetidine. |
-| [2905237](https://pubmed.ncbi.nlm.nih.gov/2905237/) | 1988 | Review | Drugs | Reviews the role of prostaglandins and H2-receptor antagonists in peptic ulcer pathophysiology and treatment. |
-| [1976583](https://pubmed.ncbi.nlm.nih.gov/1976583/) | 1990 | Review | Hepato-gastroenterology | Reviews acid suppression as the key mechanism in peptic ulcer healing, referencing H2RA class effects. |
-| [18493408](https://pubmed.ncbi.nlm.nih.gov/18493408/) | 1996 | Prospective study | Diagnostic and Therapeutic Endoscopy | Endoscopic evaluation of active/healed duodenal ulcer status in patients on regular ranitidine 150mg twice daily during Ramadan fasting. |
-| [1348650](https://pubmed.ncbi.nlm.nih.gov/1348650/) | 1992 | Clinical study | The Italian Journal of Gastroenterology | Cirrhotic patients with gastric/duodenal ulcer treated with cimetidine vs ranitidine 300mg/day; 66.2% healed at 6 weeks. |
-| [2858110](https://pubmed.ncbi.nlm.nih.gov/2858110/) | 1985 | Animal mechanistic study | Pharmacology | Compared cimetidine, ranitidine, and mifentidine in gastric/duodenal damage models, supporting H2-antagonism as the protective mechanism. |
-| [8736619](https://pubmed.ncbi.nlm.nih.gov/8736619/) | 1996 | Comparator drug review | Drugs | Review of ebrotidine notes its antisecretory potency is benchmarked directly against ranitidine. |
+| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | تجربة عشوائية / مراجعة | Scandinavian Journal of Gastroenterology | حقّق راني تيدين 300 ملغ/يوم معدلات شفاء لمدة 4 أسابيع بنسبة 91% (اثنا عشرية)، 68% (ما قبل البوّاب)، 81% (معدة المنطقة الجسدية) القرح؛ قلل العلاج الصيانة الانتكاسة مقابل الدواء الوهمي على مدى سنة واحدة. |
+| [3104657](https://pubmed.ncbi.nlm.nih.gov/3104657/) | 1986 | تجربة عشوائية (مقارنة) | Klinische Wochenschrift | قارنت ريوبروستيل (نظير البروستاغلاندين E1) مقابل راني تيدين لشفاء القرحة الاثنا عشرية الليلية. |
+| [12749277](https://pubmed.ncbi.nlm.nih.gov/12749277/) | 2003 | دراسة مراقبة استطلاعية | Hepato-gastroenterology | إيكابيت بالإضافة إلى راني تيدين مقابل راني تيدين وحده لمنع انتكاسة قرحة الجهاز الهضمي، بغض النظر عن استئصال ملتوية هيليكوباكتر. |
+| [6317325](https://pubmed.ncbi.nlm.nih.gov/6317325/) | 1983 | مراجعة أحادية الدواء | Drug Intelligence & Clinical Pharmacy | مراجعة تأسيسية تؤكد موافقة FDA على راني تيدين وفعاليتها لقرحة الاثنا عشرية النشطة وحالات فرط إفراز الحمض المعدي؛ أقوى بـ 4-10 مرات من السيميتيدين. |
+| [2905237](https://pubmed.ncbi.nlm.nih.gov/2905237/) | 1988 | مراجعة | Drugs | تراجع دور البروستاغلاندين وحاصرات مستقبلات الهيستامين H2 في الفيزيولوجيا المرضية ومعالجة قرحة الجهاز الهضمي. |
+| [1976583](https://pubmed.ncbi.nlm.nih.gov/1976583/) | 1990 | مراجعة | Hepato-gastroenterology | تراجع قمع الحمض كآلية رئيسية في شفاء قرحة الجهاز الهضمي، مع الإشارة إلى تأثيرات فئة حاصرات مستقبلات الهيستامين H2. |
+| [18493408](https://pubmed.ncbi.nlm.nih.gov/18493408/) | 1996 | دراسة استطلاعية | Diagnostic and Therapeutic Endoscopy | التقييم بالمنظار لحالة القرحة الاثنا عشرية النشطة/المشفية لدى المرضى على راني تيدين المنتظم 150 ملغ مرتين يومياً أثناء صيام رمضان. |
+| [1348650](https://pubmed.ncbi.nlm.nih.gov/1348650/) | 1992 | دراسة سريرية | The Italian Journal of Gastroenterology | مرضى مصابون بتليف الكبد مع قرحة معدية / اثنا عشرية تم علاجهم بالسيميتيدين مقابل راني تيدين 300 ملغ/يوم؛ شفيت نسبة 66.2% في 6 أسابيع. |
+| [2858110](https://pubmed.ncbi.nlm.nih.gov/2858110/) | 1985 | دراسة آلية حيوانية | Pharmacology | قارنت السيميتيدين وراني تيدين والميفينتيدين في نماذج الضرر المعدي / الاثنا عشري، مما يدعم حصار الهيستامين H2 كآلية الحماية. |
+| [8736619](https://pubmed.ncbi.nlm.nih.gov/8736619/) | 1996 | مراجعة أدوية المقارنة | Drugs | مراجعة إيبروتيدين تلاحظ أن قوة الإفراز المثبطة للمقارنة يتم توازنها مباشرة ضد راني تيدين. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-No marketing authorization records are available — the evidence pack lists 0 licenses and market status "Not Marketed."
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد سجلات الموافقة على التسويق المتاحة — تسرد مجموعة الأدلة 0 تراخيص وحالة السوق "غير مسوّقة".
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-Ranitidine's antisecretory mechanism is well established for peptic ulcer disease, and the literature base (multiple RCTs, decades of monograph-level evidence) strongly supports efficacy. However, because this indication substantially overlaps with the drug's own original use rather than representing a novel target, and because the current dataset lacks the drug's original-indication record and TFDA safety labeling, guardrails are warranted before advancing further.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a **blocking** data gap that prevents entry into the S1 safety pre-assessment stage
-- Confirmed mechanism of action (MOA) data from DrugBank, to formally validate the mechanistic rationale
-- Clarification of the drug's original-indication record, since the current "no original indications" listing appears to be a data-collection artifact rather than a true absence
-- A safety monitoring plan, given the current safety fields (warnings, contraindications, DDI) are all unresolved/not found
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضوابط حماية**
+
+**الأساس المنطقي:**
+آلية العمل المثبطة للإفراز في راني تيدين راسخة بشكل جيد لقرحة الجهاز الهضمي، وقاعدة الأدبيات (تجارب عشوائية متعددة، أدلة مونوغراف لعقود) تدعم بقوة الفعالية. ومع ذلك، لأن هذا المؤشر يتداخل بشكل كبير مع الاستخدام الأصلي للدواء بدلاً من تمثيل هدف جديد، ولأن المجموعة البيانات الحالية تفتقد سجل المؤشر الأصلي للدواء وتسميات السلامة الخاصة بـ TFDA، فإن ضوابط الحماية مضمونة قبل المضي قدماً.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA للحزمة (التحذيرات / موانع الاستعمال) — حالياً **فجوة بيانات حجب** تمنع الدخول إلى مرحلة تقييم سلامة ما قبل S1
+- بيانات آلية العمل (MOA) المؤكدة من DrugBank، للتحقق رسمياً من الأساس المنطقي الآلي
+- توضيح لسجل المؤشر الأصلي للدواء، حيث أن قائمة "لا مؤشرات أصلية" الحالية تبدو أنها نتيجة لفجوة جمع البيانات بدلاً من غياب حقيقي
+- خطة مراقبة السلامة، نظراً لأن جميع حقول السلامة الحالية (التحذيرات، موانع الاستعمال، تفاعلات الأدوية - DDI) كلها غير محددة / لم يتم العثور عليها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
+# الباكليتاكسل: من سرطان المبيض إلى سرطان الثدي عند الإناث
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Paclitaxel is a taxane-class antimicrotubule agent originally approved for ovarian cancer and later extended globally to breast, lung, and other solid tumors — though the drug-level database record for this candidate has a data gap on original indication and MOA. TxGNN predicts continued/expanded effectiveness in **Female Breast Carcinoma**, a prediction already reinforced by **50+ clinical trials** and **20 publications**. Importantly, this is not a genuinely novel repurposing hypothesis: paclitaxel is already a globally approved standard-of-care chemotherapy for breast cancer, so this candidate should be read primarily as a confirmation of known efficacy against a backdrop of missing local (Saudi Arabia) regulatory data.
+الباكليتاكسل عامل مضاد للأنابيب الدقيقة من فئة التاكسان الذي تمت الموافقة عليه في الأصل لسرطان المبيض وتم توسيع نطاقه لاحقاً عالمياً ليشمل سرطان الثدي والرئة والأورام الصلبة الأخرى — مع ملاحظة أن سجل قاعدة البيانات على مستوى الدواء يحتوي على فجوة بيانات بخصوص المؤشر الأصلي والآلية. يتنبأ TxGNN بالفعالية المستمرة/الموسعة في **سرطان الثدي عند الإناث**، وهو تنبؤ تدعمه بالفعل **أكثر من 50 تجربة سريرية** و **20 نشراً علمياً**. والجدير بالملاحظة أن هذا ليس فرضية إعادة توظيف حقيقية جديدة: الباكليتاكسل هو بالفعل علاج كيميائي موحد العناية المعترف به عالمياً والمعتمد لسرطان الثدي، لذا يجب قراءة هذا المرشح بشكل أساسي كتأكيد على الفعالية المعروفة على خلفية بيانات تنظيمية محلية (المملكة العربية السعودية) ناقصة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not recorded in database (Data Gap); publicly known original approval was for ovarian cancer, later extended to breast cancer, NSCLC, and Kaposi's sarcoma |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسجل في قاعدة البيانات (فجوة بيانات)؛ الموافقة الأصلية المعروفة علنياً كانت لسرطان المبيض، وتم توسيع نطاقها لاحقاً إلى سرطان الثدي وسرطان الرئة غير صغير الخلايا وساركوما كابوزي |
+| المؤشر المتنبأ به | سرطان الثدي عند الإناث |
+| درجة تنبؤ TxGNN | 99.995% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع الحماية |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack (original_moa and original_indications are both flagged as Data Gaps). Based on publicly available clinical knowledge, paclitaxel is a taxane-class microtubule-stabilizing agent that binds β-tubulin, blocks microtubule depolymerization, and disrupts mitotic spindle function — arresting rapidly dividing cells (including breast cancer cells) at the G2/M phase and inducing apoptosis. This mechanism is not specific to any single tumor type, which is why taxanes are broadly active across ovarian, breast, lung, and other solid tumors.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حزمة الأدلة هذه (original_moa و original_indications كلاهما معلم كفجوات بيانات). بناءً على المعرفة السريرية المتاحة للعموم، الباكليتاكسل هو عامل من فئة التاكسان المثبت للأنابيب الدقيقة يرتبط بـ β-tubulin، يمنع إزالة تجميع الأنابيب الدقيقة، ويعطل وظيفة المغزل الميتوتي — مما يوقف الخلايا سريعة الانقسام (بما في ذلك خلايا سرطان الثدي) في مرحلة G2/M ويحفز موت الخلايا المبرمج. هذه الآلية ليست خاصة بأي نوع ورم واحد، وهذا هو السبب في أن التاكسانات نشطة على نطاق واسع عبر سرطان المبيض والثدي والرئة والأورام الصلبة الأخرى.
 
-Paclitaxel is already a globally approved, guideline-recommended chemotherapy for breast cancer across all major receptor subtypes (HER2-positive, ER-positive, and triple-negative), commonly used in both neoadjuvant/adjuvant and metastatic settings, often in combination with anthracyclines, platinum agents, or HER2-targeted therapies. Because of this, the TxGNN "prediction" for female breast carcinoma is best interpreted as validating an already-established clinical use rather than surfacing a genuinely new repurposing signal — the model's high confidence score is expected given the depth of existing evidence.
+الباكليتاكسل هو بالفعل علاج كيميائي موحد معتمد عالمياً وموصى به في الإرشادات لسرطان الثدي عبر جميع الفئات الفرعية للمستقبلات (HER2-الإيجابية، ER-الإيجابية، والثلاثي السلبي)، ويستخدم بشكل شائع في كل من الإعدادات المساعدة قبل/بعد الجراحة والمنتشرة، وغالباً بالاشتراك مع الأنثراسيكلينات أو عوامل البلاتين أو العلاجات الموجهة لـ HER2. وبسبب ذلك، فإن تنبؤ TxGNN "بسرطان الثدي عند الإناث" يتم تفسيره بشكل أفضل كتحقق من استخدام سريري معروف بالفعل بدلاً من الكشف عن إشارة إعادة توظيف حقيقية جديدة — درجة الثقة العالية للنموذج متوقعة نظراً لعمق الأدلة الموجودة.
 
-The genuine gap this candidate surfaces is not therapeutic plausibility but administrative: the underlying drug record lacks a documented original indication, MOA, and TFDA-equivalent safety labeling, and the local regulatory record shows the product as not marketed with zero authorizations in Saudi Arabia. Any "repurposing" action here is really a market-registration and safety-documentation exercise rather than an efficacy-validation exercise.
+الفجوة الحقيقية التي يسلط هذا المرشح الضوء عليها ليست براءة اختراع علاجية بل إدارية: السجل الأساسي للدواء يفتقد مؤشر أصلي موثق وآلية عمل وتسمية الأمان المعادلة للـ TFDA، والسجل التنظيمي المحلي يظهر المنتج كغير مسوق مع صفر تراخيص في المملكة العربية السعودية. أي إجراء "إعادة توظيف" هنا هو في الحقيقة تمرين تسجيل سوق وتوثيق سلامة بدلاً من تمرين تحقق من الفعالية.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00016406](https://clinicaltrials.gov/study/NCT00016406) | Phase 3 | Completed | 399 | Doxorubicin/cyclophosphamide followed by weekly paclitaxel ± filgrastim for inflammatory/locally advanced breast cancer — direct adjuvant efficacy evidence |
-| [NCT02413320](https://clinicaltrials.gov/study/NCT02413320) | Phase 2 | Completed | 101 | Neoadjuvant carboplatin+docetaxel vs carboplatin+paclitaxel in Stage I–III triple-negative breast cancer |
-| [NCT00003612](https://clinicaltrials.gov/study/NCT00003612) | Phase 2 | Completed | 92 | Paclitaxel + carboplatin + trastuzumab as first-line therapy in HER2-overexpressing metastatic breast cancer |
-| [NCT00014222](https://clinicaltrials.gov/study/NCT00014222) | Phase 3 | Completed | 2,104 | Large adjuvant intergroup trial comparing sequenced EC+filgrastim+epoetin→paclitaxel vs AC→paclitaxel vs CEF in node-positive/high-risk breast cancer |
-| [NCT00003877](https://clinicaltrials.gov/study/NCT00003877) | Phase 1/2 | Completed | 30 | Stromagen-supported stem cell transplantation after high-dose chemotherapy in metastatic breast cancer |
-| [NCT01705691](https://clinicaltrials.gov/study/NCT01705691) | Phase 2 | Completed | 50 | Weekly paclitaxel or eribulin followed by AC as neoadjuvant therapy in HER2-negative locally advanced breast cancer |
-| [NCT01307891](https://clinicaltrials.gov/study/NCT01307891) | Phase 2 | Completed | 64 | Abraxane ± tigatuzumab in metastatic triple-negative breast cancer |
-| [NCT00044525](https://clinicaltrials.gov/study/NCT00044525) | Phase 2 | Completed | 82 | Efficacy/safety of IV BAY59-8862 in taxane-resistant metastatic breast cancer |
-| [NCT00005649](https://clinicaltrials.gov/study/NCT00005649) | Phase 2 | Completed | N/A | Capecitabine + standard paclitaxel as first/second-line therapy in metastatic breast carcinoma |
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Phase 2 | Completed | 200 | Paclitaxel-trastuzumab adjuvant therapy for HER2-overexpressing Stage II/IIIA breast cancer |
+| [NCT00016406](https://clinicaltrials.gov/study/NCT00016406) | مرحلة 3 | مكتملة | 399 | الدوكسوروبيسين/سيكلوفوسفاميد متبوعة بـ الباكليتاكسل الأسبوعي ± الفيلجراستيم لسرطان الثدي الالتهابي/المتقدم موضعياً — دليل فعالية مساعدة مباشر |
+| [NCT02413320](https://clinicaltrials.gov/study/NCT02413320) | مرحلة 2 | مكتملة | 101 | الكاربوبلاتين+الدوسيتاكسل مقابل الكاربوبلاتين+الباكليتاكسل قبل الجراحة في سرطان الثدي الثلاثي السلبي من المرحلة I–III |
+| [NCT00003612](https://clinicaltrials.gov/study/NCT00003612) | مرحلة 2 | مكتملة | 92 | الباكليتاكسل + الكاربوبلاتين + التراستوزوماب كعلاج خطي أول في سرطان الثدي المنتشر الزائد HER2 |
+| [NCT00014222](https://clinicaltrials.gov/study/NCT00014222) | مرحلة 3 | مكتملة | 2,104 | تجربة تعاون كبيرة مساعدة تقارن EC+الفيلجراستيم+الإيبويتين متسلسل→الباكليتاكسل مقابل AC→الباكليتاكسل مقابل CEF في سرطان الثدي إيجابي العقدة/عالي الخطورة |
+| [NCT00003877](https://clinicaltrials.gov/study/NCT00003877) | مرحلة 1/2 | مكتملة | 30 | زراعة الخلايا الجذعية المدعومة بـ Stromagen بعد العلاج الكيميائي عالي الجرعة في سرطان الثدي المنتشر |
+| [NCT01705691](https://clinicaltrials.gov/study/NCT01705691) | مرحلة 2 | مكتملة | 50 | الباكليتاكسل الأسبوعي أو الإريبولين متبوعة بـ AC كعلاج ما قبل الجراحة في سرطان الثدي المتقدم موضعياً السلبي HER2 |
+| [NCT01307891](https://clinicaltrials.gov/study/NCT01307891) | مرحلة 2 | مكتملة | 64 | Abraxane ± التيجاتوزوماب في سرطان الثدي الثلاثي السلبي المنتشر |
+| [NCT00044525](https://clinicaltrials.gov/study/NCT00044525) | مرحلة 2 | مكتملة | 82 | الكفاءة/السلامة لـ IV BAY59-8862 في سرطان الثدي المنتشر المقاوم للتاكسان |
+| [NCT00005649](https://clinicaltrials.gov/study/NCT00005649) | مرحلة 2 | مكتملة | N/A | الكابيسيتابين + الباكليتاكسل القياسي كعلاج خطي أول/ثاني في سرطان الثدي المنتشر |
+| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | مرحلة 2 | مكتملة | 200 | العلاج المساعد بـ الباكليتاكسل-التراستوزوماب لسرطان الثدي من المرحلة II/IIIA الزائد HER2 |
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Review | Biomolecules | Comprehensive review of paclitaxel's mechanistic and clinical effects on breast cancer, including resistance mechanisms |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug and Therapeutics Bulletin | Early review establishing paclitaxel's approved role in metastatic breast and ovarian cancer |
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Cohort | Cancer | Phase II trial of doxorubicin + paclitaxel in advanced breast carcinoma; importance of prior anthracycline exposure |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Cohort | BioMed Research International | Real-world efficacy of neoadjuvant EC + weekly paclitaxel-trastuzumab in HER2-positive breast carcinoma |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Pending | Chemical Biology & Drug Design | Therapeutic potential of paclitaxel combinations against breast carcinoma with in vivo biomarker identification |
-| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | Pending | J Immunother Cancer | Paclitaxel's effect on tumor-associated macrophages enhancing PD-1 blockade in TNBC |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Pending | Nature Communications | TEKT4 germline variants enriched in paclitaxel-resistant breast tumors |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | Pending | Molecular Pharmacology | Reversal of stathmin-mediated resistance to paclitaxel in breast carcinoma cells |
-| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Pending | Cancer | Paclitaxel in multimodality treatment of inflammatory breast carcinoma |
-| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | Pending | Cancer | GONO randomized trial: concomitant vs sequential epirubicin and paclitaxel as first-line therapy in metastatic breast carcinoma |
+| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | مراجعة | Biomolecules | مراجعة شاملة لتأثيرات الباكليتاكسل الآلية والسريرية على سرطان الثدي، بما فيها آليات المقاومة |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | مراجعة | Drug and Therapeutics Bulletin | مراجعة مبكرة تؤسس الدور المعتمد للباكليتاكسل في سرطان الثدي والمبيض المنتشر |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | دراسة المجموعة | Cancer | تجربة من المرحلة الثانية للدوكسوروبيسين + الباكليتاكسل في سرطان الثدي المتقدم؛ أهمية التعرض السابق للأنثراسيكلينات |
+| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | دراسة المجموعة | BioMed Research International | الفعالية الواقعية للـ EC المساعدة ما قبل الجراحة + الباكليتاكسل الأسبوعي-التراستوزوماب في سرطان الثدي الإيجابي HER2 |
+| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | قيد الانتظار | Chemical Biology & Drug Design | الإمكانية العلاجية لمركبات الباكليتاكسل ضد سرطان الثدي مع تحديد المؤشرات الحيوية في الجسم الحي |
+| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | قيد الانتظار | J Immunother Cancer | تأثير الباكليتاكسل على الضائقة المرتبطة بالورم لتعزيز حصار PD-1 في TNBC |
+| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | قيد الانتظار | Nature Communications | متغيرات TEKT4 الجرثومية المثراة في أورام الثدي المقاومة للباكليتاكسل |
+| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | قيد الانتظار | Molecular Pharmacology | عكس مقاومة ستاثمين الوسيطة للباكليتاكسل في خلايا سرطان الثدي |
+| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | قيد الانتظار | Cancer | الباكليتاكسل في العلاج متعدد الأشكال لسرطان الثدي الالتهابي |
+| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | قيد الانتظار | Cancer | تجربة GONO العشوائية: الإبيروبيسين والباكليتاكسل المتزامن مقابل التسلسلي كعلاج خطي أول في سرطان الثدي المنتشر |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Paclitaxel is currently **not marketed** in Saudi Arabia per this dataset, with **0 registered authorizations** and no license records available. No marketing authorization table can be produced from the source data.
+الباكليتاكسل حالياً **غير مسوق** في المملكة العربية السعودية وفقاً لهذه البيانات، مع **0 ترخيص مسجل** وعدم توفر أي سجلات ترخيص. لا يمكن إنتاج جدول تصريح التسويق من البيانات المصدرية.
 
-## Cytotoxicity
+## السمية الخلوية
 
-Paclitaxel is a conventional cytotoxic chemotherapy agent (taxane class), so this section applies.
+الباكليتاكسل هو عامل علاج كيميائي سام خلوي تقليدي (فئة التاكسان)، لذا ينطبق هذا القسم.
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (taxane class — microtubule-stabilizing agent) |
-| Myelosuppression Risk | High — neutropenia, including febrile neutropenia, is the characteristic dose-limiting toxicity of taxanes |
-| Emetogenicity Classification | Low to Moderate |
-| Monitoring Items | CBC with differential (neutrophil count), liver function, hypersensitivity reaction monitoring during infusion, peripheral neuropathy assessment |
-| Handling Protection | Must follow institutional cytotoxic drug handling and administration protocols, including premedication for hypersensitivity reactions |
+| تصنيف السمية الخلوية | سام خلوي تقليدي (فئة التاكسان — عامل مثبت الأنابيب الدقيقة) |
+| خطر قلة الكريات البيضاء | عالي — قلة العدلات، بما فيها قلة العدلات مع الحمى، هي السمية المحددة للجرعة المميزة للتاكسانات |
+| تصنيف الغثيان | منخفض إلى معتدل |
+| عناصر المراقبة | عدد الدم الكامل مع التفريق (عدد العدلات)، وظائف الكبد، مراقبة تفاعل فرط الحساسية أثناء التسريب، تقييم الاعتلال العصبي المحيطي |
+| حماية المناولة | يجب اتباع بروتوكولات المؤسسة للتعامل والإعطاء الآمن للأدوية السامة للخلايا، بما فيها الأدوية المسبقة لتفاعلات فرط الحساسية |
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. This evidence pack has no drug interaction data (query returned "not_found") and no key warnings or contraindications on file — this is flagged as a **Blocking** data gap (DG001) that prevents completion of the S1 safety pre-assessment.
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات السلامة. حزمة الأدلة هذه لا تحتوي على بيانات تفاعل الدواء (الاستعلام أعاد "not_found") وليس لديها تحذيرات رئيسية أو موانع استخدام في الملف — يتم تحديد هذا كفجوة بيانات **حاجزة** (DG001) تمنع إتمام تقييم السلامة المسبق S1.
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الحماية**
 
-**Rationale:**
-The mechanistic and clinical trial/literature base for paclitaxel in breast carcinoma is extensive and well established (L1 evidence), but this reflects existing standard-of-care use rather than a novel repurposing signal. The binding constraint is not efficacy but missing local regulatory and safety documentation (Saudi Arabia: not marketed, 0 authorizations) and a Blocking-severity gap on TFDA-equivalent warnings/contraindications.
+**المنطق:**
+القاعدة الآلية والمرجعية للتجارب السريرية/الأدبيات للباكليتاكسل في سرطان الثدي شاملة وراسخة جيداً (دليل L1)، لكن هذا يعكس استخدام موحد معروف للعناية بدلاً من إشارة إعادة توظيف حقيقية جديدة. الحد الملزم ليس الفعالية بل التوثيق التنظيمي والسلامة المحلي الناقص (المملكة العربية السعودية: غير مسوق، 0 ترخيص) وفجوة ذات شدة حاجزة في التحذيرات/موانع الاستخدام المعادلة للـ TFDA.
 
-**To proceed, the following is needed:**
-- TFDA (or Saudi SFDA) package insert with warnings/contraindications (DG001, Blocking — required before S1 safety pre-assessment can proceed)
-- Confirmed drug-level MOA and original indication documentation (DG002)
-- Local drug interaction (DDI) data, currently unqueried/not found
-- Confirmation of Saudi Arabia market/registration pathway, given the current "not marketed / 0 licenses" status appears inconsistent with paclitaxel's global availability and warrants verification
+**لكي نتابع، يلزم ما يلي:**
+- نشرة TFDA (أو SFDA السعودية) مع التحذيرات/موانع الاستخدام (DG001، حاجزة — مطلوبة قبل أن يتمكن تقييم السلامة المسبق S1 من المتابعة)
+- توثيق الآلية والمؤشر الأصلي الموثق على مستوى الدواء (DG002)
+- بيانات التفاعل المحلي بين الأدوية (DDI)، حالياً غير مستعلن عنها/غير موجودة
+- تأكيد مسار السوق/التسجيل في المملكة العربية السعودية، بالنظر إلى أن حالة "غير مسوق / 0 ترخيص" الحالية تبدو غير متسقة مع توفر الباكليتاكسل العالمي وتستحق التحقق
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

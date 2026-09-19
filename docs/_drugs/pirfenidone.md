@@ -29,69 +29,70 @@ indication_count: 10
 
 </div>
 
-# Pirfenidone: From Idiopathic Pulmonary Fibrosis to Fibroblastic Neoplasm
+# بيرفينيدون: من التليف الرئوي مجهول السبب إلى الورم الليفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Pirfenidone is an antifibrotic agent generally known for treating idiopathic pulmonary fibrosis (IPF) by inhibiting TGF-β1-driven fibroblast proliferation and collagen synthesis — though this evidence pack itself has a data gap for the drug's original indication and MOA. TxGNN's top 10 predictions for this drug are dominated by fibrous- and mast-cell-tumor names, but only **fibroblastic neoplasm** (rank 9) has any supporting literature — **6 publications, 0 clinical trials** — and that literature includes two case reports of sarcoma/dermatofibroma worsening after pirfenidone exposure. The other 9 top-ranked predictions, including the #1-scored "extracutaneous mastocytoma," have **zero** clinical trials or publications and are explicitly flagged in the evidence pack as likely knowledge-graph noise.
+بيرفينيدون هو عامل مضاد للتليف يُعرّف عموماً بمعالجة التليف الرئوي مجهول السبب (IPF) من خلال منع تكاثر الخلايا الليفية المدفوع بـ TGF-β1 وتخليق الكولاجين — على الرغم من أن هذه مجموعة الأدلة نفسها تعاني من فجوة بيانات بشأن المؤشر الأصلي للعقار وآلية عمله. توقعات TxGNN الـ 10 الأفضل للعقار يهيمن عليها أسماء الأورام الليفية والبدينة، لكن فقط **الورم الليفي** (المرتبة 9) يحتوي على أي أدلة داعمة — **6 منشورات، 0 تجارب سريرية** — والأدب الداعم يتضمن تقريري حالات لساركوما/ورم ليفي جلدي تفاقمت بعد التعرض لبيرفينيدون. التنبؤات الـ 9 الأخرى ذات الترتيب الأعلى، بما فيها "الورم البدين خارج الجلد" الحاصل على درجة "#1"، لها **صفر** تجارب سريرية أو منشورات وتم تجميعها صراحة في مجموعة الأدلة على أنها من المرجح أن تكون ضوضاء متعلقة بالرسم البياني المعرفي.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (data gap). Commonly known (external knowledge, not from this pack): idiopathic pulmonary fibrosis (IPF) |
-| Predicted New Indication | Fibroblastic neoplasm *(rank 9/10 — see note below on selection)* |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L4 (preclinical / mechanistic studies only) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متوفر في مجموعة الأدلة (فجوة بيانات). المعروف عموماً (المعرفة الخارجية، ليس من هذه المجموعة): التليف الرئوي مجهول السبب (IPF) |
+| المؤشر الجديد المتنبأ به | الورم الليفي *(المرتبة 9/10 — انظر الملاحظة أدناه حول الاختيار)* |
+| درجة توقع TxGNN | 99.23% |
+| مستوى الأدلة | L4 (دراسات سابقة للسريرية/ميكانيكية فقط) |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
-**Note on prediction selection:** The evidence pack's own top-ranked hit (extracutaneous mastocytoma, score 99.71%) has zero trials, zero publications, and its own mechanistic-rationale field states it is "judged to be knowledge-graph noise." Presenting it as the headline finding would misrepresent the evidence. Fibroblastic neoplasm is the only one of the 10 predictions with any literature support, so it is used here as the substantive candidate; all other predictions are summarized separately below.
+**ملاحظة حول اختيار التنبؤ:** أفضل موقع حاصل على ترتيب عالي في مجموعة الأدلة (الورم البدين خارج الجلد، درجة 99.71%) لا يحتوي على صفر تجارب، وصفر منشورات، وحقله الخاص بالمبرر الميكانيكي ينص على أنه "يُحكم عليه بأنه ضوضاء متعلقة بالرسم البياني المعرفي." تقديمه كأفضل اكتشاف قد يسيء تمثيل الأدلة. الورم الليفي هو الوحيد من بين التنبؤات الـ 10 الذي يحتوي على أي دعم أدبي، لذا يتم استخدامه هنا كمرشح موضوعي؛ تم تلخيص جميع التنبؤات الأخرى بشكل منفصل أدناه.
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed DrugBank mechanism-of-action data is not available in this evidence pack (data gap). Based on the literature retrieved for this drug, pirfenidone is described as inhibiting TGF-β1, PDGF, and EGF/FGF-driven fibroblast proliferation and collagen synthesis — the mechanism underlying its established antifibrotic use. TxGNN's prediction cluster (fibrosarcoma variants, dermatofibrosarcoma protuberans, fibroblastic neoplasm) plausibly reflects this same TGF-β/fibroblast-proliferation signal in the knowledge graph, since these entities are all fibroblast-lineage.
+بيانات آلية العمل التفصيلية من DrugBank غير متوفرة في مجموعة الأدلة هذه (فجوة بيانات). بناءً على الأدب المسترجع لهذا العقار، يُوصف بيرفينيدون بأنه يثبط تكاثر الخلايا الليفية المدفوع بـ TGF-β1 و PDGF و EGF/FGF وتخليق الكولاجين — الآلية الكامنة وراء استخدامه المضاد للتليف المعروف. تعكس مجموعة التنبؤات الخاصة بـ TxGNN (متغيرات الساركوما الليفية، الورم الليفومي الجلدي الناتئ، الورم الليفي) بشكل معقول هذا النفس إشارة TGF-β/تكاثر الخلايا الليفية في الرسم البياني المعرفي، لأن جميع هذه الكيانات من نسب الخلايا الليفية.
 
-The mechanistic plausibility is real but narrow: it applies best to **benign fibroproliferative disease** (e.g., Dupuytren's contracture, where in vitro studies below show PFD blocking TGF-β1-mediated myofibroblast activity), not to **neoplastic/malignant fibrous tumors**. Extrapolating an anti-proliferative mechanism from benign fibrosis to cancer is not automatically valid — malignant transformation involves additional oncogenic drivers that a TGF-β-inhibition mechanism does not obviously address, and as the safety literature below shows, the opposite effect (tumor emergence/aggravation) has been observed clinically.
+الاعتبار الميكانيكي واقعي لكن ضيق: ينطبق بشكل أفضل على **الأمراض الليفية الحميدة** (على سبيل المثال، انقباض Dupuytren، حيث تظهر الدراسات في الجسم الحي أدناه أن PFD يمنع نشاط الخلايا الليفية العضلية الوسيطة المدفوع بـ TGF-β1)، وليس على **الأورام الليفية الخبيثة/الخبيثة**. استقراء آلية مضادة للتكاثر من التليف الحميد إلى السرطان ليست تلقائياً صحيحة — التحول الخبيث ينطوي على عوامل ممرضة إضافية لا تعالجها آلية منع TGF-β بشكل واضح، وكما توضح أدبيات السلامة أدناه، تم ملاحظة التأثير المعاكس (ظهور الورم/تفاقمه) سريرياً.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12907346](https://pubmed.ncbi.nlm.nih.gov/12907346/) | 2003 | Pilot study (desmoid tumor; drug identity as pirfenidone needs verification) | Am J Gastroenterol | Pilot evaluation of pirfenidone in desmoid tumors (FAP patients); described as blocking TGF-β1, PDGF, EGF, FGF signaling |
-| [27835939](https://pubmed.ncbi.nlm.nih.gov/27835939/) | 2016 | In vitro | BMC Musculoskelet Disord | Pirfenidone inhibits TGF-β1-mediated myofibroblast activity in Dupuytren's disease-derived fibroblasts |
-| [30927912](https://pubmed.ncbi.nlm.nih.gov/30927912/) | 2019 | In vitro (mechanistic) | BMC Musculoskelet Disord | Pirfenidone affects TGF-β1-stimulated non-SMAD signaling in Dupuytren's disease fibroblasts |
-| [35129055](https://pubmed.ncbi.nlm.nih.gov/35129055/) | 2022 | Preclinical/translational | Pharm Dev Technol | Local injectable pirfenidone delivery proposed to prevent Dupuytren's nodule-to-cord progression |
-| [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/) | 2018 | Case report — **adverse safety signal** | The Permanente Journal | Undifferentiated pleomorphic sarcoma diagnosed after pirfenidone use for IPF |
-| [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/) | 2020 | Case report — **adverse safety signal** | Rheumatology (Oxford) | Multiple eruptive dermatofibromas aggravated by mycophenolate mofetil + pirfenidone in systemic sclerosis |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [12907346](https://pubmed.ncbi.nlm.nih.gov/12907346/) | 2003 | دراسة تجريبية (ورم desmoid؛ هوية العقار كبيرفينيدون تحتاج إلى التحقق) | Am J Gastroenterol | تقييم تجريبي للبيرفينيدون في أورام desmoid (مرضى FAP)؛ وصف بأنه يمنع إشارات TGF-β1 و PDGF و EGF و FGF |
+| [27835939](https://pubmed.ncbi.nlm.nih.gov/27835939/) | 2016 | في الجسم الحي | BMC Musculoskelet Disord | يثبط البيرفينيدون نشاط الخلايا الليفية العضلية الوسيطة الوسيطة بـ TGF-β1 في الخلايا الليفية لمرض Dupuytren |
+| [30927912](https://pubmed.ncbi.nlm.nih.gov/30927912/) | 2019 | في الجسم الحي (ميكانيكية) | BMC Musculoskelet Disord | يؤثر البيرفينيدون على إشارات SMAD غير المحتوية على TGF-β1 المحفزة في الخلايا الليفية لمرض Dupuytren |
+| [35129055](https://pubmed.ncbi.nlm.nih.gov/35129055/) | 2022 | سابق للسريرية/انتقالي | Pharm Dev Technol | تقترح إعطاء البيرفينيدون القابل للحقن الموضعي لمنع تقدم عقدة Dupuytren إلى حبل |
+| [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/) | 2018 | تقرير حالة — **إشارة سلامة سلبية** | The Permanente Journal | تم تشخيص الساركوما متعددة الأشكال غير المتمايزة بعد استخدام البيرفينيدون لـ IPF |
+| [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/) | 2020 | تقرير حالة — **إشارة سلامة سلبية** | Rheumatology (Oxford) | أورام جلدية ليفية متعددة الانفجار تفاقمت بسبب ميكوفينولات موفيتيل + بيرفينيدون في تصلب الجلد الجهازي |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Pirfenidone has **no registered authorizations** and is **not marketed** in Saudi Arabia per this evidence pack (0 licenses).
+بيرفينيدون لديه **لا توجد تفويضات مسجلة** و**غير مسوق** في المملكة العربية السعودية وفقاً لمجموعة الأدلة هذه (0 تراخيص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-- **Formal safety data (warnings, contraindications, DDI):** not available in this evidence pack — TFDA/manufacturer package insert has not been retrieved (flagged as a Blocking data gap, DG001). Please refer to the package insert for safety information.
-- **Literature-derived safety signal (not from the formal safety fields, but material to this indication):** two case reports directly relevant to the fibroblastic-neoplasm hypothesis describe (1) an undifferentiated pleomorphic sarcoma diagnosed after pirfenidone treatment, and (2) worsening of existing dermatofibromas under pirfenidone co-therapy. Both run counter to the repurposing rationale and should be treated as a safety concern, not just an evidence gap.
+- **بيانات السلامة الرسمية (التحذيرات والمخالفات والتفاعلات الدوائية):** غير متوفرة في مجموعة الأدلة هذه — لم يتم استرجاع نشرة الشركة المصنعة/TFDA (تم تجميعها كفجوة بيانات حجب، DG001). يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+- **إشارة السلامة المشتقة من الأدب (وليس من حقول السلامة الرسمية، لكن مادية لهذا المؤشر):** يصف تقريرا الحالات ذات الصلة المباشرة بفرضية الورم الليفي (1) ساركوما متعددة الأشكال غير متمايزة تم تشخيصها بعد علاج البيرفينيدون، و (2) تفاقم الأورام الجلدية الليفية الموجودة مسبقاً تحت العلاج المشترك للبيرفينيدون. كلاهما يتعارض مع مبرر إعادة الاستخدام ويجب اعتباره مصدر قلق بشأن السلامة، وليس مجرد فجوة بيانات.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-No clinical trial evidence exists for any of the 10 TxGNN-predicted indications. The single indication with any literature support (fibroblastic neoplasm) is backed only by in vitro/preclinical mechanistic studies (L4) plus two case reports describing tumor emergence or aggravation after pirfenidone exposure — evidence that argues against, not for, pursuing this indication. The remaining 9 predictions, including the top-ranked score, have no clinical or literature evidence at all and are assessed as likely graph artifacts.
+**المبرر:**
+لا توجد أدلة من التجارب السريرية لأي من التنبؤات الـ 10 الخاصة بـ TxGNN. المؤشر الوحيد الذي يحتوي على أي دعم أدبي (الورم الليفي) يدعمه فقط دراسات ميكانيكية في الجسم الحي/سابقة للسريرية (L4) بالإضافة إلى تقريري حالات يصفان ظهور الورم أو تفاقمه بعد التعرض للبيرفينيدون — أدلة تدحض، وليس تؤيد، متابعة هذا المؤشر. التنبؤات الـ 9 المتبقية، بما في ذلك أعلى درجة مرتبة، لا توجد بها أي أدلة سريرية أو أدبية على الإطلاق وتم تقييمها على أنها من المرجح أن تكون قطع أثرية للرسم البياني.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed DrugBank mechanism-of-action data (DG002)
-- Verification that the 2003 desmoid-tumor pilot study used pirfenidone (brand "Deskar") and not a related compound
-- If this indication is still considered, a dedicated preclinical tumor-model study addressing the sarcoma/dermatofibroma-aggravation signal before any clinical exploration
-- Independent mechanistic review of the 9 evidence-free predictions before treating any of them as viable leads
+**للمتابعة، فإن ما يلي مطلوب:**
+- نشرة TFDA/الشركة المصنعة (التحذيرات والمخالفات) — حالياً فجوة حجب (DG001)
+- بيانات آلية عمل DrugBank المؤكدة (DG002)
+- التحقق من أن دراسة الورم desmoid التجريبية عام 2003 استخدمت بيرفينيدون (ماركة "Deskar") وليس مركباً ذا صلة
+- إذا كان يتم النظر في هذا المؤشر، دراسة نموذج ورم سابقة للسريرية مخصصة تعالج إشارة تفاقم الساركوما/الورم الجلدي الليفي قبل أي استكشاف سريري
+- مراجعة ميكانيكية مستقلة لـ 9 توقعات خالية من الأدلة قبل معاملة أي منها كفرصة قابلة للحياة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

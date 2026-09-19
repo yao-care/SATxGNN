@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Olopatadine: From Allergic Conjunctivitis to Rosacea Conjunctivitis
+# Olopatadine: من التهاب الملتحمة التحسسي إلى التهاب الملتحمة الوردي
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-> Olopatadine is an H1-antihistamine with mast cell-stabilizing activity, currently indicated for allergic conjunctivitis.
-> The TxGNN model predicts it may be effective for **Rosacea Conjunctivitis (ocular rosacea)**, with a prediction score of **99.41%**,
-> but currently **no clinical trials** and **no publications** support this specific indication — the prediction rests on mechanistic plausibility alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Allergic conjunctivitis |
-| Predicted New Indication | Rosacea Conjunctivitis |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Olopatadine هو مضاد مستقبلات الهستامين H1 بنشاط مثبت للخلايا البدينة، مُشار حالياً لعلاج التهاب الملتحمة التحسسي.
+> يتنبأ نموذج TxGNN أنه قد يكون فعالاً لـ **التهاب الملتحمة الوردي (الوردية العينية)** بنقاط تنبؤ **99.41%**،
+> لكن حالياً **لا توجد تجارب سريرية** و**لا توجد منشورات** تدعم هذا الاستطباب المحدد — يستند التنبؤ على المعقولية الآلية وحدها.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data from DrugBank is not currently available for this candidate. Based on known pharmacology, olopatadine is an H1 histamine receptor antagonist with additional mast cell-stabilizing activity, and its efficacy in allergic conjunctivitis is well established and clinically proven.
-
-Rosacea conjunctivitis (ocular rosacea) frequently involves conjunctival and eyelid margin inflammation with a component of mast cell activation, which overlaps conceptually with olopatadine's anti-allergic/anti-inflammatory mechanism — this overlap plausibly explains the high TxGNN score (0.994).
-
-However, the core pathology of rosacea (meibomian/sebaceous gland dysfunction, *Demodex* involvement, vascular abnormality, and inflammatory mediators such as MMPs and cathelicidin) differs fundamentally from the IgE-mediated hypersensitivity that olopatadine targets. The mechanistic link is therefore indirect and inferential rather than a direct pharmacological correspondence, and should be treated as a hypothesis-generating signal rather than established rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|-------|
+| الاستطباب الأصلي | التهاب الملتحمة التحسسي |
+| الاستطباب الجديد المتنبأ به | التهاب الملتحمة الوردي |
+| درجة التنبؤ من TxGNN | 99.41% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التخويلات | 0 |
+| القرار الموصى به | معلق |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية من DrugBank غير متوفرة حالياً لهذا المرشح. بناءً على الخصائص الصيدلانية المعروفة، olopatadine هو مضاد مستقبلات الهستامين H1 بنشاط إضافي مثبت للخلايا البدينة، وثبتت فعاليته في التهاب الملتحمة التحسسي بشكل جيد وأثبتت سريرياً.
 
----
+التهاب الملتحمة الوردي (الوردية العينية) كثيراً ما ينطوي على التهاب الملتحمة وهامش الجفن مع مكون من تفعيل الخلايا البدينة، وهذا يتداخل مفاهيمياً مع آلية olopatadine المضادة للتحسس/المضادة للالتهاب — يشرح هذا التداخل بشكل معقول درجة TxGNN العالية (0.994).
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+غير أن علم الأمراض الأساسي للوردية (خلل الغدد الميبومية/الدهنية، تضمن *Demodex*، الشذوذ الوعائي، والوسطاء الالتهابية مثل MMPs و cathelicidin) يختلف بشكل أساسي عن فرط الحساسية الوسيط IgE الذي يستهدفه olopatadine. الرابط الآلي بالتالي غير مباشر واستدلالي بدلاً من المراسلة الصيدلانية المباشرة، ويجب أن يُعامل كإشارة توليد فرضية بدلاً من المنطق المثبت.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-The TxGNN score is high, but the prediction is unsupported by any clinical trial or literature evidence (Evidence Level L5), the drug is not marketed in Saudi Arabia, and both mechanism-of-action and safety/labeling data are currently gaps — this combination does not meet the bar to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism-of-action data from DrugBank or primary literature
-- Targeted literature/trial search specifically for olopatadine in ocular rosacea or rosacea-associated conjunctivitis (current searches returned zero hits)
-- Re-evaluation of Saudi Arabia market/registration pathway given current "not marketed" status
+## دليل الأدبيات
+
+حالياً لا توجد أدبيات ذات صلة متوفرة.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: معلق**
+
+**المنطق:**
+درجة TxGNN عالية، لكن التنبؤ غير مدعوم بأي تجربة سريرية أو دليل أدبي (مستوى الدليل L5)، الدواء غير مسوق في المملكة العربية السعودية، وكلاً من بيانات آلية العمل وبيانات السلامة/الوسم تُشكل فجوات حالياً — هذا المزيج لا يفي بمعايير التقدم بعد الفحص الأولي.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات من TFDA/الشركة المصنعة (التحذيرات والموانع) — حالياً فجوة بيانات حاجزة
+- تأكيد بيانات آلية العمل من DrugBank أو الأدبيات الأساسية
+- بحث أدبي/تجريبي موجه بشكل خاص عن olopatadine في الوردية العينية أو التهاب الملتحمة المرتبط بالوردية (عادت البحوث الحالية بدون نتائج)
+- إعادة تقييم مسار التسوق/التسجيل في المملكة العربية السعودية بالنظر إلى حالة "غير مسوق" الحالية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,85 +29,86 @@ indication_count: 3
 
 </div>
 
-# Nintedanib: From Unspecified Original Indication to Dermatofibrosarcoma Protuberans
+# نينتيدانيب: من دلالة أصلية غير محددة إلى ساركوما الأرومات الليفية الجلدية الناتئة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nintedanib's original approved indication and mechanism of action are not recorded in this evidence pack, and the drug is not currently marketed in Saudi Arabia (0 licenses on file). The TxGNN model predicts potential efficacy in **Dermatofibrosarcoma Protuberans (DFSP)**, but this is currently supported only by an indirect, class-level mechanism review — **0 clinical trials** and **1 publication** (not disease-specific).
+لا يتم تسجيل الدلالة الموافقة عليها في الأصل وآلية العمل لنينتيدانيب في هذه حزمة الأدلة، والعقار غير مسوق حالياً في المملكة العربية السعودية (0 تراخيص في الملف). يتنبأ نموذج TxGNN بفعالية محتملة في **ساركوما الأرومات الليفية الجلدية الناتئة (DFSP)**، لكن هذا مدعوم حالياً فقط بمراجعة غير مباشرة لآلية العمل على مستوى الفئة — **0 تجارب سريرية** و**1 منشور** (غير محدد للمرض).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available — no SFDA/KSA market license or indication text on file |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير متوفرة — لا توجد ترخيصة سوق SFDA/KSA أو نص الدلالة في الملف |
+| الدلالة الجديدة المتنبأ بها | ساركوما الأرومات الليفية الجلدية الناتئة |
+| درجة التنبؤ في TxGNN | 99.15% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for nintedanib is not available at the drug level in this evidence pack (data gap DG002). However, the model's own repurposing rationale identifies nintedanib as a **triple angiokinase inhibitor**, blocking VEGFR1-3, FGFR1-3, and PDGFR-α/β.
+بيانات آلية العمل التفصيلية لنينتيدانيب غير متوفرة على مستوى العقار في هذه حزمة الأدلة (فجوة البيانات DG002). ومع ذلك، فإن مبرر إعادة توجيه النموذج يحدد نينتيدانيب كـ **مثبط ثلاثي للأنجيوكيناز**، يحجب VEGFR1-3 و FGFR1-3 و PDGFR-α/β.
 
-DFSP is driven by the COL1A1-PDGFB fusion gene, resulting in constitutive PDGFR-β activation. Because nintedanib inhibits PDGFR-β, it shares a mechanistic target with imatinib — the current standard of care for DFSP, which also acts on PDGFR. This overlap is the basis for the TxGNN association.
+يتم تشغيل DFSP بواسطة جين الاندماج COL1A1-PDGFB، مما يؤدي إلى تنشيط PDGFR-β المستمر. نظراً لأن نينتيدانيب يثبط PDGFR-β، فإنه يتشارك هدفاً آلياً مع imatinib — العلاج المعياري الحالي لـ DFSP، والذي يعمل أيضاً على PDGFR. هذا التداخل هو أساس ارتباط TxGNN.
 
-That said, the supporting literature is a general pharmacology review of PDGFR-inhibitor drug class (not specific to nintedanib or DFSP), and no case reports, preclinical models, or trials directly test nintedanib in DFSP. The mechanistic plausibility is real, but the evidence remains indirect.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن الأدبيات الداعمة عبارة عن مراجعة صيدلة عامة لفئة عقاقير مثبطات PDGFR (وليست محددة لنينتيدانيب أو DFSP)، ولا توجد تقارير حالات أو نماذج ما قبل إكلينيكية أو تجارب تختبر مباشرة نينتيدانيب في DFSP. إن المعقولية الآلية حقيقية، لكن الأدلة تبقى غير مباشرة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors across neoplastic disorders; establishes class-level rationale for PDGFR blockade in PDGF-driven tumors, but does not evaluate nintedanib in DFSP specifically |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## أدلة من الدراسات
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA package insert warnings/contraindications (DG001) are flagged as a **Blocking** data gap in this evidence pack — this alone prevents the candidate from clearing a preliminary (S1) safety screen until resolved.*
-
----
-
-## Additional Model-Predicted Indications (Lower Confidence, Not Pursued)
-
-Two further indications were flagged by TxGNN for nintedanib but carry no clinical or literature evidence (L5, stage S0) and are recommended **Hold**:
-
-| Disease | TxGNN Score | Evidence | Rationale Summary |
-|---------|------------|----------|--------------------|
-| Liposarcoma | 99.13% | None | Liposarcoma is a heterogeneous disease group; most subtypes (e.g., myxoid, FUS-DDIT3–driven) lack PDGFR/VEGFR/FGFR pathway dependence, weakening mechanistic fit |
-| Ovarian myxoid liposarcoma | 99.12% | None | Ultra-rare tumor driven by FUS-DDIT3/EWSR1-DDIT3 fusion, not an angiogenesis/PDGFR-dependent tumor; no supporting trials or literature |
-
-These are model-driven signals only and are not advanced further at this stage.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | مراجعة | Pharmacological Research | تستعرض مثبطات PDGFR ذات الجزيئات الصغيرة عبر الاضطرابات الورمية؛ تحدد المبرر على مستوى الفئة لتثبيط PDGFR في الأورام المعتمدة على PDGF، لكنها لا تقيم فعالية نينتيدانيب في DFSP بشكل محدد |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-**Rationale:**
-The lead prediction (DFSP) rests on mechanism-only (L4) evidence with no nintedanib-specific trials, case reports, or preclinical data. Critically, TFDA safety data (warnings, contraindications, DDI) are entirely missing — a **Blocking** gap that prevents even a preliminary S1 safety assessment — and the drug is not currently marketed in Saudi Arabia, with no original indication on record to anchor a benefit-risk comparison.
+*ملاحظة: تحذيرات نشرة الحزمة TFDA وموانع الاستخدام (DG001) يتم تحديدها كـ **فجوة بيانات حاجزة** في هذه حزمة الأدلة — وحدها تمنع المرشح من اجتياز فحص السلامة الأولي (S1) حتى يتم حلها.*
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications, drug interactions) — resolves Blocking gap DG001
-- Confirmed original indication and regulatory approval history for nintedanib
-- DrugBank/verified mechanism-of-action detail — resolves gap DG002
-- Preclinical (e.g., PDGFR-driven xenograft) or case-level evidence of nintedanib activity specifically in DFSP before advancing beyond Research Question stage
+---
+
+## مؤشرات إضافية متنبأ بها من النموذج (ثقة أقل، لم يتم المتابعة)
+
+تم تحديد مؤشرين إضافيين بواسطة TxGNN لنينتيدانيب لكنهما لا يحملان أدلة سريرية أو من الدراسات (L5، المرحلة S0) وينصح بـ **تأجيل**:
+
+| المرض | درجة TxGNN | الأدلة | ملخص المبرر |
+|-------|-----------|-------|----------|
+| الساركوما الدهنية | 99.13% | لا توجد | الساركوما الدهنية مجموعة أمراض متجانسة؛ معظم الأنواع الفرعية (على سبيل المثال، المخاطية، المدفوعة بـ FUS-DDIT3) تفتقر إلى اعتماد مسار PDGFR/VEGFR/FGFR، مما يضعف التناسب الآلي |
+| الساركوما الدهنية المخاطية المبيضية | 99.12% | لا توجد | ورم نادر جداً مدفوع بـ FUS-DDIT3/EWSR1-DDIT3 الاندماج، وليس ورماً معتمداً على تكوين الأوعية/PDGFR؛ لا توجد تجارب أو دراسات داعمة |
+
+هذه إشارات موجهة من النموذج فقط ولا يتم تقدمها إلى الأمام في هذه المرحلة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+يعتمد التنبؤ الرئيسي (DFSP) على أدلة الآلية فقط (L4) بدون تجارب محددة لنينتيدانيب أو تقارير حالات أو بيانات ما قبل إكلينيكية. بشكل حاسم، بيانات سلامة TFDA (التحذيرات وموانع الاستخدام والتفاعلات الدوائية) مفقودة تماماً — **فجوة بيانات حاجزة** تمنع حتى تقييم السلامة الأولي S1 — والعقار غير مسوق حالياً في المملكة العربية السعودية، بدون دلالة أصلية مسجلة لتثبيت مقارنة الفائدة والمخاطر.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة حزمة TFDA/الشركة المصنعة (التحذيرات وموانع الاستخدام والتفاعلات الدوائية) — يحل الفجوة الحاجزة DG001
+- تأكيد الدلالة الأصلية وتاريخ الموافقة التنظيمية لنينتيدانيب
+- تفاصيل DrugBank/آلية العمل المتحققة — يحل الفجوة DG002
+- أدلة ما قبل إكلينيكية (على سبيل المثال، نموذج ترقيع خيني مدفوع بـ PDGFR) أو على مستوى الحالة لنشاط نينتيدانيب بشكل محدد في DFSP قبل التقدم إلى ما وراء مرحلة سؤال البحث
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

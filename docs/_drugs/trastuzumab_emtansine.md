@@ -29,105 +29,106 @@ indication_count: 4
 
 </div>
 
-# Trastuzumab Emtansine: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# ترازتوزوماب إيمتانسين: من سرطان الثدي الإيجابي لـ HER2 إلى سرطان الثدي الإيجابي لمستقبلات البروجسترون
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Trastuzumab emtansine (T-DM1, marketed as Kadcyla) is an antibody-drug conjugate already established for HER2-positive breast cancer.
-> The TxGNN model predicts it may also be effective for **progesterone-receptor (PR) positive breast cancer**,
-> with **4 clinical trials** and **15 publications** currently supporting this direction.
+> ترازتوزوماب إيمتانسين (T-DM1، المُسوّق باسم Kadcyla) هو مترافق أجسام مضادة-دواء مثبّت بالفعل لسرطان الثدي الإيجابي لـ HER2.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لسرطان الثدي الإيجابي **لمستقبلات البروجسترون (PR)**،
+> مع **4 تجارب سريرية** و **15 منشورة بحثية** تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | HER2-positive breast cancer (per Kadcyla® post-marketing use referenced in the evidence base; Saudi Arabia license text not available — see Market Information below) |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | سرطان الثدي الإيجابي لـ HER2 (وفقاً لاستخدام Kadcyla® بعد التسويق المرجعي في قاعدة الأدلة؛ نص ترخيص المملكة العربية السعودية غير متاح — انظر معلومات السوق أدناه) |
+| الدلالة الجديدة المتنبأ بها | سرطان الثدي الإيجابي لمستقبلات البروجسترون |
+| درجة التنبؤ من TxGNN | 99.82% |
+| مستوى الأدلة | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مُسوّقة |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المتابعة مع ضمانات حماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Structured mechanism-of-action data was not returned for this drug (flagged as a High-severity data gap in the evidence pack). However, the evidence base itself documents the mechanism: trastuzumab emtansine is an antibody-drug conjugate (ADC) in which trastuzumab, an anti-HER2 monoclonal antibody, is linked via a non-cleavable linker to DM1, a maytansinoid microtubule inhibitor. The antibody component binds HER2-overexpressing tumor cells, is internalized, and releases the cytotoxic DM1 payload intracellularly — meaning the drug's activity is fundamentally HER2-dependent, not PR-dependent.
+لم يتم إرجاع بيانات آلية العمل المنظمة لهذا الدواء (تم الإشارة إليها كفجوة بيانات عالية الخطورة في حزمة الأدلة). ومع ذلك، تُوثّق قاعدة الأدلة ذاتها الآلية: ترازتوزوماب إيمتانسين هو مترافق أجسام مضادة-دواء (ADC) يتم فيه ربط ترازتوزوماب، وهو جسم مضاد أحادي النسيلة مناهض لـ HER2، عبر ربط غير قابل للانقسام إلى DM1، وهو مثبط الأنابيب الدقيقة من فئة المايتانسينويد. يرتبط الجسم المضاد بخلايا الأورام التي تفرط في التعبير عن HER2، ويتم امتصاصه داخل الخلية، ويحرر حمولة DM1 السامة داخل الخلايا — مما يعني أن نشاط الدواء يعتمد بشكل أساسي على HER2 وليس على PR.
 
-PR status is a co-existing biomarker in breast cancer, not a drug target. PR-positive disease frequently overlaps with HER2-positive disease (HR+/HER2+ subtype), so the "new" indication predicted here is best understood as a HER2-positive subgroup defined additionally by PR positivity, rather than a mechanistically novel target population. This is consistent with literature in the evidence pack (e.g., PMID 33726508, "Current trends in the treatment of HR+/HER2+ breast cancer") that explicitly discusses T-DM1 use in this overlapping population.
+حالة PR هي علامة بيولوجية متزامنة في سرطان الثدي وليست هدفاً دوائياً. مرض PR-positive يتداخل بشكل متكرر مع مرض HER2-positive (النمط الفرعي HR+/HER2+)، لذلك فإن الدلالة "الجديدة" المتنبأ بها هنا يُفهم بشكل أفضل على أنها مجموعة فرعية من HER2-positive محددة بشكل إضافي بواسطة إيجابية PR، بدلاً من أن تكون مجموعة سكانية هدف جديدة من الناحية الآلية. هذا متسق مع الأدبيات في حزمة الأدلة (على سبيل المثال، PMID 33726508، "الاتجاهات الحالية في علاج سرطان الثدي HR+/HER2+") التي تناقش بشكل صريح استخدام T-DM1 في هذه المجموعة المتداخلة.
 
-Because efficacy depends on HER2 expression rather than PR status, the prediction is mechanistically plausible wherever HER2 positivity co-occurs with PR positivity, but PR status alone does not independently support activity. For context, the same evidence pack shows a related indication — PR-**negative** breast cancer — with stronger evidence (L1, multiple completed Phase 2/3 studies including a Kadcyla post-marketing surveillance study), which is the more established HER2+/HR− population for T-DM1. This reinforces that the PR+ prediction rides on the underlying HER2+ mechanism rather than a new biological rationale.
+لأن الفعالية تعتمد على التعبير عن HER2 بدلاً من حالة PR، فإن التنبؤ معقول آلياً أينما يتزامن الإيجابية HER2 مع الإيجابية PR، لكن حالة PR وحدها لا تدعم نشاطاً بشكل مستقل. للسياق، تُظهر حزمة الأدلة ذاتها دلالة مرتبطة — سرطان الثدي **السلبي** PR — مع أدلة أقوى (L1، دراسات مرحلة 2/3 متعددة مكتملة بما في ذلك دراسة مراقبة Kadcyla بعد التسويق)، وهي المجموعة السكانية HR−/HER2+ الأكثر ثبوتاً لـ T-DM1. يؤكد هذا أن التنبؤ بـ PR+ يعتمد على الآلية الأساسية HER2+ بدلاً من أساس بيولوجي جديد.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A (observational) | Completed | 1,151 | Retrospective multicenter study estimating prevalence and treatment patterns of HER2-low metastatic breast cancer via IHC rescoring in previously HER2-negative patients |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | De-escalation of adjuvant chemotherapy in HER2+/ER-negative, node-negative early breast cancer achieving pCR after neoadjuvant dual HER2 blockade |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Completed | 454 | Atezolizumab vs. placebo added to neoadjuvant ddAC-paclitaxel + trastuzumab + pertuzumab in early HER2-positive breast cancer (IMpassion050); T-DM1 arm not confirmed from available summary |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Active, not recruiting | 164 | Preoperative T-DM1 + pertuzumab in early-stage HER2-positive breast cancer, examining impact of HER2 heterogeneity on treatment response |
+| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A (مرقبة) | مكتملة | 1,151 | دراسة مراجعة متعددة المراكز لتقدير انتشار وأنماط العلاج لسرطان الثدي النقيلي HER2-low عبر إعادة تقييم IHC في المرضى السابقين HER2-negative |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | مرحلة 2 | أوقفت | 139 | تقليل العلاج الكيميائي المساعد في سرطان الثدي المبكر HER2+/ER-negative خالي من الغدد الليمفاوية الذي يحقق pCR بعد العلاج الكيميائي الحثي المزدوج لـ HER2 |
+| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | مرحلة 3 | مكتملة | 454 | أتيزوليزوماب مقابل الدواء الوهمي مع العلاج الكيميائي الحثي ddAC-paclitaxel + trastuzumab + pertuzumab في سرطان الثدي المبكر الإيجابي HER2 (IMpassion050)؛ لم يتم تأكيد ذراع T-DM1 من الملخص المتاح |
+| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | مرحلة 2 | نشطة، غير مجندة | 164 | T-DM1 قبل العملية + pertuzumab في سرطان الثدي المبكر HER2-positive، يفحص تأثير عدم تجانس HER2 على الاستجابة للعلاج |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | Guideline | J Clin Oncol | ASCO clinical practice guideline update on systemic therapy for HER2-positive advanced breast cancer |
-| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Guideline | Eur J Cancer | EGTM biomarker guidelines: mandates HER2 testing for all anti-HER2 therapies including T-DM1, alongside routine ER/PR testing |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Review/Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for HER2-positive advanced breast cancer |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Review | Pharmacol Res | Overview of targeted/cytotoxic breast cancer therapies, framed around HER2/HR/ER/PR status |
-| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Review | J Clin Oncol | Earlier ASCO clinical practice guideline for systemic therapy in HER2-positive advanced breast cancer |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncol | Current treatment trends in HR+/HER2+ breast cancer, including T-DM1 and neratinib |
-| [37445276](https://pubmed.ncbi.nlm.nih.gov/37445276/) | 2023 | Preclinical | J Clin Med | Aminosteroid RM-581 reduces proliferation across all breast cancer molecular subtypes (ER/PR/HER2-defined), alone and combined with standard treatments |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Case Report | Front Oncol | Pyrotinib plus metronomic vinorelbine in HER2-positive breast cancer with leptomeningeal disease |
-| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Case Report | BMJ Case Rep | Receptor conversion (including PR status change) with vocal cord paralysis as presenting sign of metastatic breast cancer |
-| [40642740](https://pubmed.ncbi.nlm.nih.gov/40642740/) | 2025 | Case Report | J Med Cases | Durable response with trastuzumab deruxtecan (related ADC) in HER2-mutant triple-negative breast cancer |
+| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | توجيهات | J Clin Oncol | تحديث توجيهات الممارسة السريرية ASCO حول العلاج الجهازي لسرطان الثدي المتقدم الإيجابي HER2 |
+| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | توجيهات | Eur J Cancer | توجيهات علامات EGTM البيولوجية: تفويض اختبار HER2 لجميع العلاجات المناهضة HER2 بما في ذلك T-DM1، بالإضافة إلى اختبار ER/PR الروتيني |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | مراجعة/توجيهات | J Clin Oncol | تحديث توجيهات ASCO حول العلاج الجهازي لسرطان الثدي المتقدم الإيجابي HER2 |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | مراجعة | Pharmacol Res | نظرة عامة على العلاجات الموجهة والسامة لسرطان الثدي، مع التركيز على حالة HER2/HR/ER/PR |
+| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | مراجعة | J Clin Oncol | توجيه ASCO السريري السابق للعلاج الجهازي في سرطان الثدي المتقدم الإيجابي HER2 |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | مراجعة | Future Oncol | الاتجاهات الحالية في العلاج في سرطان الثدي HR+/HER2+، بما في ذلك T-DM1 و neratinib |
+| [37445276](https://pubmed.ncbi.nlm.nih.gov/37445276/) | 2023 | قبل سريري | J Clin Med | RM-581 aminosteroid يقلل الانتشار عبر جميع الأنماط الفرعية الجزيئية لسرطان الثدي (ER/PR/HER2-محددة)، بمفرده وبدمجه مع العلاجات القياسية |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | دراسة حالة | Front Oncol | Pyrotinib مع vinorelbine metronomic في سرطان الثدي الإيجابي HER2 مع مرض الأغشية السحائية |
+| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | دراسة حالة | BMJ Case Rep | تحويل المستقبلات (بما في ذلك تغيير حالة PR) مع شلل الأحبال الصوتية كعلامة أولية لسرطان الثدي النقيلي |
+| [40642740](https://pubmed.ncbi.nlm.nih.gov/40642740/) | 2025 | دراسة حالة | J Med Cases | استجابة مستدامة مع trastuzumab deruxtecan (ADC ذات صلة) في سرطان الثدي الثلاثي السلبي HER2-mutant |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No licenses are currently on record — `taiwan_regulatory.licenses` is empty and `total_licenses` is 0. Trastuzumab emtansine is not currently marketed in Saudi Arabia per the available regulatory data.
+لا توجد تراخيص حالياً في السجل — `taiwan_regulatory.licenses` فارغة و `total_licenses` هو 0. ترازتوزوماب إيمتانسين غير مسوّق حالياً في المملكة العربية السعودية وفقاً للبيانات التنظيمية المتاحة.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (ADC) with a conventional cytotoxic payload — anti-HER2 antibody (trastuzumab) conjugated via a non-cleavable linker to the maytansinoid microtubule inhibitor DM1 |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions (as a cytotoxic-payload ADC, hazardous-drug handling precautions are generally applicable) |
+| تصنيف السمية الخلوية | علاج موجه (ADC) مع حمولة سامة تقليدية — جسم مضاد مناهض لـ HER2 (ترازتوزوماب) مرتبط عبر ربط غير قابل للانقسام إلى DM1، مثبط الأنابيب الدقيقة من فئة المايتانسينويد |
+| خطر كبت النخاع | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| تصنيف الغثيانية | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| حماية المناولة | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية (كمترافق ADC يحتوي على حمولة سامة، فإن احتياطات التعامل مع الأدوية الخطرة عموماً قابلة للتطبيق) |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data were not available in this evidence pack (flagged as a **Blocking** data gap — TFDA/SFDA package insert warnings and contraindications must be obtained before any S1 safety pre-assessment can proceed).
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. لم تكن البيانات الرئيسية حول التحذيرات والموانع والتفاعلات الدوائية متاحة في حزمة الأدلة هذه (تم الإشارة إليها كفجوة بيانات **حاجزة** — يجب الحصول على نشرة TFDA/SFDA الدوائية قبل أن يتمكن أي تقييم أولي S1 لسلامة من المتابعة).
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع ضمانات حماية**
 
-**Rationale:**
-The mechanistic link is sound but not novel — PR positivity is a co-existing biomarker in a population where T-DM1's HER2-dependent activity is already established, and evidence quality (L2) is moderate rather than definitive for this specific PR+ framing. Critically, a **Blocking**-severity data gap on TFDA/SFDA warnings and contraindications means this candidate cannot yet clear a safety pre-assessment, regardless of the efficacy rationale.
+**الأساس المنطقي:**
+الربط الآلي سليم لكن غير جديد — الإيجابية PR هي علامة بيولوجية متزامنة في مجموعة سكانية حيث نشاط T-DM1 المعتمد على HER2 مثبت بالفعل، وجودة الأدلة (L2) معتدلة بدلاً من أن تكون حاسمة لإطار PR+ المحدد هذا. بشكل حاسم، فإن فجوة بيانات ذات شدة **حاجزة** في تحذيرات وموانع TFDA/SFDA تعني أن هذا المرشح لا يمكن أن يمر بتقييم سلامة أولي حتى الآن، بغض النظر عن الأساس المنطقي للفعالية.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — Blocking gap, required before any safety evaluation
-- Documented mechanism of action from DrugBank — High-severity gap, needed to formally substantiate the mechanistic rationale
-- Saudi Arabia licensing/market entry status confirmation, since the drug is currently not marketed
-- Confirmation of T-DM1 as the actual study intervention in NCT03726879 (title was truncated in source data)
-- PR-status-stratified outcome data from trials such as NCT01745965 (rank 3 evidence set) to directly test PR-dependence of response, rather than relying on HER2+/PR+ overlap
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA/SFDA الدوائية (تحذيرات، موانع) — فجوة حاجزة، مطلوبة قبل أي تقييم سلامة
+- آلية العمل الموثقة من DrugBank — فجوة عالية الخطورة، مطلوبة لإثبات الأساس المنطقي الآلي بشكل رسمي
+- تأكيد حالة ترخيص ودخول السوق بالمملكة العربية السعودية، حيث أن الدواء غير مسوّق حالياً
+- تأكيد T-DM1 كالتدخل الفعلي للدراسة في NCT03726879 (تم اختصار العنوان في بيانات المصدر)
+- بيانات النتائج المقسمة حسب حالة PR من التجارب مثل NCT01745965 (رتبة مجموعة الأدلة 3) لاختبار اعتماد الاستجابة على PR بشكل مباشر، بدلاً من الاعتماد على تداخل HER2+/PR+
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

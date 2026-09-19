@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Paliperidone: From Schizophrenia to Retinal Dystrophy With or Without Extraocular Anomalies
+# بالبيبيريدون: من الفصام إلى خلل التنسج الشبكي مع أو بدون تشوهات خارج العينية
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Paliperidone (9-hydroxyrisperidone) is an established atypical antipsychotic already used to treat schizophrenia. The TxGNN model's top-ranked prediction is **Retinal Dystrophy With or Without Extraocular Anomalies**, but this signal is currently supported by **0 clinical trials** and **15 publications, none of which mention paliperidone or any antipsychotic** — the literature only shares topical overlap (ophthalmology). The evidence pack's own analysis flags this as a likely embedding-level false positive.
+البالبيبيريدون (9-هيدروكسيريسبيريدون) هو دواء مضاد ذهان غير نمطي مثبت يُستخدم بالفعل لعلاج الفصام. التنبؤ الأعلى درجة من نموذج TxGNN هو **خلل التنسج الشبكي مع أو بدون تشوهات خارج العينية**، لكن هذه الإشارة مدعومة حالياً بـ **0 تجارب سريرية** و**15 منشور، لا يذكر أي منها البالبيبيريدون أو أي دواء مضاد ذهان** — الأدبيات تشترك فقط في التداخل الموضوعي (طب العيون). تحليل حزمة الأدلة الخاصة بها يشير إلى أن هذا على الأرجح إيجابي خاطئ على مستوى التضمين.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Schizophrenia (per known drug class; detailed MOA/indication text not on file) |
-| Predicted New Indication | Retinal Dystrophy With or Without Extraocular Anomalies |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الفصام (وفقاً لفئة الدواء المعروفة؛ نص آلية العمل/المؤشر التفصيلي غير موجود في الملف) |
+| المؤشر الجديد المتنبأ به | خلل التنسج الشبكي مع أو بدون تشوهات خارج العينية |
+| درجة تنبؤ TxGNN | 99.92% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفاويض | 0 |
+| القرار الموصى به | Hold |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available for paliperidone in this evidence pack. Based on known drug-class information, paliperidone is an atypical antipsychotic whose efficacy in schizophrenia is well established; the underlying pharmacology (D2/5-HT2A receptor antagonism) is not documented here in structured form.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة للبالبيبيريدون في هذه حزمة الأدلة. بناءً على المعلومات المعروفة عن فئة الدواء، البالبيبيريدون هو دواء مضاد ذهان غير نمطي ثبتت فعاليته في علاج الفصام بشكل جيد؛ الآلية الصيدلانية الأساسية (حصار مستقبلات D2/5-HT2A) لم يتم توثيقها هنا بشكل منظم.
 
-However, this specific prediction does not hold up under scrutiny. Retinal dystrophy with or without extraocular anomalies is a hereditary/structural ophthalmic disorder, and there is no known pathophysiological link between D2/5-HT2A receptor antagonism and retinal dystrophy. The 15 associated publications are all background literature on congenital ophthalmic conditions (orbital infections, diplopia, congenital ptosis, Wagner-Stickler syndrome, congenital cranial dysinnervation disorders, etc.) — **not one addresses paliperidone or any antipsychotic drug**.
+ومع ذلك، فإن هذا التنبؤ المحدد لا يصمد أمام الفحص الدقيق. خلل التنسج الشبكي مع أو بدون تشوهات خارج العينية هو اضطراب عيني وراثي/هيكلي، ولا توجد علاقة مرضية-فسيولوجية معروفة بين حصار مستقبلات D2/5-HT2A وخلل التنسج الشبكي. المنشورات الـ 15 المرتبطة بها كلها أدبيات خلفية حول الحالات الخلقية للعين (التهابات المدار، الرؤية المزدوجة، تدلي الجفن الخلقي، متلازمة فاغنر-ستيكلر، اضطرابات فقدان التعصيب القحفية الخلقية، إلخ) — **لا يتطرق أي منها إلى البالبيبيريدون أو أي دواء مضاد ذهان**.
 
-The most plausible explanation is that the high TxGNN score reflects an embedding-space proximity artifact (the model may be clustering rare/genetic disease categories near each other) rather than a genuine pharmacological signal. Nine of the ten predicted indications in this evidence pack are rare genetic/structural disorders (myopia subtypes, hydranencephaly, congenital glycosylation disorders, Charcot-Marie-Tooth, glycine encephalopathy) with identical L5/Hold status and no supporting evidence — reinforcing that this cluster of predictions should not be prioritized for further investigation.
+التفسير الأكثر معقولية هو أن درجة TxGNN العالية تعكس قطعة أثرية ناشئة عن التقارب في فضاء التضمين (قد يقوم النموذج بتجميع فئات الأمراض النادرة/الوراثية بالقرب من بعضها البعض) بدلاً من إشارة صيدلانية حقيقية. تسعة من عشرة مؤشرات متنبأ بها في هذه حزمة الأدلة هي اضطرابات وراثية/هيكلية نادرة (أنواع قصر النظر، استسقاء الدماغ الخلقي، اضطرابات الاستجلكة الخلقية، شاركو ماري توث، اعتلال دماغ الجليسين) بحالة L5/Hold متطابقة وبدون أدلة داعمة — مما يعزز أن هذا التجمع من التنبؤات لا ينبغي أن يكون له الأولوية للمزيد من التحقيق.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً.
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections secondary to sinusitis; no drug relevance |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Diagnostic approach to diplopia from ocular/neurologic/muscular causes |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging features of pediatric congenital ocular pathologies |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape and development |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Clinical features of simple vs. complicated congenital ptosis |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex, vitreoretinal degeneration |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | Journal of Binocular Vision and Ocular Motility | Congenital cranial dysinnervation disorders and ophthalmoplegia |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Review | American Journal of Ophthalmology | Pathogenesis/treatment of maculopathy with cavitary optic disc anomalies |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | American Journal of Ophthalmology | Two cases of unilateral cryptophthalmia |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Cohort | International Journal of Molecular Sciences | Optic nerve/retinal abnormalities in congenital fibrosis of extraocular muscles |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|---------|---------|
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | مراجعة | Seminars in Ultrasound, CT, and MR | نظرة عامة على التهابات المدار الثانوية لالتهاب الجيوب الأنفية؛ لا توجد صلة بالأدوية |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | مراجعة | Seminars in Neurology | النهج التشخيصي للرؤية المزدوجة من أسباب العين/العصبية/العضلية |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | مراجعة | Pediatric Radiology | الميزات التصويرية لحالات العين الخلقية عند الأطفال |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | مراجعة | Taiwan Journal of Ophthalmology | التشوهات الخلقية لشكل وتطور العدسة |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | مراجعة | Klinische Monatsblätter für Augenheilkunde | الميزات السريرية لتدلي الجفن الخلقي البسيط مقابل المعقد |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | مراجعة | Documenta Ophthalmologica | مركب متلازمة فاغنر-ستيكلر، الانحطاط الزجاجي الشبكي |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | مراجعة | Journal of Binocular Vision and Ocular Motility | اضطرابات فقدان التعصيب القحفية الخلقية وشلل العين |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | مراجعة | American Journal of Ophthalmology | الإمراضية/العلاج من اعتلال الماكيولا مع تشوهات القرص البصري التجويفية |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | تقرير حالة | American Journal of Ophthalmology | حالتان من التشفير الخلقي أحادي الجانب |
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | دراسة مجموعة | International Journal of Molecular Sciences | شذوذ العصب البصري/الشبكية في تليف العضلات خارج العين الخلقي |
 
-None of the above literature discusses paliperidone, antipsychotics, or any pharmacological intervention — all are disease-background papers.
+لا تناقش أي من الأدبيات أعلاه البالبيبيريدون أو مضادات الذهان أو أي تدخل دوائي — كلها أوراق خلفية حول الأمراض.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Paliperidone is currently **not marketed** in this market (0 authorizations on file), so no product/license table is available.
+البالبيبيريدون غير مسوق حالياً في هذا السوق (0 تفاويض في الملف)، لذا لا توجد جدول المنتج/الترخيص متاح.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-The high TxGNN score is not corroborated by any clinical trial or drug-relevant literature, and no mechanistic pathway connects paliperidone's antipsychotic pharmacology to a hereditary retinal dystrophy. The evidence pack's own rationale assessment concludes this is likely an embedding-level false positive, and eight of the other nine predicted indications for this drug show the identical pattern (L5, no evidence, no mechanistic plausibility).
+**المنطق:**
+درجة TxGNN العالية لا تدعمها أي تجربة سريرية أو أدب ذو صلة بالأدوية، ولا توجد مسار فسيولوجي مرضي معروف يربط بين صيدلة البالبيبيريدون المضادة للذهان واضطراب شبكية العين الموروث. تحليل حزمة الأدلة الخاصة بها يخلص إلى أن هذا على الأرجح إيجابي خاطئ على مستوى التضمين، وثمانية من التنبؤات التسعة الأخرى لهذا الدواء تظهر نفس النمط (L5، لا أدلة، لا معقولية ميكانيكية).
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data (DrugBank) to formally rule out any indirect pathway
-- Any preclinical or case-level evidence linking antipsychotics to retinal/ophthalmic disease modulation, if it exists
-- TFDA/regulatory package insert data (currently blocking — DG001) before any safety review can begin
+**للمتابعة، فيما يلي ما هو مطلوب:**
+- بيانات آلية العمل المؤكدة (DrugBank) لاستبعاد رسمي أي مسار غير مباشر
+- أي أدلة سابقة للسريرية أو على مستوى الحالات تربط مضادات الذهان بتعديل اعتلال العيون/الشبكية، إن وجدت
+- بيانات عبوة TFDA/الهيئة التنظيمية (حالياً محظورة — DG001) قبل بدء أي مراجعة سلامة
 
-**Note:** A separate, better-supported signal exists lower in this same evidence pack — **treatment-refractory schizophrenia** (rank 10, TxGNN score 99.80%, Evidence Level L2, recommendation *Proceed with Guardrails*, backed by a completed Phase 4 trial (NCT01860781, n=30) and 2 literature reviews). That signal is not a novel repurposing candidate (paliperidone already treats schizophrenia) but reflects a clinically actionable extension to a treatment-resistant subpopulation, and may warrant separate evaluation.
+**ملاحظة:** يوجد إشارة أفضل مدعومة أخرى في نفس حزمة الأدلة هذه بترتيب أقل — **الفصام المقاوم للعلاج** (الترتيب 10، درجة TxGNN 99.80%، مستوى الأدلة L2، التوصية *Proceed with Guardrails*، مدعومة بتجربة Phase 4 مكتملة (NCT01860781, n=30) وتحليلي أدبيات). هذه الإشارة ليست مرشحة إعادة تسويق جديدة (البالبيبيريدون يعالج بالفعل الفصام) لكنها تعكس توسعاً سريرياً قابلاً للتنفيذ لمجموعة سكانية مقاومة للعلاج، وقد تستحق تقييماً منفصلاً.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,81 +29,82 @@ indication_count: 9
 
 </div>
 
-# Alteplase: From Acute Ischemic Stroke to Posterolateral Myocardial Infarction
+# ألتيبلاز: من السكتة الدماغية الإقفارية الحادة إلى احتشاء عضلة القلب الخلفي الجانبي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Alteplase is a recombinant tissue-type plasminogen activator (rt-PA) recognized globally as a first-line thrombolytic agent for acute ischemic stroke, pulmonary embolism, and major thromboembolic events, but it carries no registered approvals in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Posterolateral Myocardial Infarction** — a high-risk STEMI subtype characterized by ST elevation in posterior chest leads (V7–V9) — with **0 clinical trials** and **3 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | No approved indications registered in Saudi Arabia |
-| Predicted New Indication | Posterolateral Myocardial Infarction |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Alteplase هو مُنَشِّط البلاسمينوجين النسيجي معاد التركيب (rt-PA)، وهو عامل تحلل تجلط معترف به عالمياً كعلاج من الخط الأول للسكتة الدماغية الإقفارية الحادة والانسداد الرئوي والأحداث الثرومبوية الكبرى، إلا أنه لا يحمل موافقات مسجلة في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **احتشاء عضلة القلب الخلفي الجانبي** — وهو نوع فرعي عالي الخطورة من احتشاء عضلة القلب مع رفع ST (STEMI) يتميز برفع ST في الرصاصات الصدرية الخلفية (V7–V9) — مع **0 تجربة سريرية** و **3 منشورات** تدعم حالياً هذا الاتجاه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, Alteplase is a recombinant tissue-type plasminogen activator (rt-PA) — a serine protease that binds fibrin within a thrombus and converts plasminogen to plasmin, which in turn cleaves fibrin strands and dissolves the clot. This fibrinolytic mechanism underlies its established efficacy in acute ischemic stroke, general STEMI, and pulmonary embolism, all of which share acute thrombotic occlusion as the common pathological driver.
-
-Posterolateral myocardial infarction is a subtype of STEMI caused by thrombotic occlusion of the left circumflex (LCx) artery. It presents with ST elevation in posterior leads V7–V9 rather than the standard precordial leads and is frequently missed on routine 12-lead ECG, leading to delayed reperfusion. Because its core pathology — coronary artery fibrin thrombus formation — is mechanistically identical to what alteplase targets in established indications, the biological rationale for its use in this subtype is strong.
-
-A 1998 observational study by Matetzky et al. (PMID 9502627, *Journal of the American College of Cardiology*) directly examined this question, demonstrating that ST elevation in posterior leads identifies a distinct posterior infarction subpopulation who may derive particular benefit from thrombolytic therapy. However, no prospective randomized controlled trial has specifically evaluated alteplase in this posterior STEMI subtype, and primary PCI remains the preferred reperfusion strategy wherever infrastructure permits. The TxGNN score of 99.79% reflects a mechanistically plausible relationship, but clinical validation for this specific anatomical subtype is still needed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | لا توجد مؤشرات معتمدة مسجلة في المملكة العربية السعودية |
+| المؤشر الجديد المتنبأ به | احتشاء عضلة القلب الخلفي الجانبي |
+| درجة التنبؤ TxGNN | 99.79% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | قيد الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [9502627](https://pubmed.ncbi.nlm.nih.gov/9502627/) | 1998 | Observational | J Am Coll Cardiol | ST elevation in posterior leads (V7–V9) during acute inferior MI identifies concomitant posterior infarction; this subgroup may derive greater benefit from thrombolytic therapy than those without posterior extension |
-| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | Case Report | Catheter Cardiovasc Interv | Primary PCI of unprotected left main with intracoronary reteplase (tPA analog) facilitation in a posterolateral acute MI patient with LVEF 30% and hemodynamic compromise; procedure was successful |
-| [8480981](https://pubmed.ncbi.nlm.nih.gov/8480981/) | 1993 | Case Report | Ann Cardiol Angiol | Late fibrinolysis with tPA in posterolateral MI; a resolving cerebral embolism occurred during treatment, underscoring the risk of left intraventricular thrombus dissolution and systemic embolism during thrombolytic therapy |
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في هذه حزمة الأدلة. بناءً على المعلومات المعروفة، Alteplase هو مُنَشِّط البلاسمينوجين النسيجي معاد التركيب (rt-PA) — وهو بروتياز السيرين الذي يرتبط بالفيبرين داخل الخثرة ويحول البلاسمينوجين إلى بلاسمين، والذي بدوره يقسم خيوط الفيبرين ويذيب الجلطة. تكمن هذه الآلية الليفينولية وراء فعاليتها المثبتة في السكتة الدماغية الإقفارية الحادة واحتشاء عضلة القلب العام والانسداد الرئوي، وكلها تشترك في انسداد ثرومبي حاد كمحرك مرضي مشترك.
 
----
+احتشاء عضلة القلب الخلفي الجانبي هو نوع فرعي من احتشاء عضلة القلب مع رفع ST (STEMI) ناجم عن انسداد ثرومبي للشريان الدوراني الأيسر (LCx). يتجلى برفع ST في الرصاصات الخلفية V7–V9 بدلاً من الرصاصات الصدرية المعيارية وغالباً ما يُفقد في مخطط القلب الكهربائي للـ 12 رصاصة المعياري، مما يؤدي إلى تأخير إعادة التروية. لأن مرضه الأساسي — تشكيل خثرة فيبرين في الشريان التاجي — متطابق ميكانيكياً مع ما يستهدفه Alteplase في المؤشرات المثبتة، فإن الأساس البيولوجي لاستخدامه في هذا النوع الفرعي قوي.
 
-## Saudi Arabia Market Information
-
-Alteplase has no registered products or marketing authorizations in Saudi Arabia. No authorization records are available.
+أظهرت دراسة مراقبة من عام 1998 بقيادة Matetzky وآخرون (PMID 9502627، *Journal of the American College of Cardiology*) أن رفع ST في الرصاصات الخلفية يحدد مجموعة فرعية مميزة من احتشاء عضلة القلب الخلفي التي قد تستفيد بشكل خاص من العلاج الليفينولي. ومع ذلك، لم تقيّم أي تجربة عشوائية محكومة استقبالية Alteplase بشكل محدد في هذا النوع الفرعي من احتشاء عضلة القلب مع رفع ST الخلفي، ويبقى التدخل الإكليلي الأولي هو استراتيجية إعادة التروية المفضلة حيثما سمحت البنية التحتية بذلك. تعكس درجة TxGNN البالغة 99.79% علاقة معقولة من الناحية الآلية، لكن التحقق السريري لهذا النوع الفرعي التشريحي المحدد لا يزال مطلوباً.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
+|------|------|-------|--------|-------------------| 
+| [9502627](https://pubmed.ncbi.nlm.nih.gov/9502627/) | 1998 | مراقبة | J Am Coll Cardiol | يعرّف رفع ST في الرصاصات الخلفية (V7–V9) أثناء احتشاء عضلة القلب السفلي الحاد مجموعة فرعية مميزة من احتشاء عضلة القلب الخلفي؛ قد تستفيد هذه المجموعة الفرعية بشكل أكبر من العلاج الليفينولي مقارنة بتلك التي لا تحتوي على امتداد خلفي |
+| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | تقرير حالة | Catheter Cardiovasc Interv | التدخل الإكليلي الأولي للشريان التاجي الأيسر غير المحمي مع تسهيل الريتيبلاز (reteplase) داخل الإكليلي (نظير tPA) في مريض احتشاء عضلة القلب الخلفي الجانبي الحاد مع LVEF بنسبة 30% والاختلال الديناميكي الدموي؛ كانت الإجراءات ناجحة |
+| [8480981](https://pubmed.ncbi.nlm.nih.gov/8480981/) | 1993 | تقرير حالة | Ann Cardiol Angiol | تحلل الفيبرين المتأخر مع tPA في احتشاء عضلة القلب الخلفي الجانبي؛ حدث انسداد جلطي دماغي قيد التحلل أثناء المعالجة، مما يؤكد على خطر تحلل الخثرة البطينية اليسرى والانسداد الجلطي الجهازي أثناء العلاج الليفينولي |
 
-**Rationale:**
-Current evidence for alteplase in posterolateral myocardial infarction consists solely of two case reports and one observational study (L4 evidence level), with no dedicated prospective trials for this specific posterior STEMI subtype; while the mechanistic rationale is compelling, clinical validation is absent and the drug is not yet marketed in Saudi Arabia.
+---
 
-**To proceed, the following is needed:**
+## معلومات السوق في المملكة العربية السعودية
 
-- Formal retrieval of MOA and full pharmacology data from DrugBank and the originator package insert
-- Safety, contraindication, and drug interaction data from the approved prescribing information
-- Assessment of real-world posterior STEMI burden and primary PCI infrastructure availability across Saudi Arabia to establish unmet clinical need
-- Prospective observational cohort study or registry in posterior STEMI (V7–V9 population) specifically evaluating alteplase reperfusion outcomes vs. primary PCI
-- Regulatory pathway assessment for introducing alteplase to the Saudi Arabian market, including SFDA registration requirements and cold-chain logistics for the lyophilized product
+لا يوجد لدى Alteplase منتجات مسجلة أو تفويضات تسويق في المملكة العربية السعودية. لا توجد سجلات تفويضات متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: قيد الانتظار**
+
+**الأساس المنطقي:**
+يتكون الدليل الحالي لـ Alteplase في احتشاء عضلة القلب الخلفي الجانبي فقط من تقريري حالة ودراسة مراقبة واحدة (مستوى دليل L4)، مع عدم وجود تجارب عشوائية محكومة استقبالية مخصصة لهذا النوع الفرعي المحدد من احتشاء عضلة القلب مع رفع ST الخلفي؛ بينما يكون الأساس الآلي مقنعاً، فإن التحقق السريري غير موجود والعقار لم يُسوّق بعد في المملكة العربية السعودية.
+
+**للمتابعة، مطلوب ما يلي:**
+
+- استرجاع رسمي لبيانات آلية العمل والدراسات الدوائية الكاملة من DrugBank ونشرة المنتج من الشركة الأصلية
+- بيانات السلامة والموانع والتفاعلات الدوائية من المعلومات الصيدلانية المعتمدة
+- تقييم عبء احتشاء عضلة القلب الخلفي في العالم الحقيقي والبنية التحتية للتدخل الإكليلي الأولي عبر المملكة العربية السعودية لتحديد الاحتياج الطبي غير الملباه
+- دراسة أترابية استقبالية أو سجل في احتشاء عضلة القلب الخلفي (مجموعة V7–V9) تقيّم بشكل محدد نتائج إعادة التروية مع Alteplase مقابل التدخل الإكليلي الأولي
+- تقييم المسار التنظيمي لإدخال Alteplase إلى سوق المملكة العربية السعودية، بما في ذلك متطلبات تسجيل SFDA وإدارة سلسلة التبريد للمسحوق المجفف بالتجميد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

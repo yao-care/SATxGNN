@@ -29,60 +29,61 @@ indication_count: 10
 
 </div>
 
-# Terazosin: From Benign Prostatic Hyperplasia/Hypertension to Hypotrichosis Simplex of the Scalp
+# تيرازوسين: من فرط تنسج البروستاتا الحميد/ارتفاع ضغط الدم إلى نقص الشعر البسيط في فروة الرأس
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Terazosin is a selective α1-adrenergic receptor antagonist historically used for benign prostatic hyperplasia (BPH) and hypertension. The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, but this direction is currently supported by **0 clinical trials** and **0 publications** — the score most likely reflects embedding proximity rather than an established biological link.
+تيرازوسين هو حاصر انتقائي لمستقبلات α1-أدرينالية تاريخياً يُستخدم في فرط تنسج البروستاتا الحميد (BPH) وارتفاع ضغط الدم. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **نقص الشعر البسيط في فروة الرأس**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشور** — الدرجة على الأرجح تعكس التقارب في التضمين بدلاً من ارتباط بيولوجي مثبت.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (BPH) / Hypertension (based on known pharmacology of terazosin; not confirmed in the Saudi regulatory data, as the drug is unmarketed there) |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | فرط تنسج البروستاتا الحميد (BPH) / ارتفاع ضغط الدم (بناءً على الصيدلة المعروفة لتيرازوسين؛ غير مؤكد في بيانات الجهات التنظيمية السعودية، حيث أن الدواء غير مسجل هناك) |
+| الاستطباب الجديد المتنبأ به | نقص الشعر البسيط في فروة الرأس |
+| درجة التنبؤ بـ TxGNN | 99.97% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data from DrugBank is not available (marked as a data gap in this evidence pack). Based on known pharmacology, terazosin is a quinazoline-derived, selective α1-adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck (useful in BPH) and reduces peripheral vascular resistance (useful in hypertension).
+حالياً، بيانات آلية العمل المفصلة من DrugBank غير متوفرة (موضحة كفجوة بيانات في هذه المجموعة الدلائل). بناءً على الصيدلة المعروفة، تيرازوسين هو حاصر انتقائي لمستقبلات α1-أدرينالية مشتق من الكينازولين. يرخي العضلات الملساء في البروستاتا وعنق المثانة (مفيد في فرط تنسج البروستاتا الحميد) ويقلل من مقاومة الأوعية الدموية المحيطية (مفيد في ارتفاع ضغط الدم).
 
-Hypotrichosis simplex of the scalp is a monogenic hereditary hair-development disorder most commonly associated with genes such as *APCDD1*, involving Wnt-signaling dysregulation in the hair follicle — a pathway with no established connection to α1-adrenergic blockade. No mechanistic, preclinical, or clinical literature links terazosin to this condition.
+نقص الشعر البسيط في فروة الرأس هو اضطراب وراثي أحادي الجين في تطور الشعر يرتبط بشكل متكرر بجينات مثل *APCDD1*، يتضمن اختلال نظام إشارات Wnt في بصيلة الشعر — مسار ليس له ارتباط مثبت بحصر α1-أدرينالية. لا توجد أدبيات ميكانيكية أو ما قبل السريرية أو سريرية تربط تيرازوسين بهذه الحالة.
 
-Given the absence of any supporting mechanism, trial, or publication, this prediction should be treated as a high TxGNN-score artifact likely driven by knowledge-graph embedding proximity (e.g., shared neighbors with other hair-related nodes) rather than genuine pharmacological plausibility. It should not be interpreted as a validated repurposing signal.
+نظراً لغياب أي آلية دعم أو تجربة أو منشور، يجب التعامل مع هذا التنبؤ كحالة قطعة أثرية في درجة TxGNN العالية على الأرجح مدفوعة بالتقارب في تضمين الرسم البياني المعرفي (مثل الجيران المشتركين مع عقد أخرى متعلقة بالشعر) بدلاً من المعقولية الصيدلانية الحقيقية. يجب عدم تفسيره كإشارة إعادة استخدام معتمدة.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Terazosin is not currently marketed in Saudi Arabia — no authorizations are on file (0 licenses).
+تيرازوسين غير مسوق حالياً في المملكة العربية السعودية — لا توجد تصاريح في الملف (0 رخصة).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.97%), there is no mechanistic rationale, no preclinical data, no clinical trials, and no literature supporting terazosin's use in hypotrichosis simplex of the scalp. This pattern — a top-ranked score with zero corroborating evidence, while lower-ranked candidates for the same drug (e.g., Raynaud disease at rank 7, migraine at rank 5) have direct mechanistic plausibility and small clinical studies — suggests the top score reflects embedding artifact rather than biological signal.
+**الأساس المنطقي:**
+رغم درجة التنبؤ العالية بـ TxGNN (99.97%)، لا توجد نسبة ميكانيكية معقولة، ولا توجد بيانات قبل سريرية، ولا توجد تجارب سريرية، ولا توجد أدبيات تدعم استخدام تيرازوسين في نقص الشعر البسيط في فروة الرأس. هذا النمط — درجة مصنفة في الأعلى مع صفر أدلة مؤيدة، بينما المرشحون ذوو التصنيف الأقل للدواء نفسه (مثل مرض رينود في الترتيب 7، الصداع النصفي في الترتيب 5) لديهم معقولية ميكانيكية مباشرة ودراسات سريرية صغيرة — يشير إلى أن الدرجة الأعلى تعكس قطعة أثرية في التضمين بدلاً من إشارة بيولوجية.
 
-**To proceed, the following is needed:**
-- Confirmed DrugBank/MOA data (currently a data gap)
-- TFDA/SFDA package insert with warnings and contraindications (currently a blocking data gap)
-- Preclinical evidence connecting α1-adrenergic blockade to hair follicle biology in *APCDD1*-related hypotrichosis
-- If repurposing evaluation continues for this drug, consider prioritizing **Raynaud disease** (rank 7, L3, direct α1-mediated vasospasm mechanism, small clinical study) and **migraine disorder** (rank 5, L3) instead, as they carry materially stronger mechanistic and literature support than this top-ranked candidate.
+**للمتابعة، المطلوب الآتي:**
+- بيانات DrugBank/آلية العمل المؤكدة (فجوة بيانات حالياً)
+- نشرة TFDA/SFDA مع التحذيرات والموانع (فجوة بيانات حجب حالياً)
+- دليل ما قبل سريري يربط حصر α1-أدرينالية ببيولوجيا بصيلة الشعر في نقص الشعر المرتبط بـ *APCDD1*
+- إذا استمرت تقييم إعادة الاستخدام للدواء، فكر في إعطاء الأولوية **لمرض رينود** (الترتيب 7، L3، آلية انقباض الأوعية الدموية المباشرة بـ α1، دراسة سريرية صغيرة) و**اضطراب الصداع النصفي** (الترتيب 5، L3) بدلاً من ذلك، لأنهما يحملان دعماً ميكانيكياً وأدبياً أقوى بشكل ملموس من هذا المرشح الأعلى ترتيباً.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

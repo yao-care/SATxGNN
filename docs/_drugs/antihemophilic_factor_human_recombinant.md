@@ -29,77 +29,78 @@ indication_count: 8
 
 </div>
 
-# Antihemophilic Factor (Human Recombinant): From Hemophilia A to Primary Release Disorder of Platelets
+# العامل المانع للنزف (معاد الاتحاد بشري): من الهيموفيليا أ إلى اضطراب إطلاق الصفيحات الأولي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Antihemophilic Factor (Human Recombinant) is a recombinant blood coagulation Factor VIII (rFVIII), classically used to control and prevent bleeding episodes in patients with Hemophilia A (congenital FVIII deficiency).
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, with a prediction score of 99.96%;
-however only **2 publications** currently support this direction and **no clinical trials** have been registered for this specific indication.
+العامل المانع للنزف (معاد الاتحاد بشري) هو عامل تخثر VIII معاد الاتحاد (rFVIII)، يُستخدم تقليدياً في السيطرة على نوبات النزف ومنعها لدى المرضى الذين يعانون من الهيموفيليا أ (نقص العامل VIII الخلقي).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب إطلاق الصفيحات الأولي**، مع درجة تنبؤ تبلغ 99.96%;
+ومع ذلك، **يدعم هذا الاتجاه منشوران فقط** حالياً و**لم تُسجل أي تجارب سريرية** لهذا الدليل المحدد.
 
 ---
 
-## Quick Overview
+## نظرة سريعة عامة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Hemophilia A — congenital Factor VIII deficiency (not registered in Saudi Arabia) |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 (genetic/mechanistic studies only) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدليل الأصلي | الهيموفيليا أ — نقص العامل VIII الخلقي (غير مسجلة في المملكة العربية السعودية) |
+| الدليل المتنبأ به الجديد | اضطراب إطلاق الصفيحات الأولي |
+| درجة التنبؤ TxGNN | 99.96% |
+| مستوى الأدلة | L4 (دراسات وراثية/آلية فقط) |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known clinical information, Antihemophilic Factor (Human Recombinant) is a recombinant form of human coagulation Factor VIII; its efficacy in controlling bleeding in Hemophilia A has been well-established over decades, and mechanistically it may provide compensatory support in primary platelet release disorders.
+حالياً، بيانات الآلية التفصيلية للعمل ليست متاحة في هذه مجموعة الأدلة. بناءً على المعلومات السريرية المعروفة، فإن العامل المانع للنزف (معاد الاتحاد بشري) هو شكل معاد الاتحاد من عامل التخثر VIII البشري؛ وقد تم إثبات فعاليته في السيطرة على النزف في الهيموفيليا أ بشكل جيد على مدى عقود، وقد يوفر آلياً دعماً تعويضياً في اضطرابات إطلاق الصفيحات الأولية.
 
-Recombinant FVIII functions as a critical cofactor in the intrinsic tenase complex (FVIIIa + FIXa), dramatically amplifying thrombin generation. Thrombin itself is a potent platelet activator via PAR-1 and PAR-4 receptors. In primary platelet release disorders — characterized by impaired dense granule or alpha-granule secretion — this downstream thrombin amplification pathway could theoretically compensate for inadequate primary hemostasis by maximizing activation of the platelets that are present.
+يعمل العامل VIII معاد الاتحاد كعامل مساعد حرج في مجمع التيناز الداخلي (FVIIIa + FIXa)، مما يؤدي إلى تضخيم درامي لتوليد الثرومبين. الثرومبين نفسه هو منشط فعال للصفيحات عبر مستقبلات PAR-1 و PAR-4. في اضطرابات إطلاق الصفيحات الأولية — التي تتميز بإفراز حبيبات كثيفة أو حبيبات ألفا معيبة — يمكن لمسار تضخيم الثرومبين هذا في اتجاه مصب النهر نظرياً أن يعوض عن نقص الإرقاء الأولي الكافي من خلال زيادة تنشيط الصفيحات الموجودة.
 
-However, this remains a compensatory downstream mechanism rather than targeted therapy. The two supporting publications (a large-scale GWAS linking FVIII/VWF levels to platelet aggregation, and a three-generational pedigree study showing compound FVIII/PTGS-1 variants amplify hemorrhage severity) provide biological plausibility for a FVIII–platelet interaction but constitute indirect genetic evidence only. This mechanistic link is exploratory and does not yet constitute clinical evidence of therapeutic benefit.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، يبقى هذا آلية تعويضية في اتجاه مصب النهر وليس علاجاً موجهاً. تقدم المنشورات الداعمة اثنان (دراسة GWAS على نطاق واسع تربط مستويات FVIII/VWF بتجميع الصفيحات، ودراسة نسب ثلاثية الأجيال تظهر متغيرات FVIII/PTGS-1 المركبة تضخم شدة النزف) أدلة بيولوجية معقولة لتفاعل FVIII–صفيحات ولكن تشكل أدلة وراثية غير مباشرة فقط. هذا الارتباط الآلي لا يزال استكشافياً ولا يشكل حتى الآن أدلة سريرية على الفائدة العلاجية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
 |------|------|------|---------|-------------|
-| [38320121](https://pubmed.ncbi.nlm.nih.gov/38320121/) | 2024 | Genetic Association Study (GWAS) | Blood | Whole-genome sequencing of up to 45,289 TOPMed participants identifies genetic loci associated with circulating FVIII and VWF levels; confirms FVIII and VWF are critical to both coagulation and platelet aggregation, providing indirect genetic context for an FVIII–platelet release link |
-| [27629384](https://pubmed.ncbi.nlm.nih.gov/27629384/) | 2016 | Mechanistic/Genetic Study | J Thromb Haemost | Three-generational pedigree study demonstrating that co-existent damaging variants in FVIII and prostaglandin synthase-1 (PTGS-1/COX-1) amplify hemorrhage severity; PTGS-1 variant causes functional defects in the arachidonic acid platelet pathway, showing FVIII level interacts with platelet secretion-related pathways |
+| [38320121](https://pubmed.ncbi.nlm.nih.gov/38320121/) | 2024 | دراسة الارتباط الجيني (GWAS) | Blood | يحدد تسلسل الجينوم الكامل لما يصل إلى 45,289 مشارك في TOPMed المواقع الجينية المرتبطة بمستويات FVIII و VWF المتداولة؛ يؤكد أن FVIII و VWF حاسمة لكل من التخثر وتجميع الصفيحات، مما يوفر سياقاً وراثياً غير مباشر لربط FVIII–صفيحات |
+| [27629384](https://pubmed.ncbi.nlm.nih.gov/27629384/) | 2016 | دراسة آلية/وراثية | J Thromb Haemost | دراسة النسب ثلاثية الأجيال توضح أن المتغيرات الضارة المتزامنة في FVIII وبروستاجلاندين سينتاز-1 (PTGS-1/COX-1) تضخم شدة النزف؛ يسبب متغير PTGS-1 عيوباً وظيفية في مسار حمض الأراكيدونيك بالصفيحات، مما يدل على أن مستوى FVIII يتفاعل مع المسارات المرتبطة بإفراز الصفيحات |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The TxGNN high score (99.96%) reflects graph-level proximity among hemophilia-spectrum bleeding disorders rather than direct therapeutic evidence. Available support consists of two genetic studies (L4), no registered clinical trials, and no Saudi Arabia regulatory standing — insufficient to advance this repurposing hypothesis.
+**المبررات:**
+تعكس الدرجة العالية لـ TxGNN (99.96%) القرب على مستوى الرسم البياني بين اضطرابات النزف من الطيف الهيموفيليا بدلاً من الأدلة العلاجية المباشرة. يتكون الدعم المتاح من دراستين وراثيتين (L4)، لا توجد تجارب سريرية مسجلة، وعدم وجود مركز تنظيمي في المملكة العربية السعودية — غير كافٍ للمضي قدماً بفرضية إعادة الاستخدام هذه.
 
-**To proceed, the following is needed:**
+**للمضي قدماً، يلزم ما يلي:**
 
-- **Preclinical proof-of-concept:** At least one in vitro or animal study specifically testing whether rFVIII-mediated thrombin amplification improves hemostasis in a platelet release disorder model
-- **MOA documentation:** Retrieve complete FVIII mechanism of action and pharmacodynamic profile from DrugBank to enable formal mechanistic analysis
-- **Safety dossier:** Obtain package insert warnings and contraindications (currently a Blocking data gap per DG001) before any clinical feasibility assessment
-- **Case series search:** Conduct a targeted literature search for cases where rFVIII was used off-label in patients with combined FVIII deficiency and platelet secretion defects, which may provide real-world mechanistic clues
-- **Comparator assessment:** Evaluate whether established rescue therapies for platelet release disorders (e.g., desmopressin, platelet transfusion) leave an unmet need that rFVIII could address
+- **إثبات المفهوم قبل السريري:** دراسة واحدة على الأقل في المختبر أو دراسة حيوانية تختبر بشكل مباشر ما إذا كان تضخيم الثرومبين الوسيط بـ rFVIII يحسن الإرقاء في نموذج اضطراب إطلاق الصفيحات
+- **توثيق الآلية:** استرجاع آلية العمل الكاملة لـ FVIII والملف الدوائي الحركي من DrugBank لتمكين التحليل الآلي الرسمي
+- **ملف السلامة:** الحصول على تحذيرات نشرة الحزمة والموانع (حالياً فجوة بيانات حجب per DG001) قبل أي تقييم جدوى سريري
+- **بحث السلسلة:** إجراء بحث أدبي موجه عن الحالات حيث تم استخدام rFVIII خارج التسمية في المرضى الذين يعانون من نقص FVIII المدمج واضطرابات إفراز الصفيحات، مما قد يوفر أدلة آلية من العالم الحقيقي
+- **تقييم المقارن:** تقييم ما إذا كانت العلاجات المنقذة المثبتة لاضطرابات إطلاق الصفيحات (مثل ديسموبريسين وتحقن الصفيحات) تترك احتياجاً لم يتم تلبيته قد يعالجه rFVIII
 
-> **Note on a higher-priority candidate:** Among all eight predicted indications, **Acquired Coagulation Factor Deficiency (rank 4, evidence level L2)** carries substantially stronger evidence — 5 clinical trials (including Phase 2/3 completed studies of recombinant porcine FVIII in acquired hemophilia A) and 20 publications, with guideline support from UKHCDO/ISTH for human rFVIII use in low-titer inhibitor patients. This indication warrants a separate **Proceed with Guardrails** evaluation report.
+> **ملاحظة حول مرشح ذو أولوية أعلى:** بين جميع ثمانية دلائل متنبأ بها، **نقص عامل التخثر المكتسب (الرتبة 4، مستوى الأدلة L2)** يحمل أدلة أقوى بكثير — 5 تجارب سريرية (بما في ذلك دراسات المرحلة 2/3 المكتملة لـ FVIII خنزير معاد الاتحاد في الهيموفيليا المكتسبة أ) و 20 منشور، مع دعم الإرشادات من UKHCDO/ISTH لاستخدام rFVIII البشري في مرضى المثبط منخفض العيار. يستحق هذا الدليل تقرير تقييم **المضي قدماً مع الضمانات** منفصل.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

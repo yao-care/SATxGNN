@@ -29,74 +29,75 @@ indication_count: 8
 
 </div>
 
-# Fenoterol: From Bronchodilator (Asthma/COPD) to Multiple System Atrophy
+# فينوتيرول: من موسع الشعب الهوائية (الربو/مرض الانسداد الرئوي المزمن) إلى ضمور الأنظمة المتعددة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Fenoterol is a β2-adrenergic receptor agonist internationally known as a bronchodilator for asthma/COPD; it is **not currently marketed in Saudi Arabia**, so no local approved-indication or MOA record exists in this Evidence Pack. The TxGNN model's top-ranked prediction is **Multiple System Atrophy (MSA)**, but the accompanying mechanistic rationale itself flags this as a **potential safety concern rather than a therapeutic signal** (peripheral vasodilation could worsen the orthostatic hypotension already present in MSA), and there are **0 clinical trials and 0 publications** supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed for Saudi Arabia (drug not marketed; `original_indications` empty). Internationally known drug class: β2-adrenergic agonist bronchodilator (asthma/COPD) |
-| Predicted New Indication | Multiple System Atrophy |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+*فينوتيرول هو ناهض مستقبل بيتا 2-الأدرينالي معروف دولياً كموسع للشعب الهوائية لعلاج الربو ومرض الانسداد الرئوي المزمن؛ وهو **غير مرخص حالياً في المملكة العربية السعودية**، لذا لا توجد سجلات الاستطباب المعتمد المحلي أو آلية العمل في هذه الحقيبة الأدلة. التنبؤ الأعلى ترتيباً من نموذج TxGNN هو **ضمور الأنظمة المتعددة (MSA)**، لكن الحجة الآلية المصاحبة لذلك نفسها تشير إلى هذا على أنه **مصدر قلق محتمل للسلامة بدلاً من إشارة علاجية** (توسع الأوعية الدموية المحيطة قد يؤدي إلى تفاقم انخفاض ضغط الدم الانتصابي الموجود بالفعل في MSA)، وهناك **0 تجربة سريرية و 0 منشورات** تدعم هذا الاتجاه.*
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (`original_moa: [Data Gap]`). Based on generally known pharmacology, fenoterol is a short-acting β2-adrenergic receptor agonist used internationally as a bronchodilator, and in some markets historically as a tocolytic (uterine relaxant) — neither of these established uses is regulatory-confirmed for Saudi Arabia, where the drug has no licenses on file.
-
-For the top-ranked prediction, the model's own repurposing rationale is **not supportive** of therapeutic benefit: MSA commonly involves autonomic degeneration and orthostatic hypotension, and fenoterol's peripheral vasodilatory (β2) effect could plausibly **worsen** postural blood pressure control rather than treat the disease. The high TxGNN score most likely reflects network proximity within cardiovascular/autonomic pathways rather than a validated treatment direction, and the rationale text explicitly frames this as a safety concern, not an efficacy hypothesis.
-
-It is worth noting that lower-ranked candidates in this pack — Raynaud's disease (rank 5) and sinoatrial node disease (rank 7–8) — have mechanistically more coherent (vasodilation for vasospasm; β1 cross-activity for chronotropic support) rationales and were scored "Research Question" rather than "Hold." These may be more productive starting points than the top-ranked MSA signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير مؤكد للمملكة العربية السعودية (الدواء غير مرخص؛ `original_indications` فارغ). فئة الأدوية المعروفة دولياً: ناهض أدرينالي بيتا 2 موسع للشعب الهوائية (الربو/مرض الانسداد الرئوي المزمن) |
+| الاستطباب الجديد المتنبأ به | ضمور الأنظمة المتعددة |
+| درجة التنبؤ من TxGNN | 99.70% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مرخص (Not Marketed) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه الحقيبة الأدلة (`original_moa: [Data Gap]`). بناءً على علم الصيدلة المعروف عموماً، فينوتيرول هو ناهض مستقبل بيتا 2-الأدرينالي قصير المفعول يُستخدم دولياً كموسع للشعب الهوائية، وفي بعض الأسواق تاريخياً كمثبط للمخاض (مرخي الرحم) — لا يتم تأكيد أي من هذين الاستخدامين المعروفين تنظيمياً للمملكة العربية السعودية، حيث الدواء لا يمتلك أي تراخيص مسجلة.
 
----
+بخصوص التنبؤ الأعلى ترتيباً، حجة إعادة تصنيع الدواء الخاصة بالنموذج نفسها **ليست داعمة** للفائدة العلاجية: يشتمل MSA عادةً على تنكس ذاتي عصبي وانخفاض ضغط الدم الانتصابي، وقد يؤدي التأثير الموسع للأوعية الدموية المحيطة (بيتا 2) من فينوتيرول إلى **تفاقم** التحكم في ضغط الدم الانتصابي بدلاً من علاج المرض. يعكس درجة TxGNN العالية على الأرجح القرب من الشبكة ضمن المسارات القلبية الوعائية والعصبية الذاتية بدلاً من كونها اتجاهاً علاجياً معتمداً، وأن نص الحجة الآلية يؤطر هذا بشكل صريح على أنه مصدر قلق للسلامة، وليس فرضية فعالية.
 
-## Saudi Arabia Market Information
-
-No licensed products are currently registered in Saudi Arabia for fenoterol (`total_licenses: 0`, market status: Not marketed).
+من الجدير بالملاحظة أن المرشحين ذوي الترتيب الأقل في هذه الحقيبة — داء رينو (الترتيب 5) وأمراض العقدة الجيبية الأذينية (الترتيب 7-8) — لديهم حجج آلية أكثر اتساقاً (توسع الأوعية لتشنج الأوعية؛ نشاط بيتا 1 المتقاطع لدعم معدل ضربات القلب) وتم تصنيفها على أنها "سؤال بحثي" بدلاً من "تعليق". قد تكون هذه نقاط انطلاق أكثر إنتاجية من إشارة MSA الأعلى ترتيباً.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة المنشورات
 
-**Decision: Hold**
+حالياً لا توجد منشورات ذات صلة متاحة.
 
-**Rationale:**
-The top-ranked prediction (MSA) carries a mechanistic rationale that points toward potential harm (worsening orthostatic hypotension) rather than benefit, and is backed by zero clinical trials or publications (L5, model prediction only). Combined with the complete absence of local regulatory, MOA, and safety data, there is no basis to advance this candidate at present.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action from DrugBank or other primary source — currently a High-severity data gap
-- Independent pharmacological/clinical review of whether the MSA safety concern can be ruled out, or whether the pipeline should re-rank toward Raynaud's disease or sinoatrial node disease as more mechanistically coherent candidates
-- DDI data (current query status: not found)
+## معلومات السوق بالمملكة العربية السعودية
+
+لا توجد منتجات مرخصة حالياً مسجلة في المملكة العربية السعودية لفينوتيرول (`total_licenses: 0`، حالة السوق: Not Marketed).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**الحجة:**
+التنبؤ الأعلى ترتيباً (MSA) يحتمل حجة آلية تشير إلى احتمال الضرر (تفاقم انخفاض ضغط الدم الانتصابي) بدلاً من الفائدة، وهي مدعومة بصفر تجارب سريرية أو منشورات (L5، تنبؤ النموذج فقط). بالاقتران مع الغياب التام للبيانات التنظيمية والآلية والسلامة المحلية، لا توجد أساس للمضي قدماً في هذا المرشح حالياً.
+
+**لمتابعة، ما يلي مطلوب:**
+- نشرة TFDA/SFDA الدوائية (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاظرة
+- آلية عمل مؤكدة من DrugBank أو مصدر أساسي آخر — حالياً فجوة بيانات ذات شدة عالية
+- مراجعة صيدلانية/سريرية مستقلة لما إذا كان بالإمكان استبعاد مصدر قلق السلامة في MSA، أو ما إذا كان يجب إعادة ترتيب خط الأنابيب نحو داء رينو أو أمراض العقدة الجيبية الأذينية كمرشحين أكثر اتساقاً آلياً
+- بيانات التفاعلات الدوائية (حالة الاستعلام الحالية: غير موجود)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

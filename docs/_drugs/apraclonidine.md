@@ -29,85 +29,86 @@ indication_count: 1
 
 </div>
 
-# Apraclonidine: From Ocular Hypertension / IOP Management to Primary Hereditary Glaucoma
+# أبراكلونيدين: من إدارة ارتفاع ضغط العين / ضغط العين الداخلي إلى الجلوكوما الأولية الوراثية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Apraclonidine is a selective alpha-2 adrenergic receptor agonist, primarily used for short-term intraocular pressure (IOP) reduction in ocular hypertension and post-surgical IOP spikes.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma** (encompassing Primary Congenital Glaucoma and Juvenile Open-Angle Glaucoma),
-with a prediction score of **99.88%** — however, **no supporting clinical trials or publications** have been identified for this specific indication, and significant safety concerns exist for the primary affected population (pediatric patients).
+أبراكلونيدين هو ناهض مستقبلات ألفا-2 الأدرينالينية الانتقائي، يُستخدم بشكل أساسي لتقليل ضغط العين الداخلي (IOP) على المدى القصير في ارتفاع ضغط العين وارتفاعات ضغط العين بعد الجراحة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الجلوكوما الأولية الوراثية** (التي تشمل الجلوكوما الخلقية الأولية والجلوكوما المفتوحة الزاوية اليفعية)،
+مع درجة تنبؤ تبلغ **99.88%** — لكن **لم يتم تحديد أي تجارب سريرية أو منشورات داعمة** لهذا المؤشر المحدد، وهناك مخاوف أمنية كبيرة للسكان المتأثرين بشكل أساسي (المرضى الأطفال).
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Short-term IOP lowering in ocular hypertension (perioperative use) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 — Mechanistic rationale only; no clinical or preclinical studies identified |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | تقليل ضغط العين على المدى القصير في ارتفاع ضغط العين (الاستخدام حول العمليات الجراحية) |
+| المؤشر المتنبأ به | الجلوكوما الأولية الوراثية |
+| درجة تنبؤ TxGNN | 99.88% |
+| مستوى الدليل | L4 — المنطق الآلي فقط؛ لم يتم تحديد أي دراسات سريرية أو تجريبية |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسجلة في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Apraclonidine is a selective alpha-2 adrenergic receptor agonist that lowers IOP through two complementary mechanisms: **(1)** suppression of aqueous humor production by the ciliary body, and **(2)** enhancement of uveoscleral outflow. These mechanisms are well-established and form the pharmacological basis for its approved use in acute IOP management.
+أبراكلونيدين هو ناهض مستقبلات ألفا-2 الأدرينالينية الانتقائي يقلل ضغط العين من خلال آليتين متكاملتين: **(1)** قمع إنتاج السائل المائي بواسطة الجسم الهدبي، و**(2)** تعزيز الصرف عبر المسار غير التقليدي. هذه الآليات راسخة جيداً وتشكل الأساس الدوائي لاستخدامه المعتمد في إدارة ضغط العين الحاد.
 
-Primary Hereditary Glaucoma — including Primary Congenital Glaucoma (PCG) and Juvenile Open-Angle Glaucoma (JOAG) — is characterized by progressive optic nerve damage driven primarily by chronically elevated IOP. The shared pathophysiological driver (elevated IOP → optic neuropathy) creates a mechanistically coherent link between apraclonidine's known action and the predicted indication. This is why the TxGNN knowledge graph assigns a near-maximal score: the alpha-2 agonist → IOP reduction → glaucoma pathway is strongly represented in the training graph.
+الجلوكوما الأولية الوراثية — بما فيها الجلوكوما الخلقية الأولية (PCG) والجلوكوما المفتوحة الزاوية اليفعية (JOAG) — تتميز بضرر تقدمي في العصب البصري يسببه بشكل أساسي ارتفاع ضغط العين المزمن. المحرك المرضي المشترك (ارتفاع ضغط العين → اعتلال العصب البصري) ينشئ ربطاً آليياً متسقاً بين الفعل المعروف لأبراكلونيدين والمؤشر المتنبأ به. هذا هو السبب في أن رسم البيانات المعرفية لـ TxGNN يعطي درجة قريبة من الحد الأقصى: فالمسار (ناهض ألفا-2 → تقليل ضغط العين → الجلوكوما) موجود بقوة في الرسم البياني التدريبي.
 
-However, two critical limitations substantially temper this prediction. First, apraclonidine is well-known to cause **tachyphylaxis** (rapid loss of effect) with chronic use, making it poorly suited for the long-term disease management that hereditary glaucoma requires. Second, PCG is predominantly diagnosed in infancy, and alpha-2 adrenergic agonists — as a drug class — carry **FDA black-box warnings** in young children for the related agent brimonidine (risk of CNS depression and apnea). The pediatric safety profile of apraclonidine itself has not been adequately characterised. The TxGNN high score reflects mechanistic alignment, not disease-specific clinical suitability.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for apraclonidine in primary hereditary glaucoma.
+ومع ذلك، هناك قيدان حرجان يعتدلان بشكل كبير على هذا التنبؤ. أولاً، أبراكلونيدين معروف بأنه يسبب **تطور التحمل السريع** (فقدان سريع للتأثير) مع الاستخدام المزمن، مما يجعله غير مناسب للإدارة طويلة المدى التي تتطلبها الجلوكوما الوراثية. ثانياً، يتم تشخيص PCG بشكل أساسي في فترة الرضاعة، وناهضات ألفا-2 الأدرينالينية — كفئة دوائية — تحمل **تحذيرات صندوق أسود من FDA** لدى الأطفال الصغار بشأن العامل ذي الصلة بريمونيدين (خطر الاكتئاب والتوقف التنفسي في الجهاز العصبي المركزي). لم يتم توصيف الملف الشامل لسلامة الأطفال لأبراكلونيدين نفسه بشكل كافٍ. درجة TxGNN العالية تعكس المحاذاة الآلية، وليس الملاءمة السريرية المحددة للمرض.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available for apraclonidine in primary hereditary glaucoma.
-
----
-
-## Saudi Arabia Market Information
-
-Apraclonidine currently has no registered authorizations in Saudi Arabia. It is not available as a marketed product under SFDA oversight.
+حالياً لا توجد تجارب سريرية مرتبطة مسجلة لأبراكلونيدين في الجلوكوما الأولية الوراثية.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Formal safety data (package insert warnings, contraindications, and drug-drug interaction records) were not retrieved for this Evidence Pack. The following concerns arise from the mechanistic and pharmacological context documented in the repurposing rationale:
-
-- **Pediatric CNS toxicity risk**: Alpha-2 adrenergic agonists as a class (including the closely related brimonidine) carry FDA black-box warnings for CNS depression, bradycardia, hypotension, and respiratory arrest in children under 2 years — the core demographic for Primary Congenital Glaucoma. Apraclonidine's paediatric safety has not been adequately characterised.
-- **Tachyphylaxis**: Rapid loss of IOP-lowering effect with continued use has been documented; chronic use in a hereditary condition is therefore mechanistically unsuitable.
-- **Systemic adrenergic effects**: Topical ophthalmic alpha-2 agonists can cause systemic absorption leading to drowsiness, dry mouth, and cardiovascular effects.
-
-Please refer to the package insert and relevant regulatory safety labelling for the complete warnings and contraindications profile before any clinical use.
+حالياً لا توجد أدبيات مرتبطة متاحة لأبراكلونيدين في الجلوكوما الأولية الوراثية.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+أبراكلونيدين حالياً ليس لديه أي تصاريح مسجلة في المملكة العربية السعودية. وهو غير متاح كمنتج مسجل تحت إشراف الهيئة العامة للغذاء والدواء السعودية.
 
-**Rationale:**
-The TxGNN prediction is mechanistically coherent — apraclonidine lowers IOP, and primary hereditary glaucoma is an IOP-driven disease — but the prediction score reflects graph-level mechanism connectivity rather than clinical evidence. Zero clinical trials, zero supporting publications, an unresolved safety profile, known tachyphylaxis with chronic use, and serious class-level paediatric toxicity warnings collectively render this candidate unsuitable for advancement without substantial additional investigation.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Resolve Blocking Data Gap (DG001)**: Obtain and parse the full package insert to establish formal warnings and contraindications before any safety stage evaluation (S1) can be completed.
-- **Resolve High Data Gap (DG002)**: Confirm detailed MOA via DrugBank API to support mechanistic scoring.
-- **Paediatric safety investigation**: Conduct a focused literature review on apraclonidine use in neonates and infants, including case reports and pharmacokinetic data; compare with brimonidine paediatric safety data.
-- **Tachyphylaxis characterisation**: Review published evidence on the timeline and reversibility of tachyphylaxis to assess whether any chronic-use protocol (e.g., intermittent dosing, combination therapy) might mitigate this limitation.
-- **Formulation / route assessment**: Confirm whether topical ophthalmic delivery achieves sufficient IOP reduction in paediatric eyes with congenital trabecular dysgenesis (the primary mechanism of PCG), as efficacy may differ from adult open-angle physiology.
-- **Regulatory pathway scoping**: Given zero Saudi Arabia authorizations, a full market entry assessment (SFDA registration pathway, import requirements) would be prerequisite to any development programme.
+لم يتم الحصول على بيانات السلامة الرسمية (تحذيرات نشرة المعلومات، المضادات الاستطبابية، وسجلات التفاعلات الدوائية) لحزمة الأدلة هذه. تنشأ المخاوف التالية من السياق الآلي والدوائي الموثق في تبرير إعادة صياغة المؤشر:
+
+- **خطر التسمم بالجهاز العصبي المركزي لدى الأطفال**: ناهضات ألفا-2 الأدرينالينية كفئة (بما فيها بريمونيدين المرتبط بقرب) تحمل تحذيرات صندوق أسود من FDA لاكتئاب الجهاز العصبي المركزي وبطء القلب وانخفاض ضغط الدم والتوقف التنفسي لدى الأطفال دون سن سنتين — وهي الفئة العمرية الأساسية للجلوكوما الخلقية الأولية (PCG). لم يتم توصيف ملف السلامة لدى الأطفال لأبراكلونيدين بشكل كافٍ.
+- **تطور التحمل السريع**: تم توثيق فقدان سريع للتأثير على تقليل ضغط العين مع الاستخدام المستمر؛ لذلك الاستخدام المزمن في حالة وراثية غير مناسب من الناحية الآلية.
+- **التأثيرات الأدرينالينية الجهازية**: يمكن للناهضات الموضعية لمستقبلات ألفا-2 في العين أن تسبب امتصاصاً جهازياً مما يؤدي إلى النعاس وجفاف الفم والتأثيرات القلبية الوعائية.
+
+يرجى الرجوع إلى نشرة المعلومات والتسمية الأمنية التنظيمية ذات الصلة للحصول على ملف التحذيرات والمضادات الاستطبابية الكاملة قبل أي استخدام سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**التبرير:**
+التنبؤ من TxGNN متسق من الناحية الآلية — أبراكلونيدين يقلل ضغط العين، والجلوكوما الأولية الوراثية مرض يسببه ارتفاع ضغط العين — لكن درجة التنبؤ تعكس اتصال الآلية على مستوى الرسم البياني وليس الدليل السريري. صفر تجارب سريرية، صفر منشورات داعمة، ملف سلامة غير محلول، تطور التحمل السريع المعروف مع الاستخدام المزمن، وتحذيرات سلامة خطيرة على مستوى الفئة لدى الأطفال مجتمعة تجعل هذا المرشح غير مناسب للمضي قدماً بدون تحقيق إضافي كبير.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- **حل فجوة البيانات الحاجزة (DG001)**: الحصول على نشرة المعلومات الكاملة ومعالجتها لإنشاء تحذيرات ومضادات استطبابية رسمية قبل أي تقييم مرحلة السلامة (S1) يمكن إكماله.
+- **حل فجوة البيانات العالية (DG002)**: تأكيد الآلية التفصيلية عبر DrugBank API لدعم النقاط الآلية.
+- **التحقيق في سلامة الأطفال**: إجراء مراجعة أدبية موجهة على استخدام أبراكلونيدين لدى حديثي الولادة والرضع، بما فيها تقارير الحالات وبيانات حركيات الأدوية؛ المقارنة ببيانات سلامة بريمونيدين لدى الأطفال.
+- **توصيف تطور التحمل السريع**: مراجعة الأدلة المنشورة عن الجدول الزمني وعكوسية تطور التحمل لتقييم ما إذا كان أي بروتوكول استخدام مزمن (على سبيل المثال، الجرعات المتقطعة، العلاج المركب) قد يخفف هذا القيد.
+- **تقييم الصيغة / المسار**: تأكيد ما إذا كان الإعطاء الموضعي في العين يحقق تقليلاً كافياً لضغط العين في عيون الأطفال التي تعاني من عسر التكوين الهدبي الخلقي (الآلية الأساسية لـ PCG)، حيث قد تختلف الفعالية عن فسيولوجيا الزاوية المفتوحة عند البالغين.
+- **تحديد نطاق المسار التنظيمي**: نظراً لصفر تصاريح المملكة العربية السعودية، فإن تقييم دخول السوق الكامل (مسار تسجيل الهيئة العامة للغذاء والدواء السعودية، متطلبات الاستيراد) سيكون شرطاً أساسياً لأي برنامج تطوير.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

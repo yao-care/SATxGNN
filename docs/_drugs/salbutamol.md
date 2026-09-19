@@ -29,64 +29,63 @@ indication_count: 10
 
 </div>
 
-Using the report template from the system prompt (no additional skill needed — this is direct, fully-specified report generation from provided evidence pack). Note: `predicted_indications[0]` in this pack is **papillary conjunctivitis** (highest TxGNN score, rank 143), which is a pure L5/Hold prediction with zero trial/literature support — I'm following the template literally as specified.
+# Salbutamol: من توسيع الشعب الهوائية (الربو/مرض الانسداد الرئوي المزمن) إلى التهاب الملتحمة الحليمي
 
-# Salbutamol: From Bronchodilation (Asthma/COPD) to Papillary Conjunctivitis
+## الملخص بجملة واحدة
 
-## One-Sentence Summary
+Salbutamol هو موسع قصبي ناهض β2-أدرينرجي قصير المفعول؛ وتشكل الوثائق التفصيلية بشأن المؤشرات الأصلية وآليات العمل حاليًا فجوة بيانات (انظر DG001/DG002).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **التهاب الملتحمة الحليمي**، وهو أعلى تنبؤ له (99.99%)،
+لكن لا توجد حاليًا **0 تجربة سريرية** و**0 منشورات** تدعم هذا الارتباط المرضي المحدد.
 
-Salbutamol is a short-acting β2-adrenergic agonist bronchodilator; detailed original-indication and mechanism-of-action documentation for this market is currently a data gap (see DG001/DG002).
-The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**, its single highest-scoring prediction (99.99%),
-but currently **0 clinical trials** and **0 publications** support this specific disease association.
+## نظرة سريعة
 
-## Quick Overview
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح في مجموعة الأدلة هذه (لا توجد نصوص مؤشرات مرخصة في الملف؛ فجوة بيانات في آليات العمل — انظر DG001/DG002) |
+| المؤشر الجديد المتنبأ به | التهاب الملتحمة الحليمي |
+| درجة التنبؤ في TxGNN | 99.99% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | الانتظار |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (no licensed indication text on file; MOA data gap — see DG001/DG002) |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## لماذا يكون هذا التنبؤ معقولًا؟
 
-## Why is This Prediction Reasonable?
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة (DG002، شدة عالية، استعلام DrugBank قيد الانتظار). بناءً على المعلومات المعروفة، Salbutamol هو ناهض مستقبلات β2-أدرينرجية قصير المفعول يُستخدم عادةً للقصبات الهوائية القابلة للعكس؛ نصه الأصلي للمؤشرات والوثائق التنظيمية غير موجودة في مجموعة الأدلة هذه (DG001، شدة الحجب — النشرة الدوائية TFDA لم تُحلل بعد)، لذلك لا يمكن استخلاص رابط قابل للتحقق بين استخدامه الراسخ والتهاب الملتحمة الحليمي في الوقت الحالي.
 
-Currently, detailed mechanism of action data is not available (DG002, High severity, DrugBank query pending). Based on known information, salbutamol is a short-acting β2-adrenoceptor agonist commonly used for reversible bronchospasm; its original indication text and regulatory documentation are not present in this evidence pack (DG001, Blocking severity — TFDA package insert not yet parsed), so no verifiable link between its established use and papillary conjunctivitis can be drawn at this time.
+بالنسبة لالتهاب الملتحمة الحليمي على وجه التحديد، فإن درجة النموذج العالية لا يصحبها أي تجربة سريرية أو أدبيات منشورة — تقف درجة TxGNN بمفردها، دون أي سلسلة أدلة آلية أو سريرية قابلة للاسترجاع.
 
-For papillary conjunctivitis specifically, the model's high score is not accompanied by any clinical trial or published literature — the TxGNN score stands alone, with no retrievable mechanistic or clinical evidence chain.
+بشكل ملحوظ، تحتوي مجموعة الأدلة نفسها على حالة عينية *ذات صلة* — التهاب الملتحمة الأرجي (الترتيب 8) — حيث توجد دراستان من دراسات علم الأدوية السابقة للسريري في الملف: قام Salbutamol بتثبيط التهاب الملتحمة الأرجي الفوري في نموذج خنزير غينيا (PMID 3666475)، وأظهرت ناهضات β2 الموضعية نشاطًا مضادًا للالتهاب في نسيج الملتحمة (PMID 2906082). التهاب الملتحمة الحليمي والتهاب الملتحمة الأرجي متقاربان من حيث الآلية (يتضمنان كلاهما فرط حساسية/التهاب الملتحمة)، لذلك توفر هذه الإشارة السابقة للسريري غير المباشرة بعض المعقولية البيولوجية — لكن هذا لا يشكل دليلًا مباشرًا على التهاب الملتحمة الحليمي نفسه، ولا توجد تجربة بشرية في أي من الحالتين.
 
-Notably, this same evidence pack contains a *related* ocular condition — atopic conjunctivitis (rank 8) — where two preclinical pharmacology studies are on file: salbutamol suppressed immediate allergic conjunctivitis in a guinea pig model (PMID 3666475), and topical β2-agonists showed anti-inflammatory activity in conjunctival tissue (PMID 2906082). Papillary conjunctivitis and atopic conjunctivitis are mechanistically adjacent (both involve conjunctival hypersensitivity/inflammation), so this indirect preclinical signal offers some biological plausibility — but it does not constitute direct evidence for papillary conjunctivitis itself, and no human trial in either condition exists.
+## أدلة التجارب السريرية
 
-## Clinical Trial Evidence
+لا توجد تجارب سريرية ذات صلة مسجلة حاليًا
 
-Currently no related clinical trials registered
+## الأدلة الأدبية
 
-## Literature Evidence
+لا توجد أدبيات ذات صلة متاحة حاليًا
 
-Currently no related literature available
+## معلومات السوق في المملكة العربية السعودية
 
-## Saudi Arabia Market Information
+لا يتم تسويق Salbutamol حاليًا في هذا النطاق (0 موافقات في الملف)، لذا لا يتوفر جدول المنتج/الموافقة.
 
-Salbutamol is not currently marketed in this jurisdiction (0 authorizations on file), so no product/authorization table is available.
+## اعتبارات السلامة
 
-## Safety Considerations
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
 
-Please refer to the package insert for safety information.
+## الخاتمة والخطوات التالية
 
-## Conclusion and Next Steps
+**القرار: الانتظار**
 
-**Decision: Hold**
+**المبرر:**
+يستند التنبؤ بالكامل على درجة نموذج TxGNN دون أي تجارب سريرية أو أدبيات داعمة لالتهاب الملتحمة الحليمي؛ وفقًا لمعايير مستوى الأدلة، هذا هو L5 (تنبؤ النموذج فقط)، الذي لا يفي بالمعايير للتطوير الإضافي.
 
-**Rationale:**
-The prediction rests entirely on the TxGNN model score with no supporting clinical trials or literature for papillary conjunctivitis; per the evidence-level rubric this is L5 (model prediction only), which does not meet the bar for further development.
+**المطلوب للمضي قدمًا:**
+- النشرة الدوائية TFDA/المحلية (التحذيرات، موانع الاستعمال) — حاليًا حجب (DG001)
+- بيانات آلية العمل من DrugBank — حاليًا ذات أولوية عالية (DG002)
+- أدلة سابقة للسريري أو سريرية مستهدفة بشكل محدد في التهاب الملتحمة الحليمي (يمكن لبيانات التهاب الملتحمة الأرجي المجاورة السابقة للسريري، PMID 3666475 و PMID 2906082، أن تثري دراسة توليد الفرضيات لكنها ليست دليلًا بديلًا)
+- لاحظ أن ضمن نفس مجموعة الأدلة، **التهاب الشعب الهوائية** (الترتيب 4، L2، مرحلة القرار S2، "المتابعة مع الضمانات") و**مرض انسداد الرئة** (الترتيب 10، L1، مرحلة القرار S3، "المتابعة مع الضمانات") تتمتع بأدلة أقوى بكثير ومباشرة من حيث الآلية وقد تكون مرشحين أكثر قابلية للتنفيذ لإعادة الاستخدام قصير الأجل مقارنة بالتهاب الملتحمة الحليمي
 
-**To proceed, the following is needed:**
-- TFDA/local package insert (warnings, contraindications) — currently Blocking (DG001)
-- Mechanism-of-action data from DrugBank — currently High priority (DG002)
-- Targeted preclinical or clinical evidence specifically in papillary conjunctivitis (the adjacent atopic conjunctivitis preclinical data, PMID 3666475 and PMID 2906082, could inform a hypothesis-generating study but is not substitute evidence)
-- Consider that within this same evidence pack, **bronchitis** (rank 4, L2, decision stage S2, "Proceed with Guardrails") and **obstructive lung disease** (rank 10, L1, decision stage S3, "Proceed with Guardrails") have substantially stronger, mechanistically direct evidence and may be more actionable near-term repurposing candidates than papillary conjunctivitis
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

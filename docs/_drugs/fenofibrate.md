@@ -29,87 +29,88 @@ indication_count: 7
 
 </div>
 
-# Fenofibrate: From Hyperlipidemia to Homozygous Familial Hypercholesterolemia
+# Fenofibrate: من فرط الدهنيات إلى فرط كوليسترول الدم الأسري المتماثل
 
-## One-Sentence Summary
+## الملخص بجملة واحدة
 
-Fenofibrate is a fibric-acid derivative internationally used to treat hyperlipidemia and mixed dyslipidemia (elevated triglycerides, low HDL), though it is not currently marketed in Saudi Arabia and no local approved-indication text is on file. The TxGNN model's top-ranked prediction for this drug is **Homozygous Familial Hypercholesterolemia (HoFH)**, but the supporting evidence is thin: **1 clinical trial** (studying a different drug, alirocumab, in an overlapping patient population) and **11 publications**, mostly guidelines/reviews rather than fenofibrate-specific HoFH trials.
+Fenofibrate هو مشتق من حمض الفيبريك يستخدم عالمياً لعلاج فرط الدهنيات واضطراب الدهون المختلط (ارتفاع الدهون الثلاثية، انخفاض HDL)، لكنه غير مسوق حالياً في المملكة العربية السعودية ولا توجد نصوص إشارات معتمدة محلياً في الملف. التنبؤ الأعلى ترتيباً من نموذج TxGNN لهذا الدواء هو **فرط كوليسترول الدم الأسري المتماثل (HoFH)**، لكن الأدلة الداعمة ضعيفة: **تجربة سريرية واحدة** (تدرس دواءً مختلفاً، alirocumab، في مجموعة مرضى متداخلة) و**11 منشور**، معظمها إرشادات/مراجعات بدلاً من تجارب HoFH محددة لـ fenofibrate.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | No Saudi Arabia license text on file (drug not marketed locally); internationally established for hyperlipidemia/mixed dyslipidemia as diet adjunct |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الإشارة الأصلية | لا توجد نصوص ترخيص المملكة العربية السعودية في الملف (الدواء غير مسوق محلياً)؛ مثبتة عالمياً لفرط الدهنيات/اضطراب الدهون المختلط كملحق للحمية |
+| الإشارة المتنبأ بها الجديدة | فرط كوليسترول الدم الأسري المتماثل |
+| درجة التنبؤ TxGNN | 99.91% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap). Based on known pharmacology, fenofibrate is a PPAR-alpha agonist that upregulates lipoprotein lipase (LPL) and lowers apoC-III, producing its well-established effects: substantial triglyceride reduction and moderate HDL elevation, with a comparatively modest effect on LDL-C.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (مميزة كفجوة بيانات ذات شدة عالية). بناءً على علم الأدوية المعروف، fenofibrate هو ناهض PPAR-alpha يزيد من نشاط LPL وينقص apoC-III، ينتج عنه تأثيراته المثبتة جيداً: انخفاض كبير في الدهون الثلاثية وارتفاع معتدل في HDL، مع تأثير أقل نسبياً على LDL-C.
 
-Homozygous Familial Hypercholesterolemia is caused by near-complete loss of LDL-receptor function, so LDL clearance is almost entirely receptor-dependent. Since fenofibrate's PPAR-alpha/LPL mechanism does not restore LDL-receptor activity, its LDL-lowering effect in HoFH patients is expected to be limited. Standard HoFH therapy relies on statins, PCSK9 inhibitors, lomitapide, and LDL apheresis — fenofibrate is, at best, a theoretical adjunct rather than a primary mechanism match. This is consistent with the model's own evidence trail: the one linked trial studies alirocumab (a PCSK9 inhibitor), not fenofibrate, with only patient-population overlap, and the literature is dominated by general dyslipidemia guidelines and reviews rather than fenofibrate-specific HoFH data.
+يحدث فرط كوليسترول الدم الأسري المتماثل بسبب فقدان شبه كامل لوظيفة LDL-receptor، لذا فإن التخلص من LDL يعتمد تقريباً بالكامل على المستقبل. نظراً لأن آلية PPAR-alpha/LPL لـ fenofibrate لا تستعيد نشاط LDL-receptor، فمن المتوقع أن يكون تأثيره على خفض LDL في مرضى HoFH محدوداً. يعتمد العلاج القياسي لـ HoFH على الستاتينات، ومثبطات PCSK9، ولوميتابيد، وفصادة LDL — fenofibrate هو، في أحسن الأحوال، ملحق نظري بدلاً من مطابقة آلية أساسية. هذا متسق مع مسار الأدلة الخاص بالنموذج: التجربة المرتبطة الوحيدة تدرس alirocumab (مثبط PCSK9)، وليس fenofibrate، مع تداخل مجموعة المرضى فقط، والأدب يهيمن عليه إرشادات وتقييمات فرط الدهنيات العامة بدلاً من بيانات HoFH المحددة لـ fenofibrate.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | أهم النتائج |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label study of **alirocumab** (PCSK9 inhibitor, not fenofibrate) in children/adolescents (8–17y) with HoFH; evaluated LDL-C reduction at Week 12/24/48 on top of background lipid-lowering therapy. Relevance grade C — study drug differs from fenofibrate; only the patient population overlaps. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | المرحلة 3 | مكتملة | 18 | دراسة مفتوحة التسمية لـ **alirocumab** (مثبط PCSK9، وليس fenofibrate) في الأطفال/المراهقين (8–17 سنة) مع HoFH؛ قيّمت انخفاض LDL-C في الأسبوع 12/24/48 على خلفية العلاج الدهني الخلفية. درجة الملاءمة C — دواء الدراسة يختلف عن fenofibrate؛ فقط مجموعة السكان متداخلة. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | أهم النتائج |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Clinical (fenofibrate) | Pharmacological Research Communications | 22 type II hyperlipoproteinemia patients on fenofibrate 300mg/day; one HoFH patient showed the greatest fall in total/LDL cholesterol among the cohort. |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | PK study | Pharmacotherapy | Characterizes pharmacokinetic interaction of lomitapide (approved HoFH adjunct) with commonly co-used lipid drugs including fenofibrate. |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart Journal | Notes fenofibrate monotherapy's most definite indication is severe hypertriglyceridemia (TG>500mg/dL); modest cardiovascular event reduction. |
-| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Review/Case series | Internal Medicine Journal | Discusses liver transplantation for HoFH alongside emerging lipid-lowering therapies when standard drugs/apheresis are insufficient. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocrine Practice | AACE/ACE dyslipidemia management and cardiovascular disease prevention guideline. |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Review | Annals of the NY Academy of Sciences | Reviews pharmacologic/surgical treatment of dyslipidemic children and adolescents, including fenofibrate among agents used in familial hypercholesterolemia. |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Review | Indian Heart Journal | Reviews statins and PCSK9 inhibitors for LDL-C reduction in severe hypercholesterolemia. |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Review | Pharmacotherapy | Reviews ezetimibe, a selective cholesterol absorption inhibitor, as a non-statin lipid-lowering option. |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Pharmacology and therapeutic potential of atorvastatin in hyperlipidaemias. |
-| [9627539](https://pubmed.ncbi.nlm.nih.gov/9627539/) | 1998 | Review | Canadian Journal of Cardiology | Advances in dyslipidemia drug treatment, focused on atorvastatin. |
+| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | سريرية (fenofibrate) | Pharmacological Research Communications | 22 مريضاً بفرط البروتين الدهني من النوع الثاني على fenofibrate 300mg/يوم؛ أظهر مريض واحد من HoFH أكبر انخفاض في إجمالي/LDL الكوليسترول بين المجموعة. |
+| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | دراسة حركية | Pharmacotherapy | يميز التفاعل الحركي الدوائي لـ lomitapide (ملحق معتمد HoFH) مع أدوية دهون مشتركة الاستخدام بما فيها fenofibrate. |
+| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | مراجعة | Indian Heart Journal | تلاحظ أن العلاج الأحادي بـ fenofibrate أكثر مؤشراً محدداً هو فرط شديد في الدهون الثلاثية (TG>500mg/dL)؛ انخفاض متواضع في أحداث القلب والأوعية الدموية. |
+| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | مراجعة/سلسلة حالات | Internal Medicine Journal | يناقش زراعة الكبد لـ HoFH إلى جانب العلاجات الدهنية الناشئة عندما تكون الأدوية القياسية/الفصادة غير كافية. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | إرشادات | Endocrine Practice | إرشاد AACE/ACE لإدارة اضطراب الدهون والوقاية من أمراض القلب والأوعية الدموية. |
+| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | مراجعة | Annals of the NY Academy of Sciences | يراجع العلاج الدوائي/الجراحي لاضطراب الدهون عند الأطفال والمراهقين، بما فيها fenofibrate من بين الوكلاء المستخدمين في فرط كوليسترول الدم الأسري. |
+| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | مراجعة | Indian Heart Journal | يراجع الستاتينات ومثبطات PCSK9 لانخفاض LDL-C في فرط كوليسترول الدم الشديد. |
+| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | مراجعة | Pharmacotherapy | يراجع ezetimibe، مثبط امتصاص الكوليسترول الانتقائي، كخيار خفض الدهون غير الستاتيني. |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | مراجعة | Drugs | علم الأدوية والإمكانية العلاجية لـ atorvastatin في فرط الدهنيات. |
+| [9627539](https://pubmed.ncbi.nlm.nih.gov/9627539/) | 1998 | مراجعة | Canadian Journal of Cardiology | التطورات في علاج اضطراب الدهون بالعقاقير، مركزة على atorvastatin. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Fenofibrate is not currently marketed in Saudi Arabia — no authorization records are available (`market_status: Not marketed`, 0 licenses on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(No key warnings, contraindications, or DDI data are currently on file — TFDA package insert data is flagged as a Blocking data gap, which also prevents a full S1 safety pre-assessment.)*
+Fenofibrate غير مسوق حالياً في المملكة العربية السعودية — لا توجد سجلات ترخيص متاحة (`market_status: Not marketed`، 0 تراخيص في الملف).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الملحقة لمعلومات السلامة.
 
-**Rationale:**
-Evidence for fenofibrate in HoFH is Level L4 — mechanism-based reasoning only, with no direct fenofibrate trial or literature data in this indication. The single linked trial evaluates a different drug (alirocumab), and HoFH's near-total LDL-receptor loss is not well-addressed by fenofibrate's PPAR-alpha/LPL mechanism.
+*(لا توجد بيانات تحذيرات رئيسية أو موانع استعمال أو تفاعلات دوائية حالياً في الملف — بيانات النشرة الملحقة TFDA مميزة كفجوة بيانات حاجزة، مما يمنع أيضاً تقييم سلامة S1 الكامل.)*
 
-**To proceed, the following is needed:**
-- Fenofibrate-specific clinical data (trial or observational) in confirmed HoFH patients, ideally as add-on to standard therapy (statin/PCSK9i/lomitapide/apheresis)
-- TFDA/Saudi package insert warnings and contraindications (currently Blocking data gap — required before any S1 safety screening)
-- Detailed mechanism of action (MOA) data from DrugBank (currently High-severity data gap)
-- Note: within this same evidence pack, the rank-2 candidate **hyperlipoproteinemia** already carries L1-level evidence (multiple completed Phase 3 fenofibrate RCTs) and a "Proceed with Guardrails" recommendation — if the strategic goal is any lipid-indication expansion for fenofibrate, that candidate is substantially more actionable than HoFH.
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+الأدلة على fenofibrate في HoFH هي المستوى L4 — الاستدلال على أساس الآلية فقط، بدون بيانات تجربة fenofibrate المباشرة أو بيانات أدب في هذا المؤشر. التجربة المرتبطة الوحيدة تقيم دواءً مختلفاً (alirocumab)، وفقدان LDL-receptor شبه الكامل في HoFH لا يتم معالجته جيداً بواسطة آلية PPAR-alpha/LPL لـ fenofibrate.
+
+**للمتابعة، يلزم التالي:**
+- بيانات سريرية محددة لـ fenofibrate (تجربة أو ملاحظة) في مرضى HoFH مؤكدين، يفضل كملحق للعلاج القياسي (ستاتين/PCSK9i/lomitapide/فصادة)
+- تحذيرات وموانع استعمال النشرة الملحقة TFDA/السعودية (حالياً فجوة بيانات حاجزة — مطلوبة قبل أي فحص سلامة S1)
+- بيانات آلية العمل التفصيلية (MOA) من DrugBank (حالياً فجوة بيانات ذات شدة عالية)
+- ملاحظة: ضمن حزمة الأدلة نفسها، المرشح المصنف الثاني **فرط البروتين الدهني** يحمل بالفعل أدلة على مستوى L1 (تجارب عشوائية محكومة متعددة مكتملة من المرحلة 3 لـ fenofibrate) وتوصية "المتابعة مع الحماية" — إذا كان الهدف الاستراتيجي هو أي توسع للمؤشرات الدهنية لـ fenofibrate، فإن هذا المرشح أكثر قابلية للتنفيذ بكثير من HoFH.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,87 +29,89 @@ indication_count: 4
 
 </div>
 
-# Hydroquinone: From Hyperpigmentation/Melasma to Seborrheic Keratosis
+# Hydroquinone: من فرط التصبغ/الكلف إلى التقرن الدهني
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Hydroquinone has no formally registered indication in Saudi Arabia (not currently marketed), but the evidence pack itself documents its established use as a topical tyrosinase-inhibiting depigmenting agent for hyperpigmentation and melasma. The TxGNN model predicts it may be effective for **seborrheic keratosis**, but this is currently supported only by **0 clinical trials** and **2 literature items** (one observational cohort study, one review), neither of which studied the disease directly.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally registered in Saudi Arabia (Not marketed, 0 authorizations); evidence pack indicates established use as a topical depigmenting agent for hyperpigmentation/melasma |
-| Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+لا يوجد لـ hydroquinone أي دلالة مسجلة رسمياً في المملكة العربية السعودية (غير مسوق حالياً)، لكن حزمة الأدلة نفسها توثق استخدامه الراسخ كعامل موضعي مثبط للتيروسيناز ومزيل للتصبغ لفرط التصبغ والكلف. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **التقرن الدهني**، لكن هذا يدعمه حالياً فقط **0 تجربة سريرية** و **منشوريْن أدبيَّيْن** (دراسة مجموعة واحدة، ومراجعة واحدة)، لم تدرس أي منهما المرض بشكل مباشر.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed DrugBank mechanism-of-action data for hydroquinone is not currently available in this evidence pack (data gap, High severity). However, based on the trial and literature evidence gathered, hydroquinone is a well-characterized tyrosinase inhibitor that reduces melanin synthesis, and it is used clinically as a topical skin-lightening agent for hyperpigmentation and melasma — this is corroborated by multiple trials in the pack that use "4% hydroquinone" as an active comparator for melasma (e.g., NCT05969587, NCT00616239, NCT02977507).
-
-Seborrheic keratosis, particularly its dermatosis papulosa nigra (DPN) variant common in darker-skinned patients, frequently presents with visibly hyperpigmented lesions. This creates a superficial mechanistic overlap with hydroquinone's pigment-suppressing action, which is the basis of the TxGNN association.
-
-However, the core pathology of seborrheic keratosis is benign keratinocyte hyperproliferation — not a melanocyte-driven process. Hydroquinone's tyrosinase inhibition can at most address secondary pigmentation of the lesion (a cosmetic effect) and does not target the proliferative epidermal pathology itself. This is therefore a symptomatic/cosmetic association rather than a disease-modifying mechanistic link.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| الدلالة الأصلية | غير مسجلة رسمياً في المملكة العربية السعودية (غير مسوق، 0 تصاريح)؛ توثق حزمة الأدلة استخدامه الراسخ كعامل موضعي مزيل للتصبغ لفرط التصبغ/الكلف |
+| دلالة جديدة متنبأ بها | التقرن الدهني |
+| درجة تنبؤ TxGNN | 99.73% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Cohort | J Plast Reconstr Aesthet Surg | Prospective observational study developing a combination treatment algorithm for overlapping facial pigmentary disorders in Asian patients; not specific to seborrheic keratosis or hydroquinone monotherapy. |
-| [17373158](https://pubmed.ncbi.nlm.nih.gov/17373158/) | 2007 | Review | J Drugs Dermatol | Review of treatment options for dermatosis papulosa nigra (histologically related to seborrheic keratosis); focuses on physical removal techniques for aesthetic concerns, not pharmacologic (hydroquinone) therapy. |
+بيانات آلية العمل المفصلة في DrugBank لـ hydroquinone غير متاحة حالياً في حزمة الأدلة هذه (فجوة بيانات، شدة عالية). ومع ذلك، بناءً على دليل التجارب والأدب العلمي المجمع، فإن hydroquinone هو مثبط تيروسيناز معروف جيداً يقلل من تخليق الميلانين، ويُستخدم سريرياً كعامل موضعي لتفتيح البشرة لفرط التصبغ والكلف — وهذا مدعوم بعدة تجارب في الحزمة التي تستخدم "hydroquinone بنسبة 4%" كمادة مقارنة فعالة للكلف (على سبيل المثال، NCT05969587، NCT00616239، NCT02977507).
 
----
+التقرن الدهني، خاصة متغيره dermatosis papulosa nigra (DPN) الشائع عند المرضى ذوي البشرة الداكنة، يظهر بشكل متكرر مع آفات مرئية فرط التصبغ. يخلق هذا تداخلاً ميكانيكياً سطحياً مع عمل hydroquinone في كبح الصباغ، وهو أساس ارتباط TxGNN.
 
-## Saudi Arabia Market Information
-
-Hydroquinone currently has no marketing authorization in Saudi Arabia (Not marketed, 0 licenses on file).
+ومع ذلك، فإن المرضية الأساسية للتقرن الدهني هي فرط التكاثر الحميد للخلايا الكيراتينية — وليست عملية يقودها الخلايا الصباغية. يمكن لتثبيط التيروسيناز من hydroquinone على الأكثر أن يعالج الصباغ الثانوي للآفة (تأثير تجميلي) ولا يستهدف المرضية البشرية التكاثرية نفسها. هذا بالتالي ارتباط عرضي/تجميلي وليس ارتباط آلي لتعديل المرض.
 
 ---
 
-## Other Predicted Indications (Lower Priority, Not Advanced)
+## أدلة التجارب السريرية
 
-Three additional TxGNN-predicted indications were evaluated but are not recommended for further work:
-
-- **Vulvar inverted follicular keratosis** (score 99.64%) — L5, no clinical trials or literature at all; purely a model-level association with no known pathological link to tyrosinase inhibition.
-- **Exanthem** (score 99.42%) — 7 clinical trials and 1 literature item were retrieved, but every trial actually concerns melasma/hyperpigmentation (not exanthem), suggesting a likely TxGNN disease-ontology mapping error rather than a genuine signal.
-- **Lichen disease** (score 99.07%) — L4, literature concerns lichen planus pigmentosus, where the actual reported treatment is topical tacrolimus, not hydroquinone; the mechanistic link is weak.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Safety Considerations
+## أدلة الأدب العلمي
 
-Please refer to the package insert for safety information.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|--------|--------|-----------|
+| [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | دراسة مجموعة | J Plast Reconstr Aesthet Surg | دراسة رصدية استشرافية تطور خوارزمية علاجية مدمجة لاضطرابات التصبغ الوجهي المتداخلة عند المرضى الآسيويين؛ غير محددة للتقرن الدهني أو العلاج بـ hydroquinone وحده. |
+| [17373158](https://pubmed.ncbi.nlm.nih.gov/17373158/) | 2007 | مراجعة | J Drugs Dermatol | مراجعة خيارات العلاج لـ dermatosis papulosa nigra (ذات صلة نسيجياً بالتقرن الدهني)؛ تركز على تقنيات الإزالة الفيزيائية للاهتمامات التجميلية، وليس العلاج الدوائي (hydroquinone). |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق المملكة العربية السعودية
 
-**Decision: Hold**
+لا يتمتع hydroquinone حالياً بأي تصريح تسويق في المملكة العربية السعودية (غير مسوق، 0 تراخيص في الملف).
 
-**Rationale:**
-The top-ranked prediction (seborrheic keratosis) is supported only by an observational cohort study and a review of an adjacent condition (DPN), with no disease-specific clinical trials, and the proposed mechanism addresses only secondary pigmentation rather than the disease's core proliferative pathology. Combined with a Blocking-severity data gap (no TFDA/SFDA package insert available for safety screening) and the drug's current non-marketed status in Saudi Arabia, the evidence does not support advancing beyond a research question at this time.
+---
 
-**To proceed, the following is needed:**
-- Official SFDA/TFDA package insert (warnings, contraindications, DDI) to complete the S1 safety screen (resolves DG001)
-- DrugBank/pharmacology MOA data to properly assess mechanistic plausibility (resolves DG002)
-- Disease-specific studies (ideally RCTs) of hydroquinone or class agents in seborrheic keratosis or DPN
-- Re-verification of the "exanthem" TxGNN mapping, given the strong mismatch between the predicted disease label and the retrieved trial evidence
+## دلالات أخرى متنبأ بها (أولوية منخفضة، لم تتم متابعتها)
+
+تم تقييم ثلاث دلالات إضافية متنبأ بها من TxGNN لكن لا يُنصح بمتابعتها:
+
+- **التقرن الجريبي المقلوب الفرجي** (درجة 99.64%) — L5، لا توجد تجارب سريرية أو أدب علمي على الإطلاق؛ ارتباط على مستوى النموذج فقط بدون ارتباط مرضي معروف لتثبيط التيروسيناز.
+- **الطفح الجلدي** (درجة 99.42%) — تم استرجاع 7 تجارب سريرية و 1 منشور أدبي، لكن كل تجربة تتعلق فعلياً بالكلف/فرط التصبغ (وليس الطفح الجلدي)، مما يشير إلى خطأ في خريطة أنطولوجية المرض TxGNN على الأرجح بدلاً من إشارة حقيقية.
+- **مرض الحزاز** (درجة 99.07%) — L4، الأدب العلمي يتناول الحزاز المسطح الصباغي، حيث العلاج المبلغ عنه فعلياً هو التاكروليموس الموضعي، وليس hydroquinone؛ الارتباط الآلي ضعيف.
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+يدعم التنبؤ الأعلى تصنيفاً (التقرن الدهني) فقط دراسة مجموعة رصدية ومراجعة لحالة مجاورة (DPN)، بدون تجارب سريرية محددة للمرض، والآلية المقترحة تتناول فقط الصباغ الثانوي بدلاً من المرضية البشرية التكاثرية الأساسية للمرض. مدمجة مع فجوة بيانات ذات مستوى حجب (لا توجد نشرة طبية TFDA/SFDA متاحة لفحص السلامة) وحالة عدم التسويق الحالية للدواء في المملكة العربية السعودية، فإن الأدلة لا تدعم التقدم بعيداً عن سؤال بحثي في هذا الوقت.
+
+**للمتابعة، فإن ما يلي ضروري:**
+
+- النشرة الطبية الرسمية TFDA/SFDA (التحذيرات والموانع والتفاعلات الدوائية) لإكمال فحص السلامة S1 (يحل DG001)
+- بيانات DrugBank/الصيدلة لآلية الفعل لتقييم صحيح لقابلية الآلية (يحل DG002)
+- دراسات محددة للمرض (يفضل التجارب العشوائية المحكومة) لـ hydroquinone أو عوامل من نفس الفئة في التقرن الدهني أو DPN
+- إعادة التحقق من خريطة "الطفح الجلدي" TxGNN، نظراً لعدم التطابق القوي بين تسمية المرض المتنبأ بها والأدلة التجريبية المسترجعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

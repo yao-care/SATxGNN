@@ -29,147 +29,148 @@ indication_count: 7
 
 </div>
 
-# Cholecalciferol: From Vitamin D Deficiency to Renal Osteodystrophy
+# الكولِيكالسيفيرول: من نقص فيتامين د إلى بيروفاسيا العظام الكلوية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cholecalciferol (Vitamin D3) is a fat-soluble prohormone essential for calcium and phosphorus homeostasis, classically used to prevent and treat vitamin D deficiency, nutritional rickets, and bone demineralisation disorders. The TxGNN model identified 7 candidate new indications; among these, **Renal Osteodystrophy** carries the strongest clinical evidence (L2, 32 clinical trials, 20 publications) and is the primary actionable target, while **Hypophosphatemic Rickets** (L3) offers a compelling secondary mechanistic case. The top 4 TxGNN-ranked predictions all score above 99.7% yet carry no disease-specific clinical evidence (L5), reflecting knowledge graph topology artefacts rather than genuine drug–disease relationships.
+الكولِيكالسيفيرول (فيتامين د3) هو هرمون سالف قابل للذوبان في الدهون ضروري لاستتباب الكالسيوم والفوسفور، يُستخدم تقليدياً لمنع وعلاج نقص فيتامين د والكساح الغذائي واضطرابات تمعدن العظام. حدد نموذج TxGNN 7 تطبيقات جديدة مرشحة؛ من بينها، **بيروفاسيا العظام الكلوية** تحمل أقوى أدلة سريرية (L2، 32 تجربة سريرية، 20 منشور) وهي الهدف الأساسي القابل للتطبيق، بينما **الكساح عسير الفوسفات** (L3) يقدم حالة ميكانيكية حيوية مقنعة. أفضل 4 تنبؤات مصنفة من TxGNN تحقق جميعها أكثر من 99.7٪ لكنها تحمل بدون أدلة سريرية خاصة بالمرض (L5)، مما يعكس تقع الرسم البياني للمعرفة بدلاً من العلاقات الحقيقية بين الدواء والمرض.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Vitamin D deficiency; nutritional rickets; bone metabolism support |
-| Predicted New Indication (Primary) | Renal Osteodystrophy |
-| TxGNN Prediction Score | 99.11% (Rank 6; highest-evidence among 7 predictions) |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | نقص فيتامين د؛ الكساح الغذائي؛ دعم استقلاب العظام |
+| المؤشر الجديد المتنبأ به (الأساسي) | بيروفاسيا العظام الكلوية |
+| درجة تنبؤ TxGNN | 99.11% (الترتيب 6؛ الأعلى دليلاً بين التنبؤات السبعة) |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | غير مُسوقة |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## All TxGNN Predictions at a Glance
+## جميع تنبؤات TxGNN في لمحة
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
+| الترتيب | المؤشر المتنبأ به | درجة TxGNN | مستوى الدليل | القرار |
 |------|---------------------|-------------|----------------|---------|
-| 1 | Familial isolated hypoparathyroidism (PTH secretion defect) | 99.79% | L5 | Hold |
-| 2 | Acromesomelic dysplasia, Campailla-Martinelli type | 99.78% | L5 | Hold |
-| 3 | Craniofacial conodysplasia | 99.75% | L5 | Hold |
-| 4 | Dahlberg-Borer-Newcomer syndrome | 99.73% | L5 | Hold |
-| 5 | Hypophosphatemic Rickets | 99.20% | L3 | Research Question |
-| 6 | Renal Osteodystrophy | 99.11% | **L2** | **Proceed with Guardrails** |
-| 7 | Renal Tubular Acidosis | 99.06% | L4 | Research Question |
+| 1 | الفرط الدريقي العائلي المعزول (عيب إفراز PTH) | 99.79% | L5 | وقف |
+| 2 | عسر التكون الضامر مع الأطراف، نوع Campailla-Martinelli | 99.78% | L5 | وقف |
+| 3 | تشنج الوجه والقحف | 99.75% | L5 | وقف |
+| 4 | متلازمة Dahlberg-Borer-Newcomer | 99.73% | L5 | وقف |
+| 5 | الكساح عسير الفوسفات | 99.20% | L3 | سؤال بحثي |
+| 6 | بيروفاسيا العظام الكلوية | 99.11% | **L2** | **المتابعة مع ضمانات** |
+| 7 | الحماض الأنبوبي الكلوي | 99.06% | L4 | سؤال بحثي |
 
-> **Note on ranks 1–4:** All four are scored L5 with zero disease-specific clinical trials or literature. The rationale documents indicate these predictions originate from shared "calcium metabolism" or "skeletal dysplasia" nodes in the knowledge graph, not from biological plausibility. They are retained here for completeness but warrant no further short-term action.
-
----
-
-## Why Is This Prediction Reasonable?
-
-Cholecalciferol is activated in two sequential steps: hepatic hydroxylation to 25-hydroxyvitamin D3 (calcidiol, the circulating storage form), followed by renal 1α-hydroxylation to 1,25-dihydroxyvitamin D3 (calcitriol), the biologically active hormone. Calcitriol binds the nuclear Vitamin D Receptor (VDR) to upregulate intestinal calcium and phosphate absorption, suppress PTH gene transcription, and promote osteoblast mineralisation. Detailed DrugBank MOA data is currently unavailable for this report; the mechanistic reasoning below is drawn from published endocrinology literature.
-
-In chronic kidney disease (CKD), progressive nephron loss reduces renal 1α-hydroxylase activity, leading to calcitriol deficiency. The resulting hypocalcaemia stimulates PTH secretion (secondary hyperparathyroidism), driving bone resorption and impaired mineralisation — the constellation of pathologies termed renal osteodystrophy. Cholecalciferol supplementation replenishes the 25-OH-D3 substrate pool, enabling partial calcitriol synthesis through extrarenal 1α-hydroxylase expressed in macrophages, osteoblasts, and parathyroid glands. This extrarenal pathway is operative even when renal capacity is substantially compromised. In early-to-moderate CKD (Stages G1–G3), cholecalciferol supplementation has clinical-trial support for reducing PTH and improving bone mineral markers. In advanced CKD and ESRD, active analogues (calcitriol, paricalcitol, doxercalciferol) are the clinical standard because they bypass the impaired renal activation step entirely.
-
-For hypophosphatemic rickets (Rank 5), the relationship is more complex: XLH is characterised by elevated FGF23, which actively suppresses renal 1α-hydroxylase — effectively blocking cholecalciferol → calcitriol conversion. The historical treatment included phosphate salts combined with active Vitamin D analogues (not cholecalciferol itself), and the current standard has shifted to burosumab (anti-FGF23 antibody). Cholecalciferol's role here is adjunctive substrate replenishment, and its efficacy as a primary agent is limited by the FGF23-mediated block.
+> **ملاحظة على الترتيبات 1-4:** جميعها مصنفة L5 بدون تجارب سريرية خاصة بالمرض أو أدبيات. تشير وثائق المنطق إلى أن هذه التنبؤات تنشأ من عُقد "استقلاب الكالسيوم" أو "عسر التكون الهيكلي" المشتركة في الرسم البياني للمعرفة، وليس من القابلية البيولوجية. يتم الاحتفاظ بها هنا لتمام الاطلاع ولكنها لا تستحق أي إجراء قصير الأجل.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-*The following tables focus on the two clinically actionable indications: Renal Osteodystrophy (Rank 6, L2) and Hypophosphatemic Rickets (Rank 5, L3).*
+يتم تنشيط الكولِيكالسيفيرول في خطوتين متسلسلتين: الهيدروكسيليز الكبدي إلى 25-هيدروكسي-فيتامين د3 (كالسيديول، شكل التخزين الدوري)، تليها هيدروكسيليز ألفا-1 الكلوي إلى 1,25-ثنائي هيدروكسي-فيتامين د3 (كالسيتريول)، الهرمون البيولوجي النشط. يرتبط كالسيتريول بمستقبل فيتامين د النووي (VDR) لتحفيز امتصاص الكالسيوم والفوسفات المعوي وقمع نسخ جين PTH وتعزيز تمعدن بناة العظام. بيانات DrugBank عن آلية العمل التفصيلية غير متوفرة حالياً لهذا التقرير؛ المنطق الميكانيكي أدناه مستمد من الأدبيات الغدية الهرمونية المنشورة.
 
-### Renal Osteodystrophy
+في مرض الكلى المزمن (CKD)، يقلل فقدان النيفرونات التدريجي من نشاط هيدروكسيليز ألفا-1 الكلوي، مما يؤدي إلى نقص كالسيتريول. يحفز نقص الكالسيوم الناتج إفراز PTH (فرط نشاط الغدة الدرقية الثانوي)، مما يؤدي إلى امتصاص العظام والتمعدن الضعيف - مجموعة علم الأمراض المسماة بيروفاسيا العظام الكلوية. تكملة الكولِيكالسيفيرول تعيد تعبئة بركة الركيزة 25-OH-D3، مما يتيح تخليق كالسيتريول الجزئي من خلال هيدروكسيليز ألفا-1 خارج الكلى المعبرة في الخلايا الضامة وبناة العظام والغدد الجاردرقية. هذا المسار خارج الكلى فعال حتى عندما تكون السعة الكلوية مخفضة بشكل كبير. في أمراض الكلى المزمنة المبكرة إلى المتوسطة (المراحل G1-G3)، أظهرت المحاولات السريرية لتكملة الكولِيكالسيفيرول الدعم لتقليل PTH وتحسين علامات كثافة معادن العظام. في CKD المتقدم وESRD، النظائر النشطة (كالسيتريول، باريكالسيتول، دوكسيركالسيفيرول) هي المعيار السريري لأنها تتجاوز خطوة التنشيط الكلوي الضعيفة بالكامل.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بالنسبة للكساح عسير الفوسفات (الترتيب 5)، تكون العلاقة أكثر تعقيداً: يتميز XLH بـ FGF23 مرتفع، الذي يقمع بنشاط هيدروكسيليز ألفا-1 الكلوي - وهو يحظر بشكل فعلي تحويل الكولِيكالسيفيرول → كالسيتريول. كان العلاج التاريخي يشمل أملاح الفوسفات مع نظائر فيتامين د النشطة (وليس الكولِيكالسيفيرول نفسه)، والمعيار الحالي انزاح نحو بوروسوماب (جسم مضاد مناهض لـ FGF23). دور الكولِيكالسيفيرول هنا هو تجديد الركيزة المساعدة، وفعاليته كعامل أساسي محدودة بسبب كتلة FGF23-الوسيطة.
+
+---
+
+## أدلة التجارب السريرية
+
+*الجداول التالية تركز على المؤشرات القابلة للتطبيق السريري: بيروفاسيا العظام الكلوية (الترتيب 6، L2) والكساح عسير الفوسفات (الترتيب 5، L3).*
+
+### بيروفاسيا العظام الكلوية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00656032](https://clinicaltrials.gov/study/NCT00656032) | Phase 2 | Completed | 12 | Most directly relevant trial: evaluates Vitamin D receptor activation effects on insulin resistance and inflammation in ESRD; tests hypothesis that Vitamin D3 analogue restores insulin sensitivity and reduces inflammatory markers in end-stage kidney disease |
-| [NCT00285467](https://clinicaltrials.gov/study/NCT00285467) | N/A | Completed | 55 | Head-to-head comparison of **Cholecalciferol vs. Doxercalciferol** for secondary hyperparathyroidism in CKD stages 3–4; directly tests cholecalciferol's ability to control PTH in moderate CKD |
-| [NCT00752401](https://clinicaltrials.gov/study/NCT00752401) | Phase 3 | Unknown | 200 | VITA-D trial: **Cholecalciferol** substitution in Vitamin D-deficient kidney transplant recipients; evaluates GFR, acute rejection episodes, infection rates, and CRP at 1 year post-transplant |
-| [NCT00001242](https://clinicaltrials.gov/study/NCT00001242) | N/A | Completed | 70 | NIH longitudinal study on states of Vitamin D and PTH resistance (hypocalcaemia, rickets, osteomalacia, pseudohypoparathyroidism); directly addresses Vitamin D resistance mechanisms relevant to CKD |
-| [NCT00108394](https://clinicaltrials.gov/study/NCT00108394) | Phase 4 | Completed | N/A | Evaluation and management of osteopenia and renal osteodystrophy; assesses pamidronate for adynamic bone disease in the context of comprehensive CKD mineral management |
-| [NCT00560300](https://clinicaltrials.gov/study/NCT00560300) | Phase 2 | Completed | 61 | Comparison of calcitriol vs. doxercalciferol and two phosphate binders on bone disease in children with kidney failure; characterises the differential effects of Vitamin D analogues in paediatric CKD-MBD |
-| [NCT03960437](https://clinicaltrials.gov/study/NCT03960437) | Phase 2 | Completed | 22 | Etelcalcetide (calcimimetic) effects on bone tissue properties and calcification propensity in ESKD with hyperparathyroidism; provides comparative context for Vitamin D pathway vs. calcimimetic interventions |
-| [NCT03202407](https://clinicaltrials.gov/study/NCT03202407) | Phase 3 | Unknown | 40 | Non-calcium vs. calcium-based phosphate binders in paediatric haemodialysis patients with CKD-MBD; disease context directly relevant to Vitamin D metabolism abnormalities in dialysis patients |
-| [NCT00527085](https://clinicaltrials.gov/study/NCT00527085) | Phase 2 | Completed | 45 | 12-month randomised, double-blind, placebo-controlled study of cinacalcet (calcimimetic) in haemodialysis patients with secondary hyperparathyroidism and renal osteodystrophy; includes bone biopsy endpoints |
-| [NCT01149291](https://clinicaltrials.gov/study/NCT01149291) | N/A | Completed | 511 | 18-month post-marketing observational study of selective Vitamin D Receptor Activators (sVDRA) for secondary hyperparathyroidism in haemodialysis patients in Turkey; real-world efficacy and safety of VDR-targeting agents in ESRD |
+| [NCT00656032](https://clinicaltrials.gov/study/NCT00656032) | المرحلة 2 | مكتملة | 12 | أكثر التجارب ملاءمة بشكل مباشر: تقيم تأثيرات تنشيط مستقبل فيتامين د على مقاومة الإنسولين والالتهاب في ESRD؛ تختبر الفرضية القائلة بأن نظير فيتامين د3 يعيد حساسية الإنسولين ويقلل من علامات الالتهاب في قصور الكلى بمرحلة نهائية |
+| [NCT00285467](https://clinicaltrials.gov/study/NCT00285467) | N/A | مكتملة | 55 | مقارنة رأس برأس بين **الكولِيكالسيفيرول مقابل الدوكسيركالسيفيرول** لفرط نشاط الغدة الدرقية الثانوي في مراحل CKD 3-4؛ تختبر بشكل مباشر قدرة الكولِيكالسيفيرول على السيطرة على PTH في CKD المتوسط |
+| [NCT00752401](https://clinicaltrials.gov/study/NCT00752401) | المرحلة 3 | غير معروف | 200 | تجربة VITA-D: تكملة **الكولِيكالسيفيرول** في متلقي الكلى الناقص فيتامين د؛ تقيم معدل الترشيح الكبيبي وحلقات الرفض الحادة ومعدلات العدوى و CRP في السنة الأولى بعد الزراعة |
+| [NCT00001242](https://clinicaltrials.gov/study/NCT00001242) | N/A | مكتملة | 70 | دراسة طولية لمعاهد الصحة الوطنية على حالات فيتامين د ومقاومة PTH (نقص الكالسيوم والكساح وتلين العظام والعجز الكاذب عن فرط جار الدرقيات)؛ يعالج بشكل مباشر آليات مقاومة فيتامين د ذات الصلة بـ CKD |
+| [NCT00108394](https://clinicaltrials.gov/study/NCT00108394) | المرحلة 4 | مكتملة | N/A | تقييم وإدارة هشاشة العظام وبيروفاسيا العظام الكلوية؛ تقيم باميدرونات لمرض العظام ديناميكي منخفض في السياق الشامل لإدارة معادن CKD |
+| [NCT00560300](https://clinicaltrials.gov/study/NCT00560300) | المرحلة 2 | مكتملة | 61 | مقارنة كالسيتريول مقابل دوكسيركالسيفيرول واثنين من مانعات الفوسفات على مرض العظام لدى الأطفال الذين يعانون من قصور كلوي؛ يميز التأثيرات التفاضلية لنظائر فيتامين د في CKD-MBD للأطفال |
+| [NCT03960437](https://clinicaltrials.gov/study/NCT03960437) | المرحلة 2 | مكتملة | 22 | تأثيرات إتيلكالسيتيد (محاكي الكالسيوم) على خصائص أنسجة العظام والقابلية للتكلس في ESKD مع فرط نشاط الغدة الدرقية؛ يوفر سياقاً مقارناً لمسار فيتامين د مقابل التدخلات المحاكاة للكالسيوم |
+| [NCT03202407](https://clinicaltrials.gov/study/NCT03202407) | المرحلة 3 | غير معروف | 40 | مانعات الفوسفات غير القائمة على الكالسيوم مقابل تلك القائمة على الكالسيوم في مرضى الهيموديليز الأطفال مع CKD-MBD؛ سياق المرض ذو صلة مباشرة باضطرابات استقلاب فيتامين د في مرضى الغسيل الكلوي |
+| [NCT00527085](https://clinicaltrials.gov/study/NCT00527085) | المرحلة 2 | مكتملة | 45 | دراسة عشوائية مزدوجة التعمية محكومة بالدواء الوهمي لمدة 12 شهراً لسيناكالسيت (محاكي كالسيوم) في مرضى الهيموديليز الذين يعانون من فرط نشاط الغدة الدرقية الثانوي وبيروفاسيا العظام الكلوية؛ تتضمن نقاط نهاية خزعة العظام |
+| [NCT01149291](https://clinicaltrials.gov/study/NCT01149291) | N/A | مكتملة | 511 | دراسة مراقبة سابقة للتسويق لمدة 18 شهراً لمنشطات مستقبل فيتامين د الانتقائية (sVDRA) لفرط نشاط الغدة الدرقية الثانوي في مرضى الهيموديليز في تركيا؛ فعالية وسلامة الحقيقية من وكلاء استهداف VDR في ESRD |
 
-### Hypophosphatemic Rickets
+### الكساح عسير الفوسفات
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02915705](https://clinicaltrials.gov/study/NCT02915705) | Phase 3 | Completed | 61 | Burosumab vs. oral phosphate + **active Vitamin D** (control arm) in paediatric XLH; establishes conventional Vitamin D-based treatment as the clinical comparator and provides quantitative efficacy benchmarks |
-| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | Early Phase 1 | Active, Not Recruiting | 20 | **Calcitriol monotherapy** (without phosphate) in children and adults with XLH; tests whether Vitamin D metabolite alone improves serum phosphate and skeletal mineralisation without increasing nephrocalcinosis |
-| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | Phase 4 | Unknown | 100 | High-dose vs. standard-dose calcitriol combined with neutral phosphate in children with XLH; establishes optimal dosing for active Vitamin D analogues in hypophosphatemic rickets |
-| [NCT03920072](https://clinicaltrials.gov/study/NCT03920072) | Phase 3 | Completed | 35 | Long-term safety and efficacy of burosumab (anti-FGF23) in adult XLH; provides comparative context showing outcomes achievable beyond the conventional Vitamin D + phosphate paradigm |
-| [NCT01652573](https://clinicaltrials.gov/study/NCT01652573) | N/A | Completed | 21 | Nasal calcitonin to reduce circulating FGF23 and phosphate wasting in XLH; complementary treatment strategy addressing the upstream FGF23 block that limits cholecalciferol activation |
+| [NCT02915705](https://clinicaltrials.gov/study/NCT02915705) | المرحلة 3 | مكتملة | 61 | بوروسوماب مقابل الفوسفات الفموي + **فيتامين د النشط** (ذراع المراقبة) في XLH للأطفال؛ ينشئ العلاج القائم على فيتامين د التقليدي كمقارن سريري ومقاييس فعالية كمية |
+| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | المرحلة 1 المبكرة | نشط، غير قابل للتجنيد | 20 | **أحادي العلاج بالكالسيتريول** (بدون فوسفات) في الأطفال والبالغين الذين يعانون من XLH؛ يختبر ما إذا كان نظير فيتامين د الأيضي وحده يحسن الفوسفات المصل والتمعدن الهيكلي بدون زيادة تكلس النسيج الكلوي |
+| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | المرحلة 4 | غير معروف | 100 | جرعة عالية مقابل جرعة قياسية من كالسيتريول مع فوسفات محايد في الأطفال الذين يعانون من XLH؛ ينشئ الجرعة المثلى للنظائر النشطة لفيتامين د في الكساح عسير الفوسفات |
+| [NCT03920072](https://clinicaltrials.gov/study/NCT03920072) | المرحلة 3 | مكتملة | 35 | السلامة طويلة الأجل والفعالية لبوروسوماب (مناهض FGF23) في XLH للبالغين؛ يوفر سياقاً مقارناً يظهر النتائج التي يمكن تحقيقها بما يتجاوز نموذج فيتامين د + فوسفات التقليدي |
+| [NCT01652573](https://clinicaltrials.gov/study/NCT01652573) | N/A | مكتملة | 21 | كالسيتونين الأنف لتقليل FGF23 الدوراني وهدر الفوسفات في XLH؛ استراتيجية علاج مكملة تعالج كتلة FGF23 العليا التي تحد من تنشيط الكولِيكالسيفيرول |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-### Renal Osteodystrophy
+### بيروفاسيا العظام الكلوية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [9684690](https://pubmed.ncbi.nlm.nih.gov/9684690/) | 1998 | Review | Artificial Organs | Comprehensive diagnostic and treatment review of renal osteodystrophy subtypes (osteitis fibrosa, osteomalacia, adynamic bone); identifies native Vitamin D deficiency as a distinct cause of osteomalacia in CKD patients |
-| [12944733](https://pubmed.ncbi.nlm.nih.gov/12944733/) | 2003 | Review | Blood Purification | Pathogenesis and treatment of ROD; documents calcitriol deficiency from impaired renal 1α-hydroxylase as a primary driver of secondary hyperparathyroidism and high-turnover bone disease |
-| [12386262](https://pubmed.ncbi.nlm.nih.gov/12386262/) | 2002 | Review | Nephrol Dial Transplant | Secondary hyperparathyroidism in renal osteodystrophy; describes decreased calcitriol and calcium-sensing receptor density as key mechanisms; relevant to cholecalciferol's substrate-replacement rationale |
-| [3909812](https://pubmed.ncbi.nlm.nih.gov/3909812/) | 1985 | Review | Am J Med Sci | Foundational review on altered Vitamin D, calcium, phosphorus, and PTH metabolism in renal failure; establishes theoretical basis for Vitamin D supplementation in CKD bone disease |
-| [16970258](https://pubmed.ncbi.nlm.nih.gov/16970258/) | 2006 | Review | Saudi J Kidney Dis Transplant | Renal osteodystrophy review from a Saudi-published journal; discusses shift from high-turnover to low-turnover bone disease and implications for treatment strategy in dialysis populations — directly relevant to Saudi Arabia clinical context |
-| [3518448](https://pubmed.ncbi.nlm.nih.gov/3518448/) | 1986 | Review | Am J Med Sci | Updated review on ROD pathogenesis and treatment; discusses Vitamin D metabolite deficiency and its correction as part of management |
-| [8512774](https://pubmed.ncbi.nlm.nih.gov/8512774/) | 1993 | Case Series | Curr Opin Rheumatol | Aluminium-related bone disease and adynamic bone disease in uraemic patients; discusses phosphate binder optimisation and residual bone disease; relevant to distinguishing ROD subtypes amenable to Vitamin D intervention |
+| [9684690](https://pubmed.ncbi.nlm.nih.gov/9684690/) | 1998 | مراجعة | Artificial Organs | مراجعة تشخيصية وعلاجية شاملة لأنماط بيروفاسيا العظام الكلوية (التهاب العظم الليفي، تلين العظام، مرض العظام ديناميكي منخفض)؛ يحدد نقص فيتامين د الطبيعي كسبب مميز لتلين العظام في مرضى CKD |
+| [12944733](https://pubmed.ncbi.nlm.nih.gov/12944733/) | 2003 | مراجعة | Blood Purification | الفيزيولوجيا المرضية والعلاج لـ ROD؛ يوثق نقص كالسيتريول من ضعف هيدروكسيليز ألفا-1 الكلوي كمحرك أساسي لفرط نشاط الغدة الدرقية الثانوي ومرض العظام ذي الدوران المرتفع |
+| [12386262](https://pubmed.ncbi.nlm.nih.gov/12386262/) | 2002 | مراجعة | Nephrol Dial Transplant | فرط نشاط الغدة الدرقية الثانوي في بيروفاسيا العظام الكلوية؛ يصف انخفاض كالسيتريول وكثافة مستقبل حساس الكالسيوم كآليات رئيسية؛ ذات صلة بمنطق استبدال الركيزة للكولِيكالسيفيرول |
+| [3909812](https://pubmed.ncbi.nlm.nih.gov/3909812/) | 1985 | مراجعة | Am J Med Sci | مراجعة تأسيسية عن فيتامين د والكالسيوم والفوسفور وتغيرات PTH المتغيرة في قصور كلوي؛ ينشئ الأساس النظري لتكملة فيتامين د في مرض العظام الكلوي |
+| [16970258](https://pubmed.ncbi.nlm.nih.gov/16970258/) | 2006 | مراجعة | Saudi J Kidney Dis Transplant | مراجعة بيروفاسيا العظام الكلوية من مجلة سعودية منشورة؛ تناقش التحول من مرض العظام ذي الدوران المرتفع إلى منخفض الدوران وآثاره على استراتيجية العلاج في السكان في الغسيل الكلوي - ذات صلة مباشرة بالسياق السريري بالمملكة العربية السعودية |
+| [3518448](https://pubmed.ncbi.nlm.nih.gov/3518448/) | 1986 | مراجعة | Am J Med Sci | مراجعة محدثة عن الفيزيولوجيا المرضية لـ ROD والعلاج؛ تناقش نقص نظير فيتامين د وتصحيحه كجزء من الإدارة |
+| [8512774](https://pubmed.ncbi.nlm.nih.gov/8512774/) | 1993 | سلسلة حالات | Curr Opin Rheumatol | مرض العظام المرتبط بالألومنيوم ومرض العظام ديناميكي منخفض في مرضى الدم البوليين؛ ناقش تحسين مانع الفوسفات ومرض العظام المتبقي؛ ذات صلة بتمييز أنماط ROD القابلة للإفادة من تدخل فيتامين د |
 
-### Hypophosphatemic Rickets
+### الكساح عسير الفوسفات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38337700](https://pubmed.ncbi.nlm.nih.gov/38337700/) | 2024 | Review | Nutrients | Types of rickets and treatment with Vitamin D and analogues; explicitly addresses cholecalciferol, ergocalciferol, calcitriol, and alfacalcidol in different rickets subtypes including XLH; most current and comprehensive treatment review |
-| [31392510](https://pubmed.ncbi.nlm.nih.gov/31392510/) | 2020 | Review | Pediatr Nephrol | Mineralised tissues in hypophosphatemic rickets; details PHEX mutation → elevated FGF23 → phosphate wasting → growth plate and bone mineralisation defects; explains why cholecalciferol's activation is mechanistically constrained |
-| [26813507](https://pubmed.ncbi.nlm.nih.gov/26813507/) | 2016 | Review | Clinical Calcium | FGF23-related hypophosphatemic rickets: current therapy and unresolved issues; reviews active Vitamin D + phosphate combination and its limitations including nephrocalcinosis and secondary HPT complications |
-| [35226335](https://pubmed.ncbi.nlm.nih.gov/35226335/) | 2022 | Cohort | J Endocrinol Invest | Retrospective cohort study of growth trajectories in hereditary hypophosphatemic rickets from birth to adulthood; quantifies the disease burden that Vitamin D-based treatment is expected to ameliorate |
-| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | Review | Pediatr Endocrinol Rev | Early calcitriol and phosphate therapy in XLH: height data from 127 patients across 49 centres; documents the effect of early Vitamin D-based treatment initiation on final height outcomes |
+| [38337700](https://pubmed.ncbi.nlm.nih.gov/38337700/) | 2024 | مراجعة | Nutrients | أنواع الكساح والعلاج بفيتامين د والنظائر؛ يعالج بشكل صريح الكولِيكالسيفيرول والإرجوكالسيفيرول والكالسيتريول والألفاكالسيدول في أنماط كساح مختلفة تشمل XLH؛ أكثر مراجعة حديثة وشاملة للعلاج |
+| [31392510](https://pubmed.ncbi.nlm.nih.gov/31392510/) | 2020 | مراجعة | Pediatr Nephrol | الأنسجة المعدنية في الكساح عسير الفوسفات؛ تفاصيل طفرة PHEX → FGF23 مرتفع → هدر الفوسفات → عيوب لوحة النمو والتمعدن العظمي؛ يشرح لماذا تنشيط الكولِيكالسيفيرول محدود ميكانيكياً |
+| [26813507](https://pubmed.ncbi.nlm.nih.gov/26813507/) | 2016 | مراجعة | Clinical Calcium | الكساح عسير الفوسفات المرتبط بـ FGF23: العلاج الحالي والمشاكل التي لم تُحل؛ يراجع مزيج فيتامين د النشط + فوسفات وقيوده بما في ذلك تكلس النسيج الكلوي ومضاعفات فرط نشاط الغدة الدرقية الثانوي |
+| [35226335](https://pubmed.ncbi.nlm.nih.gov/35226335/) | 2022 | مجموعة | J Endocrinol Invest | دراسة مجموعة بأثر رجعي لمسارات النمو في الكساح عسير الفوسفات الموروث من الولادة إلى البلوغ؛ يحدد مدى المرض الذي يُتوقع أن يخفف من العلاج القائم على فيتامين د |
+| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | مراجعة | Pediatr Endocrinol Rev | العلاج المبكر بـ كالسيتريول والفوسفات في XLH: بيانات الارتفاع من 127 مريضاً عبر 49 مركزاً؛ يوثق تأثير بدء العلاج المبكر القائم على فيتامين د على نتائج الارتفاع النهائي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Cholecalciferol (Vitamin D3) is currently **not registered** in the Saudi Arabia regulatory database — 0 authorisations on record in this dataset. As a widely available nutritional supplement and WHO Essential Medicine globally, it is likely accessible through international channels or as an unregistered imported product; however, formal regulatory approval in Saudi Arabia is not documented here.
+الكولِيكالسيفيرول (فيتامين د3) غير مسجل حالياً **في قاعدة بيانات المملكة العربية السعودية** - 0 ترخيصات مسجلة في مجموعة البيانات هذه. كملحق غذائي متاح على نطاق واسع ودواء أساسي من منظمة الصحة العالمية عالمياً، فمن المحتمل أن يكون متاحاً من خلال قنوات دولية أو كمنتج مستورد غير مسجل؛ ومع ذلك، الموافقة التنظيمية الرسمية في المملكة العربية السعودية غير موثقة هنا.
 
-*No authorisation records to display.*
+*لا توجد سجلات ترخيصية للعرض.*
 
-> If pursuing a formal indication in Saudi Arabia, a full regulatory submission to the Saudi Food & Drug Authority (SFDA) would be required, including Vitamin D3 being registered as a pharmaceutical product rather than a supplement.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-In the absence of Saudi Arabia regulatory filing data, the following general pharmacological safety signals are noted from the published literature (not from a regulatory dossier):
-
-- **Hypercalcaemia risk**: High-dose or prolonged cholecalciferol supplementation can cause hypercalcaemia and hypercalciuria, particularly in patients with impaired renal regulation of calcium homeostasis (directly relevant to CKD and renal osteodystrophy populations)
-- **Metastatic calcification in CKD**: In dialysis and advanced CKD patients, excessive Vitamin D supplementation may worsen vascular calcification; PMID 10910456 specifically flags Vitamin D-associated nephrocalcinosis in patients with renal tubular acidosis and hypercalciuria
-- **Monitoring**: Serum 25-OH-D3, serum calcium, serum phosphate, and renal function (eGFR) monitoring are indicated during supplementation in all CKD patients
+> إذا كنت تسعى إلى مؤشر رسمي في المملكة العربية السعودية، فسيكون مطلوباً تقديم تنظيمي كامل لسلطة الغذاء والدواء السعودية (SFDA)، بما في ذلك تسجيل فيتامين د3 كمنتج صيدلاني بدلاً من ملحق غذائي.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Proceed with Guardrails** *(for Renal Osteodystrophy, Rank 6)*
+يرجى الرجوع إلى النشرة المرفقة للحصول على معلومات الأمان.
 
-**Rationale:**
-Cholecalciferol has an established mechanistic role as the substrate precursor of the Vitamin D endocrine axis, and calcitriol deficiency from impaired renal 1α-hydroxylase is a well-documented, central driver of renal osteodystrophy. Two trials directly testing cholecalciferol in CKD patients exist (NCT00285467, NCT00752401), and the broader Vitamin D intervention literature in this disease context reaches L2 evidence. Ranks 1–4 (all L5, no disease-specific data) should not proceed. Hypophosphatemic Rickets (Rank 5) and Renal Tubular Acidosis (Rank 7) are appropriate for investigator-initiated research question framing.
+في غياب بيانات التقديم التنظيمي بالمملكة العربية السعودية، لوحظت إشارات السلامة الصيدلية الكلية التالية من الأدبيات المنشورة (وليس من ملف تنظيمي):
 
-**To proceed, the following is needed:**
-- DrugBank MOA data retrieval to formally document VDR-mediated mechanisms and complete regulatory submission pharmacology sections
-- Saudi Arabia SFDA regulatory pathway assessment: determine whether a supplement registration or pharmaceutical New Drug Application is required
-- Safety monitoring protocol: serum calcium, serum phosphate, 25-OH-D3, PTH, and eGFR measurement schedule stratified by CKD stage
-- CKD stage-stratified treatment positioning: define cholecalciferol's role in early CKD (G1–G3, primary supplementation) vs. late CKD/ESRD (adjunctive to calcitriol/paricalcitol)
-- For hypophosphatemic rickets (Rank 5): clarify adjunctive vs. primary role in the burosumab era; a Research Question protocol comparing cholecalciferol + phosphate vs. burosumab monotherapy as adjunct would be the appropriate framing
-- Package insert review from an approved market (EU or Japan) to extract formal contraindications and dosing recommendations for renal impairment populations
+- **خطر فرط الكالسيوميا**: يمكن لتكملة الكولِيكالسيفيرول ذات الجرعات العالية أو المطولة أن تسبب فرط الكالسيوميا وفرط الكالسيوريا، خاصة في المرضى الذين يعانون من تنظيم كلوي ضعيف لاستتباب الكالسيوم (مباشرة ذات صلة بـ CKD وسكان بيروفاسيا العظام الكلوية)
+- **تكلس نسيجي في CKD**: في مرضى الغسيل الكلوي و CKD المتقدم، قد تؤدي تكملة فيتامين د المفرطة إلى تفاقم تكلس الأوعية الدموية؛ PMID 10910456 يشير بشكل محدد إلى تكلس نسيجي كلوي مرتبط بـ فيتامين د في المرضى الذين يعانون من الحماض الأنبوبي الكلوي وفرط الكالسيوريا
+- **المراقبة**: مراقبة المصل 25-OH-D3 والكالسيوم المصلي والفوسفات المصلي وعامل الكلى (eGFR) مُشار إليها أثناء التكملة في جميع مرضى CKD
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات** *(بيروفاسيا العظام الكلوية، الترتيب 6)*
+
+**المنطق:**
+للكولِيكالسيفيرول دور ميكانيكي محدد كسلف الركيزة من محور فيتامين د الصحي، ونقص كالسيتريول من ضعف هيدروكسيليز ألفا-1 الكلوي هو محرك موثق جيداً وأساسي لبيروفاسيا العظام الكلوية. توجد تجربتان اختبران الكولِيكالسيفيرول في مرضى CKD (NCT00285467, NCT00752401)، وتصل الأدبيات الأوسع للتدخل بفيتامين د في هذا السياق المرضي إلى دليل L2. يجب ألا تتقدم الترتيبات 1-4 (جميعها L5 بدون بيانات خاصة بالمرض). الكساح عسير الفوسفات (الترتيب 5) والحماض الأنبوبي الكلوي (الترتيب 7) مناسبان لإطار سؤال بحثي يبدأه الباحثون.
+
+**للمتابعة، يلزم الآتي:**
+- استرجاع بيانات DrugBank عن آلية العمل لتوثيق آليات الوساطة بـ VDR وملء أقسام الصيدلة للتقديم التنظيمي
+- تقييم مسار SFDA التنظيمي بالمملكة العربية السعودية: حدد ما إذا كان تسجيل الملحق أو تطبيق الدواء الجديد الصيدلاني مطلوباً
+- بروتوكول المراقبة الأمنية: جدول قياس الكالسيوم المصلي والفوسفات المصلي و 25-OH-D3 و PTH و eGFR الطبقة حسب مرحلة CKD
+- موضع العلاج المقسم حسب مرحلة CKD: حدد دور الكولِيكالسيفيرول في CKD المبكر (G1-G3، تكملة أساسية) مقابل CKD المتأخر/ESRD (مساعد إلى كالسيتريول/باريكالسيتول)
+- بالنسبة للكساح عسير الفوسفات (الترتيب 5): وضح دور المساعدة مقابل الأساسي في عصر بوروسوماب؛ بروتوكول سؤال بحثي يقارن الكولِيكالسيفيرول + فوسفات مقابل أحادية بوروسوماب كملحق سيكون الإطار المناسب
+- مراجعة النشرة المرفقة من سوق موافق (الاتحاد الأوروبي أو اليابان) لاستخراج موانع الاستعمال الرسمية وتوصيات الجرعات لمجموعات الضعف الكلوي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

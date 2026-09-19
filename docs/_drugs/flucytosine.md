@@ -29,60 +29,61 @@ indication_count: 1
 
 </div>
 
-# Flucytosine: From Antifungal Therapy to Bone Paget Disease
+## فلوسيتوسين: من العلاج المضاد للفطريات إلى مرض بيجيت العظمي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Flucytosine (5-FC) is an antifungal agent; specific original indication wording and detailed mechanism-of-action data are not currently available in the evidence pack. The TxGNN model predicts potential efficacy for **Bone Paget Disease**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-score-only prediction with no corroborating clinical or mechanistic evidence.
+فلوسيتوسين (5-FC) هو عامل مضاد للفطريات؛ صيغة الاستطباب الأصلية المحددة وبيانات آلية العمل المفصلة غير متاحة حالياً في حزمة الأدلة. يتنبأ نموذج TxGNN بالفعالية المحتملة لـ **مرض بيجيت العظمي**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشورات** — إنه تنبؤ يعتمد على درجة النموذج فقط بدون أي دليل سريري أو ميكانيكي مدعوم.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Antifungal infection (specific approved-indication text not available) |
-| Predicted New Indication | Bone Paget Disease |
-| TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | عدوى فطرية (نص الاستطباب المعتمد المحدد غير متاح) |
+| الاستطباب الجديد المتوقع | مرض بيجيت العظمي |
+| درجة تنبؤ TxGNN | 99.04% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data for flucytosine is not currently available. Based on the information in this evidence pack, flucytosine (5-FC) is an antifungal agent that is converted by fungal cytosine deaminase into 5-fluorouracil (5-FU), which then inhibits fungal DNA/RNA synthesis.
+بيانات آلية العمل المفصلة لفلوسيتوسين غير متاحة حالياً. بناءً على المعلومات الموجودة في حزمة الأدلة هذه، فلوسيتوسين (5-FC) هو عامل مضاد للفطريات يتم تحويله بواسطة إنزيم السيتوسين ديأميناز الفطري إلى 5-فلوروويوراسيل (5-FU)، والذي يثبط بعد ذلك تخليق الحمض النووي/RNA الفطري.
 
-The pathological core of Paget disease of bone is excessive osteoclast activation and dysregulated bone remodeling. There is currently no known mechanism connecting the pyrimidine antimetabolite/antifungal pathway to bone metabolism regulation (e.g., RANKL/OPG signaling or SQSTM1-related pathways).
+النواة المرضية لمرض بيجيت العظمي هي تفعيل مفرط للخلايا الناقضة للعظام واضطراب إعادة تشكيل العظام. لا توجد آلية معروفة حالياً تربط مسار مضاد الاستقلاب البيريميديني/المضاد للفطريات بتنظيم استقلاب العظام (مثل إشارات RANKL/OPG أو المسارات المرتبطة بـ SQSTM1).
 
-This indication is therefore a high-score TxGNN model prediction (99.04%) without any supporting mechanistic rationale, clinical trial, or literature evidence. It should be regarded as a speculative model association rather than an established or plausible mechanistic link.
+هذا الاستطباب هو بالتالي تنبؤ نموذج TxGNN ذو درجة عالية (99.04%) بدون أي دليل ميكانيكي داعم أو تجربة سريرية أو دليل أدبي. يجب اعتباره ارتباطاً نموذجياً افتراضياً بدلاً من ارتباط ميكانيكي مثبت أو معقول.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا تتوفر حالياً أدبيات ذات صلة
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Flucytosine is not currently marketed in Saudi Arabia; there are no market authorization records available (0 licenses).
+فلوسيتوسين غير مسوق حالياً في المملكة العربية السعودية؛ لا توجد سجلات تصريح سوق متاحة (0 رخص).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (Evidence Level L5), with zero clinical trials or literature, and the drug's own rationale text concludes there is no established mechanistic plausibility linking its pharmacology to Paget disease of bone. The drug is also unmarketed in Saudi Arabia, and safety data (warnings, contraindications, DDI) are unavailable — including a Blocking-severity gap (DG001) that prevents entry into the S1 safety pre-assessment stage.
+**الأساس المنطقي:**
+التنبؤ مدعوم فقط بدرجة نموذج TxGNN (مستوى الدليل L5)، مع عدم وجود تجارب سريرية أو أدبيات، وخلص نص المبررات الخاص بالعقار ذاته إلى عدم وجود معقولية ميكانيكية مثبتة تربط صيدلته بمرض بيجيت العظمي. العقار أيضاً غير مسوق في المملكة العربية السعودية، وبيانات السلامة (التحذيرات وموانع الاستعمال والتفاعلات الدوائية) غير متاحة — بما في ذلك فجوة ذات جسامة حاجبة (DG001) تمنع الدخول إلى مرحلة التقييم المسبق للسلامة S1.
 
-**To proceed, the following is needed:**
-- Original indication and detailed mechanism-of-action (MOA) data (DG002, High severity — query DrugBank API)
-- Official package insert warnings/contraindications from the relevant regulatory authority (DG001, Blocking severity)
-- A completed drug-drug interaction (DDI) database query (currently "not found")
-- Preclinical or mechanistic studies linking flucytosine's antimetabolite activity to osteoclast/bone-remodeling pathways before this candidate can advance beyond S0
+**للمتابعة، يلزم توفر ما يلي:**
+- الاستطباب الأصلي وبيانات آلية العمل المفصلة (DG002، جسامة عالية — الاستعلام من واجهة برمجة تطبيقات DrugBank)
+- تحذيرات وموانع استعمال نشرة الحزمة الرسمية من سلطة التنظيم المختصة (DG001، جسامة حاجبة)
+- استعلام قاعدة بيانات التفاعلات الدوائية (DDI) المكتمل (حالياً "غير موجود")
+- دراسات سابقة للسريرية أو ميكانيكية تربط نشاط فلوسيتوسين كمضاد استقلاب بمسارات الخلايا الناقضة للعظام/إعادة تشكيل العظام قبل أن يتمكن هذا المرشح من المتابعة بعد S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

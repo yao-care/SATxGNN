@@ -29,74 +29,75 @@ indication_count: 10
 
 </div>
 
-# Lorazepam: From Benzodiazepine Anxiolytic/Sedative Use to Trigeminal Nerve Neoplasm
+# lorazepam: من استخدام البنزوديازيبين كمزيل القلق والمهدئ إلى أورام العصب ثلاثي التفرع
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Lorazepam is a classic benzodiazepine used clinically for anxiety, sedation, and seizure control (specific Taiwan-approved indication text is not on file, as the drug is currently not marketed here). The TxGNN model's top-ranked prediction for this drug is **Trigeminal Nerve Neoplasm**, but this candidate currently has **0 clinical trials** and **0 publications** supporting it, and the model's own rationale flags a lack of biological plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file — drug is not marketed in Taiwan and no approved indication text is recorded |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+lorazepam هو بنزوديازيبين كلاسيكي يُستخدم سريرياً لعلاج القلق والتهدئة والسيطرة على النوبات (نص الاستطباب المعتمد الخاص بـ Taiwan غير متوفر في الملف، لأن الدواء غير مسوق حالياً هنا). الاستطباب الجديد المتنبأ به من قبل نموذج TxGNN في أعلى ترتيب هو **أورام العصب ثلاثي التفرع**، لكن هذا المرشح يحتوي حالياً على **0 تجربة سريرية** و **0 منشورات** تدعمه، والمنطق الداخلي للنموذج يشير إلى نقص الاحتمالية البيولوجية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data is not available in this evidence pack (drug-level MOA is flagged as a data gap). Based on well-established pharmacology, Lorazepam is a benzodiazepine that acts as a positive allosteric modulator of the GABA-A receptor, producing central nervous system depression, anxiolysis, sedation, and anticonvulsant effects.
-
-There is no known mechanistic pathway connecting GABA-A receptor modulation to trigeminal nerve neoplasm pathology, which involves neural/Schwann cell proliferation and tumor microenvironment processes unrelated to GABAergic signaling. The evidence pack's own repurposing rationale is explicit on this point: the high TxGNN score appears to reflect network-topology similarity rather than biological plausibility, and no clinical trials or literature exist to bridge this gap.
-
-For context, this drug's other TxGNN-ranked candidates include several with much stronger support — notably **insomnia** (rank 2, evidence level L2, 23 clinical trials and 18 publications identified, including lorazepam-specific RCTs), which reflects a well-known, already-established clinical use of benzodiazepines rather than a novel repurposing hypothesis. If the goal is to identify an actionable near-term candidate for this drug, that indication warrants separate evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير متوفر في الملف — الدواء غير مسوق في Taiwan ولم يتم تسجيل أي نص استطباب معتمد |
+| الاستطباب الجديد المتنبأ به | أورام العصب ثلاثي التفرع |
+| درجة تنبؤ TxGNN | 99.87% |
+| مستوى الدليل | L5 |
+| حالة السوق في Taiwan | غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يبدو هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل المفصلة غير متوفرة في حزمة الأدلة هذه (يتم الإشارة إلى آلية العمل على مستوى الدواء على أنها فجوة بيانات). بناءً على علم الصيدلة الراسخ جيداً، lorazepam هو بنزوديازيبين يعمل كمعدّل إيجابي لـ مستقبل GABA-A، مما ينتج عنه كبت الجهاز العصبي المركزي والتهدئة من القلق والآثار المضادة للاختلاج.
 
----
+لا توجد مسارات ميكانيكية معروفة تربط تعديل مستقبل GABA-A بمرض أورام العصب ثلاثي التفرع، الذي يتضمن تكاثر الخلايا العصبية/خلايا شفان وعمليات بيئة الورم غير المرتبطة بالإشارات GABAergic. البيان الموجود في حزمة الدليل بشأن منطق إعادة الاستخدام واضح حول هذه النقطة: يبدو أن درجة TxGNN العالية تعكس التشابه في الطوبولوجيا الشبكية بدلاً من الاحتمالية البيولوجية، ولا توجد تجارب سريرية أو دراسات أدبية موجودة لسد هذه الفجوة.
 
-## Taiwan Market Information
-
-Lorazepam is not currently marketed in Taiwan — there are no product licenses on file (0 total authorizations), so no dosage form or approved-indication data can be reported.
+للسياق، المرشحون الآخرون الذين صنفهم TxGNN لهذا الدواء يشملون عدة مع دعم أقوى بكثير — ملحوظ بشكل خاص هو **الأرق** (الترتيب 2، مستوى الدليل L2، تم تحديد 23 تجربة سريرية و 18 منشورة، بما في ذلك التجارب العشوائية المضبوطة لـ lorazepam)، والتي تعكس استخدام سريري معروف وراسخ بالفعل للبنزوديازيبينات بدلاً من فرضية إعادة استخدام جديدة. إذا كان الهدف هو تحديد مرشح قابل للعمل في المدى القريب لهذا الدواء، فإن هذا الاستطباب يستحق تقييماً منفصلاً.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack — TFDA package insert retrieval is flagged as a blocking data gap.)
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+لا توجد أدلة أدبية ذات صلة متاحة حالياً.
 
-**Rationale:**
-This candidate has no clinical trial or literature evidence, and the drug's core pharmacology (GABA-A modulation → CNS depression) has no established mechanistic link to trigeminal nerve tumor pathology. The prediction score alone does not justify advancement.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a blocking data gap for any safety screening
-- Confirmed mechanism of action (MOA) data from DrugBank — currently a data gap
-- Preclinical or mechanistic studies establishing a plausible pathway between GABAergic modulation and trigeminal nerve neoplasm before further investment
-- Alternatively, consider re-scoping this evaluation to the drug's rank-2 predicted indication (insomnia), which has substantially stronger clinical trial and literature support (L2, "Proceed with Guardrails")
+## معلومات سوق Taiwan
+
+lorazepam غير مسوق حالياً في Taiwan — لا توجد تراخيص منتج في الملف (0 إجمالي تراخيص)، لذا لا يمكن الإبلاغ عن بيانات شكل الجرعة أو نصوص الاستطباب المعتمدة.
+
+---
+
+## الاعتبارات الأمنية
+
+يرجى الرجوع إلى إدراج الحزمة للحصول على معلومات الأمان. (بيانات التحذيرات الرئيسية والمضادات الاستطبابية وبيانات التفاعلات الدوائية غير متوفرة حالياً في حزمة الأدلة هذه — يتم الإشارة إلى استرجاع إدراج حزمة TFDA على أنها فجوة بيانات حجب.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المبررات:**
+هذا المرشح لا يحتوي على أدلة تجارب سريرية أو أدبية، وعلم الصيدلة الأساسي للدواء (تعديل GABA-A → كبت الجهاز العصبي المركزي) لا يحتوي على ارتباط ميكانيكي معروف بمرض أورام العصب ثلاثي التفرع. درجة التنبؤ وحدها لا تبرر المتابعة.
+
+**للمتابعة، ما يلي مطلوب:**
+- إدراج حزمة TFDA (تحذيرات/مضادات استطبابية) — حالياً فجوة بيانات حجب لأي فحص أمان
+- بيانات آلية العمل المؤكدة (MOA) من DrugBank — حالياً فجوة في البيانات
+- دراسات ما قبل الإكلينيكية أو ميكانيكية تؤسس مساراً معقولاً بين تعديل GABAergic وأورام العصب ثلاثي التفرع قبل مزيد من الاستثمار
+- بدلاً من ذلك، يمكن إعادة النطاق لهذا التقييم إلى الاستطباب المتنبأ به الثاني للدواء (**الأرق**)، والذي يتمتع بدعم أقوى بكثير من التجارب السريرية والأدبية (L2، "المتابعة مع الحواجز")
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

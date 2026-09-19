@@ -29,78 +29,79 @@ indication_count: 6
 
 </div>
 
-# Rasagiline: From Parkinson's Disease to PLA2G6-Associated Neurodegeneration
+# راسالجيلين: من داء الشلل الرعاش إلى التنكس العصبي المرتبط بـ PLA2G6
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Rasagiline is an irreversible MAO-B inhibitor established for Parkinson's disease.
-> The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration**,
-> but currently **0 clinical trials** and **0 publications** support this direction — the prediction rests solely on the model's score (**99.71%**).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's disease (inferred from drug class/MOA referenced in the evidence pack's own rationale text; not present in structured `original_indications` or Saudi licensing data) |
-| Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> راسالجيلين هو مثبط MAO-B غير قابل للعكس المثبت سريرياً لعلاج داء الشلل الرعاش.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التنكس العصبي المرتبط بـ PLA2G6**،
+> لكن حالياً **0 تجربة سريرية** و **0 منشور علمي** يدعمان هذا الاتجاه — التنبؤ يستند فقط إلى نقاط النموذج (**99.71%**).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action (MOA) data is not available in this evidence pack (`original_moa` is flagged as a data gap, DG002). Based on information embedded in the model's own rationale text, rasagiline is an irreversible monoamine oxidase type B (MAO-B) inhibitor, established for Parkinson's disease, where it reduces dopamine breakdown to improve motor symptoms.
-
-PLA2G6-associated neurodegeneration (PLAN) is a heterogeneous disease group. One adult-onset subtype (PARK14, dystonia-parkinsonism) overlaps clinically with Parkinson's disease, so increased synaptic dopamine via MAO-B inhibition could theoretically offer partial motor benefit. However, most PLAN cases are infantile-onset or atypical neuroaxonal dystrophy phenotypes with a weak connection to the dopamine pathway, and there is no clinical or literature evidence currently supporting this indication.
-
-Notably, of the six TxGNN predictions returned in this batch, only two — this one and rank 4 ("paralysis agitans, juvenile, of Hunt," essentially early-onset Parkinsonism) — have a plausible mechanistic link to the dopamine/MAO-B pathway. The other four (Rasmussen encephalitis, myelitis, transaldolase deficiency, polymicrogyria syndrome) have no known biological connection to rasagiline's mechanism, which suggests the model's ranking here reflects graph topology similarity rather than validated pharmacology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|---------|
+| المؤشر الأصلي | داء الشلل الرعاش (مستنتج من نوع الدواء/آلية العمل المشار إليها في نص تبرير حزمة الأدلة الخاصة به؛ غير موجود في `original_indications` أو بيانات الترخيص السعودي المنظمة) |
+| المؤشر الجديد المتوقع | التنكس العصبي المرتبط بـ PLA2G6 |
+| نقاط تنبؤ TxGNN | 99.71% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، بدون تجارب سريرية أو أدبيات) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق (Not marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | وقف مؤقت |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل المفصلة (MOA) غير متوفرة في حزمة الأدلة هذه (`original_moa` يتم تحديده بوصفه فجوة بيانات، DG002). بناءً على المعلومات المضمنة في نص تبرير النموذج الخاص به، راسالجيلين هو مثبط أكسيداز أحادي الأمين من النوع B (MAO-B) غير قابل للعكس، والمثبت سريرياً لعلاج داء الشلل الرعاش، حيث يقلل من تحطم الدوبامين لتحسين الأعراض الحركية.
 
----
+التنكس العصبي المرتبط بـ PLA2G6 (PLAN) هو مجموعة أمراض متغايرة. إحدى النماذج الجزئية للبدء في مرحلة البلوغ (PARK14، الخلل الحركي-الرعاشي) تتداخل سريرياً مع داء الشلل الرعاش، لذلك يمكن لزيادة الدوبامين المشبكي عبر تثبيط MAO-B أن توفر نظرياً فائدة حركية جزئية. ومع ذلك، معظم حالات PLAN تكون بداية في مرحلة الرضاعة أو نماذج غير نمطية من الخلل اللامحوري العصبي مع اتصال ضعيف بمسار الدوبامين، وليس هناك حالياً دليل سريري أو أدبي يدعم هذا المؤشر.
 
-## Saudi Arabia Market Information
-
-Rasagiline is not currently marketed in Saudi Arabia (市場狀態: Not marketed); there are no authorization records in this evidence pack.
+بشكل ملحوظ، من بين ستة تنبؤات TxGNN التي تم إرجاعها في هذه الدفعة، فقط اثنان — هذا واحد والترتيب 4 ("الشلل الرعاش، مبكر الظهور، من Hunt"، بشكل أساسي الشلل الرعاش المبكر) — لديهما ارتباط آلي معقول بمسار الدوبامين/MAO-B. الأربعة الآخرون (التهاب الدماغ من نوع Rasmussen، التهاب النخاع، نقص transaldolase، متلازمة التكور الدقيق) ليس لديهم اتصال بيولوجي معروف بآلية عمل راسالجيلين، مما يشير إلى أن ترتيب النموذج هنا يعكس تشابه طوبولوجيا الرسم البياني بدلاً من الصيدلة المؤكدة.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-Note: TFDA/SFDA package insert warnings and contraindications are marked as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة
 
-**Rationale:**
-The prediction is supported only by TxGNN's topological score (L5) with zero clinical trials and zero literature. The drug is not marketed in Saudi Arabia, and package-insert safety data is a Blocking gap that prevents any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (DG001, blocking)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Preclinical or case-level evidence linking MAO-B inhibition to the PARK14 subtype of PLA2G6-associated neurodegeneration specifically (rather than PLAN broadly)
-- Assessment of Saudi Arabia regulatory pathway, given the drug currently has no market presence there
+## معلومات سوق المملكة العربية السعودية
+
+راسالجيلين غير مسوق حالياً في المملكة العربية السعودية (市場狀態: Not marketed)؛ لا توجد سجلات تفويض في حزمة الأدلة هذه.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
+
+ملاحظة: تحذيرات وموانع استعمال نشرة TFDA/SFDA الطبية يتم تحديدها بوصفها فجوة بيانات **محظورة** (DG001) في حزمة الأدلة هذه — يجب حل هذا قبل أن يتمكن أي تقييم سلامة أولي S1 من المضي قدماً.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: وقف مؤقت**
+
+**المبرر:**
+التنبؤ مدعوم فقط من قِبَل نقاط TxGNN الطوبولوجية (L5) مع عدم وجود أي تجارب سريرية أو أدبيات. الدواء غير مسوق حالياً في المملكة العربية السعودية، وبيانات نشرة السلامة الطبية تمثل فجوة بيانات محظورة تحول دون إجراء أي تقييم سلامة أولي.
+
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات وموانع استعمال نشرة TFDA/SFDA الطبية (DG001، محظور)
+- توثيق مؤكد لآلية العمل من DrugBank (DG002)
+- دليل ما قبل سريري أو على مستوى الحالة يربط تثبيط MAO-B بنمط PARK14 المحدد للتنكس العصبي المرتبط بـ PLA2G6 (وليس PLAN على نطاق واسع)
+- تقييم المسار التنظيمي في المملكة العربية السعودية، خاصة وأن الدواء حالياً ليس له وجود في السوق هناك
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,83 +29,84 @@ indication_count: 2
 
 </div>
 
-# Gadodiamide: From MRI Contrast Imaging to Rheumatoid Arthritis
+# جادوديامايد: من تصوير التباين بالرنين المغناطيسي إلى التهاب المفاصل الروماتويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Gadodiamide is a gadolinium-based contrast agent used to enhance magnetic resonance imaging (MRI) — it is a diagnostic agent, not a therapeutic drug for any disease. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis** with a **99.16%** prediction score, but this is supported by **0 clinical trials** and **10 publications**, all of which are diagnostic-imaging studies rather than therapeutic evidence.
+جادوديامايد هو وسيط تباين قائم على الجادولينيوم يُستخدم لتحسين التصوير بالرنين المغناطيسي (MRI) — وهو وسيط تشخيصي وليس دواءً علاجياً لأي مرض. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **التهاب المفاصل الروماتويدي** بدرجة تنبؤ **99.16%**، لكن هذا مدعوم بـ **0** تجربة سريرية و**10** منشورات، وجميعها دراسات تصوير تشخيصي وليس دليلاً على فعالية علاجية.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | None — Gadodiamide is a non-specific extracellular gadolinium chelate used solely as an MRI contrast agent; it has no therapeutic indication |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | لا يوجد — جادوديامايد هو مخلب جادولينيوم خارج الخلايا غير نوعي يُستخدم حصرياً كوسيط تباين للرنين المغناطيسي؛ لا توجد له استطبابات علاجية |
+| الاستطباب الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
+| درجة التنبؤ من TxGNN | 99.16% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير موجود بالسوق (غير موجود بالسوق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap). Based on known pharmacology, gadodiamide is a non-specific extracellular gadolinium chelate whose only function is T1-relaxation-based signal enhancement on MRI. It has no known pharmacological or immunomodulatory activity, and no plausible mechanistic link to rheumatoid arthritis pathology (e.g., TNF-α, IL-6, synovial angiogenesis).
+حالياً، بيانات آلية العمل المفصلة غير متاحة (محددة كفجوة بيانات عالية الخطورة). بناءً على الصيدلة المعروفة، جادوديامايد هو مخلب جادولينيوم خارج الخلويّ غير نوعي، وظيفته الوحيدة هي تحسين الإشارة على أساس استرخاء T1 على التصوير بالرنين المغناطيسي. لا توجد له نشاط صيدلي أو مناعي معروف، ولا توجد علاقة آلية معقولة بينه وبين أمراض التهاب المفاصل الروماتويدي (مثل TNF-α، IL-6، أو تكوّن الأوعية في الغشاء الزليلي).
 
-All 10 supporting publications describe using gadodiamide-enhanced MRI to *image and diagnose* synovitis or bone erosion in RA or related arthritides — they are diagnostic co-occurrence studies, not evidence of therapeutic effect. This pattern is consistent with a text-mining confound artifact: the drug and disease co-occur frequently in the literature because gadodiamide is used to *scan* RA patients, not to *treat* them.
+جميع المنشورات العشرة الداعمة تصف استخدام التصوير بالرنين المغناطيسي المحسّن بـ جادوديامايد لـ *تصوير وتشخيص* التهاب الغشاء الزليلي أو تآكل العظام في التهاب المفاصل الروماتويدي أو الأمراض الالتهابية الأخرى للمفاصل — وهي دراسات التعايش التشخيصي، وليست دليلاً على التأثير العلاجي. هذا النمط متسق مع خطأ ناشئ من عملية التنقيب النصي: يتعايش الدواء والمرض بكثرة في الأدبيات لأن جادوديامايد يُستخدم لـ *مسح* مرضى التهاب المفاصل الروماتويدي، وليس لـ *علاجهم*.
 
-The second-ranked prediction, osteoarthritis susceptibility (score 99.11%), has zero supporting clinical trials or literature at all, further indicating these are low-confidence model outputs rather than genuine repurposing signals.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+التنبؤ الثاني الأعلى، قابلية الإصابة بالفصال العظمي (درجة 99.11%)، لا يحتوي على أي تجارب سريرية أو أدبيات داعمة على الإطلاق، مما يشير إلى أن هذه نتائج نموذج منخفضة الثقة وليست إشارات إعادة استخدام حقيقية.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [17935920](https://pubmed.ncbi.nlm.nih.gov/17935920/) | 2009 | Imaging/Diagnostic | European journal of radiology | Distribution of ultrasound-guided intra-articular injection in RA wrist joints |
-| [18286282](https://pubmed.ncbi.nlm.nih.gov/18286282/) | 2008 | Imaging/Diagnostic | Skeletal radiology | Contrast-enhanced MRI analysis of hands/wrists in psoriatic arthritis |
-| [17289759](https://pubmed.ncbi.nlm.nih.gov/17289759/) | 2008 | Imaging/Diagnostic | Annals of the rheumatic diseases | MRI and bone scintigraphy for differential diagnosis of unclassified arthritis |
-| [17340197](https://pubmed.ncbi.nlm.nih.gov/17340197/) | 2007 | Imaging/Diagnostic | Annals of biomedical engineering | Kinetic modeling of contrast-enhanced MRI to assess RA wrist inflammation |
-| [11454641](https://pubmed.ncbi.nlm.nih.gov/11454641/) | 2001 | Imaging/Diagnostic | Annals of the rheumatic diseases | Low-field dedicated MRI in untreated recent-onset RA |
-| [11976868](https://pubmed.ncbi.nlm.nih.gov/11976868/) | 2002 | Imaging/Diagnostic | European radiology | 1-year interval MRI features predicting bone erosions in inflammatory joint disease |
-| [11669155](https://pubmed.ncbi.nlm.nih.gov/11669155/) | 2001 | Imaging/Diagnostic | The Journal of rheumatology | MRI features of wrist/finger joints across inflammatory joint disease groups |
-| [11419149](https://pubmed.ncbi.nlm.nih.gov/11419149/) | 2001 | Imaging/Diagnostic | European radiology | Comparison of extremity MRI (0.2T) vs high-field MRI (1.5T) in arthritic small joints |
-| [11868082](https://pubmed.ncbi.nlm.nih.gov/11868082/) | 2002 | Imaging/Diagnostic | European radiology | Synovial membrane volume determination: manual vs stereologic method on MRI |
-| [11274835](https://pubmed.ncbi.nlm.nih.gov/11274835/) | 2001 | Imaging/Diagnostic (normal subjects) | European journal of radiology | Normal gadolinium enhancement patterns of atlantoaxial joints on MRI |
+| [17935920](https://pubmed.ncbi.nlm.nih.gov/17935920/) | 2009 | تصوير/تشخيصي | European journal of radiology | توزيع حقن المفصل داخل المفصل الموجهة بالموجات فوق الصوتية في مفاصل الرسغ في التهاب المفاصل الروماتويدي |
+| [18286282](https://pubmed.ncbi.nlm.nih.gov/18286282/) | 2008 | تصوير/تشخيصي | Skeletal radiology | تحليل التصوير بالرنين المغناطيسي المحسّن للأيدي والرسغ في التهاب المفاصل الصدافي |
+| [17289759](https://pubmed.ncbi.nlm.nih.gov/17289759/) | 2008 | تصوير/تشخيصي | Annals of the rheumatic diseases | التصوير بالرنين المغناطيسي ومسح العظام الومضاني للتشخيص التفريقي للتهاب المفاصل غير المصنف |
+| [17340197](https://pubmed.ncbi.nlm.nih.gov/17340197/) | 2007 | تصوير/تشخيصي | Annals of biomedical engineering | النمذجة الحركية للتصوير بالرنين المغناطيسي المحسّن لتقييم التهاب الرسغ في التهاب المفاصل الروماتويدي |
+| [11454641](https://pubmed.ncbi.nlm.nih.gov/11454641/) | 2001 | تصوير/تشخيصي | Annals of the rheumatic diseases | التصوير بالرنين المغناطيسي منخفض المجال المخصص في التهاب المفاصل الروماتويدي حديث البداية غير المعالج |
+| [11976868](https://pubmed.ncbi.nlm.nih.gov/11976868/) | 2002 | تصوير/تشخيصي | European radiology | ميزات التصوير بالرنين المغناطيسي على فاصل زمني لمدة سنة واحدة في التنبؤ بتآكل العظام في أمراض المفاصل الالتهابية |
+| [11669155](https://pubmed.ncbi.nlm.nih.gov/11669155/) | 2001 | تصوير/تشخيصي | The Journal of rheumatology | ميزات التصوير بالرنين المغناطيسي لمفاصل الرسغ والأصابع عبر مجموعات أمراض المفاصل الالتهابية |
+| [11419149](https://pubmed.ncbi.nlm.nih.gov/11419149/) | 2001 | تصوير/تشخيصي | European radiology | مقارنة التصوير بالرنين المغناطيسي للأطراف (0.2T) مقابل التصوير بالرنين المغناطيسي عالي المجال (1.5T) في المفاصل الصغيرة المصابة بالتهاب |
+| [11868082](https://pubmed.ncbi.nlm.nih.gov/11868082/) | 2002 | تصوير/تشخيصي | European radiology | تحديد حجم الغشاء الزليلي: الطريقة اليدوية مقابل الطريقة الكمّية على التصوير بالرنين المغناطيسي |
+| [11274835](https://pubmed.ncbi.nlm.nih.gov/11274835/) | 2001 | تصوير/تشخيصي (أشخاص طبيعيون) | European journal of radiology | أنماط تحسن الجادولينيوم الطبيعية للمفاصل الأطلسية المحورية على التصوير بالرنين المغناطيسي |
 
-*Note: all 10 publications are diagnostic-imaging studies using gadodiamide-enhanced MRI to visualize joint pathology; none provide evidence of therapeutic effect in rheumatoid arthritis.*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(TFDA package insert warnings/contraindications are marked as a Blocking data gap — this must be resolved before any S1 safety evaluation can proceed.)*
+*ملاحظة: جميع المنشورات العشرة هي دراسات تصوير تشخيصي تستخدم التصوير بالرنين المغناطيسي المحسّن بـ جادوديامايد لتصور أمراض المفاصل؛ ولا يوفر أي منها دليلاً على تأثير علاجي في التهاب المفاصل الروماتويدي.*
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-There is no mechanistic plausibility linking gadodiamide (an inert MRI contrast agent) to rheumatoid arthritis treatment, no clinical trials exist, and all supporting literature reflects diagnostic co-occurrence rather than therapeutic evidence — this prediction is most likely a text-mining confound artifact rather than a genuine repurposing candidate.
+*(تحذيرات/موانع الاستعمال في نشرة إدارة الغذاء والدواء السعودية محددة كفجوة بيانات حاجزة — يجب حل هذه المشكلة قبل أي تقييم أمان S1).*
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking gap
-- Drug mechanism of action (MOA) data from DrugBank
-- Any preclinical or mechanistic study directly linking gadolinium chelates to immune/synovial pathways, if such evidence exists
-- Independent confirmation that the TxGNN signal is not an artifact of diagnostic-imaging literature co-occurrence before allocating further review resources
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+لا توجد معقولية آلية تربط جادوديامايد (وسيط تباين MRI الخامل) بعلاج التهاب المفاصل الروماتويدي، ولا توجد تجارب سريرية، وجميع الأدبيات الداعمة تعكس التعايش التشخيصي وليس الدليل العلاجي — هذا التنبؤ على الأرجح خطأ ناشئ من عملية التنقيب النصي بسبب تعايش الدواء والمرض في أدبيات التصوير التشخيصي، وليس إشارة حقيقية لإعادة استخدام الدواء.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة إدارة الغذاء والدواء السعودية (التحذيرات/موانع الاستعمال) — فجوة حاجزة حالياً
+- بيانات آلية عمل الدواء (MOA) من DrugBank
+- أي دراسة تطبيقية أو آلية ترتبط مباشرة بمخلبات الجادولينيوم بالمسارات المناعية/الزليلية، إن كان هناك أدلة من هذا القبيل
+- تأكيد مستقل على أن إشارة TxGNN ليست ناتجة عن تعايش الدواء والمرض في أدبيات التصوير التشخيصي قبل تخصيص موارد مراجعة إضافية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,85 +29,84 @@ indication_count: 2
 
 </div>
 
-Using the specified v5 report template to turn this Evidence Pack into the formatted markdown report.
+# الإباستين: من التهاب الأنف التحسسي إلى مرض الشرايين التاجية
 
-# Ebastine: From Allergic Rhinitis to Coronary Artery Disease
+## ملخص جملة واحدة
 
-## One-Sentence Summary
-
-Ebastine (DrugBank DB11742) is a second-generation H1-antihistamine, generally known for treating **allergic rhinitis and chronic urticaria** (note: this original-indication detail is background pharmacological knowledge, not present in the Evidence Pack itself, since `original_indications` and Saudi Arabia licenses are both empty). The TxGNN model predicts it may be effective for **Coronary Artery Disease**, but this is currently supported only by **0 clinical trials** and **1 (unclassified) publication**, so the evidence base is very thin.
+الإباستين (ebastine) (DrugBank DB11742) هو مضاد هستامين H1 من الجيل الثاني، معروف بشكل عام في علاج **التهاب الأنف التحسسي والشرى المزمن المزمن** (ملاحظة: هذا التفصيل الخاص بالاستطباب الأصلي هو معرفة صيدلانية خلفية، وليس موجوداً في الحزمة البحثية نفسها، لأن `original_indications` والتراخيص السعودية كلاهما فارغ). يتنبأ نموذج TxGNN بأن الإباستين قد يكون فعالاً في **مرض الشرايين التاجية**، لكن هذا مدعوم حالياً فقط بـ **0 تجربة سريرية** و**1 منشور (غير مصنّف)**، لذا قاعدة الأدلة ضعيفة جداً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in Evidence Pack (no Saudi Arabia licenses, `original_indications` empty). Generally known as allergic rhinitis / chronic idiopathic urticaria — unverified against a local label |
-| Predicted New Indication | Coronary Artery Disease |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available (Data Gap DG002, High severity). Based on known information, ebastine is a second-generation, non-sedating H1-antihistamine, and its efficacy in allergic conditions is well established; a direct pharmacological rationale for coronary artery disease is not documented in this Evidence Pack.
-
-The only supporting literature (PMID 18004755) is not a study of ebastine's clinical effect at all — it is a homology-modeling/molecular-docking study of **cytochrome P450 2J2 (CYP2J2)**, an enzyme that epoxidizes arachidonic acid into eicosatrienoic acids (EETs) implicated in coronary artery disease and hypertension. TxGNN appears to have linked ebastine to coronary artery disease (and, in the second-ranked prediction, myocardial ischemia) through this CYP2J2-related pathway in its knowledge graph, since both predictions cite the identical paper.
-
-This is a plausible but unverified mechanistic hypothesis rather than direct evidence: the paper does not study ebastine as a CYP2J2 substrate/inhibitor, and its `classification` and `relevance` fields are both still marked "pending." Coronary artery disease and myocardial ischemia are clinically overlapping (ischemic heart disease spectrum), which is consistent with both diseases receiving similar TxGNN scores (99.18% and 99.10%) from the same underlying signal — but this should be treated as a single, unconfirmed hypothesis rather than two independent lines of evidence.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير مقدم في الحزمة البحثية (لا توجد تراخيص سعودية، `original_indications` فارغ). معروف بشكل عام كالتهاب الأنف التحسسي / الشرى المزمن مجهول السبب — لم يتم التحقق منه ضد التسمية المحلية |
+| الاستطباب الجديد المتنبأ به | مرض الشرايين التاجية |
+| درجة التنبؤ من TxGNN | 99.18% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودية | ✗ غير مسوق (غير مسوق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | احجز |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related clinical trials registered.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (فجوة البيانات DG002، شدة عالية). بناءً على المعلومات المعروفة، الإباستين هو مضاد هستامين H1 من الجيل الثاني غير مسبب للنعاس، وفعاليته في الحالات التحسسية معروفة جيداً؛ الأساس الدوائي المباشر لمرض الشرايين التاجية لم يتم توثيقه في هذه الحزمة البحثية.
 
----
+الأدبيات الوحيدة المدعومة (PMID 18004755) ليست دراسة لتأثير الإباستين السريري على الإطلاق — بل هي دراسة نمذجة تجانس/ربط جزيئي لـ **سيتوكروم P450 2J2 (CYP2J2)**، الإنزيم الذي يؤكسد حمض الأراكيدونيك إلى حمض الأيكوسا ثلاثي البنية (EETs) المضمنة في مرض الشرايين التاجية وارتفاع ضغط الدم. يبدو أن TxGNN قد ربط الإباستين بمرض الشرايين التاجية (وفي التنبؤ الثاني الأعلى تصنيفاً، نقص التروية القلبية) من خلال هذا المسار المرتبط بـ CYP2J2 في رسم بيانات المعرفة الخاص به، حيث يستشهد كلا التنبؤين بنفس الورقة بالضبط.
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18004755](https://pubmed.ncbi.nlm.nih.gov/18004755/) | 2008 | Mechanistic / in-silico (preclinical) | Proteins | Homology modeling and molecular docking of human CYP2J2, the enzyme that epoxidizes arachidonic acid into eicosatrienoic acids linked to coronary artery disease and hypertension; does not directly evaluate ebastine's clinical effect on CAD (classification/relevance still marked "pending") |
-
-*Note: the same single paper is the only literature cited for the second predicted indication (myocardial ischemia, score 99.10%) as well.*
+هذه فرضية آلية معقولة لكن غير مثبتة بدلاً من أن تكون دليلاً مباشراً: الورقة لا تدرس الإباستين كركيزة/مثبط لـ CYP2J2، وحقولاها `classification` و`relevance` لا تزالان معلّمتين "قيد الانتظار". مرض الشرايين التاجية ونقص التروية القلبية متداخلان سريرياً (طيف قصور القلب الإقفاري)، وهذا متسق مع حصول كلا المرضين على درجات TxGNN متشابهة (99.18% و99.10%) من نفس الإشارة الأساسية — لكن يجب معاملة هذا كفرضية واحدة غير مؤكدة بدلاً من سطرين مستقلين من الأدلة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Ebastine is not currently marketed in Saudi Arabia — 0 authorizations on record (`taiwan_regulatory.total_licenses = 0`, `licenses = []`).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-- Key warnings, contraindications, and DDI data are all currently unavailable (`safety.key_warnings`, `safety.contraindications`, and `safety.ddi` all report no data / not found).
-- Data Gap **DG001** (TFDA/Saudi package insert warnings & contraindications) is flagged as **Blocking severity** — its stated impact is that this candidate **cannot proceed to the S1 safety pre-assessment stage** until resolved.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|-------|---------|
+| [18004755](https://pubmed.ncbi.nlm.nih.gov/18004755/) | 2008 | آلية / في السيليكو (سابق للإكلينيكي) | Proteins | النمذجة المتجانسة والربط الجزيئي لإنزيم CYP2J2 البشري، الذي يؤكسد حمض الأراكيدونيك إلى حمض الأيكوسا ثلاثي البنية المرتبط بمرض الشرايين التاجية وارتفاع ضغط الدم؛ لا يقيّم بشكل مباشر تأثير الإباستين السريري على أمراض القلب والأوعية الدموية (لا تزال `classification`/`relevance` معلّمة "قيد الانتظار") |
 
-**Rationale:**
-- The coronary artery disease prediction rests on a single, mechanistically indirect, and still-unclassified paper about a metabolic enzyme (CYP2J2) rather than any direct study of ebastine — with zero registered clinical trials, this is model-prediction-only evidence (L5).
-- A Blocking data gap (DG001: no package insert / safety data) means a required safety pre-assessment (S1) cannot even begin, and the drug is not marketed in Saudi Arabia at all.
+*ملاحظة: نفس الورقة الواحدة هي الأدبيات الوحيدة المستشهد بها للاستطباب المتنبأ به الثاني (نقص التروية القلبية، درجة 99.10%) أيضاً.*
 
-**To proceed, the following is needed:**
-- Resolve DG001: obtain the package insert (warnings, contraindications) to unblock the S1 safety pre-assessment
-- Resolve DG002: obtain detailed MOA data from DrugBank to properly evaluate the CYP2J2 mechanistic link
-- Complete classification/relevance review of PMID 18004755 to confirm whether it actually supports a CAD-related mechanism for ebastine
-- Search for additional preclinical or clinical evidence directly connecting ebastine (or its active metabolite carebastine) to cardiovascular/ischemic outcomes
-- Establish a DDI profile, since the current query returned "not_found"
+---
+
+## معلومات السوق السعودية
+
+الإباستين غير مسوق حالياً في المملكة العربية السعودية — 0 موافقة في السجل (`taiwan_regulatory.total_licenses = 0`, `licenses = []`).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الجزئية للحصول على معلومات السلامة.
+
+- بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية كلها غير متاحة حالياً (`safety.key_warnings`, `safety.contraindications`, و`safety.ddi` كلها تقرير عدم وجود بيانات / غير مكتشف).
+- تم وضع علم على فجوة البيانات **DG001** (تحذيرات النشرة الجزئية للهيئة السعودية / موانع الاستعمال) بشدة **حجب** — تأثيرها المذكور هو أن هذا المرشح **لا يمكنه المضي قدماً إلى مرحلة التقييم الأمني السابق S1** حتى يتم حله.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احجز**
+
+**الأساس المنطقي:**
+- يستند التنبؤ بمرض الشرايين التاجية إلى ورقة واحدة فقط، غير مباشرة من حيث الآلية وغير مصنّفة، حول إنزيم استقلاب (CYP2J2) بدلاً من أي دراسة مباشرة للإباستين — مع عدم وجود تجارب سريرية مسجلة، هذا دليل على التنبؤ بالنموذج فقط (L5).
+- تعني فجوة البيانات المحجوبة (DG001: بدون نشرة جزئية / بيانات السلامة) أن تقييم السلامة السابق المطلوب (S1) لا يمكن حتى أن يبدأ، والدواء غير مسوق على الإطلاق في المملكة العربية السعودية.
+
+**لكي تتقدم، يلزم الآتي:**
+- حل DG001: الحصول على النشرة الجزئية (التحذيرات والموانع) لفتح تقييم السلامة السابق S1
+- حل DG002: الحصول على بيانات آلية العمل التفصيلية من DrugBank لتقييم الربط الآلي لـ CYP2J2 بشكل صحيح
+- إكمال مراجعة التصنيف/الملاءمة لـ PMID 18004755 لتأكيد ما إذا كانت تدعم بالفعل آلية ذات صلة بأمراض القلب والأوعية الدموية للإباستين
+- البحث عن أدلة إضافية سابقة للإكلينيكي أو سريرية تربط الإباستين (أو استقلابه النشط carebastine) مباشرة بنتائج القلب والأوعية الدموية / الإقفار
+- إنشاء ملف تفاعلات دوائية، حيث عادت الاستعلام الحالي "not_found"
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

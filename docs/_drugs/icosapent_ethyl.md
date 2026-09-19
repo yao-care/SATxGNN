@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Icosapent Ethyl: From Hypertriglyceridemia to Hemoglobinopathy
+# أيكوسابينت إيثيل: من فرط ثلاثي جليسيريد الدم إلى أمراض الخضاب الدموي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Icosapent ethyl is a high-purity ethyl ester of eicosapentaenoic acid (EPA), globally used for severe hypertriglyceridemia and cardiovascular risk reduction; it is currently **not marketed in Saudi Arabia**. The TxGNN model predicts it may be effective for **hemoglobinopathy** (e.g., sickle cell disease), but this is currently supported by only **1 preclinical publication** studying a structurally related compound (not icosapent ethyl itself), and no clinical trials.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypertriglyceridemia / cardiovascular risk reduction (not on file locally — not registered in Saudi Arabia) |
-| Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+أيكوسابينت إيثيل هو إستر إيثيلي نقي عالي جداً لحمض إيكوسابينتانويك (EPA)، يُستخدم عالمياً لفرط ثلاثي جليسيريد الدم الشديد وتقليل مخاطر القلب والأوعية الدموية؛ وهو حالياً **غير مسوق في المملكة العربية السعودية**. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **أمراض الخضاب الدموي** (مثل فقر الدم المنجلي)، لكن يدعمه حالياً فقط **منشور واحد قبل سريري** يدرس مركباً ذا صلة هيكلية (وليس أيكوسابينت إيثيل نفسه)، وبدون تجارب سريرية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed drug-level mechanism of action data for icosapent ethyl is marked as a data gap in this evidence pack. Based on known pharmacology of EPA ethyl esters, icosapent ethyl lowers hepatic VLDL/triglyceride synthesis and exerts anti-inflammatory, antioxidant effects, along with stabilization of red blood cell and endothelial membranes and reduced platelet activation and blood viscosity.
-
-These mechanisms have a theoretical link to hemoglobinopathies such as sickle cell disease, where vaso-occlusion, ischemia-reperfusion injury, and chronic hemolytic inflammation drive pathology. However, the only supporting evidence (PMID 38105727) studies **epeleuton**, a distinct synthetic ω-3 fatty acid analog — not icosapent ethyl itself — and is limited to a mouse ischemia-reperfusion model. There is currently no direct in vitro, in vivo, or clinical evidence for icosapent ethyl in this indication; the mechanistic rationale is an indirect, same-class inference rather than a drug-specific finding.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Preclinical (Animal Model) | Haematologica | Epeleuton, a synthetic ω-3 fatty acid structurally related to EPA, reduced hypoxia/reperfusion-induced inflammatory vasculopathy in a mouse model of sickle cell disease, suggesting a possible class-effect mechanism relevant to hemoglobinopathy pathophysiology |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | فرط ثلاثي جليسيريد الدم / تقليل مخاطر القلب والأوعية الدموية (غير موجود محلياً — غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | أمراض الخضاب الدموي |
+| درجة التنبؤ TxGNN | 99.09% |
+| مستوى الأدلة | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Safety Considerations
+## لماذا هذا التنبؤ معقول؟
 
-Please refer to the package insert for safety information.
+بيانات آلية العمل على مستوى الدواء التفصيلية لأيكوسابينت إيثيل تم تحديدها كفجوة بيانات في هذه مجموعة الأدلة. بناءً على الصيدلة المعروفة لإستر EPA الإيثيلي، يقلل أيكوسابينت إيثيل من تخليق VLDL/ثلاثي جليسيريد الكبدي ويمارس تأثيرات مضادة للالتهاب ومضادة للأكسدة، جنباً إلى جنب مع استقرار غشاء خلايا الدم الحمراء والغشاء الداخلي وتقليل تنشيط الصفائح الدموية ولزوجة الدم.
 
-*(Note: TFDA/SFDA package insert warnings, contraindications, and drug interaction data are currently unavailable — flagged as a Blocking data gap (DG001) that must be resolved before any safety review can proceed.)*
+هذه الآليات لها علاقة نظرية بأمراض الخضاب الدموي مثل فقر الدم المنجلي، حيث يقود انسداد الأوعية وإصابة نقص التروية وإعادة التروية والالتهاب الانحلالي المزمن المرضية. ومع ذلك، فإن الأدلة الداعمة الوحيدة (PMID 38105727) تدرس **إبيليوتون**، وهو نظير ω-3 دهني اصطناعي مختلف — وليس أيكوسابينت إيثيل نفسه — وتقتصر على نموذج نقص الأكسجين وإعادة التروية في الفأر. لا توجد حالياً أدلة مباشرة خارج الجسم الحي أو داخله أو سريرية لأيكوسابينت إيثيل في هذا المؤشر؛ المبرر الآلي هو استنتاج غير مباشر من نفس الفئة بدلاً من البحث الخاص بالدواء.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجربة السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-**Rationale:**
-The TxGNN prediction score is high, but the only supporting evidence is a single preclinical study of a different (structurally related) compound rather than icosapent ethyl itself — this is L4 evidence at best, with no direct drug-specific data and no clinical trials. Combined with a Blocking safety data gap (no TFDA/SFDA package insert data) and missing confirmed MOA data, the evidence base is insufficient to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications, DDI) — currently Blocking (DG001)
-- Confirmed mechanism of action for icosapent ethyl specifically (DG002)
-- Direct preclinical or clinical evidence of icosapent ethyl (not analogs) in hemoglobinopathy/sickle cell disease models
-- Confirmation of any regulatory pathway or market status change in Saudi Arabia, since the drug is currently unmarketed there
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|---------|
+| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | قبل سريري (نموذج حيواني) | Haematologica | أظهر إبيليوتون، وهو نظير ω-3 دهني اصطناعي ذو صلة هيكلية بـ EPA، تقليل التهاب الأوعية الدموية المستحث بنقص الأكسجين/إعادة التروية في نموذج فأر لفقر الدم المنجلي، مما يشير إلى آلية تأثير فئة محتملة ذات صلة بمرضية أمراض الخضاب الدموي |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى الملصق الداخلي للحصول على معلومات السلامة.
+
+*(ملاحظة: بيانات تحذيرات ملصق TFDA/SFDA والموانع والتفاعلات الدوائية غير متاحة حالياً — تم وضع علامة على أنها فجوة بيانات محظورة (DG001) يجب حلها قبل متابعة أي مراجعة سلامة.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**المنطق:**
+درجة التنبؤ TxGNN عالية، لكن الأدلة الداعمة الوحيدة هي دراسة قبل سريرية واحدة لمركب مختلف (ذو صلة هيكلية) بدلاً من أيكوسابينت إيثيل نفسه — هذا أدلة L4 في أفضل الأحوال، بدون بيانات مباشرة خاصة بالدواء وبدون تجارب سريرية. إلى جانب فجوة بيانات سلامة محظورة (بدون بيانات ملصق TFDA/SFDA) ونقص بيانات آلية العمل المؤكدة، قاعدة الأدلة غير كافية للمتابعة بعد الفحص الأولي.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات ملصق TFDA/SFDA (تحذيرات، موانع، DDI) — محظور حالياً (DG001)
+- آلية عمل مؤكدة لأيكوسابينت إيثيل على وجه التحديد (DG002)
+- أدلة قبل سريرية أو سريرية مباشرة لأيكوسابينت إيثيل (وليس النظائر) في نماذج أمراض الخضاب الدموي/فقر الدم المنجلي
+- تأكيد أي مسار تنظيمي أو تغيير في حالة السوق في المملكة العربية السعودية، نظراً لأن الدواء غير مسوق هناك حالياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,88 +29,89 @@ indication_count: 2
 
 </div>
 
-# Phenoxymethylpenicillin: From Bacterial Infections to Epiglottitis
+# Phenoxymethylpenicillin: من العدوى البكتيرية إلى التهاب لسان المزمار
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Phenoxymethylpenicillin (Penicillin V, DrugBank DB00417) is a narrow-spectrum oral beta-lactam antibiotic; detailed data on its original approved indication and mechanism of action were not retrievable in this dataset. TxGNN's top-ranked prediction is **Epiglottitis**, but this signal is currently supported by **no clinical trials and no literature** — it is a model-only prediction (L5). A second candidate, **Laryngitis**, was also predicted with a similar score and is backed by **19 publications**, but the existing randomized evidence in that literature actually argues *against* penicillin V's efficacy for this indication.
+Phenoxymethylpenicillin (Penicillin V، DrugBank DB00417) هو مضاد حيوي بيتا-لاكتام فموي ضيق الطيف؛ لم تتمكن من استرجاع البيانات المفصلة عن استطبابه الأصلي الموافق عليه وآلية عمله في هذه المجموعة البيانية. التنبؤ الأعلى تصنيفاً من TxGNN هو **التهاب لسان المزمار**، لكن هذه الإشارة مدعومة حالياً بـ **عدم وجود تجارب سريرية ولا أدبيات** — إنه تنبؤ يعتمد على النموذج فقط (L5). المرشح الثاني، **التهاب الحنجرة**، تم التنبؤ به أيضاً بدرجة مماثلة ومدعوم بـ **19 منشورات**، لكن الأدلة العشوائية الموجودة في تلك الأدبيات تجادل بالفعل *ضد* فعالية بنسلين V لهذا الاستطباب.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available in current dataset (drug class: narrow-spectrum penicillin/beta-lactam antibiotic) |
-| Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير متاح في مجموعة البيانات الحالية (فئة الدواء: بنسلين ضيق الطيف/مضاد حيوي بيتا-لاكتام) |
+| الاستطباب الجديد المتنبأ به | التهاب لسان المزمار |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | علق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (flagged as data gap DG002, DrugBank query pending). Based on known pharmacology, phenoxymethylpenicillin is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and its efficacy against susceptible Gram-positive and some Gram-negative organisms is well established as a drug class.
+حالياً، البيانات المفصلة عن آلية العمل غير متاحة (تم وضع علامة عليها كفجوة بيانات DG002، استعلام DrugBank قيد الانتظار). بناءً على الصيدلة المعروفة، فإن phenoxymethylpenicillin هو مضاد حيوي بيتا-لاكتام يثبط تخليق جدار الخلية البكتيري، وثبتت فعاليته ضد الكائنات الحساسة الموجبة الجرام وبعض الكائنات السالبة الجرام بشكل جيد كفئة دواء.
 
-Epiglottitis is predominantly a bacterial airway infection, historically associated with *Haemophilus influenzae* type b and also seen with *Streptococcus* species. On a purely mechanistic basis, a beta-lactam antibiotic has theoretical activity against susceptible causative organisms, which is the basis for the TxGNN association.
+التهاب لسان المزمار هو بشكل أساسي عدوى بكتيرية في الجهاز التنفسي، ارتبطت تاريخياً بـ *Haemophilus influenzae* من النوع b وتظهر أيضاً مع أنواع *Streptococcus*. على أساس ميكانيكي بحت، يتمتع مضاد حيوي بيتا-لاكتام بنشاط نظري ضد الكائنات المسببة الحساسة — وهذا أساس ارتباط TxGNN.
 
-However, this mechanistic plausibility does not translate cleanly into clinical applicability: epiglottitis is an airway emergency that standardly requires broad-spectrum, intravenous antibiotics (e.g., ceftriaxone) to cover beta-lactamase-producing strains. Phenoxymethylpenicillin is an oral, narrow-spectrum agent — both its route of administration and antimicrobial spectrum are mismatched with the acute standard of care, which is why the underlying evidence pack itself classifies this rationale as mechanistically limited.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، هذا الحد المعقول آلياً لا ينطبق بسلاسة على الإمكانية السريرية: التهاب لسان المزمار هو حالة طوارئ في الجهاز التنفسي تتطلب عادة مضادات حيوية واسعة الطيف وريدية (على سبيل المثال، السيفتريا كسون) لتغطية السلالات المنتجة لبيتا-لاكتاماز. Phenoxymethylpenicillin هو عامل فموي ضيق الطيف — كلا من طريق الإعطاء والطيف المضاد للميكروبات يتعارضان مع معيار الرعاية الحادة، وهذا هو السبب في أن حزمة الأدلة الأساسية نفسها تصنف هذا المنطق على أنه محدود آلياً.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available for Epiglottitis.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-### Secondary Candidate: Laryngitis (TxGNN score 99.85%, L2)
+---
 
-TxGNN also ranked **Laryngitis** highly for this drug. Unlike Epiglottitis, this candidate has substantial literature — but the direct evidence is negative for penicillin V:
+## الأدلة من الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد أدبيات ذات صلة متاحة لالتهاب لسان المزمار.
+
+### مرشح ثانوي: التهاب الحنجرة (درجة TxGNN 99.85%، L2)
+
+صنّفت TxGNN أيضاً **التهاب الحنجرة** بقوة لهذا الدواء. بخلاف التهاب لسان المزمار، يتمتع هذا المرشح بأدبيات جوهرية — لكن الأدلة المباشرة سلبية لبنسلين V:
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [3918495](https://pubmed.ncbi.nlm.nih.gov/3918495/) | 1985 | RCT (Tier 1) | Ann Otol Rhinol Laryngol | Double-blind study in 100 adults with acute laryngitis: penicillin V showed **no better resolution of vocal symptoms than placebo** |
-| [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/) | 1992 | RCT (Tier 2) | Acta Otolaryngol Suppl | Notes prior finding that **phenoxymethylpenicillin had no effect on the clinical course** of acute laryngitis; erythromycin was tested as an alternative |
-| [26002823](https://pubmed.ncbi.nlm.nih.gov/26002823/) | 2015 | Review (Tier 1) | Cochrane Database Syst Rev | Cochrane review (latest update) on antibiotics for acute laryngitis in adults; most cases are viral and antibiotic benefit is not well established |
-| [23543536](https://pubmed.ncbi.nlm.nih.gov/23543536/) | 2013 | Review (Tier 1) | Cochrane Database Syst Rev | Earlier Cochrane update of the same systematic review, consistent conclusions |
+| [3918495](https://pubmed.ncbi.nlm.nih.gov/3918495/) | 1985 | RCT (المستوى 1) | Ann Otol Rhinol Laryngol | دراسة عمياء مزدوجة على 100 بالغ مصاب بالتهاب حنجرة حاد: بنسلين V أظهر **عدم وجود تحسن أفضل في حل أعراض الصوت من الدواء الوهمي** |
+| [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/) | 1992 | RCT (المستوى 2) | Acta Otolaryngol Suppl | يلاحظ الاكتشاف السابق بأن **phenoxymethylpenicillin لم يكن له تأثير على المسار السريري** لالتهاب الحنجرة الحاد؛ تم اختبار الإريثروميسين كبديل |
+| [26002823](https://pubmed.ncbi.nlm.nih.gov/26002823/) | 2015 | مراجعة (المستوى 1) | Cochrane Database Syst Rev | مراجعة Cochrane (آخر تحديث) عن المضادات الحيوية لالتهاب الحنجرة الحاد لدى البالغين؛ معظم الحالات فيروسية والفائدة من المضادات الحيوية ليست محددة بشكل جيد |
+| [23543536](https://pubmed.ncbi.nlm.nih.gov/23543536/) | 2013 | مراجعة (المستوى 1) | Cochrane Database Syst Rev | تحديث سابق لنفس المراجعة المنهجية، استنتاجات متسقة |
 
-The drug's own repurposing rationale for laryngitis notes that acute laryngitis is mostly viral in etiology, so a cell-wall-synthesis inhibitor has a mechanistic basis only in the minority of bacterial cases — consistent with the negative RCT findings above. This candidate is evidence-richer than Epiglottitis but the existing direct evidence weighs against efficacy rather than supporting it.
-
----
-
-## Saudi Arabia Market Information
-
-Phenoxymethylpenicillin is **not currently marketed** in Saudi Arabia per this dataset (0 registered licenses found).
+يشير منطق إعادة توظيف الدواء الخاص به لالتهاب الحنجرة إلى أن التهاب الحنجرة الحاد في الغالب من أصل فيروسي، لذا فإن مثبط تخليق جدار الخلية له أساس آلي فقط في الأقلية من الحالات البكتيرية — وهذا متسق مع نتائج RCT السلبية أعلاه. هذا المرشح أكثر غنى بالأدلة من التهاب لسان المزمار لكن الأدلة المباشرة الموجودة تترجح ضد الفعالية بدلاً من دعمها.
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-TFDA/regulatory package insert data (warnings, contraindications, drug interactions) could not be retrieved for this drug in the current dataset — this is flagged as a **blocking data gap (DG001)** that must be resolved before the candidate can enter formal safety screening (S1 stage). Please refer to the official package insert once available.
+Phenoxymethylpenicillin **غير مسوق حالياً** في المملكة العربية السعودية وفقاً لهذه المجموعة البيانية (لم يتم العثور على تصاريح مسجلة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+لم تتمكن من استرجاع بيانات نشرة الدواء التنظيمية/TFDA (التحذيرات والموانع والتفاعلات الدوائية) لهذا الدواء في المجموعة البيانية الحالية — تم وضع علامة على هذا باعتباره **فجوة بيانات حجزية (DG001)** يجب حلها قبل أن يدخل المرشح الفحص الأمني الرسمي (مرحلة S1). يرجى الرجوع إلى نشرة الدواء الرسمية بمجرد توفرها.
 
-**Rationale:**
-The Epiglottitis prediction is model-only (L5) with zero supporting trials or literature, and the mechanistic rationale itself flags a route/spectrum mismatch with standard-of-care treatment for this airway emergency. Safety evaluation cannot proceed until the blocking package-insert data gap is closed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications, DDI) — DG001, Blocking
-- Confirmed mechanism of action from DrugBank — DG002, High
-- Targeted literature/trial search specific to epiglottitis (current search returned zero hits)
-- If pursuing the Laryngitis candidate instead, the existing negative RCT evidence (PMID 3918495, 1632252) should be explicitly weighed — current data leans toward rejecting rather than advancing that indication
-- Route-of-administration assessment (oral vs. IV) given epiglottitis is an acute airway emergency
+## الخلاصة والخطوات التالية
+
+**القرار: علق**
+
+**المنطق:**
+تنبؤ التهاب لسان المزمار يعتمد على النموذج فقط (L5) بدون وجود تجارب أو أدبيات داعمة، والمنطق الآلي نفسه يشير إلى عدم تطابق في طريق الإعطاء والطيف مع معيار الرعاية الحادة لحالة طوارئ الجهاز التنفسي هذه. لا يمكن متابعة تقييم السلامة حتى يتم إغلاق فجوة بيانات نشرة الدواء الحجزية.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة الدواء TFDA/SFDA (التحذيرات والموانع والتفاعلات الدوائية) — DG001، حجزية
+- آلية عمل مؤكدة من DrugBank — DG002، عالية
+- بحث أدبي/تجريبي موجه خصيصاً لالتهاب لسان المزمار (أرجع البحث الحالي صفر نتائج)
+- إذا كنت تتابع مرشح التهاب الحنجرة بدلاً من ذلك، يجب وزن الأدلة السلبية لـ RCT الموجودة (PMID 3918495, 1632252) بشكل صريح — البيانات الحالية تميل نحو الرفض بدلاً من المتابعة لهذا الاستطباب
+- تقييم طريق الإعطاء (فموي مقابل وريدي) نظراً لأن التهاب لسان المزمار هو حالة طوارئ حادة في الجهاز التنفسي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

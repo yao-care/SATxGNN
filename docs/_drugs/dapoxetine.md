@@ -29,80 +29,79 @@ indication_count: 3
 
 </div>
 
-# DAPOXETINE: From Premature Ejaculation to Migraine Disorder
+# dapoxetine: من القذف المبكر إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Dapoxetine is a short-acting selective serotonin reuptake inhibitor (SSRI) approved in multiple countries for the on-demand treatment of premature ejaculation (PE) in adult men.
-The TxGNN model predicts it may have activity in **Migraine Disorder**, with **0 clinical trials** and **2 publications** (both narrative/observational in nature) currently supporting this direction.
-Given the absence of direct clinical evidence and a fundamental pharmacokinetic barrier for this indication, the recommendation is **Hold**.
+dapoxetine هو مثبط استعادة السيروتونين الانتقائي قصير المفعول (SSRI) معتمد في عدة دول لعلاج القذف المبكر (PE) عند الرجال البالغين عند الطلب. يتنبأ نموذج TxGNN أنه قد يكون له نشاط في **اضطراب الصداع النصفي**، مع **0 تجارب سريرية** و**منشورين** (كلاهما ذو طبيعة سردية/ملاحظة) يدعمان حالياً هذا الاتجاه. نظراً لغياب الأدلة السريرية المباشرة والحاجز الديناميكي الدوائي الأساسي لهذا الاستطباب، فإن التوصية هي **الانتظار**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Premature ejaculation (on-demand treatment) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | القذف المبكر (العلاج عند الطلب) |
+| الاستطباب الجديد المتوقع | اضطراب الصداع النصفي |
+| درجة توقع TxGNN | 99.34% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, dapoxetine is a selective serotonin reuptake inhibitor (SSRI), uniquely engineered for on-demand dosing due to its ultra-short half-life (t½ ≈ 1.3 hours). It inhibits the serotonin transporter (SERT), producing a rapid, transient increase in synaptic serotonin — a pharmacokinetic profile that is precisely suited to premature ejaculation, where immediate central serotonergic enhancement delays ejaculation. Its efficacy in this indication is clinically well-established.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية الفعل في حزمة الدليل هذه. بناءً على المعلومات المعروفة، dapoxetine هو مثبط استعادة السيروتونين الانتقائي (SSRI)، تم تطويره بشكل فريد للجرعات عند الطلب بسبب نصف عمره فائق القصر (t½ ≈ 1.3 hours). يثبط ناقل السيروتونين (SERT)، مما ينتج عنه زيادة سريعة وعابرة في السيروتونين المشبكي — وهو ملف ديناميكي دوائي يناسب بدقة القذف المبكر، حيث يؤخر التحسين السيروتونيني المركزي الفوري القذف. إن فعاليته في هذا الاستطباب مثبتة سريرياً بشكل جيد.
 
-The TxGNN model infers a connection to migraine disorder via the shared serotonergic pathway. Serotonin (5-HT) is central to migraine pathophysiology: triptans — the first-line acute therapy — act as 5-HT1B/1D receptor agonists, and broader dysregulation of serotonergic tone has long been associated with migraine susceptibility. Other SSRIs (e.g., fluoxetine, venlafaxine) have been explored for migraine prevention. At the class level, SERT inhibition and serotonin modulation represent a plausible, if indirect, mechanistic bridge between dapoxetine and migraine biology.
+يستنتج نموذج TxGNN وجود اتصال باضطراب الصداع النصفي عبر المسار السيروتونيني المشترك. السيروتونين (5-HT) محوري لفيزيولوجيا المرض للصداع النصفي: التريبتانات — العلاج الحاد من الخط الأول — تعمل كناهضات مستقبلات 5-HT1B/1D، وقد ارتبط اضطراب تنظيم النبرة السيروتونينية منذ فترة طويلة بزيادة عرضة الإصابة بالصداع النصفي. تم استكشاف مثبطات استعادة السيروتونين الأخرى (مثل fluoxetine و venlafaxine) للوقاية من الصداع النصفي. على مستوى الفئة، يمثل تثبيط SERT وتعديل السيروتونين جسراً آلياً معقولاً، وإن كان غير مباشر، بين dapoxetine وبيولوجيا الصداع النصفي.
 
-However, the pharmacokinetic mismatch is critical and likely disqualifying: dapoxetine's t½ ≈ 1.3 h makes it incapable of maintaining the stable plasma concentrations required for migraine prophylaxis. For acute migraine treatment, SERT inhibition operates through a fundamentally different receptor pathway than triptans and has not demonstrated comparable efficacy. Additionally, existing evidence for SSRIs in migraine prevention is mixed, and none of that data can be directly extrapolated to dapoxetine. This represents the primary barrier to repurposing.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for dapoxetine in migraine disorder.
+ومع ذلك، عدم التطابق الديناميكي الدوائي حرج وربما مستبعد: نصف عمر dapoxetine (t½ ≈ 1.3 h) يجعله غير قادر على الحفاظ على تركيزات البلازما المستقرة المطلوبة للوقاية من الصداع النصفي. لعلاج الصداع النصفي الحاد، يعمل تثبيط SERT من خلال مسار مستقبلات مختلف بشكل أساسي عن التريبتانات ولم يُظهر فعالية مماثلة. بالإضافة إلى ذلك، الأدلة الموجودة لمثبطات استعادة السيروتونين في الوقاية من الصداع النصفي مختلطة، ولا يمكن نقل أي من تلك البيانات مباشرة إلى dapoxetine. يمثل هذا الحاجز الأساسي لإعادة الاستخدام.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة لـ dapoxetine في اضطراب الصداع النصفي.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [33998993](https://pubmed.ncbi.nlm.nih.gov/33998993/) | 2022 | Narrative Review | Current Neuropharmacology | Broad review of off-label SSRI applications; mentions migraine as one potential off-label use for the SSRI class — does not evaluate dapoxetine specifically for migraine |
-| [23504864](https://pubmed.ncbi.nlm.nih.gov/23504864/) | 2013 | Observational Study | Urologia | Compliance study of dapoxetine in premature ejaculation; confirms SSRI mechanism and tolerability profile — no migraine-related data |
+| [33998993](https://pubmed.ncbi.nlm.nih.gov/33998993/) | 2022 | مراجعة سردية | Current Neuropharmacology | مراجعة واسعة لتطبيقات مثبطات استعادة السيروتونين خارج التسمية; تذكر الصداع النصفي كاستخدام محتمل واحد خارج التسمية لفئة مثبطات استعادة السيروتونين — لا تقيّم dapoxetine بشكل محدد للصداع النصفي |
+| [23504864](https://pubmed.ncbi.nlm.nih.gov/23504864/) | 2013 | دراسة ملاحظة | Urologia | دراسة الالتزام بـ dapoxetine في القذف المبكر; يؤكد آلية مثبط استعادة السيروتونين ونمط التحمل — لا توجد بيانات متعلقة بالصداع النصفي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Dapoxetine currently holds no registered marketing authorizations in this market. No product-level authorization data is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا يحمل dapoxetine حالياً أي تصاريح تسويق مسجلة في هذا السوق. لا توجد بيانات تصريح على مستوى المنتج متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-No clinical trials and no direct literature evidence support the use of dapoxetine in migraine disorder; the only indirect support derives from a general SSRI class review. More critically, dapoxetine's ultra-short half-life (t½ ≈ 1.3 h) presents a fundamental pharmacokinetic barrier to both preventive and acute migraine therapy, and this limitation has not been addressed in any published research program.
+---
 
-**To proceed, the following is needed:**
-- Mechanism of action data (MOA) — currently a data gap requiring DrugBank API query (DG002)
-- Package insert safety data: key warnings and contraindications (DG001)
-- Dedicated preclinical or mechanistic studies specifically evaluating dapoxetine in migraine models (required to progress beyond L4)
-- A credible formulation strategy to overcome the pharmacokinetic barrier (e.g., modified-release formulation achieving sustained plasma exposure)
-- Drug interaction profile for commonly co-prescribed migraine therapies (triptans, NSAIDs, anticonvulsants)
+## الخلاصة والخطوات التالية
+
+**القرار: الانتظار**
+
+**التبرير:**
+لا توجد تجارب سريرية ولا أدلة أدبيات مباشرة تدعم استخدام dapoxetine في اضطراب الصداع النصفي؛ الدعم غير المباشر الوحيد يأتي من مراجعة عامة لفئة مثبطات استعادة السيروتونين. والأهم من ذلك، أن نصف عمر dapoxetine فائق القصر (t½ ≈ 1.3 h) يمثل حاجزاً ديناميكياً دوائياً أساسياً أمام كل من العلاج الوقائي والحاد للصداع النصفي، ولم يتم معالجة هذا القيد في أي برنامج بحثي منشور.
+
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية الفعل (MOA) — حالياً فجوة بيانات تتطلب استعلام DrugBank API (DG002)
+- بيانات السلامة من نشرة المعلومات: التحذيرات والموانع الرئيسية (DG001)
+- دراسات ما قبل سريرية أو آليات مخصصة تقيّم dapoxetine بشكل محدد في نماذج الصداع النصفي (مطلوبة للتقدم إلى ما وراء L4)
+- استراتيجية صيغة موثوقة للتغلب على الحاجز الديناميكي الدوائي (مثل صيغة ذات إطلاق معدّل تحقق تعريضاً بلازمياً مستدام)
+- ملف التفاعل الدوائي للعلاجات الشائعة المشترك وصفها للصداع النصفي (التريبتانات ومضادات الالتهاب غير الستيرويدية ومضادات التشنج)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

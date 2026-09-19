@@ -29,70 +29,71 @@ indication_count: 3
 
 </div>
 
-# Tacrolimus: From Organ Transplant Rejection to Seborrheic Dermatitis
+# تاكروليموس: من رفض زراعة الأعضاء إلى التهاب الجلد الدهني
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Tacrolimus is a calcineurin inhibitor best known for preventing organ transplant rejection and, in its topical form (Protopic®), for treating atopic dermatitis. The TxGNN model predicts it may also be effective for **Seborrheic Dermatitis**, with **2 clinical trials** and **20 publications** currently supporting this direction.
+تاكروليموس هو مثبط كالسينيورين معروف بأفضل أشكاله لمنع رفض زراعة الأعضاء وفي شكله الموضعي (Protopic®) لعلاج التهاب الجلد التأتبي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لـ **التهاب الجلد الدهني**، مع وجود **تجربتين سريريتين** و**20 منشورة بحثية** تدعم هذا الاتجاه حالياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not documented in this evidence pack (data gap). Per general pharmacological knowledge: organ transplant rejection prophylaxis (systemic); atopic dermatitis (topical, Protopic®) |
-| Predicted New Indication | Seborrheic Dermatitis |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير موثق في حزمة الأدلة هذه (فجوة بيانات). حسب المعرفة الدوائية العامة: الوقاية من رفض زراعة الأعضاء (جهازي)؛ التهاب الجلد التأتبي (موضعي، Protopic®) |
+| الاستطباب الجديد المتنبأ به | التهاب الجلد الدهني |
+| درجة التنبؤ من TxGNN | 99.26% |
+| مستوى الأدلة | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data for this candidate is not available in the evidence pack (data gap, severity: High). Based on known pharmacology, tacrolimus is a calcineurin inhibitor that suppresses T-cell activation and downregulates pro-inflammatory cytokine release (IL-2, IFN-γ, etc.). Its efficacy in preventing organ transplant rejection and in treating atopic dermatitis (topical formulation) is well established, and mechanistically it is plausible that this anti-inflammatory activity extends to other T-cell-mediated dermatoses.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية لهذا المرشح في حزمة الأدلة هذه (فجوة بيانات، درجة الخطورة: عالية). بناءً على الصيدلة المعروفة، تاكروليموس هو مثبط كالسينيورين يثبط تنشيط الخلايا التائية وينظم هبوطاً إفراز السيتوكينات المؤيدة للالتهاب (IL-2, IFN-γ, إلخ.). فعاليته في منع رفض زراعة الأعضاء وفي علاج التهاب الجلد التأتبي (الصيغة الموضعية) معروفة جيداً، وآلياً من المعقول أن ينسحب هذا النشاط المضاد للالتهاب إلى أمراض جلدية أخرى يتوسطها الخلايا التائية.
 
-Seborrheic dermatitis shares immunopathological features with atopic dermatitis: both involve a T-cell-driven inflammatory response, in the case of seborrheic dermatitis triggered in part by *Malassezia* yeast colonization. Because topical tacrolimus already has a mature safety and efficacy record from decades of use in atopic dermatitis, extending it to seborrheic dermatitis represents a comparatively low-risk, mechanistically grounded repurposing hypothesis rather than an entirely novel pharmacological application.
+يتشارك التهاب الجلد الدهني في ميزات مناعية مرضية مع التهاب الجلد التأتبي: كلاهما يتضمن استجابة التهابية بوساطة الخلايا التائية، في حالة التهاب الجلد الدهني يتم تفعيلها جزئياً بواسطة استعمار خميرة *Malassezia*. لأن تاكروليموس الموضعي يمتلك بالفعل سجل أمان وفعالية ناضج من عقود من الاستخدام في التهاب الجلد التأتبي، فإن توسيع نطاقه إلى التهاب الجلد الدهني يمثل فرضية إعادة توجيه ذات مخاطر منخفضة نسبياً وقائمة على الآلية بدلاً من تطبيق صيدلاني جديد تماماً.
 
-This rationale is directly supported by real-world evidence: topical tacrolimus (Protopic®) has already been studied in multiple completed Phase 3/4 trials specifically for facial seborrheic dermatitis maintenance therapy, indicating that clinical investigators independently arrived at the same mechanistic hypothesis well before this TxGNN prediction.
+هذا المنطق مدعوم مباشرة بالأدلة من العالم الحقيقي: تاكروليموس الموضعي (Protopic®) تم بالفعل دراسته في عدة تجارب مكتملة من المرحلة الثالثة/الرابعة بشكل خاص لعلاج التهاب الجلد الدهني الوجهي بالعلاج الصيانة، مما يشير إلى أن محققي العيادات توصلوا بشكل مستقل إلى نفس الفرضية الآلية قبل هذا التنبؤ من TxGNN.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | Completed | 120 | Evaluated 0.1% tacrolimus ointment as maintenance treatment for severe facial seborrheic dermatitis in adults, aiming to reduce relapse frequency and steroid use |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | Completed | 104 | Assessed proactive (once/twice weekly) 0.1% tacrolimus ointment to maintain remission and reduce exacerbation incidence in adult facial seborrheic dermatitis |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | المرحلة الثالثة | مكتملة | 120 | تقييم مرهم تاكروليموس 0.1% كعلاج صيانة لالتهاب الجلد الدهني الوجهي الحاد لدى البالغين، بهدف تقليل تكرار الانتكاسة واستخدام المنشطات |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | المرحلة الرابعة | مكتملة | 104 | تقييم مرهم تاكروليموس 0.1% الاستباقي (مرة/مرتين أسبوعياً) للحفاظ على الهجوع وتقليل حدوث التفاقم في التهاب الجلد الدهني الوجهي لدى البالغين |
 
-## Literature Evidence
+## أدلة المؤلفات العلمية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multicenter double-blind RCT comparing tacrolimus 0.1% vs. ciclopiroxolamine 1% for maintenance therapy in severe facial seborrheic dermatitis |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Single-blind RCT comparing hydrocortisone 1% vs. tacrolimus 0.1% ointment in adults with facial seborrheic dermatitis |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Ann Parasitol | Clinical trial (n=60) comparing sertaconazole 2% cream vs. tacrolimus 0.03% cream for seborrheic dermatitis |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Comparative Trial | Indian J Dermatol Venereol Leprol | Compared 2-day oral itraconazole plus topical tacrolimus vs. topical tacrolimus alone for maintenance therapy in Vietnam |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematic Review | Am J Clin Dermatol | Systematic review of topical treatments (antifungals, keratolytics, corticosteroids, calcineurin inhibitors) for facial seborrheic dermatitis |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Cohort/Open-label | Ann Dermatol | Maintenance therapy with 0.1% tacrolimus ointment for facial seborrheic dermatitis, extending the proactive-treatment strategy proven in atopic dermatitis |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Reviewed pathophysiology, safety, and efficacy of topical calcineurin inhibitors as a corticosteroid-sparing option for seborrheic dermatitis |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Cochrane Network Meta-Analysis | Clin Exp Allergy | Cochrane NMA of topical anti-inflammatory treatments for eczema, comparing relative efficacy/safety across agent classes including calcineurin inhibitors |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Open-label Pilot Study | J Am Acad Dermatol | Open-label pilot study (n=18): 61% of patients achieved complete clearance of seborrheic dermatitis within 28 days of 0.1% tacrolimus |
-| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | Review | Semin Cutan Med Surg | Early review of topical tacrolimus and pimecrolimus exploring off-label use in seborrheic dermatitis, psoriasis, lichen planus, and other dermatoses |
+| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | تجربة عشوائية متعددة المراكز معمياة مقارنة تاكروليموس 0.1% مع سيكلوبيروكسولامين 1% لعلاج الصيانة في التهاب الجلد الدهني الوجهي الحاد |
+| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | تجربة أحادية العماية مقارنة هيدروكورتيزون 1% مع مرهم تاكروليموس 0.1% لدى البالغين المصابين بالتهاب الجلد الدهني الوجهي |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Ann Parasitol | تجربة سريرية (n=60) مقارنة كريم سيرتاكونازول 2% مع كريم تاكروليموس 0.03% لالتهاب الجلد الدهني |
+| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | تجربة مقارنة | Indian J Dermatol Venereol Leprol | مقارنة إيتراكونازول عن طريق الفم لمدة يومين بالإضافة إلى تاكروليموس موضعي مقابل تاكروليموس موضعي وحده لعلاج الصيانة في فيتنام |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | مراجعة منهجية | Am J Clin Dermatol | مراجعة منهجية للعلاجات الموضعية (مضادات الفطريات، العوامل المقشرة، الكورتيكوستيرويدات، مثبطات كالسينيورين) لالتهاب الجلد الدهني الوجهي |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | دراسة الأتراب/تسمية مفتوحة | Ann Dermatol | علاج الصيانة بمرهم تاكروليموس 0.1% لالتهاب الجلد الدهني الوجهي، موسعاً استراتيجية العلاج الاستباقي المثبتة في التهاب الجلد التأتبي |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | مراجعة | Am J Clin Dermatol | مراجعة الفسيولوجيا المرضية والأمان والفعالية لمثبطات كالسينيورين الموضعية كخيار بديل للكورتيكوستيرويد لالتهاب الجلد الدهني |
+| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | تحليل شبكي Cochrane | Clin Exp Allergy | تحليل شبكي Cochrane للعلاجات الموضعية المضادة للالتهاب للأكزيما، مقارناً الفعالية النسبية/الأمان عبر فئات الوكلاء بما في ذلك مثبطات كالسينيورين |
+| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | دراسة تجريبية مفتوحة | J Am Acad Dermatol | دراسة تجريبية مفتوحة (n=18): حقق 61% من المرضى الشفاء التام من التهاب الجلد الدهني في غضون 28 يوماً من استخدام تاكروليموس 0.1% |
+| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | مراجعة | Semin Cutan Med Surg | مراجعة مبكرة لتاكروليموس الموضعي وبيميكروليموس استكشاف الاستخدام خارج التعليمات في التهاب الجلد الدهني والصدفية والحزاز المسطح وأمراض جلدية أخرى |
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information. TFDA-equivalent label warnings, contraindications, and drug-drug interaction data could not be retrieved for this candidate (query status: not found), and this gap is flagged as **Blocking** for safety pre-assessment.
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات الأمان. لم يتمكن من استرجاع تحذيرات العلامة المعادلة للـ TFDA والموانع والتفاعلات الدوائية لهذا المرشح (حالة الاستعلام: لم يتم العثور عليه)، وتم وضع علم على هذه الفجوة كـ **حاجز** لتقييم الأمان المسبق.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع الضمانات**
 
-**Rationale:**
-Two completed Phase 3/4 trials plus a substantial literature base (including a direct head-to-head RCT vs. corticosteroid and vs. antifungal comparators) support tacrolimus's efficacy in facial seborrheic dermatitis, and the mechanistic rationale is strong given its established role in atopic dermatitis. However, the drug is currently unmarketed in Saudi Arabia and core safety documentation is missing.
+**المنطق:**
+تدعم تجربتان مكتملتان من المرحلة الثالثة/الرابعة بالإضافة إلى قاعدة أدبية جوهرية (بما في ذلك تجربة مقارنة مباشرة مع الكورتيكوستيرويد ومقابل مقارنات مضادات الفطريات) فعالية تاكروليموس في التهاب الجلد الدهني الوجهي، والمنطق الآلي قوي نظراً لدوره المعروف في التهاب الجلد التأتبي. ومع ذلك، فإن الدواء غير معروض حالياً في المملكة العربية السعودية وتوثيق الأمان الأساسي مفقود.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert (warnings, contraindications) — currently a Blocking data gap preventing S1 safety pre-assessment
-- Confirmed mechanism of action (MOA) documentation from DrugBank or equivalent source
-- Saudi Arabia market authorization pathway assessment, since the drug has zero existing local licenses
-- Drug-drug interaction data (current query returned no results)
+**للمضي قدماً، يلزم التالي:**
+- النشرة الطبية المعادلة للـ TFDA/SFDA (التحذيرات، الموانع) — حالياً فجوة بيانات حاجزة تمنع تقييم الأمان S1 المسبق
+- توثيق آلية العمل (MOA) المؤكدة من DrugBank أو مصدر معادل
+- تقييم مسار التصريح في السوق السعودية، بما أن الدواء لا يملك أي تراخيص محلية موجودة
+- بيانات التفاعلات الدوائية (الاستعلام الحالي لم يرجع نتائج)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

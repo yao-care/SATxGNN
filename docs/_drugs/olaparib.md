@@ -29,111 +29,112 @@ indication_count: 1
 
 </div>
 
-# Olaparib: From BRCA-Mutated Ovarian Cancer to Breast Cancer
+# أولابريب: من سرطان المبيض مع طفرات BRCA إلى سرطان الثدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Olaparib is a PARP inhibitor originally developed for maintenance treatment of platinum-sensitive, BRCA-mutated relapsed ovarian, fallopian tube, or peritoneal cancer. The TxGNN model predicts it may also be effective for **female breast carcinoma**, a prediction already strongly corroborated by real-world evidence — **80 clinical trials** and **20 publications** are on file, including two pivotal completed Phase 3 RCTs (OlympiAD, OlympiA).
+أولابريب هو مثبط PARP تم تطويره أصلاً لعلاج الصيانة لسرطان المبيض والقناة الرحمية والسرطان البريتوني الأولي المتكرر الحساس للبلاتين مع طفرات BRCA. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لـ **سرطان الثدي لدى الإناث**، وهو تنبؤ مدعوم بقوة بالفعل بالأدلة الحقيقية — **80 تجربة سريرية** و **20 منشور** موجودة في الملف، بما في ذلك تجربتا المرحلة 3 الكبيرة المكتملة (OlympiAD و OlympiA).
 
-*Note: `taiwan_regulatory.licenses` and `drug.original_indications` are empty in this evidence pack — the original-indication description above is drawn from clinical trial descriptive text (NCT05078671), not from a formal regulatory record.*
+*ملاحظة: حقول `taiwan_regulatory.licenses` و `drug.original_indications` فارغة في حزمة الأدلة هذه — الوصف الأصلي للدلالة أعلاه مستمد من النصوص الوصفية للتجارب السريرية (NCT05078671)، وليس من سجل تنظيمي رسمي.*
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Maintenance treatment of BRCA-mutated, platinum-sensitive relapsed ovarian, fallopian tube, or primary peritoneal cancer (sourced from trial text, not formal regulatory data) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الدلالة الأصلية | علاج الصيانة لسرطان المبيض والقناة الرحمية والسرطان البريتوني الأولي المتكرر الحساس للبلاتين مع طفرات BRCA (مستمد من نصوص التجارب، وليس من بيانات تنظيمية رسمية) |
+| الدلالة الجديدة المتنبأ بها | سرطان الثدي لدى الإناث |
+| نقاط توقع TxGNN | 99.09% |
+| مستوى الدليل | L1 |
+| حالة السوق السعودية | غير مسجل في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-A formal DrugBank mechanism-of-action record is not yet available in our data pipeline (flagged as a High-severity data gap). However, the mechanistic rationale is well established in the supporting literature: Olaparib is a PARP1/2 inhibitor that blocks base-excision repair (BER) of single-strand DNA breaks. In tumor cells with BRCA1/2 mutations or broader homologous recombination deficiency (HRD) — which are also deficient in double-strand break repair — this creates **synthetic lethality**, selectively killing tumor cells while sparing normal cells.
+سجل آلية العمل الرسمية في DrugBank غير متوفر حالياً في خط أنابيب البيانات الخاص بنا (يتم الإشارة إليه كفجوة بيانات عالية الخطورة). ومع ذلك، فإن الأساس الميكانيكي محدد جيداً في الأدبيات المساعدة: أولابريب هو مثبط PARP1/2 يحظر إصلاح قاعدة الاستخراج (BER) من كسور DNA أحادية الخيط. في الخلايا السرطانية مع طفرات BRCA1/2 أو نقص إعادة التوليف المتماثل الأوسع (HRD) — التي تفتقد أيضاً إصلاح كسور DNA ثنائية الخيط — يخلق هذا **الإماتة الاصطناعية**، مما يقتل الخلايا السرطانية انتقائياً مع الحفاظ على الخلايا الطبيعية.
 
-Ovarian cancer and breast cancer share substantial overlap in BRCA-driven, HRD-positive tumor biology, since BRCA1/2 germline mutations confer elevated risk for both cancers and produce tumors with the same repair-deficient phenotype. This shared biology is why the mechanism validated in ovarian cancer translates directly to BRCA-mutated and HRD-positive breast cancer.
+سرطان المبيض وسرطان الثدي يتشاركان تداخلاً كبيراً في بيولوجيا الورم التي تحركها BRCA مع نقص إعادة التوليف (HRD)، حيث أن طفرات BRCA1/2 الجرثومية تنقل خطراً مرتفعاً لكلا السرطانين وتنتج أوراماً بنفس النمط الضعيف الإصلاح. هذا التشابه البيولوجي هو السبب في أن الآلية المثبتة في سرطان المبيض تترجم مباشرة إلى سرطان الثدي مع طفرات BRCA-المتحورة والإيجابية HRD.
 
-This is not merely a theoretical extrapolation: the pivotal Phase 3 OlympiAD and OlympiA trials have already demonstrated clinically meaningful benefit of olaparib in gBRCA-mutated, HER2-negative breast cancer (both metastatic and high-risk early-stage settings), and Olaparib is approved for breast cancer indications by major regulators (FDA, EMA) elsewhere. In this evidence pack, the prediction functions largely as **regulatory catch-up** for a market (Saudi Arabia) where the drug is not yet marketed, rather than a purely novel biological hypothesis.
+هذا ليس مجرد استقراء نظري فحسب: قد أثبتت تجارب المرحلة 3 الكبيرة OlympiAD و OlympiA بالفعل فائدة سريرية ذات مغزى من أولابريب في سرطان الثدي الجرثومي BRCA-المتحور بدون HER2 (كل من الإعدادات النقيلية والمرحلة المبكرة عالية الخطورة)، وأولابريب معتمد لدلالات سرطان الثدي من قبل المنظمين الرئيسيين (FDA و EMA) في أماكن أخرى. في حزمة الأدلة هذه، يعمل التنبؤ إلى حد كبير كـ **اللحاق التنظيمي** لسوق (المملكة العربية السعودية) حيث لم يتم تسويق الدواء بعد، بدلاً من فرضية بيولوجية جديدة بحتة.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | Phase 3 | Active, not recruiting | 185 | Rollover study continuing olaparib for patients already showing clinical benefit in parent oncology studies — reflects established long-term use pattern |
-| [NCT05078671](https://clinicaltrials.gov/study/NCT05078671) | Phase 4 | Recruiting | 160 | Post-marketing PK-boosting study to improve exposure, tolerance and cost-effectiveness of approved olaparib regimens |
-| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | Phase 2 | Recruiting | 2900 | ComboMATCH — large genomically-matched basket trial with an olaparib arm for molecularly selected breast cancer |
-| [NCT02624973](https://clinicaltrials.gov/study/NCT02624973) | Phase 2 | Active, not recruiting | 200 | PETREMAC — personalized treatment of high-risk breast cancer using olaparib as a study drug |
-| [NCT04683679](https://clinicaltrials.gov/study/NCT04683679) | Phase 2 | Recruiting | 34 | Pembrolizumab + radiotherapy ± olaparib in metastatic triple-negative/HR+ HER2- breast cancer |
-| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Phase 1 | Completed | 25 | Carboplatin-olaparib sequencing vs. capecitabine as first-line therapy in BRCA1/2-mutated HER2- advanced breast cancer |
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Completed | 9 | Olaparib maintenance after response to trabectedin-PLD in recurrent ovarian carcinoma (HRD biology directly relevant to breast cancer rationale) |
-| [NCT07321015](https://clinicaltrials.gov/study/NCT07321015) | Phase 2 | Not yet recruiting | 72 | Maintenance fluzoparib (another PARP inhibitor) in platinum-sensitive advanced TNBC with/without BRCA1/2 mutation — class-level support |
-| [NCT06545942](https://clinicaltrials.gov/study/NCT06545942) | Phase 1 | Active, not recruiting | 220 | MOMA-313 alone or combined with a PARP inhibitor in HRD-positive advanced/metastatic solid tumors |
-| [NCT05700669](https://clinicaltrials.gov/study/NCT05700669) | Phase 1/2 | Completed | 3 | AsiDNA + olaparib basket study including breast cancer patients who progressed on prior PARP inhibitor therapy |
+| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | المرحلة 3 | نشط، غير مجند | 185 | دراسة التحويل تستمر أولابريب للمرضى الذين يظهرون بالفعل فائدة سريرية في دراسات الأورام الأم — تعكس نمط الاستخدام طويل الأجل المثبت |
+| [NCT05078671](https://clinicaltrials.gov/study/NCT05078671) | المرحلة 4 | مجند | 160 | دراسة الحرائك الدوائية بعد التسويق لتحسين التعرض والتسامح والفعالية من حيث التكلفة لأنظمة أولابريب المعتمدة |
+| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | المرحلة 2 | مجند | 2900 | ComboMATCH — تجربة سلة كبيرة محددة جينياً مع ذراع أولابريب لسرطان الثدي المختار جزيئياً |
+| [NCT02624973](https://clinicaltrials.gov/study/NCT02624973) | المرحلة 2 | نشط، غير مجند | 200 | PETREMAC — العلاج الشخصي لسرطان الثدي عالي الخطورة باستخدام أولابريب كدواء دراسة |
+| [NCT04683679](https://clinicaltrials.gov/study/NCT04683679) | المرحلة 2 | مجند | 34 | بيمبروليزوماب + العلاج الإشعاعي ± أولابريب في سرطان الثدي النقيلي ثلاثي السلبي/HR+ HER2- |
+| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | المرحلة 1 | مكتمل | 25 | تسلسل كربوبلاتين-أولابريب مقابل كابيسيتابين كعلاج الخط الأول في سرطان الثدي المتقدم HER2- المتحور BRCA1/2 |
+| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | المرحلة 2 | مكتمل | 9 | صيانة أولابريب بعد الاستجابة لـ trabectedin-PLD في سرطان المبيض المتكرر (بيولوجيا HRD ذات صلة مباشرة بمنطق سرطان الثدي) |
+| [NCT07321015](https://clinicaltrials.gov/study/NCT07321015) | المرحلة 2 | لم تبدأ بعد | 72 | صيانة fluzoparib (مثبط PARP آخر) في TNBC المتقدم الحساس للبلاتين مع/بدون طفرة BRCA1/2 — دعم على مستوى الفئة |
+| [NCT06545942](https://clinicaltrials.gov/study/NCT06545942) | المرحلة 1 | نشط، غير مجند | 220 | MOMA-313 وحده أو مع مثبط PARP في الأورام الصلبة المتقدمة/النقيلية الإيجابية HRD |
+| [NCT05700669](https://clinicaltrials.gov/study/NCT05700669) | المرحلة 1/2 | مكتمل | 3 | دراسة سلة AsiDNA + أولابريب تشمل مرضى سرطان الثدي الذين تطورت مقاومتهم على العلاج السابق بمثبطات PARP |
 
 ---
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT (Phase 3, OlympiA) | New England Journal of Medicine | Adjuvant olaparib significantly reduced recurrence in gBRCA1/2-mutated, high-risk early breast cancer |
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT (Phase 3, OlympiAD) | New England Journal of Medicine | Olaparib showed antitumor activity and improved outcomes in metastatic breast cancer with germline BRCA mutation |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT (Phase 3, OlympiAD) | Annals of Oncology | Final OS/tolerability results: olaparib improved PFS vs. chemotherapy of physician's choice in gBRCA-mutated HER2- metastatic breast cancer |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT (Phase 3, OlympiAD extended) | European Journal of Cancer | Extended follow-up confirms olaparib's PFS benefit and manageable safety in gBRCA-mutated metastatic breast cancer |
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT (Phase 3, OlympiA) | Annals of Oncology | Overall survival analysis of adjuvant olaparib in gBRCA1/2-mutated, high-risk early breast cancer |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | RCT (Phase 2, TBCRC 048) | Journal of Clinical Oncology | Olaparib response in metastatic breast cancer with somatic BRCA or non-BRCA HR-pathway mutations |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | RCT (Phase 2, I-SPY2) | Cancer Cell | Durvalumab + olaparib + paclitaxel increased pathologic complete response in high-risk HER2- breast cancer |
-| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | Phase 2 (NOBROLA) | Breast (Edinburgh, Scotland) | Olaparib monotherapy activity in HRD-positive, non-germline-BRCA-mutated advanced triple-negative breast cancer |
-| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | Phase IIIb / Real-world (LUCY) | Breast Cancer Research and Treatment | Real-world effectiveness and safety of olaparib in gBRCA-mutated, HER2- metastatic breast cancer, consistent with OlympiAD |
-| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Review | Targeted Oncology | Overview of PARP inhibitors (olaparib, talazoparib) approved for gBRCA-mutated HER2- breast cancer |
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT (المرحلة 3، OlympiA) | مجلة نيو إنجلاند للطب | قلل أولابريب المساعد من الانتكاسة بشكل كبير في سرطان الثدي المبكر عالي الخطورة مع طفرة BRCA1/2 الجرثومية |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT (المرحلة 3، OlympiAD) | مجلة نيو إنجلاند للطب | أظهر أولابريب نشاطاً مضاداً للورم وتحسناً في النتائج في سرطان الثدي النقيلي مع طفرة BRCA الجرثومية |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT (المرحلة 3، OlympiAD) | حوليات علم الأورام | نتائج OS/المحتملية النهائية: حسّن أولابريب PFS مقابل العلاج الكيميائي من اختيار الطبيب في سرطان الثدي النقيلي HER2- مع BRCA-المتحور الجرثومي |
+| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT (المرحلة 3، OlympiAD الممتد) | المجلة الأوروبية لسرطان | يؤكد المتابعة الممتدة فائدة PFS لأولابريب والسلامة القابلة للتحكم في سرطان الثدي النقيلي مع BRCA-المتحور الجرثومي |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT (المرحلة 3، OlympiA) | حوليات علم الأورام | تحليل البقاء الكلي لأولابريب المساعد في سرطان الثدي المبكر عالي الخطورة مع طفرة BRCA1/2 الجرثومية |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | RCT (المرحلة 2، TBCRC 048) | مجلة الجمعية الأمريكية لعلم الأورام السريري | استجابة أولابريب في سرطان الثدي النقيلي مع طفرات BRCA الجسدية أو طفرات مسار HR بدون BRCA |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | RCT (المرحلة 2، I-SPY2) | سرطان الخلية | زاد ديرفالوماب + أولابريب + باكليتاكسل من الاستجابة المرضية النسيجية الكاملة في سرطان الثدي عالي الخطورة HER2- |
+| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | المرحلة 2 (NOBROLA) | ثدي (إدنبرة، اسكتلندا) | نشاط أولابريب وحيداً في سرطان الثدي الثلاثي السلبي المتقدم الإيجابي HRD بدون طفرة BRCA جرثومية |
+| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | المرحلة IIIb / العالم الحقيقي (LUCY) | سرطان الثدي والعلاج | الفعالية والسلامة في العالم الحقيقي لأولابريب في سرطان الثدي النقيلي HER2- مع BRCA-المتحور الجرثومي، متسق مع OlympiAD |
+| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | استعراض | الأورام الموجهة | نظرة عامة على مثبطات PARP (أولابريب، تالازوباريب) المعتمدة لسرطان الثدي HER2- مع BRCA-المتحور الجرثومي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودية
 
-Olaparib currently has **no marketing authorization on file** for Saudi Arabia (`market_status: Not marketed`, 0 licenses recorded). No product/dosage-form registry data is available to populate an authorization table.
+أولابريب حالياً لا يملك **تصريح تسويق** موجود في السجل للمملكة العربية السعودية (`market_status: غير مسجل في السوق`، 0 تراخيص مسجلة). لا توجد بيانات تسجيل المنتج/الصيغة الدوائية متاحة لملء جدول التفويض.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor acting via synthetic lethality — not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الموجه (مثبط PARP يعمل عبر الإماتة الاصطناعية — وليس وكيل علاج كيميائي سام خلوي تقليدي) |
+| خطر قمع نقي العظم | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+| تصنيف الغثيان | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+| عناصر المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات واحتياطات نشرة المنتج |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع الضمانات**
 
-**Rationale:**
-Evidence strength is high (L1) — two independent, completed Phase 3 RCTs (OlympiAD, OlympiA) plus a substantial post-marketing/real-world dataset already establish olaparib's efficacy and general safety in BRCA-mutated/HRD breast cancer. However, Blocking-severity data gaps around Saudi Arabia-specific safety documentation and the drug's current "not marketed" status mean this cannot yet proceed as an unconditional "Go."
+**الأساس المنطقي:**
+قوة الدليل عالية (L1) — تجربتان مستقلتان مكتملتان من المرحلة 3 (OlympiAD و OlympiA) بالإضافة إلى مجموعة بيانات كبيرة بعد التسويق/في العالم الحقيقي تثبت بالفعل فعالية أولابريب والسلامة العامة في سرطان الثدي مع طفرات BRCA/HRD الإيجابية. ومع ذلك، فإن فجوات البيانات من مستوى الحظر المتعلقة بتوثيق السلامة الخاص بالمملكة العربية السعودية وحالة الدواء الحالية "غير مسجل في السوق" تعني أن هذا لا يمكن أن يتقدم بعد باعتباره "موافقة" بدون شروط.
 
-**To proceed, the following is needed:**
-- SFDA-approved package insert (warnings, precautions, contraindications) — currently a Blocking data gap
-- Formal DrugBank/regulatory mechanism-of-action record — currently a High-severity data gap
-- Drug-drug interaction (DDI) profile — current query returned no data
-- Saudi Arabia market entry/registration pathway assessment, since the product is not currently marketed there
-- BRCA/HRD biomarker testing infrastructure and monitoring plan appropriate for local clinical use
+**للمتابعة، يلزم ما يلي:**
+- نشرة المنتج المعتمدة من SFDA (تحذيرات واحتياطات وموانع استعمال) — حالياً فجوة بيانات من مستوى الحظر
+- سجل رسمي لآلية العمل في DrugBank/التنظيمي — حالياً فجوة بيانات عالية الخطورة
+- ملف تفاعلات الأدوية (DDI) — الاستعلام الحالي لم يرجع أي بيانات
+- تقييم مسار الدخول إلى السوق السعودي/التسجيل، لأن المنتج غير مسجل حالياً هناك
+- بنية اختبار وخطة مراقبة حيوية BRCA/HRD مناسبة للاستخدام السريري المحلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

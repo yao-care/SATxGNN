@@ -29,70 +29,71 @@ indication_count: 1
 
 </div>
 
-# Polatuzumab Vedotin: From Diffuse Large B-Cell Lymphoma to HER2 Positive Breast Carcinoma
+# بوليتوزوماب فيدوتين: من الليمفوما B-cell الكبيرة المنتشرة إلى سرطان الثدي الإيجابي للـ HER2
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Polatuzumab vedotin is an antibody-drug conjugate (anti-CD79b + MMAE) originally approved for diffuse large B-cell lymphoma (DLBCL).
-The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**,
-but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction stands on the model score alone.
+بوليتوزوماب فيدوتين هو مركب جسم مضاد-دواء (anti-CD79b + MMAE) تمت الموافقة عليه أصلاً لعلاج الليمفوما B-cell الكبيرة المنتشرة (DLBCL).
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان الثدي الإيجابي للـ HER2**،
+لكن هذا الاتجاه يدعمه حالياً **0 تجارب سريرية** و **0 منشورات** — التنبؤ يعتمد فقط على درجة النموذج.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Diffuse Large B-Cell Lymphoma (DLBCL) — per repurposing rationale text; structured `original_indications`/`original_moa` fields are not yet populated |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
-| TxGNN Prediction Score | 99.34% (rank 9792) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | الليمفوما B-cell الكبيرة المنتشرة (DLBCL) — حسب نص منطق إعادة التوظيف؛ حقول `original_indications`/`original_moa` المهيكلة لم تُملأ بعد |
+| الاستطباب الجديد المتنبأ به | سرطان الثدي الإيجابي للـ HER2 |
+| درجة تنبؤ TxGNN | 99.34% (الترتيب 9792) |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data has not yet been loaded into the drug record (`original_moa` = Data Gap). Based on the mechanistic rationale accompanying this prediction, polatuzumab vedotin is an anti-CD79b monoclonal antibody conjugated to the microtubule inhibitor MMAE. It targets CD79b on the B-cell receptor complex, is internalized by CD79b-expressing B cells, and releases MMAE intracellularly to kill the cell. Its approved use is DLBCL.
+لم يتم تحميل بيانات آلية العمل التفصيلية بعد في سجل الدواء (`original_moa` = فجوة في البيانات). بناءً على المنطق الآلي المرافق لهذا التنبؤ، بوليتوزوماب فيدوتين هو جسم مضاد أحادي النسيلة موجه ضد CD79b مرتبط بـ MMAE مثبط الأنابيب الدقيقة. إنه يستهدف CD79b على مركب مستقبل B-cell، ويتم استيعابه من قبل خلايا B-cell التي تعبر عن CD79b، ويطلق MMAE داخل الخلية لقتل الخلية. استخدامه المعتمد هو DLBCL.
 
-HER2-positive breast carcinoma is driven by overexpression of the HER2/ERBB2 tyrosine kinase receptor — a pathway with no known intersection with CD79b/B-cell receptor signaling. Breast cancer cells are not known to express CD79b, the antibody's targeting antigen. The evidence pack itself flags this mechanistic link as weak-to-unsupported: the prediction is generated purely by the TxGNN model score, with no corroborating mechanism, clinical trial, or literature evidence.
+يحركها سرطان الثدي الإيجابي للـ HER2 الإفراط في التعبير عن مستقبل HER2/ERBB2 كيناز التيروسين — مسار لا يوجد له تقاطع معروف مع CD79b/B-cell receptor signaling. لا يُعتقد أن خلايا سرطان الثدي تعبر عن CD79b، المستضد المستهدف للجسم المضاد. حزمة الأدلة نفسها تشير إلى هذا الربط الآلي على أنه ضعيف إلى غير مدعوم: يتم توليد التنبؤ بحتة من درجة نموذج TxGNN، بدون آلية مؤيدة أو تجربة سريرية أو أدلة أدبية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## الأدلة الأدبية
 
-Currently no related literature available.
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Polatuzumab vedotin is not currently marketed in Saudi Arabia (0 authorizations on file), so no product license table is available.
+بوليتوزوماب فيدوتين غير مسوق حالياً في المملكة العربية السعودية (0 تصاريح في الملف)، لذا لا يوجد جدول ترخيص المنتج متاح.
 
-## Cytotoxicity
+## السمية الخلوية
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (anti-CD79b antibody carrying the microtubule-inhibitor payload MMAE) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| تصنيف السمية الخلوية | العلاج الموجه — مركب جسم مضاد-دواء (جسم مضاد موجه ضد CD79b يحمل حمولة مثبط الأنابيب الدقيقة MMAE) |
+| خطر قمع النخاع | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الداخلية |
+| تصنيف الغثيان | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الداخلية |
+| عناصر المراقبة | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الداخلية |
+| حماية التعامل | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الداخلية |
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-This candidate is at evidence level L5 (model prediction only) with no clinical trials, no literature, and a mechanistic rationale that the evidence pack itself characterizes as weak/unsupported. A blocking data gap on TFDA-equivalent package insert warnings/contraindications (DG001) also prevents entry into safety pre-screening (S1).
+**المبرر:**
+هذا المرشح في مستوى الأدلة L5 (تنبؤ النموذج فقط) بدون تجارب سريرية وبدون أدبيات ومنطق آلي تميزه حزمة الأدلة نفسها على أنه ضعيف/غير مدعوم. تمنع فجوة البيانات الحجزية المتعلقة بتحذيرات/موانع الاستعمال في النشرة الداخلية المعادلة للـ TFDA (DG001) أيضاً الدخول إلى فحص السلامة المسبق (S1).
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications, DDI) to clear the blocking data gap (DG001)
-- Structured original MOA and original indication data from DrugBank (DG002)
-- Preclinical or mechanistic studies establishing a CD79b/ADC-relevant pathway in HER2-positive breast carcinoma
-- At minimum, early-phase clinical or case-level evidence before advancing beyond S0
+**لكي نتمكن من المتابعة، يلزم ما يلي:**
+- النشرة الداخلية التنظيمية/TFDA (التحذيرات وموانع الاستعمال وتفاعلات الأدوية) لإزالة فجوة البيانات الحجزية (DG001)
+- بيانات الآلية الأصلية والاستطباب الأصلي المهيكلة من DrugBank (DG002)
+- دراسات سريرية قبل إكلينيكية أو آلية تحدد مسار ذي صلة بـ CD79b/ADC في سرطان الثدي الإيجابي للـ HER2
+- على الأقل، أدلة سريرية في المرحلة المبكرة أو على مستوى الحالة قبل التقدم بعد S0
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

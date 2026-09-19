@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+# إنسولين جلارجين: من داء السكري إلى التهاب المبيض المناعي الذاتي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Insulin Glargine (DB00047) is a long-acting basal insulin analog established for diabetes mellitus management. The TxGNN model's top-ranked prediction is **Autoimmune Oophoritis**, but this candidate has **zero clinical trials, zero publications**, and its own mechanistic rationale flags it as likely graph-embedding noise rather than a genuine treatment signal. This is one of 10 low-confidence predictions in this evidence pack; none reach a strong evidence tier.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes Mellitus (Type 1/Type 2) — based on known drug identity; no approved-indication text was returned by this evidence pack (see Data Gaps below) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إنسولين جلارجين (DB00047) هو نظير أنسولين قاعدي طويل المفعول معروف لإدارة داء السكري. التنبؤ الأعلى تصنيفاً من نموذج TxGNN هو **التهاب المبيض المناعي الذاتي**، لكن هذا المرشح لديه **صفر تجارب سريرية وصفر منشورات**، وتبريره الآلي الخاص به يشير إلى أنه من المحتمل أن يكون ضوضاء في تضمين الرسم البياني بدلاً من إشارة علاجية حقيقية. هذا هو أحد 10 تنبؤات منخفضة الثقة في هذه حزمة الأدلة؛ لا يصل أي منها إلى طبقة دليل قوية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on known information, insulin glargine is a long-acting insulin analog used to achieve basal glycemic control in diabetes mellitus; its efficacy in that indication is well established.
-
-For autoimmune oophoritis specifically, the evidence pack's own rationale is skeptical: there is no known mechanism linking exogenous insulin to autoimmune ovarian inflammation. The high TxGNN score is more plausibly explained by graph-embedding proximity — autoimmune oophoritis frequently co-occurs with other autoimmune endocrinopathies (e.g., autoimmune polyglandular syndrome, which can include type 1 diabetes) — rather than a direct causal or therapeutic relationship. No clinical trial or literature evidence was retrieved to support this link, and the pack itself scores this as L5 (model prediction only) with a "Hold" recommendation.
-
-Two other candidates in this batch (thiamine-responsive dysfunction syndrome / TRMA, and stiff-person spectrum disorders) have a more coherent — though still indirect — mechanistic story: both conditions frequently present with comorbid diabetes mellitus that insulin treats as a complication, not as the disease itself. Several other candidates (drug-induced localized lipodystrophy, centrifugal lipodystrophy, pressure-induced lipoatrophy, idiopathic localized lipodystrophy) are explicitly flagged as probable **reverse-causation artifacts** — subcutaneous insulin injection is a known *cause* of localized lipodystrophy, so the model may have learned the co-occurrence backwards.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | داء السكري (النوع الأول/النوع الثاني) — بناءً على هوية الدواء المعروفة؛ لم يتم إرجاع نص المؤشر المعتمد من قبل هذه حزمة الأدلة (انظر الفجوات في البيانات أدناه) |
+| المؤشر الجديد المتنبأ به | التهاب المبيض المناعي الذاتي |
+| درجة التنبؤ لـ TxGNN | 99.88% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | غير مسوق (Not marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | إيقاف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (DG002، الخطورة العالية). بناءً على المعلومات المعروفة، إنسولين جلارجين هو نظير أنسولين قاعدي طويل المفعول يُستخدم لتحقيق السيطرة على نسبة الجلوكوز القاعدية في داء السكري؛ فعاليته في هذا المؤشر معروفة بشكل جيد.
 
----
+بالنسبة إلى التهاب المبيض المناعي الذاتي على وجه التحديد، تبرير حزمة الأدلة نفسه متشكك: لا توجد آلية معروفة تربط الأنسولين الخارجي بالتهاب المبيض المناعي. درجة TxGNN العالية يمكن تفسيرها بشكل معقول أكثر من خلال القرب من تضمين الرسم البياني — يحدث التهاب المبيض المناعي الذاتي بشكل متكرر مع اضطرابات الغدد الصماء المناعية الأخرى (على سبيل المثال، متلازمة الغدد الصماء المتعددة المناعية، والتي يمكن أن تشمل داء السكري من النوع الأول) — بدلاً من علاقة سببية أو علاجية مباشرة. لم يتم استرجاع أي دليل من التجارب السريرية أو الأدبيات لدعم هذا الارتباط، والحزمة نفسها تصنف هذا كـ L5 (التنبؤ من النموذج فقط) مع توصية "إيقاف".
 
-## Taiwan Market Information
-
-No license records are available in this evidence pack. `taiwan_regulatory.market_status` indicates the product is **Not marketed (not marketed)** with **0 registered authorizations**.
+اثنان من المرشحين الآخرين في هذه الدفعة (متلازمة الاختلال الوظيفي المستجيبة للثيامين / TRMA، واضطرابات طيف الشخص الصلب) لهما قصة آلية أكثر تماسكاً — على الرغم من أنها لا تزال غير مباشرة —: كلا الحالتين تظهران بشكل متكرر مع داء السكري المصاحب الذي يعالجه الأنسولين كمضاعفة، وليس كالمرض نفسه. عدة مرشحين آخرين (ضمور الدهون الموضعي الناجم عن الأدوية، وضمور الدهون الطرد المركزي، وضمور الدهون المحفز بالضغط، وضمور الدهون الموضعي مجهول السبب) مشار إليهم صراحة كأرجح الاحتمالات **مصنوعات السببية العكسية** — حقن الأنسولين تحت الجلد هو **سبب** معروف لضمور الدهون الموضعي، لذا قد يكون النموذج تعلم التعايش بطريقة عكسية.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-TFDA package insert data (warnings/contraindications) is marked as a **Blocking** data gap (DG001) — this evidence pack could not retrieve label-level safety information, which by itself prevents this candidate from clearing the S1 safety-review stage. No drug interaction records were found (`ddi.query_status = not_found`).
-
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-The top-ranked prediction (autoimmune oophoritis) has no clinical trial or literature support and is explicitly flagged by its own rationale as likely a graph-embedding artifact rather than a real mechanistic link. Combined with a Blocking data gap on TFDA safety labeling (DG001) and the drug's not-marketed status in Taiwan, there is no basis to advance this candidate beyond S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — required before any S1 safety review (DG001, Blocking)
-- DrugBank-confirmed mechanism of action (DG002, High)
-- Targeted literature/trial search specifically for "insulin glargine" + "autoimmune oophoritis" using expanded synonyms, since the current PubMed/ClinicalTrials/ICTRP queries returned zero hits
-- If prioritizing this batch further, the pancreatic agenesis candidate (rank 6, L3/S2, "Proceed with Guardrails") warrants separate evaluation — it reflects an already-established clinical use pattern (insulin for secondary diabetes from pancreatic developmental defects) rather than a novel repurposing hypothesis, and should be scoped as such rather than folded into this report
+## معلومات السوق في تايوان
+
+لا تتوفر سجلات الترخيص في هذه حزمة الأدلة. `taiwan_regulatory.market_status` يشير إلى أن المنتج **غير مسوق (not marketed)** مع **0 تفويضات مسجلة**.
+
+---
+
+## اعتبارات السلامة
+
+بيانات نشرة TFDA (التحذيرات/موانع الاستعمال) تُشار إليها كـ **فجوة بيانات عائقة** (DG001) — لم تتمكن هذه حزمة الأدلة من استرجاع معلومات السلامة على مستوى النشرة، والتي بحد ذاتها تمنع هذا المرشح من اجتياز مرحلة المراجعة الآمنة S1. لم يتم العثور على سجلات تفاعلات دوائية (`ddi.query_status = not_found`).
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: إيقاف**
+
+**التبرير:**
+التنبؤ الأعلى تصنيفاً (التهاب المبيض المناعي الذاتي) لا يتمتع بدعم تجارب سريرية أو أدبيات ويُشار إليه صراحة من قبل تبريره الخاص به كمحتمل أن يكون ضوضاء تضمين الرسم البياني بدلاً من ارتباط آلي حقيقي. جنباً إلى جنب مع فجوة بيانات عائقة على تصنيفات TFDA الآمنة (DG001) وحالة عدم تسويق الدواء في تايوان، لا يوجد أساس للمضي قدماً بهذا المرشح فوق S0.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة TFDA (التحذيرات، موانع الاستعمال) — مطلوبة قبل أي مراجعة سلامة S1 (DG001، Blocking)
+- آلية عمل مؤكدة من DrugBank (DG002، عالية)
+- بحث أدبي/تجريبي مستهدف بشكل خاص عن "insulin glargine" + "autoimmune oophoritis" باستخدام المرادفات الموسعة، لأن استعلامات PubMed/ClinicalTrials/ICTRP الحالية أرجعت صفر نتائج
+- إذا تم تحديد أولويات إضافية لهذه الدفعة، فإن مرشح قصور البنكرياس (الترتيب 6، L3/S2، "المضي قدماً مع الحماية") يستحق تقييماً منفصلاً — فهو يعكس نمط استخدام سريري معروف بالفعل (الأنسولين لداء السكري الثانوي من عيوب نمو البنكرياس) بدلاً من فرضية إعادة استخدام جديدة، ويجب تحديد نطاقها على هذا النحو بدلاً من دمجها في هذا التقرير
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

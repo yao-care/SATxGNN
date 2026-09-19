@@ -29,120 +29,121 @@ indication_count: 10
 
 </div>
 
-# Capecitabine: From Colorectal Cancer to Gastric Tubular Adenocarcinoma
+# كابيسيتابين: من سرطان القولون والمستقيم إلى السرطان الغدي الأنبوبي بالمعدة
 
-> **Report Scope Note:** The TxGNN model's top-ranked prediction (Rank 1) is gastric adenocarcinoma and proximal polyposis of the stomach (GAPPS)—an ultra-rare hereditary syndrome with zero supporting clinical evidence for capecitabine. This report focuses on Rank 2 (**Gastric Tubular Adenocarcinoma**, L1 evidence, Proceed with Guardrails) as the primary actionable prediction. GAPPS is addressed in the Conclusion.
-
----
-
-## One-Sentence Summary
-
-Capecitabine is an orally administered fluoropyrimidine prodrug of 5-FU, widely approved globally for colorectal and breast cancer treatment, but currently not registered in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Gastric Tubular Adenocarcinoma**—the most common histological subtype of gastric cancer, accounting for over 60% of cases—with **0 registered clinical trials** under this specific subtype label and **20 publications**, including at least 6 landmark Phase 3 RCTs directly incorporating capecitabine as a backbone chemotherapy agent, currently supporting this direction.
+> **ملاحظة نطاق التقرير:** التنبؤ ذو الترتيب الأعلى من نموذج TxGNN (الترتيب 1) هو سرطان الغدد المعدية وتعدد الاورام القريب من المعدة (GAPPS)—وهي متلازمة وراثية نادرة جداً بدون أي أدلة سريرية داعمة لاستخدام كابيسيتابين. يركز هذا التقرير على الترتيب 2 (**السرطان الغدي الأنبوبي بالمعدة**، L1 مستوى الدليل، المضي قدماً مع الحماية) كالتنبؤ الأساسي القابل للتنفيذ. يتم تناول GAPPS في الخلاصة.
 
 ---
 
-## Quick Overview
+## ملخص بجملة واحدة
 
-| Item | Content |
+الكابيسيتابين هو منتج دوائي فموي من الفلوروبيريميدين للفلوروأوراسيل (5-FU)، معتمد على نطاق عالمي لعلاج سرطان القولون والمستقيم وسرطان الثدي، لكنه غير مسجل حالياً في المملكة العربية السعودية.
+ينبئ نموذج TxGNN بأنه قد يكون فعالاً للـ **السرطان الغدي الأنبوبي بالمعدة**—النوع النسيجي الأكثر شيوعاً لسرطان المعدة، حيث يمثل أكثر من 60% من الحالات—مع **0 تجارب سريرية مسجلة** تحت هذا التصنيص الفرعي المحدد و**20 منشورة**، تشمل على الأقل 6 تجارب عشوائية محكومة من المرحلة الثالثة الفارقة التي تشمل مباشرة كابيسيتابين كعمود فقري للعلاج الكيميائي، وهي تدعم حالياً هذا الاتجاه.
+
+---
+
+## نظرة عامة سريعة
+
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Colorectal cancer, breast cancer (globally approved; not registered in Saudi Arabia) |
-| Predicted New Indication | Gastric Tubular Adenocarcinoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | سرطان القولون والمستقيم، سرطان الثدي (معتمد على النطاق العالمي؛ غير مسجل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتوقع | السرطان الغدي الأنبوبي بالمعدة |
+| درجة التنبؤ من TxGNN | 99.94% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسجل |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | المضي قدماً مع الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the DrugBank regulatory source. Based on established pharmacological knowledge, Capecitabine is an oral fluoropyrimidine carbamate that functions as a tumor-activated prodrug of 5-fluorouracil (5-FU). It undergoes sequential enzymatic conversion—first in the liver by carboxylesterase and cytidine deaminase, then finally and preferentially within tumor tissue by thymidine phosphorylase (TP). The resulting intratumoral 5-FU inhibits thymidylate synthase (TS), blocking nucleotide synthesis and DNA replication, and is incorporated into RNA and DNA to disrupt cancer cell proliferation. This selectivity for tumor tissue is the key pharmacological advantage over intravenous 5-FU infusion.
+في الوقت الحالي، بيانات آلية العمل التفصيلية غير متاحة من مصدر DrugBank التنظيمي. بناءً على المعرفة الدوائية المثبتة، الكابيسيتابين هو كاربامات فلوروبيريميدين فموي يعمل كمنتج دوائي مفعل بالورم للفلوروأوراسيل (5-FU). يخضع للتحويل الإنزيمي المتسلسل—أولاً في الكبد بواسطة كاربوكسي إستيراز وديأميناز السيتيدين، ثم أخيراً وبشكل تفضيلي داخل نسيج الورم بواسطة فوسفوريلاز الثيميدين (TP). يثبط 5-FU الناتج مركب ثيميديليت (TS)، مما يحجب تخليق النيوكليوتيدات واستنساخ الحمض النووي، ويتم دمجه في الحمض النووي الريبوسومي والحمض النووي للاضطراب انتشار خلايا السرطان. تعتبر هذه الانتقائية لنسيج الورم هي الميزة الدوائية الرئيسية على تسريب 5-FU الوريدي.
 
-Gastric tubular adenocarcinoma, classified as the Lauren intestinal type, characteristically overexpresses TP relative to surrounding normal gastric mucosa. This creates a favorable intratumoral pharmacokinetic environment that enhances local 5-FU concentrations, providing a direct mechanistic rationale for capecitabine's predicted activity in this subtype. The tumor-to-normal tissue ratio of active 5-FU generation is higher than in other gastric cancer subtypes, making tubular adenocarcinoma a biologically well-matched target for capecitabine.
+السرطان الغدي الأنبوبي بالمعدة، المصنف كنوع Lauren المعوي، يفرط بشكل مميز في التعبير عن TP مقابل الغشاء المخاطي المعدي الطبيعي المحيط. هذا يخلق بيئة حرائك دوائية مواتية داخل الورم تحسن تركيزات 5-FU الموضعية، مما يوفر أساساً آلياً مباشراً لنشاط الكابيسيتابين المتوقع في هذا النوع الفرعي. نسبة الورم إلى النسيج الطبيعي لتوليد 5-FU النشط أعلى من الأنواع الفرعية الأخرى لسرطان المعدة، مما يجعل السرطان الغدي الأنبوبي هدفاً متطابقاً بيولوجياً للكابيسيتابين.
 
-The clinical evidence base is exceptionally robust. The landmark CLASSIC trial (PMID 22226517, Lancet 2012) directly established adjuvant CAPOX (capecitabine + oxaliplatin) as a global standard of care following D2 gastrectomy in Stage II–IIIB gastric cancer. The RESOLVE trial (PMID 34252374; final OS PMID 39952264) further validated CAPOX in the perioperative and postoperative settings. Critically, the absence of registered clinical trials carrying the specific diagnostic label "gastric tubular adenocarcinoma" reflects database classification practice rather than lack of clinical evidence: tubular adenocarcinoma constitutes the majority histological subtype in all major Phase 3 gastric cancer trials that use CAPOX as their chemotherapy backbone (CheckMate 649, KEYNOTE-859, ORIENT-16, GLOW, RATIONALE-305).
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials are registered under the specific diagnostic label "gastric tubular adenocarcinoma" in combination with capecitabine. This is a known database indexing limitation: gastric tubular adenocarcinoma accounts for the majority of patients enrolled in Phase 3 trials that enroll "gastric or gastroesophageal junction adenocarcinoma" broadly—including the CAPOX-backbone trials documented in the Literature Evidence section below.
+قاعدة الأدلة السريرية قوية بشكل استثنائي. تجربة CLASSIC الفارقة (PMID 22226517، Lancet 2012) أثبتت مباشرة أن CAPOX المساعد (كابيسيتابين + أوكسالبلاتين) هو معيار الرعاية العالمي بعد استئصال المعدة D2 في سرطان المعدة المرحلة II–IIIB. تجربة RESOLVE (PMID 34252374؛ تقرير OS النهائي PMID 39952264) تحققت بشكل إضافي من CAPOX في الإعدادات حول الجراحة وبعد الجراحة. بشكل حاسم، غياب التجارب السريرية المسجلة التي تحمل التصنيف التشخيصي المحدد "السرطان الغدي الأنبوبي بالمعدة" يعكس ممارسة تصنيف قاعدة البيانات وليس نقص الأدلة السريرية: يشكل السرطان الغدي الأنبوبي أغلبية النوع النسيجي في جميع تجارب سرطان المعدة من المرحلة الثالثة الكبرى التي تستخدم CAPOX كعمود فقري للعلاج الكيميائي (CheckMate 649, KEYNOTE-859, ORIENT-16, GLOW, RATIONALE-305).
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مسجلة تحت التصنيف التشخيصي المحدد "السرطان الغدي الأنبوبي بالمعدة" بالاشتراك مع الكابيسيتابين. هذا حد معروف في فهرسة قاعدة البيانات: يشكل السرطان الغدي الأنبوبي أغلبية المرضى المسجلين في تجارب من المرحلة الثالثة التي تسجل "السرطان الغدي في المعدة أو تقاطع المريء والمعدة" على نطاق واسع—بما في ذلك تجارب CAPOX الموثقة في قسم أدلة الأدب أدناه.
+
+---
+
+## أدلة الأدب
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [22226517](https://pubmed.ncbi.nlm.nih.gov/22226517/) | 2012 | Phase 3 RCT | Lancet | CLASSIC trial: Adjuvant CAPOX after D2 gastrectomy significantly improved DFS vs. surgery alone (68% vs. 53% at 3 years) in Stage II–IIIB gastric cancer — direct foundational L1 evidence for capecitabine in gastric adenocarcinoma |
-| [34252374](https://pubmed.ncbi.nlm.nih.gov/34252374/) | 2021 | Phase 3 RCT | Lancet Oncology | RESOLVE trial: Perioperative SOX vs. postoperative CAPOX in D2-resected gastric/GEJ adenocarcinoma — CAPOX confirmed as effective standard arm; superiority and non-inferiority endpoints both evaluated |
-| [39952264](https://pubmed.ncbi.nlm.nih.gov/39952264/) | 2025 | Phase 3 RCT | Lancet Oncology | RESOLVE final OS report: Updated long-term survival data confirming durable CAPOX efficacy in locally advanced gastric/GEJ adenocarcinoma after D2 gastrectomy |
-| [37524953](https://pubmed.ncbi.nlm.nih.gov/37524953/) | 2023 | Phase 3 RCT | Nature Medicine | GLOW trial: Zolbetuximab + CAPOX vs. CAPOX alone in CLDN18.2+, HER2-negative advanced gastric/GEJ adenocarcinoma — CAPOX used as the standard-of-care control backbone |
-| [34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/) | 2021 | Phase 3 RCT | Lancet | CheckMate 649: Nivolumab + chemotherapy (CAPOX or FOLFOX) vs. chemotherapy alone as first-line for HER2-negative gastric/GEJ/esophageal adenocarcinoma — capecitabine arm included |
-| [38806195](https://pubmed.ncbi.nlm.nih.gov/38806195/) | 2024 | Phase 3 RCT | BMJ | RATIONALE-305: Tislelizumab + chemotherapy (including CAPOX) vs. placebo + chemotherapy as first-line in advanced gastric/GEJ adenocarcinoma — confirmed survival benefit |
-| [37875143](https://pubmed.ncbi.nlm.nih.gov/37875143/) | 2023 | Phase 3 RCT | Lancet Oncology | KEYNOTE-859: Pembrolizumab + chemotherapy (CAPOX or FP) vs. placebo + chemotherapy in HER2-negative advanced gastric/GEJ adenocarcinoma |
-| [38051328](https://pubmed.ncbi.nlm.nih.gov/38051328/) | 2023 | Phase 3 RCT | JAMA | ORIENT-16: Sintilimab + CAPOX vs. CAPOX alone in advanced gastric/GEJ adenocarcinoma — CAPOX established as the standard comparator arm |
-| [30982686](https://pubmed.ncbi.nlm.nih.gov/30982686/) | 2019 | Phase 3 RCT | Lancet | FLOT4: Perioperative FLOT vs. ECF/ECX (capecitabine-containing) in locally advanced resectable gastric/GEJ adenocarcinoma — capecitabine arm validated against novel regimen |
-| [33610734](https://pubmed.ncbi.nlm.nih.gov/33610734/) | 2021 | Phase 2 RCT | Ann Oncol | FAST trial: Zolbetuximab + EOX (epirubicin, oxaliplatin, capecitabine) vs. EOX alone in CLDN18.2+ gastric/GEJ adenocarcinoma — direct capecitabine combination use confirmed feasible |
+| [22226517](https://pubmed.ncbi.nlm.nih.gov/22226517/) | 2012 | تجربة عشوائية محكومة من المرحلة الثالثة | Lancet | تجربة CLASSIC: تحسن CAPOX المساعد بعد استئصال المعدة D2 بشكل كبير DFS مقابل الجراحة وحدها (68% مقابل 53% في 3 سنوات) في سرطان المعدة المرحلة II–IIIB—دليل تأسيسي مباشر L1 لاستخدام الكابيسيتابين في السرطان الغدي بالمعدة |
+| [34252374](https://pubmed.ncbi.nlm.nih.gov/34252374/) | 2021 | تجربة عشوائية محكومة من المرحلة الثالثة | Lancet Oncology | تجربة RESOLVE: SOX حول الجراحة مقابل CAPOX بعد الجراحة في السرطان الغدي للمعدة/تقاطع المريء والمعدة المستأصل بـ D2—تم تأكيد CAPOX كذراع قياسية فعالة؛ تم تقييم نقاط النهاية للتفوق وعدم الدنوية |
+| [39952264](https://pubmed.ncbi.nlm.nih.gov/39952264/) | 2025 | تجربة عشوائية محكومة من المرحلة الثالثة | Lancet Oncology | تقرير OS النهائي لـ RESOLVE: بيانات البقاء طويلة الأجل المحدثة تؤكد فعالية CAPOX الدائمة في السرطان الغدي المتقدم محلياً في المعدة/تقاطع المريء والمعدة بعد استئصال المعدة D2 |
+| [37524953](https://pubmed.ncbi.nlm.nih.gov/37524953/) | 2023 | تجربة عشوائية محكومة من المرحلة الثالثة | Nature Medicine | تجربة GLOW: زولبيتوكسيماب + CAPOX مقابل CAPOX وحدها في السرطان الغدي المتقدم بـ CLDN18.2+ و HER2-negative في المعدة/تقاطع المريء والمعدة—تم استخدام CAPOX كعمود فقري أساسي للرعاية القياسية |
+| [34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/) | 2021 | تجربة عشوائية محكومة من المرحلة الثالثة | Lancet | CheckMate 649: نيفولوماب + العلاج الكيميائي (CAPOX أو FOLFOX) مقابل العلاج الكيميائي وحده كخط أول لـ HER2-negative السرطان الغدي في المعدة/تقاطع المريء والمعدة/المريء—تم تضمين ذراع الكابيسيتابين |
+| [38806195](https://pubmed.ncbi.nlm.nih.gov/38806195/) | 2024 | تجربة عشوائية محكومة من المرحلة الثالثة | BMJ | RATIONALE-305: تيسليليزوماب + العلاج الكيميائي (بما في ذلك CAPOX) مقابل العقار الوهمي + العلاج الكيميائي كخط أول في السرطان الغدي المتقدم بالمعدة/تقاطع المريء والمعدة—تم تأكيد فائدة البقاء |
+| [37875143](https://pubmed.ncbi.nlm.nih.gov/37875143/) | 2023 | تجربة عشوائية محكومة من المرحلة الثالثة | Lancet Oncology | KEYNOTE-859: بيمبروليزوماب + العلاج الكيميائي (CAPOX أو FP) مقابل العقار الوهمي + العلاج الكيميائي في السرطان الغدي المتقدم بـ HER2-negative في المعدة/تقاطع المريء والمعدة |
+| [38051328](https://pubmed.ncbi.nlm.nih.gov/38051328/) | 2023 | تجربة عشوائية محكومة من المرحلة الثالثة | JAMA | ORIENT-16: سينتيليماب + CAPOX مقابل CAPOX وحدها في السرطان الغدي المتقدم بالمعدة/تقاطع المريء والمعدة—تم تأسيس CAPOX كذراع مقارن قياسية |
+| [30982686](https://pubmed.ncbi.nlm.nih.gov/30982686/) | 2019 | تجربة عشوائية محكومة من المرحلة الثالثة | Lancet | FLOT4: FLOT حول الجراحة مقابل ECF/ECX (التي تحتوي على الكابيسيتابين) في السرطان الغدي المتقدم محلياً القابل للاستئصال في المعدة/تقاطع المريء والمعدة—تم التحقق من صحة ذراع الكابيسيتابين ضد نظام جديد |
+| [33610734](https://pubmed.ncbi.nlm.nih.gov/33610734/) | 2021 | تجربة عشوائية محكومة من المرحلة الثانية | Ann Oncol | تجربة FAST: زولبيتوكسيماب + EOX (إبيروبيسين، أوكسالبلاتين، كابيسيتابين) مقابل EOX وحدها في السرطان الغدي بـ CLDN18.2+ في المعدة/تقاطع المريء والمعدة—تم تأكيد استخدام مزيج الكابيسيتابين كخيار قابل للتطبيق |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Capecitabine is currently **not registered** in Saudi Arabia. No product licenses, approved indications, or dosage form records were found in the SFDA regulatory database. Patients in Saudi Arabia requiring capecitabine must currently access it through import pathways or exceptional access programs.
+الكابيسيتابين غير مسجل حالياً في المملكة العربية السعودية. لم يتم العثور على رخص منتج أو استطبابات معتمدة أو سجلات أشكال جرعات في قاعدة البيانات التنظيمية لـ SFDA. يجب على المرضى في المملكة العربية السعودية الذين يحتاجون إلى الكابيسيتابين الوصول إليه حالياً من خلال مسارات الاستيراد أو برامج الوصول الاستثنائي.
 
 ---
 
-## Cytotoxicity
+## السمية الخلوية
 
-Capecitabine meets the criteria for inclusion of this section: it belongs to the fluoropyrimidine class of conventional cytotoxic chemotherapy, and its predicted indication is a malignant condition.
+الكابيسيتابين يلبي معايير إدراج هذا القسم: فهو ينتمي إلى فئة الفلوروبيريميدين للعلاج الكيميائي السام للخلايا التقليدي، والاستطباب المتوقع هو حالة خبيثة.
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Fluoropyrimidine class (oral prodrug of 5-FU) |
-| Myelosuppression Risk | Moderate — neutropenia and thrombocytopenia are reported adverse effects; overall myelosuppression risk is generally lower than continuous-infusion IV 5-FU |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (every cycle), liver function tests (ALT/AST/bilirubin), renal function (serum creatinine/CrCl — dose reduction required for CrCl 30–50 mL/min; use contraindicated below 30 mL/min), hand-foot syndrome (palmar-plantar erythrodysesthesia) grading at each visit |
-| Handling Protection | Must follow cytotoxic drug handling and disposal regulations — oral cytotoxic agent requiring caregiver exposure precautions |
+| تصنيف السمية الخلوية | سام للخلايا تقليدي—فئة الفلوروبيريميدين (منتج دوائي فموي من 5-FU) |
+| خطر قمع النخاع | معتدل—تم الإبلاغ عن قلة العدلات وقلة الصفيحات كآثار ضارة؛ خطر قمع النخاع الكلي منخفض بشكل عام من 5-FU الوريدي بالتسريب المستمر |
+| تصنيف الغثيان والقيء | منخفض إلى معتدل |
+| عناصر المراقبة | تعداد الدم الكامل مع الفصل (في كل دورة)، اختبارات وظائف الكبد (ALT/AST/البيليروبين)، وظائف الكلى (الكرياتينين في المصل/CrCl—تقليل الجرعة مطلوب لـ CrCl 30–50 mL/min؛ موانع استعمال أقل من 30 mL/min)، متلازمة اليد والقدم (حمامى الراحة والنعل) التصنيف في كل زيارة |
+| حماية التعامل | يجب اتباع لوائح التعامل والتخلص من الأدوية السامة للخلايا—عامل سام للخلايا فموي يتطلب احتياطات التعرض للمقدمين |
 
 ---
 
-## Safety Considerations
+## الاعتبارات الأمانية
 
-Please refer to the package insert for safety information. No SFDA-specific safety warnings, contraindications, or drug interaction data were retrievable from the available regulatory sources.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات الأمان. لم يتم استرجاع أي تحذيرات أمانية محددة لـ SFDA أو موانع استعمال أو بيانات تفاعل دوائي من المصادر التنظيمية المتاحة.
 
-**Key considerations based on known pharmacology (to be verified against package insert):**
-- **DPD Deficiency Risk:** Capecitabine is contraindicated in patients with known dihydropyrimidine dehydrogenase (DPD) deficiency. Pre-treatment DPYD genotyping is recommended per current international oncology guidelines. Prevalence of DPD-deficient alleles may vary in the Saudi population.
-- **Renal Impairment:** Dose adjustment required for moderate renal impairment; contraindicated in severe impairment.
-- **Drug Interactions:** Significant interactions known with warfarin (INR elevation risk), phenytoin, and leucovorin (potentiates 5-FU toxicity).
-
----
-
-## Conclusion and Next Steps
-
-### Decision: Proceed with Guardrails
-*(Applicable to Gastric Tubular Adenocarcinoma, Rank 2, L1)*
+**الاعتبارات الرئيسية بناءً على الدوائيات المعروفة (للتحقق منها ضد نشرة الحزمة):**
+- **خطر نقص DPD:** الكابيسيتابين موانع استعمال في المرضى ذوي نقص ديهيدروبيريميدين ديهيدروجيناز (DPD) المعروف. يُوصى بتحديد النمط الجيني DPYD قبل المعالجة وفقاً لإرشادات الأورام الدولية الحالية. قد يختلف انتشار الأليلات الناقصة في DPD في السكان السعوديين.
+- **ضعف الكلى:** تعديل الجرعة مطلوب لضعف كلوي معتدل؛ موانع استعمال في الضعف الشديد.
+- **التفاعلات الدوائية:** تفاعلات كبيرة معروفة مع وارفارين (خطر ارتفاع INR)، فينيتوين، ولوكوفورين (يعزز سمية 5-FU).
 
 ---
 
-### Note on Rank 1 TxGNN Prediction — GAPPS: **Hold**
+## الخلاصة والخطوات التالية
 
-The model's highest-scoring prediction is gastric adenocarcinoma and proximal polyposis of the stomach (GAPPS, score 99.94%), a hereditary syndrome caused by APC gene promoter point mutations with fewer than 100 documented families worldwide. There are zero clinical trials, zero publications, and no mechanistic basis supporting capecitabine use in this ultra-rare subtype. The TxGNN score reflects model extrapolation from the broader gastric adenocarcinoma category, not direct support for GAPPS. This prediction should be treated as a probable false positive. **Decision: Hold.**
+### القرار: المضي قدماً مع الحماية
+*(ينطبق على السرطان الغدي الأنبوبي بالمعدة، الترتيب 2، L1)*
 
 ---
 
-**Rationale (Gastric Tubular Adenocarcinoma):**
-Capecitabine as part of the CAPOX regimen is supported by multiple Phase 3 RCTs as a global standard of care for gastric adenocarcinoma. The CLASSIC trial provides direct L1 evidence for adjuvant capecitabine following D2 gastrectomy. Gastric tubular adenocarcinoma—the dominant histological subtype in all these trials—high-expresses thymidine phosphorylase, providing a biologically sound mechanistic rationale. Evidence strength is sufficient to move forward, contingent on regulatory registration in Saudi Arabia.
+### ملاحظة على التنبؤ الأول من TxGNN—GAPPS: **توقف**
 
-**To proceed, the following is needed:**
-- Submission of SFDA registration dossier or import permit application for capecitabine in Saudi Arabia
-- Resolution of data gaps DG001 and DG002: download and parse the drug package insert for warnings/contraindications; retrieve MOA data from DrugBank API
-- Establishment of pre-treatment DPYD genotyping protocol for the Saudi patient population
-- Safety monitoring plan covering hand-foot syndrome (Grade ≥2 management algorithm), myelosuppression thresholds, and renal function surveillance
-- Saudi Arabia gastric cancer burden and treatment gap analysis to quantify the target patient population
-- Consultation with local oncology centers (e.g., KFMC, KFSH&RC) on feasibility of CAPOX regimen adoption
+أعلى تنبؤ من حيث النقاط من النموذج هو سرطان الغدد المعدية وتعدد الاورام القريب من المعدة (GAPPS، درجة 99.94%)، وهي متلازمة وراثية ناجمة عن طفرات نقطة محفز جين APC مع أقل من 100 عائلة موثقة في جميع أنحاء العالم. لا توجد تجارب سريرية، ولا منشورات، ولا أساس آلي يدعم استخدام الكابيسيتابين في هذا النوع الفرعي النادر جداً. تعكس درجة TxGNN استقراء النموذج من فئة السرطان الغدي المعدي الأوسع وليس الدعم المباشر لـ GAPPS. يجب التعامل مع هذا التنبؤ كإيجابي خاطئ محتمل. **القرار: توقف.**
+
+---
+
+**الأساس المنطقي (السرطان الغدي الأنبوبي بالمعدة):**
+الكابيسيتابين كجزء من نظام CAPOX مدعوم بتجارب عشوائية محكومة متعددة من المرحلة الثالثة كمعيار رعاية عالمي لسرطان المعدة الغدي. توفر تجربة CLASSIC دليل L1 مباشر لـ الكابيسيتابين المساعد بعد استئصال المعدة D2. السرطان الغدي الأنبوبي بالمعدة—النوع النسيجي السائد في جميع هذه التجارب—يفرط في التعبير عن فوسفوريلاز الثيميدين، مما يوفر أساساً آلياً منطقياً بيولوجياً. قوة الأدلة كافية للمضي قدماً، مشروط بالتسجيل التنظيمي في المملكة العربية السعودية.
+
+**للمضي قدماً، ما يلي مطلوب:**
+- تقديم ملف تسجيل SFDA أو طلب تصريح استيراد للكابيسيتابين في المملكة العربية السعودية
+- حل فجوات البيانات DG001 و DG002: تنزيل وتحليل نشرة حزمة الأدوية للتحذيرات/الموانع؛ استرجاع بيانات MOA من DrugBank API
+- تأسيس بروتوكول تحديد النمط الجيني DPYD قبل المعالجة لسكان المملكة العربية السعودية
+- خطة المراقبة الأمانية تغطي متلازمة اليد والقدم (خوارزمية إدارة Grade ≥2)، حد قمع النخاع، ومراقبة وظائف الكلى
+- تحليل عبء سرطان المعدة والفجوة العلاجية في المملكة العربية السعودية لقياس السكان المريضين المستهدفين
+- استشارة مراكز الأورام المحلية (مثل KFMC و KFSH&RC) حول جدوى تبني نظام CAPOX
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

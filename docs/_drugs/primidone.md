@@ -29,73 +29,74 @@ indication_count: 10
 
 </div>
 
-# Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+# بريميدون: من الصرع إلى ورم العصب التوائمي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Primidone is a classic barbiturate anticonvulsant, established for epilepsy. The TxGNN model's top-ranked prediction for this drug is **Trigeminal Nerve Neoplasm**, but this candidate is currently supported by **0 clinical trials** and **0 publications** — the evidence pack itself flags the score as a likely model-clustering artifact rather than a specific signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Epilepsy (barbiturate-class anticonvulsant; no Saudi Arabia license record available to confirm formally) |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+بريميدون هو مضاد اختلاج من نوع الباربيتورات الكلاسيكي، وهو مثبت الاستخدام في الصرع. التنبؤ الأعلى تصنيفاً من نموذج TxGNN لهذا الدواء هو **ورم العصب التوائمي**، لكن هذا المرشح مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور علمي** — حزمة الأدلة نفسها تشير إلى أن الدرجة هي على الأرجح قطعة أثرية من تجميع النموذج بدلاً من كونها إشارة محددة.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is a data gap). Based on known pharmacology, primidone is a barbiturate anticonvulsant metabolized in the liver to phenobarbital and PEMA (phenylethylmalonamide), acting through GABA-A receptor modulation and broad-spectrum ion-channel suppression.
-
-There is no known pathway linking this mechanism to tumour biology of the trigeminal nerve. The evidence pack's own annotation for this candidate states explicitly: the score (~0.9999) is nearly identical across many unrelated predicted indications for this drug, indicating a **score-clustering artifact** rather than a mechanistically specific signal — not a genuine repurposing hypothesis.
-
-Notably, several *lower*-ranked predictions in this same evidence pack are mechanistically far more coherent and carry actual literature support: reflex/situational epilepsy subtypes (e.g., **micturition-induced seizures**, **audiogenic seizures**, **startle epilepsy**) align directly with primidone's established anticonvulsant mechanism and are backed by real (if largely indirect) clinical literature, including one Phase 3-grade RCT (NEJM 1985, PMID 3925335) comparing primidone to other established AEDs. These represent a more defensible research direction than the top-scored Trigeminal Nerve Neoplasm candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| المادة | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الصرع (مضاد اختلاج من نوع الباربيتورات؛ لا توجد سجلات ترخيص متاحة في المملكة العربية السعودية للتأكيد بشكل رسمي) |
+| المؤشر الجديد المتنبأ به | ورم العصب التوائمي |
+| درجة التنبؤ من TxGNN | 99.99% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (غير مسوقة) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، لا تتوفر بيانات تفصيلية عن آلية العمل (حقل DrugBank MOA هو فجوة بيانات). بناءً على الصيدلة المعروفة، يعتبر بريميدون مضاد اختلاج من نوع الباربيتورات يتم استقلابه في الكبد إلى phenobarbital و PEMA (phenylethylmalonamide)، يعمل من خلال تعديل مستقبلات GABA-A وقمع واسع الطيف لقنوات الأيونات.
 
----
+لا توجد مسارات معروفة تربط هذه الآلية ببيولوجيا الورم في العصب التوائمي. تشير الملاحظات الخاصة بحزمة الأدلة لهذا المرشح بوضوح: أن الدرجة (~0.9999) متطابقة تقريباً عبر العديد من المؤشرات الجديدة غير ذات الصلة المتنبأ بها لهذا الدواء، مما يشير إلى **قطعة أثرية من تجميع الدرجات** بدلاً من كونها إشارة محددة آلياً — وليست فرضية إعادة توجيه حقيقية.
 
-## Saudi Arabia Market Information
-
-Primidone is not currently registered or marketed in Saudi Arabia (0 authorizations, no license records available).
+جديرٌ بالذكر، أن عدة تنبؤات *أقل* تصنيفاً في نفس حزمة الأدلة تتمتع بتماسك آلي أكثر بكثير وتحمل دعماً حقيقياً من الدراسات: أنواع فرعية من الصرع الانعكاسي/الوضعي (على سبيل المثال، **النوبات المستحثة بالتبول**، **النوبات السمعية**، **صرع الفزع**) تتوافق مباشرة مع آلية عمل بريميدون المثبتة كمضاد اختلاج وتدعمها أدبيات سريرية حقيقية (وإن كانت غير مباشرة بشكل كبير)، بما في ذلك تجربة سريرية عشوائية من Phase 3 (NEJM 1985, PMID 3925335) تقارن بريميدون مع أدوية مضادة للاختلاج أخرى مثبتة. تمثل هذه اتجاهاً بحثياً أكثر قابلية للدفاع عنه من درجة TxGNN الأعلى وحدها.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information. (Note: TFDA package insert warnings/contraindications are flagged in the evidence pack as a **Blocking** data gap — this must be resolved before any S1 safety pre-assessment can proceed.)
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا تتوفر أدبيات ذات صلة.
 
-**Rationale:**
-The top-ranked prediction (Trigeminal Nerve Neoplasm) has no clinical trial or literature support and no plausible mechanistic link to primidone's known pharmacology; the evidence pack itself identifies the score as a clustering artifact rather than a real signal. This candidate does not meet the bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action from DrugBank or primary literature
-- If pursuing this drug further, redirect research focus to the higher-evidence reflex-epilepsy candidates in this same pack (micturition-induced seizures, audiogenic seizures, startle epilepsy — all L3–L4, with real literature including one RCT), rather than the top TxGNN score alone
+## معلومات سوق المملكة العربية السعودية
+
+بريميدون غير مسجل أو مسوق حالياً في المملكة العربية السعودية (0 تصاريح، لا توجد سجلات ترخيص متاحة).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة. (ملاحظة: تنبيهات النشرة الطبية TFDA/موانع الاستعمال يتم الإشارة إليها في حزمة الأدلة كـ **فجوة بيانات حاجزة** — يجب حل هذه قبل أن تتمكن أي تقييم أمان مسبق S1 من المتابعة.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**الأساس المنطقي:**
+التنبؤ الأعلى تصنيفاً (ورم العصب التوائمي) لا يحظى بدعم تجربة سريرية أو أدبيات وليس له رابط آلي معقول لصيدلة بريميدون المعروفة؛ حزمة الأدلة نفسها تحدد الدرجة كقطعة أثرية من تجميع الدرجات بدلاً من إشارة حقيقية. هذا المرشح لا يلبي المعيار للمتابعة بما يتجاوز S0.
+
+**لكي نتابع، هناك حاجة للأمور التالية:**
+- بيانات النشرة الطبية TFDA/SFDA (التنبيهات، موانع الاستعمال) — حالياً فجوة حاجزة
+- آلية عمل مؤكدة من DrugBank أو الأدبيات الأساسية
+- إذا كنت تتابع هذا الدواء بشكل أكبر، أعد توجيه تركيز البحث نحو مرشحي الصرع الانعكاسي ذي الدليل الأعلى في نفس الحزمة (النوبات المستحثة بالتبول، النوبات السمعية، صرع الفزع — جميعها L3–L4، مع أدبيات حقيقية بما في ذلك تجربة سريرية واحدة)، بدلاً من درجة TxGNN الأعلى وحدها
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

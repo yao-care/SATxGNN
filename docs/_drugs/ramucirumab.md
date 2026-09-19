@@ -29,89 +29,90 @@ indication_count: 10
 
 </div>
 
-# Ramucirumab: From Undocumented Original Indication to Uterine Ligament Adenocarcinoma
+# راموسيروماب: من دواعي الاستخدام الأصلية غير الموثقة إلى السرطان الغدي لأربطة الرحم
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ramucirumab is described in this evidence pack's rationale text as a fully human anti-VEGFR2 IgG1 monoclonal antibody that blocks VEGF-A/C/D binding to inhibit tumour angiogenesis; however, its official original indication and MOA fields are flagged as data gaps (DG001, DG002), so the drug's approved use cannot be confirmed here. The TxGNN model's top prediction is **Uterine Ligament Adenocarcinoma**, but this label is likely a rare/broad ontology artifact rather than a standard clinical diagnosis, and **0 clinical trials** and **0 publications** currently support this specific link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented — no license text available (drug not marketed locally); see DG002 |
-| Predicted New Indication | Uterine Ligament Adenocarcinoma |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+يُوصف راموسيروماب في نص الأساس المنطقي لحزمة الأدلة هذه بأنه جسم مضاد أحادي نسيلي IgG1 مضاد كامل الإنسان لـ VEGFR2 يمنع ربط VEGF-A/C/D لمنع التوعية الدموية للورم؛ ومع ذلك، فإن دواعي الاستخدام الأصلية الرسمية ومجالات آلية العمل مميزة كفجوات في البيانات (DG001, DG002)، لذا لا يمكن تأكيد الاستخدام المعتمد للدواء هنا. التنبؤ الأفضل لنموذج TxGNN هو **السرطان الغدي لأربطة الرحم**، لكن هذا الملصق من المحتمل أن يكون قطعة أثرية من علم الأنطولوجيا نادرة/واسعة وليس تشخيصاً سريرياً قياسياً، و**0 تجربة سريرية** و**0 منشور** حالياً يدعمان هذا الرابط المحدد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data for ramucirumab is not available in this evidence pack (DG002, High severity). Based on the repurposing rationale attached to other candidates in this same prediction set, ramucirumab is characterized as a fully human anti-VEGFR2 IgG1 monoclonal antibody that blocks VEGF-A/C/D–VEGFR2 binding to inhibit tumour angiogenesis — consistent with its known class as an anti-angiogenic targeted therapy in oncology.
-
-The top-ranked predicted indication, "uterine ligament adenocarcinoma," is flagged in its own rationale as **not a standard clinical diagnostic entity** — it is more likely a rare or broadly-defined tumour label from the disease ontology underlying TxGNN's knowledge graph, produced by link prediction rather than a curated clinical match. The mechanistic argument (anti-angiogenic activity applicable to vascularization-dependent solid tumours) can still be applied in general terms, but the clinical correspondence of this specific entity is uncertain and should be verified against the source ontology before further evaluation.
-
-Other candidates in the same top-10 set (notably rank 2, endocervical carcinoma) carry a stronger class-effect argument: bevacizumab, another anti-VEGFR2/VEGF-A pathway agent, demonstrated a survival benefit in cervical cancer in the Phase III GOG-240 trial. This supports biological plausibility for anti-angiogenic agents in gynecologic malignancies generally, though it is cross-drug extrapolation, not direct evidence for ramucirumab, and no ramucirumab trials in any of these ten indications were found via ClinicalTrials.gov, ICTRP, or PubMed searches.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|---|---|
+| دواعي الاستخدام الأصلية | غير موثقة — لا توجد نصوص ترخيص متاحة (الدواء غير مسوق محلياً)؛ انظر DG002 |
+| دواعي الاستخدام الجديدة المتنبأ بها | السرطان الغدي لأربطة الرحم |
+| درجة التنبؤ بـ TxGNN | 99.95% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+بيانات آلية العمل التفصيلية لراموسيروماب غير متاحة في حزمة الأدلة هذه (DG002, ذات خطورة عالية). بناءً على نص الأساس المنطقي للمعالجات الأخرى المرفقة بنفس مجموعة التنبؤات، يتم وصف راموسيروماب بأنه جسم مضاد أحادي نسيلي IgG1 مضاد كامل الإنسان لـ VEGFR2 يمنع ربط VEGF-A/C/D–VEGFR2 لمنع التوعية الدموية للورم — وهذا يتسق مع فئته المعروفة كمسار علاجي موجه مضاد للتوعية الدموية في الأورام.
 
----
+دواعي الاستخدام المتنبأ بها برتبة عالية، "السرطان الغدي لأربطة الرحم"، مميزة في نصها المنطقي الخاص بها كـ **ليست كياناً تشخيصياً سريرياً قياسياً** — من المرجح أنها ملصق ورم نادر أو موسّع تعريفه من علم الأنطولوجيا للمرض الذي يدعم الرسم البياني للمعرفة في TxGNN، والذي ينتج عن التنبؤ بالربط وليس مطابقة سريرية منسقة. الحجة الآلية (النشاط المضاد للتوعية الدموية المطبق على الأورام الصلبة المعتمدة على الأوعية الدموية) لا تزال قابلة للتطبيق بشكل عام، لكن المراسلة السريرية لهذا الكيان المحدد غير مؤكدة ويجب التحقق منها مقابل علم الأنطولوجيا المصدر قبل التقييم الإضافي.
 
-## Saudi Arabia Market Information
-
-Ramucirumab is not currently marketed in Saudi Arabia — 0 authorizations are on record, and no license-level indication text is available.
+المرشحون الآخرون في نفس مجموعة أفضل 10 (لاسيما الترتيب 2، السرطان بطانة عنق الرحم) يحملان حجة تأثير فئوي أقوى: بيفاسيزوماب، وهو عامل آخر مضاد لمسار VEGFR2/VEGF-A، أظهر فائدة في البقاء في سرطان عنق الرحم في التجربة GOG-240 المرحلة الثالثة. هذا يدعم المعقولية البيولوجية للعوامل المضادة للتوعية الدموية بشكل عام في الأورام الخبيثة بأمراض النساء، رغم أنها استقراء بين الأدوية وليست دليلاً مباشراً على راموسيروماب، ولم يتم العثور على أي تجارب راموسيروماب في أي من هذه العشرة دواعي استخدام عبر البحث في ClinicalTrials.gov أو ICTRP أو PubMed.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-Ramucirumab targets vascularized solid tumours (all ten predicted indications in this pack are gynecologic malignancies) and is characterized in the accompanying rationale text as a monoclonal antibody — this places it in the antineoplastic/targeted-therapy category.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-VEGFR2 monoclonal antibody, anti-angiogenic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+لا توجد تجارب سريرية مرتبطة مسجلة حالياً
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information.
+لا تتوفر حالياً أدبيات مرتبطة
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق السعودي
 
-**Decision: Hold**
+راموسيروماب غير مسوق حالياً في المملكة العربية السعودية — 0 تصريح مسجل، ولا توجد نصوص الترخيص على مستوى الدواء.
 
-**Rationale:**
-All ten predicted indications are TxGNN model output only (L5), with zero supporting clinical trials or literature across every disease queried. The top-ranked entity itself is flagged as a likely non-standard/ontology-derived label, undermining confidence in the highest-scoring prediction specifically.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official package insert warnings and contraindications (DG001, Blocking — required before any S1 safety screening can proceed)
-- Confirmed mechanism of action from DrugBank API (DG002)
-- Confirmation of what clinical entity "uterine ligament adenocarcinoma" maps to in the source disease ontology
-- If pursuing this line, prioritize rank 2 (endocervical carcinoma) for closer review given its class-effect precedent (bevacizumab/GOG-240) over the ontologically ambiguous rank 1 candidate
-- Direct ramucirumab clinical evidence in gynecologic cancers, none of which currently exists per this search
+## السمية الخلوية
+
+يستهدف راموسيروماب الأورام الصلبة الموعاة (جميع دواعي الاستخدام العشرة المتنبأ بها في هذه الحزمة هي أورام خبيثة بأمراض النساء) ويتم وصفه في نص الأساس المنطقي المرفق بأنه جسم مضاد أحادي نسيلي — وهذا يضعه في فئة الأورام/العلاج الموجه.
+
+| البند | المحتوى |
+|---|---|
+| تصنيف السمية الخلوية | العلاج الموجه (جسم مضاد أحادي نسيلي مضاد لـ VEGFR2، مضاد للتوعية الدموية) |
+| خطر قمع نقي العظم | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| تصنيف الإقياء | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| بنود المراقبة | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| حماية المناولة | يرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+جميع دواعي الاستخدام العشرة المتنبأ بها هي مخرجات نموذج TxGNN فقط (L5)، بدون أي تجارب سريرية أو أدبيات داعمة عبر كل مرض تم الاستعلام عنه. الكيان برتبة عالية نفسه مميز كملصق غير قياسي/مشتق من علم الأنطولوجيا من المحتمل، مما يقوض الثقة في التنبؤ برتبة عالية تحديداً.
+
+**للمتابعة، مطلوب ما يلي:**
+- تحذيرات والتزامات الصيدلية TFDA/النشرة الدوائية الرسمية (DG001, قيد الحجب — مطلوب قبل أي فحص سلامة S1)
+- آلية عمل مؤكدة من DrugBank API (DG002)
+- تأكيد كيان سريري "السرطان الغدي لأربطة الرحم" يخطط إلى علم الأنطولوجيا المصدر
+- إذا كان يمتلك هذا الخط، امنح الأولوية للترتيب 2 (سرطان بطانة عنق الرحم) لمراجعة أقرب بالنظر إلى سابقة تأثير فئته (بيفاسيزوماب/GOG-240) على المرشح برتبة عالية المشكوك فيه علمياً
+- أدلة سريرية مباشرة لراموسيروماب في سرطانات أمراض النساء، لا توجد منها حالياً حسب هذا البحث
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

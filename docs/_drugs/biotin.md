@@ -29,91 +29,92 @@ indication_count: 2
 
 </div>
 
-# Biotin: From Nutritional Supplementation to Dyspepsia
+# البيوتين: من الإمداد الغذائي إلى عسر الهضم
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Biotin (Vitamin B7) is a water-soluble B-complex vitamin essential for carboxylase enzyme function, traditionally used to correct biotin deficiency states.
-The TxGNN model predicts it may be effective for **Dyspepsia**, with **2 clinical trials** and **7 publications** identified — though none directly evaluate biotin as a treatment for dyspepsia.
-Overall evidence supporting this repurposing direction remains indirect and mechanistically speculative.
+البيوتين (فيتامين B7) هو فيتامين قابل للذوبان في الماء من مجموعة B المعقدة ضروري لوظيفة إنزيم الكربوكسيليز، يُستخدم تقليديًا لتصحيح حالات نقص البيوتين.
+يتنبأ نموذج TxGNN أنه قد يكون فعالًا لـ **عسر الهضم**، مع تحديد **تجربتي سريريتين** و**7 منشورات** — على الرغم من أن أيًا منها لا يقيّم البيوتين بشكل مباشر كعلاج لعسر الهضم.
+يظل الدليل الكلي الذي يدعم هذا الاتجاه لإعادة الاستخدام غير مباشر وتكهنًا ميكانيكيًا.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Biotin deficiency (nutritional supplement; no formal regulatory indication found in this dataset) |
-| Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | نقص البيوتين (مكمل غذائي؛ لم يتم العثور على استطباب تنظيمي رسمي في هذه المجموعة البيانات) |
+| الاستطباب الجديد المتنبأ به | عسر الهضم |
+| درجة تنبؤ TxGNN | 99.43% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير معروض للبيع |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the dataset. Based on known pharmacology, biotin is a coenzyme for four critical mitochondrial carboxylases — pyruvate carboxylase, acetyl-CoA carboxylase, propionyl-CoA carboxylase, and 3-methylcrotonyl-CoA carboxylase — all of which participate in fatty acid synthesis and energy metabolism. This energy-regulatory role is the mechanistic basis for TxGNN's prediction.
+حاليًا، لا تتوفر بيانات آلية العمل المفصلة من المجموعة البيانات. استنادًا إلى الصيدلة المعروفة، البيوتين هو كوإنزيم لأربعة كربوكسيليزات ميتوكوندريالية حرجة — pyruvate carboxylase و acetyl-CoA carboxylase و propionyl-CoA carboxylase و 3-methylcrotonyl-CoA carboxylase — وكلها تشارك في تخليق الأحماض الدهنية والاستقلاب الطاقوي. هذا الدور في تنظيم الطاقة هو الأساس الميكانيكي لتنبؤ TxGNN.
 
-The repurposing rationale provided in this Evidence Pack suggests that biotin, by supporting carboxylase activity in intestinal epithelial cells, may help maintain the mucosal energy homeostasis that keeps gastrointestinal lining integrity intact. When biotin is deficient, gastrointestinal mucosal damage and digestive discomfort can occur — an observation documented in case reports. Additionally, intestinal flora are known to synthesize biotin endogenously, and supplementation may indirectly restore gut microbiome balance disrupted after *Helicobacter pylori* eradication therapy.
+يشير المبرر لإعادة الاستخدام المقدم في حزمة الدليل هذه إلى أن البيوتين، من خلال دعم نشاط الكربوكسيليز في خلايا الظهارة المعوية، قد يساعد في الحفاظ على التوازن الطاقوي المخاطي الذي يحافظ على تكامل بطانة الجهاز الهضمي. عندما يكون هناك نقص في البيوتين، يمكن حدوث تلف المخاطية المعوية وعدم الراحة في الجهاز الهضمي — وهي ملاحظة موثقة في تقارير الحالات. بالإضافة إلى ذلك، من المعروف أن الميكروبات المعوية تقوم بتخليق البيوتين بشكل داخلي، والمكملات قد تساعد بشكل غير مباشر على استعادة توازن الميكروبيوم المعوي المضطرب بعد علاج استئصال *Helicobacter pylori*.
 
-However, these mechanistic links are indirect inferences rather than established pharmacology. There are no controlled clinical studies demonstrating that biotin supplementation reduces dyspeptic symptoms in patients with adequate biotin status. The TxGNN graph-based model captures network-level associations that may not translate to direct therapeutic efficacy.
+ومع ذلك، هذه الروابط الميكانيكية عبارة عن استدلالات غير مباشرة بدلاً من الصيدلة المعروفة. لا توجد دراسات سريرية محكومة تثبت أن مكملات البيوتين تقلل من الأعراض الهضمية لدى المرضى الذين لديهم حالة كافية من البيوتين. يلتقط نموذج TxGNN القائم على الرسم البياني ارتباطات على مستوى الشبكة التي قد لا تترجم إلى فعالية علاجية مباشرة.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |-------------|-------|--------|-----------|--------------|
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Observational study of serum micronutrient levels (including biotin) in post-bariatric surgery patients using transdermal patches. Dyspepsia was not a primary endpoint; relevance to biotin treatment of dyspepsia is very low. |
-| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | Unknown | 150 | RCT comparing oxycodone vs. pregabalin for postoperative pain control. Contains no biotin component and is unrelated to dyspepsia; likely a database retrieval artefact. |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | غير محدد | مكتملة | 99 | دراسة رصدية لمستويات المغذيات الدقيقة في المصل (بما في ذلك البيوتين) في المرضى بعد جراحة المعدة باستخدام الرقع عبر الجلد. عسر الهضم لم يكن نقطة نهائية أساسية؛ الصلة بمعالجة البيوتين لعسر الهضم منخفضة جدًا. |
+| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | المرحلة 2/3 | غير محدد | 150 | تجربة عشوائية محكومة تقارن أوكسيكودون مقابل بريجابالين للتحكم في الألم بعد الجراحة. لا يحتوي على مكون البيوتين وغير مرتبط بعسر الهضم؛ من المحتمل أن يكون خطأ استرجاع قاعدة البيانات. |
 
-> **Note:** Both trials received a relevance grade of C. Neither trial was designed to evaluate biotin as a treatment for dyspepsia.
+> **ملاحظة:** تلقت كلا التجربتين درجة ملاءمة من C. لم يتم تصميم أي من التجربتين لتقييم البيوتين كعلاج لعسر الهضم.
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|--------------|
-| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | Clinical Study | Minerva Gastroenterologica e Dietologica | Open multicentric study evaluating a multi-ingredient supplement (sodium alginate, calcium carbonate, pineapple, papaya, ginger, α-galactosidase, fennel — brand name contains "Bioten") in functional dyspepsia post–H. pylori treatment. Biotin is not an isolated active ingredient; benefit cannot be attributed to biotin alone. |
-| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case Report | The Journal of Dermatology | Infant diagnosed with dyspepsia as a neonate and fed amino acid formula developed biotin deficiency (alopecia, dermatitis). Serum and urine biotin below normal range. Demonstrates that dyspepsia context can accompany biotin deficiency, but does not support biotin as a dyspepsia treatment. |
-| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Clinical/Experimental | Experimental & Clinical Gastroenterology | Evaluated a prebiotic supplement (inulin, oligofructose, plus vitamins including biotin, zinc, selenium) for gut microbiota correction in pulmonary patients on antibiotics. Biotin is one of many co-ingredients; no isolated effect on dyspepsia assessable. |
-| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Observational | International Journal of Molecular Medicine | Investigated stomach antral endocrine cells in IBS patients. No biotin component; retrieved as indirect association through GI endocrine pathophysiology. |
-| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Observational | World Journal of Gastrointestinal Endoscopy | Studied oxyntic mucosa endocrine cells in IBS patients. No biotin component; indirect GI mechanistic association only. |
-| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Immunohistochemical Study | Journal of Clinical Pathology | Examined IL-10 localisation in *H. pylori*–associated gastritis. No biotin component; retrieved as indirect GI inflammation context. |
-| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Research | Kidney International | Small bowel T cells and mucosal inflammation in IgA nephropathy patients. No biotin relevance; peripheral association only. |
+| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | دراسة سريرية | Minerva Gastroenterologica e Dietologica | دراسة متعددة المراكز مفتوحة تقيّم مكملاً متعدد المكونات (ألجينات الصوديوم، كربونات الكالسيوم، الأناناس، البابايا، الزنجبيل، α-جالاكتوسيداز، الشمر — اسم العلامة التجارية يحتوي على "Bioten") في عسر الهضم الوظيفي بعد معالجة *H. pylori*. البيوتين ليس مادة فعالة معزولة؛ لا يمكن أن تُعزى الفائدة للبيوتين وحده. |
+| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | تقرير حالة | The Journal of Dermatology | طفل رضيع تم تشخيصه بعسر الهضم كحديث ولادة وتم إرضاؤه بتركيبة قائمة على الأحماض الأمينية طور نقص البيوتين (الثعلبة، التهاب الجلد). البيوتين في المصل والبول أقل من المعدل الطبيعي. يوضح أن سياق عسر الهضم يمكن أن يصاحب نقص البيوتين، لكن لا يدعم البيوتين كعلاج لعسر الهضم. |
+| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | سريري/تجريبي | Experimental & Clinical Gastroenterology | قيّمت مكملاً حيويًا (الإينولين، قلة السكريات الحرة، بالإضافة إلى الفيتامينات بما في ذلك البيوتين والزنك والسيلينيوم) لتصحيح الميكروبيوتا المعوية لدى المرضى الرئويين تحت المضادات الحيوية. البيوتين هو أحد العديد من المكونات المرافقة؛ لا يمكن تقييم أي تأثير معزول على عسر الهضم. |
+| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | رصدية | International Journal of Molecular Medicine | استقصت خلايا الغدد الصماء في الفؤاد المعدة لدى مرضى القولون العصبي. لا يوجد مكون البيوتين؛ تم استرجاعها كارتباط غير مباشر من خلال الفسيولوجيا المرضية الصماء في الجهاز الهضمي. |
+| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | رصدية | World Journal of Gastrointestinal Endoscopy | درست خلايا الغدد الصماء في المخاطية الأكسينية لدى مرضى القولون العصبي. لا يوجد مكون البيوتين؛ ارتباط ميكانيكي في الجهاز الهضمي غير مباشر فقط. |
+| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | دراسة مناعية النسجية | Journal of Clinical Pathology | فحصت موضع IL-10 في التهاب المعدة المرتبط بـ *H. pylori*. لا يوجد مكون البيوتين؛ تم استرجاعها كسياق غير مباشر لالتهاب الجهاز الهضمي. |
+| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | بحث | Kidney International | خلايا T في الأمعاء الدقيقة والتهاب المخاطية لدى مرضى اعتلال الكلى IgA. لا يوجد صلة بالبيوتين؛ ارتباط محيطي فقط. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-No regulatory authorizations for Biotin were found in the Saudi Arabia dataset. The drug is currently classified as **Not Marketed** with zero registered licenses.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were available in this dataset.
+لم يتم العثور على تصاريح تنظيمية للبيوتين في مجموعة بيانات المملكة العربية السعودية. يتم تصنيف الدواء حاليًا على أنه **غير معروض للبيع** مع صفر تراخيص مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى إدراج المنتج للحصول على معلومات السلامة. لم تتوفر بيانات عن التحذيرات الرئيسية أو موانع الاستعمال أو تفاعلات الأدوية في هذه المجموعة البيانات.
 
-**Rationale:**
-The TxGNN model assigns a high numerical score to biotin–dyspepsia, but the retrieved clinical evidence (2 trials, 7 publications) is entirely indirect — no study has evaluated biotin as a standalone intervention for dyspepsia in biotin-replete patients. Combined with zero Saudi Arabia authorizations and missing MOA and safety data, the current evidence base is insufficient to advance this candidate.
+---
 
-**To proceed, the following is needed:**
+## الخلاصة والخطوات التالية
 
-- **Mechanistic study**: Confirm whether biotin supplementation has measurable effects on gastric motility, mucosal energy metabolism, or enteric nervous system function in dyspepsia models
-- **MOA data**: Retrieve full DrugBank mechanism of action entry (DG002 remediation)
-- **Safety data**: Obtain package insert warnings and contraindications (DG001 remediation — currently Blocking)
-- **Targeted literature search**: Re-query PubMed with stricter MeSH terms (Biotin AND functional dyspepsia AND randomized) to rule out missed trials
-- **Proof-of-concept data**: At minimum, a prospective pilot study or mechanistic human study demonstrating biotin's effect on gastric function before advancing to Phase 2 design
+**القرار: انتظر**
+
+**المبرر:**
+يخصص نموذج TxGNN درجة عددية عالية لـ البيوتين–عسر الهضم، لكن الدليل السريري الذي تم استرجاعه (تجربتان، 7 منشورات) غير مباشر تماماً — لم تقيّم أي دراسة البيوتين كتدخل منفرد لعسر الهضم لدى المرضى الذين يتمتعون بحالة كافية من البيوتين. بالإضافة إلى صفر تصاريح المملكة العربية السعودية والبيانات المفقودة عن آلية العمل والسلامة، فإن قاعدة الأدلة الحالية غير كافية للمضي قدماً في هذا المرشح.
+
+**للمضي قدماً، يلزم الآتي:**
+
+- **دراسة ميكانيكية**: تأكيد ما إذا كان مكمل البيوتين له تأثيرات قابلة للقياس على حركة المعدة أو استقلاب الطاقة المخاطية أو وظيفة الجهاز العصبي المعوي في نماذج عسر الهضم
+- **بيانات آلية العمل**: استرجاع إدخال آلية العمل الكامل في DrugBank (استصلاح DG002)
+- **بيانات السلامة**: الحصول على تحذيرات إدراج المنتج وموانع الاستعمال (استصلاح DG001 — حاليًا محظور)
+- **بحث مستهدف في الأدبيات**: إعادة الاستعلام عن PubMed بشروط MeSH أكثر صرامة (Biotin AND functional dyspepsia AND randomized) لاستبعاد التجارب الضائعة
+- **بيانات إثبات المفهوم**: على الأقل، دراسة تجريبية استباقية أو دراسة ميكانيكية بشرية توضح تأثير البيوتين على وظيفة المعدة قبل المضي قدماً في تصميم المرحلة 2
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

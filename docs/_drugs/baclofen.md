@@ -29,131 +29,132 @@ indication_count: 2
 
 </div>
 
-# Baclofen: From Spasticity to Attention Deficit-Hyperactivity Disorder
+# باكلوفين: من تشنج العضلات إلى اضطراب نقص الانتباه وفرط الحركة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Baclofen is a GABA-B receptor agonist widely used for the treatment of spasticity associated with multiple sclerosis and spinal cord injury. The TxGNN model predicts it may be effective for **Attention Deficit-Hyperactivity Disorder (ADHD)**, with **0 clinical trials** and **10 publications** (primarily narrative reviews and animal studies) currently supporting this direction. A secondary prediction for **Nicotine Dependence** carries stronger clinical evidence (3 trials, 20 publications, L3) and is detailed in a dedicated section below.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Spasticity (muscle spasms associated with multiple sclerosis, spinal cord lesions) |
-| Predicted New Indication | Attention Deficit-Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+باكلوفين هو ناهض مستقبل GABA-B يُستخدم على نطاق واسع لعلاج تقلص العضلات المرتبط بالتصلب المتعدد وإصابات الحبل الشوكي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اضطراب نقص الانتباه وفرط الحركة (ADHD)**، مع **0 تجربة سريرية** و**10 منشورات** (في الغالب مراجعات سردية ودراسات حيوانية) تدعم هذا الاتجاه حالياً. التنبؤ الثانوي بـ **الإدمان على النيكوتين** يحمل أدلة سريرية أقوى (3 تجارب، 20 منشورة، L3) وتفاصيل في قسم مخصص أدناه.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not formally documented in the evidence pack. Based on available information, Baclofen is a selective GABA-B receptor agonist that reduces neuronal excitability by hyperpolarizing neurons in the spinal cord and brain, making it effective for muscle spasticity. Its potential relevance to ADHD rests on a separate but related pathway.
-
-GABA-B receptor agonism is theorized to modulate dopamine and norepinephrine tone in the prefrontal cortex — precisely the neurotransmitter systems implicated in ADHD pathophysiology. By suppressing mesolimbic dopamine activity via nucleus accumbens inhibition, baclofen could theoretically dampen the dysregulated reward signalling and impaired executive function that characterize ADHD.
-
-Animal studies using spontaneously hypertensive rats (SHR), a validated ADHD model, demonstrate that GABA-B agonists alter cortical and hippocampal EEG patterns consistent with improved attentional states. However, this mechanistic link remains indirect and extrapolated from preclinical models. No human clinical trials have tested baclofen specifically in ADHD populations, and the theoretical GABA-B–prefrontal circuit connection has not been clinically validated for this indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|-------|--------|
+| الاستطباب الأصلي | تقلص العضلات (تشنجات عضلية مرتبطة بالتصلب المتعدد وإصابات الحبل الشوكي) |
+| الاستطباب الجديد المتنبأ به | اضطراب نقص الانتباه وفرط الحركة (ADHD) |
+| درجة التنبؤ من TxGNN | 99.32% |
+| مستوى الدليل | L4 |
+| حالة السوق في تايوان | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Systematic Review/Meta-analysis | Cureus | Efficacy of behavioral interventions, antipsychotics, and alpha agonists for Tourette's tics; ADHD as major comorbidity discussed |
-| [26366961](https://pubmed.ncbi.nlm.nih.gov/26366961/) | 2015 | Narrative Review | Clinical Neuropharmacology | Mood stabilizers in autism spectrum disorders; addresses attention deficits and GABAergic treatment approaches in neurodevelopmental conditions |
-| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Narrative Review | International Review of Neurobiology | Emerging treatments for Tourette syndrome including baclofen for tics; ADHD as a primary comorbidity throughout |
-| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Clinical Review | Journal of Child Neurology | Baclofen used in 450 patients with tics/Tourette's syndrome rated on Yale Global Tic Severity Scale; suggests GABAergic modulation of comorbid ADHD symptoms |
-| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Clinical Review | Paediatric Drugs | Overview of Tourette syndrome pharmacotherapy; clonidine and dopamine antagonists as first-line agents, contextualising the ADHD comorbidity treatment gap |
-| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Clinical Review | L'Encephale | Off-label methylphenidate prescribing in adult ADHD in France; illustrates the significant unmet need and off-label prescribing landscape in adult ADHD |
-| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Animal Study (EEG, SHR model) | Brain Research | GABA-B agonists alter cortical and hippocampal EEG in spontaneously hypertensive rats (SHR, ADHD model); most directly relevant mechanistic evidence |
-| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Animal Study | Psychopharmacology | α2A-adrenergic receptor stimulation in ventral hippocampus reduces impulsive decision-making in rodents; supports noradrenergic circuits in ADHD impulsivity |
-| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Animal Study | Neuropsychopharmacology | Anterior cingulate cortex and basolateral amygdala dissociable contributions to effortful decision-making; relevant to ADHD cognitive effort deficits |
-| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | Animal Study | European Journal of Neuroscience | Habenula functional integrity required for social play in rats; relevant to monoaminergic regulation implicated in ADHD reward processing |
+حالياً، بيانات آلية العمل التفصيلية لم يتم توثيقها رسمياً في حزمة الأدلة. بناءً على المعلومات المتاحة، باكلوفين هو ناهض انتقائي لمستقبل GABA-B يقلل من الاستثارة العصبية عن طريق فرط استقطاب الخلايا العصبية في الحبل الشوكي والدماغ، مما يجعله فعالاً في تقلص العضلات. تكمن الملاءمة المحتملة لـ ADHD في مسار منفصل لكن مرتبط.
+
+يُعتقد أن ناهض GABA-B ينظم نبرة الدوبامين والنورإبينفرين في قشرة الفص الجبهي - بالضبط أنظمة الناقلات العصبية المرتبطة بمرض ADHD. من خلال قمع نشاط الدوبامين الميسولمبي عن طريق تثبيط النوى المراكمة، قد يكون باكلوفين قادراً نظرياً على تخفيف الإشارات الحادة المتعلقة بالمكافأة والخلل الوظيفي التنفيذي الذي يميز ADHD.
+
+تُظهر الدراسات الحيوانية باستخدام الفئران المفرط نشاطاً تلقائياً (SHR)، وهو نموذج ADHD معتمد، أن نواهض GABA-B تغير أنماط EEG القشرية والحصينية بما يتوافق مع حالات انتباه محسّنة. ومع ذلك، يظل هذا الرابط الآلي غير مباشر ومستقراً من النماذج قبل السريرية. لم تختبر أي تجارب سريرية بشرية باكلوفين تحديداً في مجموعات ADHD، والارتباط النظري بين GABA-B والدائرة القشرية الجبهية لم يتم التحقق من صحته سريرياً لهذا الاستطباب.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## دليل الأدبيات
+
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
+|------|------|------|--------|------------------|
+| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | مراجعة منهجية/ تحليل تلوي | Cureus | فعالية التدخلات السلوكية ومضادات الذهان ومنبهات ألفا لتقليل الحركات اللاإرادية في متلازمة توريت؛ مناقشة ADHD كعلاقة مرضية رئيسية |
+| [26366961](https://pubmed.ncbi.nlm.nih.gov/26366961/) | 2015 | مراجعة سردية | Clinical Neuropharmacology | مثبتات المزاج في اضطرابات طيف التوحد؛ معالجة نقص الانتباه والنهج العلاجي GABAergic في الحالات العصبية النمائية |
+| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | مراجعة سردية | International Review of Neurobiology | العلاجات الناشئة لمتلازمة توريت بما في ذلك باكلوفين لتقليل الحركات اللاإرادية؛ ADHD كعلاقة مرضية أساسية طوال الوقت |
+| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | مراجعة سريرية | Journal of Child Neurology | باكلوفين المستخدم في 450 مريضاً مصاباً بالحركات اللاإرادية/متلازمة توريت تم تقييمهم على مقياس Yale Global Tic Severity Scale؛ يوحي بتعديل GABAergic لأعراض ADHD المرتبطة |
+| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | مراجعة سريرية | Paediatric Drugs | نظرة عامة على الصيدلة العلاجية لمتلازمة توريت؛ كلونيدين وحاصرات الدوبامين كعوامل من الخط الأول، وتسييق الفجوة العلاجية المرتبطة بـ ADHD |
+| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | مراجعة سريرية | L'Encephale | الوصفات الطبية خارج التعليمات لميثيلفينيديت في ADHD البالغين في فرنسا؛ توضيح الحاجة الطبية غير المستوفاة الكبيرة والمناظر الطبيعية للوصفات خارج التعليمات في ADHD البالغين |
+| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | دراسة حيوانية (EEG، نموذج SHR) | Brain Research | ناهضات GABA-B تغير EEG القشرية والحصينية في الفئران المفرط نشاطاً تلقائياً (SHR، نموذج ADHD)؛ أكثر الأدلة الآلية ملاءمة مباشرة |
+| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | دراسة حيوانية | Psychopharmacology | تحفيز مستقبل α2A-adrenergic في الحصين البطني يقلل من اتخاذ القرارات الاندفاعية في القوارض؛ يدعم دوائر noradrenergic في اندفاعية ADHD |
+| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | دراسة حيوانية | Neuropsychopharmacology | مساهمات قشرة الفص الأمامي الحزام و اللوزة الجانبية في اتخاذ القرارات المجهدة؛ ملاءمة نقاط ضعف الجهود المعرفية ADHD |
+| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | دراسة حيوانية | European Journal of Neuroscience | سلامة الحبل المصغر مطلوبة للعب الاجتماعي في الفئران؛ ملاءمة تنظيم أحادي الأمين المرتبط بمعالجة المكافأة في ADHD |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.32%), evidence for baclofen in ADHD is limited to animal models and indirect mechanistic reasoning, with no human clinical trials identified. The GABA-B agonism to prefrontal dopamine/norepinephrine modulation hypothesis is biologically plausible but has not been tested in any clinical ADHD population.
+---
 
-**To proceed, the following is needed:**
-- At least one prospective pilot clinical study testing baclofen in ADHD (adult or pediatric)
-- Formal mechanism of action documentation linking GABA-B agonism to prefrontal executive function
-- Safety data specific to use alongside common ADHD medications (methylphenidate, atomoxetine) — drug interaction profile unknown
-- Taiwan TFDA package insert review for contraindications and warnings before any clinical consideration
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المبررات:**
+رغم درجة تنبؤ عالية من TxGNN (99.32%)، فإن الأدلة على باكلوفين في ADHD تقتصر على النماذج الحيوانية والاستدلال الآلي غير المباشر، مع عدم تحديد أي تجارب سريرية بشرية. فرضية GABA-B → تعديل دوبامين/نورإبينفرين في قشرة الفص الجبهي معقولة بيولوجياً لكن لم يتم اختبارها في أي مجموعة سريرية ADHD.
+
+**لكي يتم المتابعة، يلزم ما يلي:**
+- دراسة تجريبية سريرية استشرافية واحدة على الأقل تختبر باكلوفين في ADHD (بالغ أو طفل)
+- توثيق رسمي لآلية العمل تربط ناهض GABA-B بالوظيفة التنفيذية في قشرة الفص الجبهي
+- بيانات السلامة المحددة للاستخدام جنباً إلى جنب مع الأدوية الشائعة ADHD (ميثيلفينيديت، أتوموكسيتين) — ملف تفاعل الأدوية غير معروف
+- مراجعة نشرة TFDA التايوانية للتحقق من موانع الاستعمال والتحذيرات قبل أي اعتبار سريري
 
 ---
 ---
 
-## Secondary Predicted Indication: Nicotine Dependence
+## الاستطباب الجديد الثانوي المتنبأ به: الإدمان على النيكوتين
 
-**TxGNN Score: 99.19% | Evidence Level: L3 | Recommendation: Research Question**
+**درجة TxGNN: 99.19% | مستوى الدليل: L3 | التوصية: سؤال بحثي**
 
-### Why is This Prediction Reasonable?
+### لماذا يكون هذا التنبؤ معقولاً؟
 
-Baclofen, as a GABA-B receptor agonist, directly suppresses dopamine release in the nucleus accumbens — the central node of the brain's reward circuit through which nicotine exerts its addictive effects. By blunting this mesolimbic dopamine signal, baclofen theoretically reduces the reinforcing properties of nicotine, attenuates craving, and dampens withdrawal manifestations.
+باكلوفين، كناهض GABA-B، يقمع بشكل مباشر إفراز الدوبامين في النوية المراكمة — العقدة المركزية للدائرة الحافزة في الدماغ التي يمارس النيكوتين من خلالها تأثيراته الإدمانية. من خلال إضعاف إشارة الدوبامين الميسولمبي، يقلل باكلوفين نظرياً من الخصائص المعززة للنيكوتين، ويخفف من الرغبة الشديدة، ويخفف من مظاهر الانسحاب.
 
-Multiple preclinical studies confirm that baclofen reduces nicotine-induced conditioned place preference, discriminative stimulus effects, and drug-seeking reinstatement after extinction. This mechanism is highly consistent with baclofen's established (and in France, approved) role in alcohol use disorder, suggesting a shared GABA-B modulatory pathway across substance dependencies rather than a drug- or substance-specific effect.
+تؤكد دراسات ما قبل السريرية المتعددة أن باكلوفين يقلل من تفضيل المكان المشروط الناجم عن النيكوتين، والتأثيرات التمييزية، وسلوك الالتماس المستعاد بعد الانقراض. هذه الآلية متسقة تماماً مع الدور المعروف لباكلوفين (وفي فرنسا، الموافقة عليه) في اضطراب استخدام الكحول، مما يوحي بمسار تنظيم GABA-B مشترك عبر الإدمان على المواد بدلاً من تأثير محدد للعقار أو المادة.
 
-One completed Phase 2 fMRI trial (NCT01821560, n=44) in cigarette smokers represents the most clinically informative data point. Two additional trials were terminated early, limiting efficacy conclusions but not raising overt safety signals.
+تمثل إحدى تجارب الطور الثاني المكتملة التصوير الوظيفي بالرنين المغناطيسي (NCT01821560، n=44) في المدخنين أكثر نقطة بيانات مفيدة من الناحية السريرية. تم إنهاء تجربتان إضافيتان مبكراً، مما يحد من استنتاجات الفعالية لكن لا يثير إشارات سلامة واضحة.
 
-### Clinical Trial Evidence
+### دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT01821560](https://clinicaltrials.gov/study/NCT01821560) | Phase 2 | Completed | 44 | Perfusion fMRI examining baclofen's effects on brain and behavioral responses to appetitive smoking cues in nicotine-dependent smokers; only completed efficacy-adjacent trial in this indication |
-| [NCT00257894](https://clinicaltrials.gov/study/NCT00257894) | Phase 2 | Terminated | 41 | Baclofen vs. placebo for reducing smoking urge, withdrawal, and reinforcement in moderate-to-heavy smokers; terminated early (reason not publicly documented; partial data may have informational value) |
-| [NCT01228994](https://clinicaltrials.gov/study/NCT01228994) | Phase 2 | Terminated | 6 | Formal test of the GABAergic hypothesis of nicotine dependence; terminated extremely early due to insufficient enrollment; no meaningful efficacy conclusions possible |
+| رقم التجربة | المرحلة | الحالة | التسجيل | الاكتشافات الرئيسية |
+|------------|--------|--------|---------|----------------|
+| [NCT01821560](https://clinicaltrials.gov/study/NCT01821560) | المرحلة الثانية | مكتملة | 44 | التصوير الوظيفي بالرنين المغناطيسي يفحص تأثيرات باكلوفين على الاستجابات الدماغية والسلوكية للإشارات المتعلقة بالتدخين في المدخنين المدمنين على النيكوتين؛ التجربة الوحيدة المكتملة المتعلقة بالفعالية في هذا الاستطباب |
+| [NCT00257894](https://clinicaltrials.gov/study/NCT00257894) | المرحلة الثانية | منهية | 41 | باكلوفين مقابل الدواء الوهمي لتقليل الرغبة الشديدة في التدخين والانسحاب والتعزيز في المدخنين المعتدلين إلى الثقيلين؛ أنهيت مبكراً (السبب غير موثق علناً؛ قد تكون البيانات الجزئية ذات قيمة إعلامية) |
+| [NCT01228994](https://clinicaltrials.gov/study/NCT01228994) | المرحلة الثانية | منهية | 6 | اختبار رسمي للفرضية GABAergic للإدمان على النيكوتين؛ أنهيت مبكراً جداً بسبب عدم كفاية التسجيل؛ لا يمكن التوصل إلى أي استنتاجات فعالية ذات معنى |
 
-### Literature Evidence
+### دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [25868070](https://pubmed.ncbi.nlm.nih.gov/25868070/) | 2015 | Pilot RCT (Conference Abstract) | Neuropsychopharmacology | Double-blind, placebo-controlled trial of baclofen for concurrent alcohol and nicotine dependence; most direct clinical evidence for the nicotine indication |
-| [11403726](https://pubmed.ncbi.nlm.nih.gov/11403726/) | 2001 | Controlled Clinical Study | Nicotine & Tobacco Research | Single-dose baclofen (20 mg) in 16 smokers using within-subjects design; reduced subjective cigarette effects and smoking satisfaction vs. placebo |
-| [34601742](https://pubmed.ncbi.nlm.nih.gov/34601742/) | 2021 | Clinical Guidelines | Medical Journal of Australia | Australian guidelines for alcohol treatment; discusses GABA-B agonists including baclofen, relevant to cross-addiction mechanistic framework |
-| [38555115](https://pubmed.ncbi.nlm.nih.gov/38555115/) | 2024 | Repurposing Review | International Review of Neurobiology | Comprehensive review of drug repurposing for alcohol dependence; baclofen listed as approved (France) with discussion of cross-substance dependence potential |
-| [19250803](https://pubmed.ncbi.nlm.nih.gov/19250803/) | 2009 | Animal Study | European Neuropsychopharmacology | Baclofen prevents drug-induced reinstatement of extinguished nicotine-seeking and nicotine conditioned place preference in rodents |
-| [24553576](https://pubmed.ncbi.nlm.nih.gov/24553576/) | 2014 | Animal Study | Psychopharmacology | Baclofen attenuates nicotine rewarding properties and physical withdrawal manifestations in mice; dose-dependent effects observed |
-| [18682277](https://pubmed.ncbi.nlm.nih.gov/18682277/) | 2008 | Animal Study | Neuroscience Letters | Baclofen (3 mg/kg) reduces nicotine conditioned place preference and discriminative stimulus in rats, while preserving food-reinforced behavior |
-| [29250815](https://pubmed.ncbi.nlm.nih.gov/29250815/) | 2018 | Review | Pharmacotherapy | Current and emerging pharmacotherapies for tobacco cessation; baclofen identified as investigational GABAergic agent with preclinical support |
-| [24654737](https://pubmed.ncbi.nlm.nih.gov/24654737/) | 2014 | Review | Expert Opinion on Emerging Drugs | Emerging drugs for tobacco dependence; GABA-B agonists including baclofen discussed as mechanistically promising candidates |
-| [10805604](https://pubmed.ncbi.nlm.nih.gov/10805604/) | 2000 | Animal Study | Psychopharmacology | GABA-B receptor manipulation in the ventral tegmental area reduces nicotine self-administration in rats; foundational mechanistic study |
+| PMID | السنة | النوع | المجلة | الاكتشافات الرئيسية |
+|------|------|------|--------|----------------|
+| [25868070](https://pubmed.ncbi.nlm.nih.gov/25868070/) | 2015 | تجربة عشوائية تجريبية (ملخص المؤتمر) | Neuropsychopharmacology | تجربة عمياء مزدوجة ومضبوطة بالدواء الوهمي لباكلوفين للإدمان المتزامن على الكحول والنيكوتين؛ أكثر الأدلة السريرية المباشرة للاستطباب النيكوتين |
+| [11403726](https://pubmed.ncbi.nlm.nih.gov/11403726/) | 2001 | دراسة سريرية مضبوطة | Nicotine & Tobacco Research | جرعة واحدة من باكلوفين (20 ملغ) في 16 مدخن باستخدام تصميم داخل المواضيع؛ قللت من التأثيرات الذاتية للسجائر وإرضاء التدخين مقابل الدواء الوهمي |
+| [34601742](https://pubmed.ncbi.nlm.nih.gov/34601742/) | 2021 | خطوط توجيهية سريرية | Medical Journal of Australia | خطوط توجيهية أسترالية لعلاج الكحول؛ مناقشة ناهضات GABA-B بما في ذلك باكلوفين، ملاءمة للإطار الآلي لسوء الاستخدام المتبادل |
+| [38555115](https://pubmed.ncbi.nlm.nih.gov/38555115/) | 2024 | مراجعة إعادة توجيه | International Review of Neurobiology | مراجعة شاملة لإعادة توجيه الأدوية لإدمان الكحول؛ باكلوفين مدرج كموافق عليه (فرنسا) مع مناقشة إمكانية الإدمان على المواد المتقاطعة |
+| [19250803](https://pubmed.ncbi.nlm.nih.gov/19250803/) | 2009 | دراسة حيوانية | European Neuropsychopharmacology | باكلوفين يمنع إعادة البدء المستحثة بالعقار في سلوك البحث عن النيكوتين المنقرض وتفضيل المكان المشروط بالنيكوتين في القوارض |
+| [24553576](https://pubmed.ncbi.nlm.nih.gov/24553576/) | 2014 | دراسة حيوانية | Psychopharmacology | باكلوفين يضعف الخصائص المعززة للنيكوتين ومظاهر الانسحاب الجسدي في الفئران؛ تأثيرات تعتمد على الجرعة لوحظت |
+| [18682277](https://pubmed.ncbi.nlm.nih.gov/18682277/) | 2008 | دراسة حيوانية | Neuroscience Letters | باكلوفين (3 ملغ/كغ) يقلل من تفضيل المكان المشروط بالنيكوتين والتأثير التمييزي في الفئران، مع الحفاظ على السلوك المعزز بالطعام |
+| [29250815](https://pubmed.ncbi.nlm.nih.gov/29250815/) | 2018 | مراجعة | Pharmacotherapy | الأدوية الحالية والناشئة للإقلاع عن التدخين؛ تم تحديد باكلوفين كعامل GABAergic تحقيقي مع دعم ما قبل السريرية |
+| [24654737](https://pubmed.ncbi.nlm.nih.gov/24654737/) | 2014 | مراجعة | Expert Opinion on Emerging Drugs | الأدوية الناشئة لإدمان التبغ؛ ناهضات GABA-B بما في ذلك باكلوفين مناقشة كمرشحين واعدين من الناحية الآلية |
+| [10805604](https://pubmed.ncbi.nlm.nih.gov/10805604/) | 2000 | دراسة حيوانية | Psychopharmacology | معالجة مستقبل GABA-B في المنطقة البطنية الجوفية تقلل من تعاطي النيكوتين بالحقن الذاتي في الفئران؛ دراسة آلية تأسيسية |
 
-### Conclusion for Nicotine Dependence
+### الخلاصة بشأن الإدمان على النيكوتين
 
-**Decision: Research Question**
+**القرار: سؤال بحثي**
 
-**Rationale:**
-Nicotine dependence carries meaningfully stronger evidence than ADHD — one completed Phase 2 trial, a 41-patient terminated efficacy trial, multiple converging animal studies, and a biologically coherent GABA-B → mesolimbic dopamine mechanism. The indication is also structurally analogous to baclofen's approved use in alcohol use disorder (France), strengthening the cross-substance dependence rationale.
+**المبررات:**
+إدمان النيكوتين يحمل أدلة قوية ذات معنى أكثر من ADHD — تجربة طور ثاني واحدة مكتملة، تجربة فعالية منهية بـ 41 مريضاً، دراسات حيوانية متقاربة متعددة، وآلية GABA-B → دوبامين ميسولمبي متسقة بيولوجياً. الاستطباب أيضاً متشابه هيكلياً مع الاستخدام الموافق عليه لباكلوفين في اضطراب استخدام الكحول (فرنسا)، مما يقوي نسبة الإدمان على المواد المتقاطعة.
 
-**To proceed, the following is needed:**
-- Full publication of NCT01821560 results (fMRI endpoints and behavioral outcomes)
-- Clarification of termination reasons for NCT00257894 and NCT01228994 before committing to a new trial design
-- A well-powered Phase 2 randomised controlled trial with abstinence as the primary endpoint
-- Drug interaction assessment with standard smoking cessation pharmacotherapies (varenicline, bupropion, NRT)
-- Taiwan regulatory pathway assessment: baclofen's non-marketed status in Taiwan means a new IND application would be required for any clinical study
+**لكي يتم المتابعة، يلزم ما يلي:**
+- نشر كامل لنتائج NCT01821560 (نقاط نهاية التصوير الوظيفي والنتائج السلوكية)
+- توضيح أسباب الإنهاء لـ NCT00257894 و NCT01228994 قبل الالتزام بتصميم تجربة جديدة
+- تجربة عشوائية معزولة من المرحلة الثانية بقوة جيدة مع الامتناع كنقطة نهاية أساسية
+- تقييم التفاعل بين الأدوية مع الأدوية القياسية للإقلاع عن التدخين (فاريسيكلين، بوبروبيون، العلاج ببدائل النيكوتين)
+- تقييم مسار التنظيم التايواني: حالة باكلوفين غير المسوقة في تايوان تعني أن طلب IND جديد سيكون مطلوباً لأي دراسة سريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

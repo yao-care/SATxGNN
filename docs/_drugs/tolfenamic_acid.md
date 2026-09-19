@@ -29,73 +29,72 @@ indication_count: 10
 
 </div>
 
-Using the report template above (this is a document-generation task, not a coding/skill-triggering one) — here's the evaluation report for Tolfenamic Acid, focused on the top-ranked predicted indication (headache disorder / migraine).
+# حمض التولفينامك: من الألم/الالتهاب (مضاد الالتهاب غير الستيرويدي) إلى اضطراب الصداع (الشقيقة)
 
-# Tolfenamic Acid: From Pain/Inflammation (NSAID) to Headache Disorder (Migraine)
+## ملخص في جملة واحدة
 
-## One-Sentence Summary
+حمض التولفينامك هو مضاد التهاب غير ستيرويدي من فئة الفيناميت استُخدم تاريخياً (تحت الاسم التجاري Clotam في الأسواق الإسكندنافية) لعلاج الألم والالتهاب والنوبات الحادة من الشقيقة، غير أنه لا يملك حالياً أي تصريح تسويقي مسجل في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الصداع (الشقيقة)**، مع **0 تجارب سريرية مسجلة** لكن **20 منشوراً داعماً**، يعكس معظمها مجموعة كبيرة من أدلة الدراسات العشوائية الخاضعة للتحكم الإسكندنافية التاريخية من 1970s–2000s بدلاً من التجارب المسجلة الحديثة.
 
-Tolfenamic acid is a fenamate-class NSAID historically used (as Clotam, in Nordic markets) for pain, inflammation, and acute migraine attacks, though it currently has no market authorization on file in Saudi Arabia. The TxGNN model predicts it may be effective for **Headache Disorder (Migraine)**, with **0 registered clinical trials** but **20 supporting publications**, largely reflecting a substantial body of historical Nordic RCT evidence from the 1970s–2000s rather than modern registered trials.
+## نظرة سريعة عامة
 
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not marketed in Saudi Arabia — no SFDA-approved indication on file. Internationally documented as an NSAID (fenamate class) for pain, inflammation, and acute migraine attacks |
-| Predicted New Indication | Headache disorder (Migraine) |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير مسوق في المملكة العربية السعودية — لا يوجد مؤشر معتمد من هيئة الصحة السعودية مسجل. موثق دولياً كمضاد التهاب غير ستيرويدي (فئة الفيناميت) لعلاج الألم والالتهاب والنوبات الحادة من الشقيقة |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع (الشقيقة) |
+| درجة تنبؤ TxGNN | 99.74% |
+| مستوى الدليل | L2 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع إجراءات حماية |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed, structured mechanism-of-action data for tolfenamic acid is not yet available in our records (flagged as a High-severity data gap). Based on available literature, however, tolfenamic acid is a fenamate-class NSAID with a dual mechanism: it inhibits both cyclooxygenase (COX-1/2, blocking prostaglandin synthesis) and 5-lipoxygenase (blocking leukotriene synthesis). This dual inhibition distinguishes it from most conventional NSAIDs, which act on the COX pathway alone.
+البيانات المفصلة والمنظمة لآلية عمل حمض التولفينامك غير متاحة حالياً في سجلاتنا (تم تحديدها كفجوة بيانات عالية الخطورة). ومع ذلك، بناءً على الأدبيات المتاحة، فإن حمض التولفينامك هو مضاد التهاب غير ستيرويدي من فئة الفيناميت بآلية مزدوجة: فهو يثبط كلاً من سيكلواوكسيجيناز (COX-1/2، مما يثبط تخليق البروستاجلاندين) و5-ليبوكسيجيناز (مما يثبط تخليق الليكوترين). يميز هذا التثبيط المزدوج حمض التولفينامك عن معظم مضادات الالتهاب غير الستيرويدية التقليدية، التي تعمل على مسار COX وحده.
 
-The relationship between the drug's established uses and the predicted new indication is close rather than distant: tolfenamic acid was already marketed decades ago (as Clotam) in Finland, Denmark, and other Nordic countries specifically for acute migraine treatment and migraine prophylaxis, alongside general anti-inflammatory/analgesic use. In markets such as Saudi Arabia where the drug is not currently registered, the TxGNN prediction effectively surfaces a well-precedented indication rather than a novel mechanistic leap.
+الارتباط بين استخدامات العقار المثبتة والمؤشر الجديد المتنبأ به وثيق بدلاً من أن يكون بعيداً: كان حمض التولفينامك مسوقاً بالفعل منذ عقود (تحت الاسم Clotam) في فنلندا والدنمارك ودول إسكندنافية أخرى خصيصاً لعلاج الشقيقة الحادة والوقاية من الشقيقة، إلى جانب استخدامه كمضاد التهاب ومسكن عام. في الأسواق مثل المملكة العربية السعودية حيث لم يتم تسجيل العقار حالياً، يسلط التنبؤ الذي قدمه TxGNN الضوء على مؤشر سابق الوجود جيداً بدلاً من قفزة ميكانيكية جديدة.
 
-Mechanistically, this is plausible because migraine attacks are associated with prostaglandin- and leukotriene-mediated vasodilation and neurogenic inflammation. Tolfenamic acid's combined COX/5-LOX inhibition directly targets both of these pathways, which may explain both its acute abortive effect and its modest prophylactic benefit reported in older crossover trials.
+من الناحية الميكانيكية، هذا معقول لأن نوبات الشقيقة مرتبطة بتوسع الأوعية والالتهاب العصبي الناجم عن البروستاجلاندين والليكوترين. يستهدف التثبيط المزدوج COX/5-LOX لحمض التولفينامك مباشرة كلا المسارين، مما قد يشرح كلاً من تأثيره الإجهاضي الحاد وفائدته الوقائية المتواضعة التي تم الإبلاغ عنها في التجارب العشوائية المتقاطعة الأقدم.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [6394143](https://pubmed.ncbi.nlm.nih.gov/6394143/) | 1984 | RCT | Cephalalgia | Compared tolfenamic acid, caffeine, metoclopramide, and their combinations in acute migraine attacks |
-| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT (double-blind crossover) | Acta Neurol Scand | Tolfenamic acid (200/400 mg) vs paracetamol (500/1000 mg) in migraine without aura |
-| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | RCT (crossover) | Acta Neurol Scand | Tolfenamic acid superior to placebo for migraine prophylaxis (attack frequency, duration, severity) |
-| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT (three-arm) | Acta Neurol Scand | Tolfenamic acid and propranolol both significantly reduced migraine attacks vs placebo |
-| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | RCT (double-blind crossover) | Lancet | Tolfenamic acid as effective as ergotamine for migraine attacks, with fewer GI side effects |
-| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | RCT (randomized double-blind crossover) | Acta Neurol Scand | Tolfenamic acid vs propranolol for migraine prophylaxis in 76 patients |
-| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | RCT (randomized double-blind parallel) | Medicina (Kaunas) | Tolfenamic acid 300mg vs pizotifen 1.5mg for migraine prevention in 192 patients |
-| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | RCT (randomized double-blind parallel) | Headache | Tolfenamic acid rapid release comparable to oral sumatriptan for acute migraine |
-| [6984358](https://pubmed.ncbi.nlm.nih.gov/6984358/) | 1982 | Clinical study | Cephalalgia | Tolfenamic acid combined with caffeine, metoclopramide, or pyridoxine as adjuncts in acute migraine |
-| [6691890](https://pubmed.ncbi.nlm.nih.gov/6691890/) | 1984 | PK study | Br J Clin Pharmacol | Migraine attacks delay absorption of oral tolfenamic acid; metoclopramide's effect studied |
+| [6394143](https://pubmed.ncbi.nlm.nih.gov/6394143/) | 1984 | تجربة عشوائية | Cephalalgia | مقارنة حمض التولفينامك والكافيين والميتوكلوبراميد وتركيباتهم في نوبات الشقيقة الحادة |
+| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | تجربة عشوائية (دراسة عمياء متقاطعة) | Acta Neurol Scand | حمض التولفينامك (200/400 mg) مقابل الباراسيتامول (500/1000 mg) في الشقيقة بدون هالة |
+| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | تجربة عشوائية (متقاطعة) | Acta Neurol Scand | حمض التولفينامك أفضل من الدواء الوهمي لالوقاية من الشقيقة (تكرار النوبة والمدة والشدة) |
+| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | تجربة عشوائية (ثلاثية الأذرع) | Acta Neurol Scand | قلل حمض التولفينامك والبروبرانولول كلاهما نوبات الشقيقة بشكل كبير مقابل الدواء الوهمي |
+| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | تجربة عشوائية (دراسة عمياء متقاطعة) | Lancet | حمض التولفينامك فعال مثل الإرغوتامين لنوبات الشقيقة، مع آثار جانبية معدية أقل |
+| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | تجربة عشوائية (دراسة عمياء متقاطعة) | Acta Neurol Scand | حمض التولفينامك مقابل البروبرانولول لالوقاية من الشقيقة في 76 مريضاً |
+| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | تجربة عشوائية (دراسة عمياء مزدوجة متوازية) | Medicina (Kaunas) | حمض التولفينامك 300mg مقابل البيزوتيفين 1.5mg للوقاية من الشقيقة في 192 مريضاً |
+| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | تجربة عشوائية (دراسة عمياء مزدوجة متوازية) | Headache | إطلاق سريع لحمض التولفينامك مماثل لسوماتريبتان الفموي للشقيقة الحادة |
+| [6984358](https://pubmed.ncbi.nlm.nih.gov/6984358/) | 1982 | دراسة سريرية | Cephalalgia | حمض التولفينامك مع الكافيين والميتوكلوبراميد أو بيريدوكسين كمساعدات في الشقيقة الحادة |
+| [6691890](https://pubmed.ncbi.nlm.nih.gov/6691890/) | 1984 | دراسة صيدلانية حركية | Br J Clin Pharmacol | تؤخر نوبات الشقيقة امتصاص حمض التولفينامك الفموي؛ تم دراسة تأثير الميتوكلوبراميد |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Tolfenamic acid is not currently marketed in Saudi Arabia — no market authorization records are on file (0 authorizations).
+حمض التولفينامك غير مسوق حالياً في المملكة العربية السعودية — لا يوجد سجلات تصريح تسويقي على الملف (0 تصريح).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المعلومات للعقار للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المتابعة مع إجراءات حماية**
 
-**Rationale:**
-A substantial body of older Nordic RCT evidence (8+ randomized controlled trials, 1979–2002) supports efficacy of tolfenamic acid in both acute and prophylactic migraine treatment, consistent with the L2 evidence level. However, the drug has no current SFDA/TFDA package insert, safety warning, or DDI data on file, and is not marketed in Saudi Arabia, so it cannot yet pass a full safety review.
+**الأساس المنطقي:**
+مجموعة كبيرة من أدلة الدراسات العشوائية الخاضعة للتحكم الإسكندنافية الأقدم (8+ تجارب عشوائية خاضعة للتحكم، 1979–2002) تدعم فعالية حمض التولفينامك في معالجة الشقيقة الحادة والوقائية، وهو ما يتسق مع مستوى الدليل L2. ومع ذلك، العقار لا يملك نشرة معلومات حالية من هيئة الصحة السعودية، أو تحذيرات سلامة، أو بيانات التفاعلات الدوائية على الملف، وغير مسوق في المملكة العربية السعودية، لذلك لا يمكنه بعد أن يجتاز مراجعة سلامة كاملة.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed structured mechanism-of-action data from DrugBank — currently a High-severity data gap
-- Drug interaction (DDI) profile, as none is currently on file
-- Assessment of whether historical (pre-registry) RCT evidence meets current regulatory evidentiary standards, or whether a modern confirmatory trial is needed
+**للمتابعة، يلزم الآتي:**
+- نشرة معلومات هيئة الصحة السعودية (تحذيرات، موانع استعمال) — حالياً فجوة بيانات حجبية
+- بيانات آلية عمل منظمة مؤكدة من DrugBank — حالياً فجوة بيانات عالية الخطورة
+- ملف التفاعلات الدوائية (DDI)، حيث لا يوجد حالياً
+- تقييم ما إذا كانت أدلة الدراسات العشوائية الخاضعة للتحكم التاريخية (السابقة للتسجيل) تلبي معايير الأدلة التنظيمية الحالية، أم أن هناك حاجة لتجربة تأكيدية حديثة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

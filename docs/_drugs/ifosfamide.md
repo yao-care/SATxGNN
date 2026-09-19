@@ -29,117 +29,118 @@ indication_count: 10
 
 </div>
 
-# Ifosfamide: From Soft Tissue Sarcoma / Testicular Cancer to Female Breast Carcinoma
+# إيفوسفاميد: من ساركوما الأنسجة الرخوة / سرطان الخصية إلى سرطان الثدي لدى الإناث
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Ifosfamide is an oxazaphosphorine alkylating agent long established in combination chemotherapy for soft tissue sarcoma and testicular carcinoma. The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, with **8 clinical trials** and **20 publications** currently retrieved in support of this direction — though, as detailed below, several of these need closer scrutiny before the signal can be considered fully confirmed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Soft tissue sarcoma / testicular carcinoma *(derived from literature in the evidence pack — e.g., PMID 3286879; not a Saudi Arabia regulatory dossier text, since no formal indication text is on file)* |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L1 *(as classified in the evidence pack — see caveat below)* |
-| Saudi Arabia Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Research Question** |
-
-> **Note on Evidence Level:** The evidence pack labels this candidate "L1," but of the 8 registered trials, none is a *completed* Phase 3 RCT specifically in breast cancer — the single Phase 3 trial identified (NCT00954174) actually enrolled uterine/fallopian tube/ovarian carcinosarcoma, not breast carcinoma (see Clinical Trial Evidence below). The strongest genuine breast-cancer evidence consists of several completed Phase 1/2 single-arm trials and mechanistic/PK studies. Readers should treat the L1 label as provisional pending re-verification.
+يعتبر إيفوسفاميد عامل تألكل من فئة الأوكسازافوسفورين راسخاً منذ زمن طويل في العلاج الكيميائي المركب لساركوما الأنسجة الرخوة وسرطان الخصية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً **لسرطان الثدي لدى الإناث**، مع **8 تجارب سريرية** و **20 منشور** تم استرجاعهم حالياً لدعم هذا الاتجاه — لكن، كما هو مفصل أدناه، عدة منها تحتاج إلى فحص أقرب قبل أن تعتبر الإشارة مؤكدة بشكل كامل.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in this evidence pack (Data Gap DG002 — High severity). Based on known pharmacology, ifosfamide is a cyclophosphamide analog that requires hepatic and intratumoral bioactivation (via CYP3A4, CYP2C9, CYP2B6) to its active metabolite, 4-hydroxy-ifosfamide, which cross-links DNA and induces apoptosis in rapidly dividing cells. This is directly supported by literature in the evidence pack: PMID 14970873 confirms CYP3A4/2C9/2B6 expression and active ifosfamide turnover within breast cancer tissue microsomes themselves, and PMID 11138456 demonstrates measurable DNA damage in both breast tumor tissue and peripheral blood lymphocytes following ifosfamide exposure — i.e., the drug is pharmacologically active inside breast tumor tissue, not just theoretically.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | ساركوما الأنسجة الرخوة / سرطان الخصية *(مستمد من الأدبيات في مجموعة الأدلة — على سبيل المثال، PMID 3286879؛ ليس نصاً من ملف التسجيل السعودي، حيث لا يوجد نص مؤشر رسمي في الملف)* |
+| المؤشر الجديد المتنبأ به | سرطان الثدي لدى الإناث |
+| درجة التنبؤ TxGNN | 99.91% |
+| مستوى الأدلة | L1 *(كما هو مصنف في مجموعة الأدلة — انظر التنبيه أدناه)* |
+| حالة السوق السعودي | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | **سؤال بحثي** |
 
-Ifosfamide's original indications (sarcoma, testicular carcinoma) and breast carcinoma share the same underlying vulnerability to alkylating-agent cytotoxicity, and ifosfamide-based regimens have in fact been trialed clinically in breast cancer for decades — mostly as second-/third-line therapy after anthracycline/taxane failure, in combination with etoposide, vinorelbine, paclitaxel, or epirubicin (PMID 11932893, 9226029, 8918497, 8873839, 2347057, 2347053, 10602903). Response rates in these small trials range from modest to notable (e.g., PMID 8873839 reports a 50% overall response rate with ifosfamide/mesna/epirubicin in previously-treated advanced breast cancer), supporting biological plausibility even though ifosfamide is not currently a guideline-standard first-line breast cancer agent.
-
-However, mechanistic plausibility and small historical trials are not equivalent to confirmatory Phase 3 evidence, and this prediction should be read as a *reasonable, literature-supported hypothesis* rather than an established therapeutic pathway.
+> **ملاحظة حول مستوى الأدلة:** تصنف مجموعة الأدلة هذا المرشح "L1،" لكن من بين 8 تجارب مسجلة، لا تعتبر أي منها تجربة عشوائية محكومة من المرحلة 3 *مكتملة* بشكل خاص في سرطان الثدي — التجربة الوحيدة من المرحلة 3 المحددة (NCT00954174) قيدت في الواقع مرضى بكارسينوما الرحم/قناة فالوب/الصفاق/المبيض، وليس سرطان الثدي (انظر دليل التجارب السريرية أدناه). يتكون أقوى دليل حقيقي لسرطان الثدي من عدة تجارب مرحلة 1/2 مكتملة بذراع واحدة ودراسات آلية/دوائية. يجب على القراء التعامل مع تصنيف L1 كمؤقت في انتظار إعادة التحقق.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في هذه مجموعة الأدلة (فجوة البيانات DG002 — شدة عالية). بناءً على الدراية الدوائية المعروفة، إيفوسفاميد هو مشابه لسيكلوفوسفاميد يتطلب التنشيط الكبدي والداخل الورمي (عبر CYP3A4, CYP2C9, CYP2B6) إلى استقلابه النشط، 4-هيدروكسي-إيفوسفاميد، الذي يحدث ارتباطات DNA المتقاطعة ويحفز الموت البرمجي للخلايا في الخلايا سريعة الانقسام. يتم دعم هذا مباشرة من الأدبيات في مجموعة الأدلة: PMID 14970873 يؤكد تعبير CYP3A4/2C9/2B6 والاستقلاب النشط لإيفوسفاميد داخل أنسجة سرطان الثدي نفسها، و PMID 11138456 يثبت تلف DNA قابل للقياس في كل من أنسجة الورم الثديي والخلايا الليمفاوية المحيطة بالدم بعد التعرض لإيفوسفاميد — أي أن الدواء نشط دوائياً داخل أنسجة الورم الثديي، وليس فقط نظرياً.
+
+المؤشرات الأصلية لإيفوسفاميد (ساركوما، سرطان الخصية) وسرطان الثدي يشاركان نفس الضعف الأساسي تجاه السمية الناجمة عن عوامل التألكل، وقد تم في الواقع تجربة الأنظمة القائمة على إيفوسفاميد سريرياً في سرطان الثدي لعقود — في الغالب كعلاج من الخط الثاني/الثالث بعد فشل الأنثراسيكلين/تاكسان، بالاشتراك مع إيتوبوسيد، فينوريلبين، باكليتاكسيل، أو إيبيروبيسين (PMID 11932893, 9226029, 8918497, 8873839, 2347057, 2347053, 10602903). تتراوح معدلات الاستجابة في هذه التجارب الصغيرة من متواضعة إلى ملحوظة (على سبيل المثال، PMID 8873839 يقرر معدل استجابة عام بنسبة 50% مع إيفوسفاميد/ميسنا/إيبيروبيسين في سرطان الثدي المتقدم المعالج مسبقاً)، مما يدعم المعقولية البيولوجية حتى لو لم يكن إيفوسفاميد حالياً عاملاً معيارياً من الخط الأول لسرطان الثدي.
+
+ومع ذلك، المعقولية الآلية والتجارب التاريخية الصغيرة ليست معادلة لأدلة المرحلة 3 المؤكدة، وينبغي قراءة هذا التنبؤ كـ *فرضية معقولة مدعومة بالأدبيات* بدلاً من مسار علاجي مثبت.
+
+---
+
+## دليل التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00026078](https://clinicaltrials.gov/study/NCT00026078) | Phase 2 | Unknown | 42 | Docetaxel + ifosfamide as first-line chemotherapy in metastatic breast cancer — direct regimen test |
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Terminated | N/A | TIME regimen (topotecan/ifosfamide-mesna/etoposide) with autologous stem cell rescue in metastatic breast cancer; terminated early |
-| [NCT00002854](https://clinicaltrials.gov/study/NCT00002854) | Phase 1 | Completed | 33 | Sequential high-dose cisplatin/cyclophosphamide/etoposide and ifosfamide/carboplatin/taxol with autologous stem cell support — early-phase safety data |
-| [NCT00020722](https://clinicaltrials.gov/study/NCT00020722) | Phase 2 | Terminated | 7 | Chemotherapy + peripheral stem cell transplant + activated T-cell therapy in stage IV breast cancer; ifosfamide likely used as conditioning agent, not the primary study variable (Grade C relevance, n=7) |
-| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Phase 1/2 | Terminated | 12 | Samarium-153 as part of double sequential autologous bone marrow transplant for stage IV breast cancer |
-| [NCT00012311](https://clinicaltrials.gov/study/NCT00012311) | Phase 2 | Unknown | N/A | Randomized comparison of multi-cycle high-dose vs. optimized conventional-dose chemotherapy in metastatic breast cancer |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | N/A | Unknown | 35 | Organoid-based high-throughput drug-screening platform (SCORE) to select chemotherapy for refractory solid tumors — tool-development study, not a direct efficacy trial |
-| [NCT00954174](https://clinicaltrials.gov/study/NCT00954174) | Phase 3 | Unknown | 637 | ⚠ **Likely mismatch**: this RCT enrolls uterine/fallopian tube/peritoneal/ovarian **carcinosarcoma**, not breast carcinoma. It compares paclitaxel+carboplatin vs. ifosfamide+paclitaxel. Despite being graded "A" in the source evidence set, the disease population does not match "female breast carcinoma" and should be excluded from the breast-cancer-specific evidence tally pending confirmation |
+| [NCT00026078](https://clinicaltrials.gov/study/NCT00026078) | المرحلة 2 | غير معروفة | 42 | دوسيتاكسيل + إيفوسفاميد كعلاج كيميائي من الخط الأول في سرطان الثدي النقيلي — اختبار النظام المباشر |
+| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | المرحلة 2 | تم إنهاؤه | N/A | نظام TIME (توبوتيكان/إيفوسفاميد-ميسنا/إيتوبوسيد) مع إنقاذ الخلايا الجذعية الذاتية في سرطان الثدي النقيلي؛ تم إنهاؤه مبكراً |
+| [NCT00002854](https://clinicaltrials.gov/study/NCT00002854) | المرحلة 1 | مكتملة | 33 | سيسبلاتين عالي الجرعة المتسلسل/سيكلوفوسفاميد/إيتوبوسيد وإيفوسفاميد/كاربوبلاتين/باكليتاكسول مع دعم الخلايا الجذعية الذاتية — بيانات السلامة المرحلية المبكرة |
+| [NCT00020722](https://clinicaltrials.gov/study/NCT00020722) | المرحلة 2 | تم إنهاؤه | 7 | العلاج الكيميائي + زرع الخلايا الجذعية المحيطة + العلاج بالخلايا التائية المفعلة في سرطان الثدي من المرحلة الرابعة؛ من المحتمل أن يكون إيفوسفاميد مستخدماً كعامل تكييف، وليس المتغير الأساسي للدراسة (ذات صلة من الدرجة C، n=7) |
+| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | المرحلة 1/2 | تم إنهاؤه | 12 | Samarium-153 كجزء من زرع نخاع عظم ذاتي متسلسل مزدوج لسرطان الثدي من المرحلة الرابعة |
+| [NCT00012311](https://clinicaltrials.gov/study/NCT00012311) | المرحلة 2 | غير معروفة | N/A | مقارنة عشوائية بين العلاج الكيميائي عالي الجرعة متعدد الدورات مقابل الجرعة التقليدية المحسّنة في سرطان الثدي النقيلي |
+| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | N/A | غير معروفة | 35 | منصة فحص الأدوية عالية الإنتاجية القائمة على الأورغانويد (SCORE) لاختيار العلاج الكيميائي للأورام الصلبة المقاومة — دراسة تطوير الأداة، وليس تجربة فعالية مباشرة |
+| [NCT00954174](https://clinicaltrials.gov/study/NCT00954174) | المرحلة 3 | غير معروفة | 637 | ⚠ **احتمال عدم تطابق**: هذه تجربة عشوائية محكومة تقيد **كارسينوما الرحم/قناة فالوب/الصفاق/المبيض**، وليس سرطان الثدي. تقارن باكليتاكسيل+كاربوبلاتين مقابل إيفوسفاميد+باكليتاكسيل. على الرغم من تقييمها "A" في مجموعة الأدلة المصدر، لا يتطابق السكان المرضى مع "سرطان الثدي لدى الإناث" وينبغي استبعادها من تقييم الأدلة الخاص بسرطان الثدي في انتظار التأكيد |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11932893](https://pubmed.ncbi.nlm.nih.gov/11932893/) | 2002 | Phase 2 trial | Cancer | Paclitaxel (24-hr infusion) + ifosfamide in anthracycline-resistant metastatic breast carcinoma |
-| [9226029](https://pubmed.ncbi.nlm.nih.gov/9226029/) | 1997 | Phase 2 trial | Tumori | Ifosfamide + etoposide in previously treated advanced breast cancer; response and toxicity profile evaluated |
-| [8918497](https://pubmed.ncbi.nlm.nih.gov/8918497/) | 1996 | Phase 2 trial | J Clin Oncol | Ifosfamide + vinorelbine as first-line chemotherapy for metastatic breast cancer |
-| [8873839](https://pubmed.ncbi.nlm.nih.gov/8873839/) | 1996 | Phase 2 trial | J Chemother | Ifosfamide/mesna/epirubicin as second-line therapy — 6% CR, 44% PR (50% overall response rate) |
-| [2112056](https://pubmed.ncbi.nlm.nih.gov/2112056/) | 1990 | Phase 2 trial | Cancer Chemother Pharmacol | Ifosfamide/etoposide with mesna uroprotection in 44 patients with advanced breast cancer |
-| [2347057](https://pubmed.ncbi.nlm.nih.gov/2347057/) | 1990 | Phase 2 trial | Cancer Chemother Pharmacol | Ifosfamide substituted for cyclophosphamide in CMF regimen — effective in CMF-refractory/relapsed breast cancer |
-| [2347053](https://pubmed.ncbi.nlm.nih.gov/2347053/) | 1990 | Phase 2 trial | Cancer Chemother Pharmacol | Epirubicin + ifosfamide in 58 patients with refractory breast cancer and other metastatic solid tumors |
-| [10602903](https://pubmed.ncbi.nlm.nih.gov/10602903/) | 1999 | Phase 2 trial | Cancer Chemother Pharmacol | Ifosfamide + vinorelbine in metastatic breast cancer after prior anthracycline therapy |
-| [7695982](https://pubmed.ncbi.nlm.nih.gov/7695982/) | 1995 | PK/Cohort | Eur J Cancer | Pharmacokinetics, metabolism, and clinical effect of ifosfamide in 15 breast cancer patients |
-| [39306877](https://pubmed.ncbi.nlm.nih.gov/39306877/) | 2024 | Cohort | Curr Probl Cancer | Ifosfamide-based chemotherapy experience in metaplastic breast cancer, a chemo-resistant breast cancer subtype |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [11932893](https://pubmed.ncbi.nlm.nih.gov/11932893/) | 2002 | تجربة المرحلة 2 | Cancer | باكليتاكسيل (تسريب 24 ساعة) + إيفوسفاميد في سرطان الثدي النقيلي المقاوم للأنثراسيكلين |
+| [9226029](https://pubmed.ncbi.nlm.nih.gov/9226029/) | 1997 | تجربة المرحلة 2 | Tumori | إيفوسفاميد + إيتوبوسيد في سرطان الثدي المتقدم المعالج مسبقاً؛ تم تقييم ملف تعريف الاستجابة والسمية |
+| [8918497](https://pubmed.ncbi.nlm.nih.gov/8918497/) | 1996 | تجربة المرحلة 2 | J Clin Oncol | إيفوسفاميد + فينوريلبين كعلاج كيميائي من الخط الأول لسرطان الثدي النقيلي |
+| [8873839](https://pubmed.ncbi.nlm.nih.gov/8873839/) | 1996 | تجربة المرحلة 2 | J Chemother | إيفوسفاميد/ميسنا/إيبيروبيسين كعلاج من الخط الثاني — 6% استجابة كاملة، 44% استجابة جزئية (معدل استجابة عام 50%) |
+| [2112056](https://pubmed.ncbi.nlm.nih.gov/2112056/) | 1990 | تجربة المرحلة 2 | Cancer Chemother Pharmacol | إيفوسفاميد/إيتوبوسيد مع حماية ميسنا في 44 مريضاً مصاباً بسرطان الثدي المتقدم |
+| [2347057](https://pubmed.ncbi.nlm.nih.gov/2347057/) | 1990 | تجربة المرحلة 2 | Cancer Chemother Pharmacol | إيفوسفاميد كبديل لسيكلوفوسفاميد في نظام CMF — فعالة في سرطان الثدي المقاوم/المتكرر لـ CMF |
+| [2347053](https://pubmed.ncbi.nlm.nih.gov/2347053/) | 1990 | تجربة المرحلة 2 | Cancer Chemother Pharmacol | إيبيروبيسين + إيفوسفاميد في 58 مريضاً مصاباً بسرطان الثدي المقاوم والأورام الصلبة النقيلية الأخرى |
+| [10602903](https://pubmed.ncbi.nlm.nih.gov/10602903/) | 1999 | تجربة المرحلة 2 | Cancer Chemother Pharmacol | إيفوسفاميد + فينوريلبين في سرطان الثدي النقيلي بعد العلاج السابق بالأنثراسيكلين |
+| [7695982](https://pubmed.ncbi.nlm.nih.gov/7695982/) | 1995 | PK/Cohort | Eur J Cancer | الحركية الدوائية والاستقلاب والتأثير السريري لإيفوسفاميد في 15 مريضاً مصاباً بسرطان الثدي |
+| [39306877](https://pubmed.ncbi.nlm.nih.gov/39306877/) | 2024 | Cohort | Curr Probl Cancer | خبرة العلاج الكيميائي القائم على إيفوسفاميد في سرطان الثدي النقيلي، وهو نوع فرعي مقاوم للعلاج الكيميائي |
 
-*Additional mechanistic support (not tabled above, used for the MOA discussion): PMID 14970873 (CYP-mediated ifosfamide bioactivation in breast tumor microsomes), PMID 11138456 (ifosfamide-induced DNA damage in breast tumor tissue), PMID 10907953 (preclinical activity of 4-OH-ifosfamide in breast cancer cell lines).*
+*دعم آلي إضافي (غير مجدول أعلاه، مستخدم لمناقشة آلية العمل): PMID 14970873 (التنشيط الوسيط بواسطة CYP لإيفوسفاميد في أنسجة سرطان الثدي الدقيقة)، PMID 11138456 (تلف DNA الناجم عن إيفوسفاميد في أنسجة الورم الثديي)، PMID 10907953 (النشاط السابق للسريرية لـ 4-OH-إيفوسفاميد في خطوط الخلايا السرطانية الثديية).*
 
-*Excluded as likely off-topic/mismatched: PMID 39013199 (ovarian cancer consensus), PMID 23374944 (radiation-induced angiosarcoma), PMID 27710871 (trabectedin/sarcoma review), PMID 10084362 (gene therapy review) — these appear in the retrieval set via keyword co-occurrence rather than direct relevance to ifosfamide in breast carcinoma.*
-
----
-
-## Saudi Arabia Market Information
-
-Ifosfamide is **not currently marketed in Saudi Arabia** — the evidence pack records 0 authorizations and no license entries. There is no product/dosage-form/indication-text data available to tabulate.
+*مستبعد كموضوع غير مرتبط/غير متطابق: PMID 39013199 (إجماع سرطان المبيض)، PMID 23374944 (الورم الأرومي الناجم عن الإشعاع)، PMID 27710871 (مراجعة trabectedin/ساركوما)، PMID 10084362 (مراجعة العلاج الجيني) — تظهر هذه في مجموعة الاستدعاء عبر التعايش الكلماتي بدلاً من الصلة المباشرة بـ إيفوسفاميد في سرطان الثدي.*
 
 ---
 
-## Cytotoxicity
+## معلومات السوق السعودية
 
-Ifosfamide is a conventional cytotoxic chemotherapy agent (confirmed by original indications in sarcoma/testicular cancer and its DNA-alkylating mechanism), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — oxazaphosphorine alkylating agent (cyclophosphamide analog) |
-| Myelosuppression Risk | High — multiple trials in this evidence pack required growth-factor/thrombopoietin support (e.g., NCT00003597, NCT00187109) specifically because of ifosfamide-regimen-induced neutropenia/thrombocytopenia |
-| Emetogenicity Classification | Moderate to High (typical for alkylating-agent chemotherapy at oncologic doses; official Saudi labeling data unavailable — see Data Gap below) |
-| Monitoring Items | CBC with differential, renal function (BUN/creatinine), urinalysis (hemorrhagic cystitis risk — mesna co-administration required), neurological status (encephalopathy risk, per PMID 41818182 in the wider ifosfamide literature), liver function |
-| Handling Protection | Yes — must be handled under institutional hazardous/cytotoxic drug handling protocols (PPE, closed-system transfer devices) |
+إيفوسفاميد **غير مسوق حالياً في المملكة العربية السعودية** — تسجل مجموعة الأدلة 0 تفويضات وعدم وجود بيانات إدراج الترخيص. لا توجد بيانات المنتج/صيغة الجرعة/نص المؤشر متاحة للعرض.
 
 ---
 
-## Safety Considerations
+## السمية الخلوية
 
-Please refer to the package insert for safety information.
+إيفوسفاميد عامل علاج كيميائي خلوي تقليدي (مؤكد من خلال المؤشرات الأصلية في الساركوما/سرطان الخصية وآلية ارتباط DNA الخاصة به)، لذا ينطبق هذا القسم.
 
-> **Outstanding data gap:** The evidence pack flags TFDA-equivalent warnings/contraindications for ifosfamide as a **Blocking** data gap (DG001) — this must be resolved (via official label retrieval) before any Stage 1 (S1) safety pre-assessment can be completed. A drug interaction (DDI) query also returned no results ("not_found") and should be re-run through an alternative source.
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | سمية خلوية تقليدية — عامل التألكل من الأوكسازافوسفورين (مشابه سيكلوفوسفاميد) |
+| مخاطر قمع نخاع العظم | عالية — تطلبت العديد من التجارب في هذه مجموعة الأدلة دعم عامل النمو/ثروموبويتين (على سبيل المثال، NCT00003597, NCT00187109) خصيصاً بسبب قمع النيوتروفيل/الصفيحات الناجم عن نظام إيفوسفاميد |
+| تصنيف الميل إلى الغثيان | معتدل إلى عالي (نموذجي لعلاج عامل التألكل في الجرعات الورمية؛ بيانات التسمية الرسمية السعودية غير متاحة — انظر فجوة البيانات أدناه) |
+| عناصر المراقبة | عد الدم الكامل مع التفاضل، وظيفة الكلى (BUN/الكرياتينين)، تحليل البول (خطر التهاب المثانة النزفي — مطلوب تعايش ميسنا)، الحالة العصبية (خطر اعتلال الدماغ، وفقاً لـ PMID 41818182 في أدب إيفوسفاميد الأوسع)، وظيفة الكبد |
+| الحماية من المناولة | نعم — يجب أن تتم المناولة وفقاً لبروتوكولات التعامل مع الأدوية الخطرة/السامة للخلايا المؤسسية (معدات الحماية الشخصية، أجهزة نقل النظام المغلق) |
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Research Question**
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات الأمان.
 
-**Rationale:**
-Ifosfamide shows a mechanistically plausible and literature-supported signal in breast cancer (direct intratumoral bioactivation, DNA damage, and multiple small Phase 1/2 trials with measurable response rates), but the evidence falls short of confirmatory Phase 3 data — the one registered Phase 3 RCT in this evidence set is very likely a disease-mismatch (gynecological carcinosarcoma, not breast carcinoma). Combined with the drug's absence from the Saudi Arabia market and a blocking gap in local safety labeling, this candidate should remain a research question rather than proceed to Go or Guardrailed deployment.
+> **فجوة بيانات قائمة:** تحدد مجموعة الأدلة تحذيرات/موانع معادلة TFDA لإيفوسفاميد كفجوة بيانات حجزية (DG001) — يجب حل هذا (عبر استرجاع التسمية الرسمية) قبل إكمال أي تقييم أمان المرحلة 1 (S1). يجب أيضاً إعادة تشغيل استعلام تفاعلات الأدوية (DDI) من خلال مصدر بديل، حيث أرجعت البحث الحالي "not_found".
 
-**To proceed, the following is needed:**
-- TFDA/SFDA-equivalent package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Detailed DrugBank mechanism-of-action data (DG002)
-- Confirmation/correction of the NCT00954174 disease-population mismatch, and a targeted search for genuinely breast-cancer-specific completed RCTs
-- A fresh drug-drug interaction (DDI) query, since the current lookup returned no data
-- A regulatory pathway assessment given zero existing Saudi Arabia market authorizations for ifosfamide
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: سؤال بحثي**
+
+**التبرير:**
+يُظهر إيفوسفاميد إشارة معقولة آلياً ومدعومة بالأدبيات في سرطان الثدي (التنشيط الحيوي المباشر داخل الورم، تلف DNA، وتجارب متعددة صغيرة من المرحلة 1/2 مع معدلات استجابة قابلة للقياس)، لكن الأدلة تقصر عن بيانات المرحلة 3 المؤكدة — التجربة المسجلة الوحيدة من المرحلة 3 في هذه مجموعة الأدلة هي احتمال عدم تطابق عالي جداً (كارسينوما أمراضية، وليس سرطان الثدي). مقترنة مع غياب الدواء عن سوق المملكة العربية السعودية وفجوة حجزية في تسمية السلامة المحلية، ينبغي لهذا المرشح أن يبقى سؤال بحث بدلاً من الانتقال إلى نشر Go أو Guardrailed.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة معادلة TFDA/SFDA (تحذيرات، موانع) — حالياً فجوة بيانات حجزية (DG001)
+- بيانات آلية العمل التفصيلية DrugBank (DG002)
+- تأكيد/تصحيح عدم تطابق السكان المرضى في NCT00954174، والبحث الموجه عن التجارب العشوائية المحكومة المكتملة الخاصة بسرطان الثدي حقاً
+- استعلام تفاعلات الأدوية (DDI) طازج، حيث أرجع البحث الحالي بدون بيانات
+- تقييم المسار التنظيمي نظراً لصفر التفويضات الموجودة في سوق المملكة العربية السعودية لإيفوسفاميد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

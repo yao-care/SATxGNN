@@ -29,57 +29,58 @@ indication_count: 10
 
 </div>
 
-# Hymecromone: From Biliary Spasm to Diabetic Nephropathy
+# الهيميكرومون: من التشنج الصفراوي إلى اعتلال الكلى السكري
 
-## One-Sentence Summary
+## ملخص سطر واحد
 
-Hymecromone (4-methylumbelliferone, 4-MU) is a coumarin-derivative choleretic/antispasmodic agent, historically used for managing biliary spasm.
-The TxGNN model predicts it may be effective for **Diabetic Nephropathy**, but this ranks purely on model score —
-**0 clinical trials** and **0 publications** currently support this specific link.
+الهيميكرومون (4-ميثيل أمبيليفيرون، 4-MU) هو عامل مشتق من الكومارين له خصائص تدفق الصفراء وتخفيف التشنج، استُخدم تاريخياً لإدارة التشنج الصفراوي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **اعتلال الكلى السكري**، لكن هذا يستند تماماً على درجة النموذج فقط —
+**0 تجارب سريرية** و **0 منشورات** تدعم هذا الارتباط المحدد حالياً.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Biliary spasm (cholagogue/antispasmodic) — noted in supporting literature; no Saudi Arabia regulatory license record exists |
-| Predicted New Indication | Diabetic Nephropathy |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | التشنج الصفراوي (مدر للصفراء/مرخِّي للتشنج) — مذكور في الأدبيات الداعمة؛ لا توجد سجلات ترخيص هيئة الغذاء والدواء السعودية |
+| المؤشر الجديد المتنبأ به | اعتلال الكلى السكري |
+| درجة التنبؤ بـ TxGNN | 99.85% |
+| مستوى الدليل | L5 |
+| حالة السوق السعودي | غير مسوّق (غير مسوّق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | معلّق |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for hymecromone is not available in this evidence pack (marked as a High-severity data gap). However, literature collected elsewhere in this pack (in support of a different candidate indication) identifies hymecromone as a hyaluronan synthase (HAS) inhibitor: it suppresses hyaluronan (HA) synthesis, and HA accumulation is mechanistically tied to tissue fibrosis and inflammation in several organ systems.
+بيانات آلية العمل المفصلة للهيميكرومون غير متاحة في مجموعة الأدلة هذه (مُشار إليها كفجوة بيانات شديدة الخطورة). ومع ذلك، تحدد الأدبيات المجمّعة في أماكن أخرى في هذه المجموعة (دعماً لمؤشر مرشح مختلف) الهيميكرومون كمثبّط لهيالورونان سينثاز (HAS): يُثبّط تخليق الهيالورونان (HA)، وتراكم HA مرتبط ميكانيكياً بتليف الأنسجة والالتهاب في عدة أجهزة عضوية.
 
-Diabetic nephropathy involves progressive renal fibrosis and inflammatory HA deposition, so there is a plausible theoretical bridge from "HA synthesis inhibition" to "renal protection." That said, this bridge has not been tested for hymecromone specifically in diabetic nephropathy — the evidence pack's own rationale for this candidate explicitly flags the link as unverified extrapolation from TxGNN's score alone (rank 3116 of the model's output, score 0.9985), with zero dedicated trials or publications identified after targeted searches of ClinicalTrials.gov, ICTRP, and PubMed.
+يتضمن اعتلال الكلى السكري تليفاً كلوياً تدريجياً وترسب التهابي للـ HA، لذا توجد جسور نظرية معقولة من "تثبيط تخليق HA" إلى "حماية كلوية." بيد أن هذا الجسر لم يتم اختباره للهيميكرومون على وجه التحديد في اعتلال الكلى السكري — تَعترف نسبة مجموعة الأدلة ذاتها لهذا المرشح بأن الارتباط غير مُتحقق بشكل من الاستقراء من درجة TxGNN وحدها (الترتيب 3116 من مخرجات النموذج، الدرجة 0.9985)، مع عدم تحديد أي تجارب مخصصة أو منشورات بعد البحث الموجه في ClinicalTrials.gov و ICTRP و PubMed.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد حالياً أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى نشرة المعلومات الطبية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: معلّق**
 
-**Rationale:**
-The diabetic nephropathy prediction is supported by TxGNN score alone (L5, S0) — no clinical trial, no publication, and no directly validated mechanistic study exist for this drug-indication pair. Combined with a Blocking data gap on TFDA/regulatory safety labeling, this candidate cannot yet enter safety pre-screening.
+**الأساس المنطقي:**
+يدعم التنبؤ باعتلال الكلى السكري درجة TxGNN وحدها (L5, S0) — لا توجد تجربة سريرية، لا منشور، ولا دراسة ميكانيكية مباشرة للتحقق موجودة لهذا الزوج من الدواء والمؤشر. مقترنة بفجوة بيانات مانعة لتسمية السلامة من TFDA/هيئة الغذاء والدواء الخاضعة للتنظيم، لا يمكن لهذا المرشح أن يدخل فحص السلامة المسبق بعد.
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action data for hymecromone — currently a High-severity gap (DG002)
-- Preclinical or clinical evidence directly linking hymecromone to diabetic nephropathy (current HA-inhibition rationale is indirect, drawn from an unrelated indication's literature)
+**للمتابعة، يلزم ما يلي:**
+- نشرة معلومات TFDA/SFDA (تحذيرات، موانع استعمال) — حالياً فجوة مانعة (DG001)
+- بيانات آلية العمل المؤكدة للهيميكرومون — حالياً فجوة شديدة الخطورة (DG002)
+- دليل ما قبل الإكلينيكي أو سريري يربط الهيميكرومون مباشرة باعتلال الكلى السكري (النسبة الحالية لتثبيط HA غير مباشرة، مستمدة من أدبيات مؤشر غير مرتبط)
 
-**Note:** Among this drug's other predicted indications, **type 1 diabetes mellitus** (rank 8, score 99.54%) has notably stronger support — three preclinical/mechanistic studies (L4, S1, "Research Question") showing HA-synthesis inhibition restores immune tolerance in autoimmune insulitis. If prioritizing by evidence quality rather than raw TxGNN score, that candidate may warrant earlier follow-up than diabetic nephropathy.
+**ملاحظة:** بين المؤشرات الأخرى المتنبأ بها لهذا الدواء، **داء السكري من النوع الأول** (الترتيب 8، الدرجة 99.54%) يتمتع بدعم أقوى بشكل ملحوظ — ثلاث دراسات ما قبل الإكلينيكية/ميكانيكية (L4, S1, "Research Question") تُظهر أن تثبيط تخليق HA يستعيد التسامح المناعي في التهاب الخلايا الجزيرية المناعي الذاتي. إذا كانت الأولوية حسب جودة الدليل بدلاً من درجة TxGNN الخام، قد يستحق هذا المرشح متابعة أقرب من اعتلال الكلى السكري.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

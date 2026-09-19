@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Allopurinol: From Gout / Hyperuricemia to Hepatic Porphyria
+# الوبيورينول: من النقرس / فرط حمض اليوريك إلى البورفيريا الكبدية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Allopurinol is a xanthine oxidase inhibitor classically used to treat gout and hyperuricemia by reducing uric acid production.
-The TxGNN model predicts it may be effective for **Hepatic Porphyria**,
-with **0 clinical trials** and **2 publications** currently offering only indirect mechanistic support for this direction.
+الوبيورينول (allopurinol) هو مثبط لإنزيم أوكسيديز الزانثين يُستخدم بشكل كلاسيكي لعلاج النقرس وفرط حمض اليوريك بتقليل إنتاج حمض اليوريك.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **البورفيريا الكبدية**،
+مع **0 تجربة سريرية** و **منشورتان** توفران فقط دعماً آلياً غير مباشر لهذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة سريعة عامة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Gout / Hyperuricemia (known pharmacology; no Saudi Arabia registration on record) |
-| Predicted New Indication | Hepatic Porphyria |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | النقرس / فرط حمض اليوريك (الصيدلة المعروفة؛ لا توجد سجلات تسجيل في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | البورفيريا الكبدية |
+| درجة التنبؤ من TxGNN | 99.95% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | التأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, allopurinol inhibits xanthine oxidase (XO), the enzyme responsible for the final two steps in uric acid synthesis from hypoxanthine and xanthine. By blocking XO, allopurinol reduces uric acid production and is established as first-line therapy for gout and hyperuricemia.
+حالياً، بيانات تفصيلية عن آلية العمل غير متاحة في هذه الحزمة الأدلة. بناءً على الصيدلة المعروفة، يثبط الوبيورينول إنزيم أوكسيديز الزانثين (XO)، الإنزيم المسؤول عن المرحلتين الأخيرتين من تخليق حمض اليوريك من hypoxanthine و xanthine. بحجب XO، يقلل الوبيورينول إنتاج حمض اليوريك ويعتبر العلاج من الخط الأول للنقرس وفرط حمض اليوريك.
 
-The proposed link to hepatic porphyria runs through a shared metabolic crossover between purine metabolism and heme biosynthesis. 5-Aminolevulinate synthase (ALAS) is the rate-limiting enzyme in hepatic heme synthesis and is subject to negative feedback by a small cytosolic heme pool. One hypothesis (PMID 31443750) proposes that metabolic targeting of ALAS activity — including via inhibitors that affect heme utilisation — could attenuate acute porphyric attacks. The xanthine oxidase pathway intersects with this at the level of reactive oxygen species (ROS): XO-generated ROS can deplete the heme regulatory pool or co-factors that modulate ALAS expression.
+يمر الارتباط المقترح بـ البورفيريا الكبدية عبر تقاطع استقلابي مشترك بين استقلاب البيورين وتخليق الهيم. 5-Aminolevulinate synthase (ALAS) هو الإنزيم المحدد للمعدل في تخليق الهيم الكبدي وهو خاضع لتغذية راجعة سلبية من مجمع هيم سيتوسولي صغير. تقترح إحدى الفرضيات (PMID 31443750) أن الاستهداف الاستقلابي لنشاط ALAS - بما في ذلك عبر مثبطات تؤثر على استعمال الهيم - يمكن أن يخفف من نوبات البورفيريا الحادة. يتقاطع مسار أوكسيديز الزانثين مع هذا على مستوى أنواع الأكسجين التفاعلية (ROS): ROS الذي يولده XO يمكن أن يستنزف مجمع الهيم التنظيمي أو عوامل مساعدة تُعدّل تعبير ALAS.
 
-However, this mechanistic chain is highly indirect. Neither retrieved publication directly studies allopurinol in hepatic porphyria: one is a mechanistic hypothesis involving tryptophan 2,3-dioxygenase (TDO) inhibitors, and the other examines carbamazepine's porphyrogenic effects in rat liver — a drug with no structural or pharmacological overlap with allopurinol. The overall mechanistic connection is speculative and not supported by experimental data. An additional safety concern exists: allopurinol is associated with DRESS syndrome and drug-induced hepatitis, which poses meaningful risk in patients with already-compromised hepatic function, as is typical in porphyria.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، هذه السلسلة الآلية غير مباشرة جداً. لا تدرس أي من المنشورات المسترجعة الوبيورينول في البورفيريا الكبدية مباشرة: إحداهما فرضية آلية تتضمن مثبطات tryptophan 2,3-dioxygenase (TDO)، والأخرى تفحص التأثيرات المسببة للبورفيريا للكاربامازيبين في كبد الفئران - عقار لا يوجد تداخل هيكلي أو دوائي معه مع الوبيورينول. الربط الآلي الشامل تخميني وغير مدعوم ببيانات تجريبية. توجد أيضاً مخاوف سلامة إضافية: الوبيورينول يرتبط بمتلازمة DRESS والتهاب الكبد الناجم عن الأدوية، مما يشكل خطراً معنوياً لدى المرضى الذين يعانون من وظائف كبدية مضطربة بالفعل، كما هو نموذجي في البورفيريا.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
+
+---
+
+## أدلة من الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypothesis / Mechanistic Review | Medical Hypotheses | Proposes that metabolic inhibition of heme utilisation by tryptophan 2,3-dioxygenase (TDO) or use of tryptophan could target ALAS activity as a therapy for acute hepatic porphyrias; does not specifically study allopurinol |
-| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Animal Study (rat liver) | Biochemical Pharmacology | Examines how carbamazepine exacerbates hepatic porphyria via heme pool depletion in rat liver; allopurinol is not studied; relevant only as contextual evidence for heme pathway perturbation |
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | فرضية / مراجعة آلية | Medical Hypotheses | يقترح أن منع استقلابي استعمال الهيم بواسطة tryptophan 2,3-dioxygenase (TDO) أو استخدام التريبتوفان يمكن أن يستهدف نشاط ALAS كعلاج للبورفيريا الكبدية الحادة؛ لا يدرس الوبيورينول على وجه التحديد |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | دراسة حيوانية (كبد الفئران) | Biochemical Pharmacology | يفحص كيفية تفاقم الكاربامازيبين للبورفيريا الكبدية من خلال استنزاف مجمع الهيم في كبد الفئران؛ الوبيورينول لم يُدرس؛ ذو صلة فقط كدليل سياقي لاضطراب مسار الهيم |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة.
 
-> **Note from repurposing rationale:** Allopurinol carries a known risk of DRESS syndrome and drug-induced hepatitis. For a target population with hepatic porphyria — where liver function is already compromised — this represents a material safety concern that must be characterised before any further development steps are considered.
+> **ملاحظة من أساس إعادة استخدام الأدوية:** الوبيورينول يحمل خطراً معروفاً من متلازمة DRESS والتهاب الكبد الناجم عن الأدوية. بالنسبة للمرضى المستهدفين مع البورفيريا الكبدية - حيث تكون وظائف الكبد بالفعل مضطربة - هذا يمثل مصدر قلق مادي بشأن السلامة يجب تحديده قبل النظر في أي خطوات تطوير إضافية.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: التأجيل**
 
-**Rationale:**
-The sole evidence base is a TxGNN graph-embedding prediction (score 99.95%) supported only by two indirectly relevant publications at the mechanistic hypothesis level (L4); no clinical trials exist, and the mechanistic link between xanthine oxidase inhibition and hepatic porphyria is speculative. Compounding this, allopurinol's known hepatotoxicity and DRESS risk create a specific safety concern for this patient population that has not been characterised.
+**الأساس المنطقي:**
+قاعدة الأدلة الوحيدة هي تنبؤ معتمد على تضمين الرسم البياني TxGNN (درجة 99.95%) مدعوماً فقط بمنشورتين غير مباشرتي الصلة على مستوى الفرضية الآلية (L4)؛ لا توجد تجارب سريرية، والربط الآلي بين منع أوكسيديز الزانثين والبورفيريا الكبدية تخميني. مما يفاقم الأمر، خطر الوبيورينول الكبدي المعروف ومخاطر DRESS تخلق مصدر قلق سلامة محدداً لهذه المجموعة السكانية التي لم تتم دراستها بعد.
 
-**To proceed, the following is needed:**
-- Confirm the mechanistic hypothesis in a validated in vitro or animal model of hepatic porphyria (e.g., measure effect of allopurinol on ALAS activity or heme pool in hepatocyte cultures)
-- Obtain allopurinol's full mechanism of action data from DrugBank (DG002 remediation) to enable a rigorous mechanistic-link assessment
-- Retrieve and review the package insert (DG001 remediation) to characterise hepatotoxicity and DRESS contraindications in the context of porphyria patients
-- Conduct a targeted literature search specifically for allopurinol + porphyria (current search returned 0 direct hits); consider searching for xanthine oxidase inhibitors as a class in porphyria models
-- If preclinical evidence is found, define a minimum safety monitoring plan for liver function and skin reactions before any human study is contemplated
+**للمضي قدماً، يلزم ما يلي:**
+- تأكيد الفرضية الآلية في نموذج معتمد في المختبر أو حيواني للبورفيريا الكبدية (على سبيل المثال، قياس تأثير الوبيورينول على نشاط ALAS أو مجمع الهيم في ثقافات خلايا الكبد)
+- الحصول على بيانات آلية العمل الكاملة للوبيورينول من DrugBank (معالجة DG002) لتمكين تقييم قوي للربط الآلي
+- استرجاع ومراجعة نشرة الحزمة (معالجة DG001) لتحديد السمية الكبدية وموانع DRESS في سياق مرضى البورفيريا
+- إجراء بحث أدبي موجه على وجه التحديد عن الوبيورينول + البورفيريا (البحث الحالي أعاد 0 نتائج مباشرة)؛ فكر في البحث عن مثبطات أوكسيديز الزانثين كفئة في نماذج البورفيريا
+- إذا تم العثور على دليل ما قبل السريري، حدد الحد الأدنى من خطة مراقبة السلامة لوظائف الكبد وردود الفعل الجلدية قبل النظر في أي دراسة بشرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

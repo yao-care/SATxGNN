@@ -29,59 +29,60 @@ indication_count: 1
 
 </div>
 
-# Aflibercept: From Retinal Vascular Disease to Esotropia
+# Aflibercept: من أمراض الأوعية الدموية الشبكية إلى الحَول الداخلي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Aflibercept is a VEGF Trap fusion protein used to treat retinal vascular diseases such as neovascular age-related macular degeneration, diabetic macular edema, and retinal vein occlusion.
-The TxGNN model predicts it may be effective for **Esotropia** (inward eye deviation / 內斜視),
-with **no clinical trials** and **no published literature** currently supporting this direction — placing this prediction at **L5 (model prediction only)**.
+Aflibercept هو بروتين اندماجي VEGF Trap يُستخدم في علاج أمراض الأوعية الدموية الشبكية مثل التنكس البقعي الرطب المرتبط بالعمر والوذمة البقعية السكرية وانسداد الوريد الشبكي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في علاج **الحَول الداخلي** (انحراف العين للداخل / 內斜視)،
+مع **عدم وجود أي تجارب سريرية** و**عدم وجود أدبيات منشورة** تدعم هذا الاتجاه حالياً — مما يضع هذا التنبؤ في **L5 (تنبؤ النموذج فقط)**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Retinal vascular disease (neovascular AMD, DME, RVO) — not marketed in Taiwan |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | أمراض الأوعية الدموية الشبكية (التنكس البقعي الرطب، الوذمة البقعية السكرية، انسداد الوريد الشبكي) — غير مرخص في تايوان |
+| الاستطباب الجديد المتنبأ به | الحَول الداخلي |
+| درجة التنبؤ من TxGNN | 99.38% |
+| مستوى الدليل | L5 |
+| حالة السوق التايوانية | ✗ غير مرخص |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Aflibercept acts as a "VEGF Trap" — a recombinant fusion protein that binds VEGF-A, VEGF-B, and PlGF with high affinity, thereby suppressing pathological angiogenesis and vascular leakage. Its established clinical role is in retinal vascular conditions where aberrant VEGF signaling drives neovascularization. Detailed MOA data from DrugBank was not fully retrieved in this run, but the mechanism is well characterized in published literature.
+يعمل Aflibercept كـ "VEGF Trap" — بروتين اندماجي معاد التركيب يرتبط بـ VEGF-A و VEGF-B و PlGF بتقاربية عالية، وبالتالي يثبط تكوين الأوعية المرضية وتسرب الأوعية الدموية. دوره السريري المعروف هو في الحالات الشبكية الوعائية حيث تقود الإشارة المرضية للـ VEGF إلى تكوين أوعية جديدة. لم يتم استرجاع بيانات آلية العمل الكاملة من DrugBank في هذه المحاولة، لكن الآلية موثقة بشكل جيد في الأدبيات المنشورة.
 
-The potential mechanistic link to esotropia is indirect and speculative. VEGF signaling participates in embryonic development of the oculomotor nuclei and vascularization of extraocular muscles. Furthermore, intravitreal anti-VEGF injections used in retinopathy of prematurity (ROP) have been associated with changes in strabismus incidence in follow-up studies — though whether this effect is protective or causative remains unresolved. A third, more tenuous pathway involves ciliary body vascular modulation secondarily affecting accommodation-related structures.
+الارتباط الآلي المحتمل بالحَول الداخلي غير مباشر وتخميني. تشارك إشارة VEGF في النمو الجنيني للنوى الحركية العينية وفي تعريق العضلات خارج العينية. علاوة على ذلك، تم ربط الحقن داخل الزجاجي لمضادات VEGF المستخدمة في اعتلال الشبكية الناجم عن الخداج (ROP) بتغييرات في حدوث الحَول في الدراسات المتابعة — لكن ما إذا كان هذا التأثير وقائياً أو سببياً يبقى دون حل. يتضمن المسار الثالث والأضعف تعديل أوعية الجسم الهدبي بشكل ثانوي يؤثر على الهياكل المتعلقة بالمطاوعة البصرية.
 
-Despite these indirect connections, there is currently no established causal mechanism by which VEGF inhibition corrects ocular misalignment in esotropia. The high TxGNN score (0.994) most likely reflects non-specific proximity within the ophthalmology node cluster of the knowledge graph rather than a genuine pharmacological relationship. This prediction should be treated as a hypothesis-generating signal only.
+على الرغم من هذه الاتصالات غير المباشرة، لا توجد حالياً آلية سببية معروفة يمكن بها لتثبيط VEGF أن يصحح سوء المحاذاة العينية في الحَول الداخلي. يعكس درجة TxGNN العالية (0.994) على الأرجح القرب غير المحدد داخل تجمع عقدة طب العيون في الرسم البياني المعرفي وليس علاقة صيدلانية حقيقية. يجب التعامل مع هذا التنبؤ كإشارة توليد فرضيات فقط.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد حالياً أي تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد حالياً أي أدبيات ذات صلة متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى إدراج العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-There is no clinical trial or published literature evidence supporting the use of aflibercept in esotropia, and the mechanistic link is indirect at best. The TxGNN high score most likely reflects knowledge graph topology rather than true pharmacological relevance to ocular misalignment.
+**المنطق:**
+لا يوجد دليل من التجارب السريرية أو الأدبيات المنشورة يدعم استخدام aflibercept في الحَول الداخلي، والارتباط الآلي غير مباشر في أحسن الأحوال. تعكس درجة TxGNN العالية على الأرجح الطوبولوجيا لرسم المعرفة البياني وليس الصلة الصيدلانية الحقيقية بسوء المحاذاة العينية.
 
-**To proceed, the following is needed:**
-- Retrieve Taiwan package insert / TFDA label to establish a safety baseline (currently a Blocking data gap — DG001)
-- Retrieve complete MOA data from DrugBank (currently a High-severity data gap — DG002)
-- Conduct a targeted literature review on anti-VEGF exposure and strabismus outcomes in ROP patient cohorts as the closest available proxy evidence
-- Obtain preclinical evidence demonstrating a VEGF-dependent pathway in esotropia pathogenesis before further investment
-- Obtain clinical expert opinion from a strabismus/pediatric ophthalmology specialist to assess biological plausibility
+**لكي نمضي قدماً، يلزم التالي:**
+- استرجاع نشرة تايوان / تسمية TFDA لتحديد خط أساس السلامة (حالياً فجوة بيانات حجب — DG001)
+- استرجاع بيانات آلية العمل الكاملة من DrugBank (حالياً فجوة بيانات عالية الخطورة — DG002)
+- إجراء مراجعة أدبية موجهة حول التعرض لمضادات VEGF ونتائج الحَول في مجموعات مرضى ROP كأقرب دليل بديل متاح
+- الحصول على دليل طليعة يوضح مسار معتمد على VEGF في الفسيولوجيا المرضية للحَول الداخلي قبل استثمار إضافي
+- الحصول على رأي خبير سريري من متخصص في الحَول/طب العيون الأطفال لتقييم المعقولية البيولوجية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,107 +29,108 @@ indication_count: 10
 
 </div>
 
-# Celecoxib: From Inflammatory Arthritis to Inflammatory Spondylopathy
+# السيليكوكسيب: من التهاب المفاصل الالتهابي إلى اعتلال الفقار الالتهابي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Celecoxib is a selective COX-2 inhibitor with established use globally for inflammatory arthritis conditions (osteoarthritis, rheumatoid arthritis, and ankylosing spondylitis), though it currently holds no market authorisation in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Inflammatory Spondylopathy** — a broad category encompassing ankylosing spondylitis and axial spondyloarthritis — with **19 clinical trials** and **20 publications** supporting this direction, reaching the highest evidence grade (L1) in this evaluation.
-This is the strongest actionable signal from the current prediction set; all other top-ranked predictions carry L5 evidence and a Hold decision.
+السيليكوكسيب هو مثبط انتقائي لـ COX-2 له استخدام موثق عالمياً لحالات التهاب المفاصل الالتهابي (الفصال العظمي والتهاب المفاصل الروماتويدي والتهاب الفقار اللاصق)، على الرغم من عدم حصوله حالياً على ترخيص تسويقي في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اعتلال الفقار الالتهابي** — فئة واسعة تشمل التهاب الفقار اللاصق واعتلال الفقار المحوري — مع **19 تجربة سريرية** و **20 منشور** يدعم هذا الاتجاه، مما يصل إلى أعلى درجة دليل (L1) في هذا التقييم.
+هذا هو أقوى إشارة قابلة للتنفيذ من مجموعة التنبؤات الحالية؛ جميع التنبؤات الأخرى ذات الترتيب الأعلى تحمل دليلاً من L5 وقرار انتظار.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No approved indication on record in Saudi Arabia |
-| Predicted New Indication | Inflammatory Spondylopathy |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | لا يوجد مؤشر معتمد في السجلات في المملكة العربية السعودية |
+| المؤشر الجديد المتوقع | اعتلال الفقار الالتهابي |
+| درجة التنبؤ من TxGNN | 99.80% |
+| مستوى الدليل | L1 |
+| حالة سوق المملكة العربية السعودية | غير معروضة في السوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not captured in this Evidence Pack. Based on well-established pharmacology, celecoxib is a selective cyclooxygenase-2 (COX-2) inhibitor that blocks prostaglandin synthesis at sites of inflammation without meaningfully inhibiting the constitutively expressed COX-1 isoform. This selectivity produces anti-inflammatory and analgesic effects while substantially reducing the upper gastrointestinal toxicity associated with non-selective NSAIDs — a key differentiator in chronic inflammatory disease management.
+حالياً، بيانات آلية العمل التفصيلية لا تُسجل في حزمة الأدلة هذه. بناءً على الصيدلة الموثوقة والمعروفة، السيليكوكسيب هو مثبط cyclooxygenase-2 (COX-2) انتقائي يمنع تخليق البروستاجلاندين في مواقع الالتهاب دون تثبيط يذكر لـ COX-1 المعبر عنه بشكل تأسيسي. ينتج عن هذا الانتقائية تأثيرات مضادة للالتهاب ومسكنة في حين يقلل بشكل جوهري من سمية الجهاز الهضمي العلوي المرتبطة بمضادات الالتهاب غير الستيرويدية غير الانتقائية — وهو فرق رئيسي في إدارة الأمراض الالتهابية المزمنة.
 
-Inflammatory spondylopathy — including ankylosing spondylitis (AS) and axial spondyloarthritis (axSpA) — is mechanistically driven by COX-2-mediated prostaglandin overproduction, which sustains periarticular inflammation, sacroiliac joint enthesitis, and the progressive vertebral ligament ossification that leads to ankylosis. NSAIDs are the established first-line pharmacological treatment for this disease class, and celecoxib has been studied in this context across multiple completed Phase 3 and Phase 4 randomised controlled trials in thousands of patients.
+يُدفع اعتلال الفقار الالتهابي — بما في ذلك التهاب الفقار اللاصق (AS) واعتلال الفقار المحوري (axSpA) — ميكانيكياً بإنتاج البروستاجلاندين الذي يوسطه COX-2 بشكل مفرط، والذي يستمر في الالتهاب حول المفصلي، والتهاب موضع الارتباط بالمفصل العجزي الحرقفي، والتعظم التدريجي للرباط الفقري الذي يؤدي إلى التصلب. مضادات الالتهاب غير الستيرويدية هي العلاج الدوائي من الخط الأول الموثق لهذه الفئة المرضية، وتمت دراسة السيليكوكسيب في هذا السياق عبر تجارب عشوائية منضبطة مكتملة من المرحلة 3 و4 في آلاف المرضى.
 
-What elevates this prediction beyond standard NSAID repositioning is a 2025 systematic review and meta-analysis (PMID 39757202) that identifies celecoxib as the **only NSAID** capable of inhibiting radiographic bone progression in spondyloarthritis — an effect distinct from its prostaglandin-blocking activity and possibly mediated by COX-2-specific signalling in osteoblast differentiation. This structural protective potential substantially strengthens the mechanistic and clinical rationale, positioning celecoxib not merely as a symptomatic agent but as a potential disease-modifier in inflammatory spondylopathy.
+ما يرفع هذا التنبؤ فوق إعادة تموضع مضادات الالتهاب غير الستيرويدية القياسية هو مراجعة منهجية وتحليل إجمالي من عام 2025 (PMID 39757202) تحدد السيليكوكسيب باعتباره **مضاد الالتهاب غير الستيرويدي الوحيد** القادر على منع التقدم الإشعاعي للعظام في اعتلال الفقار — وهو تأثير متميز عن نشاطه في تثبيط البروستاجلاندين وربما يتم توسيطه بواسطة إشارات COX-2 المحددة في تمايز الخلايا البانية للعظام. يعزز هذا الإمكانية الحماية الهيكلية بشكل جوهري الأساس الميكانيكي والسريري، مما يضع السيليكوكسيب ليس مجرد عامل أعراضي بل كعامل محتمل لتعديل المرض في اعتلال الفقار الالتهابي.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Ten trials selected from 19 retrieved; prioritised by direct celecoxib involvement and completed Phase 3–4 design.
+تم اختيار عشر تجارب من 19 تجربة تم استردادها؛ تم أولويتها حسب المشاركة المباشرة للسيليكوكسيب وتصميم المرحلة 3–4 المكتملة.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الانتساب | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00648141](https://clinicaltrials.gov/study/NCT00648141) | Phase 3 | Completed | 458 | Landmark dose-comparison RCT: celecoxib 200 mg QD vs 200 mg BID vs diclofenac over 12 weeks in AS; established relative dosing and non-inferiority to diclofenac |
-| [NCT00762463](https://clinicaltrials.gov/study/NCT00762463) | Phase 3 | Completed | 240 | Multicenter double-blind RCT in Chinese AS patients: celecoxib vs diclofenac SR with 6-week extension at 400 mg; demonstrated efficacy and safety in Asian population |
-| [NCT02528201](https://clinicaltrials.gov/study/NCT02528201) | Phase 4 | Completed | 330 | Confirmatory RCT: celecoxib 200 mg QD vs 400 mg QD vs diclofenac TID in AS over 12 weeks; confirmed results from prior 6-week trial |
-| [NCT01934933](https://clinicaltrials.gov/study/NCT01934933) | Phase 4 | Completed | 150 | Multicenter open-label RCT: celecoxib alone vs etanercept alone vs combination in active AS over 54 weeks; used MRI SPARCC sacroiliac joint scoring as primary endpoint |
-| [NCT02758782](https://clinicaltrials.gov/study/NCT02758782) | Phase 4 | Completed | 156 | CONSUL trial: celecoxib added to golimumab vs golimumab alone in r-axSpA over 2 years; evaluated NSAIDs' contribution to structural spinal protection under anti-TNF therapy |
-| [NCT03190603](https://clinicaltrials.gov/study/NCT03190603) | Phase 4 | Completed | 12 | Pilot study examining NSAID effects on MRI-detected inflammatory lesions in axial SpA; biological activity confirmation |
-| [NCT04115098](https://clinicaltrials.gov/study/NCT04115098) | Phase 2 | Terminated | 42 | N-of-1 trials comparing selective COX-2 vs non-selective COX inhibitors in axSpA; assessed disease activity and HRQoL; terminated before target enrolment |
-| [NCT03473665](https://clinicaltrials.gov/study/NCT03473665) | Phase 4 | Terminated | 9 | Double-blind 6-week head-to-head comparison of 4 NSAIDs in axial SpA; terminated early due to low enrolment |
-| [NCT01572675](https://clinicaltrials.gov/study/NCT01572675) | N/A | Completed | 547 | Post-marketing real-world study of etoricoxib and celecoxib use patterns in routine rheumatology practice in France |
-| [NCT02355236](https://clinicaltrials.gov/study/NCT02355236) | Phase 4 | Unknown | 106 | Naxozol vs celecoxib in OA/RA/AS: celecoxib used as active comparator for gastro-protection and pain relief benchmarking |
+| [NCT00648141](https://clinicaltrials.gov/study/NCT00648141) | المرحلة 3 | مكتملة | 458 | تجربة عشوائية منضبطة لمقارنة الجرعات: السيليكوكسيب 200 ملغ مرة يومياً مقابل 200 ملغ مرتين يومياً مقابل الديكلوفيناك على مدار 12 أسبوع في التهاب الفقار اللاصق؛ حددت نسبة الجرعات النسبية وعدم الدنوية للديكلوفيناك |
+| [NCT00762463](https://clinicaltrials.gov/study/NCT00762463) | المرحلة 3 | مكتملة | 240 | تجربة عشوائية منضبطة مركزية متعددة في مرضى التهاب الفقار اللاصق الصينيين: السيليكوكسيب مقابل الديكلوفيناك SR مع امتداد 6 أسابيع عند 400 ملغ؛ أظهرت الفعالية والسلامة في السكان الآسيويين |
+| [NCT02528201](https://clinicaltrials.gov/study/NCT02528201) | المرحلة 4 | مكتملة | 330 | تجربة تأكيدية عشوائية: السيليكوكسيب 200 ملغ مرة يومياً مقابل 400 ملغ مرة يومياً مقابل الديكلوفيناك ثلاث مرات يومياً في التهاب الفقار اللاصق على مدار 12 أسبوع؛ أكدت النتائج من تجربة 6 أسابيع السابقة |
+| [NCT01934933](https://clinicaltrials.gov/study/NCT01934933) | المرحلة 4 | مكتملة | 150 | تجربة عشوائية مركزية متعددة مفتوحة: السيليكوكسيب وحده مقابل الـ etanercept وحده مقابل الجمع في التهاب الفقار اللاصق النشط على مدار 54 أسبوع؛ استخدمت درجات المفصل العجزي الحرقفي بـ MRI SPARCC كنقطة نهاية أولية |
+| [NCT02758782](https://clinicaltrials.gov/study/NCT02758782) | المرحلة 4 | مكتملة | 156 | تجربة CONSUL: السيليكوكسيب مضاف إلى golimumab مقابل golimumab وحده في اعتلال الفقار المحوري المقاوم على مدار سنتين؛ قيمت مساهمة مضادات الالتهاب غير الستيرويدية في حماية العمود الفقري الهيكلية تحت العلاج المضاد لـ TNF |
+| [NCT03190603](https://clinicaltrials.gov/study/NCT03190603) | المرحلة 4 | مكتملة | 12 | دراسة تجريبية تفحص تأثيرات مضادات الالتهاب غير الستيرويدية على الآفات الالتهابية المكتشفة بـ MRI في اعتلال الفقار المحوري؛ تأكيد النشاط البيولوجي |
+| [NCT04115098](https://clinicaltrials.gov/study/NCT04115098) | المرحلة 2 | توقفت | 42 | تجارب N-of-1 تقارن مثبطات COX-2 الانتقائية مقابل مثبطات COX غير الانتقائية في اعتلال الفقار المحوري؛ قيمت نشاط المرض وجودة الحياة المتعلقة بالصحة؛ توقفت قبل هدف الانتساب |
+| [NCT03473665](https://clinicaltrials.gov/study/NCT03473665) | المرحلة 4 | توقفت | 9 | مقارنة مغمية مدتها 6 أسابيع لـ 4 مضادات التهاب غير ستيرويدية في اعتلال الفقار المحوري؛ توقفت مبكراً بسبب انخفاض الانتساب |
+| [NCT01572675](https://clinicaltrials.gov/study/NCT01572675) | N/A | مكتملة | 547 | دراسة ما بعد التسويق من العالم الحقيقي لأنماط استخدام الـ etoricoxib والسيليكوكسيب في الممارسة الروماتيزمية الروتينية في فرنسا |
+| [NCT02355236](https://clinicaltrials.gov/study/NCT02355236) | المرحلة 4 | غير معروف | 106 | Naxozol مقابل السيليكوكسيب في الفصال العظمي/التهاب المفاصل الروماتويدي/التهاب الفقار اللاصق: السيليكوكسيب المستخدم كمقارن نشط لحماية الجهاز الهضمي ومعايير تخفيف الألم |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Ten publications selected from 20 retrieved; prioritised by study type (RCT / meta-analysis > cohort > review).
+تم اختيار عشر منشورات من 20 منشور تم استردادها؛ تم أولويتها حسب نوع الدراسة (RCT / التحليل الإجمالي > دراسة الأتراب > المراجعة).
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [39757202](https://pubmed.ncbi.nlm.nih.gov/39757202/) | 2025 | Systematic Review / Meta-analysis | BMB Reports | Celecoxib identified as the **only NSAID** to inhibit radiographic bone progression in SpA; proposed COX-2-specific mechanism independent of prostaglandin suppression |
-| [40911151](https://pubmed.ncbi.nlm.nih.gov/40911151/) | 2025 | Umbrella Review | Drugs | Comprehensive synthesis of meta-analyses on celecoxib safety in chronic musculoskeletal conditions; supports a favourable cardiovascular and GI risk profile at recommended doses |
-| [36800138](https://pubmed.ncbi.nlm.nih.gov/36800138/) | 2023 | RCT (Head-to-head) | Clinical Rheumatology | Imrecoxib vs celecoxib in axSpA: both agents reduced sacroiliac joint inflammation; changes in bone metabolism and angiogenesis markers correlated with clinical response |
-| [38228361](https://pubmed.ncbi.nlm.nih.gov/38228361/) | 2024 | RCT (CONSUL Trial) | Annals of the Rheumatic Diseases | Adding celecoxib to golimumab did not significantly reduce radiographic spinal progression vs golimumab alone over 2 years in r-axSpA; important for patient selection in combination therapy |
-| [28626213](https://pubmed.ncbi.nlm.nih.gov/28626213/) | 2017 | RCT | Medical Science Monitor | Randomised comparison of imrecoxib vs celecoxib in axSpA; both effective; serum DKK-1 levels correlated with imaging SPARCC scores, highlighting biomarker potential |
-| [16960941](https://pubmed.ncbi.nlm.nih.gov/16960941/) | 2006 | RCT | Journal of Rheumatology | Foundational RCT establishing celecoxib efficacy and tolerability in AS; formed basis for regulatory approvals in AS across multiple markets |
-| [40028763](https://pubmed.ncbi.nlm.nih.gov/40028763/) | 2025 | Comparative Cohort / RWE | Scandinavian Journal of Rheumatology | Nationwide retrospective cohort in Korea: cardiovascular and GI bleeding risk comparable between celecoxib and nsNSAIDs in AS patients |
-| [32955700](https://pubmed.ncbi.nlm.nih.gov/32955700/) | 2021 | Biomarker Cohort | Irish Journal of Medical Science | IL-1β, IL-6, and IL-17A as predictive biomarkers for clinical response to celecoxib in AS; potential for precision patient selection |
-| [25623277](https://pubmed.ncbi.nlm.nih.gov/25623277/) | 2016 | Case-Control / RWE | Medicine | Taiwan NHI database study (n = 4,829 AS patients): celecoxib and sulfasalazine associated with reduced risk of coronary artery disease in AS |
-| [22141388](https://pubmed.ncbi.nlm.nih.gov/22141388/) | 2011 | Review | Drugs | Comprehensive clinical review of celecoxib for OA, RA, and AS; remains the most-cited overview of celecoxib's evidence base across inflammatory arthropathies |
+| [39757202](https://pubmed.ncbi.nlm.nih.gov/39757202/) | 2025 | مراجعة منهجية / تحليل إجمالي | BMB Reports | تم تحديد السيليكوكسيب باعتباره **مضاد الالتهاب غير الستيرويدي الوحيد** لمنع التقدم الإشعاعي للعظام في اعتلال الفقار؛ آلية مقترحة خاصة بـ COX-2 مستقلة عن قمع البروستاجلاندين |
+| [40911151](https://pubmed.ncbi.nlm.nih.gov/40911151/) | 2025 | مراجعة شاملة | Drugs | تركيب شامل لتحليلات إجمالية على سلامة السيليكوكسيب في حالات اضطرابات العضلات والهيكل العظمي المزمنة؛ يدعم ملف تعريف مخاطر القلب والجهاز الهضمي المواتي عند الجرعات الموصى بها |
+| [36800138](https://pubmed.ncbi.nlm.nih.gov/36800138/) | 2023 | RCT (مقارنة رأس برأس) | Clinical Rheumatology | Imrecoxib مقابل السيليكوكسيب في اعتلال الفقار المحوري: كلا العاملين قللا الالتهاب بالمفصل العجزي الحرقفي؛ ارتباط التغييرات في علامات استقلاب العظام والتوعية بالاستجابة السريرية |
+| [38228361](https://pubmed.ncbi.nlm.nih.gov/38228361/) | 2024 | RCT (تجربة CONSUL) | Annals of the Rheumatic Diseases | إضافة السيليكوكسيب إلى golimumab لم تقلل بشكل ملحوظ التقدم الإشعاعي للعمود الفقري مقابل golimumab وحده على مدار سنتين في اعتلال الفقار المحوري المقاوم؛ مهم لاختيار المرضى في العلاج بالمشاركة |
+| [28626213](https://pubmed.ncbi.nlm.nih.gov/28626213/) | 2017 | RCT | Medical Science Monitor | مقارنة عشوائية من imrecoxib مقابل السيليكوكسيب في اعتلال الفقار المحوري؛ كلاهما فعال؛ ارتبطت مستويات DKK-1 في المصل بدرجات SPARCC للتصوير، مما يسلط الضوء على إمكانية العلامة الحيوية |
+| [16960941](https://pubmed.ncbi.nlm.nih.gov/16960941/) | 2006 | RCT | Journal of Rheumatology | RCT تأسيسي أثبت فعالية السيليكوكسيب والتحمل في التهاب الفقار اللاصق؛ شكل أساس الموافقات التنظيمية في التهاب الفقار اللاصق عبر أسواق متعددة |
+| [40028763](https://pubmed.ncbi.nlm.nih.gov/40028763/) | 2025 | دراسة أتراب مقارنة / RWE | Scandinavian Journal of Rheumatology | دراسة أتراب بأثر رجعي على الصعيد الوطني في كوريا: مخاطر القلب والنزيف المعدي المعوي مماثلة بين السيليكوكسيب ومضادات الالتهاب غير الستيرويدية غير الانتقائية في مرضى التهاب الفقار اللاصق |
+| [32955700](https://pubmed.ncbi.nlm.nih.gov/32955700/) | 2021 | دراسة علامة حيوية | Irish Journal of Medical Science | IL-1β و IL-6 و IL-17A كعلامات حيوية متنبئة للاستجابة السريرية للسيليكوكسيب في التهاب الفقار اللاصق؛ إمكانية اختيار دقيق للمرضى |
+| [25623277](https://pubmed.ncbi.nlm.nih.gov/25623277/) | 2016 | دراسة حالة-تحكم / RWE | Medicine | دراسة قاعدة البيانات الوطنية للتأمين الصحي في تايوان (n = 4،829 مريض التهاب فقار لاصق): السيليكوكسيب والسلفاسالازين مرتبطان بانخفاض خطر أمراض الشرايين التاجية في التهاب الفقار اللاصق |
+| [22141388](https://pubmed.ncbi.nlm.nih.gov/22141388/) | 2011 | مراجعة | Drugs | مراجعة سريرية شاملة للسيليكوكسيب في الفصال العظمي والتهاب المفاصل الروماتويدي والتهاب الفقار اللاصق؛ تبقى النظرة العامة الأكثر استشهاداً لقاعدة أدلة السيليكوكسيب عبر أمراض المفاصل الالتهابية |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Celecoxib currently holds **no market authorisation** in Saudi Arabia. No approved product licences, dosage forms, or indication records are on file in this database. Note that celecoxib (Celebrex®) is approved in multiple other jurisdictions (USA, EU, Japan, Taiwan) for osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, acute pain, and primary dysmenorrhoea.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> **Note:** Key warnings, contraindications, and drug-drug interaction data were not available in this Evidence Pack. Given that celecoxib is a COX-2 selective inhibitor, prescribers should be aware of the well-known class effects (cardiovascular risk at high doses/prolonged use, renal function monitoring, sulfonamide allergy cross-reactivity) until a formal pharmacovigilance dossier is compiled for the Saudi Arabia submission.
+السيليكوكسيب حالياً يحمل **عدم وجود ترخيص تسويقي** في المملكة العربية السعودية. لا توجد تراخيص منتجات معتمدة أو أشكال جرعات أو سجلات مؤشرات في هذه قاعدة البيانات. لاحظ أن السيليكوكسيب (Celebrex®) معتمد في عدة اختصاصات قضائية أخرى (الولايات المتحدة والاتحاد الأوروبي واليابان وتايوان) للفصال العظمي والتهاب المفاصل الروماتويدي والتهاب الفقار اللاصق والألم الحاد وعسر الطمث الأساسي.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة الطبية للحصول على معلومات السلامة.
 
-**Rationale:**
-Multiple completed Phase 3 and Phase 4 RCTs demonstrate celecoxib's efficacy and safety in ankylosing spondylitis and axial spondyloarthritis — the core conditions within inflammatory spondylopathy — and a 2025 meta-analysis uniquely positions celecoxib as the only NSAID with structural bone-protective effects in this disease class, supporting disease-modifying potential beyond symptomatic relief.
+> **ملاحظة:** لم تكن بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية متاحة في حزمة الأدلة هذه. بالنظر إلى أن السيليكوكسيب هو مثبط COX-2 الانتقائي، يجب أن يكون الصيادلة على دراية بتأثيرات الفئة المعروفة جيداً (خطر القلب عند الجرعات العالية / الاستخدام المطول، ومراقبة وظائف الكلى، وتقاطع الحساسية من السلفوناميد) حتى يتم تجميع ملف صيدلة التيقظ الرسمي لتقديم المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
+---
 
-- **Regulatory pathway**: Initiate Saudi SFDA market authorisation application; leverage existing approvals in the EU/US/Japan as reference
-- **Safety dossier**: Compile formal warning and contraindication data (cardiovascular, renal, sulfonamide hypersensitivity) from the approved package insert for inclusion in evaluation
-- **MOA documentation**: Obtain full pharmacological profile from DrugBank (COX-2 selectivity ratio, PK/PD parameters) to complete mechanistic link analysis
-- **Patient stratification plan**: Define selection criteria by axSpA subtype (radiographic vs non-radiographic), cardiovascular risk profile, and prior NSAID failure status
-- **Combination therapy guidance**: Clarify the role of celecoxib alongside TNF inhibitors in light of CONSUL trial results (structural protection benefit was not demonstrated in combination)
-- **Local epidemiology**: Assess prevalence of inflammatory spondylopathy in Saudi Arabia to estimate patient population and health economic impact
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**المنطق:**
+أثبتت عدة تجارب عشوائية منضبطة من المرحلة 3 و4 فعالية السيليكوكسيب وسلامته في التهاب الفقار اللاصق واعتلال الفقار المحوري — الحالات الأساسية داخل اعتلال الفقار الالتهابي — وضع تحليل إجمالي من عام 2025 السيليكوكسيب بشكل فريد باعتباره مضاد الالتهاب غير الستيرويدي الوحيد مع تأثيرات حماية العظام الهيكلية في هذه الفئة المرضية، مما يدعم إمكانية تعديل المرض تتجاوز التخفيف من الأعراض.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **المسار التنظيمي**: بدء طلب ترخيص تسويقي لـ SFDA بالمملكة العربية السعودية؛ الاستفادة من الموافقات الموجودة في الاتحاد الأوروبي/الولايات المتحدة/اليابان كمرجعية
+- **ملف السلامة**: جمع بيانات التحذير والموانع الرسمية (القلب والأوعية الدموية والكلى وفرط حساسية السلفوناميد) من النشرة الطبية المعتمدة للإدراج في التقييم
+- **توثيق آلية العمل**: الحصول على ملف الصيدلة الكامل من DrugBank (نسبة انتقائية COX-2، معاملات PK/PD) لإكمال تحليل ربط الآليات
+- **خطة تطبيق المريض**: تحديد معايير الاختيار حسب النوع الفرعي لاعتلال الفقار المحوري (الإشعاعي مقابل غير الإشعاعي) وملف المخاطر القلبية الوعائية وحالة فشل مضادات الالتهاب غير الستيرويدية السابقة
+- **إرشادات العلاج بالمشاركة**: توضيح دور السيليكوكسيب جنباً إلى جنب مع مثبطات TNF في ضوء نتائج تجربة CONSUL (لم يتم إثبات فائدة الحماية الهيكلية في المشاركة)
+- **الأوبئة المحلية**: تقييم انتشار اعتلال الفقار الالتهابي في المملكة العربية السعودية لتقدير السكان من المرضى والتأثير الاقتصادي الصحي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

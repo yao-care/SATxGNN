@@ -29,71 +29,72 @@ indication_count: 10
 
 </div>
 
-# Isosorbide Dinitrate: From Angina Pectoris to Alopecia
+# ثنائي نترات إيزوسوربيد: من الذبحة الصدرية إلى داء الثعلبة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Isosorbide dinitrate is an organic nitrate (NO donor) vasodilator whose established clinical role — evident from its trial history in this Evidence Pack — is coronary artery disease/angina pectoris and heart failure. The TxGNN model's top-ranked prediction for this drug is **Alopecia**, but this direction currently has **0 clinical trials** and **0 publications** supporting it, and the mechanistic rationale is unconfirmed extrapolation rather than documented evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Angina Pectoris / Coronary Artery Disease (established vasodilator use — inferred from trial evidence in this pack; not sourced from a formal label, see note below) |
-| Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-**Note on Original Indication:** The Evidence Pack's `original_indications` and `taiwan_regulatory.licenses` fields are both empty (drug not marketed in this jurisdiction, and DG001 flags TFDA/SFDA label data as a Blocking gap). The angina/coronary artery disease use stated above is drawn from other parts of this same Evidence Pack (the rank-6 "vascular disease" candidate's trial and literature evidence), not from a formal regulatory source — it should be independently verified before use in any regulatory-facing document.
+ثنائي نترات إيزوسوربيد (isosorbide dinitrate) هو مركب نترات عضوي (مانح أكسيد النيتريك) موسع للأوعية الدموية يتجلى دوره السريري الراسخ — وهو واضح من تاريخ التجارب السريرية في حزمة الأدلة هذه — في أمراض الشرايين التاجية/الذبحة الصدرية والقصور القلبي. التنبؤ الأفضل تصنيفاً من نموذج TxGNN لهذا الدواء هو **داء الثعلبة**، لكن هذا الاتجاه يفتقد حالياً إلى **0 تجربة سريرية** و**0 منشورات** تدعمه، والمبرر الآلي هو استقراء غير مؤكد بدلاً من دليل موثق.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism of action data (`original_moa`) is flagged as a Data Gap (DG002) in this pack. However, other candidates within the same bundle document that isosorbide dinitrate is a nitric oxide (NO) donor that relaxes vascular smooth muscle via the cGMP pathway — the classical pharmacological basis for its use in coronary artery disease and angina pectoris (see the rank-6 "vascular disease" rationale, supported by a completed Phase 3 trial).
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | الذبحة الصدرية / أمراض الشرايين التاجية (استخدام موسع للأوعية راسخ — استدلال من أدلة التجارب في حزمة الأدلة هذه؛ غير مستمد من ملصق تنظيمي رسمي، انظر الملاحظة أدناه) |
+| المؤشر الجديد المتنبأ به | داء الثعلبة |
+| درجة تنبؤ TxGNN | 99.99% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مُسَوّق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
-For the alopecia prediction specifically, the proposed mechanism is that vasodilation could theoretically increase follicular blood flow, by loose analogy to minoxidil (a different vasodilator with an established topical hair-growth indication). This is a plausible-sounding but **unverified** hypothesis — there is no clinical or preclinical data in this pack testing isosorbide dinitrate for hair growth.
-
-A notable caution: this same TxGNN run also ranks three other hair-related conditions highly for this drug — congenital hypotrichosis milia (rank 2), hypotrichosis simplex of the scalp (rank 3), diffuse alopecia areata (rank 5), and even the *opposite* phenotype, hypertrichosis (rank 7). All carry zero supporting evidence. This clustering pattern is more consistent with a "hair-related disease" artifact in the model's embedding space than with a genuine, differentiated pharmacological signal — a concern the Evidence Pack's own rationale text for the hypertrichosis candidate raises explicitly.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
+**ملاحظة على المؤشر الأصلي:** حقول `original_indications` و`taiwan_regulatory.licenses` في حزمة الأدلة فارغة (الدواء غير مسوق في هذا الاختصاص القضائي، و DG001 تشير إلى أن بيانات ملصق TFDA/SFDA تمثل فجوة حجب). استخدام الذبحة الصدرية/أمراض الشرايين التاجية المذكور أعلاه مستمد من أجزاء أخرى من نفس حزمة الأدلة (أدلة التجارب والدراسات الأدبية لمرشح "أمراض الأوعية الدموية" ذي الترتيب 6)، وليس من مصدر تنظيمي رسمي — يجب التحقق المستقل منه قبل الاستخدام في أي وثيقة موجهة للسلطات التنظيمية.
 
 ---
 
-## Safety Considerations
+## لماذا هذا التنبؤ معقول؟
 
-Please refer to the package insert for safety information.
+بيانات آلية العمل التفصيلية (`original_moa`) معلمة كفجوة في البيانات (DG002) في حزمة الأدلة هذه. ومع ذلك، تتناول مرشحات أخرى ضمن نفس الحزمة حقيقة أن ثنائي نترات إيزوسوربيد هو مانح أكسيد النيتريك الذي يرخي عضلات الأوعية الدموية الملساء عبر مسار cGMP — الأساس الدوائي الكلاسيكي لاستخدامه في أمراض الشرايين التاجية والذبحة الصدرية (انظر مبرر "أمراض الأوعية الدموية" ذي الترتيب 6، المدعوم بتجربة المرحلة 3 المكتملة).
+
+بخصوص تنبؤ داء الثعلبة على وجه التحديد، الآلية المقترحة هي أن التوسع الوعائي قد يزيد نظرياً من تدفق الدم إلى الجريبات، بقياس فضفاض على المينوكسيديل (موسع أوعية مختلف له مؤشر نمو الشعر الموضعي الراسخ). هذه فرضية **غير مؤكدة** تبدو معقولة — لا توجد بيانات سريرية أو ما قبل سريرية في حزمة الأدلة هذه تختبر ثنائي نترات إيزوسوربيد لنمو الشعر.
+
+تحذير جدير بالملاحظة: تصنف نفس تشغيلة TxGNN هذه أيضاً ثلاث حالات أخرى متعلقة بالشعر بدرجة عالية لهذا الدواء — نقص الشعر الخلقي المصحوب بالدُّخنيات (الترتيب 2)، نقص الشعر البسيط في فروة الرأس (الترتيب 3)، داء الثعلبة المنتشر (الترتيب 5)، وحتى الظاهرة **المعاكسة**، فرط الشعر (الترتيب 7). جميعها تحمل 0 دليل داعم. هذا نمط تجمع أكثر توافقاً مع جسم "أمراض متعلقة بالشعر" في فضاء الدمج الخاص بالنموذج بدلاً من إشارة دوائية حقيقية ومتمايزة — وهو القلق الذي يثيره نص مبرر حزمة الأدلة الخاص به لمرشح فرط الشعر صراحة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-**Rationale:**
-The alopecia prediction has zero clinical trials, zero publications, and a mechanistic link that is speculative analogy rather than tested pharmacology (L5, S0). It also co-occurs with a cluster of other unsupported hair-disease predictions for the same drug, raising the possibility of model noise rather than true signal.
+---
 
-**To proceed, the following is needed:**
-- Preclinical evidence (e.g., follicular blood flow / dermal penetration studies) testing whether systemic or topical isosorbide dinitrate has any effect on hair growth, before any clinical hypothesis is credible
-- Resolution of DG001 (TFDA/SFDA label warnings/contraindications) and DG002 (MOA documentation), both currently blocking/high-severity gaps
-- Clarification of whether the "hair-related disease" cluster in this drug's TxGNN output reflects a real biological signal or an embedding-space artifact, before investing further in any candidate in that cluster
+## أدلة الأدب الطبي
 
-**Separately worth flagging:** within this same bundle, the rank-6 "vascular disease" candidate has materially stronger evidence — a completed Phase 3 trial (ACIP) plus multiple RCTs/cohort studies, evidence level L1, decision stage S3, recommendation "Proceed with Guardrails" — consistent with isosorbide dinitrate's known antianginal/vasodilator pharmacology. If the goal is to identify a viable repurposing candidate for this drug rather than to evaluate the single top TxGNN score, that candidate warrants review ahead of alopecia.
+لا توجد منشورات ذات صلة متاحة حالياً
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المبرر:**
+تنبؤ داء الثعلبة يفتقر إلى 0 تجارب سريرية و 0 منشورات وارتباط ميكانيكي هو قياس تخمين بدلاً من دوائيات مختبرة (L5, S0). وهو أيضاً يحدث مع مجموعة من تنبؤات أمراض الشعر الأخرى غير المدعومة لنفس الدواء، مما يثير احتمال ضوضاء النموذج بدلاً من إشارة حقيقية.
+
+**للمتابعة، يلزم ما يلي:**
+- أدلة ما قبل سريرية (مثل دراسات تدفق الدم الجريبي / التغلغل الجلدي) تختبر ما إذا كان ثنائي نترات إيزوسوربيد الجهازي أو الموضعي له أي تأثير على نمو الشعر، قبل أن تصبح أي فرضية سريرية موثوقة
+- حل DG001 (تحذيرات ملصق TFDA/SFDA / موانع الاستعمال) و DG002 (توثيق آلية العمل)، وكلاهما يمثل حالياً فجوات حجب/ذات أولوية عالية
+- توضيح ما إذا كانت مجموعة "أمراض متعلقة بالشعر" في مخرجات TxGNN لهذا الدواء تعكس إشارة بيولوجية حقيقية أو جسم فضاء دمج، قبل الاستثمار الإضافي في أي مرشح في هذه المجموعة
+
+**يستحق التوضيح بشكل منفصل:** ضمن نفس الحزمة، مرشح "أمراض الأوعية الدموية" ذو الترتيب 6 لديه دليل أقوى بشكل ملموس — تجربة المرحلة 3 المكتملة (ACIP) بالإضافة إلى دراسات عشوائية محكومة متعددة/دراسات الأتراب، مستوى الدليل L1، مرحلة القرار S3، التوصية "المتابعة مع حماية" — متسقة مع دوائيات ثنائي نترات إيزوسوربيد المعروفة المضادة للذبحة/موسع الأوعية. إذا كان الهدف تحديد مرشح إعادة توظيف قابل للحياة لهذا الدواء بدلاً من تقييم درجة TxGNN الواحدة الأعلى، فإن ذلك المرشح يستحق المراجعة قبل داء الثعلبة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,117 +29,116 @@ indication_count: 5
 
 </div>
 
-Not applicable — this is a direct report-writing task following the given v5 prompt template, not a pipeline/training/deployment task. Proceeding to generate the report.
+# فورتيوكسيتين (DB09068): من الاضطراب الاكتئابي الكبير إلى اضطرابات طيف الاكتئاب
 
-# Vortioxetine (DB09068): From Major Depressive Disorder to Depressive-Spectrum Indications
+## ملخص جملة واحدة
 
-## One-Sentence Summary
-
-Vortioxetine is a multimodal serotonergic antidepressant already established for major depressive disorder (MDD), based on wording across the trial and literature evidence in this pack. TxGNN identifies five candidate indications along the depressive/neurotic-disorder spectrum, but their evidentiary strength varies enormously: **melancholia** is backed by **6 completed Phase 3 RCTs**, while **benign paroxysmal torticollis of infancy** has **zero trials or literature** and reads as a network-proximity false positive. This is a multi-indication candidate pack (`TW-DB09068-multi`), so the report below covers all five ranked predictions rather than one.
+فورتيوكسيتين هو مضاد اكتئاب متعدد الوسائط السيروتونيني، مثبت بالفعل لعلاج الاضطراب الاكتئابي الكبير (MDD)، بناءً على الصياغة عبر البيانات التجريبية والأدبيات الموجودة في هذه الحزمة. يحدد TxGNN خمس دلالات مرشحة على طول طيف اضطرابات الاكتئاب/العصابية، لكن قوتها الإثباتية تختلف اختلافاً جذرياً: **الكآبة** مدعومة بـ **6 تجارب معشاة محكومة المرحلة الثالثة**، بينما **الالتواء الدوري الحميد للرقبة في الرضع** لا تحتوي على **أي تجارب أو أدبيات** وتبدو كإيجابية كاذبة ناتجة عن القرب في الشبكة. هذه حزمة مرشح متعددة الدلالات (`TW-DB09068-multi`)، لذلك يغطي التقرير أدناه جميع التنبؤات الخمسة المرتبة بدلاً من واحدة فقط.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Major Depressive Disorder (MDD) — inferred from trial/literature descriptions in this pack ("approved for the treatment of major depressive disorder"); no formal `original_indications` entry was returned |
-| Top Predicted New Indication (by TxGNN rank) | Neurotic disorder (score 99.24%, rank #10,899) |
-| Predicted Indication with Strongest Clinical Evidence | Melancholia (score 99.09%, rank #12,607) |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Overall Recommended Decision | Mixed — see per-indication table below |
+| البند | المحتوى |
+|------|--------|
+| الدلالة الأصلية | الاضطراب الاكتئابي الكبير (MDD) — يُستنتج من الصياغة عبر البيانات التجريبية والأدبيات في هذه الحزمة ("معتمد لعلاج الاضطراب الاكتئابي الكبير")؛ لم يتم إرجاع أي إدخال `original_indications` رسمي |
+| أفضل دلالة مرشحة جديدة (حسب تصنيف TxGNN) | اضطراب عصابي (درجة 99.24٪، ترتيب #10,899) |
+| الدلالة المتنبأ بها بأقوى أدلة سريرية | الكآبة (درجة 99.09٪، ترتيب #12,607) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| توصية القرار الشاملة | مختلط — انظر جدول كل دلالة أدناه |
 
-### Per-Indication Breakdown
+### تقسيم حسب الدلالة
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| الترتيب | المرض | درجة TxGNN | مستوى الأدلة | مرحلة القرار | التوصية |
 |---|---|---|---|---|---|
-| 1 | Neurotic disorder | 99.24% | L3 | S1 | Research Question |
-| 2 | Neurotic depression | 99.09% | L2 | S2 | Research Question |
-| 3 | Melancholia | 99.09% | **L1** | S3 | **Proceed with Guardrails** |
-| 4 | Benign paroxysmal torticollis of infancy | 99.07% | L5 | S0 | **Hold** |
-| 5 | Dysthymic disorder | 99.02% | L4 | S1 | Research Question |
+| 1 | اضطراب عصابي | 99.24% | L3 | S1 | سؤال بحثي |
+| 2 | الاكتئاب العصابي | 99.09% | L2 | S2 | سؤال بحثي |
+| 3 | الكآبة | 99.09% | **L1** | S3 | **المضي قدماً مع تدابير الحماية** |
+| 4 | الالتواء الدوري الحميد للرقبة في الرضع | 99.07% | L5 | S0 | **التوقف** |
+| 5 | اضطراب الاكتئاب المستمر | 99.02% | L4 | S1 | سؤال بحثي |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Detailed mechanism-of-action data was not returned in the structured `original_moa` field, but the literature evidence in this pack (PMID 25016186) describes vortioxetine as a multimodal serotonergic agent: a serotonin transporter (SERT) inhibitor, 5-HT3/5-HT7/5-HT1D receptor antagonist, 5-HT1B partial agonist, and 5-HT1A agonist, which together increase serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic, and glutamatergic neurotransmission. This broad monoaminergic profile underlies its established use in MDD.
+لم يتم إرجاع بيانات آلية العمل المفصلة في حقل `original_moa` المنظم، لكن الأدلة الأدبية في هذه الحزمة (PMID 25016186) تصف فورتيوكسيتين كعامل متعدد الوسائط السيروتوني: مثبط ناقل السيروتونين (SERT)، ومضاد 5-HT3/5-HT7/5-HT1D، وناهض جزئي 5-HT1B، وناهض 5-HT1A، والتي معاً تزيد من النقل العصبي السيروتوني والنورأدرينالين والدوبامين والكولين والهيستامين والغلوتامات. يكمن هذا الملف الشامل من أحادي الأمين وراء الاستخدام المثبت للعقار في الاضطراب الاكتئابي الكبير.
 
-The five predicted indications cluster tightly around the depressive/neurotic-disorder spectrum: neurotic disorder and neurotic depression are older (largely ICD-9-era) nosological terms that substantially overlap with what is now classified as non-psychotic MDD or persistent depressive disorder; melancholia is a recognized clinical subtype/severity descriptor of MDD; and dysthymic disorder (persistent depressive disorder) sits on the same mood-disorder spectrum with chronic, lower-amplitude symptoms. Given vortioxetine's already-proven efficacy in MDD, its mechanism plausibly extends across this spectrum — which is consistent with melancholia's evidence being essentially the drug's own pivotal MDD trial program rather than a genuine repurposing scenario.
+تتجمع الدلالات الخمسة المتنبأ بها بإحكام حول طيف اضطرابات الاكتئاب/العصابية: الاضطراب العصابي والاكتئاب العصابي هما مصطلحات تصنيفية أقدم (في الغالب من عصر ICD-9) تتداخل بشكل كبير مع ما يُصنف حالياً على أنه اضطراب اكتئابي كبير غير ذهاني أو اضطراب اكتئابي مستمر؛ الكآبة هي نوع فرعي معترف به سريرياً أو واصف شدة للاضطراب الاكتئابي الكبير؛ واضطراب الاكتئاب المستمر يقع على نفس طيف اضطرابات المزاج مع أعراض مزمنة بسعة أقل. نظراً لأن فورتيوكسيتين يمتلك فعالية مثبتة بالفعل في الاضطراب الاكتئابي الكبير، فإن آليته تمتد معقولياً عبر هذا الطيف — وهو متسق مع أن أدلة الكآبة هي في جوهرها برنامج التجربة المحورية الخاص بالعقار للاضطراب الاكتئابي الكبير بدلاً من كونها سيناريو إعادة توجيه حقيقي.
 
-The fifth candidate, benign paroxysmal torticollis of infancy, is a migraine-related paroxysmal syndrome of early infancy with no plausible mechanistic link to an adult antidepressant, no pediatric safety data, and zero supporting trials or literature. This is best interpreted as a TxGNN embedding-proximity artifact rather than a genuine signal.
+المرشح الخامس، الالتواء الدوري الحميد للرقبة في الرضع، هو متلازمة دورية مرتبطة بالصداع النصفي في الرضاعة المبكرة، بدون ارتباط آلي معقول لمضاد اكتئاب للبالغين، بدون بيانات سلامة لدى الأطفال، وبدون تجارب أو أدبيات داعمة. من الأفضل تفسير هذا كقطعة أثرية ناتجة عن القرب في التضمين من TxGNN بدلاً من كونه إشارة حقيقية.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Trials below are deduplicated across the five indications (several trials are shared across the depression-spectrum predictions).
+التجارب أدناه منقحة عبر الدلالات الخمسة (عدة تجارب مشتركة عبر تنبؤات طيف الاكتئاب).
 
-| Trial Number | Phase | Status | Enrollment | Key Findings | Cited For |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية | مستشهد بها لـ |
 |---------|------|------|------|---------|---------|
-| [NCT01163266](https://clinicaltrials.gov/study/NCT01163266) | Phase 3 | Completed | 462 | Randomized, double-blind, placebo-controlled, fixed-dose (10/20 mg) trial of vortioxetine in adults with MDD | Melancholia |
-| [NCT00735709](https://clinicaltrials.gov/study/NCT00735709) | Phase 3 | Completed | 560 | Randomized, double-blind, placebo-controlled, fixed-dose (3 doses) trial in adults with MDD | Melancholia |
-| [NCT01255787](https://clinicaltrials.gov/study/NCT01255787) | Phase 2/3 | Completed | 600 | Multinational dose-ranging, placebo-controlled trial establishing dose-response in MDD | Melancholia |
-| [NCT01153009](https://clinicaltrials.gov/study/NCT01153009) | Phase 3 | Completed | 614 | Randomized, double-blind, placebo- and duloxetine-referenced, fixed-dose (15/20 mg) trial in MDD | Melancholia |
-| [NCT01152996](https://clinicaltrials.gov/study/NCT01152996) | Phase 3 | Completed | 1,075 | Long-term, open-label, flexible-dose (15/20 mg) safety/tolerability extension study in MDD | Melancholia |
-| [NCT00707980](https://clinicaltrials.gov/study/NCT00707980) | Phase 3 | Completed | 836 | Long-term, open-label, flexible-dose extension study evaluating safety and tolerability in MDD | Melancholia, Dysthymic disorder |
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Completed | 370,212 | Nationwide claims-database retrospective cohort comparing antidepressant utilization patterns and adverse-outcome risk (not disease-specific to neurotic disorder/depression) | Neurotic disorder, Neurotic depression |
+| [NCT01163266](https://clinicaltrials.gov/study/NCT01163266) | المرحلة الثالثة | مكتملة | 462 | تجربة عشوائية محكومة مع التحكم بالدواء الوهمي، جرعة ثابتة (10/20 ملغ) من فورتيوكسيتين لدى البالغين المصابين بـ MDD | الكآبة |
+| [NCT00735709](https://clinicaltrials.gov/study/NCT00735709) | المرحلة الثالثة | مكتملة | 560 | تجربة عشوائية محكومة مع التحكم بالدواء الوهمي، جرعة ثابتة (3 جرعات) من فورتيوكسيتين لدى البالغين المصابين بـ MDD | الكآبة |
+| [NCT01255787](https://clinicaltrials.gov/study/NCT01255787) | المرحلة الثانية/الثالثة | مكتملة | 600 | تجربة متعددة الدول لمعايرة الجرعة والتحكم بالدواء الوهمي تؤسس العلاقة بين الجرعة والاستجابة في MDD | الكآبة |
+| [NCT01153009](https://clinicaltrials.gov/study/NCT01153009) | المرحلة الثالثة | مكتملة | 614 | تجربة عشوائية محكومة مع التحكم بالدواء الوهمي والدولوكسيتين المرجعي، جرعة ثابتة (15/20 ملغ) من فورتيوكسيتين في MDD | الكآبة |
+| [NCT01152996](https://clinicaltrials.gov/study/NCT01152996) | المرحلة الثالثة | مكتملة | 1,075 | دراسة تمديد طويلة الأجل مفتوحة الوسم، جرعة مرنة (15/20 ملغ) لتقييم السلامة والتحمل من فورتيوكسيتين في MDD | الكآبة |
+| [NCT00707980](https://clinicaltrials.gov/study/NCT00707980) | المرحلة الثالثة | مكتملة | 836 | دراسة تمديد طويلة الأجل مفتوحة الوسم، جرعة مرنة تقيم السلامة والتحمل من فورتيوكسيتين في MDD | الكآبة، اضطراب الاكتئاب المستمر |
+| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | غير متاح | مكتملة | 370,212 | دراسة أترابية رجعية قائمة على قاعدة بيانات الدعاوى الوطنية تقارن أنماط استخدام مضادات الاكتئاب والمخاطر الضائرة (ليست خاصة بمرض محدد للاضطراب العصابي/الاكتئاب) | الاضطراب العصابي، الاكتئاب العصابي |
 
-No clinical trials were returned for **benign paroxysmal torticollis of infancy**.
+لم يتم إرجاع أي تجارب سريرية لـ **الالتواء الدوري الحميد للرقبة في الرضع**.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Deduplicated across indications; prioritized by study tier (RCT/meta-analysis > review/guideline > case report).
+منقحة عبر الدلالات؛ مرتبة حسب مستوى نوع الدراسة (RCT/meta-analysis > review/guideline > case report).
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network Meta-analysis (RCTs) | Lancet | Compared and ranked 21 antidepressants for acute treatment of adult MDD |
-| [38957929](https://pubmed.ncbi.nlm.nih.gov/38957929/) | 2024 | Dose-response Meta-analysis (RCTs) | Psychiatry Clin Neurosci | Dose-response relationship of vortioxetine specifically in adult MDD |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematic Review/Meta-analysis | Molecular Psychiatry | Efficacy, acceptability, tolerability, safety of antidepressants in MDD maintenance phase |
-| [34029378](https://pubmed.ncbi.nlm.nih.gov/34029378/) | 2021 | Network Meta-analysis (RCTs, pediatric) | Cochrane Database Syst Rev | Newer-generation antidepressants for depression in children/adolescents |
-| [36708956](https://pubmed.ncbi.nlm.nih.gov/36708956/) | 2023 | Pooled RCT post-hoc analysis | J Affect Disord | Vortioxetine efficacy/tolerability in MDD patients with high anxiety symptom levels |
-| [25016186](https://pubmed.ncbi.nlm.nih.gov/25016186/) | 2015 | Review (MOA) | Pharmacol Ther | Vortioxetine multimodal MOA; preclinical and clinical data review |
-| [29189941](https://pubmed.ncbi.nlm.nih.gov/29189941/) | 2018 | Review (PK/DDI) | Clin Pharmacokinet | Vortioxetine pharmacokinetics and drug interactions |
-| [37032427](https://pubmed.ncbi.nlm.nih.gov/37032427/) | 2023 | Guideline (CPIC) | Clin Pharmacol Ther | Pharmacogenetics guideline covering vortioxetine among serotonergic antidepressants |
-| [27508501](https://pubmed.ncbi.nlm.nih.gov/27508501/) | 2016 | Review | Psychother Psychosom | Safety, tolerability, and risks of newer-generation antidepressants including vortioxetine |
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review/Case report | Zh Nevrol Psikhiatr Im S S Korsakova | Case-based discussion of neurotic depression treatment approaches (combined pharmacotherapy + CBT) |
+| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | تحليل شبكي (RCTs) | Lancet | مقارنة وترتيب 21 مضاد اكتئاب للعلاج الحاد من الاضطراب الاكتئابي الكبير لدى البالغين |
+| [38957929](https://pubmed.ncbi.nlm.nih.gov/38957929/) | 2024 | تحليل تلوي لعلاقة الجرعة-الاستجابة (RCTs) | Psychiatry Clin Neurosci | العلاقة بين الجرعة والاستجابة من فورتيوكسيتين تحديداً في الاضطراب الاكتئابي الكبير لدى البالغين |
+| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | مراجعة منهجية/تحليل تلوي | Molecular Psychiatry | الفعالية والقبول والتحمل والسلامة من مضادات الاكتئاب في مرحلة الحفاظ على MDD |
+| [34029378](https://pubmed.ncbi.nlm.nih.gov/34029378/) | 2021 | تحليل شبكي (RCTs، طب الأطفال) | Cochrane Database Syst Rev | مضادات الاكتئاب الجيل الأحدث للاكتئاب لدى الأطفال والمراهقين |
+| [36708956](https://pubmed.ncbi.nlm.nih.gov/36708956/) | 2023 | تحليل بعدي لـ RCTs مجمعة | J Affect Disord | فعالية وتحمل فورتيوكسيتين لدى مرضى MDD الذين يعانون من مستويات أعراض قلق مرتفعة |
+| [25016186](https://pubmed.ncbi.nlm.nih.gov/25016186/) | 2015 | مراجعة (MOA) | Pharmacol Ther | آلية العمل متعددة الوسائط من فورتيوكسيتين؛ مراجعة بيانات ما قبل السريرية والسريرية |
+| [29189941](https://pubmed.ncbi.nlm.nih.gov/29189941/) | 2018 | مراجعة (PK/DDI) | Clin Pharmacokinet | الحرائك الدوائية لفورتيوكسيتين والتفاعلات الدوائية |
+| [37032427](https://pubmed.ncbi.nlm.nih.gov/37032427/) | 2023 | إرشادات (CPIC) | Clin Pharmacol Ther | إرشاد الأدوية الجينية يغطي فورتيوكسيتين من بين مضادات الاكتئاب السيروتونينية |
+| [27508501](https://pubmed.ncbi.nlm.nih.gov/27508501/) | 2016 | مراجعة | Psychother Psychosom | السلامة والتحمل والمخاطر من مضادات الاكتئاب الجيل الأحدث بما فيها فورتيوكسيتين |
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | مراجعة/تقرير حالات | Zh Nevrol Psikhiatr Im S S Korsakova | نقاش قائم على الحالات لأساليب علاج الاكتئاب العصابي (العلاج الدوائي المركب + العلاج السلوكي المعرفي) |
 
-No literature was returned for **benign paroxysmal torticollis of infancy**.
-
----
-
-## Saudi Arabia Market Information
-
-Vortioxetine currently has **no market authorization records** in Saudi Arabia (market status: Not marketed; total licenses: 0). No product/authorization entries are available to tabulate.
+لم يتم إرجاع أدبيات لـ **الالتواء الدوري الحميد للرقبة في الرضع**.
 
 ---
 
-## Safety Considerations
+## معلومات السوق في المملكة العربية السعودية
 
-Please refer to the package insert for safety information. All structured safety fields (key warnings, contraindications, drug-drug interactions) returned no data in this pack, and the missing TFDA/SFDA package insert (flagged as a **Blocking** data gap, DG001) means a formal S1 safety screen cannot be completed until that source is obtained.
+فورتيوكسيتين حالياً لا يمتلك **أي سجلات تصريح سوق** في المملكة العربية السعودية (حالة السوق: غير مسوق؛ إجمالي الرخص: 0). لا توجد إدخالات منتج/تصريح متاحة للعرض الجدولي.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision (by indication):**
-- **Melancholia — Proceed with Guardrails**
-- **Neurotic disorder, Neurotic depression, Dysthymic disorder — Research Question (Hold pending further evidence)**
-- **Benign paroxysmal torticollis of infancy — Hold**
+يُرجى الرجوع إلى إدراج الحزمة للحصول على معلومات السلامة. جميع حقول السلامة المنظمة (التحذيرات الرئيسية، موانع الاستخدام، التفاعلات الدوائية) لم ترجع أي بيانات في هذه الحزمة، والإدراج المفقود من TFDA/SFDA (وضع علامة عليه كثغرة بيانات **حجب**، DG001) يعني أن فحص السلامة الرسمي S1 لا يمكن إكماله حتى يتم الحصول على هذا المصدر.
 
-**Rationale:**
-- Melancholia is supported by 6 completed Phase 3 RCTs (n up to 1,075) that are, in substance, vortioxetine's own pivotal MDD registration trials — strong direct evidence, but this reflects nomenclature overlap with the drug's established use rather than a novel repurposing finding.
-- Neurotic disorder, neurotic depression, and dysthymic disorder are mechanistically plausible extensions along the depressive spectrum, but each has at most one indirect or non-disease-specific trial and thin literature — not yet sufficient for a Go decision.
-- Benign paroxysmal torticollis of infancy has zero supporting trials or literature and no plausible mechanistic or population fit (adult antidepressant vs. infant paroxysmal syndrome); treated as a likely false positive.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications, DDI) — currently a Blocking data gap (DG001)
-- Confirmed drug MOA record from DrugBank (currently a High-severity data gap, DG002)
-- For neurotic disorder/neurotic depression/dysthymic disorder: trials or registries using these specific diagnostic terms, rather than general MDD populations, before advancing past S1/S2
-- No further action recommended for benign paroxysmal torticollis of infancy absent new mechanistic or clinical signal
+## الخلاصة والخطوات التالية
+
+**القرار (حسب الدلالة):**
+- **الكآبة — المضي قدماً مع تدابير الحماية**
+- **الاضطراب العصابي، الاكتئاب العصابي، اضطراب الاكتئاب المستمر — سؤال بحثي (توقف في انتظار أدلة إضافية)**
+- **الالتواء الدوري الحميد للرقبة في الرضع — التوقف**
+
+**الأساس المنطقي:**
+- الكآبة مدعومة بـ 6 تجارب معشاة محكومة المرحلة الثالثة (n تصل إلى 1,075) وهي، في جوهرها، برنامج التجربة المحورية الخاص بالعقار للاضطراب الاكتئابي الكبير — دليل مباشر قوي، لكن هذا يعكس تداخل المصطلحات مع الاستخدام المثبت للعقار بدلاً من كونه اكتشاف إعادة توجيه حقيقي.
+- الاضطراب العصابي والاكتئاب العصابي واضطراب الاكتئاب المستمر هي تمديدات معقولة آلياً على طول طيف الاكتئاب، لكن لكل واحد منها على الأكثر تجربة واحدة غير مباشرة أو غير خاصة بالمرض وأدبيات محدودة — ليس كافياً حتى الآن لقرار المضي قدماً.
+- الالتواء الدوري الحميد للرقبة في الرضع لا يمتلك تجارب أو أدبيات داعمة ولا توافق آلي أو سكاني معقول (مضاد اكتئاب للبالغين مقابل متلازمة دورية في الرضع)؛ يُعامل كإيجابية كاذبة محتملة.
+
+**للمضي قدماً، يلزم ما يلي:**
+- إدراج حزمة TFDA/SFDA (تحذيرات، موانع الاستخدام، التفاعلات الدوائية) — حالياً ثغرة بيانات حجب (DG001)
+- سجل آلية عمل من DrugBank مؤكد (حالياً ثغرة بيانات عالية الشدة، DG002)
+- للاضطراب العصابي/الاكتئاب العصابي/اضطراب الاكتئاب المستمر: تجارب أو سجلات تستخدم هذه المصطلحات التشخيصية المحددة، بدلاً من السكان العام من الاضطراب الاكتئابي الكبير، قبل التقدم بعد S1/S2
+- لا يوصى بأي إجراء إضافي للالتواء الدوري الحميد للرقبة في الرضع في غياب إشارة آلية أو سريرية جديدة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

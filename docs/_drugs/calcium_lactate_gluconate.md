@@ -29,82 +29,83 @@ indication_count: 2
 
 </div>
 
-# Calcium Lactate Gluconate: From Calcium Supplementation to Calcium-Alkali Syndrome
+# Calcium Lactate Gluconate: من مكملات الكالسيوم إلى متلازمة الكالسيوم والقلاء
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Calcium lactate gluconate is a highly bioavailable calcium salt used as a calcium supplement in pharmaceutical and functional food formulations, with no registered indication in Taiwan.
-The TxGNN model's top-ranked prediction is **Calcium-Alkali Syndrome** (score 99.34%), but the mechanistic analysis identifies this as a **likely false positive** — the drug is a causative agent of this syndrome, not a therapeutic candidate.
-The second-ranked prediction, **Primary Bone Dysplasia with Defective Bone Mineralization** (score 99.28%), carries more scientific rationale for calcium-deficiency subtypes, yet remains at evidence level **L5** with no clinical trials or literature identified for either indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | No registered indication (not marketed in Taiwan) |
-| Predicted New Indication (Rank 1) | Calcium-Alkali Syndrome ⚠️ Likely false positive |
-| Predicted New Indication (Rank 2) | Primary Bone Dysplasia with Defective Bone Mineralization |
-| TxGNN Prediction Score | 99.34% (Rank 1) / 99.28% (Rank 2) |
-| Evidence Level | L5 (Model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Calcium Lactate Gluconate هو ملح كالسيوم ذو توافر بيولوجي عالي يُستخدم كمكمل كالسيوم في صيغ الأدوية والأطعمة الوظيفية، بدون مؤشر مسجل في تايوان.
+التنبؤ الأعلى ترتيباً من نموذج TxGNN هو **متلازمة الكالسيوم والقلاء** (درجة 99.34%)، لكن التحليل الآلي يحدد هذا كـ **إيجابي كاذب محتمل** — الدواء هو عامل مسبب لهذه المتلازمة، وليس مرشح علاجي.
+التنبؤ المرتب ثاني، **خلل العظام الأولي مع تمعدن العظام الناقص** (درجة 99.28%)، يحمل أساساً علمياً أقوى للأنواع الفرعية الناقصة الكالسيوم، لكنه يبقى في مستوى الأدلة **L5** بدون تجارب سريرية أو أدبيات محددة لأي من المؤشرات.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available for calcium lactate gluconate. Based on its known pharmacological properties, it is a soluble calcium salt that delivers ionizable calcium with high gastrointestinal bioavailability — making it a preferred form for oral calcium supplementation in both pharmaceutical preparations and functional foods.
-
-**Rank 1 — Calcium-Alkali Syndrome: A Predicted False Positive**
-
-The TxGNN model likely identified calcium lactate gluconate through the calcium ion metabolism node and linked it to calcium-alkali syndrome. However, the clinical direction is entirely reversed: calcium-alkali syndrome is caused by excessive intake of absorbable calcium combined with alkaline substances, resulting in hypercalcemia, metabolic alkalosis, and renal impairment. Calcium lactate gluconate is itself a causative agent of this syndrome when taken in excess — not a therapeutic drug. This prediction should be treated as a model false positive arising from an incorrect causal direction (drug → disease, not drug ← disease).
-
-**Rank 2 — Primary Bone Dysplasia with Defective Bone Mineralization: Mechanistically Plausible but Scope-Limited**
-
-Calcium lactate gluconate can provide highly bioavailable ionic calcium, which is an essential substrate for hydroxyapatite crystallization during bone mineralization. In bone mineralization disorders where dietary calcium deficiency is the primary driver — such as nutritional rickets — calcium supplementation has a clear mechanistic rationale. However, most primary bone dysplasias involve genetic defects in alkaline phosphatase (*ALPL*), phosphate metabolism (*PHEX*), or collagen biosynthesis genes. Calcium supplementation cannot correct these upstream genetic defects, and the expected clinical benefit is therefore limited to the narrow calcium-deficiency subtype.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for either predicted indication.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | لا يوجد مؤشر مسجل (غير معروض في السوق في تايوان) |
+| المؤشر الجديد المتوقع (الترتيب 1) | متلازمة الكالسيوم والقلاء ⚠️ إيجابي كاذب محتمل |
+| المؤشر الجديد المتوقع (الترتيب 2) | خلل العظام الأولي مع تمعدن العظام الناقص |
+| درجة التنبؤ من TxGNN | 99.34% (الترتيب 1) / 99.28% (الترتيب 2) |
+| مستوى الأدلة | L5 (تنبؤ النموذج فقط، بدون دراسات داعمة) |
+| حالة السوق في تايوان | ✗ غير معروض |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available for either predicted indication.
+حالياً، بيانات آلية الحركة المفصلة غير متاحة لـ Calcium Lactate Gluconate. بناءً على خصائصها الدوائية المعروفة، فهي ملح كالسيوم قابل للذوبان يوفر كالسيوم قابل للتأين مع توافر بيولوجي معدي عالي — مما يجعلها الشكل المفضل لمكملات الكالسيوم الفموية في كل من التحضيرات الصيدلانية والأطعمة الوظيفية.
 
----
+**الترتيب 1 — متلازمة الكالسيوم والقلاء: إيجابي كاذب متوقع**
 
-## Taiwan Market Information
+من المحتمل أن يكون نموذج TxGNN قد حدد Calcium Lactate Gluconate من خلال عقدة استقلاب أيون الكالسيوم وربطه بمتلازمة الكالسيوم والقلاء. ومع ذلك، الاتجاه السريري معاكس تماماً: متلازمة الكالسيوم والقلاء تحدث بسبب الإفراط في تناول الكالسيوم القابل للامتصاص مقترناً بمواد قلوية، مما يؤدي إلى فرط كالسيوم الدم والقلاء الاستقلابي وضعف كلوي. Calcium Lactate Gluconate نفسه هو عامل مسبب لهذه المتلازمة عند تناوله بكميات مفرطة — وليس دواء علاجي. يجب التعامل مع هذا التنبؤ كإيجابي كاذب ناشئ عن اتجاه سببي غير صحيح (دواء → مرض، وليس دواء ← مرض).
 
-Calcium lactate gluconate has no registered product authorizations in Taiwan. The drug is currently not marketed and holds zero licenses on record.
+**الترتيب 2 — خلل العظام الأولي مع تمعدن العظام الناقص: معقول آلياً لكن محدود النطاق**
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Calcium Lactate Gluconate يمكن أن يوفر كالسيوم أيوني ذو توافر بيولوجي عالي، وهو مادة أساسية لتبلور هيدروكسي أباتيت أثناء تمعدن العظام. في اضطرابات تمعدن العظام حيث يكون نقص الكالسيوم الغذائي هو المحرك الأساسي — مثل الكساح الغذائي — فإن مكملات الكالسيوم لها أساس علمي واضح. ومع ذلك، فإن معظم حالات خلل العظام الأولي تنطوي على عيوب وراثية في الفسفاتيز القلوي (*ALPL*)، أو استقلاب الفوسفات (*PHEX*)، أو جينات تخليق الكولاجين. لا يمكن لمكملات الكالسيوم تصحيح هذه العيوب الوراثية الأعلى مستوى، وبالتالي فإن الفائدة السريرية المتوقعة محدودة بالنوع الفرعي الناقص للكالسيوم فقط.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة لأي من المؤشرات المتوقعة.
 
-**Rationale:**
-The top-ranked TxGNN prediction (calcium-alkali syndrome) is a likely false positive due to incorrect causal direction — this drug is an established cause of the syndrome, not a treatment for it. The second-ranked prediction (primary bone dysplasia) has limited mechanistic plausibility restricted to calcium-deficiency subtypes only, and neither indication is supported by any clinical trials or published literature (evidence level L5).
+---
 
-**To proceed, the following is needed:**
-- Retrieve formal MOA data from DrugBank (DG002) to enable mechanistic linkage analysis
-- Determine whether any subtype of primary bone dysplasia with defective bone mineralization is primarily driven by calcium deficiency rather than a genetic defect — this would identify the actionable patient population
-- Conduct a targeted literature search on calcium supplementation in nutritional rickets and hypocalcemia-associated bone dysplasia
-- Review TxGNN model outputs for other calcium-based compounds to assess whether calcium-alkali syndrome appears systematically as a false positive class
-- Retrieve Taiwan package insert warnings and contraindications (DG001) before any clinical consideration
+## أدلة الأدبيات
+
+حالياً لا توجد أدبيات ذات صلة متاحة لأي من المؤشرات المتوقعة.
+
+---
+
+## معلومات سوق تايوان
+
+لا يوجد لـ Calcium Lactate Gluconate أي تصاريح منتجات مسجلة في تايوان. الدواء غير معروض حالياً ولا يحمل أي تراخيص مسجلة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+التنبؤ الأعلى ترتيباً من TxGNN (متلازمة الكالسيوم والقلاء) هو إيجابي كاذب محتمل بسبب اتجاه سببي غير صحيح — هذا الدواء هو سبب مثبت للمتلازمة، وليس علاج لها. التنبؤ الثاني بالترتيب (خلل العظام الأولي) له معقولية آلية محدودة مقتصرة على الأنواع الفرعية الناقصة الكالسيوم فقط، ولا يدعم أي من المؤشرات أي تجارب سريرية أو أدبيات منشورة (مستوى أدلة L5).
+
+**للمتابعة، يلزم ما يلي:**
+- استرجاع بيانات آلية الحركة الرسمية من DrugBank (DG002) لتمكين تحليل الربط الآلي
+- تحديد ما إذا كان أي نوع فرعي من خلل العظام الأولي مع تمعدن العظام الناقص يحركه بشكل أساسي نقص الكالسيوم بدلاً من العيب الوراثي — سيحدد هذا السكان المريضين القابلين للتطبيق
+- إجراء بحث أدبي مستهدف عن مكملات الكالسيوم في الكساح الغذائي واضطرابات العظام المرتبطة بنقص الكالسيوم
+- مراجعة مخرجات نموذج TxGNN للمركبات الأخرى القائمة على الكالسيوم لتقييم ما إذا كانت متلازمة الكالسيوم والقلاء تظهر بشكل منتظم كفئة إيجابية كاذبة
+- استرجاع تحذيرات نشرة المعلومات في تايوان وموانع الاستعمال (DG001) قبل أي اعتبار سريري
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

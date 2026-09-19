@@ -29,83 +29,84 @@ indication_count: 4
 
 </div>
 
-# Pimecrolimus: From Atopic Dermatitis to Seborrheic Dermatitis
+# بيميكروليموس: من التهاب الجلد التأتبي إلى التهاب الجلد الدهني
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Pimecrolimus (DrugBank DB00337) is a topical calcineurin inhibitor originally developed and used for **atopic dermatitis** (as documented in embedded trial records, e.g. Elidel® cream 1%).
-> The TxGNN model predicts it may also be effective for **Seborrheic Dermatitis**,
-> with **1 completed Phase 2 clinical trial** and **18 publications** currently supporting this direction.
+> بيميكروليموس (DrugBank DB00337) هو مثبط كالسينورين موضعي تم تطويره واستخدامه في الأصل لـ **التهاب الجلد التأتبي** (كما هو موثق في سجلات التجارب المضمنة، على سبيل المثال، كريم Elidel® بنسبة 1%).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لـ **التهاب الجلد الدهني**،
+> مع **تجربة سريرية واحدة في المرحلة 2 مكتملة** و **18 منشوراً** يدعمان هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Atopic Dermatitis (mild-to-moderate) |
-| Predicted New Indication | Seborrheic Dermatitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | التهاب الجلد التأتبي (خفيف إلى متوسط) |
+| المؤشر الجديد المتنبأ به | التهاب الجلد الدهني |
+| درجة التنبؤ بـ TxGNN | 99.73% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مطروح بالسوق (غير مطروح بالسوق) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المضي قدماً مع الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-The structured DrugBank mechanism-of-action field for pimecrolimus is currently a data gap (DG002). However, the literature evidence collected for this candidate independently describes the mechanism: pimecrolimus is an ascomycin-derivative **topical calcineurin inhibitor (TCI)** that selectively targets T cells and mast cells, inhibiting T-cell proliferation and the release of IL-2, IL-4, interferon-gamma and TNF-alpha, as well as mast cell degranulation (PMID 16033622). Unlike topical corticosteroids, it does not cause skin atrophy, which is why it was originally approved for long-term, sensitive-area use in atopic dermatitis.
+حالياً، حقل آلية العمل المنظمة في DrugBank لبيميكروليموس يمثل فجوة بيانات (DG002). ومع ذلك، الأدلة الأدبية المجمعة لهذا المرشح تصف آلية العمل بشكل مستقل: بيميكروليموس هو مشتق أسكوميسين **مثبط كالسينورين موضعي (TCI)** يستهدف بشكل انتقائي الخلايا التائية والخلايا البدينة، مما يثبط تكاثر الخلايا التائية وإفراز IL-2 و IL-4 وإنترفيرون-غاما و TNF-alpha، بالإضافة إلى إزالة تحبب الخلايا البدينة (PMID 16033622). بخلاف الكورتيكوستيرويدات الموضعية، فإنه لا يسبب ضمور الجلد، وهذا هو السبب في الموافقة الأصلية له للاستخدام طويل الأمد في المناطق الحساسة في التهاب الجلد التأتبي.
 
-Atopic dermatitis and seborrheic dermatitis are both chronic inflammatory dermatoses driven substantially by T-cell-mediated cytokine release, and seborrheic dermatitis additionally involves an inflammatory host response to *Malassezia* yeast. Because pimecrolimus's anti-inflammatory action is not antifungal-specific, its rationale in seborrheic dermatitis rests on suppressing the associated inflammatory/immune cascade rather than eradicating the organism — an approach already explored clinically as a non-steroidal alternative to corticosteroids and antifungals for facial and scalp involvement (PMID 31053034, "Off-label Uses of Topical Pimecrolimus").
+التهاب الجلد التأتبي والتهاب الجلد الدهني كلاهما أمراض جلدية التهابية مزمنة تحركها بشكل جوهري إفراز السيتوكين الوسيط للخلايا التائية، والتهاب الجلد الدهني بالإضافة إلى ذلك يتضمن استجابة التهابية من المضيف لخميرة *Malassezia*. لأن الإجراء المضاد للالتهاب لبيميكروليموس ليس محدداً مضاداً للفطريات، فإن أساس استخدامه في التهاب الجلد الدهني يعتمد على قمع الكاسكاد الالتهابي/المناعي المرتبط به وليس على القضاء على الكائن الحي - وهو نهج تم استكشافه بالفعل سريرياً كبديل غير ستيرويدي للكورتيكوستيرويدات والأدوية المضادة للفطريات لالتهاب الوجه والفروة (PMID 31053034، "Off-label Uses of Topical Pimecrolimus").
 
-This mechanistic plausibility is reinforced by direct clinical evidence: a dedicated Phase 2 RCT (NCT00403559) and multiple additional randomized/comparative studies and systematic reviews (below) have specifically tested pimecrolimus in seborrheic dermatitis, indicating this off-label use is already an active area of clinical practice rather than a purely computational prediction.
+يتم تعزيز هذا الإمكان الآلي بأدلة سريرية مباشرة: تجربة عشوائية محكومة مخصصة في المرحلة 2 (NCT00403559) وعدد من الدراسات العشوائية/المقارنة والمراجعات المنهجية الإضافية (أدناه) اختبرت بيميكروليموس بشكل محدد في التهاب الجلد الدهني، مما يشير إلى أن هذا الاستخدام خارج المؤشرات هو بالفعل مجال نشط من الممارسة السريرية وليس مجرد تنبؤ حسابي.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00403559](https://clinicaltrials.gov/study/NCT00403559) | Phase 2 | Completed | 113 | Randomized, double-blind, parallel-group, active-comparator-controlled exploratory study assessing Elidel (pimecrolimus) effectiveness for seborrheic dermatitis |
+| [NCT00403559](https://clinicaltrials.gov/study/NCT00403559) | المرحلة 2 | مكتملة | 113 | دراسة استكشافية عشوائية، مزدوجة التعمية، متوازية المجموعات، مضبوطة بمقارن نشط تقيّم فعالية Elidel (بيميكروليموس) لالتهاب الجلد الدهني |
 
 ---
 
-## Literature Evidence
+## أدلة أدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [34910320](https://pubmed.ncbi.nlm.nih.gov/34910320/) | 2022 | RCT | Clinical and experimental dermatology | Randomized blinded trial comparing pimecrolimus 1% cream vs. sertaconazole 2% cream for facial seborrhoeic dermatitis |
-| [18677657](https://pubmed.ncbi.nlm.nih.gov/18677657/) | 2009 | RCT (open, randomized, prospective, comparative) | Journal of dermatological treatment | Compared topical pimecrolimus 1% cream vs. ketoconazole 2% cream for seborrheic dermatitis |
-| [22142161](https://pubmed.ncbi.nlm.nih.gov/22142161/) | 2012 | Systematic review of RCTs | Expert review of clinical pharmacology | Pimecrolimus 1% cream is well-tolerated and effective for seborrheic dermatitis, with comparable efficacy to corticosteroids/antimycotics |
-| [36072203](https://pubmed.ncbi.nlm.nih.gov/36072203/) | 2022 | Systematic review | Cureus | Reviews efficacy/safety of pimecrolimus for facial seborrheic dermatitis among four established treatment categories (antifungals, keratolytics, corticosteroids, calcineurin inhibitors) |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematic review | American journal of clinical dermatology | Systematic review of topical treatments, including pimecrolimus, for facial seborrheic dermatitis |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | Journal of drugs in dermatology | Overview of facial seborrheic dermatitis pathophysiology and therapeutic horizons, including calcineurin inhibitors |
-| [16033622](https://pubmed.ncbi.nlm.nih.gov/16033622/) | 2005 | Review | International journal of clinical practice | Describes pimecrolimus mechanism of action (T-cell/mast-cell targeting) and its use beyond atopic dermatitis |
-| [31053034](https://pubmed.ncbi.nlm.nih.gov/31053034/) | 2019 | Review | Journal of cutaneous medicine and surgery | Reviews off-label uses of topical pimecrolimus, focused on published RCTs across dermatologic conditions |
-| [23715821](https://pubmed.ncbi.nlm.nih.gov/23715821/) | 2013 | Comparative study | Irish journal of medical science | Compares sertaconazole 2% cream vs. pimecrolimus 1% cream for seborrheic dermatitis treatment |
-| [20000875](https://pubmed.ncbi.nlm.nih.gov/20000875/) | 2010 | Open-label study | American journal of clinical dermatology | Topical pimecrolimus 1% cream shown effective in resistant facial seborrheic dermatitis |
+| [34910320](https://pubmed.ncbi.nlm.nih.gov/34910320/) | 2022 | RCT | Clinical and experimental dermatology | تجربة عشوائية مكفوفة تقارن كريم بيميكروليموس 1% مقابل كريم سرتاكونازول 2% لالتهاب الجلد الدهني الوجهي |
+| [18677657](https://pubmed.ncbi.nlm.nih.gov/18677657/) | 2009 | RCT (مفتوحة، عشوائية، مستقبلية، مقارنة) | Journal of dermatological treatment | مقارنة كريم بيميكروليموس الموضعي 1% مقابل كريم كيتوكونازول 2% لالتهاب الجلد الدهني |
+| [22142161](https://pubmed.ncbi.nlm.nih.gov/22142161/) | 2012 | مراجعة منهجية للتجارب العشوائية المحكومة | Expert review of clinical pharmacology | كريم بيميكروليموس 1% جيد التحمل وفعال لالتهاب الجلد الدهني، بفعالية مماثلة للكورتيكوستيرويدات/مضادات الفطريات |
+| [36072203](https://pubmed.ncbi.nlm.nih.gov/36072203/) | 2022 | مراجعة منهجية | Cureus | مراجعة فعالية/سلامة بيميكروليموس لالتهاب الجلد الدهني الوجهي بين أربع فئات علاجية محددة (مضادات الفطريات، مزيلات الكيراتين، الكورتيكوستيرويدات، مثبطات الكالسينورين) |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | مراجعة منهجية | American journal of clinical dermatology | مراجعة منهجية للعلاجات الموضعية، بما في ذلك بيميكروليموس، لالتهاب الجلد الدهني الوجهي |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | مراجعة | Journal of drugs in dermatology | نظرة عامة على الفسيولوجيا المرضية لالتهاب الجلد الدهني الوجهي والآفاق العلاجية، بما في ذلك مثبطات الكالسينورين |
+| [16033622](https://pubmed.ncbi.nlm.nih.gov/16033622/) | 2005 | مراجعة | International journal of clinical practice | وصف آلية عمل بيميكروليموس (استهداف الخلايا التائية/الخلايا البدينة) واستخدامه خارج التهاب الجلد التأتبي |
+| [31053034](https://pubmed.ncbi.nlm.nih.gov/31053034/) | 2019 | مراجعة | Journal of cutaneous medicine and surgery | مراجعة الاستخدامات خارج المؤشرات لبيميكروليموس الموضعي، مع التركيز على التجارب العشوائية المنشورة عبر الحالات الجلدية |
+| [23715821](https://pubmed.ncbi.nlm.nih.gov/23715821/) | 2013 | دراسة مقارنة | Irish journal of medical science | مقارنة كريم سرتاكونازول 2% مقابل كريم بيميكروليموس 1% لعلاج التهاب الجلد الدهني |
+| [20000875](https://pubmed.ncbi.nlm.nih.gov/20000875/) | 2010 | دراسة مفتوحة التسمية | American journal of clinical dermatology | ثبت أن كريم بيميكروليموس الموضعي 1% فعال في التهاب الجلد الدهني الوجهي المقاوم |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع الحماية**
 
-**Rationale:**
-A dedicated Phase 2 RCT plus a consistent body of comparative studies and systematic reviews (evidence level L2) support pimecrolimus's efficacy in seborrheic dermatitis, and the proposed mechanism (TCI-mediated anti-inflammatory action) is biologically coherent with the original atopic dermatitis indication. However, the drug is currently **not marketed** in the target market (0 authorizations) and two drug-level data gaps remain unresolved.
+**الأساس المنطقي:**
+تجربة عشوائية محكومة مخصصة في المرحلة 2 بالإضافة إلى مجموعة متسقة من الدراسات المقارنة والمراجعات المنهجية (مستوى الدليل L2) تدعم فعالية بيميكروليموس في التهاب الجلد الدهني، وآلية العمل المقترحة (الإجراء المضاد للالتهاب الوسيط بـ TCI) متسقة بيولوجياً مع المؤشر الأصلي لالتهاب الجلد التأتبي. ومع ذلك، الدواء حالياً **غير مطروح بالسوق** في السوق المستهدفة (0 تصاريح) وتبقى فجوتا بيانات على مستوى الدواء دون حل.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (DG001, **Blocking** — required before safety pre-assessment/S1 can be completed)
-- Structured DrugBank mechanism-of-action data (DG002, High priority — needed to formally validate the mechanistic linkage analysis)
-- A drug-drug interaction (DDI) data source, since the current DDI query returned no results
-- A market-entry/registration pathway assessment, since the product currently has zero local authorizations
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات TFDA/نشرة العبوة المحلية والموانع (DG001، **محظور** — مطلوب قبل اكتمال المرحلة السابقة للتقييم الأمني/S1)
+- بيانات آلية العمل المنظمة في DrugBank (DG002، أولوية عالية — مطلوب للتحقق الرسمي من تحليل الارتباط الآلي)
+- مصدر بيانات التفاعلات الدوائية (DDI)، لأن استعلام DDI الحالي لم يُرجع أي نتائج
+- تقييم مسار دخول السوق/التسجيل، لأن المنتج حالياً لديه صفر تصاريح محلية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

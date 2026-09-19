@@ -29,101 +29,102 @@ indication_count: 6
 
 </div>
 
-# Zanubrutinib: From B-Cell Malignancies to Myeloid Leukemia
+# زانوبروتينيب: من الأورام الخبيثة B-خلوية إلى سرطان الدم الميلويدي
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Zanubrutinib is a second-generation Bruton's tyrosine kinase (BTK) inhibitor whose approved and published evidence base centers on B-cell lymphoid malignancies (CLL/SLL, WM, MCL). TxGNN predicts potential efficacy in **Myeloid Leukemia** with a high model confidence score, but currently **0 clinical trials** and **0 publications specifically evaluate zanubrutinib in myeloid leukemia** — the retrieved trials involve different investigational drugs, and the retrieved literature is entirely about CLL/SLL/WM. This is a mechanism-only signal, not a clinically supported repurposing candidate.
+زانوبروتينيب هو مثبط تيروسين كيناز برتون (BTK) من الجيل الثاني وتركز قاعدة الأدلة المعتمدة والمنشورة فيه على الأورام الخبيثة اللمفاوية من الخلايا B (CLL/SLL وWM وMCL). يتنبأ TxGNN بفعالية محتملة في **سرطان الدم الميلويدي** برقم ثقة عالي من النموذج، لكن حالياً **0 تجربة سريرية** و**0 منشور يقيم زانوبروتينيب على وجه التحديد في سرطان الدم الميلويدي** — التجارب المسترجعة تتضمن أدوية استقصائية مختلفة، والأدبيات المسترجعة تتعلق بالكامل بـ CLL/SLL/WM. هذه إشارة تعتمد على الآلية فقط، وليست مرشح إعادة تطبيق مدعوم سريرياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not available from Saudi Arabia regulatory data (drug not marketed locally). Based on known clinical use, zanubrutinib is indicated for B-cell malignancies (CLL/SLL, MCL, WM) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.65% (rank 6091) |
-| Evidence Level | L4 (mechanism/preclinical rationale only) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير متاح من بيانات هيئة الدواء السعودية (الدواء غير مسوّق محلياً). بناءً على الاستخدام السريري المعروف، زانوبروتينيب مرخص للأورام الخبيثة من الخلايا B (CLL/SLL وMCL وWM) |
+| المؤشر الجديد المتنبأ به | سرطان الدم الميلويدي |
+| درجة تنبؤ TxGNN | 99.65% (الترتيب 6091) |
+| مستوى الأدلة | L4 (الآلية/التبرير السابق للعيادات فقط) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data is not available in this evidence pack (DrugBank MOA field is a data gap). Based on known information and the supplied repurposing rationale, zanubrutinib is a second-generation, highly selective BTK inhibitor. BTK participates in AML biology indirectly — via FLT3-ITD and TLR9/CXCR4 downstream signaling that converges on NF-κB survival pathways implicated in leukemic cell proliferation and migration — which is why BTK inhibitors as a *class* (e.g., ibrutinib) have preclinical support in AML.
+بيانات آلية العمل المفصلة غير متاحة في هذه مجموعة الأدلة (حقل DrugBank MOA هو فجوة بيانات). بناءً على المعلومات المعروفة والتبرير المرفوع لإعادة التطبيق، زانوبروتينيب هو مثبط BTK انتقائي جداً من الجيل الثاني. BTK يشارك في بيولوجيا AML بشكل غير مباشر — عبر FLT3-ITD وإشارات TLR9/CXCR4 المصب التي تتقارب على مسارات البقاء NF-κB المدرجة في انتشار الخلايا اللوكيمية والهجرة — وهذا هو السبب في أن مثبطات BTK كـ *فئة* (على سبيل المثال، ibrutinib) لها دعم سابق للعيادات في AML.
 
-This is a class-effect (indirect) inference rather than zanubrutinib-specific evidence. Zanubrutinib's own approved indications and published trials are concentrated in B-cell lymphoproliferative disease (CLL/SLL, WM, and BTKi-intolerant B-cell malignancies), which is biologically distinct from myeloid leukemia. No dedicated zanubrutinib trial or publication in myeloid leukemia was identified in this data pull, so the mechanistic plausibility currently outruns the direct evidence.
+هذا استدلال تأثير فئة (غير مباشر) بدلاً من الأدلة المحددة لزانوبروتينيب. المؤشرات المعتمدة والتجارب المنشورة الخاصة بزانوبروتينيب تركزت في الأمراض اللمفاوية الورمية من الخلايا B (CLL/SLL وWM والأورام الخبيثة من الخلايا B غير المتسامحة مع BTKi)، وهي مختلفة بيولوجياً عن سرطان الدم الميلويدي. لم يتم تحديد تجربة زانوبروتينيب المخصصة أو منشور في سرطان الدم الميلويدي في هذا السحب البياني، لذا فإن الجدوى الميكانيكية حالياً تفوق الأدلة المباشرة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1 | Terminated | 45 | Evaluated **CG-806 (luxeptinib)**, not zanubrutinib, in relapsed/refractory AML/higher-risk MDS. Drug misattribution — does not constitute evidence for zanubrutinib in myeloid leukemia. |
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Completed | 86 | Evaluated **PRT2527 (CDK9 inhibitor)** as monotherapy and in combination with zanubrutinib or venetoclax in relapsed/refractory hematologic malignancies. Zanubrutinib was a combination partner in a broader CDK9-inhibitor trial, not a primary AML/myeloid leukemia study. |
+| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | المرحلة 1 | تم إنهاؤها | 45 | قيّمت **CG-806 (luxeptinib)**، وليس زانوبروتينيب، في AML المتكرر/المقاوم/MDS أعلى خطورة. سوء نسبة الدواء — لا تشكل أدلة لزانوبروتينيب في سرطان الدم الميلويدي. |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | المرحلة 1 | مكتملة | 86 | قيّمت **PRT2527 (مثبط CDK9)** كعلاج أحادي وبالتوليفة مع زانوبروتينيب أو venetoclax في الأورام الخبيثة الدموية المتكررة/المقاومة. كان زانوبروتينيب شريك توليفة في تجربة مثبط CDK9 أوسع، وليس دراسة AML/سرطان الدم الميلويدي الأولية. |
 
-Neither trial provides direct efficacy evidence for zanubrutinib in myeloid leukemia.
+لا توفر أي تجربة أدلة فعالية مباشرة لزانوبروتينيب في سرطان الدم الميلويدي.
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA trial 5-year follow-up: zanubrutinib vs. bendamustine+rituximab in treatment-naïve **CLL/SLL** — not myeloid leukemia. |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohort | Blood Advances | Zanubrutinib tolerability/efficacy in **CLL/SLL** patients intolerant of ibrutinib/acalabrutinib. |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohort | Lancet Haematol | Phase 2 single-arm study of zanubrutinib in BTKi-intolerant **B-cell malignancies**. |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Pooled analysis | Blood Advances | Pooled efficacy/safety of zanubrutinib in del(17p)/TP53-mutated **CLL/SLL** across SEQUOIA/ALPINE. |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | TKI era review covering CML and CLL — BCR-ABL1/BCR pathways, not directly zanubrutinib-in-AML. |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | BTK inhibitor management of **Waldenström's macroglobulinemia**. |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review | Clin Lymphoma Myeloma Leuk | HBV reactivation risk with BTK inhibitors (ibrutinib, acalabrutinib, zanubrutinib) in B-cell malignancies. |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case report | Front Immunol | Case of coexisting WM and B-ALL — incidental BTKi relevance, not myeloid leukemia. |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Review (synthetic chemistry) | Anticancer Agents Med Chem | Reviews synthetic methodology of FDA-approved anticancer drugs including zanubrutinib — chemistry-focused, no clinical relevance to myeloid leukemia. |
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | متابعة تجربة SEQUOIA لمدة 5 سنوات: زانوبروتينيب مقابل bendamustine+rituximab في **CLL/SLL** غير المعالج سابقاً — وليس سرطان الدم الميلويدي. |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | مجموعة | Blood Advances | تحمل/فعالية زانوبروتينيب في مرضى **CLL/SLL** غير المتسامحين مع ibrutinib/acalabrutinib. |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | مجموعة | Lancet Haematol | دراسة المرحلة 2 أحادية الذراع لزانوبروتينيب في **الأورام الخبيثة من الخلايا B** غير المتسامحة مع BTKi. |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | تحليل مجمع | Blood Advances | فعالية/سلامة مجمعة من زانوبروتينيب في del(17p)/TP53-mutated **CLL/SLL** عبر SEQUOIA/ALPINE. |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | مراجعة | Pharmaceutics | مراجعة عصر TKI تغطي CML و CLL — مسارات BCR-ABL1/BCR، وليس بشكل مباشر زانوبروتينيب في AML. |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | مراجعة | Leukemia | إدارة مثبطات BTK لـ **داء فالدنشتروم الجلوبيولينيمي**. |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | مراجعة | Clin Lymphoma Myeloma Leuk | خطر إعادة تنشيط HBV مع مثبطات BTK (ibrutinib وacalabrutinib وzanubrutinib) في الأورام الخبيثة من الخلايا B. |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | تقرير حالة | Front Immunol | حالة لـ WM و B-ALL المتعايشة — صلة BTKi عرضية، وليس سرطان الدم الميلويدي. |
+| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | مراجعة (الكيمياء التركيبية) | Anticancer Agents Med Chem | تراجع المنهجية التركيبية للأدوية المضادة للسرطان المعتمدة من FDA بما في ذلك زانوبروتينيب — موجهة للكيمياء، بدون صلة سريرية لسرطان الدم الميلويدي. |
 
-**None of the retrieved literature directly evaluates zanubrutinib in myeloid leukemia.** All disease-specific findings concern CLL/SLL or WM.
-
----
-
-## Saudi Arabia Market Information
-
-Zanubrutinib is currently **not marketed** in Saudi Arabia (0 registered authorizations), so no product/license table is available.
+**لا تقيّم أي من الأدبيات المسترجعة زانوبروتينيب مباشرة في سرطان الدم الميلويدي.** جميع النتائج الخاصة بالأمراض تتعلق بـ CLL/SLL أو WM.
 
 ---
 
-## Cytotoxicity
+## معلومات السوق في المملكة العربية السعودية
 
-| Item | Content |
+زانوبروتينيب حالياً **غير مسوّق** في المملكة العربية السعودية (0 تصاريح مسجلة)، لذا لا جدول منتج/ترخيص متاح.
+
+---
+
+## السمية الخلوية
+
+| البند | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (oral BTK inhibitor; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Low–Moderate (neutropenia reported with BTK inhibitor class; generally less myelosuppressive than cytotoxic chemotherapy) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver and renal function, cardiac monitoring (BTKi class-associated atrial fibrillation risk), bleeding and infection signs |
-| Handling Protection | No cytotoxic-drug handling precautions required (oral targeted small molecule); follow institutional oral oncolytic handling procedures |
+| تصنيف السمية الخلوية | العلاج الموجه (مثبط BTK عن طريق الفم؛ ليس العلاج الكيميائي السام التقليدي) |
+| خطر قمع النخاع العظمي | منخفض–متوسط (نقص العدلات المبلغ عنه مع فئة مثبطات BTK؛ عموماً أقل قمعاً للنخاع من العلاج الكيميائي السام) |
+| تصنيف الغثيان والقيء | منخفض |
+| بنود المراقبة | CBC مع التفريق، وظائف الكبد والكلى، المراقبة القلبية (خطر الرجفان الأذيني المرتبط بفئة BTKi)، علامات النزيف والعدوى |
+| حماية التعامل | لا توجد احتياطات تعامل مع أدوية السم الخلوية مطلوبة (عن طريق الفم جزيء صغير موجه)؛ اتبع إجراءات المؤسسة للأدوية الورمية الفموية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Note: the Saudi/TFDA package insert warnings and contraindications for zanubrutinib are currently a **Blocking** data gap — DG001 — preventing a formal S1 safety evaluation; DDI query also returned no results.)
+يُرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (ملاحظة: تحذيرات نشرة الحزمة السعودية/TFDA والموانع لزانوبروتينيب حالياً **فجوة بيانات حاجزة** — DG001 — تمنع تقييم السلامة الرسمي S1؛ استعلام DDI أيضاً لم يرجع أي نتائج.)
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The TxGNN score is high, but no clinical trial or publication in this evidence pack directly evaluates zanubrutinib in myeloid leukemia — retrieved trials involve unrelated investigational drugs, and retrieved literature addresses CLL/SLL/WM. The rationale is currently a class-effect mechanistic hypothesis (L4), not direct evidence, and a Blocking safety data gap (TFDA package insert) prevents progression to S1 safety review.
+**المبرر:**
+درجة TxGNN عالية، لكن لا توجد تجربة سريرية أو منشور في هذه مجموعة الأدلة يقيّم زانوبروتينيب مباشرة في سرطان الدم الميلويدي — التجارب المسترجعة تتضمن أدوية استقصائية غير ذات صلة، والأدبيات المسترجعة تعالج CLL/SLL/WM. التبرير حالياً فرضية ميكانيكية تأثير فئة (L4)، وليس أدلة مباشرة، وفجوة بيانات سلامة حاجزة (نشرة حزمة TFDA) تمنع التقدم إلى تقييم السلامة S1.
 
-**To proceed, the following is needed:**
-- Confirmed zanubrutinib MOA data from DrugBank (currently a data gap)
-- TFDA/SFDA package insert warnings and contraindications to clear the Blocking gap (DG001) and enable S1 safety evaluation
-- Dedicated preclinical or translational studies of zanubrutinib specifically in myeloid leukemia (AML/CML) models to substantiate the class-effect hypothesis
-- Continued literature/trial surveillance for any zanubrutinib-specific myeloid leukemia studies
+**للمتابعة، يلي ما هو مطلوب:**
+- بيانات آلية زانوبروتينيب المؤكدة من DrugBank (حالياً فجوة بيانات)
+- تحذيرات نشرة حزمة TFDA/SFDA والموانع لتصفية الفجوة الحاجزة (DG001) وتفعيل تقييم السلامة S1
+- دراسات ما قبل العيادات أو الترجمية المخصصة لزانوبروتينيب على وجه التحديد في نماذج سرطان الدم الميلويدي (AML/CML) لإثبات فرضية تأثير الفئة
+- المراقبة المستمرة للأدبيات/التجارب لأي دراسات زانوبروتينيب المحددة لسرطان الدم الميلويدي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

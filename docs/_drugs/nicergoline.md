@@ -29,72 +29,73 @@ indication_count: 8
 
 </div>
 
-# Nicergoline: From Undocumented Original Indication to Migraine Disorder
+# النيسيرجولين: من دلالة أصلية غير موثقة إلى اضطراب الشقيقة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Nicergoline (DrugBank DB00699) currently has no recorded original indication or approved market presence in Taiwan, and its structured mechanism-of-action field is a data gap.
-Among 7 TxGNN-predicted indications, **Migraine Disorder** is the only candidate with any corroborating evidence — **0 clinical trials** but **6 supporting publications** (mostly older mechanistic/preclinical studies, plus one 1984 clinical case series).
-The other 6 predicted indications (e.g., hypertrichosis, BPH, Dandy-Walker syndrome) are model-score-only outputs with no literature or trial support and are explicitly flagged in the evidence pack as lacking any known mechanistic link.
+يفتقر النيسيرجولين (DrugBank DB00699) حالياً إلى أي دلالة أصلية مسجلة أو وجود مقرر في السوق في تايوان، وحقل آلية عمله المنظم هو فجوة بيانات.
+ومن بين 7 دلالات تنبأ بها TxGNN، **اضطراب الشقيقة** هو المرشح الوحيد الذي لديه أي دليل مؤكد — **0 تجربة سريرية** لكن **6 منشورات داعمة** (في الغالب دراسات ميكانيكية/سابقة للإكلينيكية الأقدم، بالإضافة إلى سلسلة حالات سريرية واحدة من 1984).
+الدلالات الستة المتوقعة الأخرى (مثل فرط الشعر، تضخم البروستاتا الحميد، متلازمة دندي-ووكر) هي مخرجات تسجيل نموذجية فقط بدون دعم أدبي أو تجريبي وتم وضع علامة صريحة عليها في حزمة الأدلة كدلالات تفتقد أي ارتباط آلي معروف.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication on file; drug is not marketed in Taiwan |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.12% |
-| Evidence Level | L3 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الدلالة الأصلية | غير متاحة — لا توجد دلالة مقررة مسجلة؛ الدواء لا يُباع في تايوان |
+| الدلالة الجديدة المتنبأ بها | اضطراب الشقيقة |
+| درجة التنبؤ بـ TxGNN | 99.12% |
+| مستوى الدليل | L3 |
+| حالة سوق تايوان | غير مباع (Not Marketed) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism-of-action data is not available in the structured `original_moa` field (flagged as a Blocking/High data gap). However, the repurposing rationale attached to this prediction indicates nicergoline is an ergot alkaloid derivative with alpha‑1 adrenergic receptor antagonism, cerebral vasodilating activity, and serotonin (5‑HT) transport modulation.
+حالياً، لا توجد بيانات آلية عمل مفصلة متاحة في حقل `original_moa` المنظم (تم وضع علامة عليه كفجوة بيانات حجب/عالية الأولوية). لكن، المبرر الخاص بإعادة استخدام المرفق مع هذا التنبؤ يشير إلى أن النيسيرجولين هو مشتق من قلويدات الإرغوت مع معاكسة مستقبلات ألفا-1 الأدرينالية، ونشاط توسيع أوعية دموية دماغية، وتعديل نقل السيروتونين (5-HT).
 
-These pharmacological properties mechanistically overlap with classical anti-migraine ergot alkaloids (e.g., ergotamine, methysergide), giving the TxGNN prediction some biological plausibility rather than being a purely arbitrary graph-similarity output.
+هذه الخصائص الدوائية تتداخل ميكانيكياً مع الأدوية القلوية المضادة للشقيقة الكلاسيكية (مثل الإرغوتامين، الميثيسرجيد)، مما يعطي التنبؤ TxGNN بعض المعقولية البيولوجية بدلاً من كونه مخرجاً تعسفياً لتشابه الرسم البياني.
 
-This is also reflected in the literature: several preclinical/mechanistic studies from the 1980s–2000s directly tested nicergoline in migraine-relevant models (cerebral blood flow, serotonin transport/release), and one 1984 Polish-language publication explicitly describes clinical use of nicergoline ("Sermion") for migraine treatment — suggesting a historical, if outdated and thinly documented, precedent for this use.
+يُعكس هذا أيضاً في الأدب: عدة دراسات ميكانيكية/سابقة للإكلينيكية من الثمانينيات إلى الألفينيات اختبرت مباشرة النيسيرجولين في نماذج ذات صلة بالشقيقة (تدفق الدم الدماغي، نقل/إفراز السيروتونين)، وتصف منشورة واحدة من 1984 باللغة البولندية بشكل صريح الاستخدام السريري للنيسيرجولين ("Sermion") لعلاج الشقيقة — مما يشير إلى سابقة تاريخية، وإن كانت قديمة وموثقة بشكل ضئيل، لهذا الاستخدام.
 
-Because `original_indications` is empty in this evidence pack, no direct comparison to a confirmed original indication can be made — this relationship should be treated as unverified until the drug's approved indication history is retrieved.
+نظراً لأن `original_indications` فارغ في حزمة الأدلة هذه، لا يمكن إجراء مقارنة مباشرة مع دلالة مقررة مؤكدة — يجب التعامل مع هذه العلاقة على أنها غير محققة حتى يتم استرجاع سجل الدلالات المقررة للدواء.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [6385484](https://pubmed.ncbi.nlm.nih.gov/6385484/) | 1984 | Cohort/Case series | Wiadomości Lekarskie | Direct clinical report on use of nicergoline (Sermion) in migraine treatment; abstract text not available |
-| [2622296](https://pubmed.ncbi.nlm.nih.gov/2622296/) | 1989 | Preclinical/Experimental | Methods Find Exp Clin Pharmacol | Nicergoline reduced cerebrovascular resistance and modulated serotonin (5-HT)-induced cerebral vessel constriction in animal models relevant to migraine pathogenesis |
-| [8374139](https://pubmed.ncbi.nlm.nih.gov/8374139/) | 1993 | Mechanistic (in vitro) | Biull Eksp Biol Med | Nicergoline, alongside other antimigraine agents, affects serotonin transport in platelets from migraine patients and healthy controls |
-| [2625145](https://pubmed.ncbi.nlm.nih.gov/2625145/) | 1989 | Mechanistic (in vitro) | Farmakologiia i Toksikologiia | Nicergoline acts as a competitive inhibitor of serotonin uptake and enhances serotonin release in rat brain synaptosomes, a proposed antimigraine mechanism |
-| [2684591](https://pubmed.ncbi.nlm.nih.gov/2684591/) | 1989 | Review | Drugs | Review of flunarizine (a different drug class) for migraine prophylaxis; included as comparator context, does not directly study nicergoline |
-| [12924226](https://pubmed.ncbi.nlm.nih.gov/12924226/) | 2003 | Mechanistic/Comparative | Eksp Klin Farmakol | Comparative study of antiserotonin cerebrovascular effects among antimigraine agents; nicergoline not explicitly named in the available abstract |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [6385484](https://pubmed.ncbi.nlm.nih.gov/6385484/) | 1984 | مجموعة الحالات/سلسلة الحالات | Wiadomości Lekarskie | تقرير سريري مباشر عن استخدام النيسيرجولين (Sermion) في علاج الشقيقة؛ نص الملخص غير متاح |
+| [2622296](https://pubmed.ncbi.nlm.nih.gov/2622296/) | 1989 | سابق للإكلينيكية/تجريبي | Methods Find Exp Clin Pharmacol | قلل النيسيرجولين المقاومة الأوعية الدموية الدماغية وعدّل تضيق الأوعية الدموية المستحث بالسيروتونين (5-HT) في نماذج حيوانية ذات صلة بمسببات الشقيقة |
+| [8374139](https://pubmed.ncbi.nlm.nih.gov/8374139/) | 1993 | آلية (في الحيوية) | Biull Eksp Biol Med | النيسيرجولين، إلى جانب عوامل أخرى مضادة للشقيقة، يؤثر على نقل السيروتونين في الصفائح الدموية من مرضى الشقيقة والأفراد الأصحاء |
+| [2625145](https://pubmed.ncbi.nlm.nih.gov/2625145/) | 1989 | آلية (في الحيوية) | Farmakologiia i Toksikologiia | يعمل النيسيرجولين كمثبط تنافسي لامتصاص السيروتونين ويعزز إفراز السيروتونين في الشرائط المشبكية لدماغ الفئران، آلية مقترحة لمضادات الشقيقة |
+| [2684591](https://pubmed.ncbi.nlm.nih.gov/2684591/) | 1989 | استعراض | Drugs | استعراض الفلونارزين (فئة دواء مختلفة) لنبوء الشقيقة؛ مُضمّن كسياق مقارن، لا يدرس النيسيرجولين مباشرة |
+| [12924226](https://pubmed.ncbi.nlm.nih.gov/12924226/) | 2003 | آلية/مقارن | Eksp Klin Farmakol | دراسة مقارنة للتأثيرات الأوعية الدموية الدماغية المضادة للسيروتونين بين عوامل مضادة للشقيقة؛ النيسيرجولين لم يُذكر صراحة في الملخص المتاح |
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Currently not marketed in Taiwan; no license records are on file (0 authorizations).
+حالياً غير مباع في تايوان؛ لا توجد سجلات ترخيص مسجلة (0 تفويضات).
 
-## Safety Considerations
+## الاعتبارات الأمنية
 
-Please refer to the package insert for safety information. (TFDA warnings, contraindications, and DDI data are all currently unavailable — TFDA package-insert retrieval is flagged as a **Blocking** data gap.)
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات الأمان. (تحذيرات TFDA والموانع الاستعمال وبيانات التفاعلات الدوائية المتبادلة كلها غير متاحة حالياً — استرجاع نشرة TFDA الدوائية معلمة كفجوة بيانات **حجب**.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Evidence for the migraine indication is limited to older (1980s–2000s) mechanistic/preclinical studies and a single undated-abstract clinical case series from 1984, with no completed or ongoing clinical trials. Combined with a Blocking data gap on TFDA safety warnings/contraindications, the candidate cannot yet proceed to an S1 safety evaluation.
+**المبرر:**
+الدليل على دلالة الشقيقة مقتصر على دراسات ميكانيكية/سابقة للإكلينيكية أقدم (الثمانينيات – الألفينيات) وسلسلة حالات سريرية واحدة غير مؤرخة من 1984، بدون تجارب سريرية مكتملة أو جارية. مقترن بفجوة بيانات حجب على تحذيرات TFDA/الموانع الاستعمال، لا يمكن للمرشح أن يمضي قدماً حالياً إلى تقييم السلامة S1.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently Blocking
-- Confirmed original indication and structured MOA data (currently Data Gap)
-- Full-text retrieval and modern re-evaluation of the 1984 case series (PMID 6385484)
-- Updated literature/trial search for any recent (post-2003) migraine studies
-- Formal drug-drug interaction (DDI) database query (current status: not found)
+**للمتابعة، يكون المطلوب:**
+- نشرة TFDA الدوائية (التحذيرات، الموانع الاستعمال) — حالياً حجب
+- دلالة أصلية مؤكدة وبيانات آلية عمل منظمة (حالياً فجوة بيانات)
+- استرجاع النص الكامل وإعادة تقييم حديثة لسلسلة الحالات من 1984 (PMID 6385484)
+- بحث أدب/تجارب محدّث عن أي دراسات شقيقة حديثة (ما بعد 2003)
+- استعلام رسمي عن قاعدة بيانات التفاعلات الدوائية المتبادلة (حالة التفاعلات الدوائية المتبادلة: لم يتم العثور عليها)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

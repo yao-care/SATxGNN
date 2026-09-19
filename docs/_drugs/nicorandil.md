@@ -29,66 +29,67 @@ indication_count: 7
 
 </div>
 
-# Nicorandil: From Angina Pectoris to Benign Prostatic Hyperplasia
+# نيكوراندل: من الذبحة الصدرية إلى فرط تضخم البروستاتا الحميد
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Nicorandil is a potassium-channel opener / nitric oxide donor classically used for angina pectoris (this original-indication detail is not present in the current regulatory data pack and is stated here as general pharmacological background, not as sourced Saudi Arabia data). The TxGNN model predicts it may be effective for **Benign Prostatic Hyperplasia (BPH)**, but currently only **3 preclinical/mechanistic publications** support this direction, with **no registered clinical trials**.
+نيكوراندل هو فاتح قنوات البوتاسيوم / مانح أكسيد النيتريك الذي يُستخدم تقليدياً لعلاج الذبحة الصدرية (هذه التفاصيل الخاصة بالمؤشر الأصلي غير موجودة في حزمة البيانات التنظيمية الحالية وتُذكر هنا كخلفية صيدلانية عامة، وليس كبيانات مستمدة من السعودية). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لعلاج **فرط تضخم البروستاتا الحميد (BPH)**، لكن حالياً تدعم هذا الاتجاه فقط **3 منشورات سابقة للتجارب السريرية/ميكانيكية**، مع **عدم وجود تجارب سريرية مسجلة**.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| المقياس | المحتوى |
 |------|------|
-| Original Indication | Angina pectoris (general pharmacological knowledge; not available in the Saudi Arabia regulatory record, as the drug is not marketed there) |
-| Predicted New Indication | Benign Prostatic Hyperplasia (disease) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 (preclinical / mechanism studies only) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الذبحة الصدرية (معرفة صيدلانية عامة؛ غير متوفرة في السجل التنظيمي السعودي لأن الدواء غير مسوّق هناك) |
+| المؤشر الجديد المتنبأ به | فرط تضخم البروستاتا الحميد (المرض) |
+| درجة التنبؤ في TxGNN | 99.71% |
+| مستوى الدليل | L4 (الدراسات السابقة للتجارب السريرية / الدراسات الميكانيكية فقط) |
+| حالة السوق السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism-of-action data from the drug record itself is not available (`original_moa` is a data gap). However, the evidence pack's repurposing rationale identifies nicorandil as a dual-action vasodilator: a KATP channel opener and a nitric oxide (NO) donor.
+حالياً، البيانات التفصيلية لآلية عمل الدواء من السجل الدوائي نفسه غير متوفرة (`original_moa` هي فجوة بيانات). ومع ذلك، تحدد نسبة إعادة الاستخدام في حزمة الأدلة نيكوراندل كموسع أوعية ثنائي الفعل: فاتح قنوات البوتاسيوم (KATP) ومانح أكسيد النيتريك (NO).
 
-There is a proposed "vascular dysfunction" hypothesis for BPH/lower urinary tract symptoms (LUTS), in which impaired prostatic blood flow (ischemia) contributes to prostatic hyperplasia, and this is associated with atherosclerotic risk factors such as hypertension. Since nicorandil's core pharmacology is vasodilation, the theoretical link is that improving prostatic blood flow could relieve LUTS.
+هناك فرضية "خلل وظيفي وعائي" مقترحة لفرط التضخم الحميد/أعراض المسالك البولية السفلية (LUTS)، حيث يساهم ضعف تدفق الدم في البروستاتا (نقص التروية) في تضخم البروستاتا، وهذا يرتبط بعوامل خطر تصلب الشرايين مثل ارتفاع ضغط الدم. بما أن الصيدلة الأساسية لنيكوراندل هي توسع الأوعية، فإن الارتباط النظري هو أن تحسين تدفق الدم في البروستاتا يمكن أن يخفف من أعراض المسالك البولية السفلية.
 
-This is an indirect, organ-perfusion-based mechanistic link rather than a direct hit on the primary molecular pathway of BPH (androgen/AR signaling). The connection is of moderate strength and currently rests on animal and mechanistic studies rather than human clinical data.
+هذا ارتباط ميكانيكي غير مباشر يعتمد على إرواء الأعضاء بدلاً من الضربة المباشرة على المسار الجزيئي الأساسي لفرط التضخم الحميد (إشارات الأندروجين/AR). الارتباط متوسط القوة ويستند حالياً على الدراسات الحيوانية والميكانيكية بدلاً من البيانات السريرية البشرية.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Review | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Reviews prostatic blood flow as a target in BPH; notes clinical association between BPH/BPE and atherosclerotic disease (e.g., hypertension) via impaired lower urinary tract blood supply. |
-| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Cohort/Pilot (inferred) | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Discusses LUTS as a vascular dysfunction and the effect of nicorandil as a vasodilator; abstract text not available. |
-| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Animal study | Scientific Reports | In spontaneously hypertensive rats, 6 weeks of nicorandil treatment was used to study prostatic blood flow and ventral prostatic hyperplasia, supporting a prostatic-ischemia mechanism for BPH development. |
+| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | مراجعة | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | تستعرض تدفق الدم في البروستاتا كهدف في فرط التضخم الحميد؛ تلاحظ الارتباط السريري بين فرط التضخم الحميد/تضخم البروستاتا والمرض تصلبي الشرايين (مثل ارتفاع ضغط الدم) عبر ضعف إمدادات الدم في المسالك البولية السفلية. |
+| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | الدراسة السكانية/الدراسة الاستكشافية (مستنتج) | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | تناقش أعراض المسالك البولية السفلية كخلل وظيفي وعائي وتأثير نيكوراندل كموسع أوعية؛ نص الملخص غير متاح. |
+| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | دراسة حيوانية | Scientific Reports | في الفئران المصابة بارتفاع ضغط الدم التلقائي، تم استخدام علاج نيكوراندل لمدة 6 أسابيع لدراسة تدفق الدم في البروستاتا وتضخم البروستاتا البطني، مما يدعم آلية نقص التروية في البروستاتا لتطور فرط التضخم الحميد. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Nicorandil is not currently marketed in Saudi Arabia (0 authorizations on record); no license or product information is available.
+نيكوراندل غير مسوّق حالياً في المملكة العربية السعودية (0 تصاريح مسجلة)؛ لا توجد معلومات ترخيص أو منتج متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable — DDI query returned no results, and the TFDA/regulatory package insert data required for a formal safety screen is flagged as a blocking data gap.)
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة. (التحذيرات الرئيسية، والموانع، وبيانات التفاعلات الدوائية، جميعها غير متوفرة حالياً — لم تعد استعلام التفاعلات الدوائية بأي نتائج، وبيانات ملخص الخصائص من TFDA/الجهات التنظيمية المطلوبة لفحص السلامة الرسمي تم تحديدها كفجوة بيانات حظر.)
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-The BPH hypothesis rests entirely on one animal study and two review/mechanistic articles (Evidence Level L4), with no clinical trials in humans and no registered ICTRP studies. Combined with the fact that regulatory/package-insert safety data is a blocking gap (cannot yet complete a preliminary safety screen) and the drug is unmarketed in Saudi Arabia, there is currently insufficient basis to advance beyond a research question.
+**الأساس المنطقي:**
+تستند فرضية فرط التضخم الحميد بالكامل على دراسة حيوانية واحدة ومقالتي مراجعة/ميكانيكية (مستوى الدليل L4)، مع عدم وجود تجارب سريرية على البشر وعدم وجود دراسات ICTRP مسجلة. بالإضافة إلى ذلك، حقيقة أن بيانات السلامة التنظيمية/ملخص الخصائص هي فجوة حظر (لا يمكن إكمال فحص السلامة الأولي حتى الآن) والدواء غير مسوّق في المملكة العربية السعودية، لا توجد حالياً أساس كافٍ للمضي قدماً بما يتجاوز سؤال بحثي.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) to clear the blocking safety data gap
-- Confirmed original indication and detailed MOA sourced from an authoritative drug reference (DrugBank API or equivalent)
-- Preclinical or early human data specifically linking KATP-channel/NO-donor vasodilation to prostatic volume or LUTS symptom outcomes
-- If pursued, a Phase 2 proof-of-concept trial in BPH/LUTS patients, given no clinical trials currently exist for this indication
+**للمضي قدماً، يتطلب الأمر ما يلي:**
+- ملخص خصائص المنتج من TFDA/الشركة المصنعة (التحذيرات، الموانع) لإزالة فجوة بيانات السلامة الحاظرة
+- مؤشر أصلي مؤكد وآلية عمل مفصلة مستمدة من مرجع دوائي موثوق (DrugBank API أو ما يعادله)
+- بيانات سابقة للتجارب السريرية أو بيانات بشرية مبكرة تربط بشكل خاص توسع الأوعية من فاتح قنوات البوتاسيوم/مانح أكسيد النيتريك بحجم البروستاتا أو نتائج أعراض المسالك البولية السفلية
+- إذا تم المتابعة، تجربة إثبات المفهوم من المرحلة 2 لدى مرضى فرط التضخم الحميد/أعراض المسالك البولية السفلية، بالنظر إلى عدم وجود تجارب سريرية حالياً لهذا المؤشر
 
-*Note: Four additional lower-ranked predictions (alopecia, hypotrichosis simplex, congenital hypotrichosis milia, diffuse alopecia areata, osteoarthritis/osteoarthritis susceptibility) were also flagged by TxGNN but carry Evidence Level L5 (model prediction only, no literature or trials) and are all recommended Hold.*
+*ملاحظة: أيضاً تم تحديد أربعة تنبؤات أخرى بترتيب أقل (الصلع، قلة الشعر البسيطة، الحثل الشعري الخلقي مع الميليا، الصلع البقعي المنتشر، هشاشة العظام/القابلية للإصابة بهشاشة العظام) بواسطة TxGNN لكنها تحمل مستوى دليل L5 (تنبؤ النموذج فقط، بدون أدبيات أو تجارب) وجميعها موصى بها بالتأجيل.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

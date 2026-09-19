@@ -29,86 +29,87 @@ indication_count: 7
 
 </div>
 
-# Dexpanthenol: From Topical Skin Care to Exanthem (Skin Rash)
+# ديكسبانثينول: من العناية بالجلد الموضعية إلى الطفح الجلدي (Exanthem)
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dexpanthenol (provitamin B5, brand name Bepanthen®/Bepantol®) is a widely used topical agent known for its skin moisturizing, wound healing, and epithelial repair properties, though it carries no formally registered indication in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Exanthem (Skin Rash)** — the highest-actionability prediction in this candidate set — with **5 clinical trials including 1 completed Phase 3 RCT** directly evaluating Bepanthen® cream for skin eruption prevention.
-Among all 7 predicted indications, exanthem is the only one with clinical trial evidence (Evidence Level L2), making it the primary candidate for further regulatory and clinical evaluation.
+ديكسبانثينول (بروفيتامين B5، اسم العلامة التجارية Bepanthen®/Bepantol®) عامل موضعي معروف بخصائصه في ترطيب الجلد والتئام الجروح وإصلاح الأنسجة الظهارية، على الرغم من أنه لا يحتوي على مؤشر مسجل رسمياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الطفح الجلدي (Exanthem)** — أعلى توقع قابل للتنفيذ في مجموعة المرشحين هذه — مع **5 تجارب سريرية بما في ذلك 1 تجربة المرحلة 3 العشوائية المضبوطة المكتملة** التي تقيّم مباشرة كريم Bepanthen® لمنع طفح الجلد.
+من بين جميع المؤشرات السبعة المتنبأ بها، الطفح الجلدي هو المؤشر الوحيد الذي يحتوي على دليل التجارب السريرية (مستوى الدليل L2)، مما يجعله المرشح الأساسي للتقييم التنظيمي والسريري الإضافي.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | No registered indication in Saudi Arabia (0 authorizations) |
-| Predicted New Indication | Exanthem (Skin Rash) |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | لا يوجد مؤشر مسجل في المملكة العربية السعودية (0 موافقة) |
+| المؤشر الجديد المتنبأ به | الطفح الجلدي (Exanthem) |
+| درجة توقع نموذج TxGNN | 99.60% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المضي قدماً مع ضوابط الحماية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacological information, dexpanthenol is the alcohol analog of pantothenic acid (Vitamin B5) and serves as a direct precursor to Coenzyme A (CoA) in mammalian cells. It is the active ingredient in Bepanthen® (Bayer) and Bepantol® (Bayer), products widely used across dermatological and wound care applications globally.
+حالياً، لا توجد بيانات آلية تفصيلية للعمل متاحة من حزمة الأدلة. بناءً على المعلومات الدوائية المعروفة، ديكسبانثينول هو نظير الكحول لحمض البانتوثينيك (فيتامين B5) وبمثابة مقدمة مباشرة لإنزيم A المساعد (CoA) في الخلايا الثديية. إنه المكون النشط في Bepanthen® (Bayer) و Bepantol® (Bayer)، المنتجات المستخدمة على نطاق واسع عبر التطبيقات الجلدية وعناية الجروح على مستوى العالم.
 
-Dexpanthenol's pharmacological effects are directly relevant to exanthem pathophysiology: it promotes keratinocyte proliferation, accelerates epidermal regeneration, sustains skin barrier hydration, and exerts anti-inflammatory effects on irritated tissue. When skin rash occurs — whether from drug toxicity, radiation, infection, or inflammation — the primary therapeutic need is rapid epithelial repair and barrier restoration, which maps precisely onto dexpanthenol's known mechanism. This is not a mechanistic stretch; the drug acts on the exact tissue type and cellular processes disrupted in exanthem.
+تأثيرات ديكسبانثينول الدوائية مرتبطة مباشرة بفسيولوجيا مرض الطفح الجلدي: فهو يعزز انتشار الخلايا الكيراتينية، ويسرع تجديد البشرة، ويحافظ على ترطيب حاجز الجلد، ويمارس تأثيرات مضادة للالتهاب على الأنسجة المتهيجة. عندما يحدث طفح جلدي — سواء من السمية الدوائية أو الإشعاع أو العدوى أو الالتهاب — تكون الحاجة العلاجية الأساسية هي إصلاح الأنسجة الظهارية السريع واستعادة الحاجز، والذي يقابل بدقة آلية عمل ديكسبانثينول المعروفة. هذا ليس امتداداً ميكانيكياً؛ فالعقار يعمل على نوع الأنسجة بالضبط والعمليات الخلوية المعطلة في الطفح الجلدي.
 
-Clinical precedent reinforces this reasoning. NCT01136005, a completed Phase 3 double-blind RCT enrolling 160 patients, directly tested Bepanthen® cream against Cetomacrogol cream for the preemptive prevention of papulopustular eruption in patients receiving EGFR inhibitor (EGFRI) therapy — one of the most clinically significant forms of drug-induced skin rash. This trial establishes a formal, high-quality clinical evidence base for dexpanthenol in rash management that goes beyond its traditional wound-healing use.
+تعزز السوابق السريرية هذا التفكير. NCT01136005، تجربة عشوائية مضبوطة مكتملة في المرحلة 3 التي استقطبت 160 مريضاً، اختبرت مباشرة كريم Bepanthen® مقابل كريم Cetomacrogol للوقاية الاستباقية من طفح البثري في المرضى الذين يتلقون العلاج بمثبط مستقبل عامل نمو البشرة (EGFRI) — أحد أكثر أشكال الطفح الناجم عن الأدوية أهمية سريرية. تؤسس هذه التجربة قاعدة أدلة سريرية رسمية وعالية الجودة لديكسبانثينول في إدارة الطفح تتجاوز استخدامه التقليدي في شفاء الجروح.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01136005](https://clinicaltrials.gov/study/NCT01136005) | Phase 3 | Completed | 160 | Phase 3 double-blind RCT directly comparing Bepanthen® cream (dexpanthenol) vs. Cetomacrogol cream for preemptive prevention of ≥Grade 2 papulopustular eruption in EGFR inhibitor-treated patients; evaluated health-related quality of life (HRQoL) and adherence over 6-week skin treatment period — strongest direct evidence for dexpanthenol in skin rash |
-| [NCT03852563](https://clinicaltrials.gov/study/NCT03852563) | N/A | Completed | 33 | Directly evaluated Bepantol® cream (dexpanthenol brand product) for skin recovery and reduction of skin rash following ablative laser dermatological procedures on the face; assessed redness, irritation, softness, and adverse effects over 3 weeks — provides direct dexpanthenol efficacy data in post-procedure rash recovery |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Phase 1 | Terminated | 49 | Evaluated topical imiquimod (5%, 0.05%, and nanoencapsulated formulations) for actinic cheilitis (potentially malignant lower lip lesion); dexpanthenol likely used as adjunct skin barrier care rather than primary study drug; trial terminated early, limiting citability |
-| [NCT05699122](https://clinicaltrials.gov/study/NCT05699122) | N/A | Completed | 16 | Low-level laser therapy (LLLT) for incontinence-associated dermatitis (IAD) in elderly patients; dexpanthenol likely served as standard barrier care in the control arm; primary intervention was laser therapy, not dexpanthenol — indirect supporting role only |
-| [NCT03866447](https://clinicaltrials.gov/study/NCT03866447) | Phase 4 | Unknown | 80 | Vitamin D and topical analogues for acne vulgaris; study drug is vitamin D derivatives, not dexpanthenol; connection to exanthem classification is uncertain; included due to knowledge-graph skin disease node clustering |
+| [NCT01136005](https://clinicaltrials.gov/study/NCT01136005) | المرحلة 3 | مكتملة | 160 | تجربة عشوائية مضبوطة عمياء مزدوجة في المرحلة 3 تقارن مباشرة كريم Bepanthen® (ديكسبانثينول) مقابل كريم Cetomacrogol للوقاية الاستباقية من طفح بثري بدرجة ≥2 في المرضى المعالجين بمثبط مستقبل عامل نمو البشرة؛ قيّمت نوعية الحياة المتعلقة بالصحة (HRQoL) والالتزام على مدى فترة علاج الجلد 6 أسابيع — أقوى دليل مباشر لديكسبانثينول في الطفح الجلدي |
+| [NCT03852563](https://clinicaltrials.gov/study/NCT03852563) | غير مطبق | مكتملة | 33 | قيّمت مباشرة كريم Bepantol® (منتج علامة ديكسبانثينول التجارية) لاستعادة الجلد وتقليل الطفح الجلدي بعد إجراءات الليزر الاستئصالية للجلد على الوجه؛ قيّمت الاحمرار والتهيج والنعومة والآثار الضارة على مدى 3 أسابيع — توفر بيانات فعالية ديكسبانثينول المباشرة في استعادة الطفح بعد الإجراء |
+| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | المرحلة 1 | توقفت | 49 | قيّمت الإيميكويمود الموضعي (5% و 0.05% والتركيبات المغلفة بالنانو) لالتهاب الشفة الشمسي (آفة الشفة السفلية المحتملة التسرطن)؛ ربما تم استخدام ديكسبانثينول كرعاية حاجز الجلد المساعدة بدلاً من العقار الأساسي للدراسة؛ توقفت التجربة مبكراً، مما يحد من قابليتها للاستشهاد |
+| [NCT05699122](https://clinicaltrials.gov/study/NCT05699122) | غير مطبق | مكتملة | 16 | علاج بالليزر منخفض المستوى (LLLT) لالتهاب الجلد المرتبط بسلس البول (IAD) في المرضى المسنين؛ ربما خدم ديكسبانثينول كرعاية حاجز معيارية في الذراع الضابطة؛ التدخل الأساسي كان العلاج بالليزر وليس ديكسبانثينول — دور مساعد غير مباشر فقط |
+| [NCT03866447](https://clinicaltrials.gov/study/NCT03866447) | المرحلة 4 | غير معروف | 80 | فيتامين D والنظائر الموضعية لحب الشباب الشائع؛ عقار الدراسة هو مشتقات فيتامين D وليس ديكسبانثينول؛ الارتباط بتصنيف الطفح الجلدي غير مؤكد؛ مدرج لأسباب تجميع عقدة أمراض الجلد في الرسم البياني للمعرفة |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available for dexpanthenol in exanthem from the Evidence Pack database search.
-
----
-
-## Saudi Arabia Market Information
-
-Dexpanthenol currently has **no registered product authorizations** in Saudi Arabia. No licenses are on record as of the data cutoff date (2026-06-16).
+لا تتوفر حالياً أدبيات ذات صلة لديكسبانثينول في الطفح الجلدي من بحث قاعدة بيانات حزمة الأدلة.
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Please refer to the package insert for safety information.
+ديكسبانثينول حالياً **لا يحتوي على أي تراخيص منتج مسجل** في المملكة العربية السعودية. لا توجد تراخيص مسجلة اعتباراً من تاريخ قطع البيانات (2026-06-16).
 
 ---
 
-## Conclusion and Next Steps
+## الاعتبارات الأمنية
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ملحق الحزمة للحصول على معلومات الأمان.
 
-**Rationale:**
-A completed Phase 3 RCT (NCT01136005, n=160) directly tested Bepanthen® cream for prevention of EGFRI-induced papulopustular skin eruption, and an additional completed trial (NCT03852563) evaluated Bepantol® cream for post-procedure skin rash recovery — both trials use branded dexpanthenol products as the primary study intervention, establishing L2-level evidence. The mechanistic basis (keratinocyte proliferation, epithelial regeneration, anti-inflammatory and barrier-restoration effects) aligns directly with exanthem pathophysiology.
+---
 
-**To proceed, the following is needed:**
+## الخلاصة والخطوات التالية
 
-- Obtain full published results from NCT01136005 (BeCet trial) to confirm primary efficacy outcomes and confirm the precise indication scope (EGFRI rash vs. broader exanthem classification)
-- Conduct supplementary PubMed literature search to identify publications arising from NCT01136005 and NCT03852563
-- Retrieve formal MOA documentation from DrugBank API to support mechanistic rationale section
-- Obtain dexpanthenol package insert safety data (TFDA or EMA source) to complete contraindication and warning assessment
-- Assess Saudi Arabia regulatory pathway for topical dexpanthenol product registration, including applicable dosage forms
-- Evaluate route compatibility for the target indication (topical administration is expected; confirm if systemic formulations are relevant)
-- Note for ophthalmology team: Punctate Epithelial Keratoconjunctivitis (rank 7, L4) is a secondary candidate of interest — Corneregel® 5% ophthalmic gel (dexpanthenol) is approved in Europe for corneal epithelial repair, warranting a dedicated literature search to characterize existing evidence before advancing to clinical trial discussion
+**القرار: المضي قدماً مع ضوابط الحماية**
+
+**المنطق:**
+اختبرت تجربة عشوائية مضبوطة مكتملة في المرحلة 3 (NCT01136005، n=160) مباشرة كريم Bepanthen® لمنع طفح بثري ناجم عن مثبط مستقبل عامل نمو البشرة، وقيّمت تجربة مكتملة إضافية (NCT03852563) كريم Bepantol® لاستعادة الطفح الجلدي بعد الإجراء — استخدمت كلا التجربتين منتجات ديكسبانثينول بعلامات تجارية كتدخل دراسة أساسي، مما يؤسس دليل المستوى L2. يتوافق الأساس الميكانيكي (انتشار الخلايا الكيراتينية، تجديد الأنسجة الظهارية، والتأثيرات المضادة للالتهاب واستعادة الحاجز) مباشرة مع فسيولوجيا مرض الطفح الجلدي.
+
+**للمضي قدماً، يلزم ما يلي:**
+
+- الحصول على النتائج المنشورة الكاملة من NCT01136005 (تجربة BeCet) لتأكيد نتائج الفعالية الأساسية وتأكيد نطاق المؤشر الدقيق (طفح EGFRI مقابل تصنيف الطفح الأوسع)
+- إجراء بحث أدبيات تكميلي في PubMed لتحديد المنشورات الناشئة من NCT01136005 و NCT03852563
+- استرجاع الوثائق الرسمية للآلية من DrugBank API لدعم قسم المنطق الميكانيكي
+- الحصول على بيانات الأمان من ملحق ديكسبانثينول (مصدر TFDA أو EMA) لإكمال تقييم موانع الاستعمال والتحذيرات
+- تقييم المسار التنظيمي في المملكة العربية السعودية لتسجيل منتج ديكسبانثينول الموضعي، بما في ذلك أشكال الجرعات المعمول بها
+- تقييم توافق المسار للمؤشر المستهدف (من المتوقع الإدارة الموضعية؛ تأكيد ما إذا كانت التركيبات الجهازية ذات صلة)
+- ملاحظة لفريق طب العيون: التهاب الملتحمة الظهاري النقطي (التصنيف 7، L4) هو مرشح ثانوي محل اهتمام — جل Corneregel® بنسبة 5% للعين (ديكسبانثينول) موافق عليه في أوروبا لإصلاح الظهارة القرنية، مما يبرر بحث أدبيات مخصص لتوصيف الأدلة الموجودة قبل المضي قدماً في مناقشة التجارب السريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

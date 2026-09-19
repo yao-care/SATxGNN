@@ -29,63 +29,64 @@ indication_count: 2
 
 </div>
 
-# Telotristat Ethyl: From Carcinoid Syndrome Diarrhea to Cauda Equina Syndrome
+# تيلوتريستات إيثيل: من الإسهال المرتبط بمتلازمة السرطانية الغدية إلى متلازمة ذيل الحصان
 
-*Note: The evidence pack itself does not contain an "original indication" field (empty `original_indications`, MOA marked `[Data Gap]`). The original indication above is based on publicly available drug information (Telotristat ethyl / Xermelo®, a peripheral TPH1 inhibitor used for carcinoid syndrome–associated diarrhea), not on data confirmed within this evidence pack.*
+*ملاحظة: لا تحتوي حقيبة الأدلة نفسها على حقل "المؤشر الأصلي" (فارغ `original_indications`، وآلية العمل محددة `[Data Gap]`). المؤشر الأصلي أعلاه يعتمد على معلومات الأدوية المتاحة بشكل عام (تيلوتريستات إيثيل / Xermelo®، مثبط محيطي لـ TPH1 يُستخدم في الإسهال المرتبط بمتلازمة السرطانية الغدية)، وليس على بيانات مؤكدة ضمن حقيبة الأدلة هذه.*
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Telotristat ethyl is a peripheral tryptophan hydroxylase-1 (TPH1) inhibitor; its confirmed original indication is not documented in this evidence pack. The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags the prediction as likely a knowledge-graph artifact rather than a genuine pharmacological signal.
+تيلوتريستات إيثيل هو مثبط محيطي لتريبتوفان هيدروكسيليز-1 (TPH1)؛ لم يتم توثيق مؤشره الأصلي المؤكد في حقيبة الأدلة هذه. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة ذيل الحصان**، لكن هذا الاتجاه يدعمه حالياً **0 تجارب سريرية** و **0 منشورات**، وتراجعة آلية العمل الخاصة بحقيبة الأدلة نفسها تشير إلى أن التنبؤ على الأرجح يعكس قطعة أثرية من الرسم البياني للمعرفة وليس إشارة دوائية حقيقية.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (data gap); publicly known use is carcinoid syndrome–associated diarrhea |
-| Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | غير متاح في حقيبة الأدلة (فجوة بيانات)؛ الاستخدام المعروف بشكل عام هو الإسهال المرتبط بمتلازمة السرطانية الغدية |
+| المؤشر الجديد المتنبأ به | متلازمة ذيل الحصان |
+| درجة التنبؤ بـ TxGNN | 99.38% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة |
+| عدد التفويضات | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, telotristat ethyl is a peripheral TPH1 inhibitor that reduces serotonin synthesis in enterochromaffin cells of the gut; its action is largely confined to the periphery, and the drug does not readily cross the blood-brain barrier.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة في حقيبة الأدلة هذه. بناءً على المعلومات المعروفة، تيلوتريستات إيثيل هو مثبط محيطي لـ TPH1 يقلل من تخليق السيروتونين في خلايا enterochromaffin في الأمعاء؛ يقتصر عمله إلى حد كبير على المحيط، والعقار لا يعبر بسهولة عبر حاجز الدم الدماغي.
 
-Cauda equina syndrome is a neurosurgical emergency caused by mechanical compression of the lumbosacral nerve roots, with acute neural injury as the core pathology. There is no established causal or therapeutic pathway linking serotonin-synthesis inhibition to nerve root decompression or recovery.
+متلازمة ذيل الحصان هي حالة طوارئ جراحية عصبية ناجمة عن الضغط الميكانيكي على جذور الأعصاب القطنية العجزية، حيث تكون الإصابة العصبية الحادة هي المسار الأساسي. لا توجد مسارات سببية أو علاجية معروفة تربط تثبيط تخليق السيروتونين بتخفيف ضغط جذر الأعصاب أو تعافيه.
 
-The evidence pack's own repurposing rationale is explicit on this point: the high TxGNN score (0.994) likely reflects noise from serotonin–gut–nerve comorbidity associations embedded in the knowledge graph, rather than a real pharmacological connection. A second, lower-ranked prediction (obsolete neurogenic bladder, score 0.991) has a somewhat more plausible mechanistic thread — central serotonergic pathways do modulate the voiding reflex — but is undermined by the drug's low systemic bioavailability and by the disease term itself being flagged as an obsolete ontology entry, indicating an underlying data-quality issue rather than a genuine signal.
+التبرير الخاص بإعادة استخدام حقيبة الأدلة هو صريح في هذه النقطة: درجة TxGNN العالية (0.994) على الأرجح تعكس الضوضاء من ارتباطات التعايش المرتبطة بالسيروتونين والأمعاء والأعصاب المدمجة في الرسم البياني للمعرفة، وليس اتصالاً دوائياً حقيقياً. التنبؤ الثاني برتبة أقل (شلل المثانة العصبي القديم، درجة 0.991) له سلسلة ميكانيكية أكثر معقولية نسبياً — المسارات السيروتونية المركزية تعدل بالفعل رد فعل المثانة — لكنها تضعفها انخفاض التوافر الحيوي الجهازي للعقار وحقيقة أن المصطلح المرضي نفسه يتم وضع علامة عليه كمدخل أنطولوجيا قديم، مما يشير إلى مشكلة في جودة البيانات الأساسية بدلاً من إشارة حقيقية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## أدلة الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Not marketed — no product authorizations are on record for this evidence pack (total_licenses = 0).
+غير مسوقة — لا توجد تفويضات منتج مسجلة لحقيبة الأدلة هذه (total_licenses = 0).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الإرشادية لمعلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-Evidence level is L5 (model prediction only) with zero supporting clinical trials or literature, and the evidence pack's own mechanistic review argues the top-ranked signal (cauda equina syndrome) is likely graph noise rather than a real drug-disease relationship. Combined with a blocking data gap on the TFDA/local package insert, this candidate does not meet the bar to advance.
+**المبرر:**
+مستوى الأدلة هو L5 (تنبؤ نموذج فقط) مع صفر تجارب سريرية أو أدبيات داعمة، وتراجعة آلية العمل الخاصة بحقيبة الأدلة نفسها تجادل بأن الإشارة ذات الترتيب الأعلى (متلازمة ذيل الحصان) على الأرجح هي ضوضاء رسم بياني وليس علاقة حقيقية بين العقار والمرض. بالجمع بين فجوة بيانات محظورة على بطاقة البيانات TFDA / المحلية، لا يستوفي هذا المرشح معايير التقدم.
 
-**To proceed, the following is needed:**
-- TFDA (or equivalent) package insert / labeling data — currently blocking (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Confirmation of the drug's actual original indication (not present in this evidence pack)
-- Any preclinical or mechanistic study directly linking TPH1/serotonin inhibition to cauda equina syndrome pathology, to move beyond model-only prediction
-- Ontology cleanup on the secondary candidate ("obsolete neurogenic bladder") before it can be meaningfully re-evaluated
+**للمتابعة، يلزم ما يلي:**
+- بيانات بطاقة البيانات TFDA (أو المعادلة) / بيانات الموسومة — حالياً محظورة (DG001)
+- آلية عمل مؤكدة من DrugBank أو الأدبيات الأولية (DG002)
+- تأكيد المؤشر الأصلي الفعلي للعقار (غير موجود في حقيبة الأدلة هذه)
+- أي دراسة ما قبل الإكلينيكية أو ميكانيكية تربط مباشرة تثبيط TPH1 / السيروتونين بأمراض متلازمة ذيل الحصان، للتقدم بعيداً عن التنبؤ الذي يعتمد على النموذج فقط
+- تنظيف الأنطولوجيا على المرشح الثانوي ("شلل المثانة العصبي القديم") قبل إعادة تقييمه بشكل هادف
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

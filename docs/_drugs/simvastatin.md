@@ -29,96 +29,97 @@ indication_count: 8
 
 </div>
 
-# Simvastatin: From Hypercholesterolemia to Familial Hypercholesterolemia
+# سيمفاستاتين: من فرط كوليسترول الدم إلى فرط كوليسترول الدم العائلي
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Simvastatin is a well-established HMG-CoA reductase inhibitor (statin) used to treat hypercholesterolemia and dyslipidemia. The TxGNN model predicts it may be effective for **Familial Hypercholesterolemia (FH)**, a genetically-driven subtype of hypercholesterolemia, with **19 clinical trials** and **18 publications** currently supporting this direction. Because statins — including simvastatin — are already guideline-recommended first-line therapy for FH, this prediction largely confirms existing standard-of-care rather than identifying a genuinely novel use.
+سيمفاستاتين هو مثبط HMG-CoA المختزلة (ستاتين) معروف ومثبت جيداً يستخدم في علاج فرط كوليسترول الدم واضطراب الدهون. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **فرط كوليسترول الدم العائلي (FH)**، وهو نوع فرعي من فرط كوليسترول الدم يحركه الجينات، مع دعم **19 تجربة سريرية** و**18 منشوراً** لهذا الاتجاه حالياً. نظراً لأن الستاتينات — بما فيها سيمفاستاتين — موصى بها بالفعل كعلاج من الخط الأول وفقاً للمبادئ التوجيهية لـ FH، فإن هذا التنبؤ يؤكد في الغالب الرعاية المعيارية الموجودة بدلاً من تحديد استخدام جديد حقاً.
 
 ---
 
-## Quick Overview
+## نظرة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Hypercholesterolemia / dyslipidemia (well-established statin indication; formal regulatory indication text not available in this evidence pack) |
-| Predicted New Indication | Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | فرط كوليسترول الدم / اضطراب الدهون (استطباب ستاتين معروف ومثبت جيداً؛ نص الاستطباب التنظيمي الرسمي غير متوفر في مجموعة الأدلة هذه) |
+| الاستطباب الجديد المتنبأ به | فرط كوليسترول الدم العائلي |
+| درجة التنبؤ TxGNN | 99.63% |
+| مستوى الأدلة | L1 |
+| حالة السوق السعودي | غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | المتابعة مع ضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data for this drug record is not available. Based on established pharmacological knowledge, simvastatin is a member of the statin (HMG-CoA reductase inhibitor) class; its efficacy in hypercholesterolemia has been proven for decades, and mechanistically it is directly applicable to familial hypercholesterolemia.
+حالياً، بيانات آلية العمل المفصلة لسجل هذا الدواء غير متوفرة. بناءً على المعرفة الصيدلانية المثبتة، سيمفاستاتين هو عضو في فئة الستاتينات (مثبطات HMG-CoA المختزلة)؛ وقد ثبتت فعاليته في فرط كوليسترول الدم لعقود من الزمن، وآلياً هو قابل للتطبيق مباشرة على فرط كوليسترول الدم العائلي.
 
-Simvastatin inhibits HMG-CoA reductase, blocking hepatic cholesterol biosynthesis and upregulating LDL receptor expression on hepatocytes. This is the core pharmacological mechanism for treating FH, a condition caused by mutations in LDLR, APOB, or PCSK9 that impair LDL clearance. Because the mechanism directly targets the pathway disrupted in FH, statin therapy (including simvastatin) is already embedded in standard-of-care guidelines for this population — this is not a speculative repurposing signal but a confirmation of established clinical practice, which explains the very high TxGNN score and the depth of Phase 3 evidence available.
+يثبط سيمفاستاتين HMG-CoA المختزلة، محصراً تخليق الكوليسترول الكبدي وزيادة التعبير عن مستقبل LDL على الخلايا الكبدية. هذه هي آلية العمل الصيدلانية الأساسية لعلاج FH، وهي حالة ناتجة عن طفرات في LDLR أو APOB أو PCSK9 التي تضعف تصفية LDL. نظراً لأن الآلية تستهدف مباشرة المسار المختل في FH، فإن العلاج بالستاتينات (بما فيها سيمفاستاتين) مدمج بالفعل في المبادئ التوجيهية للرعاية المعيارية لهذا السكان — هذا ليس إشارة إعادة استخدام تخمينية بل تأكيد للممارسة السريرية المثبتة، وهو ما يفسر درجة TxGNN العالية جداً وعمق أدلة Phase 3 المتاحة.
 
-The distinction worth noting for decision-makers: the "new indication" here is a genetically-defined subtype of the drug's original indication class, not a mechanistically distant disease. Evidentiary strength is high, but strategic novelty is low.
+التمييز الجدير بالملاحظة لصناع القرار: "الاستطباب الجديد" هنا هو نوع فرعي معرّف وراثياً من فئة الاستطباب الأصلية للدواء، وليس مرضاً بعيداً من الناحية الآلية. قوة الأدلة عالية، لكن الجدة الاستراتيجية منخفضة.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المرضى | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE trial: ezetimibe + high-dose simvastatin vs. simvastatin alone on carotid atherosclerosis progression in heterozygous FH. |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe 10mg added to atorvastatin or simvastatin in homozygous FH; efficacy and safety evaluation. |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | 24-month open-label extension of NCT03884452; long-term safety/tolerability of ezetimibe + simvastatin in homozygous FH. |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Randomized, double-blind study of ezetimibe + simvastatin vs. simvastatin alone in adolescents with heterozygous FH. |
-| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Completed | 2089 | Japanese post-marketing re-examination study of VYTORIN (ezetimibe/simvastatin) real-world safety and efficacy. |
-| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Phase 3 | Completed | 199 | SUPREME trial: niacin ER + simvastatin vs. atorvastatin on HDL-C and lipid effects in hyperlipidemia/mixed dyslipidemia. |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab (PCSK9 inhibitor) in children/adolescents with homozygous FH on background statin therapy. |
-| [NCT01507831](https://clinicaltrials.gov/study/NCT01507831) | Phase 3 | Completed | 2341 | Long-term safety of alirocumab added to background lipid-modifying therapy (including statins) in high-CV-risk hypercholesterolemia. |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Completed | 216 | Alirocumab vs. placebo add-on to stable statin therapy in heterozygous FH or high-CV-risk hypercholesterolemia. |
-| [NCT01617655](https://clinicaltrials.gov/study/NCT01617655) | Phase 3 | Completed | 107 | Alirocumab vs. placebo add-on to lipid-modifying therapy in heterozygous FH with LDL-C ≥160 mg/dL. |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | مكتملة | 720 | تجربة ENHANCE: إيزيتيميب + جرعة عالية من سيمفاستاتين مقابل سيمفاستاتين وحده على تطور تصلب الشرايين السباتي في FH غير متجانس الأليل. |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | مكتملة | 50 | إضافة إيزيتيميب 10 ملغ إلى أتورفاستاتين أو سيمفاستاتين في FH متجانس الأليل؛ تقييم الفعالية والسلامة. |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | مكتملة | 44 | امتداد مفتوح العنوان لمدة 24 شهراً من NCT03884452؛ السلامة والتحمل طويلا الأجل لإيزيتيميب + سيمفاستاتين في FH متجانس الأليل. |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | مكتملة | 248 | دراسة عشوائية مزدوجة التعمية لإيزيتيميب + سيمفاستاتين مقابل سيمفاستاتين وحده في المراهقين مع FH غير متجانس الأليل. |
+| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | مكتملة | 2089 | دراسة إعادة الفحص بعد التسويق اليابانية لـ VYTORIN (إيزيتيميب/سيمفاستاتين) للسلامة والفعالية في العالم الحقيقي. |
+| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Phase 3 | مكتملة | 199 | تجربة SUPREME: niacin ER + سيمفاستاتين مقابل أتورفاستاتين على تأثيرات HDL-C والدهون في فرط كوليسترول الدم / اضطراب الدهون المختلط. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | مكتملة | 18 | Alirocumab (مثبط PCSK9) في الأطفال والمراهقين مع FH متجانس الأليل على العلاج الأساسي بالستاتينات. |
+| [NCT01507831](https://clinicaltrials.gov/study/NCT01507831) | Phase 3 | مكتملة | 2341 | السلامة طويلة الأجل لـ alirocumab المضاف إلى العلاج الأساسي المعدل للدهون (بما فيها الستاتينات) في فرط كوليسترول الدم عالي الخطورة CV. |
+| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | مكتملة | 216 | Alirocumab مقابل الدواء الوهمي كعلاج إضافي للعلاج المستقر بالستاتينات في FH غير متجانس الأليل أو فرط كوليسترول الدم عالي الخطورة CV. |
+| [NCT01617655](https://clinicaltrials.gov/study/NCT01617655) | Phase 3 | مكتملة | 107 | Alirocumab مقابل الدواء الوهمي كعلاج إضافي لعلاج تعديل الدهون في FH غير متجانس الأليل مع LDL-C ≥160 mg/dL. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب الطبي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guideline | Circulation | 2026 ACC/AHA multi-society dyslipidemia management guideline, replacing the 2018 cholesterol guideline. |
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | New England Journal of Medicine | ENHANCE trial publication: simvastatin with/without ezetimibe in FH; effect of add-on therapy on atherosclerosis progression. |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort | Journal of the American College of Cardiology | Statin therapy associated with reduced coronary artery disease events and all-cause mortality in heterozygous FH. |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematic review of statins, including simvastatin, for children with FH. |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opinion on Drug Safety | Benefit-risk assessment of simvastatin in FH, supporting long-term tolerability for lifelong therapy. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocrine Practice (AACE/ACE) | Clinical practice guideline for dyslipidemia management and cardiovascular disease prevention. |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Safety | Benefits and risks of simvastatin in FH patients requiring long-term therapy. |
-| [21173733](https://pubmed.ncbi.nlm.nih.gov/21173733/) | 2010 | Cohort | International Angiology | Long-term efficacy and safety of ezetimibe/simvastatin combination in FH patients. |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | RCT | Nutrition, Metabolism and Cardiovascular Diseases | Head-to-head comparison of atorvastatin vs. simvastatin for LDL-C goal attainment in heterozygous FH. |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Cohort | Journal of Clinical Medicine | Cross-sectional study of cellular immunity parameters in children with FH treated with simvastatin. |
+| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | إرشادات | Circulation | مبدأ توجيهي إدارة اضطراب الدهون متعدد الجمعيات ACC/AHA لسنة 2026، يحل محل مبدأ كوليسترول 2018. |
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | دراسة عشوائية محكومة | New England Journal of Medicine | منشور تجربة ENHANCE: سيمفاستاتين مع/بدون إيزيتيميب في FH؛ تأثير العلاج الإضافي على تطور تصلب الشرايين. |
+| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | دراسة أتراب | Journal of the American College of Cardiology | العلاج بالستاتينات مرتبط بتقليل أحداث أمراض الشرايين التاجية والوفيات من جميع الأسباب في FH غير متجانس الأليل. |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | مراجعة (Cochrane) | Cochrane Database of Systematic Reviews | مراجعة منهجية للستاتينات، بما فيها سيمفاستاتين، للأطفال مع FH. |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | مراجعة | Expert Opinion on Drug Safety | تقييم المنافع والمخاطر لسيمفاستاتين في FH، يدعم التحمل طويل الأجل للعلاج الدوام. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | إرشادات | Endocrine Practice (AACE/ACE) | مبدأ توجيهي الممارسة السريرية لإدارة اضطراب الدهون والوقاية من أمراض القلب والأوعية الدموية. |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | مراجعة | Drug Safety | منافع ومخاطر سيمفاستاتين في مرضى FH الذين يحتاجون إلى العلاج طويل الأجل. |
+| [21173733](https://pubmed.ncbi.nlm.nih.gov/21173733/) | 2010 | دراسة أتراب | International Angiology | الفعالية والسلامة طويلة الأجل لمزيج إيزيتيميب/سيمفاستاتين في مرضى FH. |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | دراسة عشوائية محكومة | Nutrition, Metabolism and Cardiovascular Diseases | مقارنة مباشرة لأتورفاستاتين مقابل سيمفاستاتين لتحقيق هدف LDL-C في FH غير متجانس الأليل. |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | دراسة أتراب | Journal of Clinical Medicine | دراسة مقطعية لمعاملات المناعة الخلوية في الأطفال مع FH المعالجين بسيمفاستاتين. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Simvastatin is currently **not marketed** in Saudi Arabia under this evidence pack (0 registered authorizations, no license records available). No product/authorization table can be produced from current data.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-drug interaction data were available in this evidence pack (SFDA/TFDA package insert retrieval is flagged as a **Blocking** data gap — see Next Steps).
+لا يتم تسويق سيمفاستاتين حالياً **في المملكة العربية السعودية** وفقاً لمجموعة الأدلة هذه (0 تصاريح مسجلة، لا توجد سجلات ترخيص متاحة). لا يمكن إنتاج جدول المنتج / التصريح من البيانات الحالية.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. لم تكن بيانات التحذيرات المهيكلة أو موانع الاستعمال أو التفاعلات بين الأدوية متوفرة في مجموعة الأدلة هذه (يتم وضع علم على استرجاع النشرة الدوائية SFDA/TFDA كفجوة بيانات **محظورة** — انظر الخطوات التالية).
 
-**Rationale:**
-Evidence level L1 is supported by multiple completed Phase 3 RCTs (e.g., ENHANCE, NCT03884452) directly evaluating simvastatin in FH populations, and the mechanism of action directly addresses the LDL receptor pathway defect underlying FH. However, this candidate is not currently marketed in Saudi Arabia, and core safety/label data (warnings, contraindications) are missing, which blocks a full safety review.
+---
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings/contraindications) — currently a Blocking data gap (DG001)
-- Formal mechanism of action documentation from DrugBank — currently a High-severity data gap (DG002)
-- Saudi Arabia market registration/authorization status specific to simvastatin (confirm whether other statin brands cover this indication locally)
-- Formal DDI screening, given simvastatin's known CYP3A4-mediated interaction risk (myopathy/rhabdomyolysis) with agents such as protease inhibitors and certain antifungals/macrolides
+## الخلاصة والخطوات التالية
+
+**القرار: المتابعة مع ضمانات**
+
+**الأساس المنطقي:**
+يتم دعم مستوى الأدلة L1 بواسطة تجارب عشوائية محكومة متعددة من Phase 3 مكتملة (مثل ENHANCE و NCT03884452) التي تقيم سيمفاستاتين مباشرة في السكان FH، وآلية العمل تعالج مباشرة عيب مسار مستقبل LDL الأساسي في FH. ومع ذلك، لا يتم تسويق هذا المرشح حالياً في المملكة العربية السعودية، وبيانات السلامة / العنوان الأساسية (التحذيرات وموانع الاستعمال) مفقودة، مما يعيق المراجعة الكاملة للسلامة.
+
+**لمتابعة العملية، يلزم ما يلي:**
+- النشرة الدوائية SFDA (التحذيرات/موانع الاستعمال) — حالياً فجوة بيانات محظورة (DG001)
+- توثيق آلية العمل الرسمي من DrugBank — حالياً فجوة بيانات عالية الشدة (DG002)
+- حالة التسجيل / التصريح في سوق المملكة العربية السعودية محددة لسيمفاستاتين (تأكيد ما إذا كانت علامات ستاتين أخرى تغطي هذا الاستطباب محلياً)
+- فحص التفاعلات بين الأدوية الرسمي، بالنظر إلى خطر التفاعل المعروف الوسيط CYP3A4 لسيمفاستاتين (اعتلال العضلات / انحلال الربدومايوسين) مع عوامل مثل مثبطات البروتياز ومضادات الفطريات / الماكروليدات معينة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

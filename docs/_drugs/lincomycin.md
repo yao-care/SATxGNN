@@ -29,76 +29,77 @@ indication_count: 3
 
 </div>
 
-# Lincomycin: From Bacterial Infections to Hyperamylasemia
+# لينكومايسين: من العدوى البكتيرية إلى فرط أميليز الدم
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Lincomycin is a lincosamide-class antibacterial agent; detailed approved-indication and mechanism-of-action data for this candidate are not available in the current dataset. The TxGNN model predicts a possible association with **Hyperamylasemia**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-score signal with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in current dataset (Lincomycin is a lincosamide antibacterial per available rationale text) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+لينكومايسين هو عامل مضاد للبكتيريا من فئة لينكوساميد؛ بيانات الاستطباب المعتمد وآلية العمل لهذا المرشح المحتمل غير متاحة في مجموعة البيانات الحالية. يتنبأ نموذج TxGNN بتداخل محتمل مع **فرط أميليز الدم**، لكن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و**0 منشورات** — إنها إشارة نموذجية بحتة بدون دليل داعم.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data for lincomycin is not currently available in this dataset. Based on the information available, lincomycin is a lincosamide-class antibiotic that acts by binding the bacterial 50S ribosomal subunit to inhibit bacterial protein synthesis — a purely antimicrobial mechanism directed at bacterial cells.
-
-Hyperamylasemia is typically associated with pancreatic inflammation, salivary gland disease, or renal impairment — physiological processes unrelated to bacterial ribosomal protein synthesis. No biologically plausible pathway currently links lincomycin's antibacterial mechanism to amylase regulation, and the underlying MOA data itself is incomplete, which further limits any mechanistic argument.
-
-Two other candidate indications were also flagged at nearly identical TxGNN scores — polyclonal hyperviscosity syndrome (immunoglobulin-driven plasma viscosity) and congenital analbuminemia (an *ALB* gene defect in albumin synthesis). Both share the same pattern: no known mechanistic overlap with lincomycin's antibacterial action, and no supporting trials or literature. Taken together, this indicates the ranking is currently driven by the TxGNN network's learned associations rather than by any identifiable pharmacological rationale — consistent with an L5 (model-prediction-only) evidence level.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير محدد في مجموعة البيانات الحالية (لينكومايسين هو مضاد حيوي لينكوساميد وفقاً لنص التبرير المتاح) |
+| الاستطباب الجديد المتنبأ به | فرط أميليز الدم |
+| درجة التنبؤ بـ TxGNN | 99.14% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير موجود بالسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يعتبر هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+بيانات آلية العمل التفصيلية للينكومايسين غير متاحة حالياً في مجموعة البيانات هذه. بناءً على المعلومات المتاحة، لينكومايسين هو مضاد حيوي من فئة لينكوساميد يعمل عن طريق الارتباط بالوحدة الفرعية 50S للريبوسوم البكتيري لتثبيط تخليق البروتين البكتيري — آلية مضادة للميكروبات بحتة موجهة نحو الخلايا البكتيرية.
 
----
+فرط أميليز الدم يرتبط عادةً بالتهاب البنكرياس أو أمراض الغدد اللعابية أو ضعف الكلى — عمليات فسيولوجية لا علاقة لها بتخليق البروتين الريبوسومي البكتيري. لا توجد مسارات بيولوجية معقولة معروفة حالياً تربط آلية العمل المضادة للبكتيريا للينكومايسين بتنظيم الأميليز، وبيانات آلية العمل الأساسية نفسها غير مكتملة، مما يحد أكثر من أي حجة آلية.
 
-## Saudi Arabia Market Information
-
-Lincomycin is not currently marketed in Saudi Arabia (0 authorizations on file), so no product/license table is available for this candidate.
+تم تحديد استطبابين مرشحين آخرين بنقاط TxGNN متطابقة تقريباً — متلازمة فرط اللزوجة متعددة النسيلة (لزوجة البلازما التي تحركها الغلوبولينات المناعية) والانعدام الخلقي للألبومين (عيب جيني ALB في تخليق الألبومين). كلاهما يشترك في نفس النمط: لا يوجد تداخل آلي معروف مع الإجراء المضاد للبكتيريا للينكومايسين، ولا توجد تجارب أو أدبيات داعمة. مجتمعة، هذا يشير إلى أن الترتيب يقوده حالياً ارتباطات الشبكة المكتسبة من TxGNN بدلاً من أي أساس صيدلاني قابل للتحديد — متسق مع مستوى الدليل L5 (توقع النموذج فقط).
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package-insert warnings/contraindications are flagged as a Blocking data gap (DG001) in this evidence pack — a full safety review cannot be completed until this is resolved.)*
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+لا توجد أدبيات ذات صلة متاحة حالياً.
 
-**Rationale:**
-All three TxGNN-predicted indications (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia) sit at evidence level L5 — model score only, with zero clinical trials, zero ICTRP records, and zero literature support, and no biologically plausible mechanistic link to lincomycin's known antibacterial action. The drug is also not currently marketed in Saudi Arabia, and core safety data (TFDA warnings/contraindications) is missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (Blocking gap, DG001)
-- Verified mechanism-of-action data for lincomycin (High-priority gap, DG002)
-- Any preclinical or mechanistic literature that could establish biological plausibility for hyperamylasemia (or the other two candidates) before further evaluation
-- Re-screening of clinical trial/literature databases once a plausible mechanistic hypothesis is available, since current searches (2026-04-21) returned no hits
+## معلومات سوق المملكة العربية السعودية
+
+لينكومايسين غير موجود حالياً في سوق المملكة العربية السعودية (0 تفويضات في الملف)، لذلك لا توجد جدول منتج/ترخيص متاح لهذا المرشح.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات/موانع استعمال نشرة معلومات TFDA تم تحديدها كثغرة بيانات حاجزة (DG001) في مجموعة الأدلة هذه — لا يمكن إكمال مراجعة السلامة الكاملة حتى يتم حل هذه المشكلة.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**التبرير:**
+جميع الاستطبابات المتنبأ بها من TxGNN الثلاثة (فرط أميليز الدم، متلازمة فرط اللزوجة متعددة النسيلة، الانعدام الخلقي للألبومين) تقع في مستوى الدليل L5 — درجة النموذج فقط، بدون تجارب سريرية، بدون سجلات ICTRP، وبدون دعم أدبي، وبدون ارتباط آلي بيولوجي معقول مع الإجراء المضاد للبكتيريا المعروف للينكومايسين. الدواء أيضاً غير موجود حالياً في سوق المملكة العربية السعودية، وبيانات السلامة الأساسية (تحذيرات/موانع استعمال TFDA) مفقودة.
+
+**للمتابعة، هناك حاجة إلى ما يلي:**
+- تحذيرات وموانع استعمال نشرة معلومات TFDA/SFDA (ثغرة حاجزة، DG001)
+- بيانات آلية عمل محققة للينكومايسين (ثغرة ذات أولوية عالية، DG002)
+- أي أدبيات ما قبل السريرية أو آلية يمكن أن تثبت الحجج البيولوجية المعقولة لفرط أميليز الدم (أو المرشحتين الآخرتين) قبل التقييم الإضافي
+- إعادة فحص قواعد بيانات التجارب السريرية والأدبيات مرة واحدة تتوفر فرضية آلية معقولة، حيث أن عمليات البحث الحالية (2026-04-21) لم تعطِ أي نتائج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

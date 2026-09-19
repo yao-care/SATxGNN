@@ -29,77 +29,78 @@ indication_count: 10
 
 </div>
 
-# Milrinone: From Acute Decompensated Heart Failure to Alopecia
+# ميلرينون: من قصور القلب الحاد المتفاقم إلى الثعلبة
 
-## One-Sentence Summary
+## الملخص في جملة واحدة
 
-> Milrinone's original indication data is missing from this registry pack, but based on established pharmacology it is a PDE3 inhibitor used as a short-term IV inotrope/vasodilator for acute decompensated heart failure and cardiogenic shock.
-> The TxGNN model predicts it may be effective for **Alopecia**, the single highest-scoring prediction in this evidence pack (score ≈99.91%),
-> but currently **0 clinical trials** and **0 publications** support this specific drug–indication pairing — the prediction is model-only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not present in this pack (`original_indications` empty). Based on known pharmacology: short-term IV management of acute decompensated heart failure / cardiogenic shock |
-| Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> بيانات الدلالة الأصلية لـ ميلرينون غير موجودة في مجموعة هذا السجل، لكن بناءً على الصيدلة المعروفة فهو مثبط PDE3 يُستخدم كعامل موصول بالوريد قصير المدى لتحسين قوة القلب وتوسيع الأوعية الدموية لعلاج قصور القلب الحاد المتفاقم والصدمة القلبية.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً ضد **الثعلبة**، أعلى تنبؤ واحد في مجموعة الأدلة هذه (درجة ≈99.91%)،
+> لكن حالياً **0 تجارب سريرية** و**0 منشورات** تدعم هذا الاقتران المحدد للدواء والدلالة — التنبؤ نموذجي فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known information, milrinone is a selective phosphodiesterase-3 (PDE3) inhibitor that raises intracellular cAMP in cardiac and vascular smooth muscle, producing a combined positive-inotropic and vasodilating ("inodilator") effect. Its efficacy in acute decompensated heart failure/cardiogenic shock is well documented in the literature captured elsewhere in this pack (see the congestive heart failure and acute pulmonary heart disease predictions), even though this drug is not currently registered or marketed in this market.
-
-The rationale for alopecia is purely mechanistic and speculative: PDE3 inhibition → increased cAMP → localized vasodilation is theorized to run parallel to minoxidil's mechanism (a K⁺-channel opener that promotes follicular blood flow and is an established alopecia treatment). However, there is no direct evidence that PDE3 inhibition specifically affects the hair follicle growth cycle — the analogy is structural (both are vasodilators) rather than mechanistically validated.
-
-The TxGNN score for this pairing is extremely high (rank 2154 among all predictions), but the evidence pack explicitly classifies it as **L5 (model prediction only, no actual studies)** with a **Hold** recommendation. No clinical trials, ICTRP records, or PubMed literature were returned for the milrinone–alopecia pairing in any query.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| الدلالة الأصلية | غير موجودة في هذه المجموعة (`original_indications` فارغ). بناءً على الصيدلة المعروفة: الإدارة الموصولة بالوريد قصيرة المدى لقصور القلب الحاد المتفاقم / الصدمة القلبية |
+| الدلالة الجديدة المتنبأ بها | الثعلبة |
+| درجة تنبؤ TxGNN | 99.91% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودية | غير مسوقة (Not Marketed) |
+| عدد التصاريح | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل المفصلة غير متاحة (مميزة كفجوة بيانات عالية الخطورة، DG002). بناءً على المعلومات المعروفة، ميلرينون هو مثبط فسفوديستيراز-3 (PDE3) انتقائي يرفع cAMP داخل الخلايا في عضلة القلب وعضلات الأوعية الدموية الملساء، مما ينتج عنه تأثير مركب محفز للقلب وموسّع للأوعية ("inodilator"). تم توثيق فعاليته في قصور القلب الحاد المتفاقم/الصدمة القلبية بشكل جيد في الأدبيات التي تم التقاطها في مكان آخر في هذه المجموعة (انظر تنبؤات قصور القلب الاحتقاني وأمراض القلب الرئوية الحادة)، على الرغم من أن هذا الدواء غير مسجل أو مسوق حالياً في هذا السوق.
 
----
+المنطق بخصوص الثعلبة هو بحت آلية وتخمين: تثبيط PDE3 → زيادة cAMP → توسيع محلي للأوعية يُنظَّر أنه يعمل بالتوازي مع آلية minoxidil (فتاح قنوات K⁺ يعزز تدفق الدم في الجريب ويُعتبر العلاج المعروف للثعلبة). ومع ذلك، لا توجد دلالة مباشرة على أن تثبيط PDE3 يؤثر بشكل خاص على دورة نمو جريب الشعر — المقارنة هي هيكلية (كلاهما موسعات أوعية) وليس مثبتة من الناحية الآلية.
 
-## Saudi Arabia Market Information
-
-Milrinone is not currently registered or marketed in this jurisdiction (`market_status`: Not marketed, 0 total authorizations, no license records available).
+درجة TxGNN لهذا الاقتران عالية جداً (الترتيب 2154 من بين جميع التنبؤات)، لكن مجموعة الأدلة تصنفها بوضوح كـ **L5 (تنبؤ نموذجي فقط، بدون دراسات فعلية)** مع توصية **توقف**. لم يتم إرجاع أي تجارب سريرية أو سجلات ICTRP أو أدبيات PubMed لاقتران ميلرينون-الثعلبة في أي استعلام.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all flagged as data gaps in this pack; TFDA package-insert warnings/contraindications are listed as Blocking data gap DG001, which prevents entry into the S1 safety pre-assessment stage.)
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-Despite the very high TxGNN score, this is a purely computational prediction (L5) with zero supporting clinical trials or literature, and the proposed PDE3-to-hair-follicle mechanism is unvalidated speculation rather than an established pharmacological link.
+---
 
-**To proceed, the following is needed:**
-- Preclinical or mechanistic data establishing whether PDE3 inhibition/vasodilation affects the hair follicle growth cycle
-- Any exploratory clinical data (case reports, pilot studies) testing milrinone (topical or systemic) specifically for alopecia
-- Resolution of DG001 (TFDA/SFDA package insert warnings and contraindications) and DG002 (MOA) before this candidate can even enter safety pre-assessment
-- Confirmation of milrinone's actual original indication and regulatory status, since `original_indications` is empty despite the drug's well-established clinical use in heart failure
-- Note: within this same evidence pack, **congestive heart failure** (rank 6, L1, Proceed with Guardrails) and **acute pulmonary heart disease** (rank 10, L2, Proceed with Guardrails) have substantially stronger evidence bases and may be higher-priority repurposing candidates for this drug than alopecia
+## معلومات سوق المملكة العربية السعودية
+
+ميلرينون غير مسجل حالياً أو مسوق في هذه الولاية القضائية (`market_status`: غير مسوق، 0 تصاريح إجمالية، لا توجد سجلات ترخيص متاحة).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (جميع التحذيرات الرئيسية والموانع والبيانات DDI مميزة كفجوات بيانات في هذه المجموعة؛ تحذيرات/موانع نشرة حزمة TFDA مدرجة كفجوة بيانات حجب DG001، مما يمنع الدخول إلى مرحلة تقييم الأمان قبل S1.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**المنطق:**
+رغم درجة TxGNN العالية جداً، هذا تنبؤ حسابي بحت (L5) بدون أي تجارب سريرية أو أدبيات داعمة، والآلية المقترحة PDE3-إلى-جريب-الشعر هي تخمين غير مثبت بدلاً من رابط صيدلاني معروف.
+
+**للمتابعة، يُطلب التالي:**
+- البيانات قبل السريرية أو الآلية التي تثبت ما إذا كان تثبيط PDE3/توسيع الأوعية يؤثر على دورة نمو جريب الشعر
+- أي بيانات سريرية استكشافية (حالات سريرية، دراسات تجريبية) تختبر ميلرينون (موضعي أو نظامي) بشكل خاص للثعلبة
+- حل DG001 (تحذيرات/موانع نشرة حزمة TFDA/SFDA) و DG002 (MOA) قبل أن يتمكن هذا المرشح من الدخول إلى تقييم الأمان قبل S1
+- تأكيد الدلالة الأصلية الفعلية لـ ميلرينون وحالة تنظيمها، لأن `original_indications` فارغ على الرغم من الاستخدام السريري المعروف جيداً للدواء في قصور القلب
+- ملاحظة: في نفس مجموعة الأدلة هذه، **قصور القلب الاحتقاني** (الترتيب 6، L1، تابع مع الضوابط) و**أمراض القلب الرئوية الحادة** (الترتيب 10، L2، تابع مع الضوابط) لهما أساس أدلة أقوى بكثير وقد تكونان مرشحي إعادة توجيه ذي الأولوية الأعلى لهذا الدواء من الثعلبة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

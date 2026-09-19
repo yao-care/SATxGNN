@@ -29,74 +29,75 @@ indication_count: 5
 
 </div>
 
-# Quinapril: From Hypertension to Malignant Hypertensive Renal Disease
+# كينابريل: من ارتفاع ضغط الدم إلى أمراض الكلى الارتفاعية الخبيثة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Quinapril is an ACE inhibitor whose established pharmacological class use is blood pressure control; the TxGNN model's top prediction is **malignant hypertensive renal disease**, with a very high similarity score (99.86%) but **zero clinical trials and zero literature records** directly supporting this specific indication. Given the complete absence of drug-specific evidence and a known safety caveat for ACE inhibitors in renovascular pathology, the recommended decision is **Hold**.
+كينابريل هو مثبط الإنزيم المحول للأنجيوتنسين الذي استخدامه المثبت على مستوى الفئة الدوائية هو التحكم في ضغط الدم؛ التنبؤ الأول من نموذج TxGNN هو **أمراض الكلى الارتفاعية الخبيثة**، بنسبة تشابه عالية جداً (99.86%) لكن **لا توجد تجارب سريرية ولا سجلات أدبية** تدعم مباشرة هذا الاستخدام المحدد. نظراً للغياب الكامل للأدلة الخاصة بالدواء وملاحظة أمان معروفة لمثبطات الإنزيم المحول للأنجيوتنسين في أمراض الأوعية الكلوية، فإن القرار الموصى به هو **تأجيل**.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not formally recorded — Quinapril is not marketed in Saudi Arabia, so no approved indication text exists. Publicly known pharmacology confirms it is an ACE inhibitor used for hypertension (class-level, not indication-specific to this dataset). |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | لم يتم تسجيله رسمياً — كينابريل غير مسوق في المملكة العربية السعودية، لذلك لا توجد نصوص دلالة معتمدة. يؤكد علم الصيدلة العام المعروف أنه مثبط الإنزيم المحول للأنجيوتنسين يستخدم لارتفاع ضغط الدم (على مستوى الفئة، وليس دلالة محددة لهذه المجموعة البيانات). |
+| الدلالة الجديدة المتنبأ بها | أمراض الكلى الارتفاعية الخبيثة |
+| نقاط توقع TxGNN | 99.86% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for quinapril is not available in the drug-level database record (MOA: Data Gap). Based on publicly known pharmacology, however, quinapril is confirmed to be an angiotensin-converting enzyme (ACE) inhibitor that lowers angiotensin II, a class-level antihypertensive mechanism shared across ACE inhibitors.
+حالياً، بيانات آلية العمل التفصيلية لكينابريل غير متاحة في سجل قاعدة البيانات على مستوى الدواء (آلية العمل: فجوة بيانات). بناءً على علم الصيدلة العام المعروف، يتم تأكيد أن كينابريل هو مثبط الإنزيم المحول للأنجيوتنسين الذي يخفض الأنجيوتنسين الثاني، وهي آلية مضادة للارتفاع على مستوى الفئة مشتركة بين جميع مثبطات الإنزيم المحول للأنجيوتنسين.
 
-The predicted indication, malignant hypertensive renal disease, is a severe hypertensive emergency with secondary renal injury. In theory, blood-pressure control via ACE inhibition could plausibly slow progression of hypertensive nephropathy, which is the mechanistic basis TxGNN is likely drawing on.
+الدلالة المتنبأ بها، أمراض الكلى الارتفاعية الخبيثة، هي حالة طوارئ ارتفاعية شديدة مع إصابة كلوية ثانوية. من الناحية النظرية، قد يبطئ التحكم في ضغط الدم من خلال مثبط الإنزيم المحول للأنجيوتنسين بشكل معقول من تطور اعتلال الكلى الارتفاعي، وهذا هو الأساس الآلي الذي يستند عليه نموذج TxGNN على الأرجح.
 
-However, this is a **class-level, indirect inference** rather than evidence specific to quinapril or this indication. Importantly, malignant renovascular hypertension frequently coexists with bilateral renal artery stenosis, a setting in which ACE inhibitors are well known to risk **precipitating acute renal failure** rather than protecting the kidney. This mechanistic link therefore carries a meaningful safety caveat that must be weighed against the theoretical benefit, and should not be read as a straightforward "supportive" mechanism.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، فإن هذا هو **استدلال غير مباشر على مستوى الفئة** وليس أدلة محددة لكينابريل أو لهذه الدلالة. بشكل مهم، ارتفاع ضغط الدم الوعائي الكلوي الارتفاعي الخبيث غالباً ما يتزامن مع تضيق الشرايين الكلوية الثنائي الجانبين، وهو إعداد معروف جيداً بأن مثبطات الإنزيم المحول للأنجيوتنسين تخاطر **بتحريض الفشل الكلوي الحاد** بدلاً من حماية الكلى. لذلك، فإن هذا الرابط الآلي يحمل تحذير أمان ذو معنى يجب أن يتم موازنته مقابل الفائدة النظرية، وليس يجب قراءته كآلية "داعمة" مباشرة.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Saudi Arabia Market Information
-
-Quinapril currently has no market authorization records in Saudi Arabia (market status: not marketed; total authorizations: 0).
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## الدليل الأدبي
 
-Please refer to the package insert for safety information.
+حالياً لا توجد أدبيات ذات صلة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+كينابريل حالياً ليس لديه سجلات تصريح تسويق في المملكة العربية السعودية (حالة السوق: غير مسوق؛ إجمالي التصاريح: 0).
 
-**Rationale:**
-The top-ranked predicted indication (malignant hypertensive renal disease) has no supporting clinical trials or literature — evidence rests entirely on the TxGNN model score (Evidence Level L5, Decision Stage S0). Combined with a known ACE-inhibitor safety concern in renovascular hypertension pathology and the drug's non-marketed status in Saudi Arabia, there is currently insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert data on warnings, contraindications, and drug interactions (currently a Blocking data gap)
-- Confirmed mechanism of action record for quinapril (currently a High-severity data gap)
-- Targeted literature or preclinical search specific to quinapril and malignant hypertensive renal disease/renovascular hypertension, including assessment of bilateral renal artery stenosis risk
-- Evaluation of whether the four lower-ranked predictions (malignant renovascular hypertension, WHO Group 3/5 pulmonary hypertension, Braddock syndrome) merit further work — internal review already flags these as mechanistically weak or likely knowledge-graph noise, with the 20 pulmonary-hypertension literature hits assessed as unrelated hypoxia/oncology basic science rather than drug-specific evidence
+## اعتبارات الأمان
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات الأمان.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+الدلالة المتنبأ بها في الترتيب الأول (أمراض الكلى الارتفاعية الخبيثة) لا توجد لها تجارب سريرية أو أدبيات داعمة — يستند الدليل بالكامل على نقاط نموذج TxGNN (مستوى الدليل L5، مرحلة القرار S0). بالاقتران مع مخاوف أمان مثبط الإنزيم المحول للأنجيوتنسين المعروفة في أمراض ارتفاع ضغط الدم الوعائي الكلوي وحالة الدواء غير المسوق في المملكة العربية السعودية، لا يوجد حالياً أساس كافٍ للمتابعة بهذا المرشح.
+
+**للمتابعة، يلزم التالي:**
+- بيانات نشرة العبوة من هيئة الغذاء والدواء السعودية/الشركة المصنعة حول التحذيرات وموانع الاستعمال والتفاعلات الدوائية (حالياً فجوة بيانات حاجبة)
+- سجل آلية عمل مؤكدة لكينابريل (حالياً فجوة بيانات عالية الخطورة)
+- بحث أدبي أو سابق للسريري موجه بشكل محدد نحو كينابريل وأمراض الكلى الارتفاعية الخبيثة/ارتفاع ضغط الدم الوعائي الكلوي، بما في ذلك تقييم خطر تضيق الشرايين الكلوية الثنائي الجانبين
+- تقييم ما إذا كانت التنبؤات الأربع ذات الترتيب الأقل (ارتفاع ضغط الدم الوعائي الكلوي الارتفاعي الخبيث، مجموعة منظمة الصحة العالمية 3/5 لارتفاع ضغط الدم الرئوي، متلازمة برادوك) تستحق مزيداً من العمل — يشير الاستعراض الداخلي بالفعل إلى أن هذه ضعيفة من الناحية الآلية أو من المحتمل أن تكون ضوضاء المخطط المعرفي، مع تقييم 20 ضربة أدبية لارتفاع ضغط الدم الرئوي كغير ذات صلة بالعلم الأساسي للنقص الأكسجيني/الأورام بدلاً من الأدلة الخاصة بالدواء
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

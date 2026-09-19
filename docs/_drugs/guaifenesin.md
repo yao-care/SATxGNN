@@ -29,82 +29,83 @@ indication_count: 5
 
 </div>
 
-# Guaifenesin: From Cough (Expectorant) to Nasal Cavity Disease
+# جوايفينسين: من السعال (طارد البلغم) إلى أمراض تجويف الأنف
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Guaifenesin is a widely used over-the-counter expectorant, traditionally indicated for cough and chest congestion associated with upper respiratory irritation.
-> The TxGNN model predicts it may be effective for **Nasal Cavity Disease**,
-> with **1 clinical trial** and **2 publications** currently supporting this direction.
+> جوايفينسين هو طارد بلغم مشهور متاح بدون وصفة طبية، والمؤشر تقليدياً لعلاج السعال واحتقان الصدر المرتبط بتهيج المسالك التنفسية العليا.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **أمراض تجويف الأنف**،
+> مع **تجربة سريرية واحدة** و **منشورين** يدعمان حالياً هذا الاتجاه.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Cough / chest congestion (expectorant) — no formal indication text available in this evidence pack |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | السعال / احتقان الصدر (طارد البلغم) — لا يتوفر نص مؤشر رسمي في هذه مجموعة الأدلة |
+| المؤشر الجديد المتنبأ به | أمراض تجويف الأنف |
+| درجة التنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفاويض | 0 |
+| القرار الموصى به | المضي قدماً مع الاحتياطات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA query returned a data gap). Based on known information, guaifenesin is a classic mucolytic/expectorant; its efficacy in reducing cough and chest congestion by thinning respiratory secretions has long been established, and mechanistically this action may extend to conditions involving nasal mucus accumulation.
+حالياً، لا تتوفر بيانات آلية العمل المفصلة (استعلام DrugBank MOA أرجع فجوة في البيانات). بناءً على المعلومات المعروفة، جوايفينسين هو مسيّل مخاط / طارد بلغم كلاسيكي؛ فعاليته في تقليل السعال واحتقان الصدر بتخفيف إفرازات التنفسية تم إثباتها منذ فترة طويلة، وميكانيكياً قد يمتد هذا الإجراء إلى الحالات التي تتضمن تراكم المخاط الأنفي.
 
-The proposed mechanistic link is that guaifenesin promotes serous secretion in the respiratory tract, lowers mucus viscosity, and increases mucociliary clearance efficiency. This provides a direct pharmacological rationale for diseases involving nasal mucosa/sinus mucus buildup, and guaifenesin is already commonly used clinically as an adjunct in sinusitis and rhinitis management — supporting the biological plausibility of this TxGNN prediction rather than treating it as a purely coincidental graph association.
+الرابط الآلي المقترح هو أن جوايفينسين يعزز الإفراز المصلي في القناة التنفسية، ويخفض لزوجة المخاط، ويزيد كفاءة التنظيف المخاطي المهدبي. هذا يوفر ربطاً دوائياً مباشراً لأمراض تتضمن المخاط الأنفي / تراكم المخاط الأنفي، وجوايفينسين يُستخدم بالفعل بشكل شائع سريرياً كعلاج مساعد في إدارة التهاب الجيوب الأنفية والتهاب الأنف — ما يدعم إمكانية البيولوجيا لهذا التنبؤ TxGNN بدلاً من معاملته كرابط بياني معرفي متزامن بحت.
 
-By contrast, the model's lower-ranked predictions (acute laryngopharyngitis, faucial diphtheria, cervical disc degenerative disorder, papillary conjunctivitis) lack any supporting mechanistic or literature evidence and are assessed as likely knowledge-graph noise from anatomical proximity rather than genuine pharmacology — none are carried forward in this report.
+بالمقابل، التنبؤات ذات الترتيب الأقل من النموذج (التهاب الحنجرة البلعومية الحادة، دفتيريا اللسان، اضطراب الفقرة العنقية التنكسي، التهاب الملتحمة الحليمي) تفتقد أي دعم ميكانيكي أو أدلة أدبية، وتُقيّم على أنها ضجيج بياني معرفي محتمل من القرب التشريحي بدلاً من كونها علم أدوية حقيقي — لا توجد حتى الآن متابعة في هذا التقرير.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Phase 2 | Completed | 30 | 14-day randomized, placebo-controlled pilot trial of oral guaifenesin in pediatric chronic rhinitis (ages 7–18), assessing nasal symptom relief via SN-5 survey, nasal airway volume, and secretion biophysical properties. |
+| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | المرحلة 2 | مكتملة | 30 | تجربة عشوائية، محكومة بالعقار الوهمي، لمدة 14 يوماً من جوايفينسين عن طريق الفم في التهاب الأنف المزمن عند الأطفال (الأعمار 7–18)، تقييم تخفيف أعراض الأنف عبر مسح SN-5، حجم الممر الأنفي، والخصائص الحيوفيزيائية للإفرازات. |
 
-*Note: This is a small pilot study (n=30); statistical power and adult generalizability are limited.*
+*ملاحظة: هذه دراسة تجريبية صغيرة (n=30)؛ القوة الإحصائية والقابلية للتعميم عند الكبار محدودة.*
 
 ---
 
-## Literature Evidence
+## الأدلة الأدبية
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Review/Clinical | American Journal of Rhinology | Management experience in 22 adult cystic fibrosis patients with chronic sinusitis, discussing treatment approaches including mucolytic therapy. |
-| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Discusses guaifenesin-containing decongestants as a treatment strategy for hidden respiratory allergies affecting voice users. |
+| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | مراجعة / سريري | American Journal of Rhinology | خبرة الإدارة في 22 مريض بالغ مصاباً بالتليف الكيسي مع التهاب الجيوب الأنفية المزمن، ويناقش نهج العلاج بما فيها العلاج بمسيّلات المخاط. |
+| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | مراجعة | Logopedics, Phoniatrics, Vocology | يناقش الأدوية التي تحتوي على جوايفينسين مع مزيلات الاحتقان كاستراتيجية علاجية للحساسية التنفسية المخفية التي تؤثر على مستخدمي الصوت. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Guaifenesin currently has no marketing authorization on record in Saudi Arabia (0 licenses); no product listing is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+جوايفينسين حالياً لا يوجد لديه تفويض تسويقي مسجل في المملكة العربية السعودية (0 رخص)؛ لا يتوفر قائمة منتجات.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى ورقة المعلومات الموصوفة لمعلومات السلامة.
 
-**Rationale:**
-One completed Phase 2 pilot RCT plus two supportive review-level publications establish a preliminary, mechanistically plausible case for guaifenesin's mucolytic effect on nasal mucosa, but the pilot's small sample size (n=30, pediatric only) and lack of adult data mean the evidence is not yet sufficient for an unconditional Go.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert warnings and contraindications (currently blocking — required before any safety pre-assessment)
-- Confirmed mechanism of action data from DrugBank
-- A confirmatory trial in adults with nasal cavity disease, given the current evidence is limited to a pediatric pilot study
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الاحتياطات**
+
+**الأساس المنطقي:**
+تجربة عشوائية محكومة بالعقار الوهمي مكتملة من المرحلة 2 بالإضافة إلى منشورين على مستوى المراجعة يدعمان إثبات حالة أولية معقولة ميكانيكياً لتأثير تسييل المخاط من جوايفينسين على الغشاء المخاطي الأنفي، لكن الحجم الصغير للعينة التجريبية (n=30، أطفال فقط) ونقص البيانات عند الكبار تعني أن الدليل لم يكن كافياً بعد للموافقة غير المشروطة.
+
+**للمضي قدماً، يلزم ما يلي:**
+- تحذيرات ورقة بيانات TFDA/SFDA وموانع الاستعمال (تعيق حالياً — مطلوبة قبل أي تقييم ما قبل السلامة)
+- تأكيد بيانات آلية العمل من DrugBank
+- تجربة تأكيدية عند البالغين مع أمراض تجويف الأنف، نظراً لأن الدليل الحالي محدود بتجربة تجريبية عند الأطفال
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

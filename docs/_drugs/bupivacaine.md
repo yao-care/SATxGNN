@@ -29,80 +29,81 @@ indication_count: 4
 
 </div>
 
-# Bupivacaine: From Local Anesthesia to Acrodermatitis Chronica Atrophicans
+# البوبيفاكايين: من التخدير الموضعي إلى التهاب الجلد المزمن الضموري
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Bupivacaine is a long-acting amide-type local anesthetic, widely used for regional nerve blocks, epidural anesthesia, and surgical pain management via sodium channel blockade.
-The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans** — a late-stage Lyme disease–associated chronic skin atrophy —
-however, this prediction is currently supported by **0 clinical trials** and **0 publications**, representing the weakest possible evidence tier.
+البوبيفاكايين هو مخدِّر موضعي من نوع الأميد طويل المفعول، يُستخدم على نطاق واسع في الحصار العصبي الإقليمي والتخدير فوق الجافية وإدارة الألم الجراحي عبر حصار قنوات الصوديوم.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **التهاب الجلد المزمن الضموري** — وهي مرحلة متأخرة من مرض لايم المرتبط بضمور الجلد المزمن —
+ومع ذلك، هذا التنبؤ مدعوم حاليًا بـ **0 تجارب سريرية** و**0 منشور**، مما يمثل أضعف مستوى دليل ممكن.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Local/regional anesthesia and perioperative pain management |
-| Predicted New Indication | Acrodermatitis Chronica Atrophicans |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Registered |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| المؤشر الأصلي | التخدير الموضعي والإقليمي وإدارة الألم حول العملية الجراحية |
+| المؤشر الجديد المتنبأ به | التهاب الجلد المزمن الضموري |
+| درجة التنبؤ بـ TxGNN | 99.23% |
+| مستوى الدليل | L5 |
+| حالة السوق في تايوان | ✗ غير مسجل |
+| عدد التخويلات | 0 |
+| القرار الموصى به | **توقف** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولًا؟
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on well-established pharmacological knowledge, bupivacaine is a voltage-gated sodium channel (Nav) blocker belonging to the amide class of local anesthetics. By preventing Na⁺ influx, it interrupts action potential propagation in sensory and motor nerves, producing reversible local anesthesia. Secondary to this primary mechanism, in vitro studies have documented weak anti-inflammatory activity — including inhibition of NF-κB signalling and suppression of pro-inflammatory cytokines such as IL-6 — though these effects occur at concentrations far exceeding clinically relevant levels.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة من حزمة الأدلة. بناءً على المعرفة الصيدلانية المعروفة جيدًا، البوبيفاكايين هو مانع قنوات الصوديوم المرتبطة بالجهد الكهربائي (Nav) ينتمي إلى فئة الأميد من المخدرات الموضعية. من خلال منع دخول Na⁺، يقاطع انتشار جهد العمل في الأعصاب الحسية والحركية، مما ينتج عنه تخدير موضعي قابل للعكس. ثانويًا لهذه الآلية الأساسية، وثقت الدراسات في المختبر نشاطًا مضادًا للالتهابات ضعيفًا — بما في ذلك تثبيط إشارات NF-κB وقمع السيتوكينات المحرِّضة للالتهاب مثل IL-6 — على الرغم من أن هذه التأثيرات تحدث عند تركيزات تتجاوز بكثير المستويات ذات الصلة سريريًا.
 
-Acrodermatitis chronica atrophicans (ACA) is a dermatological manifestation of late disseminated *Borrelia burgdorferi* infection (Lyme disease), characterised by progressive skin atrophy and chronic low-grade inflammation. The hypothesised mechanistic link relies on bupivacaine's incidental anti-inflammatory properties reducing local cutaneous inflammation — not on any antibacterial or spirochaetal activity. This indirect chain (Na⁺ channel blockade → anti-inflammatory → Borrelia-driven skin atrophy) is pharmacologically tenuous at best.
+التهاب الجلد المزمن الضموري (ACA) هو مظهر جلدي من عدوى *Borrelia burgdorferi* المنتشرة المتأخرة (مرض لايم)، يتميز بضمور الجلد التدريجي والالتهاب المزمن منخفض الدرجة. يعتمد الرابط الآلي المفترض على الخصائص المضادة للالتهابات العرضية للبوبيفاكايين في تقليل الالتهاب الجلدي الموضعي — وليس على أي نشاط مضاد للبكتيريا أو ضد الحلزونيات. هذه السلسلة غير المباشرة (حصار قناة Na⁺ → مضاد للالتهابات → ضمور الجلد الناجم عن Borrelia) غير محكمة صيدلانيًا في أحسن الأحوال.
 
-The repurposing rationale documented in the Evidence Pack itself flags a high likelihood of **knowledge graph artefact**: TxGNN's high prediction score may stem from co-occurrence bias between "skin inflammation" nodes in the training graph rather than a genuine drug–disease pharmacological signal. With zero supporting clinical or preclinical evidence in the direct indication space, this prediction should be treated as a hypothesis-generating signal only, not a viable repurposing candidate at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يشير الأساس المنطقي لإعادة الاستخدام الموثق في حزمة الأدلة نفسها إلى احتمالية عالية من **أثر رسم البيانات المعرفي**: قد تنبع درجة التنبؤ العالية من TxGNN من تحيز التعايش بين عُقد "التهاب الجلد" في الرسم البياني للتدريب بدلاً من إشارة صيدلانية حقيقية بين الدواء والمرض. مع عدم وجود أي دليل سريري أو ما قبل السريري داعم في مجال المؤشر المباشر، يجب التعامل مع هذا التنبؤ كإشارة توليد فرضية فقط، وليس كمرشح إعادة استخدام قابل للحياة في هذا الوقت.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Taiwan Market Information
-
-Bupivacaine is **not currently registered with the Taiwan Food and Drug Administration (TFDA)**. No marketing authorizations or approved products were found in the regulatory database query conducted on 2026-03-29.
+حاليًا لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Safety Considerations
+## دليل الأدبيات
 
-Please refer to the package insert for safety information.
-
-> **Note:** TFDA package insert data and formal contraindication/warning records were not retrievable from the data pipeline at the time of this report (Data Gap: DG001). Before any preclinical or clinical investigation proceeds, a full safety profile review from the originator label (e.g., Marcaine®/AstraZeneca) and TFDA database must be completed. Key known class-level concerns include cardiac toxicity (QRS widening, ventricular arrhythmia) and **direct myotoxicity** — the latter is particularly relevant given the dermatomyositis-spectrum predictions in ranks 2 and 4.
+حاليًا لا توجد أدبيات ذات صلة متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## معلومات سوق تايوان
 
-**Decision: Hold**
+البوبيفاكايين **غير مسجل حاليًا لدى هيئة الغذاء والدواء في تايوان (TFDA)**. لم يتم العثور على أي تخويلات تسويقية أو منتجات معتمدة في استعلام قاعدة البيانات التنظيمية الذي تم إجراؤه في 2026-03-29.
 
-**Rationale:**
-All four predicted indications carry L5 evidence (model prediction only, no supporting clinical trials or literature), and the mechanistic link between bupivacaine's sodium channel blockade and Borrelia-driven chronic skin atrophy is indirect and unvalidated. Additionally, the simultaneous appearance of two dermatomyositis-spectrum predictions at high scores raises a credible concern that TxGNN's output reflects graph topology clustering artefacts rather than true pharmacological signals.
+---
 
-**To proceed, the following is needed:**
+## اعتبارات السلامة
 
-- **Complete safety data retrieval:** Download and parse the TFDA package insert PDF for bupivacaine to populate contraindications, boxed warnings, and drug interaction profiles (DG001 — Blocking severity)
-- **MOA confirmation:** Retrieve full DrugBank MOA entry to formally document sodium channel subtype selectivity and anti-inflammatory evidence thresholds (DG002 — High severity)
-- **Knowledge graph audit:** Evaluate whether TxGNN's high scores for all four indications reflect true pharmacological signal or systematic over-scoring of "skin/connective tissue inflammation" node clusters
-- **Preclinical literature sweep:** Conduct a broader PubMed search using MeSH terms for "bupivacaine + anti-inflammatory" and "local anesthetic + dermatitis" to identify any foundational mechanistic evidence before considering in vitro work
-- **Route compatibility assessment:** Even if mechanistic plausibility were established, an appropriate delivery route for a chronic skin condition (topical formulation? intradermal depot?) would need to be defined, as systemic bupivacaine carries unacceptable cardiac risk for non-surgical indications
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+> **ملاحظة:** بيانات نشرة TFDA والسجلات الرسمية للموانع والتحذيرات لم تكن قابلة للاسترجاع من خط أنابيب البيانات وقت إعداد هذا التقرير (فجوة البيانات: DG001). قبل المتابعة مع أي تحقيق ما قبل السريري أو سريري، يجب إكمال مراجعة شاملة لملف السلامة من التسمية الأصلية (مثل Marcaine®/AstraZeneca) وقاعدة بيانات TFDA. تشمل المخاوف المعروفة على مستوى الفئة السُّمّية القلبية (توسيع QRS، عدم انتظام ضربات القلب البطيني) و**السُّمّية المباشرة للعضلات** — هذا الأخير ذو صلة خاصة نظرًا لتنبؤات التهاب الجلد العضلي الطيفي في الرتب 2 و 4.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**الأساس المنطقي:**
+جميع المؤشرات الأربعة المتنبأ بها تحمل دليل L5 (تنبؤ النموذج فقط، بدون تجارب سريرية أو أدبيات داعمة)، والرابط الآلي بين حصار قنوات الصوديوم للبوبيفاكايين وضمور الجلد المزمن الناجم عن Borrelia غير مباشر وغير مثبت. بالإضافة إلى ذلك، الظهور المتزامن لتنبؤات طيفية من التهاب الجلد العضلي في درجات عالية يثير مخاوف معقولة من أن إخراج TxGNN يعكس آثار تجميع هندسة الرسم البياني بدلاً من الإشارات الصيدلانية الحقيقية.
+
+**للمتابعة، المتطلبات التالية ضرورية:**
+
+- **استرجاع بيانات السلامة الكاملة:** تحميل وتحليل ملف PDF نشرة TFDA للبوبيفاكايين لملء الموانع والتحذيرات الموضوعة في صندوق وملفات تفاعل الأدوية (DG001 — شدة الحظر)
+- **تأكيد آلية العمل:** استرجاع إدخال آلية العمل الكاملة في DrugBank لتوثيق انتقائية نوع قناة الصوديوم وعتبات الأدلة المضادة للالتهابات (DG002 — شدة عالية)
+- **تدقيق رسم البيانات المعرفي:** تقييم ما إذا كانت درجات TxGNN العالية لجميع المؤشرات الأربعة تعكس إشارة صيدلانية حقيقية أو الإفراط المنهجي في الدرجات لمجموعات عُقد "الجلد/الأنسجة الضامة الملتهبة"
+- **مسح شامل للأدبيات ما قبل السريري:** إجراء بحث موسع في PubMed باستخدام شروط MeSH لـ "bupivacaine + anti-inflammatory" و "local anesthetic + dermatitis" لتحديد أي دليل آلي أساسي قبل النظر في العمل في المختبر
+- **تقييم التوافق مع المسار:** حتى لو تم تأسيس الجدوى الآلية، يجب تحديد مسار توصيل مناسب لحالة جلدية مزمنة (صيغة موضعية؟ إيداع داخل الجلد؟)، حيث أن البوبيفاكايين الجهازي يحمل مخاطر قلبية غير مقبولة للمؤشرات غير الجراحية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

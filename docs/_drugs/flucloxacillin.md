@@ -29,62 +29,63 @@ indication_count: 10
 
 </div>
 
-# Flucloxacillin: From Staphylococcal Infections to Conjunctivitis
+# فلوكلوكسين: من العدوى العنقودية إلى التهاب الملتحمة
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Flucloxacillin is an antistaphylococcal penicillin whose formally approved indication text is not on file for Saudi Arabia (the drug is currently not marketed there). The TxGNN model predicts it may be effective for **Conjunctivitis**, but this is currently supported by **0 clinical trials** and only **3 publications**, none of which directly studies flucloxacillin for this indication.
+فلوكلوكسين هو بنسلين مضاد للعنقوديات الذي لا يتوفر نص الاستطباب الموافق عليه رسميًا في الملفات الخاصة بالمملكة العربية السعودية (الدواء غير مسوّق حاليًا هناك). يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب الملتحمة**، لكن هذا مدعوم حاليًا بـ **0 تجربة سريرية** و**3 منشورات فقط**، لا يدرس أي منها فلوكلوكسين بشكل مباشر لهذا الاستطباب.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not on file — drug not marketed in Saudi Arabia; drug class is antistaphylococcal penicillin (per evidence-pack rationale) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير موجود في الملفات — الدواء غير مسوّق في المملكة العربية السعودية؛ فئة الدواء هي البنسلين المضاد للعنقوديات (وفقًا لمنطق حزمة الأدلة) |
+| الاستطباب الجديد المتنبأ به | التهاب الملتحمة |
+| درجة التنبؤ TxGNN | 99.84% |
+| مستوى الأدلة | L4 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | الانتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism-of-action data is not available for flucloxacillin in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, flucloxacillin is an antistaphylococcal β-lactam antibiotic — its established role is treating infections caused by *Staphylococcus aureus* and other susceptible Gram-positive organisms.
+بيانات آلية العمل المفصلة غير متوفرة لفلوكلوكسين في حزمة الأدلة هذه (تم الإشارة إليها كفجوة بيانات عالية الخطورة). بناءً على المعلومات المتاحة، فلوكلوكسين هو مضاد حيوي بيتا لاكتام مضاد للعنقوديات — دوره المثبت هو علاج العدوى التي تسببها *Staphylococcus aureus* والكائنات الحية الأخرى موجبة الجرام القابلة للحساسية.
 
-Bacterial conjunctivitis, particularly the staphylococcal subtype, is theoretically a plausible target for an antistaphylococcal agent. However, the three literature hits returned for this pairing do not actually study flucloxacillin's efficacy in conjunctivitis: one is a case report of gonococcal dacryoadenitis (a different pathogen, no drug link), one is a review of staphylococcal scalded skin syndrome that mentions conjunctivitis only as a prodromal symptom (not a treatment study), and one is a review of atypical herpes simplex presentations with no connection to flucloxacillin at all. This pattern is consistent with TxGNN generating a high score from topic co-occurrence (staphylococcal disease, ophthalmic infection) rather than from a genuine treatment signal.
+التهاب الملتحمة البكتيري، وخاصة النوع الفرعي العنقودي، هو هدف نظري معقول لعامل مضاد للعنقوديات. ومع ذلك، فإن النتائج الأدبية الثلاث المرجعة لهذا الاقتران لا تدرس فعلاً فعالية فلوكلوكسين في التهاب الملتحمة: إحداها تقرير حالة لالتهاب الغدة الدمعية السيلاني (مسبب مرض مختلف، بدون ارتباط دواء)، والثانية مراجعة لمتلازمة الجلد المسلوخ العنقودية التي تذكر التهاب الملتحمة فقط كأعراض استباقية (وليس دراسة علاج)، والثالثة مراجعة لعروض الهربس البسيط غير النمطية بدون أي ارتباط بفلوكلوكسين على الإطلاق. هذا النمط متسق مع توليد TxGNN لدرجة عالية من التعايش بالموضوع (مرض عنقودي، عدوى عينية) بدلاً من إشارة علاج حقيقية.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered.
+حاليًا لا توجد تجارب سريرية ذات صلة مسجلة.
 
-## Literature Evidence
+## أدلة الأدب الطبي
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [41884366](https://pubmed.ncbi.nlm.nih.gov/41884366/) | 2026 | Case Report | Case reports in ophthalmology | Gonococcal dacryoadenitis case; pathogen is *N. gonorrhoeae*, not staphylococcal — no direct relevance to flucloxacillin |
-| [12627992](https://pubmed.ncbi.nlm.nih.gov/12627992/) | 2003 | Review | American journal of clinical dermatology | Review of staphylococcal scalded skin syndrome; notes conjunctivitis as a prodromal symptom, not a treatment outcome |
-| [1286123](https://pubmed.ncbi.nlm.nih.gov/1286123/) | 1992 | Review | International journal of STD & AIDS | Review of atypical HSV presentations; no mention of flucloxacillin or bacterial conjunctivitis treatment |
+| [41884366](https://pubmed.ncbi.nlm.nih.gov/41884366/) | 2026 | تقرير حالة | Case reports in ophthalmology | حالة التهاب الغدة الدمعية السيلاني؛ المسبب هو *N. gonorrhoeae*، وليس عنقودياً — لا علاقة مباشرة بفلوكلوكسين |
+| [12627992](https://pubmed.ncbi.nlm.nih.gov/12627992/) | 2003 | مراجعة | American journal of clinical dermatology | مراجعة متلازمة الجلد المسلوخ العنقودية؛ تذكر التهاب الملتحمة كأعراض استباقية وليس كنتيجة علاج |
+| [1286123](https://pubmed.ncbi.nlm.nih.gov/1286123/) | 1992 | مراجعة | International journal of STD & AIDS | مراجعة عروض الهربس البسيط غير النمطية؛ لا يوجد ذكر لفلوكلوكسين أو علاج التهاب الملتحمة البكتيري |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Flucloxacillin currently has no registered market authorization in Saudi Arabia (0 licenses on file).
+فلوكلوكسين حاليًا لا يملك تصريح تسويق مسجل في المملكة العربية السعودية (0 تراخيص في الملفات).
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information. Note: SFDA package insert warnings/contraindications and drug-interaction data could not be retrieved in this evidence pack (Blocking data gap — DG001), so a full safety evaluation cannot yet be completed.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة. ملاحظة: لم يمكن استرجاع تحذيرات/موانع الاستخدام الخاصة بـ SFDA وبيانات التفاعلات الدوائية في حزمة الأدلة هذه (فجوة بيانات حاجبة — DG001)، لذلك لا يمكن إكمال تقييم السلامة الكامل حتى الآن.
 
-## Conclusion and Next Steps
+## الخاتمة والخطوات التالية
 
-**Decision: Hold**
+**القرار: الانتظار**
 
-**Rationale:**
-The predicted indication is not supported by any clinical trial and only by literature that does not directly address flucloxacillin's use in conjunctivitis. Combined with a Blocking-severity gap in safety data (SFDA warnings/contraindications), this candidate cannot proceed past initial screening.
+**الأساس المنطقي:**
+الاستطباب المتنبأ به غير مدعوم بأي تجربة سريرية وفقط بأدب طبي لا يعالج بشكل مباشر استخدام فلوكلوكسين في التهاب الملتحمة. بالإضافة إلى فجوة خطورة حاجبة في بيانات السلامة (تحذيرات/موانع الاستخدام الخاصة بـ SFDA)، لا يمكن لهذا المرشح أن يتقدم بعد الفحص الأولي.
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings, contraindications, DDI) — currently blocking safety evaluation (DG001)
-- Mechanism-of-action detail from DrugBank (DG002)
-- Targeted literature/trial search specifically on flucloxacillin efficacy in bacterial/staphylococcal conjunctivitis, rather than general co-occurrence hits
-- Clarification of Saudi Arabia registration status for flucloxacillin generally, given it is currently unmarketed
+**لكي يتم المضي قدمًا، يلزم ما يلي:**
+- نشرة SFDA (التحذيرات، موانع الاستخدام، التفاعلات الدوائية) — تحظر حاليًا تقييم السلامة (DG001)
+- تفاصيل آلية العمل من DrugBank (DG002)
+- بحث مستهدف عن الأدب الطبي والتجارب بشكل محدد حول فعالية فلوكلوكسين في التهاب الملتحمة البكتيري/العنقودي، بدلاً من نتائج التعايش العام
+- توضيح حالة تسجيل المملكة العربية السعودية لفلوكلوكسين بشكل عام، بالنظر إلى أنه غير مسوّق حاليًا
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

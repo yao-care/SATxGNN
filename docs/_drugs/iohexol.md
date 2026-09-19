@@ -29,72 +29,73 @@ indication_count: 2
 
 </div>
 
-# Iohexol: From Contrast Imaging to Insomnia
+# إيوهيكسول: من وسائط التباين الإشعاعية إلى الأرق
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Iohexol is a non-ionic iodinated radiographic contrast medium (used for X-ray/CT/myelography imaging), not a therapeutic agent, and is not currently marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Insomnia** (score 99.87%), but this prediction is supported by **zero clinical trials and zero publications**, and the evidence pack's own analysis flags it as a likely false positive driven by knowledge-graph co-occurrence (e.g., "renal function testing / hospitalization context") rather than a real pharmacological signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Saudi regulatory data (no licenses on file); known use is as a radiographic contrast agent for X-ray/CT/myelography |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيوهيكسول هو وسيط تباين إشعاعي مؤين غير أيوني (يُستخدم لتصوير الأشعة السينية/التصوير المقطعي/تصوير النخاع الشوكي)، وليس عاملاً علاجياً، وليس معروضاً حالياً في السوق السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **الأرق** (درجة 99.87%)، إلا أن هذا التنبؤ لا يستند إلى أي تجارب سريرية وأي منشورات علمية، وتحليل حزمة الأدلة نفسها يشير إليه بوصفه موجب إيجابي خاطئ يحتمل أن يكون مدفوعاً بالتزامن في الرسم البياني للمعرفة (مثل "اختبارات وظائف الكلى/سياق الاستشفاء") وليس بإشارة صيدلانية حقيقية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, Iohexol is a non-ionic iodinated contrast medium used diagnostically for imaging (X-ray, CT, myelography). It has no established central nervous system penetration and no known receptor-binding activity relevant to sleep regulation (e.g., GABA or serotonergic pathways).
-
-The evidence pack's own mechanistic assessment is explicit: the drug has no CNS pharmacology, so there is no plausible biological basis for an anti-insomnia effect. The high TxGNN score is most likely explained by spurious co-occurrence in the knowledge graph — iohexol frequently appears in contexts like renal function testing (GFR measurement) and hospitalization, which may also correlate with sleep-related diagnoses in the training data, without reflecting a true drug-disease relationship.
-
-A second, lower-ranked candidate (anxiety, score 99.25%) was also evaluated and shows the same pattern: 6 associated clinical trials exist, but all were graded "C" (low relevance) — they involve iohexol only as a GFR-measurement tool in transplant, bariatric surgery, or critical-illness studies, not as an anxiolytic treatment. This reinforces that the signal is a data-pipeline artifact (keyword/entity mismatch) rather than genuine repurposing evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Insomnia.
-
-*(Note: 6 trials were retrieved for the secondary candidate "anxiety," but all were assessed as Grade C / not relevant — iohexol was used only as a renal-clearance measurement agent, not as a treatment. These are not included here as they do not support the primary predicted indication.)*
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير متاح من البيانات التنظيمية السعودية (لا توجد تراخيص في السجلات)؛ الاستخدام المعروف هو كعامل تباين إشعاعي لتصوير الأشعة السينية/التصوير المقطعي/تصوير النخاع الشوكي |
+| الاستطباب الجديد المتنبأ به | الأرق (المرض) |
+| درجة تنبؤ TxGNN | 99.87% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | الانتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently no related literature available.
+لا تتوفر حالياً بيانات تفصيلية عن آلية العمل (يتم تصنيفها كفجوة بيانات عالية الخطورة). بناءً على المعلومات المعروفة، إيوهيكسول هو وسيط تباين إشعاعي مؤين غير أيوني يُستخدم تشخيصياً لتصوير الأشعة السينية والتصوير المقطعي وتصوير النخاع الشوكي. لا يوجد لديه اختراق معروف للجهاز العصبي المركزي وليس له نشاط ارتباط مستقبل معروف يتعلق بتنظيم النوم (مثل مسارات GABA أو السيروتونين).
 
----
+تقييم حزمة الأدلة الميكانيكي واضح صراحة: الدواء ليس له صيدلانية الجهاز العصبي المركزي، لذلك لا توجد أساس بيولوجي معقول لتأثير مضاد للأرق. الدرجة العالية لـ TxGNN تُفسَّر على الأرجح بالتزامن الزائف في الرسم البياني للمعرفة — يظهر إيوهيكسول بشكل متكرر في سياقات مثل اختبارات وظائف الكلى (قياس GFR) والاستشفاء، والتي قد تترافق أيضاً مع تشخيصات ذات صلة بالنوم في بيانات التدريب، دون أن تعكس علاقة حقيقية بين الدواء والمرض.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are marked as a Blocking data gap — retrieval and parsing from the official source is required before any S1 safety screening can proceed.)*
+مرشح ثانوي مرتبة أقل (القلق، درجة 99.25%) تم تقييمه أيضاً ويُظهر نفس النمط: هناك 6 تجارب سريرية مرتبطة بها، إلا أن جميعها تم تصنيفها "C" (صلة منخفضة) — تتضمن إيوهيكسول فقط كأداة قياس GFR في دراسات زراعة الأعضاء أو جراحات البدانة أو الحالات الحرجة، وليس كعلاج مقلق. وهذا يؤكد أن الإشارة هي قطعة فنية في خط أنابيب البيانات (عدم تطابق الكلمات الرئيسية/الكيانات) بدلاً من أدلة إعادة توجيه حقيقية.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة للأرق.
 
-**Rationale:**
-Both predicted indications (insomnia and anxiety) are L5 evidence level with no genuine supporting clinical trials or literature, and the drug's known pharmacology (a non-CNS-active contrast agent) provides no mechanistic basis for either. The evidence pack itself identifies this as likely noise from knowledge-graph co-occurrence rather than a true repurposing signal.
+*(ملاحظة: تم استرجاع 6 تجارب للمرشح الثانوي "القلق"، إلا أن جميعها تم تقييمها بـ Grade C / غير ذات صلة — استُخدم إيوهيكسول فقط كعامل قياس إفراز الكلى، وليس كعلاج. لم يتم تضمين هذه هنا لأنها لا تدعم الاستطباب المتنبأ به الأساسي.)*
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action from DrugBank or primary literature
-- A targeted literature/trial search specifically for iohexol + CNS/sleep/anxiety pharmacology to rule out or confirm any genuine signal before further evaluation
-- If no genuine signal is found, this candidate should be deprioritized rather than advanced to S1
+---
+
+## أدلة الأدبيات
+
+لا توجد حالياً أدبيات ذات صلة متاحة.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات وموانع استعمال نشرة TFDA الصيدلانية معلَّمة بوصفها فجوة بيانات حاجزة — يلزم الاسترجاع والتحليل من المصدر الرسمي قبل أي فحص سلامة S1.)*
+
+---
+
+## الخلاصة والخطوات القادمة
+
+**القرار: الانتظار**
+
+**المسوّغ:**
+كلا الاستطبابات المتنبأ بهما (الأرق والقلق) هي مستوى أدلة L5 بدون أي تجارب سريرية أو أدبيات داعمة حقيقية، وعدم وجود آلية عمل معروفة للدواء (وسيط تباين غير نشط في الجهاز العصبي المركزي) يوفر أساساً ميكانيكياً لأي من الاثنين. حزمة الأدلة نفسها تحدد هذا بوصفه ضوضاء محتملة من تزامن الرسم البياني للمعرفة وليس إشارة إعادة توجيه حقيقية.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة العبوة من TFDA/التنظيمية (التحذيرات، موانع الاستعمال) — حالياً فجوة بيانات حاجزة
+- تأكيد آلية العمل من DrugBank أو الأدبيات الأساسية
+- بحث أدبيات/تجارب موجهة بشكل خاص عن إيوهيكسول + صيدلانية الجهاز العصبي المركزي/النوم/القلق للاستبعاد أو تأكيد أي إشارة حقيقية قبل المزيد من التقييم
+- في حالة عدم العثور على إشارة حقيقية، يجب إعطاء هذا المرشح أولوية أقل بدلاً من تقدمه إلى S1
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

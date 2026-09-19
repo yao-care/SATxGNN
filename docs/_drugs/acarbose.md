@@ -29,70 +29,71 @@ indication_count: 9
 
 </div>
 
-# Acarbose: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+# أكاربوس: من مرض السكري من النوع الثاني إلى متلازمة الأطراف الصلبة البؤرية
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Acarbose is an intestinal α-glucosidase inhibitor used to manage postprandial blood glucose in type 2 diabetes mellitus by slowing carbohydrate absorption in the small intestine.
-The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, a rare focal variant of Stiff Person Spectrum Disorder;
-however, **no clinical trials** and **no publications** currently support this direction.
+أكاربوس هو مثبط ألفا-جلوكوسيداز المعوي المستخدم لإدارة جلوكوز الدم في فترة ما بعد الطعام في مرض السكري من النوع الثاني عن طريق تبطيء امتصاص الكربوهيدرات في الأمعاء الدقيقة.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة الأطراف الصلبة البؤرية**، وهي متغيرة بؤرية نادرة من اضطراب طيف الشخص الصلب؛
+ومع ذلك، **لا توجد تجارب سريرية** و **لا توجد منشورات** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | Type 2 Diabetes Mellitus (postprandial blood glucose management) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | مرض السكري من النوع الثاني (إدارة جلوكوز الدم في فترة ما بعد الطعام) |
+| المؤشر الجديد المتنبأ به | متلازمة الأطراف الصلبة البؤرية |
+| درجة التنبؤ بـ TxGNN | 99.65% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | احتفظ |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-Currently, detailed mechanism of action data is not available from the regulatory record. Based on established pharmacology, acarbose is an intestinal α-glucosidase inhibitor that competitively and reversibly blocks the enzymes responsible for breaking down oligosaccharides and disaccharides into absorbable monosaccharides in the gut brush border. This delays carbohydrate absorption and blunts postprandial glucose excursions. Acarbose has no known activity on the central nervous system, GABAergic neurotransmission, or immune modulation.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة من السجل التنظيمي. بناءً على الصيدلة المعروفة، أكاربوس هو مثبط ألفا-جلوكوسيداز معوي يثبط بشكل تنافسي وعكسي الإنزيمات المسؤولة عن تكسير قلائح السكريات والسكريات ثنائية إلى أحاديات سكر قابلة للامتصاص في حدود الفرشاة المعوية. وهذا يؤخر امتصاص الكربوهيدرات ويقلل من تقلبات جلوكوز الدم في فترة ما بعد الطعام. ليس لأكاربوس أي نشاط معروف على الجهاز العصبي المركزي، أو الإرسال العصبي GABAergic، أو التعديل المناعي.
 
-Focal Stiff Limb Syndrome is a focal variant of Stiff Person Spectrum Disorder, characterized by pathological anti-GAD65 antibody-mediated dysfunction of GABAergic inhibitory interneurons, leading to segmental muscle rigidity and spasms. The postulated TxGNN graph reasoning path runs through a shared molecular node: GAD65 (glutamic acid decarboxylase 65) is a target autoantigen in both Stiff Person Spectrum Disorder and Type 1 Diabetes Mellitus, creating an indirect graph linkage through autoimmune co-occurrence. The model likely traverses the path: Acarbose → blood glucose regulation → GAD65 autoimmunity → Focal Stiff Limb Syndrome.
+متلازمة الأطراف الصلبة البؤرية هي متغيرة بؤرية من اضطراب طيف الشخص الصلب، تتميز بالخلل الناجم عن الجسم المضاد anti-GAD65 المرضي في الخلايا العصبية الوسيطة المثبطة GABAergic، مما يؤدي إلى تيبس عضلي قطاعي وتشنجات. يعمل مسار التفكير الجزيئي المفترض لنموذج TxGNN من خلال عقدة جزيئية مشتركة: GAD65 هو هدف مستضد ذاتي في كل من اضطراب طيف الشخص الصلب ومرض السكري من النوع الأول، مما يخلق ارتباطاً بيانياً غير مباشر من خلال التزامن المناعي الذاتي. من المحتمل أن يخترق النموذج المسار: أكاربوس → تنظيم جلوكوز الدم → المناعة الذاتية anti-GAD65 → متلازمة الأطراف الصلبة البؤرية.
 
-However, acarbose acts solely on intestinal carbohydrate absorption and has no established pharmacological effect on GAD65 autoantibody production, GABAergic neurotransmission, or neuroimmune regulation. The mechanistic chain is indirect, multi-hop, and entirely unsupported by experimental or clinical data. This prediction most likely represents a non-specific graph traversal artifact rather than a biologically meaningful drug-disease relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ومع ذلك، يعمل أكاربوس فقط على امتصاص الكربوهيدرات المعوية وليس له أي تأثير صيدلاني معروف على إنتاج الجسم المضاد anti-GAD65، أو الإرسال العصبي GABAergic، أو التنظيم المناعي العصبي. السلسلة الآلية غير مباشرة، متعددة الخطوات، وغير مدعومة بالكامل بالبيانات التجريبية أو السريرية. هذا التنبؤ من المرجح أنه يمثل ناتجاً جانبياً ناشئاً عن المسح البياني بدلاً من علاقة عقار-مرض ذات معنى بيولوجي حقيقي.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة أدبية
 
-**Decision: Hold**
+لا توجد منشورات أدبية ذات صلة متاحة حالياً.
 
-**Rationale:**
-There is no clinical, preclinical, or mechanistic evidence connecting acarbose to focal stiff limb syndrome; the TxGNN prediction is classified as L5 (model prediction only) and is most likely an artifact of indirect GAD65 graph linkage, with no clinically meaningful basis for further development in this indication.
+---
 
-**To proceed, the following is needed:**
-- Basic preclinical studies (in vitro / in vivo) to explore whether α-glucosidase inhibition exerts any effect on GABAergic function or anti-GAD65 autoimmunity
-- Complete MOA data from DrugBank (DG002) to fill the mechanistic gap and enable proper target overlap analysis
-- Package insert safety data (DG001) from TFDA or equivalent authority to enable full contraindication and warning review
-- Consideration of higher-ranked predictions with stronger mechanistic plausibility (e.g., Rank 9 — Pancreatic Agenesis, Evidence Level L4) for prioritized follow-up
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الاستنتاج والخطوات التالية
+
+**القرار: احتفظ**
+
+**المنطق:**
+لا يوجد دليل سريري أو سابق للسريرية أو آلي يربط أكاربوس بمتلازمة الأطراف الصلبة البؤرية؛ التنبؤ بـ TxGNN مصنف كـ L5 (التنبؤ بالنموذج فقط) وهو على الأرجح ناتج جانبي ناشئ عن الارتباط البياني غير المباشر لـ GAD65، بدون أساس سريري ذي معنى لمزيد من التطوير في هذا المؤشر.
+
+**للمتابعة، يلزم ما يلي:**
+- دراسات سابقة للسريرية أساسية (in vitro / in vivo) لاستكشاف ما إذا كان تثبيط ألفا-جلوكوسيداز له أي تأثير على وظيفة GABAergic أو المناعة الذاتية anti-GAD65
+- بيانات آلية العمل الكاملة من DrugBank (DG002) لملء الفجوة الآلية وتمكين تحليل تداخل الهدف بشكل صحيح
+- بيانات نشرة العبوة الأمان (DG001) من TFDA أو سلطة تنظيمية مكافئة لتمكين المراجعة الكاملة للموانع والتحذيرات
+- النظر في التنبؤات ذات الترتيب الأعلى مع أساس آلي أقوى (على سبيل المثال، الترتيب 9 — عدم تكون البنكرياس، مستوى الأدلة L4) للمتابعة الموجهة بالأولويات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

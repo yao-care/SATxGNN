@@ -29,58 +29,59 @@ indication_count: 1
 
 </div>
 
-# Verteporfin: From Photodynamic Therapy (Wet AMD) to Mitochondrial OXPHOS Disorder
+# فرتيبورفين: من العلاج الضوئي الديناميكي (الضمور البقعي الرطب) إلى اضطرابات الفسفرة المؤكسدة الميتوكوندرية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Verteporfin is a benzoporphyrin-derivative photosensitizer publicly known for photodynamic therapy (PDT) in wet age-related macular degeneration; this specific indication is not confirmed in the current dataset. The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure network-prediction hypothesis with no corroborating study evidence.
+فرتيبورفين هو محسّس ضوئي مشتق من البنزوبورفيرين معروف علنياً لعلاج الضمور البقعي الرطب المرتبط بتقدم السن عن طريق العلاج الضوئي الديناميكي (PDT)؛ هذا الاستطباب المحدد لم يتم التأكد منه في مجموعة البيانات الحالية. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الفسفرة المؤكسدة الميتوكوندرية بسبب شذوذ الحمض النووي النووي**، لكن هذا الاتجاه يدعمه حالياً **0 تجربة سريرية** و**0 منشور** — إنها فرضية استدلال شبكة محضة بدون أدلة دراسة مؤيدة.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in dataset (no Saudi Arabia license records); publicly known use is photodynamic therapy for wet age-related macular degeneration |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% (rank 7959) |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير متوفر في مجموعة البيانات (لا توجد سجلات ترخيص في المملكة العربية السعودية)؛ الاستخدام المعروف علنياً هو العلاج الضوئي الديناميكي للضمور البقعي الرطب المرتبط بتقدم السن |
+| الاستطباب الجديد المتنبأ به | اضطراب الفسفرة المؤكسدة الميتوكوندرية بسبب شذوذ الحمض النووي النووي |
+| درجة التنبؤ في TxGNN | 99.49% (الترتيب 7959) |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير موجود في السوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for verteporfin in this dataset. Based on publicly known information, verteporfin is a benzoporphyrin derivative photosensitizer used clinically in photodynamic therapy (PDT), where light activation generates reactive oxygen species (ROS) that can secondarily affect mitochondrial function. Separately, non-photoactivated verteporfin has been described in the literature as an inhibitor of YAP/TAZ signaling (Hippo pathway).
+حالياً، بيانات آلية عمل مفصلة غير متوفرة لفرتيبورفين في هذه مجموعة البيانات. بناءً على المعلومات المعروفة علنياً، فرتيبورفين هو محسّس ضوئي مشتق من البنزوبورفيرين يُستخدم سريرياً في العلاج الضوئي الديناميكي (PDT)، حيث ينتج تنشيط الضوء أنواع الأكسجين التفاعلية (ROS) التي قد تؤثر ثانوياً على وظيفة الميتوكوندريا. بشكل منفصل، وُصف فرتيبورفين غير المنشط بالضوء في الأدبيات كمثبط لإشارات YAP/TAZ (مسار Hippo).
 
-Neither of these mechanistic threads directly explains a link to a nuclear-DNA-related OXPHOS disorder, and no clinical trial, registry, or literature evidence in this dataset connects verteporfin to this disease. The prediction should therefore be treated as an unvalidated network-inference hypothesis rather than a mechanistically grounded repurposing candidate.
+لا يفسر أي من هذه الخيوط الآلية بشكل مباشر ارتباطاً بين فرتيبورفين واضطراب OXPHOS المرتبط بالحمض النووي النووي، ولا توجد أدلة من تجربة سريرية أو سجل أو أدبيات في هذه مجموعة البيانات تربط فرتيبورفين بهذا المرض. يجب اعتبار التنبؤ إذاً كفرضية استدلال شبكة غير مثبتة وليس كمرشح إعادة استخدام مدعوم بآلية عمل.
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-Currently no related clinical trials registered
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available
+لا توجد أدبيات ذات صلة متاحة حالياً
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Verteporfin is not marketed in Saudi Arabia (0 registered authorizations); no license or product data is available in this dataset.
+فرتيبورفين غير موجود في السوق السعودية (0 تصاريح مسجلة)؛ لا توجد بيانات ترخيص أو منتج متاحة في هذه مجموعة البيانات.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-The prediction score is high, but evidence level is L5 (model prediction only) — no clinical trials or literature support this indication, mechanism-of-action data is unavailable, and TFDA/local safety labeling data is a blocking gap (DG001), so it cannot proceed to safety pre-assessment.
+**المبرر:**
+درجة التنبؤ مرتفعة، لكن مستوى الدليل هو L5 (تنبؤ نموذج فقط) — لا توجد تجارب سريرية أو أدبيات تدعم هذا الاستطباب، بيانات آلية العمل غير متوفرة، وبيانات السلامة من TFDA/التصنيف المحلي هي فجوة حاجزة (DG001)، لذا لا يمكن المتابعة إلى مرحلة التقييم السابق للسلامة.
 
-**To proceed, the following is needed:**
-- Confirmed original indication and regulatory status (currently absent from dataset)
-- Verified mechanism of action (MOA) linking verteporfin to mitochondrial OXPHOS pathways
-- Package insert / regulatory safety data (warnings, contraindications) — currently blocking
-- Preclinical or mechanistic studies specifically testing verteporfin in nuclear-DNA-related OXPHOS disease models
+**لكي تتمكن من المتابعة، يتطلب الأمر الآتي:**
+- الاستطباب الأصلي المؤكد والحالة التنظيمية (غير موجود حالياً في مجموعة البيانات)
+- آلية عمل مثبتة (MOA) تربط فرتيبورفين بمسارات الفسفرة المؤكسدة الميتوكوندرية
+- نشرة العبوة / بيانات سلامة تنظيمية (تحذيرات، موانع استعمال) — حالياً حاجزة
+- دراسات سابقة للسريرية أو آلية عمل تختبر فرتيبورفين تحديداً في نماذج اضطراب OXPHOS المرتبط بالحمض النووي النووي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

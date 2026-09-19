@@ -29,97 +29,98 @@ indication_count: 1
 
 </div>
 
-# Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
+# السيانوكوبالامين: من نقص فيتامين ب12 إلى مرض استقلاب البيوتين
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Cyanocobalamin is a synthetic form of vitamin B12, classically used to correct vitamin B12 deficiency, pernicious anemia, and megaloblastic anemia.
-The TxGNN model predicts it may be effective for **Biotin Metabolic Disease**, with **15 clinical trials** and **20 publications** identified — though the vast majority provide only indirect mechanistic support, with no trials directly testing cyanocobalamin in this indication.
-Overall evidence remains at a preclinical/mechanistic level, and this prediction is best understood as a research hypothesis rather than a clinical repurposing opportunity.
+السيانوكوبالامين هو شكل اصطناعي من فيتامين ب12، يُستخدم تقليديًا لتصحيح نقص فيتامين ب12 وفقر الدم الخبيث وفقر الدم الضخم الأرومات.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **مرض استقلاب البيوتين**، حيث تم تحديد **15 تجربة سريرية** و**20 منشورًا** — لكن الغالبية العظمى توفر دعمًا آليًا غير مباشر فقط، بدون تجارب تختبر السيانوكوبالامين مباشرة في هذا الدواعي الجديد.
+يبقى الدليل الكلي على مستوى ما قبل الإكلينيكي/الآلي، وهذا التنبؤ يُفهم بشكل أفضل كفرضية بحثية وليس فرصة إعادة استخدام سريرية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Vitamin B12 deficiency / Pernicious anemia / Megaloblastic anemia |
-| Predicted New Indication | Biotin Metabolic Disease |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدواعي الأصلية | نقص فيتامين ب12 / فقر الدم الخبيث / فقر الدم الضخم الأرومات |
+| الدواعي الجديدة المتنبأ بها | مرض استقلاب البيوتين |
+| درجة التنبؤ من TxGNN | 99.60% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Cyanocobalamin is a stable, synthetic form of vitamin B12 (cobalamin). Once absorbed, it is converted in the body to two active cofactor forms: **methylcobalamin** (required for methionine synthase) and **adenosylcobalamin** (required for methylmalonyl-CoA mutase). The latter enzyme catalyses the conversion of methylmalonyl-CoA to succinyl-CoA — a critical step in the degradation of propionyl-CoA derived from odd-chain fatty acids, certain amino acids, and the gut microbiome.
+السيانوكوبالامين هو شكل اصطناعي مستقر من فيتامين ب12 (كوبالامين). بعد الامتصاص، يتم تحويله في الجسم إلى شكلين نشطين من العوامل المساعدة: **ميثيل كوبالامين** (مطلوب لإنزيم ميثيونين سينثيتاز) و**أدينوسيل كوبالامين** (مطلوب لإنزيم ميثيل مالونيل كوبالامين أ ميوتاز). يحفز الإنزيم الأخير تحويل ميثيل مالونيل كوبالامين أ إلى سوكسينيل كوبالامين أ — وهي خطوة حرجة في تحطيم بروبيونيل كوبالامين أ المشتق من الأحماض الدهنية ذات السلسلة الفردية وبعض الأحماض الأمينية والميكروبيوم المعوي.
 
-This is precisely where the metabolic overlap with biotin becomes relevant. **Biotin** serves as the essential cofactor for propionyl-CoA carboxylase — the enzyme immediately upstream of methylmalonyl-CoA mutase — as well as for three other carboxylases (pyruvate carboxylase, acetyl-CoA carboxylase, 3-methylcrotonyl-CoA carboxylase). Biotin metabolic diseases — primarily **biotinidase deficiency** and **holocarboxylase synthetase deficiency** — impair all biotin-dependent carboxylases simultaneously, disrupting propionate catabolism at the step just before where cobalamin acts. Both deficiencies produce overlapping biochemical phenotypes: elevated propionylcarnitine, organic aciduria, metabolic acidosis, and hyperammonemia.
+هذا بالضبط حيث يصبح التداخل الأيضي مع البيوتين ذا صلة. **البيوتين** يعمل كعامل مساعد أساسي لإنزيم بروبيونيل كوبالامين أ كاربوكسيليز — الإنزيم الموجود مباشرة قبل إنزيم ميثيل مالونيل كوبالامين أ ميوتاز — وكذلك لثلاثة كاربوكسيليزات أخرى (بيروفات كاربوكسيليز، أسيتيل كوبالامين أ كاربوكسيليز، 3-ميثيل كروتونيل كوبالامين أ كاربوكسيليز). أمراض استقلاب البيوتين — بشكل أساسي **نقص البيوتينيداز** و**نقص هولوكاربوكسيليز سينثيتاز** — تضعف جميع كاربوكسيليزات البيوتين في نفس الوقت، مما يعطل تحطيم البروبيونات في الخطوة السابقة مباشرة حيث يعمل الكوبالامين. تنتج كلا الحالتين نمطًا بيوكيميائيًا متداخلًا: ارتفاع بروبيونيل كارنيتين، استقلاب الأحماض العضوية، الحماض الاستقلابي، وفرط الأمونيميا.
 
-The TxGNN model's high prediction score (0.996) most likely reflects this high degree of shared metabolic nodes in the knowledge graph. However, this mechanistic adjacency does not constitute clinical evidence: the standard treatment for biotin metabolic diseases remains **biotin supplementation itself**, and no study has yet demonstrated that cyanocobalamin monotherapy corrects the primary enzymatic defect in biotinidase deficiency or holocarboxylase synthetase deficiency. This prediction is a biologically coherent hypothesis that warrants preclinical investigation.
+من المحتمل أن تعكس درجة التنبؤ العالية للنموذج TxGNN (0.996) هذه الدرجة العالية من العُقد الاستقلابية المشتركة في الرسم البياني للمعرفة. ومع ذلك، فإن هذا التجاور الآلي لا يشكل دليلًا سريريًا: العلاج الموضح لأمراض استقلاب البيوتين يظل **مكملات البيوتين نفسها**، وليس أي دراسة قد أثبتت أن العلاج بمفرده بالسيانوكوبالامين يصحح العيب الإنزيمي الأساسي في نقص البيوتينيداز أو نقص هولوكاربوكسيليز سينثيتاز. هذا التنبؤ عبارة عن فرضية بيولوجية متسقة تستحق التحقيق قبل الإكلينيكي.
 
 ---
 
-## Clinical Trial Evidence
+## دليل التجارب السريرية
 
-No clinical trials directly testing cyanocobalamin for biotin metabolic disease were identified. The trials listed below are the most mechanistically adjacent among those retrieved:
+لم يتم تحديد أي تجارب سريرية تختبر السيانوكوبالامين مباشرة لمرض استقلاب البيوتين. التجارب المذكورة أدناه هي الأكثر تجاورًا من الناحية الآلية من بين تلك المسترجعة:
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Randomized multicentre trial of carglumic acid in propionic acidemia and methylmalonic acidemia — organic acidemias sharing the same propionate pathway disrupted in biotin metabolic disease; includes B12-responsive MMA patients |
-| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | N/A | Terminated | 5 | Biotin + dietary fibre supplementation pre-bariatric surgery to improve gut microbiota; biotin was an active intervention agent, but trial terminated early (n=5) — insufficient data |
-| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Completed | 30 | Cross-over study comparing natural (Panmol) vs synthetic vitamin B complex, including B12 and biotin together — provides indirect bioavailability data for co-administration |
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamin and mineral supplementation (including B vitamins) in Type 2 diabetic patients with neuropathy and nephropathy; explores B vitamin efficacy in a metabolic disease context |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Transdermal patch delivery of vitamins (including B12 and biotin) in post-bariatric surgery patients; focuses on absorption route rather than disease treatment |
+| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | المرحلة 3 | منجزة | 33 | تجربة عشوائية متعددة المراكز لحمض كارجلوميك في الحماض البروبيوني والحماض ميثيل مالونيكي — حماضات عضوية تشارك نفس مسار البروبيونات المعطل في مرض استقلاب البيوتين؛ يشمل مرضى MMA المستجيبين للـ B12 |
+| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | غير منطبق | توقفت | 5 | مكملات البيوتين + الألياف الغذائية قبل جراحة تحويل المسار لتحسين ميكروبيوم الأمعاء؛ كان البيوتين وكيل تدخل نشط، لكن توقفت التجربة مبكرًا (n=5) — بيانات غير كافية |
+| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | غير منطبق | منجزة | 30 | دراسة عبور مقارنة بين فيتامين B المعقد الطبيعي (Panmol) مقابل الاصطناعي، بما في ذلك B12 والبيوتين معًا — توفر بيانات توفر غير مباشرة للإدارة المشتركة |
+| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | المرحلة 2 | منجزة | 75 | تكملة الفيتامينات والمعادن (بما في ذلك فيتامينات B) في مرضى السكري من النوع الثاني مع الاعتلال العصبي والكلوي؛ تستكشف فعالية فيتامينات B في سياق مرض استقلابي |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | غير منطبق | منجزة | 99 | تسليم الفيتامينات عبر الجلد (بما في ذلك B12 والبيوتين) لدى مرضى ما بعد جراحة تحويل المسار؛ يركز على مسار الامتصاص بدلاً من علاج المرض |
 
 ---
 
-## Literature Evidence
+## دليل الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Mol Sci | Mechanistic review explicitly linking VitB12 as cofactor for both succinyl-CoA synthesis from methylmalonyl-CoA **and** biotin; characterises molecular overlaps in B12 deficiency states |
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Comprehensive review of vitamin-responsive disorders covering cobalamin, folate, **and biotin** together; covers inborn errors of cobalamin and biotin metabolism side-by-side |
-| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Case series | Pediatric Research | In vivo ¹³C-propionate metabolism in patients with propionic acidemia, B12-responsive methylmalonic acidemia, and **multiple carboxylase deficiency** — directly demonstrates cobalamin and biotin pathway intersection in the same study population |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Review | Pediatric Clinics of North America | Foundational review of megavitamin-responsive aminoacidopathies; articulates the cofactor therapy rationale for B-vitamin dependency syndromes including B12-responsive MMA |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Review | Advances in Clinical Chemistry | Systematic review of vitamin-responsive inborn errors of metabolism; covers both cobalamin and biotin-dependent enzyme defects |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminologica et Enzymologica | Vitamins in metabolic diseases — reviews pharmacological vs nutritional dosing in vitamin dependency syndromes; mechanistically relevant |
-| [7004517](https://pubmed.ncbi.nlm.nih.gov/7004517/) | 1980 | Review | Birth Defects Orig Art Series | Enzyme manipulation via specific megavitamin therapy in inborn errors of metabolism — discusses cofactor supplementation strategies including B12 and biotin |
-| [5011556](https://pubmed.ncbi.nlm.nih.gov/5011556/) | 1972 | Review | Medical Journal of Australia | Early description of vitamin dependency syndromes; historical basis for cofactor therapy in B-vitamin responsive metabolic disorders |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Review | Ryoikibetsu Shokogun Shirizu | Japanese review of vitamin dependency syndromes including B12 and biotin related conditions |
-| [4609643](https://pubmed.ncbi.nlm.nih.gov/4609643/) | 1974 | Review | Clinics in Endocrinology & Metabolism | Foundational review of inborn errors of organic acid metabolism — propionate pathway disorders that underpin both B12-responsive MMA and biotin metabolic disease |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | مراجعة | Int J Mol Sci | مراجعة آلية تربط صراحة فيتامين ب12 كعامل مساعد لكل من تخليق السوكسينيل كوبالامين أ من ميثيل مالونيل كوبالامين أ **والبيوتين**؛ تميز التداخلات الجزيئية في حالات نقص ب12 |
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | مراجعة | Handbook of Clinical Neurology | مراجعة شاملة للاضطرابات المستجيبة للفيتامينات تغطي الكوبالامين والفولات **والبيوتين** معًا؛ تغطي الأخطاء الخلقية لاستقلاب الكوبالامين والبيوتين جنبًا إلى جنب |
+| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | سلسلة حالات | Pediatric Research | استقلاب البروبيونات ¹³C في المختبر في مرضى الحماض البروبيوني والحماض ميثيل مالونيكي المستجيب للـ B12 و**نقص الكاربوكسيليز المتعدد** — يثبت بشكل مباشر تقاطع مسار الكوبالامين والبيوتين في نفس مجموعة السكان |
+| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | مراجعة | Pediatric Clinics of North America | مراجعة تأسيسية لأمراض الأحماض الأمينية سريعة الاستجابة للميجافيتامين؛ توضح المنطق السببي للعلاج بالعوامل المساعدة لأمراض الاعتماد على فيتامينات B بما في ذلك MMA المستجيب للـ B12 |
+| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | مراجعة | Advances in Clinical Chemistry | مراجعة منهجية للأخطاء الخلقية الاستقلابية المستجيبة للفيتامينات؛ تغطي كل من عيوب الإنزيم المعتمد على الكوبالامين والبيوتين |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | مراجعة | Acta Vitaminologica et Enzymologica | الفيتامينات في الأمراض الاستقلابية — تراجع الجرعات الدوائية مقابل التغذوية في أمراض الاعتماد على الفيتامينات؛ ذو صلة آلية |
+| [7004517](https://pubmed.ncbi.nlm.nih.gov/7004517/) | 1980 | مراجعة | Birth Defects Orig Art Series | معالجة الإنزيم عبر العلاج بالميجافيتامين المحدد في الأخطاء الخلقية للاستقلاب — يناقش استراتيجيات تكملة العوامل المساعدة بما في ذلك B12 والبيوتين |
+| [5011556](https://pubmed.ncbi.nlm.nih.gov/5011556/) | 1972 | مراجعة | Medical Journal of Australia | الوصف المبكر لأمراض الاعتماد على الفيتامينات؛ الأساس التاريخي للعلاج بالعوامل المساعدة في الاضطرابات الاستقلابية المستجيبة لفيتامينات B |
+| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | مراجعة | Ryoikibetsu Shokogun Shirizu | مراجعة يابانية لأمراض الاعتماد على الفيتامينات بما في ذلك حالات ب12 والبيوتين ذات الصلة |
+| [4609643](https://pubmed.ncbi.nlm.nih.gov/4609643/) | 1974 | مراجعة | Clinics in Endocrinology & Metabolism | مراجعة تأسيسية لأخطاء استقلاب الأحماض العضوية — اضطرابات مسار البروبيونات التي تشكل أساس كل من MMA المستجيب للـ B12 ومرض استقلاب البيوتين |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Cyanocobalamin currently has **no SFDA-approved products** registered in Saudi Arabia. The drug is not marketed in this market, and no authorisation records are on file.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+لا يحتوي السيانوكوبالامين حاليًا على أي منتجات معتمدة من هيئة الغذاء والدواء السعودية (SFDA) المسجلة في المملكة العربية السعودية. الدواء غير معروض في هذا السوق، وليس هناك سجلات تصريح على الملف.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-While the TxGNN model identifies a biologically coherent mechanistic link between cyanocobalamin and biotin metabolic disease via their shared role in the propionate degradation pathway, all identified evidence is indirect and mechanistic (L4). No clinical trial has directly evaluated cyanocobalamin in patients with biotinidase deficiency or holocarboxylase synthetase deficiency, and the established standard of care for these conditions is biotin itself — not cobalamin.
+---
 
-**To proceed, the following is needed:**
+## الاستنتاج والخطوات التالية
 
-- **Preclinical validation**: Cell or animal model studies directly testing whether cyanocobalamin (or adenosylcobalamin) supplementation improves outcomes in biotin-deficient or biotinidase-deficient states
-- **Patient subgroup identification**: Identify patients with biotin metabolic disease who co-present with cobalamin pathway dysfunction (e.g., elevated methylmalonic acid) — this subgroup would be the most logical target
-- **MOA data**: Retrieve full mechanism of action from DrugBank (flagged as DG002) to confirm adenosylcobalamin's specific enzymatic role in this disease context
-- **Safety profile**: Download and parse the SFDA/TFDA package insert (flagged as DG001) to complete the safety assessment before any clinical planning
-- **Regulatory pathway**: Since cyanocobalamin is not marketed in Saudi Arabia, any clinical development would require de novo registration in addition to indication expansion — a significant regulatory burden to factor into the go/hold decision
+**القرار: انتظر**
+
+**المبرر:**
+بينما يحدد نموذج TxGNN ارتباطًا آليًا متسقًا بيولوجيًا بين السيانوكوبالامين ومرض استقلاب البيوتين من خلال دورهما المشترك في مسار تحطيم البروبيونات، فإن جميع الأدلة المحددة غير مباشرة وآلية (L4). لم تقيّم أي تجربة سريرية السيانوكوبالامين مباشرة في مرضى نقص البيوتينيداز أو نقص هولوكاربوكسيليز سينثيتاز، والمعيار الموضح من الرعاية لهذه الحالات هو البيوتين نفسه — وليس الكوبالامين.
+
+**للمتابعة، يلزم ما يلي:**
+
+- **التحقق قبل الإكلينيكي**: دراسات نماذج الخلايا أو الحيوانات تختبر بشكل مباشر ما إذا كانت مكملات السيانوكوبالامين (أو أدينوسيل كوبالامين) تحسن النتائج في حالات نقص البيوتين أو نقص البيوتينيداز
+- **تحديد مجموعات المرضى**: تحديد المرضى الذين يعانون من مرض استقلاب البيوتين الذين يعانون أيضًا من اختلال وظائف مسار الكوبالامين (مثل حمض ميثيل مالونيك المرتفع) — ستكون هذه المجموعة الهدف الأكثر منطقية
+- **بيانات آلية المعالجة**: استرجاع كامل آلية المعالجة من DrugBank (معلمة باسم DG002) لتأكيد دور أدينوسيل كوبالامين الإنزيمي المحدد في سياق هذا المرض
+- **ملف السلامة**: تنزيل وتحليل نشرة SFDA/TFDA (معلمة باسم DG001) لإكمال تقييم السلامة قبل أي تخطيط سريري
+- **المسار التنظيمي**: نظرًا لأن السيانوكوبالامين لم يتم تسويقه في المملكة العربية السعودية، فإن أي تطوير سريري سيتطلب تسجيلًا جديدًا بالإضافة إلى توسيع الدواعي — وهو عبء تنظيمي كبير يجب أخذه في الاعتبار في قرار الانتظار/المتابعة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

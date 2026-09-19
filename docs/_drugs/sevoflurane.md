@@ -29,76 +29,77 @@ indication_count: 10
 
 </div>
 
-# Sevoflurane: From General Anesthesia to Prinzmetal Angina
+# سيفوفلوران: من التخدير العام إلى ذبحة برنزميتال
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Sevoflurane is a volatile halogenated-ether inhalational agent used for induction and maintenance of general anesthesia. The TxGNN model predicts a possible link to **Prinzmetal angina** (coronary vasospasm), but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated hypothesis with no corroborating clinical or mechanistic evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | General anesthesia (induction/maintenance) — based on established pharmacology; no approved indication text is on file because the product is not marketed in Saudi Arabia |
-| Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only) |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+سيفوفلوران هو عامل استنشاقي أثيري مُهلجن متطاير يُستخدم في استحثاث وصيانة التخدير العام. يتنبأ نموذج TxGNN برابط محتمل إلى **ذبحة برنزميتال** (تشنج الأوعية التاجية)، لكن هذا التنبؤ مدعوم حاليًا بـ **0 تجربة سريرية** و **0 منشور** — إنها فرضية نقية من النموذج بدون أي دليل سريري أو آلي مؤيد.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism-of-action data is not available for this record (flagged as a High-severity data gap). Based on established pharmacological knowledge, sevoflurane is a volatile general anesthetic that produces generalized CNS depression and, at anesthetic concentrations, non-specific vasodilation of coronary and systemic smooth muscle as a downstream effect of anesthetic induction.
-
-Prinzmetal angina is caused by transient, reversible coronary artery spasm rather than fixed atherosclerotic obstruction. The TxGNN model appears to have linked sevoflurane to this indication through the drug's known coronary-vasodilating property during anesthesia. However, this is a transient, dose-dependent, intraoperative pharmacological effect — it has no established basis as a chronic therapeutic or prophylactic mechanism for recurrent coronary vasospasm.
-
-No clinical trial or literature evidence exists to support this hypothesis (0 trials, 0 publications retrieved). The repurposing rationale explicitly notes this is a non-specific smooth-muscle effect under anesthesia, not a targeted or sustained anti-vasospastic mechanism, and should be treated as a low-confidence, exploratory signal only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | التخدير العام (الاستحثاث/الصيانة) — مبني على الصيدلانيات المعروفة؛ لا توجد نصوص استطباب معتمدة في السجل لأن المنتج غير مسوق في المملكة العربية السعودية |
+| الاستطباب الجديد المتنبأ به | ذبحة برنزميتال |
+| درجة التنبؤ TxGNN | 99.78% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | مراقبة |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولًا؟
 
-Currently no related literature available.
+حاليًا، البيانات التفصيلية لآلية العمل غير متاحة لهذا السجل (تم الإشارة إليها كفجوة بيانات عالية الخطورة). استنادًا إلى المعرفة الصيدلانية المعروفة، سيفوفلوران هو عامل تخدير عام متطاير ينتج عنه كبت الجهاز العصبي المركزي العام وتوسع أوعية غير محدد للعضلات الملساء التاجية والجهازية بتركيزات التخدير كتأثير لاحق لاستحثاث التخدير.
 
----
+تُسبب ذبحة برنزميتال تشنج الأوعية التاجية العابر والقابل للعكس بدلاً من الانسداد التصلبي الثابت. يبدو أن نموذج TxGNN ربط سيفوفلوران بهذا الاستطباب من خلال الخاصية المعروفة للعقار في توسيع الأوعية التاجية أثناء التخدير. ومع ذلك، هذا تأثير دوائي عابر يعتمد على الجرعة أثناء العملية — وليس له أساس معروف كآلية علاجية أو وقائية مزمنة لتشنج الأوعية التاجية المتكرر.
 
-## Saudi Arabia Market Information
-
-Sevoflurane has no marketing authorization on file in Saudi Arabia (total authorizations: 0; market status: Not Marketed).
+لا يوجد دليل تجربة سريرية أو أدبيات لدعم هذه الفرضية (0 تجربة، 0 منشور تم استرجاعه). يذكر الأساس المنطقي لإعادة الاستطباب بوضوح أن هذا تأثير غير محدد للعضلات الملساء تحت التخدير، وليس آلية مستهدفة أو مستدامة مضادة للتشنج، وينبغي التعامل معه كإشارة استكشافية منخفضة الثقة فقط.
 
 ---
 
-## Safety Considerations
+## دليل التجربة السريرية
 
-Please refer to the package insert for safety information.
-
-*(Note: Package insert warnings/contraindications are flagged as a Blocking data gap — retrieval from the official regulatory source is required before any S1 safety pre-assessment can proceed.)*
+حاليًا لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+حاليًا لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The Prinzmetal angina signal is a pure TxGNN model output (Evidence Level L5) with zero supporting clinical trials or publications, and the underlying mechanistic link (transient intraoperative vasodilation) does not plausibly extend to chronic disease management. There is currently no basis to advance this candidate beyond hypothesis stage.
+---
 
-**To proceed, the following is needed:**
-- Official TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap
-- DrugBank/pharmacology-sourced mechanism of action detail — currently a High-severity data gap
-- Preclinical or mechanistic studies specifically evaluating sevoflurane (or its vasodilatory pathway) in coronary vasospasm
-- Any real-world or case-level evidence of sevoflurane use in Prinzmetal angina patients, if it exists, to distinguish signal from noise
+## معلومات السوق في المملكة العربية السعودية
+
+سيفوفلوران لا يحتوي على تفويض تسويق في السجل في المملكة العربية السعودية (إجمالي التفويضات: 0؛ حالة السوق: غير مسوق).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
+
+*(ملاحظة: تحذيرات النشرة الداخلية/موانع الاستعمال تم الإشارة إليها كفجوة بيانات حاجزة — يجب استرجاع المعلومات من المصدر التنظيمي الرسمي قبل المتابعة بأي تقييم سابق للسلامة S1.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: مراقبة**
+
+**الأساس المنطقي:**
+إشارة ذبحة برنزميتال هي مخرجات نموذج TxGNN النقي (مستوى الدليل L5) بدون تجارب سريرية أو منشورات داعمة، والرابط الآلي الأساسي (توسع الأوعية العابر أثناء العملية) لا يمتد بشكل معقول إلى إدارة الأمراض المزمنة. لا يوجد حاليًا أساس لتقديم هذا المرشح إلى ما وراء مرحلة الفرضية.
+
+**للمتابعة، يلزم ما يلي:**
+- النشرة الداخلية الرسمية TFDA/SFDA (التحذيرات، موانع الاستعمال) — حاليًا فجوة بيانات حاجزة
+- تفاصيل آلية العمل من DrugBank/الصيدلانيات — حاليًا فجوة بيانات عالية الخطورة
+- الدراسات ما قبل السريرية أو الآلية التي تقيم سيفوفلوران بشكل محدد (أو مساره الموسّع للأوعية) في تشنج الأوعية التاجية
+- أي دليل من الواقع السريري أو على مستوى الحالات الفردية على استخدام سيفوفلوران في مرضى ذبحة برنزميتال، إن وُجد، للتمييز بين الإشارة والضجيج
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

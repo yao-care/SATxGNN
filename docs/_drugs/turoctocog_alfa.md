@@ -29,71 +29,72 @@ indication_count: 10
 
 </div>
 
-# Turoctocog Alfa: From Hemophilia A to Primary Release Disorder of Platelets
+# توروكتوكوج ألفا: من الهيموفيليا أ إلى اضطراب إطلاق الصفائح الدموية الأولي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Turoctocog alfa is a recombinant coagulation Factor VIII (antihemophilic factor) product, historically used for the treatment and prophylaxis of bleeding episodes in Hemophilia A. The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, but this direction is currently supported by **0 clinical trials** and **0 publications** — evidence at this stage is model-prediction only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hemophilia A (Factor VIII deficiency) — based on known drug class; not confirmed by Saudi regulatory filing (drug is not marketed) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+توروكتوكوج ألفا هو منتج عامل التخثر الثامن المؤتلف (عامل مضاد للهيموفيليا)، وقد استخدم تاريخياً لعلاج والنبؤ بنوبات النزيف في الهيموفيليا أ. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب إطلاق الصفائح الدموية الأولي**، لكن هذا الاتجاه مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشورات** — الأدلة في هذه المرحلة هي التنبؤ بالنموذج فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, turoctocog alfa is a recombinant human Factor VIII replacement therapy, and its efficacy in Hemophilia A (a coagulation-cascade bleeding disorder) is well established.
-
-The predicted indication, primary release disorder of platelets, belongs to the broader hemostasis/bleeding-disorder domain, which gives some conceptual proximity to the original indication. However, Factor VIII acts within the secondary (coagulation cascade) hemostasis pathway, whereas platelet release disorders are primarily defects of primary hemostasis (platelet granule secretion), a mechanistically distinct pathway. Without confirmed MOA data or supporting trial/literature evidence, the mechanistic rationale for this specific prediction should be treated as unverified rather than established.
-
-The same caution applies to the other top-ranked predictions in this evidence pack (e.g., pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome), which are also platelet-function or mixed hemostatic disorders rather than classic Factor VIII-responsive coagulopathies — these predictions warrant expert hematology review before further investment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|--------|
+| المؤشر الأصلي | الهيموفيليا أ (نقص عامل التخثر الثامن) — بناءً على فئة الدواء المعروفة؛ غير مؤكد من قبل التسجيل التنظيمي السعودي (الدواء غير مسوق) |
+| المؤشر الجديد المتنبأ به | اضطراب إطلاق الصفائح الدموية الأولي |
+| نقاط تنبؤ TxGNN | 99.99% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | احبس |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (تم الإشارة إليها كفجوة بيانات عالية الخطورة). بناءً على المعلومات المعروفة، توروكتوكوج ألفا هو منتج بديل عامل التخثر الثامن البشري المؤتلف، وفعاليته في الهيموفيليا أ (اضطراب نزيف في التسلسل المتتالي للتخثر) محققة جيداً.
 
----
+المؤشر المتنبأ به، اضطراب إطلاق الصفائح الدموية الأولي، ينتمي إلى المجال الأوسع لتحقق الدم/اضطرابات النزيف، مما يعطي بعض القرب المفاهيمي للمؤشر الأصلي. ومع ذلك، فإن عامل التخثر الثامن يعمل ضمن مسار التسلسل المتتالي للتخثر الثانوي (المسار الداخلي والخارجي)، بينما اضطرابات إطلاق الصفائح الدموية هي في المقام الأول عيوب في الرقوة الأولية للدم (إفراز حبيبات الصفائح الدموية)، وهو مسار مختلف من الناحية الآلية. بدون بيانات آلية عمل مؤكدة أو أدلة تجريبية/أدبية داعمة، يجب معاملة المنطق الآلي لهذا التنبؤ المحدد على أنه غير مؤكد وليس محقق.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications retrieval is flagged as a Blocking data gap — this must be resolved before any S1 safety assessment can proceed.)*
+الحذر نفسه ينطبق على التنبؤات الأخرى ذات الترتيب العالي في هذه حزمة الأدلة (مثل شبه فون ويليبراند، الثرومباستينيا غلانزمان، متلازمة سكوت)، وهي أيضاً اضطرابات وظيفة الصفائح الدموية أو اضطرابات تحقق مختلطة بدلاً من اضطرابات التخثر الكلاسيكية المستجيبة لعامل التخثر الثامن — هذه التنبؤات تستدعي مراجعة خبرة أمراض الدم قبل أي استثمار إضافي.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة التجارب السريرية
 
-**Decision: Hold**
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة
 
-**Rationale:**
-The predicted indication has no supporting clinical trials or literature (Evidence Level L5, model prediction only), the drug is not currently marketed in Saudi Arabia, and a Blocking-severity data gap (TFDA label/warnings unavailable) prevents even an initial safety assessment. The mechanistic link between a Factor VIII replacement product and a primary platelet-release disorder is also not yet substantiated.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — Blocking gap, required before S1 safety review
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Hematology expert review of mechanistic plausibility for platelet-function indications
-- Targeted literature/clinical trial search using alternate terminology (e.g., "platelet secretion defect," "storage pool disease") in case indexing differences explain the zero-hit searches
-- Saudi Arabia regulatory pathway assessment, given the drug currently has no local market authorization
+## أدلة الأدبيات
+
+لا توجد حالياً أدبيات ذات صلة متاحة
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملصق العبوة للحصول على معلومات السلامة.
+
+*(ملاحظة: تم وضع إشارة استرجاع تحذيرات/موانع استخدام ملصق TFDA كفجوة بيانات حاجزة — يجب حل هذا قبل أن يتمكن أي تقييم S1 للسلامة من المضي قدماً.)*
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: احبس**
+
+**الأساس المنطقي:**
+المؤشر المتنبأ به لا يحتوي على أي تجارب سريرية أو أدبيات داعمة (مستوى الأدلة L5، التنبؤ بالنموذج فقط)، والدواء غير مسوق حالياً في المملكة العربية السعودية، وفجوة بيانات من نوع حاجز (تحذيرات/موانع استخدام ملصق TFDA غير متاحة) تمنع حتى تقييم السلامة الأولي S1. الرابط الآلي بين منتج بديل عامل التخثر الثامن واضطراب إطلاق صفائح دموية أولي غير مؤكد أيضاً حتى الآن.
+
+**للمضي قدماً، يلزم ما يلي:**
+- ملصق العبوة TFDA/المصنع (التحذيرات، موانع الاستخدام) — فجوة حاجزة، مطلوبة قبل مراجعة السلامة S1
+- بيانات آلية العمل المؤكدة من DrugBank أو الأدبيات الأولية
+- مراجعة خبرة أمراض الدم للمعقولية الآلية لمؤشرات وظيفة الصفائح الدموية
+- البحث المستهدف في الأدبيات/التجارب السريرية باستخدام المصطلحات البديلة (مثل "عيب إفراز الصفائح الدموية"، "مرض تجمع التخزين") في حالة اختلاف الفهرسة يشرح نتائج البحث الصفرية
+- تقييم المسار التنظيمي في المملكة العربية السعودية، نظراً لأن الدواء لا يحتوي حالياً على أي تصريح سوق محلي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

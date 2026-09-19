@@ -29,84 +29,85 @@ indication_count: 10
 
 </div>
 
-# Brigatinib: From ALK-Positive NSCLC to Fibromatosis, Gingival
+# بريجاتينيب: من سرطان الرئة غير صغير الخلايا الموجب للـ ALK إلى التليف الليفي اللثوي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Brigatinib is a next-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor, internationally approved for the treatment of ALK-positive non-small cell lung cancer (NSCLC).
-The TxGNN model predicts it may be effective for **Fibromatosis, Gingival**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction is entirely model-driven with no biological or clinical evidence, and should be treated as a computational hypothesis only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | ALK-positive Non-Small Cell Lung Cancer (NSCLC) |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+بريجاتينيب هو مثبط التيروزين كيناز من الجيل الثاني لـ ALK (كيناز الورم اللمفاوي غير المتمايز)، موافق عليه دولياً لعلاج سرطان الرئة غير صغير الخلايا (NSCLC) الموجب للـ ALK.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التليف الليفي اللثوي**، مع **0 تجارب سريرية** و**0 منشور علمي** يدعم هذا الاتجاه حالياً.
+هذا التنبؤ يعتمد بالكامل على النموذج ولا يوجد أي دليل بيولوجي أو سريري، ويجب التعامل معه كفرضية حسابية فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة سريعة
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on the extensive literature included in this report, Brigatinib is a potent second-generation ALK tyrosine kinase inhibitor with demonstrated efficacy specifically against ALK gene rearrangements and fusions. Its validated clinical use is in ALK-positive NSCLC, where multiple Phase 3 RCTs — most notably the ALTA-1L trial — have shown superior progression-free survival compared to the first-generation inhibitor crizotinib. Beyond ALK, Brigatinib also inhibits several other kinase targets (including ErbB2/ErbB3 and FAK), which accounts for its observed activity in rare ALK-negative contexts such as NF2-related schwannomatosis.
-
-Gingival fibromatosis is a rare hereditary or idiopathic fibrous overgrowth of the gingiva. Its known genetic drivers include mutations in **SOS1**, **KCNJ13**, and **FAM20A**, none of which intersect with the ALK signaling pathway or any established off-target kinase of Brigatinib. There is no mechanistic link between ALK inhibition and the fibroproliferative pathways underlying this condition.
-
-The high TxGNN prediction score (99.89%) most likely reflects indirect topological proximity within the drug-disease knowledge graph rather than true biological relevance. Without any supporting experimental or clinical data, this prediction cannot be considered actionable and requires biological plausibility investigation before any experimental work is justified.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| العنصر | المحتوى |
+|--------|---------|
+| المؤشر الأصلي | سرطان الرئة غير صغير الخلايا الموجب للـ ALK (NSCLC) |
+| المؤشر الجديد المتنبأ به | التليف الليفي اللثوي |
+| درجة التنبؤ TxGNN | 99.89% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض |
+| عدد التخويلات | 0 |
+| القرار الموصى به | متوقف |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة من حزمة الأدلة. بناءً على الأدبيات الواسعة المضمنة في هذا التقرير، بريجاتينيب هو مثبط قوي من الجيل الثاني للتيروزين كيناز لـ ALK مع فعالية مثبتة ضد إعادات الترتيب والاندماج الجيني للـ ALK. استخدامه السريري المثبت هو في سرطان الرئة NSCLC الموجب للـ ALK، حيث أظهرت عدة تجارب عشوائية خاضعة للتحكم من المرحلة 3 - وأبرزها تجربة ALTA-1L - بقاء خالٍ من التطور أفضل مقارنة بمثبط الجيل الأول كريزوتينيب. بالإضافة إلى ALK، يثبط بريجاتينيب أيضاً عدة أهداف كيناز أخرى (بما فيها ErbB2/ErbB3 و FAK)، وهذا يفسر نشاطه المرصود في سياقات نادرة سالبة للـ ALK مثل شوانوماتوسيس المرتبط بـ NF2.
 
----
+التليف الليفي اللثوي النادر هو فرط نمو ليفي وراثي أو مجهول السبب للثة. تشمل محركاته الجينية المعروفة طفرات في **SOS1** و**KCNJ13** و**FAM20A**، لا يتقاطع أي منها مع مسار تنبيه ALK أو أي كيناز معروف آخر لبريجاتينيب. لا توجد علاقة ميكانيكية بين تثبيط ALK والمسارات الليفية المفرطة الكامنة وراء هذه الحالة.
 
-## Cytotoxicity
-
-Brigatinib is an antineoplastic targeted therapy approved for ALK-positive lung cancer. The following cytotoxicity profile applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation ALK tyrosine kinase inhibitor (ALK-TKI) |
-| Myelosuppression Risk | Low (TKI class; substantially lower risk than conventional cytotoxics) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (ALT/AST), pulmonary function and chest imaging (early-onset ILD/pneumonitis risk in week 1), blood pressure (hypertension), blood glucose (hyperglycemia), heart rate (bradycardia), CBC |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+درجة التنبؤ TxGNN العالية (99.89%) تعكس على الأرجح القرب الطوبوغرافي غير المباشر داخل الرسم البياني لمعرفة الأدوية والأمراض بدلاً من الصلة البيولوجية الحقيقية. بدون أي بيانات تجريبية أو سريرية داعمة، لا يمكن اعتبار هذا التنبؤ قابلاً للتنفيذ ويتطلب التحقق من المعقولية البيولوجية قبل تبرير أي عمل تجريبي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+لا تتوفر حالياً أدبيات ذات صلة.
 
-**Rationale:**
-Despite a high TxGNN prediction score of 99.89%, this indication is classified as L5 evidence — model prediction only — with zero supporting clinical trials or publications and no identifiable mechanistic connection between Brigatinib's primary ALK-inhibitory activity and the known genetic drivers of gingival fibromatosis (SOS1/KCNJ13/FAM20A).
+---
 
-**To proceed, the following is needed:**
-- **Biological plausibility analysis**: determine whether ALK or any known Brigatinib off-target kinase plays a role in gingival fibromatosis pathogenesis
-- **Mechanism of action data**: DrugBank API query is recommended (flagged as a high-severity data gap in this Evidence Pack)
-- **Safety warnings and contraindication data**: package insert retrieval from the SFDA or originator (flagged as a blocking data gap preventing S1 safety screening)
-- **Preclinical investigation**: gingival fibromatosis cell line or animal model studies would be required before any clinical hypothesis can be formed
+## السمية الخلوية
+
+بريجاتينيب هو علاج موجه للأورام معتمد لسرطان الرئة الموجب للـ ALK. ينطبق ملف السمية الخلوية التالي.
+
+| العنصر | المحتوى |
+|--------|---------|
+| تصنيف السمية الخلوية | العلاج الموجه — مثبط التيروزين كيناز ALK من الجيل الثاني (ALK-TKI) |
+| خطر قمع النخاع | منخفض (فئة TKI؛ أقل بكثير من السموم الخلوية التقليدية) |
+| تصنيف الغثيان والاستفراغ | منخفض |
+| بنود المراقبة | اختبارات وظائف الكبد (ALT/AST)، وظائف الرئة والتصوير الصدري (خطر الداء الرئوي الخلالي/الالتهاب الرئوي مبكر البداية في الأسبوع 1)، ضغط الدم (ارتفاع ضغط الدم)، سكر الدم (فرط السكر في الدم)، معدل ضربات القلب (بطء القلب)، CBC |
+| احتياطات التعامل | يرجى الرجوع إلى تحذيرات واحتياطات نشرة العبوة |
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: متوقف**
+
+**المنطق:**
+على الرغم من درجة تنبؤ TxGNN العالية البالغة 99.89%، يتم تصنيف هذا المؤشر على أنه L5 - تنبؤ النموذج فقط - مع عدم وجود أي تجارب سريرية أو منشورات داعمة ولا يوجد اتصال ميكانيكي قابل للتحديد بين نشاط بريجاتينيب الأساسي لتثبيط ALK والمحركات الجينية المعروفة للتليف الليفي اللثوي (SOS1/KCNJ13/FAM20A).
+
+**للمتابعة، يلزم ما يلي:**
+- **تحليل المعقولية البيولوجية**: تحديد ما إذا كان ALK أو أي كيناز معروف آخر لبريجاتينيب يلعب دوراً في الفسيولوجيا المرضية للتليف الليفي اللثوي
+- **بيانات آلية العمل**: يُنصح بالاستعلام عن واجهة برمجة تطبيقات DrugBank (تم الإبلاغ عنها على أنها فجوة بيانات عالية الخطورة في هذه حزمة الأدلة)
+- **تحذيرات السلامة وبيانات موانع الاستعمال**: استرجاع نشرة العبوة من الهيئة السعودية للدواءات والغذاء أو المنشئ الأصلي (تم الإبلاغ عنها على أنها فجوة بيانات حجب تمنع فحص السلامة S1)
+- **التحقيق ما قبل السريري**: ستكون الدراسات ما قبل السريرية باستخدام خط خلايا التليف الليفي اللثوي أو نماذج حيوانية مطلوبة قبل تكوين أي فرضية سريرية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

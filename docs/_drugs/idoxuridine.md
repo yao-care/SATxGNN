@@ -29,87 +29,84 @@ indication_count: 10
 
 </div>
 
-Using the drug-repurposing evidence pack you provided for **IDOXURIDINE (DB00249)**, here is the evaluation report.
+# إيدوكسوريدين: من التهاب القرنية الهربسي/عدوى الهربس البسيط المخاطية الجلدية إلى داء المبيضات المهبلي
+
+## ملخص الجملة الواحدة
+
+> إيدوكسوريدين (DB00249) هو عامل مضاد فيروسي من الجيل الأول يحتوي على نوكليوسيد تم استخدامه تاريخياً بشكل موضعي لـ **التهاب القرنية الناجم عن فيروس الهربس البسيط (HSV) والآفات الهربسية المخاطية الجلدية**؛ حقول المؤشر الأصلي (original-indication) وآلية العمل (MOA) الرسمية للعقار فارغة في مجموعة الأدلة هذه (المملكة العربية السعودية: غير معروض بالسوق، 0 رخصة).
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **داء المبيضات المهبلي**، لكن هذا الاقتران مدعوم فقط بـ **0 تجارب سريرية** و **منشور واحد** — وهذا المنشور الوحيد يحتوي على عدم توافق آلي (يناقش عدوى HSV، وليس *Candida*).
+> بشكل عام، هذا التنبؤ المصنف في المرتبة الأولى لا يظهر **أي ارتباط آلي معقول** ويجب التعامل معه على أنه قطعة أثرية محتملة للرسم البياني للمعرفة بدلاً من إشارة إعادة استخدام حقيقية.
 
 ---
 
-# Idoxuridine: From Herpetic Keratitis/HSV Mucocutaneous Infection to Vulvovaginal Candidiasis
+## نظرة عامة سريعة
 
-## One-Sentence Summary
-
-> Idoxuridine is a first-generation nucleoside antiviral historically used topically for **herpes simplex virus (HSV) keratitis and mucocutaneous herpetic lesions**; the drug's formal original-indication and MOA fields are empty in this evidence pack (Saudi Arabia: not marketed, 0 licenses).
-> The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis**, but this pairing is supported by only **0 clinical trials** and **1 publication** — and that single publication is a mechanistic mismatch (it discusses HSV infection, not *Candida*).
-> Overall, this specific top-ranked prediction shows **no plausible mechanistic link** and should be treated as a likely knowledge-graph artifact rather than a genuine repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Herpetic keratitis / mucocutaneous HSV infection (based on known antiviral classification; **not present** in this evidence pack's regulatory or DrugBank fields) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | التهاب القرنية الهربسي / عدوى الهربس البسيط المخاطية الجلدية (بناءً على التصنيف المضاد للفيروسات المعروف؛ **غير موجود** في حقول DrugBank أو التنظيمية في مجموعة الأدلة هذه) |
+| المؤشر الجديد المتنبأ به | داء المبيضات المهبلي |
+| درجة التنبؤ من TxGNN | 99.92% |
+| مستوى الدليل | L5 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير معروض بالسوق (غير معروض بالسوق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | إيقاف مؤقت |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data for idoxuridine is not available in this evidence pack (flagged as Data Gap DG002, High severity). Based on known pharmacology, idoxuridine is a thymidine (nucleoside) analog that is incorporated into viral DNA to inhibit HSV replication — it is a topical **antiviral**, not an antifungal, agent. This same characterization is echoed consistently across the pack's own `repurposing_rationale` text for every candidate indication ("idoxuridine 為核苷類抗病毒藥,無抗真菌活性"), confirming that this is the drug's established mechanistic identity even though the formal `original_moa` field is blank.
+حالياً، بيانات آلية العمل المفصلة لإيدوكسوريدين غير متاحة في مجموعة الأدلة هذه (تم وضع علامة عليها كفجوة بيانات DG002، شدة عالية). بناءً على الصيدلة المعروفة، إيدوكسوريدين هو تماثول للثيميدين (نوكليوسيد) يتم دمجه في DNA الفيروسي لتثبيط تكرار HSV — وهو عامل **مضاد للفيروسات** موضعي، وليس عامل مضاد للفطريات. يتردد هذا التوصيف نفسه باستمرار عبر نص `repurposing_rationale` الخاص به في المجموعة لكل مؤشر مرشح ("idoxuridine 為核苷類抗病毒藥,無抗真菌活性")، مما يؤكد أن هذه هي الهوية الآلية المعترف بها للعقار حتى وإن كان حقل `original_moa` الرسمي فارغاً.
 
-*Candida* vulvovaginitis is a **fungal** infection with a completely different pathophysiology (yeast overgrowth) from HSV infection. A nucleoside DNA-synthesis inhibitor with antiviral specificity has no established antifungal activity, so there is **no mechanistic rationale** connecting idoxuridine's known pharmacology to this predicted indication.
+التهاب الفرج والمهبل بـ *Candida* هو عدوى **فطرية** بفيزيولوجيا مرضية مختلفة تماماً (فرط نمو الخميرة) عن عدوى HSV. مثبط تخليق DNA من النوكليوسيد ذو التخصص المضاد للفيروسات ليس لديه نشاط مضاد للفطريات معترف به، لذا لا توجد **أساس آلي معقول** يربط الصيدلة المعروفة لإيدوكسوريدين بهذا المؤشر المتنبأ به.
 
-This weakness is corroborated by the evidence itself: the single literature citation supporting this pairing (PMID 4564724) is a 1972 review of *Herpesvirus hominis* (HSV) infection of the female genital tract — it does not discuss *Candida* at all. The evidence pack's own rationale explicitly labels this as a "病名/文獻不匹配" (disease-name/literature mismatch), consistent with a false-positive pairing generated by symptomatic/phenotypic similarity (both cause vaginal discharge/irritation) rather than a true biological mechanism. Notably, several **lower-ranked** candidates in this same evidence pack — e.g., "vulvitis" (rank 4), "herpetic vulvovaginitis" (rank 5), and "vulvovaginitis" (rank 9) — have literature directly describing HSV genital infection, which is far more mechanistically consistent with idoxuridine's known antiviral activity and may warrant separate evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+يتم تأكيد هذا الضعف من خلال الأدلة نفسها: الاستشهاد الأدبي الوحيد الذي يدعم هذا الاقتران (PMID 4564724) هو مراجعة من عام 1972 لعدوى *Herpesvirus hominis* (HSV) في المسالك التناسلية للأنثى — فهو لا يناقش *Candida* على الإطلاق. يحتوي منطق مجموعة الأدلة نفسه على وصف صريح لهذا باسم "病名/文獻不匹配" (عدم توافق اسم المرض/الأدب)، متسقة مع اقتران إيجابي كاذب ناتج عن التشابه العرضي/الظاهري (كلاهما يسبب إفرازات مهبلية/تهيج) بدلاً من آلية بيولوجية حقيقية. تجدر الإشارة، عدة مرشحين **ذات تصنيف أقل** في نفس مجموعة الأدلة — مثل "التهاب الفرج" (الترتيب 4)، و"التهاب الفرج والمهبل الهربسي" (الترتيب 5)، و"التهاب الفرج والمهبل" (الترتيب 9) — لديهم أدبيات تصف مباشرة عدوى HSV التناسلية، وهو أكثر توافقاً آلياً مع النشاط المضاد للفيروسات المعروف لإيدوكسوريدين وقد يستحق التقييم المنفصل.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [4564724](https://pubmed.ncbi.nlm.nih.gov/4564724/) | 1972 | Review | Obstetrics and Gynecology | Review of *Herpesvirus hominis* (HSV) infection of the female genital tract. **Topic mismatch**: discusses HSV, not *Candida* — not directly supportive of the vulvovaginal candidiasis prediction. |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة أدبية
 
-Idoxuridine has no marketing authorization records in Saudi Arabia (market status: not marketed; 0 licenses on file). No product/dosage-form information is available in this evidence pack.
-
----
-
-## Safety Considerations
-
-No safety data are currently available in the evidence pack:
-- Key warnings: not available (Data Gap DG001, Blocking severity — SFDA package insert not yet obtained)
-- Contraindications: not available
-- Drug interaction database query: not found (0 interactions on record)
-
-Please refer to the package insert for safety information once obtained; note that DG001 is flagged as a **Blocking** gap that must be resolved before any S1 safety pre-screening can proceed.
+| PMID | السنة | النوع | الدورية | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [4564724](https://pubmed.ncbi.nlm.nih.gov/4564724/) | 1972 | مراجعة | Obstetrics and Gynecology | مراجعة لعدوى *Herpesvirus hominis* (HSV) في المسالك التناسلية للأنثى. **عدم توافق الموضوع**: تناقش HSV، وليس *Candida* — غير داعمة بشكل مباشر للتنبؤ بداء المبيضات المهبلي. |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+إيدوكسوريدين ليس لديه سجلات ترخيص تسويقية في المملكة العربية السعودية (حالة السوق: غير معروض بالسوق؛ 0 رخصة في الملف). لا توجد معلومات عن المنتج/الشكل الصيدلاني متاحة في مجموعة الأدلة هذه.
 
-**Rationale:**
-- The predicted pairing (idoxuridine → vulvovaginal candidiasis) has no mechanistic plausibility (antiviral drug vs. fungal indication), evidence level is L5 (prediction only), and the single supporting reference is a topic mismatch identified by the pack's own rationale as a likely false pairing. Combined with a Blocking-severity safety data gap (DG001) and the drug being unmarketed in Saudi Arabia, this candidate does not meet the bar to advance.
+---
 
-**To proceed, the following is needed:**
-- SFDA/manufacturer package insert (warnings, contraindications, DDI) to close Blocking gap DG001
-- Confirmed DrugBank MOA and indication categories to close High-severity gap DG002
-- A knowledge-graph review of why idoxuridine and *Candida* infection were linked, to distinguish genuine signal from symptom-based confounding
-- If pursuing this drug further, prioritize re-evaluating the mechanistically consistent, HSV-related candidates in this same evidence pack (e.g., vulvitis, herpetic vulvovaginitis, vulvovaginitis) rather than the top-ranked candidiasis prediction
+## الاعتبارات الأمنية
+
+لا توجد بيانات السلامة حالياً في مجموعة الأدلة:
+- تحذيرات رئيسية: غير متاحة (فجوة البيانات DG001، شدة محجوبة — لم يتم الحصول على نشرة SFDA الداخلية حتى الآن)
+- موانع الاستخدام: غير متاحة
+- استعلام قاعدة بيانات التفاعلات الدوائية: لم يتم العثور عليه (0 تفاعل في السجل)
+
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة بمجرد الحصول عليها؛ لاحظ أن DG001 تم وضع علامة عليه كفجوة **محجوبة** يجب حلها قبل أي فحص مسبق للسلامة من S1 يمكن أن يتقدم.
+
+---
+
+## الخاتمة والخطوات التالية
+
+**القرار: إيقاف مؤقت**
+
+**الأساس المنطقي:**
+- الاقتران المتنبأ به (إيدوكسوريدين → داء المبيضات المهبلي) ليس له معقولية آلية (عقار مضاد للفيروسات مقابل مؤشر فطري)، مستوى الدليل هو L5 (تنبؤ فقط)، والمرجع الوحيد الداعم هو عدم توافق موضوع تم تحديده من قبل منطق المجموعة نفسه على أنه اقتران محتمل كاذب. في المقابل مع فجوة بيانات السلامة ذات الشدة المحجوبة (DG001) وعدم طرح العقار في المملكة العربية السعودية، فإن هذا المرشح لا يفي بالمعايير للمضي قدماً.
+
+**لكي نتقدم، يتطلب التالي:**
+- نشرة SFDA/الشركة المصنعة (تحذيرات، موانع استخدام، تفاعلات دوائية) لإغلاق فجوة DG001 المحجوبة
+- تأكيد فئات MOA والمؤشرات في DrugBank لإغلاق فجوة DG002 ذات الشدة العالية
+- استعراض الرسم البياني للمعرفة لفهم سبب ربط إيدوكسوريدين بعدوى *Candida*، للتمييز بين الإشارة الحقيقية والالتباس القائم على الأعراض
+- إذا كنت تسعى لمتابعة هذا العقار بشكل إضافي، أعطِ الأولوية لإعادة تقييم المرشحين المرتبطين بـ HSV والمتسقين آلياً في نفس مجموعة الأدلة (مثل التهاب الفرج، والتهاب الفرج والمهبل الهربسي، والتهاب الفرج والمهبل) بدلاً من التنبؤ الأعلى تصنيفاً بداء المبيضات
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

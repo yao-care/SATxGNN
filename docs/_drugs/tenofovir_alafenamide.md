@@ -29,76 +29,77 @@ indication_count: 3
 
 </div>
 
-# Tenofovir Alafenamide: From an Undocumented Original Indication to Feline Acquired Immunodeficiency Syndrome
+# تينوفوفير الافينامايد: من استطباب أصلي غير موثق إلى متلازمة نقص المناعة المكتسبة في القطط
 
-## One-Sentence Summary
+## ملخص سطر واحد
 
-> Tenofovir alafenamide (DB09299) is a nucleotide analogue whose original approved indication and mechanism of action are not yet documented in current records.
-> The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome**, a veterinary (feline) disease,
-> currently supported by **0 clinical trials** and **0 publications**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in available regulatory/DrugBank records |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> tenofovir alafenamide (DB09299) هو نظير نوكليوتيد لم يتم توثيق استطبابه الأصلي المعتمد وآلية عمله بعد في السجلات الحالية.
+> الاستطباب المتنبأ به بأعلى ترتيب من نموذج TxGNN هو **متلازمة نقص المناعة المكتسبة في القطط**، وهو مرض بيطري (قطي)،
+> يدعمه حالياً **0 تجربة سريرية** و**0 منشور**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available. Based on known information, tenofovir alafenamide belongs to the nucleotide reverse transcriptase inhibitor class of antivirals, but its formally recorded original indication is not present in this evidence pack.
-
-The top-ranked predicted indication, Feline Acquired Immunodeficiency Syndrome, is caused by Feline Immunodeficiency Virus (FIV) — a lentivirus in the same family as HIV, against which reverse-transcriptase-targeting antivirals such as tenofovir alafenamide are mechanistically active. This cross-species mechanistic analogy is a plausible basis for the TxGNN link, but it remains a knowledge-graph inference rather than a study-confirmed relationship — no clinical trial or literature evidence currently exists for this specific indication.
-
-Notably, the second-ranked prediction in this evidence pack, "simian immunodeficiency virus infection," carries an almost identical TxGNN score and is supported by 1 clinical trial and 9 publications describing tenofovir alafenamide activity against SIV/SHIV in macaque models — evidence that is directly relevant to the drug's antiretroviral mechanism in a way the top-ranked feline indication is not. Reviewers may wish to weigh that candidate alongside this one when prioritizing follow-up.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| العنصر | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | غير موثق في السجلات التنظيمية/DrugBank المتاحة |
+| الاستطباب الجديد المتنبأ به | متلازمة نقص المناعة المكتسبة في القطط |
+| درجة التنبؤ من TxGNN | 99.89% |
+| مستوى الأدلة | L5 |
+| حالة السوق السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات المعروفة، ينتمي tenofovir alafenamide إلى فئة مثبطات النسخ العكسي للنوكليوتيد من العوامل المضادة للفيروسات، لكن استطبابه الأصلي المسجل رسمياً غير موجود في هذه مجموعة الأدلة.
 
----
+الاستطباب المتنبأ به بأعلى ترتيب، متلازمة نقص المناعة المكتسبة في القطط، يسببها فيروس نقص المناعة في القطط (FIV) - وهو فيروس عدسي من نفس عائلة HIV، والذي تنشط ضده العوامل المضادة للفيروسات التي تستهدف النسخ العكسي مثل tenofovir alafenamide من الناحية الآلية. هذا التشابه الآلي عبر الأنواع هو أساس معقول لربط TxGNN، لكنه يبقى استدلالاً على مخطط المعرفة بدلاً من كونه علاقة مؤكدة من الدراسات - لا توجد حالياً أي دليل من التجربة السريرية أو الأدب لهذا الاستطباب المحدد.
 
-## Saudi Arabia Market Information
-
-Tenofovir alafenamide currently holds no marketing authorization in Saudi Arabia (market status: not marketed; 0 authorizations on record).
+والجدير بالملاحظة أن التنبؤ بالترتيب الثاني في هذه مجموعة الأدلة، "عدوى فيروس نقص المناعة عند الرئيسيات"، يحمل درجة TxGNN متطابقة تقريباً ويدعمه 1 تجربة سريرية و9 منشورات تصف نشاط tenofovir alafenamide ضد SIV/SHIV في نماذج القرود - دليل ذو صلة مباشرة بآلية عمل الدواء بطريقة لا تنطبق على الاستطباب القطي الأصلي. قد يرغب المراجعون في وزن هذا المرشح إلى جانب هذا عند تحديد أولويات المتابعة.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Package insert warnings, contraindications, and drug-drug interaction data for tenofovir alafenamide have not yet been retrieved (TFDA source query pending). This is flagged as a **blocking gap** for safety assessment — please refer to the package insert for safety information once available.
+لا توجد حالياً تجارب سريرية مرتبطة مسجلة
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدب
 
-**Decision: Hold**
+لا يتوفر حالياً أي أدب مرتبط متاح
 
-**Rationale:**
-The top-ranked predicted indication (Feline Acquired Immunodeficiency Syndrome) is supported only by the TxGNN model score with no clinical trial or literature evidence (L5), the drug is not marketed in Saudi Arabia, and retrieval of TFDA safety data is a blocking gap that prevents a preliminary safety (S1) assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings and contraindications) — blocking, required before any safety review
-- Confirmed original indication(s) and mechanism of action (MOA) for tenofovir alafenamide
-- Clarification of the human-relevance of a feline-specific predicted indication, or consideration of the better-evidenced rank-2 candidate (simian immunodeficiency virus infection)
-- Drug-drug interaction data (current DDI query returned no results)
+## معلومات سوق المملكة العربية السعودية
+
+tenofovir alafenamide حالياً لا يحمل أي ترخيص تسويقي في المملكة العربية السعودية (حالة السوق: غير مسوق؛ 0 تصاريح قيد التسجيل).
+
+---
+
+## اعتبارات السلامة
+
+لم يتم استرجاع بيانات التحذيرات في نشرة العبوة والمضادات وبيانات التفاعلات الدوائية لـ tenofovir alafenamide بعد (استعلام مصدر TFDA معلق). يتم وضع علامة على هذا كـ **فجوة حجب** لتقييم السلامة - يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة بمجرد توفرها.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**المنطق:**
+الاستطباب المتنبأ به بأعلى ترتيب (متلازمة نقص المناعة المكتسبة في القطط) يدعمه فقط درجة نموذج TxGNN بدون دليل من التجارب السريرية أو الأدب (L5)، والدواء غير مسوق في المملكة العربية السعودية، واسترجاع بيانات سلامة TFDA هو فجوة حجب تمنع تقييم أولي للسلامة (S1).
+
+**للمتابعة، يلزم التالي:**
+- نشرة عبوة TFDA (التحذيرات والمضادات) - حجب، مطلوب قبل أي مراجعة أمان
+- استطباب(ات) أصلي(ة) مؤكد(ة) وآلية عمل (MOA) لـ tenofovir alafenamide
+- توضيح الأهمية البشرية لاستطباب متنبأ به محدد للقطط، أو النظر في المرشح الأفضل موثوقية بترتيب 2 (عدوى فيروس نقص المناعة عند الرئيسيات)
+- بيانات التفاعلات الدوائية (استعلام DDI الحالي أرجع نتائج فارغة)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

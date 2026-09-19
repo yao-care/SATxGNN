@@ -29,83 +29,84 @@ indication_count: 10
 
 </div>
 
-# Dupilumab: From Atopic Dermatitis to Bronchitis
+# Dupilumab: من التهاب الجلد التأتبي إلى التهاب الشعب الهوائية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Dupilumab is a fully human monoclonal antibody blocking the IL-4 receptor α subunit (IL-4Rα), globally established as standard of care for Type 2 inflammatory diseases including atopic dermatitis and asthma, though it has no current market authorization in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Bronchitis** — specifically eosinophilic and plastic bronchitis subtypes — with **1 clinical trial** (indirect, via the united airway disease concept) and **6 publications** currently supporting this direction.
-The mechanistic rationale is biologically sound, but dedicated direct clinical evidence in bronchitis as a distinct diagnosis remains limited.
+Dupilumab هو جسم مضاد أحادي نسيلي بشري بالكامل يحجب الوحدة الفرعية α لمستقبل IL-4 (IL-4Rα)، وهو علاج معياري عالمي معروف لأمراض الالتهاب من النوع 2 بما في ذلك التهاب الجلد التأتبي والربو، على الرغم من عدم وجود تصريح تسويقي حالي في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **التهاب الشعب الهوائية** — وخاصة الأنواع اليوزينية والتهاب الشعب الهوائية البلاستيكي — مع **تجربة سريرية واحدة** (غير مباشرة، عبر مفهوم أمراض الشعب الهوائية الموحدة) و**6 منشورات** تدعم هذا الاتجاه حالياً.
+الأساس الآلي معقول بيولوجياً، لكن الأدلة السريرية المباشرة المخصصة في التهاب الشعب الهوائية كتشخيص منفصل لا تزال محدودة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Atopic dermatitis (global approval; not registered in Saudi Arabia) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | التهاب الجلد التأتبي (موافقة عالمية؛ غير مسجل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | التهاب الشعب الهوائية |
+| درجة التنبؤ TxGNN | 99.92% |
+| مستوى الدليل | L3 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير متداول |
+| عدد التصاريح | 0 |
+| القرار الموصى به | Hold |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Dupilumab is a fully human IgG4 monoclonal antibody that binds the shared IL-4 receptor α subunit (IL-4Rα), blocking downstream signaling of both IL-4 and IL-13 — the two master cytokines of Type 2 (Th2) immunity. Formal MOA records were not returned by the DrugBank query in this Evidence Pack; however, the mechanism is well-characterized across the literature: IL-4 drives naïve T cell polarization toward Th2 and class-switching to IgE, while IL-13 promotes goblet cell metaplasia, airway mucus hypersecretion, and tissue eosinophilia. Dupilumab interrupts this axis by blocking the shared receptor subunit expressed on both immune and structural (epithelial, endothelial) cells, reversing Type 2-driven tissue remodeling across multiple organ systems.
+Dupilumab هو جسم مضاد أحادي نسيلي بشري بالكامل IgG4 يرتبط بوحدة مستقبل IL-4 α المشتركة (IL-4Rα)، ويحجب الإشارات النهائية لكل من IL-4 و IL-13 — السيتوكينات الرئيسية الاثنتان للمناعة من النوع 2 (Th2). لم تُرجع استعلامات DrugBank سجلات الآلية الرسمية في هذه الحزمة الدليلية؛ ومع ذلك، تم توصيف الآلية بشكل جيد عبر الأدبيات: يقود IL-4 استقطاب خلايا T الساذجة نحو Th2 والتبديل الصفي إلى IgE، بينما يعزز IL-13 استحالة الخلايا الكأسية، فرط إفراز مخاط الشعب الهوائية، وحمضات الأنسجة. يقاطع Dupilumab هذا المحور بحجب الوحدة الفرعية للمستقبل المشترك المعبرة على كل من الخلايا المناعية والهيكلية (الظهارية، البطانية)، مما يعكس إعادة تشكيل الأنسجة المدفوعة بالنوع 2 عبر أنظمة أعضاء متعددة.
 
-The mechanistic link to bronchitis centers on the eosinophilic airway disease spectrum. Eosinophilic bronchitis — chronic cough with sputum eosinophilia in the absence of variable airflow obstruction — and plastic bronchitis (particularly in pediatric patients, where thick fibrinous casts obstruct the airways) both display the hallmark IL-4/IL-13-driven Type 2 signature: eosinophil accumulation, mucus hypersecretion, and impaired mucociliary clearance. Early pediatric case reports have documented meaningful clinical improvement in plastic bronchitis treated with dupilumab. Importantly, dupilumab already holds FDA approval for moderate-to-severe asthma (2018) and chronic rhinosinusitis with nasal polyps (CRSwNP, 2019), establishing a well-evidenced precedent for its use across the entire Type 2 lower and upper airway continuum.
+يتركز الربط الآلي لالتهاب الشعب الهوائية على طيف أمراض الشعب الهوائية اليوزينية. التهاب الشعب الهوائية اليوزيني — سعال مزمن مع حمضات البلغم في غياب انسداد تدفق الهواء المتغير — والتهاب الشعب الهوائية البلاستيكي (خاصة في المرضى الأطفال، حيث تسد الأغشية الليفية السميكة الشعب الهوائية) يعرضان توقيع النوع 2 المميز المدفوع بـ IL-4/IL-13: تراكم الحمضات، فرط إفراز المخاط، وانخفاض كفاءة تنظيف الأهداب. وثقت تقارير الحالات المبكرة لدى الأطفال تحسناً سريرياً ذا مغزى في التهاب الشعب الهوائية البلاستيكي المعالج بـ dupilumab. بشكل مهم، يحمل Dupilumab بالفعل موافقة FDA لربو معتدل إلى شديد (2018) والتهاب الجيوب الأنفية المزمن مع الأورام الأنفية (CRSwNP، 2019)، مما يؤسس سابقة ذات دليل قوي لاستخدامه عبر طيف الشعب الهوائية العلوية والسفلية من النوع 2.
 
-The "united airway disease" framework is central to this TxGNN prediction: Type 2 inflammation does not respect anatomical divisions and flows continuously from the nasal passages (allergic rhinitis) through the sinuses (CRSwNP, CRSsNP) into the bronchi (eosinophilic bronchitis) and alveolar structures. The sole identified clinical trial (NCT04362501) targets CRSsNP — a directly adjacent upper airway Type 2 condition — and provides indirect mechanistic support for the same IL-4/IL-13 pathway operating further down the airway. The critical caveat is subtype specificity: non-eosinophilic bronchitis (infectious, neutrophilic, or COPD-driven) involves Th1/Th17 and neutrophil-predominant pathways that dupilumab does not address, and IL-4/IL-13 blockade in non-Type 2 airway disease carries a theoretical risk of shifting the immune balance unfavorably.
+إطار "أمراض الشعب الهوائية الموحدة" هو المحور المركزي لهذا التنبؤ TxGNN: الالتهاب من النوع 2 لا يحترم الأقسام التشريحية ويتدفق بشكل مستمر من الممرات الأنفية (التهاب الأنف التحسسي) عبر الجيوب الأنفية (CRSwNP، CRSsNP) إلى الشعب الهوائية (التهاب الشعب الهوائية اليوزيني) والهياكل السنخية. التجربة السريرية الوحيدة المحددة (NCT04362501) تستهدف CRSsNP — حالة من أمراض الشعب الهوائية العلوية من النوع 2 المجاورة مباشرة — وتوفر دعماً آلياً غير مباشر لنفس مسار IL-4/IL-13 الذي يعمل بشكل أعمق في الشعب الهوائية. التحفظ الحرج هو خصوصية النوع الفرعي: التهاب الشعب الهوائية غير اليوزيني (المعدي، أو المحب للحمضات النيتروفيلي، أو المدفوع بـ COPD) يتضمن مسارات Th1/Th17 والنيتروفيل الغالبة التي لا تعالجها dupilumab، وحجب IL-4/IL-13 في مرض الشعب الهوائية غير من النوع 2 يحمل خطراً نظرياً لتحويل التوازن المناعي بشكل غير مؤاتٍ.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Completed | 33 | Dupilumab for chronic rhinosinusitis without nasal polyps (CRSsNP) — evaluates clinical effectiveness across Type 2 endotypes excluding the nasal polyp cluster; provides indirect mechanistic support for the Type 2 united airway continuum connecting upper airway and bronchial inflammation, but cannot be directly extrapolated to bronchitis |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | مكتمل | 33 | Dupilumab لالتهاب الجيوب الأنفية المزمن بدون أورام أنفية (CRSsNP) — يقيم الفعالية السريرية عبر نقاط النهاية من النوع 2 باستثناء مجموعة الأورام الأنفية؛ يوفر دعماً آلياً غير مباشر لقصة الشعب الهوائية الموحدة من النوع 2 التي تربط الالتهاب في الشعب الهوائية العلوية والقصبي، لكن لا يمكن استقراؤها مباشرة إلى التهاب الشعب الهوائية |
 
-> No clinical trials with dupilumab directly targeting bronchitis as the primary indication were identified. The above trial represents an adjacent upper airway Type 2 condition and is classified as indirect (Relevance Grade B).
+> لم يتم تحديد أي تجارب سريرية مع dupilumab تستهدف مباشرة التهاب الشعب الهوائية كمؤشر أساسي. التجربة أعلاه تمثل حالة شعب هوائية علوية من النوع 2 المجاورة وتُصنف على أنها غير مباشرة (درجة الملاءمة B).
 
 ---
 
-## Literature Evidence
+## الأدلة من الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT Extension | The Lancet. Respiratory Medicine | TRAVERSE: Long-term safety and efficacy of dupilumab in moderate-to-severe asthma beyond 1 year; confirms sustained suppression of Type 2 lower airway inflammation and durable reduction in exacerbation rates |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Meta-Analysis | The Journal of Asthma | Pooled RCT analysis demonstrates dupilumab significantly reduces exacerbation frequency and improves FEV1 in uncontrolled asthma; broadest quantitative evidence for IL-4/IL-13 blockade in lower airway Type 2 disease |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Exploratory RCT | Chest | Anti-T2 biologic therapy (dupilumab) reverses MRI-measured ventilation defects in prednisone-dependent eosinophilic asthma; imaging-confirmed restoration of airflow in eosinophil-obstructed airways — direct mechanistic link to bronchial disease |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Case Series / Review | Pediatric Pulmonology | Novel therapies for eosinophilic pediatric plastic bronchitis — dupilumab cited as an emerging therapeutic option for fibrinous airway cast formation; most directly relevant publication to bronchitis as a distinct clinical diagnosis |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Comprehensive Review | Tuberculosis and Respiratory Diseases | Comprehensive review of pharmacologic approaches to preventing COPD exacerbations, including emerging biologics targeting Type 2 pathways; contextualizes dupilumab within the broader chronic obstructive airway treatment landscape |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opinion on Pharmacotherapy | Management challenges in asthma overlapping with smoking-induced airway diseases (chronic bronchitis, emphysema, asthma-COPD overlap); identifies the underrepresentation of bronchitis patients in biologic trials and the resulting evidence gap |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | امتداد RCT | The Lancet. Respiratory Medicine | TRAVERSE: الأمان طويل الأمد والفعالية من dupilumab في الربو المعتدل إلى الشديد بعد سنة واحدة؛ يؤكد الكبت المستمر لالتهاب الشعب الهوائية السفلية من النوع 2 والتقليل الدائم لمعدلات التفاقم |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | تحليل شامل | The Journal of Asthma | يوضح تحليل RCT المجمع أن dupilumab يقلل بشكل كبير من تكرار التفاقم ويحسن FEV1 في الربو غير المنضبط؛ أوسع دليل كمي لحجب IL-4/IL-13 في مرض الشعب الهوائية السفلية من النوع 2 |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | RCT استكشافي | Chest | تعكس العلاج البيولوجي المناهض للـ T2 (dupilumab) عيوب التهوية المقاسة بالتصوير بالرنين المغناطيسي في الربو اليوزيني المعتمد على بريدنيزون؛ استعادة تؤكدها الصور لتدفق الهواء في الشعب الهوائية المسدودة بالحمضات — ارتباط آلي مباشر لمرض القصبي |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | سلسلة حالات / مراجعة | Pediatric Pulmonology | علاجات جديدة لالتهاب الشعب الهوائية البلاستيكي اليوزيني لدى الأطفال — يتم الاستشهاد بـ dupilumab كخيار علاجي ناشئ لتكوين الأغشية الهوائية الليفية؛ أكثر منشورة ذات صلة مباشرة بالتهاب الشعب الهوائية كتشخيص سريري منفصل |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | مراجعة شاملة | Tuberculosis and Respiratory Diseases | مراجعة شاملة للنهج الدوائي لمنع تفاقم COPD، بما في ذلك العوامل البيولوجية الناشئة التي تستهدف مسارات النوع 2؛ تضع dupilumab في السياق ضمن مشهد العلاج الموسع للأمراض الانسدادية المزمنة للشعب الهوائية |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | مراجعة | Expert Opinion on Pharmacotherapy | تحديات الإدارة في الربو المتداخل مع أمراض الشعب الهوائية المحفزة بالتدخين (التهاب الشعب الهوائية المزمن، الإمفيزيما، تداخل ربو-COPD)؛ يحدد نقص تمثيل مرضى التهاب الشعب الهوائية في تجارب العوامل البيولوجية والفجوة الدليلية الناتجة |
 
 ---
 
-## Safety Considerations
+## اعتبارات الأمان
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: Hold**
 
-**Rationale:**
-The available clinical evidence for dupilumab in bronchitis is indirect — the sole identified trial targets CRSsNP rather than bronchitis, and the literature base covers asthma and COPD rather than bronchitis as a discrete diagnostic entity. Critically, dupilumab is not currently registered in Saudi Arabia for any indication, meaning the regulatory pathway itself remains unopened; establishing a new repurposed indication would first require primary market authorization. Furthermore, the bronchitis category encompasses mechanistically heterogeneous disease subtypes, of which only eosinophilic and plastic bronchitis are plausibly responsive to IL-4/IL-13 blockade.
+**الأساس المنطقي:**
+الأدلة السريرية المتاحة لـ dupilumab في التهاب الشعب الهوائية غير مباشرة — التجربة الوحيدة المحددة تستهدف CRSsNP بدلاً من التهاب الشعب الهوائية، وقاعدة الأدبيات تغطي الربو و COPD بدلاً من التهاب الشعب الهوائية كوحدة تشخيصية منفصلة. بشكل حرج، dupilumab غير مسجل حالياً في المملكة العربية السعودية لأي مؤشر، مما يعني أن المسار التنظيمي نفسه لا يزال مفتوحاً؛ إن إنشاء مؤشر جديد معاد التوظيف يتطلب أولاً تفويضاً تسويقياً أساسياً. علاوة على ذلك، فئة التهاب الشعب الهوائية تشمل أنواعاً تشريحياً متنوعة، منها فقط التهاب الشعب الهوائية اليوزيني والبلاستيكي قابلة بشكل معقول للاستجابة لحجب IL-4/IL-13.
 
-**To proceed, the following is needed:**
+**للمضي قدماً، ما يلي مطلوب:**
 
-- **Subtype stratification**: Define the target bronchitis population using Type 2 biomarkers (blood eosinophil count ≥300 cells/μL, FeNO ≥25 ppb, sputum eosinophilia ≥3%) to identify the IL-4/IL-13-responsive subgroup; non-eosinophilic bronchitis is a contraindication to this approach
-- **Direct clinical evidence**: A dedicated Phase 2 RCT in eosinophilic bronchitis or plastic bronchitis with dupilumab is required before any higher-level decision can be made
-- **Saudi Arabia regulatory pathway**: Assess SFDA registration requirements; dupilumab has no existing authorization in Saudi Arabia and would require a full regulatory filing — consider whether the atopic dermatitis indication (TxGNN Rank 2, globally L1 evidence) is a more actionable first entry point for the Saudi market
-- **Safety documentation**: Obtain and review the complete package insert for warnings, contraindications, and monitoring requirements (not available in this Evidence Pack); note that dupilumab has known signals including conjunctivitis, injection-site reactions, and paradoxical psoriasiform eruptions that require clinical monitoring protocols
-- **MOA verification**: Retrieve formal DrugBank mechanistic data to complete the pharmacological dossier for regulatory submission
+- **تقسيم النوع الفرعي**: تحديد سكان التهاب الشعب الهوائية المستهدفة باستخدام مؤشرات حيوية النوع 2 (عدد الحمضات في الدم ≥300 خلية/μL، FeNO ≥25 ppb، حمضات البلغم ≥3%) لتحديد مجموعة الاستجابة لـ IL-4/IL-13؛ التهاب الشعب الهوائية غير اليوزيني هو استطباب نسبي لهذا النهج
+- **الأدلة السريرية المباشرة**: يتطلب تجربة عشوائية محكومة مخصصة في المرحلة 2 في التهاب الشعب الهوائية اليوزيني أو البلاستيكي مع dupilumab قبل أن يمكن اتخاذ أي قرار على مستوى أعلى
+- **المسار التنظيمي للمملكة العربية السعودية**: تقييم متطلبات تسجيل SFDA؛ dupilumab ليس لديه تفويض حالي في المملكة العربية السعودية وسيتطلب ملف تنظيمي كامل — فكر فيما إذا كان مؤشر التهاب الجلد التأتبي (رتبة TxGNN 2، أدلة L1 عالمية) هو نقطة دخول أكثر قابلية للتنفيذ للسوق السعودية
+- **توثيق السلامة**: الحصول على ومراجعة نشرة العبوة الكاملة للحصول على التحذيرات والاستطبابات النسبية ومتطلبات المراقبة (غير متاحة في هذه الحزمة الدليلية)؛ لاحظ أن dupilumab لديه إشارات معروفة تشمل التهاب الملتحمة، وردود فعل موقع الحقن، وطفح صدفي متناقض يتطلب بروتوكولات مراقبة سريرية
+- **التحقق من الآلية**: استرجاع البيانات الآلية الرسمية من DrugBank لإكمال ملف الدواء الصيدلاني لتقديم تنظيمي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,109 +29,110 @@ indication_count: 10
 
 </div>
 
-# Droperidol: From Acute Agitation & Antiemesis to Tourette Syndrome
+# درويبريدول: من الإثارة الحادة والقيء إلى متلازمة توريت
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Droperidol is a butyrophenone neuroleptic used clinically for acute agitation, psychosis-related sedation, and post-operative nausea/vomiting — it is not currently marketed in Saudi Arabia.
-The TxGNN model ranks **Tourette Syndrome** as its top new indication candidate (score 99.89%),
-but direct evidence is limited: **0 registered clinical trials** and **1 indirect publication** (via haloperidol, not droperidol itself) currently exist for this specific pairing.
+درويبريدول هو عامل عصبي من البيتيروفينون يُستخدم سريرياً لمعالجة الإثارة الحادة والتهدئة المرتبطة بالاضطرابات الذهانية والغثيان والقيء بعد العمليات الجراحية — وهو غير مسوق حالياً في المملكة العربية السعودية.
+يصنف نموذج TxGNN **متلازمة توريت** كأفضل مرشح لاستطباب جديد (درجة 99.89%)،
+لكن الأدلة المباشرة محدودة: **0 تجربة سريرية مسجلة** و **منشور واحد غير مباشر** (عن طريق haloperidol وليس درويبريدول نفسه) موجودة حالياً لهذا الاقتران المحدد.
 
-> **Note:** Although Tourette Syndrome is TxGNN's highest-ranked prediction, stronger clinical evidence exists for **headache disorders** (20 publications, 1 RCT, 1 clinical trial) and **acute mania in bipolar disorder** (Cochrane systematic review + RCT). Those indications are discussed separately in the Conclusion section.
+> **ملاحظة:** على الرغم من أن متلازمة توريت هي أعلى تنبؤ للنموذج TxGNN، توجد أدلة سريرية أقوى لـ **اضطرابات الصداع** (20 منشور، 1 RCT، 1 تجربة سريرية) و **الهوس الحاد في اضطراب ثنائي القطب** (مراجعة منهجية من Cochrane + RCT). يتم مناقشة هذه الاستطبابات بشكل منفصل في قسم الخلاصة.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Not marketed in Saudi Arabia; pharmacologically known for acute agitation, procedural sedation, and antiemesis |
-| Predicted New Indication (Rank 1) | Tourette Syndrome |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 (preclinical/class-effect inference; no direct droperidol trials) |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير مسوق في المملكة العربية السعودية؛ معروف دوائياً لمعالجة الإثارة الحادة والتهدئة الإجرائية والقيء |
+| الاستطباب الجديد المتوقع (الترتيب 1) | متلازمة توريت |
+| درجة تنبؤ TxGNN | 99.89% |
+| مستوى الأدلة | L4 (استدلال سابق للسريري/تأثير الفئة؛ لا توجد تجارب درويبريدول مباشرة) |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | أرجل |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Droperidol is a butyrophenone antipsychotic that exerts its primary effect through potent dopamine D2 receptor antagonism, with additional α₁-adrenergic and H₁ histamine antagonism. This pharmacological profile places it in the same class as haloperidol and pimozide — both of which are approved first-line agents for Tourette Syndrome (TS). The TxGNN prediction is therefore mechanistically coherent: TS is characterised by dopaminergic hyperactivity in the cortico-striato-thalamo-cortical circuit, and D2 blockade is the established therapeutic strategy.
+درويبريدول هو عامل ذهاني من البيتيروفينون يمارس تأثيره الأساسي من خلال حصار قوي لمستقبلات الدوبامين D2، مع حصار إضافي لمستقبلات α₁-الأدرينالية و H₁ الهستامينية. يضع هذا الملف الدوائي درويبريدول في نفس الفئة مع haloperidol و pimozide — وكلاهما معتمد كعامل من الخط الأول لمعالجة متلازمة توريت (TS). لذلك فإن تنبؤ TxGNN متسق ميكانيكياً: تتميز TS بفرط النشاط الدوبامينرجي في دائرة قشرة المخ-المخطط-المهاد-قشرة المخ، وحصار D2 هو الإستراتيجية العلاجية المعروفة.
 
-The reasoning from mechanism to clinical application follows a class-effect logic. Haloperidol, the closest chemical relative of droperidol within the butyrophenone class, has decades of evidence supporting tic suppression in TS. Because droperidol shares the same receptor binding profile — and is in fact pharmacokinetically more potent than haloperidol — the model inference that it may produce a similar clinical effect is scientifically plausible.
+يتبع الاستدلال من الآلية إلى التطبيق السريري منطق تأثير الفئة. Haloperidol، أقرب قريب كيميائي لدرويبريدول ضمن فئة البيتيروفينون، له عقود من الأدلة تدعم قمع التشنجات في TS. نظراً لأن درويبريدول يشارك نفس ملف الارتباط بالمستقبلات — وهو في الواقع أكثر فعالية حرائك دوائية من haloperidol — فإن استدلال النموذج بأنه قد ينتج تأثيراً سريرياً مماثلاً معقول علمياً.
 
-However, plausibility is not evidence. No clinical trial or prospective study has directly evaluated droperidol for TS. The single supporting publication in this pack (PMID 791589, 1976) studies haloperidol, not droperidol. This is an indirect inference at best (L4), and the decision to proceed would require purpose-designed studies to establish direct efficacy and safety in this patient population.
-
----
-
-## Clinical Trial Evidence
-
-Currently no clinical trials for Droperidol in Tourette Syndrome are registered.
+ومع ذلك، المعقولية ليست أدلة. لم تقيم أي تجربة سريرية أو دراسة محتملة درويبريدول لـ TS بشكل مباشر. المنشور الداعم الوحيد في هذه المجموعة (PMID 791589، 1976) يدرس haloperidol وليس درويبريدول. هذا استدلال غير مباشر في أحسن الأحوال (L4)، والقرار بالمضي قدماً سيتطلب دراسات موجهة لغرض معين لتحديد الفعالية والسلامة المباشرة في هذه المجموعة السكانية المريضة.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مسجلة لدرويبريدول في متلازمة توريت.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|------|------|---------|-------------|
-| [791589](https://pubmed.ncbi.nlm.nih.gov/791589/) | 1976 | Clinical Study (Indirect) | Current Psychiatric Therapies | Haloperidol (not droperidol) in severe behavioural disorders — cited as class-effect support only |
+| [791589](https://pubmed.ncbi.nlm.nih.gov/791589/) | 1976 | دراسة سريرية (غير مباشرة) | Current Psychiatric Therapies | Haloperidol (وليس درويبريدول) في الاضطرابات السلوكية الحادة — استشهد به كدعم لتأثير الفئة فقط |
 
-> **Limitation:** This study evaluates haloperidol, a related butyrophenone. No publication directly studies droperidol in Tourette Syndrome patients.
-
----
-
-## Saudi Arabia Market Information
-
-Droperidol has **no regulatory authorisations** in Saudi Arabia. It is not approved or marketed through the SFDA.
+> **القيد:** هذه الدراسة تقيم haloperidol وهو بيتيروفينون ذو صلة. لا يوجد منشور يدرس درويبريدول بشكل مباشر في مرضى متلازمة توريت.
 
 ---
 
-## Safety Considerations
+## معلومات سوق المملكة العربية السعودية
 
-Formal safety data (package insert warnings, contraindications, drug interactions) from Saudi Arabian regulatory sources is not available for this drug.
-
-Based on widely known pharmacological characteristics of droperidol, clinicians should be aware that this agent carries a **black-box warning in the United States (FDA, 2001)** for QT prolongation and risk of Torsades de Pointes, which significantly constrained its clinical use globally. This safety signal is particularly relevant for any new indication development and must be factored into any research protocol design.
-
-Please refer to the current package insert and established pharmacovigilance resources for complete safety information before any clinical application.
+درويبريدول ليس له **أي تصاريح تنظيمية** في المملكة العربية السعودية. لم يتم الموافقة عليه أو تسويقه من قبل SFDA.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+لا توجد بيانات رسمية عن السلامة (تحذيرات ورقة البيانات الآمنة، موانع الاستخدام، التفاعلات الدوائية) من مصادر SFDA التنظيمية السعودية متاحة لهذا الدواء.
 
-**Rationale:**
-The TxGNN model's top-ranked prediction for droperidol is Tourette Syndrome, supported by strong mechanistic reasoning (D2 antagonism, butyrophenone class effect with haloperidol/pimozide), but zero direct clinical evidence exists — the sole supporting publication studies a different drug. An L4 evidence level and a serious cardiac safety signal (QT prolongation) make immediate clinical development premature without foundational studies.
+بناءً على الخصائص الدوائية المعروفة على نطاق واسع لدرويبريدول، يجب أن يكون الأطباء على دراية بأن هذا العامل يحمل **تحذيراً بصندوق أسود من إدارة الغذاء والدواء الأمريكية (FDA، 2001)** لإطالة فترة QT وخطر Torsades de Pointes، مما حد بشكل كبير من استخدامه السريري على المستوى العالمي. هذه الإشارة الأمنية ذات أهمية خاصة لأي تطوير استطباب جديد ويجب أن تؤخذ في الاعتبار في تصميم أي بروتوكول بحثي.
+
+يرجى الرجوع إلى ورقة البيانات الآمنة الحالية ومصادر الترصد الدوائي المعروفة للحصول على معلومات كاملة عن السلامة قبل أي تطبيق سريري.
 
 ---
 
-### Higher-Priority Repurposing Targets (Based on Existing Evidence)
+## الخلاصة والخطوات التالية
 
-While Tourette Syndrome receives the highest TxGNN score, the evidence landscape favours two other indications for near-term development consideration:
+**القرار: أرجل**
 
-| Indication | Evidence Level | Clinical Evidence Highlights | Recommendation |
+**الأساس المنطقي:**
+تنبؤ نموذج TxGNN الأعلى ترتيباً لدرويبريدول هو متلازمة توريت، مدعوماً بتفكير ميكانيكي قوي (حصار D2، تأثير فئة البيتيروفينون مع haloperidol/pimozide)، لكن لا توجد أدلة سريرية مباشرة — المنشور الداعم الوحيد يدرس دواءً مختلفاً. مستوى أدلة L4 وإشارة أمان قلبية خطيرة (إطالة QT) تجعل تطوير سريري فوري سابقاً للأوان بدون دراسات أساسية.
+
+---
+
+### أهداف إعادة الاستخدام ذات الأولوية الأعلى (بناءً على الأدلة الموجودة)
+
+بينما تحصل متلازمة توريت على أعلى درجة TxGNN، يفضل منظر الأدلة استطبابين آخرين للنظر في التطوير قريب المدى:
+
+| الاستطباب | مستوى الأدلة | أبرز الأدلة السريرية | التوصية |
 |-----------|---------------|------------------------------|----------------|
-| **Headache Disorder / Migraine** | L2–L3 | 1 RCT (*Neurology* 2003, PMID 12552051); 1 randomised trial (*Am J Emerg Med* 2002, PMID 11781912); Cochrane systematic review; ≥20 publications; 1 registered trial (NCT01406860, terminated) | Proceed with Guardrails |
-| **Manic Bipolar Affective Disorder** | L3 | Cochrane systematic review (PMID 27976370); RCT in acute agitation (PMID 321727); case series in mixed mania (PMID 9789713) | Proceed with Guardrails |
-| **Tourette Syndrome** | L4 | Class-effect inference only; no direct data | Hold — Research Question |
+| **اضطراب الصداع / الشقيقة** | L2–L3 | 1 RCT (*Neurology* 2003, PMID 12552051)؛ 1 تجربة عشوائية (*Am J Emerg Med* 2002, PMID 11781912)؛ مراجعة منهجية من Cochrane؛ ≥20 منشور؛ 1 تجربة مسجلة (NCT01406860، منهية) | المضي قدماً مع الضمانات |
+| **الهوس في اضطراب المودة ثنائي القطب** | L3 | مراجعة منهجية من Cochrane (PMID 27976370)؛ RCT في الإثارة الحادة (PMID 321727)؛ سلسلة حالات في الهوس المختلط (PMID 9789713) | المضي قدماً مع الضمانات |
+| **متلازمة توريت** | L4 | استدلال تأثير الفئة فقط؛ لا توجد بيانات مباشرة | أرجل — سؤال بحثي |
 
 ---
 
-**To advance the Tourette Syndrome hypothesis, the following is needed:**
+**لتقدم فرضية متلازمة توريت، يلزم ما يلي:**
 
-- A prospective pilot study (Phase 1/2) of droperidol directly in TS patients — no such study exists
-- Full pharmacovigilance review addressing QT prolongation risk in the TS population (often children and adolescents)
-- MOA data confirmation via DrugBank API (currently a data gap)
-- Saudi Arabia regulatory pathway assessment for a non-marketed drug entering a new indication
-- Comparison against approved TS agents (haloperidol, fluphenazine, clonidine, guanfacine) to define the clinical niche
+- دراسة تجريبية محتملة (المرحلة 1/2) لدرويبريدول مباشرة في مرضى TS — لا توجد مثل هذه الدراسة
+- مراجعة كاملة للترصد الدوائي تتناول خطر إطالة QT في سكان TS (غالباً الأطفال والمراهقون)
+- تأكيد بيانات آلية العمل عبر DrugBank API (حالياً فجوة بيانات)
+- تقييم مسار SFDA التنظيمي لدواء غير مسوق يدخل استطباب جديد
+- المقارنة مع عوامل TS المعتمدة (haloperidol, fluphenazine, clonidine, guanfacine) لتعريف الفراغ السريري
 
-**To advance the Headache / Migraine indication (recommended near-term priority):**
+**لتقدم استطباب الصداع / الشقيقة (أولوية قريبة المدى الموصى بها):**
 
-- Confirm existing RCT data quality and update evidence review for post-2020 studies
-- Assess dosing protocols for emergency department versus outpatient settings
-- Address QT monitoring requirements in the headache population
-- Explore SFDA new drug application pathway given Saudi Arabia non-marketing status
+- تأكيد جودة بيانات RCT الموجودة والتحديث الاستعراضي للأدلة للدراسات بعد 2020
+- تقييم بروتوكولات الجرعات لقسم الطوارئ مقابل الإعدادات الخارجية
+- معالجة متطلبات مراقبة QT في سكان الصداع
+- استكشاف مسار تطبيق دواء SFDA جديد نظراً لحالة عدم التسويق في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

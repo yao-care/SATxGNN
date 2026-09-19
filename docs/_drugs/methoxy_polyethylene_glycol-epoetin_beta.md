@@ -29,63 +29,64 @@ indication_count: 7
 
 </div>
 
-# Methoxy Polyethylene Glycol-Epoetin Beta: From Unspecified Original Indication to Primary Release Disorder of Platelets
+# ميثوكسي بولي إيثيلين جلايكول-إيبويتين بيتا: من دلالة أصلية غير محددة إلى اضطراب الإفراج الأولي عن الصفائح الدموية
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Methoxy polyethylene glycol-epoetin beta (DB09107) is a long-acting erythropoiesis-stimulating agent (ESA); its original indication is not specified in this evidence pack, and the drug is currently **not marketed** in Saudi Arabia.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-prediction-only signal.
+ميثوكسي بولي إيثيلين جلايكول-إيبويتين بيتا (DB09107) هو عامل محفز تكون الدم الأحمراء ذو التأثير الطويل (ESA)؛ دلالته الأصلية غير محددة في مجموعة الأدلة هذه، والدواء **غير معروض في السوق** حالياً في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **اضطراب الإفراج الأولي عن الصفائح الدموية**، إلا أن هذا التنبؤ مدعوم حالياً بـ **0 تجربة سريرية** و **0 منشور** — إنه إشارة تنبؤ بالنموذج فقط.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (original_indications is empty; MOA is a data gap) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|--------|
+| الدلالة الأصلية | غير محددة في مجموعة الأدلة (original_indications فارغة؛ MOA هو ثغرة بيانات) |
+| الدلالة الجديدة المتنبأ بها | اضطراب الإفراج الأولي عن الصفائح الدموية |
+| درجة التنبؤ TxGNN | 99.36% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير معروض |
+| عدد التفويضات | 0 |
+| القرار الموصى به | توقيف |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for this drug is not available in the evidence pack. Based on the INN and the repurposing rationale text that accompanies the predictions, this molecule is understood to be a long-acting erythropoietin receptor (EPOR) agonist, acting primarily on erythroid progenitor cells to stimulate red blood cell production.
+بيانات آلية العمل التفصيلية لهذا الدواء غير متوفرة في مجموعة الأدلة. استناداً إلى INN والنص التبريري لإعادة الاستخدام الذي يرافق التنبؤات، يُفهم أن هذا الجزيء هو محفز مستقبل الإريثروبويتين (EPOR) ذو التأثير الطويل، يعمل بشكل أساسي على خلايا الأرومة الحمراء لتحفيز إنتاج خلايا الدم الحمراء.
 
-The predicted indication — primary release disorder of platelets — is a disorder of megakaryocyte/granule release function, not of erythropoiesis. The evidence pack's own mechanistic assessment states there is **no known direct link** between the EPO–EPOR signaling pathway and platelet release disorders, and suggests the high TxGNN score more likely reflects proximity of "hematologic disease" nodes within the knowledge graph embedding rather than a genuine pharmacological relationship.
+الدلالة المتنبأ بها — اضطراب الإفراج الأولي عن الصفائح الدموية — هو اضطراب في وظيفة إفراز الميجاكاريوسيت/الحبيبات، وليس في تكون الدم الأحمراء. يشير التقييم الميكانيكي الخاص بمجموعة الأدلة ذاتها إلى أنه **لا توجد صلة مباشرة معروفة** بين مسار إشارات EPO–EPOR واضطرابات إفراج الصفائح الدموية، ويقترح أن الدرجة العالية لـ TxGNN تعكس بدرجة أكبر القرب من عقد "أمراض الدم" ضمن تضمين الرسم البياني للمعرفة بدلاً من علاقة صيدلانية حقيقية.
 
-In short: the biological rationale for this specific prediction is weak, and it is not corroborated by any independent evidence source (trials or literature).
+باختصار: التبرير البيولوجي لهذا التنبؤ المحدد ضعيف، وهو غير مدعوم بأي مصدر دليل مستقل (تجارب أو منشورات).
 
-## Clinical Trial Evidence
+## دليل التجربة السريرية
 
-Currently no related clinical trials registered.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً.
 
-## Literature Evidence
+## دليل الأدبيات
 
-Currently no related literature available.
+لا توجد منشورات أدبية ذات صلة متاحة حالياً.
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-This drug is not marketed in Saudi Arabia (market_status: Not marketed / not marketed), with 0 registered authorizations. No license records are available.
+هذا الدواء غير معروض في السوق في المملكة العربية السعودية (market_status: Not marketed / غير معروض)، بدون تفويضات مسجلة. لا توجد سجلات ترخيص متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يُرجى الرجوع إلى النشرة الطبية للحصول على معلومات الأمان.
 
-Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) — this must be resolved before this candidate can undergo any S1 safety assessment. Separately, the evidence pack's rationale for a different candidate in this same prediction set (factor V excess with spontaneous thrombosis, rank 7) flags that ESAs as a class carry a known thromboembolic risk signal; this is a general class-level caution worth carrying forward into any future safety workup of this molecule, though it is not sourced from the `safety` block itself.
+ملاحظة: تحذيرات/موانع استطباب نشرة TFDA موسومة كـ ثغرة بيانات **حاجبة** (DG001) — يجب حل هذه المسألة قبل أن يخضع هذا المرشح لأي تقييم أمان S1. بشكل منفصل، يشير الاستدلال الخاص بمجموعة الأدلة لمرشح مختلف في نفس مجموعة التنبؤ هذه (فائض العامل الخامس مع الخثار التلقائي، الرتبة 7) إلى أن ESAs كفئة تحمل إشارة خطر جلطات معروفة؛ هذا احتياط على مستوى الفئة يستحق النظر فيه في أي عمل أمان مستقبلي لهذا الجزيء، على الرغم من أنه ليس مصدره من كتلة `safety` نفسها.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقيف**
 
-**Rationale:**
-Evidence level is L5 (model prediction only) with zero clinical trials or literature support. The evidence pack's own mechanistic analysis argues against a strong biological rationale linking this drug's EPO-receptor mechanism to platelet release disorders. In addition, a Blocking-severity data gap (missing TFDA label warnings/contraindications) prevents this candidate from entering S1 safety review, and the drug is not currently marketed in Saudi Arabia.
+**الأساس المنطقي:**
+مستوى الأدلة L5 (التنبؤ بالنموذج فقط) بدون تجارب سريرية أو دعم منشورات. يحتج التقييم الميكانيكي الخاص بمجموعة الأدلة نفسها ضد نسبة بيولوجية قوية تربط آلية مستقبل EPO لهذا الدواء باضطرابات إفراج الصفائح الدموية. بالإضافة إلى ذلك، فإن ثغرة بيانات ذات خطورة عالية (تحذيرات/موانع استطباب TFDA المفقودة) تمنع هذا المرشح من الدخول إلى مراجعة الأمان S1، والدواء غير معروض حالياً في السوق في المملكة العربية السعودية.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (DG001, Blocking — required before any S1 safety assessment)
-- Mechanism of action (MOA) data (DG002, High)
-- Original indication data (original_indications is currently empty)
-- Preclinical/in-vitro evidence establishing biological plausibility for EPO-receptor signaling in platelet release disorder, given the current mechanistic rationale is unsupportive
+**للمضي قدماً، يلزم توفير ما يلي:**
+- تحذيرات/موانع استطباب نشرة TFDA (DG001، حاجبة — مطلوبة قبل أي تقييم أمان S1)
+- بيانات آلية العمل (MOA) (DG002، عالية الأولوية)
+- بيانات الدلالة الأصلية (original_indications فارغة حالياً)
+- دليل قبل سريري/في المختبر يؤسس المعقولية البيولوجية لإشارات مستقبل EPO في اضطراب إفراج الصفائح الدموية، نظراً إلى أن الاستدلال الميكانيكي الحالي غير داعم
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

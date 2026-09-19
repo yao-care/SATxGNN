@@ -29,78 +29,79 @@ indication_count: 10
 
 </div>
 
-# Etoricoxib: From COX-2-Mediated Pain/Inflammatory Conditions to Migraine Disorder
+# إيتوريكوكسيب: من حالات الألم والالتهاب الوسيطة بـ COX-2 إلى اضطراب الصداع النصفي
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Etoricoxib (DrugBank DB01628) is a selective COX-2 inhibitor; its formal original-indication and mechanism-of-action records are not available in this Evidence Pack (flagged as data gaps DG001/DG002), though the attached clinical-trial evidence context (ankylosing spondylitis, post-orthopedic pain, cervical osteoarthritis) is consistent with its known use as an anti-inflammatory/analgesic NSAID. The TxGNN model's top prediction is **Migraine Disorder**, but this is a **pure computational signal with zero supporting clinical trials or literature** — the repurposing rationale explicitly states "純屬TxGNN預測" (prediction only, no clinical/preclinical evidence).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this Evidence Pack (data gap — see DG002); trial context suggests inflammatory/musculoskeletal pain use |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 (model prediction only, no studies) |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيتوريكوكسيب (DrugBank DB01628) هو مثبط انتقائي لـ COX-2؛ السجلات الرسمية للمؤشرات الأصلية وآليات العمل غير متاحة في حزمة الأدلة هذه (موسومة كفجوات بيانات DG001/DG002)، على الرغم من أن سياق الأدلة التجريبية المرفقة (التهاب الفقار اللاصق، الألم بعد تقويم العظام، هشاشة العظام في العمود الفقري العنقي) متسق مع استخدامه المعروف كعامل مضاد للالتهاب/مسكن NSAID. التنبؤ الأول للنموذج TxGNN هو **اضطراب الصداع النصفي**، لكن هذا **إشارة حسابية خالصة بدون أي تجارب سريرية أو أدبيات داعمة** — تنص نسبة إعادة الاستخدام بوضوح على "純屬TxGNN預測" (تنبؤ فقط، بدون أدلة سريرية/قبل سريرية).
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on the mechanistic rationale attached to this prediction: COX-2 and the prostaglandin pathway are known to participate in trigeminovascular system activation, which is part of migraine pathophysiology in general. However, the Evidence Pack itself states there is **no clinical or preclinical evidence** of etoricoxib being studied in migraine — this connection is derived purely from TxGNN's learned embedding space, not from any observed drug-disease association.
-
-It is worth noting that within the same Evidence Pack, two related but distinct entities — **Headache Disorder** (rank 9) and **Trigeminal Autonomic Cephalalgia** (rank 10) — carry stronger, literature-sourced rationale: several case reports/case series describe etoricoxib and celecoxib as effective in indomethacin-responsive headache syndromes (primary stabbing headache, cough headache), which share a COX-pathway mechanism with indomethacin. This offers indirect biological plausibility for COX-2 inhibition in *some* headache subtypes, but it does not directly validate the rank-1 "Migraine Disorder" prediction, which remains an unsupported model output.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح في حزمة الأدلة هذه (فجوة بيانات — انظر DG002)؛ سياق التجربة يشير إلى استخدام الألم الالتهابي/العضلي الهيكلي |
+| المؤشر الجديد المتنبأ به | اضطراب الصداع النصفي |
+| درجة التنبؤ TxGNN | 99.90% |
+| مستوى الدليل | L5 (تنبؤ النموذج فقط، بدون دراسات) |
+| حالة السوق في المملكة العربية السعودية | غير مسوق |
+| عدد الموافقات | 0 |
+| القرار الموصى به | انتظر |
 
 ---
 
-## Saudi Arabia Market Information
+## لماذا هذا التنبؤ معقول؟
 
-Etoricoxib is **not currently marketed** in Saudi Arabia — 0 authorizations are on file in this Evidence Pack, and no license/product records exist to summarize.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (DG002، خطورة عالية). بناءً على النسبة الآلية المرفقة بهذا التنبؤ: يُعرف أن COX-2 ومسار البروستاجلاندين يشاركان في تنشيط النظام الثلاثي التوزيعي، وهو جزء من فيزيولوجيا الصداع النصفي بشكل عام. ومع ذلك، تنص حزمة الأدلة نفسها على وجود **أي دليل سريري أو قبل سريري لدراسة إيتوريكوكسيب في الصداع النصفي** — هذا الاتصال مشتق بحتة من فضاء التضمين المتعلم الخاص بـ TxGNN، وليس من أي ارتباط دواء-مرض ملاحظ.
 
----
-
-## Safety Considerations
-
-Formal key warnings, contraindications, and DDI data are not available in this Evidence Pack (all fields marked as data gaps; DDI query returned "not_found"). This is flagged as **Blocking (DG001)** — TFDA/SFDA package insert warnings and contraindications must be obtained before this candidate can enter safety pre-screening (S1).
-
-**Additional safety signals surfaced incidentally in the literature (attached to other predicted-indication evidence blocks, not migraine):**
-- Case report of etoricoxib-induced life-threatening hyperkalemia and acute kidney dysfunction in a patient on telmisartan + low-sodium diet (PMID 21373319).
-- Case report of reversible cerebral vasoconstriction syndrome possibly induced by etoricoxib (PMID 25229174).
-
-These are not migraine-specific but are relevant background risk signals (renal/electrolyte and cerebrovascular) given the drug's cardiovascular/renal safety profile as a COX-2 inhibitor.
+من الجدير بالملاحظة أنه ضمن نفس حزمة الأدلة، كيانان مرتبطان لكن متمايزان — **اضطراب الصداع** (الترتيب 9) و**الصداع اللاإرادي ثلاثي التوزيع** (الترتيب 10) — يحملان نسبة أقوى مدعومة بالأدبيات: تصف عدة تقارير حالات/سلاسل حالات إيتوريكوكسيب وسيليكوكسيب كعلاج فعال لمتلازمات الصداع المستجيبة لإندوميتاسين (الصداع الوخز الأولي، صداع السعال)، التي تشارك مسار COX مع إندوميتاسين. يوفر هذا معقولية بيولوجية غير مباشرة لمثبطات COX-2 في *بعض* أنواع الصداع، لكنه لا يتحقق بشكل مباشر من تنبؤ الترتيب الأول "اضطراب الصداع النصفي"، الذي يبقى مخرجات نموذج غير مدعومة.
 
 ---
 
-## Conclusion and Next Steps
+## دليل التجارب السريرية
 
-**Decision: Hold**
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة.
 
-**Rationale:**
-The top-ranked prediction (Migraine Disorder) has an Evidence Level of L5 — a model score only, with zero clinical trials or publications — and the drug is not marketed in Saudi Arabia. A Blocking data gap (missing TFDA/SFDA label warnings and contraindications) also prevents progression to safety pre-screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA official package insert (warnings, contraindications) — resolves DG001 (Blocking)
-- Formal MOA data via DrugBank API — resolves DG002 (High)
-- Any preclinical or clinical data specifically on etoricoxib in migraine (currently none exist)
-- If pursuing the COX-2/headache mechanism further, consider redirecting research priority toward **Headache Disorder** and **Trigeminal Autonomic Cephalalgia** (both L4, "Research Question" stage), which have case-report-level human evidence, rather than classic Migraine Disorder
+## دليل الأدبيات
+
+حالياً لا توجد أدبيات ذات صلة متاحة.
+
+---
+
+## معلومات السوق في المملكة العربية السعودية
+
+إيتوريكوكسيب **غير مسوق حالياً** في المملكة العربية السعودية — لا توجد موافقات (0) على الملف في حزمة الأدلة هذه، ولا توجد سجلات ترخيص/منتجات لتلخيصها.
+
+---
+
+## اعتبارات السلامة
+
+بيانات التحذيرات الرسمية والموانع والتفاعلات الدوائية غير متاحة في حزمة الأدلة هذه (جميع الحقول موسومة كفجوات بيانات؛ استعلام DDI أرجع "not_found"). هذا موسوم باعتباره **حجز (DG001)** — يجب الحصول على نشرة حزمة TFDA/SFDA الرسمية والموانع قبل أن يتمكن هذا المرشح من دخول الفحص الأمني المسبق (S1).
+
+**إشارات السلامة الإضافية التي ظهرت بالمصادفة في الأدبيات (المرفقة بأدلة المؤشرات المتنبأ بها الأخرى، وليس الصداع النصفي):**
+- تقرير حالة لفرط بوتاسيوم الدم الناجم عن إيتوريكوكسيب يهدد الحياة وخلل كلوي حاد لدى مريض على تيلميسارتان + نظام غذائي منخفض الصوديوم (PMID 21373319).
+- تقرير حالة لمتلازمة انقباض أوعية دماغية قابلة للعكس ربما تكون محفزة بـ إيتوريكوكسيب (PMID 25229174).
+
+هذه ليست خاصة بالصداع النصفي لكنها إشارات خطر خلفية ذات صلة (كلوية/كهرباء التمثيل الغذائي وأوعية دماغية) نظراً لملف السلامة القلبية/الكلوية للدواء كمثبط COX-2.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظر**
+
+**النسبة:**
+التنبؤ بأعلى ترتيب (اضطراب الصداع النصفي) له مستوى دليل L5 — درجة نموذج فقط، بدون تجارب سريرية أو منشورات — والدواء غير مسوق في المملكة العربية السعودية. فجوة بيانات حجز (تحذيرات وموانع TFDA/SFDA الرسمية مفقودة) تمنع أيضاً التقدم إلى الفحص الأمني المسبق.
+
+**للمتابعة، يلزم ما يلي:**
+- نشرة حزمة TFDA/SFDA الرسمية (التحذيرات، الموانع) — يحل DG001 (حجز)
+- بيانات MOA الرسمية عبر DrugBank API — يحل DG002 (عالي)
+- أي بيانات قبل سريرية أو سريرية على وجه التحديد حول إيتوريكوكسيب في الصداع النصفي (حالياً لا توجد)
+- إذا تم متابعة آلية COX-2/الصداع بشكل أعمق، فكر في إعادة توجيه أولوية البحث نحو **اضطراب الصداع** و**الصداع اللاإرادي ثلاثي التوزيع** (كلاهما L4، مرحلة "سؤال البحث")، التي لديها دليل بشري على مستوى تقارير الحالات، بدلاً من الصداع النصفي الكلاسيكي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

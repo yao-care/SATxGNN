@@ -29,95 +29,96 @@ indication_count: 10
 
 </div>
 
-# Pralatrexate: An Antifolate Chemotherapy Explored for Malignant Pleural Mesothelioma
+# براترِكسات: عامل كيميائي مضادّ للفولات قيد الاستكشاف لورم المتوسطة الجنبي الخبيث
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-> Pralatrexate is a dihydrofolate reductase (DHFR) inhibitor (antifolate); this evidence pack contains no confirmed original indication or approved-label data, and the drug is currently **not marketed in Saudi Arabia**.
-> Among 10 TxGNN-predicted indications (mostly mesothelioma-family tumours), **Malignant Pleural Mesothelioma** has the strongest supporting evidence — a direct Phase II single-arm trial plus 2 supporting publications — even though its TxGNN score ranks 10th of the 10 candidates presented.
-> Other top-scoring predictions (e.g., pleural adenomatoid tumor, relapsing-remitting multiple sclerosis) have no clinical trial or literature support and are explicitly flagged by the model rationale as biologically implausible.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — `original_indications` is empty and no Saudi Arabia license record exists in this evidence pack |
-| Predicted New Indication | Pleural (Malignant) Mesothelioma |
-| TxGNN Prediction Score | 99.85% (rank 3273 of full candidate list) |
-| Evidence Level | L3 (observational/Phase II single-arm + review) |
-| Saudi Arabia Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> براترِكسات هو مثبّط ديهيدروفولات ريدوكتاز (DHFR) (مضادّ للفولات)؛ هذه مجموعة الأدلة لا تحتوي على بيانات الاستطبابات الأصلية المؤكّدة أو بيانات الموافقة، والعقار حالياً **غير مسوّق في المملكة العربية السعودية**.
+> من بين 10 استطبابات تنبّأ بها TxGNN (في الغالب أورام عائلة المتوسطة)، يتمتع **ورم المتوسطة الجنبي الخبيث** بأقوى الأدلة الداعمة — تجربة المرحلة الثانية المباشرة ذات الذراع الواحدة بالإضافة إلى منشورين داعمين — رغم أن درجة TxGNN تحتل المرتبة العاشرة من بين 10 مرشحين معروضين.
+> التنبؤات الأخرى ذات الدرجات الأعلى (مثل الورم الغدانيّ الجنبي، والتهاب السحايا المتعددة الناكس) لا تملك دعماً من تجربة سريرية أو نشر أدبي، ويتم وضع علامة صريحة من قبل منطق النموذج على أنها غير معقولة بيولوجياً.
 
 ---
 
-## Why is This Prediction Reasonable?
+## لمحة سريعة
 
-Detailed mechanism-of-action data is flagged as a data gap in this pack (`original_moa: [Data Gap]`), and no original indication is recorded. Based on the information that is available, pralatrexate (10-propargyl-10-deazaaminopterin) is a DHFR-inhibiting antifolate, pharmacologically related to methotrexate and to pemetrexed — the antifolate already approved for malignant pleural mesothelioma. This shared drug-class mechanism is the basis for the TxGNN prediction and is corroborated by direct experimental data: PMID 11595715 reports pralatrexate had 25–30× greater in vitro cytotoxic potency than methotrexate against mesothelioma cell lines, and PMID 17409804 reports a completed Phase II clinical trial of pralatrexate specifically in unresectable malignant pleural mesothelioma.
-
-Nine of the ten TxGNN-predicted indications in this pack belong to the mesothelioma/pericardial-tumour family, which is internally consistent with an antifolate mechanism plausible for mesothelial tumours. Two subtypes — malignant pleural mesothelioma (rank 10) and pleural epithelioid mesothelioma (rank 4) — are supported by the same Phase II trial evidence and reach evidence level L3/decision stage S1 ("Research Question"), while the remaining subtypes (biphasic, sarcomatoid, lymphohistiocytoid, peritoneal, well-differentiated papillary, pericardial) have no direct evidence and are held at L4 (mechanistic inference only).
-
-It is worth noting the model's single highest-scoring prediction, pleural adenomatoid tumor, is **not** supported by this analysis: the rationale explicitly notes adenomatoid tumors are typically benign and do not require cytotoxic chemotherapy, and no clinical or literature evidence exists. Similarly, relapsing-remitting multiple sclerosis has no mechanistic or empirical support — pralatrexate's cytotoxic antifolate action is not equivalent to the immunomodulatory mechanism of low-dose methotrexate in autoimmune disease. For these reasons, malignant pleural mesothelioma — not the top TxGNN-scored candidate — is the indication carried forward in this report as the most defensible repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for malignant pleural mesothelioma (no matching entries in `clinical_trials` or `ictrp_trials`; the supporting Phase II study below is captured only as a literature record, not a registered trial entry).
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير متاح — `original_indications` فارغة ولا توجد سجلات ترخيص المملكة العربية السعودية في هذه مجموعة الأدلة |
+| الاستطباب الجديد المتنبأ به | ورم المتوسطة الجنبي (الخبيث) |
+| درجة التنبؤ TxGNN | 99.85% (المرتبة 3273 من قائمة المرشحين الكاملة) |
+| مستوى الأدلة | L3 (دراسة رصدية/المرحلة الثانية ذات الذراع الواحدة + مراجعة) |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق (Not Marketed) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17409804](https://pubmed.ncbi.nlm.nih.gov/17409804/) | 2007 | Phase 2 Trial (single-arm) | Journal of Thoracic Oncology | Phase II trial of pralatrexate in unresectable malignant pleural mesothelioma; favorable toxicity profile (mainly stomatitis), demonstrated antitumor activity in mesothelioma cell lines/xenografts and in NSCLC patients |
-| [21301589](https://pubmed.ncbi.nlm.nih.gov/21301589/) | 2010 | Review | Cancer Management and Research | Review of antifolate chemotherapy targeting folate synthesis (DHFR and related enzymes); positions pralatrexate within the broader antifolate drug class |
-| [11595715](https://pubmed.ncbi.nlm.nih.gov/11595715/) | 2001 | Preclinical (animal/in vitro) | Clinical Cancer Research | Pralatrexate (PDX) showed 25–30× greater in vitro cytotoxic potency than methotrexate against human mesothelioma cell lines (VAMT-1, JMN), including combination activity with platinum agents |
+بيانات آلية العمل المفصّلة يتم وضع علامة عليها كفجوة بيانات في هذه المجموعة (`original_moa: [Data Gap]`)، ولم يتم تسجيل أي استطباب أصلي. بناءً على المعلومات المتاحة، براترِكسات (10-propargyl-10-deazaaminopterin) هو مثبّط DHFR مضادّ للفولات، مرتبط دوائياً بالميثوتريكسات وبيميتريكسيد — مضادّ الفولات المعتمد بالفعل لورم المتوسطة الجنبي الخبيث. هذه الآلية الدوائية المشتركة هي أساس تنبؤ TxGNN وتتحقق من خلال البيانات التجريبية المباشرة: PMID 11595715 يفيد بأن براترِكسات كان له قوة سمية خلوية in vitro أعظم بـ 25–30× من الميثوتريكسات ضد خطوط خلايا المتوسطة البشرية، و PMID 17409804 يفيد عن تجربة المرحلة الثانية المكتملة لبراترِكسات تحديداً في ورم المتوسطة الجنبي غير القابل للاستئصال.
 
----
+تسعة من بين عشرة استطبابات تنبّأ بها TxGNN في هذه المجموعة تنتمي إلى عائلة أورام المتوسطة/التاموري، وهو يعكس اتساقاً داخلياً مع آلية مضادّ الفولات المعقولة للأورام الوسيطة. يدعم نوعا فرعيان — ورم المتوسطة الجنبي الخبيث (المرتبة 10) وورم المتوسطة الجنبي الظهاري (المرتبة 4) — بنفس دليل التجربة المرحلة الثانية ويصلان إلى مستوى الأدلة L3/مرحلة القرار S1 ("سؤال البحث")، بينما تُحتفظ الأنواع الفرعية المتبقية (ثنائي الطور، حمّة، lymphohistiocytoid، بريتوني، حليمية محددة جيداً، تاموري) في L4 (الاستدلال الميكانيكي فحسب).
 
-## Saudi Arabia Market Information
-
-Pralatrexate currently holds **no marketing authorization in Saudi Arabia** (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). No license, product, or approved-indication records are available in this evidence pack.
+من الجدير بالملاحظة أن أعلى تنبؤ يسجّله النموذج، الورم الغدانيّ الجنبي، **غير** مدعوم من هذا التحليل: يشير المنطق بوضوح إلى أن الأورام الغدانية الحميدة عادة ما تكون حميدة ولا تتطلب العلاج الكيميائي الخلوي، ولا توجد أدلة سريرية أو أدبية. وبالمثل، التهاب السحايا المتعددة الناكس لا يملك دعماً ميكانيكياً أو تجريبياً — الفعل السام للخلايا المضادّ للفولات لبراترِكسات لا يعادل الآلية المناعية المعدّلة لميثوتريكسات الجرعة المنخفضة في المرض المناعي الذاتي. لهذه الأسباب، ورم المتوسطة الجنبي الخبيث — وليس أعلى مرشح سجّله TxGNN — هو الاستطباب المحمول في هذا التقرير كفرضية إعادة تصنيع الأكثر قابلية للدفاع.
 
 ---
 
-## Cytotoxicity
+## أدلة التجارب السريرية
 
-Pralatrexate is a cytotoxic antifolate/antimetabolite (DHFR inhibitor), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antifolate/antimetabolite class) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC (with differential), renal and hepatic function, mucositis/stomatitis monitoring (reported dose-limiting toxicity in PMID 17409804) |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+لا توجد حالياً تجارب سريرية ذات صلة مسجّلة لورم المتوسطة الجنبي الخبيث (لا توجد إدخالات مطابقة في `clinical_trials` أو `ictrp_trials`؛ دراسة المرحلة الثانية الداعمة أدناه يتم التقاطها كسجلّ أدبي فحسب، وليس كإدخال تجربة مسجّلة).
 
 ---
 
-## Safety Considerations
+## أدلة الأدبيات
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug–drug interaction data are all flagged as data gaps in this evidence pack — `safety.key_warnings`, `safety.contraindications` are unfilled, and the DDI query returned no results.)
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|-------|--------|------------|
+| [17409804](https://pubmed.ncbi.nlm.nih.gov/17409804/) | 2007 | تجربة المرحلة 2 (ذات الذراع الواحدة) | مجلة جراحة الصدر | تجربة المرحلة الثانية من براترِكسات في ورم المتوسطة الجنبي غير القابل للاستئصال؛ ملف سمية مواتٍ (بشكل أساسي التهاب الفم)، أظهر نشاطاً مضادّاً للأورام في خطوط الخلايا والطعوم الخيفية للمتوسطة وفي مرضى سرطان الرئة ذي الخلايا غير الصغيرة |
+| [21301589](https://pubmed.ncbi.nlm.nih.gov/21301589/) | 2010 | مراجعة | إدارة السرطان والأبحاث | مراجعة العلاج الكيميائي المضادّ للفولات الذي يستهدف تخليق الفولات (DHFR والإنزيمات ذات الصلة)؛ يضع براترِكسات ضمن فئة الأدوية المضادّة للفولات الأوسع |
+| [11595715](https://pubmed.ncbi.nlm.nih.gov/11595715/) | 2001 | ما قبل السريرية (حيواني/في الجسم الحي) | أبحاث السرطان السريرية | أظهر براترِكسات (PDX) قوة سمية خلوية in vitro أعظم بـ 25–30× من الميثوتريكسات ضد خطوط الخلايا الوسيطة البشرية (VAMT-1, JMN)، بما في ذلك النشاط المركب مع عوامل البلاتين |
 
 ---
 
-## Conclusion and Next Steps
+## معلومات السوق في المملكة العربية السعودية
 
-**Decision: Hold**
+براترِكسات حالياً لا يحمل **أي موافقة تسويقية في المملكة العربية السعودية** (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). لا توجد سجلات ترخيص أو منتج أو استطبابات معتمدة متاحة في هذه مجموعة الأدلة.
 
-**Rationale:**
-- TFDA/label-level safety data (warnings, contraindications) is a **Blocking** data gap (DG001) that explicitly prevents entry into the S1 safety pre-assessment stage; without it no repurposing candidate from this drug can advance regardless of efficacy evidence.
-- Even for the best-supported indication (malignant pleural mesothelioma), evidence is limited to one completed Phase II single-arm trial plus supportive preclinical/review literature (L3) — insufficient on its own to justify "Go," but sufficient to justify further investigation rather than outright rejection.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — required to clear the Blocking data gap (DG001)
-- Confirmed mechanism-of-action and original approved-indication data (DG002)
-- DDI profile (current query returned no results)
-- If pursuing malignant/epithelioid pleural mesothelioma specifically: updated search for any newer randomized trials beyond the single 2007 Phase II study, and confirmation of activity by histologic subtype (the existing trial did not stratify results by subtype)
+## السمية الخلوية
+
+براترِكسات هو عامل سام للخلايا مضادّ للفولات/مضادّ الاستقلاب (مثبّط DHFR)، لذا ينطبق هذا القسم.
+
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية الخلوية | عامل سام للخلايا تقليدي (فئة مضادّ الفولات/مضادّ الاستقلاب) |
+| خطر تثبيط نقي العظم | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| تصنيف الغثيان والقيء | يُرجى الرجوع إلى تحذيرات واحتياطات النشرة الدوائية |
+| بنود المراقبة | CBC (مع التمايز)، وظيفة الكبد والكلى، مراقبة الحاصور/التهاب الفم (السمية المحدّدة للجرعة المُبلّغ عنها في PMID 17409804) |
+| حماية المناولة | يجب الالتزام بلوائح مناولة الأدوية السامة للخلايا |
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الدوائية للحصول على معلومات السلامة. (بيانات السلامة على مستوى TFDA/النشرة الدوائية — التحذيرات الرئيسية والموانع والتفاعلات الدوائية — يتم وضع علامة عليها جميعاً كفجوات بيانات في هذه المجموعة — `safety.key_warnings`, `safety.contraindications` غير مملوءة، واستعلام DDI لم يعد بأي نتائج.)
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تأجيل**
+
+**المنطق:**
+- بيانات السلامة على مستوى TFDA/النشرة الدوائية (التحذيرات والموانع) تُشكّل فجوة بيانات **حاجزة** (DG001) تمنع صراحة الدخول إلى مرحلة التقييم الأمني S1؛ بدونها لا يمكن لأي مرشح إعادة تصنيع من هذا العقار أن يتقدم بغض النظر عن أدلة الفعالية.
+- حتى بالنسبة للاستطباب الأفضل دعماً (ورم المتوسطة الجنبي الخبيث)، الأدلة محدودة بتجربة المرحلة الثانية المكتملة الواحدة ذات الذراع الواحدة بالإضافة إلى أدبيات ما قبل السريرية/مراجعة داعمة (L3) — غير كافية بذاتها لتبرير "المضي قدماً"، لكنها كافية لتبرير مزيد من التحقيق بدلاً من الرفض الكامل.
+
+**للمتابعة، يُطلب ما يلي:**
+- النشرة الدوائية من TFDA/الشركة المصنّعة (التحذيرات والموانع) — مطلوب لإزالة فجوة البيانات الحاجزة (DG001)
+- بيانات آلية العمل والاستطباب الأصلي المعتمد المؤكّدة (DG002)
+- ملف تعريف التفاعلات الدوائية (استعلام الحالي لم يعد بأي نتائج)
+- إذا كان السعي وراء ورم المتوسطة الجنبي الخبيث/الظهاري تحديداً: بحث محدّث عن أي تجارب عشوائية أحدث من تجربة المرحلة الثانية الواحدة لعام 2007، والتأكيد من النشاط حسب نوع الأنسجة (التجربة الموجودة لم تقسّم النتائج حسب النوع الفرعي)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

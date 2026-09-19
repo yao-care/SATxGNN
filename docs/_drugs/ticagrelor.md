@@ -29,94 +29,95 @@ indication_count: 10
 
 </div>
 
-# Ticagrelor: From Acute Coronary Syndrome (Antiplatelet Therapy) to Intracranial Arteriosclerosis
+# تيكاجريلور: من متلازمة الشرايين التاجية الحادة (العلاج المضاد للصفيحات) إلى تصلب الشرايين داخل الجمجمة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Ticagrelor is a P2Y12 receptor antagonist whose established clinical role, per the evidence pack's own mechanistic notes, is antiplatelet therapy for ischemic cardiovascular events after acute coronary syndrome (ACS) or PCI. The TxGNN model predicts it may also be effective for **Intracranial Arteriosclerosis**, currently supported by **11 clinical trials** and **3 publications**, though the most directly relevant trial (CAPTIVA) is still ongoing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Predicted New Indication | Intracranial Arteriosclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question (Hold pending confirmatory data) |
-
-*Note: Original (approved) indication text could not be extracted — no Saudi Arabia license records exist in this pack, and the TFDA package insert has not yet been retrieved (see Data Gap DG001, blocking).*
+تيكاجريلور هو مضاد لمستقبلات P2Y12 الذي يتمثل دوره السريري الراسخ، وفقاً للملاحظات الآلية في حزمة الأدلة، في العلاج المضاد للصفيحات لأحداث القلب والأوعية الدموية الإقفاري بعد متلازمة الشرايين التاجية الحادة (ACS) أو PCI. يتنبأ نموذج TxGNN أنه قد يكون فعالاً أيضاً لـ **تصلب الشرايين داخل الجمجمة**، مدعوماً حالياً بـ **11 تجربة سريرية** و **3 منشورات**، على الرغم من أن التجربة الأكثر صلة مباشرة (CAPTIVA) لا تزال جارية.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism-of-action data is not available (Data Gap DG002). Based on the information present in this evidence pack, Ticagrelor is a reversible P2Y12 receptor antagonist and part of the modern antiplatelet drug class; its efficacy in preventing ischemic cardiovascular events after ACS/PCI is described in this pack as a core, well-established mechanism (see the rationale for the "ischemic disease" candidate below), and mechanistically this platelet-inhibition effect may extend to other atherothrombotic conditions.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الجديد المتنبأ به | تصلب الشرايين داخل الجمجمة |
+| درجة التنبؤ بـ TxGNN | 99.97% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التصريحات | 0 |
+| القرار الموصى به | سؤال بحثي (انتظار البيانات التأكيدية) |
 
-Intracranial arteriosclerosis causes ischemic events through platelet-dependent thrombus formation on stenotic intracranial vessels — the same underlying process (platelet activation and aggregation) that P2Y12 inhibition targets in coronary and peripheral arterial disease. This gives the prediction biological plausibility.
-
-However, the evidence pack explicitly flags an important caveat: intracranial vascular anatomy and bleeding risk (including hemorrhagic transformation) differ meaningfully from the coronary system, so the mechanism cannot simply be extrapolated — it requires validation in a dedicated intracranial-disease population rather than relying on cardiac/PAD trial data alone.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Phase 3 | Active, not recruiting | 1,683 | CAPTIVA — directly compares rivaroxaban/ticagrelor/both vs. clopidogrel for reducing 1-year ischemic stroke, ICH, or vascular death in intracranial atherosclerotic stenosis; results pending. |
-| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Recruiting | 792 | DREAM-PRIDE — drug-eluting stent + aggressive medical therapy (incl. antiplatelet) vs. standard medical therapy for symptomatic intracranial atherosclerotic disease. |
-| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Phase 3b | Completed | 13,885 | EUCLID — compares ticagrelor vs. clopidogrel on cardiovascular death, MI, and ischemic stroke risk in peripheral artery disease. |
-| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Phase 3 | Completed | 15,991 | GLOBAL LEADERS — ticagrelor-based antiplatelet strategy vs. standard DAPT after stent implantation. |
-| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Unknown | 2,171 | Anticoagulation vs. anticoagulation + antiplatelet in acute ischemic stroke with concomitant AF and extracranial/intracranial artery stenosis. |
-| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Recruiting | 100 | Genotype-guided P2Y12 inhibitor selection vs. conventional clopidogrel in symptomatic intracranial atherosclerotic disease (pilot). |
-| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Phase 3 | Not yet recruiting | 1,700 | SOLOPCI — short DAPT followed by P2Y12 monotherapy in older PCI patients. |
-| [NCT07354828](https://clinicaltrials.gov/study/NCT07354828) | N/A | Not yet recruiting | 3,500 | Quality-control standard system for coronary revascularization based on DAPT. |
-| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Phase 4 | Completed | 2,009 | EVOLVE Short DAPT — 3-month DAPT safety in high-bleeding-risk PCI patients. |
-| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Phase 4 | Unknown | 2,036 | Low-dose vs. standard-dose ticagrelor after DES implantation for unstable angina. |
-
-*(1 additional trial, NCT06857045, was withdrawn with 0 enrollment and is omitted.)*
+*ملاحظة: لم يكن من الممكن استخراج نص المؤشر الأصلي (المعتمد) - لا توجد سجلات ترخيص في المملكة العربية السعودية في هذه الحزمة، ولم تتم استرجاعها بعد من نسخة TFDA المدرجة (انظر فجوة البيانات DG001، محظور).*
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً، لا تتوفر بيانات آلية التأثير المفصلة (فجوة البيانات DG002). بناءً على المعلومات الموجودة في حزمة الأدلة هذه، تيكاجريلور هو مضاد انعكاسي لمستقبلات P2Y12 وجزء من فئة الأدوية المضادة للصفيحات الحديثة؛ توصف فعاليته في منع أحداث القلب والأوعية الدموية الإقفاري بعد ACS/PCI في هذه الحزمة كآلية أساسية وراسخة بالفعل (انظر الأساس المنطقي لمؤشر "أمراض إقفاري" أدناه)، وآلياً قد يمتد تأثير مثبط الصفيحات هذا إلى حالات أخرى من الأمراض الجلطية الصلبة.
+
+يسبب تصلب الشرايين داخل الجمجمة أحداث إقفاري من خلال تكون الجلطات المعتمدة على الصفيحات على الأوعية الداخلية المتضيقة — نفس العملية الأساسية (تنشيط الصفيحات وتجميعها) التي يستهدفها مثبط P2Y12 في أمراض الشرايين التاجية والطرفية. هذا يعطي التنبؤ معقولية بيولوجية.
+
+ومع ذلك، تحذر حزمة الأدلة صراحة من جانب مهم: تختلف تشريح الأوعية الدموية داخل الجمجمة ومخاطر النزيف (بما في ذلك التحول النزفي) بشكل ملحوظ عن الجهاز القلبي، لذلك لا يمكن استقراء الآلية ببساطة — بل تتطلب التحقق من الصحة في مجموعة سكانية مخصصة لأمراض داخل الجمجمة بدلاً من الاعتماد على بيانات التجارب القلبية/أمراض الأطراف وحدها.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|------|--------|---------|---------|
+| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | المرحلة 3 | نشطة، لا تقبل المشاركين الجدد | 1,683 | CAPTIVA — مقارنة مباشرة بين ريفاروكسابان/تيكاجريلور/كليهما مقابل كلوبيدوجريل لتقليل السكتة الإقفاري لمدة سنة واحدة والنزيف داخل الجمجمة والوفيات الوعائية في تضيق الشرايين داخل الجمجمة؛ النتائج قيد الانتظار. |
+| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | غير محدد | قيد التجنيد | 792 | DREAM-PRIDE — دعامة قابلة للذوبان بالأدوية + العلاج الطبي العدواني (بما في ذلك العلاج المضاد للصفيحات) مقابل العلاج الطبي المعياري لتصلب الشرايين داخل الجمجمة العرضي. |
+| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | المرحلة 3b | مكتملة | 13,885 | EUCLID — مقارنة تيكاجريلور مقابل كلوبيدوجريل على مخاطر الوفيات من أمراض القلب والأوعية الدموية واحتشاء عضلة القلب والسكتة الإقفاري في أمراض الأوعية الطرفية. |
+| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | المرحلة 3 | مكتملة | 15,991 | GLOBAL LEADERS — استراتيجية مضادة للصفيحات قائمة على تيكاجريلور مقابل DAPT المعياري بعد زراعة الدعامة. |
+| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | غير محدد | غير معروف | 2,171 | العلاج المضاد للتجلط مقابل العلاج المضاد للتجلط + العلاج المضاد للصفيحات في السكتة الحادة الإقفاري مع الرجفان الأذيني المرافق وتضيق الشرايين خارج/داخل الجمجمة. |
+| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | غير محدد | قيد التجنيد | 100 | اختيار مثبط P2Y12 الموجه بالنمط الجيني مقابل كلوبيدوجريل التقليدي في تصلب الشرايين داخل الجمجمة العرضي (تجربة استكشافية). |
+| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | المرحلة 3 | لم يبدأ بعد | 1,700 | SOLOPCI — DAPT قصير متبوع بمعالجة أحادية بمثبط P2Y12 في مرضى PCI الأكبر سناً. |
+| [NCT07354828](https://clinicaltrials.gov/study/NCT07354828) | غير محدد | لم يبدأ بعد | 3,500 | نظام معايير ضمان الجودة لإعادة التوعية التاجية بناءً على DAPT. |
+| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | المرحلة 4 | مكتملة | 2,009 | EVOLVE Short DAPT — سلامة DAPT لمدة 3 أشهر في مرضى PCI عالي مخاطر النزيف. |
+| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | المرحلة 4 | غير معروف | 2,036 | تيكاجريلور بجرعة منخفضة مقابل الجرعة المعيارية بعد زراعة DES للذبحة الصدرية غير المستقرة. |
+
+*(تم سحب تجربة إضافية واحدة، NCT06857045، مع 0 تسجيل وتم حذفها.)*
+
+---
+
+## أدلة الأدب
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | RCT (design paper) | Int J Stroke | Describes the CAPTIVA trial design, testing whether other dual antithrombotic combinations (incl. ticagrelor) outperform clopidogrel+aspirin for symptomatic intracranial atherosclerotic stenosis. |
-| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Review | Stroke | Focused update on intracranial atherosclerosis, summarizing knowledge gaps in antithrombotic management. |
-| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Cohort | J Neurointerv Surg | Reports experience with lower-dose ticagrelor (60 mg BID) + aspirin vs. standard aspirin/clopidogrel for neurointerventional (intracranial) stenting. |
+| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | تجربة عشوائية محكومة (ورقة التصميم) | Int J Stroke | يصف تصميم تجربة CAPTIVA، اختبار ما إذا كانت المجموعات المزدوجة الأخرى من العلاجات المضادة للجلطات (بما في ذلك تيكاجريلور) تتفوق على كلوبيدوجريل+أسبرين لتقليل تضيق الشرايين داخل الجمجمة العرضي. |
+| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | مراجعة | Stroke | تحديث مركز على تصلب الشرايين داخل الجمجمة، تلخيص الفجوات المعرفية في إدارة العلاجات المضادة للجلطات. |
+| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | دراسة الأتراب | J Neurointerv Surg | تقرير الخبرة مع تيكاجريلور بجرعة منخفضة (60 mg BID) + أسبرين مقابل أسبرين/كلوبيدوجريل المعياري لزراعة داخل الجمجمة (توعية عصبية). |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Ticagrelor currently holds **no marketing authorization records** in this dataset (market status: Not Marketed; total licenses: 0). No product/dosage-form information is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable — TFDA package insert extraction is flagged as a **Blocking** data gap, DG001.)
+تيكاجريلور لا يحتفظ حالياً بسجلات ترخيص تسويق في هذه مجموعة البيانات (حالة السوق: غير مسوق؛ إجمالي الرخص: 0). لا تتوفر معلومات المنتج/شكل الجرعة للجدولة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold (Research Question stage)**
+يرجى الرجوع إلى النشرة المدرجة للحصول على معلومات السلامة. (جميع البيانات المتعلقة بالتحذيرات الرئيسية وموانع الاستعمال وتفاعلات الأدوية حالياً غير متاحة — استخراج النشرة المدرجة TFDA يُشار إليه باعتباره **محظور** فجوة بيانات، DG001.)
 
-**Rationale:**
-The mechanistic rationale is biologically plausible and one directly relevant Phase 3 trial (CAPTIVA, NCT05047172) is underway, but it has not yet reported results, and no completed trial specifically targets intracranial arteriosclerosis outcomes. Evidence level is L2 — insufficient to move past a research question into active development, particularly given the distinct hemorrhagic risk profile of intracranial vasculature.
+---
 
-**To proceed, the following is needed:**
-- CAPTIVA (NCT05047172) and DREAM-PRIDE (NCT04948749) primary results (expected ~2026–2027)
-- TFDA package insert data — warnings, contraindications (DG001, Blocking)
-- Confirmed mechanism-of-action data via DrugBank (DG002, High)
-- Formal original-indication/regulatory text, since no license records exist in this pack
+## الخلاصة والخطوات التالية
 
-**Cross-reference note:** This evidence pack also contains a separate candidate indication, **"ischemic disease"** (rank 4), with substantially stronger evidence (Evidence Level L1, decision stage S3, "Proceed with Guardrails") — reflecting ticagrelor's core, already-substantiated use in post-ACS/PCI ischemic event prevention. If a nearer-term repurposing decision is needed, that candidate warrants separate prioritized review.
+**القرار: انتظار (مرحلة السؤال البحثي)**
+
+**الأساس المنطقي:**
+الأساس المنطقي الآلي معقول بيولوجياً وإحدى تجارب المرحلة 3 ذات الصلة المباشرة (CAPTIVA، NCT05047172) جارية، لكنها لم تبلغ عن النتائج بعد، ولا توجد تجربة مكتملة تستهدف بشكل محدد نتائج تصلب الشرايين داخل الجمجمة. مستوى الأدلة L2 — غير كافٍ للمضي قدماً وراء سؤال بحثي إلى التطوير النشط، خاصة بالنظر إلى ملف المخاطر النزفية المميز لأوعية الجمجمة الدموية.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نتائج CAPTIVA (NCT05047172) و DREAM-PRIDE (NCT04948749) الأساسية (متوقعة حول 2026–2027)
+- بيانات النشرة المدرجة TFDA — التحذيرات وموانع الاستعمال (DG001، محظور)
+- بيانات آلية التأثير المؤكدة عبر DrugBank (DG002، عالي)
+- نص المؤشر الأصلي/التنظيمي الرسمي، لأنه لا توجد سجلات ترخيص في هذه الحزمة
+
+**ملاحظة المراجع المتبادلة:** تحتوي حزمة الأدلة هذه أيضاً على مؤشر مرشح منفصل، **"أمراض إقفاري"** (التصنيف 4)، مع أدلة أقوى بكثير (مستوى الأدلة L1، مرحلة القرار S3، "المضي قدماً مع ضمانات") — يعكس الاستخدام الأساسي المثبت بالفعل لتيكاجريلور في منع أحداث القلب والأوعية الدموية الإقفاري بعد ACS/PCI. إذا كان قرار إعادة الاستخدام الأقرب أجلاً مطلوباً، فإن هذا المرشح يستحق مراجعة أولويات منفصلة.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

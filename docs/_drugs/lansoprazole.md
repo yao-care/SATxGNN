@@ -29,80 +29,81 @@ indication_count: 2
 
 </div>
 
-# Lansoprazole: From Proton Pump Inhibitor Use to Duodenogastric Reflux
+# الانسوبرازول: من استخدام مثبطات مضخة البروتون إلى الارتجاع المعدي الاثني عشري
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Lansoprazole is a proton pump inhibitor (PPI); the evidence pack does not contain a confirmed original indication or Taiwan market license for this product. The TxGNN model predicts potential relevance to **Duodenogastric Reflux**, but this is currently supported only by **0 clinical trials** and **2 publications**, one of which is an animal study raising a safety caution rather than a treatment-efficacy signal.
+الانسوبرازول هو مثبط مضخة البروتون (PPI)؛ حزمة الأدلة لا تحتوي على دلالة أصلية مؤكدة أو ترخيص سوق تايوان لهذا المنتج. يتنبأ نموذج TxGNN بالارتباط المحتمل بـ **الارتجاع المعدي الاثني عشري**، لكن هذا مدعوم حالياً فقط بـ **0 تجارب سريرية** و **2 منشور**، أحدهما دراسة حيوانية تثير تحذيراً أماناً بدلاً من إشارة فعالية العلاج.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not specified in evidence pack (no Taiwan license text available; lansoprazole is classified as a proton pump inhibitor) |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الدلالة الأصلية | غير محددة في حزمة الأدلة (لا يوجد نص ترخيص تايوان متاح؛ يتم تصنيف الانسوبرازول كمثبط مضخة البروتون) |
+| الدلالة الجديدة المتنبأ بها | الارتجاع المعدي الاثني عشري |
+| درجة التنبؤ TxGNN | 99.69% |
+| مستوى الأدلة | L5 |
+| حالة سوق تايوان | غير مسوق (غير مسوق) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | تعليق |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on known information, lansoprazole is part of the proton pump inhibitor (PPI) class, which suppresses gastric acid secretion via irreversible inhibition of the H+/K+-ATPase in gastric parietal cells; this class is broadly used for acid-related conditions such as GERD, peptic ulcer disease, and H. pylori eradication.
+حالياً، لا تتوفر بيانات مفصلة عن آلية العمل. بناءً على المعلومات المعروفة، يعتبر الانسوبرازول جزءاً من فئة مثبطات مضخة البروتون (PPI)، والتي تثبط إفراز حمض المعدة عن طريق التثبيط غير القابل للعكس لـ H+/K+-ATPase في خلايا المعدة الجدارية؛ تُستخدم هذه الفئة على نطاق واسع لحالات مرتبطة بالحمض مثل الارتجاع المريئي المعدي (GERD) وقرحة الجهاز الهضمي وعلاج H. pylori.
 
-Duodenogastric reflux involves backflow of duodenal contents (bile, pancreatic enzymes) into the stomach, and is mechanistically distinct from the acid-reflux pathology that PPIs are designed to treat. The rationale for TxGNN's prediction likely stems from shared anatomical/pathway proximity (gastroduodenal junction) rather than a direct pharmacological mechanism against bile/enzyme reflux itself.
+يتضمن الارتجاع المعدي الاثني عشري تدفقاً عكسياً لمحتويات الاثني عشر (الصفراء وإنزيمات البنكرياس) إلى المعدة، وهو يختلف من حيث الآلية عن مرض الارتجاع الحمضي الذي تم تصميم مثبطات مضخة البروتون لعلاجه. يرجع السبب في تنبؤ نموذج TxGNN على الأرجح إلى القرب التشريحي/المسار المشترك (التقاء المعدة والاثني عشر) بدلاً من آلية دوائية مباشرة ضد الارتجاع الصفراوي/الإنزيمي بحد ذاته.
 
-Notably, the available literature does not clearly support a therapeutic benefit: one identified study examined the *combined* effect of duodenogastric reflux and acid inhibition on gastric carcinogenesis in rats, rather than demonstrating efficacy of lansoprazole in treating duodenogastric reflux. This warrants caution in interpreting the TxGNN score as clinically actionable.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+وتجدر الإشارة إلى أن الأدب المتاح لا يدعم بوضوح الفائدة العلاجية: فحصت إحدى الدراسات المحددة التأثير *المدمج* للارتجاع المعدي الاثني عشري وتثبيط الحمض على التسرطن المعدي في الفئران، بدلاً من إثبات فعالية الانسوبرازول في علاج الارتجاع المعدي الاثني عشري. يتطلب هذا الحذر في تفسير درجة TxGNN كإجراء قابل للتنفيذ سريرياً.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
+
+---
+
+## أدلة الأدب العلمي
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Preclinical (animal study) | Gastric Cancer | Examined combined effect of duodenogastric reflux and acid inhibition (lansoprazole) on gastric carcinogenesis in rats; suggests lansoprazole may promote gastric carcinogenesis in the presence of duodenogastric reflux — a safety signal, not an efficacy signal |
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General review of PPI clinical use and pharmacokinetics (peptic ulcer, H. pylori, GERD, NSAID-induced GI lesions, Zollinger-Ellison syndrome); does not specifically address duodenogastric reflux |
+| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | ما قبل السريرية (دراسة حيوانية) | سرطان المعدة | فحصت التأثير المدمج للارتجاع المعدي الاثني عشري وتثبيط الحمض (الانسوبرازول) على التسرطن المعدي في الفئران؛ تشير إلى أن الانسوبرازول قد يعزز التسرطن المعدي في وجود الارتجاع المعدي الاثني عشري — إشارة أمان وليست إشارة فعالية |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | مراجعة | المجلة الأوروبية للصيدلة السريرية | مراجعة عامة للاستخدام السريري لمثبطات مضخة البروتون والحركية الدوائية (قرحة الجهاز الهضمي، H. pylori، الارتجاع المريئي المعدي، آفات الجهاز الهضمي المستحثة بالعقاقير المسكنة غير الستيرويدية، متلازمة زولينجر إليسون)؛ لا تتناول على وجه التحديد الارتجاع المعدي الاثني عشري |
 
 ---
 
-## Taiwan Market Information
+## معلومات سوق تايوان
 
-Currently no market authorization data available — lansoprazole is not marketed in Taiwan (0 licenses on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications for lansoprazole are currently a blocking data gap — see Conclusion.)*
+حالياً لا توجد بيانات تفويض سوق متاحة — الانسوبرازول غير مسوق في تايوان (0 تراخيص مسجلة).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات الأمان
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة المنتج للحصول على معلومات الأمان.
 
-**Rationale:**
-Evidence for lansoprazole in duodenogastric reflux is currently limited to model prediction plus two tangential publications — one of which flags a potential carcinogenicity risk when lansoprazole is combined with duodenogastric reflux, rather than supporting therapeutic benefit. Combined with the absence of any Taiwan market license and a blocking gap in TFDA safety data, this candidate does not meet the bar for S1 safety review.
+*(ملاحظة: تحذيرات/موانع استخدام نشرة منتج إدارة الغذاء والدواء التايوانية للانسوبرازول هي حالياً فجوة بيانات معيقة — انظر الخلاصة.)*
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data (DG002)
-- Dedicated clinical or observational studies evaluating lansoprazole specifically for duodenogastric reflux (not just co-occurring acid inhibition)
-- Clarification of the carcinogenicity signal from the 2004 rat study before any further development
-- Confirmed original indication / regulatory status for lansoprazole in Taiwan
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: تعليق**
+
+**المبرر:**
+الأدلة على فعالية الانسوبرازول في الارتجاع المعدي الاثني عشري محدودة حالياً بتنبؤ النموذج بالإضافة إلى منشورين عرضيين — أحدهما يشير إلى مخاطر محتملة للسرطنة عند دمج الانسوبرازول مع الارتجاع المعدي الاثني عشري، بدلاً من دعم الفائدة العلاجية. بالاقتران مع غياب أي ترخيص لسوق تايوان وفجوة معيقة في بيانات أمان إدارة الغذاء والدواء التايوانية، هذا المرشح لا يستوفي معايير مراجعة الأمان من المرحلة S1.
+
+**للمتابعة، ما يلي مطلوب:**
+- نشرة منتج إدارة الغذاء والدواء التايوانية (التحذيرات/موانع الاستخدام) — حالياً معيقة (DG001)
+- بيانات آلية عمل مؤكدة (DG002)
+- دراسات سريرية أو رصدية مخصصة تقيم الانسوبرازول على وجه التحديد للارتجاع المعدي الاثني عشري (وليس فقط تثبيط الحمض المتزامن)
+- توضيح إشارة السرطنة من دراسة الفئران 2004 قبل أي تطوير إضافي
+- دلالة أصلية مؤكدة / حالة تنظيمية للانسوبرازول في تايوان
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

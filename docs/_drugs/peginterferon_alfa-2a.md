@@ -29,96 +29,97 @@ indication_count: 10
 
 </div>
 
-# Peginterferon Alfa-2a: From Chronic Hepatitis C to Hepatitis B Virus Infection
+# peginterferon alfa-2a: من التهاب الكبد الفيروسي المزمن (C) إلى عدوى فيروس التهاب الكبد (B)
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Peginterferon alfa-2a is a pegylated type I interferon originally developed as combination therapy (with ribavirin) for chronic hepatitis C. The TxGNN model predicts it may also be effective for **hepatitis B virus infection (chronic hepatitis B)**, a direction already supported by **50 clinical trials** and **20 publications**, including multiple completed Phase 3/4 RCTs — this is less a novel hypothesis than a well-established use that is not yet reflected in this market's regulatory registry.
+peginterferon alfa-2a هو interferon من النوع الأول مرتبط بـ polyethylene glycol، تم تطويره في الأصل كعلاج توليفي (مع ribavirin) لالتهاب الكبد الفيروسي المزمن (C). يتوقع نموذج TxGNN أنه قد يكون فعالاً أيضاً في **عدوى فيروس التهاب الكبد (B) (التهاب الكبد الفيروسي المزمن (B))**، وهو اتجاه يدعمه بالفعل **50 تجربة سريرية** و**20 منشورة علمية**، بما في ذلك عدة دراسات عشوائية محكومة مكتملة في المرحلة 3/4 — وهذا أقل من أن يكون فرضية جديدة وأكثر من أن يكون استخداماً معروفاً لم ينعكس بعد في سجل الأدوية التنظيمي في هذا السوق.
 
 ---
 
-## Quick Overview
+## لمحة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Chronic Hepatitis C (interferon-based combination antiviral therapy; per trial records in evidence pack) |
-| Predicted New Indication | Hepatitis B Virus Infection (Chronic Hepatitis B) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستخدام الأصلي | التهاب الكبد الفيروسي المزمن (C) (العلاج المركب بـ interferon؛ وفقاً لسجلات التجارب في مجموعة الأدلة) |
+| الاستخدام المتوقع الجديد | عدوى فيروس التهاب الكبد (B) (التهاب الكبد الفيروسي المزمن (B)) |
+| درجة توقع نموذج TxGNN | 99.94% |
+| مستوى الدليل | L1 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | المضي قدماً مع الضمانات |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التوقع معقول؟
 
-Currently, a formal DrugBank mechanism-of-action record is not available (flagged as a High-severity data gap). Based on the pharmacological evidence assembled in this pack, peginterferon alfa-2a is a pegylated form of interferon alfa-2a that signals through the JAK-STAT pathway to induce interferon-stimulated genes (ISGs). In chronic hepatitis B, this activity suppresses HBV cccDNA transcription and enhances host immune-mediated clearance of infected hepatocytes — a mechanism that is already clinically established, particularly in HBeAg-positive disease.
+حالياً، لا يوجد سجل آلية عمل رسمي في DrugBank (تم وضع علامة عليه باعتباره فجوة بيانات بدرجة عالية). بناءً على الأدلة الصيدلانية المجمعة في هذه المجموعة، peginterferon alfa-2a هو شكل مرتبط بـ polyethylene glycol من interferon alfa-2a الذي ينقل الإشارات عبر مسار JAK-STAT لتحفيز الجينات المستحثة بـ interferon (ISGs). في التهاب الكبد الفيروسي المزمن (B)، يثبط هذا النشاط نسخ HBV cccDNA ويعزز تخليص العائل من الخلايا الكبدية المصابة بالوساطة المناعية — وهي آلية تم إرسالها سريرياً بالفعل، خاصة في المرض الإيجابي لـ HBeAg.
 
-Chronic hepatitis C and chronic hepatitis B are both viral hepatidities where interferon's broad antiviral/immunomodulatory activity is directly applicable, since the drug does not depend on virus-specific targets the way direct-acting antivirals do. In fact, peginterferon alfa-2a (marketed globally as Pegasys) is already an approved therapy for chronic hepatitis B in many jurisdictions; the "prediction" here largely reflects an indication that exists elsewhere but is not present in this market's regulatory dataset (0 local authorizations).
+التهاب الكبد الفيروسي المزمن (C) والتهاب الكبد الفيروسي المزمن (B) كلاهما من التهابات الكبد الفيروسية حيث يكون نشاط interferon الواسع المضاد للفيروسات/معدل المناعة قابلاً للتطبيق مباشرة، لأن الدواء لا يعتمد على أهداف محددة للفيروس بالطريقة التي تعتمد عليها مضادات الفيروسات ذات التأثير المباشر. في الواقع، peginterferon alfa-2a (يسوق عالمياً باسم Pegasys) هو بالفعل علاج معتمد لالتهاب الكبد الفيروسي المزمن (B) في العديد من الولايات القضائية؛ وينعكس «التنبؤ» هنا في الغالب استخداماً موجوداً بالفعل في أماكن أخرى ولكن غير موجود في مجموعة البيانات التنظيمية في هذا السوق (0 تراخيص محلية).
 
-This is further reinforced by the depth of clinical evidence: multiple completed Phase 3 and Phase 4 randomized trials — including a landmark 2005 NEJM registration trial in HBeAg-positive CHB — establish HBsAg/HBeAg seroconversion and viral suppression as reproducible outcomes, giving this prediction an unusually strong evidentiary base compared to typical TxGNN candidates.
+يتم تعزيز هذا بشكل أكبر من خلال عمق الأدلة السريرية: دراسات عشوائية محكومة متعددة مكتملة في المرحلة 3 والمرحلة 4 — بما في ذلك تجربة تسجيل معالمية في 2005 من NEJM في HBeAg-positive CHB — تؤسس تحويل HBsAg/HBeAg وقمع الفيروسات كنتائج قابلة للتكرار، مما يعطي هذا التنبؤ أساساً إثباتياً قوياً بشكل استثنائي مقارنة بمرشحي TxGNN النموذجيين.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT00291616](https://clinicaltrials.gov/study/NCT00291616) | Phase 4 | Completed | 52 | RCT comparing thymosin alpha 1 + peginterferon alfa-2a vs. peginterferon alfa-2a alone in HBeAg-positive CHB; determined optimal antiviral treatment duration |
-| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | Phase 2b | Completed | 76 | Single-arm add-on of Pegasys to nucleos(t)ide analogue therapy in HBeAg-negative genotype D CHB with stable HBV DNA suppression |
-| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Phase 3 | Completed | 17 | Immunology substudy of Pegasys in HBeAg-negative CHB; longitudinal HBV-specific T-cell response analysis |
-| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Phase 4 | Completed | 307 | Efficacy and safety of Pegasys in naive/interferon- or lamivudine-pretreated HBeAg-positive CHB patients |
-| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Phase 3 | Completed | 138 | PARC study: PEG-IFN + ribavirin vs. PEG-IFN monotherapy for 1 year in HBeAg-negative CHB |
-| [NCT02598063](https://clinicaltrials.gov/study/NCT02598063) | Phase 4 | Completed | 255 | Peginterferon alfa-2a vs. adefovir dipivoxil in lamivudine-resistant HBeAg-positive CHB |
-| [NCT01730508](https://clinicaltrials.gov/study/NCT01730508) | N/A (observational) | Completed | 978 | Multicenter prospective cohort of Pegasys use in Chinese HBeAg-negative CHB patients under real-world labeling |
-| [NCT00927082](https://clinicaltrials.gov/study/NCT00927082) | Phase 4 | Completed | 383 | Long-term post-treatment follow-up (NEPTUNE study) of Pegasys in HBeAg-positive CHB |
-| [NCT02201407](https://clinicaltrials.gov/study/NCT02201407) | N/A (observational) | Completed | 50 | PRO B study: real-world effectiveness of standard-of-care peginterferon alfa-2a in CHB |
-| [NCT01519921](https://clinicaltrials.gov/study/NCT01519921) | Phase 4 | Completed | 150 | Efficacy and safety of Pegasys in treatment-naive vs. YMDD-mutant HBeAg-positive CHB patients |
+| [NCT00291616](https://clinicaltrials.gov/study/NCT00291616) | المرحلة 4 | مكتملة | 52 | دراسة عشوائية محكومة تقارن thymosin alpha 1 + peginterferon alfa-2a مقابل peginterferon alfa-2a وحده في HBeAg-positive CHB؛ تحدد مدة العلاج المضاد للفيروسات الأمثل |
+| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | المرحلة 2b | مكتملة | 76 | إضافة أحادية الذراع من Pegasys إلى العلاج بمثبطات nucleos(t)ide في HBeAg-negative genotype D CHB مع قمع HBV DNA المستقر |
+| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | المرحلة 3 | مكتملة | 17 | دراسة فرعية للمناعة من Pegasys في HBeAg-negative CHB؛ تحليل استجابة الخلايا التائية المتخصصة في HBV الطولي |
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | المرحلة 4 | مكتملة | 307 | فعالية وسلامة Pegasys في المرضى الساذجين/المعالجين بـ interferon أو lamivudine HBeAg-positive CHB |
+| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | المرحلة 3 | مكتملة | 138 | دراسة PARC: PEG-IFN + ribavirin مقابل وحيد العلاج بـ PEG-IFN لمدة سنة واحدة في HBeAg-negative CHB |
+| [NCT02598063](https://clinicaltrials.gov/study/NCT02598063) | المرحلة 4 | مكتملة | 255 | peginterferon alfa-2a مقابل adefovir dipivoxil في lamivudine-resistant HBeAg-positive CHB |
+| [NCT01730508](https://clinicaltrials.gov/study/NCT01730508) | غير متاح (ملاحظة) | مكتملة | 978 | مجموعة متعددة المراكز محتملة من استخدام Pegasys في مرضى HBeAg-negative CHB الصينيين تحت التوسيم في العالم الفعلي |
+| [NCT00927082](https://clinicaltrials.gov/study/NCT00927082) | المرحلة 4 | مكتملة | 383 | متابعة طويلة الأمد بعد العلاج (دراسة NEPTUNE) من Pegasys في HBeAg-positive CHB |
+| [NCT02201407](https://clinicaltrials.gov/study/NCT02201407) | غير متاح (ملاحظة) | مكتملة | 50 | دراسة PRO B: فعالية معيار الرعاية الفعلية من peginterferon alfa-2a في CHB |
+| [NCT01519921](https://clinicaltrials.gov/study/NCT01519921) | المرحلة 4 | مكتملة | 150 | فعالية وسلامة Pegasys في المرضى الساذجين للعلاج مقابل HBeAg-positive CHB من mutant YMDD |
 
 ---
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | New England Journal of Medicine | Landmark registration trial: peginterferon alfa-2a ± lamivudine vs. lamivudine alone in HBeAg-positive CHB |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | RCT | Hepatology | Entecavir + peginterferon alfa-2a combination in HBeAg-positive immune-tolerant CHB (pediatric) |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entecavir + peginterferon alfa-2a in HBeAg-positive immune-tolerant CHB (adult) |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematic Review / IPD Meta-analysis | Antiviral Therapy | Individual-participant meta-analysis defining peginterferon stopping rules in CHB |
-| [31064399](https://pubmed.ncbi.nlm.nih.gov/31064399/) | 2019 | Cohort | Virology Journal | Serum HBV RNA levels as predictor of HBeAg seroconversion during peginterferon therapy |
-| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Review | JAMA | Overview of chronic HBV infection natural history and treatment options |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Review | Nature Reviews Gastroenterology & Hepatology | Review of hepatitis B treatment goals and response monitoring |
-| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | RCT (large multinational Phase 3) | Hepatology | HBeAg/HBV DNA as outcome predictors during peginterferon alfa-2a therapy (n=271) |
-| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | Cohort | Journal of the Formosan Medical Association | Virological/immunological predictors of long-term outcomes after peginterferon in HBeAg-negative CHB |
-| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | RCT | Journal of Pediatric Gastroenterology and Nutrition | Peginterferon alfa-2a + lamivudine or entecavir in children with immune-tolerant CHB |
+| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | دراسة عشوائية محكومة | New England Journal of Medicine | تجربة تسجيل معالمية: peginterferon alfa-2a ± lamivudine مقابل lamivudine وحده في HBeAg-positive CHB |
+| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | دراسة عشوائية محكومة | Hepatology | مركب entecavir + peginterferon alfa-2a في HBeAg-positive immune-tolerant CHB (الأطفال) |
+| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | دراسة عشوائية محكومة | Hepatology | entecavir + peginterferon alfa-2a في HBeAg-positive immune-tolerant CHB (البالغين) |
+| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | مراجعة منهجية / تحليل بيانات المشاركين | Antiviral Therapy | تحليل بيانات المشاركين الفردية يحدد قواعد إيقاف peginterferon في CHB |
+| [31064399](https://pubmed.ncbi.nlm.nih.gov/31064399/) | 2019 | دراسة بالمتابعة | Virology Journal | مستويات HBV RNA في المصل كمتنبئ لـ HBeAg seroconversion أثناء العلاج بـ peginterferon |
+| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | مراجعة | JAMA | نظرة عامة على التاريخ الطبيعي لعدوى HBV المزمنة وخيارات العلاج |
+| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | مراجعة | Nature Reviews Gastroenterology & Hepatology | مراجعة لأهداف العلاج من التهاب الكبد (B) والمراقبة استجابة |
+| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | دراسة عشوائية محكومة (مرحلة 3 متعددة جنسيات واسعة) | Hepatology | HBeAg/HBV DNA كمتنبئات النتائج أثناء العلاج بـ peginterferon alfa-2a (n=271) |
+| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | دراسة بالمتابعة | Journal of the Formosan Medical Association | المتنبئات الفيروسية/المناعية للنتائج طويلة الأمد بعد peginterferon في HBeAg-negative CHB |
+| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | دراسة عشوائية محكومة | Journal of Pediatric Gastroenterology and Nutrition | peginterferon alfa-2a + lamivudine أو entecavir في الأطفال الذين يعانون من immune-tolerant CHB |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق في المملكة العربية السعودية
 
-Peginterferon alfa-2a currently has **no market authorization on file in Saudi Arabia** (0 licenses recorded; market status: Not Marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+peginterferon alfa-2a حالياً ليس لديه تصريح تسويق على ملف في المملكة العربية السعودية (0 تراخيص مسجلة؛ حالة السوق: غير مسوق).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة المعلومات للحصول على معلومات السلامة.
 
-**Rationale:**
-Evidence strength is high (L1) — multiple completed Phase 3/4 RCTs, including a landmark NEJM registration trial, support peginterferon alfa-2a's efficacy in chronic hepatitis B, and this use is already an established indication for the product (Pegasys) in other markets. However, the drug is currently unregistered in Saudi Arabia and a formal safety/warnings dataset is missing, so this cannot yet clear a full S1 safety review.
+---
 
-**To proceed, the following is needed:**
-- SFDA-equivalent package insert with warnings, precautions, and contraindications (currently a Blocking data gap)
-- Confirmed DrugBank mechanism-of-action record
-- Formal drug-drug interaction (DDI) review (current query returned no results)
-- Confirmation of local market entry/registration pathway for this indication in Saudi Arabia
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع الضمانات**
+
+**المنطق:**
+قوة الدليل عالية (L1) — دراسات عشوائية محكومة متعددة مكتملة من المرحلة 3/4، بما في ذلك تجربة تسجيل معالمية من NEJM، تدعم فعالية peginterferon alfa-2a في التهاب الكبد الفيروسي المزمن (B)، وهذا الاستخدام هو بالفعل استخدام معروف للمنتج (Pegasys) في أسواق أخرى. ومع ذلك، الدواء غير مسجل حالياً في المملكة العربية السعودية وتم فقدان مجموعة بيانات الأمان/التحذيرات الرسمية، لذا لا يمكن لهذا أن يزيل مراجعة الأمان الكاملة S1 بعد.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة معلومات معادلة SFDA مع تحذيرات واحتياطات وموانع استعمال (حالياً فجوة بيانات محظورة)
+- سجل آلية عمل معروف مؤكد من DrugBank
+- مراجعة رسمية لتفاعلات الأدوية بالأدوية (DDI) (الاستعلام الحالي لم يرجع نتائج)
+- تأكيد مسار دخول السوق المحلي/التسجيل لهذا الاستخدام في المملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

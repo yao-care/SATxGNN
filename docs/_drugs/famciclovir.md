@@ -29,97 +29,98 @@ indication_count: 9
 
 </div>
 
-# Famciclovir: From Herpes Zoster (VZV Infection) to Post-Infectious Neuralgia
+# Famciclovir: من الهربس النطاقي (عدوى VZV) إلى الألم العصبي بعد العدوى
 
-## One-Sentence Summary
+## ملخص موجز
 
-Famciclovir is the oral prodrug of penciclovir, an antiviral established for varicella-zoster virus (VZV) infections such as herpes zoster and chickenpox. The TxGNN model's top-ranked new-indication prediction is **Post-Infectious Neuralgia** (score 99.75%), but the two identified clinical trials test pain-management interventions during acute herpes zoster rather than famciclovir itself, and **no supporting literature** was retrieved — the signal is currently mechanistic/indirect only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Herpes Zoster / VZV infection (inferred from repurposing rationale; formal Taiwan license text unavailable — see note below) |
-| Predicted New Indication | Post-Infectious Neuralgia |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-> Note: `taiwan_regulatory.licenses` and `drug.original_indications` are both empty in this evidence pack — famciclovir is not currently marketed in Taiwan, so no local approved-indication text exists. The "Original Indication" above is drawn from the drug's own repurposing-rationale text (VZV/herpes zoster), not from a formal license record.
+Famciclovir هو الدواء السلف (prodrug) لـ penciclovir، وهو دواء مضاد للفيروسات مثبت لعلاج عدوى فيروس جدري الماء النطاقي (VZV) مثل الهربس النطاقي والجدري المائي. يتنبأ نموذج TxGNN برتبة عالية بمؤشر جديد هو **الألم العصبي بعد العدوى** (درجة 99.75%)، لكن التجارب السريرية المحددة تختبر تدخلات إدارة الألم أثناء الهربس النطاقي الحاد بدلاً من famciclovir نفسه، و**لم يتم العثور على أي أدلة من الدراسات المنشورة** - الإشارة حالياً ذات طبيعة آلية/غير مباشرة فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Detailed mechanism-of-action data (`drug.original_moa`) is flagged as a data gap (DG002, High severity, not yet confirmed via a direct DrugBank query). Based on the mechanistic reasoning embedded in this evidence pack, famciclovir is the prodrug of penciclovir: it is phosphorylated by virus-specific thymidine kinase into penciclovir triphosphate, which inhibits VZV/HSV DNA polymerase and blocks viral replication. Its established core use is treatment of VZV infections (herpes zoster and, in some formulations, chickenpox).
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | الهربس النطاقي / عدوى VZV (مستدل من منطق إعادة الاستخدام؛ نص الترخيص الرسمي في تايوان غير متاح - انظر الملاحظة أدناه) |
+| المؤشر الجديد المتنبأ به | الألم العصبي بعد العدوى |
+| درجة تنبؤ TxGNN | 99.75% |
+| مستوى الدليل | L4 |
+| حالة السوق في تايوان | لم يتم تسويقه (Not Marketed) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | Hold |
 
-Post-infectious neuralgia — specifically postherpetic neuralgia (PHN) — is a well-recognized complication of herpes zoster, arising from VZV-induced nerve damage during the acute infection. Because famciclovir shortens the acute VZV disease course, there is a plausible mechanistic pathway by which earlier/adequate antiviral treatment could reduce the incidence or severity of PHN. However, the two trials surfaced by this search do not test famciclovir directly — they evaluate oxycodone and nerve-block/radiofrequency techniques for zoster-associated pain — so this remains a research hypothesis rather than a demonstrated repurposing signal.
+> ملاحظة: `taiwan_regulatory.licenses` و `drug.original_indications` كلاهما فارغ في هذه مجموعة الأدلة - famciclovir غير مسوق حالياً في تايوان، لذا لا يوجد نص مؤشر معتمد محلي. "المؤشر الأصلي" أعلاه مستمد من نص منطق إعادة الاستخدام للدواء نفسه (VZV/الهربس النطاقي)، وليس من سجل ترخيص رسمي.
 
 ---
 
-## Clinical Trial Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بيانات آلية التأثير الأصلية (`drug.original_moa`) تم تحديدها كفجوة في البيانات (DG002، شدة عالية، لم يتم تأكيدها حتى الآن عبر استعلام DrugBank مباشر). بناءً على الاستدلال الآلي المدرج في هذه مجموعة الأدلة، famciclovir هو الدواء السلف لـ penciclovir: يتم تفسفره بواسطة ثايميدين كيناز الفيروسي إلى ثلاثي فوسفات penciclovir، الذي يمنع بوليميراز DNA الخاص بـ VZV/HSV ويوقف تكاثر الفيروس. استخدامه الأساسي المثبت هو علاج عدوى VZV (الهربس النطاقي وفي بعض الصيغ الجدري المائي).
+
+الألم العصبي بعد العدوى - وتحديداً الألم العصبي بعد الهربس النطاقي (PHN) - هو مضاعفة معروفة جيداً للهربس النطاقي، تنشأ من تلف الأعصاب الناجم عن VZV أثناء العدوى الحادة. نظراً لأن famciclovir يقلل من مسار مرض VZV الحاد، هناك مسار آلي معقول بحيث يمكن للعلاج المضاد للفيروسات المبكر/الكافي أن يقلل من حدوث أو شدة PHN. ومع ذلك، التجارب المحددة في هذا البحث لا تختبر famciclovir مباشرة - فهي تقيم oxycodone وتقنيات حقن العصب/التردد اللاسلكي لألم الهربس النطاقي - لذا يظل هذا فرضية بحثية بدلاً من إشارة إعادة استخدام موثقة.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | عدد المسجلين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | NA | Unknown | 140 | Tests early oxycodone use during acute herpes zoster to prevent PHN; does **not** test famciclovir — indirect population overlap only (Grade C). |
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | NA | Not Yet Recruiting | 120 | Evaluates multimodal nerve block and pulsed radiofrequency for acute herpes zoster pain; non-antiviral intervention, does not evaluate famciclovir (Grade C). |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | NA | Unknown | 140 | تختبر الاستخدام المبكر لـ oxycodone أثناء الهربس النطاقي الحاد لمنع PHN؛ **لا تختبر** famciclovir - تداخل السكان غير المباشر فقط (الدرجة C). |
+| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | NA | Not Yet Recruiting | 120 | تقيم حقن العصب متعدد الأنماط والتردد اللاسلكي النابض لألم الهربس النطاقي الحاد؛ تدخل غير مضاد للفيروسات، لا تقيم famciclovir (الدرجة C). |
 
 ---
 
-## Literature Evidence
+## أدلة الدراسات المنشورة
 
-Currently no related literature available.
-
----
-
-## Taiwan Market Information
-
-Famciclovir is currently **not marketed** in Taiwan (0 licenses on record). The TFDA package-insert warnings/contraindications lookup (DG001) is flagged as a **Blocking** data gap, meaning a formal safety pre-assessment (S1) cannot proceed until this is resolved.
+لا توجد أدلة من الدراسات المنشورة متاحة حالياً.
 
 ---
 
-## Other TxGNN-Predicted Indications Screened
+## معلومات سوق تايوان
 
-This evidence pack screened 9 candidate indications for famciclovir. For context, the remaining 8 are summarized below:
+Famciclovir غير مسوق حالياً في تايوان (0 ترخيص في السجل). بحث تحذيرات/موانع استعمال نشرة الحزمة من TFDA (DG001) تم تحديده كفجوة بيانات **محجوبة**، مما يعني أنه لا يمكن المتابعة بتقييم السلامة الرسمي (S1) حتى يتم حل هذا.
 
-| Rank | Disease | Evidence Level | Recommendation | Note |
+---
+
+## مؤشرات TxGNN الأخرى المتنبأ بها التي تم فحصها
+
+فحصت هذه مجموعة الأدلة 9 مؤشرات مرشحة لـ famciclovir. للسياق، يتم تلخيص الـ 8 المتبقية أدناه:
+
+| الترتيب | المرض | مستوى الدليل | التوصية | ملاحظة |
 |------|---------|----------------|-----------------|------|
-| 2 | Sequela of COVID-19 | L5 | Hold | No mechanistic plausibility (famciclovir has no known anti-SARS-CoV-2 activity); only literature hit is an unrelated herpes-zoster formulation study — assessed as a TxGNN false positive. |
-| 3 | Hepatitis C-induced liver cirrhosis | L5 | Hold | HCV replication does not depend on viral thymidine kinase; literature hit is a general HBV/HCV review that does not discuss famciclovir — assessed as a false positive. |
-| 4 | Malignant pleural mesothelioma | L5 | Hold | No trials, no literature, no known mechanism — assessed as a TxGNN embedding false positive. |
-| 5 | AIDS-related disorder | **L3** | Research Question | HIV/AIDS patients commonly develop opportunistic HSV/VZV/HHV-8 infections that famciclovir is pharmacologically suited to treat; 6 supporting papers (incl. one cohort study), but none is a dedicated RCT for this broad disease label. |
-| 6 | Malignant epithelioid mesothelioma | L5 | Hold | No trials, no literature — assessed as a false positive. |
-| 7 | Chickenpox | **L1** | Proceed with Guardrails | Strongest evidence in the pack (a completed Phase 3 RCT vs. aciclovir, a pediatric Phase 3 PK/safety study, 20 literature hits) — but this reflects famciclovir's existing core VZV indication, not a genuinely novel repurposing target. |
-| 8 | Sarcomatoid mesothelioma | L5 | Hold | No trials, no literature — assessed as a false positive. |
-| 9 | Malignant visceral pleura tumor | L5 | Hold | No trials, no literature — assessed as a false positive. |
+| 2 | متسلسلات COVID-19 | L5 | Hold | لا توجد معقولية آلية (famciclovir ليس لديه نشاط مضاد معروف لـ SARS-CoV-2)؛ النتيجة الأدبية الوحيدة هي دراسة صيغة الهربس النطاقي غير ذات الصلة - تم تقييمها كإيجابية خاطئة لـ TxGNN. |
+| 3 | تليف الكبد الناجم عن التهاب الكبد C | L5 | Hold | تكاثر HCV لا يعتمد على ثايميدين كيناز الفيروسي؛ النتيجة الأدبية هي مراجعة عامة لـ HBV/HCV لا تناقش famciclovir - تم تقييمها كإيجابية خاطئة. |
+| 4 | الورم الظهاني الخبيث بالجنب | L5 | Hold | لا توجد تجارب، لا أدب، لا آلية معروفة - تم تقييمها كإيجابية خاطئة لـ TxGNN. |
+| 5 | الاضطرابات المرتبطة بالإيدز | **L3** | سؤال بحثي | يصاب مرضى HIV/AIDS عادة بعدوى انتهازية HSV/VZV/HHV-8 التي يناسب famciclovir لمعالجتها دوائياً؛ 6 أوراق داعمة (تشمل دراسة جماعية واحدة)، لكن لا أحد منها RCT مخصص لهذا تصنيف المرض العام. |
+| 6 | الورم الظهاني الظهاري الخبيث | L5 | Hold | لا توجد تجارب، لا أدب - تم تقييمها كإيجابية خاطئة. |
+| 7 | الجدري المائي | **L1** | المتابعة مع الحماية | أقوى دليل في الحزمة (RCT مكتمل في المرحلة 3 مقابل aciclovir، دراسة حرائك الدواء/السلامة للأطفال في المرحلة 3، 20 نتيجة أدبية) - لكن هذا يعكس مؤشر VZV الأساسي الموجود لـ famciclovir، وليس هدف إعادة استخدام جديد بحق. |
+| 8 | الورم الظهاني السرطاني الخبيث | L5 | Hold | لا توجد تجارب، لا أدب - تم تقييمها كإيجابية خاطئة. |
+| 9 | ورم الجنب الحشوي الخبيث | L5 | Hold | لا توجد تجارب، لا أدب - تم تقييمها كإيجابية خاطئة. |
 
-Six of the nine candidates (all mesothelioma variants, HCV cirrhosis, and COVID-19 sequela) are explicitly judged in this evidence pack as mechanistically implausible TxGNN false positives. Only three carry genuine signal: post-infectious neuralgia (headline candidate above, L4), AIDS-related disorder (L3, worth a separate research track), and chickenpox (L1, but represents label extension of an existing use rather than repurposing).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA package-insert warnings/contraindications lookup is currently a Blocking data gap — DG001.)
+ستة من المرشحات التسعة (جميع متغيرات الورم الظهاني وتليف الكبد الناجم عن HCV ومتسلسلات COVID-19) يتم الحكم عليها بشكل صريح في هذه مجموعة الأدلة كإيجابيات خاطئة معقولة آلياً غير معقولة. فقط ثلاثة يحملون إشارة حقيقية: الألم العصبي بعد العدوى (مرشح الفرضية أعلاه، L4)، الاضطرابات المرتبطة بالإيدز (L3، يستحق مسار بحثي منفصل)، والجدري المائي (L1، لكن يمثل امتداد الاستطباب لاستخدام موجود بدلاً من إعادة استخدام).
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (بحث تحذيرات/موانع استعمال نشرة الحزمة من TFDA غير متاح حالياً - DG001.)
 
-**Rationale:**
-The top-ranked candidate indication (post-infectious neuralgia) has a plausible mechanistic rationale but no trial or literature evidence that directly tests famciclovir against this outcome — both available trials study non-antiviral interventions in the same patient population. Combined with the Blocking safety data gap (TFDA package insert unavailable) and famciclovir being unmarketed in Taiwan, this candidate is not ready to advance past a research question.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA package insert warnings/contraindications) — currently Blocking
-- Resolve DG002 (confirmed MOA via direct DrugBank API query)
-- A dedicated trial or observational study testing famciclovir specifically for PHN prevention/reduction (vs. current indirect pain-management trials)
-- Separate evaluation of the AIDS-related-disorder track (L3, rank 5), which has stronger literature support and may merit its own research pathway
-- Regulatory/market-entry assessment if any candidate advances, given famciclovir currently has zero licenses in Taiwan
+## الخلاصة والخطوات التالية
+
+**القرار: Hold**
+
+**المبرر:**
+المؤشر الأفضل المصنف (الألم العصبي بعد العدوى) لديه أساس آلي معقول لكن لا توجد أدلة تجريبية أو أدبية تختبر famciclovir مباشرة ضد هذه النتيجة - كلا التجارب المتاحة تدرس تدخلات غير مضادة للفيروسات في نفس مجموعة السكان المرضى. عند الجمع مع فجوة بيانات السلامة المحجوبة (نشرة حزمة TFDA غير متاحة) و famciclovir غير مسوق في تايوان، هذا المرشح لم يكن جاهزاً للتقدم بعد سؤال بحثي.
+
+**للمتابعة، يلزم ما يلي:**
+- حل DG001 (تحذيرات/موانع استعمال نشرة حزمة TFDA) - محجوب حالياً
+- حل DG002 (تأكيد آلية التأثير عبر استعلام DrugBank API مباشر)
+- تجربة مخصصة أو دراسة رصدية تختبر famciclovir على وجه التحديد لمنع/تقليل PHN (مقابل تجارب إدارة الألم غير المباشرة الحالية)
+- تقييم منفصل لمسار الاضطرابات المرتبطة بالإيدز (L3، الترتيب 5)، الذي يحتوي على دعم أدبي أقوى وقد يستحق مساره البحثي الخاص
+- تقييم تنظيمي/دخول السوق إذا تقدم أي مرشح، نظراً لأن famciclovir حالياً يحتوي على صفر ترخيص في تايوان
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

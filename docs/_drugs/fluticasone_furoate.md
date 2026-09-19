@@ -29,74 +29,75 @@ indication_count: 8
 
 </div>
 
-# Fluticasone Furoate: From Asthma to Atopic Eczema
+# فلوتيكاسون فوروات: من الربو إلى الأكزيما الأتوبية
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Fluticasone furoate is a corticosteroid whose furoate monotherapy (Arnuity Ellipta) is globally approved for asthma, with combination products (Relvar/Breo Ellipta, +vilanterol) approved for COPD; it is not currently marketed in Saudi Arabia. The TxGNN model predicts it may be effective for **Atopic Eczema**, with **12 clinical trials** and **2 publications** currently associated with this direction — though most of the trial evidence involves fluticasone **propionate**, not furoate itself.
+فلوتيكاسون فوروات هو كورتيكوستيرويد توافق عليه كعلاج وحيد بالفوروات (Arnuity Ellipta) عالميًا للربو، مع منتجات مركبة (Relvar/Breo Ellipta، +vilanterol) موافق عليها للانسداد الرئوي المزمن؛ وهو غير مسوق حاليًا في المملكة العربية السعودية. يتنبأ نموذج TxGNN بأنه قد يكون فعالًا في **الأكزيما الأتوبية**، مع **12 تجربة سريرية** و **منشورين** مرتبطين حاليًا بهذا الاتجاه — على الرغم من أن معظم أدلة التجارب تتضمن فلوتيكاسون **بروبيونات**، وليس الفوروات نفسه.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Asthma (global approval, e.g. Arnuity Ellipta; not marketed in Saudi Arabia) |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | الربو (موافقة عالمية، مثل Arnuity Ellipta؛ غير مسوق في المملكة العربية السعودية) |
+| الاستطباب الجديد المتنبأ به | الأكزيما الأتوبية |
+| درجة التنبؤ من TxGNN | 99.98% |
+| مستوى الدليل | L3 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التراخيص | 0 |
+| القرار الموصى به | انتظار |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed mechanism of action data for fluticasone furoate is not available in this evidence pack. Based on known information, fluticasone furoate is a synthetic trifluorinated corticosteroid in the same pharmacological class as fluticasone propionate. It acts as a glucocorticoid receptor agonist, producing potent local anti-inflammatory and anti-allergic effects. Its efficacy in asthma (as furoate monotherapy, Arnuity Ellipta) and in COPD (combined with vilanterol, Relvar/Breo Ellipta) has been established, which supports a plausible mechanistic extension to other corticosteroid-responsive inflammatory conditions.
+بيانات آلية العمل التفصيلية لفلوتيكاسون فوروات غير متاحة في حزمة الأدلة هذه. بناءً على المعلومات المعروفة، فلوتيكاسون فوروات هو كورتيكوستيرويد اصطناعي ثلاثي الفلور في نفس الفئة الدوائية مثل فلوتيكاسون بروبيونات. يعمل كمحفز لمستقبل الجلوكوكورتيكويد، مما ينتج عنه تأثيرات قوية مضادة للالتهاب والحساسية محليًا. تم إثبات فعاليته في الربو (كعلاج وحيد بالفوروات، Arnuity Ellipta) وفي الانسداد الرئوي المزمن (مدمج مع vilanterol، Relvar/Breo Ellipta)، وهذا يدعم امتدادًا آليًا معقولًا لحالات التهابية أخرى قابلة للاستجابة للكورتيكوستيرويد.
 
-Atopic eczema is a chronic, corticosteroid-responsive inflammatory skin disease, and topical corticosteroids are standard first-line therapy. This makes a class-level mechanistic link between fluticasone furoate and atopic eczema reasonable.
+الأكزيما الأتوبية هي مرض التهابي جلدي مزمن قابل للاستجابة للكورتيكوستيرويد، والكورتيكوستيرويدات الموضعية هي العلاج المعياري من الدرجة الأولى. وهذا يجعل الارتباط الآلي على مستوى الفئة بين فلوتيكاسون فوروات والأكزيما الأتوبية معقولًا.
 
-However, the supporting evidence in this pack has an important caveat: nearly all identified trials use fluticasone **propionate** formulations (e.g., Cutivate cream/lotion 0.05%) rather than furoate. Furoate currently lacks a dedicated topical dermatological formulation and has no direct clinical trials in atopic eczema — the evidence here should be read as same-class inference, not molecule-specific proof.
+ومع ذلك، فإن الأدلة المدعومة في هذه الحزمة لها تحفظ مهم: جميع التجارب المحددة تقريبًا تستخدم فلوتيكاسون **بروبيونات** (مثل كريم/لوشن Cutivate 0.05%) وليس الفوروات. الفوروات حاليًا يفتقد صيغة موضعية متخصصة في الجلديات ويفتقد أي تجارب سريرية مباشرة في الأكزيما الأتوبية — يجب قراءة الأدلة هنا كاستدلال على مستوى نفس الفئة، وليس إثبات خاص بالجزيء.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Terminated | 54 | Twice-weekly topical fluticasone propionate 0.05% maintenance vs. emollient alone to prevent AD relapse in children; terminated early. |
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Completed | 56 | Open-label study of Cutivate (fluticasone propionate) lotion 0.05% and its effect on the HPA axis in pediatric AD. |
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Completed | 121 | Pilot RCT comparing non-steroidal EpiCeram device vs. mid-strength fluticasone propionate 0.05% in pediatric moderate-to-severe AD. |
-| [NCT00426283](https://clinicaltrials.gov/study/NCT00426283) | Phase 2 | Completed | 42 | Double-blind RCT of swallowed high-dose fluticasone propionate vs. placebo in eosinophilic esophagitis (allergic/eosinophilic mechanism, not skin AD). |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Completed | 107 | Open-label RCT of intermittent twice-weekly fluticasone propionate 0.05% cream plus moisturizer to reduce AD relapse risk in children. |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Completed | 487 | RCT comparing tacrolimus 0.03% vs. fluticasone 0.005% ointment in children ≥2 years with moderate-to-severe AD. |
-| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | N/A | Completed | 40 | Double-blind RCT comparing topical crisaborole 2% vs. fluticasone propionate 0.05% in children with mild-to-moderate AD (SCORAD/ISGA endpoints). |
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Completed | 577 | RCT comparing tacrolimus 0.1% vs. fluticasone 0.005% ointment in adults with facial ("red face") AD lesions. |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | Proactive skin-barrier care (including proactive fluticasone propionate cream) vs. reactive therapy to reduce AD onset/severity and prevent food allergy in infants. |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Completed | 90 | Vehicle-controlled paired study of pimecrolimus (Elidel) 1% combined with fluticasone propionate (Cutivate) 0.05% in severe AD lesions. |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|-------|--------|---------|---------|
+| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | المرحلة 3 | متوقفة | 54 | مرتين أسبوعيًا فلوتيكاسون بروبيونات موضعي 0.05% صيانة مقابل مرطب وحده لمنع انتكاس التهاب الجلد التأتبي لدى الأطفال؛ توقفت مبكرًا. |
+| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | المرحلة 4 | مكتملة | 56 | دراسة مفتوحة التسمية لـ Cutivate (فلوتيكاسون بروبيونات) لوشن 0.05% وتأثيره على محور HPA لدى الأطفال ذوي التهاب الجلد التأتبي. |
+| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | المرحلة 4 | مكتملة | 121 | دراسة تجريبية عشوائية مقارنة جهاز EpiCeram غير الستيرويدي مقابل فلوتيكاسون بروبيونات متوسط القوة 0.05% لدى الأطفال ذوي التهاب الجلد التأتبي المتوسط إلى الشديد. |
+| [NCT00426283](https://clinicaltrials.gov/study/NCT00426283) | المرحلة 2 | مكتملة | 42 | دراسة عشوائية عمياء مزدوجة لفلوتيكاسون بروبيونات عالي الجرعة المبتلع مقابل الدواء الوهمي في التهاب المريء الحمضي (آلية حساسية/حمضية، وليس التهاب الجلد التأتبي الجلدي). |
+| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | المرحلة 4 | مكتملة | 107 | دراسة عشوائية مفتوحة التسمية لفلوتيكاسون بروبيونات 0.05% كريم مرتين أسبوعيًا بشكل متقطع زائد مرطب لتقليل خطر انتكاس التهاب الجلد التأتبي لدى الأطفال. |
+| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | المرحلة 4 | مكتملة | 487 | دراسة عشوائية مقارنة tacrolimus 0.03% مقابل فلوتيكاسون 0.005% مرهم لدى الأطفال ≥2 سنوات مع التهاب الجلد التأتبي المتوسط إلى الشديد. |
+| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | غير محدد | مكتملة | 40 | دراسة عشوائية عمياء مزدوجة مقارنة crisaborole الموضعي 2% مقابل فلوتيكاسون بروبيونات 0.05% لدى الأطفال ذوي التهاب الجلد التأتبي الخفيف إلى المتوسط (نقاط SCORAD/ISGA). |
+| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | المرحلة 4 | مكتملة | 577 | دراسة عشوائية مقارنة tacrolimus 0.1% مقابل فلوتيكاسون 0.005% مرهم لدى البالغين مع آفات التهاب الجلد التأتبي الوجهي ("الوجه الأحمر"). |
+| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | المرحلة 2 | نشط، لا يتم التجنيد | 398 | رعاية حاجز الجلد الاستباقية (بما في ذلك كريم فلوتيكاسون بروبيونات استباقي) مقابل العلاج التفاعلي لتقليل ظهور/شدة التهاب الجلد التأتبي ومنع الحساسية الغذائية لدى الرضع. |
+| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | المرحلة 4 | مكتملة | 90 | دراسة مقرونة خاضعة للمركبة من pimecrolimus (Elidel) 1% مدمج مع فلوتيكاسون بروبيونات (Cutivate) 0.05% في آفات التهاب الجلد التأتبي الشديدة. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Cohort (case study) | Indian J Otolaryngol Head Neck Surg | Discusses allergen immunotherapy use in patients with autoimmune disease, including relevance to atopic dermatitis management. |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Reviews intranasal corticosteroids and HPA-axis/adrenal suppression risk in allergic conditions that coexist with atopic dermatitis. |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|--------|---------|
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | دراسة أترابية (دراسة حالة) | Indian J Otolaryngol Head Neck Surg | يناقش استخدام العلاج المناعي بمسببات الحساسية لدى المرضى الذين يعانون من أمراض المناعة الذاتية، بما في ذلك الصلة بإدارة التهاب الجلد التأتبي. |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | مراجعة | Neuroimmunomodulation | يراجع الكورتيكوستيرويدات الأنفية وخطر القمع على محور HPA/الغدة الكظرية في حالات الحساسية التي تتعايش مع التهاب الجلد التأتبي. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Fluticasone furoate currently holds no marketing authorization in Saudi Arabia (market status: not marketed; 0 licenses on record), so no product-level authorization table is available.
+فلوتيكاسون فوروات حاليًا لا يحتفظ بأي تصريح تسويقي في المملكة العربية السعودية (حالة السوق: غير مسوق؛ 0 تراخيص في السجل)، لذا لا توجد جدول تصريح على مستوى المنتج.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى مراجعة نشرة الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: انتظار**
 
-**Rationale:**
-Evidence level is L3, and the supporting trials predominantly use fluticasone **propionate**, not furoate — furoate has no dedicated topical dermatological formulation or direct atopic eczema trial, and the one directly relevant Phase 3 trial (NCT01772056) was terminated. This is class-level, not molecule-specific, evidence, so a Go/Guardrails decision is not yet supportable.
+**المنطق:**
+مستوى الدليل هو L3، والتجارب المدعومة تستخدم بشكل أساسي فلوتيكاسون **بروبيونات**، وليس الفوروات — الفوروات ليس لديه صيغة موضعية متخصصة في الجلديات أو تجربة ذات صلة مباشرة بالأكزيما الأتوبية، وتم إيقاف التجربة الثالثة ذات الصلة المباشرة (NCT01772056) مبكرًا. هذا دليل على مستوى الفئة، وليس دليل خاص بالجزيء، لذا فإن قرار Go/Guardrails لم يعد قابلًا للدعم حتى الآن.
 
-**To proceed, the following is needed:**
-- Furoate-specific topical formulation and at least one dedicated clinical trial in atopic eczema
-- Detailed mechanism of action (MOA) data from DrugBank
-- TFDA/SFDA package insert warnings, contraindications, and DDI data (currently unavailable)
-- Note: within this same evidence pack, the "bronchitis" (COPD-spectrum) indication (rank 2, evidence level L2, "Proceed with Guardrails") is directly supported by fluticasone furoate/vilanterol trial data (e.g., NCT02989935, RELVAR) and may warrant separate, more advanced evaluation
+**للمتابعة، يلزم ما يلي:**
+- صيغة موضعية متخصصة في الفوروات وعلى الأقل تجربة سريرية واحدة متخصصة في الأكزيما الأتوبية
+- بيانات آلية عمل تفصيلية (MOA) من DrugBank
+- تحذيرات نشرة حزمة TFDA/SFDA، موانع الاستعمال، وبيانات التفاعلات الدوائية (غير متاحة حاليًا)
+- ملاحظة: ضمن حزمة الأدلة نفسها هذه، فإن استطباب "التهاب الشعب الهوائية" (طيف الانسداد الرئوي المزمن) (الترتيب 2، مستوى الدليل L2، "المضي قدمًا مع الضمانات") يتم دعمه مباشرة ببيانات تجربة فلوتيكاسون فوروات/vilanterol (مثل NCT02989935، RELVAR) وقد يستحق تقييمًا منفصلًا وأكثر تقدمًا
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

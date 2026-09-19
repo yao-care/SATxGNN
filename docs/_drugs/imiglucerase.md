@@ -29,77 +29,78 @@ indication_count: 5
 
 </div>
 
-# Imiglucerase: From Gaucher Disease to Hurler Syndrome
+# إيميجلوسيراز: من داء غوشيه إلى متلازمة هيرلر
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Imiglucerase is a recombinant enzyme replacement therapy (ERT) originally developed to supply glucocerebrosidase for the treatment of **Gaucher disease**. The TxGNN model predicts it may also be effective for **Hurler syndrome (MPS I)**, but this direction is currently supported by **0 clinical trials** and only **2 general review articles**, neither of which specifically studies imiglucerase in Hurler syndrome.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Gaucher disease (established per cited literature; no Saudi Arabia license record on file — product not marketed) |
-| Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+إيميجلوسيراز هو عامل (ERT) بديل إنزيمي معاد التركيب تم تطويره أساساً لتوفير الجلوكوسيريبروسيداز لعلاج **داء غوشيه**. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **متلازمة هيرلر (MPS I)**، لكن هذا الاتجاه يدعمه حالياً **0 تجربة سريرية** و**مقالتا مراجعة عامة** فقط، لا تتناول أي منهما إيميجلوسيراز تحديداً في متلازمة هيرلر.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap). Based on the information available in this evidence pack, imiglucerase is a recombinant form of human **glucocerebrosidase (GBA)**, the enzyme deficient in Gaucher disease. Its established efficacy comes from directly replacing this missing enzyme, allowing lysosomal breakdown of glucocerebroside to resume.
-
-Hurler syndrome (Mucopolysaccharidosis type I, MPS I), however, is caused by deficiency of a **different enzyme — alpha-L-iduronidase (IDUA)** — which breaks down glycosaminoglycans, not glucocerebroside. There is no molecular-level overlap between the substrate imiglucerase acts on and the substrate accumulating in Hurler syndrome. Hurler syndrome already has its own dedicated ERT, laronidase (recombinant IDUA), which imiglucerase cannot substitute for.
-
-The mechanistic rationale in this evidence pack explicitly flags this as a likely **category-level artifact**: both drug and disease belong to the broader "lysosomal storage disease + enzyme replacement therapy" cluster in the knowledge graph, which may be driving the high TxGNN score rather than a true enzyme-substrate relationship. This distinction is important — the prediction should be interpreted as a hypothesis worth noting, not as evidence of a genuine pharmacological link.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | داء غوشيه (معتمد وفقاً للأدبيات المذكورة؛ لا يوجد سجل ترخيص في المملكة العربية السعودية في الملف — المنتج غير مسوّق) |
+| المؤشر المتنبأ به | متلازمة هيرلر |
+| درجة التنبؤ TxGNN | 99.52% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | انتظار |
 
 ---
 
-## Literature Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Review | Proceedings of the National Academy of Sciences of the United States of America | Describes PET-based imaging of enzyme replacement therapy across multiple lysosomal storage diseases (Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, Pompe); does not evaluate imiglucerase specifically for Hurler syndrome. |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de médecine interne | General review of ERT development for lysosomal storage diseases, tracing the history from alglucerase to imiglucerase (Cerezyme) for Gaucher disease; mentions the broader ERT/LSD treatment class without addressing MPS I. |
+حالياً، بيانات آلية العمل التفصيلية غير متاحة (محددة كفجوة بيانات عالية الأهمية). بناءً على المعلومات المتاحة في هذه مجموعة الأدلة، إيميجلوسيراز هو شكل معاد التركيب من **الجلوكوسيريبروسيداز (GBA)** البشري، الإنزيم الناقص في داء غوشيه. تنبع فعاليته المثبتة من استبدال هذا الإنزيم الناقص مباشرة، مما يسمح باستئناف تحطيم الجلوكوسيريبروسيد الليزوسومي.
 
----
+ومع ذلك، متلازمة هيرلر (الاعتلال المتعدد السكاريد من النوع الأول، MPS I) تحدث بسبب نقص **إنزيم مختلف — ألفا-إل-إيدورونيداز (IDUA)** — الذي يحطم الغليكوزامينوغليكانات وليس الجلوكوسيريبروسيد. لا يوجد تداخل على المستوى الجزيئي بين الركيزة التي يعمل عليها إيميجلوسيراز والركيزة المتراكمة في متلازمة هيرلر. متلازمة هيرلر لديها بالفعل عامل بديل إنزيمي مخصص وهو لارونيداز (IDUA معاد التركيب)، الذي لا يمكن لإيميجلوسيراز أن يحل محله.
 
-## Saudi Arabia Market Information
-
-Imiglucerase is currently **not marketed** in Saudi Arabia — there are no license or product authorization records on file (0 authorizations).
+الأساس الآلي في هذه مجموعة الأدلة يشير بوضوح إلى أن هذا قد يكون **قطعة أثرية على مستوى الفئة**: كل من الدواء والمرض ينتميان إلى مجموعة أوسع من "اعتلالات تخزين الليزوسوم + العلاج البديل بالإنزيم" في رسم المعرفة، وهذا قد يكون يقود درجة TxGNN العالية بدلاً من علاقة إنزيم-ركيزة حقيقية. هذا التمييز مهم — يجب تفسير التنبؤ كفرضية تستحق الانتباه وليس كدليل على وجود رابط دوائي حقيقي.
 
 ---
 
-## Safety Considerations
+## دليل التجارب السريرية
 
-Please refer to the package insert for safety information.
+لا توجد تجارب سريرية ذات صلة مسجلة حالياً
 
 ---
 
-## Conclusion and Next Steps
+## دليل الأدبيات
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
+|------|------|------|--------|-----------------|
+| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | مراجعة | Proceedings of the National Academy of Sciences of the United States of America | يصف التصوير باستخدام PET للعلاج البديل بالإنزيم عبر عدة اعتلالات تخزين ليزوسومية (غوشيه وفابري وهيرلر وهنتر وماروتو-لامي وبومبي)؛ لا يقيّم إيميجلوسيراز تحديداً في متلازمة هيرلر. |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | مراجعة | La Revue de médecine interne | مراجعة عامة لتطوير العلاج البديل بالإنزيم لاعتلالات تخزين الليزوسوم، تتتبع التاريخ من ألجلوسيراز إلى إيميجلوسيراز (Cerezyme) لداء غوشيه؛ تذكر فئة العلاج البديل بالإنزيم/الأمراض الليزوسومية الأوسع دون معالجة MPS I. |
 
-**Rationale:**
-The predicted association between imiglucerase and Hurler syndrome lacks both clinical evidence (no trials) and disease-specific literature support (only 2 general reviews that do not evaluate this drug-disease pair directly). More importantly, the underlying mechanism is biologically discordant — imiglucerase replaces glucocerebrosidase, while Hurler syndrome results from alpha-L-iduronidase deficiency — suggesting the high TxGNN score may reflect broad "ERT/LSD" category similarity rather than a genuine molecular mechanism.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a **Blocking** data gap preventing safety pre-screening
-- Confirmed mechanism of action (MOA) documentation from DrugBank or equivalent source
-- Any preclinical or in vitro data specifically testing glucocerebrosidase activity or off-target effects relevant to IDUA-substrate accumulation in MPS I
-- Clarification on whether category-level (ERT/LSD) knowledge graph clustering should be down-weighted in future TxGNN scoring, given the same pattern also appears in this drug's other top-ranked predictions (Scheie syndrome, cholesteryl ester storage disease)
+## معلومات سوق المملكة العربية السعودية
+
+إيميجلوسيراز غير مسوّق حالياً في المملكة العربية السعودية — لا يوجد سجلات ترخيص أو تفويض منتج في الملف (0 تفويضات).
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى ملخص خصائص المنتج للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: انتظار**
+
+**الأساس المنطقي:**
+الارتباط المتنبأ به بين إيميجلوسيراز ومتلازمة هيرلر يفتقر إلى الأدلة السريرية (لا توجد تجارب) والدعم الأدبي المحدد للمرض (فقط مقالتا مراجعة عامة لا تقيمان هذا الثنائي من الدواء والمرض مباشرة). والأهم من ذلك، الآلية الأساسية غير متطابقة بيولوجياً — إيميجلوسيراز يستبدل الجلوكوسيريبروسيداز، بينما متلازمة هيرلر تنجم عن نقص ألفا-إل-إيدورونيداز — مما يشير إلى أن درجة TxGNN العالية قد تعكس تشابهاً على مستوى الفئة "العلاج البديل بالإنزيم/الأمراض الليزوسومية" بدلاً من آلية جزيئية حقيقية.
+
+**للمتابعة، يلزم ما يلي:**
+- ملخص خصائص المنتج TFDA/التنظيمي (التحذيرات والموانع) — حالياً فجوة بيانات **محظورة** تعيق الفحص المسبق للسلامة
+- توثيق آلية العمل (MOA) المؤكدة من DrugBank أو مصدر مكافئ
+- أي بيانات ما قبل سريرية أو في الجسم الحي تختبر نشاط الجلوكوسيريبروسيداز تحديداً أو التأثيرات خارج الهدف ذات الصلة بتراكم ركيزة IDUA في MPS I
+- توضيح حول ما إذا كان يجب تقليل وزن تجميع رسم المعرفة على مستوى الفئة ("العلاج البديل بالإنزيم"/الأمراض الليزوسومية) في درجات TxGNN المستقبلية، بالنظر إلى أن نفس النمط يظهر أيضاً في التنبؤات الأخرى ذات الترتيب الأعلى لهذا الدواء (متلازمة شاي وداء تخزين إستر الكوليسترول)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

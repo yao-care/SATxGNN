@@ -29,101 +29,102 @@ indication_count: 8
 
 </div>
 
-# Regorafenib: From Colorectal Cancer/GIST to Liposarcoma
+# ريجورافينيب: من سرطان القولون والمستقيم/GIST إلى الورم الشحمي
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Regorafenib is a globally-approved oral multi-kinase inhibitor whose established indications (based on general pharmacological knowledge, not present in this Evidence Pack) include metastatic colorectal cancer, GIST, and hepatocellular carcinoma. The TxGNN model predicts it may be effective for **Liposarcoma**, but the **2 clinical trials** and **9 publications** currently available actually report **negative results for this specific subtype**, which weakens rather than supports the prediction.
+ريجورافينيب هو مثبط متعدد كيناز فموي معتمد عالمياً مؤشراته المثبتة (بناءً على المعرفة الدوائية العامة، وليس موجودة في حزمة الأدلة هذه) تشمل سرطان القولون والمستقيم النقيلي وورم المكان (GIST) وسرطان الكبد الأولي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً للـ **ورم شحمي**، لكن **تجربتي سريريتين** و**9 منشورات** متوفرة حالياً تُقرّر فعلياً عن **نتائج سلبية لهذا النوع الفرعي المحدد**، مما يضعف بدلاً من دعم التنبؤ.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not provided in Evidence Pack ([Data Gap]); based on general pharmacological knowledge, regorafenib (Stivarga) is globally approved for metastatic colorectal cancer, GIST, and hepatocellular carcinoma |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | غير موفر في حزمة الأدلة ([فجوة بيانات]); بناءً على المعرفة الدوائية العامة، يعتمد ريجورافينيب (Stivarga) عالمياً لسرطان القولون والمستقيم النقيلي وورم المكان (GIST) وسرطان الكبد الأولي |
+| المؤشر الجديد المتنبأ به | الورم الشحمي |
+| درجة التنبؤ من TxGNN | 99.76% |
+| مستوى الأدلة | L2 |
+| حالة السوق في المملكة العربية السعودية | غير موجود في السوق (Not marketed) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | توقف |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack ([Data Gap], DG002). Based on general pharmacological knowledge, regorafenib is an oral multi-kinase inhibitor targeting VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, and RAF, with proven anti-angiogenic efficacy in colorectal cancer and GIST.
+حالياً، بيانات آلية العمل المفصلة غير متوفرة في حزمة الأدلة ([فجوة بيانات], DG002). بناءً على المعرفة الدوائية العامة، ريجورافينيب هو مثبط متعدد كيناز فموي يستهدف VEGFR1-3 و TIE2 و PDGFR-β و FGFR و KIT و RET و RAF، مع فعالية ثابتة مثبطة للتوعية الوعائية الجديدة في سرطان القولون والمستقيم وورم المكان.
 
-Soft tissue sarcomas (STS) as a class have shown some sensitivity to anti-angiogenic multi-kinase inhibitors, which is the mechanistic basis for the TxGNN prediction extending regorafenib into sarcoma indications. However, liposarcoma (adipocytic sarcoma) is biologically distinct from other STS subtypes — it is typically driven by MDM2/CDK4 amplification rather than being a strongly angiogenesis-dependent tumor, which weakens the mechanistic rationale relative to other sarcoma subtypes.
+أورام الأنسجة الرخوة (STS) كفئة أظهرت حساسية معينة لمثبطات كيناز متعددة مثبطة للتوعية الوعائية الجديدة، وهو الأساس الآلي لتنبؤ TxGNN بتوسيع ريجورافينيب إلى مؤشرات الساركوما. ومع ذلك، الورم الشحمي (ساركوما دهنية) يختلف بيولوجياً عن أنواع STS الأخرى — يتم قيادته عادة بواسطة تضخيم MDM2/CDK4 بدلاً من كونه ورماً يعتمد بقوة على التوعية الوعائية الجديدة، مما يضعف التبرير الآلي بالنسبة لأنواع الساركوما الأخرى.
 
-Critically, this mechanistic weakness is borne out in the actual evidence: the REGOSARC trial (NCT01900743) explicitly reported efficacy in leiomyosarcoma, synovial sarcoma, and other non-adipocytic sarcomas, **but not in liposarcoma** (PMID 29902612). Separately, the SARC024 liposarcoma-specific cohort (PMID 32701199) concluded that results "do not support the routine use of regorafenib in this patient population." Despite a high TxGNN similarity score, the direct clinical evidence for this specific indication is negative, and this contradiction should be weighted more heavily than the model score.
+بشكل حاسم، هذا الضعف الآلي يتم دعمه في الأدلة الفعلية: أقرّت تجربة REGOSARC (NCT01900743) بوضوح الفعالية في ليوميوساركوما وساركوما الغشاء الزليلي وساركوما STS أخرى غير دهنية، **لكن ليس في الورم الشحمي** (PMID 29902612). بشكل منفصل، مجموعة SARC024 المخصصة للورم الشحمي (PMID 32701199) خلصت إلى أن النتائج "لا تدعم الاستخدام الروتيني لريجورافينيب في هذه السكان المريضة." على الرغم من درجة تشابه TxGNN العالية، الأدلة السريرية المباشرة لهذا المؤشر المحدد سلبية، وهذا التناقض يجب أن يكون له وزن أكبر من درجة النموذج.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 blanket protocol testing regorafenib across multiple sarcoma subtypes (including dedifferentiated liposarcoma); results must be interpreted by subtype, not as a pooled outcome. |
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Phase 2 | Completed | 219 | REGOSARC — randomized, double-blind, placebo-controlled trial with a dedicated liposarcoma cohort (Cohort A); the adipocytic sarcoma cohort did not show the benefit seen in other STS cohorts. |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | المرحلة 2 | مكتملة | 131 | بروتوكول SARC024 الشامل يختبر ريجورافينيب عبر نماذج ساركوما متعددة (بما فيها الورم الشحمي غير المتمايز); يجب تفسير النتائج حسب النوع الفرعي، وليس كنتيجة موحدة. |
+| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | المرحلة 2 | مكتملة | 219 | REGOSARC — تجربة عشوائية محكومة مزدوجة التعمية مع مجموعة ورم شحمي مكرسة (المجموعة A); لم تظهر مجموعة ساركوما دهنية الفائدة المرئية في مجموعات STS الأخرى. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | Lancet Oncol | REGOSARC primary results: regorafenib improved PFS in advanced STS after anthracycline failure. |
-| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT (liposarcoma-specific) | The Oncologist | SARC024 liposarcoma cohort: results do not support routine use of regorafenib in this population. |
-| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT / post-crossover analysis | Eur J Cancer | Confirms REGOSARC efficacy in non-adipocytic STS but explicitly **not** in liposarcoma. |
-| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT secondary analysis | Cancer | Q-TWiST analysis of REGOSARC (NCT01900743) showing quality-adjusted survival benefit in doxorubicin-pretreated advanced non-adipocytic sarcoma. |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial protocol | BMC Cancer | REGOSARC study protocol describing rationale and design for the phase 2 trial. |
-| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Review | Targeted Oncology | Overview of regorafenib's growing role across sarcoma subtypes, including liposarcoma. |
-| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Review (type unconfirmed) | Crit Rev Oncol Hematol | Reviews maintenance therapy strategies in advanced STS following first-line treatment. |
-| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | Retrospective study (different drug: anlotinib) | Anti-cancer Drugs | Indirect reference — evaluates anlotinib, not regorafenib, in WDLS/DDLS; mentions regorafenib as a comparator TKI class. |
-| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Case report (different drug: pazopanib) | Rare Tumors | Indirect/low-relevance — pazopanib activity in Ewing sarcoma, a different subtype and different drug. |
-
----
-
-## Saudi Arabia Market Information
-
-Regorafenib is currently **not marketed** in Saudi Arabia (market status: Not marketed, 0 authorizations on file). No product license records are available in this Evidence Pack.
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | تجربة معشاة محكمة | Lancet Oncol | نتائج REGOSARC الأولية: حسّن ريجورافينيب البقاء الخالي من التقدم في STS المتقدم بعد فشل الأنثراسيكلين. |
+| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | تجربة معشاة محكمة (مخصصة للورم الشحمي) | The Oncologist | مجموعة SARC024 للورم الشحمي: النتائج لا تدعم الاستخدام الروتيني لريجورافينيب في هذه السكان المريضة. |
+| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | تجربة معشاة محكمة / تحليل بعد الانتقال | Eur J Cancer | يؤكد فعالية REGOSARC في STS غير الدهني لكن **بوضوح ليس** في الورم الشحمي. |
+| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | تحليل ثانوي لتجربة معشاة محكمة | Cancer | تحليل Q-TWiST لـ REGOSARC (NCT01900743) يُظهر فائدة البقاء المعدل بجودة الحياة في ساركوما غير دهنية متقدمة تمت معالجتها سابقاً بالدوكسوروبيسين. |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | بروتوكول التجربة | BMC Cancer | بروتوكول دراسة REGOSARC يصف المنطق والتصميم لتجربة المرحلة 2. |
+| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | مراجعة | Targeted Oncology | نظرة عامة على الدور المتزايد لريجورافينيب عبر نماذج الساركوما، بما فيها الورم الشحمي. |
+| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | مراجعة (النوع غير مؤكد) | Crit Rev Oncol Hematol | مراجعة استراتيجيات العلاج الحفاظي في STS المتقدم تالياً للعلاج من الخط الأول. |
+| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | دراسة بأثر رجعي (دواء مختلف: أنلوتينيب) | Anti-cancer Drugs | إشارة غير مباشرة — تقيّم أنلوتينيب، وليس ريجورافينيب، في WDLS/DDLS; تذكر ريجورافينيب كمثبط كيناز مقارن. |
+| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | حالة سريرية (دواء مختلف: بازوبانيب) | Rare Tumors | إشارة غير مباشرة/ذات صلة منخفضة — نشاط بازوبانيب في ساركوما يوينج، وهي نوع فرعي مختلف ودواء مختلف. |
 
 ---
 
-## Cytotoxicity
+## معلومات السوق في المملكة العربية السعودية
 
-| Item | Content |
+ريجورافينيب غير موجود حالياً في السوق في المملكة العربية السعودية (حالة السوق: غير موجود في السوق، 0 موافقات موجودة في الملفات). لا توجد سجلات ترخيص منتج متوفرة في حزمة الأدلة هذه.
+
+---
+
+## السمية السيتوتوكسية
+
+| العنصر | المحتوى |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (oral multi-kinase inhibitor), not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Low to moderate — dominant toxicities for this drug class are hand-foot skin reaction, hypertension, diarrhea, fatigue, and hepatotoxicity rather than bone marrow suppression |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (regorafenib carries a hepatotoxicity warning in other markets), blood pressure, CBC, urinalysis (proteinuria), skin examination for hand-foot skin reaction |
-| Handling Protection | As an oral antineoplastic agent, institutional hazardous-drug handling precautions (tablet splitting/crushing avoidance, PPE for handling) should apply per local cytotoxic drug handling policy |
+| تصنيف السمية | عقار موجه (مثبط متعدد كيناز فموي)، وليس العلاج الكيميائي السام التقليدي |
+| خطر قمع النخاع العظمي | منخفض إلى متوسط — السموميات السائدة لهذه فئة الأدوية هي متلازمة اليد والقدم الجلدية وارتفاع ضغط الدم والإسهال والإرهاق والسمية الكبدية بدلاً من قمع نخاع العظم |
+| تصنيف الغثيان والقيء | منخفض |
+| عناصر المراقبة | اختبارات وظائف الكبد (يحمل ريجورافينيب تحذير السمية الكبدية في الأسواق الأخرى) وضغط الدم والتعداد الدموي الشامل وتحليل البول (البروتينية) والفحص الجلدي لمتلازمة اليد والقدم الجلدية |
+| حماية المناولة | كعامل مضاد للأورام فموي، يجب تطبيق احتياطات معالجة الأدوية الخطرة المؤسسية (تجنب تقسيم/سحق الأقراص، معدات الحماية الشخصية للمناولة) وفقاً لسياسة المؤسسة المحلية لمعالجة الأدوية السامة |
 
-*No drug-specific toxicity data was available in this Evidence Pack; the above is based on general knowledge of the regorafenib drug class and should be confirmed against the package insert once available.*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+*لم تكن بيانات السمية الخاصة بالدواء متوفرة في حزمة الأدلة هذه; ما ورد أعلاه يعتمد على المعرفة العامة لفئة دواء ريجورافينيب ويجب تأكيده مقابل نشرة المعلومات بمجرد توفرها.*
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يُرجى الرجوع إلى نشرة المعلومات لمعلومات السلامة.
 
-**Rationale:**
-Although the TxGNN score for liposarcoma is high (99.76%), the direct clinical evidence contradicts the prediction — both the REGOSARC (NCT01900743) and SARC024 (NCT02048371) liposarcoma-specific cohorts failed to demonstrate meaningful benefit. Additionally, S1 safety review is blocked by a missing package insert (DG001), and MOA data is incomplete (DG002).
+---
 
-**To proceed, the following is needed:**
-- SFDA package insert (warnings/contraindications) — currently blocking, required for S1 safety review (DG001)
-- Complete DrugBank MOA data (DG002)
-- Full-text verification of REGOSARC and SARC024 liposarcoma cohort results to confirm the magnitude/direction of the negative finding
-- Consider evaluating an alternative predicted indication from the same Evidence Pack instead: **clear cell renal carcinoma** (rank 3, evidence level L2, decision stage S2, "Proceed with Guardrails") has a positive single-arm Phase 2 trial (PMID 22959186) and stronger mechanistic alignment with regorafenib's known anti-angiogenic profile.
+## الخلاصة والخطوات التالية
+
+**القرار: توقف**
+
+**المنطق:**
+على الرغم من أن درجة TxGNN للورم الشحمي عالية (99.76%)، الأدلة السريرية المباشرة تناقض التنبؤ — فشلت كلا مجموعتا ليبوساركوما الخاصة بـ REGOSARC (NCT01900743) و SARC024 (NCT02048371) في إظهار فائدة ذات مغزى. بالإضافة إلى ذلك، مراجعة السلامة S1 محظورة بسبب نشرة المعلومات المفقودة (DG001)، وبيانات آلية العمل غير مكتملة (DG002).
+
+**للمتابعة، المطلوب ما يلي:**
+- نشرة معلومات SFDA (التحذيرات/موانع الاستخدام) — حالياً محظورة، مطلوبة لمراجعة السلامة S1 (DG001)
+- بيانات آلية العمل الكاملة من DrugBank (DG002)
+- التحقق من النص الكامل لنتائج مجموعة الورم الشحمي في REGOSARC و SARC024 لتأكيد حجم واتجاه النتيجة السلبية
+- النظر في تقييم مؤشر متنبأ به بديل من حزمة الأدلة ذاتها بدلاً منه: **سرطان الكلى بالخلايا الصافية** (الترتيب 3، مستوى الأدلة L2، مرحلة القرار S2، "المتابعة مع الحراسة") لديه تجربة موجبة ذاتية الذراع من المرحلة 2 (PMID 22959186) وتوافق آلي أقوى مع ملف ريجورافينيب المثبط للتوعية الوعائية الجديدة المعروف.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,90 +29,91 @@ indication_count: 10
 
 </div>
 
-# Desogestrel: From Contraception to Amenorrhea
+# ديسوجستريل: من موانع الحمل إلى انقطاع الطمث
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Desogestrel is a third-generation progestogen widely used globally as a component in combined oral contraceptives and as a progestogen-only mini-pill (75 mcg, e.g. Cerazette) for contraception, though it holds no current registration in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **2 clinical trials** and **16 publications** currently supporting this direction.
-Critically, the mechanistic relationship is paradoxical: desogestrel's HPO axis suppression is a well-documented *cause* of amenorrhea as a side effect — not a treatment for it.
+ديسوجستريل هو بروجيستوجين من الجيل الثالث يُستخدم على نطاق واسع عالمياً كمكون في موانع الحمل الفموية المركبة وكحبة مصغرة برجسترونية وحدها (75 ميكروغرام، مثل Cerazette) لموانع الحمل، على الرغم من عدم وجود تسجيل حالي في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **انقطاع الطمث**، مع دعم **تجربتي سريرية** و **16 منشورة علمية** لهذا الاتجاه حالياً.
+بشكل حاسم، العلاقة الآلية متناقضة: معروف توثيقياً أن تثبيط محور HPO من قبل ديسوجستريل هو سبب معروف *لانقطاع الطمث* كأثر جانبي — وليس كعلاج له.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Oral contraception (progestogen component; no Saudi Arabia registration on record) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | موانع الحمل الفموية (مكون بروجيستوجين؛ لا يوجد تسجيل في المملكة العربية السعودية) |
+| المؤشر الجديد المتنبأ به | انقطاع الطمث |
+| درجة توقع TxGNN | 99.96% |
+| مستوى الدليل | L4 |
+| حالة السوق في المملكة العربية السعودية | غير مسوّق |
+| عدد التسجيلات | 0 |
+| القرار الموصى به | احفظ |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, desogestrel is a third-generation gonane progestogen and a prodrug that requires hepatic metabolism to its active form, etonogestrel. Etonogestrel binds progesterone receptors with high selectivity and low androgenicity, suppressing the hypothalamic-pituitary-ovarian (HPO) axis to inhibit follicular maturation and ovulation. This is the core mechanism behind its contraceptive effect at 75 mcg (progestogen-only pill) and its contribution to combined OC formulations.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية في حزمة الأدلة. بناءً على المعرفة الدوائية الراسخة، ديسوجستريل هو بروجيستوجين غوناني من الجيل الثالث وعقار أولي يتطلب استقلاباً كبدياً لتكوين صيغته الفعالة، إيتونوجستريل. يرتبط إيتونوجستريل بمستقبلات البروجسترون برفقة عالية وأندروجينية منخفضة، مما يثبط محور الهيپوثلاموس-الغدة النخامية-المبيض (HPO) لمنع نضوج الجريب والإباضة. هذه هي الآلية الأساسية التي تكمن وراء تأثيره الرافع كمانع حمل عند 75 ميكروغرام (حبة البروجيستوجين وحدها) ومساهمته في تركيبات موانع الحمل الفموية المركبة.
 
-The relationship between desogestrel and amenorrhea is directionally paradoxical. Rather than treating amenorrhea, desogestrel commonly induces it: approximately 20–30% of women using the 75 mcg mini-pill experience amenorrhea as a recognised consequence of sustained HPO suppression and endometrial atrophy. The two clinical trials identified in this evidence pack examine desogestrel in the context of athletic reproductive dysfunction and PCOS metabolic outcomes — neither uses "resolution of amenorrhea" as a primary endpoint.
+العلاقة بين ديسوجستريل وانقطاع الطمث متناقضة اتجاهياً. بدلاً من علاج انقطاع الطمث، عادة ما يثيره ديسوجستريل: حوالي 20-30% من النساء اللواتي يستخدمن الحبة المصغرة بـ 75 ميكروغرام يعانين من انقطاع الطمث كنتيجة معترف بها لتثبيط محور HPO المستمر والضمور البطاني الرحمي. التجربتان السريريتان المحددتان في حزمة الأدلة هذه تختبران ديسوجستريل في سياق الخلل الإنجابي المستحث بالتمرينات الرياضية ونتائج التمثيل الغذائي في PCOS — لا أحد منهما يستخدم "حل انقطاع الطمث" كنقطة نهائية أساسية.
 
-The TxGNN graph model most likely captures a pharmacological network proximity between desogestrel and amenorrhea through shared hypothalamic-hormonal pathway nodes. However, directionality matters: in the known biology, desogestrel drives toward amenorrhea rather than away from it. A clinically meaningful repurposing hypothesis would require identifying a specific amenorrhea subtype — for example, anovulatory hyperandrogenic oligomenorrhea in PCOS — where cycle regulation via HPO modulation could be beneficial, and where desogestrel's antiandrogenic profile (raising SHBG, lowering free testosterone) might restore rather than further suppress menstrual cycling.
+نموذج الرسم البياني TxGNN يلتقط على الأرجح قرباً صيدلانياً شبكياً بين ديسوجستريل وانقطاع الطمث عبر عقد المسار الهرموني الدماغي المشتركة. ومع ذلك، يهم الاتجاه: في البيولوجيا المعروفة، ديسوجستريل يدفع نحو انقطاع الطمث بدلاً من الابتعاد عنه. ستتطلب فرضية إعادة تعيين سريرية ذات مغزى تحديد نمط فرعي محدد من انقطاع الطمث — على سبيل المثال، قلة الطمث اللاإباضية فرط الأندروجينية المرتبطة بـ PCOS — حيث قد يكون تنظيم الدورة عبر تعديل محور HPO مفيداً، وحيث قد يعيد الملف الخافض لـ الأندروجين لديسوجستريل (رفع SHBG، وخفض التستوستيرون الحر) بدلاً من تثبيط دورة الحيض بشكل أكبر.
 
 ---
 
-## Clinical Trial Evidence
+## أدلة التجربة السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | أهم النتائج |
 |---------|------|------|------|---------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Examined body composition and hormonal changes in young female athletes with exercise-induced (hypothalamic) amenorrhea; assessed whether transdermal or oral estrogen improves bone density in estrogen-deficient amenorrheic athletes. Desogestrel was not the primary intervention; amenorrhea was an observed outcome rather than a treatment target. |
-| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Phase 4 | Unknown | 42 | Compared effects of oral contraceptives (which may include desogestrel-containing preparations) versus a hormonal vaginal ring on androgen, insulin, lipid, and inflammatory parameters in women with PCOS over 59 weeks. Amenorrhea was not a primary endpoint; small sample and unknown status limit interpretability. |
+| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | المرحلة 3 | مكتملة | 121 | فحصت تكوين الجسم والتغيرات الهرمونية لدى الرياضيات الشابات مع انقطاع الطمث المستحث بالتمرينات (الفرضي)؛ قيّمت ما إذا كان الإستروجين عبر الجلد أو الفموي يحسّن كثافة العظام لدى الرياضيات المصابات بقصور الإستروجين وانقطاع الطمث. لم يكن ديسوجستريل هو التدخل الأساسي؛ كان انقطاع الطمث نتيجة ملحوظة بدلاً من هدف العلاج. |
+| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | المرحلة 4 | غير معروف | 42 | قارنت تأثيرات موانع الحمل الفموية (التي قد تتضمن تحضيرات تحتوي على ديسوجستريل) مقابل حلقة مهبلية هرمونية على معاملات الأندروجين والأنسولين والدهون والمؤشرات الالتهابية لدى النساء المصابات بـ PCOS على مدى 59 أسبوعاً. لم يكن انقطاع الطمث النقطة النهائية الأساسية؛ العينة الصغيرة والحالة غير المعروفة تحد من القابلية للتفسير. |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | أهم النتائج |
 |------|-----|------|------|---------|
-| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Clinical Trial | Gynecological Endocrinology | Head-to-head comparison of drospirenone-only pill (4 mg, 24+4 cycle) versus desogestrel 0.075 mg in women with cardiovascular risk factors; amenorrhea documented as a frequent bleeding outcome with the desogestrel arm over 9 cycles, illustrating desogestrel as an inducer rather than a resolver of amenorrhea. |
-| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Systematic Review | Cochrane Database Syst Rev | Cochrane review comparing 20 µg versus >20 µg estrogen combined OCs, including desogestrel-containing formulations; lower estrogen dose associated with higher rates of amenorrhea and unscheduled bleeding. |
-| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Systematic Review | Cochrane Database Syst Rev | Earlier edition of same Cochrane review; confirms the dose-dependent relationship between estrogen content in OCs and amenorrhea incidence. |
-| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Clinical Trial | J Reprod Med | Evaluated bone mineral density in young women with hypothalamic amenorrhea treated with OCs at varying ethinyl estradiol doses; desogestrel-containing OCs used as a hormone replacement surrogate to address estrogen deficiency in amenorrheic women. |
-| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Pharmacology | Acta Obstet Gynecol Scand Suppl | Foundational pharmacodynamic characterisation of desogestrel; evaluated androgenicity versus other progestogens and noted the mechanistic links between progestogen-associated hormonal suppression and amenorrhea/PCO-like features. |
-| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Clinical Trial | Am J Obstet Gynecol | Tolerability profile of the desogestrel/ethinyl estradiol combination OC; documented non-contraceptive benefits (dysmenorrhea reduction, endometriosis improvement) and cycle-control side effects including amenorrhea. |
-| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | Comparative Study | Br J Obstet Gynaecol | Compared two OC pills containing 150 µg desogestrel with 20 µg versus 30 µg ethinyl estradiol (Mercilon vs Marvelon); analysed cycle control and amenorrhea incidence differences between the two formulations. |
-| [8324604](https://pubmed.ncbi.nlm.nih.gov/8324604/) | 1993 | Cohort | Br Med Bull | Reviewed combined OC acceptability and use patterns based on large cohort data; discussed dose-related health risks, benefits, and menstrual pattern changes including amenorrhea. |
-| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Review | Obstet Gynecol Surv | Comprehensive review of three new third-generation progestogens (desogestrel, norgestimate, gestodene); covered pharmacokinetics, contraceptive efficacy, and tolerability at lower doses. |
-| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Clinical Trial | Georgian Med News | Evaluated central-genesis oligomenorrhea and amenorrhea management in 159 infertile women; compared EEG-guided pathogenetic treatment versus standard hormone therapy, providing context for centrally-mediated amenorrhea treatment approaches. |
+| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | تجربة سريرية | Gynecological Endocrinology | مقارنة مباشرة من حبة مصغرة ديروسبيرينون وحدها (4 ملغ، دورة 24+4) مقابل ديسوجستريل 0.075 ملغ في النساء ذوات عوامل الخطر القلبية الوعائية؛ وثّقت انقطاع الطمث كنتيجة نزيف متكررة مع ذراع ديسوجستريل على مدى 9 دورات، موضحة ديسوجستريل كمثير بدلاً من محلّل انقطاع الطمث. |
+| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | مراجعة منهجية | Cochrane Database Syst Rev | مراجعة Cochrane تقارن موانع الحمل الفموية المركبة بـ 20 µg مقابل >20 µg من الإستروجين، بما في ذلك التحضيرات التي تحتوي على ديسوجستريل؛ جرعة الإستروجين المنخفضة مرتبطة بمعدلات أعلى من انقطاع الطمث والنزيف غير المجدول. |
+| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | مراجعة منهجية | Cochrane Database Syst Rev | إصدار سابق من مراجعة Cochrane نفسها؛ يؤكد العلاقة المعتمدة على الجرعة بين محتوى الإستروجين في موانع الحمل الفموية وحدوث انقطاع الطمث. |
+| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | تجربة سريرية | J Reprod Med | قيّمت كثافة المعادن العظمية لدى النساء الشابات المصابات بانقطاع الطمث الفرضي المعالج بموانع الحمل الفموية بجرعات متفاوتة من إيثينيل إستراديول؛ استُخدمت موانع الحمل الفموية التي تحتوي على ديسوجستريل كبديل لاستبدال الهرمونات لمعالجة قصور الإستروجين لدى النساء المصابات بانقطاع الطمث. |
+| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | الدراسات الدوائية | Acta Obstet Gynecol Scand Suppl | التوصيف الدوائي الديناميكي الأساسي لديسوجستريل؛ قيّمت الأندروجينية مقابل البروجيستوجينات الأخرى وأشارت إلى الروابط الآلية بين تثبيط البروجيستوجين والهرموني وانقطاع الطمث/الخصائص الشبيهة بـ PCO. |
+| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | تجربة سريرية | Am J Obstet Gynecol | ملف التسامح لمزيج ديسوجستريل/إيثينيل إستراديول من موانع الحمل الفموية المركبة؛ وثّقت الفوائد غير الرافعة لموانع الحمل (تقليل عسر الطمث، تحسن الانتباذ البطاني الرحمي) وآثار التحكم في الدورة الجانبية بما في ذلك انقطاع الطمث. |
+| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | دراسة مقارنة | Br J Obstet Gynaecol | قارنت حبتي مانع حمل تحتويان على 150 µg ديسوجستريل مع 20 µg مقابل 30 µg من إيثينيل إستراديول (Mercilon مقابل Marvelon)؛ حللت فروقات التحكم في الدورة وحدوث انقطاع الطمث بين الصيغتين. |
+| [8324604](https://pubmed.ncbi.nlm.nih.gov/8324604/) | 1993 | دراسة أفواج | Br Med Bull | استعرضت قبول موانع الحمل الفموية المركبة واستخدام الأنماط على أساس بيانات الأفواج الكبيرة؛ ناقشت الأخطار والفوائد المتعلقة بالجرعة والتغييرات في نمط الحيض بما في ذلك انقطاع الطمث. |
+| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | مراجعة | Obstet Gynecol Surv | مراجعة شاملة لثلاثة بروجيستوجينات جديدة من الجيل الثالث (ديسوجستريل، نورجيستيمات، جيستودين)؛ غطت علم الحركية الدوائية، وفعالية موانع الحمل، والتسامح بجرعات منخفضة. |
+| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | تجربة سريرية | Georgian Med News | قيّمت إدارة قلة الطمث الناشئة من الجهاز المركزي وانقطاع الطمث لدى 159 امرأة عقيمة؛ قارنت العلاج المعالج بالتخطيط الدماغي الكهربائي مقابل العلاج الهرموني القياسي، مما يوفر السياق لنهج علاج انقطاع الطمث المركزي. |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Desogestrel holds no current marketing authorisation in Saudi Arabia. The SFDA database query returned zero registered products, dosage forms, or approved indications. No authorization table can be generated.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+ديسوجستريل لا يحمل أي ترخيص تسويق حالي في المملكة العربية السعودية. استعلام قاعدة بيانات الهيئة العامة للغذاء والدواء أرجع صفراً من المنتجات المسجلة أو الأشكال الجرعية أو المؤشرات المعتمدة. لا يمكن توليد جدول التسجيل.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى مراجعة النشرة المرفقة للحصول على معلومات السلامة.
 
-**Rationale:**
-The TxGNN model identifies a graph proximity between desogestrel and amenorrhea, but the established clinical biology shows that desogestrel *induces* amenorrhea (via HPO axis suppression) rather than resolving it — a directional mismatch that makes direct repurposing for amenorrhea treatment unsound without a refined subtype-specific hypothesis. Evidence is at L4 (mechanistic/indirect), and no trial has tested desogestrel as a treatment for amenorrhea.
+---
 
-**To proceed, the following is needed:**
-- A refined clinical hypothesis specifying the amenorrhea subtype (e.g., anovulatory PCOS-associated oligoamenorrhea where cycle regulation — not suppression — is the goal) to distinguish therapeutic intent from known adverse effects
-- Mechanism of action data from DrugBank (currently unavailable in this evidence pack)
-- Safety data recovery: package insert warnings, contraindications, and DDI data are all currently marked as data gaps and must be resolved before any clinical evaluation
-- Consideration of whether **acne (rank 4, L3, Proceed with Guardrails)** or **lactation disease/breastfeeding contraception (rank 7, L2, Proceed with Guardrails)** may represent better-evidenced and mechanistically cleaner repurposing candidates for priority development
+## الخلاصة والخطوات التالية
+
+**القرار: احفظ**
+
+**التبرير:**
+يحدّد نموذج TxGNN القرب الشبكي بين ديسوجستريل وانقطاع الطمث، لكن البيولوجيا السريرية الراسخة تُظهر أن ديسوجستريل *يُثير* انقطاع الطمث (عبر تثبيط محور HPO) بدلاً من حله — وهو عدم تطابق اتجاهي يجعل إعادة التعيين المباشرة لعلاج انقطاع الطمث غير سليمة بدون فرضية صقيلة محددة النمط الفرعي. الأدلة بمستوى L4 (آلية/غير مباشرة)، ولم تختبر أي تجربة ديسوجستريل كعلاج لانقطاع الطمث.
+
+**للمتابعة، يلزم ما يلي:**
+- فرضية سريرية محددة تحديد النمط الفرعي من انقطاع الطمث (مثل قلة الطمث اللاإباضية فرط الأندروجين المرتبطة بـ PCOS حيث يكون تنظيم الدورة — وليس التثبيط — هو الهدف) للتمييز بين النوايا العلاجية والآثار الجانبية المعروفة
+- بيانات آلية العمل من DrugBank (غير متاحة حالياً في حزمة الأدلة هذه)
+- استعادة بيانات السلامة: تحذيرات النشرة المرفقة والموانع وبيانات التفاعلات الدوائية جميعها تم تحديدها حالياً كفجوات بيانات ويجب حلها قبل أي تقييم سريري
+- الاعتبار ما إذا كان **حب الشباب (الترتيب 4، L3، المضي قدماً مع الحراس)** أو **مرض الرضاعة/منع الحمل أثناء الرضاعة (الترتيب 7، L2، المضي قدماً مع الحراس)** قد يمثل مرشحين أفضل موثقين وآلياً أنظف لإعادة التعيين لأولويات التطوير
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

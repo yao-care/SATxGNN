@@ -29,88 +29,89 @@ indication_count: 6
 
 </div>
 
-# Magnesium Hydroxide: From Antacid Use to Active Peptic Ulcer Disease
+# هيدروكسيد المغنيسيوم: من الاستخدام كمضاد للحموضة إلى مرض القرحة الهضمية النشطة
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-> Magnesium hydroxide is a classic antacid, long used generically for gastric acid neutralization and symptomatic relief of hyperacidity.
-> The TxGNN model predicts it may be effective for **Active Peptic Ulcer Disease**,
-> with **0 disease-specific clinical trials** but **20 supporting publications** (including several controlled trials of antacid-class therapy) currently backing this direction.
+> هيدروكسيد المغنيسيوم هو مضاد حموضة كلاسيكي، تم استخدامه تاريخياً بشكل عام لتحييد حمض المعدة والتخفيف الأعراضي من فرط الحموضة.
+> يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **مرض القرحة الهضمية النشطة**،
+> مع **0 تجارب سريرية خاصة بالمرض** لكن **20 منشور داعم** (بما فيها عدة دراسات عشوائية محكومة لعلاجات فئة مضادات الحموضة) تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Not formally registered in this market (drug is not marketed); generically used as an antacid for gastric hyperacidity/dyspepsia |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| الاستطباب الأصلي | غير مسجل رسمياً في هذا السوق (الدواء غير مسوق)؛ يُستخدم بشكل عام كمضاد حموضة لفرط حموضة المعدة / عسر الهضم |
+| الاستطباب الجديد المتنبأ به | مرض القرحة الهضمية النشطة |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L2 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفاويضات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات احترازية |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Detailed formal mechanism-of-action documentation is not available in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, magnesium hydroxide is a classic antacid component (frequently formulated in combination with aluminum hydroxide, e.g., Maalox-type products), and its role in neutralizing gastric acid has been established through decades of clinical use.
+لا تتوفر وثائق رسمية مفصلة عن آلية العمل في هذه مجموعة الأدلة (تم تحديدها كفجوة بيانات عالية الخطورة). بناءً على المعلومات المتاحة، هيدروكسيد المغنيسيوم هو مكون مضاد حموضة كلاسيكي (يتم صياغته بشكل متكرر بالاشتراك مع هيدروكسيد الألومنيوم، مثل منتجات من نوع Maalox)، وقد تم إثبات دوره في تحييد حمض المعدة من خلال عقود من الاستخدام السريري.
 
-The predicted indication — active peptic ulcer disease — is mechanistically continuous with, rather than distinct from, the drug's traditional antacid use. Peptic ulcer disease is fundamentally an acid/pepsin-mediated mucosal injury condition, which is precisely the pathology that antacid neutralization is designed to address. This is less a "repurposing" leap and more a formal validation of an already well-established pharmacological role.
+الاستطباب المتنبأ به - مرض القرحة الهضمية النشطة - يمثل استمراراً ميكانيكياً مع، وليس مختلفاً عن، استخدام الدواء التقليدي كمضاد حموضة. مرض القرحة الهضمية هو في الأساس حالة إصابة مخاطية وسيطة بالحمض والببسين، وهي بالضبط الأمراض التي يهدف تحييد مضادات الحموضة إلى معالجتها. هذا ليس "إعادة توظيف" قفزة وإنما تحقق رسمي من دور دوائي تم تأسيسه بالفعل.
 
-Mechanistically, the supporting literature describes magnesium hydroxide as acting through gastric acid neutralization, elevation of intragastric pH, and stimulation of prostaglandin-dependent mucosal cytoprotection — a mechanism that has underpinned its use as a first-line/adjunct peptic ulcer therapy for decades, typically administered in combination with aluminum hydroxide.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+ميكانيكياً، تصف الأدبيات الداعمة هيدروكسيد المغنيسيوم بأنه يعمل من خلال تحييد حمض المعدة وارتفاع درجة الحموضة داخل المعدة وتحفيز الحماية المخاطية المعتمدة على البروستاجلاندين — آلية عمل دعمت استخدامه كعلاج من الدرجة الأولى أو المساعد لقرحة الجهاز الهضمي لعقود، يتم إعطاؤه عادة بالاشتراك مع هيدروكسيد الألومنيوم.
 
 ---
 
-## Literature Evidence
+## أدلة التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية ذات صلة مسجلة.
+
+---
+
+## أدلة الأدبيات
+
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | 12-week double-blind trial: antacid/anticholinergic vs. cimetidine vs. placebo in 72 patients with active duodenal/prepyloric ulcers; antacid arm significantly outperformed placebo |
-| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | RCT | Clin Gastroenterol | Review/trial data on antacids and anticholinergics in duodenal ulcer treatment |
-| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT (H2-blocker comparator) | Clin Pharmacol Ther | 8-week multicenter RCT of nizatidine vs. placebo in benign gastric ulcer; used as an indirect efficacy benchmark for acid-suppressive/antacid therapy |
-| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | Review | Fortschritte der Medizin | Reviews antacid neutralizing capacity and dosing needed to inhibit pepsin activity and support ulcer healing |
-| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | Review | Curr Pharm Des | Updates cellular/molecular mechanisms of antacid-mediated gastric cytoprotection and ulcer healing beyond prostaglandins |
-| [2595273](https://pubmed.ncbi.nlm.nih.gov/2595273/) | 1989 | Animal study (rat) | Scand J Gastroenterol | Al(OH)3/Mg(OH)2-containing antacid dose-dependently prevented gastric lesions from ethanol, aspirin, and stress in rats, comparable to a PGE2 analog |
-| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Small clinical comparison | J Clin Gastroenterol | Compared postprandial acid-buffering duration of sodium bicarbonate vs. aluminum-magnesium hydroxide in duodenal ulcer patients |
-| [2401189](https://pubmed.ncbi.nlm.nih.gov/2401189/) | 1990 | Retrospective clinical study | Drugs Exp Clin Res | 267 pediatric patients with peptic symptoms; evaluated efficacy of various pharmacological agents (incl. antacids) in acute and relapse phases |
-| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro evaluation | Med Pharm Rep | Evaluated acid-neutralizing capacity of commercially marketed antacids (magnesium/aluminum hydroxide-based) |
-| [31111054](https://pubmed.ncbi.nlm.nih.gov/31111054/) | 2019 | Animal study (rat) | BioMed Res Int | Hydrotalcite (Mg/Al hydroxide compound) reduced NSAID-induced gastric injury in rats, linked to EGF/PGE2 secretion |
+| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | دراسة عمياء مزدوجة لمدة 12 أسبوعاً: مضاد حموضة/مضاد كولين مقابل سيميتيدين مقابل الدواء الوهمي في 72 مريضاً بقرحة ثنائية الاتجاه/ما قبل البواب؛ تفوقت مجموعة مضاد الحموضة بشكل كبير على الدواء الوهمي |
+| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | RCT | Clin Gastroenterol | مراجعة بيانات التجارب حول مضادات الحموضة ومضادات الكولين في علاج قرحة الاثني عشر |
+| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT (مقارن حاصر H2) | Clin Pharmacol Ther | دراسة عشوائية محكومة متعددة المراكز لمدة 8 أسابيع من nizatidine مقابل الدواء الوهمي في قرحة المعدة الحميدة؛ استُخدمت كمقياس فعالية غير مباشر لعلاج قمع الحمض/مضاد الحموضة |
+| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | مراجعة | Fortschritte der Medizin | مراجعة سعة تحييد مضادات الحموضة والجرعات المطلوبة لتثبيط نشاط الببسين ودعم التئام القرح |
+| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | مراجعة | Curr Pharm Des | تحديثات الآليات الخلوية والجزيئية للحماية الدوائية الوسيطة لمضادات الحموضة والتئام القرح بما يتجاوز البروستاجلاندين |
+| [2595273](https://pubmed.ncbi.nlm.nih.gov/2595273/) | 1989 | دراسة حيوانية (فئران) | Scand J Gastroenterol | منعت مضادات الحموضة المحتوية على Al(OH)3/Mg(OH)2 بشكل معتمد على الجرعة آفات المعدة التي تسببها الإيثانول والأسبرين والإجهاد في الفئران، قابلة للمقارنة مع نظير PGE2 |
+| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | مقارنة سريرية صغيرة | J Clin Gastroenterol | قارنت مدة تخزين المؤقت بعد تناول الطعام من بيكربونات الصوديوم مقابل هيدروكسيد الألومنيوم والمغنيسيوم في مرضى قرحة الاثني عشر |
+| [2401189](https://pubmed.ncbi.nlm.nih.gov/2401189/) | 1990 | دراسة سريرية بأثر رجعي | Drugs Exp Clin Res | 267 مريضاً بالأطفال يعانون من أعراض هضمية؛ قيّمت فعالية عوامل دوائية مختلفة (بما فيها مضادات الحموضة) في المراحل الحادة والانتكاسية |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | تقييم في المختبر | Med Pharm Rep | قيّمت سعة تحييد حمضي من مضادات الحموضة المسوقة تجارياً (القائمة على هيدروكسيد المغنيسيوم والألومنيوم) |
+| [31111054](https://pubmed.ncbi.nlm.nih.gov/31111054/) | 2019 | دراسة حيوانية (فئران) | BioMed Res Int | قلل hydrotalcite (مركب هيدروكسيد Mg/Al) من إصابة المعدة الناجمة عن مثبطات الالتهاب غير الستيروئيدية في الفئران، ومرتبطة بإفراز EGF/PGE2 |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Not currently marketed in this jurisdiction; no product authorization records available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+غير مسوق حالياً في هذا الاختصاص القضائي؛ لا توجد سجلات تفويض منتج متاحة.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى النشرة المرفقة بالدواء للحصول على معلومات السلامة.
 
-**Rationale:**
-Evidence level L2 is supported by multiple older RCTs and mechanistic studies establishing antacid efficacy in acid-related ulcer disease, and the mechanism (acid neutralization + prostaglandin-mediated mucosal cytoprotection) is well characterized. However, no disease-specific clinical trials exist, the drug is not currently marketed in this jurisdiction, and safety/labeling data are unavailable — so guardrails are warranted before advancing further.
+---
 
-**To proceed, the following is needed:**
-- TFDA/SFDA package insert (warnings, contraindications) — currently a Blocking data gap preventing S1 safety review
-- Formal mechanism-of-action documentation from DrugBank or equivalent source
-- Drug-drug interaction (DDI) data (current query status: not found)
-- Confirmation of market registration pathway/status in Saudi Arabia
-- Contemporary trials evaluating magnesium hydroxide specifically against current "active peptic ulcer disease" diagnostic criteria, since most supporting literature predates modern PPI-era treatment standards
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع ضمانات احترازية**
+
+**الأساس المنطقي:**
+يتم دعم مستوى الدليل L2 من خلال عدة دراسات عشوائية محكومة أقدم وبحوث آلية تثبت فعالية مضادات الحموضة في مرض القرحة المرتبطة بالحمض، والآلية (تحييد الحمض وحماية المخاطية الوسيطة بالبروستاجلاندين) موصوفة جيداً. ومع ذلك، لا توجد تجارب سريرية خاصة بالمرض، والدواء غير مسوق حالياً في هذا الاختصاص القضائي، وبيانات السلامة والتسميات غير متاحة — لذا هناك حاجة إلى ضمانات احترازية قبل المضي قدماً بشكل أبعد.
+
+**للمضي قدماً، يلزم ما يلي:**
+- نشرة TFDA/SFDA (التحذيرات والموانع) — حالياً فجوة بيانات حاجزة تمنع مراجعة السلامة S1
+- وثائق رسمية عن آلية العمل من DrugBank أو مصدر معادل
+- بيانات التفاعل بين الأدوية (DDI) (حالة الاستعلام الحالية: لم يتم العثور عليها)
+- تأكيد مسار تسجيل السوق وحالته في المملكة العربية السعودية
+- دراسات معاصرة تقيّم هيدروكسيد المغنيسيوم بشكل خاص مقابل معايير التشخيص الحالية "لمرض القرحة الهضمية النشطة"، حيث أن معظم الأدبيات الداعمة تسبق معايير معاملة حقبة مثبطات مضخة البروتون الحديثة
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

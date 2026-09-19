@@ -29,73 +29,74 @@ indication_count: 10
 
 </div>
 
-# Prucalopride: From Chronic Constipation to Hypoalphalipoproteinemia
+# بروكالوبريد: من الإمساك المزمن إلى نقص ألفا البروتين الدهني
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Prucalopride is a selective 5-HT4 receptor agonist used clinically for chronic idiopathic constipation and related gastrointestinal motility disorders. The TxGNN model's top-ranked prediction for this drug is **Hypoalphalipoproteinemia** (low HDL cholesterol), but this prediction is supported by **no clinical trials and no literature**, and the evidence pack itself flags it as possible model noise from sparse training data. This is a low-confidence, model-only prediction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic idiopathic constipation / GI motility disorders (inferred from evidence-pack rationale text; not confirmed via official MOA source — see below) |
-| Predicted New Indication | Hypoalphalipoproteinemia |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+بروكالوبريد هو ناهض مستقبلات 5-HT4 الانتقائي المستخدم سريرياً لعلاج الإمساك المزمن مجهول السبب والاضطرابات الحركية المعدية المعوية ذات الصلة. التنبؤ الأول المرتبة من نموذج TxGNN لهذا الدواء هو **نقص ألفا البروتين الدهني** (نقص كوليسترول HDL)، لكن هذا التنبؤ لا يدعمه **أي تجارب سريرية وليس لديه أي أدبيات**، وحزمة الأدلة نفسها تشير إلى أنه قد يكون ضوضاء نموذجية من بيانات تدريب نادرة. هذا تنبؤ منخفض الثقة يعتمد على النموذج فقط.
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Currently, detailed mechanism of action data is not available in the structured evidence pack (`original_moa` is a data gap). Based on information embedded in the repurposing rationale text, prucalopride is a selective 5-HT4 receptor agonist, clinically used to stimulate colonic motility in chronic idiopathic constipation and related dysmotility conditions.
-
-Hypoalphalipoproteinemia is a lipid metabolism disorder characterized by abnormally low HDL cholesterol, typically driven by genetic defects in lipoprotein transport and metabolism (e.g., ABCA1, APOA1). There is no established physiological pathway linking 5-HT4 receptor agonism (a gut motility mechanism) to lipoprotein metabolism.
-
-The evidence pack's own mechanistic assessment is explicit on this point: *"無已知機轉將 5-HT4 受体促效與脂蛋白代謝（HDL 過低）連結，無任何臨床或文獻證據，屬純預測分數，可能為 TxGNN 於稀疏資料下的雜訊輸出"* — i.e., no known mechanism connects the two, and the prediction may simply be model noise under sparse data. This prediction should therefore be treated as exploratory only, not as a biologically grounded hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| البند | المحتوى |
+|------|---------|
+| الاستطباب الأصلي | الإمساك المزمن مجهول السبب / اضطرابات الحركية المعدية المعوية (مستنتج من نص تبرير حزمة الأدلة؛ لم يتم التأكيد من خلال مصدر آلية العمل الرسمية — انظر أدناه) |
+| الاستطباب الجديد المتنبأ به | نقص ألفا البروتين الدهني |
+| درجة تنبؤ TxGNN | 99.82% |
+| مستوى الدليل | L5 |
+| حالة السوق بالمملكة العربية السعودية | غير مسوق (غير مسوق) |
+| عدد الترخيصات | 0 |
+| القرار الموصى به | عدم المتابعة |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-Currently no related literature available.
+حالياً، لا تتوفر بيانات آلية العمل التفصيلية في حزمة الأدلة المنظمة (`original_moa` عبارة عن فجوة في البيانات). بناءً على المعلومات المضمنة في نص تبرير إعادة الاستخدام، بروكالوبريد هو ناهض مستقبلات 5-HT4 الانتقائي، المستخدم سريرياً لتحفيز حركة القولون في الإمساك المزمن مجهول السبب والحالات ذات الصلة من عسر الحركة.
 
----
+نقص ألفا البروتين الدهني هو اضطراب استقلاب الدهون يتميز بانخفاض غير طبيعي في كوليسترول HDL، عادة ما يكون مدفوعاً بعيوب وراثية في نقل واستقلاب البروتين الدهني (مثل ABCA1 و APOA1). لا توجد مسارات فسيولوجية معروفة تربط ناهض مستقبلات 5-HT4 (آلية حركة الأمعاء) باستقلاب البروتين الدهني.
 
-## Saudi Arabia Market Information
-
-Prucalopride is not currently marketed in Saudi Arabia (0 authorizations on record), so no licensing/product table is available.
+التقييم الآلي الخاص بحزمة الأدلة واضح جداً على هذه النقطة: *"無已知機轉將 5-HT4 受体促效與脂蛋白代謝（HDL 過低）連結，無任何臨床或文獻證據，屬純預測分數，可能為 TxGNN 於稀疏資料下的雜訊輸出"* — أي أنه لا توجد آلية معروفة تربط الاثنين، وقد يكون التنبؤ ببساطة ضوضاء نموذجية من بيانات نادرة. لذلك، يجب التعامل مع هذا التنبؤ كاستكشافي فقط، وليس كفرضية قائمة على الأساس البيولوجي.
 
 ---
 
-## Safety Considerations
+## أدلة التجارب السريرية
 
-Please refer to the package insert for safety information.
+حالياً، لا توجد تجارب سريرية ذات صلة مسجلة.
 
 ---
 
-## Conclusion and Next Steps
+## أدلة الأدبيات
 
-**Decision: Hold**
+حالياً، لا توجد أدبيات ذات صلة متاحة.
 
-**Rationale:**
-The predicted indication carries a high TxGNN score but no mechanistic plausibility, no clinical trial evidence, and no supporting literature; the evidence pack itself flags the score as potentially reflecting model noise rather than a real signal. Combined with the drug's unmarketed status in Saudi Arabia, this candidate does not meet the threshold for further evaluation.
+---
 
-**To proceed, the following is needed:**
-- A biologically plausible mechanistic hypothesis linking 5-HT4 agonism to lipoprotein/HDL metabolism, if this candidate is to be revisited
-- Official MOA and TFDA/SFDA-equivalent package insert data (currently blocking per data-gap DG001/DG002)
-- Consider deprioritizing this candidate in favor of other predictions in the same evidence pack with stronger (though still indirect) support — notably **amyloidosis** and **primary amyloidosis** (rank 6 and 9, evidence level L4, "Research Question" stage), where literature indicates GI dysmotility from autonomic/smooth-muscle amyloid infiltration, offering a more plausible rationale for a prokinetic agent like prucalopride
+## معلومات السوق بالمملكة العربية السعودية
+
+بروكالوبريد غير مسوق حالياً في المملكة العربية السعودية (0 ترخيصات في السجلات)، لذلك لا يوجد جدول ترخيص/منتج متاح.
+
+---
+
+## اعتبارات السلامة
+
+يرجى الرجوع إلى نشرة الدواء للحصول على معلومات السلامة.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: عدم المتابعة**
+
+**التبرير:**
+الاستطباب المتنبأ به يحمل درجة TxGNN عالية لكنه يفتقر إلى معقولية آلية، وليس لديه أدلة من التجارب السريرية، وليس لديه أدبيات داعمة؛ حزمة الأدلة نفسها تشير إلى أن الدرجة قد تعكس ضوضاء نموذجية بدلاً من إشارة حقيقية. بالإضافة إلى حالة الدواء غير المسوقة في المملكة العربية السعودية، هذا المرشح لا يفي بعتبة التقييم الإضافي.
+
+**للمتابعة، يتطلب الآتي:**
+- فرضية آلية معقولة بيولوجياً تربط ناهض مستقبلات 5-HT4 باستقلاب البروتين الدهني/HDL، إذا كان سيتم إعادة النظر في هذا المرشح
+- بيانات MOA الرسمية وبيانات نشرة الدواء المكافئة لـ TFDA/SFDA (يتم حالياً حجبها وفقاً لفجوة البيانات DG001/DG002)
+- الأخذ في الاعتبار تقليل أولوية هذا المرشح لصالح تنبؤات أخرى في نفس حزمة الأدلة مع دعم أقوى (وإن كان غير مباشر) — خاصة **الداء النشواني** و**الداء النشواني الأولي** (الرتبة 6 و 9، مستوى الدليل L4، مرحلة "السؤال البحثي")، حيث تشير الأدبيات إلى عسر حركة معدية معوية من تسلل نشواني في العضلات الملساء والمستقلة، مما يوفر تبريراً أكثر معقولية لعامل محرك مثل بروكالوبريد
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

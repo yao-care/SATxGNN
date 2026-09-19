@@ -29,56 +29,57 @@ indication_count: 10
 
 </div>
 
-# Felbinac: From Topical Musculoskeletal Pain to Brachyolmia-Amelogenesis Imperfecta Syndrome
+# فلبيناك: من ألم الجهاز العضلي الهيكلي الموضعي إلى Brachyolmia-Amelogenesis Imperfecta Syndrome
 
-## One-Sentence Summary
+## ملخص الجملة الواحدة
 
-Felbinac is a biphenylacetic acid NSAID typically used as a topical formulation for musculoskeletal pain and inflammation (per the evidence pack's own mechanistic notes; no official original-indication or license record is available). The TxGNN model's top prediction is **Brachyolmia-Amelogenesis Imperfecta Syndrome**, but this is a rare skeletal/dental developmental disorder with **no clinical trials, no literature, and no plausible mechanistic link** to NSAID pharmacology — the evidence pack itself flags this as a likely graph-embedding false positive.
+فلبيناك هو عقار مضاد للالتهاب غير الستيرويدي من فئة الأحماض ثنائية الفينيل يُستخدم عادةً كصيغة موضعية لألم الجهاز العضلي الهيكلي والالتهاب (وفقاً لملاحظات الآلية الموجودة في حزمة الأدلة؛ لا توجد سجلات رسمية للمؤشر الأصلي أو الترخيص). التنبؤ الأعلى للنموذج TxGNN هو **Brachyolmia-Amelogenesis Imperfecta Syndrome**، إلا أن هذا اضطراب نمائي هيكلي/سني نادر جداً لا توجد به **تجارب سريرية أو أدبيات ولا وجود لصلة آلية معقولة** مع مضادات الالتهاب غير الستيرويدية — حيث تشير حزمة الأدلة ذاتها إلى أن هذا موجب كاذب ناجم عن تضمين الرسم البياني.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no license or original-indication records; drug's rationale notes describe it as a topical NSAID for musculoskeletal pain) |
-| Predicted New Indication | Brachyolmia-amelogenesis imperfecta syndrome |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Saudi Arabia Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| البند | المحتوى |
+|------|---------|
+| المؤشر الأصلي | غير متاح في حزمة الأدلة (لا توجد سجلات ترخيص أو مؤشرات أصلية؛ تصف ملاحظات مبررات الدواء أنه عقار موضعي مضاد للالتهاب غير الستيرويدي لألم الجهاز العضلي الهيكلي) |
+| المؤشر الجديد المتنبأ به | Brachyolmia-amelogenesis imperfecta syndrome |
+| درجة التنبؤ في TxGNN | 99.99% |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | غير مسوقة (Not Marketed) |
+| عدد التراخيص | 0 |
+| القرار الموصى به | تأجيل |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available. Based on the information present in the evidence pack, felbinac is described as a biphenylacetic acid-class NSAID that acts as a COX inhibitor, typically administered topically for musculoskeletal pain and inflammation.
+حالياً، بيانات آلية العمل التفصيلية غير متاحة. بناءً على المعلومات الموجودة في حزمة الأدلة، يوصف فلبيناك كعقار مضاد للالتهاب غير الستيرويدي من فئة الأحماض ثنائية الفينيل يعمل كمثبط COX، وعادةً ما يُعطى بشكل موضعي لعلاج ألم الجهاز العضلي الهيكلي والالتهاب.
 
-Brachyolmia-amelogenesis imperfecta syndrome, however, is an extremely rare complex disorder combining skeletal dysplasia (short spine) with enamel formation defects, driven by structural-protein and mineralization-regulation gene pathways. There is no established pharmacological connection between NSAID/COX inhibition and this disease's pathology.
+Brachyolmia-amelogenesis imperfecta syndrome، مع ذلك، هو اضطراب معقد نادر جداً يجمع بين خلل النمو الهيكلي (العمود الفقري القصير) مع عيوب تكون المينا، مدفوع بمسارات جينات البروتين الهيكلي وتنظيم المعادن. لا توجد صلة صيدلانية مثبتة بين مثبطات COX/مضادات الالتهاب غير الستيرويدية وأمراض هذا الاضطراب.
 
-The evidence pack's own repurposing rationale for this candidate explicitly states that the mechanistic link is absent and characterizes the high TxGNN score as a typical case of embedding-based false positive for rare-disease nodes, rather than a genuine biological signal. This assessment should be taken at face value — the ranking score alone (rank 471 by TxGNN, 99.99% probability) does not compensate for the lack of mechanistic or empirical support.
+يصرح مبرر إعادة الاستخدام الخاص بحزمة الأدلة ذاتها لهذا المرشح بصراحة بأن الصلة الآلية غائبة ويصف درجة TxGNN العالية كحالة نموذجية من الموجبات الكاذبة المبنية على التضمين لعقد الأمراض النادرة، وليس إشارة بيولوجية حقيقية. يجب قبول هذا التقييم كما هو دون التشكيك — فدرجة الترتيب وحدها (الرتبة 471 بواسطة TxGNN، احتمالية 99.99%) لا تعوض عن غياب الدعم الآلي أو التجريبي.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-Currently no related clinical trials registered
+حالياً لا توجد تجارب سريرية ذات صلة مسجلة
 
-## Literature Evidence
+## أدلة من الأدبيات
 
-Currently no related literature available
+حالياً لا توجد أدبيات ذات صلة متاحة
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للعبوة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: تأجيل**
 
-**Rationale:**
-There is no clinical trial or literature evidence for this indication, mechanism-of-action data for felbinac is unavailable, the drug is not marketed in Saudi Arabia (0 authorizations), and the evidence pack's own rationale identifies this top-ranked prediction as a likely knowledge-graph artifact with no biological plausibility.
+**المبررات:**
+لا توجد أدلة من التجارب السريرية أو الأدبيات لهذا المؤشر، وبيانات آلية العمل لفلبيناك غير متاحة، والدواء غير مسوق في المملكة العربية السعودية (0 تراخيص)، وتحدد مبررات حزمة الأدلة ذاتها هذا التنبؤ ذو الترتيب الأعلى كقطعة أثرية محتملة في الرسم البياني للمعرفة بدون معقولية بيولوجية.
 
-**To proceed, the following is needed:**
-- Felbinac mechanism-of-action data (DrugBank API query, currently blocking data gap)
-- SFDA/TFDA package insert (warnings, contraindications, DDI) — currently blocking data gap
-- Independent biological/genetic plausibility review for this candidate before any further investment
-- Consider deprioritizing this rank-1 candidate in favor of the mechanistically more coherent, NSAID-class-relevant candidates in this evidence pack (e.g., spondyloarthropathy susceptibility, rheumatoid nodulosis, juvenile idiopathic arthritis — ranks 6, 7, 9, 10), which are flagged as "Research Question" rather than "Hold" and warrant lower-cost literature screening first
+**للمتابعة، يلزم ما يلي:**
+- بيانات آلية عمل فلبيناك (استعلام DrugBank API، حالياً تمثل فجوة بيانات حاجزة)
+- نشرة SFDA/TFDA الداخلية (تحذيرات، موانع استخدام، DDI) — حالياً فجوة بيانات حاجزة
+- مراجعة مستقلة للمعقولية البيولوجية/الوراثية لهذا المرشح قبل أي استثمار إضافي
+- اعتبر تقليل أولوية هذا المرشح ذو الرتبة 1 لصالح المرشحين الأكثر تماسكاً من الناحية الآلية وذات الصلة بمضادات الالتهاب غير الستيرويدية في حزمة الأدلة هذه (مثل الاستعداد لالتهاب الفقار القسطي، والعقيدات الروماتويدية، والتهاب المفاصل المجهول السبب لدى الأطفال — الرتب 6، 7، 9، 10)، والتي تُوصف بأنها "سؤال بحثي" بدلاً من "تأجيل" وتستحق فحص الأدبيات منخفض التكلفة أولاً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

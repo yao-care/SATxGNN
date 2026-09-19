@@ -29,85 +29,86 @@ indication_count: 10
 
 </div>
 
-# Levetiracetam: From Epilepsy to Visual Epilepsy
+# ليفيتيراسيتام: من الصرع إلى الصرع البصري
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Levetiracetam is a broad-spectrum second-generation antiepileptic drug, established globally for partial-onset seizures and, as adjunctive therapy, for myoclonic and generalized tonic-clonic seizures in juvenile myoclonic epilepsy.
-The TxGNN model predicts it may also be effective for **Visual Epilepsy** (a photosensitive/reflex epilepsy subtype),
-with **9 clinical trials** and **20 publications** currently identified, though none target this specific reflex-epilepsy phenotype directly.
+ليفيتيراسيتام هو دواء مضاد للصرع من الجيل الثاني واسع الطيف، معروف عالمياً لعلاج نوبات البداية الجزئية وكعلاج إضافي لنوبات الارتعاش العضلي والنوبات المشنجة العمومية-الركودية في صرع الارتعاش العضلي الشبابي.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً في **الصرع البصري** (نوع فرعي من الصرع الضوئي/الصرع الانعكاسي)،
+مع **9 تجارب سريرية** و **20 منشوراً** معروفة حالياً، لكن لا أحد منها يستهدف هذا النمط الظاهري المحدد للصرع الانعكاسي بشكل مباشر.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|------|
-| Original Indication | Epilepsy — partial-onset seizures (mono/adjunctive therapy) and myoclonic/generalized tonic-clonic seizures in juvenile myoclonic epilepsy (established global indication; formal Saudi Arabia label text is not yet available — product not marketed there) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| المؤشر الأصلي | الصرع — نوبات البداية الجزئية (علاج أحادي/إضافي) ونوبات الارتعاش العضلي والنوبات المشنجة العمومية-الركودية في صرع الارتعاش العضلي الشبابي (مؤشر عام معروف عالمياً؛ لم يتوفر بعد نص التسمية الرسمي للمملكة العربية السعودية — المنتج غير معروض في السوق هناك) |
+| المؤشر الجديد المتوقع | الصرع البصري |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الأدلة | L3 |
+| حالة السوق بالمملكة العربية السعودية | غير معروض (غير معروض) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | توقف مؤقت |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data from DrugBank/TFDA is not available (flagged as a High-severity data gap). Based on information available within this evidence pack, levetiracetam belongs to the SV2A (synaptic vesicle protein 2A) modulator class of antiepileptics — it binds SV2A to regulate neurotransmitter release and dampen abnormal, synchronized neuronal firing. This broad-spectrum anti-hyperexcitability mechanism is the basis for its established efficacy in generalized and myoclonic epilepsy syndromes, including juvenile myoclonic epilepsy (JME).
+حالياً، بيانات آلية التأثير المفصلة من DrugBank/TFDA غير متاحة (تم تحديدها كفجوة بيانات عالية الخطورة). بناءً على المعلومات المتاحة في هذه مجموعة الأدلة، ينتمي ليفيتيراسيتام إلى فئة معدلات SV2A (بروتين الحويصلة المشبكية 2A) من الأدوية المضادة للصرع — يرتبط بـ SV2A لتنظيم إفراز الناقلات العصبية وتقليل إطلاق النار العصبي غير الطبيعي والمتزامن. هذه آلية مضادة للإثارة الزائدة واسعة الطيف هي الأساس لفعاليتها المعروفة في متلازمات الصرع العمومي والارتعاش العضلي، بما في ذلك صرع الارتعاش العضلي الشبابي (JME).
 
-Visual epilepsy — seizures triggered by photic/visual stimuli — is generally classified within the idiopathic generalized epilepsy (IGE) spectrum, the same category in which levetiracetam already has proven efficacy (e.g., myoclonic seizures in JME, photosensitivity-associated IGE). Mechanistically, an SV2A modulator that suppresses cortical hyperexcitability would plausibly extend to visually-provoked reflex seizures, since the underlying cortical hyperexcitability circuitry overlaps substantially with other IGE subtypes.
+الصرع البصري — نوبات مستثارة بمحفزات ضوئية/بصرية — يُصنف عموماً ضمن طيف الصرع العمومي الجهالي (IGE)، وهي نفس الفئة التي يتمتع ليفيتيراسيتام فيها بفعالية مثبتة (على سبيل المثال، نوبات الارتعاش العضلي في JME، صرع IGE المرتبط بالحساسية الضوئية). من ناحية الآلية، فإن معدل SV2A الذي يثبط فرط الإثارة القشرية سيتسع بشكل معقول إلى نوبات مستثارة بصرياً انعكاسياً، لأن دائرة فرط الإثارة القشرية الأساسية متداخلة بشكل كبير مع أنواع IGE الأخرى.
 
-However, the identified trials and literature largely address levetiracetam's use for *general* seizure prophylaxis (intracerebral hemorrhage, TBI, neonatal seizures) or for migraine with visual aura, rather than photosensitive/visually-induced epilepsy specifically. The mechanistic rationale is therefore an analogy from adjacent IGE evidence rather than a direct, indication-specific confirmation.
+ومع ذلك، فإن التجارب والأدبيات المحددة تتناول بشكل كبير استخدام ليفيتيراسيتام لـ *الوقاية العامة* من النوبات (نزف دماغي جوفي، إصابة الدماغ الرضية، نوبات حديثي الولادة) أو للصداع النصفي مع الهالة البصرية، بدلاً من دراسة الصرع المستثار بصرياً/الضوئي بشكل محدد. لذا فإن المبرر الميكانيكي هو قياس بالمقارنة من الأدلة المجاورة من IGE بدلاً من تأكيد مباشر ومحدد للمؤشر.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Phase 3 | Not yet recruiting | 580 | RCT of prophylactic levetiracetam for functional outcome after acute intracerebral haemorrhage; early seizures occur in up to 40% of ICH cases on continuous EEG. |
-| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Completed | 31 | Open-label trial of levetiracetam for prophylactic treatment of migraine with or without aura (including visual disturbances). |
-| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Phase 4 | Unknown | 40 | Efficacy of levetiracetam in control of neonatal seizures vs. traditional phenobarbital first-line therapy. |
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Observational study of new AEDs (including levetiracetam) as first-choice bitherapy in focal epilepsy. |
-| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Phase 2 | Completed | 62 | Levetiracetam's effect on hippocampal hyperactivity in psychosis, using a visual scene-processing fMRI task. |
-| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Phase 1/2 | Enrolling by invitation | 24 | AVASPA gene therapy for Canavan disease (levetiracetam not the study drug; low direct relevance). |
-| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Phase 2 | Terminated (n=1) | 1 | Pharmacologic modulation of hippocampal hyperactivity in psychosis using levetiracetam; terminated early. |
-| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Phase 3 | Not yet recruiting | 1649 | MAST trial: optimal duration/choice of AEDs (phenytoin vs. levetiracetam) after traumatic brain injury. |
-| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Phase 2 | Completed | 87 | RCT of cognitive/neuropsychological effects of adjunctive levetiracetam in children with refractory partial-onset seizures. |
+| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | المرحلة 3 | لم تبدأ بعد | 580 | تجربة معشاة ذات شواهد لليفيتيراسيتام الوقائي للنتائج الوظيفية بعد نزف دماغ جوفي حاد؛ النوبات المبكرة تحدث في ما يصل إلى 40% من حالات ICH على تخطيط كهربائي مستمر للدماغ. |
+| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | غير محدد | مكتملة | 31 | تجربة مفتوحة التصميم لليفيتيراسيتام للعلاج الوقائي من الصداع النصفي مع الهالة أو بدونها (بما في ذلك الاضطرابات البصرية). |
+| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | المرحلة 4 | غير محدد | 40 | فعالية ليفيتيراسيتام في السيطرة على نوبات حديثي الولادة مقابل العلاج الأول التقليدي بـ فينوباربيتال. |
+| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | المرحلة 4 | مكتملة | 111 | دراسة رصدية للأدوية المضادة للصرع الجديدة (بما في ذلك ليفيتيراسيتام) كخيار أول للعلاج الثنائي في صرع البؤري. |
+| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | المرحلة 2 | مكتملة | 62 | تأثير ليفيتيراسيتام على فرط نشاط الحصين في الذهان، باستخدام مهمة معالجة مشهد بصري بـ fMRI. |
+| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | المرحلة 1/2 | التسجيل بناءً على الدعوة | 24 | العلاج الجيني AVASPA لمرض كانافان (ليفيتيراسيتام ليس دواء الدراسة؛ ذو صلة مباشرة منخفضة). |
+| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | المرحلة 2 | توقفت (n=1) | 1 | التعديل الدوائي لفرط نشاط الحصين في الذهان باستخدام ليفيتيراسيتام؛ توقفت مبكراً. |
+| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | المرحلة 3 | لم تبدأ بعد | 1649 | تجربة MAST: المدة المثلى/الخيار الأمثل للأدوية المضادة للصرع (فينيتوين مقابل ليفيتيراسيتام) بعد إصابة الدماغ الرضية. |
+| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | المرحلة 2 | مكتملة | 87 | تجربة معشاة ذات شواهد لتأثيرات إدراكية/عصبية نفسية لليفيتيراسيتام الإضافي لدى الأطفال الذين يعانون من نوبات بؤرية مقاومة للعلاج. |
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT (Phase 3) | The Lancet Neurology | PEACH trial: prophylactic levetiracetam tested to reduce acute seizure risk after intracerebral haemorrhage. |
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | Levetiracetam vs. phenobarbital for neonatal seizures; no FDA-approved therapy currently exists for this population. |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Network Meta-analysis | Journal of Neurology | Compares efficacy/safety of antiseizure medications, including levetiracetam, for idiopathic generalized epilepsies. |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Systematic Review/Meta-analysis | Epilepsy & Behavior | Levetiracetam for myoclonic seizures in IGE, specifically juvenile myoclonic epilepsy. |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Systematic Review/Meta-analysis | Neurocritical Care | Levetiracetam for seizure prophylaxis in ICH, TBI, and subarachnoid hemorrhage; efficacy/dosing remain unclear. |
-| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Clinical Practice Guideline | Neurocritical Care | Neurocritical Care Society guideline on seizure prophylaxis in moderate-severe TBI. |
-| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | "Spotlight on levetiracetam" — summarizes approved indications, including adjunctive treatment of myoclonic seizures in JME. |
-| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Review | New England Journal of Medicine | Initial management of seizure in adults. |
-| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | Review | Arquivos de Neuro-Psiquiatria | Review of status epilepticus diagnosis, monitoring, and treatment. |
-| [29037435](https://pubmed.ncbi.nlm.nih.gov/29037435/) | 2018 | Review (veterinary) | Vet Clin North Am Small Anim Pract | Feline epilepsy management; levetiracetam noted as useful for certain seizure types in cats — low direct human relevance. |
+| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | تجربة معشاة ذات شواهد (المرحلة 3) | The Lancet Neurology | تجربة PEACH: تم اختبار ليفيتيراسيتام الوقائي لتقليل خطر النوبات الحادة بعد نزف دماغي جوفي. |
+| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | تجربة معشاة ذات شواهد | Pediatrics | ليفيتيراسيتام مقابل فينوباربيتال لنوبات حديثي الولادة؛ لا يوجد حالياً علاج معتمد من قبل إدارة الغذاء والدواء لهذه الفئة السكانية. |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | تحليل شبكة تجميعي | Journal of Neurology | يقارن فعالية/سلامة الأدوية المضادة للنوبات، بما في ذلك ليفيتيراسيتام، لصرع عمومي جهالي. |
+| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | مراجعة منهجية/تحليل تجميعي | Epilepsy & Behavior | ليفيتيراسيتام لنوبات الارتعاش العضلي في صرع عمومي جهالي، خاصة صرع الارتعاش العضلي الشبابي. |
+| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | مراجعة منهجية/تحليل تجميعي | Neurocritical Care | ليفيتيراسيتام للوقاية من النوبات في نزف دماغي جوفي، إصابة الدماغ الرضية، ونزيف تحت العنكبوتية؛ تبقى الفعالية/الجرعات غير واضحة. |
+| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | إرشادات الممارسة السريرية | Neurocritical Care | إرشادات جمعية العناية الحرجة العصبية بشأن الوقاية من النوبات في إصابة الدماغ الرضية المتوسطة-الشديدة. |
+| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | مراجعة | CNS Drugs | "عرض ليفيتيراسيتام" — يلخص المؤشرات المعتمدة، بما في ذلك العلاج الإضافي لنوبات الارتعاش العضلي في JME. |
+| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | مراجعة | New England Journal of Medicine | الإدارة الأولية للنوبات لدى البالغين. |
+| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | مراجعة | Arquivos de Neuro-Psiquiatria | مراجعة تشخيص حالة الصرع المستمرة والمراقبة والعلاج. |
+| [29037435](https://pubmed.ncbi.nlm.nih.gov/29037435/) | 2018 | مراجعة (طبية بيطرية) | Vet Clin North Am Small Anim Pract | إدارة الصرع في القطط؛ لاحظ ليفيتيراسيتام مفيد لأنواع معينة من النوبات في القطط — صلة مباشرة منخفضة للبشر. |
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Levetiracetam currently holds no marketing authorization in Saudi Arabia (0 licenses on file); the product's status is recorded as **not marketed**, so no product/dosage-form/indication details are available to tabulate.
+ليفيتيراسيتام حالياً لا يحمل أي ترخيص تسويقي في المملكة العربية السعودية (0 رخصة في الملف)؛ حالة المنتج مسجلة كـ **غير معروض**، لذا لا تتوفر تفاصيل المنتج/شكل الجرعة/المؤشر لتجدولها.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى إدراج الحزمة للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: توقف مؤقت**
 
-**Rationale:**
-The TxGNN score is high, but no identified trial or publication directly studies levetiracetam in visually-induced/photosensitive epilepsy — the supporting evidence is drawn by analogy from levetiracetam's established efficacy in adjacent idiopathic generalized epilepsy syndromes (myoclonic seizures, JME) and from general seizure-prophylaxis trials (ICH, TBI, neonatal). This is classified as evidence level L3, insufficient to justify direct clinical progression.
+**المبرر:**
+درجة TxGNN عالية، لكن لا توجد تجربة أو منشور معروف يدرس بشكل مباشر ليفيتيراسيتام في صرع مستثار بصرياً/حساس للضوء — الأدلة الداعمة مستخلصة بالقياس من فعالية ليفيتيراسيتام المثبتة في متلازمات صرع عمومي جهالي مجاورة (نوبات ارتعاش عضلي، JME) وفي تجارب وقاية عامة من النوبات (نزف دماغي جوفي، إصابة الدماغ الرضية، نوبات حديثي الولادة). يُصنف هذا كمستوى أدلة L3، غير كافٍ لتبرير التقدم السريري المباشر.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (currently a Blocking data gap — required before any S1 safety screening)
-- DrugBank-sourced mechanism of action confirmation (currently a High-severity data gap)
-- A trial or case series specifically enrolling patients with visually-induced/reflex (photosensitive) epilepsy, rather than general seizure-prophylaxis populations
-- Saudi Arabia regulatory dossier and marketing authorization data, since the product is not currently marketed there
+**لكي تتمكن من المتابعة، يلزم ما يلي:**
+- تحذيرات إدراج حزمة TFDA/موانع استعمال (حالياً فجوة بيانات حاجزة — مطلوبة قبل أي فحص سلامة S1)
+- تأكيد آلية التأثير من مصدر DrugBank (حالياً فجوة بيانات عالية الخطورة)
+- تجربة أو سلسلة حالات تسجل بشكل محدد مرضى يعانون من صرع مستثار بصرياً/انعكاسياً (حساس للضوء)، بدلاً من مجموعات وقاية عامة من النوبات
+- ملف تنظيمي بالمملكة العربية السعودية وبيانات ترخيص التسويق، حيث أن المنتج غير معروض حالياً في السوق هناك
 
-*Note: within the same evidence pack, a separate predicted indication — status epilepticus (rank 9, TxGNN score 99.91%) — shows substantially stronger direct evidence (L1, multiple completed Phase 3 RCTs including ESETT/NEJM 2019, recommendation "Proceed with Guardrails") and may warrant its own evaluation report.*
+*ملاحظة: ضمن نفس مجموعة الأدلة، مؤشر متوقع منفصل — حالة الصرع المستمرة (الترتيب 9، درجة TxGNN 99.91%) — يظهر أدلة مباشرة أقوى بشكل كبير (L1، تجارب معشاة ذات شواهد متعددة في المرحلة 3 المكتملة بما في ذلك ESETT/NEJM 2019، توصية "المتابعة مع الضمانات") وقد تستحق تقرير تقييم منفصل.*
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -29,80 +29,81 @@ indication_count: 4
 
 </div>
 
-# Darunavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# دارونافير: من عدوى فيروس نقص المناعة البشرية من النوع الأول إلى عدوى فيروس العوز المناعي عند القرود
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Darunavir is a second-generation HIV-1 protease inhibitor approved for treating HIV-1 infection in adults and pediatric patients.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**,
-with **0 clinical trials** and **4 non-human primate studies** currently supporting this direction.
+دارونافير هو مثبط البروتياز من الجيل الثاني لفيروس نقص المناعة البشرية من النوع الأول معتمد لعلاج عدوى فيروس نقص المناعة البشرية من النوع الأول لدى البالغين والمرضى الأطفال.
+يتوقع نموذج TxGNN أنه قد يكون فعالاً في علاج **عدوى فيروس العوز المناعي عند القرود (SIV)**،
+مع **0 تجارب سريرية** و**4 دراسات على الرئيسيات غير البشرية** تدعم هذا الاتجاه حالياً.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|---------|
-| Original Indication | HIV-1 infection |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | عدوى فيروس نقص المناعة البشرية من النوع الأول |
+| الاستطباب الجديد المتوقع | عدوى فيروس العوز المناعي عند القرود |
+| درجة تنبؤ TxGNN | 99.97% |
+| مستوى الدليل | L4 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوقة |
+| عدد التصاريح | 0 |
+| القرار الموصى به | تأجيل |
 
 ---
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Darunavir is a second-generation HIV-1 protease inhibitor that binds tightly to the active site of the HIV-1 protease enzyme, preventing cleavage of viral polyprotein precursors and blocking the production of mature, infectious virions. Its exceptionally high genetic barrier to resistance — compared with first-generation agents such as lopinavir — and broad activity against wild-type and multi-drug-resistant HIV-1 strains have made it a backbone of modern combination antiretroviral therapy (cART).
+دارونافير هو مثبط بروتياز فيروس نقص المناعة البشرية من النوع الأول من الجيل الثاني يرتبط بإحكام بالموقع النشط لإنزيم بروتياز فيروس نقص المناعة البشرية من النوع الأول، مما يمنع انقسام سلائف البروتينات الفيروسية ويعيق إنتاج الفيروسات الناضجة والمعدية. إن حاجزه الجيني الاستثنائي العالي للمقاومة - مقارنة مع عوامل الجيل الأول مثل لوبينافير - وفعاليته الواسعة ضد السلالات البرية والمقاومة متعددة الأدوية من فيروس نقص المناعة البشرية من النوع الأول جعلته العمود الفقري للعلاج المضاد للفيروسات العكوسة المركب الحديث (cART).
 
-The mechanistic case for activity against SIV rests on structural homology: SIV and HIV-1 are both primate lentiviruses, and their protease enzymes share approximately 85–90% amino acid sequence identity. Consistent with this, all four supporting publications used Darunavir as a component of intensified cART regimens in SIVmac239- or SIVmac251-infected rhesus macaques, demonstrating clinically relevant viral suppression and enabling study of latent reservoir dynamics — the same scientific problems driving HIV cure research in humans.
+تستند الحالة الآلية للنشاط ضد SIV إلى التماثل الهيكلي: SIV و HIV-1 كلاهما من فيروسات العدسيات البريماتية، وتشارك إنزيمات البروتياز الخاصة بهما تطابقاً في تسلسل الأحماض الأمينية بنسبة تقريباً 85–90%. بما يتماشى مع ذلك، استخدمت جميع المنشورات الأربعة الداعمة دارونافير كمكون من أنظمة cART المكثفة في قرود الماكاك الريسوسي المصابة بـ SIVmac239 أو SIVmac251، مما أظهر قمعاً فيروسياً ذا صلة سريرية وتمكين دراسة ديناميات الخزان الكامن - نفس المشاكل العلمية التي تحرك بحث علاج فيروس نقص المناعة البشرية لدى البشر.
 
-However, the residual 10–15% amino acid divergence between SIV and HIV-1 proteases means that binding affinity cannot be assumed equivalent without dedicated enzyme assays. More importantly, SIV infection is a non-human primate pathogen with no direct human clinical counterpart: this TxGNN prediction reflects Darunavir's validated utility in preclinical animal models rather than a conventional repurposing opportunity targeting a new human disease.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Darunavir in simian immunodeficiency virus infection.
+ومع ذلك، فإن الاختلاف المتبقي بنسبة 10–15% في تسلسل الأحماض الأمينية بين بروتيازات SIV و HIV-1 يعني أن تقاربية الارتباط لا يمكن افتراض أنها متكافئة بدون فحوصات الإنزيم المخصصة. والأهم من ذلك، أن عدوى SIV هي مرض من أمراض الرئيسيات غير البشرية بلا نظير سريري مباشر عند الإنسان: هذا التنبؤ من TxGNN يعكس الفائدة المثبتة لدارونافير في نماذج الحيوان قبل السريرية بدلاً من فرصة إعادة توظيف تقليدية تستهدف مرضاً بشرياً جديداً.
 
 ---
 
-## Literature Evidence
+## دليل التجارب السريرية
 
-| PMID | Year | Type | Journal | Key Findings |
+لا توجد حالياً تجارب سريرية مرتبطة بدارونافير مسجلة في عدوى فيروس العوز المناعي عند القرود.
+
+---
+
+## دليل الأدبيات العلمية
+
+| PMID | السنة | النوع | المجلة | الدراسات الرئيسية |
 |------|------|------|---------|-------------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | NHP Experiment | AIDS Res Hum Retroviruses | Evaluated two novel coformulated cART regimens including darunavir in SIVmac239-infected rhesus macaques; both regimens achieved sustained, clinically relevant viral suppression suitable for reservoir studies |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | NHP Experiment | PLoS Pathogens | Highly intensified multi-drug ART (including darunavir) suppressed SIVmac251 viremia across a broad viral load range (10³–10⁷ copies/mL) and significantly restricted the measurable viral reservoir in rhesus macaques |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | NHP Experiment | PLoS One | cART (including darunavir) combined with the HDAC inhibitor SAHA in SIV-infected Chinese-origin rhesus macaques; examined reservoir persistence and the "shock-and-kill" latency reversal concept |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | NHP Experiment | AIDS (London) | Auranofin co-administered with cART (including darunavir) in an SIV monkey model; demonstrated restriction of lentiviral reservoir cells and containment of viral load following ART suspension |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | تجربة على الرئيسيات غير البشرية | AIDS Res Hum Retroviruses | قيّمت نظامي cART مصيغين معاً بطريقة جديدة يتضمنان دارونافير في قرود ماكاك ريسوسي مصابة بـ SIVmac239؛ حقق كلا النظامين قمعاً فيروسياً مستدام ذا صلة سريرية مناسب لدراسات الخزان |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | تجربة على الرئيسيات غير البشرية | PLoS Pathogens | قمع العلاج المضاد للفيروسات متعدد الأدوية المكثف للغاية (يتضمن دارونافير) فيروسيات SIVmac251 عبر نطاق واسع من الحمل الفيروسي (10³–10⁷ نسخة/مل) وقيّد بشكل كبير الخزان الفيروسي القابل للقياس في قرود الماكاك الريسوسي |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | تجربة على الرئيسيات غير البشرية | PLoS One | العلاج cART (يتضمن دارونافير) مدمج مع مثبط HDAC SAHA في قرود ماكاك ريسوسي من أصول صينية مصابة بـ SIV؛ فحصت بقاء الخزان ومفهوم "الصدمة والقتل" لانعكاس الكمون |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | تجربة على الرئيسيات غير البشرية | AIDS (London) | أعطي أورانوفين بالتزامن مع cART (يتضمن دارونافير) في نموذج قرد SIV؛ أظهر تقييد خلايا خزان الفيروس البطيء واحتواء الحمل الفيروسي بعد إيقاف العلاج المضاد للفيروسات |
 
-> **Note:** All four studies are Tier 3 non-human primate experiments. No randomized controlled trials or observational human studies were identified for this indication.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+> **ملاحظة:** جميع الدراسات الأربعة هي تجارب المستوى الثالث على الرئيسيات غير البشرية. لم يتم تحديد أي تجارب عشوائية محكومة أو دراسات مراقبية بشرية لهذا الاستطباب.
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Hold**
+يرجى الرجوع إلى نشرة العبوة للحصول على معلومات السلامة.
 
-**Rationale:**
-The entire evidence base for this prediction consists of non-human primate animal model studies (L4), and SIV infection is by definition a primate pathogen with no direct human clinical target — the prediction captures Darunavir's established role as a cART component in preclinical HIV research, rather than identifying a novel clinical repurposing opportunity. The remaining three TxGNN predictions further support a conservative posture: feline AIDS (L5) is mechanistically unsupported given FIV protease divergence; the neurodevelopmental disorder (L5) has no biological rationale linking HIV protease inhibition to neurodevelopment; and familial combined hyperlipidemia (L5) is a **pharmacological reversal signal** — Darunavir/ritonavir is a known inducer of hypertriglyceridemia and elevated LDL-C, making this a documented adverse effect rather than a therapeutic target.
+---
 
-> ⚠️ **Data Pipeline Note:** The clinical trial NCT02770508 retrieved for the "feline AIDS" indication is a Phase 4 human HIV-1 study with no feline disease relevance (Grade C mapping error). This reflects a false-positive retrieval in the evidence pipeline and should be corrected upstream.
+## الاستنتاج والخطوات التالية
 
-**To proceed, the following is needed:**
+**القرار: تأجيل**
 
-- Formal in vitro enzyme-binding assays confirming Darunavir activity against SIV protease specifically (to resolve the 10–15% sequence divergence uncertainty)
-- Clarification of the intended clinical context: if the goal is optimizing NHP model fidelity for HIV cure research, this evidence supports continued use; if pursuing a de novo human clinical indication, redirect effort to higher-evidence human disease associations
-- Full MOA and safety profile data (currently unavailable in this dataset) to enable S1 safety screening
-- Package insert review to complete contraindication and warning assessment (DG001 gap, currently blocking S1 entry)
+**المبررات:**
+تتكون قاعدة الأدلة الكاملة لهذا التنبؤ من دراسات نماذج الحيوانات على الرئيسيات غير البشرية (L4)، وعدوى SIV هي بالتعريف مرض من أمراض الرئيسيات بلا هدف سريري مباشر عند الإنسان - يعكس التنبؤ الدور المثبت لدارونافير كمكون cART في أبحاث فيروس نقص المناعة البشرية قبل السريرية، بدلاً من تحديد فرصة إعادة توظيف سريرية جديدة. تدعم التنبؤات الثلاثة المتبقية من TxGNN موقفاً محافظاً بشكل إضافي: الإيدز القطي (L5) غير مدعوم آلياً نظراً لاختلاف بروتياز FIV؛ اضطراب النمو العصبي (L5) ليس له أساس بيولوجي يربط مثبط بروتياز فيروس نقص المناعة البشرية بالنمو العصبي؛ وفرط شحميات الدم المركب العائلي (L5) هو **إشارة انعكاس دوائي** - دارونافير/ريتونافير هو حث معروف لفرط ثلاثي الجليسيريدات والارتفاع في LDL-C، مما يجعل هذا تأثيراً عكسياً موثقاً بدلاً من هدف علاجي.
+
+> ⚠️ **ملاحظة خط أنابيب البيانات:** التجربة السريرية NCT02770508 المسترجعة لاستطباب "الإيدز القطي" هي دراسة فيروس نقص المناعة البشرية من النوع الأول البشرية من المرحلة الرابعة بدون صلة بمرض القطط (خطأ رسم الخرائط من الدرجة C). هذا يعكس استرجاعاً إيجابياً كاذباً في خط أنابيب الأدلة ويجب تصحيحه في المصدر.
+
+**للمتابعة، يلزم ما يلي:**
+
+- اختبارات رسمية لربط الإنزيم في الأنابيب الزجاجية تؤكد فعالية دارونافير ضد بروتياز SIV على وجه التحديد (لحل عدم اليقين من الاختلاف في تسلسل 10–15%)
+- توضيح السياق السريري المقصود: إذا كان الهدف تحسين دقة نموذج الرئيسيات غير البشرية لأبحاث علاج فيروس نقص المناعة البشرية، فإن هذا الدليل يدعم الاستخدام المستمر؛ إذا كان السعي لتحديد استطباب سريري بشري جديد، فأعد توجيه الجهود إلى ارتباطات أمراض بشرية ذات أدلة أعلى
+- بيانات كاملة عن الآلية والملف الأمني (غير متاحة حالياً في هذه مجموعة البيانات) لتمكين فحص سلامة S1
+- مراجعة نشرة العبوة لإكمال تقييم موانع الاستعمال والتحذيرات (فجوة DG001، تعيق حالياً دخول S1)
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

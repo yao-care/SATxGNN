@@ -29,95 +29,96 @@ indication_count: 10
 
 </div>
 
-# Carbamazepine: From Epilepsy / Trigeminal Neuralgia to Trigeminal Nerve Neoplasm
+# الكاربامازيبين: من الصرع / الألم العصبي ثلاثي التوائم إلى ورم العصب ثلاثي التوائم
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Carbamazepine (CBZ) is a classic antiepileptic and analgesic drug with established global use for epilepsy, trigeminal neuralgia, and neuropathic pain, though it is not currently registered in Saudi Arabia.
-The TxGNN model predicts it may be relevant for **Trigeminal Nerve Neoplasm** with a score of **99.9976%**, but this prediction likely reflects a knowledge graph overlap between trigeminal nerve tumor and trigeminal neuralgia rather than a direct antitumor effect.
-Current evidence includes **1 observational imaging study** and **20 publications**, though the substantive literature addresses secondary trigeminal neuralgia caused by tumors — not the neoplasm itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not registered in Saudi Arabia; globally established for epilepsy and trigeminal neuralgia |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
-| TxGNN Prediction Score | 99.9976% |
-| Evidence Level | L3 |
-| Saudi Arabia Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+الكاربامازيبين (CBZ) هو دواء مضاد للصرع وكمسكّن كلاسيكي له استخدام عالمي مثبّت للصرع والألم العصبي ثلاثي التوائم والألم العصبي، لكنه حالياً غير مسجّل في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN أنه قد يكون ذا صلة بـ **ورم العصب ثلاثي التوائم** برصيد **99.9976%**، لكن هذا التنبؤ يعكس على الأرجح تداخلاً في الرسم البياني للمعرفة بين ورم العصب ثلاثي التوائم والألم العصبي ثلاثي التوائم وليس تأثيراً مضاداً للأورام مباشراً.
+تشمل الأدلة الحالية **دراسة تصوير واحدة رصدية** و**20 منشوراً**، على الرغم من أن الأدبيات الموضوعية تتناول الألم العصبي الثانوي ثلاثي التوائم الناجم عن الأورام — وليس الورم الخبيث نفسه.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-> ⚠️ **Critical Conceptual Warning**: "Trigeminal Nerve Neoplasm" ≠ "Trigeminal Neuralgia." The high TxGNN score most likely arises from a knowledge graph artifact: tumors of the trigeminal nerve and trigeminal neuralgia share the same anatomical node in the graph, creating a spurious association.
-
-Formal mechanism of action data was not retrievable from DrugBank in this evidence pack. However, based on the pharmacological references cited throughout the literature, carbamazepine acts as a **voltage-gated sodium channel (Nav) blocker**, suppressing high-frequency repetitive neuronal firing. This mechanism underlies its well-established efficacy in epilepsy and classical trigeminal neuralgia.
-
-Trigeminal nerve neoplasms (primary lymphoma, schwannoma, meningioma, granuloma, etc.) can compress or invade the trigeminal nerve, generating secondary trigeminal neuralgia (TN) through focal demyelination and ectopic nerve discharges. In this specific clinical context, CBZ may provide **symptomatic pain relief** by suppressing those ectopic discharges. PMID 3181365 provides the only direct mechanistic data in this direction: intravenous CBZ immediately inhibited spontaneous discharges in experimental saphenous neuromas in rats, confirming CBZ's ability to silence aberrant firing from injured peripheral nerve tissue. Case reports (PMID 30741017, 25142539) further confirm that CBZ is routinely prescribed as a first-line symptomatic agent when tumor-related TN is initially suspected or confirmed.
-
-**The critical boundary**: CBZ does not treat the tumor itself — it addresses the neuropathic pain symptom only. Any application in trigeminal nerve neoplasm must be framed as adjunct symptomatic management, not disease-modifying therapy. Once the diagnosis of malignancy is established, surgical or oncological intervention takes precedence.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06853119](https://clinicaltrials.gov/study/NCT06853119) | N/A | Not Yet Recruiting | 120 | MRI-based observational study examining brain network dynamics and microstructural plasticity in trigeminal neuralgia patients; no CBZ intervention arm; disease target is TN not trigeminal neoplasm |
-
-No clinical trials specifically evaluating CBZ for trigeminal nerve neoplasm were identified. The single trial found studies trigeminal neuralgia (a related but distinct condition) and includes no drug intervention.
+| البند | المحتوى |
+|------|--------|
+| الاستطباب الأصلي | غير مسجّل في المملكة العربية السعودية؛ مثبّت عالمياً للصرع والألم العصبي ثلاثي التوائم |
+| الاستطباب الجديد المتوقّع | ورم العصب ثلاثي التوائم |
+| رصيد تنبؤ TxGNN | 99.9976% |
+| مستوى الدليل | L3 |
+| حالة سوق المملكة العربية السعودية | ✗ غير مسوّق |
+| عدد التصاريح | 0 |
+| القرار الموصى به | مراقبة |
 
 ---
 
-## Literature Evidence
+## لماذا هذا التنبؤ معقول؟
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | Animal/Lab | Experimental Neurology | **Only direct mechanistic evidence**: IV CBZ immediately suppressed spontaneous A-fibre discharges in rat saphenous neuromas at clinical dose ranges |
-| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Review | Acta Clinica Croatica | Treatment overview for TN; notes tumor compression as a recognised cause of secondary TN amenable to CBZ |
-| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Case Report | British Journal of Neurosurgery | Primary trigeminal nerve lymphoma initially treated with CBZ; lack of improvement prompted MRI and correct diagnosis — illustrates CBZ's diagnostic role |
-| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Case Report | Clinical Neurology | Malignant lymphoma spreading along trigeminal nerve; CBZ initially improved neuralgic pain, then failed when non-neuralgic tumour pain developed |
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Review of Neurotherapeutics | Comprehensive TN treatment review; CBZ is first-line medical therapy; vascular and mass compression cause focal demyelination and aberrant firing |
-| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Case Report | World Neurosurgery | Petroclival meningioma encasing the fifth cranial nerve causing TN; surgical resection via Kawase approach |
-| [9109911](https://pubmed.ncbi.nlm.nih.gov/9109911/) | 1997 | Case Report | Neurology | Post-irradiation neuromyotonia in bilateral facial and trigeminal distribution responded to CBZ therapy — supports CBZ efficacy in radiation-damaged trigeminal nerve |
-| [22647513](https://pubmed.ncbi.nlm.nih.gov/22647513/) | 2012 | Case Report | No Shinkei Geka | Combined glossopharyngeal and trigeminal neuralgia; CBZ is standard initial medical treatment before microvascular decompression |
-| [12590697](https://pubmed.ncbi.nlm.nih.gov/12590697/) | 2003 | Case Report | Neurosurgery | Trigeminal nerve sarcoid granuloma (a benign mass lesion) mimicking schwannoma; granulomatous compression can cause secondary TN |
-| [26768887](https://pubmed.ncbi.nlm.nih.gov/26768887/) | 2016 | Case Report | Turkish Neurosurgery | Pituitary adenoma causing isolated trigeminal neuralgia via cavernous sinus invasion; CBZ may provide transient symptomatic relief pending surgical planning |
+> ⚠️ **تحذير مفاهيمي حرج**: "ورم العصب ثلاثي التوائم" ≠ "الألم العصبي ثلاثي التوائم." الرصيد العالي لـ TxGNN على الأرجح ينشأ من اصطناعة في الرسم البياني للمعرفة: أورام العصب ثلاثي التوائم والألم العصبي ثلاثي التوائم يشاركان نفس العقدة التشريحية في الرسم البياني، مما ينشئ ارتباطاً زائفاً.
+
+لم يكن من الممكن استسترجاع بيانات آلية العمل الرسمية من DrugBank في هذا الملف من الأدلة. لكن، بناءً على المراجع الدوائية المستشهد بها في جميع أنحاء الأدبيات، يعمل الكاربامازيبين كـ **حاصر قناة الصوديوم المعتمد على الجهد الكهربائي (Nav)**، مما يثبّط إطلاق الأعصاب العالي التكرار المتكرر. تكمن هذه الآلية وراء فعاليتها المثبّتة جيداً في الصرع والألم العصبي الكلاسيكي ثلاثي التوائم.
+
+يمكن لأورام العصب ثلاثي التوائم (الليمفوما الأولية، الورم الشفاني، ورم السحايا، الورم الحبيبي، إلخ) أن تضغط أو تغزو العصب ثلاثي التوائم، مما ينتج عنه ألم عصبي ثانوي ثلاثي التوائم (TN) من خلال إزالة الميالين البؤري والإطلاق العصبي الموضعي. في هذا السياق السريري المحدد، قد يوفر CBZ **تخفيف الألم العرضي** بقمع تلك الإطلاقات الموضعية. يوفر PMID 3181365 البيانات الآلية المباشرة الوحيدة في هذا الاتجاه: منع CBZ الوريدي فوراً الإطلاقات التلقائية في الأورام الشريانية الحلقية التجريبية في الفئران، مما يؤكد قدرة CBZ على إخماد الإطلاق الشاذ من أنسجة العصب المحيطي المصابة. تؤكد تقارير الحالات (PMID 30741017, 25142539) كذلك أن CBZ يوصف بشكل روتيني كعامل أول خط عرضي عند الاشتباه الأولي أو تأكيد TN المرتبط بالورم.
+
+**الحد الحرج**: CBZ لا يعالج الورم نفسه — إنه يعالج عرض الألم العصبي فقط. يجب تأطير أي تطبيق في ورم العصب ثلاثي التوائم كإدارة عرضية مساعدة، وليس كعلاج معدّل للمرض. بمجرد تثبيت تشخيص الخباثة، يأخذ التدخل الجراحي أو الأورامي الأولوية.
 
 ---
 
-## Saudi Arabia Market Information
+## أدلة التجارب السريرية
 
-Carbamazepine is **not currently registered in Saudi Arabia**. The regulatory query returned zero product licenses. Clinical use would require either compassionate use authorisation or an import permit under Saudi Food and Drug Authority (SFDA) regulations.
+| رقم التجربة | المرحلة | الحالة | التسجيل | النتائج الرئيسية |
+|---------|------|------|--------|---------|
+| [NCT06853119](https://clinicaltrials.gov/study/NCT06853119) | N/A | لم يبدأ التسجيل بعد | 120 | دراسة رصدية قائمة على التصوير بالرنين المغناطيسي تفحص ديناميات شبكة الدماغ والمرونة الدقيقة في مرضى الألم العصبي ثلاثي التوائم؛ لا توجد ذراع تدخل CBZ؛ الهدف المرضي هو TN وليس ورم العصب ثلاثي التوائم |
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No safety data (key warnings, contraindications, or drug interactions) was retrievable from the available data sources for this report. Formal SFDA package insert review is required before any clinical application.
+لم تُحدّد أي تجارب سريرية تقيّم بشكل محدد CBZ لورم العصب ثلاثي التوائم. التجربة الوحيدة الموجودة تدرس الألم العصبي ثلاثي التوائم (حالة ذات صلة لكن مختلفة) ولا تشمل أي تدخل دوائي.
 
 ---
 
-## Conclusion and Next Steps
+## الأدلة الأدبية
 
-**Decision: Hold**
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
+|------|------|------|------|---------|
+| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | حيواني/معملي | Experimental Neurology | **الأدلة الآلية المباشرة الوحيدة**: أثبط CBZ الوريدي فوراً الإطلاقات التلقائية للألياف A- في الأورام العصبية الحلقية في الفئران ضمن نطاقات الجرعات السريرية |
+| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | مراجعة | Acta Clinica Croatica | نظرة عامة على العلاج لـ TN؛ تشير إلى ضغط الورم كسبب معروف للـ TN الثانوي القابل للعلاج بـ CBZ |
+| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | تقرير حالة | British Journal of Neurosurgery | ليمفوما العصب ثلاثي التوائم الأولية تم علاجها أولاً بـ CBZ؛ عدم التحسن أدى إلى التصوير بالرنين المغناطيسي والتشخيص الصحيح — يوضح الدور التشخيصي لـ CBZ |
+| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | تقرير حالة | Clinical Neurology | ليمفوما خبيثة تنتشر على طول العصب ثلاثي التوائم؛ حسّن CBZ في البداية الألم العصبي، ثم فشل عندما ظهر ألم الورم غير العصبي |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | مراجعة | Expert Review of Neurotherapeutics | مراجعة شاملة لعلاج TN؛ CBZ هو العلاج الطبي من الخط الأول؛ ضغط الأوعية والكتلة يسبب إزالة الميالين البؤري والإطلاق الشاذ |
+| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | تقرير حالة | World Neurosurgery | ورم السحايا البتروكليفي الذي يحيط بالعصب القحفي الخامس مسبباً TN؛ الاستئصال الجراحي عبر طريق كاواز |
+| [9109911](https://pubmed.ncbi.nlm.nih.gov/9109911/) | 1997 | تقرير حالة | Neurology | الاستثارة العصبية بعد الإشعاع في التوزيع الوجهي وثلاثي التوائم استجابت لعلاج CBZ — تدعم فعالية CBZ في العصب ثلاثي التوائم المتضرر من الإشعاع |
+| [22647513](https://pubmed.ncbi.nlm.nih.gov/22647513/) | 2012 | تقرير حالة | No Shinkei Geka | الألم العصبي المعصد البلعومي وثلاثي التوائم المركب؛ CBZ هو العلاج الطبي الأولي القياسي قبل فصل الأوعية الدقيقة |
+| [12590697](https://pubmed.ncbi.nlm.nih.gov/12590697/) | 2003 | تقرير حالة | Neurosurgery | ورم حبيبي ساركويدي في العصب ثلاثي التوائم (آفة كتلة حميدة) يحاكي الورم الشفاني؛ الضغط الحبيبومي يمكنه أن يسبب TN الثانوي |
+| [26768887](https://pubmed.ncbi.nlm.nih.gov/26768887/) | 2016 | تقرير حالة | Turkish Neurosurgery | ورم الغدة النخامية الذي يسبب الألم العصبي ثلاثي التوائم المعزول عبر الغزو الجيبي الكهفي؛ قد يوفر CBZ تخفيفاً عرضياً عابراً في انتظار التخطيط الجراحي |
 
-**Rationale:**
-The TxGNN prediction for "trigeminal nerve neoplasm" most likely reflects a knowledge graph artifact rather than a genuine novel repurposing signal. CBZ has no antitumour activity, and the available evidence supports only **symptomatic pain management** for secondary TN arising from nerve compression — a use that already falls within CBZ's established neuropathic pain indication. With zero clinical trials targeting this specific disease entity, no formal safety data on file, and no Saudi Arabia registration, advancement as a repurposing candidate is premature.
+---
 
-**To proceed, the following is needed:**
-- **Clarify the clinical question**: Is the target (a) antitumour therapy, or (b) adjunct pain management in trigeminal nerve neoplasm patients? Only (b) has any mechanistic basis.
-- **Reclassify if (b)**: Frame as "CBZ for secondary TN in trigeminal nerve neoplasm" — this would likely be considered an extension of the existing neuropathic pain indication rather than true repurposing.
-- **Retrieve formal MOA data** from DrugBank API to document the Nav-blocking mechanism in the evidence dossier.
-- **Obtain full safety data**: Package insert warnings, contraindications, and DDI profile are currently unavailable and are mandatory before any clinical use.
-- **SFDA registration pathway**: Establish import or registration route for Saudi Arabia if clinical use is planned.
-- **Consider rank-2 indication (startle epilepsy, L3)** as a more scientifically coherent repurposing candidate: case series (PMID 6465864) show direct CBZ efficacy, and the mechanistic link to Nav-dependent reflex seizures is substantially stronger.
+## معلومات سوق المملكة العربية السعودية
+
+الكاربامازيبين **غير مسجّل حالياً في المملكة العربية السعودية**. أرجعت الاستعلامات التنظيمية صفر تراخيص منتجات. كان الاستخدام السريري يتطلب إما موافقة الاستخدام الاستثنائي أو تصريح استيراد بموجب لوائح الهيئة العامة للغذاء والدواء (SFDA).
+
+---
+
+## اعتبارات السلامة
+
+يُرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة. لم تكن أي بيانات سلامة (تحذيرات رئيسية، موانع استعمال، أو التفاعلات الدوائية) قابلة للاسترجاع من مصادر البيانات المتاحة لهذا التقرير. يلزم استعراض نشرة SFDA الرسمية قبل أي تطبيق سريري.
+
+---
+
+## الخلاصة والخطوات التالية
+
+**القرار: مراقبة**
+
+**المبرر:**
+يعكس تنبؤ TxGNN لـ "ورم العصب ثلاثي التوائم" على الأرجح اصطناعة في الرسم البياني للمعرفة بدلاً من إشارة إعادة استخدام حقيقية جديدة. لا يمتلك CBZ أي نشاط مضاد للأورام، والأدلة المتاحة تدعم فقط **إدارة الألم العرضي** لـ TN الثانوي الناشئ من ضغط العصب — استخدام يقع بالفعل ضمن استطباب الألم العصبي المثبّت لـ CBZ. بدون أي تجارب سريرية تستهدف هذا الكيان المرضي المحدد، بدون بيانات سلامة رسمية مودعة، وبدون تسجيل في المملكة العربية السعودية، فإن التقدم كمرشح إعادة استخدام مبكر جداً.
+
+**لمتابعة المسار، يلزم ما يلي:**
+- **وضّح السؤال السريري**: هل الهدف (أ) العلاج المضاد للأورام، أم (ب) إدارة الألم المساعدة في مرضى ورم العصب ثلاثي التوائم؟ فقط (ب) له أي أساس آلي.
+- **أعد التصنيف إذا كان (ب)**: اطّرِ كـ "CBZ لـ TN الثانوي في ورم العصب ثلاثي التوائم" — سيعتبر هذا على الأرجح امتداداً لاستطباب الألم العصبي الموجود بدلاً من إعادة الاستخدام الحقيقية.
+- **استسترجع بيانات MOA الرسمية** من DrugBank API لتوثيق آلية حصار Nav في ملف الأدلة.
+- **احصل على بيانات السلامة الكاملة**: تحذيرات النشرة الداخلية وموانع الاستعمال وملف التفاعل الدوائي غير متاحة حالياً وهي التزام إلزامي قبل أي استخدام سريري.
+- **مسار التسجيل بـ SFDA**: وضّح مسار الاستيراد أو التسجيل للمملكة العربية السعودية إذا تم التخطيط للاستخدام السريري.
+- **اعتبر استطباب الترتيب الثاني (صرع الذهول، L3)** كمرشح إعادة استخدام أكثر اتساقاً علمياً: سلاسل الحالات (PMID 6465864) تظهر فعالية CBZ المباشرة، والرابط الآلي إلى نوبات الانعكاس المعتمدة على Nav أقوى بكثير.
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

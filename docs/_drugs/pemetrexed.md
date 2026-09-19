@@ -29,111 +29,112 @@ indication_count: 10
 
 </div>
 
-# Pemetrexed: From Malignant Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+# بيميترِكسد: من ورم الظهارة المتوسطة الخبيث الجنبي إلى ورم الظهارة المتوسطة الخبيث البريتوني
 
-## One-Sentence Summary
+## ملخص في جملة واحدة
 
-Pemetrexed is a multitargeted antifolate chemotherapy agent whose established use is in malignant pleural mesothelioma (standard first-line combination with cisplatin) and non-squamous NSCLC. The TxGNN model predicts it may also be effective for **Malignant Peritoneal Mesothelioma**, a rare, biologically related mesothelial-origin tumor, with **11 clinical trials** and **20 publications** currently supporting this direction.
+بيميترِكسد هو عامل كيميائي مضاد للفولات متعدد الأهداف استخدامه المثبت في ورم الظهارة المتوسطة الخبيث الجنبي (الجمع المعياري الأول مع السيسبلاتين) وسرطان الرئة ذو الخلايا غير الصغيرة غير الحرشفي. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً أيضاً لـ **ورم الظهارة المتوسطة الخبيث البريتوني**، وهو ورم نادر ومرتبط بيولوجياً من أصل الظهارة المتوسطة، مع **11 تجربة سريرية** و **20 منشور** يدعمان هذا الاتجاه حالياً.
 
-*Note: The structured `original_indications` and `taiwan_regulatory.licenses` fields in this evidence pack are empty (data gap), but the pack's own literature and clinical-trial evidence confirm pemetrexed's established role in pleural mesothelioma — this is explicitly flagged in the rationale for related candidates in this pack.*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Malignant pleural mesothelioma / non-squamous NSCLC (established indications per literature evidence in this pack; structured regulatory field is a data gap) |
-| Predicted New Indication | Malignant Peritoneal Mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+*ملاحظة: حقول `original_indications` و `taiwan_regulatory.licenses` المهيكلة في هذه مجموعة الأدلة فارغة (فجوة بيانات)، لكن أدلة الأدبيات والتجارب السريرية الخاصة بالمجموعة تؤكد الدور المثبت لبيميترِكسد في ورم الظهارة المتوسطة الجنبي — وهذا مذكور بشكل صريح في المنطق الأساسي للمرشحين ذوي الصلة في هذه المجموعة.*
 
 ---
 
-## Why is This Prediction Reasonable?
+## نظرة عامة سريعة
 
-Pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT) — key folate-dependent enzymes required for de novo purine and thymidine biosynthesis. This mechanism is confirmed repeatedly across the literature evidence in this pack (e.g., PMID 31569615, PMID 26538423), even though the drug-level `original_moa` field itself is marked as a data gap.
-
-Malignant peritoneal mesothelioma (MPeM) and malignant pleural mesothelioma (MPM) are both cancers arising from mesothelial cells lining serosal cavities, sharing the same cell of origin, histology, and asbestos-related etiology — they differ mainly by anatomic site (peritoneum vs. pleura). Because cisplatin-pemetrexed is the guideline-recognized standard first-line regimen for MPM, oncologists have long extrapolated this regimen to MPeM as an accepted off-label standard, given the absence of a dedicated approved regimen for the rarer peritoneal form (as explicitly noted in this pack's rationale: "屬廣泛接受之 off-label 標準治療").
-
-Mechanistically, there is no biological reason antifolate cytotoxicity would behave differently by anatomic compartment — tumor cell proliferation dependence on folate metabolism is intrinsic to the mesothelial malignant phenotype, not to its cavity of origin. This supports the plausibility of the TxGNN prediction, though the evidence base is composed largely of small retrospective/prospective series and Phase 1/2 trials rather than a dedicated Phase 3 RCT in MPeM specifically.
+| البند | المحتوى |
+|------|--------|
+| المؤشر الأصلي | ورم الظهارة المتوسطة الخبيث الجنبي / سرطان الرئة ذو الخلايا غير الصغيرة غير الحرشفي (دلالات مثبتة حسب أدلة الأدبيات في هذه المجموعة؛ الحقل التنظيمي المهيكل هو فجوة بيانات) |
+| الدلالة الجديدة المتنبأ بها | ورم الظهارة المتوسطة الخبيث البريتوني |
+| درجة التنبؤ بـ TxGNN | 99.99% |
+| مستوى الدليل | L2 |
+| حالة السوق السعودية | غير مُسوّق (غير مُسوّق) |
+| عدد الموافقات | 0 |
+| القرار الموصى به | المضي قدماً مع احتياطات الحماية |
 
 ---
 
-## Clinical Trial Evidence
+## لماذا يكون هذا التنبؤ معقولاً؟
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+بيميترِكسد هو عامل مضاد للفولات متعدد الأهداف يثبط ثايميديلات سينثاز (TS) وديهيدروفولات ريدوكتاز (DHFR) وجليسيناميد ريبونوكليوتيد فورميلترانسفيراز (GARFT) — الإنزيمات الرئيسية المعتمدة على الفولات المطلوبة لتخليق البيورين والثايمين الجديد. تم تأكيد هذه الآلية بشكل متكرر عبر أدلة الأدبيات في هذه المجموعة (على سبيل المثال، PMID 31569615، PMID 26538423)، على الرغم من أن حقل `original_moa` على مستوى الدواء نفسه يتم تحديده كفجوة بيانات.
+
+ورم الظهارة المتوسطة الخبيث البريتوني (MPeM) وورم الظهارة المتوسطة الخبيث الجنبي (MPM) كلاهما سرطانات تنشأ من الخلايا الظهارية المبطنة للتجاويف المصلية، وتشترك في نفس مصدر الخلية والنسيج المرضي والمسببات المرتبطة بالأسبست — تختلف بشكل أساسي بالموقع التشريحي (البريتوانيوم مقابل الجنب). لأن السيسبلاتين-بيميترِكسد هو النظام المعترف به بموجب الإرشادات كخط أول معياري لـ MPM، فقد قام الأورام بتطبيق هذا النظام بشكل خارج عن النشرة لـ MPeM كمعيار مقبول على نطاق واسع، نظراً لغياب نظام موافق عليه مخصص للشكل البريتوني الأندر (كما هو مذكور بشكل صريح في منطق هذه المجموعة: "屬廣泛接受之 off-label 標準治療").
+
+من الناحية الميكانيكية، لا توجد أسباب بيولوجية لكي تختلف السمية المضادة للفولات بالحجرة التشريحية — اعتماد خلايا الورم على استقلاب الفولات متأصل في النمط الظاهري الخبيث للظهارة المتوسطة، وليس في تجويفها الأصلي. هذا يدعم معقولية التنبؤ بـ TxGNN، على الرغم من أن قاعدة الأدلة تتكون بشكل كبير من سلاسل بأثر رجعي/آفاقية صغيرة وتجارب المرحلة الأولى/2 بدلاً من تجربة عشوائية منضبطة مخصصة للمرحلة الثالثة في MPeM على وجه التحديد.
+
+---
+
+## أدلة التجارب السريرية
+
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
 |---------|------|------|------|---------|
-| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Phase 1 | Terminated | 85 | ADI-PEG 20 (arginine-degrading enzyme) + pemetrexed/cisplatin in arginine-dependent tumors, including advanced peritoneal mesothelioma dose-escalation cohort |
-| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Phase 1/2 | Active, not recruiting | 30 | TRC102 (methoxyamine) + cisplatin/pemetrexed in advanced solid tumors and mesothelioma refractory to pemetrexed/cisplatin |
-| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Phase 2 | Recruiting | 66 | Randomized trial: carboplatin+pemetrexed+bevacizumab ± atezolizumab as neoadjuvant/palliative therapy for peritoneal mesothelioma |
-| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Phase 2 | Recruiting | 64 | ICARuS II: intraperitoneal vs. intravenous chemotherapy after cytoreductive surgery + HIPEC for malignant peritoneal mesothelioma |
-| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Phase 1/2 | Withdrawn | 0 | Vorinostat + pemetrexed-cisplatin first-line in mesothelioma (trial withdrawn before enrollment) |
-| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Phase 1 | Completed | 19 | Cisplatin + pemetrexed + imatinib mesylate dose-finding study in unresectable/metastatic mesothelioma |
-| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Phase 2 | Unknown | 40 | Maintenance talazoparib following first-line platinum-based chemotherapy in pleural or peritoneal mesothelioma |
-| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Phase 2 | Completed | 48 | Pemetrexed + gemcitabine front-line chemotherapy for pleural or peritoneal mesothelioma |
-| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Phase 2 | Recruiting | 28 | Sintilimab + bevacizumab combined with pemetrexed/cisplatin in unresectable malignant peritoneal mesothelioma |
-| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Phase 2 | Suspended | 66 | MESOTIP: PIPAC + systemic chemotherapy (cisplatin+pemetrexed) vs. systemic chemotherapy alone as 1st-line treatment for malignant peritoneal mesothelioma |
+| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | المرحلة الأولى | تم إيقافها | 85 | ADI-PEG 20 (إنزيم يستنفد الأرجينين) + بيميترِكسد/السيسبلاتين في الأورام التي تعتمد على الأرجينين، بما فيها مجموعة تصعيد الجرعات في ورم الظهارة المتوسطة المتقدم البريتوني |
+| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | المرحلة الأولى/2 | نشطة، غير قيد التجنيد | 30 | TRC102 (ميثوكسيامين) + السيسبلاتين/بيميترِكسد في الأورام الصلبة المتقدمة وورم الظهارة المتوسطة المقاوم للبيميترِكسد/السيسبلاتين |
+| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | المرحلة 2 | قيد التجنيد | 66 | تجربة عشوائية: الكاربوبلاتين+بيميترِكسد+بيفاسيزوماب ± أتيزوليزوماب كعلاج قبل الجراحي/تلطيفي لورم الظهارة المتوسطة البريتوني |
+| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | المرحلة 2 | قيد التجنيد | 64 | ICARuS II: العلاج الكيميائي داخل الصفاق مقابل الوريدي بعد الجراحة الإنقاصية + HIPEC لورم الظهارة المتوسطة الخبيث البريتوني |
+| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | المرحلة الأولى/2 | تم سحبها | 0 | فوريينوستات + بيميترِكسد-السيسبلاتين من الخط الأول في ورم الظهارة المتوسطة (تم سحب التجربة قبل التجنيد) |
+| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | المرحلة الأولى | انتهت | 19 | دراسة تحديد الجرعة: السيسبلاتين + بيميترِكسد + إيماتينيب ميسيلات في ورم الظهارة المتوسطة غير القابل للاستئصال/النقيلي |
+| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | المرحلة 2 | غير معروف | 40 | تالازوبريب كعلاج صيانة بعد العلاج الكيميائي بالبلاتين من الخط الأول في ورم الظهارة المتوسطة الجنبي أو البريتوني |
+| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | المرحلة 2 | انتهت | 48 | بيميترِكسد + جيميسيتابين كعلاج كيميائي من الخط الأول لورم الظهارة المتوسطة الجنبي أو البريتوني |
+| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | المرحلة 2 | قيد التجنيد | 28 | سينتيليماب + بيفاسيزوماب مع بيميترِكسد/السيسبلاتين في ورم الظهارة المتوسطة الخبيث البريتوني غير القابل للاستئصال |
+| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | المرحلة 2 | معلقة | 66 | MESOTIP: PIPAC + العلاج الكيميائي الجهازي (السيسبلاتين+بيميترِكسد) مقابل العلاج الكيميائي الجهازي وحده كعلاج من الخط الأول لورم الظهارة المتوسطة الخبيث البريتوني |
 
 ---
 
-## Literature Evidence
+## أدلة الأدبيات
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | النتائج الرئيسية |
 |------|-----|------|------|---------|
-| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospective study | Expert Review of Anticancer Therapy | Evaluates efficacy of first-line systemic pemetrexed + cisplatin chemotherapy in malignant peritoneal mesothelioma |
-| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospective study | Japanese Journal of Clinical Oncology | Efficacy and safety of pemetrexed + cisplatin as first-line chemotherapy in advanced MPeM; efficacy remains unclear vs. MPM |
-| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Retrospective study | Clinical Medicine Insights: Oncology | Compares first-line pemetrexed-platinum vs. gemcitabine-platinum regimens in MPeM |
-| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | Retrospective study | BMC Cancer | Efficacy of second-line treatment and prognostic factors in advanced MPeM following first-line cisplatin+pemetrexed |
-| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Cohort (Tier 2) | Pleura and Peritoneum | Bidirectional chemotherapy (incl. pemetrexed-based regimens) enabling surgery/HIPEC in unresectable MPeM |
-| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Case report | BMJ Case Reports | MPeM patient responding to rechallenge with cisplatin + pemetrexed after progression |
-| [33257382](https://pubmed.ncbi.nlm.nih.gov/33257382/) | 2020 | Case report | BMJ Case Reports | Nivolumab used as later-line therapy for MPeM after initial systemic chemotherapy |
-| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Review (Tier 3) | Translational Lung Cancer Research | Overview of MPeM epidemiology, pathology, and treatment approaches |
-| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Review (Tier 3) | Journal of Gastrointestinal Oncology | Diagnosis and management of patients with MPeM |
-| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Review (Tier 3) | Journal of Clinical Medicine | Review of treatment options for MPeM, including surgical cytoreduction/HIPEC and systemic chemotherapy |
+| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | دراسة بأثر رجعي | Expert Review of Anticancer Therapy | يقيم فعالية العلاج الكيميائي بالخط الأول ببيميترِكسد + السيسبلاتين في ورم الظهارة المتوسطة الخبيث البريتوني |
+| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | دراسة بأثر رجعي | Japanese Journal of Clinical Oncology | فعالية وسلامة بيميترِكسد + السيسبلاتين كعلاج كيميائي من الخط الأول في MPeM المتقدم؛ تبقى الفعالية غير واضحة مقابل MPM |
+| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | دراسة بأثر رجعي | Clinical Medicine Insights: Oncology | يقارن بيميترِكسد-البلاتين من الخط الأول مقابل نظم جيميسيتابين-البلاتين في MPeM |
+| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | دراسة بأثر رجعي | BMC Cancer | فعالية العلاج من الخط الثاني والعوامل التنبؤية في MPeM المتقدم بعد السيسبلاتين+بيميترِكسد من الخط الأول |
+| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | مجموعة (المستوى 2) | Pleura and Peritoneum | العلاج الكيميائي ثنائي الاتجاه (بما فيه النظم القائمة على بيميترِكسد) الذي يمكّن الجراحة/HIPEC في MPeM غير القابل للاستئصال |
+| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | حالة سريرية | BMJ Case Reports | مريض MPeM يستجيب لإعادة استخدام السيسبلاتين + بيميترِكسد بعد التطور |
+| [33257382](https://pubmed.ncbi.nlm.nih.gov/33257382/) | 2020 | حالة سريرية | BMJ Case Reports | نيفولوماب المستخدم كعلاج لاحق لـ MPeM بعد العلاج الكيميائي الجهازي الأولي |
+| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | مراجعة (المستوى 3) | Translational Lung Cancer Research | نظرة عامة على وبائيات MPeM والمرضية والنهج العلاجية |
+| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | مراجعة (المستوى 3) | Journal of Gastrointestinal Oncology | التشخيص والإدارة للمرضى الذين يعانون من MPeM |
+| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | مراجعة (المستوى 3) | Journal of Clinical Medicine | مراجعة خيارات العلاج لـ MPeM، بما فيها الاستئصال الجراحي/HIPEC والعلاج الكيميائي الجهازي |
 
 ---
 
-## Saudi Arabia Market Information
+## معلومات السوق السعودية
 
-Pemetrexed is currently **not marketed** in this jurisdiction (`market_status = Not marketed`), with **0 registered authorizations** in this evidence pack. No product listings are available to tabulate.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — antifolate class (thymidylate synthase / DHFR / GARFT inhibitor), consistent with mechanism described across the literature evidence in this pack |
-| Myelosuppression Risk | Not detailed in this evidence pack — please refer to the package insert for haematological toxicity data |
-| Emetogenicity Classification | Not detailed in this evidence pack — please refer to the package insert |
-| Monitoring Items | Not detailed in this evidence pack; standard antifolate monitoring (CBC with differential, renal and hepatic function) is recommended pending package insert confirmation |
-| Handling Protection | Cytotoxic drug handling precautions apply; follow local cytotoxic handling regulations and the package insert |
+بيميترِكسد غير مُسوّق حالياً في هذه الولاية القضائية (`market_status = Not marketed`)، مع **0 موافقات مسجلة** في هذه مجموعة الأدلة. لا توجد قوائم المنتجات المتاحة للجدولة.
 
 ---
 
-## Safety Considerations
+## السمية السيتوتوكسية
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not available in this evidence pack — DDI query status: not found.)
+| البند | المحتوى |
+|------|--------|
+| تصنيف السمية السيتوتوكسية | سموم تقليدية — فئة مضادات الفولات (مثبط ثايميديلات سينثاز / DHFR / GARFT)، متسقة مع الآلية الموصوفة عبر أدلة الأدبيات في هذه المجموعة |
+| خطر تثبيط النخاع | لم يتم تفصيله في هذه مجموعة الأدلة — يرجى الرجوع إلى نشرة الحزمة لبيانات السمية الدموية |
+| تصنيف إحداث الغثيان | لم يتم تفصيله في هذه مجموعة الأدلة — يرجى الرجوع إلى نشرة الحزمة |
+| عناصر المراقبة | لم يتم تفصيله في هذه مجموعة الأدلة؛ تُوصى بمراقبة مضادات الفولات المعيارية (عد الدم الكامل مع التفاضل، والوظيفة الكلوية والكبدية) في انتظار تأكيد نشرة الحزمة |
+| احتياطات المناولة | تنطبق احتياطات التعامل مع الأدوية السيتوتوكسية؛ اتبع اللوائح المحلية للتعامل مع السيتوتوكسية ونشرة الحزمة |
 
 ---
 
-## Conclusion and Next Steps
+## اعتبارات السلامة
 
-**Decision: Proceed with Guardrails**
+يرجى الرجوع إلى نشرة الحزمة للحصول على معلومات السلامة. (بيانات التحذيرات الرئيسية والموانع والتفاعلات الدوائية غير متاحة في هذه مجموعة الأدلة — حالة استعلام DDI: غير موجود.)
 
-**Rationale:**
-The mechanistic rationale is strong (shared mesothelial origin, established antifolate activity), and multiple Phase 1/2 trials plus retrospective series directly support pemetrexed-based regimens in malignant peritoneal mesothelioma as a widely accepted off-label extension of the MPM standard of care. However, evidence is limited to small/retrospective studies (no dedicated Phase 3 RCT in MPeM specifically), and this candidate carries a **Blocking** data gap on TFDA package insert warnings/contraindications, preventing a full S1 safety evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert PDF (warnings, contraindications) — currently Blocking (DG001)
-- DrugBank-confirmed mechanism of action data — currently High priority gap (DG002)
-- Drug-drug interaction (DDI) data (currently "not found")
-- Confirmation of original approved indication(s) and regulatory/license status (currently blank in `taiwan_regulatory.licenses`)
-- Consideration of whether a peritoneal-mesothelioma-specific Phase 3 RCT is feasible given disease rarity, or whether guideline extrapolation from MPM evidence is accepted as sufficient
+## الخلاصة والخطوات التالية
+
+**القرار: المضي قدماً مع احتياطات الحماية**
+
+**المنطق الأساسي:**
+المنطق الميكانيكي قوي (مصدر ظهاري متوسط مشترك، نشاط مضاد للفولات مثبت)، وتدعم عدة تجارب من المرحلة الأولى/2 بالإضافة إلى سلاسل بأثر رجعي نظم قائمة على بيميترِكسد في ورم الظهارة المتوسطة الخبيث البريتوني كامتداد مقبول على نطاق واسع خارج النشرة لمعيار الرعاية MPM. ومع ذلك، الأدلة محدودة بالدراسات الصغيرة/بأثر رجعي (لا توجد تجربة عشوائية منضبطة مخصصة للمرحلة الثالثة في MPeM بشكل محدد)، وهذا المرشح يحمل **فجوة بيانات محظورة** على تحذيرات نشرة TFDA/الموانع، مما يمنع تقييم السلامة الكامل S1.
+
+**لكي تتمكن من المضي قدماً، يلزم ما يلي:**
+- PDF نشرة TFDA (التحذيرات والموانع) — حالياً محظورة (DG001)
+- بيانات الآلية المؤكدة من DrugBank — فجوة أولوية عالية حالياً (DG002)
+- بيانات تفاعلات الأدوية (DDI) (حالياً "غير موجودة")
+- تأكيد الدلالة المعتمدة الأصلية وحالة التنظيم/الترخيص (حالياً فارغة في `taiwan_regulatory.licenses`)
+- النظر فيما إذا كانت تجربة عشوائية منضبطة مخصصة للمرحلة الثالثة خاصة بورم الظهارة المتوسطة البريتوني قابلة للتطبيق نظراً لندرة المرض، أو ما إذا كان يتم قبول الاستقراء من إرشادات MPM كافياً
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

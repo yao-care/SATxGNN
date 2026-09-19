@@ -29,84 +29,85 @@ indication_count: 1
 
 </div>
 
-# Folic Acid: From Vitamin B9 Deficiency to Biotin Metabolic Disease
+# حمض الفوليك: من نقص فيتامين B9 إلى أمراض الأيض البيوتين
 
-## One-Sentence Summary
+## ملخص بجملة واحدة
 
-Folic acid (vitamin B9) is a water-soluble B-vitamin classically used to treat and prevent folate deficiency; this evidence pack does not document a specific approved indication or mechanism of action. The TxGNN model predicts potential relevance to **Biotin Metabolic Disease**, but the **13 clinical trials** and **20 publications** identified are almost entirely general vitamin/nutrition studies rather than trials testing folic acid specifically in this disease — and the model's own rationale flags this as a likely category-proximity artifact rather than a validated mechanistic link.
+حمض الفوليك (فيتامين B9) هو فيتامين B قابل للذوبان في الماء يُستخدم تقليديًا لعلاج والوقاية من نقص الفولات؛ لا توثّق هذه الحقيبة الإثباتية أي استطباب معتمد محدد أو آلية عمل. يتنبأ نموذج TxGNN بالصلة المحتملة بـ **أمراض الأيض البيوتين**، لكن **التجارب السريرية الـ 13** و **الـ 20 منشورًا** المحددة هي في الغالب دراسات عامة عن الفيتامينات/التغذية وليست تجارب تختبر حمض الفوليك على وجه التحديد في هذا المرض — وتنبيه النموذج الخاص به نفسه إلى أن هذا من المرجح أن يكون نتيجة قرب الفئة وليس ارتباطًا آليًا معتمدًا.
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| العنصر | المحتوى |
 |------|------|
-| Original Indication | Not documented in evidence pack (no `original_indications` or license text available). Folic acid is broadly recognized as a treatment/prevention for folate deficiency — background knowledge, not sourced from this evidence pack. |
-| Predicted New Indication | Biotin Metabolic Disease |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L4 |
-| Saudi Arabia Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| الاستطباب الأصلي | غير موثق في الحقيبة الإثباتية (لا توجد `original_indications` أو نصوص ترخيص متاحة). يُعترف بحمض الفوليك على نطاق واسع كعلاج/وقاية من نقص الفولات — معرفة أساسية، غير مأخوذة من هذه الحقيبة الإثباتية. |
+| الاستطباب الجديد المتنبأ به | أمراض الأيض البيوتين |
+| درجة التنبؤ بـ TxGNN | 99.49% |
+| مستوى الإثبات | L4 |
+| حالة السوق في المملكة العربية السعودية | ✗ غير مسوق |
+| عدد التفويضات | 0 |
+| القرار الموصى به | وضع قيد |
 
-## Why is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available for folic acid in this evidence pack. Folic acid and biotin are both water-soluble B-group vitamins but participate in distinct metabolic pathways: folate is central to one-carbon metabolism and the methylation cycle, while biotin functions as an essential cofactor for carboxylase enzymes. Biotin metabolic disorders — such as biotinidase deficiency or holocarboxylase synthetase deficiency — are standardly treated with biotin supplementation itself, not folic acid.
+حاليًا، بيانات آلية العمل التفصيلية غير متاحة لحمض الفوليك في هذه الحقيبة الإثباتية. حمض الفوليك والبيوتين كلاهما فيتامينات من مجموعة B قابلة للذوبان في الماء لكنهما يشاركان في مسارات استقلابية مختلفة: الفولات مركزية في أيض أحادي الكربون وحلقة الميثيلة، بينما يعمل البيوتين كعامل مساعد أساسي لإنزيمات الكاربوكسيليز. اضطرابات الأيض البيوتيني — مثل نقص البيوتينيداز أو نقص هولوكاربوكسيليز سينثيتاز — تُعالج بشكل قياسي بمكملات البيوتين نفسه، وليس حمض الفوليك.
 
-The model's underlying rationale explicitly cautions that the high TxGNN score (99.49%) more likely reflects knowledge-graph proximity between "vitamin" and "metabolic disease" entity classes than a specific therapeutic mechanism connecting folic acid to biotin metabolic disease. No direct evidence in the supporting trials or literature demonstrates that folic acid treats or improves biotin metabolic disease. This prediction should therefore be treated as a hypothesis-generating signal rather than a clinically actionable finding.
+تحذر النسخة الأساسية للنموذج بوضوح من أن درجة TxGNN العالية (99.49%) من المرجح أن تعكس القرب من الرسم البياني المعرفي بين فئات الكيانات "فيتامين" و "مرض استقلابي" بدلاً من آلية علاجية محددة تربط حمض الفوليك بأمراض الأيض البيوتيني. لا تثبت أي أدلة مباشرة في التجارب أو الأدب الداعم أن حمض الفوليك يعالج أو يحسّن أمراض الأيض البيوتيني. يجب بالتالي أن يتم التعامل مع هذا التنبؤ كإشارة توليد فرضيات بدلاً من نتيجة قابلة للتطبيق سريريًا.
 
-## Clinical Trial Evidence
+## أدلة التجارب السريرية
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| رقم التجربة | المرحلة | الحالة | الالتحاق | الاستنتاجات الرئيسية |
 |---------|------|------|------|---------|
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | NA | Unknown | 200 | Cross-over RCT of Q10 ubiquinol + multivitamin B/E in autism (idiopathic and Phelan-McDermid syndrome); not disease- or drug-specific to folic acid/biotin metabolism |
-| [NCT04067921](https://clinicaltrials.gov/study/NCT04067921) | N/A | Unknown | 1963 | General nutritional genomics platform studying diet-genome interactions; not disease-specific |
-| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Phase 2 | Unknown | 1000 | Fortified food vs. milk in malnourished children; measured serum/erythrocyte folic acid among several micronutrients, not a biotin metabolic disease trial |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Transdermal vitamin absorption in post-bariatric surgery patients; general micronutrient deficiency, not biotin metabolic disease |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | NA | Completed | 39 | Targeted nutritional intervention for oxidative stress/methylation impairment in autism; not biotin metabolic disease |
-| [NCT04586348](https://clinicaltrials.gov/study/NCT04586348) | Phase 4 | Active, not recruiting | 794 | Prenatal iodine supplementation and neurodevelopment; intervention is iodine, not folic acid |
-| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6824 | Universal newborn genomic screening (Baby Detect), may include biotinidase deficiency screening but is not a treatment trial |
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamin/mineral supplementation for neuropathy/nephropathy in type 2 diabetes; not biotin metabolic disease |
-| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | NA | Completed | 40 | Multi-micronutrient intervention as palliative therapy in CHF; general nutritional support |
-| [NCT01558193](https://clinicaltrials.gov/study/NCT01558193) | NA | Completed | 202 | Multivitamin/mineral supplementation effect on impulsivity/aggression; not disease-specific |
+| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | NA | غير معروف | 200 | RCT متقاطع لـ Q10 ubiquinol + فيتامينات B/E متعددة في التوحد (متلازمة فيلان-ماكديرميد المتوحدة والعفوية)؛ غير محدد للمرض أو الدواء لأيض حمض الفوليك/البيوتين |
+| [NCT04067921](https://clinicaltrials.gov/study/NCT04067921) | N/A | غير معروف | 1963 | منصة جينوميات التغذية العامة لدراسة تفاعلات النظام الغذائي والجينات؛ غير محددة للمرض |
+| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | المرحلة 2 | غير معروف | 1000 | الغذاء المحصن مقابل الحليب في الأطفال سوء التغذية؛ قياس حمض الفوليك في المصل/خلايا الدم الحمراء من بين عدة مغذيات دقيقة، وليس تجربة مرض استقلابي بيوتيني |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | مكتمل | 99 | امتصاص الفيتامينات عبر الجلد في مرضى ما بعد جراحة السمنة؛ نقص المغذيات الدقيقة العام، وليس مرض استقلابي بيوتيني |
+| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | NA | مكتمل | 39 | تدخل غذائي موجه لضعف الإجهاد التأكسدي/الميثيلة في التوحد؛ ليس مرض استقلابي بيوتيني |
+| [NCT04586348](https://clinicaltrials.gov/study/NCT04586348) | المرحلة 4 | نشط، غير مجند | 794 | مكملات اليود قبل الولادة والنمو العصبي؛ التدخل هو اليود، وليس حمض الفوليك |
+| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | مكتمل | 6824 | الفحص الجيني العام للمواليد الجدد (Baby Detect)، قد يشمل فحص نقص البيوتينيداز لكنه ليس تجربة علاجية |
+| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | المرحلة 2 | مكتمل | 75 | مكملات الفيتامينات/المعادن لاعتلال الأعصاب/الاعتلال الكلوي في مرض السكري من النوع 2؛ ليس مرض استقلابي بيوتيني |
+| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | NA | مكتمل | 40 | تدخل متعدد المغذيات الدقيقة كعلاج تلطيفي في قصور القلب؛ الدعم الغذائي العام |
+| [NCT01558193](https://clinicaltrials.gov/study/NCT01558193) | NA | مكتمل | 202 | تأثير مكملات الفيتامينات/المعادن المتعددة على الاندفاعية/العدوانية؛ غير محدد للمرض |
 
-All 10 trials above were graded "C" (low relevance) by the evidence review — none directly test folic acid as an intervention for biotin metabolic disease.
+تم تصنيف جميع التجارب الـ 10 أعلاه بحرف "C" (صلة منخفضة) من قبل مراجعة الأدلة — لا تختبر واحدة منها حمض الفوليك بشكل مباشر كتدخل لمرض استقلابي بيوتيني.
 
-## Literature Evidence
+## أدلة الأدب
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | السنة | النوع | المجلة | الاستنتاجات الرئيسية |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Reviews vitamin-responsive disorders including cobalamin, folate, biotin, B1 and E; folate and biotin are covered as distinct, separately-treated deficiency syndromes |
-| [30557456](https://pubmed.ncbi.nlm.nih.gov/30557456/) | 2019 | Review | Movement Disorders | Reviews treatable inborn errors of metabolism, including biotin-responsive conditions, with movement disorder phenotypes |
-| [13199008](https://pubmed.ncbi.nlm.nih.gov/13199008/) | 1954 | Unclassified | Biologica Latina | Animal study inducing combined vitamin H (biotin) and folic acid deficiency via phthalylsulfathiazole diet; oldest direct biotin+folate co-deficiency evidence found |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Unclassified | Pediatric Clinics of North America | Reviews megavitamin-responsive aminoacidopathies, where B-complex vitamins act as coenzyme cofactors |
-| [779426](https://pubmed.ncbi.nlm.nih.gov/779426/) | 1976 | Unclassified | Advances in Human Genetics | Reviews vitamin-responsive inherited metabolic disorders broadly |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Unclassified | Ryoikibetsu Shokogun Shirizu | Reviews vitamin dependency syndromes |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminologica et Enzymologica | Reviews vitamin involvement in metabolic diseases via malabsorption, metabolic errors, and vitamin-dependent syndromes |
-| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | Review | Gastroenterology Clinics of North America | Reviews vitamin/mineral deficiencies in IBD; not biotin metabolic disease-specific |
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Molecular Sciences | Reviews B12 deficiency and nervous system effects; notes B12 as cofactor alongside biotin and folate in related biochemical reactions |
-| [16343871](https://pubmed.ncbi.nlm.nih.gov/16343871/) | 2006 | Unclassified | Archives de Pédiatrie | Reviews neonatal epilepsy secondary to inborn errors of metabolism, a category that includes biotin-responsive disorders |
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | مراجعة | Handbook of Clinical Neurology | تراجع الاضطرابات المستجيبة للفيتامينات بما فيها الكوبالامين والفولات والبيوتين و B1 و E؛ يتم تغطية الفولات والبيوتين كمتلازمات نقص مختلفة ومعالجة بشكل منفصل |
+| [30557456](https://pubmed.ncbi.nlm.nih.gov/30557456/) | 2019 | مراجعة | Movement Disorders | تراجع الأخطاء الوراثية القابلة للعلاج في الأيض، بما فيها الحالات المستجيبة للبيوتين، مع ظهور اضطراب الحركة |
+| [13199008](https://pubmed.ncbi.nlm.nih.gov/13199008/) | 1954 | غير مصنف | Biologica Latina | دراسة حيوانية تحفز نقص الفيتامين H (البيوتين) وحمض الفوليك معًا عبر نظام غذائي يحتوي على فثاليل سلفاثيازول؛ أقدم أدلة مباشرة لنقص البيوتين + الفولات المشترك التي تم العثور عليها |
+| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | غير مصنف | Pediatric Clinics of North America | تراجع الأمينو حمضيات المستجيبة للميجافيتامين، حيث تعمل فيتامينات B المعقدة كعوامل مساعدة للإنزيم المساعد |
+| [779426](https://pubmed.ncbi.nlm.nih.gov/779426/) | 1976 | غير مصنف | Advances in Human Genetics | تراجع اضطرابات الأيض الموروثة المستجيبة للفيتامينات على نطاق واسع |
+| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | غير مصنف | Ryoikibetsu Shokogun Shirizu | تراجع متلازمات الاعتماد على الفيتامينات |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | مراجعة | Acta Vitaminologica et Enzymologia | تراجع تورط الفيتامينات في الأمراض الاستقلابية عبر سوء الامتصاص والأخطاء الاستقلابية ومتلازمات الاعتماد على الفيتامينات |
+| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | مراجعة | Gastroenterology Clinics of North America | تراجع نقص الفيتامينات/المعادن في التهاب الأمعاء؛ ليس محددًا لمرض الأيض البيوتيني |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | مراجعة | Int J Molecular Sciences | تراجع نقص B12 وتأثيرات الجهاز العصبي؛ تلاحظ B12 كعامل مساعد جنبًا إلى جنب مع البيوتين والفولات في التفاعلات الكيميائية الحيوية ذات الصلة |
+| [16343871](https://pubmed.ncbi.nlm.nih.gov/16343871/) | 2006 | غير مصنف | Archives de Pédiatrie | تراجع الصرع الوليدي الثانوي للأخطاء الوراثية في الأيض، وهي فئة تشمل اضطرابات المستجيبة للبيوتين |
 
-No completed RCTs specific to folic acid in biotin metabolic disease were identified; all evidence above is review-level or historical animal/case literature.
+لم يتم تحديد أي RCTs مكتملة محددة لحمض الفوليك في مرض استقلابي بيوتيني؛ جميع الأدلة أعلاه هي على مستوى المراجعة أو أدب حيواني/حالة تاريخي.
 
-## Saudi Arabia Market Information
+## معلومات سوق المملكة العربية السعودية
 
-Folic acid is currently **not marketed** in this jurisdiction (0 authorizations on record), so no product-level licensing table is available.
+حمض الفوليك حاليًا **غير مسوق** في هذا الاختصاص (0 تفويضات في السجل)، لذا لا توجد جداول ترخيص على مستوى المنتج متاحة.
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Please refer to the package insert for safety information.
+يرجى الرجوع إلى النشرة الداخلية للحصول على معلومات السلامة.
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Hold**
+**القرار: وضع قيد**
 
-**Rationale:**
-The TxGNN score is high, but no clinical trial or publication directly demonstrates folic acid efficacy in biotin metabolic disease, and the model's own mechanistic rationale attributes the score to vitamin/metabolic-disease category proximity rather than a validated pharmacological link. A Blocking data gap (missing package-insert warnings/contraindications) also prevents this candidate from entering the S1 safety review stage.
+**المنطق:**
+درجة TxGNN عالية، لكن لا توجد تجربة سريرية أو منشور يثبت بشكل مباشر فعالية حمض الفوليك في مرض استقلابي بيوتيني، والمنطق الآلي للنموذج نفسه يعزو النتيجة إلى القرب من فئة الفيتامينات/الأمراض الاستقلابية بدلاً من ارتباط دوائي معتمد. فجوة بيانات حاجبة (تحذيرات/موانع استعمال النشرة الداخلية المفقودة) تمنع أيضًا هذا المرشح من الدخول إلى مرحلة مراجعة السلامة S1.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Verified mechanism of action data from DrugBank — currently a High-severity gap (DG002)
-- Disease-specific studies testing folic acid directly in biotin metabolic disease patients (biotinidase deficiency, holocarboxylase synthetase deficiency), as none currently exist in the evidence base
-- Independent mechanistic review to confirm or refute whether the TxGNN prediction reflects a real pharmacological relationship or a knowledge-graph artifact
+**لكي نتقدم، يلزم ما يلي:**
+- بيانات النشرة الداخلية لـ TFDA/الجهات التنظيمية (تحذيرات، موانع استعمال) — حاليًا فجوة حاجبة (DG001)
+- بيانات آلية العمل المعتمدة من DrugBank — حاليًا فجوة عالية الشدة (DG002)
+- دراسات محددة للمرض تختبر حمض الفوليك مباشرة في مرضى الأيض البيوتيني (نقص البيوتينيداز، نقص هولوكاربوكسيليز سينثيتاز)، حيث لا توجد حاليًا أي منها في قاعدة الأدلة
+- مراجعة آلية مستقلة لتأكيد أو دحض ما إذا كان التنبؤ بـ TxGNN يعكس علاقة دوائية حقيقية أو نتيجة رسم بياني معرفي
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

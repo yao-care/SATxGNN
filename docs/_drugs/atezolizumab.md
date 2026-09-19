@@ -29,92 +29,93 @@ indication_count: 10
 
 </div>
 
-# Atezolizumab: From Urothelial Carcinoma to Prostatic Urethra Urothelial Carcinoma
+# أتيزوليزوماب: من سرطان المسالك البولية إلى سرطان المسالك البولية بمجرى البروستاتا
 
-## One-Sentence Summary
+## ملخص جملة واحدة
 
-Atezolizumab (Tecentriq) is an anti-PD-L1 monoclonal antibody immunotherapy with established efficacy against urothelial carcinoma and multiple solid tumors at the international level, though it has not obtained SFDA registration in Saudi Arabia.
-The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma** — a urothelial carcinoma subtype arising from the prostatic urethra — with a prediction score of **99.98%**.
-Currently **2 clinical trials** support this direction (no dedicated published literature identified), and the mechanistic rationale is strong given the shared PD-L1 overexpression biology across urothelial carcinoma subsites.
+أتيزوليزوماب (Tecentriq) هو جسم مضاد أحادي النسيلة موجه ضد PD-L1 للعلاج المناعي مع فعالية ثابتة ضد سرطان المسالك البولية وأورام صلبة متعددة على المستوى الدولي، على الرغم من أنه لم يحصل على تسجيل SFDA في المملكة العربية السعودية.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً لـ **سرطان المسالك البولية في مجرى البروستاتا** — وهي نوع من أنواع سرطان المسالك البولية ينشأ من مجرى البروستاتا — مع درجة تنبؤ **99.98%**.
+حالياً **تجربتان سريريتان** تدعمان هذا الاتجاه (لم يتم تحديد أدبيات منشورة مخصصة)، والتبرير الآلي قوي جداً نظراً للبيولوجيا المشتركة لفرط التعبير عن PD-L1 عبر فروع سرطان المسالك البولية.
 
 ---
 
-## Quick Overview
+## نظرة عامة سريعة
 
-| Item | Content |
+| البند | المحتوى |
 |------|---------|
-| Original Indication | Not available (no SFDA registration; internationally approved for urothelial carcinoma, NSCLC, TNBC, HCC) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| Saudi Arabia Market Status | ✗ Not marketed (0 SFDA licenses) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| المؤشر الأصلي | غير متاح (لا يوجد تسجيل SFDA؛ معتمد دولياً لسرطان المسالك البولية، NSCLC، TNBC، HCC) |
+| المؤشر المتنبأ به الجديد | سرطان المسالك البولية في مجرى البروستاتا |
+| درجة تنبؤ TxGNN | 99.98% |
+| مستوى الدليل | L2 |
+| حالة السوق بالمملكة العربية السعودية | ✗ غير مسوق (0 تراخيص SFDA) |
+| عدد التفويضات | 0 |
+| القرار الموصى به | المضي قدماً مع ضمانات حماية |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## لماذا هذا التنبؤ معقول؟
 
-Currently, detailed mechanism of action data is not available in the system. Based on well-established pharmacological knowledge, atezolizumab is a humanized IgG1 monoclonal antibody that selectively binds to **PD-L1 (Programmed Death-Ligand 1)**, blocking its interactions with both PD-1 and B7.1 receptors. This blockade restores cytotoxic T-cell activity within the tumor microenvironment, allowing the immune system to recognize and destroy tumor cells that have evaded immune surveillance via the PD-L1/PD-1 axis.
+حالياً، بيانات آلية العمل المفصلة غير متاحة في النظام. بناءً على المعرفة الصيدلانية الراسخة، أتيزوليزوماب هو جسم مضاد أحادي النسيلة إنساني IgG1 يرتبط بشكل انتقائي بـ **PD-L1 (Programmed Death-Ligand 1)**، مما يحجب تفاعلاته مع مستقبلات PD-1 و B7.1. يعيد هذا الحجب النشاط السام للخلايا التائية داخل الميكروبيئة الورمية، مما يسمح للجهاز المناعي بالتعرف على الخلايا السرطانية التي تتفادى المراقبة المناعية عبر محور PD-L1/PD-1.
 
-Urothelial carcinomas — regardless of anatomical subsite (bladder, renal pelvis, ureter, or prostatic urethra) — share a common molecular signature: high PD-L1 expression on tumor cells and tumor-infiltrating immune cells, elevated tumor mutational burden (TMB), and a characteristically immunogenic microenvironment. The prostatic urethra is lined with transitional (urothelial) epithelium, making prostatic urethra urothelial carcinoma biologically equivalent to bladder urothelial carcinoma at the molecular level. The same immune evasion mechanism that makes bladder cancer responsive to atezolizumab is present in this subsite.
+سرطانات المسالك البولية — بغض النظر عن الفرع التشريحي (المثانة، حوض الكلية، الحالب، أو مجرى البروستاتا) — تشترك في توقيع جزيئي مشترك: التعبير العالي عن PD-L1 على الخلايا السرطانية والخلايا المناعية المتسللة للورم، عبء الطفرات الورمية المرتفع (TMB)، وميكروبيئة تتميز بالقابلية للاستجابة المناعية. مجرى البروستاتا مبطن بالظهارة الانتقالية (الظهارة البولية)، مما يجعل سرطان المسالك البولية في مجرى البروستاتا معادلاً بيولوجياً لسرطان المثانة البولي على المستوى الجزيئي. آلية الهروب المناعي نفسها التي تجعل سرطان المثانة مستجيباً لأتيزوليزوماب موجودة في هذا الفرع.
 
-Atezolizumab's efficacy in bladder/urothelial carcinoma is well established internationally (FDA-approved for locally advanced or metastatic urothelial carcinoma), and Phase 2 clinical trial data in BCG-unresponsive non-muscle invasive bladder cancer (NCT02844816, n=172) directly validates the drug's activity against urothelial carcinomas that have evaded first-line treatment. The extension to the prostatic urethral subsite represents an anatomical extrapolation with strong mechanistic justification, consistent with how checkpoint inhibitors are generally applied across urothelial subsites in clinical practice.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Phase 2 | Completed | 172 | Atezolizumab monotherapy in BCG-unresponsive non-muscle invasive bladder cancer (NMIBC); immunotherapy targeting PD-L1 to inhibit tumor growth in recurrent/refractory urothelial carcinoma |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1b | Active, not recruiting | 914 | Cabozantinib ± atezolizumab in multiple solid tumors, explicitly including advanced urothelial carcinoma (bladder, renal pelvis, ureter, urethra), CRPC, RCC, NSCLC, TNBC; provides safety and PK data for combination use |
+الفعالية المثبتة لأتيزوليزوماب في سرطان المثانة/المسالك البولية على الصعيد الدولي (معتمدة من FDA لسرطان المسالك البولية المتقدم محلياً أو منتشراً)، وبيانات التجربة السريرية المرحلة 2 في سرطان المثانة غير العضلي المقاوم لـ BCG (NCT02844816، n=172) تتحقق مباشرة من نشاط الدواء ضد سرطانات المسالك البولية التي تفادت العلاج من الخط الأول. التوسع إلى الفرع البروستاتي يمثل استقراء تشريحي مع تبرير ميكانيكي قوي، متسق مع كيفية تطبيق مثبطات نقطة التفتيش عموماً عبر فروع المسالك البولية في الممارسة السريرية.
 
 ---
 
-## Saudi Arabia Market Information
+## دليل التجارب السريرية
 
-No SFDA marketing authorizations found for atezolizumab. The drug is not currently registered or marketed in Saudi Arabia.
+| رقم التجربة | المرحلة | الحالة | عدد المشاركين | النتائج الرئيسية |
+|-----------|--------|--------|----------------|------------------|
+| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Phase 2 | مكتملة | 172 | العلاج بأتيزوليزوماب وحده في سرطان المثانة غير العضلي المقاوم لـ BCG (NMIBC)؛ العلاج المناعي الموجه ضد PD-L1 لمنع نمو الورم في سرطان المسالك البولية المتكرر/المقاوم للعلاج |
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1b | نشطة، غير تجنيد | 914 | كابوزانتينيب ± أتيزوليزوماب في أورام صلبة متعددة، بما فيها بشكل صريح سرطان المسالك البولية المتقدم (المثانة، حوض الكلية، الحالب، الإحليل)، CRPC، RCC، NSCLC، TNBC؛ يوفر بيانات السلامة و PK للاستخدام المركب |
 
 ---
 
-## Cytotoxicity
+## معلومات سوق المملكة العربية السعودية
 
-| Item | Content |
+لم يتم العثور على أي تفويضات تسويقية SFDA لأتيزوليزوماب. الدواء غير مسجل حالياً أو غير مسوق في المملكة العربية السعودية.
+
+---
+
+## السمية الخلوية
+
+| البند | المحتوى |
 |------|---------|
-| Cytotoxicity Classification | Immunotherapy — PD-L1 checkpoint inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Low (immune-related cytopenias possible but uncommon; primary risk is immune-mediated adverse events, not direct myelosuppression) |
-| Emetogenicity Classification | Minimal (infusion-related reactions are the main acute concern, not emetogenicity) |
-| Monitoring Items | CBC with differential, liver function tests (AST/ALT/bilirubin), thyroid function (TSH/free T4), renal function (creatinine), blood glucose, adrenal function; monitor for immune-related adverse events (irAEs) at each cycle |
-| Handling Protection | Standard biologic/monoclonal antibody handling precautions apply; not classified as a traditional cytotoxic — closed-system drug transfer devices not mandated, but institutional biologic handling policies must be followed |
+| تصنيف السمية الخلوية | العلاج المناعي — مثبط نقطة تفتيش PD-L1 (وليس سام خلوي تقليدي) |
+| خطر قمع النخاع | منخفض (قد تحدث نقص الصفيحات المرتبط بالمناعة ولكنه نادر؛ المخاطر الأساسية هي الأحداث الضائرة المرتبطة بالمناعة، وليس قمع النخاع المباشر) |
+| تصنيف الغثيان | ضئيل (ردود الفعل المرتبطة بالتسريب هي المصدر الأساسي للقلق الحاد، وليس الغثيان) |
+| بنود المراقبة | CBC مع التفريق، اختبارات وظائف الكبد (AST/ALT/بيليروبين)، وظيفة الغدة الدرقية (TSH/free T4)، وظيفة الكلى (creatinine)، سكر الدم، وظيفة الغدة الكظرية؛ مراقبة الأحداث الضائرة المرتبطة بالمناعة (irAEs) في كل دورة |
+| حماية المعالجة | تطبيق احتياطات المعالجة القياسية للمنتجات البيولوجية/الأجسام المضادة أحادية النسيلة؛ غير مصنفة كسم خلوي تقليدي — لا يتم توجيب أجهزة نقل الأدوية بنظام مغلق، لكن يجب اتباع سياسات معالجة المنتجات البيولوجية المؤسسية |
 
 ---
 
-## Safety Considerations
+## اعتبارات السلامة
 
-Detailed SFDA-specific warnings and contraindications are not available (no local registration). Please refer to the international prescribing information (FDA label or EMA SmPC) for full safety information, including:
+تفاصيل التحذيرات والموانع الخاصة بـ SFDA غير متاحة (لا يوجد تسجيل محلي). يرجى الرجوع إلى المعلومات الموصوفة الدولية (تسمية FDA أو EMA SmPC) للحصول على معلومات السلامة الكاملة، بما في ذلك:
 
-- Immune-related adverse events (pneumonitis, hepatitis, colitis, endocrinopathies, nephritis) requiring corticosteroid management or permanent discontinuation
-- Infusion-related reactions
-- Embryo-fetal toxicity (contraindicated in pregnancy)
-- No drug-drug interaction data was identified in the current query
+- أحداث ضائرة مرتبطة بالمناعة (الالتهاب الرئوي، التهاب الكبد، التهاب القولون، اعتلالات الغدد الصماء، التهاب الكلى) تتطلب إدارة الكورتيكوستيرويد أو الإيقاف النهائي
+- ردود فعل مرتبطة بالتسريب
+- السمية الجنينية (موانع الاستعمال في الحمل)
+- لم يتم تحديد بيانات تفاعل الأدوية في الاستعلام الحالي
 
 ---
 
-## Conclusion and Next Steps
+## الخلاصة والخطوات التالية
 
-**Decision: Proceed with Guardrails**
+**القرار: المضي قدماً مع ضمانات حماية**
 
-**Rationale:**
-Atezolizumab has a completed Phase 2 trial in BCG-unresponsive urothelial carcinoma (NCT02844816, n=172) and a large Phase 1b safety dataset in broad urothelial carcinoma (NCT03170960, n=914), with a strong and well-understood mechanistic rationale that directly extends to the prostatic urethral subsite. The absence of SFDA registration represents a regulatory, not a scientific, barrier.
+**التبرير:**
+أتيزوليزوماب لديه تجربة مرحلة 2 مكتملة في سرطان المسالك البولية المقاوم لـ BCG (NCT02844816، n=172) ومجموعة بيانات سلامة Phase 1b كبيرة في سرطان المسالك البولية الواسع (NCT03170960، n=914)، مع تبرير آلي قوي وفهم معروف جيداً يمتد مباشرة إلى الفرع البروستاتي. غياب تسجيل SFDA يمثل عائقاً تنظيمياً، وليس علمياً.
 
-**To proceed, the following is needed:**
-- SFDA registration pathway assessment for atezolizumab in Saudi Arabia (or compassionate use / import license options)
-- Subsite-specific efficacy data for prostatic urethra urothelial carcinoma (ideally from retrospective cohort or case series within NCT03170960's urothelial cohort)
-- Full mechanism of action and safety data retrieval via DrugBank API (DG002 remediation)
-- SFDA/local package insert review for Saudi Arabia-specific contraindications and warnings (DG001 remediation)
-- Patient selection criteria based on PD-L1 expression testing (SP142 assay) and tumor mutational burden profiling
-- Pharmacovigilance and monitoring plan aligned with Saudi Arabia SFDA post-marketing requirements
+**للمضي قدماً، يلزم ما يلي:**
+- تقييم مسار تسجيل SFDA لأتيزوليزوماب في المملكة العربية السعودية (أو خيارات الاستخدام الرحيم / رخصة الاستيراد)
+- بيانات الفعالية الخاصة بالفرع لسرطان المسالك البولية في مجرى البروستاتا (يفضل من مجموعة انتقائية أو سلسلة حالات ضمن مجموعة المسالك البولية في NCT03170960)
+- استرجاع البيانات الكاملة لآلية العمل والسلامة عبر DrugBank API (تصحيح DG002)
+- مراجعة النشرة الداخلية SFDA/المحلية للمملكة العربية السعودية بحثاً عن موانع الاستعمال والتحذيرات الخاصة بالمملكة (تصحيح DG001)
+- معايير اختيار المريض بناءً على اختبار التعبير عن PD-L1 (اختبار SP142) ودراسة ملفات الطفرات الورمية
+- خطة اليقظة الدوائية والمراقبة المتوافقة مع متطلبات ما بعد التسويق SFDA بالمملكة العربية السعودية
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
