@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00033-pierre-robin-syndrome-associated-with-a-chromosomal-anomaly",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00033"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

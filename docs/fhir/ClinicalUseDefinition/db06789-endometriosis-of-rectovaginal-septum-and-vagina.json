@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db06789-endometriosis-of-rectovaginal-septum-and-vagina",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db06789"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "endometriosis of rectovaginal septum and vagina"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}
