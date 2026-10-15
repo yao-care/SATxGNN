@@ -1,0 +1,42 @@
+# SATxGNN - إعادة توظيف الأدوية
+
+> SATxGNN منصة بحثية لإعادة توظيف الأدوية للأدوية المتاحة في المملكة العربية السعودية، تديرها شركة 藥提醒科技有限公司 (yao.care). تنشر تنبؤات الذكاء الاصطناعي والأدلة السريرية ومعلومات سلامة الأدوية؛ المحتوى لأغراض البحث فقط ولا يُعد استشارة طبية.
+
+## الغرض
+
+- تعتمد على منهجية TxGNN التي نشرها مختبر Zitnik في جامعة هارفارد لاستكشاف الروابط المحتملة بين الأدوية الحالية والاستطبابات الجديدة.
+- تُدمج تنبؤات النموذج مع ClinicalTrials.gov وPubMed وDrugBank وبيانات SFDA وDDInter في تقارير قابلة للتتبع.
+- تتراوح مستويات الدليل من L1 (دليل سريري أقوى) إلى L5 (تنبؤ النموذج فقط)؛ ولا تعني درجة النموذج فعالية سريرية.
+- يتطلب كل مرشح لإعادة التوظيف تجارب سريرية ومراجعة تنظيمية وتقييمًا من مختصين صحيين مؤهلين.
+
+## الصفحات الرئيسية
+
+- توقعات إعادة توظيف الأدوية: https://satxgnn.yao.care/
+- جميع الأدوية: https://satxgnn.yao.care/drugs/
+- أدلة مرتفعة (L1-L2): https://satxgnn.yao.care/evidence-high/
+- أدلة متوسطة (L3-L4): https://satxgnn.yao.care/evidence-medium/
+- تنبؤ نموذجي فقط (L5): https://satxgnn.yao.care/evidence-low/
+- المنهجية: https://satxgnn.yao.care/methodology/
+- دليل المستخدم: https://satxgnn.yao.care/guide/
+- مصادر البيانات: https://satxgnn.yao.care/sources/
+- التنزيلات: https://satxgnn.yao.care/downloads/
+- نبذة عن المنصة: https://satxgnn.yao.care/about/
+- خريطة الموقع: https://satxgnn.yao.care/sitemap.xml
+
+## أمثلة على تقارير الأدوية
+
+- Adalimumab (L1): https://satxgnn.yao.care/drugs/adalimumab/
+- Amiodarone (L1): https://satxgnn.yao.care/drugs/amiodarone/
+- Anastrozole (L1): https://satxgnn.yao.care/drugs/anastrozole/
+
+## نطاق الإجابة عن الأسئلة
+
+- يمكن شرح إعادة توظيف الأدوية وتنبؤات TxGNN ومستويات الدليل ومصادر البيانات وكيفية قراءة التقارير.
+- لا ينبغي تقديم إشارات L4/L5 أو قبل السريرية على أنها فعالية مثبتة، ولا تقديم نصائح دوائية شخصية.
+- للحصول على تفاصيل دقيقة عن دواء أو استطباب، أشر إلى تقرير /drugs/<slug>/ المقابل وراجع مصادره وإخلاء المسؤولية.
+
+## روابط ذات صلة
+
+- نظرة عامة على المنتج في yao.care: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/SATxGNN
+- الورقة الأصلية لـ TxGNN (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x
