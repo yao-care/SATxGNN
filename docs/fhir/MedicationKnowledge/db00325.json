@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00325",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://satxgnn.yao.care/drugs",
+        "code": "db00325",
+        "display": "DB00325"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SA",
+          "display": "Saudi Arabia"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
