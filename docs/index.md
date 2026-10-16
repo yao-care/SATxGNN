@@ -2,7 +2,7 @@
 layout: default
 title: توقعات إعادة توظيف الأدوية
 nav_order: 1
-description: "AI-powered drug repurposing predictions for Saudi Arabia. Evidence-based analysis of approved medicines for potential new therapeutic indications."
+description: "توقعات مدعومة بالذكاء الاصطناعي لإعادة توظيف الأدوية في المملكة العربية السعودية. تحليل قائم على الأدلة للأدوية المعتمدة بحثًا عن استطبابات علاجية جديدة محتملة."
 permalink: /
 ---
 
