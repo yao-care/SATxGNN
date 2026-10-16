@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Gemifloxacin: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسيلات (مستوى الدليل L5). الاستطباب الأصلي: التهاب رئوي جرثومي (بما في ذلك العقدي والكلبسيلة والميكوبلازما والكلا…"
+monitor_inn: "gemifloxacin"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "endomyometritis"]
 ---
 
 # Gemifloxacin

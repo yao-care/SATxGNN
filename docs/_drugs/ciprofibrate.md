@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ciprofibrate: الاستطباب الجديد المتوقع فرط بروتينات الدم الشحمية (مستوى الدليل L2). الاستطباب الأصلي: فرط ثلاثي غليسريد الدم، وفرط شحميات الدم المركّب العائلي (من الرسم ال…"
+monitor_inn: "CIPROFIBRATE"
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "familial hypercholesterolemia", "hyperlipidemia", "homozygous familial hypercholesterolemia", "familial hyperlipidemia", "fibroma of prostate", "prostate cancer/brain cancer susceptibility"]
 ---
 
 # Ciprofibrate

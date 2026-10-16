@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Plerixafor: الاستطباب الجديد المتوقع الورم النقوي الخامل (مستوى الدليل L5). الاستطباب الأصلي: ورم الخلايا البلازمية (الورم النقوي)"
+monitor_inn: "PLERIXAFOR"
+predicted_indications: ["indolent plasma cell myeloma", "CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 ---
 
 # Plerixafor

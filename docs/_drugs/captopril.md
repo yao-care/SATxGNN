@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Captopril: الاستطباب الجديد المتوقع اعتلال الكلية الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، اعتلال الكلية السكري (بحسب الرسم المعرفي لـ TxGNN، إ…"
+monitor_inn: "CAPTOPRIL"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Captopril

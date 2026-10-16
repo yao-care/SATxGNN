@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Zinc Sulfate: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (المنتجات المرخصة قطرات عين)"
+monitor_inn: "zinc sulfate"
+predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 ---
 
 # Zinc Sulfate

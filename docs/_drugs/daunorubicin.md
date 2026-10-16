@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Daunorubicin: الاستطباب الجديد المتوقع لمفومة هودجكين (مستوى الدليل L3). الاستطباب الأصلي: اللوكيميا اللمفاوية الحادة واللوكيميا النقوية الحادة (لا يتوفر نص است…"
+monitor_inn: "DAUNORUBICIN"
+predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 ---
 
 # Daunorubicin

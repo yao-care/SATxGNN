@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Topiramate: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (مستوى الدليل L5). الاستطباب الأصلي: الصرع (نوبات كلونية تونيكية معممة، صرع جزئي، متلازمة لينوكس-غاستو)"
+monitor_inn: "TOPIRAMATE"
+predicted_indications: ["trigeminal nerve neoplasm", "visual epilepsy", "startle epilepsy", "micturation-induced seizures", "eating seizures", "orgasm-induced seizures", "thinking seizures", "audiogenic seizures", "reading seizures"]
 ---
 
 # Topiramate

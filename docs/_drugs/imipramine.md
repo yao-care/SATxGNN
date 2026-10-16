@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Imipramine: الاستطباب الجديد المتوقع اضطراب نقص الانتباه وفرط الحركة (مستوى الدليل L3). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الدستيميا، التبول الليلي (من ر…"
+monitor_inn: "Imipramine"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 ---
 
 # Imipramine

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Luliconazole: الاستطباب الجديد المتوقع النخالة المبرقشة (Pityriasis versicolor) (مستوى الدليل L3). الاستطباب الأصلي: سعفة القدم، وسعفة الجسم، وعدوى السعفة، والفطريات الجلدية في منطقة الأ…"
+monitor_inn: "LULICONAZOLE"
+predicted_indications: ["pityriasis versicolor", "superficial mycosis", "cutaneous candidiasis", "endothrix infectious disease", "dermatophytosis of scalp or beard", "Majocchi granuloma", "ectothrix infectious disease"]
 ---
 
 # Luliconazole

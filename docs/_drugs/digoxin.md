@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Digoxin: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: الرجفان الأذيني؛ التسمم بالديجيتالis"
+monitor_inn: "DIGOXIN"
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
 ---
 
 # Digoxin

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Clioquinol: الاستطباب الجديد المتوقع داء المبيضات الجلدي (Cutaneous candidiasis) (مستوى الدليل L4). الاستطباب الأصلي: سعفة القدم، سعفة الجسم، عدوى السعفة، فطريات منطقة الأربية وحول الشرج…"
+monitor_inn: "CLIOQUINOL"
+predicted_indications: ["cutaneous candidiasis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda"]
 ---
 
 # Clioquinol

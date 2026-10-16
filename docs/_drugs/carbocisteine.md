@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Carbocisteine: الاستطباب الجديد المتوقع النقرس (Gout) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في تراخيص الهيئة العامة للغذاء والدواء (نصوص الاستطباب فارغ…"
+monitor_inn: "carbocisteine"
+predicted_indications: ["gout"]
 ---
 
 # Carbocisteine

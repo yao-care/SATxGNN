@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Aminocaproic Acid: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative di… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
+monitor_inn: "AMINOCAPROIC ACID"
+predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 ---
 
 # Aminocaproic Acid

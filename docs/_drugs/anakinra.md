@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Anakinra: الاستطباب الجديد المتوقع ورم الخلايا البدينة خارج الجلد (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، متلازمات الحمّى الدورية المرتبطة بالكريوب…"
+monitor_inn: "ANAKINRA"
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
 
 # Anakinra

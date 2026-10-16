@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ferric Carboxymaltose: الاستطباب الجديد المتوقع التهاب القصبات الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات (نص الاستطباب في الترخيص فارغ)؛ الاستخدام المعر…"
+monitor_inn: "FERRIC CARBOXYMALTOSE"
+predicted_indications: ["bronchitis"]
 ---
 
 # Ferric Carboxymaltose

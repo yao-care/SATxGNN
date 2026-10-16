@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tolfenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر (نص الاستطباب في الترخيص فارغ)"
+monitor_inn: "TOLFENAMIC ACID"
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis", "osteoarthritis susceptibility"]
 ---
 
 # Tolfenamic Acid

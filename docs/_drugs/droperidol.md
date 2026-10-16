@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Droperidol: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر (نص الاستطباب في الترخيص فارغ)"
+monitor_inn: "DROPERIDOL"
+predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
 ---
 
 # Droperidol

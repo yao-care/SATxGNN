@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Sumatriptan: الاستطباب الجديد المتوقع الصداع النصفي مع هالة جذع الدماغ (مستوى الدليل L4). الاستطباب الأصلي: اضطراب الصداع النصفي (الصداع النصفي مع الهالة أو بدونها)، الصداع العن…"
+monitor_inn: "SUMATRIPTAN"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Sumatriptan

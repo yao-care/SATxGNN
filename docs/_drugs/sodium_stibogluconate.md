@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Sodium Stibogluconate: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (مستوى الدليل L5). الاستطباب الأصلي: داء الليشمانيات"
+monitor_inn: "SODIUM STIBOGLUCONATE"
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Sodium Stibogluconate

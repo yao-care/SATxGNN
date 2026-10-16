@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Erdafitinib: الاستطباب الجديد المتوقع فرط ضغط الدم الرئوي (Pulmonary Hypertension) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمعة"
+monitor_inn: "ERDAFITINIB"
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Erdafitinib

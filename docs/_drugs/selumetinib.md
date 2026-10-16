@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Selumetinib: الاستطباب الجديد المتوقع الورم الشفاني للأعصاب الطرفية (Peripheral nerve schwannoma) (مستوى الدليل L3). الاستطباب الأصلي: الورم الليفي العصبي (Neurofibromatosis)، وفق الرسوم المعرفية للن…"
+monitor_inn: "SELUMETINIB"
+predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
 ---
 
 # Selumetinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Acemetacin: الاستطباب الجديد المتوقع قابلية الإصابة بالفصال العظمي (مستوى الدليل L5). الاستطباب الأصلي: التهاب الفقار اللاصق، اضطرابات روماتيزمية، الفيبرومالجيا (من الرسم ال…"
+monitor_inn: "ACEMETACIN"
+predicted_indications: ["osteoarthritis susceptibility"]
 ---
 
 # Acemetacin

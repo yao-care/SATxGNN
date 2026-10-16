@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Paromomycin: الاستطباب الجديد المتوقع تليّف الكبد المرتبط بالنحاس مجهول السبب (مستوى الدليل L5). الاستطباب الأصلي: الغيبوبة الكبدية / اعتلال الدماغ الكبدي (من رسم المعرفة في TxGNN، ولي…"
+monitor_inn: "PAROMOMYCIN"
+predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 ---
 
 # Paromomycin

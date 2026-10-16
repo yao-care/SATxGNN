@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Mogamulizumab: الاستطباب الجديد المتوقع سرطان الظهارة البولية في الإحليل البروستاتي (مستوى الدليل L5). الاستطباب الأصلي: الفطار الفطراني وأشكاله، والأورام اللمفية الجلدية التائية الأولية (بح…"
+monitor_inn: "MOGAMULIZUMAB"
+predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
 ---
 
 # Mogamulizumab

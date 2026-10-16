@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Antihemophilic Factor Human Recombinant: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا؛ الشكل المصحوب بأعراض لدى الناقلات من الإناث (…"
+monitor_inn: "ANTIHEMOPHILIC FACTOR, HUMAN RECOMBINANT"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 ---
 
 # Antihemophilic Factor Human Recombinant

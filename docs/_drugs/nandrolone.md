@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nandrolone: الاستطباب الجديد المتوقع داء الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص هيئة الغذاء والدواء السعودية فارغة)"
+monitor_inn: "NANDROLONE"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fetal erythroblastosis", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "renal osteodystrophy"]
 ---
 
 # Nandrolone

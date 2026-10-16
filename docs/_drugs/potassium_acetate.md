@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Potassium Acetate: الاستطباب الجديد المتوقع الحماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: نقص البوتاسيوم (Potassium deficiency disease)"
+monitor_inn: "POTASSIUM ACETATE"
+predicted_indications: ["renal tubular acidosis"]
 ---
 
 # Potassium Acetate

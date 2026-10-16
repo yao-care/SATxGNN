@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Famotidine: الاستطباب الجديد المتوقع مرض القرحة الهضمية (مستوى الدليل L5). الاستطباب الأصلي: قرحة المعدة، مرض الارتجاع المعدي المريئي، التهاب المريء، عسر الهضم، ق…"
+monitor_inn: "FAMOTIDINE"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "abnormality of glucagon secretion", "gastroduodenitis", "peptic ulcer disease", "multiple endocrine neoplasia", "acne (disease)"]
 ---
 
 # Famotidine

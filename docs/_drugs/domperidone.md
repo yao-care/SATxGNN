@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Domperidone: الاستطباب الجديد المتوقع المتلازمة الكلوية المنشأ لإفراط إفراز مضاد الإدرار غير الملائم (مستوى الدليل L5). الاستطباب الأصلي: عسر الهضم والغثيان والقيء (بحسب البيانات الدوائية المجمّعة؛ ن…"
+monitor_inn: "DOMPERIDONE"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Domperidone

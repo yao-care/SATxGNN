@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Docusate: الاستطباب الجديد المتوقع متلازمة بلامر-فينسون (Plummer-Vinson syndrome) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك، وفقر الدم الناجم عن نقص الحديد/الفوليك (لا يتوفر نص استطباب…"
+monitor_inn: "Docusate"
+predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
 ---
 
 # Docusate

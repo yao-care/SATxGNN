@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ofloxacin: الاستطباب الجديد المتوقع الطاعون الإنتاني (التنبؤ الأعلى درجة هو فرط أميلاز الدم، لكنه بلا دعم) (مستوى الدليل L5). الاستطباب الأصلي: التيفوئيد، داء السالمونيلا، التهابات المسالك البولية، ا…"
+monitor_inn: "OFLOXACIN"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Ofloxacin

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pemetrexed: الاستطباب الجديد المتوقع ورم المتوسطة الصفاقي الخبيث (مستوى الدليل L2). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا، سرطان الرئة، ورم المتوسطة الجنبي الخبيث…"
+monitor_inn: "PEMETREXED"
+predicted_indications: ["malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural mesothelioma", "pleural epithelioid mesothelioma", "pleural sarcomatoid mesothelioma", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
 ---
 
 # Pemetrexed

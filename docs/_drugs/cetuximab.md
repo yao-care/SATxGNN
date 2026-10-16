@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cetuximab: الاستطباب الجديد المتوقع أورام القصبات الغدية/الكارسينويد عند الأطفال (مستوى الدليل L5). الاستطباب الأصلي: سرطان القولون والمستقيم، وسرطان الخلايا الحرشفية (البلعوم والحنجرة)،…"
+monitor_inn: "CETUXIMAB"
+predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
 ---
 
 # Cetuximab

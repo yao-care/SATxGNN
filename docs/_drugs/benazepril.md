@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Benazepril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الكلوي الوعائي الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (وفق الاستطبابات المسجلة في قاعدة المعرفة، إذ لا يتوف…"
+monitor_inn: "BENAZEPRIL"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 ---
 
 # Benazepril

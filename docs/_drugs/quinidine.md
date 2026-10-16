@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Quinidine: الاستطباب الجديد المتوقع متلازمة عدم الإدرار الكلوية غير الملائمة (NSIAD) (مستوى الدليل L5). الاستطباب الأصلي: الرجفان الأذيني، الملاريا"
+monitor_inn: "Quinidine"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Quinidine

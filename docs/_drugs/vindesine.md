@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Vindesine: الاستطباب الجديد المتوقع الورم الأرومي العصبي (Neuroblastoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الدم الليمفاوي الحاد، سرطان الدم النقوي المزمن، الورم الميلانين…"
+monitor_inn: "VINDESINE"
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm", "myeloid leukemia"]
 ---
 
 # Vindesine

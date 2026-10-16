@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Betaxolol: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، الزرق مفتوح الزاوية، ارتفاع ضغط العين (من الرسم المع…"
+monitor_inn: "Betaxolol"
+predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Betaxolol

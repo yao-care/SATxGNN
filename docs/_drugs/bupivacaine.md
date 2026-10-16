@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Bupivacaine: الاستطباب الجديد المتوقع التهاب الجلد الضموري المزمن الضموري الطرفي (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد (حسب الرسم البياني المعرفي للنموذج؛ لا يوجد نص مؤشر معتم…"
+monitor_inn: "BUPIVACAINE"
+predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 ---
 
 # Bupivacaine

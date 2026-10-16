@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Favipiravir: الاستطباب الجديد المتوقع المتلازمة البلعمية المرتبطة بالعدوى (أعلى استطباب متوقع في الترتيب كا… (مستوى الدليل L5). الاستطباب الأصلي: الإنفلونزا (بما فيها الإنفلونزا الشديدة) — مأخوذ من ا…"
+monitor_inn: "FAVIPIRAVIR"
+predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"]
 ---
 
 # Favipiravir

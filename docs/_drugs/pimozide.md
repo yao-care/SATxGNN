@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pimozide: الاستطباب الجديد المتوقع هوس نتف الشعر (Trichotillomania) (مستوى الدليل L3). الاستطباب الأصلي: متلازمة توريت (حسب شبكة المعرفة المعرفية في TxGNN، إذ لا يوجد نص استط…"
+monitor_inn: "PIMOZIDE"
+predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Pimozide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Magnesium Citrate: الاستطباب الجديد المتوقع متلازمة الكالسيوم والقلويات (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام (وهشاشة العظام بعد انقطاع الطمث)، فرط كالسيوم الدم، تكلس…"
+monitor_inn: "MAGNESIUM CITRATE"
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
 ---
 
 # Magnesium Citrate

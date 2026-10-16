@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Telbivudine: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد C المزمنة (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد B المزمنة"
+monitor_inn: "TELBIVUDINE"
+predicted_indications: ["chronic hepatitis C virus infection", "hepatitis B virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
 ---
 
 # Telbivudine

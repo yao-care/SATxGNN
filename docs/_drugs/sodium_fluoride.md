@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Sodium Fluoride: الاستطباب الجديد المتوقع التهاب لسان المزمار (epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب نقص الفيتامينات (من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استط…"
+monitor_inn: "sodium fluoride"
+predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
 ---
 
 # Sodium Fluoride

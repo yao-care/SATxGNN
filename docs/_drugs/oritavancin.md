@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Oritavancin: الاستطباب الجديد المتوقع العدوى بفصيلة Bacteroidaceae (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الجلدية الناجمة عن العدوى"
+monitor_inn: "ORITAVANCIN"
+predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
 ---
 
 # Oritavancin

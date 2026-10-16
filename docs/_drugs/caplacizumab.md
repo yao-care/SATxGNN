@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Caplacizumab: الاستطباب الجديد المتوقع فرفرية نقص الصفيحات الخثارية (TTP) (مستوى الدليل L1). الاستطباب الأصلي: فرفرية نقص الصفيحات (من رسم المعرفة PrimeKG؛ نص الاستطباب في تراخيص ه…"
+monitor_inn: "CAPLACIZUMAB"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "thrombotic thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
 ---
 
 # Caplacizumab

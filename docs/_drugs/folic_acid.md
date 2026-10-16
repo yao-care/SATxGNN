@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Folic Acid: الاستطباب الجديد المتوقع اضطرابات استقلاب البيوتين (مستوى الدليل L4). الاستطباب الأصلي: اضطرابات نقص الفيتامينات، وفقر الدم بنقص حمض الفوليك، وفقر الدم بنقص…"
+monitor_inn: "FOLIC ACID"
+predicted_indications: ["biotin metabolic disease"]
 ---
 
 # Folic Acid

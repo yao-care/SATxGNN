@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Methenamine: الاستطباب الجديد المتوقع التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma urethritis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية (مصدره الرسم المعرفي لـ TxGNN، وليس ن…"
+monitor_inn: "methenamine"
+predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
 ---
 
 # Methenamine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Letermovir: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: عدوى الفيروس المضخم للخلايا (CMV)"
+monitor_inn: "LETERMOVIR"
+predicted_indications: ["vulvovaginal candidiasis"]
 ---
 
 # Letermovir

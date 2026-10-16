@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Norethisterone: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: الانتباذ البطاني الرحمي، فشل المبيض الأولي، التهاب المهبل الضموري بعد…"
+monitor_inn: "NORETHISTERONE"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norethisterone

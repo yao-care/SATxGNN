@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ruxolitinib: الاستطباب الجديد المتوقع ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (uterine corpus PE… (مستوى الدليل L5). الاستطباب الأصلي: التليف النقوي (الأولي)، فرط الحمر الحقيقي المكتسب، ال…"
+monitor_inn: "RUXOLITINIB"
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 ---
 
 # Ruxolitinib

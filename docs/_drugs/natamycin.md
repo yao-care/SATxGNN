@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Natamycin: الاستطباب الجديد المتوقع داء المبيضّات الفرجي المهبلي (مستوى الدليل L1). الاستطباب الأصلي: قرحة القرنية الفطرية"
+monitor_inn: "natamycin"
+predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
 ---
 
 # Natamycin

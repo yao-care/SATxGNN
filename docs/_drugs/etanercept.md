@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Etanercept: الاستطباب الجديد المتوقع التهاب الأوعية الدموية الروماتويدي (Rheumatoid vasculitis) (مستوى الدليل L4). الاستطباب الأصلي: التهاب المفاصل الصدفي، التهاب المفاصل الروماتويدي، التهاب الفقار ا…"
+monitor_inn: "ETANERCEPT"
+predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"]
 ---
 
 # Etanercept

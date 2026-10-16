@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Etelcalcetide: الاستطباب الجديد المتوقع فرط فوسفات الدم (Hyperphosphatemia) (مستوى الدليل L4). الاستطباب الأصلي: فرط نشاط جارات الدرق (Hyperparathyroidism)"
+monitor_inn: "ETELCALCETIDE"
+predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
 ---
 
 # Etelcalcetide

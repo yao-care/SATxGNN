@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Dexmedetomidine: الاستطباب الجديد المتوقع اضطراب الصداع (مستوى الدليل L5). الاستطباب الأصلي: التركين (لم تتوفر نصوص استطباب في تراخيص هيئة الغذاء والدواء السعودية…"
+monitor_inn: "DEXMEDETOMIDINE"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Dexmedetomidine

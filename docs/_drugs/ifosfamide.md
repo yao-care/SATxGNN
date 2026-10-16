@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ifosfamide: الاستطباب الجديد المتوقع 99.91% (مستوى الدليل L5). الاستطباب الأصلي: سرطان الثدي لدى النساء (female breast carcinoma)"
+monitor_inn: "IFOSFAMIDE"
+predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Ifosfamide

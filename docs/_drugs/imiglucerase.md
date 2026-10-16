@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Imiglucerase: الاستطباب الجديد المتوقع متلازمة هورلر (Hurler syndrome) (مستوى الدليل L4). الاستطباب الأصلي: داء غوشيه"
+monitor_inn: "IMIGLUCERASE"
+predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 ---
 
 # Imiglucerase

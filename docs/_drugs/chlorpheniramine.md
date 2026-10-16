@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Chlorpheniramine: الاستطباب الجديد المتوقع الشرى التحسسي (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (استناداً إلى الرسم المعرفي لـ TxGNN، إذ لا يوجد…"
+monitor_inn: "Chlorpheniramine"
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "cold urticaria"]
 ---
 
 # Chlorpheniramine

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pertuzumab: الاستطباب الجديد المتوقع سرطان الثدي السلبي لمستقبل البروجسترون (مستوى الدليل L1). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبل HER2 (بحسب رسم المعرفة في TxGNN، إذ لا ي…"
+monitor_inn: "PERTUZUMAB"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 ---
 
 # Pertuzumab

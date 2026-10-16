@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Amorolfine: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (مستوى الدليل L5). الاستطباب الأصلي: عدوى الأظافر الفطرية (فطار الأظافر)، بحسب البيانات الدوائية المتاحة؛…"
+monitor_inn: "AMOROLFINE"
+predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
 ---
 
 # Amorolfine

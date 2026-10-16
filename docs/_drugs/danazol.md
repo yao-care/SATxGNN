@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea) (مستوى الدليل L3). الاستطباب الأصلي: الانتباذ البطاني الرحمي، مرض الثدي الكيسي الليفي (لا يتوفر نص استطباب…"
+monitor_inn: "DANAZOL"
+predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 ---
 
 # Danazol

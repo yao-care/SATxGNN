@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Pantothenic Acid: الاستطباب الجديد المتوقع فقر الدم الناتج عن نقص حمض الفوليك (الترتيب الرابع في التنبؤات) (مستوى الدليل L4). الاستطباب الأصلي: نقص حمض الأسكوربيك (الإسقربوط)"
+monitor_inn: "pantothenic acid"
+predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
 ---
 
 # Pantothenic Acid

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Aceclofenac: الاستطباب الجديد المتوقع متلازمة براكيولميا مع تكوّن ميناء السن الناقص (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، الفصال العظمي، الته…"
+monitor_inn: "ACECLOFENAC"
+predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "rheumatoid vasculitis", "inflammatory spondylopathy", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
 ---
 
 # Aceclofenac

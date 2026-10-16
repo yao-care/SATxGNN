@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Tadalafil: الاستطباب الجديد المتوقع متلازمة أمبراس لفرط الشعر الخلقي العام (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستات الحميد، ارتفاع ضغط الدم الرئوي، ضعف الانتصاب، عسر الجم…"
+monitor_inn: "TADALAFIL"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Tadalafil

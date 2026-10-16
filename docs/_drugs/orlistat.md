@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Orlistat: الاستطباب الجديد المتوقع فرط الفيتامينات (Hypervitaminosis) (مستوى الدليل L5). الاستطباب الأصلي: السمنة (obesity disorder) والسمنة أحادية الجين (monogenic obesity)"
+monitor_inn: "ORLISTAT"
+predicted_indications: ["hypervitaminosis"]
 ---
 
 # Orlistat

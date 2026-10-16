@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Colchicine: الاستطباب الجديد المتوقع ملاريا المتصورة المنجلية (مستوى الدليل L5). الاستطباب الأصلي: النقرس، حمى البحر المتوسط العائلية"
+monitor_inn: "COLCHICINE"
+predicted_indications: ["Plasmodium falciparum malaria", "familial Mediterranean fever, autosomal dominant", "dermatofibrosarcoma protuberans"]
 ---
 
 # Colchicine

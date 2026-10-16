@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Micafungin: الاستطباب الجديد المتوقع التهاب المسالك البولية (مستوى الدليل L3). الاستطباب الأصلي: داء المبيضّات المريئي، فطريات المبيضّات في الدم، داء المبيضّات المنتش…"
+monitor_inn: "MICAFUNGIN"
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Micafungin

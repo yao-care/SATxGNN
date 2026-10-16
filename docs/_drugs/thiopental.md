@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Thiopental: الاستطباب الجديد المتوقع هوس نتف الشعر (Trichotillomania) (مستوى الدليل L5). الاستطباب الأصلي: الصرع، والورم الكاذب للمخ، وارتفاع الضغط داخل الجمجمة (مصدرها الرسم ا…"
+monitor_inn: "Thiopental"
+predicted_indications: ["trichotillomania", "frontal lobe epilepsy", "Prinzmetal angina", "migraine disorder", "absence epilepsy", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Thiopental

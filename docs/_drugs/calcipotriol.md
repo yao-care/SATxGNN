@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Calcipotriol: الاستطباب الجديد المتوقع التقرن الدهني (seborrheic keratosis) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص المؤشرات فارغة)"
+monitor_inn: "calcipotriol"
+predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
 ---
 
 # Calcipotriol

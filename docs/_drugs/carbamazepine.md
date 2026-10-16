@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Carbamazepine: الاستطباب الجديد المتوقع ورم العصب ثلاثي التوائم (مستوى الدليل L4). الاستطباب الأصلي: الصرع (بما في ذلك النوبات الجزئية والتشنجية العامة ومتلازمة لينوكس-غا…"
+monitor_inn: "CARBAMAZEPINE"
+predicted_indications: ["trigeminal nerve neoplasm", "startle epilepsy", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "orgasm-induced seizures", "thinking seizures", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 ---
 
 # Carbamazepine

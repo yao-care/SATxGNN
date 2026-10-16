@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ramucirumab: الاستطباب الجديد المتوقع السرطان الغدي في الرباط الرحمي (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا، سرطان الرئة، السرطان الغدي في المعدة، س…"
+monitor_inn: "RAMUCIRUMAB"
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 ---
 
 # Ramucirumab

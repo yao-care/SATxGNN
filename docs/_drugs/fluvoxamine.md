@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fluvoxamine: الاستطباب الجديد المتوقع اضطراب الشخصية الهستيرية (مستوى الدليل L5). الاستطباب الأصلي: الرهاب الاجتماعي، اضطراب الرهاب، اضطراب الوسواس القهري (من رسم المعرف…"
+monitor_inn: "Fluvoxamine"
+predicted_indications: ["histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 ---
 
 # Fluvoxamine

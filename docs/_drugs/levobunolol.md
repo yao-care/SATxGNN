@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Levobunolol: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (primary hereditary glaucoma) (مستوى الدليل L5). الاستطباب الأصلي: الزرق مفتوح الزاوية وارتفاع ضغط العين (من الرسم البياني المعرفي، إذ ل…"
+monitor_inn: "Levobunolol"
+predicted_indications: ["primary hereditary glaucoma", "glaucoma 1, open angle", "open angle glaucoma"]
 ---
 
 # Levobunolol

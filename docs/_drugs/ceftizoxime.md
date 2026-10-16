@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Ceftizoxime: الاستطباب الجديد المتوقع التهاب الإحليل السيلاني (gonococcal urethritis) (مستوى الدليل L3). الاستطباب الأصلي: عدوى المسالك البولية، السيلان، الالتهاب الرئوي، عدوى المكورات العقدية…"
+monitor_inn: "CEFTIZOXIME"
+predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "epiglottitis", "urogenital tuberculosis"]
 ---
 
 # Ceftizoxime

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Acyclovir: الاستطباب الجديد المتوقع الثآليل الشائعة (common wart) (مستوى الدليل L5). الاستطباب الأصلي: عدوى الهربس البسيط، الهربس النطاقي، الجديري، الهربس الشفوي، التهاب ال…"
+monitor_inn: "Acyclovir"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
 ---
 
 # Acyclovir

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Procyclidine: الاستطباب الجديد المتوقع التهاب الدماغ تحت الحاد لراسموسن (مستوى الدليل L5). الاستطباب الأصلي: داء باركنسون والمتلازمات الباركنسونية وخلل التوتر العضلي (وفق الرسم ا…"
+monitor_inn: "PROCYCLIDINE"
+predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
 ---
 
 # Procyclidine

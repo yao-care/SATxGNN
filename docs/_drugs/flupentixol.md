@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Flupentixol: الاستطباب الجديد المتوقع حثل الشبكية مع أو بدون شذوذات خارج العين (مستوى الدليل L5). الاستطباب الأصلي: الفصام (من رسم المعرفة PrimeKG، إذ إن نصوص الاستطباب في تراخيص هيئة ا…"
+monitor_inn: "FLUPENTIXOL"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 ---
 
 # Flupentixol

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Emtricitabine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (FIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV والإيدز"
+monitor_inn: "emtricitabine"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Emtricitabine

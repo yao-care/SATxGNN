@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Diltiazem: الاستطباب الجديد المتوقع القابلية للإصابة بالسكتة الدماغية الإقفارية (مصطلح مهجور) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، الرجفان الأذيني، ذبحة برينزميتال، التسرع البطيني (م…"
+monitor_inn: "Diltiazem"
+predicted_indications: ["obsolete susceptibility to ischemic stroke"]
 ---
 
 # Diltiazem

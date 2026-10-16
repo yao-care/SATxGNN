@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Travoprost: الاستطباب الجديد المتوقع أمراض الأوعية الدموية (Vascular disease) (مستوى الدليل L5). الاستطباب الأصلي: الجلوكوما ذات الزاوية المفتوحة، ارتفاع ضغط العين"
+monitor_inn: "TRAVOPROST"
+predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 ---
 
 # Travoprost

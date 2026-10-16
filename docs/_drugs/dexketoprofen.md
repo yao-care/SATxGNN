@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dexketoprofen: الاستطباب الجديد المتوقع 99.90% (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأوتار (Tendinitis)"
+monitor_inn: "DEXKETOPROFEN"
+predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 ---
 
 # Dexketoprofen

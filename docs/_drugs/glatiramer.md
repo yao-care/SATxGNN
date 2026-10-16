@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Glatiramer: الاستطباب الجديد المتوقع اعتلال الهيموغلوبين (Hemoglobinopathy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
+monitor_inn: "GLATIRAMER"
+predicted_indications: ["hemoglobinopathy"]
 ---
 
 # Glatiramer

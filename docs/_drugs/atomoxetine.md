@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Atomoxetine: الاستطباب الجديد المتوقع الاضطراب النمائي النوعي (مستوى الدليل L4). الاستطباب الأصلي: اضطراب نقص الانتباه وفرط الحركة (ADHD) (مصدر: رسوم الرسم المعرفي Prim…"
+monitor_inn: "Atomoxetine"
+predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 ---
 
 # Atomoxetine

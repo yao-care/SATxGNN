@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Trifarotene: الاستطباب الجديد المتوقع ارتفاع الزنك في البلازما (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب"
+monitor_inn: "TRIFAROTENE"
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
 ---
 
 # Trifarotene

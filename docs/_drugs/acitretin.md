@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Acitretin: الاستطباب الجديد المتوقع حب الشباب (acne) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المسجّلة"
+monitor_inn: "ACITRETIN"
+predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
 ---
 
 # Acitretin

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Ribociclib: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid Leukemia) (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبلات الهرمون والسلبي لـHER2 (بحسب الأدبيات…"
+monitor_inn: "RIBOCICLIB"
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---
 
 # Ribociclib

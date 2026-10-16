@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Temozolomide: الاستطباب الجديد المتوقع الورم النجمي لدى البالغين (adult astrocytic tumour) (مستوى الدليل L1). الاستطباب الأصلي: الورم النجمي ذو التصنّع، الورم النجمي (باستثناء الورم الأرومي الدبقي)…"
+monitor_inn: "TEMOZOLOMIDE"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

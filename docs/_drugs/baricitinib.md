@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Baricitinib: الاستطباب الجديد المتوقع متلازمة صغر العين الشقوقي مع الحثل الجذري القزمي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي"
+monitor_inn: "BARICITINIB"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Baricitinib

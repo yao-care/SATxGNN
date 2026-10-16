@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Telavancin: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، والالتهاب الرئوي بالمكورات العنقودية الذهبي…"
+monitor_inn: "Telavancin"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "septicemic plague", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy", "monoclonal gammopathy", "congenital hematological disorder"]
 ---
 
 # Telavancin

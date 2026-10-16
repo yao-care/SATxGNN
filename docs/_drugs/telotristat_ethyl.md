@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Telotristat Ethyl: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الإسهالية (وفق رسم المعرفة في TxGNN، ولا يوجد نص استطباب معتم…"
+monitor_inn: "TELOTRISTAT ETHYL"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
 ---
 
 # Telotristat Ethyl

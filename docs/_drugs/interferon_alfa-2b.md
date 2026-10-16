@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Interferon Alfa-2B: الاستطباب الجديد المتوقع التصلب المتعدد الانتكاسي-الهاجع (مستوى الدليل L5). الاستطباب الأصلي: التهاب الكبد الفيروسي المزمن C وB، ابيضاض الخلايا الشعرية، الورم المي…"
+monitor_inn: "INTERFERON ALFA-2B"
+predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Interferon Alfa-2B

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clomifene: الاستطباب الجديد المتوقع اضطراب التمايز الجنسي 46,XY الناتج عن خلل في تصنيع الستيرويدات الخصوية (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء (وفق الرسم المعرفي لـ TxGNN، إذ لا يتو…"
+monitor_inn: "CLOMIFENE"
+predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "longitudinal vaginal septum", "transverse vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "ovarian remnant syndrome"]
 ---
 
 # Clomifene

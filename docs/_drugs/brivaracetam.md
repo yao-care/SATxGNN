@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Brivaracetam: الاستطباب الجديد المتوقع الصرع البصري (visual epilepsy) (مستوى الدليل L4). الاستطباب الأصلي: الصرع الجزئي، الصرع الحركي الجزئي"
+monitor_inn: "BRIVARACETAM"
+predicted_indications: ["visual epilepsy", "status epilepticus", "micturation-induced seizures", "thinking seizures", "audiogenic seizures", "startle epilepsy", "eating seizures", "orgasm-induced seizures", "beta-ketothiolase deficiency", "adolescent/adult onset autosomal dominant epilepsy with auditory features"]
 ---
 
 # Brivaracetam

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Efavirenz: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب القططية (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية / الإيدز (من رسوم المعرفة في TxGNN، إذ…"
+monitor_inn: "efavirenz"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Efavirenz

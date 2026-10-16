@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Apomorphine: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L4). الاستطباب الأصلي: داء باركنسون (والمتلازمات الباركنسونية المرتبطة به)"
+monitor_inn: "APOMORPHINE"
+predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
 ---
 
 # Apomorphine

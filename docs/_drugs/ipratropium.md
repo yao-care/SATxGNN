@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ipratropium: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (Obstructive lung disease) (مستوى الدليل L1). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن (COPD)، التهاب الأنف التحسسي والوعائي الحر…"
+monitor_inn: "Ipratropium"
+predicted_indications: ["obstructive lung disease", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 ---
 
 # Ipratropium

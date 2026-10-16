@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Diatrizoate: الاستطباب الجديد المتوقع قابلية الإصابة بالفصال العظمي (المرتبة 1)؛ التهاب المفاصل الروماتويدي… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص السعودي (الاستخدام المعرو…"
+monitor_inn: "diatrizoate"
+predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis"]
 ---
 
 # Diatrizoate

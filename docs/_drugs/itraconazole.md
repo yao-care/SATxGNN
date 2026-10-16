@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Itraconazole: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L4). الاستطباب الأصلي: التهابات فطرية، منها داء المبيضات المريئي وداء المبيضات الدموي وداء ا…"
+monitor_inn: "ITRACONAZOLE"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Itraconazole

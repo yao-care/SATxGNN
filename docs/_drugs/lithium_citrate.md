@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Lithium Citrate: الاستطباب الجديد المتوقع متلازمة مالان للنمو المفرط (مستوى الدليل L5). الاستطباب الأصلي: اضطراب ثنائي القطب (واضطراب المزاج الشديد، ونوبات الهوس في الاضطراب ث…"
+monitor_inn: "LITHIUM CITRATE"
+predicted_indications: ["Malan overgrowth syndrome"]
 ---
 
 # Lithium Citrate

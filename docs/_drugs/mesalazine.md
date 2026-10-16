@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Mesalazine: الاستطباب الجديد المتوقع نقص الشعر الخلقي مع حثل البقعة الشبابي (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون التقرحي، مرض الأمعاء الالتهابي، التهاب المستقيم والسين…"
+monitor_inn: "MESALAZINE"
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 ---
 
 # Mesalazine

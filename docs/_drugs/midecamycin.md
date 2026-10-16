@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Midecamycin: الاستطباب الجديد المتوقع داء المبيضّات (Candidiasis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة (مضاد حيوي ماكروليدي)"
+monitor_inn: "MIDECAMYCIN"
+predicted_indications: ["candidiasis"]
 ---
 
 # Midecamycin

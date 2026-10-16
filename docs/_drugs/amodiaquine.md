@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Amodiaquine: الاستطباب الجديد المتوقع ارتفاع ضغط الشريان الرئوي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص السعودي (الدواء معروف كمضاد للملاريا)"
+monitor_inn: "AMODIAQUINE"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "migraine with brainstem aura"]
 ---
 
 # Amodiaquine

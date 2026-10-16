@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefoperazone: الاستطباب الجديد المتوقع الالتهاب الرئوي (Pneumonia) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة (نص الاستطباب المعتمد فارغ)"
+monitor_inn: "CEFOPERAZONE"
+predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "pneumonia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
 ---
 
 # Cefoperazone

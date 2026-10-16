@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Biperiden: الاستطباب الجديد المتوقع التهاب الدماغ تحت الحاد من نوع راسموسن (Rasmussen subacute encephalit… (مستوى الدليل L5). الاستطباب الأصلي: داء باركنسون والمتلازمات الباركنسونية واضطرابات الديستو…"
+monitor_inn: "Biperiden"
+predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
 ---
 
 # Biperiden

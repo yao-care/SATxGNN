@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Gilteritinib: الاستطباب الجديد المتوقع شلل الأطفال البصلي (Bulbar polio) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النقوي الحاد (AML)، بما في ذلك الأشكال المرتبطة بطفرات NP…"
+monitor_inn: "GILTERITINIB"
+predicted_indications: ["bulbar polio"]
 ---
 
 # Gilteritinib

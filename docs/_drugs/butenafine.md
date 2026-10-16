@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Butenafine: الاستطباب الجديد المتوقع داء المبيضات الجلدي (مستوى الدليل L4). الاستطباب الأصلي: القدم الرياضي (سعفة القدم)، سعفة الجسم، عدوى السعفة، النخالية المبرقش…"
+monitor_inn: "BUTENAFINE"
+predicted_indications: ["cutaneous candidiasis", "superficial mycosis", "endothrix infectious disease", "Majocchi granuloma", "ectothrix infectious disease"]
 ---
 
 # Butenafine

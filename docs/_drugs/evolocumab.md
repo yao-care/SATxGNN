@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Evolocumab: الاستطباب الجديد المتوقع الشكل العَرَضي للهيموفيليا لدى الحاملات الإناث (مستوى الدليل L5). الاستطباب الأصلي: فرط كوليسترول الدم العائلي متماثل الأصل، واضطراب شحميات الدم المتلازم…"
+monitor_inn: "EVOLOCUMAB"
+predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 ---
 
 # Evolocumab

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Vincristine: الاستطباب الجديد المتوقع الورم العقدي العصبي الأرومي (Ganglioneuroblastoma) (مستوى الدليل L3). الاستطباب الأصلي: اللوكيميا الليمفاوية الحادة، وأورام الغدد الليمفاوية (هودجكين وغير هو…"
+monitor_inn: "VINCRISTINE"
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 ---
 
 # Vincristine

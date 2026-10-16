@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Morphine: الاستطباب الجديد المتوقع متلازمة تململ الساقين (الأعلى درجة: متلازمة الألم اللفافي العضلي) (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الإسهالية (من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استط…"
+monitor_inn: "Morphine"
+predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 ---
 
 # Morphine

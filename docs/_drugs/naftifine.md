@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Naftifine: الاستطباب الجديد المتوقع داء المبيضات الجلدي (مستوى الدليل L3). الاستطباب الأصلي: التينيا القدمية، تينيا الجسم، عدوى التينيا، الإصابة بالفطريات الجلدية…"
+monitor_inn: "NAFTIFINE"
+predicted_indications: ["cutaneous candidiasis", "Majocchi granuloma", "ectothrix infectious disease", "pityriasis versicolor", "endothrix infectious disease", "dermatophytosis of scalp or beard", "superficial mycosis", "tinea profunda"]
 ---
 
 # Naftifine

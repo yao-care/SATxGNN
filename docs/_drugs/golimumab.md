@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Golimumab: الاستطباب الجديد المتوقع التهاب الفقار الالتهابي (مستوى الدليل L1). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل الصدفي، التهاب الفقار اللا…"
+monitor_inn: "GOLIMUMAB"
+predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis"]
 ---
 
 # Golimumab

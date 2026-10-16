@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Sorbitol: الاستطباب الجديد المتوقع فرط الحرارة الخبيث الناتج عن الجهد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في تراخيص الهيئة العامة للغذاء والدواء)"
+monitor_inn: "SORBITOL"
+predicted_indications: ["exercise-induced malignant hyperthermia"]
 ---
 
 # Sorbitol

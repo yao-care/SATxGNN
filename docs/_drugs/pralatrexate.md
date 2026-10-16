@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pralatrexate: الاستطباب الجديد المتوقع الورم المتوسطي الظهاري الجنبي (Pleural epithelioid mesothelioma) (مستوى الدليل L4). الاستطباب الأصلي: لمفوما الخلايا التائية والخلايا القاتلة الطبيعية الناضجة غ…"
+monitor_inn: "PRALATREXATE"
+predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
 ---
 
 # Pralatrexate

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Doripenem: الاستطباب الجديد المتوقع التصلب البابي الكبدي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المرارة، تحصي مرارة مرتبط بنقص الفوسفوليبيد، التهاب الحويضة وا…"
+monitor_inn: "DORIPENEM"
+predicted_indications: ["hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis"]
 ---
 
 # Doripenem

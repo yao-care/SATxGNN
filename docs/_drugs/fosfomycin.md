@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fosfomycin: الاستطباب الجديد المتوقع التهاب الإحليل السيلاني (مستوى الدليل L3). الاستطباب الأصلي: التهاب المسالك البولية"
+monitor_inn: "FOSFOMYCIN"
+predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
 ---
 
 # Fosfomycin

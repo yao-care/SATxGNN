@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clomipramine: الاستطباب الجديد المتوقع اضطراب القلق (مستوى الدليل L5). الاستطباب الأصلي: اضطراب الوسواس القهري (مستمدة من الرسم المعرفي لـ TxGNN، إذ لا يتوفر…"
+monitor_inn: "Clomipramine"
+predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "major depressive disorder", "endogenous depression", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine

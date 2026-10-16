@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulfacetamide: الاستطباب الجديد المتوقع التهاب الأوعية الدموية التالي للعدوى (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، التهاب الجلد الدهني، التهاب الملتحمة، التهاب العنبية، داء…"
+monitor_inn: "SULFACETAMIDE"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
 ---
 
 # Sulfacetamide

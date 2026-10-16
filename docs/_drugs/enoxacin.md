@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Enoxacin: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسيلات (مستوى الدليل L5). الاستطباب الأصلي: عدوى المسالك البولية، التهاب عنق الرحم الحاد بالمكورات البنية، السيلا…"
+monitor_inn: "ENOXACIN"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 ---
 
 # Enoxacin

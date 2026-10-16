@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vitamin E: الاستطباب الجديد المتوقع اضطراب خلقي في استقلاب البيليروبين (مستوى الدليل L4). الاستطباب الأصلي: الركود الصفراوي، الركود الصفراوي داخل الكبد المتكرر الحميد، الركود ال…"
+monitor_inn: "vitamin e"
+predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 ---
 
 # Vitamin E

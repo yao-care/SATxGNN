@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Amikacin: الاستطباب الجديد المتوقع الحمى نظيرة التيفية (Paratyphoid fever) (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (الالتهاب الرئوي البكتيري، عدوى الزائفة الزنجارية، ا…"
+monitor_inn: "AMIKACIN"
+predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
 ---
 
 # Amikacin

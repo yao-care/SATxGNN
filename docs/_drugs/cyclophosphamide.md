@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Cyclophosphamide: الاستطباب الجديد المتوقع سرطان الغدد اللمفية (Lymph Node Cancer) (مستوى الدليل L1). الاستطباب الأصلي: الفطار الفطراني (Mycosis Fungoides)، الأورام اللمفية، سرطان الثدي، ال…"
+monitor_inn: "CYCLOPHOSPHAMIDE"
+predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
 ---
 
 # Cyclophosphamide

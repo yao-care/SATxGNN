@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Prucalopride: الاستطباب الجديد المتوقع نقص البروتين الدهني ألفا (hypoalphalipoproteinemia) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك (constipation disorder)"
+monitor_inn: "PRUCALOPRIDE"
+predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 ---
 
 # Prucalopride

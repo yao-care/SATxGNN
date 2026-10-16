@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Adalimumab: الاستطباب الجديد المتوقع اعتلال الفقار الالتهابي (مستوى الدليل L1). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، ومرض كرون، والتهاب القولون التقرحي، والته…"
+monitor_inn: "ADALIMUMAB"
+predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"]
 ---
 
 # Adalimumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Fentanyl: الاستطباب الجديد المتوقع متلازمة عدم الإفراز المناسب لمضاد الإدرار الكلوية المنشأ (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
+monitor_inn: "FENTANYL"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---
 
 # Fentanyl

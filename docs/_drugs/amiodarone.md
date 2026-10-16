@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Amiodarone: الاستطباب الجديد المتوقع التسرع البطيني (Ventricular Tachycardia) (مستوى الدليل L1). الاستطباب الأصلي: الرجفان البطيني (مصدره قاعدة المعرفة PrimeKG، إذ لا يتوفر نص مؤشر معت…"
+monitor_inn: "AMIODARONE"
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 ---
 
 # Amiodarone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Panitumumab: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (مستوى الدليل L5). الاستطباب الأصلي: الورم الخبيث النقيلي في القولون (من رسم المعرفة الخاص بالنموذج، إذ لا…"
+monitor_inn: "PANITUMUMAB"
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Panitumumab

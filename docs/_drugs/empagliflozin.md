@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني (مأخوذ من الرسم المعرفي لـ TxGNN، إذ لا يت…"
+monitor_inn: "EMPAGLIFLOZIN"
+predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 ---
 
 # Empagliflozin

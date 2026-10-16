@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid Leukemia) (مستوى الدليل L2). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد (لا يتوفر نص استطباب معتمد في تراخيص السو…"
+monitor_inn: "MERCAPTOPURINE"
+predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "precursor lymphoblastic lymphoma/leukemia", "acute lymphoblastic leukemia"]
 ---
 
 # Mercaptopurine

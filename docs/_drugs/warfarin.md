@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Warfarin: الاستطباب الجديد المتوقع فرط التخثر الوراثي (Thrombophilia) (مستوى الدليل L5). الاستطباب الأصلي: الانصمام الرئوي، الأمراض الخثارية، الانصمام داخل الجمجمة"
+monitor_inn: "Warfarin"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
 
 # Warfarin

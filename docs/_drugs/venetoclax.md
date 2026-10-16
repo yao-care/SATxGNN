@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Venetoclax: الاستطباب الجديد المتوقع ابيضاض الدم الليمفاوي المزمن/الورم اللمفاوي الصغير مع طفرة جسدية في I… (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد؛ متلازمة ريختر"
+monitor_inn: "VENETOCLAX"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "acute myeloid leukemia with t(8;21)(q22;q22) translocation"]
 ---
 
 # Venetoclax

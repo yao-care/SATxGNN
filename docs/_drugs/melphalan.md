@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Melphalan: الاستطباب الجديد المتوقع أورام الخلايا الجرثومية الغُدّية (Gonadal germ cell tumor) (مستوى الدليل L2). الاستطباب الأصلي: سرطان المبيض (يشمل الأنواع الفرعية للأورام الظهارية والجرثومية في ا…"
+monitor_inn: "MELPHALAN"
+predicted_indications: ["gonadal germ cell tumor", "ovarian primitive germ cell tumor", "choriocarcinoma of ovary", "female breast carcinoma", "malignant non-epithelial tumor of ovary", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 ---
 
 # Melphalan

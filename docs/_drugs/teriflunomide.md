@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Teriflunomide: الاستطباب الجديد المتوقع التصلب المتعدد الانتكاسي الهدأي (مستوى الدليل L1). الاستطباب الأصلي: التصلب المتعدد (من رسوم المعرفة في TxGNN، ولا يوجد نص استطباب معتمد ف…"
+monitor_inn: "TERIFLUNOMIDE"
+predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Teriflunomide

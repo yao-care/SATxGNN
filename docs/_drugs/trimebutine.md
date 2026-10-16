@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Trimebutine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفرة في بيانات الترخيص"
+monitor_inn: "TRIMEBUTINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Trimebutine

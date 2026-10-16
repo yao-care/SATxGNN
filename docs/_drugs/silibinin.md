@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Silibinin: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (التنبؤ الخامس في الترتيب؛ التنبؤ الأول: ا… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص الاستطباب في تراخيص الهيئة العامة للغذاء …"
+monitor_inn: "silibinin"
+predicted_indications: ["hemoglobinopathy", "thrombotic disease", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "beta-thalassemia with other manifestations", "thrombophilia", "partial deletion of the short arm of chromosome 16", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Silibinin

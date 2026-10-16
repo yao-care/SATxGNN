@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Benzoyl Peroxide: الاستطباب الجديد المتوقع التقرن الجريبي المقلوب في الفرج (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب (إضافة إلى الأكزيما التأتبية والتهاب الجلد التماسي والتهاب…"
+monitor_inn: "BENZOYL PEROXIDE"
+predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
 ---
 
 # Benzoyl Peroxide

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Iron: الاستطباب الجديد المتوقع متلازمة بلامر-فينسون (مستوى الدليل L4). الاستطباب الأصلي: فقر الدم الناتج عن نقص الحديد (إضافة إلى فقر الدم الناتج عن نقص حمض ا…"
+monitor_inn: "iron"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 ---
 
 # Iron

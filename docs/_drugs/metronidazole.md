@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Metronidazole: الاستطباب الجديد المتوقع داء المتكيسة الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: العدوى اللاهوائية، التهاب الصفاق، الجيارديا، التهاب المهبل الجرثومي،…"
+monitor_inn: "METRONIDAZOLE"
+predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 ---
 
 # Metronidazole

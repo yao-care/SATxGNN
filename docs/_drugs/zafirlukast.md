@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Zafirlukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: الربو"
+monitor_inn: "ZAFIRLUKAST"
+predicted_indications: ["bronchitis", "obstructive lung disease"]
 ---
 
 # Zafirlukast

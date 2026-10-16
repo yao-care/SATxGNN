@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Fexofenadine: الاستطباب الجديد المتوقع التهاب الملتحمة المرتبط بالوردية (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب الملتحم…"
+monitor_inn: "Fexofenadine"
+predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Fexofenadine

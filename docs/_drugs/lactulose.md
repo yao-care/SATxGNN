@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Lactulose: الاستطباب الجديد المتوقع اليرقان الانسدادي (مستوى الدليل L3). الاستطباب الأصلي: الاعتلال الدماغي الكبدي، الغيبوبة الكبدية، الإمساك (من الرسم المعرفي…"
+monitor_inn: "LACTULOSE"
+predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 ---
 
 # Lactulose

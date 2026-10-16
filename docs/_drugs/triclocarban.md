@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Triclocarban: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ)"
+monitor_inn: "TRICLOCARBAN"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Triclocarban

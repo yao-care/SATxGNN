@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Celecoxib: الاستطباب الجديد المتوقع التهاب الفقار الالتهابي (Inflammatory spondylopathy) (مستوى الدليل L1). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، الفصال العظمي، الته…"
+monitor_inn: "CELECOXIB"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "rheumatoid vasculitis", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "inflammatory spondylopathy", "WHIM syndrome"]
 ---
 
 # Celecoxib

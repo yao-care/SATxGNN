@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bicalutamide: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: سرطان البروستاتا (بحسب المعرفة العامة بالدواء؛ نص الاستطباب غير متوفر…"
+monitor_inn: "BICALUTAMIDE"
+predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Bicalutamide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Benzocaine: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد، التهاب البلعوم، قدم الرياضي، السعفة الجسدية، الالتهابات…"
+monitor_inn: "BENZOCAINE"
+predicted_indications: ["papillary conjunctivitis"]
 ---
 
 # Benzocaine

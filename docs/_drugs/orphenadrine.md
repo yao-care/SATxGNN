@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Orphenadrine: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L5). الاستطباب الأصلي: الشلل الرعاش / داء باركنسون (من رسم المعرفة PrimeKG، وليس من نص النشر…"
+monitor_inn: "orphenadrine"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
 ---
 
 # Orphenadrine

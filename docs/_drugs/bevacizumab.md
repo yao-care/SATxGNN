@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bevacizumab: الاستطباب الجديد المتوقع ورم لسان المزمار (Epiglottis Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الصفاق، وسرطان المبيض الظهاري، وسرطان الثدي، والورم الخبيث المن…"
+monitor_inn: "BEVACIZUMAB"
+predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
 ---
 
 # Bevacizumab

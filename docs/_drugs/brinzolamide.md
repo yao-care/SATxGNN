@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Brinzolamide: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (Primary hereditary glaucoma) (مستوى الدليل L5). الاستطباب الأصلي: الزرق مفتوح الزاوية، فرط ضغط العين"
+monitor_inn: "BRINZOLAMIDE"
+predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Brinzolamide

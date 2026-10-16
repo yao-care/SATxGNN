@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Pantoprazole: الاستطباب الجديد المتوقع القرحة الهضمية النشطة (مستوى الدليل L1). الاستطباب الأصلي: مرض القرحة الهضمية (وفق الاستطبابات المسجلة في قاعدة المعرفة؛ نصوص ال…"
+monitor_inn: "PANTOPRAZOLE"
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
 ---
 
 # Pantoprazole

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Atorvastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: ارتفاع الدهون الثلاثية، السكتة الدماغية، التصلب العصيدي، فرط كوليسترو…"
+monitor_inn: "Atorvastatin"
+predicted_indications: ["familial hypercholesterolemia", "HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Atorvastatin

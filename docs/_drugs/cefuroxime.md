@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefuroxime: الاستطباب الجديد المتوقع عدوى المسالك البولية (مستوى الدليل L3). الاستطباب الأصلي: التهاب الأذن الوسطى المعدي، والعدوى العقدية، والالتهاب الرئوي البكتير…"
+monitor_inn: "Cefuroxime"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "suppurative otitis media", "hematological disease associated with an acquired peripheral neuropathy"]
 ---
 
 # Cefuroxime

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Linaclotide: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (مستوى الدليل L5). الاستطباب الأصلي: متلازمة القولون العصبي (إضافة إلى التهاب القولون بالمطثية العسيرة وال…"
+monitor_inn: "LINACLOTIDE"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
 ---
 
 # Linaclotide

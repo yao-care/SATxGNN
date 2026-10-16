@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Calcium Lactate Gluconate: الاستطباب الجديد المتوقع متلازمة الكالسيوم والقلويات (calcium-alkali syndrome) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، وتكلّس الكلية، واضطرابات استقلاب الفوس…"
+monitor_inn: "CALCIUM LACTATE GLUCONATE"
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
 ---
 
 # Calcium Lactate Gluconate

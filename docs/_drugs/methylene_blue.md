@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Methylene Blue: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: الميتهيموغلوبينية والسلفهيموغلوبينية (بحسب الرسم المعرفي لـ TxGNN، إذ…"
+monitor_inn: "METHYLENE BLUE"
+predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia due to deficiency of methemoglobin reductase"]
 ---
 
 # Methylene Blue

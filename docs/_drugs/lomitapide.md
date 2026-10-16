@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lomitapide: الاستطباب الجديد المتوقع فرط شحميات البروتين في الدم (الأعلى ترتيباً مع وجود أدلة؛ أما الاستطب… (مستوى الدليل L5). الاستطباب الأصلي: فرط كوليسترول الدم العائلي المتماثل الزيجوت (من الاستط…"
+monitor_inn: "Lomitapide"
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
 ---
 
 # Lomitapide

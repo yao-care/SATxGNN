@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Obinutuzumab: الاستطباب الجديد المتوقع الورم الليمفاوي الجريبي (Follicular Lymphoma) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد (الأرومي/اللمفاوي)، ومتلازمة ريختر (حسب ق…"
+monitor_inn: "OBINUTUZUMAB"
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma"]
 ---
 
 # Obinutuzumab

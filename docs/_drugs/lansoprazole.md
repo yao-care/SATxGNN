@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Lansoprazole: الاستطباب الجديد المتوقع الارتجاع الاثني عشري المعدي (مستوى الدليل L5). الاستطباب الأصلي: قرحة المعدة، مرض القرحة الهضمية، الارتجاع المعدي المريئي، التهاب المر…"
+monitor_inn: "LANSOPRAZOLE"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 ---
 
 # Lansoprazole

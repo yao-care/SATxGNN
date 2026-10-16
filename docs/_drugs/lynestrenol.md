@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Lynestrenol: الاستطباب الجديد المتوقع الصداع النصفي مع أو بدون هالة (قابلية الإصابة) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفرة (نص الاستطباب في ترخيص هيئة الغذاء والدواء السعودية فارغ)"
+monitor_inn: "LYNESTRENOL"
+predicted_indications: ["migraine with or without aura, susceptibility to", "migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "leprosy"]
 ---
 
 # Lynestrenol

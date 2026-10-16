@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Mecasermin: الاستطباب الجديد المتوقع أحادية الصبغي X (monosomy X) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة عدم الحساسية لهرمون النمو، ومتلازمة لارون (من الرسم المعرفي ل…"
+monitor_inn: "MECASERMIN"
+predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "esophageal varices with bleeding", "esophageal varices without bleeding"]
 ---
 
 # Mecasermin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clobetasone: الاستطباب الجديد المتوقع الورم اللمفاوي الجلدي التائي الأولي (primary cutaneous T-cell lymphom… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
+monitor_inn: "CLOBETASONE"
+predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", "primary cutaneous B-cell lymphoma", "granulomatous slack skin disease", "Crohn's colitis", "adrenocortical insufficiency", "primary cutaneous T-cell non-Hodgkin lymphoma", "nephrotic syndrome", "cystic teratoma", "spinal cord dermoid cyst"]
 ---
 
 # Clobetasone

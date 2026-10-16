@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Fenoterol: الاستطباب الجديد المتوقع ضمور المنظومات المتعددة (Multiple System Atrophy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص؛ المرجع الدوائي يشير إلى استخدامه موسّعًا…"
+monitor_inn: "FENOTEROL"
+predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
 ---
 
 # Fenoterol

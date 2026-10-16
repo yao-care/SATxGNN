@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Piribedil: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون شذوذات خارج العين) (مستوى الدليل L5). الاستطباب الأصلي: داء باركنسون / الاضطرابات الباركنسونية (بحسب الرسم المعرفي لـ TxGNN،…"
+monitor_inn: "PIRIBEDIL"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration", "juvenile onset Parkinson disease 19A"]
 ---
 
 # Piribedil

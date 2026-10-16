@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ceftazidime: الاستطباب الجديد المتوقع عدوى المسالك البولية (مستوى الدليل L5). الاستطباب الأصلي: العدوى الجرثومية (عدوى المكورات العقدية، ذات الرئة الجرثومية، التهاب…"
+monitor_inn: "CEFTAZIDIME"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 ---
 
 # Ceftazidime

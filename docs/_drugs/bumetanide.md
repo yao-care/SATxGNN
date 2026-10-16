@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Bumetanide: الاستطباب الجديد المتوقع أمراض القلب الرئوية الحادة (مستوى الدليل L4). الاستطباب الأصلي: فشل القلب الاحتقاني"
+monitor_inn: "BUMETANIDE"
+predicted_indications: ["acute pulmonary heart disease"]
 ---
 
 # Bumetanide

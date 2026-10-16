@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Pheniramine: الاستطباب الجديد المتوقع الشرى التحسسي (allergic urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
+monitor_inn: "PHENIRAMINE"
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Pheniramine

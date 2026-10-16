@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ertapenem: الاستطباب الجديد المتوقع التهاب المفاصل الجرثومي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي الجرثومي، والالتهاب الرئوي العقدي، والعدوى بالمكورات…"
+monitor_inn: "Ertapenem"
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
 ---
 
 # Ertapenem

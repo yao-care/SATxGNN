@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Paroxetine: الاستطباب الجديد المتوقع متلازمة أوهدو ومتغيراتها (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الاكتئاب الجسيم، اضطراب ما بعد الصدمة، الرهاب الاجتماعي…"
+monitor_inn: "PAROXETINE"
+predicted_indications: ["Ohdo syndrome and variants"]
 ---
 
 # Paroxetine

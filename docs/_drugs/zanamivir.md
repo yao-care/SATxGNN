@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Zanamivir: الاستطباب الجديد المتوقع التهاب الحويضة والكلية (Pyelonephritis) (مستوى الدليل L5). الاستطباب الأصلي: الإنفلونزا (بما فيها الإنفلونزا الشديدة)"
+monitor_inn: "ZANAMIVIR"
+predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 ---
 
 # Zanamivir

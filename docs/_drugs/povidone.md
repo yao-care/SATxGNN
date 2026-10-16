@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Povidone: الاستطباب الجديد المتوقع الحمرة الجلدية السمكية الخلقية (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين وجفاف الملتحمة (مستخلص من الرسم المعرفي، إذ لا يوج…"
+monitor_inn: "POVIDONE"
+predicted_indications: ["congenital ichthyosiform erythroderma"]
 ---
 
 # Povidone

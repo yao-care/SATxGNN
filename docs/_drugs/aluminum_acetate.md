@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Aluminum Acetate: الاستطباب الجديد المتوقع حب الشباب الجدري (acne keloid) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد (Dermatitis)"
+monitor_inn: "aluminum acetate"
+predicted_indications: ["acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans"]
 ---
 
 # Aluminum Acetate

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Mepolizumab: الاستطباب الجديد المتوقع نقص الصفيحات الدموية بسبب التدمير المناعي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي اليوزيني / كثرة اليوزينيات الرئوية (من الرسم المعرفي…"
+monitor_inn: "MEPOLIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 ---
 
 # Mepolizumab

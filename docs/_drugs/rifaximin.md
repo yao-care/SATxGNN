@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Rifaximin: الاستطباب الجديد المتوقع داء المبيضّات الفموي (مستوى الدليل L4). الاستطباب الأصلي: اعتلال الدماغ الكبدي، الغيبوبة الكبدية"
+monitor_inn: "RIFAXIMIN"
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
 ---
 
 # Rifaximin

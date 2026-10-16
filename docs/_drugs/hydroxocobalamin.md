@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Hydroxocobalamin: الاستطباب الجديد المتوقع دوالي المريء المصحوبة بنزيف (مستوى الدليل L5). الاستطباب الأصلي: نقص فيتامين B12، التسمم بالسيانيد، الأنيميا الخبيثة (من الرسم المعرفي…"
+monitor_inn: "HYDROXOCOBALAMIN"
+predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
 ---
 
 # Hydroxocobalamin

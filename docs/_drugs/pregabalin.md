@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Pregabalin: الاستطباب الجديد المتوقع التهاب الأوتار (Tendinitis) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الألم العضلي الليفي، متلازمة الألم العضلي الليفاني، الأ…"
+monitor_inn: "PREGABALIN"
+predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Pregabalin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ranibizumab: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: اعتلال الشبكية السكري، والوذمة البقعية السكرية، والتنكس البقعي (حسب ا…"
+monitor_inn: "RANIBIZUMAB"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 ---
 
 # Ranibizumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Mupirocin: الاستطباب الجديد المتوقع دبيلة الجنب (pleural empyema) (مستوى الدليل L5). الاستطباب الأصلي: القوباء، القوباء الفقاعية (مصدره الرسم المعرفي لنموذج TxGNN، إذ لا يت…"
+monitor_inn: "Mupirocin"
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Mupirocin

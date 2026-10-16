@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Denosumab: الاستطباب الجديد المتوقع اعتلال الشبكية السكري الشديد غير التكاثري (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام (بما فيها هشاشة العظام بعد انقطاع الطمث وهشاشة العظام ال…"
+monitor_inn: "DENOSUMAB"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Denosumab

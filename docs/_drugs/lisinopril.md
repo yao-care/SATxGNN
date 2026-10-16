@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lisinopril: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي الجانبي (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، احتشاء عضلة القلب (بحسب الرسم المعرفي PrimeKG، إذ لا…"
+monitor_inn: "LISINOPRIL"
+predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "septal myocardial infarction", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 ---
 
 # Lisinopril

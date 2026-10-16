@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب الفرج والمهبل الناجم عن المشعرات (مستوى الدليل L5). الاستطباب الأصلي: داء المبيضّات الفرجي المهبلي (مأخوذ من رسوم المعرفة في النموذج، إذ لا…"
+monitor_inn: "Fenticonazole"
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
 ---
 
 # Fenticonazole

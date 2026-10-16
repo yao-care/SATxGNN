@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Isoflurane: الاستطباب الجديد المتوقع ذبحة برينزميتال (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: التخدير العام بالاستنشاق (معروف من الاستخدام العام للدواء، إذ لا يتوف…"
+monitor_inn: "ISOFLURANE"
+predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
 ---
 
 # Isoflurane

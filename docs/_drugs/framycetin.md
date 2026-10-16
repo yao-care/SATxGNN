@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Framycetin: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر في ترخيص الهيئة العامة للغذاء والدواء فارغ)"
+monitor_inn: "FRAMYCETIN"
+predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
 ---
 
 # Framycetin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Norepinephrine: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (مستوى الدليل L5). الاستطباب الأصلي: الربو، التهاب الشعب الهوائية، انخفاض ضغط الدم، انتفاخ الرئة، توسع الق…"
+monitor_inn: "norepinephrine"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Norepinephrine

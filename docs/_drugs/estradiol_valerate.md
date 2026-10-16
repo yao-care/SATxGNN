@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Estradiol Valerate: الاستطباب الجديد المتوقع الشكل العَرَضي من متلازمة إكس الهشّ لدى الحاملات الإناث (مستوى الدليل L5). الاستطباب الأصلي: الفشل المبيضي الأولي (Primary ovarian failure)"
+monitor_inn: "estradiol valerate"
+predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "ovarian remnant syndrome", "anovulation", "luteoma of pregnancy", "ovarian dysfunction"]
 ---
 
 # Estradiol Valerate

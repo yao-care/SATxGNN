@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ticagrelor: الاستطباب الجديد المتوقع تصلب الشرايين داخل الجمجمة (مستوى الدليل L5). الاستطباب الأصلي: المتلازمة الإكليلية الحادة، مرض الأوعية الطرفية، العرج المتقطع، مرض ا…"
+monitor_inn: "TICAGRELOR"
+predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "mesenteric vascular occlusion", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 ---
 
 # Ticagrelor

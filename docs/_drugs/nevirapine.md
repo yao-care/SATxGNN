@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Nevirapine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية / الإيدز"
+monitor_inn: "NEVIRAPINE"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Nevirapine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Colistin: الاستطباب الجديد المتوقع التهاب الجيوب الأنفية (المرتبة الأولى في التنبؤات: التهاب الأوعية الد… (مستوى الدليل L5). الاستطباب الأصلي: عدوى الإشريكية القولونية، التهاب الأذن الخارجية، أمراض ا…"
+monitor_inn: "colistin"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
 ---
 
 # Colistin

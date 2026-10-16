@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Histidine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا نص دواعي استعمال في تراخيص الهيئة العامة للغذاء والدواء)"
+monitor_inn: "histidine"
+predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 ---
 
 # Histidine

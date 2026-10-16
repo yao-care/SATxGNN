@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Felodipine: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (ذبحة برنزميتال) (مستوى الدليل L3). الاستطباب الأصلي: اضطراب ارتفاع ضغط الدم / ارتفاع ضغط الدم (من الرسم المعرفي لـ TxGNN)"
+monitor_inn: "FELODIPINE"
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 ---
 
 # Felodipine

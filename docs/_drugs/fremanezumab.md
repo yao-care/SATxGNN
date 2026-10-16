@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Fremanezumab: الاستطباب الجديد المتوقع الصداع النصفي مع الهالة الجذعية (مستوى الدليل L4). الاستطباب الأصلي: الصداع النصفي (اضطراب الصداع النصفي، بما في ذلك الصداع النصفي مع الها…"
+monitor_inn: "FREMANEZUMAB"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
 ---
 
 # Fremanezumab

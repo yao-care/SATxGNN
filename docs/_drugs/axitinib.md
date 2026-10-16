@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Axitinib: الاستطباب الجديد المتوقع سرطان الخلايا الكلوية المصاحب للورم الأرومي العصبي (مستوى الدليل L5). الاستطباب الأصلي: سرطان الخلايا الكلوية (ويشمل النوع الصافي الخلايا)"
+monitor_inn: "AXITINIB"
+predicted_indications: ["renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "liposarcoma", "renal carcinoma", "ovarian myxoid liposarcoma", "angiolipoma", "collecting duct carcinoma", "familial spontaneous pneumothorax"]
 ---
 
 # Axitinib

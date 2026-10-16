@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fusidic Acid: الاستطباب الجديد المتوقع التهاب القرنية الانكشافي (Exposure Keratitis) (مستوى الدليل L4). الاستطباب الأصلي: التهابات المسالك البولية، التهاب الشعب الهوائية، حب الشباب، التهاب جر…"
+monitor_inn: "FUSIDIC ACID"
+predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 ---
 
 # Fusidic Acid

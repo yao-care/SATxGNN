@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pirfenidone: الاستطباب الجديد المتوقع الورم الليفي (fibroblastic neoplasm) (التنبؤ رقم 9 في القائمة؛ التنبؤ… (مستوى الدليل L5). الاستطباب الأصلي: التليف الرئوي مجهول السبب، الالتهاب الرئوي الخلالي ال…"
+monitor_inn: "PIRFENIDONE"
+predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 ---
 
 # Pirfenidone

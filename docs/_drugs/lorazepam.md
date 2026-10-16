@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lorazepam: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (trigeminal nerve neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الصرع (الحالة الصرعية، متلازمة لينوكس-غاستو، صرع الغياب)"
+monitor_inn: "LORAZEPAM"
+predicted_indications: ["trigeminal nerve neoplasm", "insomnia (disease)", "reading seizures", "thinking seizures", "audiogenic seizures", "eating seizures", "startle epilepsy", "orgasm-induced seizures", "micturation-induced seizures", "acute encephalopathy with biphasic seizures and late reduced diffusion"]
 ---
 
 # Lorazepam

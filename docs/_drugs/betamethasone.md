@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Betamethasone: الاستطباب الجديد المتوقع الثعلبة البقعية (مستوى الدليل L2). الاستطباب الأصلي: أمراض المناعة الذاتية، مرض كرون، التهاب الأمعاء، قصور الغدة الكظرية،…"
+monitor_inn: "Betamethasone"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "idiopathic steroid-sensitive nephrotic syndrome", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
 ---
 
 # Betamethasone

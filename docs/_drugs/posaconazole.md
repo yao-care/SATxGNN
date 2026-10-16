@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Posaconazole: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: داء الفطار الملوِّن، داء الكوكسيديوديات، داء الرشاشيات، داء المبيضات،…"
+monitor_inn: "POSACONAZOLE"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole

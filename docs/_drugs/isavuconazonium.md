@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Isavuconazonium: الاستطباب الجديد المتوقع داء المتكيسات الرئوية (Pneumocystosis) (مستوى الدليل L5). الاستطباب الأصلي: الأسبيرجيلوزيس، الزيجوميكوزيس، داء الكوكسيديوديات، داء النوسجات، داء…"
+monitor_inn: "Isavuconazonium"
+predicted_indications: ["pneumocystosis", "mycetoma"]
 ---
 
 # Isavuconazonium

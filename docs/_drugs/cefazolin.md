@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Cefazolin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى الخمجي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي الجرثومي، التهاب الأقنية الصفراوية، التهاب الشغاف، ال…"
+monitor_inn: "CEFAZOLIN"
+predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
 ---
 
 # Cefazolin

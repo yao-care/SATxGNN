@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Paclitaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (female breast carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان المبيض (من بيانات الرسم المعرفي؛ لا يوجد نص مؤشر معتمد في تراخي…"
+monitor_inn: "PACLITAXEL"
+predicted_indications: ["female breast carcinoma", "estrogen-receptor negative breast cancer", "Ehrlich tumor carcinoma", "hormone-resistant breast carcinoma", "estrogen-receptor positive breast cancer", "bilateral breast carcinoma", "breast carcinoma by gene expression profile", "nipple carcinoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Paclitaxel

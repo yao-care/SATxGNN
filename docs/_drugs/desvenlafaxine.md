@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Desvenlafaxine: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (مستوى الدليل L4). الاستطباب الأصلي: الاكتئاب الأحادي القطب، اضطراب الاكتئاب الرئيسي، اضطراب القلق (من الر…"
+monitor_inn: "Desvenlafaxine"
+predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
 ---
 
 # Desvenlafaxine

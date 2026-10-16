@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Galantamine: الاستطباب الجديد المتوقع اضطرابات الحركة ذات المنشأ النفسي (psychogenic movement disorders) (مستوى الدليل L5). الاستطباب الأصلي: مرض الزهايمر"
+monitor_inn: "GALANTAMINE"
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 ---
 
 # Galantamine

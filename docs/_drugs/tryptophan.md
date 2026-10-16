@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Tryptophan: الاستطباب الجديد المتوقع متلازمة تململ الساقين (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (مكوّن من محاليل الأحماض الأمينية للتغذية…"
+monitor_inn: "tryptophan"
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 ---
 
 # Tryptophan

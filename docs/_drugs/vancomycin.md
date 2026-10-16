@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vancomycin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون بالمطثية العسيرة، والعدوى بالمكورات العنقودية، والتهاب…"
+monitor_inn: "VANCOMYCIN"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 ---
 
 # Vancomycin

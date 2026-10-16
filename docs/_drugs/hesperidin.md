@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Hesperidin: الاستطباب الجديد المتوقع الورم التكاثري النقوي (Myeloproliferative neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة"
+monitor_inn: "hesperidin"
+predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
 ---
 
 # Hesperidin

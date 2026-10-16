@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Pyridostigmine: الاستطباب الجديد المتوقع الوهن العضلي الوبيل المصحوب بتضخم الغدة الصعترية (مستوى الدليل L4). الاستطباب الأصلي: الوهن العضلي الوبيل، الوهن العضلي الوبيل عند البالغين، أمراض الوصل ال…"
+monitor_inn: "PYRIDOSTIGMINE"
+predicted_indications: ["myasthenia gravis with thymus hyperplasia", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "myasthenia, limb-girdle, autoimmune", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 ---
 
 # Pyridostigmine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Reserpine: الاستطباب الجديد المتوقع الفصام المقاوم للعلاج (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم والاضطرابات الذهانية (بحسب الرسم المعرفي PrimeKG، إذ…"
+monitor_inn: "reserpine"
+predicted_indications: ["treatment-refractory schizophrenia"]
 ---
 
 # Reserpine

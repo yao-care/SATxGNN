@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Selegiline: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L3). الاستطباب الأصلي: مرض باركنسون (إضافة إلى الاكتئاب الجسيم واضطرابات القلق، وفق الاستطبا…"
+monitor_inn: "Selegiline"
+predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 ---
 
 # Selegiline

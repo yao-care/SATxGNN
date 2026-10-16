@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phentolamine: الاستطباب الجديد المتوقع مرض الأوعية الدموية (الأعلى تقييمًا من حيث الأدلة بين التنبؤات العشرة… (مستوى الدليل L3). الاستطباب الأصلي: ورم القواتم في الغدة الكظرية، مرض الأوعية الطرفية، ا…"
+monitor_inn: "phentolamine"
+predicted_indications: ["visceral calciphylaxis", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
 ---
 
 # Phentolamine

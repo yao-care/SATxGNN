@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Clopidogrel: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (مستوى الدليل L2). الاستطباب الأصلي: متلازمة الشريان التاجي الحادة؛ الانسداد الدماغي؛ احتشاء عضلة القلب مع…"
+monitor_inn: "CLOPIDOGREL"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Clopidogrel

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Tropisetron: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L4). الاستطباب الأصلي: الغثيان والقيء الناجمان عن العلاج الكيميائي (بحسب بيانات الاستخدام ال…"
+monitor_inn: "TROPISETRON"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Tropisetron

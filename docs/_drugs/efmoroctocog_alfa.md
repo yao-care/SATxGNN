@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Efmoroctocog Alfa: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي للهيموفيليا لدى الناقلات من الإنا…"
+monitor_inn: "EFMOROCTOCOG ALFA"
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia A with vascular abnormality", "thrombotic thrombocytopenic purpura"]
 ---
 
 # Efmoroctocog Alfa

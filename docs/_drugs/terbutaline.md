@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Terbutaline: الاستطباب الجديد المتوقع أمراض الرئة الانسدادية (مستوى الدليل L1). الاستطباب الأصلي: الربو (بيانات الاستطبابات من الرسم المعرفي PrimeKG، إذ لا يتوفر نص اس…"
+monitor_inn: "TERBUTALINE"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Terbutaline

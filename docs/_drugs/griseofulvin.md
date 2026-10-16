@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Griseofulvin: الاستطباب الجديد المتوقع داء الذباب (Myiasis) (مستوى الدليل L5). الاستطباب الأصلي: السعفة والفطريات الجلدية (سعفة القدم، سعفة الجسم، سعفة الأظافر، سعفة…"
+monitor_inn: "GRISEOFULVIN"
+predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
 ---
 
 # Griseofulvin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Voxelotor: الاستطباب الجديد المتوقع نقص الصفيحات الوراثي مع صفيحات طبيعية (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم المنجلي (مصدره الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطبا…"
+monitor_inn: "VOXELOTOR"
+predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "acquired monoclonal Ig light chain-associated Fanconi syndrome", "primary release disorder of platelets"]
 ---
 
 # Voxelotor

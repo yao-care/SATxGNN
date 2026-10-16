@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Norgestimate: الاستطباب الجديد المتوقع ارتفاع الزنك في البلازما (مستوى الدليل L5). الاستطباب الأصلي: لا يتوفر نص استطباب معتمد في تراخيص الهيئة العامة للغذاء والدواء السع…"
+monitor_inn: "norgestimate"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Norgestimate

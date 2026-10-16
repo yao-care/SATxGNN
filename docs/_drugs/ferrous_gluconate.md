@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ferrous Gluconate: الاستطباب الجديد المتوقع متلازمة بلامر-فينسون (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر الدم لدى الخدّج، وفقر ال…"
+monitor_inn: "FERROUS GLUCONATE"
+predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
 ---
 
 # Ferrous Gluconate

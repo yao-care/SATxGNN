@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Fluocinolone Acetonide: الاستطباب الجديد المتوقع الحزاز المسطح الضخامي (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد التأتبي، التهاب الجلد التماسي، التهاب الجلد الدهني، الحز…"
+monitor_inn: "FLUOCINOLONE ACETONIDE"
+predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pigmentosus", "lichen planus pemphigoides"]
 ---
 
 # Fluocinolone Acetonide

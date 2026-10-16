@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Magnesium Trisilicate: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية (بحسب الرسم المعرفي PrimeKG، إذ لا يتوفر نص مؤشر م…"
+monitor_inn: "magnesium trisilicate"
+predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "gastroduodenitis", "gastric ulcer (disease)"]
 ---
 
 # Magnesium Trisilicate

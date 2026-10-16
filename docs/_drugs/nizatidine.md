@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Nizatidine: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L5). الاستطباب الأصلي: القرحة المعدية، مرض القرحة الهضمية، الارتجاع المعدي المريئي، التهاب ا…"
+monitor_inn: "NIZATIDINE"
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenal obstruction", "duodenogastric reflux", "gastroduodenitis", "multiple endocrine neoplasia"]
 ---
 
 # Nizatidine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Gadodiamide: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (Rheumatoid Arthritis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (الاستخدام المعروف: وسيط تباين…"
+monitor_inn: "GADODIAMIDE"
+predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Gadodiamide

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Hydroxyzine: الاستطباب الجديد المتوقع الأرتكاريا التحسسية (Allergic urticaria) (مستوى الدليل L4). الاستطباب الأصلي: الأكزيما التأتبية، التهاب الأنف التحسسي، الشرى، الوذمة الوعائية، الته…"
+monitor_inn: "Hydroxyzine"
+predicted_indications: ["allergic urticaria", "rosacea conjunctivitis", "cold urticaria", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Hydroxyzine

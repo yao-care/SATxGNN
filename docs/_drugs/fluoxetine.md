@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fluoxetine: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الاكتئاب الأحادي القطب، الاكتئاب الجسيم، الشره العصبي،…"
+monitor_inn: "FLUOXETINE"
+predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants", "melancholia"]
 ---
 
 # Fluoxetine

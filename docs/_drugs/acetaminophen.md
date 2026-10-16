@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Acetaminophen: الاستطباب الجديد المتوقع الشقيقة المصحوبة بأورة جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: الصداع، والشقيقة (الصداع النصفي)، ونزلات البرد، والتهاب البلعوم الأنف…"
+monitor_inn: "Acetaminophen"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Acetaminophen

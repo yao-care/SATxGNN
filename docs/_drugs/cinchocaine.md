@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Cinchocaine: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد (مأخوذ من الرسم البياني المعرفي، إذ لا يتوفر نص استطباب…"
+monitor_inn: "CINCHOCAINE"
+predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
 ---
 
 # Cinchocaine

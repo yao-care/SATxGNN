@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Metformin: الاستطباب الجديد المتوقع متلازمة الرجل المتيبس الكلاسيكية (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
+monitor_inn: "Metformin"
+predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 ---
 
 # Metformin

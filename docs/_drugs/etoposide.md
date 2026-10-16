@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Etoposide: الاستطباب الجديد المتوقع ساركوما إيوينغ (مستوى الدليل L1). الاستطباب الأصلي: سرطان الرئة صغير الخلايا، وأورام الخلايا الجرثومية في الخصية (بما في…"
+monitor_inn: "ETOPOSIDE"
+predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 ---
 
 # Etoposide

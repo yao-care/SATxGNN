@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Articaine: الاستطباب الجديد المتوقع النقرس (Gout) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص السعودي؛ المعروف أن الدواء مخدر موضعي يُس…"
+monitor_inn: "articaine"
+predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
 ---
 
 # Articaine

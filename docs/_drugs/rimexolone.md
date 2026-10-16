@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Rimexolone: الاستطباب الجديد المتوقع التهاب الجلد الدهني (Seborrheic Dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب العنبية، أمراض القزحية، أمراض الجسم الهدبي، التهاب العنبية الش…"
+monitor_inn: "RIMEXOLONE"
+predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 ---
 
 # Rimexolone

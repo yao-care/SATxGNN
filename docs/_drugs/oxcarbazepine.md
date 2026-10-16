@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Oxcarbazepine: الاستطباب الجديد المتوقع الصرع البصري (Visual epilepsy) (مستوى الدليل L4). الاستطباب الأصلي: الصرع الجزئي والصرع الحركي الجزئي (مصدره الرسم المعرفي لـ TxGNN، إذ ل…"
+monitor_inn: "OXCARBAZEPINE"
+predicted_indications: ["visual epilepsy", "restless legs syndrome", "audiogenic seizures", "startle epilepsy", "micturation-induced seizures", "eating seizures", "orgasm-induced seizures", "thinking seizures", "status epilepticus", "reading seizures"]
 ---
 
 # Oxcarbazepine

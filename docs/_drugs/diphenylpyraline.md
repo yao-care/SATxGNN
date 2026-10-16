@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Diphenylpyraline: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي (بحسب الرسم البياني المعرفي، إذ لا يتوفر نص استط…"
+monitor_inn: "diphenylpyraline"
+predicted_indications: ["allergic urticaria", "acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Diphenylpyraline

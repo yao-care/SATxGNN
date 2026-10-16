@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Thiamine: الاستطباب الجديد المتوقع فرط نشاط الغدة الدرقية (Hyperthyroidism) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة (يُعرف عمومًا باستخدامه في نقص ا…"
+monitor_inn: "THIAMINE"
+predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
 ---
 
 # Thiamine
