@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 187
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ciprofloxacin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتير…"
 ---
 
 # Ciprofloxacin

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 527
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Magnesium Trisilicate: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية (بحسب الرسم المعرفي PrimeKG، إذ لا يتوفر نص مؤشر م…"
 ---
 
 # Magnesium Trisilicate

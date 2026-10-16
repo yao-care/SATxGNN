@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 610
 evidence_level: L1
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Olaparib: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L1). الاستطباب الأصلي: سرطان المبيض (يشمل الأنواع النسيجية المرتبطة به)"
 ---
 
 # Olaparib

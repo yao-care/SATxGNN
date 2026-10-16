@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Cyanocobalamin: الاستطباب الجديد المتوقع مرض أيض البيوتين (Biotin metabolic disease) (مستوى الدليل L5). الاستطباب الأصلي: نقص فيتامين B12 وفقر الدم الخبيث وفقر الدم الناتج عن نقص الحديد وحمض…"
 ---
 
 # Cyanocobalamin

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 131
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Cabergoline: الاستطباب الجديد المتوقع السرطان الغدي للغدة النخامية (Pituitary Adenocarcinoma) (مستوى الدليل L4). الاستطباب الأصلي: فرط برولاكتين الدم (ويشمل الأورام النخامية المفرزة للبرولاكتين)"
 ---
 
 # Cabergoline

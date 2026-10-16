@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 386
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Gemcitabine: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (مستوى الدليل L1). الاستطباب الأصلي: سرطان المبيض (لا يوجد نص استطباب في بيانات التراخيص السعودية، والمعلو…"
 ---
 
 # Gemcitabine

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 646
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Perindopril: الاستطباب الجديد المتوقع اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم (hypertension / hypertensive disorder)"
 ---
 
 # Perindopril

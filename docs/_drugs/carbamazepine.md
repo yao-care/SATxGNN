@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 144
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Carbamazepine: الاستطباب الجديد المتوقع ورم العصب ثلاثي التوائم (مستوى الدليل L4). الاستطباب الأصلي: الصرع (بما في ذلك النوبات الجزئية والتشنجية العامة ومتلازمة لينوكس-غا…"
 ---
 
 # Carbamazepine

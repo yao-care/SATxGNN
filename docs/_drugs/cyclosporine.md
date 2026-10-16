@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Cyclosporine: الاستطباب الجديد المتوقع مرض الورم الحبيبي المزمن، وراثي متنحٍّ (مستوى الدليل L4). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، جفاف العين، متلازمة سجوغرن (مأخوذة من الر…"
 ---
 
 # Cyclosporine

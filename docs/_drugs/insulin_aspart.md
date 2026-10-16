@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 438
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Insulin Aspart: الاستطباب الجديد المتوقع داء السكري من النوع الأول (مستوى الدليل L1). الاستطباب الأصلي: داء السكري؛ الحُماض الكيتوني السكري (من الاستطبابات الأصلية في قاعدة…"
 ---
 
 # Insulin Aspart

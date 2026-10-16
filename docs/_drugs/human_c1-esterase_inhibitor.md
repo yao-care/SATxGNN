@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Human C1-Esterase Inhibitor: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 ---
 
 # Human C1-Esterase Inhibitor

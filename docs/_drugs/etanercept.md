@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 322
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Etanercept: الاستطباب الجديد المتوقع التهاب الأوعية الدموية الروماتويدي (Rheumatoid vasculitis) (مستوى الدليل L4). الاستطباب الأصلي: التهاب المفاصل الصدفي، التهاب المفاصل الروماتويدي، التهاب الفقار ا…"
 ---
 
 # Etanercept

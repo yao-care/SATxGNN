@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 862
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Vasopressin: الاستطباب الجديد المتوقع نقص البروثرومبين الخلقي (Congenital prothrombin deficiency) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نص المؤشر في ترخيص هيئة الغذاء والدواء السعودية فارغ)"
 ---
 
 # Vasopressin

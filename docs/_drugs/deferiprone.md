@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Deferiprone: الاستطباب الجديد المتوقع البورفيريا الكبدية (hepatic porphyria) (مستوى الدليل L5). الاستطباب الأصلي: فرط الحديد (الهيموسيديروزس) والثلاسيميا بيتا وأمراض الهيموغلوبين (است…"
 ---
 
 # Deferiprone

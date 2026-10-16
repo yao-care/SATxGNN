@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 342
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Felodipine: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (ذبحة برنزميتال) (مستوى الدليل L3). الاستطباب الأصلي: اضطراب ارتفاع ضغط الدم / ارتفاع ضغط الدم (من الرسم المعرفي لـ TxGNN)"
 ---
 
 # Felodipine

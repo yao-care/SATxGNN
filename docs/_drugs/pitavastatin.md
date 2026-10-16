@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 664
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pitavastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي متماثل الألائل (Homozygous familial hyperc… (مستوى الدليل L4). الاستطباب الأصلي: فرط شحميات الدم العائلي المركّب (بحسب شبكة المعرفة ف…"
 ---
 
 # Pitavastatin

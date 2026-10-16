@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 162
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Ceftriaxone: الاستطباب الجديد المتوقع التهاب الأذن الوسطى المُعدي (infectious otitis media) (مستوى الدليل L3). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي الجرثومي، التهاب السحايا الجرثومي، ال…"
 ---
 
 # Ceftriaxone

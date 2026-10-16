@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 115
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Brentuximab Vedotin: الاستطباب الجديد المتوقع اللمفوما الجُريبية (Follicular Lymphoma) (مستوى الدليل L3). الاستطباب الأصلي: لمفوما هودجكين (الكلاسيكية وأنماطها الفرعية) — مأخوذ من الرسم المعرفي…"
 ---
 
 # Brentuximab Vedotin

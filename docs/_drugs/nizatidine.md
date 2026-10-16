@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Nizatidine: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L5). الاستطباب الأصلي: القرحة المعدية، مرض القرحة الهضمية، الارتجاع المعدي المريئي، التهاب ا…"
 ---
 
 # Nizatidine

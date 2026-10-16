@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 722
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Rifampicin: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
 ---
 
 # Rifampicin

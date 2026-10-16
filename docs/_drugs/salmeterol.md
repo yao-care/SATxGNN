@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 745
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Salmeterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L1). الاستطباب الأصلي: انتفاخ الرئة، الربو الداخلي، الربو التحسسي (بحسب الاستطبابات المستخرج…"
 ---
 
 # Salmeterol

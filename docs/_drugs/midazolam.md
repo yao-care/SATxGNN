@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 558
 evidence_level: L2
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Midazolam: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L2). الاستطباب الأصلي: القلق"
 ---
 
 # Midazolam

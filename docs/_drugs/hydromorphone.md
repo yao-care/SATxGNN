@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 417
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Hydromorphone: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L4). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي (من الرسم المعرفي؛ لا يوجد نص دلالة…"
 ---
 
 # Hydromorphone

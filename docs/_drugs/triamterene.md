@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 835
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Triamterene: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، وفشل القلب الاحتقاني (مصدر هذه المعلومات رسوم المعرف…"
 ---
 
 # Triamterene

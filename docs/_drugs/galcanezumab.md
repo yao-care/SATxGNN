@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Galcanezumab: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: الصداع النصفي (migraine disorder)"
 ---
 
 # Galcanezumab

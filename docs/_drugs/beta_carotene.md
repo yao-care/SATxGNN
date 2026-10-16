@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 103
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Beta Carotene: الاستطباب الجديد المتوقع حب الشباب (acne) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغ…"
 ---
 
 # Beta Carotene

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 478
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Lanadelumab: الاستطباب الجديد المتوقع نقص مثبط C1 (مستوى الدليل L1). الاستطباب الأصلي: الوذمة الوعائية الوراثية (بما فيها النوع المصحوب بنقص مثبط C1)"
 ---
 
 # Lanadelumab

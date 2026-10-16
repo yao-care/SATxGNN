@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 593
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Nitroglycerin: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ)؛ ويُعرف النيتروغليسر…"
 ---
 
 # Nitroglycerin

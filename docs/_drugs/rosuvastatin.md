@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 735
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Rosuvastatin: الاستطباب الجديد المتوقع فرط كولسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: فرط شحميات الدم، وفرط كولسترول الدم العائلي المتماثل الزيجوت، وتصلب ا…"
 ---
 
 # Rosuvastatin

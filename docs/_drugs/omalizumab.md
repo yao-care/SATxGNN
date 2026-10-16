@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 614
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Omalizumab: الاستطباب الجديد المتوقع التهاب القصبات (Bronchitis) (مستوى الدليل L3). الاستطباب الأصلي: الربو (الربو التحسسي وغير التحسسي) والشرى مجهول السبب (من الرسم المعر…"
 ---
 
 # Omalizumab

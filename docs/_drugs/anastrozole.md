@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 63
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Anastrozole: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 ---
 
 # Anastrozole

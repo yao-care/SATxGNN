@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 612
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Olodaterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (مستوى الدليل L4). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن (COPD)"
 ---
 
 # Olodaterol

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 698
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Pseudoephedrine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 ---
 
 # Pseudoephedrine

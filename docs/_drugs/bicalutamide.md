@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Bicalutamide: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: سرطان البروستاتا (بحسب المعرفة العامة بالدواء؛ نص الاستطباب غير متوفر…"
 ---
 
 # Bicalutamide

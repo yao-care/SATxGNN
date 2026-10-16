@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Candesartan Cilexetil: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)، بحسب الرسم المعرفي لـ TxGN…"
 ---
 
 # Candesartan Cilexetil

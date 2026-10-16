@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 177
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Chlorprothixene: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L3). الاستطباب الأصلي: الفصام"
 ---
 
 # Chlorprothixene

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 491
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Letrozole: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في نصوص التراخيص (تتضمن البيانات 12 ترخيصًا بلا نص استطباب)"
 ---
 
 # Letrozole

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 282
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Doxylamine: الاستطباب الجديد المتوقع الشرى التحسسي (allergic urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 ---
 
 # Doxylamine

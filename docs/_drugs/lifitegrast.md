@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Lifitegrast: الاستطباب الجديد المتوقع التليّف الليفي القضيبي (Penile fibromatosis) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين (Dry eye syndrome) / جفاف الملتحمة (Xerophthalmia)"
 ---
 
 # Lifitegrast

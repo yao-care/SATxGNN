@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Eftrenonacog Alfa: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، وأعراض الهيموفيليا لدى الناقلات من الإناث (بحسب شبكة الم…"
 ---
 
 # Eftrenonacog Alfa

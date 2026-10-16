@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 311
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Epirubicin: الاستطباب الجديد المتوقع الليمفوما الرئوية الأولية (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي"
 ---
 
 # Epirubicin

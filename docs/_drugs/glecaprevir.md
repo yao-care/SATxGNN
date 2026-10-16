@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Glecaprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدره شبكة المعرفة PrimeKG، إذ لا…"
 ---
 
 # Glecaprevir

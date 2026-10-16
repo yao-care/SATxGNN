@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 747
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Secnidazole: الاستطباب الجديد المتوقع إفرازات المهبل (vaginal discharge) (مستوى الدليل L1). الاستطباب الأصلي: التهاب المهبل الجرثومي وداء المشعرات والجيارديا والتهاب المهبل والفرج…"
 ---
 
 # Secnidazole

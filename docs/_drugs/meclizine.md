@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Meclizine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L5). الاستطباب الأصلي: الدوار ذو المنشأ في الجهاز العصبي المركزي، ودوار الحركة"
 ---
 
 # Meclizine

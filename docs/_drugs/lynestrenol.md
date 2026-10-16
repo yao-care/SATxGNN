@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 522
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Lynestrenol: الاستطباب الجديد المتوقع الصداع النصفي مع أو بدون هالة (قابلية الإصابة) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفرة (نص الاستطباب في ترخيص هيئة الغذاء والدواء السعودية فارغ)"
 ---
 
 # Lynestrenol

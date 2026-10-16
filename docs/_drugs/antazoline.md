@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 64
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Antazoline: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (وفق الاستطبابات الأصلية في الرسم المعرفي؛ نص ال…"
 ---
 
 # Antazoline

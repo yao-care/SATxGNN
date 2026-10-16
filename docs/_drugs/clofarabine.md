@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 201
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Clofarabine: الاستطباب الجديد المتوقع سرطان الدم النقوي (Myeloid Leukemia) (مستوى الدليل L1). الاستطباب الأصلي: سرطان الدم الليمفاوي الحاد (ALL)، ولا يتوفر نص استطباب في تراخيص هيئة…"
 ---
 
 # Clofarabine

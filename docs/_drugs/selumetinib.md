@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 750
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Selumetinib: الاستطباب الجديد المتوقع الورم الشفاني للأعصاب الطرفية (Peripheral nerve schwannoma) (مستوى الدليل L3). الاستطباب الأصلي: الورم الليفي العصبي (Neurofibromatosis)، وفق الرسوم المعرفية للن…"
 ---
 
 # Selumetinib

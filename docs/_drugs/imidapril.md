@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Imidapril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجين (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (hypertension)"
 ---
 
 # Imidapril

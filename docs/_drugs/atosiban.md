@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Atosiban: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: تأخير الولادة المبكرة (مثبّط للمخاض)، وفق المعلومات الدوائية المتاحة؛…"
 ---
 
 # Atosiban

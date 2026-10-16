@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 222
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Cytarabine: الاستطباب الجديد المتوقع سرطان الرئة صغير الخلايا (مستوى الدليل L4). الاستطباب الأصلي: اللوكيميا الحادة (اللمفاوية والنخاعية). مأخوذ من الرسم المعرفي لأن نص…"
 ---
 
 # Cytarabine

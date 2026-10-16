@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 647
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pertuzumab: الاستطباب الجديد المتوقع سرطان الثدي السلبي لمستقبل البروجسترون (مستوى الدليل L1). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبل HER2 (بحسب رسم المعرفة في TxGNN، إذ لا ي…"
 ---
 
 # Pertuzumab

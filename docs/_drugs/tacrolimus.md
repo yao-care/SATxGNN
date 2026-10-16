@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 783
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Tacrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (مستوى الدليل L1). الاستطباب الأصلي: التهاب الجلد التأتبي (الأكزيما)"
 ---
 
 # Tacrolimus

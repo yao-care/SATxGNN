@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 889
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Zinc Oxide: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الجلد، فطريات الجلد (القدم الرياضي، القوباء الحلقية)، الطفح ال…"
 ---
 
 # Zinc Oxide

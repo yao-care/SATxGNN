@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 538
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Melphalan: الاستطباب الجديد المتوقع أورام الخلايا الجرثومية الغُدّية (Gonadal germ cell tumor) (مستوى الدليل L2). الاستطباب الأصلي: سرطان المبيض (يشمل الأنواع الفرعية للأورام الظهارية والجرثومية في ا…"
 ---
 
 # Melphalan

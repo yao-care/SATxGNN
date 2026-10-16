@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 679
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pralatrexate: الاستطباب الجديد المتوقع الورم المتوسطي الظهاري الجنبي (Pleural epithelioid mesothelioma) (مستوى الدليل L4). الاستطباب الأصلي: لمفوما الخلايا التائية والخلايا القاتلة الطبيعية الناضجة غ…"
 ---
 
 # Pralatrexate

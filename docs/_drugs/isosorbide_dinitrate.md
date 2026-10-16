@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 462
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Isosorbide Dinitrate: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (Pulmonary hypertension) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عمومًا: الذبحة الصدرية وأمراض…"
 ---
 
 # Isosorbide Dinitrate

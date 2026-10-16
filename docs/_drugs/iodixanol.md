@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Iodixanol: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (Osteoarthritis)، وهو ثاني أعلى تنبؤ؛ أعلى تنبؤ… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص الهيئة العامة للغذاء…"
 ---
 
 # Iodixanol

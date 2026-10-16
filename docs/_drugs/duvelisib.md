@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Duvelisib: الاستطباب الجديد المتوقع لمفوما هودجكين (مستوى الدليل L5). الاستطباب الأصلي: اللمفوما الجُريبية، أورام الخلايا البائية الناضجة، ابيضاض الدم اللمفا…"
 ---
 
 # Duvelisib

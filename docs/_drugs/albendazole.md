@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 30
 evidence_level: L2
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Albendazole: الاستطباب الجديد المتوقع داء المشوكات السنخي (Alveolar echinococcosis) (مستوى الدليل L2). الاستطباب الأصلي: داء المشوكات الكيسي، داء الكيسات المذنبة، العدوى بالمشوكة الحبيبية (م…"
 ---
 
 # Albendazole

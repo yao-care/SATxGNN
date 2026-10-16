@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 521
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Lurasidone: الاستطباب الجديد المتوقع الهوس في الاضطراب ثنائي القطب (مستوى الدليل L3). الاستطباب الأصلي: الاضطراب ثنائي القطب، الفصام"
 ---
 
 # Lurasidone

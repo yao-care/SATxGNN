@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 67
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Apomorphine: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L4). الاستطباب الأصلي: داء باركنسون (والمتلازمات الباركنسونية المرتبطة به)"
 ---
 
 # Apomorphine

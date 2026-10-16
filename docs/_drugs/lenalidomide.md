@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 488
 evidence_level: L2
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Lenalidomide: الاستطباب الجديد المتوقع سرطان الدم النقوي (myeloid leukemia) (مستوى الدليل L2). الاستطباب الأصلي: ورم الخلايا البلازمية (الورم النقوي المتعدد)، ليمفوما الخلايا الوشاحي…"
 ---
 
 # Lenalidomide

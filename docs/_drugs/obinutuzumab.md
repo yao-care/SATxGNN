@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Obinutuzumab: الاستطباب الجديد المتوقع الورم الليمفاوي الجريبي (Follicular Lymphoma) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد (الأرومي/اللمفاوي)، ومتلازمة ريختر (حسب ق…"
 ---
 
 # Obinutuzumab

@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Ursodeoxycholic Acid: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي المتماثل الزيجوت (مستوى الدليل L5). الاستطباب الأصلي: حصوات المرارة، وحصوات المرارة والقناة الصفراوية، والتهاب الأقنية الصف…"
 ---
 
 # Ursodeoxycholic Acid

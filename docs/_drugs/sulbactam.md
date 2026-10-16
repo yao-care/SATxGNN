@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 775
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Sulbactam: الاستطباب الجديد المتوقع التهاب المفاصل البكتيري (Bacterial arthritis) (مستوى الدليل L3). الاستطباب الأصلي: التهاب الأقنية الصفراوية، عدوى المكورات العنقودية الذهبية، عدوى الإشر…"
 ---
 
 # Sulbactam

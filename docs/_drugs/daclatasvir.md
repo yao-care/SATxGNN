@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 225
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Daclatasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L3). الاستطباب الأصلي: عدوى التهاب الكبد الوبائي C المزمن (مأخوذ من الاستطبابات الأصلية في ر…"
 ---
 
 # Daclatasvir

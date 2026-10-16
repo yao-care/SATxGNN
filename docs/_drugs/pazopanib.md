@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 634
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pazopanib: الاستطباب الجديد المتوقع الورم الشحمي الخبيث (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والساركوما الرخوة (بحسب الاستطبابات المسجلة في…"
 ---
 
 # Pazopanib

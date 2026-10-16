@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 582
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Nepafenac: الاستطباب الجديد المتوقع أمراض العين (Eye disease) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر (نص الاستطباب في رخصة هيئة الغذاء والدواء السعودية فارغ)"
 ---
 
 # Nepafenac

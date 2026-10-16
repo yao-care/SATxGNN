@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 206
 evidence_level: L2
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Clopidogrel: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (مستوى الدليل L2). الاستطباب الأصلي: متلازمة الشريان التاجي الحادة؛ الانسداد الدماغي؛ احتشاء عضلة القلب مع…"
 ---
 
 # Clopidogrel

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 870
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Viloxazine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L1). الاستطباب الأصلي: الناركوليبسي (التغفيق)، والناركوليبسي المصحوب بالجُمود (cataplexy)، و…"
 ---
 
 # Viloxazine

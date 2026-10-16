@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Ponatinib: الاستطباب الجديد المتوقع الورم الليفي اللثوي (fibromatosis, gingival) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النخاعي المزمن إيجابي BCR-ABL1 (مصدره الرسم المعرفي لـ Tx…"
 ---
 
 # Ponatinib

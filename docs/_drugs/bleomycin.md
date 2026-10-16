@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Bleomycin: الاستطباب الجديد المتوقع ورم ذيل الفرس (Cauda Equina Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: لمفومة هودجكين، واللمفومات غير الهودجكينية، وسرطان الرأس والعنق (وفق…"
 ---
 
 # Bleomycin

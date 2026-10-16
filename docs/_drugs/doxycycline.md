@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 281
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Doxycycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L4). الاستطباب الأصلي: التهاب الشعب الهوائية، حب الشباب، الالتهاب الرئوي البكتيري، الجمرة ال…"
 ---
 
 # Doxycycline

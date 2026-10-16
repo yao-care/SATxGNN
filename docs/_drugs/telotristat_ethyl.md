@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Telotristat Ethyl: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الإسهالية (وفق رسم المعرفة في TxGNN، ولا يوجد نص استطباب معتم…"
 ---
 
 # Telotristat Ethyl

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 142
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Caplacizumab: الاستطباب الجديد المتوقع فرفرية نقص الصفيحات الخثارية (TTP) (مستوى الدليل L1). الاستطباب الأصلي: فرفرية نقص الصفيحات (من رسم المعرفة PrimeKG؛ نص الاستطباب في تراخيص ه…"
 ---
 
 # Caplacizumab

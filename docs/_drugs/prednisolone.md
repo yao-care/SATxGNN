@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 684
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Prednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L2). الاستطباب الأصلي: الأمراض المناعية الذاتية (وغيرها: داء كرون، سرطان الدم الليمفاوي الحا…"
 ---
 
 # Prednisolone

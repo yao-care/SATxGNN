@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Alteplase: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي الجانبي (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي،…"
 ---
 
 # Alteplase

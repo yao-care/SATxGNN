@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Fenofibrate: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي المتماثل الزيجوت (مستوى الدليل L5). الاستطباب الأصلي: فرط ثلاثيات الغليسيريد وفرط شحميات الدم (بحسب الرسم المعرفي، إذ لا يو…"
 ---
 
 # Fenofibrate

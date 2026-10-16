@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د (مُدخل مصنَّف كمتقادم) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
 ---
 
 # Calcitriol

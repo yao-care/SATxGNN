@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Deferasirox: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L4). الاستطباب الأصلي: بيتا ثلاسيميا وأمراض الهيموغلوبين (من قاعدة المعرفة PrimeKG؛ لا يتوفر…"
 ---
 
 # Deferasirox

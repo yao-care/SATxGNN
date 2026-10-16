@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Dimenhydrinate: الاستطباب الجديد المتوقع الشرى التحسسي (مستوى الدليل L4). الاستطباب الأصلي: دوار المنشأ المركزي، دوار الحركة (من الرسم المعرفي لـ TxGNN، إذ لا يو…"
 ---
 
 # Dimenhydrinate

@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Estradiol Valerate: الاستطباب الجديد المتوقع الشكل العَرَضي من متلازمة إكس الهشّ لدى الحاملات الإناث (مستوى الدليل L5). الاستطباب الأصلي: الفشل المبيضي الأولي (Primary ovarian failure)"
 ---
 
 # Estradiol Valerate

@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Polyvinyl Alcohol: الاستطباب الجديد المتوقع الحمامي الإكثيوزيفورمية الخلقية (مستوى الدليل L5). الاستطباب الأصلي: جفاف العين (dry eye syndrome) وجفاف الملتحمة (xerophthalmia) (من الاس…"
 ---
 
 # Polyvinyl Alcohol

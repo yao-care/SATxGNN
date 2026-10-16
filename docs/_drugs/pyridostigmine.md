@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 700
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Pyridostigmine: الاستطباب الجديد المتوقع الوهن العضلي الوبيل المصحوب بتضخم الغدة الصعترية (مستوى الدليل L4). الاستطباب الأصلي: الوهن العضلي الوبيل، الوهن العضلي الوبيل عند البالغين، أمراض الوصل ال…"
 ---
 
 # Pyridostigmine

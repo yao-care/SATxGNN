@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 228
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Daptomycin: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (Osteoarthritis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عمومًا: عدوى بكتيرية إيجابية ال…"
 ---
 
 # Daptomycin

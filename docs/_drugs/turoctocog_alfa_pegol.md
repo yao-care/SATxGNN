@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Turoctocog Alfa Pegol: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا، والشكل العَرَضي من الهيموفيليا لدى الحاملات من الإناث (ل…"
 ---
 
 # Turoctocog Alfa Pegol

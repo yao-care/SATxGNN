@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 887
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Zinc Chloride: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 ---
 
 # Zinc Chloride

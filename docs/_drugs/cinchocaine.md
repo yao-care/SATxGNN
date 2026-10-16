@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Cinchocaine: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد (مأخوذ من الرسم البياني المعرفي، إذ لا يتوفر نص استطباب…"
 ---
 
 # Cinchocaine

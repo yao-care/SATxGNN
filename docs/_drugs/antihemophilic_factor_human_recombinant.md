@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Antihemophilic Factor Human Recombinant: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا؛ الشكل المصحوب بأعراض لدى الناقلات من الإناث (…"
 ---
 
 # Antihemophilic Factor Human Recombinant

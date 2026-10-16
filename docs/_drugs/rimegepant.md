@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 724
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Rimegepant: الاستطباب الجديد المتوقع الصداع النصفي مع هالة جذع الدماغ (مستوى الدليل L3). الاستطباب الأصلي: الصداع النصفي (مع هالة أو بدونها)"
 ---
 
 # Rimegepant

@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Vidarabine: الاستطباب الجديد المتوقع التهاب الشفة الشعّي (Actinic Cheilitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص الاستطباب في ترخيص هيئة الغذاء والدواء فارغ)"
 ---
 
 # Vidarabine

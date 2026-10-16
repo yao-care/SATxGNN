@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Succinic Acid: الاستطباب الجديد المتوقع فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد، وفقر الدم ناقص الصباغ، وفق…"
 ---
 
 # Succinic Acid

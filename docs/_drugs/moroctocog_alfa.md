@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Moroctocog Alfa: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا (وفق الرسم البياني المعرفي، ولا يتوفر نص استطباب معتمد في…"
 ---
 
 # Moroctocog Alfa

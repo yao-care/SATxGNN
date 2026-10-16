@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Acitretin: الاستطباب الجديد المتوقع حب الشباب (acne) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المسجّلة"
 ---
 
 # Acitretin

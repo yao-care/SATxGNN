@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Ataluren: الاستطباب الجديد المتوقع الركود الصفراوي الحميد المتكرر داخل الكبد (مستوى الدليل L5). الاستطباب الأصلي: الحثل العضلي دوشين (مأخوذ من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطب…"
 ---
 
 # Ataluren

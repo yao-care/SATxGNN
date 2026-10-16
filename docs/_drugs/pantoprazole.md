@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 628
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Pantoprazole: الاستطباب الجديد المتوقع القرحة الهضمية النشطة (مستوى الدليل L1). الاستطباب الأصلي: مرض القرحة الهضمية (وفق الاستطبابات المسجلة في قاعدة المعرفة؛ نصوص ال…"
 ---
 
 # Pantoprazole

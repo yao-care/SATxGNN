@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 37
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Alirocumab: الاستطباب الجديد المتوقع الورام الأصفر (Xanthomatosis) (مستوى الدليل L4). الاستطباب الأصلي: خلل شحميات الدم المتلازمي، اضطراب تصلب الشرايين، التصلب العصيدي، تصلب…"
 ---
 
 # Alirocumab

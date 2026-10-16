@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 680
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pramipexole: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة تململ الساقين، مرض باركنسون (مأخوذ من الاستطبابات الأصلية في…"
 ---
 
 # Pramipexole

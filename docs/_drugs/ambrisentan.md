@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 48
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ambrisentan: الاستطباب الجديد المتوقع ارتفاع ضغط الشريان الرئوي المصاحب لأمراض النسيج الضام (مستوى الدليل L2). الاستطباب الأصلي: ارتفاع ضغط الشريان الرئوي"
 ---
 
 # Ambrisentan

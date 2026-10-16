@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 246
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Dexamethasone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). الاستطباب الأصلي: قصور الغدة الكظرية، مرض أديسون، مرض كرون، سرطان الدم اللمفاوي الحاد،…"
 ---
 
 # Dexamethasone

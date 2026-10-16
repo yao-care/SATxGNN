@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Ivermectin: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: داء الأسطوانيات (السترونجيلويدات) وداء كلابية الذنب (من الرسم المعرفي…"
 ---
 
 # Ivermectin

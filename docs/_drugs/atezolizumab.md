@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Atezolizumab: الاستطباب الجديد المتوقع سرطان الإحليل البروستاتي الظهاري البولي (مستوى الدليل L5). الاستطباب الأصلي: سرطان الخلايا الانتقالية (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص د…"
 ---
 
 # Atezolizumab

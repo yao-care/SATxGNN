@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 575
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Naftifine: الاستطباب الجديد المتوقع داء المبيضات الجلدي (مستوى الدليل L3). الاستطباب الأصلي: التينيا القدمية، تينيا الجسم، عدوى التينيا، الإصابة بالفطريات الجلدية…"
 ---
 
 # Naftifine

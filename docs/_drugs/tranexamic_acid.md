@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 828
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Tranexamic Acid: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: داء بطانة الرحم المهاجرة (الانتباذ البطاني الرحمي) — بحسب الرسم المعر…"
 ---
 
 # Tranexamic Acid

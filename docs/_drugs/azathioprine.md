@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 88
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Azathioprine: الاستطباب الجديد المتوقع متلازمة خلل التنسج الهيكلي مع صغر العين الثلمي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي (مأخوذ من علاقات الاستطباب في الرسم البيان…"
 ---
 
 # Azathioprine

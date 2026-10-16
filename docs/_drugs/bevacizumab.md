@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Bevacizumab: الاستطباب الجديد المتوقع ورم لسان المزمار (Epiglottis Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الصفاق، وسرطان المبيض الظهاري، وسرطان الثدي، والورم الخبيث المن…"
 ---
 
 # Bevacizumab

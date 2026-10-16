@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 78
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Atenolol: الاستطباب الجديد المتوقع احتشاء عضلة القلب السفلي الخلفي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، احتشاء عضلة القلب (مصدره رسم المعرفة PrimeKG، إذ لا…"
 ---
 
 # Atenolol

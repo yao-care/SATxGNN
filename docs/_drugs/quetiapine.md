@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Quetiapine: الاستطباب الجديد المتوقع نتف الشعر القهري (Trichotillomania) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب ثنائي القطب، الاضطراب العاطفي الكبير، الهوس ثنائي القطب، الفصا…"
 ---
 
 # Quetiapine

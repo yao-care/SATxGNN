@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Fulvestrant: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبلات الهرمون (بحسب الاستخدام المعروف للدواء…"
 ---
 
 # Fulvestrant

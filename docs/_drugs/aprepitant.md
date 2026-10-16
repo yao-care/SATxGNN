@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Aprepitant: الاستطباب الجديد المتوقع المتلازمة الكلوية المنشأ لعدم ملاءمة مضادات البول (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات (نصوص الاستطباب في التراخيص فارغة)"
 ---
 
 # Aprepitant

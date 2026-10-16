@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 223
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Dabigatran Etexilate: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (Sclerosing Cholangitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية (المعروف: مضاد تخثر …"
 ---
 
 # Dabigatran Etexilate

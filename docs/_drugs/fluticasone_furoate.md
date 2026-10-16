@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Fluticasone Furoate: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: الربو (بما فيه الربو الذاتي والتحسسي)، التهاب الأنف التحسسي، التهاب ا…"
 ---
 
 # Fluticasone Furoate

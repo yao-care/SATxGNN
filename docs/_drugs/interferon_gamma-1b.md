@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 447
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Interferon Gamma-1B: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في ترخيص الهيئة العامة للغذاء والدواء)"
 ---
 
 # Interferon Gamma-1B

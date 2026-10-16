@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 418
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Hydroquinone: الاستطباب الجديد المتوقع التقرن الدهني (Seborrheic Keratosis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نصوص المؤشرات المعتمدة فارغة)"
 ---
 
 # Hydroquinone

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 506
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Lisuride: الاستطباب الجديد المتوقع الصداع النصفي مع أورة جذع الدماغ (مستوى الدليل L4). الاستطباب الأصلي: الصداع النصفي (وفق الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطباب معتمد ف…"
 ---
 
 # Lisuride

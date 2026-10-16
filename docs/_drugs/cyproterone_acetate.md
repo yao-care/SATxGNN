@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 221
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cyproterone Acetate: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: الأمراض المعتمدة على الأندروجين (وفق بيانات الصيدلة المجمّعة؛ نص الاس…"
 ---
 
 # Cyproterone Acetate

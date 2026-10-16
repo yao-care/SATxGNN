@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 621
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Oxymetazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب البلعوم، نزلات البرد"
 ---
 
 # Oxymetazoline

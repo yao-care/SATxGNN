@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tinidazole: الاستطباب الجديد المتوقع التهاب المهبل الضموري بعد سن اليأس (مستوى الدليل L5). الاستطباب الأصلي: داء الجيارديا، التهاب المهبل الجرثومي، التهاب المهبل، التهاب الفرج، د…"
 ---
 
 # Tinidazole

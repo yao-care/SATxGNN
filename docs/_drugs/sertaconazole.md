@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 753
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Sertaconazole: الاستطباب الجديد المتوقع فطار الفخذ والمنطقة حول الشرج (مستوى الدليل L5). الاستطباب الأصلي: تينيا القدم (Tinea pedis)"
 ---
 
 # Sertaconazole

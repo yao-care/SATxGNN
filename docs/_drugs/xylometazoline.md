@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 881
 evidence_level: L3
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Xylometazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L3). الاستطباب الأصلي: التهاب البلعoم (pharyngitis)، نزلة البرد (common cold)"
 ---
 
 # Xylometazoline

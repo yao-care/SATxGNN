@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 475
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Lactulose: الاستطباب الجديد المتوقع اليرقان الانسدادي (مستوى الدليل L3). الاستطباب الأصلي: الاعتلال الدماغي الكبدي، الغيبوبة الكبدية، الإمساك (من الرسم المعرفي…"
 ---
 
 # Lactulose

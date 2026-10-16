@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 639
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Peginterferon Alfa-2B: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L1). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمن (من رسم المعرفة في TxGNN، إذ لا يتوف…"
 ---
 
 # Peginterferon Alfa-2B

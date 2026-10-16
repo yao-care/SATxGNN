@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 60
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ampicillin: الاستطباب الجديد المتوقع التهاب الحنجرة (مستوى الدليل L4). الاستطباب الأصلي: التهابات بكتيرية (التهاب المسالك البولية، التهاب الأذن الوسطى، الالته…"
 ---
 
 # Ampicillin

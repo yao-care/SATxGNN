@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Epinastine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الملتحمة التأتبي، والتهاب الملتحمة الحليمي، والتهاب الملتحمة ا…"
 ---
 
 # Epinastine

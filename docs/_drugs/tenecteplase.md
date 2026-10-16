@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tenecteplase: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي السفلي (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، تخثر الشريان التاجي (بحسب رسم المعرفة في TxGNN، إذ…"
 ---
 
 # Tenecteplase

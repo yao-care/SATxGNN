@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، الربو الداخلي، الر…"
 ---
 
 # Montelukast

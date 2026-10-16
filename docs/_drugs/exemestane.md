@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 335
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Exemestane: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عن الدواء: سرطان الثدي بعد سن ا…"
 ---
 
 # Exemestane

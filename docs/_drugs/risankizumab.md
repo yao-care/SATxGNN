@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Risankizumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: الصدفية وشبه الصدفية"
 ---
 
 # Risankizumab

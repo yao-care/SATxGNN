@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 33
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Alfacalcidol: الاستطباب الجديد المتوقع قصور جار الدرق العائلي المعزول الناتج عن ضعف إفراز PTH (مستوى الدليل L4). الاستطباب الأصلي: فرط نشاط جار الدرق، التهاب العظم الليفي، قصور جار الدرق، اعتلال العظ…"
 ---
 
 # Alfacalcidol

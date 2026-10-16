@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Felypressin: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (drug-induced osteoporosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (الترخيص السعودي لا يتضمن نص استط…"
 ---
 
 # Felypressin

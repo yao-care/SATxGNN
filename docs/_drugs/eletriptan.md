@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 295
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Eletriptan: الاستطباب الجديد المتوقع الصداع النصفي مع أورة جذع الدماغ (مستوى الدليل L4). الاستطباب الأصلي: الصداع النصفي (مع الأورة أو بدونها)"
 ---
 
 # Eletriptan

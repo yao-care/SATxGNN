@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 544
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Methadone: الاستطباب الجديد المتوقع متلازمة توريت (Tourette syndrome) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 ---
 
 # Methadone

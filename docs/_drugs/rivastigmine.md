@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 731
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Rivastigmine: الاستطباب الجديد المتوقع الزرق (Glaucoma) (مستوى الدليل L4). الاستطباب الأصلي: مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب ال…"
 ---
 
 # Rivastigmine

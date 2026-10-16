@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Magnesium Hydroxide: الاستطباب الجديد المتوقع القرحة الهضمية النشطة (مستوى الدليل L3). الاستطباب الأصلي: القرحة الهضمية، الارتجاع المعدي المريئي، التهاب المريء، الإمساك، عسر…"
 ---
 
 # Magnesium Hydroxide

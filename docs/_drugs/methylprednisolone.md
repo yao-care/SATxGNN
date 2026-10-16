@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 552
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Methylprednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L3). الاستطباب الأصلي: أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، وابيضاض ا…"
 ---
 
 # Methylprednisolone

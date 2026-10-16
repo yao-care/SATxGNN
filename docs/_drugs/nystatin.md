@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 602
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Nystatin: الاستطباب الجديد المتوقع التهاب الفرج والمهبل (Vulvovaginitis) (مستوى الدليل L4). الاستطباب الأصلي: داء المبيضات (الجلدي، الفموي، المهبلي الفرجي)"
 ---
 
 # Nystatin

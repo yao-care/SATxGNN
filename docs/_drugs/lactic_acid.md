@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Lactic Acid: الاستطباب الجديد المتوقع التضيّق غير النمطي للأبهر (atypical coarctation of aorta) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة"
 ---
 
 # Lactic Acid

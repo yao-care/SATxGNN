@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Clemastine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 ---
 
 # Clemastine

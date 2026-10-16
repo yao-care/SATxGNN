@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Betaxolol: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، الزرق مفتوح الزاوية، ارتفاع ضغط العين (من الرسم المع…"
 ---
 
 # Betaxolol

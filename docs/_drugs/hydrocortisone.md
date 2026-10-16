@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Hydrocortisone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L5). الاستطباب الأصلي: قصور الغدة الكظرية، مرض أديسون، مرض كرون، أمراض المناعة الذاتية، سرطا…"
 ---
 
 # Hydrocortisone

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 868
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Vilanterol: الاستطباب الجديد المتوقع أمراض الرئة الانسدادية (Obstructive lung disease) (مستوى الدليل L1). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن، الربو، التهاب القصبات، انتفاخ الرئة (بحسب…"
 ---
 
 # Vilanterol

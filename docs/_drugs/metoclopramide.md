@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 553
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Metoclopramide: الاستطباب الجديد المتوقع قرحة المعدة (مستوى الدليل L4). الاستطباب الأصلي: داء الارتجاع المعدي المريئي، التهاب المريء، التهاب المريء الهضمي (من…"
 ---
 
 # Metoclopramide

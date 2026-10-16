@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 589
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Nintedanib: الاستطباب الجديد المتوقع الورم الليفي الساركومي الجلدي الناتئ (DFSP) (مستوى الدليل L4). الاستطباب الأصلي: التليف الرئوي مجهول السبب، وسرطان الرئة غير صغير الخلايا (من بيانات ا…"
 ---
 
 # Nintedanib

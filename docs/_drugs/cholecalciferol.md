@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Cholecalciferol: الاستطباب الجديد المتوقع قصور جارات الدرق العائلي المعزول الناجم عن خلل إفراز PTH (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام (بما فيها هشاشة ما بعد سن اليأس)، نقص فيتامين D، ا…"
 ---
 
 # Cholecalciferol

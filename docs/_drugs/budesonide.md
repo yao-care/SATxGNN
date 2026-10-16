@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Budesonide: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: داء كرون، التهاب الأمعاء، الربو، التهاب الأنف التحسسي (مستمد من الرسم…"
 ---
 
 # Budesonide

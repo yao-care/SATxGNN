@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Mitoxantrone: الاستطباب الجديد المتوقع أورام الرأس والعنق (head and neck cancer) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النخاعي الحاد وأنواعه الفرعية (لا يتوفر نص مؤشر معتمد في…"
 ---
 
 # Mitoxantrone

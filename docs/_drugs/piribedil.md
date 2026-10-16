@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Piribedil: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون شذوذات خارج العين) (مستوى الدليل L5). الاستطباب الأصلي: داء باركنسون / الاضطرابات الباركنسونية (بحسب الرسم المعرفي لـ TxGNN،…"
 ---
 
 # Piribedil

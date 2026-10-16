@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 434
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Imipramine: الاستطباب الجديد المتوقع اضطراب نقص الانتباه وفرط الحركة (مستوى الدليل L3). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الدستيميا، التبول الليلي (من ر…"
 ---
 
 # Imipramine

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 748
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Selegiline: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L3). الاستطباب الأصلي: مرض باركنسون (إضافة إلى الاكتئاب الجسيم واضطرابات القلق، وفق الاستطبا…"
 ---
 
 # Selegiline

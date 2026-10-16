@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 693
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Propranolol: الاستطباب الجديد المتوقع اعتلال العضلات الدانية نوع تاتيياما (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى اضطرابات نظم القلب واعتلال عضلة القلب الضخ…"
 ---
 
 # Propranolol

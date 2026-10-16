@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 685
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Prednisone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L3). الاستطباب الأصلي: الأمراض المناعية الذاتية (وغيرها من الاستطبابات المستمدة من الرسم الم…"
 ---
 
 # Prednisone

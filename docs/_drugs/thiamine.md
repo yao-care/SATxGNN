@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 809
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Thiamine: الاستطباب الجديد المتوقع فرط نشاط الغدة الدرقية (Hyperthyroidism) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة (يُعرف عمومًا باستخدامه في نقص ا…"
 ---
 
 # Thiamine

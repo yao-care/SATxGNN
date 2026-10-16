@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 825
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Topotecan: الاستطباب الجديد المتوقع سرطان الثدي الأنثوي (مستوى الدليل L3). الاستطباب الأصلي: سرطان المبيض (وأنواعه الفرعية، ومنها الورم الكيسي المحي والأورام الجر…"
 ---
 
 # Topotecan

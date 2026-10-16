@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 798
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Tenofovir Alafenamide: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV / الإيدز (بحسب رسوم المعرفة في TxGNN، ولا يتوفر نص إشارة معت…"
 ---
 
 # Tenofovir Alafenamide

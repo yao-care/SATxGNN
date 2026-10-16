@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Finasteride: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 ---
 
 # Finasteride

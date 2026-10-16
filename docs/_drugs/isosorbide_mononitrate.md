@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Isosorbide Mononitrate: الاستطباب الجديد المتوقع فرط الشعرانية (hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في بيانات الترخيص المسجلة)"
 ---
 
 # Isosorbide Mononitrate

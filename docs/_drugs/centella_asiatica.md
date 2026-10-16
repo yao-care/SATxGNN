@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 165
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Centella Asiatica: الاستطباب الجديد المتوقع الأرق (insomnia) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 ---
 
 # Centella Asiatica

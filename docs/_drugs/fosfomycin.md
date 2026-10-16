@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 375
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Fosfomycin: الاستطباب الجديد المتوقع التهاب الإحليل السيلاني (مستوى الدليل L3). الاستطباب الأصلي: التهاب المسالك البولية"
 ---
 
 # Fosfomycin

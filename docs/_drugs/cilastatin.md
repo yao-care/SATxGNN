@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 182
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cilastatin: الاستطباب الجديد المتوقع عدوى المكورات العنقودية الذهبية (مستوى الدليل L3). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، التهاب الصفاق، الالتهاب الرئوي العقدي، الته…"
 ---
 
 # Cilastatin

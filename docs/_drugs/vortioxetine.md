@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 877
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Vortioxetine: الاستطباب الجديد المتوقع الميلانخوليا (Melancholia) (مستوى الدليل L1). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، الاضطراب الاكتئابي الر…"
 ---
 
 # Vortioxetine

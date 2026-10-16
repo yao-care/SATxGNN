@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 146
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Carbimazole: الاستطباب الجديد المتوقع الانسمام الدرقي الوليدي (Neonatal thyrotoxicosis) (مستوى الدليل L3). الاستطباب الأصلي: فرط نشاط الغدة الدرقية، داء غريفز، التسمم الدرقي (نص الاستطباب غير مت…"
 ---
 
 # Carbimazole

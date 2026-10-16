@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Arginine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
 ---
 
 # Arginine

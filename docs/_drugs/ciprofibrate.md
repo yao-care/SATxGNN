@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 186
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ciprofibrate: الاستطباب الجديد المتوقع فرط بروتينات الدم الشحمية (مستوى الدليل L2). الاستطباب الأصلي: فرط ثلاثي غليسريد الدم، وفرط شحميات الدم المركّب العائلي (من الرسم ال…"
 ---
 
 # Ciprofibrate

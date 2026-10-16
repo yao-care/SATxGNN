@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 800
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tenoxicam: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل / اعتلال المفاصل (arthritic joint disease)"
 ---
 
 # Tenoxicam

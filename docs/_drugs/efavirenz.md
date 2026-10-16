@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Efavirenz: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب القططية (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية / الإيدز (من رسوم المعرفة في TxGNN، إذ…"
 ---
 
 # Efavirenz

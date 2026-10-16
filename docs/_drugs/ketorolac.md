@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 471
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Ketorolac: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L1). الاستطباب الأصلي: التهاب الملتحمة التأتبي، والحُليمي، والربيعي"
 ---
 
 # Ketorolac

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 380
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Fusidic Acid: الاستطباب الجديد المتوقع التهاب القرنية الانكشافي (Exposure Keratitis) (مستوى الدليل L4). الاستطباب الأصلي: التهابات المسالك البولية، التهاب الشعب الهوائية، حب الشباب، التهاب جر…"
 ---
 
 # Fusidic Acid

@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 531
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Mecasermin: الاستطباب الجديد المتوقع أحادية الصبغي X (monosomy X) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة عدم الحساسية لهرمون النمو، ومتلازمة لارون (من الرسم المعرفي ل…"
 ---
 
 # Mecasermin

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 563
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Minoxidil: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، وتساقط الشعر (حسب الرسم المعرفي لـ TxGNN؛ لا يتوفر ن…"
 ---
 
 # Minoxidil

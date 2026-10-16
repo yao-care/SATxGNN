@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 80
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Atomoxetine: الاستطباب الجديد المتوقع الاضطراب النمائي النوعي (مستوى الدليل L4). الاستطباب الأصلي: اضطراب نقص الانتباه وفرط الحركة (ADHD) (مصدر: رسوم الرسم المعرفي Prim…"
 ---
 
 # Atomoxetine

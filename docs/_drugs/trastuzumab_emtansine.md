@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 831
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Trastuzumab Emtansine: الاستطباب الجديد المتوقع سرطان الثدي الإيجابي لمستقبلات البروجسترون (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لـ HER2"
 ---
 
 # Trastuzumab Emtansine

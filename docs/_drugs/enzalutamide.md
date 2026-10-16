@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Enzalutamide: الاستطباب الجديد المتوقع سرطان الجهاز التناسلي الذكري (male reproductive organ cancer) — وهو ا… (مستوى الدليل L5). الاستطباب الأصلي: سرطان البروستاتا"
 ---
 
 # Enzalutamide

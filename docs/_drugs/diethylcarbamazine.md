@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 258
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Diethylcarbamazine: الاستطباب الجديد المتوقع الوذمة اللمفية المتلازمية (syndromic lymphedema) (مستوى الدليل L4). الاستطباب الأصلي: داء الفيلاريا اللمفاوي وداء الفيل (من الاستطبابات المعروفة للدواء؛ ن…"
 ---
 
 # Diethylcarbamazine

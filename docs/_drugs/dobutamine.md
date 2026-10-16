@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Dobutamine: الاستطباب الجديد المتوقع الثعلبة (Alopecia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)؛ المعروف دوائياً:…"
 ---
 
 # Dobutamine

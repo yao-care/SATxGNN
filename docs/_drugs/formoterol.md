@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 373
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Formoterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L1). الاستطباب الأصلي: انتفاخ الرئة، الربو الداخلي، الربو التحسسي (من الرسم المعرفي لـ TxGNN…"
 ---
 
 # Formoterol

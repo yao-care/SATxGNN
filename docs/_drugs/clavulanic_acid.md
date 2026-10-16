@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 193
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Clavulanic Acid: الاستطباب الجديد المتوقع التهاب الإحليل السيلاني (gonococcal urethritis) (مستوى الدليل L3). الاستطباب الأصلي: التهاب المسالك البولية، الالتهاب الرئوي الجرثومي، العدوى بالمكورات ال…"
 ---
 
 # Clavulanic Acid

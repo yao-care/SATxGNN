@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 128
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Busulfan: الاستطباب الجديد المتوقع متلازمة خلل التنسج النقوي (Myelodysplastic Syndrome) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (نص الاستطباب فارغ)"
 ---
 
 # Busulfan

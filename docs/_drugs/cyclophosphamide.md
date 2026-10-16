@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 218
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Cyclophosphamide: الاستطباب الجديد المتوقع سرطان الغدد اللمفية (Lymph Node Cancer) (مستوى الدليل L1). الاستطباب الأصلي: الفطار الفطراني (Mycosis Fungoides)، الأورام اللمفية، سرطان الثدي، ال…"
 ---
 
 # Cyclophosphamide

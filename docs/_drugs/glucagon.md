@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 394
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Glucagon: الاستطباب الجديد المتوقع متلازمة القولون العصبي (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر (لا يوجد نص دواعي استعمال في بيانات التراخيص)"
 ---
 
 # Glucagon

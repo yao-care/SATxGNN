@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Levothyroxine: الاستطباب الجديد المتوقع تضخم الغدة الدرقية المتوطن (مستوى الدليل L3). الاستطباب الأصلي: قصور الغدة الدرقية (بحسب الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص مؤشرا…"
 ---
 
 # Levothyroxine

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 813
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Tiapride: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة"
 ---
 
 # Tiapride

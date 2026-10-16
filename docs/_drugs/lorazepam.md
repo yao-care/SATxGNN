@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Lorazepam: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (trigeminal nerve neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الصرع (الحالة الصرعية، متلازمة لينوكس-غاستو، صرع الغياب)"
 ---
 
 # Lorazepam

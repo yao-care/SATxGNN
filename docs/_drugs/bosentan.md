@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 114
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Bosentan: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الشريان الرئوي، وتصلب الجلد (المصدر: الرسم المعرفي لـ TxGN…"
 ---
 
 # Bosentan

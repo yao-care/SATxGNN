@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 173
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Chlordiazepoxide: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L4). الاستطباب الأصلي: القلق، وانسحاب الكحول، وقرحة المعدة، والقولون العصبي (بحسب الرسم المع…"
 ---
 
 # Chlordiazepoxide

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 513
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Lopinavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV والإيدز (مأخوذ من الروابط العلاجية في الرسم المعرفي PrimeKG،…"
 ---
 
 # Lopinavir

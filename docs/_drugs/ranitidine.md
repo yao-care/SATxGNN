@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 710
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ranitidine: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L5). الاستطباب الأصلي: القرحة المعدية، الداء الارتجاعي المعدي المريئي، التهاب المريء، عسر ال…"
 ---
 
 # Ranitidine

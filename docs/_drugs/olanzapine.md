@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 609
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Olanzapine: الاستطباب الجديد المتوقع الرُّهاب الساحة (Agoraphobia) (مستوى الدليل L3). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب، الاكتئاب، اضطرابات القلق (استناداً إلى ال…"
 ---
 
 # Olanzapine

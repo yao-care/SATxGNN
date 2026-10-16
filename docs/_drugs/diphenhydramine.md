@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Diphenhydramine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب الملتحمة (ا…"
 ---
 
 # Diphenhydramine

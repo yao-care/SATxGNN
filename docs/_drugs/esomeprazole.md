@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 320
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Esomeprazole: الاستطباب الجديد المتوقع الارتجاع الاثني عشري المعدي (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية، مرض الارتجاع المعدي المريئي، التهاب المريء، متلاز…"
 ---
 
 # Esomeprazole

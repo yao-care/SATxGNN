@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Irbesartan: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الكلوي الوعائي الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، واعتلال الكلية السكري (مصدره الرسم المعرفي لـ TxGNN،…"
 ---
 
 # Irbesartan

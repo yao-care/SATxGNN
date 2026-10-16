@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 473
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Lacosamide: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (يُستدل عليه من الأدبيات: نوبات الصرع ال…"
 ---
 
 # Lacosamide

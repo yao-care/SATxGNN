@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 233
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Daunorubicin: الاستطباب الجديد المتوقع لمفومة هودجكين (مستوى الدليل L3). الاستطباب الأصلي: اللوكيميا اللمفاوية الحادة واللوكيميا النقوية الحادة (لا يتوفر نص است…"
 ---
 
 # Daunorubicin

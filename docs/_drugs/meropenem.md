@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Meropenem: الاستطباب الجديد المتوقع التهاب المفاصل البكتيري (مستوى الدليل L4). الاستطباب الأصلي: التهابات الزائفة الزنجارية، التهاب السحايا البكتيري، التهاب الصفاق (ب…"
 ---
 
 # Meropenem

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 771
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Streptokinase: الاستطباب الجديد المتوقع احتشاء عضلة القلب (Myocardial infarction) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في البيانات (نصوص المؤشرات في التراخيص فارغة)"
 ---
 
 # Streptokinase

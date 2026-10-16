@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 148
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Carboplatin: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L2). الاستطباب الأصلي: سرطان المبيض (بما في ذلك الأورام الغدية المبيضية وأورام الخلايا الجرث…"
 ---
 
 # Carboplatin

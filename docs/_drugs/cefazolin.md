@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 154
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Cefazolin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى الخمجي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي الجرثومي، التهاب الأقنية الصفراوية، التهاب الشغاف، ال…"
 ---
 
 # Cefazolin

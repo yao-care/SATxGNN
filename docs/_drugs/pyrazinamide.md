@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pyrazinamide: الاستطباب الجديد المتوقع التهاب الأذن الوسطى المعدي (مستوى الدليل L5). الاستطباب الأصلي: السل الرئوي، السل السحائي (التهاب السحايا السلّي)"
 ---
 
 # Pyrazinamide

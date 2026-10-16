@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tranylcypromine: الاستطباب الجديد المتوقع الصَّعَر الانتيابي الحميد في الرضع (Benign paroxysmal torticollis of… (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب / اضطراب الاكتئاب الجسيم / اض…"
 ---
 
 # Tranylcypromine

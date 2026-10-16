@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pembrolizumab: الاستطباب الجديد المتوقع تليف اللثة (Fibromatosis, Gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا، سرطان الرئة، سرطان الجلد الميلانيني الن…"
 ---
 
 # Pembrolizumab

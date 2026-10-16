@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Maraviroc: الاستطباب الجديد المتوقع الأورام الصماوية المتعددة (multiple endocrine neoplasia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمَّعة (المعروف عموماً: عدوى HIV-1)"
 ---
 
 # Maraviroc

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 683
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Pravastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي المتماثل الزيجوت (مستوى الدليل L4). الاستطباب الأصلي: اضطرابات شحوم الدم وتصلب الشرايين والسكتة الدماغية (مأخوذة من الرسم ا…"
 ---
 
 # Pravastatin

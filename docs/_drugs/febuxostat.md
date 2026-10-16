@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 340
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Febuxostat: الاستطباب الجديد المتوقع نقص حمض اليوريك الكلوي (hypouricemia, renal) (مستوى الدليل L4). الاستطباب الأصلي: فرط حمض اليوريك (مصنَّف في قاعدة المعرفة على أنه مفهوم قديم)"
 ---
 
 # Febuxostat

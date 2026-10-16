@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Avibactam: الاستطباب الجديد المتوقع الالتهاب الرئوي العقدي (Streptococcal pneumonia) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الحويضة والكلية (حسب رسم المعرفة في TxGNN، إذ لا يتوفر نص استط…"
 ---
 
 # Avibactam

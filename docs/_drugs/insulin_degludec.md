@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 439
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Insulin Degludec: الاستطباب الجديد المتوقع داء السكري من النوع الأول (مستوى الدليل L1). الاستطباب الأصلي: داء السكري؛ الحماض الكيتوني السكري (لا يتوفر نص استطباب معتمد في تراخ…"
 ---
 
 # Insulin Degludec

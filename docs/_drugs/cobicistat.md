@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Cobicistat: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV) / الإيدز"
 ---
 
 # Cobicistat

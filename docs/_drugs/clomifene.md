@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Clomifene: الاستطباب الجديد المتوقع اضطراب التمايز الجنسي 46,XY الناتج عن خلل في تصنيع الستيرويدات الخصوية (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء (وفق الرسم المعرفي لـ TxGNN، إذ لا يتو…"
 ---
 
 # Clomifene

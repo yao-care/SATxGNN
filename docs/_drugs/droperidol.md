@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 283
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Droperidol: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر (نص الاستطباب في الترخيص فارغ)"
 ---
 
 # Droperidol

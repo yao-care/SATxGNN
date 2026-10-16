@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 534
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: بطانة الرحم المهاجرة، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس (م…"
 ---
 
 # Medroxyprogesterone Acetate

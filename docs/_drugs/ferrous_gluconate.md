@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Ferrous Gluconate: الاستطباب الجديد المتوقع متلازمة بلامر-فينسون (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر الدم لدى الخدّج، وفقر ال…"
 ---
 
 # Ferrous Gluconate

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 576
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Nalidixic Acid: الاستطباب الجديد المتوقع التهاب الملتحمة (Conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 ---
 
 # Nalidixic Acid

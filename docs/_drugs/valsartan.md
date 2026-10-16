@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Valsartan: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)"
 ---
 
 # Valsartan

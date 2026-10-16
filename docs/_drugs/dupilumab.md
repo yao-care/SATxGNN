@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 285
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Dupilumab: الاستطباب الجديد المتوقع التهاب القصبات (مستوى الدليل L3). الاستطباب الأصلي: التهاب الجلد التأتبي (الإكزيما التأتبية)"
 ---
 
 # Dupilumab

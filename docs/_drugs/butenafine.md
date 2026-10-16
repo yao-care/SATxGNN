@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 129
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Butenafine: الاستطباب الجديد المتوقع داء المبيضات الجلدي (مستوى الدليل L4). الاستطباب الأصلي: القدم الرياضي (سعفة القدم)، سعفة الجسم، عدوى السعفة، النخالية المبرقش…"
 ---
 
 # Butenafine

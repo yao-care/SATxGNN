@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Flupentixol: الاستطباب الجديد المتوقع حثل الشبكية مع أو بدون شذوذات خارج العين (مستوى الدليل L5). الاستطباب الأصلي: الفصام (من رسم المعرفة PrimeKG، إذ إن نصوص الاستطباب في تراخيص هيئة ا…"
 ---
 
 # Flupentixol

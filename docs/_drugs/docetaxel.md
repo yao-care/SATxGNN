@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Docetaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير ذي الخلايا الصغيرة، سرطان البروستاتا، سرطان الرأس وال…"
 ---
 
 # Docetaxel

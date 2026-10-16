@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 636
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pegaspargase: الاستطباب الجديد المتوقع ابيضاض/لمفوما الخلايا اللمفاوية السلفية (مستوى الدليل L1). الاستطباب الأصلي: سرطان الدم اللمفاوي الحاد (ALL)، بما فيه ALL من الخلايا التائية السلف…"
 ---
 
 # Pegaspargase

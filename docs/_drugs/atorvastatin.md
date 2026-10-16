@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 81
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Atorvastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: ارتفاع الدهون الثلاثية، السكتة الدماغية، التصلب العصيدي، فرط كوليسترو…"
 ---
 
 # Atorvastatin

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 134
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Calcipotriol: الاستطباب الجديد المتوقع التقرن الدهني (seborrheic keratosis) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص المؤشرات فارغة)"
 ---
 
 # Calcipotriol

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 477
 evidence_level: L2
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Lamotrigine: الاستطباب الجديد المتوقع ألم العصب الثلاثي التوائم (Trigeminal Neuralgia) (مستوى الدليل L2). الاستطباب الأصلي: الصرع، والصرع الجزئي، ومتلازمة لينوكس-غاستو"
 ---
 
 # Lamotrigine

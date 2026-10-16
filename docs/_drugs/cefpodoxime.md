@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 157
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Cefpodoxime: الاستطباب الجديد المتوقع قابلية الإصابة بالفصال العظمي (Osteoarthritis Susceptibility) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص المؤشر فارغ في جميع التراخيص …"
 ---
 
 # Cefpodoxime

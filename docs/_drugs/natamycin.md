@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 580
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Natamycin: الاستطباب الجديد المتوقع داء المبيضّات الفرجي المهبلي (مستوى الدليل L1). الاستطباب الأصلي: قرحة القرنية الفطرية"
 ---
 
 # Natamycin

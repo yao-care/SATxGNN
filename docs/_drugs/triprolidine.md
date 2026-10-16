@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 843
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Triprolidine: الاستطباب الجديد المتوقع الشرى التحسسي (allergic urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (إضافة إلى التهاب الأنف الحركي الوعائي ونزلات ال…"
 ---
 
 # Triprolidine

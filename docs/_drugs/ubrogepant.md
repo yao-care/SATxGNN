@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 852
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Ubrogepant: الاستطباب الجديد المتوقع الصداع النصفي مع الأورة الجذعية (مستوى الدليل L3). الاستطباب الأصلي: الصداع النصفي (مع الأورة أو بدونها)"
 ---
 
 # Ubrogepant

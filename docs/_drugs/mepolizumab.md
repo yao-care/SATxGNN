@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 539
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Mepolizumab: الاستطباب الجديد المتوقع نقص الصفيحات الدموية بسبب التدمير المناعي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي اليوزيني / كثرة اليوزينيات الرئوية (من الرسم المعرفي…"
 ---
 
 # Mepolizumab

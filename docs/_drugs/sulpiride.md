@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 780
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Sulpiride: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون تشوهات خارج العين) (مستوى الدليل L4). الاستطباب الأصلي: الفصام"
 ---
 
 # Sulpiride

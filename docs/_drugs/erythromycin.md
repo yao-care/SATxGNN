@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 318
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Erythromycin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L4). الاستطباب الأصلي: العدوى الجرثومية (التهاب الأذن الوسطى، الالتهاب الرئوي، التهاب الملتح…"
 ---
 
 # Erythromycin

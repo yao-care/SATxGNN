@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 255
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Diazepam: الاستطباب الجديد المتوقع الأرق (insomnia) (مستوى الدليل L4). الاستطباب الأصلي: الصرع، الحالة الصرعية، القلق، انسحاب الكحول، الكزاز (من الرسم المعرفي…"
 ---
 
 # Diazepam

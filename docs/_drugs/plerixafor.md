@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Plerixafor: الاستطباب الجديد المتوقع الورم النقوي الخامل (مستوى الدليل L5). الاستطباب الأصلي: ورم الخلايا البلازمية (الورم النقوي)"
 ---
 
 # Plerixafor

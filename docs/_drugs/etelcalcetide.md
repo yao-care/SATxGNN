@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 323
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Etelcalcetide: الاستطباب الجديد المتوقع فرط فوسفات الدم (Hyperphosphatemia) (مستوى الدليل L4). الاستطباب الأصلي: فرط نشاط جارات الدرق (Hyperparathyroidism)"
 ---
 
 # Etelcalcetide

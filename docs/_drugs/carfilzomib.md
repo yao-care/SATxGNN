@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Carfilzomib: الاستطباب الجديد المتوقع الميلانوما (Melanoma) — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أم… (مستوى الدليل L5). الاستطباب الأصلي: الورم النخاعي البلازمي (Plasma cell myeloma)"
 ---
 
 # Carfilzomib

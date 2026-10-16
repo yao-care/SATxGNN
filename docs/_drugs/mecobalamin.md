@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Mecobalamin: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (Sclerosing Cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر المعتمد في ترخيص هيئة الغذاء والدواء السعودية…"
 ---
 
 # Mecobalamin

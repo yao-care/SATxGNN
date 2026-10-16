@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 739
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Rutin: الاستطباب الجديد المتوقع داء الثدي الليفي الكيسي (breast fibrocystic disease) (مستوى الدليل L5). الاستطباب الأصلي: نقص حمض الأسكوربيك، الإسقربوط"
 ---
 
 # Rutin

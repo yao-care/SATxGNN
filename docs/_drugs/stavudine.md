@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 770
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Stavudine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV والإيدز (بحسب الاستطبابات الأصلية في الرسم الم…"
 ---
 
 # Stavudine

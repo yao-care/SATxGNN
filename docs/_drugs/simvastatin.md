@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 759
 evidence_level: L1
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Simvastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: فرط شحوم الدم (فرط الغليسيريدات الثلاثية، فرط الدهون المختلط العائلي،…"
 ---
 
 # Simvastatin

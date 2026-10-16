@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Nimodipine: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي المتماثل الزيجوت (مستوى الدليل L5). الاستطباب الأصلي: نزيف تحت العنكبوتية (بما في ذلك الناتج عن تمزق أم الدم الدماغية)"
 ---
 
 # Nimodipine

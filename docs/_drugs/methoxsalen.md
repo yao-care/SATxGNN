@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 548
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Methoxsalen: الاستطباب الجديد المتوقع الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) (مستوى الدليل L4). الاستطباب الأصلي: الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق"
 ---
 
 # Methoxsalen

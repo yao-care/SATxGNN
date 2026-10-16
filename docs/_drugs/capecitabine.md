@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 141
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Capecitabine: الاستطباب الجديد المتوقع سرطان المعدة الغدي الأنبوبي (مستوى الدليل L1). الاستطباب الأصلي: سرطان المعدة، وانتقالات سرطان القولون (بحسب الاستطبابات الأصلية المست…"
 ---
 
 # Capecitabine

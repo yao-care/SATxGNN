@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 872
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Vincristine: الاستطباب الجديد المتوقع الورم العقدي العصبي الأرومي (Ganglioneuroblastoma) (مستوى الدليل L3). الاستطباب الأصلي: اللوكيميا الليمفاوية الحادة، وأورام الغدد الليمفاوية (هودجكين وغير هو…"
 ---
 
 # Vincristine

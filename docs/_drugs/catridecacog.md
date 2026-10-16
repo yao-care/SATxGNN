@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Catridecacog: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (primary release disorder of pl… (مستوى الدليل L5). الاستطباب الأصلي: نقص العامل الثالث عشر، الوحدة A (Factor XIII A-subun…"
 ---
 
 # Catridecacog

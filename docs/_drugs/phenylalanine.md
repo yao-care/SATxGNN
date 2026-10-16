@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Phenylalanine: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (Sclerosing Cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب معتمد في بيانات التراخيص)"
 ---
 
 # Phenylalanine

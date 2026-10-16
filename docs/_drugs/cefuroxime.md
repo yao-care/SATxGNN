@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cefuroxime: الاستطباب الجديد المتوقع عدوى المسالك البولية (مستوى الدليل L3). الاستطباب الأصلي: التهاب الأذن الوسطى المعدي، والعدوى العقدية، والالتهاب الرئوي البكتير…"
 ---
 
 # Cefuroxime

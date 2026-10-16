@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 130
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cabazitaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في البيانات المجمَّعة (تراخيص الهيئة العامة للغذاء والدواء…"
 ---
 
 # Cabazitaxel

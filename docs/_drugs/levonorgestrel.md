@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 498
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Levonorgestrel: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام (من قاعدة معرفة TxGNN؛ ن…"
 ---
 
 # Levonorgestrel

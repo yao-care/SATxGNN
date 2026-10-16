@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 138
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Camphor: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 ---
 
 # Camphor

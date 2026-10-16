@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 723
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Rifaximin: الاستطباب الجديد المتوقع داء المبيضّات الفموي (مستوى الدليل L4). الاستطباب الأصلي: اعتلال الدماغ الكبدي، الغيبوبة الكبدية"
 ---
 
 # Rifaximin

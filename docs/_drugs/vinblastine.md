@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 871
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Vinblastine: الاستطباب الجديد المتوقع الساركوما العضلية المخططة (مستوى الدليل L3). الاستطباب الأصلي: فطار الفطريات واللمفوما التائية الجلدية الأولية، لمفوما هودجكن، اللمف…"
 ---
 
 # Vinblastine

@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 284
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Duloxetine: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (مستوى الدليل L2). الاستطباب الأصلي: الاكتئاب أحادي القطب، اضطراب الاكتئاب الجسيم، اضطرابات القلق، الألم ا…"
 ---
 
 # Duloxetine

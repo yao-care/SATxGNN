@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 190
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Citric Acid: الاستطباب الجديد المتوقع أمراض المعدة (stomach disease) (مستوى الدليل L4). الاستطباب الأصلي: عسر الهضم، اضطراب الصداع (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص ا…"
 ---
 
 # Citric Acid

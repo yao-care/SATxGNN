@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 11
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Abacavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV) والإيدز (من الرسم المعرفي للنموذ…"
 ---
 
 # Abacavir

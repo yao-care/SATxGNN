@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Rivaroxaban: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات المعتمدة في تراخيص الهيئة العامة للغذاء والد…"
 ---
 
 # Rivaroxaban

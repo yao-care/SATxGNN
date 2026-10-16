@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Pantothenic Acid: الاستطباب الجديد المتوقع فقر الدم الناتج عن نقص حمض الفوليك (الترتيب الرابع في التنبؤات) (مستوى الدليل L4). الاستطباب الأصلي: نقص حمض الأسكوربيك (الإسقربوط)"
 ---
 
 # Pantothenic Acid

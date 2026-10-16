@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 337
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Famciclovir: الاستطباب الجديد المتوقع الألم العصبي بعد العدوى (post-infectious neuralgia) (مستوى الدليل L4). الاستطباب الأصلي: الهربس النطاقي (Herpes zoster)"
 ---
 
 # Famciclovir

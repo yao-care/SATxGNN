@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب الفرج والمهبل الناجم عن المشعرات (مستوى الدليل L5). الاستطباب الأصلي: داء المبيضّات الفرجي المهبلي (مأخوذ من رسوم المعرفة في النموذج، إذ لا…"
 ---
 
 # Fenticonazole

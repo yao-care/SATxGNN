@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Pentosan Polysulfate: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (primary release disorder of pl… (مستوى الدليل L5). الاستطباب الأصلي: التهاب المثانة الخلالي"
 ---
 
 # Pentosan Polysulfate

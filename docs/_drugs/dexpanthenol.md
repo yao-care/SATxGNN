@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 252
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Dexpanthenol: الاستطباب الجديد المتوقع الطفح الجلدي (Exanthem) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الجلد، الأمراض الجلدية، الشلل المعوي، انسداد الأمعاء، خزل المع…"
 ---
 
 # Dexpanthenol

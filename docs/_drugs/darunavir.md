@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 230
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Darunavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV / الإيدز (من الرسم المعرفي PrimeKG، إذ لا يوجد نص استطباب في…"
 ---
 
 # Darunavir

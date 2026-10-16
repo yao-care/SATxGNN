@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Palivizumab: الاستطباب الجديد المتوقع ورم حميد في اللسان (Benign neoplasm of tongue) (مستوى الدليل L5). الاستطباب الأصلي: عدوى الفيروس المخلوي التنفسي (RSV)"
 ---
 
 # Palivizumab

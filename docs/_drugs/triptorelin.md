@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 844
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Triptorelin: الاستطباب الجديد المتوقع البلوغ المبكر (Precocious Puberty) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر (حقول نص المؤشر في جميع التراخيص فارغة)"
 ---
 
 # Triptorelin

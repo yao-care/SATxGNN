@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 733
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ropinirole: الاستطباب الجديد المتوقع اضطراب فرط الحركة ونقص الانتباه (ADHD) (مستوى الدليل L3). الاستطباب الأصلي: متلازمة تململ الساقين، داء باركنسون"
 ---
 
 # Ropinirole

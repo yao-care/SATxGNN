@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Paromomycin: الاستطباب الجديد المتوقع تليّف الكبد المرتبط بالنحاس مجهول السبب (مستوى الدليل L5). الاستطباب الأصلي: الغيبوبة الكبدية / اعتلال الدماغ الكبدي (من رسم المعرفة في TxGNN، ولي…"
 ---
 
 # Paromomycin

@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Telaprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى التهاب الكبد C المزمنة (مستمدة من الاستطبابات في قاعدة المعرفة،…"
 ---
 
 # Telaprevir

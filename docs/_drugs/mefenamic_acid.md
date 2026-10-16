@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 535
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Mefenamic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في بيانات التراخيص السعودية (الدواء مضاد التهاب غير ستيرويدي…"
 ---
 
 # Mefenamic Acid

@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 734
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Ropivacaine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (نصوص الاستطباب فارغة)؛ يُعرف ا…"
 ---
 
 # Ropivacaine

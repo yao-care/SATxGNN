@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Idoxuridine: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: التهاب القرنية الناتج عن فيروس الهربس البسيط"
 ---
 
 # Idoxuridine

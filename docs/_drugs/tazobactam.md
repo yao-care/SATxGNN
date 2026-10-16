@@ -5,6 +5,8 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 788
 evidence_level: L1
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Tazobactam: الاستطباب الجديد المتوقع الالتهاب الرئوي (pneumonia) (مستوى الدليل L1). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، التهاب الصفاق، التهاب الزائدة الدودية، عدوى…"
 ---
 
 # Tazobactam

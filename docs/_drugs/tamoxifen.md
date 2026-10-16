@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 785
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tamoxifen: الاستطباب الجديد المتوقع مرض باجيت الثديي (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي لدى الإناث (سرطان الثدي القنوي الغازي، السرطان الغدي القن…"
 ---
 
 # Tamoxifen

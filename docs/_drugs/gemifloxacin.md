@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Gemifloxacin: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسيلات (مستوى الدليل L5). الاستطباب الأصلي: التهاب رئوي جرثومي (بما في ذلك العقدي والكلبسيلة والميكوبلازما والكلا…"
 ---
 
 # Gemifloxacin

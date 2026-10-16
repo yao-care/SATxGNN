@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 261
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Dihydralazine: الاستطباب الجديد المتوقع أمراض القلب (Heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (يُعرف تاريخيًا باستخدامه لعلاج ارتفاع ضغ…"
 ---
 
 # Dihydralazine

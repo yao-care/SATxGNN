@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 47
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Amantadine: الاستطباب الجديد المتوقع التهاب النخاع (Myelitis) (مستوى الدليل L4). الاستطباب الأصلي: داء باركنسون (مستمد من الرسم المعرفي للنموذج؛ لا يوجد نص مؤشر معتمد ف…"
 ---
 
 # Amantadine

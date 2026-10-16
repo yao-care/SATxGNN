@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 198
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Clobazam: الاستطباب الجديد المتوقع متلازمة الصرع المرتبط بالعدوى الحموية (FIRES) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة لينوكس-غاستو (بحسب رسم المعرفة PrimeKG؛ لا يتوفر نص استطباب ف…"
 ---
 
 # Clobazam

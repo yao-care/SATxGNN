@@ -5,6 +5,8 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Fidaxomicin: الاستطباب الجديد المتوقع متلازمة الجلد المسلوق العنقودية (Staphylococcal scalded skin syndrome) (مستوى الدليل L5). الاستطباب الأصلي: التهاب القولون بالمطثية العسيرة، التهاب الأمعاء والقو…"
 ---
 
 # Fidaxomicin

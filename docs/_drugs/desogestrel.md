@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 244
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Desogestrel: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L3). الاستطباب الأصلي: منع الحمل (لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية)"
 ---
 
 # Desogestrel

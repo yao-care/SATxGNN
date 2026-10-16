@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 603
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Obeticholic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية (تشير الأدبيات إلى التهاب الصفراء…"
 ---
 
 # Obeticholic Acid

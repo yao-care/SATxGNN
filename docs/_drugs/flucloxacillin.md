@@ -5,6 +5,8 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 357
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Flucloxacillin: الاستطباب الجديد المتوقع التهاب الملتحمة (conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ في جميع التراخيص)"
 ---
 
 # Flucloxacillin
