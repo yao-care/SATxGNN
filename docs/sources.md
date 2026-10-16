@@ -36,7 +36,7 @@ description: "مصادر البيانات التي تقوم عليها SATxGNN: 
 
 لكل مصدر ترخيصه الخاص — يُرجى التحقق منه قبل الاستشهاد:
 
-- **TxGNN**: للاستخدام الأكاديمي؛ يُستشهد بـ Huang et al. (2023)
+- **TxGNN**: للاستخدام الأكاديمي؛ يُستشهد بـ Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: بيانات عامة من المعاهد الوطنية الأمريكية للصحة (NIH)
 - **DrugBank**: الاستخدام غير التجاري خاضع لشروط ترخيصها
 - **SFDA**: خاضع لشروط البيانات المفتوحة للجهة التنظيمية في المملكة العربية السعودية
@@ -55,7 +55,7 @@ description: "مصادر البيانات التي تقوم عليها SATxGNN: 
 
 ## الاستشهاد الأكاديمي
 
-> Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
+> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
 > [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
