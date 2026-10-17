@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Cilazapril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجة (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (حسب شبكة المعرفة TxGNN، إذ لا يتوفر نص استطباب…"
 monitor_inn: "CILAZAPRIL"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
 ---
 
 # Cilazapril

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Minoxidil: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، وتساقط الشعر (حسب الرسم المعرفي لـ TxGNN؛ لا يتوفر ن…"
 monitor_inn: "MINOXIDIL"
-predicted_indications: ["congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "primary hereditary glaucoma"]
+predicted_indications: ["congenital hypotrichosis milia", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection"]
 ---
 
 # Minoxidil
