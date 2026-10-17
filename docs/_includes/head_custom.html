@@ -168,9 +168,9 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "WebSite",
       "@id": "https://satxgnn.yao.care/#website",
-      "name": "SATxGNN Drug Repurposing Evidence Reports",
+      "name": "تقارير أدلة إعادة توظيف الأدوية من SATxGNN",
       "url": "https://satxgnn.yao.care/",
-      "description": "AI-predicted new indications for medicines approved in Saudi Arabia, with clinical evidence reports",
+      "description": "استطبابات جديدة يتوقعها الذكاء الاصطناعي للأدوية المعتمدة في المملكة العربية السعودية، مع تقارير الأدلة السريرية",
       "isPartOf": {
         "@id": "https://satxgnn.yao.care/#software"
       },
@@ -181,8 +181,8 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "WebPage",
       "@id": "https://satxgnn.yao.care/#article",
-      "headline": "Drug Repurposing: From Data to Evidence",
-      "description": "AI-predicted new indications for medicines approved in Saudi Arabia, with clinical trial and literature evidence reports",
+      "headline": "إعادة توظيف الأدوية: من البيانات إلى الأدلة",
+      "description": "استطبابات جديدة يتوقعها الذكاء الاصطناعي للأدوية المعتمدة في المملكة العربية السعودية، مع تقارير أدلة من التجارب السريرية والأدبيات",
       "author": {
         "@id": "https://www.yao.care/#organization"
       },
@@ -219,8 +219,8 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "AboutPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "About SATxGNN",
-      "description": "About the SATxGNN drug repurposing evidence reports: project overview, data sources and how to cite",
+      "name": "حول SATxGNN",
+      "description": "حول تقارير أدلة إعادة توظيف الأدوية في SATxGNN: نظرة عامة على المشروع ومصادر البيانات وطريقة الاستشهاد",
       "url": "{{ page.url | absolute_url }}",
       "datePublished": "2026-02-19",
       "dateModified": "2026-02-19",
@@ -234,26 +234,26 @@ window.TXGNN_ANALYTICS = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is drug repurposing?",
+          "name": "ما هي إعادة توظيف الأدوية؟",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Drug repurposing is the discovery of new therapeutic uses for existing medicines. Developing a new drug takes 10-15 years and USD 1-2 billion, whereas repurposing takes 3-5 years and USD 100-300 million, and human safety data already exist."
+            "text": "إعادة توظيف الأدوية هي اكتشاف استخدامات علاجية جديدة لأدوية موجودة. يستغرق تطوير دواء جديد 10-15 سنة ويكلف 1-2 مليار دولار، بينما تستغرق إعادة التوظيف 3-5 سنوات وتكلف 100-300 مليون دولار، كما تتوفر بيانات السلامة على البشر مسبقًا."
           }
         },
         {
           "@type": "Question",
-          "name": "What is TxGNN?",
+          "name": "ما هو TxGNN؟",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "TxGNN is a deep learning model developed by a Harvard Medical School team. It integrates a knowledge graph of 17,080 nodes and uses a graph neural network to predict new drug-disease associations."
+            "text": "TxGNN نموذج تعلّم عميق طوّره فريق من كلية الطب بجامعة هارفارد. يستخدم شبكة عصبية بيانية مدرّبة على رسم بياني معرفي طبي حيوي يغطي 17,080 مرضًا للتنبؤ بعلاقات جديدة بين الأدوية والأمراض."
           }
         },
         {
           "@type": "Question",
-          "name": "What data sources are used?",
+          "name": "ما مصادر البيانات المستخدمة؟",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This platform integrates public data sources including TxGNN (AI predictions), ClinicalTrials.gov (clinical trials), PubMed (literature), DrugBank (drug information), SFDA (marketing authorisations in Saudi Arabia) and DDInter (drug interactions)."
+            "text": "تدمج هذه المنصة مصادر بيانات عامة منها TxGNN (تنبؤات الذكاء الاصطناعي) وClinicalTrials.gov (التجارب السريرية) وPubMed (الأدبيات) وDrugBank (معلومات الأدوية) وSFDA (تسجيلات الأدوية في المملكة العربية السعودية) وDDInter (التداخلات الدوائية)."
           }
         }
       ]
@@ -289,32 +289,32 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "HowTo",
       "@id": "{{ page.url | absolute_url }}#howto",
-      "name": "SATxGNN Prediction and Validation Methods",
-      "description": "The full workflow from AI prediction to evidence validation",
+      "name": "طرق التنبؤ والتحقق في SATxGNN",
+      "description": "المسار الكامل من تنبؤ الذكاء الاصطناعي إلى التحقق من الأدلة",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "TxGNN prediction",
-          "text": "Drug-disease relationships are predicted with a knowledge graph and a graph neural network, using a minimum prediction score of 99%."
+          "name": "تنبؤ TxGNN",
+          "text": "تمنح الشبكة العصبية البيانية في TxGNN درجةً لكل زوج من الدواء والمرض. تُستبعد الاستطبابات وموانع الاستعمال المسجّلة مسبقًا للدواء في الرسم البياني المعرفي، ولا تُعرض إلا التنبؤات التي تبلغ درجتها 0.99 على الأقل."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Evidence collection",
-          "text": "For each predicted pair, evidence is collected automatically from ClinicalTrials.gov, PubMed, DrugBank, SFDA and other sources."
+          "name": "جمع الأدلة",
+          "text": "لكل زوج متوقع تُجمع الأدلة تلقائيًا من ClinicalTrials.gov وPubMed وDrugBank وSFDA ومصادر أخرى."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Evidence grading",
-          "text": "Based on the collected evidence, each prediction is graded L1-L5: L1 is the highest (multiple Phase 3 RCTs) and L5 is model prediction only."
+          "name": "تصنيف الأدلة",
+          "text": "بناءً على الأدلة المجمعة يُصنَّف كل تنبؤ من L1 إلى L5: L1 هو الأعلى (عدة تجارب عشوائية من المرحلة 3) وL5 تنبؤ النموذج فقط."
         },
         {
           "@type": "HowToStep",
           "position": 4,
-          "name": "Decision recommendation",
-          "text": "Based on the evidence level and other factors, a Go, Proceed, Consider, Explore or Hold recommendation is given."
+          "name": "توصية القرار",
+          "text": "بناءً على مستوى الدليل وعوامل أخرى تُقدَّم توصية Go أو Proceed أو Consider أو Explore أو Hold."
         }
       ]
     },
@@ -349,15 +349,15 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "Drug Reports - SATxGNN",
-      "description": "All SATxGNN drug evidence reports",
+      "name": "تقارير الأدوية - SATxGNN",
+      "description": "جميع تقارير أدلة الأدوية في SATxGNN",
       "url": "{{ page.url | absolute_url }}"
     },
     {
       "@type": "ItemList",
       "@id": "{{ page.url | absolute_url }}#itemlist",
-      "name": "SATxGNN Drug Evidence Reports",
-      "description": "Drug repurposing evidence reports for medicines approved in Saudi Arabia",
+      "name": "تقارير أدلة الأدوية في SATxGNN",
+      "description": "تقارير أدلة إعادة توظيف الأدوية المعتمدة في المملكة العربية السعودية",
       "numberOfItems": {{ site.drugs.size }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
@@ -374,7 +374,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Drug Reports",
+          "name": "تقارير الأدوية",
           "item": "{{ page.url | absolute_url }}"
         }
       ]
@@ -392,7 +392,7 @@ window.TXGNN_ANALYTICS = {
     {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
-      "name": "Health News Monitoring - SATxGNN",
+      "name": "رصد الأخبار الصحية - SATxGNN",
       "description": {{ page.description | default: 'Automated monitoring of the latest health news on the drugs and indications covered' | jsonify }},
       "url": "{{ page.url | absolute_url }}",
       "isPartOf": {
@@ -400,7 +400,7 @@ window.TXGNN_ANALYTICS = {
       },
       "about": {
         "@type": "Thing",
-        "name": "Health News"
+        "name": "أخبار صحية"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -420,7 +420,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Health News",
+          "name": "أخبار صحية",
           "item": "{{ page.url | absolute_url }}"
         }
       ]
@@ -472,7 +472,7 @@ window.TXGNN_ANALYTICS = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Health News",
+          "name": "أخبار صحية",
           "item": "https://satxgnn.yao.care/news/"
         },
         {
