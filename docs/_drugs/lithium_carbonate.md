@@ -6,9 +6,9 @@ nav_order: 507
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lithium Carbonate: الاستطباب الجديد المتوقع خلل التنسج الغضروفي الكاذب (Pseudoachondroplasia) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب ثنائي القطب (وفق الرسم المعرفي PrimeKG؛ لا يوجد نص استطباب في…"
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
+description: "Lithium Carbonate: الاستطباب الجديد المتوقع خلل التنسج الغضروفي الكاذب (Pseudoachondroplasia) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب ثنائي القطب (وفق الرسم المعرفي PrimeKG؛ لا يوجد نص استطباب في"
 ---
 
 # Lithium Carbonate

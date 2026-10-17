@@ -6,9 +6,9 @@ nav_order: 673
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Potassium Bicarbonate: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (Gastroduodenitis) (مستوى الدليل L5). الاستطباب الأصلي: القرحة الهضمية، الارتجاع المعدي المريئي، التهاب المريء، عسر الهضم، ون…"
 monitor_inn: "potassium bicarbonate"
 predicted_indications: ["gastroduodenitis"]
+description: "Potassium Bicarbonate: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (Gastroduodenitis) (مستوى الدليل L5). الاستطباب الأصلي: القرحة الهضمية، الارتجاع المعدي المريئي، التهاب المريء، عسر الهضم، ون"
 ---
 
 # Potassium Bicarbonate
