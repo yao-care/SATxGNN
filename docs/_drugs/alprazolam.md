@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Alprazolam: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L4). الاستطباب الأصلي: اضطراب القلق، القلق، اضطراب القلق والاكتئاب المختلط"
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Alprazolam

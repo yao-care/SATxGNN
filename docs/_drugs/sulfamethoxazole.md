@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Sulfamethoxazole: الاستطباب الجديد المتوقع التهاب الملتحمة المعدي الحاد (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأذن الوسطى المعدي، النوكارديا، التوكسوبلازما، داء العلق، داء…"
-monitor_inn: "SULFAMETHOXAZOLE"
-predicted_indications: ["acute contagious conjunctivitis"]
 ---
 
 # Sulfamethoxazole

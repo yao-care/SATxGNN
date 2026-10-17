@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ampicillin: الاستطباب الجديد المتوقع التهاب الحنجرة (مستوى الدليل L4). الاستطباب الأصلي: التهابات بكتيرية (التهاب المسالك البولية، التهاب الأذن الوسطى، الالته…"
 monitor_inn: "AMPICILLIN"
-predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Adenosine: الاستطباب الجديد المتوقع obsolete bundle branch block (مستوى الدليل L5). الاستطباب الأصلي: التسرع البطيني (ventricular tachycardia)"
 monitor_inn: "ADENOSINE"
-predicted_indications: ["obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia"]
+predicted_indications: ["obsolete bundle branch block"]
 ---
 
 # Adenosine

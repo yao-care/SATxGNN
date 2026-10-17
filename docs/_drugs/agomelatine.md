@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Agomelatine: الاستطباب الجديد المتوقع الصعر الانتيابي الحميد عند الرضع (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، اضطراب الاكتئاب الجسيم…"
 monitor_inn: "AGOMELATINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "neurotic depression", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 ---
 
 # Agomelatine

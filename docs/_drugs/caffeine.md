@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Caffeine: الاستطباب الجديد المتوقع صداع النوم (Hypnic Headache) (مستوى الدليل L5). الاستطباب الأصلي: الصداع النصفي، والصداع العنقودي، والتهاب الأنف التحسسي، ونزلات البرد،…"
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "hypnic headache (disease)", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "vein disease"]
 ---
 
 # Caffeine

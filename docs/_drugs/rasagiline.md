@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Rasagiline: الاستطباب الجديد المتوقع الانحلال العصبي المرتبط بـ PLA2G6 (مستوى الدليل L5). الاستطباب الأصلي: مرض باركنسون (والمتلازمات الباركنسونية المرتبطة به)"
 monitor_inn: "RASAGILINE"
-predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
+predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 ---
 
 # Rasagiline

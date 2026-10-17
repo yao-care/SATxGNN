@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-15
 description: "Sertraline: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي ل…"
 monitor_inn: "SERTRALINE"
-predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 ---
 
 # Sertraline

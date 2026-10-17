@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tobramycin: الاستطباب الجديد المتوقع التهاب القرنية الناتج عن التعرّض (exposure keratitis) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الملتحمة، والتهاب القزحية العنبية، وعدوى المكورات العنقودية ال…"
 monitor_inn: "TOBRAMYCIN"
-predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+predicted_indications: ["otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome"]
 ---
 
 # Tobramycin

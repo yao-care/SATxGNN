@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefoxitin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى المعدي (infectious otitis media) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (عدوى المكورات العقدية، الالتهاب الرئوي البكتيري، ال…"
 monitor_inn: "Cefoxitin"
-predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "gonococcal urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
+predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
 ---
 
 # Cefoxitin

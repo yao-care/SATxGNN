@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sebelipase Alfa: الاستطباب الجديد المتوقع متلازمة شاي (Scheie syndrome) (مستوى الدليل L5). الاستطباب الأصلي: مرض وولمان، ونقص الليباز الحمضي الليزوزومي، واضطراب تخزين الدهون اللي…"
 monitor_inn: "SEBELIPASE ALFA"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
 ---
 
 # Sebelipase Alfa

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Secnidazole: الاستطباب الجديد المتوقع إفرازات المهبل (vaginal discharge) (مستوى الدليل L1). الاستطباب الأصلي: التهاب المهبل الجرثومي وداء المشعرات والجيارديا والتهاب المهبل والفرج…"
 monitor_inn: "SECNIDAZOLE"
-predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "trichomonal vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
+predicted_indications: ["ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina"]
 ---
 
 # Secnidazole

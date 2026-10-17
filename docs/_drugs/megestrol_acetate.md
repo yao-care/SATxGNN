@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Megestrol Acetate: الاستطباب الجديد المتوقع سرطان بطانة جسم الرحم (uterine corpus endometrial carcinoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان بطانة الرحم (endometrial carcinoma)"
 monitor_inn: "MEGESTROL ACETATE"
-predicted_indications: ["uterine corpus endometrial carcinoma", "endometrial transitional cell carcinoma", "hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary", "low-grade neuroendocrine tumor of the corpus uteri"]
+predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 ---
 
 # Megestrol Acetate

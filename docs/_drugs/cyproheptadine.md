@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Cyproheptadine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "Cyproheptadine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Cyproheptadine

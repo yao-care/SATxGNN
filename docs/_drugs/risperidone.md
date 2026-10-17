@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Risperidone: الاستطباب الجديد المتوقع متلازمة شلل النظر الأفقي العائلي مع الجنف التدريجي (مستوى الدليل L5). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص…"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 ---
 
 # Risperidone

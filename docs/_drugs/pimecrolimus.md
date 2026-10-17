@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Pimecrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (مستوى الدليل L2). الاستطباب الأصلي: التهاب الجلد التأتبي (الأكزيما التأتبية)"
 monitor_inn: "PIMECROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 ---
 
 # Pimecrolimus

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Etodolac: الاستطباب الجديد المتوقع acromesomelic dysplasia من نوع هنتر-تومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل، التهاب الم…"
 monitor_inn: "ETODOLAC"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "inflammatory spondylopathy"]
 ---
 
 # Etodolac

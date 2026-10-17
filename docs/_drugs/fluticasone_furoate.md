@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-15
 description: "Fluticasone Furoate: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: الربو (بما فيه الربو الذاتي والتحسسي)، التهاب الأنف التحسسي، التهاب ا…"
 monitor_inn: "FLUTICASONE FUROATE"
-predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "asthma-related traits, susceptibility to", "occupational dermatitis", "phototoxic dermatitis"]
+predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 ---
 
 # Fluticasone Furoate

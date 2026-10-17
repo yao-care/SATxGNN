@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Tetryzoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (Nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب البلعوم، نزلة البرد (مستمد من الرسم البياني المعرفي، إذ إن نصو…"
 monitor_inn: "tetryzoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Tetryzoline

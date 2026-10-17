@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Avatrombopag: الاستطباب الجديد المتوقع نقص الصفيحات الكبيرة المصحوب بقصور الصمام التاجي (مستوى الدليل L5). الاستطباب الأصلي: نقص الصفيحات الدموية (مصدره رسم المعرفة الخاص بالنموذج، إذ لا يوجد نص…"
 monitor_inn: "AVATROMBOPAG"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
+predicted_indications: ["dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
 ---
 
 # Avatrombopag

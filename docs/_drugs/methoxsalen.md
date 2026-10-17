@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Methoxsalen: الاستطباب الجديد المتوقع الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) (مستوى الدليل L4). الاستطباب الأصلي: الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق"
 monitor_inn: "METHOXSALEN"
-predicted_indications: ["localized pagetoid reticulosis", "indolent primary cutaneous T-cell lymphoma", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "follicular lymphoma, susceptibility to, 1", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "follicular lymphoma, susceptibility to, 1", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
 ---
 
 # Methoxsalen

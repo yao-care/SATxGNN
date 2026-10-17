@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Viloxazine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L1). الاستطباب الأصلي: الناركوليبسي (التغفيق)، والناركوليبسي المصحوب بالجُمود (cataplexy)، و…"
 monitor_inn: "VILOXAZINE"
-predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "Creutzfeldt-Jakob disease", "narcolepsy, susceptibility to", "hypersomnia (disease)", "circadian rhythm sleep disorder", "chondromyxoid fibroma", "X-linked adrenoleukodystrophy", "attention deficit hyperactivity disorder, inattentive type"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "Creutzfeldt-Jakob disease", "hypersomnia (disease)", "circadian rhythm sleep disorder", "chondromyxoid fibroma", "X-linked adrenoleukodystrophy", "attention deficit hyperactivity disorder, inattentive type"]
 ---
 
 # Viloxazine

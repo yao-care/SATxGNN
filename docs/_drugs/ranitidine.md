@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ranitidine: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L5). الاستطباب الأصلي: القرحة المعدية، الداء الارتجاعي المعدي المريئي، التهاب المريء، عسر ال…"
 monitor_inn: "RANITIDINE"
-predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenogastric reflux", "duodenal obstruction", "gastroduodenitis", "peptic ulcer disease", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenal obstruction", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Ranitidine

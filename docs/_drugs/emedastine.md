@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Emedastine: الاستطباب الجديد المتوقع الشرى التحسسي (مستوى الدليل L2). الاستطباب الأصلي: التهاب الملتحمة التأتبي، التهاب الملتحمة الحليمي، التهاب الملتحمة الر…"
-monitor_inn: "EMEDASTINE"
-predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Emedastine

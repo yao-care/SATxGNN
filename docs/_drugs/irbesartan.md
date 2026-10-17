@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Irbesartan: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الكلوي الوعائي الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، واعتلال الكلية السكري (مصدره الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "IRBESARTAN"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Irbesartan

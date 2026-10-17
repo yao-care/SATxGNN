@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Revefenacin: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L4). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن (COPD)"
-monitor_inn: "REVEFENACIN"
-predicted_indications: ["bronchitis", "obstructive lung disease"]
 ---
 
 # Revefenacin

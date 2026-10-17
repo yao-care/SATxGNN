@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bacitracin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: التهاب القرنية، التهاب القرنية والملتحمة، التهاب الجفن والملتحمة"
 monitor_inn: "bacitracin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
+predicted_indications: ["otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
 ---
 
 # Bacitracin

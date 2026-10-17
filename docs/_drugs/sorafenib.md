@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكبدية (إضافة إلى سرطان الخلايا الكلوية وسرطان الغدة ا…"
 monitor_inn: "SORAFENIB"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Sorafenib

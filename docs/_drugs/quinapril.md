@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Quinapril: الاستطباب الجديد المتوقع اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)"
 monitor_inn: "QUINAPRIL"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Quinapril

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tamoxifen: الاستطباب الجديد المتوقع مرض باجيت الثديي (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي لدى الإناث (سرطان الثدي القنوي الغازي، السرطان الغدي القن…"
 monitor_inn: "TAMOXIFEN"
-predicted_indications: ["mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "basal-like breast carcinoma", "breast carcinoma in situ", "sebaceous breast carcinoma", "invasive tubular breast carcinoma", "hormone-resistant breast carcinoma", "estrogen-receptor positive breast cancer", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "breast carcinoma in situ", "sebaceous breast carcinoma", "hormone-resistant breast carcinoma", "estrogen-receptor positive breast cancer", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Tamoxifen

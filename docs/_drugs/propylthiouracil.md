@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Propylthiouracil: الاستطباب الجديد المتوقع مقاومة هرمون الغدة الدرقية الناجمة عن طفرة في مستقبِل الهرمون بيتا (مستوى الدليل L4). الاستطباب الأصلي: فرط نشاط الغدة الدرقية، ومرض غريفز، والتسمم الدرقي، …"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil

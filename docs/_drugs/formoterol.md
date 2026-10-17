@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Formoterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L1). الاستطباب الأصلي: انتفاخ الرئة، الربو الداخلي، الربو التحسسي (من الرسم المعرفي لـ TxGNN…"
 monitor_inn: "formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma", "asthma-related traits, susceptibility to"]
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma-related traits, susceptibility to"]
 ---
 
 # Formoterol

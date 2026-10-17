@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Certolizumab Pegol: الاستطباب الجديد المتوقع التهاب الفقار (Inflammatory spondylopathy) (مستوى الدليل L1). الاستطباب الأصلي: داء كرون، التهاب المفاصل الروماتويدي، التهاب المفاصل الصدفي، التهاب ا…"
 monitor_inn: "CERTOLIZUMAB PEGOL"
-predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Certolizumab Pegol

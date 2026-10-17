@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefprozil: الاستطباب الجديد المتوقع عدوى المسالك البولية (مستوى الدليل L5). الاستطباب الأصلي: التهاب الشعب الهوائية، التهاب اللوزتين، التهاب الأذن الوسطى، العدوى ا…"
 monitor_inn: "CEFPROZIL"
-predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "pneumonia", "laryngitis", "urogenital tuberculosis", "abdominal tuberculosis"]
+predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "laryngitis", "urogenital tuberculosis", "abdominal tuberculosis"]
 ---
 
 # Cefprozil

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Flutamide: الاستطباب الجديد المتوقع سرطان الأعضاء التناسلية الذكرية (الأعلى ترتيباً في القائمة هو «قابلية… (مستوى الدليل L5). الاستطباب الأصلي: سرطان البروستاتا (مصدره الرسم المعرفي، إذ لا يوجد نص اس…"
 monitor_inn: "FLUTAMIDE"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "male reproductive organ cancer", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---
 
 # Flutamide

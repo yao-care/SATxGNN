@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Gemcitabine: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (مستوى الدليل L1). الاستطباب الأصلي: سرطان المبيض (لا يوجد نص استطباب في بيانات التراخيص السعودية، والمعلو…"
 monitor_inn: "GEMCITABINE"
-predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "rete ovarii adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 ---
 
 # Gemcitabine

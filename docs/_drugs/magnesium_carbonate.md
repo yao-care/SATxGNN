@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Magnesium Carbonate: الاستطباب الجديد المتوقع القرحة الهضمية النشطة (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية، ارتجاع المريء، التهاب المريء، عسر الهضم، الإمساك…"
 monitor_inn: "magnesium carbonate"
-predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "gastroduodenitis", "gastric ulcer (disease)", "gastroparesis (disease)", "stomach disease", "duodenal obstruction", "duodenogastric reflux", "duodenal ulcer (disease)"]
+predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "duodenal obstruction"]
 ---
 
 # Magnesium Carbonate

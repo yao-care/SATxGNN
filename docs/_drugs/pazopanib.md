@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pazopanib: الاستطباب الجديد المتوقع الورم الشحمي الخبيث (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والساركوما الرخوة (بحسب الاستطبابات المسجلة في…"
 monitor_inn: "Pazopanib"
-predicted_indications: ["renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "liposarcoma", "childhood kidney cell carcinoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["fibroblastic neoplasm"]
 ---
 
 # Pazopanib

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Isoprenaline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي، السكتة القلبية، حصار الأذين البطين…"
 monitor_inn: "ISOPRENALINE"
-predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
+predicted_indications: ["nasal cavity disease", "headache disorder", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
 ---
 
 # Isoprenaline

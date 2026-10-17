@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Hydromorphone: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L4). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي (من الرسم المعرفي؛ لا يوجد نص دلالة…"
 monitor_inn: "Hydromorphone"
-predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Hydromorphone

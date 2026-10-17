@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulindac: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجراب، التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، الته…"
 monitor_inn: "SULINDAC"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "pseudoachondroplasia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "WHIM syndrome", "rheumatoid vasculitis", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "pseudoachondroplasia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "WHIM syndrome", "hypermobility of coccyx"]
 ---
 
 # Sulindac

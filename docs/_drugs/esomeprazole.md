@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Esomeprazole: الاستطباب الجديد المتوقع الارتجاع الاثني عشري المعدي (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية، مرض الارتجاع المعدي المريئي، التهاب المريء، متلاز…"
 monitor_inn: "ESOMEPRAZOLE"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Esomeprazole

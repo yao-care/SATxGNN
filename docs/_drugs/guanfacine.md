@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Guanfacine: الاستطباب الجديد المتوقع المتلازمة الوجهية الإصبعية التناسلية (Faciodigitogenital syndrome) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم؛ اضطراب فرط الحركة وتشتت الانتباه (مأخوذ م…"
 monitor_inn: "Guanfacine"
-predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 ---
 
 # Guanfacine

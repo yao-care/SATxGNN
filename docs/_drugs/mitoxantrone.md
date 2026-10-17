@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-15
 description: "Mitoxantrone: الاستطباب الجديد المتوقع أورام الرأس والعنق (head and neck cancer) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النخاعي الحاد وأنواعه الفرعية (لا يتوفر نص مؤشر معتمد في…"
 monitor_inn: "Mitoxantrone"
-predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 ---
 
 # Mitoxantrone

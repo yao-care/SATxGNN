@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tranylcypromine: الاستطباب الجديد المتوقع الصَّعَر الانتيابي الحميد في الرضع (Benign paroxysmal torticollis of… (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب / اضطراب الاكتئاب الجسيم / اض…"
 monitor_inn: "Tranylcypromine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "neurotic depression", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 ---
 
 # Tranylcypromine

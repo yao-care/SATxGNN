@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dexlansoprazole: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L1). الاستطباب الأصلي: مرض القرحة الهضمية، الارتجاع المعدي المريئي، التهاب المريء (مصدره الر…"
 monitor_inn: "DEXLANSOPRAZOLE"
-predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "gastric ulcer (disease)", "gastroduodenitis", "duodenal obstruction", "duodenogastric reflux", "duodenal ulcer (disease)", "achlorhydria", "leather-bottle stomach"]
+predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 ---
 
 # Dexlansoprazole

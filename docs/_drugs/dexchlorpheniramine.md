@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Dexchlorpheniramine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (وفق الاستطبابات الأصلية في قاعدة المعرفة؛ لا يو…"
-monitor_inn: "dexchlorpheniramine"
-predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dexchlorpheniramine

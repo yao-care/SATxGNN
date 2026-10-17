@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vilanterol: الاستطباب الجديد المتوقع أمراض الرئة الانسدادية (Obstructive lung disease) (مستوى الدليل L1). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن، الربو، التهاب القصبات، انتفاخ الرئة (بحسب…"
 monitor_inn: "vilanterol"
-predicted_indications: ["obstructive lung disease", "interstitial emphysema", "compensatory emphysema", "hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "congenital lobar emphysema", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+predicted_indications: ["tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 ---
 
 # Vilanterol

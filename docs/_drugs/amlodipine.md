@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Amlodipine: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى السكتة الدماغية والاضطرابات الوعائية الدما…"
 monitor_inn: "Amlodipine"
-predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant renovascular hypertension", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
+predicted_indications: ["brain stem infarction", "malignant hypertensive renal disease", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 ---
 
 # Amlodipine

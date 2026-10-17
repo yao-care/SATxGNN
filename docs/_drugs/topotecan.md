@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Topotecan: الاستطباب الجديد المتوقع سرطان الثدي الأنثوي (مستوى الدليل L3). الاستطباب الأصلي: سرطان المبيض (وأنواعه الفرعية، ومنها الورم الكيسي المحي والأورام الجر…"
 monitor_inn: "TOPOTECAN"
-predicted_indications: ["female breast carcinoma", "adult germ cell tumor", "testicular yolk sac tumor, papillary pattern", "testicular yolk sac tumor, hepatoid pattern", "testicular yolk sac tumor, endodermal sinus pattern", "polyvesicular vitelline pattern testicular yolk sac tumor", "testicular yolk sac tumor, solid pattern", "enteric pattern testicular yolk sac tumor", "testicular yolk sac tumor, macrocystic pattern", "reticular pattern testicular yolk sac tumor"]
+predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 ---
 
 # Topotecan

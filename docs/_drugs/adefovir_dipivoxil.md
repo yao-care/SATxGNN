@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Adefovir Dipivoxil: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد C المزمنة (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد B المزمنة (حقل نص المؤشر المعتمد في بيانات ال…"
 monitor_inn: "ADEFOVIR DIPIVOXIL"
-predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis B virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
+predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
 ---
 
 # Adefovir Dipivoxil

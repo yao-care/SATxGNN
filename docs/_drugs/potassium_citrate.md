@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Potassium Citrate: الاستطباب الجديد المتوقع الحصيات الكلوية (Nephrolithiasis) (مستوى الدليل L2). الاستطباب الأصلي: نقص البوتاسيوم، الحماض الأنبوبي الكلوي، اعتلال الكلية الحاد الناتج عن…"
 monitor_inn: "potassium citrate"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
 ---
 
 # Potassium Citrate

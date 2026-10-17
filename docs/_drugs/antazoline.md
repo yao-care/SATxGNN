@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Antazoline: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (وفق الاستطبابات الأصلية في الرسم المعرفي؛ نص ال…"
 monitor_inn: "antazoline"
-predicted_indications: ["allergic urticaria", "cold urticaria", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
 ---
 
 # Antazoline

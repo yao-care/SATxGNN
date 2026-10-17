@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د (مُدخل مصنَّف كمتقادم) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
 monitor_inn: "CALCITRIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets"]
 ---
 
 # Calcitriol

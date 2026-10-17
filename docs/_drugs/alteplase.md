@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Alteplase: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي الجانبي (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي،…"
 monitor_inn: "ALTEPLASE"
-predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction", "heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
+predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
 ---
 
 # Alteplase

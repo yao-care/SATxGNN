@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Olanzapine: الاستطباب الجديد المتوقع الرُّهاب الساحة (Agoraphobia) (مستوى الدليل L3). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب، الاكتئاب، اضطرابات القلق (استناداً إلى ال…"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Olanzapine

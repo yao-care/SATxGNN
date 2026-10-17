@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Levothyroxine: الاستطباب الجديد المتوقع تضخم الغدة الدرقية المتوطن (مستوى الدليل L3). الاستطباب الأصلي: قصور الغدة الدرقية (بحسب الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص مؤشرا…"
 monitor_inn: "Levothyroxine"
-predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "substernal goiter", "dyshormonogenic goiter", "nontoxic goiter", "lingual goiter", "Potter sequence", "Carney complex"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
 ---
 
 # Levothyroxine

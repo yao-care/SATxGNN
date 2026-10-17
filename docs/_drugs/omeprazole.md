@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Omeprazole: الاستطباب الجديد المتوقع الارتجاع الاثني عشري المعدي (Duodenogastric reflux) (مستوى الدليل L3). الاستطباب الأصلي: القرحة المعدية، مرض القرحة الهضمية، داء الارتجاع المعدي المريئي، الته…"
 monitor_inn: "OMEPRAZOLE"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Omeprazole

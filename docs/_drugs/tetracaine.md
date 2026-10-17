@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Tetracaine: الاستطباب الجديد المتوقع التهاب الجلد الضموري المزمن الطرفي (Acrodermatitis chronica atrophica… (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد (Dermatitis) — بحسب الرسم المعرفي، إذ إن …"
 monitor_inn: "Tetracaine"
-predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
+predicted_indications: ["neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 ---
 
 # Tetracaine

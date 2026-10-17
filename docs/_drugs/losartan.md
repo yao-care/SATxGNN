@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-15
 description: "Losartan: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الخبيث الكلوي الوعائي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، اعتلال الكلية السكري (مصدر: الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "Losartan"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+predicted_indications: ["malignant hypertensive renal disease", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 ---
 
 # Losartan

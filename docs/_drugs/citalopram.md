@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Citalopram: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب (أحادي القطب، الاكتئاب الجسيم، الاكتئاب الداخلي المنشأ)، اضط…"
 monitor_inn: "CITALOPRAM"
-predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
+predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 ---
 
 # Citalopram

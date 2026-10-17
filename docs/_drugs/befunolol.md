@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Befunolol: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: الزرق مفتوح الزاوية، وارتفاع ضغط العين (من الرسم المعرفي لـ TxGNN، إذ…"
 monitor_inn: "Befunolol"
-predicted_indications: ["primary hereditary glaucoma", "glaucoma", "glaucoma 1, open angle"]
+predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Befunolol

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L1). الاستطباب الأصلي: التهاب الكبد C المزمن (بيانات الاستطباب في تراخيص السعودية غير متوفرة…"
 monitor_inn: "PEGINTERFERON ALFA-2A"
-predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 ---
 
 # Peginterferon Alfa-2A

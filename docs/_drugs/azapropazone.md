@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Azapropazone: الاستطباب الجديد المتوقع acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، النقرس، الفصال العظ…"
 monitor_inn: "AZAPROPAZONE"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia", "brachyolmia", "rheumatoid vasculitis", "hypermobility of coccyx", "polyarticular juvenile rheumatoid arthritis", "Kummell disease", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia", "brachyolmia", "hypermobility of coccyx", "Kummell disease", "inflammatory spondylopathy"]
 ---
 
 # Azapropazone

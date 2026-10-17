@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Enzalutamide: الاستطباب الجديد المتوقع سرطان الجهاز التناسلي الذكري (male reproductive organ cancer) — وهو ا… (مستوى الدليل L5). الاستطباب الأصلي: سرطان البروستاتا"
 monitor_inn: "ENZALUTAMIDE"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

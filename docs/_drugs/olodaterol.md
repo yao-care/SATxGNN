@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Olodaterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (مستوى الدليل L4). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن (COPD)"
-monitor_inn: "olodaterol"
-predicted_indications: ["bronchitis", "obstructive lung disease"]
 ---
 
 # Olodaterol

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Loperamide: الاستطباب الجديد المتوقع التهاب الملتحمة المعدي الحاد (مستوى الدليل L5). الاستطباب الأصلي: الإسهال، الدزنتاريا (الزحار)"
 monitor_inn: "LOPERAMIDE"
-predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "Angelucci syndrome"]
+predicted_indications: ["acute contagious conjunctivitis", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "Angelucci syndrome"]
 ---
 
 # Loperamide

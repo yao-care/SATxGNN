@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Vortioxetine: الاستطباب الجديد المتوقع الميلانخوليا (Melancholia) (مستوى الدليل L1). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، الاضطراب الاكتئابي الر…"
 monitor_inn: "VORTIOXETINE"
-predicted_indications: ["neurotic disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy"]
 ---
 
 # Vortioxetine

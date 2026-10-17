@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Tazobactam: الاستطباب الجديد المتوقع الالتهاب الرئوي (pneumonia) (مستوى الدليل L1). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، التهاب الصفاق، التهاب الزائدة الدودية، عدوى…"
 monitor_inn: "tazobactam"
-predicted_indications: ["pneumonia", "urinary tract infection (disease)"]
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Tazobactam

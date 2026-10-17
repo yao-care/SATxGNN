@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Insulin Degludec: الاستطباب الجديد المتوقع داء السكري من النوع الأول (مستوى الدليل L1). الاستطباب الأصلي: داء السكري؛ الحماض الكيتوني السكري (لا يتوفر نص استطباب معتمد في تراخ…"
 monitor_inn: "INSULIN DEGLUDEC"
-predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
 ---
 
 # Insulin Degludec

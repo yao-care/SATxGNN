@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dasatinib: الاستطباب الجديد المتوقع ساركوما إيوينغ (مستوى الدليل L5). الاستطباب الأصلي: سرطان الدم النقوي المزمن الإيجابي لـ BCR-ABL1، وطور الأزمة الأرومية (…"
 monitor_inn: "DASATINIB"
-predicted_indications: ["Ewing sarcoma", "myeloid leukemia", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
+predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 ---
 
 # Dasatinib

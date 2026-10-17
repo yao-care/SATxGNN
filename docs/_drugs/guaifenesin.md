@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Guaifenesin: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (Nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "GUAIFENESIN"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+predicted_indications: ["faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 ---
 
 # Guaifenesin
