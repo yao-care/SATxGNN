@@ -27,7 +27,7 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

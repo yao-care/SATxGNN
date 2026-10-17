@@ -27,7 +27,7 @@ predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic v
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

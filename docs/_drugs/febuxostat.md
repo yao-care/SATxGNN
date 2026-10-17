@@ -27,7 +27,7 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

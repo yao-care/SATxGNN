@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Polymyxin B: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)"
 monitor_inn: "polymyxin b"
-predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis"]
+predicted_indications: ["bronchitis", "laryngotracheitis"]
 ---
 
 # Polymyxin B
@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

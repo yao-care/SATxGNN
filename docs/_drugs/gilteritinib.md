@@ -27,7 +27,7 @@ predicted_indications: ["bulbar polio"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

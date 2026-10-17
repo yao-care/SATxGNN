@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Metoprolol: الاستطباب الجديد المتوقع اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، متلازمة الشريان التاجي الحادة، احتشاء عضلة القلب (من…"
 monitor_inn: "Metoprolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "trichotillomania"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "trichotillomania"]
 ---
 
 # Metoprolol
@@ -27,7 +27,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

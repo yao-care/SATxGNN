@@ -27,7 +27,7 @@ predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonprolifer
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

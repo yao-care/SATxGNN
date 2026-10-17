@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dupilumab: الاستطباب الجديد المتوقع التهاب القصبات (مستوى الدليل L3). الاستطباب الأصلي: التهاب الجلد التأتبي (الإكزيما التأتبية)"
 monitor_inn: "DUPILUMAB"
-predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+predicted_indications: ["bronchitis", "acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Dupilumab
@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neon
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

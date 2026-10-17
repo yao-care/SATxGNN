@@ -27,7 +27,7 @@ predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simple
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

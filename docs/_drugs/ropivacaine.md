@@ -27,7 +27,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

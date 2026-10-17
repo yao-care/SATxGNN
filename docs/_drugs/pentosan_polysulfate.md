@@ -27,7 +27,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

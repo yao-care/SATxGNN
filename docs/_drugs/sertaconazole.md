@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sertaconazole: الاستطباب الجديد المتوقع فطار الفخذ والمنطقة حول الشرج (مستوى الدليل L5). الاستطباب الأصلي: تينيا القدم (Tinea pedis)"
 monitor_inn: "Sertaconazole"
-predicted_indications: ["dermatophytosis of groin and perianal area", "tinea corporis", "cutaneous candidiasis", "Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "pityriasis versicolor", "tinea profunda"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
 ---
 
 # Sertaconazole
@@ -27,7 +27,7 @@ predicted_indications: ["dermatophytosis of groin and perianal area", "tinea cor
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

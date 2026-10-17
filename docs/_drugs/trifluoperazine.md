@@ -27,7 +27,7 @@ predicted_indications: ["manic bipolar affective disorder"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Eptinezumab: الاستطباب الجديد المتوقع الصداع النصفي مع أورة جذع الدماغ (مستوى الدليل L4). الاستطباب الأصلي: الصداع النصفي (Migraine disorder)"
-monitor_inn: "EPTINEZUMAB"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Eptinezumab
@@ -27,7 +25,7 @@ predicted_indications: ["migraine with brainstem aura"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

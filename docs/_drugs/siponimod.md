@@ -27,7 +27,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

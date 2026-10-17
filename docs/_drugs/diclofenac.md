@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Diclofenac: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: التقران الشعاعي، التهاب المفاصل الروماتويدي، الفصال العظمي، التهاب ال…"
 monitor_inn: "Diclofenac"
-predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "WHIM syndrome"]
 ---
 
 # Diclofenac
@@ -27,7 +27,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

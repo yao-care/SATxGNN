@@ -27,7 +27,7 @@ predicted_indications: ["ulceration of vulva", "vaginal discharge", "vulvar neop
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

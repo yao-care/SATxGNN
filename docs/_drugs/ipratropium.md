@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["ulceration of vulva", "vulvar neoplasm", "breast fibroc
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

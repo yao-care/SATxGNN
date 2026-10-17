@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Apraclonidine: الاستطباب الجديد المتوقع الجلوكوما الوراثية الأولية (مستوى الدليل L5). الاستطباب الأصلي: الجلوكوما مفتوحة الزاوية (من الرسم المعرفي لـ TxGNN؛ نص الاستطباب في…"
-monitor_inn: "APRACLONIDINE"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Apraclonidine
@@ -27,7 +25,7 @@ predicted_indications: ["primary hereditary glaucoma"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

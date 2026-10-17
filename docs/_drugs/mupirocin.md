@@ -27,7 +27,7 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

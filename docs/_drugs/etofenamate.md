@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Etofenamate: الاستطباب الجديد المتوقع اعتلال الفقار المصلي (القابلية للإصابة) (مستوى الدليل L5). الاستطباب الأصلي: التهاب العظم والمفصل (هشاشة المفاصل)، اعتلال المفاصل"
 monitor_inn: "ETOFENAMATE"
-predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
+predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
 ---
 
 # Etofenamate
@@ -27,7 +27,7 @@ predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hype
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

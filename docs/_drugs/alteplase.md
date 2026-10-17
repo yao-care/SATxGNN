@@ -27,7 +27,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

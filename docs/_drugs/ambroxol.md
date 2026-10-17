@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ambroxol: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (مستوى الدليل L4). الاستطباب الأصلي: التهاب البلعوم (من الرسم المعرفي PrimeKG؛ نصوص المؤشرات المعتمدة في ت…"
 monitor_inn: "Ambroxol"
-predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Ambroxol
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "fau
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

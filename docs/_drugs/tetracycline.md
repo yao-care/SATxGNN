@@ -27,7 +27,7 @@ predicted_indications: ["paranasal sinus neoplasm (disease)"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

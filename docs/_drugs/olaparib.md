@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Olaparib: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L1). الاستطباب الأصلي: سرطان المبيض (يشمل الأنواع النسيجية المرتبطة به)"
-monitor_inn: "OLAPARIB"
-predicted_indications: ["female breast carcinoma"]
 ---
 
 # Olaparib
@@ -27,7 +25,7 @@ predicted_indications: ["female breast carcinoma"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

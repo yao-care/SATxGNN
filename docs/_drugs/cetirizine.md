@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Cetirizine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، الشرى مجهول السبب، التهاب الملتحمة التحسسي وغير…"
 monitor_inn: "Cetirizine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["acute laryngopharyngitis", "recalcitrant atopic dermatitis"]
 ---
 
 # Cetirizine
@@ -27,7 +27,7 @@ predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity di
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

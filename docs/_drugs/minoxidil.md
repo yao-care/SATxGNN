@@ -27,7 +27,7 @@ predicted_indications: ["congenital hypotrichosis milia", "pulmonary arterial hy
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarc
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

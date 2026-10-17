@@ -27,7 +27,7 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

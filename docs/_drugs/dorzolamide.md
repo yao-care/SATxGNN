@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dorzolamide: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: الزرق مفتوح الزاوية، ارتفاع ضغط العين"
 monitor_inn: "DORZOLAMIDE"
-predicted_indications: ["primary hereditary glaucoma", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 ---
 
 # Dorzolamide
@@ -27,7 +27,7 @@ predicted_indications: ["primary hereditary glaucoma", "hypotrichosis simplex of
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

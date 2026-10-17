@@ -27,7 +27,7 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

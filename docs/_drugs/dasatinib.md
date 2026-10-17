@@ -27,7 +27,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

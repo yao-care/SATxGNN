@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Olopatadine: الاستطباب الجديد المتوقع التهاب الملتحمة المصاحب للوردية (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب الملتحمة …"
-monitor_inn: "OLOPATADINE"
-predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Olopatadine
@@ -27,7 +25,7 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

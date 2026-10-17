@@ -27,7 +27,7 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

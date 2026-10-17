@@ -27,7 +27,7 @@ predicted_indications: ["exercise-induced malignant hyperthermia"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

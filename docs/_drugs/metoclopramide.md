@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Metoclopramide: الاستطباب الجديد المتوقع قرحة المعدة (مستوى الدليل L4). الاستطباب الأصلي: داء الارتجاع المعدي المريئي، التهاب المريء، التهاب المريء الهضمي (من…"
 monitor_inn: "Metoclopramide"
-predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "gastrojejunal ulcer", "peptic ulcer perforation"]
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Metoclopramide
@@ -27,7 +27,7 @@ predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "gastroje
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

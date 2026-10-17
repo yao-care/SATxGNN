@@ -27,7 +27,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

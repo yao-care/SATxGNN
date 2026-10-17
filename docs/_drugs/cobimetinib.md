@@ -27,7 +27,7 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

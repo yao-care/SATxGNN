@@ -27,7 +27,7 @@ predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative p
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

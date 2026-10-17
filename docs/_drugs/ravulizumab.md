@@ -27,7 +27,7 @@ predicted_indications: ["autosomal recessive severe congenital neutropenia due t
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

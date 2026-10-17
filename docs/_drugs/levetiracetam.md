@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Levetiracetam: الاستطباب الجديد المتوقع الصرع البصري (Visual epilepsy) (مستوى الدليل L4). الاستطباب الأصلي: الصرع الجزئي (استنادًا إلى رسم المعرفة البياني للنموذج، إذ لا تتضمن ب…"
 monitor_inn: "LEVETIRACETAM"
-predicted_indications: ["visual epilepsy", "eating seizures", "startle epilepsy", "thinking seizures", "orgasm-induced seizures", "micturation-induced seizures", "audiogenic seizures", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam
@@ -27,7 +27,7 @@ predicted_indications: ["visual epilepsy", "eating seizures", "startle epilepsy"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

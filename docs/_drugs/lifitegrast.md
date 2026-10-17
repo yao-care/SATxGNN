@@ -27,7 +27,7 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

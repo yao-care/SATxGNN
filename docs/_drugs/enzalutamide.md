@@ -27,7 +27,7 @@ predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prost
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

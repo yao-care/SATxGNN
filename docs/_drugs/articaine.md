@@ -27,7 +27,7 @@ predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthm
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

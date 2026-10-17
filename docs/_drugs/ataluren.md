@@ -27,7 +27,7 @@ predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn dis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

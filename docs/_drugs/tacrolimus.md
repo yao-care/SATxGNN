@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tacrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (مستوى الدليل L1). الاستطباب الأصلي: التهاب الجلد التأتبي (الأكزيما)"
 monitor_inn: "TACROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+predicted_indications: ["parapsoriasis"]
 ---
 
 # Tacrolimus
@@ -27,7 +27,7 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

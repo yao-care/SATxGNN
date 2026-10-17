@@ -27,7 +27,7 @@ predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

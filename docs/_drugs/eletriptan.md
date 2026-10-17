@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Eletriptan: الاستطباب الجديد المتوقع الصداع النصفي مع أورة جذع الدماغ (مستوى الدليل L4). الاستطباب الأصلي: الصداع النصفي (مع الأورة أو بدونها)"
 monitor_inn: "ELETRIPTAN"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 ---
 
 # Eletriptan
@@ -27,7 +27,7 @@ predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

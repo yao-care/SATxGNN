@@ -27,7 +27,7 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

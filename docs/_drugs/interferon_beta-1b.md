@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Interferon Beta-1B: الاستطباب الجديد المتوقع ابيضاض الدم ذو الخلايا الشعرية (مستوى الدليل L5). الاستطباب الأصلي: التصلب المتعدد الانتكاسي الهادئ"
 monitor_inn: "INTERFERON BETA-1B"
-predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
+predicted_indications: ["hairy cell leukemia"]
 ---
 
 # Interferon Beta-1B
@@ -27,7 +27,7 @@ predicted_indications: ["hairy cell leukemia", "autoimmune disease of central ne
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

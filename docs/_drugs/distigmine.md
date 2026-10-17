@@ -27,7 +27,7 @@ predicted_indications: ["hypersplenism (disease)", "atypical hemolytic-uremic sy
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

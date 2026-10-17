@@ -27,7 +27,7 @@ predicted_indications: ["symptomatic form of hemophilia in female carriers", "fa
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pitavastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي متماثل الألائل (Homozygous familial hyperc… (مستوى الدليل L4). الاستطباب الأصلي: فرط شحميات الدم العائلي المركّب (بحسب شبكة المعرفة ف…"
 monitor_inn: "PITAVASTATIN"
-predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "familial hypercholesterolemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "simian immunodeficiency virus infection"]
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "simian immunodeficiency virus infection"]
 ---
 
 # Pitavastatin
@@ -27,7 +27,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipopr
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

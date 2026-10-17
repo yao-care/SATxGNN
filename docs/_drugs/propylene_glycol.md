@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

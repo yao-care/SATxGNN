@@ -27,7 +27,7 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

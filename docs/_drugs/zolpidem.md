@@ -27,7 +27,7 @@ predicted_indications: ["sleep disorder, initiating and maintaining sleep", "ben
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

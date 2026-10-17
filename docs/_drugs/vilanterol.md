@@ -27,7 +27,7 @@ predicted_indications: ["tracheal stenosis", "bronchial neoplasm (disease)", "re
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

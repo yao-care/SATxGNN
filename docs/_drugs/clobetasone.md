@@ -27,7 +27,7 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

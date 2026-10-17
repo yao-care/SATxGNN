@@ -27,7 +27,7 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

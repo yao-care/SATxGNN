@@ -27,7 +27,7 @@ predicted_indications: ["vaginitis (disease)", "leukoplakia of vagina", "vaginal
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

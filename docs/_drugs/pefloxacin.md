@@ -27,7 +27,7 @@ predicted_indications: ["heart conduction disease", "heart neoplasm", "heart val
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

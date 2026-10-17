@@ -27,7 +27,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

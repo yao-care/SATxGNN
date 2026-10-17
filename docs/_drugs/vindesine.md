@@ -27,7 +27,7 @@ predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies a
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

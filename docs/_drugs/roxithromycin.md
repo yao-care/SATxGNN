@@ -27,7 +27,7 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

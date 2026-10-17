@@ -27,7 +27,7 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

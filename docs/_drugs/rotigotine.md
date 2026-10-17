@@ -27,7 +27,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

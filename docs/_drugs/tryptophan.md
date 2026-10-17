@@ -27,7 +27,7 @@ predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma",
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

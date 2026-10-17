@@ -27,7 +27,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

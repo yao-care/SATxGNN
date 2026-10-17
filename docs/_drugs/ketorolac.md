@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Ketorolac: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L1). الاستطباب الأصلي: التهاب الملتحمة التأتبي، والحُليمي، والربيعي"
 monitor_inn: "Ketorolac"
-predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac
@@ -27,7 +27,7 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

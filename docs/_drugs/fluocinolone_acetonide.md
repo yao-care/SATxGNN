@@ -27,7 +27,7 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

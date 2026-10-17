@@ -27,7 +27,7 @@ predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "go
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

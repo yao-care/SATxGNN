@@ -27,7 +27,7 @@ predicted_indications: ["non-syndromic esophageal malformation", "esophageal dis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

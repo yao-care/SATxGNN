@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clomipramine: الاستطباب الجديد المتوقع اضطراب القلق (مستوى الدليل L5). الاستطباب الأصلي: اضطراب الوسواس القهري (مستمدة من الرسم المعرفي لـ TxGNN، إذ لا يتوفر…"
 monitor_inn: "Clomipramine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "major depressive disorder", "endogenous depression", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine
@@ -27,7 +27,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "schizoid pe
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

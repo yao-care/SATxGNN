@@ -27,7 +27,7 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Sodium Citrate: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: قرحة المعدة والاثني عشر، الارتجاع المعدي المريئي، التهاب المريء، عسر…"
 monitor_inn: "sodium citrate"
-predicted_indications: ["papillary conjunctivitis", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+predicted_indications: ["papillary conjunctivitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 ---
 
 # Sodium Citrate
@@ -27,7 +27,7 @@ predicted_indications: ["papillary conjunctivitis", "postgastrectomy syndrome", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

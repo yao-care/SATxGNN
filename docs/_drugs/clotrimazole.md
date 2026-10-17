@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: قدم الرياضي، السعفة الجسمية، داء المبيضات الجلدي والفموي والمهبلي، ال…"
 monitor_inn: "CLOTRIMAZOLE"
-predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Clotrimazole
@@ -27,7 +27,7 @@ predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

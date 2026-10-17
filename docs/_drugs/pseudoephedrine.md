@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Pseudoephedrine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "Pseudoephedrine"
-predicted_indications: ["allergic urticaria"]
+predicted_indications: ["acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
@@ -27,7 +27,7 @@ predicted_indications: ["allergic urticaria"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

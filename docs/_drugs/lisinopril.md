@@ -27,7 +27,7 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

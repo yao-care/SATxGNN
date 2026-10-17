@@ -27,7 +27,7 @@ predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

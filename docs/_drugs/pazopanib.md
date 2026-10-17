@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pazopanib: الاستطباب الجديد المتوقع الورم الشحمي الخبيث (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والساركوما الرخوة (بحسب الاستطبابات المسجلة في…"
 monitor_inn: "Pazopanib"
-predicted_indications: ["fibroblastic neoplasm"]
+predicted_indications: ["ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib
@@ -27,7 +27,7 @@ predicted_indications: ["fibroblastic neoplasm"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

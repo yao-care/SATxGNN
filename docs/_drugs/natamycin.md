@@ -27,7 +27,7 @@ predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

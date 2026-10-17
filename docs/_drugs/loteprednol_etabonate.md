@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Loteprednol Etabonate: الاستطباب الجديد المتوقع التهاب الملتحمة الجريبي المزمن (مستوى الدليل L5). الاستطباب الأصلي: التهاب العنبية، أمراض القزحية والجسم الهدبي، التهاب الملتحمة التحسسي…"
 monitor_inn: "LOTEPREDNOL ETABONATE"
-predicted_indications: ["chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+predicted_indications: ["otitis externa"]
 ---
 
 # Loteprednol Etabonate
@@ -27,7 +27,7 @@ predicted_indications: ["chronic follicular conjunctivitis", "conjunctival folli
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

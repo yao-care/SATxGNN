@@ -27,7 +27,7 @@ description: "Dexketoprofen: الاستطباب الجديد المتوقع ال
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

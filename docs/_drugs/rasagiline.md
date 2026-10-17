@@ -27,7 +27,7 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

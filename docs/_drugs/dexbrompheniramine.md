@@ -27,7 +27,7 @@ predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, a
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

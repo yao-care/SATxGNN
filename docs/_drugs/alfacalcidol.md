@@ -27,7 +27,7 @@ predicted_indications: ["Dahlberg-Borer-Newcomer syndrome", "craniofacial conody
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

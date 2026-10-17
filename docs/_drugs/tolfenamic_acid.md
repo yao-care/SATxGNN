@@ -27,7 +27,7 @@ predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

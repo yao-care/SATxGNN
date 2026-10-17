@@ -27,7 +27,7 @@ predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "duodenal
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

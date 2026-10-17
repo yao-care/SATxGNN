@@ -27,7 +27,7 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

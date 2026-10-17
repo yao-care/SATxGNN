@@ -27,7 +27,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

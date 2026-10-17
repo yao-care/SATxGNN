@@ -27,7 +27,7 @@ predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "idiopath
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

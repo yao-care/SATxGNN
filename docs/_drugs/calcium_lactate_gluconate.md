@@ -27,7 +27,7 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

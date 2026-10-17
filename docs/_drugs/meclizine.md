@@ -27,7 +27,7 @@ predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disea
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

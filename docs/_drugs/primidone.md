@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Primidone: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (مستوى الدليل L5). الاستطباب الأصلي: الصرع (بيانات التراخيص المحلية لا تتضمن نص استطباب معتمداً؛ الاستطباب…"
 monitor_inn: "PRIMIDONE"
-predicted_indications: ["trigeminal nerve neoplasm", "thinking seizures", "micturation-induced seizures", "eating seizures", "orgasm-induced seizures", "audiogenic seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Primidone
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "thinking seizures", "mictu
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

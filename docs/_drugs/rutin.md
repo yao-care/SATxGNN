@@ -27,7 +27,7 @@ predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of brea
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

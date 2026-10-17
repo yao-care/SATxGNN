@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Xylometazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L3). الاستطباب الأصلي: التهاب البلعoم (pharyngitis)، نزلة البرد (common cold)"
 monitor_inn: "Xylometazoline"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["acute laryngopharyngitis"]
 ---
 
 # Xylometazoline
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic d
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

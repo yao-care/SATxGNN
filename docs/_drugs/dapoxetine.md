@@ -27,7 +27,7 @@ predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine wit
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["laryngotracheitis", "heart valve disease", "heart condu
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

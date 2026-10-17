@@ -27,7 +27,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

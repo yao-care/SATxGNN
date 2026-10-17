@@ -27,7 +27,7 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

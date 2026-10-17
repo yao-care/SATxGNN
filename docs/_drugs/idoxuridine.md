@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Idoxuridine: الاستطباب الجديد المتوقع داء المبيضات الفرجي المهبلي (مستوى الدليل L5). الاستطباب الأصلي: التهاب القرنية الناتج عن فيروس الهربس البسيط"
 monitor_inn: "IDOXURIDINE"
-predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Idoxuridine
@@ -27,7 +27,7 @@ predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "tric
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

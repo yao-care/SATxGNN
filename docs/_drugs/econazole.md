@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Econazole: الاستطباب الجديد المتوقع الورم الحبيبي الماجوكي (مستوى الدليل L5). الاستطباب الأصلي: سعفة القدم، سعفة الجسم، عدوى السعفة، داء المبيضات الجلدي، النخالية ال…"
 monitor_inn: "ECONAZOLE"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "dermatophytosis of scalp or beard", "tinea profunda"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
 ---
 
 # Econazole
@@ -27,7 +27,7 @@ predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "e
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

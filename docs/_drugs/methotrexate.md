@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Methotrexate: الاستطباب الجديد المتوقع ورم الرئة الأرومي (Pulmonary blastoma) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد، التهاب المفاصل الروماتويدي، الصدفية، الو…"
 monitor_inn: "METHOTREXATE"
-predicted_indications: ["pulmonary blastoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Methotrexate
@@ -27,7 +27,7 @@ predicted_indications: ["pulmonary blastoma", "small cell lung carcinoma", "well
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

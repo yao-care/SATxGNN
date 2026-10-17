@@ -27,7 +27,7 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

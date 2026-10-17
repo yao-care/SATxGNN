@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Perampanel: الاستطباب الجديد المتوقع الصرع البصري (visual epilepsy) (مستوى الدليل L4). الاستطباب الأصلي: الصرع الجزئي (الصرع الحركي الجزئي)"
 monitor_inn: "PERAMPANEL"
-predicted_indications: ["visual epilepsy", "startle epilepsy", "thinking seizures", "micturation-induced seizures", "orgasm-induced seizures", "audiogenic seizures", "eating seizures", "reading seizures", "beta-ketothiolase deficiency", "status epilepticus"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Perampanel
@@ -27,7 +27,7 @@ predicted_indications: ["visual epilepsy", "startle epilepsy", "thinking seizure
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

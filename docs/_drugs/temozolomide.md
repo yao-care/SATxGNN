@@ -27,7 +27,7 @@ predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

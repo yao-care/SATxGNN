@@ -27,7 +27,7 @@ predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp",
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

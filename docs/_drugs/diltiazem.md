@@ -27,7 +27,7 @@ predicted_indications: ["obsolete susceptibility to ischemic stroke"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

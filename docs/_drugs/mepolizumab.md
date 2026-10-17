@@ -27,7 +27,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

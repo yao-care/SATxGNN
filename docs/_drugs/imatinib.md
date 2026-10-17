@@ -27,7 +27,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

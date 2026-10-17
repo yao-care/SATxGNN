@@ -27,7 +27,7 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

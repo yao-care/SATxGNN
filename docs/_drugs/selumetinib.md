@@ -27,7 +27,7 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -25,7 +25,7 @@ description: "Olodaterol: الاستطباب الجديد المتوقع الت�
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

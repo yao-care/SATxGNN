@@ -27,7 +27,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

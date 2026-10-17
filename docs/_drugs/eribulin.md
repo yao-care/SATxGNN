@@ -27,7 +27,7 @@ predicted_indications: ["autosomal recessive familial Mediterranean fever", "der
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

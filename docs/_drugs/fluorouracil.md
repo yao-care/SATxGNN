@@ -27,7 +27,7 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

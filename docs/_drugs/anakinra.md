@@ -27,7 +27,7 @@ predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aut
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

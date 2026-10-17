@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Trastuzumab Emtansine: الاستطباب الجديد المتوقع سرطان الثدي الإيجابي لمستقبلات البروجسترون (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي الإيجابي لـ HER2"
-monitor_inn: "TRASTUZUMAB EMTANSINE"
-predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B"]
 ---
 
 # Trastuzumab Emtansine
@@ -27,7 +25,7 @@ predicted_indications: ["progesterone-receptor positive breast cancer", "normal 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

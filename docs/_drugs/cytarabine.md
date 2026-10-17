@@ -27,7 +27,7 @@ predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

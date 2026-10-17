@@ -27,7 +27,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

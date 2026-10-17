@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-15
 description: "Anastrozole: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "ANASTROZOLE"
-predicted_indications: ["female breast carcinoma", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
+predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
 ---
 
 # Anastrozole
@@ -27,7 +27,7 @@ predicted_indications: ["female breast carcinoma", "neuroblastoma", "vertebral a
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Triprolidine: الاستطباب الجديد المتوقع الشرى التحسسي (allergic urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (إضافة إلى التهاب الأنف الحركي الوعائي ونزلات ال…"
 monitor_inn: "triprolidine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Triprolidine
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rec
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

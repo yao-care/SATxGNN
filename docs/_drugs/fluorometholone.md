@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fluorometholone: الاستطباب الجديد المتوقع التهاب الأوعية الدموية ما بعد العدوى (postinfectious vasculitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب القزحية، التهاب القزحية والجسم الهدبي، التهاب ال…"
 monitor_inn: "FLUOROMETHOLONE"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
 ---
 
 # Fluorometholone
@@ -27,7 +27,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Letrozole: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في نصوص التراخيص (تتضمن البيانات 12 ترخيصًا بلا نص استطباب)"
 monitor_inn: "LETROZOLE"
-predicted_indications: ["female breast carcinoma", "nipple carcinoma", "estrogen-receptor negative breast cancer", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "estrogen-receptor positive breast cancer", "bilateral breast carcinoma", "breast carcinoma by gene expression profile", "breast fibrocystic disease", "benign mammary dysplasia"]
+predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
 
 # Letrozole
@@ -27,7 +27,7 @@ predicted_indications: ["female breast carcinoma", "nipple carcinoma", "estrogen
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

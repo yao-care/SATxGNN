@@ -27,7 +27,7 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "m
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["exposure keratitis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

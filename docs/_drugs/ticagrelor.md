@@ -27,7 +27,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Diphenylpyraline: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي (بحسب الرسم البياني المعرفي، إذ لا يتوفر نص استط…"
 monitor_inn: "diphenylpyraline"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Diphenylpyraline
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

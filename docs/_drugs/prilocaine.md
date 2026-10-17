@@ -27,7 +27,7 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

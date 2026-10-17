@@ -27,7 +27,7 @@ predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

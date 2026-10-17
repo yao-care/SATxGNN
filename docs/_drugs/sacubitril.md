@@ -27,7 +27,7 @@ predicted_indications: ["brain small vessel disease 1 with or without ocular ano
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

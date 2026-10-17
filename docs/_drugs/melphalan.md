@@ -27,7 +27,7 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

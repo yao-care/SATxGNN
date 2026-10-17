@@ -27,7 +27,7 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

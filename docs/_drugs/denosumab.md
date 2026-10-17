@@ -27,7 +27,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

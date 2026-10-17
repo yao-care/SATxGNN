@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ipilimumab: الاستطباب الجديد المتوقع الكوروئيدريميا (Choroideremia) (مستوى الدليل L5). الاستطباب الأصلي: الميلانوما النقيلية"
 monitor_inn: "IPILIMUMAB"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Ipilimumab
@@ -27,7 +27,7 @@ predicted_indications: ["choroideremia", "non-cutaneous melanoma"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

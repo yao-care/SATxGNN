@@ -27,7 +27,7 @@ predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

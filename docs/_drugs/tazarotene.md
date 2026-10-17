@@ -27,7 +27,7 @@ predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

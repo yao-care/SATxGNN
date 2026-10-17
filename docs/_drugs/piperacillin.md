@@ -27,7 +27,7 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

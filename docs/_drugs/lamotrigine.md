@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Lamotrigine: الاستطباب الجديد المتوقع ألم العصب الثلاثي التوائم (Trigeminal Neuralgia) (مستوى الدليل L2). الاستطباب الأصلي: الصرع، والصرع الجزئي، ومتلازمة لينوكس-غاستو"
 monitor_inn: "LAMOTRIGINE"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "thinking seizures", "orgasm-induced seizures", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "reading seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 ---
 
 # Lamotrigine
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "th
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

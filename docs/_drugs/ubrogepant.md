@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Ubrogepant: الاستطباب الجديد المتوقع الصداع النصفي مع الأورة الجذعية (مستوى الدليل L3). الاستطباب الأصلي: الصداع النصفي (مع الأورة أو بدونها)"
 monitor_inn: "UBROGEPANT"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Ubrogepant
@@ -27,7 +27,7 @@ predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

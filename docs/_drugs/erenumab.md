@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Erenumab: الاستطباب الجديد المتوقع الصداع النصفي مع هالة جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: الصداع النصفي (Migraine disorder)"
-monitor_inn: "ERENUMAB"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Erenumab
@@ -27,7 +25,7 @@ predicted_indications: ["migraine with brainstem aura"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

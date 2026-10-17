@@ -27,7 +27,7 @@ predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelog
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

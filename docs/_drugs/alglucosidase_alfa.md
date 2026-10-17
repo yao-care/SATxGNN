@@ -27,7 +27,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

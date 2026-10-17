@@ -27,7 +27,7 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

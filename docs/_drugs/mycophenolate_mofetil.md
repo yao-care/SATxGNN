@@ -27,7 +27,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

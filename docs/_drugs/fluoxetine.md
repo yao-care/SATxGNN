@@ -27,7 +27,7 @@ predicted_indications: ["schizoid personality disorder", "histrionic personality
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

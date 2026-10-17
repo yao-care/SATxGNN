@@ -27,7 +27,7 @@ predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetig
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

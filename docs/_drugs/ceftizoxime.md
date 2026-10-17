@@ -27,7 +27,7 @@ predicted_indications: ["Ureaplasma urethritis", "xanthogranulomatous pyelonephr
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

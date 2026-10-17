@@ -27,7 +27,7 @@ predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "c
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

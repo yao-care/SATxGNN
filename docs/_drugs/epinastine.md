@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Epinastine: الاستطباب الجديد المتوقع التهاب الملتحمة الوردي (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الملتحمة التأتبي، والتهاب الملتحمة الحليمي، والتهاب الملتحمة ا…"
 monitor_inn: "Epinastine"
-predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
+predicted_indications: ["allergic urticaria"]
 ---
 
 # Epinastine
@@ -27,7 +27,7 @@ predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

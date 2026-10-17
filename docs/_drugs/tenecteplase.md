@@ -27,7 +27,7 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

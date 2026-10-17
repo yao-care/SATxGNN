@@ -27,7 +27,7 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

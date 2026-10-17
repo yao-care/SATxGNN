@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Pilocarpine: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: الزرق مفتوح الزاوية وفرط ضغط العين (من الرسم المعرفي لـ TxGNN، إذ لا…"
-monitor_inn: "Pilocarpine"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Pilocarpine
@@ -27,7 +25,7 @@ predicted_indications: ["primary hereditary glaucoma"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

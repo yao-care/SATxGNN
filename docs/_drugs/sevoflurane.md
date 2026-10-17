@@ -27,7 +27,7 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

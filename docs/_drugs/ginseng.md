@@ -27,7 +27,7 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

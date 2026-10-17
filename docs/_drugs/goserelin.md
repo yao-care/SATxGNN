@@ -27,7 +27,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

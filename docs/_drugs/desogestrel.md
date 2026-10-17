@@ -27,7 +27,7 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

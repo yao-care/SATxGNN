@@ -27,7 +27,7 @@ predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["duodenal obstruction", "multiple endocrine neoplasia"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

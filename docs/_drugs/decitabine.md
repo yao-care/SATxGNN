@@ -27,7 +27,7 @@ predicted_indications: ["refractory cytopenia of childhood"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

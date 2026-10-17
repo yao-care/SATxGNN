@@ -27,7 +27,7 @@ predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-a
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

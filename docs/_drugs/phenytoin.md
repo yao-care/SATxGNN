@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phenytoin: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (Trigeminal nerve neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: الصرع (نوبات توترية رمعية عامة، نوبات جزئية، حالة الصرع المستمر، متلا…"
 monitor_inn: "Phenytoin"
-predicted_indications: ["trigeminal nerve neoplasm", "micturation-induced seizures", "eating seizures", "audiogenic seizures", "orgasm-induced seizures", "thinking seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Phenytoin
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "micturation-induced seizur
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

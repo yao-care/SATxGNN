@@ -27,7 +27,7 @@ predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

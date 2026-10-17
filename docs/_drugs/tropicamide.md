@@ -27,7 +27,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

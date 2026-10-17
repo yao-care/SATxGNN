@@ -27,7 +27,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

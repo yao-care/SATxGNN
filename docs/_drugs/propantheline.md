@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Propantheline: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية"
 monitor_inn: "propantheline"
-predicted_indications: ["gastroduodenitis", "irritable bowel syndrome"]
+predicted_indications: ["irritable bowel syndrome"]
 ---
 
 # Propantheline
@@ -27,7 +27,7 @@ predicted_indications: ["gastroduodenitis", "irritable bowel syndrome"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

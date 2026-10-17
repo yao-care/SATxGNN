@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-15
 description: "Simvastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: فرط شحوم الدم (فرط الغليسيريدات الثلاثية، فرط الدهون المختلط العائلي،…"
 monitor_inn: "SIMVASTATIN"
-predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Simvastatin
@@ -27,7 +27,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

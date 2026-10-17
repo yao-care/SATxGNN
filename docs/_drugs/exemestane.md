@@ -27,7 +27,7 @@ predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

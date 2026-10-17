@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Carteolol: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، الزرق مفتوح الزاوية، ارتفاع ضغط العين (بحسب الرسم ال…"
-monitor_inn: "Carteolol"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Carteolol
@@ -27,7 +25,7 @@ predicted_indications: ["primary hereditary glaucoma"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

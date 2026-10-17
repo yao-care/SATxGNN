@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Hydroxyprogesterone Caproate: الاستطباب الجديد المتوقع سرطان بطانة الرحم (أعلى مؤشر مدعوم بالأدلة ضمن التنبؤات؛ أما المؤشر ا… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر المرخّص فارغ في…"
 monitor_inn: "HYDROXYPROGESTERONE CAPROATE"
-predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia (disease)", "uterine corpus cancer", "cervix endometriosis", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
+predicted_indications: ["renal hypoplasia, bilateral", "renal hypoplasia (disease)", "uterine corpus cancer", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
 ---
 
 # Hydroxyprogesterone Caproate
@@ -27,7 +27,7 @@ predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["diabetic nephropathy", "brain small vessel disease 1 wi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

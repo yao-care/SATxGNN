@@ -27,7 +27,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

@@ -27,7 +27,7 @@ predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "sp
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

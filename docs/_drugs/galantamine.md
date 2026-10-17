@@ -27,7 +27,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

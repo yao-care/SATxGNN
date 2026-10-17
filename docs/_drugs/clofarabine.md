@@ -27,7 +27,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

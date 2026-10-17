@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Isosorbide Dinitrate: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (Pulmonary hypertension) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عمومًا: الذبحة الصدرية وأمراض…"
 monitor_inn: "ISOSORBIDE DINITRATE"
-predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "venous thoracic outlet syndrome"]
+predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "visceral calciphylaxis", "venous thoracic outlet syndrome"]
 ---
 
 # Isosorbide Dinitrate
@@ -27,7 +27,7 @@ predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrich
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

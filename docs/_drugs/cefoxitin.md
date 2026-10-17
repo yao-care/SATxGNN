@@ -27,7 +27,7 @@ predicted_indications: ["infectious otitis media", "urinary tract infection (dis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

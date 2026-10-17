@@ -27,7 +27,7 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

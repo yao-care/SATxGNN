@@ -27,7 +27,7 @@ predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic d
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

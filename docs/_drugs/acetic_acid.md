@@ -27,7 +27,7 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

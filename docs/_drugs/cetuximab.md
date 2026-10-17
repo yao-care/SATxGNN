@@ -27,7 +27,7 @@ predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid ha
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

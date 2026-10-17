@@ -27,7 +27,7 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

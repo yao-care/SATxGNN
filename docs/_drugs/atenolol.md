@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Atenolol: الاستطباب الجديد المتوقع احتشاء عضلة القلب السفلي الخلفي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، احتشاء عضلة القلب (مصدره رسم المعرفة PrimeKG، إذ لا…"
 monitor_inn: "ATENOLOL"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "chronic pulmonary heart disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Atenolol
@@ -27,7 +27,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

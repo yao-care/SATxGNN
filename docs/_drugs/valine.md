@@ -27,7 +27,7 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 

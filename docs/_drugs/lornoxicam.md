@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lornoxicam: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (Rheumatoid arthritis) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (نصوص الاستطباب فارغة)"
 monitor_inn: "LORNOXICAM"
-predicted_indications: ["rheumatoid arthritis", "migraine with or without aura, susceptibility to", "migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
+predicted_indications: ["migraine with or without aura, susceptibility to", "migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
 ---
 
 # Lornoxicam
@@ -27,7 +27,7 @@ predicted_indications: ["rheumatoid arthritis", "migraine with or without aura, 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## تقرير التقييم الصيدلاني
 
