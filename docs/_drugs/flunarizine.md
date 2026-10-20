@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Flunarizine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات الترخيص السعودية (نص الاستطباب فارغ)؛ الاستخدام ا…"
-monitor_inn: "FLUNARIZINE"
-predicted_indications: ["migraine disorder"]
 ---
 
 # Flunarizine

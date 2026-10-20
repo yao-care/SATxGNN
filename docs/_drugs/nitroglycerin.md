@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Nitroglycerin: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ)؛ ويُعرف النيتروغليسر…"
 monitor_inn: "NITROGLYCERIN"
-predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "Prinzmetal angina", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
 ---
 
 # Nitroglycerin
