@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Aluminum Hydroxide: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L4). الاستطباب الأصلي: القرحة المعدية، مرض القرحة الهضمية، الارتجاع المعدي المريئي، التهاب ا…"
+monitor_inn: "ALUMINUM HYDROXIDE"
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Aluminum Hydroxide

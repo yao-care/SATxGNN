@@ -91,7 +91,7 @@ SATxGNN هو موقع المملكة العربية السعودية ضمن خط
 <tr><th>النوع</th><th>المصدر</th><th>الوصف</th></tr>
 </thead>
 <tbody>
-<tr><td>التنبؤ بالذكاء الاصطناعي</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>نموذج التنبؤ بالرسم البياني المعرفي من هارفارد</td></tr>
+<tr><td>التنبؤ بالذكاء الاصطناعي</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>شبكة عصبية بيانية من هارفارد مدرَّبة على رسم بياني معرفي</td></tr>
 <tr><td>التجارب السريرية</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>السجل العالمي للتجارب السريرية</td></tr>
 <tr><td>الأدبيات العلمية</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>قاعدة بيانات الأدبيات الطبية الحيوية</td></tr>
 <tr><td>معلومات الأدوية</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>قاعدة بيانات الأدوية والأهداف الدوائية</td></tr>

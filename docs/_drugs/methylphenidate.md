@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Methylphenidate: الاستطباب الجديد المتوقع اضطراب النمو النوعي (specific developmental disorder) (مستوى الدليل L4). الاستطباب الأصلي: اضطراب فرط الحركة وتشتت الانتباه، الخدار"
 monitor_inn: "METHYLPHENIDATE"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "dysthymic disorder"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
 
 # Methylphenidate

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Ezetimibe: الاستطباب الجديد المتوقع فرط البروتينات الشحمية في الدم (hyperlipoproteinemia) (مستوى الدليل L1). الاستطباب الأصلي: فرط شحميات الدم (بما في ذلك فرط الكوليسترول العائلي المتماثل الزيجوت…"
 monitor_inn: "EZETIMIBE"
-predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Ezetimibe

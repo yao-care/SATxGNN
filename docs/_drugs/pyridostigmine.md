@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Pyridostigmine: الاستطباب الجديد المتوقع الوهن العضلي الوبيل المصحوب بتضخم الغدة الصعترية (مستوى الدليل L4). الاستطباب الأصلي: الوهن العضلي الوبيل، الوهن العضلي الوبيل عند البالغين، أمراض الوصل ال…"
 monitor_inn: "PYRIDOSTIGMINE"
-predicted_indications: ["hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 ---
 
 # Pyridostigmine

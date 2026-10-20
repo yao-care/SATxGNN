@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Cholecalciferol: الاستطباب الجديد المتوقع قصور جارات الدرق العائلي المعزول الناجم عن خلل إفراز PTH (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام (بما فيها هشاشة ما بعد سن اليأس)، نقص فيتامين D، ا…"
 monitor_inn: "CHOLECALCIFEROL"
-predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "renal tubular acidosis"]
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemic rickets", "renal osteodystrophy", "renal tubular acidosis"]
 ---
 
 # Cholecalciferol

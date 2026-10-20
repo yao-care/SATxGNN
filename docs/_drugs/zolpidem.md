@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Zolpidem: الاستطباب الجديد المتوقع اضطراب النوم (بدء النوم والمحافظة عليه) (مستوى الدليل L5). الاستطباب الأصلي: الأرق (لا يوجد نص دلالة معتمدة في بيانات التراخيص، والدلالة الأصلية م…"
 monitor_inn: "ZOLPIDEM"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Zolpidem

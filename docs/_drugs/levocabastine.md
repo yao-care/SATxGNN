@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Levocabastine: الاستطباب الجديد المتوقع الشرى التحسسي (Allergic Urticaria) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الملتحمة التأرجي، والحليمي، والربيعي (مصدر: الرسم المعرفي لـ T…"
 monitor_inn: "LEVOCABASTINE"
-predicted_indications: ["allergic urticaria"]
+predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
 ---
 
 # Levocabastine

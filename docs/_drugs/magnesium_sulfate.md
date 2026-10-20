@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Magnesium Sulfate: الاستطباب الجديد المتوقع مقدمة الارتجاع / الارتجاع (Preeclampsia/Eclampsia) (مستوى الدليل L1). الاستطباب الأصلي: الإمساك، تسمم الحمل (مقدمات الارتجاع الخفيفة والشديدة)"
 monitor_inn: "MAGNESIUM SULFATE"
-predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
+predicted_indications: ["preeclampsia/eclampsia", "toxemia of pregnancy", "thrombotic disease", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
 ---
 
 # Magnesium Sulfate

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Dexpanthenol: الاستطباب الجديد المتوقع الطفح الجلدي (Exanthem) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الجلد، الأمراض الجلدية، الشلل المعوي، انسداد الأمعاء، خزل المع…"
 monitor_inn: "DEXPANTHENOL"
-predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Dexpanthenol

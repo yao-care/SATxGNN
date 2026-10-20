@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cimetidine: الاستطباب الجديد المتوقع كثرة الخلايا البدينة الجهازية الخاملة (Smouldering systemic mastocyto… (مستوى الدليل L5). الاستطباب الأصلي: القرحة المعدية (لم يتوفر نص استطباب معتمد في تراخيص ال…"
 monitor_inn: "CIMETIDINE"
-predicted_indications: ["duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+predicted_indications: ["peptic ulcer perforation", "lymphoadenopathic mastocytosis with eosinophilia", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
 ---
 
 # Cimetidine

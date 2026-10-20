@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ketoconazole: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: العدوى الفطرية الجلدية (القدم الرياضية، القوباء الحلقية، داء المبيضات…"
+monitor_inn: "KETOCONAZOLE"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole

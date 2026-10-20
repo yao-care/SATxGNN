@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Papaverine: الاستطباب الجديد المتوقع المرض الإقفاري (Ischemic disease) (مستوى الدليل L4). الاستطباب الأصلي: أمراض الأوعية الدموية الطرفية، العرج المتقطع، إقفار الدماغ (مصدر: الر…"
 monitor_inn: "papaverine"
-predicted_indications: ["intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Monckeberg arteriosclerosis"]
+predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 ---
 
 # Papaverine

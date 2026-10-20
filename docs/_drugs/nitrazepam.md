@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Nitrazepam: الاستطباب الجديد المتوقع اضطراب النوم (صعوبة بدء النوم والمحافظة عليه) (مستوى الدليل L5). الاستطباب الأصلي: الأرق، اعتلال الدماغ الرمعي العضلي المبكر (من الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "NITRAZEPAM"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "Wernicke-Korsakoff syndrome"]
+predicted_indications: ["Wernicke-Korsakoff syndrome"]
 ---
 
 # Nitrazepam

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Aliskiren: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (hypertension / hypertensive disorder)"
 monitor_inn: "ALISKIREN"
-predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 ---
 
 # Aliskiren

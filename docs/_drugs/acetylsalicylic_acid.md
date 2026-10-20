@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Acetylsalicylic Acid: الاستطباب الجديد المتوقع الصداع النصفي مع الأورة الجذعية (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الصداع النصفي، احتشاء عضلة القلب (من الاس…"
 monitor_inn: "ACETYLSALICYLIC ACID"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
 ---
 
 # Acetylsalicylic Acid

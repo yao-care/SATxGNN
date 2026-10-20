@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Oxytetracycline: الاستطباب الجديد المتوقع التهاب الجيوب الأنفية المزمن (مستوى الدليل L5). الاستطباب الأصلي: عدوى بكتيرية متعددة (التهاب المسالك البولية، التهاب القصبات، الالتهاب…"
 monitor_inn: "OXYTETRACYCLINE"
-predicted_indications: ["paranasal sinus neoplasm (disease)", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 ---
 
 # Oxytetracycline
