@@ -275,5 +275,5 @@ and the S-1 combination has obtained colorectal cancer indication in Japan. Evid
 3. **Combination licences.** Never use a combination product's licence to describe how the single-ingredient drug is approved or marketed.
 4. **Licence count row.** Label it by the approval types actually present (e.g. "Number of approvals | 4 BLAs"); do not label NDA when the records are BLAs. If `local_regulatory.total_licenses` starts with "≥", write "at least N" and say the list may be partial.
 5. **One language.** Write market status and all table values only in the page language; do not add English in parentheses (e.g. not "Op de markt (Marketed)").
-6. Arabic decision labels must match existing pages exactly: Hold → «Hold (إيقاف مؤقت)», Proceed with Guardrails → «المضي مع ضوابط (Proceed with Guardrails)».
+6. Arabic decision labels, Arabic only (rule 5): Go → «المضي قدماً», Proceed with Guardrails → «المضي مع ضوابط», Hold → «إيقاف مؤقت», No-Go → «عدم المضي».
 
