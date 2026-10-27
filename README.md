@@ -19,7 +19,7 @@ Drug repurposing predictions for Saudi Arabia SFDA-approved drugs using the TxGN
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 808 |
+| **Drug Reports** | 882 |
 | **Total Predictions** | 12,123,340 |
 | **Unique Drugs** | 1,102 |
 | **Unique Indications** | 17,041 |

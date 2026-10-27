@@ -358,7 +358,7 @@ window.TXGNN_ANALYTICS = {
       "@id": "{{ page.url | absolute_url }}#itemlist",
       "name": "تقارير أدلة الأدوية في SATxGNN",
       "description": "تقارير أدلة إعادة توظيف الأدوية المعتمدة في المملكة العربية السعودية",
-      "numberOfItems": {{ site.drugs.size }},
+      "numberOfItems": {{ site.data.drug_stats.total_drugs }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
     {
