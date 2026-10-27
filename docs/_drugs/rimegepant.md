@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-# ريميجيبانت: من الصداع النصفي إلى الصداع النصفي مع هالة جذع الدماغ
+## ريميجيبانت: من الصداع النصفي إلى الصداع النصفي مع هالة جذع الدماغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

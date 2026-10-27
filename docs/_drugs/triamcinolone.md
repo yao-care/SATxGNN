@@ -33,7 +33,8 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 </div>
 
-# تريامسينولون: من الأمراض المناعية الذاتية والالتهابية إلى ثعلبة الميوسين (Alopecia Mucinosa)
+## تريامسينولون: من الأمراض المناعية الذاتية والالتهابية إلى ثعلبة الميوسين (Alopecia Mucinosa)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

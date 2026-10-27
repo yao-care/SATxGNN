@@ -33,7 +33,8 @@ predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral"
 
 </div>
 
-# هيدروكسي بروجسترون كابرويات: من مؤشر مرخّص غير محدد إلى سرطان بطانة الرحم
+## هيدروكسي بروجسترون كابرويات: من مؤشر مرخّص غير محدد إلى سرطان بطانة الرحم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

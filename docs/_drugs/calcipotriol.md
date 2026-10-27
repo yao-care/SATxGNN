@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 </div>
 
-# كالسيبوترايول: من الصدفية إلى التقرن الدهني (Seborrheic Keratosis)
+## كالسيبوترايول: من الصدفية إلى التقرن الدهني (Seborrheic Keratosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

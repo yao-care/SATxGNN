@@ -33,7 +33,8 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermato
 
 </div>
 
-# بوبيفاكايين: من التهاب الجلد إلى التهاب الجلد الضموري المزمن الضموري الطرفي (Acrodermatitis chronica atrophicans)
+## بوبيفاكايين: من التهاب الجلد إلى التهاب الجلد الضموري المزمن الضموري الطرفي (Acrodermatitis chronica atrophicans)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

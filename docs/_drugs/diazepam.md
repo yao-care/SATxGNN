@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep di
 
 </div>
 
-# ديازيبام: من الصرع والقلق إلى الأرق
+## ديازيبام: من الصرع والقلق إلى الأرق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

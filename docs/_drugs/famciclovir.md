@@ -33,7 +33,8 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 
 </div>
 
-# فامسيكلوفير: من الهربس النطاقي إلى الألم العصبي بعد العدوى
+## فامسيكلوفير: من الهربس النطاقي إلى الألم العصبي بعد العدوى
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

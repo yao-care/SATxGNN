@@ -33,7 +33,8 @@ predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral
 
 </div>
 
-# كلوبازام: من متلازمة لينوكس-غاستو إلى متلازمة الصرع المرتبط بالعدوى الحموية (FIRES)
+## كلوبازام: من متلازمة لينوكس-غاستو إلى متلازمة الصرع المرتبط بالعدوى الحموية (FIRES)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

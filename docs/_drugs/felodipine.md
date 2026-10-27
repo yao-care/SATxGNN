@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-# فيلوديبين: من ارتفاع ضغط الدم إلى الذبحة الصدرية المتغايرة (ذبحة برنزميتال)
+## فيلوديبين: من ارتفاع ضغط الدم إلى الذبحة الصدرية المتغايرة (ذبحة برنزميتال)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

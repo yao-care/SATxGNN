@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 
 </div>
 
-# ميتوكلوبراميد: من الارتجاع المعدي المريئي إلى قرحة المعدة
+## ميتوكلوبراميد: من الارتجاع المعدي المريئي إلى قرحة المعدة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

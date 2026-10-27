@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# أغوميلاتين (Agomelatine): من الاكتئاب إلى الصعر الانتيابي الحميد عند الرضع
+## أغوميلاتين (Agomelatine): من الاكتئاب إلى الصعر الانتيابي الحميد عند الرضع
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

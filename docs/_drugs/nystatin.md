@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease 
 
 </div>
 
-# نيستاتين: من داء المبيضات إلى التهاب الفرج والمهبل
+## نيستاتين: من داء المبيضات إلى التهاب الفرج والمهبل
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

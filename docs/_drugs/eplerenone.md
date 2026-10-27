@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-# إبليرينون: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي
+## إبليرينون: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

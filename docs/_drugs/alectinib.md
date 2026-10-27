@@ -33,7 +33,8 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 </div>
 
-# ألكتينيب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة الورمي (Fibromatosis, gingival)
+## ألكتينيب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة الورمي (Fibromatosis, gingival)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

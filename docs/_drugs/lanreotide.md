@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 </div>
 
-# لانريوتيد: من الأكروميغالي إلى فرط الشعرانية (Hypertrichosis)
+## لانريوتيد: من الأكروميغالي إلى فرط الشعرانية (Hypertrichosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

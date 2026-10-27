@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# الثريونين: من غياب مؤشر مرخّص موثّق إلى شلل المعدة (Gastroparesis)
+## الثريونين: من غياب مؤشر مرخّص موثّق إلى شلل المعدة (Gastroparesis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

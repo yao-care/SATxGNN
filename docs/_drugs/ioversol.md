@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheu
 
 </div>
 
-# إيوفرسول (Ioversol): من التصوير التشخيصي (مادة تباين) إلى هشاشة العظام (التهاب المفاصل التنكسي)
+## إيوفرسول (Ioversol): من التصوير التشخيصي (مادة تباين) إلى هشاشة العظام (التهاب المفاصل التنكسي)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

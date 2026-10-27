@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# دورزولاميد: من الزرق مفتوح الزاوية إلى الزرق الوراثي الأولي
+## دورزولاميد: من الزرق مفتوح الزاوية إلى الزرق الوراثي الأولي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

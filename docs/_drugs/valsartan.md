@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# فالسارتان: من ارتفاع ضغط الدم إلى اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث
+## فالسارتان: من ارتفاع ضغط الدم إلى اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

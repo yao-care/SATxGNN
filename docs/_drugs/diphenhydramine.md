@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# ديفينهيدرامين: من التهاب الأنف التحسسي والأرق إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+## ديفينهيدرامين: من التهاب الأنف التحسسي والأرق إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

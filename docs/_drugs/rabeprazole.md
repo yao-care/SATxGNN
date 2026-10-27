@@ -33,7 +33,8 @@ predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia"]
 
 </div>
 
-# رابيبرازول: من اضطرابات الحموضة المعدية (القرحة الهضمية والارتجاع المعدي المريئي) إلى التهاب الخلايا البدينة الجهازي الخامل (Smouldering Systemic Mastocytosis)
+## رابيبرازول: من اضطرابات الحموضة المعدية (القرحة الهضمية والارتجاع المعدي المريئي) إلى التهاب الخلايا البدينة الجهازي الخامل (Smouldering Systemic Mastocytosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

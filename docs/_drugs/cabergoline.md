@@ -33,7 +33,8 @@ predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pitui
 
 </div>
 
-# كابيرغولين: من فرط برولاكتين الدم إلى سرطان الغدة النخامية الغدي
+## كابيرغولين: من فرط برولاكتين الدم إلى سرطان الغدة النخامية الغدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

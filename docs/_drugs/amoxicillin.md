@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# أموكسيسيلين: من العدوى البكتيرية إلى متلازمة فرط اللزوجة متعددة النسائل
+## أموكسيسيلين: من العدوى البكتيرية إلى متلازمة فرط اللزوجة متعددة النسائل
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

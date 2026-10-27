@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# أميلميتاكريزول: من مطهّر لمعالجة التهاب الحلق إلى متلازمة ذنب الفرس (Cauda Equina Syndrome)
+## أميلميتاكريزول: من مطهّر لمعالجة التهاب الحلق إلى متلازمة ذنب الفرس (Cauda Equina Syndrome)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

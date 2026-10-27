@@ -33,7 +33,8 @@ predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of in
 
 </div>
 
-# كلوميبرامين: من اضطراب الوسواس القهري إلى اضطراب القلق
+## كلوميبرامين: من اضطراب الوسواس القهري إلى اضطراب القلق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

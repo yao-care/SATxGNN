@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum
 
 </div>
 
-# أمورولفين: من العدوى الفطرية للأظافر إلى هشاشة العظام الناجمة عن الأدوية
+## أمورولفين: من العدوى الفطرية للأظافر إلى هشاشة العظام الناجمة عن الأدوية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

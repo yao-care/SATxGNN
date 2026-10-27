@@ -33,7 +33,8 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 
 </div>
 
-# ميتوكسانترون: من سرطان الدم النخاعي الحاد إلى أورام الرأس والعنق
+## ميتوكسانترون: من سرطان الدم النخاعي الحاد إلى أورام الرأس والعنق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

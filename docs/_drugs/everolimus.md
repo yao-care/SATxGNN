@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 
 </div>
 
-# إيفيروليمس: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+## إيفيروليمس: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# ريتونافير: من عدوى فيروس الهيبatitis C وفيروس نقص المناعة البشرية إلى عدوى فيروس نقص المناعة القردي
+## ريتونافير: من عدوى فيروس الهيبatitis C وفيروس نقص المناعة البشرية إلى عدوى فيروس نقص المناعة القردي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

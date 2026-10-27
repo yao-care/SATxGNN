@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 </div>
 
-# كينيدين (Quinidine): من الرجفان الأذيني والملاريا إلى متلازمة عدم الإدرار الكلوية غير الملائمة (NSIAD)
+## كينيدين (Quinidine): من الرجفان الأذيني والملاريا إلى متلازمة عدم الإدرار الكلوية غير الملائمة (NSIAD)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

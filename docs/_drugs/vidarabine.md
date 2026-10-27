@@ -33,7 +33,8 @@ predicted_indications: ["actinic cheilitis", "angular cheilitis", "drug-induced 
 
 </div>
 
-# فيدارابين: من دواعي الاستعمال الأصلية (غير موثقة) إلى التهاب الشفة الشعّي (Actinic Cheilitis)
+## فيدارابين: من دواعي الاستعمال الأصلية (غير موثقة) إلى التهاب الشفة الشعّي (Actinic Cheilitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

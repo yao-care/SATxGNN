@@ -33,7 +33,8 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 </div>
 
-# تيكاغريلور (Ticagrelor): من المتلازمة الإكليلية الحادة إلى تصلب الشرايين داخل الجمجمة
+## تيكاغريلور (Ticagrelor): من المتلازمة الإكليلية الحادة إلى تصلب الشرايين داخل الجمجمة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

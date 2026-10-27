@@ -33,7 +33,8 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 
 </div>
 
-# فاسوبريسين: من مؤشر علاجي غير محدد إلى نقص البروثرومبين الخلقي
+## فاسوبريسين: من مؤشر علاجي غير محدد إلى نقص البروثرومبين الخلقي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

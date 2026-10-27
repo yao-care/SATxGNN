@@ -33,7 +33,8 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 
 </div>
 
-# إيثامبوتول: من السل الرئوي إلى التهاب لسان المزمار
+## إيثامبوتول: من السل الرئوي إلى التهاب لسان المزمار
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

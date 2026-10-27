@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# تروبيكاميد: من شلل التكيّف (Cycloplegia) إلى متلازمة ذنب الفرس (Cauda Equina Syndrome)
+## تروبيكاميد: من شلل التكيّف (Cycloplegia) إلى متلازمة ذنب الفرس (Cauda Equina Syndrome)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

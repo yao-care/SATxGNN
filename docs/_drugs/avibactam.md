@@ -33,7 +33,8 @@ predicted_indications: ["influenza, severe, susceptibility to", "ureter tubercul
 
 </div>
 
-# أفيباكتام: من التهاب الحويضة والكلية إلى الالتهاب الرئوي العقدي
+## أفيباكتام: من التهاب الحويضة والكلية إلى الالتهاب الرئوي العقدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

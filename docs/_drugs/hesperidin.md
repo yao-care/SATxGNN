@@ -33,7 +33,8 @@ predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "sp
 
 </div>
 
-# هيسبيريدين: من استطباب غير موثّق إلى الورم التكاثري النقوي (Myeloproliferative Neoplasm)
+## هيسبيريدين: من استطباب غير موثّق إلى الورم التكاثري النقوي (Myeloproliferative Neoplasm)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

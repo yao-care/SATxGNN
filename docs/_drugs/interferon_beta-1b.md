@@ -33,7 +33,8 @@ predicted_indications: ["hairy cell leukemia", "autoimmune disease of central ne
 
 </div>
 
-# Interferon beta-1b: من التصلب المتعدد الانتكاسي الهادئ إلى ابيضاض الدم ذي الخلايا الشعرية
+## Interferon beta-1b: من التصلب المتعدد الانتكاسي الهادئ إلى ابيضاض الدم ذي الخلايا الشعرية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

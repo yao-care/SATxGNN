@@ -33,7 +33,8 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 </div>
 
-# سيليجيلين: من مرض باركنسون إلى الفصام
+## سيليجيلين: من مرض باركنسون إلى الفصام
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

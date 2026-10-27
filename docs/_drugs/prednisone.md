@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# بريدنيزون: من الأمراض المناعية الذاتية إلى الثعلبة البقعية
+## بريدنيزون: من الأمراض المناعية الذاتية إلى الثعلبة البقعية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

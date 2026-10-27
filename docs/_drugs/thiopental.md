@@ -33,7 +33,8 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 
 </div>
 
-# ثيوبنتال: من الصرع إلى هوس نتف الشعر
+## ثيوبنتال: من الصرع إلى هوس نتف الشعر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

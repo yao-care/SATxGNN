@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 </div>
 
-# كلوفارابين: من سرطان الدم الليمفاوي الحاد إلى سرطان الدم النقوي
+## كلوفارابين: من سرطان الدم الليمفاوي الحاد إلى سرطان الدم النقوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

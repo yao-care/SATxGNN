@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 
 </div>
 
-# دينوجيست: من الاستطبابات الأصلية (غير مُسجَّلة) إلى انقطاع الطمث
+## دينوجيست: من الاستطبابات الأصلية (غير مُسجَّلة) إلى انقطاع الطمث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

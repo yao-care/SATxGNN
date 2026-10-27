@@ -33,7 +33,8 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 </div>
 
-# بروكالوبرايد: من الإمساك إلى نقص البروتين الدهني عالي الكثافة (Hypoalphalipoproteinemia)
+## بروكالوبرايد: من الإمساك إلى نقص البروتين الدهني عالي الكثافة (Hypoalphalipoproteinemia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 </div>
 
-# بيجينترفيرون ألفا-2b: من عدوى التهاب الكبد C المزمن إلى عدوى فيروس التهاب الكبد B
+## بيجينترفيرون ألفا-2b: من عدوى التهاب الكبد C المزمن إلى عدوى فيروس التهاب الكبد B
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

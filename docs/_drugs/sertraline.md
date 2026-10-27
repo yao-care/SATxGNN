@@ -33,7 +33,8 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 </div>
 
-# سيترالين: من اضطراب القلق إلى اضطراب الشخصية الفصامية (Schizoid Personality Disorder)
+## سيترالين: من اضطراب القلق إلى اضطراب الشخصية الفصامية (Schizoid Personality Disorder)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

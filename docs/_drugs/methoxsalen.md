@@ -33,7 +33,8 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 </div>
 
-# ميثوكسالين: من الورم اللمفاوي التائي الجلدي إلى الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis)
+## ميثوكسالين: من الورم اللمفاوي التائي الجلدي إلى الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

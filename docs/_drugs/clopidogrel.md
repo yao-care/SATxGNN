@@ -33,7 +33,8 @@ predicted_indications: ["migraine with brainstem aura", "migraine disorder", "os
 
 </div>
 
-# كلوبيدوغريل: من متلازمة الشريان التاجي الحادة إلى الصداع النصفي
+## كلوبيدوغريل: من متلازمة الشريان التاجي الحادة إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

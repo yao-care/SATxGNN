@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 </div>
 
-# أوماليزوماب: من الربو إلى التهاب القصبات
+## أوماليزوماب: من الربو إلى التهاب القصبات
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

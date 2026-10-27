@@ -33,7 +33,8 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermato
 
 </div>
 
-# تتراكايين: من التهاب الجلد إلى التهاب الجلد الضموري المزمن الطرفي (Acrodermatitis Chronica Atrophicans)
+## تتراكايين: من التهاب الجلد إلى التهاب الجلد الضموري المزمن الطرفي (Acrodermatitis Chronica Atrophicans)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

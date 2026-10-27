@@ -33,7 +33,8 @@ predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", 
 
 </div>
 
-# رالوكسيفين: من هشاشة العظام بعد انقطاع الطمث إلى قرحة الاثني عشر
+## رالوكسيفين: من هشاشة العظام بعد انقطاع الطمث إلى قرحة الاثني عشر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

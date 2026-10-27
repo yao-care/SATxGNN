@@ -33,7 +33,8 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 
 </div>
 
-# كبريتات الزنك: من الاستخدام في قطرات العين إلى التهاب البلعوم
+## كبريتات الزنك: من الاستخدام في قطرات العين إلى التهاب البلعوم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

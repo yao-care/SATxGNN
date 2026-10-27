@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# يوديد البوتاسيوم: من التهاب الأنف التحسسي إلى أمراض التجويف الأنفي
+## يوديد البوتاسيوم: من التهاب الأنف التحسسي إلى أمراض التجويف الأنفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

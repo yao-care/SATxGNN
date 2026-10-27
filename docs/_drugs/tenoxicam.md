@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 </div>
 
-# تينوكسيكام: من التهاب المفاصل إلى التهاب المفاصل الروماتويدي
+## تينوكسيكام: من التهاب المفاصل إلى التهاب المفاصل الروماتويدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia"
 
 </div>
 
-# ميكوبالامين: من مؤشر مرخّص غير محدد إلى التهاب الأقنية الصفراوية المصلّب
+## ميكوبالامين: من مؤشر مرخّص غير محدد إلى التهاب الأقنية الصفراوية المصلّب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

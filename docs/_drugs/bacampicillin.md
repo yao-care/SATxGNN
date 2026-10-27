@@ -33,7 +33,8 @@ predicted_indications: ["epiglottitis", "abdominal ectopic pregnancy", "abdomina
 
 </div>
 
-# باكامبيسيلين (Bacampicillin): من التهابات المسالك البولية إلى التهاب لسان المزمار (Epiglottitis)
+## باكامبيسيلين (Bacampicillin): من التهابات المسالك البولية إلى التهاب لسان المزمار (Epiglottitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

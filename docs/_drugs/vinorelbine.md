@@ -33,7 +33,8 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 
 </div>
 
-# فينوريلبين: من سرطان الرئة غير صغير الخلايا إلى ساركوما إيوينغ
+## فينوريلبين: من سرطان الرئة غير صغير الخلايا إلى ساركوما إيوينغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

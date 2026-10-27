@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# أباكافير: من عدوى فيروس نقص المناعة البشرية إلى عدوى فيروس نقص المناعة القردي
+## أباكافير: من عدوى فيروس نقص المناعة البشرية إلى عدوى فيروس نقص المناعة القردي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

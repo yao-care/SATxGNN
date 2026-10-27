@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hy
 
 </div>
 
-# داباجاتران إتيكسيلات: من مضاد التخثر إلى التهاب الأقنية الصفراوية المصلّب
+## داباجاتران إتيكسيلات: من مضاد التخثر إلى التهاب الأقنية الصفراوية المصلّب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

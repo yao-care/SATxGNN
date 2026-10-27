@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 </div>
 
-# إنسولين غلارجين: من داء السكري إلى التهاب المبيض المناعي الذاتي
+## إنسولين غلارجين: من داء السكري إلى التهاب المبيض المناعي الذاتي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

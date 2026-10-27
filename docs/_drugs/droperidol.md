@@ -33,7 +33,8 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar 
 
 </div>
 
-# دروبيريدول: من الاستطباب الأصلي إلى الصداع (Headache Disorder)
+## دروبيريدول: من الاستطباب الأصلي إلى الصداع (Headache Disorder)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

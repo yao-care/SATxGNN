@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# فلوفينازين: من الاضطرابات الذهانية إلى حثل الشبكية (مع أو بدون شذوذات خارج العين)
+## فلوفينازين: من الاضطرابات الذهانية إلى حثل الشبكية (مع أو بدون شذوذات خارج العين)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

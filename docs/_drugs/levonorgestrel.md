@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant 
 
 </div>
 
-# ليفونورجستريل: من هشاشة العظام بعد انقطاع الطمث إلى حب الشباب
+## ليفونورجستريل: من هشاشة العظام بعد انقطاع الطمث إلى حب الشباب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

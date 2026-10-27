@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of 
 
 </div>
 
-# ألبرازولام: من اضطراب القلق إلى الأرق
+## ألبرازولام: من اضطراب القلق إلى الأرق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

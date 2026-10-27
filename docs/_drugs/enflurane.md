@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# إنفلوران: من التخدير الاستنشاقي إلى اضطراب ثنائي القطب (نوبة الهوس)
+## إنفلوران: من التخدير الاستنشاقي إلى اضطراب ثنائي القطب (نوبة الهوس)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

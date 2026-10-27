@@ -33,7 +33,8 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 
 </div>
 
-# ريفاكسيمين: من اعتلال الدماغ الكبدي إلى داء المبيضّات الفموي
+## ريفاكسيمين: من اعتلال الدماغ الكبدي إلى داء المبيضّات الفموي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

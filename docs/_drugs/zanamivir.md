@@ -33,7 +33,8 @@ predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 
 </div>
 
-# زاناميفير: من الإنفلونزا إلى التهاب الحويضة والكلية
+## زاناميفير: من الإنفلونزا إلى التهاب الحويضة والكلية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

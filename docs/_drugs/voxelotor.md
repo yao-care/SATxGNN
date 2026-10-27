@@ -33,7 +33,8 @@ predicted_indications: ["hereditary thrombocytopenia with normal platelets", "ma
 
 </div>
 
-# فوكسيلوتور: من فقر الدم المنجلي إلى نقص الصفيحات الوراثي مع صفيحات طبيعية
+## فوكسيلوتور: من فقر الدم المنجلي إلى نقص الصفيحات الوراثي مع صفيحات طبيعية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# دولوكستين: من الاكتئاب إلى اضطراب الوسواس القهري
+## دولوكستين: من الاكتئاب إلى اضطراب الوسواس القهري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

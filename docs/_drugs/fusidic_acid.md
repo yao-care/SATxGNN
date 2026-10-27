@@ -33,7 +33,8 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 </div>
 
-# حمض الفوسيديك: من العدوى البكتيرية إلى التهاب القرنية الانكشافي
+## حمض الفوسيديك: من العدوى البكتيرية إلى التهاب القرنية الانكشافي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

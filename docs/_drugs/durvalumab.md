@@ -33,7 +33,8 @@ predicted_indications: ["prostatic urethra urothelial carcinoma", "infiltrating 
 
 </div>
 
-# دورفالوماب (Durvalumab): من سرطان الخلايا الانتقالية إلى سرطان الظهارة البولية في الإحليل البروستاتي
+## دورفالوماب (Durvalumab): من سرطان الخلايا الانتقالية إلى سرطان الظهارة البولية في الإحليل البروستاتي
+{: .text-alpha }
 
 ## ملخص بجملة واحدة
 

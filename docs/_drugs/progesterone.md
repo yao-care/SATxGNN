@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-# البروجيسترون: من التهاب بطانة الرحم إلى انقطاع الطمث
+## البروجيسترون: من التهاب بطانة الرحم إلى انقطاع الطمث
+{: .text-alpha }
 
 ## ملخص بجملة واحدة
 

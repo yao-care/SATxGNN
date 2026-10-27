@@ -33,7 +33,8 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 </div>
 
-# دونيبيزيل: من مرض ألزهايمر إلى اضطرابات الحركة النفسية المنشأ
+## دونيبيزيل: من مرض ألزهايمر إلى اضطرابات الحركة النفسية المنشأ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

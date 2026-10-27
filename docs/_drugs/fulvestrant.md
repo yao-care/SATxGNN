@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 </div>
 
-# فولفيسترانت: من سرطان الثدي إلى عدوى فيروس نقص المناعة البشرية (HIV)
+## فولفيسترانت: من سرطان الثدي إلى عدوى فيروس نقص المناعة البشرية (HIV)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

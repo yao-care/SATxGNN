@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# لينكلوتايد (Linaclotide): من متلازمة القولون العصبي إلى متلازمة ذيل الفرس
+## لينكلوتايد (Linaclotide): من متلازمة القولون العصبي إلى متلازمة ذيل الفرس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of chi
 
 </div>
 
-# بوسولفان: من الاستطباب الأصلي إلى المتلازمة خلل التنسج النقوي
+## بوسولفان: من الاستطباب الأصلي إلى المتلازمة خلل التنسج النقوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

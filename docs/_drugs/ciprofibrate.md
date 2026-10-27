@@ -33,7 +33,8 @@ predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer prot
 
 </div>
 
-# سيبروفيبرات: من فرط شحميات الدم الثلاثية إلى فرط بروتينات الدم الشحمية
+## سيبروفيبرات: من فرط شحميات الدم الثلاثية إلى فرط بروتينات الدم الشحمية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

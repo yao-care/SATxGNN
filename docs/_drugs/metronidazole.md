@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 </div>
 
-# ميترونيدازول: من العدوى اللاهوائية والطفيلية إلى داء المتكيسة الرئوية (Pneumocystosis)
+## ميترونيدازول: من العدوى اللاهوائية والطفيلية إلى داء المتكيسة الرئوية (Pneumocystosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# دوكسيلامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+## دوكسيلامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "no
 
 </div>
 
-# باباڤيرين: من أمراض الأوعية الدموية الطرفية إلى المرض الإقفاري
+## باباڤيرين: من أمراض الأوعية الدموية الطرفية إلى المرض الإقفاري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

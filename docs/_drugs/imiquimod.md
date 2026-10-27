@@ -33,7 +33,8 @@ predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal muc
 
 </div>
 
-# إيميكيمود: من الثآليل والآفات الجلدية إلى الأورام ما قبل الخبيثة
+## إيميكيمود: من الثآليل والآفات الجلدية إلى الأورام ما قبل الخبيثة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

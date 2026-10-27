@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# أزيثروميسين: من العدوى الجرثومية إلى متلازمة فرط لزوجة الدم متعددة النسائل
+## أزيثروميسين: من العدوى الجرثومية إلى متلازمة فرط لزوجة الدم متعددة النسائل
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

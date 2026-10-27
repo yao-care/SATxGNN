@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# أوفلوكساسين: من الالتهابات البكتيرية إلى الطاعون الإنتاني
+## أوفلوكساسين: من الالتهابات البكتيرية إلى الطاعون الإنتاني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

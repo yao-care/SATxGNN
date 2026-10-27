@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis", "mycetoma"]
 
 </div>
 
-# إيزافوكونازونيوم: من الأسبيرجيلوزيس إلى داء المتكيسات الرئوية (Pneumocystosis)
+## إيزافوكونازونيوم: من الأسبيرجيلوزيس إلى داء المتكيسات الرئوية (Pneumocystosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

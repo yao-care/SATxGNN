@@ -33,7 +33,8 @@ predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficie
 
 </div>
 
-# أليروكوماب: من خلل شحميات الدم والتصلب العصيدي إلى الورام الأصفر (Xanthomatosis)
+## أليروكوماب: من خلل شحميات الدم والتصلب العصيدي إلى الورام الأصفر (Xanthomatosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["vaginitis (disease)", "leukoplakia of vagina", "vaginal
 
 </div>
 
-# تريوكسالين: من البهاق وفرط الحساسية للضوء إلى التهاب المهبل
+## تريوكسالين: من البهاق وفرط الحساسية للضوء إلى التهاب المهبل
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

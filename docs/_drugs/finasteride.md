@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# فيناستيرايد: من تضخم البروستاتا الحميد إلى فرط الشعر (Hypertrichosis)
+## فيناستيرايد: من تضخم البروستاتا الحميد إلى فرط الشعر (Hypertrichosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

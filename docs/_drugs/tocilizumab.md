@@ -33,7 +33,8 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "sp
 
 </div>
 
-# توسيليزوماب: من التهاب المفاصل الروماتويدي إلى التهاب الفقار اللاصق
+## توسيليزوماب: من التهاب المفاصل الروماتويدي إلى التهاب الفقار اللاصق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

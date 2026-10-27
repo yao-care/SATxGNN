@@ -33,7 +33,8 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 
 </div>
 
-# أتوسيبان: من المنع المحتمل للولادة المبكرة إلى الزرق الوراثي الأولي
+## أتوسيبان: من المنع المحتمل للولادة المبكرة إلى الزرق الوراثي الأولي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

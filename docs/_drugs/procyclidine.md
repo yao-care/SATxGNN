@@ -33,7 +33,8 @@ predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-a
 
 </div>
 
-# بروسيكليدين: من داء باركنسون إلى التهاب الدماغ تحت الحاد لراسموسن
+## بروسيكليدين: من داء باركنسون إلى التهاب الدماغ تحت الحاد لراسموسن
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

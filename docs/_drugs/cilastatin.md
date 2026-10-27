@@ -33,7 +33,8 @@ predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusit
 
 </div>
 
-# سيلاستاتين: من الالتهاب الرئوي البكتيري إلى عدوى المكورات العنقودية الذهبية
+## سيلاستاتين: من الالتهاب الرئوي البكتيري إلى عدوى المكورات العنقودية الذهبية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

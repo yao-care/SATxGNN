@@ -33,7 +33,8 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 
 </div>
 
-# الأميودارون: من الرجفان البطيني إلى التسرع البطيني
+## الأميودارون: من الرجفان البطيني إلى التسرع البطيني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

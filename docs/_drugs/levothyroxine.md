@@ -33,7 +33,8 @@ predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodula
 
 </div>
 
-# ليفوثيروكسين: من قصور الغدة الدرقية إلى تضخم الغدة الدرقية المتوطن
+## ليفوثيروكسين: من قصور الغدة الدرقية إلى تضخم الغدة الدرقية المتوطن
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 </div>
 
-# فيبوكسوستات: من فرط حمض اليوريك إلى نقص حمض اليوريك الكلوي
+## فيبوكسوستات: من فرط حمض اليوريك إلى نقص حمض اليوريك الكلوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

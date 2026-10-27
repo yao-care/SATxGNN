@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neon
 
 </div>
 
-# ديوبيلوماب (Dupilumab): من التهاب الجلد التأتبي إلى التهاب القصبات
+## ديوبيلوماب (Dupilumab): من التهاب الجلد التأتبي إلى التهاب القصبات
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 </div>
 
-# إيميسيزوماب: من الهيموفيليا إلى نقص عوامل التخثر المكتسب
+## إيميسيزوماب: من الهيموفيليا إلى نقص عوامل التخثر المكتسب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

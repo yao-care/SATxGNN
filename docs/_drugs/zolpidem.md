@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# زولبيديم: من الأرق إلى اضطراب النوم (صعوبة بدء النوم والمحافظة عليه)
+## زولبيديم: من الأرق إلى اضطراب النوم (صعوبة بدء النوم والمحافظة عليه)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

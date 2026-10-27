@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic keratosis"]
 
 </div>
 
-# ألكلوميتازون: من الاستطباب الأصلي غير المحدد إلى التقرن الدهني (Seborrheic Keratosis)
+## ألكلوميتازون: من الاستطباب الأصلي غير المحدد إلى التقرن الدهني (Seborrheic Keratosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

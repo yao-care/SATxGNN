@@ -33,7 +33,8 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 </div>
 
-# بيوغليتازون: من داء السكري من النوع الثاني إلى انحلال العظم الشبيه بالخلل التنسجي (Opsismodysplasia)
+## بيوغليتازون: من داء السكري من النوع الثاني إلى انحلال العظم الشبيه بالخلل التنسجي (Opsismodysplasia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

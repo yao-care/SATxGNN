@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 </div>
 
-# بروبوفول: من التخدير العام إلى الصداع النصفي
+## بروبوفول: من التخدير العام إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

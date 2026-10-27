@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 </div>
 
-# إنسولين ليسبرو: من داء السكري إلى التهاب المبيض المناعي الذاتي
+## إنسولين ليسبرو: من داء السكري إلى التهاب المبيض المناعي الذاتي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

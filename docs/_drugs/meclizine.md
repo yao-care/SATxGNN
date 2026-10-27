@@ -33,7 +33,8 @@ predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disea
 
 </div>
 
-# ميكليزين: من الدوار ذي المنشأ المركزي ودوار الحركة إلى الشرى التحسسي
+## ميكليزين: من الدوار ذي المنشأ المركزي ودوار الحركة إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

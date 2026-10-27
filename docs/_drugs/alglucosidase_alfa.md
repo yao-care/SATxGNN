@@ -33,7 +33,8 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 
 </div>
 
-# ألغلوكوسيداز ألفا (Alglucosidase Alfa): من داء تخزين الغليكوجين إلى داء أجسام البوليغلوكوزان لدى البالغين
+## ألغلوكوسيداز ألفا (Alglucosidase Alfa): من داء تخزين الغليكوجين إلى داء أجسام البوليغلوكوزان لدى البالغين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

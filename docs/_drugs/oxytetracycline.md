@@ -33,7 +33,8 @@ predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis",
 
 </div>
 
-# أوكسي تتراسيكلين: من العدوى البكتيرية إلى التهاب الجيوب الأنفية المزمن
+## أوكسي تتراسيكلين: من العدوى البكتيرية إلى التهاب الجيوب الأنفية المزمن
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 
 </div>
 
-# بوديزونيد: من داء كرون إلى الإكزيما التأتبية
+## بوديزونيد: من داء كرون إلى الإكزيما التأتبية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

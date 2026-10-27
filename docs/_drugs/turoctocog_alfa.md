@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 </div>
 
-# توروكتوكوج ألفا: من الهيموفيليا إلى اضطراب إفراز الصفيحات الأولي
+## توروكتوكوج ألفا: من الهيموفيليا إلى اضطراب إفراز الصفيحات الأولي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

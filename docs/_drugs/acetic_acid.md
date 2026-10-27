@@ -33,7 +33,8 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 
 </div>
 
-# حمض الخليك: من التهاب الأذن الخارجية إلى اضطراب ما بعد العدوى البكتيرية
+## حمض الخليك: من التهاب الأذن الخارجية إلى اضطراب ما بعد العدوى البكتيرية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

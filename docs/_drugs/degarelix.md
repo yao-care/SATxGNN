@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# ديغاريليكس: من الاستطباب الأصلي (غير مسجَّل في البيانات) إلى فرط الشعر (Hypertrichosis)
+## ديغاريليكس: من الاستطباب الأصلي (غير مسجَّل في البيانات) إلى فرط الشعر (Hypertrichosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

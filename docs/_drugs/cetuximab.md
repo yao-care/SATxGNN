@@ -33,7 +33,8 @@ predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid ha
 
 </div>
 
-# سيتوكسيماب (Cetuximab): من سرطان القولون والمستقيم إلى أورام القصبات/الكارسينويد الطفولية
+## سيتوكسيماب (Cetuximab): من سرطان القولون والمستقيم إلى أورام القصبات/الكارسينويد الطفولية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic d
 
 </div>
 
-# فيتامين A: من نقص الفيتامينات إلى أمراض الفترة المحيطة بالولادة
+## فيتامين A: من نقص الفيتامينات إلى أمراض الفترة المحيطة بالولادة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gas
 
 </div>
 
-# رانيتيدين: من القرحة المعدية إلى مرض القرحة الهضمية النشطة
+## رانيتيدين: من القرحة المعدية إلى مرض القرحة الهضمية النشطة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

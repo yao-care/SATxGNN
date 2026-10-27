@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 
 </div>
 
-# سيروليموس: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+## سيروليموس: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

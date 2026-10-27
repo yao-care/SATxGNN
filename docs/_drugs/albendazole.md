@@ -33,7 +33,8 @@ predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infect
 
 </div>
 
-# ألبендازول: من داء الكيسات العدارية إلى داء المشوكات السنخي
+## ألبендازول: من داء الكيسات العدارية إلى داء المشوكات السنخي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

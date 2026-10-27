@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 </div>
 
-# داكلاتاسفير: من عدوى التهاب الكبد الوبائي C المزمن إلى عدوى فيروس التهاب الكبد B
+## داكلاتاسفير: من عدوى التهاب الكبد الوبائي C المزمن إلى عدوى فيروس التهاب الكبد B
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of
 
 </div>
 
-# بروثرومبين (Prothrombin): من مؤشر غير مسجَّل إلى متلازمة غلانزمان (Glanzmann Thrombasthenia)
+## بروثرومبين (Prothrombin): من مؤشر غير مسجَّل إلى متلازمة غلانزمان (Glanzmann Thrombasthenia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

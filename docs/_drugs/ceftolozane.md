@@ -33,7 +33,8 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 </div>
 
-# سيفتولوزان: من التهاب المسالك البولية إلى التهاب الإحليل بالمفطورة اليوريائية (Ureaplasma)
+## سيفتولوزان: من التهاب المسالك البولية إلى التهاب الإحليل بالمفطورة اليوريائية (Ureaplasma)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

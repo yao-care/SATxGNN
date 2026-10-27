@@ -33,7 +33,8 @@ predicted_indications: ["peptic ulcer perforation", "lymphoadenopathic mastocyto
 
 </div>
 
-# سيميتيدين: من القرحة المعدية إلى كثرة الخلايا البدينة الجهازية الخاملة (Smouldering Systemic Mastocytosis)
+## سيميتيدين: من القرحة المعدية إلى كثرة الخلايا البدينة الجهازية الخاملة (Smouldering Systemic Mastocytosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 </div>
 
-# فلوريد الصوديوم: من اضطراب نقص الفيتامينات إلى التهاب لسان المزمار
+## فلوريد الصوديوم: من اضطراب نقص الفيتامينات إلى التهاب لسان المزمار
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 
 </div>
 
-# ميثينامين: من التهاب المسالك البولية إلى التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma)
+## ميثينامين: من التهاب المسالك البولية إلى التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

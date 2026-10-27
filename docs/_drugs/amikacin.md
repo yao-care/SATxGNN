@@ -33,7 +33,8 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 </div>
 
-# أميكاسين: من العدوى البكتيرية إلى الحمى نظيرة التيفية
+## أميكاسين: من العدوى البكتيرية إلى الحمى نظيرة التيفية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

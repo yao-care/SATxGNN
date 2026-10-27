@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-# تيربوتالين: من الربو إلى أمراض الرئة الانسدادية
+## تيربوتالين: من الربو إلى أمراض الرئة الانسدادية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

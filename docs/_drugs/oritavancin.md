@@ -33,7 +33,8 @@ predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes 
 
 </div>
 
-# أوريتافانسين (Oritavancin): من الأمراض الجلدية الناجمة عن العدوى إلى العدوى بفصيلة البكتيريا (Bacteroidaceae)
+## أوريتافانسين (Oritavancin): من الأمراض الجلدية الناجمة عن العدوى إلى العدوى بفصيلة البكتيريا (Bacteroidaceae)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 </div>
 
-# بيفاسيزوماب (Bevacizumab): من سرطانات الصفاق والثدي والمبيض إلى ورم لسان المزمار (Epiglottis Neoplasm)
+## بيفاسيزوماب (Bevacizumab): من سرطانات الصفاق والثدي والمبيض إلى ورم لسان المزمار (Epiglottis Neoplasm)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

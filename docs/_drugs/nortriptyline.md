@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-# نورتريبتيلين: من اضطراب القلق إلى اضطراب فرط الحركة وتشتت الانتباه
+## نورتريبتيلين: من اضطراب القلق إلى اضطراب فرط الحركة وتشتت الانتباه
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

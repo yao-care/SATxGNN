@@ -33,7 +33,8 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 
 </div>
 
-# ليفيتيراسيتام: من الصرع الجزئي إلى الصرع البصري
+## ليفيتيراسيتام: من الصرع الجزئي إلى الصرع البصري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

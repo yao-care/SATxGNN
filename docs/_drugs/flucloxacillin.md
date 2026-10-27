@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 </div>
 
-# فلوكلوكساسيلين: من الاستطباب الأصلي إلى التهاب الملتحمة
+## فلوكلوكساسيلين: من الاستطباب الأصلي إلى التهاب الملتحمة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

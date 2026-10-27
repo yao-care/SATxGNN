@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 
 </div>
 
-# فينيتوين: من الصرع إلى ورم العصب مثلث التوائم
+## فينيتوين: من الصرع إلى ورم العصب مثلث التوائم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

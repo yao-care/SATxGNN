@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 </div>
 
-# دانازول: من الانتباذ البطاني الرحمي إلى انقطاع الطمث
+## دانازول: من الانتباذ البطاني الرحمي إلى انقطاع الطمث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

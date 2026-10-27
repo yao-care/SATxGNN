@@ -33,7 +33,8 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 </div>
 
-# أسفوتاز ألفا (Asfotase Alfa): من نقص الفوسفاتاز (Hypophosphatasia) إلى اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي النووي
+## أسفوتاز ألفا (Asfotase Alfa): من نقص الفوسفاتاز (Hypophosphatasia) إلى اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي النووي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["hepatoportal sclerosis", "primitive portal vein thrombo
 
 </div>
 
-# دوريبينيم: من التهاب المرارة إلى التصلب البابي الكبدي
+## دوريبينيم: من التهاب المرارة إلى التصلب البابي الكبدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

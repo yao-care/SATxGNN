@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# سيليكوكسيب: من التهاب المفاصل الروماتويدي إلى التهاب الفقار الالتهابي
+## سيليكوكسيب: من التهاب المفاصل الروماتويدي إلى التهاب الفقار الالتهابي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 </div>
 
-# غالانتامين: من مرض الزهايمر إلى اضطرابات الحركة ذات المنشأ النفسي
+## غالانتامين: من مرض الزهايمر إلى اضطرابات الحركة ذات المنشأ النفسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

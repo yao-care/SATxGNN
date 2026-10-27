@@ -33,7 +33,8 @@ predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthm
 
 </div>
 
-# أرتيكائين: من التخدير الموضعي (الأسنان) إلى النقرس
+## أرتيكائين: من التخدير الموضعي (الأسنان) إلى النقرس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

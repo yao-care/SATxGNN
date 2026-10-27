@@ -33,7 +33,8 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 
 </div>
 
-# كيتورولاك: من التهاب الملتحمة التحسسي إلى اضطراب الصداع
+## كيتورولاك: من التهاب الملتحمة التحسسي إلى اضطراب الصداع
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydri
 
 </div>
 
-# ديكسلانسوبرازول: من مرض القرحة الهضمية إلى مرض القرحة الهضمية النشطة
+## ديكسلانسوبرازول: من مرض القرحة الهضمية إلى مرض القرحة الهضمية النشطة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

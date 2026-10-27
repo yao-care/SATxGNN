@@ -33,7 +33,8 @@ predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngi
 
 </div>
 
-# حمض الستريك: من عسر الهضم إلى أمراض المعدة
+## حمض الستريك: من عسر الهضم إلى أمراض المعدة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

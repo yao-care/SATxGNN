@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome"
 
 </div>
 
-# الإنسولين البشري: من داء السكري إلى التهاب المبيض المناعي الذاتي
+## الإنسولين البشري: من داء السكري إلى التهاب المبيض المناعي الذاتي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

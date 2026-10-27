@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# باليبيريدون: من الفصام إلى الحثل الشبكي (مع أو بدون شذوذات خارج العينية)
+## باليبيريدون: من الفصام إلى الحثل الشبكي (مع أو بدون شذوذات خارج العينية)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

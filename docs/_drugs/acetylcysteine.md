@@ -33,7 +33,8 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 
 </div>
 
-# أسيتيل سيستين: من التهاب الشعب الهوائية إلى أمراض الخثار
+## أسيتيل سيستين: من التهاب الشعب الهوائية إلى أمراض الخثار
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

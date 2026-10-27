@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 </div>
 
-# دينوسوماب: من هشاشة العظام إلى اعتلال الشبكية السكري الشديد غير التكاثري
+## دينوسوماب: من هشاشة العظام إلى اعتلال الشبكية السكري الشديد غير التكاثري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

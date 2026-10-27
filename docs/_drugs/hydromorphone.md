@@ -33,7 +33,8 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 
 </div>
 
-# هيدرومورفون: من نزلة البرد والتهاب البلعوم الأنفي إلى التهاب البلعوم
+## هيدرومورفون: من نزلة البرد والتهاب البلعوم الأنفي إلى التهاب البلعوم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

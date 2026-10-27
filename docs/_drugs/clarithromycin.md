@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# كلاريثروميسين: من العدوى البكتيرية التنفسية إلى فرط أميلاز الدم
+## كلاريثروميسين: من العدوى البكتيرية التنفسية إلى فرط أميلاز الدم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

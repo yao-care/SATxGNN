@@ -33,7 +33,8 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 </div>
 
-# حمض الديوكسيكوليك: من (لا توجد دواعي استعمال مسجّلة) إلى اعتلال الكلية السكري
+## حمض الديوكسيكوليك: من (لا توجد دواعي استعمال مسجّلة) إلى اعتلال الكلية السكري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

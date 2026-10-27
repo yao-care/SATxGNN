@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# كلوربروثيكسين: من الفصام إلى اضطراب ثنائي القطب الهوسي
+## كلوربروثيكسين: من الفصام إلى اضطراب ثنائي القطب الهوسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

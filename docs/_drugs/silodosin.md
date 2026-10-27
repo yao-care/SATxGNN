@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# سيلودوسين: من تضخم البروستاتا الحميد إلى فرط الشعر الخلقي (متلازمة أمبراس)
+## سيلودوسين: من تضخم البروستاتا الحميد إلى فرط الشعر الخلقي (متلازمة أمبراس)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 
 </div>
 
-# لوليكونازول: من فطريات الجلد (السعفة) إلى النخالة المبرقشة
+## لوليكونازول: من فطريات الجلد (السعفة) إلى النخالة المبرقشة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# لوسارتان: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الخبيث الكلوي الوعائي
+## لوسارتان: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الخبيث الكلوي الوعائي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

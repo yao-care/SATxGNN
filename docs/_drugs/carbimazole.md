@@ -33,7 +33,8 @@ predicted_indications: ["resistance to thyroid hormone due to a mutation in thyr
 
 </div>
 
-# كاربيمازول: من فرط نشاط الغدة الدرقية إلى الانسمام الدرقي الوليدي
+## كاربيمازول: من فرط نشاط الغدة الدرقية إلى الانسمام الدرقي الوليدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

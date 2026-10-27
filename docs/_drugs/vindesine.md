@@ -33,7 +33,8 @@ predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies a
 
 </div>
 
-# فيندزين: من سرطان الدم الليمفاوي الحاد إلى الورم الأرومي العصبي
+## فيندزين: من سرطان الدم الليمفاوي الحاد إلى الورم الأرومي العصبي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

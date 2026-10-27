@@ -33,7 +33,8 @@ predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm o
 
 </div>
 
-# إيميغلوسيراز: من داء غوشيه إلى متلازمة هورلر
+## إيميغلوسيراز: من داء غوشيه إلى متلازمة هورلر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

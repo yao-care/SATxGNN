@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 </div>
 
-# بيكالوتاميد: من سرطان البروستاتا إلى فرط الشعر
+## بيكالوتاميد: من سرطان البروستاتا إلى فرط الشعر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

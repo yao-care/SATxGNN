@@ -33,7 +33,8 @@ predicted_indications: ["obsolete bundle branch block", "malignant hypertensive 
 
 </div>
 
-# فيراباميل: من ارتفاع ضغط الدم إلى كتلة الحزمة (Bundle Branch Block)
+## فيراباميل: من ارتفاع ضغط الدم إلى كتلة الحزمة (Bundle Branch Block)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

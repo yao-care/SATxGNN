@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# سيبروهبتادين: من الاستطبابات المرضية التحسسية إلى الشرى التحسسي (Allergic Urticaria)
+## سيبروهبتادين: من الاستطبابات المرضية التحسسية إلى الشرى التحسسي (Allergic Urticaria)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

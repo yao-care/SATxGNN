@@ -33,7 +33,8 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 </div>
 
-# إنتاكابون: من داء باركنسون إلى الخرف ذي أجسام ليوي
+## إنتاكابون: من داء باركنسون إلى الخرف ذي أجسام ليوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

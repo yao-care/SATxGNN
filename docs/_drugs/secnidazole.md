@@ -33,7 +33,8 @@ predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulv
 
 </div>
 
-# سيكنيدازول: من التهاب المهبل الجرثومي والمشعرات إلى إفرازات المهبل
+## سيكنيدازول: من التهاب المهبل الجرثومي والمشعرات إلى إفرازات المهبل
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

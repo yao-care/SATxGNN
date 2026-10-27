@@ -33,7 +33,8 @@ predicted_indications: ["diabetic nephropathy", "brain small vessel disease 1 wi
 
 </div>
 
-# هايميكرومون: من الاستطباب الأصلي غير المحدد إلى اعتلال الكلية السكري
+## هايميكرومون: من الاستطباب الأصلي غير المحدد إلى اعتلال الكلية السكري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic 
 
 </div>
 
-# فليكاينيد: من الرجفان الأذيني إلى السكتة الدماغية
+## فليكاينيد: من الرجفان الأذيني إلى السكتة الدماغية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["specific developmental disorder", "faciodigitogenital s
 
 </div>
 
-# أتوموكسيتين: من اضطراب نقص الانتباه وفرط الحركة إلى الاضطراب النمائي النوعي
+## أتوموكسيتين: من اضطراب نقص الانتباه وفرط الحركة إلى الاضطراب النمائي النوعي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

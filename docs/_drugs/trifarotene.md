@@ -33,7 +33,8 @@ predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma ga
 
 </div>
 
-# تريفاروتين: من حب الشباب إلى ارتفاع الزنك في البلازما
+## تريفاروتين: من حب الشباب إلى ارتفاع الزنك في البلازما
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

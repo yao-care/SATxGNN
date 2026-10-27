@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Ra
 
 </div>
 
-# ثيروتروبين ألفا: من استخدام تشخيصي مساعد في سرطان الغدة الدرقية إلى الصداع النصفي (Migraine Disorder)
+## ثيروتروبين ألفا: من استخدام تشخيصي مساعد في سرطان الغدة الدرقية إلى الصداع النصفي (Migraine Disorder)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

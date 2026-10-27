@@ -33,7 +33,8 @@ predicted_indications: ["trichotillomania", "manic bipolar affective disorder", 
 
 </div>
 
-# بيموزيد: من متلازمة توريت إلى هوس الشعر (trichotillomania)
+## بيموزيد: من متلازمة توريت إلى هوس الشعر (trichotillomania)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

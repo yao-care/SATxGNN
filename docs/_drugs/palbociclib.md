@@ -33,7 +33,8 @@ predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic d
 
 </div>
 
-# بالبوسيكليب: من سرطان الثدي إلى التهاب المفاصل الرثياني
+## بالبوسيكليب: من سرطان الثدي إلى التهاب المفاصل الرثياني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

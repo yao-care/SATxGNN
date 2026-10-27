@@ -33,7 +33,8 @@ predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 
 </div>
 
-# تيموزولوميد: من الورم النجمي إلى الورم النجمي لدى البالغين
+## تيموزولوميد: من الورم النجمي إلى الورم النجمي لدى البالغين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

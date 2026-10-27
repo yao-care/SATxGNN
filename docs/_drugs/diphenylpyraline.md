@@ -33,7 +33,8 @@ predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 
 </div>
 
-# دايفينيل بيرالين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+## دايفينيل بيرالين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

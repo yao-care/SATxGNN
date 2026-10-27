@@ -33,7 +33,8 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 </div>
 
-# سترات المغنيسيوم: من هشاشة العظام إلى متلازمة الكالسيوم والقلويات
+## سترات المغنيسيوم: من هشاشة العظام إلى متلازمة الكالسيوم والقلويات
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

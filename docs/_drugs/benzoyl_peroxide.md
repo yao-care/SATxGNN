@@ -33,7 +33,8 @@ predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl 
 
 </div>
 
-# بيروكسيد البنزويل: من حب الشباب إلى التقرن الجريبي المقلوب في الفرج
+## بيروكسيد البنزويل: من حب الشباب إلى التقرن الجريبي المقلوب في الفرج
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

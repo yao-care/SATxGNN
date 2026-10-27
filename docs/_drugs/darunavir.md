@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# داروناڤير: من عدوى فيروس نقص المناعة البشرية (HIV) إلى عدوى فيروس نقص المناعة القردي (SIV)
+## داروناڤير: من عدوى فيروس نقص المناعة البشرية (HIV) إلى عدوى فيروس نقص المناعة القردي (SIV)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

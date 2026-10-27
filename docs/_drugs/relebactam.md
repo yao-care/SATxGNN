@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# ريليباكتام: من التهاب المسالك البولية إلى فرط أميلاز الدم
+## ريليباكتام: من التهاب المسالك البولية إلى فرط أميلاز الدم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

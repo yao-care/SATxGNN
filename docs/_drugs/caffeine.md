@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute lar
 
 </div>
 
-# الكافيين: من الصداع النصفي والتهاب الأنف التحسسي إلى اضطراب الصداع النومي (Hypnic Headache)
+## الكافيين: من الصداع النصفي والتهاب الأنف التحسسي إلى اضطراب الصداع النومي (Hypnic Headache)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

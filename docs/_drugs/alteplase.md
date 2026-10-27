@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 </div>
 
-# ألتيبلاز: من احتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي الجانبي
+## ألتيبلاز: من احتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي الجانبي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

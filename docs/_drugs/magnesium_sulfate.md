@@ -33,7 +33,8 @@ predicted_indications: ["preeclampsia/eclampsia", "toxemia of pregnancy", "throm
 
 </div>
 
-# كبريتات المغنيسيوم: من الإمساك وتسمم الحمل إلى مقدمة الارتجاع / الارتجاع (Preeclampsia/Eclampsia)
+## كبريتات المغنيسيوم: من الإمساك وتسمم الحمل إلى مقدمة الارتجاع / الارتجاع (Preeclampsia/Eclampsia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

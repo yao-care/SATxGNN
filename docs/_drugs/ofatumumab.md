@@ -33,7 +33,8 @@ predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma
 
 </div>
 
-# أوفاتوموماب: من سرطان الدم الليمفاوي الحاد إلى سرطان الغدد الليمفاوية الجريبي
+## أوفاتوموماب: من سرطان الدم الليمفاوي الحاد إلى سرطان الغدد الليمفاوية الجريبي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

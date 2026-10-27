@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# تيزانيدين: من حالته الأصلية إلى الصداع النصفي (اضطراب الشقيقة)
+## تيزانيدين: من حالته الأصلية إلى الصداع النصفي (اضطراب الشقيقة)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

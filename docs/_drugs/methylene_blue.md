@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemog
 
 </div>
 
-# الميثيلين الأزرق: من الميتهيموغلوبينية إلى التهاب الشعب الهوائية
+## الميثيلين الأزرق: من الميتهيموغلوبينية إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

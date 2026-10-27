@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 </div>
 
-# فوكسيلابريفير: من عدوى فيروس التهاب الكبد C المزمنة إلى عدوى فيروس التهاب الكبد B
+## فوكسيلابريفير: من عدوى فيروس التهاب الكبد C المزمنة إلى عدوى فيروس التهاب الكبد B
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

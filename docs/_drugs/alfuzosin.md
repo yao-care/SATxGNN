@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# ألفوزوسين: من تضخم البروستاتا الحميد إلى فرط الشعر الخلقي من نوع أمبراس
+## ألفوزوسين: من تضخم البروستاتا الحميد إلى فرط الشعر الخلقي من نوع أمبراس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

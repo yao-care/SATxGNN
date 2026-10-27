@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-# إيميبرامين: من اضطراب القلق إلى اضطراب نقص الانتباه وفرط الحركة
+## إيميبرامين: من اضطراب القلق إلى اضطراب نقص الانتباه وفرط الحركة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

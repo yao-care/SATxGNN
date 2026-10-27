@@ -33,7 +33,8 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 </div>
 
-# دوكسوروبيسين: من اللوكيميا والأورام اللمفاوية إلى ساركوما إوينغ
+## دوكسوروبيسين: من اللوكيميا والأورام اللمفاوية إلى ساركوما إوينغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

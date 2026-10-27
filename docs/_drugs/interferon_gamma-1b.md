@@ -33,7 +33,8 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 
 </div>
 
-# إنترفيرون غاما-1b: من الاستطبابات المرخّصة إلى أمراض القلب
+## إنترفيرون غاما-1b: من الاستطبابات المرخّصة إلى أمراض القلب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

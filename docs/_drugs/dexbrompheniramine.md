@@ -33,7 +33,8 @@ predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, a
 
 </div>
 
-# ديكسبرومفينيرامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+## ديكسبرومفينيرامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# فلوبنتيكسول: من الفصام إلى حثل الشبكية مع أو بدون شذوذات خارج العين
+## فلوبنتيكسول: من الفصام إلى حثل الشبكية مع أو بدون شذوذات خارج العين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

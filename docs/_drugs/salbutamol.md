@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 </div>
 
-# سالبوتامول: من الربو إلى التهاب الملتحمة الحليمي
+## سالبوتامول: من الربو إلى التهاب الملتحمة الحليمي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

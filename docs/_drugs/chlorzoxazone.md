@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 
 </div>
 
-# كلورزوكسازون: من الاستطباب الأصلي (غير محدد في البيانات) إلى الصداع النصفي
+## كلورزوكسازون: من الاستطباب الأصلي (غير محدد في البيانات) إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

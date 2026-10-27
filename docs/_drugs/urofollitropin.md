@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ca
 
 </div>
 
-# يوروفوليتروبين: من تحفيز المبيض إلى الصداع النصفي
+## يوروفوليتروبين: من تحفيز المبيض إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

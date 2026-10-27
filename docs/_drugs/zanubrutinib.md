@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 </div>
 
-# زانوبروتينيب: من لمفوما الخلايا الوشاحية إلى ابيضاض الدم النقوي
+## زانوبروتينيب: من لمفوما الخلايا الوشاحية إلى ابيضاض الدم النقوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

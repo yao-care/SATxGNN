@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "ret
 
 </div>
 
-# بليوميسين: من لمفومة هودجكين إلى ورم ذيل الفرس (Cauda Equina Neoplasm)
+## بليوميسين: من لمفومة هودجكين إلى ورم ذيل الفرس (Cauda Equina Neoplasm)
+{: .text-alpha }
 
 > ملاحظة: يتناول التقرير المؤشر الأعلى درجة وفق نموذج TxGNN (ورم ذيل الفرس). وللمقارنة تُعرض أدناه المؤشرات الأخرى المتوقعة، لأن الأدلة الأقوى تخص مؤشراً آخر هو «ساركوما الخلايا الشبكية».
 

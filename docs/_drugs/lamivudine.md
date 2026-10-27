@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# لاميفودين: من التهاب الكبد B المزمن وفيروس HIV إلى عدوى فيروس نقص المناعة القردي (SIV)
+## لاميفودين: من التهاب الكبد B المزمن وفيروس HIV إلى عدوى فيروس نقص المناعة القردي (SIV)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

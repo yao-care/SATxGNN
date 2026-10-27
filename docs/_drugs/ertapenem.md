@@ -33,7 +33,8 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 
 </div>
 
-# إرتابينيم: من التهاب الرئة الجرثومي إلى التهاب المفاصل الجرثومي
+## إرتابينيم: من التهاب الرئة الجرثومي إلى التهاب المفاصل الجرثومي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar
 
 </div>
 
-# تازاروتين: من الصدفية إلى التهاب الجلد الدهني
+## تازاروتين: من الصدفية إلى التهاب الجلد الدهني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

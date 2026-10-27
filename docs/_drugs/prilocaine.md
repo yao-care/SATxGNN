@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 </div>
 
-# بريلوكايين (Prilocaine): من القذف المبكر إلى التهاب الملتحمة الحليمي
+## بريلوكايين (Prilocaine): من القذف المبكر إلى التهاب الملتحمة الحليمي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

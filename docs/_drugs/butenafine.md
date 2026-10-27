@@ -33,7 +33,8 @@ predicted_indications: ["endothrix infectious disease", "Majocchi granuloma", "e
 
 </div>
 
-# بوتينافين: من الفطريات الجلدية السطحية إلى داء المبيضات الجلدي
+## بوتينافين: من الفطريات الجلدية السطحية إلى داء المبيضات الجلدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

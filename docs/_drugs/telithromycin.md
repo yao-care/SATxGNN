@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# تيليثروميسين: من العدوى العقدية إلى فرط أميلاز الدم
+## تيليثروميسين: من العدوى العقدية إلى فرط أميلاز الدم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

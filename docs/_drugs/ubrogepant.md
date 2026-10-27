@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 </div>
 
-# يوبروجيبانت: من الصداع النصفي إلى الصداع النصفي مع الأورة الجذعية
+## يوبروجيبانت: من الصداع النصفي إلى الصداع النصفي مع الأورة الجذعية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

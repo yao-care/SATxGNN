@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 </div>
 
-# نيتروغليسرين: من الاستطبابات الأصلية إلى ارتفاع ضغط الدم الرئوي
+## نيتروغليسرين: من الاستطبابات الأصلية إلى ارتفاع ضغط الدم الرئوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

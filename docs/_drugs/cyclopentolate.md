@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# سيكلوبنتولات: من شلل التكيّف (Cycloplegia) إلى متلازمة ذيل الفرس (Cauda Equina Syndrome)
+## سيكلوبنتولات: من شلل التكيّف (Cycloplegia) إلى متلازمة ذيل الفرس (Cauda Equina Syndrome)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

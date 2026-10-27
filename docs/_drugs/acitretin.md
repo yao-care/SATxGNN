@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosu
 
 </div>
 
-# أسيتريتين: من الاستطباب الأصلي إلى حب الشباب (Acne)
+## أسيتريتين: من الاستطباب الأصلي إلى حب الشباب (Acne)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

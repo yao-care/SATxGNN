@@ -33,7 +33,8 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 </div>
 
-# ميثيلفينيديت: من اضطراب فرط الحركة وتشتت الانتباه إلى اضطراب النمو النوعي
+## ميثيلفينيديت: من اضطراب فرط الحركة وتشتت الانتباه إلى اضطراب النمو النوعي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

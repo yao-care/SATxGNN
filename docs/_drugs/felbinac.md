@@ -33,7 +33,8 @@ predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromes
 
 </div>
 
-# فيلبيناك: من التهاب المفاصل العظمي إلى متلازمة بروكيولميا مع نقص تكوّن المينا
+## فيلبيناك: من التهاب المفاصل العظمي إلى متلازمة بروكيولميا مع نقص تكوّن المينا
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

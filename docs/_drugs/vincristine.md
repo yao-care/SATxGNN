@@ -33,7 +33,8 @@ predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies a
 
 </div>
 
-# فينكريستين: من اللوكيميا الليمفاوية الحادة إلى الورم العقدي العصبي الأرومي (Ganglioneuroblastoma)
+## فينكريستين: من اللوكيميا الليمفاوية الحادة إلى الورم العقدي العصبي الأرومي (Ganglioneuroblastoma)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simple
 
 </div>
 
-# نيبافيناك: من استطبابات غير مسجّلة إلى أمراض العين
+## نيبافيناك: من استطبابات غير مسجّلة إلى أمراض العين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

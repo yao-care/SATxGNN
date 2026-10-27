@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 </div>
 
-# هيدروكينون: من الاستخدام الموضعي لتفتيح التصبغ إلى التقرن الدهني (Seborrheic Keratosis)
+## هيدروكينون: من الاستخدام الموضعي لتفتيح التصبغ إلى التقرن الدهني (Seborrheic Keratosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# سيفوروكسيم: من العدوى البكتيرية إلى عدوى المسالك البولية
+## سيفوروكسيم: من العدوى البكتيرية إلى عدوى المسالك البولية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

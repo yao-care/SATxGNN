@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 
 </div>
 
-# سورافينيب: من سرطان الخلايا الكبدية إلى الساركوما الشحمية
+## سورافينيب: من سرطان الخلايا الكبدية إلى الساركوما الشحمية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

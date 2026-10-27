@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# أولانزابين: من الاضطرابات الذهانية والمزاجية إلى الرُّهاب الساحة (Agoraphobia)
+## أولانزابين: من الاضطرابات الذهانية والمزاجية إلى الرُّهاب الساحة (Agoraphobia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

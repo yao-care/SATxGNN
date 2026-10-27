@@ -33,7 +33,8 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 
 </div>
 
-# داساتينيب: من سرطان الدم النقوي المزمن إلى ساركوما إيوينغ
+## داساتينيب: من سرطان الدم النقوي المزمن إلى ساركوما إيوينغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

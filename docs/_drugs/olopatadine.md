@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# أولوباتادين: من التهاب الأنف التحسسي إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+## أولوباتادين: من التهاب الأنف التحسسي إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

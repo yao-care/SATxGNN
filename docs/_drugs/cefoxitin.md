@@ -33,7 +33,8 @@ predicted_indications: ["infectious otitis media", "urinary tract infection (dis
 
 </div>
 
-# سيفوكسيتين: من العدوى البكتيرية إلى التهاب الأذن الوسطى المعدي
+## سيفوكسيتين: من العدوى البكتيرية إلى التهاب الأذن الوسطى المعدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

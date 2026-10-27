@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# نيسرغولين (Nicergoline): من الاستطباب الأصلي غير المحدد إلى فرط الشعر (Hypertrichosis)
+## نيسرغولين (Nicergoline): من الاستطباب الأصلي غير المحدد إلى فرط الشعر (Hypertrichosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

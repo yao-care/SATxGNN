@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 
 </div>
 
-# فارينيكلين: من الإقلاع عن التدخين إلى اضطراب الصداع النصفي
+## فارينيكلين: من الإقلاع عن التدخين إلى اضطراب الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

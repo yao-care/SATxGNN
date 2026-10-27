@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart
 
 </div>
 
-# أسيكلوفير: من الالتهابات الهربسية إلى الثآليل الشائعة
+## أسيكلوفير: من الالتهابات الهربسية إلى الثآليل الشائعة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

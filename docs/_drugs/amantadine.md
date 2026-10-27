@@ -33,7 +33,8 @@ predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase defici
 
 </div>
 
-# أمانتادين: من داء باركنسون إلى التهاب النخاع (Myelitis)
+## أمانتادين: من داء باركنسون إلى التهاب النخاع (Myelitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

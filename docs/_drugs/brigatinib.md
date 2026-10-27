@@ -33,7 +33,8 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 </div>
 
-# بريغاتينيب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة الورمي (Fibromatosis, Gingival)
+## بريغاتينيب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة الورمي (Fibromatosis, Gingival)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

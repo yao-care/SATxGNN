@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 
 </div>
 
-# ريميكسولون: من التهاب العنبية إلى التهاب الجلد الدهني (Seborrheic Dermatitis)
+## ريميكسولون: من التهاب العنبية إلى التهاب الجلد الدهني (Seborrheic Dermatitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

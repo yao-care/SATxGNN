@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# بينازيبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الوعائي الخبيث
+## بينازيبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الوعائي الخبيث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

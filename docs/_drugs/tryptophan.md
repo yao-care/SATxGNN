@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma",
 
 </div>
 
-# التريبتوفان: من غياب مؤشر مرخّص إلى متلازمة تململ الساقين
+## التريبتوفان: من غياب مؤشر مرخّص إلى متلازمة تململ الساقين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

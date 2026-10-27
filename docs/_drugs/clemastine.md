@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rec
 
 </div>
 
-# كليماستين: من الحساسية الأنفية إلى الشرى التحسسي
+## كليماستين: من الحساسية الأنفية إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

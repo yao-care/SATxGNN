@@ -33,7 +33,8 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 </div>
 
-# ريسانكيزوماب: من الصدفية إلى التهاب الجلد
+## ريسانكيزوماب: من الصدفية إلى التهاب الجلد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

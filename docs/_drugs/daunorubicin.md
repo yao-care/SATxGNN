@@ -33,7 +33,8 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 
 </div>
 
-# داونوروبيسين: من اللوكيميا الحادة إلى لمفومة هودجكين
+## داونوروبيسين: من اللوكيميا الحادة إلى لمفومة هودجكين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

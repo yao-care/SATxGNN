@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# تتريزولين: من التهاب البلعوم ونزلة البرد إلى أمراض التجويف الأنفي
+## تتريزولين: من التهاب البلعوم ونزلة البرد إلى أمراض التجويف الأنفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-# تيوتروبيوم: من التهاب الشعب الهوائية والربو إلى مرض الرئة الانسدادي
+## تيوتروبيوم: من التهاب الشعب الهوائية والربو إلى مرض الرئة الانسدادي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

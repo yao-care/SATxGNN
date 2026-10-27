@@ -33,7 +33,8 @@ predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal ureth
 
 </div>
 
-# أمبيسيلين: من الالتهابات البكتيرية إلى التهاب الحنجرة
+## أمبيسيلين: من الالتهابات البكتيرية إلى التهاب الحنجرة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

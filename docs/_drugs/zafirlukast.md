@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "obstructive lung disease"]
 
 </div>
 
-# زافيرلوكاست: من الربو إلى التهاب الشعب الهوائية
+## زافيرلوكاست: من الربو إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 </div>
 
-# سيبونيمود: من الاستطباب الأصلي إلى ارتفاع ضغط الدم الرئوي
+## سيبونيمود: من الاستطباب الأصلي إلى ارتفاع ضغط الدم الرئوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

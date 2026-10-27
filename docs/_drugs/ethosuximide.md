@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 </div>
 
-# إيثوسوكسيميد: من صرع الغيبة إلى متلازمة عدم كفاية مضاد الإدرار الكلوي المنشأ (NSIAD)
+## إيثوسوكسيميد: من صرع الغيبة إلى متلازمة عدم كفاية مضاد الإدرار الكلوي المنشأ (NSIAD)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

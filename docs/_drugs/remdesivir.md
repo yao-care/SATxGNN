@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease"
 
 </div>
 
-# ريمديسيفير: من الاستطباب الأصلي إلى الورم الصماوي المتعدد
+## ريمديسيفير: من الاستطباب الأصلي إلى الورم الصماوي المتعدد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

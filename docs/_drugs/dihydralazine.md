@@ -33,7 +33,8 @@ predicted_indications: ["heart disease", "Pierre Robin syndrome associated with 
 
 </div>
 
-# ديهيدرالازين: من الاستطبابات المضادة لارتفاع ضغط الدم إلى أمراض القلب
+## ديهيدرالازين: من الاستطبابات المضادة لارتفاع ضغط الدم إلى أمراض القلب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

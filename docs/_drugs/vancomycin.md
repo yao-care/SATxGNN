@@ -33,7 +33,8 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 </div>
 
-# فانكوميسين: من التهاب القولون بالمطثية العسيرة إلى تصلب الجلد المنتشر
+## فانكوميسين: من التهاب القولون بالمطثية العسيرة إلى تصلب الجلد المنتشر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

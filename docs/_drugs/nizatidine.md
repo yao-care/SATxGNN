@@ -33,7 +33,8 @@ predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple en
 
 </div>
 
-# نيزاتيدين: من القرحة المعدية إلى مرض القرحة الهضمية النشطة
+## نيزاتيدين: من القرحة المعدية إلى مرض القرحة الهضمية النشطة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["chronic follicular conjunctivitis", "conjunctival folli
 
 </div>
 
-# لوتيبريدنول إيتابونات: من التهاب العنبية إلى التهاب الملتحمة الجريبي المزمن
+## لوتيبريدنول إيتابونات: من التهاب العنبية إلى التهاب الملتحمة الجريبي المزمن
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

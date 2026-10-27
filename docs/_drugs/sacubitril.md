@@ -33,7 +33,8 @@ predicted_indications: ["brain small vessel disease 1 with or without ocular ano
 
 </div>
 
-# ساكوبيتريل: من (لا توجد دواعي استعمال مسجلة) إلى اعتلال الكلية السكري
+## ساكوبيتريل: من (لا توجد دواعي استعمال مسجلة) إلى اعتلال الكلية السكري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

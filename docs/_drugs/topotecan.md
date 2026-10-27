@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 
 </div>
 
-# توبوتيكان: من سرطان المبيض إلى سرطان الثدي الأنثوي
+## توبوتيكان: من سرطان المبيض إلى سرطان الثدي الأنثوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

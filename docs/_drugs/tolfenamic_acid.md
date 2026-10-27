@@ -33,7 +33,8 @@ predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis
 
 </div>
 
-# حمض التولفيناميك: من الاستطباب الأصلي غير المسجّل إلى اضطراب الصداع
+## حمض التولفيناميك: من الاستطباب الأصلي غير المسجّل إلى اضطراب الصداع
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

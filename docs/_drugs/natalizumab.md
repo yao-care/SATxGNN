@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonp
 
 </div>
 
-# ناتاليزوماب: من داء كرون إلى الصدفية
+## ناتاليزوماب: من داء كرون إلى الصدفية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# تيلوتريستات إيثيل: من الأمراض الإسهالية إلى متلازمة ذنب الفرس
+## تيلوتريستات إيثيل: من الأمراض الإسهالية إلى متلازمة ذنب الفرس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

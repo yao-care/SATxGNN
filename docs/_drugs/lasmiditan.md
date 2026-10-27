@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 </div>
 
-# لاسميديتان: من الصداع النصفي إلى الصداع النصفي مع أورة جذع الدماغ
+## لاسميديتان: من الصداع النصفي إلى الصداع النصفي مع أورة جذع الدماغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

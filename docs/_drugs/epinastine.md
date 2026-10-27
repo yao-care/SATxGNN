@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
 
 </div>
 
-# إبيناستين: من التهاب الملتحمة التأتبي إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+## إبيناستين: من التهاب الملتحمة التأتبي إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

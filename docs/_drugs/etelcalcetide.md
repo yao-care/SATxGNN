@@ -33,7 +33,8 @@ predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with 
 
 </div>
 
-# إيتيلكالسيتايد: من فرط نشاط جارات الدرق إلى فرط فوسفات الدم
+## إيتيلكالسيتايد: من فرط نشاط جارات الدرق إلى فرط فوسفات الدم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

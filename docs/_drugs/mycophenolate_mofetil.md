@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 </div>
 
-# ميكوفينولات موفيتيل: من الوقاية من رفض الزرع إلى عدوى فيروس نقص المناعة البشرية (HIV)
+## ميكوفينولات موفيتيل: من الوقاية من رفض الزرع إلى عدوى فيروس نقص المناعة البشرية (HIV)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

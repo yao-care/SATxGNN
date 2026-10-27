@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# ديوزمين (Diosmin): من الاستطباب الأصلي إلى انقطاع الطمث (Amenorrhea)
+## ديوزمين (Diosmin): من الاستطباب الأصلي إلى انقطاع الطمث (Amenorrhea)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

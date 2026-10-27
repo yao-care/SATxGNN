@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficien
 
 </div>
 
-# كاربامازيبين: من الصرع إلى ورم العصب ثلاثي التوائم
+## كاربامازيبين: من الصرع إلى ورم العصب ثلاثي التوائم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

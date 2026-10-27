@@ -33,7 +33,8 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-# غوليموماب: من التهاب المفاصل الروماتويدي إلى التهاب الفقار الالتهابي
+## غوليموماب: من التهاب المفاصل الروماتويدي إلى التهاب الفقار الالتهابي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

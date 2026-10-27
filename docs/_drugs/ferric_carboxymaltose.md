@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis"]
 
 </div>
 
-# كربوكسي مالتوز الحديديك (Ferric Carboxymaltose): من علاج نقص الحديد إلى التهاب القصبات الهوائية
+## كربوكسي مالتوز الحديديك (Ferric Carboxymaltose): من علاج نقص الحديد إلى التهاب القصبات الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

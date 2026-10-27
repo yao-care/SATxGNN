@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "food-dependent exercise-ind
 
 </div>
 
-# الإبينفرين: من الربو والتأق إلى مرض الرئة الانسدادي
+## الإبينفرين: من الربو والتأق إلى مرض الرئة الانسدادي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

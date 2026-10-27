@@ -33,7 +33,8 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 </div>
 
-# لاناديلوماب: من الوذمة الوعائية الوراثية إلى نقص مثبط C1
+## لاناديلوماب: من الوذمة الوعائية الوراثية إلى نقص مثبط C1
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 </div>
 
-# إيكاتيبانت: من الوذمة الوعائية الوراثية إلى نقص مثبط C1
+## إيكاتيبانت: من الوذمة الوعائية الوراثية إلى نقص مثبط C1
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

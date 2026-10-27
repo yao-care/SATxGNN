@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 </div>
 
-# تريتينوين: من حب الشباب وابيضاض الدم الpromyelocytic الحاد إلى العقيدات الروماتويدية
+## تريتينوين: من حب الشباب وابيضاض الدم الpromyelocytic الحاد إلى العقيدات الروماتويدية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

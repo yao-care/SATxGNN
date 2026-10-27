@@ -33,7 +33,8 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 
 </div>
 
-# نيتيسينون: من التيروزينemia إلى الحماض الأنبوبي الكلوي
+## نيتيسينون: من التيروزينemia إلى الحماض الأنبوبي الكلوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

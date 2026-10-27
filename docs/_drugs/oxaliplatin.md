@@ -33,7 +33,8 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 </div>
 
-# أوكساليبلاتين: من سرطان القولون النقيلي إلى الورم المتوسطي الجنبي الخبيث
+## أوكساليبلاتين: من سرطان القولون النقيلي إلى الورم المتوسطي الجنبي الخبيث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

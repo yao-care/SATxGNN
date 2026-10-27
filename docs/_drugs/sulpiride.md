@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# سولبيريد: من الفصام إلى الحثل الشبكي (مع أو بدون تشوهات خارج العين)
+## سولبيريد: من الفصام إلى الحثل الشبكي (مع أو بدون تشوهات خارج العين)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

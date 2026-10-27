@@ -33,7 +33,8 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-# سيرتوليزوماب بيغول: من داء كرون إلى التهاب الفقار (Inflammatory Spondylopathy)
+## سيرتوليزوماب بيغول: من داء كرون إلى التهاب الفقار (Inflammatory Spondylopathy)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

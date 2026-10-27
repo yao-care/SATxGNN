@@ -33,7 +33,8 @@ predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "b
 
 </div>
 
-# روكسوليتينيب (Ruxolitinib): من الأورام التكاثرية النقوية إلى ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (PEComa)
+## روكسوليتينيب (Ruxolitinib): من الأورام التكاثرية النقوية إلى ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (PEComa)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# الأيزولوسين: من الاستطباب الأصلي غير المسجّل إلى خزل المعدة (Gastroparesis)
+## الأيزولوسين: من الاستطباب الأصلي غير المسجّل إلى خزل المعدة (Gastroparesis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

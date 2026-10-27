@@ -33,7 +33,8 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 </div>
 
-# أبومورفين: من داء باركنسون إلى الفصام
+## أبومورفين: من داء باركنسون إلى الفصام
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

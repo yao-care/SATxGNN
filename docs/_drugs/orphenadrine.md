@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# أورفينادرين: من داء باركنسون إلى الفصام (مسار بحثي)
+## أورفينادرين: من داء باركنسون إلى الفصام (مسار بحثي)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "go
 
 </div>
 
-# سيفبروزيل: من التهابات الجهاز التنفسي إلى عدوى المسالك البولية
+## سيفبروزيل: من التهابات الجهاز التنفسي إلى عدوى المسالك البولية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

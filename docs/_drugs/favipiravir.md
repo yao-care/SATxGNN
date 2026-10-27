@@ -33,7 +33,8 @@ predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated 
 
 </div>
 
-# فافيبيرافير: من الإنفلونزا إلى المتلازمة البلعمية المرتبطة بالعدوى
+## فافيبيرافير: من الإنفلونزا إلى المتلازمة البلعمية المرتبطة بالعدوى
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

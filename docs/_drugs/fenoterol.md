@@ -33,7 +33,8 @@ predicted_indications: ["multiple system atrophy", "postural orthostatic tachyca
 
 </div>
 
-# فينوتيرول: من الاستطباب الأصلي غير المحدد إلى ضمور المنظومات المتعددة
+## فينوتيرول: من الاستطباب الأصلي غير المحدد إلى ضمور المنظومات المتعددة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

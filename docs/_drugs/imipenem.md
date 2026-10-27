@@ -33,7 +33,8 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 </div>
 
-# إيميبينيم (Imipenem): من الالتهاب الرئوي البكتيري إلى تصلب الجلد المنتشر
+## إيميبينيم (Imipenem): من الالتهاب الرئوي البكتيري إلى تصلب الجلد المنتشر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

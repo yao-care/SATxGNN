@@ -33,7 +33,8 @@ predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal t
 
 </div>
 
-# فورتيوكسيتين: من الاكتئاب أحادي القطب إلى الميلانخوليا (Melancholia)
+## فورتيوكسيتين: من الاكتئاب أحادي القطب إلى الميلانخوليا (Melancholia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

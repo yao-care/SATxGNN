@@ -33,7 +33,8 @@ predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropri
 
 </div>
 
-# الميثادون: من الاستطباب الأصلي غير المتوفر إلى متلازمة توريت
+## الميثادون: من الاستطباب الأصلي غير المتوفر إلى متلازمة توريت
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

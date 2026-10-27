@@ -33,7 +33,8 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 </div>
 
-# كارفيلزوميب: من الورم النخاعي البلازمي إلى الميلانوما
+## كارفيلزوميب: من الورم النخاعي البلازمي إلى الميلانوما
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

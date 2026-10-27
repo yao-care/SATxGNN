@@ -33,7 +33,8 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 </div>
 
-# سوكرالفات: من قرحة الاثني عشر إلى الارتجاع الاثني عشري المعدي
+## سوكرالفات: من قرحة الاثني عشر إلى الارتجاع الاثني عشري المعدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

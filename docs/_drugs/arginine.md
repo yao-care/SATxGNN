@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# الأرجينين: من مؤشر غير محدد إلى شلل المعدة (Gastroparesis)
+## الأرجينين: من مؤشر غير محدد إلى شلل المعدة (Gastroparesis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

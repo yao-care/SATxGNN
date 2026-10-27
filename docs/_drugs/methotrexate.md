@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 
 </div>
 
-# ميثوتريكسات: من ابيضاض الدم الليمفاوي الحاد إلى ورم الرئة الأرومي
+## ميثوتريكسات: من ابيضاض الدم الليمفاوي الحاد إلى ورم الرئة الأرومي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 </div>
 
-# إنكليسيران: من خفض الكوليسترول إلى نقص البوتاسيوم (توقّع نموذجي فقط)
+## إنكليسيران: من خفض الكوليسترول إلى نقص البوتاسيوم (توقّع نموذجي فقط)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

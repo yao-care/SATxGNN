@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "a
 
 </div>
 
-# إيفermectين: من داء أسطوانيات الخيط (السترونجيلويدات) إلى داء المبيضات الفرجي المهبلي
+## إيفermectين: من داء أسطوانيات الخيط (السترونجيلويدات) إلى داء المبيضات الفرجي المهبلي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

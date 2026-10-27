@@ -33,7 +33,8 @@ predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the 
 
 </div>
 
-# لاتانوبروست: من الجلوكوما مفتوحة الزاوية إلى الجلوكوما الوراثية الأولية
+## لاتانوبروست: من الجلوكوما مفتوحة الزاوية إلى الجلوكوما الوراثية الأولية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

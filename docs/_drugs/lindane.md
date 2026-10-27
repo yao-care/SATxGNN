@@ -33,7 +33,8 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 </div>
 
-# ليندان: من داء القمل والجرب إلى ورم الأرومة العصبية العنقي
+## ليندان: من داء القمل والجرب إلى ورم الأرومة العصبية العنقي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

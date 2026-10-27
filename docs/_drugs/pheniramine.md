@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# فينيرامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+## فينيرامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

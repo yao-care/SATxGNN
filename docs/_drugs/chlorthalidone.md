@@ -33,7 +33,8 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "m
 
 </div>
 
-# كلورثاليدون: من ارتفاع ضغط الدم إلى الزرق الوراثي الأولي
+## كلورثاليدون: من ارتفاع ضغط الدم إلى الزرق الوراثي الأولي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

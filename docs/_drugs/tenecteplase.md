@@ -33,7 +33,8 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 </div>
 
-# تينيكتبلاز: من احتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي السفلي
+## تينيكتبلاز: من احتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي السفلي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

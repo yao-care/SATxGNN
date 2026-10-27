@@ -33,7 +33,8 @@ predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic
 
 </div>
 
-# أسيتازولاميد: من الصرع الغيابي إلى فرط الحرارة الخبيثة الناجم عن الجهد
+## أسيتازولاميد: من الصرع الغيابي إلى فرط الحرارة الخبيثة الناجم عن الجهد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigemi
 
 </div>
 
-# كلونازيبام: من الصرع واضطراب القلق إلى متلازمة تململ الساقين
+## كلونازيبام: من الصرع واضطراب القلق إلى متلازمة تململ الساقين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# كلورفينيرامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+## كلورفينيرامين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

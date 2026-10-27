@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "v
 
 </div>
 
-# سيكلوفوسفاميد: من سرطان الثدي والأورام اللمفية إلى سرطان الغدد اللمفية (Lymph Node Cancer)
+## سيكلوفوسفاميد: من سرطان الثدي والأورام اللمفية إلى سرطان الغدد اللمفية (Lymph Node Cancer)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

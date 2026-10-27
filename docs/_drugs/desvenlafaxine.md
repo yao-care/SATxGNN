@@ -33,7 +33,8 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 </div>
 
-# ديسفينلافاكسين: من الاكتئاب الأحادي القطب إلى اضطراب الوسواس القهري
+## ديسفينلافاكسين: من الاكتئاب الأحادي القطب إلى اضطراب الوسواس القهري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

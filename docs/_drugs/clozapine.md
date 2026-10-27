@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# كلوزابين: من الاستطباب الأصلي إلى اضطراب ثنائي القطب (الهوس)
+## كلوزابين: من الاستطباب الأصلي إلى اضطراب ثنائي القطب (الهوس)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

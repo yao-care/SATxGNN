@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 
 </div>
 
-# ديسوجيستريل: من وسيلة منع الحمل إلى انقطاع الطمث (Amenorrhea)
+## ديسوجيستريل: من وسيلة منع الحمل إلى انقطاع الطمث (Amenorrhea)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

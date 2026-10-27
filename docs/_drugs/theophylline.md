@@ -33,7 +33,8 @@ predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotr
 
 </div>
 
-# ثيوفيلين (Theophylline): من الربو إلى المرض الخثاري
+## ثيوفيلين (Theophylline): من الربو إلى المرض الخثاري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 </div>
 
-# غوسيريلين: من التهاب بطانة الرحم إلى انقطاع الطمث
+## غوسيريلين: من التهاب بطانة الرحم إلى انقطاع الطمث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

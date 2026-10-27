@@ -33,7 +33,8 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 
 </div>
 
-# سيبروفلوكساسين: من العدوى البكتيرية إلى تصلب الجلد المنتشر
+## سيبروفلوكساسين: من العدوى البكتيرية إلى تصلب الجلد المنتشر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormal
 
 </div>
 
-# كلوفازيمين: من علاج الجذام إلى داء المتكيسات الرئوية (Pneumocystosis)
+## كلوفازيمين: من علاج الجذام إلى داء المتكيسات الرئوية (Pneumocystosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

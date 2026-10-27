@@ -33,7 +33,8 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 
 </div>
 
-# فلورويوراسيل: من سرطان المعدة والأورام الجلدية إلى ساركوما عضلية مخططة (Rhabdomyosarcoma)
+## فلورويوراسيل: من سرطان المعدة والأورام الجلدية إلى ساركوما عضلية مخططة (Rhabdomyosarcoma)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 </div>
 
-# وارفارين: من الأمراض الانصمامية والتخثرية إلى فرط التخثر الوراثي (Thrombophilia)
+## وارفارين: من الأمراض الانصمامية والتخثرية إلى فرط التخثر الوراثي (Thrombophilia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

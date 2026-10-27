@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 
 </div>
 
-# بريميدون: من الصرع إلى ورم العصب مثلث التوائم
+## بريميدون: من الصرع إلى ورم العصب مثلث التوائم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

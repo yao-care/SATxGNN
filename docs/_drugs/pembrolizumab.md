@@ -33,7 +33,8 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 
 </div>
 
-# بيمبروليزوماب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة (Fibromatosis, Gingival)
+## بيمبروليزوماب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة (Fibromatosis, Gingival)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

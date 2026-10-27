@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 </div>
 
-# باسيتراسين: من التهاب القرنية إلى التهاب القرنية والملتحمة النقطي الظهاري
+## باسيتراسين: من التهاب القرنية إلى التهاب القرنية والملتحمة النقطي الظهاري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

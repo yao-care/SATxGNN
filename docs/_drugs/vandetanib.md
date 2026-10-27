@@ -33,7 +33,8 @@ predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma 
 
 </div>
 
-# فانديتانيب: من سرطان الغدة الدرقية إلى سرطان الخلايا الكلوية
+## فانديتانيب: من سرطان الغدة الدرقية إلى سرطان الخلايا الكلوية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

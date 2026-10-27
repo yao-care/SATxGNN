@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar
 
 </div>
 
-# أيزوفلوران: من التخدير العام إلى ذبحة برينزميتال
+## أيزوفلوران: من التخدير العام إلى ذبحة برينزميتال
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

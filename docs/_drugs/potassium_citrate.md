@@ -33,7 +33,8 @@ predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative p
 
 </div>
 
-# سترات البوتاسيوم: من نقص البوتاسيوم إلى الحصيات الكلوية (Nephrolithiasis)
+## سترات البوتاسيوم: من نقص البوتاسيوم إلى الحصيات الكلوية (Nephrolithiasis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

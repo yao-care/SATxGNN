@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 </div>
 
-# إنسولين ديغلوديك: من داء السكري إلى داء السكري من النوع الأول
+## إنسولين ديغلوديك: من داء السكري إلى داء السكري من النوع الأول
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

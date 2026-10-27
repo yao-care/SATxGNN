@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# ريبوكسيتين: من الاكتئاب إلى رهاب الساحة (Agoraphobia)
+## ريبوكسيتين: من الاكتئاب إلى رهاب الساحة (Agoraphobia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

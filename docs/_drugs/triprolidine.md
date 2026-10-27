@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-# تريبروليدين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+## تريبروليدين: من التهاب الأنف التحسسي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 
 </div>
 
-# إيباستين: من التهاب الأنف التحسسي إلى مرض الشريان التاجي
+## إيباستين: من التهاب الأنف التحسسي إلى مرض الشريان التاجي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

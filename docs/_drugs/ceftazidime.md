@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# سيفتازيديم: من العدوى الجرثومية إلى عدوى المسالك البولية
+## سيفتازيديم: من العدوى الجرثومية إلى عدوى المسالك البولية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

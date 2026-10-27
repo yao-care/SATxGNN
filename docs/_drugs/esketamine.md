@@ -33,7 +33,8 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 </div>
 
-# إسكيتامين: من اضطراب القلق إلى رهاب الساحات (Agoraphobia)
+## إسكيتامين: من اضطراب القلق إلى رهاب الساحات (Agoraphobia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

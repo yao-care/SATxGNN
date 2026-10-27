@@ -33,7 +33,8 @@ predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesi
 
 </div>
 
-# روكسادستات: من فقر الدم المقاوم للعلاج إلى متلازمة جفاف العين
+## روكسادستات: من فقر الدم المقاوم للعلاج إلى متلازمة جفاف العين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

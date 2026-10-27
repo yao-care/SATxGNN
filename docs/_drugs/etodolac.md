@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# إيتودولاك: من التهاب المفاصل الروماتويدي إلى acromesomelic dysplasia من نوع هنتر-تومسون
+## إيتودولاك: من التهاب المفاصل الروماتويدي إلى acromesomelic dysplasia من نوع هنتر-تومسون
+{: .text-alpha }
 
 ## ملخص من جملة واحدة
 

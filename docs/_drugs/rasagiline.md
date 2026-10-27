@@ -33,7 +33,8 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 </div>
 
-# راسagيلين: من مرض باركنسون إلى الانحلال العصبي المرتبط بـ PLA2G6
+## راسagيلين: من مرض باركنسون إلى الانحلال العصبي المرتبط بـ PLA2G6
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# لاكوساميد: من الصرع إلى الصداع النصفي
+## لاكوساميد: من الصرع إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

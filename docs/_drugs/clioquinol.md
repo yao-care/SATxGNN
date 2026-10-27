@@ -33,7 +33,8 @@ predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "e
 
 </div>
 
-# كليوكينول: من فطريات الجلد (السعفة) إلى داء المبيضات الجلدي
+## كليوكينول: من فطريات الجلد (السعفة) إلى داء المبيضات الجلدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

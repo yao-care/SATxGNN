@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initia
 
 </div>
 
-# سنتيلا آسياتيكا (Centella asiatica): من استطبابات غير محددة إلى الأرق
+## سنتيلا آسياتيكا (Centella asiatica): من استطبابات غير محددة إلى الأرق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

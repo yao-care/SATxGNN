@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 </div>
 
-# بانيتوموماب: من سرطان القولون النقيلي إلى هشاشة العظام الناجمة عن الأدوية
+## بانيتوموماب: من سرطان القولون النقيلي إلى هشاشة العظام الناجمة عن الأدوية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

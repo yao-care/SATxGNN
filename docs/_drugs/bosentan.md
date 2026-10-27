@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 </div>
 
-# بوسنتان: من ارتفاع ضغط الشريان الرئوي إلى التهاب المفاصل الروماتويدي
+## بوسنتان: من ارتفاع ضغط الشريان الرئوي إلى التهاب المفاصل الروماتويدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

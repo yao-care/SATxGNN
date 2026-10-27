@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine wit
 
 </div>
 
-# دابوكسيتين: من سرعة القذف إلى الصداع النصفي
+## دابوكسيتين: من سرعة القذف إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

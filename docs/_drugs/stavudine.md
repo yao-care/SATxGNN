@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# ستافودين: من عدوى فيروس نقص المناعة البشرية (HIV) إلى عدوى فيروس نقص المناعة القردي
+## ستافودين: من عدوى فيروس نقص المناعة البشرية (HIV) إلى عدوى فيروس نقص المناعة القردي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

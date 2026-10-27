@@ -33,7 +33,8 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 
 </div>
 
-# راموسيروماب (Ramucirumab): من سرطان الرئة غير صغير الخلايا إلى سرطان غدي في الرباط الرحمي
+## راموسيروماب (Ramucirumab): من سرطان الرئة غير صغير الخلايا إلى سرطان غدي في الرباط الرحمي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

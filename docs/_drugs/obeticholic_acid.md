@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous 
 
 </div>
 
-# حمض أوبيتيكوليك (Obeticholic Acid): من الاستطباب الأصلي إلى التهاب المفاصل الروماتويدي
+## حمض أوبيتيكوليك (Obeticholic Acid): من الاستطباب الأصلي إلى التهاب المفاصل الروماتويدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

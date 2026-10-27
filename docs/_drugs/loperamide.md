@@ -33,7 +33,8 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 </div>
 
-# لوبيراميد: من أمراض الإسهال إلى التهاب الملتحمة المعدي الحاد
+## لوبيراميد: من أمراض الإسهال إلى التهاب الملتحمة المعدي الحاد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

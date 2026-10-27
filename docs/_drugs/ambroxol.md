@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vul
 
 </div>
 
-# أمبروكسول: من التهاب البلعوم إلى أمراض التجويف الأنفي
+## أمبروكسول: من التهاب البلعوم إلى أمراض التجويف الأنفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

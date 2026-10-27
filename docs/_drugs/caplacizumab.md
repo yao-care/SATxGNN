@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 </div>
 
-# كابلاسيزوماب: من فرفرية نقص الصفيحات إلى فرفرية نقص الصفيحات الخثارية (TTP)
+## كابلاسيزوماب: من فرفرية نقص الصفيحات إلى فرفرية نقص الصفيحات الخثارية (TTP)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

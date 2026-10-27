@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# أزابروبازون: من التهاب المفاصل الروماتويدي إلى acromesomelic dysplasia من نوع Hunter-Thompson
+## أزابروبازون: من التهاب المفاصل الروماتويدي إلى acromesomelic dysplasia من نوع Hunter-Thompson
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

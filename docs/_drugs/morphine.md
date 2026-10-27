@@ -33,7 +33,8 @@ predicted_indications: ["myofascial pain syndrome", "manic bipolar affective dis
 
 </div>
 
-# المورفين: من الإسهال المرضي إلى متلازمة تململ الساقين
+## المورفين: من الإسهال المرضي إلى متلازمة تململ الساقين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

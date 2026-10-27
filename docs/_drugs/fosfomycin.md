@@ -33,7 +33,8 @@ predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uteri
 
 </div>
 
-# فوسفوميسين: من التهاب المسالك البولية إلى التهاب الإحليل السيلاني
+## فوسفوميسين: من التهاب المسالك البولية إلى التهاب الإحليل السيلاني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

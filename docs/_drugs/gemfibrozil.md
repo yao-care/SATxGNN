@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 
 </div>
 
-# جيمفيبروزيل: من ارتفاع الدهون الثلاثية إلى التهاب المفاصل الرثياني
+## جيمفيبروزيل: من ارتفاع الدهون الثلاثية إلى التهاب المفاصل الرثياني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# فيكسوفينادين: من التهاب الأنف التحسسي إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+## فيكسوفينادين: من التهاب الأنف التحسسي إلى التهاب الملتحمة الوردي (Rosacea Conjunctivitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

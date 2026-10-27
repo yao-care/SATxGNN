@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 </div>
 
-# مونتيلوكاست: من التهاب الأنف التحسسي إلى التهاب الشعب الهوائية
+## مونتيلوكاست: من التهاب الأنف التحسسي إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

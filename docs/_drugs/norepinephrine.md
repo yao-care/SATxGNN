@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-# نورإبينفرين: من الربو إلى مرض الرئة الانسدادي
+## نورإبينفرين: من الربو إلى مرض الرئة الانسدادي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

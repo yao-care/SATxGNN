@@ -33,7 +33,8 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 </div>
 
-# ميلرينون: من قصور القلب الاحتقاني إلى الثعلبة (تساقط الشعر)
+## ميلرينون: من قصور القلب الاحتقاني إلى الثعلبة (تساقط الشعر)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

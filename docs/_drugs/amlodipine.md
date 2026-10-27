@@ -33,7 +33,8 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 </div>
 
-# أملوديبين (Amlodipine): من ارتفاع ضغط الدم إلى احتشاء جذع الدماغ
+## أملوديبين (Amlodipine): من ارتفاع ضغط الدم إلى احتشاء جذع الدماغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

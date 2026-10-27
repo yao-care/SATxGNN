@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 </div>
 
-# بيتا كاروتين: من المكمّل الغذائي متعدد الفيتامينات إلى حب الشباب
+## بيتا كاروتين: من المكمّل الغذائي متعدد الفيتامينات إلى حب الشباب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

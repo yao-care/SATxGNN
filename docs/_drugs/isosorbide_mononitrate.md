@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# أيزوسوربايد مونونيترات: من الاستطباب الأصلي غير المحدد إلى فرط الشعرانية (Hypertrichosis)
+## أيزوسوربايد مونونيترات: من الاستطباب الأصلي غير المحدد إلى فرط الشعرانية (Hypertrichosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

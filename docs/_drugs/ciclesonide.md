@@ -33,7 +33,8 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 
 </div>
 
-# سيكليسونايد: من الربو إلى الأكزيما التأتبية
+## سيكليسونايد: من الربو إلى الأكزيما التأتبية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

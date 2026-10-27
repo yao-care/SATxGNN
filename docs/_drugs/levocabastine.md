@@ -33,7 +33,8 @@ predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
 
 </div>
 
-# ليفوكاباستين: من التهاب الملتحمة التأرجي إلى الشرى التحسسي
+## ليفوكاباستين: من التهاب الملتحمة التأرجي إلى الشرى التحسسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

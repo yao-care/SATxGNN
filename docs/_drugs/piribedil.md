@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# بيريبيديل: من داء باركنسون إلى الحثل الشبكي (مع أو بدون شذوذات خارج العين)
+## بيريبيديل: من داء باركنسون إلى الحثل الشبكي (مع أو بدون شذوذات خارج العين)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

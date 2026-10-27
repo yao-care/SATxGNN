@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 
 </div>
 
-# سالميترول: من الربو وانتفاخ الرئة إلى التهاب الشعب الهوائية
+## سالميترول: من الربو وانتفاخ الرئة إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

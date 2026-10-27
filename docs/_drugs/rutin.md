@@ -33,7 +33,8 @@ predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of brea
 
 </div>
 
-# روتين: من نقص حمض الأسكوربيك (الاسقربوط) إلى داء التليف الكيسي في الثدي
+## روتين: من نقص حمض الأسكوربيك (الاسقربوط) إلى داء التليف الكيسي في الثدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

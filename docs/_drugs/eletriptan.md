@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-# إليتريبتان: من الصداع النصفي إلى الصداع النصفي مع أورة جذع الدماغ
+## إليتريبتان: من الصداع النصفي إلى الصداع النصفي مع أورة جذع الدماغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

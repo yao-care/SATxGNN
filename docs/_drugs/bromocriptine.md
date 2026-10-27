@@ -33,7 +33,8 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 </div>
 
-# بروموكريبتين: من داء باركنسون وفرط برولاكتين الدم إلى اعتلال الشبكية الشبيه بالحثل (Retinal Dystrophy)
+## بروموكريبتين: من داء باركنسون وفرط برولاكتين الدم إلى اعتلال الشبكية الشبيه بالحثل (Retinal Dystrophy)
+{: .text-alpha }
 
 ## ملخص بجملة واحدة
 

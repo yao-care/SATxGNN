@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach 
 
 </div>
 
-# كربونات المغنيسيوم: من مرض القرحة الهضمية إلى القرحة الهضمية النشطة
+## كربونات المغنيسيوم: من مرض القرحة الهضمية إلى القرحة الهضمية النشطة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

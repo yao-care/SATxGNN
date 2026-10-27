@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 
 </div>
 
-# كلورامفينيكول: من الحمى التيفية إلى التهاب الملتحمة
+## كلورامفينيكول: من الحمى التيفية إلى التهاب الملتحمة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

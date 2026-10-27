@@ -33,7 +33,8 @@ predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal
 
 </div>
 
-# إبيروبيسين: من سرطان الثدي إلى الليمفوما الرئوية الأولية
+## إبيروبيسين: من سرطان الثدي إلى الليمفوما الرئوية الأولية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

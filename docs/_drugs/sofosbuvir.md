@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 </div>
 
-# سوفوسبوفير: من عدوى فيروس التهاب الكبد C المزمنة إلى عدوى فيروس التهاب الكبد B
+## سوفوسبوفير: من عدوى فيروس التهاب الكبد C المزمنة إلى عدوى فيروس التهاب الكبد B
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

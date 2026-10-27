@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acroderm
 
 </div>
 
-# بيميكروليموس: من التهاب الجلد التأتبي إلى التهاب الجلد الدهني
+## بيميكروليموس: من التهاب الجلد التأتبي إلى التهاب الجلد الدهني
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

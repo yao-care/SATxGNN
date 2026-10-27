@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 </div>
 
-# تيلميسارتان: من ارتفاع ضغط الدم إلى انسداد الشريان الدماغي
+## تيلميسارتان: من ارتفاع ضغط الدم إلى انسداد الشريان الدماغي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

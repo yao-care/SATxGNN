@@ -33,7 +33,8 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 </div>
 
-# برينتوكسيماب فيدوتين: من لمفوما هودجكين إلى اللمفوما الجُريبية
+## برينتوكسيماب فيدوتين: من لمفوما هودجكين إلى اللمفوما الجُريبية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

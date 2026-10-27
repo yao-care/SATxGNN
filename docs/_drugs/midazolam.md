@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-# ميدازولام: من القلق إلى الأرق
+## ميدازولام: من القلق إلى الأرق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

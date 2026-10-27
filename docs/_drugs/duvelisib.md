@@ -33,7 +33,8 @@ predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelog
 
 </div>
 
-# ديفيليسيب (Duvelisib): من سرطانات الغدد اللمفاوية والدم من الخلايا البائية إلى لمفوما هودجكين
+## ديفيليسيب (Duvelisib): من سرطانات الغدد اللمفاوية والدم من الخلايا البائية إلى لمفوما هودجكين
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

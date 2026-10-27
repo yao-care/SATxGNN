@@ -33,7 +33,8 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 
 </div>
 
-# روكسيثرومايسين: من الالتهابات البكتيرية إلى الجذام
+## روكسيثرومايسين: من الالتهابات البكتيرية إلى الجذام
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

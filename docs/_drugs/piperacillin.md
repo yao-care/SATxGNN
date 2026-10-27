@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 </div>
 
-# بيبراسيلين: من العدوى البكتيرية إلى التهاب المفاصل الروماتويدي
+## بيبراسيلين: من العدوى البكتيرية إلى التهاب المفاصل الروماتويدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain 
 
 </div>
 
-# روسوفاستاتين: من اضطرابات شحوم الدم الأصلية إلى فرط كولesterول الدم العائلي
+## روسوفاستاتين: من اضطرابات شحوم الدم الأصلية إلى فرط كولesterول الدم العائلي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

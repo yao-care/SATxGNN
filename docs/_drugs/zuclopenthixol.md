@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# زوكلوبنثيكسول: من الفصام إلى الحثل الشبكي (مع أو بدون شذوذات خارج العين)
+## زوكلوبنثيكسول: من الفصام إلى الحثل الشبكي (مع أو بدون شذوذات خارج العين)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

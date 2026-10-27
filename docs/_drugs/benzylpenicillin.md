@@ -33,7 +33,8 @@ predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "u
 
 </div>
 
-# بنزيل بنسلين: من العدوى البكتيرية إلى التهاب ما حول التاج (Pericoronitis)
+## بنزيل بنسلين: من العدوى البكتيرية إلى التهاب ما حول التاج (Pericoronitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

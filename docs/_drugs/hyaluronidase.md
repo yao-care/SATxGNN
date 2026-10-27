@@ -33,7 +33,8 @@ predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonprolifer
 
 </div>
 
-# هيالورونيداز: من استطباب أصلي غير موثّق إلى اعتلال الشبكية السكري
+## هيالورونيداز: من استطباب أصلي غير موثّق إلى اعتلال الشبكية السكري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

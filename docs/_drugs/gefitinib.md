@@ -33,7 +33,8 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 
 </div>
 
-# جيفيتينيب: من سرطان الرئة غير صغير الخلايا إلى الورم الليفي اللثوي
+## جيفيتينيب: من سرطان الرئة غير صغير الخلايا إلى الورم الليفي اللثوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# سيفترياكسون: من العدوى العقدية إلى التهاب الأذن الوسطى المُعدي
+## سيفترياكسون: من العدوى العقدية إلى التهاب الأذن الوسطى المُعدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

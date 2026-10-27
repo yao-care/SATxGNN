@@ -33,7 +33,8 @@ predicted_indications: ["familial isolated hypoparathyroidism due to impaired PT
 
 </div>
 
-# كوليكالسيفيرول (CHOLECALCIFEROL): من هشاشة العظام واضطرابات فيتامين D إلى قصور جارات الدرق العائلي المعزول الناجم عن خلل إفراز PTH
+## كوليكالسيفيرول (CHOLECALCIFEROL): من هشاشة العظام واضطرابات فيتامين D إلى قصور جارات الدرق العائلي المعزول الناجم عن خلل إفراز PTH
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

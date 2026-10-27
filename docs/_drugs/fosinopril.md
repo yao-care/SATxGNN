@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# فوسينوبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الوعائي الخبيث
+## فوسينوبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الوعائي الخبيث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

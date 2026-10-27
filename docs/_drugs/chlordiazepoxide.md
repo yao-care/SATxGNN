@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 </div>
 
-# كلورديازيبوكسايد: من القلق واضطرابات انسحاب الكحول إلى الأرق
+## كلورديازيبوكسايد: من القلق واضطرابات انسحاب الكحول إلى الأرق
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

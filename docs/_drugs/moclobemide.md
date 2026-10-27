@@ -33,7 +33,8 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 </div>
 
-# موكلوبيمايد: من اضطراب القلق إلى رهاب الخلاء
+## موكلوبيمايد: من اضطراب القلق إلى رهاب الخلاء
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

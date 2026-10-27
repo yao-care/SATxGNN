@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 </div>
 
-# ريفامبيسين: من السل الرئوي إلى التهاب الملتحمة
+## ريفامبيسين: من السل الرئوي إلى التهاب الملتحمة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

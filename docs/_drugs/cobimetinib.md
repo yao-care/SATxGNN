@@ -33,7 +33,8 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 
 </div>
 
-# كوبيميتينيب: من الورم الميلانيني النقيلي إلى التصلب الجانبي الضموري
+## كوبيميتينيب: من الورم الميلانيني النقيلي إلى التصلب الجانبي الضموري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

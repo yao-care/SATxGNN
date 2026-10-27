@@ -33,7 +33,8 @@ predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis
 
 </div>
 
-# أولاراتوماب: من الساركوما إلى سرطان الظهارة البولية في الإحليل البروستاتي
+## أولاراتوماب: من الساركوما إلى سرطان الظهارة البولية في الإحليل البروستاتي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

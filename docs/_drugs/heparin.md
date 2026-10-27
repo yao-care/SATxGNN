@@ -33,7 +33,8 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 </div>
 
-# الهيبارين: من الانسداد الرئوي إلى نقص البروتين C الوراثي المتنحي (الميل للتخثر)
+## الهيبارين: من الانسداد الرئوي إلى نقص البروتين C الوراثي المتنحي (الميل للتخثر)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

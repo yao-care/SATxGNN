@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 </div>
 
-# روبيفاكايين: من التخدير الموضعي إلى الصداع النصفي
+## روبيفاكايين: من التخدير الموضعي إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

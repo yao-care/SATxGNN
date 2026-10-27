@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 </div>
 
-# الميثيونين: من الاستطبابات الأصلية غير المحددة إلى حب الشباب
+## الميثيونين: من الاستطبابات الأصلية غير المحددة إلى حب الشباب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

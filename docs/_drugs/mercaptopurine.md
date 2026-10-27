@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small 
 
 </div>
 
-# ميركابتوبورين: من سرطان الدم الليمفاوي الحاد إلى ابيضاض الدم النقوي
+## ميركابتوبورين: من سرطان الدم الليمفاوي الحاد إلى ابيضاض الدم النقوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

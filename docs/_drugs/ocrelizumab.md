@@ -33,7 +33,8 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 
 </div>
 
-# أوكريليزوماب (Ocrelizumab): من التصلب المتعدد التدريجي إلى سرطان الثدي الإيجابي لـ HER2
+## أوكريليزوماب (Ocrelizumab): من التصلب المتعدد التدريجي إلى سرطان الثدي الإيجابي لـ HER2
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

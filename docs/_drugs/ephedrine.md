@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-# إيفيدرين: من التهاب الأنف التحسسي إلى أمراض التجويف الأنفي
+## إيفيدرين: من التهاب الأنف التحسسي إلى أمراض التجويف الأنفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

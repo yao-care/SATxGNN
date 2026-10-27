@@ -33,7 +33,8 @@ predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", 
 
 </div>
 
-# إيتوبوسيد: من سرطان الرئة صغير الخلايا إلى ساركوما إيوينغ
+## إيتوبوسيد: من سرطان الرئة صغير الخلايا إلى ساركوما إيوينغ
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

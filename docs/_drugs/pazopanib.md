@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibr
 
 </div>
 
-# بازوبانيب: من سرطان الخلايا الكلوية والساركوما إلى الورم الشحمي الخبيث (Liposarcoma)
+## بازوبانيب: من سرطان الخلايا الكلوية والساركوما إلى الورم الشحمي الخبيث (Liposarcoma)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 </div>
 
-# راسبوريكاز: من فرط حمض اليوريك (مؤشر قديم) إلى نقص حمض اليوريك الكلوي
+## راسبوريكاز: من فرط حمض اليوريك (مؤشر قديم) إلى نقص حمض اليوريك الكلوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 
 </div>
 
-# الجلسرين: من الإمساك إلى متلازمة ذنب الفرس
+## الجلسرين: من الإمساك إلى متلازمة ذنب الفرس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 
 </div>
 
-# هيدروكورتيزون أسيتات: من أمراض المناعة الذاتية إلى الثعلبة البقعية
+## هيدروكورتيزون أسيتات: من أمراض المناعة الذاتية إلى الثعلبة البقعية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

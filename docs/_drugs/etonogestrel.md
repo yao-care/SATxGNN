@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-# إيتونوجستريل: من مانع للحمل (غرسة هرمونية) إلى انقطاع الطمث
+## إيتونوجستريل: من مانع للحمل (غرسة هرمونية) إلى انقطاع الطمث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

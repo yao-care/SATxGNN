@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# لوراسيدون: من الاضطراب ثنائي القطب والفصام إلى الهوس في الاضطراب ثنائي القطب
+## لوراسيدون: من الاضطراب ثنائي القطب والفصام إلى الهوس في الاضطراب ثنائي القطب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

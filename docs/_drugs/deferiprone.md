@@ -33,7 +33,8 @@ predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis",
 
 </div>
 
-# ديفيريبرون: من فرط الحديد في الثلاسيميا إلى البورفيريا الكبدية
+## ديفيريبرون: من فرط الحديد في الثلاسيميا إلى البورفيريا الكبدية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

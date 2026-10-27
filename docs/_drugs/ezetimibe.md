@@ -33,7 +33,8 @@ predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer prot
 
 </div>
 
-# إيزيتيميب: من فرط شحميات الدم إلى فرط البروتينات الشحمية في الدم
+## إيزيتيميب: من فرط شحميات الدم إلى فرط البروتينات الشحمية في الدم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 </div>
 
-# ميلفالان: من سرطان المبيض إلى أورام الخلايا الجرثومية الغُدّية (التناسلية)
+## ميلفالان: من سرطان المبيض إلى أورام الخلايا الجرثومية الغُدّية (التناسلية)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

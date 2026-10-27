@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# سينوسيدات (Sennosides): من الإمساك (المؤشر الأصلي غير مسجّل) إلى نقص الشعر البسيط في فروة الرأس
+## سينوسيدات (Sennosides): من الإمساك (المؤشر الأصلي غير مسجّل) إلى نقص الشعر البسيط في فروة الرأس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

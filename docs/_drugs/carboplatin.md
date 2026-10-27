@@ -33,7 +33,8 @@ predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenoc
 
 </div>
 
-# كاربوبلاتين: من سرطان المبيض إلى سرطان الثدي لدى الإناث
+## كاربوبلاتين: من سرطان المبيض إلى سرطان الثدي لدى الإناث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

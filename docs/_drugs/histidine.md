@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 
 </div>
 
-# الهيستيدين: من دواعي الاستعمال غير المحددة إلى شلل المعدة (Gastroparesis)
+## الهيستيدين: من دواعي الاستعمال غير المحددة إلى شلل المعدة (Gastroparesis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

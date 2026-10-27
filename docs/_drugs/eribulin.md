@@ -33,7 +33,8 @@ predicted_indications: ["autosomal recessive familial Mediterranean fever", "der
 
 </div>
 
-# إريبولين: من الساركوما الشحمية إلى الورم الليفي الأرومي (Fibroblastic Neoplasm)
+## إريبولين: من الساركوما الشحمية إلى الورم الليفي الأرومي (Fibroblastic Neoplasm)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

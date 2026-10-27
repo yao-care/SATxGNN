@@ -33,7 +33,8 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 </div>
 
-# باليفيزوماب: من عدوى الفيروس المخلوي التنفسي إلى ورم حميد في اللسان
+## باليفيزوماب: من عدوى الفيروس المخلوي التنفسي إلى ورم حميد في اللسان
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

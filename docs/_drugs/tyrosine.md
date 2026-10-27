@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# التيروسين: من دعم التغذية الوريدية إلى متلازمة ذيل الفرس
+## التيروسين: من دعم التغذية الوريدية إلى متلازمة ذيل الفرس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

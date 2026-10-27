@@ -33,7 +33,8 @@ predicted_indications: ["resistance to thyroid hormone due to a mutation in thyr
 
 </div>
 
-# ثيامين (فيتامين B1): من نقص الثيامين إلى فرط نشاط الغدة الدرقية
+## ثيامين (فيتامين B1): من نقص الثيامين إلى فرط نشاط الغدة الدرقية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

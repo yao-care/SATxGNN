@@ -33,7 +33,8 @@ predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 
 </div>
 
-# البيوتين: من نقص البيوتين الغذائي إلى عسر الهضم
+## البيوتين: من نقص البيوتين الغذائي إلى عسر الهضم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

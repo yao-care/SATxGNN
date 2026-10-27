@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "benign neoplasm of tongue"
 
 </div>
 
-# ليفاميزول: من داء الصفر الخراطيني إلى هشاشة العظام الناجمة عن الأدوية
+## ليفاميزول: من داء الصفر الخراطيني إلى هشاشة العظام الناجمة عن الأدوية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

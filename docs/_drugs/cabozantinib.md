@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 
 </div>
 
-# كابوزانتينيب: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+## كابوزانتينيب: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

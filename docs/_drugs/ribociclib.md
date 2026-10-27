@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 </div>
 
-# ريبوسيكليب: من سرطان الثدي إلى ابيضاض الدم النقوي
+## ريبوسيكليب: من سرطان الثدي إلى ابيضاض الدم النقوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 
 </div>
 
-# سيرين: من الجلوكوما مفتوحة الزاوية إلى اعتلال العضلات الحشوي العائلي
+## سيرين: من الجلوكوما مفتوحة الزاوية إلى اعتلال العضلات الحشوي العائلي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

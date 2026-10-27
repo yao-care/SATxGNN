@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# باريكوكسيب (Parecoxib): من مسكّن للألم بعد الجراحة إلى الصداع النصفي (Migraine Disorder)
+## باريكوكسيب (Parecoxib): من مسكّن للألم بعد الجراحة إلى الصداع النصفي (Migraine Disorder)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

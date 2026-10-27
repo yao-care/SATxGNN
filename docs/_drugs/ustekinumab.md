@@ -33,7 +33,8 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 </div>
 
-# أوستيكينوماب: من الصدفية إلى التهاب الجلد
+## أوستيكينوماب: من الصدفية إلى التهاب الجلد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

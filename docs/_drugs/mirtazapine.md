@@ -33,7 +33,8 @@ predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intell
 
 </div>
 
-# ميرتازابين: من الاكتئاب أحادي القطب إلى متلازمة أودو ومتغيراتها
+## ميرتازابين: من الاكتئاب أحادي القطب إلى متلازمة أودو ومتغيراتها
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

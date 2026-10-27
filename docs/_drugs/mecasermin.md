@@ -33,7 +33,8 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 
 </div>
 
-# ميكاسيرمين (Mecasermin): من متلازمة عدم الحساسية لهرمون النمو إلى متلازمة أحادية الصبغي X
+## ميكاسيرمين (Mecasermin): من متلازمة عدم الحساسية لهرمون النمو إلى متلازمة أحادية الصبغي X
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

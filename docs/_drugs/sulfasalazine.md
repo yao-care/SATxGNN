@@ -33,7 +33,8 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-# سلفاسالازين: من التهاب المفاصل الروماتويدي إلى الفصال العظمي
+## سلفاسالازين: من التهاب المفاصل الروماتويدي إلى الفصال العظمي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

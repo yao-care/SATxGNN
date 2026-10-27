@@ -33,7 +33,8 @@ predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "idiopath
 
 </div>
 
-# ألوبيورينول: من النقرس إلى الپورفيريا الكبدية
+## ألوبيورينول: من النقرس إلى الپورفيريا الكبدية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

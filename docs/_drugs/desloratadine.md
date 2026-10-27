@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rec
 
 </div>
 
-# ديسلوراتادين: من التهاب الأنف التحسسي إلى الشرى البارد
+## ديسلوراتادين: من التهاب الأنف التحسسي إلى الشرى البارد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

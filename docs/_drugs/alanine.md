@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# الألانين: من غياب مؤشر مرخّص محدد إلى شلل المعدة (Gastroparesis)
+## الألانين: من غياب مؤشر مرخّص محدد إلى شلل المعدة (Gastroparesis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

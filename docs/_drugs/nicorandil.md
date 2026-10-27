@@ -33,7 +33,8 @@ predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "h
 
 </div>
 
-# نيكورانديل: من الذبحة الصدرية المستقرة إلى تضخم البروستاتا الحميد
+## نيكورانديل: من الذبحة الصدرية المستقرة إلى تضخم البروستاتا الحميد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

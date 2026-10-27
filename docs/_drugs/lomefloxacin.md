@@ -33,7 +33,8 @@ predicted_indications: ["laryngotracheitis", "heart valve disease", "heart condu
 
 </div>
 
-# لوميفلوكساسين: من التهاب المسالك البولية إلى التهاب الحنجرة والرغامى
+## لوميفلوكساسين: من التهاب المسالك البولية إلى التهاب الحنجرة والرغامى
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

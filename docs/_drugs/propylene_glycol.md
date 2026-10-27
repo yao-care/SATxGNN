@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 </div>
 
-# بروبيلين غليكول: من متلازمة جفاف العين إلى التهاب الشعب الهوائية
+## بروبيلين غليكول: من متلازمة جفاف العين إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

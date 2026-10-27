@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 </div>
 
-# فيلوكسازين: من الناركوليبسي (التغفيق) إلى اضطراب فرط الحركة وتشتت الانتباه (ADHD)
+## فيلوكسازين: من الناركوليبسي (التغفيق) إلى اضطراب فرط الحركة وتشتت الانتباه (ADHD)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

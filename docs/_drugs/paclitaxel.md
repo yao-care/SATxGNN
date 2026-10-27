@@ -33,7 +33,8 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 </div>
 
-# باكليتاكسيل: من سرطان المبيض إلى سرطان الثدي لدى الإناث
+## باكليتاكسيل: من سرطان المبيض إلى سرطان الثدي لدى الإناث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

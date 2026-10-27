@@ -33,7 +33,8 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 </div>
 
-# هالوبيريدول (Haloperidol): من الفصام والاضطرابات الذهانية إلى اضطراب الارتباط السكري الخلقي مع نقص الفَكْسَلة
+## هالوبيريدول (Haloperidol): من الفصام والاضطرابات الذهانية إلى اضطراب الارتباط السكري الخلقي مع نقص الفَكْسَلة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

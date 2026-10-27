@@ -33,7 +33,8 @@ predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp",
 
 </div>
 
-# ديكسبانثينول: من الأمراض الجلدية والاضطرابات المعوية إلى الطفح الجلدي (Exanthem)
+## ديكسبانثينول: من الأمراض الجلدية والاضطرابات المعوية إلى الطفح الجلدي (Exanthem)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

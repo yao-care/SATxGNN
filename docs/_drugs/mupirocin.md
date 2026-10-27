@@ -33,7 +33,8 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 
 </div>
 
-# موبيروسين: من التهاب الجلد القيحي (القوباء) إلى دبيلة الجنب
+## موبيروسين: من التهاب الجلد القيحي (القوباء) إلى دبيلة الجنب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["candidiasis"]
 
 </div>
 
-# ميديكاميسين: من مضاد حيوي ماكروليدي إلى داء المبيضّات (Candidiasis)
+## ميديكاميسين: من مضاد حيوي ماكروليدي إلى داء المبيضّات (Candidiasis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

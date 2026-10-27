@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 </div>
 
-# بيبرينتاسفير: من عدوى فيروس التهاب الكبد C المزمنة إلى عدوى فيروس التهاب الكبد B
+## بيبرينتاسفير: من عدوى فيروس التهاب الكبد C المزمنة إلى عدوى فيروس التهاب الكبد B
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

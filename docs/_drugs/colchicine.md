@@ -33,7 +33,8 @@ predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma pr
 
 </div>
 
-# الكولشيسين: من النقرس إلى الملاريا المنجلية (Plasmodium falciparum)
+## الكولشيسين: من النقرس إلى الملاريا المنجلية (Plasmodium falciparum)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

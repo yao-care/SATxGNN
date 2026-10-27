@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 
 </div>
 
-# لاموتريجين: من الصرع إلى ألم العصب الثلاثي التوائم
+## لاموتريجين: من الصرع إلى ألم العصب الثلاثي التوائم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

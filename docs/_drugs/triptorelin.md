@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# تريبتوريلين: من مؤشر مرخّص غير مُدرج في البيانات إلى البلوغ المبكر
+## تريبتوريلين: من مؤشر مرخّص غير مُدرج في البيانات إلى البلوغ المبكر
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

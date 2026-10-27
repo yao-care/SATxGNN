@@ -33,7 +33,8 @@ predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, a
 
 </div>
 
-# أنتازولين: من التهاب الأنف التحسسي إلى الأرتكاريا التحسسية
+## أنتازولين: من التهاب الأنف التحسسي إلى الأرتكاريا التحسسية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 
 </div>
 
-# بروبرانولول (Propranolol): من ارتفاع ضغط الدم إلى اعتلال العضلات الدانية نوع تاتيياما
+## بروبرانولول (Propranolol): من ارتفاع ضغط الدم إلى اعتلال العضلات الدانية نوع تاتيياما
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

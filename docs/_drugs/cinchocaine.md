@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "ne
 
 </div>
 
-# سينكوكايين: من التهاب الجلد إلى التهاب الشعب الهوائية
+## سينكوكايين: من التهاب الجلد إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

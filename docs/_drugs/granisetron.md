@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# غرانيسيترون: من الوقاية من القيء والغثيان إلى اضطراب ثنائي القطب الهوسي
+## غرانيسيترون: من الوقاية من القيء والغثيان إلى اضطراب ثنائي القطب الهوسي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

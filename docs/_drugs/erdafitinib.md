@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 </div>
 
-# إيردافيتينيب: من الاستطباب الأصلي إلى فرط ضغط الدم الرئوي
+## إيردافيتينيب: من الاستطباب الأصلي إلى فرط ضغط الدم الرئوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

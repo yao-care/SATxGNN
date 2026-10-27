@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 </div>
 
-# باكلوفين: من علاج التشنج العضلي إلى اضطراب فرط الحركة ونقص الانتباه
+## باكلوفين: من علاج التشنج العضلي إلى اضطراب فرط الحركة ونقص الانتباه
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

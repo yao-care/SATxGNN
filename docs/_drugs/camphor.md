@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 
 </div>
 
-# الكافور: من الاستخدام الموضعي المضاد للتهيّج إلى الصداع النصفي
+## الكافور: من الاستخدام الموضعي المضاد للتهيّج إلى الصداع النصفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

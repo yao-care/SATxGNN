@@ -33,7 +33,8 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 
 </div>
 
-# هيدروكسوكوبالامين: من نقص فيتامين B12 إلى دوالي المريء النازفة
+## هيدروكسوكوبالامين: من نقص فيتامين B12 إلى دوالي المريء النازفة
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

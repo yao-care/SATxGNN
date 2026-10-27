@@ -33,7 +33,8 @@ predicted_indications: ["hyperlipoproteinemia", "HIV infectious disease", "chole
 
 </div>
 
-# فلوفاستاتين: من تصلب الشرايين إلى فرط بروتينات الدم الدهنية
+## فلوفاستاتين: من تصلب الشرايين إلى فرط بروتينات الدم الدهنية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

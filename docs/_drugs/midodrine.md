@@ -33,7 +33,8 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 
 </div>
 
-# ميدودرين: من انخفاض ضغط الدم الانتصابي إلى اضطرابات انخفاض ضغط الدم
+## ميدودرين: من انخفاض ضغط الدم الانتصابي إلى اضطرابات انخفاض ضغط الدم
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

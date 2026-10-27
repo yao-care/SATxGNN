@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-# إيبراتروبيوم: من أمراض الجهاز التنفسي الانسدادية المعروفة إلى مرض الرئة الانسدادي (Obstructive Lung Disease)
+## إيبراتروبيوم: من أمراض الجهاز التنفسي الانسدادية المعروفة إلى مرض الرئة الانسدادي (Obstructive Lung Disease)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

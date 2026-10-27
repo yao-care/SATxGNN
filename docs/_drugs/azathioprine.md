@@ -33,7 +33,8 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-# أزاثيوبرين: من التهاب المفاصل الروماتويدي إلى متلازمة خلل التنسج الهيكلي مع صغر العين الثلمي (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
+## أزاثيوبرين: من التهاب المفاصل الروماتويدي إلى متلازمة خلل التنسج الهيكلي مع صغر العين الثلمي (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

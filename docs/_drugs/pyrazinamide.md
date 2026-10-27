@@ -33,7 +33,8 @@ predicted_indications: ["infectious otitis media", "middle ear disease", "otosal
 
 </div>
 
-# بيرازيناميد: من السل الرئوي إلى التهاب الأذن الوسطى المعدي
+## بيرازيناميد: من السل الرئوي إلى التهاب الأذن الوسطى المعدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

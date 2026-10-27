@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colob
 
 </div>
 
-# سيفوبيرازون: من العدوى البكتيرية إلى الالتهاب الرئوي
+## سيفوبيرازون: من العدوى البكتيرية إلى الالتهاب الرئوي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

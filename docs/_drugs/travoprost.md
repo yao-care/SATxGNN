@@ -33,7 +33,8 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 </div>
 
-# ترافوبروست: من الجلوكوما ذات الزاوية المفتوحة إلى أمراض الأوعية الدموية
+## ترافوبروست: من الجلوكوما ذات الزاوية المفتوحة إلى أمراض الأوعية الدموية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

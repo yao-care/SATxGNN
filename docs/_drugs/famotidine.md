@@ -33,7 +33,8 @@ predicted_indications: ["duodenal obstruction", "abnormality of glucagon secreti
 
 </div>
 
-# فاموتيدين: من قرحة المعدة إلى مرض القرحة الهضمية
+## فاموتيدين: من قرحة المعدة إلى مرض القرحة الهضمية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

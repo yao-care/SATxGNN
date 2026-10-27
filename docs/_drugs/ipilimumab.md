@@ -33,7 +33,8 @@ predicted_indications: ["choroideremia"]
 
 </div>
 
-# إيبيليموماب: من الميلانوما النقيلية إلى الكوروئيدريميا (choroideremia)
+## إيبيليموماب: من الميلانوما النقيلية إلى الكوروئيدريميا (choroideremia)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

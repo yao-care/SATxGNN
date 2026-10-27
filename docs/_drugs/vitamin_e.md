@@ -33,7 +33,8 @@ predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin me
 
 </div>
 
-# فيتامين E: من الركود الصفراوي إلى اضطرابات استقلاب البيليروبين الخلقية
+## فيتامين E: من الركود الصفراوي إلى اضطرابات استقلاب البيليروبين الخلقية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

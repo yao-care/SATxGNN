@@ -33,7 +33,8 @@ predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff synd
 
 </div>
 
-# فورموتيرول: من الربو وانتفاخ الرئة إلى التهاب الشعب الهوائية
+## فورموتيرول: من الربو وانتفاخ الرئة إلى التهاب الشعب الهوائية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

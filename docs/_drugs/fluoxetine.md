@@ -33,7 +33,8 @@ predicted_indications: ["schizoid personality disorder", "histrionic personality
 
 </div>
 
-# فلوكسيتين: من الاكتئاب واضطرابات القلق إلى اضطراب الشخصية الفصامية
+## فلوكسيتين: من الاكتئاب واضطرابات القلق إلى اضطراب الشخصية الفصامية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

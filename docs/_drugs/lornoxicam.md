@@ -33,7 +33,8 @@ predicted_indications: ["migraine with or without aura, susceptibility to", "mig
 
 </div>
 
-# لورنوكسيكام: من الاستطباب الأصلي إلى التهاب المفاصل الروماتويدي
+## لورنوكسيكام: من الاستطباب الأصلي إلى التهاب المفاصل الروماتويدي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 </div>
 
-# ديفيبروتايد (Defibrotide): من داء انسداد الأوردة الكبدي إلى فرفرية نقص الصفيحات الخثارية (TTP)
+## ديفيبروتايد (Defibrotide): من داء انسداد الأوردة الكبدي إلى فرفرية نقص الصفيحات الخثارية (TTP)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

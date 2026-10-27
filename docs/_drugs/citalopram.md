@@ -33,7 +33,8 @@ predicted_indications: ["obsessive-compulsive disorder", "schizoid personality d
 
 </div>
 
-# سيتالوبرام: من الاكتئاب واضطرابات القلق إلى اضطراب الوسواس القهري
+## سيتالوبرام: من الاكتئاب واضطرابات القلق إلى اضطراب الوسواس القهري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

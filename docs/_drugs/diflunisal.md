@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# ديفلونيسال: من التهاب المفاصل الروماتويدي إلى التهاب الفقار المقسّط (Ankylosing Spondylitis)
+## ديفلونيسال: من التهاب المفاصل الروماتويدي إلى التهاب الفقار المقسّط (Ankylosing Spondylitis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

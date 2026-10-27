@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 </div>
 
-# الجينسنغ: من استطباب غير موثّق إلى اعتلال الشبكية السكري
+## الجينسنغ: من استطباب غير موثّق إلى اعتلال الشبكية السكري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 </div>
 
-# سيلوميتينيب: من الورم الليفي العصبي إلى الورم الشفاني للأعصاب الطرفية
+## سيلوميتينيب: من الورم الليفي العصبي إلى الورم الشفاني للأعصاب الطرفية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 
 </div>
 
-# لارونيداز: من متلازمة هيرلر (MPS I) إلى اضطراب التخزين الليزوزومي مع إصابة هيكلية
+## لارونيداز: من متلازمة هيرلر (MPS I) إلى اضطراب التخزين الليزوزومي مع إصابة هيكلية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

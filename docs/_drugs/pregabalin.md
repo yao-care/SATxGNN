@@ -33,7 +33,8 @@ predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myos
 
 </div>
 
-# بريغابالين: من اضطراب القلق إلى التهاب الأوتار
+## بريغابالين: من اضطراب القلق إلى التهاب الأوتار
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

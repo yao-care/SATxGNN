@@ -33,7 +33,8 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 
 </div>
 
-# ليفيتغراست (Lifitegrast): من متلازمة جفاف العين إلى التليّف الليفي القضيبي (Penile Fibromatosis)
+## ليفيتغراست (Lifitegrast): من متلازمة جفاف العين إلى التليّف الليفي القضيبي (Penile Fibromatosis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-# أوباداسيتينيب: من التهاب المفاصل الروماتويدي إلى متلازمة خلل التنسج المرتبط بالعين المثقوبة وقصر الأطراف (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
+## أوباداسيتينيب: من التهاب المفاصل الروماتويدي إلى متلازمة خلل التنسج المرتبط بالعين المثقوبة وقصر الأطراف (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

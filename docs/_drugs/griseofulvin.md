@@ -33,7 +33,8 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 
 </div>
 
-# غريزيوفولفين: من الفطريات الجلدية (السعفة) إلى داء الذباب (Myiasis)
+## غريزيوفولفين: من الفطريات الجلدية (السعفة) إلى داء الذباب (Myiasis)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

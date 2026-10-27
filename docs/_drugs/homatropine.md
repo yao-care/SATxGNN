@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# هوماتروبين: من أمراض القرحة الهضمية والعين إلى متلازمة ذيل الفرس
+## هوماتروبين: من أمراض القرحة الهضمية والعين إلى متلازمة ذيل الفرس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

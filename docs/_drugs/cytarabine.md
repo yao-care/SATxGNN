@@ -33,7 +33,8 @@ predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma
 
 </div>
 
-# سيتارابين: من اللوكيميا الحادة إلى سرطان الرئة صغير الخلايا
+## سيتارابين: من اللوكيميا الحادة إلى سرطان الرئة صغير الخلايا
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 
 </div>
 
-# ناندرولون: من الاستخدامات الأصلية إلى داء الثدي الكيسي الليفي
+## ناندرولون: من الاستخدامات الأصلية إلى داء الثدي الكيسي الليفي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

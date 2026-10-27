@@ -33,7 +33,8 @@ predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protu
 
 </div>
 
-# بيرفينيدون: من التليف الرئوي مجهول السبب إلى الورم الليفي (Fibroblastic Neoplasm)
+## بيرفينيدون: من التليف الرئوي مجهول السبب إلى الورم الليفي (Fibroblastic Neoplasm)
+{: .text-alpha }
 
 > ملاحظة: اعتُمد في هذا التقرير أول تنبؤ في القائمة (extracutaneous mastocytoma) كمؤشر رئيسي بحسب الترتيب، إلا أنه لا توجد له أي أدلة. لذلك يعرض التقرير تفاصيل الأدلة للتنبؤ التاسع (fibroblastic neoplasm) لأنه الوحيد الذي توجد له أدلة منشورة، مع بيان ذلك بوضوح. عنوان التقرير يعكس هذا الاختيار.
 

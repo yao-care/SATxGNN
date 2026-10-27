@@ -33,7 +33,8 @@ predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructi
 
 </div>
 
-# لاكتولوز: من الاعتلال الدماغي الكبدي إلى اليرقان الانسدادي
+## لاكتولوز: من الاعتلال الدماغي الكبدي إلى اليرقان الانسدادي
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 
 </div>
 
-# ميجيسترول أسيتات: من سرطان بطانة الرحم إلى سرطان بطانة الرحم (الجسم الرحمي)
+## ميجيسترول أسيتات: من سرطان بطانة الرحم إلى سرطان بطانة الرحم (الجسم الرحمي)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

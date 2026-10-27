@@ -33,7 +33,8 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 </div>
 
-# غليمبيريد: من داء السكري من النوع الثاني إلى متلازمة الطرف المتيبس البؤرية
+## غليمبيريد: من داء السكري من النوع الثاني إلى متلازمة الطرف المتيبس البؤرية
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

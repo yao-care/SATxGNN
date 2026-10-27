@@ -33,7 +33,8 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-# الحديد: من فقر الدم الناتج عن نقص الحديد إلى متلازمة بلامر-فينسون
+## الحديد: من فقر الدم الناتج عن نقص الحديد إلى متلازمة بلامر-فينسون
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["obsolete bundle branch block"]
 
 </div>
 
-# الأدينوزين: من الرجفان/التسرع البطيني إلى اضطراب «obsolete bundle branch block»
+## الأدينوزين: من الرجفان/التسرع البطيني إلى اضطراب «obsolete bundle branch block»
+{: .text-alpha }
 
 > ملاحظة: الاستطباب الأصلي هو **التسرع البطيني (ventricular tachycardia)**، والاستطباب الجديد المتنبأ به هو **obsolete bundle branch block** (أي «إحصار الحزمة» وهو مصطلح مصنَّف كمصطلح قديم).
 

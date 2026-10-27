@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# كيتيابين: من اضطراب ثنائي القطب والفصام إلى نتف الشعر القهري (Trichotillomania)
+## كيتيابين: من اضطراب ثنائي القطب والفصام إلى نتف الشعر القهري (Trichotillomania)
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

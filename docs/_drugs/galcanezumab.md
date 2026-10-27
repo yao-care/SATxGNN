@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 </div>
 
-# جالكانيزوماب: من الصداع النصفي إلى نقص العامل المساعد الهيبارين 2
+## جالكانيزوماب: من الصداع النصفي إلى نقص العامل المساعد الهيبارين 2
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

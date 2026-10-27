@@ -33,7 +33,8 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 
 </div>
 
-# بريفاراسيتام: من الصرع الجزئي إلى الصرع البصري
+## بريفاراسيتام: من الصرع الجزئي إلى الصرع البصري
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 </div>
 
-# تريهكسيفينيديل: من داء باركنسون إلى اضطراب فرط الحركة وتشتت الانتباه
+## تريهكسيفينيديل: من داء باركنسون إلى اضطراب فرط الحركة وتشتت الانتباه
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

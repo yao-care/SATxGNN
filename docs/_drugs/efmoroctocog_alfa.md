@@ -33,7 +33,8 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 </div>
 
-# إفموروكتوكوغ ألفا: من الهيموفيليا إلى مرض فون ويلبراند الكاذب
+## إفموروكتوكوغ ألفا: من الهيموفيليا إلى مرض فون ويلبراند الكاذب
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

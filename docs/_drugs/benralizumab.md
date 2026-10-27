@@ -33,7 +33,8 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "dermatiti
 
 </div>
 
-# بينرالیزوماب: من الالتهاب الرئوي اليوزيني إلى التهاب الجلد
+## بينرالیزوماب: من الالتهاب الرئوي اليوزيني إلى التهاب الجلد
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

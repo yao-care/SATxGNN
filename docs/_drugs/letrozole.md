@@ -33,7 +33,8 @@ predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast f
 
 </div>
 
-# ليتروزول: من العلاج الأصلي إلى سرطان الثدي لدى الإناث
+## ليتروزول: من العلاج الأصلي إلى سرطان الثدي لدى الإناث
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

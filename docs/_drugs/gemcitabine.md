@@ -33,7 +33,8 @@ predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenoc
 
 </div>
 
-# جيمسيتابين: من سرطان المبيض إلى سرطان الثدي لدى النساء
+## جيمسيتابين: من سرطان المبيض إلى سرطان الثدي لدى النساء
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 

@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# تامسولوسين: من تضخم البروستات الحميد إلى فرط الشعر الخلقي العام من نوع أمبراس
+## تامسولوسين: من تضخم البروستات الحميد إلى فرط الشعر الخلقي العام من نوع أمبراس
+{: .text-alpha }
 
 ## ملخص في جملة واحدة
 
