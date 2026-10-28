@@ -5,10 +5,10 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Human C1-Esterase Inhibitor: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
+last_modified_at: 2026-10-28
 monitor_inn: "HUMAN C1-ESTERASE INHIBITOR"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "primary release disorder of platelets", "diabetic retinopathy", "pseudo-von Willebrand disease"]
+description: "Human C1-Esterase Inhibitor: الاستطباب الجديد المتوقع اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative diabetic retinopathy) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانا…"
 ---
 
 # Human C1-Esterase Inhibitor
@@ -33,7 +33,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "primary
 
 </div>
 
-## مثبّط C1-إستراز البشري: من مرحلة غير محددة المؤشر الأصلي إلى اعتلال الشبكية السكري غير التكاثري الشديد
+## Human C1-Esterase Inhibitor: اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "primary
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | غير متوفر في بيانات الترخيص |
-| المؤشر الجديد المتوقع | اعتلال الشبكية السكري غير التكاثري الشديد |
-| درجة تنبؤ TxGNN | 99.61% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | اعتلال الشبكية السكري غير التكاثري الشديد (severe nonproliferative diabetic retinopathy) |
+| درجة تنبؤ TxGNN | 0.9961 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -66,9 +66,9 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "primary
 
 للتوضيح، تضمنت التنبؤات الأخرى:
 
-- **اعتلال الشبكية السكري** (99.25%): فئة أعم تشمل المؤشر الأول، فالتنبؤان غير مستقلين.
-- **اضطراب إفراز الصفائح الأولي** (99.31%): الصلة الآلية تخمينية، وخطر التخثر المرتبط بالمثبّط اعتبار سلامة إضافي.
-- **داء فون ويلبراند الكاذب** (99.09%): لا يوجد تأثير معروف للمثبّط على محور GPIbα، وغالبًا ما تكون الدرجة العالية نتيجة قرب في الشبكة المعرفية.
+- **اعتلال الشبكية السكري** (0.9925): فئة أعم تشمل المؤشر الأول، فالتنبؤان غير مستقلين.
+- **اضطراب إفراز الصفائح الأولي** (0.9931): الصلة الآلية تخمينية، وخطر التخثر المرتبط بالمثبّط اعتبار سلامة إضافي.
+- **داء فون ويلبراند الكاذب** (0.9909): لا يوجد تأثير معروف للمثبّط على محور GPIbα، وغالبًا ما تكون الدرجة العالية نتيجة قرب في الشبكة المعرفية.
 
 ---
 

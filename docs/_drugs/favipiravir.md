@@ -6,9 +6,9 @@ nav_order: 339
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Favipiravir: الاستطباب الجديد المتوقع المتلازمة البلعمية المرتبطة بالعدوى (أعلى استطباب متوقع في الترتيب كا… (مستوى الدليل L5). الاستطباب الأصلي: الإنفلونزا (بما فيها الإنفلونزا الشديدة) — مأخوذ من ا…"
 monitor_inn: "FAVIPIRAVIR"
 predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"]
+description: "Favipiravir: الاستطباب الجديد المتوقع Acquired hemophagocytic lymphohistiocytosis associated with malignant disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Favipiravir
@@ -33,7 +33,7 @@ predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated 
 
 </div>
 
-## فافيبيرافير: من الإنفلونزا إلى المتلازمة البلعمية المرتبطة بالعدوى
+## Favipiravir: Acquired hemophagocytic lymphohistiocytosis associated with malignant disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الإنفلونزا (بما فيها الإنفلونزا الشديدة) — مأخوذ من الرسم المعرفي لنموذج TxGNN، إذ لا يتوفر نص استطباب معتمد في الترخيص السعودي |
-| الاستطباب الجديد المتوقع | المتلازمة البلعمية المرتبطة بالعدوى (أعلى استطباب متوقع في الترتيب كان داء البلعمة اللمفاوي النسيجي المرتبط بالأورام الخبيثة، ولا يوجد له أي دليل، لذا اعتُمد الاستطباب الثاني لأنه الأكثر دعمًا) |
-| درجة تنبؤ TxGNN | 99.41% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Acquired hemophagocytic lymphohistiocytosis associated with malignant disease |
+| درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الدليل | L4 (دليل غير مباشر من دراسات آلية/مراجعات؛ دون تجارب سريرية) |
-| حالة السوق في السعودية | ملغى فقط (مُلغاة جميع التراخيص) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) — سؤال بحثي يتطلب مزيدًا من الأدلة |
 
 ---
@@ -87,7 +87,7 @@ predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated 
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Vapir | Vapir (الشركة المصنعة: Tabuk Pharmaceutical Manufacturing Co.) | غير محدد | غير متوفر (الحالة: ملغى) |
+| Vapir | Vapir (الشركة المصنعة: Tabuk Pharmaceutical Manufacturing Co.) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

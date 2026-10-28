@@ -4,17 +4,17 @@ title: Telbivudine
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 791
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Telbivudine: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد C المزمنة (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد B المزمنة"
 monitor_inn: "TELBIVUDINE"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
+description: "Telbivudine: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد C المزمنة (chronic hepatitis C virus infection) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Telbivudine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 </div>
 
-## تيلبيفودين: من عدوى فيروس التهاب الكبد B المزمنة إلى عدوى فيروس التهاب الكبد C المزمنة
+## Telbivudine: عدوى فيروس التهاب الكبد C المزمنة (chronic hepatitis C virus infection)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | عدوى فيروس التهاب الكبد B المزمنة |
-| الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد C المزمنة |
-| درجة تنبؤ TxGNN | 99.96% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد C المزمنة (chronic hepatitis C virus infection) |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 |
-| وضع السوق في السعودية | ملغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -92,7 +92,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SEBIVO 600 MG F-C TABLETS | SEBIVO 600 MG F-C TABLETS (شركة NOVARTIS) | غير محدد | غير متوفر (الحالة: ملغى) |
+| SEBIVO 600 MG F-C TABLETS | SEBIVO 600 MG F-C TABLETS (شركة NOVARTIS) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

@@ -6,7 +6,7 @@ nav_order: 374
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Foscarnet: الاستطباب الجديد المتوقع متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات ا… (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة (الاستخدام المعروف…"
+description: "Foscarnet: الاستطباب الجديد المتوقع متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات الشبكية والتقلصات (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة (الاستخدام المعروف…"
 monitor_inn: "FOSCARNET"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 </div>
 
-## فوسكارنيت: من الاستطباب الأصلي (غير متوفر في بيانات الترخيص) إلى متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات الشبكية والتقلصات
+## فوسكارنيت: من الاستطباب الأصلي (غير متوفر في بيانات الترخيص) إلى متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات الشبكية والتقلصات (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,10 +49,10 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات الترخيص المجمّعة (الاستخدام المعروف للفوسكارنيت: عدوى الفيروس المضخم للخلايا CMV وفيروسات الهربس) |
 | الاستطباب الجديد المتنبأ به | متلازمة البيلة الدموية العائلية الوراثية السائدة مع التواء الشرينات الشبكية والتقلصات |
-| درجة تنبؤ TxGNN | 99.56% |
+| درجة تنبؤ TxGNN | 0.9956 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -63,7 +63,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 أما المرض المتنبأ به فاضطراب وراثي نادر مرتبط بجين COL4A1 ويصيب الأوعية الدموية، وليس عدوى فيروسية، فلا يقع ضمن هدف الفوسكارنيت المضاد للفيروسات.
 
-وتشير التقديرات إلى أن الدرجة المرتفعة (0.996) ناتجة على الأرجح عن تداخل الارتباطات العينية والشبكية في الرسم البياني المعرفي، لا عن مبرر علاجي حقيقي.
+وتشير التقديرات إلى أن الدرجة المرتفعة (0.9956) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مرتبطة، لا دليلاً بيولوجياً.
 
 ---
 
@@ -83,7 +83,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Foscarnet BOS | Foscarnet BOS (الشركة المصنعة: Gland Pharma Limited) | غير مذكور | غير مذكور (الحالة: ملغى) |
+| Foscarnet BOS | Foscarnet BOS (الشركة المصنعة: Gland Pharma Limited) | غير مذكور | غير مذكور (الحالة: ساري) |
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 611
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Olaratumab: الاستطباب الجديد المتوقع سرطان الظهارة البولية في الإحليل البروستاتي (مستوى الدليل L5). الاستطباب الأصلي: ساركوما الأنسجة الرخوة (مصدر هذه المعلومة الرسم المعرفي لنموذج TxGNN،…"
 monitor_inn: "OLARATUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "transitional cell carcinoma", "breast tumor luminal A or B"]
+description: "Olaratumab: الاستطباب الجديد المتوقع Prostatic urethra urothelial carcinoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Olaratumab
@@ -33,7 +33,7 @@ predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis
 
 </div>
 
-## أولاراتوماب: من الساركوما إلى سرطان الظهارة البولية في الإحليل البروستاتي
+## Olaratumab: Prostatic urethra urothelial carcinoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ساركوما الأنسجة الرخوة (مصدر هذه المعلومة الرسم المعرفي لنموذج TxGNN، إذ لا يوجد نص استطباب معتمد في بيانات الترخيص السعودي) |
-| الاستطباب الجديد المتنبأ به | سرطان الظهارة البولية في الإحليل البروستاتي |
-| درجة تنبؤ TxGNN | 99.98% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Prostatic urethra urothelial carcinoma |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الدليل | L5 |
-| حالة السوق في السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -93,7 +93,7 @@ predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| LARTRUVO 10 mg/ml Concentrate For Solution For Infusion | LARTRUVO 10 mg/ml Concentrate For Solution For Infusion (Eli Lilly) | غير مذكور | غير مذكور (الحالة: ملغى) |
+| LARTRUVO 10 mg/ml Concentrate For Solution For Infusion | LARTRUVO 10 mg/ml Concentrate For Solution For Infusion (Eli Lilly) | غير مذكور | غير مذكور (الحالة: ساري) |
 
 ---
 

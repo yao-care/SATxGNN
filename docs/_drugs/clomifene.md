@@ -6,7 +6,7 @@ nav_order: 203
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Clomifene: الاستطباب الجديد المتوقع اضطراب التمايز الجنسي 46,XY الناتج عن خلل في تصنيع الستيرويدات الخصوية (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء (وفق الرسم المعرفي لـ TxGNN، إذ لا يتو…"
+description: "كلوميفين: الاستطباب الجديد المتوقع هو اضطراب تمايز الجنس 46,XY الناجم عن عيب في تخليق الستيرويدات الخصوية (46,XY disorder of sex development due to testicular steroidogenesis defect) (مستوى الدليل L5). الاستطباب الأصلي: العقم عند النساء. الدرجة 0.9990 صادرة عن نموذج TxGNN (تعلّم عميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلًا بيولوجيًا."
 monitor_inn: "CLOMIFENE"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "longitudinal vaginal septum", "transverse vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "ovarian remnant syndrome"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 </div>
 
-## كلوميفين: من العقم عند النساء إلى اضطراب التمايز الجنسي 46,XY الناتج عن خلل في تصنيع الستيرويدات الخصوية
+## كلوميفين: من العقم عند النساء إلى اضطراب تمايز الجنس 46,XY الناجم عن عيب في تخليق الستيرويدات الخصوية (46,XY disorder of sex development due to testicular steroidogenesis defect)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 |------|------|
 | الاستطباب الأصلي | العقم عند النساء (وفق الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتنبأ به | اضطراب التمايز الجنسي 46,XY الناتج عن خلل في تصنيع الستيرويدات الخصوية |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -82,8 +82,8 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الشركة المصنّعة | الحالة |
 |---------|------|------|------|------|
-| FERTAB 50MG TAB | FERTAB 50MG TAB | أقراص | OMAN PHARMACEUTICAL PRODUCTS | ملغى |
-| CLOMID 50MG TAB | CLOMID 50MG TAB | أقراص | PATHEON FRANCE | ملغى |
+| FERTAB 50MG TAB | FERTAB 50MG TAB | أقراص | OMAN PHARMACEUTICAL PRODUCTS | ساري |
+| CLOMID 50MG TAB | CLOMID 50MG TAB | أقراص | PATHEON FRANCE | ساري |
 
 ---
 
@@ -110,7 +110,7 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (L5) دون أي تجارب أو أدبيات، والصلة الآلية ضعيفة لأن الخلل الإنزيمي يقع بعد إشارة LH.
-- لا يوجد ترخيص ساري في السعودية، ولم يتح بعد فحص السلامة بسبب غياب بيانات النشرة الدوائية.
+- الدواء مسوَّق في هذا البلد، ولديه ترخيصان ساريان من أصل ترخيصين؛ ولم يتح بعد فحص السلامة بسبب غياب بيانات النشرة الدوائية.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية وتحليل تحذيراتها وموانع استعمالها (فجوة حاجبة).

@@ -48,10 +48,10 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 |------|------|
 | الاستطباب الأصلي | الإمساك (constipation disorder) |
 | الاستطباب الجديد المتنبأ به | نقص البروتين الدهني ألفا (hypoalphalipoproteinemia) |
-| درجة تنبؤ TxGNN | 99.82% |
+| درجة تنبؤ TxGNN | 0.9982 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 2 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,8 +82,8 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| RESOLOR 1 mg film-coated tablet | RESOLOR 1 mg film-coated tablet (JANSSEN-CILAG SPA) | أقراص مغلفة | غير متوفر (الترخيص ملغى) |
-| RESOLOR 2 mg film-coated tablet | RESOLOR 2 mg film-coated tablet (JANSSEN-CILAG SPA) | أقراص مغلفة | غير متوفر (الترخيص ملغى) |
+| RESOLOR 1 mg film-coated tablet | RESOLOR 1 mg film-coated tablet (JANSSEN-CILAG SPA) | أقراص مغلفة | غير متوفر (الترخيص ساري) |
+| RESOLOR 2 mg film-coated tablet | RESOLOR 2 mg film-coated tablet (JANSSEN-CILAG SPA) | أقراص مغلفة | غير متوفر (الترخيص ساري) |
 
 ---
 

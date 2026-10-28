@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hydromorphone
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 417
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Hydromorphone: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L4). الاستطباب الأصلي: نزلة البرد، التهاب البلعوم الأنفي (من الرسم المعرفي؛ لا يوجد نص دلالة…"
@@ -14,7 +14,7 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 # Hydromorphone
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 |------|------|
 | الدلالة الأصلية | نزلة البرد، التهاب البلعوم الأنفي (من الرسم المعرفي؛ لا يوجد نص دلالة معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الدلالة الجديدة المتوقعة | التهاب البلعوم (Pharyngitis) |
-| درجة تنبؤ TxGNN | 99.81% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9981 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -92,12 +92,12 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الدلالة المعتمدة |
 |---------|------|------|-----------|
-| JURNISTA 32 mg prolonged-release tablet | JURNISTA 32 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ملغى) |
-| JURNISTA 16 mg prolonged-release tablet | JURNISTA 16 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ملغى) |
-| JURNISTA 64 mg prolonged-release tablet | JURNISTA 64 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ملغى) |
-| JURNISTA 8 mg prolonged-release tablet | JURNISTA 8 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ملغى) |
+| JURNISTA 32 mg prolonged-release tablet | JURNISTA 32 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ساري) |
+| JURNISTA 16 mg prolonged-release tablet | JURNISTA 16 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ساري) |
+| JURNISTA 64 mg prolonged-release tablet | JURNISTA 64 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ساري) |
+| JURNISTA 8 mg prolonged-release tablet | JURNISTA 8 mg prolonged-release tablet | أقراص ممتدة المفعول | غير متوفر (ساري) |
 
-الشركة المصنّعة: Alza Corporation. جميع التراخيص الأربعة ملغاة ولا يوجد ترخيص ساري.
+الشركة المصنّعة: Alza Corporation. الدواء مسوّق، وجميع التراخيص الأربعة سارية (4 من 4).
 
 ---
 
@@ -116,7 +116,7 @@ predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disea
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- الدرجة المرتفعة للنموذج تنبؤ فقط، والتجارب المرتبطة تتناول ألماً جراحياً وبعضها لدواء آخر، ولا توجد منشورات للدلالة. كما أن مخاطر تثبيط التنفس والإدمان تجعل الاستخدام في حالة محدودة ذاتياً غير مناسب، ولا يوجد ترخيص ساري في السعودية.
+- الدرجة المرتفعة للنموذج تنبؤ فقط، والتجارب المرتبطة تتناول ألماً جراحياً وبعضها لدواء آخر، ولا توجد منشورات للدلالة. كما أن مخاطر تثبيط التنفس والإدمان تجعل الاستخدام في حالة محدودة ذاتياً غير مناسب. الدواء مسوّق في السعودية، وجميع التراخيص الأربعة سارية.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية (التحذيرات وموانع الاستعمال) من موقع هيئة الغذاء والدواء السعودية، فهذا نقص حاجب لفحص السلامة.

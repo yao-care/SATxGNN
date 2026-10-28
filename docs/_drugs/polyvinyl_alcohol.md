@@ -50,10 +50,10 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 |------|------|
 | الاستطباب الأصلي | جفاف العين (dry eye syndrome) وجفاف الملتحمة (xerophthalmia) (من الاستطبابات المسجلة في قاعدة المعرفة، إذ لا يتوفر نص استطباب في تراخيص السعودية) |
 | الاستطباب الجديد المتوقع | الحمامي الإكثيوزيفورمية الخلقية |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 
 ---
@@ -68,9 +68,9 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 | الترتيب | الاستطباب المتوقع | درجة TxGNN |
 |------|------|------|
-| 2 | الطفل الكولوديون ذاتي الشفاء (self-healing collodion baby) | 99.83% |
-| 3 | الإكثيوزيس الصفائحي (lamellar ichthyosis) | 99.72% |
-| 4 | إكثيوزيس لباس السباحة (bathing suit ichthyosis) | 99.54% |
+| 2 | الطفل الكولوديون ذاتي الشفاء (self-healing collodion baby) | 0.9983 |
+| 3 | الإكثيوزيس الصفائحي (lamellar ichthyosis) | 0.9972 |
+| 4 | إكثيوزيس لباس السباحة (bathing suit ichthyosis) | 0.9954 |
 
 ---
 
@@ -90,7 +90,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| LIQUIFILM TEARS | LIQUIFILM TEARS (الشركة المصنعة: ALLERGAN PHARMACEUTICALS LTD، الحالة: ملغى) | غير محدد | غير متوفر |
+| LIQUIFILM TEARS | LIQUIFILM TEARS (الشركة المصنعة: ALLERGAN PHARMACEUTICALS LTD، الحالة: ساري) | غير محدد | غير متوفر |
 
 ---
 

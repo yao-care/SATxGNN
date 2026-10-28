@@ -4,17 +4,17 @@ title: Tetryzoline
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 807
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Tetryzoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (Nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب البلعوم، نزلة البرد (مستمد من الرسم البياني المعرفي، إذ إن نصو…"
 monitor_inn: "tetryzoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Tetryzoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Tetryzoline
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-## تتريزولين: من التهاب البلعوم ونزلة البرد إلى أمراض التجويف الأنفي
+## Tetryzoline: أمراض التجويف الأنفي (nasal cavity disease)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب البلعوم، نزلة البرد (مستمد من الرسم البياني المعرفي، إذ إن نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغة) |
-| الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (Nasal cavity disease) |
-| درجة توقع TxGNN | 99.98% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
+| درجة توقع TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -63,7 +63,6 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 الاستطباب الأصلي (التهاب البلعوم ونزلة البرد) يتضمن أعراضاً أنفية أصلاً، لذا فقد يمثل هذا التوقع تداخلاً مع الاستخدام القائم أكثر منه استطباباً جديداً حقيقياً. كما أن الاستدلال الآلي هنا غير مباشر، لأنه مبني على معرفة عامة وليس على بيانات آلية العمل المسجلة.
 
-**توقع ثانٍ:** التهاب الحنجرة والبلعوم الحاد (Acute laryngopharyngitis) بدرجة 99.98%. وهو وثيق الصلة بالاستطباب الأصلي (التهاب البلعوم)، وغالباً ما يكون مكرراً له، لذا فالجدّة في إعادة التوظيف محدودة. ومستوى الأدلة L5 والتوصية Hold أيضاً.
 
 ---
 
@@ -83,8 +82,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| EFEMOLINE EYE DROPS 0.1% | EFEMOLINE EYE DROPS 0.1% | Excel Vision | ملغى |
-| COLIRCUSI GENTADEXA EYE DROP | COLIRCUSI GENTADEXA EYE DROP | Siegfried EI Masnou, S.A | ملغى |
+| EFEMOLINE EYE DROPS 0.1% | EFEMOLINE EYE DROPS 0.1% | Excel Vision | ساري |
+| COLIRCUSI GENTADEXA EYE DROP | COLIRCUSI GENTADEXA EYE DROP | Siegfried EI Masnou, S.A | ساري |
 
 كلا الترخيصين ملغى، ولا توجد حالياً منتجات سارية في السوق السعودي. والمستحضران المرخصان سابقاً قطرات للعين، وهو شكل يختلف عن الاستخدام الأنفي المتوقع.
 

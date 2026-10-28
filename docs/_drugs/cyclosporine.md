@@ -33,7 +33,7 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 </div>
 
-## سيكلوسبورين: من التهاب القرنية والملتحمة الجاف ومتلازمة سجوغرن إلى مرض الورم الحبيبي المزمن (وراثي متنحٍّ)
+## سيكلوسبورين: مرض الورم الحبيبي المزمن، وراثي متنحٍّ
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، جفاف العين، متلازمة سجوغرن (مأخوذة من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | مرض الورم الحبيبي المزمن، وراثي متنحٍّ |
-| درجة تنبؤ TxGNN | 99.68% |
+| درجة تنبؤ TxGNN | 0.9968 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 9 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,15 +82,15 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص التسعة ملغاة، وليس هناك ترخيص ساري. أمثلة عليها:
+جميع التراخيص التسعة سارية (9 تراخيص سارية من أصل 9). أمثلة عليها:
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SANDIMMUN 50MG-ML AMPULE | SANDIMMUN 50MG-ML AMPULE | NOVARTIS | غير متوفر (ملغى) |
-| SANDIMMUN NEORAL DRINK 100MG-ML | SANDIMMUN NEORAL DRINK 100MG-ML | DELPHARM HUNINGUE S.A.S. | غير متوفر (ملغى) |
-| RESTASIS 0.05% Eye Drop Emulsion | RESTASIS 0.05% Eye Drop Emulsion | ALLERGAN | غير متوفر (ملغى) |
-| GENGRAF 100 MG MODIFIED CAPSULE | GENGRAF 100 MG MODIFIED CAPSULE | Abbott Laboratories | غير متوفر (ملغى) |
-| SANDIMMUN NEORAL 100MG CAPS | SANDIMMUN NEORAL 100MG CAPS | CATALENT | غير متوفر (ملغى) |
+| SANDIMMUN 50MG-ML AMPULE | SANDIMMUN 50MG-ML AMPULE | NOVARTIS | غير متوفر (ساري) |
+| SANDIMMUN NEORAL DRINK 100MG-ML | SANDIMMUN NEORAL DRINK 100MG-ML | DELPHARM HUNINGUE S.A.S. | غير متوفر (ساري) |
+| RESTASIS 0.05% Eye Drop Emulsion | RESTASIS 0.05% Eye Drop Emulsion | ALLERGAN | غير متوفر (ساري) |
+| GENGRAF 100 MG MODIFIED CAPSULE | GENGRAF 100 MG MODIFIED CAPSULE | Abbott Laboratories | غير متوفر (ساري) |
+| SANDIMMUN NEORAL 100MG CAPS | SANDIMMUN NEORAL 100MG CAPS | CATALENT | غير متوفر (ساري) |
 
 ---
 

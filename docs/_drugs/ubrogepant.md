@@ -4,17 +4,17 @@ title: Ubrogepant
 parent: أدلة متوسطة (L3-L4)
 nav_order: 852
 evidence_level: L3
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Ubrogepant: الاستطباب الجديد المتوقع الصداع النصفي مع الأورة الجذعية (مستوى الدليل L3). الاستطباب الأصلي: الصداع النصفي (مع الأورة أو بدونها)"
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Ubrogepant: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ubrogepant
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 </div>
 
-## يوبروجيبانت: من الصداع النصفي إلى الصداع النصفي مع الأورة الجذعية
+## Ubrogepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الصداع النصفي (مع الأورة أو بدونها) |
-| الاستطباب الجديد المتنبأ به | الصداع النصفي مع الأورة الجذعية |
-| درجة تنبؤ TxGNN | 99.85% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Atrophoderma vermiculata |
+| درجة تنبؤ TxGNN | 0.9940 |
 | مستوى الأدلة | L3 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -95,7 +95,7 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Ubrelvy | Ubrelvy (الشركة المصنعة: Forest Laboratories Ireland Limited) | غير محدد | غير متوفر (الحالة: ملغى) |
+| Ubrelvy | Ubrelvy (الشركة المصنعة: Forest Laboratories Ireland Limited) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

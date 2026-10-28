@@ -50,9 +50,9 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 |------|------|
 | الاستطباب الأصلي | نقائل الأورم الخبيث في القولون (من قاعدة المعرفة TxGNN، إذ لا يتوفر نص استطباب مرخّص في بيانات الهيئة) |
 | الاستطباب الجديد المتوقع | الورم المتوسطي الجنبي الخبيث |
-| درجة تنبؤ TxGNN | 99.68% |
+| درجة تنبؤ TxGNN | 0.9968 |
 | مستوى الأدلة | L2 |
-| وضع السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
 | عدد التراخيص | 17 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) — يُعامل كسؤال بحثي |
 
@@ -97,15 +97,15 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ17 المسجلة لأوكساليبلاتين **ملغاة**، ولا يوجد ترخيص ساري حالياً. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة. أبرز المنتجات المسجلة سابقاً:
+التراخيص الـ17 المسجلة لأوكساليبلاتين **سارية**، والدواء مسوّق في هذا البلد. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة. أبرز المنتجات المسجلة:
 
 | رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| ELOXATIN 50MG VIAL | Sanofi aventis Deutschland GmbH | ملغى |
-| ELOXATIN 100MG VIAL | Sanofi aventis Deutschland GmbH | ملغى |
-| OXALIPLATIN MEDAC 50MG POWDER | MEDAC | ملغى |
-| OXALIPLATIN HOSPIRA 5MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | Zydus Hospira Oncology Private Limited | ملغى |
-| PLAXOTRIN 5 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION (20 ml) | GENEPHARM S.A. | ملغى |
+| ELOXATIN 50MG VIAL | Sanofi aventis Deutschland GmbH | ساري |
+| ELOXATIN 100MG VIAL | Sanofi aventis Deutschland GmbH | ساري |
+| OXALIPLATIN MEDAC 50MG POWDER | MEDAC | ساري |
+| OXALIPLATIN HOSPIRA 5MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | Zydus Hospira Oncology Private Limited | ساري |
+| PLAXOTRIN 5 MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION (20 ml) | GENEPHARM S.A. | ساري |
 
 ---
 

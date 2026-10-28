@@ -4,7 +4,7 @@ title: Methylprednisolone
 parent: أدلة متوسطة (L3-L4)
 nav_order: 552
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Methylprednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L3). الاستطباب الأصلي: أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، وابيضاض ا…"
 monitor_inn: "METHYLPREDNISOLONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Methylprednisolone
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 |------|------|
 | الاستطباب الأصلي | أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، وابيضاض الدم الليمفاوي الحاد) |
 | الاستطباب الجديد المتوقع | الثعلبة البقعية (Alopecia Areata) |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 12 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -95,15 +95,15 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الاثنا عشر **ملغاة**، ولا يوجد حاليًا ترخيص ساري. ولا تتوفر نصوص الاستطبابات المعتمدة ولا الأشكال الدوائية في البيانات المجمّعة.
+الدواء مسوَّق في هذا البلد، وجميع التراخيص الاثنا عشر (12 من 12) سارية.
 
 | رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| SOLU-MEDROL INJ. 500 MG. | Pfizer Manufacturing Belgium N.V. | ملغى |
-| MEDROL TAB 4 MG | PFIZER | ملغى |
-| SOLU-MEDROL 1000 mg powder and solvent for solution for injection | Pfizer Manufacturing Belgium N.V. | ملغى |
-| SOLU-MEDROL-INJ. 125 MG | Pfizer Manufacturing Belgium N.V. | ملغى |
-| ADVANTAN 0.1% SKIN OINTMENT | LEO Pharma Manufacturing Italy Srl | ملغى |
+| SOLU-MEDROL INJ. 500 MG. | Pfizer Manufacturing Belgium N.V. | ساري |
+| MEDROL TAB 4 MG | PFIZER | ساري |
+| SOLU-MEDROL 1000 mg powder and solvent for solution for injection | Pfizer Manufacturing Belgium N.V. | ساري |
+| SOLU-MEDROL-INJ. 125 MG | Pfizer Manufacturing Belgium N.V. | ساري |
+| ADVANTAN 0.1% SKIN OINTMENT | LEO Pharma Manufacturing Italy Srl | ساري |
 
 ---
 

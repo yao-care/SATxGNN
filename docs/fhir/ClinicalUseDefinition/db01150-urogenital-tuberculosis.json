@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db01150-urogenital-tuberculosis",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db01150"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "urogenital tuberculosis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9994
+    }
+  ]
+}

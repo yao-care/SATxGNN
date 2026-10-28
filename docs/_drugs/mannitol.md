@@ -4,17 +4,17 @@ title: Mannitol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 528
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Mannitol: الاستطباب الجديد المتوقع متلازمة عدم الإدرار المناسب لمضاد الإدرار الكلوية المنشأ (NSIAD) (مستوى الدليل L5). الاستطباب الأصلي: الوذمة الدماغية، ارتفاع الضغط داخل الجمجمة، ارتفاع ضغط العين، …"
 monitor_inn: "MANNITOL"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
 ---
 
 # Mannitol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 
 </div>
 
-## مانيتول: من الوذمة الدماغية وارتفاع الضغط داخل الجمجمة إلى متلازمة عدم الإدرار المناسب لمضاد الإدرار الكلوية المنشأ
+## مانيتول: من الوذمة الدماغية وارتفاع الضغط داخل الجمجمة إلى متلازمة عدم الإدرار الكلوية غير الملائمة (NSIAD)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 |------|------|
 | الاستطباب الأصلي | الوذمة الدماغية، ارتفاع الضغط داخل الجمجمة، ارتفاع ضغط العين، قصور القلب الاحتقاني، الورم الكاذب للمخ، التليف الكيسي (من الرسم المعرفي لـ TxGNN، وليس من نصوص الترخيص السعودية) |
 | الاستطباب الجديد المتوقع | متلازمة عدم الإدرار المناسب لمضاد الإدرار الكلوية المنشأ (NSIAD) |
-| درجة تنبؤ TxGNN | 99.97% |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا توجد تراخيص سارية) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -80,15 +80,15 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثمانية ملغاة، ولا يوجد ترخيص ساري. ولم تتوفر بيانات عن شكل الجرعة أو الاستطباب المعتمد.
+جميع التراخيص الثمانية سارية (8 من 8). ولم تتوفر بيانات عن شكل الجرعة أو الاستطباب المعتمد.
 
 | رقم الترخيص / المنتج | الشركة المصنعة | شكل الجرعة | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|-----|
-| 10% MANNITOL INTRAVENOUS INFUSION BP | QATAR PHARMA | غير متوفر | غير متوفر | ملغى |
-| MANNITOL 10% INFUSION | Pharmaceutical Solution Industries (PSI) | غير متوفر | غير متوفر | ملغى |
-| MANNITOL 20% INFUSION | GULF INJECT | غير متوفر | غير متوفر | ملغى |
-| OSMITROL 10% INFUSION SOLN. | BAXTER | غير متوفر | غير متوفر | ملغى |
-| MANNITOL 10% W-V INFUSION BOTTLES | GULF INJECT | غير متوفر | غير متوفر | ملغى |
+| 10% MANNITOL INTRAVENOUS INFUSION BP | QATAR PHARMA | غير متوفر | غير متوفر | ساري |
+| MANNITOL 10% INFUSION | Pharmaceutical Solution Industries (PSI) | غير متوفر | غير متوفر | ساري |
+| MANNITOL 20% INFUSION | GULF INJECT | غير متوفر | غير متوفر | ساري |
+| OSMITROL 10% INFUSION SOLN. | BAXTER | غير متوفر | غير متوفر | ساري |
+| MANNITOL 10% W-V INFUSION BOTTLES | GULF INJECT | غير متوفر | غير متوفر | ساري |
 
 (عُرضت 5 من أصل 8 تراخيص.)
 
@@ -115,7 +115,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 
 **المبررات:**
 - لا توجد تجارب سريرية، والمنشور الوحيد عام وغير مرتبط مباشرة بـ NSIAD، ومستوى الأدلة L5 (تنبؤ نموذجي فقط).
-- الرابط الآلي غير مؤكد وقد يكون ضارًا (احتمال تفاقم نقص الصوديوم)، وجميع التراخيص السعودية ملغاة.
+- الرابط الآلي غير مؤكد وقد يكون ضارًا (احتمال تفاقم نقص الصوديوم)، والدواء مسوّق في السعودية وجميع التراخيص (8 من 8) سارية.
 
 **للمضي قدمًا يلزم:**
 - بيانات آلية العمل (MOA) من DrugBank.

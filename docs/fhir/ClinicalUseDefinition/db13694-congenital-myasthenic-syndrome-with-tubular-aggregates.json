@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db13694-congenital-myasthenic-syndrome-with-tubular-aggregates",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db13694"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "congenital myasthenic syndrome with tubular aggregates"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9967
+    }
+  ]
+}

@@ -4,7 +4,7 @@ title: Vildagliptin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 869
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Vildagliptin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "VILDAGLIPTIN"
@@ -14,7 +14,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 # Vildagliptin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 ## ملخص في جملة واحدة
 
-فيلداجليبتين دواء فموي يُستخدم أصلاً في علاج **داء السكري من النوع الثاني**. يتوقع نموذج TxGNN أنه قد يكون مفيداً في **متلازمة الطرف المتيبس البؤرية**، بدرجة تنبؤ مرتفعة (99.88%). لكن هذا التوقع حسابي بحت، إذ لا توجد **أي تجارب سريرية ولا منشورات** تدعمه في البيانات المجمّعة لهذا التقرير.
+فيلداجليبتين دواء فموي يُستخدم أصلاً في علاج **داء السكري من النوع الثاني**. يتوقع نموذج TxGNN أنه قد يكون مفيداً في **متلازمة الطرف المتيبس البؤرية**، بدرجة تنبؤ مرتفعة (0.9988). لكن هذا التوقع حسابي بحت، إذ لا توجد **أي تجارب سريرية ولا منشورات** تدعمه في البيانات المجمّعة لهذا التقرير.
 
 ---
 
@@ -48,10 +48,10 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 |------|------|
 | الاستطباب الأصلي | داء السكري من النوع الثاني |
 | الاستطباب الجديد المتوقع | متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) |
-| درجة تنبؤ TxGNN | 99.88% |
+| درجة تنبؤ TxGNN | 0.9988 |
 | مستوى الدليل | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | جميع التراخيص ملغاة، ولا يوجد ترخيص ساري |
-| عدد التراخيص | 14 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -78,14 +78,14 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة عشر ملغاة، وفيما يلي أول خمسة منها:
+جميع التراخيص الأربعة عشر سارية، وفيما يلي أول خمسة منها:
 
 | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| GLEPTAL 50MG TABLET | Al-Taqaddom Pharmaceutical Industries | ملغى |
-| Vildus | Jamjoom Pharmaceuticals Company | ملغى |
-| VILDATIN 50 mg Tablet | Med City | ملغى |
-| Geuvid | Hetero Labs Limited Unit – V | ملغى |
+| GLEPTAL 50MG TABLET | Al-Taqaddom Pharmaceutical Industries | ساري |
+| Vildus | Jamjoom Pharmaceuticals Company | ساري |
+| VILDATIN 50 mg Tablet | Med City | ساري |
+| Geuvid | Hetero Labs Limited Unit – V | ساري |
 | GAVILDA 50MG TABLET (56 قرصاً) | Tabuk Pharmaceutical Manufacturing Co. | ملغى |
 
 ---
@@ -110,7 +110,6 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء دراسات مخبرية أو مناعية أولية تختبر فرضية تعديل المناعة عبر DPP-4/CD26 قبل أي تجربة سريرية.
 
-**ملاحظة حول مرشحات أخرى ضمن التنبؤات:** من بين التنبؤات الأخرى، يتميز **داء السكري من النوع الأول** بأدلة أقوى بكثير (مستوى L2، درجة تنبؤ 99.37%). من أدلته:
 - 7 تجارب سريرية مسجلة، منها تجربة مرحلة ثانية مكتملة بالراباميسين مع فيلداجليبتين لاستعادة وظيفة خلايا بيتا (NCT02803892، المنشورة في [PMID 33124663](https://pubmed.ncbi.nlm.nih.gov/33124663/)).
 - تجربة مرحلة ثالثة بحالة غير معروفة وعينة صغيرة (NCT01559025، 44 مشاركاً).
 

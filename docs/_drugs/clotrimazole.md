@@ -49,9 +49,9 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 |------|------|
 | الاستطباب الأصلي | قدم الرياضي، السعفة الجسمية، داء المبيضات الجلدي والفموي والمهبلي، النخالية المبرقشة |
 | الاستطباب الجديد المتوقع | حب الشباب (Acne) |
-| درجة تنبؤ TxGNN | 99.86% |
+| درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
 | عدد التراخيص | 17 (جميعها ملغاة) |
 | القرار الموصى به | Hold (تعليق) |
 
@@ -83,15 +83,15 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ17 ملغاة. فيما يلي أبرز خمسة منها (لا تتوفر بيانات عن الشكل الدوائي ولا نص الاستطباب المعتمد):
+لدى الدواء 17 ترخيصًا ساريًا. فيما يلي أبرز خمسة منها (لا تتوفر بيانات عن الشكل الدوائي ولا نص الاستطباب المعتمد):
 
 | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| CANESTEN SOLUTION 1% | KVP PHARMA | ملغى |
-| CLOTREX | HAYAT PHARMACEUTICAL INDUSTRIES | ملغى |
-| DERMATIN CREAM 1% | PHARCO PHARMACEUTICAL | ملغى |
-| CANESTEN CREAM 1% | GP Grenzach Produktion GmbH | ملغى |
-| CLOZOLE 1% TOPICAL SOLUTION | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
+| CANESTEN SOLUTION 1% | KVP PHARMA | ساري |
+| CLOTREX | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| DERMATIN CREAM 1% | PHARCO PHARMACEUTICAL | ساري |
+| CANESTEN CREAM 1% | GP Grenzach Produktion GmbH | ساري |
+| CLOZOLE 1% TOPICAL SOLUTION | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nevirapine
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 583
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Nevirapine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية / الإيدز"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## نيفيرابين: من عدوى فيروس نقص المناعة البشرية إلى متلازمة نقص المناعة المكتسب لدى القطط
+## Nevirapine: متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | عدوى فيروس نقص المناعة البشرية / الإيدز |
-| الاستطباب الجديد المتوقع | متلازمة نقص المناعة المكتسب لدى القطط |
-| درجة توقع TxGNN | 99.85% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغى فقط (الترخيص ملغى) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | متلازمة نقص المناعة المكتسب لدى القطط (feline acquired immunodeficiency syndrome) |
+| درجة توقع TxGNN | 0.9985 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / التأجيل) |
 
 ---
@@ -62,7 +62,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة لهذا التقرير. استناداً إلى المعرفة المتاحة، ينتمي نيفيرابين إلى فئة مثبطات النسخ العكسي غير النيوكليوزيدية التي تستهدف إنزيم النسخ العكسي لفيروس HIV-1، وقد ثبتت فعاليته في عدوى HIV.
 
-فيروس نقص المناعة لدى القطط (FIV) من الفيروسات العكوسة البطيئة (Lentivirus) كما HIV، ومن هنا جاء الارتباط في الشبكة المعرفية. غير أن إنزيم النسخ العكسي لدى FIV يختلف بنيوياً عن إنزيم HIV-1، وتشير المعرفة المنشورة عموماً إلى أنه مقاوم بطبيعته للعديد من مثبطات NNRTI. لذلك فالدرجة المرتفعة (0.998) يرجَّح أنها ناتجة عن الصلة الشبكية بـ HIV لا عن فعالية حقيقية.
+فيروس نقص المناعة لدى القطط (FIV) من الفيروسات العكوسة البطيئة (Lentivirus) كما HIV، ومن هنا جاء الارتباط في الشبكة المعرفية. غير أن إنزيم النسخ العكسي لدى FIV يختلف بنيوياً عن إنزيم HIV-1، وتشير المعرفة المنشورة عموماً إلى أنه مقاوم بطبيعته للعديد من مثبطات NNRTI.
 
 كما أن الاستخدام البيطري خارج نطاق إعادة توظيف الأدوية البشرية.
 
@@ -88,7 +88,6 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 |---------|------|------|-----------|
 | VIRAMUNE 200MG TAB | VIRAMUNE 200MG TAB (الشركة المصنعة: Boehringer Ingelheim Ellas A.E) | غير محدد | غير محدد |
 
-الترخيص الوحيد حالته ملغاة، ولا توجد تراخيص سارية.
 
 ---
 

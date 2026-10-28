@@ -4,17 +4,17 @@ title: Mercaptopurine
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 540
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid Leukemia) (مستوى الدليل L2). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد (لا يتوفر نص استطباب معتمد في تراخيص السو…"
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (myeloid leukemia) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small 
 
 </div>
 
-## ميركابتوبورين: من سرطان الدم الليمفاوي الحاد إلى ابيضاض الدم النقوي
+## Mercaptopurine: ابيضاض الدم النقوي (myeloid leukemia)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ابيضاض الدم الليمفاوي الحاد (لا يتوفر نص استطباب معتمد في تراخيص السوق السعودي) |
-| الاستطباب الجديد المتوقع | ابيضاض الدم النقوي (Myeloid Leukemia) |
-| درجة تنبؤ TxGNN | 99.94% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | ابيضاض الدم النقوي (myeloid leukemia) |
+| درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L2 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -106,8 +106,7 @@ predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small 
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PURINETHOL 50MG TAB | PURINETHOL 50MG TAB (Excella GmbH & Co.KG) | غير محدد | غير متوفر (الحالة: ملغى) |
-| Xaluprine | Xaluprine (Nova Laboratories Ltd) | غير محدد | غير متوفر (الحالة: ملغى) |
+| Xaluprine | Xaluprine (Nova Laboratories Ltd) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 
@@ -151,7 +150,7 @@ predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية (SFDA) وتحليل تحذيراتها وموانع استعمالها.
 - استكمال بيانات آلية العمل من DrugBank.
-- تحديد توفر المنتج في السوق السعودي، إذ إن جميع التراخيص الحالية ملغاة.
+- تحديد توفر المنتج في السوق، إذ إن الدواء مسوّق في هذا البلد ولديه ترخيصان سارِيان من أصل ترخيصين.
 - تصميم دراسة تعزل مساهمة الميركابتوبورين في ابيضاض الدم النقوي، أو مراجعة منهجية للدراسات المتاحة.
 - وضع خطة مراقبة للسلامة تشمل فحص TPMT/NUDT15 ومراقبة الدم والكبد.
 

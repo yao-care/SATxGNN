@@ -50,10 +50,10 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 |------|------|
 | الاستطباب الأصلي | التهاب الجلد التأتبي، التهاب الجلد التماسي، التهاب الجلد الدهني، الحزاز، الذئبة الحمامية القرصية، وغيرها (من الرسم المعرفي لـ TxGNN؛ نصوص الاستطباب المرخصة في السعودية غير متوفرة) |
 | الاستطباب الجديد المتوقع | الحزاز المسطح الضخامي |
-| درجة توقع TxGNN | 99.42% |
+| درجة توقع TxGNN | 0.9942 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,13 +84,13 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنعة | الحالة |
 |---------|------|------|------|------|
-| SYNALAR OINTMENT | SYNALAR OINTMENT | غير متوفر | GRUNENTHAL | ملغى |
-| PETRALAR 0.025% CREAM | PETRALAR 0.025% CREAM | كريم | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ملغى |
-| PETRALAR-F 0.25% CREAM | PETRALAR-F 0.25% CREAM | كريم | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ملغى |
-| SYNALAR CREAM | SYNALAR CREAM | كريم | GRUNENTHAL | ملغى |
-| DERMOLAR | DERMOLAR | غير متوفر | RIYADH PHARMA | ملغى |
+| SYNALAR OINTMENT | SYNALAR OINTMENT | غير متوفر | GRUNENTHAL | ساري |
+| PETRALAR 0.025% CREAM | PETRALAR 0.025% CREAM | كريم | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+| PETRALAR-F 0.25% CREAM | PETRALAR-F 0.25% CREAM | كريم | ARAB CENTER FOR PHARMACEUTICALS & CHEMICAL IND. CO. | ساري |
+| SYNALAR CREAM | SYNALAR CREAM | كريم | GRUNENTHAL | ساري |
+| DERMOLAR | DERMOLAR | غير متوفر | RIYADH PHARMA | ساري |
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد حالياً منتج ساري المفعول، وقد يحد ذلك من إمكانية التوفر العملي.
+جميع التراخيص الخمسة سارية المفعول (5 من 5)، والدواء مسوّق في هذا البلد.
 
 ---
 
@@ -111,7 +111,7 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التوقع حسابي فقط (L5) بدرجة عالية (99.42%)، بلا أي تجارب سريرية أو أدبيات مرفقة، وجميع التراخيص السعودية ملغاة، ما يحد من الجدوى العملية. وتنطبق القيود نفسها على المتغيرات الأخرى المتوقعة، مع تحفظات إضافية على المتغيرات الضمورية والفقاعية.
+- التوقع حسابي فقط (L5) بدرجة عالية (0.9942)، بلا أي تجارب سريرية أو أدبيات مرفقة، وجميع التراخيص السعودية سارية المفعول (5 من 5). وتنطبق القيود نفسها على المتغيرات الأخرى المتوقعة، مع تحفظات إضافية على المتغيرات الضمورية والفقاعية.
 
 **للمضي قدماً يلزم:**
 - مراجعة منهجية للأدبيات حول الستيرويدات الموضعية القوية في الحزاز المسطح الضخامي.

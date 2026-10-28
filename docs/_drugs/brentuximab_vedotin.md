@@ -50,10 +50,10 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 |------|------|
 | الاستطباب الأصلي | لمفوما هودجكين (الكلاسيكية وأنماطها الفرعية) — مأخوذ من الرسم المعرفي، إذ لا يتوفر نص استطباب في تراخيص السوق |
 | الاستطباب الجديد المتوقع | اللمفوما الجُريبية (Follicular Lymphoma) |
-| درجة تنبؤ TxGNN | 99.89% |
+| درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L3 |
-| حالة السوق في السعودية | ملغى فقط (Cancelled only) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت)، مع اعتبارها سؤالاً بحثياً |
 
 ---
@@ -99,7 +99,7 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ADCETRIS 50 mg powder for concentrate for solution for infusion | ADCETRIS 50 mg powder for concentrate for solution for infusion (الشركة: BSP Pharmaceuticals S.r.l.) | غير مذكور | غير مذكور — الترخيص ملغى |
+| ADCETRIS 50 mg powder for concentrate for solution for infusion | ADCETRIS 50 mg powder for concentrate for solution for infusion (الشركة: BSP Pharmaceuticals S.r.l.) | غير مذكور | غير مذكور — الترخيص ساري |
 
 ---
 

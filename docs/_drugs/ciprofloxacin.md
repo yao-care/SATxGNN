@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 187
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ciprofloxacin: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتير…"
@@ -14,7 +14,7 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 # Ciprofloxacin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 |------|------|
 | الاستطباب الأصلي | العدوى البكتيرية (الحمى التيفية، السالمونيلا، الالتهاب الرئوي البكتيري، عدوى الزائفة الزنجارية، الزحار وغيرها) |
 | الاستطباب الجديد المتوقع | تصلب الجلد المنتشر |
-| درجة تنبؤ TxGNN | 99.87% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
+| درجة تنبؤ TxGNN | 0.9987 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
@@ -88,15 +88,15 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص العشرون ملغاة، ولا يوجد ترخيص ساري. أبرز خمسة تراخيص:
+يوجد 20 ترخيصًا ساريًا للدواء في السوق. أبرز خمسة تراخيص:
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|------|
-| EMICIPRO 750MG TABLETS | EMICIPRO 750MG TABLETS | GLOBAL PHARMA | ملغى |
-| CIPROFLACIN 250 MG FILM COATED TABLETS | CIPROFLACIN 250 MG FILM COATED TABLETS | Ram Pharmaceutical Industries | ملغى |
-| CIPROFLOX 500MG TAB | CIPROFLOX 500MG TAB | APM | ملغى |
-| CIPROLON 750MG F.C. TABLETS | CIPROLON 750MG F.C. TABLETS | Hikma Pharmaceuticals PLC | ملغى |
-| CIPROMAX 0.3% EYE-EAR DROPS | CIPROMAX 0.3% EYE-EAR DROPS | SPIMACO | ملغى |
+| EMICIPRO 750MG TABLETS | EMICIPRO 750MG TABLETS | GLOBAL PHARMA | ساري |
+| CIPROFLACIN 250 MG FILM COATED TABLETS | CIPROFLACIN 250 MG FILM COATED TABLETS | Ram Pharmaceutical Industries | ساري |
+| CIPROFLOX 500MG TAB | CIPROFLOX 500MG TAB | APM | ساري |
+| CIPROLON 750MG F.C. TABLETS | CIPROLON 750MG F.C. TABLETS | Hikma Pharmaceuticals PLC | ساري |
+| CIPROMAX 0.3% EYE-EAR DROPS | CIPROMAX 0.3% EYE-EAR DROPS | SPIMACO | ساري |
 
 ---
 
@@ -124,7 +124,7 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 
 **المبررات:**
 - الأدلة على فائدة السيبروفلوكساسين في تصلب الجلد المنتشر محدودة (L4): لا توجد تجارب سريرية مسجلة، ويوجد منشوران فقط أحدهما أترابي قديم والآخر لا تتوفر نتائجه في البيانات المجمعة.
-- الآلية المضادة للتليف فرضية غير مثبتة، ولا توجد تراخيص سارية للدواء في السعودية.
+- الآلية المضادة للتليف فرضية غير مثبتة، والدواء مسوّق وله 20 ترخيصًا ساريًا.
 
 **لمواصلة التقييم، يلزم ما يلي:**
 - الاطلاع على النص الكامل ونتائج دراسة PMID 20507401 لتقييم أي أثر مضاد للتليف.

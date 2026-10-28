@@ -4,7 +4,7 @@ title: Canakinumab
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 139
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Canakinumab: الاستطباب الجديد المتوقع احتشاء الكبد (Hepatic infarction) (مستوى الدليل L5). الاستطباب الأصلي: المتلازمات الدورية المرتبطة بالكريوبيرين، حمى البحر المتوسط العائلية،…"
 monitor_inn: "CANAKINUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 # Canakinumab
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 |------|------|
 | الاستطباب الأصلي | المتلازمات الدورية المرتبطة بالكريوبيرين، حمى البحر المتوسط العائلية، التهاب المفاصل الليفي الشبابي (الجهازي)، نقص كيناز الميفالونات، النقرس (مأخوذة من الاستطبابات المسجلة في قاعدة المعرفة، إذ لا يتوفر نص استطباب في تراخيص المملكة) |
 | الاستطباب الجديد المتوقع | احتشاء الكبد (Hepatic infarction) |
-| درجة توقع TxGNN | 99.86% |
+| درجة توقع TxGNN | 0.9986 |
 | مستوى الدليل | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -83,8 +83,8 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|------|
-| ILARIS 150MG | ILARIS 150MG | NOVARTIS | ملغى |
-| ILARIS | ILARIS | NOVARTIS Pharma Stein AG | ملغى |
+| ILARIS 150MG | ILARIS 150MG | NOVARTIS | ساري |
+| ILARIS | ILARIS | NOVARTIS Pharma Stein AG | ساري |
 
 ---
 

@@ -4,17 +4,17 @@ title: Trastuzumab
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 830
 evidence_level: L1
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Trastuzumab: الاستطباب الجديد المتوقع سرطان الثدي الإيجابي لمستقبلات البروجسترون (مستوى الدليل L1). الاستطباب الأصلي: سرطان الثدي الإيجابي لـ HER2"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: الاستطباب الجديد المتوقع Malignant cutaneous granular cell skin tumor (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomes
 
 </div>
 
-## تراستوزوماب: من سرطان الثدي الإيجابي لـ HER2 إلى سرطان الثدي الإيجابي لمستقبلات البروجسترون
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomes
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان الثدي الإيجابي لـ HER2 |
-| الاستطباب الجديد المتنبأ به | سرطان الثدي الإيجابي لمستقبلات البروجسترون |
-| درجة تنبؤ TxGNN | 99.90% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Malignant cutaneous granular cell skin tumor |
+| درجة تنبؤ TxGNN | 0.9948 |
 | مستوى الأدلة | L1 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 11 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -102,7 +102,7 @@ predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomes
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ 11 ملغاة، ولا يوجد ترخيص ساري. نص الاستطباب المعتمد غير متوفر في البيانات المجمّعة.
+نص الاستطباب المعتمد غير متوفر في البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|

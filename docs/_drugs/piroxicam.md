@@ -6,9 +6,9 @@ nav_order: 663
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Piroxicam: الاستطباب الجديد المتوقع متلازمة صغر العين الشقّي مع خلل التنسج الجذري القِطعي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي (حسب الاستطبابات المسجلة في…"
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam: الاستطباب الجديد المتوقع Colobomatous microphthalmia-rhizomelic dysplasia syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Piroxicam
@@ -33,7 +33,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-## بيروكسيكام: من التهاب المفاصل الروماتويدي إلى متلازمة صغر العين الشقّي مع خلل التنسج الجذري القِطعي
+## Piroxicam: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الفصال العظمي (حسب الاستطبابات المسجلة في الرسم المعرفي للنموذج، لأن نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية غير متوفرة) |
-| الاستطباب الجديد المتوقع | متلازمة صغر العين الشقّي مع خلل التنسج الجذري القِطعي |
-| درجة تنبؤ TxGNN | 99.996% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 (تنبؤ بالنموذج فقط) |
-| وضع التسويق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 17 (جميعها ملغاة) |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 17 من 17) |
+| عدد التراخيص | 17 (السارية: 17) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -81,15 +81,15 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 ## معلومات السوق في المملكة العربية السعودية
 
-للدواء 17 ترخيصاً، **جميعها ملغاة**، ولا يوجد ترخيص ساري. أبرز خمسة منها:
+أبرز خمسة منها:
 
 | رقم/اسم الترخيص | اسم المنتج | الجهة المصنِّعة | الحالة |
 |---------|------|------|------|
-| ORTHOCAM 10 CAPS | ORTHOCAM 10 CAPS | Tabuk Pharmaceutical Manufacturing Co. | ملغى |
-| FELDENE 20MG DISPERSABLE TAB | FELDENE 20MG DISPERSABLE TAB | SPIMACO | ملغى |
-| DISPERCAM GEL 0.5% | DISPERCAM GEL 0.5% | Medical Union Pharmaceuticals Co | ملغى |
-| NOVO-PIROCAM 10MG CAPS | NOVO-PIROCAM 10MG CAPS | Novopharm | ملغى |
-| FELDENE 20MG SUPPOSITORY | FELDENE 20MG SUPPOSITORY | Pfizer | ملغى |
+| ORTHOCAM 10 CAPS | ORTHOCAM 10 CAPS | Tabuk Pharmaceutical Manufacturing Co. | ساري |
+| FELDENE 20MG DISPERSABLE TAB | FELDENE 20MG DISPERSABLE TAB | SPIMACO | ساري |
+| DISPERCAM GEL 0.5% | DISPERCAM GEL 0.5% | Medical Union Pharmaceuticals Co | ساري |
+| NOVO-PIROCAM 10MG CAPS | NOVO-PIROCAM 10MG CAPS | Novopharm | ساري |
+| FELDENE 20MG SUPPOSITORY | FELDENE 20MG SUPPOSITORY | Pfizer | ساري |
 
 تشمل التراخيص الأخرى كبسولات وأقراصاً قابلة للتشتت وحقناً عضلية وجيلاً موضعياً ولبوسات. نصوص الاستطباب المعتمدة غير متوفرة لهذه التراخيص.
 
@@ -121,7 +121,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 - التنبؤ لا يستند إلى أي تجارب سريرية أو منشورات (مستوى L5)، ولا توجد صلة آلية دوائية معقولة بين تثبيط COX وهذه المتلازمة الوراثية النادرة.
 - جميع تراخيص الدواء في السعودية ملغاة، وعدد التداخلات الدوائية كبير، وموانع الاستعمال المسجلة واسعة.
 
-**ملاحظة حول مرشح آخر:** من بين المؤشرات المتوقعة الأخرى، المرشح الوحيد الذي يملك أدلة منشورة هو **التهاب المفاصل مجهول السبب لدى الأطفال (JIA)**، بدرجة تنبؤ 99.93% ومستوى أدلة L3.
+**ملاحظة حول مرشح آخر:** من بين المؤشرات المتوقعة الأخرى، المرشح الوحيد الذي يملك أدلة منشورة هو **التهاب المفاصل مجهول السبب لدى الأطفال (JIA)**، بدرجة تنبؤ 0.9993 ومستوى أدلة L3.
 - توجد دراسات قديمة وصغيرة لبيروكسيكام عند الأطفال: مقارنة متعددة المراكز مع نابروكسين (1986)، ودراسة في التهاب المفاصل الروماتويدي لدى الأطفال (1987)، ودراسة حرائك دوائية (1991).
 - كما توجد مراجعات منهجية وتحليلات شبكية حديثة (2021 و2024) عن مضادات الالتهاب غير الستيرويدية عموماً في هذا المرض.
 - لا تثبت هذه المصادر فعالية خاصة ببيروكسيكام، ولا توجد تجارب مسجلة.

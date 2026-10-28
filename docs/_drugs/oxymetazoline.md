@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 621
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Oxymetazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب البلعوم، نزلات البرد"
 monitor_inn: "OXYMETAZOLINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "hea
 |------|------|
 | الاستطباب الأصلي | التهاب البلعوم، نزلات البرد |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.96% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9996 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -90,15 +90,15 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "hea
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الثمانية **ملغاة**، ولا يوجد ترخيص ساري. ولا تتوفر بيانات عن الشكل الدوائي والاستطباب المعتمد.
+جميع التراخيص الثمانية (8 من 8) **سارية**، والدواء مسوَّق. ولا تتوفر بيانات عن الشكل الدوائي والاستطباب المعتمد.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| ClariSpray Original | ClariSpray Original | Delpharm Montréal Inc | ملغى |
-| VICKS SINEX NASAL SPRAY. | VICKS SINEX NASAL SPRAY. | RICHARD SUN MRIL | ملغى |
-| ILIADIN INFANT | ILIADIN INFANT | Merck Healthcare KGaA | ملغى |
-| ClariSpray Menthol | ClariSpray Menthol | Delpharm Montréal Inc | ملغى |
-| NASIVIN DROPS 0.025% | NASIVIN DROPS 0.025% | Gulf Pharmaceutical Industries (Julphar) | ملغى |
+| ClariSpray Original | ClariSpray Original | Delpharm Montréal Inc | ساري |
+| VICKS SINEX NASAL SPRAY. | VICKS SINEX NASAL SPRAY. | RICHARD SUN MRIL | ساري |
+| ILIADIN INFANT | ILIADIN INFANT | Merck Healthcare KGaA | ساري |
+| ClariSpray Menthol | ClariSpray Menthol | Delpharm Montréal Inc | ساري |
+| NASIVIN DROPS 0.025% | NASIVIN DROPS 0.025% | Gulf Pharmaceutical Industries (Julphar) | ساري |
 
 (عُرضت 5 من أصل 8 تراخيص.)
 
@@ -118,7 +118,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "hea
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- الدرجة النموذجية مرتفعة (99.96%) لكن الأدلة غير مباشرة (L4): لا تجارب سريرية، ودراسة حيوانية وأدبيات متفرقة، والاستطباب المتوقع يتداخل مع الاستخدام الحالي فلا جدّة تُذكر. كما أن جميع التراخيص في السعودية ملغاة.
+- الدرجة النموذجية مرتفعة (0.9996) لكن الأدلة غير مباشرة (L4): لا تجارب سريرية، ودراسة حيوانية وأدبيات متفرقة، والاستطباب المتوقع يتداخل مع الاستخدام الحالي فلا جدّة تُذكر. كما أن الدواء مسوَّق في السعودية وجميع التراخيص الثمانية (8 من 8) سارية.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة من الهيئة العامة للغذاء والدواء (SFDA) وتحليل التحذيرات وموانع الاستعمال (فجوة حاجزة قبل أي فحص سلامة).

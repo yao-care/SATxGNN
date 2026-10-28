@@ -4,17 +4,17 @@ title: Losartan
 parent: أدلة متوسطة (L3-L4)
 nav_order: 517
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Losartan: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الخبيث الكلوي الوعائي (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، اعتلال الكلية السكري (مصدر: الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Losartan
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## لوسارتان: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الخبيث الكلوي الوعائي
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم، اعتلال الكلية السكري (مصدر: الرسم المعرفي لـ TxGNN، إذ لا تتوفر نصوص استطباب في تراخيص هيئة الغذاء والدواء السعودية ضمن البيانات المجمّعة) |
-| الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الخبيث الكلوي الوعائي |
-| درجة تنبؤ TxGNN | 99.73% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Malignant hypertensive renal disease |
+| درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 15 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | تأجيل (Hold) |
 
 ---
@@ -84,7 +84,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ15 ملغاة، ولا توجد بيانات عن شكل الجرعة أو نص الاستطباب. أبرز التراخيص:
+أبرز التراخيص:
 
 | رقم الترخيص / الاسم | اسم المنتج | شكل الجرعة | الاستطباب المعتمد |
 |---------|------|------|-----------|
@@ -113,7 +113,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 **المبررات:**
 - الدليل لا يتجاوز تقرير حالة واحداً ونموذجاً حيوانياً، بلا أي تجربة سريرية (مستوى L4)، رغم ارتفاع درجة TxGNN.
-- الدواء معتمد أصلاً لارتفاع ضغط الدم، ولا قيمة مضافة مثبتة للنمط الخبيث الكلوي الوعائي، مع وجود مخاوف تتعلق بتضيق الشريان الكلوي. كما أن جميع التراخيص في السعودية ملغاة.
+- الدواء معتمد أصلاً لارتفاع ضغط الدم، ولا قيمة مضافة مثبتة للنمط الخبيث الكلوي الوعائي، مع وجود مخاوف تتعلق بتضيق الشريان الكلوي.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات تمنع الانتقال إلى مرحلة فحص السلامة).

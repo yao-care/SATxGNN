@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 378
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Fremanezumab: الاستطباب الجديد المتوقع الصداع النصفي مع الهالة الجذعية (مستوى الدليل L4). الاستطباب الأصلي: الصداع النصفي (اضطراب الصداع النصفي، بما في ذلك الصداع النصفي مع الها…"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["atrophoderma vermiculata"]
 
 </div>
 
-## فريمانيزوماب: من الصداع النصفي إلى الصداع النصفي مع الهالة الجذعية
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["atrophoderma vermiculata"]
 
 | البند | المحتوى |
 |------|------|
-| الدلالة الأصلية | الصداع النصفي (اضطراب الصداع النصفي، بما في ذلك الصداع النصفي مع الهالة أو بدونها) |
-| الدلالة الجديدة المتوقعة | الصداع النصفي مع الهالة الجذعية |
-| درجة تنبؤ TxGNN | 99.94% |
-| مستوى الأدلة | L4 |
-| وضع السوق في السعودية | ملغى فقط (الترخيص مُلغى) |
-| عدد التراخيص | 1 (مُلغى) |
+| الدلالة الأصلية | غير مسجل في البيانات المحلية |
+| الدلالة الجديدة المتوقعة | Atrophoderma vermiculata |
+| درجة تنبؤ TxGNN | 0.9904 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---

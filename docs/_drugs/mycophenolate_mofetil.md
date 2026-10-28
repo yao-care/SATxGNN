@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 574
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء المزروعة) |
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة البشرية (HIV) |
-| درجة تنبؤ TxGNN | 99.86% |
+| درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L2 (وفق التقييم المرفق؛ انظر التحفظ في قسم الأدلة السريرية) |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 11 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -98,15 +98,15 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ11 المسجلة ملغاة، ولا يوجد ترخيص ساري حاليًا. بيانات الشكل الدوائي ونص الاستطباب غير متوفرة في السجلات.
+جميع التراخيص الـ11 المسجلة سارية (11 ترخيصًا صالحًا من أصل 11)، والدواء مسوّق في هذا البلد. بيانات الشكل الدوائي ونص الاستطباب غير متوفرة في السجلات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| MYORA 500 MG FILM COATED TABLET | MYORA 500 MG | APM | ملغى |
-| MELNOLATE 250 mg Capsule | MELNOLATE 250 mg | Apotex Research | ملغى |
-| MOFETAB 500 MG FILM COATED TABLET | MOFETAB 500 mg | Tabuk Pharmaceutical | ملغى |
-| ACCEPT 500MG F.C.TAB | ACCEPT 500 mg | Intas Pharmaceuticals | ملغى |
-| CELLCEPT 500 mg tablet | CELLCEPT 500 mg | Delpharm Milano | ملغى |
+| MYORA 500 MG FILM COATED TABLET | MYORA 500 MG | APM | ساري |
+| MELNOLATE 250 mg Capsule | MELNOLATE 250 mg | Apotex Research | ساري |
+| MOFETAB 500 MG FILM COATED TABLET | MOFETAB 500 mg | Tabuk Pharmaceutical | ساري |
+| ACCEPT 500MG F.C.TAB | ACCEPT 500 mg | Intas Pharmaceuticals | ساري |
+| CELLCEPT 500 mg tablet | CELLCEPT 500 mg | Delpharm Milano | ساري |
 
 ---
 
@@ -129,7 +129,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 **المبررات:**
 - الأدلة الداعمة لدلالة HIV ضعيفة: التجربة المرتبطة مباشرة سُحبت دون تسجيل أي مشارك، والبقية صغيرة أو غير مباشرة، والنتائج السريرية متباينة، وكبت المناعة مصدر قلق لدى هذه الفئة.
-- جميع التراخيص المحلية ملغاة، وبيانات السلامة من النشرة غير متوفرة، وهي فجوة تمنع المضي إلى مرحلة فحص السلامة.
+- التراخيص المحلية سارية (11 ترخيصًا صالحًا من أصل 11)، لكن بيانات السلامة من النشرة غير متوفرة، وهي فجوة تمنع المضي إلى مرحلة فحص السلامة.
 
 **للمضي قدمًا يلزم:**
 - الحصول على نشرة الدواء المعتمدة من موقع الهيئة العامة للغذاء والدواء وتحليل التحذيرات وموانع الاستعمال.

@@ -6,9 +6,9 @@ nav_order: 618
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Orphenadrine: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L5). الاستطباب الأصلي: الشلل الرعاش / داء باركنسون (من رسم المعرفة PrimeKG، وليس من نص النشر…"
 monitor_inn: "orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
+description: "Orphenadrine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Orphenadrine
@@ -33,7 +33,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## أورفينادرين: من داء باركنسون إلى الفصام (مسار بحثي)
+## Orphenadrine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | الشلل الرعاش / داء باركنسون (من رسم المعرفة PrimeKG، وليس من نص النشرة الدوائية) |
-| المؤشر الجديد المتوقع | الفصام (Schizophrenia) |
-| درجة تنبؤ TxGNN | 99.13% |
-| مستوى الأدلة | L4 (دراسات ما قبل سريرية/آلية، دون تجارب سريرية فعلية على الفصام) |
-| حالة السوق في السعودية | مُلغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Retinal dystrophy with or without extraocular anomalies |
+| درجة تنبؤ TxGNN | 0.9929 |
+| مستوى الأدلة | L5 (دراسات ما قبل سريرية/آلية، دون تجارب سريرية فعلية على الفصام) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت، مع اعتبار الفصام سؤالًا بحثيًا) |
 
 ---
@@ -99,7 +99,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
 |---------|------|------|-----------|
-| MYOGESIC | MYOGESIC (الشركة: DAR ALDAWA) | غير محدد | غير محدد (الحالة: ملغى) |
+| MYOGESIC | MYOGESIC (الشركة: DAR ALDAWA) | غير محدد | غير محدد (الحالة: ساري) |
 
 لا يوجد حاليًا أي ترخيص ساري المفعول لأورفينادرين في السعودية.
 
@@ -125,12 +125,12 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | المؤشر المتوقع | درجة TxGNN |
 |------|------|
-| ضمور الشبكية مع أو بدون شذوذات خارج العين | 99.29% |
-| اضطراب الارتباط السكري الخلقي مع خلل في الفوكوزة | 99.27% |
-| تعدد التلافيف الدماغية حول الشق السلفي مع نقص تنسج المخيخ وتقفع المفاصل | 99.21% |
-| داء شاركو-ماري-توث الإزالي النوع 1G | 99.19% |
-| قِصر النظر المرتبط بالكروموسوم X | 99.09% |
-| قِصر النظر 26 المرتبط بـ X (محدود بالإناث) | 99.00% |
+| ضمور الشبكية مع أو بدون شذوذات خارج العين | 0.9929 |
+| اضطراب الارتباط السكري الخلقي مع خلل في الفوكوزة | 0.9927 |
+| تعدد التلافيف الدماغية حول الشق السلفي مع نقص تنسج المخيخ وتقفع المفاصل | 0.9921 |
+| داء شاركو-ماري-توث الإزالي النوع 1G | 0.9919 |
+| قِصر النظر المرتبط بالكروموسوم X | 0.9909 |
+| قِصر النظر 26 المرتبط بـ X (محدود بالإناث) | 0.9900 |
 
 ---
 
@@ -139,9 +139,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 **القرار: Hold (إيقاف مؤقت)** — يُعامل الفصام كسؤال بحثي فقط.
 
 **المبررات:**
-- الدرجة التنبؤية مرتفعة (99.13%) لكنها حسابية، ولا توجد تجارب سريرية على الفصام.
+- الدرجة التنبؤية مرتفعة (0.9913) لكنها حسابية، ولا توجد تجارب سريرية على الفصام.
 - الأدبيات تدعم استخدام أورفينادرين لعلاج الأعراض الحركية الجانبية لمضادات الذهان، لا علاج الفصام نفسه، وقد تكون خصائصه المضادة للكولين والمضادة لـ NMDA ضارة بالإدراك والأعراض الذهانية.
-- لا يوجد ترخيص ساري في السعودية (ملغى فقط)، وبيانات السلامة من النشرة الدوائية ناقصة، وهي عائق أمام الانتقال إلى مرحلة فحص السلامة.
 
 **المطلوب للمضي قدمًا:**
 - الحصول على النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة حاجزة).

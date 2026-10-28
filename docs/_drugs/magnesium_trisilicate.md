@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Trisilicate
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 527
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Magnesium Trisilicate: الاستطباب الجديد المتوقع مرض القرحة الهضمية النشطة (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية (بحسب الرسم المعرفي PrimeKG، إذ لا يتوفر نص مؤشر م…"
 monitor_inn: "magnesium trisilicate"
 predicted_indications: ["gastroduodenitis"]
+description: "Magnesium Trisilicate: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Magnesium Trisilicate
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["gastroduodenitis"]
 
 </div>
 
-## تريسيليكات المغنيسيوم: من مرض القرحة الهضمية إلى مرض القرحة الهضمية النشطة
+## Magnesium Trisilicate: Gastroduodenitis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["gastroduodenitis"]
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | مرض القرحة الهضمية (بحسب الرسم المعرفي PrimeKG، إذ لا يتوفر نص مؤشر معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
-| المؤشر الجديد المتوقع | مرض القرحة الهضمية النشطة |
-| درجة تنبؤ TxGNN | 99.86% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Gastroduodenitis |
+| درجة تنبؤ TxGNN | 0.9972 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -87,7 +87,7 @@ predicted_indications: ["gastroduodenitis"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|
-| MALUGEL CHEWABLE TAB | MALUGEL CHEWABLE TAB (Hikma Pharmaceuticals PLC) | أقراص للمضغ (بحسب اسم المنتج) | غير متوفر؛ الحالة: ملغى |
+| MALUGEL CHEWABLE TAB | MALUGEL CHEWABLE TAB (Hikma Pharmaceuticals PLC) | أقراص للمضغ (بحسب اسم المنتج) | غير متوفر؛ الحالة: ساري |
 
 ---
 

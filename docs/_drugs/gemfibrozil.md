@@ -4,17 +4,17 @@ title: Gemfibrozil
 parent: أدلة متوسطة (L3-L4)
 nav_order: 387
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Gemfibrozil: الاستطباب الجديد المتوقع التهاب المفاصل الرثياني (Rheumatoid arthritis) (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع الدهون الثلاثية في الدم (Hypertriglyceridemia)"
 monitor_inn: "GEMFIBROZIL"
-predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "obsolete familial combined hyperlipidemia", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 |------|------|
 | الاستطباب الأصلي | ارتفاع الدهون الثلاثية في الدم (Hypertriglyceridemia) |
 | الاستطباب الجديد المتوقع | التهاب المفاصل الرثياني (Rheumatoid arthritis) |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت)، مع اعتباره سؤالاً بحثياً |
 
 ---
@@ -89,10 +89,10 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 
 | المرض المتوقع | الدرجة | مستوى الأدلة | التقييم |
 |------|------|------|------|
-| عدوى HIV | 99.80% | L2 | تجربة عشوائية مزدوجة التعمية ([12409741](https://pubmed.ncbi.nlm.nih.gov/12409741/)) تدعم فاعلية جيمفيبروزيل في ارتفاع الدهون الثلاثية المرتبط بمثبطات البروتياز، وتجربة ([14640387](https://pubmed.ncbi.nlm.nih.gov/14640387/)) عن خلل التغذية الشحمي. الفائدة تخص اضطراب الدهون وليس العدوى نفسها، فهي تتداخل مع الاستطباب الأصلي. وتجربة واحدة مسجلة (NCT00039663، المرحلة 1، 75 مشاركاً، مكتملة) غير مباشرة |
-| نقص ألفا ليبوبروتين الدم | 99.77% | L3 | دراسات صغيرة قديمة (1989–2000) على مؤشرات الدهون دون نتائج سريرية صلبة |
-| التهاب الأقنية الصفراوية المصلّب | 99.70% | L4 | أدلة غير مباشرة فقط (مراجعة سلامة الفيبرات)، ومخاوف من السلامة الكبدية |
-| بقية التنبؤات (الأورام الصماوية المتعددة، متلازمات نادرة، ميثيموغلوبين الدم، إلخ) | 99.70%–99.83% | L5 | تنبؤ حسابي فقط دون أدلة، القرار: Hold |
+| عدوى HIV | 0.9980 | L2 | تجربة عشوائية مزدوجة التعمية ([12409741](https://pubmed.ncbi.nlm.nih.gov/12409741/)) تدعم فاعلية جيمفيبروزيل في ارتفاع الدهون الثلاثية المرتبط بمثبطات البروتياز، وتجربة ([14640387](https://pubmed.ncbi.nlm.nih.gov/14640387/)) عن خلل التغذية الشحمي. الفائدة تخص اضطراب الدهون وليس العدوى نفسها، فهي تتداخل مع الاستطباب الأصلي. وتجربة واحدة مسجلة (NCT00039663، المرحلة 1، 75 مشاركاً، مكتملة) غير مباشرة |
+| نقص ألفا ليبوبروتين الدم | 0.9977 | L3 | دراسات صغيرة قديمة (1989–2000) على مؤشرات الدهون دون نتائج سريرية صلبة |
+| التهاب الأقنية الصفراوية المصلّب | 0.9970 | L5 | أدلة غير مباشرة فقط (مراجعة سلامة الفيبرات)، ومخاوف من السلامة الكبدية |
+| بقية التنبؤات (الأورام الصماوية المتعددة، متلازمات نادرة، ميثيموغلوبين الدم، إلخ) | 0.9970–0.9983 | L5 | تنبؤ حسابي فقط دون أدلة، القرار: Hold |
 
 ---
 
@@ -127,7 +127,7 @@ predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", 
 
 **المبررات:**
 - التنبؤ الأعلى (التهاب المفاصل الرثياني) يستند إلى أدلة غير مباشرة فقط (نماذج حيوانية وأثر الفئة) دون أي تجربة سريرية.
-- لا يوجد ترخيص ساري في السعودية، وبيانات السلامة من نشرة الدواء غير متوفرة، وعبء التداخلات الدوائية كبير.
+- الدواء مسوّق في هذا البلد، ولديه ترخيص واحد ساري من أصل ترخيص واحد، وبيانات السلامة من نشرة الدواء غير متوفرة، وعبء التداخلات الدوائية كبير.
 
 **للمتابعة يلزم:**
 - الحصول على نشرة الدواء من الهيئة العامة للغذاء والدواء (SFDA) لاستكمال التحذيرات وموانع الاستعمال، وهو شرط أساسي قبل أي فحص سلامة.

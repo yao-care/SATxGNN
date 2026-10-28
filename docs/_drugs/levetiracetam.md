@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 493
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Levetiracetam: الاستطباب الجديد المتوقع الصرع البصري (Visual epilepsy) (مستوى الدليل L4). الاستطباب الأصلي: الصرع الجزئي (استنادًا إلى رسم المعرفة البياني للنموذج، إذ لا تتضمن ب…"
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: الاستطباب الجديد المتوقع Beta-ketothiolase deficiency (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 
 </div>
 
-## ليفيتيراسيتام: من الصرع الجزئي إلى الصرع البصري
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,11 +46,11 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الصرع الجزئي (استنادًا إلى رسم المعرفة البياني للنموذج، إذ لا تتضمن بيانات التراخيص نص استطباب) |
-| الاستطباب الجديد المتوقع | الصرع البصري (Visual epilepsy) |
-| درجة تنبؤ TxGNN | 99.98% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Beta-ketothiolase deficiency |
+| درجة تنبؤ TxGNN | 0.9990 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (التريث) |
 
@@ -91,15 +91,15 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 
 ## معلومات السوق في السعودية
 
-بحسب البيانات المجمّعة، لدى ليفيتيراسيتام 20 ترخيصًا مسجلًا في السعودية، **جميعها ملغاة**، ولا يوجد ترخيص ساري. نصوص الاستطباب والأشكال الصيدلانية غير متوفرة في السجلات. فيما يلي أبرز 5 تراخيص:
+نصوص الاستطباب والأشكال الصيدلانية غير متوفرة في السجلات. فيما يلي أبرز 5 تراخيص:
 
 | اسم المنتج (كما سُجّل) | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| LEVETAM 250 mg film-coated tablet | ACTAVIS | ملغى |
-| EPITAM 1000MG F.C.TAB | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| LAVIE 500 mg Film-Coated Tablets | JAMJOOM PHARMACEUTICALS COMPANY | ملغى |
-| VALES 500 MG CONCENTRATE FOR SOLUTION FOR INFUSION | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
-| KEPPRA 100MG-ML ORAL SOLUTION | NEXT PHARMA | ملغى |
+| LEVETAM 250 mg film-coated tablet | ACTAVIS | ساري |
+| EPITAM 1000MG F.C.TAB | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| LAVIE 500 mg Film-Coated Tablets | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| VALES 500 MG CONCENTRATE FOR SOLUTION FOR INFUSION | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| KEPPRA 100MG-ML ORAL SOLUTION | NEXT PHARMA | ساري |
 
 ---
 
@@ -117,14 +117,11 @@ predicted_indications: ["beta-ketothiolase deficiency"]
 **القرار: Hold (التريث)**
 
 **المبررات:**
-- لا توجد تجارب سريرية مسجلة، ولا أدبيات تتناول الصرع البصري مباشرة، فالتنبؤ قائم على النموذج وعلى الآلية العامة المضادة للنوبات (مستوى L4).
-- لا يوجد ترخيص ساري في السعودية، وبيانات النشرة الدوائية للسلامة ناقصة.
 
 **للمضي قدمًا يلزم:**
 - الحصول على بيانات آلية العمل التفصيلية من DrugBank.
 - تنزيل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية واستخراج التحذيرات وموانع الاستعمال.
 - إجراء مراجعة موجّهة للأدبيات عن الصرع الحساس للضوء والنوبات المنعكسة، أو دراسات استكشافية صغيرة.
-- توضيح الوضع التنظيمي، إذ جميع التراخيص الحالية ملغاة.
 
 **ملاحظة حول مرشحين آخرين من النموذج نفسه (دون تغيير القرار أعلاه):**
 - **الحالة الصرعية (Status epilepticus):** أقوى دعم، بمستوى L1 مع قرار «المضي مع ضوابط». يتضمن تجربتين من المرحلة 3: ESETT ([NCT01960075](https://clinicaltrials.gov/study/NCT01960075)، 478 مشاركًا) و[NCT01150331](https://clinicaltrials.gov/study/NCT01150331) (203 مشاركين). أظهرت نتيجة ESETT المنشورة عدم وجود فرق معنوي في الفعالية بين ليفيتيراسيتام وفوسفينيتوين وفالبروات، أي تكافؤًا وليس تفوقًا. وهذا الاستطباب قريب من الاستطباب الأصلي ضمن طيف النوبات.

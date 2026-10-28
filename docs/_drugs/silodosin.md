@@ -6,9 +6,9 @@ nav_order: 757
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Silodosin: الاستطباب الجديد المتوقع فرط الشعر الشامل الخلقي من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Silodosin
@@ -33,7 +33,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-## سيلودوسين: من تضخم البروستاتا الحميد إلى فرط الشعر الخلقي (متلازمة أمبراس)
+## Silodosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | تضخم البروستاتا الحميد |
-| الاستطباب الجديد المتوقع | فرط الشعر الشامل الخلقي من نوع أمبراس |
-| درجة تنبؤ TxGNN | 99.99% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Ambras type hypertrichosis universalis congenita |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L5 |
-| وضع السوق في المملكة العربية السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف/التأجيل) |
 
 ---
@@ -68,12 +68,12 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | الترتيب | المرض المتوقع | درجة TxGNN | مستوى الدليل |
 |------|------|------|------|
-| 1 | فرط الشعر الشامل الخلقي من نوع أمبراس | 99.99% | L5 |
-| 2 | فرط الشعر | 99.99% | L5 |
-| 3 | متلازمة تشوه ذات مكوّن سنّي و/أو لثوي | 99.99% | L5 |
-| 4 | متلازمة يغلب عليها تشوه داندي-ووكر | 99.98% | L5 |
-| 5 | اضطراب وراثي معزول في ساق الشعرة | 99.98% | L5 |
-| 6 | طول الرموش العائلي المعزول | 99.23% | L5 |
+| 1 | فرط الشعر الشامل الخلقي من نوع أمبراس | 0.9999 | L5 |
+| 2 | فرط الشعر | 0.9999 | L5 |
+| 3 | متلازمة تشوه ذات مكوّن سنّي و/أو لثوي | 0.9999 | L5 |
+| 4 | متلازمة يغلب عليها تشوه داندي-ووكر | 0.9998 | L5 |
+| 5 | اضطراب وراثي معزول في ساق الشعرة | 0.9998 | L5 |
+| 6 | طول الرموش العائلي المعزول | 0.9923 | L5 |
 
 ---
 
@@ -93,7 +93,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Flopadex | Flopadex (الشركة المصنعة: EVA PHARMA) | غير محدد | غير محدد (الحالة: ملغى) |
+| Flopadex | Flopadex (الشركة المصنعة: EVA PHARMA) | غير محدد | غير محدد (الحالة: ساري) |
 
 ---
 

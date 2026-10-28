@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db05016-benign-recurrent-intrahepatic-cholestasis",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db05016"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "benign recurrent intrahepatic cholestasis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9942
+    }
+  ]
+}

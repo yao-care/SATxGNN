@@ -4,17 +4,17 @@ title: Fluorometholone
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 362
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Fluorometholone: الاستطباب الجديد المتوقع التهاب الأوعية الدموية ما بعد العدوى (postinfectious vasculitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب القزحية، التهاب القزحية والجسم الهدبي، التهاب ال…"
 monitor_inn: "FLUOROMETHOLONE"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis", "lens-induced iridocyclitis"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 |------|------|
 | الاستطباب الأصلي | التهاب القزحية، التهاب القزحية والجسم الهدبي، التهاب الملتحمة (التأتبي والربيعي والحليمي)، قرحة القرنية، وغيرها (مأخوذة من الرسم المعرفي، إذ لا يتوفر نص استطباب معتمد في تراخيص السعودية) |
 | الاستطباب الجديد المتوقع | التهاب الأوعية الدموية ما بعد العدوى (postinfectious vasculitis) |
-| درجة تنبؤ TxGNN | 99.91% |
+| درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | جميع التراخيص ملغاة (غير مسوّق حالياً) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -79,15 +79,15 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد نص استطباب معتمد أو شكل جرعي مسجل لها.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة سارية (5 من أصل 5).
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| FLUCON OPTH SUSP 0.1% | FLUCON OPTH SUSP 0.1% | ALCON COUVREUR | ملغى |
-| FML LIQUIFILM 0.1% | FML LIQUIFILM 0.1% | ALLERGAN PHARMACEUTICALS LTD | ملغى |
-| FML 0.1% ophthalmic suspension | FML 0.1% ophthalmic suspension | ALLERGAN PHARMACEUTICALS LTD | ملغى |
-| OPTILONE 0.1% OPTHALMIC SUSPENTION | OPTILONE 0.1% OPTHALMIC SUSPENTION | JAMJOOM PHARMACEUTICALS COMPANY | ملغى |
-| FLUMETOL | FLUMETOL | RIYADH PHARMA | ملغى |
+| FLUCON OPTH SUSP 0.1% | FLUCON OPTH SUSP 0.1% | ALCON COUVREUR | ساري |
+| FML LIQUIFILM 0.1% | FML LIQUIFILM 0.1% | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| FML 0.1% ophthalmic suspension | FML 0.1% ophthalmic suspension | ALLERGAN PHARMACEUTICALS LTD | ساري |
+| OPTILONE 0.1% OPTHALMIC SUSPENTION | OPTILONE 0.1% OPTHALMIC SUSPENTION | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| FLUMETOL | FLUMETOL | RIYADH PHARMA | ساري |
 
 ---
 
@@ -106,7 +106,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التنبؤ حسابي فقط (L5) دون أي تجارب أو أدبيات، والمستحضر عيني موضعي بتعرض جهازي ضئيل، بينما يتطلب التهاب الأوعية علاجاً جهازياً. كما أن جميع التراخيص في السعودية ملغاة.
+- التنبؤ حسابي فقط (L5) دون أي تجارب أو أدبيات، والمستحضر عيني موضعي بتعرض جهازي ضئيل، بينما يتطلب التهاب الأوعية علاجاً جهازياً. كما أن الدواء مسوّق، و5 تراخيص سارية من أصل 5.
 
 **للمتابعة يلزم ما يلي:**
 - الحصول على تحذيرات وموانع الاستعمال من نشرة الدواء المعتمدة لدى هيئة الغذاء والدواء السعودية (SFDA).

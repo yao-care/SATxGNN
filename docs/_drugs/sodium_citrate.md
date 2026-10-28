@@ -4,17 +4,17 @@ title: Sodium Citrate
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 762
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Sodium Citrate: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: قرحة المعدة والاثني عشر، الارتجاع المعدي المريئي، التهاب المريء، عسر…"
 monitor_inn: "sodium citrate"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 ---
 
 # Sodium Citrate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acu
 |------|------|
 | الاستطباب الأصلي | قرحة المعدة والاثني عشر، الارتجاع المعدي المريئي، التهاب المريء، عسر الهضم، التهاب البلعوم، نزلات البرد، التهاب الأنف (مأخوذة من الرسم المعرفي لـ TxGNN وليس من نص النشرة الدوائية) |
 | الاستطباب الجديد المتوقع | التهاب الملتحمة الحليمي (Papillary conjunctivitis) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 16 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 16 من 16) |
+| عدد التراخيص | 16 (السارية: 16) |
 | القرار الموصى به | Hold (التعليق) |
 
 ---
@@ -61,7 +61,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acu
 
 تفاصيل آلية العمل غير متوفرة حالياً في البيانات المجمّعة. استناداً إلى المعروف، فإن سيترات الصوديوم عامل منظِّم ومضاد للحموضة، وقد ثبتت فائدته في حالات الحموضة المعدية، ومن الناحية الآلية قد يكون ذا صلة بالأمراض المرتبطة بحموضة المعدة.
 
-أما بالنسبة للتهاب الملتحمة الحليمي (وهو التهاب في العين مرتبط غالباً بالحساسية أو بالعدسات اللاصقة)، فلا توجد آلية معقولة مثبتة لدور سيترات الصوديوم فيه. ودرجة النموذج العالية (99.95%) هي توقع حسابي فقط، ولا يمكن تفسيرها سريرياً في ضوء البيانات الحالية. كما أن غياب بيانات آلية العمل يحدّ من التحليل الآلي.
+أما بالنسبة للتهاب الملتحمة الحليمي (وهو التهاب في العين مرتبط غالباً بالحساسية أو بالعدسات اللاصقة)، فلا توجد آلية معقولة مثبتة لدور سيترات الصوديوم فيه. ودرجة النموذج العالية (0.9995) هي توقع حسابي فقط، ولا يمكن تفسيرها سريرياً في ضوء البيانات الحالية. كما أن غياب بيانات آلية العمل يحدّ من التحليل الآلي.
 
 **ملاحظة حول المرشحين الآخرين:** تضمنت قائمة التنبؤات مرشحين آخرين، لكن معظمها إما امتداد للاستطبابات الأصلية، وليس استخدامًا جديدًا حقيقيًا، أو بلا أدلة:
 - **التهاب الحنجرة والبلعوم الحاد** و**أمراض تجويف الأنف**: قريبة من الاستطبابات التنفسية العلوية الأصلية، وربما فسّر ذلك الدرجة العالية.
@@ -94,15 +94,15 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acu
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ16 **ملغاة**، ولا يوجد ترخيص ساري. وفيما يلي أبرز 5 منها (نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات):
+جميع التراخيص الـ16 **سارية** (16 ترخيصًا ساريًا من أصل 16). وفيما يلي أبرز 5 منها (نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات):
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| AMYDRAMINE PAEDIATRIC SYRUP | AMYDRAMINE PAEDIATRIC SYRUP | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| DIPHELIN- ADULTS SYRUP | DIPHELIN- ADULTS SYRUP | MEDPHARMA | ملغى |
-| DRAMYLIN PEDIATRIC SYRUP | DRAMYLIN PEDIATRIC SYRUP | Kuwait Saudi Pharmaceutical Industries | ملغى |
-| CITRO-SODA GRANULES | CITRO-SODA GRANULES | Abbott Laboratories | ملغى |
+| AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | AMYDRAMINE EXPECTORANT SYRUP SUGAR FREE | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| AMYDRAMINE PAEDIATRIC SYRUP | AMYDRAMINE PAEDIATRIC SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| DIPHELIN- ADULTS SYRUP | DIPHELIN- ADULTS SYRUP | MEDPHARMA | ساري |
+| DRAMYLIN PEDIATRIC SYRUP | DRAMYLIN PEDIATRIC SYRUP | Kuwait Saudi Pharmaceutical Industries | ساري |
+| CITRO-SODA GRANULES | CITRO-SODA GRANULES | Abbott Laboratories | ساري |
 
 ---
 
@@ -125,7 +125,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acu
 
 **المبررات:**
 - لا توجد أي تجارب سريرية أو أدبيات تدعم الاستطباب المتوقع (التهاب الملتحمة الحليمي)، والتنبؤ مجرد نتيجة نموذجية (مستوى L5)، ولا توجد آلية معقولة.
-- جميع التراخيص في السعودية ملغاة، وبيانات السلامة المعتمدة من النشرة الدوائية غير متوفرة، وهذا يعيق الانتقال إلى مرحلة فحص السلامة.
+- الدواء مسوَّق في السعودية (16 ترخيصًا ساريًا من أصل 16)، لكن بيانات السلامة المعتمدة من النشرة الدوائية غير متوفرة، وهذا يعيق الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم ما يلي:**
 - تنزيل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات والموانع (فجوة حرجة).

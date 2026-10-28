@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 367
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Flurbiprofen: الاستطباب الجديد المتوقع خلل التنسج المشطي القاصي من نمط هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (من الاستطب…"
+description: "Flurbiprofen: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (من الاستطب…"
 monitor_inn: "FLURBIPROFEN"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## فلوربيبروفين: من التهاب المفاصل الروماتويدي والفصال العظمي إلى خلل التنسج المشطي القاصي من نمط هانتر-طومسون
+## فلوربيبروفين: من التهاب المفاصل الروماتويدي والفصال العظمي إلى خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (من الاستطبابات المسجلة في الرسم المعرفي، إذ لا يتوفر نص استطباب في تراخيص المملكة) |
 | الاستطباب الجديد المتنبأ به | خلل التنسج المشطي القاصي من نمط هانتر-طومسون |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| وضع السوق في المملكة العربية السعودية | ✗ جميع التراخيص ملغاة |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف / عدم المتابعة حاليًا) |
 
 ---
@@ -80,8 +80,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| FROBEN TAB 50MG | FROBEN TAB 50MG (الشركة: Reckitt Benckiser Healthcare International) | غير متوفر | غير متوفر (الترخيص ملغى) |
-| FROBEN TAB 100MG | FROBEN TAB 100MG (الشركة: Reckitt Benckiser Healthcare International) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| FROBEN TAB 50MG | FROBEN TAB 50MG (الشركة: Reckitt Benckiser Healthcare International) | غير متوفر | غير متوفر (الترخيص ساري) |
+| FROBEN TAB 100MG | FROBEN TAB 100MG (الشركة: Reckitt Benckiser Healthcare International) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 
@@ -113,10 +113,10 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 **القرار: Hold**
 
 **المبررات:**
-- المرض المتنبأ به اضطراب وراثي هيكلي لا يرتبط بآلية عمل مثبطات COX، ولا توجد أي تجارب أو أدبيات تدعمه. الدرجة المرتفعة (99.99%) ناتجة على الأرجح عن تأثير بنية الرسم المعرفي.
+- المرض المتنبأ به اضطراب وراثي هيكلي لا يرتبط بآلية عمل مثبطات COX، ولا توجد أي تجارب أو أدبيات تدعمه. الدرجة المرتفعة (0.9999) ناتجة على الأرجح عن تأثير بنية الرسم المعرفي.
 - جميع تراخيص الدواء في المملكة ملغاة، ولم تتوفر بيانات التحذيرات من النشرة الدوائية.
 
-**ملاحظة:** من بين الاستطبابات العشرة المتنبأ بها، أكثرها دعمًا بالأدلة هو **التهاب الفقار اللاصق** (المرتبة 8، درجة 99.97%، مستوى الأدلة L3، توصية: Proceed with Guardrails).
+**ملاحظة:** من بين الاستطبابات العشرة المتنبأ بها، أكثرها دعمًا بالأدلة هو **التهاب الفقار اللاصق** (المرتبة 8، درجة 0.9997، مستوى الأدلة L3، توصية: Proceed with Guardrails).
 - يدعمه نحو 20 منشورًا، بينها عدة تجارب مزدوجة التعمية معشّاة صغيرة (26 إلى 90 مريضًا، بين 1974 و1986) قارنت فلوربيبروفين بإندوميثاسين وفينيل بوتازون ونابروكسين.
 - أظهرت هذه التجارب فاعلية مماثلة في تخفيف الألم والتيبس.
 - الآلية معقولة، فمثبطات COX علاج خط أول معروف لالتهاب الفقار اللاصق.

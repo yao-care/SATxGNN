@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Iron
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 456
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Iron: الاستطباب الجديد المتوقع متلازمة بلامر-فينسون (مستوى الدليل L4). الاستطباب الأصلي: فقر الدم الناتج عن نقص الحديد (إضافة إلى فقر الدم الناتج عن نقص حمض ا…"
 monitor_inn: "iron"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+description: "Iron: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Iron
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-## الحديد: من فقر الدم الناتج عن نقص الحديد إلى متلازمة بلامر-فينسون
+## Iron: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فقر الدم الناتج عن نقص الحديد (إضافة إلى فقر الدم الناتج عن نقص حمض الفوليك، وفقر الدم ناقص الصباغ، وفقر الدم صغير الكريات) |
-| الاستطباب الجديد المتوقع | متلازمة بلامر-فينسون |
-| درجة تنبؤ TxGNN | 99.89% |
-| مستوى الأدلة | L4 |
-| حالة التسويق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| درجة تنبؤ TxGNN | 0.9989 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التريث) |
 
 > ملاحظة: بيانات الترخيص المحلية لا تتضمن نص استطباب معتمد، ولذلك اعتُمد الاستطباب الأصلي من علاقات الاستطباب في الرسم المعرفي لـ TxGNN.
@@ -100,7 +100,6 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 | VIDAYLIN + IRON-SYRUP | VIDAYLIN + IRON-SYRUP (Abbott Laboratories) | غير متوفر | غير متوفر |
 | SUPRAVIT CAPS | SUPRAVIT CAPS (GLAXO SAUDI ARABIA) | غير متوفر | غير متوفر |
 
-كلا الترخيصين بحالة **ملغى**، ولا توجد تراخيص سارية.
 
 ---
 
@@ -134,7 +133,6 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 **المبررات:**
 - المنطق البيولوجي قوي لأن المتلازمة ترتبط مباشرة بنقص الحديد، لكن الأدلة تقتصر على مراجعات وتقارير حالات ودراسة استعادية، بلا تجارب مسجلة ولا تجارب عشوائية، فمستوى الأدلة L4 فقط.
-- لا توجد تراخيص سارية في السعودية، كما أن بيانات السلامة من النشرة الدوائية ناقصة وتُعد عائقاً أمام الانتقال لمرحلة فحص السلامة.
 - هذه الحالة أقرب إلى امتداد للاستطباب القائم، وهي نادرة جداً، ما يحدّ من القيمة الجديدة لإعادة التوظيف.
 
 **للمضي قدماً يلزم:**

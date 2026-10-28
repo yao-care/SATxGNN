@@ -4,17 +4,17 @@ title: Tolfenamic Acid
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 822
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Tolfenamic Acid: الاستطباب الجديد المتوقع اضطراب الصداع (Headache disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر (نص الاستطباب في الترخيص فارغ)"
 monitor_inn: "TOLFENAMIC ACID"
-predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis", "osteoarthritis susceptibility"]
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
 ---
 
 # Tolfenamic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نص الاستطباب في الترخيص فارغ) |
 | الاستطباب الجديد المتنبأ به | اضطراب الصداع (Headache disorder) |
-| درجة تنبؤ TxGNN | 99.74% |
+| درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الدليل | L2 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 
 ---
@@ -96,7 +96,7 @@ predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| CLOTAN | CLOTAN | غير محدد | غير متوفر (الحالة: ملغى؛ الشركة: GEA Pharmaceutical) |
+| CLOTAN | CLOTAN | غير محدد | غير متوفر (الحالة: ساري؛ الشركة: GEA Pharmaceutical) |
 
 ---
 

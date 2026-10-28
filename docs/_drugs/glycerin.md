@@ -48,10 +48,10 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 |------|------|
 | الاستطباب الأصلي | الإمساك (constipation) |
 | الاستطباب الجديد المتنبأ به | متلازمة ذنب الفرس (cauda equina syndrome) |
-| درجة تنبؤ TxGNN | 99.60% |
+| درجة تنبؤ TxGNN | 0.9960 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -78,15 +78,15 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الخمسة **ملغاة**، ولا يوجد حاليًا أي منتج مرخّص ساري المفعول.
+جميع التراخيص الخمسة **سارية المفعول**، والدواء مسوَّق حاليًا.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| LAXOLYNE SUPPOSITORIES | LAXOLYNE SUPPOSITORIES | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| Glycelax | Glycelax | AmcaPharm Pharmaceuticals GmbH | ملغى |
-| GLICEROLO SUPP 1500MG CHILDREN | GLICEROLO SUPP 1500MG CHILDREN | PFIZER | ملغى |
-| GLYCERINE INFANTILE SUPPOSITORY | GLYCERINE INFANTILE SUPPOSITORY | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ملغى |
-| LAXOLYNE SUPP FOR CHILDREN | LAXOLYNE SUPP FOR CHILDREN | Gulf Pharmaceutical Industries (Julphar) | ملغى |
+| LAXOLYNE SUPPOSITORIES | LAXOLYNE SUPPOSITORIES | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| Glycelax | Glycelax | AmcaPharm Pharmaceuticals GmbH | ساري |
+| GLICEROLO SUPP 1500MG CHILDREN | GLICEROLO SUPP 1500MG CHILDREN | PFIZER | ساري |
+| GLYCERINE INFANTILE SUPPOSITORY | GLYCERINE INFANTILE SUPPOSITORY | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
+| LAXOLYNE SUPP FOR CHILDREN | LAXOLYNE SUPP FOR CHILDREN | Gulf Pharmaceutical Industries (Julphar) | ساري |
 
 ---
 

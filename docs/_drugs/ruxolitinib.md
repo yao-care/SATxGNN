@@ -6,9 +6,9 @@ nav_order: 740
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ruxolitinib: الاستطباب الجديد المتوقع ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (uterine corpus PE… (مستوى الدليل L5). الاستطباب الأصلي: التليف النقوي (الأولي)، فرط الحمر الحقيقي المكتسب، ال…"
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
+description: "Ruxolitinib: الاستطباب الجديد المتوقع Uterine corpus perivascular epithelioid cell tumor (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ruxolitinib
@@ -33,13 +33,13 @@ predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "b
 
 </div>
 
-## روكسوليتينيب (Ruxolitinib): من الأورام التكاثرية النقوية إلى ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (PEComa)
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 روكسوليتينيب مثبّط لإنزيمي JAK1/JAK2، وتشمل استخداماته الأصلية الأورام التكاثرية النقوية مثل التليف النقوي وفرط الحمر الحقيقي.
-يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (uterine corpus PEComa)** بدرجة 99.73%.
+يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (uterine corpus PEComa)** بدرجة 0.9973.
 لكن هذا التنبؤ قائم على النموذج وحده، إذ لا توجد **تجارب سريرية** ولا **منشورات علمية** تدعمه حالياً.
 
 ---
@@ -48,12 +48,12 @@ predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "b
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التليف النقوي (الأولي)، فرط الحمر الحقيقي المكتسب، الأورام التكاثرية النقوية، أورام نخاع العظم، الورم البلازمي (حسب الاستطبابات المسجلة في قاعدة المعرفة، إذ لا يتوفر نص استطباب مرخّص) |
-| الاستطباب الجديد المتوقع | ورم الخلايا الظهارية المحيطة بالأوعية في جسم الرحم (uterine corpus PEComa) |
-| درجة تنبؤ TxGNN | 99.73% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Uterine corpus perivascular epithelioid cell tumor |
+| درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,12 +82,11 @@ predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "b
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| JAKAVI 5MG TABLET | JAKAVI 5MG TABLET (Novartis) | أقراص | غير متوفر | ملغى |
-| JAKAVI 15MG TABLET | JAKAVI 15MG TABLET (Novartis) | أقراص | غير متوفر | ملغى |
-| JAKAVI 20MG TABLET | JAKAVI 20MG TABLET (Novartis) | أقراص | غير متوفر | ملغى |
-| CELEZON | CELEZON (الشركة العربية لصناعة الأدوية، سحاب) | غير متوفر | غير متوفر | ملغى |
+| JAKAVI 5MG TABLET | JAKAVI 5MG TABLET (Novartis) | أقراص | غير متوفر | ساري |
+| JAKAVI 15MG TABLET | JAKAVI 15MG TABLET (Novartis) | أقراص | غير متوفر | ساري |
+| JAKAVI 20MG TABLET | JAKAVI 20MG TABLET (Novartis) | أقراص | غير متوفر | ساري |
+| CELEZON | CELEZON (الشركة العربية لصناعة الأدوية، سحاب) | غير متوفر | غير متوفر | ساري |
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد حالياً ترخيص ساري لروكسوليتينيب في السوق السعودي.
 
 ---
 

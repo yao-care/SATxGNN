@@ -48,10 +48,10 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 |------|------|
 | الاستطباب الأصلي | السل الرئوي |
 | الاستطباب الجديد المتوقع | التهاب الملتحمة |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -89,15 +89,15 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثمانية ملغاة، ولا يوجد ترخيص ساري. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.
+جميع التراخيص الثمانية سارية (8 تراخيص سارية من أصل 8)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| RIFADIN CAP 300 MG | RIFADIN CAP 300 MG | Sanofi S.P.A | ملغى |
-| RIFACIN 300 MG CAPS | RIFACIN 300 MG CAPS | Tabuk Pharmaceutical | ملغى |
-| RIAFAMPICIN | RIAFAMPICIN | Riyadh Pharma | ملغى |
-| RIMACTAZID 300MG TAB. | RIMACTAZID 300MG TAB. | Sandoz | ملغى |
-| RIFACIN 150MG CAP. | RIFACIN 150MG CAP. | Tabuk Pharmaceutical | ملغى |
+| RIFADIN CAP 300 MG | RIFADIN CAP 300 MG | Sanofi S.P.A | ساري |
+| RIFACIN 300 MG CAPS | RIFACIN 300 MG CAPS | Tabuk Pharmaceutical | ساري |
+| RIAFAMPICIN | RIAFAMPICIN | Riyadh Pharma | ساري |
+| RIMACTAZID 300MG TAB. | RIMACTAZID 300MG TAB. | Sandoz | ساري |
+| RIFACIN 150MG CAP. | RIFACIN 150MG CAP. | Tabuk Pharmaceutical | ساري |
 
 ---
 

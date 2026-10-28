@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 571
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Moxifloxacin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L5). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي البكتيري، التهاب الصفاق، العدوى بالمك…"
 monitor_inn: "Moxifloxacin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 |------|------|
 | الاستطباب الأصلي | العدوى العقدية، الالتهاب الرئوي البكتيري، التهاب الصفاق، العدوى بالمكورات العنقودية الذهبية، التهاب الملتحمة، الطاعون (وفق الرسم المعرفي لـ TxGNN؛ نصوص الاستطباب المرخصة في المملكة غير متوفرة) |
 | الاستطباب الجديد المتوقع | فرط أميلاز الدم (Hyperamylasemia) |
-| درجة تنبؤ TxGNN | 99.98% |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا توجد تراخيص سارية) |
-| عدد التراخيص | 19 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
+| عدد التراخيص | 19 (السارية: 19) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -61,7 +61,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة لهذا التقرير. المعروف أن موكسيفلوكساسين يثبّط إنزيمي DNA gyrase وtopoisomerase IV البكتيريين، وهذا أساس نشاطه المضاد للجراثيم.
 
-أما فرط أميلاز الدم فهو نتيجة مخبرية وليس عدوى بكتيرية، وليس له هدف دوائي مضاد للجراثيم معروف. لذلك **لم يُحدَّد أي رابط آلي منطقي** بين الدواء وهذه الحالة. الدرجة العالية (99.98%) ناتجة عن أنماط الشبكة المعرفية فقط، ولا تعكس دليلًا بيولوجيًا أو سريريًا.
+أما فرط أميلاز الدم فهو نتيجة مخبرية وليس عدوى بكتيرية، وليس له هدف دوائي مضاد للجراثيم معروف. لذلك **لم يُحدَّد أي رابط آلي منطقي** بين الدواء وهذه الحالة. الدرجة العالية (0.9998) ناتجة عن أنماط الشبكة المعرفية فقط، ولا تعكس دليلًا بيولوجيًا أو سريريًا.
 
 ---
 
@@ -79,15 +79,15 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ19 مصنفة "ملغاة"، ولا يوجد ترخيص ساري. وفيما يلي أبرز خمسة منها (حقول الشكل الصيدلاني ونص الاستطباب غير متوفرة في البيانات):
+جميع التراخيص الـ19 سارية المفعول (19 ترخيصًا صالحًا من أصل 19). وفيما يلي أبرز خمسة منها (حقول الشكل الصيدلاني ونص الاستطباب غير متوفرة في البيانات):
 
 | رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|
-| AVALOX 400MG TAB | BAYER AG | ملغى |
-| AVALOX 400MG SOLUTION FOR I.V. INFUSION | BAYER AG | ملغى |
-| VIGAMOX 0.5% OPHTHALMIC SOLUTION | ALCON COUVREUR | ملغى |
-| AROX 0.5% EYE DROPS | JAMJOOM PHARMACEUTICALS COMPANY | ملغى |
-| MAXIM 400MG FILM COATED TABLETS | JAMJOOM PHARMACEUTICALS COMPANY | ملغى |
+| AVALOX 400MG TAB | BAYER AG | ساري |
+| AVALOX 400MG SOLUTION FOR I.V. INFUSION | BAYER AG | ساري |
+| VIGAMOX 0.5% OPHTHALMIC SOLUTION | ALCON COUVREUR | ساري |
+| AROX 0.5% EYE DROPS | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
+| MAXIM 400MG FILM COATED TABLETS | JAMJOOM PHARMACEUTICALS COMPANY | ساري |
 
 ---
 
@@ -117,7 +117,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (L5)، بلا تجارب سريرية أو أدبيات، ولا يوجد رابط آلي معقول بين الدواء والحالة.
-- جميع التراخيص المحلية ملغاة، وملف السلامة يتضمن موانع قلبية وعصبية وعضلية هيكلية مهمة.
+- جميع التراخيص المحلية (19 من 19) سارية، وملف السلامة يتضمن موانع قلبية وعصبية وعضلية هيكلية مهمة.
 
 **للمضي قدمًا يلزم:**
 - الحصول على نشرة المنتج من هيئة الغذاء والدواء السعودية (SFDA) لاستكمال التحذيرات وموانع الاستعمال (فجوة بيانات حاجبة للانتقال إلى مرحلة فحص السلامة).

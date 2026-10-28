@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Vandetanib
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 860
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vandetanib: الاستطباب الجديد المتوقع سرطان الخلايا الكلوية (مستوى الدليل L5). الاستطباب الأصلي: سرطان الغدة الدرقية (نص المؤشر المعتمد في تراخيص هيئة الغذاء والدواء…"
@@ -14,7 +14,7 @@ predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma 
 # Vandetanib
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma 
 |------|------|
 | المؤشر الأصلي | سرطان الغدة الدرقية (نص المؤشر المعتمد في تراخيص هيئة الغذاء والدواء السعودية غير متوفر؛ المصدر: رسم المعرفة الخاص بالنموذج) |
 | المؤشر الجديد المتوقع | سرطان الخلايا الكلوية |
-| درجة تنبؤ TxGNN | 99.92% |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L2 (مع التحفظ: لا توجد نتائج فعالية منشورة ضمن البيانات المجمّعة) |
-| حالة التسويق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -95,8 +95,8 @@ predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
 |---------|------|------|-----------|
-| CAPRELSA 100 mg film-coated tablet | CAPRELSA 100 mg film-coated tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ملغى |
-| CAPRELSA 300 mg film-coated tablet | CAPRELSA 300 mg film-coated tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ملغى |
+| CAPRELSA 100 mg film-coated tablet | CAPRELSA 100 mg film-coated tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ساري |
+| CAPRELSA 300 mg film-coated tablet | CAPRELSA 300 mg film-coated tablet | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ الترخيص ساري |
 
 الشركة المصنّعة: IPR Pharmaceuticals Inc. وكلا الترخيصين ملغى، فلا يوجد حالياً منتج مسوّق ساري المفعول.
 

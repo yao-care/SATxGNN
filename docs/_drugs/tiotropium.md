@@ -4,17 +4,17 @@ title: Tiotropium
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 818
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Tiotropium: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (مستوى الدليل L1). الاستطباب الأصلي: التهاب الشعب الهوائية، الربو، الربو الداخلي، الربو التحسسي، انتفاخ ال…"
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 |------|------|
 | الاستطباب الأصلي | التهاب الشعب الهوائية، الربو، الربو الداخلي، الربو التحسسي، انتفاخ الرئة (لا يتوفر نص استطباب معتمد من الهيئة السعودية للغذاء والدواء) |
 | الاستطباب الجديد المتوقع | مرض الرئة الانسدادي |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L1 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---

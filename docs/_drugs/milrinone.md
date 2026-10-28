@@ -4,7 +4,7 @@ title: Milrinone
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 561
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Milrinone: الاستطباب الجديد المتوقع الثعلبة (alopecia) (مستوى الدليل L5). الاستطباب الأصلي: قصور القلب الاحتقاني (بحسب البيانات الدوائية، إذ لا يتضمن سجل الترخيص…"
 monitor_inn: "MILRINONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 # Milrinone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 |------|------|
 | الاستطباب الأصلي | قصور القلب الاحتقاني (بحسب البيانات الدوائية، إذ لا يتضمن سجل الترخيص نص استطباب) |
 | الاستطباب الجديد المتنبأ به | الثعلبة (alopecia) |
-| درجة تنبؤ TxGNN | 99.91% |
+| درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط |
-| عدد التراخيص | 1 |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | إيقاف مؤقت (Hold) |
 
 ---
@@ -85,7 +85,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Milrinone BOS | Milrinone BOS (الشركة المصنّعة: Gland Pharma Limited) | غير متوفر | غير متوفر (حالة الترخيص: ملغى) |
+| Milrinone BOS | Milrinone BOS (الشركة المصنّعة: Gland Pharma Limited) | غير متوفر | غير متوفر (حالة الترخيص: ساري) |
 
 ---
 

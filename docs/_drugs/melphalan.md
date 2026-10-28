@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 538
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Melphalan: الاستطباب الجديد المتوقع أورام الخلايا الجرثومية الغُدّية (Gonadal germ cell tumor) (مستوى الدليل L2). الاستطباب الأصلي: سرطان المبيض (يشمل الأنواع الفرعية للأورام الظهارية والجرثومية في ا…"
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: الاستطباب الجديد المتوقع Female breast carcinoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 </div>
 
-## ميلفالان: من سرطان المبيض إلى أورام الخلايا الجرثومية الغُدّية (التناسلية)
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان المبيض (يشمل الأنواع الفرعية للأورام الظهارية والجرثومية في المبيض) |
-| الاستطباب الجديد المتوقع | أورام الخلايا الجرثومية الغُدّية (Gonadal germ cell tumor) |
-| درجة تنبؤ TxGNN | 99.77% |
-| مستوى الأدلة | L2 |
-| حالة السوق في السعودية | ملغاة فقط (لا تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Female breast carcinoma |
+| درجة تنبؤ TxGNN | 0.9967 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -90,11 +90,9 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Megval | Megval (Emcure Pharmaceuticals) | غير محدد | غير متوفر (ملغى) |
-| ALKERAN TABLETS 2 MG | ALKERAN TABLETS 2 MG (EXCELLA GmbH & Co. KG) | غير محدد | غير متوفر (ملغى) |
-| ALKERAN TABLETS 5 MG | ALKERAN TABLETS 5 MG (GLAXOWELLCOME) | غير محدد | غير متوفر (ملغى) |
+| Megval | Megval (Emcure Pharmaceuticals) | غير محدد | غير متوفر (ساري) |
+| ALKERAN TABLETS 5 MG | ALKERAN TABLETS 5 MG (GLAXOWELLCOME) | غير محدد | غير متوفر (ساري) |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري حالياً.
 
 ---
 
@@ -126,7 +124,6 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 **المبررات:**
 - الأدلة المتاحة (مستوى L2) تأتي من دراسات صغيرة أو غير مصممة للاستطباب تحديداً، ويُستخدم فيها ميلفالان ضمن توليفات وبروتوكولات زرع، مع نقص في الأدلة المباشرة والمنشورات الداعمة.
-- لا يوجد ترخيص ساري في السعودية، كما أن السمّية الدموية العالية تتطلب بنية تحتية للزرع والمتابعة.
 
 **للمضي قدماً يلزم:**
 - الحصول على بيانات آلية العمل التفصيلية من DrugBank.

@@ -50,10 +50,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص (المعروف: الإقلاع عن التدخين) |
 | الاستطباب الجديد المتوقع | اضطراب الصداع النصفي (Migraine Disorder) |
-| درجة تنبؤ TxGNN | 99.92% |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -102,15 +102,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص السبعة **ملغاة**، ولا يوجد ترخيص ساري حالياً.
+جميع التراخيص السبعة **سارية**، والدواء مسوَّق.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | حالة الترخيص |
 |---------|------|------|-----------|
-| CHAMPIX 1MG F-C TABLETS | CHAMPIX 1MG F-C TABLETS | Pfizer Italia S.R.L | ملغى |
-| CHAMPIX 0.5 MG F-C TAB | CHAMPIX 0.5 MG F-C TAB | Pfizer Italia S.R.L | ملغى |
-| CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | Pfizer Italia S.R.L | ملغى |
-| Varlin | Varlin | Aurobindo Pharma Limited | ملغى |
-| VANTIX 1 mg Film Coated Tablet | VANTIX 1 mg Film Coated Tablet | R-PHARM GERMANY GMBH | ملغى |
+| CHAMPIX 1MG F-C TABLETS | CHAMPIX 1MG F-C TABLETS | Pfizer Italia S.R.L | ساري |
+| CHAMPIX 0.5 MG F-C TAB | CHAMPIX 0.5 MG F-C TAB | Pfizer Italia S.R.L | ساري |
+| CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | CHAMPIX 0.5 MG 11 tablets +1 MG 14 tablets | Pfizer Italia S.R.L | ساري |
+| Varlin | Varlin | Aurobindo Pharma Limited | ساري |
+| VANTIX 1 mg Film Coated Tablet | VANTIX 1 mg Film Coated Tablet | R-PHARM GERMANY GMBH | ساري |
 
 ---
 
@@ -132,7 +132,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 
 **المبررات:**
 - مستوى الأدلة L5: التنبؤ قائم على النموذج فقط، دون تجارب سريرية ودون دراسات علاجية للصداع النصفي، بل إن الصداع مسجل كأثر جانبي للدواء.
-- جميع التراخيص السعودية ملغاة، وهناك قلق بشأن موانع الاستعمال النفسية والقلبية الوعائية.
+- جميع التراخيص السعودية سارية، وهناك قلق بشأن موانع الاستعمال النفسية والقلبية الوعائية.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة من هيئة الغذاء والدواء السعودية (SFDA) لاستكمال التحذيرات وموانع الاستعمال (فجوة بيانات حرجة).

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ledipasvir
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 486
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ledipasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر المعلومة: قاعدة المعرفة TxGNN…"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 # Ledipasvir
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 |------|------|
 | الاستطباب الأصلي | عدوى فيروس التهاب الكبد C المزمنة (مصدر المعلومة: قاعدة المعرفة TxGNN، إذ لا يتضمن ترخيص الهيئة نص استطباب) |
 | الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |
-| درجة توقع TxGNN | 99.91% |
+| درجة توقع TxGNN | 0.9991 |
 | مستوى الأدلة | L2 (دراسة مرحلة ثانية مكتملة واحدة، مفتوحة التسمية وبلا تعشية) |
-| وضع السوق في السعودية | ملغى فقط (Cancelled only) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -98,7 +98,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| HARVONI 400/90 mg film-coated tablet | HARVONI 400/90 mg film-coated tablet (جيلياد، كورك) | غير مذكور | غير مذكور (الترخيص ملغى) |
+| HARVONI 400/90 mg film-coated tablet | HARVONI 400/90 mg film-coated tablet (جيلياد، كورك) | غير مذكور | غير مذكور (الترخيص ساري) |
 
 ---
 

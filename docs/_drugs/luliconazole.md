@@ -4,17 +4,17 @@ title: Luliconazole
 parent: أدلة متوسطة (L3-L4)
 nav_order: 520
 evidence_level: L3
-indication_count: 7
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Luliconazole: الاستطباب الجديد المتوقع النخالة المبرقشة (Pityriasis versicolor) (مستوى الدليل L3). الاستطباب الأصلي: سعفة القدم، وسعفة الجسم، وعدوى السعفة، والفطريات الجلدية في منطقة الأ…"
 monitor_inn: "LULICONAZOLE"
-predicted_indications: ["pityriasis versicolor", "endothrix infectious disease", "Majocchi granuloma", "ectothrix infectious disease"]
+predicted_indications: ["pityriasis versicolor", "endothrix infectious disease", "ectothrix infectious disease"]
 ---
 
 # Luliconazole
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 |------|------|
 | الاستطباب الأصلي | سعفة القدم، وسعفة الجسم، وعدوى السعفة، والفطريات الجلدية في منطقة الأربية وحول الشرج (بحسب الرسم المعرفي لنموذج TxGNN، إذ لا يتوفر نص استطباب في بيانات التراخيص السعودية) |
 | الاستطباب الجديد المتنبأ به | النخالة المبرقشة (Pityriasis versicolor) |
-| درجة تنبؤ TxGNN | 99.13% |
+| درجة تنبؤ TxGNN | 0.9913 |
 | مستوى الأدلة | L3 |
-| وضع السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المضي قدماً مع ضوابط حماية (Proceed with Guardrails) |
 
 ---
@@ -87,7 +87,7 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| LICAN 1% CREAM | LICAN 1% CREAM (شركة جمجوم للأدوية) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| LICAN 1% CREAM | LICAN 1% CREAM (شركة جمجوم للأدوية) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 

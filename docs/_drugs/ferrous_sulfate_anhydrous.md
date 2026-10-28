@@ -6,7 +6,7 @@ nav_order: 351
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد المتوقع فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر …"
+description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد المتوقع فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (vitamin B12- and folate-independent constitutional megaloblastic anemia) (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-## كبريتات الحديدوز اللامائية: من فقر الدم الناجم عن نقص الحديد إلى فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات
+## كبريتات الحديدوز اللامائية: من فقر الدم الناجم عن نقص الحديد إلى فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (vitamin B12- and folate-independent constitutional megaloblastic anemia)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -50,10 +50,10 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 |------|------|
 | الاستطباب الأصلي | فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر الدم بنقص الفولات، وفقر دم الخدج، وفقر الدم ناقص الصبغ، وفقر الدم صغير الكريات) |
 | الاستطباب الجديد المتنبأ به | فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات |
-| درجة تنبؤ TxGNN | 99.78% |
+| درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 9 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -70,9 +70,9 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 | المرتبة | المرض المتنبأ به | الدرجة | مستوى الأدلة | التقييم |
 |------|------|------|------|------|
-| 2 | متلازمة بلومر-فنسون | 99.77% | L4 | سؤال بحثي: الحديد هو العلاج المعتمد سريرياً عبر تصحيح نقص الحديد، وهو امتداد لاستطباب فقر الدم الناجم عن نقص الحديد لا استخداماً جديداً حقيقياً؛ والأدلة الرسمية المحكومة غائبة |
-| 3 | الاضطراب الأيضي للبيوتين | 99.51% | L5 | Hold: لا دور معروف للحديد في دورة البيوتين |
-| 4 | التشوه الخلقي غير المتلازمي للمريء | 99.49% | L5 | Hold: عيب بنيوي يُعالج جراحياً ولا يُتوقع أن يصححه الحديد |
+| 2 | متلازمة بلومر-فنسون | 0.9977 | L5 | سؤال بحثي: الحديد هو العلاج المعتمد سريرياً عبر تصحيح نقص الحديد، وهو امتداد لاستطباب فقر الدم الناجم عن نقص الحديد لا استخداماً جديداً حقيقياً؛ والأدلة الرسمية المحكومة غائبة |
+| 3 | الاضطراب الأيضي للبيوتين | 0.9951 | L5 | Hold: لا دور معروف للحديد في دورة البيوتين |
+| 4 | التشوه الخلقي غير المتلازمي للمريء | 0.9949 | L5 | Hold: عيب بنيوي يُعالج جراحياً ولا يُتوقع أن يصححه الحديد |
 
 ---
 
@@ -90,15 +90,15 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص التسعة **ملغاة**، ولا يوجد نص استطباب معتمد مسجل لأي منها.
+جميع التراخيص التسعة **سارية**، ولا يوجد نص استطباب معتمد مسجل لأي منها.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| FEROMIN | FEROMIN | Riyadh Pharma | ملغى |
-| JECTOFER AMP. 100 MG | JECTOFER AMP. 100 MG | AstraZeneca | ملغى |
-| KDIRON DROPS | KDIRON DROPS | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| HEMADID | HEMADID | Jamjoom Pharmaceuticals Company | ملغى |
-| KDIRON 200MG-5ML SYRUP | KDIRON 200MG-5ML SYRUP | Gulf Pharmaceutical Industries (Julphar) | ملغى |
+| FEROMIN | FEROMIN | Riyadh Pharma | ساري |
+| JECTOFER AMP. 100 MG | JECTOFER AMP. 100 MG | AstraZeneca | ساري |
+| KDIRON DROPS | KDIRON DROPS | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| HEMADID | HEMADID | Jamjoom Pharmaceuticals Company | ساري |
+| KDIRON 200MG-5ML SYRUP | KDIRON 200MG-5ML SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
 
 (عُرضت 5 من أصل 9 تراخيص.)
 
@@ -121,7 +121,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 **القرار: Hold (التريّث)**
 
 **المبررات:**
-- التنبؤ الأول قائم على النموذج فقط (L5) دون أي تجارب أو منشورات، ولا يوجد مبرر آلي واضح لفائدة الحديد في هذه الحالة. كما أن جميع التراخيص المحلية ملغاة.
+- التنبؤ الأول قائم على النموذج فقط (L5) دون أي تجارب أو منشورات، ولا يوجد مبرر آلي واضح لفائدة الحديد في هذه الحالة. كما أن المنتج مسوّق محليًا، وجميع التراخيص التسعة سارية.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية من موقع الهيئة العامة للغذاء والدواء (SFDA) لاستخراج التحذيرات وموانع الاستعمال (فجوة بيانات تعيق الفحص الأمني).

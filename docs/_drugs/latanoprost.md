@@ -4,17 +4,17 @@ title: Latanoprost
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 485
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Latanoprost: الاستطباب الجديد المتوقع الجلوكوما الوراثية الأولية (مستوى الدليل L5). الاستطباب الأصلي: الجلوكوما مفتوحة الزاوية وارتفاع ضغط العين"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: الاستطباب الجديد المتوقع Visceral calciphylaxis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the 
 
 </div>
 
-## لاتانوبروست: من الجلوكوما مفتوحة الزاوية إلى الجلوكوما الوراثية الأولية
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الجلوكوما مفتوحة الزاوية وارتفاع ضغط العين |
-| الاستطباب الجديد المتوقع | الجلوكوما الوراثية الأولية |
-| درجة تنبؤ TxGNN | 99.88% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Visceral calciphylaxis |
+| درجة تنبؤ TxGNN | 0.9983 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,9 +84,9 @@ predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| LATAPROST 0.005% EYE DROPS | LATAPROST 0.005% EYE DROPS (ريYADH PHARMA) | قطرة عين | غير متوفر | ملغى |
-| LATANO 0.005% W-V OPHTHALMIC SOLUTION | LATANO 0.005% W-V OPHTHALMIC SOLUTION (جمجوم للأدوية) | محلول عيني | غير متوفر | ملغى |
-| XALATAN 50MCG\ML EYE DROP | XALATAN 50MCG\ML EYE DROP (فايزر) | قطرة عين | غير متوفر | ملغى |
+| LATAPROST 0.005% EYE DROPS | LATAPROST 0.005% EYE DROPS (ريYADH PHARMA) | قطرة عين | غير متوفر | ساري |
+| LATANO 0.005% W-V OPHTHALMIC SOLUTION | LATANO 0.005% W-V OPHTHALMIC SOLUTION (جمجوم للأدوية) | محلول عيني | غير متوفر | ساري |
+| XALATAN 50MCG\ML EYE DROP | XALATAN 50MCG\ML EYE DROP (فايزر) | قطرة عين | غير متوفر | ساري |
 
 ---
 
@@ -104,7 +104,6 @@ predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the 
 
 **المبررات:**
 - لا توجد أي تجارب سريرية أو منشورات تدعم الاستطباب الجديد، والدرجة العالية مصدرها النموذج وحده (مستوى L5).
-- جميع التراخيص في السعودية ملغاة حالياً، وبيانات السلامة الرسمية من نشرة الدواء غير متوفرة، وهي فجوة تمنع الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء من هيئة الغذاء والدواء السعودية وتحليل تحذيراتها وموانع استعمالها.

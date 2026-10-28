@@ -6,9 +6,9 @@ nav_order: 750
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Selumetinib: الاستطباب الجديد المتوقع الورم الشفاني للأعصاب الطرفية (Peripheral nerve schwannoma) (مستوى الدليل L3). الاستطباب الأصلي: الورم الليفي العصبي (Neurofibromatosis)، وفق الرسوم المعرفية للن…"
 monitor_inn: "SELUMETINIB"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
+description: "Selumetinib: الاستطباب الجديد المتوقع Familial generalized lentiginosis (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Selumetinib
@@ -33,7 +33,7 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 </div>
 
-## سيلوميتينيب: من الورم الليفي العصبي إلى الورم الشفاني للأعصاب الطرفية
+## Selumetinib: Familial generalized lentiginosis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الورم الليفي العصبي (Neurofibromatosis)، وفق الرسوم المعرفية للنموذج، إذ لا يتوفر نص استطباب معتمد في تراخيص السعودية |
-| الاستطباب الجديد المتنبأ به | الورم الشفاني للأعصاب الطرفية (Peripheral nerve schwannoma) |
-| درجة تنبؤ TxGNN | 99.95% (للورم الشفاني؛ والدرجة الأعلى بين كل التنبؤات 99.96% للمرتبة الأولى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Familial generalized lentiginosis |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) مع اعتباره سؤالًا بحثيًا |
 
 ---
@@ -95,7 +95,7 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Koselugo | Koselugo (الشركة المصنّعة: Patheon Pharmaceuticals Inc.) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| Koselugo | Koselugo (الشركة المصنّعة: Patheon Pharmaceuticals Inc.) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 
@@ -131,7 +131,7 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 **المبررات:**
 - الأدلة على الورم الشفاني تقتصر على تجارب مبكرة من المرحلة 2 (إحداها متوقفة بعد 10 مرضى، واثنتان لم تبدأ بعد) وتقرير حالة، دون نتائج منشورة لسيلوميتينيب في هذا الاستطباب. ومع أن التبرير الآلي قوي، فإن الدليل السريري لم يبلغ بعد مستوى يسمح بالمضي قدمًا.
-- لا يوجد ترخيص ساري في السعودية (الترخيص الوحيد ملغى)، ولم تتوفر نشرة دوائية معتمدة لتقييم السلامة.
+- يوجد ترخيص ساري واحد في السعودية (من أصل ترخيص واحد)، ولم تتوفر نشرة دوائية معتمدة لتقييم السلامة.
 - بقية التنبؤات التسعة (مثل متلازمة اللطخية العائلية المعممة، وورم الرابدويد الذي تدعمه تجربة منصّة غير نوعية ودراسة ما قبل سريرية فقط) تقوم على التنبؤ النموذجي وحده في معظمها.
 
 **للمضي قدمًا يلزم ما يلي:**

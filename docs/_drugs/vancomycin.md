@@ -50,10 +50,10 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 |------|------|
 | الاستطباب الأصلي | التهاب القولون بالمطثية العسيرة، والعدوى بالمكورات العنقودية، والتهاب الشغاف (مستمد من الرسم المعرفي، إذ لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | تصلب الجلد المنتشر |
-| درجة تنبؤ TxGNN | 99.92% |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 16 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 16 من 16) |
+| عدد التراخيص | 16 (السارية: 16) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,15 +84,15 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ16 ملغاة، ولا يوجد ترخيص ساري. أبرز خمسة منها (نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات):
+جميع التراخيص الـ16 سارية (16 من أصل 16). أبرز خمسة منها (نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات):
 
 | رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| VANCOMYCIN HCL 1 G VIAL FOR INFUSION | Hospira | ملغى |
-| ALVANCO 1000MG POW. FOR INFUSION | Sofarimex | ملغى |
-| VANCO 1000 mg powder for solution for injection or infusion | Hikma Farmaceutica | ملغى |
-| VANCOLON 1GM POWDER FOR I.V. INFUSION | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| VANCOCIN-CP 500MG-10 ML. VIAL | Eli Lilly | ملغى |
+| VANCOMYCIN HCL 1 G VIAL FOR INFUSION | Hospira | ساري |
+| ALVANCO 1000MG POW. FOR INFUSION | Sofarimex | ساري |
+| VANCO 1000 mg powder for solution for injection or infusion | Hikma Farmaceutica | ساري |
+| VANCOLON 1GM POWDER FOR I.V. INFUSION | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| VANCOCIN-CP 500MG-10 ML. VIAL | Eli Lilly | ساري |
 
 ---
 
@@ -114,7 +114,7 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 **المبررات:**
 - التنبؤ بتصلب الجلد المنتشر يعتمد على النموذج فقط (L5)، بلا تجارب سريرية، ولا توجد صلة آلية معقولة، والمنشور الوحيد غير داعم.
-- لا يوجد ترخيص ساري في السعودية، وبيانات النشرة الدوائية الخاصة بالسلامة غير متوفرة، وهو ما يعيق الانتقال إلى مرحلة فحص السلامة.
+- الدواء مسوَّق في هذا البلد (16 ترخيصًا ساريًا من أصل 16)، وبيانات النشرة الدوائية الخاصة بالسلامة غير متوفرة، وهو ما يعيق الانتقال إلى مرحلة فحص السلامة.
 
 **للمتابعة يلزم:**
 - تنزيل وتحليل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية (تحذيرات وموانع الاستعمال).

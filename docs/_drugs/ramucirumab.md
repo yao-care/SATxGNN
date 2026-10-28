@@ -5,10 +5,10 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 708
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ramucirumab: الاستطباب الجديد المتوقع السرطان الغدي في الرباط الرحمي (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا، سرطان الرئة، السرطان الغدي في المعدة، س…"
+last_modified_at: 2026-10-28
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab: الاستطباب الجديد المتوقع Uterine ligament adenocarcinoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 
 </div>
 
-## راموسيروماب (Ramucirumab): من سرطان الرئة غير صغير الخلايا إلى سرطان غدي في الرباط الرحمي
+## Ramucirumab: Uterine ligament adenocarcinoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان الرئة غير صغير الخلايا، سرطان الرئة، السرطان الغدي في المعدة، سرطان الخلايا الكبدية (لا يتوفر نص استطباب مرخّص في بيانات السجل المحلي، والاستطبابات الأصلية مأخوذة من الرسم المعرفي للنموذج) |
-| الاستطباب الجديد المتنبأ به | السرطان الغدي في الرباط الرحمي |
-| درجة تنبؤ TxGNN | 99.95% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Uterine ligament adenocarcinoma |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (الترخيص الوحيد ملغى) |
-| عدد التراخيص | 1 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تأجيل) |
 
 ---
@@ -68,7 +68,7 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 - السرطان الغدي المصلي والبطاني الرحمي والخلايا الصافية في الرباط الرحمي
 - المتغير المعوي من السرطان الغدي المخاطي في عنق الرحم، وهو يشبه شكليًا السرطانات الغدية الهضمية التي يُستخدم فيها الدواء، لكن هذا افتراضي أيضًا
 
-جميعها بدرجات متقاربة (نحو 99.94%) وبمستوى أدلة L5 وبلا تجارب أو منشورات داعمة.
+جميعها بدرجات متقاربة (نحو 0.9995) وبمستوى أدلة L5 وبلا تجارب أو منشورات داعمة.
 
 ---
 
@@ -88,7 +88,7 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المرخّص |
 |---------|------|------|-----------|
-| CYRAMZA 10 mg/ml Injection | CYRAMZA 10 mg/ml Injection (الشركة المصنّعة: ImClone Systems LLC) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| CYRAMZA 10 mg/ml Injection | CYRAMZA 10 mg/ml Injection (الشركة المصنّعة: ImClone Systems LLC) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 

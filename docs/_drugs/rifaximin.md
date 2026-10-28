@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 723
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Rifaximin: الاستطباب الجديد المتوقع داء المبيضّات الفموي (مستوى الدليل L4). الاستطباب الأصلي: اعتلال الدماغ الكبدي، الغيبوبة الكبدية"
 monitor_inn: "RIFAXIMIN"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
+description: "Rifaximin: الاستطباب الجديد المتوقع Oral candidiasis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 
 </div>
 
-## ريفاكسيمين: من اعتلال الدماغ الكبدي إلى داء المبيضّات الفموي
+## Rifaximin: Oral candidiasis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | اعتلال الدماغ الكبدي، الغيبوبة الكبدية |
-| الاستطباب الجديد المتوقع | داء المبيضّات الفموي |
-| درجة تنبؤ TxGNN | 99.75% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Oral candidiasis |
+| درجة تنبؤ TxGNN | 0.9975 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | تعليق (Hold) |
 
 ---
@@ -85,7 +85,7 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| XIFAXAN 200MG F.C.TABLET | XIFAXAN 200MG F.C.TABLET (الشركة المصنّعة: Alfasigma S.p.A) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| XIFAXAN 200MG F.C.TABLET | XIFAXAN 200MG F.C.TABLET (الشركة المصنّعة: Alfasigma S.p.A) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 

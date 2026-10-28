@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 797
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Tenecteplase: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي السفلي (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، تخثر الشريان التاجي (بحسب رسم المعرفة في TxGNN، إذ…"
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: الاستطباب الجديد المتوقع Congenital coronary artery anomaly (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 </div>
 
-## تينيكتبلاز: من احتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي السفلي
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | احتشاء عضلة القلب، تخثر الشريان التاجي (بحسب رسم المعرفة في TxGNN، إذ لا يتوفر نص استطباب معتمد من الهيئة) |
-| الاستطباب الجديد المتوقع | احتشاء عضلة القلب الخلفي السفلي |
-| درجة تنبؤ TxGNN | 99.87% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Congenital coronary artery anomaly |
+| درجة تنبؤ TxGNN | 0.9961 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,7 +82,7 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| METALYSE 10000 U I.V VIAL | METALYSE 10000 U I.V VIAL (الشركة المصنعة: Boehringer Ingelheim) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| METALYSE 10000 U I.V VIAL | METALYSE 10000 U I.V VIAL (الشركة المصنعة: Boehringer Ingelheim) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 

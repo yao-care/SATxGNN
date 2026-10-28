@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylphenidate
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 551
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Methylphenidate: الاستطباب الجديد المتوقع اضطراب النمو النوعي (specific developmental disorder) (مستوى الدليل L4). الاستطباب الأصلي: اضطراب فرط الحركة وتشتت الانتباه، الخدار"
 monitor_inn: "METHYLPHENIDATE"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: الاستطباب الجديد المتوقع Faciodigitogenital syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 </div>
 
-## ميثيلفينيديت: من اضطراب فرط الحركة وتشتت الانتباه إلى اضطراب النمو النوعي
+## Methylphenidate: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,15 +48,15 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | اضطراب فرط الحركة وتشتت الانتباه، الخدار |
-| الاستطباب الجديد المتوقع | اضطراب النمو النوعي (specific developmental disorder) |
-| درجة تنبؤ TxGNN | 99.99% (0.99988) |
-| مستوى الأدلة | L4 |
-| وضع السوق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Faciodigitogenital syndrome |
+| درجة تنبؤ TxGNN | 1.0000 |
+| مستوى الأدلة | L5 |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت، مع اعتباره سؤالاً بحثياً) |
 
-> ملاحظة: التنبؤات ذات الرتب الأعلى في النموذج (متلازمة الوجه والأصابع والتناسل، والورم الليفي المخاطاني الغضروفي) ليست مدعومة بأي تجارب أو منشورات، وأي صلة آلية بها مجرد تخمين. لذا اعتمد هذا التقرير الاستطباب الأكثر دعماً بالأدلة وهو اضطراب النمو النوعي. يأتي بعده اضطراب عسر المزاج (dysthymic disorder) بدرجة 99.1% وأدلة غير مباشرة أيضاً.
+> ملاحظة: التنبؤات ذات الرتب الأعلى في النموذج (متلازمة الوجه والأصابع والتناسل، والورم الليفي المخاطاني الغضروفي) ليست مدعومة بأي تجارب أو منشورات، وأي صلة آلية بها مجرد تخمين. لذا اعتمد هذا التقرير الاستطباب الأكثر دعماً بالأدلة وهو اضطراب النمو النوعي.
 
 ---
 
@@ -97,9 +97,9 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| CONCERTA EXTENDED RELEASE 36MG TABLET | CONCERTA EXTENDED RELEASE 36MG TABLET (Alza Corporation) | غير محدد | غير محدد (الترخيص ملغى) |
-| RITALIN TAB. 10MG | RITALIN TAB. 10MG (Siegfried Barbera S.L) | غير محدد | غير محدد (الترخيص ملغى) |
-| CONCERTA EXTENDED RELEASE 18MG TABLET | CONCERTA EXTENDED RELEASE 18MG TABLET (Alza Corporation) | غير محدد | غير محدد (الترخيص ملغى) |
+| CONCERTA EXTENDED RELEASE 36MG TABLET | CONCERTA EXTENDED RELEASE 36MG TABLET (Alza Corporation) | غير محدد | غير محدد (الترخيص ساري) |
+| RITALIN TAB. 10MG | RITALIN TAB. 10MG (Siegfried Barbera S.L) | غير محدد | غير محدد (الترخيص ساري) |
+| CONCERTA EXTENDED RELEASE 18MG TABLET | CONCERTA EXTENDED RELEASE 18MG TABLET (Alza Corporation) | غير محدد | غير محدد (الترخيص ساري) |
 
 ---
 

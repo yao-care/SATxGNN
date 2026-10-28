@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nandrolone
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 577
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nandrolone: الاستطباب الجديد المتوقع داء الثدي الكيسي الليفي (breast fibrocystic disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص هيئة الغذاء والدواء السعودية فارغة)"
@@ -14,7 +14,7 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 # Nandrolone
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 |------|------|
 | المؤشر الأصلي | غير متوفر (نصوص المؤشرات في تراخيص هيئة الغذاء والدواء السعودية فارغة) |
 | المؤشر الجديد المتوقع | داء الثدي الكيسي الليفي (breast fibrocystic disease) |
-| درجة تنبؤ TxGNN | 99.90% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | تراخيص ملغاة فقط |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| درجة تنبؤ TxGNN | 0.9990 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,8 +82,8 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
 |---------|------|------|-----------|
-| DECADURABOLIN ORGAJECT 25MG-ML | DECADURABOLIN ORGAJECT 25MG-ML | غير محدد | غير متوفر (ملغى) |
-| DECADURABOLIN ORGAJECT 50MG-ML | DECADURABOLIN ORGAJECT 50MG-ML | غير محدد | غير متوفر (ملغى) |
+| DECADURABOLIN ORGAJECT 25MG-ML | DECADURABOLIN ORGAJECT 25MG-ML | غير محدد | غير متوفر (ساري) |
+| DECADURABOLIN ORGAJECT 50MG-ML | DECADURABOLIN ORGAJECT 50MG-ML | غير محدد | غير متوفر (ساري) |
 
 كلا الترخيصين ملغى، والشركة المصنّعة هي ORGANON.
 

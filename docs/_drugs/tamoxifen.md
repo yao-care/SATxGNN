@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tamoxifen
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 785
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tamoxifen: الاستطباب الجديد المتوقع مرض باجيت الثديي (مستوى الدليل L4). الاستطباب الأصلي: سرطان الثدي لدى الإناث (سرطان الثدي القنوي الغازي، السرطان الغدي القن…"
 monitor_inn: "TAMOXIFEN"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen: الاستطباب الجديد المتوقع Mammary Paget disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 
 </div>
 
-## تاموكسيفين: من سرطان الثدي لدى الإناث إلى مرض باجيت الثديي
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 > ملاحظة: الدواء المتوقع له أعلى درجة من نموذج TxGNN هو مرض باجيت الثديي، وهو المؤشر الذي يُعالَج في هذا التقرير. وفي البيانات المجمّعة مؤشرات متوقعة أخرى ذات أدلة أقوى (مثل سرطان الثدي الموضعي)، ترد في الخاتمة.
@@ -46,12 +46,12 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | سرطان الثدي لدى الإناث (سرطان الثدي القنوي الغازي، السرطان الغدي القنوي للثدي) |
-| المؤشر الجديد المتوقع | مرض باجيت الثديي |
-| درجة تنبؤ TxGNN | 99.69% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Mammary Paget disease |
+| درجة تنبؤ TxGNN | 0.9969 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (التريث) |
 
 ## لماذا يُعدّ هذا التنبؤ معقولاً؟
@@ -85,13 +85,12 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|
-| TAMOFEN 20MG TAB | TAMOFEN 20MG TAB (BAYER SCHERING PHARMA) | غير محدد | غير متوفر (ملغى) |
-| NOLVADEX-D TAB 20MG | NOLVADEX-D TAB 20MG (AstraZeneca) | غير محدد | غير متوفر (ملغى) |
-| TAMOPHAR 10 MG TABLET | TAMOPHAR 10 MG TABLET (Julphar) | أقراص | غير متوفر (ملغى) |
-| TAMOPLEX 10MG-TAB. | TAMOPLEX 10MG-TAB. (PHARMACHEMIE) | أقراص | غير متوفر (ملغى) |
-| TAMOFEN 10MG TAB | TAMOFEN 10MG TAB (BAYER OY) | أقراص | غير متوفر (ملغى) |
+| TAMOFEN 20MG TAB | TAMOFEN 20MG TAB (BAYER SCHERING PHARMA) | غير محدد | غير متوفر (ساري) |
+| NOLVADEX-D TAB 20MG | NOLVADEX-D TAB 20MG (AstraZeneca) | غير محدد | غير متوفر (ساري) |
+| TAMOPHAR 10 MG TABLET | TAMOPHAR 10 MG TABLET (Julphar) | أقراص | غير متوفر (ساري) |
+| TAMOPLEX 10MG-TAB. | TAMOPLEX 10MG-TAB. (PHARMACHEMIE) | أقراص | غير متوفر (ساري) |
+| TAMOFEN 10MG TAB | TAMOFEN 10MG TAB (BAYER OY) | أقراص | غير متوفر (ساري) |
 
-جميع التراخيص السبعة ملغاة، ولا توجد تراخيص سارية.
 
 ## السمّية الخلوية
 

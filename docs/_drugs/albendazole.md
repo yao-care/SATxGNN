@@ -50,10 +50,10 @@ predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infect
 |------|------|
 | الاستطباب الأصلي | داء المشوكات الكيسي، داء الكيسات المذنبة، العدوى بالمشوكة الحبيبية (مصدرها الرسم المعرفي للنموذج، وليس نص الترخيص) |
 | الاستطباب الجديد المتوقع | داء المشوكات السنخي (Alveolar echinococcosis) |
-| درجة تنبؤ TxGNN | 99.97% |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L2 |
-| حالة السوق في السعودية | مُلغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
@@ -99,8 +99,8 @@ predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infect
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ALBENDA 200 MG TAB | ALBENDA 200 MG TAB (Gulf Pharmaceutical Industries - Julphar) | غير متوفر | غير متوفر (الترخيص ملغى) |
-| ALBENDA 100MG\5ML SUSP | ALBENDA 100MG\5ML SUSP (Gulf Pharmaceutical Industries - Julphar) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| ALBENDA 200 MG TAB | ALBENDA 200 MG TAB (Gulf Pharmaceutical Industries - Julphar) | غير متوفر | غير متوفر (الترخيص ساري) |
+| ALBENDA 100MG\5ML SUSP | ALBENDA 100MG\5ML SUSP (Gulf Pharmaceutical Industries - Julphar) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 كلا الترخيصين ملغى حالياً، ولا يوجد منتج ساري المفعول.
 

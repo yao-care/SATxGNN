@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Exemestane
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 335
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Exemestane: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عن الدواء: سرطان الثدي بعد سن ا…"
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
+description: "Exemestane: الاستطباب الجديد المتوقع Antithrombin deficiency type 2 (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Exemestane
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)"
 
 </div>
 
-## إكسيمستين: من الاستطباب الأصلي (غير محدد في بيانات الترخيص) إلى انقطاع الطمث
+## Exemestane: Antithrombin deficiency type 2
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)"
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر في بيانات التراخيص (المعروف عن الدواء: سرطان الثدي بعد سن اليأس) |
-| الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
-| درجة تنبؤ TxGNN | 99.82% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Antithrombin deficiency type 2 |
+| درجة تنبؤ TxGNN | 0.9983 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -84,15 +84,14 @@ predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)"
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد ترخيص ساري حالياً.
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| XEMETAN 25MG F.C.TABLET | XEMETAN 25MG F.C.TABLET (OMAN PHARMACEUTICAL PRODUCTS) | أقراص مغلفة | غير متوفر (ملغى) |
-| AREKSA 25MG F.C.TAB | AREKSA 25MG F.C.TAB (INTAS) | أقراص مغلفة | غير متوفر (ملغى) |
-| EZOLOC 25 MG TABLET | EZOLOC 25 MG TABLET (EirGen Pharma) | أقراص | غير متوفر (ملغى) |
-| AROMASIN 25MG COATED TAB | AROMASIN 25MG COATED TAB (PFIZER) | أقراص مغلفة | غير متوفر (ملغى) |
-| AROMAPLEX 25 mg Film-Coated Tablet | AROMAPLEX 25 mg Film-Coated Tablet (GENEPHARM) | أقراص مغلفة | غير متوفر (ملغى) |
+| XEMETAN 25MG F.C.TABLET | XEMETAN 25MG F.C.TABLET (OMAN PHARMACEUTICAL PRODUCTS) | أقراص مغلفة | غير متوفر (ساري) |
+| AREKSA 25MG F.C.TAB | AREKSA 25MG F.C.TAB (INTAS) | أقراص مغلفة | غير متوفر (ساري) |
+| EZOLOC 25 MG TABLET | EZOLOC 25 MG TABLET (EirGen Pharma) | أقراص | غير متوفر (ساري) |
+| AROMASIN 25MG COATED TAB | AROMASIN 25MG COATED TAB (PFIZER) | أقراص مغلفة | غير متوفر (ساري) |
+| AROMAPLEX 25 mg Film-Coated Tablet | AROMAPLEX 25 mg Film-Coated Tablet (GENEPHARM) | أقراص مغلفة | غير متوفر (ساري) |
 
 ---
 
@@ -126,7 +125,7 @@ predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)"
 **المبررات:**
 - التنبؤ قائم على النموذج الرسومي، ولا توجد تجارب سريرية، والأدبيات المتاحة غير مباشرة، إذ يظهر انقطاع الطمث فيها كنتيجة أو سياق وليس كحالة يعالجها الدواء. كما أن آلية العمل (خفض الإستروجين) لا تدعم استعادة الطمث، وقد تتعارض معه لدى النساء قبل سن اليأس.
 - لا يوجد حالياً ترخيص ساري في السعودية.
-- التنبؤات الأعلى ترتيباً (نقص مضاد الثرومبين، فرط العامل الخامس، نقص العامل المساعد للهيبارين 2، فرط التخثر) ليس لها أي دعم سريري أو أدبي أو آلي، ويبدو أنها ناتجة عن بنية الرسم البياني. أما الصداع النصفي وصداع الشقيقة مع هالة جذع الدماغ فتنبؤات بلا أدلة أيضاً (L5).
+- أما الصداع النصفي وصداع الشقيقة مع هالة جذع الدماغ فتنبؤات بلا أدلة أيضاً (L5).
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على بيانات آلية العمل التفصيلية من DrugBank.

@@ -48,10 +48,10 @@ predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid 
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نصوص الاستطباب في التراخيص فارغة) |
 | الاستطباب الجديد المتنبأ به | التهاب الملتحمة (Conjunctivitis) |
-| درجة تنبؤ TxGNN | 99.83% |
+| درجة تنبؤ TxGNN | 0.9983 |
 | مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | أُلغيت جميع التراخيص (لا ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -93,10 +93,10 @@ predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid 
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|------|------|
-| ACIDO NALIDIXICO SUSP.125MG-5ML | ACIDO NALIDIXICO SUSP.125MG-5ML | غير محدد | غير متوفر | ALMIRALL PRODES PHARMA S.A. | ملغى |
-| NALIDRAM TAB | NALIDRAM TAB | غير محدد | غير متوفر | MEMPHIS CHEMICALS | ملغى |
-| ACIDO NALIDIXICO 500 MG TAB | ACIDO NALIDIXICO 500 MG TAB | غير محدد | غير متوفر | ALMIRALL PRODES PHARMA S.A. | ملغى |
-| NEGRAM 500MG TAB | NEGRAM 500MG TAB | غير محدد | غير متوفر | SANOFI-SYNTHLABO | ملغى |
+| ACIDO NALIDIXICO SUSP.125MG-5ML | ACIDO NALIDIXICO SUSP.125MG-5ML | غير محدد | غير متوفر | ALMIRALL PRODES PHARMA S.A. | ساري |
+| NALIDRAM TAB | NALIDRAM TAB | غير محدد | غير متوفر | MEMPHIS CHEMICALS | ساري |
+| ACIDO NALIDIXICO 500 MG TAB | ACIDO NALIDIXICO 500 MG TAB | غير محدد | غير متوفر | ALMIRALL PRODES PHARMA S.A. | ساري |
+| NEGRAM 500MG TAB | NEGRAM 500MG TAB | غير محدد | غير متوفر | SANOFI-SYNTHLABO | ساري |
 
 ---
 

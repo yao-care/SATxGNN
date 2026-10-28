@@ -50,10 +50,10 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، التهاب المفاصل الصدفي (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | متلازمة قِصَر الأصابع والتصاق الأصابع |
-| درجة توقع TxGNN | 99.93% |
+| درجة توقع TxGNN | 0.9993 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -78,14 +78,14 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات.
+الدواء مسوَّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
 | رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|
-| RHEUFACT 20MG FILM COATED TABLETS | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| RHEUFACT 10MG FILM COATED TABLETS | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| ARAVA 20MG FILM COATED TABLETS | sanofi-aventis | ملغى |
-| ARAVA 10MG FILM COATED TABLETS | sanofi-aventis | ملغى |
+| RHEUFACT 20MG FILM COATED TABLETS | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| RHEUFACT 10MG FILM COATED TABLETS | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| ARAVA 20MG FILM COATED TABLETS | sanofi-aventis | ساري |
+| ARAVA 10MG FILM COATED TABLETS | sanofi-aventis | ساري |
 
 ---
 
@@ -112,7 +112,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التوقع حسابي بحت (درجة عالية 99.93% لكن بلا أي تجارب أو منشورات)، ولا توجد صلة آلية مثبتة بين تثبيط DHODH واضطراب نمو الأطراف الخلقي.
+- التوقع حسابي بحت (درجة عالية 0.9993 لكن بلا أي تجارب أو منشورات)، ولا توجد صلة آلية مثبتة بين تثبيط DHODH واضطراب نمو الأطراف الخلقي.
 - العيوب البنيوية الجنينية يصعب أن تستجيب لدواء يُعطى بعد الولادة، والدواء مسخّ للجنين، ولا يوجد حالياً ترخيص ساري في السعودية.
 
 **للمتابعة يلزم:**
@@ -125,7 +125,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 ### ملاحظة إضافية: التوقع الثاني
 
-توقّع النموذج أيضاً **متلازمة المُلاح (coloboma) مع صغر المقلة وخلل التنسج الجذري (colobomatous microphthalmia-rhizomelic dysplasia syndrome)** بدرجة 99.93%. وهو كذلك مستوى أدلة L5 والقرار Hold، ولا توجد أدلة سريرية أو منشورات، ولا صلة آلية مثبتة بين تثبيط DHODH وهذا الاضطراب العيني والهيكلي الخلقي.
+توقّع النموذج أيضاً **متلازمة المُلاح (coloboma) مع صغر المقلة وخلل التنسج الجذري (colobomatous microphthalmia-rhizomelic dysplasia syndrome)** بدرجة 0.9993. وهو كذلك مستوى أدلة L5 والقرار Hold، ولا توجد أدلة سريرية أو منشورات، ولا صلة آلية مثبتة بين تثبيط DHODH وهذا الاضطراب العيني والهيكلي الخلقي.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

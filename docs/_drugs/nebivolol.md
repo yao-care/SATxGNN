@@ -4,17 +4,17 @@ title: Nebivolol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 581
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Nebivolol: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الكلوي الوعائي الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (hypertension)"
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nebivolol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Nebivolol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## نيبيفولول: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الوعائي الخبيث
+## Nebivolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم (hypertension) |
-| الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الكلوي الوعائي الخبيث |
-| درجة تنبؤ TxGNN | 99.42% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Malignant hypertensive renal disease |
+| درجة تنبؤ TxGNN | 0.9942 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,14 +82,14 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري. ولم تتوفر معلومات عن شكل الجرعة أو الاستطباب المعتمد.
+ولم تتوفر معلومات عن شكل الجرعة أو الاستطباب المعتمد.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| Bivoneb | Bivoneb | Hetero Labs Limited Unit – III | ملغى |
-| NEBILET 5MG TABLETS | NEBILET 5MG TABLETS | BERLIN CHEMIE AG | ملغى |
-| Bivocard | Bivocard | SPIMACO ADDWAEIH | ملغى |
-| Mavilor | Mavilor | Multi Apex for Pharmaceutical Industries | ملغى |
+| Bivoneb | Bivoneb | Hetero Labs Limited Unit – III | ساري |
+| NEBILET 5MG TABLETS | NEBILET 5MG TABLETS | BERLIN CHEMIE AG | ساري |
+| Bivocard | Bivocard | SPIMACO ADDWAEIH | ساري |
+| Mavilor | Mavilor | Multi Apex for Pharmaceutical Industries | ساري |
 
 ---
 
@@ -113,7 +113,6 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التنبؤ قائم على درجة النموذج (0.994) فقط دون أي تجارب سريرية أو أدبيات، والصلة الآلية غير مباشرة، كما أن جميع التراخيص المحلية ملغاة، وبيانات السلامة الأساسية غير مكتملة.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة العبوة من هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات حرجة تمنع الانتقال إلى مرحلة فحص السلامة)

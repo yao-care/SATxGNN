@@ -4,17 +4,17 @@ title: Plerixafor
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 665
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Plerixafor: الاستطباب الجديد المتوقع الورم النقوي الخامل (مستوى الدليل L5). الاستطباب الأصلي: ورم الخلايا البلازمية (الورم النقوي)"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+description: "Plerixafor: الاستطباب الجديد المتوقع CMM7 (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 </div>
 
-## بليريكسافور: من الورم النقوي (ورم الخلايا البلازمية) إلى الورم النقوي الخامل
+## Plerixafor: CMM7
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ورم الخلايا البلازمية (الورم النقوي) |
-| الاستطباب الجديد المتوقع | الورم النقوي الخامل |
-| درجة تنبؤ TxGNN | 99.97% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | CMM7 |
+| درجة تنبؤ TxGNN | 0.9934 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -84,11 +84,10 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 | رقم الترخيص / المنتج | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| MOZOBIL 24mg/1.2ml solution for injection | MOZOBIL (محلول للحقن) | Genzyme Corporation | ملغى |
-| Plerix | Plerix | Saudi Hetero Lab Co. | ملغى |
-| HEMABO 24MG/1.2ML | HEMABO | MSN Laboratories Private Limited | ملغى |
+| MOZOBIL 24mg/1.2ml solution for injection | MOZOBIL (محلول للحقن) | Genzyme Corporation | ساري |
+| Plerix | Plerix | Saudi Hetero Lab Co. | ساري |
+| HEMABO 24MG/1.2ML | HEMABO | MSN Laboratories Private Limited | ساري |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد حالياً ترخيص ساري للدواء في المملكة.
 
 ---
 
@@ -106,8 +105,6 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 **القرار: Hold (التريّث)**
 
 **المبررات:**
-- الدليل الوحيد على هذا الاستطباب هو تنبؤ النموذج (L5)، دون أي تجارب سريرية أو منشورات خاصة بالورم النقوي الخامل.
-- لا يوجد ترخيص ساري في المملكة، وبيانات السلامة من النشرة الدوائية غير متوفرة.
 
 **للمضي قدماً يلزم:**
 - إجراء دراسات ما قبل سريرية أو استكشافية خاصة بالورم النقوي الخامل.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Camphor
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 138
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Camphor: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغة) |
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.85% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ✗ جميع التراخيص ملغاة |
-| عدد التراخيص | 5 (جميعها ملغاة، ولا يوجد ترخيص ساري) |
+| درجة تنبؤ TxGNN | 0.9985 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إبقاء الملف قيد الانتظار كسؤال بحثي) |
 
 ---
@@ -82,15 +82,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد منتج ساري حاليًا. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
+يوجد في هذا البلد 5 تراخيص سارية من أصل 5 والدواء مسوّق. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| VICKS INHALER 0.014 OZ | VICKS INHALER 0.014 OZ | غير متوفر | غير متوفر (ملغى) |
-| TIGER BALSAM | TIGER BALSAM | غير متوفر | غير متوفر (ملغى) |
-| VICKS VAPORUB OINT | VICKS VAPORUB OINT | غير متوفر | غير متوفر (ملغى) |
-| GOLD MEDAL MEDICATED OIL | GOLD MEDAL MEDICATED OIL | غير متوفر | غير متوفر (ملغى) |
-| VICKS VAPORUB OINTCamphor | VICKS VAPORUB OINTCamphor | غير متوفر | غير متوفر (ملغى) |
+| VICKS INHALER 0.014 OZ | VICKS INHALER 0.014 OZ | غير متوفر | غير متوفر (ساري) |
+| TIGER BALSAM | TIGER BALSAM | غير متوفر | غير متوفر (ساري) |
+| VICKS VAPORUB OINT | VICKS VAPORUB OINT | غير متوفر | غير متوفر (ساري) |
+| GOLD MEDAL MEDICATED OIL | GOLD MEDAL MEDICATED OIL | غير متوفر | غير متوفر (ساري) |
+| VICKS VAPORUB OINTCamphor | VICKS VAPORUB OINTCamphor | غير متوفر | غير متوفر (ساري) |
 
 ---
 
@@ -107,7 +107,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 **القرار: Hold**
 
 **المبررات:**
-- مستوى الأدلة L4 فقط: لا تجارب سريرية، ودليل مباشر وحيد قبل سريري على الحيوان، وبعض الأدبيات تشير إلى أن الكافور قد يكون مُحفِّزًا للصداع لا علاجًا له. كما أن جميع التراخيص المحلية ملغاة، ولا بيانات عن الاستطباب الأصلي.
+- مستوى الأدلة L4 فقط: لا تجارب سريرية، ودليل مباشر وحيد قبل سريري على الحيوان، وبعض الأدبيات تشير إلى أن الكافور قد يكون مُحفِّزًا للصداع لا علاجًا له. كما أن الدواء مسوّق محليًا بخمسة تراخيص سارية من أصل 5، ولا بيانات عن الاستطباب الأصلي.
 
 **للمضي قدمًا يلزم:**
 - الحصول على نشرة العبوة من موقع الهيئة العامة للغذاء والدواء لاستكمال التحذيرات وموانع الاستعمال (فجوة حاجزة حاليًا أمام فحص السلامة).

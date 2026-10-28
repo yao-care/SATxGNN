@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 623
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Paclitaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى الإناث (female breast carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان المبيض (من بيانات الرسم المعرفي؛ لا يوجد نص مؤشر معتمد في تراخي…"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: الاستطباب الجديد المتوقع Parameningeal embryonal rhabdomyosarcoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 </div>
 
-## باكليتاكسيل: من سرطان المبيض إلى سرطان الثدي لدى الإناث
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,12 +49,12 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | سرطان المبيض (من بيانات الرسم المعرفي؛ لا يوجد نص مؤشر معتمد في تراخيص الهيئة العامة للغذاء والدواء) |
-| المؤشر الجديد المتوقع | سرطان الثدي لدى الإناث (female breast carcinoma) |
-| درجة تنبؤ TxGNN | 99.995% |
-| مستوى الأدلة | L2 (حسب التقييم المعطى؛ لا تجربة مرحلة ثالثة ضمن أهم التجارب المعروضة لهذا المؤشر تحديداً) |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Parameningeal embryonal rhabdomyosarcoma |
+| درجة تنبؤ TxGNN | 0.9973 |
+| مستوى الأدلة | L5 (حسب التقييم المعطى؛ لا تجربة مرحلة ثالثة ضمن أهم التجارب المعروضة لهذا المؤشر تحديداً) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -108,15 +108,15 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري حالياً. ولم تتوفر نصوص المؤشرات المعتمدة ولا الأشكال الصيدلانية في البيانات.
+ولم تتوفر نصوص المؤشرات المعتمدة ولا الأشكال الصيدلانية في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| EBETAXEL 6MG-ML SOLU. FOR I.V. INFUSION | EBETAXEL 6MG-ML (Fareva Unterach) | غير متوفر | غير متوفر | ملغى |
-| ABRAXANE | ABRAXANE (Abraxis BioScience) | غير متوفر | غير متوفر | ملغى |
-| ANZATAX 6MG-ML VIAL | ANZATAX (Hospira Australia) | غير متوفر | غير متوفر | ملغى |
-| Ebetaxel 30mg/5ml | Ebetaxel 30mg/5ml (Fareva Unterach) | غير متوفر | غير متوفر | ملغى |
-| Ebetaxel 150mg/25ml | Ebetaxel 150mg/25ml (Fareva Unterach) | غير متوفر | غير متوفر | ملغى |
+| EBETAXEL 6MG-ML SOLU. FOR I.V. INFUSION | EBETAXEL 6MG-ML (Fareva Unterach) | غير متوفر | غير متوفر | ساري |
+| ABRAXANE | ABRAXANE (Abraxis BioScience) | غير متوفر | غير متوفر | ساري |
+| ANZATAX 6MG-ML VIAL | ANZATAX (Hospira Australia) | غير متوفر | غير متوفر | ساري |
+| Ebetaxel 30mg/5ml | Ebetaxel 30mg/5ml (Fareva Unterach) | غير متوفر | غير متوفر | ساري |
+| Ebetaxel 150mg/25ml | Ebetaxel 150mg/25ml (Fareva Unterach) | غير متوفر | غير متوفر | ساري |
 
 (عُرضت 5 من أصل 7 تراخيص.)
 
@@ -154,7 +154,6 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 **المبررات:**
 - تدعم الأدلة استخدام الباكليتاكسيل في سرطان الثدي بتجارب متعددة من المرحلتين 2 و3 ومراجعات علمية، لكنه استخدام قائم أصلاً وليس اكتشافاً جديداً.
-- لا توجد تراخيص سارية في السعودية حالياً، إضافة إلى نقص بيانات السلامة المعتمدة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة من موقع الهيئة العامة للغذاء والدواء وتحليل التحذيرات وموانع الاستعمال (فجوة حرجة تمنع الانتقال إلى فحص السلامة).

@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 744
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Salicylic Acid: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد الدهني، وحب الشباب، وفطريات القدم، والتهاب المفاصل الروم…"
 monitor_inn: "SALICYLIC ACID"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 |------|------|
 | الاستطباب الأصلي | التهاب الجلد الدهني، وحب الشباب، وفطريات القدم، والتهاب المفاصل الروماتويدي، والتهاب الأنف التحسسي، وغيرها (من قاعدة المعرفة؛ نصوص الاستطباب المعتمدة في تراخيص السعودية غير متوفرة) |
 | الاستطباب الجديد المتوقع | التهاب الملتحمة الحليمي (Papillary conjunctivitis) |
-| درجة توقع TxGNN | 99.88% |
+| درجة توقع TxGNN | 0.9988 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -64,7 +64,7 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 يتصل هذا النشاط نظرياً بالأمراض الالتهابية والتحسسية لسطح العين، ويوجد تشابه مفاهيمي ضعيف مع استطباب التهاب الأنف التحسسي. إلا أن هذه الصلة تأملية، ولا تدعمها أي تجارب أو دراسات في البيانات المجمعة. كما أن استخدام حمض الساليسيليك في العين يثير مخاوف تتعلق بالتهيج والتحمل بسبب خصائصه المهيجة والمقشّرة للكيراتين.
 
-**ملاحظة حول التوقعات الأخرى:** تضمنت قائمة التوقعات العشرة الأولى أمراضاً وراثية نادرة في العظام والنمو (مثل برادي دكتيلي، وخلل التنسج، وبراكيولميا)، ولا توجد لها صلة آلية معقولة؛ ويبدو أن الدرجات العالية تعكس قرباً في الرسم البياني المعرفي لا أساساً بيولوجياً. أما التوقعات الأقرب منطقياً فهي التهاب الملتحمة الوردي (المرتبة 5) والاعتلال المفصلي الفقاري (المرتبة 10)، وكلتاهما بلا أدلة سريرية.
+**ملاحظة حول التوقعات الأخرى:** تضمنت قائمة التوقعات العشرة الأولى أمراضاً وراثية نادرة في العظام والنمو (مثل برادي دكتيلي، وخلل التنسج، وبراكيولميا)، ولا توجد لها صلة آلية معقولة؛ فهذه الدرجات صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، لا أدلة بيولوجية. أما التوقع الأقرب منطقياً فهو التهاب الملتحمة الوردي (المرتبة 5)، وهو بلا أدلة سريرية.
 
 ---
 
@@ -84,9 +84,9 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| NOCAL 10% TOPICAL SOLN. | NOCAL 10% TOPICAL SOLN. | غير متوفر | غير متوفر | ملغى |
-| Kerasal | Kerasal | غير متوفر | غير متوفر | ملغى |
-| KERASAL 10 % OINTMENT | KERASAL 10 % OINTMENT | غير متوفر | غير متوفر | ملغى |
+| NOCAL 10% TOPICAL SOLN. | NOCAL 10% TOPICAL SOLN. | غير متوفر | غير متوفر | ساري |
+| Kerasal | Kerasal | غير متوفر | غير متوفر | ساري |
+| KERASAL 10 % OINTMENT | KERASAL 10 % OINTMENT | غير متوفر | غير متوفر | ساري |
 
 ---
 
@@ -104,7 +104,7 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التوقع قائم على النموذج الحسابي فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو منشورات، ولا توجد تراخيص سارية في السعودية، كما أن الاستخدام العيني يثير مخاوف تتعلق بالتحمل.
+- التوقع قائم على النموذج الحسابي فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو منشورات، والدواء مسوّق في السعودية وله 3 تراخيص سارية من أصل 3، كما أن الاستخدام العيني يثير مخاوف تتعلق بالتحمل.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على النشرة الدوائية الرسمية من هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال، وهي شرط لازم قبل أي فحص سلامة.

@@ -6,9 +6,9 @@ nav_order: 876
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Vitamin E: الاستطباب الجديد المتوقع اضطراب خلقي في استقلاب البيليروبين (مستوى الدليل L4). الاستطباب الأصلي: الركود الصفراوي، الركود الصفراوي داخل الكبد المتكرر الحميد، الركود ال…"
 monitor_inn: "vitamin e"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
+description: "Vitamin E: الاستطباب الجديد المتوقع Inborn disorder of bilirubin metabolism (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Vitamin E
@@ -33,7 +33,7 @@ predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin me
 
 </div>
 
-## فيتامين E: من الركود الصفراوي إلى اضطرابات استقلاب البيليروبين الخلقية
+## Vitamin E: Inborn disorder of bilirubin metabolism
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin me
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الركود الصفراوي، الركود الصفراوي داخل الكبد المتكرر الحميد، الركود الصفراوي داخل الكبد العائلي، نقص فيتامين E العائلي المعزول |
-| الاستطباب الجديد المتوقع | اضطراب خلقي في استقلاب البيليروبين |
-| درجة تنبؤ TxGNN | 99.99% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Inborn disorder of bilirubin metabolism |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -84,13 +84,13 @@ predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin me
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري. ولم يُدرج نص الاستطباب المعتمد أو الشكل الدوائي في البيانات المتاحة.
+ولم يُدرج نص الاستطباب المعتمد أو الشكل الدوائي في البيانات المتاحة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| DAGRAVIT A-E CAPS | DAGRAVIT A-E CAPS | DAGRA | ملغى |
-| TOCOVIT | TOCOVIT | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ملغى |
-| LAVENTE OINT. | LAVENTE OINT. | EISAI | ملغى |
+| DAGRAVIT A-E CAPS | DAGRAVIT A-E CAPS | DAGRA | ساري |
+| TOCOVIT | TOCOVIT | THE NILE COMPANY FOR PHARMACEUTICALS AND CHEMICAL IND. | ساري |
+| LAVENTE OINT. | LAVENTE OINT. | EISAI | ساري |
 
 ---
 
@@ -113,7 +113,7 @@ predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin me
 **القرار: Hold (التريّث)**
 
 **المبررات:**
-- درجة التنبؤ مرتفعة جداً، لكن لا توجد تجارب سريرية، والدليل الوحيد ورقة غير مباشرة لا تثبت فائدة فيتامين E في اضطرابات استقلاب البيليروبين. ولا يوجد ترخيص ساري في السعودية.
+- درجة التنبؤ مرتفعة جداً، لكن لا توجد تجارب سريرية، والدليل الوحيد ورقة غير مباشرة لا تثبت فائدة فيتامين E في اضطرابات استقلاب البيليروبين.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية من الهيئة العامة للغذاء والدواء (SFDA) لاستخراج التحذيرات وموانع الاستعمال، وهي فجوة تمنع إجراء الفحص الأولي للسلامة.

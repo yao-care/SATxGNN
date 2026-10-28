@@ -4,7 +4,7 @@ title: Serine
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 752
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Serine: الاستطباب الجديد المتوقع اعتلال العضلات الحشوي العائلي (مستوى الدليل L5). الاستطباب الأصلي: الجلوكوما مفتوحة الزاوية، والسل الرئوي (من قاعدة المعرفة، ويحتاج إلى…"
 monitor_inn: "serine"
@@ -14,7 +14,7 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 # Serine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 |------|------|
 | المؤشر الأصلي | الجلوكوما مفتوحة الزاوية، والسل الرئوي (من قاعدة المعرفة، ويحتاج إلى تحقق) |
 | المؤشر الجديد المتوقع | اعتلال العضلات الحشوي العائلي |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 11 (ساري: 0، ملغى: 11) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -86,15 +86,15 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ11 ملغاة، وبالتالي لا يوجد حاليًا منتج ساري. أبرز المنتجات المسجلة سابقًا (نص المؤشرات المعتمدة وشكل الجرعة غير متوفرين):
+يوجد 11 ترخيصًا ساريًا من أصل 11، والدواء مسوّق في هذا البلد. أبرز المنتجات المسجلة (نص المؤشرات المعتمدة وشكل الجرعة غير متوفرين):
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN | ملغى |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ملغى |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 | Baxalta | ملغى |
-| OLIMEL N5E emulsion for infusion | OLIMEL N5E | Baxalta | ملغى |
-| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SMOFKABIVEN PERIPHERAL | FRESENIUS KABI | ملغى |
+| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | OLIMEL N9 | Baxalta | ساري |
+| OLIMEL N5E emulsion for infusion | OLIMEL N5E | Baxalta | ساري |
+| SMOFKABIVEN PERIPHERAL EMULSION for infusion | SMOFKABIVEN PERIPHERAL | FRESENIUS KABI | ساري |
 
 ---
 
@@ -118,7 +118,7 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 
 **المبررات:**
 - التنبؤ نموذجي فقط (L5) دون أي تجارب سريرية أو أدبيات داعمة، وآلية العمل غير متوفرة.
-- جميع التراخيص المحلية ملغاة، والمؤشرات الأصلية المسجلة في قاعدة المعرفة تحتاج إلى تحقق.
+- التراخيص المحلية سارية (11 من 11)، والمؤشرات الأصلية المسجلة في قاعدة المعرفة تحتاج إلى تحقق.
 
 **للمضي قدمًا يلزم:**
 - التحقق من المؤشرات الأصلية للسيرين وتصحيحها إن لزم.

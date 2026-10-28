@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methoxsalen
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 548
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Methoxsalen: الاستطباب الجديد المتوقع الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) (مستوى الدليل L4). الاستطباب الأصلي: الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق"
 monitor_inn: "METHOXSALEN"
-predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "follicular lymphoma, susceptibility to, 1", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
 ---
 
 # Methoxsalen
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 |------|------|
 | الاستطباب الأصلي | الورم اللمفاوي التائي الجلدي الأولي (اللاهودجكيني)، البهاق |
 | الاستطباب الجديد المتوقع | الورام الشبيه بالباجيت الموضعي (Localized Pagetoid Reticulosis) |
-| درجة توقع TxGNN | 99.97% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| درجة توقع TxGNN | 0.9997 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -90,7 +90,7 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد حاليًا منتج ساري التسجيل. نصوص الاستطباب المعتمد غير متوفرة.
+جميع التراخيص الثلاثة سارية (3 من أصل 3 تراخيص صالحة)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمد غير متوفرة.
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
@@ -139,7 +139,7 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 **المبررات:**
 - المستوى L4 فقط: لا توجد تجارب سريرية ولا منشورات خاصة بالورام الشبيه بالباجيت الموضعي، والصلة تستند إلى امتداد فئة المرض والتوقع النموذجي.
-- جميع التراخيص المحلية ملغاة، وبيانات السلامة الرسمية (نشرة العبوة) غير متوفرة، وهناك إشارات سلامة ملحوظة من الرسم المعرفي (حساسية ضوئية، خطر سرطان الجلد).
+- التراخيص المحلية الثلاثة جميعها سارية (3 من 3)، والدواء مسوّق، وبيانات السلامة الرسمية (نشرة العبوة) غير متوفرة، وهناك إشارات سلامة ملحوظة من الرسم المعرفي (حساسية ضوئية، خطر سرطان الجلد).
 
 **للمضي قدمًا يلزم:**
 - مراجعة المنشورات حول PUVA في الفطار الفطراني والورام الشبيه بالباجيت (سلاسل حالات ودراسات رصدية)

@@ -6,9 +6,9 @@ nav_order: 371
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Fluvoxamine: الاستطباب الجديد المتوقع اضطراب الشخصية الهستيرية (مستوى الدليل L5). الاستطباب الأصلي: الرهاب الاجتماعي، اضطراب الرهاب، اضطراب الوسواس القهري (من رسم المعرف…"
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+description: "Fluvoxamine: الاستطباب الجديد المتوقع Histrionic personality disorder (disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Fluvoxamine
@@ -33,7 +33,7 @@ predicted_indications: ["histrionic personality disorder (disease)", "schizotypa
 
 </div>
 
-## فلوفوكسامين: من الرهاب الاجتماعي واضطراب الوسواس القهري إلى اضطراب الشخصية الهستيرية
+## Fluvoxamine: Histrionic personality disorder (disease)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["histrionic personality disorder (disease)", "schizotypa
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الرهاب الاجتماعي، اضطراب الرهاب، اضطراب الوسواس القهري (من رسم المعرفة PrimeKG، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
-| الاستطباب الجديد المتنبأ به | اضطراب الشخصية الهستيرية |
-| درجة تنبؤ TxGNN | 99.997% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Histrionic personality disorder (disease) |
+| درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة التسويق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -82,8 +82,8 @@ predicted_indications: ["histrionic personality disorder (disease)", "schizotypa
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| FAVERIN 100MG EC TABS | FAVERIN 100MG EC TABS | Mylan Laboratories SAS | ملغى |
-| FAVERIN 50MG EC TABS | FAVERIN 50MG EC TABS | Mylan Laboratories SAS | ملغى |
+| FAVERIN 100MG EC TABS | FAVERIN 100MG EC TABS | Mylan Laboratories SAS | ساري |
+| FAVERIN 50MG EC TABS | FAVERIN 50MG EC TABS | Mylan Laboratories SAS | ساري |
 
 كلا الترخيصين ملغى، ولا يوجد حالياً منتج ساري المفعول يحتوي على فلوفوكسامين وحده أو ضمن تركيبة.
 
@@ -109,8 +109,8 @@ predicted_indications: ["histrionic personality disorder (disease)", "schizotypa
 **القرار: Hold (تعليق)**
 
 **المبررات:**
-- درجة التنبؤ مرتفعة جداً (99.997%)، لكنها تنبؤ نموذجي فقط دون أي تجربة سريرية أو منشور داعم (مستوى L5).
-- لا يوجد ترخيص ساري في السعودية، وبيانات السلامة من النشرة غير متوفرة.
+- درجة التنبؤ مرتفعة جداً (1.0000)، لكنها تنبؤ نموذجي فقط دون أي تجربة سريرية أو منشور داعم (مستوى L5).
+- الدواء مسوّق في السعودية، ويوجد ترخيصان ساريان من أصل ترخيصين، وبيانات السلامة من النشرة غير متوفرة.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة العبوة من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات والموانع (فجوة حرجة تمنع الانتقال إلى مرحلة فحص السلامة).

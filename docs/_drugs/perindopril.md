@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perindopril
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 646
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Perindopril: الاستطباب الجديد المتوقع اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم (hypertension / hypertensive disorder)"
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Perindopril: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## بيريندوبريل: من ارتفاع ضغط الدم إلى اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث
+## Perindopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,11 +47,11 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم (hypertension / hypertensive disorder) |
-| الاستطباب الجديد المتوقع | اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث |
-| درجة تنبؤ TxGNN | 99.77% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Malignant hypertensive renal disease |
+| درجة تنبؤ TxGNN | 0.9977 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
@@ -83,7 +83,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص العشرون ملغاة، ولا يوجد ترخيص ساري حالياً. فيما يلي أبرز خمسة تراخيص:
+فيما يلي أبرز خمسة تراخيص:
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
@@ -110,7 +110,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 **القرار: Hold (التوقف مؤقتاً)**
 
 **المبررات:**
-- لا توجد تجارب سريرية، والمنشور الوحيد المرتبط غير ذي صلة، ولذلك فالتنبؤ يستند عملياً إلى النموذج الحاسوبي مع دعم آلي ضعيف. كما أن جميع التراخيص السعودية ملغاة، والتنبؤ امتداد للاستطباب الأصلي أكثر منه إعادة توظيف حقيقية.
+- لا توجد تجارب سريرية، والمنشور الوحيد المرتبط غير ذي صلة، ولذلك فالتنبؤ يستند عملياً إلى النموذج الحاسوبي مع دعم آلي ضعيف.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية الرسمية من هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات تعيق فحص السلامة).

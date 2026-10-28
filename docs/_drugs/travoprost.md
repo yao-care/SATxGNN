@@ -6,9 +6,9 @@ nav_order: 832
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Travoprost: الاستطباب الجديد المتوقع أمراض الأوعية الدموية (Vascular disease) (مستوى الدليل L5). الاستطباب الأصلي: الجلوكوما ذات الزاوية المفتوحة، ارتفاع ضغط العين"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
+description: "Travoprost: الاستطباب الجديد المتوقع Visceral calciphylaxis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Travoprost
@@ -33,7 +33,7 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 </div>
 
-## ترافوبروست: من الجلوكوما ذات الزاوية المفتوحة إلى أمراض الأوعية الدموية
+## Travoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الجلوكوما ذات الزاوية المفتوحة، ارتفاع ضغط العين |
-| الاستطباب الجديد المتوقع | أمراض الأوعية الدموية (Vascular disease) |
-| درجة تنبؤ TxGNN | 99.99% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Visceral calciphylaxis |
+| درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الدليل | L5 |
-| حالة السوق في السعودية | أُلغيت التراخيص فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ملاحظة: الاستطباب الأصلي مأخوذ من الرسم المعرفي للنموذج، إذ إن نص الاستطباب المعتمد في ترخيص السوق السعودي غير متوفر. وتشمل التنبؤات الأخرى ذات الدرجات المرتفعة: الكالسيفيلاكسيس الحشوي، ومتلازمات مخرج الصدر (الوريدية والشريانية والعصبية)، وخلل التنسج الوعائي في المعدة، ومتلازمة الإصبع الأزرق، وانفصال الشريان التاجي التلقائي مجهول السبب، وتوسع الأوعية اللمفاوية، والورم البطاني الوعائي. وجميعها بلا أي دليل سريري أو منشور داعم.
@@ -109,7 +109,7 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| TRAVATAN EYE DROP | TRAVATAN EYE DROP (الشركة المصنعة: ALCON COUVREUR) | قطرة عين | غير متوفر (الترخيص ملغى) |
+| TRAVATAN EYE DROP | TRAVATAN EYE DROP (الشركة المصنعة: ALCON COUVREUR) | قطرة عين | غير متوفر (الترخيص ساري) |
 
 ---
 
@@ -127,8 +127,6 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- الدرجة المرتفعة جداً لـ TxGNN (99.99%) تنبؤ قائم على الرسم المعرفي فقط، ولا يوجد أي دليل سريري أو منشور يدعم أي استطباب جديد؛ وتقرير الحالة الوحيد (ورم بطاني وعائي) يشير إلى مشكلة سلامة لا إلى فائدة علاجية.
-- لا يوجد ترخيص ساري في السعودية، والتعرض الجهازي بعد الاستعمال العيني الموضعي ضئيل.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة الدواء من هيئة الغذاء والدواء السعودية (SFDA) لاستخراج التحذيرات وموانع الاستعمال (فجوة بيانات تمنع الانتقال إلى مرحلة فحص السلامة).

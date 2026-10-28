@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 440
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Insulin Detemir: الاستطباب الجديد المتوقع داء السكري من النوع الأول (مستوى الدليل L1). الاستطباب الأصلي: داء السكري؛ الحماض الكيتوني السكري"
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Detemir: الاستطباب الجديد المتوقع Autoimmune oophoritis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 </div>
 
-## إنسولين ديتمير: من داء السكري والحماض الكيتوني السكري إلى داء السكري من النوع الأول
+## Insulin Detemir: Autoimmune oophoritis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | داء السكري؛ الحماض الكيتوني السكري |
-| المؤشر الجديد المتوقع | داء السكري من النوع الأول |
-| درجة تنبؤ TxGNN | 99.77% |
-| مستوى الأدلة | L1 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Autoimmune oophoritis |
+| درجة تنبؤ TxGNN | 0.9967 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط احترازية (Proceed with Guardrails) |
 
 ---
@@ -104,7 +104,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
 |---------|------|------|-----------|
-| LEVEMIR FLEX PEN 100IU\ML | LEVEMIR FLEX PEN 100IU\ML (نوفو نورديسك) | غير محدد | غير متوفر (الترخيص ملغى) |
+| LEVEMIR FLEX PEN 100IU\ML | LEVEMIR FLEX PEN 100IU\ML (نوفو نورديسك) | غير محدد | غير متوفر (الترخيص ساري) |
 
 ---
 

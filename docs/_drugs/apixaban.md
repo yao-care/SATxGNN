@@ -49,10 +49,10 @@ predicted_indications: ["migraine disorder"]
 |------|------|
 | الاستطباب الأصلي | غير متوفر في البيانات المجمّعة (نص الاستطباب فارغ في جميع التراخيص) |
 | الاستطباب الجديد المتوقع | اضطراب الصداع النصفي (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.02% |
+| درجة تنبؤ TxGNN | 0.9902 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا ترخيص ساري) |
-| عدد التراخيص | 12 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -87,15 +87,15 @@ predicted_indications: ["migraine disorder"]
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ12 ملغاة، ولا يوجد ترخيص ساري حاليًا. فيما يلي أبرز 5 منها (نص الاستطباب ودواء الشكل الصيدلاني غير متوفرين):
+جميع التراخيص الـ12 سارية (12 ترخيصًا ساريًا من أصل 12). فيما يلي أبرز 5 منها (نص الاستطباب ودواء الشكل الصيدلاني غير متوفرين):
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| ELIQUIS 5MG FILM COATED TABLET | ELIQUIS 5MG | Pfizer Manufacturing Deutschland GmbH | ملغى |
-| ELIQUIS 2.5MG FILM COATED TABLET | ELIQUIS 2.5MG | Pfizer Manufacturing Deutschland GmbH | ملغى |
-| PAQUIX 5 MG FILM COATED TABLET | PAQUIX 5 MG | United Pharmaceutical Company | ملغى |
-| Pexapan | Pexapan | Jamjoom Pharmaceuticals Company | ملغى |
-| Xcard | Xcard | Hetero Labs Limited Unit – V | ملغى |
+| ELIQUIS 5MG FILM COATED TABLET | ELIQUIS 5MG | Pfizer Manufacturing Deutschland GmbH | ساري |
+| ELIQUIS 2.5MG FILM COATED TABLET | ELIQUIS 2.5MG | Pfizer Manufacturing Deutschland GmbH | ساري |
+| PAQUIX 5 MG FILM COATED TABLET | PAQUIX 5 MG | United Pharmaceutical Company | ساري |
+| Pexapan | Pexapan | Jamjoom Pharmaceuticals Company | ساري |
+| Xcard | Xcard | Hetero Labs Limited Unit – V | ساري |
 
 ---
 
@@ -115,7 +115,7 @@ predicted_indications: ["migraine disorder"]
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- درجة تنبؤ TxGNN مرتفعة، لكن الأدلة الفعلية غير مباشرة وضعيفة (تجربة غير متعلقة مباشرة بالصداع النصفي وتقارير حالات متناقضة، أحدها يشير إلى تفاقم الأعراض)، ومستوى الأدلة L4. كما لا يوجد ترخيص ساري في السعودية.
+- درجة تنبؤ TxGNN مرتفعة، لكن الأدلة الفعلية غير مباشرة وضعيفة (تجربة غير متعلقة مباشرة بالصداع النصفي وتقارير حالات متناقضة، أحدها يشير إلى تفاقم الأعراض)، ومستوى الأدلة L4. كما أن الدواء مسوّق في السعودية وله 12 ترخيصًا ساريًا من أصل 12.
 
 **للمضي قدمًا يلزم:**
 - الحصول على النشرة الدوائية من موقع SFDA (التحذيرات وموانع الاستعمال) لإجراء فحص السلامة، وهي فجوة بيانات مانعة حاليًا.

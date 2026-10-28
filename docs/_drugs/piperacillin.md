@@ -4,17 +4,17 @@ title: Piperacillin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 660
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Piperacillin: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (مضاد حيوي من فئة البيتا-لاكتام؛ نص الاستطباب غير مت…"
 monitor_inn: "PIPERACILLIN"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 |------|------|
 | الاستطباب الأصلي | العدوى البكتيرية (مضاد حيوي من فئة البيتا-لاكتام؛ نص الاستطباب غير متوفر في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتنبأ به | التهاب المفاصل الروماتويدي |
-| درجة تنبؤ TxGNN | 99.94% |
+| درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -60,7 +60,7 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعروف عن الدواء، فإن بيبراسيلين مضاد حيوي من فئة البيتا-لاكتام يثبّط تخليق جدار الخلية البكتيرية، وليس له نشاط معروف مضاد للالتهاب أو معدّل للمناعة ذو صلة بالتهاب المفاصل الروماتويدي.
 
-لذلك **لا توجد صلة آلية موثوقة** بين الدواء والمرض. الدرجة المرتفعة (0.999) تبدو ناتجة عن أثر في بنية الرسم البياني المعرفي لا عن أساس دوائي حقيقي. المنشورات المسترجعة تتناول مرضى مصابين بالتهاب المفاصل الروماتويدي كخلفية مرضية (سمّية الميثوتريكسات، عدوى، إصابة كبدية دوائية)، ويُستخدم فيها بيبراسيلين لعلاج العدوى فقط، ولا توجد دراسة تختبره علاجاً للمرض نفسه.
+لذلك **لا توجد صلة آلية موثوقة** بين الدواء والمرض. الدرجة المرتفعة (0.9994) صادرة عن نموذج TxGNN (التعلم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً. المنشورات المسترجعة تتناول مرضى مصابين بالتهاب المفاصل الروماتويدي كخلفية مرضية (سمّية الميثوتريكسات، عدوى، إصابة كبدية دوائية)، ويُستخدم فيها بيبراسيلين لعلاج العدوى فقط، ولا توجد دراسة تختبره علاجاً للمرض نفسه.
 
 ---
 
@@ -93,7 +93,7 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 | PIPRIL VIAL 4G | PIPRIL VIAL 4G | غير متوفر | غير متوفر |
 | PIPRIL VIAL 1G+SOLVENT 10ML | PIPRIL VIAL 1G+SOLVENT 10ML | غير متوفر | غير متوفر |
 
-جميع التراخيص الأربعة ملغاة، والجهة المصنّعة CYANAMID LEDERLE.
+التراخيص الأربعة جميعها سارية (4 من 4)، والجهة المصنّعة CYANAMID LEDERLE.
 
 ---
 
@@ -114,7 +114,7 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 **المبررات:**
 - التنبؤ حاسوبي فقط (مستوى L5)، دون تجارب سريرية ولا دراسات تختبر الدواء في هذا المرض، ولا صلة آلية معقولة بين مضاد حيوي للبكتيريا والتهاب المفاصل الروماتويدي.
-- لا توجد تراخيص سارية في السعودية، ولا بيانات سلامة من النشرة الدوائية.
+- توجد 4 تراخيص سارية من أصل 4 في السعودية، ولا بيانات سلامة من النشرة الدوائية.
 
 **للمضي قدماً يلزم:**
 - بيانات آلية العمل من DrugBank.

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Goserelin
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 399
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Goserelin: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: التهاب بطانة الرحم (Endometriosis)، وانتباذ بطانة الرحم في الرحم (لا…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 # Goserelin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 |------|------|
 | الاستطباب الأصلي | التهاب بطانة الرحم (Endometriosis)، وانتباذ بطانة الرحم في الرحم (لا يوجد نص استطباب معتمد في بيانات الترخيص السعودي) |
 | الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L2 (بحسب التقييم المرفق في البيانات؛ ويُلاحَظ أن التجربة السريرية الوحيدة مرحلة 3 وحالتها «غير معروفة» وصلتها غير مباشرة، ما يجعل التقييم الفعلي أقرب إلى L3–L4) |
-| وضع السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -95,7 +95,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ZOLADEX DEPOT 3.6MG S-C INJ SYRINGE | ZOLADEX DEPOT 3.6MG S-C INJ SYRINGE (AstraZeneca) | غير محدد | غير متوفر (الترخيص ملغى) |
+| ZOLADEX DEPOT 3.6MG S-C INJ SYRINGE | ZOLADEX DEPOT 3.6MG S-C INJ SYRINGE (AstraZeneca) | غير محدد | غير متوفر (الترخيص ساري) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 823
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tolvaptan: الاستطباب الجديد المتوقع داء الكلى المتعدد الكيسات 3 مع أو بدون داء الكبد المتعدد الكيسات (مستوى الدليل L1). الاستطباب الأصلي: متلازمة الإفراز غير الملائم لهرمون ADH، ومتلازمة انعدام التبو…"
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: الاستطباب الجديد المتوقع Renal-hepatic-pancreatic dysplasia (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic inte
 
 </div>
 
-## تولفابتان: من متلازمة الإفراز غير الملائم لهرمون ADH إلى داء الكلى المتعدد الكيسات 3 (مع أو بدون داء الكبد المتعدد الكيسات)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic inte
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | متلازمة الإفراز غير الملائم لهرمون ADH، ومتلازمة انعدام التبول المضاد للإدرار الكلوية المنشأ، وداء الكلى المتعدد الكيسات (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في التراخيص) |
-| الاستطباب الجديد المتوقع | داء الكلى المتعدد الكيسات 3 مع أو بدون داء الكبد المتعدد الكيسات |
-| درجة تنبؤ TxGNN | 99.99% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Renal-hepatic-pancreatic dysplasia |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الدليل | L1 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ## لماذا يُعد هذا التنبؤ معقولاً؟
@@ -85,7 +85,7 @@ predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic inte
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Vaprena | Vaprena (جيانغسو هنغروي للأدوية) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| Vaprena | Vaprena (جيانغسو هنغروي للأدوية) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ## اعتبارات السلامة
 

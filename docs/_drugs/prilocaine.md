@@ -48,10 +48,10 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 |------|------|
 | المؤشر الأصلي | القذف المبكر؛ عسر الجماع النفسي المنشأ (مستمدّ من رسم المعرفة الذي يعتمد عليه النموذج، لأن نصوص المؤشرات المعتمدة في تراخيص المملكة غير متوفرة) |
 | المؤشر الجديد المتوقع | التهاب الملتحمة الحليمي (Papillary Conjunctivitis) |
-| درجة توقع TxGNN | 99.78% |
+| درجة توقع TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -80,11 +80,11 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| Prila | Prila (Avalon Pharma) | غير متاح | غير متاح | ملغى |
-| ENNLA 5% Cream | ENNLA 5% Cream (DEEF Pharmaceutical Industries) | غير متاح | غير متاح | ملغى |
-| Imla | Imla (AJA Pharmaceutical Industries) | غير متاح | غير متاح | ملغى |
-| CITANEST 3% DENTAL OCTAPRESSIN CARTRIDGE | CITANEST 3% Dental Octapressin Cartridge (PIERREL) | غير متاح | غير متاح | ملغى |
-| PRILA 5% CREAM | PRILA 5% Cream (Middle East Pharmaceutical Industries Co. Ltd. – MECP) | غير متاح | غير متاح | ملغى |
+| Prila | Prila (Avalon Pharma) | غير متاح | غير متاح | ساري |
+| ENNLA 5% Cream | ENNLA 5% Cream (DEEF Pharmaceutical Industries) | غير متاح | غير متاح | ساري |
+| Imla | Imla (AJA Pharmaceutical Industries) | غير متاح | غير متاح | ساري |
+| CITANEST 3% DENTAL OCTAPRESSIN CARTRIDGE | CITANEST 3% Dental Octapressin Cartridge (PIERREL) | غير متاح | غير متاح | ساري |
+| PRILA 5% CREAM | PRILA 5% Cream (Middle East Pharmaceutical Industries Co. Ltd. – MECP) | غير متاح | غير متاح | ساري |
 
 ---
 
@@ -115,7 +115,7 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 **المبررات:**
 - التوقع قائم على النموذج الحاسوبي وحده (مستوى الأدلة L5)، بلا تجارب سريرية ولا أدبيات علمية.
 - الاستخدام العيني للبريلوكايين غير معتمد.
-- جميع التراخيص المحلية الخمسة ملغاة، ولا يوجد حالياً منتج ساري في السوق السعودي.
+- الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة سارية (5 من 5).
 - نص السلامة الرسمي غير متوفر، وهذا يمنع الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم:**

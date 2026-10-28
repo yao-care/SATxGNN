@@ -4,17 +4,17 @@ title: Desvenlafaxine
 parent: أدلة متوسطة (L3-L4)
 nav_order: 245
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Desvenlafaxine: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (مستوى الدليل L4). الاستطباب الأصلي: الاكتئاب الأحادي القطب، اضطراب الاكتئاب الرئيسي، اضطراب القلق (من الر…"
 monitor_inn: "Desvenlafaxine"
-predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
+predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Desvenlafaxine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 |------|------|
 | الاستطباب الأصلي | الاكتئاب الأحادي القطب، اضطراب الاكتئاب الرئيسي، اضطراب القلق (من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | اضطراب الوسواس القهري |
-| درجة تنبؤ TxGNN | 99.91% |
+| درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -89,8 +89,8 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| DAVLEX | DAVLEX | غير محدد | غير متوفر (ترخيص ملغى) |
-| PRISTIQ 50MG EXTENDED RELEASE TABLETS | PRISTIQ 50MG EXTENDED RELEASE TABLETS (فايزر) | غير محدد | غير متوفر (ترخيص ملغى) |
+| DAVLEX | DAVLEX | غير محدد | غير متوفر (ترخيص ساري) |
+| PRISTIQ 50MG EXTENDED RELEASE TABLETS | PRISTIQ 50MG EXTENDED RELEASE TABLETS (فايزر) | غير محدد | غير متوفر (ترخيص ساري) |
 
 ---
 
@@ -111,7 +111,7 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط دون تجارب سريرية أو دراسات مباشرة في الوسواس القهري، وفاعلية الدواء على السيروتونين أقل من مثبطات SSRI المعتمدة لهذا الاستطباب.
-- لا توجد تراخيص سارية في السعودية، وبيانات السلامة من النشرة غير متوفرة.
+- الدواء مسوّق في هذا البلد، وله ترخيصان ساريان من أصل ترخيصين.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة المنتج من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة حرجة تمنع الانتقال إلى مرحلة فحص السلامة).

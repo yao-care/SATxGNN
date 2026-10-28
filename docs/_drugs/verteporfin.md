@@ -6,7 +6,7 @@ nav_order: 866
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Verteporfin: الاستطباب الجديد المتوقع اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي… (مستوى الدليل L5). الاستطباب الأصلي: التنكس البقعي"
+description: "Verteporfin: الاستطباب الجديد المتوقع اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي النووي (مستوى الدليل L5). الاستطباب الأصلي: التنكس البقعي"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 |------|------|
 | الاستطباب الأصلي | التنكس البقعي |
 | الاستطباب الجديد المتوقع | اضطراب الفسفرة التأكسدية الميتوكوندرية الناجم عن شذوذات الحمض النووي النووي |
-| درجة توقع TxGNN | 99.49% |
+| درجة توقع TxGNN | 0.9949 |
 | مستوى الأدلة | L5 (توقع النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -84,7 +84,7 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| VISUDYNE 15MG POWDER FOR INFUSION | VISUDYNE 15MG POWDER FOR INFUSION (الشركة: JHP Pharmaceuticals، الحالة: ملغى) | غير محدد | غير محدد |
+| VISUDYNE 15MG POWDER FOR INFUSION | VISUDYNE 15MG POWDER FOR INFUSION (الشركة: JHP Pharmaceuticals، الحالة: ساري) | غير محدد | غير محدد |
 
 ---
 

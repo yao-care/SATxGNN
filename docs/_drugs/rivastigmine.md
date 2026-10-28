@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rivastigmine
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 731
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Rivastigmine: الاستطباب الجديد المتوقع الزرق (Glaucoma) (مستوى الدليل L4). الاستطباب الأصلي: مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب ال…"
@@ -14,7 +14,7 @@ predicted_indications: ["glaucoma"]
 # Rivastigmine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["glaucoma"]
 |------|------|
 | الاستطباب الأصلي | مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب الرسم المعرفي لـ TxGNN) |
 | الاستطباب الجديد المتوقع | الزرق (Glaucoma) |
-| درجة تنبؤ TxGNN | 99.27% |
-| مستوى الأدلة | L4 |
-| وضع التسويق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 16 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9927 |
+| مستوى الأدلة | L5 |
+| وضع التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 16 من 16) |
+| عدد التراخيص | 16 (السارية: 16) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -86,15 +86,15 @@ predicted_indications: ["glaucoma"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ16 المسجلة ملغاة، ولا يوجد ترخيص ساري. ولا يتوفر نص الاستطباب المعتمد ولا الشكل الصيدلاني في البيانات. وفيما يلي أبرز خمسة منها:
+جميع التراخيص الـ16 المسجلة سارية (16 من 16)، والدواء مسوَّق. ولا يتوفر نص الاستطباب المعتمد ولا الشكل الصيدلاني في البيانات. وفيما يلي أبرز خمسة منها:
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| EXELON 1.5 mg capsule | EXELON 1.5 mg capsule | Siegfried Barbera, S.L | ملغى |
-| EXELON 4.6MG-24H TRANSDERMAL PATCHES | EXELON 4.6MG-24H TRANSDERMAL PATCHES | LTS LOHMANN Therapie-Systeme | ملغى |
-| EXELON 2MG-ML ORAL SOLUTION | EXELON 2MG-ML ORAL SOLUTION | DELPHARM HUNINGUE S.A.S. | ملغى |
-| RIVAXEL 9.5MG/24HRS TRANSDERMAL PATCHES | RIVAXEL 9.5MG/24HRS TRANSDERMAL PATCHES | SK Chemicals Co., Ltd | ملغى |
-| RIVETAL 6 mg Capsule | RIVETAL 6 mg Capsule | GENEPHARM S.A. | ملغى |
+| EXELON 1.5 mg capsule | EXELON 1.5 mg capsule | Siegfried Barbera, S.L | ساري |
+| EXELON 4.6MG-24H TRANSDERMAL PATCHES | EXELON 4.6MG-24H TRANSDERMAL PATCHES | LTS LOHMANN Therapie-Systeme | ساري |
+| EXELON 2MG-ML ORAL SOLUTION | EXELON 2MG-ML ORAL SOLUTION | DELPHARM HUNINGUE S.A.S. | ساري |
+| RIVAXEL 9.5MG/24HRS TRANSDERMAL PATCHES | RIVAXEL 9.5MG/24HRS TRANSDERMAL PATCHES | SK Chemicals Co., Ltd | ساري |
+| RIVETAL 6 mg Capsule | RIVETAL 6 mg Capsule | GENEPHARM S.A. | ساري |
 
 تشمل المنتجات الملغاة الأخرى أسماء Trivacin وRivaxel وRivetal وExelon بتراكيز وأشكال مختلفة (كبسولات ولصقات جلدية ومحلول فموي).
 
@@ -119,7 +119,7 @@ predicted_indications: ["glaucoma"]
 
 **المبررات:**
 - الأدلة الحالية تقتصر على دراسة قبل سريرية واحدة على الأرانب ومراجعتين، دون أي تجارب سريرية، أي مستوى L4. ودرجة TxGNN المرتفعة تنبؤ حسابي فقط.
-- جميع التراخيص السعودية ملغاة، ولم تتوفر بيانات السلامة من النشرة الدوائية، وهي فجوة تمنع المضي إلى مرحلة الفحص الأولي للسلامة.
+- جميع التراخيص السعودية سارية (16 من 16)، ولم تتوفر بيانات السلامة من النشرة الدوائية، وهي فجوة تمنع المضي إلى مرحلة الفحص الأولي للسلامة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء من موقع الهيئة العامة للغذاء والدواء (SFDA) واستخلاص التحذيرات والموانع منها.

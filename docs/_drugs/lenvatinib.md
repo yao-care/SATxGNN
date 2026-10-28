@@ -4,7 +4,7 @@ title: Lenvatinib
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 489
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Lenvatinib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية وسرطان الغدة الدرقية (بحسب الرسم المعرفي، إذ لا…"
 monitor_inn: "LENVATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 # Lenvatinib
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 |------|------|
 | الاستطباب الأصلي | سرطان الخلايا الكلوية وسرطان الغدة الدرقية (بحسب الرسم المعرفي، إذ لا يتوفر نص استطباب معتمد في تراخيص السوق السعودي) |
 | الاستطباب الجديد المتوقع | الساركوما الشحمية (Liposarcoma) |
-| درجة تنبؤ TxGNN | 99.51% |
+| درجة تنبؤ TxGNN | 0.9951 |
 | مستوى الأدلة | L2 |
-| حالة السوق في السعودية | تراخيص ملغاة فقط |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -91,11 +91,11 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| LENVIMA 10 mg HARD CAPSULES | LENVIMA 10 mg (الشركة المصنّعة: PATHEON INC) | كبسولات صلبة | ملغى |
-| LENVIMA 4 mg HARD CAPSULES | LENVIMA 4 mg (الشركة المصنّعة: PATHEON INC) | كبسولات صلبة | ملغى |
-| Lenvatinib TBM | Lenvatinib TBM (الشركة المصنّعة: Shilpa Medicare Ltd) | غير محدد | ملغى |
+| LENVIMA 10 mg HARD CAPSULES | LENVIMA 10 mg (الشركة المصنّعة: PATHEON INC) | كبسولات صلبة | ساري |
+| LENVIMA 4 mg HARD CAPSULES | LENVIMA 4 mg (الشركة المصنّعة: PATHEON INC) | كبسولات صلبة | ساري |
+| Lenvatinib TBM | Lenvatinib TBM (الشركة المصنّعة: Shilpa Medicare Ltd) | غير محدد | ساري |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري حالياً.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية.
 
 ---
 

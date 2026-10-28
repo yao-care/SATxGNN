@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 628
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pantoprazole: الاستطباب الجديد المتوقع القرحة الهضمية النشطة (مستوى الدليل L1). الاستطباب الأصلي: مرض القرحة الهضمية (وفق الاستطبابات المسجلة في قاعدة المعرفة؛ نصوص ال…"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-## بانتوبرازول: من القرحة الهضمية إلى القرحة الهضمية النشطة
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,11 +48,11 @@ predicted_indications: ["duodenal obstruction"]
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | مرض القرحة الهضمية (وفق الاستطبابات المسجلة في قاعدة المعرفة؛ نصوص الاستطباب في تراخيص المملكة غير متوفرة) |
-| الاستطباب الجديد المتوقع | القرحة الهضمية النشطة |
-| درجة تنبؤ TxGNN | 99.69% |
-| مستوى الأدلة | L1 |
-| حالة السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Duodenal obstruction |
+| درجة تنبؤ TxGNN | 0.9921 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 18 على الأقل) |
 | عدد التراخيص | 18 (جميعها ملغاة) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
@@ -99,11 +99,11 @@ predicted_indications: ["duodenal obstruction"]
 
 | اسم الترخيص/المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| PROTON 40MG E.C TAB | SPIMACO | ملغى |
-| PANTOMAX 40MG E.C.TABLETS | SAJA | ملغى |
-| PANTOMAX 20MG E.C. TABLETS | SAJA | ملغى |
-| TOPRAZOLE 20MG ENTERIC COATED TABLETS | Tabuk Pharmaceutical | ملغى |
-| PANTOZOL 40MG I.V Powder for injection | Takeda GmbH | ملغى |
+| PROTON 40MG E.C TAB | SPIMACO | ساري |
+| PANTOMAX 40MG E.C.TABLETS | SAJA | ساري |
+| PANTOMAX 20MG E.C. TABLETS | SAJA | ساري |
+| TOPRAZOLE 20MG ENTERIC COATED TABLETS | Tabuk Pharmaceutical | ساري |
+| PANTOZOL 40MG I.V Powder for injection | Takeda GmbH | ساري |
 
 (عُرضت 5 تراخيص من أصل 18.)
 
@@ -124,7 +124,6 @@ predicted_indications: ["duodenal obstruction"]
 
 **المبررات:**
 - الأدلة قوية (L1): توجد تجربة مكتملة من المرحلة 3 وعدة دراسات مقارنة تدعم فعالية بانتوبرازول في القرحة الهضمية. لكن هذا الاستطباب ضمن الاستخدام المعروف للدواء، فلا يمثل فرصة إعادة توظيف جديدة.
-- لا توجد تراخيص سارية في المملكة، وبيانات السلامة من نشرة العبوة غير متوفرة.
 
 **للمتابعة يلزم:**
 - الحصول على نشرة العبوة من موقع الهيئة العامة للغذاء والدواء (SFDA) واستخراج التحذيرات وموانع الاستعمال، وهي فجوة معيقة لمرحلة فحص السلامة.

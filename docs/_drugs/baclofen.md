@@ -33,7 +33,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 </div>
 
-## باكلوفين: من علاج التشنج العضلي إلى اضطراب فرط الحركة ونقص الانتباه
+## باكلوفين: من علاج التشنج العضلي إلى اضطراب فرط الحركة وتشتت الانتباه
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص المحلية (المعروف سريرياً: التشنج العضلي) |
 | الاستطباب الجديد المتوقع | اضطراب فرط الحركة ونقص الانتباه (ADHD) |
-| درجة تنبؤ TxGNN | 99.32% |
+| درجة تنبؤ TxGNN | 0.9932 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -88,15 +88,15 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الستة ملغاة، ولم تتوفر في البيانات المجمّعة نصوص الاستطباب المعتمد أو الأشكال الصيدلانية.
+جميع التراخيص الستة سارية (6 من 6)، ولم تتوفر في البيانات المجمّعة نصوص الاستطباب المعتمد أو الأشكال الصيدلانية.
 
 | رقم الترخيص / المنتج | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الجهة المصنّعة | الحالة |
 |---------|------|------|-----------|------|------|
-| BACLOFEN INTRATHECAL SINTETICA 0.05MG/ML INJECTION | Baclofen Intrathecal Sintetica 0.05 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ملغى |
-| LIORESAL 10MG TAB | Lioresal 10 mg | أقراص (حسب اسم المنتج) | — | Novartis | ملغى |
-| BACLOFEN INTRATHECAL SINTETICA 0.5MG/ML INJECTION | Baclofen Intrathecal Sintetica 0.5 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ملغى |
-| LIORESAL 25MG TAB | Lioresal 25 mg | أقراص (حسب اسم المنتج) | — | Siegfried Barbera, S.L | ملغى |
-| BACLOFEN INTRATHECAL SINTETICA 2MG/ML INJECTION | Baclofen Intrathecal Sintetica 2 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ملغى |
+| BACLOFEN INTRATHECAL SINTETICA 0.05MG/ML INJECTION | Baclofen Intrathecal Sintetica 0.05 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ساري |
+| LIORESAL 10MG TAB | Lioresal 10 mg | أقراص (حسب اسم المنتج) | — | Novartis | ساري |
+| BACLOFEN INTRATHECAL SINTETICA 0.5MG/ML INJECTION | Baclofen Intrathecal Sintetica 0.5 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ساري |
+| LIORESAL 25MG TAB | Lioresal 25 mg | أقراص (حسب اسم المنتج) | — | Siegfried Barbera, S.L | ساري |
+| BACLOFEN INTRATHECAL SINTETICA 2MG/ML INJECTION | Baclofen Intrathecal Sintetica 2 mg/ml | حقن (حسب اسم المنتج) | — | Sintetica SA | ساري |
 
 يوجد ترخيص سادس (Baclon، من Alrai Pharmaceutical industry) وهو ملغى أيضاً.
 
@@ -126,7 +126,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- درجة التنبؤ مرتفعة جداً (99.32%)، لكن لا توجد أي تجربة سريرية في ADHD، ولا دراسة منشورة تقيّم الباكلوفين مباشرة في هذا الاستطباب. مستوى الأدلة L5.
+- درجة التنبؤ مرتفعة جداً (0.9932)، لكن لا توجد أي تجربة سريرية في ADHD، ولا دراسة منشورة تقيّم الباكلوفين مباشرة في هذا الاستطباب. مستوى الأدلة L5.
 - جميع تراخيص الباكلوفين في السعودية ملغاة، ولم تتوفر معلومات السلامة من النشرة الرسمية.
 
 **للمضي قدماً يلزم:**
@@ -135,7 +135,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 - إجراء دراسة أولية (تجربة تجريبية أو مراجعة منهجية) تقيّم الباكلوفين مباشرة في ADHD، مع فصل أثره عن الاقتران بمتلازمة توريت.
 - توضيح الوضع التنظيمي بعد إلغاء التراخيص الحالية.
 
-**ملاحظة:** يتوفر لدى النموذج تنبؤ ثانٍ للباكلوفين هو **الاعتماد على النيكوتين** (درجة 99.19%)، وأدلته أقوى نسبياً (L2): ثلاث تجارب من المرحلة الثانية (NCT01228994 وNCT00257894 وNCT01821560)، أُنهيت اثنتان منها مبكراً بأعداد صغيرة واكتملت واحدة (n=44)، إضافة إلى دراسات ما قبل سريرية. ويُنصح بتقييمه كسؤال بحثي مستقل.
+**ملاحظة:** يتوفر لدى النموذج تنبؤ ثانٍ للباكلوفين هو **الاعتماد على النيكوتين** (درجة 0.9919)، وأدلته أقوى نسبياً (L2): ثلاث تجارب من المرحلة الثانية (NCT01228994 وNCT00257894 وNCT01821560)، أُنهيت اثنتان منها مبكراً بأعداد صغيرة واكتملت واحدة (n=44)، إضافة إلى دراسات ما قبل سريرية. ويُنصح بتقييمه كسؤال بحثي مستقل.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

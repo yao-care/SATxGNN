@@ -4,17 +4,17 @@ title: Ephedrine
 parent: أدلة متوسطة (L3-L4)
 nav_order: 308
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ephedrine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي (ضمن استطبابات أخرى مثل التهاب الأنف الحركي الوع…"
 monitor_inn: "Ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ephedrine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 |------|------|
 | الاستطباب الأصلي | التهاب الأنف التحسسي (ضمن استطبابات أخرى مثل التهاب الأنف الحركي الوعائي والتهاب القصبات والتهاب البلعوم ونزلات البرد) |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -85,8 +85,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| EPHEDRINE HYDROCHLORIDE 30 mg/ml solution for injction | EPHEDRINE HYDROCHLORIDE 30 mg/ml solution for injction (Martindale Pharmaceuticals) — ملغى | محلول للحقن | غير متوفر |
-| Ephedrine 3 mg/ml, solution for injection in pre-filled syringe | Ephedrine 3 mg/ml, solution for injection in pre-filled syringe (Laboratoire Aguettant) — ملغى | محلول للحقن في محقنة معبأة مسبقًا | غير متوفر |
+| EPHEDRINE HYDROCHLORIDE 30 mg/ml solution for injction | EPHEDRINE HYDROCHLORIDE 30 mg/ml solution for injction (Martindale Pharmaceuticals) — ساري | محلول للحقن | غير متوفر |
+| Ephedrine 3 mg/ml, solution for injection in pre-filled syringe | Ephedrine 3 mg/ml, solution for injection in pre-filled syringe (Laboratoire Aguettant) — ساري | محلول للحقن في محقنة معبأة مسبقًا | غير متوفر |
 
 ---
 

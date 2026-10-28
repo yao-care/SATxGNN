@@ -6,7 +6,7 @@ nav_order: 287
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Dutasteride: الاستطباب الجديد المتوقع فرط الشعرانية الخلقي المعمم من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
+description: "Dutasteride: الاستطباب الجديد المتوقع فرط الشعر الخلقي العام من نوع أمبراس (مستوى الدليل L5). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-## دوتاستيريد: من تضخم البروستاتا الحميد إلى متلازمة أمبراس (فرط الشعرانية الخلقي المعمم)
+## دوتاستيريد: من تضخم البروستاتا الحميد إلى فرط الشعر الخلقي العام من نوع أمبراس
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 |------|------|
 | الاستطباب الأصلي | تضخم البروستاتا الحميد |
 | الاستطباب الجديد المتنبأ به | فرط الشعرانية الخلقي المعمم من نوع أمبراس |
-| درجة تنبؤ TxGNN | 99.998% |
+| درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,9 +84,9 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| Duserex | Duserex | غير متوفر | غير متوفر | ملغى |
-| AVODART 0.5MG CAPSULE | AVODART 0.5MG CAPSULE | كبسولة | غير متوفر | ملغى |
-| Dusta | Dusta | غير متوفر | غير متوفر | ملغى |
+| Duserex | Duserex | غير متوفر | غير متوفر | ساري |
+| AVODART 0.5MG CAPSULE | AVODART 0.5MG CAPSULE | كبسولة | غير متوفر | ساري |
+| Dusta | Dusta | غير متوفر | غير متوفر | ساري |
 
 ---
 
@@ -111,7 +111,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 - استكمال بيانات آلية العمل من DrugBank.
 - إجراء دراسات ما قبل سريرية أو دراسات آلية تبحث العلاقة بين مسار TRPS1 وإشارات الأندروجين.
 - النظر في الأولويات الأخرى ذات المعقولية البيولوجية الأعلى (مثل حالات تساقط الشعر المرتبطة بالأندروجينات) بدلاً من هذا الاستطباب.
-- تقييم وضع الترخيص في السعودية، إذ إن جميع التراخيص الثلاثة ملغاة.
+- تقييم وضع الترخيص في السعودية، إذ إن جميع التراخيص الثلاثة سارية.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

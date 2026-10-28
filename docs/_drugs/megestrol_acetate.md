@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Megestrol Acetate
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 536
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Megestrol Acetate: الاستطباب الجديد المتوقع سرطان بطانة جسم الرحم (uterine corpus endometrial carcinoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان بطانة الرحم (endometrial carcinoma)"
 monitor_inn: "MEGESTROL ACETATE"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
+description: "Megestrol Acetate: الاستطباب الجديد المتوقع Hereditary breast ovarian cancer syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Megestrol Acetate
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 
 </div>
 
-## ميجيسترول أسيتات: من سرطان بطانة الرحم إلى سرطان بطانة الرحم (الجسم الرحمي)
+## Megestrol Acetate: Hereditary breast ovarian cancer syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان بطانة الرحم (endometrial carcinoma) |
-| الاستطباب الجديد المتوقع | سرطان بطانة جسم الرحم (uterine corpus endometrial carcinoma) |
-| درجة تنبؤ TxGNN | 99.94% |
-| مستوى الأدلة | L2 |
-| وضع السوق في السعودية | ملغى فقط (الترخيص الوحيد ملغى) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Hereditary breast ovarian cancer syndrome |
+| درجة تنبؤ TxGNN | 0.9989 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
@@ -86,7 +86,7 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| MEGACE | MEGACE (الشركة: MEADJOHNSON) | غير محدد | غير محدد (الترخيص ملغى) |
+| MEGACE | MEGACE (الشركة: MEADJOHNSON) | غير محدد | غير محدد (الترخيص ساري) |
 
 ---
 
@@ -123,15 +123,13 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 
 | المؤشر | درجة TxGNN | مستوى الأدلة | القرار |
 |------|------|------|------|
-| سرطان المبيض (ovarian cancer) | 99.71% | L2 | سؤال بحثي (Research Question) |
-| ساركوما الرحم/الورم الساركومي السرطاني (uterine carcinosarcoma) | 99.84% | L4 | سؤال بحثي |
-| سرطان بطانة الرحم الانتقالي الخلايا | 99.94% | L5 | تعليق (Hold) |
-| الورم الظهاري الحدّي في المبيض | 99.88% | L5 | تعليق |
-| متلازمة سرطان الثدي والمبيض الوراثية | 99.89% | L5 | تعليق |
-| سرطان المشيمة | 99.84% | L5 | تعليق |
-| سرطان المبيض ذو الخلايا الصافية | 99.80% | L5 | تعليق |
-| ورم الخلايا الجرثومية الديسجرمينومي في المبيض | 99.66% | L5 | تعليق |
-| ورم صماوي عصبي منخفض الدرجة في جسم الرحم | 99.61% | L5 | تعليق |
+| سرطان المبيض (ovarian cancer) | 0.9971 | L5 | سؤال بحثي (Research Question) |
+| ساركوما الرحم/الورم الساركومي السرطاني (uterine carcinosarcoma) | 0.9984 | L5 | سؤال بحثي |
+| الورم الظهاري الحدّي في المبيض | 0.9988 | L5 | تعليق |
+| متلازمة سرطان الثدي والمبيض الوراثية | 0.9989 | L5 | تعليق |
+| سرطان المشيمة | 0.9984 | L5 | تعليق |
+| سرطان المبيض ذو الخلايا الصافية | 0.9980 | L5 | تعليق |
+| ورم الخلايا الجرثومية الديسجرمينومي في المبيض | 0.9966 | L5 | تعليق |
 
 **سرطان المبيض:** توجد دراسات من المرحلة الثانية لجرعات عالية من الميجيسترول في سرطان المبيض الظهاري المقاوم للبلاتين (مثل PMID 11593052 وPMID 9856656 وPMID 3099393)، لكن حجم الفائدة محدود. أما التجربة NCT00005975 (المرحلة 3، 288 مشاركاً) فتتعلق بأعراض فشل المبيض (الهبّات الساخنة) لدى مريضات سرطان الثدي، ولا تثبت فعالية ضد سرطان المبيض، ولا يجوز اعتبارها دليلاً من المستوى L1. والتجربة NCT06549855 صغيرة (10 مشاركات) وتتعلق بسرطان بطانة الرحم وليس المبيض.
 

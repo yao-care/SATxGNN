@@ -6,7 +6,7 @@ nav_order: 519
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Loxoprofen: الاستطباب الجديد المتوقع متلازمة صغر العين الأعوري مع خلل التنسج الجذري الطرفي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي"
+description: "Loxoprofen: الاستطباب الجديد المتوقع متلازمة صغر العين الشقوقي مع الحثل الجذري القزمي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي"
 monitor_inn: "LOXOPROFEN"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-## لوكسوبروفين: من التهاب المفاصل الروماتويدي إلى متلازمة صغر العين الأعوري مع خلل التنسج الجذري الطرفي
+## لوكسوبروفين: من التهاب المفاصل الروماتويدي إلى متلازمة صغر العين الشقوقي مع الحثل الجذري القزمي
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,13 +46,13 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي |
 | الاستطباب الجديد المتنبأ به | متلازمة صغر العين الأعوري مع خلل التنسج الجذري الطرفي |
-| درجة تنبؤ TxGNN | 99.80% |
+| درجة تنبؤ TxGNN | 0.9980 |
 | مستوى الدليل | L5 (تنبؤ النموذج فقط) |
-| حالة السوق في السعودية | مُلغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
-يوجد تنبؤ ثانٍ بدرجة 99.75% هو **متلازمة قصر الأصابع والتصاق الأصابع (brachydactyly-syndactyly syndrome)**، وهو بدوره بلا أي دليل سريري أو منشور، ويُصنَّف L5 وقراره Hold.
+يوجد تنبؤ ثانٍ بدرجة 0.9975 هو **متلازمة قصر الأصابع والتصاق الأصابع (brachydactyly-syndactyly syndrome)**، وهو بدوره بلا أي دليل سريري أو منشور، ويُصنَّف L5 وقراره Hold.
 
 ## هل هذا التنبؤ منطقي؟
 
@@ -78,7 +78,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 | ROXONIN TAPE 100 mg Cutaneous Patch | ROXONIN TAPE 100 mg Cutaneous Patch | غير متوفر | غير متوفر |
 | ROXONIN 60MG TABLET | ROXONIN 60MG TABLET | غير متوفر | غير متوفر |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري المفعول حالياً.
+جميع التراخيص الثلاثة سارية المفعول، والدواء مسوّق حالياً.
 
 ## اعتبارات السلامة
 

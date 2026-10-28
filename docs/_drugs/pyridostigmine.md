@@ -4,17 +4,17 @@ title: Pyridostigmine
 parent: أدلة متوسطة (L3-L4)
 nav_order: 700
 evidence_level: L4
-indication_count: 7
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Pyridostigmine: الاستطباب الجديد المتوقع الوهن العضلي الوبيل المصحوب بتضخم الغدة الصعترية (مستوى الدليل L4). الاستطباب الأصلي: الوهن العضلي الوبيل، الوهن العضلي الوبيل عند البالغين، أمراض الوصل ال…"
 monitor_inn: "PYRIDOSTIGMINE"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: الاستطباب الجديد المتوقع Autoimmune disease of peripheral nervous system (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 </div>
 
-## بيريدوستيغمين: من الوهن العضلي الوبيل إلى الوهن العضلي الوبيل المصحوب بتضخم الغدة الصعترية
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الوهن العضلي الوبيل، الوهن العضلي الوبيل عند البالغين، أمراض الوصل العصبي العضلي |
-| الاستطباب الجديد المتوقع | الوهن العضلي الوبيل المصحوب بتضخم الغدة الصعترية |
-| درجة تنبؤ TxGNN | 99.76% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Autoimmune disease of peripheral nervous system |
+| درجة تنبؤ TxGNN | 0.9975 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -86,7 +86,7 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| MESTINON 60MG TABLET | MESTINON 60MG TABLET (الشركة المصنعة: ICN Polfa Rzeszow S.A.) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| MESTINON 60MG TABLET | MESTINON 60MG TABLET (الشركة المصنعة: ICN Polfa Rzeszow S.A.) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 

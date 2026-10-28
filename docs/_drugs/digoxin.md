@@ -4,17 +4,17 @@ title: Digoxin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 260
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Digoxin: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: الرجفان الأذيني؛ التسمم بالديجيتالis"
 monitor_inn: "DIGOXIN"
-predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 ---
 
 # Digoxin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 |------|------|
 | الاستطباب الأصلي | الرجفان الأذيني؛ التسمم بالديجيتالis |
 | الاستطباب الجديد المتوقع | الذبحة الصدرية المتغايرة (Prinzmetal angina) |
-| درجة تنبؤ TxGNN | 99.81% |
+| درجة تنبؤ TxGNN | 0.9981 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -62,7 +62,7 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 أما الذبحة الصدرية المتغايرة فهي ناتجة عن تشنج الشرايين التاجية، وتُعالج عادةً بحاصرات قنوات الكالسيوم والنترات. وليس لديجوكسين دور معروف في هذه الحالة. بل قد يزيد نظريًا من التوتر الوعائي والتضيق الوعائي، مما قد يفاقم التشنج.
 
-لذلك لا يوجد رابط آلي موثوق بين الاستطباب الأصلي والجديد. ويبدو أن الدرجة العالية (0.998) ناتجة عن أثر في التنبؤ المعتمد على الشبكة المعرفية، وليست دليلًا على فعالية سريرية.
+لذلك لا يوجد رابط آلي موثوق بين الاستطباب الأصلي والجديد. ويبدو أن الدرجة العالية (0.9981) ناتجة عن أثر في التنبؤ المعتمد على الشبكة المعرفية، وليست دليلًا على فعالية سريرية.
 
 ---
 
@@ -84,11 +84,11 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| LANIBOS 0.25MG-2ML INJ. | LANIBOS 0.25MG-2ML INJ. | غير محدد | غير متوفر (ملغى) |
-| LANOXIN 0.125MG TAB | LANOXIN 0.125MG TAB | غير محدد | غير متوفر (ملغى) |
-| LANOXIN PG 0.0625MG TABLET | LANOXIN PG 0.0625MG TABLET | غير محدد | غير متوفر (ملغى) |
-| LANOXIN 0.25MG-ML INJ | LANOXIN 0.25MG-ML INJ | غير محدد | غير متوفر (ملغى) |
-| LANOXIN 0.05MG-ML ELIXIR | LANOXIN 0.05MG-ML ELIXIR | غير محدد | غير متوفر (ملغى) |
+| LANIBOS 0.25MG-2ML INJ. | LANIBOS 0.25MG-2ML INJ. | غير محدد | غير متوفر (ساري) |
+| LANOXIN 0.125MG TAB | LANOXIN 0.125MG TAB | غير محدد | غير متوفر (ساري) |
+| LANOXIN PG 0.0625MG TABLET | LANOXIN PG 0.0625MG TABLET | غير محدد | غير متوفر (ساري) |
+| LANOXIN 0.25MG-ML INJ | LANOXIN 0.25MG-ML INJ | غير محدد | غير متوفر (ساري) |
+| LANOXIN 0.05MG-ML ELIXIR | LANOXIN 0.05MG-ML ELIXIR | غير محدد | غير متوفر (ساري) |
 
 *ملاحظة: إجمالي التراخيص 7، وجميعها ملغاة؛ عُرضت أول 5 فقط.*
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Chlordiazepoxide
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 173
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Chlordiazepoxide: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L4). الاستطباب الأصلي: القلق، وانسحاب الكحول، وقرحة المعدة، والقولون العصبي (بحسب الرسم المع…"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 # Chlordiazepoxide
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 |------|------|
 | الاستطباب الأصلي | القلق، وانسحاب الكحول، وقرحة المعدة، والقولون العصبي (بحسب الرسم المعرفي PrimeKG؛ لم يتوفر نص استطباب مرخّص) |
 | الاستطباب الجديد المتوقع | الأرق |
-| درجة تنبؤ TxGNN | 99.998% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| درجة تنبؤ TxGNN | 1.0000 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) |
 
 ---
@@ -89,8 +89,8 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| POXIDIUM TAB | POXIDIUM TAB (Hikma Pharmaceuticals PLC) | غير مذكور | غير مذكور (ملغى) |
-| LIBRAX TABLET | LIBRAX TABLET (ICN) | غير مذكور | غير مذكور (ملغى) |
+| POXIDIUM TAB | POXIDIUM TAB (Hikma Pharmaceuticals PLC) | غير مذكور | غير مذكور (ساري) |
+| LIBRAX TABLET | LIBRAX TABLET (ICN) | غير مذكور | غير مذكور (ساري) |
 
 ---
 

@@ -50,10 +50,10 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 |------|------|
 | الاستطباب الأصلي | الالتهاب الرئوي البكتيري، التهاب الصفاق، الالتهاب الرئوي العقدي، التهاب الشغاف، التهاب بطانة الرحم، التهاب المفاصل البكتيري (مصدر القائمة: الرسم المعرفي لـTxGNN، لأن نصوص الاستطباب في تراخيص السوق السعودية غير متوفرة) |
 | الاستطباب الجديد المتوقع | تصلب الجلد المنتشر (Diffuse Scleroderma) |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,11 +84,11 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 | اسم المستحضر | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| IMIPENEM-CILASTATIN LABATEC 500/500 VIAL | ACS DOBFAR S.P.A | ملغى |
-| ZAYNAM powder for solution for infusion | DEMO S.A | ملغى |
-| IVNEM | ACS DOBFAR SPA | ملغى |
-| LASTINEM 500 mg powder for solution for infusion | VENUS REMEDIES LIMITED | ملغى |
-| TIENAM 500 MG VIAL I.V. | MERCK SHARP AND DOHME LLC | ملغى |
+| IMIPENEM-CILASTATIN LABATEC 500/500 VIAL | ACS DOBFAR S.P.A | ساري |
+| ZAYNAM powder for solution for infusion | DEMO S.A | ساري |
+| IVNEM | ACS DOBFAR SPA | ساري |
+| LASTINEM 500 mg powder for solution for infusion | VENUS REMEDIES LIMITED | ساري |
+| TIENAM 500 MG VIAL I.V. | MERCK SHARP AND DOHME LLC | ساري |
 
 ---
 
@@ -110,7 +110,7 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 **المبررات:**
 - التنبؤ الخاص بتصلب الجلد المنتشر قائم على النموذج الحسابي فقط، ولا توجد تجارب أو أدبيات، ولا آلية دوائية معقولة.
-- جميع التراخيص المحلية ملغاة حاليًا، ولم تُستكمل بيانات السلامة المستمدة من النشرة الدوائية.
+- الدواء مسوَّق في هذا البلد، و8 تراخيص محلية سارية من أصل 8، ولم تُستكمل بيانات السلامة المستمدة من النشرة الدوائية.
 
 **للمضي قدمًا يلزم:**
 - الحصول على النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال.

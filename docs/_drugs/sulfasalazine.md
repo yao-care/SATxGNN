@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfasalazine
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 778
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sulfasalazine: الاستطباب الجديد المتوقع الفصال العظمي (Osteoarthritis) (مستوى الدليل L4). الاستطباب الأصلي: التهاب المفاصل الروماتويدي (إضافة إلى التهاب القولون التقرحي وأمراض ا…"
 monitor_inn: "SULFASALAZINE"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+description: "Sulfasalazine: الاستطباب الجديد المتوقع Brachydactyly-syndactyly syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-## سلفاسالازين: من التهاب المفاصل الروماتويدي إلى الفصال العظمي
+## Sulfasalazine: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 سلفاسالازين دواء يُستخدم أصلاً لعلاج التهاب المفاصل الروماتويدي والتهاب القولون التقرحي وأمراض الأمعاء الالتهابية.
-يتوقع نموذج TxGNN أنه قد يكون مفيداً في **الفصال العظمي (Osteoarthritis)**، وذلك بدرجة تنبؤ مرتفعة (99.64%).
+يتوقع نموذج TxGNN أنه قد يكون مفيداً في **الفصال العظمي (Osteoarthritis)**، وذلك بدرجة تنبؤ مرتفعة (0.9964).
 لا توجد **تجارب سريرية** مسجّلة لهذه الدلالة، وتتوفر **20 منشوراً** معظمها دراسات مخبرية وحيوانية أو مراجعات عامة، ولذلك تبقى هذه الدلالة في مستوى **فرضية بحثية**.
 
 ---
@@ -48,12 +48,12 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 | البند | المحتوى |
 |------|------|
-| الدلالة الأصلية | التهاب المفاصل الروماتويدي (إضافة إلى التهاب القولون التقرحي وأمراض الأمعاء الالتهابية والتهاب المفاصل مجهول السبب لدى الأحداث والاعتلال الفقاري المفصلي) |
-| الدلالة الجديدة المتوقعة | الفصال العظمي (Osteoarthritis) |
-| درجة تنبؤ TxGNN | 99.64% |
-| مستوى الأدلة | L4 |
-| حالة التسويق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الدلالة الأصلية | غير مسجل في البيانات المحلية |
+| الدلالة الجديدة المتوقعة | Brachydactyly-syndactyly syndrome |
+| درجة تنبؤ TxGNN | 0.9994 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريّث) |
 
 > ملاحظة: يضم الترتيب الأعلى في التنبؤات متلازمات وراثية نادرة (مثل brachydactyly-syndactyly syndrome) بدرجات أعلى قليلاً، لكن لا يوجد لها أي دليل أو رابط آلية معقول (مستوى L5). لذلك اخترنا الفصال العظمي كأكثر الدلالات المتوقعة دعماً بالأدلة.
@@ -96,7 +96,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الدلالة المعتمدة |
 |---------|------|------|-----------|
-| SALAZOPYRIN-EN TAB 500MG | SALAZOPYRIN-EN TAB 500MG (ملغى) | غير متوفر | غير متوفر |
+| SALAZOPYRIN-EN TAB 500MG | SALAZOPYRIN-EN TAB 500MG (ساري) | غير متوفر | غير متوفر |
 
 ---
 

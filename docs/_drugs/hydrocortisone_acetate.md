@@ -4,7 +4,7 @@ title: Hydrocortisone Acetate
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 416
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Hydrocortisone Acetate: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L5). الاستطباب الأصلي: أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، والتضخم ا…"
 monitor_inn: "HYDROCORTISONE ACETATE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 |------|------|
 | الاستطباب الأصلي | أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، والتضخم الكظري الخلقي، وابيضاض الدم الليمفاوي الحاد) |
 | الاستطباب الجديد المتوقع | الثعلبة البقعية (Alopecia Areata) |
-| درجة تنبؤ TxGNN | 99.94% |
+| درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 (انظر التوضيح أدناه) |
-| وضع التسويق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 **ملاحظة حول مستوى الأدلة:** التجربة الوحيدة من المرحلة الثالثة مكتملة، لكن الهيدروكورتيزون 1% كان فيها ذراعاً مقارناً منخفض الفاعلية وليس العلاج قيد الدراسة، ولم تتوفر نتائج الفعالية. لذلك لا تستوفي الأدلة معيار L1 (تجربتان مكتملتان من المرحلة الثالثة) ولا L2، والأقرب تصنيفها L5 مع وجود سياق سريري محدود. أما التقييم الآلي المرفق للبيانات فأعطى L1، وهو لا يتسق مع القواعد المعتمدة.
@@ -91,13 +91,13 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ALFACORT 1% CREAM | ALFACORT 1% CREAM (Julphar) | كريم | غير متوفر (ملغى) |
-| RIACORT 1% cream | RIACORT 1% cream (Riyadh Pharma) | كريم | غير متوفر (ملغى) |
-| HYDROCORTISONE-TABUK 1% CREAM | HYDROCORTISONE-TABUK 1% CREAM (Tabuk) | كريم | غير متوفر (ملغى) |
-| ALFACORT 1% OINTMENT | ALFACORT 1% OINTMENT (Julphar) | مرهم | غير متوفر (ملغى) |
-| RIACORT | RIACORT (Riyadh Pharma) | غير محدد | غير متوفر (ملغى) |
+| ALFACORT 1% CREAM | ALFACORT 1% CREAM (Julphar) | كريم | غير متوفر (ساري) |
+| RIACORT 1% cream | RIACORT 1% cream (Riyadh Pharma) | كريم | غير متوفر (ساري) |
+| HYDROCORTISONE-TABUK 1% CREAM | HYDROCORTISONE-TABUK 1% CREAM (Tabuk) | كريم | غير متوفر (ساري) |
+| ALFACORT 1% OINTMENT | ALFACORT 1% OINTMENT (Julphar) | مرهم | غير متوفر (ساري) |
+| RIACORT | RIACORT (Riyadh Pharma) | غير محدد | غير متوفر (ساري) |
 
-يوجد ترخيص سادس ملغى أيضاً (CORTIDERM 1% CREAM من SPIMACO). جميع التراخيص الستة ملغاة، ولا يوجد حالياً منتج ساري المفعول.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الستة سارية المفعول (6 من 6).
 
 ---
 

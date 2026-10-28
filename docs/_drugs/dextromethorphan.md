@@ -4,17 +4,17 @@ title: Dextromethorphan
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 253
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Dextromethorphan: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "DEXTROMETHORPHAN"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 |------|------|
 | الاستطباب الأصلي | التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نزلات البرد، التهاب الأنف، التهاب البلعوم الأنفي، اضطراب الصداع (مصدرها الرسم المعرفي لنموذج TxGNN، وليس نص نشرة الدواء) |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.98% |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 9 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -70,11 +70,11 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 
 | المرض المتوقع | الدرجة | ملاحظة |
 |------|------|------|
-| التهاب الحنجرة والبلعوم الحاد | 99.98% | امتداد محتمل للاستخدام المعروف (تثبيط السعال العَرَضي) |
-| الدفتيريا الحلقية (faucial diphtheria) | 99.36% | احتمال كبير أن يكون إيجابياً كاذباً؛ فالدفتيريا عدوى سمّية تُعالج بالمصل المضاد للسم والمضادات الحيوية |
-| الصداع العنقودي الشبيه بالأعصاب الذاتية الثلاثية التوائم (trigeminal autonomic cephalalgia) | 99.32% | فرضية فقط: تأثير محتمل على التحسس المركزي للألم |
-| اضطراب تنكس القرص العنقي | 99.30% | لا رابط آلياً واضحاً ولا دعم |
-| الشرى التحسسي | 99.25% | غالباً مشتق من التهاب الأنف التحسسي؛ لا يوجد تأثير مضاد للهيستامين مثبت |
+| التهاب الحنجرة والبلعوم الحاد | 0.9998 | امتداد محتمل للاستخدام المعروف (تثبيط السعال العَرَضي) |
+| الدفتيريا الحلقية (faucial diphtheria) | 0.9936 | احتمال كبير أن يكون إيجابياً كاذباً؛ فالدفتيريا عدوى سمّية تُعالج بالمصل المضاد للسم والمضادات الحيوية |
+| الصداع العنقودي الشبيه بالأعصاب الذاتية الثلاثية التوائم (trigeminal autonomic cephalalgia) | 0.9932 | فرضية فقط: تأثير محتمل على التحسس المركزي للألم |
+| اضطراب تنكس القرص العنقي | 0.9930 | لا رابط آلياً واضحاً ولا دعم |
+| الشرى التحسسي | 0.9925 | غالباً مشتق من التهاب الأنف التحسسي؛ لا يوجد تأثير مضاد للهيستامين مثبت |
 
 ---
 
@@ -90,15 +90,15 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص التسعة ملغاة ولا يوجد ترخيص ساري. وبيانات الشكل الدوائي ونص الاستطباب المعتمد غير متوفرة في السجلات.
+الدواء مسوّق في هذا البلد، وجميع التراخيص التسعة سارية (9 تراخيص صالحة من أصل 9).
 
 | رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| CONTRASAL 15MG-5ML SYRUP | Hikma Pharmaceuticals PLC | ملغى |
-| TUSSILAR TAB | KAHIRA EYGEPT | ملغى |
-| RIAPHAN 15 mg per 5 ml | RIYADH PHARMA | ملغى |
-| ROMIN 15 MG-5 ML SYRUP | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| EXEDEXE 15MG\5ML SYRUP | Gulf Pharmaceutical Industries (Julphar) | ملغى |
+| CONTRASAL 15MG-5ML SYRUP | Hikma Pharmaceuticals PLC | ساري |
+| TUSSILAR TAB | KAHIRA EYGEPT | ساري |
+| RIAPHAN 15 mg per 5 ml | RIYADH PHARMA | ساري |
+| ROMIN 15 MG-5 ML SYRUP | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| EXEDEXE 15MG\5ML SYRUP | Gulf Pharmaceutical Industries (Julphar) | ساري |
 
 (عُرضت 5 تراخيص من أصل 9.)
 
@@ -127,7 +127,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 
 **المبررات:**
 - التنبؤ قائم على درجة النموذج فقط (مستوى L5) دون أي تجارب أو منشورات، ويتداخل على الأرجح مع الاستطبابات القائمة لالتهاب الأنف، فلا يمثل فرصة إعادة توظيف حقيقية.
-- لا يوجد ترخيص ساري للدواء في السعودية (9 تراخيص ملغاة)، كما أن بيانات السلامة من النشرة ناقصة، وهذا يمنع الانتقال إلى مرحلة فحص السلامة.
+- الدواء مسوّق في هذا البلد، وجميع التراخيص التسعة سارية (9 تراخيص صالحة من أصل 9).
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة الدواء المعتمدة (التحذيرات وموانع الاستعمال) من موقع هيئة الغذاء والدواء السعودية وتحليلها (فجوة حرجة).

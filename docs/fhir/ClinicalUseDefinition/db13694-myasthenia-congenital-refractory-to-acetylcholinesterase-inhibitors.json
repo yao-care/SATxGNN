@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db13694-myasthenia-congenital-refractory-to-acetylcholinesterase-inhibitors",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db13694"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://satxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9967
+    }
+  ]
+}

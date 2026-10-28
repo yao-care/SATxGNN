@@ -48,10 +48,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص المتاحة (الاستخدام المعروف: التخدير العام والتسكين) |
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.69% |
+| درجة تنبؤ TxGNN | 0.9969 |
 | مستوى الأدلة | L2 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 10 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
+| عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -95,15 +95,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص العشرة المسجّلة ملغاة، ولا يوجد ترخيص ساري حالياً. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات.
+الدواء مسوّق في هذا البلد، وجميع التراخيص العشرة (10 من 10) سارية. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| PROPOFOL 1% I.V INJ OR INFUSION | PROPOFOL 1% I.V INJ OR INFUSION | Fresenius Kabi | ملغى |
-| PROPOFOL-LIPURO 1% INJ OR INF AMPOULE | PROPOFOL-LIPURO 1% | B. Braun | ملغى |
-| Propoven | Propoven | Fresenius Kabi Austria | ملغى |
-| PROPOVEN 1% VIAL | PROPOVEN 1% VIAL | Fresenius Kabi | ملغى |
-| DIPRIVAN VIAL 10MG-ML | DIPRIVAN | Corden Pharma | ملغى |
+| PROPOFOL 1% I.V INJ OR INFUSION | PROPOFOL 1% I.V INJ OR INFUSION | Fresenius Kabi | ساري |
+| PROPOFOL-LIPURO 1% INJ OR INF AMPOULE | PROPOFOL-LIPURO 1% | B. Braun | ساري |
+| Propoven | Propoven | Fresenius Kabi Austria | ساري |
+| PROPOVEN 1% VIAL | PROPOVEN 1% VIAL | Fresenius Kabi | ساري |
+| DIPRIVAN VIAL 10MG-ML | DIPRIVAN | Corden Pharma | ساري |
 
 ---
 
@@ -129,7 +129,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية (SFDA) لاستخلاص التحذيرات وموانع الاستعمال، وهي ثغرة تمنع حالياً اجتياز فحص السلامة.
 - استكمال بيانات آلية العمل من DrugBank.
-- معالجة وضع الترخيص، إذ إن جميع التراخيص ملغاة، وبالتالي لا بد من مسار تسجيل أو توفير جديد.
+- وضع الترخيص: الدواء مسوّق في هذا البلد، و10 تراخيص سارية من أصل 10.
 - وضع بروتوكول مراقبة (مراقبة التنفس وضغط الدم) للاستخدام بجرعات دون تخديرية في الطوارئ، مع استبعاد المرضى ذوي الصرع أو هبوط الضغط أو الفشل التنفسي أو أمراض القلب التاجية.
 - تجربة عشوائية مضبوطة أكبر ومتعددة المراكز للبالغين.
 

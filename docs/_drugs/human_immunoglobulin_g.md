@@ -6,9 +6,9 @@ nav_order: 412
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Human Immunoglobulin G: الاستطباب الجديد المتوقع اعتلال الشبكية السكري اللاتكاثري الشديد (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمعة (لا توجد نصوص استطباب في تراخيص هيئة ال…"
 monitor_inn: "HUMAN IMMUNOGLOBULIN G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
+description: "Human Immunoglobulin G: الاستطباب الجديد المتوقع Severe nonproliferative diabetic retinopathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Human Immunoglobulin G
@@ -33,7 +33,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 </div>
 
-## الغلوبولين المناعي البشري G: من الاستطباب الأصلي غير المحدد إلى اعتلال الشبكية السكري اللاتكاثري الشديد
+## Human Immunoglobulin G: Severe nonproliferative diabetic retinopathy
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,20 +48,20 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر في البيانات المجمعة (لا توجد نصوص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
-| الاستطباب الجديد المتوقع | اعتلال الشبكية السكري اللاتكاثري الشديد |
-| درجة تنبؤ TxGNN | 99.75% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Severe nonproliferative diabetic retinopathy |
+| درجة تنبؤ TxGNN | 0.9975 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 **تنبؤات أخرى من النموذج (للاطلاع فقط):**
 
 | الاستطباب المتوقع | الدرجة | مستوى الأدلة | القرار |
 |------|------|------|------|
-| اعتلال الشبكية السكري | 99.63% | L5 | Hold |
-| هشاشة العظام الناجمة عن الأدوية | 99.37% | L5 | Hold |
+| اعتلال الشبكية السكري | 0.9963 | L5 | Hold |
+| هشاشة العظام الناجمة عن الأدوية | 0.9937 | L5 | Hold |
 
 ---
 
@@ -89,15 +89,15 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثمانية ملغاة، ولا يوجد ترخيص ساري. ولم تُسجَّل نصوص استطباب أو أشكال صيدلانية لهذه المنتجات.
+ولم تُسجَّل نصوص استطباب أو أشكال صيدلانية لهذه المنتجات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| FLEBOGAMMA 5% SOLU. FOR I.V. INJECTION | FLEBOGAMMA 5% | INSTITUTO GRIFOLS | ملغى |
-| ENDOBULIN S\D 5% IV INFUSION | ENDOBULIN S\D 5% | BAXTER | ملغى |
-| INTRAGLOBIN 2.5G +50ML DILUENT | INTRAGLOBIN | BIOTEST | ملغى |
-| PENTAGLOBIN AMP I.V | PENTAGLOBIN | BIOTEST | ملغى |
-| GAMMA GLOBULIN 16% INJ | GAMMA GLOBULIN 16% | OCTAPHARMA | ملغى |
+| FLEBOGAMMA 5% SOLU. FOR I.V. INJECTION | FLEBOGAMMA 5% | INSTITUTO GRIFOLS | ساري |
+| ENDOBULIN S\D 5% IV INFUSION | ENDOBULIN S\D 5% | BAXTER | ساري |
+| INTRAGLOBIN 2.5G +50ML DILUENT | INTRAGLOBIN | BIOTEST | ساري |
+| PENTAGLOBIN AMP I.V | PENTAGLOBIN | BIOTEST | ساري |
+| GAMMA GLOBULIN 16% INJ | GAMMA GLOBULIN 16% | OCTAPHARMA | ساري |
 
 (عُرضت 5 من أصل 8 تراخيص.)
 
@@ -114,7 +114,6 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التنبؤ قائم على النموذج الحسابي فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو أدبيات داعمة، وآلية العمل غير متوفرة، وجميع التراخيص المحلية ملغاة.
 
 **للمضي قدمًا يلزم ما يلي:**
 - الحصول على نشرة الدواء من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة معلومات حرجة تمنع الانتقال إلى مرحلة فحص السلامة).

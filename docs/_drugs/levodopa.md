@@ -50,10 +50,10 @@ predicted_indications: ["Rasmussen subacute encephalitis"]
 |------|------|
 | الاستطباب الأصلي | داء باركنسون (استنادًا إلى الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في التراخيص) |
 | الاستطباب الجديد المتنبأ به | التهاب دماغ راسموسن تحت الحاد |
-| درجة تنبؤ TxGNN | 99.06% |
+| درجة تنبؤ TxGNN | 0.9906 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 15 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,15 +82,15 @@ predicted_indications: ["Rasmussen subacute encephalitis"]
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ15 ملغاة، ولا يوجد ترخيص ساري. ولم تتوفر نصوص الاستطبابات المعتمدة ولا أشكال الجرعات. فيما يلي أبرز 5 تراخيص:
+جميع التراخيص الـ15 المسجلة سارية (15 ترخيصًا ساريًا من أصل 15)، والدواء مسوَّق في هذا البلد. ولم تتوفر نصوص الاستطبابات المعتمدة ولا أشكال الجرعات. فيما يلي أبرز 5 تراخيص:
 
 | رقم الترخيص / المنتج | اسم المنتج | الجهة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| MADOPAR 250 MG CAPS | MADOPAR 250 MG CAPS | ROCHE | ملغى |
-| DUODOPA intestinal gel | DUODOPA intestinal gel | FRESENIUS KABI NORGE AS | ملغى |
-| MADOPAR 125MG HBS CAPS | MADOPAR 125MG HBS CAPS | ROCHE | ملغى |
-| SINEMET-275 TAB | SINEMET-275 TAB | MERCK SHARP & DOHME | ملغى |
-| STALEVO 100-25-200MG FILM COATED TAB. | STALEVO 100-25-200MG FILM COATED TAB. | ORION PHARMA | ملغى |
+| MADOPAR 250 MG CAPS | MADOPAR 250 MG CAPS | ROCHE | ساري |
+| DUODOPA intestinal gel | DUODOPA intestinal gel | FRESENIUS KABI NORGE AS | ساري |
+| MADOPAR 125MG HBS CAPS | MADOPAR 125MG HBS CAPS | ROCHE | ساري |
+| SINEMET-275 TAB | SINEMET-275 TAB | MERCK SHARP & DOHME | ساري |
+| STALEVO 100-25-200MG FILM COATED TAB. | STALEVO 100-25-200MG FILM COATED TAB. | ORION PHARMA | ساري |
 
 ---
 

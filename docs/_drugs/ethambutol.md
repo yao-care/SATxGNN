@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ethambutol
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 324
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ethambutol: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
@@ -14,7 +14,7 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 # Ethambutol
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 |------|------|
 | الاستطباب الأصلي | السل الرئوي |
 | الاستطباب الجديد المتوقع | التهاب لسان المزمار (Epiglottitis) |
-| درجة توقع TxGNN | 99.90% |
-| مستوى الأدلة | L4 |
-| وضع السوق في السعودية | ملغاة فقط (لا تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| درجة توقع TxGNN | 0.9990 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -86,11 +86,11 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ETHAMBUTOL | ETHAMBUTOL (Nile Company for Pharmaceuticals) | غير محدد | غير متوفر (ملغى) |
-| MYAMBUTOL 400 MG. TABLETS | MYAMBUTOL 400 MG. TABLETS (Wyeth) | أقراص | غير متوفر (ملغى) |
-| AFIMOCIL 0.5 GM TAB | AFIMOCIL 0.5 GM TAB (Almirall Prodes Pharma) | أقراص | غير متوفر (ملغى) |
+| ETHAMBUTOL | ETHAMBUTOL (Nile Company for Pharmaceuticals) | غير محدد | غير متوفر (ساري) |
+| MYAMBUTOL 400 MG. TABLETS | MYAMBUTOL 400 MG. TABLETS (Wyeth) | أقراص | غير متوفر (ساري) |
+| AFIMOCIL 0.5 GM TAB | AFIMOCIL 0.5 GM TAB (Almirall Prodes Pharma) | أقراص | غير متوفر (ساري) |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد حالياً منتج ساري المفعول في السوق السعودي.
+الدواء مسوَّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية المفعول.
 
 ---
 
@@ -121,7 +121,7 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 **المبررات:**
 - لا توجد تجارب سريرية، والدليل الوحيد سلسلة حالات قديمة عن السل الحنجري، فيها الإيثامبوتول جزء من نظام متعدد الأدوية.
 - الدواء بلا نشاط ضد مسببات التهاب لسان المزمار الشائعة، والدرجة المرتفعة لا تعكس إشارة علاجية حقيقية.
-- لا يوجد ترخيص ساري في السعودية.
+- الدواء مسوَّق، ويوجد 3 تراخيص سارية من أصل 3.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة من الهيئة العامة للغذاء والدواء وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات تمنع المرور إلى فحص السلامة).

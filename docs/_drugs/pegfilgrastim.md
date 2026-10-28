@@ -49,10 +49,10 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغة) |
 | الاستطباب الجديد المتوقع | اعتلال الشبكية السكري غير التكاثري الشديد |
-| درجة تنبؤ TxGNN | 99.89% |
+| درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -63,7 +63,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 الصلة التخمينية: قد تدعم الخلايا السلفية المحشودة إصلاح الأوعية الدقيقة التالفة في الشبكية. غير أن تنشيط العدلات والالتهاب الناجم عن G-CSF، والتأثيرات المحتملة المحفّزة لتكوّن الأوعية، قد تزيد الأمراض الوعائية الشبكية سوءاً، لذلك فاتجاه التأثير غير مؤكد.
 
-لم يتم التحقق من أي آلية لهذا الاستطباب، ودرجة التنبؤ وحدها ليست دليلاً سريرياً. كما أن التنبؤ الثاني (اعتلال الشبكية السكري بوجه عام، بدرجة 99.73%) هو المرض الأم للتنبؤ الأول، فالتنبؤان ليسا دليلين مستقلين.
+لم يتم التحقق من أي آلية لهذا الاستطباب، ودرجة التنبؤ وحدها ليست دليلاً سريرياً. كما أن التنبؤ الثاني (اعتلال الشبكية السكري بوجه عام، بدرجة 0.9973) هو المرض الأم للتنبؤ الأول، فالتنبؤان ليسا دليلين مستقلين.
 
 ---
 
@@ -81,16 +81,16 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الستة ملغاة، ولا يوجد ترخيص ساري.
+جميع التراخيص الستة (6 من 6) سارية، والدواء مسوّق في هذا البلد.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| NEUCYTE | NEUCYTE | Biocon Limited | ملغى |
-| Neulastim Onpro | Neulastim Onpro | AMGEN MANUFACTURING LIMITED | ملغى |
-| Ziextenzo | Ziextenzo | SANDOZ | ملغى |
-| Fulphila | Fulphila | Biocon Limited | ملغى |
-| Grasustek 6 mg per 0.6 ml | Grasustek 6 mg per 0.6 ml | USV Private Limited Daman | ملغى |
-| NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | ROCHE | ملغى |
+| NEUCYTE | NEUCYTE | Biocon Limited | ساري |
+| Neulastim Onpro | Neulastim Onpro | AMGEN MANUFACTURING LIMITED | ساري |
+| Ziextenzo | Ziextenzo | SANDOZ | ساري |
+| Fulphila | Fulphila | Biocon Limited | ساري |
+| Grasustek 6 mg per 0.6 ml | Grasustek 6 mg per 0.6 ml | USV Private Limited Daman | ساري |
+| NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | NEULASTIM 6MG-0.6ML PRE-FILLED SYRINGE | ROCHE | ساري |
 
 ---
 
@@ -108,7 +108,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 **المبررات:**
 - مستوى الأدلة L5: الدعم الوحيد هو درجة نموذج التنبؤ، بلا تجارب سريرية أو أدبيات، واتجاه التأثير على الشبكية غير مؤكد وقد يكون ضاراً.
-- لا يوجد ترخيص ساري في السعودية، ويوجد عدد كبير من التداخلات الدوائية.
+- الدواء مسوّق في السعودية، مع 6 تراخيص سارية من أصل 6، ويوجد عدد كبير من التداخلات الدوائية.
 
 **للمضي قدماً يلزم ما يلي:**
 - إجراء بحث منهجي في الأدبيات وفي سجلات التجارب السريرية.

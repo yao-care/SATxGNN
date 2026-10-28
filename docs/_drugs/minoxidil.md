@@ -48,10 +48,10 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 |------|------|
 | الإشارة الأصلية | ارتفاع ضغط الدم، وتساقط الشعر (حسب الرسم المعرفي لـ TxGNN؛ لا يتوفر نص إشارة معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الإشارة الجديدة المتوقعة | قلة الشعر البسيطة في فروة الرأس |
-| درجة التنبؤ في TxGNN | 99.99% |
+| درجة التنبؤ في TxGNN | 1.0000 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 14 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -82,15 +82,15 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة عشر ملغاة، ولا يوجد ترخيص ساري. نصوص الإشارات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة. أبرز المنتجات الملغاة:
+جميع التراخيص الأربعة عشر (14 من 14) سارية، والدواء مسوَّق في السعودية. نصوص الإشارات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة. أبرز المنتجات:
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| REGAINE TOPICAL SOLN 2% | REGAINE TOPICAL SOLN 2% | ASM Aerosol-Service AG | ملغى |
-| Regaine Foam for Men 5% | Regaine Foam for Men 5% | ASM Aerosol-Service AG | ملغى |
-| REGAINE 5% TOPICAL SOLUTION | REGAINE 5% TOPICAL SOLUTION | ASM Aerosol-Service AG | ملغى |
-| MINOXIL 5% SOLUTION | MINOXIL 5% SOLUTION | Dallah Pharma Factory | ملغى |
-| HAIRAL 5% TOPICAL SOLUTION | HAIRAL 5% TOPICAL SOLUTION | JERASH PHARMACEUTICALS | ملغى |
+| REGAINE TOPICAL SOLN 2% | REGAINE TOPICAL SOLN 2% | ASM Aerosol-Service AG | ساري |
+| Regaine Foam for Men 5% | Regaine Foam for Men 5% | ASM Aerosol-Service AG | ساري |
+| REGAINE 5% TOPICAL SOLUTION | REGAINE 5% TOPICAL SOLUTION | ASM Aerosol-Service AG | ساري |
+| MINOXIL 5% SOLUTION | MINOXIL 5% SOLUTION | Dallah Pharma Factory | ساري |
+| HAIRAL 5% TOPICAL SOLUTION | HAIRAL 5% TOPICAL SOLUTION | JERASH PHARMACEUTICALS | ساري |
 
 ---
 
@@ -121,14 +121,14 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 **القرار: Hold (التريث)**
 
 **المبررات:**
-- التنبؤ عالي الدرجة ومعقول آلياً، لكن الأدلة تقتصر على تقارير حالات صغيرة تجمع المينوكسيديل مع علاجات أخرى (مستوى L4)، ولا توجد تجارب سريرية. كما أن جميع التراخيص في السعودية ملغاة، وبيانات السلامة من النشرة الدوائية غير مكتملة.
+- التنبؤ عالي الدرجة ومعقول آلياً، لكن الأدلة تقتصر على تقارير حالات صغيرة تجمع المينوكسيديل مع علاجات أخرى (مستوى L4)، ولا توجد تجارب سريرية. والدواء مسوَّق في السعودية (14 ترخيصاً سارياً من 14)، وبيانات السلامة من النشرة الدوائية غير مكتملة.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات حاجبة)
 - استكمال بيانات آلية العمل من DrugBank
 - إجراء دراسات تعزل أثر المينوكسيديل منفرداً في قلة الشعر البسيطة
 - وضع خطة لمراقبة السلامة القلبية الوعائية، خصوصاً مع الاستخدام الفموي
-- توضيح الوضع التنظيمي في السعودية بما أن جميع التراخيص ملغاة
+- توضيح الوضع التنظيمي في السعودية بما أن التراخيص سارية (14 من 14)
 
 ---
 

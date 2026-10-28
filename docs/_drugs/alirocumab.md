@@ -6,7 +6,7 @@ nav_order: 37
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Alirocumab: الاستطباب الجديد المتوقع الورام الأصفر (Xanthomatosis) (مستوى الدليل L4). الاستطباب الأصلي: خلل شحميات الدم المتلازمي، اضطراب تصلب الشرايين، التصلب العصيدي، تصلب…"
+description: "Alirocumab: الاستطباب الجديد المتوقع السماك المرتبط بالصبغي X دون نقص كبريتاتاز الستيرويد (ichthyosis, X-linked, without steroid sulfatase deficiency) (مستوى الدليل L4). الاستطباب الأصلي: خلل شحميات الدم المتلازمي، اضطراب تصلب الشرايين، التصلب العصيدي، تصلب…"
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficie
 
 </div>
 
-## أليروكوماب: من خلل شحميات الدم والتصلب العصيدي إلى الورام الأصفر (Xanthomatosis)
+## أليروكوماب: من خلل شحميات الدم والتصلب العصيدي إلى السماك المرتبط بالصبغي X دون نقص كبريتاتاز الستيرويد (ichthyosis, X-linked, without steroid sulfatase deficiency)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -51,10 +51,10 @@ predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficie
 |------|------|
 | المؤشر الأصلي | خلل شحميات الدم المتلازمي، اضطراب تصلب الشرايين، التصلب العصيدي، تصلب الشرينات (من رسوم المعرفة في TxGNN، إذ لا يتوفر نص مؤشر معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | المؤشر الجديد المتنبأ به | الورام الأصفر (Xanthomatosis) |
-| درجة تنبؤ TxGNN | 99.37% |
+| درجة تنبؤ TxGNN | 0.9937 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | مُلغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | تأجيل (Hold) مع اعتباره سؤالاً بحثياً |
 
 ---
@@ -84,7 +84,7 @@ predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficie
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الخمسة **ملغاة**، ولا يوجد نص مؤشر معتمد ولا شكل صيدلاني مسجل لها.
+جميع التراخيص الخمسة **سارية** (5 من 5)، ولا يوجد نص مؤشر معتمد ولا شكل صيدلاني مسجل لها.
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|

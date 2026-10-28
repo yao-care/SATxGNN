@@ -6,9 +6,9 @@ nav_order: 880
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Warfarin: الاستطباب الجديد المتوقع فرط التخثر الوراثي (Thrombophilia) (مستوى الدليل L5). الاستطباب الأصلي: الانصمام الرئوي، الأمراض الخثارية، الانصمام داخل الجمجمة"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Warfarin: الاستطباب الجديد المتوقع Heparin cofactor 2 deficiency (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Warfarin
@@ -33,7 +33,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 </div>
 
-## وارفارين: من الأمراض الانصمامية والتخثرية إلى فرط التخثر الوراثي (Thrombophilia)
+## Warfarin: Heparin cofactor 2 deficiency
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | الانصمام الرئوي، الأمراض الخثارية، الانصمام داخل الجمجمة |
-| المؤشر الجديد المتوقع | فرط التخثر الوراثي (Thrombophilia) |
-| درجة تنبؤ TxGNN | 99.75% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Heparin cofactor 2 deficiency |
+| درجة تنبؤ TxGNN | 0.9987 |
 | مستوى الدليل | L1 وفق التصنيف الوارد في البيانات (مع تحفظ: التجربة الوحيدة حالتها «غير معروفة» ودور وارفارين فيها غير واضح؛ لذلك فالدليل الفعلي أقرب إلى L3) |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | المضي مع ضوابط احترازية (Proceed with Guardrails) |
 
 ---
@@ -91,15 +91,15 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 ## معلومات السوق في السعودية
 
-لا توجد تراخيص سارية؛ جميع التراخيص الثمانية ملغاة. نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
+نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| COUFATEX 2 mg Tablet | COUFATEX 2 mg Tablet | APOTEX INC. | ملغى |
-| WARFARIN SODIUM 5 MG TAB | WARFARIN SODIUM 5 MG TAB | IVAX PHARMACEUTICALS | ملغى |
-| WARFARIN SODIUM 1MG TAB | WARFARIN SODIUM 1MG TAB | IVAX PHARMACEUTICALS | ملغى |
-| COUFATEX 1 mg Tablet | COUFATEX 1 mg Tablet | APOTEX INC. | ملغى |
-| COUMADIN | COUMADIN | Bristol-Myers Squibb | ملغى |
+| COUFATEX 2 mg Tablet | COUFATEX 2 mg Tablet | APOTEX INC. | ساري |
+| WARFARIN SODIUM 5 MG TAB | WARFARIN SODIUM 5 MG TAB | IVAX PHARMACEUTICALS | ساري |
+| WARFARIN SODIUM 1MG TAB | WARFARIN SODIUM 1MG TAB | IVAX PHARMACEUTICALS | ساري |
+| COUFATEX 1 mg Tablet | COUFATEX 1 mg Tablet | APOTEX INC. | ساري |
+| COUMADIN | COUMADIN | Bristol-Myers Squibb | ساري |
 
 ---
 
@@ -119,7 +119,6 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 **المبررات:**
 - وارفارين خيار معياري راسخ للوقاية الثانوية من الخثار الوريدي لدى مرضى فرط التخثر، والآلية معقولة. غير أن الدليل المباشر محدود: تجربة واحدة حالتها غير معروفة ودور وارفارين فيها غير مؤكد، ومعظم المنشورات مراجعات.
-- لا توجد تراخيص سارية في السعودية، وبيانات السلامة من النشرة الدوائية وآلية العمل غير متوفرة، ما يستوجب معالجتها قبل المضي قدماً.
 
 **للمضي قدماً يلزم:**
 - تنزيل وتحليل النشرة الدوائية من هيئة الغذاء والدواء السعودية (تحذيرات وموانع استعمال) — وهذه فجوة بيانات **مانعة** للانتقال إلى مرحلة فحص السلامة.

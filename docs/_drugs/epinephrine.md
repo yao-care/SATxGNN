@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 310
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Epinephrine: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (مستوى الدليل L1). الاستطباب الأصلي: الربو، التأق، التهاب الشعب الهوائية، انتفاخ الرئة، هبوط الضغط، الزرق…"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["obstructive lung disease", "food-dependent exercise-ind
 |------|------|
 | الاستطباب الأصلي | الربو، التأق، التهاب الشعب الهوائية، انتفاخ الرئة، هبوط الضغط، الزرق مفتوح الزاوية (من الرسم المعرفي لـ TxGNN؛ نصوص الاستطباب المرخصة في السعودية غير متوفرة) |
 | الاستطباب الجديد المتوقع | مرض الرئة الانسدادي |
-| درجة تنبؤ TxGNN | 99.71% |
-| مستوى الأدلة | L1 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 13 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9971 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 13 من 13) |
+| عدد التراخيص | 13 (السارية: 13) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -104,15 +104,15 @@ predicted_indications: ["obstructive lung disease", "food-dependent exercise-ind
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ13 **ملغاة**، ولا يوجد ترخيص ساري حالياً. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
+جميع التراخيص الـ13 **سارية** (13 ترخيصاً ساري المفعول من أصل 13)، والدواء مسوّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| EpiPen 300 mcg per 0.3 ml | EpiPen 300 mcg | Meridian Medical Technologies | ملغى |
-| EpiPen 150 mcg per 0.3 ml | EpiPen 150 mcg | Meridian Medical Technologies | ملغى |
-| JEXT | JEXT | ALK-Abelló | ملغى |
-| Aronep | Aronep | Tabuk Pharmaceutical | ملغى |
-| Adijet | Adijet | Saudi Pharmaceutical Industries | ملغى |
+| EpiPen 300 mcg per 0.3 ml | EpiPen 300 mcg | Meridian Medical Technologies | ساري |
+| EpiPen 150 mcg per 0.3 ml | EpiPen 150 mcg | Meridian Medical Technologies | ساري |
+| JEXT | JEXT | ALK-Abelló | ساري |
+| Aronep | Aronep | Tabuk Pharmaceutical | ساري |
+| Adijet | Adijet | Saudi Pharmaceutical Industries | ساري |
 
 ---
 

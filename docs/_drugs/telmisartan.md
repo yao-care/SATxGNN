@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Telmisartan
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 793
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Telmisartan: الاستطباب الجديد المتوقع انسداد الشريان الدماغي (Cerebral artery occlusion) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، السكتة الدماغية، الاحتشاء الدماغي"
+description: "Telmisartan: الاستطباب الجديد المتوقع ذبحة برنزميتال (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، السكتة الدماغية، الاحتشاء الدماغي"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 # Telmisartan
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 </div>
 
-## تيلميسارتان: من ارتفاع ضغط الدم إلى انسداد الشريان الدماغي
+## تيلميسارتان: من ارتفاع ضغط الدم إلى ذبحة برنزميتال
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -51,10 +51,10 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 |------|------|
 | المؤشر الأصلي | ارتفاع ضغط الدم، السكتة الدماغية، الاحتشاء الدماغي |
 | المؤشر الجديد المتنبأ به | انسداد الشريان الدماغي (Cerebral artery occlusion) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L3 (بيانات سريرية غير مباشرة ودراسات حيوانية كثيرة) |
-| وضع السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت، مع اعتباره سؤالاً بحثياً) |
 
 ---
@@ -98,15 +98,15 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد ترخيص ساري. ولم تتوفر نصوص المؤشرات المعتمدة أو أشكال الجرعات.
+جميع التراخيص الخمسة سارية (5 من 5). ولم تتوفر نصوص المؤشرات المعتمدة أو أشكال الجرعات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| MICARDIS 40 MG TAB | MICARDIS 40 MG TAB | Boehringer Ingelheim | ملغى |
-| MICARDIS 80 MG TAB | MICARDIS 80 MG TAB | Boehringer Ingelheim | ملغى |
-| NIZORTAN 40 mg Tablet | NIZORTAN 40 mg Tablet | Tabuk Pharmaceutical | ملغى |
-| NIZORTAN 80 mg Tablet | NIZORTAN 80 mg Tablet | Tabuk Pharmaceutical | ملغى |
-| Telfocus | Telfocus | Aurobindo Pharma | ملغى |
+| MICARDIS 40 MG TAB | MICARDIS 40 MG TAB | Boehringer Ingelheim | ساري |
+| MICARDIS 80 MG TAB | MICARDIS 80 MG TAB | Boehringer Ingelheim | ساري |
+| NIZORTAN 40 mg Tablet | NIZORTAN 40 mg Tablet | Tabuk Pharmaceutical | ساري |
+| NIZORTAN 80 mg Tablet | NIZORTAN 80 mg Tablet | Tabuk Pharmaceutical | ساري |
+| Telfocus | Telfocus | Aurobindo Pharma | ساري |
 
 ---
 
@@ -124,7 +124,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 **المبررات:**
 - الأدلة على انسداد الشريان الدماغي تقتصر في الغالب على دراسات حيوانية، والتجارب السريرية المدرجة إما وقائية عامة أو متوقفة بعدد مشاركين ضئيل، ولا توجد تجربة بشرية تختبر تيلميسارتان لعلاج الانسداد نفسه.
-- لا يوجد ترخيص ساري في السعودية، ولم تتوفر بيانات السلامة الرسمية من نشرة المنتج.
+- يوجد 5 تراخيص سارية من أصل 5 في السعودية، ولم تتوفر بيانات السلامة الرسمية من نشرة المنتج.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة المنتج (التحذيرات وموانع الاستعمال) من الهيئة العامة للغذاء والدواء.
@@ -138,15 +138,15 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 | المؤشر | درجة TxGNN | مستوى الأدلة | القرار | ملاحظة |
 |------|------|------|------|------|
-| ذبحة برنزميتال | 99.98% | L5 | Hold | تنبؤ فقط، بلا تجارب أو أدبيات |
-| احتشاء جذع الدماغ | 99.98% | L5 | Hold | معقول بيولوجياً لقربه من السكتة، لكن بلا أدلة خاصة |
-| داء النشواني ABri | 99.97% | L5 | Hold | مرض نادر جداً؛ لا أدلة |
-| ارتفاع ضغط الرئة (بسبب أمراض الرئة/نقص الأكسجة) | 99.93% | L4 | Hold | أدلة حيوانية غير مباشرة عن نقص الأكسجة المتقطع |
-| ارتفاع ضغط الرئة غير واضح الآلية | 99.93% | L5 | Hold | تنبؤ فقط |
-| ارتفاع الضغط الخبيث الكلوي الوعائي | 99.93% | L5 | Hold | معقول؛ لكن حاصرات ARB قد تسبب فشلاً كلوياً حاداً في تضيق الشريان الكلوي |
-| اعتلال الكلى بارتفاع الضغط الخبيث | 99.93% | L5 | Hold | معقول؛ يلزم تقييم وظائف الكلى وفرط البوتاسيوم |
-| نزف دماغي داخلي | 99.93% | L1 | Research Question | تجربة TRIDENT (المرحلة 3، 1671 مشاركاً) تستخدم حبة ثلاثية تضم تيلميسارتان؛ لا يمكن عزو التأثير إلى تيلميسارتان وحده، وهي للوقاية الثانوية لا للعلاج الحاد |
-| متلازمة براداك | 99.92% | L5 | Hold | تنبؤ فقط |
+| ذبحة برنزميتال | 0.9998 | L5 | Hold | تنبؤ فقط، بلا تجارب أو أدبيات |
+| احتشاء جذع الدماغ | 0.9998 | L5 | Hold | معقول بيولوجياً لقربه من السكتة، لكن بلا أدلة خاصة |
+| داء النشواني ABri | 0.9997 | L5 | Hold | مرض نادر جداً؛ لا أدلة |
+| ارتفاع ضغط الرئة (بسبب أمراض الرئة/نقص الأكسجة) | 0.9993 | L5 | Hold | أدلة حيوانية غير مباشرة عن نقص الأكسجة المتقطع |
+| ارتفاع ضغط الرئة غير واضح الآلية | 0.9993 | L5 | Hold | تنبؤ فقط |
+| ارتفاع الضغط الخبيث الكلوي الوعائي | 0.9993 | L5 | Hold | معقول؛ لكن حاصرات ARB قد تسبب فشلاً كلوياً حاداً في تضيق الشريان الكلوي |
+| اعتلال الكلى بارتفاع الضغط الخبيث | 0.9993 | L5 | Hold | معقول؛ يلزم تقييم وظائف الكلى وفرط البوتاسيوم |
+| نزف دماغي داخلي | 0.9993 | L5 | Research Question | تجربة TRIDENT (المرحلة 3، 1671 مشاركاً) تستخدم حبة ثلاثية تضم تيلميسارتان؛ لا يمكن عزو التأثير إلى تيلميسارتان وحده، وهي للوقاية الثانوية لا للعلاج الحاد |
+| متلازمة براداك | 0.9992 | L5 | Hold | تنبؤ فقط |
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 249
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "DEXKETOPROFEN"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
-description: "Dexketoprofen: الاستطباب الجديد المتوقع التهاب الأوتار (Tendinitis) (مستوى الدليل L4)."
+description: "Dexketoprofen: الاستطباب الجديد المتوقع التهاب الأوتار (tendinitis) (مستوى الدليل L5)."
 ---
 
 # Dexketoprofen
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Dexketoprofen: الاستطباب الجديد المتوقع ال
 
 </div>
 
-## ديكسكيتوبروفين: من مضاد التهاب غير ستيرويدي إلى التهاب الأوتار (Tendinitis)
+## Dexketoprofen: التهاب الأوتار (tendinitis)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,11 +47,11 @@ description: "Dexketoprofen: الاستطباب الجديد المتوقع ال
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الجديد المتوقع | التهاب الأوتار (Tendinitis) |
-| درجة توقع TxGNN | 99.90% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ترخيص ملغى فقط |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الجديد المتوقع | التهاب الأوتار (tendinitis) |
+| درجة توقع TxGNN | 0.9990 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,7 +82,7 @@ description: "Dexketoprofen: الاستطباب الجديد المتوقع ال
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| KETESSE 25MG F.C.TABLET | KETESSE 25MG F.C.TABLET | A. Menarini Industrie Farmaceutiche S.R.L | ملغى |
+| KETESSE 25MG F.C.TABLET | KETESSE 25MG F.C.TABLET | A. Menarini Industrie Farmaceutiche S.R.L | ساري |
 
 الترخيص الوحيد المسجل ملغى، ولا يوجد حالياً أي ترخيص ساري المفعول لهذا الدواء.
 
@@ -101,7 +101,7 @@ description: "Dexketoprofen: الاستطباب الجديد المتوقع ال
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التوقع النموذجي مرتفع جداً (99.90%)، لكنه غير مدعوم بأي تجربة سريرية، ولا يوجد سوى دراسة واحدة غير مباشرة.
+- التوقع النموذجي مرتفع جداً (0.9990)، لكنه غير مدعوم بأي تجربة سريرية، ولا يوجد سوى دراسة واحدة غير مباشرة.
 - الترخيص المحلي الوحيد ملغى، ومعلومات السلامة من نشرة العبوة غير متوفرة. ويُعدّ هذا النقص عائقاً أمام الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم:**

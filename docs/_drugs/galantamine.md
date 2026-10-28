@@ -48,10 +48,10 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 |------|------|
 | الاستطباب الأصلي | مرض الزهايمر |
 | الاستطباب الجديد المتنبأ به | اضطرابات الحركة ذات المنشأ النفسي (psychogenic movement disorders) |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -60,7 +60,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 لا تتوفر حالياً بيانات تفصيلية عن آلية العمل في البيانات المجمّعة. استناداً إلى المعلومات المعروفة، فالغالانتامين مثبط لإنزيم الأسيتيل كولينستراز ومعدِّل خيفي لمستقبلات الأسيتيل كولين النيكوتينية، وقد ثبتت فعاليته في أعراض مرض الزهايمر.
 
-أما بالنسبة لاضطرابات الحركة ذات المنشأ النفسي، فلا يوجد دليل يربط التعديل الكولينرجي بهذه الحالة. ويُرجَّح أن الدرجة المرتفعة تعكس قرب هذه الحالة من اضطرابات حركية أخرى في الرسم البياني المعرفي، لا وجود أساس آلي حقيقي.
+أما بالنسبة لاضطرابات الحركة النفسية المنشأ، فلا يوجد دليل يربط التعديل الكولينرجي بهذه الحالة. والدرجة المرتفعة (0.9990) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مترابطة، وليست دليلاً بيولوجياً.
 
 وللإحاطة، حصلت الاستطبابات المتنبأ بها الأخرى على درجات متقاربة (0.997–0.999). ومن بينها ما لديه أدلة غير مباشرة فقط:
 
@@ -85,13 +85,13 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| REMINYL 4MG TABLET | REMINYL 4MG TABLET (Janssen-Cilag) | — | ملغى |
-| REMINYL 8 MG PROLONGED RELEASE CAPSULE | REMINYL 8 MG PROLONGED RELEASE CAPSULE (Janssen-Cilag) | كبسولة ممتدة المفعول | ملغى |
-| REMINYL 4 MG - ML ORAL SOLUTION | REMINYL 4 MG/ML ORAL SOLUTION (Janssen Pharmaceutica) | محلول فموي | ملغى |
-| REMINYL 8MG TABLET | REMINYL 8MG TABLET (Janssen-Cilag) | — | ملغى |
-| REMINYL 24 MG PROLONGED RELEASE CAPSULE | REMINYL 24 MG PROLONGED RELEASE CAPSULE (Janssen-Cilag) | كبسولة ممتدة المفعول | ملغى |
+| REMINYL 4MG TABLET | REMINYL 4MG TABLET (Janssen-Cilag) | — | ساري |
+| REMINYL 8 MG PROLONGED RELEASE CAPSULE | REMINYL 8 MG PROLONGED RELEASE CAPSULE (Janssen-Cilag) | كبسولة ممتدة المفعول | ساري |
+| REMINYL 4 MG - ML ORAL SOLUTION | REMINYL 4 MG/ML ORAL SOLUTION (Janssen Pharmaceutica) | محلول فموي | ساري |
+| REMINYL 8MG TABLET | REMINYL 8MG TABLET (Janssen-Cilag) | — | ساري |
+| REMINYL 24 MG PROLONGED RELEASE CAPSULE | REMINYL 24 MG PROLONGED RELEASE CAPSULE (Janssen-Cilag) | كبسولة ممتدة المفعول | ساري |
 
-(جميع التراخيص السبعة ملغاة؛ عُرض خمسة منها فقط، ولا يتوفر نص استطباب معتمد.)
+(جميع التراخيص السبعة سارية؛ عُرض خمسة منها فقط، ولا يتوفر نص استطباب معتمد.)
 
 ---
 
@@ -118,7 +118,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (مستوى أدلة L5)، دون تجارب أو منشورات، ولا يوجد مسار آلي واضح يربط الغالانتامين باضطرابات الحركة ذات المنشأ النفسي.
-- لا يوجد ترخيص ساري في المملكة، كما أن بيانات السلامة الرسمية غير مكتملة.
+- الدواء مسوّق في المملكة، وتراخيصه السبعة سارية (7 من 7)، كما أن بيانات السلامة الرسمية غير مكتملة.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة حرجة تمنع الانتقال إلى فحص السلامة).

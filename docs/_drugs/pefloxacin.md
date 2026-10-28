@@ -5,10 +5,10 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Pefloxacin: الاستطباب الجديد المتوقع اضطرابات التوصيل القلبي (heart conduction disease) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص الاستطباب في الترخيص فارغ؛ الدواء مضاد حيوي من الفلوروك…"
+last_modified_at: 2026-10-28
 monitor_inn: "PEFLOXACIN"
 predicted_indications: ["heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum", "pericardium disease", "cor biloculare", "myocardial rupture", "heart aneurysm", "cardiac anomalies-heterotaxy syndrome", "carcinoid heart disease"]
+description: "Pefloxacin: الاستطباب الجديد المتوقع اضطرابات التوصيل القلبي (heart conduction disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pefloxacin
@@ -33,7 +33,7 @@ predicted_indications: ["heart conduction disease", "heart neoplasm", "heart val
 
 </div>
 
-## بيفلوكساسين: من مضاد حيوي (الاستطباب الأصلي غير مسجّل) إلى اضطرابات التوصيل القلبي
+## Pefloxacin: اضطرابات التوصيل القلبي (heart conduction disease)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["heart conduction disease", "heart neoplasm", "heart val
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر (نص الاستطباب في الترخيص فارغ؛ الدواء مضاد حيوي من الفلوروكينولونات) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
 | الاستطباب الجديد المتوقع | اضطرابات التوصيل القلبي (heart conduction disease) |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -62,11 +62,11 @@ predicted_indications: ["heart conduction disease", "heart neoplasm", "heart val
 
 تفتقر البيانات المُجمّعة حاليًا إلى تفاصيل آلية العمل. وبحسب المعلومات المعروفة، بيفلوكساسين فلوروكينولون يثبّط إنزيمي DNA gyrase وtopoisomerase IV لدى البكتيريا، وهو ما يفسّر نشاطه المضاد للجراثيم.
 
-لم يُحدَّد أي رابط آلي بين هذه الآلية واضطرابات التوصيل القلبي. بل إن الفلوروكينولونات معروفة بإطالة فترة QT، ما يعني أن العلاقة المحتملة هي **خطر سلامة** وليست فائدة علاجية. ودرجة TxGNN المرتفعة ناتجة عن تنبؤ قائم على الرسم البياني المعرفي، دون دعم سريري أو أدبي.
+لم يُحدَّد أي رابط آلي بين هذه الآلية واضطرابات التوصيل القلبي. بل إن الفلوروكينولونات معروفة بإطالة فترة QT، ما يعني أن العلاقة المحتملة هي **خطر سلامة** وليست فائدة علاجية. والدرجة المرتفعة صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض متصلة، وليست دليلاً بيولوجياً.
 
 ### التنبؤات الأخرى ضمن القائمة
 
-جميع التنبؤات العشرة الأعلى درجتها بين 99.85% و99.90%، ولم يظهر لأي منها مبرر آلي مقنع:
+جميع التنبؤات العشرة الأعلى درجتها بين 0.9985 و0.9990، ولم يظهر لأي منها مبرر آلي مقنع:
 
 | الترتيب | المرض المتوقع | مستوى الأدلة | الملاحظة |
 |---|---|---|---|
@@ -105,7 +105,7 @@ predicted_indications: ["heart conduction disease", "heart neoplasm", "heart val
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PEFLACINE 400MG COATED TAB | PEFLACINE 400MG COATED TAB (sanofi-aventis) | غير محدد | غير متوفر (الحالة: ملغى) |
+| PEFLACINE 400MG COATED TAB | PEFLACINE 400MG COATED TAB (sanofi-aventis) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

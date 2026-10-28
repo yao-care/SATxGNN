@@ -4,17 +4,17 @@ title: Xylometazoline
 parent: أدلة متوسطة (L3-L4)
 nav_order: 881
 evidence_level: L3
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Xylometazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L3). الاستطباب الأصلي: التهاب البلعoم (pharyngitis)، نزلة البرد (common cold)"
 monitor_inn: "Xylometazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Xylometazoline
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **2** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 |------|------|
 | الاستطباب الأصلي | التهاب البلعoم (pharyngitis)، نزلة البرد (common cold) |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.91% |
+| درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 19 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
+| عدد التراخيص | 19 (السارية: 19) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
@@ -89,15 +89,15 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص التسعة عشر المسجلة ملغاة، ولا يوجد ترخيص ساري. وفيما يلي أبرز خمسة منها (نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات):
+يوجد 19 ترخيصًا ساريًا من أصل 19 ترخيصًا مسجلًا. وفيما يلي أبرز خمسة منها (نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات):
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| OTRIVIN | OTRIVIN | نوفارتس | ملغى |
-| NAZIX NASAL DROPS 0.05% W-V | NAZIX NASAL DROPS 0.05% | سبيماكو | ملغى |
-| XYLOLIN 0.1% ADULT NASAL SPRAY | XYLOLIN 0.1% Adult Nasal Spray | الخليج للصناعات الدوائية (جلفار) | ملغى |
-| DECOZAL 0.05% NASAL DROPS | DECOZAL 0.05% Nasal Drops | عمّان للصناعات الدوائية | ملغى |
-| XYLO-MEPHA 0.05% NASAL SPRAY | XYLO-MEPHA 0.05% Nasal Spray | ميركل | ملغى |
+| OTRIVIN | OTRIVIN | نوفارتس | ساري |
+| NAZIX NASAL DROPS 0.05% W-V | NAZIX NASAL DROPS 0.05% | سبيماكو | ساري |
+| XYLOLIN 0.1% ADULT NASAL SPRAY | XYLOLIN 0.1% Adult Nasal Spray | الخليج للصناعات الدوائية (جلفار) | ساري |
+| DECOZAL 0.05% NASAL DROPS | DECOZAL 0.05% Nasal Drops | عمّان للصناعات الدوائية | ساري |
+| XYLO-MEPHA 0.05% NASAL SPRAY | XYLO-MEPHA 0.05% Nasal Spray | ميركل | ساري |
 
 ---
 
@@ -116,7 +116,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 **المبررات:**
 - توجد أدبيات سريرية متسقة آلياً (مستوى الأدلة L3) تدعم تأثير زايلوميتازولين في إزالة احتقان الأنف وتوسيع التجويف الأنفي، لكن بلا تجارب سريرية مسجلة، والفئة المستهدفة واسعة وغير محددة.
-- جميع التراخيص في السعودية ملغاة، مما يستلزم معالجة الوضع التنظيمي قبل أي استخدام.
+- الدواء مسوّق في السعودية، وجميع التراخيص المسجلة (19 من أصل 19) سارية.
 
 **للمضي قدماً يلزم ما يلي:**
 - تنزيل نشرة المنتج من موقع الهيئة العامة للغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال (فجوة معلومات تمنع اجتياز فحص السلامة).
@@ -127,7 +127,6 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 ---
 
-**ملاحظة بشأن التنبؤ الثاني:** يظهر في البيانات تنبؤ آخر هو «التهاب الحنجرة والبلعوم الحاد» بدرجة 99.89%، لكنه بلا أي تجارب سريرية أو أدبيات داعمة (مستوى الأدلة L5)، والتوصية الخاصة به **التريث (Hold)**.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

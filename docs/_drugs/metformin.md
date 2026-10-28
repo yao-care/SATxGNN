@@ -5,10 +5,10 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Metformin: الاستطباب الجديد المتوقع متلازمة الرجل المتيبس الكلاسيكية (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
+last_modified_at: 2026-10-28
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: الاستطباب الجديد المتوقع متلازمة الرجل المتيبس الكلاسيكية (classic stiff person syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 
 </div>
 
-## ميتفورمين: من داء السكري من النوع الثاني إلى متلازمة الرجل المتيبس الكلاسيكية
+## Metformin: متلازمة الرجل المتيبس الكلاسيكية (classic stiff person syndrome)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,11 +46,11 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء السكري من النوع الثاني |
-| الاستطباب الجديد المتنبأ به | متلازمة الرجل المتيبس الكلاسيكية |
-| درجة تنبؤ TxGNN | 99.45% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | متلازمة الرجل المتيبس الكلاسيكية (classic stiff person syndrome) |
+| درجة تنبؤ TxGNN | 0.9945 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا ترخيص ساريًا) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
 | عدد التراخيص | 17 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
@@ -64,11 +64,11 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 
 لا يوجد دليل مباشر يدعم هذه الفرضية، وينبغي التعامل معها على أنها تخمين قائم على الارتباط الشبكي.
 
-**ملاحظة على التنبؤات الأخرى:** حصلت متلازمة الطرف المتيبس البؤري (focal stiff limb syndrome) على الدرجة نفسها تمامًا (99.45%)، مما يرجّح أن التنبؤ ناتج عن تشابه الجوار الشبكي للأمراض من الطيف نفسه، لا عن إشارة خاصة بالميتفورمين. أما التنبؤات الثلاثة التالية فهي:
+**ملاحظة على التنبؤات الأخرى:** حصلت متلازمة الطرف المتيبس البؤري (focal stiff limb syndrome) على الدرجة نفسها تمامًا (0.9945)، مما يرجّح أن التنبؤ ناتج عن تشابه الجوار الشبكي للأمراض من الطيف نفسه، لا عن إشارة خاصة بالميتفورمين. أما التنبؤات الثلاثة التالية فهي:
 
-- **عسر التنسج العظمي (opsismodysplasia)** (99.40%): ارتباط مفاهيمي ضعيف عبر مسار الإنسولين/PI3K-AKT، دون دليل على فائدة في اضطراب نمو هيكلي.
-- **متلازمة الخلل المستجيب للثيامين** (99.40%): الارتباط على مستوى العَرَض (السكري) فقط، والعلاج الأساسي هو الثيامين.
-- **حثل الشحم الموضعي الناجم عن الأدوية** (99.06%): منطق غير مباشر عبر تحسين حساسية الإنسولين، دون أدلة خاصة بهذه الحالة.
+- **عسر التنسج العظمي (opsismodysplasia)** (0.9940): ارتباط مفاهيمي ضعيف عبر مسار الإنسولين/PI3K-AKT، دون دليل على فائدة في اضطراب نمو هيكلي.
+- **متلازمة الخلل المستجيب للثيامين** (0.9940): الارتباط على مستوى العَرَض (السكري) فقط، والعلاج الأساسي هو الثيامين.
+- **حثل الشحم الموضعي الناجم عن الأدوية** (0.9906): منطق غير مباشر عبر تحسين حساسية الإنسولين، دون أدلة خاصة بهذه الحالة.
 
 ---
 
@@ -86,15 +86,15 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ17 المسجلة ملغاة، ولا يوجد ترخيص ساري. فيما يلي أبرز 5 تراخيص (نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات):
+يوجد 17 ترخيصًا ساريًا لهذا الدواء في السوق. فيما يلي أبرز 5 تراخيص (نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات):
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| RIYADHFORMIN | RIYADHFORMIN | RIYADH PHARMA | ملغى |
-| GLUCARE 500MG TAB | GLUCARE 500MG TAB | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| Formit XR | Formit XR | SPIMACO ADDWAEIH | ملغى |
-| METFORMIN HEXAL 500 MG FILM COATED TABLETS | METFORMIN HEXAL 500 MG FILM COATED TABLETS | HEXAL | ملغى |
-| GLUCOPHAGE XR 750MG TABLET | GLUCOPHAGE XR 750MG TABLET | MERCK HEALTHCARE KGAA | ملغى |
+| RIYADHFORMIN | RIYADHFORMIN | RIYADH PHARMA | ساري |
+| GLUCARE 500MG TAB | GLUCARE 500MG TAB | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| Formit XR | Formit XR | SPIMACO ADDWAEIH | ساري |
+| METFORMIN HEXAL 500 MG FILM COATED TABLETS | METFORMIN HEXAL 500 MG FILM COATED TABLETS | HEXAL | ساري |
+| GLUCOPHAGE XR 750MG TABLET | GLUCOPHAGE XR 750MG TABLET | MERCK HEALTHCARE KGAA | ساري |
 
 ---
 

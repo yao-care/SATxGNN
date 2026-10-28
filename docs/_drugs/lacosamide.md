@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lacosamide
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 473
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lacosamide: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (يُستدل عليه من الأدبيات: نوبات الصرع ال…"
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide: الاستطباب الجديد المتوقع Manic bipolar affective disorder (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-## لاكوساميد: من الصرع إلى الصداع النصفي
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,12 +49,12 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر في بيانات التراخيص (يُستدل عليه من الأدبيات: نوبات الصرع الجزئية) |
-| الاستطباب الجديد المتوقع | اضطراب الصداع النصفي (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.87% |
-| مستوى الأدلة | L1 |
-| وضع السوق في السعودية | تراخيص ملغاة فقط |
-| عدد التراخيص | 12 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Manic bipolar affective disorder |
+| درجة تنبؤ TxGNN | 0.9996 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | المضي قدماً مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -97,15 +97,15 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ12 المسجلة ملغاة، ولا يوجد ترخيص ساري. نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
+نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| VIMPAT 100 mg film-coated tablet | VIMPAT 100 mg | Aesica Pharmaceuticals GmbH | ملغى |
-| VIMPAT 50 mg film-coated tablet | VIMPAT 50 mg | Aesica Pharmaceuticals GmbH | ملغى |
-| VIMPAT 150 mg film-coated tablet | VIMPAT 150 mg | Aesica Pharmaceuticals GmbH | ملغى |
-| VIMPAT 10 mg/ml SYRUP | VIMPAT شراب | Unither Manufacturing LLC | ملغى |
-| VIMPAT 10 mg/ml SOLUTION FOR INFUSION | VIMPAT محلول للتسريب | U.C.B. | ملغى |
+| VIMPAT 100 mg film-coated tablet | VIMPAT 100 mg | Aesica Pharmaceuticals GmbH | ساري |
+| VIMPAT 50 mg film-coated tablet | VIMPAT 50 mg | Aesica Pharmaceuticals GmbH | ساري |
+| VIMPAT 150 mg film-coated tablet | VIMPAT 150 mg | Aesica Pharmaceuticals GmbH | ساري |
+| VIMPAT 10 mg/ml SYRUP | VIMPAT شراب | Unither Manufacturing LLC | ساري |
+| VIMPAT 10 mg/ml SOLUTION FOR INFUSION | VIMPAT محلول للتسريب | U.C.B. | ساري |
 
 توجد تراخيص ملغاة إضافية (Lazure من تبوك للصناعات الدوائية بأربع تراكيز وأشكال، وTrepadio من الجزيرة للصناعات الدوائية، وLacosamide SPC من MSN Laboratories، وVimpat من Aesica).
 
@@ -133,13 +133,13 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 | المرض المتوقع | الدرجة | مستوى الأدلة | التوصية |
 |------|------|------|------|
-| اضطراب ثنائي القطب الهوسي | 99.96% | L3 | سؤال بحثي: دراسة أترابية رجعية لمدة 30 يوماً وتجربة مفتوحة صغيرة، مع إشارة سلامة (نقص العدلات) |
-| متلازمة توريت | 99.95% | L5 | تأجيل: الأدبيات تشير إلى حركات لاإرادية ناجمة عن مضادات الصرع |
-| متلازمة الألم اللفافي العضلي | 99.81% | L2 | سؤال بحثي: تجربة مرحلة 2 مكتملة (NCT00401830، 159 مشاركاً) في الألم العضلي الليفي، دون نتائج منشورة |
-| صداع نصفي مع نسمة جذع الدماغ | 99.82% | L4 | سؤال بحثي: أدلة غير مباشرة فقط |
-| الأرق | 99.83% | L5 | تأجيل: لا أدلة مباشرة، والنعاس من الآثار الشائعة |
-| الوسواس القهري | 99.78% | L5 | تأجيل: التجربة المرتبطة تخص الكحول |
-| الهوس الشعري، المتلازمة الكلوية لإفراز الهرمون المضاد للإدرار غير الملائم، التهاب الملتحمة الحليمي | 99.92% / 99.91% / 99.72% | L5 | تأجيل: تنبؤ فقط دون أدلة |
+| اضطراب ثنائي القطب الهوسي | 0.9996 | L5 | سؤال بحثي: دراسة أترابية رجعية لمدة 30 يوماً وتجربة مفتوحة صغيرة، مع إشارة سلامة (نقص العدلات) |
+| متلازمة توريت | 0.9995 | L5 | تأجيل: الأدبيات تشير إلى حركات لاإرادية ناجمة عن مضادات الصرع |
+| متلازمة الألم اللفافي العضلي | 0.9981 | L5 | سؤال بحثي: تجربة مرحلة 2 مكتملة (NCT00401830، 159 مشاركاً) في الألم العضلي الليفي، دون نتائج منشورة |
+| صداع نصفي مع نسمة جذع الدماغ | 0.9982 | L5 | سؤال بحثي: أدلة غير مباشرة فقط |
+| الأرق | 0.9983 | L5 | تأجيل: لا أدلة مباشرة، والنعاس من الآثار الشائعة |
+| الوسواس القهري | 0.9978 | L5 | تأجيل: التجربة المرتبطة تخص الكحول |
+| الهوس الشعري، المتلازمة الكلوية لإفراز الهرمون المضاد للإدرار غير الملائم، التهاب الملتحمة الحليمي | 0.9992 / 0.9991 / 0.9972 | L5 | تأجيل: تنبؤ فقط دون أدلة |
 
 ---
 
@@ -156,7 +156,6 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 - الحصول على نشرة الدواء المعتمدة من الهيئة العامة للغذاء والدواء السعودية لاستخراج التحذيرات وموانع الاستعمال (فجوة بيانات حرجة).
 - استكمال بيانات آلية العمل من DrugBank.
 - وضع خطة مراقبة للتوصيل القلبي (تخطيط القلب وفاصلة PR) وللتفاعلات الدوائية الكبرى.
-- معالجة الوضع التنظيمي: جميع التراخيص الحالية ملغاة، ما يستلزم إعادة تسجيل أو ترخيص قبل أي استخدام تجاري في السعودية.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

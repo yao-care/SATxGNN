@@ -6,7 +6,7 @@ nav_order: 291
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Efavirenz: الاستطباب الجديد المتوقع متلازمة نقص المناعة المكتسب القططية (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية / الإيدز (من رسوم المعرفة في TxGNN، إذ…"
+description: "إيفافيرينز: الاستطباب الجديد المتوقع هو متلازمة نقص المناعة المكتسبة القططية (feline acquired immunodeficiency syndrome) (مستوى الدليل L4، درجة نموذج TxGNN (التعلم العميق) 0.9980). قد تعكس الدرجة أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً."
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## إيفافيرينز: من عدوى فيروس نقص المناعة البشرية إلى متلازمة نقص المناعة المكتسب القططية
+## إيفافيرينز: متلازمة نقص المناعة المكتسبة القططية (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,10 +49,10 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 |------|------|
 | المؤشر الأصلي | عدوى فيروس نقص المناعة البشرية / الإيدز (من رسوم المعرفة في TxGNN، إذ لا يتوفر نص مؤشر معتمد في تراخيص الهيئة) |
 | المؤشر الجديد المتنبأ به | متلازمة نقص المناعة المكتسب القططية |
-| درجة تنبؤ TxGNN | 99.80% |
+| درجة تنبؤ TxGNN | 0.9980 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) |
 
 ---
@@ -89,7 +89,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|
-| Trivira | Trivira (الشركة المصنعة: Hetero Labs Limited Unit – III) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| Trivira | Trivira (الشركة المصنعة: Hetero Labs Limited Unit – III) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 
@@ -115,7 +115,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 **المبررات:**
 - التنبؤ المتصدر مؤشر بيطري، ولا يستند إلا إلى دراسة مخبرية واحدة لا تؤكد نشاط الدواء، مع غياب كامل للتجارب السريرية. والدرجة المرتفعة وحدها لا تكفي دليلًا.
-- لا يوجد ترخيص ساري في السعودية، ويضاف إلى ذلك كثرة التداخلات الدوائية وموانع الاستعمال المرتبطة بالأمراض.
+- يوجد في هذا البلد ترخيص ساري واحد من أصل ترخيص واحد، والدواء مسوّق، ويضاف إلى ذلك كثرة التداخلات الدوائية وموانع الاستعمال المرتبطة بالأمراض.
 
 **للمضي قدمًا يلزم:**
 - الحصول على الملخص الكامل للدراسة 38031646 أو نصها الكامل للتحقق من نشاط إيفافيرينز ضد إنزيم FIV

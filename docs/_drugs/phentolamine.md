@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phentolamine
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 651
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Phentolamine: الاستطباب الجديد المتوقع مرض الأوعية الدموية (الأعلى تقييمًا من حيث الأدلة بين التنبؤات العشرة… (مستوى الدليل L3). الاستطباب الأصلي: ورم القواتم في الغدة الكظرية، مرض الأوعية الطرفية، ا…"
 monitor_inn: "phentolamine"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
+description: "Phentolamine: الاستطباب الجديد المتوقع Visceral calciphylaxis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Phentolamine
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 </div>
 
-## فينتولامين: من الأورام الكظرية (ورم القواتم) والأمراض الوعائية الطرفية إلى مرض الأوعية الدموية
+## Phentolamine: Visceral calciphylaxis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,15 +46,15 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ورم القواتم في الغدة الكظرية، مرض الأوعية الطرفية، العرج المتقطع، نقص التروية الدماغية (وفق الرسم المعرفي لـ TxGNN) |
-| الاستطباب الجديد المتوقع | مرض الأوعية الدموية (الأعلى تقييمًا من حيث الأدلة بين التنبؤات العشرة؛ التنبؤ الأول حسب الترتيب هو التكلس الوعائي الحشوي) |
-| درجة تنبؤ TxGNN | 99.99% |
-| مستوى الأدلة | L3 |
-| وضع السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Visceral calciphylaxis |
+| درجة تنبؤ TxGNN | 1.0000 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا)، مع اعتباره سؤالًا بحثيًا |
 
-> ملاحظة: التنبؤ الأعلى ترتيبًا هو «التكلس الوعائي الحشوي» (درجة 99.995%) لكنه بلا أي أدلة (L5). اعتُمد «مرض الأوعية الدموية» محورًا للتقرير لأنه الوحيد الذي تتوافر له أدلة ذات معنى.
+> ملاحظة: التنبؤ الأعلى ترتيبًا هو «التكلس الوعائي الحشوي» (درجة 1.0000) لكنه بلا أي أدلة (L5). اعتُمد «مرض الأوعية الدموية» محورًا للتقرير لأنه الوحيد الذي تتوافر له أدلة ذات معنى.
 
 ---
 
@@ -108,7 +108,7 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 | رقم الترخيص | اسم المنتج | شكل الجرعة | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| REGITINE AMP | REGITINE AMP (الشركة: NOVARTIS) | غير متوافر | غير متوافر (الحالة: ملغى) |
+| REGITINE AMP | REGITINE AMP (الشركة: NOVARTIS) | غير متوافر | غير متوافر (الحالة: ساري) |
 
 ---
 

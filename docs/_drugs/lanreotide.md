@@ -49,10 +49,10 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 |------|------|
 | الاستطباب الأصلي | تضخم الأطراف (الأكروميغالي)، فرط نشاط الغدة النخامية، العملقة النخامية |
 | الاستطباب الجديد المتوقع | فرط الشعرانية (Hypertrichosis) |
-| درجة تنبؤ TxGNN | 99.97% |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | أُلغيت جميع التراخيص (لا ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -81,13 +81,13 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الثلاثة مُلغاة، ولا يوجد ترخيص ساري. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
+التراخيص الثلاثة جميعها سارية (3 من 3)، والدواء مسوَّق في هذا البلد. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| SOMATULINE AUTOGEL 120 MG SOLUTION FOR INJECTION IN PRE-FILLE | SOMATULINE AUTOGEL 120 MG | IPSEN PHARMA BIOTECH | ملغى |
-| SOMATULINE AUTOGEL 60 MG SOLUTION FOR INJECTION IN PRE-FILLE | SOMATULINE AUTOGEL 60 MG | IPSEN PHARMA BIOTECH | ملغى |
-| SOMATULINE AUTOGEL 90 MG SOLUTION FOR INJECTION IN PRE-FILLE | SOMATULINE AUTOGEL 90 MG | IPSEN PHARMA BIOTECH | ملغى |
+| SOMATULINE AUTOGEL 120 MG SOLUTION FOR INJECTION IN PRE-FILLE | SOMATULINE AUTOGEL 120 MG | IPSEN PHARMA BIOTECH | ساري |
+| SOMATULINE AUTOGEL 60 MG SOLUTION FOR INJECTION IN PRE-FILLE | SOMATULINE AUTOGEL 60 MG | IPSEN PHARMA BIOTECH | ساري |
+| SOMATULINE AUTOGEL 90 MG SOLUTION FOR INJECTION IN PRE-FILLE | SOMATULINE AUTOGEL 90 MG | IPSEN PHARMA BIOTECH | ساري |
 
 ---
 

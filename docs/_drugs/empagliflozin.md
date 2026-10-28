@@ -5,10 +5,10 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني (مأخوذ من الرسم المعرفي لـ TxGNN، إذ لا يت…"
+last_modified_at: 2026-10-28
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
+description: "Empagliflozin: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Empagliflozin
@@ -33,7 +33,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 </div>
 
-## إمباغليفلوزين: من داء السكري من النوع الثاني إلى متلازمة الطرف المتيبس البؤرية
+## Empagliflozin: متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء السكري من النوع الثاني (مأخوذ من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص الاستطباب في تراخيص الهيئة) |
-| الاستطباب الجديد المتنبأ به | متلازمة الطرف المتيبس البؤرية |
-| درجة تنبؤ TxGNN | 99.06% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | متلازمة الطرف المتيبس البؤرية (focal stiff limb syndrome) |
+| درجة تنبؤ TxGNN | 0.9906 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التأجيل) |
 
 ---
@@ -64,7 +64,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 أقرب تفسير محتمل للتنبؤ هو أن السكري المناعي الذاتي (إيجابية أضداد GAD65) يتزامن مع هذه الحالات، أي **مرض مصاحب مشترك** وليس مبرراً علاجياً. كما أن النموذج أعطى الدرجة نفسها تماماً (0.9906) لمتلازمة الشخص المتيبس الكلاسيكية، مما يدل على أنه يقيّم مجموعة الأمراض ككل وليس الأحياء الخاصة بالدواء.
 
-للعلم، تنبأ النموذج أيضاً بمتلازمة الشخص المتيبس الكلاسيكية (99.06%) وبخلل التنسج العظمي المعروف بـ Opsismodysplasia (99.03%)، وكلاهما بمستوى أدلة L5 دون أي دعم سريري.
+للعلم، تنبأ النموذج أيضاً بمتلازمة الشخص المتيبس الكلاسيكية (0.9906) وبخلل التنسج العظمي المعروف بـ Opsismodysplasia (0.9903)، وكلاهما بمستوى أدلة L5 دون أي دعم سريري.
 
 ---
 
@@ -84,8 +84,8 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| JARDIANCE 25 mg film-coated tablet | JARDIANCE 25 mg film-coated tablet (ROTTENDORF PHARMA GMBH) | أقراص مغلفة | غير متوفر | ملغى |
-| JARDIANCE 10 mg film-coated tablet | JARDIANCE 10 mg film-coated tablet (BOEHRINGER INGELHEIM) | أقراص مغلفة | غير متوفر | ملغى |
+| JARDIANCE 25 mg film-coated tablet | JARDIANCE 25 mg film-coated tablet (ROTTENDORF PHARMA GMBH) | أقراص مغلفة | غير متوفر | ساري |
+| JARDIANCE 10 mg film-coated tablet | JARDIANCE 10 mg film-coated tablet (BOEHRINGER INGELHEIM) | أقراص مغلفة | غير متوفر | ساري |
 
 ---
 

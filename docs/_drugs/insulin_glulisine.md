@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 442
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Insulin Glulisine: الاستطباب الجديد المتوقع داء السكري من النوع الأول (مستوى الدليل L2). الاستطباب الأصلي: داء السكري (Diabetes mellitus) والحماض الكيتوني السكري"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: الاستطباب الجديد المتوقع Thiamine-responsive dysfunction syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 
 </div>
 
-## إنسولين غلوليزين: من داء السكري والحماض الكيتوني السكري إلى داء السكري من النوع الأول
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء السكري (Diabetes mellitus) والحماض الكيتوني السكري |
-| الاستطباب الجديد المتوقع | داء السكري من النوع الأول |
-| درجة تنبؤ TxGNN | 99.55% |
-| مستوى الأدلة | L2 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 2 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Thiamine-responsive dysfunction syndrome |
+| درجة تنبؤ TxGNN | 0.9947 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -62,7 +62,7 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 
 لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. وبحسب المعلومات المعروفة، فإن إنسولين غلوليزين نظير إنسولين بشري سريع المفعول، يعوّض نقص الإنسولين الذاتي ويخفض سكر الدم بعد الوجبات.
 
-يُعدّ داء السكري من النوع الأول استطباباً أساسياً للدواء، وهو ضمن مفهوم "داء السكري" المسجَّل كاستطباب أصلي. لذلك فإن درجة TxGNN المرتفعة (0.996) تنسجم مع الاستخدام المعروف، ولا تمثّل اكتشافاً جديداً.
+يُعدّ داء السكري من النوع الأول استطباباً أساسياً للدواء، وهو ضمن مفهوم "داء السكري" المسجَّل كاستطباب أصلي.
 
 ملاحظة: تضمّنت التنبؤات الأخرى للنموذج (مثل متلازمة الشخص المتيبس، والتهاب المبيض المناعي الذاتي، وحثل الشحم الموضعي) أمراضاً مرتبطة بالسكري من النوع الأول كأمراض مصاحبة، أو مرتبطة بأعراض جانبية للحقن، وليس بآلية علاجية. ولا توجد أدلة سريرية تدعمها.
 
@@ -106,8 +106,8 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| APIDRA 100 U- ML Injection* | APIDRA 100 U- ML Injection* | غير محدد | غير متوفر (ترخيص ملغى) |
-| APIDRA SOLOSTAR 100 U- ML DISPOSABLE PEN | APIDRA SOLOSTAR 100 U- ML DISPOSABLE PEN | غير محدد | غير متوفر (ترخيص ملغى) |
+| APIDRA 100 U- ML Injection* | APIDRA 100 U- ML Injection* | غير محدد | غير متوفر (ترخيص ساري) |
+| APIDRA SOLOSTAR 100 U- ML DISPOSABLE PEN | APIDRA SOLOSTAR 100 U- ML DISPOSABLE PEN | غير محدد | غير متوفر (ترخيص ساري) |
 
 الشركة المصنّعة لكليهما: sanofi-aventis. وقد أُلغي الترخيصان، فلا توجد حالياً تراخيص سارية.
 

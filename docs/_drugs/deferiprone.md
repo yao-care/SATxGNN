@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Deferiprone
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 236
-evidence_level: L5
-indication_count: 9
+evidence_level: L4
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Deferiprone: الاستطباب الجديد المتوقع البورفيريا الكبدية (hepatic porphyria) (مستوى الدليل L5). الاستطباب الأصلي: فرط الحديد (الهيموسيديروزس) والثلاسيميا بيتا وأمراض الهيموغلوبين (است…"
 monitor_inn: "DEFERIPRONE"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis",
 # Deferiprone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis",
 |------|------|
 | الاستطباب الأصلي | فرط الحديد (الهيموسيديروزس) والثلاسيميا بيتا وأمراض الهيموغلوبين (استنادًا إلى الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | البورفيريا الكبدية (hepatic porphyria) |
-| درجة تنبؤ TxGNN | 99.20% |
+| درجة تنبؤ TxGNN | 0.9920 |
 | مستوى الأدلة | L4 (دراسات ما قبل سريرية فقط) |
-| وضع التسويق في السعودية | جميع التراخيص ملغاة (Cancelled only) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (الانتظار) |
 
 ---
@@ -85,8 +85,8 @@ predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis",
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| FERRIPROX 500MG F.C.TABLET | FERRIPROX 500MG F.C.TABLET (APOTEX) | غير متوفر | غير متوفر (الترخيص ملغى) |
-| FERRIPROX 100MG/ML ORAL SOLUTION | FERRIPROX 100MG/ML ORAL SOLUTION (APOTEX) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| FERRIPROX 500MG F.C.TABLET | FERRIPROX 500MG F.C.TABLET (APOTEX) | غير متوفر | غير متوفر (الترخيص ساري) |
+| FERRIPROX 100MG/ML ORAL SOLUTION | FERRIPROX 100MG/ML ORAL SOLUTION (APOTEX) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lomitapide
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 510
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Lomitapide: الاستطباب الجديد المتوقع فرط شحميات البروتين في الدم (الأعلى ترتيباً مع وجود أدلة؛ أما الاستطب… (مستوى الدليل L5). الاستطباب الأصلي: فرط كوليسترول الدم العائلي المتماثل الزيجوت (من الاستط…"
 monitor_inn: "Lomitapide"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
+description: "Lomitapide: الاستطباب الجديد المتوقع Marcothrombocytopenia with mitral valve insufficiency (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency",
 
 </div>
 
-## لوميتابيد: من فرط كوليسترول الدم العائلي المتماثل الزيجوت إلى فرط شحميات البروتين في الدم
+## Lomitapide: Marcothrombocytopenia with mitral valve insufficiency
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency",
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فرط كوليسترول الدم العائلي المتماثل الزيجوت (من الاستطبابات المسجلة في قاعدة المعرفة، إذ لا يوجد نص استطباب في ترخيص المملكة) |
-| الاستطباب الجديد المتنبأ به | فرط شحميات البروتين في الدم (الأعلى ترتيباً مع وجود أدلة؛ أما الاستطبابات الثمانية الأعلى درجة في النموذج فهي اضطرابات صفائحية دون أي أدلة) |
-| درجة تنبؤ TxGNN | 99.74% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Marcothrombocytopenia with mitral valve insufficiency |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L1 (وفق تصنيف البيانات؛ انظر الملاحظة أدناه) |
-| حالة السوق في السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 
 > **ملاحظة حول مستوى الأدلة:** صُنّف المستوى L1 في البيانات المجمّعة، لكن التجارب المكتملة من المرحلة الثالثة كلها ذات ذراع واحد ومفتوحة التسمية وغير عشوائية، وبأعداد صغيرة (9 إلى 46 مريضاً). لذلك فهذا المستوى يُقرأ بحذر، ولا يعادل أدلة تجارب عشوائية مضبوطة.

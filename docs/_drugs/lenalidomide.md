@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 488
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Lenalidomide: الاستطباب الجديد المتوقع سرطان الدم النقوي (myeloid leukemia) (مستوى الدليل L2). الاستطباب الأصلي: ورم الخلايا البلازمية (الورم النقوي المتعدد)، ليمفوما الخلايا الوشاحي…"
 monitor_inn: "LENALIDOMIDE"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood",
 |------|------|
 | الاستطباب الأصلي | ورم الخلايا البلازمية (الورم النقوي المتعدد)، ليمفوما الخلايا الوشاحية، ورم الخلايا البائية، متلازمات خلل التنسج النقوي (مصدرها الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطباب مرخّص في بيانات الهيئة) |
 | الاستطباب الجديد المتوقع | سرطان الدم النقوي (myeloid leukemia) |
-| درجة تنبؤ TxGNN | 99.49% |
+| درجة تنبؤ TxGNN | 0.9949 |
 | مستوى الأدلة | L2 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 17 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 من 17) |
+| عدد التراخيص | 17 (السارية: 17) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---

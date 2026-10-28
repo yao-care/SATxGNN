@@ -4,17 +4,17 @@ title: Magnesium Carbonate
 parent: أدلة متوسطة (L3-L4)
 nav_order: 523
 evidence_level: L4
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Magnesium Carbonate: الاستطباب الجديد المتوقع القرحة الهضمية النشطة (مستوى الدليل L4). الاستطباب الأصلي: مرض القرحة الهضمية، ارتجاع المريء، التهاب المريء، عسر الهضم، الإمساك…"
 monitor_inn: "magnesium carbonate"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
+description: "Magnesium Carbonate: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Magnesium Carbonate
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach 
 
 </div>
 
-## كربونات المغنيسيوم: من مرض القرحة الهضمية إلى القرحة الهضمية النشطة
+## Magnesium Carbonate: Gastroduodenitis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | مرض القرحة الهضمية، ارتجاع المريء، التهاب المريء، عسر الهضم، الإمساك (من الرسم البياني المعرفي، إذ لا يتوفر نص مرخّص من الهيئة) |
-| الاستطباب الجديد المتوقع | القرحة الهضمية النشطة |
-| درجة تنبؤ TxGNN | 99.96% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Gastroduodenitis |
+| درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | مُلغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -84,8 +84,8 @@ predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach 
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| RENNIE TAB | RENNIE TAB (الشركة المصنّعة: DELPHARM GAILLARD) | غير متوفر | غير متوفر (الترخيص ملغى) |
-| NOVAGEL TAB | NOVAGEL TAB (الشركة المصنّعة: APM) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| RENNIE TAB | RENNIE TAB (الشركة المصنّعة: DELPHARM GAILLARD) | غير متوفر | غير متوفر (الترخيص ساري) |
+| NOVAGEL TAB | NOVAGEL TAB (الشركة المصنّعة: APM) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 
@@ -109,7 +109,6 @@ predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach 
 
 **المبررات:**
 - التوقع يتداخل مع الاستطباب الأصلي، والدليل الوحيد دراسة مخبرية غير مباشرة، دون أي تجربة سريرية (مستوى الدليل L4).
-- لا توجد تراخيص سارية في السعودية (كلاهما ملغى)، وبيانات السلامة من النشرة غير متوفرة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء من موقع هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال، وهي فجوة حرجة تمنع الانتقال إلى مرحلة فحص السلامة.

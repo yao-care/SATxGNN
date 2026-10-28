@@ -4,7 +4,7 @@ title: Sebelipase Alfa
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 746
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Sebelipase Alfa: الاستطباب الجديد المتوقع متلازمة شاي (Scheie syndrome) (مستوى الدليل L5). الاستطباب الأصلي: مرض وولمان، ونقص الليباز الحمضي الليزوزومي، واضطراب تخزين الدهون اللي…"
 monitor_inn: "SEBELIPASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 # Sebelipase Alfa
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 |------|------|
 | الاستطباب الأصلي | مرض وولمان، ونقص الليباز الحمضي الليزوزومي، واضطراب تخزين الدهون الليزوزومي |
 | الاستطباب الجديد المتوقع | متلازمة شاي (Scheie syndrome) |
-| درجة توقع TxGNN | 99.80% |
+| درجة توقع TxGNN | 0.9980 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ✗ ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -83,7 +83,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| KANUMA | KANUMA (الشركة المصنّعة: Patheon Italia S.P.A.، الحالة: ملغى) | — | — |
+| KANUMA | KANUMA (الشركة المصنّعة: Patheon Italia S.P.A.، الحالة: ساري) | — | — |
 
 ---
 

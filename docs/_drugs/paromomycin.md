@@ -6,9 +6,9 @@ nav_order: 632
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Paromomycin: الاستطباب الجديد المتوقع تليّف الكبد المرتبط بالنحاس مجهول السبب (مستوى الدليل L5). الاستطباب الأصلي: الغيبوبة الكبدية / اعتلال الدماغ الكبدي (من رسم المعرفة في TxGNN، ولي…"
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
+description: "Paromomycin: الاستطباب الجديد المتوقع Idiopathic copper-associated cirrhosis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Paromomycin
@@ -33,7 +33,7 @@ predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive por
 
 </div>
 
-## باروموميسين: من الغيبوبة الكبدية إلى تليّف الكبد المرتبط بالنحاس مجهول السبب
+## Paromomycin: Idiopathic copper-associated cirrhosis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive por
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الغيبوبة الكبدية / اعتلال الدماغ الكبدي (من رسم المعرفة في TxGNN، وليس من نص مرخّص) |
-| الاستطباب الجديد المتنبَّأ به | تليّف الكبد المرتبط بالنحاس مجهول السبب |
-| درجة تنبؤ TxGNN | 99.90% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبَّأ به | Idiopathic copper-associated cirrhosis |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,8 +84,8 @@ predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive por
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| GABBRORAL SYRUP | GABBRORAL SYRUP (فايزر، ملغى) | غير محدد | غير محدد |
-| GABBRORAL TAB 250MG | GABBRORAL TAB 250MG (فايزر، ملغى) | غير محدد | غير محدد |
+| GABBRORAL SYRUP | GABBRORAL SYRUP (فايزر، ساري) | غير محدد | غير محدد |
+| GABBRORAL TAB 250MG | GABBRORAL TAB 250MG (فايزر، ساري) | غير محدد | غير محدد |
 
 ---
 
@@ -109,7 +109,7 @@ predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive por
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (L5)، بلا تجارب سريرية ولا أدبيات، ولا يوجد رابط آلي معقول بين الدواء والمرض.
-- لا يوجد ترخيص ساري في السعودية، وبيانات السلامة من نشرة الدواء غير متوفرة، وهناك موانع استعمال كلوية وسمعية مستمدة من رسم المعرفة.
+- الدواء مسوّق في السعودية، ويوجد ترخيصان ساريان من أصل ترخيصين، وبيانات السلامة من نشرة الدواء غير متوفرة، وهناك موانع استعمال كلوية وسمعية مستمدة من رسم المعرفة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء من هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال، وهو متطلب أساسي قبل أي فحص سلامة.

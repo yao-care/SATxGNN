@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 565
-evidence_level: L5
-indication_count: 8
+evidence_level: L1
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Mitoxantrone: الاستطباب الجديد المتوقع أورام الرأس والعنق (head and neck cancer) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النخاعي الحاد وأنواعه الفرعية (لا يتوفر نص مؤشر معتمد في…"
+description: "Mitoxantrone: الاستطباب الجديد المتوقع أورام المسالك الهوائية الهضمية العليا (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النخاعي الحاد وأنواعه الفرعية (لا يتوفر نص مؤشر معتمد في…"
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 # Mitoxantrone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 
 </div>
 
-## ميتوكسانترون: من سرطان الدم النخاعي الحاد إلى أورام الرأس والعنق
+## ميتوكسانترون: من سرطان الدم النخاعي الحاد إلى أورام المسالك الهوائية الهضمية العليا
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 |------|------|
 | المؤشر الأصلي | ابيضاض الدم النخاعي الحاد وأنواعه الفرعية (لا يتوفر نص مؤشر معتمد في تراخيص السوق السعودي؛ المؤشر مأخوذ من الرسم المعرفي للنموذج) |
 | المؤشر الجديد المتنبأ به | أورام الرأس والعنق (head and neck cancer) |
-| درجة تنبؤ TxGNN | 99.31% |
+| درجة تنبؤ TxGNN | 0.9931 |
 | مستوى الأدلة | L1 وفق التصنيف المُعدّ للبيانات؛ **تنبيه:** هذا المستوى لا يستند إلى مرحلة ثالثة مكتملة في أورام الرأس والعنق، فالتجارب المباشرة إما مبكرة (Ib) أو لم تبدأ التجنيد بعد، وبالتطبيق الصارم للقواعد يُقدَّر المستوى بين L3 وL4 |
-| حالة السوق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 2 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المضي مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -98,8 +98,8 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|
-| MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU | MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU (الشركة المصنّعة: Fareva Unterach GmbH) | غير متوفر | غير متوفر (الترخيص ملغى) |
-| NOVANTRONE VIAL 2MG-ML | NOVANTRONE VIAL 2MG-ML (الشركة المصنّعة: LEDERLE) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU | MITOXANTRON EBEWE 2MG-1ML SOL. FOR INFU (الشركة المصنّعة: Fareva Unterach GmbH) | غير متوفر | غير متوفر (الترخيص ساري) |
+| NOVANTRONE VIAL 2MG-ML | NOVANTRONE VIAL 2MG-ML (الشركة المصنّعة: LEDERLE) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 
@@ -131,7 +131,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 
 **المبررات:**
 - توجد دراسات مرحلة ثانية قديمة بنشاط محدود، وتطوير سريري حديث ونشط للشكل الشحمي (مرحلة Ib مكتملة وتجارب لاحقة قيد التجنيد أو مخططة)، لكن لا توجد بعد بيانات فعالية مؤكِّدة من المرحلة الثالثة.
-- الدواء غير مرخص حالياً في السعودية (جميع التراخيص ملغاة)، فأي استخدام يتطلب مسار ترخيص جديداً.
+- الدواء مسوّق حالياً في السعودية (2 تراخيص سارية من أصل 2)، وأي استخدام جديد يتطلب مسار ترخيص جديداً.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية لاستكمال بيانات التحذيرات وموانع الاستعمال (فجوة بيانات حاجبة لمرحلة فحص السلامة).

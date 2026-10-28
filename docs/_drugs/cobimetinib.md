@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 210
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cobimetinib: الاستطباب الجديد المتوقع التصلب الجانبي الضموري (amyotrophic lateral sclerosis) (مستوى الدليل L5). الاستطباب الأصلي: الورم الميلانيني النقيلي"
 monitor_inn: "COBIMETINIB"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 |------|------|
 | الاستطباب الأصلي | الورم الميلانيني النقيلي |
 | الاستطباب الجديد المتنبأ به | التصلب الجانبي الضموري (amyotrophic lateral sclerosis) |
-| درجة تنبؤ TxGNN | 99.73% |
+| درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,7 +84,7 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| COTELLIC 20 mg film-coated tablet | COTELLIC 20 mg film-coated tablet (الشركة المصنّعة: ROCHE) | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ حالة الترخيص: ملغى |
+| COTELLIC 20 mg film-coated tablet | COTELLIC 20 mg film-coated tablet (الشركة المصنّعة: ROCHE) | أقراص مغلفة (حسب اسم المنتج) | غير متوفر؛ حالة الترخيص: ساري |
 
 ---
 
@@ -115,7 +115,7 @@ predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal
 
 **المبررات:**
 - التنبؤ يستند إلى نموذج حسابي فقط (مستوى أدلة L5)، بلا تجارب سريرية أو أدبيات، مع محدودية نفاذية الدواء إلى الجهاز العصبي المركزي وسمّية ملحوظة.
-- لا يوجد ترخيص ساري في السعودية (الترخيص الوحيد ملغى).
+- الدواء مسوّق في هذا البلد، ولديه ترخيص ساري واحد من أصل ترخيص واحد.
 
 **للمضيّ قدماً يلزم ما يلي:**
 - الحصول على بيانات آلية العمل التفصيلية (MOA).

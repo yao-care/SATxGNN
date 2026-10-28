@@ -4,7 +4,7 @@ title: Brigatinib
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 116
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Brigatinib: الاستطباب الجديد المتوقع تليف اللثة الورمي (Fibromatosis, Gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة"
 monitor_inn: "BRIGATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Brigatinib
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 |------|------|
 | الاستطباب الأصلي | سرطان الرئة غير صغير الخلايا / سرطان الرئة |
 | الاستطباب الجديد المتنبأ به | تليف اللثة الورمي (Fibromatosis, Gingival) |
-| درجة تنبؤ TxGNN | 99.89% |
+| درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -84,7 +84,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ALUNBRIG | ALUNBRIG (الشركة المصنعة: TAKEDA AUSTRIA GmbH) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| ALUNBRIG | ALUNBRIG (الشركة المصنعة: TAKEDA AUSTRIA GmbH) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 

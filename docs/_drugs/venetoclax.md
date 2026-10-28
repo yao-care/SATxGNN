@@ -4,17 +4,17 @@ title: Venetoclax
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 864
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Venetoclax: الاستطباب الجديد المتوقع ابيضاض الدم الليمفاوي المزمن/الورم اللمفاوي الصغير مع طفرة جسدية في I… (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد؛ متلازمة ريختر"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: الاستطباب الجديد المتوقع Hodgkins lymphoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 
 </div>
 
-## فينيتوكلاكس (Venetoclax): من ابيضاض الدم الليمفاوي الحاد ومتلازمة ريختر إلى ابيضاض الدم الليمفاوي المزمن/الورم اللمفاوي الصغير مع طفرة جسدية في جين السلسلة الثقيلة للغلوبولين المناعي (IGHV)
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ابيضاض الدم الليمفاوي الحاد؛ متلازمة ريختر |
-| الاستطباب الجديد المتوقع | ابيضاض الدم الليمفاوي المزمن/الورم اللمفاوي الصغير مع طفرة جسدية في IGHV |
-| درجة توقع TxGNN | 99.55% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Hodgkins lymphoma |
+| درجة توقع TxGNN | 0.9951 |
 | مستوى الأدلة | L5 (توقع النموذج فقط) |
-| وضع السوق في المملكة العربية السعودية | ✗ جميع التراخيص ملغاة |
-| عدد التراخيص | 4 (جميعها ملغاة، ولا يوجد ترخيص ساري) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -82,10 +82,10 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| VENCLEXTA 10 mg film-coated tablet | VENCLEXTA 10 mg | ABBVIE IRELAND NL B.V. | ملغى |
-| VENCLEXTA 10 mg / 50 mg / 100 mg film-coated tablet | VENCLEXTA 10/50/100 mg | ABBVIE IRELAND NL B.V. | ملغى |
-| VENCLEXTA 50 mg film-coated tablet | VENCLEXTA 50 mg | ABBVIE IRELAND NL B.V. | ملغى |
-| VENCLEXTA 100 mg film-coated tablet | VENCLEXTA 100 mg | ABBVIE IRELAND NL B.V. | ملغى |
+| VENCLEXTA 10 mg film-coated tablet | VENCLEXTA 10 mg | ABBVIE IRELAND NL B.V. | ساري |
+| VENCLEXTA 10 mg / 50 mg / 100 mg film-coated tablet | VENCLEXTA 10/50/100 mg | ABBVIE IRELAND NL B.V. | ساري |
+| VENCLEXTA 50 mg film-coated tablet | VENCLEXTA 50 mg | ABBVIE IRELAND NL B.V. | ساري |
+| VENCLEXTA 100 mg film-coated tablet | VENCLEXTA 100 mg | ABBVIE IRELAND NL B.V. | ساري |
 
 ---
 
@@ -129,7 +129,6 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 
 **المبررات:**
 - الآلية معقولة، لكن الدعم الوحيد لهذا النوع الفرعي هو درجة النموذج (L5). لا توجد تجارب أو أدبيات خاصة بالنوع ذي الطفرة الجسدية في IGHV.
-- جميع التراخيص الأربعة في المملكة ملغاة، ولا يوجد منتج ساري.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على بيانات تخص النوع الفرعي ذا الطفرة في IGHV، من تحليلات فرعية لتجارب ابيضاض الدم الليمفاوي المزمن أو دراسات سريرية موجهة.

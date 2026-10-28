@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Flucloxacillin
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 357
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Flucloxacillin: الاستطباب الجديد المتوقع التهاب الملتحمة (conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ في جميع التراخيص)"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 # Flucloxacillin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص (نص الاستطباب فارغ في جميع التراخيص) |
 | الاستطباب الجديد المتوقع | التهاب الملتحمة (conjunctivitis) |
-| درجة تنبؤ TxGNN | 99.84% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9984 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,13 +84,13 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| FLOXAPEN 500MG CAPS | FLOXAPEN 500MG CAPS | غير محدد | غير محدد (ملغى) |
-| FLOXAPEN 250MG-5ML POWD.FOR SUSP | FLOXAPEN 250MG-5ML POWD.FOR SUSP | غير محدد | غير محدد (ملغى) |
-| FLOXAPEN CAPS 250MG | FLOXAPEN CAPS 250MG | غير محدد | غير محدد (ملغى) |
-| FLOXAPEN SYP 125MG-5ML | FLOXAPEN SYP 125MG-5ML | غير محدد | غير محدد (ملغى) |
-| FLOXAPEN VIAL 250MG | FLOXAPEN VIAL 250MG | غير محدد | غير محدد (ملغى) |
+| FLOXAPEN 500MG CAPS | FLOXAPEN 500MG CAPS | غير محدد | غير محدد (ساري) |
+| FLOXAPEN 250MG-5ML POWD.FOR SUSP | FLOXAPEN 250MG-5ML POWD.FOR SUSP | غير محدد | غير محدد (ساري) |
+| FLOXAPEN CAPS 250MG | FLOXAPEN CAPS 250MG | غير محدد | غير محدد (ساري) |
+| FLOXAPEN SYP 125MG-5ML | FLOXAPEN SYP 125MG-5ML | غير محدد | غير محدد (ساري) |
+| FLOXAPEN VIAL 250MG | FLOXAPEN VIAL 250MG | غير محدد | غير محدد (ساري) |
 
-الجهة المصنعة لجميع التراخيص: SmithKline Beecham. جميع التراخيص الخمسة ملغاة.
+الجهة المصنعة لجميع التراخيص: SmithKline Beecham. جميع التراخيص الخمسة سارية.
 
 ---
 

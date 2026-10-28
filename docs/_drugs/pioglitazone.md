@@ -48,10 +48,10 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 |------|------|
 | الاستطباب الأصلي | داء السكري من النوع الثاني |
 | الاستطباب الجديد المتوقع | Opsismodysplasia |
-| درجة توقع TxGNN | 99.59% |
+| درجة توقع TxGNN | 0.9959 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 15 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -66,11 +66,11 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 | المرتبة | المرض المتوقع | الدرجة | مستوى الأدلة |
 |------|------|------|------|
-| 2 | Focal stiff limb syndrome | 99.50% | L5 |
-| 3 | Classic stiff person syndrome | 99.50% | L5 |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.48% | L5 |
-| 5 | الحثل الشحمي الموضعي المستحث بالأدوية | 99.30% | L5 |
-| 9 | Pancreatic agenesis | 99.18% | L5 (7 منشورات غير مباشرة) |
+| 2 | Focal stiff limb syndrome | 0.9950 | L5 |
+| 3 | Classic stiff person syndrome | 0.9950 | L5 |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9948 | L5 |
+| 5 | الحثل الشحمي الموضعي المستحث بالأدوية | 0.9930 | L5 |
+| 9 | Pancreatic agenesis | 0.9918 | L5 (7 منشورات غير مباشرة) |
 
 ---
 
@@ -90,15 +90,15 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ15 مسجلة بحالة **ملغاة**، ولا يوجد ترخيص ساري. نص الاستطباب المعتمد والشكل الدوائي غير متوفرين في البيانات. أبرز المنتجات:
+جميع التراخيص الـ15 مسجلة بحالة **سارية**، أي 15 ترخيصاً ساري المفعول من أصل 15. نص الاستطباب المعتمد والشكل الدوائي غير متوفرين في البيانات. أبرز المنتجات:
 
 | المنتج | الشكل الدوائي | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| ACTOS 15MG TABLET | أقراص | APM | ملغى |
-| ACTOS 30MG TAB | أقراص | APM | ملغى |
-| GLUSTIN 30MG TAB | أقراص | TAKEDA | ملغى |
-| GLADOS 30MG TABLET | أقراص | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
-| OGLITON 30 MG Tablet | أقراص | ACTAVIS | ملغى |
+| ACTOS 15MG TABLET | أقراص | APM | ساري |
+| ACTOS 30MG TAB | أقراص | APM | ساري |
+| GLUSTIN 30MG TAB | أقراص | TAKEDA | ساري |
+| GLADOS 30MG TABLET | أقراص | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| OGLITON 30 MG Tablet | أقراص | ACTAVIS | ساري |
 
 ---
 

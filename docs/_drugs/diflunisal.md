@@ -4,17 +4,17 @@ title: Diflunisal
 parent: أدلة متوسطة (L3-L4)
 nav_order: 259
 evidence_level: L3
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Diflunisal: الاستطباب الجديد المتوقع التهاب الفقار المقسّط (Ankylosing Spondylitis) (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (لا يتوفر ن…"
+description: "Diflunisal: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (لا يتوفر ن…"
 monitor_inn: "DIFLUNISAL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "spondyloarthropathy, susceptibility to", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## ديفلونيسال: من التهاب المفاصل الروماتويدي إلى التهاب الفقار المقسّط (Ankylosing Spondylitis)
+## ديفلونيسال: من التهاب المفاصل الروماتويدي إلى خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -50,10 +50,10 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (لا يتوفر نص استطباب معتمد في السعودية) |
 | الاستطباب الجديد المتنبأ به | التهاب الفقار المقسّط (Ankylosing Spondylitis) |
-| درجة تنبؤ TxGNN | 99.98% |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الدليل | L3 |
-| حالة التسويق في السعودية | مُلغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (سؤال بحثي فقط) |
 
 ---
@@ -94,7 +94,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| DOLOBID | DOLOBID (الشركة: MERCK SHARP & DOHME) | غير محدد | غير متوفر (الحالة: ملغى) |
+| DOLOBID | DOLOBID (الشركة: MERCK SHARP & DOHME) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

@@ -4,7 +4,7 @@ title: Viloxazine
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 870
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Viloxazine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L1). الاستطباب الأصلي: الناركوليبسي (التغفيق)، والناركوليبسي المصحوب بالجُمود (cataplexy)، و…"
 monitor_inn: "VILOXAZINE"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 # Viloxazine
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 |------|------|
 | الدلالة الأصلية | الناركوليبسي (التغفيق)، والناركوليبسي المصحوب بالجُمود (cataplexy)، والناركوليبسي دون جُمود (المصدر: الرسم المعرفي، إذ لا يتوفر نص دلالة في التراخيص) |
 | الدلالة الجديدة المتنبأ بها | اضطراب فرط الحركة وتشتت الانتباه (ADHD) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L1 |
-| حالة السوق في السعودية | مُلغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط احترازية (Proceed with Guardrails) |
 
 ---
@@ -98,7 +98,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الدلالة المعتمدة |
 |---------|------|------|-----------|
-| VIVALAN TAB 50MG | VIVALAN TAB 50MG (AstraZeneca) | أقراص (غير محدد في البيانات) | غير متوفرة؛ الترخيص ملغى |
+| VIVALAN TAB 50MG | VIVALAN TAB 50MG (AstraZeneca) | أقراص (غير محدد في البيانات) | غير متوفرة؛ الترخيص ساري |
 
 ---
 

@@ -4,17 +4,17 @@ title: Etoricoxib
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 331
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Etoricoxib: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نص الاستطباب فارغ)؛ الاستخدام…"
 monitor_inn: "ETORICOXIB"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etoricoxib
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص السعودية (نص الاستطباب فارغ)؛ الاستخدام السريري المعروف: التهاب المفاصل الروماتويدي، الفصال العظمي، آلام الظهر المزمنة، التهاب الفقار اللاصق، الألم الحاد، النقرس |
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine disorder) |
-| درجة توقع TxGNN | 99.90% |
-| مستوى الأدلة | L4 (آلية محتملة دون دراسات سريرية مباشرة) |
-| حالة التسويق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
+| درجة توقع TxGNN | 0.9990 |
+| مستوى الأدلة | L5 (آلية محتملة دون دراسات سريرية مباشرة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
 | عدد التراخيص | 19 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
@@ -93,15 +93,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ19 ملغاة، ولا يوجد ترخيص ساري. نص الاستطباب وشكل الجرعة غير متوفرين في بيانات التراخيص. أبرز خمسة تراخيص:
+يوجد 19 ترخيصاً ساري المفعول. نص الاستطباب وشكل الجرعة غير متوفرين في بيانات التراخيص. أبرز خمسة تراخيص:
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| ARCOXIA 60MG TAB | ARCOXIA 60MG TAB | Rovi Pharma Industrial Service | ملغى |
-| ETORIA 60MG FILM COATED TABLETS | ETORIA 60MG | Rovi Pharma Industrial Service | ملغى |
-| XIBAX 90MG F.C.TABLET | XIBAX 90MG | Middle East Pharmaceutical Industries (MECP) | ملغى |
-| ATOXIA 90 mg Film-coated Tablet | ATOXIA 90 mg | United Pharmaceutical Company | ملغى |
-| CORREX 120MG F.C.TABLET | CORREX 120MG | Al-Taqaddom Pharmaceutical Industries | ملغى |
+| ARCOXIA 60MG TAB | ARCOXIA 60MG TAB | Rovi Pharma Industrial Service | ساري |
+| ETORIA 60MG FILM COATED TABLETS | ETORIA 60MG | Rovi Pharma Industrial Service | ساري |
+| XIBAX 90MG F.C.TABLET | XIBAX 90MG | Middle East Pharmaceutical Industries (MECP) | ساري |
+| ATOXIA 90 mg Film-coated Tablet | ATOXIA 90 mg | United Pharmaceutical Company | ساري |
+| CORREX 120MG F.C.TABLET | CORREX 120MG | Al-Taqaddom Pharmaceutical Industries | ساري |
 
 ---
 
@@ -123,7 +123,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- الآلية معقولة، لكن لا توجد تجارب سريرية، والأدلة غير مباشرة أو ما قبل سريرية، والمنتج غير مسوّق حالياً في السعودية (جميع التراخيص ملغاة). كما أن بيانات السلامة من النشرة الدوائية غير متوفرة، وهي فجوة معيقة قبل أي فحص سلامة.
+- الآلية معقولة، لكن لا توجد تجارب سريرية، والأدلة غير مباشرة أو ما قبل سريرية، والمنتج مسوّق حالياً في السعودية (19 ترخيصاً سارياً). كما أن بيانات السلامة من النشرة الدوائية غير متوفرة، وهي فجوة معيقة قبل أي فحص سلامة.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية الرسمية من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال.

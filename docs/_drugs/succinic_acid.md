@@ -6,9 +6,9 @@ nav_order: 773
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Succinic Acid: الاستطباب الجديد المتوقع فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد، وفقر الدم ناقص الصباغ، وفق…"
 monitor_inn: "succinic acid"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "vitamin deficiency disorder", "non-syndromic esophageal malformation"]
+description: "Succinic Acid: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Succinic Acid
@@ -33,7 +33,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-## حمض السكسينيك: من فقر الدم الناجم عن نقص الحديد إلى فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات
+## Succinic Acid: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فقر الدم الناجم عن نقص الحديد، وفقر الدم ناقص الصباغ، وفقر الدم الناجم عن النقص، وفقر الدم صغير الكريات (مأخوذة من الاستطبابات الأصلية في قاعدة المعرفة، إذ لا يتوفر نص استطباب معتمد في تراخيص السوق) |
-| الاستطباب الجديد المتوقع | فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات |
-| درجة تنبؤ TxGNN | 99.86% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -64,7 +64,6 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 الرابط بين الاستطباب الأصلي والجديد ضعيف. فالاستطباب الأصلي يتعلق بنقص الحديد، بينما الاستطباب المتوقع هو فقر دم ضخم الأرومات لا يعود إلى نقص B12 أو الفولات. ولم يثبت أن لحمض السكسينيك دورًا في استقلاب الهيم أو تكوّن الكريات الحمراء يعالج هذه العملية المرضية.
 
-ينبغي التعامل مع الدرجة العالية (0.9986) على أنها تنبؤ مبني على الرسم البياني المعرفي فقط، لا دليلًا على فعالية دوائية.
 
 ---
 
@@ -99,7 +98,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| RESOFERON TAB | RESOFERON TAB (الشركة: NOVARTIS) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| RESOFERON TAB | RESOFERON TAB (الشركة: NOVARTIS) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 
@@ -120,7 +119,6 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (مستوى الأدلة L5) دون تجارب سريرية أو أدبيات داعمة، والرابط الآلي ضعيف.
-- لا يوجد ترخيص ساري في السعودية، وبيانات السلامة الأساسية من النشرة الدوائية غير متوفرة.
 
 **للمتابعة يلزم ما يلي:**
 - الحصول على نشرة المنتج من هيئة الغذاء والدواء السعودية (SFDA) لاستخراج التحذيرات وموانع الاستعمال، وهي عائق أساسي أمام فحص السلامة.

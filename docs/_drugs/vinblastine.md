@@ -6,9 +6,9 @@ nav_order: 871
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Vinblastine: الاستطباب الجديد المتوقع الساركوما العضلية المخططة (مستوى الدليل L3). الاستطباب الأصلي: فطار الفطريات واللمفوما التائية الجلدية الأولية، لمفوما هودجكن، اللمف…"
 monitor_inn: "VINBLASTINE"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: الاستطباب الجديد المتوقع Rhabdomyosarcoma (disease) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal r
 
 </div>
 
-## فينبلاستين: من الأورام اللمفاوية (فطار الفطريات وهودجكن) إلى الساركوما العضلية المخططة
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal r
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فطار الفطريات واللمفوما التائية الجلدية الأولية، لمفوما هودجكن، اللمفوما اللاهودجكنية، لمفوما الخلايا المعطفية، داء الخلايا النسيجية لانغرهانس (مستخرج من الرسم المعرفي، إذ لا يتوفر نص استطباب في تراخيص السعودية) |
-| الاستطباب الجديد المتنبأ به | الساركوما العضلية المخططة |
-| درجة تنبؤ TxGNN | 99.86% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Rhabdomyosarcoma (disease) |
+| درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -92,11 +92,11 @@ predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal r
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| VELBE 10MG VIAL+SOLVENT 10ML | VELBE 10MG VIAL+SOLVENT 10ML (إيلي ليلي) | غير متوفر | غير متوفر (ملغى) |
-| ONCOVIN 1MG VIAL+SOLVENT 10ML | ONCOVIN 1MG VIAL+SOLVENT 10ML (إيلي ليلي) | غير متوفر | غير متوفر (ملغى) |
-| VINBLASTINE SULPHATE 10MG-10ML VIAL | VINBLASTINE SULPHATE 10MG-10ML VIAL (هوسبيرا أستراليا) | غير متوفر | غير متوفر (ملغى) |
+| VELBE 10MG VIAL+SOLVENT 10ML | VELBE 10MG VIAL+SOLVENT 10ML (إيلي ليلي) | غير متوفر | غير متوفر (ساري) |
+| ONCOVIN 1MG VIAL+SOLVENT 10ML | ONCOVIN 1MG VIAL+SOLVENT 10ML (إيلي ليلي) | غير متوفر | غير متوفر (ساري) |
+| VINBLASTINE SULPHATE 10MG-10ML VIAL | VINBLASTINE SULPHATE 10MG-10ML VIAL (هوسبيرا أستراليا) | غير متوفر | غير متوفر (ساري) |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد حالياً ترخيص ساري.
+جميع التراخيص الثلاثة سارية حالياً.
 
 ---
 
@@ -132,7 +132,7 @@ predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal r
 **القرار: Hold (التوقف مؤقتاً)**
 
 **المبررات:**
-- الأدلة على الساركوما العضلية المخططة تقتصر على تقارير حالات ودراسات ما قبل سريرية وبروتوكولات تجمع عدة أدوية، دون تجارب سريرية مسجلة، ولا يمكن عزل أثر فينبلاستين. وتتعزز هذه الصعوبة بأن جميع التراخيص في السعودية ملغاة، وأن بيانات السلامة من النشرة الدوائية غير متوفرة.
+- الأدلة على الساركوما العضلية المخططة تقتصر على تقارير حالات ودراسات ما قبل سريرية وبروتوكولات تجمع عدة أدوية، دون تجارب سريرية مسجلة، ولا يمكن عزل أثر فينبلاستين. وتتعزز هذه الصعوبة بأن بيانات السلامة من النشرة الدوائية غير متوفرة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة المنتج من هيئة الغذاء والدواء السعودية (SFDA) واستخلاص التحذيرات وموانع الاستعمال (بيانات حرجة تمنع الانتقال إلى فحص السلامة).

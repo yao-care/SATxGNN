@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: أدلة متوسطة (L3-L4)
 nav_order: 620
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Oxcarbazepine: الاستطباب الجديد المتوقع الصرع البصري (Visual epilepsy) (مستوى الدليل L4). الاستطباب الأصلي: الصرع الجزئي والصرع الحركي الجزئي (مصدره الرسم المعرفي لـ TxGNN، إذ ل…"
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: الاستطباب الجديد المتوقع Restless legs syndrome (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["restless legs syndrome"]
 
 </div>
 
-## أوكسكاربازيبين: من الصرع الجزئي إلى الصرع البصري
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["restless legs syndrome"]
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | الصرع الجزئي والصرع الحركي الجزئي (مصدره الرسم المعرفي لـ TxGNN، إذ لا يوجد نص مؤشر في تراخيص الهيئة) |
-| المؤشر الجديد المتوقع | الصرع البصري (Visual epilepsy) |
-| درجة تنبؤ TxGNN | 99.95% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Restless legs syndrome |
+| درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 7 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -91,15 +91,15 @@ predicted_indications: ["restless legs syndrome"]
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري. نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في السجلات.
+نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في السجلات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| TRILEPTAL 300MG F.C TAB | TRILEPTAL 300MG F.C TAB | NOVARTIS | ملغى |
-| TRILEPTAL 150MG F.C TAB | TRILEPTAL 150MG F.C TAB | NOVARTIS | ملغى |
-| TRILEPTAL 600MG F.C TAB | TRILEPTAL 600MG F.C TAB | NOVARTIS | ملغى |
-| TRILEPTAL 60MG\ML SUSPENTION | TRILEPTAL 60MG\ML SUSPENTION | DELPHARM HUNINGUE S.A.S. | ملغى |
-| CARPAZIO 600 MG FILM COATED TABLET | CARPAZIO 600 MG FILM COATED TABLET | SPIMACO | ملغى |
+| TRILEPTAL 300MG F.C TAB | TRILEPTAL 300MG F.C TAB | NOVARTIS | ساري |
+| TRILEPTAL 150MG F.C TAB | TRILEPTAL 150MG F.C TAB | NOVARTIS | ساري |
+| TRILEPTAL 600MG F.C TAB | TRILEPTAL 600MG F.C TAB | NOVARTIS | ساري |
+| TRILEPTAL 60MG\ML SUSPENTION | TRILEPTAL 60MG\ML SUSPENTION | DELPHARM HUNINGUE S.A.S. | ساري |
+| CARPAZIO 600 MG FILM COATED TABLET | CARPAZIO 600 MG FILM COATED TABLET | SPIMACO | ساري |
 
 ---
 
@@ -124,7 +124,6 @@ predicted_indications: ["restless legs syndrome"]
 **القرار: Hold (التريّث)**
 
 **المبررات:**
-- المؤشر المتوقع (الصرع البصري) لا تدعمه أي تجربة سريرية ولا أي دراسة مباشرة، والأدلة تقتصر على تنبؤ النموذج ومراجعات عامة (مستوى L4).
 - جميع تراخيص الدواء في السعودية ملغاة، وبيانات السلامة الرسمية غير مكتملة.
 
 **للمضي قدماً يلزم:**

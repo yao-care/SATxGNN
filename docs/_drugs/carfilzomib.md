@@ -6,7 +6,7 @@ nav_order: 149
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Carfilzomib: الاستطباب الجديد المتوقع الميلانوما (Melanoma) — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أم… (مستوى الدليل L5). الاستطباب الأصلي: الورم النخاعي البلازمي (Plasma cell myeloma)"
+description: "Carfilzomib: الاستطباب الجديد المتوقع CMM7 — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أم… (مستوى الدليل L5). الاستطباب الأصلي: الورم النخاعي البلازمي (Plasma cell myeloma)"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 </div>
 
-## كارفيلزوميب: من الورم النخاعي البلازمي إلى الميلانوما
+## كارفيلزوميب: من الورم النخاعي البلازمي إلى CMM7
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,10 +49,10 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 |------|------|
 | الاستطباب الأصلي | الورم النخاعي البلازمي (Plasma cell myeloma) |
 | الاستطباب الجديد المتوقع | الميلانوما (Melanoma) — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أما التنبؤ الأعلى درجة فهو CMM7 |
-| درجة تنبؤ TxGNN | 99.03% (للميلانوما)؛ أعلى درجة: 99.37% (CMM7) |
-| مستوى الأدلة | L4 (للميلانوما)؛ L5 لبقية الاستطبابات المتوقعة |
-| وضع السوق في السعودية | ملغاة التراخيص فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| درجة تنبؤ TxGNN | 0.9903 (للميلانوما)؛ أعلى درجة: 0.9937 (CMM7) |
+| مستوى الأدلة | L5 (للميلانوما)؛ L5 لبقية الاستطبابات المتوقعة |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) — مع اعتبار الميلانوما سؤالاً بحثياً |
 
 ---
@@ -93,10 +93,10 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| KYPROLIS 60 mg Powder For Solution For Injection | KYPROLIS 60 mg Powder For Solution For Injection (Amgen Technology) | — | — (ملغى) |
-| Carfilzomib SPC | Carfilzomib SPC (Cipla Limited) | — | — (ملغى) |
+| KYPROLIS 60 mg Powder For Solution For Injection | KYPROLIS 60 mg Powder For Solution For Injection (Amgen Technology) | — | — (ساري) |
+| Carfilzomib SPC | Carfilzomib SPC (Cipla Limited) | — | — (ساري) |
 
-جميع التراخيص الحالية **ملغاة**، ولا يوجد ترخيص ساري المفعول.
+يوجد ترخيصان ساريان من أصل ترخيصين (2 من 2)، والدواء مسوَّق.
 
 ---
 
@@ -132,7 +132,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 **المبررات:**
 - جميع الاستطبابات الخمسة المتوقعة تستند إلى تنبؤ النموذج فقط (L5)، باستثناء الميلانوما التي تدعمها دراسة مخبرية واحدة على خط خلايا فأري (L4) دون أي تجربة سريرية.
-- لا توجد تراخيص سارية في السعودية، ولم تُستكمل بيانات السلامة من النشرة الدوائية، وهذا يمنع حالياً الانتقال إلى مرحلة تقييم السلامة.
+- يوجد ترخيصان ساريان من أصل ترخيصين في السعودية، ولم تُستكمل بيانات السلامة من النشرة الدوائية، وهذا يمنع حالياً الانتقال إلى مرحلة تقييم السلامة.
 
 **للمضي قدماً يلزم:**
 - تنزيل وتحليل النشرة الدوائية من موقع SFDA لاستكمال التحذيرات وموانع الاستعمال (فجوة حرجة تمنع الانتقال).

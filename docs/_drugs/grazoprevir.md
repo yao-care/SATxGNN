@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Grazoprevir
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 401
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Grazoprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدره رسم المعرفة، إذ لا يتوفر نص…"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 # Grazoprevir
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 |------|------|
 | الاستطباب الأصلي | عدوى فيروس التهاب الكبد C المزمنة (مصدره رسم المعرفة، إذ لا يتوفر نص استطباب في بيانات التراخيص السعودية) |
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة البشرية (HIV) |
-| درجة تنبؤ TxGNN | 99.73% |
+| درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L1 بحسب التصنيف الآلي للتجارب (مع تحفظ مهم: الأدلة تخص HCV وليس HIV) |
-| وضع السوق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -106,7 +106,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ZEPATIER 100/50 mg film-coated tablet | ZEPATIER 100/50 mg film-coated tablet (MSD International GmbH) | أقراص مغلفة | غير متوفر (الترخيص ملغى) |
+| ZEPATIER 100/50 mg film-coated tablet | ZEPATIER 100/50 mg film-coated tablet (MSD International GmbH) | أقراص مغلفة | غير متوفر (الترخيص ساري) |
 
 ---
 

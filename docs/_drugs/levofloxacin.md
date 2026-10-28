@@ -50,9 +50,9 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylas
 |------|------|
 | الاستطباب الأصلي | التهابات بكتيرية، منها الالتهاب الرئوي والتهاب الملتحمة والتهاب الجيوب الفكية والتهاب الحويضة والكلية والجمرة الخبيثة (من بيانات الاستطبابات المعرفية، إذ لا تتضمن بيانات التراخيص نص استطباب) |
 | الاستطباب الجديد المتنبأ به | التهاب القرنية والملتحمة النقطي الظهاري |
-| درجة تنبؤ TxGNN | 99.92% |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة السوق في السعودية | جميع التراخيص ملغاة، ولا يوجد ترخيص ساري |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
 | عدد التراخيص | 19 (جميعها ملغاة) |
 | القرار الموصى به | Hold (التوقف والانتظار) |
 
@@ -84,15 +84,15 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylas
 
 ## معلومات السوق في السعودية
 
-تُظهر البيانات 19 ترخيصاً، جميعها **ملغاة**، ولا يوجد ترخيص ساري. لا تتضمن البيانات المجمعة نص الاستطباب المعتمد ولا الشكل الدوائي. فيما يلي أبرز 5 تراخيص:
+تُظهر البيانات 19 ترخيصاً سارياً، والدواء مسوَّق في هذا البلد. لا تتضمن البيانات المجمعة نص الاستطباب المعتمد ولا الشكل الدوائي. فيما يلي أبرز 5 تراخيص:
 
 | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| NEVOTIC 500 mg film-coated tablet | Pharma International Co. | ملغى |
-| EVOX 250MG FILM COATED TABLET | Jordan Sweden Medical and Sterilization Co. | ملغى |
-| LEVOX 500MG FILM COATED TABLET | SPIMACO ADDWAEIH | ملغى |
-| LEVONIC 5 mg/ml Infusion | Hikma Pharmaceuticals PLC | ملغى |
-| LEVAQUIN 500 mg film-coated tablet | SAJA | ملغى |
+| NEVOTIC 500 mg film-coated tablet | Pharma International Co. | ساري |
+| EVOX 250MG FILM COATED TABLET | Jordan Sweden Medical and Sterilization Co. | ساري |
+| LEVOX 500MG FILM COATED TABLET | SPIMACO ADDWAEIH | ساري |
+| LEVONIC 5 mg/ml Infusion | Hikma Pharmaceuticals PLC | ساري |
+| LEVAQUIN 500 mg film-coated tablet | SAJA | ساري |
 
 ---
 
@@ -117,7 +117,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylas
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (L5)، ولا توجد تجارب سريرية، والورقة الوحيدة تتعلق بعامل ممرض غير بكتيري لا يستجيب عادةً للفلوروكينولونات.
-- جميع التراخيص المحلية ملغاة، وبيانات السلامة الرسمية غير متوفرة.
+- يوجد 19 ترخيصاً محلياً ساري المفعول، وبيانات السلامة الرسمية غير متوفرة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة (تحذيرات وموانع استعمال) من موقع هيئة الغذاء والدواء السعودية (SFDA) وتحليلها، وهي شرط لأي فحص سلامة.

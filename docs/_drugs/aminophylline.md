@@ -4,17 +4,17 @@ title: Aminophylline
 parent: أدلة متوسطة (L3-L4)
 nav_order: 53
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Aminophylline: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص دواعي الاستعمال في التراخيص فارغة)"
 monitor_inn: "AMINOPHYLLINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نصوص دواعي الاستعمال في التراخيص فارغة) |
 | الاستطباب الجديد المتوقع | الصداع النصفي (migraine disorder) |
-| درجة تنبؤ TxGNN | 99.88% |
+| درجة تنبؤ TxGNN | 0.9988 |
 | مستوى الدليل | L4 |
-| حالة التسويق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | تعليق (Hold) |
 
 ---
@@ -89,9 +89,9 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | دواعي الاستعمال المعتمدة |
 |---------|------|------|-----------|
-| AMINOPHYLLINE 250 Mg Injection* | AMINOPHYLLINE 250 Mg Injection* (ANTIGEN) | غير محدد | غير متوفر (ملغى) |
-| NEOPHYLLIN TAB 100MG | NEOPHYLLIN TAB 100MG (EISAI) | غير محدد | غير متوفر (ملغى) |
-| AMINOPHYLLINE INJ 250MG | AMINOPHYLLINE INJ 250MG (HOSPIRA) | غير محدد | غير متوفر (ملغى) |
+| AMINOPHYLLINE 250 Mg Injection* | AMINOPHYLLINE 250 Mg Injection* (ANTIGEN) | غير محدد | غير متوفر (ساري) |
+| NEOPHYLLIN TAB 100MG | NEOPHYLLIN TAB 100MG (EISAI) | غير محدد | غير متوفر (ساري) |
+| AMINOPHYLLINE INJ 250MG | AMINOPHYLLINE INJ 250MG (HOSPIRA) | غير محدد | غير متوفر (ساري) |
 
 ---
 
@@ -116,7 +116,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 **المبررات:**
 - الأدلة الخاصة بالصداع النصفي ضعيفة (مراجعة وتقارير حالات دون أي تجربة سريرية)، ومستوى الدليل L4.
-- جميع التراخيص السعودية الثلاثة ملغاة، ولا توجد بيانات رسمية عن دواعي الاستعمال أو التحذيرات أو موانع الاستعمال، وهو ما يعيق الانتقال إلى مرحلة فحص السلامة.
+- التراخيص الثلاثة جميعها سارية (3 من 3)، ولا توجد بيانات رسمية عن دواعي الاستعمال أو التحذيرات أو موانع الاستعمال، وهو ما يعيق الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدمًا يلزم:**
 - الحصول على النشرة الدوائية من موقع الهيئة العامة للغذاء والدواء (SFDA) واستخلاص التحذيرات وموانع الاستعمال.

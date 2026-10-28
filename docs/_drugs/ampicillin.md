@@ -4,17 +4,17 @@ title: Ampicillin
 parent: أدلة متوسطة (L3-L4)
 nav_order: 60
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ampicillin: الاستطباب الجديد المتوقع التهاب الحنجرة (مستوى الدليل L4). الاستطباب الأصلي: التهابات بكتيرية (التهاب المسالك البولية، التهاب الأذن الوسطى، الالته…"
 monitor_inn: "AMPICILLIN"
-predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal ureth
 |------|------|
 | الاستطباب الأصلي | التهابات بكتيرية (التهاب المسالك البولية، التهاب الأذن الوسطى، الالتهاب الرئوي البكتيري، التهاب السحايا وغيرها) |
 | الاستطباب الجديد المتوقع | التهاب الحنجرة |
-| درجة تنبؤ TxGNN | 99.97% |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L4 |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا توجد تراخيص سارية) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 
 ملاحظة: الاستطباب الأصلي مأخوذ من بيانات الرسم المعرفي لأن نصوص الاستطبابات المعتمدة في تراخيص الهيئة فارغة.
@@ -102,7 +102,7 @@ predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal ureth
 | PENBRITIN VIAL 250 MG | PENBRITIN VIAL 250 MG | غير متوفر | غير متوفر |
 | AMPICILLIN 500MG POWDER FOR IV AND IM INJECTION | AMPICILLIN 500MG POWDER FOR IV AND IM INJECTION | غير متوفر | غير متوفر |
 
-جميع التراخيص السبعة ملغاة؛ عُرضت خمسة منها فقط.
+الدواء مسوّق في هذا البلد، وجميع التراخيص السبعة سارية (7 من أصل 7).
 
 ---
 

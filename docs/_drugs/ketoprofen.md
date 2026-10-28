@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 470
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ketoprofen: الاستطباب الجديد المتوقع الحثل الميزوميلي الطرفي من نوع هنتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (من الرسم ا…"
 monitor_inn: "KETOPROFEN"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+description: "Ketoprofen: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## كيتوبروفين: من التهاب المفاصل الروماتويدي إلى الحثل الهيكلي الوراثي (الحثل الميزومELي الطرفي من نوع هنتر-طومسون)
+## Ketoprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 كيتوبروفين دواء مضاد للالتهاب غير ستيرويدي (NSAID)، استُخدم أصلاً لعلاج التهاب المفاصل الروماتويدي والفصال العظمي (هشاشة المفاصل) واعتلال المفاصل.
-يتنبأ نموذج TxGNN بأنه قد يكون مفيداً في **الحثل الميزوميلي الطرفي من نوع هنتر-طومسون**، بدرجة مرتفعة جداً (99.98%)، لكن **لا توجد أي تجارب سريرية ولا منشورات** تدعم هذا الاتجاه، ولا يوجد ارتباط آلي موثوق بين الدواء والمرض، ولذلك فإن الدرجة العالية على الأرجح ناتجة عن قرب المصطلحات في الرسم المعرفي لا عن أساس دوائي.
+يتنبأ نموذج TxGNN بأنه قد يكون مفيداً في **الحثل الميزوميلي الطرفي من نوع هنتر-طومسون**، بدرجة مرتفعة جداً (0.9998)، لكن **لا توجد أي تجارب سريرية ولا منشورات** تدعم هذا الاتجاه، ولا يوجد ارتباط آلي موثوق بين الدواء والمرض، ولذلك فإن الدرجة العالية على الأرجح ناتجة عن قرب المصطلحات في الرسم المعرفي لا عن أساس دوائي.
 
 ---
 
@@ -47,12 +47,12 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الفصال العظمي، اعتلال المفاصل (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
-| الاستطباب الجديد المتوقع | الحثل الميزوميلي الطرفي من نوع هنتر-طومسون |
-| درجة تنبؤ TxGNN | 99.98% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Acromesomelic dysplasia, Hunter-Thompson type |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 9 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -69,16 +69,16 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | الترتيب | المرض | الدرجة | مستوى الأدلة | التقييم |
 |------|------|------|------|------|
-| 1 | الحثل الميزوميلي الطرفي (هنتر-طومسون) | 99.98% | L5 | لا ارتباط آلي موثوق |
-| 2 | متلازمة قِصَر العمود الفقري مع نقص تكوّن المينا | 99.98% | L5 | لا ارتباط آلي موثوق |
-| 3 | تصلب العضلات (Myosclerosis) | 99.98% | L5 | ارتباط ضعيف وتخميني (تخفيف أعراض فقط) |
-| 4 | قِصَر العمود الفقري (Brachyolmia) | 99.98% | L5 | لا ارتباط آلي موثوق |
-| 5 | متلازمة صغر العين الأولي مع حثل جذعي | 99.98% | L5 | لا ارتباط آلي موثوق |
-| 6 | متلازمة قِصَر الأصابع والتحام الأصابع | 99.97% | L5 | لا ارتباط آلي موثوق |
-| 7 | الحثل الغضروفي الكاذب | 99.95% | L5 | غير مباشر، تسكين الألم فقط |
-| 8 | الاستعداد للاعتلال الفقاري المفصلي | 99.86% | L4 | الأكثر معقولية (فئة NSAID مستخدمة أصلاً) |
-| 9 | متلازمة WHIM | 99.86% | L5 | لا ارتباط آلي موثوق |
-| 10 | التهاب المفاصل الشبابي بسبب عيب LACC1 | 99.74% | L4 | غير مباشر، تخفيف أعراض فقط |
+| 1 | الحثل الميزوميلي الطرفي (هنتر-طومسون) | 0.9998 | L5 | لا ارتباط آلي موثوق |
+| 2 | متلازمة قِصَر العمود الفقري مع نقص تكوّن المينا | 0.9998 | L5 | لا ارتباط آلي موثوق |
+| 3 | تصلب العضلات (Myosclerosis) | 0.9998 | L5 | ارتباط ضعيف وتخميني (تخفيف أعراض فقط) |
+| 4 | قِصَر العمود الفقري (Brachyolmia) | 0.9998 | L5 | لا ارتباط آلي موثوق |
+| 5 | متلازمة صغر العين الأولي مع حثل جذعي | 0.9998 | L5 | لا ارتباط آلي موثوق |
+| 6 | متلازمة قِصَر الأصابع والتحام الأصابع | 0.9997 | L5 | لا ارتباط آلي موثوق |
+| 7 | الحثل الغضروفي الكاذب | 0.9995 | L5 | غير مباشر، تسكين الألم فقط |
+| 8 | الاستعداد للاعتلال الفقاري المفصلي | 0.9986 | L5 | الأكثر معقولية (فئة NSAID مستخدمة أصلاً) |
+| 9 | متلازمة WHIM | 0.9986 | L5 | لا ارتباط آلي موثوق |
+| 10 | التهاب المفاصل الشبابي بسبب عيب LACC1 | 0.9974 | L5 | غير مباشر، تخفيف أعراض فقط |
 
 أكثر الاحتمالات منطقية هو **الاعتلال الفقاري المفصلي**، لأن مضادات الالتهاب غير الستيرويدية علاج أولي لأعراضه (الألم والتيبس). لكنه دليل على مستوى الفئة الدوائية فقط، وليس إشارة إعادة توظيف جديدة، ويُنصح بمراجعة الأدبيات المتعلقة بمضادات الالتهاب في التهاب الفقار المحوري بدلاً من التعامل معه كاكتشاف جديد.
 
@@ -98,15 +98,15 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص التسعة ملغاة، ولا يوجد ترخيص ساري. لا تتوفر نصوص الاستطباب المعتمدة ولا الأشكال الدوائية في البيانات المجمّعة.
+لا تتوفر نصوص الاستطباب المعتمدة ولا الأشكال الدوائية في البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| PROFENID 100MG SUPP. | PROFENID 100MG SUPP. | sanofi-aventis | ملغى |
-| PROFENID 100MG TAB | PROFENID 100MG TAB | sanofi-aventis | ملغى |
-| KETOFAN 25MG TAB | KETOFAN 25MG TAB | ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES | ملغى |
-| FASTUM 2.5% GEL | FASTUM 2.5% GEL | A MENARINI INDUSTRIE FARMACEUTICHE S.R.L | ملغى |
-| PROFENID 100MG I.M VIAL+SOLV. | PROFENID 100MG I.M VIAL+SOLV. | sanofi-aventis | ملغى |
+| PROFENID 100MG SUPP. | PROFENID 100MG SUPP. | sanofi-aventis | ساري |
+| PROFENID 100MG TAB | PROFENID 100MG TAB | sanofi-aventis | ساري |
+| KETOFAN 25MG TAB | KETOFAN 25MG TAB | ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES | ساري |
+| FASTUM 2.5% GEL | FASTUM 2.5% GEL | A MENARINI INDUSTRIE FARMACEUTICHE S.R.L | ساري |
+| PROFENID 100MG I.M VIAL+SOLV. | PROFENID 100MG I.M VIAL+SOLV. | sanofi-aventis | ساري |
 
 (عُرضت 5 من أصل 9 تراخيص.)
 

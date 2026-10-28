@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Danazol
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 226
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea) (مستوى الدليل L3). الاستطباب الأصلي: الانتباذ البطاني الرحمي، مرض الثدي الكيسي الليفي (لا يتوفر نص استطباب…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 # Danazol
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 </div>
 
-## دانازول: من الانتباذ البطاني الرحمي إلى انقطاع الطمث
+## دانازول: من الانتباذ البطاني الرحمي إلى انقطاع الطمث (Amenorrhea)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 |------|------|
 | الاستطباب الأصلي | الانتباذ البطاني الرحمي، مرض الثدي الكيسي الليفي (لا يتوفر نص استطباب معتمد في تراخيص المملكة) |
 | الاستطباب الجديد المتوقع | انقطاع الطمث (amenorrhea) |
-| درجة تنبؤ TxGNN | 99.9995% |
-| مستوى الأدلة | L3 |
-| حالة السوق في المملكة العربية السعودية | ✗ ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| درجة تنبؤ TxGNN | 1.0000 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -93,8 +93,8 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| DANOL CAPS 100MG | DANOL CAPS 100MG (ZENTIVA K.S.) | غير محدد | غير متوفر (ترخيص ملغى) |
-| DANOL CAPS 200MG | DANOL CAPS 200MG (ZENTIVA K.S.) | غير محدد | غير متوفر (ترخيص ملغى) |
+| DANOL CAPS 100MG | DANOL CAPS 100MG (ZENTIVA K.S.) | غير محدد | غير متوفر (ترخيص ساري) |
+| DANOL CAPS 200MG | DANOL CAPS 200MG (ZENTIVA K.S.) | غير محدد | غير متوفر (ترخيص ساري) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Cefoxitin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 156
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cefoxitin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى المعدي (infectious otitis media) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (عدوى المكورات العقدية، الالتهاب الرئوي البكتيري، ال…"
 monitor_inn: "Cefoxitin"
-predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "gonococcal urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
+predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
 ---
 
 # Cefoxitin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["infectious otitis media", "urinary tract infection (dis
 |------|------|
 | الاستطباب الأصلي | العدوى البكتيرية (عدوى المكورات العقدية، الالتهاب الرئوي البكتيري، التهاب الصفاق، عدوى المكورات العنقودية الذهبية، السيلان، وغيرها) |
 | الاستطباب الجديد المتوقع | التهاب الأذن الوسطى المعدي (infectious otitis media) |
-| درجة تنبؤ TxGNN | 99.30% |
+| درجة تنبؤ TxGNN | 0.9930 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -86,7 +86,7 @@ predicted_indications: ["infectious otitis media", "urinary tract infection (dis
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| FOXITIN 1GM VIAL I.V OR I.M ADMINISTRATI | FOXITIN 1GM VIAL I.V OR I.M ADMINISTRATI | غير متوفر | غير متوفر (الحالة: ملغى؛ الشركة المصنعة: Tabuk Pharmaceutical Manufacturing Co.) |
+| FOXITIN 1GM VIAL I.V OR I.M ADMINISTRATI | FOXITIN 1GM VIAL I.V OR I.M ADMINISTRATI | غير متوفر | غير متوفر (الحالة: ساري؛ الشركة المصنعة: Tabuk Pharmaceutical Manufacturing Co.) |
 
 ---
 

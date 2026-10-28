@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pralatrexate
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 679
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Pralatrexate: الاستطباب الجديد المتوقع الورم المتوسطي الظهاري الجنبي (Pleural epithelioid mesothelioma) (مستوى الدليل L4). الاستطباب الأصلي: لمفوما الخلايا التائية والخلايا القاتلة الطبيعية الناضجة غ…"
 monitor_inn: "PRALATREXATE"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
+description: "Pralatrexate: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pralatrexate
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multip
 
 </div>
 
-## براالاتريكسات: من الأورام اللمفية التائية إلى الورم المتوسطي الظهاري الجنبي
+## Pralatrexate: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multip
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | لمفوما الخلايا التائية والخلايا القاتلة الطبيعية الناضجة غير هودجكين (بما في ذلك لمفوما الخلايا التائية الطرفية غير المحددة) |
-| الاستطباب الجديد المتوقع | الورم المتوسطي الظهاري الجنبي (Pleural epithelioid mesothelioma) |
-| درجة تنبؤ TxGNN | 99.89% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Pleural adenomatoid tumor |
+| درجة تنبؤ TxGNN | 0.9991 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً، مع اعتباره سؤالاً بحثياً) |
 
 ملاحظة: الاستطباب الأصلي مأخوذ من بيانات الرسم المعرفي لأن نص الاستطباب المعتمد في ترخيص الهيئة العامة للغذاء والدواء فارغ. كما أن الورم المتوسطي الظهاري الجنبي هو الاستطباب رقم 4 في ترتيب التنبؤات، لكنه أول استطباب لديه أدلة منشورة؛ أما الاستطباب الأعلى درجة (ورم غدي الشكل جنبي) فلا توجد له أي أدلة.

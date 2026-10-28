@@ -49,10 +49,10 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 |------|------|
 | الاستطباب الأصلي | الابيضاض النقوي المزمن، الأورام اللحمية المعدية المعوية (GIST)، الداء الخلوي البدني، متلازمة فرط اليوزينيات، DFSP (من مصدر الرسم المعرفي للنموذج؛ نص الاستطباب المرخّص غير متوفر) |
 | الاستطباب الجديد المتوقع | ساركوما الليف القلبية (heart fibrosarcoma) |
-| درجة تنبؤ TxGNN | 99.94% |
+| درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -85,7 +85,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المرخّص |
 |---------|------|------|-----------|
-| IMATINIB GRINDEKS 100MG CAPSULE | IMATINIB GRINDEKS 100MG CAPSULE (الشركة المصنعة: JOINT STOCK COMPANY GRINDEKS) | كبسولة | ترخيص ملغى |
+| IMATINIB GRINDEKS 100MG CAPSULE | IMATINIB GRINDEKS 100MG CAPSULE (الشركة المصنعة: JOINT STOCK COMPANY GRINDEKS) | كبسولة | ترخيص ساري |
 
 ---
 

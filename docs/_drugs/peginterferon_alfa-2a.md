@@ -4,17 +4,17 @@ title: Peginterferon Alfa-2A
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 638
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L1). الاستطباب الأصلي: التهاب الكبد C المزمن (بيانات الاستطباب في تراخيص السعودية غير متوفرة…"
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+description: "Peginterferon Alfa-2A: الاستطباب الجديد المتوقع Hepatitis E virus infection (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infect
 
 </div>
 
-## بيجينترفيرون ألفا-2a: من التهاب الكبد C المزمن إلى عدوى فيروس التهاب الكبد B
+## Peginterferon Alfa-2A: Hepatitis E virus infection
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infect
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب الكبد C المزمن (بيانات الاستطباب في تراخيص السعودية غير متوفرة؛ الاستطباب مأخوذ من الرسم المعرفي لـ TxGNN) |
-| الاستطباب الجديد المتنبأ به | عدوى فيروس التهاب الكبد B |
-| درجة تنبؤ TxGNN | 99.94% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Hepatitis E virus infection |
+| درجة تنبؤ TxGNN | 0.9983 |
 | مستوى الدليل | L1 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
@@ -64,7 +64,6 @@ predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infect
 
 يعمل الدواء عبر تأثير مضاد للفيروسات ومنظِّم للمناعة، من خلال تحفيز الجينات المحفَّزة بالإنترفيرون وتعزيز استجابات الخلايا التائية النوعية لفيروس التهاب الكبد B. والتهاب الكبد B والتهاب الكبد C كلاهما التهاب كبدي فيروسي مزمن، ويشتركان في الاستجابة للإنترفيرون.
 
-وبما أن التهاب الكبد B المزمن مدرج ضمن الاستطبابات الأصلية للدواء، فإن الدرجة العالية (0.999) تتسق مع الاستخدام المعروف، ولا يُعد هذا الترشيح إعادة توظيف حقيقية.
 
 ---
 
@@ -108,8 +107,8 @@ predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infect
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE | PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE (روش) | غير متوفر | غير متوفر (الترخيص ملغى) |
-| PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE | PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE (روش) | غير متوفر | غير متوفر (الترخيص ملغى) |
+| PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE | PEGASYS 180 MCG-0.5ML PRE-FILLED SYRINGE (روش) | غير متوفر | غير متوفر (الترخيص ساري) |
+| PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE | PEGASYS 135 MCG-0.5ML PRE-FILLED SYRINGE (روش) | غير متوفر | غير متوفر (الترخيص ساري) |
 
 ---
 

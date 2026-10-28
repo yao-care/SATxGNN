@@ -6,7 +6,7 @@ nav_order: 174
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Chloroquine: الاستطباب الجديد المتوقع التهاب المفاصل مجهول السبب لدى الأحداث، متعدد المفاصل، إيجابي العامل… (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الذئبة الحمامية الجهازية، …"
+description: "Chloroquine: الاستطباب الجديد المتوقع التهاب المفاصل مجهول السبب لدى الأحداث، متعدد المفاصل، إيجابي العامل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الذئبة الحمامية الجهازية، …"
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiop
 
 </div>
 
-## الكلوروكين: من التهاب المفاصل الروماتويدي إلى التهاب المفاصل مجهول السبب لدى الأحداث (إيجابي العامل الروماتويدي، متعدد المفاصل)
+## الكلوروكين: من التهاب المفاصل الروماتويدي إلى التهاب المفاصل مجهول السبب لدى الأحداث، متعدد المفاصل، إيجابي العامل الروماتويدي
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiop
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الذئبة الحمامية الجهازية، الملاريا (المتصورة النشيطة والمنجلية والبيضوية والوبائية) |
 | الاستطباب الجديد المتوقع | التهاب المفاصل مجهول السبب لدى الأحداث، متعدد المفاصل، إيجابي العامل الروماتويدي |
-| درجة تنبؤ TxGNN | 99.41% |
+| درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الدليل | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -82,13 +82,13 @@ predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiop
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| MALAREX SYRUP 120MG-5ML | MALAREX SYRUP 120MG-5ML | غير متوفر | غير متوفر (ملغى) |
-| MALAREX TABLETS 250mg | MALAREX TABLETS 250mg | غير متوفر | غير متوفر (ملغى) |
-| CHLOROQUINE | CHLOROQUINE | غير متوفر | غير متوفر (ملغى) |
-| RESOCHIN TAB 250MG | RESOCHIN TAB 250MG | غير متوفر | غير متوفر (ملغى) |
-| CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | غير متوفر | غير متوفر (ملغى) |
+| MALAREX SYRUP 120MG-5ML | MALAREX SYRUP 120MG-5ML | غير متوفر | غير متوفر (ساري) |
+| MALAREX TABLETS 250mg | MALAREX TABLETS 250mg | غير متوفر | غير متوفر (ساري) |
+| CHLOROQUINE | CHLOROQUINE | غير متوفر | غير متوفر (ساري) |
+| RESOCHIN TAB 250MG | RESOCHIN TAB 250MG | غير متوفر | غير متوفر (ساري) |
+| CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | CHLOROQUIN PHOSPHATE 80MG/5ML SYRUR | غير متوفر | غير متوفر (ساري) |
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد منتج وحيد المادة أو مركّب ساري المفعول حاليًا.
+جميع التراخيص الخمسة (5 من 5) سارية المفعول، والدواء مسوّق في هذا البلد.
 
 ---
 

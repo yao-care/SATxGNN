@@ -48,10 +48,10 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 |------|------|
 | الاستطباب الأصلي | التخدير العام بالاستنشاق (حسب المعرفة العامة بالدواء، إذ لا يتضمن نص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء بالسعودية أي بيانات) |
 | الاستطباب الجديد المتوقع | الذبحة الصدرية المتغايرة (Prinzmetal angina) |
-| درجة تنبؤ TxGNN | 99.78% |
+| درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| وضع التسويق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -89,15 +89,15 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري حالياً. ولا تتضمن بيانات التراخيص شكل الجرعة أو نص الاستطباب.
+جميع التراخيص السبعة سارية (7 من 7)، والدواء مسوّق حالياً. ولا تتضمن بيانات التراخيص شكل الجرعة أو نص الاستطباب.
 
 | رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|
-| SEVOFLURANE Inhalation Anesthetic | Baxter Healthcare Corporation | ملغى |
+| SEVOFLURANE Inhalation Anesthetic | Baxter Healthcare Corporation | ساري |
 | SEVORANE Inhal. Anesthesia (عبوة ألمنيوم) | Aesica Queenborough Limited | ملغى |
 | SEVORANE Inhal. Anesthesia (عبوة بلاستيك) | Aesica Queenborough Limited | ملغى |
 | SEVORANE Inhal. Anesthesia (قارورة) | Abbott Laboratories | ملغى |
-| SEVOFLURANE 100% Liquid for Inh. Anesthesia | Baxter Healthcare | ملغى |
+| SEVOFLURANE 100% Liquid for Inh. Anesthesia | Baxter Healthcare | ساري |
 
 ---
 

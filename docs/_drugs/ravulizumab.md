@@ -6,9 +6,9 @@ nav_order: 713
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ravulizumab: الاستطباب الجديد المتوقع نقص العدلات الخلقي الشديد المتنحي بسبب نقص G6PC3 (مستوى الدليل L5). الاستطباب الأصلي: البيلة الهيموغلوبينية الانتيابية الليلية (مصدره الرسم المعرفي لـ TxGN…"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
+description: "Ravulizumab: الاستطباب الجديد المتوقع Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ravulizumab
@@ -33,7 +33,7 @@ predicted_indications: ["autosomal recessive severe congenital neutropenia due t
 
 </div>
 
-## رافوليزوماب: من البيلة الهيموغلوبينية الانتيابية الليلية إلى نقص العدلات الخلقي الشديد المتنحي (بسبب نقص G6PC3)
+## Ravulizumab: Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["autosomal recessive severe congenital neutropenia due t
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | البيلة الهيموغلوبينية الانتيابية الليلية (مصدره الرسم المعرفي لـ TxGNN، إذ إن نص الاستطباب المعتمد في تراخيص الهيئة العامة للغذاء والدواء غير متوفر) |
-| الاستطباب الجديد المتنبأ به | نقص العدلات الخلقي الشديد المتنحي بسبب نقص G6PC3 |
-| درجة تنبؤ TxGNN | 99.96% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L5 |
-| حالة التسويق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / الانتظار) |
 
 ---
@@ -81,7 +81,7 @@ predicted_indications: ["autosomal recessive severe congenital neutropenia due t
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Ultomiris 300 mg/30 mL | Ultomiris 300 mg/30 mL (الشركة: Alexion Pharma International Operations Unlimited Company) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| Ultomiris 300 mg/30 mL | Ultomiris 300 mg/30 mL (الشركة: Alexion Pharma International Operations Unlimited Company) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 
@@ -101,7 +101,7 @@ predicted_indications: ["autosomal recessive severe congenital neutropenia due t
 
 **المبررات:**
 - التنبؤ قائم على الرسم المعرفي فقط (مستوى الدليل L5) دون أي تجارب سريرية أو أدبيات، ولا توجد صلة آلية معقولة بين تثبيط C5 ونقص العدلات الناجم عن نقص G6PC3.
-- لا يوجد ترخيص ساري للمنتج في السعودية، كما أن خطر العدوى بالمكورات السحائية يزيد من المخاطر لدى هذه الفئة.
+- يوجد ترخيص ساري واحد للمنتج في السعودية، كما أن خطر العدوى بالمكورات السحائية يزيد من المخاطر لدى هذه الفئة.
 
 **للمضي قدمًا يلزم ما يلي:**
 - الحصول على تحذيرات وموانع استعمال نشرة العبوة من موقع الهيئة العامة للغذاء والدواء (فجوة بيانات حاجبة قبل أي فحص للسلامة).

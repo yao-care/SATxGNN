@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 </div>
 
-## مينوسيكلين: من العدوى البكتيرية وحب الشباب إلى التهاب القرنية والملتحمة الظفري النقطي
+## مينوسيكلين: من العدوى البكتيرية وحب الشباب إلى التهاب القرنية والملتحمة النقطي الظهاري
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,10 +49,10 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 |------|------|
 | الاستطباب الأصلي | التهابات المسالك البولية، التهاب الشعب الهوائية، حب الشباب، وعدوى بكتيرية أخرى (استناداً إلى الرسم المعرفي PrimeKG، إذ لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتنبأ به | التهاب القرنية والملتحمة الظهاري النقطي |
-| درجة تنبؤ TxGNN | 99.63% |
+| درجة تنبؤ TxGNN | 0.9963 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة التسويق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -63,7 +63,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 من المعروف عن التتراسيكلينات أن لها خصائص مضادة للالتهاب وتثبيطاً للإنزيم MMP-9 وتأثيراً مضاداً لموت الخلايا، وتُستخدم في التهابات سطح العين مثل خلل غدد ميبوميوس والتهاب الجفن. قد يكون ذلك ذا صلة نظرياً باعتلال القرنية الظهاري. غير أن هذا استنتاج من علم الأدوية العام وليس دليلاً من البيانات المقدمة، كما أن غياب بيانات آلية العمل الأصلية يحدّ من إمكانية تقييم الرابط الآلي بدقة.
 
-يُذكر أيضاً أن التنبؤ الثاني في القائمة هو التهاب القرنية الانكشافي (exposure keratitis) بدرجة 99.20%، وهو كذلك بلا أي دعم من تجارب أو منشورات، وتتم إدارته عادةً بالترطيب وإغلاق الجفن ومعالجة السبب الأساسي، وهي أمور لا يعالجها هذا التنبؤ.
+يُذكر أيضاً أن التنبؤ الثاني في القائمة هو التهاب القرنية الانكشافي (exposure keratitis) بدرجة 0.9920، وهو كذلك بلا أي دعم من تجارب أو منشورات، وتتم إدارته عادةً بالترطيب وإغلاق الجفن ومعالجة السبب الأساسي، وهي أمور لا يعالجها هذا التنبؤ.
 
 ---
 
@@ -83,11 +83,11 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 | رقم الترخيص / المنتج | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| VULGA 105 mg XR film-coated tablet | VULGA 105 mg XR | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| VULGA 80 mg XR film-coated tablet | VULGA 80 mg XR | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| MINOCIN 100MG PELLET FILLED CAPS | MINOCIN 100 mg | WYETH | ملغى |
-| VULGA 65 mg XR film-coated tablet | VULGA 65 mg XR | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| MINOCIN 50MG PELLET FILLED CAPS | MINOCIN 50 mg | WYETH | ملغى |
+| VULGA 105 mg XR film-coated tablet | VULGA 105 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| VULGA 80 mg XR film-coated tablet | VULGA 80 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| MINOCIN 100MG PELLET FILLED CAPS | MINOCIN 100 mg | WYETH | ساري |
+| VULGA 65 mg XR film-coated tablet | VULGA 65 mg XR | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| MINOCIN 50MG PELLET FILLED CAPS | MINOCIN 50 mg | WYETH | ساري |
 
 (تم عرض 5 من أصل 6 تراخيص، وجميعها ملغاة. نصوص الاستطباب المعتمد وأشكال الجرعات غير متوفرة في البيانات.)
 

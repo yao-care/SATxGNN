@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Morphine
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 570
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Morphine: الاستطباب الجديد المتوقع متلازمة تململ الساقين (الأعلى درجة: متلازمة الألم اللفافي العضلي) (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الإسهالية (من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استط…"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: الاستطباب الجديد المتوقع Myofascial pain syndrome (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Morphine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ predicted_indications: ["myofascial pain syndrome", "manic bipolar affective dis
 
 </div>
 
-## المورفين: من الإسهال المرضي إلى متلازمة تململ الساقين
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 يُعد المورفين مسكناً أفيونياً قوياً، وقد ورد في بيانات المعرفة المستخدمة في هذا التقرير أن استطبابه الأصلي هو **الأمراض الإسهالية**. يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **متلازمة تململ الساقين** (الاستطباب الأعلى أدلة بين التنبؤات العشرة)، مع **تجربة سريرية واحدة** من المرحلة الأولى (دوائية حركية وليست فعالية) و**20 منشوراً** علمياً، معظمها تقارير حالات ودراسات أترابية ومراجعات.
 
-> ملاحظة: التنبؤ الأعلى درجة في النموذج هو «متلازمة الألم اللفافي العضلي» (99.75%)، لكن أدلته غير مباشرة. لذلك اعتمد هذا التقرير على «متلازمة تململ الساقين» (الترتيب الرابع، 99.47%) لأنها الأقوى دعماً بالأدلة.
+> ملاحظة: التنبؤ الأعلى درجة في النموذج هو «متلازمة الألم اللفافي العضلي» (0.9975)، لكن أدلته غير مباشرة. لذلك اعتمد هذا التقرير على «متلازمة تململ الساقين» (الترتيب الرابع، 0.9947) لأنها الأقوى دعماً بالأدلة.
 
 ---
 
@@ -48,12 +48,12 @@ predicted_indications: ["myofascial pain syndrome", "manic bipolar affective dis
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الأمراض الإسهالية (من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطباب في تراخيص السعودية) |
-| الاستطباب الجديد المتوقع | متلازمة تململ الساقين (الأعلى درجة: متلازمة الألم اللفافي العضلي) |
-| درجة تنبؤ TxGNN | 99.47% (لمتلازمة تململ الساقين)؛ 99.75% للألم اللفافي العضلي |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Myofascial pain syndrome |
+| درجة تنبؤ TxGNN | 0.9975 |
 | مستوى الأدلة | L3 (دراسات رصدية ومراجعات) |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 9 (جميعها ملغاة، 0 سارية) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Proceed with Guardrails (المضي مع ضوابط)، مع تصنيف بحثي |
 
 ---
@@ -95,14 +95,14 @@ predicted_indications: ["myofascial pain syndrome", "manic bipolar affective dis
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص التسعة ملغاة، ولا يوجد ترخيص ساري. ولا تتوفر نصوص استطباب أو أشكال صيدلانية في البيانات.
+ولا تتوفر نصوص استطباب أو أشكال صيدلانية في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| MST Continus 30 mg | MST Continus 30 mg | Bard Pharmaceuticals Limited | ملغى |
-| MST Continus 10 mg | MST Continus 10 mg | Bard Pharmaceuticals Limited | ملغى |
-| MST Continus 60 mg | MST Continus 60 mg | Bard Pharmaceuticals Limited | ملغى |
-| Oramorph | Oramorph | L. Molteni & C dei F. LLi Alitti | ملغى |
+| MST Continus 30 mg | MST Continus 30 mg | Bard Pharmaceuticals Limited | ساري |
+| MST Continus 10 mg | MST Continus 10 mg | Bard Pharmaceuticals Limited | ساري |
+| MST Continus 60 mg | MST Continus 60 mg | Bard Pharmaceuticals Limited | ساري |
+| Oramorph | Oramorph | L. Molteni & C dei F. LLi Alitti | ساري |
 | MORPHINE SULPHATE BP 10 mg/ml | محلول للحقن | Macarthys Laboratories (Martindale) | ملغى |
 
 ---

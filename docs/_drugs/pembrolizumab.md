@@ -4,17 +4,17 @@ title: Pembrolizumab
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 640
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Pembrolizumab: الاستطباب الجديد المتوقع تليف اللثة (Fibromatosis, Gingival) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا، سرطان الرئة، سرطان الجلد الميلانيني الن…"
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Pembrolizumab: الاستطباب الجديد المتوقع تليف اللثة (fibromatosis, gingival) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pembrolizumab
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 
 </div>
 
-## بيمبروليزوماب: من سرطان الرئة غير صغير الخلايا إلى تليف اللثة (Fibromatosis, Gingival)
+## Pembrolizumab: تليف اللثة (fibromatosis, gingival)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان الرئة غير صغير الخلايا، سرطان الرئة، سرطان الجلد الميلانيني النقيلي (من الرسم البياني المعرفي، إذ لا يتوفر نص استطباب معتمد في بيانات التراخيص) |
-| الاستطباب الجديد المتوقع | تليف اللثة (Fibromatosis, Gingival) |
-| درجة تنبؤ TxGNN | 99.40% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | تليف اللثة (fibromatosis, gingival) |
+| درجة تنبؤ TxGNN | 0.9940 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (Cancelled only) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / الانتظار) |
 
 ---
@@ -82,7 +82,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion | KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion (الشركة: MSD International GmbH) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion | KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion (الشركة: MSD International GmbH) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 يوجد ترخيص واحد فقط وهو ملغى، ولا يوجد حالياً أي ترخيص ساري.
 

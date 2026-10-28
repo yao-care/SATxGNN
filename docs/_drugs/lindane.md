@@ -50,10 +50,10 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 |------|------|
 | الاستطباب الأصلي | الإصابة بقمل العانة، وقمل الرأس، والجرب، والجرب النرويجي، والإصابة بالعثّ (من رسم المعرفة PrimeKG، إذ إن نصوص الاستطباب المرخّص في السعودية فارغة) |
 | الاستطباب الجديد المتوقع | ورم الأرومة العصبية العنقي (Cervical neuroblastoma) |
-| درجة التوقع في TxGNN | 99.91% |
+| درجة التوقع في TxGNN | 0.9991 |
 | مستوى الأدلة | L5 (توقع نموذجي فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,9 +84,9 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| KWELL CREAM | KWELL CREAM (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ملغى |
-| KWELL SHAMPOO | KWELL SHAMPOO (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ملغى |
-| KWELL LOTION | KWELL LOTION (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ملغى |
+| KWELL CREAM | KWELL CREAM (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ساري |
+| KWELL SHAMPOO | KWELL SHAMPOO (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ساري |
+| KWELL LOTION | KWELL LOTION (الشركة: RED AND CARNIK) | غير محدد | غير متوفر | ساري |
 
 ---
 

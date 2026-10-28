@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tizanidine
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 819
-evidence_level: L5
-indication_count: 6
+evidence_level: L1
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Tizanidine: الاستطباب الجديد المتوقع اضطراب الشقيقة (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)"
 monitor_inn: "TIZANIDINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 ---
 
 # Tizanidine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة) |
 | الاستطباب الجديد المتوقع | اضطراب الشقيقة (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.79% |
+| درجة تنبؤ TxGNN | 0.9979 |
 | مستوى الأدلة | L1 وفق التصنيف المسجّل في البيانات، مع تحفظ: لا توجد تجربتان مكتملتان من المرحلة الثالثة، والتجربة الوحيدة حالتها «غير معروفة»؛ والتقييم الأدق وفق قواعد المستويات هو بين L2 وL3 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -99,13 +99,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SIRDALUD 4MG TAB | SIRDALUD 4MG TAB (نوفارتس) | أقراص | غير متوفر (ملغى) |
-| SIRDALUD 2MG TAB | SIRDALUD 2MG TAB (نوفارتس) | أقراص | غير متوفر (ملغى) |
-| TILAX 4 MG TABLET | TILAX 4 MG (الرياض فارما) | أقراص | غير متوفر (ملغى) |
-| TILAX 2 MG TABLET | TILAX 2 MG (الرياض فارما) | أقراص | غير متوفر (ملغى) |
-| RELEZIN 4 MG TABLET | RELEZIN 4 MG (الشركة المتحدة للأدوية) | أقراص | غير متوفر (ملغى) |
+| SIRDALUD 4MG TAB | SIRDALUD 4MG TAB (نوفارتس) | أقراص | غير متوفر (ساري) |
+| SIRDALUD 2MG TAB | SIRDALUD 2MG TAB (نوفارتس) | أقراص | غير متوفر (ساري) |
+| TILAX 4 MG TABLET | TILAX 4 MG (الرياض فارما) | أقراص | غير متوفر (ساري) |
+| TILAX 2 MG TABLET | TILAX 2 MG (الرياض فارما) | أقراص | غير متوفر (ساري) |
+| RELEZIN 4 MG TABLET | RELEZIN 4 MG (الشركة المتحدة للأدوية) | أقراص | غير متوفر (ساري) |
 
-جميع التراخيص الستة ملغاة، ولا يوجد حالياً منتج ساري المفعول.
+جميع التراخيص الستة سارية المفعول، والدواء مسوّق في هذا البلد.
 
 ---
 
@@ -124,7 +124,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 **القرار: المتابعة مع ضوابط (Proceed with Guardrails)**
 
 **المبررات:**
-- توجد تجربة مرحلة ثالثة مباشرة في الشقيقة (غير مؤكدة النتائج وحالتها غير معروفة)، إضافة إلى تجربة عشوائية مضبوطة في الصداع اليومي المزمن ومراجعات تدعم الاستخدام الوقائي، مع درجة تنبؤ عالية. لكن الأدلة المباشرة المؤكدة محدودة، وجميع التراخيص المحلية ملغاة.
+- توجد تجربة مرحلة ثالثة مباشرة في الشقيقة (غير مؤكدة النتائج وحالتها غير معروفة)، إضافة إلى تجربة عشوائية مضبوطة في الصداع اليومي المزمن ومراجعات تدعم الاستخدام الوقائي، مع درجة تنبؤ عالية. لكن الأدلة المباشرة المؤكدة محدودة، والدواء مسوّق محلياً وجميع التراخيص الستة سارية المفعول.
 
 **للمضي قدماً يلزم:**
 - الحصول على نتائج التجربة NCT05484349 والتحقق من حالتها.

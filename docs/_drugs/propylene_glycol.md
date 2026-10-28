@@ -48,10 +48,10 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 |------|------|
 | الاستطباب الأصلي | متلازمة جفاف العين، جفاف الملتحمة والقرنية (xerophthalmia) |
 | الاستطباب الجديد المتوقع | التهاب الشعب الهوائية |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -88,8 +88,8 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SYSTANE ULTRA UD LUBRICANT EYE DROPS | SYSTANE ULTRA UD LUBRICANT EYE DROPS | غير مذكور | غير مذكور (الترخيص ملغى) |
-| SYSTANE LUBRICANT EYE DROPS | SYSTANE LUBRICANT EYE DROPS | غير مذكور | غير مذكور (الترخيص ملغى) |
+| SYSTANE ULTRA UD LUBRICANT EYE DROPS | SYSTANE ULTRA UD LUBRICANT EYE DROPS | غير مذكور | غير مذكور (الترخيص ساري) |
+| SYSTANE LUBRICANT EYE DROPS | SYSTANE LUBRICANT EYE DROPS | غير مذكور | غير مذكور (الترخيص ساري) |
 
 الشركة المصنّعة لكلا المنتجين: ALCON LABORATORIES.
 
@@ -109,7 +109,7 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 **المبررات:**
 - التنبؤ نموذجي فقط (مستوى الأدلة L5)، ولا توجد تجارب سريرية، والأدبيات المتاحة تشير إلى ضرر محتمل لا إلى فائدة.
-- لا توجد تراخيص سارية في السعودية، ولا توجد آلية علاجية معقولة لأي من التنبؤات العشرة الأولى.
+- الدواء مسوّق في هذا البلد، ولديه ترخيصان ساريان من أصل ترخيصين، ولا توجد آلية علاجية معقولة لأي من التنبؤات العشرة الأولى.
 
 **للمضي قدمًا يلزم ما يلي:**
 - الحصول على نشرة الدواء من هيئة الغذاء والدواء السعودية (SFDA) وتحليل التحذيرات وموانع الاستعمال، وهو شرط حاجز قبل أي فحص سلامة.

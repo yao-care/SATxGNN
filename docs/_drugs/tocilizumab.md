@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: أدلة متوسطة (L3-L4)
 nav_order: 821
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Tocilizumab: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل مجهول السبب لدى الأحداث، ا…"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "sp
 ## ملخص في جملة واحدة
 
 توسيليزوماب جسم مضاد وحيد النسيلة يثبّط مستقبل الإنترلوكين-6، وكان يُستخدم أساساً في علاج التهاب المفاصل الروماتويدي والتهاب المفاصل مجهول السبب لدى الأحداث، وكذلك التهاب الشريان الصدغي ومرض كاسلمان.
-يتوقع نموذج TxGNN أنه قد يكون فعالاً في **التهاب الفقار اللاصق** (بدرجة 99.99%)، لكن الأدلة المتاحة لا تدعم ذلك: فهناك **تجربتان من المرحلة الثالثة أُنهيتا مبكراً** و**18 منشوراً** معظمها مراجعات وتقارير حالات.
+يتوقع نموذج TxGNN أنه قد يكون فعالاً في **التهاب الفقار اللاصق** (بدرجة 0.9999)، لكن الأدلة المتاحة لا تدعم ذلك: فهناك **تجربتان من المرحلة الثالثة أُنهيتا مبكراً** و**18 منشوراً** معظمها مراجعات وتقارير حالات.
 
 ---
 
@@ -49,10 +49,10 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "sp
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، التهاب المفاصل مجهول السبب لدى الأحداث، التهاب الشريان الصدغي، مرض كاسلمان (مأخوذة من الرسم المعرفي، إذ لا يوجد نص استطباب في تراخيص الهيئة) |
 | الاستطباب الجديد المتوقع | التهاب الفقار اللاصق |
-| درجة التوقع في TxGNN | 99.99% |
+| درجة التوقع في TxGNN | 0.9999 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -97,8 +97,8 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "sp
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ACTEMRA 20 MG/ML Solution for injection/infusion | ACTEMRA 20 MG/ML (شركة Chugai) | محلول للحقن/التسريب | غير متوفر؛ الحالة: ملغى |
-| ACTEMRA 162 mg/0.9 ml solution for injection in pre-filled syringe | ACTEMRA 162 mg/0.9 ml (شركة Vetter Pharma) | محقنة معبأة مسبقاً | غير متوفر؛ الحالة: ملغى |
+| ACTEMRA 20 MG/ML Solution for injection/infusion | ACTEMRA 20 MG/ML (شركة Chugai) | محلول للحقن/التسريب | غير متوفر؛ الحالة: ساري |
+| ACTEMRA 162 mg/0.9 ml solution for injection in pre-filled syringe | ACTEMRA 162 mg/0.9 ml (شركة Vetter Pharma) | محقنة معبأة مسبقاً | غير متوفر؛ الحالة: ساري |
 
 ---
 
@@ -119,7 +119,7 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "sp
 
 **المبررات:**
 - أُنهيت تجربتا المرحلة الثالثة الوحيدتان في التهاب الفقار اللاصق مبكراً دون إثبات فائدة، وبقية الأدلة مراجعات وتقارير حالات؛ كما أن الدواء يُعد أقل فعالية من مثبطات TNF وIL-17 في هذا المرض.
-- لا توجد تراخيص سارية في السعودية حالياً (ملغاة فقط).
+- الدواء مسوَّق حالياً في هذا البلد، ولديه ترخيصان ساريان من أصل ترخيصين.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء من الهيئة العامة للغذاء والدواء لاستكمال التحذيرات والموانع (وهي فجوة معلومات حاجبة لمرحلة فحص السلامة).

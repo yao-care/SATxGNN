@@ -6,9 +6,9 @@ nav_order: 844
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Triptorelin: الاستطباب الجديد المتوقع البلوغ المبكر (Precocious Puberty) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفر (حقول نص المؤشر في جميع التراخيص فارغة)"
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+description: "Triptorelin: الاستطباب الجديد المتوقع Hypertrichosis (disease) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Triptorelin
@@ -33,7 +33,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-## تريبتوريلين: من مؤشر مرخّص غير مُدرج في البيانات إلى البلوغ المبكر
+## Triptorelin: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | غير متوفر (حقول نص المؤشر في جميع التراخيص فارغة) |
-| المؤشر الجديد المتوقع | البلوغ المبكر (Precocious Puberty) |
-| درجة تنبؤ TxGNN | 99.89% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Hypertrichosis (disease) |
+| درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L1 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | المضي قدماً مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -102,15 +102,15 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الستة ملغاة، ولا يوجد ترخيص ساري. نصوص المؤشرات وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
+نصوص المؤشرات وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
 | رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| DIPHERELINE 0.1 MG POWDER FOR SOLUTION FOR INJECTION / INFUSION | IPSEN PHARMA BIOTECH | ملغى |
-| DIPHERELINE P.R. 3 mg Powder for Suspension for Injection | IPSEN PHARMA BIOTECH | ملغى |
-| DECAPEPTYL DEPOT NOVUM 3.75MG VIAL+SOLVT | FERRING | ملغى |
-| DECAPEPTYL CR 3.75MG SYRINGE | FERRING | ملغى |
-| DIPHERELINE P.R. 11.25 mg Powder for Suspension for Injection | IPSEN PHARMA BIOTECH | ملغى |
+| DIPHERELINE 0.1 MG POWDER FOR SOLUTION FOR INJECTION / INFUSION | IPSEN PHARMA BIOTECH | ساري |
+| DIPHERELINE P.R. 3 mg Powder for Suspension for Injection | IPSEN PHARMA BIOTECH | ساري |
+| DECAPEPTYL DEPOT NOVUM 3.75MG VIAL+SOLVT | FERRING | ساري |
+| DECAPEPTYL CR 3.75MG SYRINGE | FERRING | ساري |
+| DIPHERELINE P.R. 11.25 mg Powder for Suspension for Injection | IPSEN PHARMA BIOTECH | ساري |
 
 ---
 
@@ -133,7 +133,6 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 **المبررات:**
 - توجد عدة تجارب مكتملة من المرحلة الثالثة (تركيبات شهر و3 و6 أشهر)، ودعم من مراجعات ومنشورات، لكنها في معظمها مفتوحة أحادية الذراع، ما يقيّد قوة الدليل المقارن.
 - الآلية المباشرة والمعروفة تدعم الاستخدام، وهو مؤشر مُعتمد أصلاً خارج السعودية.
-- جميع التراخيص السعودية ملغاة، لذا يتطلب أي استخدام محلي ترخيصاً جديداً.
 
 **للمتابعة يلزم:**
 - الحصول على نشرة SFDA الدوائية واستخراج التحذيرات وموانع الاستعمال (فجوة بيانات تمنع الانتقال إلى فحص السلامة).

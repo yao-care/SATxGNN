@@ -4,17 +4,17 @@ title: Tiaprofenic Acid
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 814
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Tiaprofenic Acid: الاستطباب الجديد المتوقع متلازمة قصر الأصابع والتصاق الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي (من الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "TIAPROFENIC ACID"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
 ---
 
 # Tiaprofenic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الفصال العظمي (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في تراخيص الهيئة العامة للغذاء والدواء) |
 | الاستطباب الجديد المتوقع | متلازمة قصر الأصابع والتصاق الأصابع |
-| درجة توقع TxGNN | 99.99% |
+| درجة توقع TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -64,7 +64,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 ### التوقعات الأخرى ضمن القائمة
 
-جميع التوقعات العشرة الأولى تفتقر إلى تجارب سريرية ومنشورات. ومن بينها، الأقرب بيولوجيًا هو **الاعتلال الفقاري المفصلي (spondyloarthropathy)** (الدرجة 99.99%، مستوى الأدلة L4، التوصية: سؤال بحثي)، لأن مضادات الالتهاب غير الستيرويدية علاج أولي للأعراض في التهاب الفقار المفصلي. لكن هذا يعكس تأثير الفئة الدوائية وليس دليلًا خاصًا بحمض التيابروفينيك، كما أن المنتج ملغى في السوق.
+جميع التوقعات العشرة الأولى تفتقر إلى تجارب سريرية ومنشورات. ومن بينها، الأقرب بيولوجيًا هو **الاعتلال الفقاري المفصلي (spondyloarthropathy)** (الدرجة 0.9999، مستوى الأدلة L4، التوصية: سؤال بحثي)، لأن مضادات الالتهاب غير الستيرويدية علاج أولي للأعراض في التهاب الفقار المفصلي. لكن هذا يعكس تأثير الفئة الدوائية وليس دليلًا خاصًا بحمض التيابروفينيك، كما أن المنتج ملغى في السوق.
 
 أما بقية التوقعات (مثل خلل التنسج الهيكلي، وتصلب العضلات، ونقص عامل التخثر، وسواها) فلا يوجد لها رابط آلي معقول؛ وبعضها، كاضطرابات التخثر، قد يشكل مصدر قلق للسلامة بسبب مخاطر القلب والنزف المرتبطة بهذه الفئة.
 
@@ -84,7 +84,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SURGAM 300MG TABLET | SURGAM 300MG TABLET (شركة AVENTIS PHARMA LIMITED) | أقراص (300 ملغ) | غير متوفر (الحالة: ملغى) |
+| SURGAM 300MG TABLET | SURGAM 300MG TABLET (شركة AVENTIS PHARMA LIMITED) | أقراص (300 ملغ) | غير متوفر (الحالة: ساري) |
 
 ---
 
@@ -102,7 +102,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 **المبررات:**
 - التوقع قائم على النموذج الحاسوبي فقط (L5) دون أي تجارب سريرية أو منشورات، ولا يوجد رابط آلي دوائي معقول مع مرض وراثي تطوري.
-- المنتج الوحيد المرخص في السعودية ملغى، ولا يوجد ترخيص ساري.
+- الدواء مسوَّق في هذا البلد، ويوجد ترخيص واحد ساري من أصل ترخيص واحد.
 
 **للمضي قدمًا يلزم:**
 - الحصول على نشرة العبوة من موقع الهيئة العامة للغذاء والدواء (تحذيرات وموانع الاستعمال)، وهي بيانات مانعة للانتقال إلى مرحلة فحص السلامة.

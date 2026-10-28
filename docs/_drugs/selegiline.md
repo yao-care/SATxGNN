@@ -6,9 +6,9 @@ nav_order: 748
 evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Selegiline: الاستطباب الجديد المتوقع الفصام (Schizophrenia) (مستوى الدليل L3). الاستطباب الأصلي: مرض باركنسون (إضافة إلى الاكتئاب الجسيم واضطرابات القلق، وفق الاستطبا…"
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: الاستطباب الجديد المتوقع Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Selegiline
@@ -33,7 +33,7 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 </div>
 
-## سيليجيلين: من مرض باركنسون إلى الفصام
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | مرض باركنسون (إضافة إلى الاكتئاب الجسيم واضطرابات القلق، وفق الاستطبابات المسجلة في الرسم المعرفي) |
-| الاستطباب الجديد المتوقع | الفصام (Schizophrenia) |
-| درجة تنبؤ TxGNN | 99.14% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| درجة تنبؤ TxGNN | 0.9915 |
 | مستوى الدليل | L3 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت، مع اعتباره سؤالاً بحثياً) |
 
 > ملاحظة: يوجد 4 استطبابات متوقعة في البيانات المجمّعة. يركّز هذا التقرير على الاستطباب الأعلى ترتيباً الذي يتوفر له دليل فعلي (الفصام). الاستطباب الأول بحسب الترتيب (تعدد التَّلافيف القشرية المحيطة بالشق السيلفي مع ضمور المخيخ وتقفّع المفاصل) والثالث (اضطراب الارتباط السكّري الخلقي مع نقص الفكوزة) لا يملكان أي دليل ولا رابطاً آلياً معقولاً. أما الرابع (الحثل الشبكي) فدليله ورقة واحدة غير مباشرة.
@@ -99,7 +99,7 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ELDEPRYL 5MG TABS | ELDEPRYL 5MG TABS (الشركة المصنعة: ORION PHARMA) | غير محدد | غير متوفر (الحالة: ملغى) |
+| ELDEPRYL 5MG TABS | ELDEPRYL 5MG TABS (الشركة المصنعة: ORION PHARMA) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

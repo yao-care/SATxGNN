@@ -4,17 +4,17 @@ title: Fosinopril
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 376
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Fosinopril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الكلوي الوعائي الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم"
 monitor_inn: "Fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Fosinopril: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Fosinopril
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## فوسينوبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الكلوي الوعائي الخبيث
+## Fosinopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم |
-| الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الكلوي الوعائي الخبيث |
-| درجة تنبؤ TxGNN | 99.87% |
-| مستوى الأدلة | L4 (أدلة غير مباشرة تقوم على الآلية الدوائية للفئة) |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 6 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Malignant hypertensive renal disease |
+| درجة تنبؤ TxGNN | 0.9987 |
+| مستوى الأدلة | L5 (أدلة غير مباشرة تقوم على الآلية الدوائية للفئة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -81,15 +81,15 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الستة المسجلة ملغاة، ولا يوجد ترخيص ساري. ولا تتوفر نصوص الاستطباب المعتمد ولا الأشكال الصيدلانية.
+ولا تتوفر نصوص الاستطباب المعتمد ولا الأشكال الصيدلانية.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| FOSOPRIL 40 mg tablet | FOSOPRIL 40 mg tablet | Riyadh Pharma | ملغى |
-| STARIL 20MG TAB | STARIL 20MG TAB | Spimaco | ملغى |
-| STARIL 10MG TAB | STARIL 10MG TAB | Spimaco | ملغى |
-| FOSOPRIL 10 mg tablet | FOSOPRIL 10 mg tablet | Riyadh Pharma | ملغى |
-| FOSIPRIL 10 mg tablet | FOSIPRIL 10 mg tablet | Gulf Pharmaceutical Industries (Julphar) | ملغى |
+| FOSOPRIL 40 mg tablet | FOSOPRIL 40 mg tablet | Riyadh Pharma | ساري |
+| STARIL 20MG TAB | STARIL 20MG TAB | Spimaco | ساري |
+| STARIL 10MG TAB | STARIL 10MG TAB | Spimaco | ساري |
+| FOSOPRIL 10 mg tablet | FOSOPRIL 10 mg tablet | Riyadh Pharma | ساري |
+| FOSIPRIL 10 mg tablet | FOSIPRIL 10 mg tablet | Gulf Pharmaceutical Industries (Julphar) | ساري |
 
 ---
 
@@ -116,10 +116,10 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | الترتيب | المرض | درجة TxGNN | مستوى الأدلة | القرار |
 |------|------|------|------|------|
-| 2 | اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث | 99.87% | L4 | Hold |
-| 3 | ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجة | 99.87% | L5 | Hold |
-| 4 | ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة غير الواضحة | 99.87% | L5 | Hold |
-| 5 | متلازمة برادوك | 99.81% | L5 | Hold |
+| 2 | اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث | 0.9987 | L5 | Hold |
+| 3 | ارتفاع ضغط الدم الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجة | 0.9987 | L5 | Hold |
+| 4 | ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة غير الواضحة | 0.9987 | L5 | Hold |
+| 5 | متلازمة برادوك | 0.9981 | L5 | Hold |
 
 ملاحظات:
 - **ارتفاع ضغط الدم الرئوي (الترتيب 3):** الرابط الآلي نظري فقط. قد تزيد موسعات الأوعية الجهازية سوءَ توافق التهوية والإرواء في أمراض الرئة المصحوبة بنقص الأكسجة، ومثبّطات ACE ليست علاجًا معتمدًا لهذه الفئة. والدراستان المسترجعتان لا تدعمان الفعالية: إحداهما خارج الموضوع (جينات في خلايا ميزانجيال لفأر مصاب باعتلال الكلية السكري)، والأخرى تقرير حالة عن حدث ضار.
@@ -133,13 +133,11 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 **المبررات:**
 - التنبؤ يستند إلى درجة النموذج والآلية الدوائية للفئة فقط، دون تجارب سريرية أو أدبيات داعمة، وهو في الأساس امتداد للاستطباب المعتمد وليس استطبابًا جديدًا حقيقيًا.
-- لا توجد تراخيص سارية في السعودية، ولم تُستكمل بيانات السلامة من النشرة الدوائية، وهي فجوة تمنع الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدمًا يلزم ما يلي:**
 - تنزيل النشرة الدوائية من موقع الهيئة العامة للغذاء والدواء (SFDA) وتحليل التحذيرات وموانع الاستعمال (أولوية حاسمة).
 - استكمال بيانات آلية العمل من DrugBank.
 - البحث عن أدلة سريرية مباشرة لمثبّطات ACE في ارتفاع ضغط الدم الكلوي الوعائي الخبيث، مع تقييم مخاطر تدهور وظائف الكلى في تضيق الشريان الكلوي ثنائي الجانب.
-- التحقق من إمكانية وجود منتج سارٍ في السوق السعودي، إذ إن جميع التراخيص الحالية ملغاة.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

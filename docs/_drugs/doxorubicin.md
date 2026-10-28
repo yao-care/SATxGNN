@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 280
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Doxorubicin: الاستطباب الجديد المتوقع ساركوما إوينغ (مستوى الدليل L1). الاستطباب الأصلي: اللوكيميا الليمفاوية الحادة، لمفوما هودجكن، اللمفوما غير الهودجكنية،…"
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 |------|------|
 | الاستطباب الأصلي | اللوكيميا الليمفاوية الحادة، لمفوما هودجكن، اللمفوما غير الهودجكنية، لمفوما الخلايا المعطفية، تكاثر الخلايا الهيستيوسيتية لانغرهانس (مستخلصة من الرسم المعرفي، إذ لا يتوفر نص استطباب في تراخيص السوق) |
 | الاستطباب الجديد المتنبأ به | ساركوما إوينغ |
-| درجة تنبؤ TxGNN | 99.90% |
+| درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L1 |
-| حالة السوق في السعودية | ✗ جميع التراخيص ملغاة |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | المضي قدماً مع ضوابط حماية (Proceed with Guardrails) |
 
 ---
@@ -106,15 +106,15 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثمانية **ملغاة**، ولا يوجد ترخيص ساري حالياً. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
+يوجد 8 تراخيص سارية من أصل 8 تراخيص، والدواء مسوَّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | حالة الترخيص |
 |---------|------|------|-----------|
-| DOXORUBICIN 2MG-MLVIAL | DOXORUBICIN 2MG-MLVIAL | Fareva Unterach GmbH | ملغى |
-| ADRIBLASTINA 50MG/25ML VIAL | ADRIBLASTINA 50MG/25ML VIAL | PFIZER PERTH PTY LIMITED | ملغى |
-| ADRIBLASTINA 50MG VIAL & SOLV | ADRIBLASTINA 50MG VIAL & SOLV | ACTAVIS | ملغى |
-| ADRIBLASTINA 10MG VIAL & SOLV | ADRIBLASTINA 10MG VIAL & SOLV | ACTAVIS | ملغى |
-| Deroxi Liposomal 50 mg per 25 ml | Deroxi Liposomal 50 mg per 25 ml | Natco Pharma Limited | ملغى |
+| DOXORUBICIN 2MG-MLVIAL | DOXORUBICIN 2MG-MLVIAL | Fareva Unterach GmbH | ساري |
+| ADRIBLASTINA 50MG/25ML VIAL | ADRIBLASTINA 50MG/25ML VIAL | PFIZER PERTH PTY LIMITED | ساري |
+| ADRIBLASTINA 50MG VIAL & SOLV | ADRIBLASTINA 50MG VIAL & SOLV | ACTAVIS | ساري |
+| ADRIBLASTINA 10MG VIAL & SOLV | ADRIBLASTINA 10MG VIAL & SOLV | ACTAVIS | ساري |
+| Deroxi Liposomal 50 mg per 25 ml | Deroxi Liposomal 50 mg per 25 ml | Natco Pharma Limited | ساري |
 
 ---
 
@@ -152,7 +152,7 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 **القرار: المضي قدماً مع ضوابط حماية (Proceed with Guardrails)**
 
 **المبررات:**
-- يدعم الاستطباب عدة تجارب عشوائية مكتملة من المرحلة الثالثة (مستوى الأدلة L1)، ويُعد دوكسوروبيسين مكوناً أساسياً في النظام القياسي لساركوما إوينغ. غير أن الأدلة تخص أنظمة مركّبة، والقيد التنظيمي في السعودية (جميع التراخيص ملغاة) والسمّية القلبية يستدعيان ضوابط.
+- يدعم الاستطباب عدة تجارب عشوائية مكتملة من المرحلة الثالثة (مستوى الأدلة L1)، ويُعد دوكسوروبيسين مكوناً أساسياً في النظام القياسي لساركوما إوينغ. غير أن الأدلة تخص أنظمة مركّبة، والسمّية القلبية تستدعي ضوابط (الدواء مسوَّق في السعودية بـ 8 تراخيص سارية من أصل 8).
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية (SFDA) واستخراج التحذيرات وموانع الاستعمال، وهي فجوة مانعة قبل الانتقال إلى فحص السلامة.

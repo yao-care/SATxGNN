@@ -6,9 +6,9 @@ nav_order: 355
 evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Finasteride: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: تضخم البروستاتا الحميد"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Finasteride: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Finasteride
@@ -33,7 +33,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-## فيناستيرايد: من تضخم البروستاتا الحميد إلى فرط الشعر (Hypertrichosis)
+## Finasteride: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,23 +48,23 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | تضخم البروستاتا الحميد |
-| المؤشر الجديد المتوقع | فرط الشعر (hypertrichosis) |
-| درجة تنبؤ TxGNN | 99.99% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Ambras type hypertrichosis universalis congenita |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 7 (جميعها ملغاة، ولا يوجد ترخيص ساري) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (التريث) |
 
 ### المؤشرات الأخرى المتوقعة
 
 | المؤشر المتوقع | الدرجة | مستوى الدليل | القرار |
 |------|------|------|------|
-| متلازمة أمبراس لفرط الشعر الخلقي الشامل | 99.99% | L5 | Hold |
-| متلازمة تشوه مع مكوّن سني و/أو حول سني | 99.99% | L5 | Hold |
-| متلازمة ذات تشوه داندي-ووكر كسمة رئيسية | 99.99% | L5 | Hold |
-| شذوذ وراثي معزول في ساق الشعرة | 99.99% | L5 | Hold |
-| تضخم الرموش العائلي المعزول (Trichomegaly) | 99.15% | L5 | Hold |
+| متلازمة أمبراس لفرط الشعر الخلقي الشامل | 0.9999 | L5 | Hold |
+| متلازمة تشوه مع مكوّن سني و/أو حول سني | 0.9999 | L5 | Hold |
+| متلازمة ذات تشوه داندي-ووكر كسمة رئيسية | 0.9999 | L5 | Hold |
+| شذوذ وراثي معزول في ساق الشعرة | 0.9999 | L5 | Hold |
+| تضخم الرموش العائلي المعزول (Trichomegaly) | 0.9915 | L5 | Hold |
 
 ---
 
@@ -74,7 +74,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 من الناحية الآلية، قد ينفع خفض DHT في فرط الشعر المعتمد على الأندروجين (الشعرانية Hirsutism). أما فرط الشعر العام أو غير الأندروجيني، فلا يعتمد على الأندروجين، وبالتالي فإن انطباق الآلية **جزئي فقط**. كما أن فرط الشعر هو عكس مؤشر تساقط الشعر الذي يُستخدم له الدواء، مما يستدعي الحذر.
 
-أما المؤشرات الأخرى فالصلة الآلية فيها ضعيفة أو معدومة: متلازمة أمبراس ناتجة عن تغيّر جيني (إعادة ترتيب في الكروموسوم 8q تؤثر على TRPS1) وليست معروفة كحالة تعتمد على الأندروجين؛ والتشوهات النمائية (السنية، ودماغ داندي-ووكر) لا دور علاجياً معروفاً لخفض DHT فيها، ويضاف إلى ذلك أن فيناستيرايد مثير للقلق من ناحية التشوهات الجنينية. والتنبؤات هنا ناتجة على الأرجح عن ارتباطات على مستوى الرسم البياني المعرفي فقط.
+أما المؤشرات الأخرى فالصلة الآلية فيها ضعيفة أو معدومة: متلازمة أمبراس ناتجة عن تغيّر جيني (إعادة ترتيب في الكروموسوم 8q تؤثر على TRPS1) وليست معروفة كحالة تعتمد على الأندروجين؛ والتشوهات النمائية (السنية، ودماغ داندي-ووكر) لا دور علاجياً معروفاً لخفض DHT فيها، ويضاف إلى ذلك أن فيناستيرايد مثير للقلق من ناحية التشوهات الجنينية.
 
 بيانات آلية العمل التفصيلية غير متاحة حالياً في المعطيات المجمّعة لهذا التقرير، والوصف أعلاه مبني على المعرفة العامة بالدواء.
 
@@ -101,15 +101,15 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص السبعة **ملغاة** ولا يوجد ترخيص ساري. لم يتوفر نص المؤشر المعتمد أو الشكل الدوائي لأي منها ضمن البيانات المجمّعة.
+لم يتوفر نص المؤشر المعتمد أو الشكل الدوائي لأي منها ضمن البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| PROSTID 5MG F-C TABLETS | PROSTID 5MG F-C TABLETS | SPIMACO | ملغى |
-| PROSNORM | PROSNORM | HAYAT PHARMACEUTICAL INDUSTRIES | ملغى |
-| PROSCAR | PROSCAR | MERCK SHARP & DOHME | ملغى |
-| FINISCAR 5MG F.C. TABLETS | FINISCAR 5MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
-| FINASID 5MG FILM COATED TABLET | FINASID 5MG FILM COATED TABLET | SAJA | ملغى |
+| PROSTID 5MG F-C TABLETS | PROSTID 5MG F-C TABLETS | SPIMACO | ساري |
+| PROSNORM | PROSNORM | HAYAT PHARMACEUTICAL INDUSTRIES | ساري |
+| PROSCAR | PROSCAR | MERCK SHARP & DOHME | ساري |
+| FINISCAR 5MG F.C. TABLETS | FINISCAR 5MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| FINASID 5MG FILM COATED TABLET | FINASID 5MG FILM COATED TABLET | SAJA | ساري |
 
 (ملاحظة: يوجد ترخيصان إضافيان ملغيان هما PROHAIR 1 mg وPROPECIA.)
 
@@ -128,7 +128,6 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 **القرار: Hold (التريث)**
 
 **المبررات:**
-- الدرجة المرتفعة من TxGNN تعتمد على الرسم البياني فقط، ولا توجد تجارب سريرية، والأدبيات المتاحة غير مباشرة، والآلية غير ملائمة لمعظم المؤشرات المتوقعة، كما أن جميع التراخيص في السعودية ملغاة.
 
 **للمضي قدماً يلزم:**
 - الحصول على بيانات آلية العمل (MOA) من DrugBank.

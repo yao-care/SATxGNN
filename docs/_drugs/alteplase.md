@@ -4,9 +4,9 @@ title: Alteplase
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 44
 evidence_level: L5
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Alteplase: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي الجانبي (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي،…"
+description: "Alteplase: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي،…"
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 # Alteplase
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 </div>
 
-## ألتيبلاز: من احتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي الجانبي
+## ألتيبلاز: من احتشاء عضلة القلب إلى نقص العامل المساعد الهيبارين 2
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 |------|------|
 | الاستطباب الأصلي | احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي، والسكتة الدماغية (وفق الاستطبابات المسجلة في الرسم المعرفي، إذ لم يتوفر نص استطباب في بيانات التراخيص) |
 | الاستطباب الجديد المتنبأ به | احتشاء عضلة القلب الخلفي الجانبي |
-| درجة تنبؤ TxGNN | 99.79% |
+| درجة تنبؤ TxGNN | 0.9972 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -82,7 +82,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| ACTILYSE SET (2VLS+2SOLV&INFSET) | ACTILYSE SET (2VLS+2SOLV&INFSET) — Boehringer Ingelheim | غير متوفر | غير متوفر | ملغى |
+| ACTILYSE SET (2VLS+2SOLV&INFSET) | ACTILYSE SET (2VLS+2SOLV&INFSET) — Boehringer Ingelheim | غير متوفر | غير متوفر | ساري |
 
 الترخيص الوحيد المسجل ملغى، ولا يوجد حالياً ترخيص ساري لألتيبلاز في السعودية.
 
@@ -106,7 +106,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 **المبررات:**
 - مستوى الأدلة L5، أي تنبؤ نموذجي فقط دون تجارب سريرية أو أدبيات خاصة بالنوع الفرعي.
 - التنبؤ يقع ضمن استطباب احتشاء عضلة القلب الموجود أصلاً، فلا يمثل إضافة علاجية جديدة.
-- لا يوجد ترخيص ساري للمنتج في السعودية، وعبء التداخلات الدوائية المرتبطة بالنزف مرتفع.
+- المنتج مسوَّق في السعودية، ويوجد ترخيص ساري واحد من أصل ترخيص واحد، وعبء التداخلات الدوائية المرتبطة بالنزف مرتفع.
 
 **للمضي قدماً يلزم:**
 - دليل سريري خاص بالنوع الفرعي (الخلفي الجانبي)، أو توضيح أنه مشمول أصلاً بالاستطباب المعتمد لاحتشاء عضلة القلب.

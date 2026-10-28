@@ -6,9 +6,9 @@ nav_order: 629
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Pantothenic Acid: الاستطباب الجديد المتوقع فقر الدم الناتج عن نقص حمض الفوليك (الترتيب الرابع في التنبؤات) (مستوى الدليل L4). الاستطباب الأصلي: نقص حمض الأسكوربيك (الإسقربوط)"
 monitor_inn: "pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
+description: "Pantothenic Acid: الاستطباب الجديد المتوقع Congenital prothrombin deficiency (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pantothenic Acid
@@ -33,12 +33,12 @@ predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorde
 
 </div>
 
-## حمض البانتوثينيك: من نقص حمض الأسكوربيك (الإسقربوط) إلى فقر الدم الناتج عن نقص حمض الفوليك
+## Pantothenic Acid: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
-حمض البانتوثينيك (فيتامين B5) مكوّن في المستحضرات متعددة الفيتامينات، وكانت دواعي استعماله الأصلية المسجّلة في قاعدة المعرفة نقص حمض الأسكوربيك والإسقربوط. أعلى تنبؤات نموذج TxGNN درجةً هو **نقص البروثرومبين الخلقي** (99.96%)، لكنه بلا أي دليل داعم، لذا يعتمد هذا التقرير **فقر الدم الناتج عن نقص حمض الفوليك** (99.60%) بوصفه أقوى الفرضيات المدعومة بالأدلة، ويستند إلى **3 منشورات** غير سريرية بلا أي تجربة سريرية.
+حمض البانتوثينيك (فيتامين B5) مكوّن في المستحضرات متعددة الفيتامينات، وكانت دواعي استعماله الأصلية المسجّلة في قاعدة المعرفة نقص حمض الأسكوربيك والإسقربوط. أعلى تنبؤات نموذج TxGNN درجةً هو **نقص البروثرومبين الخلقي** (0.9996)، لكنه بلا أي دليل داعم، لذا يعتمد هذا التقرير **فقر الدم الناتج عن نقص حمض الفوليك** (0.9960) بوصفه أقوى الفرضيات المدعومة بالأدلة، ويستند إلى **3 منشورات** غير سريرية بلا أي تجربة سريرية.
 
 > ملاحظة: الترتيب الأول في التنبؤات (نقص البروثرومبين الخلقي) لا يدعمه أي دليل ولا رابط آلي معروف، وقد صُنّف قرار "تعليق". اختير فقر الدم الناتج عن نقص الفوليك للتحليل التفصيلي لأنه أعلى التنبؤات أدلةً.
 
@@ -48,12 +48,12 @@ predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorde
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | نقص حمض الأسكوربيك (الإسقربوط) |
-| الاستطباب الجديد المتوقع | فقر الدم الناتج عن نقص حمض الفوليك (الترتيب الرابع في التنبؤات) |
-| درجة تنبؤ TxGNN | 99.60% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Congenital prothrombin deficiency |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L4 |
-| وضع السوق في السعودية | مُلغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | تعليق (Hold) – سؤال بحثي |
 
 ---
@@ -88,8 +88,8 @@ predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorde
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| MULTIVITOL FORTE SYRUP | MULTIVITOL FORTE SYRUP (أكتوبر فارما) | غير محدد | غير محدد (الترخيص ملغى) |
-| SUPRADYN EFFERVESCENT | SUPRADYN EFFERVESCENT (باير) | غير محدد | غير محدد (الترخيص ملغى) |
+| MULTIVITOL FORTE SYRUP | MULTIVITOL FORTE SYRUP (أكتوبر فارما) | غير محدد | غير محدد (الترخيص ساري) |
+| SUPRADYN EFFERVESCENT | SUPRADYN EFFERVESCENT (باير) | غير محدد | غير محدد (الترخيص ساري) |
 
 ---
 

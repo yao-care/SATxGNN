@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 453
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ipratropium: الاستطباب الجديد المتوقع مرض الرئة الانسدادي (Obstructive lung disease) (مستوى الدليل L1). الاستطباب الأصلي: مرض الانسداد الرئوي المزمن (COPD)، التهاب الأنف التحسسي والوعائي الحر…"
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-## إيبراتروبيوم: من أمراض الجهاز التنفسي الانسدادية المعروفة إلى مرض الرئة الانسدادي (Obstructive Lung Disease)
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | مرض الانسداد الرئوي المزمن (COPD)، التهاب الأنف التحسسي والوعائي الحركي، التهاب الشعب الهوائية، نزلات البرد، النفاخ الرئوي (مأخوذة من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استطباب في بيانات التراخيص) |
-| الاستطباب الجديد المتوقع | مرض الرئة الانسدادي (Obstructive lung disease) |
-| درجة تنبؤ TxGNN | 99.97% |
-| مستوى الأدلة | L1 |
-| وضع السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Nasal cavity disease |
+| درجة تنبؤ TxGNN | 0.9986 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | المضي مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -108,13 +108,12 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ATROSOL 250 mcg/2 ml nebuliser solution | ATROSOL 250 mcg/2 ml (PSI) | محلول للتنبيذ | غير متوفر (ملغى) |
+| ATROSOL 250 mcg/2 ml nebuliser solution | ATROSOL 250 mcg/2 ml (PSI) | محلول للتنبيذ | غير متوفر (ساري) |
 | ATROPULM 500MCG-2ML | ATROPULM 500MCG-2ML (Julphar) | محلول للاستنشاق | غير متوفر (ملغى) |
-| ATROSOL 250 mcg/ml nebuliser solution | ATROSOL 250 mcg/ml (PSI) | محلول للتنبيذ | غير متوفر (ملغى) |
+| ATROSOL 250 mcg/ml nebuliser solution | ATROSOL 250 mcg/ml (PSI) | محلول للتنبيذ | غير متوفر (ساري) |
 | ATROPULM 250MCG-ML | ATROPULM 250MCG-ML (Julphar) | محلول للاستنشاق | غير متوفر (ملغى) |
 | ATROVENT 500MCG-2ML UDV | ATROVENT (Unither) | محلول للاستنشاق | غير متوفر (ملغى) |
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري.
 
 ---
 
@@ -134,7 +133,6 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 **المبررات:**
 - الأدلة قوية لاستطباب COPD (تجارب مرحلة 3 مكتملة كبيرة ومراجعات Cochrane)، لكنها تخص استطباباً قائماً أصلاً وليس استطباباً جديداً.
-- جميع التراخيص السعودية ملغاة، ولم تُراجَع نشرة الدواء الرسمية، فلا بد من الضوابط.
 
 **للمضي قدماً يلزم:**
 - التحقق من وضع التسجيل والتوفر في السعودية، وإعادة الترخيص إن لزم.

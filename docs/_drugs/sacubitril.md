@@ -6,9 +6,9 @@ nav_order: 742
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Sacubitril: الاستطباب الجديد المتوقع اعتلال الكلية السكري (Diabetic nephropathy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص السعودي"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: الاستطباب الجديد المتوقع Brain small vessel disease 1 with or without ocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Sacubitril
@@ -33,7 +33,7 @@ predicted_indications: ["brain small vessel disease 1 with or without ocular ano
 
 </div>
 
-## ساكوبيتريل: من (لا توجد دواعي استعمال مسجلة) إلى اعتلال الكلية السكري
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["brain small vessel disease 1 with or without ocular ano
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر في بيانات الترخيص السعودي |
-| الاستطباب الجديد المتوقع | اعتلال الكلية السكري (Diabetic nephropathy) |
-| درجة تنبؤ TxGNN | 99.50% |
-| مستوى الأدلة | L3 (على الحد بين L3 وL4) |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Brain small vessel disease 1 with or without ocular anomalies |
+| درجة تنبؤ TxGNN | 0.9958 |
+| مستوى الأدلة | L5 (على الحد بين L3 وL4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -96,8 +96,8 @@ predicted_indications: ["brain small vessel disease 1 with or without ocular ano
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ENTRESTO | ENTRESTO | غير محدد | غير متوفر (الترخيص ملغى) |
-| ENTRESTO 200 mg film-coated tablet | ENTRESTO 200 mg film-coated tablet | غير محدد | غير متوفر (الترخيص ملغى) |
+| ENTRESTO | ENTRESTO | غير محدد | غير متوفر (الترخيص ساري) |
+| ENTRESTO 200 mg film-coated tablet | ENTRESTO 200 mg film-coated tablet | غير محدد | غير متوفر (الترخيص ساري) |
 
 ---
 

@@ -48,10 +48,10 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 |------|------|
 | الاستطباب الأصلي | اللمفوما الجريبية، أورام الخلايا البائية الناضجة، ابيضاض الدم الليمفاوي الحاد، متلازمة ريختر (مصدر: الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | لمفوما الخلايا الوشاحية |
-| درجة تنبؤ TxGNN | 99.63% |
+| درجة تنبؤ TxGNN | 0.9963 |
 | مستوى الأدلة | L1 |
-| حالة التسويق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 
 ---
@@ -106,11 +106,11 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
 | RIBOMUSTIN 100 mg | RIBOMUSTIN 100 mg powder for concentrate for solution for infusion (Cenexi) | غير مذكور | غير مذكور (ملغى) |
-| Squadaion | Squadaion (Mylan) | غير مذكور | غير مذكور (ملغى) |
+| Squadaion | Squadaion (Mylan) | غير مذكور | غير مذكور (ساري) |
 | RIBOMUSTIN 25 mg | RIBOMUSTIN 25 mg powder for concentrate for solution for infusion (Cenexi) | غير مذكور | غير مذكور (ملغى) |
-| Bendokey | Bendokey (Eugia Pharma) | غير مذكور | غير مذكور (ملغى) |
+| Bendokey | Bendokey (Eugia Pharma) | غير مذكور | غير مذكور (ساري) |
 
-جميع التراخيص الأربعة ملغاة حاليًا، ولا يوجد ترخيص ساري.
+الدواء مسوَّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
 ---
 

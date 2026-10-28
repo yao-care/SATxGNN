@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 636
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Pegaspargase: الاستطباب الجديد المتوقع ابيضاض/لمفوما الخلايا اللمفاوية السلفية (مستوى الدليل L1). الاستطباب الأصلي: سرطان الدم اللمفاوي الحاد (ALL)، بما فيه ALL من الخلايا التائية السلف…"
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase: الاستطباب الجديد المتوقع Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small l
 
 </div>
 
-## بيجاسبارغاز: من سرطان الدم اللمفاوي الحاد إلى ابيضاض/لمفوما الخلايا اللمفاوية السلفية
+## Pegaspargase: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small l
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان الدم اللمفاوي الحاد (ALL)، بما فيه ALL من الخلايا التائية السلفية (مصدره الاستطبابات الأصلية في الرسم المعرفي لـ TxGNN، إذ إن نص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغ) |
-| الاستطباب الجديد المتوقع | ابيضاض/لمفوما الخلايا اللمفاوية السلفية |
-| درجة تنبؤ TxGNN | 99.96% |
-| مستوى الأدلة | L1 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
+| درجة تنبؤ TxGNN | 0.9995 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
@@ -106,7 +106,7 @@ predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small l
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Oncaspar | Oncaspar (الشركة المصنّعة: LES LABORATOIRES SERVIER INDUSTRIE) | غير مذكور | غير مذكور (الترخيص **ملغى**) |
+| Oncaspar | Oncaspar (الشركة المصنّعة: LES LABORATOIRES SERVIER INDUSTRIE) | غير مذكور | غير مذكور (الترخيص **ساري**) |
 
 لا يوجد حالياً أي ترخيص ساري المفعول لهذا الدواء في السعودية؛ فالترخيص الوحيد المسجّل ملغى. يُوصى بالتحقق من حالة الموافقات الإقليمية الحالية (مثل Oncaspar أو Asparlas) قبل أي توصية.
 

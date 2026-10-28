@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 553
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Metoclopramide: الاستطباب الجديد المتوقع قرحة المعدة (مستوى الدليل L4). الاستطباب الأصلي: داء الارتجاع المعدي المريئي، التهاب المريء، التهاب المريء الهضمي (من…"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 
 </div>
 
-## ميتوكلوبراميد: من الارتجاع المعدي المريئي إلى قرحة المعدة
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء الارتجاع المعدي المريئي، التهاب المريء، التهاب المريء الهضمي (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في التراخيص) |
-| الاستطباب الجديد المتوقع | قرحة المعدة |
-| درجة تنبؤ TxGNN | 99.93% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 16 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Gastroduodenitis |
+| درجة تنبؤ TxGNN | 0.9990 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 16 من 16) |
+| عدد التراخيص | 16 (السارية: 16) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -93,15 +93,15 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ16 ملغاة، ولا يتوفر نص استطباب معتمد لها. أبرز خمسة تراخيص:
+أبرز خمسة تراخيص:
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| METAGLIZ 10 MG TAB | METAGLIZ 10 MG TAB | ALMIRALL PRODES PHARMA | ملغى |
-| PREMOSAN 10 mg tablet | PREMOSAN 10 mg tablet | الخليج للصناعات الدوائية (جلفار) | ملغى |
-| PRIMPERAN TAB 10MG | PRIMPERAN TAB 10MG | sanofi-aventis | ملغى |
-| CLOPRAM 10 mg/2 ml solution for injection | CLOPRAM (حقن) | HIKMA ITALIA SPA | ملغى |
-| METOSIL TAB 10MG | METOSIL TAB 10MG | سبيماكو | ملغى |
+| METAGLIZ 10 MG TAB | METAGLIZ 10 MG TAB | ALMIRALL PRODES PHARMA | ساري |
+| PREMOSAN 10 mg tablet | PREMOSAN 10 mg tablet | الخليج للصناعات الدوائية (جلفار) | ساري |
+| PRIMPERAN TAB 10MG | PRIMPERAN TAB 10MG | sanofi-aventis | ساري |
+| CLOPRAM 10 mg/2 ml solution for injection | CLOPRAM (حقن) | HIKMA ITALIA SPA | ساري |
+| METOSIL TAB 10MG | METOSIL TAB 10MG | سبيماكو | ساري |
 
 ---
 
@@ -130,7 +130,6 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 - الحصول على النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية (تحذيرات وموانع الاستعمال)، وهي فجوة حاجبة للانتقال إلى مرحلة فحص السلامة.
 - استكمال بيانات آلية العمل من DrugBank.
 - تجارب سريرية مضبوطة تقيّم تأثير الدواء على التئام القرحة، أو تحديد دوره كعلاج مساعد للأعراض أو كدواء مسبق للتنظير.
-- مراجعة تنظيمية لوضع الترخيص في السعودية، إذ لا توجد تراخيص سارية.
 
 **ملاحظة على بقية التنبؤات:** التهاب المعدة والاثني عشر، وقرحة الهضم، وقرحة المفاغرة المعدية الصائمية جميعها بمستوى L4 مع توصية Hold. أما **انثقاب قرحة الهضم** فمستوى أدلته L5 ولا توجد صلة آلية معقولة (تحفيز الحركة يُمنع عمومًا مع الانثقاب أو الانسداد)، ويُنصح باستبعاده من الاعتبار.
 ## إخلاء المسؤولية

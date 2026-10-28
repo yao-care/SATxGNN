@@ -4,17 +4,17 @@ title: Pravastatin
 parent: أدلة متوسطة (L3-L4)
 nav_order: 683
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pravastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي المتماثل الزيجوت (مستوى الدليل L4). الاستطباب الأصلي: اضطرابات شحوم الدم وتصلب الشرايين والسكتة الدماغية (مأخوذة من الرسم ا…"
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: الاستطباب الجديد المتوقع HIV infectious disease (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 </div>
 
-## براڤاستاتين: من علاج اضطراب شحوم الدم إلى فرط كوليسترول الدم العائلي المتماثل الزيجوت
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | اضطرابات شحوم الدم وتصلب الشرايين والسكتة الدماغية (مأخوذة من الرسم المعرفي، إذ لا يتوفر نص استطباب معتمد في تراخيص السوق السعودي) |
-| الاستطباب الجديد المتوقع | فرط كوليسترول الدم العائلي المتماثل الزيجوت |
-| درجة تنبؤ TxGNN | 99.95% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | HIV infectious disease |
+| درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -97,7 +97,6 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 | LIPOSTAT 10MG TAB | LIPOSTAT 10MG TAB (الشركة المصنّعة: SPIMACO) | غير متوفر | غير متوفر |
 | LIPOSTAT 20MG TAB | LIPOSTAT 20MG TAB (الشركة المصنّعة: SPIMACO) | غير متوفر | غير متوفر |
 
-كلا الترخيصين بحالة «ملغى»، ولا يوجد ترخيص ساري حالياً.
 
 ---
 

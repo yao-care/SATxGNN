@@ -6,9 +6,9 @@ nav_order: 622
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Oxytetracycline: الاستطباب الجديد المتوقع التهاب الجيوب الأنفية المزمن (مستوى الدليل L5). الاستطباب الأصلي: عدوى بكتيرية متعددة (التهاب المسالك البولية، التهاب القصبات، الالتهاب…"
 monitor_inn: "OXYTETRACYCLINE"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+description: "Oxytetracycline: الاستطباب الجديد المتوقع Chronic rhinosinusitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Oxytetracycline
@@ -33,7 +33,7 @@ predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis",
 
 </div>
 
-## أوكسي تتراسيكلين: من العدوى البكتيرية إلى التهاب الجيوب الأنفية المزمن
+## Oxytetracycline: Chronic rhinosinusitis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis",
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | عدوى بكتيرية متعددة (التهاب المسالك البولية، التهاب القصبات، الالتهاب الرئوي، التهاب الملتحمة، الجمرة الخبيثة وغيرها) |
-| الاستطباب الجديد المتوقع | التهاب الجيوب الأنفية المزمن |
-| درجة تنبؤ TxGNN | 99.61% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Chronic rhinosinusitis |
+| درجة تنبؤ TxGNN | 0.9961 |
 | مستوى الأدلة | L5 |
-| وضع التسويق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 4 |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -74,7 +74,7 @@ predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis",
 
 لا توجد حالياً أدبيات ذات صلة بالتهاب الجيوب الأنفية المزمن.
 
-**ملاحظة جانبية:** من بين الاستطبابات المتوقعة الأخرى، يحظى **التهاب الأذن الخارجية** (المرتبة 10، درجة 99.27%) بأدبيات أكثر، بنحو 17 منشوراً. وأبرزها دراسات عشوائية لمستحضرات موضعية تجمع أوكسي تتراسيكلين مع بوليميكسين B و/أو هيدروكورتيزون:
+**ملاحظة جانبية:** من بين الاستطبابات المتوقعة الأخرى، يحظى **التهاب الأذن الخارجية** (المرتبة 10، درجة 0.9927) بأدبيات أكثر، بنحو 17 منشوراً. وأبرزها دراسات عشوائية لمستحضرات موضعية تجمع أوكسي تتراسيكلين مع بوليميكسين B و/أو هيدروكورتيزون:
 
 | PMID | السنة | النوع | المجلة | أبرز النتائج |
 |------|-----|------|------|---------|
@@ -89,14 +89,13 @@ predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis",
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة **ملغاة**، ولا يوجد حالياً ترخيص ساري.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| TERRAMYCIN EYE OINT 1% | TERRAMYCIN EYE OINT 1% | PFIZER | ملغى |
-| OXYTETRACYCLINE OINT 3% | OXYTETRACYCLINE OINT 3% | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| TERRAMYCIN TOPICAL OINT | TERRAMYCIN TOPICAL OINT | PFIZER | ملغى |
-| IMPERACINE 250MG TAB | IMPERACINE 250MG TAB | AstraZeneca | ملغى |
+| TERRAMYCIN EYE OINT 1% | TERRAMYCIN EYE OINT 1% | PFIZER | ساري |
+| OXYTETRACYCLINE OINT 3% | OXYTETRACYCLINE OINT 3% | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| TERRAMYCIN TOPICAL OINT | TERRAMYCIN TOPICAL OINT | PFIZER | ساري |
+| IMPERACINE 250MG TAB | IMPERACINE 250MG TAB | AstraZeneca | ساري |
 
 ---
 
@@ -124,7 +123,6 @@ predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis",
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (مستوى L5) دون أي تجارب سريرية أو منشورات لالتهاب الجيوب الأنفية المزمن.
-- جميع التراخيص المحلية ملغاة، وبيانات السلامة من النشرة غير متوفرة، مما يمنع الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم:**
 - تنزيل نشرة الدواء المعتمدة من موقع هيئة الغذاء والدواء السعودية (SFDA) وتحليلها للحصول على التحذيرات وموانع الاستعمال.

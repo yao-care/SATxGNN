@@ -48,10 +48,10 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar
 |------|------|
 | المؤشر الأصلي | التخدير العام بالاستنشاق (معروف من الاستخدام العام للدواء، إذ لا يتوفر نص مؤشر في بيانات التراخيص) |
 | المؤشر الجديد المتوقع | ذبحة برينزميتال (Prinzmetal angina) |
-| درجة تنبؤ TxGNN | 99.67% |
+| درجة تنبؤ TxGNN | 0.9967 |
 | مستوى الدليل | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -78,14 +78,14 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة ملغاة، ولا يتوفر نص للمؤشر المعتمد أو شكل الجرعة في البيانات.
+جميع التراخيص الأربعة سارية، ولا يتوفر نص للمؤشر المعتمد أو شكل الجرعة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| AERRANE LIQUID FOR INHALATION | AERRANE LIQUID FOR INHALATION | BAXTER HEALTHCARE | ملغى |
-| FLORAN | FLORAN | Hikma Pharmaceuticals PLC | ملغى |
-| TERRELL 100% VAPOUR LIQUID FOR INHALATION | TERRELL 100% VAPOUR LIQUID FOR INHALATION | PIRAMAL CRITICAL CARE INC | ملغى |
-| FORANE(INH. ANES.)100ML BOTTL | FORANE(INH. ANES.)100ML BOTTL | Abbott Laboratories | ملغى |
+| AERRANE LIQUID FOR INHALATION | AERRANE LIQUID FOR INHALATION | BAXTER HEALTHCARE | ساري |
+| FLORAN | FLORAN | Hikma Pharmaceuticals PLC | ساري |
+| TERRELL 100% VAPOUR LIQUID FOR INHALATION | TERRELL 100% VAPOUR LIQUID FOR INHALATION | PIRAMAL CRITICAL CARE INC | ساري |
+| FORANE(INH. ANES.)100ML BOTTL | FORANE(INH. ANES.)100ML BOTTL | Abbott Laboratories | ساري |
 
 ---
 

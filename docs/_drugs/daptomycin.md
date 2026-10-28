@@ -4,17 +4,17 @@ title: Daptomycin
 parent: أدلة متوسطة (L3-L4)
 nav_order: 228
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Daptomycin: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (Osteoarthritis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عمومًا: عدوى بكتيرية إيجابية ال…"
 monitor_inn: "DAPTOMYCIN"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthriti
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص (المعروف عمومًا: عدوى بكتيرية إيجابية الغرام مثل عدوى الجلد والبكتيريميا) |
 | الاستطباب الجديد المتوقع | التهاب المفاصل العظمي (Osteoarthritis) |
-| درجة تنبؤ TxGNN | 99.86% |
+| درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الدليل | L4 |
-| وضع السوق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 4 (جميعها ملغاة، 0 سارية) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -97,10 +97,10 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthriti
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| DACI | DACI | غير متوفر | غير متوفر | ملغى |
-| DOCINE 500 mg Vial | DOCINE 500 mg Vial | غير متوفر | غير متوفر | ملغى |
-| DAPTOCIDAL | DAPTOCIDAL | غير متوفر | غير متوفر | ملغى |
-| DAPTOMYCIN BOS | DAPTOMYCIN BOS | غير متوفر | غير متوفر | ملغى |
+| DACI | DACI | غير متوفر | غير متوفر | ساري |
+| DOCINE 500 mg Vial | DOCINE 500 mg Vial | غير متوفر | غير متوفر | ساري |
+| DAPTOCIDAL | DAPTOCIDAL | غير متوفر | غير متوفر | ساري |
+| DAPTOMYCIN BOS | DAPTOMYCIN BOS | غير متوفر | غير متوفر | ساري |
 
 ---
 
@@ -121,7 +121,7 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthriti
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التنبؤ عالي الدرجة (99.86%) لكنه غير مدعوم بأي تجربة سريرية أو دليل آلية مباشر لالتهاب المفاصل العظمي، والأدبيات تخص عدوى المفاصل فقط.
+- التنبؤ عالي الدرجة (0.9986) لكنه غير مدعوم بأي تجربة سريرية أو دليل آلية مباشر لالتهاب المفاصل العظمي، والأدبيات تخص عدوى المفاصل فقط.
 - جميع تراخيص الدواء في السعودية ملغاة حاليًا، ولا توجد بيانات سلامة معتمدة من النشرة، والدواء وريدي فقط مع خطر اعتلال عضلي.
 
 **للمضي قدمًا يلزم:**
@@ -129,7 +129,7 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthriti
 - استكمال بيانات آلية العمل من DrugBank.
 - تأكيد الاستطباب الأصلي وحالة التراخيص (إلغاء مقابل توفر بديل مسجل).
 - إجراء دراسات ما قبل سريرية مباشرة على نماذج التهاب المفاصل العظمي التنكسي.
-- يُقترح اعتبار **التهاب المفاصل الروماتويدي** (المرتبة الثانية، درجة 99.84%، دليل L4 من دراستين حيوانيتين حديثتين) سؤالًا بحثيًا أكثر واقعية من التهاب المفاصل العظمي، مع تقييم ترجمة الجرعة والتعرض والسلامة العضلية.
+- يُقترح اعتبار **التهاب المفاصل الروماتويدي** (المرتبة الثانية، درجة 0.9984، دليل L4 من دراستين حيوانيتين حديثتين) سؤالًا بحثيًا أكثر واقعية من التهاب المفاصل العظمي، مع تقييم ترجمة الجرعة والتعرض والسلامة العضلية.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

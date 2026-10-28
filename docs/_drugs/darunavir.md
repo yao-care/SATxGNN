@@ -50,10 +50,10 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 |------|------|
 | الاستطباب الأصلي | عدوى HIV / الإيدز (من الرسم المعرفي PrimeKG، إذ لا يوجد نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة القردي (SIV) |
-| درجة تنبؤ TxGNN | 99.97% |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | تعليق (Hold) |
 
 ---
@@ -90,14 +90,14 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري. ولا تتوفر بيانات عن شكل الجرعة أو نص الاستطباب المعتمد.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
 | اسم الترخيص / المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| PREZISTA 600 mg film-coated tablet | JANSSEN-CILAG SPA | ملغى |
-| Darista | APL Health Care Limited | ملغى |
-| PREZISTA 400 mg film-coated tablet | JANSSEN-CILAG SPA | ملغى |
-| PREZISTA 300MG F.C. TABLETS | JANSSEN - ORTHO | ملغى |
+| PREZISTA 600 mg film-coated tablet | JANSSEN-CILAG SPA | ساري |
+| Darista | APL Health Care Limited | ساري |
+| PREZISTA 400 mg film-coated tablet | JANSSEN-CILAG SPA | ساري |
+| PREZISTA 300MG F.C. TABLETS | JANSSEN - ORTHO | ساري |
 
 ---
 

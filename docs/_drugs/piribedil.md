@@ -4,17 +4,17 @@ title: Piribedil
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 662
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Piribedil: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون شذوذات خارج العين) (مستوى الدليل L5). الاستطباب الأصلي: داء باركنسون / الاضطرابات الباركنسونية (بحسب الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "PIRIBEDIL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration"]
+description: "Piribedil: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Piribedil
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## بيريبيديل: من داء باركنسون إلى الحثل الشبكي (مع أو بدون شذوذات خارج العين)
+## Piribedil: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء باركنسون / الاضطرابات الباركنسونية (بحسب الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في بيانات التراخيص) |
-| الاستطباب الجديد المتوقع | الحثل الشبكي (مع أو بدون شذوذات خارج العين) |
-| درجة تنبؤ TxGNN | 99.34% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Retinal dystrophy with or without extraocular anomalies |
+| درجة تنبؤ TxGNN | 0.9934 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -85,7 +85,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| TRIVASTAL RETARD 50MG TAB | TRIVASTAL RETARD 50MG TAB (الشركة المصنعة: SERVIER) | غير محدد | غير متوفر (الترخيص ملغى) |
+| TRIVASTAL RETARD 50MG TAB | TRIVASTAL RETARD 50MG TAB (الشركة المصنعة: SERVIER) | غير محدد | غير متوفر (الترخيص ساري) |
 
 ---
 

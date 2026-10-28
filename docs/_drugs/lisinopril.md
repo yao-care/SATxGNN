@@ -4,17 +4,17 @@ title: Lisinopril
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 505
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Lisinopril: الاستطباب الجديد المتوقع احتشاء عضلة القلب الخلفي الجانبي (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، احتشاء عضلة القلب (بحسب الرسم المعرفي PrimeKG، إذ لا…"
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: الاستطباب الجديد المتوقع Pulmonary hypertension with unclear multifactorial mechanism (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-## ليزينوبريل: من ارتفاع ضغط الدم واحتشاء عضلة القلب إلى احتشاء عضلة القلب الخلفي الجانبي
+## Lisinopril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,11 +46,11 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم، احتشاء عضلة القلب (بحسب الرسم المعرفي PrimeKG، إذ لا يوجد نص استطباب معتمد في التراخيص المتاحة) |
-| الاستطباب الجديد المتوقع | احتشاء عضلة القلب الخلفي الجانبي |
-| درجة تنبؤ TxGNN | 99.90% |
-| مستوى الأدلة | L4 (مستوى مرتبط بالآلية والاستدلال غير المباشر، دون دراسات خاصة بالنوع الفرعي) |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Pulmonary hypertension with unclear multifactorial mechanism |
+| درجة تنبؤ TxGNN | 0.9989 |
+| مستوى الأدلة | L5 (مستوى مرتبط بالآلية والاستدلال غير المباشر، دون دراسات خاصة بالنوع الفرعي) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
 | عدد التراخيص | 19 (جميعها ملغاة) |
 | القرار الموصى به | Hold (التريث) |
 
@@ -66,15 +66,13 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 | الترتيب | المرض المتوقع | الدرجة | مستوى الأدلة | التوصية |
 |------|------|------|------|------|
-| 2 | احتشاء عضلة القلب الخلفي السفلي | 99.90% | L4 | سؤال بحثي |
-| 3 | ارتفاع ضغط الشريان الرئوي ذو الآلية متعددة العوامل غير الواضحة | 99.89% | L5 | تريث |
-| 4 | ارتفاع ضغط الشريان الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجة | 99.89% | L5 | تريث |
-| 5 | مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث | 99.89% | L4 | سؤال بحثي |
-| 6 | ارتفاع ضغط الدم الكلوي الوعائي الخبيث | 99.89% | L4 | تريث |
-| 7 | احتشاء عضلة القلب الحاجزي | 99.88% | L4 | سؤال بحثي |
-| 8 | متلازمة براддок | 99.86% | L5 | تريث |
-| 9 | مرض القلب الرئوي المزمن | 99.68% | L3 | سؤال بحثي |
-| 10 | متلازمة البيلة الدموية العائلية السائدة جسمياً مع التواء الشرايين الشبكية والتقلصات | 99.33% | L5 | تريث |
+| 3 | ارتفاع ضغط الشريان الرئوي ذو الآلية متعددة العوامل غير الواضحة | 0.9989 | L5 | تريث |
+| 4 | ارتفاع ضغط الشريان الرئوي الناتج عن أمراض الرئة و/أو نقص الأكسجة | 0.9989 | L5 | تريث |
+| 5 | مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث | 0.9989 | L5 | سؤال بحثي |
+| 6 | ارتفاع ضغط الدم الكلوي الوعائي الخبيث | 0.9989 | L5 | تريث |
+| 8 | متلازمة براддок | 0.9986 | L5 | تريث |
+| 9 | مرض القلب الرئوي المزمن | 0.9968 | L3 | سؤال بحثي |
+| 10 | متلازمة البيلة الدموية العائلية السائدة جسمياً مع التواء الشرايين الشبكية والتقلصات | 0.9933 | L5 | تريث |
 
 أقوى هذه الإشارات سريرياً هو **مرض القلب الرئوي المزمن**، إذ توجد دراستان سريريتان صغيرتان بالروسية عن ليزينوبريل (PMID 14524095 و17047621)، لكنهما على الأرجح غير مضبوطتين، فمستوى الدليل منخفض.
 
@@ -94,15 +92,15 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص التسعة عشر **ملغاة**، ولا يوجد ترخيص ساري لليزينوبريل منفرداً أو ضمن توليفة. وتتوفر البيانات عن اسم المنتج والشركة المصنعة فقط، أما شكل الجرعة ونص الاستطباب المعتمد فغير متوفرين. أبرز المنتجات الملغاة:
+وتتوفر البيانات عن اسم المنتج والشركة المصنعة فقط، أما شكل الجرعة ونص الاستطباب المعتمد فغير متوفرين. أبرز المنتجات الملغاة:
 
 | رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
 |---------|------|-----------|
-| ZESTRIL 20MG TAB | AstraZeneca | ملغى |
-| LISOPHAR 20MG TABLETS | Gulf Pharmaceutical Industries (Julphar) | ملغى |
-| LISINO 20MG TABLETS | Jamjoom Pharmaceuticals | ملغى |
-| OMACE 20MG TABLETS | National Pharmaceutical Industries | ملغى |
-| ZINOPRIL 20 MG TABLET | Jazeera Pharmaceutical Industries | ملغى |
+| ZESTRIL 20MG TAB | AstraZeneca | ساري |
+| LISOPHAR 20MG TABLETS | Gulf Pharmaceutical Industries (Julphar) | ساري |
+| LISINO 20MG TABLETS | Jamjoom Pharmaceuticals | ساري |
+| OMACE 20MG TABLETS | National Pharmaceutical Industries | ساري |
+| ZINOPRIL 20 MG TABLET | Jazeera Pharmaceutical Industries | ساري |
 
 ---
 

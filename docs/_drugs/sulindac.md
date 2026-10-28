@@ -4,17 +4,17 @@ title: Sulindac
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 779
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Sulindac: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجراب، التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، الته…"
 monitor_inn: "SULINDAC"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "pseudoachondroplasia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "WHIM syndrome", "hypermobility of coccyx"]
+description: "Sulindac: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Sulindac
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## سولينداك: من التهاب المفاصل والأمراض العضلية الهيكلية إلى خلل التنسج الأكروميزوميلي (نوع هانتر-طومسون)
+## Sulindac: خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب الجراب، التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، التهاب الأوتار، الفصال العظمي، النقرس (وفق الرسم البياني المعرفي لـ TxGNN؛ نص الاستطباب المعتمد في ترخيص السعودية غير متوفر) |
-| الاستطباب الجديد المتنبأ به | خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون |
-| درجة تنبؤ TxGNN | 99.92% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| وضع السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف/التعليق) |
 
 ---
@@ -64,7 +64,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 أما خلل التنسج الأكروميزوميلي (نوع هانتر-طومسون) فهو اضطراب هيكلي نادر ناتج عن طفرات فقدان الوظيفة في الجين CDMP1/GDF5 التي تؤثر في تكوّن الغضروف. ولا يُعرف أن لسولينداك أي تأثير على مسار الإشارات GDF5/BMP. وعليه **لا يوجد رابط آلي تدعمه البيانات**.
 
-ويرجَّح أن الدرجة المرتفعة ناتجة عن تقارب الرسم البياني المعرفي بين هذا المرض والاستطبابات العضلية الهيكلية الأصلية، وليست دليلًا على فعالية علاجية.
+تأتي الدرجة المرتفعة من نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين الأمراض ذات الصلة، وليست دليلًا بيولوجيًا ولا دليلًا على فعالية علاجية.
 
 ---
 
@@ -84,7 +84,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| CLINORIL TAB 200MG | CLINORIL TAB 200MG (الشركة: MERCK SHARP & DOHME) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| CLINORIL TAB 200MG | CLINORIL TAB 200MG (الشركة: MERCK SHARP & DOHME) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 

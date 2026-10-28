@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 647
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pertuzumab: الاستطباب الجديد المتوقع سرطان الثدي السلبي لمستقبل البروجسترون (مستوى الدليل L1). الاستطباب الأصلي: سرطان الثدي الإيجابي لمستقبل HER2 (بحسب رسم المعرفة في TxGNN، إذ لا ي…"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: الاستطباب الجديد المتوقع Ectomesenchymoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell s
 
 </div>
 
-## بيرتوزوماب: من سرطان الثدي الإيجابي لمستقبل HER2 إلى سرطان الثدي السلبي لمستقبل البروجسترون
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell s
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سرطان الثدي الإيجابي لمستقبل HER2 (بحسب رسم المعرفة في TxGNN، إذ لا يتوفر نص استطباب معتمد في التراخيص) |
-| الاستطباب الجديد المتوقع | سرطان الثدي السلبي لمستقبل البروجسترون |
-| درجة تنبؤ TxGNN | 99.93% |
-| مستوى الأدلة | L1 |
-| حالة التسويق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Ectomesenchymoma |
+| درجة تنبؤ TxGNN | 0.9971 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 > **ملاحظة:** تضمنت البيانات المجمّعة عشرة استطبابات متوقعة. اعتُمد الاستطباب ذي الأدلة الأقوى (المرتبة الثالثة) للتقرير الرئيسي، وتُلخَّص الاستطبابات الأخرى في قسم الخاتمة.
@@ -98,7 +98,7 @@ predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell s
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PERJETA 420 mg Concentrate for solution for infusion | PERJETA 420 mg (Roche) | غير مذكور | غير مذكور (الترخيص ملغى) |
+| PERJETA 420 mg Concentrate for solution for infusion | PERJETA 420 mg (Roche) | غير مذكور | غير مذكور (الترخيص ساري) |
 
 ---
 

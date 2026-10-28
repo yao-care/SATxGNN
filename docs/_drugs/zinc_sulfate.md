@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Zinc Sulfate
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 890
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Zinc Sulfate: الاستطباب الجديد المتوقع التهاب البلعوم (Pharyngitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (المنتجات المرخصة قطرات عين)"
@@ -14,7 +14,7 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 # Zinc Sulfate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات الترخيص (المنتجات المرخصة قطرات عين) |
 | الاستطباب الجديد المتوقع | التهاب البلعوم (Pharyngitis) |
-| درجة تنبؤ TxGNN | 99.85% |
+| درجة تنبؤ TxGNN | 0.9985 |
 | مستوى الأدلة | L2 (حسب التصنيف الوارد في البيانات؛ انظر الملاحظة أدناه) |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 > ملاحظة: التجربة السريرية الوحيدة مصنّفة كمرحلة "NA" وليست من المرحلتين 2/3، ومجتمعها المدروس مختلف (التهاب حلق بعد التنبيب). لذلك فإن مستوى L2 متفائل، والأقرب عمليًا إلى L4 لهذا الاستطباب.
@@ -91,9 +91,9 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| OCULOSAN EYE DROPS | OCULOSAN EYE DROPS (Excel Vision) | غير محدد | غير محدد (ملغى) |
-| ZINCFRIN EYE DROPS | ZINCFRIN EYE DROPS (ALCON COUVREUR) | غير محدد | غير محدد (ملغى) |
-| APIFRIN-Z EYE DROP | APIFRIN-Z EYE DROP (Amman Pharmaceutical Industries) | غير محدد | غير محدد (ملغى) |
+| OCULOSAN EYE DROPS | OCULOSAN EYE DROPS (Excel Vision) | غير محدد | غير محدد (ساري) |
+| ZINCFRIN EYE DROPS | ZINCFRIN EYE DROPS (ALCON COUVREUR) | غير محدد | غير محدد (ساري) |
+| APIFRIN-Z EYE DROP | APIFRIN-Z EYE DROP (Amman Pharmaceutical Industries) | غير محدد | غير محدد (ساري) |
 
 ---
 

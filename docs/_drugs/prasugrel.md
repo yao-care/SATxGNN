@@ -4,17 +4,17 @@ title: Prasugrel
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 682
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Prasugrel: الاستطباب الجديد المتوقع ارتفاع ضغط الشريان الرئوي (مستوى الدليل L5). الاستطباب الأصلي: متلازمة الشريان التاجي الحادة (من الرسم المعرفي لـ TxGNN، إذ لا يتضمن…"
 monitor_inn: "PRASUGREL"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 |------|------|
 | الاستطباب الأصلي | متلازمة الشريان التاجي الحادة (من الرسم المعرفي لـ TxGNN، إذ لا يتضمن نص التراخيص أي استطباب معتمد) |
 | الاستطباب الجديد المتوقع | ارتفاع ضغط الشريان الرئوي |
-| درجة التوقع في TxGNN | 99.88% |
+| درجة التوقع في TxGNN | 0.9988 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 > ملاحظة: الاستطباب الذي حظي بأقوى دعم بين التوقعات هو الصداع النصفي (المستوى L3، مرحلة S1، توصية «سؤال بحثي»)، ويُنصح بإعطائه الأولوية عند أي متابعة.
@@ -104,11 +104,11 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PLATEREL 5MG F.C.TABLET | PLATEREL 5MG F.C.TABLET (طابوك) | غير متوفر | غير متوفر (ملغى) |
-| PLATEREL 10MG F.C.TABLET | PLATEREL 10MG F.C.TABLET (طابوك) | غير متوفر | غير متوفر (ملغى) |
-| Pevas | Pevas (الشركة المتحدة للأدوية) | غير متوفر | غير متوفر (ملغى) |
+| PLATEREL 5MG F.C.TABLET | PLATEREL 5MG F.C.TABLET (طابوك) | غير متوفر | غير متوفر (ساري) |
+| PLATEREL 10MG F.C.TABLET | PLATEREL 10MG F.C.TABLET (طابوك) | غير متوفر | غير متوفر (ساري) |
+| Pevas | Pevas (الشركة المتحدة للأدوية) | غير متوفر | غير متوفر (ساري) |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد حالياً ترخيص ساري لهذا الدواء.
+الدواء مسوَّق في هذا البلد، وجميع التراخيص الثلاثة (3 من 3) سارية.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Potassium Citrate
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 675
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Potassium Citrate: الاستطباب الجديد المتوقع الحصيات الكلوية (Nephrolithiasis) (مستوى الدليل L2). الاستطباب الأصلي: نقص البوتاسيوم، الحماض الأنبوبي الكلوي، اعتلال الكلية الحاد الناتج عن…"
 monitor_inn: "potassium citrate"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+description: "Potassium Citrate: الاستطباب الجديد المتوقع Familial visceral myopathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative p
 
 </div>
 
-## سترات البوتاسيوم: من نقص البوتاسيوم إلى الحصيات الكلوية (Nephrolithiasis)
+## Potassium Citrate: Familial visceral myopathy
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative p
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | نقص البوتاسيوم، الحماض الأنبوبي الكلوي، اعتلال الكلية الحاد الناتج عن حمض اليوريك (لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
-| الاستطباب الجديد المتوقع | الحصيات الكلوية (Nephrolithiasis) |
-| درجة تنبؤ TxGNN | 99.75% |
-| مستوى الأدلة | L2 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (الترخيص الوحيد ملغى) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Familial visceral myopathy |
+| درجة تنبؤ TxGNN | 0.9995 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 > ملاحظة: تضمنت قائمة التنبؤات 10 أمراض. هذا التقرير يركّز على أعلى تنبؤ مدعوم بالأدلة، وهو الحصيات الكلوية (المرتبة الرابعة)، لأن التنبؤات الثلاثة الأولى (اعتلال العضلات الحشوي العائلي، اضطراب الفسفرة التأكسدية الميتوكوندرية، متلازمة بندرد) لا تستند إلى أي تجارب أو دراسات وليس لها رابط آلي معقول. وللتوضيح، فإن درجة TxGNN المذكورة أعلاه هي درجة الحصيات الكلوية.
@@ -110,7 +110,7 @@ predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative p
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| BABYLYTE ORAL SOLUTION | BABYLYTE ORAL SOLUTION (الشركة المصنعة: Pharmaceutical Solution Industries) | محلول فموي (الشكل غير مسجل في البيانات) | غير متوفر؛ حالة الترخيص: ملغى |
+| BABYLYTE ORAL SOLUTION | BABYLYTE ORAL SOLUTION (الشركة المصنعة: Pharmaceutical Solution Industries) | محلول فموي (الشكل غير مسجل في البيانات) | غير متوفر؛ حالة الترخيص: ساري |
 
 ---
 

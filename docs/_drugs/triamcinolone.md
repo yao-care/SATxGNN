@@ -4,7 +4,7 @@ title: Triamcinolone
 parent: أدلة متوسطة (L3-L4)
 nav_order: 834
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Triamcinolone: الاستطباب الجديد المتوقع ثعلبة الميوسين (alopecia mucinosa) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر نص استطباب في تراخيص الهيئة العامة للغذاء والدواء (SFDA)؛ و…"
 monitor_inn: "Triamcinolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 # Triamcinolone
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 |------|------|
 | الاستطباب الأصلي | غير متوفر نص استطباب في تراخيص الهيئة العامة للغذاء والدواء (SFDA)؛ وفق الرسم المعرفي: الأمراض المناعية الذاتية، داء كرون، قصور الغدة الكظرية، ابيضاض الدم الليمفاوي الحاد، وغيرها |
 | الاستطباب الجديد المتوقع | ثعلبة الميوسين (alopecia mucinosa) |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L4 |
-| وضع السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -87,11 +87,11 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| KENACORT-A 40MG\ML INJ | KENACORT-A 40MG\ML INJ (ملغى) | غير متوفر | غير متوفر |
-| Naselfast nasal spray suspension | Naselfast nasal spray suspension (ملغى) | غير متوفر | غير متوفر |
-| VITREAL S OPHTHALMIC SUSPENSION | VITREAL S OPHTHALMIC SUSPENSION (ملغى) | غير متوفر | غير متوفر |
-| CINOKORT 40 MG - 2 ML AMPOULE | CINOKORT 40 MG - 2 ML AMPOULE (ملغى) | غير متوفر | غير متوفر |
-| KENALOG IN ORABASE (PASTE 0.1%) | KENALOG IN ORABASE (PASTE 0.1%) (ملغى) | غير متوفر | غير متوفر |
+| KENACORT-A 40MG\ML INJ | KENACORT-A 40MG\ML INJ (ساري) | غير متوفر | غير متوفر |
+| Naselfast nasal spray suspension | Naselfast nasal spray suspension (ساري) | غير متوفر | غير متوفر |
+| VITREAL S OPHTHALMIC SUSPENSION | VITREAL S OPHTHALMIC SUSPENSION (ساري) | غير متوفر | غير متوفر |
+| CINOKORT 40 MG - 2 ML AMPOULE | CINOKORT 40 MG - 2 ML AMPOULE (ساري) | غير متوفر | غير متوفر |
+| KENALOG IN ORABASE (PASTE 0.1%) | KENALOG IN ORABASE (PASTE 0.1%) (ساري) | غير متوفر | غير متوفر |
 
 ---
 
@@ -110,7 +110,7 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 **المبررات:**
 - لا توجد تجارب سريرية، والأدبيات المتاحة عبارة عن تقريري حالة فقط لا يتناول أيٌّ منهما التريامسينولون، فالأدلة تقتصر على التنبؤ النموذجي والمعقولية الآلية العامة.
-- جميع التراخيص الخمسة في السعودية ملغاة، ولا توجد حالياً منتجات سارية.
+- الدواء مسوَّق في هذا البلد، وجميع التراخيص الخمسة سارية (5 من 5).
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة العبوة من موقع الهيئة العامة للغذاء والدواء (SFDA) وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات حرجة تمنع الانتقال إلى مرحلة فحص السلامة).

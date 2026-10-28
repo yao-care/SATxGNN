@@ -4,7 +4,7 @@ title: Cabozantinib
 parent: أدلة متوسطة (L3-L4)
 nav_order: 132
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Cabozantinib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L3). الاستطباب الأصلي: سرطان الخلايا الكلوية (بما في ذلك الخلايا الصافية) وسرطان الغدة الدرق…"
 monitor_inn: "CABOZANTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 |------|------|
 | الاستطباب الأصلي | سرطان الخلايا الكلوية (بما في ذلك الخلايا الصافية) وسرطان الغدة الدرقية النخاعي (من استطبابات قاعدة المعرفة، إذ لا يتوفر نص استطباب في التراخيص) |
 | الاستطباب الجديد المتوقع | الساركوما الشحمية (Liposarcoma) |
-| درجة تنبؤ TxGNN | 99.83% |
+| درجة تنبؤ TxGNN | 0.9983 |
 | مستوى الدليل | L3 |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,13 +84,13 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري. ولا تتوفر في بيانات التراخيص نصوص الاستطباب أو الشكل الدوائي.
+جميع التراخيص الثلاثة سارية (3 من 3 تراخيص صالحة)، والدواء مسوّق في هذا البلد. ولا تتوفر في بيانات التراخيص نصوص الاستطباب أو الشكل الدوائي.
 
 | رقم الترخيص / اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|
-| CABOMETYX 60 mg F.C. Tablet | PATHEON INC | ملغى |
-| CABOMETYX 40 mg F.C. Tablet | PATHEON INC | ملغى |
-| CABOMETYX 20 mg F.C. Tablet | PATHEON INC | ملغى |
+| CABOMETYX 60 mg F.C. Tablet | PATHEON INC | ساري |
+| CABOMETYX 40 mg F.C. Tablet | PATHEON INC | ساري |
+| CABOMETYX 20 mg F.C. Tablet | PATHEON INC | ساري |
 
 ---
 

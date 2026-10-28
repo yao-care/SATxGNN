@@ -4,17 +4,17 @@ title: Meloxicam
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 537
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Meloxicam: الاستطباب الجديد المتوقع خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي، التهاب المفاصل مجهول السبب…"
 monitor_inn: "MELOXICAM"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Meloxicam: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## ميلوكسيكام: من التهاب المفاصل الروماتويدي إلى خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون
+## Meloxicam: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب المفاصل الروماتويدي، الفصال العظمي، التهاب المفاصل مجهول السبب لدى الأحداث، اعتلال الفقار المفصلي (وفق الرسم المعرفي PrimeKG) |
-| الاستطباب الجديد المتوقع | خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون |
-| درجة تنبؤ TxGNN | 99.92% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Acromesomelic dysplasia, Hunter-Thompson type |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 14 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -80,15 +80,15 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة عشر **ملغاة**، ولا يوجد ترخيص ساري. نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
+نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| MOBIC 15MG TAB | MOBIC 15MG TAB | ROTTENDORF PHARMA GMBH | ملغى |
-| MOBIC 7.5MG TAB | MOBIC 7.5MG TAB | ROTTENDORF PHARMA GMBH | ملغى |
-| MELOXI 7.5 MG TABLETS | MELOXI 7.5 MG TABLETS | جمجوم للأدوية | ملغى |
-| MELOXI 15 MG TABLETS | MELOXI 15 MG TABLETS | جمجوم للأدوية | ملغى |
-| OXIMAL 7.5MG TABLETS | OXIMAL 7.5MG TABLETS | JPM الأردنية | ملغى |
+| MOBIC 15MG TAB | MOBIC 15MG TAB | ROTTENDORF PHARMA GMBH | ساري |
+| MOBIC 7.5MG TAB | MOBIC 7.5MG TAB | ROTTENDORF PHARMA GMBH | ساري |
+| MELOXI 7.5 MG TABLETS | MELOXI 7.5 MG TABLETS | جمجوم للأدوية | ساري |
+| MELOXI 15 MG TABLETS | MELOXI 15 MG TABLETS | جمجوم للأدوية | ساري |
+| OXIMAL 7.5MG TABLETS | OXIMAL 7.5MG TABLETS | JPM الأردنية | ساري |
 
 (عُرضت 5 من أصل 14 ترخيصًا.)
 

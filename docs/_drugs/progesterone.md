@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة مرتفعة (L1-L2)
 nav_order: 690
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Progesterone: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: التهاب بطانة الرحم الهاجر، سرطان بطانة الرحم، هشاشة العظام بعد سن الي…"
 monitor_inn: "PROGESTERONE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 ---
 
 # Progesterone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-## البروجيسترون: من التهاب بطانة الرحم إلى انقطاع الطمث
+## البروجيسترون: من التهاب بطانة الرحم إلى انقطاع الطمث (Amenorrhea)
 {: .text-alpha }
 
 ## ملخص بجملة واحدة
@@ -50,10 +50,10 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 |------|------|
 | الاستطباب الأصلي | التهاب بطانة الرحم الهاجر، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس، التهاب المهبل الضموري بعد سن اليأس (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في السعودية) |
 | الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
-| درجة تنبؤ TxGNN | 99.9996% |
+| درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L2 (حسب التقييم المرفق؛ توجد تجربة واحدة من المرحلة 2/3 مكتملة، لكنها تدرس العلاج الهرموني عموماً وليس البروجيسترون وحده، فالمستوى أقرب إلى حدّه الأدنى) |
-| حالة السوق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 6 (جميعها ملغاة، ولا يوجد ترخيص ساري) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | المضي مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -100,15 +100,15 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الستة المسجلة **ملغاة**، ولا يوجد منتج ساري، كما لا تتوفر نصوص الاستطباب المعتمدة ولا الأشكال الصيدلانية في البيانات.
+جميع التراخيص الستة المسجلة **سارية** (6 من 6)، والدواء مسوّق في هذا البلد.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| Crinone | Crinone | Dendron Brands Limited | ملغى |
-| ENDOMETRIN 100 mg vafinal tablet | ENDOMETRIN 100 mg vaginal tablet | Q PHARMAAB | ملغى |
-| CYCLOGEST 200MG PESSARIES | CYCLOGEST 200MG | Accord-UK Limited | ملغى |
-| CYCLOGEST 400MG PESSARIES | CYCLOGEST 400MG | Accord-UK Limited | ملغى |
-| PROLUTEX | PROLUTEX | IBSA Institut Biochimique SA | ملغى |
+| Crinone | Crinone | Dendron Brands Limited | ساري |
+| ENDOMETRIN 100 mg vafinal tablet | ENDOMETRIN 100 mg vaginal tablet | Q PHARMAAB | ساري |
+| CYCLOGEST 200MG PESSARIES | CYCLOGEST 200MG | Accord-UK Limited | ساري |
+| CYCLOGEST 400MG PESSARIES | CYCLOGEST 400MG | Accord-UK Limited | ساري |
+| PROLUTEX | PROLUTEX | IBSA Institut Biochimique SA | ساري |
 
 (يوجد ترخيص سادس ملغى: Utrogestan من CYNDEA PHARMA, S.L)
 
@@ -129,7 +129,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 **المبررات:**
 - التنبؤ متسق مع الدور الدوائي المعروف للبروجيسترون في اختبار التحدي وعلاج انقطاع الطمث الثانوي، وتوجد تجربتان مكتملتان من المرحلة 3 والمرحلة 2/3، لكنهما تدرسان العلاج الهرموني عموماً لنتائج عظمية، لذا فالأدلة المباشرة محدودة.
-- جميع التراخيص السعودية ملغاة، فلا يوجد منتج متاح حالياً.
+- التراخيص سارية (6 من 6)، والدواء مسوّق حالياً.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء المعتمدة (التحذيرات وموانع الاستعمال) من هيئة الغذاء والدواء السعودية، وهي فجوة حرجة تمنع الانتقال إلى مرحلة فحص السلامة.

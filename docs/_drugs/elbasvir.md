@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Elbasvir
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 294
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Elbasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر هذا الاستطباب هو الرسم المعرف…"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 # Elbasvir
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 |------|------|
 | الاستطباب الأصلي | عدوى فيروس التهاب الكبد C المزمنة (مصدر هذا الاستطباب هو الرسم المعرفي لنموذج TxGNN، إذ لا يتوفر نص استطباب معتمد من الهيئة) |
 | الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |
-| درجة تنبؤ TxGNN | 99.71% |
+| درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L4 (بحسب التصنيف المسجل في البيانات؛ لا توجد دراسات سريرية تدعم هذا الاستطباب فعليًا) |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (الترخيص الوحيد ملغى) |
-| عدد التراخيص | 1 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -97,7 +97,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ZEPATIER 100/50 mg film-coated tablet | ZEPATIER 100/50 mg film-coated tablet (الشركة: MSD INTERNATIONAL GMBH) | أقراص مغلفة (بحسب اسم المنتج) | غير متوفر؛ حالة الترخيص: ملغى |
+| ZEPATIER 100/50 mg film-coated tablet | ZEPATIER 100/50 mg film-coated tablet (الشركة: MSD INTERNATIONAL GMBH) | أقراص مغلفة (بحسب اسم المنتج) | غير متوفر؛ حالة الترخيص: ساري |
 
 ---
 

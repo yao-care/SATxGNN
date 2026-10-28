@@ -4,17 +4,17 @@ title: Chlorzoxazone
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 179
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Chlorzoxazone: الاستطباب الجديد المتوقع الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "CHLORZOXAZONE"
-predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
+predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
 ---
 
 # Chlorzoxazone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغة) |
 | الاستطباب الجديد المتنبأ به | الصداع النصفي (Migraine Disorder) |
-| درجة تنبؤ TxGNN | 99.73% |
+| درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -87,8 +87,8 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| SOLAXIN TAB 200MG | SOLAXIN TAB 200MG (EISAI) | غير محدد | غير محدد | ملغى |
-| Relaxon Forte 500MG TAB | Relaxon Forte 500MG TAB (JAMJOOM PHARMACEUTICALS) | غير محدد | غير محدد | ملغى |
+| SOLAXIN TAB 200MG | SOLAXIN TAB 200MG (EISAI) | غير محدد | غير محدد | ساري |
+| Relaxon Forte 500MG TAB | Relaxon Forte 500MG TAB (JAMJOOM PHARMACEUTICALS) | غير محدد | غير محدد | ساري |
 
 ---
 
@@ -110,8 +110,8 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 **القرار: Hold (التوقف مؤقتاً)**
 
 **المبررات:**
-- التنبؤ عالي الدرجة (99.73%) لكنه يقوم على النموذج فقط (L5)؛ فلا توجد تجارب سريرية، والمنشورات الثلاثة غير مباشرة ولا تختبر كلورزوكسازون في الصداع النصفي.
-- لا يوجد ترخيص ساري في المملكة (التراخيص الاثنان ملغيان)، وبيانات السلامة المعتمدة ناقصة، مع وجود إشارات تتعلق بالكبد وعدد كبير من التداخلات الدوائية.
+- التنبؤ عالي الدرجة (0.9973) لكنه يقوم على النموذج فقط (L5)؛ فلا توجد تجارب سريرية، والمنشورات الثلاثة غير مباشرة ولا تختبر كلورزوكسازون في الصداع النصفي.
+- الدواء مسوَّق في المملكة (ترخيصان ساريان من أصل ترخيصين)، وبيانات السلامة المعتمدة ناقصة، مع وجود إشارات تتعلق بالكبد وعدد كبير من التداخلات الدوائية.
 
 **للمضي قدماً يلزم ما يلي:**
 - تنزيل وتحليل النشرة الدوائية من موقع الهيئة العامة للغذاء والدواء لاستخراج التحذيرات وموانع الاستعمال (فجوة حاجزة أمام فحص السلامة).

@@ -50,10 +50,10 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 |------|------|
 | الاستطباب الأصلي | عدوى فيروس التهاب الكبد C المزمنة |
 | الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |
-| درجة تنبؤ TxGNN | 99.77% |
+| درجة تنبؤ TxGNN | 0.9977 |
 | مستوى الأدلة | L2 |
-| وضع السوق في المملكة العربية السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -106,9 +106,9 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| SOFOCURE 400 mg film-coated tablet | SOFOCURE 400 mg film-coated tablet (الشركة المصنّعة: EUROPEAN EGYPTIAN PHARMACEUTICAL) | أقراص مغلفة | غير متوافر (ملغى) |
-| SOVALDI 400 mg film-coated tablet | SOVALDI 400 mg film-coated tablet (Gilead Sciences Ireland) | أقراص مغلفة | غير متوافر (ملغى) |
-| SOVIRA 400 mg film-coated tablet | SOVIRA 400 mg film-coated tablet (SPIMACO) | أقراص مغلفة | غير متوافر (ملغى) |
+| SOFOCURE 400 mg film-coated tablet | SOFOCURE 400 mg film-coated tablet (الشركة المصنّعة: EUROPEAN EGYPTIAN PHARMACEUTICAL) | أقراص مغلفة | غير متوافر (ساري) |
+| SOVALDI 400 mg film-coated tablet | SOVALDI 400 mg film-coated tablet (Gilead Sciences Ireland) | أقراص مغلفة | غير متوافر (ساري) |
+| SOVIRA 400 mg film-coated tablet | SOVIRA 400 mg film-coated tablet (SPIMACO) | أقراص مغلفة | غير متوافر (ساري) |
 
 ---
 

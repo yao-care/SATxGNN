@@ -4,17 +4,17 @@ title: Felbinac
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 341
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Felbinac: الاستطباب الجديد المتوقع متلازمة بروكيولميا مع نقص تكوّن المينا (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل العظمي، واعتلال المفاصل (من الرسم المعرفي لـ TxGNN؛ نص…"
 monitor_inn: "FELBINAC"
-predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
+predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
 ---
 
 # Felbinac
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromes
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل العظمي، واعتلال المفاصل (من الرسم المعرفي لـ TxGNN؛ نص الاستطباب المعتمد في هيئة الغذاء والدواء السعودية غير متوفر) |
 | الاستطباب الجديد المتنبأ به | متلازمة بروكيولميا مع نقص تكوّن المينا |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع التسويق في السعودية | ملغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -68,15 +68,14 @@ predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromes
 
 | الترتيب | المرض | الدرجة | الملاحظة المختصرة |
 |------|------|------|------|
-| 2 | خلل التنسج الأطرافي الوسطي، نوع هنتر-طومسون | 99.99% | لا رابط آلي معقول (مسار GDF5) |
-| 3 | التصلب العضلي (myosclerosis) | 99.99% | قد يخفف الألم الموضعي نظريًا فقط |
-| 4 | بروكيولميا | 99.99% | لا دور معروف لتثبيط COX |
-| 5 | خلل التنسج الغضروفي الكاذب (pseudoachondroplasia) | 99.99% | الأكثر معقولية لتخفيف الأعراض بين اضطرابات الهيكل، دون دعم بالأدلة |
-| 6 | القابلية للإصابة باعتلال المفاصل الفقاري | 99.88% | مضادات الالتهاب خط أول للأعراض، لكن الدواء موضعي ومحدود التعرّض الجهازي |
-| 7 | العُقيدات الروماتويدية | 99.70% | قد تخف الأعراض دون تأثير على تكوّن العقيدات |
-| 8 | نقص المناعة المركب بسبب نقص الموزين | 99.65% | لا أساس آلي؛ وقد لا يكون مناسبًا لمريض ناقص المناعة |
-| 9 | التهاب المفاصل الشبابي مجهول السبب متعدد المفاصل إيجابي العامل الروماتويدي | 99.64% | لا بيانات أطفال؛ المرض يتطلب علاجًا جهازيًا |
-| 10 | التهاب المفاصل الشبابي مجهول السبب | 99.63% | علاقة تخفيف أعراض فقط، دون أدلة |
+| 2 | خلل التنسج الأطرافي الوسطي، نوع هنتر-طومسون | 0.9999 | لا رابط آلي معقول (مسار GDF5) |
+| 3 | التصلب العضلي (myosclerosis) | 0.9999 | قد يخفف الألم الموضعي نظريًا فقط |
+| 4 | بروكيولميا | 0.9999 | لا دور معروف لتثبيط COX |
+| 5 | خلل التنسج الغضروفي الكاذب (pseudoachondroplasia) | 0.9999 | الأكثر معقولية لتخفيف الأعراض بين اضطرابات الهيكل، دون دعم بالأدلة |
+| 7 | العُقيدات الروماتويدية | 0.9970 | قد تخف الأعراض دون تأثير على تكوّن العقيدات |
+| 8 | نقص المناعة المركب بسبب نقص الموزين | 0.9965 | لا أساس آلي؛ وقد لا يكون مناسبًا لمريض ناقص المناعة |
+| 9 | التهاب المفاصل الشبابي مجهول السبب متعدد المفاصل إيجابي العامل الروماتويدي | 0.9964 | لا بيانات أطفال؛ المرض يتطلب علاجًا جهازيًا |
+| 10 | التهاب المفاصل الشبابي مجهول السبب | 0.9963 | علاقة تخفيف أعراض فقط، دون أدلة |
 
 ---
 
@@ -96,7 +95,7 @@ predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromes
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| TARGET GEL 3% | TARGET GEL 3% (الشركة المصنّعة: CYANAMID LEDERLE) | غير محدد | غير متوفر (الحالة: ملغى) |
+| TARGET GEL 3% | TARGET GEL 3% (الشركة المصنّعة: CYANAMID LEDERLE) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

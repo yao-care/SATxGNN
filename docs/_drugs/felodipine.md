@@ -4,17 +4,17 @@ title: Felodipine
 parent: أدلة متوسطة (L3-L4)
 nav_order: 342
 evidence_level: L3
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Felodipine: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (ذبحة برنزميتال) (مستوى الدليل L3). الاستطباب الأصلي: اضطراب ارتفاع ضغط الدم / ارتفاع ضغط الدم (من الرسم المعرفي لـ TxGNN)"
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Felodipine: الاستطباب الجديد المتوقع Pulmonary hypertension with unclear multifactorial mechanism (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Felodipine
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-## فيلوديبين: من ارتفاع ضغط الدم إلى الذبحة الصدرية المتغايرة (ذبحة برنزميتال)
+## Felodipine: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -41,7 +41,7 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 فيلوديبين هو دواء من حاصرات قنوات الكالسيوم (من فئة ثنائي هيدرو البيريدين)، استُخدم في الأصل لعلاج ارتفاع ضغط الدم.
 يتوقع نموذج TxGNN أنه قد يكون فعالاً في **الذبحة الصدرية المتغايرة (ذبحة برنزميتال)**، وتدعم هذا الاتجاه **7 منشورات علمية** وفق البيانات المجمّعة لهذا التقرير، من دون أي تجارب سريرية مسجلة.
 
-> ملاحظة: يتضمن النموذج عدة توقعات أخرى. اختير هذا التوقع محوراً للتقرير لأنه الأقوى دعماً بالأدلة، مع الإشارة إلى أن التوقع الأعلى درجةً هو «ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة غير الواضحة» (99.91%) وليس عليه أي دليل فعلي.
+> ملاحظة: يتضمن النموذج عدة توقعات أخرى. اختير هذا التوقع محوراً للتقرير لأنه الأقوى دعماً بالأدلة، مع الإشارة إلى أن التوقع الأعلى درجةً هو «ارتفاع ضغط الدم الرئوي ذو الآلية المتعددة غير الواضحة» (0.9991) وليس عليه أي دليل فعلي.
 
 ---
 
@@ -49,12 +49,12 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | اضطراب ارتفاع ضغط الدم / ارتفاع ضغط الدم (من الرسم المعرفي لـ TxGNN) |
-| الاستطباب الجديد المتوقع | الذبحة الصدرية المتغايرة (ذبحة برنزميتال) |
-| درجة توقع TxGNN | 99.07% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Pulmonary hypertension with unclear multifactorial mechanism |
+| درجة توقع TxGNN | 0.9991 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -93,10 +93,9 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PLENDIL 5MG S.R. TAB | PLENDIL 5MG S.R. TAB (أسترازينيكا) | غير محدد | غير متوفر (ملغى) |
-| PLENDIL 10MG S.R.TAB | PLENDIL 10MG S.R.TAB (أسترازينيكا) | غير محدد | غير متوفر (ملغى) |
+| PLENDIL 5MG S.R. TAB | PLENDIL 5MG S.R. TAB (أسترازينيكا) | غير محدد | غير متوفر (ساري) |
+| PLENDIL 10MG S.R.TAB | PLENDIL 10MG S.R.TAB (أسترازينيكا) | غير محدد | غير متوفر (ساري) |
 
-كلا الترخيصين ملغى، ولا يوجد ترخيص ساري حالياً، مما يحد من التوافر العملي للدواء.
 
 ---
 

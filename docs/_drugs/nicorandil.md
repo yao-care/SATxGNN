@@ -4,17 +4,17 @@ title: Nicorandil
 parent: أدلة متوسطة (L3-L4)
 nav_order: 586
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Nicorandil: الاستطباب الجديد المتوقع تضخم البروستاتا الحميد (مستوى الدليل L4). الاستطباب الأصلي: الذبحة الصدرية المزمنة المستقرة (من مصدر دوائي مرجعي، إذ إن نص المؤشر…"
 monitor_inn: "NICORANDIL"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis susceptibility", "osteoarthritis"]
+predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
 ---
 
 # Nicorandil
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "h
 |------|------|
 | المؤشر الأصلي | الذبحة الصدرية المزمنة المستقرة (من مصدر دوائي مرجعي، إذ إن نص المؤشر غير متوفر في بيانات الترخيص) |
 | المؤشر الجديد المتوقع | تضخم البروستاتا الحميد |
-| درجة تنبؤ TxGNN | 99.71% |
+| درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | مُلغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | تعليق (Hold) – سؤال بحثي |
 
 ---
@@ -88,8 +88,8 @@ predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "h
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
 |---------|------|------|-----------|
-| ADANCOR 20 mg tablet | ADANCOR 20 mg tablet (الشركة: MERCK SANTE) | أقراص | غير متوفر (ملغى) |
-| ADANCOR 10 mg tablet | ADANCOR 10 mg tablet (الشركة: MERCK SANTE) | أقراص | غير متوفر (ملغى) |
+| ADANCOR 20 mg tablet | ADANCOR 20 mg tablet (الشركة: MERCK SANTE) | أقراص | غير متوفر (ساري) |
+| ADANCOR 10 mg tablet | ADANCOR 10 mg tablet (الشركة: MERCK SANTE) | أقراص | غير متوفر (ساري) |
 
 ---
 

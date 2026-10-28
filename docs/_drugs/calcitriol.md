@@ -4,17 +4,17 @@ title: Calcitriol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 135
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د (مُدخل مصنَّف كمتقادم) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
+description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د المتقادم (obsolete vitamin D deficiency) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
 monitor_inn: "CALCITRIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
 ---
 
 # Calcitriol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 </div>
 
-## كالسيتريول: من اضطرابات الكالسيوم والفوسفور إلى نقص فيتامين د (مُدخل مصنَّف كمتقادم)
+## كالسيتريول: من اضطرابات الكالسيوم والفوسفور إلى نقص فيتامين د المتقادم (obsolete vitamin D deficiency)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -50,10 +50,10 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 |------|------|
 | الاستطباب الأصلي | فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات الدم، قصور جارات الدرق، اعتلال العظم الكلوي |
 | الاستطباب الجديد المتوقَّع | نقص فيتامين د (مُدخل مصنَّف كمتقادم) |
-| درجة تنبؤ TxGNN | 99.96% |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -80,14 +80,14 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري.
+جميع التراخيص الأربعة سارية (4 من 4)، والدواء مسوَّق.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| CALCIJEX 2MCG-ML AMP | CALCIJEX 2MCG-ML AMP | Abbott Laboratories | ملغى |
-| ROCALTROL CAP 0.5MCG | ROCALTROL CAP 0.5MCG | ROCHE | ملغى |
-| CALCIJEX 1MCG-ML I.V. AMP | CALCIJEX 1MCG-ML I.V. AMP | Abbott Laboratories | ملغى |
-| ROCALTROL CAP 0.25MCG | ROCALTROL CAP 0.25MCG | ROCHE | ملغى |
+| CALCIJEX 2MCG-ML AMP | CALCIJEX 2MCG-ML AMP | Abbott Laboratories | ساري |
+| ROCALTROL CAP 0.5MCG | ROCALTROL CAP 0.5MCG | ROCHE | ساري |
+| CALCIJEX 1MCG-ML I.V. AMP | CALCIJEX 1MCG-ML I.V. AMP | Abbott Laboratories | ساري |
+| ROCALTROL CAP 0.25MCG | ROCALTROL CAP 0.25MCG | ROCHE | ساري |
 
 ---
 
@@ -115,7 +115,7 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية وتحليلها لاستخراج التحذيرات وموانع الاستعمال (فجوة معلومات تمنع الانتقال إلى مرحلة فحص السلامة).
 - استكمال بيانات آلية العمل من DrugBank.
 - التحقق مما إذا كان لمُدخل «نقص فيتامين د» بديل حديث معتمد في التصنيف المرضي.
-- النظر في مرشحين آخرين ضمن نتائج هذا الدواء، وهو **الكساح الوراثي بنقص فوسفات الدم** (درجة 99.28%). لديه تجربتان سريريتان (NCT03748966 وNCT03820518) ومراجعات وإرشادات سريرية، ومستوى أدلته L3 بتوصية «المضي مع ضوابط». ومع ذلك فهو قريب من استطباب قائم أصلاً (نقص فوسفات الدم) أكثر منه إعادة توظيف جديدة، ويستلزم مراقبة تكلّس الكلية وفرط كالسيوم البول وفرط نشاط جارات الدرق.
+- النظر في مرشحين آخرين ضمن نتائج هذا الدواء، وهو **الكساح الوراثي بنقص فوسفات الدم** (درجة 0.9928). لديه تجربتان سريريتان (NCT03748966 وNCT03820518) ومراجعات وإرشادات سريرية، ومستوى أدلته L3 بتوصية «المضي مع ضوابط». ومع ذلك فهو قريب من استطباب قائم أصلاً (نقص فوسفات الدم) أكثر منه إعادة توظيف جديدة، ويستلزم مراقبة تكلّس الكلية وفرط كالسيوم البول وفرط نشاط جارات الدرق.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

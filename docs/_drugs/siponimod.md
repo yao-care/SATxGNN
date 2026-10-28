@@ -4,17 +4,17 @@ title: Siponimod
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 760
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Siponimod: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "SIPONIMOD"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
 ---
 
 # Siponimod
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 ## ملخص في جملة واحدة
 
 سيبونيمود (Siponimod) دواء معدِّل لمستقبلات السفينغوزين-1-فوسفات (S1P1/S1P5). تتوفر لدينا بيانات تسجيل محلية له في المملكة العربية السعودية، لكنها لا تتضمن نص الاستطباب المعتمد.
-يتوقع نموذج TxGNN أنه قد يكون مفيدًا في **ارتفاع ضغط الدم الرئوي (Pulmonary Hypertension)** بدرجة تنبؤ مرتفعة (99.68%)، إلا أنه **لا توجد تجارب سريرية ولا منشورات** تدعم هذا الاتجاه حاليًا، فالتنبؤ حسابي بحت.
+يتوقع نموذج TxGNN أنه قد يكون مفيدًا في **ارتفاع ضغط الدم الرئوي (Pulmonary Hypertension)** بدرجة تنبؤ مرتفعة (0.9968)، إلا أنه **لا توجد تجارب سريرية ولا منشورات** تدعم هذا الاتجاه حاليًا، فالتنبؤ حسابي بحت.
 
 ---
 
@@ -49,10 +49,10 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات الترخيص المحلية |
 | الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الرئوي |
-| درجة تنبؤ TxGNN | 99.68% |
+| درجة تنبؤ TxGNN | 0.9968 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -83,7 +83,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| MAYZENT | MAYZENT (الشركة المصنِّعة: NOVARTIS Pharma Stein AG) | غير محدد | غير متوفر (الترخيص ملغى) |
+| MAYZENT | MAYZENT (الشركة المصنِّعة: NOVARTIS Pharma Stein AG) | غير محدد | غير متوفر (الترخيص ساري) |
 
 ---
 

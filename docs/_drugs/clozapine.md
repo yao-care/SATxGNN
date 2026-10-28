@@ -33,7 +33,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-## كلوزابين: من الاستطباب الأصلي إلى اضطراب ثنائي القطب (الهوس)
+## كلوزابين: من الاستطباب الأصلي إلى الهوس ثنائي القطب
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -50,10 +50,10 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص السعودية |
 | الاستطباب الجديد المتوقع | الهوس ثنائي القطب (manic bipolar affective disorder) |
-| درجة تنبؤ TxGNN | 99.95% |
-| مستوى الأدلة | L2 (للهوس)؛ L1 للاضطراب ثنائي القطب عموماً |
-| وضع التسويق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9995 |
+| مستوى الأدلة | L5 (للهوس)؛ L1 للاضطراب ثنائي القطب عموماً |
+| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 
 ---
@@ -108,11 +108,11 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Zapnex | Zapnex (Aurobindo Pharma) | غير مذكور | غير متوفر (ملغى) |
-| LEPONEX 25MG TAB | LEPONEX 25MG TAB (Madaus GmbH) | غير مذكور | غير متوفر (ملغى) |
-| LEPONEX 100MG TAB | LEPONEX 100MG TAB (Madaus GmbH) | غير مذكور | غير متوفر (ملغى) |
+| Zapnex | Zapnex (Aurobindo Pharma) | غير مذكور | غير متوفر (ساري) |
+| LEPONEX 25MG TAB | LEPONEX 25MG TAB (Madaus GmbH) | غير مذكور | غير متوفر (ساري) |
+| LEPONEX 100MG TAB | LEPONEX 100MG TAB (Madaus GmbH) | غير مذكور | غير متوفر (ساري) |
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري المفعول حالياً.
+جميع التراخيص الثلاثة سارية المفعول حالياً (3 من 3)، والدواء مسوّق.
 
 ---
 

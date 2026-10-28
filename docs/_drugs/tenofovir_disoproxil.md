@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 799
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Tenofovir Disoproxil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L5). الاستطباب الأصلي: عدوى التهاب الكبد B المزمنة، عدوى فيروس نقص …"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 |------|------|
 | الاستطباب الأصلي | عدوى التهاب الكبد B المزمنة، عدوى فيروس نقص المناعة البشرية، الإيدز (وفق الرسم المعرفي لـ TxGNN، إذ لا يوجد نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتنبأ به | عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L4 (دراسات قبل سريرية) |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -95,11 +95,11 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Hivera | Hivera (Med city) | غير متوفر | غير متوفر (ملغى) |
-| Tenovas | Tenovas (Alrai Pharmaceutical) | غير متوفر | غير متوفر (ملغى) |
-| Virad | Virad (Hetero Labs) | غير متوفر | غير متوفر (ملغى) |
-| TENOVAS | TENOVAS (Alrai Pharmaceutical) | غير متوفر | غير متوفر (ملغى) |
-| VIREAD 245 mg FILM COATED TABLET | VIREAD 245 mg (Gilead Sciences, Cork) | قرص مغلف | غير متوفر (ملغى) |
+| Hivera | Hivera (Med city) | غير متوفر | غير متوفر (ساري) |
+| Tenovas | Tenovas (Alrai Pharmaceutical) | غير متوفر | غير متوفر (ساري) |
+| Virad | Virad (Hetero Labs) | غير متوفر | غير متوفر (ساري) |
+| TENOVAS | TENOVAS (Alrai Pharmaceutical) | غير متوفر | غير متوفر (ساري) |
+| VIREAD 245 mg FILM COATED TABLET | VIREAD 245 mg (Gilead Sciences, Cork) | قرص مغلف | غير متوفر (ساري) |
 
 ---
 

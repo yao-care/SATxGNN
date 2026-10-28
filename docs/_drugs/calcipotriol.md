@@ -48,10 +48,10 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 |------|------|
 | المؤشر الأصلي | غير متوفر في بيانات التراخيص (نصوص المؤشرات فارغة) |
 | المؤشر الجديد المتوقع | التقرن الدهني (seborrheic keratosis) |
-| درجة تنبؤ TxGNN | 99.96% |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -85,14 +85,14 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة **ملغاة**، ولا يوجد ترخيص ساري. ولم تتوفر بيانات عن شكل الجرعة أو المؤشر المعتمد.
+التراخيص الأربعة جميعها **سارية** (4 من 4)، والدواء مسوَّق في هذا البلد. ولم تتوفر بيانات عن شكل الجرعة أو المؤشر المعتمد.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| Enstilar | Enstilar | Leo Laboratories Limited | ملغى |
-| ROLIP ointment | ROLIP ointment | TABUK Pharmaceutical Manufacturing Co. | ملغى |
-| DAIVOBET GEL | DAIVOBET GEL | Leo Laboratories Limited | ملغى |
-| DAIVOBET OINTMENT | DAIVOBET OINTMENT | Leo Laboratories Limited | ملغى |
+| Enstilar | Enstilar | Leo Laboratories Limited | ساري |
+| ROLIP ointment | ROLIP ointment | TABUK Pharmaceutical Manufacturing Co. | ساري |
+| DAIVOBET GEL | DAIVOBET GEL | Leo Laboratories Limited | ساري |
+| DAIVOBET OINTMENT | DAIVOBET OINTMENT | Leo Laboratories Limited | ساري |
 
 ---
 
@@ -116,7 +116,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 **المبررات:**
 - الدليل المتاح عبارة عن سلاسل حالات صغيرة وتقارير حالات دون تجارب سريرية مسجلة أو تجارب عشوائية مضبوطة، وتصميم الدراسات لم يُتحقق منه.
-- جميع التراخيص المحلية ملغاة، وبيانات السلامة من النشرة الدوائية غير متوفرة، وهي فجوة مصنّفة كحاجز (Blocking) أمام فحص السلامة.
+- التراخيص المحلية الأربعة جميعها سارية (4 من 4)، وبيانات السلامة من النشرة الدوائية غير متوفرة، وهي فجوة مصنّفة كحاجز (Blocking) أمام فحص السلامة.
 
 **للمضي قدماً يلزم:**
 - تنزيل النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال.

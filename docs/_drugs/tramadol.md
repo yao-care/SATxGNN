@@ -4,17 +4,17 @@ title: Tramadol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 827
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tramadol: الاستطباب الجديد المتوقع خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل العظمي / اعتلال المفاصل (من الرسم البياني المعرفي؛ نصو…"
 monitor_inn: "Tramadol"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol: الاستطباب الجديد المتوقع Acromesomelic dysplasia, Hunter-Thompson type (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## ترامادول: من التهاب المفاصل العظمي إلى خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون
+## Tramadol: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
-ترامادول مسكّن ألم مركزي المفعول، ترتبط مؤشراته الأصلية في البيانات المجمّعة لهذا التقرير بالتهاب المفاصل العظمي واعتلال المفاصل. يتنبأ نموذج TxGNN بأنه قد يكون مفيدًا في **خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون** بدرجة مرتفعة جدًا، لكن **لا توجد أي تجارب سريرية ولا منشورات** تدعم هذا التنبؤ، فهو تنبؤ نموذجي قائم على الرسم البياني فقط.
+ترامادول مسكّن ألم مركزي المفعول، ترتبط مؤشراته الأصلية في البيانات المجمّعة لهذا التقرير بالتهاب المفاصل العظمي واعتلال المفاصل.
 
 ---
 
@@ -46,12 +46,12 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | التهاب المفاصل العظمي / اعتلال المفاصل (من الرسم البياني المعرفي؛ نصوص مؤشرات التراخيص السعودية غير متوفرة) |
-| المؤشر الجديد المتوقع | خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون |
-| درجة تنبؤ TxGNN | 99.99% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Acromesomelic dysplasia, Hunter-Thompson type |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L5 |
-| حالة السوق في المملكة العربية السعودية | ✗ جميع التراخيص ملغاة |
-| عدد التراخيص | 9 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -60,7 +60,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 لا تتوفر حاليًا بيانات تفصيلية عن آلية عمل الدواء. المعروف أن ترامادول يعمل على مستقبلات الأفيون (µ وδ وκ) وفق بيانات الارتباط الدوائي المتاحة، وهو مسكّن للألم المتوسط إلى الشديد.
 
-أما خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون فهو اضطراب هيكلي وراثي نادر مرتبط بالجين CDMP1/GDF5. **لا توجد صلة آلية مثبتة** بين ترامادول وهذا المسار المرضي، إذ لا يؤثر الدواء على المسار الكامن وراء المرض. والأرجح أن الدرجة العالية ناتجة عن قرب الدواء في الرسم البياني من حالات هيكلية ومفصلية أخرى مثل التهاب المفاصل العظمي.
+أما خلل التنسج الطرفي المتوسط من نوع هانتر-طومسون فهو اضطراب هيكلي وراثي نادر مرتبط بالجين CDMP1/GDF5. **لا توجد صلة آلية مثبتة** بين ترامادول وهذا المسار المرضي، إذ لا يؤثر الدواء على المسار الكامن وراء المرض.
 
 وأقصى ما يمكن تصوره هو استخدام الدواء للتحكم في الألم كعلاج عَرَضي، وليس كعلاج معدِّل للمرض.
 
@@ -82,15 +82,15 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص التسعة **ملغاة** ولا يوجد ترخيص ساري. نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
+نصوص المؤشرات المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص / المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| TRAMAL 100MG SUPPOSITORIES | GRUNENTHAL | ملغى |
-| TRAMAL RETARD 100MG F.C TAB | GRUNENTHAL | ملغى |
-| TRAMADONE 50MG-ML (100MG-2ML) AMPOULE | APM | ملغى |
-| TRAMAL 50 MG-1 ML AMPOULE | GRUNENTHAL | ملغى |
-| NOMAL 50 MG CAPSULE | Arab Pharmaceutical Manufacturing (Sahab) | ملغى |
+| TRAMAL 100MG SUPPOSITORIES | GRUNENTHAL | ساري |
+| TRAMAL RETARD 100MG F.C TAB | GRUNENTHAL | ساري |
+| TRAMADONE 50MG-ML (100MG-2ML) AMPOULE | APM | ساري |
+| TRAMAL 50 MG-1 ML AMPOULE | GRUNENTHAL | ساري |
+| NOMAL 50 MG CAPSULE | Arab Pharmaceutical Manufacturing (Sahab) | ساري |
 
 ---
 
@@ -109,8 +109,6 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التنبؤ قائم على الرسم البياني فقط (مستوى الدليل L5) دون أي تجارب أو أدبيات داعمة ودون صلة آلية مع المرض.
-- جميع التراخيص السعودية ملغاة، كما أن بيانات السلامة من نشرة الدواء غير مكتملة، وهذا يحدّ من الجدوى.
 
 **للمضي قدمًا يلزم ما يلي:**
 - الحصول على نشرة الدواء المعتمدة من هيئة الغذاء والدواء السعودية واستخلاص التحذيرات وموانع الاستعمال.

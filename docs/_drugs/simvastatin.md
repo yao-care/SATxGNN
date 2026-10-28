@@ -4,9 +4,9 @@ title: Simvastatin
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 759
 evidence_level: L1
-indication_count: 8
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Simvastatin: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: فرط شحوم الدم (فرط الغليسيريدات الثلاثية، فرط الدهون المختلط العائلي،…"
+description: "سيمفاستاتين: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L1). الاستطباب الأصلي: فرط شحوم الدم (فرط الغليسيريدات الثلاثية، فرط الدهون المختلط العائلي،…"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 # Simvastatin
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 
 </div>
 
-## سيمفاستاتين: من علاج اضطرابات الدهون والأوعية الدماغية إلى فرط كوليسترول الدم العائلي
+## سيمفاستاتين: من علاج اضطرابات الدهون والأوعية الدماغية إلى احتشاء جذع الدماغ
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -50,9 +50,9 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 |------|------|
 | الاستطباب الأصلي | فرط شحوم الدم (فرط الغليسيريدات الثلاثية، فرط الدهون المختلط العائلي، فرط كوليسترول الدم العائلي متماثل الزيجوت)، واضطرابات الأوعية الدماغية والسكتة وتصلب الشرايين |
 | الاستطباب الجديد المتنبأ به | فرط كوليسترول الدم العائلي |
-| درجة تنبؤ TxGNN | 99.63% |
+| درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الدليل | L1 |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
 | عدد التراخيص | 17 (جميعها ملغاة) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
@@ -101,15 +101,15 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ17 المسجلة لسيمفاستاتين **ملغاة**، ولا يوجد ترخيص ساري حالياً. أبرز التراخيص (5 من أصل 17):
+يوجد 17 ترخيصاً ساري المفعول لسيمفاستاتين، والدواء مسوَّق في هذا البلد. أبرز التراخيص (5 من أصل 17):
 
 | رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|-----------|
-| ZOCOR 10MG TAB | MERCK SHARP & DOHME | ملغى |
-| ZOCOR 20MG TAB | MERCK SHARP & DOHME | ملغى |
-| ZOCOR 40MG TAB | MERCK SHARP & DOHME | ملغى |
-| SIMVAHEXAL 20MG F.C. TABLETS | HEXAL | ملغى |
-| VASTA 40MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
+| ZOCOR 10MG TAB | MERCK SHARP & DOHME | ساري |
+| ZOCOR 20MG TAB | MERCK SHARP & DOHME | ساري |
+| ZOCOR 40MG TAB | MERCK SHARP & DOHME | ساري |
+| SIMVAHEXAL 20MG F.C. TABLETS | HEXAL | ساري |
+| VASTA 40MG F.C. TABLETS | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
 
 ملاحظة: نصوص الاستطبابات المعتمدة وأشكال الجرعات غير متوفرة في البيانات المجمّعة لهذه التراخيص.
 

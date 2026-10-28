@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: أدلة متوسطة (L3-L4)
 nav_order: 535
 evidence_level: L3
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Mefenamic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في بيانات التراخيص السعودية (الدواء مضاد التهاب غير ستيرويدي…"
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility",
 |------|------|
 | الاستطباب الأصلي | غير مسجل في بيانات التراخيص السعودية (الدواء مضاد التهاب غير ستيرويدي يُستخدم عادةً لتسكين الألم) |
 | الاستطباب الجديد المتوقع | التهاب المفاصل الروماتويدي |
-| درجة تنبؤ TxGNN | 99.73% |
+| درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L3 |
-| حالة التسويق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 14 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -91,15 +91,15 @@ predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility",
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الأربعة عشر المسجلة ملغاة، ولا يوجد أي ترخيص ساري. نص الاستطباب المعتمد غير مسجل في هذه التراخيص. فيما يلي خمسة منها:
+جميع التراخيص الأربعة عشر المسجلة سارية (14 ترخيصاً صالحاً من أصل 14). نص الاستطباب المعتمد غير مسجل في هذه التراخيص. فيما يلي خمسة منها:
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|------|
-| PONSTAN SYRUP 50MG-5ML | PONSTAN SYRUP 50MG-5ML | PARK-DAVIS | ملغى |
-| FENDOL 250 MG CAPSULE | FENDOL 250 MG CAPSULE | Hikma Pharmaceuticals PLC | ملغى |
-| FENDOL D.S.TAB 500MG | FENDOL D.S.TAB 500MG | Hikma Pharmaceuticals PLC | ملغى |
-| FENDOL 50MG-5ML SUSP | FENDOL 50MG-5ML SUSP | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| FENAM 50MG-5ML SYRUP | FENAM 50MG-5ML SYRUP | Jazeera Pharmaceutical Industries (JPI) | ملغى |
+| PONSTAN SYRUP 50MG-5ML | PONSTAN SYRUP 50MG-5ML | PARK-DAVIS | ساري |
+| FENDOL 250 MG CAPSULE | FENDOL 250 MG CAPSULE | Hikma Pharmaceuticals PLC | ساري |
+| FENDOL D.S.TAB 500MG | FENDOL D.S.TAB 500MG | Hikma Pharmaceuticals PLC | ساري |
+| FENDOL 50MG-5ML SUSP | FENDOL 50MG-5ML SUSP | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| FENAM 50MG-5ML SYRUP | FENAM 50MG-5ML SYRUP | Jazeera Pharmaceutical Industries (JPI) | ساري |
 
 ---
 
@@ -132,7 +132,7 @@ predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility",
 
 **المبررات:**
 - الأدلة على التهاب المفاصل الروماتويدي تقتصر على دراسات صغيرة قديمة (1966–1979) تُظهر فائدة في تخفيف الأعراض فقط، دون تجارب سريرية مسجلة. ولا تدعم هذه الأدلة تأثيرًا معدِّلًا للمرض.
-- جميع التراخيص السعودية ملغاة، وبيانات السلامة من نشرة الدواء غير متوفرة، وهذا يمنع الانتقال إلى مرحلة تقييم السلامة.
+- جميع التراخيص سارية (14 من أصل 14)، وبيانات السلامة من نشرة الدواء غير متوفرة، وهذا يمنع الانتقال إلى مرحلة تقييم السلامة.
 
 **للمضي قدمًا يلزم:**
 - الحصول على نشرة الدواء من هيئة الغذاء والدواء السعودية (SFDA) واستخراج التحذيرات وموانع الاستعمال.

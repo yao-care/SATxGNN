@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Interferon Gamma-1B
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 447
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Interferon Gamma-1B: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في ترخيص الهيئة العامة للغذاء والدواء)"
@@ -14,7 +14,7 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 # Interferon Gamma-1B
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 |------|------|
 | الاستطباب الأصلي | غير متوفر (لا يوجد نص استطباب في ترخيص الهيئة العامة للغذاء والدواء) |
 | الاستطباب الجديد المتوقع | أمراض القلب (heart disease) |
-| درجة تنبؤ TxGNN | 99.99% |
-| مستوى الأدلة | L4 |
-| وضع السوق في المملكة العربية السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 1 (ملغى) |
+| درجة تنبؤ TxGNN | 0.9999 |
+| مستوى الأدلة | L5 |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -86,7 +86,7 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| IMUKIN 100MCG-0.5ML VIAL | IMUKIN 100MCG-0.5ML VIAL (الشركة المصنّعة: BOEHRINGER INGELHEIM) | غير محدد | غير متوفر (الحالة: ملغى) |
+| IMUKIN 100MCG-0.5ML VIAL | IMUKIN 100MCG-0.5ML VIAL (الشركة المصنّعة: BOEHRINGER INGELHEIM) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

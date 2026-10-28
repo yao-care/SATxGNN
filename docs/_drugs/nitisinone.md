@@ -49,10 +49,10 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 |------|------|
 | الاستطباب الأصلي | التيروزينemia (من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطباب معتمد في تراخيص السعودية ضمن البيانات) |
 | الاستطباب الجديد المتوقع | الحماض الأنبوبي الكلوي |
-| درجة تنبؤ TxGNN | 99.96% |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -81,15 +81,15 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري. نص الاستطباب وشكل الجرعة غير متوفرين في البيانات.
+الدواء مسوّق في هذا البلد، وجميع التراخيص السبعة سارية (7 من 7). نص الاستطباب وشكل الجرعة غير متوفرين في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| NITYR 2 mg Tablet | NITYR 2 mg Tablet | Rivopharm SA | ملغى |
-| NITYR 5 mg Tablet | NITYR 5 mg Tablet | Rivopharm SA | ملغى |
-| NITYR 10 mg Tablet | NITYR 10 mg Tablet | Rivopharm SA | ملغى |
-| ORFADIN 2 MG CAPSULE | ORFADIN 2 MG CAPSULE | APOTEK PRODUKTION & LABORATORIER AB | ملغى |
-| ORFADIN 5 MG CAPSULE | ORFADIN 5 MG CAPSULE | APOTEK PRODUKTION & LABORATORIER AB | ملغى |
+| NITYR 2 mg Tablet | NITYR 2 mg Tablet | Rivopharm SA | ساري |
+| NITYR 5 mg Tablet | NITYR 5 mg Tablet | Rivopharm SA | ساري |
+| NITYR 10 mg Tablet | NITYR 10 mg Tablet | Rivopharm SA | ساري |
+| ORFADIN 2 MG CAPSULE | ORFADIN 2 MG CAPSULE | APOTEK PRODUKTION & LABORATORIER AB | ساري |
+| ORFADIN 5 MG CAPSULE | ORFADIN 5 MG CAPSULE | APOTEK PRODUKTION & LABORATORIER AB | ساري |
 
 (توجد ترخيصان ملغيان آخران: ORFADIN 10 MG وORFADIN 20 MG capsule.)
 
@@ -110,7 +110,7 @@ predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy 
 
 **المبررات:**
 - لا توجد تجارب سريرية ولا أدبيات تدعم الحماض الأنبوبي الكلوي، فمستوى الأدلة L5 (تنبؤ نموذجي فقط). والصلة الآلية ثانوية ومحصورة بالاعتلال الأنبوبي المصاحب للتيروزينemia.
-- جميع التراخيص السعودية ملغاة، وبيانات السلامة الرسمية ناقصة.
+- الدواء مسوّق في هذا البلد، وجميع التراخيص السبعة سارية (7 من 7)، وبيانات السلامة الرسمية ناقصة.
 
 **للمضي قدماً يلزم:**
 - الحصول على النشرة الدوائية من هيئة الغذاء والدواء السعودية (SFDA) وتحليل تحذيراتها وموانع الاستعمال.

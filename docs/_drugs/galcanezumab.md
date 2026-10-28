@@ -5,10 +5,10 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Galcanezumab: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: الصداع النصفي (migraine disorder)"
+last_modified_at: 2026-10-28
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Galcanezumab: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (heparin cofactor 2 deficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Galcanezumab
@@ -33,7 +33,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 </div>
 
-## جالكانيزوماب: من الصداع النصفي إلى نقص العامل المساعد الهيبارين 2
+## Galcanezumab: نقص العامل المساعد الهيبارين 2 (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الصداع النصفي (migraine disorder) |
-| الاستطباب الجديد المتنبأ به | نقص العامل المساعد الهيبارين 2 |
-| درجة تنبؤ TxGNN | 99.50% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | نقص العامل المساعد الهيبارين 2 (heparin cofactor 2 deficiency) |
+| درجة تنبؤ TxGNN | 0.9950 |
 | مستوى الدليل | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -64,7 +64,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 الدرجة المرتفعة (0.995) هي مخرجات رسم المعرفة البياني فقط، وغير مدعومة بتفسير بيولوجي أو تجارب سريرية أو أدبيات منشورة. ويُرجّح أنها تعكس ارتباطات شبكية وليست دلالة دوائية حقيقية.
 
-> للمقارنة، تنبأ النموذج أيضاً بنقص مضاد الثرومبين من النوع 2 (99.41%) وفرط العامل 5 مع تخثر عفوي (99.41%)، وكلاهما بلا دليل داعم أيضاً.
+> للمقارنة، تنبأ النموذج أيضاً بنقص مضاد الثرومبين من النوع 2 (0.9941) وفرط العامل 5 مع تخثر عفوي (0.9941)، وكلاهما بلا دليل داعم أيضاً.
 
 ---
 
@@ -86,7 +86,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 |---------|------|------|-----------|
 | Emgality | Emgality (الشركة المصنعة: ELI LILLY) | غير متوفر | غير متوفر |
 
-الحالة: ملغى. لا توجد تراخيص سارية.
+الحالة: مسوّق في هذا البلد. ترخيص واحد ساري من أصل ترخيص واحد.
 
 ---
 

@@ -4,17 +4,17 @@ title: Glycine
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 397
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Glycine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "GLYCINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 |------|------|
 | الاستطباب الأصلي | التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نزلات البرد، التهاب الأنف، التهاب البلعوم الأنفي (مأخوذة من الرسم المعرفي، إذ لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.85% |
+| درجة تنبؤ TxGNN | 0.9985 |
 | مستوى الدليل | L5 |
-| حالة التسويق في السعودية | جميع التراخيص ملغاة (غير مسوّق حالياً) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -64,7 +64,6 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 العلاقة بين الاستطباب الأصلي والجديد قريبة تشريحياً ومرضياً: التهاب الأنف والتهاب البلعوم الأنفي من أمراض الجهاز التنفسي العلوي، وأمراض التجويف الأنفي تقع في المنطقة نفسها. لذلك يرجح أن التنبؤ ناتج عن قرب هذه الحالات داخل الرسم المعرفي، وليس عن إشارة علاجية جديدة حقيقية.
 
-كما أن التنبؤ الثاني (التهاب الحنجرة والبلعوم الحاد، بدرجة 99.84%) يعتمد على درجة النموذج فقط دون أي تجارب أو منشورات، ويتداخل إلى حد كبير مع الاستطبابات الأصلية (التهاب البلعوم ونزلات البرد).
 
 ---
 
@@ -87,15 +86,15 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري. نصوص الاستطباب ونماذج الجرعات غير متوفرة.
+جميع التراخيص السبعة سارية (7 تراخيص سارية من أصل 7). نصوص الاستطباب ونماذج الجرعات غير متوفرة.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| GLYCINE IRRIGATION SOLN 1.5% | GLYCINE IRRIGATION SOLN 1.5% | Pharmaceutical Solution Industries (PSI) | ملغى |
-| GLYCINE 1.5% IRRIGATION SOLUTION | GLYCINE 1.5% IRRIGATION SOLUTION | الكويتية السعودية للصناعات الدوائية | ملغى |
-| GLYCINE | GLYCINE | McGaw | ملغى |
-| GLYCINE FOR IRRIGATION 1.5% | GLYCINE FOR IRRIGATION 1.5% | Abbott Laboratories | ملغى |
-| GLYCINE IRRIGATION 1.5% | GLYCINE IRRIGATION 1.5% | B. Braun | ملغى |
+| GLYCINE IRRIGATION SOLN 1.5% | GLYCINE IRRIGATION SOLN 1.5% | Pharmaceutical Solution Industries (PSI) | ساري |
+| GLYCINE 1.5% IRRIGATION SOLUTION | GLYCINE 1.5% IRRIGATION SOLUTION | الكويتية السعودية للصناعات الدوائية | ساري |
+| GLYCINE | GLYCINE | McGaw | ساري |
+| GLYCINE FOR IRRIGATION 1.5% | GLYCINE FOR IRRIGATION 1.5% | Abbott Laboratories | ساري |
+| GLYCINE IRRIGATION 1.5% | GLYCINE IRRIGATION 1.5% | B. Braun | ساري |
 
 يُلاحظ أن المنتجات المرخصة سابقاً هي محاليل غسيل (irrigation) بتركيز 1.5%، وليست مستحضرات لعلاج أمراض الأنف.
 
@@ -117,7 +116,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 **المبررات:**
 - التنبؤ قائم على درجة النموذج فقط (L5)، ولا يوجد دليل سريري أو آلي يدعم استخدام الغلايسين في أمراض التجويف الأنفي، والتجربة الوحيدة المرتبطة غير ذات صلة.
-- جميع التراخيص السعودية ملغاة، وبيانات السلامة من النشرة غير متوفرة، وهو ما يمنع الانتقال إلى مرحلة تقييم السلامة.
+- جميع التراخيص السعودية سارية (7 من 7)، لكن بيانات السلامة من النشرة غير متوفرة، وهو ما يمنع الانتقال إلى مرحلة تقييم السلامة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة من هيئة الغذاء والدواء السعودية وتحليل التحذيرات والموانع (فجوة حاجزة).

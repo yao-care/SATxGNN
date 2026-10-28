@@ -49,10 +49,10 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 |------|------|
 | الاستطباب الأصلي | حب الشباب، التهاب الجلد الدهني، التهاب الملتحمة، التهاب العنبية، داء الأميبات، مرض خدش القط (من الرسم المعرفي للنموذج؛ لا يتوفر نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتوقع | التهاب الأوعية الدموية التالي للعدوى |
-| درجة توقع TxGNN | 99.99% |
+| درجة توقع TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 8 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (تأجيل) |
 
 ---
@@ -100,15 +100,15 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الثمانية ملغاة، ولا يوجد حالياً ترخيص ساري. نص الاستطباب المعتمد وشكل الجرعة غير متوفرين في البيانات المجمّعة.
+الدواء مسوّق في هذا البلد، و8 تراخيص سارية من أصل 8.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| ISOPTO CETAMIDE 10% EYE DROPS | ISOPTO CETAMIDE 10% EYE DROPS | ALCON COUVREUR | ملغى |
-| COLIRCUSI SULPHACETAMIDE 10% | COLIRCUSI SULPHACETAMIDE 10% | Siegfried EI Masnou | ملغى |
-| COLIRCUSI SULPHACETAMIDE 20% | COLIRCUSI SULPHACETAMIDE 20% | Siegfried EI Masnou | ملغى |
-| RIACETAMIDE -20 | RIACETAMIDE -20 | RIYADH PHARMA | ملغى |
-| CETAMIDE 10% OPTH.OINT. | CETAMIDE 10% OPTH.OINT. | ALCON LABORATORIES | ملغى |
+| ISOPTO CETAMIDE 10% EYE DROPS | ISOPTO CETAMIDE 10% EYE DROPS | ALCON COUVREUR | ساري |
+| COLIRCUSI SULPHACETAMIDE 10% | COLIRCUSI SULPHACETAMIDE 10% | Siegfried EI Masnou | ساري |
+| COLIRCUSI SULPHACETAMIDE 20% | COLIRCUSI SULPHACETAMIDE 20% | Siegfried EI Masnou | ساري |
+| RIACETAMIDE -20 | RIACETAMIDE -20 | RIYADH PHARMA | ساري |
+| CETAMIDE 10% OPTH.OINT. | CETAMIDE 10% OPTH.OINT. | ALCON LABORATORIES | ساري |
 
 ---
 
@@ -139,7 +139,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 **المبررات:**
 - التوقع قائم على النموذج فقط (L5) دون أي تجارب أو منشورات داعمة، ولا توجد صلة آلية واضحة بين مضاد بكتيري موضعي وحالة مناعية المنشأ.
-- جميع التراخيص في السعودية ملغاة، ونقص بيانات السلامة من النشرة يمثل عائقاً أمام الانتقال إلى مرحلة فحص السلامة.
+- الدواء مسوّق في هذا البلد، و8 تراخيص سارية من أصل 8.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة حاجزة).

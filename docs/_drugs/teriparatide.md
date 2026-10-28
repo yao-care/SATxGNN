@@ -4,7 +4,7 @@ title: Teriparatide
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 804
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Teriparatide: الاستطباب الجديد المتوقع قرحة الاثني عشر (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام"
 monitor_inn: "TERIPARATIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 |------|------|
 | الاستطباب الأصلي | هشاشة العظام بعد انقطاع الطمث / هشاشة العظام |
 | الاستطباب الجديد المتوقع | قرحة الاثني عشر |
-| درجة توقع TxGNN | 99.86% |
+| درجة توقع TxGNN | 0.9986 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ملاحظة: الاستطباب الأصلي مأخوذ من الروابط العلاجية في الرسم المعرفي لنموذج TxGNN، لأن نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية غير متوفرة.
@@ -83,12 +83,12 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| TERROSA | TERROSA | GEDEON RICHTER PLC. | ملغى |
-| FORTEO 20MCG-80MCL SOLU. FOR Injection* | FORTEO | ELI LILLY | ملغى |
-| Bonteo | Bonteo | Cytovance Biologics, Inc | ملغى |
-| FORTEO 20MCG-80MCL SOLU. FOR Injection | FORTEO | ELI LILLY | ملغى |
+| TERROSA | TERROSA | GEDEON RICHTER PLC. | ساري |
+| FORTEO 20MCG-80MCL SOLU. FOR Injection* | FORTEO | ELI LILLY | ساري |
+| Bonteo | Bonteo | Cytovance Biologics, Inc | ساري |
+| FORTEO 20MCG-80MCL SOLU. FOR Injection | FORTEO | ELI LILLY | ساري |
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد منتج ساري حالياً، ما يحدّ من إتاحة الدواء عملياً.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
 ---
 

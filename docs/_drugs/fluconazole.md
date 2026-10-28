@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 </div>
 
-## فلوكونازول: من داء المبيضّات إلى التهاب القرنية والملتحمة الظفاري النقطي
+## فلوكونازول: من داء المبيضّات إلى التهاب القرنية والملتحمة النقطي الظهاري
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,9 +49,9 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 |------|------|
 | الاستطباب الأصلي | داء المبيضّات (الفموي، المهبلي، المريئي، المنتشر)، التهاب السحايا بالمستخفيات، وجود المبيضّات في الدم (مصدر هذه الاستطبابات رسم معرفي، وليس نصوص تراخيص الهيئة) |
 | الاستطباب الجديد المتوقع | التهاب القرنية والملتحمة الظهاري النقطي |
-| درجة تنبؤ TxGNN | 99.24% |
+| درجة تنبؤ TxGNN | 0.9924 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | لا توجد تراخيص سارية (جميع التراخيص ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
@@ -81,15 +81,15 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 ## معلومات السوق في السعودية
 
-تشمل البيانات 20 ترخيصاً لفلوكونازول، وجميعها بحالة **ملغاة**، ولا يوجد ترخيص ساري. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات. أبرز التراخيص:
+تشمل البيانات 20 ترخيصاً لفلوكونازول، وجميعها **سارية**، والدواء مسوَّق في هذا البلد. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات. أبرز التراخيص:
 
 | رقم الترخيص / اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|
-| FLUCAND 50 MG CAPSULES | Hikma Pharmaceuticals PLC | ملغى |
-| FLUCORAL 150MG CAPSULES | Jazeera Pharmaceutical Industries (JPI) | ملغى |
-| CANDEUR 2 mg/ml Solution For Infusion | Tabuk Pharmaceutical Manufacturing Co. | ملغى |
-| FLOCAZOLE 50 MG CAPSULES | SPIMACO | ملغى |
-| FLUCO-SOL 2MG/ML SOLUTION FOR I.V. INFUSION | Pharmaceutical Solution Industries (PSI) | ملغى |
+| FLUCAND 50 MG CAPSULES | Hikma Pharmaceuticals PLC | ساري |
+| FLUCORAL 150MG CAPSULES | Jazeera Pharmaceutical Industries (JPI) | ساري |
+| CANDEUR 2 mg/ml Solution For Infusion | Tabuk Pharmaceutical Manufacturing Co. | ساري |
+| FLOCAZOLE 50 MG CAPSULES | SPIMACO | ساري |
+| FLUCO-SOL 2MG/ML SOLUTION FOR I.V. INFUSION | Pharmaceutical Solution Industries (PSI) | ساري |
 
 ---
 
@@ -112,7 +112,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 **المبررات:**
 - التنبؤ يعتمد على درجة النموذج العالية فقط (L5) دون أي تجارب سريرية أو منشورات، والآلية المضادة للفطريات لا ترتبط بوضوح بالأسباب الشائعة لهذا المرض.
-- جميع التراخيص السعودية ملغاة، وبيانات السلامة المعتمدة من الهيئة غير مكتملة، ما يعيق الانتقال إلى مرحلة فحص السلامة.
+- التراخيص السعودية سارية (20 ترخيصاً)، لكن بيانات السلامة المعتمدة من الهيئة غير مكتملة، ما يعيق الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم:**
 - الحصول على تحذيرات وموانع الاستعمال من النشرة الدوائية لدى الهيئة العامة للغذاء والدواء (تنزيل ملف PDF وتحليله) — وهي فجوة معيقة.

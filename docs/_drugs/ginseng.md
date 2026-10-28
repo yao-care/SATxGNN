@@ -6,9 +6,9 @@ nav_order: 390
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ginseng: الاستطباب الجديد المتوقع اعتلال الشبكية السكري (Diabetic Retinopathy) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغ…"
 monitor_inn: "ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
+description: "Ginseng: الاستطباب الجديد المتوقع Drug-induced osteoporosis (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ginseng
@@ -33,14 +33,14 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 </div>
 
-## الجينسنغ: من استطباب غير موثّق إلى اعتلال الشبكية السكري
+## Ginseng: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 الجينسنغ (Ginseng) مستخلص عشبي مسجّل في المملكة العربية السعودية ضمن مستحضرات مقوّية، لكن نصوص الاستطباب الأصلي غير متوفرة في البيانات المجمّعة لهذا التقرير. يتنبأ نموذج TxGNN بأنه قد يكون مفيدًا في **اعتلال الشبكية السكري (Diabetic Retinopathy)**، ويستند ذلك إلى **20 منشورًا علميًا** وأغلبها دراسات مخبرية وحيوانية، دون **أي تجربة سريرية مسجّلة** لهذا الاستطباب.
 
-> ملاحظة: تتصدر قائمة التنبؤات حسب درجة النموذج «هشاشة العظام الناجمة عن الأدوية» (99.95%)، لكنها لا تملك أي دليل داعم. اخترنا اعتلال الشبكية السكري محورًا لهذا التقرير لأنه الاستطباب الذي تتوفر له أقوى حزمة أدلة.
+> ملاحظة: تتصدر قائمة التنبؤات حسب درجة النموذج «هشاشة العظام الناجمة عن الأدوية» (0.9995)، لكنها لا تملك أي دليل داعم. اخترنا اعتلال الشبكية السكري محورًا لهذا التقرير لأنه الاستطباب الذي تتوفر له أقوى حزمة أدلة.
 
 ---
 
@@ -48,12 +48,12 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغة) |
-| الاستطباب الجديد المتوقع | اعتلال الشبكية السكري (Diabetic Retinopathy) |
-| درجة تنبؤ TxGNN | 99.55% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Drug-induced osteoporosis |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريّث) مع اعتباره سؤالًا بحثيًا |
 
 ---
@@ -98,10 +98,10 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| GERIATON FORTE | GERIATON FORTE (الشركة: دار الدواء) | غير محدد | غير متوفر | ملغى |
-| GERIATRIC PHARMATON CAPS | GERIATRIC PHARMATON CAPS (الشركة: Pharmaton) | غير محدد | غير متوفر | ملغى |
-| V-2 PLUS CAPS | V-2 PLUS CAPS (الشركة: Pharco) | غير محدد | غير متوفر | ملغى |
-| V-2 CAPS | V-2 CAPS (الشركة: Pharco) | غير محدد | غير متوفر | ملغى |
+| GERIATON FORTE | GERIATON FORTE (الشركة: دار الدواء) | غير محدد | غير متوفر | ساري |
+| GERIATRIC PHARMATON CAPS | GERIATRIC PHARMATON CAPS (الشركة: Pharmaton) | غير محدد | غير متوفر | ساري |
+| V-2 PLUS CAPS | V-2 PLUS CAPS (الشركة: Pharco) | غير محدد | غير متوفر | ساري |
+| V-2 CAPS | V-2 CAPS (الشركة: Pharco) | غير محدد | غير متوفر | ساري |
 
 ---
 
@@ -127,7 +127,6 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 **المبررات:**
 - الأدلة محصورة في دراسات قبل سريرية ومراجعات ودراسة بشرية واحدة حديثة لم يُتحقق من تصميمها، دون تجارب مسجّلة، ما يبقي مستوى الدليل عند L4.
-- جميع التراخيص السعودية ملغاة، وبيانات السلامة الأساسية غير متوفرة، وهناك عدد كبير من التداخلات الدوائية مع أدوية السكري.
 
 **للمضي قدمًا يلزم:**
 - التحقق من تصميم وحجم ونتائج الدراسة PMID 42395017.

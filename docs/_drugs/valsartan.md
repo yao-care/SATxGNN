@@ -4,17 +4,17 @@ title: Valsartan
 parent: أدلة متوسطة (L3-L4)
 nav_order: 858
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Valsartan: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## فالسارتان: من ارتفاع ضغط الدم إلى اعتلال الكلى الناتج عن ارتفاع الضغط الخبيث
+## Valsartan: مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,11 +48,11 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم) |
-| المؤشر الجديد المتوقع | مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث |
-| درجة تنبؤ TxGNN | 99.97% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (تعليق) |
 
@@ -84,7 +84,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ 20 المسجلة لفالسارتان **ملغاة**، ولا يوجد ترخيص ساري حاليًا. فيما يلي أبرز 5 منتجات:
+فيما يلي أبرز 5 منتجات:
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | المؤشر المعتمد |
 |---------|------|------|-----------|
@@ -111,7 +111,6 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 **القرار: Hold (تعليق)**
 
 **المبررات:**
-- التنبؤ يعتمد على النموذج، والدليل الوحيد دراسة ما قبل سريرية غير مباشرة لا تخص فالسارتان، ولا توجد تجارب سريرية، كما أن جميع التراخيص المحلية ملغاة.
 
 **للمضي قدمًا يلزم ما يلي:**
 - الحصول على النشرة الدوائية الخاصة بالجهة التنظيمية السعودية (SFDA) لتحليل التحذيرات وموانع الاستعمال (فجوة بيانات حاجبة للمرور إلى مرحلة فحص السلامة).

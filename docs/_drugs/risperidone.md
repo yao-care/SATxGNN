@@ -4,17 +4,17 @@ title: Risperidone
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 728
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Risperidone: الاستطباب الجديد المتوقع متلازمة شلل النظر الأفقي العائلي مع الجنف التدريجي (مستوى الدليل L5). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص…"
+description: "Risperidone: الاستطباب الجديد المتوقع شلل النظر الأفقي العائلي مع الجنف التدريجي (gaze palsy, familial horizontal, with progressive scoliosis) (مستوى الدليل L5). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص…"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 
 </div>
 
-## ريسبيريدون: من الفصام والاضطراب ثنائي القطب إلى متلازمة شلل النظر الأفقي العائلي مع الجنف التدريجي
+## ريسبيريدون: من الفصام والاضطراب ثنائي القطب إلى شلل النظر الأفقي العائلي مع الجنف التدريجي (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -49,9 +49,9 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 |------|------|
 | الاستطباب الأصلي | الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص استطبابات في تراخيص هيئة الغذاء والدواء السعودية) |
 | الاستطباب الجديد المتنبأ به | متلازمة شلل النظر الأفقي العائلي مع الجنف التدريجي |
-| درجة تنبؤ TxGNN | 99.76% |
+| درجة تنبؤ TxGNN | 0.9976 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
@@ -63,7 +63,7 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 
 أما المرض المتنبأ به فهو اضطراب نادر جدًا مرتبط بجين ROBO3، ويصيب حركة العين والعمود الفقري. **لم يُعثر على رابط آلي معقول** بين هذا المرض وآلية عمل ريسبيريدون.
 
-الدرجة العالية (0.998) ناتجة عن العلاقات في الرسم البياني المعرفي فقط، ولا ينبغي تفسيرها كدليل على الفعالية.
+الدرجة العالية (0.9976) صادرة عن نموذج TxGNN (التعلم العميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً ولا ينبغي تفسيرها كدليل على الفعالية.
 
 ---
 
@@ -81,15 +81,15 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص العشرون ملغاة ولا يوجد ترخيص ساري. فيما يلي أبرز خمسة منها (بيانات الشكل الدوائي ونص الاستطباب غير متوفرة):
+يوجد 20 ترخيصاً ساري المفعول والدواء مسوّق. فيما يلي أبرز خمسة منها (بيانات الشكل الدوائي ونص الاستطباب غير متوفرة):
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|------|
-| RISPERDAL 1MG TAB | RISPERDAL 1MG TAB | JANSSEN-CILAG | ملغى |
-| RISPERDAL CONSTA 25MG I.M VIAL | RISPERDAL CONSTA 25MG I.M VIAL | ALKEREMES INC. | ملغى |
-| RISPERDAL CONSTA 50MG I.M VIAL | RISPERDAL CONSTA 50MG I.M VIAL | ALKEREMES INC. | ملغى |
-| CALMTROL 1 mg film-coated tablet | CALMTROL 1 mg film-coated tablet | TABUK PHARMACEUTICAL MANUFACTURING CO. | ملغى |
-| RESPAL 2 MG TABLETS | RESPAL 2 MG TABLETS | Jordan Sweden Medical and Sterilization Co. | ملغى |
+| RISPERDAL 1MG TAB | RISPERDAL 1MG TAB | JANSSEN-CILAG | ساري |
+| RISPERDAL CONSTA 25MG I.M VIAL | RISPERDAL CONSTA 25MG I.M VIAL | ALKEREMES INC. | ساري |
+| RISPERDAL CONSTA 50MG I.M VIAL | RISPERDAL CONSTA 50MG I.M VIAL | ALKEREMES INC. | ساري |
+| CALMTROL 1 mg film-coated tablet | CALMTROL 1 mg film-coated tablet | TABUK PHARMACEUTICAL MANUFACTURING CO. | ساري |
+| RESPAL 2 MG TABLETS | RESPAL 2 MG TABLETS | Jordan Sweden Medical and Sterilization Co. | ساري |
 
 ---
 

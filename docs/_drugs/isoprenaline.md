@@ -48,10 +48,10 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 |------|------|
 | الاستطباب الأصلي | نزلة البرد، التهاب البلعوم الأنفي، السكتة القلبية، حصار الأذين البطيني (نصوص الاستطباب في تراخيص المملكة فارغة، والمعلومة مأخوذة من الرسم المعرفي للنموذج) |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ✗ ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,8 +82,8 @@ predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngiti
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| ISOPROTERENOL HCL EMERG.1:5000 SYRING | ISOPROTERENOL HCL EMERG.1:5000 SYRING | HOSPIRA | ملغى |
-| ISOPROTERENOL1:5000 ADDIT EMER.SYRING | ISOPROTERENOL1:5000 ADDIT EMER.SYRING | HOSPIRA | ملغى |
+| ISOPROTERENOL HCL EMERG.1:5000 SYRING | ISOPROTERENOL HCL EMERG.1:5000 SYRING | HOSPIRA | ساري |
+| ISOPROTERENOL1:5000 ADDIT EMER.SYRING | ISOPROTERENOL1:5000 ADDIT EMER.SYRING | HOSPIRA | ساري |
 
 ---
 

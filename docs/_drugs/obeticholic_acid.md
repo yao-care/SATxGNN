@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Obeticholic Acid
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 603
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Obeticholic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية (تشير الأدبيات إلى التهاب الصفراء…"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous 
 # Obeticholic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous 
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات الترخيص المحلية (تشير الأدبيات إلى التهاب الصفراء الأولي PBC) |
 | الاستطباب الجديد المتوقع | التهاب المفاصل الروماتويدي |
-| درجة تنبؤ TxGNN | 99.67% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغى فقط (الترخيص المسجل ملغى) |
-| عدد التراخيص | 1 |
+| درجة تنبؤ TxGNN | 0.9967 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً، مسألة بحثية) |
 
 ---
@@ -89,7 +89,7 @@ predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Ocaliva | Ocaliva | غير محدد | غير متوفر (الحالة: ملغى؛ الشركة المصنعة: Almac Pharma Services Limited) |
+| Ocaliva | Ocaliva | غير محدد | غير متوفر (الحالة: ساري؛ الشركة المصنعة: Almac Pharma Services Limited) |
 
 ---
 

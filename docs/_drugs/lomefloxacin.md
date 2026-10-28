@@ -50,10 +50,10 @@ predicted_indications: ["laryngotracheitis", "heart valve disease", "heart condu
 |------|------|
 | الاستطباب الأصلي | التهاب المسالك البولية، التهاب الشعب الهوائية |
 | الاستطباب الجديد المتوقع | التهاب الحنجرة والرغامى |
-| درجة تنبؤ TxGNN | 99.61% |
+| درجة تنبؤ TxGNN | 0.9961 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -82,8 +82,8 @@ predicted_indications: ["laryngotracheitis", "heart valve disease", "heart condu
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| LOMAX 400MG TAB | LOMAX 400MG TAB (Gulf Pharmaceutical Industries - Julphar) | غير محدد | غير محدد (ترخيص ملغى) |
-| OKACIN 0.3% EYE DROPS | OKACIN 0.3% EYE DROPS (Excel Vision) | غير محدد | غير محدد (ترخيص ملغى) |
+| LOMAX 400MG TAB | LOMAX 400MG TAB (Gulf Pharmaceutical Industries - Julphar) | غير محدد | غير محدد (ترخيص ساري) |
+| OKACIN 0.3% EYE DROPS | OKACIN 0.3% EYE DROPS (Excel Vision) | غير محدد | غير محدد (ترخيص ساري) |
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 71
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Aripiprazole: الاستطباب الجديد المتوقع الاضطراب العاطفي الرئيسي (major affective disorder) (مستوى الدليل L1). الاستطباب الأصلي: الاضطراب ثنائي القطب (نوبات الهوس)، الفصام، اضطراب طيف التوحد"
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 |------|------|
 | الاستطباب الأصلي | الاضطراب ثنائي القطب (نوبات الهوس)، الفصام، اضطراب طيف التوحد |
 | الاستطباب الجديد المتوقع | الاضطراب العاطفي الرئيسي (major affective disorder) |
-| درجة تنبؤ TxGNN | 99.62% |
-| مستوى الأدلة | L1 |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
+| درجة تنبؤ TxGNN | 0.9962 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
 | عدد التراخيص | 19 (جميعها ملغاة) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
@@ -104,15 +104,15 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الـ19 المسجلة ملغاة، ولا يوجد ترخيص ساري حالياً. ولا تتوفر بيانات عن الاستطباب المعتمد أو الشكل الصيدلاني لهذه التراخيص.
+يوجد 19 ترخيصاً ساري المفعول لهذا الدواء، وهو مسوّق في هذا البلد. ولا تتوفر بيانات عن الاستطباب المعتمد أو الشكل الصيدلاني لهذه التراخيص.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| ZOLINDA 15 mg tablet | ZOLINDA 15 mg tablet | SPIMACO | ملغى |
+| ZOLINDA 15 mg tablet | ZOLINDA 15 mg tablet | SPIMACO | ساري |
 | ABILIFY MAINTENA 400 mg | ABILIFY MAINTENA 400 mg (مسحوق ومذيب لحقن ممتدة المفعول) | Otsuka | ملغى |
-| ARPENIA 10 mg tablet | ARPENIA 10 mg tablet | شركة تبوك للصناعات الدوائية | ملغى |
-| ARIPO 10 mg tablet | ARIPO 10 mg tablet | الجزيرة للصناعات الدوائية | ملغى |
-| ARIPEX 15 mg tablet | ARIPEX 15 mg tablet | الدمام فارما | ملغى |
+| ARPENIA 10 mg tablet | ARPENIA 10 mg tablet | شركة تبوك للصناعات الدوائية | ساري |
+| ARIPO 10 mg tablet | ARIPO 10 mg tablet | الجزيرة للصناعات الدوائية | ساري |
+| ARIPEX 15 mg tablet | ARIPEX 15 mg tablet | الدمام فارما | ساري |
 
 ---
 
@@ -138,7 +138,7 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 **المبررات:**
 - تدعم الاستطباب عدة تجارب من المرحلة الثالثة مكتملة ومضبوطة بالدواء الوهمي (أكثر من 1000 مشارك في بعضها)، إضافة إلى تحليلات تلوية شبكية حديثة. وهذا يحقق مستوى الأدلة L1.
-- الدواء غير مسجل حالياً في السعودية (جميع التراخيص ملغاة)، وبيانات السلامة الرسمية غير مكتملة، ما يستوجب الحذر.
+- الدواء مسوّق حالياً في السعودية (19 ترخيصاً سارياً)، وبيانات السلامة الرسمية غير مكتملة، ما يستوجب الحذر.
 
 **المطلوب للمضي قدماً:**
 - تنزيل نشرة العبوة من موقع هيئة الغذاء والدواء السعودية وتحليلها لاستخراج التحذيرات وموانع الاستعمال (فجوة بيانات حرجة).
@@ -150,7 +150,7 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 ## ملحق: مؤشرات أخرى متوقعة
 
-بين المؤشرات المتوقعة الأخرى، يبرز **هوس نتف الشعر (Trichotillomania)** (درجة 99.26%، مستوى الأدلة L3، التوصية: سؤال بحثي). تتوفر له تجربة مفتوحة صغيرة مكتملة (NCT00947154، 12 مشاركاً) وتجربة من المرحلة الثانية مضبوطة بالدواء الوهمي لم تبدأ التجنيد بعد (NCT05545891)، إضافة إلى عدة تقارير حالات. غير أن الأدبيات تشير أيضاً إلى أن الدواء نفسه قد يسبب هذا السلوك لدى بعض المرضى، ما يجعل النفع والمخاطر غير محسومين.
+بين المؤشرات المتوقعة الأخرى، يبرز **هوس نتف الشعر (Trichotillomania)** (درجة 0.9926، مستوى الأدلة L3، التوصية: سؤال بحثي). تتوفر له تجربة مفتوحة صغيرة مكتملة (NCT00947154، 12 مشاركاً) وتجربة من المرحلة الثانية مضبوطة بالدواء الوهمي لم تبدأ التجنيد بعد (NCT05545891)، إضافة إلى عدة تقارير حالات. غير أن الأدبيات تشير أيضاً إلى أن الدواء نفسه قد يسبب هذا السلوك لدى بعض المرضى، ما يجعل النفع والمخاطر غير محسومين.
 
 أما بقية المؤشرات العشرة الأولى (مثل متلازمة أسبرجر، ومتلازمة فيلان-مكديرميد، ومتلازمة مالان، وانعدام الدماغ المائي) فلا تتوفر لها تجارب أو أدبيات ضمن البيانات المجمعة، وتقتصر على تنبؤ النموذج، وتوصيتها **الانتظار (Hold)**.
 ## إخلاء المسؤولية

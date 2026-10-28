@@ -6,9 +6,9 @@ nav_order: 406
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Haloperidol: الاستطباب الجديد المتوقع اضطراب الارتباط السكري الخلقي مع نقص الفَكْسَلة (مستوى الدليل L5). الاستطباب الأصلي: الفصام والاضطرابات الذهانية (من الاستطبابات الأصلية المعروفة للدواء،…"
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Haloperidol: الاستطباب الجديد المتوقع Congenital disorder of glycosylation with defective fucosylation (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Haloperidol
@@ -33,7 +33,7 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 </div>
 
-## هالوبيريدول (Haloperidol): من الفصام والاضطرابات الذهانية إلى اضطراب الارتباط السكري الخلقي مع نقص الفَكْسَلة
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الفصام والاضطرابات الذهانية (من الاستطبابات الأصلية المعروفة للدواء، إذ لا يتوفر نص استطباب في تراخيص المملكة) |
-| الاستطباب الجديد المتنبأ به | اضطراب الارتباط السكري الخلقي مع نقص الفَكْسَلة |
-| درجة تنبؤ TxGNN | 99.91% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Congenital disorder of glycosylation with defective fucosylation |
+| درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| وضع السوق في المملكة العربية السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 10 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
+| عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -61,7 +61,7 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 تتوفر حالياً بيانات تفصيلية عن آلية العمل غير كافية. المعروف أن هالوبيريدول مضاد لمستقبلات الدوبامين D2، وأن فعاليته في الفصام والذهان مثبتة منذ زمن طويل. أما في اضطرابات الارتباط السكري الخلقي، وهي أمراض أيضية وراثية تصيب تصنيع السكريات المرتبطة بالبروتينات، فلا توجد أي صلة آلية معروفة بين حجب مستقبلات D2 وتصحيح خلل الفَكْسَلة.
 
-لذلك فإن الدرجة العالية (99.91%، المرتبة 2061) تعكس نمطاً إحصائياً في الرسم المعرفي الذي يعتمد عليه النموذج، وليست دليلاً بيولوجياً أو سريرياً. ولا يصح اعتبار هذا التنبؤ فرصة حقيقية لإعادة توظيف الدواء قبل ظهور أدلة مخبرية تدعمه.
+لذلك فإن الدرجة العالية (0.9991، المرتبة 2061) تعكس نمطاً إحصائياً في الرسم المعرفي الذي يعتمد عليه النموذج، وليست دليلاً بيولوجياً أو سريرياً. ولا يصح اعتبار هذا التنبؤ فرصة حقيقية لإعادة توظيف الدواء قبل ظهور أدلة مخبرية تدعمه.
 
 ---
 
@@ -83,11 +83,11 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 | رقم الترخيص / الاسم | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| HALDOL 2MG-ML DROPS | HALDOL 2MG-ML DROPS | Janssen Pharmaceutica N.V. | ملغى |
-| HALDOL DECANOAS INJ 50MG | HALDOL DECANOAS INJ 50MG | Janssen Pharmaceutica N.V. | ملغى |
-| HALDOL 5MG TABLET | HALDOL 5MG TABLET | Lusomedicamenta | ملغى |
-| SYLADOR TAB 2 MG. | SYLADOR TAB 2 MG. | Alpharma ApS | ملغى |
-| SERENACE | SERENACE | G.D. Searle | ملغى |
+| HALDOL 2MG-ML DROPS | HALDOL 2MG-ML DROPS | Janssen Pharmaceutica N.V. | ساري |
+| HALDOL DECANOAS INJ 50MG | HALDOL DECANOAS INJ 50MG | Janssen Pharmaceutica N.V. | ساري |
+| HALDOL 5MG TABLET | HALDOL 5MG TABLET | Lusomedicamenta | ساري |
+| SYLADOR TAB 2 MG. | SYLADOR TAB 2 MG. | Alpharma ApS | ساري |
+| SERENACE | SERENACE | G.D. Searle | ساري |
 
 نصوص الاستطباب المعتمدة وأشكال الجرعات غير مدونة في سجلات هذه التراخيص.
 

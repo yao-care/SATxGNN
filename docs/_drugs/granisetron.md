@@ -49,10 +49,10 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص المحلية (الدواء مصنف عمومًا كمضاد للقيء) |
 | الاستطباب الجديد المتوقع | اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) |
-| درجة توقع TxGNN | 99.62% |
+| درجة توقع TxGNN | 0.9962 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 8 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -61,7 +61,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 لا تتوفر حاليًا بيانات تفصيلية عن آلية العمل في البيانات المجمعة. وبحسب المعرفة المتاحة، فإن غرانيسيترون مضاد انتقائي لمستقبلات السيروتونين 5-HT3، وقد ثبتت فاعليته في منع القيء المرتبط بالعلاج الكيميائي.
 
-الصلة بالاضطراب الثنائي القطب الهوسي تخمينية: فقد يكون للتعديل في نقل السيروتونين والدوبامين دور في تنظيم المزاج. لكن لم تُقدَّم أي أدلة سريرية أو منشورات تدعم ذلك، ودرجة TxGNN المرتفعة (0.996) هي مجرد تنبؤ من النموذج.
+الصلة بالاضطراب الثنائي القطب الهوسي تخمينية: فقد يكون للتعديل في نقل السيروتونين والدوبامين دور في تنظيم المزاج. لكن لم تُقدَّم أي أدلة سريرية أو منشورات تدعم ذلك، ودرجة TxGNN المرتفعة (0.9962) هي مجرد تنبؤ من النموذج.
 
 ---
 
@@ -79,15 +79,15 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثمانية ملغاة، ولا يوجد ترخيص ساري. نصوص دواعي الاستعمال وأشكال الجرعات غير متوفرة في البيانات.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الثمانية سارية (8 من 8). نصوص دواعي الاستعمال وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| KYTRIL 1MG TAB | KYTRIL 1MG TAB | Delpharm Milano S.r.l | ملغى |
-| GRANITRON 3MG-3ML SOLUTION FOR Injection | GRANITRON 3MG-3ML | Hikma Pharmaceuticals PLC | ملغى |
-| EMLOP 1MG/ML AMPOULE | EMLOP 1MG/ML AMPOULE | Amoun Pharmaceutical Company | ملغى |
-| KYTRIL 200MCG-ML SYRUP | KYTRIL 200MCG-ML SYRUP | ROCHE | ملغى |
-| SANCUSO 34.3 mg transdermal patch | SANCUSO 34.3 mg (لصقة جلدية) | 3M Drug Delivery Systems | ملغى |
+| KYTRIL 1MG TAB | KYTRIL 1MG TAB | Delpharm Milano S.r.l | ساري |
+| GRANITRON 3MG-3ML SOLUTION FOR Injection | GRANITRON 3MG-3ML | Hikma Pharmaceuticals PLC | ساري |
+| EMLOP 1MG/ML AMPOULE | EMLOP 1MG/ML AMPOULE | Amoun Pharmaceutical Company | ساري |
+| KYTRIL 200MCG-ML SYRUP | KYTRIL 200MCG-ML SYRUP | ROCHE | ساري |
+| SANCUSO 34.3 mg transdermal patch | SANCUSO 34.3 mg (لصقة جلدية) | 3M Drug Delivery Systems | ساري |
 
 ---
 

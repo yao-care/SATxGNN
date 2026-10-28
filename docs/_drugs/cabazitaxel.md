@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cabazitaxel
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 130
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cabazitaxel: الاستطباب الجديد المتوقع سرطان الثدي لدى النساء (female breast carcinoma) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في البيانات المجمَّعة (تراخيص الهيئة العامة للغذاء والدواء…"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "hereditary persistence of fe
 # Cabazitaxel
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["female breast carcinoma", "hereditary persistence of fe
 |------|------|
 | الاستطباب الأصلي | غير متوفر في البيانات المجمَّعة (تراخيص الهيئة العامة للغذاء والدواء خالية من نص الاستطباب) |
 | الاستطباب الجديد المتوقع | سرطان الثدي لدى النساء (female breast carcinoma) |
-| درجة تنبؤ TxGNN | 99.92% |
-| مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9992 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | تعليق (Hold) |
 
 ---
@@ -96,10 +96,10 @@ predicted_indications: ["female breast carcinoma", "hereditary persistence of fe
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| JEVTANA 60 mg concentrate and solvent for solution for infusion | JEVTANA 60 mg (AVENTIS PHARMA) | غير متوفر | غير متوفر | ملغى |
-| NEUTAXAN | NEUTAXAN (Gensenta) | غير متوفر | غير متوفر | ملغى |
-| Xatiza 60 mg / 1.5 ml | Xatiza (MSN Laboratories) | غير متوفر | غير متوفر | ملغى |
-| Cabazitaxel SPC 60mg/1.5ml | Cabazitaxel SPC (Dr. Reddy's) | غير متوفر | غير متوفر | ملغى |
+| JEVTANA 60 mg concentrate and solvent for solution for infusion | JEVTANA 60 mg (AVENTIS PHARMA) | غير متوفر | غير متوفر | ساري |
+| NEUTAXAN | NEUTAXAN (Gensenta) | غير متوفر | غير متوفر | ساري |
+| Xatiza 60 mg / 1.5 ml | Xatiza (MSN Laboratories) | غير متوفر | غير متوفر | ساري |
+| Cabazitaxel SPC 60mg/1.5ml | Cabazitaxel SPC (Dr. Reddy's) | غير متوفر | غير متوفر | ساري |
 
 ---
 

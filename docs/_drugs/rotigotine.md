@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rotigotine
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 736
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Rotigotine: الاستطباب الجديد المتوقع اضطراب نقص الانتباه وفرط الحركة (ADHD) (مستوى الدليل L4). الاستطباب الأصلي: داء باركنسون ومتلازمة تململ الساقين (بحسب الرسم المعرفي لـ TxGNN، إذ…"
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
+description: "Rotigotine: الاستطباب الجديد المتوقع Attention deficit-hyperactivity disorder (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 
 </div>
 
-## روتيجوتين: من داء باركنسون ومتلازمة تململ الساقين إلى اضطراب نقص الانتباه وفرط الحركة
+## Rotigotine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء باركنسون ومتلازمة تململ الساقين (بحسب الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
-| الاستطباب الجديد المتوقع | اضطراب نقص الانتباه وفرط الحركة (ADHD) |
-| درجة توقع TxGNN | 99.997% |
-| مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Attention deficit-hyperactivity disorder |
+| درجة توقع TxGNN | 1.0000 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -86,12 +86,12 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| NEUPRO 8 mg/24 hrs Transdermal Patches | NEUPRO 8 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ملغى) |
-| NEUPRO 2 mg/24 hrs Transdermal Patches | NEUPRO 2 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ملغى) |
-| NEUPRO 6 mg/24 hrs Transdermal Patches | NEUPRO 6 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ملغى) |
-| NEUPRO 4 MG/24 HRS TRANSDERMAL PATCHES | NEUPRO 4 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ملغى) |
+| NEUPRO 8 mg/24 hrs Transdermal Patches | NEUPRO 8 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
+| NEUPRO 2 mg/24 hrs Transdermal Patches | NEUPRO 2 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
+| NEUPRO 6 mg/24 hrs Transdermal Patches | NEUPRO 6 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
+| NEUPRO 4 MG/24 HRS TRANSDERMAL PATCHES | NEUPRO 4 mg/24 hrs | لصقات عبر الجلد | غير متوفر (ساري) |
 
-الشركة المصنّعة لجميع التراخيص: LTS LOHMANN Therapie-Systeme. وجميع التراخيص الأربعة ملغاة.
+الشركة المصنّعة لجميع التراخيص: LTS LOHMANN Therapie-Systeme.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ramipril
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 707
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ramipril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم (واستطبابات الوقاية من السكتة الدماغية والاحتشاء …"
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
+description: "Ramipril: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (pulmonary hypertension owing to lung disease and/or hypo… (مستوى الدليل L5). الاستطباب الأصلي: غير مس…"
 ---
 
 # Ramipril
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 </div>
 
-## راميبريل: من ارتفاع ضغط الدم إلى ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة
+## Ramipril: ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (pulmonary hypertension owing to lung disease and/or hypoxia)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم (واستطبابات الوقاية من السكتة الدماغية والاحتشاء الدماغي حسب بيانات الرسم المعرفي؛ لا يتوفر نص استطباب معتمد في التراخيص) |
-| الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة |
-| درجة تنبؤ TxGNN | 99.93% |
-| مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الرئوي الناجم عن أمراض الرئة و/أو نقص الأكسجة (pulmonary hypertension owing to lung disease and/or hypoxia) |
+| درجة تنبؤ TxGNN | 0.9993 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -91,12 +91,11 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| RAMIPRIL SANDOZ 2.5MG TABLET | RAMIPRIL SANDOZ 2.5MG TABLET | غير متوفر | غير متوفر (ملغى) |
-| RAMIPRIL SANDOZ 5MG TABLET | RAMIPRIL SANDOZ 5MG TABLET | غير متوفر | غير متوفر (ملغى) |
-| RAMIPRIL SANDOZ 10MG TABLET | RAMIPRIL SANDOZ 10MG TABLET | غير متوفر | غير متوفر (ملغى) |
-| ANGIRAM | ANGIRAM | غير متوفر | غير متوفر (ملغى) |
+| RAMIPRIL SANDOZ 2.5MG TABLET | RAMIPRIL SANDOZ 2.5MG TABLET | غير متوفر | غير متوفر (ساري) |
+| RAMIPRIL SANDOZ 5MG TABLET | RAMIPRIL SANDOZ 5MG TABLET | غير متوفر | غير متوفر (ساري) |
+| RAMIPRIL SANDOZ 10MG TABLET | RAMIPRIL SANDOZ 10MG TABLET | غير متوفر | غير متوفر (ساري) |
+| ANGIRAM | ANGIRAM | غير متوفر | غير متوفر (ساري) |
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد حالياً ترخيص ساري لراميبريل أحادي المكوّن أو ضمن تركيبة.
 
 ---
 
@@ -118,7 +117,6 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 **المبررات:**
 - الأدلة على مستوى L4 فقط: دراسة حيوانية واحدة ذات صلة، ولا توجد تجارب سريرية ولا دراسات بشرية في هذا الاستطباب.
-- لا يوجد ترخيص ساري في المملكة، ولا تتوفر بيانات آلية العمل ولا تحذيرات النشرة المعتمدة، وهو ما يمنع استكمال فحص السلامة.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على نشرة العبوة المعتمدة من الهيئة العامة للغذاء والدواء (تحذيرات وموانع الاستعمال).

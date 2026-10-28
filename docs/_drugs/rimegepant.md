@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 724
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Rimegepant: الاستطباب الجديد المتوقع الصداع النصفي مع هالة جذع الدماغ (مستوى الدليل L3). الاستطباب الأصلي: الصداع النصفي (مع هالة أو بدونها)"
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-## ريميجيبانت: من الصداع النصفي إلى الصداع النصفي مع هالة جذع الدماغ
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الصداع النصفي (مع هالة أو بدونها) |
-| الاستطباب الجديد المتوقع | الصداع النصفي مع هالة جذع الدماغ |
-| درجة تنبؤ TxGNN | 99.94% |
-| مستوى الأدلة | L3 |
-| وضع السوق في السعودية | مُلغى فقط (لا ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Atrophoderma vermiculata |
+| درجة تنبؤ TxGNN | 0.9976 |
+| مستوى الأدلة | L5 |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -95,7 +95,7 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Nurtec | Nurtec | غير محدد | غير محدد (الترخيص ملغى) |
+| Nurtec | Nurtec | غير محدد | غير محدد (الترخيص ساري) |
 
 ---
 

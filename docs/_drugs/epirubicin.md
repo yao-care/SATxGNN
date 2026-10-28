@@ -50,10 +50,10 @@ predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal
 |------|------|
 | الاستطباب الأصلي | سرطان الثدي |
 | الاستطباب الجديد المتوقع | الليمفوما الرئوية الأولية |
-| درجة تنبؤ TxGNN | 99.71% |
+| درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 10 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
+| عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -87,14 +87,14 @@ predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص العشرة ملغاة، ولا يوجد حاليًا أي ترخيص ساري. فيما يلي خمسة منها:
+جميع التراخيص العشرة سارية. فيما يلي خمسة منها:
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|------|
-| EPIRUBICIN HCL | EPIRUBICIN HCL | Intas Pharmaceuticals Limited | ملغى |
-| FARMORUBICIN 50MG VIAL | FARMORUBICIN 50MG VIAL | Actavis SpA | ملغى |
+| EPIRUBICIN HCL | EPIRUBICIN HCL | Intas Pharmaceuticals Limited | ساري |
+| FARMORUBICIN 50MG VIAL | FARMORUBICIN 50MG VIAL | Actavis SpA | ساري |
 | Epirubicin "Ebewe" 50mg/25ml | Epirubicin "Ebewe" 50mg/25ml | Fareva Unterach GmbH | ملغى |
-| EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | Thymoorgan GmbH | ملغى |
+| EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | EPIRUBICIN JAZEERA 2MG/ML SOLUTION FOR INJECTION | Thymoorgan GmbH | ساري |
 | Epirubicin "Ebewe" 10mg/5ml | Epirubicin "Ebewe" 10mg/5ml | Fareva Unterach GmbH | ملغى |
 
 ---
@@ -136,7 +136,7 @@ predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal
 
 **المبررات:**
 - التنبؤ حسابي في الأساس. لا توجد تجارب سريرية، والأدبيات المتاحة تقتصر على تقارير حالات ومراجعة عامة ودراسات بأثر رجعي لا تختبر إبيروبيسين في هذا الاستطباب. كما أن العلاج المعياري الحالي يعتمد على دوكسوروبيسين.
-- لا يوجد ترخيص ساري في السعودية، وسمّية القلب وتثبيط نقي العظم تتطلبان مبررًا سريريًا قويًا.
+- الدواء مسوّق في السعودية وله 10 تراخيص سارية من أصل 10، وسمّية القلب وتثبيط نقي العظم تتطلبان مبررًا سريريًا قويًا.
 
 **للمتابعة يلزم:**
 - مقارنة آلية ومرجعية بين إبيروبيسين ودوكسوروبيسين في الليمفوما الرئوية الأولية.

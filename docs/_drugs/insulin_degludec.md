@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 439
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Insulin Degludec: الاستطباب الجديد المتوقع داء السكري من النوع الأول (مستوى الدليل L1). الاستطباب الأصلي: داء السكري؛ الحماض الكيتوني السكري (لا يتوفر نص استطباب معتمد في تراخ…"
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
+description: "Insulin Degludec: الاستطباب الجديد المتوقع Autoimmune oophoritis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 </div>
 
-## إنسولين ديغلوديك: من داء السكري إلى داء السكري من النوع الأول
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,12 +48,12 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء السكري؛ الحماض الكيتوني السكري (لا يتوفر نص استطباب معتمد في تراخيص المملكة) |
-| الاستطباب الجديد المتوقع | داء السكري من النوع الأول |
-| درجة تنبؤ TxGNN | 99.44% |
-| مستوى الأدلة | L1 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Autoimmune oophoritis |
+| درجة تنبؤ TxGNN | 0.9923 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
@@ -110,8 +110,8 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| TRESIBA FlexTouch 100 U/ml solution for injection | TRESIBA FlexTouch 100 U/ml (نوفو نورديسك) | محلول للحقن | غير متوفر (الترخيص ملغى) |
-| TRESIBA FlexTouch 200 U/ml solution for injection | TRESIBA FlexTouch 200 U/ml (نوفو نورديسك) | محلول للحقن | غير متوفر (الترخيص ملغى) |
+| TRESIBA FlexTouch 100 U/ml solution for injection | TRESIBA FlexTouch 100 U/ml (نوفو نورديسك) | محلول للحقن | غير متوفر (الترخيص ساري) |
+| TRESIBA FlexTouch 200 U/ml solution for injection | TRESIBA FlexTouch 200 U/ml (نوفو نورديسك) | محلول للحقن | غير متوفر (الترخيص ساري) |
 
 ---
 

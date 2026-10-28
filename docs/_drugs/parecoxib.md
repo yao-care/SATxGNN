@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Parecoxib
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 631
-evidence_level: L5
-indication_count: 4
+evidence_level: L3
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Parecoxib: الاستطباب الجديد المتوقع الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء يُعرف بكونه مسكنًا للألم)"
 monitor_inn: "PARECOXIB"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات الترخيص المتاحة (الدواء يُعرف بكونه مسكنًا للألم) |
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine Disorder) |
-| درجة تنبؤ TxGNN | 99.55% |
+| درجة تنبؤ TxGNN | 0.9955 |
 | مستوى الأدلة | L3 (مؤقت، بانتظار مراجعة النص الكامل للدراسة) |
-| حالة التسويق في السعودية | ترخيص ملغى فقط |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -68,9 +68,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 | المرض المتوقع | الدرجة | مستوى الأدلة | الملاحظة |
 |------|------|------|------|
-| الصداع النصفي مع هالة جذع الدماغ | 99.46% | L5 | تنبؤ فقط دون أدلة مباشرة؛ لا يمكن تعميم نتائج الصداع النصفي العام عليه |
-| القابلية للصداع النصفي (مع أو بدون هالة) | 99.38% | L4 | نمط ظاهري للاستعداد الوراثي وليس استطبابًا علاجيًا؛ الأدلة قبل سريرية وغير مباشرة |
-| ارتفاع ضغط الدم الرئوي | 99.09% | L4 | الدراسة الوحيدة على الحيوان لم تُظهر فائدة (لم يثبّط الدواء تخليق الثرومبوكسان)؛ ولا يمكن استبعاد الضرر |
+| الصداع النصفي مع هالة جذع الدماغ | 0.9946 | L5 | تنبؤ فقط دون أدلة مباشرة؛ لا يمكن تعميم نتائج الصداع النصفي العام عليه |
+| ارتفاع ضغط الدم الرئوي | 0.9909 | L5 | الدراسة الوحيدة على الحيوان لم تُظهر فائدة (لم يثبّط الدواء تخليق الثرومبوكسان)؛ ولا يمكن استبعاد الضرر |
 
 ---
 
@@ -95,7 +94,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| DYNASTAT 40 mg Powder And solvent for Solution For injection | DYNASTAT 40 mg (مسحوق ومذيب لمحلول للحقن)، الشركة المصنّعة: PHARMACIA UPJOHN | غير محدد | غير متوفر (الحالة: ملغى) |
+| DYNASTAT 40 mg Powder And solvent for Solution For injection | DYNASTAT 40 mg (مسحوق ومذيب لمحلول للحقن)، الشركة المصنّعة: PHARMACIA UPJOHN | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 

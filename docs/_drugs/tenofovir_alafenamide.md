@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 798
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tenofovir Alafenamide: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى HIV / الإيدز (بحسب رسوم المعرفة في TxGNN، ولا يتوفر نص إشارة معت…"
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide: الاستطباب الجديد المتوقع Feline acquired immunodeficiency syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## تينوفوفير ألافيناميد: من عدوى فيروس نقص المناعة البشرية إلى عدوى فيروس نقص المناعة القردي
+## Tenofovir Alafenamide: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 | البند | المحتوى |
 |------|------|
-| الإشارة العلاجية الأصلية | عدوى HIV / الإيدز (بحسب رسوم المعرفة في TxGNN، ولا يتوفر نص إشارة معتمد من الهيئة) |
-| الإشارة الجديدة المتوقعة | عدوى فيروس نقص المناعة القردي (SIV) |
-| درجة توقع TxGNN | 99.89% |
-| مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| الإشارة العلاجية الأصلية | غير مسجل في البيانات المحلية |
+| الإشارة الجديدة المتوقعة | Feline acquired immunodeficiency syndrome |
+| درجة توقع TxGNN | 0.9989 |
+| مستوى الأدلة | L5 |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -94,7 +94,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الإشارة المعتمدة |
 |---------|------|------|-----------|
-| VEMLIDY 25MG F.C.TABLET | VEMLIDY 25MG F.C.TABLET (الشركة المصنعة: PATHEON INC) | غير متوفر | غير متوفر (الحالة: ملغى) |
+| VEMLIDY 25MG F.C.TABLET | VEMLIDY 25MG F.C.TABLET (الشركة المصنعة: PATHEON INC) | غير متوفر | غير متوفر (الحالة: ساري) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Labetalol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 472
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Labetalol: الاستطباب الجديد المتوقع اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع الضغط)"
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+description: "Labetalol: الاستطباب الجديد المتوقع Malignant hypertensive renal disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## لابيتالول: من ارتفاع ضغط الدم إلى اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | ارتفاع ضغط الدم (اضطراب ارتفاع الضغط) |
-| الاستطباب الجديد المتوقع | اعتلال الكلى الناتج عن ارتفاع ضغط الدم الخبيث |
-| درجة تنبؤ TxGNN | 99.08% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Malignant hypertensive renal disease |
+| درجة تنبؤ TxGNN | 0.9908 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -82,12 +82,11 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| TRANDATE TAB 100 MG. | TRANDATE TAB 100 MG. (GLAXO) | غير محدد | غير متوفر (ملغى) |
-| TRANDATE 100MG TABLET | TRANDATE 100MG TABLET (ASPEN) | أقراص | غير متوفر (ملغى) |
-| TRANDATE INJ. 100 MG.-AMP.20ML | TRANDATE INJ. 100 MG.-AMP.20ML (CENEXI) | حقن (أمبولة) | غير متوفر (ملغى) |
-| TRANDATE TAB 200 MG. | TRANDATE TAB 200 MG. (ASPEN Bad Oldesloe GmbH) | أقراص | غير متوفر (ملغى) |
+| TRANDATE TAB 100 MG. | TRANDATE TAB 100 MG. (GLAXO) | غير محدد | غير متوفر (ساري) |
+| TRANDATE 100MG TABLET | TRANDATE 100MG TABLET (ASPEN) | أقراص | غير متوفر (ساري) |
+| TRANDATE INJ. 100 MG.-AMP.20ML | TRANDATE INJ. 100 MG.-AMP.20ML (CENEXI) | حقن (أمبولة) | غير متوفر (ساري) |
+| TRANDATE TAB 200 MG. | TRANDATE TAB 200 MG. (ASPEN Bad Oldesloe GmbH) | أقراص | غير متوفر (ساري) |
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري حالياً.
 
 ---
 
@@ -106,7 +105,6 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 **المبررات:**
 - مستوى الأدلة L5: تنبؤ نموذجي فقط، بلا تجارب سريرية ولا أدبيات داعمة لهذا الاستطباب، وهو يقع إلى حد كبير ضمن استطباب ارتفاع الضغط القائم.
-- جميع التراخيص السعودية ملغاة، ولا تتوفر بيانات تحذيرات وموانع من نشرة الدواء.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة الدواء من موقع SFDA وتحليل التحذيرات وموانع الاستعمال (فجوة حاجزة).

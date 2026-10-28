@@ -4,17 +4,17 @@ title: Cyproterone Acetate
 parent: أدلة متوسطة (L3-L4)
 nav_order: 221
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cyproterone Acetate: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: الأمراض المعتمدة على الأندروجين (وفق بيانات الصيدلة المجمّعة؛ نص الاس…"
 monitor_inn: "CYPROTERONE ACETATE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "migraine with or without aura, susceptibility to", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 |------|------|
 | الاستطباب الأصلي | الأمراض المعتمدة على الأندروجين (وفق بيانات الصيدلة المجمّعة؛ نص الاستطباب المرخّص غير متوفر) |
 | الاستطباب الجديد المتنبأ به | الصداع النصفي (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.66% |
+| درجة تنبؤ TxGNN | 0.9966 |
 | مستوى الأدلة | L4 |
-| وضع السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -88,8 +88,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ANDROCUR 50MG TAB. | ANDROCUR 50MG TAB. (Delpharm Lille) | — | — (ملغى) |
-| ANDROCUR 50MG TAB | ANDROCUR 50MG TAB (Bayer Weimar) | — | — (ملغى) |
+| ANDROCUR 50MG TAB. | ANDROCUR 50MG TAB. (Delpharm Lille) | — | — (ساري) |
+| ANDROCUR 50MG TAB | ANDROCUR 50MG TAB (Bayer Weimar) | — | — (ساري) |
 
 يوجد ترخيصان فقط، وكلاهما ملغى، ولا توجد حالياً تراخيص سارية لهذا الدواء في السعودية.
 

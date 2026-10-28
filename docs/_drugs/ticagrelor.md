@@ -4,7 +4,7 @@ title: Ticagrelor
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 815
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ticagrelor: الاستطباب الجديد المتوقع تصلب الشرايين داخل الجمجمة (مستوى الدليل L5). الاستطباب الأصلي: المتلازمة الإكليلية الحادة، مرض الأوعية الطرفية، العرج المتقطع، مرض ا…"
 monitor_inn: "TICAGRELOR"
@@ -14,7 +14,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 # Ticagrelor
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 |------|------|
 | الاستطباب الأصلي | المتلازمة الإكليلية الحادة، مرض الأوعية الطرفية، العرج المتقطع، مرض الشرايين الطرفية (حسب الرسم المعرفي للنموذج؛ نصوص الاستطباب في تراخيص السعودية غير متوفرة) |
 | الاستطباب الجديد المتوقع | تصلب الشرايين داخل الجمجمة |
-| درجة تنبؤ TxGNN | 99.97% |
-| مستوى الأدلة | L3 (دراسة أترابية رصدية؛ لا توجد تجربة عشوائية مكتملة من المرحلة الثالثة لهذا الاستطباب بعد) |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 0.9997 |
+| مستوى الأدلة | L5 (دراسة أترابية رصدية؛ لا توجد تجربة عشوائية مكتملة من المرحلة الثالثة لهذا الاستطباب بعد) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -86,15 +86,15 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص السبعة ملغاة، ولا يوجد ترخيص ساري حالياً. نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
+جميع التراخيص السبعة سارية حالياً (7 من 7). نصوص الاستطباب المعتمدة وأشكال الجرعات غير متوفرة في البيانات.
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| Domassel | Domassel | DR. REDDY | ملغى |
-| Platica | Platica | Labormed Pharma SA | ملغى |
-| Ticagrelor SPC F.C. Tablets | Ticagrelor SPC F.C. Tablets | MSN Laboratories Private Limited | ملغى |
-| Lotac | Lotac | Macleods Pharmaceuticals Limited | ملغى |
-| Prasido | Prasido | Pharma International Co. | ملغى |
+| Domassel | Domassel | DR. REDDY | ساري |
+| Platica | Platica | Labormed Pharma SA | ساري |
+| Ticagrelor SPC F.C. Tablets | Ticagrelor SPC F.C. Tablets | MSN Laboratories Private Limited | ساري |
+| Lotac | Lotac | Macleods Pharmaceuticals Limited | ساري |
+| Prasido | Prasido | Pharma International Co. | ساري |
 
 ---
 
@@ -118,7 +118,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 **المبررات:**
 - الآلية معقولة ودرجة التنبؤ عالية، وتجربة CAPTIVA من المرحلة الثالثة (1683 مشاركاً) تدرس هذا الاستخدام مباشرة، لكن نتائجها لم تصدر.
 - الأدلة الحالية رصدية وصغيرة، ولذلك صُنّف مستوى الأدلة L3 لا L1، لأنه لا توجد تجربتان عشوائيتان مكتملتان من المرحلة الثالثة لهذا الاستطباب.
-- جميع التراخيص في السعودية ملغاة، وخطر النزف داخل الجمجمة قائم، وكلاهما يستدعي الحذر.
+- التراخيص السبعة في السعودية جميعها سارية (7 من 7)، وخطر النزف داخل الجمجمة قائم، ويستدعي الحذر.
 
 **للمضي قدماً يلزم ما يلي:**
 - انتظار نتائج تجربة CAPTIVA، وتتبع النتيجة الأولية ومعدل النزف داخل الدماغ.

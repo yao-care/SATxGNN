@@ -48,10 +48,10 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 |------|------|
 | الاستطباب الأصلي | اضطراب نقص الفيتامينات (من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استطباب معتمد في تراخيص الهيئة العامة للغذاء والدواء) |
 | الاستطباب الجديد المتنبأ به | التهاب لسان المزمار (epiglottitis) |
-| درجة تنبؤ TxGNN | 99.92% |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الدليل | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -89,13 +89,13 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الثلاثة ملغاة، ولا يوجد ترخيص ساري:
+جميع التراخيص الثلاثة سارية:
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| TRACUTIL SOLUSION FOR INFUSION AMPOULE | TRACUTIL SOLUSION FOR INFUSION AMPOULE | B. BRAUN | ملغى |
-| Addaven | Addaven | FRESENIUS KABI NORGE AS | ملغى |
-| NUTRYELT CONC. FOR SOLUTION FOR INFUSION | NUTRYELT CONC. FOR SOLUTION FOR INFUSION | LABORATOIRE AGUETTANT | ملغى |
+| TRACUTIL SOLUSION FOR INFUSION AMPOULE | TRACUTIL SOLUSION FOR INFUSION AMPOULE | B. BRAUN | ساري |
+| Addaven | Addaven | FRESENIUS KABI NORGE AS | ساري |
+| NUTRYELT CONC. FOR SOLUTION FOR INFUSION | NUTRYELT CONC. FOR SOLUTION FOR INFUSION | LABORATOIRE AGUETTANT | ساري |
 
 ---
 
@@ -119,7 +119,7 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 **المبررات:**
 - التنبؤ حسابي فقط (مستوى الدليل L5) دون أي تجارب سريرية أو منشورات داعمة، ولا توجد آلية معقولة تربط فلوريد الصوديوم بعلاج التهاب لسان المزمار، وهو حالة طارئة لها علاجات مثبتة.
-- جميع التراخيص المحلية ملغاة، وتوجد موانع استعمال مرتبطة بالكلى والعظام والكالسيوم، مما يزيد المخاوف المتعلقة بالسلامة.
+- جميع التراخيص المحلية سارية (3 من 3)، وتوجد موانع استعمال مرتبطة بالكلى والعظام والكالسيوم، مما يزيد المخاوف المتعلقة بالسلامة.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على بيانات آلية العمل من DrugBank وتحليل الصلة الآلية بالحالة المستهدفة

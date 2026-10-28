@@ -4,7 +4,7 @@ title: Clofarabine
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 201
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Clofarabine: الاستطباب الجديد المتوقع سرطان الدم النقوي (Myeloid Leukemia) (مستوى الدليل L1). الاستطباب الأصلي: سرطان الدم الليمفاوي الحاد (ALL)، ولا يتوفر نص استطباب في تراخيص هيئة…"
 monitor_inn: "CLOFARABINE"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 # Clofarabine
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 |------|------|
 | الاستطباب الأصلي | سرطان الدم الليمفاوي الحاد (ALL)، ولا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية، والمصدر هو رسم المعرفة البياني |
 | الاستطباب الجديد المتوقع | سرطان الدم النقوي (Myeloid Leukemia) |
-| درجة تنبؤ TxGNN | 99.88% |
+| درجة تنبؤ TxGNN | 0.9988 |
 | مستوى الدليل | L1 |
-| حالة التسويق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -104,8 +104,8 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| Retebin | Retebin (Shilpa Medicare Ltd) | غير مذكور | غير مذكور (ملغى) |
-| Allbloc | Allbloc (MSN Laboratories) | غير مذكور | غير مذكور (ملغى) |
+| Retebin | Retebin (Shilpa Medicare Ltd) | غير مذكور | غير مذكور (ساري) |
+| Allbloc | Allbloc (MSN Laboratories) | غير مذكور | غير مذكور (ساري) |
 
 كلا الترخيصين ملغى، ولا يوجد حالياً منتج ساري المفعول في السوق السعودي.
 

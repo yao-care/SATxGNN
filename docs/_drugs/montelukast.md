@@ -4,17 +4,17 @@ title: Montelukast
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 568
 evidence_level: L5
-indication_count: 5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، الربو الداخلي، الر…"
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 </div>
 
-## مونتيلوكاست: من التهاب الأنف التحسسي إلى التهاب الشعب الهوائية
+## Montelukast: التهاب الشعب الهوائية (bronchitis)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,11 +48,11 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، الربو الداخلي، الربو التحسسي |
-| الاستطباب الجديد المتوقع | التهاب الشعب الهوائية (Bronchitis) |
-| درجة تنبؤ TxGNN | 99.95% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | التهاب الشعب الهوائية (bronchitis) |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الدليل | L2 (تجربة واحدة مكتملة من المرحلة الثالثة، مع غلبة الأدلة على التهاب القصيبات) |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
@@ -104,15 +104,15 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص العشرون ملغاة، ولا يوجد ترخيص ساري لمنتج مفرد أو مركّب. نص الاستطباب المعتمد غير متوفر في البيانات المجمّعة، لذلك يعرض الجدول اسم الجهة المصنعة بدلاً منه. شكل الجرعة مستنتج من اسم المنتج.
+الدواء مسوّق في هذا البلد، ويوجد 20 ترخيصاً ساري المفعول لمنتج مفرد أو مركّب. نص الاستطباب المعتمد غير متوفر في البيانات المجمّعة، لذلك يعرض الجدول اسم الجهة المصنعة بدلاً منه. شكل الجرعة مستنتج من اسم المنتج.
 
 | رقم الترخيص / اسم المنتج | اسم المنتج | شكل الجرعة | الجهة المصنعة والحالة |
 |---------|------|------|-----------|
-| SINGULAIR PAEDIATRIC 4 MG CHEWABLE TAB | SINGULAIR PAEDIATRIC 4 MG | أقراص للمضغ | MERCK SHARP & DOHME، ملغى |
-| ALLAIR 10 mg Film Coated Tablet | ALLAIR 10 mg | أقراص مغلفة | SAJA، ملغى |
-| LEUKAST 10MG FILM COATED TABLETS | LEUKAST 10 mg | أقراص مغلفة | Jazeera Pharmaceutical Industries، ملغى |
-| BREMAX 10 mg film-coated tablet | BREMAX 10 mg | أقراص مغلفة | Tabuk Pharmaceutical، ملغى |
-| YOCAIR 10MG F.C.TABLET | YOCAIR 10 mg | أقراص مغلفة | Jamjoom Pharmaceuticals، ملغى |
+| SINGULAIR PAEDIATRIC 4 MG CHEWABLE TAB | SINGULAIR PAEDIATRIC 4 MG | أقراص للمضغ | MERCK SHARP & DOHME، ساري |
+| ALLAIR 10 mg Film Coated Tablet | ALLAIR 10 mg | أقراص مغلفة | SAJA، ساري |
+| LEUKAST 10MG FILM COATED TABLETS | LEUKAST 10 mg | أقراص مغلفة | Jazeera Pharmaceutical Industries، ساري |
+| BREMAX 10 mg film-coated tablet | BREMAX 10 mg | أقراص مغلفة | Tabuk Pharmaceutical، ساري |
+| YOCAIR 10MG F.C.TABLET | YOCAIR 10 mg | أقراص مغلفة | Jamjoom Pharmaceuticals، ساري |
 
 ---
 

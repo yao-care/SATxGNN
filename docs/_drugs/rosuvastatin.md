@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 735
 evidence_level: L1
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Rosuvastatin: الاستطباب الجديد المتوقع فرط كولسترول الدم العائلي (مستوى الدليل L1). الاستطباب الأصلي: فرط شحميات الدم، وفرط كولسترول الدم العائلي المتماثل الزيجوت، وتصلب ا…"
 monitor_inn: "ROSUVASTATIN"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: الاستطباب الجديد المتوقع Cholesterol-ester transfer protein deficiency (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain 
 
 </div>
 
-## روسوفاستاتين: من اضطرابات شحوم الدم الأصلية إلى فرط كولesterول الدم العائلي
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,11 +48,11 @@ predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فرط شحميات الدم، وفرط كولسترول الدم العائلي المتماثل الزيجوت، وتصلب الشرايين، والسكتة الدماغية (وفق الاستطبابات المسجلة في قاعدة المعرفة؛ لا يوجد نص استطباب معتمد من هيئة الغذاء والدواء السعودية ضمن البيانات) |
-| الاستطباب الجديد المتنبأ به | فرط كولسترول الدم العائلي |
-| درجة تنبؤ TxGNN | 99.54% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Cholesterol-ester transfer protein deficiency |
+| درجة تنبؤ TxGNN | 0.9954 |
 | مستوى الدليل | L1 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | المضي قدماً مع ضوابط وقائية (Proceed with Guardrails) |
 
@@ -102,15 +102,15 @@ predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain 
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص العشرون ملغاة، ولا يوجد ترخيص ساري. يُذكر أن بيانات الشكل الدوائي ونص الاستطباب المعتمد غير متوفرة لهذه التراخيص.
+التراخيص العشرون جميعها سارية. يُذكر أن بيانات الشكل الدوائي ونص الاستطباب المعتمد غير متوفرة لهذه التراخيص.
 
 | رقم الترخيص / المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|
 | CRESCHOL 20 mg | Tabuk Pharmaceutical | ملغى |
-| Rosgan | Aurobindo Pharma | ملغى |
-| ROST | Hetero Labs | ملغى |
+| Rosgan | Aurobindo Pharma | ساري |
+| ROST | Hetero Labs | ساري |
 | CRESCHOL 10 mg | Tabuk Pharmaceutical | ملغى |
-| VERTEX | SAJA | ملغى |
+| VERTEX | SAJA | ساري |
 
 (عرض 5 من أصل 20 ترخيصاً.)
 

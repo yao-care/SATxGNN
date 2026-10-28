@@ -48,10 +48,10 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 |------|------|
 | الاستطباب الأصلي | تأخير الولادة المبكرة (مثبّط للمخاض)، وفق المعلومات الدوائية المتاحة؛ نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغة |
 | الاستطباب الجديد المتوقع | الزرق الوراثي الأولي |
-| درجة تنبؤ TxGNN | 99.92% |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -82,9 +82,9 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| TRACTOCILE concentrate for solution for infusion | TRACTOCILE concentrate for solution for infusion (Ferring) | غير محدد | غير محدد | ملغى |
-| PREMABAN | PREMABAN (Ever Pharma Jena GmbH) | غير محدد | غير محدد | ملغى |
-| TRACTOCILE solution for injection | TRACTOCILE solution for injection (Ferring) | غير محدد | غير محدد | ملغى |
+| TRACTOCILE concentrate for solution for infusion | TRACTOCILE concentrate for solution for infusion (Ferring) | غير محدد | غير محدد | ساري |
+| PREMABAN | PREMABAN (Ever Pharma Jena GmbH) | غير محدد | غير محدد | ساري |
+| TRACTOCILE solution for injection | TRACTOCILE solution for injection (Ferring) | غير محدد | غير محدد | ساري |
 
 ---
 
@@ -103,7 +103,7 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 
 **المبررات:**
 - التنبؤ قائم على النموذج فقط (مستوى L5) دون أي تجارب سريرية أو منشورات، والآلية المقترحة تخمينية.
-- لا يوجد ترخيص ساري في المملكة (جميع التراخيص الثلاثة ملغاة)، ولا تتوفر بيانات سلامة من النشرة الدوائية.
+- الدواء مسوّق في المملكة (3 تراخيص سارية من أصل 3)، ولا تتوفر بيانات سلامة من النشرة الدوائية.
 
 **للمضي قدمًا يلزم:**
 - الحصول على النشرة الدوائية من موقع هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات حرجة تمنع الانتقال إلى فحص السلامة).

@@ -6,7 +6,7 @@ nav_order: 754
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sertraline: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي ل…"
+description: "Sertraline: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي ل…"
 monitor_inn: "SERTRALINE"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 |------|------|
 | الاستطباب الأصلي | اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي للصدمة والرهاب الاجتماعي والرهاب والوسواس القهري) |
 | الاستطباب الجديد المتنبأ به | اضطراب الشخصية الفصامية |
-| درجة تنبؤ TxGNN | 99.93% |
+| درجة تنبؤ TxGNN | 0.9993 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 9 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -62,7 +62,7 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 لا تتوفر حالياً بيانات تفصيلية عن آلية العمل. المعروف أن السيترالين من مثبطات استرداد السيروتونين الانتقائية، وقد ثبتت فعاليته في اضطرابات القلق والمزاج، وقد ينطبق ذلك نظرياً على بعض الأعراض المرافقة لاضطراب الشخصية الفصامية، مثل القلق أو الاكتئاب المصاحب أو التبلد الوجداني.
 
-الدرجة المرتفعة (0.999) تبدو استدلالاً قائماً على الشبكة المعرفية ومشتركاً بين مجموعة اضطرابات الشخصية، فهي تعكس القرب بين هذه الاضطرابات في الشبكة أكثر مما تعكس دليلاً خاصاً بهذا الاضطراب. ولا يوجد دليل آلي أو سريري يربط السيترالين باضطراب الشخصية الفصامية تحديداً.
+الدرجة المرتفعة (0.9993) صادرة عن نموذج TxGNN (تعلّم عميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين اضطرابات مترابطة ضمن مجموعة اضطرابات الشخصية، وليست دليلاً بيولوجياً خاصاً بهذا الاضطراب. ولا يوجد دليل آلي أو سريري يربط السيترالين باضطراب الشخصية الفصامية تحديداً.
 
 ---
 
@@ -82,15 +82,15 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص التسعة المسجلة ملغاة، ولا يوجد حالياً ترخيص ساري. أبرز خمسة منها:
+جميع التراخيص التسعة المسجلة سارية (9 من 9). أبرز خمسة منها:
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|------|
-| SETRAL 100MG F.C. TABLETS | SETRAL 100MG F.C. TABLETS | JPM (الأردن) | ملغى |
-| SETRAL 50MG F.C. TABLETS | SETRAL 50MG F.C. TABLETS | JPM (الأردن) | ملغى |
-| SOLOTIK 100MG F-C TABLETS | SOLOTIK 100MG F-C TABLETS | Hikma Pharmaceuticals PLC | ملغى |
-| Sertidep | Sertidep | Multi Apex for Pharmaceutical Industries | ملغى |
-| SOLOTIK 50MG F-C TABLETS | SOLOTIK 50MG F-C TABLETS | Hikma Pharmaceuticals PLC | ملغى |
+| SETRAL 100MG F.C. TABLETS | SETRAL 100MG F.C. TABLETS | JPM (الأردن) | ساري |
+| SETRAL 50MG F.C. TABLETS | SETRAL 50MG F.C. TABLETS | JPM (الأردن) | ساري |
+| SOLOTIK 100MG F-C TABLETS | SOLOTIK 100MG F-C TABLETS | Hikma Pharmaceuticals PLC | ساري |
+| Sertidep | Sertidep | Multi Apex for Pharmaceutical Industries | ساري |
+| SOLOTIK 50MG F-C TABLETS | SOLOTIK 50MG F-C TABLETS | Hikma Pharmaceuticals PLC | ساري |
 
 ---
 
@@ -113,7 +113,7 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 **المبررات:**
 - الدليل على هذا الاستطباب هو التنبؤ النموذجي فقط (L5)، دون تجارب سريرية ودون دراسات مباشرة.
-- جميع التراخيص المحلية ملغاة، ولا يوجد منتج سارٍ في السوق السعودي.
+- جميع التراخيص المحلية سارية (9 من 9)، والمنتج مسوَّق في السوق السعودي.
 
 **للمضي قدماً يلزم:**
 - الحصول على بيانات آلية العمل (MOA).

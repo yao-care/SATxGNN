@@ -6,9 +6,9 @@ nav_order: 366
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Fluphenazine: الاستطباب الجديد المتوقع حثل الشبكية مع أو بدون شذوذات خارج العين (مستوى الدليل L5). الاستطباب الأصلي: الاضطرابات الذهانية، الفصام، الاضطراب الفصامي الوجداني، الاضطراب الفص…"
 monitor_inn: "fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Fluphenazine: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Fluphenazine
@@ -33,7 +33,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## فلوفينازين: من الاضطرابات الذهانية إلى حثل الشبكية (مع أو بدون شذوذات خارج العين)
+## Fluphenazine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الاضطرابات الذهانية، الفصام، الاضطراب الفصامي الوجداني، الاضطراب الفصامي الشكل، الاضطرابات العقلية (بحسب رسم المعرفة في TxGNN) |
-| الاستطباب الجديد المتوقع | حثل الشبكية مع أو بدون شذوذات خارج العين |
-| درجة توقع TxGNN | 99.99% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Retinal dystrophy with or without extraocular anomalies |
+| درجة توقع TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | ملغاة فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | تعليق (Hold) |
 
 ---
@@ -82,9 +82,9 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| FLUPHENAZINE DECANOATE 25MG-ML Injection* | FLUPHENAZINE DECANOATE 25MG-ML Injection* (الشركة: ANTIGEN) | غير متوفر | غير متوفر | ملغى |
-| FLUPHENAZINE DECANOATE OILY 100MG-ML AMP | FLUPHENAZINE DECANOATE OILY 100MG-ML AMP (HOSPIRA AUSTRALIA) | غير متوفر | غير متوفر | ملغى |
-| FLUPHENAZINE DECANOATE OILY 25MG-ML AMP | FLUPHENAZINE DECANOATE OILY 25MG-ML AMP (HOSPIRA AUSTRALIA) | غير متوفر | غير متوفر | ملغى |
+| FLUPHENAZINE DECANOATE 25MG-ML Injection* | FLUPHENAZINE DECANOATE 25MG-ML Injection* (الشركة: ANTIGEN) | غير متوفر | غير متوفر | ساري |
+| FLUPHENAZINE DECANOATE OILY 100MG-ML AMP | FLUPHENAZINE DECANOATE OILY 100MG-ML AMP (HOSPIRA AUSTRALIA) | غير متوفر | غير متوفر | ساري |
+| FLUPHENAZINE DECANOATE OILY 25MG-ML AMP | FLUPHENAZINE DECANOATE OILY 25MG-ML AMP (HOSPIRA AUSTRALIA) | غير متوفر | غير متوفر | ساري |
 
 ---
 
@@ -111,7 +111,6 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 **المبررات:**
 - التوقع قائم على نموذج TxGNN فقط (مستوى الأدلة L5) دون أي تجارب سريرية أو منشورات، ولا يوجد رابط آلي معقول مع حثل الشبكية.
-- الدواء غير مسوّق حاليًا في السعودية (جميع التراخيص ملغاة)، وله ملف سلامة يتطلب حذرًا، خصوصًا في القلب والدم والجهاز العصبي.
 
 **للمضي قدمًا يلزم:**
 - الحصول على بيانات آلية العمل التفصيلية للدواء.

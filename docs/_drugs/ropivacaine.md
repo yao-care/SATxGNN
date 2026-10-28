@@ -48,10 +48,10 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 |------|------|
 | الاستطباب الأصلي | غير متوفر في بيانات التراخيص المجمّعة (نصوص الاستطباب فارغة)؛ يُعرف الدواء عموماً كمخدر موضعي |
 | الاستطباب الجديد المتوقع | اضطراب الصداع النصفي (Migraine disorder) |
-| درجة تنبؤ TxGNN | 99.65% |
+| درجة تنبؤ TxGNN | 0.9965 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | ملغى فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -85,14 +85,14 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 ## معلومات السوق في السعودية
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري حالياً.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الأربعة سارية (4 من 4).
 
 | رقم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | Holopack Verpackungstechnik GmbH | ملغى |
-| NAROPIN 2MG-ML PLASTIC AMP | NAROPIN 2MG-ML PLASTIC AMP | AstraZeneca | ملغى |
-| NAROPIN 7.5MG-ML AMP | NAROPIN 7.5MG-ML AMP | AstraZeneca | ملغى |
-| NAROPIN 10MG-ML AMP | NAROPIN 10MG-ML AMP | AstraZeneca | ملغى |
+| BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | BIOQ ROPIVACAINE 2MG/ML SOL. FOR INFUSION | Holopack Verpackungstechnik GmbH | ساري |
+| NAROPIN 2MG-ML PLASTIC AMP | NAROPIN 2MG-ML PLASTIC AMP | AstraZeneca | ساري |
+| NAROPIN 7.5MG-ML AMP | NAROPIN 7.5MG-ML AMP | AstraZeneca | ساري |
+| NAROPIN 10MG-ML AMP | NAROPIN 10MG-ML AMP | AstraZeneca | ساري |
 
 ---
 

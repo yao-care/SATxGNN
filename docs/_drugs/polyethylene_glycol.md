@@ -50,10 +50,10 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 |------|------|
 | الاستطباب الأصلي | الإمساك، متلازمة جفاف العين (لم يرد نص استطباب معتمد في تراخيص هيئة الغذاء والدواء السعودية؛ الاستطبابات مأخوذة من الرسم المعرفي) |
 | الاستطباب الجديد المتوقع | الحُمَاد الجلدي الخلقي المتقشر (congenital ichthyosiform erythroderma) |
-| درجة تنبؤ TxGNN | 99.03% |
+| درجة تنبؤ TxGNN | 0.9903 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -84,9 +84,9 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الشركة المصنِّعة | الحالة |
 |---------|------|------|------|------|
-| SYSTANE ULTRA UD LUBRICANT EYE DROPS | SYSTANE ULTRA UD LUBRICANT EYE DROPS | غير مذكور | ALCON LABORATORIES | ملغى |
-| SYSTANE LUBRICANT EYE DROPS | SYSTANE LUBRICANT EYE DROPS | غير مذكور | ALCON LABORATORIES | ملغى |
-| LAXO | LAXO | غير مذكور | DEEF PHARMACEUTICAL INDUSTRIES | ملغى |
+| SYSTANE ULTRA UD LUBRICANT EYE DROPS | SYSTANE ULTRA UD LUBRICANT EYE DROPS | غير مذكور | ALCON LABORATORIES | ساري |
+| SYSTANE LUBRICANT EYE DROPS | SYSTANE LUBRICANT EYE DROPS | غير مذكور | ALCON LABORATORIES | ساري |
+| LAXO | LAXO | غير مذكور | DEEF PHARMACEUTICAL INDUSTRIES | ساري |
 
 ---
 
@@ -111,7 +111,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 **المبررات:**
 - التنبؤ حسابي فقط (مستوى الأدلة L5) دون تجارب سريرية أو منشورات، والآلية المقترحة فرضية غير مثبتة وأثرها عرضي على الأكثر.
-- لا يوجد ترخيص ساري في المملكة، وبيانات السلامة من نشرة العبوة غير متوفرة، وهي فجوة تمنع الانتقال إلى مرحلة فحص السلامة.
+- يوجد 3 تراخيص سارية من أصل 3 في المملكة، وبيانات السلامة من نشرة العبوة غير متوفرة، وهي فجوة تمنع الانتقال إلى مرحلة فحص السلامة.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة من هيئة الغذاء والدواء السعودية وتحليل التحذيرات وموانع الاستعمال (فجوة حرجة).

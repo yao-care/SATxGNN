@@ -48,10 +48,10 @@ predicted_indications: ["gout"]
 |------|------|
 | الاستطباب الأصلي | غير متوفر في تراخيص الهيئة العامة للغذاء والدواء (نصوص الاستطباب فارغة)؛ الاستخدام المعروف للدواء: مُذيب للمخاط |
 | الاستطباب الجديد المتوقع | النقرس (Gout) |
-| درجة تنبؤ TxGNN | 99.67% |
+| درجة تنبؤ TxGNN | 0.9967 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة السوق في السعودية | ملغاة فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 5 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -62,7 +62,7 @@ predicted_indications: ["gout"]
 
 يمكن افتراض رابط نظري محتمل مع النقرس عبر تقليل الإجهاد التأكسدي أو الالتهاب الذي تقوده العدلات في الالتهاب الناجم عن بلورات اليورات. لكن هذا الرابط **لم يثبت**، ولا توجد بيانات تُظهر تأثيرًا على استقلاب حمض اليوريك أو على مسار NLRP3/IL-1β.
 
-درجة التنبؤ المرتفعة (0.997) ناتجة عن الاستدلال القائم على الشبكة المعرفية فقط، وهي **ليست دليلًا على الفعالية**.
+درجة التنبؤ المرتفعة (0.9967) ناتجة عن الاستدلال القائم على الشبكة المعرفية فقط، وهي **ليست دليلًا على الفعالية**.
 
 ---
 
@@ -80,15 +80,15 @@ predicted_indications: ["gout"]
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الخمسة ملغاة، ولا يوجد ترخيص ساري. نصوص الاستطباب وأشكال الجرعات غير متوفرة في السجلات.
+الدواء مسوّق في هذا البلد، وجميع التراخيص الخمسة ساريّة (5 من 5). نصوص الاستطباب وأشكال الجرعات غير متوفرة في السجلات.
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|-----------|
-| BRONCHOBOS 375 MG CAPSULES | BRONCHOBOS 375 MG CAPSULES | BOSNALIJEK PHARMACEUTICAL | ملغى |
-| RHINATHIOL EXPECTORANT CARBOCISTEINE 5% SYRUP FOR ADULT | RHINATHIOL EXPECTORANT 5% SYRUP FOR ADULT | Unither Liquid Manufacturing | ملغى |
-| RHINATHIOL CAPS 375MG | RHINATHIOL CAPS 375MG | sanofi-aventis | ملغى |
-| RHINATHIOL SYRUP 20MG-ML CHILDREN | RHINATHIOL SYRUP 20MG-ML CHILDREN | sanofi-aventis | ملغى |
-| RHINATHIOL PLUS | RHINATHIOL PLUS | sanofi-aventis | ملغى |
+| BRONCHOBOS 375 MG CAPSULES | BRONCHOBOS 375 MG CAPSULES | BOSNALIJEK PHARMACEUTICAL | ساري |
+| RHINATHIOL EXPECTORANT CARBOCISTEINE 5% SYRUP FOR ADULT | RHINATHIOL EXPECTORANT 5% SYRUP FOR ADULT | Unither Liquid Manufacturing | ساري |
+| RHINATHIOL CAPS 375MG | RHINATHIOL CAPS 375MG | sanofi-aventis | ساري |
+| RHINATHIOL SYRUP 20MG-ML CHILDREN | RHINATHIOL SYRUP 20MG-ML CHILDREN | sanofi-aventis | ساري |
+| RHINATHIOL PLUS | RHINATHIOL PLUS | sanofi-aventis | ساري |
 
 ---
 

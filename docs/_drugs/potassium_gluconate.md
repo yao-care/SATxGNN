@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Potassium Gluconate
-parent: تنبؤ نموذجي فقط (L5)
+parent: أدلة متوسطة (L3-L4)
 nav_order: 676
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Potassium Gluconate: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: نقص البوتاسيوم (potassium deficiency disease)"
@@ -14,7 +14,7 @@ predicted_indications: ["renal tubular acidosis"]
 # Potassium Gluconate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["renal tubular acidosis"]
 |------|------|
 | الاستطباب الأصلي | نقص البوتاسيوم (potassium deficiency disease) |
 | الاستطباب الجديد المتنبأ به | الحُماض الأنبوبي الكلوي |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L4 (دراسات فسيولوجية/تقارير حالة فقط، دون تجارب سريرية) |
-| حالة التسويق في السعودية | مُلغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -87,7 +87,7 @@ predicted_indications: ["renal tubular acidosis"]
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| ULTRA-K SYRUP | ULTRA-K SYRUP (الشركة المصنعة: SOBARA) | غير محدد | غير محدد (الترخيص ملغى) |
+| ULTRA-K SYRUP | ULTRA-K SYRUP (الشركة المصنعة: SOBARA) | غير محدد | غير محدد (الترخيص ساري) |
 
 ---
 

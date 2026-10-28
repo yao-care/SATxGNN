@@ -4,7 +4,7 @@ title: Thiopental
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 810
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Thiopental: الاستطباب الجديد المتوقع هوس نتف الشعر (Trichotillomania) (مستوى الدليل L5). الاستطباب الأصلي: الصرع، والورم الكاذب للمخ، وارتفاع الضغط داخل الجمجمة (مصدرها الرسم ا…"
 monitor_inn: "Thiopental"
@@ -14,7 +14,7 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 # Thiopental
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 |------|------|
 | الاستطباب الأصلي | الصرع، والورم الكاذب للمخ، وارتفاع الضغط داخل الجمجمة (مصدرها الرسم المعرفي؛ نص الاستطباب المعتمد في السعودية غير متوفر) |
 | الاستطباب الجديد المتوقع | هوس نتف الشعر (Trichotillomania) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا ترخيص ساري) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التوقف/الإمهال) |
 
 ---
@@ -80,10 +80,10 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| THIOPENTAL 1G VIAL | THIOPENTAL 1G VIAL (ساندوز) | غير متوفر | غير متوفر (ملغى) |
-| THIOPENTAL 0.5G INJ | THIOPENTAL 0.5G INJ (ساندوز) | غير متوفر | غير متوفر (ملغى) |
-| EPENTAL 1G VIAL | EPENTAL 1G VIAL (إيبيكو) | غير متوفر | غير متوفر (ملغى) |
-| EPENTAL 0.5G VIAL | EPENTAL 0.5G VIAL (إيبيكو) | غير متوفر | غير متوفر (ملغى) |
+| THIOPENTAL 1G VIAL | THIOPENTAL 1G VIAL (ساندوز) | غير متوفر | غير متوفر (ساري) |
+| THIOPENTAL 0.5G INJ | THIOPENTAL 0.5G INJ (ساندوز) | غير متوفر | غير متوفر (ساري) |
+| EPENTAL 1G VIAL | EPENTAL 1G VIAL (إيبيكو) | غير متوفر | غير متوفر (ساري) |
+| EPENTAL 0.5G VIAL | EPENTAL 0.5G VIAL (إيبيكو) | غير متوفر | غير متوفر (ساري) |
 
 ---
 

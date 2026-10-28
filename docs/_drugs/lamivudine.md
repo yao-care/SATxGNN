@@ -50,10 +50,10 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 |------|------|
 | المؤشر الأصلي | التهاب الكبد B المزمن، عدوى HIV، الإيدز (من الرسم المعرفي PrimeKG، إذ لا يتوفر نص مؤشر معتمد في تراخيص السوق السعودي) |
 | المؤشر الجديد المتنبأ به | عدوى فيروس نقص المناعة القردي (SIV) |
-| درجة تنبؤ TxGNN | 99.93% |
+| درجة تنبؤ TxGNN | 0.9993 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | جميع التراخيص ملغاة (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 7 (جميعها ملغاة) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -100,9 +100,9 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 | اسم المنتج | الشركة المصنعة | الحالة |
 |---------|------|------|
 | ZEFFIX 5MG/ML ORAL SOLUTION | GlaxoSmithKline (GSK) | ملغى |
-| HEPIX 100MG F-C TABLETS | Tabuk Pharmaceutical | ملغى |
-| TABIVIR 300MG F-C TABLETS | Tabuk Pharmaceutical | ملغى |
-| ZEFFIX | Glaxo Operation | ملغى |
+| HEPIX 100MG F-C TABLETS | Tabuk Pharmaceutical | ساري |
+| TABIVIR 300MG F-C TABLETS | Tabuk Pharmaceutical | ساري |
+| ZEFFIX | Glaxo Operation | ساري |
 | EPIVIR 10 MG/ML ORAL SOLUTION | Bora Pharmaceutical Services | ملغى |
 
 (عُرضت 5 من أصل 7 تراخيص.)

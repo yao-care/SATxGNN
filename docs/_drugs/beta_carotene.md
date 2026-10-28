@@ -49,10 +49,10 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 |------|------|
 | الاستطباب الأصلي | غير متوفر (نصوص الاستطباب في تراخيص هيئة الغذاء والدواء السعودية فارغة) |
 | الاستطباب الجديد المتوقع | حب الشباب (acne) |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L4 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 
 ---
@@ -91,8 +91,8 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| CENTRUM WITH LUTEIN TABLETS | CENTRUM WITH LUTEIN TABLETS (فايزر) | غير متوفر | غير متوفر (ملغى) |
-| CENTRUM SILVER TABLETS | CENTRUM SILVER TABLETS (فايزر) | غير متوفر | غير متوفر (ملغى) |
+| CENTRUM WITH LUTEIN TABLETS | CENTRUM WITH LUTEIN TABLETS (فايزر) | غير متوفر | غير متوفر (ساري) |
+| CENTRUM SILVER TABLETS | CENTRUM SILVER TABLETS (فايزر) | غير متوفر | غير متوفر (ساري) |
 
 ---
 

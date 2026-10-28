@@ -4,17 +4,17 @@ title: Agomelatine
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 28
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Agomelatine: الاستطباب الجديد المتوقع الصعر الانتيابي الحميد عند الرضع (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، اضطراب الاكتئاب الجسيم…"
 monitor_inn: "AGOMELATINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 |------|------|
 | الاستطباب الأصلي | الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، اضطراب الاكتئاب الجسيم، اضطراب القلق |
 | الاستطباب الجديد المتنبأ به | الصعر الانتيابي الحميد عند الرضع |
-| درجة تنبؤ TxGNN | 99.96% |
+| درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة التسويق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -84,7 +84,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 | رقم الترخيص / المنتج | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| VALDOXAN 25MG FILM COATED TABLET | VALDOXAN 25MG FILM COATED TABLET (أقراص مغلفة بالفيلم، 25 ملغ) | SERVIER | ملغى |
+| VALDOXAN 25MG FILM COATED TABLET | VALDOXAN 25MG FILM COATED TABLET (أقراص مغلفة بالفيلم، 25 ملغ) | SERVIER | ساري |
 
 لا يوجد حالياً أي ترخيص ساري المفعول، وهذا يحدّ من إتاحة الدواء عملياً.
 
@@ -103,7 +103,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 **المبررات:**
 - مستوى الأدلة L5، فلا توجد تجارب سريرية ولا منشورات تدعم هذا الاستطباب، والرابط الآلي تخميني.
 - المرضى المستهدفون رضّع، ولا توجد بيانات أمان للأغوميلاتين لدى الأطفال.
-- لا يوجد ترخيص ساري للدواء في المملكة، ولم تتوفر معلومات تحذيرات وموانع الاستعمال من النشرة الدوائية.
+- الدواء مسوَّق في المملكة، ولديه ترخيص ساري واحد من أصل ترخيص واحد.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على النشرة الدوائية المعتمدة من هيئة الغذاء والدواء السعودية (SFDA) واستخلاص التحذيرات وموانع الاستعمال منها، وهذه خطوة ضرورية قبل أي تقييم للسلامة.

@@ -4,7 +4,7 @@ title: Salbutamol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 743
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Salbutamol: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: الربو، وأمراض القصبات الهوائية (نصوص الاستطباب غير متوفرة في سجلات ال…"
 monitor_inn: "SALBUTAMOL"
@@ -14,7 +14,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 # Salbutamol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 |------|------|
 | الاستطباب الأصلي | الربو، وأمراض القصبات الهوائية (نصوص الاستطباب غير متوفرة في سجلات التراخيص السعودية) |
 | الاستطباب الجديد المتوقع | التهاب الملتحمة الحليمي (Papillary conjunctivitis) |
-| درجة تنبؤ TxGNN | 99.996% (≈ 99.99%) |
+| درجة تنبؤ TxGNN | 1.0000 (≈ 0.9999) |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع التسويق في المملكة العربية السعودية | ✗ تراخيص ملغاة فقط |
+| وضع التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة، ولا يوجد ترخيص ساري) |
 | القرار الموصى به | Hold (تعليق) |
 
@@ -78,15 +78,15 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص العشرون ملغاة. فيما يلي أبرز خمسة منها (نصوص الاستطباب وأشكال الجرعات غير مدرجة في السجلات):
+جميع التراخيص العشرين سارية. فيما يلي أبرز خمسة منها (نصوص الاستطباب وأشكال الجرعات غير مدرجة في السجلات):
 
 | رقم/اسم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|------|
-| BRONCHOVENT 5mg/ml nebuliser solution | BRONCHOVENT 5mg/ml nebuliser solution | Pharmaceutical Solution Industries (PSI) | ملغى |
-| VENTOLIN RESPIRATORY SOLUTIN | VENTOLIN RESPIRATORY SOLUTIN | GLAXO SAUDI ARABIA | ملغى |
-| VENTOLIN CR | VENTOLIN CR | GLAXO SAUDI ARABIA | ملغى |
-| VENTOLIN DISKUS 200MCG | VENTOLIN DISKUS 200MCG | GLAXOWELLCOME | ملغى |
-| AIROMIR INHALER 100MCG-ACTUATION | AIROMIR INHALER 100MCG-ACTUATION | 3M | ملغى |
+| BRONCHOVENT 5mg/ml nebuliser solution | BRONCHOVENT 5mg/ml nebuliser solution | Pharmaceutical Solution Industries (PSI) | ساري |
+| VENTOLIN RESPIRATORY SOLUTIN | VENTOLIN RESPIRATORY SOLUTIN | GLAXO SAUDI ARABIA | ساري |
+| VENTOLIN CR | VENTOLIN CR | GLAXO SAUDI ARABIA | ساري |
+| VENTOLIN DISKUS 200MCG | VENTOLIN DISKUS 200MCG | GLAXOWELLCOME | ساري |
+| AIROMIR INHALER 100MCG-ACTUATION | AIROMIR INHALER 100MCG-ACTUATION | 3M | ساري |
 
 ---
 

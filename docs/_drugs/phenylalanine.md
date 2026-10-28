@@ -50,10 +50,10 @@ predicted_indications: ["sclerosing cholangitis", "congenital prothrombin defici
 |------|------|
 | الاستطباب الأصلي | غير متوفر (لا يوجد نص استطباب معتمد في بيانات التراخيص) |
 | الاستطباب الجديد المتوقع | التهاب الأقنية الصفراوية المصلّب (Sclerosing Cholangitis) |
-| درجة تنبؤ TxGNN | 99.43% |
+| درجة تنبؤ TxGNN | 0.9943 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 12 (جميعها ملغاة) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (تأجيل) |
 
 ---
@@ -86,15 +86,15 @@ predicted_indications: ["sclerosing cholangitis", "congenital prothrombin defici
 
 ## معلومات السوق في المملكة العربية السعودية
 
-جميع التراخيص الـ12 ملغاة، ولا يوجد ترخيص ساري. فيما يلي أبرز 5 منها (لا تتوفر بيانات عن الشكل الدوائي ولا نص الاستطباب المعتمد):
+جميع التراخيص الـ12 سارية (12 ترخيصًا صالحًا من أصل 12). فيما يلي أبرز 5 منها (لا تتوفر بيانات عن الشكل الدوائي ولا نص الاستطباب المعتمد):
 
 | رقم الترخيص | اسم المنتج | الشركة المصنّعة | الحالة |
 |---------|------|------|-----------|
-| RENAMIN INJECTION | RENAMIN INJECTION | BAXTER | ملغى |
-| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN | ملغى |
-| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ملغى |
-| OLIMEL N9 emulsion for infusion | OLIMEL N9 emulsion for infusion | Baxalta manufacturing Sarl | ملغى |
-| OLIMEL N5E emulsion for infusion | OLIMEL N5E emulsion for infusion | Baxalta Belgium Manufacturing SA | ملغى |
+| RENAMIN INJECTION | RENAMIN INJECTION | BAXTER | ساري |
+| AMINOPLASMAL B BRAUN 10% | AMINOPLASMAL B BRAUN 10% | B. BRAUN | ساري |
+| AMINOPLASMAL 15 % I.V INFUSION SOLN | AMINOPLASMAL 15 % I.V INFUSION SOLN | B. BRAUN | ساري |
+| OLIMEL N9 emulsion for infusion | OLIMEL N9 emulsion for infusion | Baxalta manufacturing Sarl | ساري |
+| OLIMEL N5E emulsion for infusion | OLIMEL N5E emulsion for infusion | Baxalta Belgium Manufacturing SA | ساري |
 
 ---
 
@@ -128,7 +128,7 @@ predicted_indications: ["sclerosing cholangitis", "congenital prothrombin defici
 
 ---
 
-**ملاحظة:** جاء التنبؤ الثاني (نقص البروثرومبين الخلقي، درجة 99.26%) دون أي تجارب سريرية أو أدبيات، ولا توجد آلية معقولة تربط حمضًا أمينيًا غذائيًا بتصحيح هذا النقص الوراثي في التخثر؛ ويُرجَّح أنه ناتج عن خصائص الرسم البياني المعرفي، لذا لا يُعدّ التنبؤ مدعومًا (مستوى الأدلة L5، القرار: Hold).
+**ملاحظة:** جاء التنبؤ الثاني (نقص البروثرومبين الخلقي، درجة 0.9926) دون أي تجارب سريرية أو أدبيات، ولا توجد آلية معقولة تربط حمضًا أمينيًا غذائيًا بتصحيح هذا النقص الوراثي في التخثر؛ فالدرجة صادرة عن نموذج TxGNN (التعلّم العميق) وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلًا بيولوجيًا، لذا لا يُعدّ التنبؤ مدعومًا (مستوى الأدلة L5، القرار: Hold).
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

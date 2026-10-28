@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 534
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: بطانة الرحم المهاجرة، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس (م…"
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-## ميدروكسي بروجستيرون أسيتات: من بطانة الرحم المهاجرة إلى انقطاع الطمث
+## ميدروكسي بروجستيرون أسيتات: انقطاع الطمث
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 |------|------|
 | الاستطباب الأصلي | بطانة الرحم المهاجرة، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس (مأخوذ من الرسم المعرفي لـ TxGNN؛ نصوص الاستطبابات المرخصة في السعودية غير متوفرة) |
 | الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
-| درجة تنبؤ TxGNN | 99.99% |
-| مستوى الأدلة | L4 |
-| حالة التسويق في السعودية | ملغاة فقط (جميع التراخيص ملغاة) |
-| عدد التراخيص | 4 (جميعها ملغاة) |
+| درجة تنبؤ TxGNN | 1.0000 |
+| مستوى الأدلة | L5 |
+| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 
 ---
@@ -95,12 +95,12 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| PROVERA 5MG TAB | PROVERA 5MG TAB (Pfizer) | غير متوفر | غير متوفر (ملغى) |
-| PROVERA 100MG TAB | PROVERA 100MG TAB (Pharmacia Upjohn) | غير متوفر | غير متوفر (ملغى) |
-| FARLUTAL 250MG TAB | FARLUTAL 250MG TAB (Pfizer) | غير متوفر | غير متوفر (ملغى) |
-| DEPO-PROVERA VIAL I-M 150MG-ML | DEPO-PROVERA VIAL I-M 150MG-ML (Pfizer) | غير متوفر | غير متوفر (ملغى) |
+| PROVERA 5MG TAB | PROVERA 5MG TAB (Pfizer) | غير متوفر | غير متوفر (ساري) |
+| PROVERA 100MG TAB | PROVERA 100MG TAB (Pharmacia Upjohn) | غير متوفر | غير متوفر (ساري) |
+| FARLUTAL 250MG TAB | FARLUTAL 250MG TAB (Pfizer) | غير متوفر | غير متوفر (ساري) |
+| DEPO-PROVERA VIAL I-M 150MG-ML | DEPO-PROVERA VIAL I-M 150MG-ML (Pfizer) | غير متوفر | غير متوفر (ساري) |
 
-جميع التراخيص الأربعة ملغاة، ولا يوجد ترخيص ساري المفعول حالياً.
+جميع التراخيص الأربعة سارية المفعول (4 تراخيص سارية من أصل 4)، والدواء مسوَّق في هذا البلد.
 
 ---
 
@@ -125,7 +125,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 **القرار: Hold (التوقف مؤقتاً)**
 
 **المبررات:**
-- الآلية الدوائية معقولة لانقطاع الطمث الثانوي، لكن لا توجد تجارب سريرية، والأدبيات المسترجعة غير مباشرة (موانع حمل) وقديمة. ومستوى الأدلة L4 فقط، كما أن جميع التراخيص المحلية ملغاة.
+- الآلية الدوائية معقولة لانقطاع الطمث الثانوي، لكن لا توجد تجارب سريرية، والأدبيات المسترجعة غير مباشرة (موانع حمل) وقديمة. ومستوى الأدلة L4 فقط، علماً أن الدواء مسوَّق وله 4 تراخيص سارية من أصل 4.
 
 **المطلوب للمضي قدماً:**
 - الحصول على نشرة المنتج من الهيئة العامة للغذاء والدواء (SFDA) وتحليل التحذيرات وموانع الاستعمال (فجوة بيانات حرجة تمنع الانتقال إلى فحص السلامة)

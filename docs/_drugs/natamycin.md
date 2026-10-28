@@ -6,9 +6,9 @@ nav_order: 580
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Natamycin: الاستطباب الجديد المتوقع داء المبيضّات الفرجي المهبلي (مستوى الدليل L1). الاستطباب الأصلي: قرحة القرنية الفطرية"
 monitor_inn: "natamycin"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
+description: "Natamycin: الاستطباب الجديد المتوقع Vulvovaginal candidiasis (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Natamycin
@@ -33,7 +33,7 @@ predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "
 
 </div>
 
-## ناتاميسين: من قرحة القرنية الفطرية إلى داء المبيضّات الفرجي المهبلي
+## Natamycin: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,12 +46,12 @@ predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | قرحة القرنية الفطرية |
-| المؤشر الجديد المتوقع | داء المبيضّات الفرجي المهبلي |
-| درجة تنبؤ TxGNN | 99.97% |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | Vulvovaginal candidiasis |
+| درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L1 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---
@@ -101,8 +101,8 @@ predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | المؤشر المعتمد |
 |---------|------|------|-----------|
-| PIMAFUCORT OINT. | PIMAFUCORT OINT. (Astellas Pharma) | غير متوفر | غير متوفر (ملغى) |
-| PIMAFUCORT CREAM | PIMAFUCORT CREAM (Astellas Pharma) | غير متوفر | غير متوفر (ملغى) |
+| PIMAFUCORT OINT. | PIMAFUCORT OINT. (Astellas Pharma) | غير متوفر | غير متوفر (ساري) |
+| PIMAFUCORT CREAM | PIMAFUCORT CREAM (Astellas Pharma) | غير متوفر | غير متوفر (ساري) |
 
 كلا الترخيصين ملغى، فلا يوجد حاليًا منتج ساري يحتوي على ناتاميسين مفردًا في السوق السعودية.
 

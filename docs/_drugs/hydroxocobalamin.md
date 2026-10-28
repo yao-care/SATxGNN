@@ -6,9 +6,9 @@ nav_order: 419
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Hydroxocobalamin: الاستطباب الجديد المتوقع دوالي المريء المصحوبة بنزيف (مستوى الدليل L5). الاستطباب الأصلي: نقص فيتامين B12، التسمم بالسيانيد، الأنيميا الخبيثة (من الرسم المعرفي…"
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Hydroxocobalamin: الاستطباب الجديد المتوقع Esophageal varices with bleeding (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Hydroxocobalamin
@@ -33,7 +33,7 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 
 </div>
 
-## هيدروكسوكوبالامين: من نقص فيتامين B12 إلى دوالي المريء النازفة
+## Hydroxocobalamin: Esophageal varices with bleeding
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,12 +47,12 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | نقص فيتامين B12، التسمم بالسيانيد، الأنيميا الخبيثة (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في تراخيص الهيئة) |
-| الاستطباب الجديد المتوقع | دوالي المريء المصحوبة بنزيف |
-| درجة تنبؤ TxGNN | 99.23% |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Esophageal varices with bleeding |
+| درجة تنبؤ TxGNN | 0.9923 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---
@@ -83,7 +83,7 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| DEPOVIT B12 1000 AMP 1ML | DEPOVIT B12 1000 AMP 1ML (الشركة المصنعة: ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES) | غير محدد | غير متوفر (الحالة: ملغى) |
+| DEPOVIT B12 1000 AMP 1ML | DEPOVIT B12 1000 AMP 1ML (الشركة المصنعة: ALAMRIAH FOR PHARMACEUTICALS INDUSTRIES) | غير محدد | غير متوفر (الحالة: ساري) |
 
 ---
 
@@ -108,7 +108,6 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 
 **المبررات:**
 - التنبؤ قائم على النموذج الحاسوبي فقط (مستوى أدلة L5) دون أي تجارب سريرية أو منشورات، ولا توجد صلة آلية مثبتة.
-- لا يوجد ترخيص ساري في المملكة (الترخيص الوحيد ملغى)، وهناك علاجات قياسية راسخة للمؤشر المتوقع.
 
 **للمضي قدماً يلزم ما يلي:**
 - الحصول على بيانات آلية العمل (MOA) من DrugBank، واختبار فرضية ارتباط أكسيد النيتريك/كبريتيد الهيدروجين بدراسات سابقة للسريرية.

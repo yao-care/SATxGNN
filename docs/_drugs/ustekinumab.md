@@ -50,10 +50,10 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 |------|------|
 | الاستطباب الأصلي | التهاب المفاصل الصدفي، الصدفية، شبه الصدفية (parapsoriasis) |
 | الاستطباب الجديد المتنبأ به | التهاب الجلد (Dermatitis) |
-| درجة تنبؤ TxGNN | 99.99% |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L2 |
-| وضع السوق في المملكة العربية السعودية | ✗ جميع التراخيص ملغاة |
-| عدد التراخيص | 3 (جميعها ملغاة) |
+| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريّث) |
 
 ---
@@ -102,9 +102,9 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد | الحالة |
 |---------|------|------|-----------|------|
-| STELARA 90mg/1ml SOLUTION FOR INJECTION | STELARA 90mg/1ml | محلول للحقن | غير متوفر | ملغى |
-| STELARA 130MG/26ML Concentrate for solution for infusion | STELARA 130MG/26ML | مركّز لمحلول للتسريب | غير متوفر | ملغى |
-| STELARA 45MG/0.5ML SOLUTION FOR INJECTION | STELARA 45MG/0.5ML | محلول للحقن | غير متوفر | ملغى |
+| STELARA 90mg/1ml SOLUTION FOR INJECTION | STELARA 90mg/1ml | محلول للحقن | غير متوفر | ساري |
+| STELARA 130MG/26ML Concentrate for solution for infusion | STELARA 130MG/26ML | مركّز لمحلول للتسريب | غير متوفر | ساري |
+| STELARA 45MG/0.5ML SOLUTION FOR INJECTION | STELARA 45MG/0.5ML | محلول للحقن | غير متوفر | ساري |
 
 ---
 

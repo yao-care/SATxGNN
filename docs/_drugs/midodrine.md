@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Midodrine
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 560
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Midodrine: الاستطباب الجديد المتوقع اضطرابات انخفاض ضغط الدم (hypotensive disorder) (مستوى الدليل L2). الاستطباب الأصلي: انخفاض ضغط الدم الانتصابي، ضمور المجموعات العصبية المتعدد، متلازمة تس…"
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine: الاستطباب الجديد المتوقع Variably protease-sensitive prionopathy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Midodrine
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 
 </div>
 
-## ميدودرين: من انخفاض ضغط الدم الانتصابي إلى اضطرابات انخفاض ضغط الدم
+## Midodrine: Variably protease-sensitive prionopathy
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,15 +48,14 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | انخفاض ضغط الدم الانتصابي، ضمور المجموعات العصبية المتعدد، متلازمة تسرع القلب الانتصابي الوضعي |
-| الاستطباب الجديد المتوقع | اضطرابات انخفاض ضغط الدم (hypotensive disorder) |
-| درجة تنبؤ TxGNN | 99.90% |
-| مستوى الأدلة | L2 |
-| حالة السوق في السعودية | ملغى فقط (لا توجد تراخيص سارية) |
-| عدد التراخيص | 2 (كلاهما ملغى) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Variably protease-sensitive prionopathy |
+| درجة تنبؤ TxGNN | 0.9999 |
+| مستوى الأدلة | L5 |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
-> ملاحظة: الاستطباب الأصلي مأخوذ من الروابط الدوائية-المرضية في الرسم البياني المعرفي، لأن نصوص الاستطباب المعتمدة في التراخيص المحلية غير متوفرة.
 
 ---
 
@@ -99,8 +98,8 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 
 | رقم الترخيص | اسم المنتج | الشكل الصيدلاني | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| GUTRON TAB 2.5 MG TAB | GUTRON TAB 2.5 MG TAB (تاكيدا النمسا) | غير متوفر | غير متوفر (ترخيص ملغى) |
-| GUTRON Injection* | GUTRON Injection* (تاكيدا النمسا) | غير متوفر | غير متوفر (ترخيص ملغى) |
+| GUTRON TAB 2.5 MG TAB | GUTRON TAB 2.5 MG TAB (تاكيدا النمسا) | غير متوفر | غير متوفر (ترخيص ساري) |
+| GUTRON Injection* | GUTRON Injection* (تاكيدا النمسا) | غير متوفر | غير متوفر (ترخيص ساري) |
 
 كلا الترخيصين ملغى، ولا توجد حاليًا تراخيص سارية لهذا الدواء.
 
@@ -127,7 +126,6 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 **للمضي قدمًا يلزم ما يلي:**
 - الحصول على تحذيرات وموانع الاستعمال من نشرة الدواء المعتمدة لدى هيئة الغذاء والدواء السعودية، وهي فجوة بيانات حرجة تمنع الانتقال إلى مرحلة فحص السلامة.
 - استكمال بيانات آلية العمل من DrugBank.
-- التحقق من حالة التوافر والوضع التنظيمي في السعودية، لأن جميع التراخيص ملغاة.
 - وضع خطة لمراقبة ارتفاع ضغط الدم في وضعية الاستلقاء وبطء القلب، ومراجعة التداخلات الدوائية، خاصة مع الأدوية الرافعة للضغط أو المنبهة للودي.
 - الحصول على أدلة أقوى (تجارب عشوائية مضبوطة) إن كان المقصود استطبابًا يتجاوز الاستخدام المعتمد.
 ## إخلاء المسؤولية

@@ -4,17 +4,17 @@ title: Potassium Iodide
 parent: أدلة متوسطة (L3-L4)
 nav_order: 677
 evidence_level: L4
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Potassium Iodide: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (Nasal cavity disease) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الوعائي الحركي، التهاب البلعوم، نز…"
 monitor_inn: "POTASSIUM IODIDE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Potassium Iodide
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 |------|------|
 | الاستطباب الأصلي | التهاب الأنف التحسسي، التهاب الأنف الوعائي الحركي، التهاب البلعوم، نزلات البرد، التهاب البلعوم الأنفي (مأخوذة من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في التراخيص المحلية) |
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (Nasal cavity disease) |
-| درجة تنبؤ TxGNN | 99.95% |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L4 |
-| حالة السوق في السعودية | ملغى فقط (لا يوجد ترخيص ساري) |
-| عدد التراخيص | 1 (ملغى) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 
 ---
@@ -86,7 +86,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 | رقم الترخيص | اسم المنتج | الشكل الدوائي | الاستطباب المعتمد |
 |---------|------|------|-----------|
-| TERODA | TERODA | غير متوفر | غير متوفر (الترخيص ملغى، الشركة المصنعة: SPIMACO) |
+| TERODA | TERODA | غير متوفر | غير متوفر (الترخيص ساري، الشركة المصنعة: SPIMACO) |
 
 ---
 
