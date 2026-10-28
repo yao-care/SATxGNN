@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Dapoxetine: الاستطباب الجديد المتوقع الصداع النصفي (Migraine Disorder) (مستوى الدليل L4). الاستطباب الأصلي: سرعة القذف (وفق الرسم المعرفي لـ TxGNN) وعسر الجماع النفسي"
 monitor_inn: "DAPOXETINE"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]

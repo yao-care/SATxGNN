@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 586
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Nicorandil: الاستطباب الجديد المتوقع تضخم البروستاتا الحميد (مستوى الدليل L4). الاستطباب الأصلي: الذبحة الصدرية المزمنة المستقرة (من مصدر دوائي مرجعي، إذ إن نص المؤشر…"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]

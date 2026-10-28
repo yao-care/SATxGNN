@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 523
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "magnesium carbonate"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
 description: "Magnesium Carbonate: الاستطباب الجديد المتوقع Gastroduodenitis (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

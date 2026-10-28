@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Antazoline: الاستطباب الجديد المتوقع التهاب الجلد التأتبي المستعصي (recalcitrant atopic dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 

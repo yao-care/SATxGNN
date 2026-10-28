@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 47
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Amantadine: الاستطباب الجديد المتوقع التهاب دماغ راسموسن تحت الحاد (مستوى الدليل L4). الاستطباب الأصلي: داء باركنسون (مستمد من الرسم المعرفي للنموذج؛ لا يوجد نص مؤشر معتمد ف…"
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]

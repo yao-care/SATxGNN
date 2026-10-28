@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "إيفافيرينز: الاستطباب الجديد المتوقع هو متلازمة نقص المناعة المكتسبة القططية (feline acquired immunodeficiency syndrome) (مستوى الدليل L4، درجة نموذج TxGNN (التعلم العميق) 0.9980). قد تعكس الدرجة أوجه تشابه تعلّمها النموذج بين أمراض ذات صلة، وليست دليلاً بيولوجياً."
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]

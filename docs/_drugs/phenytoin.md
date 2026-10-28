@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Phenytoin: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (Trigeminal nerve neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: الصرع (نوبات توترية رمعية عامة، نوبات جزئية، حالة الصرع المستمر، متلا…"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BUTENAFINE"
 predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Butenafine: الاستطباب الجديد المتوقع مرض العدوى داخل الشعرة (endothrix infectious disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 

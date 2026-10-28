@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOPROMIDE"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Iopromide: الاستطباب الجديد المتوقع الفصال العظمي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفرة في بيانات الترخيص المجمَّعة (نص الإشارة المعتمدة فارغ في ا…"
 ---
 

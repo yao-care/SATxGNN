@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 434
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Imipramine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (مستوى الدليل L3). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب الدستيميا، التبول الليلي (من ر…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]

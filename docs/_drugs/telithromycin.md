@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Telithromycin: الاستطباب الجديد المتوقع فرط أميلاز الدم (مستوى الدليل L5). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي العقدي، الالتهاب الرئوي بالميكوبلازما…"
 monitor_inn: "TELITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "septicemic plague", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 765
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Sodium Sulfate: الاستطباب الجديد المتوقع عسر الهضم (Dyspepsia) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المنتجان المرخّصان من نوع ملينات/تحضير…"
 monitor_inn: "sodium sulfate"
 predicted_indications: ["dyspepsia"]

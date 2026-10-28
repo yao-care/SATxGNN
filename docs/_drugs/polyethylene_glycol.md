@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Polyethylene Glycol: الاستطباب الجديد المتوقع الحُمَاد الجلدي الخلقي المتقشر (congenital ichthyosiform erythroderma) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك، متلازمة جفاف العين (لم يرد نص استطبا…"
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]

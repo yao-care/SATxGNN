@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 729
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Ritonavir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية / الإيدز، وعدوى فيروس التهاب الكبد C ا…"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]

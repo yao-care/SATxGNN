@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 132
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cabozantinib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L3). الاستطباب الأصلي: سرطان الخلايا الكلوية (بما في ذلك الخلايا الصافية) وسرطان الغدة الدرق…"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]

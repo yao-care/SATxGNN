@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Heparin: الاستطباب الجديد المتوقع الميل للتخثر الناتج عن نقص البروتين C، وراثي متنحٍّ (مستوى الدليل L5). الاستطباب الأصلي: الانسداد الرئوي، التخثر المنتشر داخل الأوعية، الفرفرية الخاطفة (بحسب…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]

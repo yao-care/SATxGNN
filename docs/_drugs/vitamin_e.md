@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 876
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "vitamin e"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: الاستطباب الجديد المتوقع Inborn disorder of bilirubin metabolism (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

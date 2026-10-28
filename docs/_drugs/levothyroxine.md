@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Levothyroxine: الاستطباب الجديد المتوقع نقص تنسج/عدم تكوّن الكلى (مستوى الدليل L5). الاستطباب الأصلي: قصور الغدة الدرقية (relation مسجلة في الرسم المعرفي؛ نصوص الاستطباب ف…"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "dexbrompheniramine"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Dexbrompheniramine: الاستطباب الجديد المتوقع التهاب الجلد التأتبي العنيد (recalcitrant atopic dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 

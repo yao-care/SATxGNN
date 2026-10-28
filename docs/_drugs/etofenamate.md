@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ETOFENAMATE"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Etofenamate: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L5). الاستطباب الأصلي: علاقات مسجلة في قاعدة المعرفة: التهاب المفاصل العظمي، اعتلال المفاصل…"
 ---
 

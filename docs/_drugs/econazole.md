@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ECONAZOLE"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Econazole: الاستطباب الجديد المتوقع عدوى الفطريات الخارجية الشعرية (ectothrix infectious disease) (مستوى الدليل L5). الاستطباب الأصلي: سعفة القدم، سعفة الجسم، العدوى الفطرية (السعفة)، داء المبيضات ال…"
 ---
 

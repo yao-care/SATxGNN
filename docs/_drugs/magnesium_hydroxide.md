@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Magnesium Hydroxide: الاستطباب الجديد المتوقع أمراض المعدة (مستوى الدليل L5). الاستطباب الأصلي: العلاقات المسجلة في قاعدة المعرفة: القرحة الهضمية، ارتجاع المريء، الت…"
 ---
 

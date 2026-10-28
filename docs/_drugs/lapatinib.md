@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lapatinib: الاستطباب الجديد المتوقع الساركوما الليفية الجلدية الناتئة (Dermatofibrosarcoma protuberans) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الثدي الإيجابي لـ HER2"
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]

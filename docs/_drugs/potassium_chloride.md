@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 674
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Potassium Chloride: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L4). الاستطباب الأصلي: نقص البوتاسيوم، الإمساك"
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]

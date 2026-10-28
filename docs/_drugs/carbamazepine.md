@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 144
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Carbamazepine: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (مستوى الدليل L4). الاستطباب الأصلي: الصرع (بما في ذلك النوبات الجزئية والتشنجية العامة ومتلازمة لينوكس-غا…"
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]

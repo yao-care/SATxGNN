@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CIPROFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ciprofibrate: الاستطباب الجديد المتوقع نقص بروتين نقل إستر الكوليسترول (مستوى الدليل L5). الاستطباب الأصلي: فرط الدهون الثلاثية في الدم، وفرط شحميات الدم العائلي المختلط (علاقات…"
 ---
 

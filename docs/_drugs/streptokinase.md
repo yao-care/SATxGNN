@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "STREPTOKINASE"
 predicted_indications: ["Prinzmetal angina", "hemoglobinopathy", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Streptokinase: الاستطباب الجديد المتوقع ذبحة برنزميتال (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية"
 ---
 

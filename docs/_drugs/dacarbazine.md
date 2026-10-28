@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 224
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Dacarbazine: الاستطباب الجديد المتوقع أورام المسالك الهوائية الهضمية العليا (مستوى الدليل L4). الاستطباب الأصلي: الورم الميلانيني النقيلي، لمفوما هودجكين (بما فيها النمط الكلاسيكي)"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Abatacept: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (ankylosing spondylitis) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lamivudine: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: التهاب الكبد B المزمن، عدوى HIV، الإيدز (من الرسم المعرفي PrimeKG، إذ…"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

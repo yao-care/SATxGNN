@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 722
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Rifampicin: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]

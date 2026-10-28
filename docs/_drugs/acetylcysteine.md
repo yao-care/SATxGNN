@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 19
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Acetylcysteine: الاستطباب الجديد المتوقع أمراض الخثار (Thrombotic disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الشعب الهوائية، التسمم بالباراسيتامول، التليف الكيسي، توسع الق…"
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]

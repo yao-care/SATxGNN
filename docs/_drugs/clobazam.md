@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 198
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Clobazam: الاستطباب الجديد المتوقع متلازمة الصرع المرتبط بالعدوى الحموية (FIRES) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة لينوكس-غاستو (بحسب رسم المعرفة PrimeKG؛ لا يتوفر نص استطباب ف…"
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]

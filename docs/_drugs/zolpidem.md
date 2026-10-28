@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 891
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

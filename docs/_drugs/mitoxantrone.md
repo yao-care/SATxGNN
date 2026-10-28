@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 565
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mitoxantrone: الاستطباب الجديد المتوقع أورام المسالك الهوائية الهضمية العليا (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم النخاعي الحاد وأنواعه الفرعية (لا يتوفر نص مؤشر معتمد في…"
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]

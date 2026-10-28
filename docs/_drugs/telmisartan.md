@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 793
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Telmisartan: الاستطباب الجديد المتوقع ذبحة برنزميتال (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، السكتة الدماغية، الاحتشاء الدماغي"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]

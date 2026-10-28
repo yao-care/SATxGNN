@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "FAVIPIRAVIR"
 predicted_indications: ["acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"]
 description: "Favipiravir: الاستطباب الجديد المتوقع Acquired hemophagocytic lymphohistiocytosis associated with malignant disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

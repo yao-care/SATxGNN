@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 438
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Insulin Aspart: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L1). الاستطباب الأصلي: داء السكري؛ الحُماض الكيتوني السكري (من الاستطبابات الأصلية في قاعدة…"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]

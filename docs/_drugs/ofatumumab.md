@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ofatumumab: الاستطباب الجديد المتوقع اللمفوما الجُريبية (مستوى الدليل L2). الاستطباب الأصلي: ابيضاض الأرومات اللمفاوية الحاد ومتلازمة ريختر (علاقتان مسجّلتان في ش…"
 ---
 

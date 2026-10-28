@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "propantheline"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Propantheline: الاستطباب الجديد المتوقع متلازمة القولون العصبي (مستوى الدليل L5). الاستطباب الأصلي: مرض القرحة الهضمية (علاقة مسجلة في قاعدة المعرفة، وليست استطباباً معت…"
 ---
 

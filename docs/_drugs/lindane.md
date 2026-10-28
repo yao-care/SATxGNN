@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lindane: الاستطباب الجديد المتوقع ورم الأرومة العصبية العنقي (Cervical neuroblastoma) (مستوى الدليل L5). الاستطباب الأصلي: الإصابة بقمل العانة، وقمل الرأس، والجرب، والجرب النرويجي، والإصابة با…"
 monitor_inn: "LINDANE"
 predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "epiglottis neoplasm", "odontogenic cyst", "pre-malignant neoplasm", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "cystic neoplasm", "benign neoplasm of buccal mucosa", "inner ear neoplasm"]

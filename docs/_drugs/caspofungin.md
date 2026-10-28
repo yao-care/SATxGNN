@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CASPOFUNGIN"
 predicted_indications: ["gastrin secretion abnormality"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Caspofungin: الاستطباب الجديد المتوقع اضطراب إفراز الغاسترين (gastrin secretion abnormality) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 

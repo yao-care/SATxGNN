@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 852
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Ubrogepant: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

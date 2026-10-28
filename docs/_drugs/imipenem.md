@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Imipenem: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (Diffuse Scleroderma) (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، التهاب الصفاق، الالتهاب الرئوي العقدي، الته…"
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]

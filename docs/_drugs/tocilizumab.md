@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 821
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tocilizumab: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل مجهول السبب لدى الأحداث، ا…"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]

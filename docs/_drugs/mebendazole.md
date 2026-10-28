@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mebendazole: الاستطباب الجديد المتوقع حب الشباب (مستوى الدليل L5). الاستطباب الأصلي: داء الديدان الدبوسية، داء الصفر، داء الدودة السوطية"
 monitor_inn: "MEBENDAZOLE"
 predicted_indications: ["acne (disease)"]

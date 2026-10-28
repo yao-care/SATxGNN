@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cisatracurium: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة لهذا التقرير (نصوص المؤشرات في تراخيص…"
 monitor_inn: "CISATRACURIUM"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]

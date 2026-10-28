@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 630
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Papaverine: الاستطباب الجديد المتوقع المرض الإقفاري (Ischemic disease) (مستوى الدليل L4). الاستطباب الأصلي: أمراض الأوعية الدموية الطرفية، العرج المتقطع، إقفار الدماغ (مصدر: الر…"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]

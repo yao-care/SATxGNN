@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 857
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Valine: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (مكمل أحماض أمينية ضمن منتجات التغذية الو…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]

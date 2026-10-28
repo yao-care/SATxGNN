@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 413
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Hyaluronic Acid: الاستطباب الجديد المتوقع متلازمة العين الجافة (Dry eye syndrome) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفرة (نصوص الإشارة في التراخيص السعودية فارغة؛ وتدل أسماء المنت…"
 monitor_inn: "HYALURONIC ACID"
 predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]

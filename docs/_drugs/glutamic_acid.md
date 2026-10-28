@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 395
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Glutamic Acid: الاستطباب الجديد المتوقع هشاشة العظام بعد انقطاع الطمث (postmenopausal osteoporosis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في بيانات التراخيص)"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Chloroquine: الاستطباب الجديد المتوقع التهاب المفاصل مجهول السبب لدى الأحداث، متعدد المفاصل، إيجابي العامل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الذئبة الحمامية الجهازية، …"
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]

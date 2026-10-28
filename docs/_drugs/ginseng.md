@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 390
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
 description: "Ginseng: الاستطباب الجديد المتوقع Drug-induced osteoporosis (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

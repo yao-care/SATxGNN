@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Clobetasol Propionate: الاستطباب الجديد المتوقع الورم الكيراتيني الجريبي المقلوب في الفرج (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد التأتبي (الإكزيما) والتهاب الجلد التماسي والتهاب الجلد ا…"
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]

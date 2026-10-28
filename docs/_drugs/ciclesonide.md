@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Ciclesonide: الاستطباب الجديد المتوقع الأكزيما التأتبية (atopic eczema) (مستوى الدليل L5). الاستطباب الأصلي: الربو، الربو الداخلي، الربو التحسسي، التهاب الأنف التحسسي، التهاب الأ…"
 monitor_inn: "CICLESONIDE"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]

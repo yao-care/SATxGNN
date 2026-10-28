@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Naproxen: الاستطباب الجديد المتوقع متلازمة قِصَر الأصابع والتصاق الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجراب، التهاب المفاصل الروماتويدي، التهاب الفقار اللاصق، النق…"
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]

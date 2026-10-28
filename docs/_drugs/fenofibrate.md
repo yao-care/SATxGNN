@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fenofibrate: الاستطباب الجديد المتوقع هو نقص بروتين نقل إستر الكوليسترول (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع الدهون الثلاثية وفرط شحميات الدم…"
 ---
 

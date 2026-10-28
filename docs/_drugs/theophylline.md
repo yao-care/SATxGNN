@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Theophylline: الاستطباب الجديد المتوقع المرض الخثاري (مستوى الدليل L5). الاستطباب الأصلي: الربو، التهاب الشعب الهوائية، النفاخ الرئوي (علاقات مسجلة في الرسم ال…"
 ---
 

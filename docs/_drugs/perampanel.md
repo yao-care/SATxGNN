@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 645
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: الاستطباب الجديد المتوقع Beta-ketothiolase deficiency (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

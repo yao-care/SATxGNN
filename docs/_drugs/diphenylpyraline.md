@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diphenylpyraline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي (علاقة مسجّلة في قاعدة المعرفة، وليست استطباباً…"
 ---
 

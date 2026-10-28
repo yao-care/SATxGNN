@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Alteplase: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: احتشاء عضلة القلب، وانسداد الشريان التاجي بالخثرة، والانسداد الرئوي،…"
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]

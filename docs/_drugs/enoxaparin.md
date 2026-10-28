@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: الاستطباب الجديد المتوقع فرط التخثر الناتج عن نقص البروتين C (وراثي جسمي متنحٍّ) (مستوى الدليل L5). الاستطباب الأصلي: الانصمام الرئوي، التخثر المنتشر داخل الأوعية، فرفرية البرق، فرفرية ال"

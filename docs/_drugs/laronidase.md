@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Laronidase: الاستطباب الجديد المتوقع اضطراب التخزين الليزوزومي مع إصابة هيكلية (مستوى الدليل L4). الاستطباب الأصلي: داء السكريات المخاطية، متلازمة هيرلر، متلازمة هيرلر-شايي، متلازمة شايي"
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]

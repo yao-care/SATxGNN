@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Chloramphenicol: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L3). الاستطباب الأصلي: الحمى التيفية، داء السلمونيلات، الحمى نظيرة التيفية، العدوى السحائية…"
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]

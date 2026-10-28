@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 387
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Gemfibrozil: الاستطباب الجديد المتوقع التهاب المفاصل الرثياني (Rheumatoid arthritis) (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع الدهون الثلاثية في الدم (Hypertriglyceridemia)"
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]

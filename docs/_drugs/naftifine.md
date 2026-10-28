@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "NAFTIFINE"
 predicted_indications: ["ectothrix infectious disease", "pityriasis versicolor", "endothrix infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Naftifine: الاستطباب الجديد المتوقع عدوى الشعر الفطرية الخارجية البوغ (ectothrix) (مستوى الدليل L5). الاستطباب الأصلي: لا يوجد نص استطباب معتمد في بيانات الترخيص المحلية. العلاقات المسجلة…"
 ---
 

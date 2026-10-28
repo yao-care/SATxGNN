@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 557
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Miconazole: الاستطباب الجديد المتوقع حب الشباب (acne) (مستوى الدليل L3). الاستطباب الأصلي: فطريات الجلد (القدم الرياضية، سعفة الجسم، سعفة الأظافر)، الكانديدا ال…"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]

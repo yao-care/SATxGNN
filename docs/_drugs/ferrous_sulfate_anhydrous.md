@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد المتوقع فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (vitamin B12- and folate-independent constitutional megaloblastic anemia) (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]

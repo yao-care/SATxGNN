@@ -3,7 +3,7 @@ layout: default
 title: Aluminum Hydroxide
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 46
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Aluminum Hydroxide: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0

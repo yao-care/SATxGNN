@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 221
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cyproterone Acetate: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: الأمراض المعتمدة على الأندروجين (وفق بيانات الصيدلة المجمّعة؛ نص الاس…"
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]

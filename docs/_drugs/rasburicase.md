@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Rasburicase: الاستطباب الجديد المتوقع نقص حمض اليوريك الكلوي (hypouricemia, renal) (مستوى الدليل L5). الاستطباب الأصلي: فرط حمض اليوريك في الدم (مؤشر قديم في الرسم المعرفي)"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]

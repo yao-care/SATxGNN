@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Mannitol: الاستطباب الجديد المتوقع متلازمة عدم الإدرار المناسب لمضاد الإدرار الكلوية المنشأ (NSIAD) (مستوى الدليل L5). الاستطباب الأصلي: الوذمة الدماغية، ارتفاع الضغط داخل الجمجمة، ارتفاع ضغط العين، …"
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]

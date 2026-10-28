@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Acetic Acid: الاستطباب الجديد المتوقع اضطراب ما بعد العدوى البكتيرية (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأذن الخارجية، أمراض الأذن الخارجية (بحسب الرسم المعرفي Prime…"
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]

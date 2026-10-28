@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["toxemia of pregnancy", "thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Magnesium Sulfate: الاستطباب الجديد المتوقع تسمم الحمل (Toxemia of Pregnancy) (مستوى الدليل L2). الاستطباب الأصلي: علاقات مسجلة في الرسم المعرفي: الإمساك، ومقدمات الارتعاج بدرجاتها. لا…"
 ---
 

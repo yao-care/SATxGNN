@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 700
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "PYRIDOSTIGMINE"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: الاستطباب الجديد المتوقع Autoimmune disease of peripheral nervous system (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

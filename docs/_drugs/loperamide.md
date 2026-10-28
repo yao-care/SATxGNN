@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Loperamide: الاستطباب الجديد المتوقع التهاب الملتحمة المعدي الحاد (acute contagious conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: الإسهال، الدزنتاريا (الزحار)"
 monitor_inn: "LOPERAMIDE"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "Angelucci syndrome"]

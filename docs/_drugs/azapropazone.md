@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZAPROPAZONE"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia", "brachyolmia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Azapropazone: الاستطباب الجديد المتوقع خلل التنسج الأكروميسوملي من نوع هانتر-طومسون (acromesomelic dysplasia, Hunter-Thompson type) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 

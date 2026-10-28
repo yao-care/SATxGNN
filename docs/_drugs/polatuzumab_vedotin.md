@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 666
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Polatuzumab Vedotin: الاستطباب الجديد المتوقع سرطان الثدي الإيجابي لـ HER2 (HER2 positive breast carcinoma) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة (نص المؤشر في ترخيص اله…"
 monitor_inn: "POLATUZUMAB VEDOTIN"
 predicted_indications: ["HER2 positive breast carcinoma"]

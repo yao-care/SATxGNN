@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DEOXYCHOLIC ACID"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Deoxycholic Acid: الاستطباب الجديد المتوقع متلازمة البيلة الدموية العائلية السائدة الجسدية مع التواء الشرينات الشبكية والتقفعات (autosomal dominant familial hemat… (مستوى الدليل L5). الاستطباب الأصلي…"
 ---
 

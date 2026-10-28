@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 description: "Interferon Beta-1B: الاستطباب الجديد المتوقع ابيضاض الدم ذو الخلايا الشعرية (hairy cell leukemia) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

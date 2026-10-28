@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lanreotide: الاستطباب الجديد المتوقع فرط الشعرانية (Hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: تضخم الأطراف (الأكروميغالي)، فرط نشاط الغدة النخامية، العملقة النخامية"
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]

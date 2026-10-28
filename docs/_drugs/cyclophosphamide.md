@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 218
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cyclophosphamide: الاستطباب الجديد المتوقع الابيضاض النقوي (Myeloid Leukemia) (مستوى الدليل L1). الاستطباب الأصلي: الفطار الفطراني (Mycosis Fungoides)، الأورام اللمفية، سرطان الثدي، ال…"
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 483
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Larotrectinib: الاستطباب الجديد المتوقع الأورام الصماوية المتعددة (Multiple Endocrine Neoplasia) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (الأورام الصلبة الإيجابية لاندماج NTR…"
 monitor_inn: "LAROTRECTINIB"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]

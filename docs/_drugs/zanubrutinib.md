@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 885
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Zanubrutinib: الاستطباب الجديد المتوقع ابيضاض الدم النقوي (Myeloid leukemia) (مستوى الدليل L4). الاستطباب الأصلي: لمفوما الخلايا الوشاحية، أورام الخلايا البائية، الساركوما اللمفاوية"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]

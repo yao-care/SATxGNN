@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 787
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Tazarotene: الاستطباب الجديد المتوقع التهاب الجلد الدهني (Seborrheic dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: الصدفية، شبه الصدفية، حب الشباب (من الرسم المعرفي لـ TxGNN، إذ لا يتو…"
 monitor_inn: "TAZAROTENE"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]

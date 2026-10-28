@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Dexmedetomidine: الاستطباب الجديد المتوقع متلازمة عدم تناسب إدرار البول المنشأ الكلوي (nephrogenic syndrome of inappropriate antidiuresis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات ال…"
 ---
 

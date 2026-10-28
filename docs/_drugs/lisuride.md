@@ -5,7 +5,7 @@ parent: الاستخدامات المعروفة فقط (لا توجد تنبؤا
 nav_order: 506
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Lisuride: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا توجد حاليًا أي دلالة مرشحة جديدة"
 predicted_indications: []
 ---

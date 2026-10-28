@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Primidone: الاستطباب الجديد المتوقع ورم العصب مثلث التوائم (مستوى الدليل L5). الاستطباب الأصلي: الصرع (بيانات التراخيص المحلية لا تتضمن نص استطباب معتمداً؛ الاستطباب…"
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]

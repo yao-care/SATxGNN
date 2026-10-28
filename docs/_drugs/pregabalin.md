@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 686
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Pregabalin: الاستطباب الجديد المتوقع التهاب الأوتار (Tendinitis) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الألم العضلي الليفي، متلازمة الألم العضلي الليفاني، الأ…"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]

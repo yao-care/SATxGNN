@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 692
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Propofol: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة (الاستخدام المعروف: التخدير العا…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]

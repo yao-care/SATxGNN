@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 873
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "VINDESINE"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine: الاستطباب الجديد المتوقع Ganglioneuroblastoma (disease) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"

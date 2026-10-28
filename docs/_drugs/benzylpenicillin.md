@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Benzylpenicillin: الاستطباب الجديد المتوقع التهاب ما حول التاج (Pericoronitis) (مستوى الدليل L5). الاستطباب الأصلي: العدوى بالمكورات العقدية، والعنقودية، والسحائية، والتهاب السحايا، وال…"
 monitor_inn: "BENZYLPENICILLIN"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "chemotherapy-induced oral mucositis", "denture stomatitis", "leukoplakia of gingiva"]

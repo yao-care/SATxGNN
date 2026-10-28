@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Cyclosporine: الاستطباب الجديد المتوقع مرض الورم الحبيبي المزمن، وراثي متنحٍّ (مستوى الدليل L4). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، جفاف العين، متلازمة سجوغرن (مأخوذة من الر…"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]

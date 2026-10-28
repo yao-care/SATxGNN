@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 236
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Deferiprone: الاستطباب الجديد المتوقع البورفيريا الكبدية (hepatic porphyria) (مستوى الدليل L5). الاستطباب الأصلي: فرط الحديد (الهيموسيديروزس) والثلاسيميا بيتا وأمراض الهيموغلوبين (است…"
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]

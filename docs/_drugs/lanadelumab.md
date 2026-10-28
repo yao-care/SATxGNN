@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 478
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Lanadelumab: الاستطباب الجديد المتوقع نقص مثبط C1 (مستوى الدليل L1). الاستطباب الأصلي: الوذمة الوعائية الوراثية (بما فيها النوع المصحوب بنقص مثبط C1)"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
