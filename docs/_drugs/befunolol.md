@@ -3,7 +3,7 @@ layout: default
 title: Befunolol
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 95
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Befunolol: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -62,8 +62,6 @@ evidence_level: N/A
 ### علاقات معروفة لهذا الدواء (لم يُعثر على اعتماد)
 | المؤشر |
 |------|
-| الجلوكوما (glaucoma) |
-| الجلوكوما مفتوحة الزاوية من النوع 1 (glaucoma 1, open angle) |
 
 ## معلومات السوق في السعودية
 

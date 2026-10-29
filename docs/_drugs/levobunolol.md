@@ -3,7 +3,7 @@ layout: default
 title: Levobunolol
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 494
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Levobunolol: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -62,8 +62,6 @@ evidence_level: N/A
 ### علاقات مسجلة في الرسم المعرفي (لم يُعثر على اعتماد)
 | المؤشر |
 |------|
-| الزرق مفتوح الزاوية (glaucoma 1, open angle) |
-| الزرق مفتوح الزاوية (open angle glaucoma) |
 
 ## معلومات السوق في السعودية
 

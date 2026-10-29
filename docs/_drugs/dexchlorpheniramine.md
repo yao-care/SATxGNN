@@ -3,7 +3,7 @@ layout: default
 title: Dexchlorpheniramine
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 248
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Dexchlorpheniramine: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -62,8 +62,6 @@ evidence_level: N/A
 ### علاقات مسجَّلة في قواعد المعرفة (دون العثور على اعتماد)
 | الاستطباب |
 |------|
-| الشرى التحسسي (allergic urticaria) |
-| الشرى البارد (cold urticaria) |
 
 ## معلومات السوق في السعودية
 

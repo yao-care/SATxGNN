@@ -3,7 +3,7 @@ layout: default
 title: Aluminum Hydroxide
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 46
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Aluminum Hydroxide: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -62,9 +62,6 @@ evidence_level: N/A
 ### علاقات مسجّلة (لم يُعثر على اعتماد) — تأتي الدرجات من نموذج TxGNN (تعلّم عميق)، وقد تعكس أوجه تشابه تعلّمها النموذج بين أمراض مرتبطة، وليست دليلاً بيولوجياً
 | داعي الاستعمال |
 |------|
-| مرض القرحة الهضمية النشط (active peptic ulcer disease) |
-| انثقاب القرحة الهضمية (peptic ulcer perforation) |
-| قرحة المعدة والصائم (gastrojejunal ulcer) |
 
 ## معلومات السوق في السعودية
 

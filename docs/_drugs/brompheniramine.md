@@ -3,7 +3,7 @@ layout: default
 title: Brompheniramine
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 122
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Brompheniramine: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -62,8 +62,6 @@ evidence_level: N/A
 ### علاقات مسجّلة (دون العثور على اعتماد)
 | الدلالة |
 |------|
-| الشرى التحسسي (allergic urticaria) |
-| الشرى البارد (cold urticaria) |
 
 ## معلومات السوق في المملكة العربية السعودية
 

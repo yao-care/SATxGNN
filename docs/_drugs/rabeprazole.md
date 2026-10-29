@@ -3,7 +3,7 @@ layout: default
 title: Rabeprazole
 parent: الاستخدامات المعروفة فقط (لا توجد تنبؤات جديدة)
 nav_order: 704
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Rabeprazole: الاستخدامات المعروفة وحالة التسويق في المملكة العربية السعودية؛ لا يوجد حاليًا مؤشر جديد مرشح"
 predicted_indications: []
 indication_count: 0
@@ -62,8 +62,6 @@ evidence_level: N/A
 ### علاقات مسجلة في الرسم المعرفي (لم يُعثر على اعتماد)
 | المؤشر |
 |------|
-| داء الخلايا البدينة الجهازي الخامد (Smouldering systemic mastocytosis) |
-| داء الخلايا البدينة اللمفاوي الغدي مع كثرة الحمضات (lymphoadenopathic mastocytosis with eosinophilia) |
 
 ## معلومات السوق في المملكة العربية السعودية
 
