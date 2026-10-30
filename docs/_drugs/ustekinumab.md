@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 856
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ustekinumab: الاستطباب الجديد المتوقع التهاب الجلد (Dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: التهاب المفاصل الصدفي، الصدفية، شبه الصدفية (parapsoriasis)"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -52,7 +52,7 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 | الاستطباب الجديد المتنبأ به | التهاب الجلد (Dermatitis) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الدليل | L2 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريّث) |
 

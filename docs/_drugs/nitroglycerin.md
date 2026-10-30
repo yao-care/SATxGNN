@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 593
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nitroglycerin: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نص الاستطباب فارغ)؛ ويُعرف النيتروغليسر…"
 monitor_inn: "NITROGLYCERIN"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -50,7 +50,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 | الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الرئوي |
 | درجة تنبؤ TxGNN | 0.9961 |
 | مستوى الأدلة | L3 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 

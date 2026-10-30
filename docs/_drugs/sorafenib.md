@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 767
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكبدية (إضافة إلى سرطان الخلايا الكلوية وسرطان الغدة ا…"
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
@@ -52,7 +52,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 | الاستطباب الجديد المتوقع | الساركوما الشحمية (Liposarcoma) |
 | درجة تنبؤ TxGNN | 0.9982 |
 | مستوى الدليل | L2 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

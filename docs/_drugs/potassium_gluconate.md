@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 676
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Potassium Gluconate: الاستطباب الجديد المتوقع الحُماض الأنبوبي الكلوي (مستوى الدليل L5). الاستطباب الأصلي: نقص البوتاسيوم (potassium deficiency disease)"
 monitor_inn: "POTASSIUM GLUCONATE"
 predicted_indications: ["renal tubular acidosis"]
@@ -52,7 +52,7 @@ predicted_indications: ["renal tubular acidosis"]
 | الاستطباب الجديد المتنبأ به | الحُماض الأنبوبي الكلوي |
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L4 (دراسات فسيولوجية/تقارير حالة فقط، دون تجارب سريرية) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

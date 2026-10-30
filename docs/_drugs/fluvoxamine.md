@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 description: "Fluvoxamine: الاستطباب الجديد المتوقع Histrionic personality disorder (disease) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Fluvoxamine: الاستطباب الجديد المتوقع Histri
 | الاستطباب الجديد المتنبأ به | Histrionic personality disorder (disease) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 

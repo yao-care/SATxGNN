@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 853
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Upadacitinib: الاستطباب الجديد المتوقع متلازمة صغر العين مع الكولوبوما وخلل التنسج الجذري الطرفي (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -50,7 +50,7 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 | الاستطباب الجديد المتوقع | متلازمة صغر العين مع الكولوبوما وخلل التنسج الجذري الطرفي |
 | درجة تنبؤ TxGNN | 0.9961 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / الإبقاء قيد الانتظار) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 228
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Daptomycin: الاستطباب الجديد المتوقع التهاب المفاصل العظمي (Osteoarthritis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عمومًا: عدوى بكتيرية إيجابية ال…"
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -52,7 +52,7 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseud
 | الاستطباب الجديد المتوقع | التهاب المفاصل العظمي (Osteoarthritis) |
 | درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الدليل | L4 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

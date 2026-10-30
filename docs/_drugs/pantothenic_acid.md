@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Pantothenic Acid: الاستطباب الجديد المتوقع Congenital prothrombin deficiency (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Pantothenic Acid: الاستطباب الجديد المتوقع C
 | الاستطباب الجديد المتوقع | Congenital prothrombin deficiency |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L4 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | تعليق (Hold) – سؤال بحثي |
 

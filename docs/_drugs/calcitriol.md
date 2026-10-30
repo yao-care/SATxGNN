@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Calcitriol: الاستطباب الجديد المتوقع نقص فيتامين د المتقادم (obsolete vitamin D deficiency) (مستوى الدليل L5). الاستطباب الأصلي: فرط كالسيوم الدم، تكلّس الكلية، اضطرابات استقلاب الفوسفور، نقص فوسفات…"
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
@@ -52,7 +52,7 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 | الاستطباب الجديد المتوقَّع | نقص فيتامين د (مُدخل مصنَّف كمتقادم) |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريّث) |
 

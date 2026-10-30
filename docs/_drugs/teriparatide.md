@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Teriparatide: الاستطباب الجديد المتوقع قرحة الاثني عشر (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -51,7 +51,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 | الاستطباب الجديد المتوقع | قرحة الاثني عشر |
 | درجة توقع TxGNN | 0.9986 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

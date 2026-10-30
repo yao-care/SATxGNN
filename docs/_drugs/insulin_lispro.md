@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Insulin Lispro: الاستطباب الجديد المتوقع التهاب المبيض المناعي الذاتي (مستوى الدليل L5). الاستطباب الأصلي: داء السكري (النوع الأول والنوع الثاني والحماض الكيتوني السكري)"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -51,7 +51,7 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 | الاستطباب الجديد المتوقع | التهاب المبيض المناعي الذاتي |
 | درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

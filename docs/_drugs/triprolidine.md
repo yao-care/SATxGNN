@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: الاستطباب الجديد المتوقع Nasal cavity disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -51,7 +51,7 @@ description: "Triprolidine: الاستطباب الجديد المتوقع Nasal
 | الاستطباب الجديد المتوقع | Nasal cavity disease |
 | درجة تنبؤ TxGNN | 0.9983 |
 | مستوى الأدلة | L5 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
 | عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | Hold (تأجيل) |
 

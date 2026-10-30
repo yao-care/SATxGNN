@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dipyridamole: الاستطباب الجديد المتوقع المرض الخثاري (مستوى الدليل L5). الاستطباب الأصلي: لا يتوفر نص مؤشر معتمد في تراخيص هيئة الغذاء والدواء السعودية؛ وتسجل…"
 ---
 
@@ -50,7 +50,7 @@ description: "Dipyridamole: الاستطباب الجديد المتوقع ال�
 | المؤشر الجديد المتوقع | المرض الخثاري |
 | درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | إيقاف مؤقت |
 

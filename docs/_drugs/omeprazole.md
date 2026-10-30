@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: الاستطباب الجديد المتوقع Duodenal obstruction (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Omeprazole: الاستطباب الجديد المتوقع Duodena
 | الاستطباب الجديد المتوقع | Duodenal obstruction |
 | درجة تنبؤ TxGNN | 0.9964 |
 | مستوى الأدلة | L5 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (التعليق) |
 

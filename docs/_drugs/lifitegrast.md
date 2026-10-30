@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lifitegrast: الاستطباب الجديد المتوقع التليّف الليفي القضيبي (Penile fibromatosis) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين (Dry eye syndrome) / جفاف الملتحمة (Xerophthalmia)"
 monitor_inn: "LIFITEGRAST"
 predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -50,7 +50,7 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 | الاستطباب الجديد المتنبَّأ به | التليّف الليفي القضيبي (Penile fibromatosis) |
 | درجة تنبؤ TxGNN | 0.9959 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

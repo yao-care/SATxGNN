@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 661
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pirfenidone: الاستطباب الجديد المتوقع ورم الخلايا البدينة خارج الجلد (extracutaneous mastocytoma) (مستوى الدليل L5). الاستطباب الأصلي: التليف الرئوي مجهول السبب، الالتهاب الرئوي الخلالي ال…"
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
@@ -50,7 +50,7 @@ predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protu
 | الاستطباب الجديد المتنبأ به | ورم الخلايا البدينة خارج الجلد (extracutaneous mastocytoma) |
 | درجة تنبؤ TxGNN | 0.9923 |
 | مستوى الأدلة | L4 (دراسات ما قبل سريرية/آلية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) – سؤال بحثي فقط |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 864
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: الاستطباب الجديد المتوقع Hodgkins lymphoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Venetoclax: الاستطباب الجديد المتوقع Hodgkin
 | الاستطباب الجديد المتوقع | Hodgkins lymphoma |
 | درجة توقع TxGNN | 0.9951 |
 | مستوى الأدلة | L5 (توقع النموذج فقط) |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريث) |
 

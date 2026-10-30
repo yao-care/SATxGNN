@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lonoctocog Alfa: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا؛ الشكل العَرَضي للهيموفيليا لدى الحاملات من الإناث"
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
@@ -50,7 +50,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 | الاستطباب الجديد المتوقع | مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) |
 | درجة توقع TxGNN | 0.9985 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 

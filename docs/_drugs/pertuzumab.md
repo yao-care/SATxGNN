@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: الاستطباب الجديد المتوقع Ectomesenchymoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Pertuzumab: الاستطباب الجديد المتوقع Ectomes
 | الاستطباب الجديد المتوقع | Ectomesenchymoma |
 | درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 

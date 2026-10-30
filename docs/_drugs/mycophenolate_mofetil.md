@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 574
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mycophenolate Mofetil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (المعروف عامةً: الوقاية من رفض الأعضاء ا…"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -52,7 +52,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة البشرية (HIV) |
 | درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L2 (وفق التقييم المرفق؛ انظر التحفظ في قسم الأدلة السريرية) |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
 | عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

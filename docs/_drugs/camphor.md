@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Camphor: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في تراخيص الهيئة العامة للغذاء والدواء فارغ…"
 monitor_inn: "camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -50,7 +50,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine disorder) |
 | درجة تنبؤ TxGNN | 0.9985 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إبقاء الملف قيد الانتظار كسؤال بحثي) |
 

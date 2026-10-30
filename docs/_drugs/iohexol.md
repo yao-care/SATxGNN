@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iohexol: الاستطباب الجديد المتوقع الأرق (Insomnia) (مستوى الدليل L5). الاستطباب الأصلي: مادة ظليلة يودية للتصوير الشعاعي (استنتاجاً من طبيعة الدواء؛ نصوص الا…"
 monitor_inn: "IOHEXOL"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -52,7 +52,7 @@ predicted_indications: ["insomnia (disease)", "anxiety"]
 | الاستطباب الجديد المتنبأ به | الأرق (Insomnia) |
 | درجة تنبؤ TxGNN | 0.9987 |
 | مستوى الدليل | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (التوقف) |
 

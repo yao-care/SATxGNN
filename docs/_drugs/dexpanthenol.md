@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DEXPANTHENOL"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dexpanthenol: الاستطباب الجديد المتوقع تضيّق الشرج والمستقيم (anorectal stricture) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -50,7 +50,7 @@ description: "Dexpanthenol: الاستطباب الجديد المتوقع تض�
 | الاستطباب الجديد المتوقع | تضيّق الشرج والمستقيم (anorectal stricture) |
 | درجة توقع TxGNN | 0.9972 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | إيقاف مؤقت |
 

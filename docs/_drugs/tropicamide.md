@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tropicamide: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (Cauda equina syndrome) (مستوى الدليل L5). الاستطباب الأصلي: شلل التكيّف (Cycloplegia) (مصدره الرسم المعرفي لـ TxGNN، إذ لا يتوفر…"
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -51,7 +51,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 | الاستطباب الجديد المتوقع | متلازمة ذنب الفرس (Cauda equina syndrome) |
 | درجة تنبؤ TxGNN | 0.9953 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (تعليق) |
 

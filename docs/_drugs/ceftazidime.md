@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CEFTAZIDIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ceftazidime: الاستطباب الجديد المتوقع فرط أميلاز الدم (hyperamylasemia) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -48,7 +48,7 @@ description: "Ceftazidime: الاستطباب الجديد المتوقع فرط
 | الاستطباب الجديد المتوقع | فرط أميلاز الدم (hyperamylasemia) |
 | درجة توقع TxGNN | 0.9951 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 17 من 17) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 من 17) |
 | عدد التراخيص | 17 (السارية: 17) |
 | القرار الموصى به | إيقاف مؤقت |
 

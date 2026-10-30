@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "potassium bicarbonate"
 predicted_indications: ["gastroduodenitis"]
 description: "Potassium Bicarbonate: الاستطباب الجديد المتوقع التهاب المعدة والاثني عشر (gastroduodenitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Potassium Bicarbonate: الاستطباب الجديد المتو�
 | الاستطباب الجديد المتوقع | التهاب المعدة والاثني عشر (gastroduodenitis) |
 | درجة تنبؤ TxGNN | 0.9972 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 

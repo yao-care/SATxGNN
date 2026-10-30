@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Histidine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (لا نص دواعي استعمال في تراخيص الهيئة العامة للغذاء والدواء)"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -51,7 +51,7 @@ predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 | الاستطباب الجديد المتوقع | شلل المعدة (Gastroparesis) |
 | درجة تنبؤ TxGNN | 0.9955 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (تأجيل) |
 

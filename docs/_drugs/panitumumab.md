@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Panitumumab: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (مستوى الدليل L5). الاستطباب الأصلي: الورم الخبيث النقيلي في القولون (من رسم المعرفة الخاص بالنموذج، إذ لا…"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -50,7 +50,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 | الاستطباب الجديد المتنبأ به | هشاشة العظام الناجمة عن الأدوية |
 | درجة تنبؤ TxGNN | 0.9913 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

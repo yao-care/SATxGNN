@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 774
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sucralfate: الاستطباب الجديد المتوقع الارتجاع الاثني عشري المعدي (مستوى الدليل L2). الاستطباب الأصلي: قرحة الاثني عشر (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب مع…"
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -50,7 +50,7 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 | الاستطباب الجديد المتوقع | الارتجاع الاثني عشري المعدي |
 | درجة تنبؤ TxGNN | 0.9937 |
 | مستوى الأدلة | L2 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التريث) |
 

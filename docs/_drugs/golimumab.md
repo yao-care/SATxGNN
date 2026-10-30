@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: الاستطباب الجديد المتوقع Hypermobility of coccyx (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Golimumab: الاستطباب الجديد المتوقع Hypermob
 | الاستطباب الجديد المتوقع | Hypermobility of coccyx |
 | درجة تنبؤ TxGNN | 0.9967 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 

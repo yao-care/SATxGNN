@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Selpercatinib: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (Pulmonary hypertension) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر في سجل الترخيص فارغ)"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 | المؤشر الجديد المتوقع | ارتفاع ضغط الدم الرئوي (Pulmonary hypertension) |
 | درجة تنبؤ TxGNN | 0.9918 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

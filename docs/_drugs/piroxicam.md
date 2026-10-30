@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: الاستطباب الجديد المتوقع Colobomatous microphthalmia-rhizomelic dysplasia syndrome (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -51,7 +51,7 @@ description: "Piroxicam: الاستطباب الجديد المتوقع Coloboma
 | الاستطباب الجديد المتوقع | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 (تنبؤ بالنموذج فقط) |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 17 من 17) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 من 17) |
 | عدد التراخيص | 17 (السارية: 17) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

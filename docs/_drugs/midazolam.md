@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 558
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Midazolam: الاستطباب الجديد المتوقع الأرق (مستوى الدليل L2). الاستطباب الأصلي: القلق"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -51,7 +51,7 @@ predicted_indications: ["insomnia (disease)"]
 | الاستطباب الجديد المتوقع | الأرق |
 | درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الأدلة | L2 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
 | عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (التريث) |
 

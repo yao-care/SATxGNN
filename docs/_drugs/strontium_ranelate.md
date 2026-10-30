@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Strontium Ranelate: الاستطباب الجديد المتوقع نقص العامل المساعد للهيبارين 2 (مستوى الدليل L5). الاستطباب الأصلي: هشاشة العظام بعد انقطاع الطمث / هشاشة العظام (من الرسم المعرفي لـ TxG…"
 monitor_inn: "STRONTIUM RANELATE"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "severe nonproliferative diabetic retinopathy"]
@@ -51,7 +51,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 | الاستطباب الجديد المتنبأ به | نقص العامل المساعد للهيبارين 2 |
 | درجة تنبؤ TxGNN | 0.9981 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

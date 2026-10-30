@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 799
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tenofovir Disoproxil: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infectio… (مستوى الدليل L5). الاستطباب الأصلي: عدوى التهاب الكبد B المزمنة، عدوى فيروس نقص …"
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -52,7 +52,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 | الاستطباب الجديد المتنبأ به | عدوى فيروس نقص المناعة القردي (simian immunodeficiency virus infection) |
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L4 (دراسات قبل سريرية) |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

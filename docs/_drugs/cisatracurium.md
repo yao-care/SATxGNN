@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cisatracurium: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في البيانات المجمّعة لهذا التقرير (نصوص المؤشرات في تراخيص…"
 monitor_inn: "CISATRACURIUM"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -50,7 +50,7 @@ predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neuro
 | المؤشر الجديد المتوقع | متلازمة ذنب الفرس (Cauda Equina Syndrome) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

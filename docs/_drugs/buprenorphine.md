@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 126
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Buprenorphine: الاستطباب الجديد المتوقع البورفيريا الحادة المتقطعة (مستوى الدليل L5). الاستطباب الأصلي: الاعتماد على المواد الأفيونية (الاعتماد على المورفين وتعاطي المواد)"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -50,7 +50,7 @@ predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal d
 | الاستطباب الجديد المتوقع | البورفيريا الحادة المتقطعة |
 | درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الأدلة | L4 (حسب التقييم المدرج في البيانات؛ ولا توجد دراسات سريرية فعلية، والأدلة عمليًا قريبة من L5) |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

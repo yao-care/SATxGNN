@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 585
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Niclosamide: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L5). الاستطباب الأصلي: طارد للديدان (مضاد للطفيليات). لا يتوفر نص الاستطباب المعتمد في تراخي…"
 monitor_inn: "NICLOSAMIDE"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "interventricular septum aneurysm", "Jeune syndrome situs inversus", "disorder of fucoglycosan synthesis"]
@@ -50,7 +50,7 @@ predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin 
 | الاستطباب الجديد المتوقع | أمراض القلب (heart disease) |
 | درجة تنبؤ TxGNN | 0.9988 |
 | مستوى الأدلة | L4 (دراسات قبل سريرية ودراسات آليات) |
-| وضع التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

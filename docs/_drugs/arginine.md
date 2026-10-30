@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Arginine: الاستطباب الجديد المتوقع شلل المعدة (Gastroparesis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
 monitor_inn: "arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -52,7 +52,7 @@ predicted_indications: ["gastroparesis (disease)"]
 | المؤشر الجديد المتوقع | شلل المعدة (Gastroparesis) |
 | درجة توقع TxGNN | 0.9942 |
 | مستوى الأدلة | L4 (دراسات قبل سريرية/آلية فقط) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
 | عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

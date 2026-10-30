@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Temsirolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الخلايا الكلوية، ليمفوما الخلايا الوعائية (Mantle cell lymphoma…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
@@ -52,7 +52,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarc
 | الاستطباب الجديد المتوقع | الساركوما الشحمية (Liposarcoma) |
 | درجة تنبؤ TxGNN | 0.9954 |
 | مستوى الأدلة | L5 (حسب التقييم الوارد في البيانات المجمّعة؛ ملاحظة: التجارب المتاحة من المرحلة 1/2 والمرحلة 2 وغير عشوائية، لذا فالمستوى الفعلي أقرب إلى L4–L5 عند التطبيق الصارم للقواعد) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

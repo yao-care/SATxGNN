@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Griseofulvin: الاستطباب الجديد المتوقع داء الذباب (Myiasis) (مستوى الدليل L5). الاستطباب الأصلي: السعفة والفطريات الجلدية (سعفة القدم، سعفة الجسم، سعفة الأظافر، سعفة…"
 monitor_inn: "GRISEOFULVIN"
 predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
@@ -51,7 +51,7 @@ predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wo
 | الاستطباب الجديد المتوقع | داء الذباب (Myiasis) |
 | درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Palivizumab: الاستطباب الجديد المتوقع ورم حميد في اللسان (Benign neoplasm of tongue) (مستوى الدليل L5). الاستطباب الأصلي: عدوى الفيروس المخلوي التنفسي (RSV)"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
@@ -51,7 +51,7 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 | الاستطباب الجديد المتوقع | ورم حميد في اللسان (Benign neoplasm of tongue) |
 | درجة توقع TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

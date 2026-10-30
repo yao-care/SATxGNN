@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural adenomatoid tumor (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Pemetrexed: الاستطباب الجديد المتوقع Pleural
 | الاستطباب الجديد المتوقع | Pleural adenomatoid tumor |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
 | عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

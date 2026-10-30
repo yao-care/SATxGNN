@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glimepiride: الاستطباب الجديد المتوقع متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) (مستوى الدليل L5). الاستطباب الأصلي: داء السكري من النوع الثاني"
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -50,7 +50,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 | الاستطباب الجديد المتنبأ به | متلازمة الطرف المتيبس البؤرية (Focal stiff limb syndrome) |
 | درجة تنبؤ TxGNN | 0.9975 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glatiramer: الاستطباب الجديد المتوقع اعتلال الهيموغلوبين (Hemoglobinopathy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
 monitor_inn: "GLATIRAMER"
 predicted_indications: ["hemoglobinopathy"]
@@ -52,7 +52,7 @@ predicted_indications: ["hemoglobinopathy"]
 | الاستطباب الجديد المتوقع | اعتلال الهيموغلوبين (Hemoglobinopathy) |
 | درجة تنبؤ TxGNN | 0.9903 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 190
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Citric Acid: الاستطباب الجديد المتوقع أمراض المعدة (stomach disease) (مستوى الدليل L4). الاستطباب الأصلي: عسر الهضم، اضطراب الصداع (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص ا…"
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
@@ -50,7 +50,7 @@ predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngi
 | الاستطباب الجديد المتوقع | أمراض المعدة (stomach disease) |
 | درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
 | عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | Hold (التريث) |
 

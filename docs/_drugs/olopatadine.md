@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Olopatadine: الاستطباب الجديد المتوقع التهاب الملتحمة المصاحب للوردية (Rosacea Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب الملتحمة …"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -50,7 +50,7 @@ predicted_indications: ["rosacea conjunctivitis"]
 | الاستطباب الجديد المتنبأ به | التهاب الملتحمة المصاحب للوردية (Rosacea Conjunctivitis) |
 | درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (تعليق) |
 

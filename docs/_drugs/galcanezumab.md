@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: الاستطباب الجديد المتوقع نقص العامل المساعد الهيبارين 2 (heparin cofactor 2 deficiency) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Galcanezumab: الاستطباب الجديد المتوقع نق�
 | الاستطباب الجديد المتنبأ به | نقص العامل المساعد الهيبارين 2 (heparin cofactor 2 deficiency) |
 | درجة تنبؤ TxGNN | 0.9950 |
 | مستوى الدليل | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

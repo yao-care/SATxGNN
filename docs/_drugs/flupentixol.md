@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "FLUPENTIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: الاستطباب الجديد المتوقع Retinal dystrophy with or without extraocular anomalies (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Flupentixol: الاستطباب الجديد المتوقع Retina
 | الاستطباب الجديد المتوقع | Retinal dystrophy with or without extraocular anomalies |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

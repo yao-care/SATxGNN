@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 589
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: الاستطباب الجديد المتوقع Dermatofibrosarcoma protuberans (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Nintedanib: الاستطباب الجديد المتوقع Dermato
 | الاستطباب الجديد المتوقع | Dermatofibrosarcoma protuberans |
 | درجة تنبؤ TxGNN | 0.9915 |
 | مستوى الدليل | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

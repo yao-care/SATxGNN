@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Roxithromycin: الاستطباب الجديد المتوقع الجذام (Leprosy) (مستوى الدليل L5). الاستطباب الأصلي: التهابات الجهاز التنفسي والمسالك البولية والأنسجة الرخوة (بحسب الوصف…"
 monitor_inn: "ROXITHROMYCIN"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -50,7 +50,7 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 | الاستطباب الجديد المتوقع | الجذام (Leprosy) |
 | درجة توقع TxGNN | 0.9970 |
 | مستوى الأدلة | L5 (وهو أقرب إلى L4 عند القراءة الصارمة، لأن الأدلة قبل سريرية) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التوقف مؤقتاً، مع اعتباره سؤالاً بحثياً) |
 

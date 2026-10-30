@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methenamine: الاستطباب الجديد المتوقع التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma urethritis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية (مصدره الرسم المعرفي لـ TxGNN، وليس ن…"
 monitor_inn: "methenamine"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -50,7 +50,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 | الاستطباب الجديد المتوقع | التهاب الإحليل بالميكوبلازما اليوريائية (Ureaplasma urethritis) |
 | درجة توقع TxGNN | 0.9979 |
 | مستوى الدليل | L5 (توقع النموذج فقط) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

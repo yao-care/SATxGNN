@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prilocaine: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary Conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: القذف المبكر؛ عسر الجماع النفسي المنشأ (مستمدّ من رسم المعرفة الذي يع…"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -50,7 +50,7 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 | المؤشر الجديد المتوقع | التهاب الملتحمة الحليمي (Papillary Conjunctivitis) |
 | درجة توقع TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (التريّث) |
 

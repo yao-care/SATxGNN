@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Galantamine: الاستطباب الجديد المتوقع اضطرابات الحركة ذات المنشأ النفسي (psychogenic movement disorders) (مستوى الدليل L5). الاستطباب الأصلي: مرض الزهايمر"
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -50,7 +50,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 | الاستطباب الجديد المتنبأ به | اضطرابات الحركة ذات المنشأ النفسي (psychogenic movement disorders) |
 | درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (التريث) |
 

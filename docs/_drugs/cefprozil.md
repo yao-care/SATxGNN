@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "CEFPROZIL"
 predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "pneumonia", "laryngitis", "urogenital tuberculosis", "abdominal tuberculosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cefprozil: الاستطباب الجديد المتوقع التهاب المسالك البولية (urinary tract infection) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -48,7 +48,7 @@ description: "Cefprozil: الاستطباب الجديد المتوقع الته
 | الاستطباب الجديد المتنبأ به | التهاب المسالك البولية (urinary tract infection) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L2 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | المضي مع ضوابط |
 

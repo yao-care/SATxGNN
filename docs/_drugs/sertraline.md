@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sertraline: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي ل…"
 monitor_inn: "SERTRALINE"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
@@ -52,7 +52,7 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 | الاستطباب الجديد المتنبأ به | اضطراب الشخصية الفصامية |
 | درجة تنبؤ TxGNN | 0.9993 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
 | عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (التريث) |
 

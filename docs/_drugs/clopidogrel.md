@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clopidogrel: الاستطباب الجديد المتوقع الصداع النصفي مع أورة جذع الدماغ (migraine with brainstem aura) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -48,7 +48,7 @@ description: "Clopidogrel: الاستطباب الجديد المتوقع الص
 | الاستطباب الجديد المتوقع | الصداع النصفي مع أورة جذع الدماغ (migraine with brainstem aura) |
 | درجة TxGNN | 0.9944 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
 | عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | إيقاف مؤقت |
 

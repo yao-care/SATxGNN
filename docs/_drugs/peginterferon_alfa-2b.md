@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 639
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Peginterferon Alfa-2B: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L1). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمن (من رسم المعرفة في TxGNN، إذ لا يتوف…"
 monitor_inn: "PEGINTERFERON ALFA-2B"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection"]
@@ -52,7 +52,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 | الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |
 | درجة تنبؤ TxGNN | 0.9984 |
 | مستوى الأدلة | L1 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
 | عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

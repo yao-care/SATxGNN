@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 634
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pazopanib: الاستطباب الجديد المتوقع الورم الشحمي الخبيث (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية، والساركوما الرخوة (بحسب الاستطبابات المسجلة في…"
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
@@ -50,7 +50,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibr
 | الاستطباب الجديد المتوقع | الورم الشحمي الخبيث (Liposarcoma) |
 | درجة تنبؤ TxGNN | 0.9959 |
 | مستوى الأدلة | L2 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

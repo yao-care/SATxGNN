@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Busulfan: الاستطباب الجديد المتوقع متلازمة خلل التنسج النقوي (myelodysplastic syndrome) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -50,7 +50,7 @@ description: "Busulfan: الاستطباب الجديد المتوقع متلا�
 | الاستطباب الجديد المتوقع | متلازمة خلل التنسج النقوي (myelodysplastic syndrome) |
 | درجة تنبؤ TxGNN | 0.9962 |
 | مستوى الأدلة | L1 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المضي مع ضوابط |
 

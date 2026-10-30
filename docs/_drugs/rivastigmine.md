@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 731
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rivastigmine: الاستطباب الجديد المتوقع الزرق (Glaucoma) (مستوى الدليل L4). الاستطباب الأصلي: مرض الزهايمر (إضافة إلى التنكس المخيخي ومتلازمة راي ومرض بيك، بحسب ال…"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -52,7 +52,7 @@ predicted_indications: ["glaucoma"]
 | الاستطباب الجديد المتوقع | الزرق (Glaucoma) |
 | درجة تنبؤ TxGNN | 0.9927 |
 | مستوى الأدلة | L5 |
-| وضع التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 16 من 16) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 16 من 16) |
 | عدد التراخيص | 16 (السارية: 16) |
 | القرار الموصى به | Hold (التريّث) |
 

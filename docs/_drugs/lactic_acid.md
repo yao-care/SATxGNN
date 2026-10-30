@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lactic Acid: الاستطباب الجديد المتوقع التضيّق غير النمطي للأبهر (atypical coarctation of aorta) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المتاحة"
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -51,7 +51,7 @@ predicted_indications: ["atypical coarctation of aorta", "aortic malformation", 
 | الاستطباب الجديد المتنبأ به | التضيّق غير النمطي للأبهر (atypical coarctation of aorta) |
 | درجة تنبؤ TxGNN | 0.9959 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

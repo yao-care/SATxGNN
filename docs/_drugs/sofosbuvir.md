@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 766
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sofosbuvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L2). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -52,7 +52,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 | الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |
 | درجة تنبؤ TxGNN | 0.9977 |
 | مستوى الأدلة | L2 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريث) |
 

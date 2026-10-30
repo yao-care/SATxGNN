@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Candesartan Cilexetil: الاستطباب الجديد المتوقع اعتلال الكلى الناجم عن ارتفاع الضغط الخبيث (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (اضطراب ارتفاع ضغط الدم)، بحسب الرسم المعرفي لـ TxGN…"
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
@@ -50,7 +50,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 | الاستطباب الجديد المتنبأ به | اعتلال الكلى الناجم عن ارتفاع ضغط الدم الخبيث |
 | درجة تنبؤ TxGNN | 0.9968 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
 | عدد التراخيص | 19 (السارية: 19) |
 | القرار الموصى به | Hold (تعليق) |
 

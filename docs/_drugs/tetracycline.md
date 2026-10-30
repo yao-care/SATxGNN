@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tetracycline: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة الظهاري النقطي (مستوى الدليل L4). الاستطباب الأصلي: التهاب المسالك البولية، التهاب الشعب الهوائية، حب الشباب، التهاب المل…"
 monitor_inn: "TETRACYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
@@ -52,7 +52,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic eth
 | الاستطباب الجديد المتوقع | التهاب القرنية والملتحمة الظهاري النقطي |
 | درجة تنبؤ TxGNN | 0.9958 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 13 من 13) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 13 من 13) |
 | عدد التراخيص | 13 (السارية: 13) |
 | القرار الموصى به | Hold (التريث) |
 

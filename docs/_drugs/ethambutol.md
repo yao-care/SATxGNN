@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ethambutol: الاستطباب الجديد المتوقع التهاب لسان المزمار (Epiglottitis) (مستوى الدليل L4). الاستطباب الأصلي: السل الرئوي"
 monitor_inn: "ETHAMBUTOL"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -52,7 +52,7 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 | الاستطباب الجديد المتوقع | التهاب لسان المزمار (Epiglottitis) |
 | درجة توقع TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

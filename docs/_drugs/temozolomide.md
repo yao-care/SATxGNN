@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Temozolomide: الاستطباب الجديد المتوقع ورم الذنب الفرسي (Cauda Equina Neoplasm) (مستوى الدليل L4). الاستطباب الأصلي: الورم النجمي ذو التنسّج، والورم النجمي (باستثناء الورم الأرومي الدبقي…"
 ---
 
@@ -52,7 +52,7 @@ description: "Temozolomide: الاستطباب الجديد المتوقع ور�
 | الاستطباب الجديد المتوقع | ورم الذنب الفرسي (Cauda Equina Neoplasm) |
 | درجة تنبؤ TxGNN | 0.9930 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
 | عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | المضي مع ضوابط |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Siponimod: الاستطباب الجديد المتوقع ارتفاع ضغط الدم الرئوي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "SIPONIMOD"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
@@ -51,7 +51,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 | الاستطباب الجديد المتوقع | ارتفاع ضغط الدم الرئوي |
 | درجة تنبؤ TxGNN | 0.9968 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

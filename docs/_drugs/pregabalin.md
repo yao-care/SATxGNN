@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 686
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pregabalin: الاستطباب الجديد المتوقع التهاب الأوتار (Tendinitis) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق، الألم العضلي الليفي، متلازمة الألم العضلي الليفاني، الأ…"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myos
 | الاستطباب الجديد المتنبأ به | التهاب الأوتار (Tendinitis) |
 | درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L4 (للتهاب الأوتار)؛ وL2 للصداع النصفي |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
 | عدد التراخيص | 19 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) للتهاب الأوتار؛ والصداع النصفي سؤال بحثي جدير بالمتابعة |
 

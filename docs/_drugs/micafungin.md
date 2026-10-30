@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 556
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Micafungin: الاستطباب الجديد المتوقع التهاب المسالك البولية (مستوى الدليل L3). الاستطباب الأصلي: داء المبيضّات المريئي، فطريات المبيضّات في الدم، داء المبيضّات المنتش…"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -52,7 +52,7 @@ predicted_indications: ["urinary tract infection (disease)"]
 | الاستطباب الجديد المتوقع | التهاب المسالك البولية |
 | درجة تنبؤ TxGNN | 0.9903 |
 | مستوى الأدلة | L3 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) / سؤال بحثي |
 

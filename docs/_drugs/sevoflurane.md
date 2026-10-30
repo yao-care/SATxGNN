@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sevoflurane: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: التخدير العام بالاستنشاق (حسب المعرفة العامة بالدواء، إذ لا يتضمن نص…"
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -50,7 +50,7 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 | الاستطباب الجديد المتوقع | الذبحة الصدرية المتغايرة (Prinzmetal angina) |
 | درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

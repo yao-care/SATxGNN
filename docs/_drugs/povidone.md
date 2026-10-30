@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Povidone: الاستطباب الجديد المتوقع الحمرة الجلدية السمكية الخلقية (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين وجفاف الملتحمة (مستخلص من الرسم المعرفي، إذ لا يوج…"
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -50,7 +50,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 | الاستطباب الجديد المتوقع | الحمرة الجلدية السمكية الخلقية |
 | درجة توقع TxGNN | 0.9911 |
 | مستوى الدليل | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) |
 

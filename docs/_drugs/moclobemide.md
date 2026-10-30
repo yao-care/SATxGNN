@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 566
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Moclobemide: الاستطباب الجديد المتوقع رهاب الخلاء (Agoraphobia) (مستوى الدليل L2). الاستطباب الأصلي: اضطراب القلق، الاضطراب العصابي، اضطراب عسر المزاج"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -52,7 +52,7 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 | الاستطباب الجديد المتوقع | رهاب الخلاء (Agoraphobia) |
 | درجة تنبؤ TxGNN | 0.9943 |
 | مستوى الأدلة | L2 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 838
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Trifluoperazine: الاستطباب الجديد المتوقع اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: الفصام والقلق (مأخوذ من الرسم المعرفي PrimeKG، إذ لا تتضمن …"
 monitor_inn: "TRIFLUOPERAZINE"
 predicted_indications: ["manic bipolar affective disorder"]
@@ -50,7 +50,7 @@ predicted_indications: ["manic bipolar affective disorder"]
 | الاستطباب الجديد المتوقع | اضطراب ثنائي القطب الهوسي (manic bipolar affective disorder) |
 | درجة تنبؤ TxGNN | 0.9951 |
 | مستوى الدليل | L4 (تنبؤ حاسوبي مع دراسات مراجعة وآلية فقط، دون تجارب سريرية) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

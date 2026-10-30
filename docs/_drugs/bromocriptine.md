@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BROMOCRIPTINE"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bromocriptine: الاستطباب الجديد المتوقع اضطراب خلقي في الارتباط بالسكريات مع نقص في الفيوكوزة (congenital disorder of glycosylation with defective fucosylation) (مستوى الدليل L5). الاستطباب الأصلي: غ…"
 ---
 
@@ -48,7 +48,7 @@ description: "Bromocriptine: الاستطباب الجديد المتوقع اض
 | الاستطباب الجديد المتنبأ به | اضطراب خلقي في الارتباط بالسكريات مع نقص في الفيوكوزة (congenital disorder of glycosylation with defective fucosylation) |
 | درجة التنبؤ في TxGNN | 0.9983 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | إيقاف مؤقت |
 

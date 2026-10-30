@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 124
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bumetanide: الاستطباب الجديد المتوقع أمراض القلب الرئوية الحادة (مستوى الدليل L4). الاستطباب الأصلي: فشل القلب الاحتقاني"
 monitor_inn: "BUMETANIDE"
 predicted_indications: ["acute pulmonary heart disease"]
@@ -50,7 +50,7 @@ predicted_indications: ["acute pulmonary heart disease"]
 | الاستطباب الجديد المتوقع | أمراض القلب الرئوية الحادة |
 | درجة تنبؤ TxGNN | 0.9958 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 

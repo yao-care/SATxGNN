@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 840
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Trimebutine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine Disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفرة في بيانات الترخيص"
 monitor_inn: "TRIMEBUTINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 | الدلالة الجديدة المتوقعة | اضطراب الصداع النصفي (Migraine Disorder) |
 | درجة تنبؤ TxGNN | 0.9964 |
 | مستوى الأدلة | L3 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 

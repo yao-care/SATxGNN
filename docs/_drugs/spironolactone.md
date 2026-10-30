@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Spironolactone: الاستطباب الجديد المتوقع نقص الشعر البسيط في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، فشل القلب الاحتقاني، فرط الألدوستيرونية (الأولي)، مت…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -52,7 +52,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 | الاستطباب الجديد المتوقع | نقص الشعر البسيط في فروة الرأس |
 | درجة تنبؤ TxGNN | 0.9926 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

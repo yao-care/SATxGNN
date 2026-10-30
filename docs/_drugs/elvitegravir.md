@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 297
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Elvitegravir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة القردي (SIV) (مستوى الدليل L4). الاستطباب الأصلي: عدوى فيروس نقص المناعة البشرية (HIV) والإيدز"
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,7 +50,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة القردي (SIV) |
 | درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L4 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

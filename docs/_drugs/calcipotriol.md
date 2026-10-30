@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 134
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Calcipotriol: الاستطباب الجديد المتوقع التقرن الدهني (seborrheic keratosis) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص المؤشرات فارغة)"
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -50,7 +50,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 | المؤشر الجديد المتوقع | التقرن الدهني (seborrheic keratosis) |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 873
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "VINDESINE"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine: الاستطباب الجديد المتوقع Ganglioneuroblastoma (disease) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Vindesine: الاستطباب الجديد المتوقع Ganglion
 | الاستطباب الجديد المتنبأ به | Ganglioneuroblastoma (disease) |
 | درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L1 حسب التصنيف الآلي (يحتاج إلى تحقق، انظر أدناه) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 

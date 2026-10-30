@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: الاستطباب الجديد المتوقع الصَّعَر الانتيابي الحميد في الرضع (benign paroxysmal torticollis of infancy) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Tranylcypromine: الاستطباب الجديد المتوقع ا
 | الاستطباب الجديد الأكثر صلة سريريًا | Benign paroxysmal torticollis of infancy |
 | درجة تنبؤ TxGNN | 0.9967 |
 | مستوى الأدلة | L5 للتنبؤ الأول؛ L4 لعسر المزاج |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) للتنبؤ الأول؛ Hold لعسر المزاج مع اعتباره سؤالًا بحثيًا |
 

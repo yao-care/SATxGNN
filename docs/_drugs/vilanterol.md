@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vilanterol: الاستطباب الجديد المتوقع الرئة شديدة الشفافية (hyperlucent lung) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجَّل في البيانات المحلية (لا يوجد نص استطباب معتمد في التراخيص…"
 ---
 
@@ -48,7 +48,7 @@ description: "Vilanterol: الاستطباب الجديد المتوقع الر�
 | الاستطباب الجديد المتوقع | الرئة شديدة الشفافية (hyperlucent lung) |
 | درجة تنبؤ TxGNN | 0.9972 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | إيقاف مؤقت |
 

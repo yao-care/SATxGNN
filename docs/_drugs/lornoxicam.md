@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "LORNOXICAM"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lornoxicam: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمعة"
 ---
 
@@ -52,7 +52,7 @@ description: "Lornoxicam: الاستطباب الجديد المتوقع اضط�
 | الاستطباب الجديد المتوقع | اضطراب الصداع النصفي |
 | درجة تنبؤ TxGNN | 0.9987 |
 | مستوى الأدلة | L2 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | المضي مع ضوابط |
 

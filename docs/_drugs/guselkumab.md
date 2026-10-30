@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Guselkumab: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (Drug-induced osteoporosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
@@ -52,7 +52,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 | المؤشر الجديد المتوقع | هشاشة العظام الناجمة عن الأدوية (Drug-induced osteoporosis) |
 | درجة توقع TxGNN | 0.9984 |
 | مستوى الأدلة | L5 (توقع من النموذج فقط) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Homatropine: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (Cauda Equina Syndrome) (مستوى الدليل L5). الاستطباب الأصلي: القرحة الهضمية، التهاب العنبية، أمراض القزحية والجسم الهدبي، شلل التس…"
 monitor_inn: "Homatropine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "overactive bladder (disease)"]
@@ -52,7 +52,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 | الاستطباب الجديد المتوقع | متلازمة ذيل الفرس (Cauda Equina Syndrome) |
 | درجة توقع TxGNN | 0.9989 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

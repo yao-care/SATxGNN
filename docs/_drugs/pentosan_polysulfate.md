@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pentosan Polysulfate: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (primary release disorder of pl… (مستوى الدليل L5). الاستطباب الأصلي: التهاب المثانة الخلالي"
 monitor_inn: "PENTOSAN POLYSULFATE"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
@@ -51,7 +51,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 | الاستطباب الجديد المتوقع | اضطراب الإفراز الأولي للصفائح الدموية (primary release disorder of platelets) |
 | درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

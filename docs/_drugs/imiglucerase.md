@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 432
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Imiglucerase: الاستطباب الجديد المتوقع متلازمة هورلر (Hurler syndrome) (مستوى الدليل L4). الاستطباب الأصلي: داء غوشيه"
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -50,7 +50,7 @@ predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm o
 | الاستطباب الجديد المتنبأ به | متلازمة هورلر (Hurler syndrome) |
 | درجة تنبؤ TxGNN | 0.9952 |
 | مستوى الدليل | L4 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / الانتظار) |
 

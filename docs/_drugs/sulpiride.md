@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 780
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sulpiride: الاستطباب الجديد المتوقع الحثل الشبكي (مع أو بدون تشوهات خارج العين) (مستوى الدليل L4). الاستطباب الأصلي: الفصام"
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
@@ -50,7 +50,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 | الاستطباب الجديد المتوقع | الحثل الشبكي (مع أو بدون تشوهات خارج العين) |
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الدليل | L4 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (التريث) |
 

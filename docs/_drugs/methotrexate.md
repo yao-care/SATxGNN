@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methotrexate: الاستطباب الجديد المتوقع ورم الرئة الأرومي (Pulmonary blastoma) (مستوى الدليل L5). الاستطباب الأصلي: ابيضاض الدم الليمفاوي الحاد، التهاب المفاصل الروماتويدي، الصدفية، الو…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -50,7 +50,7 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 | الاستطباب الجديد المتنبأ به | ورم الرئة الأرومي (Pulmonary blastoma) |
 | درجة تنبؤ TxGNN | 0.9945 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 18 من 18) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 18 من 18) |
 | عدد التراخيص | 18 (السارية: 18) |
 | القرار الموصى به | Hold (تعليق) |
 

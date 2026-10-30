@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Polyvinyl Alcohol: الاستطباب الجديد المتوقع الحمامي الإكثيوزيفورمية الخلقية (مستوى الدليل L5). الاستطباب الأصلي: جفاف العين (dry eye syndrome) وجفاف الملتحمة (xerophthalmia) (من الاس…"
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
@@ -52,7 +52,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 | الاستطباب الجديد المتوقع | الحمامي الإكثيوزيفورمية الخلقية |
 | درجة تنبؤ TxGNN | 0.9990 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 

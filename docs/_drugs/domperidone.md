@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Domperidone: الاستطباب الجديد المتوقع المتلازمة الكلوية المنشأ لإفراط إفراز مضاد الإدرار غير الملائم (مستوى الدليل L5). الاستطباب الأصلي: عسر الهضم والغثيان والقيء (بحسب البيانات الدوائية المجمّعة؛ ن…"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,7 +50,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 | الاستطباب الجديد المتوقع | المتلازمة الكلوية المنشأ لإفراط إفراز مضاد الإدرار غير الملائم |
 | درجة توقع TxGNN | 0.9908 |
 | مستوى الدليل | L5 |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
 | عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

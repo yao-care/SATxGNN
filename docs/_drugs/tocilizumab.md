@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 821
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tocilizumab: الاستطباب الجديد المتوقع التهاب الفقار اللاصق (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، التهاب المفاصل مجهول السبب لدى الأحداث، ا…"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -51,7 +51,7 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "in
 | الاستطباب الجديد المتوقع | التهاب الفقار اللاصق |
 | درجة التوقع في TxGNN | 0.9999 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 734
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ropivacaine: الاستطباب الجديد المتوقع اضطراب الصداع النصفي (Migraine disorder) (مستوى الدليل L3). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة (نصوص الاستطباب فارغة)؛ يُعرف ا…"
 monitor_inn: "ROPIVACAINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -50,7 +50,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 | الاستطباب الجديد المتوقع | اضطراب الصداع النصفي (Migraine disorder) |
 | درجة تنبؤ TxGNN | 0.9965 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

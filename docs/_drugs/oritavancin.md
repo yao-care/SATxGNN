@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Oritavancin: الاستطباب الجديد المتوقع العدوى بفصيلة Bacteroidaceae (مستوى الدليل L5). الاستطباب الأصلي: الأمراض الجلدية الناجمة عن العدوى"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
@@ -52,7 +52,7 @@ predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes 
 | الاستطباب الجديد المتوقع | العدوى بفصيلة Bacteroidaceae |
 | درجة توقع TxGNN | 0.9948 |
 | مستوى الأدلة | L5 (تقييم مبدئي؛ لا توجد دراسات فعلية، ويقترب عمليًا من L5) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

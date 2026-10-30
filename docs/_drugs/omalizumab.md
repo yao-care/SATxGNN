@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 614
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Omalizumab: الاستطباب الجديد المتوقع التهاب القصبات (Bronchitis) (مستوى الدليل L3). الاستطباب الأصلي: الربو (الربو التحسسي وغير التحسسي) والشرى مجهول السبب (من الرسم المعر…"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
@@ -52,7 +52,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 | الاستطباب الجديد المتوقع | التهاب القصبات (Bronchitis) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L3 |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (مع اعتباره سؤالاً بحثياً) |
 

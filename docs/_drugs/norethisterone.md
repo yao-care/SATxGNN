@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 598
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "NORETHISTERONE"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Norethisterone: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Norethisterone: الاستطباب الجديد المتوقع ا�
 | المؤشر الجديد المتوقع | انقطاع الطمث (amenorrhea (disease)) |
 | درجة تنبؤ TxGNN | 0.9960 |
 | مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

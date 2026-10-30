@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Turoctocog Alfa: الاستطباب الجديد المتوقع اضطراب إفراز الصفيحات الأولي (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا (من الاستطبابات المستمدة من الرسم المعرفي للنموذج، إذ لا…"
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
@@ -51,7 +51,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 | الاستطباب الجديد المتوقع | اضطراب إفراز الصفيحات الأولي |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (تعليق) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Benzocaine: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد، التهاب البلعوم، قدم الرياضي، السعفة الجسدية، الالتهابات…"
 monitor_inn: "BENZOCAINE"
 predicted_indications: ["papillary conjunctivitis"]
@@ -50,7 +50,7 @@ predicted_indications: ["papillary conjunctivitis"]
 | الاستطباب الجديد المتنبأ به | التهاب الملتحمة الحليمي (Papillary conjunctivitis) |
 | درجة تنبؤ TxGNN | 0.9938 |
 | مستوى الأدلة | L5 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 

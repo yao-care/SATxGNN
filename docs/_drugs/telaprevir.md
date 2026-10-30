@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Telaprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى التهاب الكبد C المزمنة (مستمدة من الاستطبابات في قاعدة المعرفة،…"
 monitor_inn: "TELAPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "chronic hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "Omsk hemorrhagic fever"]
@@ -52,7 +52,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة البشرية (HIV) |
 | درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط؛ لا توجد دراسات تختبر فعالية الدواء ضد HIV) |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ataluren: الاستطباب الجديد المتوقع الركود الصفراوي الحميد المتكرر داخل الكبد (مستوى الدليل L5). الاستطباب الأصلي: الحثل العضلي دوشين (مأخوذ من الرسم المعرفي لـ TxGNN؛ لا يوجد نص استطب…"
 monitor_inn: "ATALUREN"
 predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn disorder of bilirubin metabolism", "hereditary North American Indian childhood cirrhosis", "familial intrahepatic cholestasis", "severe nonproliferative diabetic retinopathy", "bilirubin metabolism disease"]
@@ -52,7 +52,7 @@ predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn dis
 | الاستطباب الجديد المتوقع | الركود الصفراوي الحميد المتكرر داخل الكبد |
 | درجة تنبؤ TxGNN | 0.9942 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 

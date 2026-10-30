@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Risperidone: الاستطباب الجديد المتوقع شلل النظر الأفقي العائلي مع الجنف التدريجي (gaze palsy, familial horizontal, with progressive scoliosis) (مستوى الدليل L5). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص…"
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
@@ -51,7 +51,7 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 | الاستطباب الجديد المتنبأ به | متلازمة شلل النظر الأفقي العائلي مع الجنف التدريجي |
 | درجة تنبؤ TxGNN | 0.9976 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 (جميعها ملغاة) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

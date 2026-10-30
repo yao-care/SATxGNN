@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glycerin: الاستطباب الجديد المتوقع متلازمة ذنب الفرس (cauda equina syndrome) (مستوى الدليل L5). الاستطباب الأصلي: الإمساك (constipation)"
 monitor_inn: "GLYCERIN"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary
 | الاستطباب الجديد المتنبأ به | متلازمة ذنب الفرس (cauda equina syndrome) |
 | درجة تنبؤ TxGNN | 0.9960 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

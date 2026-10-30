@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 189
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: الاستطباب الجديد المتوقع اضطراب الوسواس القهري (obsessive-compulsive disorder) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Citalopram: الاستطباب الجديد المتوقع اضط�
 | الاستطباب الجديد المتوقع | اضطراب الوسواس القهري (obsessive-compulsive disorder) |
 | درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الأدلة | L2 (حسب التصنيف الوارد في البيانات؛ انظر الملاحظة في قسم الأدلة السريرية) |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
 | عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | المضي قدمًا مع ضوابط (Proceed with Guardrails) |
 

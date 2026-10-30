@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 720
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
 description: "Ribavirin: الاستطباب الجديد المتوقع عدوى التهاب الكبد الفيروسي B المزمنة (chronic hepatitis B virus infection) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Ribavirin: الاستطباب الجديد المتوقع عدوى
 | الاستطباب الجديد المتوقع | عدوى التهاب الكبد الفيروسي B المزمنة (chronic hepatitis B virus infection) |
 | درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L1 بحسب التصنيف الوارد في البيانات (انظر التحفظ أدناه) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

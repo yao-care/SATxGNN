@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acetazolamide: الاستطباب الجديد المتوقع فرط الحرارة الخبيثة الناجم عن الجهد (مستوى الدليل L5). الاستطباب الأصلي: الصرع الغيابي، فشل القلب الاحتقاني، الغلوكوما مفتوحة الزاوية ومغلقة ا…"
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
@@ -50,7 +50,7 @@ predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic
 | الاستطباب الجديد المتنبأ به | فرط الحرارة الخبيثة الناجم عن الجهد |
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ipilimumab: الاستطباب الجديد المتوقع الكوروئيدريميا (Choroideremia) (مستوى الدليل L5). الاستطباب الأصلي: الميلانوما النقيلية"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -50,7 +50,7 @@ predicted_indications: ["choroideremia"]
 | الاستطباب الجديد المتوقع | الكوروئيدريميا (Choroideremia) |
 | درجة توقع TxGNN | 0.9906 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / عدم المضي حالياً) |
 

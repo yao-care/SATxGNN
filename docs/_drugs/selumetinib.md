@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 750
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SELUMETINIB"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
 description: "Selumetinib: الاستطباب الجديد المتوقع Familial generalized lentiginosis (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Selumetinib: الاستطباب الجديد المتوقع Famili
 | الاستطباب الجديد المتنبأ به | Familial generalized lentiginosis |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) مع اعتباره سؤالًا بحثيًا |
 

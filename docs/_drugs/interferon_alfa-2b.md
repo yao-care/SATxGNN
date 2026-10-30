@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Interferon Alfa-2B: الاستطباب الجديد المتوقع التصلب المتعدد الناكس المهدِّئ (مستوى الدليل L5). الاستطباب الأصلي: التهاب الكبد الفيروسي المزمن C وB، ابيضاض الخلايا الشعرية، الورم المي…"
 monitor_inn: "INTERFERON ALFA-2B"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
@@ -52,7 +52,7 @@ predicted_indications: ["relapsing-remitting multiple sclerosis"]
 | الاستطباب الجديد المتنبأ به | التصلب المتعدد الانتكاسي-الهاجع |
 | درجة تنبؤ TxGNN | 0.9981 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 

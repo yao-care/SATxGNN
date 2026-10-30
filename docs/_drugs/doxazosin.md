@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Doxazosin: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: ارتفاع ضغط الدم، وتضخم البروستات الحميد (بحسب الرسم المعرفي للنموذج،…"
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine disorder) |
 | درجة تنبؤ TxGNN | 0.9920 |
 | مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
 | عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold |
 

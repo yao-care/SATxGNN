@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Antazoline: الاستطباب الجديد المتوقع التهاب الجلد التأتبي المستعصي (recalcitrant atopic dermatitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -52,7 +52,7 @@ description: "Antazoline: الاستطباب الجديد المتوقع الت�
 | الاستطباب الجديد المتنبأ به | التهاب الجلد التأتبي المستعصي (recalcitrant atopic dermatitis) |
 | درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | إيقاف مؤقت |
 

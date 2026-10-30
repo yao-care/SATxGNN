@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 223
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dabigatran Etexilate: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (Sclerosing Cholangitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية (المعروف: مضاد تخثر …"
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -50,7 +50,7 @@ predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hy
 | الاستطباب الجديد المتوقع | التهاب الأقنية الصفراوية المصلّب (Sclerosing Cholangitis) |
 | درجة توقع TxGNN | 0.9982 |
 | مستوى الدليل | L4 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

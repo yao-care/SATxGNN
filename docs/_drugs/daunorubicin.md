@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 233
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Daunorubicin: الاستطباب الجديد المتوقع لمفومة هودجكين (مستوى الدليل L3). الاستطباب الأصلي: اللوكيميا اللمفاوية الحادة واللوكيميا النقوية الحادة (لا يتوفر نص است…"
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -50,7 +50,7 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 | الاستطباب الجديد المتوقع | لمفومة هودجكين |
 | درجة تنبؤ TxGNN | 0.9981 |
 | مستوى الأدلة | L3 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 

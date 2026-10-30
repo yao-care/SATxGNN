@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 631
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Parecoxib: الاستطباب الجديد المتوقع الصداع النصفي (Migraine Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء يُعرف بكونه مسكنًا للألم)"
 monitor_inn: "PARECOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -50,7 +50,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pu
 | الاستطباب الجديد المتوقع | الصداع النصفي (Migraine Disorder) |
 | درجة تنبؤ TxGNN | 0.9955 |
 | مستوى الأدلة | L3 (مؤقت، بانتظار مراجعة النص الكامل للدراسة) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

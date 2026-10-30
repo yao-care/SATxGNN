@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 552
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methylprednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L3). الاستطباب الأصلي: أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، وابيضاض ا…"
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -52,7 +52,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 | الاستطباب الجديد المتوقع | الثعلبة البقعية (Alopecia Areata) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

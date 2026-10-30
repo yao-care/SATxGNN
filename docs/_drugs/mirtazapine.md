@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mirtazapine: الاستطباب الجديد المتوقع متلازمة أودو ومتغيراتها (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، اضطراب الاكتئاب الجسيم…"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -50,7 +50,7 @@ predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intell
 | الاستطباب الجديد المتوقع | متلازمة أودو ومتغيراتها |
 | درجة تنبؤ TxGNN | 0.9942 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
 | عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | Hold (تعليق) |
 

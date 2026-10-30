@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Heparin: الاستطباب الجديد المتوقع الميل للتخثر الناتج عن نقص البروتين C، وراثي متنحٍّ (مستوى الدليل L5). الاستطباب الأصلي: الانسداد الرئوي، التخثر المنتشر داخل الأوعية، الفرفرية الخاطفة (بحسب…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -50,7 +50,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 | الاستطباب الجديد المتوقع | الميل للتخثر الناتج عن نقص البروتين C، وراثي متنحٍّ |
 | درجة تنبؤ TxGNN | 0.9929 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
 | عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

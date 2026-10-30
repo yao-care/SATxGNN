@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ceftolozane: الاستطباب الجديد المتوقع التهاب الإحليل بالمفطورة اليوريائية (Ureaplasma urethritis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب المسالك البولية (من قاعدة المعرفة TxGNN، إذ لا يتوفر نص ا…"
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
@@ -50,7 +50,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 | الاستطباب الجديد المتنبأ به | التهاب الإحليل بالمفطورة اليوريائية (Ureaplasma urethritis) |
 | درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

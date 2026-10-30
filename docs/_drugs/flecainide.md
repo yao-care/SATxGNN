@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 356
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Flecainide: الاستطباب الجديد المتوقع اضطراب السكتة الدماغية (stroke disorder) (مستوى الدليل L4). الاستطباب الأصلي: الرجفان الأذيني"
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,7 +50,7 @@ predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dom
 | الاستطباب الجديد المتنبأ به | اضطراب السكتة الدماغية (stroke disorder) |
 | درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الدليل | L4 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

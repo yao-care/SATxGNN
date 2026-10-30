@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diosmin: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المجمّعة"
 monitor_inn: "DIOSMIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,7 +50,7 @@ predicted_indications: ["amenorrhea (disease)"]
 | الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
 | درجة تنبؤ TxGNN | 0.9942 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

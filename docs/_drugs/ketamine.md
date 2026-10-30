@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 468
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketamine: الاستطباب الجديد المتوقع اضطراب الصداع (Headache Disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (حقول المؤشر في تراخيص الهيئة العامة للغذاء والدواء فارغة)"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
@@ -50,7 +50,7 @@ predicted_indications: ["headache disorder"]
 | المؤشر الجديد المتنبأ به | اضطراب الصداع (Headache Disorder) |
 | درجة تنبؤ TxGNN | 0.9933 |
 | مستوى الأدلة | L1 (انظر الملاحظة أدناه) |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

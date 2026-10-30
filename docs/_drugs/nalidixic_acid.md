@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 576
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nalidixic Acid: الاستطباب الجديد المتوقع التهاب الملتحمة (Conjunctivitis) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "NALIDIXIC ACID"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
@@ -50,7 +50,7 @@ predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid 
 | الاستطباب الجديد المتنبأ به | التهاب الملتحمة (Conjunctivitis) |
 | درجة تنبؤ TxGNN | 0.9983 |
 | مستوى الأدلة | L4 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (تعليق) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bicalutamide: الاستطباب الجديد المتوقع فرط الشعر (Hypertrichosis) (مستوى الدليل L4). الاستطباب الأصلي: سرطان البروستاتا (بحسب المعرفة العامة بالدواء؛ نص الاستطباب غير متوفر…"
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,7 +50,7 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 | الاستطباب الجديد المتنبأ به | فرط الشعر (Hypertrichosis) |
 | درجة تنبؤ TxGNN | 0.9969 |
 | مستوى الدليل | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

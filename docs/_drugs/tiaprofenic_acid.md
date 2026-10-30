@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 814
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tiaprofenic Acid: الاستطباب الجديد المتوقع متلازمة قصر الأصابع والتصاق الأصابع (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، الفصال العظمي (من الرسم المعرفي لـ TxGNN،…"
 monitor_inn: "TIAPROFENIC ACID"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
@@ -50,7 +50,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 | الاستطباب الجديد المتوقع | متلازمة قصر الأصابع والتصاق الأصابع |
 | درجة توقع TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

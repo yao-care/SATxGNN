@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 680
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pramipexole: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L4). الاستطباب الأصلي: متلازمة تململ الساقين، مرض باركنسون (مأخوذ من الاستطبابات الأصلية في…"
 monitor_inn: "PRAMIPEXOLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
@@ -52,7 +52,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 | الاستطباب الجديد المتوقع | اضطراب فرط الحركة وتشتت الانتباه (ADHD) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الدليل | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

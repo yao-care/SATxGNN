@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iloprost: الاستطباب الجديد المتوقع نقص الشعر البسيط في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم الشرياني الرئوي"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
@@ -52,7 +52,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 | الاستطباب الجديد المتوقع | نقص الشعر البسيط في فروة الرأس |
 | درجة تنبؤ TxGNN | 0.9945 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

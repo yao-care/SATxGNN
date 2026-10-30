@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Agomelatine: الاستطباب الجديد المتوقع الصعر الانتيابي الحميد عند الرضع (مستوى الدليل L5). الاستطباب الأصلي: الاكتئاب أحادي القطب، الاكتئاب الداخلي المنشأ، اضطراب الاكتئاب الجسيم…"
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
@@ -52,7 +52,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 | الاستطباب الجديد المتنبأ به | الصعر الانتيابي الحميد عند الرضع |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 

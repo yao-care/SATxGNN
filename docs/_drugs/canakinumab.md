@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Canakinumab: الاستطباب الجديد المتوقع احتشاء الكبد (Hepatic infarction) (مستوى الدليل L5). الاستطباب الأصلي: المتلازمات الدورية المرتبطة بالكريوبيرين، حمى البحر المتوسط العائلية،…"
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
@@ -52,7 +52,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 | الاستطباب الجديد المتوقع | احتشاء الكبد (Hepatic infarction) |
 | درجة توقع TxGNN | 0.9986 |
 | مستوى الدليل | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

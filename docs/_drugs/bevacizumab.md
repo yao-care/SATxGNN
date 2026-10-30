@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bevacizumab: الاستطباب الجديد المتوقع ورم لسان المزمار (Epiglottis Neoplasm) (مستوى الدليل L5). الاستطباب الأصلي: سرطان الصفاق، وسرطان المبيض الظهاري، وسرطان الثدي، والورم الخبيث المن…"
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
@@ -51,7 +51,7 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 | الاستطباب الجديد المتوقع | ورم لسان المزمار (Epiglottis Neoplasm) |
 | درجة توقع TxGNN | 0.9990 |
 | مستوى الأدلة | L5 (توقع من النموذج فقط) |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التوقف / التأجيل) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 60
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ampicillin: الاستطباب الجديد المتوقع التهاب الحنجرة (مستوى الدليل L4). الاستطباب الأصلي: التهابات بكتيرية (التهاب المسالك البولية، التهاب الأذن الوسطى، الالته…"
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -51,7 +51,7 @@ predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosin
 | الاستطباب الجديد المتوقع | التهاب الحنجرة |
 | درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L4 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (الإيقاف المؤقت) |
 

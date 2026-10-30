@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Moxifloxacin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L5). الاستطباب الأصلي: العدوى العقدية، الالتهاب الرئوي البكتيري، التهاب الصفاق، العدوى بالمك…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -51,7 +51,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 | الاستطباب الجديد المتوقع | فرط أميلاز الدم (Hyperamylasemia) |
 | درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
 | عدد التراخيص | 19 (السارية: 19) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

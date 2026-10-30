@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Polymyxin B: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (Bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص (نصوص الاستطباب فارغة)"
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
@@ -50,7 +50,7 @@ predicted_indications: ["bronchitis", "laryngotracheitis"]
 | الاستطباب الجديد المتوقع | التهاب الشعب الهوائية (Bronchitis) |
 | درجة تنبؤ TxGNN | 0.9987 |
 | مستوى الدليل | L4 (التهاب الشعب الهوائية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
 | عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | Hold (التريّث) |
 

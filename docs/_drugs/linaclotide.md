@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Linaclotide: الاستطباب الجديد المتوقع متلازمة ذيل الفرس (مستوى الدليل L5). الاستطباب الأصلي: متلازمة القولون العصبي (إضافة إلى التهاب القولون بالمطثية العسيرة وال…"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
@@ -50,7 +50,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 | الاستطباب الجديد المتوقع | متلازمة ذيل الفرس |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف / التأجيل) |
 

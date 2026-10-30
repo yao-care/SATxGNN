@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prasugrel: الاستطباب الجديد المتوقع ارتفاع ضغط الشريان الرئوي (مستوى الدليل L5). الاستطباب الأصلي: متلازمة الشريان التاجي الحادة (من الرسم المعرفي لـ TxGNN، إذ لا يتضمن…"
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -52,7 +52,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 | الاستطباب الجديد المتوقع | ارتفاع ضغط الشريان الرئوي |
 | درجة التوقع في TxGNN | 0.9988 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 

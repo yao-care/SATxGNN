@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 246
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dexamethasone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). الاستطباب الأصلي: قصور الغدة الكظرية، مرض أديسون، مرض كرون، سرطان الدم اللمفاوي الحاد،…"
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
@@ -52,7 +52,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 | الاستطباب الجديد المتوقع | الثعلبة البقعية (alopecia areata) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L2 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
 | عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | المضي قدماً مع ضوابط وقائية (Proceed with Guardrails) |
 

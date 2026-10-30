@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 881
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Xylometazoline: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L3). الاستطباب الأصلي: التهاب البلعoم (pharyngitis)، نزلة البرد (common cold)"
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
@@ -52,7 +52,7 @@ predicted_indications: ["nasal cavity disease"]
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
 | درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
 | عدد التراخيص | 19 (السارية: 19) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 

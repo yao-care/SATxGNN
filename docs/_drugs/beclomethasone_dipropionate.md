@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 94
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Beclomethasone Dipropionate: الاستطباب الجديد المتوقع الإكزيما التأتبية (atopic eczema) (مستوى الدليل L3). الاستطباب الأصلي: الربو، الربو التحسسي، التهاب الأنف التحسسي، التهاب الأنف الحركي الوعا…"
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
@@ -52,7 +52,7 @@ predicted_indications: ["atopic eczema"]
 | الاستطباب الجديد المتوقع | الإكزيما التأتبية (atopic eczema) |
 | درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (تعليق) |
 

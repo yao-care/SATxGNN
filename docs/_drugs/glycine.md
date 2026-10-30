@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glycine: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (nasal cavity disease) (مستوى الدليل L5). الاستطباب الأصلي: التهاب الأنف التحسسي، التهاب الأنف الحركي الوعائي، التهاب البلعوم، نز…"
 monitor_inn: "GLYCINE"
 predicted_indications: ["nasal cavity disease"]
@@ -52,7 +52,7 @@ predicted_indications: ["nasal cavity disease"]
 | الاستطباب الجديد المتوقع | أمراض التجويف الأنفي (nasal cavity disease) |
 | درجة تنبؤ TxGNN | 0.9985 |
 | مستوى الدليل | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

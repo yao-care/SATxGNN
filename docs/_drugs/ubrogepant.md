@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 852
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Ubrogepant: الاستطباب الجديد المتوقع Atrophoderma vermiculata (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Ubrogepant: الاستطباب الجديد المتوقع Atropho
 | الاستطباب الجديد المتنبأ به | Atrophoderma vermiculata |
 | درجة تنبؤ TxGNN | 0.9940 |
 | مستوى الأدلة | L3 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 

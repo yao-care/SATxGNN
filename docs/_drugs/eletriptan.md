@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Eletriptan: الاستطباب الجديد المتوقع ضمور الجلد الدودي (atrophoderma vermiculata) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -48,7 +48,7 @@ description: "Eletriptan: الاستطباب الجديد المتوقع ضمو�
 | الاستطباب الجديد المتوقع | ضمور الجلد الدودي (atrophoderma vermiculata) |
 | درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | إيقاف مؤقت |
 

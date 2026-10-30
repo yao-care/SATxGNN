@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 763
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sodium Fluoride: الاستطباب الجديد المتوقع التهاب لسان المزمار (epiglottitis) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب نقص الفيتامينات (من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استط…"
 monitor_inn: "sodium fluoride"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
@@ -50,7 +50,7 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 | الاستطباب الجديد المتنبأ به | التهاب لسان المزمار (epiglottitis) |
 | درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الدليل | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

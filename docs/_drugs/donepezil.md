@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Donepezil: الاستطباب الجديد المتوقع اضطرابات الحركة النفسية المنشأ (مستوى الدليل L5). الاستطباب الأصلي: مرض ألزهايمر (بحسب شبكة المعرفة PrimeKG، ولا تتوفر نصوص استطباب في تر…"
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
@@ -50,7 +50,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 | الاستطباب الجديد المتوقع | اضطرابات الحركة النفسية المنشأ |
 | درجة تنبؤ TxGNN | 0.9923 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

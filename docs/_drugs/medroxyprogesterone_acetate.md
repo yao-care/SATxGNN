@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 534
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: بطانة الرحم المهاجرة، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس (م…"
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
@@ -50,7 +50,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 | الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 

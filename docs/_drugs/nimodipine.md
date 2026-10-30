@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nimodipine: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي المتماثل الزيجوت (مستوى الدليل L5). الاستطباب الأصلي: نزيف تحت العنكبوتية (بما في ذلك الناتج عن تمزق أم الدم الدماغية)"
 monitor_inn: "NIMODIPINE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,7 +50,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic
 | الاستطباب الجديد المتوقع | فرط كوليسترول الدم العائلي المتماثل الزيجوت |
 | درجة توقع TxGNN | 0.9929 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (تعليق) |
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 657
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Pimecrolimus: الاستطباب الجديد المتوقع ال�
 | الاستطباب الجديد المتوقع | التهاب الجلد الدهني (seborrheic dermatitis) |
 | درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L2 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

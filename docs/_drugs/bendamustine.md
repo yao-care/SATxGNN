@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 98
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bendamustine: الاستطباب الجديد المتوقع لمفوما الخلايا الوشاحية (مستوى الدليل L1). الاستطباب الأصلي: اللمفوما الجريبية، أورام الخلايا البائية الناضجة، ابيضاض الدم الليمفا…"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -50,7 +50,7 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 | الاستطباب الجديد المتوقع | لمفوما الخلايا الوشاحية |
 | درجة تنبؤ TxGNN | 0.9963 |
 | مستوى الأدلة | L1 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 

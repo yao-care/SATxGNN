@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Framycetin: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر في ترخيص الهيئة العامة للغذاء والدواء فارغ)"
 monitor_inn: "FRAMYCETIN"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -52,7 +52,7 @@ predicted_indications: ["sclerosing cholangitis", "urinary tract infection (dise
 | المؤشر الجديد المتوقع | التهاب الأقنية الصفراوية المصلّب (sclerosing cholangitis) |
 | درجة توقع TxGNN | 0.9966 |
 | مستوى الأدلة | L5 (توقع من النموذج فقط، بلا دراسات فعلية) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التعليق) |
 

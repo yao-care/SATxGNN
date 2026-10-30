@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 62
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Anakinra: الاستطباب الجديد المتوقع ورم الخلايا البدينة خارج الجلد (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، متلازمات الحمّى الدورية المرتبطة بالكريوب…"
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
@@ -50,7 +50,7 @@ predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aut
 | الاستطباب الجديد المتوقع | ورم الخلايا البدينة خارج الجلد |
 | درجة تنبؤ TxGNN | 0.9993 |
 | مستوى الدليل | L5 (تنبؤ النموذج فقط) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

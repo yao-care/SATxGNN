@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 165
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Centella Asiatica: الاستطباب الجديد المتوقع الأرق (insomnia) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص الاستطباب في التراخيص فارغة)"
 monitor_inn: "CENTELLA ASIATICA"
 predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep"]
@@ -51,7 +51,7 @@ predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initia
 | الاستطباب الجديد المتوقع | الأرق (insomnia) |
 | درجة توقع TxGNN | 0.9994 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

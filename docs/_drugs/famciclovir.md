@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Famciclovir: الاستطباب الجديد المتوقع الألم العصبي بعد العدوى (post-infectious neuralgia) (مستوى الدليل L4). الاستطباب الأصلي: الهربس النطاقي (Herpes zoster)"
 monitor_inn: "FAMCICLOVIR"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -50,7 +50,7 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 | الاستطباب الجديد المتوقع | الألم العصبي بعد العدوى (post-infectious neuralgia) |
 | درجة تنبؤ TxGNN | 0.9975 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Adenosine: الاستطباب الجديد المتوقع obsolete bundle branch block (مستوى الدليل L5). الاستطباب الأصلي: التسرع البطيني (ventricular tachycardia)"
 monitor_inn: "ADENOSINE"
 predicted_indications: ["obsolete bundle branch block"]
@@ -52,7 +52,7 @@ predicted_indications: ["obsolete bundle branch block"]
 | الاستطباب الجديد المتنبأ به | obsolete bundle branch block |
 | درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (تعليق) |
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 582
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nepafenac: الاستطباب الجديد المتوقع أمراض العين (Eye disease) (مستوى الدليل L2). الاستطباب الأصلي: غير متوفر (نص الاستطباب في رخصة هيئة الغذاء والدواء السعودية فارغ)"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -50,7 +50,7 @@ predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simple
 | الاستطباب الجديد المتوقع | أمراض العين (Eye disease) |
 | درجة تنبؤ TxGNN | 0.9985 |
 | مستوى الأدلة | L2 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

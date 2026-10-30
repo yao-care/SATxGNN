@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 830
 evidence_level: L1
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: الاستطباب الجديد المتوقع Malignant cutaneous granular cell skin tumor (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Trastuzumab: الاستطباب الجديد المتوقع Malign
 | الاستطباب الجديد المتنبأ به | Malignant cutaneous granular cell skin tumor |
 | درجة تنبؤ TxGNN | 0.9948 |
 | مستوى الأدلة | L1 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 11 من 11) |
 | عدد التراخيص | 11 (السارية: 11) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

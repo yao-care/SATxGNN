@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atosiban: الاستطباب الجديد المتوقع الزرق الوراثي الأولي (مستوى الدليل L5). الاستطباب الأصلي: تأخير الولادة المبكرة (مثبّط للمخاض)، وفق المعلومات الدوائية المتاحة؛…"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -50,7 +50,7 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 | الاستطباب الجديد المتوقع | الزرق الوراثي الأولي |
 | درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (تعليق) |
 

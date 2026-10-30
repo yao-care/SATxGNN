@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Peppermint Oil: الاستطباب الجديد المتوقع الجُذام (Leprosy) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص"
 monitor_inn: "PEPPERMINT OIL"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
@@ -52,7 +52,7 @@ predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", 
 | الاستطباب الجديد المتوقع (الأعلى درجة) | الجُذام (Leprosy) |
 | درجة تنبؤ TxGNN | 0.9980 |
 | مستوى الدليل | L5 (للجُذام)؛ L4 (لأمراض القلب والأوعية الدموية) |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

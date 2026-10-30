@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Paliperidone: الاستطباب الجديد المتوقع الحثل الشبكي مع أو بدون شذوذات خارج العينية (مستوى الدليل L5). الاستطباب الأصلي: الفصام، الاضطراب الفصامي الشكل، الاضطراب الفصامي العاطفي، الاضطراب ال…"
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -52,7 +52,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 | الاستطباب الجديد المتنبأ به | الحثل الشبكي مع أو بدون شذوذات خارج العينية |
 | درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (تعليق) |
 

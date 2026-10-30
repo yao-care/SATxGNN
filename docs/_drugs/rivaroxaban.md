@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rivaroxaban: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نصوص المؤشرات المعتمدة في تراخيص الهيئة العامة للغذاء والد…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -52,7 +52,7 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 | المؤشر الجديد المتوقع | التهاب المفاصل الروماتويدي |
 | درجة تنبؤ TxGNN | 0.9957 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 20 من 20) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 من 20) |
 | عدد التراخيص | 20 (السارية: 20) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) |
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 491
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: الاستطباب الجديد المتوقع Nipple carcinoma (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -50,7 +50,7 @@ description: "Letrozole: الاستطباب الجديد المتوقع Nipple c
 | الاستطباب الجديد المتنبأ به | Nipple carcinoma |
 | درجة تنبؤ TxGNN | 0.9976 |
 | مستوى الأدلة | L1 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

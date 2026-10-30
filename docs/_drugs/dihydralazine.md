@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 261
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dihydralazine: الاستطباب الجديد المتوقع أمراض القلب (Heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (يُعرف تاريخيًا باستخدامه لعلاج ارتفاع ضغ…"
 monitor_inn: "dihydralazine"
 predicted_indications: ["heart disease", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "Jeune syndrome situs inversus", "disorder of fucoglycosan synthesis", "pulmonary valve disease", "partial deletion of the long arm of chromosome 22"]
@@ -50,7 +50,7 @@ predicted_indications: ["heart disease", "Pierre Robin syndrome associated with 
 | الاستطباب الجديد المتوقع | أمراض القلب (Heart disease) |
 | درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cytarabine: الاستطباب الجديد المتوقع سرطان الرئة صغير الخلايا (small cell lung carcinoma) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -48,7 +48,7 @@ description: "Cytarabine: الاستطباب الجديد المتوقع سرط�
 | الاستطباب الجديد المتوقع | سرطان الرئة صغير الخلايا (small cell lung carcinoma) |
 | درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
 | عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | إيقاف مؤقت |
 

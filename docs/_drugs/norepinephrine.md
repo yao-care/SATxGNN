@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 597
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: الاستطباب الجديد المتوقع Obstructive lung disease (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -51,7 +51,7 @@ description: "Norepinephrine: الاستطباب الجديد المتوقع Obs
 | الاستطباب الجديد المتوقع | Obstructive lung disease |
 | درجة تنبؤ TxGNN | 0.9984 |
 | مستوى الأدلة | L4 (آليات وبيانات تمهيدية فقط، دون دراسات سريرية داعمة) |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
 | عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | Hold (تعليق) |
 

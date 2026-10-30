@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 136
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Calcium Lactate: الاستطباب الجديد المتوقع متلازمة الكالسيوم والقلويات (Calcium-alkali syndrome) (مستوى الدليل L4). الاستطباب الأصلي: هشاشة العظام (وفق الاستطبابات الأصلية في قاعدة المعرفة؛ نص الاستطب…"
 monitor_inn: "calcium lactate"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -52,7 +52,7 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 | الاستطباب الجديد المتنبأ به | متلازمة الكالسيوم والقلويات (Calcium-alkali syndrome) |
 | درجة تنبؤ TxGNN | 0.9976 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

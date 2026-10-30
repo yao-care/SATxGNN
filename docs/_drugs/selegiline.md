@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 748
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: الاستطباب الجديد المتوقع Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Selegiline: الاستطباب الجديد المتوقع Polymic
 | الاستطباب الجديد المتوقع | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
 | درجة تنبؤ TxGNN | 0.9915 |
 | مستوى الدليل | L3 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت، مع اعتباره سؤالاً بحثياً) |
 

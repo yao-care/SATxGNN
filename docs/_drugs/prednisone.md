@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 685
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prednisone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L3). الاستطباب الأصلي: الأمراض المناعية الذاتية (وغيرها من الاستطبابات المستمدة من الرسم الم…"
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
@@ -52,7 +52,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 | الاستطباب الجديد المتوقع | الثعلبة البقعية (Alopecia Areata) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L3 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المضي قدماً مع ضوابط وقائية (Proceed with Guardrails) |
 

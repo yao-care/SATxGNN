@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tretinoin: الاستطباب الجديد المتوقع العقيدات الروماتويدية (Rheumatoid nodulosis) (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، ابيضاض الدم النخاعي الحاد (APL)، التقرّن المكتسب، فرط التق…"
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -52,7 +52,7 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 | الاستطباب الجديد المتوقع | العقيدات الروماتويدية (Rheumatoid nodulosis) |
 | درجة تنبؤ TxGNN | 0.9984 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 13 من 13) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 13 من 13) |
 | عدد التراخيص | 13 (السارية: 13) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 857
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Valine: الاستطباب الجديد المتوقع التهاب الأقنية الصفراوية المصلّب (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر في بيانات الترخيص (مكمل أحماض أمينية ضمن منتجات التغذية الو…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -51,7 +51,7 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 | الاستطباب الجديد المتوقع | التهاب الأقنية الصفراوية المصلّب |
 | درجة تنبؤ TxGNN | 0.9942 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 834
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Triamcinolone: الاستطباب الجديد المتوقع ثعلبة الميوسين (alopecia mucinosa) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر نص استطباب في تراخيص الهيئة العامة للغذاء والدواء (SFDA)؛ و…"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -52,7 +52,7 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 | الاستطباب الجديد المتوقع | ثعلبة الميوسين (alopecia mucinosa) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L4 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

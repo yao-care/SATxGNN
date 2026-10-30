@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Imipenem: الاستطباب الجديد المتوقع تصلب الجلد المنتشر (Diffuse Scleroderma) (مستوى الدليل L5). الاستطباب الأصلي: الالتهاب الرئوي البكتيري، التهاب الصفاق، الالتهاب الرئوي العقدي، الته…"
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
@@ -52,7 +52,7 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 | الاستطباب الجديد المتوقع | تصلب الجلد المنتشر (Diffuse Scleroderma) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
 | عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

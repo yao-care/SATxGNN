@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloramphenicol: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L3). الاستطباب الأصلي: الحمى التيفية، داء السلمونيلات، الحمى نظيرة التيفية، العدوى السحائية…"
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
@@ -52,7 +52,7 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 | الاستطباب الجديد المتوقع | التهاب الملتحمة |
 | درجة تنبؤ TxGNN | 0.9966 |
 | مستوى الأدلة | L3 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
 | عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 

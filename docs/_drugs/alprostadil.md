@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alprostadil: الاستطباب الجديد المتوقع تشوهات الأبهر (aortic malformation) (مستوى الدليل L4). الاستطباب الأصلي: ضعف الانتصاب، وعسر الجماع النفسي، وسرعة القذف، ورتق الصمام ثلاثي الشر…"
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
@@ -52,7 +52,7 @@ predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", 
 | الاستطباب الجديد المتوقع | تشوهات الأبهر (aortic malformation) |
 | درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (التريّث) |
 

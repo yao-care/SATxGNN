@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 535
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mefenamic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في بيانات التراخيص السعودية (الدواء مضاد التهاب غير ستيرويدي…"
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal
 | الاستطباب الجديد المتوقع | التهاب المفاصل الروماتويدي |
 | درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L3 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
 | عدد التراخيص | 14 (السارية: 14) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

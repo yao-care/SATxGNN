@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clozapine: الاستطباب الجديد المتوقع الهوس ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية"
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
@@ -52,7 +52,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 | الاستطباب الجديد المتوقع | الهوس ثنائي القطب (manic bipolar affective disorder) |
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 (للهوس)؛ L1 للاضطراب ثنائي القطب عموماً |
-| وضع التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 

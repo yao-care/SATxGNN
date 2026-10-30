@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Filgrastim: الاستطباب الجديد المتوقع اضطراب إفراز الصفائح الدموية الأولي (primary release disorder of plat… (مستوى الدليل L5). الاستطباب الأصلي: نقص العدلات الخلقي الشديد، ونقص العدلات التكويني، واضط…"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -51,7 +51,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 | الاستطباب الجديد المتوقع | اضطراب إفراز الصفائح الدموية الأولي (primary release disorder of platelets) |
 | درجة توقع TxGNN | 1.0000 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 8 من 8) |
 | عدد التراخيص | 8 (السارية: 8) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

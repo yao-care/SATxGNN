@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 741
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sacituzumab Govitecan: الاستطباب الجديد المتوقع هشاشة العظام الناجمة عن الأدوية (drug-induced osteoporosis) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المتاحة (الدواء مضاد للأور…"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -52,7 +52,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 | الاستطباب الجديد المتنبأ به | هشاشة العظام الناجمة عن الأدوية (drug-induced osteoporosis) |
 | درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

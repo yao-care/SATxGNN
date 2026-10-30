@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Carfilzomib: الاستطباب الجديد المتوقع CMM7 — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أم… (مستوى الدليل L5). الاستطباب الأصلي: الورم النخاعي البلازمي (Plasma cell myeloma)"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
@@ -51,7 +51,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 | الاستطباب الجديد المتوقع | الميلانوما (Melanoma) — وهو الاستطباب الأعلى أدلة بين خمسة تنبؤات، أما التنبؤ الأعلى درجة فهو CMM7 |
 | درجة تنبؤ TxGNN | 0.9903 (للميلانوما)؛ أعلى درجة: 0.9937 (CMM7) |
 | مستوى الأدلة | L5 (للميلانوما)؛ L5 لبقية الاستطبابات المتوقعة |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) — مع اعتبار الميلانوما سؤالاً بحثياً |
 

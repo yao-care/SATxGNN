@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 874
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vinorelbine: الاستطباب الجديد المتوقع ساركوما إيوينغ (مستوى الدليل L2). الاستطباب الأصلي: سرطان الرئة غير صغير الخلايا / سرطان الرئة (وفق الاستطبابات الأصلية ف…"
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "lung germ cell tumor", "pulmonary sulcus neoplasm", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
@@ -50,7 +50,7 @@ predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of l
 | الاستطباب الجديد المتوقع | ساركوما إيوينغ |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L2 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المضي قدماً مع ضوابط حماية |
 

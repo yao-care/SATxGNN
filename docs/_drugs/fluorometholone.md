@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluorometholone: الاستطباب الجديد المتوقع التهاب الأوعية الدموية ما بعد العدوى (postinfectious vasculitis) (مستوى الدليل L5). الاستطباب الأصلي: التهاب القزحية، التهاب القزحية والجسم الهدبي، التهاب ال…"
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
@@ -51,7 +51,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 | الاستطباب الجديد المتوقع | التهاب الأوعية الدموية ما بعد العدوى (postinfectious vasculitis) |
 | درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

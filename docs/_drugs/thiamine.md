@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "THIAMINE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Thiamine: الاستطباب الجديد المتوقع Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
@@ -51,7 +51,7 @@ description: "Thiamine: الاستطباب الجديد المتوقع Resistanc
 | الاستطباب الجديد المتنبأ به | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | درجة تنبؤ TxGNN | 0.9943 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | إيقاف مؤقت |
 

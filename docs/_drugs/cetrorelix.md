@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cetrorelix: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis) (مستوى الدليل L5). الاستطباب الأصلي: منع الارتفاع المبكر لهرمون LH أثناء تحفيز المبيض المُراقَب (وفق الاست…"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -52,7 +52,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 | الاستطباب الجديد المتوقع | فرط الشعر (hypertrichosis) |
 | درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 

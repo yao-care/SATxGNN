@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 862
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vasopressin: الاستطباب الجديد المتوقع نقص البروثرومبين الخلقي (Congenital prothrombin deficiency) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نص المؤشر في ترخيص هيئة الغذاء والدواء السعودية فارغ)"
 monitor_inn: "VASOPRESSIN"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -50,7 +50,7 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 | المؤشر الجديد المتنبأ به | نقص البروثرومبين الخلقي (Congenital prothrombin deficiency) |
 | درجة تنبؤ TxGNN | 0.9963 |
 | مستوى الأدلة | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتًا) |
 

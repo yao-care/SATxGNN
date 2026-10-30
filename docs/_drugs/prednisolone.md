@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 684
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L2). الاستطباب الأصلي: الأمراض المناعية الذاتية (وغيرها: داء كرون، سرطان الدم الليمفاوي الحا…"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -52,7 +52,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 | الاستطباب الجديد المتوقع | الثعلبة البقعية (Alopecia Areata) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L2 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 من 19) |
 | عدد التراخيص | 19 (السارية: 19) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |
 

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prothrombin: الاستطباب الجديد المتوقع Glanzmann thrombasthenia (متلازمة غلانزمان) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر (نص المؤشر فارغ في تراخيص الهيئة العامة للغذاء والدواء)"
 monitor_inn: "PROTHROMBIN"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets"]
@@ -50,7 +50,7 @@ predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of
 | المؤشر الجديد المتوقع | Glanzmann thrombasthenia (متلازمة غلانزمان) |
 | درجة تنبؤ TxGNN | 0.9914 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية داعمة) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

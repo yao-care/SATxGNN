@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sebelipase Alfa: الاستطباب الجديد المتوقع متلازمة شاي (Scheie syndrome) (مستوى الدليل L5). الاستطباب الأصلي: مرض وولمان، ونقص الليباز الحمضي الليزوزومي، واضطراب تخزين الدهون اللي…"
 monitor_inn: "SEBELIPASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
@@ -51,7 +51,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 | الاستطباب الجديد المتوقع | متلازمة شاي (Scheie syndrome) |
 | درجة توقع TxGNN | 0.9980 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التريث) |
 

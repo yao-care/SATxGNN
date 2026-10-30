@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Baclofen: الاستطباب الجديد المتوقع اضطراب فرط الحركة ونقص الانتباه (ADHD) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص المحلية (المعروف سريرياً: التشنج العضلي)"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -50,7 +50,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 | الاستطباب الجديد المتوقع | اضطراب فرط الحركة ونقص الانتباه (ADHD) |
 | درجة تنبؤ TxGNN | 0.9932 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

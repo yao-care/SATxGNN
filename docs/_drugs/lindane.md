@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lindane: الاستطباب الجديد المتوقع ورم الأرومة العصبية العنقي (Cervical neuroblastoma) (مستوى الدليل L5). الاستطباب الأصلي: الإصابة بقمل العانة، وقمل الرأس، والجرب، والجرب النرويجي، والإصابة با…"
 monitor_inn: "LINDANE"
 predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "epiglottis neoplasm", "odontogenic cyst", "pre-malignant neoplasm", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "cystic neoplasm", "benign neoplasm of buccal mucosa", "inner ear neoplasm"]
@@ -52,7 +52,7 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 | الاستطباب الجديد المتوقع | ورم الأرومة العصبية العنقي (Cervical neuroblastoma) |
 | درجة التوقع في TxGNN | 0.9991 |
 | مستوى الأدلة | L5 (توقع نموذجي فقط، دون دراسات فعلية) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

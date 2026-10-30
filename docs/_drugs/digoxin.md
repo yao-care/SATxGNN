@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Digoxin: الاستطباب الجديد المتوقع الذبحة الصدرية المتغايرة (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: الرجفان الأذيني؛ التسمم بالديجيتالis"
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
@@ -50,7 +50,7 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 | الاستطباب الجديد المتوقع | الذبحة الصدرية المتغايرة (Prinzmetal angina) |
 | درجة تنبؤ TxGNN | 0.9981 |
 | مستوى الأدلة | L5 |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 401
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Grazoprevir: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدره رسم المعرفة، إذ لا يتوفر نص…"
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,7 +50,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 | الاستطباب الجديد المتوقع | عدوى فيروس نقص المناعة البشرية (HIV) |
 | درجة تنبؤ TxGNN | 0.9973 |
 | مستوى الأدلة | L1 بحسب التصنيف الآلي للتجارب (مع تحفظ مهم: الأدلة تخص HCV وليس HIV) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 

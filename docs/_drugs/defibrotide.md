@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Defibrotide: الاستطباب الجديد المتوقع مرض فون ويلبراند الكاذب (pseudo-von Willebrand disease) (مستوى الدليل L5). الاستطباب الأصلي: داء انسداد الأوردة الكبدي (hepatic veno-occlusive disease) ومتلازمة …"
 monitor_inn: "DEFIBROTIDE"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
@@ -55,7 +55,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 | الاستطباب الجديد الأكثر دعمًا بالأدلة | فرفرية نقص الصفيحات الخثارية (TTP) |
 | درجة تنبؤ TxGNN | 0.9991 (المرتبة 1)؛ 0.9971 لـ TTP |
 | مستوى الأدلة | L5 للتنبؤ الأعلى درجة؛ L3 (مؤقت) لـ TTP |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | تأجيل (Hold) للتنبؤ الأعلى؛ سؤال بحثي (Research Question) لـ TTP |
 

@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 399
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Goserelin: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: التهاب بطانة الرحم (Endometriosis)، وانتباذ بطانة الرحم في الرحم (لا…"
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
@@ -50,7 +50,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 | الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L2 (بحسب التقييم المرفق في البيانات؛ ويُلاحَظ أن التجربة السريرية الوحيدة مرحلة 3 وحالتها «غير معروفة» وصلتها غير مباشرة، ما يجعل التقييم الفعلي أقرب إلى L3–L4) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

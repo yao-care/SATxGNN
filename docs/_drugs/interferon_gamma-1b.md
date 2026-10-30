@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Interferon Gamma-1B: الاستطباب الجديد المتوقع أمراض القلب (heart disease) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (لا يوجد نص استطباب في ترخيص الهيئة العامة للغذاء والدواء)"
 monitor_inn: "INTERFERON GAMMA-1B"
 predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 22", "interventricular septum aneurysm"]
@@ -50,7 +50,7 @@ predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofa
 | الاستطباب الجديد المتوقع | أمراض القلب (heart disease) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (التوقف مؤقتاً) |
 

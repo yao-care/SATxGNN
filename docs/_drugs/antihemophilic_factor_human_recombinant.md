@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Antihemophilic Factor Human Recombinant: الاستطباب الجديد المتوقع اضطراب الإفراز الأولي للصفائح الدموية (مستوى الدليل L5). الاستطباب الأصلي: الهيموفيليا؛ الشكل المصحوب بأعراض لدى الناقلات من الإناث (…"
 monitor_inn: "ANTIHEMOPHILIC FACTOR, HUMAN RECOMBINANT"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -51,7 +51,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 | الاستطباب الجديد المتوقع | اضطراب الإفراز الأولي للصفائح الدموية |
 | درجة تنبؤ TxGNN | 0.9996 |
 | مستوى الدليل | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (تعليق) |
 

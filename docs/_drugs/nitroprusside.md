@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 594
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nitroprusside: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المحلية"
 monitor_inn: "nitroprusside"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]
@@ -50,7 +50,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 | المؤشر الجديد المتوقع | الصداع النصفي (migraine disorder) |
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L4 (دراسات ما قبل سريرية ودراسات آلية فقط) |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

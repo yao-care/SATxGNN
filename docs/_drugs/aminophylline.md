@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 53
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aminophylline: الاستطباب الجديد المتوقع الصداع النصفي (migraine disorder) (مستوى الدليل L4). الاستطباب الأصلي: غير متوفر (نصوص دواعي الاستعمال في التراخيص فارغة)"
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -52,7 +52,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 | الاستطباب الجديد المتوقع | الصداع النصفي (migraine disorder) |
 | درجة تنبؤ TxGNN | 0.9988 |
 | مستوى الدليل | L4 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
 | القرار الموصى به | تعليق (Hold) |
 

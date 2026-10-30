@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Erdafitinib: الاستطباب الجديد المتوقع فرط ضغط الدم الرئوي (Pulmonary Hypertension) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمعة"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -51,7 +51,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 | الاستطباب الجديد المتوقع | فرط ضغط الدم الرئوي (Pulmonary Hypertension) |
 | درجة توقع TxGNN | 0.9938 |
 | مستوى الأدلة | L5 |
-| حالة التسويق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

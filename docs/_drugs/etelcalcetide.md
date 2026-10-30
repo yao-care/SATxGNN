@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 323
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etelcalcetide: الاستطباب الجديد المتوقع فرط فوسفات الدم (Hyperphosphatemia) (مستوى الدليل L4). الاستطباب الأصلي: فرط نشاط جارات الدرق (Hyperparathyroidism)"
 monitor_inn: "ETELCALCETIDE"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
@@ -51,7 +51,7 @@ predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with 
 | المؤشر الجديد المتوقع | فرط فوسفات الدم (Hyperphosphatemia) |
 | درجة تنبؤ TxGNN | 0.9942 |
 | مستوى الأدلة | L4 |
-| وضع السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إبقاء الملف قيد البحث) |
 

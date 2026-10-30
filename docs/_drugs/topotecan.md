@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 825
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Topotecan: الاستطباب الجديد المتوقع سرطان الثدي الأنثوي (مستوى الدليل L3). الاستطباب الأصلي: سرطان المبيض (وأنواعه الفرعية، ومنها الورم الكيسي المحي والأورام الجر…"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -50,7 +50,7 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 | الاستطباب الجديد المتوقع | سرطان الثدي الأنثوي |
 | درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الدليل | L3 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 49
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ambroxol: الاستطباب الجديد المتوقع أمراض التجويف الأنفي (مستوى الدليل L4). الاستطباب الأصلي: التهاب البلعوم (من الرسم المعرفي PrimeKG؛ نصوص المؤشرات المعتمدة في ت…"
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -50,7 +50,7 @@ predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "fau
 | المؤشر الجديد المتنبأ به | أمراض التجويف الأنفي |
 | درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الدليل | L4 |
-| وضع السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 

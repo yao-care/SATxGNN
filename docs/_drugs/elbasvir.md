@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Elbasvir: الاستطباب الجديد المتوقع عدوى فيروس التهاب الكبد B (مستوى الدليل L5). الاستطباب الأصلي: عدوى فيروس التهاب الكبد C المزمنة (مصدر هذا الاستطباب هو الرسم المعرف…"
 monitor_inn: "elbasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,7 +52,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 | الاستطباب الجديد المتوقع | عدوى فيروس التهاب الكبد B |
 | درجة تنبؤ TxGNN | 0.9971 |
 | مستوى الأدلة | L4 (بحسب التصنيف المسجل في البيانات؛ لا توجد دراسات سريرية تدعم هذا الاستطباب فعليًا) |
-| حالة السوق في المملكة العربية السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
+| حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
