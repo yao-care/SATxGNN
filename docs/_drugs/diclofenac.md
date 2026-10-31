@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Diclofenac: الاستطباب الجديد المتوقع قلة الشعر البسيطة في فروة الرأس (مستوى الدليل L5). الاستطباب الأصلي: التقران الشعاعي، التهاب المفاصل الروماتويدي، الفصال العظمي، التهاب ال…"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -51,7 +51,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 | درجة توقع TxGNN | 0.9969 |
 | مستوى الأدلة | L5 (توقع النموذج فقط، دون دراسات فعلية) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | إيقاف مؤقت (Hold) |
 
 ---

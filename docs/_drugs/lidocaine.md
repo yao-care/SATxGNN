@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lidocaine: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: علاقات مسجلة في قاعدة المعرفة: التهاب الجلد، الألم العصبي، الألم العص…"
 ---
 
@@ -51,7 +51,7 @@ description: "Lidocaine: الاستطباب الجديد المتوقع الته
 | درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
-| عدد التراخيص | ما لا يقل عن 19 ترخيصاً (قد تكون القائمة جزئية) |
+| عدد التراخيص | 19 على الأقل |
 | القرار الموصى به | إيقاف مؤقت |
 
 ---

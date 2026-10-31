@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Etoricoxib: الاستطباب الجديد المتوقع الصداع النصفي (Migraine disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية (نص الاستطباب فارغ)؛ الاستخدام…"
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -52,7 +52,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 | درجة توقع TxGNN | 0.9990 |
 | مستوى الأدلة | L5 (آلية محتملة دون دراسات سريرية مباشرة) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
-| عدد التراخيص | 19 (جميعها ملغاة) |
+| عدد التراخيص | 19 على الأقل |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---

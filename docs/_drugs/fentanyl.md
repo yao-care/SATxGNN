@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Fentanyl: الاستطباب الجديد المتوقع متلازمة عدم الإفراز المناسب لمضاد الإدرار الكلوية المنشأ (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -51,7 +51,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "T
 | درجة تنبؤ TxGNN | 0.9946 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
-| عدد التراخيص | 19 (جميعها ملغاة) |
+| عدد التراخيص | 19 على الأقل |
 | القرار الموصى به | Hold (التوقف/الانتظار) |
 
 ---

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -54,7 +54,7 @@ description: "Olanzapine: الاستطباب الجديد المتوقع Benign 
 | درجة تنبؤ TxGNN | 0.9954 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 18 على الأقل) |
-| عدد التراخيص | 18 (جميعها ملغاة) |
+| عدد التراخيص | 18 على الأقل |
 | القرار الموصى به | Hold (تُعامل كسؤال بحثي) |
 
 ---

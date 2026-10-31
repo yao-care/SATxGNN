@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 59
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Amoxicillin: الاستطباب الجديد المتوقع متلازمة فرط اللزوجة متعددة النسائل (مستوى الدليل L5). الاستطباب الأصلي: التهابات بكتيرية (التهاب المسالك البولية، التهاب الأذن الوسطى، التهاب…"
 monitor_inn: "AMOXICILLIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -52,7 +52,7 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 | درجة تنبؤ TxGNN | 0.9963 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---

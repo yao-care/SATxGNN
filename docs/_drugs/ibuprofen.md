@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ibuprofen: الاستطباب الجديد المتوقع خلل التنسج الأكروميزوميلي، نوع هانتر-طومسون (مستوى الدليل L5). الاستطباب الأصلي: التهاب المفاصل الروماتويدي (وفق الاستطبابات الأصلية في قاعدة المعرفة،…"
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -51,7 +51,7 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 | درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (تعليق) |
 
 ---

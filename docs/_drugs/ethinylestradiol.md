@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ethinylestradiol: الاستطباب الجديد المتوقع ارتفاع الزنك في البلازما (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب، هشاشة العظام بعد سن اليأس، هشاشة العظام، ضمور الفرج، التها…"
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -52,7 +52,7 @@ predicted_indications: ["zinc, elevated plasma"]
 | درجة تنبؤ TxGNN | 0.9963 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 على الأقل) |
-| عدد التراخيص | 14 (جميعها ملغاة) |
+| عدد التراخيص | 14 على الأقل |
 | القرار الموصى به | Hold (تعليق) |
 
 ---

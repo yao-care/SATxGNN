@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 745
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -54,7 +54,7 @@ description: "Salmeterol: الاستطباب الجديد المتوقع الت�
 | درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 13 على الأقل) |
-| عدد التراخيص | 13 (جميعها ملغاة) |
+| عدد التراخيص | 13 على الأقل |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---

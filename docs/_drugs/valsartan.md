@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: الاستطباب الجديد المتوقع مرض الكلى الناتج عن ارتفاع ضغط الدم الخبيث (malignant hypertensive renal disease) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -53,7 +53,7 @@ description: "Valsartan: الاستطباب الجديد المتوقع مرض �
 | درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L4 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (تعليق) |
 
 ---

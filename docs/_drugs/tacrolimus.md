@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 783
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: الاستطباب الجديد المتوقع التهاب الجلد الدهني (seborrheic dermatitis) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -51,7 +51,7 @@ description: "Tacrolimus: الاستطباب الجديد المتوقع الت�
 | درجة تنبؤ TxGNN | 0.9926 |
 | مستوى الدليل | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 18 على الأقل) |
-| عدد التراخيص | 18 (جميعها ملغاة) |
+| عدد التراخيص | 18 على الأقل |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---

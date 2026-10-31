@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: الاستطباب الجديد المتوقع متلازمة الرجل المتيبس الكلاسيكية (classic stiff person syndrome) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -51,7 +51,7 @@ description: "Metformin: الاستطباب الجديد المتوقع متلا
 | درجة تنبؤ TxGNN | 0.9945 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
-| عدد التراخيص | 17 (جميعها ملغاة) |
+| عدد التراخيص | 17 على الأقل |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---

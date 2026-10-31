@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 735
 evidence_level: L1
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: الاستطباب الجديد المتوقع Cholesterol-ester transfer protein deficiency (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -53,7 +53,7 @@ description: "Rosuvastatin: الاستطباب الجديد المتوقع Chole
 | درجة تنبؤ TxGNN | 0.9954 |
 | مستوى الدليل | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | المضي قدماً مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---

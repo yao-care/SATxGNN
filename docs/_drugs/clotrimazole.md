@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 207
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: قدم الرياضي، السعفة الجسمية، داء المبيضات الجلدي والفموي والمهبلي، ال…"
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
@@ -52,7 +52,7 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 | درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L4 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
-| عدد التراخيص | 17 (جميعها ملغاة) |
+| عدد التراخيص | 17 على الأقل |
 | القرار الموصى به | Hold (تعليق) |
 
 ---

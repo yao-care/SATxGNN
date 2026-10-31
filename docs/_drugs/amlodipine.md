@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Amlodipine: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم (إضافة إلى السكتة الدماغية والاضطرابات الوعائية الدما…"
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -53,7 +53,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 | درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 18 على الأقل) |
-| عدد التراخيص | 18 (جميعها ملغاة) |
+| عدد التراخيص | 18 على الأقل |
 | القرار الموصى به | Hold (التريّث) |
 
 ---

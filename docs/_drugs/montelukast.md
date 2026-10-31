@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -53,7 +53,7 @@ description: "Montelukast: الاستطباب الجديد المتوقع الت
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الدليل | L2 (تجربة واحدة مكتملة من المرحلة الثالثة، مع غلبة الأدلة على التهاب القصيبات) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---

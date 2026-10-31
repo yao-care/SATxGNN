@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 22
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Acyclovir: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة الظهاري النقطي (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: عدوى الهربس البسيط، الهربس النطاقي، الجديري، الهربس الشفوي، التهاب ال…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -52,7 +52,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart
 | درجة تنبؤ TxGNN | 0.9946 |
 | مستوى الأدلة | L1 (مبدئي، انظر الملاحظات أدناه) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
-| عدد التراخيص | 19 (جميعها ملغاة) |
+| عدد التراخيص | 19 على الأقل |
 | القرار الموصى به | Proceed with Guardrails (المضي مع ضوابط) |
 
 > **ملاحظة:** تصنيف L1 مبدئي. التجربة الوحيدة من المرحلة 2/3 صغيرة (92 مشاركاً) وأُجريت في منطقة واحدة، ولا توجد تجربة تأكيدية كبيرة ومعماة. لذلك يُفضَّل التعامل معه كمستوى أدلة أدنى من L1 الصارم.

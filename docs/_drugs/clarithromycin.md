@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clarithromycin: الاستطباب الجديد المتوقع فرط أميلاز الدم (Hyperamylasemia) (مستوى الدليل L4). الاستطباب الأصلي: العدوى البكتيرية (التهاب الأذن الوسطى، العدوى العقدية، التهاب الرئة ا…"
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -53,7 +53,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 | درجة تنبؤ TxGNN | 0.9935 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (تعليق) |
 
 ---

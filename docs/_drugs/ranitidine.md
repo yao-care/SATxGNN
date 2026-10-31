@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 710
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "RANITIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: الاستطباب الجديد المتوقع Peptic ulcer perforation (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Ranitidine: الاستطباب الجديد المتوقع Peptic 
 | درجة توقع TxGNN | 0.9988 |
 | مستوى الأدلة | L4 (توقع النموذج مع أدلة غير مباشرة فقط) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---

@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 380
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Fusidic Acid: الاستطباب الجديد المتوقع التهاب القرنية الانكشافي (Exposure Keratitis) (مستوى الدليل L4). الاستطباب الأصلي: التهابات المسالك البولية، التهاب الشعب الهوائية، حب الشباب، التهاب جر…"
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
@@ -51,7 +51,7 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الدليل | L4 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
-| عدد التراخيص | 20 (جميعها ملغاة) |
+| عدد التراخيص | 20 على الأقل |
 | القرار الموصى به | Hold (التوقف مؤقتًا) |
 
 ---

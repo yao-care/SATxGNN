@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: الاستطباب الجديد المتوقع Ambras type hypertrichosis universalis congenita (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -52,7 +52,7 @@ description: "Tadalafil: الاستطباب الجديد المتوقع Ambras t
 | درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 18 على الأقل) |
-| عدد التراخيص | 18 (جميعها ملغاة) |
+| عدد التراخيص | 18 على الأقل |
 | القرار الموصى به | Hold (إيقاف مؤقت) |
 
 ---

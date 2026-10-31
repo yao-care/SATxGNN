@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Aripiprazole: الاستطباب الجديد المتوقع الاضطراب العاطفي الرئيسي (major affective disorder) (مستوى الدليل L1). الاستطباب الأصلي: الاضطراب ثنائي القطب (نوبات الهوس)، الفصام، اضطراب طيف التوحد"
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
@@ -53,7 +53,7 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 | درجة تنبؤ TxGNN | 0.9962 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
-| عدد التراخيص | 19 (جميعها ملغاة) |
+| عدد التراخيص | 19 على الأقل |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
 
 ---

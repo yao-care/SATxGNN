@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 759
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "سيمفاستاتين: الاستطباب الجديد المتوقع احتشاء جذع الدماغ (مستوى الدليل L1). الاستطباب الأصلي: فرط شحوم الدم (فرط الغليسيريدات الثلاثية، فرط الدهون المختلط العائلي،…"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -53,7 +53,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 | درجة تنبؤ TxGNN | 0.9941 |
 | مستوى الدليل | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
-| عدد التراخيص | 17 (جميعها ملغاة) |
+| عدد التراخيص | 17 على الأقل |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
 
 ---
