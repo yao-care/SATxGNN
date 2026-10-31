@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 154
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Cefazolin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى الخمجي (مستوى الدليل L4). الاستطباب الأصلي: الالتهاب الرئوي الجرثومي، التهاب الأقنية الصفراوية، التهاب الشغاف، ال…"
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -114,7 +114,6 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 
 **المبررات:**
 - لا توجد تجارب سريرية، والأدلة البشرية المباشرة شبه معدومة (دراسة مقارنة قديمة لعام 1982 وتقرير حالة يكون فيه الدواء ضمن نظام مركّب).
-- التغطية الجرثومية غير كافية لأهم مسببات التهاب الأذن الوسطى، والدواء حقني فقط وجميع تراخيصه ملغاة في السعودية، ما يقلل الجدوى العملية مقارنة بالعلاجات الفموية القياسية.
 
 **للمضي قدماً يلزم:**
 - الحصول على نشرة العبوة من الهيئة العامة للغذاء والدواء (SFDA) لاستخراج التحذيرات وموانع الاستعمال (فجوة بيانات حاجبة).

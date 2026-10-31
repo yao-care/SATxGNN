@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: الاستطباب الجديد المتوقع تليف اللثة (fibromatosis, gingival) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -84,7 +84,6 @@ description: "Pembrolizumab: الاستطباب الجديد المتوقع تل
 |---------|------|------|-----------|
 | KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion | KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion (الشركة: MSD International GmbH) | غير متوفر | غير متوفر (الحالة: ساري) |
 
-يوجد ترخيص واحد فقط وهو ملغى، ولا يوجد حالياً أي ترخيص ساري.
 
 ---
 
