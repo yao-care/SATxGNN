@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis (disease)) (hypertrichosis (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Triptorelin: الاستطباب الجديد المتوقع فرط الشعر (hypertrichosis (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Triptorelin
@@ -33,7 +33,7 @@ description: "Triptorelin: الاستطباب الجديد المتوقع فرط
 
 </div>
 
-## Triptorelin: فرط الشعر (hypertrichosis (disease)) (hypertrichosis (disease))
+## Triptorelin: فرط الشعر (hypertrichosis (disease))
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -45,7 +45,7 @@ description: "Triptorelin: الاستطباب الجديد المتوقع فرط
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتوقع | فرط الشعر (hypertrichosis (disease)) (hypertrichosis (disease)) |
+| الاستطباب الجديد المتوقع | فرط الشعر (hypertrichosis (disease)) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |

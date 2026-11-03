@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
-description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (amenorrhea (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Danazol
@@ -33,7 +33,7 @@ description: "Danazol: الاستطباب الجديد المتوقع انقطا
 
 </div>
 
-## Danazol: انقطاع الطمث (amenorrhea (disease)) (amenorrhea (disease))
+## Danazol: انقطاع الطمث (amenorrhea (disease))
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,7 +47,7 @@ description: "Danazol: الاستطباب الجديد المتوقع انقطا
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتوقع | انقطاع الطمث (amenorrhea (disease)) (amenorrhea (disease)) |
+| الاستطباب الجديد المتوقع | انقطاع الطمث (amenorrhea (disease)) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |

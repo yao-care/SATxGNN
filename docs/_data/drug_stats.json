@@ -5,8 +5,8 @@
     "L1": 27,
     "L2": 38,
     "L3": 41,
-    "L4": 105,
-    "L5": 642
+    "L4": 104,
+    "L5": 643
   },
   "all_drugs": [
     {
@@ -205,7 +205,7 @@
       "name": "Alprostadil",
       "slug": "alprostadil",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Alteplase",
@@ -385,7 +385,7 @@
       "name": "Ascorbic Acid",
       "slug": "ascorbic_acid",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Asfotase Alfa",
@@ -625,7 +625,7 @@
       "name": "Bleomycin",
       "slug": "bleomycin",
       "level": "L5",
-      "indication_count": 6
+      "indication_count": 5
     },
     {
       "name": "Bosentan",
@@ -919,7 +919,7 @@
       "name": "Ceftriaxone",
       "slug": "ceftriaxone",
       "level": "L5",
-      "indication_count": 7
+      "indication_count": 5
     },
     {
       "name": "Cefuroxime",
@@ -1117,7 +1117,7 @@
       "name": "Clidinium",
       "slug": "clidinium",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Clindamycin",
@@ -1855,7 +1855,7 @@
       "name": "Erythromycin",
       "slug": "erythromycin",
       "level": "L5",
-      "indication_count": 5
+      "indication_count": 4
     },
     {
       "name": "Esketamine",
@@ -2173,7 +2173,7 @@
       "name": "Fluvoxamine",
       "slug": "fluvoxamine",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Folic Acid",
@@ -3192,8 +3192,8 @@
     {
       "name": "Meropenem",
       "slug": "meropenem",
-      "level": "L4",
-      "indication_count": 9
+      "level": "L5",
+      "indication_count": 7
     },
     {
       "name": "Mesalazine",
@@ -4057,7 +4057,7 @@
       "name": "Prednisone",
       "slug": "prednisone",
       "level": "L3",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Pregabalin",
@@ -4423,7 +4423,7 @@
       "name": "Sebelipase Alfa",
       "slug": "sebelipase_alfa",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Secnidazole",

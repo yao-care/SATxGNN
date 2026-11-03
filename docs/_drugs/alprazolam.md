@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-description: "Alprazolam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (insomnia (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Alprazolam: الاستطباب الجديد المتوقع الأرق (insomnia (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Alprazolam
@@ -33,7 +33,7 @@ description: "Alprazolam: الاستطباب الجديد المتوقع الأ�
 
 </div>
 
-## Alprazolam: الأرق (insomnia (disease)) (insomnia (disease))
+## Alprazolam: الأرق (insomnia (disease))
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -45,7 +45,7 @@ description: "Alprazolam: الاستطباب الجديد المتوقع الأ�
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتوقع | الأرق (insomnia (disease)) (insomnia (disease)) |
+| الاستطباب الجديد المتوقع | الأرق (insomnia (disease)) |
 | درجة تنبؤ TxGNN | 0.9981 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (acne (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Clotrimazole
@@ -33,7 +33,7 @@ description: "Clotrimazole: الاستطباب الجديد المتوقع حب 
 
 </div>
 
-## Clotrimazole: حب الشباب (acne (disease)) (acne (disease))
+## Clotrimazole: حب الشباب (acne (disease))
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -45,7 +45,7 @@ description: "Clotrimazole: الاستطباب الجديد المتوقع حب 
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتوقع | حب الشباب (acne (disease)) (acne (disease)) |
+| الاستطباب الجديد المتوقع | حب الشباب (acne (disease)) |
 | درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الدليل | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |
