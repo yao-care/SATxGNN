@@ -86,18 +86,9 @@ SATxGNN هو موقع المملكة العربية السعودية ضمن خط
 
 ## مصادر البيانات
 
-<table class="comparison-table">
-<thead>
-<tr><th>النوع</th><th>المصدر</th><th>الوصف</th></tr>
-</thead>
-<tbody>
-<tr><td>التنبؤ بالذكاء الاصطناعي</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>شبكة عصبية بيانية من هارفارد مدرَّبة على رسم بياني معرفي</td></tr>
-<tr><td>التجارب السريرية</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>السجل العالمي للتجارب السريرية</td></tr>
-<tr><td>الأدبيات العلمية</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>قاعدة بيانات الأدبيات الطبية الحيوية</td></tr>
-<tr><td>معلومات الأدوية</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>قاعدة بيانات الأدوية والأهداف الدوائية</td></tr>
-<tr><td>بيانات التسجيل</td><td><a href="https://www.sfda.gov.sa/">SFDA</a></td><td>بيانات اعتماد الأدوية في المملكة العربية السعودية</td></tr>
-</tbody>
-</table>
+تجمع التنبؤات بين TxGNN وClinicalTrials.gov وPubMed وDrugBank وقائمة الأدوية البشرية المسجلة من البيانات المفتوحة
+للهيئة العامة للغذاء والدواء (SFDA). تجد مجموعات البيانات وروابط التنزيل والتراخيص ووتيرة التحديث في صفحة
+<a href="{{ '/sources/' | relative_url }}">مصادر البيانات</a>.
 
 ---
 
