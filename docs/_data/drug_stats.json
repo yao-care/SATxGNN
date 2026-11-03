@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 882,
   "level_counts": {
-    "L1": 33,
+    "L1": 29,
     "L2": 38,
-    "L3": 42,
-    "L4": 105,
-    "L5": 635
+    "L3": 40,
+    "L4": 102,
+    "L5": 644
   },
   "all_drugs": [
     {
@@ -198,7 +198,7 @@
     {
       "name": "Alprazolam",
       "slug": "alprazolam",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 2
     },
     {
@@ -570,7 +570,7 @@
     {
       "name": "Betamethasone",
       "slug": "betamethasone",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 7
     },
     {
@@ -1188,13 +1188,13 @@
     {
       "name": "Clotrimazole",
       "slug": "clotrimazole",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 2
     },
     {
       "name": "Clozapine",
       "slug": "clozapine",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -1254,7 +1254,7 @@
     {
       "name": "Cyclophosphamide",
       "slug": "cyclophosphamide",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 2
     },
     {
@@ -1848,7 +1848,7 @@
     {
       "name": "Ertapenem",
       "slug": "ertapenem",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -2814,7 +2814,7 @@
     {
       "name": "Lanadelumab",
       "slug": "lanadelumab",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -3066,7 +3066,7 @@
     {
       "name": "Luliconazole",
       "slug": "luliconazole",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 2
     },
     {
@@ -3630,7 +3630,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L3",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -4086,7 +4086,7 @@
     {
       "name": "Progesterone",
       "slug": "progesterone",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -4416,7 +4416,7 @@
     {
       "name": "Salmeterol",
       "slug": "salmeterol",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 3
     },
     {
@@ -5010,7 +5010,7 @@
     {
       "name": "Triptorelin",
       "slug": "triptorelin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 9
     },
     {
