@@ -4,17 +4,17 @@ title: Fluocinolone Acetonide
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 361
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-30
-description: "Fluocinolone Acetonide: الاستطباب الجديد المتوقع الحزاز المسطح الضخامي (مستوى الدليل L5). الاستطباب الأصلي: التهاب الجلد التأتبي، التهاب الجلد التماسي، التهاب الجلد الدهني، الحز…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "FLUOCINOLONE ACETONIDE"
-predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pigmentosus", "lichen planus pemphigoides"]
+predicted_indications: ["lichen planus pemphigoides"]
+description: "Fluocinolone Acetonide: الاستطباب الجديد المتوقع Lichen planus pemphigoides (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Fluocinolone Acetonide
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 
 </div>
 
-## فلوسينولون أسيتونيد: من الأمراض الجلدية الالتهابية إلى الحزاز المسطح الضخامي
+## Fluocinolone Acetonide: Lichen planus pemphigoides
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,9 +48,9 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب الجلد التأتبي، التهاب الجلد التماسي، التهاب الجلد الدهني، الحزاز، الذئبة الحمامية القرصية، وغيرها (من الرسم المعرفي لـ TxGNN؛ نصوص الاستطباب المرخصة في السعودية غير متوفرة) |
-| الاستطباب الجديد المتوقع | الحزاز المسطح الضخامي |
-| درجة توقع TxGNN | 0.9942 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Lichen planus pemphigoides |
+| درجة توقع TxGNN | 0.9934 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |
 | عدد التراخيص | 5 (السارية: 5) |
@@ -111,7 +111,7 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 **القرار: Hold (إيقاف مؤقت)**
 
 **المبررات:**
-- التوقع حسابي فقط (L5) بدرجة عالية (0.9942)، بلا أي تجارب سريرية أو أدبيات مرفقة، وجميع التراخيص السعودية سارية المفعول (5 من 5). وتنطبق القيود نفسها على المتغيرات الأخرى المتوقعة، مع تحفظات إضافية على المتغيرات الضمورية والفقاعية.
+- وتنطبق القيود نفسها على المتغيرات الأخرى المتوقعة، مع تحفظات إضافية على المتغيرات الضمورية والفقاعية.
 
 **للمضي قدماً يلزم:**
 - مراجعة منهجية للأدبيات حول الستيرويدات الموضعية القوية في الحزاز المسطح الضخامي.

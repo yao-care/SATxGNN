@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: أدلة متوسطة (L3-L4)
 nav_order: 535
 evidence_level: L3
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Mefenamic Acid: الاستطباب الجديد المتوقع التهاب المفاصل الروماتويدي (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في بيانات التراخيص السعودية (الدواء مضاد التهاب غير ستيرويدي…"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: الاستطباب الجديد المتوقع Headache disorder (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal
 
 </div>
 
-## حمض الميفيناميك: من مضاد التهاب لا ستيرويدي (مسكّن) إلى التهاب المفاصل الروماتويدي
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,9 +46,9 @@ predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير مسجل في بيانات التراخيص السعودية (الدواء مضاد التهاب غير ستيرويدي يُستخدم عادةً لتسكين الألم) |
-| الاستطباب الجديد المتوقع | التهاب المفاصل الروماتويدي |
-| درجة تنبؤ TxGNN | 0.9973 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Headache disorder |
+| درجة تنبؤ TxGNN | 0.9964 |
 | مستوى الأدلة | L3 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 14 من 14) |
 | عدد التراخيص | 14 (السارية: 14) |

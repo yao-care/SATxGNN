@@ -4,17 +4,17 @@ title: Salbutamol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 743
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
+indication_count: 8
+last_modified_at: 2026-11-03
 description: "Salbutamol: الاستطباب الجديد المتوقع التهاب الملتحمة الحليمي (Papillary conjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: الربو، وأمراض القصبات الهوائية (نصوص الاستطباب غير متوفرة في سجلات ال…"
 monitor_inn: "SALBUTAMOL"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---

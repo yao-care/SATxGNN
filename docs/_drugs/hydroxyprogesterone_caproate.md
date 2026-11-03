@@ -4,17 +4,17 @@ title: Hydroxyprogesterone Caproate
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 420
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "HYDROXYPROGESTERONE CAPROATE"
-predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia (disease)", "uterine corpus cancer", "cervix endometriosis", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
+predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia (disease)", "cervix endometriosis", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
 description: "Hydroxyprogesterone Caproate: الاستطباب الجديد المتوقع Endometriosis of uterus (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Hydroxyprogesterone Caproate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---

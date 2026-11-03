@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 218
 evidence_level: L1
-indication_count: 4
+indication_count: 2
 last_modified_at: 2026-11-03
-description: "Cyclophosphamide: الاستطباب الجديد المتوقع الابيضاض النقوي (Myeloid Leukemia) (مستوى الدليل L1). الاستطباب الأصلي: الفطار الفطراني (Mycosis Fungoides)، الأورام اللمفية، سرطان الثدي، ال…"
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide: الاستطباب الجديد المتوقع Vertebral anomalies and variable endocrine and T-cell dysfunction (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 </div>
 
-## سيكلوفوسفاميد: من سرطان الثدي والأورام اللمفية إلى الابيضاض النقوي (Myeloid Leukemia)
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,15 +48,15 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | الفطار الفطراني (Mycosis Fungoides)، الأورام اللمفية، سرطان الثدي، الورم النقوي المتعدد، الورم الأرومي العصبي، الورم الأرومي الشبكي (بحسب الرسم المعرفي لـ TxGNN، إذ لا تتوفر نصوص مؤشرات في تراخيص هيئة الغذاء والدواء السعودية) |
-| المؤشر الجديد المتنبأ به | سرطان الغدد اللمفية (Lymph Node Cancer) |
-| درجة تنبؤ TxGNN | 0.9931 |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتنبأ به | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| درجة تنبؤ TxGNN | 0.9938 |
 | مستوى الأدلة | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 7 من 7) |
 | عدد التراخيص | 7 (السارية: 7) |
 | القرار الموصى به | المضي قدماً مع ضوابط (Proceed with Guardrails) |
 
-**ملاحظة:** رتّب النموذج مؤشراً آخر في المرتبة الأولى من حيث الدرجة (اللوكيميا النقوية، 0.9947) بمستوى أدلة L2، لكن هذا التقرير يركّز على المؤشر الأقوى دعماً بالأدلة. ويُعرض الملخص المقارن في قسم الخاتمة.
+ويُعرض الملخص المقارن في قسم الخاتمة.
 
 ---
 
@@ -163,7 +163,6 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 | المؤشر | الدرجة | مستوى الأدلة | القرار |
 |------|------|------|------|
-| اللوكيميا النقوية (Myeloid Leukemia) | 0.9947 | L2 | المضي قدماً مع ضوابط؛ الدليل يخص استخدامه في بروتوكولات التهيئة للزرع وللوقاية من داء الطعم ضد المضيف (PTCy) وليس كعلاج مستقل |
 | الأورام خلف الصفاق (Retroperitoneal Neoplasm) | 0.9937 | L4 | سؤال بحثي؛ فئة تشريحية غير متجانسة وأدلة ضعيفة |
 | تشوهات الفقرات مع خلل الغدد الصماء والخلايا التائية | 0.9938 | L5 | تعليق (Hold)؛ لا أدلة، ومن المتوقع أن يزيد الدواء المثبّط للمناعة الخلل التائي سوءاً، والدرجة المرتفعة غالباً أثر للرسم المعرفي |
 

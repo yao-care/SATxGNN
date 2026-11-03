@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 753
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "Sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
-last_modified_at: 2026-10-28
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+last_modified_at: 2026-11-03
 description: "Sertaconazole: الاستطباب الجديد المتوقع Ectothrix infectious disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -95,7 +95,7 @@ description: "Sertaconazole: الاستطباب الجديد المتوقع Ecto
 - إجراء دراسات مخبرية أو تركيبية تقيّم نفاذية الدواء إلى بصيلة الشعر، أو استكشاف علاج مركّب.
 - مراجعة منهجية للأدبيات حول سيرتاكونازول في التهابات فروة الرأس الفطرية.
 
-**ملاحظة:** أظهرت البيانات المجمّعة أيضاً تنبؤاً آخر هو **النخالية المبرقشة (pityriasis versicolor)** بدرجة 0.9945. يدعمه منشوران علميان على الأقل: دراسة سريرية منشورة عام 1992 (PMID 1627203) ومراجعات علمية. هذا التنبؤ أقرب إلى الإمكانية العملية، ويستحق تقييماً مستقلاً بوصفه سؤالاً بحثياً.
+يدعمه منشوران علميان على الأقل: دراسة سريرية منشورة عام 1992 (PMID 1627203) ومراجعات علمية. هذا التنبؤ أقرب إلى الإمكانية العملية، ويستحق تقييماً مستقلاً بوصفه سؤالاً بحثياً.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

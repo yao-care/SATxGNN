@@ -4,17 +4,17 @@ title: Ferrous Sulfate Anhydrous
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 351
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-28
-description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد المتوقع فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (vitamin B12- and folate-independent constitutional megaloblastic anemia) (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد"
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Ferrous sulfate anhydrous"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+description: "Ferrous Sulfate Anhydrous: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ferrous Sulfate Anhydrous
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-## كبريتات الحديدوز اللامائية: من فقر الدم الناجم عن نقص الحديد إلى فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات (vitamin B12- and folate-independent constitutional megaloblastic anemia)
+## Ferrous Sulfate Anhydrous: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,8 +48,8 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر الدم بنقص الفولات، وفقر دم الخدج، وفقر الدم ناقص الصبغ، وفقر الدم صغير الكريات) |
-| الاستطباب الجديد المتنبأ به | فقر الدم الضخم الأرومات التكويني المستقل عن فيتامين B12 والفولات |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | درجة تنبؤ TxGNN | 0.9978 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
@@ -70,7 +70,6 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 | المرتبة | المرض المتنبأ به | الدرجة | مستوى الأدلة | التقييم |
 |------|------|------|------|------|
-| 2 | متلازمة بلومر-فنسون | 0.9977 | L5 | سؤال بحثي: الحديد هو العلاج المعتمد سريرياً عبر تصحيح نقص الحديد، وهو امتداد لاستطباب فقر الدم الناجم عن نقص الحديد لا استخداماً جديداً حقيقياً؛ والأدلة الرسمية المحكومة غائبة |
 | 3 | الاضطراب الأيضي للبيوتين | 0.9951 | L5 | Hold: لا دور معروف للحديد في دورة البيوتين |
 | 4 | التشوه الخلقي غير المتلازمي للمريء | 0.9949 | L5 | Hold: عيب بنيوي يُعالج جراحياً ولا يُتوقع أن يصححه الحديد |
 

@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 71
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
-description: "Aripiprazole: الاستطباب الجديد المتوقع الاضطراب العاطفي الرئيسي (major affective disorder) (مستوى الدليل L1). الاستطباب الأصلي: الاضطراب ثنائي القطب (نوبات الهوس)، الفصام، اضطراب طيف التوحد"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+description: "Aripiprazole: الاستطباب الجديد المتوقع Gaze palsy, familial horizontal, with progressive scoliosis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 </div>
 
-## أريبيبرازول: من الاضطراب ثنائي القطب والفصام إلى الاضطراب العاطفي الرئيسي
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,9 +48,9 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الاضطراب ثنائي القطب (نوبات الهوس)، الفصام، اضطراب طيف التوحد |
-| الاستطباب الجديد المتوقع | الاضطراب العاطفي الرئيسي (major affective disorder) |
-| درجة تنبؤ TxGNN | 0.9962 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Gaze palsy, familial horizontal, with progressive scoliosis |
+| درجة تنبؤ TxGNN | 0.9960 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |
 | عدد التراخيص | 19 على الأقل |

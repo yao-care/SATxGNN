@@ -4,17 +4,17 @@ title: Betamethasone
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 104
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 monitor_inn: "Betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-28
-description: "Betamethasone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+last_modified_at: 2026-11-03
+description: "Betamethasone: الاستطباب الجديد المتوقع Alopecia mucinosa (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Betamethasone: الاستطباب الجديد المتوقع ال
 
 </div>
 
-## بيتاميثازون: مُقتصد قشراني سكري (جلوكوكورتيكويد) → الثعلبة البقعية (alopecia areata)
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,7 +47,7 @@ description: "Betamethasone: الاستطباب الجديد المتوقع ال
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتوقع | الثعلبة البقعية (alopecia areata) |
+| الاستطباب الجديد المتوقع | Alopecia mucinosa |
 | درجة تنبؤ TxGNN | 0.9997 |
 | مستوى الأدلة | L2 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
@@ -71,7 +71,6 @@ description: "Betamethasone: الاستطباب الجديد المتوقع ال
 | رقم التجربة | المرحلة | الحالة | عدد المشاركين | أبرز النتائج |
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | المرحلة 2 | مكتملة | 60 | مقارنة النبضة الفموية الصغيرة من بيتاميثازون مع الأزاثيوبرين الأسبوعي في الثعلبة البقعية المتوسطة إلى الشديدة |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | غير منطبقة | غير معروفة | 59 | السيتيريزين الموضعي 1% مقابل بيتاميثازون فاليرات 0.1% في الثعلبة البقعية الموضعية |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | المرحلة 4 | مكتملة | 50 | اللاتانوبروست الموضعي مقابل كورتيكوستيرويد موضعي في الثعلبة البقعية الموضعية |
 | [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | المرحلة 1 | غير معروفة | 60 | البنتوكسيفيلين والميتفورمين الموضعيان مقابل بيتاميثازون فاليرات 0.1% |
 | [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | غير منطبقة | لم يبدأ التجنيد بعد | 60 | توليفة موضعية من الميتفورمين والسيمفاستاتين وبيتاميثازون فاليرات |

@@ -4,17 +4,17 @@ title: Salmeterol
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 745
 evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-31
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: الاستطباب الجديد المتوقع Respiratory malformation (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Salmeterol: الاستطباب الجديد المتوقع الت�
 
 </div>
 
-## Salmeterol: التهاب الشعب الهوائية (bronchitis)
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -50,8 +50,8 @@ description: "Salmeterol: الاستطباب الجديد المتوقع الت�
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتنبأ به | التهاب الشعب الهوائية (bronchitis) |
-| درجة تنبؤ TxGNN | 0.9992 |
+| الاستطباب الجديد المتنبأ به | Respiratory malformation |
+| درجة تنبؤ TxGNN | 0.9991 |
 | مستوى الأدلة | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 13 على الأقل) |
 | عدد التراخيص | 13 على الأقل |

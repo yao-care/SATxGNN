@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 534
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L4). الاستطباب الأصلي: بطانة الرحم المهاجرة، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس (م…"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Medroxyprogesterone Acetate: الاستطباب الجديد المتوقع Breast fibrocystic disease (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-## ميدروكسي بروجستيرون أسيتات: انقطاع الطمث
+## Medroxyprogesterone Acetate: Breast fibrocystic disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,9 +46,9 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | بطانة الرحم المهاجرة، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس (مأخوذ من الرسم المعرفي لـ TxGNN؛ نصوص الاستطبابات المرخصة في السعودية غير متوفرة) |
-| الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
-| درجة تنبؤ TxGNN | 1.0000 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Breast fibrocystic disease |
+| درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 4 من 4) |
 | عدد التراخيص | 4 (السارية: 4) |

@@ -4,17 +4,17 @@ title: Anakinra
 parent: أدلة متوسطة (L3-L4)
 nav_order: 62
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Anakinra: الاستطباب الجديد المتوقع ورم الخلايا البدينة خارج الجلد (مستوى الدليل L3). الاستطباب الأصلي: التهاب المفاصل الروماتويدي، متلازمات الحمّى الدورية المرتبطة بالكريوب…"
 monitor_inn: "ANAKINRA"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
 
 # Anakinra
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---

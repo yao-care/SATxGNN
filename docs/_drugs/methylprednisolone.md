@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 552
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Methylprednisolone: الاستطباب الجديد المتوقع الثعلبة البقعية (Alopecia Areata) (مستوى الدليل L3). الاستطباب الأصلي: أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، وابيضاض ا…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "METHYLPREDNISOLONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone: الاستطباب الجديد المتوقع Alopecia mucinosa (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-## ميثيل بريدنيزولون: من أمراض المناعة الذاتية إلى الثعلبة البقعية
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | أمراض المناعة الذاتية (ومنها داء كرون، وقصور الغدة الكظرية، وابيضاض الدم الليمفاوي الحاد) |
-| الاستطباب الجديد المتوقع | الثعلبة البقعية (Alopecia Areata) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Alopecia mucinosa |
 | درجة تنبؤ TxGNN | 0.9999 |
-| مستوى الأدلة | L3 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 12 من 12) |
 | عدد التراخيص | 12 (السارية: 12) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |

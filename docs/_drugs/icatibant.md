@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 425
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Icatibant: الاستطباب الجديد المتوقع نقص مثبط C1 (مستوى الدليل L1). الاستطباب الأصلي: الوذمة الوعائية الوراثية (بما فيها الوذمة المصحوبة بنقص مثبط C1)"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: الاستطباب الجديد المتوقع Serpinopathy with toxic serpin polymerization (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 </div>
 
-## إيكاتيبانت: من الوذمة الوعائية الوراثية إلى نقص مثبط C1
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,10 +46,10 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الوذمة الوعائية الوراثية (بما فيها الوذمة المصحوبة بنقص مثبط C1) |
-| الاستطباب الجديد المتوقع | نقص مثبط C1 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Serpinopathy with toxic serpin polymerization |
 | درجة تنبؤ TxGNN | 0.9999 |
-| مستوى الأدلة | L1 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |

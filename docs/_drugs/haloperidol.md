@@ -4,17 +4,17 @@ title: Haloperidol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "HALOPERIDOL"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: الاستطباب الجديد المتوقع Congenital disorder of glycosylation with defective fucosylation (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -123,7 +123,7 @@ description: "Haloperidol: الاستطباب الجديد المتوقع Congen
 - استكمال بيانات آلية العمل من DrugBank.
 - التحقق من وضع التسجيل والتوفر التجاري للدواء في المملكة.
 
-**ملاحظة:** من بين التنبؤات الأخرى للدواء، يبرز **الهوس ثنائي القطب (manic bipolar affective disorder)** بمستوى أدلة L1، إذ توجد تجربة من المرحلة 3 استُخدم فيها هالوبيريدول كمقارن مباشر (NCT00129220) إضافة إلى تحليلات شبكية منهجية. وهو استطباب قريب من الاستطبابات النفسية الأصلية للدواء، ويستحق التقييم المنفصل بقرار Proceed with Guardrails (المضي مع ضوابط)، مع مراقبة الأعراض خارج الهرمية، والخلل الحركي المتأخر، وإطالة QT.
+وهو استطباب قريب من الاستطبابات النفسية الأصلية للدواء، ويستحق التقييم المنفصل بقرار Proceed with Guardrails (المضي مع ضوابط)، مع مراقبة الأعراض خارج الهرمية، والخلل الحركي المتأخر، وإطالة QT.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

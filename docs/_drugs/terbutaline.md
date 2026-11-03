@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 802
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Terbutaline: الاستطباب الجديد المتوقع أمراض الرئة الانسدادية (مستوى الدليل L1). الاستطباب الأصلي: الربو (بيانات الاستطبابات من الرسم المعرفي PrimeKG، إذ لا يتوفر نص اس…"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "TERBUTALINE"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: الاستطباب الجديد المتوقع Respiratory malformation (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-## تيربوتالين: من الربو إلى أمراض الرئة الانسدادية
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,10 +46,10 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الربو (بيانات الاستطبابات من الرسم المعرفي PrimeKG، إذ لا يتوفر نص استطباب في تراخيص الهيئة) |
-| الاستطباب الجديد المتوقع | أمراض الرئة الانسدادية |
-| درجة تنبؤ TxGNN | 0.9996 |
-| مستوى الأدلة | L1 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Respiratory malformation |
+| درجة تنبؤ TxGNN | 0.9952 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |
 | عدد التراخيص | 9 (السارية: 9) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |

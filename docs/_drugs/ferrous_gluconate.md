@@ -4,17 +4,17 @@ title: Ferrous Gluconate
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 350
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Ferrous Gluconate: الاستطباب الجديد المتوقع متلازمة بلامر-فينسون (مستوى الدليل L5). الاستطباب الأصلي: فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر الدم لدى الخدّج، وفقر ال…"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "FERROUS GLUCONATE"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+description: "Ferrous Gluconate: الاستطباب الجديد المتوقع Vitamin B12- and folate-independent constitutional megaloblastic anemia (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Ferrous Gluconate
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 </div>
 
-## غلوكونات الحديدوز: من فقر الدم الناجم عن نقص الحديد إلى متلازمة بلامر-فينسون
+## Ferrous Gluconate: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 غلوكونات الحديدوز (Ferrous Gluconate) مكمّل حديد يُستخدم أصلاً لعلاج فقر الدم الناجم عن نقص الحديد وأنواع فقر الدم ذات الصلة.
-يتنبأ نموذج TxGNN بأنه قد يكون مفيداً في **متلازمة بلامر-فينسون (Plummer-Vinson syndrome)**، لكن **لا توجد تجارب سريرية ولا منشورات علمية** تدعم هذا التوجه حالياً، فالتنبؤ قائم على النموذج وحده.
 
 ---
 
@@ -47,8 +46,8 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | فقر الدم الناجم عن نقص الحديد (إضافة إلى فقر الدم لدى الخدّج، وفقر الدم ناقص الصباغ، وفقر الدم صغير الكريات، وفقر الدم الناجم عن النقص) |
-| الاستطباب الجديد المتنبأ به | متلازمة بلامر-فينسون |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | درجة تنبؤ TxGNN | 0.9994 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
@@ -70,7 +69,7 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 | المرتبة | المرض المتنبأ به | الدرجة | التقييم المختصر |
 |------|------|------|------|
 | 2 | فقر الدم المتعدد الأرومات الخلقي المستقل عن فيتامين B12 والفولات | 0.9994 | الرابط الآلي ضعيف؛ هذا النوع من فقر الدم لا يستجيب عادة للحديد |
-| 3 | تشوه المريء غير المتلازمي | 0.9967 | لا رابط آلي واضح؛ الحديد لا يصحّح شذوذاً بنيوياً، وربما نتج التنبؤ عن ارتباطه بمتلازمة بلامر-فينسون |
+| 3 | تشوه المريء غير المتلازمي | 0.9967 | — |
 | 4 | اضطراب أيض البيوتين | 0.9942 | لا آلية مباشرة واضحة؛ يُعالَج عادة بالبيوتين |
 | 5 | اضطراب نقص الفيتامينات | 0.9917 | الحديد معدن لا فيتامين؛ دعم غير مباشر فقط عبر تجربة واحدة |
 

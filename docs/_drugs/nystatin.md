@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nystatin
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 602
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Nystatin: الاستطباب الجديد المتوقع التهاب الفرج والمهبل (Vulvovaginitis) (مستوى الدليل L4). الاستطباب الأصلي: داء المبيضات (الجلدي، الفموي، المهبلي الفرجي)"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "NYSTATIN"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: الاستطباب الجديد المتوقع Disease of orbital region (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease 
 
 </div>
 
-## نيستاتين: من داء المبيضات إلى التهاب الفرج والمهبل
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
 النيستاتين مضاد فطري من فئة البوليينات، يُستخدم أصلاً لعلاج داء المبيضات (الجلدي والفموي والمهبلي والفرجي المهبلي).
-يتنبأ نموذج TxGNN بأنه قد يكون فعالاً في **التهاب الفرج والمهبل (Vulvovaginitis)**، لكن هذا التنبؤ يعيد في معظمه صياغة استطباب قائم أصلاً، ولا توجد **أي تجارب سريرية** مسجلة، مع **20 منشوراً** معظمها مراجعات.
 
 ---
 
@@ -47,10 +46,10 @@ predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease 
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء المبيضات (الجلدي، الفموي، المهبلي الفرجي) |
-| الاستطباب الجديد المتوقع | التهاب الفرج والمهبل (Vulvovaginitis) |
-| درجة تنبؤ TxGNN | 0.9992 |
-| مستوى الأدلة | L4 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Disease of orbital region |
+| درجة تنبؤ TxGNN | 0.9990 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
 | عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |

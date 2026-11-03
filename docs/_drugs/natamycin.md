@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natamycin
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 580
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "natamycin"
-predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
-description: "Natamycin: الاستطباب الجديد المتوقع Vulvovaginal candidiasis (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
+predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
+description: "Natamycin: الاستطباب الجديد المتوقع Vulvitis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Natamycin
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Natamycin: الاستطباب الجديد المتوقع Vulvovag
 
 </div>
 
-## Natamycin: Vulvovaginal candidiasis
+## Natamycin: Vulvitis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,9 +47,9 @@ description: "Natamycin: الاستطباب الجديد المتوقع Vulvovag
 | البند | المحتوى |
 |------|------|
 | المؤشر الأصلي | غير مسجل في البيانات المحلية |
-| المؤشر الجديد المتوقع | Vulvovaginal candidiasis |
-| درجة تنبؤ TxGNN | 0.9997 |
-| مستوى الأدلة | L1 |
+| المؤشر الجديد المتوقع | Vulvitis |
+| درجة تنبؤ TxGNN | 0.9981 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط (Proceed with Guardrails) |
@@ -93,7 +93,6 @@ description: "Natamycin: الاستطباب الجديد المتوقع Vulvovag
 | [11048415](https://pubmed.ncbi.nlm.nih.gov/11048415/) | 1999 | مراجعة | Ceska Gynekologie | مقارنة الناتاميسين بالكلوتريمازول في عدوى الخمائر المهبلية المزمنة |
 | [6607989](https://pubmed.ncbi.nlm.nih.gov/6607989/) | 1984 | تجربة سريرية (داء المبيضّات الفموي) | J Prosthet Dent | الناتاميسين مقابل النيستاتين أثناء العلاج الإشعاعي وبعده |
 | [12849848](https://pubmed.ncbi.nlm.nih.gov/12849848/) | 2003 | دراسة حالة-شاهد (سلامة) | Reproductive Toxicology | دراسة تشوهات خلقية لعلاج الناتاميسين المهبلي أثناء الحمل؛ معلومات مطمئنة لكنها محدودة |
-| [1079741](https://pubmed.ncbi.nlm.nih.gov/1079741/) | 1975 | دراسة سريرية | Br J Vener Dis | كريم ناتاميسين 2% لدى 66 رجلًا مصابًا بداء المبيضّات التناسلي؛ شفاء 82% (98% في الحالات المؤكدة زرعيًا) |
 
 ---
 

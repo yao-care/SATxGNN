@@ -4,17 +4,17 @@ title: Progesterone
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 690
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Progesterone: الاستطباب الجديد المتوقع انقطاع الطمث (Amenorrhea) (مستوى الدليل L5). الاستطباب الأصلي: التهاب بطانة الرحم الهاجر، سرطان بطانة الرحم، هشاشة العظام بعد سن الي…"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "PROGESTERONE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone: الاستطباب الجديد المتوقع Breast fibrocystic disease (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-## البروجيسترون: من التهاب بطانة الرحم إلى انقطاع الطمث (Amenorrhea)
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## ملخص بجملة واحدة
@@ -48,9 +48,9 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهاب بطانة الرحم الهاجر، سرطان بطانة الرحم، هشاشة العظام بعد سن اليأس، التهاب المهبل الضموري بعد سن اليأس (من الرسم المعرفي لـ TxGNN، إذ لا يتوفر نص استطباب معتمد في السعودية) |
-| الاستطباب الجديد المتوقع | انقطاع الطمث (Amenorrhea) |
-| درجة تنبؤ TxGNN | 1.0000 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Breast fibrocystic disease |
+| درجة تنبؤ TxGNN | 0.9998 |
 | مستوى الأدلة | L2 (حسب التقييم المرفق؛ توجد تجربة واحدة من المرحلة 2/3 مكتملة، لكنها تدرس العلاج الهرموني عموماً وليس البروجيسترون وحده، فالمستوى أقرب إلى حدّه الأدنى) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 6 من 6) |
 | عدد التراخيص | 6 (السارية: 6) |
@@ -128,7 +128,6 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 **القرار: المضي مع ضوابط (Proceed with Guardrails)**
 
 **المبررات:**
-- التنبؤ متسق مع الدور الدوائي المعروف للبروجيسترون في اختبار التحدي وعلاج انقطاع الطمث الثانوي، وتوجد تجربتان مكتملتان من المرحلة 3 والمرحلة 2/3، لكنهما تدرسان العلاج الهرموني عموماً لنتائج عظمية، لذا فالأدلة المباشرة محدودة.
 - التراخيص سارية (6 من 6)، والدواء مسوّق حالياً.
 
 **للمضي قدماً يلزم:**

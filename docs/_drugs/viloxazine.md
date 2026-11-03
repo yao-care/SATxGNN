@@ -4,17 +4,17 @@ title: Viloxazine
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 870
 evidence_level: L1
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Viloxazine: الاستطباب الجديد المتوقع اضطراب فرط الحركة وتشتت الانتباه (ADHD) (مستوى الدليل L1). الاستطباب الأصلي: الناركوليبسي (التغفيق)، والناركوليبسي المصحوب بالجُمود (cataplexy)، و…"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "VILOXAZINE"
-predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "Creutzfeldt-Jakob disease", "hypersomnia (disease)", "circadian rhythm sleep disorder", "chondromyxoid fibroma", "X-linked adrenoleukodystrophy", "attention deficit hyperactivity disorder, inattentive type"]
+predicted_indications: ["faciodigitogenital syndrome", "insomnia (disease)", "Creutzfeldt-Jakob disease", "hypersomnia (disease)", "circadian rhythm sleep disorder", "chondromyxoid fibroma", "X-linked adrenoleukodystrophy"]
+description: "Viloxazine: الاستطباب الجديد المتوقع Faciodigitogenital syndrome (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Viloxazine
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 </div>
 
-## فيلوكسازين: من الناركوليبسي (التغفيق) إلى اضطراب فرط الحركة وتشتت الانتباه (ADHD)
+## Viloxazine: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
-كان فيلوكسازين مُصنَّفاً في الأصل لعلاج **الناركوليبسي (التغفيق)** بحسب الرسم المعرفي للنموذج، ويتنبأ نموذج TxGNN بأنه قد يكون فعّالاً في **اضطراب فرط الحركة وتشتت الانتباه (ADHD)** بدرجة تنبؤ مرتفعة جداً.
 وتدعم هذا الاتجاه **5 تجارب سريرية** و**20 منشوراً علمياً** ضمن البيانات المجمّعة لهذا التقرير، بما فيها تجارب المرحلة الثالثة. ويُشار إلى أن هذه الدلالة معتمدة فعلياً للصيغة الممتدة المفعول (Qelbree)، لذا فهي تمثل تأكيداً للتنبؤ أكثر منها إعادة توظيف بالمعنى الدقيق.
 
 ---
@@ -47,9 +46,9 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 | البند | المحتوى |
 |------|------|
-| الدلالة الأصلية | الناركوليبسي (التغفيق)، والناركوليبسي المصحوب بالجُمود (cataplexy)، والناركوليبسي دون جُمود (المصدر: الرسم المعرفي، إذ لا يتوفر نص دلالة في التراخيص) |
-| الدلالة الجديدة المتنبأ بها | اضطراب فرط الحركة وتشتت الانتباه (ADHD) |
-| درجة تنبؤ TxGNN | 0.9995 |
+| الدلالة الأصلية | غير مسجل في البيانات المحلية |
+| الدلالة الجديدة المتنبأ بها | Faciodigitogenital syndrome |
+| درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |

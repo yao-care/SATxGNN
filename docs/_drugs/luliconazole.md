@@ -4,17 +4,17 @@ title: Luliconazole
 parent: أدلة متوسطة (L3-L4)
 nav_order: 520
 evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-30
-description: "Luliconazole: الاستطباب الجديد المتوقع النخالة المبرقشة (Pityriasis versicolor) (مستوى الدليل L3). الاستطباب الأصلي: سعفة القدم، وسعفة الجسم، وعدوى السعفة، والفطريات الجلدية في منطقة الأ…"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "LULICONAZOLE"
-predicted_indications: ["pityriasis versicolor", "endothrix infectious disease", "ectothrix infectious disease"]
+predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
+description: "Luliconazole: الاستطباب الجديد المتوقع Endothrix infectious disease (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Luliconazole
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 
 </div>
 
-## لوليكونازول: من فطريات الجلد (السعفة) إلى النخالة المبرقشة
+## Luliconazole: Endothrix infectious disease
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,9 +48,9 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | سعفة القدم، وسعفة الجسم، وعدوى السعفة، والفطريات الجلدية في منطقة الأربية وحول الشرج (بحسب الرسم المعرفي لنموذج TxGNN، إذ لا يتوفر نص استطباب في بيانات التراخيص السعودية) |
-| الاستطباب الجديد المتنبأ به | النخالة المبرقشة (Pityriasis versicolor) |
-| درجة تنبؤ TxGNN | 0.9913 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Endothrix infectious disease |
+| درجة تنبؤ TxGNN | 0.9910 |
 | مستوى الأدلة | L3 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |
@@ -70,7 +70,6 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 
 | رقم التجربة | المرحلة | الحالة | عدد المشاركين | أبرز النتائج |
 |---------|------|------|------|---------|
-| [NCT07333170](https://clinicaltrials.gov/study/NCT07333170) | المرحلة 4 | لم يبدأ التجنيد بعد | 86 | مقارنة كريم لوليكونازول 2% بكريم كيتوكونازول 1% في النخالة المبرقشة؛ تجربة عشوائية مباشرة الصلة، يُتوقع اكتمالها في نوفمبر 2026، ولا توجد نتائج بعد |
 
 ---
 
@@ -102,7 +101,7 @@ predicted_indications: ["pityriasis versicolor", "endothrix infectious disease",
 **القرار: المضي قدماً مع ضوابط حماية (Proceed with Guardrails)**
 
 **المبررات:**
-- الآلية المعروفة للفئة تدعم التنبؤ، وتوجد دراسة عشوائية مقارِنة منشورة وتجربة مرحلة 4 مسجلة مباشرة الصلة بالنخالة المبرقشة. غير أن التجربة لم تبدأ بعد، والأدلة الحالية عند المستوى L3 فقط.
+- غير أن التجربة لم تبدأ بعد، والأدلة الحالية عند المستوى L3 فقط.
 - الدواء غير مرخص حالياً في المملكة (الترخيص الوحيد ملغى)، وهو ما يستدعي الحذر.
 
 **للمضي قدماً يلزم ما يلي:**

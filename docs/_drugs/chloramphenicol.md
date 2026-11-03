@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: أدلة متوسطة (L3-L4)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 172
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Chloramphenicol: الاستطباب الجديد المتوقع التهاب الملتحمة (مستوى الدليل L3). الاستطباب الأصلي: الحمى التيفية، داء السلمونيلات، الحمى نظيرة التيفية، العدوى السحائية…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "CHLORAMPHENICOL"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+description: "Chloramphenicol: الاستطباب الجديد المتوقع Diffuse scleroderma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 
 </div>
 
-## كلورامفينيكول: من الحمى التيفية إلى التهاب الملتحمة
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الحمى التيفية، داء السلمونيلات، الحمى نظيرة التيفية، العدوى السحائية (وفق البيانات المجمّعة لهذا التقرير) |
-| الاستطباب الجديد المتوقع | التهاب الملتحمة |
-| درجة تنبؤ TxGNN | 0.9966 |
-| مستوى الأدلة | L3 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Diffuse scleroderma |
+| درجة تنبؤ TxGNN | 0.9965 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 15 من 15) |
 | عدد التراخيص | 15 (السارية: 15) |
 | القرار الموصى به | المتابعة مع ضوابط حماية (Proceed with Guardrails) |

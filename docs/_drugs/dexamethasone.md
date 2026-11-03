@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 246
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Dexamethasone: الاستطباب الجديد المتوقع الثعلبة البقعية (alopecia areata) (مستوى الدليل L2). الاستطباب الأصلي: قصور الغدة الكظرية، مرض أديسون، مرض كرون، سرطان الدم اللمفاوي الحاد،…"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "DEXAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: الاستطباب الجديد المتوقع Alopecia mucinosa (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-## ديكساميثازون: من الاستطباب الأصلي (قصور الغدة الكظرية والحالات الالتهابية والمناعية) إلى الثعلبة البقعية
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | قصور الغدة الكظرية، مرض أديسون، مرض كرون، سرطان الدم اللمفاوي الحاد، فرط تنسج الغدة الكظرية الخلقي (من الرسم المعرفي، إذ لا يتوفر نص استطباب معتمد من الهيئة) |
-| الاستطباب الجديد المتوقع | الثعلبة البقعية (alopecia areata) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Alopecia mucinosa |
 | درجة تنبؤ TxGNN | 0.9999 |
-| مستوى الأدلة | L2 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 10 من 10) |
 | عدد التراخيص | 10 (السارية: 10) |
 | القرار الموصى به | المضي قدماً مع ضوابط وقائية (Proceed with Guardrails) |

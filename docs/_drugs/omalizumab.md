@@ -4,17 +4,17 @@ title: Omalizumab
 parent: أدلة متوسطة (L3-L4)
 nav_order: 614
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Omalizumab: الاستطباب الجديد المتوقع التهاب القصبات (Bronchitis) (مستوى الدليل L3). الاستطباب الأصلي: الربو (الربو التحسسي وغير التحسسي) والشرى مجهول السبب (من الرسم المعر…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: الاستطباب الجديد المتوقع التهاب القصبات (bronchitis) (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L3** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 </div>
 
-## أوماليزوماب: من الربو إلى التهاب القصبات
+## Omalizumab: التهاب القصبات (bronchitis)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,8 +48,8 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الربو (الربو التحسسي وغير التحسسي) والشرى مجهول السبب (من الرسم المعرفي، إذ لا يتوفر نص استطباب في تراخيص هيئة الغذاء والدواء السعودية) |
-| الاستطباب الجديد المتوقع | التهاب القصبات (Bronchitis) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | التهاب القصبات (bronchitis) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L3 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |

@@ -4,17 +4,17 @@ title: Lanadelumab
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 478
 evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Lanadelumab: الاستطباب الجديد المتوقع نقص مثبط C1 (مستوى الدليل L1). الاستطباب الأصلي: الوذمة الوعائية الوراثية (بما فيها النوع المصحوب بنقص مثبط C1)"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: الاستطباب الجديد المتوقع Serpinopathy with toxic serpin polymerization (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 </div>
 
-## لاناديلوماب: من الوذمة الوعائية الوراثية إلى نقص مثبط C1
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,9 +48,9 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الوذمة الوعائية الوراثية (بما فيها النوع المصحوب بنقص مثبط C1) |
-| الاستطباب الجديد المتنبأ به | نقص مثبط C1 |
-| درجة تنبؤ TxGNN | 1.0000 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Serpinopathy with toxic serpin polymerization |
+| درجة تنبؤ TxGNN | 0.9999 |
 | مستوى الأدلة | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 1 من 1) |
 | عدد التراخيص | 1 (السارية: 1) |

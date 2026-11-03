@@ -4,17 +4,17 @@ title: Sertraline
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 754
 evidence_level: L5
-indication_count: 8
-last_modified_at: 2026-10-30
-description: "Sertraline: الاستطباب الجديد المتوقع اضطراب الشخصية الفصامية (schizoid personality disorder) (مستوى الدليل L5). الاستطباب الأصلي: اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي ل…"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "SERTRALINE"
-predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: الاستطباب الجديد المتوقع Schizoid personality disorder (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 </div>
 
-## سيترالين: من اضطراب القلق إلى اضطراب الشخصية الفصامية (Schizoid Personality Disorder)
+## Sertraline: Schizoid personality disorder
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,8 +48,8 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | اضطراب القلق (إلى جانب العصاب والاكتئاب الخفيف المزمن والكرب التالي للصدمة والرهاب الاجتماعي والرهاب والوسواس القهري) |
-| الاستطباب الجديد المتنبأ به | اضطراب الشخصية الفصامية |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | Schizoid personality disorder |
 | درجة تنبؤ TxGNN | 0.9993 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 9 من 9) |

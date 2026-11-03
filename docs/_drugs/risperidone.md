@@ -4,17 +4,17 @@ title: Risperidone
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 728
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-31
+indication_count: 4
+last_modified_at: 2026-11-03
 description: "Risperidone: الاستطباب الجديد المتوقع شلل النظر الأفقي العائلي مع الجنف التدريجي (gaze palsy, familial horizontal, with progressive scoliosis) (مستوى الدليل L5). الاستطباب الأصلي: الفصام، اضطراب ثنائي القطب (الهوس)، اضطراب طيف التوحد (لم تتوفر نصوص…"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -126,7 +126,6 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 - بدء الدراسة بأدلة ما قبل السريرية قبل أي تجربة سريرية.
 
 **ملاحظة بشأن استطباب أخرى متنبأ بها:** تضمنت البيانات المجمعة استطبابات متنبأ بها أخرى أقوى أدلة من الاستطباب أعلاه، وتستحق المتابعة:
-- **اضطراب وجداني كبير (major affective disorder):** مستوى الأدلة L1، مع تجربتين من المرحلة الثالثة مكتملتين (NCT00095134 بـ 630 مشاركًا، وNCT00044681 بـ 258 مشاركًا) وعدة مراجعات منهجية. القرار الموصى به: Proceed with Guardrails، بحيث يقتصر الاستخدام على الاكتئاب المقاوم للعلاج كعلاج مساعد مع مراقبة المؤشرات الأيضية والبرولاكتين والأعراض خارج الهرمية. ويتداخل جزء منه مع الاستطباب الأصلي (ثنائي القطب).
 - **نتف الشعر الهوسي (trichotillomania):** مستوى الأدلة L3، مستند إلى تقارير حالات وسلاسل حالات صغيرة فقط ويحتاج إلى تجربة مضبوطة.
 - **متلازمة أسبرجر ومتلازمة فيلان-ماكديرميد:** الأولى مغطاة إلى حد كبير باستطباب التوحد الحالي، والثانية لا تتوفر لها إلا أدلة غير مباشرة وما قبل سريرية.
 ## إخلاء المسؤولية

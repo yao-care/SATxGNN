@@ -4,17 +4,17 @@ title: Clozapine
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 208
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Clozapine: الاستطباب الجديد المتوقع الهوس ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات التراخيص السعودية"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "CLOZAPINE"
-predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
+description: "Clozapine: الاستطباب الجديد المتوقع الهوس ثنائي القطب (manic bipolar affective disorder) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Clozapine
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-## كلوزابين: من الاستطباب الأصلي إلى الهوس ثنائي القطب
+## Clozapine: الهوس ثنائي القطب (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,7 +48,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | غير متوفر في بيانات التراخيص السعودية |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
 | الاستطباب الجديد المتوقع | الهوس ثنائي القطب (manic bipolar affective disorder) |
 | درجة تنبؤ TxGNN | 0.9995 |
 | مستوى الأدلة | L5 (للهوس)؛ L1 للاضطراب ثنائي القطب عموماً |

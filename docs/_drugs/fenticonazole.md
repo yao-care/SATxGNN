@@ -4,17 +4,17 @@ title: Fenticonazole
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 347
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-30
-description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب الفرج والمهبل الناجم عن المشعرات (مستوى الدليل L5). الاستطباب الأصلي: داء المبيضّات الفرجي المهبلي (مأخوذ من رسوم المعرفة في النموذج، إذ لا…"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Fenticonazole"
-predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
+description: "Fenticonazole: الاستطباب الجديد المتوقع التهاب الفرج والمهبل الناجم عن المشعرات (trichomonal vulvovaginitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Fenticonazole
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **6** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic v
 
 </div>
 
-## فينتيكونازول: من داء المبيضّات الفرجي المهبلي إلى التهاب الفرج والمهبل الناجم عن المشعرات
+## Fenticonazole: التهاب الفرج والمهبل الناجم عن المشعرات (trichomonal vulvovaginitis)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,8 +46,8 @@ predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic v
 
 | البند | المحتوى |
 |------|------|
-| الدلالة الأصلية | داء المبيضّات الفرجي المهبلي (مأخوذ من رسوم المعرفة في النموذج، إذ لا يوجد نص دلالة في تراخيص الهيئة) |
-| الدلالة الجديدة المتوقعة | التهاب الفرج والمهبل الناجم عن المشعرات |
+| الدلالة الأصلية | غير مسجل في البيانات المحلية |
+| الدلالة الجديدة المتوقعة | التهاب الفرج والمهبل الناجم عن المشعرات (trichomonal vulvovaginitis) |
 | درجة تنبؤ TxGNN | 0.9950 |
 | مستوى الأدلة | L5 (دراسات مخبرية وآلية، دون تجارب سريرية مباشرة) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 5 من 5) |

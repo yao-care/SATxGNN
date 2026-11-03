@@ -4,17 +4,17 @@ title: Hyaluronic Acid
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 413
 evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Hyaluronic Acid: الاستطباب الجديد المتوقع متلازمة العين الجافة (Dry eye syndrome) (مستوى الدليل L1). الاستطباب الأصلي: غير متوفرة (نصوص الإشارة في التراخيص السعودية فارغة؛ وتدل أسماء المنت…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "HYALURONIC ACID"
-predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
+predicted_indications: ["Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
+description: "Hyaluronic Acid: الاستطباب الجديد المتوقع Sjogren syndrome (مستوى الدليل L1). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Hyaluronic Acid
 {: .fs-9 }
 
-مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L1** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia",
 
 </div>
 
-## حمض الهيالورونيك: من الاستخدامات المرخّصة محليًا إلى متلازمة العين الجافة
+## Hyaluronic Acid: Sjogren syndrome
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,9 +46,9 @@ predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia",
 
 | البند | المحتوى |
 |------|------|
-| الإشارة الأصلية | غير متوفرة (نصوص الإشارة في التراخيص السعودية فارغة؛ وتدل أسماء المنتجات على قطرات عينية وحشوات جلدية) |
-| الإشارة الجديدة المتوقعة | متلازمة العين الجافة (Dry eye syndrome) |
-| درجة تنبؤ TxGNN | 0.9986 |
+| الإشارة الأصلية | غير مسجل في البيانات المحلية |
+| الإشارة الجديدة المتوقعة | Sjogren syndrome |
+| درجة تنبؤ TxGNN | 0.9974 |
 | مستوى الأدلة | L1 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 20 على الأقل) |
 | عدد التراخيص | 20 على الأقل |

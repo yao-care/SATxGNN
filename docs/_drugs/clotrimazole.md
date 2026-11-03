@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: أدلة متوسطة (L3-L4)
 nav_order: 207
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-31
-description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (Acne) (مستوى الدليل L4). الاستطباب الأصلي: قدم الرياضي، السعفة الجسمية، داء المبيضات الجلدي والفموي والمهبلي، ال…"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole: الاستطباب الجديد المتوقع حب الشباب (acne (disease)) (مستوى الدليل L4). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L4** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 
 </div>
 
-## كلوتريمازول: من التهابات الفطريات الجلدية (مثل قدم الرياضي) إلى حب الشباب
+## Clotrimazole: حب الشباب (acne (disease))
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -47,8 +47,8 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | قدم الرياضي، السعفة الجسمية، داء المبيضات الجلدي والفموي والمهبلي، النخالية المبرقشة |
-| الاستطباب الجديد المتوقع | حب الشباب (Acne) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | حب الشباب (acne (disease)) |
 | درجة تنبؤ TxGNN | 0.9986 |
 | مستوى الأدلة | L4 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 17 على الأقل) |

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: أدلة مرتفعة (L1-L2)
+parent: تنبؤ نموذجي فقط (L5)
 nav_order: 30
-evidence_level: L2
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Albendazole: الاستطباب الجديد المتوقع داء المشوكات السنخي (Alveolar echinococcosis) (مستوى الدليل L2). الاستطباب الأصلي: داء المشوكات الكيسي، داء الكيسات المذنبة، العدوى بالمشوكة الحبيبية (م…"
+evidence_level: L5
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "ALBENDAZOLE"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
+predicted_indications: ["coenurosis"]
+description: "Albendazole: الاستطباب الجديد المتوقع Coenurosis (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infect
 
 </div>
 
-## ألبендازول: من داء الكيسات العدارية إلى داء المشوكات السنخي
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,10 +48,10 @@ predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infect
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | داء المشوكات الكيسي، داء الكيسات المذنبة، العدوى بالمشوكة الحبيبية (مصدرها الرسم المعرفي للنموذج، وليس نص الترخيص) |
-| الاستطباب الجديد المتوقع | داء المشوكات السنخي (Alveolar echinococcosis) |
-| درجة تنبؤ TxGNN | 0.9997 |
-| مستوى الأدلة | L2 |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | Coenurosis |
+| درجة تنبؤ TxGNN | 0.9983 |
+| مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |
 | عدد التراخيص | 2 (السارية: 2) |
 | القرار الموصى به | المتابعة مع ضوابط وقائية (Proceed with Guardrails) |
@@ -137,7 +137,6 @@ predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infect
 ### ملاحظة حول المؤشرين الآخرين المتوقعين
 
 - **داء المشوكات الكيسي/الكيسات المذنبة (Coenurosis، الدرجة 0.9983)**: الأدلة المتاحة تخص داء الكيسات المذنبة العصبي (T. solium) لا هذا المرض مباشرة، فالدعم بالاستقراء فقط، وتوجد تقارير حالات محدودة.
-- **عدوى الدودة الشريطية (Cestode infection، الدرجة 0.9974)**: مصطلح عام يعيد في معظمه الاستطبابات القائمة، ويحتاج أي ادعاء جديد إلى تحديد النوع وشكل المرض؛ يُصنف كسؤال بحثي.
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

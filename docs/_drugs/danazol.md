@@ -4,17 +4,17 @@ title: Danazol
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 226
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea) (مستوى الدليل L3). الاستطباب الأصلي: الانتباذ البطاني الرحمي، مرض الثدي الكيسي الليفي (لا يتوفر نص استطباب…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "DANAZOL"
-predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+description: "Danazol: الاستطباب الجديد المتوقع انقطاع الطمث (amenorrhea (disease)) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Danazol
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 </div>
 
-## دانازول: من الانتباذ البطاني الرحمي إلى انقطاع الطمث (Amenorrhea)
+## Danazol: انقطاع الطمث (amenorrhea (disease))
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,8 +46,8 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | الانتباذ البطاني الرحمي، مرض الثدي الكيسي الليفي (لا يتوفر نص استطباب معتمد في تراخيص المملكة) |
-| الاستطباب الجديد المتوقع | انقطاع الطمث (amenorrhea) |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتوقع | انقطاع الطمث (amenorrhea (disease)) |
 | درجة تنبؤ TxGNN | 1.0000 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |

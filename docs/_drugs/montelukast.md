@@ -4,17 +4,17 @@ title: Montelukast
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 568
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Montelukast"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: الاستطباب الجديد المتوقع التهاب الشعب الهوائية (bronchitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **3** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **2** 
 {: .fs-6 .fw-300 }
 
 ---

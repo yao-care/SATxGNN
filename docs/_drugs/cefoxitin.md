@@ -4,17 +4,17 @@ title: Cefoxitin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 156
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 description: "Cefoxitin: الاستطباب الجديد المتوقع التهاب الأذن الوسطى المعدي (infectious otitis media) (مستوى الدليل L5). الاستطباب الأصلي: العدوى البكتيرية (عدوى المكورات العقدية، الالتهاب الرئوي البكتيري، ال…"
 monitor_inn: "Cefoxitin"
-predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
+predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
 ---
 
 # Cefoxitin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **8** 
 {: .fs-6 .fw-300 }
 
 ---

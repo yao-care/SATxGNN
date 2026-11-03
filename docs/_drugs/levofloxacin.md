@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 497
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Levofloxacin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (مستوى الدليل L5). الاستطباب الأصلي: التهابات بكتيرية، منها الالتهاب الرئوي والتهاب الملتحمة والتهاب الجيو…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+description: "Levofloxacin: الاستطباب الجديد المتوقع التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **10** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylas
 
 </div>
 
-## ليفوفلوكساسين: من الالتهابات البكتيرية (الرئوية والملتحمة وغيرها) إلى التهاب القرنية والملتحمة النقطي الظهاري
+## Levofloxacin: التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -48,8 +48,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylas
 
 | البند | المحتوى |
 |------|------|
-| الاستطباب الأصلي | التهابات بكتيرية، منها الالتهاب الرئوي والتهاب الملتحمة والتهاب الجيوب الفكية والتهاب الحويضة والكلية والجمرة الخبيثة (من بيانات الاستطبابات المعرفية، إذ لا تتضمن بيانات التراخيص نص استطباب) |
-| الاستطباب الجديد المتنبأ به | التهاب القرنية والملتحمة النقطي الظهاري |
+| الاستطباب الأصلي | غير مسجل في البيانات المحلية |
+| الاستطباب الجديد المتنبأ به | التهاب القرنية والملتحمة النقطي الظهاري (punctate epithelial keratoconjunctivitis) |
 | درجة تنبؤ TxGNN | 0.9992 |
 | مستوى الأدلة | L5 (تنبؤ النموذج فقط) |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 19 على الأقل) |

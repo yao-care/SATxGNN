@@ -4,17 +4,17 @@ title: Sirolimus
 parent: أدلة مرتفعة (L1-L2)
 nav_order: 761
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Sirolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكلوية وداء LAM (من الرسم المعرفي؛ نص المؤشر المعتمد ف…"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "SIROLIMUS"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus: الاستطباب الجديد المتوقع الساركوما الشحمية (liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L2** | دواعي الاستعمال المتوقعة: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 
 </div>
 
-## سيروليموس: من سرطان الخلايا الكلوية إلى الساركوما الشحمية
+## Sirolimus: الساركوما الشحمية (liposarcoma)
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
@@ -46,8 +46,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 
 | البند | المحتوى |
 |------|------|
-| المؤشر الأصلي | سرطان الخلايا الكلوية وداء LAM (من الرسم المعرفي؛ نص المؤشر المعتمد في السعودية غير متوفر) |
-| المؤشر الجديد المتوقع | الساركوما الشحمية (Liposarcoma) |
+| المؤشر الأصلي | غير مسجل في البيانات المحلية |
+| المؤشر الجديد المتوقع | الساركوما الشحمية (liposarcoma) |
 | درجة تنبؤ TxGNN | 0.9989 |
 | مستوى الأدلة | L2 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 2 من 2) |

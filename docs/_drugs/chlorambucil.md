@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: تنبؤ نموذجي فقط (L5)
 nav_order: 171
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-28
-description: "Chlorambucil: الاستطباب الجديد المتوقع ابيضاض الدم الليمفاوي المزمن/الليمفوما الليمفاوية الصغيرة ما قبل المركز الgerminal (pregerminal center chronic lymphocy… (مستوى الدليل L5). الاستطباب الأصلي: غي…"
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-11-03
+description: "Chlorambucil: الاستطباب الجديد المتوقع ALK-positive large B-cell lymphoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **7** 
+مستوى الأدلة: **L5** | دواعي الاستعمال المتوقعة: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ description: "Chlorambucil: الاستطباب الجديد المتوقع اب�
 
 </div>
 
-## كلورامبوسيل: عامل ألكلة يرتبط بالحمض النووي → ابيضاض الدم الليمفاوي المزمن/الليمفوما الليمفاوية الصغيرة ما قبل المركز الgerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## ملخص في جملة واحدة
 
-كلورامبوسيل دواء مضاد للأورام من فئة عوامل الألكلة التي تتلف الحمض النووي للخلايا سريعة الانقسام. يتوقع نموذج TxGNN أنه قد يكون مفيداً في **ابيضاض الدم الليمفاوي المزمن/الليمفوما الليمفاوية الصغيرة ما قبل المركز الgerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)** بدرجة 0.9972. الأدلة المتوفرة ضعيفة: لا توجد تجارب سريرية مسجلة، وتوجد **ورقة منشورة واحدة** غير مباشرة (مراجعة عام 2003).
+كلورامبوسيل دواء مضاد للأورام من فئة عوامل الألكلة التي تتلف الحمض النووي للخلايا سريعة الانقسام. الأدلة المتوفرة ضعيفة: لا توجد تجارب سريرية مسجلة، وتوجد **ورقة منشورة واحدة** غير مباشرة (مراجعة عام 2003).
 
 ## نظرة سريعة
 
 | البند | المحتوى |
 |------|------|
 | الاستطباب الأصلي | غير مسجل في البيانات المحلية |
-| الاستطباب الجديد المتوقع | ابيضاض الدم الليمفاوي المزمن/الليمفوما الليمفاوية الصغيرة ما قبل المركز الgerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) |
-| درجة TxGNN | 0.9972 |
+| الاستطباب الجديد المتوقع | ALK-positive large B-cell lymphoma |
+| درجة TxGNN | 0.9961 |
 | مستوى الأدلة | L5 |
 | حالة السوق في السعودية | مُسوَّق (التراخيص السارية: 3 من 3) |
 | عدد التراخيص | 3 (السارية: 3) |
