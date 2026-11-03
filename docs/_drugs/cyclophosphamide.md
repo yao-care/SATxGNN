@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 218
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Cyclophosphamide: الاستطباب الجديد المتوقع الابيضاض النقوي (Myeloid Leukemia) (مستوى الدليل L1). الاستطباب الأصلي: الفطار الفطراني (Mycosis Fungoides)، الأورام اللمفية، سرطان الثدي، ال…"
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
@@ -166,6 +166,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 | اللوكيميا النقوية (Myeloid Leukemia) | 0.9947 | L2 | المضي قدماً مع ضوابط؛ الدليل يخص استخدامه في بروتوكولات التهيئة للزرع وللوقاية من داء الطعم ضد المضيف (PTCy) وليس كعلاج مستقل |
 | الأورام خلف الصفاق (Retroperitoneal Neoplasm) | 0.9937 | L4 | سؤال بحثي؛ فئة تشريحية غير متجانسة وأدلة ضعيفة |
 | تشوهات الفقرات مع خلل الغدد الصماء والخلايا التائية | 0.9938 | L5 | تعليق (Hold)؛ لا أدلة، ومن المتوقع أن يزيد الدواء المثبّط للمناعة الخلل التائي سوءاً، والدرجة المرتفعة غالباً أثر للرسم المعرفي |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

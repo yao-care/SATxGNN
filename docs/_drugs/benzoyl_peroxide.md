@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Benzoyl Peroxide: الاستطباب الجديد المتوقع التقرن الجريبي المقلوب في الفرج (مستوى الدليل L5). الاستطباب الأصلي: حب الشباب (إضافة إلى الأكزيما التأتبية والتهاب الجلد التماسي والتهاب…"
 monitor_inn: "BENZOYL PEROXIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
@@ -129,6 +129,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl 
 | التحسس تجاه ميثاكريلات 2-هيدروكسي إيثيل (HEMA) | 0.9943 | L5 | Hold | بيروكسيد البنزويل مسبِّب معروف للتحسس التماسي ومبدئ لبلمرة الأكريلات، فقد يزيد الحالة سوءًا، والتوقع مشكوك في صحته. |
 | الشرى المزمن الضموري الطرفي (Acrodermatitis chronica atrophicans) | 0.9917 | L5 | Hold | مرض لايم الجلدي المتأخر وعلاجه المعتاد مضادات حيوية جهازية، ولا يُرجَّح أن يصل مؤكسد موضعي إلى موضع العدوى. |
 | الورم الجدرة الحبي (Acne keloid) | 0.9906 | L5 | سؤال بحثي | الصلة بالالتهاب الجريبي معقولة، لكن الدراسة الوحيدة (PMID 39090034) تتناول حب الشباب عند الأطفال السود بصورة غير مباشرة ولا تقدم بيانات فعالية. |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

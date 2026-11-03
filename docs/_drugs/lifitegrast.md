@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Lifitegrast: الاستطباب الجديد المتوقع التليّف الليفي القضيبي (Penile fibromatosis) (مستوى الدليل L5). الاستطباب الأصلي: متلازمة جفاف العين (Dry eye syndrome) / جفاف الملتحمة (Xerophthalmia)"
 monitor_inn: "LIFITEGRAST"
 predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -123,6 +123,7 @@ predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhos
 | التليّف الليفي الإصبعي لدى الرضع | 0.9953 | لا مبرر آلياتي واضح |
 | اعتلال الشبكية السكري غير التكاثري الشديد | 0.9924 | صلة معقولة حيوياً (التصاق الكريات البيض)، لكن وصول الصيغة الموضعية إلى الجزء الخلفي من العين مستبعد |
 | اعتلال الشبكية السكري | 0.9903 | ورقة واحدة (PMID: [41158172](https://pubmed.ncbi.nlm.nih.gov/41158172/)، 2025) عن دراسة بروتيوميات وGWAS لتحديد الأهداف، وهي دليل جيني غير سريري ولا يمكن تأكيد ارتباطها المباشر بليفيتغراست |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

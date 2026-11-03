@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: الاستطباب الجديد المتوقع Ectomesenchymoma (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -146,6 +146,7 @@ description: "Pertuzumab: الاستطباب الجديد المتوقع Ectomes
 | الورم الثديي اللمعي A أو B | L2 | سؤال بحثي (الفائدة تعتمد على حالة HER2 وليس على النمط اللمعي، ودعمها من دراسات NeoSphere وTRYPHAENA وPERTAIN) |
 | النمط الثديي الشبيه بالطبيعي | L5 | انتظار (ملاءمة آلية ضعيفة لأنه غالباً HER2 منخفض أو سلبي) |
 | الأورام الأخرى (الأورام الوسيطة الأديمية، ورم الخلايا الحبيبية الجلدي الخبيث، الأورام المرتبطة بـ HHV-8، الورم الصماوي العصبي للأذن الوسطى، سرطان الإحليل البروستاتي والحوض الكلوي الساركومي) | L5 | انتظار (تنبؤ فقط دون أدلة سريرية أو أدبيات) |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

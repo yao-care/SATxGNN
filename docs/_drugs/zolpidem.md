@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 891
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -115,6 +115,7 @@ description: "Zolpidem: الاستطباب الجديد المتوقع Benign pa
 |------|------|------|------|------|
 | الصعر الانتيابي الحميد في الرضع | 0.9926 | L5 | Hold | لا أدلة؛ الصلة بتعديل GABA-A تخمينية، والسلامة لدى الرضع مصدر قلق كبير |
 | رهاب الساحات | 0.9925 | L5 | Hold | لا أدلة؛ نشاط زولبيديم المضاد للقلق ضعيف، وتتوافر علاجات أولى مثبتة، وخطر الاعتماد قائم |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

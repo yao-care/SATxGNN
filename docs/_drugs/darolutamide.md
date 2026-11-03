@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Darolutamide: الاستطباب الجديد المتوقع فرط كوليسترول الدم العائلي متماثل الألائل (مستوى الدليل L5). الاستطباب الأصلي: غير متوفر في بيانات الترخيص المجمّعة"
 monitor_inn: "DAROLUTAMIDE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
@@ -120,6 +120,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 |------|------|------|------|------|------|
 | 2 | الأورام الصماوية المتعددة | 0.9906 | L5 | Hold | تجربتان مرتبطتان (NCT07795177 وNCT03878524) تخصان سرطان البروستاتا ومنصات الطب الدقيق، وليس هذا المرض؛ الرابط الآلي ضعيف وغير مباشر |
 | 3 | عدوى فيروس نقص المناعة البشرية (HIV) | 0.9904 | L5 | Hold | لا يوجد نشاط مضاد للفيروسات معروف، ولا أدلة داعمة؛ يلزم تقييم التداخلات مع مضادات الفيروسات القهقرية |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

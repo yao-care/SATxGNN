@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
 description: "Formoterol: الاستطباب الجديد المتوقع Respiratory malformation (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -153,6 +153,7 @@ description: "Formoterol: الاستطباب الجديد المتوقع Respira
 |------|------|------|------|
 | التشوهات التنفسية الخلقية | 0.9992 | L5 | تأجيل (لا رابط آلي، والأدبيات غير ذات صلة) |
 | متلازمة رينهوف | 0.9990 | L5 | تأجيل (لا أدلة) |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

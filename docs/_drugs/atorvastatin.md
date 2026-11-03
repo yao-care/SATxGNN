@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 81
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Atorvastatin: الاستطباب الجديد المتوقع عدوى فيروس نقص المناعة البشرية (HIV) (مستوى الدليل L1). الاستطباب الأصلي: ارتفاع الدهون الثلاثية، السكتة الدماغية، التصلب العصيدي، فرط كوليسترو…"
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -146,6 +146,7 @@ predicted_indications: ["HIV infectious disease", "brain stem infarction", "chol
 | احتشاء جذع الدماغ | 0.9931 | L5 | سؤال بحثي (أدلة قبل سريرية وغير مباشرة فقط) |
 | نقص بروتين نقل الكوليسترول إستر (CETP) | 0.9925 | L5 | تأجيل (Hold) |
 | اضطراب نمائي عصبي مع رنح وغياب الكلام | 0.9913 | L5 | تأجيل (Hold)، لا توجد أي أدلة داعمة |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

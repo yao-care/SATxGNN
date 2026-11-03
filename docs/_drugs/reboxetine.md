@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 714
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: الاستطباب الجديد المتوقع Benign paroxysmal torticollis of infancy (مستوى الدليل L3). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -131,6 +131,7 @@ description: "Reboxetine: الاستطباب الجديد المتوقع Benign 
 | 8 | الاضطراب العُصابي | 0.9966 | L5 | تعليق | فئة تشخيصية تاريخية واسعة بلا أدلة مباشرة |
 | 9 | متلازمة كيبن-لوبينسكي | 0.9954 | L5 | تعليق | متلازمة نادرة جداً بلا صلة معروفة |
 | 10 | التهاب الملتحمة الخشبي | 0.9940 | L5 | تعليق | سببه نقص البلازمينوجين، ولا صلة له بتثبيط إعادة الامتصاص |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

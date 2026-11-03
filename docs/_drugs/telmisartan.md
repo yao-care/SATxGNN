@@ -5,7 +5,7 @@ parent: أدلة متوسطة (L3-L4)
 nav_order: 793
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Telmisartan: الاستطباب الجديد المتوقع ذبحة برنزميتال (Prinzmetal angina) (مستوى الدليل L5). الاستطباب الأصلي: ارتفاع ضغط الدم، السكتة الدماغية، الاحتشاء الدماغي"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -147,6 +147,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 | اعتلال الكلى بارتفاع الضغط الخبيث | 0.9993 | L5 | Hold | معقول؛ يلزم تقييم وظائف الكلى وفرط البوتاسيوم |
 | نزف دماغي داخلي | 0.9993 | L5 | Research Question | تجربة TRIDENT (المرحلة 3، 1671 مشاركاً) تستخدم حبة ثلاثية تضم تيلميسارتان؛ لا يمكن عزو التأثير إلى تيلميسارتان وحده، وهي للوقاية الثانوية لا للعلاج الحاد |
 | متلازمة براداك | 0.9992 | L5 | Hold | تنبؤ فقط |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

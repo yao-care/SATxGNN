@@ -5,7 +5,7 @@ parent: أدلة مرتفعة (L1-L2)
 nav_order: 767
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Sorafenib: الاستطباب الجديد المتوقع الساركوما الشحمية (Liposarcoma) (مستوى الدليل L2). الاستطباب الأصلي: سرطان الخلايا الكبدية (إضافة إلى سرطان الخلايا الكلوية وسرطان الغدة ا…"
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
@@ -151,6 +151,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 | سرطان الحويضة الكلوية | 0.9940 | L2 | 3 تجارب في سرطان الظهارة البولية (صغيرة أو منتهية مبكراً)، والصلة غير مباشرة |
 | الساركوما الليفية الجلدية المتحدبة (DFSP) | 0.9935 | L4 | تقرير حالة ناجح واحد بعد فشل إيماتينيب؛ أساس آلي عبر PDGFR، ولا تجارب مسجلة |
 | أنماط أخرى (ساركوما الشحم المخاطية المبيضية، سرطان الكلى المرتبط بـXp11.2/TFE3، سرطان الكلى المرتبط بالورم الأرومي العصبي، سرطان الكلى عند الأطفال، ساركوما الفرج) | 0.9937–0.9976 | L5 | لا توجد تجارب ولا أدبيات؛ تنبؤ نموذجي فقط، القرار: Hold |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.

@@ -5,7 +5,7 @@ parent: تنبؤ نموذجي فقط (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: الاستطباب الجديد المتوقع Immature cataract (مستوى الدليل L5). الاستطباب الأصلي: غير مسجل في البيانات المحلية"
@@ -128,6 +128,7 @@ description: "Ranibizumab: الاستطباب الجديد المتوقع Immatu
 |------|------|------|------|
 | إعتام عدسة غير ناضج، ناضج، تضيّق القحف المصحوب بإعتام، تيتاني، نووي شيخوخي، قشري، شيخوخي، وإعتام مرتبط بالسكري النوع 2 | 0.9999 | L4–L5 | الإعتام ليس مرضاً مدفوعاً بـ VEGF؛ الأدبيات المتاحة غير مباشرة (رانيبيزوماب مع جراحة الساد، أو علاج الوذمة البقعية) أو تتعلق بأحداث ضارة، ولا يوجد دليل على علاج الإعتام |
 | مرض النزف عند حديثي الولادة | 0.9987 | L4 | نقص فيتامين K غير مرتبط بحصر VEGF؛ التجربتان المطابقتان (NCT01406639 مسحوبة بلا تسجيل مرضى، وNCT00470977 مرحلة 1/2 لـ 18 مريضاً في أمراض الشبكية) لا تدرسان هذا المرض، والتطابق ناتج عن تشابه في التسمية |
+
 ## إخلاء المسؤولية
 
 هذا المحتوى لأغراض البحث فقط ولا يشكل نصيحة طبية.
