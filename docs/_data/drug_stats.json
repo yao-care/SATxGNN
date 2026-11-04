@@ -3,10 +3,10 @@
   "total_drugs": 882,
   "level_counts": {
     "L1": 13,
-    "L2": 42,
-    "L3": 34,
+    "L2": 40,
+    "L3": 33,
     "L4": 74,
-    "L5": 690
+    "L5": 693
   },
   "all_drugs": [
     {
@@ -3042,7 +3042,7 @@
     {
       "name": "Lornoxicam",
       "slug": "lornoxicam",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 8
     },
     {
@@ -3630,7 +3630,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -4512,7 +4512,7 @@
     {
       "name": "Sirolimus",
       "slug": "sirolimus",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 6
     },
     {
