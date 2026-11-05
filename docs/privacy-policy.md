@@ -32,7 +32,7 @@ description: "سياسة خصوصية SATxGNN: هذا موقع ثابت ولا �
 | الخدمة | الغرض | سياسة الخصوصية |
 |---------|---------|----------------|
 | GitHub Pages | استضافة الموقع | [بيان خصوصية GitHub](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | مكتبة الرسوم البيانية | شبكة توصيل محتوى للأصول الثابتة |
+| cdn.jsdelivr.net | مكتبة الرسوم البيانية | شبكة توصيل محتوى للأصول الثابتة |
 | giscus | التعليقات (حيثما كانت مفعّلة) | [giscus](https://giscus.app/) |
 
 وعندما تشغّل تطبيق SMART on FHIR بنفسك، فإنه يطلب بيانات الأدوية من نظام السجل الصحي
