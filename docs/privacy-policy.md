@@ -32,8 +32,10 @@ description: "سياسة خصوصية SATxGNN: هذا موقع ثابت ولا �
 | الخدمة | الغرض | سياسة الخصوصية |
 |---------|---------|----------------|
 | GitHub Pages | استضافة الموقع | [بيان خصوصية GitHub](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| cdn.jsdelivr.net | مكتبة الرسوم البيانية | شبكة توصيل محتوى للأصول الثابتة |
-| giscus | التعليقات (حيثما كانت مفعّلة) | [giscus](https://giscus.app/) |
+| Google Analytics 4 (www.googletagmanager.com, google-analytics.com) | إحصاءات الزيارات (الصفحات التي تمت مشاهدتها والموقع المُحيل)؛ تستخدم ملفات تعريف ارتباط تحليلية. لا تُرسل عبارات البحث ولا محتوى النماذج ولا معاملات عنوان URL. | [سياسة خصوصية Google](https://policies.google.com/privacy) |
+| cdn.jsdelivr.net | مكتبات برمجية: رسوم d3 البيانية في كل الصفحات؛ ومكتبة Fuse.js لمطابقة الأسماء وعميل SMART on FHIR في صفحات SMART | [سياسة خصوصية jsDelivr](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net) |
+| clinicaltrials.gov | البحث عن التجارب السريرية في صفحات SMART: عند طلبك فقط، يُرسل اسم الدواء واسم الاستطباب إلى واجهة برمجة ClinicalTrials.gov | [سياسات موقع NLM](https://www.nlm.nih.gov/web_policies.html) |
+| rxnav.nlm.nih.gov | تطبيق SMART: تُرسل رموز RxNorm للأدوية المقروءة من سجلك الصحي الإلكتروني إلى واجهة RxNav التابعة للمكتبة الوطنية الأمريكية للطب (NLM) لمعرفة اسم المادة الفعالة (دون أي بيانات تعرّف بالمريض) | [سياسات موقع NLM](https://www.nlm.nih.gov/web_policies.html) |
 
 وعندما تشغّل تطبيق SMART on FHIR بنفسك، فإنه يطلب بيانات الأدوية من نظام السجل الصحي
 الإلكتروني الخاص بك. وتُعالَج تلك البيانات <strong>بالكامل داخل متصفحك</strong>؛ ولا تُرسل
