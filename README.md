@@ -23,7 +23,7 @@ Drug repurposing predictions for Saudi Arabia SFDA-approved drugs using the TxGN
 | **Total Predictions** | 12,123,340 |
 | **Unique Drugs** | 1,102 |
 | **Unique Indications** | 17,041 |
-| **DDI Data** | 302,516 |
+| **DDI Data** | 160,235 |
 | **DFI Data** | 857 |
 | **DHI Data** | 35 |
 | **DDSI Data** | 8,359 |
@@ -219,7 +219,7 @@ PYTHONPATH=src python -m satxgnn.predict.txgnn_model
 | **Drug Data** | SFDA | [SFDA Open Data - Registered Human Drugs List](https://www.sfda.gov.sa/en/open-data) | Saudi Arabia |
 | **Knowledge Graph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Drug Database** | DrugBank | [DrugBank](https://go.drugbank.com/) | Drug ingredient mapping |
-| **Drug Interactions** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
+| **Drug Interactions** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
 | **Drug Interactions** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Approved drug interactions |
 | **Clinical Trials** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Clinical trials registry |
 | **Clinical Trials** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | International clinical trials platform |
