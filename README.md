@@ -24,17 +24,18 @@ Drug repurposing predictions for Saudi Arabia SFDA-approved drugs using the TxGN
 | **Unique Drugs** | 1,102 |
 | **Unique Indications** | 17,041 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 808 MK / 5,659 CUD |
+| **FHIR Resources** | 1,062 MK / 5,706 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 808 | Computational prediction only |
+| **L1** | 13 | Multiple Phase 3 RCTs |
+| **L2** | 39 | Single RCT or multiple Phase 2 |
+| **L3** | 33 | Observational studies |
+| **L4** | 74 | Preclinical / mechanistic studies |
+| **L5** | 694 | Computational prediction only |
+| **N/A** | 29 | Known uses only (no new prediction) |
 
 ### By Source
 
@@ -70,8 +71,8 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| SFDA Total Drugs | 9,650 |
-| Mapped to DrugBank | 6,904 (71.5%) |
+| SFDA Total Drugs | 11,641 |
+| Mapped to DrugBank | 10,666 (91.6%) |
 | Repurposing Candidates | 5,659 |
 
 ### Deep Learning Method
@@ -83,7 +84,7 @@ PYTHONPATH=src python -m satxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 2,169,966 |
+| Total DL Predictions | 2,530,612 |
 | Unique Drugs | 1,102 |
 | Unique Indications | 17,041 |
 
